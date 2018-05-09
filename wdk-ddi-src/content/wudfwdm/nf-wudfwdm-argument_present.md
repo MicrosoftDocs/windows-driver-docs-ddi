@@ -7,7 +7,7 @@ old-location: kernel\argument_present.htm
 old-project: kernel
 ms.assetid: 00b9c218-8ae7-4624-be6b-6b6b2f83764a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ARGUMENT_PRESENT, ARGUMENT_PRESENT macro [Kernel-Mode Driver Architecture], k106_a835da4a-e4c4-4c39-8b20-c7ef88f2ab6b.xml, kernel.argument_present, wudfwdm/ARGUMENT_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wudfwdm.h
 api_name:
 -	ARGUMENT_PRESENT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ARGUMENT_PRESENT macro
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ARGUMENT_PRESENT</b> macro takes an argument pointer and returns <b>FALSE</b> if the pointer is <b>NULL</b>. Otherwise, it returns <b>TRUE</b>.
-
-
-## -syntax
-
-
-````
-BOOLEAN ARGUMENT_PRESENT(
-  [in] CHAR *ArgumentPointer
-);
-````
 
 
 ## -parameters

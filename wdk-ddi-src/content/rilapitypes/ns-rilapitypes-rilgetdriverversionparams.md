@@ -7,7 +7,7 @@ old-location: netvista\rilgetdriverversionparams.htm
 old-project: netvista
 ms.assetid: 42167f2f-0bd5-452c-9b41-d18efac28a33
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdriverversionparams, ntddrilapitypes/RILGETDRIVERVERSIONPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILGETDRIVERVERSIONPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGETDRIVERVERSIONPARAMS, *LPRILGETDRIVERVERSIONPARAMS
-req.product: Windows 10 or later.
 ---
 
 # RILGETDRIVERVERSIONPARAMS structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILGETDRIVERVERSIONPARAMS {
-  DWORD  dwMinVersion;
-  DWORD  dwMaxVersion;
-} RILGETDRIVERVERSIONPARAMS, RILGETDRIVERVERSIONPARAMS;
-````
 
 
 ## -struct-fields

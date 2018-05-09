@@ -7,8 +7,8 @@ old-location: storage\ioctl_cdrom_read_toc.htm
 old-project: storage
 ms.assetid: 4820dca5-7bbe-425d-9063-54450146f273
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_CDROM_READ_TOC, IOCTL_CDROM_READ_TOC control code [Storage Devices], k307_8e0f2b70-edd0-424e-abb4-a81ea9f382fe.xml, ntddcdrm/IOCTL_CDROM_READ_TOC, storage.ioctl_cdrom_read_toc
+ms.date: 3/29/2018
+ms.keywords: IOCTL_CDROM_READ_TOC, IOCTL_CDROM_READ_TOC control, IOCTL_CDROM_READ_TOC control code [Storage Devices], k307_8e0f2b70-edd0-424e-abb4-a81ea9f382fe.xml, ntddcdrm/IOCTL_CDROM_READ_TOC, storage.ioctl_cdrom_read_toc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_READ_TOC
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: 
 ---
 
 # IOCTL_CDROM_READ_TOC IOCTL
@@ -73,12 +74,12 @@ Input buffer.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a> data in the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>.
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551373">CDROM_TOC</a> data in the buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i>.
 
 
 ### -output-buffer-length
 
-Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551373">CDROM_TOC</a>.
 
 
 ### -in-out-buffer
@@ -117,12 +118,11 @@ Client applications should use the <i>Media Control Interface (MCI) API</i> rath
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_toc.md">CDROM_TOC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551373">CDROM_TOC</a>
  
 
  
-
 

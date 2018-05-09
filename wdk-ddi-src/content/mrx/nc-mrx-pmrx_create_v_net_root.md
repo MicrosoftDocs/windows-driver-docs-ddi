@@ -7,7 +7,7 @@ old-location: ifsk\mrxcreatevnetroot.htm
 old-project: ifsk
 ms.assetid: 8cd5aa01-c814-4737-9088-0361e6ee9a61
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: MRxCreateVNetRoot, MRxCreateVNetRoot routine [Installable File System Drivers], PMRX_CREATE_V_NET_ROOT, ifsk.mrxcreatevnetroot, mrx/MRxCreateVNetRoot, mrxref_8d77acec-f7a5-40c6-8543-421c5c1f79f5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,31 +38,19 @@ api_location:
 -	mrx.h
 api_name:
 -	MRxCreateVNetRoot
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_CREATE_V_NET_ROOT callback
+# PMRX_CREATE_V_NET_ROOT callback function
 
 
 ## -description
 
 
 The<i> MRxCreateVNetRoot</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector create a V_NET_ROOT structure and, in some cases, a NET_ROOT structure. 
-
-
-## -prototype
-
-
-````
-PMRX_CREATE_V_NET_ROOT MRxCreateVNetRoot;
-
-NTSTATUS MRxCreateVNetRoot(
-  _Inout_ PMRX_CREATENETROOT_CONTEXT pCreateNetRootContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -177,9 +165,9 @@ A network mini-redirector implementation of <i>MRxCreateVNetRoot</i> is expected
 
 The implementation of <i>MRxCreateVNetRoot</i> in a network mini-redirector is also complicated by the need for transport handles. Certain transport-related interfaces require a handle to be created and used for all communication. Creating a NET_ROOT or V_NET_ROOT structure may require establishing transport-related handles for network communications. Because the process of establishing a network connection can be time consuming, once a connection is established it makes sense to use the connection for communication as long as possible. Once a transport handle to a remote network resource is established, it can be reused by any number of other application requests. When a user application terminates, the handles associated with the process are deleted. For this reason, establishing transport handles in the context of a transient user-mode process that might be short-lived does not make sense. So a NET_ROOT or V_NET_ROOT structure normally needs to be initialized in the context of a well known process that will not disappear while these transport handles are being used for communication. 
 
-One method used to manage this in network mini-redirectors is to have the RDBSS system process allocate these transport handles. This affects how the <i>MRxCreateVNetRoot</i> routine is executed. If the request to <i>MRxCreateVNetRoot</i> was issued in the context of the RDBSS system process, then this call can be executed immediately and does not need to be posted to a work queue. However, in order to avoid problems, if the request to <i>MRxCreateVNetRoot</i> is from any other process, the request would be posted to a system work queue using <a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a> for later execution. RDBSS will later use one of its system threads to process the work queue request and execute <i>MRxCreateVNetRoot</i>. This ensures that any transport handles will be owned by a system process. 
+One method used to manage this in network mini-redirectors is to have the RDBSS system process allocate these transport handles. This affects how the <i>MRxCreateVNetRoot</i> routine is executed. If the request to <i>MRxCreateVNetRoot</i> was issued in the context of the RDBSS system process, then this call can be executed immediately and does not need to be posted to a work queue. However, in order to avoid problems, if the request to <i>MRxCreateVNetRoot</i> is from any other process, the request would be posted to a system work queue using <a href="https://msdn.microsoft.com/library/windows/hardware/ff554398">RxDispatchToWorkerThread</a> for later execution. RDBSS will later use one of its system threads to process the work queue request and execute <i>MRxCreateVNetRoot</i>. This ensures that any transport handles will be owned by a system process. 
 
-A network mini-redirector can determine if a call to <i>MRxCreateVNetRoot</i> was received directly from RDBSS by calling <a href="..\rxstruc\nf-rxstruc-rxgetrdbssprocess.md">RxGetRDBSSProcess</a>. <b>RxGetRDBSSProcess</b> returns the RDBBS process and this value can be compared with the current process returned by calling <a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>. If the call to <i>MRxCreateVNetRoot</i> was not initiated in the context of the RDBSS system process, then <i>MRxCreateVNetRoot</i> can return STATUS_PENDING and post the call to a work queue using <a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread </a>for later execution by RDBSS. Normally, these calls would be posted to the <a href="..\wdm\ne-wdm-_work_queue_type.md">DelayedWorkQueue</a>. 
+A network mini-redirector can determine if a call to <i>MRxCreateVNetRoot</i> was received directly from RDBSS by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554481">RxGetRDBSSProcess</a>. <b>RxGetRDBSSProcess</b> returns the RDBBS process and this value can be compared with the current process returned by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549177">IoGetCurrentProcess</a>. If the call to <i>MRxCreateVNetRoot</i> was not initiated in the context of the RDBSS system process, then <i>MRxCreateVNetRoot</i> can return STATUS_PENDING and post the call to a work queue using <a href="https://msdn.microsoft.com/426d28fa-abfe-44d9-9b15-119f92367b40">RxDispatchToWorkerThread </a>for later execution by RDBSS. Normally, these calls would be posted to the <a href="https://msdn.microsoft.com/5bbebf1f-ca0f-44b7-a5cd-f06b637aa3de">DelayedWorkQueue</a>. 
 
 It is up to the network mini-redirector to decide how <i>MRxCreateVNetRoot</i> is implemented. If this process can take a considerable amount of time, then this call should be completed asynchronously. If transport handles are needed, then the network mini-redirector may want a system process that is long-lived to establish these handles. 
 
@@ -192,48 +180,47 @@ When <i>MRxCreateVNetRoot</i> completes, the <i>pCreateNetRootContext</i> parame
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_finalize_net_root_calldown.md">MRxFinalizeNetRoot</a>
 
 
 
-<a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549177">IoGetCurrentProcess</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_finalize_srvcall_calldown.md">MRxFinalizeSrvCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
 
 
 
-<a href="..\rxstruc\nf-rxstruc-rxgetrdbssprocess.md">RxGetRDBSSProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_create_srvcall.md">MRxCreateSrvCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_preparse_name.md">MRxPreparseName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550656">MRxFinalizeSrvCall</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_srvcall_winner_notify.md">MRxSrvCallWinnerNotify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_finalize_v_net_root_calldown.md">MRxFinalizeVNetRoot</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550750">MRxPreparseName</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_extract_netroot_name.md">MRxExtractNetRootName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554398">RxDispatchToWorkerThread</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554481">RxGetRDBSSProcess</a>
  
 
  
-
 

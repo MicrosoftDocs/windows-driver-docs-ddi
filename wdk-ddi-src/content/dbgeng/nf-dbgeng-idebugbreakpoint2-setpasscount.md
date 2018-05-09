@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.SetPassCount
-title: IDebugBreakpoint2::SetPassCount method
+title: IDebugBreakpoint2::SetPassCount
 author: windows-driver-content
 description: The SetPassCount method sets the number of times that the target must reach the breakpoint location before the breakpoint is triggered.
 old-location: debugger\setpasscount.htm
 old-project: debugger
 ms.assetid: a95f7a8d-7e0d-4971-9683-f83600030337
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComOther_8398fd11-1821-4adb-b8be-4e207b616169.xml, IDebugBreakpoint interface [Windows Debugging], SetPassCount method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetPassCount method, IDebugBreakpoint2::SetPassCount, IDebugBreakpoint::SetPassCount, SetPassCount method [Windows Debugging], SetPassCount method [Windows Debugging], IDebugBreakpoint interface, SetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, SetPassCount,IDebugBreakpoint2.SetPassCount, dbgeng/IDebugBreakpoint2::SetPassCount, dbgeng/IDebugBreakpoint::SetPassCount, debugger.setpasscount
+ms.date: 4/24/2018
+ms.keywords: ComOther_8398fd11-1821-4adb-b8be-4e207b616169.xml, IDebugBreakpoint interface [Windows Debugging],SetPassCount method, IDebugBreakpoint2 interface [Windows Debugging],SetPassCount method, IDebugBreakpoint2.SetPassCount, IDebugBreakpoint2::SetPassCount, IDebugBreakpoint::SetPassCount, SetPassCount, SetPassCount method [Windows Debugging], SetPassCount method [Windows Debugging],IDebugBreakpoint interface, SetPassCount method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetPassCount, dbgeng/IDebugBreakpoint::SetPassCount, debugger.setpasscount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,28 +39,19 @@ api_location:
 api_name:
 -	IDebugBreakpoint.SetPassCount
 -	IDebugBreakpoint2.SetPassCount
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint2::SetPassCount method
+# IDebugBreakpoint2::SetPassCount
 
 
 ## -description
 
 
 The <b>SetPassCount</b> method sets the number of times that the target must reach the breakpoint location before the breakpoint is triggered.
-
-
-## -syntax
-
-
-````
-HRESULT SetPassCount(
-  [in] ULONG Count
-);
-````
 
 
 ## -parameters

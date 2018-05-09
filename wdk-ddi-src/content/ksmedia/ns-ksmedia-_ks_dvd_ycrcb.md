@@ -7,7 +7,7 @@ old-location: stream\ks_dvd_ycrcb.htm
 old-project: stream
 ms.assetid: 78010e49-ad09-4eb3-bb48-17040737a0a0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DVD_YCrCb, KS_DVD_YCrCb, KS_DVD_YCrCb structure [Streaming Media Devices], PKS_DVD_YCrCb, PKS_DVD_YCrCb structure pointer [Streaming Media Devices], _KS_DVD_YCrCb, dvdref_559830d7-6f86-4a27-bc31-1e0e7928d7d4.xml, ksmedia/KS_DVD_YCrCb, ksmedia/PKS_DVD_YCrCb, stream.ks_dvd_ycrcb"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DVD_YCrCb
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DVD_YCrCb, *PKS_DVD_YCrCb
 ---
@@ -50,19 +51,6 @@ req.typenames: KS_DVD_YCrCb, *PKS_DVD_YCrCb
 
 
 The KS_DVD_YCrCb structure is used to describe a color in the YCrCb colorspace.
-
-
-## -syntax
-
-
-````
-typedef struct _KS_DVD_YCrCb {
-  UCHAR Reserved;
-  UCHAR Y;
-  UCHAR Cr;
-  UCHAR Cb;
-} KS_DVD_YCrCb, *PKS_DVD_YCrCb;
-````
 
 
 ## -struct-fields
@@ -101,12 +89,11 @@ The KS_DVD_YCrCb structure is used
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_dvd_yuv.md">KS_DVD_YUV</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567642">KS_DVD_YUV</a>
  
 
  
-
 

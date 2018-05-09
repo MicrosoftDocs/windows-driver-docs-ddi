@@ -7,7 +7,7 @@ old-location: kernel\pci_msix_table_config_interface.htm
 old-project: kernel
 ms.assetid: 0809a963-a0e7-49ca-b483-c39f1606051e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPCI_MSIX_TABLE_CONFIG_INTERFACE, PCI_MSIX_TABLE_CONFIG_INTERFACE, PCI_MSIX_TABLE_CONFIG_INTERFACE structure [Kernel-Mode Driver Architecture], PPCI_MSIX_TABLE_CONFIG_INTERFACE, PPCI_MSIX_TABLE_CONFIG_INTERFACE structure pointer [Kernel-Mode Driver Architecture], _PCI_MSIX_TABLE_CONFIG_INTERFACE, drvr_interface_86de1cfb-1eac-442b-a154-6f23fcab87cd.xml, kernel.pci_msix_table_config_interface, wdm/PCI_MSIX_TABLE_CONFIG_INTERFACE, wdm/PPCI_MSIX_TABLE_CONFIG_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	PCI_MSIX_TABLE_CONFIG_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_MSIX_TABLE_CONFIG_INTERFACE, *PPCI_MSIX_TABLE_CONFIG_INTERFACE
-req.product: Windows 10 or later.
 ---
 
 # _PCI_MSIX_TABLE_CONFIG_INTERFACE structure
@@ -51,25 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structure enables device drivers to modify their MSI-X interrupt settings. This structure  describes the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff558787">GUID_MSIX_TABLE_CONFIG_INTERFACE</a> interface.
-
-
-## -syntax
-
-
-````
-typedef struct _PCI_MSIX_TABLE_CONFIG_INTERFACE {
-  USHORT                     Size;
-  USHORT                     Version;
-  PVOID                      Context;
-  PINTERFACE_REFERENCE       InterfaceReference;
-  PINTERFACE_DEREFERENCE     InterfaceDereference;
-  PPCI_MSIX_SET_ENTRY        SetTableEntry;
-  PPCI_MSIX_MASKUNMASK_ENTRY MaskTableEntry;
-  PPCI_MSIX_MASKUNMASK_ENTRY UnmaskTableEntry;
-  PPCI_MSIX_GET_ENTRY        GetTableEntry;
-  PPCI_MSIX_GET_TABLE_SIZE   GetTableSize;
-} PCI_MSIX_TABLE_CONFIG_INTERFACE, *PPCI_MSIX_TABLE_CONFIG_INTERFACE;
-````
 
 
 ## -struct-fields
@@ -94,27 +75,27 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ### -field SetTableEntry
 
-A pointer to the interface's <a href="..\wdm\nc-wdm-pci_msix_set_entry.md">SetTableEntry</a> routine.
+A pointer to the interface's <a href="https://msdn.microsoft.com/library/windows/hardware/gg604857">SetTableEntry</a> routine.
 
 
 ### -field MaskTableEntry
 
-A pointer to the interface's <a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">MaskTableEntry</a> routine.
+A pointer to the interface's <a href="https://msdn.microsoft.com/library/windows/hardware/gg604852">MaskTableEntry</a> routine.
 
 
 ### -field UnmaskTableEntry
 
-A pointer to the interface's <a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">UnmaskTableEntry</a> routine.
+A pointer to the interface's <a href="https://msdn.microsoft.com/library/windows/hardware/gg604859">UnmaskTableEntry</a> routine.
 
 
 ### -field GetTableEntry
@@ -138,27 +119,6 @@ A driver obtains a pointer to the <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structu
 
 ## -see-also
 
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
-
-
-
-<a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">UnmaskTableEntry</a>
-
-
-
-<a href="..\wdm\nc-wdm-pci_msix_maskunmask_entry.md">MaskTableEntry</a>
-
-
-
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
-
-
-
-<a href="..\wdm\nc-wdm-pci_msix_set_entry.md">SetTableEntry</a>
 
 
 
@@ -166,8 +126,28 @@ A driver obtains a pointer to the <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structu
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg604852">MaskTableEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg604857">SetTableEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg604859">UnmaskTableEntry</a>
  
 
  
-
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F039450D-3B66-4891-9078-7058E889C2F0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface, described, umdf.iwdfunifiedpropertystore, wdf.iwdfunifiedpropertystore, wudfddi/IWDFUnifiedPropertyStore
+ms.keywords: IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface,described, umdf.iwdfunifiedpropertystore, wdf.iwdfunifiedpropertystore, wudfddi/IWDFUnifiedPropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUnifiedPropertyStore
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFUnifiedPropertyStore interface
@@ -103,12 +103,11 @@ Drivers can use the  <b>IWDFUnifiedPropertyStore</b> interface to access device 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451403">IWDFUnifiedPropertyStoreFactory</a>
  
 
  
-
 

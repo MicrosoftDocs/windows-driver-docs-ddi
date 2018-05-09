@@ -7,7 +7,7 @@ old-location: stream\ksproperty_timecode_node_s.htm
 old-project: stream
 ms.assetid: deb218b4-4478-46f6-9859-c1a6d7b73784
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_TIMECODE_NODE_S, KSPROPERTY_TIMECODE_NODE_S, KSPROPERTY_TIMECODE_NODE_S structure [Streaming Media Devices], PKSPROPERTY_TIMECODE_NODE_S, PKSPROPERTY_TIMECODE_NODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TIMECODE_NODE_S, ksmedia/PKSPROPERTY_TIMECODE_NODE_S, stream.ksproperty_timecode_node_s, vidcapstruct_3c1b784a-1cd7-40b8-a0af-35c60b02cc50.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_TIMECODE_NODE_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TIMECODE_NODE_S, *PKSPROPERTY_TIMECODE_NODE_S
 ---
@@ -52,17 +53,6 @@ req.typenames: KSPROPERTY_TIMECODE_NODE_S, *PKSPROPERTY_TIMECODE_NODE_S
 The KSPROPERTY_TIMECODE_NODE_S structure describes a timecode.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSP_NODE        NodeProperty;
-  TIMECODE_SAMPLE TimecodeSamp;
-} KSPROPERTY_TIMECODE_NODE_S, *PKSPROPERTY_TIMECODE_NODE_S;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +60,7 @@ typedef struct {
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID.
+Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID.
 
 
 ### -field TimecodeSamp
@@ -80,20 +70,19 @@ Specifies the timecode sample. Timecode, absolute track number (ATN) and relativ
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_timecode_s.md">KSPROPERTY_TIMECODE_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565781">KSPROPERTY_TIMECODE_S</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagtimecode_sample.md">TIMECODE_SAMPLE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568528">TIMECODE_SAMPLE</a>
  
 
  
-
 

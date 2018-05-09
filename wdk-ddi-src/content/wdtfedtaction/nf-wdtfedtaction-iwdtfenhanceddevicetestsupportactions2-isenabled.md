@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfedtaction.IWDTFEnhancedDeviceTestSupportActions2.IsEnabled
-title: IWDTFEnhancedDeviceTestSupportActions2::IsEnabled method
+title: IWDTFEnhancedDeviceTestSupportActions2::IsEnabled
 author: windows-driver-content
 description: Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver is enabled on the target device.
 old-location: dtf\iwdtfenhanceddevicetestsupportactions2_isenabled.htm
 old-project: dtf
 ms.assetid: 926cf957-3747-4475-a8fc-1c9ca41734f9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFEnhancedDeviceTestSupportActions2, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework], IsEnabled method, IWDTFEnhancedDeviceTestSupportActions2::IsEnabled, IsEnabled method [Windows Device Testing Framework], IsEnabled method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportActions2 interface, IsEnabled,IWDTFEnhancedDeviceTestSupportActions2.IsEnabled, dtf.iwdtfenhanceddevicetestsupportactions2_isenabled, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::IsEnabled
+ms.date: 4/4/2018
+ms.keywords: IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework],IsEnabled method, IWDTFEnhancedDeviceTestSupportActions2.IsEnabled, IWDTFEnhancedDeviceTestSupportActions2::IsEnabled, IsEnabled, IsEnabled method [Windows Device Testing Framework], IsEnabled method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportActions2 interface, dtf.iwdtfenhanceddevicetestsupportactions2_isenabled, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::IsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	wdtfedtaction.h
 api_name:
 -	IWDTFEnhancedDeviceTestSupportActions2.IsEnabled
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFEnhancedDeviceTestSupportActions2::IsEnabled method
+# IWDTFEnhancedDeviceTestSupportActions2::IsEnabled
 
 
 ## -description
@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver is enabled 
 on the target device.
-
-
-## -syntax
-
-
-````
-HRESULT IsEnabled(
-  [out, retval] VARIANT_BOOL *pbEnabled
-);
-````
 
 
 ## -parameters
@@ -85,12 +75,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfedtaction\nn-wdtfedtaction-iwdtfenhanceddevicetestsupportactions2.md">IWDTFEnhancedDeviceTestSupportActions2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450998">IWDTFEnhancedDeviceTestSupportActions2</a>
  
 
  
-
 

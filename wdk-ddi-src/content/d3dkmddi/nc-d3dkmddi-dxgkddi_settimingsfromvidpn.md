@@ -7,8 +7,8 @@ old-location: display\dxgkddi_settimingsfromvidpn.htm
 old-project: display
 ms.assetid: 7E991251-1738-41AD-83D6-60DD7E183D68
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_SETTIMINGSFROMVIDPN, DXGKDDI_SETTIMINGSFROMVIDPN callback function [Display Devices], d3dkmddi/DXGKDDI_SETTIMINGSFROMVIDPN, display.dxgkddi_settimingsfromvidpn
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_SETTIMINGSFROMVIDPN, DXGKDDI_SETTIMINGSFROMVIDPN callback, DXGKDDI_SETTIMINGSFROMVIDPN callback function [Display Devices], d3dkmddi/DXGKDDI_SETTIMINGSFROMVIDPN, display.dxgkddi_settimingsfromvidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_SETTIMINGSFROMVIDPN
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_SETTIMINGSFROMVIDPN callback
+# DXGKDDI_SETTIMINGSFROMVIDPN callback function
 
 
 ## -description
 
 
 DXGKDDI_SETTIMINGSFROMVIDPN is called to set or modify the display timings on an adapter. This DDI replaces DxgkDdiCommitVidPn.
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_SETTIMINGSFROMVIDPN(
-  _In_    const HANDLE                             hAdapter,
-  _Inout_       PDXGKARG_SETTIMINGSFROMVIDPN_CONST pSetTimings
-);
-````
 
 
 ## -parameters
@@ -75,7 +65,7 @@ Identifies the adapter upon which the display timings should be set.
 
 ### -param pSetTimings [in, out]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_settimingsfromvidpn.md">DXGKARG_SETTIMINGSFROMVIDPN</a> structure that describes the display timings to be set.
+A pointer to a <a href="https://msdn.microsoft.com/14D652C4-9812-481E-8E69-A6D7923F01A3">DXGKARG_SETTIMINGSFROMVIDPN</a> structure that describes the display timings to be set.
 
 
 ## -returns

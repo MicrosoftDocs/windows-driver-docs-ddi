@@ -7,7 +7,7 @@ old-location: netvista\ndk_connector.htm
 old-project: netvista
 ms.assetid: B2E4D369-CCCF-4654-875F-69E90FEA1FF9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NDK_CONNECTOR, NDK_CONNECTOR structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR, PNDK_CONNECTOR structure pointer [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR, ndkpi/NDK_CONNECTOR, ndkpi/PNDK_CONNECTOR, netvista.ndk_connector
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NDK_CONNECTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDK_CONNECTOR, NDK_CONNECTOR
+req.typenames: NDK_CONNECTOR
 ---
 
 # _NDK_CONNECTOR structure
@@ -52,17 +53,6 @@ req.typenames: NDK_CONNECTOR, NDK_CONNECTOR
 The <b>NDK_CONNECTOR</b> structure specifies the attributes of an NDK connector object.
 
 
-## -syntax
-
-
-````
-typedef struct _NDK_CONNECTOR {
-  NDK_OBJECT_HEADER            Header;
-  CONST NDK_CONNECTOR_DISPATCH *Dispatch;
-} NDK_CONNECTOR, *PNDK_CONNECTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -70,42 +60,25 @@ typedef struct _NDK_CONNECTOR {
 
 ### -field Header
 
-The <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a> structure for the <b>NDK_CONNECTOR</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypeConnector</b>.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a> structure for the <b>NDK_CONNECTOR</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypeConnector</b>.
 
 
 ### -field Dispatch
 
-A pointer to an <a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a> structure that defines dispatch functions for the NDK connector object.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439853">NDK_CONNECTOR_DISPATCH</a> structure that defines dispatch functions for the NDK connector object.
 
 
 ## -remarks
 
 
 
-An NDK provider must set the <b>Dispatch</b> member pointer to its  <a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a> table before returning the created connector object. The provider must not use the <b>Dispatch</b> member after setting it because the NDK consumer can set the <b>Dispatch</b> member to some other value.
+An NDK provider must set the <b>Dispatch</b> member pointer to its  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439853">NDK_CONNECTOR_DISPATCH</a> table before returning the created connector object. The provider must not use the <b>Dispatch</b> member after setting it because the NDK consumer can set the <b>Dispatch</b> member to some other value.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_connector.md">NDK_FN_CREATE_CONNECTOR</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
-
-
-
-<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 
@@ -113,12 +86,28 @@ An NDK provider must set the <b>Dispatch</b> member pointer to its  <a href="..\
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439853">NDK_CONNECTOR_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439863">NDK_FN_CLOSE_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439872">NDK_FN_CREATE_CONNECTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a>
  
 
  
-
 

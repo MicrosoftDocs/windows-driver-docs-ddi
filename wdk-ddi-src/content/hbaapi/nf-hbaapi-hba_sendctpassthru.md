@@ -7,7 +7,7 @@ old-location: storage\hba_sendctpassthru.htm
 old-project: storage
 ms.assetid: adfdb968-5ba3-43af-899a-7172c9ecf46c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_SendCTPassThru, HBA_SendCTPassThru routine [Storage Devices], fibreHBA_rtns_cae90bb3-cdb2-47fe-92b8-e2bffefa338d.xml, hbaapi/HBA_SendCTPassThru, storage.hba_sendctpassthru
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_SendCTPassThru
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_SendCTPassThru function
@@ -50,20 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_SendCTPassThru</b> routine sends a common transport (CT) pass-through command. 
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_SendCTPassThru(
-  _In_  HBA_HANDLE HbaHandle,
-  _In_  void       *pReqBuffer,
-  _In_  HBA_UINT32 ReqBufferSize,
-  _Out_ void       *pRspBuffer,
-  _In_  HBA_UINT32 RspBufferSize
-);
-````
 
 
 ## -parameters
@@ -98,7 +85,7 @@ Indicates the size of the buffer pointed to by <i>pRspBuffer</i>.
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA that will route the CT command. The HBA routes the CT command to the server that runs the service requested by the CT command. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA that will route the CT command. The HBA routes the CT command to the server that runs the service requested by the CT command. 
 
 
 ## -returns
@@ -123,11 +110,10 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
@@ -135,12 +121,12 @@ A CT command can request services that distribute encryption keys, IP addresses,
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_sendctpassthruv2.md">HBA_SendCTPassThruV2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557209">HBA_SendCTPassThruV2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565409">SendCTPassThru</a>
  
 
  
-
 

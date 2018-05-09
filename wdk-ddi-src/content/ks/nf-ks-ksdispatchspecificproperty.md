@@ -7,7 +7,7 @@ old-location: stream\ksdispatchspecificproperty.htm
 old-project: stream
 ms.assetid: 3ea9a473-606d-4021-89af-5f895020d054
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsDispatchSpecificProperty, KsDispatchSpecificProperty function [Streaming Media Devices], ks/KsDispatchSpecificProperty, ksfunc_b12751b9-b486-4b57-809b-1f3daa8a1c30.xml, stream.ksdispatchspecificproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDispatchSpecificProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,14 +54,6 @@ req.typenames:
 The <b>KsDispatchSpecificProperty</b> function dispatches the property to a specific handler. The function assumes that the caller has previously dispatched this IRP to a handler through the <b>KsPropertyHandler</b> function. 
 
 This function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-KSDDKAPI NTSTATUS NTAPI KsDispatchSpecificProperty(void);
-````
 
 
 ## -parameters
@@ -100,12 +93,11 @@ The <b>KsDispatchSpecificProperty</b> function is intended for additional proces
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a>
  
 
  
-
 

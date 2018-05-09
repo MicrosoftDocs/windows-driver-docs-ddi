@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection
-title: IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection method
+title: IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
 author: windows-driver-content
 description: Sets the loopback protection status of the audio engine node.
 old-location: audio\iminiportstreamaudioenginenode_setstreamloopbackprotection.htm
 old-project: audio
 ms.assetid: FAC9AC9B-9C4B-4D53-A59A-8901EC8755BC
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamLoopbackProtection method, IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection, SetStreamLoopbackProtection method [Audio Devices], SetStreamLoopbackProtection method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamLoopbackProtection,IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection, audio.iminiportstreamaudioenginenode_setstreamloopbackprotection, portcls/IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
+ms.date: 4/16/2018
+ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamLoopbackProtection method, IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection, IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection, SetStreamLoopbackProtection, SetStreamLoopbackProtection method [Audio Devices], SetStreamLoopbackProtection method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamloopbackprotection, portcls/IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportStreamAudioEngineNode.SetStreamLoopbackProtection
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection method
+# IMiniportStreamAudioEngineNode::SetStreamLoopbackProtection
 
 
 ## -description
 
 
 Sets the loopback protection status of the audio engine node.
-
-
-## -syntax
-
-
-````
-NTSTATUS SetStreamLoopbackProtection(
-  [in] CONSTRICTOR_OPTION ProtectionOption
-);
-````
 
 
 ## -parameters
@@ -92,7 +83,6 @@ For more information about audio stream loopback protection, see <a href="https:
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
 
 
@@ -100,12 +90,12 @@ CONSTRICTOR_OPTION
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450878">KSPROPERTY_AUDIOENGINE_LOOPBACK_PROTECTION</a>
-
-
-
  
 
  
-
 

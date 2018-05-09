@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IAdapterPowerManagement.QueryDeviceCapabilities
-title: IAdapterPowerManagement::QueryDeviceCapabilities method
+title: IAdapterPowerManagement::QueryDeviceCapabilities
 author: windows-driver-content
 description: The QueryDeviceCapabilities method is called by PortCls in response to a Plug and Play IRP_MN_QUERY_CAPABILITIES IRP.
 old-location: audio\iadapterpowermanagement_querydevicecapabilities.htm
 old-project: audio
 ms.assetid: 79e8cdb8-8c01-4fed-8490-5adeb52c0ea2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IAdapterPowerManagement, IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, IAdapterPowerManagement::QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface, QueryDeviceCapabilities,IAdapterPowerManagement.QueryDeviceCapabilities, audio.iadapterpowermanagement_querydevicecapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, portcls/IAdapterPowerManagement::QueryDeviceCapabilities
+ms.date: 4/16/2018
+ms.keywords: IAdapterPowerManagement interface [Audio Devices],QueryDeviceCapabilities method, IAdapterPowerManagement.QueryDeviceCapabilities, IAdapterPowerManagement::QueryDeviceCapabilities, QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], QueryDeviceCapabilities method [Audio Devices],IAdapterPowerManagement interface, audio.iadapterpowermanagement_querydevicecapabilities, audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, portcls/IAdapterPowerManagement::QueryDeviceCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IAdapterPowerManagement.QueryDeviceCapabilities
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IAdapterPowerManagement::QueryDeviceCapabilities method
+# IAdapterPowerManagement::QueryDeviceCapabilities
 
 
 ## -description
 
 
 The <code>QueryDeviceCapabilities</code> method is called by PortCls in response to a Plug and Play <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a> IRP.
-
-
-## -syntax
-
-
-````
-NTSTATUS QueryDeviceCapabilities(
-  [in] PDEVICE_CAPABILITIES PowerDeviceCaps
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ NTSTATUS QueryDeviceCapabilities(
 
 ### -param PowerDeviceCaps [in]
 
-Pointer to a <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a> structure specifying the device's capabilities
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a> structure specifying the device's capabilities
 
 
 ## -returns
@@ -89,7 +80,7 @@ This method is called at driver startup to get the capabilities for the device. 
 
 Typically, the adapter driver should not change these settings. If the adapter driver must override the defaults, it can change the mappings to a deeper (less-powered) device power state but not to a weaker (more-powered) device power state. For example, the mappings for S1 (PowerSystemSleeping1) can be changed from D1 to D3, but not to D0.
 
-In order to fill in the <i>PowerDeviceCaps</i> structure for a device, the adapter driver should call <a href="..\portcls\nf-portcls-pcregisteradapterpowermanagement.md">PcRegisterAdapterPowerManagement</a> to register the <b>IAdapterPowerManagement</b> interface at device-startup time. The operating system queries devices before calling the adapter driver's device-startup routine.
+In order to fill in the <i>PowerDeviceCaps</i> structure for a device, the adapter driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff537724">PcRegisterAdapterPowerManagement</a> to register the <b>IAdapterPowerManagement</b> interface at device-startup time. The operating system queries devices before calling the adapter driver's device-startup routine.
 
 In order to change the mappings between system power states and device power states, the adapter driver changes the values in the <b>DeviceState</b> array in the <i>PowerDeviceCaps</i> structure. These mappings should be changed only if necessary. The following code example shows how to map D1 mappings to D3:
 
@@ -116,11 +107,14 @@ The code for the <code>QueryDeviceCapabilities</code> method must reside in page
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcregisteradapterpowermanagement.md">PcRegisterAdapterPowerManagement</a>
 
 
 
-<a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536485">IAdapterPowerManagement</a>
 
 
 
@@ -128,12 +122,8 @@ The code for the <code>QueryDeviceCapabilities</code> method must reside in page
 
 
 
-<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537724">PcRegisterAdapterPowerManagement</a>
  
 
  
-
 

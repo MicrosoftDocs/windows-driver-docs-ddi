@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelsettransactionquota.htm
 old-project: netvista
 ms.assetid: C88F03BE-96D3-46A7-8269-1ECBFA539111
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelSetTransactionQuota, VmbChannelSetTransactionQuota function [Network Drivers Starting with Windows Vista], netvista.vmbchannelsettransactionquota, vmbuskernelmodeclientlibapi/VmbChannelSetTransactionQuota
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelSetTransactionQuota
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelSetTransactionQuota function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelSetTransactionQuota</b> function sets the incoming packet quota. 
-
-
-## -syntax
-
-
-````
-VOID VmbChannelSetTransactionQuota(
-  _In_ VMBCHANNEL Channel,
-  _In_ UINT32     Quota
-);
-````
 
 
 ## -parameters

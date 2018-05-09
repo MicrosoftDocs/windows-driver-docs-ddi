@@ -7,7 +7,7 @@ old-location: kernel\clfsreadpreviousrestartarea.htm
 old-project: kernel
 ms.assetid: 832da270-e1e1-41bf-a9cf-0b363c0d2d74
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsReadPreviousRestartArea, ClfsReadPreviousRestartArea routine [Kernel-Mode Driver Architecture], Clfs_884a8a2f-adbf-415b-968e-2f82c3f5d7fa.xml, kernel.clfsreadpreviousrestartarea, wdm/ClfsReadPreviousRestartArea
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsReadPreviousRestartArea
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsReadPreviousRestartArea function
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>ClfsReadPreviousRestartArea</b> routine reads the previous restart record relative to the current record in a read context.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsReadPreviousRestartArea(
-  _In_  PVOID     pvReadContext,
-  _Out_ PVOID     *ppvRestartBuffer,
-  _Out_ PULONG    pcbRestartBuffer,
-  _Out_ PCLFS_LSN plsnRestart
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ NTSTATUS ClfsReadPreviousRestartArea(
 
 ### -param pvReadContext [in]
 
-A pointer to a read context obtained by a previous call to <a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>.
+A pointer to a read context obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541709">ClfsReadRestartArea</a>.
 
 
 ### -param ppvRestartBuffer [out]
@@ -89,7 +76,7 @@ A pointer to a ULONG-typed variable that receives the size, in bytes, of the buf
 
 ### -param plsnRestart [out]
 
-A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that receives the previous LSN of the restart record that was read.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that receives the previous LSN of the restart record that was read.
 
 
 ## -returns
@@ -111,7 +98,7 @@ For information about reading records from CLFS streams, see <a href="https://ms
 
 Read contexts are not thread-safe. Clients are responsible for serializing access to read contexts.
 
-Clients append restart records to a CLFS log by calling <a href="..\wdm\nf-wdm-clfswriterestartarea.md">ClfsWriteRestartArea</a>.       
+Clients append restart records to a CLFS log by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541770">ClfsWriteRestartArea</a>.       
 
 With the <b>ReadPreviousLogRestartArea</b> routine, clients can implement a form of fuzzy checkpointing. For example, the checkpoint state could consist of the log records delimited by two or more restart records. 
 
@@ -120,20 +107,19 @@ With the <b>ReadPreviousLogRestartArea</b> routine, clients can implement a form
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfswriterestartarea.md">ClfsWriteRestartArea</a>
 
 
 
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541709">ClfsReadRestartArea</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541770">ClfsWriteRestartArea</a>
  
 
  
-
 

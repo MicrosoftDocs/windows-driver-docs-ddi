@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.SetPowerPolicyOwnership
-title: IWDFDeviceInitialize::SetPowerPolicyOwnership method
+title: IWDFDeviceInitialize::SetPowerPolicyOwnership
 author: windows-driver-content
 description: The SetPowerPolicyOwnership method sets the ownership of the power policy to a driver or removes ownership from the driver.
 old-location: wdf\iwdfdeviceinitialize_setpowerpolicyownership.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 18b0b277-97c8-4aff-9f09-34822ce84290
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDeviceInitialize, IWDFDeviceInitialize interface, SetPowerPolicyOwnership method, IWDFDeviceInitialize::SetPowerPolicyOwnership, SetPowerPolicyOwnership method, SetPowerPolicyOwnership method, IWDFDeviceInitialize interface, SetPowerPolicyOwnership,IWDFDeviceInitialize.SetPowerPolicyOwnership, UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml, umdf.iwdfdeviceinitialize_setpowerpolicyownership, wdf.iwdfdeviceinitialize_setpowerpolicyownership, wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership
+ms.keywords: IWDFDeviceInitialize interface,SetPowerPolicyOwnership method, IWDFDeviceInitialize.SetPowerPolicyOwnership, IWDFDeviceInitialize::SetPowerPolicyOwnership, SetPowerPolicyOwnership, SetPowerPolicyOwnership method, SetPowerPolicyOwnership method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_849680d0-e616-4862-9c59-50150f6c15f0.xml, umdf.iwdfdeviceinitialize_setpowerpolicyownership, wdf.iwdfdeviceinitialize_setpowerpolicyownership, wudfddi/IWDFDeviceInitialize::SetPowerPolicyOwnership
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDeviceInitialize.SetPowerPolicyOwnership
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDeviceInitialize::SetPowerPolicyOwnership method
+# IWDFDeviceInitialize::SetPowerPolicyOwnership
 
 
 ## -description
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetPowerPolicyOwnership</b> method sets the ownership of the power policy to a driver or removes ownership from the driver.
-
-
-## -syntax
-
-
-````
-void SetPowerPolicyOwnership(
-  [in] BOOL fTrue
-);
-````
 
 
 ## -parameters
@@ -103,16 +93,15 @@ For a code example of how to use the <b>SetPowerPolicyOwnership</b> method, see 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
  
 
  
-
 

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 838D31E8-1835-47C7-8201-93910610F5EC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFCSE_GET_ROUTING_TABLE, IOCTL_NFCSE_GET_ROUTING_TABLE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_GET_ROUTING_TABLE, nfpdrivers.ioctl_nfcse_get_routing_table
+ms.keywords: IOCTL_NFCSE_GET_ROUTING_TABLE, IOCTL_NFCSE_GET_ROUTING_TABLE control, IOCTL_NFCSE_GET_ROUTING_TABLE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_GET_ROUTING_TABLE, nfpdrivers.ioctl_nfcse_get_routing_table
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_GET_ROUTING_TABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_NFCSE_GET_ROUTING_TABLE IOCTL
@@ -72,7 +73,7 @@ None
 ### -output-buffer
 
 
-<a href="..\nfcsedev\ns-nfcsedev-_secure_element_routing_table.md"> SECURE_ELEMENT_ROUTING_TABLE</a> containing all currently configured routing entries.
+<a href="https://msdn.microsoft.com/AD5E6434-BBBF-44CB-8153-B8F4D4F75E94"> SECURE_ELEMENT_ROUTING_TABLE</a> containing all currently configured routing entries.
 
 
 

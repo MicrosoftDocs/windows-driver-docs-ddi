@@ -7,7 +7,7 @@ old-location: kernel\psunregistersilomonitor.htm
 old-project: kernel
 ms.assetid: B1B85AD5-F626-4177-8218-428B617A97F6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: PsUnregisterSiloMonitor, PsUnregisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psunregistersilomonitor, ntddk/PsUnregisterSiloMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntddk.h
 api_name:
 -	PsUnregisterSiloMonitor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # PsUnregisterSiloMonitor function
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 This routine unregisters a server silo monitor.
-
-
-## -syntax
-
-
-````
-void PsUnregisterSiloMonitor(
-  _In_ _Post_invalid_ PSILO_MONITOR Monitor
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: print\bidi_data.htm
 old-project: print
 ms.assetid: 9e0f3044-01c0-4dec-b34c-0f33ccfe3300
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*LPBIDI_DATA, *PBIDI_DATA, BIDI_DATA, BIDI_DATA structure [Print Devices], LPBIDI_DATA, LPBIDI_DATA structure pointer [Print Devices], PBIDI_DATA, PBIDI_DATA structure pointer [Print Devices], _BIDI_DATA, print.bidi_data, spoolfnc_6e6c0bc2-88f6-43ab-8183-42ee1a91e593.xml, winspool/BIDI_DATA, winspool/LPBIDI_DATA, winspool/PBIDI_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winspool.h
 api_name:
 -	BIDI_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BIDI_DATA, *PBIDI_DATA, *LPBIDI_DATA
-req.product: Windows 10 or later.
 ---
 
 # _BIDI_DATA structure
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The BIDI_DATA structure is used to store the values of a bidi schema.
 
 
-## -syntax
-
-
-````
-typedef struct _BIDI_DATA {
-  DWORD dwBidiType;
-  union {
-    BOOL             bData;
-    LONG             iData;
-    LPWSTR           sData;
-    FLOAT            fData;
-    BINARY_CONTAINER biData;
-  } u;
-} BIDI_DATA, *PBIDI_DATA, *LPBIDI_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -77,71 +60,65 @@ typedef struct _BIDI_DATA {
 
 ### -field dwBidiType
 
-Specifies the type of data in a bidi request as one of the values listed in the <a href="..\winspool\ne-winspool-bidi_type.md">BIDI_TYPE</a> enumeration. The value of this member determines which one of the following five union members is valid.
+Specifies the type of data in a bidi request as one of the values listed in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545211">BIDI_TYPE</a> enumeration. The value of this member determines which one of the following five union members is valid.
 
 
 ### -field u
 
 
-
-#### bData
+### -field u.bData
 
 Specifies the Boolean value. This member is valid only if the value of <b>dwBidiType</b> is BIDI_BOOL, one of the BIDI_TYPE enumerators.
 
 
-
-#### iData
+### -field u.iData
 
 Specifies the integer value. This member is valid only if the value of <b>dwBidiType</b> is BIDI_INT, one of the BIDI_TYPE enumerators.
 
 
-
-#### sData
+### -field u.sData
 
 Pointer to a memory location at which the first byte of the string is stored. This member is valid only if the value of <b>dwBidiType</b> is BIDI_STRING or BIDI_TEXT, two of the BIDI_TYPE enumerators.
 
 
-
-#### fData
+### -field u.fData
 
 Specifies the floating-point value. This member is valid only if the value of <b>dwBidiType</b> is BIDI_FLOAT, one of the BIDI_TYPE enumerators.
 
 
+### -field u.biData
 
-#### biData
-
-Specifies a <a href="..\winspool\ns-winspool-_binary_container.md">BINARY_CONTAINER</a> structure that holds the binary data. This member is valid only if the value of <b>dwBidiType</b> is BIDI_BLOB, one of the BIDI_TYPE enumerators.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545212">BINARY_CONTAINER</a> structure that holds the binary data. This member is valid only if the value of <b>dwBidiType</b> is BIDI_BLOB, one of the BIDI_TYPE enumerators.
 
 
 ## -remarks
 
 
 
-The <a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a> and <a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a> structures each have a member of this type, which holds the bidi data for the request or response.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545196">BIDI_REQUEST_DATA</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff545204">BIDI_RESPONSE_DATA</a> structures each have a member of this type, which holds the bidi data for the request or response.
 
 
 
 
 ## -see-also
 
-<a href="..\winspool\ns-winspool-_bidi_request_data.md">BIDI_REQUEST_DATA</a>
 
 
 
-<a href="..\winspool\ns-winspool-_binary_container.md">BINARY_CONTAINER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545196">BIDI_REQUEST_DATA</a>
 
 
 
-<a href="..\winspool\ns-winspool-_bidi_response_data.md">BIDI_RESPONSE_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545204">BIDI_RESPONSE_DATA</a>
 
 
 
-<a href="..\winspool\ne-winspool-bidi_type.md">BIDI_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545211">BIDI_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545212">BINARY_CONTAINER</a>
  
 
  
-
 

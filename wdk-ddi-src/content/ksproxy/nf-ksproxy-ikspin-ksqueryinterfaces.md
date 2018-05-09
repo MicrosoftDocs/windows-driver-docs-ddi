@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPin.KsQueryInterfaces
-title: IKsPin::KsQueryInterfaces method
+title: IKsPin::KsQueryInterfaces
 author: windows-driver-content
 description: The KsQueryInterfaces method retrieves interfaces that a pin supports.
 old-location: stream\ikspin_ksqueryinterfaces.htm
 old-project: stream
 ms.assetid: e8b0a1c0-c018-4556-b43c-fae4f7cf43de
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsQueryInterfaces method, IKsPin::KsQueryInterfaces, KsQueryInterfaces method [Streaming Media Devices], KsQueryInterfaces method [Streaming Media Devices], IKsPin interface, KsQueryInterfaces,IKsPin.KsQueryInterfaces, ksproxy/IKsPin::KsQueryInterfaces, ksproxy_6a22f676-b7bd-4212-a79a-3a02da890e9f.xml, stream.ikspin_ksqueryinterfaces
+ms.date: 4/23/2018
+ms.keywords: IKsPin interface [Streaming Media Devices],KsQueryInterfaces method, IKsPin.KsQueryInterfaces, IKsPin::KsQueryInterfaces, KsQueryInterfaces, KsQueryInterfaces method [Streaming Media Devices], KsQueryInterfaces method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsQueryInterfaces, ksproxy_6a22f676-b7bd-4212-a79a-3a02da890e9f.xml, stream.ikspin_ksqueryinterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPin.KsQueryInterfaces
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPin::KsQueryInterfaces method
+# IKsPin::KsQueryInterfaces
 
 
 ## -description
 
 
 The <b>KsQueryInterfaces</b> method retrieves interfaces that a pin supports. 
-
-
-## -syntax
-
-
-````
-HRESULT KsQueryInterfaces(
-  [out] PKSMULTIPLE_ITEM *InterfaceList
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ HRESULT KsQueryInterfaces(
 
 ### -param InterfaceList [out]
 
-Pointer to a buffer that receives a pointer to a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> structure, followed by a sequence of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a> structures that describe interface types. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
+Pointer to a buffer that receives a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a> structure, followed by a sequence of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a> structures that describe interface types. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
 
 
 ## -returns
@@ -92,16 +83,15 @@ The returned interfaces are ordered by preference.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
-
-
-
  
 
  
-
 

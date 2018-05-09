@@ -7,7 +7,7 @@ old-location: display\dxgk_colorimetry.htm
 old-project: display
 ms.assetid: F3F9B6EC-B978-4C87-8AE0-8F6BC73099D2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_COLORIMETRY, DXGK_COLORIMETRY, DXGK_COLORIMETRY structure [Display Devices], PDXGK_COLORIMETRY, PDXGK_COLORIMETRY structure pointer [Display Devices], _DXGK_COLORIMETRY, d3dkmddi/DXGK_COLORIMETRY, d3dkmddi/PDXGK_COLORIMETRY, display.dxgk_colorimetry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_COLORIMETRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_COLORIMETRY, *PDXGK_COLORIMETRY
 ---
@@ -52,24 +53,6 @@ req.typenames: DXGK_COLORIMETRY, *PDXGK_COLORIMETRY
 Describes colorimetry and closely related fields used to describe overrides from the descriptor retrieved from the display device.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_COLORIMETRY {
-  D3DKMDT_2DOFFSET                   RedPoint;
-  D3DKMDT_2DOFFSET                   GreenPoint;
-  D3DKMDT_2DOFFSET                   BluePoint;
-  D3DKMDT_2DOFFSET                   WhitePoint;
-  ULONG                              MinLuminance;
-  ULONG                              MaxLuminance;
-  ULONG                              MaxFullFrameLuminance;
-  D3DKMDT_WIRE_FORMAT_AND_PREFERENCE FormatBitDepths;
-  DXGK_STANDARD_COLORIMETRY_FLAGS    StandardColorimetryFlags;
-} DXGK_COLORIMETRY, *PDXGK_COLORIMETRY;
-````
-
-
 ## -struct-fields
 
 
@@ -77,33 +60,34 @@ typedef struct _DXGK_COLORIMETRY {
 
 ### -field RedPoint
 
-Override for chromaticity coordinates of the red color primary in the CIE xy color space. Each dimension is encoded as a 10-bit binary fraction stored in the least significant bits. Zero indicates no override.
+Override for display red point.  Note, each dimension is a 10-bit value stored in the least significant bits.
+Zero indicates no override.
 
 
 ### -field GreenPoint
 
-Override for chromaticity coordinates of the green color primary in the CIE xy color space. Each dimension is encoded as a 10-bit binary fraction stored in the least significant bits. Zero indicates no override.
+Override for display green point. Note, each dimension is a 10-bit value stored in the least significant bits.
 
 
 ### -field BluePoint
 
-Override for chromaticity coordinates of the blue color primary in the CIE xy color space. Each dimension is encoded as a 10-bit binary fraction stored in the least significant bits. Zero indicates no override.
+Override for display blue point. Note, each dimension is a 10-bit value stored in the least significant bits.
 
 
 ### -field WhitePoint
 
-Override for chromaticity coordinates of the white point in the CIE xy color space. Each dimension is encoded as a 10-bit binary fraction stored in the least significant bits. Zero indicates no override.
+Override for display white point. Note, each dimension is a 10-bit value stored in the least significant bits.
 
 
 ### -field MinLuminance
 
-Override for the minimum luminance value supported by the display measured in one ten thousandth of a nit.  Only valid if MaxLuminance is non-zero.  Zero is a valid override value.
+Override for the minimum luminance value supported by the display measured in one ten thousandth of a nit.  Only valid if MaxLuminance is non-zero.  Zero is a valid value.
 
 
 ### -field MaxLuminance
 
 Override for the maximum luminance value supported by the display measured in one ten thousandth of a nit.  This luminance level is expected to be supported for only a relatively small area in any given frame.  
-Zero indicates no override of MaxLuminance, MaxFullFrameLuminance and MinLuminance.
+Zero indicates no override of MaxLuminance, MaxFullFrameLuminance or MinLuminance.
 
 
 

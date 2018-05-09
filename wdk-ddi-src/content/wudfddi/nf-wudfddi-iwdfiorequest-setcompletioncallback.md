@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.SetCompletionCallback
-title: IWDFIoRequest::SetCompletionCallback method
+title: IWDFIoRequest::SetCompletionCallback
 author: windows-driver-content
 description: The SetCompletionCallback method registers the interface for the OnCompletion method that the framework should call when an I/O request completes.
 old-location: wdf\iwdfiorequest_setcompletioncallback.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 316b8b75-91ca-4866-b66d-3f66f20126df
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest, IWDFIoRequest interface, SetCompletionCallback method, IWDFIoRequest::SetCompletionCallback, SetCompletionCallback method, SetCompletionCallback method, IWDFIoRequest interface, SetCompletionCallback,IWDFIoRequest.SetCompletionCallback, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, umdf.iwdfiorequest_setcompletioncallback, wdf.iwdfiorequest_setcompletioncallback, wudfddi/IWDFIoRequest::SetCompletionCallback
+ms.keywords: IWDFIoRequest interface,SetCompletionCallback method, IWDFIoRequest.SetCompletionCallback, IWDFIoRequest::SetCompletionCallback, SetCompletionCallback, SetCompletionCallback method, SetCompletionCallback method,IWDFIoRequest interface, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, umdf.iwdfiorequest_setcompletioncallback, wdf.iwdfiorequest_setcompletioncallback, wudfddi/IWDFIoRequest::SetCompletionCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest.SetCompletionCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::SetCompletionCallback method
+# IWDFIoRequest::SetCompletionCallback
 
 
 ## -description
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetCompletionCallback</b> method registers the interface for the <a href="https://msdn.microsoft.com/1a4787da-2813-4a7a-820a-5c078175aba5">OnCompletion</a> method that the framework should call when an I/O request completes.
 
 
-## -syntax
-
-
-````
-void SetCompletionCallback(
-  [in]           IRequestCallbackRequestCompletion *pCompletionCallback,
-  [in, optional] void                              *pContext
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ void SetCompletionCallback(
 
 ### -param pCompletionCallback [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a> interface whose <a href="https://msdn.microsoft.com/1a4787da-2813-4a7a-820a-5c078175aba5">OnCompletion</a> method the framework calls after the I/O request completes. Beginning with version 1.9 of UMDF, the driver can specify <b>NULL</b> to deregister a previously registered <b>OnCompletion</b> method.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556904">IRequestCallbackRequestCompletion</a> interface whose <a href="https://msdn.microsoft.com/1a4787da-2813-4a7a-820a-5c078175aba5">OnCompletion</a> method the framework calls after the I/O request completes. Beginning with version 1.9 of UMDF, the driver can specify <b>NULL</b> to deregister a previously registered <b>OnCompletion</b> method.
 
 
 ### -param pContext [in, optional]
@@ -94,7 +83,7 @@ None
 
 
 
-If a driver that forwards an I/O request requires notification when the lower-level driver completes the request, the driver can provide a completion routine and call <b>SetCompletionCallback</b> to register the <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a> interface for the completion routine. The framework calls the completion routine after the lower-level driver completes the I/O request.
+If a driver that forwards an I/O request requires notification when the lower-level driver completes the request, the driver can provide a completion routine and call <b>SetCompletionCallback</b> to register the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556904">IRequestCallbackRequestCompletion</a> interface for the completion routine. The framework calls the completion routine after the lower-level driver completes the I/O request.
 
 
 #### Examples
@@ -107,7 +96,10 @@ For a code example of how to use the <b>SetCompletionCallback</b> method, see <a
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556904">IRequestCallbackRequestCompletion</a>
 
 
 
@@ -115,16 +107,12 @@ For a code example of how to use the <b>SetCompletionCallback</b> method, see <a
 
 
 
-<a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
  
 
  
-
 

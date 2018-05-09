@@ -7,7 +7,7 @@ old-location: ifsk\rtlnextunicodeprefix.htm
 old-project: ifsk
 ms.assetid: c4f43f4c-a598-4bda-9325-21440f56ab17
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlNextUnicodePrefix, RtlNextUnicodePrefix routine [Installable File System Drivers], ifsk.rtlnextunicodeprefix, ntifs/RtlNextUnicodePrefix, rtlref_75c728f8-96b0-4e46-b47a-7d30ac61872c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlNextUnicodePrefix
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlNextUnicodePrefix function
@@ -52,17 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>RtlNextUnicodePrefix</b> routine is used to enumerate the elements in a Unicode prefix table. 
 
 
-## -syntax
-
-
-````
-PUNICODE_PREFIX_TABLE_ENTRY RtlNextUnicodePrefix(
-  _In_ PUNICODE_PREFIX_TABLE PrefixTable,
-  _In_ BOOLEAN               Restart
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ PUNICODE_PREFIX_TABLE_ENTRY RtlNextUnicodePrefix(
 
 ### -param PrefixTable [in]
 
-Pointer to the prefix table. The table must have been initialized by calling <a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>.
+Pointer to the prefix table. The table must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff553015">RtlInitializeUnicodePrefix</a>.
 
 
 ### -param Restart [in]
@@ -107,7 +97,7 @@ To enumerate all elements in the table, use <b>RtlNextUnicodePrefix</b> as follo
 
 
 
-File systems must call <a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a> to initialize the prefix table before using any other <b>Rtl..UnicodePrefix</b> routines on it. The initialized prefix table structure should be considered opaque.
+File systems must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff553015">RtlInitializeUnicodePrefix</a> to initialize the prefix table before using any other <b>Rtl..UnicodePrefix</b> routines on it. The initialized prefix table structure should be considered opaque.
 
 Callers of the <b>Rtl..UnicodePrefix</b> routines are responsible for synchronizing access to the prefix table. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 
 
@@ -118,24 +108,23 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlfindunicodeprefix.md">RtlFindUnicodePrefix</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlinsertunicodeprefix.md">RtlInsertUnicodePrefix</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552272">RtlFindUnicodePrefix</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlremoveunicodeprefix.md">RtlRemoveUnicodePrefix</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553015">RtlInitializeUnicodePrefix</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlinitializeunicodeprefix.md">RtlInitializeUnicodePrefix</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553038">RtlInsertUnicodePrefix</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553193">RtlRemoveUnicodePrefix</a>
  
 
  
-
 

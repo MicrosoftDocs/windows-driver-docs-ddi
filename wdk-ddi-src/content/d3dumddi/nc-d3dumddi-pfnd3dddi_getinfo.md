@@ -7,8 +7,8 @@ old-location: display\getinfo.htm
 old-project: display
 ms.assetid: dcc0519e-f919-48bc-829f-416648de0b40
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetInfo, GetInfo callback function [Display Devices], PFND3DDDI_GETINFO, UserModeDisplayDriver_Functions_21bbab23-9804-468e-80fb-6618f8356ac7.xml, d3dumddi/GetInfo, display.getinfo
+ms.date: 4/16/2018
+ms.keywords: GetInfo, GetInfo callback function [Display Devices], PFND3DDDI_GETINFO, PFND3DDDI_GETINFO callback, UserModeDisplayDriver_Functions_21bbab23-9804-468e-80fb-6618f8356ac7.xml, d3dumddi/GetInfo, display.getinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,34 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	GetInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_GETINFO callback
+# PFND3DDDI_GETINFO callback function
 
 
 ## -description
 
 
 The <i>GetInfo</i> function retrieves information about the specified display device.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_GETINFO GetInfo;
-
-__checkReturn HRESULT APIENTRY GetInfo(
-   __in HANDLE                   hDevice,
-   __in UINT                     DevInfoID,
-   __out_bcount(DevInfoSize)VOID *pDevInfoStruct,
-   __in UINT                     DevInfoSize
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -78,7 +63,7 @@ __checkReturn HRESULT APIENTRY GetInfo(
  A handle to the display device (graphics context).
 
 
-### -param UINT
+### -param Arg1
 
 
 ### -param *
@@ -155,23 +140,22 @@ Parameters were validated and determined to be incorrect.
 
 The Microsoft DirectX 7 and DirectX 8 runtimes call the <i>GetInfo</i> function to query a user-mode display driver for additional device information.
 
-The Direct3D 8 runtime sets the D3DDDIDEVINFOID_VCACHE flag in the <i>DevInfoID</i> parameter and specifies an empty <a href="..\d3dumddi\ns-d3dumddi-_d3dddidevinfo_vcache.md">D3DDDIDEVINFO_VCACHE</a> structure in the <i>pDevInfoStruct</i> parameter to query the user-mode display driver's support for vertex cache.
+The Direct3D 8 runtime sets the D3DDDIDEVINFOID_VCACHE flag in the <i>DevInfoID</i> parameter and specifies an empty <a href="https://msdn.microsoft.com/library/windows/hardware/ff544294">D3DDDIDEVINFO_VCACHE</a> structure in the <i>pDevInfoStruct</i> parameter to query the user-mode display driver's support for vertex cache.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddidevinfo_vcache.md">D3DDDIDEVINFO_VCACHE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544294">D3DDDIDEVINFO_VCACHE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetBytes
-title: IPrinterScriptablePropertyBag::SetBytes method
+title: IPrinterScriptablePropertyBag::SetBytes
 author: windows-driver-content
 description: Writes a byte array property.
 old-location: print\iprinterscriptablepropertybag_setbytes.htm
 old-project: print
 ms.assetid: 517CF135-A5D7-4C99-8592-59934E24DEE3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], SetBytes method, IPrinterScriptablePropertyBag::SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices], IPrinterScriptablePropertyBag interface, SetBytes,IPrinterScriptablePropertyBag.SetBytes, print.iprinterscriptablepropertybag_setbytes, printerextension/IPrinterScriptablePropertyBag::SetBytes
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetBytes method, IPrinterScriptablePropertyBag.SetBytes, IPrinterScriptablePropertyBag::SetBytes, SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setbytes, printerextension/IPrinterScriptablePropertyBag::SetBytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptablePropertyBag.SetBytes
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptablePropertyBag::SetBytes method
+# IPrinterScriptablePropertyBag::SetBytes
 
 
 ## -description
 
 
 Writes a byte array property.
-
-
-## -syntax
-
-
-````
-HRESULT SetBytes(
-  [in] BSTR      bstrName,
-  [in] IDispatch *pdispArray
-);
-````
 
 
 ## -parameters
@@ -106,12 +95,11 @@ A call to <b>SetBytes</b> will throw an exception, if the specified property is 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
  
 
  
-
 

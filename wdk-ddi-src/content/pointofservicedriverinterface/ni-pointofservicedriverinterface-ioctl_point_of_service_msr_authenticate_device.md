@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: fc6b719d-3e05-4ff5-9d81-1e9326ff4ad4
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_authenticate_device
+ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_authenticate_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PosPropertyId
+req.typenames: 
 ---
 
 # IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE IOCTL
@@ -59,7 +60,7 @@ This IO control function authenticates the magnetic stripe reader (MSR).
 
 ### -input-buffer
 
-Pointer to the input buffer, a <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_msr_authenticate_device.md">MSR_AUTHENTICATE_DEVICE</a> variable.
+Pointer to the input buffer, a <a href="https://msdn.microsoft.com/library/windows/hardware/dn772178">MSR_AUTHENTICATE_DEVICE</a> variable.
 
 
 ### -input-buffer-length

@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bth_sdp_remove_record.htm
 old-project: bltooth
 ms.assetid: 8d559078-ece5-4e15-b010-e39b86679398
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_BTH_SDP_REMOVE_RECORD, IOCTL_BTH_SDP_REMOVE_RECORD control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_remove_record, bth_ioctls_863ca82b-4cb5-444c-bd29-b1d620e509a4.xml, bthioctl/IOCTL_BTH_SDP_REMOVE_RECORD
+ms.date: 4/27/2018
+ms.keywords: IOCTL_BTH_SDP_REMOVE_RECORD, IOCTL_BTH_SDP_REMOVE_RECORD control, IOCTL_BTH_SDP_REMOVE_RECORD control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_remove_record, bth_ioctls_863ca82b-4cb5-444c-bd29-b1d620e509a4.xml, bthioctl/IOCTL_BTH_SDP_REMOVE_RECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_SDP_REMOVE_RECORD
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
+req.typenames: 
 ---
 
 # IOCTL_BTH_SDP_REMOVE_RECORD IOCTL
@@ -66,8 +67,8 @@ The IOCTL_BTH_SDP_REMOVE_RECORD request removes a local SDP record that the prof
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains an SDP connection handle from which to remove the SDP
       record. This must be a handle returned from a call to 
-      <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a> or 
-      <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record_with_info.md">
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536693">IOCTL_BTH_SDP_SUBMIT_RECORD</a> or 
+      <a href="https://msdn.microsoft.com/774d1bda-2d9b-4ab4-97cf-b358471d8716">
       IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>. Handles from other sources are invalid in this
       context.
 
@@ -176,17 +177,16 @@ If the record to be removed was published using IOCTL_BTH_SDP_SUBMIT_RECORD_WITH
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record_with_info.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536693">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
+
+
+
+<a href="https://msdn.microsoft.com/774d1bda-2d9b-4ab4-97cf-b358471d8716">
    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>
-
-
-
  
 
  
-
 

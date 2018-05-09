@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.AcquireLock
-title: IWDFObject::AcquireLock method
+title: IWDFObject::AcquireLock
 author: windows-driver-content
 description: The AcquireLock method prevents the framework from calling methods of interfaces that a driver registered.
 old-location: wdf\iwdfobject_acquirelock.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f69328fb-356b-4381-ae6e-df39ac60e032
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: AcquireLock method, AcquireLock method, IWDFObject interface, AcquireLock,IWDFObject.AcquireLock, IWDFObject, IWDFObject interface, AcquireLock method, IWDFObject::AcquireLock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, umdf.iwdfobject_acquirelock, wdf.iwdfobject_acquirelock, wudfddi/IWDFObject::AcquireLock
+ms.keywords: AcquireLock, AcquireLock method, AcquireLock method,IWDFObject interface, IWDFObject interface,AcquireLock method, IWDFObject.AcquireLock, IWDFObject::AcquireLock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, umdf.iwdfobject_acquirelock, wdf.iwdfobject_acquirelock, wudfddi/IWDFObject::AcquireLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFObject.AcquireLock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFObject::AcquireLock method
+# IWDFObject::AcquireLock
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>AcquireLock</b> method prevents the framework from calling methods of interfaces that a driver registered.
-
-
-## -syntax
-
-
-````
-void AcquireLock();
-````
 
 
 ## -parameters
@@ -100,16 +92,15 @@ For a code example of how to use the <b>AcquireLock</b> method, see <a href="htt
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560214">IWDFObject::ReleaseLock</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dddi_trimresidencyset_flags.htm
 old-project: display
 ms.assetid: B063561B-FA79-44B4-A058-71DB9CBF4804
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_TRIMRESIDENCYSET_FLAGS, D3DDDI_TRIMRESIDENCYSET_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS, display.d3dddi_trimresidencyset_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_TRIMRESIDENCYSET_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_TRIMRESIDENCYSET_FLAGS
 ---
@@ -49,25 +50,7 @@ req.typenames: D3DDDI_TRIMRESIDENCYSET_FLAGS
 ## -description
 
 
-<b>D3DDDI_TRIMRESIDENCYSET_FLAGS</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a> to trim the residency list for a given device.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDI_TRIMRESIDENCYSET_FLAGS {
-  union {
-    struct {
-      UINT PeriodicTrim  :1;
-      UINT RestartPeriodicTrim  :1;
-      UINT TrimToBudget  :1;
-      UINT Reserved  :29;
-    };
-    UINT Value;
-  };
-} D3DDDI_TRIMRESIDENCYSET_FLAGS;
-````
+<b>D3DDDI_TRIMRESIDENCYSET_FLAGS</b> is used with <a href="https://msdn.microsoft.com/192F419C-F38F-4B42-8111-86D58D6781DA">pfnTrimResidencySet</a> to trim the residency list for a given device.
 
 
 ## -struct-fields
@@ -103,19 +86,18 @@ Indicates that the application usage is over the memory budget
 This member is reserved and should be set to zero.
 
 
-#### - Value
+### -field Value
 
 The consolidated value of the bit-fields in the structure.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a>
 
 
 
+<a href="https://msdn.microsoft.com/192F419C-F38F-4B42-8111-86D58D6781DA">pfnTrimResidencySet</a>
  
 
  
-
 

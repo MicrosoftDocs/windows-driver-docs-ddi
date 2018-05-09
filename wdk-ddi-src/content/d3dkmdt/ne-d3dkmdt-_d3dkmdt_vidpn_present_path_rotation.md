@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vidpn_present_path_rotation.htm
 old-project: display
 ms.assetid: 4966ba24-35ed-453a-9483-bd3337e31b83
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration [Display Devices], D3DKMDT_VPPR_IDENTITY, D3DKMDT_VPPR_IDENTITY_OFFSET180, D3DKMDT_VPPR_IDENTITY_OFFSET270, D3DKMDT_VPPR_IDENTITY_OFFSET90, D3DKMDT_VPPR_NOTSPECIFIED, D3DKMDT_VPPR_ROTATE180, D3DKMDT_VPPR_ROTATE180_OFFSET180, D3DKMDT_VPPR_ROTATE180_OFFSET270, D3DKMDT_VPPR_ROTATE180_OFFSET90, D3DKMDT_VPPR_ROTATE270, D3DKMDT_VPPR_ROTATE270_OFFSET180, D3DKMDT_VPPR_ROTATE270_OFFSET270, D3DKMDT_VPPR_ROTATE270_OFFSET90, D3DKMDT_VPPR_ROTATE90, D3DKMDT_VPPR_ROTATE90_OFFSET180, D3DKMDT_VPPR_ROTATE90_OFFSET270, D3DKMDT_VPPR_ROTATE90_OFFSET90, D3DKMDT_VPPR_UNINITIALIZED, D3DKMDT_VPPR_UNPINNED, DmEnums_f69499aa-0366-4826-ada7-0c3107842fc8.xml, _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_ROTATION, d3dkmdt/D3DKMDT_VPPR_IDENTITY, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET180, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET270, d3dkmdt/D3DKMDT_VPPR_IDENTITY_OFFSET90, d3dkmdt/D3DKMDT_VPPR_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPR_ROTATE180, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET180, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET270, d3dkmdt/D3DKMDT_VPPR_ROTATE180_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE270, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET180, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET270, d3dkmdt/D3DKMDT_VPPR_ROTATE270_OFFSET90, d3dkmdt/D3DKMDT_VPPR_ROTATE90, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET180, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET270, d3dkmdt/D3DKMDT_VPPR_ROTATE90_OFFSET90, d3dkmdt/D3DKMDT_VPPR_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPR_UNPINNED, display.d3dkmdt_vidpn_present_path_rotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
 ---
@@ -50,36 +51,6 @@ req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
 
 
 The D3DKMDT_VIDPN_PRESENT_PATH_ROTATION enumeration is used to indicate the rotation angle applied to content displayed on a VidPN present path.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION { 
-  D3DKMDT_VPPR_UNINITIALIZED        = 0,
-  D3DKMDT_VPPR_IDENTITY             = 1,
-  D3DKMDT_VPPR_ROTATE90             = 2,
-  D3DKMDT_VPPR_ROTATE180            = 3,
-  D3DKMDT_VPPR_ROTATE270            = 4,
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION)
-  D3DKMDT_VPPR_IDENTITY_OFFSET90    = 5,
-  D3DKMDT_VPPR_ROTATE90_OFFSET90    = 6,
-  D3DKMDT_VPPR_ROTATE180_OFFSET90   = 7,
-  D3DKMDT_VPPR_ROTATE270_OFFSET90   = 8,
-  D3DKMDT_VPPR_IDENTITY_OFFSET180   = 9,
-  D3DKMDT_VPPR_ROTATE90_OFFSET180   = 10,
-  D3DKMDT_VPPR_ROTATE180_OFFSET180  = 11,
-  D3DKMDT_VPPR_ROTATE270_OFFSET180  = 12,
-  D3DKMDT_VPPR_IDENTITY_OFFSET270   = 13,
-  D3DKMDT_VPPR_ROTATE90_OFFSET270   = 14,
-  D3DKMDT_VPPR_ROTATE180_OFFSET270  = 15,
-  D3DKMDT_VPPR_ROTATE270_OFFSET270  = 16,
-#endif 
-  D3DKMDT_VPPR_UNPINNED             = 254,
-  D3DKMDT_VPPR_NOTSPECIFIED         = 255
-} D3DKMDT_VIDPN_PRESENT_PATH_ROTATION;
-````
 
 
 ## -enum-fields
@@ -210,7 +181,7 @@ Indicates that no rotation angle (including identity) has been specified.
 
 
 
-The <b>Rotation</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure is a value from the <b>D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</b> enumeration.
+The <b>Rotation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546719">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a> structure is a value from the <b>D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</b> enumeration.
 
 Starting with Windows 8.1 Update, new constant values (<b>D3DKMDT_VPPR_XXX_OFFSETXXX</b>) are available to specify both the default orientation of a display device and an additional angle (offset) that the user has rotated the device.
 
@@ -242,12 +213,11 @@ Here are some examples of how to set the default orientation and offset:
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_transformation.md">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546719">D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION</a>
  
 
  
-
 

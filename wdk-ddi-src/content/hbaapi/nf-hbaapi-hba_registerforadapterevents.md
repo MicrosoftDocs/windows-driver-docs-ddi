@@ -7,7 +7,7 @@ old-location: storage\hba_registerforadapterevents.htm
 old-project: storage
 ms.assetid: b5e671dc-0583-4e5f-b537-3257b3f25479
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_RegisterForAdapterEvents, HBA_RegisterForAdapterEvents routine [Storage Devices], fibreHBA_rtns_8ab64c5b-ffac-4e2a-90db-5f3cbc640f14.xml, hbaapi/HBA_RegisterForAdapterEvents, storage.hba_registerforadapterevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_RegisterForAdapterEvents
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_RegisterForAdapterEvents function
@@ -50,19 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_RegisterForAdapterEvents</b> routine registers the indicated user callback routine to call when an adapter event occurs. 
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_RegisterForAdapterEvents(
-   HBA_ADAPTER_CALLBACK callback,
-   void                 *userData,
-   HBA_HANDLE           handle,
-   HBA_CALLBACKHANDLE   *callbackHandle
-);
-````
 
 
 ## -parameters
@@ -94,12 +82,12 @@ TBD
 
 #### - callbackHandle
 
-Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
+Contains an opaque identifier that the user must pass to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a> to de-register the callback routine.
 
 
 #### - handle
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA for which the adapter events are generated. 
 
 
 #### - userData
@@ -159,11 +147,6 @@ If the configuration of the HBA referenced by <i>handle </i>is changed, the call
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
@@ -171,12 +154,16 @@ If the configuration of the HBA referenced by <i>handle </i>is changed, the call
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557175">HBA_RemoveCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
  
 
  
-
 

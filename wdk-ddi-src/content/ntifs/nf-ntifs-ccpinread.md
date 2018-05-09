@@ -7,7 +7,7 @@ old-location: ifsk\ccpinread.htm
 old-project: ifsk
 ms.assetid: 46b0e05e-f7e2-4a9b-bec0-26bcaf31b013
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: CcPinRead, CcPinRead routine [Installable File System Drivers], ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, ifsk.ccpinread, ntifs/CcPinRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcPinRead
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcPinRead function
@@ -50,21 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>CcPinRead</b> routine pins the specified byte range of a cached file and reads the pinned data into a buffer in memory.
-
-
-## -syntax
-
-
-````
-BOOLEAN CcPinRead(
-  _In_  PFILE_OBJECT   FileObject,
-  _In_  PLARGE_INTEGER FileOffset,
-  _In_  ULONG          Length,
-  _In_  ULONG          Flags,
-  _Out_ PVOID          *Bcb,
-  _Out_ PVOID          *Buffer
-);
-````
 
 
 ## -parameters
@@ -165,11 +151,11 @@ Pointer to a buffer containing the pinned data.
 
 If the PIN_WAIT flag is set, <b>CcPinRead</b> is guaranteed to complete the pinning request and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data is pinned immediately and no blocking occurs. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the data can be pinned. If the PIN_WAIT flag is not set, but the data cannot be pinned immediately, <b>CcPinRead</b> returns <b>FALSE</b>, and its output parameter values are meaningless.
 
-If the caller subsequently modifies the data read by <b>CcPinRead</b>, it must also call <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a> so that the modified data will eventually be written to disk.
+If the caller subsequently modifies the data read by <b>CcPinRead</b>, it must also call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a> so that the modified data will eventually be written to disk.
 
-Every successful call to <b>CcPinRead</b> must be matched by a subsequent call to <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>.
+Every successful call to <b>CcPinRead</b> must be matched by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>.
 
-The pointer returned in <i>Buffer</i> is valid until <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a> is called. If <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a> is called while this pointer is still valid, the pointer remains valid after the call to <b>CcPinMappedData</b> (but only until <b>CcUnpinData</b> is called).
+The pointer returned in <i>Buffer</i> is valid until <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a> is called. If <a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a> is called while this pointer is still valid, the pointer remains valid after the call to <b>CcPinMappedData</b> (but only until <b>CcUnpinData</b> is called).
 
 <b>CcPinRead</b> cannot pin data across view boundaries in the cache manager. The cache manager manages files in the system in 256 KB-aligned views. (The cache manager's view size is specified by the system-defined constant VACB_MAPPING_GRANULARITY, which is set to 256 KB in ntifs.h.) Pinned regions cannot span more than one 256 KB view. Therefore, the largest region that can be pinned is 256 KB, beginning at a 256 KB-aligned offset in the file. 
 
@@ -177,39 +163,38 @@ Pinning a byte range in a cached file does not ensure that the pages remain resi
 
 If any failure occurs, <b>CcPinRead</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcPinRead</b> raises a STATUS_INSUFFICIENT_RESOURCES exception; if an I/O error occurs, <b>CcPinRead</b> raises the status exception of the I/O error. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcPinRead</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
-To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a> routine. To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
+To map data for a cached file, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a> routine. To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
  
 
  
-
 

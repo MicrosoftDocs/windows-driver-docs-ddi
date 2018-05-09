@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_resource_uav_barrier.htm
 old-project: display
 ms.assetid: 8473EB26-54C5-49D0-A854-422086CE8CCC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_RESOURCE_UAV_BARRIER, D3D12DDI_RESOURCE_UAV_BARRIER structure [Display Devices], d3d12umddi/D3D12DDI_RESOURCE_UAV_BARRIER, display.d3d12ddi_resource_uav_barrier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_RESOURCE_UAV_BARRIER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_RESOURCE_UAV_BARRIER
 ---
@@ -50,16 +51,6 @@ req.typenames: D3D12DDI_RESOURCE_UAV_BARRIER
 
 
 Contains an unordered access view (UAV) barrier.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_RESOURCE_UAV_BARRIER {
-  D3D12DDI_HRESOURCE hResource;
-} D3D12DDI_RESOURCE_UAV_BARRIER;
-````
 
 
 ## -struct-fields

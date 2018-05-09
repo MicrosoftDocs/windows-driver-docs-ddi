@@ -38,10 +38,10 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	imp_WppRecorderLogSetIdentifier
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # imp_WppRecorderLogSetIdentifier function
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderlogsetidentifier.md">WppRecorderLogSetIdentifier</a> method sets a string identifier for the recorder log.
-
-
-## -syntax
-
-
-````
-NTSTATUS imp_WppRecorderLogSetIdentifier(
-   NULL RecorderLog,
-   NULL LogIdentifier
-);
-````
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn895241">WppRecorderLogSetIdentifier</a> method sets a string identifier for the recorder log.
 
 
 ## -parameters
@@ -97,7 +86,7 @@ Returns STATUS_SUCCESS if completed successfully.
 
 
 
-Do not call <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderlogsetidentifier.md">WppRecorderLogSetIdentifier</a> on the default log handle returned by <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderloggetdefault.md">WppRecorderLogGetDefault</a>.
+Do not call <a href="https://msdn.microsoft.com/library/windows/hardware/dn895241">WppRecorderLogSetIdentifier</a> on the default log handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/dn895240">WppRecorderLogGetDefault</a>.
 
 
 

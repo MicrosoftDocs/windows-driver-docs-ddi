@@ -38,10 +38,10 @@ api_location:
 -	wdfcontrol.h
 api_name:
 -	WDF_DEVICE_SHUTDOWN_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DEVICE_SHUTDOWN_FLAGS enumeration
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_DEVICE_SHUTDOWN_FLAGS</b> enumeration defines flags that identify types of shutdown notifications that a driver can receive.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_DEVICE_SHUTDOWN_FLAGS { 
-  WdfDeviceShutdown            = 0x01,
-  WdfDeviceLastChanceShutdown  = 0x02
-} WDF_DEVICE_SHUTDOWN_FLAGS;
-````
 
 
 ## -enum-fields
@@ -85,19 +74,18 @@ The driver is notified when the system is losing its power, and after all file s
 
 
 
-The <b>WDF_DEVICE_SHUTDOWN_FLAGS</b> enumeration is used as an input parameter to <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>.
+The <b>WDF_DEVICE_SHUTDOWN_FLAGS</b> enumeration is used as an input parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545847">WdfControlDeviceInitSetShutdownNotification</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitsetshutdownnotification.md">WdfControlDeviceInitSetShutdownNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545847">WdfControlDeviceInitSetShutdownNotification</a>
  
 
  
-
 

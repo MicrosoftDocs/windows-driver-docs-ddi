@@ -7,7 +7,7 @@ old-location: kernel\rtlushorttochar.htm
 old-project: kernel
 ms.assetid: 13C5988F-1669-4B18-9423-74587276320F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUShortToChar, RtlUShortToChar function [Kernel-Mode Driver Architecture], kernel.rtlushorttochar, ntintsafe/RtlUShortToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlUShortToChar
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlUShortToChar function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>USHORT</b> to a value of type <b>CHAR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUShortToChar(
-  _In_  USHORT usOperand,
-  _Out_ CHAR   *pch
-);
-````
 
 
 ## -parameters

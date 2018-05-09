@@ -7,7 +7,7 @@ old-location: bltooth\_brb_sco_get_system_info.htm
 old-project: bltooth
 ms.assetid: f8afda8b-12de-4955-8f25-0b2dae031ff1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_SCO_GET_SYSTEM_INFO, _BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices], bltooth._brb_sco_get_system_info, bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, bthddi/_BRB_SCO_GET_SYSTEM_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_SCO_GET_SYSTEM_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,22 +54,6 @@ The _BRB_SCO_GET_SYSTEM_INFO structure describes information about the local sys
   connections.
 
 
-## -syntax
-
-
-````
-struct _BRB_SCO_GET_SYSTEM_INFO {
-  BRB_HEADER Hdr;
-  ULONG      Features;
-  ULONG      MaxChannels;
-  ULONG      TransferUnit;
-  USHORT     PacketTypes;
-  USHORT     DataFormats;
-  ULONG      Reserved;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +62,7 @@ struct _BRB_SCO_GET_SYSTEM_INFO {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -173,16 +158,15 @@ Higher-level profile drivers can build and send a <b>BRB_SCO_GET_SYSTEM_INFO</b>
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536625">BRB_SCO_GET_SYSTEM_INFO</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
  
 
  
-
 

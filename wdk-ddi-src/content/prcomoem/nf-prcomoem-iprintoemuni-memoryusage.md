@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.MemoryUsage
-title: IPrintOemUni::MemoryUsage method
+title: IPrintOemUni::MemoryUsage
 author: windows-driver-content
 description: The IPrintOemUni::MemoryUsage method can be used with Unidrv-supported printers to specify the amount of memory required for use by a rendering plug-in's IPrintOemUni::ImageProcessing method.
 old-location: print\iprintoemuni_memoryusage.htm
 old-project: print
 ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], MemoryUsage method, IPrintOemUni::MemoryUsage, MemoryUsage method [Print Devices], MemoryUsage method [Print Devices], IPrintOemUni interface, MemoryUsage,IPrintOemUni.MemoryUsage, prcomoem/IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUni interface [Print Devices],MemoryUsage method, IPrintOemUni.MemoryUsage, IPrintOemUni::MemoryUsage, MemoryUsage, MemoryUsage method [Print Devices], MemoryUsage method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.MemoryUsage
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::MemoryUsage method
+# IPrintOemUni::MemoryUsage
 
 
 ## -description
 
 
 The <code>IPrintOemUni::MemoryUsage</code> method can be used with Unidrv-supported printers to specify the amount of memory required for use by a rendering plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a> method.
-
-
-## -syntax
-
-
-````
-HRESULT MemoryUsage(
-   PDEVOBJ         pdevobj,
-   POEMMEMORYUSAGE pMemoryUsage
-);
-````
 
 
 ## -parameters
@@ -71,12 +60,12 @@ HRESULT MemoryUsage(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pMemoryUsage
 
-Caller-supplied pointer to an <a href="..\printoem\ns-printoem-oemmemoryusage.md">OEMMEMORYUSAGE</a> structure.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558669">OEMMEMORYUSAGE</a> structure.
 
 
 ## -returns
@@ -141,7 +130,7 @@ The <code>IPrintOemUni::MemoryUsage</code> method should return two values, as f
 <li>
 The amount of permanently-allocated, fixed-sized memory that the <b>IPrintOemUni::ImageProcessing</b> method needs to allocate.
 
-This value is returned in the <b>dwFixedMemoryUsage</b> member of the <a href="..\printoem\ns-printoem-oemmemoryusage.md">OEMMEMORYUSAGE</a> structure.
+This value is returned in the <b>dwFixedMemoryUsage</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558669">OEMMEMORYUSAGE</a> structure.
 
 </li>
 <li>
@@ -168,15 +157,14 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 
-<a href="..\printoem\ns-printoem-oemmemoryusage.md">OEMMEMORYUSAGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a>
 
 
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
 
 
 
@@ -184,8 +172,8 @@ The <code>IPrintOemUni::MemoryUsage</code> method is optional. If a rendering pl
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558669">OEMMEMORYUSAGE</a>
  
 
  
-
 

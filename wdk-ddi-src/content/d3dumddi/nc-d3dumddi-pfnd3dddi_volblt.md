@@ -7,8 +7,8 @@ old-location: display\volblt.htm
 old-project: display
 ms.assetid: 249a55a3-f2cf-4838-8a0f-b7108a17cd78
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_VOLBLT, UserModeDisplayDriver_Functions_2e451776-9da9-48d0-b766-979f361b96eb.xml, VolBlt, VolBlt callback function [Display Devices], d3dumddi/VolBlt, display.volblt
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_VOLBLT, PFND3DDDI_VOLBLT callback, UserModeDisplayDriver_Functions_2e451776-9da9-48d0-b766-979f361b96eb.xml, VolBlt, VolBlt callback function [Display Devices], d3dumddi/VolBlt, display.volblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	VolBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_VOLBLT callback
+# PFND3DDDI_VOLBLT callback function
 
 
 ## -description
 
 
 The <i>VolBlt</i> function performs a bit-block transfer (bitblt) operation from a source volume texture to a destination volume texture.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_VOLBLT VolBlt;
-
-__checkReturn HRESULT APIENTRY VolBlt(
-  _In_       HANDLE              hDevice,
-  _In_ const D3DDDIARG_VOLUMEBLT *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY VolBlt(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_volumeblt.md">D3DDDIARG_VOLUMEBLT</a> structure that defines the parameters for the volume bitblt operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544121">D3DDDIARG_VOLUMEBLT</a> structure that defines the parameters for the volume bitblt operation.
 
 
 ## -returns
@@ -101,16 +88,15 @@ __checkReturn HRESULT APIENTRY VolBlt(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_volumeblt.md">D3DDDIARG_VOLUMEBLT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544121">D3DDDIARG_VOLUMEBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

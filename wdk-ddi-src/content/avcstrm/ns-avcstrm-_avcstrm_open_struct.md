@@ -7,7 +7,7 @@ old-location: stream\avcstrm_open_struct.htm
 old-project: stream
 ms.assetid: c16a2f3c-a5be-4132-920a-b81f67c5ea02
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PAVCSTRM_OPEN_STRUCT, AVCSTRM_OPEN_STRUCT, AVCSTRM_OPEN_STRUCT structure [Streaming Media Devices], PAVCSTRM_OPEN_STRUCT, PAVCSTRM_OPEN_STRUCT structure pointer [Streaming Media Devices], _AVCSTRM_OPEN_STRUCT, avcsref_6ed25af3-808f-4b20-88c8-e7d2cca25494.xml, avcstrm/AVCSTRM_OPEN_STRUCT, avcstrm/PAVCSTRM_OPEN_STRUCT, stream.avcstrm_open_struct"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	AVCSTRM_OPEN_STRUCT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCSTRM_OPEN_STRUCT, *PAVCSTRM_OPEN_STRUCT
 ---
@@ -50,19 +51,6 @@ req.typenames: AVCSTRM_OPEN_STRUCT, *PAVCSTRM_OPEN_STRUCT
 
 
 The AVCSTRM_OPEN_STRUCT structure describes a data stream to be opened.
-
-
-## -syntax
-
-
-````
-typedef struct _AVCSTRM_OPEN_STRUCT {
-  KSPIN_DATAFLOW       DataFlow;
-  PAVCSTRM_FORMAT_INFO AVCFormatInfo;
-  PVOID                AVCStreamContext;
-  HANDLE               hPlugLocal;
-} AVCSTRM_OPEN_STRUCT, *PAVCSTRM_OPEN_STRUCT;
-````
 
 
 ## -struct-fields
@@ -103,16 +91,15 @@ This value can then be used in subsequent <i>avcstrm.sys</i> operations by placi
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554117">AVCSTRM_FORMAT_INFO</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
-
-
-
-<a href="..\avcstrm\ns-avcstrm-_avcstrm_format_info.md">AVCSTRM_FORMAT_INFO</a>
-
-
-
  
 
  
-
 

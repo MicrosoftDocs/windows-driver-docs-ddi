@@ -7,7 +7,7 @@ old-location: stream\ks_seeking_flags.htm
 old-project: stream
 ms.assetid: 8e27872e-4f38-4d0e-92bc-5e759a9db195
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KS_SEEKING_AbsolutePositioning, KS_SEEKING_FLAGS, KS_SEEKING_FLAGS enumeration [Streaming Media Devices], KS_SEEKING_IncrementalPositioning, KS_SEEKING_NoPositioning, KS_SEEKING_PositioningBitsMask, KS_SEEKING_RelativePositioning, KS_SEEKING_ReturnTime, KS_SEEKING_SeekToKeyFrame, ks-struct_edea1d66-55d6-4705-ae8f-b940946b87e0.xml, ks/KS_SEEKING_AbsolutePositioning, ks/KS_SEEKING_FLAGS, ks/KS_SEEKING_IncrementalPositioning, ks/KS_SEEKING_NoPositioning, ks/KS_SEEKING_PositioningBitsMask, ks/KS_SEEKING_RelativePositioning, ks/KS_SEEKING_ReturnTime, ks/KS_SEEKING_SeekToKeyFrame, stream.ks_seeking_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KS_SEEKING_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_SEEKING_FLAGS
 ---
@@ -49,23 +50,7 @@ req.typenames: KS_SEEKING_FLAGS
 ## -description
 
 
-The KS_SEEKING_FLAGS enumeration lists positioning options that can be used in conjunction with the <a href="..\ks\ns-ks-ksproperty_positions.md">KSPROPERTY_POSITIONS</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_SEEKING_NoPositioning           = 0,
-  KS_SEEKING_AbsolutePositioning     = 1,
-  KS_SEEKING_RelativePositioning     = 2,
-  KS_SEEKING_IncrementalPositioning  = 3,
-  KS_SEEKING_PositioningBitsMask     = 0x3,
-  KS_SEEKING_SeekToKeyFrame          = 0x4,
-  KS_SEEKING_ReturnTime              = 0x8
-} KS_SEEKING_FLAGS;
-````
+The KS_SEEKING_FLAGS enumeration lists positioning options that can be used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565207">KSPROPERTY_POSITIONS</a> structure.
 
 
 ## -enum-fields
@@ -98,14 +83,13 @@ typedef enum  {
 
 
 
-The minidriver sets these flag values in a <a href="..\ks\ns-ks-ksproperty_positions.md">KSPROPERTY_POSITIONS</a> structure that it then submits in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565185">KSPROPERTY_MEDIASEEKING_POSITIONS</a> property request.
+The minidriver sets these flag values in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565207">KSPROPERTY_POSITIONS</a> structure that it then submits in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565185">KSPROPERTY_MEDIASEEKING_POSITIONS</a> property request.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_positions.md">KSPROPERTY_POSITIONS</a>
 
 
 
@@ -113,8 +97,8 @@ The minidriver sets these flag values in a <a href="..\ks\ns-ks-ksproperty_posit
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565207">KSPROPERTY_POSITIONS</a>
  
 
  
-
 

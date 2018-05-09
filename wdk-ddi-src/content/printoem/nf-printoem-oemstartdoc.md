@@ -7,7 +7,7 @@ old-location: print\oemstartdoc.htm
 old-project: print
 ms.assetid: 67580632-ff9a-4d29-8e4e-c21f04aa4b47
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMStartDoc, OEMStartDoc function [Print Devices], print.oemstartdoc, print_unidrv-pscript_rendering_728069a7-4d66-4a83-a1e2-949557157d71.xml, printoem/OEMStartDoc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMStartDoc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMStartDoc function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMStartDoc</code> function is called by GDI when it is ready to start sending a document to the driver for rendering.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMStartDoc(
-       SURFOBJ *pso,
-  _In_ PWSTR   pwszDocName,
-       DWORD   dwJobId
-);
-````
 
 
 ## -parameters

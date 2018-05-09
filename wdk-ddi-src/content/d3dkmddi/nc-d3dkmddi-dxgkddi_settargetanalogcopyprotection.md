@@ -7,8 +7,8 @@ old-location: display\dxgkddi_settargetanalogcopyprotection.htm
 old-project: display
 ms.assetid: D41A1867-C654-4747-B804-CAE047025458
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_SETTARGETANALOGCOPYPROTECTION, DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETANALOGCOPYPROTECTION, display.dxgkddi_settargetanalogcopyprotection
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_SETTARGETANALOGCOPYPROTECTION, DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback, DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETANALOGCOPYPROTECTION, display.dxgkddi_settargetanalogcopyprotection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_SETTARGETANALOGCOPYPROTECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback
+# DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function
 
 
 ## -description
 
 
 Sets the analog copy protection on the specified target id.  This is functionally equivalent to the DxgkDdiUpdateActiveVidPnPresentPath in previous WDDM versions if only the D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION is changed.
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_SETTARGETANALOGCOPYPROTECTION(
-  _In_ const HANDLE                                 hAdapter,
-  _In_ const PDXGKARG_SETTARGETANALOGCOPYPROTECTION pSetTargetAnalogCopyProtectionArg
-);
-````
 
 
 ## -parameters

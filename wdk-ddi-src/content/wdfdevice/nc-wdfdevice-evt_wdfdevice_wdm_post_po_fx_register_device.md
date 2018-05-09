@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4CE227F5-9ED4-4484-AFBF-44D1260EB99D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE, EvtDeviceWdmPostPoFxRegisterDevice, EvtDeviceWdmPostPoFxRegisterDevice callback function, kmdf.evtdevicewdmpostpofxregisterdevice, wdf.evtdevicewdmpostpofxregisterdevice, wdfdevice/EvtDeviceWdmPostPoFxRegisterDevice
+ms.keywords: EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE, EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE callback, EvtDeviceWdmPostPoFxRegisterDevice, EvtDeviceWdmPostPoFxRegisterDevice callback function, kmdf.evtdevicewdmpostpofxregisterdevice, wdf.evtdevicewdmpostpofxregisterdevice, wdfdevice/EvtDeviceWdmPostPoFxRegisterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	Wdfdevice.h
 api_name:
 -	EvtDeviceWdmPostPoFxRegisterDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE callback
+# EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE callback function
 
 
 ## -description
@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 
    The 
   <i>EvtDeviceWdmPostPoFxRegisterDevice</i> callback function performs device-specific operations after the framework has registered with the power framework.
-
-
-## -prototype
-
-
-````
-EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE EvtDeviceWdmPostPoFxRegisterDevice;
-
-NTSTATUS EvtDeviceWdmPostPoFxRegisterDevice(
-  _In_ WDFDEVICE Device,
-  _In_ POHANDLE  PoHandle
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -101,15 +87,15 @@ An NTSTATUS value indicating success or failure of the operations performed in t
 
 If you are writing a KMDF driver for a single-component device that defines multiple functional power states, you can register an <i>EvtDeviceWdmPostPoFxRegisterDevice</i> callback function to receive notification after the framework registers with the power management framework (PoFx).
 
-To register <i>EvtDeviceWdmPostPoFxRegisterDevice</i>, a driver must call <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
+To register <i>EvtDeviceWdmPostPoFxRegisterDevice</i>, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451097">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
 
-The POHANDLE received in <i>EvtDeviceWdmPostPoFxRegisterDevice</i> remains valid until the driver returns from <a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device.md">EvtDeviceWdmPrePoFxUnregisterDevice</a>.
+The POHANDLE received in <i>EvtDeviceWdmPostPoFxRegisterDevice</i> remains valid until the driver returns from <a href="https://msdn.microsoft.com/D663C47D-C59E-4210-84D8-9773A3003990">EvtDeviceWdmPrePoFxUnregisterDevice</a>.
 
-Your driver can use the POHANDLE to call <a href="..\wdm\nf-wdm-pofxsetcomponentlatency.md">PoFxSetComponentLatency</a>, <a href="..\wdm\nf-wdm-pofxsetcomponentresidency.md">PoFxSetComponentResidency</a>, and <a href="..\wdm\nf-wdm-pofxsetcomponentwake.md">PoFxSetComponentWake</a> to specify latency, residency, and wake hints to the power framework.
+Your driver can use the POHANDLE to call <a href="https://msdn.microsoft.com/library/windows/hardware/hh439531">PoFxSetComponentLatency</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439536">PoFxSetComponentResidency</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439541">PoFxSetComponentWake</a> to specify latency, residency, and wake hints to the power framework.
 
  
 
-Your driver can also use the POHANDLE to call <a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a> to send a power control request to PoFx.
+Your driver can also use the POHANDLE to call <a href="https://msdn.microsoft.com/library/windows/hardware/hh439518">PoFxPowerControl</a> to send a power control request to PoFx.
 
 A KMDF driver for a multiple component device does not provide <i>EvtDeviceWdmPostPoFxRegisterDevice</i>. Instead, such a driver receives the POHANDLE when it calls <i>PoFxRegisterDevice</i>.  For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/supporting-multiple-functional-power-states-for-multiple-component-devices">Supporting Multiple Functional Power States for Multiple-Component Devices</a>.
 
@@ -155,16 +141,15 @@ The <b>EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE</b> function type is defined
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings.md">WdfDeviceWdmAssignPowerFrameworkSettings</a>
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device.md">EvtDeviceWdmPrePoFxUnregisterDevice</a>
+<a href="https://msdn.microsoft.com/D663C47D-C59E-4210-84D8-9773A3003990">EvtDeviceWdmPrePoFxUnregisterDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451097">WdfDeviceWdmAssignPowerFrameworkSettings</a>
  
 
  
-
 

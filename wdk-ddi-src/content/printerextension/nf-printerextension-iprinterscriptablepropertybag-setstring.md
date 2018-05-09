@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.SetString
-title: IPrinterScriptablePropertyBag::SetString method
+title: IPrinterScriptablePropertyBag::SetString
 author: windows-driver-content
 description: Writes a string property.
 old-location: print\iprinterscriptablepropertybag_setstring.htm
 old-project: print
 ms.assetid: 9B4EBCA4-8370-4F00-9853-6EE8408367BE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], SetString method, IPrinterScriptablePropertyBag::SetString, SetString method [Print Devices], SetString method [Print Devices], IPrinterScriptablePropertyBag interface, SetString,IPrinterScriptablePropertyBag.SetString, print.iprinterscriptablepropertybag_setstring, printerextension/IPrinterScriptablePropertyBag::SetString
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetString method, IPrinterScriptablePropertyBag.SetString, IPrinterScriptablePropertyBag::SetString, SetString, SetString method [Print Devices], SetString method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setstring, printerextension/IPrinterScriptablePropertyBag::SetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptablePropertyBag.SetString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptablePropertyBag::SetString method
+# IPrinterScriptablePropertyBag::SetString
 
 
 ## -description
 
 
 Writes a string property.
-
-
-## -syntax
-
-
-````
-HRESULT SetString(
-  [in] BSTR bstrName,
-  [in] BSTR bstrValue
-);
-````
 
 
 ## -parameters
@@ -99,12 +88,11 @@ A call to <b>SetString</b> will throw an exception, if the specified property is
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
  
 
  
-
 

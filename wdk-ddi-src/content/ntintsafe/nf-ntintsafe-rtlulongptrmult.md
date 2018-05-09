@@ -7,7 +7,7 @@ old-location: kernel\rtlulongptrmult.htm
 old-project: kernel
 ms.assetid: 6E66CD0B-7CAD-4BF1-A6DD-56C5029A929E
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlULongPtrMult, RtlULongPtrMult function [Kernel-Mode Driver Architecture], kernel.rtlulongptrmult, ntintsafe/RtlULongPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlULongPtrMult
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlULongPtrMult function
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Multiplies one value of type <b>ULONG_PTR</b> by another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlULongPtrMult(
-  _In_  ULONG_PTR Multiplicand,
-  _In_  ULONG_PTR Multiplier,
-  _Out_ ULONG_PTR *pResult
-);
-````
 
 
 ## -parameters

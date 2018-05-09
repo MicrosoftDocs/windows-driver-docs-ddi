@@ -7,8 +7,8 @@ old-location: display\dxgkddipresentdisplayonly.htm
 old-project: display
 ms.assetid: b68839e3-ad82-4fcc-8e5a-02dea5db08d9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_PRESENTDISPLAYONLY, DxgkDdiPresentDisplayOnly, DxgkDdiPresentDisplayOnly callback function [Display Devices], d3dkmddi/DxgkDdiPresentDisplayOnly, display.dxgkddipresentdisplayonly
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_PRESENTDISPLAYONLY, DXGKDDI_PRESENTDISPLAYONLY callback, DxgkDdiPresentDisplayOnly, DxgkDdiPresentDisplayOnly callback function [Display Devices], d3dkmddi/DxgkDdiPresentDisplayOnly, display.dxgkddipresentdisplayonly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DxgkDdiPresentDisplayOnly
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_PRESENTDISPLAYONLY callback
+# DXGKDDI_PRESENTDISPLAYONLY callback function
 
 
 ## -description
 
 
 Presents the screen image to the display device of a kernel mode display-only driver (KMDOD).
-
-
-## -prototype
-
-
-````
-DXGKDDI_PRESENTDISPLAYONLY DxgkDdiPresentDisplayOnly;
-
-NTSTATUS APIENTRY DxgkDdiPresentDisplayOnly(
-  _In_ const HANDLE                      hAdapter,
-  _In_ const DXGKARG_PRESENT_DISPLAYONLY *pPresentDisplayOnly
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,12 +60,12 @@ NTSTATUS APIENTRY DxgkDdiPresentDisplayOnly(
 
 ### -param hAdapter [in]
 
-A handle to the device context for the display adapter. The KMDOD's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously returned this handle in the <i>MiniportDeviceContext</i> parameter.
+A handle to the device context for the display adapter. The KMDOD's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously returned this handle in the <i>MiniportDeviceContext</i> parameter.
 
 
 ### -param pPresentDisplayOnly [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present_displayonly.md">DXGKARG_PRESENT_DISPLAYONLY</a> structure that contains information about the present operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451288">DXGKARG_PRESENT_DISPLAYONLY</a> structure that contains information about the present operation.
 
 
 ## -returns
@@ -146,15 +133,22 @@ The operating system guarantees that this function follows the  zero level  sync
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present_displayonly.md">DXGKARG_PRESENT_DISPLAYONLY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557538">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451288">DXGKARG_PRESENT_DISPLAYONLY</a>
+
+
+
+<a href="https://msdn.microsoft.com/3df3f7d4-3721-46f5-b9e3-19bd3d870292">DxgkCbNotifyDpc</a>
+
+
+
+<a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a>
 
 
 
@@ -162,20 +156,12 @@ The operating system guarantees that this function follows the  zero level  sync
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+<a href="https://msdn.microsoft.com/c8c26675-8b87-4818-ad51-4e0a341965d0">DxgkCbQueueDpc</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a>
-
-
-
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\hba_refreshadapterconfiguration.htm
 old-project: storage
 ms.assetid: 140a25ed-b591-413f-8b67-28bc5d776260
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_RefreshAdapterConfiguration, HBA_RefreshAdapterConfiguration routine [Storage Devices], fibreHBA_rtns_c380d992-b977-4f93-a204-93458699eeb1.xml, hbaapi/HBA_RefreshAdapterConfiguration, storage.hba_refreshadapterconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_RefreshAdapterConfiguration
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_RefreshAdapterConfiguration function
@@ -50,14 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_RefreshAdapterConfiguration</b> routine refreshes the library's internally cached HBA data. 
-
-
-## -syntax
-
-
-````
-void HBA_API HBA_RefreshAdapterConfiguration(void);
-````
 
 
 ## -parameters
@@ -78,12 +71,11 @@ None
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_refreshinformation.md">HBA_RefreshInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557137">HBA_RefreshInformation</a>
  
 
  
-
 

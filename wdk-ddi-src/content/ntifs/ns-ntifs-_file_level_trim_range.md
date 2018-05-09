@@ -7,7 +7,7 @@ old-location: ifsk\file_level_trim_range.htm
 old-project: ifsk
 ms.assetid: C74E90C5-9876-4CD1-B9A7-1B32A6AAB474
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE, FILE_LEVEL_TRIM_RANGE structure [Installable File System Drivers], PFILE_LEVEL_TRIM_RANGE, PFILE_LEVEL_TRIM_RANGE structure pointer [Installable File System Drivers], _FILE_LEVEL_TRIM_RANGE, ifsk.file_level_trim_range, ntifs/FILE_LEVEL_TRIM_RANGE, ntifs/PFILE_LEVEL_TRIM_RANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_LEVEL_TRIM_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_LEVEL_TRIM_RANGE, *PFILE_LEVEL_TRIM_RANGE
 ---
@@ -50,17 +51,6 @@ req.typenames: FILE_LEVEL_TRIM_RANGE, *PFILE_LEVEL_TRIM_RANGE
 
 
 Contains the offset and length of a trim range for a file.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_LEVEL_TRIM_RANGE {
-  ULONGLONG Offset;
-  ULONGLONG Length;
-} FILE_LEVEL_TRIM_RANGE, *PFILE_LEVEL_TRIM_RANGE;
-````
 
 
 ## -struct-fields
@@ -89,12 +79,11 @@ Due to alignment requirements, the file system may reduce the of the the trim ra
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_level_trim.md">FILE_LEVEL_TRIM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406398">FILE_LEVEL_TRIM</a>
  
 
  
-
 

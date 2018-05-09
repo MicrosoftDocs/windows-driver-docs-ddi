@@ -7,7 +7,7 @@ old-location: ifsk\ccmdlreadcomplete.htm
 old-project: ifsk
 ms.assetid: c1525604-3aee-464d-a7f5-a6a4739a2aa4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: CcMdlReadComplete, CcMdlReadComplete routine [Installable File System Drivers], ccref_9739ef62-748c-43c6-ae79-ae54f2358368.xml, ifsk.ccmdlreadcomplete, ntifs/CcMdlReadComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcMdlReadComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcMdlReadComplete function
@@ -50,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>CcMdlReadComplete</b> routine frees the memory descriptor lists (MDL) created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a> for a cached file.
-
-
-## -syntax
-
-
-````
-VOID CcMdlReadComplete(
-  _In_ PFILE_OBJECT FileObject,
-  _In_ PMDL         MdlChain
-);
-````
 
 
 ## -parameters
@@ -100,12 +90,11 @@ Each call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff5391
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
-
-
-
  
 
  
-
 

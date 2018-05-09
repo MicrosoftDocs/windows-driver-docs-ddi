@@ -7,7 +7,7 @@ old-location: stream\ksdispatchfastiodevicecontrolfailure.htm
 old-project: stream
 ms.assetid: 7fb83c8d-e815-46c6-8011-75b25a4c0dd7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsDispatchFastIoDeviceControlFailure, KsDispatchFastIoDeviceControlFailure function [Streaming Media Devices], ks/KsDispatchFastIoDeviceControlFailure, ksfunc_f8510e75-1698-4ce9-acd8-d5db73a7c035.xml, stream.ksdispatchfastiodevicecontrolfailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDispatchFastIoDeviceControlFailure
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,24 +52,6 @@ req.typenames:
 
 
 The <b>KsDispatchFastIoDeviceControlFailure</b> function is used in a KSDISPATCH_TABLE.FastDeviceIoControl entry that are not handled. The function should always return <b>FALSE</b>. 
-
-
-## -syntax
-
-
-````
-BOOLEAN KsDispatchFastIoDeviceControlFailure(
-  _In_      PFILE_OBJECT     FileObject,
-  _In_      BOOLEAN          Wait,
-  _In_opt_  PVOID            InputBuffer,
-  _In_      ULONG            InputBufferLength,
-  _Out_opt_ PVOID            OutputBuffer,
-  _In_      ULONG            OutputBufferLength,
-  _In_      ULONG            IoControlCode,
-  _Out_     PIO_STATUS_BLOCK IoStatus,
-  _In_      PDEVICE_OBJECT   DeviceObject
-);
-````
 
 
 ## -parameters

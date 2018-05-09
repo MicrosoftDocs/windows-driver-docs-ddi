@@ -7,8 +7,8 @@ old-location: netvista\miniportdevicepnpeventnotify.htm
 old-project: netvista
 ms.assetid: e41240c0-17be-42ef-a72c-c5311115cf64
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: MINIPORT_DEVICE_PNP_EVENT_NOTIFY, MiniportDevicePnPEventNotify, MiniportDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_5f503cae-149c-447c-b3f5-cb09d2c47ad7.xml, ndis/MiniportDevicePnPEventNotify, netvista.miniportdevicepnpeventnotify
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_DEVICE_PNP_EVENT_NOTIFY, MINIPORT_DEVICE_PNP_EVENT_NOTIFY callback, MiniportDevicePnPEventNotify, MiniportDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_5f503cae-149c-447c-b3f5-cb09d2c47ad7.xml, ndis/MiniportDevicePnPEventNotify, netvista.miniportdevicepnpeventnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportDevicePnPEventNotify
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_DEVICE_PNP_EVENT_NOTIFY callback
+# MINIPORT_DEVICE_PNP_EVENT_NOTIFY callback function
 
 
 ## -description
@@ -55,20 +56,6 @@ NDIS calls a miniport driver's
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_DEVICE_PNP_EVENT_NOTIFY</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_DEVICE_PNP_EVENT_NOTIFY MiniportDevicePnPEventNotify;
-
-VOID MiniportDevicePnPEventNotify(
-  _In_ NDIS_HANDLE           MiniportAdapterContext,
-  _In_ PNET_DEVICE_PNP_EVENT NetDevicePnPEvent
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,14 +64,14 @@ VOID MiniportDevicePnPEventNotify(
 ### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for an miniport adapter.
 
 
 ### -param NetDevicePnPEvent [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_device_pnp_event.md">NET_DEVICE_PNP_EVENT</a> structure that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568730">NET_DEVICE_PNP_EVENT</a> structure that
      describes a device Plug and Play event.
 
 
@@ -103,7 +90,7 @@ None
 
 A driver specifies the 
     <i>MiniportDevicePnPEventNotify</i> entry point when it calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a> function.
 
 NDIS calls the driver's 
@@ -149,7 +136,7 @@ Cancel any pending IRPs that it sent down to the underlying bus driver.
 After NDIS calls the 
     <i>MiniportDevicePnPEventNotify</i> function to indicate a surprise removal, NDIS
     calls the driver's 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function. If the driver
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function. If the driver
     receives any send requests or OID requests before NDIS calls 
     <i>MiniportHaltEx</i>, it should immediately complete such requests with a status
     value of NDIS_STATUS_NOT_ACCEPTED.
@@ -199,28 +186,27 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_device_pnp_event.md">NET_DEVICE_PNP_EVENT</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568730">NET_DEVICE_PNP_EVENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a>
-
-
-
  
 
  
-
 

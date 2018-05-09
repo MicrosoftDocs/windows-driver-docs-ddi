@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackHardware2.OnReleaseHardware
-title: IPnpCallbackHardware2::OnReleaseHardware method
+title: IPnpCallbackHardware2::OnReleaseHardware
 author: windows-driver-content
 description: The OnReleaseHardware method performs operations that are needed when a device is no longer accessible.
 old-location: wdf\ipnpcallbackhardware2_onreleasehardware.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 652B92C2-EF04-482A-BB57-9F64F947EE4F
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackHardware2, IPnpCallbackHardware2 interface, OnReleaseHardware method, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware method, OnReleaseHardware method, IPnpCallbackHardware2 interface, OnReleaseHardware,IPnpCallbackHardware2.OnReleaseHardware, umdf.ipnpcallbackhardware2_onreleasehardware, wdf.ipnpcallbackhardware2_onreleasehardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware
+ms.keywords: IPnpCallbackHardware2 interface,OnReleaseHardware method, IPnpCallbackHardware2.OnReleaseHardware, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware, OnReleaseHardware method, OnReleaseHardware method,IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onreleasehardware, wdf.ipnpcallbackhardware2_onreleasehardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IPnpCallbackHardware2.OnReleaseHardware
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallbackHardware2::OnReleaseHardware method
+# IPnpCallbackHardware2::OnReleaseHardware
 
 
 ## -description
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnReleaseHardware</b> method performs operations that are needed when a device is no longer accessible.
 
 
-## -syntax
-
-
-````
-HRESULT OnReleaseHardware(
-  [in] IWDFDevice3        *pWdfDevice,
-  [in] IWDFCmResourceList *pWdfResourcesTranslated
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +62,12 @@ HRESULT OnReleaseHardware(
 
 ### -param pWdfDevice [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the framework device object.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the framework device object.
 
 
 ### -param pWdfResourcesTranslated [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439762">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
 
 ## -returns
@@ -94,7 +83,7 @@ A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmRes
 
 
 
-A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object.
+A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439727">IPnpCallbackHardware2</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object.
 
  
 The <b>OnReleaseHardware</b> method must free resources that were allocated during the call to the driver's <a href="https://msdn.microsoft.com/830D706A-016C-4637-829F-2014AD1A1309">IPnpCallbackHardware2::OnPrepareHardware</a> method, regardless of whether <b>OnPrepareHardware</b> succeeded or failed. As such, <b>OnReleaseHardware</b> must be able to handle the cleanup of partial resources.
@@ -115,16 +104,15 @@ See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439727">IPnpCallbackHardware2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>
-
-
-
  
 
  
-
 

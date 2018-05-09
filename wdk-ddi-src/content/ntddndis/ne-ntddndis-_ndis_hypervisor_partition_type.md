@@ -7,7 +7,7 @@ old-location: netvista\ndis_hypervisor_partition_type.htm
 old-project: netvista
 ms.assetid: 830460f8-4cd6-4a52-ac32-004dc4a204e3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisHypervisorPartitionMsHvChild, NdisHypervisorPartitionTypeMax, NdisHypervisorPartitionTypeMsHvParent, NdisHypervisorPartitionTypeUnknown, PNDIS_HYPERVISOR_PARTITION_TYPE, PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_HYPERVISOR_PARTITION_TYPE, netvista.ndis_hypervisor_partition_type, ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionMsHvChild, ntddndis/NdisHypervisorPartitionTypeMax, ntddndis/NdisHypervisorPartitionTypeMsHvParent, ntddndis/NdisHypervisorPartitionTypeUnknown, ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_HYPERVISOR_PARTITION_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE
 ---
@@ -55,19 +56,6 @@ req.typenames: NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE
 
 </div><div> </div>The <b>NDIS_HYPERVISOR_PARTITION_TYPE</b> enumeration identifies the current partition type that is running
   on the hypervisor.
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_HYPERVISOR_PARTITION_TYPE { 
-  NdisHypervisorPartitionTypeUnknown,
-  NdisHypervisorPartitionTypeMsHvParent,
-  NdisHypervisorPartitionMsHvChild,
-  NdisHypervisorPartitionTypeMax
-} NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE;
-````
 
 
 ## -enum-fields
@@ -111,12 +99,11 @@ For more information about Hyper-V parent and child partitions, see <a href="htt
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_hypervisor_info.md">NDIS_HYPERVISOR_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565708">NDIS_HYPERVISOR_INFO</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ril_getcalllist.htm
 old-project: netvista
 ms.assetid: 7b2e0c82-c204-4d57-a2d2-066b8772ce13
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetCallList, RIL_GetCallList method [Network Drivers Starting with Windows Vista], netvista.ril_getcalllist, rilapi/RIL_GetCallList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_GetCallList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetCallList function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_GetCallList(
-   HRIL   hRil,
-   LPVOID lpContext,
-   DWORD  dwExecutor
-);
-````
 
 
 ## -parameters

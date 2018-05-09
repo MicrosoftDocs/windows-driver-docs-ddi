@@ -7,7 +7,7 @@ old-location: stream\bda_gdds_data.htm
 old-project: stream
 ms.assetid: 2BBF14E3-8E1A-42AF-9C26-7F886FD2B945
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*P_BDA_GDDS_DATA, BDA_GDDS_DATA, BDA_GDDS_DATA structure [Streaming Media Devices], P_BDA_GDDS_DATA, P_BDA_GDDS_DATA structure pointer [Streaming Media Devices], _BDA_GDDS_DATA, bdatypes/BDA_GDDS_DATA, bdatypes/P_BDA_GDDS_DATA, stream.bda_gdds_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_GDDS_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_GDDS_DATA, *P_BDA_GDDS_DATA
 ---
@@ -50,19 +51,6 @@ req.typenames: BDA_GDDS_DATA, *P_BDA_GDDS_DATA
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_GDDS_DATA {
-  PBDARESULT lResult;
-  ULONG      ulDataLength;
-  ULONG      ulPercentageProgress;
-  ULONG      argbData[MIN_DIMENSION];
-} BDA_GDDS_DATA, *P_BDA_GDDS_DATA;
-````
 
 
 ## -struct-fields

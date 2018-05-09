@@ -7,7 +7,7 @@ old-location: display\d3dddi_synchronizationobject_type.htm
 old-project: display
 ms.assetid: afd1aad4-d4cd-420f-bd3f-f171dc818a3e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_CPU_NOTIFICATION, D3DDDI_FENCE, D3DDDI_MONITORED_FENCE, D3DDDI_SEMAPHORE, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration [Display Devices], D3DDDI_SYNCHRONIZATION_MUTEX, DmEnums_b63edb60-f53f-4779-ad85-b9ad8a889508.xml, _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, d3dukmdt/, d3dukmdt/D3DDDI_CPU_NOTIFICATION, d3dukmdt/D3DDDI_FENCE, d3dukmdt/D3DDDI_MONITORED_FENCE, d3dukmdt/D3DDDI_SEMAPHORE, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, d3dukmdt/D3DDDI_SYNCHRONIZATION_MUTEX, display.d3dddi_synchronizationobject_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
 ---
@@ -50,28 +51,6 @@ req.typenames: D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
 
 
 The <b>D3DDDI_SYNCHRONIZATIONOBJECT_TYPE</b> enumeration indicates the type of synchronization object.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE { 
-  D3DDDI_SYNCHRONIZATION_MUTEX  = 1,
-  D3DDDI_SEMAPHORE              = 2,
-  D3DDDI_FENCE                  = 3,
-  D3DDDI_CPU_NOTIFICATION       = 4,
-#if ((DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0) || \
-     (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM2_0))
-  D3DDDI_MONITORED_FENCE        = 5,
-#endif 
-#if ((DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0) || \
-     (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM2_0))
-  D3DDDI_MONITORED_FENCE        = 6,
-#endif 
-  
-} D3DDDI_SYNCHRONIZATIONOBJECT_TYPE;
-````
 
 
 ## -enum-fields

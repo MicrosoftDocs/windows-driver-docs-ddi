@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_SATELLITEINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SATELLITEINFO, *PGNSS_SATELLITEINFO
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_SATELLITEINFO, *PGNSS_SATELLITEINFO
 
 
 This structure defines satellite-related information of a fix.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG  SatelliteId;
-  BOOL   UsedInPositiong;
-  double Elevation;
-  double Azimuth;
-  double SignalToNoiseRatio;
-} GNSS_SATELLITEINFO, *PGNSS_SATELLITEINFO;
-````
 
 
 ## -struct-fields

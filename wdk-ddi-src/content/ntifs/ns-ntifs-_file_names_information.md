@@ -7,7 +7,7 @@ old-location: ifsk\file_names_information.htm
 old-project: ifsk
 ms.assetid: a9eb4606-fe55-4f77-914a-656ebe247066
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFILE_NAMES_INFORMATION, FILE_NAMES_INFORMATION, FILE_NAMES_INFORMATION structure [Installable File System Drivers], PFILE_NAMES_INFORMATION, PFILE_NAMES_INFORMATION structure pointer [Installable File System Drivers], _FILE_NAMES_INFORMATION, fileinformationstructures_8349a2eb-ffeb-4050-9084-b09474079415.xml, ifsk.file_names_information, ntifs/FILE_NAMES_INFORMATION, ntifs/PFILE_NAMES_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_NAMES_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_NAMES_INFORMATION, *PFILE_NAMES_INFORMATION
 ---
@@ -50,19 +51,6 @@ req.typenames: FILE_NAMES_INFORMATION, *PFILE_NAMES_INFORMATION
 
 
 A FILE_NAMES_INFORMATION structure used to query detailed information about the names of files in a directory. 
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_NAMES_INFORMATION {
-  ULONG NextEntryOffset;
-  ULONG FileIndex;
-  ULONG FileNameLength;
-  WCHAR FileName[1];
-} FILE_NAMES_INFORMATION, *PFILE_NAMES_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -98,7 +86,7 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>, passing FileNamesInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_NAMES_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>, passing FileNamesInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_NAMES_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
 </li>
 <li>
@@ -115,20 +103,19 @@ This structure must be aligned on a LONG (4-byte) boundary. If a buffer contains
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547026">FsRtlNotifyFullChangeDirectory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>
  
 
  
-
 

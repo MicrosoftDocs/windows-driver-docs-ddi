@@ -7,7 +7,7 @@ old-location: print\splclient_info_1.htm
 old-project: print
 ms.assetid: a9659f77-e84b-471a-a778-a4628d89ce19
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*LPSPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1, LPSPLCLIENT_INFO_1 structure pointer [Print Devices], PSPLCLIENT_INFO_1, PSPLCLIENT_INFO_1 structure pointer [Print Devices], SPLCLIENT_INFO_1, SPLCLIENT_INFO_1 structure [Print Devices], _SPLCLIENT_INFO_1, poprfnc_45237404-33da-4fb0-9405-05c930c5445b.xml, print.splclient_info_1, winsplp/LPSPLCLIENT_INFO_1, winsplp/PSPLCLIENT_INFO_1, winsplp/SPLCLIENT_INFO_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winsplp.h
 api_name:
 -	SPLCLIENT_INFO_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1
-req.product: Windows 10 or later.
 ---
 
 # _SPLCLIENT_INFO_1 structure
@@ -50,23 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The SPLCLIENT_INFO_1 structure is used as input to the <a href="..\winsplp\nf-winsplp-generatecopyfilepaths.md">GenerateCopyFilePaths</a> function that is exported by <a href="https://msdn.microsoft.com/7ead940e-8426-4756-890f-f3607dc1f9ca">Point and Print DLLs</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SPLCLIENT_INFO_1 {
-  DWORD  dwSize;
-  LPWSTR pMachineName;
-  LPWSTR pUserName;
-  DWORD  dwBuildNum;
-  DWORD  dwMajorVersion;
-  DWORD  dwMinorVersion;
-  WORD   wProcessorArchitecture;
-} SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1;
-````
+The SPLCLIENT_INFO_1 structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549896">GenerateCopyFilePaths</a> function that is exported by <a href="https://msdn.microsoft.com/7ead940e-8426-4756-890f-f3607dc1f9ca">Point and Print DLLs</a>.
 
 
 ## -struct-fields
@@ -113,7 +97,7 @@ The client's processor architecture, as returned by the Window SDK <b>GetSystemI
 
 
 
-Values for all structure members are supplied by the print spooler before the spooler calls <a href="..\winsplp\nf-winsplp-generatecopyfilepaths.md">GenerateCopyFilePaths</a>.
+Values for all structure members are supplied by the print spooler before the spooler calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff549896">GenerateCopyFilePaths</a>.
 
 
 

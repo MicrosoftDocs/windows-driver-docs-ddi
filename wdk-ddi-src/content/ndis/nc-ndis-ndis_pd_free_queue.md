@@ -7,8 +7,8 @@ old-location: netvista\ndispdfreequeue.htm
 old-project: netvista
 ms.assetid: 1DE8582C-AF11-4CBA-8F4C-159266A7F3BA
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDIS_PD_FREE_QUEUE, NdisPDFreeQueue, NdisPDFreeQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeQueue, netvista.ndispdfreequeue
+ms.date: 4/25/2018
+ms.keywords: NDIS_PD_FREE_QUEUE, NDIS_PD_FREE_QUEUE callback, NdisPDFreeQueue, NdisPDFreeQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeQueue, netvista.ndispdfreequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	NdisPDFreeQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_PD_FREE_QUEUE callback
+# NDIS_PD_FREE_QUEUE callback function
 
 
 ## -description
@@ -56,19 +57,6 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 
 
-## -prototype
-
-
-````
-NDIS_PD_FREE_QUEUE NdisPDFreeQueue;
-
-void NdisPDFreeQueue(
-  _In_ __drv_freesMem(Mem) NDIS_PD_QUEUE *NdisPDQueue
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +64,7 @@ void NdisPDFreeQueue(
 
 ### -param NdisPDQueue [in]
 
-Any empty queue that needs to be freed from memory. For more information, see the <a href="..\ndis\ne-ndis-ndis_pd_queue_type.md">NDIS_PD_QUEUE</a> structure.
+Any empty queue that needs to be freed from memory. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931844">NDIS_PD_QUEUE</a> structure.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: netvista\fwps_fields_ipsec_km_demux_v4.htm
 old-project: netvista
 ms.assetid: b8b95aad-7c55-475a-85d9-6a64434d8a5f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: FWPS_FIELDS_IPSEC_KM_DEMUX_V4, FWPS_FIELDS_IPSEC_KM_DEMUX_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_IPSEC_KM_DEMUX_V4_, FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX, FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE, fwpsk/FWPS_FIELDS_IPSEC_KM_DEMUX_V4, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE, netvista.fwps_fields_ipsec_km_demux_v4, wfp_ref_5_const_3_data_fields_78a7198a-9122-420b-a45d-9b82cbfb16fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_FIELDS_IPSEC_KM_DEMUX_V4
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_FIELDS_IPSEC_KM_DEMUX_V4
 ---
@@ -52,23 +53,6 @@ req.typenames: FWPS_FIELDS_IPSEC_KM_DEMUX_V4
 The FWPS_FIELDS_IPSEC_KM_DEMUX_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_IPSEC_KM_DEMUX_V4 
   <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa366492">run-time filtering layer</a>.
-
-
-## -syntax
-
-
-````
-typedef enum FWPS_FIELDS_IPSEC_KM_DEMUX_V4_ { 
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS,
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS,
-#if (NTDDI_VERSION >= NTDDI_WIN8)
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE,
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE,
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID,
-#endif 
-  FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX
-} FWPS_FIELDS_IPSEC_KM_DEMUX_V4;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: stream\ksdefaultaddeventhandler.htm
 old-project: stream
 ms.assetid: 8e429a48-4e86-4673-aa32-85b640e2f64f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsDefaultAddEventHandler, KsDefaultAddEventHandler function [Streaming Media Devices], avfunc_7e4e393b-c3ab-4538-8790-9fe4c4f964cd.xml, ks/KsDefaultAddEventHandler, stream.ksdefaultaddeventhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDefaultAddEventHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,18 +54,6 @@ req.typenames:
 The<b> KsDefaultAddEventHandler </b>function is a default routine to handle event 'add' requests.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsDefaultAddEventHandler(
-  _In_    PIRP           Irp,
-  _In_    PKSEVENTDATA   EventData,
-  _Inout_ PKSEVENT_ENTRY EventEntry
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ NTSTATUS KsDefaultAddEventHandler(
 
 ### -param Irp [in]
 
-The event <a href="..\wdm\ns-wdm-_irp.md">IRP</a>. This contains the object into which the event is inserted.
+The event <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>. This contains the object into which the event is inserted.
 
 
 ### -param EventData [in]
 
-A pointer to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure that describes an event notification method.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> structure that describes an event notification method.
 
 
 ### -param EventEntry [in, out]
@@ -100,35 +89,34 @@ Returns the success or failure of adding the event into the object's event list.
 
 <b>KsDefaultAddEventHandler</b> determines the relevant object from <i>Irp</i> and adds the specified event to the object's event list.
 
-This is functionally equivalent to <a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a> (or <b>Ks</b><i>Xxx</i><b>AddEvent</b>, see below) for the object that is associated with <i>Irp</i>. Use <b>KsDefaultAddEventHandler</b> from a minidriver-specified <i>AddEvent</i> handler to insert the event into the object's event list.
+This is functionally equivalent to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560931">KsAddEvent</a> (or <b>Ks</b><i>Xxx</i><b>AddEvent</b>, see below) for the object that is associated with <i>Irp</i>. Use <b>KsDefaultAddEventHandler</b> from a minidriver-specified <i>AddEvent</i> handler to insert the event into the object's event list.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
 
 
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>
 
 
 
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560931">KsAddEvent</a>
 
 
 
-<a href="..\ks\nf-ks-ksgenerateevents.md">KsGenerateEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562525">KsFilterAddEvent</a>
 
 
 
-<a href="..\ks\nf-ks-ksaddevent.md">KsAddEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562597">KsGenerateEvents</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563490">KsPinAddEvent</a>
  
 
  
-
 

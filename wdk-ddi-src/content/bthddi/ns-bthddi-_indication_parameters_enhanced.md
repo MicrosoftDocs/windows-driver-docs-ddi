@@ -7,7 +7,7 @@ old-location: bltooth\indication_parameters_enhanced.htm
 old-project: bltooth
 ms.assetid: D0FBA555-B61F-4D6F-B93F-C77D395F2BCD
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices], PINDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS_ENHANCED, bltooth.indication_parameters_enhanced, bthddi/INDICATION_PARAMETERS_ENHANCED, bthddi/PINDICATION_PARAMETERS_ENHANCED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	Bthddi.h
 api_name:
 -	INDICATION_PARAMETERS_ENHANCED
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, *PINDICATION_PARAMETERS_ENHANCED"
+req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED"
 ---
 
 # _INDICATION_PARAMETERS_ENHANCED structure
@@ -49,54 +50,8 @@ req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED
 ## -description
 
 
-The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback_enhanced.md">enhanced L2CAP Callback Function</a>
+The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's <a href="https://msdn.microsoft.com/1C08937A-2B0C-4A6C-ACDF-1A751BF0D6F6">enhanced L2CAP Callback Function</a>
 
-
-
-## -syntax
-
-
-````
-typedef struct _INDICATION_PARAMETERS_ENHANCED {
-  L2CAP_CHANNEL_HANDLE ConnectionHandle;
-  BTH_ADDR             BtAddress;
-  union {
-    struct {
-      struct {
-        USHORT PSM;
-      } Request;
-    } Connect;
-    struct {
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED CurrentParams;
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED RequestedParams;
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED ResponseParams;
-      USHORT                             Response;
-    } ConfigRequest;
-    struct {
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED CurrentParams;
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED RequestedParams;
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED RejectedParams;
-      PCO_TYPE                           UnknownTypes;
-      ULONG                              NumUnknownTypes;
-      CHANNEL_CONFIG_PARAMETERS_ENHANCED NewRequestParams;
-      USHORT                             Response;
-    } ConfigResponse;
-    struct {
-      ULONG                NumExtraOptions;
-      PL2CAP_CONFIG_OPTION ExtraOptions;
-    } FreeExtraOptions;
-    struct {
-      L2CAP_DISCONNECT_REASON Reason;
-      BOOLEAN                 CloseNow;
-    } Disconnect;
-    struct {
-      ULONG PacketLength;
-      ULONG TotalQueueLength;
-    } RecvPacket;
-    PVOID  Reserved;
-  } Parameters;
-} INDICATION_PARAMETERS_ENHANCED, *PINDICATION_PARAMETERS_ENHANCED;
-````
 
 
 ## -struct-fields
@@ -118,12 +73,6 @@ The Bluetooth address of the remote device.
 ### -field Parameters
 
 
-
-#### Reserved
-
-Reserved member. Do not use.
-
-
 ### -field Parameters.Connect
 
 The structure that contains parameters for the 
@@ -135,8 +84,7 @@ The structure that contains parameters for the
 The structure that contains the parameters for a connection request.
 
 
-
-###### Connect.Request.PSM
+### -field Parameters.Connect.Request.PSM
 
 The Protocol/Service Multiplexer (PSM) that is passed to the calling function when the 
         <i>IndicationRemoteConnect</i> INDICATION_CODE value is specified in the enhanced callback function's 
@@ -152,7 +100,7 @@ The structure that contains parameters for the
 ### -field Parameters.ConfigRequest.CurrentParams
 
 A 
-       <a href="..\bthddi\ns-bthddi-_channel_config_parameters_enhanced.md">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
+       <a href="https://msdn.microsoft.com/library/windows/hardware/hh450869">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
        value is only valid if the channel was previously open and is now in the process of being configured.
        This member is used when the callback function specifies the 
        <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
@@ -247,7 +195,7 @@ The structure that contains parameters for the
 ### -field Parameters.ConfigResponse.CurrentParams
 
 A 
-       <a href="..\bthddi\ns-bthddi-_channel_config_parameters_enhanced.md">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
+       <a href="https://msdn.microsoft.com/library/windows/hardware/hh450869">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
        value is only valid if the channel was previously open and is now in the process of being configured.
        This member is used when the callback function specifies the 
        <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
@@ -376,7 +324,7 @@ The structure that contains the parameters for the
 ### -field Parameters.Disconnect.Reason
 
 An 
-       <a href="..\bthddi\ne-bthddi-_l2cap_disconnect_reason.md">L2CAP_DISCONNECT_REASON</a> value that
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536763">L2CAP_DISCONNECT_REASON</a> value that
        indicates why the L2CAP connection to the remote device was terminated.
 
 
@@ -402,4 +350,9 @@ The size, in bytes, of the packet that the callback function sent over the L2CAP
 ### -field Parameters.RecvPacket.TotalQueueLength
 
 The number of packets to be processed over the L2CAP connection.
+
+
+### -field Parameters.Reserved
+
+Reserved member. Do not use.
 

@@ -7,7 +7,7 @@ old-location: display\videoportallocatepool.htm
 old-project: display
 ms.assetid: c981e56f-e582-4c06-8d32-b070d58065d2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortAllocatePool, VideoPortAllocatePool function [Display Devices], VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml, display.videoportallocatepool, video/VideoPortAllocatePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortAllocatePool
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortAllocatePool function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortAllocatePool</b> function allocates a block of pool memory, inserting a caller-supplied tag at the beginning of the memory.
-
-
-## -syntax
-
-
-````
-PVOID VideoPortAllocatePool(
-  _In_ PVOID        HwDeviceExtension,
-  _In_ VP_POOL_TYPE PoolType,
-  _In_ SIZE_T       NumberOfBytes,
-  _In_ ULONG        Tag
-);
-````
 
 
 ## -parameters
@@ -163,12 +150,11 @@ Callers of <b>VideoPortAllocatePool</b> can be running at IRQL = DISPATCH_LEVEL 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportfreepool.md">VideoPortFreePool</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570301">VideoPortFreePool</a>
  
 
  
-
 

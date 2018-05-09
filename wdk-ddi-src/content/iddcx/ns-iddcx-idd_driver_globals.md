@@ -7,7 +7,7 @@ old-location: display\idd_driver_globals.htm
 old-project: display
 ms.assetid: 77d2c668-21e4-4c6d-9f3d-7e34c660d1da
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS structure [Display Devices], display.idd_driver_globals, iddcx/IDD_DRIVER_GLOBALS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDD_DRIVER_GLOBALS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
+req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
 ---
 
 # IDD_DRIVER_GLOBALS structure
@@ -52,16 +53,6 @@ req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PI
 
                  Holds per-driver Indirect Display information. Reserved for use by the system.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDD_DRIVER_GLOBALS {
-  ULONG Reserved;
-} IDD_DRIVER_GLOBALS, *IDD_DRIVER_GLOBALS;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: display\d3dddicb_lockflags.htm
 old-project: display
 ms.assetid: 4b3a266f-4d60-4d39-81fb-ea2b4aa12a8d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_LOCKFLAGS, D3DDDICB_LOCKFLAGS structure [Display Devices], D3D_other_Structs_6238800f-60d9-472d-aa18-10343abbcee7.xml, _D3DDDICB_LOCKFLAGS, d3dukmdt/D3DDDICB_LOCKFLAGS, display.d3dddicb_lockflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDICB_LOCKFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_LOCKFLAGS
 ---
@@ -50,32 +51,6 @@ req.typenames: D3DDDICB_LOCKFLAGS
 
 
 The D3DDDICB_LOCKFLAGS structure identifies how to lock an allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_LOCKFLAGS {
-  union {
-    struct {
-      UINT ReadOnly  :1;
-      UINT WriteOnly  :1;
-      UINT DonotWait  :1;
-      UINT IgnoreSync  :1;
-      UINT LockEntire  :1;
-      UINT DonotEvict  :1;
-      UINT AcquireAperture  :1;
-      UINT Discard  :1;
-      UINT NoExistingReference  :1;
-      UINT UseAlternateVA  :1;
-      UINT IgnoreReadSync  :1;
-      UINT Reserved  :21;
-    };
-    UINT   Value;
-  };
-} D3DDDICB_LOCKFLAGS;
-````
 
 
 ## -struct-fields
@@ -95,7 +70,7 @@ A UINT value that specifies whether the locked allocation can only be written to
 
 ### -field DonotWait
 
-A UINT value that specifies whether the video memory manager should wait to lock the allocation. If this member is set, the memory manager fails the call to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> with D3DERR_WASSTILLDRAWING if the graphics hardware is using the allocation.
+A UINT value that specifies whether the video memory manager should wait to lock the allocation. If this member is set, the memory manager fails the call to <a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a> with D3DERR_WASSTILLDRAWING if the graphics hardware is using the allocation.
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
 
@@ -118,14 +93,14 @@ Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Valu
 
 ### -field DonotEvict
 
-A UINT value that specifies whether the video memory manager should evict the allocation so that the lock can succeed. If this member is set, the memory manager should not evict the allocation. If the allocation must be evicted to handle the lock request, the memory manager fails the call to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> with D3DERR_NOTAVAILABLE. Eviction might be necessary when all of the deswizzling apertures are exhausted.
+A UINT value that specifies whether the video memory manager should evict the allocation so that the lock can succeed. If this member is set, the memory manager should not evict the allocation. If the allocation must be evicted to handle the lock request, the memory manager fails the call to <a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a> with D3DERR_NOTAVAILABLE. Eviction might be necessary when all of the deswizzling apertures are exhausted.
 
 Setting this member is equivalent to setting the sixth bit of the 32-bit <b>Value</b> member (0x00000020).
 
 
 ### -field AcquireAperture
 
-A UINT value that specifies whether the video memory manager should call the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a> function to set up an unswizzling aperture for the allocation.
+A UINT value that specifies whether the video memory manager should call the display miniport driver's <a href="https://msdn.microsoft.com/f861e055-70db-4e0a-9c62-87e2d41f92ae">DxgkDdiAcquireSwizzlingRange</a> function to set up an unswizzling aperture for the allocation.
 
 An allocation that was locked without setting <b>AcquireAperture</b> cannot be locked again with <b>AcquireAperture</b> set.
 
@@ -152,7 +127,7 @@ Setting this member is equivalent to setting the ninth bit of the 32-bit <b>Valu
 
 ### -field UseAlternateVA
 
-A UINT value that specifies whether the display miniport driver can lock an allocation at a different physical address than the allocation's current segment location or with a different memory footprint than was previously allocated. When this flag is specified, the display miniport driver can update the base address and size of the physical address range that the allocation is CPU accessible through (by updating the <b>RangeSize</b> and <b>CPUTranslatedAddress</b> members of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_acquireswizzlingrange.md">DXGKARG_ACQUIRESWIZZLINGRANGE</a> structure in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a> function). When this flag is specified, the video memory manager attempts to allocate a new virtual address to handle the lock request rather than use the allocation backing store virtual address. However, if the video memory manager cannot allocate the new virtual address, the lock request fails.
+A UINT value that specifies whether the display miniport driver can lock an allocation at a different physical address than the allocation's current segment location or with a different memory footprint than was previously allocated. When this flag is specified, the display miniport driver can update the base address and size of the physical address range that the allocation is CPU accessible through (by updating the <b>RangeSize</b> and <b>CPUTranslatedAddress</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557539">DXGKARG_ACQUIRESWIZZLINGRANGE</a> structure in a call to the <a href="https://msdn.microsoft.com/f861e055-70db-4e0a-9c62-87e2d41f92ae">DxgkDdiAcquireSwizzlingRange</a> function). When this flag is specified, the video memory manager attempts to allocate a new virtual address to handle the lock request rather than use the allocation backing store virtual address. However, if the video memory manager cannot allocate the new virtual address, the lock request fails.
 
 This flag is also used to lock swizzled or tiled allocations that are currently located in a non-AGP aperture segment. In this type of lock, the video memory manager maps the alternate virtual address to a physical address range that can be unswizzled or untiled on the fly and then redirects the memory access to the system memory pages.
 
@@ -176,13 +151,13 @@ The allocation is being paged in after it was evicted while under lock.
 
 </li>
 </ul>
-Be aware that <b>UseAlternateVA</b> can only be used on the primary allocation if the primary allocation was created by specifying the <b>UseAlternateVA</b> bit-field flag in the <b>Flags</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure in a call to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function. A primary allocation that is created in such a way can only be locked with the <b>UseAlternateVA</b> flag.
+Be aware that <b>UseAlternateVA</b> can only be used on the primary allocation if the primary allocation was created by specifying the <b>UseAlternateVA</b> bit-field flag in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a> structure in a call to the display miniport driver's <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> function. A primary allocation that is created in such a way can only be locked with the <b>UseAlternateVA</b> flag.
 
 <b>UseAlternateVA</b> cannot be used on a shared allocation.
 
 An allocation that was locked with <b>UseAlternateVA</b> set cannot be locked again.
 
-<div class="alert"><b>Note</b>  If the user-mode display driver has set <b>UseAlternateVA</b> in the <b>Flags</b> member of the <b>D3DDDICB_LOCKFLAGS</b> structure during a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a> function, the display miniport driver should not call the <a href="..\dispmprt\nc-dispmprt-dxgkcb_exclude_adapter_access.md">DxgkCbExcludeAdapterAccess</a> function.</div>
+<div class="alert"><b>Note</b>  If the user-mode display driver has set <b>UseAlternateVA</b> in the <b>Flags</b> member of the <b>D3DDDICB_LOCKFLAGS</b> structure during a call to the <a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a> function, the display miniport driver should not call the <a href="https://msdn.microsoft.com/e74e79fe-3b36-427e-ae0b-4072a0438c4e">DxgkCbExcludeAdapterAccess</a> function.</div>
 <div> </div>
 Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Value</b> member (0x00000200).
 
@@ -201,7 +176,7 @@ Setting this member is equivalent to setting the eleventh bit of the 32-bit <b>V
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 21 bits (0xFFFFF800) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDICB_LOCKFLAGS that can hold one 32-bit value that identifies how to lock an allocation.
 
@@ -238,7 +213,7 @@ Retired or offered allocations cannot be locked. See also <a href="https://msdn.
 
 </li>
 <li>
-An allocation can be locked only if it was created with the <b>CpuVisible</b>  member set in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a> structure.
+An allocation can be locked only if it was created with the <b>CpuVisible</b>  member set in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560966">DXGK_ALLOCATIONINFOFLAGS</a> structure.
 
 </li>
 <li>
@@ -255,24 +230,23 @@ An allocation that is locked with a swizzled range must be unlocked before it ca
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_acquireswizzlingrange.md">DxgkDdiAcquireSwizzlingRange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544205">D3DDDICB_LOCK</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560966">DXGK_ALLOCATIONINFOFLAGS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
+<a href="https://msdn.microsoft.com/f861e055-70db-4e0a-9c62-87e2d41f92ae">DxgkDdiAcquireSwizzlingRange</a>
 
 
 
+<a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a>
  
 
  
-
 

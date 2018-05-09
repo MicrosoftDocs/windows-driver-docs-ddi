@@ -7,8 +7,8 @@ old-location: hid\pi8042_mouse_isr.htm
 old-project: hid
 ms.assetid: 7c8a0dc8-49ec-476f-b183-1baa419e831d
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: MouseIsr, MouseIsr callback function [Human Input Devices], PI8042_MOUSE_ISR, hid.pi8042_mouse_isr, i8042ref_f077c4e7-f77b-4f47-a0a7-a7007e4f2475.xml, ntdd8042/MouseIsr
+ms.date: 4/30/2018
+ms.keywords: MouseIsr, MouseIsr callback function [Human Input Devices], PI8042_MOUSE_ISR, PI8042_MOUSE_ISR callback, hid.pi8042_mouse_isr, i8042ref_f077c4e7-f77b-4f47-a0a7-a7007e4f2475.xml, ntdd8042/MouseIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,38 +38,19 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	MouseIsr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
+req.typenames: 
 ---
 
-# PI8042_MOUSE_ISR callback
+# PI8042_MOUSE_ISR callback function
 
 
 ## -description
 
 
 A PI8042_MOUSE_ISR-typed callback routine customizes the operation of the I8042prt mouse ISR.
-
-
-## -prototype
-
-
-````
-PI8042_MOUSE_ISR MouseIsr;
-
-BOOLEAN MouseIsr(
-  _In_    PVOID                 IsrContext,
-  _In_    PMOUSE_INPUT_DATA     CurrentInput,
-  _In_    POUTPUT_PACKET        CurrentOutput,
-  _In_    UCHAR                 StatusByte,
-  _In_    PUCHAR                Byte,
-  _Inout_ PBOOLEAN              ContinueProcessing,
-  _In_    PMOUSE_STATE          MouseState,
-  _In_    PMOUSE_RESET_SUBSTATE ResetSubState
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -89,7 +70,7 @@ Pointer to the input <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ### -param CurrentOutput [in]
 
-Pointer to an <a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a> structure, which specifies an array of bytes being written to the hardware device.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543218">OUTPUT_PACKET</a> structure, which specifies an array of bytes being written to the hardware device.
 
 
 ### -param StatusByte [in]
@@ -109,7 +90,7 @@ Specifies, if <b>TRUE</b>, that processing in the I8042prt mouse ISR will contin
 
 ### -param MouseState [in]
 
-Pointer to a <a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a> enumeration value, which identifies the state of mouse input.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542405">MOUSE_STATE</a> enumeration value, which identifies the state of mouse input.
 
 
 ### -param ResetSubState [in]
@@ -143,7 +124,6 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 ## -see-also
 
-<a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a>
 
 
 
@@ -151,7 +131,7 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 
 
-<a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542405">MOUSE_STATE</a>
 
 
 
@@ -159,8 +139,8 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543218">OUTPUT_PACKET</a>
  
 
  
-
 

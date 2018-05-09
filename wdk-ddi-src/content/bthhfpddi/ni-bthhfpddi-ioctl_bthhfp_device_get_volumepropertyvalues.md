@@ -7,8 +7,8 @@ old-location: audio\ioctl_bthhfp_device_get_volumepropertyvalues.htm
 old-project: audio
 ms.assetid: 56DA61CB-D4D3-40DF-861D-2A2EE257C194
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES, IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES control code [Audio Devices], audio.ioctl_bthhfp_device_get_volumepropertyvalues, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES
+ms.date: 4/16/2018
+ms.keywords: IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES, IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES control, IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES control code [Audio Devices], audio.ioctl_bthhfp_device_get_volumepropertyvalues, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Bthhfpddi.h
 api_name:
 -	IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
+req.typenames: 
 ---
 
 # IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES IOCTL
@@ -105,7 +106,7 @@ N/A
 
 
 
-The audio driver’s KS filter topology includes a KS node of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a> for both input and output if the <a href="..\bthhfpddi\ns-bthhfpddi-_bthhfp_descriptor.md">BTHHFP_DESCRIPTOR</a> descriptor indicates volume support. The audio driver’s <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563473(v=vs.85).aspx">KSNODE_DESCRIPTOR</a> structure for this node includes a <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565176(v=vs.85).aspx">PKSPROPERTY_ITEM</a> for the <b>KSPROPERTY_AUDIO_VOLUMELEVEL</b> property. The audio driver sets the <b>PKSPROPERTY_ITEM</b>.<i>Values</i> member to the <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565966(v=vs.85).aspx">KSPROPERTY_VALUES</a> structured returned by this request.
+The audio driver’s KS filter topology includes a KS node of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537208">KSNODETYPE_VOLUME</a> for both input and output if the <a href="https://msdn.microsoft.com/library/windows/hardware/dn302030">BTHHFP_DESCRIPTOR</a> descriptor indicates volume support. The audio driver’s <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff563473(v=vs.85).aspx">KSNODE_DESCRIPTOR</a> structure for this node includes a <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565176(v=vs.85).aspx">PKSPROPERTY_ITEM</a> for the <b>KSPROPERTY_AUDIO_VOLUMELEVEL</b> property. The audio driver sets the <b>PKSPROPERTY_ITEM</b>.<i>Values</i> member to the <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565966(v=vs.85).aspx">KSPROPERTY_VALUES</a> structured returned by this request.
 
 This allows the Handsfree proofile (HFP) driver to almost entirely handle the problem of mapping <b>KSPROPERTY_AUDIO_VOLUMELEVEL</b> property values to the Bluetooth Handsfree profile. The audio driver’s property Get and Set handlers for this property simply call the HFP driver.
 
@@ -114,11 +115,10 @@ This allows the Handsfree proofile (HFP) driver to almost entirely handle the pr
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
-
-
-
-<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565966(v=vs.85).aspx">KSPROPERTY_VALUES</a>
 
 
 
@@ -130,8 +130,8 @@ This allows the Handsfree proofile (HFP) driver to almost entirely handle the pr
 
 
 
+<a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565966(v=vs.85).aspx">KSPROPERTY_VALUES</a>
  
 
  
-
 

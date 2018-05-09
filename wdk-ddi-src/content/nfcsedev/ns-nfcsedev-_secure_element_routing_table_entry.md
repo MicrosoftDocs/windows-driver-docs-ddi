@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	SECURE_ELEMENT_ROUTING_TABLE_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_ROUTING_TABLE_ENTRY, *PSECURE_ELEMENT_ROUTING_TABLE_ENTRY
 ---
@@ -49,22 +50,7 @@ req.typenames: SECURE_ELEMENT_ROUTING_TABLE_ENTRY, *PSECURE_ELEMENT_ROUTING_TABL
 ## -description
 
 
-SECURE_ELEMENT_ROUTING_TABLE_ENTRY is a member of <a href="..\nfcsedev\ns-nfcsedev-_secure_element_routing_table.md">SECURE_ELEMENT_ROUTING_TABLE</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SECURE_ELEMENT_ROUTING_TABLE_ENTRY {
-  SECURE_ELEMENT_ROUTING_TYPE eRoutingType;
-  union {
-    SECURE_ELEMENT_TECH_ROUTING_INFO  TechRoutingInfo;
-    SECURE_ELEMENT_PROTO_ROUTING_INFO ProtoRoutingInfo;
-    SECURE_ELEMENT_AID_ROUTING_INFO   AidRoutingInfo;
-  };
-} SECURE_ELEMENT_ROUTING_TABLE_ENTRY, *P_SECURE_ELEMENT_ROUTING_TABLE_ENTRY;
-````
+SECURE_ELEMENT_ROUTING_TABLE_ENTRY is a member of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905627">SECURE_ELEMENT_ROUTING_TABLE</a>.
 
 
 ## -struct-fields
@@ -78,18 +64,18 @@ NFC Forum listen mode routing table entry type.
 
 
 
-#### - AidRoutingInfo
+### -field TechRoutingInfo
 
-AID routing table control information.
+RF technology routing table entry information.
 
 
-
-#### - ProtoRoutingInfo
+### -field ProtoRoutingInfo
 
 RF protocol routing table entry information.
 
 
-#### - TechRoutingInfo
+### -field AidRoutingInfo
 
-RF technology routing table entry information.
+AID routing table control information.
+
 

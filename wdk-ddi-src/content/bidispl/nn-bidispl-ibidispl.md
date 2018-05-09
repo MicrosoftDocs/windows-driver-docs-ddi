@@ -7,8 +7,8 @@ old-location: print\ibidispl.htm
 old-project: print
 ms.assetid: 7e4a30b2-ac3a-475a-b818-455cdb7a91bf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IBidiSpl, IBidiSpl interface [Print Devices], IBidiSpl interface [Print Devices], described, _win32_IBidiSpl, bidispl/IBidiSpl, gdi.ibidispl, print.ibidispl
+ms.date: 4/20/2018
+ms.keywords: IBidiSpl, IBidiSpl interface [Print Devices], IBidiSpl interface [Print Devices],described, _win32_IBidiSpl, bidispl/IBidiSpl, gdi.ibidispl, print.ibidispl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: Bidispl.dll
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -38,9 +38,10 @@ api_location:
 -	Bidispl.h
 api_name:
 -	IBidiSpl
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
 # IBidiSpl interface
@@ -108,6 +109,9 @@ Unbinds a printer.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
@@ -116,12 +120,8 @@ Unbinds a printer.
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiSpl</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144980">IBidiSpl</a>
  
 
  
-
 

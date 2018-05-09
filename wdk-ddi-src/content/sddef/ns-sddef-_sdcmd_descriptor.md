@@ -38,10 +38,10 @@ api_location:
 -	sddef.h
 api_name:
 -	SDCMD_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _SDCMD_DESCRIPTOR structure
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The SDCMD_DESCRIPTOR structure defines a Secure Digital (SD) card command.
-
-
-## -syntax
-
-
-````
-typedef struct _SDCMD_DESCRIPTOR {
-  SD_COMMAND_CODE       Cmd;
-  SD_COMMAND_CLASS      CmdClass;
-  SD_TRANSFER_DIRECTION TransferDirection;
-  SD_TRANSFER_TYPE      TransferType;
-  SD_RESPONSE_TYPE      ResponseType;
-} SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -135,6 +121,13 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538003">SD_COMMAND_CLASS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538008">SD_COMMAND_CODE</a>
 
 
@@ -143,15 +136,11 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538025">SD_RESPONSE_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/1e821ca5-ff65-48a1-be5c-6d776c61f166">SD_TRANSFER_DIRECTION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538003">SD_COMMAND_CLASS</a>
 
 
 
@@ -159,16 +148,12 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538025">SD_RESPONSE_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
  
 
  
-
 

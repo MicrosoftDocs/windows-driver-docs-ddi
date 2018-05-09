@@ -7,7 +7,7 @@ old-location: serports\sercxretrievetransmitbuffer.htm
 old-project: serports
 ms.assetid: 64494AB9-6F7F-4374-9081-8D65BA7D34E1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 1/SerCxRetrieveTransmitBuffer, SerCxRetrieveTransmitBuffer, SerCxRetrieveTransmitBuffer method [Serial Ports], serports.sercxretrievetransmitbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SerCxRetrieveTransmitBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCxRetrieveTransmitBuffer function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SerCxRetrieveTransmitBuffer</b> method obtains an output buffer that contains data that is ready to be transmitted to the serial port.
-
-
-## -syntax
-
-
-````
-NTSTATUS SerCxRetrieveTransmitBuffer(
-  [in]      WDFDEVICE                Device,
-  [in]      ULONG                    Length,
-  [in, out] PSERCX_BUFFER_DESCRIPTOR BufferDescriptor
-);
-````
 
 
 ## -parameters
@@ -82,7 +70,7 @@ The requested buffer length, in bytes. If the <b>SerCxRetrieveTransmitBuffer</b>
 
 ### -param BufferDescriptor [in, out]
 
-A pointer to a caller-allocated <a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a> structure. This structure describes the data buffer to use for the transmit operation. The caller previously called the <a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a> function to initialize this structure. <b>SerCxRetrieveTransmitBuffer</b> writes to the <b>Buffer</b> and <b>Length</b> members of this structure.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh439539">SERCX_BUFFER_DESCRIPTOR</a> structure. This structure describes the data buffer to use for the transmit operation. The caller previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439542">SERCX_BUFFER_DESCRIPTOR_INIT</a> function to initialize this structure. <b>SerCxRetrieveTransmitBuffer</b> writes to the <b>Buffer</b> and <b>Length</b> members of this structure.
 
 
 ## -returns
@@ -146,16 +134,15 @@ The serial controller driver calls this method to acquire a buffer that contains
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
 
 
 
-<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439539">SERCX_BUFFER_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439542">SERCX_BUFFER_DESCRIPTOR_INIT</a>
  
 
  
-
 

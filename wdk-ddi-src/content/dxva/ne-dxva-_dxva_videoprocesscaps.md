@@ -7,7 +7,7 @@ old-location: display\dxva_videoprocesscaps.htm
 old-project: display
 ms.assetid: 225da110-cd59-4803-bde8-26e275b3ddbd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA_VideoProcessCaps, DXVA_VideoProcessCaps enumeration [Display Devices], DXVA_VideoProcess_AlphaBlend, DXVA_VideoProcess_AlphaBlendExtended, DXVA_VideoProcess_None, DXVA_VideoProcess_StretchX, DXVA_VideoProcess_StretchY, DXVA_VideoProcess_SubRects, DXVA_VideoProcess_SubStreams, DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcess_YUV2RGB, DXVA_VideoProcess_YUV2RGBExtended, _DXVA_VideoProcessCaps, display.dxva_videoprocesscaps, dxva/DXVA_VideoProcessCaps, dxva/DXVA_VideoProcess_AlphaBlend, dxva/DXVA_VideoProcess_AlphaBlendExtended, dxva/DXVA_VideoProcess_None, dxva/DXVA_VideoProcess_StretchX, dxva/DXVA_VideoProcess_StretchY, dxva/DXVA_VideoProcess_SubRects, dxva/DXVA_VideoProcess_SubStreams, dxva/DXVA_VideoProcess_SubStreamsExtended, dxva/DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcess_YUV2RGBExtended, dxvaref_4298738a-dc13-47b4-bb3d-84e90661542b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_VideoProcessCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_VideoProcessCaps
 ---
@@ -50,25 +51,6 @@ req.typenames: DXVA_VideoProcessCaps
 
 
 The DXVA_VideoProcessCaps enumeration identifies operations that can be performed concurrently with the requested deinterlace. 
-
-
-## -syntax
-
-
-````
-typedef enum _DXVA_VideoProcessCaps { 
-  DXVA_VideoProcess_None                = 0x0000,
-  DXVA_VideoProcess_YUV2RGB             = 0x0001,
-  DXVA_VideoProcess_StretchX            = 0x0002,
-  DXVA_VideoProcess_StretchY            = 0x0004,
-  DXVA_VideoProcess_AlphaBlend          = 0x0008,
-  DXVA_VideoProcess_SubRects            = 0x0010,
-  DXVA_VideoProcess_SubStreams          = 0x0020,
-  DXVA_VideoProcess_SubStreamsExtended  = 0x0040,
-  DXVA_VideoProcess_YUV2RGBExtended     = 0x0080,
-  DXVA_VideoProcess_AlphaBlendExtended  = 0x0100
-} DXVA_VideoProcessCaps;
-````
 
 
 ## -enum-fields
@@ -156,7 +138,7 @@ Must use with the <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa
 Windows Server 2003 SP1 and later and Windows XP SP2 and later versions only.
 
 
-Indicates that an alpha-blend operation can be performed with the destination surface when the deinterlaced and composited pixels are written to the destination surface. The driver must handle background color based on the alpha value of the <b>Alpha</b> member of the <a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a> structure. When the alpha value is 1.0f, the background color is drawn opaque (without transparency). When the alpha value is 0.0f, the background should not be drawn (transparent).
+Indicates that an alpha-blend operation can be performed with the destination surface when the deinterlaced and composited pixels are written to the destination surface. The driver must handle background color based on the alpha value of the <b>Alpha</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563915">DXVA_DeinterlaceBltEx</a> structure. When the alpha value is 1.0f, the background color is drawn opaque (without transparency). When the alpha value is 0.0f, the background should not be drawn (transparent).
 
 Must use with the <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a> function.
 
@@ -175,16 +157,15 @@ Color space conversion performed by <b>DXVA_VideoProcess_YUV2RGB</b> is particul
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563939">DXVA_DeinterlaceCaps</a>
 
 
 
 <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
-
-
-
  
 
  
-
 

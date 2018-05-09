@@ -7,7 +7,7 @@ old-location: kernel\transaction_enlistment_pair.htm
 old-project: kernel
 ms.assetid: f8d49d61-f15e-4972-bcd2-d20f1be5786c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PTRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_ENLISTMENT_PAIR, TRANSACTION_ENLISTMENT_PAIR structure [Kernel-Mode Driver Architecture], _TRANSACTION_ENLISTMENT_PAIR, kernel.transaction_enlistment_pair, ktm_ref_5f4d1426-1829-4c3d-836f-8655b41d9c0c.xml, wdm/PTRANSACTION_ENLISTMENT_PAIR, wdm/TRANSACTION_ENLISTMENT_PAIR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	TRANSACTION_ENLISTMENT_PAIR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSACTION_ENLISTMENT_PAIR, *PTRANSACTION_ENLISTMENT_PAIR
-req.product: Windows 10 or later.
 ---
 
 # _TRANSACTION_ENLISTMENT_PAIR structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>TRANSACTION_ENLISTMENT_PAIR</b> structure contains information about an enlistment that is associated with a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _TRANSACTION_ENLISTMENT_PAIR {
-  GUID EnlistmentId;
-  GUID ResourceManagerId;
-} TRANSACTION_ENLISTMENT_PAIR, *PTRANSACTION_ENLISTMENT_PAIR;
-````
 
 
 ## -struct-fields
@@ -83,23 +72,22 @@ A GUID that KTM has assigned to the resource manager that created the enlistment
 
 
 
-The <b>TRANSACTION_ENLISTMENT_PAIR</b> structure is used as a member of the <a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a> structure.
+The <b>TRANSACTION_ENLISTMENT_PAIR</b> structure is used as a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564787">TRANSACTION_ENLISTMENTS_INFORMATION</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
 
 
-<a href="..\wdm\ns-wdm-_transaction_enlistments_information.md">TRANSACTION_ENLISTMENTS_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564787">TRANSACTION_ENLISTMENTS_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugInputCallbacks.EndInput
-title: IDebugInputCallbacks::EndInput method
+title: IDebugInputCallbacks::EndInput
 author: windows-driver-content
 description: The EndInput callback method is called by the engine to indicate that it is no longer waiting for input.
 old-location: debugger\idebuginputcallbacks_endinput.htm
 old-project: debugger
 ms.assetid: e22b616c-51f6-4687-95b0-eb833ceb9ec3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, EndInput method [Windows Debugging], EndInput method [Windows Debugging], IDebugInputCallbacks interface, EndInput,IDebugInputCallbacks.EndInput, IDebugInputCallbacks, IDebugInputCallbacks interface [Windows Debugging], EndInput method, IDebugInputCallbacks::EndInput, dbgeng/IDebugInputCallbacks::EndInput, debugger.idebuginputcallbacks_endinput
+ms.date: 4/24/2018
+ms.keywords: ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, EndInput, EndInput method [Windows Debugging], EndInput method [Windows Debugging],IDebugInputCallbacks interface, IDebugInputCallbacks interface [Windows Debugging],EndInput method, IDebugInputCallbacks.EndInput, IDebugInputCallbacks::EndInput, dbgeng/IDebugInputCallbacks::EndInput, debugger.idebuginputcallbacks_endinput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugInputCallbacks.EndInput
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugInputCallbacks::EndInput method
+# IDebugInputCallbacks::EndInput
 
 
 ## -description
 
 
 The <b>EndInput</b> callback method is called by the engine to indicate that it is no longer waiting for input.
-
-
-## -syntax
-
-
-````
-HRESULT EndInput();
-````
 
 
 ## -parameters
@@ -80,7 +73,7 @@ This method's return value is ignored by the engine.
 
 
 
-Even if the engine has not called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550797">IDebugInputCallbacks::StartInput</a> for this <a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a> object, the engine will call <b>EndInput</b> if another IDebugInputCallbacks object returned an error from the <b>IDebugInputCallbacks::StartInput</b> method.
+Even if the engine has not called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550797">IDebugInputCallbacks::StartInput</a> for this <a href="https://msdn.microsoft.com/library/windows/hardware/ff550785">IDebugInputCallbacks</a> object, the engine will call <b>EndInput</b> if another IDebugInputCallbacks object returned an error from the <b>IDebugInputCallbacks::StartInput</b> method.
 
 For more information about debugger engine input, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
 

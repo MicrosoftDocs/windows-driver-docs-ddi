@@ -7,7 +7,7 @@ old-location: netvista\wwan_auth_akap_challenge.htm
 old-project: netvista
 ms.assetid: 0C1862D6-1252-4CF7-926A-C4647D545255
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_AUTH_AKAP_CHALLENGE, PWWAN_AUTH_AKAP_CHALLENGE, PWWAN_AUTH_AKAP_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKAP_CHALLENGE, WWAN_AUTH_AKAP_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKAP_CHALLENGE, netvista.wwan_auth_akap_challenge, wwan/PWWAN_AUTH_AKAP_CHALLENGE, wwan/WWAN_AUTH_AKAP_CHALLENGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_AUTH_AKAP_CHALLENGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_AUTH_AKAP_CHALLENGE, *PWWAN_AUTH_AKAP_CHALLENGE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_AUTH_AKAP_CHALLENGE structure
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_AUTH_AKAP_CHALLENGE structure represents an authentication challenge using the AKA' method.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_AUTH_AKAP_CHALLENGE {
-  BYTE  Rand[WWAN_AUTH_RAND_LEN];
-  BYTE  Autn[WWAN_AUTH_AUTN_LEN];
-  BYTE  NetworkName[WWAN_AUTH_NETWORK_NAME_MAX_LEN];
-  ULONG NetworkNameLength;
-} WWAN_AUTH_AKAP_CHALLENGE, *PWWAN_AUTH_AKAP_CHALLENGE;
-````
 
 
 ## -struct-fields
@@ -110,19 +97,18 @@ A 128-bit random number challenge. This member represents a multi-byte value in 
 
 
 
-The <a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\videoprocessorsetoutputcolorspace.htm
 old-project: display
 ms.assetid: a6d1020d-e8e1-465f-a133-59afdfe1cfce
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE, d3d10umddi/pfnVideoProcessorSetOutputColorSpace, display.videoprocessorsetoutputcolorspace, pfnVideoProcessorSetOutputColorSpace, pfnVideoProcessorSetOutputColorSpace callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE callback, d3d10umddi/pfnVideoProcessorSetOutputColorSpace, display.videoprocessorsetoutputcolorspace, pfnVideoProcessorSetOutputColorSpace, pfnVideoProcessorSetOutputColorSpace callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnVideoProcessorSetOutputColorSpace
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE callback
+# PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE callback function
 
 
 ## -description
@@ -52,30 +53,15 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Sets the output color space for the video processor.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE pfnVideoProcessorSetOutputColorSpace;
-
-VOID APIENTRY* pfnVideoProcessorSetOutputColorSpace(
-  _In_       D3D10DDI_HDEVICE                       hDevice,
-  _In_       D3D11_1DDI_HVIDEOPROCESSOR             hVideoProcessor,
-  _In_ const D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE *pColorspace
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
 ### -param *
@@ -96,14 +82,14 @@ A handle to the display device (graphics context).
 
 #### - hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 
 
 #### - pColorspace [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_color_space.md">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure that specifies the color space.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450970">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure that specifies the color space.
 
 
 ## -returns
@@ -119,7 +105,7 @@ This callback function does not return a value.
 
 
 
-The <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_color_space.md">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure includes the following members:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450970">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure includes the following members:
 
 <ul>
 <li>
@@ -152,16 +138,15 @@ If this member is set to one, the format that is used is the extended xvYCC form
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_color_space.md">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450970">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a>
  
 
  
-
 

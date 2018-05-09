@@ -7,7 +7,7 @@ old-location: storage\scsiportwriteportbufferushort.htm
 old-project: storage
 ms.assetid: ca6bd14b-533d-4451-b54f-29bc566c968d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWritePortBufferUshort, ScsiPortWritePortBufferUshort routine [Storage Devices], scsiprt_b04295df-d370-4015-a705-71652d4ab4f7.xml, srb/ScsiPortWritePortBufferUshort, storage.scsiportwriteportbufferushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Scsiport.dll
 api_name:
 -	ScsiPortWritePortBufferUshort
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ScsiPortWritePortBufferUshort macro
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 
 The <b>ScsiPortWritePortBufferUshort</b> routine transfers a given number of USHORT values from a buffer to the HBA.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-VOID ScsiPortWritePortBufferUshort(
-  _In_ PUSHORT Port,
-  _In_ PUSHORT Buffer,
-  _In_ ULONG   Count
-);
-````
-
 
 ## -parameters
 
@@ -88,12 +76,11 @@ Specifies the number of USHORT values to be written to the HBA.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564629">ScsiPortGetDeviceBase</a>
  
 
  
-
 

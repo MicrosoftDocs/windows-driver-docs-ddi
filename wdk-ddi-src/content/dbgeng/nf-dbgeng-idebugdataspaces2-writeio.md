@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces2.WriteIo
-title: IDebugDataSpaces2::WriteIo method
+title: IDebugDataSpaces2::WriteIo
 author: windows-driver-content
 description: The WriteIo method writes to the system and bus I/O memory.
 old-location: debugger\writeio.htm
 old-project: debugger
 ms.assetid: 3bc84b15-7c13-4ad9-b9a1-6abd5a7389eb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugDataSpaces interface [Windows Debugging], WriteIo method, IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], WriteIo method, IDebugDataSpaces2::WriteIo, IDebugDataSpaces3 interface [Windows Debugging], WriteIo method, IDebugDataSpaces3::WriteIo, IDebugDataSpaces4 interface [Windows Debugging], WriteIo method, IDebugDataSpaces4::WriteIo, IDebugDataSpaces::WriteIo, IDebugDataSpaces_d36b33ec-db19-4df1-8813-b77f22705279.xml, WriteIo method [Windows Debugging], WriteIo method [Windows Debugging], IDebugDataSpaces interface, WriteIo method [Windows Debugging], IDebugDataSpaces2 interface, WriteIo method [Windows Debugging], IDebugDataSpaces3 interface, WriteIo method [Windows Debugging], IDebugDataSpaces4 interface, WriteIo,IDebugDataSpaces2.WriteIo, dbgeng/IDebugDataSpaces2::WriteIo, dbgeng/IDebugDataSpaces3::WriteIo, dbgeng/IDebugDataSpaces4::WriteIo, dbgeng/IDebugDataSpaces::WriteIo, debugger.writeio
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging],WriteIo method, IDebugDataSpaces2 interface [Windows Debugging],WriteIo method, IDebugDataSpaces2.WriteIo, IDebugDataSpaces2::WriteIo, IDebugDataSpaces3 interface [Windows Debugging],WriteIo method, IDebugDataSpaces3::WriteIo, IDebugDataSpaces4 interface [Windows Debugging],WriteIo method, IDebugDataSpaces4::WriteIo, IDebugDataSpaces::WriteIo, IDebugDataSpaces_d36b33ec-db19-4df1-8813-b77f22705279.xml, WriteIo, WriteIo method [Windows Debugging], WriteIo method [Windows Debugging],IDebugDataSpaces interface, WriteIo method [Windows Debugging],IDebugDataSpaces2 interface, WriteIo method [Windows Debugging],IDebugDataSpaces3 interface, WriteIo method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteIo, dbgeng/IDebugDataSpaces3::WriteIo, dbgeng/IDebugDataSpaces4::WriteIo, dbgeng/IDebugDataSpaces::WriteIo, debugger.writeio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,34 +41,19 @@ api_name:
 -	IDebugDataSpaces2.WriteIo
 -	IDebugDataSpaces3.WriteIo
 -	IDebugDataSpaces4.WriteIo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces2::WriteIo method
+# IDebugDataSpaces2::WriteIo
 
 
 ## -description
 
 
 The <b>WriteIo</b> method writes to the system and bus I/O memory.
-
-
-## -syntax
-
-
-````
-HRESULT WriteIo(
-  [in]            ULONG   InterfaceType,
-  [in]            ULONG   BusNumber,
-  [in]            ULONG   AddressSpace,
-  [in]            ULONG64 Offset,
-  [in]            PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  BytesWritten
-);
-````
 
 
 ## -parameters

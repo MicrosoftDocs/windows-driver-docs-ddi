@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiSpl.MultiSendRecv
-title: IBidiSpl::MultiSendRecv method
+title: IBidiSpl::MultiSendRecv
 author: windows-driver-content
 description: The MultiSendRecv method sends a list of bidi requests.
 old-location: print\ibidispl_ibidispl__multisendrecv.htm
 old-project: print
 ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IBidiSpl, IBidiSpl interface [Print Devices], MultiSendRecv method, IBidiSpl::MultiSendRecv, MultiSendRecv method [Print Devices], MultiSendRecv method [Print Devices], IBidiSpl interface, MultiSendRecv,IBidiSpl.MultiSendRecv, _win32_IBidiSpl_MultiSendRecv, bidispl/IBidiSpl::MultiSendRecv, gdi.ibidispl_ibidispl__multisendrecv, print.ibidispl_ibidispl__multisendrecv
+ms.date: 4/20/2018
+ms.keywords: IBidiSpl interface [Print Devices],MultiSendRecv method, IBidiSpl.MultiSendRecv, IBidiSpl::MultiSendRecv, MultiSendRecv, MultiSendRecv method [Print Devices], MultiSendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_MultiSendRecv, bidispl/IBidiSpl::MultiSendRecv, gdi.ibidispl_ibidispl__multisendrecv, print.ibidispl_ibidispl__multisendrecv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiSpl.MultiSendRecv
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiSpl::MultiSendRecv method
+# IBidiSpl::MultiSendRecv
 
 
 ## -description
 
 
 The <b>MultiSendRecv</b> method sends a list of bidi requests.
-
-
-## -syntax
-
-
-````
-HRESULT MultiSendRecv(
-  [in] const LPCWSTR               pszAction,
-  [in]       IBidiRequestContainer *pRequestContainer
-);
-````
 
 
 ## -parameters
@@ -170,6 +160,9 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
@@ -178,12 +171,8 @@ The BIDI_ACTION_* values are case insensitive strings.
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144980">IBidiSpl</a>
  
 
  
-
 

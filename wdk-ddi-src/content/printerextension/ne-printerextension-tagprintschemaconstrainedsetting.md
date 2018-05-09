@@ -7,7 +7,7 @@ old-location: print\printschemaconstrainedsetting.htm
 old-project: print
 ms.assetid: 637A210F-9FD7-49BD-AF71-8A77E07D5C20
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: PrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting enumeration [Print Devices], PrintSchemaConstrainedSetting_Admin, PrintSchemaConstrainedSetting_Device, PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting_PrintTicket, print.printschemaconstrainedsetting, printerextension/PrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_Admin, printerextension/PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_None, printerextension/PrintSchemaConstrainedSetting_PrintTicket, tagPrintSchemaConstrainedSetting
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= APC_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	PrintSchemaConstrainedSetting
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaConstrainedSetting
-req.product: Windows 10 or later.
 ---
 
 # tagPrintSchemaConstrainedSetting enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The  PrintSchemaConstrainedSetting enumeration specifies whether the Option is available based on the current device configuration. The <b>constrained</b> attribute appears only in a PrintCapabilities document.
-
-
-## -syntax
-
-
-````
-typedef enum tagPrintSchemaConstrainedSetting { 
-  PrintSchemaConstrainedSetting_None         = 0,
-  PrintSchemaConstrainedSetting_PrintTicket  = 1,
-  PrintSchemaConstrainedSetting_Admin        = 2,
-  PrintSchemaConstrainedSetting_Device       = 3
-} PrintSchemaConstrainedSetting;
-````
 
 
 ## -enum-fields
@@ -93,12 +80,11 @@ The Option is constrained by the device configuration. The Option should not be 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/57E13395-9E23-4708-B4EC-6839CB6FC62B">IPrintSchemaOption::Constrained</a>
-
-
-
  
 
  
-
 

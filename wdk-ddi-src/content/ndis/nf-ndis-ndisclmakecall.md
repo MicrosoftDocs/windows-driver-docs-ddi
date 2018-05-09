@@ -7,7 +7,7 @@ old-location: netvista\ndisclmakecall.htm
 old-project: netvista
 ms.assetid: 69775220-71d8-497c-aaf7-9bc3ec90d00f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisClMakeCall, NdisClMakeCall function [Network Drivers Starting with Windows Vista], condis_client_ref_bd9f0a4a-c8f7-418e-aa80-e97fad7e4ab1.xml, ndis/NdisClMakeCall, netvista.ndisclmakecall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisClMakeCall
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisClMakeCall function
@@ -53,19 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 <b>NdisClMakeCall</b> sets up an outgoing call on a client-created VC.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisClMakeCall(
-  _In_      NDIS_HANDLE         NdisVcHandle,
-  _Inout_   PCO_CALL_PARAMETERS CallParameters,
-  _In_opt_  NDIS_HANDLE         ProtocolPartyContext,
-  _Out_opt_ PNDIS_HANDLE        NdisPartyHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ NDIS_STATUS NdisClMakeCall(
 ### -param NdisVcHandle [in]
 
 Specifies the handle returned by a preceding call to 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>.
 
 
 ### -param CallParameters [in, out]
@@ -110,7 +98,7 @@ Pointer to a caller-supplied variable, usually in the caller-allocated party con
 When 
      <b>NdisClMakeCall</b> returns anything other than NDIS_STATUS_PENDING, the client should make an internal
      call to its 
-     <a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">
+     <a href="https://msdn.microsoft.com/6bb69f78-8dab-46a7-84fb-7bc17e894535">
      ProtocolClMakeCallComplete</a> function. Otherwise, NDIS calls the client's 
      <i>ProtocolClMakeCallComplete</i> function when this operation is completed.
 
@@ -123,14 +111,14 @@ When
 
 <b>NdisClMakeCall</b> sets up the attributes of a client-created VC for a client-initiated outgoing call.
     The client must set up the VC with 
-    <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> before it attempts to make
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> before it attempts to make
     an outgoing call.
 
 A call to 
     <b>NdisClMakeCall</b> causes NDIS to forward this request to the 
-    <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a> function of the
+    <a href="https://msdn.microsoft.com/ede0a18a-cd3b-4fbb-a16b-e7493940d633">ProtocolCmMakeCall</a> function of the
     call manager with which the client shares the given 
-    <a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">NdisVcHandle</a>. The CM is
+    <a href="https://msdn.microsoft.com/6bb69f78-8dab-46a7-84fb-7bc17e894535">NdisVcHandle</a>. The CM is
     responsible for validating the given data at 
     <i>CallParameters</i> . It can modify this client-supplied data while negotiating with relevant network
     components and can return different traffic parameters than the client originally gave to 
@@ -162,49 +150,48 @@ The client's
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmmakecallcomplete.md">NdisCmMakeCallComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_make_call_complete.md">ProtocolClMakeCallComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561677">NdisCmMakeCallComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
 
 
 
+<a href="https://msdn.microsoft.com/6bb69f78-8dab-46a7-84fb-7bc17e894535">ProtocolClMakeCallComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/ede0a18a-cd3b-4fbb-a16b-e7493940d633">ProtocolCmMakeCall</a>
  
 
  
-
 

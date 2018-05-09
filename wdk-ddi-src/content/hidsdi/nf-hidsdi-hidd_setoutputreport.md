@@ -7,7 +7,7 @@ old-location: hid\hidd_setoutputreport.htm
 old-project: hid
 ms.assetid: a4ec7a17-40c4-4812-a62a-585b3b486578
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidD_SetOutputReport, HidD_SetOutputReport routine [Human Input Devices], hid.hidd_setoutputreport, hidfunc_eb711fe9-fdf1-4757-90c1-6c4e115f3805.xml, hidsdi/HidD_SetOutputReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hid.dll
 api_name:
 -	HidD_SetOutputReport
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
+req.typenames: 
 ---
 
 # HidD_SetOutputReport function
@@ -50,18 +51,6 @@ req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
 
 
 The <b>HidD_SetOutputReport</b> routine sends an output report to a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>.
-
-
-## -syntax
-
-
-````
-BOOLEAN __stdcall HidD_SetOutputReport(
-  _In_ HANDLE HidDeviceObject,
-  _In_ PVOID  ReportBuffer,
-  _In_ ULONG  ReportBufferLength
-);
-````
 
 
 ## -parameters
@@ -117,26 +106,26 @@ The output report is referenced by the <i>ReportBuffer</i> parameter. Depending 
 
 <ul>
 <li>
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539783">HidP_SetData</a>
 </li>
 <li>
-<a href="..\hidpi\nf-hidpi-hidp_setscaledusagevalue.md">HidP_SetScaledUsageValue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539787">HidP_SetScaledUsageValue</a>
 </li>
 <li>
-<a href="..\hidpi\nf-hidpi-hidp_setusages.md">HidP_SetUsages</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539792">HidP_SetUsages</a>
 </li>
 <li>
-<a href="..\hidpi\nf-hidpi-hidp_setusagevalue.md">HidP_SetUsageValue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539797">HidP_SetUsageValue</a>
 </li>
 <li>
-<a href="..\hidpi\nf-hidpi-hidp_setusagevaluearray.md">HidP_SetUsageValueArray</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539801">HidP_SetUsageValueArray</a>
 </li>
 </ul>
 </li>
 </ul>
 For an example of how to prepare and  a HID report and send it to a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=256119">HClient</a> sample application. This sample is located in the MSDN Code Gallery.
 
-Only user-mode applications can call <b>HidD_SetOutputReport</b>. Kernel-mode drivers can use an <a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a> request.
+Only user-mode applications can call <b>HidD_SetOutputReport</b>. Kernel-mode drivers can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541196">IOCTL_HID_SET_OUTPUT_REPORT</a> request.
 
 For more information, see the following topics:
 
@@ -153,36 +142,35 @@ For more information, see the following topics:
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538910">HidD_GetFeature</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538945">HidD_GetInputReport</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539684">HidD_SetFeature</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541100">IOCTL_HID_GET_FEATURE</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541126">IOCTL_HID_GET_INPUT_REPORT</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541176">IOCTL_HID_SET_FEATURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541196">IOCTL_HID_SET_OUTPUT_REPORT</a>
  
 
  
-
 

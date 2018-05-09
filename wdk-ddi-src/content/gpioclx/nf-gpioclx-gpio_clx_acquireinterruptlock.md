@@ -39,9 +39,10 @@ api_location:
 -	Msgpioclxstub.dll
 api_name:
 -	GPIO_CLX_AcquireInterruptLock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GPIO_CONNECT_IO_PINS_MODE, *PGPIO_CONNECT_IO_PINS_MODE
+req.typenames: 
 ---
 
 # GPIO_CLX_AcquireInterruptLock function
@@ -51,17 +52,6 @@ req.typenames: GPIO_CONNECT_IO_PINS_MODE, *PGPIO_CONNECT_IO_PINS_MODE
 
 
 The <b>GPIO_CLX_AcquireInterruptLock</b> method acquires an interrupt lock on a bank of pins in the general-purpose I/O (GPIO) controller.
-
-
-## -syntax
-
-
-````
-VOID GPIO_CLX_AcquireInterruptLock(
-  _In_ PVOID   Context,
-  _In_ BANK_ID BankId
-);
-````
 
 
 ## -parameters
@@ -109,12 +99,11 @@ If the <i>Context</i> parameter is NULL or points to an invalid GPIO device cont
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439494">GPIO_CLX_ReleaseInterruptLock</a>
-
-
-
  
 
  
-
 

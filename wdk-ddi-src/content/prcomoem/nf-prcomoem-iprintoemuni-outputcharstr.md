@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.OutputCharStr
-title: IPrintOemUni::OutputCharStr method
+title: IPrintOemUni::OutputCharStr
 author: windows-driver-content
 description: The IPrintOemUni::OutputCharStr method enables a rendering plug-in to control the printing of font glyphs.
 old-location: print\iprintoemuni_outputcharstr.htm
 old-project: print
 ms.assetid: 73518253-d65a-40ab-8735-44e92fbbed57
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], OutputCharStr method, IPrintOemUni::OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr method [Print Devices], IPrintOemUni interface, OutputCharStr,IPrintOemUni.OutputCharStr, prcomoem/IPrintOemUni::OutputCharStr, print.iprintoemuni_outputcharstr, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUni interface [Print Devices],OutputCharStr method, IPrintOemUni.OutputCharStr, IPrintOemUni::OutputCharStr, OutputCharStr, OutputCharStr method [Print Devices], OutputCharStr method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::OutputCharStr, print.iprintoemuni_outputcharstr, print_unidrv-pscript_rendering_89b41d7b-5ceb-44a1-9b48-71751df6e40a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.OutputCharStr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::OutputCharStr method
+# IPrintOemUni::OutputCharStr
 
 
 ## -description
 
 
 The <code>IPrintOemUni::OutputCharStr</code> method enables a rendering plug-in to control the printing of font glyphs.
-
-
-## -syntax
-
-
-````
-HRESULT OutputCharStr(
-   PDEVOBJ     pdevobj,
-   PUNIFONTOBJ pUFObj,
-   DWORD       dwType,
-   DWORD       dwCount,
-   PVOID       pGlyph
-);
-````
 
 
 ## -parameters
@@ -74,12 +60,12 @@ HRESULT OutputCharStr(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pUFObj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563590">UNIFONTOBJ</a> structure.
 
 
 ### -param dwType
@@ -193,11 +179,11 @@ If the specified font is a device font, the method must do the following:
 
 <ol>
 <li>
-Allocate a <a href="..\printoem\ns-printoem-_getinfo_glyphstring.md">GETINFO_GLYPHSTRING</a> structure with <i>dwTypeIn</i> set to TYPE_GLYPHHANDLE and <i>dwTypeOut</i> set to TYPE_TRANSDATA.
+Allocate a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550436">GETINFO_GLYPHSTRING</a> structure with <i>dwTypeIn</i> set to TYPE_GLYPHHANDLE and <i>dwTypeOut</i> set to TYPE_TRANSDATA.
 
 </li>
 <li>
-Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> function, passing the GETINFO_GLYPHSTRING structure as input, to obtain glyph translations as <a href="..\prntfont\ns-prntfont-_transdata.md">TRANSDATA</a> structure contents.
+Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> function, passing the GETINFO_GLYPHSTRING structure as input, to obtain glyph translations as <a href="https://msdn.microsoft.com/library/windows/hardware/ff562816">TRANSDATA</a> structure contents.
 
 </li>
 <li>

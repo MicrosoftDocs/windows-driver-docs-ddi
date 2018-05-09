@@ -7,8 +7,8 @@ old-location: display\setdepthstencil.htm
 old-project: display
 ms.assetid: 7c4b01c8-2376-4956-9b18-649647c19b2b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_SETDEPTHSTENCIL, SetDepthStencil, SetDepthStencil callback function [Display Devices], UserModeDisplayDriver_Functions_0279a98e-e1a5-4e33-8ced-9ac07e5e2921.xml, d3dumddi/SetDepthStencil, display.setdepthstencil
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETDEPTHSTENCIL, PFND3DDDI_SETDEPTHSTENCIL callback, SetDepthStencil, SetDepthStencil callback function [Display Devices], UserModeDisplayDriver_Functions_0279a98e-e1a5-4e33-8ced-9ac07e5e2921.xml, d3dumddi/SetDepthStencil, display.setdepthstencil
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetDepthStencil
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETDEPTHSTENCIL callback
+# PFND3DDDI_SETDEPTHSTENCIL callback function
 
 
 ## -description
 
 
 The <i>SetDepthStencil</i> function sets the depth buffer in the driver's context. 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETDEPTHSTENCIL SetDepthStencil;
-
-__checkReturn HRESULT APIENTRY SetDepthStencil(
-  _In_       HANDLE                    hDevice,
-  _In_ const D3DDDIARG_SETDEPTHSTENCIL *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY SetDepthStencil(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setdepthstencil.md">D3DDDIARG_SETDEPTHSTENCIL</a> structure that specifies the depth buffer.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543299">D3DDDIARG_SETDEPTHSTENCIL</a> structure that specifies the depth buffer.
 
 
 ## -returns
@@ -110,16 +97,15 @@ The user-mode display driver should store the depth buffer in the driver's conte
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setdepthstencil.md">D3DDDIARG_SETDEPTHSTENCIL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543299">D3DDDIARG_SETDEPTHSTENCIL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

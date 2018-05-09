@@ -7,7 +7,7 @@ old-location: audio\ksdatarange_music.htm
 old-project: audio
 ms.assetid: 2ada5d1c-9c46-4f7b-99e5-72aa8f6fee9f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSDATARANGE_MUSIC, KSDATARANGE_MUSIC, KSDATARANGE_MUSIC structure [Audio Devices], PKSDATARANGE_MUSIC, PKSDATARANGE_MUSIC structure pointer [Audio Devices], aud-prop_5c82e83d-000e-440e-bfcb-8daef30f5056.xml, audio.ksdatarange_music, ksmedia/KSDATARANGE_MUSIC, ksmedia/PKSDATARANGE_MUSIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSDATARANGE_MUSIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDATARANGE_MUSIC, *PKSDATARANGE_MUSIC
 ---
@@ -50,20 +51,6 @@ req.typenames: KSDATARANGE_MUSIC, *PKSDATARANGE_MUSIC
 
 
 The KSDATARANGE_MUSIC structure specifies a range of DirectMusic MIDI formats.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSDATARANGE DataRange;
-  GUID        Technology;
-  ULONG       Channels;
-  ULONG       Notes;
-  ULONG       ChannelMask;
-} KSDATARANGE_MUSIC, *PKSDATARANGE_MUSIC;
-````
 
 
 ## -struct-fields
@@ -153,12 +140,11 @@ For information about data ranges and intersection handling, see <a href="https:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
  
 
  
-
 

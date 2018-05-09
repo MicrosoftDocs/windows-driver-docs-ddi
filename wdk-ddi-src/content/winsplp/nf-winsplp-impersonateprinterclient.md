@@ -7,7 +7,7 @@ old-location: print\impersonateprinterclient.htm
 old-project: print
 ms.assetid: 8e110b2a-9d13-4e2e-8f27-5a48d838fb3c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: ImpersonatePrinterClient, ImpersonatePrinterClient function [Print Devices], print.impersonateprinterclient, spoolfnc_2eb48193-850d-43dc-8e9b-025c8187c49e.xml, winsplp/ImpersonatePrinterClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Spoolss.dll
 api_name:
 -	ImpersonatePrinterClient
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ImpersonatePrinterClient function
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-ImpersonatePrinterClient resumes impersonation of the client, completing the operation begun by <a href="..\winsplp\nf-winsplp-reverttoprinterself.md">RevertToPrinterSelf</a>.
-
-
-## -syntax
-
-
-````
-BOOL ImpersonatePrinterClient(
-  _In_ HANDLE hToken
-);
-````
+ImpersonatePrinterClient resumes impersonation of the client, completing the operation begun by <a href="https://msdn.microsoft.com/library/windows/hardware/ff561987">RevertToPrinterSelf</a>.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ BOOL ImpersonatePrinterClient(
 
 ### -param hToken [in]
 
-Caller-supplied handle to a thread. This parameter must have been previously returned by a call to <a href="..\winsplp\nf-winsplp-reverttoprinterself.md">RevertToPrinterSelf</a>.
+Caller-supplied handle to a thread. This parameter must have been previously returned by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561987">RevertToPrinterSelf</a>.
 
 
 ## -returns
@@ -86,19 +76,18 @@ If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the funct
 
 
 
-This function must be called after a successful call to <a href="..\winsplp\nf-winsplp-reverttoprinterself.md">RevertToPrinterSelf</a>. It resumes impersonation of the client and cleans up the thread handle.
+This function must be called after a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561987">RevertToPrinterSelf</a>. It resumes impersonation of the client and cleans up the thread handle.
 
 
 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-reverttoprinterself.md">RevertToPrinterSelf</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561987">RevertToPrinterSelf</a>
  
 
  
-
 

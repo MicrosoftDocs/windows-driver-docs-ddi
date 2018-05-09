@@ -7,7 +7,7 @@ old-location: stream\ksdataformat.htm
 old-project: stream
 ms.assetid: e39a59f4-6ec2-402d-8f8e-12324d6cbfa8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSDATAFORMAT, *PKSDATARANGE, KSDATAFORMAT, KSDATAFORMAT structure [Streaming Media Devices], KSDATARANGE, KSDATARANGE structure [Streaming Media Devices], PKSDATAFORMAT, PKSDATAFORMAT structure pointer [Streaming Media Devices], PKSDATARANGE, PKSDATARANGE structure pointer [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, ks/KSDATAFORMAT, ks/KSDATARANGE, ks/PKSDATAFORMAT, ks/PKSDATARANGE, stream.ksdataformat"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSDATAFORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE, *PKSDATARANGE
 ---
@@ -50,22 +51,6 @@ req.typenames: KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE, *PKSDATARANGE
 
 
 The KSDATAFORMAT structure is a variable-length structure that describes a data format.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG FormatSize;
-  ULONG Flags;
-  ULONG SampleSize;
-  ULONG Reserved;
-  GUID  MajorFormat;
-  GUID  SubFormat;
-  GUID  Specifier;
-} KSDATAFORMAT, *PKSDATAFORMAT, KSDATARANGE, *PKSDATARANGE;
-````
 
 
 ## -struct-fields
@@ -80,7 +65,7 @@ Specifies the size, in bytes, of the KSDATAFORMAT structure. This must be at lea
 
 ### -field Flags
 
-Set Flags to KSDATAFORMAT_ATTRIBUTES (0x2) to indicate that the KSDATAFORMAT is followed in memory by a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> of <a href="..\ks\ns-ks-ksattribute.md">KSATTRIBUTE</a> structures.
+Set Flags to KSDATAFORMAT_ATTRIBUTES (0x2) to indicate that the KSDATAFORMAT is followed in memory by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a> of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560987">KSATTRIBUTE</a> structures.
 
 
 ### -field SampleSize
@@ -144,12 +129,11 @@ For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combina
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/dc2af282-4976-42d8-b07b-13b2a6dfb7d5">Stream Categories</a>
-
-
-
  
 
  
-
 

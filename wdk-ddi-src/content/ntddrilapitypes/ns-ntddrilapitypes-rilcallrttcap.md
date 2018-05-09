@@ -7,7 +7,7 @@ old-location: netvista\rilcallrttcap.htm
 old-project: netvista
 ms.assetid: 7cb8618b-93da-4b6d-8f03-fb42a8d28fd0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILCALLRTTCAP, RILCALLRTTCAP, RILCALLRTTCAP structure [Network Drivers Starting with Windows Vista], netvista.rilcallrttcap, ntddrilapitypes/RILCALLRTTCAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLRTTCAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLRTTCAP, *LPRILCALLRTTCAP
 ---
@@ -50,17 +51,6 @@ req.typenames: RILCALLRTTCAP, *LPRILCALLRTTCAP
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLRTTCAP {
-  RILCALLRTTMODE  dwLocalRTTCap;
-  RILCALLRTTMODE  dwPeerRTTCap;
-} RILCALLRTTCAP, RILCALLRTTCAP;
-````
 
 
 ## -struct-fields

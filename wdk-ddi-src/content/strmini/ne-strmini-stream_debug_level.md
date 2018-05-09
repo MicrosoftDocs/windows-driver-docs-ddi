@@ -7,7 +7,7 @@ old-location: stream\stream_debug_level.htm
 old-project: stream
 ms.assetid: 42d70c1f-5cce-4097-849d-a5aa05b669b5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: DebugLevelError, DebugLevelFatal, DebugLevelInfo, DebugLevelMaximum, DebugLevelTrace, DebugLevelVerbose, DebugLevelWarning, STREAM_DEBUG_LEVEL, STREAM_DEBUG_LEVEL enumeration [Streaming Media Devices], ks-struct_9820cc1d-0d8b-43a8-b1a2-bca3f8a23d22.xml, stream.stream_debug_level, strmini/DebugLevelError, strmini/DebugLevelFatal, strmini/DebugLevelInfo, strmini/DebugLevelMaximum, strmini/DebugLevelTrace, strmini/DebugLevelVerbose, strmini/DebugLevelWarning, strmini/STREAM_DEBUG_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	strmini.h
 api_name:
 -	STREAM_DEBUG_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_DEBUG_LEVEL
-req.product: Windows 10 or later.
 ---
 
 # STREAM_DEBUG_LEVEL enumeration
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 The STREAM_DEBUG_LEVEL enumeration lists incrementally increasing levels of debugger output.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  DebugLevelFatal    = 0,
-  DebugLevelError    = 1,
-  DebugLevelWarning  = 2,
-  DebugLevelInfo     = 3,
-  DebugLevelTrace    = 4,
-  DebugLevelVerbose  = 5,
-  DebugLevelMaximum  = 6
-} STREAM_DEBUG_LEVEL;
-````
 
 
 ## -enum-fields
@@ -111,12 +95,11 @@ Display maximum information.
 
 ## -see-also
 
-<a href="..\strmini\nf-strmini-streamclassdebugprint.md">StreamClassDebugPrint</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568235">StreamClassDebugPrint</a>
  
 
  
-
 

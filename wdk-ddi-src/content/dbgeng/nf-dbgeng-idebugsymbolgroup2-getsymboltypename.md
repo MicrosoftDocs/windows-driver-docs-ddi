@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolTypeName
-title: IDebugSymbolGroup2::GetSymbolTypeName method
+title: IDebugSymbolGroup2::GetSymbolTypeName
 author: windows-driver-content
 description: The GetSymbolTypeName methods return the name of the specified symbol's type.
 old-location: debugger\getsymboltypename.htm
 old-project: debugger
 ms.assetid: e15b418e-bf4a-49c0-bdb3-24973513e654
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, GetSymbolTypeName method [Windows Debugging], GetSymbolTypeName method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolTypeName,IDebugSymbolGroup2.GetSymbolTypeName, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolTypeName method, IDebugSymbolGroup2::GetSymbolTypeName, dbgeng/IDebugSymbolGroup2::GetSymbolTypeName, debugger.getsymboltypename
+ms.date: 4/24/2018
+ms.keywords: ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], GetSymbolTypeName method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolTypeName method, IDebugSymbolGroup2.GetSymbolTypeName, IDebugSymbolGroup2::GetSymbolTypeName, dbgeng/IDebugSymbolGroup2::GetSymbolTypeName, debugger.getsymboltypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbolGroup2.GetSymbolTypeName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbolGroup2::GetSymbolTypeName method
+# IDebugSymbolGroup2::GetSymbolTypeName
 
 
 ## -description
 
 
 The <b>GetSymbolTypeName</b>  methods return the name of the specified symbol's type.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolTypeName(
-  [in]            ULONG  Index,
-  [out, optional] PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG NameSize
-);
-````
 
 
 ## -parameters
@@ -140,20 +128,19 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550846">IDebugSymbolGroup2</a>
+
+
+
 <a href="https://msdn.microsoft.com/09aa3ba9-d5b6-4c08-93f1-f7beca9350a1">IDebugSymbols::GetTypeName</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-
-
  
 
  
-
 

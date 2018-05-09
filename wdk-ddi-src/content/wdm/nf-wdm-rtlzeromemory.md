@@ -7,7 +7,7 @@ old-location: kernel\rtlzeromemory.htm
 old-project: kernel
 ms.assetid: e9e20d9c-0f2f-4ab1-a249-3e09bb6a7a22
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlZeroMemory, RtlZeroMemory routine [Kernel-Mode Driver Architecture], k109_63d9f0fb-d698-4707-9018-de2fa851a94b.xml, kernel.rtlzeromemory, wdm/RtlZeroMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlZeroMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlZeroMemory macro
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlZeroMemory</b> routine fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
-
-
-## -syntax
-
-
-````
-VOID RtlZeroMemory(
-  _Out_ VOID UNALIGNED *Destination,
-  _In_  SIZE_T         Length
-);
-````
 
 
 ## -parameters
@@ -83,7 +72,7 @@ The number of bytes to fill with zeros.
 
 
 
-To zero out a memory buffer to erase security-sensitive data, use <a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a> instead.
+To zero out a memory buffer to erase security-sensitive data, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562768">RtlSecureZeroMemory</a> instead.
 
 Callers of <b>RtlZeroMemory</b> can be running at any IRQL if the destination memory block is in nonpaged system memory. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
 
@@ -92,16 +81,15 @@ Callers of <b>RtlZeroMemory</b> can be running at any IRQL if the destination me
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlsecurezeromemory.md">RtlSecureZeroMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561870">RtlFillMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562768">RtlSecureZeroMemory</a>
  
 
  
-
 

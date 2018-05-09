@@ -7,7 +7,7 @@ old-location: stream\camconfigureex.htm
 old-project: stream
 ms.assetid: ec9fd207-4ed8-4bc9-b240-b5214e8c7f67
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: CamConfigureEx, CamConfigureEx routine [Streaming Media Devices], PCAM_CONFIGURE_ROUTINE_EX, stream.camconfigureex, usbcamdi/CamConfigureEx, usbcmdpr_79d31303-32b2-493e-87b6-d6e1a9ad292d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,38 +38,19 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamConfigureEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_CONFIGURE_ROUTINE_EX callback
+# PCAM_CONFIGURE_ROUTINE_EX callback function
 
 
 ## -description
 
 
 A camera minidriver's <b>CamConfigureEx</b> callback function configures the isochronous streaming interface.
-
-
-## -prototype
-
-
-````
-PCAM_CONFIGURE_ROUTINE_EX CamConfigureEx;
-
-NTSTATUS CamConfigureEx(
-   PDEVICE_OBJECT                  BusDeviceObject,
-   PVOID                           DeviceContext,
-   PUSBD_INTERFACE_INFORMATION     Interface,
-   PUSB_CONFIGURATION_DESCRIPTOR   ConfigurationDescriptor,
-   ULONG                           PipeConfigListSize,
-   PUSBCAMD_Pipe_Config_Descriptor PipeConfig,
-   PUSB_DEVICE_DESCRIPTOR          DeviceDescriptor
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -89,12 +70,12 @@ Pointer to the camera minidriver's device context.
 
 ### -param Interface
 
-Pointer to the <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a> structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539068">USBD_INTERFACE_INFORMATION</a> structure initialized with the proper values for a SELECT_INTERFACE URB request. This interface structure corresponds to a single isochronous interface on the device.
 
 
 ### -param ConfigurationDescriptor
 
-Pointer to the <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a> for this device.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539241">USB_CONFIGURATION_DESCRIPTOR</a> for this device.
 
 
 ### -param PipeConfigListSize
@@ -104,12 +85,12 @@ Specifies the number of elements in the <i>PipeConfig</i> array.
 
 ### -param PipeConfig
 
-Pointer to a <a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a> array describing the association between pipes and streams.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568623">USBCAMD_Pipe_Config_Descriptor</a> array describing the association between pipes and streams.
 
 
 ### -param DeviceDescriptor
 
-Pointer to the <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> for this device.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a> for this device.
 
 
 ## -returns
@@ -140,28 +121,27 @@ This function is required.
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568590">USBCAMD_DEVICE_DATA2</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568623">USBCAMD_Pipe_Config_Descriptor</a>
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-_pipe_config_descriptor.md">USBCAMD_Pipe_Config_Descriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539068">USBD_INTERFACE_INFORMATION</a>
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539241">USB_CONFIGURATION_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a>
  
 
  
-
 

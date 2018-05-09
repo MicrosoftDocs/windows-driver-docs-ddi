@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.get_SleepWakeTimeInSeconds
-title: IWDTFSystemAction2::get_SleepWakeTimeInSeconds method
+title: IWDTFSystemAction2::get_SleepWakeTimeInSeconds
 author: windows-driver-content
 description: Gets or sets the time in seconds when the system will wake from the sleep state.
 old-location: dtf\iwdtfsystemaction2_sleepwaketimeinseconds.htm
 old-project: dtf
 ms.assetid: 90b9742d-966b-4502-92ec-670c663d9a76
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], SleepWakeTimeInSeconds property, IWDTFSystemAction2.SleepWakeTimeInSeconds, IWDTFSystemAction2::get_SleepWakeTimeInSeconds, IWDTFSystemAction2::put_SleepWakeTimeInSeconds, Microsoft.WDTF.IWDTFSystemAction2.SleepWakeTimeInSeconds, Microsoft::WDTF::IWDTFSystemAction2::SleepWakeTimeInSeconds, SleepWakeTimeInSeconds property [Windows Device Testing Framework], SleepWakeTimeInSeconds property [Windows Device Testing Framework], IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_sleepwaketimeinseconds, get_SleepWakeTimeInSeconds,IWDTFSystemAction2.get_SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::get_SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::put_SleepWakeTimeInSeconds
+ms.date: 4/4/2018
+ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],SleepWakeTimeInSeconds property, IWDTFSystemAction2.SleepWakeTimeInSeconds, IWDTFSystemAction2.get_SleepWakeTimeInSeconds, IWDTFSystemAction2::SleepWakeTimeInSeconds, IWDTFSystemAction2::get_SleepWakeTimeInSeconds, IWDTFSystemAction2::put_SleepWakeTimeInSeconds, Microsoft.WDTF.IWDTFSystemAction2.SleepWakeTimeInSeconds, Microsoft::WDTF::IWDTFSystemAction2::SleepWakeTimeInSeconds, SleepWakeTimeInSeconds property [Windows Device Testing Framework], SleepWakeTimeInSeconds property [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_sleepwaketimeinseconds, get_SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::get_SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::put_SleepWakeTimeInSeconds
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,13 +40,13 @@ api_name:
 -	IWDTFSystemAction2.SleepWakeTimeInSeconds
 -	IWDTFSystemAction2.get_SleepWakeTimeInSeconds
 -	IWDTFSystemAction2.put_SleepWakeTimeInSeconds
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSystemAction2::get_SleepWakeTimeInSeconds method
+# IWDTFSystemAction2::get_SleepWakeTimeInSeconds
 
 
 ## -description
@@ -57,31 +57,16 @@ Gets or sets the time in seconds when the system will wake from the sleep state.
 This property is read/write.
 
 
-## -syntax
-
-
-````
-HRESULT put_SleepWakeTimeInSeconds(
-  [in]          LONG nWakeTimeInSeconds
-);
-
-HRESULT get_SleepWakeTimeInSeconds(
-  [out, retval] LONG *pnWakeTimeInSeconds
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439302">IWDTFSystemAction2</a>
  
 
  
-
 

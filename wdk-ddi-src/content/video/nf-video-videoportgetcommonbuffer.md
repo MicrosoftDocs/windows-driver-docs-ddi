@@ -7,7 +7,7 @@ old-location: display\videoportgetcommonbuffer.htm
 old-project: display
 ms.assetid: c8329d26-fb6f-46f1-aacd-ba78ee4ea5d5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortGetCommonBuffer, VideoPortGetCommonBuffer function [Display Devices], VideoPort_Functions_eead14aa-271b-49a2-8ded-482ffc73741e.xml, display.videoportgetcommonbuffer, video/VideoPortGetCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortGetCommonBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortGetCommonBuffer function
@@ -50,24 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortGetCommonBuffer</b> function is <b>obsolete</b> in Windows XP and later, and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>.
+The <b>VideoPortGetCommonBuffer</b> function is <b>obsolete</b> in Windows XP and later, and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff570178">VideoPortAllocateCommonBuffer</a>.
 
 <b>VideoPortGetCommonBuffer</b> allocates and maps system memory so that it is simultaneously accessible from both the processor and a device for common-buffer DMA operations.
-
-
-## -syntax
-
-
-````
-PVOID VideoPortGetCommonBuffer(
-  _In_  PVOID             HwDeviceExtension,
-  _In_  ULONG             DesiredLength,
-  _In_  ULONG             Alignment,
-  _Out_ PPHYSICAL_ADDRESS LogicalAddress,
-  _Out_ PULONG            pActualLength,
-  _In_  BOOLEAN           CacheEnabled
-);
-````
 
 
 ## -parameters
@@ -125,12 +110,11 @@ See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bu
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570178">VideoPortAllocateCommonBuffer</a>
  
 
  
-
 

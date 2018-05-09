@@ -7,8 +7,8 @@ old-location: display\capturetosysmem.htm
 old-project: display
 ms.assetid: ea2b5338-81cf-4114-bb07-16e8ff4d2b95
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CaptureToSysMem, CaptureToSysMem callback function [Display Devices], PFND3DDDI_CAPTURETOSYSMEM, UserModeDisplayDriver_Functions_9d7270cc-da5e-4c04-8ab6-93b9cfd7a475.xml, d3dumddi/CaptureToSysMem, display.capturetosysmem
+ms.date: 4/16/2018
+ms.keywords: CaptureToSysMem, CaptureToSysMem callback function [Display Devices], PFND3DDDI_CAPTURETOSYSMEM, PFND3DDDI_CAPTURETOSYSMEM callback, UserModeDisplayDriver_Functions_9d7270cc-da5e-4c04-8ab6-93b9cfd7a475.xml, d3dumddi/CaptureToSysMem, display.capturetosysmem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	CaptureToSysMem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CAPTURETOSYSMEM callback
+# PFND3DDDI_CAPTURETOSYSMEM callback function
 
 
 ## -description
 
 
 The <b>CaptureToSysMem</b> function copies the contents of a capture buffer to a destination surface.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_CAPTURETOSYSMEM CaptureToSysMem;
-
-__checkReturn HRESULT APIENTRY CaptureToSysMem(
-  _In_       HANDLE                    hDevice,
-  _In_ const D3DDDIARG_CAPTURETOSYSMEM *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY CaptureToSysMem(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_capturetosysmem.md">D3DDDIARG_CAPTURETOSYSMEM</a> structure that describes the parameters of the bit-block transfer (bitblt).
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542897">D3DDDIARG_CAPTURETOSYSMEM</a> structure that describes the parameters of the bit-block transfer (bitblt).
 
 
 ## -returns
@@ -120,7 +107,7 @@ All resources for the bitblt are in GPU-accessible memory.
 </td>
 <td width="60%">
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_capturetosysmem.md">CaptureToSysMem</a> could not allocate the required memory for it to complete.
+<a href="https://msdn.microsoft.com/ea2b5338-81cf-4114-bb07-16e8ff4d2b95">CaptureToSysMem</a> could not allocate the required memory for it to complete.
 
 </td>
 </tr>
@@ -134,23 +121,22 @@ All resources for the bitblt are in GPU-accessible memory.
 
 
 
-The <b>CaptureToSysMem</b> function is similar to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a> function except that <b>CaptureToSysMem</b> supports copying only from a capture buffer.
+The <b>CaptureToSysMem</b> function is similar to the <a href="https://msdn.microsoft.com/e87576c6-0173-4d8e-bbaf-b82e2907140a">Blt</a> function except that <b>CaptureToSysMem</b> supports copying only from a capture buffer.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_capturetosysmem.md">D3DDDIARG_CAPTURETOSYSMEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542897">D3DDDIARG_CAPTURETOSYSMEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

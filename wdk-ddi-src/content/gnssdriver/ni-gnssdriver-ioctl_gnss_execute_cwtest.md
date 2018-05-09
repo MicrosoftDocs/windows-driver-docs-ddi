@@ -8,7 +8,7 @@ old-project: gnss
 ms.assetid: 36AFBB03-9F01-4CA7-A5E8-C6F744984B6F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_EXECUTE_CWTEST, IOCTL_GNSS_EXECUTE_CWTEST control code [Sensor Devices], gnss.ioctl_gnss_execute_cwtest, gnssdriver/IOCTL_GNSS_EXECUTE_CWTEST
+ms.keywords: IOCTL_GNSS_EXECUTE_CWTEST, IOCTL_GNSS_EXECUTE_CWTEST control, IOCTL_GNSS_EXECUTE_CWTEST control code [Sensor Devices], gnss.ioctl_gnss_execute_cwtest, gnssdriver/IOCTL_GNSS_EXECUTE_CWTEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_EXECUTE_CWTEST
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_EXECUTE_CWTEST IOCTL
@@ -69,7 +70,7 @@ Set to 0.
 
 ### -output-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_cwtestdata.md">GNSS_CWTESTDATA</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925102">GNSS_CWTESTDATA</a> structure.
 
 
 ### -output-buffer-length
@@ -123,7 +124,6 @@ The GNSS stack must return the measurements as soon as they are available.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -131,14 +131,15 @@ The GNSS stack must return the measurements as soon as they are available.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

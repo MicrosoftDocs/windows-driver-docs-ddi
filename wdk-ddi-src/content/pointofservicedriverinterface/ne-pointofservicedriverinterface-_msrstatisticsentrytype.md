@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	MstStatisticsEntryType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MstStatisticsEntryType
 ---
@@ -50,37 +51,6 @@ req.typenames: MstStatisticsEntryType
 
 
 This enumeration defines the kinds of magnetic stripe reader statistics.
-
-
-## -syntax
-
-
-````
-typedef enum _MstStatisticsEntryType { 
-  MsrStatisticsEntryType_Invalid                            = -1,
-  MsrStatisticsEntryType_HoursPoweredCount,
-  MsrStatisticsEntryType_CommunicationErrorCount,
-  MsrStatisticsEntryType_GoodReadCount,
-  MsrStatisticsEntryType_FailedReadCount,
-  MsrStatisticsEntryType_UnreadableCardCount,
-  MsrStatisticsEntryType_GoodWriteCount,
-  MsrStatisticsEntryType_FailedWriteCount,
-  MsrStatisticsEntryType_MissingStartSentinelTrack1Count,
-  MsrStatisticsEntryType_ParityLRCErrorTrack1Count,
-  MsrStatisticsEntryType_MissingStartSentinelTrack2Count,
-  MsrStatisticsEntryType_ParityLRCErrorTrack2Count,
-  MsrStatisticsEntryType_MissingStartSentinelTrack3Count,
-  MsrStatisticsEntryType_ParityLRCErrorTrack3Count,
-  MsrStatisticsEntryType_MissingStartSentinelTrack4Count,
-  MsrStatisticsEntryType_ParityLRCErrorTrack4Count,
-  MsrStatisticsEntryType_GoodCardAuthenticationDataCount,
-  MsrStatisticsEntryType_FailedCardAuthenticationDataCount,
-  MsrStatisticsEntryType_ChallengeRequestCount,
-  MsrStatisticsEntryType_GoodDeviceAuthenticationCount,
-  MsrStatisticsEntryType_FailedDeviceAuthenticationCount,
-  MsrStatisticsEntryType_Count
-} MstStatisticsEntryType;
-````
 
 
 ## -enum-fields

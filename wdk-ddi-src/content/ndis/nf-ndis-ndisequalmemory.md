@@ -7,7 +7,7 @@ old-location: netvista\ndisequalmemory.htm
 old-project: netvista
 ms.assetid: 5417b821-b51d-4789-8380-f93d113f42d3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisEqualMemory, NdisEqualMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualMemory, ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml, netvista.ndisequalmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisEqualMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisEqualMemory macro
@@ -52,18 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisEqualMemory</b> function compares a specified number of characters in one block of memory with the
   same number of characters in a second block of memory.
-
-
-## -syntax
-
-
-````
-ULONG NdisEqualMemory(
-   const VOID  *Source1,
-   const VOID  *Source2,
-         ULONG Length
-);
-````
 
 
 ## -parameters
@@ -103,29 +92,28 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+
+
+
+<a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
    NdisAllocateMemoryWithTagPriority</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561808">RtlCopyMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561870">RtlFillMemory</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563610">RtlZeroMemory</a>
  
 
  
-
 

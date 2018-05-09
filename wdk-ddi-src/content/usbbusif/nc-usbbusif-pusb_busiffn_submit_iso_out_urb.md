@@ -1,14 +1,14 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB
-title: USB_BUSIFFN_SUBMIT_ISO_OUT_URB
+title: PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB
 author: windows-driver-content
 description: This callback function is not supported.The SubmitIsoOutUrb function submits a USB request block (URB) directly to the bus driver without requiring the allocation of an IRP.
 old-location: buses\submitisoouturb.htm
 old-project: usbref
 ms.assetid: cc8996e5-e10d-463b-91e3-6ef56d3fa32a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: SubmitIsoOutUrb, SubmitIsoOutUrb callback function [Buses], USB_BUSIFFN_SUBMIT_ISO_OUT_URB, buses.submitisoouturb, usbbusif/SubmitIsoOutUrb, usbinterKR_7caf9f1e-d3e3-4d26-b91f-c2864594703a.xml
+ms.date: 4/25/2018
+ms.keywords: PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB, PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB callback, SubmitIsoOutUrb, SubmitIsoOutUrb callback function [Buses], buses.submitisoouturb, usbbusif/SubmitIsoOutUrb, usbinterKR_7caf9f1e-d3e3-4d26-b91f-c2864594703a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	usbbusif.h
 api_name:
 -	SubmitIsoOutUrb
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB callback
+# PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB callback function
 
 
 ## -description
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This callback function is not supported.
 
 The <i>SubmitIsoOutUrb</i> function submits a USB request block (URB) directly to the bus driver without requiring the allocation of an IRP. 
-
-
-## -prototype
-
-
-````
-USB_BUSIFFN_SUBMIT_ISO_OUT_URB SubmitIsoOutUrb;
-
-NTSTATUS SubmitIsoOutUrb(
-  _In_ PVOID BusContext,
-  _In_ PURB  Urb
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -84,12 +70,12 @@ NTSTATUS SubmitIsoOutUrb(
 
 #### - BusContext [in]
 
-Handle returned in the <i>BusContext</i> member of the  <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle returned in the <i>BusContext</i> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff539210">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
 #### - Urb [in]
 
-Pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> to be passed to the port driver. 
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> to be passed to the port driver. 
 
 
 ## -returns

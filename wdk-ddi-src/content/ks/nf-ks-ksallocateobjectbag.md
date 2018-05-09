@@ -7,7 +7,7 @@ old-location: stream\ksallocateobjectbag.htm
 old-project: stream
 ms.assetid: 2fc5689f-e1d6-481d-b137-301f10b386e8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAllocateObjectBag, KsAllocateObjectBag function [Streaming Media Devices], avfunc_a76be7a0-6dfa-4428-8317-4a8df31dec6e.xml, ks/KsAllocateObjectBag, stream.ksallocateobjectbag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAllocateObjectBag
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,18 +51,7 @@ req.typenames:
 ## -description
 
 
-The<b> KsAllocateObjectBag</b> function creates an object bag and associates it with a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAllocateObjectBag(
-  _In_  PKSDEVICE    Device,
-  _Out_ KSOBJECT_BAG *ObjectBag
-);
-````
+The<b> KsAllocateObjectBag</b> function creates an object bag and associates it with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>.
 
 
 ## -parameters
@@ -71,7 +61,7 @@ NTSTATUS KsAllocateObjectBag(
 
 ### -param Device [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> representing the device object associated with the newly created object bag.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> representing the device object associated with the newly created object bag.
 
 
 ### -param ObjectBag [out]
@@ -92,7 +82,7 @@ Returns STATUS_SUCCESS if a new object bag is created. If a new object bag is no
 
 
 
-An allocated object bag is not deleted automatically. The minidriver calling <b>KsAllocateObjectBag</b> is responsible for deletion of the object bag. The easiest way to do this is by calling <a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>. Alternatively, if the minidriver has the addresses of the items in the bag, the minidriver can delete them individually by calling <a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>.
+An allocated object bag is not deleted automatically. The minidriver calling <b>KsAllocateObjectBag</b> is responsible for deletion of the object bag. The easiest way to do this is by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff562562">KsFreeObjectBag</a>. Alternatively, if the minidriver has the addresses of the items in the bag, the minidriver can delete them individually by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff566798">KsRemoveItemFromObjectBag</a>.
 
 For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a>.
 
@@ -101,28 +91,27 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560941">KsAddItemToObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561031">KsCopyObjectBagItems</a>
 
 
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561695">KsDiscard</a>
 
 
 
-<a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562562">KsFreeObjectBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566798">KsRemoveItemFromObjectBag</a>
  
 
  
-
 

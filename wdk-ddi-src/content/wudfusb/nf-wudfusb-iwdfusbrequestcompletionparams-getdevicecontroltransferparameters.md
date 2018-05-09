@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters
-title: IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters method
+title: IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters
 author: windows-driver-content
 description: The GetDeviceControlTransferParameters method retrieves parameters that are associated with the completion of a device I/O control request.
 old-location: wdf\iwdfusbrequestcompletionparams_getdevicecontroltransferparameters.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c3fd576-48de-454b-8015-51767b21f17e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetDeviceControlTransferParameters method, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters,IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters, IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters
+ms.keywords: GetDeviceControlTransferParameters, GetDeviceControlTransferParameters method, GetDeviceControlTransferParameters method,IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters, IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters method
+# IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters
 
 
 ## -description
@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetDeviceControlTransferParameters</b> method retrieves parameters that are associated with the completion of a device I/O control request.
 
 
-## -syntax
-
-
-````
-void GetDeviceControlTransferParameters(
-  [out, optional] IWDFMemory           **ppMemory,
-  [out, optional] ULONG                *pLengthTransferred,
-  [out, optional] SIZE_T               *pOffset,
-  [out, optional] PWINUSB_SETUP_PACKET pSetupPacket
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +62,7 @@ void GetDeviceControlTransferParameters(
 
 ### -param ppMemory [out, optional]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface, for access to the buffer for the device I/O control request. This parameter is optional and can be <b>NULL</b>.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface, for access to the buffer for the device I/O control request. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param pLengthTransferred [out, optional]
@@ -104,16 +91,15 @@ None
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560346">IWDFUsbRequestCompletionParams</a>
  
 
  
-
 

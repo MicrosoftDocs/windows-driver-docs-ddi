@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9a3ec86a-6a1d-4c65-a65a-7cb85bbd1ab8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoQueue, IWDFIoQueue interface, IWDFIoQueue interface, described, UMDFQueueObjectRef_57878b3d-0771-425d-b8ca-3e4713c96fcc.xml, umdf.iwdfioqueue, wdf.iwdfioqueue, wudfddi/IWDFIoQueue
+ms.keywords: IWDFIoQueue, IWDFIoQueue interface, IWDFIoQueue interface,described, UMDFQueueObjectRef_57878b3d-0771-425d-b8ca-3e4713c96fcc.xml, umdf.iwdfioqueue, wdf.iwdfioqueue, wudfddi/IWDFIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFIoQueue interface
@@ -57,7 +57,7 @@ The <b>IWDFIoQueue</b> interface exposes an I/O queue object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoQueue</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFIoQueue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoQueue</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>. <b>IWDFIoQueue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

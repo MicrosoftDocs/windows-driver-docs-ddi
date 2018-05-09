@@ -7,7 +7,7 @@ old-location: storage\tapeclasszeromemory.htm
 old-project: storage
 ms.assetid: a1f15890-ded8-4aba-8b67-6f1fb1490178
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: TapeClassZeroMemory, TapeClassZeroMemory routine [Storage Devices], minitape/TapeClassZeroMemory, storage.tapeclasszeromemory, tapeclas_f48cbbef-af5f-4d1b-b79e-0982d4d09bde.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Tape.dll
 api_name:
 -	TapeClassZeroMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TAPE_STATUS, *PTAPE_STATUS
+req.typenames: 
 ---
 
 # TapeClassZeroMemory function
@@ -51,17 +52,6 @@ req.typenames: TAPE_STATUS, *PTAPE_STATUS
 
 
 The <b>TapeClassZeroMemory</b> routine fills a buffer with zeros.
-
-
-## -syntax
-
-
-````
-VOID TapeClassZeroMemory(
-  _Inout_ PVOID Buffer,
-  _In_    ULONG BufferSize
-);
-````
 
 
 ## -parameters
@@ -99,12 +89,11 @@ A tape miniclass driver calls <b>TapeClassZeroMemory</b> to zero a buffer in a p
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
-
-
-
  
 
  
-
 

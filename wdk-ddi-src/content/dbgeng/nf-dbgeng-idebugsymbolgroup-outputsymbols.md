@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup.OutputSymbols
-title: IDebugSymbolGroup::OutputSymbols method
+title: IDebugSymbolGroup::OutputSymbols
 author: windows-driver-content
 description: The OutputSymbols method prints the specified symbols to the debugger console.
 old-location: debugger\outputsymbols.htm
 old-project: debugger
 ms.assetid: 1fe99cc4-35d9-432a-aed9-074d40438976
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], OutputSymbols method, IDebugSymbolGroup2 interface [Windows Debugging], OutputSymbols method, IDebugSymbolGroup2::OutputSymbols, IDebugSymbolGroup::OutputSymbols, OutputSymbols method [Windows Debugging], OutputSymbols method [Windows Debugging], IDebugSymbolGroup interface, OutputSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, OutputSymbols,IDebugSymbolGroup.OutputSymbols, dbgeng/IDebugSymbolGroup2::OutputSymbols, dbgeng/IDebugSymbolGroup::OutputSymbols, debugger.outputsymbols
+ms.date: 4/24/2018
+ms.keywords: ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, IDebugSymbolGroup interface [Windows Debugging],OutputSymbols method, IDebugSymbolGroup.OutputSymbols, IDebugSymbolGroup2 interface [Windows Debugging],OutputSymbols method, IDebugSymbolGroup2::OutputSymbols, IDebugSymbolGroup::OutputSymbols, OutputSymbols, OutputSymbols method [Windows Debugging], OutputSymbols method [Windows Debugging],IDebugSymbolGroup interface, OutputSymbols method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputSymbols, dbgeng/IDebugSymbolGroup::OutputSymbols, debugger.outputsymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,31 +39,19 @@ api_location:
 api_name:
 -	IDebugSymbolGroup.OutputSymbols
 -	IDebugSymbolGroup2.OutputSymbols
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbolGroup::OutputSymbols method
+# IDebugSymbolGroup::OutputSymbols
 
 
 ## -description
 
 
 The <b>OutputSymbols</b> method prints the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">symbols</a> to the debugger console.
-
-
-## -syntax
-
-
-````
-HRESULT OutputSymbols(
-  [in] ULONG OutputControl,
-  [in] ULONG Flags,
-  [in] ULONG Start,
-  [in] ULONG Count
-);
-````
 
 
 ## -parameters
@@ -182,20 +170,19 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550846">IDebugSymbolGroup2</a>
  
 
  
-
 

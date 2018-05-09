@@ -7,7 +7,7 @@ old-location: kernel\clfsdeletelogbypointer.htm
 old-project: kernel
 ms.assetid: da6e4133-a2ba-4f8c-9490-e1f9b453b6e2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsDeleteLogByPointer, ClfsDeleteLogByPointer routine [Kernel-Mode Driver Architecture], Clfs_d5571c5c-19a0-4113-8401-910721d76191.xml, kernel.clfsdeletelogbypointer, wdm/ClfsDeleteLogByPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsDeleteLogByPointer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsDeleteLogByPointer function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>ClfsDeleteLogByPointer</b> routine marks a CLFS stream for deletion. 
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsDeleteLogByPointer(
-  _In_ PLOG_FILE_OBJECT plfoLog
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ NTSTATUS ClfsDeleteLogByPointer(
 
 ### -param plfoLog [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream to be deleted. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream to be deleted. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>.
 
 
 ## -returns
@@ -87,7 +77,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 
 
-<b>ClfsDeleteLogByPointer</b> marks a stream for deletion but does not close the log file object pointed to by <i>plfoLog</i>. To close a log file object, call <a href="..\wdm\nf-wdm-clfscloselogfileobject.md">ClfsCloseLogFileObject</a>. A stream marked for deletion is deleted after all log file objects associated with the stream are closed.
+<b>ClfsDeleteLogByPointer</b> marks a stream for deletion but does not close the log file object pointed to by <i>plfoLog</i>. To close a log file object, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540789">ClfsCloseLogFileObject</a>. A stream marked for deletion is deleted after all log file objects associated with the stream are closed.
 
 A CLFS stream marked for deletion will refuse subsequent requests to open the stream.
 
@@ -98,16 +88,15 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541539">ClfsDeleteLogFile</a>
  
 
  
-
 

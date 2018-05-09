@@ -7,7 +7,7 @@ old-location: display\d3dddi_present_multiplane_overlay.htm
 old-project: display
 ms.assetid: 45db9dbb-d1e1-4ed3-bf4d-99b6ac7542ae
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_PRESENT_MULTIPLANE_OVERLAY, D3DDDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], _D3DDDI_PRESENT_MULTIPLANE_OVERLAY, d3dumddi/D3DDDI_PRESENT_MULTIPLANE_OVERLAY, display.d3dddi_present_multiplane_overlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDI_PRESENT_MULTIPLANE_OVERLAY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 ---
@@ -50,20 +51,6 @@ req.typenames: D3DDDI_PRESENT_MULTIPLANE_OVERLAY
 
 
 Specifies an overlay plane to display.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_PRESENT_MULTIPLANE_OVERLAY {
-  UINT                                 LayerIndex;
-  BOOL                                 Enabled;
-  HANDLE                               hResource;
-  UINT                                 SubResourceIndex;
-  D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES PlaneAttributes;
-} D3DDDI_PRESENT_MULTIPLANE_OVERLAY;
-````
 
 
 ## -struct-fields
@@ -93,17 +80,16 @@ The zero-based index into the resource, which is specified by the handle in the 
 
 ### -field PlaneAttributes
 
-A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_multiplane_overlay_attributes.md">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh780234">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a> structure that specifies overlay plane attributes.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_multiplane_overlay_attributes.md">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780234">D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
  
 
  
-
 

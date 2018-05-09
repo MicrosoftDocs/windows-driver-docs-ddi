@@ -7,7 +7,7 @@ old-location: kernel\queryroutine.htm
 old-project: kernel
 ms.assetid: 28f9cfcd-ed2e-4760-9016-3542c27cb347
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: DrvrRtns_a5cd47f1-6d3c-495e-a83d-ccbd276c1728.xml, QueryRoutine, QueryRoutine routine [Kernel-Mode Driver Architecture], RTL_QUERY_REGISTRY_ROUTINE, kernel.queryroutine, wdm/QueryRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,37 +38,19 @@ api_location:
 -	Wdm.h
 api_name:
 -	QueryRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# RTL_QUERY_REGISTRY_ROUTINE callback
+# RTL_QUERY_REGISTRY_ROUTINE callback function
 
 
 ## -description
 
 
-The <i>QueryRoutine</i> routine provides information about a registry value that was requested in a preceding call to the <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a> routine.
-
-
-## -prototype
-
-
-````
-RTL_QUERY_REGISTRY_ROUTINE QueryRoutine;
-
-NTSTATUS QueryRoutine(
-  _In_     PWSTR ValueName,
-  _In_     ULONG ValueType,
-  _In_     PVOID ValueData,
-  _In_     ULONG ValueLength,
-  _In_opt_ PVOID Context,
-  _In_opt_ PVOID EntryContext
-)
-{ ... }
-````
+The <i>QueryRoutine</i> routine provides information about a registry value that was requested in a preceding call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562046">RtlQueryRegistryValues</a> routine.
 
 
 ## -parameters
@@ -83,12 +65,12 @@ Specifies the registry key that is associated with the requested registry value.
 
 ### -param ValueType [in]
 
-Specifies the type of registry value that is stored with the specified registry key. For more information registry value types, see the definition of the <i>Type</i> parameter in <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>.
+Specifies the type of registry value that is stored with the specified registry key. For more information registry value types, see the definition of the <i>Type</i> parameter in <a href="https://msdn.microsoft.com/library/windows/hardware/ff553410">KEY_VALUE_BASIC_INFORMATION</a>.
 
 
 ### -param ValueData [in]
 
-A pointer to the data value that is associated with the specified registry key. The driver must treat this value as read-only. For more information about the type of value data that <i>ValueData</i> points to, see the definition of the <i>Type</i> parameter in <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>.
+A pointer to the data value that is associated with the specified registry key. The driver must treat this value as read-only. For more information about the type of value data that <i>ValueData</i> points to, see the definition of the <i>Type</i> parameter in <a href="https://msdn.microsoft.com/library/windows/hardware/ff553410">KEY_VALUE_BASIC_INFORMATION</a>.
 
 
 ### -param ValueLength [in]
@@ -119,11 +101,11 @@ Specifies an <b>EntryContext</b> value in a <i>QueryTable</i> array element that
 
 
 
-A kernel-mode driver implements a <i>QueryRoutine</i> routine. This routine is called by the <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a> routine.
+A kernel-mode driver implements a <i>QueryRoutine</i> routine. This routine is called by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562046">RtlQueryRegistryValues</a> routine.
 
 To obtain information about one or more registry values, the driver calls <b>RtlQueryRegistryValues</b> and passes a pointer, as an input parameter, to an array of <b>RTL_QUERY_REGISTRY_TABLE</b> structures. Each structure in this array contains a pointer to a driver-implemented <i>QueryRoutine</i> routine and a request for information about a particular registry value. For each structure in the array, <b>RtlQueryRegistryValues</b> calls the specified <i>QueryRoutine</i> routine and passes to this routine a set of parameters that contain the requested information about the specified registry value.
 
-For more information about the <b>RTL_QUERY_REGISTRY_TABLE</b> structure, see <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>.
+For more information about the <b>RTL_QUERY_REGISTRY_TABLE</b> structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff562046">RtlQueryRegistryValues</a>.
 
 
 #### Examples
@@ -174,16 +156,15 @@ The RTL_QUERY_REGISTRY_ROUTINE function type is defined in the Wdm.h header file
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553410">KEY_VALUE_BASIC_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562046">RtlQueryRegistryValues</a>
  
 
  
-
 

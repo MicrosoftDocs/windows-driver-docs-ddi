@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPAction2.RescanParentDevice
-title: IWDTFPNPAction2::RescanParentDevice method
+title: IWDTFPNPAction2::RescanParentDevice
 author: windows-driver-content
 description: Rescans and re-enumerates the target device's parent device.
 old-location: dtf\iwdtfpnpaction2_rescanparentdevice.htm
 old-project: dtf
 ms.assetid: 5b25cffa-df53-49d5-be26-1901eddfdad2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], RescanParentDevice method, IWDTFPNPAction2::RescanParentDevice, Microsoft.WDTF.IWDTFPNPAction2.RescanParentDevice, Microsoft::WDTF::IWDTFPNPAction2::RescanParentDevice, RescanParentDevice method [Windows Device Testing Framework], RescanParentDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, RescanParentDevice,IWDTFPNPAction2.RescanParentDevice, dtf.iwdtfpnpaction2_rescanparentdevice, wdtfpnpaction/IWDTFPNPAction2::RescanParentDevice
+ms.date: 4/4/2018
+ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework],RescanParentDevice method, IWDTFPNPAction2.RescanParentDevice, IWDTFPNPAction2::RescanParentDevice, Microsoft.WDTF.IWDTFPNPAction2.RescanParentDevice, Microsoft::WDTF::IWDTFPNPAction2::RescanParentDevice, RescanParentDevice, RescanParentDevice method [Windows Device Testing Framework], RescanParentDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_rescanparentdevice, wdtfpnpaction/IWDTFPNPAction2::RescanParentDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	WDTFDriverPNPAction.Interop.dll
 api_name:
 -	IWDTFPNPAction2.RescanParentDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPAction2::RescanParentDevice method
+# IWDTFPNPAction2::RescanParentDevice
 
 
 ## -description
 
 
 Rescans and re-enumerates the target device's parent device.
-
-
-## -syntax
-
-
-````
-HRESULT RescanParentDevice(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
 
 
 ## -parameters
@@ -95,12 +85,11 @@ In essence, <b>RescanParentDevice</b> calls
 
 ## -see-also
 
-<a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451065">IWDTFPNPAction2</a>
  
 
  
-
 

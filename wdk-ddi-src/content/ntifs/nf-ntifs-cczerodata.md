@@ -7,7 +7,7 @@ old-location: ifsk\cczerodata.htm
 old-project: ifsk
 ms.assetid: 97a0f314-5813-4ff8-8a94-c675874cdc3b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: CcZeroData, CcZeroData routine [Installable File System Drivers], ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ifsk.cczerodata, ntifs/CcZeroData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcZeroData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcZeroData function
@@ -52,19 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>CcZeroData</b> routine zeros the specified range of bytes in a cached or noncached file.
 
 
-## -syntax
-
-
-````
-BOOLEAN CcZeroData(
-  _In_ PFILE_OBJECT   FileObject,
-  _In_ PLARGE_INTEGER StartOffset,
-  _In_ PLARGE_INTEGER EndOffset,
-  _In_ BOOLEAN        Wait
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ BOOLEAN CcZeroData(
 
 ### -param FileObject [in]
 
-A pointer to a file object (<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>) for the file in which a range of bytes is to be zeroed.
+A pointer to a file object (<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>) for the file in which a range of bytes is to be zeroed.
 
 
 ### -param StartOffset [in]
@@ -132,11 +120,10 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
 
 
@@ -144,8 +131,8 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
  
 
  
-
 

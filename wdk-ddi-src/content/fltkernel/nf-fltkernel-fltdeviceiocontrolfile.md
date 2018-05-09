@@ -7,7 +7,7 @@ old-location: ifsk\fltdeviceiocontrolfile.htm
 old-project: ifsk
 ms.assetid: f9a6998d-f340-47ad-a9be-ff7ef76c627e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_0e8f1a72-1620-4d72-8569-7411c724e906.xml, FltDeviceIoControlFile, FltDeviceIoControlFile function [Installable File System Drivers], fltkernel/FltDeviceIoControlFile, ifsk.fltdeviceiocontrolfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltDeviceIoControlFile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltDeviceIoControlFile function
@@ -51,23 +52,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltDeviceIoControlFile</b> sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified action. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltDeviceIoControlFile(
-  _In_      PFLT_INSTANCE Instance,
-  _In_      PFILE_OBJECT  FileObject,
-  _In_      ULONG         IoControlCode,
-  _In_opt_  PVOID         InputBuffer,
-  _In_      ULONG         InputBufferLength,
-  _Out_     PVOID         OutputBuffer,
-  _In_      ULONG         OutputBufferLength,
-  _Out_opt_ PULONG        LengthReturned
-);
-````
 
 
 ## -parameters
@@ -135,12 +119,11 @@ For more information about the system-defined IOCTL_<i>XXX</i> codes, see the Re
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542988">FltFsControlFile</a>
  
 
  
-
 

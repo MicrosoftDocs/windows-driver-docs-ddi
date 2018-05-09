@@ -7,7 +7,7 @@ old-location: netvista\ril_setgeolocationdata.htm
 old-project: netvista
 ms.assetid: d037ff74-a0fb-49a6-8e42-ceac1be61464
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SetGeolocationData, RIL_SetGeolocationData method [Network Drivers Starting with Windows Vista], netvista.ril_setgeolocationdata, rilapi/RIL_SetGeolocationData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_SetGeolocationData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SetGeolocationData function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_SetGeolocationData(
-   HRIL                               hRil,
-   LPVOID                             lpContext,
-   const RILSETGEOLOCATIONDATAPARAMS  pGeolocationData
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: bltooth\_brb_psm.htm
 old-project: bltooth
 ms.assetid: 893edad2-8419-4c93-bf0b-2cca8ca5a2f6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_PSM, _BRB_PSM structure [Bluetooth Devices], bltooth._brb_psm, bth_structs_f40af07e-a5ad-4654-9ff6-4d162a46ea58.xml, bthddi/_BRB_PSM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_PSM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ The _BRB_PSM structure describes a Protocol/Service Multiplexer (PSM) to registe
   unregister.
 
 
-## -syntax
-
-
-````
-struct _BRB_PSM {
-  BRB_HEADER Hdr;
-  USHORT     Psm;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +62,7 @@ struct _BRB_PSM {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -132,7 +122,7 @@ For more information about L2CAP servers and PSMs, see
 Profile drivers cannot register a PSM that has already been registered by another driver. If one
     attempts to do so, a STATUS_ALREADY_COMMITTED error will be returned. The <b>BRB_REGISTER_PSM</b> request has no
     effect on SDP records. After registering a PSM, drivers can advertise the PSM over SDP by sending the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">
+    <a href="https://msdn.microsoft.com/ec6739d3-5956-4cc2-90ff-75c67c0a84e7">
     IOCTL_BTH_SDP_SUBMIT_RECORD</a> IOCTL.
 
 To unregister a previously registered PSM, profile drivers should 
@@ -145,7 +135,7 @@ To unregister a previously registered PSM, profile drivers should
 
 A <b>BRB_UNREGISTER_PSM</b> request has no effect on SDP records that attempt to connect to the PSM. Profile
     drivers can remove relevant SDP records by sending the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">
+    <a href="https://msdn.microsoft.com/8d559078-ece5-4e15-b010-e39b86679398">
     IOCTL_BTH_SDP_REMOVE_RECORD</a> IOCTL.
 
 
@@ -153,11 +143,10 @@ A <b>BRB_UNREGISTER_PSM</b> request has no effect on SDP records that attempt to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536632">BRB_UNREGISTER_PSM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536621">BRB_REGISTER_PSM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
 
 
 
@@ -166,20 +155,20 @@ A <b>BRB_UNREGISTER_PSM</b> request has no effect on SDP records that attempt to
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536621">BRB_REGISTER_PSM</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536632">BRB_UNREGISTER_PSM</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536690">IOCTL_BTH_SDP_REMOVE_RECORD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536693">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
  
 
  
-
 

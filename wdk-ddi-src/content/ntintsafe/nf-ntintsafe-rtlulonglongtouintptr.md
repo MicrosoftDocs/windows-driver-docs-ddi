@@ -7,7 +7,7 @@ old-location: kernel\rtlulonglongtouintptr.htm
 old-project: kernel
 ms.assetid: A6B49838-11DE-4860-9D4C-D55D21C54157
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlULongLongToUIntPtr, RtlULongLongToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtouintptr, ntintsafe/RtlULongLongToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlULongLongToUIntPtr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlULongLongToUIntPtr function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>ULONGLONG</b> to a value of type <b>UINT_PTR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlULongLongToUIntPtr(
-  _In_  ULONGLONG ullOperand,
-  _Out_ UINT_PTR  *puResult
-);
-````
 
 
 ## -parameters

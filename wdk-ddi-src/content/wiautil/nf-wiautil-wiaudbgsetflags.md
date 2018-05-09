@@ -7,7 +7,7 @@ old-location: image\wiaudbgsetflags.htm
 old-project: image
 ms.assetid: e3b944ef-daa5-412c-ac11-7b08d2b9333b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaudbgsetflags, wiauDbgSetFlags, wiauDbgSetFlags function [Imaging Devices], wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiautil/wiauDbgSetFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauDbgSetFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauDbgSetFlags macro
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgSetFlags</b> function sets debugging flags.
-
-
-## -syntax
-
-
-````
-inline DWORD __stdcall wiauDbgSetFlags(
-   DWORD flags
-);
-````
 
 
 ## -parameters
@@ -202,12 +192,11 @@ Log warning messages.
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgflags.md">wiauDbgFlags</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549643">wiauDbgFlags</a>
  
 
  
-
 

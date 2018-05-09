@@ -7,7 +7,7 @@ old-location: netvista\ndis_rsc_statistics_info.htm
 old-project: netvista
 ms.assetid: 14911610-f2d6-4ad4-884f-3137eab143be
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO, NDIS_RSC_STATISTICS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RSC_STATISTICS_INFO, PNDIS_RSC_STATISTICS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RSC_STATISTICS_INFO, netvista.ndis_rsc_statistics_info, ntddndis/NDIS_RSC_STATISTICS_INFO, ntddndis/PNDIS_RSC_STATISTICS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RSC_STATISTICS_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO
 ---
@@ -52,20 +53,6 @@ req.typenames: NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO
 The <b>NDIS_RSC_STATISTICS_INFO</b> structure contains statistics that  a miniport driver supplies in response to a query of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451929">OID_TCP_RSC_STATISTICS</a> OID. 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RSC_STATISTICS_INFO {
-  NDIS_OBJECT_HEADER Header;
-  ULONG64            CoalescedPkts;
-  ULONG64            CoalescedOctets;
-  ULONG64            CoalesceEvents;
-  ULONG64            Aborts;
-} NDIS_RSC_STATISTICS_INFO, *PNDIS_RSC_STATISTICS_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +60,7 @@ typedef struct _NDIS_RSC_STATISTICS_INFO {
 
 ### -field Header
 
-The <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the NDIS_RSC_STATISTICS_INFO structure. Set the <b>Type</b> member of the structure that <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the NDIS_RSC_STATISTICS_INFO structure. Set the <b>Type</b> member of the structure that <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT.
 
 To specify the version of the <b>NDIS_RSC_STATISTICS_INFO</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -111,16 +98,15 @@ The total number of RSC abort events. That is, the number of exceptions other th
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451929">OID_TCP_RSC_STATISTICS</a>
-
-
-
  
 
  
-
 

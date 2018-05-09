@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.SendXpsUnknown
-title: IXpsDocumentConsumer::SendXpsUnknown method
+title: IXpsDocumentConsumer::SendXpsUnknown
 author: windows-driver-content
 description: The SendXpsUnknown method sends an XPS document part that cannot be identified to the filter pipeline.
 old-location: print\ixpsdocumentconsumer_sendxpsunknown.htm
 old-project: print
 ms.assetid: 5e2880c6-0f5a-4098-a97e-809ad75ddfd0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], SendXpsUnknown method, IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown method [Print Devices], SendXpsUnknown method [Print Devices], IXpsDocumentConsumer interface, SendXpsUnknown,IXpsDocumentConsumer.SendXpsUnknown, filterpipeline/IXpsDocumentConsumer::SendXpsUnknown, filterpipeline_bb57facb-5b47-4cf5-9f06-76c06d294a58.xml, print.ixpsdocumentconsumer_sendxpsunknown
+ms.date: 4/20/2018
+ms.keywords: IXpsDocumentConsumer interface [Print Devices],SendXpsUnknown method, IXpsDocumentConsumer.SendXpsUnknown, IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown, SendXpsUnknown method [Print Devices], SendXpsUnknown method [Print Devices],IXpsDocumentConsumer interface, filterpipeline/IXpsDocumentConsumer::SendXpsUnknown, filterpipeline_bb57facb-5b47-4cf5-9f06-76c06d294a58.xml, print.ixpsdocumentconsumer_sendxpsunknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocumentConsumer.SendXpsUnknown
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IXpsDocumentConsumer::SendXpsUnknown method
+# IXpsDocumentConsumer::SendXpsUnknown
 
 
 ## -description
 
 
 The <code>SendXpsUnknown</code> method sends an XPS document part that cannot be identified to the filter pipeline.
-
-
-## -syntax
-
-
-````
-HRESULT SendXpsUnknown(
-  [in] IUnknown *pUnknown
-);
-````
 
 
 ## -parameters

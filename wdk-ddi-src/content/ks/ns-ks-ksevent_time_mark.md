@@ -7,7 +7,7 @@ old-location: stream\ksevent_time_mark.htm
 old-project: stream
 ms.assetid: c1e756a8-4850-4ddc-9bbf-97146a798554
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSEVENT_TIME_MARK, KSEVENT_TIME_MARK, KSEVENT_TIME_MARK structure [Streaming Media Devices], PKSEVENT_TIME_MARK, PKSEVENT_TIME_MARK structure pointer [Streaming Media Devices], ks-struct_66e60015-261c-4e6d-a58f-dab8d50cf4d6.xml, ks/KSEVENT_TIME_MARK, ks/PKSEVENT_TIME_MARK, stream.ksevent_time_mark"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSEVENT_TIME_MARK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_TIME_MARK, *PKSEVENT_TIME_MARK
 ---
@@ -52,17 +53,6 @@ req.typenames: KSEVENT_TIME_MARK, *PKSEVENT_TIME_MARK
 The KSEVENT_TIME_MARK structure is used in various events within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561764">KSEVENTSETID_Clock</a> event set. 
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSEVENTDATA EventData;
-  LONGLONG    MarkTime;
-} KSEVENT_TIME_MARK, *PKSEVENT_TIME_MARK;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +60,7 @@ typedef struct {
 
 ### -field EventData
 
-A structure of type <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> that specifies the standard event structure.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> that specifies the standard event structure.
 
 
 ### -field MarkTime
@@ -89,16 +79,15 @@ The flags indicate the type of units for the interval. The interval can be speci
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561764">KSEVENTSETID_Clock</a>
 
 
 
-<a href="..\ks\ns-ks-ksevent_time_interval.md">KSEVENT_TIME_INTERVAL</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561887">KSEVENT_TIME_INTERVAL</a>
  
 
  
-
 

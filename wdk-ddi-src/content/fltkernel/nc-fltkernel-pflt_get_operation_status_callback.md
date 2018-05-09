@@ -7,7 +7,7 @@ old-location: ifsk\PFLT_GET_OPERATION_STATUS_CALLBACK.htm
 old-project: ifsk
 ms.assetid: f3fedf69-260c-4117-b302-db3ce6b182a0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: OperationStatusCallback, OperationStatusCallback routine [Installable File System Drivers], PFLT_GET_OPERATION_STATUS_CALLBACK, fltkernel/OperationStatusCallback, ifsk.PFLT_GET_OPERATION_STATUS_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,12 +38,13 @@ api_location:
 -	FltKernel.h
 api_name:
 -	OperationStatusCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# PFLT_GET_OPERATION_STATUS_CALLBACK callback
+# PFLT_GET_OPERATION_STATUS_CALLBACK callback function
 
 
 ## -description
@@ -54,22 +55,6 @@ A minifilter driver can register a routine of type <i>PFLT_GET_OPERATION_STATUS_
 
 
 
-## -prototype
-
-
-````
-PFLT_GET_OPERATION_STATUS_CALLBACK OperationStatusCallback;
-
-VOID OperationStatusCallback(
-  _In_     PCFLT_RELATED_OBJECTS   FltObjects,
-  _In_     PFLT_IO_PARAMETER_BLOCK IopbSnapshot,
-  _In_     NTSTATUS                OperationStatus,
-  _In_opt_ PVOID                   RequesterContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +62,7 @@ VOID OperationStatusCallback(
 
 ### -param FltObjects [in]
 
-A pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff544816">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation.
 
 
 ### -param IopbSnapshot [in]
@@ -92,7 +77,7 @@ The NTSTATUS value of the I/O operation generating the callback.
 
 ### -param RequesterContext [in, optional]
 
-An optional pointer to a minifilter driver-provided context information of the requester passed from <a href="..\fltkernel\nf-fltkernel-fltrequestoperationstatuscallback.md">FltRequestOperationStatusCallback</a>. 
+An optional pointer to a minifilter driver-provided context information of the requester passed from <a href="https://msdn.microsoft.com/library/windows/hardware/ff544346">FltRequestOperationStatusCallback</a>. 
 
 
 ## -returns
@@ -120,20 +105,19 @@ Most minifilter drivers never need to register a routine of type <i>PFLT_GET_OPE
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_objects.md">FLT_RELATED_OBJECTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544638">FLT_IO_PARAMETER_BLOCK</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltrequestoperationstatuscallback.md">FltRequestOperationStatusCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544816">FLT_RELATED_OBJECTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544346">FltRequestOperationStatusCallback</a>
  
 
  
-
 

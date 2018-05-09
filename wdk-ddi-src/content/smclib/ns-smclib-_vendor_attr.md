@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level (See Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	smclib.h
 api_name:
 -	VENDOR_ATTR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VENDOR_ATTR, *PVENDOR_ATTR
-req.product: Windows 10 or later.
 ---
 
 # _VENDOR_ATTR structure
@@ -50,35 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The VENDOR_ATTR structure defines the data that is stored in the <b>VendorAttr</b> member of the <a href="..\smclib\ns-smclib-_smartcard_extension.md">SMARTCARD_EXTENSION</a> structure. VENDOR_ATTR also holds information that identifies the smart card reader, such as the vendor name, unit number, and serial number. 
-
-
-## -syntax
-
-
-````
-typedef struct _VENDOR_ATTR {
-  struct {
-    USHORT Length;
-    UCHAR  Buffer[MAXIMUM_ATTR_STRING_LENGTH];
-  } VendorName;
-  struct {
-    USHORT Length;
-    UCHAR  Buffer[MAXIMUM_ATTR_STRING_LENGTH];
-  } IfdType;
-  ULONG  UnitNo;
-  struct {
-    USHORT BuildNumber;
-    UCHAR  VersionMinor;
-    UCHAR  VersionMajor;
-  } IfdVersion;
-  struct {
-    USHORT Length;
-    UCHAR  Buffer[MAXIMUM_ATTR_STRING_LENGTH];
-  } IfdSerialNo;
-  ULONG  Reserved[25];
-} VENDOR_ATTR, *PVENDOR_ATTR;
-````
+The VENDOR_ATTR structure defines the data that is stored in the <b>VendorAttr</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548974">SMARTCARD_EXTENSION</a> structure. VENDOR_ATTR also holds information that identifies the smart card reader, such as the vendor name, unit number, and serial number. 
 
 
 ## -struct-fields
@@ -94,14 +66,12 @@ typedef struct _VENDOR_ATTR {
      
 
 
-
-#### Length
+### -field VendorName.Length
 
 Contains the ANSI-coded name of the vendor. Because a length field is provided, no terminating <b>NULL</b> character is necessary. This member is required. 
 
 
-
-#### Buffer
+### -field VendorName.Buffer
 
 Contains the length of the ANSI-coded name of the vendor. This member is required. 
 
@@ -114,14 +84,12 @@ Contains the length of the ANSI-coded name of the vendor. This member is require
      
 
 
-
-#### Length
+### -field IfdType.Length
 
 Contains the length of the ANSI-coded designation of the reader. This member is required. 
 
 
-
-#### Buffer
+### -field IfdType.Buffer
 
 Contains the ANSI-coded reader name. This member is required. 
 
@@ -140,20 +108,17 @@ Contains the zero-based number of this unit. Because you can have more than one 
      
 
 
-
-#### BuildNumber
+### -field IfdVersion.BuildNumber
 
 Contains the build number of the reader driver. This member can be used for support purposes and should be maintained only if the reader allows the value to be queried. This member is optional. 
 
 
-
-#### VersionMinor
+### -field IfdVersion.VersionMinor
 
 Contains the minor version number of the reader driver. This member can be used for support purposes and should be maintained only if the reader allows the value to be queried. This member is optional. 
 
 
-
-#### VersionMajor
+### -field IfdVersion.VersionMajor
 
 Contains the major version number of the reader driver. This member can be used for support purposes and should be maintained only if the reader allows the value to be queried. This member is optional. 
 
@@ -166,14 +131,12 @@ Contains the major version number of the reader driver. This member can be used 
      
 
 
-
-#### Length
+### -field IfdSerialNo.Length
 
 Contains the length of the serial number, in bytes, of the connected reader. 
 
 
-
-#### Buffer
+### -field IfdSerialNo.Buffer
 
 A pointer to the serial number of the connected reader. This field should only be maintained if the reader allows the serial number to be queried. This member is optional. 
 

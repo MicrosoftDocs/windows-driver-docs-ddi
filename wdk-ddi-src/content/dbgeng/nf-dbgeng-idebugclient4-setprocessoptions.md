@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.SetProcessOptions
-title: IDebugClient4::SetProcessOptions method
+title: IDebugClient4::SetProcessOptions
 author: windows-driver-content
 description: The SetProcessOptions method sets the process options affecting the current process.
 old-location: debugger\setprocessoptions.htm
 old-project: debugger
 ms.assetid: c077e2cc-b234-4393-ab8c-d0b8199515e3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugClient interface [Windows Debugging], SetProcessOptions method, IDebugClient2 interface [Windows Debugging], SetProcessOptions method, IDebugClient2::SetProcessOptions, IDebugClient3 interface [Windows Debugging], SetProcessOptions method, IDebugClient3::SetProcessOptions, IDebugClient4, IDebugClient4 interface [Windows Debugging], SetProcessOptions method, IDebugClient4::SetProcessOptions, IDebugClient5 interface [Windows Debugging], SetProcessOptions method, IDebugClient5::SetProcessOptions, IDebugClient::SetProcessOptions, IDebugClient_d9936a28-08c3-4c4c-ba2b-accc9443b825.xml, SetProcessOptions method [Windows Debugging], SetProcessOptions method [Windows Debugging], IDebugClient interface, SetProcessOptions method [Windows Debugging], IDebugClient2 interface, SetProcessOptions method [Windows Debugging], IDebugClient3 interface, SetProcessOptions method [Windows Debugging], IDebugClient4 interface, SetProcessOptions method [Windows Debugging], IDebugClient5 interface, SetProcessOptions,IDebugClient4.SetProcessOptions, dbgeng/IDebugClient2::SetProcessOptions, dbgeng/IDebugClient3::SetProcessOptions, dbgeng/IDebugClient4::SetProcessOptions, dbgeng/IDebugClient5::SetProcessOptions, dbgeng/IDebugClient::SetProcessOptions, debugger.setprocessoptions
+ms.date: 4/24/2018
+ms.keywords: IDebugClient interface [Windows Debugging],SetProcessOptions method, IDebugClient2 interface [Windows Debugging],SetProcessOptions method, IDebugClient2::SetProcessOptions, IDebugClient3 interface [Windows Debugging],SetProcessOptions method, IDebugClient3::SetProcessOptions, IDebugClient4 interface [Windows Debugging],SetProcessOptions method, IDebugClient4.SetProcessOptions, IDebugClient4::SetProcessOptions, IDebugClient5 interface [Windows Debugging],SetProcessOptions method, IDebugClient5::SetProcessOptions, IDebugClient::SetProcessOptions, IDebugClient_d9936a28-08c3-4c4c-ba2b-accc9443b825.xml, SetProcessOptions, SetProcessOptions method [Windows Debugging], SetProcessOptions method [Windows Debugging],IDebugClient interface, SetProcessOptions method [Windows Debugging],IDebugClient2 interface, SetProcessOptions method [Windows Debugging],IDebugClient3 interface, SetProcessOptions method [Windows Debugging],IDebugClient4 interface, SetProcessOptions method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::SetProcessOptions, dbgeng/IDebugClient3::SetProcessOptions, dbgeng/IDebugClient4::SetProcessOptions, dbgeng/IDebugClient5::SetProcessOptions, dbgeng/IDebugClient::SetProcessOptions, debugger.setprocessoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,28 +42,19 @@ api_name:
 -	IDebugClient3.SetProcessOptions
 -	IDebugClient4.SetProcessOptions
 -	IDebugClient5.SetProcessOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::SetProcessOptions method
+# IDebugClient4::SetProcessOptions
 
 
 ## -description
 
 
 The <b>SetProcessOptions</b> method sets the process options affecting the current process.
-
-
-## -syntax
-
-
-````
-HRESULT SetProcessOptions(
-  [in] ULONG Options
-);
-````
 
 
 ## -parameters
@@ -121,27 +112,6 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548163">GetProcessOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541534">DEBUG_PROCESS_XXX</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -149,16 +119,36 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541534">DEBUG_PROCESS_XXX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548163">GetProcessOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554505">RemoveProcessOptions</a>
-
-
-
  
 
  
-
 

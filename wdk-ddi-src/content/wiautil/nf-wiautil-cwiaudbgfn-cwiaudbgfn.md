@@ -1,14 +1,14 @@
 ---
 UID: NF:wiautil.CWiauDbgFn.CWiauDbgFn
-title: CWiauDbgFn::CWiauDbgFn method
+title: CWiauDbgFn::CWiauDbgFn
 author: windows-driver-content
 description: The CWiauDbgFn::CWiauDbgFn method is used for tracing when a function or method is entered.
 old-location: image\cwiaudbgfn_cwiaudbgfn.htm
 old-project: image
 ms.assetid: dbb367a7-d7e6-4081-9618-1c4e38cccd31
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CWiauDbgFn, CWiauDbgFn interface [Imaging Devices], CWiauDbgFn method, CWiauDbgFn method [Imaging Devices], CWiauDbgFn method [Imaging Devices], CWiauDbgFn interface, CWiauDbgFn,CWiauDbgFn.CWiauDbgFn, CWiauDbgFn::CWiauDbgFn, image.cwiaudbgfn_cwiaudbgfn, wiauFncs_1dfa7486-9ad3-41b8-8724-29165ea0a45b.xml, wiautil/CWiauDbgFn::CWiauDbgFn
+ms.date: 4/23/2018
+ms.keywords: CWiauDbgFn, CWiauDbgFn interface [Imaging Devices],CWiauDbgFn method, CWiauDbgFn method [Imaging Devices], CWiauDbgFn method [Imaging Devices],CWiauDbgFn interface, CWiauDbgFn.CWiauDbgFn, CWiauDbgFn::CWiauDbgFn, image.cwiaudbgfn_cwiaudbgfn, wiauFncs_1dfa7486-9ad3-41b8-8724-29165ea0a45b.xml, wiautil/CWiauDbgFn::CWiauDbgFn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauDbgFn.CWiauDbgFn
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# CWiauDbgFn::CWiauDbgFn method
+# CWiauDbgFn::CWiauDbgFn
 
 
 ## -description
 
 
 The <b>CWiauDbgFn::CWiauDbgFn</b> method is used for tracing when a function or method is entered.
-
-
-## -syntax
-
-
-````
-void CWiauDbgFn(
-   LPCSTR   fname
-);
-````
 
 
 ## -parameters
@@ -84,16 +74,15 @@ This method does not return a value.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/4be4007c-5f04-48f2-b88c-c2d71f6e8b7b">CWiauDbgFn</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540356">CWiauDbgFn::~CWiauDbgFn</a>
-
-
-
-<a href="..\wiautil\nl-wiautil-cwiaudbgfn.md">CWiauDbgFn</a>
-
-
-
  
 
  
-
 

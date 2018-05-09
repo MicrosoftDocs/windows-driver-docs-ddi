@@ -7,7 +7,7 @@ old-location: audio\telephony_callcontrolop.htm
 old-project: audio
 ms.assetid: 5E6ECBCB-53AC-440B-92D9-21F5A06FCFAB
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: TELEPHONY_CALLCONTROLOP, TELEPHONY_CALLCONTROLOP enumeration [Audio Devices], TELEPHONY_CALLCONTROLOP_DISABLE, TELEPHONY_CALLCONTROLOP_ENABLE, audio.telephony_callcontrolop, ksmedia/TELEPHONY_CALLCONTROLOP, ksmedia/TELEPHONY_CALLCONTROLOP_DISABLE, ksmedia/TELEPHONY_CALLCONTROLOP_ENABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TELEPHONY_CALLCONTROLOP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TELEPHONY_CALLCONTROLOP
 ---
@@ -50,17 +51,6 @@ req.typenames: TELEPHONY_CALLCONTROLOP
 
 
 The <b>TELEPHONY_CALLCONTROLOP</b> enumeration defines constants that specify an operation to perform on a phone call.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  TELEPHONY_CALLCONTROLOP_DISABLE  = 0,
-  TELEPHONY_CALLCONTROLOP_ENABLE   = 1
-} TELEPHONY_CALLCONTROLOP;
-````
 
 
 ## -enum-fields
@@ -80,12 +70,11 @@ Enables a phone call.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_tagkstelephony_callcontrol.md">KSTELEPHONY_CALLCONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt169883">KSTELEPHONY_CALLCONTROL</a>
  
 
  
-
 

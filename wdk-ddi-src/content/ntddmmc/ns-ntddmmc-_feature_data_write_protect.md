@@ -7,7 +7,7 @@ old-location: storage\feature_data_write_protect.htm
 old-project: storage
 ms.assetid: 16582fce-179a-4a99-9e4c-6f7ca1d3ddef
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT structure [Storage Devices], PFEATURE_DATA_WRITE_PROTECT, PFEATURE_DATA_WRITE_PROTECT structure pointer [Storage Devices], _FEATURE_DATA_WRITE_PROTECT, ntddmmc/FEATURE_DATA_WRITE_PROTECT, ntddmmc/PFEATURE_DATA_WRITE_PROTECT, storage.feature_data_write_protect, structs-CD-ROM_67c6f24f-271e-4452-8b5f-fc6719c1d291.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_WRITE_PROTECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_WRITE_PROTECT, *PFEATURE_DATA_WRITE_PROTECT
 ---
@@ -52,22 +53,6 @@ req.typenames: FEATURE_DATA_WRITE_PROTECT, *PFEATURE_DATA_WRITE_PROTECT
 The FEATURE_DATA_WRITE_PROTECT structure contains information about the Write Protect feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_WRITE_PROTECT {
-  FEATURE_HEADER Header;
-  UCHAR          SupportsSWPPBit  :1;
-  UCHAR          SupportsPersistentWriteProtect  :1;
-  UCHAR          WriteInhibitDCB  :1;
-  UCHAR          DiscWriteProtectPAC  :1;
-  UCHAR          Reserved01  :4;
-  UCHAR          Reserved2[3];
-} FEATURE_DATA_WRITE_PROTECT, *PFEATURE_DATA_WRITE_PROTECT;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +60,7 @@ typedef struct _FEATURE_DATA_WRITE_PROTECT {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field SupportsSWPPBit
@@ -113,16 +98,15 @@ This structure holds data for the feature named "Write Protect" by the <i>MMC-3 
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  
-
 

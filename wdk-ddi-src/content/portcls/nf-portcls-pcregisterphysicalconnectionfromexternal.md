@@ -7,7 +7,7 @@ old-location: audio\pcregisterphysicalconnectionfromexternal.htm
 old-project: audio
 ms.assetid: 636cf517-5ab0-4709-8026-b51425c81118
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal function [Audio Devices], audio.pcregisterphysicalconnectionfromexternal, audpc-routines_ad19ffe2-ec64-4b2b-b036-cc84a986adfe.xml, portcls/PcRegisterPhysicalConnectionFromExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcRegisterPhysicalConnectionFromExternal
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcRegisterPhysicalConnectionFromExternal function
@@ -53,20 +54,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <b>PcRegisterPhysicalConnectionFromExternal</b> function registers a physical connection to an audio adapter filter from an external audio adapter filter.
 
 
-## -syntax
-
-
-````
-NTSTATUS PcRegisterPhysicalConnectionFromExternal(
-  _In_ PDEVICE_OBJECT  DeviceObject,
-  _In_ PUNICODE_STRING FromString,
-  _In_ ULONG           FromPin,
-  _In_ PUNKNOWN        ToUnknown,
-  _In_ ULONG           ToPin
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ NTSTATUS PcRegisterPhysicalConnectionFromExternal(
 
 ### -param DeviceObject [in]
 
-Pointer to the device object for the device. This is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+Pointer to the device object for the device. This is a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
 
 ### -param FromString [in]
@@ -89,7 +76,7 @@ Specifies a pin ID. This parameter identifies the source (output) pin on the ext
 
 ### -param ToUnknown [in]
 
-Pointer to the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface of a port driver object. The port driver object that is associated with <i>ToUnknown</i> is bound to the subdevice that supplies the connection's data sink (input) pin.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a> interface of a port driver object. The port driver object that is associated with <i>ToUnknown</i> is bound to the subdevice that supplies the connection's data sink (input) pin.
 
 
 ### -param ToPin [in]
@@ -125,15 +112,14 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnection.md">PcRegisterPhysicalConnection</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\portcls\nf-portcls-pcregisterphysicalconnectiontoexternal.md">PcRegisterPhysicalConnectionToExternal</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a>
 
 
 
@@ -145,12 +131,12 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537726">PcRegisterPhysicalConnection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537729">PcRegisterPhysicalConnectionToExternal</a>
  
 
  
-
 

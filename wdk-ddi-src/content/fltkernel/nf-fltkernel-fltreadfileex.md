@@ -7,7 +7,7 @@ old-location: ifsk\fltreadfileex.htm
 old-project: ifsk
 ms.assetid: 356D4CFD-E256-4920-AAB7-D6399F357591
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltReadFileEx, FltReadFileEx function [Installable File System Drivers], fltkernel/FltReadFileEx, ifsk.fltreadfileex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltReadFileEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltReadFileEx function
@@ -49,27 +50,7 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-<b>FltReadFileEx</b> reads data from an open file, stream, or device. This function extends <a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>  to allow the optional use of an MDL for read data instead of a mapped buffer address.
-
-
-## -syntax
-
-
-````
-NTSTATUS WINAPI FltReadFileEx(
-  _In_      PFLT_INSTANCE                    InitiatingInstance,
-  _In_      PFILE_OBJECT                     FileObject,
-  _In_opt_  PLARGE_INTEGER                   ByteOffset,
-  _In_      ULONG                            Length,
-  _Out_     PVOID                            Buffer,
-  _In_      FLT_IO_OPERATION_FLAGS           Flags,
-  _Out_opt_ PULONG                           BytesRead,
-  _In_opt_  PFLT_COMPLETED_ASYNC_IO_CALLBACK CallbackRoutine,
-  _In_opt_  PVOID                            CallbackContext,
-  _In_opt_  PULONG                           Key,
-  _In_opt_  PMDL                             Mdl
-);
-````
+<b>FltReadFileEx</b> reads data from an open file, stream, or device. This function extends <a href="https://msdn.microsoft.com/library/windows/hardware/ff544286">FltReadFile</a>  to allow the optional use of an MDL for read data instead of a mapped buffer address.
 
 
 ## -parameters
@@ -171,7 +152,7 @@ A pointer to a caller-allocated variable that receives the number of bytes read 
 
 ### -param CallbackRoutine [in, optional]
 
-A pointer to a <a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the read operation is complete. This parameter is optional and can be <b>NULL</b>. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551067">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the read operation is complete. This parameter is optional and can be <b>NULL</b>. 
 
 
 ### -param CallbackContext [in, optional]
@@ -214,7 +195,7 @@ The caller set the FLTFL_IO_OPERATION_NON_CACHED flag in the <i>Flags</i> parame
 
 </li>
 <li>
-The file object was opened for noncached I/O. Usually, this is done by specifying the FILE_NO_INTERMEDIATE_BUFFERING <i>CreateOptions</i> flag in the preceding call to <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>, <a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>, or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>. 
+The file object was opened for noncached I/O. Usually, this is done by specifying the FILE_NO_INTERMEDIATE_BUFFERING <i>CreateOptions</i> flag in the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541935">FltCreateFile</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff541937">FltCreateFileEx</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>. 
 
 </li>
 </ul>
@@ -222,7 +203,7 @@ Noncached I/O imposes the following restrictions on the parameter values passed 
 
 <ul>
 <li>
-The buffer that the <i>Buffer</i> parameter points to must be aligned in accordance with the alignment requirement of the underlying storage device. To allocate such an aligned buffer, call <a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>. 
+The buffer that the <i>Buffer</i> parameter points to must be aligned in accordance with the alignment requirement of the underlying storage device. To allocate such an aligned buffer, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541762">FltAllocatePoolAlignedWithTag</a>. 
 
 </li>
 <li>
@@ -240,7 +221,7 @@ If the value of the <i>CallbackRoutine</i> parameter is not <b>NULL</b>, the rea
 
 If the value of the <i>CallbackRoutine</i> parameter is <b>NULL</b>, the read operation is performed synchronously. That is, <b>FltReadFileEx</b> waits until the read operation is complete before returning. This is true even if the file object that <i>FileObject</i> points to was opened for asynchronous I/O. 
 
-If multiple threads call <b>FltReadFileEx</b> for the same file object, and the file object was opened for synchronous I/O, the filter manager does not attempt to serialize I/O on the file. In this respect, <b>FltReadFileEx</b> differs from <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>. 
+If multiple threads call <b>FltReadFileEx</b> for the same file object, and the file object was opened for synchronous I/O, the filter manager does not attempt to serialize I/O on the file. In this respect, <b>FltReadFileEx</b> differs from <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a>. 
 
 The <i>Mdl</i> parameter is provided as a convenience when a minifilter already has an MDL available. The MDL is used directly and the additional step of mapping an address for <i>Buffer</i> can be avoided.
 
@@ -249,44 +230,43 @@ The <i>Mdl</i> parameter is provided as a convenience when a minifilter already 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541762">FltAllocatePoolAlignedWithTag</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541935">FltCreateFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatepoolalignedwithtag.md">FltAllocatePoolAlignedWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541937">FltCreateFileEx</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltwritefileex.md">FltWriteFileEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544610">FltWriteFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451045">FltWriteFileEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_completed_async_io_callback.md">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551067">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.GetCommand
-title: IDebugBreakpoint2::GetCommand method
+title: IDebugBreakpoint2::GetCommand
 author: windows-driver-content
 description: The GetCommand method returns the command string that is executed when a breakpoint is triggered.
 old-location: debugger\getcommand.htm
 old-project: debugger
 ms.assetid: 3f7b704f-be73-459a-bb5a-bbe649751900
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, GetCommand method [Windows Debugging], GetCommand method [Windows Debugging], IDebugBreakpoint interface, GetCommand method [Windows Debugging], IDebugBreakpoint2 interface, GetCommand,IDebugBreakpoint2.GetCommand, IDebugBreakpoint interface [Windows Debugging], GetCommand method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetCommand method, IDebugBreakpoint2::GetCommand, IDebugBreakpoint::GetCommand, dbgeng/IDebugBreakpoint2::GetCommand, dbgeng/IDebugBreakpoint::GetCommand, debugger.getcommand
+ms.date: 4/24/2018
+ms.keywords: ComOther_4bb08d44-5a99-4177-b8a4-8926f1e45dcf.xml, GetCommand, GetCommand method [Windows Debugging], GetCommand method [Windows Debugging],IDebugBreakpoint interface, GetCommand method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetCommand method, IDebugBreakpoint2 interface [Windows Debugging],GetCommand method, IDebugBreakpoint2.GetCommand, IDebugBreakpoint2::GetCommand, IDebugBreakpoint::GetCommand, dbgeng/IDebugBreakpoint2::GetCommand, dbgeng/IDebugBreakpoint::GetCommand, debugger.getcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,30 +39,19 @@ api_location:
 api_name:
 -	IDebugBreakpoint.GetCommand
 -	IDebugBreakpoint2.GetCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint2::GetCommand method
+# IDebugBreakpoint2::GetCommand
 
 
 ## -description
 
 
 The <b>GetCommand</b>  method returns the command string that is executed when a breakpoint is triggered.
-
-
-## -syntax
-
-
-````
-HRESULT GetCommand(
-  [out, optional] PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG CommandSize
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: display\idarg_in_adapter_init_finished.htm
 old-project: display
 ms.assetid: 7ff07613-7c40-4310-856a-a44dc97c7f20
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IDARG_IN_ADAPTER_INIT_FINISHED, IDARG_IN_ADAPTER_INIT_FINISHED structure [Display Devices], display.idarg_in_adapter_init_finished, iddcx/IDARG_IN_ADAPTER_INIT_FINISHED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_ADAPTER_INIT_FINISHED
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
                  Gives the status of the adapter initialization.
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_ADAPTER_INIT_FINISHED {
-  NTSTATUS AdapterInitStatus;
-} IDARG_IN_ADAPTER_INIT_FINISHED, *IDARG_IN_ADAPTER_INIT_FINISHED;
-````
 
 
 ## -struct-fields

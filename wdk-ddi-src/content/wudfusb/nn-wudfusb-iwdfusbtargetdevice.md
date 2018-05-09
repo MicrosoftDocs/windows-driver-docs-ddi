@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 627a4633-6857-43a5-af2d-36e4e554ca83
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface, described, UMDFUSBref_4ff51830-55c1-4e2c-b095-8ca88bd2e56f.xml, umdf.iwdfusbtargetdevice, wdf.iwdfusbtargetdevice, wudfusb/IWDFUsbTargetDevice
+ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface,described, UMDFUSBref_4ff51830-55c1-4e2c-b095-8ca88bd2e56f.xml, umdf.iwdfusbtargetdevice, wdf.iwdfusbtargetdevice, wudfusb/IWDFUsbTargetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFUsbTargetDevice interface
@@ -60,7 +60,7 @@ The <b>IWDFUsbTargetDevice</b> interface exposes a USB device I/O target object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbTargetDevice</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>. <b>IWDFUsbTargetDevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbTargetDevice</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a>. <b>IWDFUsbTargetDevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

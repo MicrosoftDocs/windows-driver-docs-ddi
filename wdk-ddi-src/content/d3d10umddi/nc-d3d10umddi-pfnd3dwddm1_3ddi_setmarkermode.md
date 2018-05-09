@@ -7,8 +7,8 @@ old-location: display\setmarkermode.htm
 old-project: display
 ms.assetid: 18B13509-7692-4336-937C-264B31A6FB78
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DWDDM1_3DDI_SETMARKERMODE, SetMarkerMode, SetMarkerMode callback function [Display Devices], d3d10umddi/SetMarkerMode, display.setmarkermode
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM1_3DDI_SETMARKERMODE, PFND3DWDDM1_3DDI_SETMARKERMODE callback, SetMarkerMode, SetMarkerMode callback function [Display Devices], d3d10umddi/SetMarkerMode, display.setmarkermode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	SetMarkerMode
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM1_3DDI_SETMARKERMODE callback
+# PFND3DWDDM1_3DDI_SETMARKERMODE callback function
 
 
 ## -description
 
 
 Notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers.
-
-
-## -prototype
-
-
-````
-PFND3DWDDM1_3DDI_SETMARKERMODE SetMarkerMode;
-
-_Check_return_ HRESULT APIENTRY* SetMarkerMode(
-  _In_ D3D10DDI_HDEVICE          hDevice,
-  _In_ D3DWDDM1_3DDI_MARKER_TYPE Type,
-       UINT                      Flags
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -79,7 +65,7 @@ A handle to the display device (graphics context).
 
 ### -param Type [in]
 
-A value from the <a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_marker_type.md">D3DWDDM1_3DDI_MARKER_TYPE</a> enumeration that indicates the type of marker event  that the driver should support.
+A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn535968">D3DWDDM1_3DDI_MARKER_TYPE</a> enumeration that indicates the type of marker event  that the driver should support.
 
 
 ### -param Flags
@@ -115,12 +101,11 @@ Follow these guidelines when you set up profile-type marker events in your user-
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3dwddm1_3ddi_marker_type.md">D3DWDDM1_3DDI_MARKER_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn535968">D3DWDDM1_3DDI_MARKER_TYPE</a>
  
 
  
-
 

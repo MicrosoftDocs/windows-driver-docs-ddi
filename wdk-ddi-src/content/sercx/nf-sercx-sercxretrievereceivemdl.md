@@ -7,7 +7,7 @@ old-location: serports\sercxretrievereceivemdl.htm
 old-project: serports
 ms.assetid: 7BC76F62-CA51-4C3F-BBF0-0B192EE871E6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 1/SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl method [Serial Ports], serports.sercxretrievereceivemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SerCxRetrieveReceiveMdl
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCxRetrieveReceiveMdl function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SerCxRetrieveReceiveMdl</b> method retrieves the MDL that describes the buffer to use to receive the next block of input data.
-
-
-## -syntax
-
-
-````
-NTSTATUS SerCxRetrieveReceiveMdl(
-  [in]  WDFDEVICE Device,
-  [out] PMDL      *Mdl
-);
-````
 
 
 ## -parameters
@@ -101,7 +90,7 @@ This value is returned if one of the following occurs:
 
 <ul>
 <li>There is no outstanding receive request to get an MDL from.</li>
-<li>The current number of bytes received (as reported by the <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a> method) does not equal zero.</li>
+<li>The current number of bytes received (as reported by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406713">SerCxProgressReceive</a> method) does not equal zero.</li>
 <li>The buffer has already been retrieved (and the corresponding call to the <b>SerCxProgressReceive</b> method has not yet occurred).</li>
 <li>The MDL has already been retrieved (and the corresponding call to the <b>SerCxProgressReceive</b> method has not yet occurred).</li>
 </ul>
@@ -117,7 +106,7 @@ This value is returned if one of the following occurs:
 
 
 
-The serial controller driver calls this function to obtain an MDL to use for the current receive (read) operation. The MDL describes the buffer memory into which the driver is to transfer the received data. The driver is the exclusive owner of this MDL until it calls the <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
+The serial controller driver calls this function to obtain an MDL to use for the current receive (read) operation. The MDL describes the buffer memory into which the driver is to transfer the received data. The driver is the exclusive owner of this MDL until it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406713">SerCxProgressReceive</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
 
 For more information about MDLs, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
@@ -126,12 +115,11 @@ For more information about MDLs, see <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406713">SerCxProgressReceive</a>
  
 
  
-
 

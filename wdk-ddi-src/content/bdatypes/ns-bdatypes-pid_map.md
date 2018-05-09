@@ -7,7 +7,7 @@ old-location: stream\pid_map.htm
 old-project: stream
 ms.assetid: f71045e8-2928-40b8-b8f7-bc954a753aff
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: PID_MAP, PID_MAP structure [Streaming Media Devices], bdaref_54fdf358-1957-4e84-a5a4-9929395f105b.xml, bdatypes/PID_MAP, stream.pid_map
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	PID_MAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PID_MAP
 ---
@@ -50,17 +51,6 @@ req.typenames: PID_MAP
 
 
 The PID_MAP structure describes a group of packets in the output stream of a packet identifier (PID) filter. This group consists of packets that are identified with an identical PID and contain particular media content. 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                ulPID;
-  MEDIA_SAMPLE_CONTENT MediaSampleContent;
-} PID_MAP;
-````
 
 
 ## -struct-fields
@@ -80,11 +70,10 @@ MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media cont
 
 ## -see-also
 
-<a href="..\bdatypes\ns-bdatypes-_bda_pid_map.md">BDA_PID_MAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556534">BDA_PID_MAP</a>
 
 
 
@@ -92,8 +81,8 @@ MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media cont
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
  
 
  
-
 

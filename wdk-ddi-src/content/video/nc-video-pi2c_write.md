@@ -7,8 +7,8 @@ old-location: display\i2cwrite.htm
 old-project: display
 ms.assetid: 5aaebf38-bc09-4fb5-969e-7b456773d5ac
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: I2CWrite, I2CWrite callback function [Display Devices], PI2C_WRITE, VideoPort_Functions_3e35f4d8-7c13-4c2c-b0e4-c518bc63e6f6.xml, display.i2cwrite, video/I2CWrite
+ms.date: 4/16/2018
+ms.keywords: I2CWrite, I2CWrite callback function [Display Devices], PI2C_WRITE, PI2C_WRITE callback, VideoPort_Functions_3e35f4d8-7c13-4c2c-b0e4-c518bc63e6f6.xml, display.i2cwrite, video/I2CWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,19 @@ api_location:
 -	video.h
 api_name:
 -	I2CWrite
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PI2C_WRITE callback
+# PI2C_WRITE callback function
 
 
 ## -description
 
 
 The <i>I2CWrite</i> function writes data over the <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">I2C</a> channel.
-
-
-## -prototype
-
-
-````
-PI2C_WRITE I2CWrite;
-
-BOOLEAN I2CWrite(
-  _In_ PVOID          HwDeviceExtension,
-  _In_ PI2C_CALLBACKS I2CCallbacks,
-  _In_ PUCHAR         Buffer,
-  _In_ ULONG          Length
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -81,7 +65,7 @@ Pointer to the miniport driver's per-adapter device extension.
 
 ### -param I2CCallbacks [in]
 
-Pointer to an <a href="..\video\ns-video-_i2c_callbacks.md">I2C_CALLBACKS</a> structure, containing pointers to miniport driver-defined functions that read and write data and clock lines.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567382">I2C_CALLBACKS</a> structure, containing pointers to miniport driver-defined functions that read and write data and clock lines.
 
 
 ### -param Buffer [in]
@@ -107,19 +91,18 @@ Specifies the number of bytes to be written.
 
 
 
-The video port implements this function, which can be accessed through a pointer in the <a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a> structure. 
+The video port implements this function, which can be accessed through a pointer in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570538">VIDEO_PORT_I2C_INTERFACE</a> structure. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_port_i2c_interface.md">VIDEO_PORT_I2C_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570538">VIDEO_PORT_I2C_INTERFACE</a>
  
 
  
-
 

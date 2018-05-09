@@ -7,7 +7,7 @@ old-location: netvista\ndis_nic_switch_delete_switch_parameters.htm
 old-project: netvista
 ms.assetid: 859D6DA7-5945-44FA-8DDC-99EBD97883D2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, netvista.ndis_nic_switch_delete_switch_parameters, ntddndis/NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, *PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS
 ---
@@ -52,18 +53,6 @@ req.typenames: NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, *PNDIS_NIC_SWITCH_DELET
 The <b>NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS</b> structure specifies the information about the network adapter switch that will be deleted from the network adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              Flags;
-  NDIS_NIC_SWITCH_ID SwitchId;
-} NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS, *PNDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value. 
 
@@ -111,11 +100,6 @@ The <b>NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS</b> structure is used in OID met
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451817">OID_NIC_SWITCH_DELETE_SWITCH</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -123,8 +107,12 @@ The <b>NDIS_NIC_SWITCH_DELETE_SWITCH_PARAMETERS</b> structure is used in OID met
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451817">OID_NIC_SWITCH_DELETE_SWITCH</a>
  
 
  
-
 

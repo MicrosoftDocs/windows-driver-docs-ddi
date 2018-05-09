@@ -38,7 +38,8 @@ api_location:
 -	rilapitypes.h
 api_name:
 -	RILUICCSLOTSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCSLOTSTATE
 req.product: Windows 10 or later.

@@ -7,7 +7,7 @@ old-location: netvista\ndisfsetattributes.htm
 old-project: netvista
 ms.assetid: 66e20ac3-e97d-429d-868e-79c04881702b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisFSetAttributes, NdisFSetAttributes function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_67ad6b8c-e7ae-45d7-9213-48e8a2b6c2ff.xml, ndis/NdisFSetAttributes, netvista.ndisfsetattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisFSetAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisFSetAttributes function
@@ -54,18 +55,6 @@ A filter driver calls the
   <b>NdisFSetAttributes</b> function to specify a filter module context area.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisFSetAttributes(
-  _In_ NDIS_HANDLE             NdisFilterHandle,
-  _In_ NDIS_HANDLE             FilterModuleContext,
-  _In_ PNDIS_FILTER_ATTRIBUTES FilterAttributes
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +64,7 @@ NDIS_STATUS NdisFSetAttributes(
 
 The NDIS handle that identifies this filter module. NDIS passed the handle to the filter driver in
      a call to the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param FilterModuleContext [in]
@@ -86,7 +75,7 @@ The caller-allocated context area for this filter module.
 ### -param FilterAttributes [in]
 
 A pointer to a filter driver allocated 
-     <a href="..\ndis\ns-ndis-_ndis_filter_attributes.md">
+     <a href="https://msdn.microsoft.com/a377d809-4a6f-413e-a26a-446b4eca85ab">
      NDIS_FILTER_ATTRIBUTES</a> structure.
 
 
@@ -146,34 +135,33 @@ A pointer to a filter driver allocated
 
 A filter driver calls 
     <b>NdisFSetAttributes</b> from its 
-    <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function and passes the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function and passes the
     handle that NDIS passed to 
     <i>FilterAttach</i> at the 
     <i>NdisFilterHandle</i> parameter. The 
     <i>FilterModuleContext</i> parameter of 
     <b>NdisFSetAttributes</b> specifies the context area for this filter module. NDIS passes the context area
     back to the filter driver in calls to functions such as 
-    <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>.
+    <a href="https://msdn.microsoft.com/1b3fc0c8-95da-47e5-8ff1-b7967f5148e7">FilterSendNetBufferLists</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attributes.md">NDIS_FILTER_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/1b3fc0c8-95da-47e5-8ff1-b7967f5148e7">FilterSendNetBufferLists</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565484">NDIS_FILTER_ATTRIBUTES</a>
  
 
  
-
 

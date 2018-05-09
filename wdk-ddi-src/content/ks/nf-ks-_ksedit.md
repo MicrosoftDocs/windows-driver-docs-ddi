@@ -7,7 +7,7 @@ old-location: stream\_ksedit.htm
 old-project: stream
 ms.assetid: 9368846a-b985-40f4-8b02-1bb48431141a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "_KsEdit, _KsEdit function [Streaming Media Devices], avfunc_1e902412-8322-4155-9fdb-dfc0fa1b6b37.xml, ks/_KsEdit, stream._ksedit"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	_KsEdit
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,20 +52,6 @@ req.typenames:
 
 
 The <b>_KsEdit</b> function guarantees that a given item is dynamically allocated and associated with an AVStream object through the object bag.
-
-
-## -syntax
-
-
-````
-NTSTATUS _KsEdit(
-  _In_    KSOBJECT_BAG ObjectBag,
-  _Inout_ PVOID        *PointerToPointerToItem,
-  _In_    ULONG        NewSize,
-  _In_    ULONG        OldSize,
-  _In_    ULONG        Tag
-);
-````
 
 
 ## -parameters

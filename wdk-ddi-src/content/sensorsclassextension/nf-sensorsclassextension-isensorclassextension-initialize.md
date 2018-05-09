@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.Initialize
-title: ISensorClassExtension::Initialize method
+title: ISensorClassExtension::Initialize
 author: windows-driver-content
 description: The ISensorClassExtension::Initialize method initializes the sensor class extension object.
 old-location: sensors\isensorclassextension_initialize.htm
 old-project: sensors
 ms.assetid: 9b5b9cdf-06a9-410f-87c3-b87318c25a11
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorClassExtension, ISensorClassExtension::Initialize, Initialize method [Sensor Devices], Initialize,ISensorClassExtension.Initialize, sensors.isensorclassextension_initialize
+ms.date: 4/30/2018
+ms.keywords: ISensorClassExtension interface [Sensor Devices],Initialize method, ISensorClassExtension.Initialize, ISensorClassExtension::Initialize, Initialize, Initialize method [Sensor Devices], Initialize method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_initialize, sensorsclassextension/ISensorClassExtension::Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,30 +39,19 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	Initialize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorClassExtension::Initialize method
+# ISensorClassExtension::Initialize
 
 
 ## -description
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545514">ISensorClassExtension::Initialize</a> method initializes the sensor class extension object.
-
-
-## -syntax
-
-
-````
-HRESULT Initialize(
-   IUnknown * pWdfDeviceUnknown,
-   IUnknown * pSensorDriverUnknown
-);
-````
 
 
 ## -parameters
@@ -109,7 +98,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-The argument was <b>NULL</b> or the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface is missing..
+The argument was <b>NULL</b> or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface is missing..
 
 </td>
 </tr>
@@ -162,4 +151,15 @@ Because the class extension calls your driver during initialization, this method
 
 <div class="code"></div>
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545503">ISensorClassExtension</a>
+ 
+
+ 
 

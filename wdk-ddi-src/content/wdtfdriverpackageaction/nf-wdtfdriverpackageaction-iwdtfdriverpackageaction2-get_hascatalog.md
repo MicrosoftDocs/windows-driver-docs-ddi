@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfdriverpackageaction.IWDTFDriverPackageAction2.get_HasCatalog
-title: IWDTFDriverPackageAction2::get_HasCatalog method
+title: IWDTFDriverPackageAction2::get_HasCatalog
 author: windows-driver-content
 description: Gets a value that indicates whether the driver package has a catalog.
 old-location: dtf\iwdtfdriverpackageaction2_hascatalog.htm
 old-project: dtf
 ms.assetid: 0536f452-c513-45dc-9048-5420d2165715
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: HasCatalog property [Windows Device Testing Framework], HasCatalog property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], HasCatalog property, IWDTFDriverPackageAction2.HasCatalog, IWDTFDriverPackageAction2::get_HasCatalog, Microsoft.WDTF.IWDTFDriverPackageAction2.HasCatalog, Microsoft::WDTF::IWDTFDriverPackageAction2::HasCatalog, dtf.iwdtfdriverpackageaction2_hascatalog, get_HasCatalog,IWDTFDriverPackageAction2.get_HasCatalog, wdtfdriverpackageaction/IWDTFDriverPackageAction2::HasCatalog, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_HasCatalog
+ms.date: 4/4/2018
+ms.keywords: HasCatalog property [Windows Device Testing Framework], HasCatalog property [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],HasCatalog property, IWDTFDriverPackageAction2.HasCatalog, IWDTFDriverPackageAction2.get_HasCatalog, IWDTFDriverPackageAction2::HasCatalog, IWDTFDriverPackageAction2::get_HasCatalog, Microsoft.WDTF.IWDTFDriverPackageAction2.HasCatalog, Microsoft::WDTF::IWDTFDriverPackageAction2::HasCatalog, dtf.iwdtfdriverpackageaction2_hascatalog, get_HasCatalog, wdtfdriverpackageaction/IWDTFDriverPackageAction2::HasCatalog, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_HasCatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,13 +39,13 @@ api_location:
 api_name:
 -	IWDTFDriverPackageAction2.HasCatalog
 -	IWDTFDriverPackageAction2.get_HasCatalog
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFDriverPackageAction2::get_HasCatalog method
+# IWDTFDriverPackageAction2::get_HasCatalog
 
 
 ## -description
@@ -56,27 +56,16 @@ Gets a value that indicates whether the driver package has a catalog.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_HasCatalog(
-  [out, retval] VARIANT_BOOL *pbVal
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\wdtfdriverpackageaction\nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2.md">IWDTFDriverPackageAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406427">IWDTFDriverPackageAction2</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\ucm_connector_pd_config_init.htm
 old-project: usbref
 ms.assetid: 59663F6C-5C8E-4403-8097-7E6D9A075A60
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UCM_CONNECTOR_PD_CONFIG_INIT, UCM_CONNECTOR_PD_CONFIG_INIT function [Buses], buses.ucm_connector_pd_config_init, ucmmanager/UCM_CONNECTOR_PD_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Ucmmanager.h
 api_name:
 -	UCM_CONNECTOR_PD_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PORT_DATA_1, *PPORT_DATA_1
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCM_CONNECTOR_PD_CONFIG_INIT function
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_config.md">UCM_CONNECTOR_PD_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE void UCM_CONNECTOR_PD_CONFIG_INIT(
-  _Out_ PUCM_CONNECTOR_PD_CONFIG Config,
-  _In_  ULONG                    SupportedPowerRoles
-);
-````
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187924">UCM_CONNECTOR_PD_CONFIG</a> structure.
 
 
 ## -parameters
@@ -71,12 +60,12 @@ FORCEINLINE void UCM_CONNECTOR_PD_CONFIG_INIT(
 
 ### -param Config [out]
 
-Pointer to a caller-allocated <a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_config.md">UCM_CONNECTOR_PD_CONFIG</a> structure to initialize.
+Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt187924">UCM_CONNECTOR_PD_CONFIG</a> structure to initialize.
 
 
 ### -param SupportedPowerRoles [in]
 
-A bitwise OR of <a href="..\ucmtypes\ne-ucmtypes-_ucm_power_role.md">UCM_POWER_ROLE</a>-typed flags.
+A bitwise OR of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187944">UCM_POWER_ROLE</a>-typed flags.
 
 
 ## -returns
@@ -90,12 +79,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>
  
 
  
-
 

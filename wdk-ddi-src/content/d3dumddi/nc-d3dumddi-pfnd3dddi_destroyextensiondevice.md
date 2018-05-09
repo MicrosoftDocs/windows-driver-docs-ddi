@@ -7,8 +7,8 @@ old-location: display\destroyextensiondevice.htm
 old-project: display
 ms.assetid: 8c4bcab3-b903-4f39-aab0-7efb3b18d068
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DestroyExtensionDevice, DestroyExtensionDevice callback function [Display Devices], PFND3DDDI_DESTROYEXTENSIONDEVICE, UserModeDisplayDriver_Functions_6d9ce1e0-efda-4633-83fb-fa6a5aa5f37b.xml, d3dumddi/DestroyExtensionDevice, display.destroyextensiondevice
+ms.date: 4/16/2018
+ms.keywords: DestroyExtensionDevice, DestroyExtensionDevice callback function [Display Devices], PFND3DDDI_DESTROYEXTENSIONDEVICE, PFND3DDDI_DESTROYEXTENSIONDEVICE callback, UserModeDisplayDriver_Functions_6d9ce1e0-efda-4633-83fb-fa6a5aa5f37b.xml, d3dumddi/DestroyExtensionDevice, display.destroyextensiondevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DestroyExtensionDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DESTROYEXTENSIONDEVICE callback
+# PFND3DDDI_DESTROYEXTENSIONDEVICE callback function
 
 
 ## -description
 
 
 The <b>DestroyExtensionDevice</b> function releases resources for a Microsoft DirectX Video Acceleration (VA) extension device.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_DESTROYEXTENSIONDEVICE DestroyExtensionDevice;
-
-__checkReturn HRESULT APIENTRY DestroyExtensionDevice(
-  _In_ HANDLE hDevice,
-  _In_ HANDLE hExtension
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ __checkReturn HRESULT APIENTRY DestroyExtensionDevice(
 
 ### -param hExtension [in]
 
- A handle to the DirectX VA extension device that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a> function created.
+ A handle to the DirectX VA extension device that the <a href="https://msdn.microsoft.com/7e6dbb70-2e74-4ddb-a504-2c8145af99d9">CreateExtensionDevice</a> function created.
 
 
 ## -returns
@@ -94,23 +81,22 @@ __checkReturn HRESULT APIENTRY DestroyExtensionDevice(
 
 
 
-The <b>DestroyExtensionDevice</b> function notifies the driver to destroy the handle to the DirectX VA extension device that the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a> function previously created. The driver can then release resources that are associated with the DirectX VA extension device handle.
+The <b>DestroyExtensionDevice</b> function notifies the driver to destroy the handle to the DirectX VA extension device that the <a href="https://msdn.microsoft.com/7e6dbb70-2e74-4ddb-a504-2c8145af99d9">CreateExtensionDevice</a> function previously created. The driver can then release resources that are associated with the DirectX VA extension device handle.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createextensiondevice.md">CreateExtensionDevice</a>
+<a href="https://msdn.microsoft.com/7e6dbb70-2e74-4ddb-a504-2c8145af99d9">CreateExtensionDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

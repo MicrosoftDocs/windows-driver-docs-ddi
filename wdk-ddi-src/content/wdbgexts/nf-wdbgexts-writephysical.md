@@ -7,7 +7,7 @@ old-location: debugger\writephysical.htm
 old-project: debugger
 ms.assetid: faafaf0a-29ef-43ef-9f9a-f3b545e83f65
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/24/2018
 ms.keywords: WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, WritePhysical, WritePhysical function [Windows Debugging], dbgeng/WritePhysical, debugger.writephysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	dbgeng.h
 api_name:
 -	WritePhysical
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WritePhysical function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WritePhysical</b> function writes to physical memory.
-
-
-## -syntax
-
-
-````
-__inline VOID WritePhysical(
-  _In_      ULONG64 address,
-  _In_      PVOID   buf,
-  _In_      ULONG   size,
-  _Out_opt_ PULONG  sizew
-);
-````
 
 
 ## -parameters

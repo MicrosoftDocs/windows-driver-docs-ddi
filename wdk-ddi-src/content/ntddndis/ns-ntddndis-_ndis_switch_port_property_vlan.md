@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_property_vlan.htm
 old-project: netvista
 ms.assetid: 2A151351-AC57-4F7C-BA1A-201F6FB29C4F
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_VLAN, PNDIS_SWITCH_PORT_PROPERTY_VLAN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_VLAN, netvista.ndis_switch_port_property_vlan, ntddndis/NDIS_SWITCH_PORT_PROPERTY_VLAN, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_VLAN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SWITCH_PORT_PROPERTY_VLAN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_PROPERTY_VLAN, *PNDIS_SWITCH_PORT_PROPERTY_VLAN
 ---
@@ -52,35 +53,6 @@ req.typenames: NDIS_SWITCH_PORT_PROPERTY_VLAN, *PNDIS_SWITCH_PORT_PROPERTY_VLAN
 The <b>NDIS_SWITCH_PORT_PROPERTY_VLAN</b> structure specifies a virtual local area network (VLAN) policy property for a Hyper-V extensible switch port.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_SWITCH_PORT_PROPERTY_VLAN {
-  NDIS_OBJECT_HEADER         Header;
-  ULONG                      Flags;
-  NDIS_SWITCH_PORT_VLAN_MODE OperationMode;
-  union {
-    struct {
-      UINT16 AccessVlanId;
-      UINT16 NativeVlanId;
-      UINT64 PruneVlanIdArray[64];
-      UINT64 TrunkVlanIdArray[64];
-    } VlanProperties;
-    struct {
-      NDIS_SWITCH_PORT_PVLAN_MODE PvlanMode;
-      UINT16                      PrimaryVlanId;
-      union {
-        UINT16 SecondaryVlanId;
-        UINT64 SecondaryVlanIdArray[64];
-      };
-    } PvlanProperties;
-  };
-  UINT64                     SupportedModes;
-} NDIS_SWITCH_PORT_PROPERTY_VLAN, *PNDIS_SWITCH_PORT_PROPERTY_VLAN;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +60,7 @@ typedef struct _NDIS_SWITCH_PORT_PROPERTY_VLAN {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_PORT_PROPERTY_VLAN</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_PORT_PROPERTY_VLAN</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_PORT_PROPERTY_VLAN</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value:
 
@@ -110,7 +82,7 @@ A ULONG value that contains a bitwise OR of flags. This member is reserved for N
 
 ### -field OperationMode
 
-An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_vlan_mode.md">NDIS_SWITCH_PORT_VLAN_MODE</a> enumeration value that specifies the operation mode of the VLAN.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/hh598246">NDIS_SWITCH_PORT_VLAN_MODE</a> enumeration value that specifies the operation mode of the VLAN.
 
 
 ### -field VlanProperties
@@ -157,16 +129,26 @@ The array has 64 UINT64 elements that represent 4096 consecutive bits.
 A structure that specifies the properties of a VLAN with an operation mode of <b>NdisSwitchPortVlanModePrivate</b>. This structure contains the following members:
 
 
+### -field PvlanProperties.PvlanMode
 
-#### SecondaryVlanId
+An <a href="https://msdn.microsoft.com/library/windows/hardware/hh598244">NDIS_SWITCH_PORT_PVLAN_MODE</a> enumeration value that specifies the operation mode of the PVLAN.
+
+
+### -field PvlanProperties.PrimaryVlanId
+
+A UINT16 value that specifies the primary VLAN identifier for an extensible switch port.
+
+<div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeCommunity</b>.</div>
+<div> </div>
+
+### -field PvlanProperties.SecondaryVlanId
 
 A UINT16 value that specifies the secondary VLAN identifier for an extensible switch port.
 
 <div class="alert"><b>Note</b>  This member is only valid if   the  <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeIsolated</b> or <b>NdisSwitchPortPvlanModeCommunity</b>.</div>
 <div> </div>
 
-
-#### SecondaryVlanIdArray
+### -field PvlanProperties.SecondaryVlanIdArray
 
 An array of UINT64 elements that specify the secondary VLAN identifiers for an extensible switch port.
 
@@ -175,18 +157,6 @@ The array has 64 UINT64 elements, which represent 4096 consecutive bits.
 
 
 <div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModePromiscuous</b>.</div>
-<div> </div>
-
-### -field PvlanProperties.PvlanMode
-
-An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_pvlan_mode.md">NDIS_SWITCH_PORT_PVLAN_MODE</a> enumeration value that specifies the operation mode of the PVLAN.
-
-
-### -field PvlanProperties.PrimaryVlanId
-
-A UINT16 value that specifies the primary VLAN identifier for an extensible switch port.
-
-<div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeCommunity</b>.</div>
 <div> </div>
 
 #### - SupportedModes
@@ -240,7 +210,7 @@ The <b>NDIS_SWITCH_PORT_PROPERTY_VLAN</b> structure is used in the following OID
 
 </li>
 </ul>
-The <b>NDIS_SWITCH_PORT_PROPERTY_VLAN</b> structure follows the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_parameters.md">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a> structure in the buffer that is associated with these OID set requests. The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure contains a pointer to this buffer.
+The <b>NDIS_SWITCH_PORT_PROPERTY_VLAN</b> structure follows the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598238">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a> structure in the buffer that is associated with these OID set requests. The <b>InformationBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure contains a pointer to this buffer.
 
 Port properties, such as <b>NDIS_SWITCH_PORT_PROPERTY_VLAN</b>, are enforced by the extensible switch extension that is installed as a forwarding extension. This type of extension enforces its own rules for forwarding packets, OIDs, and status indications through the extensible switch driver stack.  There can be only one forwarding extension per each instance of an extensible switch.
 
@@ -253,27 +223,6 @@ For more information on forwarding extensions, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_parameters.md">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598278">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598275">OID_SWITCH_PORT_PROPERTY_ADD</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_vlan_mode.md">NDIS_SWITCH_PORT_VLAN_MODE</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 
@@ -281,8 +230,28 @@ For more information on forwarding extensions, see <a href="https://msdn.microso
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598238">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598246">NDIS_SWITCH_PORT_VLAN_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598275">OID_SWITCH_PORT_PROPERTY_ADD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598278">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
  
 
  
-
 

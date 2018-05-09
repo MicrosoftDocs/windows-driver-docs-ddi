@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 5999EBAE-9B4A-469C-A8CE-E0A72B6F6A14
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFP_DISABLE, IOCTL_NFP_DISABLE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_DISABLE, nfpdrivers.ioctl_nfp_disable
+ms.keywords: IOCTL_NFP_DISABLE, IOCTL_NFP_DISABLE control, IOCTL_NFP_DISABLE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_DISABLE, nfpdrivers.ioctl_nfp_disable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	nfpdev.h
 api_name:
 -	IOCTL_NFP_DISABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_INFO
+req.typenames: 
 ---
 
 # IOCTL_NFP_DISABLE IOCTL
@@ -138,13 +139,13 @@ The driver MUST keep that handle’s “Received” queue at zero length by purg
 
 </li>
 <li>
-The driver MUST complete all pended <a href="..\nfpdev\ni-nfpdev-ioctl_nfp_get_next_subscribed_message.md">IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE</a>  requests on that handle with STATUS_CANCELLED.
+The driver MUST complete all pended <a href="https://msdn.microsoft.com/library/windows/hardware/jj853319">IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE</a>  requests on that handle with STATUS_CANCELLED.
 
 </li>
 </ul>
 </li>
 <li>
-	If a publication handle is “Disabled”, the provider MUST NOT transmit the publication’s message and it MUST complete all pended <a href="..\nfpdev\ni-nfpdev-ioctl_nfp_get_next_transmitted_message.md">IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE</a> requests on that handle with STATUS_CANCELLED
+	If a publication handle is “Disabled”, the provider MUST NOT transmit the publication’s message and it MUST complete all pended <a href="https://msdn.microsoft.com/library/windows/hardware/jj853320">IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE</a> requests on that handle with STATUS_CANCELLED
 
 </li>
 </ul>
@@ -155,20 +156,19 @@ The driver MUST complete all pended <a href="..\nfpdev\ni-nfpdev-ioctl_nfp_get_n
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj853316">IOCTL_NFP_ENABLE</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
 
 
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
-
-
-
-<a href="..\nfpdev\ni-nfpdev-ioctl_nfp_enable.md">IOCTL_NFP_ENABLE</a>
-
-
-
  
 
  
-
 

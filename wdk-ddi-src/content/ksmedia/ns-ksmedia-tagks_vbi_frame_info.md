@@ -7,7 +7,7 @@ old-location: stream\ks_vbi_frame_info.htm
 old-project: stream
 ms.assetid: ae6ba1c3-0729-41bd-9fd5-62969bf4b70c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO structure [Streaming Media Devices], PKS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO structure pointer [Streaming Media Devices], ksmedia/KS_VBI_FRAME_INFO, ksmedia/PKS_VBI_FRAME_INFO, stream.ks_vbi_frame_info, tagKS_VBI_FRAME_INFO, vidcapstruct_4056b888-5d3a-422b-afdb-bc686b853e8b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VBI_FRAME_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO
 ---
@@ -49,23 +50,7 @@ req.typenames: KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO
 ## -description
 
 
-The KS_VBI_FRAME_INFO structure extends the <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structure for vertical blanking interval (VBI) streams.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_VBI_FRAME_INFO {
-  ULONG                  ExtendedHeaderSize;
-  DWORD                  dwFrameFlags;
-  LONGLONG               PictureNumber;
-  LONGLONG               DropCount;
-  DWORD                  dwSamplingFrequency;
-  KS_TVTUNER_CHANGE_INFO TvTunerChangeInfo;
-  KS_VBIINFOHEADER       VBIInfoHeader;
-} KS_VBI_FRAME_INFO, *PKS_VBI_FRAME_INFO;
-````
+The KS_VBI_FRAME_INFO structure extends the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a> structure for vertical blanking interval (VBI) streams.
 
 
 ## -struct-fields
@@ -213,20 +198,19 @@ The <b>dwSamplingFrequency</b> member is not used by Microsoft VBI codecs, but m
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_tvtuner_change_info.md">KS_TVTUNER_CHANGE_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567691">KS_TVTUNER_CHANGE_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567692">KS_VBIINFOHEADER</a>
  
 
  
-
 

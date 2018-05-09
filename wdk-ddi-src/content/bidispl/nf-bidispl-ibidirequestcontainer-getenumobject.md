@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiRequestContainer.GetEnumObject
-title: IBidiRequestContainer::GetEnumObject method
+title: IBidiRequestContainer::GetEnumObject
 author: windows-driver-content
 description: The GetEnumObject method enumerates the bidi requests in a list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__getenumobject.htm
 old-project: print
 ms.assetid: 1aa7b934-c56b-4bfb-800e-950e1dbd5ba3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetEnumObject method [Print Devices], GetEnumObject method [Print Devices], IBidiRequestContainer interface, GetEnumObject,IBidiRequestContainer.GetEnumObject, IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], GetEnumObject method, IBidiRequestContainer::GetEnumObject, _win32_IBidiRequestContainer_GetEnumObject, bidispl/IBidiRequestContainer::GetEnumObject, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, print.ibidirequestcontainer_ibidirequestcontainer__getenumobject
+ms.date: 4/20/2018
+ms.keywords: GetEnumObject, GetEnumObject method [Print Devices], GetEnumObject method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],GetEnumObject method, IBidiRequestContainer.GetEnumObject, IBidiRequestContainer::GetEnumObject, _win32_IBidiRequestContainer_GetEnumObject, bidispl/IBidiRequestContainer::GetEnumObject, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, print.ibidirequestcontainer_ibidirequestcontainer__getenumobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiRequestContainer.GetEnumObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiRequestContainer::GetEnumObject method
+# IBidiRequestContainer::GetEnumObject
 
 
 ## -description
 
 
 The <b>GetEnumObject</b> method enumerates the bidi requests in a list.
-
-
-## -syntax
-
-
-````
-HRESULT GetEnumObject(
-  [out] IEnumUnknown **ppenum
-);
-````
 
 
 ## -parameters
@@ -126,18 +117,17 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-An application can call <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms693367">IEnumUnknown::Next</a> to retrieve one or more <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a> interfaces.
+An application can call <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms693367">IEnumUnknown::Next</a> to retrieve one or more <a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a> interfaces.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-
-
-<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
 
 
 
@@ -145,12 +135,12 @@ An application can call <a href="https://msdn.microsoft.com/en-us/library/window
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144970">IBidiRequestContainer</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms683764">IEnumUnknown</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\ksevent_volumelimit.htm
 old-project: stream
 ms.assetid: B03477A0-B7ED-491F-9D6F-B32A0E719475
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSEVENT_VOLUMELIMIT, KSEVENT_VOLUMELIMIT enumeration [Streaming Media Devices], KSEVENT_VOLUMELIMIT_CHANGED, ks/KSEVENT_VOLUMELIMIT, ks/KSEVENT_VOLUMELIMIT_CHANGED, stream.ksevent_volumelimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSEVENT_VOLUMELIMIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_VOLUMELIMIT
 ---
@@ -50,17 +51,6 @@ req.typenames: KSEVENT_VOLUMELIMIT
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_VOLUMELIMIT_CHANGED
-
-} KSEVENT_VOLUMELIMIT;
-````
 
 
 ## -enum-fields

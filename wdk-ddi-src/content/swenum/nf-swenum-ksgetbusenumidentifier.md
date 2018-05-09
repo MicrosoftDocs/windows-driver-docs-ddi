@@ -7,7 +7,7 @@ old-location: stream\ksgetbusenumidentifier.htm
 old-project: stream
 ms.assetid: 50e14e01-5879-4a84-a8c2-f03c953dbeec
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGetBusEnumIdentifier, KsGetBusEnumIdentifier function [Streaming Media Devices], ksfunc_c001aace-8c97-48cb-ae8b-9e7075d51960.xml, stream.ksgetbusenumidentifier, swenum/KsGetBusEnumIdentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGetBusEnumIdentifier
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KsGetBusEnumIdentifier function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 <i>This function is intended for internal use only.</i>
 
 The <b>KsGetBusEnumIdentifier</b> function retrieves the software bus enumerator identifier for the bus device associated with the given IRP. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsGetBusEnumIdentifier(
-  _Inout_ PIRP Irp
-);
-````
 
 
 ## -parameters

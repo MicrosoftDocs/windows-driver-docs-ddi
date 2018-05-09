@@ -7,7 +7,7 @@ old-location: netvista\ndis_client_chimney_offload_generic_characteristics.htm
 old-project: netvista
 ms.assetid: 66eb9528-e026-44cd-a775-c8d963036adc
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, ndischimney/NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, ndischimney/PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, netvista.ndis_client_chimney_offload_generic_characteristics, tcp_chim_struct_5db55d5e-f540-4f60-9f3b-adcd24932b1d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, *PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS
 ---
@@ -56,23 +57,6 @@ The NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure specifies a pr
   types. Currently, TCP chimney offload is the only defined chimney offload type.
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS {
-  NDIS_OBJECT_HEADER                  Header;
-  ULONG                               Flags;
-  INITIATE_OFFLOAD_COMPLETE_HANDLER   InitiateOffloadCompleteHandler;
-  TERMINATE_OFFLOAD_COMPLETE_HANDLER  TerminateOffloadCompleteHandler;
-  UPDATE_OFFLOAD_COMPLETE_HANDLER     UpdateOffloadCompleteHandler;
-  INVALIDATE_OFFLOAD_COMPLETE_HANDLER InvalidateOffloadCompleteHandler;
-  QUERY_OFFLOAD_COMPLETE_HANDLER      QueryOffloadCompleteHandler;
-  INDICATE_OFFLOAD_EVENT_HANDLER      IndicateOffloadEventHandler;
-} NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, *PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS;
-````
-
-
 ## -struct-fields
 
 
@@ -82,7 +66,7 @@ typedef struct _NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS {
 
 The header of the NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure. The header is
      formatted as an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure. The
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure. The
      NDIS_OBJECT_HEADER structure contains the revision number of the
      NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure and the size of the
      NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure, including the header, in bytes. The 
@@ -97,42 +81,42 @@ Reserved for system use.
 ### -field InitiateOffloadCompleteHandler
 
 Specifies the entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-initiate_offload_complete_handler.md">
+     <a href="https://msdn.microsoft.com/0300d841-b211-42f8-b60d-d7d37201e778">
      ProtocolInitiateOffloadComplete</a> function.
 
 
 ### -field TerminateOffloadCompleteHandler
 
 The entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
+     <a href="https://msdn.microsoft.com/614d36e8-38ac-49a7-8711-7a6c6646309c">
      ProtocolTerminateOffloadComplete</a> function.
 
 
 ### -field UpdateOffloadCompleteHandler
 
 The entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
+     <a href="https://msdn.microsoft.com/3cd7a32a-d560-429b-b191-aeabb87433f3">
      ProtocolUpdateOffloadComplete</a> function.
 
 
 ### -field InvalidateOffloadCompleteHandler
 
 The entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-invalidate_offload_complete_handler.md">
+     <a href="https://msdn.microsoft.com/6d2c71d0-9686-4eb5-9715-27de3dc8b390">
      ProtocolInvalidateOffloadComplete</a> function.
 
 
 ### -field QueryOffloadCompleteHandler
 
 The entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-query_offload_complete_handler.md">
+     <a href="https://msdn.microsoft.com/f521af88-eb96-4077-8882-9b1d02c6c87c">
      ProtocolQueryOffloadComplete</a> function.
 
 
 ### -field IndicateOffloadEventHandler
 
 The entry point of the driver's 
-     <a href="..\ndischimney\nc-ndischimney-indicate_offload_event_handler.md">
+     <a href="https://msdn.microsoft.com/608c1c7c-1eb3-4d86-9471-313fce2df00e">
      ProtocolIndicateOffloadEvent</a> function.
 
 
@@ -141,9 +125,9 @@ The entry point of the driver's
 
 
 To register its generic chimney offload entry points, a protocol or intermediate driver calls the 
-    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function
     in the context of the 
-    <a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a> function. To the 
+    <a href="https://msdn.microsoft.com/342e23ad-d38b-4100-949a-220b8fbdcf6e">ProtocolSetOptions</a> function. To the 
     <b>NdisSetOptionalHandlers</b> function,
     the protocol or intermediate driver passes a pointer to the
     NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure.
@@ -153,50 +137,49 @@ To register its generic chimney offload entry points, a protocol or intermediate
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-initiate_offload_complete_handler.md">
-   ProtocolInitiateOffloadComplete</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
-   ProtocolTerminateOffloadComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-query_offload_complete_handler.md">
-   ProtocolQueryOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-invalidate_offload_complete_handler.md">
-   ProtocolInvalidateOffloadComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
-   ProtocolUpdateOffloadComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-indicate_offload_event_handler.md">
+<a href="https://msdn.microsoft.com/608c1c7c-1eb3-4d86-9471-313fce2df00e">
    ProtocolIndicateOffloadEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/0300d841-b211-42f8-b60d-d7d37201e778">
+   ProtocolInitiateOffloadComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/6d2c71d0-9686-4eb5-9715-27de3dc8b390">
+   ProtocolInvalidateOffloadComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/f521af88-eb96-4077-8882-9b1d02c6c87c">
+   ProtocolQueryOffloadComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/342e23ad-d38b-4100-949a-220b8fbdcf6e">ProtocolSetOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/614d36e8-38ac-49a7-8711-7a6c6646309c">
+   ProtocolTerminateOffloadComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/3cd7a32a-d560-429b-b191-aeabb87433f3">
+   ProtocolUpdateOffloadComplete</a>
  
 
  
-
 

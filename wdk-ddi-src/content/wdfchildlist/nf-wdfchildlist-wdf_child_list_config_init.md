@@ -38,10 +38,10 @@ api_location:
 -	wdfchildlist.h
 api_name:
 -	WDF_CHILD_LIST_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_RETRIEVE_CHILD_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_CHILD_LIST_CONFIG_INIT function
@@ -52,19 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WDF_CHILD_LIST_CONFIG_INIT</b> function initializes a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_CHILD_LIST_CONFIG_INIT(
-  _Out_ PWDF_CHILD_LIST_CONFIG           Config,
-  _In_  ULONG                            IdentificationDescriptionSize,
-  _In_  PFN_WDF_CHILD_LIST_CREATE_DEVICE EvtChildListCreateDevice
-);
-````
+The <b>WDF_CHILD_LIST_CONFIG_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551227">WDF_CHILD_LIST_CONFIG</a> structure.
 
 
 ## -parameters
@@ -74,7 +62,7 @@ VOID WDF_CHILD_LIST_CONFIG_INIT(
 
 ### -param Config [out]
 
-A pointer to a driver-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a> structure.
+A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551227">WDF_CHILD_LIST_CONFIG</a> structure.
 
 
 ### -param IdentificationDescriptionSize [in]
@@ -84,7 +72,7 @@ The size, in bytes, of each child device's <a href="https://docs.microsoft.com/e
 
 ### -param EvtChildListCreateDevice [in]
 
-The address of a driver-supplied <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a> event callback function.
+The address of a driver-supplied <a href="https://msdn.microsoft.com/296fbe06-1680-43a8-b5c3-1a1faa19c6c3">EvtChildListCreateDevice</a> event callback function.
 
 
 ## -returns
@@ -100,14 +88,14 @@ None
 
 
 
-The <b>WDF_CHILD_LIST_CONFIG_INIT</b> function zeros the specified <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a> structure and sets the structure's <b>Size</b> member. Then it sets the <b>IdentificationDescriptionSize</b> and <b>EvtChildListCreateDevice</b> members to the specified values.
+The <b>WDF_CHILD_LIST_CONFIG_INIT</b> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff551227">WDF_CHILD_LIST_CONFIG</a> structure and sets the structure's <b>Size</b> member. Then it sets the <b>IdentificationDescriptionSize</b> and <b>EvtChildListCreateDevice</b> members to the specified values.
 
 For more information about child lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">Dynamic Enumeration</a>.
 
 
 #### Examples
 
-For a code example that uses <b>WDF_CHILD_LIST_CONFIG_INIT</b>, see <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistcreate.md">WdfChildListCreate</a>.
+For a code example that uses <b>WDF_CHILD_LIST_CONFIG_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545615">WdfChildListCreate</a>.
 
 <div class="code"></div>
 
@@ -115,16 +103,15 @@ For a code example that uses <b>WDF_CHILD_LIST_CONFIG_INIT</b>, see <a href="..\
 
 ## -see-also
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
 
 
 
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+<a href="https://msdn.microsoft.com/296fbe06-1680-43a8-b5c3-1a1faa19c6c3">EvtChildListCreateDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551227">WDF_CHILD_LIST_CONFIG</a>
  
 
  
-
 

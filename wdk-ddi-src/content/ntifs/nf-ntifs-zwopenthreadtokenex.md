@@ -7,7 +7,7 @@ old-location: kernel\zwopenthreadtokenex.htm
 old-project: kernel
 ms.assetid: def462ee-30c6-44c0-8639-f8f7d3d0b69e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtOpenThreadTokenEx, ZwOpenThreadTokenEx, ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture], k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, kernel.zwopenthreadtokenex, ntifs/NtOpenThreadTokenEx, ntifs/ZwOpenThreadTokenEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 api_name:
 -	ZwOpenThreadTokenEx
 -	NtOpenThreadTokenEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # ZwOpenThreadTokenEx function
@@ -51,20 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ZwOpenThreadTokenEx</b> routine opens the access token associated with a thread. 
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwOpenThreadTokenEx(
-  _In_  HANDLE      ThreadHandle,
-  _In_  ACCESS_MASK DesiredAccess,
-  _In_  BOOLEAN     OpenAsSelf,
-  _In_  ULONG       HandleAttributes,
-  _Out_ PHANDLE     TokenHandle
-);
-````
 
 
 ## -parameters
@@ -80,7 +67,7 @@ Handle to the thread whose access token is to be opened. The handle must have TH
 ### -param DesiredAccess [in]
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list (<a href="..\wdm\ns-wdm-_acl.md">DACL</a>) to determine which access rights are granted or denied. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> structure specifying the requested types of access to the access token. These requested access types are compared with the token's discretionary access-control list (<a href="https://msdn.microsoft.com/dac27df2-fabd-4402-8daf-9317888dd30b">DACL</a>) to determine which access rights are granted or denied. 
 
 
 ### -param OpenAsSelf [in]
@@ -129,7 +116,7 @@ Pointer to a caller-allocated variable that receives a handle to the newly opene
 </dl>
 </td>
 <td width="60%">
-The client requested the SecurityAnonymous impersonation level. However, an anonymous token cannot be opened. For more information, see <a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>. 
+The client requested the SecurityAnonymous impersonation level. However, an anonymous token cannot be opened. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>. 
 
 </td>
 </tr>
@@ -206,7 +193,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
@@ -214,11 +200,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntifs\nf-ntifs-zwopenprocesstokenex.md">ZwOpenProcessTokenEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psdereferenceprimarytoken.md">PsDereferencePrimaryToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551896">PsDereferencePrimaryToken</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 
@@ -226,16 +216,12 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567024">ZwOpenProcessTokenEx</a>
  
 
  
-
 

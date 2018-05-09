@@ -7,7 +7,7 @@ old-location: stream\kstrintersecthandler.htm
 old-project: stream
 ms.assetid: ec4ca8b0-5386-4a03-8cf8-46852c168732
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrIntersectHandler, KStrIntersectHandler routine [Streaming Media Devices], PFNKSINTERSECTHANDLER, ks/KStrIntersectHandler, ksfunc_25fa087e-9d66-4479-aa4c-632a63ee6779.xml, stream.kstrintersecthandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,34 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	KStrIntersectHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSINTERSECTHANDLER callback
+# PFNKSINTERSECTHANDLER callback function
 
 
 ## -description
 
 
 A streaming minidriver's <i>KStrIntersectHandler</i> routine is called to compare a data range to determine if there is an intersection, and if so, the data format of the intersection.
-
-
-## -prototype
-
-
-````
-PFNKSINTERSECTHANDLER KStrIntersectHandler;
-
-NTSTATUS KStrIntersectHandler(
-  _In_      PIRP         Irp,
-  _In_      PKSP_PIN     Pin,
-  _In_      PKSDATARANGE DataRange,
-  _Out_opt_ PVOID        Data
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,12 +130,11 @@ If there is no intersection.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspindataintersection.md">KsPinDataIntersection</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563496">KsPinDataIntersection</a>
  
 
  
-
 

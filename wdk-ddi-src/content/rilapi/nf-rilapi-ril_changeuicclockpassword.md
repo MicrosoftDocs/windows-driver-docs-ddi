@@ -7,7 +7,7 @@ old-location: netvista\ril_changeuicclockpassword.htm
 old-project: netvista
 ms.assetid: 85f401bb-b8bd-4bb9-9953-08945ffc4d8b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_ChangeUiccLockPassword, RIL_ChangeUiccLockPassword method [Network Drivers Starting with Windows Vista], netvista.ril_changeuicclockpassword, rilapi/RIL_ChangeUiccLockPassword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_ChangeUiccLockPassword
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_ChangeUiccLockPassword function
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_ChangeUiccLockPassword(
-   HRIL                         hRil,
-   LPVOID                       lpContext,
-   const RILUICCLOCKCREDENTIAL  lpLockCredential,
-   LPCSTR                       lpszNewPassword
-);
-````
 
 
 ## -parameters

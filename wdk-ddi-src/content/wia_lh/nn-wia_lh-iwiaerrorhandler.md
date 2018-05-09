@@ -7,8 +7,8 @@ old-location: image\iwiaerrorhandler_interface.htm
 old-project: image
 ms.assetid: b441fbca-75fe-4b9d-a9d5-2ad5a4a55801
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaErrorHandler, IWiaErrorHandler interface [Imaging Devices], IWiaErrorHandler interface [Imaging Devices], described, IWiaErrorHandler_0a501695-14b7-4aab-aee8-19ce74caea94.xml, image.iwiaerrorhandler_interface, wia_lh/IWiaErrorHandler
+ms.date: 4/23/2018
+ms.keywords: IWiaErrorHandler, IWiaErrorHandler interface [Imaging Devices], IWiaErrorHandler interface [Imaging Devices],described, IWiaErrorHandler_0a501695-14b7-4aab-aee8-19ce74caea94.xml, image.iwiaerrorhandler_interface, wia_lh/IWiaErrorHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	wia_lh.h
 api_name:
 -	IWiaErrorHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWiaErrorHandler interface

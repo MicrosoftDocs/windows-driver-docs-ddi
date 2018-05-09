@@ -7,7 +7,7 @@ old-location: display\d3dkmtsubmitsignalsyncobjectstohwqueue.htm
 old-project: display
 ms.assetid: DA0D44AF-168F-4B9B-B184-1DC8C3477CBC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTSubmitSignalSyncObjectsToHwQueue, D3DKMTSubmitSignalSyncObjectsToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitSignalSyncObjectsToHwQueue, display.d3dkmtsubmitsignalsyncobjectstohwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	tbd
 api_name:
 -	D3DKMTSubmitSignalSyncObjectsToHwQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTSubmitSignalSyncObjectsToHwQueue function
@@ -50,16 +51,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 Used to submit a signal to the hardware queue.
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTSubmitSignalSyncObjectsToHwQueue(
-  _In_ const D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE *submitWaitForSyncObjectsToHwQueue
-);
-````
 
 
 ## -parameters

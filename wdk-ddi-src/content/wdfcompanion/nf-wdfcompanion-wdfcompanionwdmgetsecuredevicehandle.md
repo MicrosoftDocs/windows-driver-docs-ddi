@@ -38,10 +38,10 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	WdfCompanionWdmGetSecureDeviceHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfCompanionWdmGetSecureDeviceHandle function
@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-HANDLE WdfCompanionWdmGetSecureDeviceHandle(
-  _In_ WDFCOMPANION Companion
-);
-````
 
 
 ## -parameters

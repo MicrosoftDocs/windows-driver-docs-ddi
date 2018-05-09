@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlisansicharacterlegalhpfs.htm
 old-project: ifsk
 ms.assetid: 7c7e79ff-badf-4f5b-bab6-5b9fa1656e23
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlIsAnsiCharacterLegalHpfs, FsRtlIsAnsiCharacterLegalHpfs function [Installable File System Drivers], fsrtlref_063585f7-66ed-427f-aaea-c19d9d10fb5c.xml, ifsk.fsrtlisansicharacterlegalhpfs, ntifs/FsRtlIsAnsiCharacterLegalHpfs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlIsAnsiCharacterLegalHpfs
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlIsAnsiCharacterLegalHpfs macro
@@ -50,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlIsAnsiCharacterLegalHpfs</b> macro determines whether an ANSI character is legal for HPFS file names.
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsAnsiCharacterLegalHpfs(
-   PSCHAR  *Character,
-   BOOLEAN WildCardsPermissible
-);
-````
 
 
 ## -parameters
@@ -103,20 +93,19 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalntfs.md">FsRtlIsAnsiCharacterLegalNtfs</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546731">FsRtlIsAnsiCharacterLegal</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalfat.md">FsRtlIsAnsiCharacterLegalFat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546735">FsRtlIsAnsiCharacterLegalFat</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546768">FsRtlIsAnsiCharacterLegalNtfs</a>
  
 
  
-
 

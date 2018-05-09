@@ -7,7 +7,7 @@ old-location: ifsk\ioissystemthread.htm
 old-project: ifsk
 ms.assetid: 1f3dc15f-14b5-4797-83be-ba3a01a1551b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: IoIsSystemThread, IoIsSystemThread routine [Installable File System Drivers], ifsk.ioissystemthread, ioref_3e14f3af-c985-43a4-bc57-927483597c79.xml, ntifs/IoIsSystemThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoIsSystemThread
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoIsSystemThread function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>IoIsSystemThread</b> routine checks whether a given thread is a system thread. 
-
-
-## -syntax
-
-
-````
-BOOLEAN IoIsSystemThread(
-  _In_ PETHREAD Thread
-);
-````
 
 
 ## -parameters
@@ -92,16 +83,15 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559945">PsIsSystemThread</a>
  
 
  
-
 

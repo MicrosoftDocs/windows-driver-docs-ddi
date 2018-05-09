@@ -7,7 +7,7 @@ old-location: netvista\riluiccresponse.htm
 old-project: netvista
 ms.assetid: c584e508-b0f1-4809-808e-089e9a7fbcf9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILUICCRESPONSE, RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.riluiccresponse, ntddrilapitypes/RILUICCRESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCRESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCRESPONSE, *LPRILUICCRESPONSE
 ---
@@ -50,21 +51,6 @@ req.typenames: RILUICCRESPONSE, *LPRILUICCRESPONSE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCRESPONSE {
-  DWORD    cbSize;
-  DWORD    dwParams;
-  DWORD    dwStatusWord1;
-  DWORD    dwStatusWord2;
-  DWORD    dwResponseSize;
-  BYTE [1] pbResponse;
-} RILUICCRESPONSE, RILUICCRESPONSE;
-````
 
 
 ## -struct-fields

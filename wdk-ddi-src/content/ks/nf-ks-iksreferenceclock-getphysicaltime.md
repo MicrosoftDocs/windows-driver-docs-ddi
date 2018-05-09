@@ -1,14 +1,14 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetPhysicalTime
-title: IKsReferenceClock::GetPhysicalTime method
+title: IKsReferenceClock::GetPhysicalTime
 author: windows-driver-content
 description: The IKsReferenceClock::GetPhysicalTime method queries the associated reference clock for the current physical time.
 old-location: stream\iksreferenceclock_getphysicaltime.htm
 old-project: stream
 ms.assetid: 96c8d5ef-e9ab-40a6-88e1-56efdb7157b7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: GetPhysicalTime method [Streaming Media Devices], GetPhysicalTime method [Streaming Media Devices], IKsReferenceClock interface, GetPhysicalTime,IKsReferenceClock.GetPhysicalTime, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetPhysicalTime method, IKsReferenceClock::GetPhysicalTime, avintfc_a80ef73b-383a-48b2-b3ea-49e5469c7bca.xml, ks/IKsReferenceClock::GetPhysicalTime, stream.iksreferenceclock_getphysicaltime
+ms.date: 4/23/2018
+ms.keywords: GetPhysicalTime, GetPhysicalTime method [Streaming Media Devices], GetPhysicalTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetPhysicalTime method, IKsReferenceClock.GetPhysicalTime, IKsReferenceClock::GetPhysicalTime, avintfc_a80ef73b-383a-48b2-b3ea-49e5469c7bca.xml, ks/IKsReferenceClock::GetPhysicalTime, stream.iksreferenceclock_getphysicaltime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	IKsReferenceClock.GetPhysicalTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
 
-# IKsReferenceClock::GetPhysicalTime method
+# IKsReferenceClock::GetPhysicalTime
 
 
 ## -description
 
 
 The <b>IKsReferenceClock::GetPhysicalTime</b> method queries the associated reference clock for the current physical time.
-
-
-## -syntax
-
-
-````
-LONGLONG GetPhysicalTime();
-````
 
 
 ## -parameters
@@ -95,12 +88,11 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563517">KsPinGetReferenceClockInterface</a>
  
 
  
-
 

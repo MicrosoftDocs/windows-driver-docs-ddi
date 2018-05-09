@@ -7,7 +7,7 @@ old-location: stream\kscamera_extendedprop_roi_info.htm
 old-project: stream
 ms.assetid: DAE013B7-7715-4B03-99F7-807306736C14
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_INFO, KSCAMERA_EXTENDEDPROP_ROI_INFO, KSCAMERA_EXTENDEDPROP_ROI_INFO structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_INFO, PKSCAMERA_EXTENDEDPROP_ROI_INFO structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_INFO, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_INFO, stream.kscamera_extendedprop_roi_info, tagKSCAMERA_EXTENDEDPROP_ROI_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_ROI_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROI_INFO, *PKSCAMERA_EXTENDEDPROP_ROI_INFO
 ---
@@ -50,19 +51,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROI_INFO, *PKSCAMERA_EXTENDEDPROP_ROI_INFO
 
 
 This structure contains information about an ROI.
-
-
-## -syntax
-
-
-````
-typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_INFO {
-  RECT      Region;
-  ULONGLONG Flags;
-  LONG      Weight;
-  LONG      RegionOfInterestType;
-} KSCAMERA_EXTENDEDPROP_ROI_INFO, *PKSCAMERA_EXTENDEDPROP_ROI_INFO;
-````
 
 
 ## -struct-fields
@@ -87,5 +75,5 @@ This is the weight of the region (0-100).
 
 ### -field RegionOfInterestType
 
-If the region is a face, this value is KSCAMERA_EXTENDEDPROP_ROITYPE_FACE. If the region is anything other than face, this value is KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN. For more information, see the <a href="..\ksmedia\ne-ksmedia-kscamera_extendedprop_roitype.md">KSCAMERA_EXTENDEDPROP_ROITYPE</a> enumeration.
+If the region is a face, this value is KSCAMERA_EXTENDEDPROP_ROITYPE_FACE. If the region is anything other than face, this value is KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925151">KSCAMERA_EXTENDEDPROP_ROITYPE</a> enumeration.
 

@@ -7,7 +7,7 @@ old-location: stream\ksmethodhandler.htm
 old-project: stream
 ms.assetid: 730b5fae-3536-44ed-8f92-e4563a137be9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsMethodHandler, KsMethodHandler function [Streaming Media Devices], ks/KsMethodHandler, ksfunc_1f1959ed-e370-4ebb-9932-435c448a944b.xml, stream.ksmethodhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsMethodHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsMethodHandler</b> function handles methods requested through IOCTL_KS_METHOD. It works with all method identifiers defined by the sets. The function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsMethodHandler(
-  _In_       PIRP         Irp,
-  _In_       ULONG        MethodSetsCount,
-  _In_ const KSMETHOD_SET *MethodSet
-);
-````
 
 
 ## -parameters
@@ -105,16 +94,15 @@ The owner of a method set can perform prefiltering or postfiltering of the metho
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>
 
 
 
-<a href="..\ks\nf-ks-ksfastmethodhandler.md">KsFastMethodHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561940">KsFastMethodHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563401">KsMethodHandlerWithAllocator</a>
  
 
  
-
 

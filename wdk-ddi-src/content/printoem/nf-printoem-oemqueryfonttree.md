@@ -7,7 +7,7 @@ old-location: print\oemqueryfonttree.htm
 old-project: print
 ms.assetid: e2e30707-dffd-4990-a552-b67a7d9e2ca4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMQueryFontTree, OEMQueryFontTree function [Print Devices], print.oemqueryfonttree, print_unidrv-pscript_rendering_f069b851-3104-4cca-8902-d844350a719e.xml, printoem/OEMQueryFontTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMQueryFontTree
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMQueryFontTree function
@@ -61,20 +61,6 @@ A mapping of kerning pairs to kerning handles
 
 </li>
 </ul>
-
-## -syntax
-
-
-````
-PVOID APIENTRY OEMQueryFontTree(
-   DHPDEV    dhpdev,
-   ULONG_PTR iFile,
-   ULONG     iFace,
-   ULONG     iMode,
-   ULONG_PTR *pid
-);
-````
-
 
 ## -parameters
 

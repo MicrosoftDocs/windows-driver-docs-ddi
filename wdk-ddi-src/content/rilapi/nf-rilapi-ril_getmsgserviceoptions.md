@@ -7,7 +7,7 @@ old-location: netvista\ril_getmsgserviceoptions.htm
 old-project: netvista
 ms.assetid: 53e8be7b-dad2-4060-99b1-eca7b7fdb8ff
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetMsgServiceOptions, RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista], netvista.ril_getmsgserviceoptions, rilapi/RIL_GetMsgServiceOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_GetMsgServiceOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetMsgServiceOptions function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_GetMsgServiceOptions(
-   HRIL     hRil,
-   LPVOID   lpContext,
-   HUICCAPP hUiccApp
-);
-````
 
 
 ## -parameters

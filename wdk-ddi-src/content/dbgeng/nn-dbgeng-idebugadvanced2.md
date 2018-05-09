@@ -7,8 +7,8 @@ old-location: debugger\idebugadvanced2.htm
 old-project: debugger
 ms.assetid: 9b5f73db-1fb8-4e07-8053-67cb5020505e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], IDebugAdvanced2 interface [Windows Debugging], described, dbgeng/IDebugAdvanced2, debugger.idebugadvanced2
+ms.date: 4/24/2018
+ms.keywords: IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], IDebugAdvanced2 interface [Windows Debugging],described, dbgeng/IDebugAdvanced2, debugger.idebugadvanced2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugAdvanced2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugAdvanced2 interface
@@ -53,7 +54,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugAdvanced2</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>. <b>IDebugAdvanced2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugAdvanced2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff549798">IDebugAdvanced</a>. <b>IDebugAdvanced2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -116,16 +117,15 @@ Performs a variety of different operations.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549798">IDebugAdvanced</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549807">IDebugAdvanced3</a>
  
 
  
-
 

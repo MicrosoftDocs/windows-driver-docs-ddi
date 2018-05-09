@@ -7,7 +7,7 @@ old-location: image\wiasreadpropfloat.htm
 old-project: image
 ms.assetid: 042ef9d9-a980-41eb-a396-e03658ea072a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasreadpropfloat, wiamdef/wiasReadPropFloat, wiasFncs_9b143e96-64a5-4de3-b40d-c542bc440dc0.xml, wiasReadPropFloat, wiasReadPropFloat function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasReadPropFloat
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasReadPropFloat function
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasReadPropFloat </b>function retrieves a floating-point property value from a WIA item.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasReadPropFloat(
-  _In_      BYTE   *pWiasContext,
-            PROPID propid,
-  _Out_     FLOAT  *pfVal,
-  _Out_opt_ FLOAT  *pfValOld,
-            BOOL   bMustExist
-);
-````
 
 
 ## -parameters
@@ -108,28 +94,27 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549308">wiasReadPropBin</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549325">wiasReadPropGuid</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropfloat.md">wiasWritePropFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549330">wiasReadPropLong</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549341">wiasReadPropStr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549507">wiasWritePropFloat</a>
  
 
  
-
 

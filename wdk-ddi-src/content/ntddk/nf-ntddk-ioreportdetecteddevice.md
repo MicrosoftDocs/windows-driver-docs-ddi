@@ -7,7 +7,7 @@ old-location: kernel\ioreportdetecteddevice.htm
 old-project: kernel
 ms.assetid: b7756f69-feab-4a28-88d5-0262f86db54b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoReportDetectedDevice, IoReportDetectedDevice routine [Kernel-Mode Driver Architecture], k104_b906486e-318a-49b5-aa6a-683c1889c10b.xml, kernel.ioreportdetecteddevice, ntddk/IoReportDetectedDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoReportDetectedDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoReportDetectedDevice function
@@ -50,23 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoReportDetectedDevice</b> routine reports a non-PnP device to the PnP manager.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoReportDetectedDevice(
-  _In_     PDRIVER_OBJECT                 DriverObject,
-  _In_     INTERFACE_TYPE                 LegacyBusType,
-  _In_     ULONG                          BusNumber,
-  _In_     ULONG                          SlotNumber,
-  _In_opt_ PCM_RESOURCE_LIST              ResourceList,
-  _In_opt_ PIO_RESOURCE_REQUIREMENTS_LIST ResourceRequirements,
-  _In_     BOOLEAN                        ResourceAssigned,
-  _Inout_  PDEVICE_OBJECT                 *DeviceObject
-);
-````
 
 
 ## -parameters
@@ -112,7 +96,7 @@ Optionally points to a resource requirements list for the detected device. <b>NU
 
 ### -param ResourceAssigned [in]
 
-Specifies whether the device's resources have already been reported to the PnP manager. If <i>ResourceAssigned</i> is <b>TRUE</b>, the resources have already been reported, possibly with <a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>, and the PnP manager will not attempt to claim them on behalf of the device. If <b>TRUE</b>, the PnP manager will also not claim resources when the device is root-enumerated on subsequent boots.
+Specifies whether the device's resources have already been reported to the PnP manager. If <i>ResourceAssigned</i> is <b>TRUE</b>, the resources have already been reported, possibly with <a href="https://msdn.microsoft.com/library/windows/hardware/ff549608">IoReportResourceForDetection</a>, and the PnP manager will not attempt to claim them on behalf of the device. If <b>TRUE</b>, the PnP manager will also not claim resources when the device is root-enumerated on subsequent boots.
 
 
 ### -param DeviceObject [in, out]
@@ -141,7 +125,7 @@ Drivers for legacy devices use <b>IoReportDetectedDevice</b> to report their dev
 
 Drivers only need to call <b>IoReportDetectedDevice</b> the first time they are loaded because the PnP manager caches the reported information. Drivers that use this routine should store a flag in the registry to indicate whether they have already done device detection.
 
-A driver typically calls this routine from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. A few drivers, like certain NDIS or EISA drivers, might call this routine from an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
+A driver typically calls this routine from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. A few drivers, like certain NDIS or EISA drivers, might call this routine from an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
 
 On successful completion of <b>IoReportDetectedDevice</b>, the caller should attach an FDO to the PDO returned at <i>DeviceObject</i>. Once the caller attaches its FDO, the caller is the function driver for the device, at least temporarily. There are no filter drivers. The PnP manager owns the PDO.
 
@@ -149,7 +133,7 @@ The PnP manager considers the device to be started and therefore does not call t
 
 <b>IoReportDetectedDevice</b> marks the device as a root-enumerated device and this identification is persistent across system boots. During subsequent system boots the PnP manager "detects" the device on the root-enumerated list and configures it like a PnP device: the PnP manager queries for device information, identifies the appropriate drivers and calls their <i>AddDevice</i> routines, and sends all the appropriate PnP IRPs.
 
-The system generates two compatible ID strings for the device, of the form DETECTED<i>Interface</i>\<i>Driver</i> and DETECTED\<i>Driver</i>. <i>Interface</i> is the string name of the <a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a> of the first bus specified in the <i>ResourceList</i> parameter. <i>Interface</i> is set to "Internal" if no bus is specified. <i>Driver</i> is the driver's service name. A driver can provide additional hardware IDs or compatible IDs by handling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551679">IRP_MN_QUERY_ID</a> request.
+The system generates two compatible ID strings for the device, of the form DETECTED<i>Interface</i>\<i>Driver</i> and DETECTED\<i>Driver</i>. <i>Interface</i> is the string name of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547839">INTERFACE_TYPE</a> of the first bus specified in the <i>ResourceList</i> parameter. <i>Interface</i> is set to "Internal" if no bus is specified. <i>Driver</i> is the driver's service name. A driver can provide additional hardware IDs or compatible IDs by handling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551679">IRP_MN_QUERY_ID</a> request.
 
 A driver writer must provide an INF file that matches any of the specified hardware IDs or compatible IDs. The INF file should specify the original driver that called <b>IoReportDetectedDevice</b> as the driver to load for those IDs. The system uses this information to rebuild the driver stack for the device, for example on restart. Callers of <b>IoReportDetectedDevice</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
@@ -158,16 +142,15 @@ A driver writer must provide an INF file that matches any of the specified hardw
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549608">IoReportResourceForDetection</a>
  
 
  
-
 

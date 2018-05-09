@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	SET_LOCAL_HOST_PROPS2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SET_LOCAL_HOST_PROPS2, *PSET_LOCAL_HOST_PROPS2
 ---
@@ -50,16 +51,6 @@ req.typenames: SET_LOCAL_HOST_PROPS2, *PSET_LOCAL_HOST_PROPS2
 
 
 SET_LOCAL_HOST_PROPS2 sets a lower bound on the value the bus will use for its gap count. 
-
-
-## -syntax
-
-
-````
-typedef struct _SET_LOCAL_HOST_PROPS2 {
-  ULONG GapCountLowerBound;
-} SET_LOCAL_HOST_PROPS2, *PSET_LOCAL_HOST_PROPS2;
-````
 
 
 ## -struct-fields
@@ -83,12 +74,11 @@ See the <a href="http://go.microsoft.com/fwlink/p/?linkid=8729">IEEE 1394 Trade 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537663">REQUEST_SET_LOCAL_HOST_PROPERTIES</a>
-
-
-
  
 
  
-
 

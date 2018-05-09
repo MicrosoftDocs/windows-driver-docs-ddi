@@ -7,7 +7,7 @@ old-location: bltooth\sdp_node.htm
 old-project: bltooth
 ms.assetid: 11d603e9-6db1-44a2-b4e3-d85ffe0d5c25
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PSDP_NODE, PSDP_NODE, PSDP_NODE structure pointer [Bluetooth Devices], SDP_NODE, SDP_NODE structure [Bluetooth Devices], _SDP_NODE, bltooth.sdp_node, bth_structs_30367149-bffb-4ff9-a6d8-2f73c5198874.xml, sdpnode/PSDP_NODE, sdpnode/SDP_NODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= PASSIVE_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	sdpnode.h
 api_name:
 -	SDP_NODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SDP_NODE, *PSDP_NODE
-req.product: Windows 10 or later.
 ---
 
 # _SDP_NODE structure
@@ -54,19 +54,6 @@ The SDP_NODE structure holds information about an element in a tree-based repres
   record.
 
 
-## -syntax
-
-
-````
-typedef struct _SDP_NODE {
-  SDP_NODE_HEADER hdr;
-  ULONG           DataSize;
-  SDP_NODE_DATA   u;
-  PVOID           Reserved;
-} SDP_NODE, *PSDP_NODE;
-````
-
-
 ## -struct-fields
 
 
@@ -75,14 +62,14 @@ typedef struct _SDP_NODE {
 ### -field hdr
 
 An 
-     <a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a> structure that contains
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536850">SDP_NODE_HEADER</a> structure that contains
      links to peer SDP_NODE structures and the data type of the current node.
 
 
 ### -field DataSize
 
 The size, in bytes, of the 
-     <a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a> union held in the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a> union held in the 
      <b>u</b> member.
 
 
@@ -119,11 +106,6 @@ The header specifies the type of data. Driver developers can access links to pee
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
-
-
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_header.md">SDP_NODE_HEADER</a>
 
 
 
@@ -131,8 +113,12 @@ The header specifies the type of data. Driver developers can access links to pee
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536850">SDP_NODE_HEADER</a>
  
 
  
-
 

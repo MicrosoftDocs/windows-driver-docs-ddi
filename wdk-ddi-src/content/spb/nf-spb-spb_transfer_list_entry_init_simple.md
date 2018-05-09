@@ -7,7 +7,7 @@ old-location: spb\spb_transfer_list_entry_init_simple.htm
 old-project: SPB
 ms.assetid: 38F50F76-5D14-47CE-A211-3FC4F1399A74
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spb_transfer_list_entry_init_simple, SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE, SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Spb.h
 api_name:
 -	SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE function
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE</b> function returns an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a> structure that is initialized to describe a simple data buffer.
 
 
-
-
-## -syntax
-
-
-````
-SPB_TRANSFER_LIST_ENTRY SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE(
-  _In_ SPB_TRANSFER_DIRECTION Direction,
-  _In_ ULONG                  DelayInUs,
-  _In_ PVOID                  Buffer,
-  _In_ ULONG                  BufferCb
-);
-````
 
 
 ## -parameters
@@ -116,11 +103,10 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406216">SPB_TRANSFER_BUFFER_FORMAT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
 
 
 
@@ -128,8 +114,8 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: image\sti_error_info.htm
 old-project: image
 ms.assetid: e448ddfc-ae5a-4eb8-a39c-e46771278081
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSTI_ERROR_INFO, *PSTI_ERROR_INFOW, PSTI_ERROR_INFO, PSTI_ERROR_INFO structure pointer [Imaging Devices], STI_ERROR_INFO, STI_ERROR_INFO structure [Imaging Devices], STI_ERROR_INFOW, _ERROR_INFOW, image.sti_error_info, sti/PSTI_ERROR_INFO, sti/STI_ERROR_INFO, stifnc_c4e51568-9e80-4866-9258-72a8fcbd242d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	sti.h
 api_name:
 -	STI_ERROR_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_ERROR_INFOW, *PSTI_ERROR_INFOW
-req.product: Windows 10 or later.
 ---
 
 # _ERROR_INFOW structure
@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The STI_ERROR_INFO structure is used as a parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543749">IStiDevice::GetLastErrorInfo</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543820">IStiUSD::GetLastErrorInfo</a> methods. It is also used as a member of the <a href="..\sti\ns-sti-_sti_diag.md">STI_DIAG</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _ERROR_INFO {
-  DWORD dwSize;
-  DWORD dwGenericError;
-  DWORD dwVendorError;
-  WCHAR szExtendedErrorText[255];
-} STI_ERROR_INFO, *PSTI_ERROR_INFO;
-````
+The STI_ERROR_INFO structure is used as a parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543749">IStiDevice::GetLastErrorInfo</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543820">IStiUSD::GetLastErrorInfo</a> methods. It is also used as a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548383">STI_DIAG</a> structure.
 
 
 ## -struct-fields

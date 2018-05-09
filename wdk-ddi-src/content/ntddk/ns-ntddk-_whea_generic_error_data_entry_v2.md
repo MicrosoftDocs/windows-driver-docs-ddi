@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_GENERIC_ERROR_DATA_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_GENERIC_ERROR_DATA_ENTRY_V2, *PWHEA_GENERIC_ERROR_DATA_ENTRY_V2, WHEA_GENERIC_ERROR_DATA_ENTRY, *PWHEA_GENERIC_ERROR_DATA_ENTRY
 ---
@@ -50,24 +51,6 @@ req.typenames: WHEA_GENERIC_ERROR_DATA_ENTRY_V2, *PWHEA_GENERIC_ERROR_DATA_ENTRY
 
 
 The WHEA_GENERIC_ERROR_DATA_ENTRY structure describes an error data section in a generic error status block.
-
-
-## -syntax
-
-
-````
-typedef struct _WHEA_GENERIC_ERROR_DATA_ENTRY {
-  GUID                SectionType;
-  WHEA_ERROR_SEVERITY ErrorSeverity;
-  WHEA_REVISION       Revision;
-  UCHAR               ValidBits;
-  UCHAR               Flags;
-  ULONG               ErrorDataLength;
-  GUID                FRUId;
-  UCHAR               FRUText[20];
-  UCHAR               Data[1];
-} WHEA_GENERIC_ERROR_DATA_ENTRY, *PWHEA_GENERIC_ERROR_DATA_ENTRY;
-````
 
 
 ## -struct-fields
@@ -91,13 +74,13 @@ The error data section contains the hardware error packet that was passed to the
 
 #### PROCESSOR_GENERIC_ERROR_SECTION_GUID
 
-The error data section contains processor error data that is not specific to a particular processor architecture. This data is described by a <a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a> structure.
+The error data section contains processor error data that is not specific to a particular processor architecture. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560607">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a> structure.
 
 
 
 #### FIRMWARE_ERROR_RECORD_REFERENCE_GUID
 
-The error data section contains a reference to a firmware error record that is specific to the Itanium processor architecture. This data is described by a <a href="..\ntddk\ns-ntddk-_whea_firmware_error_record_reference.md">WHEA_FIRMWARE_ERROR_RECORD_REFERENCE</a> structure.
+The error data section contains a reference to a firmware error record that is specific to the Itanium processor architecture. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560520">WHEA_FIRMWARE_ERROR_RECORD_REFERENCE</a> structure.
 
 
 
@@ -109,45 +92,45 @@ The error data section contains processor error data that is specific to the Ita
 
 #### MEMORY_ERROR_SECTION_GUID
 
-The error data section contains platform memory error data. This data is described by a <a href="..\ntddk\ns-ntddk-_whea_memory_error_section.md">WHEA_MEMORY_ERROR_SECTION</a> structure.
+The error data section contains platform memory error data. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560565">WHEA_MEMORY_ERROR_SECTION</a> structure.
 
 
 
 #### NMI_SECTION_GUID
 
-The error data section contains nonmaskable interrupt (NMI) error data. This data is described by a <a href="..\ntddk\ns-ntddk-_whea_nmi_error_section.md">WHEA_NMI_ERROR_SECTION</a> structure.
+The error data section contains nonmaskable interrupt (NMI) error data. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560571">WHEA_NMI_ERROR_SECTION</a> structure.
 
 
 
 #### PCIEXPRESS_ERROR_SECTION_GUID
 
-The error data section contains PCI Express (PCIe) error data. This data is described by a <a href="..\ntddk\ns-ntddk-_whea_pciexpress_error_section.md">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure.
+The error data section contains PCI Express (PCIe) error data. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560576">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure.
 
 
 
 #### PCIXBUS_ERROR_SECTION_GUID
 
-The error data section contains PCI/PCI-X bus error data. This data is described by a <a href="..\ntddk\ns-ntddk-_whea_pcixbus_error_section.md">WHEA_PCIXBUS_ERROR_SECTION</a> structure.
+The error data section contains PCI/PCI-X bus error data. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560583">WHEA_PCIXBUS_ERROR_SECTION</a> structure.
 
-The error data section contains PCI/PCI-X device error data. This data is described by a <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure.
+The error data section contains PCI/PCI-X device error data. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560589">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure.
 
 
 
 #### XPF_PROCESSOR_ERROR_SECTION_GUID
 
-The error data section contains processor error data that is specific to the x86 or x64 processor architecture. This data is described by a <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure.
+The error data section contains processor error data that is specific to the x86 or x64 processor architecture. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560655">WHEA_XPF_PROCESSOR_ERROR_SECTION</a> structure.
 
 For error data sections that do not conform to one of the standard section types, this member contains a platform-specific GUID that identifies the type of error data that is contained in the error data section. If a platform-specific GUID is not defined for the type of error data that is contained in the error data section, this member contains GENERIC_SECTION_GUID.
 
 
 ### -field ErrorSeverity
 
-A <a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>-typed value that indicates the severity of the error condition that is described by the error data section.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560503">WHEA_ERROR_SEVERITY</a>-typed value that indicates the severity of the error condition that is described by the error data section.
 
 
 ### -field Revision
 
-A <a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a> union that describes the revision level of the WHEA_GENERIC_ERROR_DATA_ENTRY structure.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560623">WHEA_REVISION</a> union that describes the revision level of the WHEA_GENERIC_ERROR_DATA_ENTRY structure.
 
 
 ### -field ValidBits
@@ -243,23 +226,22 @@ A variable-sized buffer that contains the error data for the error data section.
 
 A generic error status block can contain one or more WHEA_GENERIC_ERROR_DATA_ENTRY structures. Each WHEA_GENERIC_ERROR_DATA_ENTRY structure describes a section of error information that is part of the error status data for a generic error source.
 
-The <b>Data</b> member of the <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a> structure contains a generic error status block that contains the WHEA_GENERIC_ERROR_DATA_ENTRY structures. The number of WHEA_GENERIC_ERROR_DATA_ENTRY structures that are included in the generic error status block is specified by the <b>ErrorDataEntryCount</b> member of the <a href="..\ntddk\ns-ntddk-_whea_generic_error_blockstatus.md">WHEA_GENERIC_ERROR_BLOCKSTATUS</a> union.
+The <b>Data</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a> structure contains a generic error status block that contains the WHEA_GENERIC_ERROR_DATA_ENTRY structures. The number of WHEA_GENERIC_ERROR_DATA_ENTRY structures that are included in the generic error status block is specified by the <b>ErrorDataEntryCount</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560525">WHEA_GENERIC_ERROR_BLOCKSTATUS</a> union.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error_blockstatus.md">WHEA_GENERIC_ERROR_BLOCKSTATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560525">WHEA_GENERIC_ERROR_BLOCKSTATUS</a>
  
 
  
-
 

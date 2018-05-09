@@ -7,7 +7,7 @@ old-location: ifsk\ccpreparepinwrite.htm
 old-project: ifsk
 ms.assetid: 1645c7e9-5ae7-41d1-92db-1f069f79ac81
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: CcPreparePinWrite, CcPreparePinWrite routine [Installable File System Drivers], ccref_00b887b5-cd87-44be-b96e-6be96df13a2b.xml, ifsk.ccpreparepinwrite, ntifs/CcPreparePinWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcPreparePinWrite
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcPreparePinWrite function
@@ -50,22 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>CcPreparePinWrite</b> routine pins the specified byte range of a cached file for write access.
-
-
-## -syntax
-
-
-````
-BOOLEAN CcPreparePinWrite(
-  _In_  PFILE_OBJECT   FileObject,
-  _In_  PLARGE_INTEGER FileOffset,
-  _In_  ULONG          Length,
-  _In_  BOOLEAN        Zero,
-  _In_  ULONG          Flags,
-  _Out_ PVOID          *Bcb,
-  _Out_ PVOID          *Buffer
-);
-````
 
 
 ## -parameters
@@ -158,7 +143,7 @@ The caller is responsible for  keeping track of dirty pages. If this flag is set
 
 ### -param Bcb [out]
 
-Opaque pointer to a pinned buffer control block (BCB). This pointer must be supplied as input on any subsequent calls to <b>CcPreparePinWrite</b> or <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a> for this buffer.
+Opaque pointer to a pinned buffer control block (BCB). This pointer must be supplied as input on any subsequent calls to <b>CcPreparePinWrite</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a> for this buffer.
 
 
 ### -param Buffer [out]
@@ -183,17 +168,17 @@ Returns pointer to desired data, valid until the buffer is unpinned or freed.
 
 If the PIN_WAIT flag is set, <b>CcPreparePinWrite</b> is guaranteed to complete the preparation request and return <b>TRUE</b>. If all of the pages can be prepared immediately, no blocking occurs. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the pages can be prepared. If the PIN_WAIT flag is not set, but not all of the pages can be prepared immediately, <b>CcPreparePinWrite</b> returns <b>FALSE</b>, and its output parameter values are meaningless.
 
-<b>Microsoft Windows Server 2003 SP1 and later:</b> The PIN_CALLER_TRACKS_DIRTY_DATA flag is commonly used in cases where a file system is managing a log file that is written to but not read from. Because the existing file data will be overwritten and not read, the cache manager may return pages of zeros instead of faulting in the actual pages of file data from disk. If this flag is set, the cache manager does not keep track of dirty pages. The caller is responsible for keeping track of any dirty pages. Note that <b>CcPreparePinWrite</b> should only be used to pin data in this manner if the buffer will eventually be flushed to disk. Before calling <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a> to flush the buffer to disk, the caller must first call <a href="..\ntifs\nf-ntifs-mmsetaddressrangemodified.md">MmSetAddressRangeModified</a> to notify the memory manager that the specified pages in the system cache buffer are dirty and should be written. 
+<b>Microsoft Windows Server 2003 SP1 and later:</b> The PIN_CALLER_TRACKS_DIRTY_DATA flag is commonly used in cases where a file system is managing a log file that is written to but not read from. Because the existing file data will be overwritten and not read, the cache manager may return pages of zeros instead of faulting in the actual pages of file data from disk. If this flag is set, the cache manager does not keep track of dirty pages. The caller is responsible for keeping track of any dirty pages. Note that <b>CcPreparePinWrite</b> should only be used to pin data in this manner if the buffer will eventually be flushed to disk. Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a> to flush the buffer to disk, the caller must first call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549828">MmSetAddressRangeModified</a> to notify the memory manager that the specified pages in the system cache buffer are dirty and should be written. 
 
-Every successful call to <b>CcPreparePinWrite</b> must be matched by a subsequent call to <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>. If <b>CcPreparePinWrite</b> is called multiple times for the same data, <b>CcUnpinData</b> must be called the same number of times. 
+Every successful call to <b>CcPreparePinWrite</b> must be matched by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>. If <b>CcPreparePinWrite</b> is called multiple times for the same data, <b>CcUnpinData</b> must be called the same number of times. 
 
-The pointer returned in <i>Buffer</i> is valid until <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a> is called. If <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a> is called while this pointer is still valid, the pointer remains valid after the call to <b>CcPinMappedData</b> (but only until <b>CcUnpinData</b> is called).
+The pointer returned in <i>Buffer</i> is valid until <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a> is called. If <a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a> is called while this pointer is still valid, the pointer remains valid after the call to <b>CcPinMappedData</b> (but only until <b>CcUnpinData</b> is called).
 
 <b>CcPreparePinWrite</b> cannot pin data across view boundaries in the cache manager. The cache manager manages files in the system in 256 KB-aligned views. (The cache manager's view size is specified by the system-defined constant VACB_MAPPING_GRANULARITY, which is set to 256 KB in ntifs.h.) Pinned regions cannot span more than one 256 KB view. Therefore, the largest region that can be pinned is 256 KB, beginning at a 256 KB-aligned offset in the file. 
 
 Pinning a byte range in a cached file does not ensure that the pages remain resident in memory. As long as the pages are pinned, the byte range is guaranteed to stay mapped into the system cache virtual address space, but the memory manager can page out the physical pages as the system's memory demand requires. 
 
-It is not necessary to call <a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a> after calling <b>CcPreparePinWrite</b>. If <b>CcPreparePinWrite</b> returns <b>TRUE</b>, the BCB is already marked as dirty. 
+It is not necessary to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a> after calling <b>CcPreparePinWrite</b>. If <b>CcPreparePinWrite</b> returns <b>TRUE</b>, the BCB is already marked as dirty. 
 
 If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcPreparePinWrite</b> raises a STATUS_INSUFFICIENT_RESOURCES exception; if an I/O error occurs, <b>CcPreparePinWrite</b> raises the status exception of the I/O error. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcPreparePinWrite</b> in a <b>try-except</b> or <b>try-finally</b> statement. 
 
@@ -202,36 +187,35 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-mmsetaddressrangemodified.md">MmSetAddressRangeModified</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539211">CcSetDirtyPinnedData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549828">MmSetAddressRangeModified</a>
  
 
  
-
 

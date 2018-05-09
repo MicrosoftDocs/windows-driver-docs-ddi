@@ -7,7 +7,7 @@ old-location: netvista\rilcalldisconnectdetailsdisconnectgroup.htm
 old-project: netvista
 ms.assetid: d546e936-f8c6-45ad-8027-a8495b4633dc
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RILCALLDISCONNECTDETAILSDISCONNECTGROUP enumeration [Network Drivers Starting with Windows Vista], RIL_CD_3GPP2_VENDOR_CAUSE, RIL_CD_3GPP_NETWORK_CAUSE, RIL_CD_3GPP_REJECT_CAUSE, RIL_CD_AS_CAUSE, RIL_CD_CAUSE_MAX, RIL_CD_IMS_SIP_CAUSE, RIL_CD_OTHER_CAUSE, netvista.rilcalldisconnectdetailsdisconnectgroup, ntddrilapitypes/RILCALLDISCONNECTDETAILSDISCONNECTGROUP, ntddrilapitypes/RIL_CD_3GPP2_VENDOR_CAUSE, ntddrilapitypes/RIL_CD_3GPP_NETWORK_CAUSE, ntddrilapitypes/RIL_CD_3GPP_REJECT_CAUSE, ntddrilapitypes/RIL_CD_AS_CAUSE, ntddrilapitypes/RIL_CD_CAUSE_MAX, ntddrilapitypes/RIL_CD_IMS_SIP_CAUSE, ntddrilapitypes/RIL_CD_OTHER_CAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLDISCONNECTDETAILSDISCONNECTGROUP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLDISCONNECTDETAILSDISCONNECTGROUP
 ---
@@ -50,22 +51,6 @@ req.typenames: RILCALLDISCONNECTDETAILSDISCONNECTGROUP
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLDISCONNECTDETAILSDISCONNECTGROUP { 
-  RIL_CD_AS_CAUSE,
-  RIL_CD_3GPP_NETWORK_CAUSE,
-  RIL_CD_3GPP2_VENDOR_CAUSE,
-  RIL_CD_OTHER_CAUSE,
-  RIL_CD_3GPP_REJECT_CAUSE,
-  RIL_CD_IMS_SIP_CAUSE,
-  RIL_CD_CAUSE_MAX
-} RILCALLDISCONNECTDETAILSDISCONNECTGROUP;
-````
 
 
 ## -enum-fields

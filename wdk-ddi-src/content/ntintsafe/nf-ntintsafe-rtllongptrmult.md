@@ -7,7 +7,7 @@ old-location: kernel\rtllongptrmult.htm
 old-project: kernel
 ms.assetid: AF602DBE-E106-4105-B56B-DE9EE7691A05
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongPtrMult, RtlLongPtrMult function [Kernel-Mode Driver Architecture], kernel.rtllongptrmult, ntintsafe/RtlLongPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlLongPtrMult
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlLongPtrMult function
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Multiplies one value of type <b>LONG_PTR</b> by another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongPtrMult(
-  _In_  LONG_PTR lMultiplicand,
-  _In_  LONG_PTR lMultiplier,
-  _Out_ LONG_PTR *plResult
-);
-````
 
 
 ## -parameters

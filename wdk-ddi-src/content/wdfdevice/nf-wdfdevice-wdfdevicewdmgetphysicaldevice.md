@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceWdmGetPhysicalDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceWdmGetPhysicalDevice function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceWdmGetPhysicalDevice</b> method retrieves the physical device's WDM PDO from the device stack.
-
-
-## -syntax
-
-
-````
-PDEVICE_OBJECT WdfDeviceWdmGetPhysicalDevice(
-  _In_ WDFDEVICE Device
-);
-````
 
 
 ## -parameters
@@ -80,7 +70,7 @@ A handle to a framework device object.
 
 
 
-<b>WdfDeviceWdmGetPhysicalDevice</b> returns a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure.
+<b>WdfDeviceWdmGetPhysicalDevice</b> returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -91,12 +81,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The pointer that the <b>WdfDeviceWdmGetPhysicalDevice</b> method returns is valid until the framework device object is deleted. If the driver provides an <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> function for the framework device object, the pointer is valid until the callback function returns.
+The pointer that the <b>WdfDeviceWdmGetPhysicalDevice</b> method returns is valid until the framework device object is deleted. If the driver provides an <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> function for the framework device object, the pointer is valid until the callback function returns.
 
 
 #### Examples
 
-For a code example that uses <b>WdfDeviceWdmGetPhysicalDevice</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmgetattacheddevice.md">WdfDeviceWdmGetAttachedDevice</a>.
+For a code example that uses <b>WdfDeviceWdmGetPhysicalDevice</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546934">WdfDeviceWdmGetAttachedDevice</a>.
 
 <div class="code"></div>
 

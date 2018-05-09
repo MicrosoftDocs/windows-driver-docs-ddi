@@ -7,7 +7,7 @@ old-location: kernel\tmcommitenlistment.htm
 old-project: kernel
 ms.assetid: f1f0c337-9567-4def-b0fb-09dabfdf294d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: TmCommitEnlistment, TmCommitEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmcommitenlistment, ktm_ref_c34bfdb9-5d62-448c-a82f-a8df21f05371.xml, wdm/TmCommitEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_location:
 -	tm.sys
 api_name:
 -	TmCommitEnlistment
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # TmCommitEnlistment function
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>TmCommitEnlistment</b> routine initiates the commit operation for a specified enlistment's transaction.
 
 
-## -syntax
-
-
-````
-NTSTATUS TmCommitEnlistment(
-  _In_ PKENLISTMENT   Enlistment,
-  _In_ PLARGE_INTEGER TmVirtualClock
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ NTSTATUS TmCommitEnlistment(
 
 ### -param Enlistment [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a>. Your component can receive this pointer as input to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine. Alternatively, your component can call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>, <a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>, or <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a> provided.
+A pointer to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a>. Your component can receive this pointer as input to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a> callback routine. Alternatively, your component can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff564669">TmCreateEnlistment</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567008">ZwOpenEnlistment</a> provided.
 
 
 ### -param TmVirtualClock [in]
@@ -159,7 +148,7 @@ The routine might return other <a href="https://msdn.microsoft.com/library/windo
 
 
 
-The <b>TmCommitEnlistment</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwcommitenlistment.md">ZwCommitEnlistment</a> routine.
+The <b>TmCommitEnlistment</b> routine is a pointer-based version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566419">ZwCommitEnlistment</a> routine.
 
 Only superior transaction managers can call <b>TmCommitEnlistment</b>.
 
@@ -170,23 +159,10 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcommitenlistment.md">ZwCommitEnlistment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>
 
 
 
@@ -194,8 +170,20 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564669">TmCreateEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566419">ZwCommitEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567008">ZwOpenEnlistment</a>
  
 
  
-
 

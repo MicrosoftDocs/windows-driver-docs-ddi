@@ -7,8 +7,8 @@ old-location: stream\avc_function.htm
 old-project: stream
 ms.assetid: 31451163-bc60-4c84-88a7-e11edea97436
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: AVC_FUNCTION, AVC_FUNCTION enumeration [Streaming Media Devices], AVC_FUNCTION_ACQUIRE, AVC_FUNCTION_CLR_CONNECTINFO, AVC_FUNCTION_COMMAND, AVC_FUNCTION_FIND_PEER_DO, AVC_FUNCTION_GET_CONNECTINFO, AVC_FUNCTION_GET_EXT_PLUG_COUNTS, AVC_FUNCTION_GET_PIN_COUNT, AVC_FUNCTION_GET_PIN_DESCRIPTOR, AVC_FUNCTION_GET_REQUEST, AVC_FUNCTION_GET_SUBUNIT_INFO, AVC_FUNCTION_GET_UNIQUE_ID, AVC_FUNCTION_PEER_DO_LIST, AVC_FUNCTION_RELEASE, AVC_FUNCTION_SEND_RESPONSE, AVC_FUNCTION_SET_CONNECTINFO, _tagAVC_FUNCTION, avc/AVC_FUNCTION, avc/AVC_FUNCTION_ACQUIRE, avc/AVC_FUNCTION_CLR_CONNECTINFO, avc/AVC_FUNCTION_COMMAND, avc/AVC_FUNCTION_FIND_PEER_DO, avc/AVC_FUNCTION_GET_CONNECTINFO, avc/AVC_FUNCTION_GET_EXT_PLUG_COUNTS, avc/AVC_FUNCTION_GET_PIN_COUNT, avc/AVC_FUNCTION_GET_PIN_DESCRIPTOR, avc/AVC_FUNCTION_GET_REQUEST, avc/AVC_FUNCTION_GET_SUBUNIT_INFO, avc/AVC_FUNCTION_GET_UNIQUE_ID, avc/AVC_FUNCTION_PEER_DO_LIST, avc/AVC_FUNCTION_RELEASE, avc/AVC_FUNCTION_SEND_RESPONSE, avc/AVC_FUNCTION_SET_CONNECTINFO, avcref_aa8add30-67c7-469c-ab3d-9173e7b4b91e.xml, stream.avc_function
+ms.date: 4/23/2018
+ms.keywords: AVC_FUNCTION, AVC_FUNCTION enumeration [Streaming Media Devices], AVC_FUNCTION_ACQUIRE, AVC_FUNCTION_CLR_CONNECTINFO, AVC_FUNCTION_COMMAND, AVC_FUNCTION_FIND_PEER_DO, AVC_FUNCTION_GET_CONNECTINFO, AVC_FUNCTION_GET_EXT_PLUG_COUNTS, AVC_FUNCTION_GET_PIN_COUNT, AVC_FUNCTION_GET_PIN_DESCRIPTOR, AVC_FUNCTION_GET_REQUEST, AVC_FUNCTION_GET_SUBUNIT_INFO, AVC_FUNCTION_GET_UNIQUE_ID, AVC_FUNCTION_PEER_DO_LIST, AVC_FUNCTION_RELEASE, AVC_FUNCTION_SEND_RESPONSE, AVC_FUNCTION_SET_CONNECTINFO, _tagAVC_FUNCTION, avc/AVC_FUNCTION, avc/AVC_FUNCTION_ACQUIRE, avc/AVC_FUNCTION_CLR_CONNECTINFO, avc/AVC_FUNCTION_COMMAND, avc/AVC_FUNCTION_FIND_PEER_DO, avc/AVC_FUNCTION_GET_CONNECTINFO, avc/AVC_FUNCTION_GET_EXT_PLUG_COUNTS, avc/AVC_FUNCTION_GET_PIN_COUNT, avc/AVC_FUNCTION_GET_PIN_DESCRIPTOR, avc/AVC_FUNCTION_GET_REQUEST, avc/AVC_FUNCTION_GET_SUBUNIT_INFO, avc/AVC_FUNCTION_GET_UNIQUE_ID, avc/AVC_FUNCTION_PEER_DO_LIST, avc/AVC_FUNCTION_RELEASE, avc/AVC_FUNCTION_SEND_RESPONSE, avc/AVC_FUNCTION_SET_CONNECTINFO, avcref_aa8add30-67c7-469c-ab3d-9173e7b4b91e.xml, stream.avc_function, tagAVC_FUNCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_FUNCTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_FUNCTION
 ---
@@ -50,30 +51,6 @@ req.typenames: AVC_FUNCTION
 
 
 The AVC_FUNCTION enumeration type is used to specify AV/C subunit functions.
-
-
-## -syntax
-
-
-````
-typedef enum _tagAVC_FUNCTION { 
-  AVC_FUNCTION_COMMAND              = 0,
-  AVC_FUNCTION_GET_PIN_COUNT        = 1,
-  AVC_FUNCTION_GET_PIN_DESCRIPTOR   = 2,
-  AVC_FUNCTION_GET_CONNECTINFO      = 3,
-  AVC_FUNCTION_SET_CONNECTINFO      = 4,
-  AVC_FUNCTION_ACQUIRE              = 5,
-  AVC_FUNCTION_RELEASE              = 6,
-  AVC_FUNCTION_CLR_CONNECTINFO      = 7,
-  AVC_FUNCTION_GET_EXT_PLUG_COUNTS  = 8,
-  AVC_FUNCTION_GET_UNIQUE_ID        = 9,
-  AVC_FUNCTION_GET_REQUEST          = 10,
-  AVC_FUNCTION_SEND_RESPONSE        = 11,
-  AVC_FUNCTION_FIND_PEER_DO         = 12,
-  AVC_FUNCTION_PEER_DO_LIST         = 13,
-  AVC_FUNCTION_GET_SUBUNIT_INFO     = 14
-} AVC_FUNCTION;
-````
 
 
 ## -enum-fields
@@ -186,54 +163,54 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_ext_plug_counts.md">AVC_EXT_PLUG_COUNTS</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_peer_do_list.md">AVC_PEER_DO_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554140">AVC_COMMAND_IRB</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554143">AVC_EXT_PLUG_COUNTS</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554174">AVC_IRB</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554179">AVC_PEER_DO_LIST</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_unique_id.md">AVC_UNIQUE_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554180">AVC_PEER_DO_LOCATOR</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_pin_id.md">AVC_PIN_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554183">AVC_PIN_COUNT</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_pin_count.md">AVC_PIN_COUNT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554185">AVC_PIN_DESCRIPTOR</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_setconnect_info.md">AVC_SETCONNECT_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554187">AVC_PIN_ID</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_peer_do_locator.md">AVC_PEER_DO_LOCATOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554190">AVC_PRECONNECT_INFO</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_subunit_info_block.md">AVC_SUBUNIT_INFO_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554192">AVC_SETCONNECT_INFO</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_irb.md">AVC_IRB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554199">AVC_SUBUNIT_INFO_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554200">AVC_UNIQUE_ID</a>
  
 
  

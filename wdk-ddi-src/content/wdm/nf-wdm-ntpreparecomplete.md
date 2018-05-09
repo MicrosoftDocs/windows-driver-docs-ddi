@@ -7,7 +7,7 @@ old-location: kernel\zwpreparecomplete.htm
 old-project: kernel
 ms.assetid: c3d9362e-8a9d-47df-a407-389a9bd65e3b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtPrepareComplete, ZwPrepareComplete, ZwPrepareComplete routine [Kernel-Mode Driver Architecture], kernel.zwpreparecomplete, ktm_ref_2690208e-0252-4e3f-84c6-29750139da00.xml, wdm/NtPrepareComplete, wdm/ZwPrepareComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 api_name:
 -	ZwPrepareComplete
 -	NtPrepareComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # NtPrepareComplete function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>ZwPrepareComplete</b> routine notifies KTM that the calling resource manager has finished preparing a transaction's data.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwPrepareComplete(
-  _In_     HANDLE         EnlistmentHandle,
-  _In_opt_ PLARGE_INTEGER TmVirtualClock
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ NTSTATUS ZwPrepareComplete(
 
 ### -param EnlistmentHandle [in]
 
-A handle to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a> or <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>. The handle must have ENLISTMENT_SUBORDINATE_RIGHTS access to the object.
+A handle to an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a> that was obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567008">ZwOpenEnlistment</a>. The handle must have ENLISTMENT_SUBORDINATE_RIGHTS access to the object.
 
 
 ### -param TmVirtualClock [in, optional]
@@ -162,11 +151,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwprepreparecomplete.md">ZwPrePrepareComplete</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564687">TmPrepareComplete</a>
 
 
 
@@ -174,16 +162,16 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-tmpreparecomplete.md">TmPrepareComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567008">ZwOpenEnlistment</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567040">ZwPrePrepareComplete</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\keinitializeevent.htm
 old-project: kernel
 ms.assetid: 0b59056c-6e73-4078-b8b3-32ced29ff7b0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KeInitializeEvent, KeInitializeEvent routine [Kernel-Mode Driver Architecture], k105_cc0b9273-d817-4853-b8ee-2337f53585f1.xml, kernel.keinitializeevent, wdm/KeInitializeEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeInitializeEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeInitializeEvent function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeInitializeEvent</b> routine initializes an event object as a synchronization (single waiter) or notification type event and sets it to a signaled or not-signaled state.
-
-
-## -syntax
-
-
-````
-VOID KeInitializeEvent(
-  _Out_ PRKEVENT   Event,
-  _In_  EVENT_TYPE Type,
-  _In_  BOOLEAN    State
-);
-````
 
 
 ## -parameters
@@ -98,9 +86,9 @@ None
 
 
 
-Storage for an event object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller. If you allocate the event on the stack, you must specify a <b>KernelMode</b> wait when calling <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>. During a <b>KernelMode</b> wait, the stack containing the event will not be paged out.
+Storage for an event object must be resident: in the device extension of a driver-created device object, in the controller extension of a driver-created controller object, or in nonpaged pool allocated by the caller. If you allocate the event on the stack, you must specify a <b>KernelMode</b> wait when calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>. During a <b>KernelMode</b> wait, the stack containing the event will not be paged out.
 
-Drivers typically use a <b>NotificationEvent</b> to wait for an I/O operation to complete. When a notification event is set to the signaled state, all threads that were waiting for the event to be set to the signaled state become eligible for execution. The event remains in the signaled state until a thread calls <a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a> or <a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a> to set the event in the not-signaled state.
+Drivers typically use a <b>NotificationEvent</b> to wait for an I/O operation to complete. When a notification event is set to the signaled state, all threads that were waiting for the event to be set to the signaled state become eligible for execution. The event remains in the signaled state until a thread calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff553176">KeResetEvent</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551980">KeClearEvent</a> to set the event in the not-signaled state.
 
 A <b>SynchronizationEvent</b> is also called an <i>autoreset</i> or <i>autoclearing</i> event. When such an event is set, a single waiting thread becomes eligible for execution. The kernel automatically resets the event to the not-signaled state each time a wait is satisfied. A driver might use a synchronization event to protect a shared resource that is used in synchronizing the operations of several threads. Synchronization events are rarely used in a typical driver.
 
@@ -111,32 +99,31 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551980">KeClearEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553089">KeReadStateEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553176">KeResetEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553253">KeSetEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
  
 
  
-
 

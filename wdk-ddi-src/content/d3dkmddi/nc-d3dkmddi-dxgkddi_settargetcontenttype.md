@@ -7,8 +7,8 @@ old-location: display\dxgkddi_settargetcontenttype.htm
 old-project: display
 ms.assetid: 7639BF7B-6219-4490-953F-80E76CDFBAAA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_SETTARGETCONTENTTYPE, DXGKDDI_SETTARGETCONTENTTYPE callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETCONTENTTYPE, display.dxgkddi_settargetcontenttype
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_SETTARGETCONTENTTYPE, DXGKDDI_SETTARGETCONTENTTYPE callback, DXGKDDI_SETTARGETCONTENTTYPE callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETCONTENTTYPE, display.dxgkddi_settargetcontenttype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_SETTARGETCONTENTTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_SETTARGETCONTENTTYPE callback
+# DXGKDDI_SETTARGETCONTENTTYPE callback function
 
 
 ## -description
@@ -52,17 +53,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 Passes the content type for which the driver should optimize on the specified target.  <div class="alert"><b>Note</b>  This is functionally equivalent to the DxgkDdi_UpdateActiveVidPnPresentPath in previous WDDM versions if only the D3DKMDT_VIDPN_PRESENT_PATH_CONTENT field is changed.</div>
 <div> </div>
 
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_SETTARGETCONTENTTYPE(
-  _In_ const HANDLE                        hAdapter,
-  _In_ const PDXGKARG_SETTARGETCONTENTTYPE pSetTargetContentTypeArg
-);
-````
 
 
 ## -parameters
@@ -77,7 +67,7 @@ A handle that identifies the adapter.
 
 ### -param pSetTargetContentTypeArg [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_settargetcontenttype.md">DXGKARG_SETTARGETCONTENTTYPE</a> structure that provides the target to be modified and the new type of content being displayed on it.
+A pointer to a <a href="https://msdn.microsoft.com/BD849954-97CC-4314-B375-22829B0CEE86">DXGKARG_SETTARGETCONTENTTYPE</a> structure that provides the target to be modified and the new type of content being displayed on it.
 
 
 ## -returns

@@ -7,8 +7,8 @@ old-location: display\composerects.htm
 old-project: display
 ms.assetid: b6a6b549-7590-4b27-b759-631fa62a76d2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: ComposeRects, ComposeRects callback function [Display Devices], PFND3DDDI_COMPOSERECTS, UserModeDisplayDriver_Functions_fca43b4e-1c5d-46b9-a68f-928378ed22a1.xml, d3dumddi/ComposeRects, display.composerects
+ms.date: 4/16/2018
+ms.keywords: ComposeRects, ComposeRects callback function [Display Devices], PFND3DDDI_COMPOSERECTS, PFND3DDDI_COMPOSERECTS callback, UserModeDisplayDriver_Functions_fca43b4e-1c5d-46b9-a68f-928378ed22a1.xml, d3dumddi/ComposeRects, display.composerects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	ComposeRects
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_COMPOSERECTS callback
+# PFND3DDDI_COMPOSERECTS callback function
 
 
 ## -description
 
 
 The <b>ComposeRects</b> function composes two-dimensional areas from a source surface to a destination surface. 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_COMPOSERECTS ComposeRects;
-
-__checkReturn HRESULT APIENTRY ComposeRects(
-  _In_       HANDLE                 hDevice,
-  _In_ const D3DDDIARG_COMPOSERECTS *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY ComposeRects(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_composerects.md">D3DDDIARG_COMPOSERECTS</a> structure that specifies the parameters that are used to compose rectangular areas.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542912">D3DDDIARG_COMPOSERECTS</a> structure that specifies the parameters that are used to compose rectangular areas.
 
 
 ## -returns
@@ -120,7 +107,7 @@ The rectangular areas were successfully composed.
 </td>
 <td width="60%">
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_composerects.md">ComposeRects</a> could not allocate the required memory for it to complete.
+<a href="https://msdn.microsoft.com/b6a6b549-7590-4b27-b759-631fa62a76d2">ComposeRects</a> could not allocate the required memory for it to complete.
 
 </td>
 </tr>
@@ -202,16 +189,15 @@ The following example code shows an operation that <b>ComposeRects</b> performs:
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_composerects.md">D3DDDIARG_COMPOSERECTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542912">D3DDDIARG_COMPOSERECTS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

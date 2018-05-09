@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_EVAL_INPUT_BUFFER_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_EVAL_INPUT_BUFFER_V2, *PACPI_EVAL_INPUT_BUFFER_V2
 ---
@@ -50,20 +51,6 @@ req.typenames: ACPI_EVAL_INPUT_BUFFER_V2, *PACPI_EVAL_INPUT_BUFFER_V2
 
 
 This topic describes the  <b>ACPI_EVAL_INPUT_BUFFER_V2</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _ACPI_EVAL_INPUT_BUFFER_V2 {
-  ULONG Signature;
-  union {
-    UCHAR MethodName[4];
-    ULONG MethodNameAsUlong;
-  } DUMMYUNIONNAME;
-} ACPI_EVAL_INPUT_BUFFER_V2, *PACPI_EVAL_INPUT_BUFFER_V2;
-````
 
 
 ## -struct-fields
@@ -79,4 +66,16 @@ Defines the <b>ULONG</b> member <b>Signature</b>.
 ### -field DUMMYUNIONNAME
 
 Defines the method name member of <b>DUMMYUNIONNAME</b>.
+
+
+### -field DUMMYUNIONNAME.MethodName
+
+ 
+
+
+### -field DUMMYUNIONNAME.MethodNameAsUlong
+
+ 
+
+
 

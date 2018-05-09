@@ -7,8 +7,8 @@ old-location: netvista\filterdevicepnpeventnotify.htm
 old-project: netvista
 ms.assetid: dea4ab30-ba1d-4c9c-9f00-e48cc3cc0b46
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: FILTER_DEVICE_PNP_EVENT_NOTIFY, FilterDevicePnPEventNotify, FilterDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_3e688903-ea36-44b3-bd06-533f7e573478.xml, ndis/FilterDevicePnPEventNotify, netvista.filterdevicepnpeventnotify
+ms.date: 4/25/2018
+ms.keywords: FILTER_DEVICE_PNP_EVENT_NOTIFY, FILTER_DEVICE_PNP_EVENT_NOTIFY callback, FilterDevicePnPEventNotify, FilterDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_3e688903-ea36-44b3-bd06-533f7e573478.xml, ndis/FilterDevicePnPEventNotify, netvista.filterdevicepnpeventnotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	FilterDevicePnPEventNotify
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_DEVICE_PNP_EVENT_NOTIFY callback
+# FILTER_DEVICE_PNP_EVENT_NOTIFY callback function
 
 
 ## -description
@@ -55,20 +56,6 @@ NDIS calls a filter driver's
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_DEVICE_PNP_EVENT_NOTIFY</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-FILTER_DEVICE_PNP_EVENT_NOTIFY FilterDevicePnPEventNotify;
-
-VOID FilterDevicePnPEventNotify(
-  _In_ NDIS_HANDLE           FilterModuleContext,
-  _In_ PNET_DEVICE_PNP_EVENT NetDevicePnPEvent
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,13 +65,13 @@ VOID FilterDevicePnPEventNotify(
 
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param NetDevicePnPEvent [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_device_pnp_event.md">NET_DEVICE_PNP_EVENT</a> structure that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568730">NET_DEVICE_PNP_EVENT</a> structure that
      describes a device Plug and Play event.
 
 
@@ -103,14 +90,14 @@ None
 
 <i>FilterDevicePnPEventNotify</i> is an optional function. If a filter driver does not use device PnP
     requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
-    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
     NdisFRegisterFilterDriver</a> function.
 
 <i>FilterDevicePnPEventNotify</i> is similar to a miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+    <a href="https://msdn.microsoft.com/e41240c0-17be-42ef-a72c-c5311115cf64">
     MiniportDevicePnPEventNotify</a> function. Filter drivers can forward these notifications to underlying
     drivers. To forward a request, call the 
-    <a href="..\ndis\nf-ndis-ndisfdevicepnpeventnotify.md">
+    <a href="https://msdn.microsoft.com/ae5dd48b-7777-4232-89ad-ac4464e03e57">
     NdisFDevicePnPEventNotify</a> function.
 
 NDIS calls 
@@ -158,33 +145,32 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfdevicepnpeventnotify.md">NdisFDevicePnPEventNotify</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiswriteeventlogentry.md">NdisWriteEventLogEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_device_pnp_event.md">NET_DEVICE_PNP_EVENT</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+<a href="https://msdn.microsoft.com/e41240c0-17be-42ef-a72c-c5311115cf64">
    MiniportDevicePnPEventNotify</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568730">NET_DEVICE_PNP_EVENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561804">NdisFDevicePnPEventNotify</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564672">NdisWriteEventLogEntry</a>
  
 
  
-
 

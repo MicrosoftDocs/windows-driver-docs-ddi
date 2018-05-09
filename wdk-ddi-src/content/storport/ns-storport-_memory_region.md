@@ -7,7 +7,7 @@ old-location: storage\memory_region.htm
 old-project: storage
 ms.assetid: b8dbc3d4-7a70-4ec6-b7b0-2b0877fb9722
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PMEMORY_REGION, MEMORY_REGION, MEMORY_REGION structure [Storage Devices], PMEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices], _MEMORY_REGION, storage.memory_region, storport/MEMORY_REGION, storport/PMEMORY_REGION, structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	MEMORY_REGION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MEMORY_REGION, *PMEMORY_REGION
-req.product: Windows 10 or later.
 ---
 
 # _MEMORY_REGION structure
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The MEMORY_REGION structure describes a region of physically contiguous memory.
-
-
-## -syntax
-
-
-````
-typedef struct _MEMORY_REGION {
-  PUCHAR           VirtualBase;
-  PHYSICAL_ADDRESS PhysicalBase;
-  ULONG            Length;
-} MEMORY_REGION, *PMEMORY_REGION;
-````
 
 
 ## -struct-fields
@@ -89,19 +77,18 @@ The size, in bytes, of the memory region.
 
 
 
-The <b>DumpRegion</b> member of the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure holds a MEMORY_REGION structure that describes a region of physically contiguous memory that a miniport driver can use during a crash dump. 
+The <b>DumpRegion</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> structure holds a MEMORY_REGION structure that describes a region of physically contiguous memory that a miniport driver can use during a crash dump. 
 
 
 
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a>
  
 
  
-
 

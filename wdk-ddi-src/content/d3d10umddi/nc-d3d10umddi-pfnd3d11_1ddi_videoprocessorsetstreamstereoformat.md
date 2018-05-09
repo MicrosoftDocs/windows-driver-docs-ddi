@@ -7,8 +7,8 @@ old-location: display\videoprocessorsetstreamstereoformat.htm
 old-project: display
 ms.assetid: bc79f431-d23e-4440-a8c5-50c29c48444e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT, d3d10umddi/pfnVideoProcessorSetStreamStereoFormat, display.videoprocessorsetstreamstereoformat, pfnVideoProcessorSetStreamStereoFormat, pfnVideoProcessorSetStreamStereoFormat callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT callback, d3d10umddi/pfnVideoProcessorSetStreamStereoFormat, display.videoprocessorsetstreamstereoformat, pfnVideoProcessorSetStreamStereoFormat, pfnVideoProcessorSetStreamStereoFormat callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnVideoProcessorSetStreamStereoFormat
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT callback
+# PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT callback function
 
 
 ## -description
@@ -54,51 +55,36 @@ Enables or disables stereo 3D video for an input stream on the video processor. 
 
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT pfnVideoProcessorSetStreamStereoFormat;
-
-VOID APIENTRY* pfnVideoProcessorSetStreamStereoFormat(
-  _In_ D3D10DDI_HDEVICE                            hDevice,
-  _In_ D3D11_1DDI_HVIDEOPROCESSOR                  hVideoProcessor,
-  _In_ UINT                                        StreamIndex,
-  _In_ BOOL                                        Enable,
-  _In_ D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT    StereoFormat,
-  _In_ BOOL                                        LeftViewFrame0,
-  _In_ BOOL                                        BaseViewFrame0,
-  _In_ D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE FlipMode,
-  _In_ int                                         MonoOffset
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
-### -param UINT
+### -param Arg3
 
 
-### -param BOOL
+### -param Arg4
 
 
-### -param D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT
+### -param Arg5
 
 
-### -param D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE
+### -param Arg6
 
 
-### -param int
+### -param Arg7
+
+
+### -param Arg8
+
+
+### -param Arg9
 
 
 
@@ -112,7 +98,7 @@ VOID APIENTRY* pfnVideoProcessorSetStreamStereoFormat(
 If <b>TRUE</b>, frame 0 contains the base view. Otherwise, frame 1 contains the base view.
 
 
-This parameter is ignored for the following <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
+This parameter is ignored for the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
 
 
 
@@ -141,7 +127,7 @@ If <b>FALSE</b>, stereo 3D is disabled for the input stream.
 
 #### - FlipMode [in]
 
-A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a> enumeration value that specifies whether one of the views is flipped.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh451025">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a> enumeration value that specifies whether one of the views is flipped.
 
 
 
@@ -150,7 +136,7 @@ A <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mo
 
 If <b>TRUE</b>, frame 0 contains the left view. Otherwise, frame 0 contains the right view.
 
-This parameter is ignored for the following <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
+This parameter is ignored for the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
 
 
 
@@ -175,7 +161,7 @@ If the <i>StereoFormat</i> parameter is set to <b>D3D11_VIDEO_PROCESSOR_STEREO_F
 
 #### - StereoFormat [in]
 
-Specifies the layout of the two stereo views in memory, as a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> value.
+Specifies the layout of the two stereo views in memory, as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> value.
 
 
 
@@ -194,7 +180,7 @@ A handle to the display device (graphics context).
 
 #### - hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 
@@ -235,7 +221,7 @@ Specifies a single resource for the mono input data of the base view.
 
 </li>
 <li>
-	Specify both resources for the stereo input data of the base view.  When <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a> is called, the stream data is passed as a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_stream.md">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a> structure, with the <b>hInputSurface</b> member specifying frame 0 and the <b>hInputSurfaceRight</b> specifying frame 1.
+	Specify both resources for the stereo input data of the base view.  When <a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a> is called, the stream data is passed as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451033">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a> structure, with the <b>hInputSurface</b> member specifying frame 0 and the <b>hInputSurfaceRight</b> specifying frame 1.
 
 </li>
 </ul>
@@ -244,28 +230,27 @@ Specifies a single resource for the mono input data of the base view.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_stream.md">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a>
+<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451025">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode.md">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451033">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a>
  
 
  
-
 

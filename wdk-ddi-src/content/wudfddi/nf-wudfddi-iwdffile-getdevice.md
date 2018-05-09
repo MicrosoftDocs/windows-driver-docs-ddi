@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile.GetDevice
-title: IWDFFile::GetDevice method
+title: IWDFFile::GetDevice
 author: windows-driver-content
 description: The GetDevice method returns the interface to the device object that a file object is associated with.
 old-location: wdf\iwdffile_getdevice.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 914cc125-076e-40e1-baef-a12cba427b37
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetDevice method, GetDevice method, IWDFFile interface, GetDevice,IWDFFile.GetDevice, IWDFFile, IWDFFile interface, GetDevice method, IWDFFile::GetDevice, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, umdf.iwdffile_getdevice, wdf.iwdffile_getdevice, wudfddi/IWDFFile::GetDevice
+ms.keywords: GetDevice, GetDevice method, GetDevice method,IWDFFile interface, IWDFFile interface,GetDevice method, IWDFFile.GetDevice, IWDFFile::GetDevice, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, umdf.iwdffile_getdevice, wdf.iwdffile_getdevice, wudfddi/IWDFFile::GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFFile.GetDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFFile::GetDevice method
+# IWDFFile::GetDevice
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetDevice</b> method returns the interface to the device object that a file object is associated with.
 
 
-## -syntax
-
-
-````
-void GetDevice(
-  [out] IWDFDevice **ppWdfDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void GetDevice(
 
 ### -param ppWdfDevice [out]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object that is associated with the file object.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface for the device object that is associated with the file object.
 
 
 ## -returns
@@ -86,16 +76,15 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: storage\ioctl_tape_set_drive_params.htm
 old-project: storage
 ms.assetid: aa625cbf-fa0f-420a-b8ec-2babf4c4ec17
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_TAPE_SET_DRIVE_PARAMS, IOCTL_TAPE_SET_DRIVE_PARAMS control code [Storage Devices], k307_8467b086-c211-4e26-ac65-2d12ea1c4c73.xml, ntddtape/IOCTL_TAPE_SET_DRIVE_PARAMS, storage.ioctl_tape_set_drive_params
+ms.date: 3/29/2018
+ms.keywords: IOCTL_TAPE_SET_DRIVE_PARAMS, IOCTL_TAPE_SET_DRIVE_PARAMS control, IOCTL_TAPE_SET_DRIVE_PARAMS control code [Storage Devices], k307_8467b086-c211-4e26-ac65-2d12ea1c4c73.xml, ntddtape/IOCTL_TAPE_SET_DRIVE_PARAMS, storage.ioctl_tape_set_drive_params
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddtape.h
 api_name:
 -	IOCTL_TAPE_SET_DRIVE_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TAPE_DRIVE_PROBLEM_TYPE
+req.typenames: 
 ---
 
 # IOCTL_TAPE_SET_DRIVE_PARAMS IOCTL
@@ -63,7 +64,7 @@ Adjusts a tape drive's configurable parameters. The miniclass driver can ignore 
 ### -input-buffer
 
 
-       The <a href="..\ntddtape\ns-ntddtape-_tape_set_drive_parameters.md">TAPE_SET_DRIVE_PARAMETERS</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the values to be set. 
+       The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567972">TAPE_SET_DRIVE_PARAMETERS</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the values to be set. 
 
 
 ### -input-buffer-length
@@ -106,20 +107,19 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 
-<a href="..\ntddtape\ns-ntddtape-_tape_set_drive_parameters.md">TAPE_SET_DRIVE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567972">TAPE_SET_DRIVE_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567975">TAPE_STATUS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567952">TapeMiniSetDriveParameters</a>
-
-
-
  
 
  
-
 

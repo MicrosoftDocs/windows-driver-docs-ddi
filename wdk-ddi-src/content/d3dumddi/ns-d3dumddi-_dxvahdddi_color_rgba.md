@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_color_rgba.htm
 old-project: display
 ms.assetid: 73779eb1-514e-4103-9af2-0dc0c86cb04e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_ecf8ab79-edb1-42c8-b873-39cc1f7a1ef8.xml, DXVAHDDDI_COLOR_RGBA, DXVAHDDDI_COLOR_RGBA structure [Display Devices], _DXVAHDDDI_COLOR_RGBA, d3dumddi/DXVAHDDDI_COLOR_RGBA, display.dxvahdddi_color_rgba
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVAHDDDI_COLOR_RGBA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_COLOR_RGBA
 ---
@@ -50,19 +51,6 @@ req.typenames: DXVAHDDDI_COLOR_RGBA
 
 
 The DXVAHDDDI_COLOR_RGBA structure describes color in RGB terms.  
-
-
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_COLOR_RGBA {
-  FLOAT R;
-  FLOAT G;
-  FLOAT B;
-  FLOAT A;
-} DXVAHDDDI_COLOR_RGBA;
-````
 
 
 ## -struct-fields
@@ -98,19 +86,18 @@ The setting of DXVAHDDDI_COLOR_RGBA for full range RGB black with opaque alpha i
 
 R, G, and B values can be out of the [0.0, 1.0] range for wide gamut format (for example, for XR_BIAS, FP16, and FP32 formats).
 
-A DXVAHDDDI_COLOR_YCbCrA structure is specified in the <b>RGB</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color.md">DXVAHDDDI_COLOR</a> union to specify the color in RGB terms.
+A DXVAHDDDI_COLOR_YCbCrA structure is specified in the <b>RGB</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563025">DXVAHDDDI_COLOR</a> union to specify the color in RGB terms.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color.md">DXVAHDDDI_COLOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563025">DXVAHDDDI_COLOR</a>
  
 
  
-
 

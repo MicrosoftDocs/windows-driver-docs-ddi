@@ -7,7 +7,7 @@ old-location: netvista\ndis_tcp_ip_checksum_offload.htm
 old-project: netvista
 ms.assetid: bf5369c5-8656-41a4-a23f-79e40a60d111
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_TCP_IP_CHECKSUM_OFFLOAD, NDIS_TCP_IP_CHECKSUM_OFFLOAD, NDIS_TCP_IP_CHECKSUM_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_IP_CHECKSUM_OFFLOAD, PNDIS_TCP_IP_CHECKSUM_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_IP_CHECKSUM_OFFLOAD, netvista.ndis_tcp_ip_checksum_offload, ntddndis/NDIS_TCP_IP_CHECKSUM_OFFLOAD, ntddndis/PNDIS_TCP_IP_CHECKSUM_OFFLOAD, tcpip_offload_ref_0214ebce-2667-42c6-8be6-6086d358d2ab.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_TCP_IP_CHECKSUM_OFFLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_IP_CHECKSUM_OFFLOAD, *PNDIS_TCP_IP_CHECKSUM_OFFLOAD
 ---
@@ -50,46 +51,7 @@ req.typenames: NDIS_TCP_IP_CHECKSUM_OFFLOAD, *PNDIS_TCP_IP_CHECKSUM_OFFLOAD
 
 
 The NDIS_TCP_IP_CHECKSUM_OFFLOAD structure provides checksum task offload information in the 
-  <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_TCP_IP_CHECKSUM_OFFLOAD {
-  struct {
-    ULONG Encapsulation;
-    ULONG IpOptionsSupported  :2;
-    ULONG TcpOptionsSupported  :2;
-    ULONG TcpChecksum  :2;
-    ULONG UdpChecksum  :2;
-    ULONG IpChecksum  :2;
-  } IPv4Transmit;
-  struct {
-    ULONG Encapsulation;
-    ULONG IpOptionsSupported  :2;
-    ULONG TcpOptionsSupported  :2;
-    ULONG TcpChecksum  :2;
-    ULONG UdpChecksum  :2;
-    ULONG IpChecksum  :2;
-  } IPv4Receive;
-  struct {
-    ULONG Encapsulation;
-    ULONG IpExtensionHeadersSupported  :2;
-    ULONG TcpOptionsSupported  :2;
-    ULONG TcpChecksum  :2;
-    ULONG UdpChecksum  :2;
-  } IPv6Transmit;
-  struct {
-    ULONG Encapsulation;
-    ULONG IpExtensionHeadersSupported  :2;
-    ULONG TcpOptionsSupported  :2;
-    ULONG TcpChecksum  :2;
-    ULONG UdpChecksum  :2;
-  } IPv6Receive;
-} NDIS_TCP_IP_CHECKSUM_OFFLOAD, *PNDIS_TCP_IP_CHECKSUM_OFFLOAD;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure.
 
 
 ## -struct-fields
@@ -105,47 +67,41 @@ A structure within NDIS_TCP_IP_CHECKSUM_OFFLOAD that specifies IPv4 transmit inf
       
 
 
-
-#### Encapsulation
+### -field IPv4Transmit.Encapsulation
 
 Encapsulation settings for IPv4 transmit. For more information about this member, see the
        following Remarks section.
 
 
-
-#### IpOptionsSupported
+### -field IPv4Transmit.IpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate an
        IP checksum for an IPv4 send packet that contains IP options or to indicate that this capability is
        enabled or disabled.
 
 
-
-#### TcpOptionsSupported
+### -field IPv4Transmit.TcpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        TCP checksum for an IPv4 send packet that contains TCP options or to indicate that this capability is
        enabled or disabled.
 
 
-
-#### TcpChecksum
+### -field IPv4Transmit.TcpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        TCP checksum for an IPv4 send packet. The TCP/IP transport sets this value to enable this capability
        or to indicate that this capability is enabled or disabled.
 
 
-
-#### UdpChecksum
+### -field IPv4Transmit.UdpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        UDP checksum for an IPv4 send packet or to indicate that this capability is enabled or
        disabled.
 
 
-
-#### IpChecksum
+### -field IPv4Transmit.IpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate an
        IP checksum for an IPv4 send packet or to indicate that this capability is enabled or disabled.
@@ -158,46 +114,40 @@ A structure within NDIS_TCP_IP_CHECKSUM_OFFLOAD that specifies IPv4 receive info
      
 
 
-
-#### Encapsulation
+### -field IPv4Receive.Encapsulation
 
 Encapsulation settings for IPv4 receive. For more information about this member, see the
        following Remarks section.
 
 
-
-#### IpOptionsSupported
+### -field IPv4Receive.IpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate an IP
        checksum for an IPv4 receive packet that contains IP options or to indicate that this capability is
        enabled or disabled.
 
 
-
-#### TcpOptionsSupported
+### -field IPv4Receive.TcpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        TCP checksum for an IPv4 receive packet that contains TCP options or to indicate that this capability
        is enabled or disabled.
 
 
-
-#### TcpChecksum
+### -field IPv4Receive.TcpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate the
        TCP checksum for an IPv4 receive packet or to indicate that this capability is enabled or
        disabled.
 
 
-
-#### UdpChecksum
+### -field IPv4Receive.UdpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate an
        IPv4 receive packet's UDP checksum or to indicate that this capability is enabled or disabled.
 
 
-
-#### IpChecksum
+### -field IPv4Receive.IpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate an IP
        checksum for an IPv4 receive packet or to indicate that this capability is enabled or disabled.
@@ -210,38 +160,33 @@ A structure within NDIS_TCP_IP_CHECKSUM_OFFLOAD that specifies IPv6 transmit inf
      
 
 
-
-#### Encapsulation
+### -field IPv6Transmit.Encapsulation
 
 Encapsulation settings for IPv6 transmit. For more information about this member, see the
        following Remarks section.
 
 
-
-#### IpExtensionHeadersSupported
+### -field IPv6Transmit.IpExtensionHeadersSupported
 
 A ULONG value that a miniport driver sets to indicate that the miniport adapter can calculate
        checksums on IPv6 packets that contain extension headers.
 
 
-
-#### TcpOptionsSupported
+### -field IPv6Transmit.TcpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        TCP checksum for an IPv6 send packet that contains TCP options or to indicate that this capability is
        enabled or disabled.
 
 
-
-#### TcpChecksum
+### -field IPv6Transmit.TcpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        TCP checksum for an IPv6 send packet or to indicate that this capability is enabled or
        disabled.
 
 
-
-#### UdpChecksum
+### -field IPv6Transmit.UdpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        UDP checksum for an IPv6 send packet or to indicate that this capability is enabled or
@@ -255,37 +200,32 @@ A structure within NDIS_TCP_IP_CHECKSUM_OFFLOAD that specifies IPv6 receive info
      
 
 
-
-#### Encapsulation
+### -field IPv6Receive.Encapsulation
 
 Encapsulation settings for IPv6 receive. For more information about this member, see the
        following Remarks section.
 
 
-
-#### IpExtensionHeadersSupported
+### -field IPv6Receive.IpExtensionHeadersSupported
 
 A ULONG value that a miniport driver sets to indicate that the miniport adapter can validate
        checksums on IPv6 packets that contain extension headers.
 
 
-
-#### TcpOptionsSupported
+### -field IPv6Receive.TcpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can calculate a
        checksum for an IPv6 receive packet whose TCP header contains TCP options or to indicate that this
        capability is enabled or disabled.
 
 
-
-#### TcpChecksum
+### -field IPv6Receive.TcpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate an
        IPv6 receive packet's TCP checksum or to indicate that this capability is enabled or disabled.
 
 
-
-#### UdpChecksum
+### -field IPv6Receive.UdpChecksum
 
 A ULONG value that a miniport driver sets to indicate that a miniport adapter can validate a UDP
        checksum for an IPv6 receive packet or to indicate that this capability is enabled or disabled.
@@ -297,16 +237,16 @@ A ULONG value that a miniport driver sets to indicate that a miniport adapter ca
 
 The NDIS_TCP_IP_CHECKSUM_OFFLOAD structure is used in the 
     <b>Checksum</b> member of the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure. The
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure. The
     NDIS_TCP_IP_CHECKSUM_OFFLOAD structure specifies the current or supported services that a miniport
     adapter provides for calculating IP, TCP, or UDP checksums (or all of them) for send packets and
     validating such checksums for receive packets.
 
 NDIS_OFFLOAD is used in the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
+    <a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
     NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure, 
-    <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure, 
-    <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure, 
+    <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
     NDIS_FILTER_ATTACH_PARAMETERS</a> structure, 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID, and the 
@@ -358,23 +298,27 @@ The meaning of the values in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
@@ -383,17 +327,12 @@ The meaning of the values in the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
  
 
  
-
 

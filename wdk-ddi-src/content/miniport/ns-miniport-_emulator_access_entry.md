@@ -38,7 +38,8 @@ apilocation:
 -	miniport.h
 apiname:
 -	EMULATOR_ACCESS_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EMULATOR_ACCESS_ENTRY, *PEMULATOR_ACCESS_ENTRY
 ---

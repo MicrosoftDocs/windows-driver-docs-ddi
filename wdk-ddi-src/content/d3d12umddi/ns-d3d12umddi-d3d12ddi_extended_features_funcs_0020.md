@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_extended_features_funcs_0020.htm
 old-project: display
 ms.assetid: 36AAD6F2-3220-4F9A-AA10-BA8D87948D09
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_EXTENDED_FEATURES_FUNCS_0020, D3D12DDI_EXTENDED_FEATURES_FUNCS_0020 structure [Display Devices], d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0020, display.d3d12ddi_extended_features_funcs_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_EXTENDED_FEATURES_FUNCS_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_EXTENDED_FEATURES_FUNCS_0020
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D12DDI_EXTENDED_FEATURES_FUNCS_0020
 
 
 This structure contains device functions for extended features in  video.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_EXTENDED_FEATURES_FUNCS_0020 {
-  PFND3D12DDI_GET_SUPPORTED_EXTENDED_FEATURES_0020         pfnGetSupportedExtendedFeatures;
-  PFND3D12DDI_GET_SUPPORTED_EXTENDED_FEATURE_VERSIONS_0020 pfnGetSupportedExtendedFeatureVersions;
-  PFND3D12DDI_ENABLE_EXTENDED_FEATURE                      pfnEnableExtendedFeature;
-} D3D12DDI_EXTENDED_FEATURES_FUNCS_0020;
-````
 
 
 ## -struct-fields

@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_NMEA_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_NMEA_DATA, *PGNSS_NMEA_DATA
 ---
@@ -50,18 +51,6 @@ req.typenames: GNSS_NMEA_DATA, *PGNSS_NMEA_DATA
 
 
 This structure contains generic (non-parsed) NMEA data.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  CHAR  NmeaSentences[256];
-} GNSS_NMEA_DATA, *PGNSS_NMEA_DATA;
-````
 
 
 ## -struct-fields

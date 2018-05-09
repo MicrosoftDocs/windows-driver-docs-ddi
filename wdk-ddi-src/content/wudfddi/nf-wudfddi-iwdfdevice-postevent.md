@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.PostEvent
-title: IWDFDevice::PostEvent method
+title: IWDFDevice::PostEvent
 author: windows-driver-content
 description: The PostEvent method asynchronously notifies applications that are waiting for the specified event from a driver.
 old-location: wdf\iwdfdevice_postevent.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3df25c91-d421-48fe-958c-48bce3bc78b8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice, IWDFDevice interface, PostEvent method, IWDFDevice::PostEvent, PostEvent method, PostEvent method, IWDFDevice interface, PostEvent,IWDFDevice.PostEvent, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, umdf.iwdfdevice_postevent, wdf.iwdfdevice_postevent, wudfddi/IWDFDevice::PostEvent
+ms.keywords: IWDFDevice interface,PostEvent method, IWDFDevice.PostEvent, IWDFDevice::PostEvent, PostEvent, PostEvent method, PostEvent method,IWDFDevice interface, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, umdf.iwdfdevice_postevent, wdf.iwdfdevice_postevent, wudfddi/IWDFDevice::PostEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice.PostEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::PostEvent method
+# IWDFDevice::PostEvent
 
 
 ## -description
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>PostEvent</b> method asynchronously notifies applications that are waiting for the specified event from a driver.
-
-
-## -syntax
-
-
-````
-HRESULT PostEvent(
-  [in] REFGUID        EventGuid,
-  [in] WDF_EVENT_TYPE EventType,
-  [in] BYTE           *pbData,
-  [in] DWORD          cbDataSize
-);
-````
 
 
 ## -parameters
@@ -80,7 +67,7 @@ The GUID for the event. The GUID is determined by the application and the driver
 
 ### -param EventType [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn265637">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
 
 
 ### -param pbData [in]
@@ -92,7 +79,7 @@ A pointer to a buffer that contains data that is associated with the event. <b>N
 
 The size, in bytes, of data that <i>pbData</i> points to. Zero is a valid size value if <i>pbData</i> is set to <b>NULL</b>. 
 
-The maximum size of the event data is slightly less than MAXUSHORT (64 KB). The precise upper limit is (0xFFFF - <a href="..\wdm\nf-wdm-field_offset.md">FIELD_OFFSET</a>(<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>, CustomDataBuffer)). 
+The maximum size of the event data is slightly less than MAXUSHORT (64 KB). The precise upper limit is (0xFFFF - <a href="https://msdn.microsoft.com/library/windows/hardware/ff545727">FIELD_OFFSET</a>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff564596">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>, CustomDataBuffer)). 
 
 
 ## -returns
@@ -172,24 +159,23 @@ For information about creating device events, see <a href="https://docs.microsof
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicepostevent.md">WdfDevicePostEvent</a>
 
 
 
-<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545727">FIELD_OFFSET</a>
 
 
 
-<a href="..\wdm\nf-wdm-field_offset.md">FIELD_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564596">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265606">WdfDevicePostEvent</a>
  
 
  
-
 

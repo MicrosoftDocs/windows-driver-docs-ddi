@@ -7,7 +7,7 @@ old-location: print\oemqueryfontdata.htm
 old-project: print
 ms.assetid: dccf1bca-6ea5-4cf0-b768-b569898c90e7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMQueryFontData, OEMQueryFontData function [Print Devices], print.oemqueryfontdata, print_unidrv-pscript_rendering_5044e745-e2bf-4047-a8d8-371fc21c33fa.xml, printoem/OEMQueryFontData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMQueryFontData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMQueryFontData function
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMQueryFontData</code> function retrieves information about a realized font. 
-
-
-## -syntax
-
-
-````
-LONG APIENTRY OEMQueryFontData(
-        DHPDEV                       dhpdev,
-        FONTOBJ                      *pfo,
-        ULONG                        iMode,
-        HGLYPH                       hg,
-        GLYPHDATA                    *pgd,
-  _Out_ _writes_bytes_(cjSize) PVOID pv,
-        ULONG                        cjSize
-);
-````
 
 
 ## -parameters

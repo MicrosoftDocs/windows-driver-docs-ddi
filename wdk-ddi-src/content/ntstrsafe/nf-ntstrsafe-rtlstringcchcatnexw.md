@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcchcatnex.htm
 old-project: kernel
 ms.assetid: a8919512-0e39-46f0-b421-776341c61fa2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCchCatNEx, RtlStringCchCatNExA, RtlStringCchCatNExW, RtlStringCchCatNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcatnex, ntstrsafe/RtlStringCchCatNExA, ntstrsafe/RtlStringCchCatNExW, safestrings_ff59619d-42b1-4d9f-80cf-8c6a331d1b3f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_name:
 -	RtlStringCchCatNExW
 -	RtlStringCchCatNExA
 -	RtlStringCchCatNExW
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlStringCchCatNExW function
@@ -53,22 +54,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 <b>The RtlStringCchCatNExW</b> and <b>RtlStringCchCatNExA</b> functions concatenate two character-counted strings while limiting the size of the appended string.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCchCatNExW(
-  _Inout_opt_ LPTSTR  pszDest,
-  _In_        size_t  cchDest,
-  _In_opt_    LPCTSTR pszSrc,
-  _In_        size_T  cchMaxAppend,
-  _Out_opt_   LPTSTR  *ppszDestEnd,
-  _Out_opt_   size_t  *pcchRemaining,
-  _In_        DWORD   dwFlags
-);
-````
 
 
 ## -parameters
@@ -252,7 +237,7 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 The size, in characters, of the destination buffer is provided to <b>RtlStringCchCatNExW</b> and <b>RtlStringCchCatNExA</b> to ensure that the functions do not write past the end of the buffer.
 
-<b>RtlStringCchCatNExW</b> and <b>RtlStringCchCatNExA</b> add to the functionality of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnw.md">RtlStringCchCatN</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control.
+<b>RtlStringCchCatNExW</b> and <b>RtlStringCchCatNExA</b> add to the functionality of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562836">RtlStringCchCatN</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control.
 
 Use <b>RtlStringCchCatNExW</b> to handle Unicode strings and <b>RtlStringCchCatNExA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
 
@@ -304,20 +289,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnw.md">RtlStringCchCatN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562802">RtlStringCbCatNEx</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562835">RtlStringCchCatEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562836">RtlStringCchCatN</a>
  
 
  
-
 

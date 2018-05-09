@@ -7,7 +7,7 @@ old-location: debugger\debug_event_context.htm
 old-project: debugger
 ms.assetid: 3748675F-8187-4072-A0D0-3764B4D20288
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PDEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT structure [Windows Debugging], PDEBUG_EVENT_CONTEXT, PDEBUG_EVENT_CONTEXT structure pointer [Windows Debugging], _DEBUG_EVENT_CONTEXT, dbgeng/DEBUG_EVENT_CONTEXT, dbgeng/PDEBUG_EVENT_CONTEXT, debugger.debug_event_context"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_EVENT_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT
 ---
@@ -50,19 +51,6 @@ req.typenames: DEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT
 
 
 Defines context information about an event.
-
-
-## -syntax
-
-
-````
-typedef struct _DEBUG_EVENT_CONTEXT {
-  ULONG Size;
-  ULONG ProcessEngineId;
-  ULONG ThreadEngineId;
-  ULONG FrameEngineId;
-} DEBUG_EVENT_CONTEXT, *PDEBUG_EVENT_CONTEXT;
-````
 
 
 ## -struct-fields
@@ -92,12 +80,11 @@ The frame engine ID of the event.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541478">DEBUG_EVENT_XXX</a>
-
-
-
  
 
  
-
 

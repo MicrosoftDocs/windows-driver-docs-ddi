@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_port_controller_set_control_in_params.htm
 old-project: usbref
 ms.assetid: d81d76a9-e482-4e22-93c0-a320905ee203
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS, UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS structure [Buses], _UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS, buses.ucmtcpci_port_controller_set_control_in_params, ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Ucmtcpciportcontrollerrequests.h
 api_name:
 -	UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS structure
@@ -51,24 +51,7 @@ req.product: Windows 10 or later.
 
 
 
-             Stores the values of all control registers. This structure is used in the <a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_set_control.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS {
-  UCMTCPCIPORTCONTROLLER                PortControllerObject;
-  UCMTCPCI_PORT_CONTROLLER_CONTROL_TYPE ControlType;
-  union {
-    UCMTCPCI_PORT_CONTROLLER_TCPC_CONTROL  TCPCControl;
-    UCMTCPCI_PORT_CONTROLLER_ROLE_CONTROL  RoleControl;
-    UCMTCPCI_PORT_CONTROLLER_FAULT_CONTROL FaultControl;
-    UCMTCPCI_PORT_CONTROLLER_POWER_CONTROL PowerControl;
-  };
-} UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS;
-````
+             Stores the values of all control registers. This structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805836">IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL</a> request.
 
 
 ## -struct-fields
@@ -78,7 +61,7 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS {
 
 ### -field PortControllerObject
 
-Handle to the port controller object that the client driver received in the previous call to <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate.md">UcmTcpciPortControllerCreate</a>.
+Handle to the port controller object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>.
 
 
 ### -field ControlType
@@ -88,42 +71,41 @@ Handle to the port controller object that the client driver received in the prev
                  indicates the type of control register. This enumeration is declared in UcmTcpciSpec.h.
 
 
-#### - FaultControl
-
-
-                     A 
-                 <b>UCMTCPCI_PORT_CONTROLLER_FAULT_CONTROL</b> structure that describes the FAULT_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
-
-
-#### - PowerControl
-
-
-                     A 
-                 <b>UCMTCPCI_PORT_CONTROLLER_POWER_CONTROL</b> structure that describes the FAULT_POWER Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
-
-
-#### - RoleControl
-
-
-                     A 
-                 <b>UCMTCPCI_PORT_CONTROLLER_ROLE_CONTROL</b> structure that describes the ROLE_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
-
-
-#### - TCPCControl
+### -field TCPCControl
 
 
                      A 
                  <b>UCMTCPCI_PORT_CONTROLLER_TCPC_CONTROL</b> structure that describes the TCPC_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
 
 
+### -field RoleControl
+
+
+                     A 
+                 <b>UCMTCPCI_PORT_CONTROLLER_ROLE_CONTROL</b> structure that describes the ROLE_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
+
+
+### -field FaultControl
+
+
+                     A 
+                 <b>UCMTCPCI_PORT_CONTROLLER_FAULT_CONTROL</b> structure that describes the FAULT_CONTROL Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
+
+
+### -field PowerControl
+
+
+                     A 
+                 <b>UCMTCPCI_PORT_CONTROLLER_POWER_CONTROL</b> structure that describes the FAULT_POWER Register defined as per the Universal Serial Bus Type-C Port Controller Interface Specification. This structure is declared in UcmTcpciSpec.h.
+
+
 ## -see-also
 
-<a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_set_control.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805836">IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL</a>
  
 
  
-
 

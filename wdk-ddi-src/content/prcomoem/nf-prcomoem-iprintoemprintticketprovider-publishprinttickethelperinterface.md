@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.PublishPrintTicketHelperInterface
-title: IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface method
+title: IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface method publishes the print ticket helper interface for either Unidrv or Pscript5 user interface (UI) plug-ins.
 old-location: print\iprintoemprintticketprovider_publishprinttickethelperinterface.htm
 old-project: print
 ms.assetid: d7512da3-eb47-4e22-9df8-b152b39cbcad
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], PublishPrintTicketHelperInterface method, IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface method [Print Devices], PublishPrintTicketHelperInterface method [Print Devices], IPrintOemPrintTicketProvider interface, PublishPrintTicketHelperInterface,IPrintOemPrintTicketProvider.PublishPrintTicketHelperInterface, prcomoem/IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, print.iprintoemprintticketprovider_publishprinttickethelperinterface, print_ticket-package_b314b169-8111-4320-89fc-a99fb6e30639.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices],PublishPrintTicketHelperInterface method, IPrintOemPrintTicketProvider.PublishPrintTicketHelperInterface, IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface, PublishPrintTicketHelperInterface method [Print Devices], PublishPrintTicketHelperInterface method [Print Devices],IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface, print.iprintoemprintticketprovider_publishprinttickethelperinterface, print_ticket-package_b314b169-8111-4320-89fc-a99fb6e30639.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemPrintTicketProvider.PublishPrintTicketHelperInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface method
+# IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface
 
 
 ## -description
 
 
 The <code>IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface</code> method publishes the print ticket helper interface for either Unidrv or Pscript5 user interface (UI) plug-ins.
-
-
-## -syntax
-
-
-````
-HRESULT PublishPrintTicketHelperInterface(
-  [in] IUnknown *pHelper
-);
-````
 
 
 ## -parameters

@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.get__NewEnum
-title: IWDTFStrings2::get__NewEnum method
+title: IWDTFStrings2::get__NewEnum
 author: windows-driver-content
 description: Gets a new iteration variable that the For Each loop structure implicitly uses.
-old-location: dtf\iwdtfdevicedepot2__newenum.htm
+old-location: dtf\iwdtfstrings2__newenum.htm
 old-project: dtf
-ms.assetid: cc864595-a0bb-4fd4-9d93-830e8fd6a346
+ms.assetid: 1e912b01-e5d1-44f6-b054-1cb5082ccdc4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework], _NewEnum property, IWDTFDeviceDepot2._NewEnum, IWDTFDeviceDepot2::get__NewEnum, IWDTFStrings2, IWDTFStrings2::get__NewEnum, Microsoft.WDTF.IWDTFDeviceDepot2._NewEnum, Microsoft::WDTF::IWDTFDeviceDepot2::_NewEnum, _NewEnum property [Windows Device Testing Framework], _NewEnum property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, dtf.iwdtfdevicedepot2__newenum, get__NewEnum,IWDTFStrings2.get__NewEnum, wdtf/IWDTFDeviceDepot2::_NewEnum, wdtf/IWDTFDeviceDepot2::get__NewEnum
+ms.date: 4/4/2018
+ms.keywords: IWDTFStrings2 interface [Windows Device Testing Framework],_NewEnum property, IWDTFStrings2._NewEnum, IWDTFStrings2.get__NewEnum, IWDTFStrings2::_NewEnum, IWDTFStrings2::get__NewEnum, Microsoft.WDTF.IWDTFStrings2._NewEnum, Microsoft::WDTF::IWDTFStrings2::_NewEnum, _NewEnum property [Windows Device Testing Framework], _NewEnum property [Windows Device Testing Framework],IWDTFStrings2 interface, dtf.iwdtfstrings2__newenum, get__NewEnum, wdtf/IWDTFStrings2::_NewEnum, wdtf/IWDTFStrings2::get__NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,15 +37,15 @@ api_type:
 api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFDeviceDepot2._NewEnum
--	IWDTFDeviceDepot2.get__NewEnum
-product: Windows
+-	IWDTFStrings2._NewEnum
+-	IWDTFStrings2.get__NewEnum
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFStrings2::get__NewEnum method
+# IWDTFStrings2::get__NewEnum
 
 
 ## -description
@@ -55,16 +55,6 @@ Gets a new iteration variable that the <b>For Each</b>
 loop structure implicitly uses.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get__NewEnum(
-  [out, retval] IUnknown **ppNewEnum
-);
-````
 
 
 ## -parameters
@@ -86,12 +76,11 @@ For more information about how ATL implements this functionality, see the
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439274">IWDTFStrings2</a>
  
 
  
-
 

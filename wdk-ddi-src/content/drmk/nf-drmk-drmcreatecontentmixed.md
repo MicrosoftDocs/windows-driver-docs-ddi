@@ -7,7 +7,7 @@ old-location: audio\drmcreatecontentmixed.htm
 old-project: audio
 ms.assetid: cec501d9-17e3-46a1-929e-4f9ba35ba721
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: DrmCreateContentMixed, DrmCreateContentMixed function [Audio Devices], aud-prop2_19a8815e-db9d-43a9-ad5a-c081a1af4f99.xml, audio.drmcreatecontentmixed, drmk/DrmCreateContentMixed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Drmk.dll
 api_name:
 -	DrmCreateContentMixed
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
+req.typenames: 
 ---
 
 # DrmCreateContentMixed function
@@ -51,18 +52,6 @@ req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 
 
 The <code>DrmCreateContentMixed</code> function creates a DRM content ID to identify a KS audio stream containing mixed content from a number of streams.
-
-
-## -syntax
-
-
-````
-NTSTATUS DrmCreateContentMixed(
-  _In_  PULONG paContentId,
-  _In_  ULONG  cContentId,
-  _Out_ PULONG pMixedContentId
-);
-````
 
 
 ## -parameters
@@ -102,32 +91,19 @@ A KS audio filter calls the <code>DrmCreateContentMixed</code> function to obtai
 
 If the caller does not specify any content IDs (that is, if <i>cContentId</i> is zero), the function assigns default content rights to the content ID that it creates to identify the composite stream.
 
-After obtaining a content ID from <code>DrmCreateContentMixed</code>, the caller can get the content rights assigned to the content ID by calling <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>.
+After obtaining a content ID from <code>DrmCreateContentMixed</code>, the caller can get the content rights assigned to the content ID by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>.
 
 After a change to the content rights of any of the components of a composite audio stream, the KS audio filter that mixes the stream must call <code>DrmCreateContentMixed</code> to obtain a new content ID for the composite audio stream. <code>DrmCreateContentMixed</code> determines the most restrictive of the content rights that are assigned to the individual content IDs specified in the <i>paContentId</i> array and assigns these rights to the new content ID.
 
-After a KS audio filter finishes using a content ID that it created using <code>DrmCreateContentMixed</code>, the filter must call <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a> to delete the content ID. However, before deleting an old content ID, the KS audio filter must first successfully forward a new content ID to all the streams to which it previously forwarded the old content ID. The KS audio filter forwards a content ID by calling a <b>DrmForwardContentTo</b><i>Xxx</i> function.
+After a KS audio filter finishes using a content ID that it created using <code>DrmCreateContentMixed</code>, the filter must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a> to delete the content ID. However, before deleting an old content ID, the KS audio filter must first successfully forward a new content ID to all the streams to which it previously forwarded the old content ID. The KS audio filter forwards a content ID by calling a <b>DrmForwardContentTo</b><i>Xxx</i> function.
 
-<code>DrmCreateContentMixed</code> performs the same function as <a href="..\portcls\nf-portcls-pccreatecontentmixed.md">PcCreateContentMixed</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536581">IDrmPort::CreateContentMixed</a>. For more information, see <a href="https://msdn.microsoft.com/62c739da-91e8-428e-b76c-ec9621b12597">DRM Functions and Interfaces</a>.
+<code>DrmCreateContentMixed</code> performs the same function as <a href="https://msdn.microsoft.com/library/windows/hardware/ff537689">PcCreateContentMixed</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536581">IDrmPort::CreateContentMixed</a>. For more information, see <a href="https://msdn.microsoft.com/62c739da-91e8-428e-b76c-ec9621b12597">DRM Functions and Interfaces</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pccreatecontentmixed.md">PcCreateContentMixed</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536581">IDrmPort::CreateContentMixed</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
 
 
 
@@ -135,16 +111,28 @@ After a KS audio filter finishes using a content ID that it created using <code>
 
 
 
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536351">DrmForwardContentToDeviceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536353">DrmForwardContentToInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536581">IDrmPort::CreateContentMixed</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537689">PcCreateContentMixed</a>
  
 
  
-
 

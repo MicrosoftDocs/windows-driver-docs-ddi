@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_create_shader_flags.htm
 old-project: display
 ms.assetid: 93F27775-3E74-4310-8E09-DCB079436706
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_CREATE_SHADER_FLAGS, D3D12DDI_CREATE_SHADER_FLAGS enumeration [Display Devices], D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION, D3D12DDI_CREATE_SHADER_FLAG_ENABLE_SHADER_TRACING, D3D12DDI_CREATE_SHADER_FLAG_NONE, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAGS, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAG_ENABLE_SHADER_TRACING, d3d12umddi/D3D12DDI_CREATE_SHADER_FLAG_NONE, display.d3d12ddi_create_shader_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_CREATE_SHADER_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_CREATE_SHADER_FLAGS
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D12DDI_CREATE_SHADER_FLAGS
 
 
 Defines flags for shader creation.
-
-
-## -syntax
-
-
-````
-typedef enum D3D12DDI_CREATE_SHADER_FLAGS { 
-  D3D12DDI_CREATE_SHADER_FLAG_NONE                   = 0x0,
-  D3D12DDI_CREATE_SHADER_FLAG_ENABLE_SHADER_TRACING  = 0x1,
-  D3D12DDI_CREATE_SHADER_FLAG_DISABLE_OPTIMIZATION   = 0x2
-} D3D12DDI_CREATE_SHADER_FLAGS;
-````
 
 
 ## -enum-fields

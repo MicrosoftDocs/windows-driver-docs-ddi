@@ -7,7 +7,7 @@ old-location: display\video_request_packet.htm
 old-project: display
 ms.assetid: 8ccc8c97-4c8c-4278-8eef-a612ce85439e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*PVIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET, PVIDEO_REQUEST_PACKET structure pointer [Display Devices], VIDEO_REQUEST_PACKET, VIDEO_REQUEST_PACKET structure [Display Devices], Video_Structs_38b404b6-a625-43a4-b2ad-21749c64eee1.xml, _VIDEO_REQUEST_PACKET, display.video_request_packet, video/PVIDEO_REQUEST_PACKET, video/VIDEO_REQUEST_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	video.h
 api_name:
 -	VIDEO_REQUEST_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_REQUEST_PACKET, *PVIDEO_REQUEST_PACKET
-req.product: Windows 10 or later.
 ---
 
 # _VIDEO_REQUEST_PACKET structure
@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-A pointer to a VIDEO_REQUEST_PACKET structure is passed to the miniport driver's <a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a> function by the video port driver. The video port driver sets up the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VRP</a> from the IRP code (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550710">IRP Major Function Codes</a>) sent in response to a GDI call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564838">EngDeviceIoControl</a>. Usually, the corresponding display driver makes the call to <b>EngDeviceIoControl</b> when it needs support from the video port-miniport driver pair. The video port driver calls the miniport driver with the <i>VRP</i> to process the given IOCTL_VIDEO_<i>XXX</i> request.
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_REQUEST_PACKET {
-  ULONG         IoControlCode;
-  PSTATUS_BLOCK StatusBlock;
-  PVOID         InputBuffer;
-  ULONG         InputBufferLength;
-  PVOID         OutputBuffer;
-  ULONG         OutputBufferLength;
-} VIDEO_REQUEST_PACKET, *PVIDEO_REQUEST_PACKET;
-````
+A pointer to a VIDEO_REQUEST_PACKET structure is passed to the miniport driver's <a href="https://msdn.microsoft.com/82951291-cf3e-486b-ad0e-f347fefe0370">HwVidStartIO</a> function by the video port driver. The video port driver sets up the <a href="https://msdn.microsoft.com/a1de1905-09f3-4689-ace9-06690a1f930a">VRP</a> from the IRP code (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550710">IRP Major Function Codes</a>) sent in response to a GDI call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564838">EngDeviceIoControl</a>. Usually, the corresponding display driver makes the call to <b>EngDeviceIoControl</b> when it needs support from the video port-miniport driver pair. The video port driver calls the miniport driver with the <i>VRP</i> to process the given IOCTL_VIDEO_<i>XXX</i> request.
 
 
 ## -struct-fields
@@ -105,20 +90,19 @@ Specifies the size in bytes of the output buffer. A miniport driver cannot enlar
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/82951291-cf3e-486b-ad0e-f347fefe0370">HwVidStartIO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570515">Video Miniport Driver I/O Control Codes</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_start_io.md">HwVidStartIO</a>
-
-
-
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\wwan_set_context_state.htm
 old-project: netvista
 ms.assetid: f1ed31af-97a7-472e-b834-577470950335
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_a4c14223-1c16-4f87-8820-2a45f04bb62d.xml, _WWAN_SET_CONTEXT_STATE, netvista.wwan_set_context_state, wwan/PWWAN_SET_CONTEXT_STATE, wwan/WWAN_SET_CONTEXT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SET_CONTEXT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SET_CONTEXT_STATE, *PWWAN_SET_CONTEXT_STATE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_SET_CONTEXT_STATE structure
@@ -52,23 +52,6 @@ req.product: Windows 10 or later.
 
 The WWAN_SET_CONTEXT_STATE structure represents the command to set the Packet Data Protocol (PDP)
   context state of the MB device.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_SET_CONTEXT_STATE {
-  ULONG                   ConnectionId;
-  WWAN_ACTIVATION_COMMAND ActivationCommand;
-  WCHAR                   AccessString[WWAN_ACCESSSTRING_LEN];
-  WCHAR                   UserName[WWAN_USERNAME_LEN];
-  WCHAR                   Password[WWAN_PASSWORD_LEN];
-  WWAN_COMPRESSION        Compression;
-  WWAN_AUTH_PROTOCOL      AuthType;
-  WWAN_IP_TYPE            IPType;
-} WWAN_SET_CONTEXT_STATE, *PWWAN_SET_CONTEXT_STATE;
-````
 
 
 ## -struct-fields
@@ -260,24 +243,23 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_auth_protocol.md">WWAN_AUTH_PROTOCOL</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_activation_command.md">WWAN_ACTIVATION_COMMAND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567920">NDIS_WWAN_SET_CONTEXT_STATE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571196">WWAN_ACTIVATION_COMMAND</a>
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_context_state.md">NDIS_WWAN_SET_CONTEXT_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571198">WWAN_AUTH_PROTOCOL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571200">WWAN_COMPRESSION</a>
  
 
  
-
 

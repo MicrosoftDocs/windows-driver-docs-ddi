@@ -7,7 +7,7 @@ old-location: netvista\ndis_processor_vendor.htm
 old-project: netvista
 ms.assetid: c2d1b967-32fb-437a-a0bd-e0028acee022
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR enumeration [Network Drivers Starting with Windows Vista], NdisProcessorVendorAuthenticAMD, NdisProcessorVendorGenuinIntel, NdisProcessorVendorUnknown, PNDIS_PROCESSOR_VENDOR, PNDIS_PROCESSOR_VENDOR enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PROCESSOR_VENDOR, ndis_sysinfo_ref_7037b548-2ccc-4f39-9b34-33002f811bf1.xml, netvista.ndis_processor_vendor, ntddndis/NDIS_PROCESSOR_VENDOR, ntddndis/NdisProcessorVendorAuthenticAMD, ntddndis/NdisProcessorVendorGenuinIntel, ntddndis/NdisProcessorVendorUnknown, ntddndis/PNDIS_PROCESSOR_VENDOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_PROCESSOR_VENDOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PROCESSOR_VENDOR, *PNDIS_PROCESSOR_VENDOR
 ---
@@ -50,18 +51,6 @@ req.typenames: NDIS_PROCESSOR_VENDOR, *PNDIS_PROCESSOR_VENDOR
 
 
 The NDIS_PROCESSOR_VENDOR enumeration identifies a processor vendor.
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_PROCESSOR_VENDOR { 
-  NdisProcessorVendorUnknown,
-  NdisProcessorVendorGenuinIntel,
-  NdisProcessorVendorAuthenticAMD
-} NDIS_PROCESSOR_VENDOR, *PNDIS_PROCESSOR_VENDOR;
-````
 
 
 ## -enum-fields
@@ -92,7 +81,7 @@ The processor vendor is AMD.
 
 
 The NDIS_PROCESSOR_VENDOR enumeration is used in the 
-    <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">
+    <a href="https://msdn.microsoft.com/f59b9394-7742-423d-9a6e-3a429ccb0740">
     NDIS_SYSTEM_PROCESSOR_INFO</a> structure.
 
 
@@ -100,12 +89,11 @@ The NDIS_PROCESSOR_VENDOR enumeration is used in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567871">NDIS_SYSTEM_PROCESSOR_INFO</a>
  
 
  
-
 

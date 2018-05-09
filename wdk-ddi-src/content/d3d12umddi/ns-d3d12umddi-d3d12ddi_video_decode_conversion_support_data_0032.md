@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-video-decode-conversion-support-data-0032.htm
 old-project: display
 ms.assetid: 1395fe30-9bbf-433c-8696-a0f842bad10e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032, display.d3d12ddi-video-decode-conversion-support-data-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032
 ---
@@ -50,23 +51,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032
 
 
 Video decode conversion support data.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032 {
-  UINT                                                 NodeIndex;
-  D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020             Configuration;
-  D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020               DecodeSample;
-  D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020               OutputFormat;
-  DXGI_RATIONAL                                        FrameRate;
-  UINT                                                 BitRate;
-  D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS_0020  SupportFlags;
-  D3D12DDI_VIDEO_SCALE_SUPPORT_0032                    ScaleSupport;
-} D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: stream\devcaps.htm
 old-project: stream
 ms.assetid: 4032ec5c-c98a-44f9-9c74-dc5ada308d33
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PDEVCAPS, DEVCAPS, DEVCAPS structure [Streaming Media Devices], PDEVCAPS, PDEVCAPS structure pointer [Streaming Media Devices], ksmedia/DEVCAPS, ksmedia/PDEVCAPS, stream.devcaps, tagDEVCAPS, vidcapstruct_61cce92e-4f74-48ff-ae84-72579136a64f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	DEVCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVCAPS, *PDEVCAPS
 ---
@@ -50,38 +51,6 @@ req.typenames: DEVCAPS, *PDEVCAPS
 
 
 The DEVCAPS structure describes the capabilities of an external device.
-
-
-## -syntax
-
-
-````
-typedef struct tagDEVCAPS {
-  LONG CanRecord;
-  LONG CanRecordStrobe;
-  LONG HasAudio;
-  LONG HasVideo;
-  LONG UsesFiles;
-  LONG CanSave;
-  LONG DeviceType;
-  LONG TCRead;
-  LONG TCWrite;
-  LONG CTLRead;
-  LONG IndexRead;
-  LONG Preroll;
-  LONG Postroll;
-  LONG SyncAcc;
-  LONG NormRate;
-  LONG CanPreview;
-  LONG CanMonitorSrc;
-  LONG CanTest;
-  LONG VideoIn;
-  LONG AudioIn;
-  LONG Calibrate;
-  LONG SeekType;
-  LONG SimulatedHardware;
-} DEVCAPS, *PDEVCAPS;
-````
 
 
 ## -struct-fields
@@ -325,16 +294,15 @@ The <b>DeviceType</b> member can be used by an application to detect the device 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_timecode.md">TIMECODE</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_extdevice_s.md">KSPROPERTY_EXTDEVICE_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565156">KSPROPERTY_EXTDEVICE_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568520">TIMECODE</a>
  
 
  
-
 

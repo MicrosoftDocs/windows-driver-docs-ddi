@@ -7,7 +7,7 @@ old-location: display\d3dkmtwaitforidle.htm
 old-project: display
 ms.assetid: 6107da09-3f3d-4a89-91e4-f920061f7704
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTWaitForIdle, D3DKMTWaitForIdle function [Display Devices], OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml, d3dkmthk/D3DKMTWaitForIdle, display.d3dkmtwaitforidle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTWaitForIdle
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTWaitForIdle function
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTWaitForIdle</b> function waits for a display device to be idle. 
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTWaitForIdle(
-  _In_ const D3DKMT_WAITFORIDLE *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforidle.md">D3DKMT_WAITFORIDLE</a> structure that specifies the display device to wait for. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548423">D3DKMT_WAITFORIDLE</a> structure that specifies the display device to wait for. 
 
 
 ## -returns
@@ -125,12 +116,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_waitforidle.md">D3DKMT_WAITFORIDLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548423">D3DKMT_WAITFORIDLE</a>
  
 
  
-
 

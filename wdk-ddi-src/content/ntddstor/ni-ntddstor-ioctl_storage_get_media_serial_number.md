@@ -7,8 +7,8 @@ old-location: storage\ioctl_storage_get_media_serial_number.htm
 old-project: storage
 ms.assetid: aa903b7e-e844-466e-85b1-33fe6ba40689
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control code [Storage Devices], k307_dd8dcdec-9756-435c-abbb-14dd1a64ee11.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, storage.ioctl_storage_get_media_serial_number
+ms.date: 3/29/2018
+ms.keywords: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control code [Storage Devices], k307_dd8dcdec-9756-435c-abbb-14dd1a64ee11.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, storage.ioctl_storage_get_media_serial_number
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER IOCTL
@@ -105,12 +106,11 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562213">MEDIA_SERIAL_NUMBER_DATA</a>
-
-
-
  
 
  
-
 

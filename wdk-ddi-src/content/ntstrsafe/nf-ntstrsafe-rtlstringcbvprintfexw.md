@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcbvprintfex.htm
 old-project: kernel
 ms.assetid: 29359aa3-2429-45fc-bc19-b58df60c4e89
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCbVPrintfEx, RtlStringCbVPrintfExA, RtlStringCbVPrintfExW, RtlStringCbVPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbvprintfex, ntstrsafe/RtlStringCbVPrintfExA, ntstrsafe/RtlStringCbVPrintfExW, safestrings_95156244-d97b-452b-bd09-3e68d3c25392.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_name:
 -	RtlStringCbVPrintfExW
 -	RtlStringCbVPrintfExA
 -	RtlStringCbVPrintfExW
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlStringCbVPrintfExW function
@@ -53,22 +54,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 The <b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> functions create a byte-counted text string, with formatting that is based on supplied formatting information.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCbVPrintfExW(
-  _Out_opt_ LPTSTR  pszDest,
-  _In_      size_t  cbDest,
-  _Out_opt_ LPTSTR  *ppszDestEnd,
-  _Out_opt_ size_t  *pcbRemaining,
-  _In_      DWORD   dwFlags,
-  _In_opt_  LPCTSTR pszFormat,
-  _In_      va_list argList
-);
-````
 
 
 ## -parameters
@@ -261,7 +246,7 @@ _<b>vsnwprintf</b>
 </ul>
 All of these functions accept a format string, along with a set of arguments in a <b>va_list</b>-typed argument list, and return a formatted string. The size, in bytes, of the destination buffer is provided to <b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> to ensure that they do not write past the end of the buffer.
 
-<b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> add to the functionality of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a> by returning a pointer to the end of the destination string, as well as the number of bytes left unused in that string. Flags can be passed to the function for additional control.
+<b>RtlStringCbVPrintfExW</b> and <b>RtlStringCbVPrintfExA</b> add to the functionality of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562831">RtlStringCbVPrintf</a> by returning a pointer to the end of the destination string, as well as the number of bytes left unused in that string. Flags can be passed to the function for additional control.
 
 For more information about <b>va_list</b>-typed argument lists, see the Microsoft Windows SDK documentation.
 
@@ -315,20 +300,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562828">RtlStringCbPrintfEx</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfexw.md">RtlStringCchVPrintfEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562831">RtlStringCbVPrintf</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562868">RtlStringCchVPrintfEx</a>
  
 
  
-
 

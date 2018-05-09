@@ -7,7 +7,7 @@ old-location: buses\usbfn_event.htm
 old-project: usbref
 ms.assetid: 4A1A4E49-6452-4291-8CD4-FA390C1F167E
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBFN_EVENT, USBFN_EVENT, USBFN_EVENT enumeration [Buses], UsbfnEventAttach, UsbfnEventBusTearDown, UsbfnEventConfigured, UsbfnEventDetach, UsbfnEventMaximum, UsbfnEventMinimum, UsbfnEventPortType, UsbfnEventReset, UsbfnEventResume, UsbfnEventSetInterface, UsbfnEventSetupPacket, UsbfnEventSuspend, UsbfnEventUnConfigured, _USBFN_EVENT, buses.usbfn_event, usbfnbase/USBFN_EVENT, usbfnbase/UsbfnEventAttach, usbfnbase/UsbfnEventBusTearDown, usbfnbase/UsbfnEventConfigured, usbfnbase/UsbfnEventDetach, usbfnbase/UsbfnEventMaximum, usbfnbase/UsbfnEventMinimum, usbfnbase/UsbfnEventPortType, usbfnbase/UsbfnEventReset, usbfnbase/UsbfnEventResume, usbfnbase/UsbfnEventSetInterface, usbfnbase/UsbfnEventSetupPacket, usbfnbase/UsbfnEventSuspend, usbfnbase/UsbfnEventUnConfigured"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	usbfnbase.h
 api_name:
 -	USBFN_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_EVENT, *PUSBFN_EVENT
-req.product: Windows 10 or later.
 ---
 
 # _USBFN_EVENT enumeration
@@ -51,28 +51,6 @@ req.product: Windows 10 or later.
 
 
 Defines notifications sent to class drivers.
-
-
-## -syntax
-
-
-````
-typedef enum _USBFN_EVENT { 
-  UsbfnEventMinimum       = 0x0,
-  UsbfnEventAttach,
-  UsbfnEventReset,
-  UsbfnEventDetach,
-  UsbfnEventSuspend,
-  UsbfnEventResume,
-  UsbfnEventSetupPacket,
-  UsbfnEventConfigured,
-  UsbfnEventUnConfigured,
-  UsbfnEventPortType,
-  UsbfnEventBusTearDown,
-  UsbfnEventSetInterface,
-  UsbfnEventMaximum
-} USBFN_EVENT;
-````
 
 
 ## -enum-fields
@@ -107,7 +85,7 @@ USBFN has completed a USB Reset. If previously configured, class drivers should 
 
     There have been no SOF packets on the bus for 3ms.
     If a class driver wants to issue a remote wake up,
-     the driver must use <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_signal_remote_wakeup.md">IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP</a> or <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_transfer_in.md">IOCTL_INTERNAL_USBFN_TRANSFER_IN</a>.
+     the driver must use <a href="https://msdn.microsoft.com/library/windows/hardware/mt187906">IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/mt188024">IOCTL_INTERNAL_USBFN_TRANSFER_IN</a>.
 
 
 ### -field UsbfnEventResume
@@ -126,10 +104,10 @@ USBFN has resumed from suspend to the previous state.
  The setup packet is available in the <b>SetupPacket</b> field of the
     event. If the control transfer does not require a data stage,
      class drivers should respond with
-    <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_control_status_handshake_out.md">IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/mt187893">IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT</a>.
     If a data stage is required, class drivers should respond with
-    one or more <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_transfer_in.md">IOCTL_INTERNAL_USBFN_TRANSFER_IN</a> or <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_transfer_out.md">IOCTL_INTERNAL_USBFN_TRANSFER_OUT</a>, followed by
-    <a href="..\usbfnioctl\ni-usbfnioctl-ioctl_internal_usbfn_control_status_handshake_in.md">IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN</a> or <b>IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT</b> in the opposite
+    one or more <a href="https://msdn.microsoft.com/library/windows/hardware/mt188024">IOCTL_INTERNAL_USBFN_TRANSFER_IN</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/mt187905">IOCTL_INTERNAL_USBFN_TRANSFER_OUT</a>, followed by
+    <a href="https://msdn.microsoft.com/library/windows/hardware/mt188023">IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN</a> or <b>IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT</b> in the opposite
     direction.
 
 

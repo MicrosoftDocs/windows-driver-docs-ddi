@@ -7,7 +7,7 @@ old-location: stream\ksgateremoveoffinputfromand.htm
 old-project: stream
 ms.assetid: 37f463bb-6b7a-4262-9e4b-3650025acb7c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGateRemoveOffInputFromAnd, KsGateRemoveOffInputFromAnd function [Streaming Media Devices], avfunc_604705b6-08f8-4048-8b29-f89b645f971a.xml, ks/KsGateRemoveOffInputFromAnd, stream.ksgateremoveoffinputfromand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsGateRemoveOffInputFromAnd
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,16 +53,6 @@ req.typenames:
 The<b> KsGateRemoveOffInputFromAnd</b> function removes an existing input that is in the OFF state from an AND gate.
 
 
-## -syntax
-
-
-````
-void __inline KsGateRemoveOffInputFromAnd(
-  _In_ PKSGATE AndGate
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ void __inline KsGateRemoveOffInputFromAnd(
 
 ### -param AndGate [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure representing the AND gate from which to remove an OFF input.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> structure representing the AND gate from which to remove an OFF input.
 
 
 ## -returns
@@ -89,39 +80,38 @@ Removing the last OFF input from the gate results in the gate opening and the tr
 
 <b>KsGateRemoveOffInputFromAnd</b> should only be used on gates that were specifically created as AND gates; AVStream does not verify that the given gate is an AND gate.
 
-<b>KsGateRemoveOffInputFromAnd</b> is an inline function call to <a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>. If conceptually removing an existing input to the gate rather than turning it off, a minidriver should call <b>KsGateRemoveOffInputFromAnd</b> instead of <b>KsGateTurnInputOn</b>.
+<b>KsGateRemoveOffInputFromAnd</b> is an inline function call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562591">KsGateTurnInputOn</a>. If conceptually removing an existing input to the gate rather than turning it off, a minidriver should call <b>KsGateRemoveOffInputFromAnd</b> instead of <b>KsGateTurnInputOn</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562567">KsGateAddOffInputToAnd</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateaddoninputtoand.md">KsGateAddOnInputToAnd</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562569">KsGateAddOnInputToAnd</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateremoveoninputfromand.md">KsGateRemoveOnInputFromAnd</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562584">KsGateRemoveOnInputFromAnd</a>
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562589">KsGateTurnInputOff</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562591">KsGateTurnInputOn</a>
  
 
  
-
 

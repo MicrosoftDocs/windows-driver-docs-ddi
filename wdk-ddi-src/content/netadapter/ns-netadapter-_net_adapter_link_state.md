@@ -24,7 +24,7 @@ req.unicode-ansi:
 req.max-support:
 req.alt-api:
 req.alt-loc:
-req.typenames: *PNET_ADAPTER_LINK_STATE, NET_ADAPTER_LINK_STATE 
+req.typenames: NET_ADAPTER_LINK_STATE, *PNET_ADAPTER_LINK_STATE 
 topictype: 
 -	apiref
 apitype: 

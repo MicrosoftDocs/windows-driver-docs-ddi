@@ -7,7 +7,7 @@ old-location: stream\ksproperty_cameracontrol_video_stabilization_mode.htm
 old-project: stream
 ms.assetid: a6075509-1f88-4d24-8bac-2c7e047c8525
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE, KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE, ksmedia/KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY_ID, stream.ksproperty_cameracontrol_video_stabilization_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
 ---
@@ -50,16 +51,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
 
 
 Used to specify camera video stabilization.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY_ID  = 0
-} KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE;
-````
 
 
 ## -enum-fields
@@ -74,12 +65,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj156043">KSPRO
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156043">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY</a>
-
-
-
  
 
  
-
 

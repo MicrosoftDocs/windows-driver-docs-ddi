@@ -7,7 +7,7 @@ old-location: ifsk\mrxpreparsename.htm
 old-project: ifsk
 ms.assetid: b74acc12-8fc2-497f-9f65-8b1a85a03286
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: MRxPreparseName, MRxPreparseName routine [Installable File System Drivers], PMRX_PREPARSE_NAME, ifsk.mrxpreparsename, mrx/MRxPreparseName, mrxref_4f7f0d54-93a0-4b61-bf62-6e7b1063415c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,32 +38,19 @@ api_location:
 -	mrx.h
 api_name:
 -	MRxPreparseName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_PREPARSE_NAME callback
+# PMRX_PREPARSE_NAME callback function
 
 
 ## -description
 
 
 The<i> MRxPreparseName</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to give a network mini-redirector the opportunity to preparse a name. 
-
-
-## -prototype
-
-
-````
-PMRX_PREPARSE_NAME MRxPreparseName;
-
-NTSTATUS MRxPreparseName(
-  _Inout_ PRX_CONTEXT     RxContext,
-  _In_    PUNICODE_STRING Name
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -105,36 +92,35 @@ RDBSS ignores the return value from <i>MRxPreparseName</i>.
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_create_v_net_root.md">MRxCreateVNetRoot</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_finalize_net_root_calldown.md">MRxFinalizeNetRoot</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_create_srvcall.md">MRxCreateSrvCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549869">MRxCreateVNetRoot</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_srvcall_winner_notify.md">MRxSrvCallWinnerNotify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_finalize_v_net_root_calldown.md">MRxFinalizeVNetRoot</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_extract_netroot_name.md">MRxExtractNetRootName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554426">RxFinalizeSrvCall</a>
  
 
  
-
 

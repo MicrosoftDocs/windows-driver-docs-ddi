@@ -7,7 +7,7 @@ old-location: stream\ks_datarange_h264_video.htm
 old-project: stream
 ms.assetid: E52B252F-0530-4543-A44C-95D4198504CA
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO, KS_DATARANGE_H264_VIDEO structure [Streaming Media Devices], PKS_DATARANGE_H264_VIDEO, PKS_DATARANGE_H264_VIDEO structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_H264_VIDEO, ksmedia/PKS_DATARANGE_H264_VIDEO, stream.ks_datarange_h264_video, tagKS_DATARANGE_H264_VIDEO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KS_DATARANGE_H264_VIDEO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_H264_VIDEO, *PKS_DATARANGE_H264_VIDEO
 ---
@@ -50,22 +51,6 @@ req.typenames: KS_DATARANGE_H264_VIDEO, *PKS_DATARANGE_H264_VIDEO
 
 
 The KS_DATARANGE_H264_VIDEO structure describes the range of MPEG-2 video formats available for a stream.
-
-
-## -syntax
-
-
-````
-typedef struct _KS_DATARANGE_H264_VIDEO {
-  KSDATARANGE                 DataRange;
-  BOOL                        bFixedSizeSamples;
-  BOOL                        bTemporalCompression;
-  DWORD                       StreamDescriptionFlags;
-  DWORD                       MemoryAllocationFlags;
-  KS_VIDEO_STREAM_CONFIG_CAPS ConfigCaps;
-  KS_H264VIDEOINFO            VideoInfoHeader;
-} KS_DATARANGE_H264_VIDEO, *PKS_DATARANGE_H264_VIDEO;
-````
 
 
 ## -struct-fields
@@ -110,7 +95,6 @@ Specifies the details of the video stream.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
 
@@ -118,12 +102,12 @@ Specifies the details of the video stream.
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_h264videoinfo.md">KS_H264VIDEOINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464008">KS_H264VIDEOINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567706">KS_VIDEO_STREAM_CONFIG_CAPS</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: print\printpropertiescollection.htm
 old-project: print
 ms.assetid: 824E8A5C-7530-4C7B-B093-386DD3D45A6B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: PrintPropertiesCollection, PrintPropertiesCollection structure [Print Devices], print.printpropertiescollection, winspool/PrintPropertiesCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Winspool.h
 api_name:
 -	PrintPropertiesCollection
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintPropertiesCollection
-req.product: Windows 10 or later.
 ---
 
 # PrintPropertiesCollection structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                    numberOfProperties;
-  PrintNamedProperty       *propertiesCollection;
-} PrintPropertiesCollection;
-````
 
 
 ## -struct-fields

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	PosDeviceType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PosDeviceType
 ---
@@ -49,22 +50,7 @@ req.typenames: PosDeviceType
 ## -description
 
 
-This enumeration defines values used in the <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posdevicebasicstype.md">PosDeviceBasicsType</a> structure to indicate the type of device (for instance, barcode scanner or magnetic stripe reader). 
-
-
-## -syntax
-
-
-````
-typedef enum _PosDeviceType { 
-  PosDeviceType_Unknown               = 0,
-  PosDeviceType_BarcodeScanner        = 1,
-  PosDeviceType_MagneticStripeReader  = 2,
-  PosDeviceType_Printer               = 3,
-  PosDeviceType_CashDrawer            = 4,
-  PosDeviceType_Max                   = 5
-} PosDeviceType;
-````
+This enumeration defines values used in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772213">PosDeviceBasicsType</a> structure to indicate the type of device (for instance, barcode scanner or magnetic stripe reader). 
 
 
 ## -enum-fields

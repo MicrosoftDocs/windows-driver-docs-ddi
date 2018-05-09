@@ -7,8 +7,8 @@ old-location: display\d3dkmtcreatedevice.htm
 old-project: display
 ms.assetid: 91f559cc-c84b-450d-b52c-8289e976f991
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3DKMTCreateDevice, D3DKMTCreateDevice callback function [Display Devices], OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, PFND3DKMT_CREATEDEVICE, d3dkmthk/D3DKMTCreateDevice, display.d3dkmtcreatedevice
+ms.date: 4/16/2018
+ms.keywords: D3DKMTCreateDevice, D3DKMTCreateDevice callback function [Display Devices], OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, PFND3DKMT_CREATEDEVICE, PFND3DKMT_CREATEDEVICE callback, d3dkmthk/D3DKMTCreateDevice, display.d3dkmtcreatedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,28 +38,19 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTCreateDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
+req.typenames: 
 ---
 
-# PFND3DKMT_CREATEDEVICE callback
+# PFND3DKMT_CREATEDEVICE callback function
 
 
 ## -description
 
 
 The <b>D3DKMTCreateDevice</b> function creates a kernel-mode device context.
-
-
-## -prototype
-
-
-````
-NTSTATUS D3DKMTCreateDevice(
-  _Inout_ D3DKMT_CREATEDEVICE *pData
-);
-````
 
 
 ## -parameters
@@ -78,7 +69,7 @@ NTSTATUS D3DKMTCreateDevice(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdevice.md">D3DKMT_CREATEDEVICE</a> structure that describes the kernel-mode device context.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547819">D3DKMT_CREATEDEVICE</a> structure that describes the kernel-mode device context.
 
 
 ## -returns
@@ -133,7 +124,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_createdevice.md">D3DKMTCreateDevice</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -147,12 +138,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdevice.md">D3DKMT_CREATEDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547819">D3DKMT_CREATEDEVICE</a>
  
 
  
-
 

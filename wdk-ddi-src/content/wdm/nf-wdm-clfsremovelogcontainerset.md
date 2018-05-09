@@ -7,7 +7,7 @@ old-location: kernel\clfsremovelogcontainerset.htm
 old-project: kernel
 ms.assetid: b73a125f-3ab9-4ec6-a154-7b32334e95eb
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsRemoveLogContainerSet, ClfsRemoveLogContainerSet routine [Kernel-Mode Driver Architecture], Clfs_8455da3b-79fb-4511-8682-e9167620a369.xml, kernel.clfsremovelogcontainerset, wdm/ClfsRemoveLogContainerSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsRemoveLogContainerSet
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsRemoveLogContainerSet function
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>ClfsRemoveLogContainerSet</b> routine atomically removes a set of containers from a CLFS log.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsRemoveLogContainerSet(
-  _In_ PLOG_FILE_OBJECT plfoLog,
-  _In_ USHORT           cContainers,
-  _In_ PUNICODE_STRING  rgwszContainerPath,
-  _In_ BOOLEAN          fForce
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ NTSTATUS ClfsRemoveLogContainerSet(
 
 ### -param plfoLog [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the CLFS log from which the containers will be removed. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the CLFS log from which the containers will be removed. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>. 
 
 
 ### -param cContainers [in]
@@ -84,7 +71,7 @@ The number of containers in the set. This is the number of elements in the <i>rg
 
 ### -param rgwszContainerPath [in]
 
-A pointer to an array of <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structures, each of which supplies the path name for one of the containers to be removed. The number of elements in the array is given by <i>cContainers</i>. A given path can be absolute or relative to the location of the base log file for the CLFS log represented by <i>plfoLog</i>. Paths that are relative to the base log file must begin with CLFS_CONTAINER_RELATIVE_PREFIX, which is the string literal (L"%BLF%\\"). The directories "." and ".." are not allowed in a relative path.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structures, each of which supplies the path name for one of the containers to be removed. The number of elements in the array is given by <i>cContainers</i>. A given path can be absolute or relative to the location of the base log file for the CLFS log represented by <i>plfoLog</i>. Paths that are relative to the base log file must begin with CLFS_CONTAINER_RELATIVE_PREFIX, which is the string literal (L"%BLF%\\"). The directories "." and ".." are not allowed in a relative path.
 
 
 ### -param fForce [in]
@@ -114,28 +101,27 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540770">ClfsAddLogContainerSet</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/5c49bf4f-acc6-4c0f-bbc2-bafb68ea1a74">ClfsRemoveLogContainer </a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfsremovelogcontainer.md">ClfsRemoveLogContainer </a>
-
-
-
-<a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

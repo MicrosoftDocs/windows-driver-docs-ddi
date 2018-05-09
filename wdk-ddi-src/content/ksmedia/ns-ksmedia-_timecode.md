@@ -7,7 +7,7 @@ old-location: stream\timecode.htm
 old-project: stream
 ms.assetid: 3387e014-3a62-4d76-ac6d-6446e4fa39d0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PTIMECODE, PTIMECODE, PTIMECODE union pointer [Streaming Media Devices], TIMECODE, TIMECODE union [Streaming Media Devices], _timecode, ksmedia/PTIMECODE, ksmedia/TIMECODE, stream.timecode, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TIMECODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TIMECODE
 ---
@@ -52,44 +53,29 @@ req.typenames: TIMECODE
 The TIMECODE union describes a timecode from an external device. This structure is no longer used.
 
 
-## -syntax
-
-
-````
-typedef union _timecode {
-  struct {
-    WORD  wFrameRate;
-    WORD  wFrameFract;
-    DWORD dwFrames;
-  };
-  DWORDLONG qw;
-} TIMECODE, *PTIMECODE;
-````
-
-
 ## -struct-fields
 
 
 
 
-### -field qw
+### -field wFrameRate
 
-Specifies the timecode as a quad-word.
-
-
-#### - dwFrames
-
-Specifies a timecode value as a binary frame count.
+Specifies the frame rate.
 
 
-#### - wFrameFract
+### -field wFrameFract
 
 Specifies the fractional frame. The full-scale frame is 0x1000.
 
 
-#### - wFrameRate
+### -field dwFrames
 
-Specifies the frame rate.
+Specifies a timecode value as a binary frame count.
+
+
+### -field qw
+
+Specifies the timecode as a quad-word.
 
 
 ## -remarks
@@ -103,12 +89,11 @@ This structure is defined for the purpose of searching to a timecode based on an
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/f3ff3815-0f4f-4fcb-89bd-e77d8002813c">KSPROPERTY_EXTXPORT_RAW_AVC_CMD</a>
-
-
-
  
 
  
-
 

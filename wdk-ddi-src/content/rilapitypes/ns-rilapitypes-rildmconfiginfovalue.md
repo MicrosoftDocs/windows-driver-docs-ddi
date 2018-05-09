@@ -7,7 +7,7 @@ old-location: netvista\rildmconfiginfovalue.htm
 old-project: netvista
 ms.assetid: dda43544-4609-4674-9616-8e09939f0c39
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], netvista.rildmconfiginfovalue, ntddrilapitypes/RILDMCONFIGINFOVALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILDMCONFIGINFOVALUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDMCONFIGINFOVALUE, *LPRILDMCONFIGINFOVALUE
-req.product: Windows 10 or later.
 ---
 
 # RILDMCONFIGINFOVALUE structure
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILDMCONFIGINFOVALUE {
-  DWORD                cbSize;
-  RILDMCONFIGINFOTYPE  dwType;
-  BOOL                 fValue;
-  DWORD                dwValue;
-  WCHAR [256]          wszValue;
-} RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE;
-````
 
 
 ## -struct-fields

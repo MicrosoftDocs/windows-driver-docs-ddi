@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetConstantNameWide
-title: IDebugSymbols3::GetConstantNameWide method
+title: IDebugSymbols3::GetConstantNameWide
 author: windows-driver-content
 description: The GetConstantNameWide method returns the name of the specified constant.
 old-location: debugger\getconstantnamewide.htm
 old-project: debugger
 ms.assetid: 743d2f83-905b-4bc9-8e23-b330c3ca7629
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, GetConstantNameWide,IDebugSymbols3.GetConstantNameWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, IDebugSymbols3::GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide
+ms.date: 4/24/2018
+ms.keywords: GetConstantNameWide, GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetConstantNameWide method, IDebugSymbols3.GetConstantNameWide, IDebugSymbols3::GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, debugger.getconstantnamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetConstantNameWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetConstantNameWide method
+# IDebugSymbols3::GetConstantNameWide
 
 
 ## -description
 
 
 The <b>GetConstantNameWide</b>  method returns the name of the specified constant.
-
-
-## -syntax
-
-
-````
-HRESULT GetConstantNameWide(
-  [in]            ULONG64 Module,
-  [in]            ULONG   TypeId,
-  [in]            ULONG64 Value,
-  [out, optional] PWSTR   NameBuffer,
-  [in]            ULONG   NameBufferSize,
-  [out, optional] PULONG  NameSize
-);
-````
 
 
 ## -parameters

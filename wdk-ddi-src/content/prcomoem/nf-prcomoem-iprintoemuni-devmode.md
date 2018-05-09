@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.DevMode
-title: IPrintOemUni::DevMode method
+title: IPrintOemUni::DevMode
 author: windows-driver-content
 description: The IPrintOemUni::DevMode method, provided by rendering plug-ins for Unidrv, performs operations on private DEVMODEW members.
 old-location: print\iprintoemuni_devmode.htm
 old-project: print
 ms.assetid: df6bde70-ba14-411b-88a1-b45f2e2756ef
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DevMode method [Print Devices], DevMode method [Print Devices], IPrintOemUni interface, DevMode,IPrintOemUni.DevMode, IPrintOemUni, IPrintOemUni interface [Print Devices], DevMode method, IPrintOemUni::DevMode, prcomoem/IPrintOemUni::DevMode, print.iprintoemuni_devmode, print_unidrv-pscript_rendering_f7793c3f-de50-4699-a9f1-bf73f8171ecc.xml
+ms.date: 4/20/2018
+ms.keywords: DevMode, DevMode method [Print Devices], DevMode method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DevMode method, IPrintOemUni.DevMode, IPrintOemUni::DevMode, prcomoem/IPrintOemUni::DevMode, print.iprintoemuni_devmode, print_unidrv-pscript_rendering_f7793c3f-de50-4699-a9f1-bf73f8171ecc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemUni.DevMode
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::DevMode method
+# IPrintOemUni::DevMode
 
 
 ## -description
 
 
 The <code>IPrintOemUni::DevMode</code> method, provided by rendering plug-ins for Unidrv, performs operations on private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> members.
-
-
-## -syntax
-
-
-````
-STDMETHOD DevMode(
-   DWORD       dwMode,
-   POEMDMPARAM pOemDMParam
-);
-````
 
 
 ## -parameters
@@ -76,7 +65,7 @@ Specifies a caller-supplied constant. See the Remarks section for more informati
 
 ### -param pOemDMParam
 
-Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemdmparam.md">OEMDMPARAM</a> structure.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557686">OEMDMPARAM</a> structure.
 
 
 ## -returns
@@ -135,7 +124,6 @@ The <code>IPrintOemUni::DevMode</code> method must perform the operation indicat
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 
@@ -143,8 +131,8 @@ The <code>IPrintOemUni::DevMode</code> method must perform the operation indicat
 
 
 
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
  
 
  
-
 

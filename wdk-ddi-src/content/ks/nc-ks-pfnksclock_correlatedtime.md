@@ -7,7 +7,7 @@ old-location: stream\kstrclockgetcorrelatedtime.htm
 old-project: stream
 ms.assetid: 1fc71718-a1fb-4e82-9805-7830e761cd6d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrClockGetCorrelatedPhysicalTime, KStrClockGetCorrelatedTime, PFNKSCLOCK_CORRELATEDTIME, SystemCorrelatedTime, SystemCorrelatedTime routine [Streaming Media Devices], ks/SystemCorrelatedTime, ksfunc_dd229adf-e2be-44ac-bda2-f947b0f559a3.xml, stream.kstrclockgetcorrelatedtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,12 +38,13 @@ api_location:
 -	ks.h
 api_name:
 -	SystemCorrelatedTime
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSCLOCK_CORRELATEDTIME callback
+# PFNKSCLOCK_CORRELATEDTIME callback function
 
 
 ## -description
@@ -57,20 +58,6 @@ The routine
 <i>KStrClockGetCorrelatedPhysicalTime</i> is a system-supplied routine that retrieves both the current system time minus suspended delta and the corresponding clock tick since boot.
 
 
-## -prototype
-
-
-````
-PFNKSCLOCK_CORRELATEDTIME SystemCorrelatedTime;
-
-LONGLONG FASTCALL SystemCorrelatedTime(
-  _In_  PFILE_OBJECT FileObject,
-  _Out_ PLONGLONG    SystemTime
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +65,7 @@ LONGLONG FASTCALL SystemCorrelatedTime(
 
 ### -param FileObject [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure to which a handle was returned when the clock instance was created.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> structure to which a handle was returned when the clock instance was created.
 
 
 ### -param SystemTime [out]
@@ -99,9 +86,9 @@ This routine returns the current system time as a value of type LONGLONG. This v
 
 
 
-You can obtain an entry point for this routine by supplying a driver-allocated <a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a> structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a> request.
+You can obtain an entry point for this routine by supplying a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff561020">KSCLOCK_FUNCTIONTABLE</a> structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a> request.
 
-The system time is acquired from <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>.
+The system time is acquired from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>.
 
 Both time values are specified in 100 nanosecond units.
 
@@ -110,15 +97,14 @@ Both time values are specified in 100 nanosecond units.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
 
 
 
-<a href="..\ks\ns-ks-ksclock_functiontable.md">KSCLOCK_FUNCTIONTABLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561020">KSCLOCK_FUNCTIONTABLE</a>
 
 
 
-<a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561033">KSCORRELATED_TIME</a>
 
 
 
@@ -126,8 +112,8 @@ Both time values are specified in 100 nanosecond units.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorsourcemodeset_interface.htm
 old-project: display
 ms.assetid: ceab36a0-3be1-41d8-82c0-8393f93e5f42
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_MONITORSOURCEMODESET_INTERFACE, DXGK_MONITORSOURCEMODESET_INTERFACE structure [Display Devices], DmStructs_c4c7e928-09db-424f-8ac7-7efffc71d06e.xml, _DXGK_MONITORSOURCEMODESET_INTERFACE, d3dkmddi/DXGK_MONITORSOURCEMODESET_INTERFACE, display.dxgk_monitorsourcemodeset_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MONITORSOURCEMODESET_INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MONITORSOURCEMODESET_INTERFACE
 ---
@@ -52,22 +53,6 @@ req.typenames: DXGK_MONITORSOURCEMODESET_INTERFACE
 The DXGK_MONITORSOURCEMODESET_INTERFACE structure contains pointers to functions that belong to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set interface</a>, which is implemented by the video present network (VidPN) manager.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_MONITORSOURCEMODESET_INTERFACE {
-  DXGKDDI_MONITORSOURCEMODESET_GETNUMMODES              pfnGetNumModes;
-  DXGKDDI_MONITORSOURCEMODESET_ACQUIREPREFERREDMODEINFO pfnAcquirePreferredModeInfo;
-  DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO     pfnAcquireFirstModeInfo;
-  DXGKDDI_MONITORSOURCEMODESET_ACQUIRENEXTMODEINFO      pfnAcquireNextModeInfo;
-  DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO        pfnCreateNewModeInfo;
-  DXGKDDI_MONITORSOURCEMODESET_ADDMODE                  pfnAddMode;
-  DXGKDDI_MONITORSOURCEMODESET_RELEASEMODEINFO          pfnReleaseModeInfo;
-} DXGK_MONITORSOURCEMODESET_INTERFACE;
-````
-
-
 ## -struct-fields
 
 
@@ -75,68 +60,67 @@ typedef struct _DXGK_MONITORSOURCEMODESET_INTERFACE {
 
 ### -field pfnGetNumModes
 
-A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_getnummodes.md">pfnGetNumModes</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/58daf5be-45c5-493b-9d51-ef48bb123dce">pfnGetNumModes</a> function.
 
 
 ### -field pfnAcquirePreferredModeInfo
 
-A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_acquirepreferredmodeinfo.md">pfnAcquirePreferredModeInfo</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/80d3d199-42ad-4f21-8122-05dfad37016d">pfnAcquirePreferredModeInfo</a> function.
 
 
 ### -field pfnAcquireFirstModeInfo
 
-A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/d448c3f4-7adb-4ceb-8c42-8cba3d2cfeae">pfnAcquireFirstModeInfo</a> function.
 
 
 ### -field pfnAcquireNextModeInfo
 
-A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_acquirenextmodeinfo.md">pfnAcquireNextModeInfo</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/55c629c5-1d73-40dd-a5aa-73ddcc5236b5">pfnAcquireNextModeInfo</a> function.
 
 
 ### -field pfnCreateNewModeInfo
 
-A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/314b345c-a40b-418d-a2d8-c7b42e5fd27d">pfnCreateNewModeInfo</a> function.
 
 
 ### -field pfnAddMode
 
-A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_addmode.md">pfnAddMode</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/88fe5a2d-d140-4ebc-846d-acea39b8bc73">pfnAddMode</a> function.
 
 
 ### -field pfnReleaseModeInfo
 
-A pointer to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitorsourcemodeset_releasemodeinfo.md">pfnReleaseModeInfo</a> function.
+A pointer to the <a href="https://msdn.microsoft.com/2c82ec09-e858-4efc-a1c0-a3792e0b5ddf">pfnReleaseModeInfo</a> function.
 
 
 ## -remarks
 
 
 
-The display miniport driver calls the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset.md">pfnAcquireMonitorSourceModeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a> to obtain a handle to a monitor source mode set object and a pointer to a DXGK_MONITORSOURCEMODESET_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the monitor source mode set object.
+The display miniport driver calls the <a href="https://msdn.microsoft.com/a64197c0-a61f-4989-9b68-4e06b1a69fd4">pfnAcquireMonitorSourceModeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a> to obtain a handle to a monitor source mode set object and a pointer to a DXGK_MONITORSOURCEMODESET_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the monitor source mode set object.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_monitor_source_mode.md">D3DKMDT_MONITOR_SOURCE_MODE</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpntargetmodeset_interface.md">DXGK_VIDPNTARGETMODESET_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546133">D3DKMDT_MONITOR_SOURCE_MODE</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpnsourcemodeset_interface.md">DXGK_VIDPNSOURCEMODESET_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562073">DXGK_VIDPNSOURCEMODESET_INTERFACE</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset.md">pfnAcquireMonitorSourceModeSet</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562082">DXGK_VIDPNTARGETMODESET_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/a64197c0-a61f-4989-9b68-4e06b1a69fd4">pfnAcquireMonitorSourceModeSet</a>
  
 
  
-
 

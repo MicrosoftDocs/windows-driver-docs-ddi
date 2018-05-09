@@ -7,8 +7,8 @@ old-location: display\dxgk_monitordescriptorset_interface_pfngetnumdescriptors.h
 old-project: display
 ms.assetid: 7bfcef0b-1371-4e3b-b5dc-c4c548625c8f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS, VidPnFunctions_c2c4ad34-be07-4bd8-8576-e91b4549ca95.xml, d3dkmddi/pfnGetNumDescriptors, display.dxgk_monitordescriptorset_interface_pfngetnumdescriptors, pfnGetNumDescriptors, pfnGetNumDescriptors callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS, DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS callback, VidPnFunctions_c2c4ad34-be07-4bd8-8576-e91b4549ca95.xml, d3dkmddi/pfnGetNumDescriptors, display.dxgk_monitordescriptorset_interface_pfngetnumdescriptors, pfnGetNumDescriptors, pfnGetNumDescriptors callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	pfnGetNumDescriptors
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS callback
+# DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS callback function
 
 
 ## -description
 
 
 The <b>pfnGetNumDescriptors</b> function returns the number of descriptors in a monitor descriptor set.
-
-
-## -prototype
-
-
-````
-DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS pfnGetNumDescriptors;
-
-NTSTATUS APIENTRY pfnGetNumDescriptors(
-  _In_  const D3DKMDT_HMONITORDESCRIPTORSET hMonitorDescriptorSet,
-  _Out_       SIZE_T CONST                  *pNumMonitorDescriptors
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ NTSTATUS APIENTRY pfnGetNumDescriptors(
 
 ### -param hMonitorDescriptorSet [in]
 
-[in] A handle to a monitor descriptor set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset.md">pfnGetMonitorDescriptorSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
+[in] A handle to a monitor descriptor set object. The display miniport driver previously obtained this handle by calling the <a href="https://msdn.microsoft.com/e2244cd3-6630-440b-a4f7-1e0fa5702161">pfnGetMonitorDescriptorSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor interface</a>.
 
 
 ### -param pNumMonitorDescriptors [out]

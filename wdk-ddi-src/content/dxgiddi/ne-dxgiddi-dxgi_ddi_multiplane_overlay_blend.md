@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_multiplane_overlay_blend.htm
 old-project: display
 ms.assetid: 00b263e7-8655-4219-8e06-e0feba659d04
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_BLEND, DXGI_DDI_MULTIPLANE_OVERLAY_BLEND enumeration [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, display.dxgi_ddi_multiplane_overlay_blend, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
 ---
@@ -50,17 +51,6 @@ req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
 
 
 Identifies a blend operation to be performed on an overlay plane.
-
-
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_BLEND { 
-  DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE      = 0x0,
-  DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND  = 0x1
-} DXGI_DDI_MULTIPLANE_OVERLAY_BLEND;
-````
 
 
 ## -enum-fields

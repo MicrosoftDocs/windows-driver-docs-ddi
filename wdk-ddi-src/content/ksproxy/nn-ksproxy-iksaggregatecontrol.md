@@ -7,8 +7,8 @@ old-location: stream\iksaggregatecontrol.htm
 old-project: stream
 ms.assetid: ed239516-bbaf-4e16-a3b8-4f9f34cab4ef
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsAggregateControl, IKsAggregateControl interface [Streaming Media Devices], IKsAggregateControl interface [Streaming Media Devices], described, ksproxy/IKsAggregateControl, ksproxy_ccd980b0-abd1-4354-9f2c-3c0613b18d07.xml, stream.iksaggregatecontrol
+ms.date: 4/23/2018
+ms.keywords: IKsAggregateControl, IKsAggregateControl interface [Streaming Media Devices], IKsAggregateControl interface [Streaming Media Devices],described, ksproxy/IKsAggregateControl, ksproxy_ccd980b0-abd1-4354-9f2c-3c0613b18d07.xml, stream.iksaggregatecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Ksproxy.lib
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,9 +38,10 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsAggregateControl
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
 # IKsAggregateControl interface
@@ -134,7 +135,10 @@ For more information about <b>IDistributorNotify</b>, <b>IUnknown</b>, and <b>Co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/f625b1ed-ccab-4072-9eb9-c4ebbddb1199">KsRemoveAggregate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559766">IKsControl</a>
 
 
 
@@ -146,12 +150,8 @@ For more information about <b>IDistributorNotify</b>, <b>IUnknown</b>, and <b>Co
 
 
 
-<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
-
-
-
+<a href="https://msdn.microsoft.com/f625b1ed-ccab-4072-9eb9-c4ebbddb1199">KsRemoveAggregate</a>
  
 
  
-
 

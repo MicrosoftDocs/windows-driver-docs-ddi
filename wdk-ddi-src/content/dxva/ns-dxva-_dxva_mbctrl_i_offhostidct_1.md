@@ -7,7 +7,7 @@ old-location: display\dxva_mbctrl_i_offhostidct_1.htm
 old-project: display
 ms.assetid: c088a923-0600-48ae-8d3e-95b6bbcb59c7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPDXVA_MBctrl_I_OffHostIDCT_1, DXVA_MBctrl_I_OffHostIDCT_1, DXVA_MBctrl_I_OffHostIDCT_1 structure [Display Devices], _DXVA_MBctrl_I_OffHostIDCT_1, display.dxva_mbctrl_i_offhostidct_1, dxva/DXVA_MBctrl_I_OffHostIDCT_1, dxvaref_2ad46e82-c043-45f2-8ec9-e174e9b21e6e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_MBctrl_I_OffHostIDCT_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_MBctrl_I_OffHostIDCT_1
 ---
@@ -50,20 +51,6 @@ req.typenames: DXVA_MBctrl_I_OffHostIDCT_1
 
 
 The DXVA_MBctrl_I_OffHostIDCT_1 structure is sent once per macroblock by the host decoder to the accelerator to specify macroblock control commands for 4:2:0 intra pictures when using off-host IDCT. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_MBctrl_I_OffHostIDCT_1 {
-  WORD  wMBaddress;
-  WORD  wMBtype;
-  DWORD dwMB_SNL;
-  WORD  wPatternCode;
-  BYTE  bNumCoef[DXVA_NumBlocksPerMB_420];
-} DXVA_MBctrl_I_OffHostIDCT_1;
-````
 
 
 ## -struct-fields
@@ -119,7 +106,7 @@ Must be zero.
 
 Specifies whether spatial-domain residual difference decoded blocks are sent or whether transform coefficients are sent for off-host IDCT for the current macroblock.
 
-The <i>HostResidDiff </i>flag is always equal to zero in this structure. This flag must be zero if <b>bConfigResidDiffHost</b> is zero. This flag must be 1 if <b>bConfigResidDiffAccelerator</b> is zero. The <b>bConfigResidDiffHost</b> and <b>bConfigResidDiffAccelerator</b> members are contained in the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure.
+The <i>HostResidDiff </i>flag is always equal to zero in this structure. This flag must be zero if <b>bConfigResidDiffHost</b> is zero. This flag must be 1 if <b>bConfigResidDiffAccelerator</b> is zero. The <b>bConfigResidDiffHost</b> and <b>bConfigResidDiffAccelerator</b> members are contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> structure.
 
 </td>
 </tr>
@@ -163,7 +150,7 @@ If <b>bConfigHostInverseScan</b> is zero, <i>MBscanMethod</i> is one of the foll
 </ul>
 If <b>bConfigHostInverseScan</b> is 1, <i>MBscanMethod</i> is equal to 3, which is an arbitrary scan with absolute coefficient address.
 
-<b>bPicScanMethod</b> and <b>bPicScanFixed</b> are members of <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>. <b>bConfigHostInverseScan</b> is a member of DXVA_ConfigPictureDecode.
+<b>bPicScanMethod</b> and <b>bPicScanFixed</b> are members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>. <b>bConfigHostInverseScan</b> is a member of DXVA_ConfigPictureDecode.
 
 </td>
 </tr>
@@ -177,7 +164,7 @@ If <b>bConfigHostInverseScan</b> is 1, <i>MBscanMethod</i> is equal to 3, which 
 
 Indicates whether the residual difference blocks use a field IDCT structure as specified in MPEG-2.
 
-Must be 1 if the <b>bPicStructure</b> member of <a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a> is 1 or 2. When used for MPEG-2, <i>FieldResidual</i> must be zero if the <i>frame_pred_frame_DCT</i> flag in the MPEG-2 syntax is 1, and must be equal to the <i>dct_type</i> element of the MPEG-2 syntax if <i>dct_type</i> is present for the macroblock.
+Must be 1 if the <b>bPicStructure</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a> is 1 or 2. When used for MPEG-2, <i>FieldResidual</i> must be zero if the <i>frame_pred_frame_DCT</i> flag in the MPEG-2 syntax is 1, and must be equal to the <i>dct_type</i> element of the MPEG-2 syntax if <i>dct_type</i> is present for the macroblock.
 
 </td>
 </tr>
@@ -267,9 +254,9 @@ Each value in the <b>bNumCoef</b> array indicates the number of coefficients in 
 
 The array subscript <i>i</i> is the index of the block within the macroblock as specified in MPEG-2 video Figures 6-10, 6-11, and 6-12 (raster-scan order for Y, followed by Cb, followed by Cr). 
 
-This member is used only when the <i>HostResidDiff</i> flag (bit 10 in <b>wMBtype</b>) is zero, and <b>bChromaFormat</b> is 1 (4:2:0). If used in 4:2:2 or 4:4:4 formats, it would increase the size of typical macroblock control commands past a critical memory alignment boundary. As a result, the <i>TCoefEOB</i> bit within the <a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a> structure is used for determining the number of coefficients in each block in non-4:2:0 cases.
+This member is used only when the <i>HostResidDiff</i> flag (bit 10 in <b>wMBtype</b>) is zero, and <b>bChromaFormat</b> is 1 (4:2:0). If used in 4:2:2 or 4:4:4 formats, it would increase the size of typical macroblock control commands past a critical memory alignment boundary. As a result, the <i>TCoefEOB</i> bit within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a> structure is used for determining the number of coefficients in each block in non-4:2:0 cases.
 
-The purpose of <b>bNumCoef</b> is to indicate the quantity of data present for each block in the residual difference data buffer, expressed as the number of coefficients present. When the <b>bConfig4GroupedCoefs</b> member of the <a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a> structure is 1, <b>bNumCoef</b> may contain either the actual number of coefficients sent for the block or that value rounded up to be a multiple of four. The data for these coefficients is found in the residual difference buffer in the same order.
+The purpose of <b>bNumCoef</b> is to indicate the quantity of data present for each block in the residual difference data buffer, expressed as the number of coefficients present. When the <b>bConfig4GroupedCoefs</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a> structure is 1, <b>bNumCoef</b> may contain either the actual number of coefficients sent for the block or that value rounded up to be a multiple of four. The data for these coefficients is found in the residual difference buffer in the same order.
 
 
 ## -remarks
@@ -283,24 +270,23 @@ Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563133">DXVA_ConfigPictureDecode</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_tcoefsingle.md">DXVA_TCoefSingle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563983">DXVA_MBctrl_I_HostResidDiff_1</a>
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a>
  
 
  
-
 

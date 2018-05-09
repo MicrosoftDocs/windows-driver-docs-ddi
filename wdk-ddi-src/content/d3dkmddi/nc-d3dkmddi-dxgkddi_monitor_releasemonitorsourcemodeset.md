@@ -7,8 +7,8 @@ old-location: display\dxgk_monitor_interface_pfnreleasemonitorsourcemodeset.htm
 old-project: display
 ms.assetid: af5f4a1b-232c-4192-96b4-8fa31dfe3019
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET, VidPnFunctions_5f8e1fd8-b807-4da2-901e-0284e21d858e.xml, d3dkmddi/pfnReleaseMonitorSourceModeSet, display.dxgk_monitor_interface_pfnreleasemonitorsourcemodeset, pfnReleaseMonitorSourceModeSet, pfnReleaseMonitorSourceModeSet callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET, DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET callback, VidPnFunctions_5f8e1fd8-b807-4da2-901e-0284e21d858e.xml, d3dkmddi/pfnReleaseMonitorSourceModeSet, display.dxgk_monitor_interface_pfnreleasemonitorsourcemodeset, pfnReleaseMonitorSourceModeSet, pfnReleaseMonitorSourceModeSet callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	pfnReleaseMonitorSourceModeSet
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET callback
+# DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET callback function
 
 
 ## -description
 
 
 The <b>pfnReleaseMonitorSourceModeSet</b> function releases a handle to a monitor source mode set object.
-
-
-## -prototype
-
-
-````
-DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET pfnReleaseMonitorSourceModeSet;
-
-NTSTATUS APIENTRY pfnReleaseMonitorSourceModeSet(
-  _In_ const D3DKMDT_ADAPTER               hAdapter,
-  _In_ const D3DKMDT_HMONITORSOURCEMODESET hMonitorSourceModeSet
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ NTSTATUS APIENTRY pfnReleaseMonitorSourceModeSet(
 
 ### -param hAdapter [in]
 
-[in] A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
+[in] A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 ### -param hMonitorSourceModeSet [in]
@@ -137,21 +124,20 @@ This function might also return other error codes that are defined in <i>Ntstatu
 
 
 
-When you have finished using a handle that you obtained by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset.md">pfnAcquireMonitorSourceModeSet</a>, you must release the handle by calling <b>pfnReleaseMonitorSourceModeSet</b>.
+When you have finished using a handle that you obtained by calling <a href="https://msdn.microsoft.com/a64197c0-a61f-4989-9b68-4e06b1a69fd4">pfnAcquireMonitorSourceModeSet</a>, you must release the handle by calling <b>pfnReleaseMonitorSourceModeSet</b>.
 
-This function is also available in the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a> interface beginning with Windows 7.
+This function is also available in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561968">DXGK_MONITOR_INTERFACE_V2</a> interface beginning with Windows 7.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561968">DXGK_MONITOR_INTERFACE_V2</a>
  
 
  
-
 

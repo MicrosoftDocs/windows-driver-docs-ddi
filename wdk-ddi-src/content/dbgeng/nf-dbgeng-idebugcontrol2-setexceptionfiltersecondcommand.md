@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetExceptionFilterSecondCommand
-title: IDebugControl2::SetExceptionFilterSecondCommand method
+title: IDebugControl2::SetExceptionFilterSecondCommand
 author: windows-driver-content
 description: The SetExceptionFilterSecondCommand method sets the command that will be executed by the debugger engine on the second chance of a specified exception.
 old-location: debugger\setexceptionfiltersecondcommand.htm
 old-project: debugger
 ms.assetid: c95fa025-9455-4a8e-99ef-84030255575c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl interface [Windows Debugging], SetExceptionFilterSecondCommand method, IDebugControl2, IDebugControl2 interface [Windows Debugging], SetExceptionFilterSecondCommand method, IDebugControl2::SetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging], SetExceptionFilterSecondCommand method, IDebugControl3::SetExceptionFilterSecondCommand, IDebugControl::SetExceptionFilterSecondCommand, IDebugControl_39380f22-4c68-40fe-b277-f7eace77bcee.xml, SetExceptionFilterSecondCommand method [Windows Debugging], SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl interface, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl2 interface, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl3 interface, SetExceptionFilterSecondCommand,IDebugControl2.SetExceptionFilterSecondCommand, dbgeng/IDebugControl2::SetExceptionFilterSecondCommand, dbgeng/IDebugControl3::SetExceptionFilterSecondCommand, dbgeng/IDebugControl::SetExceptionFilterSecondCommand, debugger.setexceptionfiltersecondcommand
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],SetExceptionFilterSecondCommand method, IDebugControl2 interface [Windows Debugging],SetExceptionFilterSecondCommand method, IDebugControl2.SetExceptionFilterSecondCommand, IDebugControl2::SetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging],SetExceptionFilterSecondCommand method, IDebugControl3::SetExceptionFilterSecondCommand, IDebugControl::SetExceptionFilterSecondCommand, IDebugControl_39380f22-4c68-40fe-b277-f7eace77bcee.xml, SetExceptionFilterSecondCommand, SetExceptionFilterSecondCommand method [Windows Debugging], SetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl interface, SetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl2 interface, SetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetExceptionFilterSecondCommand, dbgeng/IDebugControl3::SetExceptionFilterSecondCommand, dbgeng/IDebugControl::SetExceptionFilterSecondCommand, debugger.setexceptionfiltersecondcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,29 +40,19 @@ api_name:
 -	IDebugControl.SetExceptionFilterSecondCommand
 -	IDebugControl2.SetExceptionFilterSecondCommand
 -	IDebugControl3.SetExceptionFilterSecondCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::SetExceptionFilterSecondCommand method
+# IDebugControl2::SetExceptionFilterSecondCommand
 
 
 ## -description
 
 
 The <b>SetExceptionFilterSecondCommand</b>  method sets the command that will be executed by the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> on the second chance of a specified <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">exception</a>.
-
-
-## -syntax
-
-
-````
-HRESULT SetExceptionFilterSecondCommand(
-  [in] ULONG Index,
-  [in] PCSTR Command
-);
-````
 
 
 ## -parameters
@@ -119,19 +109,6 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -139,12 +116,24 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
+
+
+
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
  
 
  
-
 

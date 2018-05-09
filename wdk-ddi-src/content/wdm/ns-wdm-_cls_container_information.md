@@ -7,7 +7,7 @@ old-location: kernel\clfs_container_information.htm
 old-project: kernel
 ms.assetid: 9e083aba-1039-4ad3-9650-0e6e38ceb0c0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCLFS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], CLS_CONTAINER_INFORMATION, CLS_CONTAINER_INFORMATION structure [Kernel-Mode Driver Architecture], PCLFS_CONTAINER_INFORMATION, PCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_CONTAINER_INFORMATION, PCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_CONTAINER_INFORMATION, PPCLFS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLS_CONTAINER_INFORMATION, kernel.clfs_container_information, kstruct_a_757d7a17-feb2-4b99-8b6f-f83288858851.xml, wdm/CLFS_CONTAINER_INFORMATION, wdm/CLS_CONTAINER_INFORMATION, wdm/PCLFS_CONTAINER_INFORMATION, wdm/PCLS_CONTAINER_INFORMATION, wdm/PPCLFS_CONTAINER_INFORMATION, wdm/PPCLS_CONTAINER_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	CLS_CONTAINER_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, PPCLS_CONTAINER_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _CLS_CONTAINER_INFORMATION structure
@@ -53,26 +53,6 @@ req.product: Windows 10 or later.
 The <b>CLFS_CONTAINER_INFORMATION</b> structure holds descriptive information for an individual container in a Common Log File System (CLFS) log.
 
 
-## -syntax
-
-
-````
-typedef struct _CLS_CONTAINER_INFORMATION {
-  ULONG                FileAttributes;
-  ULONGLONG            CreationTime;
-  ULONGLONG            LastAccessTime;
-  ULONGLONG            LastWriteTime;
-  LONGLONG             ContainerSize;
-  ULONG                FileNameActualLength;
-  ULONG                FileNameLength;
-  WCHAR                FileName[CLFS_MAX_CONTAINER_INFO];
-  CLFS_CONTAINER_STATE State;
-  CLFS_CONTAINER_ID    PhysicalContainerId;
-  CLFS_CONTAINER_ID    LogicalContainerId;
-} CLS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, **PPCLS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION, *PCLFS_CONTAINER_INFORMATION, **PPCLFS_CONTAINER_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -80,7 +60,7 @@ typedef struct _CLS_CONTAINER_INFORMATION {
 
 ### -field FileAttributes
 
-A set of flags that specifies attributes of the container. See the <i>fFlagsAndAttributes</i> parameter of the <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a> function.
+A set of flags that specifies attributes of the container. See the <i>fFlagsAndAttributes</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a> function.
 
 
 ### -field CreationTime
@@ -205,7 +185,7 @@ A 32-bit identifier that changes every time the container is recycled.
 
 
 
-The <a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a> function writes descriptive information into an array of <b>CLFS_CONTAINER_INFORMATION</b> structures.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff541737">ClfsScanLogContainers</a> function writes descriptive information into an array of <b>CLFS_CONTAINER_INFORMATION</b> structures.
 
 Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b> are expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar.
 
@@ -214,24 +194,23 @@ Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfscreatescancontext.md">ClfsCreateScanContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541856">CLFS_SCAN_CONTEXT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541527">ClfsCreateScanContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541737">ClfsScanLogContainers</a>
  
 
  
-
 

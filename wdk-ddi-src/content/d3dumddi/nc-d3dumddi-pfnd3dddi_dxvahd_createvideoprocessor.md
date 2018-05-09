@@ -7,8 +7,8 @@ old-location: display\createvideoprocessor.htm
 old-project: display
 ms.assetid: 68a7c394-4b0f-4446-a54b-5aee6cf8a913
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CreateVideoProcessor, CreateVideoProcessor callback function [Display Devices], PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR, UserModeDisplayDriver_Functions_ce6a0d51-9da3-43d9-ac23-c2e250ca4cfa.xml, d3dumddi/CreateVideoProcessor, display.createvideoprocessor
+ms.date: 4/16/2018
+ms.keywords: CreateVideoProcessor, CreateVideoProcessor callback function [Display Devices], PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR, PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR callback, UserModeDisplayDriver_Functions_ce6a0d51-9da3-43d9-ac23-c2e250ca4cfa.xml, d3dumddi/CreateVideoProcessor, display.createvideoprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	CreateVideoProcessor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR callback
+# PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR callback function
 
 
 ## -description
@@ -52,26 +53,12 @@ req.typenames: DXGK_PTE
 The <b>CreateVideoProcessor</b> function creates a Microsoft DirectX Video Acceleration (DirectX VA) video processor that is used to process high-definition video. 
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR CreateVideoProcessor;
-
-__checkReturn HRESULT APIENTRY CreateVideoProcessor(
-  _In_    HANDLE                                hDevice,
-  _Inout_ D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param HANDLE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +77,7 @@ __checkReturn HRESULT APIENTRY CreateVideoProcessor(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_createvideoprocessor.md">D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR</a> structure. On input, contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543077">D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR</a> structure. On input, contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
 
 
 ## -returns
@@ -123,7 +110,7 @@ The video processor is successfully created.
 </td>
 <td width="60%">
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_createvideoprocessor.md">CreateVideoProcessor</a> could not allocate the required memory for it to complete.
+<a href="https://msdn.microsoft.com/68a7c394-4b0f-4446-a54b-5aee6cf8a913">CreateVideoProcessor</a> could not allocate the required memory for it to complete.
 
 </td>
 </tr>
@@ -135,16 +122,15 @@ The video processor is successfully created.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_createvideoprocessor.md">D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_destroyvideoprocessor.md">DestroyVideoProcessor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543077">D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451638">DestroyVideoProcessor</a>
  
 
  
-
 

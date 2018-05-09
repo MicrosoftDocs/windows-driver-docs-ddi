@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.AddExtensionWide
-title: IDebugControl4::AddExtensionWide method
+title: IDebugControl4::AddExtensionWide
 author: windows-driver-content
 description: The AddExtensionWide method loads an extension library into the debugger engine.
 old-location: debugger\addextensionwide.htm
 old-project: debugger
 ms.assetid: 5c918f44-1ee7-4666-b83a-e13ce02e26db
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: AddExtensionWide method [Windows Debugging], AddExtensionWide method [Windows Debugging], IDebugControl4 interface, AddExtensionWide,IDebugControl4.AddExtensionWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], AddExtensionWide method, IDebugControl4::AddExtensionWide, dbgeng/IDebugControl4::AddExtensionWide, debugger.addextensionwide
+ms.date: 4/24/2018
+ms.keywords: AddExtensionWide, AddExtensionWide method [Windows Debugging], AddExtensionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AddExtensionWide method, IDebugControl4.AddExtensionWide, IDebugControl4::AddExtensionWide, dbgeng/IDebugControl4::AddExtensionWide, debugger.addextensionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugControl4.AddExtensionWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::AddExtensionWide method
+# IDebugControl4::AddExtensionWide
 
 
 ## -description
 
 
 The <b>AddExtensionWide</b>  method loads an extension library into the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>.
-
-
-## -syntax
-
-
-````
-HRESULT AddExtensionWide(
-  [in]  PCSTR    Path,
-  [in]  ULONG    Flags,
-  [out] PULONG64 Handle
-);
-````
 
 
 ## -parameters
@@ -127,7 +116,6 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -135,12 +123,12 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
-
-
-
  
 
  
-
 

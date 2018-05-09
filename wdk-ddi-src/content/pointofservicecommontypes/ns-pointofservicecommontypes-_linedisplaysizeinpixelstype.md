@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	LineDisplaySizeInPixelsType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LineDisplaySizeInPixelsType
 ---
@@ -50,16 +51,6 @@ req.typenames: LineDisplaySizeInPixelsType
 
 
 This structure is not implemented.
-
-
-## -syntax
-
-
-````
-typedef struct _LineDisplaySizeInPixelsType {
-   ...;
-} LineDisplaySizeInPixelsType, *PLineDisplaySizeInPixelsType;
-````
 
 
 ## -struct-fields

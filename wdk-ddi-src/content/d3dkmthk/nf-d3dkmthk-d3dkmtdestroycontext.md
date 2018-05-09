@@ -7,7 +7,7 @@ old-location: display\d3dkmtdestroycontext.htm
 old-project: display
 ms.assetid: 33c10139-7a9a-41b1-a3c4-e3692be9a34a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTDestroyContext, D3DKMTDestroyContext function [Display Devices], OpenGL_Functions_f7a43a18-cb8c-4b76-8123-d5eeda18d6cb.xml, d3dkmthk/D3DKMTDestroyContext, display.d3dkmtdestroycontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTDestroyContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTDestroyContext function
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTDestroyContext</b> function releases a kernel-mode device context.
-
-
-## -syntax
-
-
-````
-NTSTATUS D3DKMTDestroyContext(
-  _In_ const D3DKMT_DESTROYCONTEXT *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroycontext.md">D3DKMT_DESTROYCONTEXT</a> structure that contains the handle to the kernel-mode device context.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547869">D3DKMT_DESTROYCONTEXT</a> structure that contains the handle to the kernel-mode device context.
 
 
 ## -returns
@@ -127,12 +118,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroycontext.md">D3DKMT_DESTROYCONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547869">D3DKMT_DESTROYCONTEXT</a>
  
 
  
-
 

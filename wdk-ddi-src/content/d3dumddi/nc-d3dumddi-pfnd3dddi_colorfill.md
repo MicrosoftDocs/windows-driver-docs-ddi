@@ -7,8 +7,8 @@ old-location: display\colorfill.htm
 old-project: display
 ms.assetid: c120421d-6a10-4d37-b936-98dac75e236b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: ColorFill, ColorFill callback function [Display Devices], PFND3DDDI_COLORFILL, UserModeDisplayDriver_Functions_ce1cba12-de0d-426d-981f-b95d58caa33d.xml, d3dumddi/ColorFill, display.colorfill
+ms.date: 4/16/2018
+ms.keywords: ColorFill, ColorFill callback function [Display Devices], PFND3DDDI_COLORFILL, PFND3DDDI_COLORFILL callback, UserModeDisplayDriver_Functions_ce1cba12-de0d-426d-981f-b95d58caa33d.xml, d3dumddi/ColorFill, display.colorfill
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	ColorFill
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_COLORFILL callback
+# PFND3DDDI_COLORFILL callback function
 
 
 ## -description
 
 
 The <b>ColorFill</b> function fills a rectangle on the surface with a particular color.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_COLORFILL ColorFill;
-
-__checkReturn HRESULT APIENTRY ColorFill(
-  _In_       HANDLE              hDevice,
-  _In_ const D3DDDIARG_COLORFILL *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY ColorFill(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a> structure that describes the parameters of the color-fill operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542907">D3DDDIARG_COLORFILL</a> structure that describes the parameters of the color-fill operation.
 
 
 ## -returns
@@ -101,16 +88,15 @@ __checkReturn HRESULT APIENTRY ColorFill(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_colorfill.md">D3DDDIARG_COLORFILL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542907">D3DDDIARG_COLORFILL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

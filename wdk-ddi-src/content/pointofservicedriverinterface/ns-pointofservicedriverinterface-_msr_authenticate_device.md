@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	MSR_AUTHENTICATE_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSR_AUTHENTICATE_DEVICE, *PMSR_AUTHENTICATE_DEVICE
 ---
@@ -50,18 +51,6 @@ req.typenames: MSR_AUTHENTICATE_DEVICE, *PMSR_AUTHENTICATE_DEVICE
 
 
 This structure provides the authentication information used to authenticate a device.
-
-
-## -syntax
-
-
-````
-typedef struct _MSR_AUTHENTICATE_DEVICE {
-   unsigned char Size;
-  unsigned char  Challenge1;
-  unsigned char  SessionId;
-} MSR_AUTHENTICATE_DEVICE, *PMSR_AUTHENTICATE_DEVICE;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ The session ID. This is primarily used to identify each transaction so that you 
 
 ## -see-also
 
-<a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_msr_authenticate_device.md">IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn772101">IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE</a>
  
 
  
-
 

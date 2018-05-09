@@ -7,8 +7,8 @@ old-location: stream\ksrecalculatestackdepth.htm
 old-project: stream
 ms.assetid: 0b8f23a5-af8a-4b99-8f17-092076523914
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: KsRecalculateStackDepth, KsRecalculateStackDepth function [Streaming Media Devices], ks/KsRecalculateStackDepth, ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, stream.ksrecalculatestackdepth
+ms.date: 4/23/2018
+ms.keywords: KsRecalculateStackDepth, KsRecalculateStackDepth , KsRecalculateStackDepth function [Streaming Media Devices], ks/KsRecalculateStackDepth, ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, stream.ksrecalculatestackdepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsRecalculateStackDepth
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsRecalculateStackDepth</b> function recalculates the maximum stack depth required by the underlying device object based on all of the objects that have set a target device (they have added themselves to the object list on the underlying device object using the <b>KsSetTargetDeviceObject</b> function). If the PnP device object has been set on the underlying device header using <b>KsSetDevicePnpAndBaseObject</b>, that device is also taken into account when calculating the maximum stack depth.
-
-
-## -syntax
-
-
-````
-VOID KsRecalculateStackDepth(
-  _In_ KSDEVICE_HEADER Header ,
-  _In_ BOOLEAN         ReuseStackLocation 
-);
-````
 
 
 ## -parameters
@@ -101,24 +91,23 @@ This function allows IRPs to be forwarded through an object by ensuring that any
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
 
 
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566831">KsSetDevicePnpAndBaseObject</a>
 
 
 
-<a href="..\ks\nf-ks-kssettargetdeviceobject.md">KsSetTargetDeviceObject</a>
-
-
-
-<a href="..\ks\nf-ks-kssetdevicepnpandbaseobject.md">KsSetDevicePnpAndBaseObject</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566845">KsSetTargetDeviceObject</a>
  
 
  
-
 

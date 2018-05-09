@@ -7,8 +7,8 @@ old-location: audio\getresourceinformation.htm
 old-project: audio
 ms.assetid: ba1f0fa2-77dd-4ec3-86c8-c5d74465743f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetResourceInformation, GetResourceInformation callback function [Audio Devices], PGET_RESOURCE_INFORMATION, aud-prop2_03b48e3f-0650-45eb-b1d2-0db5e2e98636.xml, audio.getresourceinformation, hdaudio/GetResourceInformation
+ms.date: 4/16/2018
+ms.keywords: GetResourceInformation, GetResourceInformation callback function [Audio Devices], PGET_RESOURCE_INFORMATION, PGET_RESOURCE_INFORMATION callback, aud-prop2_03b48e3f-0650-45eb-b1d2-0db5e2e98636.xml, audio.getresourceinformation, hdaudio/GetResourceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	hdaudio.h
 api_name:
 -	GetResourceInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: 
 ---
 
-# PGET_RESOURCE_INFORMATION callback
+# PGET_RESOURCE_INFORMATION callback function
 
 
 ## -description
@@ -54,21 +55,6 @@ The <code>GetResourceInformation</code> routine retrieves information about hard
 The function pointer type for a <code>GetResourceInformation</code> routine is defined as follows.
 
 
-## -prototype
-
-
-````
-PGET_RESOURCE_INFORMATION GetResourceInformation;
-
-VOID GetResourceInformation(
-  _In_  PVOID  context,
-  _Out_ PUCHAR codecAddress,
-  _Out_ PUCHAR functionGroupStartNode
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ VOID GetResourceInformation(
 
 ### -param _context [in]
 
-Specifies the context value from the <b>Context</b> member of the <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>, or <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
+Specifies the context value from the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536413">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="https://msdn.microsoft.com/library/windows/hardware/ff536418">HDAUDIO_BUS_INTERFACE_V2</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff536416">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
 
 
 ### -param CodecAddress
@@ -121,20 +107,19 @@ A codec contains one or more function groups. Each function group contains some 
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536413">HDAUDIO_BUS_INTERFACE</a>
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536416">HDAUDIO_BUS_INTERFACE_BDL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536418">HDAUDIO_BUS_INTERFACE_V2</a>
  
 
  
-
 

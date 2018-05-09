@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IQueueCallbackDefaultIoHandler.OnDefaultIoHandler
-title: IQueueCallbackDefaultIoHandler::OnDefaultIoHandler method
+title: IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
 author: windows-driver-content
 description: The OnDefaultIoHandler method handles I/O requests that no other method is registered to handle.
 old-location: wdf\iqueuecallbackdefaultiohandler_ondefaultiohandler.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d0973dc9-58d6-486f-860e-a891600be73e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IQueueCallbackDefaultIoHandler, IQueueCallbackDefaultIoHandler interface, OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, OnDefaultIoHandler method, OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler interface, OnDefaultIoHandler,IQueueCallbackDefaultIoHandler.OnDefaultIoHandler, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
+ms.keywords: IQueueCallbackDefaultIoHandler interface,OnDefaultIoHandler method, IQueueCallbackDefaultIoHandler.OnDefaultIoHandler, IQueueCallbackDefaultIoHandler::OnDefaultIoHandler, OnDefaultIoHandler, OnDefaultIoHandler method, OnDefaultIoHandler method,IQueueCallbackDefaultIoHandler interface, UMDFQueueObjectRef_21f994ea-feca-4c50-aa83-401581713c3f.xml, umdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wdf.iqueuecallbackdefaultiohandler_ondefaultiohandler, wudfddi/IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IQueueCallbackDefaultIoHandler.OnDefaultIoHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IQueueCallbackDefaultIoHandler::OnDefaultIoHandler method
+# IQueueCallbackDefaultIoHandler::OnDefaultIoHandler
 
 
 ## -description
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnDefaultIoHandler</b> method handles I/O requests that no other method is registered to handle. 
 
 
-## -syntax
-
-
-````
-void OnDefaultIoHandler(
-  [in] IWDFIoQueue   *pWdfQueue,
-  [in] IWDFIoRequest *pWdfRequest
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +62,12 @@ void OnDefaultIoHandler(
 
 ### -param pWdfQueue [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue object that the default I/O request arrives from. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a> interface for the I/O queue object that the default I/O request arrives from. 
 
 
 ### -param pWdfRequest [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a> interface that represents the framework request object. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a> interface that represents the framework request object. 
 
 
 ## -returns
@@ -94,18 +83,17 @@ None
 
 
 
-A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohandler.md">IQueueCallbackDefaultIoHandler</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a> method to create an I/O queue or to configure the default I/O queue. 
+A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556843">IQueueCallbackDefaultIoHandler</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a> method to create an I/O queue or to configure the default I/O queue. 
 
 
 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohandler.md">IQueueCallbackDefaultIoHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556843">IQueueCallbackDefaultIoHandler</a>
 
 
 
@@ -113,12 +101,12 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackdefaultiohan
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
  
 
  
-
 

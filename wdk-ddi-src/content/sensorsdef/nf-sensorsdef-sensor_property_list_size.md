@@ -7,7 +7,7 @@ old-location: sensors\sensor_property_list_size.htm
 old-project: sensors
 ms.assetid: 17B53AAF-5027-4E45-ABAF-566771DDF1DE
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SENSOR_PROPERTY_LIST_SIZE, SENSOR_PROPERTY_LIST_SIZE function [Sensor Devices], sensors.sensor_property_list_size, sensorsdef/SENSOR_PROPERTY_LIST_SIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	SENSOR_PROPERTY_LIST_SIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SENSOR_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SENSOR_PROPERTY_LIST_SIZE function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 This function returns the size of the property list.
-
-
-## -syntax
-
-
-````
-FORCEINLINE ULONG SENSOR_PROPERTY_LIST_SIZE(
-  _In_ ULONG Count
-);
-````
 
 
 ## -parameters

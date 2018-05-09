@@ -7,7 +7,7 @@ old-location: stream\ks_videodecoder_flags.htm
 old-project: stream
 ms.assetid: 120d7714-8c32-4b83-adc2-c9a933e541e5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS enumeration [Streaming Media Devices], KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, ksmedia/KS_VIDEODECODER_FLAGS, ksmedia/KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, ksmedia/KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, ksmedia/KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, stream.ks_videodecoder_flags, vidcapstruct_061ba371-f4a8-44b0-8940-bc90b15dbfed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VIDEODECODER_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VIDEODECODER_FLAGS
 ---
@@ -50,18 +51,6 @@ req.typenames: KS_VIDEODECODER_FLAGS
 
 
 The KS_VIDEODECODER_FLAGS enumeration defines video decoder capabilities.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT   = 0X0001,
-  KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING  = 0X0002,
-  KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED  = 0X0004
-} KS_VIDEODECODER_FLAGS;
-````
 
 
 ## -enum-fields
@@ -86,12 +75,11 @@ The video decoder can distinguish whether it has locked to an incoming analog vi
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videodecoder_caps_s.md">KSPROPERTY_VIDEODECODER_CAPS_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566047">KSPROPERTY_VIDEODECODER_CAPS_S</a>
  
 
  
-
 

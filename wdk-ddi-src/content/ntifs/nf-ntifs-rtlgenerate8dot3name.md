@@ -7,7 +7,7 @@ old-location: ifsk\rtlgenerate8dot3name.htm
 old-project: ifsk
 ms.assetid: 7e8f84c4-c251-4f80-a8fc-465e44c14405
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlGenerate8dot3Name, RtlGenerate8dot3Name routine [Installable File System Drivers], ifsk.rtlgenerate8dot3name, ntifs/RtlGenerate8dot3Name, rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlGenerate8dot3Name
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlGenerate8dot3Name function
@@ -50,19 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlGenerate8dot3Name</b> routine generates a short (8.3) name for the specified long file name. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlGenerate8dot3Name(
-  _In_    PCUNICODE_STRING       Name,
-  _In_    BOOLEAN                AllowExtendedCharacters,
-  _Inout_ PGENERATE_NAME_CONTEXT Context,
-  _Inout_ PUNICODE_STRING        Name8dot3
-);
-````
 
 
 ## -parameters
@@ -138,20 +126,19 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlisnamelegaldos8dot3.md">RtlIsNameLegalDOS8Dot3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553060">RtlIsNameLegalDOS8Dot3</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlisvalidoemcharacter.md">RtlIsValidOemCharacter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553076">RtlIsValidOemCharacter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

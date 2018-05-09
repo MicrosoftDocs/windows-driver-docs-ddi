@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlchangebackingfileobject.htm
 old-project: ifsk
 ms.assetid: a3ef4644-8e17-4f67-ba7f-61d62c534c26
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlChangeBackingFileObject, FsRtlChangeBackingFileObject routine [Installable File System Drivers], fsrtlref_4dd83ba3-8d9b-4c5b-a4ea-d7a0ceaaa9f2.xml, ifsk.fsrtlchangebackingfileobject, ntifs/FsRtlChangeBackingFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlChangeBackingFileObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlChangeBackingFileObject function
@@ -50,19 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlChangeBackingFileObject</b> routine replaces the current file object with a new file object.
-
-
-## -syntax
-
-
-````
-NTSTATUS FsRtlChangeBackingFileObject(
-  _In_opt_ PFILE_OBJECT              CurrentFileObject,
-  _In_     PFILE_OBJECT              NewFileObject,
-  _In_     FSRTL_CHANGE_BACKING_TYPE ChangeBackingType,
-  _In_     ULONG                     Flags
-);
-````
 
 
 ## -parameters
@@ -82,7 +70,7 @@ The new file object.
 
 ### -param ChangeBackingType [in]
 
-An <a href="..\ntifs\ne-ntifs-_fsrtl_change_backing_type.md">FSRTL_CHANGE_BACKING_TYPE</a> enumeration value that indicates which internal memory area the new file object will designate.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff547341">FSRTL_CHANGE_BACKING_TYPE</a> enumeration value that indicates which internal memory area the new file object will designate.
 
 
 ### -param Flags [in]
@@ -141,7 +129,7 @@ The change operation failed because the caller specified an invalid value in <i>
 </dl>
 </td>
 <td width="60%">
-The change operation failed because the caller obtained the file object in a way that does not allow subsequent swapping of the file object. For example, if the caller obtained the file object with a call to <a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrs.md">CcGetFileObjectFromSectionPtrs</a>, it is not safe to swap the file object.
+The change operation failed because the caller obtained the file object in a way that does not allow subsequent swapping of the file object. For example, if the caller obtained the file object with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539104">CcGetFileObjectFromSectionPtrs</a>, it is not safe to swap the file object.
 
 </td>
 </tr>
@@ -182,12 +170,11 @@ To change the file object for more than one backing type, the caller must call <
 
 ## -see-also
 
-<a href="..\ntifs\ne-ntifs-_fsrtl_change_backing_type.md">FSRTL_CHANGE_BACKING_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547341">FSRTL_CHANGE_BACKING_TYPE</a>
  
 
  
-
 

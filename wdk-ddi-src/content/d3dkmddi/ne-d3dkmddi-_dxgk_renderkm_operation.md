@@ -7,7 +7,7 @@ old-location: display\dxgk_renderkm_operation.htm
 old-project: display
 ms.assetid: bde22894-97a1-42a8-97c1-ba9738c087b9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_GDIOP_ALPHABLEND, DXGK_GDIOP_BITBLT, DXGK_GDIOP_CLEARTYPEBLEND, DXGK_GDIOP_COLORFILL, DXGK_GDIOP_ESCAPE, DXGK_GDIOP_STRETCHBLT, DXGK_GDIOP_TRANSPARENTBLT, DXGK_RENDERKM_OPERATION, DXGK_RENDERKM_OPERATION enumeration [Display Devices], DmEnums_f7b836bc-00ed-4ecc-8bb7-460e3e44d165.xml, _DXGK_RENDERKM_OPERATION, d3dkmddi/DXGK_GDIOP_ALPHABLEND, d3dkmddi/DXGK_GDIOP_BITBLT, d3dkmddi/DXGK_GDIOP_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIOP_COLORFILL, d3dkmddi/DXGK_GDIOP_ESCAPE, d3dkmddi/DXGK_GDIOP_STRETCHBLT, d3dkmddi/DXGK_GDIOP_TRANSPARENTBLT, d3dkmddi/DXGK_RENDERKM_OPERATION, display.dxgk_renderkm_operation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_RENDERKM_OPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_RENDERKM_OPERATION
 ---
@@ -49,23 +50,7 @@ req.typenames: DXGK_RENDERKM_OPERATION
 ## -description
 
 
-The DXGK_RENDERKM_OPERATION enumeration indicates the type of GDI hardware-accelerated rendering operation to perform when the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a> function is called.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_RENDERKM_OPERATION { 
-  DXGK_GDIOP_BITBLT          = 1,
-  DXGK_GDIOP_COLORFILL       = 2,
-  DXGK_GDIOP_ALPHABLEND      = 3,
-  DXGK_GDIOP_STRETCHBLT      = 4,
-  DXGK_GDIOP_ESCAPE          = 5,
-  DXGK_GDIOP_TRANSPARENTBLT  = 6,
-  DXGK_GDIOP_CLEARTYPEBLEND  = 7
-} DXGK_RENDERKM_OPERATION;
-````
+The DXGK_RENDERKM_OPERATION enumeration indicates the type of GDI hardware-accelerated rendering operation to perform when the <a href="https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f">DxgkDdiRenderKm</a> function is called.
 
 
 ## -enum-fields
@@ -95,7 +80,7 @@ Indicates a stretch blt.
 
 ### -field DXGK_GDIOP_ESCAPE
 
-Reserved for future use. The driver should skip this command when setting the value of the <b>CommandSize</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a> structure.
+Reserved for future use. The driver should skip this command when setting the value of the <b>CommandSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a> structure.
 
 
 ### -field DXGK_GDIOP_TRANSPARENTBLT
@@ -110,16 +95,15 @@ Indicates a ClearType blend.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f">DxgkDdiRenderKm</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\rilcallvideomediastate.htm
 old-project: netvista
 ms.assetid: f40b9989-a911-4b89-a5a3-dda9a225b576
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallvideomediastate, ntddrilapitypes/RILCALLVIDEOMEDIASTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLVIDEOMEDIASTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLVIDEOMEDIASTATE, *LPRILCALLVIDEOMEDIASTATE
 ---
@@ -50,19 +51,6 @@ req.typenames: RILCALLVIDEOMEDIASTATE, *LPRILCALLVIDEOMEDIASTATE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLVIDEOMEDIASTATE {
-  DWORD                  dwParams;
-  RILCALLMEDIADIRECTION  dwPeerCapabilities;
-  DWORD                  dwFlags;
-  DWORD                  dwContextID;
-} RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE;
-````
 
 
 ## -struct-fields

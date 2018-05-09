@@ -7,8 +7,8 @@ old-location: audio\eventhandler.htm
 old-project: audio
 ms.assetid: 06239870-8ed8-49c9-a9d4-fd3e28f3ab58
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EventHandler, EventHandler callback function [Audio Devices], PCPFNEVENT_HANDLER, audio.eventhandler, audmp-routines_f75ad8d3-9abe-4f8a-97d4-605a18586ecb.xml, portcls/EventHandler
+ms.date: 4/16/2018
+ms.keywords: EventHandler, EventHandler callback function [Audio Devices], PCPFNEVENT_HANDLER, PCPFNEVENT_HANDLER callback, audio.eventhandler, audmp-routines_f75ad8d3-9abe-4f8a-97d4-605a18586ecb.xml, portcls/EventHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,31 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	EventHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PosValueStatisticsEntry
+req.typenames: 
 ---
 
-# PCPFNEVENT_HANDLER callback
+# PCPFNEVENT_HANDLER callback function
 
 
 ## -description
 
 
 An <code>EventHandler</code> routine processes event requests.
-
-
-## -prototype
-
-
-````
-PCPFNEVENT_HANDLER EventHandler;
-
-NTSTATUS EventHandler(
-  _In_ PPCEVENT_REQUEST EventRequest
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,7 +60,7 @@ NTSTATUS EventHandler(
 
 ### -param EventRequest [in]
 
-Pointer to an initialized <a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a> structure
+Pointer to an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff537693">PCEVENT_REQUEST</a> structure
 
 
 ## -returns
@@ -106,7 +94,7 @@ Pointers to the target miniport object and (for a pin) stream object.
 </ul>
 This is similar to the type of information that is provided with property requests.
 
-The miniport driver exposes its event handlers through its <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method. This method outputs a descriptor structure (see <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>) that defines the filter that the miniport driver and its associated port driver implement together. This structure contains a pointer to the miniport driver's automation table (see <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>), which in turn contains a pointer to an array of the miniport driver's events. Each array element is a <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a> structure and contains a PCPFNEVENT_HANDLER function pointer to the handler for the event.
+The miniport driver exposes its event handlers through its <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method. This method outputs a descriptor structure (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537694">PCFILTER_DESCRIPTOR</a>) that defines the filter that the miniport driver and its associated port driver implement together. This structure contains a pointer to the miniport driver's automation table (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537685">PCAUTOMATION_TABLE</a>), which in turn contains a pointer to an array of the miniport driver's events. Each array element is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537692">PCEVENT_ITEM</a> structure and contains a PCPFNEVENT_HANDLER function pointer to the handler for the event.
 
 The <code>EventHandler</code> routine must reside in nonpaged memory.
 
@@ -115,15 +103,6 @@ The <code>EventHandler</code> routine must reside in nonpaged memory.
 
 ## -see-also
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536889">IPortEvents::GenerateEventList</a>
-
-
-
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a>
 
 
 
@@ -135,16 +114,24 @@ The <code>EventHandler</code> routine must reside in nonpaged memory.
 
 
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536889">IPortEvents::GenerateEventList</a>
 
 
 
-<a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537685">PCAUTOMATION_TABLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537692">PCEVENT_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537693">PCEVENT_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537694">PCFILTER_DESCRIPTOR</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\bdapropertygetcontrollingpinid.htm
 old-project: stream
 ms.assetid: 3d4d4124-9c52-42f5-bc31-b924d9c15c36
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: BdaPropertyGetControllingPinId, BdaPropertyGetControllingPinId function [Streaming Media Devices], bdaref_7f3a3695-4599-4b16-8a90-4ac171ab1ec0.xml, bdasup/BdaPropertyGetControllingPinId, stream.bdapropertygetcontrollingpinid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Bdasup.dll
 api_name:
 -	BdaPropertyGetControllingPinId
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
+req.typenames: 
 ---
 
 # BdaPropertyGetControllingPinId function
@@ -51,18 +52,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 
 
 The <b>BdaPropertyGetControllingPinId</b> function retrieves the identifier of a pin on which to control the properties, methods, and events of a specific node. 
-
-
-## -syntax
-
-
-````
-NTSTATUS BdaPropertyGetControllingPinId(
-  _In_      PIRP              Irp,
-  _In_      PKSP_BDA_NODE_PIN pProperty,
-  _Out_opt_ PULONG            pulControllingPinId
-);
-````
 
 
 ## -parameters
@@ -87,7 +76,7 @@ Points to a variable that receives the identifier of the controlling pin for a n
 
 #### - pProperty [in]
 
-Points to a <a href="..\bdamedia\ns-bdamedia-_ksp_bda_node_pin.md">KSP_BDA_NODE_PIN</a> structure that describes the property and request type of the property request to retrieve the controlling pin for a node. 
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566716">KSP_BDA_NODE_PIN</a> structure that describes the property and request type of the property request to retrieve the controlling pin for a node. 
 
 
 ## -returns
@@ -110,6 +99,9 @@ A BDA minidriver calls the <b>BdaPropertyGetControllingPinId</b> function to ret
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564303">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a>
 
 
@@ -118,12 +110,8 @@ A BDA minidriver calls the <b>BdaPropertyGetControllingPinId</b> function to ret
 
 
 
-<a href="..\bdamedia\ns-bdamedia-_ksp_bda_node_pin.md">KSP_BDA_NODE_PIN</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566716">KSP_BDA_NODE_PIN</a>
  
 
  
-
 

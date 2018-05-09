@@ -7,7 +7,7 @@ old-location: buses\ucm_pd_request_data_object_init_ulong.htm
 old-project: usbref
 ms.assetid: 825AA3FC-1D2E-4D71-8F21-C89A249B3F1A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG, UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG function [Buses], buses.ucm_pd_request_data_object_init_ulong, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Ucmtypes.h
 api_name:
 -	UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UCM_TYPEC_PARTNER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG function
@@ -50,19 +50,8 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_request_data_object.md">UCM_PD_REQUEST_DATA_OBJECT</a>  structure by interpreting Request Data Object values and sets each field correctly.
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187942">UCM_PD_REQUEST_DATA_OBJECT</a>  structure by interpreting Request Data Object values and sets each field correctly.
 
-
-
-## -syntax
-
-
-````
-void UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG(
-  _Out_ PUCM_PD_REQUEST_DATA_OBJECT Pdo,
-  _In_  ULONG                       UlongInLittleEndian
-);
-````
 
 
 ## -parameters
@@ -77,12 +66,12 @@ TBD
 
 ### -param UlongInLittleEndian [in]
 
-The ULONG value to set in the <b>Ul</b> member of   <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_request_data_object.md">UCM_PD_REQUEST_DATA_OBJECT</a>.
+The ULONG value to set in the <b>Ul</b> member of   <a href="https://msdn.microsoft.com/library/windows/hardware/mt187942">UCM_PD_REQUEST_DATA_OBJECT</a>.
 
 
 #### - Pdo [out]
 
-A pointer to a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_request_data_object.md">UCM_PD_REQUEST_DATA_OBJECT</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187942">UCM_PD_REQUEST_DATA_OBJECT</a> structure.
 
 
 ## -returns
@@ -98,7 +87,7 @@ This function does not return a value.
 
 
 
-For information about Request Data Objects, see the Power Delivery specification. There are different types of Request Data Objects and the type depends on the Power Data Object that is specified in the <b>ObjectPosition</b> member of <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_request_data_object.md">UCM_PD_REQUEST_DATA_OBJECT</a>. The  source buffer is little-endian format and the client driver can memcopy the Request Data Objects from the hardware into an array of <b>UCM_PD_REQUEST_DATA_OBJECT</b> structures.
+For information about Request Data Objects, see the Power Delivery specification. There are different types of Request Data Objects and the type depends on the Power Data Object that is specified in the <b>ObjectPosition</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187942">UCM_PD_REQUEST_DATA_OBJECT</a>. The  source buffer is little-endian format and the client driver can memcopy the Request Data Objects from the hardware into an array of <b>UCM_PD_REQUEST_DATA_OBJECT</b> structures.
  
 
 
@@ -106,12 +95,11 @@ For information about Request Data Objects, see the Power Delivery specification
 
 ## -see-also
 
-<a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_request_data_object.md">UCM_PD_REQUEST_DATA_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187942">UCM_PD_REQUEST_DATA_OBJECT</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\umdetwregister.htm
 old-project: display
 ms.assetid: 03352d5d-122f-4818-965d-f5cc8231d6ed
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: UMDEtwRegister, UMDEtwRegister function [Display Devices], display.umdetwregister, umdprovider/UMDEtwRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	umdprovider.h
 api_name:
 -	UMDEtwRegister
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_SEMANTIC
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UMDEtwRegister function
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Registers the event trace provider. The driver should call this function before it makes any calls to log events.
 
 
-## -syntax
-
-
-````
-void UMDEtwRegister(
-   PFNUMDETW_RUNDOWN CbRundown
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void UMDEtwRegister(
 
 A pointer to a callback function that returns information about the current state of the user-mode driver.
 
-This callback function should call the <a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a> function for every current allocation mapping.
+This callback function should call the <a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a> function for every current allocation mapping.
 
 
 ## -returns
@@ -179,16 +169,15 @@ The <a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">Ev
 
 ## -see-also
 
-<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
 
 
 
-<a href="..\umdprovider\nf-umdprovider-umdetwunregister.md">UMDEtwUnregister</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542440">UMDEtwUnregister</a>
  
 
  
-
 

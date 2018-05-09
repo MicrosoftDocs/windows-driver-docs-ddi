@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequestCompletionParams.GetWriteParameters
-title: IWDFIoRequestCompletionParams::GetWriteParameters method
+title: IWDFIoRequestCompletionParams::GetWriteParameters
 author: windows-driver-content
 description: The GetWriteParameters method retrieves parameters that are associated with the completion of a write request.
 old-location: wdf\iwdfiorequestcompletionparams_getwriteparameters.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7161ba67-d94a-4f05-bb8f-a97ef418e580
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetWriteParameters method, GetWriteParameters method, IWDFIoRequestCompletionParams interface, GetWriteParameters,IWDFIoRequestCompletionParams.GetWriteParameters, IWDFIoRequestCompletionParams, IWDFIoRequestCompletionParams interface, GetWriteParameters method, IWDFIoRequestCompletionParams::GetWriteParameters, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, umdf.iwdfiorequestcompletionparams_getwriteparameters, wdf.iwdfiorequestcompletionparams_getwriteparameters, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters
+ms.keywords: GetWriteParameters, GetWriteParameters method, GetWriteParameters method,IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface,GetWriteParameters method, IWDFIoRequestCompletionParams.GetWriteParameters, IWDFIoRequestCompletionParams::GetWriteParameters, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, umdf.iwdfiorequestcompletionparams_getwriteparameters, wdf.iwdfiorequestcompletionparams_getwriteparameters, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequestCompletionParams.GetWriteParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequestCompletionParams::GetWriteParameters method
+# IWDFIoRequestCompletionParams::GetWriteParameters
 
 
 ## -description
@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetWriteParameters</b> method retrieves parameters that are associated with the completion of a write request.
 
 
-## -syntax
-
-
-````
-void  GetWriteParameters(
-  [out] IWDFMemory **ppWriteMemory,
-  [out] SIZE_T     pBytesWritten,
-  [out] SIZE_T     pWriteMemoryOffset
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ void  GetWriteParameters(
 
 ### -param ppWriteMemory [out]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for access to the write buffer for the completion of the write request. 
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface for access to the write buffer for the completion of the write request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
@@ -104,16 +92,15 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequestcompletionparams.md">IWDFIoRequestCompletionParams</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559055">IWDFIoRequestCompletionParams</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
  
 
  
-
 

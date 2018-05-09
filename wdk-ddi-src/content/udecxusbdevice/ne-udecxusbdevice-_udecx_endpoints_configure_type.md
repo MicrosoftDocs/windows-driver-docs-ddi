@@ -7,7 +7,7 @@ old-location: buses\udecx_endpoints_configure_type.htm
 old-project: usbref
 ms.assetid: F13C7D8D-C134-432A-904B-7435894B07E5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUDECX_ENDPOINTS_CONFIGURE_TYPE, PUDECX_ENDPOINTS_CONFIGURE_TYPE, PUDECX_ENDPOINTS_CONFIGURE_TYPE enumeration pointer [Buses], UDECX_ENDPOINTS_CONFIGURE_TYPE, UDECX_ENDPOINTS_CONFIGURE_TYPE enumeration [Buses], UdecxEndpointsConfigureTypeDeviceConfigurationChange, UdecxEndpointsConfigureTypeDeviceInitialize, UdecxEndpointsConfigureTypeEndpointsReleasedOnly, UdecxEndpointsConfigureTypeInterfaceSettingChange, _UDECX_ENDPOINTS_CONFIGURE_TYPE, buses.udecx_endpoints_configure_type, udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceConfigurationChange, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceInitialize, udecxusbdevice/UdecxEndpointsConfigureTypeEndpointsReleasedOnly, udecxusbdevice/UdecxEndpointsConfigureTypeInterfaceSettingChange"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	udecxusbdevice.h
 api_name:
 -	UDECX_ENDPOINTS_CONFIGURE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_ENDPOINTS_CONFIGURE_TYPE, *PUDECX_ENDPOINTS_CONFIGURE_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _UDECX_ENDPOINTS_CONFIGURE_TYPE enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 Defines values for endpoint configuration options. 
-
-
-## -syntax
-
-
-````
-typedef enum _UDECX_ENDPOINTS_CONFIGURE_TYPE { 
-  UdecxEndpointsConfigureTypeDeviceInitialize           = 0,
-  UdecxEndpointsConfigureTypeDeviceConfigurationChange  = ,
-  UdecxEndpointsConfigureTypeInterfaceSettingChange     = ,
-  UdecxEndpointsConfigureTypeEndpointsReleasedOnly      = 
-} UDECX_ENDPOINTS_CONFIGURE_TYPE, *PUDECX_ENDPOINTS_CONFIGURE_TYPE;
-````
 
 
 ## -enum-fields
@@ -93,16 +80,15 @@ The requested change applies to an endpoint of an interface setting.
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure.md">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a>
 
 
 
-<a href="..\udecxusbdevice\ns-udecxusbdevice-_udecx_endpoints_configure_params.md">UDECX_ENDPOINTS_CONFIGURE_PARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595913">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627993">UDECX_ENDPOINTS_CONFIGURE_PARAMS</a>
  
 
  
-
 

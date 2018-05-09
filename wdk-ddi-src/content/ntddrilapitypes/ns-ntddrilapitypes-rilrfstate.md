@@ -7,7 +7,7 @@ old-location: netvista\rilrfstate.htm
 old-project: netvista
 ms.assetid: 7eb78864-d20c-4993-8b33-63096bf971fa
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILRFSTATE, RILRFSTATE, RILRFSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilrfstate, ntddrilapitypes/RILRFSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILRFSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILRFSTATE, *LPRILRFSTATE
 ---
@@ -50,20 +51,6 @@ req.typenames: RILRFSTATE, *LPRILRFSTATE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILRFSTATE {
-  DWORD    cbSize;
-  DWORD    dwParams;
-  DWORD    dwRFState;
-  DWORD    dwRFDataSize;
-  BYTE [1] bRFData;
-} RILRFSTATE, RILRFSTATE;
-````
 
 
 ## -struct-fields

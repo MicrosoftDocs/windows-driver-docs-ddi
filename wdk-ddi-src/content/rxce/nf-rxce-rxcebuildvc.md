@@ -7,7 +7,7 @@ old-location: ifsk\rxcebuildvc.htm
 old-project: ifsk
 ms.assetid: b060bd22-113f-4f78-8763-d1d19cf198b8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RxCeBuildVC, RxCeBuildVC function [Installable File System Drivers], ifsk.rxcebuildvc, rxce/RxCeBuildVC, rxref_4f4f58c7-5970-4a86-883e-359e92bddaa3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rxce.h
 api_name:
 -	RxCeBuildVC
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxCeBuildVC function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeBuildVC</b> adds a virtual circuit to a specified RDBSS connection..
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeBuildVC(
-  _Inout_ PRXCE_VC         pVc,
-  _In_    PRXCE_CONNECTION pConnection
-);
-````
 
 
 ## -parameters
@@ -136,12 +125,11 @@ When <b>RxCeBuildVC</b> is successful, the data members in the RXCE_VC structure
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownvc.md">RxCeTearDownVC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554332">RxCeTearDownVC</a>
  
 
  
-
 

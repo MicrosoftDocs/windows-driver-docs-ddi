@@ -7,7 +7,7 @@ old-location: netvista\ndiscmopenaddressfamilycomplete.htm
 old-project: netvista
 ms.assetid: eed57341-0b1a-4697-b05d-680bc17da796
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCmOpenAddressFamilyComplete, NdisCmOpenAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_0b6dfac0-905d-48a8-b547-85bfe047e8f1.xml, ndis/NdisCmOpenAddressFamilyComplete, netvista.ndiscmopenaddressfamilycomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisCmOpenAddressFamilyComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCmOpenAddressFamilyComplete function
@@ -53,18 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 <b>NdisCmOpenAddressFamilyComplete</b> returns the final status of a stand-alone call manager's open of a
   given AF for a particular client after the call manager returned NDIS_STATUS_PENDING in response to that
   client's original open-AF request.
-
-
-## -syntax
-
-
-````
-VOID NdisCmOpenAddressFamilyComplete(
-  _In_ NDIS_STATUS Status,
-  _In_ NDIS_HANDLE NdisAfHandle,
-  _In_ NDIS_HANDLE CallMgrAfContext
-);
-````
 
 
 ## -parameters
@@ -82,7 +71,7 @@ Specifies the final status of the open-AF operation, either NDIS_STATUS_SUCCESS 
 ### -param NdisAfHandle [in]
 
 Specifies the NDIS-supplied handle that was input to the call manager's 
-     <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function, which
+     <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function, which
      returned NDIS_STATUS_PENDING.
 
 
@@ -109,13 +98,13 @@ None
 
 A stand-alone call manager must call 
     <b>NdisCmOpenAddressFamilyComplete</b> if its 
-    <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function previously
+    <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function previously
     returned NDIS_STATUS_PENDING for the given 
     <i>NdisAfHandle</i> . The client, which initiated the pended open-AF operation with a call to 
-    <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>,
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>,
     cannot carry out further connection-oriented operations on the same binding until 
     <b>NdisCmOpenAddressFamilyComplete</b> causes a call to that client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">
+    <a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">
     ProtocolClOpenAfCompleteEx</a> function.
 
 If the caller of 
@@ -139,7 +128,7 @@ For a successful open, the NDIS-supplied
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
     <b>NdisCmOpenAddressFamilyComplete</b>. Connection-oriented miniport drivers that provide integrated
     call-management support must call 
-    <a href="..\ndis\nf-ndis-ndismcmopenaddressfamilycomplete.md">
+    <a href="https://msdn.microsoft.com/e2d6c7db-09b3-4e5a-a6da-607c67e03054">
     NdisMCmOpenAddressFamilyComplete</a> instead.
 
 
@@ -147,30 +136,29 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmopenaddressfamilycomplete.md">
-   NdisMCmOpenAddressFamilyComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
+<a href="https://msdn.microsoft.com/e2d6c7db-09b3-4e5a-a6da-607c67e03054">
+   NdisMCmOpenAddressFamilyComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+<a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">ProtocolClOpenAfCompleteEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
  
 
  
-
 

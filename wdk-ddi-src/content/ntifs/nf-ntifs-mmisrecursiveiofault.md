@@ -7,7 +7,7 @@ old-location: ifsk\mmisrecursiveiofault.htm
 old-project: ifsk
 ms.assetid: c445c016-2781-4a82-ac2d-4c6eaff3b4c8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: MmIsRecursiveIoFault, MmIsRecursiveIoFault routine [Installable File System Drivers], ifsk.mmisrecursiveiofault, mmref_2f97ee70-0e70-4607-841e-e9d5b3ae74c8.xml, ntifs/MmIsRecursiveIoFault
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	MmIsRecursiveIoFault
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # MmIsRecursiveIoFault function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>MmIsRecursiveIoFault</b> routine determines whether the current page fault is occurring during an I/O operation.
-
-
-## -syntax
-
-
-````
-BOOLEAN  MmIsRecursiveIoFault(
-   VOID 
-);
-````
 
 
 ## -parameters
@@ -91,12 +82,11 @@ When a page fault occurs, the file system can call <b>MmIsRecursiveIoFault</b> t
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-mmisaddressvalid.md">MmIsAddressValid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554572">MmIsAddressValid</a>
  
 
  
-
 

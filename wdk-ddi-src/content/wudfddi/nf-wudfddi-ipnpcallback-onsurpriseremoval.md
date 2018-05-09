@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallback.OnSurpriseRemoval
-title: IPnpCallback::OnSurpriseRemoval method
+title: IPnpCallback::OnSurpriseRemoval
 author: windows-driver-content
 description: The OnSurpriseRemoval method notifies a driver after a device is removed from a computer unexpectedly so that the driver can perform necessary operations.
 old-location: wdf\ipnpcallback_onsurpriseremoval.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4289406f-dda0-4439-be6e-6e638bb46e1f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallback, IPnpCallback interface, OnSurpriseRemoval method, IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval method, OnSurpriseRemoval method, IPnpCallback interface, OnSurpriseRemoval,IPnpCallback.OnSurpriseRemoval, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, umdf.ipnpcallback_onsurpriseremoval, wdf.ipnpcallback_onsurpriseremoval, wudfddi/IPnpCallback::OnSurpriseRemoval
+ms.keywords: IPnpCallback interface,OnSurpriseRemoval method, IPnpCallback.OnSurpriseRemoval, IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval, OnSurpriseRemoval method, OnSurpriseRemoval method,IPnpCallback interface, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, umdf.ipnpcallback_onsurpriseremoval, wdf.ipnpcallback_onsurpriseremoval, wudfddi/IPnpCallback::OnSurpriseRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IPnpCallback.OnSurpriseRemoval
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallback::OnSurpriseRemoval method
+# IPnpCallback::OnSurpriseRemoval
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnSurpriseRemoval</b> method notifies a driver after a device is removed from a computer unexpectedly so that the driver can perform necessary operations.
 
 
-## -syntax
-
-
-````
-void OnSurpriseRemoval(
-  [in] IWDFDevice *pWdfDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void OnSurpriseRemoval(
 
 ### -param pWdfDevice [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that is removed unexpectedly.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface for the device object of the device that is removed unexpectedly.
 
 
 ## -returns
@@ -88,7 +78,7 @@ None
 
 
 
-A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556762">IPnpCallback</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
 
 The framework does not synchronize the <b>OnSurpriseRemoval</b> callback function with other PnP and power management callback functions.  
 
@@ -99,20 +89,19 @@ For more information about when the framework calls this callback function, and 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556762">IPnpCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
-
-
-
  
 
  
-
 

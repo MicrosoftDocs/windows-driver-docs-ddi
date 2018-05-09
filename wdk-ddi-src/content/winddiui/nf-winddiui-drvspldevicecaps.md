@@ -7,7 +7,7 @@ old-location: print\drvspldevicecaps.htm
 old-project: print
 ms.assetid: 3d129a30-a892-4f4d-b8e3-f277d97980f4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: DrvSplDeviceCaps, DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, winddiui/DrvSplDeviceCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvSplDeviceCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # DrvSplDeviceCaps function
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 A printer interface DLL's <b>DrvSplDeviceCaps</b> function queries a printer for its capabilities.
-
-
-## -syntax
-
-
-````
-DWORD DrvSplDeviceCaps(
-            HANDLE   hPrinter,
-  _In_      PWSTR    pwDeviceName,
-            WORD     DeviceCap,
-  _Out_opt_ PVOID    pvOutput,
-            DWORD    cchBuf,
-  _In_opt_  PDEVMODE pDM
-);
-````
 
 
 ## -parameters
@@ -181,7 +166,7 @@ The return value depends on the <i>DeviceCap</i> parameter. If <i>DeviceCap</i> 
 
 The <b>DrvSplDeviceCaps</b> function is available in Microsoft Windows Server 2003 and later.
 
-For descriptions of the DC_<i>XXX</i> flags, see <a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a>.
+For descriptions of the DC_<i>XXX</i> flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548539">DrvDeviceCapabilities</a>.
 
 This function must be defined in the .def file as DrvSplDeviceCaps @ 254, because the spooler uses the ordinal number 254 to obtain the driver function pointer.
 
@@ -190,12 +175,11 @@ This function must be defined in the .def file as DrvSplDeviceCaps @ 254, becaus
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvdevicecapabilities.md">DrvDeviceCapabilities</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548539">DrvDeviceCapabilities</a>
  
 
  
-
 

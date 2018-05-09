@@ -7,7 +7,7 @@ old-location: storage\ataportrequestworkerroutine.htm
 old-project: storage
 ms.assetid: 2d9a6886-aeec-4d61-8c9d-056d1409b905
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortRequestWorkerRoutine, AtaPortRequestWorkerRoutine routine [Storage Devices], atartns_9edce4ce-1bcf-4e52-81c1-705e645fe5f4.xml, irb/AtaPortRequestWorkerRoutine, storage.ataportrequestworkerroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	irb.h
 api_name:
 -	AtaPortRequestWorkerRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortRequestWorkerRoutine function
@@ -51,17 +52,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortRequestWorkerRoutine</b> routine requests a worker routine.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-BOOLEAN __inline AtaPortRequestWorkerRoutine(
-  _In_ PVOID      ChannelExtension,
-  _In_ IDE_HW_DPC WorkerRoutine
-);
-````
-
 
 ## -parameters
 

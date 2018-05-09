@@ -7,7 +7,7 @@ old-location: stream\kspersistdeviceprofile.htm
 old-project: stream
 ms.assetid: 4EC3E99B-C73C-4EAC-9EBD-BB45ABFCE8EC
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPersistDeviceProfile, KsPersistDeviceProfile function [Streaming Media Devices], ks/KsPersistDeviceProfile, stream.kspersistdeviceprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsPersistDeviceProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The <b>KsPersistDeviceProfile</b> API commits the profile information to the persistent store.
 
 
-## -syntax
-
-
-````
- __drv_maxIRQL(PASSIVE_LEVEL) KSDDKAPI NTSTATUS NTAPI KsPersistDeviceProfile(
-  _In_ PKSFILTERFACTORY FilterFactory
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ The <b>KsPersistDeviceProfile</b> API commits the profile information to the per
 
 ### -param FilterFactory [in]
 
-This is the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> that was used to initialize the profile store in <a href="..\ks\nf-ks-ksinitializedeviceprofile.md">KsInitializeDeviceProfile</a>.
+This is the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> that was used to initialize the profile store in <a href="https://msdn.microsoft.com/library/windows/hardware/dn917797">KsInitializeDeviceProfile</a>.
 
 
 ## -returns

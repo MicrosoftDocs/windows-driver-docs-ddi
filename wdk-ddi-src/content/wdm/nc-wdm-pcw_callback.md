@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 5058fc17-1016-45bc-a6ea-5e2458824e7b
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: PCW_CALLBACK, PcwCallback, PcwCallback callback function [Driver Development Tools], devtest.pcwcallback, km_pcw_f4d70925-0361-4aa6-9e4b-3f1e00a01535.xml, wdm/PcwCallback
+ms.keywords: PCW_CALLBACK, PCW_CALLBACK callback, PcwCallback, PcwCallback callback function [Driver Development Tools], devtest.pcwcallback, km_pcw_f4d70925-0361-4aa6-9e4b-3f1e00a01535.xml, wdm/PcwCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,34 +38,19 @@ api_location:
 -	Wdm.h
 api_name:
 -	PcwCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCW_CALLBACK callback
+# PCW_CALLBACK callback function
 
 
 ## -description
 
 
 Providers can implement a <i>PCW_CALLBACK</i> function to receive notification when consumers perform certain actions, such as adding or removing counters from a query. The Performance Counter Library (PERFLIB version 2.0) calls the <i>PCW_CALLBACK</i> function before the consumer's request completes.
-
-
-## -prototype
-
-
-````
-PCW_CALLBACK PcwCallback;
-
-NTSTATUS PcwCallback(
-  _In_     PCW_CALLBACK_TYPE         Type,
-  _In_     PPCW_CALLBACK_INFORMATION Info,
-  _In_opt_ PVOID                     Context
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -85,7 +70,7 @@ A pointer to a PCW_CALLBACK_INFORMATION union that supplies details about the re
 
 ### -param Context [in, optional]
 
-A pointer to the callback context. This value is supplied by the provider when calling <a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>.
+A pointer to the callback context. This value is supplied by the provider when calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>.
 
 
 ## -returns
@@ -274,16 +259,15 @@ In the <i>DriverEntry</i> routine of the KCS example, the <i>KcsGeometricWaveCal
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pcwregister.md">PcwRegister</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=144623">Performance Counter Library (PERFLIB)</a>
-
-
-
  
 
  
-
 

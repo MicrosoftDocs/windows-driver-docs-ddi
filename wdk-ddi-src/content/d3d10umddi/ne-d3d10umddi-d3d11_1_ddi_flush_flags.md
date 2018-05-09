@@ -7,7 +7,7 @@ old-location: display\d3d11_1_ddi_flush_flags.htm
 old-project: display
 ms.assetid: 0786c63d-ce4e-47c1-b54f-47f1da90cb64
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, D3D11_1_DDI_FLUSH_FLAGS, D3D11_1_DDI_FLUSH_FLAGS enumeration [Display Devices], D3DWDDM1_3DDI_TRIM_MEMORY, d3d10umddi/D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, d3d10umddi/D3D11_1_DDI_FLUSH_FLAGS, d3d10umddi/D3DWDDM1_3DDI_TRIM_MEMORY, display.d3d11_1_ddi_flush_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1_DDI_FLUSH_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1_DDI_FLUSH_FLAGS
 ---
@@ -49,20 +50,7 @@ req.typenames: D3D11_1_DDI_FLUSH_FLAGS
 ## -description
 
 
-In calls to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_flush.md">Flush(D3D11_1)</a> function,  indicates whether the driver should continue to submit command buffers. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
-
-
-## -syntax
-
-
-````
-typedef enum D3D11_1_DDI_FLUSH_FLAGS { 
-  D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS  = 0x00000001,
-#if D3D11DDI_MINOR_HEADER_VERSION >= 4
-  D3DWDDM1_3DDI_TRIM_MEMORY            = 0x00000002
-
-#endif } D3D11_1_DDI_FLUSH_FLAGS;
-````
+In calls to the <a href="https://msdn.microsoft.com/6f4bda19-2d51-4058-ba68-cbb5deb44a54">Flush(D3D11_1)</a> function,  indicates whether the driver should continue to submit command buffers. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
 
 ## -enum-fields
@@ -86,12 +74,11 @@ Supported starting with Windows 8.1 for WDDM 1.3 and later user-mode display dr
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_flush.md">Flush(D3D11_1)</a>
 
 
 
+<a href="https://msdn.microsoft.com/6f4bda19-2d51-4058-ba68-cbb5deb44a54">Flush(D3D11_1)</a>
  
 
  
-
 

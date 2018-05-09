@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.CreateGDLSnapshot
-title: IPrintCoreHelperUni::CreateGDLSnapshot method
+title: IPrintCoreHelperUni::CreateGDLSnapshot
 author: windows-driver-content
 description: The IPrintCoreHelperUni::CreateGDLSnapshot method creates a GDL snapshot of the driver configuration file based on the current configuration.
 old-location: print\iprintcorehelperuni_creategdlsnapshot.htm
 old-project: print
 ms.assetid: 3dd9c7f9-27d4-45d2-8692-4270818c1823
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CreateGDLSnapshot method [Print Devices], CreateGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, CreateGDLSnapshot,IPrintCoreHelperUni.CreateGDLSnapshot, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], CreateGDLSnapshot method, IPrintCoreHelperUni::CreateGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateGDLSnapshot, print.iprintcorehelperuni_creategdlsnapshot, print_unidrv-pscript_allplugins_c45d077d-295f-4636-829f-8595d43cd5ed.xml
+ms.date: 4/20/2018
+ms.keywords: CreateGDLSnapshot, CreateGDLSnapshot method [Print Devices], CreateGDLSnapshot method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],CreateGDLSnapshot method, IPrintCoreHelperUni.CreateGDLSnapshot, IPrintCoreHelperUni::CreateGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateGDLSnapshot, print.iprintcorehelperuni_creategdlsnapshot, print_unidrv-pscript_allplugins_c45d077d-295f-4636-829f-8595d43cd5ed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreHelperUni.CreateGDLSnapshot
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperUni::CreateGDLSnapshot method
+# IPrintCoreHelperUni::CreateGDLSnapshot
 
 
 ## -description
 
 
 The <code>IPrintCoreHelperUni::CreateGDLSnapshot</code> method creates a GDL snapshot of the driver configuration file based on the current configuration. 
-
-
-## -syntax
-
-
-````
-HRESULT CreateGDLSnapshot(
-  [in]  PDEVMODE pDevmode,
-  [in]  DWORD    cbSize,
-  [in]  DWORD    dwFlags,
-  [out] LPSTREAM *ppSnapshotStream
-);
-````
 
 
 ## -parameters
@@ -102,16 +89,15 @@ A pointer to a stream that supplies the XML version of the GDL snapshot.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552917">IPrintCoreHelperUni::CreateDefaultGDLSnapshot</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
-
-
-
  
 
  
-
 

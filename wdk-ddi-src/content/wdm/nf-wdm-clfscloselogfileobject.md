@@ -7,7 +7,7 @@ old-location: kernel\clfscloselogfileobject.htm
 old-project: kernel
 ms.assetid: 0ebb82bd-b8f2-469b-90a9-5c1773f7b58a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsCloseLogFileObject, ClfsCloseLogFileObject routine [Kernel-Mode Driver Architecture], Clfs_836288b2-fd9b-4855-acfd-ad12d7e25b19.xml, kernel.clfscloselogfileobject, wdm/ClfsCloseLogFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsCloseLogFileObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsCloseLogFileObject function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>ClfsCloseLogFileObject</b> routine releases all references to a log file object.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsCloseLogFileObject(
-  _In_ PLOG_FILE_OBJECT plfoLog
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ NTSTATUS ClfsCloseLogFileObject(
 
 ### -param plfoLog [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure for which references will be released.The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure for which references will be released.The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>.
 
 
 ## -returns
@@ -100,16 +90,15 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscloseandresetlogfile.md">ClfsCloseAndResetLogFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540787">ClfsCloseAndResetLogFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>
  
 
  
-
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.SetPowerPolicy
-title: IWDFUsbTargetDevice::SetPowerPolicy method
+title: IWDFUsbTargetDevice::SetPowerPolicy
 author: windows-driver-content
 description: The SetPowerPolicy method sets the WinUsb power policy.
 old-location: wdf\iwdfusbtargetdevice_setpowerpolicy.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e1b31df0-d383-43a3-bf9f-8874689cbf58
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, SetPowerPolicy method, IWDFUsbTargetDevice::SetPowerPolicy, SetPowerPolicy method, SetPowerPolicy method, IWDFUsbTargetDevice interface, SetPowerPolicy,IWDFUsbTargetDevice.SetPowerPolicy, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, umdf.iwdfusbtargetdevice_setpowerpolicy, wdf.iwdfusbtargetdevice_setpowerpolicy, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy
+ms.keywords: IWDFUsbTargetDevice interface,SetPowerPolicy method, IWDFUsbTargetDevice.SetPowerPolicy, IWDFUsbTargetDevice::SetPowerPolicy, SetPowerPolicy, SetPowerPolicy method, SetPowerPolicy method,IWDFUsbTargetDevice interface, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, umdf.iwdfusbtargetdevice_setpowerpolicy, wdf.iwdfusbtargetdevice_setpowerpolicy, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetDevice.SetPowerPolicy
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetDevice::SetPowerPolicy method
+# IWDFUsbTargetDevice::SetPowerPolicy
 
 
 ## -description
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetPowerPolicy</b> method sets the WinUsb power policy.
-
-
-## -syntax
-
-
-````
-HRESULT SetPowerPolicy(
-  [in] ULONG PolicyType,
-  [in] ULONG ValueLength,
-  [in] PVOID Value
-);
-````
 
 
 ## -parameters
@@ -156,7 +144,10 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
 
 
 
@@ -165,11 +156,7 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540309">WinUsb_SetPowerPolicy</a>
-
-
-
  
 
  
-
 

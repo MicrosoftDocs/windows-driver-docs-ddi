@@ -7,7 +7,7 @@ old-location: kernel\rtlisservicepackversioninstalled.htm
 old-project: kernel
 ms.assetid: 1314ffb5-e6e2-4c22-bc67-388da3bcbe79
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlIsServicePackVersionInstalled, RtlIsServicePackVersionInstalled routine [Kernel-Mode Driver Architecture], k109_1552acd9-7036-45d2-bd1c-57b7a2154ecb.xml, kernel.rtlisservicepackversioninstalled, wdm/RtlIsServicePackVersionInstalled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Rtlver.dll
 api_name:
 -	RtlIsServicePackVersionInstalled
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlIsServicePackVersionInstalled function
@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlIsServicePackVersionInstalled</b> routine determines if a specified service pack version of the Microsoft Windows device driver interface (DDI) is installed.
-
-
-## -syntax
-
-
-````
-BOOLEAN RtlIsServicePackVersionInstalled(
-  _In_ ULONG Version
-);
-````
 
 
 ## -parameters
@@ -279,7 +269,7 @@ The NTDDI_<i>XXX</i> constants are defined in the Sdkddkver.h header file. The p
 
 The <b>RtlIsServicePackVersionInstalled</b> routine compares the version that the <i>Version</i> parameter specifies to the version of the currently running Windows operating system.
 
-Use the <a href="..\wdm\nf-wdm-rtlisntddiversionavailable.md">RtlIsNtDdiVersionAvailable</a> routine to determine if a major version of Windows is running.
+Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561954">RtlIsNtDdiVersionAvailable</a> routine to determine if a major version of Windows is running.
 
 For more information about <b>RtlIsServicePackVersionInstalled</b> and <b>RtlIsNtDdiVersionAvailable</b>, see <a href="https://msdn.microsoft.com/7d02148d-502d-4b49-9c56-9fff498dd2af">Header File Changes in the Windows Driver Kit</a>.
 
@@ -290,20 +280,19 @@ The Windows kernel implements <b>RtlIsServicePackVersionInstalled</b> only in Wi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlisntddiversionavailable.md">RtlIsNtDdiVersionAvailable</a>
 
 
 
-<a href="..\wdm\nf-wdm-psgetversion.md">PsGetVersion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559941">PsGetVersion</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561954">RtlIsNtDdiVersionAvailable</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563026">RtlVerifyVersionInfo</a>
  
 
  
-
 

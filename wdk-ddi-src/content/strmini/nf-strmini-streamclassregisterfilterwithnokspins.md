@@ -7,7 +7,7 @@ old-location: stream\streamclassregisterfilterwithnokspins.htm
 old-project: stream
 ms.assetid: f5ae426a-9d9d-4391-b87f-c4281dc9cadc
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: StreamClassRegisterFilterWithNoKSPins, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, stream.streamclassregisterfilterwithnokspins, strmini/StreamClassRegisterFilterWithNoKSPins
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Stream.dll
 api_name:
 -	StreamClassRegisterFilterWithNoKSPins
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StreamClassRegisterFilterWithNoKSPins function
@@ -52,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StreamClassRegisterFilterWithNoKSPins</b> routine is used to register filter drivers with Microsoft DirectShow that have no kernel streaming pins and, therefore, do not stream in kernel mode. 
-
-
-## -syntax
-
-
-````
-NTSTATUS StreamClassRegisterFilterWithNoKSPins(
-  _In_           PDEVICE_OBJECT DeviceObject,
-  _In_     const GUID           *InterfaceClassGUID,
-  _In_           ULONG          PinCount,
-  _In_           BOOL           *PinDirection,
-  _In_           KSPIN_MEDIUM   *MediumList,
-  _In_opt_       GUID           *CategoryList
-);
-````
 
 
 ## -parameters
@@ -115,12 +100,11 @@ Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
-
-
-
  
 
  
-
 

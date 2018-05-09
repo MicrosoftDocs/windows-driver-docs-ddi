@@ -7,7 +7,7 @@ old-location: kernel\iostarttimer.htm
 old-project: kernel
 ms.assetid: 2e13d7da-7ef3-4c2e-b028-f7d37548c208
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoStartTimer, IoStartTimer routine [Kernel-Mode Driver Architecture], k104_bca7aa97-41e1-48e4-96df-52dd6109cd51.xml, kernel.iostarttimer, wdm/IoStartTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoStartTimer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoStartTimer function
@@ -49,17 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoStartTimer</b> routine enables the timer associated with a given device object so the driver-supplied <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine is called once per second.
-
-
-## -syntax
-
-
-````
-VOID IoStartTimer(
-  _In_ PDEVICE_OBJECT DeviceObject
-);
-````
+The <b>IoStartTimer</b> routine enables the timer associated with a given device object so the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff550381">IoTimer</a> routine is called once per second.
 
 
 ## -parameters
@@ -92,32 +83,31 @@ The driver must already have set up the IoTimer routine for the <i>DeviceObject<
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioinitializetimer.md">IoInitializeTimer</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549344">IoInitializeTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550377">IoStopTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550381">IoTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552130">KeInitializeDpc</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552168">KeInitializeTimer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553286">KeSetTimer</a>
  
 
  
-
 

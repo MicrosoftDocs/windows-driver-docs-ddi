@@ -7,8 +7,8 @@ old-location: print\ixpsdocument.htm
 old-project: print
 ms.assetid: 1d4a9ad3-6ac1-44c3-9ddd-0dc5f996d70d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IXpsDocument, IXpsDocument interface [Print Devices], IXpsDocument interface [Print Devices], described, filterpipeline/IXpsDocument, filterpipeline_d2db5467-7b2d-439c-8ad1-3ffb607a3167.xml, print.ixpsdocument
+ms.date: 4/20/2018
+ms.keywords: IXpsDocument, IXpsDocument interface [Print Devices], IXpsDocument interface [Print Devices],described, filterpipeline/IXpsDocument, filterpipeline_d2db5467-7b2d-439c-8ad1-3ffb607a3167.xml, print.ixpsdocument
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsDocument
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # IXpsDocument interface

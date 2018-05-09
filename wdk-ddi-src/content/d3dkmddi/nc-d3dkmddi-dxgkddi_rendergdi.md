@@ -7,8 +7,8 @@ old-location: display\dxgkddirendergdi.htm
 old-project: display
 ms.assetid: 90C34125-FC32-46E3-81F7-6B2AACED9BAC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_RENDERGDI, DxgkDdiRenderGdi, DxgkDdiRenderGdi callback function [Display Devices], d3dkmddi/DxgkDdiRenderGdi, display.dxgkddirendergdi
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_RENDERGDI, DXGKDDI_RENDERGDI callback, DxgkDdiRenderGdi, DxgkDdiRenderGdi callback function [Display Devices], d3dkmddi/DxgkDdiRenderGdi, display.dxgkddirendergdi
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiRenderGdi
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_RENDERGDI callback
+# DXGKDDI_RENDERGDI callback function
 
 
 ## -description
 
 
 <b>DxgkDdiRenderGdi</b> is used when submitting Windows Graphics Device Interface (GDI) commands for contexts that support virtual addressing.
-
-
-## -prototype
-
-
-````
-DXGKDDI_RENDERGDI DxgkDdiRenderGdi;
-
-NTSTATUS APIENTRY DxgkDdiRenderGdi(
-  _In_    const HANDLE            hContext,
-  _Inout_       DXGKARG_RENDERGDI *pRenderGdi
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ A handle to a context block that is associated with a display adapter.
 
 ### -param pRenderGdi [in, out]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_rendergdi.md">DXGKARG_RENDERGDI</a> structure that describes operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906823">DXGKARG_RENDERGDI</a> structure that describes operation.
 
 
 ## -returns
@@ -120,12 +107,11 @@ All other return values will lead to the OS <i>bugcheck</i>.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_rendergdi.md">DXGKARG_RENDERGDI</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906823">DXGKARG_RENDERGDI</a>
  
 
  
-
 

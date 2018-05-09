@@ -7,7 +7,7 @@ old-location: display\dxgkvgpu_escape_powertransitioncomplete.htm
 old-project: display
 ms.assetid: 39800C47-95EB-4867-8FEE-E94EA3F6F68C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure [Display Devices], _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, display.dxgkvgpu_escape_powertransitioncomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
 ---
@@ -52,17 +53,6 @@ req.typenames: DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Indicates that a power transition has completed.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE {
-  DXGKVGPU_ESCAPE_HEAD Header;
-  UINT                 PowerState;
-} DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE;
-````
 
 
 ## -struct-fields

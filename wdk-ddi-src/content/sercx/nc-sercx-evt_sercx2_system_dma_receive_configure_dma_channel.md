@@ -7,8 +7,8 @@ old-location: serports\evtsercx2systemdmareceiveconfiguredmachannel.htm
 old-project: serports
 ms.assetid: 7B5C7151-851C-4F56-BCC5-3AF47F298B23
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2SystemDmaReceiveConfigureDmaChannel, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL, EvtSerCx2SystemDmaReceiveConfigureDmaChannel, EvtSerCx2SystemDmaReceiveConfigureDmaChannel callback function [Serial Ports], serports.evtsercx2systemdmareceiveconfiguredmachannel
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2SystemDmaReceiveConfigureDmaChannel, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL callback, EvtSerCx2SystemDmaReceiveConfigureDmaChannel, EvtSerCx2SystemDmaReceiveConfigureDmaChannel callback function [Serial Ports], serports.evtsercx2systemdmareceiveconfiguredmachannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,19 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	EvtSerCx2SystemDmaReceiveConfigureDmaChannel
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL callback
+# EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL callback function
 
 
 ## -description
 
 
 The <i>EvtSerCx2SystemDmaReceiveConfigureDmaChannel</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to let the serial controller driver do any custom configuration of the DMA adapter that might be required before the start of each transfer in a system-DMA-receive transaction.
-
-
-## -prototype
-
-
-````
-EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL EvtSerCx2SystemDmaReceiveConfigureDmaChannel;
-
-NTSTATUS EvtSerCx2SystemDmaReceiveConfigureDmaChannel(
-  _In_ SERCX2SYSTEMDMARECEIVE SystemDmaReceive,
-  _In_ PMDL                   Mdl,
-  _In_ ULONG                  Offset,
-  _In_ ULONG                  Length
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -76,12 +60,12 @@ NTSTATUS EvtSerCx2SystemDmaReceiveConfigureDmaChannel(
 
 ### -param SystemDmaReceive [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> method to create this object.
 
 
 ### -param Mdl [in]
 
-A pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> that describes the memory pages that are spanned by the read buffer for the system-DMA-receive transaction. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> that describes the memory pages that are spanned by the read buffer for the system-DMA-receive transaction. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters.
 
 
 ### -param Offset [in]
@@ -107,11 +91,11 @@ The <i>EvtSerCx2SystemDmaReceiveConfigureDmaChannel</i> function returns STATUS_
 
 
 
-Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> call that creates the system-DMA-receive object.
+Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> call that creates the system-DMA-receive object.
 
 Before initiating a system-DMA-receive transaction, SerCx2 calls the <i>EvtSerCx2SystemDmaReceiveConfigureDmaChannel</i> function, if it is implemented. This function performs any special configuration of the system DMA controller that might be required before SerCx2 starts the system-DMA-receive transaction.
 
-The serial controller driver can call a method such as <a href="..\sercx\nf-sercx-sercx2systemdmareceivegetdmaenabler.md">SerCx2SystemDmaReceiveGetDmaEnabler</a> to get the DMA enabler for the system DMA controller used for system-DMA-receive transactions.
+The serial controller driver can call a method such as <a href="https://msdn.microsoft.com/library/windows/hardware/dn265280">SerCx2SystemDmaReceiveGetDmaEnabler</a> to get the DMA enabler for the system DMA controller used for system-DMA-receive transactions.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265343">SerCx2 System-DMA-Receive Transactions</a>.
 
@@ -160,15 +144,10 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL</b> function type is 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivegetdmaenabler.md">SerCx2SystemDmaReceiveGetDmaEnabler</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
 
 
 
@@ -176,8 +155,12 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CONFIGURE_DMA_CHANNEL</b> function type is 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265280">SerCx2SystemDmaReceiveGetDmaEnabler</a>
  
 
  
-
 

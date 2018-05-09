@@ -7,7 +7,7 @@ old-location: kernel\iounregisterbootdrivercallback.htm
 old-project: kernel
 ms.assetid: 6199672C-A4A4-4ED8-B91E-95D96A472449
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], IoUnregisterBootDriverCallback, kernel.iounregisterbootdrivercallback, ntddk/IoUnRegisterBootDriverCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoUnRegisterBootDriverCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoUnregisterBootDriverCallback function
@@ -52,16 +53,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>IoUnRegisterBootDriverCallback</b> routine unregisters a previously registered <b>BOOT_DRIVER_CALLBACK_FUNCTION</b> routine.
 
 
-## -syntax
-
-
-````
-void IoUnRegisterBootDriverCallback(
-  _In_ PVOID CallbackHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ void IoUnRegisterBootDriverCallback(
 
 ### -param CallbackHandle [in]
 
-A handle returned from a previous call to <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">IoRegisterBootDriverCallback</a>.
+A handle returned from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh439379">IoRegisterBootDriverCallback</a>.
 
 
 ## -returns
@@ -85,19 +76,18 @@ None
 
 
 
-A driver that calls <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">IoRegisterBootDriverCallback</a> must call <b>IoUnRegisterBootDriverCallback</b> before being unloaded.
+A driver that calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh439379">IoRegisterBootDriverCallback</a> must call <b>IoUnRegisterBootDriverCallback</b> before being unloaded.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">IoRegisterBootDriverCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439379">IoRegisterBootDriverCallback</a>
  
 
  
-
 

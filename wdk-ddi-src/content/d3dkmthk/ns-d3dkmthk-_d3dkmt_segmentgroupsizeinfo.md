@@ -7,7 +7,7 @@ old-location: display\d3dkmt_segmentgroupsizeinfo.htm
 old-project: display
 ms.assetid: 4D9D8179-AA55-409B-A733-7346EC06391B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_SEGMENTGROUPSIZEINFO, D3DKMT_SEGMENTGROUPSIZEINFO structure [Display Devices], _D3DKMT_SEGMENTGROUPSIZEINFO, d3dkmthk/D3DKMT_SEGMENTGROUPSIZEINFO, display.d3dkmt_segmentgroupsizeinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SEGMENTGROUPSIZEINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SEGMENTGROUPSIZEINFO
 ---
@@ -50,20 +51,6 @@ req.typenames: D3DKMT_SEGMENTGROUPSIZEINFO
 
 
 A structure that holds information about the segment group size.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SEGMENTGROUPSIZEINFO {
-  UINT32                 PhysicalAdapterIndex;
-  D3DKMT_SEGMENTSIZEINFO LegacyInfo;
-  ULONGLONG              LocalMemory;
-  ULONGLONG              NonLocalMemory;
-  ULONGLONG              NonBudgetMemory;
-} D3DKMT_SEGMENTGROUPSIZEINFO;
-````
 
 
 ## -struct-fields

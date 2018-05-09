@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KdRefreshDebuggerNotPresent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KdRefreshDebuggerNotPresent function
@@ -51,14 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KdRefreshDebuggerNotPresent</b> macro refreshes the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548125">KD_DEBUGGER_NOT_PRESENT</a> global kernel variable.
-
-
-## -syntax
-
-
-````
-NTKERNELAPI BOOLEAN KdRefreshDebuggerNotPresent(void);
-````
 
 
 ## -parameters
@@ -116,7 +108,6 @@ else
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548118">KD_DEBUGGER_ENABLED</a>
 
 
 
@@ -124,12 +115,12 @@ else
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548118">KD_DEBUGGER_ENABLED</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548125">KD_DEBUGGER_NOT_PRESENT</a>
-
-
-
  
 
  
-
 

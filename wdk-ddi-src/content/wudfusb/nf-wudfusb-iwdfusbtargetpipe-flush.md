@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.Flush
-title: IWDFUsbTargetPipe::Flush method
+title: IWDFUsbTargetPipe::Flush
 author: windows-driver-content
 description: The Flush method discards any data that WinUsb saved when the device returned more data than the client requested.
 old-location: wdf\iwdfusbtargetpipe_flush.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8e5cbf7-62c7-458d-a527-2508a8a5d066
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: Flush method, Flush method, IWDFUsbTargetPipe interface, Flush,IWDFUsbTargetPipe.Flush, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, Flush method, IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, umdf.iwdfusbtargetpipe_flush, wdf.iwdfusbtargetpipe_flush, wudfusb/IWDFUsbTargetPipe::Flush
+ms.keywords: Flush, Flush method, Flush method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,Flush method, IWDFUsbTargetPipe.Flush, IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, umdf.iwdfusbtargetpipe_flush, wdf.iwdfusbtargetpipe_flush, wudfusb/IWDFUsbTargetPipe::Flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetPipe.Flush
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::Flush method
+# IWDFUsbTargetPipe::Flush
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Flush</b> method discards any data that WinUsb saved when the device returned more data than the client requested.
-
-
-## -syntax
-
-
-````
-HRESULT  Flush();
-````
 
 
 ## -parameters
@@ -135,16 +127,15 @@ For more information about how <b>Flush</b> works, see the <a href="https://msdn
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540227">WinUsb_FlushPipe</a>
-
-
-
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
-
-
  
 
  
-
 

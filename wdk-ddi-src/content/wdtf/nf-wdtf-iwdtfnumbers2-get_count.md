@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFNumbers2.get_Count
-title: IWDTFNumbers2::get_Count method
+title: IWDTFNumbers2::get_Count
 author: windows-driver-content
-description: Gets the number of devices that are currently provided by the DeviceDepot.
-old-location: dtf\iwdtfdevicedepot2_count.htm
+description: Gets the number of numbers in the collection.
+old-location: dtf\iwdtfnumbers2_count.htm
 old-project: dtf
-ms.assetid: 9a8c47b1-e8b9-42b4-8625-7d916178611e
+ms.assetid: 2802d99c-1139-4a24-a752-91a28e6033e9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Count property, IWDTFDeviceDepot2.Count, IWDTFDeviceDepot2::get_Count, IWDTFNumbers2, IWDTFNumbers2::get_Count, Microsoft.WDTF.IWDTFDeviceDepot2.Count, Microsoft::WDTF::IWDTFDeviceDepot2::Count, dtf.iwdtfdevicedepot2_count, get_Count,IWDTFNumbers2.get_Count, wdtf/IWDTFDeviceDepot2::Count, wdtf/IWDTFDeviceDepot2::get_Count
+ms.date: 4/4/2018
+ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework],IWDTFNumbers2 interface, IWDTFNumbers2 interface [Windows Device Testing Framework],Count property, IWDTFNumbers2.Count, IWDTFNumbers2.get_Count, IWDTFNumbers2::Count, IWDTFNumbers2::get_Count, Microsoft.WDTF.IWDTFNumbers2.Count, Microsoft::WDTF::IWDTFNumbers2::Count, dtf.iwdtfnumbers2_count, get_Count, wdtf/IWDTFNumbers2::Count, wdtf/IWDTFNumbers2::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,33 +37,23 @@ api_type:
 api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFDeviceDepot2.Count
--	IWDTFDeviceDepot2.get_Count
-product: Windows
+-	IWDTFNumbers2.Count
+-	IWDTFNumbers2.get_Count
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFNumbers2::get_Count method
+# IWDTFNumbers2::get_Count
 
 
 ## -description
 
 
-Gets the number of devices that are currently provided by the DeviceDepot.
+Gets the number of numbers in the collection.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_Count(
-  [out, retval] LONG *pVal
-);
-````
 
 
 ## -parameters
@@ -71,12 +61,11 @@ HRESULT get_Count(
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451048">IWDTFNumbers2</a>
  
 
  
-
 

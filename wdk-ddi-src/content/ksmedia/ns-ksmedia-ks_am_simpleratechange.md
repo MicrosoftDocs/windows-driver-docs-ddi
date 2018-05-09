@@ -7,7 +7,7 @@ old-location: stream\ks_am_simpleratechange.htm
 old-project: stream
 ms.assetid: d797b377-6c27-41f9-932d-264d0e8b5dd0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_AM_SimpleRateChange, KS_AM_SimpleRateChange, KS_AM_SimpleRateChange structure [Streaming Media Devices], PKS_AM_SimpleRateChange, PKS_AM_SimpleRateChange structure pointer [Streaming Media Devices], dvdref_8c318967-5f7d-4597-ab40-924e95b86dd7.xml, ksmedia/KS_AM_SimpleRateChange, ksmedia/PKS_AM_SimpleRateChange, stream.ks_am_simpleratechange"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_AM_SimpleRateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_AM_SimpleRateChange, *PKS_AM_SimpleRateChange
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_AM_SimpleRateChange, *PKS_AM_SimpleRateChange
 
 
 The KS_AM_SimpleRateChange structure is used to describe a simple rate change (fast-forward or rewind) for an MPEG2 stream.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  REFERENCE_TIME StartTime;
-  LONG           Rate;
-} KS_AM_SimpleRateChange, *PKS_AM_SimpleRateChange;
-````
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ Specifies the new rate. This value is multiplied by 10000 (decimal).
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567288">KS_AM_RATE_SimpleRateChange</a>
-
-
-
  
 
  
-
 

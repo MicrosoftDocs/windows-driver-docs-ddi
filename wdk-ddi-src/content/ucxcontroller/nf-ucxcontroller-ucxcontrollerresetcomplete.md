@@ -7,7 +7,7 @@ old-location: buses\_ucxcontrollerresetcomplete.htm
 old-project: usbref
 ms.assetid: 483147CF-B15D-435C-B5AA-31723D4C2A85
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UcxControllerResetComplete, UcxControllerResetComplete method [Buses], buses._ucxcontrollerresetcomplete, ucxcontroller/UcxControllerResetComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Ucxcontroller.h
 api_name:
 -	UcxControllerResetComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcxControllerResetComplete function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 Informs USB Host Controller Extension (UCX) that the reset operation has competed.
-
-
-## -syntax
-
-
-````
-void UcxControllerResetComplete(
-  [in] UCXCONTROLLER Controller
-);
-````
 
 
 ## -parameters
@@ -91,12 +81,11 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  
 
  
-
 

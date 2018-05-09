@@ -7,7 +7,7 @@ old-location: netvista\fwps_packet_list_fwp_information0.htm
 old-project: netvista
 ms.assetid: e2d3faf3-cd3b-4147-8ceb-5b3f0c257939
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: FWPS_PACKET_LIST_FWP_INFORMATION0, FWPS_PACKET_LIST_FWP_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_FWP_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_FWP_INFORMATION0, netvista.fwps_packet_list_fwp_information0, wfp_ref_3_struct_3_fwps_P-Z_ae770ad6-5c74-4954-98ca-ffb23f8dcc7c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_PACKET_LIST_FWP_INFORMATION0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_PACKET_LIST_FWP_INFORMATION0
 ---
@@ -52,16 +53,6 @@ req.typenames: FWPS_PACKET_LIST_FWP_INFORMATION0
 The <b>FWPS_PACKET_LIST_FWP_INFORMATION0</b> structure defines Windows Filtering Platform information
   associated with a packet list.
 <div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_FWP_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_FWP_INFORMATION</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct FWPS_PACKET_LIST_FWP_INFORMATION0_ {
-  unsigned isReinjected  :1;
-} FWPS_PACKET_LIST_FWP_INFORMATION0;
-````
-
 
 ## -struct-fields
 
@@ -78,7 +69,7 @@ A value that indicates whether the packet data was reinjected by a callout drive
 
 
 A FWPS_PACKET_LIST_FWP_INFORMATION0 structure is included as a member of the 
-    <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">
+    <a href="https://msdn.microsoft.com/1fc6ffb1-c6e9-4bca-9d10-541708fe0086">
     FWPS_PACKET_LIST_INFORMATION0</a> structure.
 
 
@@ -86,12 +77,11 @@ A FWPS_PACKET_LIST_FWP_INFORMATION0 structure is included as a member of the
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552412">FWPS_PACKET_LIST_INFORMATION0</a>
  
 
  
-
 

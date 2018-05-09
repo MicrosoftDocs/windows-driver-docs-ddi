@@ -7,7 +7,7 @@ old-location: kernel\clfssetarchivetail.htm
 old-project: kernel
 ms.assetid: 58c1d222-72c5-4b40-9ae5-f633bac599f0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsSetArchiveTail, ClfsSetArchiveTail routine [Kernel-Mode Driver Architecture], Clfs_f5685e7e-3098-461d-aff1-807011c36526.xml, kernel.clfssetarchivetail, wdm/ClfsSetArchiveTail
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsSetArchiveTail
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsSetArchiveTail function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>ClfsSetArchiveTail</b> routine sets the archive tail of a CLFS log to a specified LSN.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsSetArchiveTail(
-  _In_ PLOG_FILE_OBJECT plfoLog,
-  _In_ PCLFS_LSN        plsnArchiveTail
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ NTSTATUS ClfsSetArchiveTail(
 
 ### -param plfoLog [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents a CLFS log. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents a CLFS log. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>.
 
 
 ### -param plsnArchiveTail [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that specifies the LSN that is to become the new archive tail. This must be the exact LSN of a record in the log.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that specifies the LSN that is to become the new archive tail. This must be the exact LSN of a record in the log.
 
 
 ## -returns
@@ -102,24 +91,23 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfssetendoflog.md">ClfsSetEndOfLog </a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540773">ClfsAdvanceLogBase</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/7e3b2eed-2de6-4459-a125-a27d9db69c93">ClfsSetEndOfLog </a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
-
-
-
  
 
  
-
 

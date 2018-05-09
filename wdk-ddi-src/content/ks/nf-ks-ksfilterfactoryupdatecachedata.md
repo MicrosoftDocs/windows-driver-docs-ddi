@@ -7,7 +7,7 @@ old-location: stream\ksfilterfactoryupdatecachedata.htm
 old-project: stream
 ms.assetid: a5c868a5-0e79-482b-9694-02cae2de99ca
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFilterFactoryUpdateCacheData, KsFilterFactoryUpdateCacheData function [Streaming Media Devices], avfunc_2fdbd12c-b074-415e-8de3-bfbe61ef198a.xml, ks/KsFilterFactoryUpdateCacheData, stream.ksfilterfactoryupdatecachedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFilterFactoryUpdateCacheData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 The <b>KsFilterFactoryUpdateCacheData</b> function updates the FilterData registry key and the Medium cache (a set of registry keys) for a given filter factory.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsFilterFactoryUpdateCacheData(
-  _In_           PKSFILTERFACTORY    FilterFactory,
-  _In_opt_ const KSFILTER_DESCRIPTOR *FilterDescriptor
-);
-````
-
-
 ## -parameters
 
 
@@ -71,12 +61,12 @@ NTSTATUS KsFilterFactoryUpdateCacheData(
 
 ### -param FilterFactory [in]
 
-The <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> for which to update FilterData and Medium cache in the registry.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> for which to update FilterData and Medium cache in the registry.
 
 
 ### -param FilterDescriptor [in, optional]
 
-An optional <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> for which the FilterData key and Medium cache will be updated. If <b>NULL</b>, <i>FilterFactory</i>'s descriptor is used instead. Provide if the filter factory uses dynamic pins and needs to update information for pins that have not yet been instantiated.
+An optional <a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a> for which the FilterData key and Medium cache will be updated. If <b>NULL</b>, <i>FilterFactory</i>'s descriptor is used instead. Provide if the filter factory uses dynamic pins and needs to update information for pins that have not yet been instantiated.
 
 
 ## -returns
@@ -93,10 +83,10 @@ An optional <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a
 
 
 
-This function updates the FilterData key and Medium cache for all categories specified in <i>FilterDescriptor</i>. If <i>FilterDescriptor</i> is <b>NULL</b>, the FilterData and Medium cache are updated for all categories specified in <i>FilterFactory</i>'s <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> member.
+This function updates the FilterData key and Medium cache for all categories specified in <i>FilterDescriptor</i>. If <i>FilterDescriptor</i> is <b>NULL</b>, the FilterData and Medium cache are updated for all categories specified in <i>FilterFactory</i>'s <a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a> member.
 
 
-<a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a> provides similar functionality, but should not be used if two instances of <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> under the same <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> are registered in the same category, and differ only in reference GUID. In this case, <b>KsRegisterFilterWithNoKSPins</b> updates data only for the first, even though the second may have been specified.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566773">KsRegisterFilterWithNoKSPins</a> provides similar functionality, but should not be used if two instances of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a> under the same <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> are registered in the same category, and differ only in reference GUID. In this case, <b>KsRegisterFilterWithNoKSPins</b> updates data only for the first, even though the second may have been specified.
 
 Do not use this routine in place of <b>KsRegisterFilterWithNoKSPins</b> for filters with no KS pins, such as analog style crossbars. Use this routine only for a specific filter for which the minidriver is passing the corresponding filter factory.
 
@@ -111,20 +101,19 @@ For more information, see <a href="https://msdn.microsoft.com/b7d6f06d-6c97-414e
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksregisterfilterwithnokspins.md">KsRegisterFilterWithNoKSPins</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566773">KsRegisterFilterWithNoKSPins</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetUlong
-title: ExtRemoteData::GetUlong method
+title: ExtRemoteData::GetUlong
 author: windows-driver-content
 description: The GetUlong method returns a ULONG version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getulong.htm
 old-project: debugger
 ms.assetid: ce25b52e-5ac7-470d-902b-f45350718dff
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_41a112c3-0350-4e54-981c-b5c11697ef2d.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetUlong method, ExtRemoteData::GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging], ExtRemoteData class, GetUlong,ExtRemoteData.GetUlong, debugger.extremotedata_getulong
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_41a112c3-0350-4e54-981c-b5c11697ef2d.xml, ExtRemoteData class [Windows Debugging],GetUlong method, ExtRemoteData.GetUlong, ExtRemoteData::GetUlong, GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteData.GetUlong
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::GetUlong method
+# ExtRemoteData::GetUlong
 
 
 ## -description
 
 
-The <b>GetUlong</b> method returns a ULONG version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object, which represents the contents of the target's memory.
-
-
-## -syntax
-
-
-````
-ULONG GetUlong();
-````
+The <b>GetUlong</b> method returns a ULONG version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
 
 ## -parameters
@@ -71,7 +64,7 @@ ULONG GetUlong();
 
 
 
-<b>GetUlong</b> returns the ULONG version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object.
+<b>GetUlong</b> returns the ULONG version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object.
 
 
 
@@ -80,22 +73,17 @@ ULONG GetUlong();
 
 
 
-The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object must be <code>sizeof(ULONG)</code>.
+The size of the memory represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object must be <code>sizeof(ULONG)</code>.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544033">ExtRemoteData::GetLong64</a>
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544064">ExtRemoteData::GetUlong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
 
 
 
@@ -103,8 +91,12 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544033">ExtRemoteData::GetLong64</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544064">ExtRemoteData::GetUlong</a>
  
 
  
-
 

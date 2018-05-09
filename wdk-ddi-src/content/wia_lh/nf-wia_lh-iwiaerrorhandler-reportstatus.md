@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_lh.IWiaErrorHandler.ReportStatus
-title: IWiaErrorHandler::ReportStatus method
+title: IWiaErrorHandler::ReportStatus
 author: windows-driver-content
 description: The ReportStatus method displays information about an error or status during a transfer. In some cases this method allows the user to recover from an error.
 old-location: image\iwiaerrorhandler_reportstatus.htm
 old-project: image
 ms.assetid: c244d5a1-d3c1-4f8f-9b55-3729e5f13887
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaErrorHandler, IWiaErrorHandler interface [Imaging Devices], ReportStatus method, IWiaErrorHandler::ReportStatus, IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, ReportStatus method [Imaging Devices], ReportStatus method [Imaging Devices], IWiaErrorHandler interface, ReportStatus,IWiaErrorHandler.ReportStatus, image.iwiaerrorhandler_reportstatus, wia_lh/IWiaErrorHandler::ReportStatus
+ms.date: 4/23/2018
+ms.keywords: IWiaErrorHandler interface [Imaging Devices],ReportStatus method, IWiaErrorHandler.ReportStatus, IWiaErrorHandler::ReportStatus, IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, ReportStatus, ReportStatus method [Imaging Devices], ReportStatus method [Imaging Devices],IWiaErrorHandler interface, image.iwiaerrorhandler_reportstatus, wia_lh/IWiaErrorHandler::ReportStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	wia_lh.h
 api_name:
 -	IWiaErrorHandler.ReportStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaErrorHandler::ReportStatus method
+# IWiaErrorHandler::ReportStatus
 
 
 ## -description
 
 
 The <b>ReportStatus</b> method displays information about an error or status during a transfer. In some cases this method allows the user to recover from an error.
-
-
-## -syntax
-
-
-````
-HRESULT ReportStatus(
-  [in] LONG      lFlags,
-  [in] HWND      hwndParent,
-  [in] IWiaItem2 *pWiaItem2,
-  [in] HRESULT   hrStatus,
-  [in] LONG      lPercentComplete
-);
-````
 
 
 ## -parameters
@@ -153,16 +139,15 @@ If <i>hrStatus</i> is S_OK, the data transfer has resumed and no delay or error 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/b441fbca-75fe-4b9d-a9d5-2ad5a4a55801">IWiaErrorHandler</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543904">IWiaErrorHandler::GetStatusDescription</a>
-
-
-
-<a href="..\wia_lh\nn-wia_lh-iwiaerrorhandler.md">IWiaErrorHandler</a>
-
-
-
  
 
  
-
 

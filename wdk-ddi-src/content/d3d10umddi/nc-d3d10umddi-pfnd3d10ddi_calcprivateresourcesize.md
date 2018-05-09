@@ -7,8 +7,8 @@ old-location: display\calcprivateresourcesize.htm
 old-project: display
 ms.assetid: 2c4eb002-4788-46ab-92b9-3bb2dcb44ee3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CalcPrivateResourceSize, CalcPrivateResourceSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATERESOURCESIZE, UserModeDisplayDriverDx10_Functions_bc7bb9a2-6fe2-49fb-b7d2-81297a828418.xml, d3d10umddi/CalcPrivateResourceSize, display.calcprivateresourcesize
+ms.date: 4/16/2018
+ms.keywords: CalcPrivateResourceSize, CalcPrivateResourceSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATERESOURCESIZE, PFND3D10DDI_CALCPRIVATERESOURCESIZE callback, UserModeDisplayDriverDx10_Functions_bc7bb9a2-6fe2-49fb-b7d2-81297a828418.xml, d3d10umddi/CalcPrivateResourceSize, display.calcprivateresourcesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	CalcPrivateResourceSize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_CALCPRIVATERESOURCESIZE callback
+# PFND3D10DDI_CALCPRIVATERESOURCESIZE callback function
 
 
 ## -description
@@ -52,26 +53,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>CalcPrivateResourceSize</b> function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory).
 
 
-## -prototype
-
-
-````
-PFND3D10DDI_CALCPRIVATERESOURCESIZE CalcPrivateResourceSize;
-
-SIZE_T APIENTRY CalcPrivateResourceSize(
-  _In_       D3D10DDI_HDEVICE           hDevice,
-  _In_ const D3D10DDIARG_CREATERESOURCE *pCreateResource
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +77,7 @@ SIZE_T APIENTRY CalcPrivateResourceSize(
 
 #### - pCreateResource [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
 
 
 ## -returns
@@ -104,16 +91,15 @@ SIZE_T APIENTRY CalcPrivateResourceSize(
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a>
  
 
  
-
 

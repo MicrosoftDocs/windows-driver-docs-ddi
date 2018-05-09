@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.SetGfxState
-title: IMiniportAudioEngineNode::SetGfxState method
+title: IMiniportAudioEngineNode::SetGfxState
 author: windows-driver-content
 description: Sets the state of the global effects (GFX) node in the audio engine.
 old-location: audio\iminiportaudioenginenode_setgfxstate.htm
 old-project: audio
 ms.assetid: B073D354-14FB-477E-BBD7-8BD282696EF4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], SetGfxState method, IMiniportAudioEngineNode::SetGfxState, SetGfxState method [Audio Devices], SetGfxState method [Audio Devices], IMiniportAudioEngineNode interface, SetGfxState,IMiniportAudioEngineNode.SetGfxState, audio.iminiportaudioenginenode_setgfxstate, portcls/IMiniportAudioEngineNode::SetGfxState
+ms.date: 4/16/2018
+ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetGfxState method, IMiniportAudioEngineNode.SetGfxState, IMiniportAudioEngineNode::SetGfxState, SetGfxState, SetGfxState method [Audio Devices], SetGfxState method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setgfxstate, portcls/IMiniportAudioEngineNode::SetGfxState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportAudioEngineNode.SetGfxState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportAudioEngineNode::SetGfxState method
+# IMiniportAudioEngineNode::SetGfxState
 
 
 ## -description
 
 
 Sets the state of the global effects (GFX) node in the audio engine.
-
-
-## -syntax
-
-
-````
-NTSTATUS SetGfxState(
-  [in] ULONG ulNodeId,
-  [in] BOOL  bEnable
-);
-````
 
 
 ## -parameters
@@ -89,12 +79,11 @@ The state of the GFX node.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302040">IMiniportAudioEngineNode</a>
  
 
  
-
 

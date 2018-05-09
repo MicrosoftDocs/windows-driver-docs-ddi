@@ -7,7 +7,7 @@ old-location: netvista\ndis_frame_header.htm
 old-project: netvista
 ms.assetid: 8897ae0c-6068-4fea-8944-1340595dbff3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_FRAME_HEADER, NDIS_FRAME_HEADER, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], NdisFrameHeaderArp, NdisFrameHeaderIPv4, NdisFrameHeaderIPv6, NdisFrameHeaderMac, NdisFrameHeaderMaximum, NdisFrameHeaderUdp, NdisFrameHeaderUndefined, PNDIS_FRAME_HEADER, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_FRAME_HEADER, netvista.ndis_frame_header, ntddndis/NDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderArp, ntddndis/NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderMac, ntddndis/NdisFrameHeaderMaximum, ntddndis/NdisFrameHeaderUdp, ntddndis/NdisFrameHeaderUndefined, ntddndis/PNDIS_FRAME_HEADER, virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_FRAME_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_FRAME_HEADER, *PNDIS_FRAME_HEADER
 ---
@@ -50,22 +51,6 @@ req.typenames: NDIS_FRAME_HEADER, *PNDIS_FRAME_HEADER
 
 
 The <b>NDIS_FRAME_HEADER</b> enumeration identifies the type of header in a network data frame.
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_FRAME_HEADER { 
-  NdisFrameHeaderUndefined,
-  NdisFrameHeaderMac,
-  NdisFrameHeaderArp,
-  NdisFrameHeaderIPv4,
-  NdisFrameHeaderIPv6,
-  NdisFrameHeaderUdp,
-  NdisFrameHeaderMaximum
-} NDIS_FRAME_HEADER, *PNDIS_FRAME_HEADER;
-````
 
 
 ## -enum-fields
@@ -115,7 +100,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The NDIS_FRAME_HEADER enumeration is used in the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+    <a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
     NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
@@ -123,13 +108,12 @@ The NDIS_FRAME_HEADER enumeration is used in the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_field_parameters.md">
+
+
+
+<a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
-
-
-
  
 
  
-
 

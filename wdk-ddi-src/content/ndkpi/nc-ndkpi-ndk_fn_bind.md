@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_bind.htm
 old-project: netvista
 ms.assetid: F363C538-A5D7-4A08-B7CD-CA7D7346AC10
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_BIND, NDK_OP_FLAG_ALLOW_REMOTE_READ, NDK_OP_FLAG_ALLOW_REMOTE_WRITE, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkBind, NdkBind callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkBind, netvista.ndk_fn_bind
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_BIND, NDK_FN_BIND callback, NDK_OP_FLAG_ALLOW_REMOTE_READ, NDK_OP_FLAG_ALLOW_REMOTE_WRITE, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkBind, NdkBind callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkBind, netvista.ndk_fn_bind
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,37 +38,19 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkBind
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_BIND callback
+# NDK_FN_BIND callback function
 
 
 ## -description
 
 
 The <i>NdkBind</i> (<i>NDK_FN_BIND</i>) function binds a memory window to a specific sub-region of a memory region (MR).
-
-
-## -prototype
-
-
-````
-NDK_FN_BIND NdkBind;
-
-NTSTATUS NdkBind(
-  _In_     NDK_QP *pNdkQp,
-  _In_opt_ PVOID  RequestContext,
-  _In_     NDK_MR *pMr,
-  _In_     NDK_MW *pMw,
-  _In_     PVOID  VirtualAddress,
-  _In_     SIZE_T Length,
-  _In_     ULONG  Flags
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -78,22 +60,22 @@ NTSTATUS NdkBind(
 
 ### -param *pNdkQp [in]
 
-A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
+A pointer to an NDK queue pair (QP) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>).
 
 
 ### -param RequestContext [in, optional]
 
-A context value to return in the <b>RequestContext</b> member of the <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a> structure for this request.
+A context value to return in the <b>RequestContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a> structure for this request.
 
 
 ### -param *pMr [in]
 
-A pointer to an NDK memory region (MR) object (<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>).
+A pointer to an NDK memory region (MR) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a>).
 
 
 ### -param *pMw [in]
 
-A pointer to an NDK memory window (MW) object (<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>).
+A pointer to an NDK memory window (MW) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439926">NDK_MW</a>).
 
 
 ### -param VirtualAddress [in]
@@ -249,7 +231,7 @@ An error occurred.
 
 The address in the <i>VirtualAddress</i> parameter must be an address within the virtually contiguous region that is described by the MDL chain that was specified during memory registration. The address must be treated by the provider as an index into the memory region. The address must not be used by the provider as a valid virtual address for reading or writing buffer contents.
 
-After this call returns, the remote token will be available with the <i>NdkGetRemotetokenFromMw</i> function (<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_remote_token_from_mw.md">NDK_FN_GET_REMOTE_TOKEN_FROM_MW</a>).
+After this call returns, the remote token will be available with the <i>NdkGetRemotetokenFromMw</i> function (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439898">NDK_FN_GET_REMOTE_TOKEN_FROM_MW</a>).
 
 This function does not support a zero-based virtual address.
 
@@ -258,23 +240,6 @@ This function does not support a zero-based virtual address.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_remote_token_from_mw.md">NDK_FN_GET_REMOTE_TOKEN_FROM_MW</a>
-
-
-
-<a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
 
 
@@ -282,16 +247,32 @@ This function does not support a zero-based virtual address.
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
-
-
-
 <a href="https://msdn.microsoft.com/DA2D0FCA-D84B-4599-A560-8F87A0918D99">NDKPI Deferred Processing Scheme</a>
 
 
 
+<a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439898">NDK_FN_GET_REMOTE_TOKEN_FROM_MW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439926">NDK_MW</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a>
  
 
  
-
 

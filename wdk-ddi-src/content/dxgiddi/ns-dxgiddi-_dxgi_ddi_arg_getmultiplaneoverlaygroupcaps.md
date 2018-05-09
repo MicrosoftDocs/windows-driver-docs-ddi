@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_arg_getmultiplaneoverlaygroupcaps.htm
 old-project: display
 ms.assetid: C63125FA-7ADF-406A-A729-67C6ACA47D96
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS structure [Display Devices], _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS, display.dxgi_ddi_arg_getmultiplaneoverlaygroupcaps, dxgiddi/DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
 ---
@@ -52,19 +53,6 @@ req.typenames: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
 Used in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265494">pfnGetMultiplaneOverlayGroupCaps</a> function to get a group of overlay plane capabilities.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS {
-  DXGI_DDI_HDEVICE                       hDevice;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID         VidPnSourceId;
-  UINT                                   GroupIndex;
-  DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS MultiplaneOverlayGroupCaps;
-} DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -74,7 +62,7 @@ typedef struct _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS {
 
 [in] A handle to the display device (graphics context) for which overlay plane capabilities are needed.
 
-The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when it created the device by calling the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> routine.
+The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure when it created the device by calling the <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> routine.
 
 
 ### -field VidPnSourceId
@@ -84,38 +72,37 @@ The Direct3D runtime passed this handle to the driver in the <b>hDrvDevice</b> m
 
 ### -field GroupIndex
 
-[in] The index of the overlay capability group for which capabilities are queried. This value is always between zero and (<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a>.<b>NumCapabilityGroups</b> – 1).
+[in] The index of the overlay capability group for which capabilities are queried. This value is always between zero and (<a href="https://msdn.microsoft.com/library/windows/hardware/hh780285">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a>.<b>NumCapabilityGroups</b> – 1).
 
 
 ### -field MultiplaneOverlayGroupCaps
 
-[out] The overlay plane capabilities for the requested capability group, given as a <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_group_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS</a> structure.
+[out] The overlay plane capabilities for the requested capability group, given as a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265376">DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS</a> structure.
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780285">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265376">DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265494">pfnGetMultiplaneOverlayGroupCaps</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_CAPS</a>
-
-
-
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_multiplane_overlay_group_caps.md">DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS</a>
-
-
-
  
 
  
-
 

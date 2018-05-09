@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.UnlinkItemTree
-title: IWiaDrvItem::UnlinkItemTree method
+title: IWiaDrvItem::UnlinkItemTree
 author: windows-driver-content
 description: The IWiaDrvItem::UnlinkItemTree method unlinks the driver item tree and releases all items in the tree.
 old-location: image\iwiadrvitem_unlinkitemtree.htm
 old-project: image
 ms.assetid: f6fb2929-177b-44cd-a313-8620ba9b2907
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DrvItem_70e5eaf0-4115-4207-9ea2-53ca8c210795.xml, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], UnlinkItemTree method, IWiaDrvItem::UnlinkItemTree, UnlinkItemTree method [Imaging Devices], UnlinkItemTree method [Imaging Devices], IWiaDrvItem interface, UnlinkItemTree,IWiaDrvItem.UnlinkItemTree, image.iwiadrvitem_unlinkitemtree, wiamindr_lh/IWiaDrvItem::UnlinkItemTree
+ms.date: 4/23/2018
+ms.keywords: DrvItem_70e5eaf0-4115-4207-9ea2-53ca8c210795.xml, IWiaDrvItem interface [Imaging Devices],UnlinkItemTree method, IWiaDrvItem.UnlinkItemTree, IWiaDrvItem::UnlinkItemTree, UnlinkItemTree, UnlinkItemTree method [Imaging Devices], UnlinkItemTree method [Imaging Devices],IWiaDrvItem interface, image.iwiadrvitem_unlinkitemtree, wiamindr_lh/IWiaDrvItem::UnlinkItemTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.UnlinkItemTree
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaDrvItem::UnlinkItemTree method
+# IWiaDrvItem::UnlinkItemTree
 
 
 ## -description
 
 
 The <b>IWiaDrvItem::UnlinkItemTree</b> method unlinks the driver item tree and releases all items in the tree.
-
-
-## -syntax
-
-
-````
-HRESULT UnlinkItemTree(
-  [in] LONG lFlags
-);
-````
 
 
 ## -parameters

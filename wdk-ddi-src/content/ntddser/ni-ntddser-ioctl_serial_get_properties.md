@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_get_properties.htm
 old-project: serports
 ms.assetid: 8404f730-d734-486e-8592-e237e10d5602
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_GET_PROPERTIES, IOCTL_SERIAL_GET_PROPERTIES control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_PROPERTIES, serports.ioctl_serial_get_properties, serref_aff2123d-9c26-4958-84e7-9921fe45398e.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_GET_PROPERTIES, IOCTL_SERIAL_GET_PROPERTIES control, IOCTL_SERIAL_GET_PROPERTIES control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_PROPERTIES, serports.ioctl_serial_get_properties, serref_aff2123d-9c26-4958-84e7-9921fe45398e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_GET_PROPERTIES
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_GET_PROPERTIES IOCTL
@@ -49,7 +50,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ## -description
 
 
-The <b>IOCTL_SERIAL_GET_PROPERTIES</b> request returns information about the capabilities of a serial controller. The capabilities information is returned in a <a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a> structure.
+The <b>IOCTL_SERIAL_GET_PROPERTIES</b> request returns information about the capabilities of a serial controller. The capabilities information is returned in a <a href="https://msdn.microsoft.com/library/windows/hardware/jj680684">SERIAL_COMMPROP</a> structure.
 
 
 ## -ioctlparameters
@@ -104,12 +105,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj680684">SERIAL_COMMPROP</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\ksresolverequiredattributes.htm
 old-project: stream
 ms.assetid: 04153845-4170-40db-ba60-3d438ae0a60d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsResolveRequiredAttributes, KsResolveRequiredAttributes function [Streaming Media Devices], ksproxy/KsResolveRequiredAttributes, ksproxy_fb22470c-5445-4005-b1c3-4f708cc0a47f.xml, stream.ksresolverequiredattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ksproxy.dll
 api_name:
 -	KsResolveRequiredAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
 # KsResolveRequiredAttributes function
@@ -51,17 +52,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsResolveRequiredAttributes</b> function searches the attributes list that is attached to a data range for specified attributes and ensures that all specified attributes were found. 
-
-
-## -syntax
-
-
-````
-HRESULT KsResolveRequiredAttributes(
-  _In_     PKSDATARANGE     DataRange,
-  _In_opt_ PKSMULTIPLE_ITEM Attributes
-);
-````
 
 
 ## -parameters
@@ -76,7 +66,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5616
 
 ### -param Attributes [in, optional]
 
-Pointer to a buffer that contains a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> structure, followed by a sequence of KSATTRIBUTE structures that describe attributes. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header. If this pointer is <b>NULL</b>, then <b>KsResolveRequiredAttributes</b> only succeeds if <i>DataRange</i> does not have an attached attribute list.
+Pointer to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a> structure, followed by a sequence of KSATTRIBUTE structures that describe attributes. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header. If this pointer is <b>NULL</b>, then <b>KsResolveRequiredAttributes</b> only succeeds if <i>DataRange</i> does not have an attached attribute list.
 
 
 ## -returns
@@ -90,11 +80,10 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
 
 
 
-<a href="..\ks\ns-ks-ksattribute.md">KSATTRIBUTE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560987">KSATTRIBUTE</a>
 
 
 
@@ -102,8 +91,8 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a>
  
 
  
-
 

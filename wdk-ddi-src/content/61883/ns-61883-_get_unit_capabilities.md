@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	GET_UNIT_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GET_UNIT_CAPABILITIES, *PGET_UNIT_CAPABILITIES
 ---
@@ -50,20 +51,6 @@ req.typenames: GET_UNIT_CAPABILITIES, *PGET_UNIT_CAPABILITIES
 
 
 The GET_UNIT_CAPABILITIES structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a> request to retrieve unit information about a device's capabilities. 
-
-
-## -syntax
-
-
-````
-typedef struct _GET_UNIT_CAPABILITIES {
-  ULONG NumOutputPlugs;
-  ULONG NumInputPlugs;
-  ULONG MaxDataRate;
-  ULONG CTSFlags;
-  ULONG HardwareFlags;
-} GET_UNIT_CAPABILITIES, *PGET_UNIT_CAPABILITIES;
-````
 
 
 ## -struct-fields
@@ -104,12 +91,11 @@ If the AV_HOST_DMA_DOUBLE_BUFFERING_ENABLED flag is set, and the request level i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a>
-
-
-
  
 
  
-
 

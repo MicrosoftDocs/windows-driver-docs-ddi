@@ -7,8 +7,8 @@ old-location: hid\ioctl_get_num_device_input_buffers.htm
 old-project: hid
 ms.assetid: 3a0a8fa3-2d23-412c-ad54-d8ba5809cbe4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS, IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS control code [Human Input Devices], hid.ioctl_get_num_device_input_buffers, hidclass/IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS, hidioreq_4d76e323-5cc1-40d2-aa56-ca5427f15e6f.xml
+ms.date: 4/30/2018
+ms.keywords: IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS, IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS control, IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS control code [Human Input Devices], hid.ioctl_get_num_device_input_buffers, hidclass/IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS, hidioreq_4d76e323-5cc1-40d2-aa56-ca5427f15e6f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	hidclass.h
 api_name:
 -	IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS IOCTL
@@ -51,7 +52,7 @@ req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
 
 The IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS request obtains the size of the input report queue for a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>. 
 
-The input report queue is implemented as a ring buffer. If a collection transmits data to the HID class driver faster than the input reports are read, reports can be lost. The size of the input report queue can be adjusted using <a href="..\hidclass\ni-hidclass-ioctl_set_num_device_input_buffers.md">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>. 
+The input report queue is implemented as a ring buffer. If a collection transmits data to the HID class driver faster than the input reports are read, reports can be lost. The size of the input report queue can be adjusted using <a href="https://msdn.microsoft.com/library/windows/hardware/ff542087">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>. 
 
 For general information about HIDClass devices, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
@@ -116,12 +117,11 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 ## -see-also
 
-<a href="..\hidsdi\nf-hidsdi-hidd_setnuminputbuffers.md">HidD_SetNumInputBuffers</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539686">HidD_SetNumInputBuffers</a>
  
 
  
-
 

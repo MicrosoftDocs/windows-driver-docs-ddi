@@ -7,7 +7,7 @@ old-location: hid\hidp_getdata.htm
 old-project: hid
 ms.assetid: 37cbd329-81c3-40ef-be42-4a64c4a1ec3a
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidP_GetData, HidP_GetData routine [Human Input Devices], hid.hidp_getdata, hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, hidpi/HidP_GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Hidparse.dll
 api_name:
 -	HidP_GetData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_GetData function
@@ -50,22 +51,7 @@ req.typenames: HIDP_REPORT_TYPE
 ## -description
 
 
-The <b>HidP_GetData</b> routine returns, for a specified report, an array of <a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a> structures that identify the <a href="https://msdn.microsoft.com/84577544-515a-4fdc-86e5-518182c6c461">data indices</a> of all HID control buttons that are currently set to ON (1), and the data indices and data associated with all HID control values.
-
-
-## -syntax
-
-
-````
-NTSTATUS __stdcall HidP_GetData(
-  _In_    HIDP_REPORT_TYPE     ReportType,
-  _Out_   PHIDP_DATA           DataList,
-  _Inout_ PULONG               DataLength,
-  _In_    PHIDP_PREPARSED_DATA PreparsedData,
-  _In_    PCHAR                Report,
-  _In_    ULONG                ReportLength
-);
-````
+The <b>HidP_GetData</b> routine returns, for a specified report, an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff539699">HIDP_DATA</a> structures that identify the <a href="https://msdn.microsoft.com/84577544-515a-4fdc-86e5-518182c6c461">data indices</a> of all HID control buttons that are currently set to ON (1), and the data indices and data associated with all HID control values.
 
 
 ## -parameters
@@ -75,7 +61,7 @@ NTSTATUS __stdcall HidP_GetData(
 
 ### -param ReportType [in]
 
-Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539774">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
 
 
 ### -param DataList [out]
@@ -100,7 +86,7 @@ Pointer to a HID report.
 
 ### -param ReportLength [in]
 
-Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type returned by <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> in the collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
+Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539715">HidP_GetCaps</a> in the collection's <a href="https://msdn.microsoft.com/library/windows/hardware/ff539697">HIDP_CAPS</a> structure.
 
 
 ## -returns
@@ -154,7 +140,7 @@ The preparsed data specified by <i>PreparsedData</i> is not valid
 </dl>
 </td>
 <td width="60%">
-The size, in bytes, of the HID report is not equal to the length specified in the collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure for the specified report type.
+The size, in bytes, of the HID report is not equal to the length specified in the collection's <a href="https://msdn.microsoft.com/library/windows/hardware/ff539697">HIDP_CAPS</a> structure for the specified report type.
 
 </td>
 </tr>
@@ -190,7 +176,7 @@ The <i>DataList</i> array is too small to describe all the buttons, currently se
 
 
 
-User-mode applications and kernel-mode drivers call <a href="..\hidpi\nf-hidpi-hidp_maxdatalistlength.md">HidP_MaxDataListLength</a> to determine the maximum possible number of HIDP_DATA structures that <b>HidP_GetData</b> can return.
+User-mode applications and kernel-mode drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539768">HidP_MaxDataListLength</a> to determine the maximum possible number of HIDP_DATA structures that <b>HidP_GetData</b> can return.
 
 <b>HidP_GetData</b> does not return data for <a href="https://msdn.microsoft.com/d447dda6-a1e5-4e57-b06f-f79f8662c236">usage value arrays</a>.
 
@@ -201,24 +187,23 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_maxdatalistlength.md">HidP_MaxDataListLength</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539699">HIDP_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539768">HidP_MaxDataListLength</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539783">HidP_SetData</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
-<a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
-
-
-
  
 
  
-
 

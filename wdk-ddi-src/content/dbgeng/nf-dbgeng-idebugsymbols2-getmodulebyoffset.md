@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetModuleByOffset
-title: IDebugSymbols2::GetModuleByOffset method
+title: IDebugSymbols2::GetModuleByOffset
 author: windows-driver-content
 description: The GetModuleByOffset method searches through the target's modules for one whose memory allocation includes the specified location.
 old-location: debugger\getmodulebyoffset.htm
 old-project: debugger
 ms.assetid: ff51d0d1-47f1-4df6-b671-d74f791d778b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetModuleByOffset method [Windows Debugging], GetModuleByOffset method [Windows Debugging], IDebugSymbols interface, GetModuleByOffset method [Windows Debugging], IDebugSymbols2 interface, GetModuleByOffset method [Windows Debugging], IDebugSymbols3 interface, GetModuleByOffset,IDebugSymbols2.GetModuleByOffset, IDebugSymbols interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols2::GetModuleByOffset, IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset method, IDebugSymbols3::GetModuleByOffset, IDebugSymbols::GetModuleByOffset, IDebugSymbols_2f5375ce-a9f1-4e86-ab82-7f35edc716c2.xml, dbgeng/IDebugSymbols2::GetModuleByOffset, dbgeng/IDebugSymbols3::GetModuleByOffset, dbgeng/IDebugSymbols::GetModuleByOffset, debugger.getmodulebyoffset
+ms.date: 4/24/2018
+ms.keywords: GetModuleByOffset, GetModuleByOffset method [Windows Debugging], GetModuleByOffset method [Windows Debugging],IDebugSymbols interface, GetModuleByOffset method [Windows Debugging],IDebugSymbols2 interface, GetModuleByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleByOffset method, IDebugSymbols2 interface [Windows Debugging],GetModuleByOffset method, IDebugSymbols2.GetModuleByOffset, IDebugSymbols2::GetModuleByOffset, IDebugSymbols3 interface [Windows Debugging],GetModuleByOffset method, IDebugSymbols3::GetModuleByOffset, IDebugSymbols::GetModuleByOffset, IDebugSymbols_2f5375ce-a9f1-4e86-ab82-7f35edc716c2.xml, dbgeng/IDebugSymbols2::GetModuleByOffset, dbgeng/IDebugSymbols3::GetModuleByOffset, dbgeng/IDebugSymbols::GetModuleByOffset, debugger.getmodulebyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,31 +40,19 @@ api_name:
 -	IDebugSymbols.GetModuleByOffset
 -	IDebugSymbols2.GetModuleByOffset
 -	IDebugSymbols3.GetModuleByOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::GetModuleByOffset method
+# IDebugSymbols2::GetModuleByOffset
 
 
 ## -description
 
 
 The <b>GetModuleByOffset</b> method searches through the target's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">modules</a> for one whose memory allocation includes the specified location.
-
-
-## -syntax
-
-
-````
-HRESULT GetModuleByOffset(
-  [in]            ULONG64  Offset,
-  [in]            ULONG    StartIndex,
-  [out, optional] PULONG   Index,
-  [out, optional] PULONG64 Base
-);
-````
 
 
 ## -parameters
@@ -133,7 +121,6 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -141,20 +128,20 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

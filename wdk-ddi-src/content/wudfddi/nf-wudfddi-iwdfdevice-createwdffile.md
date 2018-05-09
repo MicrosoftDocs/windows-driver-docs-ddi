@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateWdfFile
-title: IWDFDevice::CreateWdfFile method
+title: IWDFDevice::CreateWdfFile
 author: windows-driver-content
 description: The CreateWdfFile method creates a file object for a driver to use.
 old-location: wdf\iwdfdevice_createwdffile.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b356e3ac-451d-4a10-94e2-d03fcf76cb29
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreateWdfFile method, CreateWdfFile method, IWDFDevice interface, CreateWdfFile,IWDFDevice.CreateWdfFile, IWDFDevice, IWDFDevice interface, CreateWdfFile method, IWDFDevice::CreateWdfFile, UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml, umdf.iwdfdevice_createwdffile, wdf.iwdfdevice_createwdffile, wudfddi/IWDFDevice::CreateWdfFile
+ms.keywords: CreateWdfFile, CreateWdfFile method, CreateWdfFile method,IWDFDevice interface, IWDFDevice interface,CreateWdfFile method, IWDFDevice.CreateWdfFile, IWDFDevice::CreateWdfFile, UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml, umdf.iwdfdevice_createwdffile, wdf.iwdfdevice_createwdffile, wudfddi/IWDFDevice::CreateWdfFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice.CreateWdfFile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::CreateWdfFile method
+# IWDFDevice::CreateWdfFile
 
 
 ## -description
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateWdfFile</b> method creates a file object for a driver to use.
-
-
-## -syntax
-
-
-````
-HRESULT CreateWdfFile(
-  [in, optional] LPCWSTR               pcwszFileName,
-  [out]          IWDFDriverCreatedFile **ppFile
-);
-````
 
 
 ## -parameters
@@ -78,7 +67,7 @@ A pointer to a <b>NULL</b>-terminated string that contains the name of the file 
 
 ### -param ppFile [out]
 
-A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a> interface for the driver-created file object.
+A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558895">IWDFDriverCreatedFile</a> interface for the driver-created file object.
 
 
 ## -returns
@@ -103,16 +92,15 @@ For information about when a UMDF driver might use <b>CreateWdfFile</b> to preve
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdrivercreatedfile.md">IWDFDriverCreatedFile</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558895">IWDFDriverCreatedFile</a>
  
 
  
-
 

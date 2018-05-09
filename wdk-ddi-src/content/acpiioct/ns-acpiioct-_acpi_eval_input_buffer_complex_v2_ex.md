@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX
 ---
@@ -50,20 +51,6 @@ req.typenames: ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, *PACPI_EVAL_INPUT_BUFFER_CO
 
 
 This topic describes the <b>ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX {
-  ULONG                                               Signature;
-  CHAR                                                MethodName[256];
-  ULONG                                               Size;
-  ULONG                                               ArgumentCount;
-  _Field_size_(ArgumentCount) ACPI_METHOD_ARGUMENT_V2 Argument[ANYSIZE_ARRAY];
-} ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V2_EX;
-````
 
 
 ## -struct-fields

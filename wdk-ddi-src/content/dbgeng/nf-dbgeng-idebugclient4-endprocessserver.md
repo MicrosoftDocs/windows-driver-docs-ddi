@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.EndProcessServer
-title: IDebugClient4::EndProcessServer method
+title: IDebugClient4::EndProcessServer
 author: windows-driver-content
 description: The EndProcessServer method requests that a process server be shut down.
 old-location: debugger\endprocessserver.htm
 old-project: debugger
 ms.assetid: 45421556-6781-4ec4-9ee1-783df99437ae
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EndProcessServer method [Windows Debugging], EndProcessServer method [Windows Debugging], IDebugClient2 interface, EndProcessServer method [Windows Debugging], IDebugClient3 interface, EndProcessServer method [Windows Debugging], IDebugClient4 interface, EndProcessServer method [Windows Debugging], IDebugClient5 interface, EndProcessServer,IDebugClient4.EndProcessServer, IDebugClient2 interface [Windows Debugging], EndProcessServer method, IDebugClient2::EndProcessServer, IDebugClient3 interface [Windows Debugging], EndProcessServer method, IDebugClient3::EndProcessServer, IDebugClient4, IDebugClient4 interface [Windows Debugging], EndProcessServer method, IDebugClient4::EndProcessServer, IDebugClient5 interface [Windows Debugging], EndProcessServer method, IDebugClient5::EndProcessServer, IDebugClient_a24a3c82-f966-424c-a739-a775b45cb600.xml, dbgeng/IDebugClient2::EndProcessServer, dbgeng/IDebugClient3::EndProcessServer, dbgeng/IDebugClient4::EndProcessServer, dbgeng/IDebugClient5::EndProcessServer, debugger.endprocessserver
+ms.date: 4/24/2018
+ms.keywords: EndProcessServer, EndProcessServer method [Windows Debugging], EndProcessServer method [Windows Debugging],IDebugClient2 interface, EndProcessServer method [Windows Debugging],IDebugClient3 interface, EndProcessServer method [Windows Debugging],IDebugClient4 interface, EndProcessServer method [Windows Debugging],IDebugClient5 interface, IDebugClient2 interface [Windows Debugging],EndProcessServer method, IDebugClient2::EndProcessServer, IDebugClient3 interface [Windows Debugging],EndProcessServer method, IDebugClient3::EndProcessServer, IDebugClient4 interface [Windows Debugging],EndProcessServer method, IDebugClient4.EndProcessServer, IDebugClient4::EndProcessServer, IDebugClient5 interface [Windows Debugging],EndProcessServer method, IDebugClient5::EndProcessServer, IDebugClient_a24a3c82-f966-424c-a739-a775b45cb600.xml, dbgeng/IDebugClient2::EndProcessServer, dbgeng/IDebugClient3::EndProcessServer, dbgeng/IDebugClient4::EndProcessServer, dbgeng/IDebugClient5::EndProcessServer, debugger.endprocessserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,28 +41,19 @@ api_name:
 -	IDebugClient3.EndProcessServer
 -	IDebugClient4.EndProcessServer
 -	IDebugClient5.EndProcessServer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::EndProcessServer method
+# IDebugClient4::EndProcessServer
 
 
 ## -description
 
 
 The <b>EndProcessServer</b> method requests that a process server be shut down.
-
-
-## -syntax
-
-
-````
-HRESULT EndProcessServer(
-  [in] ULONG64 Server
-);
-````
 
 
 ## -parameters
@@ -114,6 +105,9 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 
@@ -122,11 +116,19 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
 
 
 
@@ -134,20 +136,8 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
  
 
  
-
 

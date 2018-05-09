@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.NotifyXmlChanged
-title: IPrintSchemaTicket::NotifyXmlChanged method
+title: IPrintSchemaTicket::NotifyXmlChanged
 author: windows-driver-content
 description: Notifies the print system that the XML DOM object has changed.
 old-location: print\iprintschematicket_notifyxmlchanged.htm
 old-project: print
 ms.assetid: B9A0C9EC-6C37-4C42-A10A-8CEE028C5998
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], NotifyXmlChanged method, IPrintSchemaTicket::NotifyXmlChanged, NotifyXmlChanged method [Print Devices], NotifyXmlChanged method [Print Devices], IPrintSchemaTicket interface, NotifyXmlChanged,IPrintSchemaTicket.NotifyXmlChanged, print.iprintschematicket_notifyxmlchanged, printerextension/IPrintSchemaTicket::NotifyXmlChanged
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],NotifyXmlChanged method, IPrintSchemaTicket.NotifyXmlChanged, IPrintSchemaTicket::NotifyXmlChanged, NotifyXmlChanged, NotifyXmlChanged method [Print Devices], NotifyXmlChanged method [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_notifyxmlchanged, printerextension/IPrintSchemaTicket::NotifyXmlChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaTicket.NotifyXmlChanged
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaTicket::NotifyXmlChanged method
+# IPrintSchemaTicket::NotifyXmlChanged
 
 
 ## -description
 
 
 Notifies the print system that the XML DOM object has changed.
-
-
-## -syntax
-
-
-````
-HRESULT NotifyXmlChanged(
-    None
-);
-````
 
 
 ## -parameters
@@ -95,7 +85,6 @@ If the client retrieves the XML DOM object of the PrintTicket by calling <a href
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
@@ -103,8 +92,8 @@ If the client retrieves the XML DOM object of the PrintTicket by calling <a href
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  
-
 

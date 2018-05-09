@@ -7,8 +7,8 @@ old-location: display\dxgkddisubmitcommandvirtual.htm
 old-project: display
 ms.assetid: 7A55FB51-BDC2-4215-895E-3250579BEAF0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_SUBMITCOMMANDVIRTUAL, DxgkDdiSubmitCommandVirtual, DxgkDdiSubmitCommandVirtual callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommandVirtual, display.dxgkddisubmitcommandvirtual
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_SUBMITCOMMANDVIRTUAL, DXGKDDI_SUBMITCOMMANDVIRTUAL callback, DxgkDdiSubmitCommandVirtual, DxgkDdiSubmitCommandVirtual callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommandVirtual, display.dxgkddisubmitcommandvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiSubmitCommandVirtual
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_SUBMITCOMMANDVIRTUAL callback
+# DXGKDDI_SUBMITCOMMANDVIRTUAL callback function
 
 
 ## -description
@@ -55,20 +56,6 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
 
 The driver is responsible for making sure the correct address space is restored ahead of submitting a particular DMA buffer.
   
-
-
-## -prototype
-
-
-````
-DXGKDDI_SUBMITCOMMANDVIRTUAL DxgkDdiSubmitCommandVirtual;
-
-NTSTATUS APIENTRY DxgkDdiSubmitCommandVirtual(
-  _In_ const HANDLE                       hAdapter,
-  _In_ const DXGKARG_SUBMITCOMMANDVIRTUAL *pSubmitCommand
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -83,7 +70,7 @@ A handle to a context block that is associated with a display adapter.
 
 ### -param pSubmitCommand [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_submitcommandvirtual.md">DXGKARG_SUBMITCOMMANDVIRTUAL</a> structure that describes operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906825">DXGKARG_SUBMITCOMMANDVIRTUAL</a> structure that describes operation.
 
 
 ## -returns
@@ -115,7 +102,7 @@ The submitted command is well-formed.
 <td width="60%">
 The DMA or private data is determined to be malformed. In this case, the OS will put the calling device in an error state and all subsequent calls on it will fail. The <b>SubmissionFenceId</b> value passed to this call will be considered completed after all previous packets on the hardware finished and at that point the driver notion of the last completed fence ID should be updated to this value.
 
-<div class="alert"><b>Note</b>  This behavior is different from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a> call where no error is allowed to be returned due to the ability to validate the data in a prior <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a> call.</div>
+<div class="alert"><b>Note</b>  This behavior is different from <a href="https://msdn.microsoft.com/de1925ab-e444-4cf6-acd9-8fdab26afcec">DxgkDdiSubmitCommand</a> call where no error is allowed to be returned due to the ability to validate the data in a prior <a href="https://msdn.microsoft.com/fd634768-5e1e-4f40-82fd-5ef69148c3d7">DxgkDdiRender</a> call.</div>
 <div> </div>
 </td>
 </tr>
@@ -138,20 +125,19 @@ All other return values will lead to the OS <i>bugcheck</i>.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_submitcommandvirtual.md">DXGKARG_SUBMITCOMMANDVIRTUAL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906825">DXGKARG_SUBMITCOMMANDVIRTUAL</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+<a href="https://msdn.microsoft.com/fd634768-5e1e-4f40-82fd-5ef69148c3d7">DxgkDdiRender</a>
 
 
 
+<a href="https://msdn.microsoft.com/de1925ab-e444-4cf6-acd9-8fdab26afcec">DxgkDdiSubmitCommand</a>
  
 
  
-
 

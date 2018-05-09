@@ -7,7 +7,7 @@ old-location: stream\kshandlesizedlistquery.htm
 old-project: stream
 ms.assetid: 014ca1bd-6e18-4110-aefb-ec36e816f013
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsHandleSizedListQuery, KsHandleSizedListQuery function [Streaming Media Devices], ks/KsHandleSizedListQuery, ksfunc_31d10c58-ce60-43ca-aae7-27a0bd83d2e2.xml, stream.kshandlesizedlistquery
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsHandleSizedListQuery
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,19 +52,6 @@ req.typenames:
 
 
 The <b>KsHandleSizedListQuery</b> function, depending on the length of the system buffer, returns either the size of the buffer needed, number of entries in the specified data list, or copies the entries themselves. This assumes the structure of KSMULTIPLE_ITEM to be a Size followed by a Count.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsHandleSizedListQuery(
-  _In_       PIRP  Irp ,
-  _In_       ULONG DataItemsCount ,
-  _In_       ULONG DataItemSize ,
-  _In_ const VOID  *DataItems 
-);
-````
 
 
 ## -parameters

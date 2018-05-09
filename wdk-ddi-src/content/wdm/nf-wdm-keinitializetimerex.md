@@ -7,7 +7,7 @@ old-location: kernel\keinitializetimerex.htm
 old-project: kernel
 ms.assetid: 57ed4f33-6ce6-41ae-b424-147318ba7656
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KeInitializeTimerEx, KeInitializeTimerEx routine [Kernel-Mode Driver Architecture], k105_62ca8d08-a87a-4cbd-80fa-18b646b8500d.xml, kernel.keinitializetimerex, wdm/KeInitializeTimerEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeInitializeTimerEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeInitializeTimerEx function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeInitializeTimerEx</b> routine initializes an extended kernel timer object.
-
-
-## -syntax
-
-
-````
-VOID KeInitializeTimerEx(
-  _Out_ PKTIMER    Timer,
-  _In_  TIMER_TYPE Type
-);
-````
 
 
 ## -parameters
@@ -102,39 +91,38 @@ Callers of <b>KeInitializeTimerEx</b> should be running at IRQL = DISPATCH_LEVEL
 
 For more information about timer objects, see <a href="https://msdn.microsoft.com/b58487de-6e9e-45f4-acb8-9233c8718ee2">Timer Objects and DPCs</a>.
 
-Use <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a> or <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a> to define when the timer will expire.
+Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553286">KeSetTimer</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a> to define when the timer will expire.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551970">KeCancelTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553099">KeReadStateTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553286">KeSetTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
  
 
  
-
 

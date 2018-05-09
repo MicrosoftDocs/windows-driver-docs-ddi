@@ -7,7 +7,7 @@ old-location: netvista\rilimssstatusparammask.htm
 old-project: netvista
 ms.assetid: bc31d252-eb1d-492c-ae2b-c6c7a8509685
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILIMSSSTATUSPARAMMASK, RILIMSSSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSSTATUS_ALL, RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, RIL_PARAM_IMSSTATUS_HUICCAPP, RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, RIL_PARAM_IMSSTATUS_SYSTEMTYPE, netvista.rilimssstatusparammask, ntddrilapitypes/RILIMSSSTATUSPARAMMASK, ntddrilapitypes/RIL_PARAM_IMSSTATUS_ALL, ntddrilapitypes/RIL_PARAM_IMSSTATUS_AVAILABLESERVICES, ntddrilapitypes/RIL_PARAM_IMSSTATUS_HUICCAPP, ntddrilapitypes/RIL_PARAM_IMSSTATUS_SERVINGDOMAIN, ntddrilapitypes/RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT, ntddrilapitypes/RIL_PARAM_IMSSTATUS_SYSTEMTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILIMSSSTATUSPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILIMSSSTATUSPARAMMASK
-req.product: Windows 10 or later.
 ---
 
 # RILIMSSSTATUSPARAMMASK enumeration
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILIMSSSTATUSPARAMMASK { 
-  RIL_PARAM_IMSSTATUS_HUICCAPP,
-  RIL_PARAM_IMSSTATUS_AVAILABLESERVICES,
-  RIL_PARAM_IMSSTATUS_SMSSUPPORTEDFORMAT,
-  RIL_PARAM_IMSSTATUS_SERVINGDOMAIN,
-  RIL_PARAM_IMSSTATUS_SYSTEMTYPE,
-  RIL_PARAM_IMSSTATUS_ALL
-} RILIMSSSTATUSPARAMMASK;
-````
 
 
 ## -enum-fields

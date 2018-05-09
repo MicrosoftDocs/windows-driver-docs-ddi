@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent
-title: IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent method
+title: IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
 author: windows-driver-content
 description: A UMDF-based driver's OnRemoteInterfaceEvent event callback function handles device events that are associated with a device interface.
 old-location: wdf\iremoteinterfacecallbackevent_onremoteinterfaceevent.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6cee6662-2eef-4caf-ab70-780748521ba9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IRemoteInterfaceCallbackEvent, IRemoteInterfaceCallbackEvent interface, OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, OnRemoteInterfaceEvent method, OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent interface, OnRemoteInterfaceEvent,IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent, UMDFIoTargetObjectRef_4adfa540-b8f4-416f-b8c2-f0aec6e87619.xml, umdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wudfddi/IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
+ms.keywords: IRemoteInterfaceCallbackEvent interface,OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent, IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, OnRemoteInterfaceEvent, OnRemoteInterfaceEvent method, OnRemoteInterfaceEvent method,IRemoteInterfaceCallbackEvent interface, UMDFIoTargetObjectRef_4adfa540-b8f4-416f-b8c2-f0aec6e87619.xml, umdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wudfddi/IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent method
+# IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
 
 
 ## -description
@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 A UMDF-based driver's <b>OnRemoteInterfaceEvent</b> event callback function handles device events that are associated with a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>.
 
 
-## -syntax
-
-
-````
-void OnRemoteInterfaceEvent(
-  [in]           IWDFRemoteInterface *pWdfRemoteInterface,
-  [in]           REFGUID             EventGuid,
-  [in, optional] BYTE                *pbData,
-  [in]           DWORD               cbDataSize,
-  [in]           DWORD               NameBufferOffset
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ void OnRemoteInterfaceEvent(
 
 ### -param pWdfRemoteInterface [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterface.md">IWDFRemoteInterface</a> interface of a remote interface object that represents a device interface. The driver obtains this pointer when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>.
+A pointer to the <a href="https://msdn.microsoft.com/10d4cd20-c797-455c-b16d-00982be5c1b7">IWDFRemoteInterface</a> interface of a remote interface object that represents a device interface. The driver obtains this pointer when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>.
 
 
 ### -param EventGuid [in]
@@ -112,7 +98,7 @@ None.
 
 
 
-A driver's <b>OnRemoteInterfaceEvent</b> event callback function handles all device events except arrival and removal events. Such events can originate from a UMDF-based driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a> or from a kernel-mode driver's call to <a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a> or <a href="..\wdm\nf-wdm-ioreporttargetdevicechangeasynchronous.md">IoReportTargetDeviceChangeAsynchronous</a>.
+A driver's <b>OnRemoteInterfaceEvent</b> event callback function handles all device events except arrival and removal events. Such events can originate from a UMDF-based driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558835">IWDFDevice::PostEvent</a> or from a kernel-mode driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549625">IoReportTargetDeviceChange</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549634">IoReportTargetDeviceChangeAsynchronous</a>.
 
 The framework begins calling the <b>OnRemoteInterfaceEvent</b> event callback function after the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a> and continues to call the callback function until the device interface's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> is closed.
 
@@ -123,20 +109,19 @@ For more information about a driver's <b>OnRemoteInterfaceEvent</b> event callba
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556887">IRemoteInterfaceCallbackEvent</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556893">IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackevent.md">IRemoteInterfaceCallbackEvent</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: print\monitorui.htm
 old-project: print
 ms.assetid: c6701ca4-f3ce-40b9-8582-d70e8b2acde3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PMONITORUI, MONITORUI, MONITORUI structure [Print Devices], PMONITORUI, PMONITORUI structure pointer [Print Devices], _MONITORUI, print.monitorui, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, winsplp/MONITORUI, winsplp/PMONITORUI"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winsplp.h
 api_name:
 -	MONITORUI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MONITORUI, *PMONITORUI
-req.product: Windows 10 or later.
 ---
 
 # _MONITORUI structure
@@ -51,29 +51,6 @@ req.product: Windows 10 or later.
 
 
 The MONITORUI structure contains pointers to the functions within a port monitor UI DLL that the print spooler calls.
-
-
-## -syntax
-
-
-````
-typedef struct _MONITORUI {
-  DWORD dwMonitorUISize;
-  BOOL  (WINAPI *pfnAddPortUI)(
-      _In_opt_ PCWSTR pszServer, 
-      _In_ HWND hWnd, 
-      _In_ PCWSTR pszMonitorNameIn, 
-      _Out_opt_ PWSTR ppszPortNameOut);
-  BOOL  (WINAPI *pfnConfigurePortUI)(
-      _In_opt_ PCWSTR pName, 
-      _In_ HWND hWnd, 
-      _In_ PCWSTR pPortName);
-  BOOL  (WINAPI *pfnDeletePortUI)(
-      _In_opt_ PCWSTR pszServer, 
-      _In_ HWND hWnd, 
-      _In_ PCWSTR pszPortName);
-} MONITORUI, *PMONITORUI;
-````
 
 
 ## -struct-fields
@@ -99,19 +76,18 @@ Size, in bytes, of the MONITORUI structure.
 
 
 
-All structure members must be initialized by the port monitor UI DLL. The structure's address is passed to the print spooler as the return value for the <a href="..\winsplp\nf-winsplp-initializeprintmonitorui.md">InitializePrintMonitorUI</a> function.
+All structure members must be initialized by the port monitor UI DLL. The structure's address is passed to the print spooler as the return value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551608">InitializePrintMonitorUI</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitorui.md">InitializePrintMonitorUI</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551608">InitializePrintMonitorUI</a>
  
 
  
-
 

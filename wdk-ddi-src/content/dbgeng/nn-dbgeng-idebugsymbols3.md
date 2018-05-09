@@ -7,8 +7,8 @@ old-location: debugger\idebugsymbols3.htm
 old-project: debugger
 ms.assetid: 3fce9384-93f3-4d81-b6ae-bda7a94da24a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], described, dbgeng/IDebugSymbols3, debugger.idebugsymbols3
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], IDebugSymbols3 interface [Windows Debugging],described, dbgeng/IDebugSymbols3, debugger.idebugsymbols3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -48,9 +48,10 @@ api_name:
 -	IDebugSymbols3.GetSourceEntryStringWide
 -	IDebugSymbols3.GetSourceEntryOffsetRegions
 -	IDebugSymbols3.GetSourceEntryBySourceEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugSymbols3 interface
@@ -63,7 +64,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols3</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>. <b>IDebugSymbols3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols3</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>. <b>IDebugSymbols3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -659,16 +660,15 @@ Initializes a search for symbols whose names match a given pattern.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
  
 
  
-
 

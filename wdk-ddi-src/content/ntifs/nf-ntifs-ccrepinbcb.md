@@ -7,7 +7,7 @@ old-location: ifsk\ccrepinbcb.htm
 old-project: ifsk
 ms.assetid: 81c2446e-8f11-4146-8da5-17fc451c2729
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: CcRepinBcb, CcRepinBcb routine [Installable File System Drivers], ccref_5aacfd67-3d6c-4be6-9bfa-5b85772ce32f.xml, ifsk.ccrepinbcb, ntifs/CcRepinBcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcRepinBcb
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcRepinBcb function
@@ -49,17 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>CcRepinBcb</b> routine pins a buffer control block (BCB) an additional time to prevent it from being freed by a subsequent call to <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>.
-
-
-## -syntax
-
-
-````
-VOID CcRepinBcb(
-  _In_ PVOID Bcb
-);
-````
+The <b>CcRepinBcb</b> routine pins a buffer control block (BCB) an additional time to prevent it from being freed by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>.
 
 
 ## -parameters
@@ -69,7 +60,7 @@ VOID CcRepinBcb(
 
 ### -param Bcb [in]
 
-Buffer control block (BCB) pointer returned by <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a> or <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>.
+Buffer control block (BCB) pointer returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>.
 
 
 ## -returns
@@ -87,31 +78,30 @@ None
 
 File systems call <b>CcRepinBcb</b> to preserve a BCB for write-through or error recovery. Typically a file system would do this the first time it marks a BCB as dirty while processing a write-through request, or any time that it determines that a buffer will be required for write-through.
 
-Every call to <b>CcRepinBcb</b> must be matched by a subsequent call to <a href="..\ntifs\nf-ntifs-ccunpinrepinnedbcb.md">CcUnpinRepinnedBcb</a>.
+Every call to <b>CcRepinBcb</b> must be matched by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539235">CcUnpinRepinnedBcb</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccunpinrepinnedbcb.md">CcUnpinRepinnedBcb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539235">CcUnpinRepinnedBcb</a>
  
 
  
-
 

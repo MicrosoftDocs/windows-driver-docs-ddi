@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH
 ---
@@ -50,18 +51,6 @@ req.typenames: IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH
 
 
 This structure contains the fields necessary for the Bus driver to carry out an <b>IsochSetChannelBandwidth</b> request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH {
-  HANDLE hBandwidth;
-  ULONG  nMaxBytesPerFrame;
-  ULONG  nBandwidthUnitsRequired;
-} IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH;
-````
 
 
 ## -struct-fields

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -39,10 +39,10 @@ api_location:
 -	wudfddi_types.h
 api_name:
 -	WDF_DEVICE_HWACCESS_TARGET_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_HWACCESS_TARGET_SIZE, *PWDF_DEVICE_HWACCESS_TARGET_SIZE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DEVICE_HWACCESS_TARGET_SIZE enumeration
@@ -54,21 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_DEVICE_HWACCESS_TARGET_SIZE</b> enumeration is used internally by the framework. Do not use.
-
-
-## -syntax
-
-
-````
-typedef enum __WDF_IO_TARGET_STATE { 
-  WdfDeviceHwAccessTargetSizeInvalid  = 0,
-  WdfDeviceHwAccessTargetSizeUchar    = 1,
-  WdfDeviceHwAccessTargetSizeUshort   = 2,
-  WdfDeviceHwAccessTargetSizeUlong    = 3,
-  WdfDeviceHwAccessTargetSizeUlong64  = 4,
-  WdfDeviceHwAccessTargetSizeMaximum  = 5
-} WDF_DEVICE_HWACCESS_TARGET_TYPE, *PWDF_DEVICE_HWACCESS_TARGET_TYPE;
-````
 
 
 ## -enum-fields
@@ -96,12 +81,11 @@ typedef enum __WDF_IO_TARGET_STATE {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561319">UMDF Structures and Enumeration Types</a>
-
-
-
  
 
  
-
 

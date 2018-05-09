@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient7.SetClientContext
-title: IDebugClient7::SetClientContext method
+title: IDebugClient7::SetClientContext
 author: windows-driver-content
 description: The SetClientContext method is reserved for internal use.
 old-location: debugger\idebugclient7_setclientcontext.htm
 old-project: debugger
 ms.assetid: 235DA791-D4D1-486C-B136-3703E62E91E2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugClient7, IDebugClient7 interface [Windows Debugging], SetClientContext method, IDebugClient7::SetClientContext, SetClientContext method [Windows Debugging], SetClientContext method [Windows Debugging], IDebugClient7 interface, SetClientContext,IDebugClient7.SetClientContext, dbgeng/IDebugClient7::SetClientContext, debugger.idebugclient7_setclientcontext
+ms.date: 4/24/2018
+ms.keywords: IDebugClient7 interface [Windows Debugging],SetClientContext method, IDebugClient7.SetClientContext, IDebugClient7::SetClientContext, SetClientContext, SetClientContext method [Windows Debugging], SetClientContext method [Windows Debugging],IDebugClient7 interface, dbgeng/IDebugClient7::SetClientContext, debugger.idebugclient7_setclientcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient7.SetClientContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient7::SetClientContext method
+# IDebugClient7::SetClientContext
 
 
 ## -description
 
 
 The <b>SetClientContext</b> method is reserved for internal use.
-
-
-## -syntax
-
-
-````
-HRESULT SetClientContext(
-  [in] _reads_bytes_(ContextSize) PVOID Context,
-  [in] ULONG                            ContextSize
-);
-````
 
 
 ## -parameters
@@ -89,16 +79,15 @@ The <b>SetClientContext</b> method is reserved for internal use.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient7.md">IDebugClient7</a>
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_client_context.md">DEBUG_CLIENT_CONTEXT</a>
+<a href="https://msdn.microsoft.com/69CE0535-3ADD-481C-A016-695A7303BBA5">DEBUG_CLIENT_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/16FBD831-D7AE-4B10-B76E-6CA42C9CABEB">IDebugClient7</a>
  
 
  
-
 

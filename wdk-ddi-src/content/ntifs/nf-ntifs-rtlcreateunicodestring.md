@@ -7,7 +7,7 @@ old-location: ifsk\rtlcreateunicodestring.htm
 old-project: ifsk
 ms.assetid: f101fc66-40a9-4077-b651-cef0a0e247d4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlCreateUnicodeString, RtlCreateUnicodeString routine [Installable File System Drivers], ifsk.rtlcreateunicodestring, ntifs/RtlCreateUnicodeString, rtlref_8d7cd5ce-a1c9-48a0-86a9-86120954d328.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlCreateUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlCreateUnicodeString function
@@ -51,17 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlCreateUnicodeString</b> routine creates a new counted Unicode string.
-
-
-## -syntax
-
-
-````
-BOOLEAN RtlCreateUnicodeString(
-  _Out_ PUNICODE_STRING DestinationString,
-  _In_  PCWSTR          SourceString
-);
-````
 
 
 ## -parameters
@@ -101,16 +91,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561903">RtlFreeUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

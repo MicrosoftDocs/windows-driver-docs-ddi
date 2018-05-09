@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b4c17e57-688c-4c76-892c-5c8abbf83f20
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectGeneralRef_aaaf477b-f2be-4b26-a607-cb057d976dc1.xml, EVT_WDF_DEVICE_RELEASE_HARDWARE, EvtDeviceReleaseHardware, EvtDeviceReleaseHardware callback function, kmdf.evtdevicereleasehardware, wdf.evtdevicereleasehardware, wdfdevice/EvtDeviceReleaseHardware
+ms.keywords: DFDeviceObjectGeneralRef_aaaf477b-f2be-4b26-a607-cb057d976dc1.xml, EVT_WDF_DEVICE_RELEASE_HARDWARE, EVT_WDF_DEVICE_RELEASE_HARDWARE callback, EvtDeviceReleaseHardware, EvtDeviceReleaseHardware callback function, kmdf.evtdevicereleasehardware, wdf.evtdevicereleasehardware, wdfdevice/EvtDeviceReleaseHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	Wdfdevice.h
 api_name:
 -	EvtDeviceReleaseHardware
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DEVICE_RELEASE_HARDWARE callback
+# EVT_WDF_DEVICE_RELEASE_HARDWARE callback function
 
 
 ## -description
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 A driver's <i>EvtDeviceReleaseHardware</i> event callback function performs operations that are needed when a device is no longer accessible.
-
-
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_RELEASE_HARDWARE EvtDeviceReleaseHardware;
-
-NTSTATUS EvtDeviceReleaseHardware(
-  _In_ WDFDEVICE    Device,
-  _In_ WDFCMRESLIST ResourcesTranslated
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -97,7 +83,7 @@ If the <i>EvtDeviceReleaseHardware</i> callback function encounters no errors, i
 
 
 
-To register an <i>EvtDeviceReleaseHardware</i> callback function, your driver must call  <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpnppowereventcallbacks.md">WdfDeviceInitSetPnpPowerEventCallbacks</a>. 
+To register an <i>EvtDeviceReleaseHardware</i> callback function, your driver must call  <a href="https://msdn.microsoft.com/library/windows/hardware/ff546135">WdfDeviceInitSetPnpPowerEventCallbacks</a>. 
 
 If a driver has registered an <i>EvtDeviceReleaseHardware</i> callback function, the framework calls it during the following transitions: <ul>
 <li>Resource rebalancing</li>
@@ -110,11 +96,11 @@ The framework calls the <i>EvtDeviceReleaseHardware</i> callback function after 
 
  When the framework calls the <i>EvtDeviceReleaseHardware</i>, the PDO for the device still exists and can be queried for device information that is available in the powered off state, for example PCI configuration state.
 
-In addition, the translated hardware resources that the framework supplies to <i>EvtDeviceReleaseHardware</i> are still assigned to the device.  The primary purpose of this callback function is to release those resources, and in particular to unmap any memory resources that the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a> callback function mapped.  The driver can also use this callback to perform any other driver or device management activity that might be required in the powered down state. Usually, all other hardware shutdown operations should take place in the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a> callback function.
+In addition, the translated hardware resources that the framework supplies to <i>EvtDeviceReleaseHardware</i> are still assigned to the device.  The primary purpose of this callback function is to release those resources, and in particular to unmap any memory resources that the driver's <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function mapped.  The driver can also use this callback to perform any other driver or device management activity that might be required in the powered down state. Usually, all other hardware shutdown operations should take place in the driver's <a href="https://msdn.microsoft.com/bc3af732-f9ab-43a4-bc6f-7fa0b4c05a66">EvtDeviceD0Exit</a> callback function.
 
-The framework always calls the driver's <i>EvtDeviceReleaseHardware</i> callback function if the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a> callback function has been called, even if <i>EvtDevicePrepareHardware</i> returned a failure code.
+The framework always calls the driver's <i>EvtDeviceReleaseHardware</i> callback function if the driver's <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function has been called, even if <i>EvtDevicePrepareHardware</i> returned a failure code.
 
-A driver for a device that has child devices can control the order in which the framework calls the <i>EvtDeviceReleaseHardware</i> callback functions for the parent device and its children by calling <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreleasehardwareorderonfailure.md">WdfDeviceInitSetReleaseHardwareOrderOnFailure</a> from within its <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
+A driver for a device that has child devices can control the order in which the framework calls the <i>EvtDeviceReleaseHardware</i> callback functions for the parent device and its children by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh706196">WdfDeviceInitSetReleaseHardwareOrderOnFailure</a> from within its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function.
 
 For more information about when the framework calls this callback function, see <a href="https://msdn.microsoft.com/9175ce95-196d-44bd-b31c-88386fa0d3d3">PnP and Power Management Scenarios</a>.
 
@@ -164,12 +150,11 @@ The <b>EVT_WDF_DEVICE_RELEASE_HARDWARE</b> function type is defined in the Wdfde
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
 
 
 
+<a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a>
  
 
  
-
 

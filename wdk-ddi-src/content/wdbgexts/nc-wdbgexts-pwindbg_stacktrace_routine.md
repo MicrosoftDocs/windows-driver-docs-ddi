@@ -7,8 +7,8 @@ old-location: debugger\stacktrace.htm
 old-project: debugger
 ms.assetid: 689d99a2-6971-4098-84fb-4c40dc2bbaac
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PWINDBG_STACKTRACE_ROUTINE, StackTrace, StackTrace callback function [Windows Debugging], WdbgExts_Ref_5ccc4adf-2b59-4373-8e4a-3bc8847c5749.xml, debugger.stacktrace, wdbgexts/StackTrace
+ms.date: 4/24/2018
+ms.keywords: PWINDBG_STACKTRACE_ROUTINE, PWINDBG_STACKTRACE_ROUTINE callback, StackTrace, StackTrace callback function [Windows Debugging], WdbgExts_Ref_5ccc4adf-2b59-4373-8e4a-3bc8847c5749.xml, debugger.stacktrace, wdbgexts/StackTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	StackTrace
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PWINDBG_STACKTRACE_ROUTINE callback
+# PWINDBG_STACKTRACE_ROUTINE callback function
 
 
 ## -description
 
 
 The <b>PWINDBG_STACKTRACE_ROUTINE</b>  (<b>StackTrace</b>) function retrieves a stack trace for the process being debugged. Returns the number of frames read into the buffer pointed to by <i>StackFrames</i>.
-
-
-## -prototype
-
-
-````
-ULONG  StackTrace(
-  _In_  ULONG          FramePointer,
-  _In_  ULONG          StackPointer,
-  _In_  ULONG          ProgramCounter,
-  _Out_ PEXTSTACKTRACE StackFrames,
-  _In_  ULONG          Frames
-);
-````
 
 
 ## -parameters

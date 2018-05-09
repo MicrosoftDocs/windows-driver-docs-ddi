@@ -7,7 +7,7 @@ old-location: image\wia_micr_info.htm
 old-project: image
 ms.assetid: E91F5D6F-40F9-4CE2-8C51-4CA7FB27F2C3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: WIA_MICR_INFO, WIA_MICR_INFO structure [Imaging Devices], _WIA_MICR_INFO, image.wia_micr_info, wiadef/WIA_MICR_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiadef.h
 api_name:
 -	WIA_MICR_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIA_MICR_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WIA_MICR_INFO structure
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WIA_MICR_INFO</b> structure stores information for one decoded MICR code.
-
-
-## -syntax
-
-
-````
-typedef struct _WIA_MICR_INFO {
-  DWORD Size;
-  DWORD Page;
-  DWORD Length;
-  WCHAR Text[1];
-} WIA_MICR_INFO;
-````
 
 
 ## -struct-fields

@@ -7,8 +7,8 @@ old-location: stream\camallocatebandwidth.htm
 old-project: stream
 ms.assetid: 0dd01bf7-04a8-4d20-982a-1ec81076583f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: CamAllocateBandwidth, CamAllocateBandwidth callback function [Streaming Media Devices], PCAM_ALLOCATE_BW_ROUTINE, stream.camallocatebandwidth, usbcamdi/CamAllocateBandwidth, usbcmdpr_4e7b22dc-0f6d-4a9b-82df-61c14cae981b.xml
+ms.date: 4/23/2018
+ms.keywords: CamAllocateBandwidth, CamAllocateBandwidth callback function [Streaming Media Devices], PCAM_ALLOCATE_BW_ROUTINE, PCAM_ALLOCATE_BW_ROUTINE callback, stream.camallocatebandwidth, usbcamdi/CamAllocateBandwidth, usbcmdpr_4e7b22dc-0f6d-4a9b-82df-61c14cae981b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,22 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamAllocateBandwidth
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_ALLOCATE_BW_ROUTINE callback
+# PCAM_ALLOCATE_BW_ROUTINE callback function
 
 
 ## -description
 
 
-<p class="CCE_Message">[CamAllocateBandwidth is not supported and may be altered or unavailable in the future. Instead, use <a href="..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine_ex.md">CamAllocateBandwidthEx</a>.
+<p class="CCE_Message">[CamAllocateBandwidth is not supported and may be altered or unavailable in the future. Instead, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff557600">CamAllocateBandwidthEx</a>.
 ]
 
 A camera minidriver's <b>CamAllocateBandwidth</b> callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
-
-
-## -prototype
-
-
-````
-NTSTATUS CamAllocateBandwidth(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext,
-   PULONG         RawFrameLength,
-   PVOID          Format
-);
-````
 
 
 ## -parameters
@@ -91,7 +78,7 @@ Specifies the size, of the raw frame data from the packet stream, in bytes.
 
 ### -param Format
 
-Pointer to a <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a> structure that is associated with this stream.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567331">KS_DATAFORMAT_VIDEOINFOHEADER</a> structure that is associated with this stream.
 
 
 ## -returns
@@ -107,7 +94,7 @@ Pointer to a <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md"
 
 
 
-Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
+Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568585">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
 
 USBCAMD calls the camera minidriver's <b>CamAllocateBandwidth</b> callback function immediately before the isochronous video capture stream is started. It is called in connection with a <b>Run</b> command.
 
@@ -120,20 +107,19 @@ This function is required.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a>
 
 
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_selectalternateinterface.md">USBCAMD_SelectAlternateInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557600">CamAllocateBandwidthEx</a>
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine_ex.md">CamAllocateBandwidthEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567331">KS_DATAFORMAT_VIDEOINFOHEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568625">USBCAMD_SelectAlternateInterface</a>
  
 
  
-
 

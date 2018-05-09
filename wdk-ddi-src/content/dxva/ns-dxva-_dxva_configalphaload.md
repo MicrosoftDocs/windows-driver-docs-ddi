@@ -7,7 +7,7 @@ old-location: display\dxva_configalphaload.htm
 old-project: display
 ms.assetid: 0754c362-57b8-40e8-a050-c9dded5180c1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPDXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad structure [Display Devices], LPDXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], _DXVA_ConfigAlphaLoad, display.dxva_configalphaload, dxva/DXVA_ConfigAlphaLoad, dxva/LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_ConfigAlphaLoad
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad
 ---
@@ -50,18 +51,6 @@ req.typenames: DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad
 
 
 The DXVA_ConfigAlphaLoad structure is sent by the host decoder to the accelerator to set the configuration for alpha-blend, texture-loading operations.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_ConfigAlphaLoad {
-  DXVA_ConfigQueryOrReplyFunc dwFunction;
-  DWORD                       dwReservedBits[3];
-  BYTE                        bConfigDataType;
-} DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad;
-````
 
 
 ## -struct-fields

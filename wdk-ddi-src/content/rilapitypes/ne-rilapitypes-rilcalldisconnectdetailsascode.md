@@ -7,7 +7,7 @@ old-location: netvista\rilcalldisconnectdetailsascode.htm
 old-project: netvista
 ms.assetid: 01b311e9-252e-49eb-bf63-d16e4fa92231
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILCALLDISCONNECTDETAILSASCODE, RILCALLDISCONNECTDETAILSASCODE enumeration [Network Drivers Starting with Windows Vista], RIL_CD_L2, RIL_CD_L3, RIL_CD_LAYER_MAX, netvista.rilcalldisconnectdetailsascode, ntddrilapitypes/RILCALLDISCONNECTDETAILSASCODE, ntddrilapitypes/RIL_CD_L2, ntddrilapitypes/RIL_CD_L3, ntddrilapitypes/RIL_CD_LAYER_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLDISCONNECTDETAILSASCODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLDISCONNECTDETAILSASCODE
-req.product: Windows 10 or later.
 ---
 
 # RILCALLDISCONNECTDETAILSASCODE enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLDISCONNECTDETAILSASCODE { 
-  RIL_CD_L2,
-  RIL_CD_L3,
-  RIL_CD_LAYER_MAX
-} RILCALLDISCONNECTDETAILSASCODE;
-````
 
 
 ## -enum-fields

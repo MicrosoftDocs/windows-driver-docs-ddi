@@ -7,7 +7,7 @@ old-location: stream\camprocessrawvideoframeex.htm
 old-project: stream
 ms.assetid: 07b0d1ea-c099-474e-8dc8-cddec44836e2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: CamProcessRawVideoFrameEx, CamProcessRawVideoFrameEx routine [Streaming Media Devices], PCAM_PROCESS_RAW_FRAME_ROUTINE_EX, stream.camprocessrawvideoframeex, usbcamdi/CamProcessRawVideoFrameEx, usbcmdpr_7ca6e89a-089c-4cf0-83e3-6324357a8566.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,42 +38,19 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamProcessRawVideoFrameEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_PROCESS_RAW_FRAME_ROUTINE_EX callback
+# PCAM_PROCESS_RAW_FRAME_ROUTINE_EX callback function
 
 
 ## -description
 
 
 A camera minidriver's <b>CamProcessRawVideoFrameEx</b> callback function decodes a raw video frame.
-
-
-## -prototype
-
-
-````
-PCAM_PROCESS_RAW_FRAME_ROUTINE_EX CamProcessRawVideoFrameEx;
-
-NTSTATUS CamProcessRawVideoFrameEx(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext,
-   PVOID          FrameContext,
-   PVOID          FrameBuffer,
-   ULONG          FrameLength,
-   PVOID          RawFrameBuffer,
-   ULONG          RawFrameLength,
-   ULONG          NumberOfPackets,
-   PULONG         BytesReturned,
-   ULONG          ActualRawFrameLength,
-   ULONG          StreamNumber
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -151,7 +128,7 @@ Indicates the stream number with which this frame is associated with.
 
 Before USBCAMD calls the minidriver's <b>CamProcessRawVideoFrameEx</b> callback, it sets the first DWORD in the buffer pointed to by the <i>FrameBuffer</i> parameter to the value <i>0xdeadbeef.</i> After calling the minidriver's <b>CamProcessRawVideoFrameEx</b> callback USBCAMD checks the first DWORD in the buffer pointed to by the <i>FrameBuffer</i> parameter for the value <i>0xdeadbeef</i> to determine if <b>CamProcessRawVideoFrameEx</b> successfully copied the video frame from the buffer pointed to by the <i>RawFrameBuffer</i> parameter into the buffer pointed to by the <i>FrameBuffer</i> parameter.
 
-This function is not called if either one of the following bits are set in the <i>CamControlFlag</i> argument passed to the <a href="..\usbcamdi\nf-usbcamdi-usbcamd_initializenewinterface.md">USBCAMD_InitializeNewInterface</a> function:
+This function is not called if either one of the following bits are set in the <i>CamControlFlag</i> argument passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568599">USBCAMD_InitializeNewInterface</a> function:
 
 USBCAMD_CamControlFlag_NoVideoRawProcessing
 

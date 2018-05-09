@@ -7,7 +7,7 @@ old-location: display\d3dkmt_setqueuedlimit.htm
 old-project: display
 ms.assetid: 4fe525b1-9c06-4e2c-9e57-041164905efe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_SETQUEUEDLIMIT, D3DKMT_SETQUEUEDLIMIT structure [Display Devices], OpenGL_Structs_3c7f7e33-f71a-4547-89ee-7dba69917a4f.xml, _D3DKMT_SETQUEUEDLIMIT, d3dkmthk/D3DKMT_SETQUEUEDLIMIT, display.d3dkmt_setqueuedlimit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SETQUEUEDLIMIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SETQUEUEDLIMIT
 ---
@@ -50,24 +51,6 @@ req.typenames: D3DKMT_SETQUEUEDLIMIT
 
 
 The D3DKMT_SETQUEUEDLIMIT structure describes parameters for setting or retrieving the limit for the number of operations of the given type that can be queued for the given device. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETQUEUEDLIMIT {
-  D3DKMT_HANDLE           hDevice;
-  D3DKMT_QUEUEDLIMIT_TYPE Type;
-  union {
-    UINT   QueuedPresentLimit;
-    struct {
-      D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-      UINT                           QueuedPendingFlipLimit;
-    };
-  };
-} D3DKMT_SETQUEUEDLIMIT;
-````
 
 
 ## -struct-fields
@@ -82,7 +65,12 @@ typedef struct _D3DKMT_SETQUEUEDLIMIT {
 
 ### -field Type
 
-[in] A <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_queuedlimit_type.md">D3DKMT_QUEUEDLIMIT_TYPE</a>-typed value that indicates the type of operations to set or retrieve the queued limit for. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548225">D3DKMT_QUEUEDLIMIT_TYPE</a>-typed value that indicates the type of operations to set or retrieve the queued limit for. 
+
+
+### -field QueuedPresentLimit
+
+[in/out] The limit for the number of present operations that can be queued for the device that is specified by <b>hDevice</b>. If the OpenGL installable client driver (ICD) sets <b>QueuedPresentLimit</b> to 0, the limit for the device is reset to the graphics adapter's default value, which is currently 3. The union that is contained in D3DKMT_SETQUEUEDLIMIT contains the limiting number if the <b>Type</b> member is D3DKMT_SET_QUEUEDLIMIT_PRESENT and retrieves the number if <b>Type</b> is D3DKMT_GET_QUEUEDLIMIT_PRESENT. 
 
 
 ### -field VidPnSourceId
@@ -95,23 +83,17 @@ typedef struct _D3DKMT_SETQUEUEDLIMIT {
 [in/out] The limit for the number of flip operations that can be queued for the device that is specified by <b>hDevice</b>. If the OpenGL ICD sets <b>QueuedPendingFlipLimit</b> to 0, the limit for the device is reset to the graphics adapter's default value, which is currently 1. The union that is contained in D3DKMT_SETQUEUEDLIMIT contains the limiting number if the present operations are flips. 
 
 
-#### - QueuedPresentLimit
-
-[in/out] The limit for the number of present operations that can be queued for the device that is specified by <b>hDevice</b>. If the OpenGL installable client driver (ICD) sets <b>QueuedPresentLimit</b> to 0, the limit for the device is reset to the graphics adapter's default value, which is currently 3. The union that is contained in D3DKMT_SETQUEUEDLIMIT contains the limiting number if the <b>Type</b> member is D3DKMT_SET_QUEUEDLIMIT_PRESENT and retrieves the number if <b>Type</b> is D3DKMT_GET_QUEUEDLIMIT_PRESENT. 
-
-
 ## -see-also
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_queuedlimit_type.md">D3DKMT_QUEUEDLIMIT_TYPE</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetqueuedlimit.md">D3DKMTSetQueuedLimit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547195">D3DKMTSetQueuedLimit</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548225">D3DKMT_QUEUEDLIMIT_TYPE</a>
  
 
  
-
 

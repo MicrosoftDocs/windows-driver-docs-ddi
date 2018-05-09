@@ -7,8 +7,8 @@ old-location: spb\evtspbcontrollerioother.htm
 old-project: SPB
 ms.assetid: 5A4BC061-4703-4C46-BD5D-A891F3DA8842
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: EVT_SPB_CONTROLLER_OTHER, EvtSpbControllerIoOther, EvtSpbControllerIoOther callback function [Buses], SPB.evtspbcontrollerioother, spbcx/EvtSpbControllerIoOther
+ms.date: 4/30/2018
+ms.keywords: EVT_SPB_CONTROLLER_OTHER, EVT_SPB_CONTROLLER_OTHER callback, EvtSpbControllerIoOther, EvtSpbControllerIoOther callback function [Buses], SPB.evtspbcontrollerioother, spbcx/EvtSpbControllerIoOther
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,37 +38,19 @@ api_location:
 -	Spbcx.h
 api_name:
 -	EvtSpbControllerIoOther
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SPB_CONTROLLER_OTHER callback
+# EVT_SPB_CONTROLLER_OTHER callback function
 
 
 ## -description
 
 
 An SPB controller driver's <i>EvtSpbControllerIoOther</i> event callback function handles device I/O control requests that are not handled by other event callback functions or by the SPB framework extension (SpbCx).
-
-
-## -prototype
-
-
-````
-EVT_SPB_CONTROLLER_OTHER EvtSpbControllerIoOther;
-
-VOID EvtSpbControllerIoOther(
-  _In_ WDFDEVICE  Controller,
-  _In_ SPBTARGET  Target,
-  _In_ SPBREQUEST Request,
-  _In_ size_t     OutputBufferLength,
-  _In_ size_t     InputBufferLength,
-  _In_ ULONG      IoControlCode
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -123,7 +105,7 @@ SpbCx manages the I/O queue for the SPB controller. If the SPB controller driver
 
 The <i>EvtSpbControllerIoOther</i> callback enables bus-specific or driver-specific commands to be dispatched to the SPB controller driver as IOCTLs. For example, clients (peripheral drivers) might use these IOCTLs to coordinate bus-specific operations, such as full-duplex data exchanges with a target device on an SPI bus. Such IOCTLs are subject to the same flow-control as the IOCTLs that are supported by SpbCx.
 
-The <i>EvtSpbControllerIoOther</i> callback function is similar to the <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a> and processes IOCTLs in a similar way. For general information about how WDF drivers handle I/O requests, see <a href="https://msdn.microsoft.com/564f3600-4784-4a37-ac13-38338c38a9d2">Framework Request Objects</a>.
+The <i>EvtSpbControllerIoOther</i> callback function is similar to the <a href="https://msdn.microsoft.com/3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce">EvtIoDeviceControl</a> and processes IOCTLs in a similar way. For general information about how WDF drivers handle I/O requests, see <a href="https://msdn.microsoft.com/564f3600-4784-4a37-ac13-38338c38a9d2">Framework Request Objects</a>.
 
 An <i>EvtSpbControllerIoOther</i> callback does not return a status value. Instead, the SPB controller driver indicates the status of the requested operation in the completion status for the I/O request.
 
@@ -180,6 +162,13 @@ The EVT_SPB_CONTROLLER_OTHER function type is defined in the Spbcx.h header file
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce">EvtIoDeviceControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
 
 
@@ -188,20 +177,12 @@ The EVT_SPB_CONTROLLER_OTHER function type is defined in the Spbcx.h header file
 
 
 
-<a href="https://msdn.microsoft.com/605E2353-8C82-4005-BB72-4CB44146A253">SpbControllerSetIoOther</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
 
 
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a>
-
-
-
+<a href="https://msdn.microsoft.com/605E2353-8C82-4005-BB72-4CB44146A253">SpbControllerSetIoOther</a>
  
 
  
-
 

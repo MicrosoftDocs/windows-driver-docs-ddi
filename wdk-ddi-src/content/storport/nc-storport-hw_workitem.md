@@ -7,7 +7,7 @@ old-location: storage\hwstorworkitem.htm
 old-project: storage
 ms.assetid: CBBB1350-66BE-4F74-A0CE-0400245352F3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HW_WORKITEM, HwStorWorkItem, HwStorWorkItem routine [Storage Devices], storage.hwstorworkitem, storport/HwStorWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,34 +38,19 @@ api_location:
 -	storport.h
 api_name:
 -	HwStorWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# HW_WORKITEM callback
+# HW_WORKITEM callback function
 
 
 ## -description
 
 
 A miniport-provided callback function for processing a Storport work item request.
-
-
-## -prototype
-
-
-````
-HW_WORKITEM HwStorWorkItem;
-
-VOID HwStorWorkItem(
-  _In_     IN PVOID HwDeviceExtension,
-  _In_opt_ PVOID    Context,
-  _In_     PVOID    Worker
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -80,12 +65,12 @@ A pointer to the miniport driver's per-HBA storage area.
 
 ### -param Context [in, optional]
 
-Optional context provided by the miniport in the <i>Callback</i> parameter of <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>.
+Optional context provided by the miniport in the <i>Callback</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451509">StorPortQueueWorkItem</a>.
 
 
 ### -param Worker [in]
 
-A pointer to an opaque buffer that holds context information for the work item returned by <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>.
+A pointer to an opaque buffer that holds context information for the work item returned by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451486">StorPortInitializeWorker</a>.
 
 
 ## -returns
@@ -101,11 +86,11 @@ None.
 
 
 
-If needed, a work item can be queued within <b>HwStorWorkItem</b>. Call <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a> with the current work item to reuse it. Otherwise, call <a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a> to release the work item.
+If needed, a work item can be queued within <b>HwStorWorkItem</b>. Call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451509">StorPortQueueWorkItem</a> with the current work item to reuse it. Otherwise, call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451478">StorPortFreeWorker</a> to release the work item.
 
 No locks are acquired by Storport when the callback is invoked. The miniport is responsible for any synchronization required in the callback routine.
 
-The name <i>HwStorWorkItem</i> is just a placeholder for the miniport function that is pointed to by the <i>Callback</i> parameter of  <a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
+The name <i>HwStorWorkItem</i> is just a placeholder for the miniport function that is pointed to by the <i>Callback</i> parameter of  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451509">StorPortQueueWorkItem</a>. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -128,20 +113,19 @@ HW_WORKITEM (
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
 
 
 
-<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451478">StorPortFreeWorker</a>
 
 
 
-<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451486">StorPortInitializeWorker</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451509">StorPortQueueWorkItem</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\ksproperty_tuner_frequency_s.htm
 old-project: stream
 ms.assetid: 19d2c3cc-69e3-4216-9eb7-32b522fe058b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_TUNER_FREQUENCY_S, KSPROPERTY_TUNER_FREQUENCY_S, KSPROPERTY_TUNER_FREQUENCY_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_FREQUENCY_S, PKSPROPERTY_TUNER_FREQUENCY_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_FREQUENCY_S, ksmedia/PKSPROPERTY_TUNER_FREQUENCY_S, stream.ksproperty_tuner_frequency_s, vidcapstruct_7757eed6-a41b-4bcd-ad7b-05aca3b54cd0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_TUNER_FREQUENCY_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TUNER_FREQUENCY_S, *PKSPROPERTY_TUNER_FREQUENCY_S
 ---
@@ -50,23 +51,6 @@ req.typenames: KSPROPERTY_TUNER_FREQUENCY_S, *PKSPROPERTY_TUNER_FREQUENCY_S
 
 
 The KSPROPERTY_TUNER_FREQUENCY_S structure describes the frequency of a TV or radio tuner device.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      Frequency;
-  ULONG      LastFrequency;
-  ULONG      TuningFlags;
-  ULONG      VideoSubChannel;
-  ULONG      AudioSubChannel;
-  ULONG      Channel;
-  ULONG      Country;
-} KSPROPERTY_TUNER_FREQUENCY_S, *PKSPROPERTY_TUNER_FREQUENCY_S;
-````
 
 
 ## -struct-fields
@@ -91,7 +75,7 @@ Specifies the last frequency tuned.
 
 ### -field TuningFlags
 
-Specifies tuning flags that describe the granularity of a tuning operation. If the request is a Get request, the minidriver returns the current tuning flags. If the request is a Set request, the minidriver should use the specified tuning method. This member must be set to one of the values from the <a href="..\ksmedia\ne-ksmedia-ks_tuner_tuning_flags.md">KS_TUNER_TUNING_FLAGS</a> enumeration.
+Specifies tuning flags that describe the granularity of a tuning operation. If the request is a Get request, the minidriver returns the current tuning flags. If the request is a Set request, the minidriver should use the specified tuning method. This member must be set to one of the values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567689">KS_TUNER_TUNING_FLAGS</a> enumeration.
 
 
 ### -field VideoSubChannel
@@ -116,15 +100,10 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
-
-
-
-<a href="..\ksmedia\ne-ksmedia-ks_tuner_tuning_flags.md">KS_TUNER_TUNING_FLAGS</a>
 
 
 
@@ -132,8 +111,12 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567689">KS_TUNER_TUNING_FLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
  
 
  
-
 

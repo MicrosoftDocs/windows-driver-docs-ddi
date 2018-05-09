@@ -7,7 +7,7 @@ old-location: ifsk\rxstartminirdr.htm
 old-project: ifsk
 ms.assetid: d5b091fa-13bf-4761-a03d-1790e7045b69
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RxStartMinirdr, RxStartMinirdr function [Installable File System Drivers], ifsk.rxstartminirdr, mrx/RxStartMinirdr, rxref_0ecf01ed-771f-44e8-a107-6d3a0d2beb02.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	mrx.h
 api_name:
 -	RxStartMinirdr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
 # RxStartMinirdr function
@@ -50,17 +51,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 
 
 <b>RxStartMinirdr</b> is called to start up a network mini-redirector that has previously called to register with RDBSS. As part of <b>RxStartMinirdr</b>, RDBSS will also register the network mini-redirector driver as a universal naming convention (UNC) provider with the Multiple UNC Provider (MUP) if the driver indicates support for UNC names.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxStartMinirdr(
-  _In_  PRX_CONTEXT RxContext,
-  _Out_ PBOOLEAN    PostToFsp
-);
-````
 
 
 ## -parameters
@@ -156,7 +146,7 @@ The network mini-redirector was already started.
 
 A network mini-redirector registers with RDBSS whenever the driver is loaded by the kernel and then unregisters with RDBSS when the driver is unloaded. A network mini-redirector informs RDBSS that it has been loaded by calling <b>RxRegisterMinirdr</b>, the registration routine exported from RDBSS. As part of this registration process, the network mini-redirector passes a parameter to <b>RxRegisterMinirdr</b> that is a pointer to a large structure, MINIRDR_DISPATCH, which contains configuration information for the network mini-redirector and a table of pointers to callback routines implemented by the network mini-redirector driver. RDBSS uses the callback routines passed in this structure to communicate with the network mini-redirector.  
 
-The network mini-redirector does not actually start operation until it receives a call to its <a href="..\mrx\nc-mrx-pmrx_calldown_ctx.md">MRxStart</a> routine, one of the callback routines passed in the MINIRDR_DISPATCH structure. The <b>MrxStart</b> callback routine must be implemented by the network mini-redirector driver if it wishes to receive callback routines for operations unless the network mini-redirector preserves its own driver dispatch entry points. Otherwise, RDBSS will only allow the following I/O request packets through to the driver until <b>MrxStart</b> returns successfully:
+The network mini-redirector does not actually start operation until it receives a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a> routine, one of the callback routines passed in the MINIRDR_DISPATCH structure. The <b>MrxStart</b> callback routine must be implemented by the network mini-redirector driver if it wishes to receive callback routines for operations unless the network mini-redirector preserves its own driver dispatch entry points. Otherwise, RDBSS will only allow the following I/O request packets through to the driver until <b>MrxStart</b> returns successfully:
 
 <ul>
 <li>
@@ -164,7 +154,7 @@ IRP requests for device create operations and device operations where the <i>Fil
 
 </li>
 </ul>
-For any other IRP request, the RDBSS dispatch routine <a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a> will return a status of STATUS_REDIRECTOR_NOT_STARTED. 
+For any other IRP request, the RDBSS dispatch routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff554468">RxFsdDispatch</a> will return a status of STATUS_REDIRECTOR_NOT_STARTED. 
 
 The RDBSS dispatch routine will also fail any requests for the following I/O request packets:
 
@@ -178,7 +168,7 @@ IRP_MJ_CREATE_NAMED_PIPE
 
 </li>
 </ul>
-The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the <b>RxStartMinirdr</b> routine is called. The RDBSS <b>RxStartMinirdr </b>routine is usually called as a result of an FSCTL or IOCTL request from a user-mode application or service to start the network mini-redirector. The call to <b>RxStartMinirdr </b>cannot be made from the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine of the network mini-redirector after a successful call to <b>RxRegisterMinirdr </b>since some of the start processing requires that the driver initialization be completed. 
+The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the <b>RxStartMinirdr</b> routine is called. The RDBSS <b>RxStartMinirdr </b>routine is usually called as a result of an FSCTL or IOCTL request from a user-mode application or service to start the network mini-redirector. The call to <b>RxStartMinirdr </b>cannot be made from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine of the network mini-redirector after a successful call to <b>RxRegisterMinirdr </b>since some of the start processing requires that the driver initialization be completed. 
 
 When RDBSS receives an FSCTL or IOCTL request sent to network mini-redirector driver from user mode, RDBSS creates an RX_CONTEXT structure and passes this call to the network mini-redirector's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550709">MRxLowIOSubmit[LOWIO_OP_FSCTL]</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550715">MRxLowIOSubmit[LOWIO_OP_IOCTL]</a> call back routine defined in the MINIRDR_DISPATCH structure. The network mini-redirector's implementation of this call back routine would recognize the request to start and call <b>RxStartMinirdr</b>. This normal process of events is listed below in more detail:
 
@@ -230,9 +220,9 @@ The user-mode caller would not receive the STATUS_PENDING response but would be 
 
 </li>
 </ul>
-If a network mini-redirector indicates support for UNC when registering with RDBSS (the <i>Controls</i> parameter to <b>RxRegisterMinirdr</b>), then <b>RxStartMinirdr</b> will try to register the <i>DeviceName</i> parameter of the network mini-redirector as a UNC provider with MUP (RDBSS calls <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a> on behalf of the network mini-redirector).
+If a network mini-redirector indicates support for UNC when registering with RDBSS (the <i>Controls</i> parameter to <b>RxRegisterMinirdr</b>), then <b>RxStartMinirdr</b> will try to register the <i>DeviceName</i> parameter of the network mini-redirector as a UNC provider with MUP (RDBSS calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547178">FsRtlRegisterUncProvider</a> on behalf of the network mini-redirector).
 
-On versions of Windows prior to Windows Vista, <b>RxStartMinirdr</b> registers the file system with the I/O manager (RDBSS calls <a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a> on behalf of the network mini-redirector).
+On versions of Windows prior to Windows Vista, <b>RxStartMinirdr</b> registers the file system with the I/O manager (RDBSS calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548494">IoRegisterFileSystem</a> on behalf of the network mini-redirector).
 
 If the calls are successful, then <b>RxStartMinirdr</b> calls the network mini-redirector <b>MrxStart</b> routine. If <b>MrxStart</b> returns success, the internal state of the mini-redirector in RDBSS is set to RDBSS_STARTED. The <b>StartStopContext.Version</b> member of the mini-redirector device object will also be incremented.
 
@@ -245,51 +235,22 @@ On an abnormal termination or other failure, <b>RxStartMinirdr</b> will try to u
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
+<a href="https://msdn.microsoft.com/84155e3f-8090-4b0d-a101-25ecd126bc37">, RxpUnregisterMinirdr</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550715">MRxLowIOSubmit[LOWIO_OP_IOCTL]</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547178">FsRtlRegisterUncProvider</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">, RxpUnregisterMinirdr</a>
-
-
-
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_calldown_ctx.md">MRxStart</a>
-
-
-
-<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
-
-
-
-<a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548494">IoRegisterFileSystem</a>
 
 
 
@@ -297,8 +258,36 @@ On an abnormal termination or other failure, <b>RxStartMinirdr</b> will try to u
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550715">MRxLowIOSubmit[LOWIO_OP_IOCTL]</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554468">RxFsdDispatch</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554693">RxRegisterMinirdr</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554718">RxSetDomainForMailslotBroadcast</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554743">RxStopMinirdr</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554744">RxUnregisterMinirdr</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557374">__RxFillAndInstallFastIoDispatch</a>
  
 
  
-
 

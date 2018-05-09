@@ -7,7 +7,7 @@ old-location: kernel\rtllonglongtolong.htm
 old-project: kernel
 ms.assetid: B4E5BDF1-CB9A-4919-A73D-E660D2847470
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongLongToLong, RtlLongLongToLong function [Kernel-Mode Driver Architecture], kernel.rtllonglongtolong, ntintsafe/RtlLongLongToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlLongLongToLong
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlLongLongToLong function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>LONGLONG</b> to a value of type <b>LONG</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongLongToLong(
-  _In_  LONGLONG llOperand,
-  _Out_ LONG     *plResult
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: image\wiaswritemultiple.htm
 old-project: image
 ms.assetid: 7cd8ebb2-fc5a-49f5-8708-4b562d826278
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaswritemultiple, wiamdef/wiasWriteMultiple, wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiasWriteMultiple, wiasWriteMultiple function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasWriteMultiple
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasWriteMultiple function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasWriteMultiple </b>function writes multiple property values to a WIA item.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasWriteMultiple(
-  _In_       BYTE        *pWiasContext,
-             ULONG       ulCount,
-  _In_ const PROPSPEC    *ps,
-       const PROPVARIANT *pv
-);
-````
 
 
 ## -parameters
@@ -111,12 +98,11 @@ This function operates in a similar manner to <b>IPropertyStorage::WriteMultiple
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadmultiple.md">wiasReadMultiple</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549300">wiasReadMultiple</a>
  
 
  
-
 

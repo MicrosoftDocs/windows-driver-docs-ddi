@@ -7,7 +7,7 @@ old-location: spb\spb_transfer_list_init.htm
 old-project: SPB
 ms.assetid: 7FFFB495-7E6A-465C-AE93-B62957179531
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spb_transfer_list_init, SPB_TRANSFER_LIST_INIT, SPB_TRANSFER_LIST_INIT function [Buses], spb/SPB_TRANSFER_LIST_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Spb.h
 api_name:
 -	SPB_TRANSFER_LIST_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SPB_TRANSFER_LIST_INIT function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_TRANSFER_LIST_INIT</b> function initializes an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a> structure.
-
-
-## -syntax
-
-
-````
-VOID SPB_TRANSFER_LIST_INIT(
-  _Out_ SPB_TRANSFER_LIST *TransferList,
-  _In_  ULONG             TransferCount
-);
-````
 
 
 ## -parameters
@@ -99,7 +88,6 @@ To initialize the elements in the <b>SPB_TRANSFER_LIST</b> structure's <b>Transf
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406214">SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE</a>
 
 
 
@@ -107,16 +95,16 @@ To initialize the elements in the <b>SPB_TRANSFER_LIST</b> structure's <b>Transf
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406213">SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406202">SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406213">SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406214">SPB_TRANSFER_LIST_ENTRY_INIT_SIMPLE</a>
  
 
  
-
 

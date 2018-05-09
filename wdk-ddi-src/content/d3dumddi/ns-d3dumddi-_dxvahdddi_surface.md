@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_surface.htm
 old-project: display
 ms.assetid: a0bfc9bf-777e-4da4-9414-856ec650375d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_8032b044-07e9-4bb7-9367-1c3283bbf145.xml, DXVAHDDDI_SURFACE, DXVAHDDDI_SURFACE structure [Display Devices], _DXVAHDDDI_SURFACE, d3dumddi/DXVAHDDDI_SURFACE, display.dxvahdddi_surface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVAHDDDI_SURFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_SURFACE
 ---
@@ -50,17 +51,6 @@ req.typenames: DXVAHDDDI_SURFACE
 
 
 The DXVAHDDDI_SURFACE structure describes a surface. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_SURFACE {
-  HANDLE hResource;
-  UINT   SubResourceIndex;
-} DXVAHDDDI_SURFACE;
-````
 
 
 ## -struct-fields
@@ -82,27 +72,26 @@ typedef struct _DXVAHDDDI_SURFACE {
 
 
 
-DXVAHDDDI_SURFACE structures are used to describe surfaces in members of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a> and <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd.md">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structures in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a> function.
+DXVAHDDDI_SURFACE structures are used to describe surfaces in members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563066">DXVAHDDDI_STREAM_DATA</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543101">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structures in a call to the driver's <a href="https://msdn.microsoft.com/62451fc4-92cc-4553-80cc-0843cf734a62">VideoProcessBltHD</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_data.md">DXVAHDDDI_STREAM_DATA</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_videoprocessblthd.md">VideoProcessBltHD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543101">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd.md">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563066">DXVAHDDDI_STREAM_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/62451fc4-92cc-4553-80cc-0843cf734a62">VideoProcessBltHD</a>
  
 
  
-
 

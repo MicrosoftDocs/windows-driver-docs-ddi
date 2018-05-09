@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.RetrieveInputBuffer
-title: IWDFIoRequest2::RetrieveInputBuffer method
+title: IWDFIoRequest2::RetrieveInputBuffer
 author: windows-driver-content
 description: The RequestRetrieveInputBuffer method retrieves an I/O request's input buffer.
 old-location: wdf\iwdfiorequest2_retrieveinputbuffer.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f727d9b7-d7ea-4551-bc5a-7829f9807e02
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, RetrieveInputBuffer method, IWDFIoRequest2::RetrieveInputBuffer, RetrieveInputBuffer method, RetrieveInputBuffer method, IWDFIoRequest2 interface, RetrieveInputBuffer,IWDFIoRequest2.RetrieveInputBuffer, UMDFRequestObjectRef_d4e2aa27-329a-4438-8010-579f8a3a3363.xml, umdf.iwdfiorequest2_retrieveinputbuffer, wdf.iwdfiorequest2_retrieveinputbuffer, wudfddi/IWDFIoRequest2::RetrieveInputBuffer
+ms.keywords: IWDFIoRequest2 interface,RetrieveInputBuffer method, IWDFIoRequest2.RetrieveInputBuffer, IWDFIoRequest2::RetrieveInputBuffer, RetrieveInputBuffer, RetrieveInputBuffer method, RetrieveInputBuffer method,IWDFIoRequest2 interface, UMDFRequestObjectRef_d4e2aa27-329a-4438-8010-579f8a3a3363.xml, umdf.iwdfiorequest2_retrieveinputbuffer, wdf.iwdfiorequest2_retrieveinputbuffer, wudfddi/IWDFIoRequest2::RetrieveInputBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest2.RetrieveInputBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::RetrieveInputBuffer method
+# IWDFIoRequest2::RetrieveInputBuffer
 
 
 ## -description
@@ -52,19 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">RequestRetrieveInputBuffer</a> method retrieves an I/O request's input buffer.
-
-
-## -syntax
-
-
-````
-HRESULT RetrieveInputBuffer(
-  [in]            SIZE_T MinimumRequiredCb,
-  [out]           PVOID  *Buffer,
-  [out, optional] SIZE_T *BufferCb
-);
-````
+The <a href="https://msdn.microsoft.com/fa02a787-502c-48a3-a5e1-710d7513c42e">RequestRetrieveInputBuffer</a> method retrieves an I/O request's input buffer.
 
 
 ## -parameters
@@ -92,7 +80,7 @@ A pointer to a location that receives the buffer's size, in bytes. This paramete
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">RequestRetrieveInputBuffer</a> returns S_OK if the operation succeeds. Otherwise, this method can return the following value:
+<a href="https://msdn.microsoft.com/fa02a787-502c-48a3-a5e1-710d7513c42e">RequestRetrieveInputBuffer</a> returns S_OK if the operation succeeds. Otherwise, this method can return the following value:
 
 <table>
 <tr>
@@ -137,15 +125,15 @@ This method might return one of the other values that Winerror.h contains.
 
 
 
-A request's input buffer contains information, such as data to be written to a disk, that the originator of the request supplied. Your driver can call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">RequestRetrieveInputBuffer</a> to obtain the input buffer for a write request or a device I/O control request, but not for a read request (because read requests do not provide input data).
+A request's input buffer contains information, such as data to be written to a disk, that the originator of the request supplied. Your driver can call <a href="https://msdn.microsoft.com/fa02a787-502c-48a3-a5e1-710d7513c42e">RequestRetrieveInputBuffer</a> to obtain the input buffer for a write request or a device I/O control request, but not for a read request (because read requests do not provide input data).
 
-The <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">RequestRetrieveInputBuffer</a> method retrieves the input buffer for I/O requests that use the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">buffered I/O</a> or <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">direct I/O</a> method for accessing data buffers.
+The <a href="https://msdn.microsoft.com/fa02a787-502c-48a3-a5e1-710d7513c42e">RequestRetrieveInputBuffer</a> method retrieves the input buffer for I/O requests that use the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">buffered I/O</a> or <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">direct I/O</a> method for accessing data buffers.
 
-If <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">RequestRetrieveInputBuffer</a> returns S_OK, the driver receives the address and, optionally, the size of the input buffer. 
+If <a href="https://msdn.microsoft.com/fa02a787-502c-48a3-a5e1-710d7513c42e">RequestRetrieveInputBuffer</a> returns S_OK, the driver receives the address and, optionally, the size of the input buffer. 
 
 The driver can access the retrieved buffer until it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">completes</a> the I/O request.
 
-Instead of calling <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">RequestRetrieveInputBuffer</a>, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>, which creates a framework memory object that represents the buffer.
+Instead of calling <a href="https://msdn.microsoft.com/fa02a787-502c-48a3-a5e1-710d7513c42e">RequestRetrieveInputBuffer</a>, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>, which creates a framework memory object that represents the buffer.
 
 For more information about accessing an I/O request's data buffers, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in UMDF-Based Drivers</a>.
 
@@ -201,11 +189,14 @@ STDMETHODCALLTYPE
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
 
 
 
@@ -217,16 +208,12 @@ STDMETHODCALLTYPE
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
-
-
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: netvista\protocolcooidrequest.htm
 old-project: netvista
 ms.assetid: 8247396f-8781-45da-aba1-a31a2a26a46f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PROTOCOL_CO_OID_REQUEST, ProtocolCoOidRequest, ProtocolCoOidRequest callback function [Network Drivers Starting with Windows Vista], condis_request_ref_b02b012f-58cc-4dd6-be48-6e1cc4f00b24.xml, ndis/ProtocolCoOidRequest, netvista.protocolcooidrequest
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CO_OID_REQUEST, PROTOCOL_CO_OID_REQUEST callback, ProtocolCoOidRequest, ProtocolCoOidRequest callback function [Network Drivers Starting with Windows Vista], condis_request_ref_b02b012f-58cc-4dd6-be48-6e1cc4f00b24.xml, ndis/ProtocolCoOidRequest, netvista.protocolcooidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCoOidRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CO_OID_REQUEST callback
+# PROTOCOL_CO_OID_REQUEST callback function
 
 
 ## -description
@@ -52,27 +53,11 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 The 
   <i>ProtocolCoOidRequest</i> function handles OID requests that CoNDIS clients or stand-alone call managers
   initiate by calls to the 
-  <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> function or that a
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a> function or that a
   miniport call manager (MCM) driver initiates by calls to the 
-  <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a> function.
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff563548">NdisMCmOidRequest</a> function.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CO_OID_REQUEST</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CO_OID_REQUEST ProtocolCoOidRequest;
-
-NDIS_STATUS ProtocolCoOidRequest(
-  _In_    NDIS_HANDLE       ProtocolAfContext,
-  _In_    NDIS_HANDLE       ProtocolVcContext,
-  _In_    NDIS_HANDLE       ProtocolPartyContext,
-  _Inout_ PNDIS_OID_REQUEST OidRequest
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -83,10 +68,10 @@ NDIS_STATUS ProtocolCoOidRequest(
 
 A handle that identifies an address family (AF) context area. If the driver is a client, it
      supplied this handle when it called the 
-     <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">
+     <a href="https://msdn.microsoft.com/54170917-60b4-4d8f-bf92-df7d7dc0faee">
      NdisClOpenAddressFamilyEx</a> function to connect itself to the call manager. If the driver is a call
      manager, it supplied this handle from its 
-     <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function.
+     <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function.
 
 
 ### -param ProtocolVcContext [in]
@@ -104,7 +89,7 @@ A handle that identifies the party on a multipoint VC to query or set informatio
 ### -param OidRequest [in, out]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that contains
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that contains
      both the buffer and the request packet for the target driver to handle. Depending on the request, the
      driver returns requested information in the structure that 
      <i>OidRequest</i> points to.
@@ -140,9 +125,9 @@ The client or call manager carried out the requested operation.
 </td>
 <td width="60%">
 The client, or call manager is handling this request asynchronously, and it will call the 
-       <a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">
+       <a href="https://msdn.microsoft.com/ba4a22a1-ad48-43f1-96f5-dee5d76e49cb">
        NdisCoOidRequestComplete</a> function or the 
-       <a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">
+       <a href="https://msdn.microsoft.com/4c45be9f-3d07-4150-830a-3aa6d74531ff">
        NdisMCmOidRequestComplete</a> function when the requested operation is complete.
 
 </td>
@@ -155,11 +140,11 @@ The client, or call manager is handling this request asynchronously, and it will
 </td>
 <td width="60%">
 The driver is failing the request because the caller of the 
-       <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> or 
-       <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a> function did not
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a> or 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff563548">NdisMCmOidRequest</a> function did not
        supply an adequate value for the 
        <b>InformationBuffer</b> member of the 
-       <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure for the given
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure for the given
        request. The driver set the 
        <b>BytesNeeded</b> member of NDIS_OID_REQUEST in the buffer at the 
        <i>OidRequest</i> parameter to the OID-specific value of the 
@@ -205,13 +190,13 @@ The client or call manager failed this request because it did not recognize the 
 The 
     <i>ProtocolCoOidRequest</i> function is required for CoNDIS clients, call managers, and MCMs. 
     <i>ProtocolCoOidRequest</i> is similar to the miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a> function.
+    <a href="https://msdn.microsoft.com/903bcdc5-9d42-4067-a054-057edc95ccf7">MiniportCoOidRequest</a> function.
 
 CoNDIS clients and call managers send information to each other by specifying a non-<b>NULL</b> value in the 
     <i>NdisAfHandle</i> parameter when they call the 
-    <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> function. Similarly,
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a> function. Similarly,
     MCMs call the 
-    <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a> with explicit values
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563548">NdisMCmOidRequest</a> with explicit values
     for 
     <i>NdisAfHandle</i> to communicate information to clients. Such calls to 
     <b>NdisCoOidRequest</b> or 
@@ -221,13 +206,13 @@ CoNDIS clients and call managers send information to each other by specifying a 
 
 To register 
     <i>ProtocolCoOidRequest</i> as a client, a driver initializes an 
-    <a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+    <a href="https://msdn.microsoft.com/1f2285bb-be70-4496-905d-89106bf3712a">
     NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a> structure and passes it at the 
     <i>OptionalHandlers</i> parameter of the 
-    <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function.
     To register 
     <i>ProtocolCoOidRequest</i> as a call manager, a driver initializes an 
-    <a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+    <a href="https://msdn.microsoft.com/12d541e1-04dd-4512-827e-d27f16260fe3">
     NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a> structure and passes it at the 
     <i>OptionalHandlers</i> parameter.
 
@@ -244,18 +229,18 @@ If the
 The buffer at the 
     <i>OidRequest</i> parameter was allocated from nonpaged pool and is, therefore, accessible at raised IRQL.
     The caller of 
-    <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>(or 
-    <a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>) must release this
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a>(or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563548">NdisMCmOidRequest</a>) must release this
     buffer and the internal buffer at the 
     <b>InformationBuffer</b> member of the 
-    <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that 
     <i>OidRequest</i> points to.
 
 If 
     <i>ProtocolCoOidRequest</i> returns NDIS_STATUS_PENDING, the driver must subsequently call the 
-    <a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">
+    <a href="https://msdn.microsoft.com/ba4a22a1-ad48-43f1-96f5-dee5d76e49cb">
     NdisCoOidRequestComplete</a> function, or the 
-    <a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">
+    <a href="https://msdn.microsoft.com/4c45be9f-3d07-4150-830a-3aa6d74531ff">
     NdisMCmOidRequestComplete</a> function for an MCM driver, when the driver completes the request.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
@@ -302,54 +287,53 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_co_call_manager_optional_handlers.md">
+
+
+
+<a href="https://msdn.microsoft.com/903bcdc5-9d42-4067-a054-057edc95ccf7">MiniportCoOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/12d541e1-04dd-4512-827e-d27f16260fe3">
    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscooidrequestcomplete.md">NdisCoOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmoidrequestcomplete.md">NdisMCmOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_co_oid_request.md">MiniportCoOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_co_client_optional_handlers.md">
+<a href="https://msdn.microsoft.com/1f2285bb-be70-4496-905d-89106bf3712a">
    NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561716">NdisCoOidRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563548">NdisMCmOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563551">NdisMCmOidRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
+
+
+
+<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
  
 
  
-
 

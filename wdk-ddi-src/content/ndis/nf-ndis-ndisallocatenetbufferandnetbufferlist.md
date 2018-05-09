@@ -7,7 +7,7 @@ old-location: netvista\ndisallocatenetbufferandnetbufferlist.htm
 old-project: netvista
 ms.assetid: b872eff3-2d0a-4f01-874d-e00e09195801
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisAllocateNetBufferAndNetBufferList, NdisAllocateNetBufferAndNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferAndNetBufferList, ndis_netbuf_functions_ref_47bf06b7-b76e-42a0-bf16-b3942fde8eb9.xml, netvista.ndisallocatenetbufferandnetbufferlist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisAllocateNetBufferAndNetBufferList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisAllocateNetBufferAndNetBufferList function
@@ -52,24 +53,9 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisAllocateNetBufferAndNetBufferList</b> function to allocate and initialize a 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that is initialized
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that is initialized
   with a preallocated 
-  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
-
-
-## -syntax
-
-
-````
-PNET_BUFFER_LIST NdisAllocateNetBufferAndNetBufferList(
-  _In_     NDIS_HANDLE PoolHandle,
-  _In_     USHORT      ContextSize,
-  _In_     USHORT      ContextBackFill,
-  _In_opt_ PMDL        MdlChain,
-  _In_     ULONG       DataOffset,
-  _In_     SIZE_T      DataLength
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ## -parameters
@@ -80,10 +66,10 @@ PNET_BUFFER_LIST NdisAllocateNetBufferAndNetBufferList(
 ### -param PoolHandle [in]
 
 A NET_BUFFER_LIST structure pool handle that was previously returned from the 
-     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+     <a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
      NdisAllocateNetBufferListPool</a> function. The 
      <b>fAllocateNetBuffer</b> member of the 
-     <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that the caller passed to 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/hh205394">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that the caller passed to 
      <b>NdisAllocateNetBufferListPool</b> must have been set to <b>TRUE</b> and the 
      <b>DataSize</b> member set to zero.
 
@@ -92,7 +78,7 @@ A NET_BUFFER_LIST structure pool handle that was previously returned from the
 
 The amount of 
      <i>used data space</i> in the 
-     <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a> structure
      to reserve for the caller. The 
      <i>ContextSize</i> must be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
 
@@ -146,26 +132,26 @@ The length, in bytes, of the
 
 The structures that the 
     <b>NdisAllocateNetBufferAndNetBufferList</b> function allocates must come from a pool that includes 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are paired
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that are paired
     with preallocated 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures. To create such a pool, you
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures. To create such a pool, you
     must call the 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+    <a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
     NdisAllocateNetBufferListPool</a> function with the 
     <b>fAllocateNetBuffer</b> member of the 
-    <a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure set to <b>TRUE</b>, and the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh205394">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure set to <b>TRUE</b>, and the 
     <b>DataSize</b> member set to zero.
 
-<div class="alert"><b>Note</b>  <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> and 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures must be allocated
+<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> and 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures must be allocated
     from an NDIS buffer pool. A driver must not allocate and initialize a <b>NET_BUFFER_LIST</b> or <b>NET_BUFFER</b>
     structure from its private memory pool or the stack.</div>
 <div> </div>
 Call the 
-    <a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a> function to
-    free a <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562583">NdisFreeNetBufferList</a> function to
+    free a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
-The preallocated <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> can be reused by reinitializing it with another MDL chain when it owns
+The preallocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> can be reused by reinitializing it with another MDL chain when it owns
     <b>NET_BUFFER</b>, but the 
     <i>DataOffset</i>, 
     <i>DataLength</i>, 
@@ -177,11 +163,11 @@ For example, if the original MDL chain contains <i>X</i>
 <i>DataOffset</i>, and 
     <i>CurrentMdl</i> starts with the second MDL (<i>M</i>) in the original MDL chain, 
     <i>CurrentMdlOffset</i> is <i>Z</i>. The 
-    <i>MdlChain</i> field in <a href="..\ndis\ns-ndis-_net_buffer_data.md">NET_BUFFER_DATA</a> then needs to point to a new MDL chain that contains <i>X'</i>
+    <i>MdlChain</i> field in <a href="https://msdn.microsoft.com/library/windows/hardware/ff568381">NET_BUFFER_DATA</a> then needs to point to a new MDL chain that contains <i>X'</i>
 <i>DataLength</i> and <i>Y'</i>
 <i>DataOffset</i>. If 
     <i>CurrentMdl</i> starts with the third MDL (<i>M'</i>) in the new MDL chain, 
-    <i>CurrentMdlOffset</i> is <i>Z'</i>, and the following macros need to be used to set fields in <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>:
+    <i>CurrentMdlOffset</i> is <i>Z'</i>, and the following macros need to be used to set fields in <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -202,33 +188,32 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';</pre>
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh205394">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
    NdisAllocateNetBufferListPool</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562583">NdisFreeNetBufferList</a>
  
 
  
-
 

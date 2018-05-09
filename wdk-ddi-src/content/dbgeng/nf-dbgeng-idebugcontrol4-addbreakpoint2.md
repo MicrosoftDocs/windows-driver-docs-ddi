@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.AddBreakpoint2
-title: IDebugControl4::AddBreakpoint2 method
+title: IDebugControl4::AddBreakpoint2
 author: windows-driver-content
 description: The AddBreakpoint2 method creates a new breakpoint for the current target.
 old-location: debugger\addbreakpoint2.htm
 old-project: debugger
 ms.assetid: 001a64dd-1470-42e0-98ba-22ba33f3fa69
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: AddBreakpoint2 method [Windows Debugging], AddBreakpoint2 method [Windows Debugging], IDebugControl4 interface, AddBreakpoint2,IDebugControl4.AddBreakpoint2, IDebugControl4, IDebugControl4 interface [Windows Debugging], AddBreakpoint2 method, IDebugControl4::AddBreakpoint2, dbgeng/IDebugControl4::AddBreakpoint2, debugger.addbreakpoint2
+ms.date: 4/24/2018
+ms.keywords: AddBreakpoint2, AddBreakpoint2 method [Windows Debugging], AddBreakpoint2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AddBreakpoint2 method, IDebugControl4.AddBreakpoint2, IDebugControl4::AddBreakpoint2, dbgeng/IDebugControl4::AddBreakpoint2, debugger.addbreakpoint2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugControl4.AddBreakpoint2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::AddBreakpoint2 method
+# IDebugControl4::AddBreakpoint2
 
 
 ## -description
 
 
 The <b>AddBreakpoint2</b>  method creates a new breakpoint for the current target.
-
-
-## -syntax
-
-
-````
-HRESULT AddBreakpoint2(
-  [in]  ULONG            Type,
-  [in]  ULONG            DesiredId,
-  [out] IDebugBreakpoint **Bp
-);
-````
 
 
 ## -parameters
@@ -161,26 +150,13 @@ Breakpoints are created empty and disabled.  See <a href="https://msdn.microsoft
 
 The client is saved as the adder of the new breakpoint. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff545576">GetAdder</a>. 
 
-<div class="alert"><b>Note</b>    Even though <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a> extends the COM interface <b>IUnknown</b>, the lifetime of the breakpoint is not controlled using the <b>IUnknown</b> interface.  Instead, the breakpoint is deleted after <a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a> is called.</div>
+<div class="alert"><b>Note</b>    Even though <a href="https://msdn.microsoft.com/library/windows/hardware/ff549812">IDebugBreakpoint</a> extends the COM interface <b>IUnknown</b>, the lifetime of the breakpoint is not controlled using the <b>IUnknown</b> interface.  Instead, the breakpoint is deleted after <a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a> is called.</div>
 <div> </div>
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -188,8 +164,20 @@ The client is saved as the adder of the new breakpoint. See <a href="https://msd
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549812">IDebugBreakpoint</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>
  
 
  
-
 

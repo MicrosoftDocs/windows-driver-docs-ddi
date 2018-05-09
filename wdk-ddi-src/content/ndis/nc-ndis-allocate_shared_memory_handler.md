@@ -7,8 +7,8 @@ old-location: netvista\netallocatesharedmemory.htm
 old-project: netvista
 ms.assetid: d85b4f28-707b-4525-afd8-83e1ceb2674e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ALLOCATE_SHARED_MEMORY_HANDLER, NetAllocateSharedMemory, NetAllocateSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetAllocateSharedMemory, ndis_shared_memory_ref_8830fb4b-2e73-4994-91c6-a885d1c0ef74.xml, netvista.netallocatesharedmemory
+ms.date: 4/25/2018
+ms.keywords: ALLOCATE_SHARED_MEMORY_HANDLER, ALLOCATE_SHARED_MEMORY_HANDLER callback, NetAllocateSharedMemory, NetAllocateSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetAllocateSharedMemory, ndis_shared_memory_ref_8830fb4b-2e73-4994-91c6-a885d1c0ef74.xml, netvista.netallocatesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	NetAllocateSharedMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# ALLOCATE_SHARED_MEMORY_HANDLER callback
+# ALLOCATE_SHARED_MEMORY_HANDLER callback function
 
 
 ## -description
@@ -52,21 +53,6 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 The 
   <i>NetAllocateSharedMemory</i> function (ALLOCATE_SHARED_MEMORY_HANDLER entry point) is called by NDIS when
   a driver allocates shared memory from a shared memory provider.
-
-
-## -prototype
-
-
-````
-ALLOCATE_SHARED_MEMORY_HANDLER NetAllocateSharedMemory;
-
-NDIS_STATUS NetAllocateSharedMemory(
-  _In_    NDIS_HANDLE                    ProviderContext,
-  _In_    PNDIS_SHARED_MEMORY_PARAMETERS SharedMemoryParameters,
-  _Inout_ PNDIS_HANDLE                   pSharedMemoryProviderContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -79,14 +65,14 @@ NDIS_STATUS NetAllocateSharedMemory(
 An NDIS_HANDLE to a block of driver-allocated context information that identifies the provider.
      The provider supplied this information in the 
      <b>ProviderContext</b> member of the 
-     <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+     <a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
      NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
 ### -param SharedMemoryParameters [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">
+     <a href="https://msdn.microsoft.com/286b08f6-179e-426e-ae65-b108529d049a">
      NDIS_SHARED_MEMORY_PARAMETERS</a> structure that defines the requested attributes for the shared
      memory.
 
@@ -164,12 +150,12 @@ The operation failed for unspecified reasons.
 
 NDIS calls the 
     <i>NetAllocateSharedMemory</i> function of a shared memory provider when a driver calls the 
-    <a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">
+    <a href="https://msdn.microsoft.com/1e4919df-7897-44c3-876f-0f1acfe6d5af">
     NdisAllocateSharedMemory</a> function.
 
 The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HANDLER) for 
     <i>NetAllocateSharedMemory</i> in the 
-    <a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+    <a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
@@ -177,21 +163,20 @@ The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HAN
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatesharedmemory.md">NdisAllocateSharedMemory</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567303">NDIS_SHARED_MEMORY_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_provider_characteristics.md">
+<a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561616">NdisAllocateSharedMemory</a>
  
 
  
-
 

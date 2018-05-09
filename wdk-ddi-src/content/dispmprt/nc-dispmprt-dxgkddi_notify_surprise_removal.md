@@ -7,8 +7,8 @@ old-location: display\dxgkddinotifysurpriseremoval.htm
 old-project: display
 ms.assetid: 4e6403e7-7463-479a-8be9-4136287b375e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_NOTIFY_SURPRISE_REMOVAL, DxgkDdiNotifySurpriseRemoval, DxgkDdiNotifySurpriseRemoval callback function [Display Devices], display.dxgkddinotifysurpriseremoval, dispmprt/DxgkDdiNotifySurpriseRemoval
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_NOTIFY_SURPRISE_REMOVAL, DXGKDDI_NOTIFY_SURPRISE_REMOVAL callback, DxgkDdiNotifySurpriseRemoval, DxgkDdiNotifySurpriseRemoval callback function [Display Devices], display.dxgkddinotifysurpriseremoval, dispmprt/DxgkDdiNotifySurpriseRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DxgkDdiNotifySurpriseRemoval
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_NOTIFY_SURPRISE_REMOVAL callback
+# DXGKDDI_NOTIFY_SURPRISE_REMOVAL callback function
 
 
 ## -description
@@ -54,20 +55,6 @@ Called by the operating system after a user disconnected an external display dev
 
 
 
-## -prototype
-
-
-````
-DXGKDDI_NOTIFY_SURPRISE_REMOVAL DxgkDdiNotifySurpriseRemoval;
-
-_Check_return_ NTSTATUS* DxgkDdiNotifySurpriseRemoval(
-  _In_ PVOID                      MiniportDeviceContext,
-  _In_ DXGK_SURPRISE_REMOVAL_TYPE RemovalType
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,12 +62,12 @@ _Check_return_ NTSTATUS* DxgkDdiNotifySurpriseRemoval(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ### -param RemovalType [in]
 
-A value of type <a href="..\dispmprt\ne-dispmprt-_dxgk_surprise_removal_type.md">DXGK_SURPRISE_REMOVAL_TYPE</a> that identifies the type of surprise removal event.
+A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh780313">DXGK_SURPRISE_REMOVAL_TYPE</a> that identifies the type of surprise removal event.
 
 
 ## -returns
@@ -97,24 +84,19 @@ A value of type <a href="..\dispmprt\ne-dispmprt-_dxgk_surprise_removal_type.md"
 
 
 
-The operating system calls <i>DxgkDdiNotifySurpriseRemoval</i> only if the display miniport driver indicates support by setting the <b>SupportSurpriseRemovalInHibernation</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure to 1.
+The operating system calls <i>DxgkDdiNotifySurpriseRemoval</i> only if the display miniport driver indicates support by setting the <b>SupportSurpriseRemovalInHibernation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a> structure to 1.
 
 <div class="alert"><b>Note</b>  This function is called only if the disconnected external display device was in hibernation mode. This is indicated by <i>RemovalType</i> = <b>DxgkRemovalHibernation</b>, the only available value.</div>
 <div> </div>
 If the display miniport driver returns <b>STATUS_SUCCESS</b>, the DirectX graphics kernel subsystem will continue to remove the  external display adapter from the graphics stack and will call other driver-implemented <i>DxgkDdiXxx</i> kernel-mode functions to release all resources. In this case, the driver must complete its cleanup of software resources in response to calls from the operating system but must not touch or clean any hardware settings. If no other hardware is using the driver, the operating system will unload the driver.
 
-If the driver returns an error code, does not set <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>.<b>SupportSurpriseRemovalInHibernation</b>, or does not implement this function, the DirectX graphics kernel subsystem  will not call any more driver-implemented <i>DxgkDdiXxx</i> functions and will attempt to reboot the system. In this case, the resource that was allocated before the external display device was disconnected will not be released.
+If the driver returns an error code, does not set <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>.<b>SupportSurpriseRemovalInHibernation</b>, or does not implement this function, the DirectX graphics kernel subsystem  will not call any more driver-implemented <i>DxgkDdiXxx</i> functions and will attempt to reboot the system. In this case, the resource that was allocated before the external display device was disconnected will not be released.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
@@ -122,12 +104,16 @@ If the driver returns an error code, does not set <a href="..\d3dkmddi\ns-d3dkmd
 
 
 
-<a href="..\dispmprt\ne-dispmprt-_dxgk_surprise_removal_type.md">DXGK_SURPRISE_REMOVAL_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780313">DXGK_SURPRISE_REMOVAL_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  
-
 

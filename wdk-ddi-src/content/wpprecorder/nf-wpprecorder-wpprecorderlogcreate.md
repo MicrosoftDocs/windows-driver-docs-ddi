@@ -38,10 +38,10 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	imp_WppRecorderLogCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WppRecorderLogCreate macro
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderlogcreate.md">WppRecorderLogCreate</a> method creates a buffer to contain the recorder log.
-
-
-## -syntax
-
-
-````
-NTSTATUS imp_WppRecorderLogCreate(
-   NULL CreateParams,
-   NULL RecorderLog
-);
-````
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914615">WppRecorderLogCreate</a> method creates a buffer to contain the recorder log.
 
 
 ## -parameters
@@ -83,9 +72,9 @@ A handle for the recorder log.
 
 
 
-Before calling <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderlogcreate.md">WppRecorderLogCreate</a>, allocate a <a href="..\wpprecorder\ns-wpprecorder-_recorder_log_create_params.md">RECORDER_LOG_CREATE_PARAMS</a> structure and initialize by calling <a href="..\wpprecorder\nf-wpprecorder-recorder_log_create_params_init.md">RECORDER_LOG_CREATE_PARAMS_INIT</a>.
+Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn914615">WppRecorderLogCreate</a>, allocate a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914608">RECORDER_LOG_CREATE_PARAMS</a> structure and initialize by calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn914609">RECORDER_LOG_CREATE_PARAMS_INIT</a>.
 
-You must first call <a href="https://msdn.microsoft.com/library/windows/hardware/ff556191">WPP_INIT_TRACING</a> before calling <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderlogcreate.md">WppRecorderLogCreate</a>. Default values are used unless the members of <i>CreateParams</i> are modified before calling <b>WppRecorderLogCreate</b>.
+You must first call <a href="https://msdn.microsoft.com/library/windows/hardware/ff556191">WPP_INIT_TRACING</a> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn914615">WppRecorderLogCreate</a>. Default values are used unless the members of <i>CreateParams</i> are modified before calling <b>WppRecorderLogCreate</b>.
 
 If a successful NTSTATUS is returned, the driver can use the <i>RecorderLog</i> handle for logging. 
 

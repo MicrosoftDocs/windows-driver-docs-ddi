@@ -7,7 +7,7 @@ old-location: display\d3dkmt_offerallocations.htm
 old-project: display
 ms.assetid: 6f6df55d-bb23-4a70-97f4-32809d1a41a5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS structure [Display Devices], _D3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMT_OFFERALLOCATIONS, display.d3dkmt_offerallocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_OFFERALLOCATIONS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_OFFERALLOCATIONS
 ---
@@ -49,21 +50,7 @@ req.typenames: D3DKMT_OFFERALLOCATIONS
 ## -description
 
 
-Defines the video memory allocations that the driver offers for reuse. Used with the  <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>  function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OFFERALLOCATIONS {
-  D3DKMT_HANDLE         hDevice;
-  D3DKMT_HANDLE         *pResources;
-  const D3DKMT_HANDLE   *HandleList;
-  UINT                  NumAllocations;
-  D3DKMT_OFFER_PRIORITY Priority;
-} D3DKMT_OFFERALLOCATIONS;
-````
+Defines the video memory allocations that the driver offers for reuse. Used with the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439402">D3DKMTOfferAllocations</a>  function.
 
 
 ## -struct-fields
@@ -97,7 +84,7 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 
 ### -field Priority
 
-[in] The priority, of type  <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_offer_priority.md">D3DKMT_OFFER_PRIORITY</a>, with which to offer the allocations for reuse.
+[in] The priority, of type  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406486">D3DKMT_OFFER_PRIORITY</a>, with which to offer the allocations for reuse.
 
 
 ### -field Flags
@@ -109,16 +96,15 @@ If resources were created with the <b>D3D10_DDI_BIND_PRESENT</b> flag value set 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtofferallocations.md">D3DKMTOfferAllocations</a>
 
 
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_offer_priority.md">D3DKMT_OFFER_PRIORITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439402">D3DKMTOfferAllocations</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406486">D3DKMT_OFFER_PRIORITY</a>
  
 
  
-
 

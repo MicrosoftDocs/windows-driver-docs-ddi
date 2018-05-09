@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.EnumOptions
-title: IPrintCoreHelperPS::EnumOptions method
+title: IPrintCoreHelperPS::EnumOptions
 author: windows-driver-content
 description: The IPrintCoreHelperPS::EnumOptions method gets a list of available options for the given feature.
 old-location: print\iprintcorehelperps_enumoptions.htm
 old-project: print
 ms.assetid: bd23f4e6-7a99-4347-ae29-a1e832db2e03
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnumOptions method [Print Devices], EnumOptions method [Print Devices], IPrintCoreHelperPS interface, EnumOptions,IPrintCoreHelperPS.EnumOptions, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], EnumOptions method, IPrintCoreHelperPS::EnumOptions, prcomoem/IPrintCoreHelperPS::EnumOptions, print.iprintcorehelperps_enumoptions, print_unidrv-pscript_allplugins_89c5ea61-aedf-43c6-9a8b-020656476f35.xml
+ms.date: 4/20/2018
+ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],EnumOptions method, IPrintCoreHelperPS.EnumOptions, IPrintCoreHelperPS::EnumOptions, prcomoem/IPrintCoreHelperPS::EnumOptions, print.iprintcorehelperps_enumoptions, print_unidrv-pscript_allplugins_89c5ea61-aedf-43c6-9a8b-020656476f35.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreHelperPS.EnumOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperPS::EnumOptions method
+# IPrintCoreHelperPS::EnumOptions
 
 
 ## -description
 
 
 The <b>IPrintCoreHelperPS::EnumOptions</b> method gets a list of available options for the given feature. 
-
-
-## -syntax
-
-
-````
-STDMETHOD EnumOptions(
-  [in]  PCSTR pszFeatureKeyword,
-  [out] PCSTR *pOptionList[],
-  [out] DWORD *pdwNumOptions
-);
-````
 
 
 ## -parameters
@@ -110,11 +98,10 @@ When <b>IPrintCoreHelperPS::EnumOptions</b> returns, the option list contains al
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551977">IPrintCoreHelperPS::EnumFeatures</a>
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
+<a href="https://msdn.microsoft.com/2be594f1-1eb1-42e0-a345-ee7edf4d96dd">IPrintCoreHelperPS</a>
 
 
 
@@ -122,8 +109,8 @@ When <b>IPrintCoreHelperPS::EnumOptions</b> returns, the option list contains al
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551977">IPrintCoreHelperPS::EnumFeatures</a>
  
 
  
-
 

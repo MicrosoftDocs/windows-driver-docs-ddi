@@ -1,0 +1,68 @@
+---
+UID: NE:d3d12umddi.D3D12DDI_CROSS_NODE_SHARING_TIER
+title: D3D12DDI_CROSS_NODE_SHARING_TIER
+author: windows-driver-content
+description:
+ms.assetid: 1cbcab78-491b-42a7-ad10-71a64fe61902
+ms.author: windowsdriverdev
+ms.date:
+ms.topic: enum
+ms.keywords: D3D12DDI_CROSS_NODE_SHARING_TIER, D3D12DDI_CROSS_NODE_SHARING_TIER,
+ms.prod: windows-hardware
+ms.technology: windows-devices
+req.header: d3d12umddi.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.max-support:
+req.typenames: D3D12DDI_CROSS_NODE_SHARING_TIER
+topictype:
+-	apiref
+apitype:
+-	HeaderDef
+apilocation:
+-	d3d12umddi.h
+apiname:
+-	D3D12DDI_CROSS_NODE_SHARING_TIER
+product: Windows
+targetos: Windows
+---
+
+# D3D12DDI_CROSS_NODE_SHARING_TIER enumeration
+
+## -description
+
+Specifies the level of sharing across nodes of a display adapter.
+
+## -enum-fields
+
+### -field D3D12DDI_CROSS_NODE_SHARING_TIER_NOT_SUPPORTED
+
+Cross-node sharing does not apply.
+
+### -field D3D12DDI_CROSS_NODE_SHARING_TIER_1_EMULATED
+
+Emulated. Drivers stage these copy operations through a driver-internal system memory allocation. This will cause these copy operations to consume time on the destination GPU as well as the source.
+
+### -field D3D12DDI_CROSS_NODE_SHARING_TIER_1
+
+When set to Tier 1, drivers only support copy buffer region, copy texture region, and copy resource. The cross-node resource must be the destination of the copy region.
+
+### -field D3D12DDI_CROSS_NODE_SHARING_TIER_2
+
+All operations across nodes are supported except render target views, depth stencil views, and UAV atomic operations.
+
+### -field D3D12DDI_CROSS_NODE_SHARING_TIER_0041_3
+
+Supports cross-node sharing capabilities beyond Tier 2.
+
+## -remarks
+
+The latest cap data structures must be filled in by the driver when the corresponding DDI version is used. The driver may also detect which version of each cap-check occurs by the DataSize value passed along with each cap-query.
+Tiled resources tier 4 cannot be supported directly by setting tiled resources tier 4. Instead, set support for the Deterministic64KBUndefinedSwizzle cap.
+
+## -see-also

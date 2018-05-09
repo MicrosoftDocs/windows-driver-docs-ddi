@@ -7,7 +7,7 @@ old-location: display\dxgk_inherited_timing_info.htm
 old-project: display
 ms.assetid: 8A5CB3A6-970C-448D-8808-F072EE67BCA3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices], PDXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], _DXGK_INHERITED_TIMING_INFO, d3dkmddi/DXGK_INHERITED_TIMING_INFO, d3dkmddi/PDXGK_INHERITED_TIMING_INFO, display.dxgk_inherited_timing_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_INHERITED_TIMING_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO
 ---
@@ -52,29 +53,19 @@ req.typenames: DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO
 Structure passed to the driver in the pPrivateDriverData argument of DxgkDdiRecommendFunctionalVidPn, which the driver should use to describe the color space and wire format which cannot be described easily in the VidPn the DDI builds
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_INHERITED_TIMING_INFO {
-  D3DDDI_COLOR_SPACE_TYPE            OutputColorSpace;
-  D3DKMDT_WIRE_FORMAT_AND_PREFERENCE SelectedWireFormat;
-  union {
-    struct {
-      DXGK_GLITCH_CAUSE    GlitchCause;
-      DXGK_GLITCH_EFFECT   GlitchEffect;
-      DXGK_GLITCH_DURATION GlitchDuration;
-      UINT8                Reserved;
-    };
-    UINT DiagnosticInfo;
-  };
-} DXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO;
-````
-
-
 ## -struct-fields
 
 
+
+
+### -field OutputColorSpace
+
+A D3DDDI_COLOR_SPACE_TYPE value which describes the output color space currently being applied for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
+
+
+### -field OutputWireColorSpace
+
+ 
 
 
 ### -field SelectedWireFormat
@@ -102,7 +93,7 @@ A DXGK_GLITCH_DURATION value which indicates approximately how long the glitch l
 This value is reserved for system use.
 
 
-#### - DiagnosticInfo
+### -field DiagnosticInfo
 
 Set of information filled out by the driver for the boot display to describe any side-effects of the DxgkDdiStartDevice.  
 
@@ -110,9 +101,4 @@ Set of information filled out by the driver for the boot display to describe any
 
 In many cases, glitches are inevitable so these fields attempt to understand the underlying cause and the extend of the user impact.  OEMs and customers often complain about glitches during boot so having the driver report the glitch to the OS should help to investigate such issues quickly.
 
-
-
-#### - OutputColorSpace
-
-A D3DDDI_COLOR_SPACE_TYPE value which describes the output color space currently being applied for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
 

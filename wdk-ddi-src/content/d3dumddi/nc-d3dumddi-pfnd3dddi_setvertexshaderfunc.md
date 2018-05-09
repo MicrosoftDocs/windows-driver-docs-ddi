@@ -7,8 +7,8 @@ old-location: display\setvertexshaderfunc.htm
 old-project: display
 ms.assetid: 2cea4812-7eba-4558-9c2e-30de460be21f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_SETVERTEXSHADERFUNC, SetVertexShaderFunc, SetVertexShaderFunc callback function [Display Devices], UserModeDisplayDriver_Functions_aeaa5094-5619-4cf5-b2c3-c4b6aeed9b33.xml, d3dumddi/SetVertexShaderFunc, display.setvertexshaderfunc
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETVERTEXSHADERFUNC, PFND3DDDI_SETVERTEXSHADERFUNC callback, SetVertexShaderFunc, SetVertexShaderFunc callback function [Display Devices], UserModeDisplayDriver_Functions_aeaa5094-5619-4cf5-b2c3-c4b6aeed9b33.xml, d3dumddi/SetVertexShaderFunc, display.setvertexshaderfunc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetVertexShaderFunc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETVERTEXSHADERFUNC callback
+# PFND3DDDI_SETVERTEXSHADERFUNC callback function
 
 
 ## -description
 
 
 The <i>SetVertexShaderFunc</i> function sets the vertex shader code so that all of the subsequent drawing operations use that code.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETVERTEXSHADERFUNC SetVertexShaderFunc;
-
-__checkReturn HRESULT APIENTRY SetVertexShaderFunc(
-  _In_ HANDLE hDevice,
-  _In_ HANDLE hShaderHandle
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -76,7 +63,7 @@ __checkReturn HRESULT APIENTRY SetVertexShaderFunc(
  A handle to the display device (graphics context).
 
 
-### -param HANDLE
+### -param Arg1
 
 
 
@@ -112,12 +99,11 @@ For user-mode display drivers that support vertex shaders before version 2.0, th
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

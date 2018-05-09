@@ -7,7 +7,7 @@ old-location: ifsk\rxlowiogetbufferaddress.htm
 old-project: ifsk
 ms.assetid: a4d78135-38bc-4a34-98ce-d2712829124a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RxLowIoGetBufferAddress, RxLowIoGetBufferAddress function [Installable File System Drivers], ifsk.rxlowiogetbufferaddress, lowio/RxLowIoGetBufferAddress, rxref_b45afb50-cf03-4450-9e96-3d8f08392eb6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	lowio.h
 api_name:
 -	RxLowIoGetBufferAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # RxLowIoGetBufferAddress function
@@ -50,16 +51,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 
 
 <b>RxLowIoGetBufferAddress</b> returns the buffer corresponding to the MDL from LowIoContext structure of an RX_CONTEXT structure.
-
-
-## -syntax
-
-
-````
-PVOID RxLowIoGetBufferAddress(
-  _In_ PRX_CONTEXT RxContext
-);
-````
 
 
 ## -parameters
@@ -96,7 +87,6 @@ A pointer to the RX_CONTEXT structure for this request.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
 
 
 
@@ -104,20 +94,20 @@ A pointer to the RX_CONTEXT structure for this request.
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxmapsystembuffer.md">RxMapSystemBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554751">RX_CONTEXT</a>
 
 
 
-<a href="..\lowio\nf-lowio-rxlowiocompletion.md">RxLowIoCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554525">RxLowIoCompletion</a>
 
 
 
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554549">RxMapSystemBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
  
 
  
-
 

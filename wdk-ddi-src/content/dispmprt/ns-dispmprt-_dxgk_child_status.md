@@ -7,7 +7,7 @@ old-location: display\dxgk_child_status.htm
 old-project: display
 ms.assetid: e2aba049-b51f-49b9-b0bb-c98c318dea86
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS, DXGK_CHILD_STATUS structure [Display Devices], DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml, PDXGK_CHILD_STATUS, PDXGK_CHILD_STATUS structure pointer [Display Devices], _DXGK_CHILD_STATUS, display.dxgk_child_status, dispmprt/DXGK_CHILD_STATUS, dispmprt/PDXGK_CHILD_STATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGK_CHILD_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_CHILD_STATUS, *PDXGK_CHILD_STATUS
 ---
@@ -52,31 +53,6 @@ req.typenames: DXGK_CHILD_STATUS, *PDXGK_CHILD_STATUS
 The DXGK_CHILD_STATUS structure contains members that indicate the status of a child device of the display adapter.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_CHILD_STATUS {
-  DXGK_CHILD_STATUS_TYPE Type;
-  ULONG                  ChildUid;
-  union {
-    struct {
-      BOOLEAN Connected;
-    } HotPlug;
-    struct {
-      UCHAR Angle;
-    } Rotation;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-    struct {
-      BOOLEAN                         Connected;
-      D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY MiracastMonitorType;
-    } Miracast;
-#endif 
-  };
-} DXGK_CHILD_STATUS, *PDXGK_CHILD_STATUS;
-````
-
-
 ## -struct-fields
 
 
@@ -84,7 +60,7 @@ typedef struct _DXGK_CHILD_STATUS {
 
 ### -field Type
 
-A member of the <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a> enumeration that indicates the type of status being requested.
+A member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561015">DXGK_CHILD_STATUS_TYPE</a> enumeration that indicates the type of status being requested.
 
 
 ### -field ChildUid
@@ -97,7 +73,7 @@ An integer, created previously by the display miniport driver, that identifies t
 
 ### -field HotPlug.Connected
 
-If <b>Type</b> is equal to <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>.<b>StatusConnection</b>, indicates whether the child device has external hardware (for example, a monitor) connected to it. A value of <b>TRUE</b> indicates that hardware is connected; <b>FALSE</b> indicates that hardware is not connected.
+If <b>Type</b> is equal to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561015">DXGK_CHILD_STATUS_TYPE</a>.<b>StatusConnection</b>, indicates whether the child device has external hardware (for example, a monitor) connected to it. A value of <b>TRUE</b> indicates that hardware is connected; <b>FALSE</b> indicates that hardware is not connected.
 
 
 ### -field Rotation
@@ -105,7 +81,7 @@ If <b>Type</b> is equal to <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_t
 
 ### -field Rotation.Angle
 
-If <b>Type</b> is equal to <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>.<b>StatusRotation</b>,  indicates the angle of rotation of the display connected to the child device.
+If <b>Type</b> is equal to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561015">DXGK_CHILD_STATUS_TYPE</a>.<b>StatusRotation</b>,  indicates the angle of rotation of the display connected to the child device.
 
 
 ### -field Miracast
@@ -115,7 +91,7 @@ Supported by WDDM 1.3 and later display miniport drivers running on Windows 8.1
 
 ### -field Miracast.Connected
 
-If <b>Type</b> is equal to <a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>.<b>StatusMiracast</b>, indicates whether a Miracast connected session has started. A value of <b>TRUE</b> indicates that a new monitor has been connected to the Miracast sink, or that the Miracast session has started with a monitor connected. <b>FALSE</b> indicates that the monitor that was connected to the Miracast sink has been unplugged, or that the Miracast session has been stopped.
+If <b>Type</b> is equal to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561015">DXGK_CHILD_STATUS_TYPE</a>.<b>StatusMiracast</b>, indicates whether a Miracast connected session has started. A value of <b>TRUE</b> indicates that a new monitor has been connected to the Miracast sink, or that the Miracast session has started with a monitor connected. <b>FALSE</b> indicates that the monitor that was connected to the Miracast sink has been unplugged, or that the Miracast session has been stopped.
 
 For more info, see <a href="https://msdn.microsoft.com/1645E14A-EC4A-4EB8-9AFA-6DF0466D2B1A">Wireless displays (Miracast)</a>.
 
@@ -126,35 +102,34 @@ If the <b>Connected</b> member of the <b>Miracast</b> embedded structure is <b>T
 
 Alternately, if <b>Connected</b> is <b>TRUE</b> and the Miracast sink is embedded in the monitor or TV, the display miniport driver should set this value to <b>D3DKMDT_VOT_MIRACAST</b>.
 
-If the driver doesn't know the monitor connection state, it should set this value to the last monitor connection state from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration that it reported to the operating system.
+If the driver doesn't know the monitor connection state, it should set this value to the last monitor connection state from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546605">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a> enumeration that it reported to the operating system.
 
 For more info, see <a href="https://msdn.microsoft.com/1645E14A-EC4A-4EB8-9AFA-6DF0466D2B1A">Wireless displays (Miracast)</a>.
 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_video_output_technology.md">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546605">D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561015">DXGK_CHILD_STATUS_TYPE</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
+<a href="https://msdn.microsoft.com/780a8867-bba1-4b1b-a941-b55bfe087b7b">DxgkCbIndicateChildStatus</a>
 
 
 
-<a href="..\dispmprt\ne-dispmprt-_dxgk_child_status_type.md">DXGK_CHILD_STATUS_TYPE</a>
+<a href="https://msdn.microsoft.com/eb1a0df0-6239-4d82-8477-7dd015f80b6e">DxgkDdiQueryChildRelations</a>
 
 
 
+<a href="https://msdn.microsoft.com/478e0c52-4324-4062-8e1e-381808b0f481">DxgkDdiQueryChildStatus</a>
  
 
  
-
 

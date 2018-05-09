@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 3A184392-A68C-4AFC-AE9F-36247153ADD2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT, IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT, nfpdrivers.ioctl_nfcse_subscribe_for_event
+ms.keywords: IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT, IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT control, IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT, nfpdrivers.ioctl_nfcse_subscribe_for_event
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT IOCTL
@@ -61,7 +62,7 @@ The <b>IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT</b>
 ### -input-buffer
 
 
-<a href="..\nfcsedev\ns-nfcsedev-_secure_element_event_subscription_info.md"> SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO</a> structure.
+<a href="https://msdn.microsoft.com/1ADA8430-86B4-4885-B20A-EBA8CDAC5449"> SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO</a> structure.
 
 
 

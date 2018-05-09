@@ -7,8 +7,8 @@ old-location: dtf\iwdtfstrings2.htm
 old-project: dtf
 ms.assetid: ea7ebda9-9588-4c72-bac6-2bae1f80538e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFStrings2, IWDTFStrings2 interface [Windows Device Testing Framework], IWDTFStrings2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFStrings2, dtf.iwdtfstrings2, wdtf/IWDTFStrings2
+ms.date: 4/4/2018
+ms.keywords: IWDTFStrings2, IWDTFStrings2 interface [Windows Device Testing Framework], IWDTFStrings2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFStrings2, dtf.iwdtfstrings2, wdtf/IWDTFStrings2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFStrings2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDTFStrings2 interface

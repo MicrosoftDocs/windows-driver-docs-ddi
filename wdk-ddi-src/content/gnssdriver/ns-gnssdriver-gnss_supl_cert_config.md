@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_SUPL_CERT_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG
 ---
@@ -50,23 +51,6 @@ req.typenames: GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG
 
 
 This structure contains SUPL certificate information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                 Size;
-  ULONG                 Version;
-  GNSS_SUPL_CERT_ACTION CertAction;
-  WCHAR                 SuplCertName[MAX_PATH];
-  BOOL                  IsRoot;
-  ULONG                 CertSize;
-  BYTE                  Unused[512];
-  BYTE                  CertData[ANYSIZE_ARRAY];
-} GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG;
-````
 
 
 ## -struct-fields
@@ -86,7 +70,7 @@ Version number.
 
 ### -field CertAction
 
-A <a href="..\gnssdriver\ne-gnssdriver-gnss_supl_cert_action.md">GNSS_SUPL_CERT_ACTION</a> enumeration value that specifies the action to take on the certificate.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn925225">GNSS_SUPL_CERT_ACTION</a> enumeration value that specifies the action to take on the certificate.
 
 <table></table>
  

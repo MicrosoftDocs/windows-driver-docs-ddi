@@ -7,7 +7,7 @@ old-location: display\d3dkmt_present_rgns.htm
 old-project: display
 ms.assetid: 90ae3382-0a2d-46cf-89e6-2148f0cbfc83
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_PRESENT_RGNS, D3DKMT_PRESENT_RGNS structure [Display Devices], _D3DKMT_PRESENT_RGNS, d3dkmthk/D3DKMT_PRESENT_RGNS, display.d3dkmt_present_rgns
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_PRESENT_RGNS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_PRESENT_RGNS
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMT_PRESENT_RGNS
 
 
 Specifies dirty and move regions in a present operation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_PRESENT_RGNS {
-  UINT                   DirtyRectCount;
-  const RECT             *pDirtyRects;
-  UINT                   MoveRectCount;
-  const D3DKMT_MOVE_RECT *pMoveRects;
-} D3DKMT_PRESENT_RGNS;
-````
 
 
 ## -struct-fields
@@ -92,12 +80,11 @@ A pointer to an array of move rectangles (<a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

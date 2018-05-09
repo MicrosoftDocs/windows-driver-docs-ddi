@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetDataFields
-title: ISensorDriver::OnGetDataFields method
+title: ISensorDriver::OnGetDataFields
 author: windows-driver-content
 description: The ISensorDriver::OnGetDataFields method retrieves current sensor data.
 old-location: sensors\isensordriver_ongetdatafields.htm
 old-project: sensors
 ms.assetid: a9233a0f-ac80-46be-9abe-7b87d25736f9
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorDriver, ISensorDriver::OnGetDataFields, OnGetDataFields method [Sensor Devices], OnGetDataFields,ISensorDriver.OnGetDataFields, sensors.isensordriver_ongetdatafields
+ms.date: 4/30/2018
+ms.keywords: ISensorDriver interface [Sensor Devices],OnGetDataFields method, ISensorDriver.OnGetDataFields, ISensorDriver::OnGetDataFields, OnGetDataFields, OnGetDataFields method [Sensor Devices], OnGetDataFields method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetdatafields, sensorsclassextension/ISensorDriver::OnGetDataFields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,32 +39,19 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnGetDataFields
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorDriver::OnGetDataFields method
+# ISensorDriver::OnGetDataFields
 
 
 ## -description
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545607">ISensorDriver::OnGetDataFields</a> method retrieves current sensor data.
-
-
-## -syntax
-
-
-````
-HRESULT OnGetDataFields(
-   IWDFFile *                     pClientFile,
-   LPWSTR                         pwszSensorID,
-   IPortableDeviceKeyCollection * pDataFields,
-   IPortableDeviceValues **       ppDataValues
-);
-````
 
 
 ## -parameters
@@ -147,4 +134,15 @@ The sensor class extension calls this method only for sensors for which the user
 
 <div class="code"></div>
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+ 
+
+ 
 

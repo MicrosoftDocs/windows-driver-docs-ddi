@@ -7,7 +7,7 @@ old-location: display\d3dkmt_setvidpnsourceowner.htm
 old-project: display
 ms.assetid: 9154848b-ecbe-4f21-9d27-9013f97c5dde
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER, D3DKMT_SETVIDPNSOURCEOWNER structure [Display Devices], OpenGL_Structs_942045f1-1a3a-4c4a-b533-ec70fcad6d8f.xml, _D3DKMT_SETVIDPNSOURCEOWNER, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER, display.d3dkmt_setvidpnsourceowner
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SETVIDPNSOURCEOWNER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SETVIDPNSOURCEOWNER
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMT_SETVIDPNSOURCEOWNER
 
 
 The D3DKMT_SETVIDPNSOURCEOWNER structure describes the parameters for setting or releasing the video present source in the path of a video present network (VidPN) topology that owns the VidPN.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETVIDPNSOURCEOWNER {
-  D3DKMT_HANDLE                        hDevice;
-  const D3DKMT_VIDPNSOURCEOWNER_TYPE   *pType;
-  const D3DDDI_VIDEO_PRESENT_SOURCE_ID *pVidPnSourceId;
-  UINT                                 VidPnSourceCount;
-} D3DKMT_SETVIDPNSOURCEOWNER;
-````
 
 
 ## -struct-fields
@@ -140,12 +128,11 @@ The number of valid entries in the array that <b>pVidPnSourceId</b> specifies.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetvidpnsourceowner.md">D3DKMTSetVidPnSourceOwner</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547201">D3DKMTSetVidPnSourceOwner</a>
  
 
  
-
 

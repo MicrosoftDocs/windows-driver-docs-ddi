@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfIoQueueStart
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_IO_QUEUE_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfIoQueueStart function
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfIoQueueStart</b> method enables an I/O queue to start receiving and delivering new I/O requests.
-
-
-## -syntax
-
-
-````
-VOID WdfIoQueueStart(
-  _In_ WDFQUEUE Queue
-);
-````
 
 
 ## -parameters
@@ -124,16 +114,15 @@ WdfIoQueueStart(ReadQueue);</pre>
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestop.md">WdfIoQueueStop</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuepurge.md">WdfIoQueuePurge</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548442">WdfIoQueuePurge</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548482">WdfIoQueueStop</a>
  
 
  
-
 

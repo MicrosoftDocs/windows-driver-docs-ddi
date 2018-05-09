@@ -7,8 +7,8 @@ old-location: print\ibidirequest.htm
 old-project: print
 ms.assetid: e7b16853-7f1d-45e4-af5e-4ae9cbb9b191
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], IBidiRequest interface [Print Devices], described, _win32_IBidiRequest, bidispl/IBidiRequest, gdi.ibidirequest, print.ibidirequest
+ms.date: 4/20/2018
+ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], IBidiRequest interface [Print Devices],described, _win32_IBidiRequest, bidispl/IBidiRequest, gdi.ibidirequest, print.ibidirequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: Bidispl.dll
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -38,9 +38,10 @@ api_location:
 -	Bidispl.h
 api_name:
 -	IBidiRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
 # IBidiRequest interface
@@ -117,7 +118,6 @@ Sets the bidi schema string.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 
@@ -129,8 +129,8 @@ Sets the bidi schema string.
 
 
 
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\mmunlockpages.htm
 old-project: kernel
 ms.assetid: 506f5fef-11fa-4d65-a180-c613cd8a8e1e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: MmUnlockPages, MmUnlockPages routine [Kernel-Mode Driver Architecture], k106_b8d8a984-9e0e-4322-bce1-2dd79e8d3a10.xml, kernel.mmunlockpages, wdm/MmUnlockPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	MmUnlockPages
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # MmUnlockPages function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>MmUnlockPages</b> routine unlocks the physical pages that are described by the specified memory descriptor list (MDL).
-
-
-## -syntax
-
-
-````
-VOID MmUnlockPages(
-  _Inout_ PMDL MemoryDescriptorList
-);
-````
 
 
 ## -parameters
@@ -86,7 +76,7 @@ None
 
 
 
-The memory described by the specified MDL must have been locked previously by a call to <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>. If the specified MDL is mapped to system address space, <b>MmUnlockPages</b> releases this mapping before it unlocks the pages.
+The memory described by the specified MDL must have been locked previously by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554664">MmProbeAndLockPages</a>. If the specified MDL is mapped to system address space, <b>MmUnlockPages</b> releases this mapping before it unlocks the pages.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
 
@@ -95,12 +85,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554664">MmProbeAndLockPages</a>
  
 
  
-
 

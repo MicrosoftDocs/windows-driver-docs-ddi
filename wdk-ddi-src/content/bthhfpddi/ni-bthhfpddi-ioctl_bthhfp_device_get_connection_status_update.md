@@ -7,8 +7,8 @@ old-location: audio\ioctl_bthhfp_device_get_connection_status_update.htm
 old-project: audio
 ms.assetid: 19863998-99AB-427E-BFBD-B8EF42C74DEF
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE, IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_device_get_connection_status_update, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE
+ms.date: 4/16/2018
+ms.keywords: IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE, IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE control, IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_device_get_connection_status_update, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Bthhfpddi.h
 api_name:
 -	IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
+req.typenames: 
 ---
 
 # IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE IOCTL
@@ -118,6 +119,9 @@ When handling the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
 
 
@@ -126,16 +130,12 @@ When handling the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537364">KSPROPERTY_JACK_DESCRIPTION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537136">KSJACK_DESCRIPTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537364">KSPROPERTY_JACK_DESCRIPTION</a>
  
 
  
-
 

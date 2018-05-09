@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3104284a-4277-4f05-ae3f-3b2bb3c3437d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest, IWDFIoRequest interface, IWDFIoRequest interface, described, UMDFRequestObjectRef_65cbf2de-e966-4eb3-8f3f-2012dba23d99.xml, umdf.iwdfiorequest, wdf.iwdfiorequest, wudfddi/IWDFIoRequest
+ms.keywords: IWDFIoRequest, IWDFIoRequest interface, IWDFIoRequest interface,described, UMDFRequestObjectRef_65cbf2de-e966-4eb3-8f3f-2012dba23d99.xml, umdf.iwdfiorequest, wdf.iwdfiorequest, wudfddi/IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFIoRequest interface
@@ -57,7 +57,7 @@ The <b>IWDFIoRequest</b> interface exposes an I/O request object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFIoRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>. <b>IWDFIoRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -147,7 +147,7 @@ The <a href="https://msdn.microsoft.com/96de6f7a-da1d-44a6-b1f7-44859312a662">Ge
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559099">IWDFIoRequest::GetFileObject</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/2d6567f1-9e2a-405f-ae8d-eb531cc29275">GetFileObject</a> method retrieves a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface that is associated with an I/O request.
+The <a href="https://msdn.microsoft.com/2d6567f1-9e2a-405f-ae8d-eb531cc29275">GetFileObject</a> method retrieves a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface that is associated with an I/O request.
 
 </td>
 </tr>

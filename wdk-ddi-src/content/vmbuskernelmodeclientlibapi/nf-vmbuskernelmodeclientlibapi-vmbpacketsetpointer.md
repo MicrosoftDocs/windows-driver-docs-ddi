@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketsetpointer.htm
 old-project: netvista
 ms.assetid: FFEBEBD0-1FF2-4F27-B028-051B117CA325
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: VmbPacketSetPointer, VmbPacketSetPointer function [Network Drivers Starting with Windows Vista], netvista.vmbpacketsetpointer, vmbuskernelmodeclientlibapi/VmbPacketSetPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbPacketSetPointer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbPacketSetPointer function
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbPacketSetPointer</b> function saves an arbitrary pointer in the packet
 context.  
-
-
-## -syntax
-
-
-````
-VOID VmbPacketSetPointer(
-  _In_     VMBPACKET PacketObject,
-  _In_opt_ PVOID     Pointer
-);
-````
 
 
 ## -parameters

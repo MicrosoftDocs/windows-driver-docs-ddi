@@ -7,7 +7,7 @@ old-location: display\d3dkmtqueryallocationresidency.htm
 old-project: display
 ms.assetid: f9522de0-54cd-4afd-b8cd-06f229ac1325
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTQueryAllocationResidency, D3DKMTQueryAllocationResidency function [Display Devices], OpenGL_Functions_4efd6e87-91b6-4cf2-8691-0463a9ab218a.xml, d3dkmthk/D3DKMTQueryAllocationResidency, display.d3dkmtqueryallocationresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTQueryAllocationResidency
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTQueryAllocationResidency function
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTQueryAllocationResidency</b> function retrieves the residency status of a resource or list of allocations.
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTQueryAllocationResidency(
-  _In_ const D3DKMT_QUERYALLOCATIONRESIDENCY *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryallocationresidency.md">D3DKMT_QUERYALLOCATIONRESIDENCY</a> structure that contains information for retrieving the residency status of a resource or list of allocations.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548212">D3DKMT_QUERYALLOCATIONRESIDENCY</a> structure that contains information for retrieving the residency status of a resource or list of allocations.
 
 
 ## -returns
@@ -136,12 +127,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryallocationresidency.md">D3DKMT_QUERYALLOCATIONRESIDENCY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548212">D3DKMT_QUERYALLOCATIONRESIDENCY</a>
  
 
  
-
 

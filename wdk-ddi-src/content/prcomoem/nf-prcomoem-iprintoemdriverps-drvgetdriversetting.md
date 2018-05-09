@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverPS.DrvGetDriverSetting
-title: IPrintOemDriverPS::DrvGetDriverSetting method
+title: IPrintOemDriverPS::DrvGetDriverSetting
 author: windows-driver-content
 description: The IPrintOemDriverPS::DrvGetDriverSetting method is provided by the Pscript5 driver so that rendering plug-ins can obtain the current status of printer features and other internal information.
 old-location: print\iprintoemdriverps_drvgetdriversetting.htm
 old-project: print
 ms.assetid: c3e9775b-a5ab-42e4-a889-a746a7243b37
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices], IPrintOemDriverPS interface, DrvGetDriverSetting,IPrintOemDriverPS.DrvGetDriverSetting, IPrintOemDriverPS, IPrintOemDriverPS interface [Print Devices], DrvGetDriverSetting method, IPrintOemDriverPS::DrvGetDriverSetting, prcomoem/IPrintOemDriverPS::DrvGetDriverSetting, print.iprintoemdriverps_drvgetdriversetting, print_unidrv-pscript_rendering_eb83bce7-ee89-4a4b-a72d-214d2d8054ee.xml
+ms.date: 4/20/2018
+ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices],IPrintOemDriverPS interface, IPrintOemDriverPS interface [Print Devices],DrvGetDriverSetting method, IPrintOemDriverPS.DrvGetDriverSetting, IPrintOemDriverPS::DrvGetDriverSetting, prcomoem/IPrintOemDriverPS::DrvGetDriverSetting, print.iprintoemdriverps_drvgetdriversetting, print_unidrv-pscript_rendering_eb83bce7-ee89-4a4b-a72d-214d2d8054ee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,34 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemDriverPS.DrvGetDriverSetting
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemDriverPS::DrvGetDriverSetting method
+# IPrintOemDriverPS::DrvGetDriverSetting
 
 
 ## -description
 
 
 The <code>IPrintOemDriverPS::DrvGetDriverSetting</code> method is provided by the Pscript5 driver so that rendering plug-ins can obtain the current status of printer features and other internal information.
-
-
-## -syntax
-
-
-````
-HRESULT DrvGetDriverSetting(
-   PVOID  pdriverobj,
-   PCSTR  Feature,
-   PVOID  pOutput,
-   DWORD  cbSize,
-   PDWORD pcbNeeded,
-   PDWORD pdwOptionsReturned
-);
-````
 
 
 ## -parameters
@@ -75,7 +60,7 @@ HRESULT DrvGetDriverSetting(
 
 ### -param pdriverobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param Feature

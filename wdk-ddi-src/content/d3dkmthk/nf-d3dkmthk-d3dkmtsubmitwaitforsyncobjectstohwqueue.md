@@ -7,7 +7,7 @@ old-location: display\d3dkmtsubmitwaitforsyncobjectstohwqueue.htm
 old-project: display
 ms.assetid: E068ECD0-059A-46E1-9D9E-64EA81B73BD6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTSubmitWaitForSyncObjectsToHwQueue, D3DKMTSubmitWaitForSyncObjectsToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitWaitForSyncObjectsToHwQueue, display.d3dkmtsubmitwaitforsyncobjectstohwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	tbd
 api_name:
 -	D3DKMTSubmitWaitForSyncObjectsToHwQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTSubmitWaitForSyncObjectsToHwQueue function
@@ -50,16 +51,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 Used to submit a wait to the hardware queue.
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTSubmitWaitForSyncObjectsToHwQueue(
-  _In_ const D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE *submitWaitForSyncObjectsToHwQueue
-);
-````
 
 
 ## -parameters

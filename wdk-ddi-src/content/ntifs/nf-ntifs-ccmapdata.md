@@ -7,7 +7,7 @@ old-location: ifsk\ccmapdata.htm
 old-project: ifsk
 ms.assetid: dccc79ba-68d9-41cf-b86d-37adb83558a0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: CcMapData, CcMapData routine [Installable File System Drivers], ccref_1eb788ce-2fb2-40b4-b696-14609a0c8556.xml, ifsk.ccmapdata, ntifs/CcMapData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcMapData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcMapData function
@@ -50,21 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>CcMapData</b> routine maps a specified byte range of a cached file to a buffer in memory.
-
-
-## -syntax
-
-
-````
-BOOLEAN CcMapData(
-  _In_  PFILE_OBJECT   FileObject,
-  _In_  PLARGE_INTEGER FileOffset,
-  _In_  ULONG          Length,
-  _In_  ULONG          Flags,
-  _Out_ PVOID          *Bcb,
-  _Out_ PVOID          *Buffer
-);
-````
 
 
 ## -parameters
@@ -153,9 +139,9 @@ Pointer to a buffer containing the mapped data.
 
 
 
-<b>CcMapData</b> maps data in a cached file for read access. Note that after <b>CcMapData</b> is called, the data is mapped; but it is not pinned. This distinction is important. Data that is mapped but not pinned cannot safely be modified. To pin the data, use <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>, <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>, or <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>.
+<b>CcMapData</b> maps data in a cached file for read access. Note that after <b>CcMapData</b> is called, the data is mapped; but it is not pinned. This distinction is important. Data that is mapped but not pinned cannot safely be modified. To pin the data, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>.
 
-Every successful call to <b>CcMapData</b> must be matched by a subsequent call to <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>. 
+Every successful call to <b>CcMapData</b> must be matched by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>. 
 
 <b>CcMapData</b> cannot map data across view boundaries in the cache manager. The cache manager manages files in the system in 256 KB-aligned views. (The cache manager's view size is specified by the system-defined constant <b>VACB_MAPPING_GRANULARITY</b>, which is set to 256 KB in <i>ntifs.h</i>.) Mapped regions cannot span more than one 256 KB view. Therefore, the largest region that can be mapped is 256 KB, beginning at a 256 KB-aligned offset in the file. 
 
@@ -163,39 +149,38 @@ Mapping a byte range in a cached file does not ensure that the pages remain resi
 
 If the <b>MAP_WAIT</b> flag is set (or <i>Wait</i> is <b>TRUE</b>), <b>CcMapData</b> is guaranteed to complete the mapping request and return <b>TRUE</b>. If the required pages of the cached file are already resident in memory, the data is mapped immediately and no blocking will occur. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the data can be mapped. If the <b>MAP_WAIT</b> flag is not set (or <i>Wait</i> is <b>FALSE</b>) and the data cannot be mapped immediately, <b>CcMapData</b> returns <b>FALSE</b>.
 
-The pointer returned in <i>Buffer</i> is valid until <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a> is called. If <a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a> is called while this pointer is still valid, the pointer remains valid after the call to <b>CcPinMappedData</b> (but only until <b>CcUnpinData</b> is called).
+The pointer returned in <i>Buffer</i> is valid until <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a> is called. If <a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a> is called while this pointer is still valid, the pointer remains valid after the call to <b>CcPinMappedData</b> (but only until <b>CcUnpinData</b> is called).
 
 If any failure occurs, <b>CcMapData</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcMapData</b> raises a <b>STATUS_INSUFFICIENT_RESOURCES</b> exception; if an I/O error occurs, <b>CcMapData</b> raises the status exception of the I/O error. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcMapData</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
-To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
+To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>
  
 
  
-
 

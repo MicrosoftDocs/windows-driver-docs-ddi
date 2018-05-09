@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_BidiNotification
-title: IPrinterExtensionEventArgs::get_BidiNotification method
+title: IPrinterExtensionEventArgs::get_BidiNotification
 author: windows-driver-content
 description: Gets the text of the bidirectional communication (Bidi) notification, if applicable.
 old-location: print\iprinterextensioneventargs_bidinotification.htm
 old-project: print
 ms.assetid: 8AAC657A-218E-41CF-AE89-0199A5B35280
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: BidiNotification property [Print Devices], BidiNotification property [Print Devices], IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], BidiNotification property, IPrinterExtensionEventArgs.BidiNotification, IPrinterExtensionEventArgs::get_BidiNotification, get_BidiNotification, get_BidiNotification,IPrinterExtensionEventArgs.get_BidiNotification, print.iprinterextensioneventargs_bidinotification, printerextension/IPrinterExtensionEventArgs::BidiNotification, printerextension/IPrinterExtensionEventArgs::get_BidiNotification
+ms.date: 4/20/2018
+ms.keywords: BidiNotification property [Print Devices], BidiNotification property [Print Devices],IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs interface [Print Devices],BidiNotification property, IPrinterExtensionEventArgs.BidiNotification, IPrinterExtensionEventArgs.get_BidiNotification, IPrinterExtensionEventArgs::BidiNotification, IPrinterExtensionEventArgs::get_BidiNotification, get_BidiNotification, print.iprinterextensioneventargs_bidinotification, printerextension/IPrinterExtensionEventArgs::BidiNotification, printerextension/IPrinterExtensionEventArgs::get_BidiNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,13 +39,13 @@ api_location:
 api_name:
 -	IPrinterExtensionEventArgs.BidiNotification
 -	IPrinterExtensionEventArgs.get_BidiNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterExtensionEventArgs::get_BidiNotification method
+# IPrinterExtensionEventArgs::get_BidiNotification
 
 
 ## -description
@@ -56,27 +56,16 @@ Gets the text of the bidirectional communication (Bidi) notification, if applica
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_BidiNotification(
-  [out, retval] BSTR *pbstrBidiNotification
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
  
 
  
-
 

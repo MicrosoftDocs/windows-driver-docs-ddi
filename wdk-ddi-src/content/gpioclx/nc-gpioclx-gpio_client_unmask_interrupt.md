@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 7A97B3B2-2B7B-4661-8C0D-C2234F796EA8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_UnmaskInterrupt, CLIENT_UnmaskInterrupt callback function [Parallel Ports], GPIO.client_unmaskinterrupt, GPIO_CLIENT_UNMASK_INTERRUPT, gpioclx/CLIENT_UnmaskInterrupt
+ms.keywords: CLIENT_UnmaskInterrupt, CLIENT_UnmaskInterrupt callback, CLIENT_UnmaskInterrupt callback function [Parallel Ports], GPIO.client_unmaskinterrupt, GPIO_CLIENT_UNMASK_INTERRUPT, gpioclx/CLIENT_UnmaskInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_UnmaskInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_UNMASK_INTERRUPT callback
+# GPIO_CLIENT_UNMASK_INTERRUPT callback function
 
 
 ## -description
 
 
 The <i>CLIENT_UnmaskInterrupt</i> event callback function unmasks the interrupt on a general-purpose I/O (GPIO) pin that is configured as an interrupt input.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_UNMASK_INTERRUPT CLIENT_UnmaskInterrupt;
-
-NTSTATUS CLIENT_UnmaskInterrupt(
-  _In_ PVOID                             Context,
-  _In_ PGPIO_ENABLE_INTERRUPT_PARAMETERS InterruptParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -143,11 +130,6 @@ The GPIO_CLIENT_UNMASK_INTERRUPT function type is defined in the Gpioclx.h heade
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406464">GPIO_ENABLE_INTERRUPT_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
@@ -155,8 +137,12 @@ The GPIO_CLIENT_UNMASK_INTERRUPT function type is defined in the Gpioclx.h heade
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406464">GPIO_ENABLE_INTERRUPT_PARAMETERS</a>
  
 
  
-
 

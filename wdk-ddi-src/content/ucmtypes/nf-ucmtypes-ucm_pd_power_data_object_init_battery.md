@@ -7,7 +7,7 @@ old-location: buses\ucm_pd_power_data_object_init_battery.htm
 old-project: usbref
 ms.assetid: DA191158-D920-4965-AC2B-7DDA8B541504
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY, UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY function [Buses], buses.ucm_pd_power_data_object_init_battery, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Ucmtypes.h
 api_name:
 -	UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UCM_TYPEC_PARTNER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY function
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structure as a Battery Supply type Power Data Object.
-
-
-## -syntax
-
-
-````
-FORCEINLINE void UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY(
-  _Out_ PUCM_PD_POWER_DATA_OBJECT Pdo
-);
-````
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structure as a Battery Supply type Power Data Object.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ FORCEINLINE void UCM_PD_POWER_DATA_OBJECT_INIT_BATTERY(
 
 ### -param Pdo [out]
 
-A pointer to a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>BatterySupplyPdo.Battery</b> member is set to <b>UcmPdPdoTypeBatterySupply</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>BatterySupplyPdo.Battery</b> member is set to <b>UcmPdPdoTypeBatterySupply</b>.
 
 
 ## -returns
@@ -84,12 +74,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlaretherewaitingfilelocks.htm
 old-project: ifsk
 ms.assetid: 92093588-DD44-4503-8803-7E47F178A728
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], ifsk.fsrtlaretherewaitingfilelocks, ntifs/FsRtlAreThereWaitingFileLocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlAreThereWaitingFileLocks
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlAreThereWaitingFileLocks function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlAreThereWaitingFileLocks</b> routine checks a file lock queue for any waiting file locks.
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlAreThereWaitingFileLocks(
-  _In_ PFILE_LOCK FileLock
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: ifsk\fltretrieveiopriorityinfo.htm
 old-project: ifsk
 ms.assetid: b764e55e-e58b-4a4f-a32f-84e3cfd5f8c4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_ac6da005-5f47-441d-8277-9beedb72c0ee.xml, FltRetrieveIoPriorityInfo, FltRetrieveIoPriorityInfo routine [Installable File System Drivers], fltkernel/FltRetrieveIoPriorityInfo, ifsk.fltretrieveiopriorityinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	FltMgr.sys
 api_name:
 -	FltRetrieveIoPriorityInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltRetrieveIoPriorityInfo function
@@ -52,19 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltRetrieveIoPriorityInfo</b> routine is used by a minifilter driver to retrieve priority information from a thread.
 
 
-## -syntax
-
-
-````
-NTSTATUS FltRetrieveIoPriorityInfo(
-  _In_opt_ PFLT_CALLBACK_DATA Data,
-  _In_opt_ PFILE_OBJECT       FileObject,
-  _In_opt_ PETHREAD           Thread,
-  _Inout_  PIO_PRIORITY_INFO  PriorityInfo
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ NTSTATUS FltRetrieveIoPriorityInfo(
 ### -param Data [in, optional]
 
 
-      An optional pointer to a <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> structure, which represents an I/O operation.  This parameter can be <b>NULL</b>.
+      An optional pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> structure, which represents an I/O operation.  This parameter can be <b>NULL</b>.
      
 
 
@@ -89,7 +77,7 @@ An optional pointer to the thread in which to retrieve priority information from
 
 ### -param PriorityInfo [in, out]
 
-A pointer to an <a href="..\ntifs\ns-ntifs-_io_priority_info.md">IO_PRIORITY_INFO</a> structure used to receive the priority information from the given thread.  The IO_PRIORITY_INFO structure must be initialized by an appropriate routine before it can be used by this routine. See the following Remarks section for more information.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548568">IO_PRIORITY_INFO</a> structure used to receive the priority information from the given thread.  The IO_PRIORITY_INFO structure must be initialized by an appropriate routine before it can be used by this routine. See the following Remarks section for more information.
 
 
 ## -returns
@@ -107,7 +95,7 @@ The <b>FltRetrieveIoPriorityInfo</b> routine returns STATUS_SUCCESS or an approp
 
 The <b>FltRetrieveIoPriorityInfo</b> routine retrieves priority information and saves the information in the structure pointed to by the <i>PriorityInfo</i> parameter.
 
-Typically, the <b>FltRetrieveIoPriorityInfo</b> routine is used in conjunction with the <a href="..\fltkernel\nf-fltkernel-fltapplypriorityinfothread.md">FltApplyPriorityInfoThread</a> routine to save and then set a thread's I/O priority, paging priority, and thread priority.
+Typically, the <b>FltRetrieveIoPriorityInfo</b> routine is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541766">FltApplyPriorityInfoThread</a> routine to save and then set a thread's I/O priority, paging priority, and thread priority.
 
 If the <i>Thread</i> parameter is non-<b>NULL</b>, the thread's paging priority and thread priority will be retrieved and placed in the <b>PagePriority</b> and <b>ThreadPriority</b> members of the IO_PRIORITY_INFO structure pointed to by the <i>PriorityInfo</i> parameter.  If the <i>Thread</i> parameter is <b>NULL</b>, the <b>ThreadPriority</b> and <b>PagePriority</b> members of the IO_PRIORITY_INFO structure are marked with sentinel values indicating that the thread's paging and thread priorities should not be changed by the system.  Note that these sentinel values stay in effect until explicitly changed.
 
@@ -133,7 +121,7 @@ ELSE
 </table></span></div>
 
 <div class="alert"><b>Note</b>  
-     If the IO_PRIORITY_INFO structure pointed to by the <i>PriorityInfo</i> parameter has not been initialized, you must do so prior to calling this routine, by calling the <a href="..\ntifs\nf-ntifs-ioinitializepriorityinfo.md">IoInitializePriorityInfo</a> routine.</div>
+     If the IO_PRIORITY_INFO structure pointed to by the <i>PriorityInfo</i> parameter has not been initialized, you must do so prior to calling this routine, by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548424">IoInitializePriorityInfo</a> routine.</div>
 <div> </div>
 
 
@@ -142,60 +130,59 @@ ELSE
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltretrieveiopriorityinfo.md">FltRetrieveIoPriorityInfo</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetiopriorityhint.md">FltGetIoPriorityHint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltapplypriorityinfothread.md">FltApplyPriorityInfoThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541766">FltApplyPriorityInfoThread</a>
 
 
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543065">FltGetIoPriorityHint</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetiopriorityhintfromcallbackdata.md">FltGetIoPriorityHintFromCallbackData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543068">FltGetIoPriorityHintFromCallbackData</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543074">FltGetIoPriorityHintFromFileObject</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetiopriorityhintfromthread.md">FltGetIoPriorityHintFromThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543080">FltGetIoPriorityHintFromThread</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetiopriorityhintintocallbackdata.md">FltSetIoPriorityHintIntoCallbackData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544354">FltRetrieveIoPriorityInfo</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetiopriorityhintintofileobject.md">FltSetIoPriorityHintIntoFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544526">FltSetIoPriorityHintIntoCallbackData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ioinitializepriorityinfo.md">IoInitializePriorityInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544530">FltSetIoPriorityHintIntoFileObject</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetiopriorityhintintothread.md">FltSetIoPriorityHintIntoThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544534">FltSetIoPriorityHintIntoThread</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetiopriorityhintfromfileobject.md">FltGetIoPriorityHintFromFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548568">IO_PRIORITY_INFO</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_io_priority_info.md">IO_PRIORITY_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548424">IoInitializePriorityInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
  
 
  
-
 

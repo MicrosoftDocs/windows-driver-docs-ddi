@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTargetStateManagement.Start
-title: IWDFIoTargetStateManagement::Start method
+title: IWDFIoTargetStateManagement::Start
 author: windows-driver-content
 description: The Start method starts sending queued requests to a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_start.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e242b62a-7a4f-491b-b1a7-3388cf9c5a40
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Start method, IWDFIoTargetStateManagement::Start, Start method, Start method, IWDFIoTargetStateManagement interface, Start,IWDFIoTargetStateManagement.Start, UMDFIoTargetObjectRef_931a0267-704f-44f7-8f52-0344afb86f81.xml, umdf.iwdfiotargetstatemanagement_start, wdf.iwdfiotargetstatemanagement_start, wudfddi/IWDFIoTargetStateManagement::Start
+ms.keywords: IWDFIoTargetStateManagement interface,Start method, IWDFIoTargetStateManagement.Start, IWDFIoTargetStateManagement::Start, Start, Start method, Start method,IWDFIoTargetStateManagement interface, UMDFIoTargetObjectRef_931a0267-704f-44f7-8f52-0344afb86f81.xml, umdf.iwdfiotargetstatemanagement_start, wdf.iwdfiotargetstatemanagement_start, wudfddi/IWDFIoTargetStateManagement::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoTargetStateManagement.Start
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoTargetStateManagement::Start method
+# IWDFIoTargetStateManagement::Start
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Start</b> method starts sending queued requests to a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
-
-
-## -syntax
-
-
-````
-HRESULT Start();
-````
 
 
 ## -parameters
@@ -117,7 +109,7 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 #### Examples
 
-The following code example first shows how a driver can obtain the <a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a> interface for a USB pipe object. The code example then  shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a> callback function can call <b>Start</b>, if the driver uses a continuous reader for the USB pipe. 
+The following code example first shows how a driver can obtain the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559198">IWDFIoTargetStateManagement</a> interface for a USB pipe object. The code example then  shows how an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a> callback function can call <b>Start</b>, if the driver uses a continuous reader for the USB pipe. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -182,16 +174,15 @@ CMyDevice::OnD0Entry(
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559198">IWDFIoTargetStateManagement</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiotargetstatemanagement.md">IWDFIoTargetStateManagement</a>
-
-
-
  
 
  
-
 

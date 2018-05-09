@@ -7,7 +7,7 @@ old-location: storage\vpd_third_party_copy_page.htm
 old-project: storage
 ms.assetid: E8D9E05C-26C3-474C-854F-9AD12C8834DF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PVPD_THIRD_PARTY_COPY_PAGE, PVPD_THIRD_PARTY_COPY_PAGE, PVPD_THIRD_PARTY_COPY_PAGE structure pointer [Storage Devices], VPD_THIRD_PARTY_COPY_PAGE, VPD_THIRD_PARTY_COPY_PAGE structure [Storage Devices], _VPD_THIRD_PARTY_COPY_PAGE, scsi/PVPD_THIRD_PARTY_COPY_PAGE, scsi/VPD_THIRD_PARTY_COPY_PAGE, storage.vpd_third_party_copy_page"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	scsi.h
 api_name:
 -	VPD_THIRD_PARTY_COPY_PAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VPD_THIRD_PARTY_COPY_PAGE, *PVPD_THIRD_PARTY_COPY_PAGE
-req.product: Windows 10 or later.
 ---
 
 # _VPD_THIRD_PARTY_COPY_PAGE structure
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VPD_THIRD_PARTY_COPY_PAGE</b> structure defines the vital product data (VPD) page for offload data transfer operations.
-
-
-## -syntax
-
-
-````
-typedef struct _VPD_THIRD_PARTY_COPY_PAGE {
-  UCHAR DeviceType  :5;
-  UCHAR DeviceTypeQualifier  :3;
-  UCHAR PageCode;
-  UCHAR PageLength[2];
-  UCHAR ThirdPartyCopyDescriptors[ANYSIZE_ARRAY];
-} VPD_THIRD_PARTY_COPY_PAGE, *PVPD_THIRD_PARTY_COPY_PAGE;
-````
 
 
 ## -struct-fields
@@ -94,7 +80,7 @@ The length, in bytes, of the VPD page. For offload data transfer on Windows, <b>
 
 ### -field ThirdPartyCopyDescriptors
 
-Support descriptors for copy operations. On Windows systems, <b>ThirdPartyCopyDescriptors</b>  will contain one descriptor formatted as a <a href="..\storport\ns-storport-_windows_block_device_token_limits_descriptor.md">WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR</a> structure.
+Support descriptors for copy operations. On Windows systems, <b>ThirdPartyCopyDescriptors</b>  will contain one descriptor formatted as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh967745">WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR</a> structure.
 
 
 ## -remarks
@@ -108,12 +94,11 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_windows_block_device_token_limits_descriptor.md">WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967745">WINDOWS_BLOCK_DEVICE_TOKEN_LIMITS_DESCRIPTOR</a>
  
 
  
-
 

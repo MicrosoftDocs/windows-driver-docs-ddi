@@ -7,7 +7,7 @@ old-location: stream\kssetpowerdispatch.htm
 old-project: stream
 ms.assetid: 77ceaebe-ded1-4fbb-bc10-593ff62fcbe2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsSetPowerDispatch, KsSetPowerDispatch routine [Streaming Media Devices], ks/KsSetPowerDispatch, ksfunc_b561e4ba-dadd-4e9c-a8e3-1d9b182cdd4f.xml, stream.kssetpowerdispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsSetPowerDispatch
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,18 +54,6 @@ req.typenames:
 Sets the power dispatch function to be called when the driver object receives an <b>IRP_MJ_POWER</b> IRP. This is only effective if <b>KsDefaultDispatchPower</b> is called to dispatch or complete power IRPs.
 
 This has the effect of adding this object header to a list of object headers that have power dispatch routines to execute. The head of this list is kept by the device header. Assumes that the caller has previously allocated a device header on the underlying Device Object with <b>KsAllocateDeviceHeader</b>.
-
-
-## -syntax
-
-
-````
-VOID KsSetPowerDispatch(
-  _In_     KSOBJECT_HEADER       Header,
-  _In_opt_ PFNKSCONTEXT_DISPATCH PowerDispatch ,
-  _In_opt_ PVOID                 PowerContext 
-);
-````
 
 
 ## -parameters
@@ -98,12 +87,11 @@ None
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567164">KStrContextDispatch</a>
-
-
-
  
 
  
-
 

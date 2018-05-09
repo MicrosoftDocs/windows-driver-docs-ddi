@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level (See Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	smclib.h
 api_name:
 -	SMARTCARD_EXTENSION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: "*PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION, *PSMARTCARD_EXTENSION"
-req.product: Windows 10 or later.
+req.typenames: "*PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION"
 ---
 
 # _SMARTCARD_EXTENSION structure
@@ -51,37 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SMARTCARD_EXTENSION</b> structure is used by both the smart card reader driver and the smart card driver library to access all other smart card data structures.
-
-
-## -syntax
-
-
-````
-typedef struct _SMARTCARD_EXTENSION {
-  ULONG                     Version;
-  VENDOR_ATTR               VendorAttr;
-  NTSTATUS                  (*ReaderFunction[16])(PSMARTCARD_EXTENSION);
-  SCARD_CARD_CAPABILITIES   CardCapabilities;
-  ULONG                     LastError;
-  struct {
-    PULONG Information;
-    PUCHAR RequestBuffer;
-    ULONG  RequestBufferLength;
-    PUCHAR ReplyBuffer;
-    ULONG  ReplyBufferLength;
-  } IoRequest;
-  ULONG                     MajorIoControlCode;
-  ULONG                     MinorIoControlCode;
-  POS_DEP_DATA              OsData;
-  SCARD_READER_CAPABILITIES ReaderCapabilities;
-  PREADER_EXTENSION         ReaderExtension;
-  SMARTCARD_REPLY           SmartcardReply;
-  SMARTCARD_REQUEST         SmartcardRequest;
-  T0_DATA                   T0;
-  T1_DATA                   T1;
-  ULONG                     Reserved[25];
-} SMARTCARD_EXTENSION, *PSMARTCARD_EXTENSION;
-````
 
 
 ## -struct-fields
@@ -131,32 +100,27 @@ Not used.
      
 
 
-
-#### Information
+### -field IoRequest.Information
 
 Contains the number of bytes returned. 
 
 
-
-#### RequestBuffer
+### -field IoRequest.RequestBuffer
 
 A pointer to the data in the user's I/O request to be sent to the card. 
 
 
-
-#### RequestBufferLength
+### -field IoRequest.RequestBufferLength
 
 Indicates the number of bytes to send to the card. 
 
 
-
-#### ReplyBuffer
+### -field IoRequest.ReplyBuffer
 
 A pointer to the buffer that holds the data that is returned by the I/O request. 
 
 
-
-#### ReplyBufferLength
+### -field IoRequest.ReplyBufferLength
 
 Indicates the number of bytes of the data that are returned by the I/O request. 
 
@@ -250,7 +214,7 @@ On input, the structure pointed to by <b>SmartcardExtension</b> should have the 
 <dl>
 <dt><a id="MajorIoControlCode"></a><a id="majoriocontrolcode"></a><a id="MAJORIOCONTROLCODE"></a><b>MajorIoControlCode</b></dt>
 <dd>
-Should have a value of <a href="..\winsmcrd\ni-winsmcrd-ioctl_smartcard_power.md">IOCTL_SMARTCARD_POWER</a>.
+Should have a value of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548907">IOCTL_SMARTCARD_POWER</a>.
 
 </dd>
 <dt><a id="IoRequest.ReplyBufferLength"></a><a id="iorequest.replybufferlength"></a><a id="IOREQUEST.REPLYBUFFERLENGTH"></a><b>IoRequest.ReplyBufferLength</b></dt>
@@ -310,13 +274,13 @@ Contains the length of the ATR.
 <td>RDF_CARD_TRACKING</td>
 <td>The RDF_CARD_TRACKING callback function installs an event handler to track every time a card is inserted in or removed from a card reader.It is mandatory for smart card reader drivers to implement this callback function. 
 
-Upon receiving an <a href="..\winsmcrd\ni-winsmcrd-ioctl_smartcard_is_present.md">IOCTL_SMARTCARD_IS_PRESENT</a> request, the driver library determines if the smart card is already present. If the smart card is present, the driver library completes the request with a status of STATUS_SUCCESS. If there is no smart card present, the driver library calls the reader driver's smart card tracking callback function, and the reader driver starts looking for the smart card. After initiating smart card tracking, the driver library marks the request as having a status of STATUS_PENDING. 
+Upon receiving an <a href="https://msdn.microsoft.com/library/windows/hardware/dn905521">IOCTL_SMARTCARD_IS_PRESENT</a> request, the driver library determines if the smart card is already present. If the smart card is present, the driver library completes the request with a status of STATUS_SUCCESS. If there is no smart card present, the driver library calls the reader driver's smart card tracking callback function, and the reader driver starts looking for the smart card. After initiating smart card tracking, the driver library marks the request as having a status of STATUS_PENDING. 
 
 The driver library completes the request.
 
 <b>WDM Device Drivers</b>
 
-The corresponding WDM driver library adds a pointer to the request in <b>SmartcardExtension-&gt;OsData-&gt;NotificationIrp</b>. The reader driver must complete the request as soon as it detects that a smart card has been inserted or removed. The reader driver completes the request by calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>, after which, the reader driver must set the <b>NotificationIrp</b> member of <b>SmartcardExtension -&gt; OsData</b> back to <b>NULL</b> to inform the driver library that the reader driver can accept further smart card tracking requests. 
+The corresponding WDM driver library adds a pointer to the request in <b>SmartcardExtension-&gt;OsData-&gt;NotificationIrp</b>. The reader driver must complete the request as soon as it detects that a smart card has been inserted or removed. The reader driver completes the request by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>, after which, the reader driver must set the <b>NotificationIrp</b> member of <b>SmartcardExtension -&gt; OsData</b> back to <b>NULL</b> to inform the driver library that the reader driver can accept further smart card tracking requests. 
 
 Because this call can have an indefinite duration and the caller can terminate the request before it is complete, it is important to mark this IRP as cancelable.
 
@@ -399,7 +363,7 @@ On input, the caller must pass the following values to the function:
 <dl>
 <dt><a id="SmartcardExtension-_MajorIoControlCode"></a><a id="smartcardextension-_majoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MAJORIOCONTROLCODE"></a><b>SmartcardExtension-&gt;MajorIoControlCode</b></dt>
 <dd>
-Contains <a href="..\winsmcrd\ni-winsmcrd-ioctl_smartcard_set_protocol.md">IOCTL_SMARTCARD_SET_PROTOCOL</a>.
+Contains <a href="https://msdn.microsoft.com/library/windows/hardware/ff548909">IOCTL_SMARTCARD_SET_PROTOCOL</a>.
 
 </dd>
 <dt><a id="SmartcardExtension-_MinorIoControlCode"></a><a id="smartcardextension-_minoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MINORIOCONTROLCODE"></a><b>SmartcardExtension-&gt;MinorIoControlCode</b></dt>
@@ -452,7 +416,7 @@ Contains the length of the reply buffer.
 </dd>
 <dt><a id="SmartcardExtension-_CardCapabilities.PtsData"></a><a id="smartcardextension-_cardcapabilities.ptsdata"></a><a id="SMARTCARDEXTENSION-_CARDCAPABILITIES.PTSDATA"></a><b>SmartcardExtension-&gt;CardCapabilities.PtsData</b></dt>
 <dd>
-Contains the required parameters to perform the PTS request. For more information, see <a href="..\smclib\ns-smclib-_pts_data.md">PTS_DATA</a>.
+Contains the required parameters to perform the PTS request. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548916">PTS_DATA</a>.
 
 </dd>
 </dl>
@@ -487,7 +451,7 @@ On input, the caller must pass the following values to the function:
 <dl>
 <dt><a id="SmartcardExtension-_MajorIoControlCode"></a><a id="smartcardextension-_majoriocontrolcode"></a><a id="SMARTCARDEXTENSION-_MAJORIOCONTROLCODE"></a><b>SmartcardExtension-&gt;MajorIoControlCode</b></dt>
 <dd>
-Contains <a href="..\winsmcrd\ni-winsmcrd-ioctl_smartcard_transmit.md">IOCTL_SMARTCARD_TRANSMIT</a>.
+Contains <a href="https://msdn.microsoft.com/library/windows/hardware/ff548911">IOCTL_SMARTCARD_TRANSMIT</a>.
 
 </dd>
 <dt><a id="SmartcardExtension-_IoRequest.RequestBuffer"></a><a id="smartcardextension-_iorequest.requestbuffer"></a><a id="SMARTCARDEXTENSION-_IOREQUEST.REQUESTBUFFER"></a><b>SmartcardExtension-&gt;IoRequest.RequestBuffer</b></dt>

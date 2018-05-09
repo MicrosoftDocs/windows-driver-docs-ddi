@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlremoveextracreateparameter.htm
 old-project: ifsk
 ms.assetid: a34845a9-d596-40de-b4d1-0f733818d961
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlRemoveExtraCreateParameter, FsRtlRemoveExtraCreateParameter routine [Installable File System Drivers], fsrtlref_3fa961e9-0dc1-4d4b-a5dc-80883b1db15e.xml, ifsk.fsrtlremoveextracreateparameter, ntifs/FsRtlRemoveExtraCreateParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlRemoveExtraCreateParameter
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlRemoveExtraCreateParameter function
@@ -50,19 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlRemoveExtraCreateParameter</b> routine searches an ECP list for an ECP context structure and, if found, detaches it from the ECP list.
-
-
-## -syntax
-
-
-````
-NTSTATUS FsRtlRemoveExtraCreateParameter(
-  _Inout_   PECP_LIST EcpList,
-  _In_      LPCGUID   EcpType,
-  _Out_     PVOID     *EcpContext,
-  _Out_opt_ ULONG     *EcpContextSize
-);
-````
 
 
 ## -parameters
@@ -135,26 +123,13 @@ The given ECP context structure was not found in the given ECP list.
 
 The <b>FsRtlRemoveExtraCreateParameter</b> routine searches the ECP list given by the <i>EcpList</i> parameter for an ECP context structure given by the <i>EcpType</i> parameter.  If the ECP context structure exists in the list, <b>FsRtlRemoveExtraCreateParameter</b>  detaches the structure from the list, sets the <i>EcpContext</i> parameter to point to the structure, and returns STATUS_SUCCESS. If the ECP context structure does not exist in the list, <b>FsRtlRemoveExtraCreateParameter</b> sets the <i>EcpContext</i> parameter to <b>NULL</b> and returns STATUS_NOT_FOUND.
 
-<div class="alert"><b>Note</b>  <b>FsRtlRemoveExtraCreateParameter</b> does not free the memory pool for the ECP context structure. To free the memory pool for the ECP context structure, first call <b>FsRtlRemoveExtraCreateParameter</b> to detach it from the list and then call the <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a> routine to free the memory pool for the ECP context structure.</div>
+<div class="alert"><b>Note</b>  <b>FsRtlRemoveExtraCreateParameter</b> does not free the memory pool for the ECP context structure. To free the memory pool for the ECP context structure, first call <b>FsRtlRemoveExtraCreateParameter</b> to detach it from the list and then call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542957">FltFreeExtraCreateParameter</a> routine to free the memory pool for the ECP context structure.</div>
 <div> </div>
 
 
 
 ## -see-also
 
-<b>FltAllocateExtraCreateParameterFromLookasideList</b>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
 
 
 
@@ -162,24 +137,36 @@ The <b>FsRtlRemoveExtraCreateParameter</b> routine searches the ECP list given b
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+<b>FltAllocateExtraCreateParameterFromLookasideList</b>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542957">FltFreeExtraCreateParameter</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543016">FltGetEcpListFromCallbackData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543305">FltInsertExtraCreateParameter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544339">FltRemoveExtraCreateParameter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544510">FltSetEcpListIntoCallbackData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a>
  
 
  
-
 

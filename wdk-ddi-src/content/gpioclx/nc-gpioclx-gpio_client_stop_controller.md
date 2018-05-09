@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 4B1A33AC-E341-478E-8C1E-94F4473A191C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_StopController, CLIENT_StopController callback function [Parallel Ports], GPIO.client_stopcontroller, GPIO_CLIENT_STOP_CONTROLLER, gpioclx/CLIENT_StopController
+ms.keywords: CLIENT_StopController, CLIENT_StopController callback, CLIENT_StopController callback function [Parallel Ports], GPIO.client_stopcontroller, GPIO_CLIENT_STOP_CONTROLLER, gpioclx/CLIENT_StopController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_StopController
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_STOP_CONTROLLER callback
+# GPIO_CLIENT_STOP_CONTROLLER callback function
 
 
 ## -description
 
 
 The <i>CLIENT_StopController</i> event callback function performs operations that are needed to prepare the general-purpose I/O (GPIO) controller device to exit the D0 power state.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_STOP_CONTROLLER CLIENT_StopController;
-
-NTSTATUS CLIENT_StopController(
-  _In_ PVOID                  Context,
-  _In_ BOOLEAN                SaveContext,
-  _In_ WDF_POWER_DEVICE_STATE TargetState
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -84,7 +70,7 @@ Whether the client driver should save the current hardware context of the GPIO c
 
 ### -param TargetState [in]
 
-The target device power state. This parameter is a <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a> enumeration value that specifies the low-power state that the device is to enter when it exits the D0 power state. The GPIO controller driver can use this information to determine how to configure the controller device before it leaves D0.
+The target device power state. This parameter is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552421">WDF_POWER_DEVICE_STATE</a> enumeration value that specifies the low-power state that the device is to enter when it exits the D0 power state. The GPIO controller driver can use this information to determine how to configure the controller device before it leaves D0.
 
 
 ## -returns
@@ -153,16 +139,15 @@ The GPIO_CLIENT_STOP_CONTROLLER function type is defined in the Gpioclx.h header
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
  
 
  
-
 

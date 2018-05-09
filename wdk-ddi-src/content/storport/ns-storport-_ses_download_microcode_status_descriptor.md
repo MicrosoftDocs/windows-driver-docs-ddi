@@ -7,7 +7,7 @@ old-location: storage\ses_download_microcode_status_descriptor.htm
 old-project: storage
 ms.assetid: af686e7a-9426-4151-8ac4-d95ae1689b4c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure pointer [Storage Devices], SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, storage.ses_download_microcode_status_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	scsi.h
 api_name:
 -	SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, *PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR</b> structure specifies the status and additional status of a download microcode.
-
-
-## -syntax
-
-
-````
-typedef struct _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR {
-  UCHAR  Reserved1;
-  UCHAR  SubEnclosureId;
-  UCHAR  Status;
-  UCHAR  AdditionalStatus;
-  UCHAR  MaximumImageSize[4];
-  UCHAR  Reserved2[3];
-  UCHAR  ExpectedBufferId;
-  UCHAR  ExpectedBufferOffset;
-} SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, *PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -356,12 +339,11 @@ enclosure services process expects in the <i>BufferOffset</i> field in <a href="
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/09c2746f-cfe4-41dc-82ce-0b7e0c348897">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndis_open_ndk_adapter_parameters.htm
 old-project: netvista
 ms.assetid: AC8D4FA1-59E0-4934-A6C5-EA2E645C53FA
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, NDIS_OPEN_NDK_ADAPTER_PARAMETERS, NDIS_OPEN_NDK_ADAPTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, PNDIS_OPEN_NDK_ADAPTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OPEN_NDK_ADAPTER_PARAMETERS, ndisndk/NDIS_OPEN_NDK_ADAPTER_PARAMETERS, ndisndk/PNDIS_OPEN_NDK_ADAPTER_PARAMETERS, netvista.ndis_open_ndk_adapter_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ndisndk.h
 api_name:
 -	NDIS_OPEN_NDK_ADAPTER_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_OPEN_NDK_ADAPTER_PARAMETERS, *PNDIS_OPEN_NDK_ADAPTER_PARAMETERS
 ---
@@ -50,16 +51,6 @@ req.typenames: NDIS_OPEN_NDK_ADAPTER_PARAMETERS, *PNDIS_OPEN_NDK_ADAPTER_PARAMET
 
 
 The <b>NDIS_OPEN_NDK_ADAPTER_PARAMETERS</b> structure specifies parameters to open an NDK adapter instance on the NDK-capable miniport adapter.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_OPEN_NDK_ADAPTER_PARAMETERS {
-  NDK_VERSION Version;
-} NDIS_OPEN_NDK_ADAPTER_PARAMETERS, *PNDIS_OPEN_NDK_ADAPTER_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -92,23 +83,22 @@ For NDIS 6.40 (Windows Server 2012 R2), the major version number is 1. The  mi
 
 
 
-To open an NDK adapter, NDIS calls the <a href="..\ndisndk\nc-ndisndk-open_ndk_adapter_handler.md">OPEN_NDK_ADAPTER_HANDLER</a> function and passes it a  pointer to an <b>NDIS_OPEN_NDK_ADAPTER_PARAMETERS</b> structure that defines the NDK adapter open parameters.
+To open an NDK adapter, NDIS calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh440105">OPEN_NDK_ADAPTER_HANDLER</a> function and passes it a  pointer to an <b>NDIS_OPEN_NDK_ADAPTER_PARAMETERS</b> structure that defines the NDK adapter open parameters.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439942">NDK_VERSION</a>
 
 
 
-<a href="..\ndisndk\nc-ndisndk-open_ndk_adapter_handler.md">OPEN_NDK_ADAPTER_HANDLER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh440105">OPEN_NDK_ADAPTER_HANDLER</a>
  
 
  
-
 

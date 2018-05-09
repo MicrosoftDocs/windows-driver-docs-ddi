@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_BREADCRUMB_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_BREADCRUMB_V1, *PGNSS_BREADCRUMB_V1
 ---
@@ -50,26 +51,6 @@ req.typenames: GNSS_BREADCRUMB_V1, *PGNSS_BREADCRUMB_V1
 
 
 This structure contains an individual breadcrumb. The order and types of the fields are designed  to pack densely.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  FILETIME       FixTimeStamp;
-  double         Latitude;
-  double         Longitude;
-  ULONG          HorizontalAccuracy;
-  unsigned short Speed;
-  unsigned short SpeedAccuracy;
-  short          Altitude;
-  unsigned short AltitudeAccuracy;
-  short          Heading;
-  unsigned char  HeadingAccuracy;
-  unsigned char  FixSuccess;
-} GNSS_BREADCRUMB_V1, *PGNSS_BREADCRUMB_V1;
-````
 
 
 ## -struct-fields

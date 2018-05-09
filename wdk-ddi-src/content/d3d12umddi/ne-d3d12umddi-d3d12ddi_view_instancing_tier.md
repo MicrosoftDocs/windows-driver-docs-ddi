@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-view-instancing-tier.htm
 old-project: display
 ms.assetid: 4d52ddb2-818f-4b46-b19f-d6eea36a07da
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIEW_INSTANCING_TIER, D3D12DDI_VIEW_INSTANCING_TIER enumeration [Display Devices], D3D12DDI_VIEW_INSTANCING_TIER_1, D3D12DDI_VIEW_INSTANCING_TIER_2, D3D12DDI_VIEW_INSTANCING_TIER_3, D3D12DDI_VIEW_INSTANCING_TIER_NOT_SUPPORTED, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_1, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_2, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_3, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_NOT_SUPPORTED, display.d3d12ddi-view-instancing-tier
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_VIEW_INSTANCING_TIER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIEW_INSTANCING_TIER
 ---
@@ -50,19 +51,6 @@ req.typenames: D3D12DDI_VIEW_INSTANCING_TIER
 
 
 Defines the view instancing tier.
-
-
-## -syntax
-
-
-````
-typedef enum _D3D12DDI_VIEW_INSTANCING_TIER { 
-  D3D12DDI_VIEW_INSTANCING_TIER_NOT_SUPPORTED,
-  D3D12DDI_VIEW_INSTANCING_TIER_1,
-  D3D12DDI_VIEW_INSTANCING_TIER_2,
-  D3D12DDI_VIEW_INSTANCING_TIER_3
-} D3D12DDI_VIEW_INSTANCING_TIER;
-````
 
 
 ## -enum-fields

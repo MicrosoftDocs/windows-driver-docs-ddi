@@ -7,7 +7,7 @@ old-location: display\d3dddi_dxgi_rgb.htm
 old-project: display
 ms.assetid: 4bf25ae0-30fa-49a6-a5a8-c807e14d9857
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_DXGI_RGB, D3DDDI_DXGI_RGB structure [Display Devices], DmStructs_808243de-342c-439b-9ebe-d418ccedd8ff.xml, d3dukmdt/D3DDDI_DXGI_RGB, display.d3dddi_dxgi_rgb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_DXGI_RGB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_DXGI_RGB
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DDDI_DXGI_RGB
 
 
 The D3DDDI_DXGI_RGB structure contains information to describe a gamma function.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDI_DXGI_RGB {
-  float Red;
-  float Green;
-  float Blue;
-} D3DDDI_DXGI_RGB;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ A FLOAT value that is used to describe the gamma function for the blue color cha
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_dxgi_1.md">D3DDDI_GAMMA_RAMP_DXGI_1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544568">D3DDDI_GAMMA_RAMP_DXGI_1</a>
  
 
  
-
 

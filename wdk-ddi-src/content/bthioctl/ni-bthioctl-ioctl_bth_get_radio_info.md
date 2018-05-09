@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bth_get_radio_info.htm
 old-project: bltooth
 ms.assetid: 45803e80-6090-4b64-8c92-6b5efebd1cfc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_BTH_GET_RADIO_INFO, IOCTL_BTH_GET_RADIO_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_radio_info, bth_ioctls_ed6699c7-3a05-46bd-ba8b-d138ce1ad751.xml, bthioctl/IOCTL_BTH_GET_RADIO_INFO
+ms.date: 4/27/2018
+ms.keywords: IOCTL_BTH_GET_RADIO_INFO, IOCTL_BTH_GET_RADIO_INFO control, IOCTL_BTH_GET_RADIO_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_radio_info, bth_ioctls_ed6699c7-3a05-46bd-ba8b-d138ce1ad751.xml, bthioctl/IOCTL_BTH_GET_RADIO_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_GET_RADIO_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
+req.typenames: 
 ---
 
 # IOCTL_BTH_GET_RADIO_INFO IOCTL
@@ -76,7 +77,7 @@ The length of the buffer.
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a> structure. This structure
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536646">BTH_RADIO_INFO</a> structure. This structure
       contains information about the remote radio's feature support for the Link Management Protocol (LMP),
       the radio's manufacturer ID, and its LMP version.
 
@@ -84,7 +85,7 @@ The
 ### -output-buffer-length
 
 The length of a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a> structure. 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536646">BTH_RADIO_INFO</a> structure. 
 
 
 ### -in-out-buffer
@@ -156,12 +157,11 @@ The IOCTL_BTH_GET_RADIO_INFO IOCTL returns similar information as the IOCTL_BTH_
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_radio_info.md">BTH_RADIO_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536646">BTH_RADIO_INFO</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: print\setjobnamedproperty.htm
 old-project: print
 ms.assetid: 6A03B009-21D4-4CD2-9BB5-36F402118270
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: SetJobNamedProperty, SetJobNamedProperty function [Print Devices], print.setjobnamedproperty, winspool/SetJobNamedProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Winspool.h
 api_name:
 -	SetJobNamedProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BIDI_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SetJobNamedProperty function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-DWORD WINAPI SetJobNamedProperty(
-  _In_       HANDLE                    hPrinter,
-  _In_       DWORD                     JobId,
-  _In_ const PrintNamedProperty        *pProperty
-);
-````
 
 
 ## -parameters

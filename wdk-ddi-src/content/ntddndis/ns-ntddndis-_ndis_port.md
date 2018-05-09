@@ -7,7 +7,7 @@ old-location: netvista\ndis_port.htm
 old-project: netvista
 ms.assetid: aef1b7b2-73d3-49ad-a3f2-c06fa1f34839
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_PORT, NDIS_PORT, NDIS_PORT structure [Network Drivers Starting with Windows Vista], PNDIS_PORT, PNDIS_PORT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT, ndis_ports_ref_df9a02e1-4a6b-4901-8794-37a5e30ececb.xml, netvista.ndis_port, ntddndis/NDIS_PORT, ntddndis/PNDIS_PORT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_PORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PORT, *PNDIS_PORT
 ---
@@ -51,20 +52,6 @@ req.typenames: NDIS_PORT, *PNDIS_PORT
 
 The NDIS_PORT structure specifies the characteristics of an NDIS port and a pointer to the next
   element in a linked list of ports.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_PORT {
-  PNDIS_PORT                Next;
-  PVOID                     NdisReserved;
-  PVOID                     MiniportReserved;
-  PVOID                     ProtocolReserved;
-  NDIS_PORT_CHARACTERISTICS PortCharacteristics;
-} NDIS_PORT, *PNDIS_PORT;
-````
 
 
 ## -struct-fields
@@ -95,7 +82,7 @@ Reserved for protocol drivers.
 ### -field PortCharacteristics
 
 An 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">
+     <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
      NDIS_PORT_CHARACTERISTICS</a> structure that specifies the characteristics of the port.
 
 
@@ -111,12 +98,11 @@ The NDIS_PORT structure is used to create a linked list of ports. Such a linked 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566791">NDIS_PORT_CHARACTERISTICS</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dddi_multiplane_overlay_caps.htm
 old-project: display
 ms.assetid: 66365126-d7c3-4886-b14f-a94dc12c1626
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_CAPS, D3DDDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_CAPS, display.d3dddi_multiplane_overlay_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDI_MULTIPLANE_OVERLAY_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_MULTIPLANE_OVERLAY_CAPS
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDI_MULTIPLANE_OVERLAY_CAPS
 
 
 Used by the user-mode display driver to specify overlay plane capabilities.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDI_MULTIPLANE_OVERLAY_CAPS {
-  UINT MaxPlanes;
-  UINT NumCapabilityGroups;
-} D3DDDI_MULTIPLANE_OVERLAY_CAPS;
-````
 
 
 ## -struct-fields

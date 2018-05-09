@@ -7,7 +7,7 @@ old-location: hid\hidp_getspecificbuttoncaps.htm
 old-project: hid
 ms.assetid: 923693a2-cb46-4f74-bb1b-cd7bb07014e8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidP_GetSpecificButtonCaps, HidP_GetSpecificButtonCaps routine [Human Input Devices], hid.hidp_getspecificbuttoncaps, hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, hidpi/HidP_GetSpecificButtonCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Hidparse.dll
 api_name:
 -	HidP_GetSpecificButtonCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_GetSpecificButtonCaps function
@@ -53,22 +54,6 @@ req.typenames: HIDP_REPORT_TYPE
 The <b>HidP_GetSpecificButtonCaps</b> routine returns a <a href="https://msdn.microsoft.com/139324e5-4d46-4d00-9f5a-fd0313fc109a">button capability array</a> that describes all HID control buttons in a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a> that meet a specified selection criteria.
 
 
-## -syntax
-
-
-````
-NTSTATUS __stdcall HidP_GetSpecificButtonCaps(
-  _In_    HIDP_REPORT_TYPE     ReportType,
-  _In_    USAGE                UsagePage,
-  _In_    USHORT               LinkCollection,
-  _In_    USAGE                Usage,
-  _Out_   PHIDP_BUTTON_CAPS    ButtonCaps,
-  _Inout_ PUSHORT              ButtonCapsLength,
-  _In_    PHIDP_PREPARSED_DATA PreparsedData
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +61,7 @@ NTSTATUS __stdcall HidP_GetSpecificButtonCaps(
 
 ### -param ReportType [in]
 
-Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539774">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
 
 
 ### -param UsagePage [in]
@@ -152,7 +137,7 @@ The preparsed data is not valid.
 
 
 
-The required size of the <i>ButtonCaps</i> array is specified by the <b>Number</b><i>Xxx</i><b>ButtonCaps </b>members of a top-level collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
+The required size of the <i>ButtonCaps</i> array is specified by the <b>Number</b><i>Xxx</i><b>ButtonCaps </b>members of a top-level collection's <a href="https://msdn.microsoft.com/library/windows/hardware/ff539697">HIDP_CAPS</a> structure.
 
 When calling <b>HidP_GetSpecificButtonCaps</b>, specifying zero for <i>UsagePage</i>, <i>Usage</i>, and <i>LinkCollection</i> is equivalent to calling <b>HidP_GetButtonCaps</b>.
 
@@ -165,24 +150,23 @@ See also <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac3020995
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getbuttoncaps.md">HidP_GetButtonCaps</a>
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539693">HIDP_BUTTON_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539707">HidP_GetButtonCaps</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539715">HidP_GetCaps</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-
-
-
  
 
  
-
 

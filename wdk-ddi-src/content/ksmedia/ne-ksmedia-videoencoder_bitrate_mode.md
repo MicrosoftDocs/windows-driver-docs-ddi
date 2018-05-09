@@ -7,7 +7,7 @@ old-location: stream\videoencoder_bitrate_mode.htm
 old-project: stream
 ms.assetid: f941269b-65f3-4245-994f-0a4f6356cf88
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: ConstantBitRate, VIDEOENCODER_BITRATE_MODE, VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices], VariableBitRateAverage, VariableBitRatePeak, encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, ksmedia/ConstantBitRate, ksmedia/VIDEOENCODER_BITRATE_MODE, ksmedia/VariableBitRateAverage, ksmedia/VariableBitRatePeak, stream.videoencoder_bitrate_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	VIDEOENCODER_BITRATE_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEOENCODER_BITRATE_MODE
 ---
@@ -50,18 +51,6 @@ req.typenames: VIDEOENCODER_BITRATE_MODE
 
 
 The VIDEOENCODER_BITRATE_MODE enumeration describes the bit rate encoding modes supported by the device.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  ConstantBitRate         = 0,
-  VariableBitRateAverage  = 1,
-  VariableBitRatePeak     = 2
-} VIDEOENCODER_BITRATE_MODE;
-````
 
 
 ## -enum-fields
@@ -100,11 +89,10 @@ When <b>VariableBitRatePeak</b> mode is used, the <a href="https://msdn.microsof
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559520">ENCAPIPARAM_BITRATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a>
 
 
 
@@ -112,8 +100,8 @@ When <b>VariableBitRatePeak</b> mode is used, the <a href="https://msdn.microsof
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559529">ENCAPIPARAM_PEAK_BITRATE</a>
  
 
  
-
 

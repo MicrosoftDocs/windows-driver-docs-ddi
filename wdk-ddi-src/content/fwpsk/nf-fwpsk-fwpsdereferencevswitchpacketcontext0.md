@@ -7,7 +7,7 @@ old-location: netvista\fwpsdereferencevswitchpacketcontext0.htm
 old-project: netvista
 ms.assetid: 9A315227-7305-4068-81DE-BD25F733E650
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsDereferencevSwitchPacketContext0, FwpsDereferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsDereferencevSwitchPacketContext0, netvista.fwpsdereferencevswitchpacketcontext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsDereferencevSwitchPacketContext0
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsDereferencevSwitchPacketContext0 function
@@ -53,16 +54,6 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 This function is not supported.
 
 
-## -syntax
-
-
-````
-void NTAPI FwpsDereferencevSwitchPacketContext0(
-   _Inout_ HANDLE packetContext
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ void NTAPI FwpsDereferencevSwitchPacketContext0(
 
 ### -param packetContext
 
-The <b>vSwitchPacketContext</b> value in the <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to callouts during virtual switch transport layer classifies (the FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID bit will be set in the <b>currentL2MetadataValues</b> member). 
+The <b>vSwitchPacketContext</b> value in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to callouts during virtual switch transport layer classifies (the FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID bit will be set in the <b>currentL2MetadataValues</b> member). 
 
 
 ## -returns
@@ -86,23 +77,22 @@ None.
 
 
 
-The <b>FwpsDereferencevSwitchPacketContext0</b> function releases a reference  that was acquired by the <a href="..\fwpsk\nf-fwpsk-fwpsreferencevswitchpacketcontext0.md">FwpsReferencevSwitchPacketContext0</a> function.
+The <b>FwpsDereferencevSwitchPacketContext0</b> function releases a reference  that was acquired by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh698268">FwpsReferencevSwitchPacketContext0</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsreferencevswitchpacketcontext0.md">FwpsReferencevSwitchPacketContext0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698268">FwpsReferencevSwitchPacketContext0</a>
  
 
  
-
 

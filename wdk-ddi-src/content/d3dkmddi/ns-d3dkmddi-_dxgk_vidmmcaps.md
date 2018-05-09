@@ -7,7 +7,7 @@ old-location: display\dxgk_vidmmcaps.htm
 old-project: display
 ms.assetid: c3df50a0-2388-4760-b6e2-ef6af650d0e2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices], DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, _DXGK_VIDMMCAPS, d3dkmddi/DXGK_VIDMMCAPS, display.dxgk_vidmmcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,18 +16,18 @@ req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_VIDMMCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_VIDMMCAPS
 ---
@@ -52,43 +53,6 @@ req.typenames: DXGK_VIDMMCAPS
 The <b>DXGK_VIDMMCAPS</b> structure identifies the video memory management capabilities that a display miniport driver can support.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_VIDMMCAPS {
-  union {
-    struct {
-      UINT OutOfOrderLock  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN7)
-      UINT DedicatedPagingEngine  :1;
-      UINT PagingEngineCanSwizzle  :1;
-      UINT SectionBackedPrimary  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-      UINT CrossAdapterResource  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-      UINT VirtualAddressingSupported  :1;
-      UINT GpuMmuSupported  :1;
-      UINT IoMmuSupported  :1;
-      UINT ReplicateGdiContent  :1;
-      UINT Reserved  :23;
-#else 
-      UINT Reserved  :27;
-#endif 
-#else 
-      UINT Reserved  :28;
-#endif 
-#else 
-      UINT Reserved  :31;
-#endif 
-    };
-    UINT Value;
-  };
-  UINT PagingNode;
-} DXGK_VIDMMCAPS;
-````
-
-
 ## -struct-fields
 
 
@@ -96,9 +60,9 @@ typedef struct _DXGK_VIDMMCAPS {
 
 ### -field OutOfOrderLock
 
-Specifies whether the driver can lock allocation instances other than the latest instance. The driver typically sets this value for DDI threading and load balancing if a DDI thread must lock a vertex buffer that an application thread had previously locked and discarded. 
+Specifies whether the driver can lock allocation instances other than the latest instance. The driver typically sets this value for DDI threading and load balancing if a DDI thread must lock a vertex buffer that an application thread had previously locked and discarded.
 
-Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001). 
+Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
 
 ### -field DedicatedPagingEngine
@@ -159,17 +123,15 @@ Supported starting with Windows 10.
 
 ### -field NonCpuVisiblePrimary
 
- 
+
 
 
 ### -field ParavirtualizationSupported
 
- 
+The host KMD needs to set the cap if all DDIs are implemented.
 
 
 ### -field Reserved
-
-This member is reserved and should be set to zero.
 
 This member is reserved and should be set to zero.
 
@@ -177,31 +139,31 @@ This member is reserved and should be set to zero. Setting this member to zero i
 
 Note that this version of the <b>Reserved</b> member is available only if DXGKDDI_INTERFACE_VERSION &lt; DXGKDDI_INTERFACE_VERSION_WIN7.
 
-This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (after setting <b>OutOfOrderLock</b>) of the <b>Value</b> member to zeros. 
+This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (after setting <b>OutOfOrderLock</b>) of the <b>Value</b> member to zeros.
 
 Note that this version of the <b>Reserved</b> member is available only if DXGKDDI_INTERFACE_VERSION &lt; DXGKDDI_INTERFACE_VERSION_WIN7.
 
 
-### -field PagingNode
-
-The zero-based index of the node to use for paging operations. If the driver does not set the <b>MultiEngineAware</b> bit-field member of the <b>SchedulingCaps</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure, the DirectX graphics kernel subsystem ignores the setting of <b>PagingNode</b>. 
-
-
-#### - Value
+### -field Value
 
 
        A 32-bit value.
       
 
 
+### -field PagingNode
+
+       A 32-bit value.
+
+
+
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>
  
 
  
-
 

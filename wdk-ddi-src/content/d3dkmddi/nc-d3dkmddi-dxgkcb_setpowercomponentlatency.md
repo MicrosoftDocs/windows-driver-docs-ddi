@@ -7,8 +7,8 @@ old-location: display\dxgkcbsetpowercomponentlatency.htm
 old-project: display
 ms.assetid: 8FF86746-15A2-4BDF-98AF-23B5F9960DB9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKCB_SETPOWERCOMPONENTLATENCY, DxgkCbSetPowerComponentLatency, DxgkCbSetPowerComponentLatency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentLatency, display.dxgkcbsetpowercomponentlatency
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_SETPOWERCOMPONENTLATENCY, DXGKCB_SETPOWERCOMPONENTLATENCY callback, DxgkCbSetPowerComponentLatency, DxgkCbSetPowerComponentLatency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentLatency, display.dxgkcbsetpowercomponentlatency
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DxgkCbSetPowerComponentLatency
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKCB_SETPOWERCOMPONENTLATENCY callback
+# DXGKCB_SETPOWERCOMPONENTLATENCY callback function
 
 
 ## -description
 
 
 Called by the display miniport driver to set the latency tolerance for a power component of type <b>DXGK_POWER_COMPONENT_OTHER</b>.
-
-
-## -prototype
-
-
-````
-DXGKCB_SETPOWERCOMPONENTLATENCY DxgkCbSetPowerComponentLatency;
-
-VOID APIENTRY CALLBACK* DxgkCbSetPowerComponentLatency(
-  _In_ const HANDLE    hAdapter,
-             UINT      ComponentIndex,
-             ULONGLONG Latency
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -74,12 +60,12 @@ VOID APIENTRY CALLBACK* DxgkCbSetPowerComponentLatency(
 
 ### -param hAdapter [in]
 
-A handle to the display adapter. The display miniport driver receives the handle from the <b>DeviceHandle</b> member of the <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a> structure in a call to its <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
+A handle to the display adapter. The display miniport driver receives the handle from the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure in a call to its <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 ### -param ComponentIndex
 
-The power component index specified by  <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>.<b>pInputData</b> in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function.
+The power component index specified by  <a href="https://msdn.microsoft.com/library/windows/hardware/ff557621">DXGKARG_QUERYADAPTERINFO</a>.<b>pInputData</b> in a call to the <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> function.
 
 
 ### -param Latency
@@ -113,24 +99,23 @@ If the driver sets <i>Latency</i> to a value of <b>PO_FX_UNKNOWN_TIME</b> (defin
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557621">DXGKARG_QUERYADAPTERINFO</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+<a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>
  
 
  
-
 

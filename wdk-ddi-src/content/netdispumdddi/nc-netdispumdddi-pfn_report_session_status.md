@@ -7,8 +7,8 @@ old-location: display\reportsessionstatus.htm
 old-project: display
 ms.assetid: a3e44e55-5c6a-4a79-8caa-3a3b9db6b456
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFN_REPORT_SESSION_STATUS, ReportSessionStatus, ReportSessionStatus callback function [Display Devices], display.reportsessionstatus, netdispumdddi/ReportSessionStatus
+ms.date: 4/16/2018
+ms.keywords: PFN_REPORT_SESSION_STATUS, PFN_REPORT_SESSION_STATUS callback, ReportSessionStatus, ReportSessionStatus callback function [Display Devices], display.reportsessionstatus, netdispumdddi/ReportSessionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	ReportSessionStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: 
 ---
 
-# PFN_REPORT_SESSION_STATUS callback
+# PFN_REPORT_SESSION_STATUS callback function
 
 
 ## -description
@@ -54,21 +55,6 @@ Called by the user-mode display driver to report the status of the current Mirac
 
 
 
-## -prototype
-
-
-````
-PFN_REPORT_SESSION_STATUS ReportSessionStatus;
-
-VOID ReportSessionStatus(
-  _In_ HANDLE          hMiracastDeviceHandle,
-  _In_ MIRACAST_STATUS MiracastStatus,
-  _In_ NTSTATUS        Status
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,12 +62,12 @@ VOID ReportSessionStatus(
 
 ### -param hMiracastDeviceHandle [in]
 
-A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a> function.
+A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a> function.
 
 
 ### -param MiracastStatus [in]
 
-The current status of the Miracast link, of type <a href="..\netdispumdddi\ne-netdispumdddi-miracast_status.md">MIRACAST_STATUS</a>.
+The current status of the Miracast link, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn265481">MIRACAST_STATUS</a>.
 
 
 ### -param Status [in]
@@ -109,16 +95,15 @@ If the Miracast user-mode driver reports an error in the <i>MiracastStatus</i> p
 
 ## -see-also
 
-<a href="..\netdispumdddi\ne-netdispumdddi-miracast_status.md">MIRACAST_STATUS</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+<a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265481">MIRACAST_STATUS</a>
  
 
  
-
 

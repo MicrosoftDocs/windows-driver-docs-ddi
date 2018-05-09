@@ -7,7 +7,7 @@ old-location: storage\storportsetpowersettingnotificationguids.htm
 old-project: storage
 ms.assetid: FB74E774-8CDE-4DE4-942E-10AF4BEFF63C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: Adaptive Setting, HIPM/DIPM Setting, StorPortSetPowerSettingNotificationGuids, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortSetPowerSettingNotificationGuids
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortSetPowerSettingNotificationGuids function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortSetPowerSettingNotificationGuids</b> routine enables a miniport to receive power setting notifications. The miniport registers an array of GUIDs which identify the power settings to receive power change notifications for.
-
-
-## -syntax
-
-
-````
-ULONG StorPortSetPowerSettingNotificationGuids(
-  _In_ PVOID  HwDeviceExtension,
-  _In_ ULONG  GuidCount,
-  _In_ LPGUID Guid
-);
-````
 
 
 ## -parameters
@@ -186,9 +174,9 @@ The notification GUIDs were registered successfully.
 
 
 
-A miniport calls <b>StorPortSetPowerSettingNotificationGuids</b> in its <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine to register the GUIDs it requests to receive notifications for.
+A miniport calls <b>StorPortSetPowerSettingNotificationGuids</b> in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> routine to register the GUIDs it requests to receive notifications for.
 
-When a power state change occurs for a registered notification, the miniport is notified in its <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a> routine. The control type of <b>ScsiPowerSettingNotification</b> is set in the <i>ControlType</i> parameter.
+When a power state change occurs for a registered notification, the miniport is notified in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a> routine. The control type of <b>ScsiPowerSettingNotification</b> is set in the <i>ControlType</i> parameter.
 
 The AHCI Link Power management settings are part of the Disk Settings subgroup (0012ee47-9041-4b5d-9b77-535fba8b1442) in the power policy configuration. These are managed under the SUB_DISK configuration  alias with <i>powercfg.exe</i>.
 
@@ -197,16 +185,15 @@ The AHCI Link Power management settings are part of the Disk Settings subgroup (
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a>
  
 
  
-
 

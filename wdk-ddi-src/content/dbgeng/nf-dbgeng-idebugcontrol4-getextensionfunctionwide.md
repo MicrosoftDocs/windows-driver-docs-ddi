@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetExtensionFunctionWide
-title: IDebugControl4::GetExtensionFunctionWide method
+title: IDebugControl4::GetExtensionFunctionWide
 author: windows-driver-content
 description: The GetExtensionFunctionWide method returns a pointer to an extension function from an extension library.
 old-location: debugger\getextensionfunctionwide.htm
 old-project: debugger
 ms.assetid: 351859d5-89fb-4756-a75b-fd4048cb20ef
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetExtensionFunctionWide method [Windows Debugging], GetExtensionFunctionWide method [Windows Debugging], IDebugControl4 interface, GetExtensionFunctionWide,IDebugControl4.GetExtensionFunctionWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExtensionFunctionWide method, IDebugControl4::GetExtensionFunctionWide, dbgeng/IDebugControl4::GetExtensionFunctionWide, debugger.getextensionfunctionwide
+ms.date: 4/24/2018
+ms.keywords: GetExtensionFunctionWide, GetExtensionFunctionWide method [Windows Debugging], GetExtensionFunctionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExtensionFunctionWide method, IDebugControl4.GetExtensionFunctionWide, IDebugControl4::GetExtensionFunctionWide, dbgeng/IDebugControl4::GetExtensionFunctionWide, debugger.getextensionfunctionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.GetExtensionFunctionWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetExtensionFunctionWide method
+# IDebugControl4::GetExtensionFunctionWide
 
 
 ## -description
 
 
 The <b>GetExtensionFunctionWide</b>  method returns a pointer to an extension function from an extension library.
-
-
-## -syntax
-
-
-````
-HRESULT GetExtensionFunctionWide(
-  [in]  ULONG64 Handle,
-  [in]  PCWSTR  FuncName,
-  [out] FARPROC *Function
-);
-````
 
 
 ## -parameters
@@ -127,7 +116,10 @@ For more information on using extension functions, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 
 
 
@@ -139,12 +131,8 @@ For more information on using extension functions, see <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  
-
 

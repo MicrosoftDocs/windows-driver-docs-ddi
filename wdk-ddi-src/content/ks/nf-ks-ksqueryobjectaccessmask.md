@@ -7,7 +7,7 @@ old-location: stream\ksqueryobjectaccessmask.htm
 old-project: stream
 ms.assetid: 7631baa9-6d5a-44b6-ac19-2b3ecaac9293
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsQueryObjectAccessMask, KsQueryObjectAccessMask function [Streaming Media Devices], ks/KsQueryObjectAccessMask, ksfunc_f79d4971-874e-4efd-ab73-d88cdd573991.xml, stream.ksqueryobjectaccessmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsQueryObjectAccessMask
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The <b>KsQueryObjectAccessMask</b> function returns the access originally granted to the first client that created a handle on the associated object. Access cannot be changed by duplicating handles.
-
-
-## -syntax
-
-
-````
-ACCESS_MASK KsQueryObjectAccessMask(
-  _In_ KSOBJECT_HEADER Header
-);
-````
 
 
 ## -parameters
@@ -84,12 +75,11 @@ The <b>KsQueryObjectAccessMask</b> function returns an access mask.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560972">KsAllocateObjectHeader</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\kstopology_connection.htm
 old-project: stream
 ms.assetid: 604be66a-bec7-48db-b038-aaaf78043965
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [Streaming Media Devices], PCCONNECTION_DESCRIPTOR, PCCONNECTION_DESCRIPTOR structure, PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [Streaming Media Devices], ks-struct_b688f291-7064-492b-8ab6-5f167941ebbf.xml, ks/KSTOPOLOGY_CONNECTION, ks/PKSTOPOLOGY_CONNECTION, stream.kstopology_connection"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSTOPOLOGY_CONNECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION
 ---
@@ -52,19 +53,6 @@ req.typenames: KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION
 The KSTOPOLOGY_CONNECTION structure describes a single data-path connection inside a kernel streaming filter.
 
 PCCONNECTION_DESCRIPTOR is an alias for KSTOPOLOGY_CONNECTION. 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG FromNode;
-  ULONG FromNodePin;
-  ULONG ToNode;
-  ULONG ToNodePin;
-} KSTOPOLOGY_CONNECTION, *PKSTOPOLOGY_CONNECTION;
-````
 
 
 ## -struct-fields
@@ -163,7 +151,7 @@ When the pin on one end of a connection is an input or output pin on the filter 
 
 Avoid confusing logical pins, which are used solely to describe connection points on nodes within a filter, with the external pins that filters use to connect to other filters. Logical pins are rarely used outside of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a> structure. In this document, the term <i>pin</i> refers to a pin on a KS filter rather than a logical pin on a node unless noted otherwise.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method outputs a <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_9.md">PCFILTER_DESCRIPTOR</a> structure that contains a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a> array.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method outputs a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537694">PCFILTER_DESCRIPTOR</a> structure that contains a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a> array.
 
 For a simple code example that shows how the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a> structure is used, see <a href="https://msdn.microsoft.com/bf791f40-b2fb-48fe-8350-3b926db4ead7">Exposing Filter Topology</a>.
 
@@ -172,7 +160,10 @@ For a simple code example that shows how the <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566598">KSPROPSETID_Topology</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556501">BdaPropertyTemplateConnections</a>
 
 
 
@@ -180,16 +171,12 @@ For a simple code example that shows how the <a href="https://msdn.microsoft.com
 
 
 
-<a href="..\bdasup\nf-bdasup-bdapropertytemplateconnections.md">BdaPropertyTemplateConnections</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566598">KSPROPSETID_Topology</a>
  
 
  
-
 

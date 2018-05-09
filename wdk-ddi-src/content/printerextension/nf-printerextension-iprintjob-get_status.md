@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: printerextension.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -39,7 +39,8 @@ api_location:
 api_name:
 -	IPrintJob.Status
 -	IPrintJob.get_Status
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
 req.product: Windows 10 or later.
@@ -56,31 +57,20 @@ Gets the current status of the print job.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Status(
-  [out, retval] PrintJobStatus *pStatus
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
 
 
 
-<a href="..\printerextension\ne-printerextension-tagprintjobstatus.md">PrintJobStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265435">PrintJobStatus</a>
  
 
  
-
 

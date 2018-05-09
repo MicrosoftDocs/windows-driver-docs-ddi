@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_set_xon.htm
 old-project: serports
 ms.assetid: 082a02dc-93c2-495d-bc20-cb3510c00d78
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_SET_XON, IOCTL_SERIAL_SET_XON control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_XON, serports.ioctl_serial_set_xon, serref_1c7446da-0080-45f4-af38-c674b874883d.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_SET_XON, IOCTL_SERIAL_SET_XON control, IOCTL_SERIAL_SET_XON control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_XON, serports.ioctl_serial_set_xon, serref_1c7446da-0080-45f4-af38-c674b874883d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_SET_XON
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_SET_XON IOCTL
@@ -104,12 +105,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_xoff.md">IOCTL_SERIAL_SET_XOFF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546784">IOCTL_SERIAL_SET_XOFF</a>
  
 
  
-
 

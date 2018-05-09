@@ -7,7 +7,7 @@ old-location: netvista\rilcallmediastate.htm
 old-project: netvista
 ms.assetid: 1fe4b90e-f89a-4ccc-bc92-b6f2edfb0b98
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILCALLMEDIASTATE, RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediastate, ntddrilapitypes/RILCALLMEDIASTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIASTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIASTATE, *LPRILCALLMEDIASTATE
-req.product: Windows 10 or later.
 ---
 
 # RILCALLMEDIASTATE structure
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLMEDIASTATE {
-  RILCALLMEDIADIRECTION    dwDirection;
-  RILCALLMEDIATYPE         dwCallMediaType;
-  NULL                     RILCALLMEDIASTATEUNION;
-  RILCALLMEDIASTATEUNION   mediaStateUnion;
-  RILCALLAUDIOMEDIASTATE   stAudioState;
-  RILCALLVIDEOMEDIASTATE   stVideoState;
-  RILCALLCUSTOMMEDIASTATE  dwCustomStateSpecific;
-  DWORD [16]               pad;
-} RILCALLMEDIASTATE, RILCALLMEDIASTATE;
-````
 
 
 ## -struct-fields
@@ -82,6 +65,26 @@ typedef struct _RILCALLMEDIASTATE {
 
 
 ### -field mediaStateUnion
+
+
+### -field mediaStateUnion.stAudioState
+
+ 
+
+
+### -field mediaStateUnion.stVideoState
+
+ 
+
+
+### -field mediaStateUnion.dwCustomStateSpecific
+
+ 
+
+
+### -field mediaStateUnion.pad
+
+ 
 
 
 ### -field RILCALLMEDIASTATEUNION

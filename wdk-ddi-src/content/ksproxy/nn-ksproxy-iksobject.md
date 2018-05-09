@@ -7,8 +7,8 @@ old-location: stream\iksobject.htm
 old-project: stream
 ms.assetid: c4422564-3fc0-4087-b628-056488c723e6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsObject, IKsObject interface [Streaming Media Devices], IKsObject interface [Streaming Media Devices], described, ksproxy_6432effa-13f1-4b39-a158-c315a93108d4.xml, stream.iksobject
+ms.date: 4/23/2018
+ms.keywords: IKsObject, IKsObject interface [Streaming Media Devices], IKsObject interface [Streaming Media Devices],described, ksproxy_6432effa-13f1-4b39-a158-c315a93108d4.xml, stream.iksobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -39,9 +39,10 @@ api_location:
 -	ksproxy.h.dll
 api_name:
 -	IKsObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
 # IKsObject interface

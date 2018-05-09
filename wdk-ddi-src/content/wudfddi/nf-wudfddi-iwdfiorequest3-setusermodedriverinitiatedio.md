@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest3.SetUserModeDriverInitiatedIo
-title: IWDFIoRequest3::SetUserModeDriverInitiatedIo method
+title: IWDFIoRequest3::SetUserModeDriverInitiatedIo
 author: windows-driver-content
 description: The SetUserModeDriverInitiatedIo method indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver.
 old-location: wdf\iwdfiorequest3_setusermodedriverinitiatedio.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F494ED4C-DA2F-4630-B0CA-8B3BE7D26A80
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest3, IWDFIoRequest3 interface, SetUserModeDriverInitiatedIo method, IWDFIoRequest3::SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo method, SetUserModeDriverInitiatedIo method, IWDFIoRequest3 interface, SetUserModeDriverInitiatedIo,IWDFIoRequest3.SetUserModeDriverInitiatedIo, umdf.iwdfiorequest3_setusermodedriverinitiatedio, wdf.iwdfiorequest3_setusermodedriverinitiatedio, wudfddi/IWDFIoRequest3::SetUserModeDriverInitiatedIo
+ms.keywords: IWDFIoRequest3 interface,SetUserModeDriverInitiatedIo method, IWDFIoRequest3.SetUserModeDriverInitiatedIo, IWDFIoRequest3::SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo method, SetUserModeDriverInitiatedIo method,IWDFIoRequest3 interface, umdf.iwdfiorequest3_setusermodedriverinitiatedio, wdf.iwdfiorequest3_setusermodedriverinitiatedio, wudfddi/IWDFIoRequest3::SetUserModeDriverInitiatedIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest3.SetUserModeDriverInitiatedIo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest3::SetUserModeDriverInitiatedIo method
+# IWDFIoRequest3::SetUserModeDriverInitiatedIo
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetUserModeDriverInitiatedIo</b> method 
    
   indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver.
-
-
-## -syntax
-
-
-````
-void SetUserModeDriverInitiatedIo(
-  [in] BOOL IsUserModeDriverInitiated
-);
-````
 
 
 ## -parameters
@@ -90,7 +80,7 @@ This method does not return a value.
 
 
 
-If a UMDF driver calls this method with the <i>IsUserModeDriverInitiated</i> parameter set to <b>TRUE</b>, the framework sets the IRP_UM_DRIVER_INITIATED_IO flag in the <b>Flags</b> member of the WDM <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure before forwarding the request to kernel-mode drivers.
+If a UMDF driver calls this method with the <i>IsUserModeDriverInitiated</i> parameter set to <b>TRUE</b>, the framework sets the IRP_UM_DRIVER_INITIATED_IO flag in the <b>Flags</b> member of the WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure before forwarding the request to kernel-mode drivers.
 
 A kernel-mode driver that resides below the UMDF driver in the same device stack can check for this flag to determine if the request should be treated as though initiated by a UMDF driver.
 
@@ -100,18 +90,13 @@ A UMDF driver might set the <i>IsUserModeDriverInitiated</i> parameter to <b>TRU
 
 Requests that the driver created on its own are already marked as having originated from a UMDF driver.
 
-The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetusermodedriverinitiatedio.md">WdfRequestSetUserModeDriverInitiatedIo</a>.
+The UMDF 2 equivalent of this method is <a href="https://msdn.microsoft.com/library/windows/hardware/dn265623">WdfRequestSetUserModeDriverInitiatedIo</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetusermodedriverinitiatedio.md">WdfRequestSetUserModeDriverInitiatedIo</a>
 
 
 
@@ -119,8 +104,12 @@ The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdf
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451337">IWDFIoRequest3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265623">WdfRequestSetUserModeDriverInitiatedIo</a>
  
 
  
-
 

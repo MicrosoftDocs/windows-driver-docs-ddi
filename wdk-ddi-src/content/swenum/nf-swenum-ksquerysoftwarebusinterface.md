@@ -7,7 +7,7 @@ old-location: stream\ksquerysoftwarebusinterface.htm
 old-project: stream
 ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, stream.ksquerysoftwarebusinterface, swenum/KsQuerySoftwareBusInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	swenum.h
 api_name:
 -	KsQuerySoftwareBusInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KsQuerySoftwareBusInterface function
@@ -52,18 +52,7 @@ req.product: Windows 10 or later.
 
 <i>This function is intended for internal use only.</i>
 
-The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsQuerySoftwareBusInterface(
-  _In_  PDEVICE_OBJECT        PnpDeviceObject,
-  _Out_ PBUS_INTERFACE_SWENUM BusInterface
-);
-````
+The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>. 
 
 
 ## -parameters
@@ -101,20 +90,19 @@ A minidriver can access this function through the <b>QueryReferenceString</b> me
 
 ## -see-also
 
-<a href="..\swenum\ns-swenum-_bus_interface_swenum.md">BUS_INTERFACE_SWENUM</a>
 
 
 
-<a href="..\swenum\nf-swenum-ksreferencesoftwarebusobject.md">KsReferenceSoftwareBusObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557589">BUS_INTERFACE_SWENUM</a>
 
 
 
-<a href="..\swenum\nf-swenum-ksdereferencesoftwarebusobject.md">KsDereferenceSoftwareBusObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561678">KsDereferenceSoftwareBusObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566763">KsReferenceSoftwareBusObject</a>
  
 
  
-
 

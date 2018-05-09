@@ -7,7 +7,7 @@ old-location: stream\ksmpegvid_rect.htm
 old-project: stream
 ms.assetid: 3fde33d4-a9c8-4647-bd2d-3da66f13ef8a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSMPEGVID_RECT, KSMPEGVID_RECT, KSMPEGVID_RECT structure [Streaming Media Devices], PKSMPEGVID_RECT, PKSMPEGVID_RECT structure pointer [Streaming Media Devices], _KSMPEGVID_RECT, ksmedia/KSMPEGVID_RECT, ksmedia/PKSMPEGVID_RECT, stream.ksmpegvid_rect, vidcapstruct_ceaab9c9-ac63-4248-9365-fd9694a0b440.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSMPEGVID_RECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSMPEGVID_RECT, *PKSMPEGVID_RECT
 ---
@@ -49,19 +50,6 @@ req.typenames: KSMPEGVID_RECT, *PKSMPEGVID_RECT
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _KSMPEGVID_RECT {
-  ULONG StartX;
-  ULONG StartY;
-  ULONG EndX;
-  ULONG EndY;
-} KSMPEGVID_RECT, *PKSMPEGVID_RECT;
-````
 
 
 ## -struct-fields

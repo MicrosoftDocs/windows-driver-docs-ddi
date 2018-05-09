@@ -7,8 +7,8 @@ old-location: display\getcaps_d3d10_2_.htm
 old-project: display
 ms.assetid: 83cd5f34-5f12-4ead-ad33-366fc3c6e804
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetCaps, GetCaps callback function [Display Devices], PFND3D10_2DDI_GETCAPS, UserModeDisplayDriverDx11_Functions_b0f0ebe4-205d-4eb5-ad35-e91dbcb21a1c.xml, d3d10umddi/GetCaps, display.getcaps_d3d10_2_
+ms.date: 4/16/2018
+ms.keywords: GetCaps, GetCaps callback function [Display Devices], PFND3D10_2DDI_GETCAPS, PFND3D10_2DDI_GETCAPS callback, UserModeDisplayDriverDx11_Functions_b0f0ebe4-205d-4eb5-ad35-e91dbcb21a1c.xml, d3d10umddi/GetCaps, display.getcaps_d3d10_2_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	GetCaps
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10_2DDI_GETCAPS callback
+# PFND3D10_2DDI_GETCAPS callback function
 
 
 ## -description
@@ -52,26 +53,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <i>GetCaps(D3D10_2)</i> function queries for capabilities of the graphics adapter. 
 
 
-## -prototype
-
-
-````
-PFND3D10_2DDI_GETCAPS GetCaps;
-
-HRESULT APIENTRY GetCaps(
-  _In_       D3D10DDI_HADAPTER     hAdapter,
-  _In_ const D3D10_2DDIARG_GETCAPS *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HADAPTER
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +77,7 @@ HRESULT APIENTRY GetCaps(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541887">D3D10_2DDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
 
 
 ## -returns
@@ -136,23 +123,22 @@ The capabilities are successfully retrieved.
 
 
 
-The data that is returned by the <i>GetCaps(D3D10_2)</i> function in the <b>pData</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a> structure depends on the type of data that is requested (that is, the data depends on the <b>Type</b> member of D3D10_2DDIARG_GETCAPS and sometimes on the <b>pInfo</b> member). 
+The data that is returned by the <i>GetCaps(D3D10_2)</i> function in the <b>pData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541887">D3D10_2DDIARG_GETCAPS</a> structure depends on the type of data that is requested (that is, the data depends on the <b>Type</b> member of D3D10_2DDIARG_GETCAPS and sometimes on the <b>pInfo</b> member). 
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddiarg_getcaps.md">D3D10_2DDIARG_GETCAPS</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_2ddi_adapterfuncs.md">D3D10_2DDI_ADAPTERFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541887">D3D10_2DDIARG_GETCAPS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541900">D3D10_2DDI_ADAPTERFUNCS</a>
  
 
  
-
 

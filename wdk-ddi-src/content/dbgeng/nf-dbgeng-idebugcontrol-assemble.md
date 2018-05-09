@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.Assemble
-title: IDebugControl::Assemble method
+title: IDebugControl::Assemble
 author: windows-driver-content
 description: The Assemble method assembles a single processor instruction. The assembled instruction is placed in the target's memory.
 old-location: debugger\assemble.htm
 old-project: debugger
 ms.assetid: 4d7d84e7-4fa4-4514-9d52-dbae5fed159b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: Assemble method [Windows Debugging], Assemble method [Windows Debugging], IDebugControl interface, Assemble method [Windows Debugging], IDebugControl2 interface, Assemble method [Windows Debugging], IDebugControl3 interface, Assemble,IDebugControl.Assemble, IDebugControl, IDebugControl interface [Windows Debugging], Assemble method, IDebugControl2 interface [Windows Debugging], Assemble method, IDebugControl2::Assemble, IDebugControl3 interface [Windows Debugging], Assemble method, IDebugControl3::Assemble, IDebugControl::Assemble, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, dbgeng/IDebugControl2::Assemble, dbgeng/IDebugControl3::Assemble, dbgeng/IDebugControl::Assemble, debugger.assemble
+ms.date: 4/24/2018
+ms.keywords: Assemble, Assemble method [Windows Debugging], Assemble method [Windows Debugging],IDebugControl interface, Assemble method [Windows Debugging],IDebugControl2 interface, Assemble method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],Assemble method, IDebugControl.Assemble, IDebugControl2 interface [Windows Debugging],Assemble method, IDebugControl2::Assemble, IDebugControl3 interface [Windows Debugging],Assemble method, IDebugControl3::Assemble, IDebugControl::Assemble, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, dbgeng/IDebugControl2::Assemble, dbgeng/IDebugControl3::Assemble, dbgeng/IDebugControl::Assemble, debugger.assemble
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,30 +40,19 @@ api_name:
 -	IDebugControl.Assemble
 -	IDebugControl2.Assemble
 -	IDebugControl3.Assemble
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::Assemble method
+# IDebugControl::Assemble
 
 
 ## -description
 
 
 The <b>Assemble</b> method assembles a single processor instruction.  The assembled instruction is placed in the target's memory.
-
-
-## -syntax
-
-
-````
-HRESULT Assemble(
-  [in]  ULONG64  Offset,
-  [in]  PCSTR    Instr,
-  [out] PULONG64 EndOffset
-);
-````
 
 
 ## -parameters
@@ -132,7 +121,6 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -140,20 +128,20 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

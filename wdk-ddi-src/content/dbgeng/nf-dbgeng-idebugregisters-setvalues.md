@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.SetValues
-title: IDebugRegisters::SetValues method
+title: IDebugRegisters::SetValues
 author: windows-driver-content
 description: The SetValues method sets the value of several of the target's registers.
 old-location: debugger\setvalues.htm
 old-project: debugger
 ms.assetid: 8f3817e7-8409-4b75-be28-ac7fe32145cb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugRegisters, IDebugRegisters interface [Windows Debugging], SetValues method, IDebugRegisters2 interface [Windows Debugging], SetValues method, IDebugRegisters2::SetValues, IDebugRegisters::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, SetValues method [Windows Debugging], SetValues method [Windows Debugging], IDebugRegisters interface, SetValues method [Windows Debugging], IDebugRegisters2 interface, SetValues,IDebugRegisters.SetValues, dbgeng/IDebugRegisters2::SetValues, dbgeng/IDebugRegisters::SetValues, debugger.setvalues
+ms.date: 4/24/2018
+ms.keywords: IDebugRegisters interface [Windows Debugging],SetValues method, IDebugRegisters.SetValues, IDebugRegisters2 interface [Windows Debugging],SetValues method, IDebugRegisters2::SetValues, IDebugRegisters::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, SetValues, SetValues method [Windows Debugging], SetValues method [Windows Debugging],IDebugRegisters interface, SetValues method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetValues, dbgeng/IDebugRegisters::SetValues, debugger.setvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,31 +39,19 @@ api_location:
 api_name:
 -	IDebugRegisters.SetValues
 -	IDebugRegisters2.SetValues
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters::SetValues method
+# IDebugRegisters::SetValues
 
 
 ## -description
 
 
 The <b>SetValues</b> method sets the value of several of the target's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">registers</a>.
-
-
-## -syntax
-
-
-````
-HRESULT SetValues(
-  [in]           ULONG        Count,
-  [in, optional] PULONG       Indices,
-  [in]           ULONG        Start,
-  [in]           PDEBUG_VALUE Values
-);
-````
 
 
 ## -parameters
@@ -88,7 +76,7 @@ If <i>Indices</i> is <b>NULL</b>, the registers will be set consecutively starti
 
 ### -param Values [in]
 
-Specifies the array that contains values to which to set the registers.  The number of elements this array holds is <i>Count</i>.  See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for a description of this parameter type.
+Specifies the array that contains values to which to set the registers.  The number of elements this array holds is <i>Count</i>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a> for a description of this parameter type.
 
 
 ## -returns
@@ -155,14 +143,21 @@ To set the value of only a single register, use the <a href="https://msdn.micros
 
 The method <a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a> performs the same task as this method but also allows the register source to be specified.
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
 
 
 
@@ -170,16 +165,8 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a>
-
-
-
  
 
  
-
 

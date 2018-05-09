@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_PCI_SLOT_NUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_PCI_SLOT_NUMBER, *PWHEA_PCI_SLOT_NUMBER
 ---
@@ -52,23 +53,6 @@ req.typenames: WHEA_PCI_SLOT_NUMBER, *PWHEA_PCI_SLOT_NUMBER
 The WHEA_PCI_SLOT_NUMBER structure describes a logical PCI slot.
 
 
-## -syntax
-
-
-````
-typedef struct _WHEA_PCI_SLOT_NUMBER {
-  union {
-    struct {
-      ULONG DeviceNumber  :5;
-      ULONG FunctionNumber  :3;
-      ULONG Reserved  :24;
-    } bits;
-    ULONG  AsULONG;
-  } u;
-} WHEA_PCI_SLOT_NUMBER, *PWHEA_PCI_SLOT_NUMBER;
-````
-
-
 ## -struct-fields
 
 
@@ -77,12 +61,6 @@ typedef struct _WHEA_PCI_SLOT_NUMBER {
 ### -field u
 
 A union that contains the following members:
-
-
-
-#### AsULONG
-
-A ULONG representation of the contents of the WHEA_PCI_SLOT_NUMBER structure.
 
 
 ### -field u.bits
@@ -105,31 +83,35 @@ The specific function on the device that is located in the logical PCI slot.
 Reserved for system use. 
 
 
+### -field u.AsULONG
+
+A ULONG representation of the contents of the WHEA_PCI_SLOT_NUMBER structure.
+
+
 ## -remarks
 
 
 
-A WHEA_PCI_SLOT_NUMBER structure is contained within the <a href="..\ntddk\ns-ntddk-_whea_aer_bridge_descriptor.md">WHEA_AER_BRIDGE_DESCRIPTOR</a>, <a href="..\ntddk\ns-ntddk-_whea_aer_endpoint_descriptor.md">WHEA_AER_ENDPOINT_DESCRIPTOR</a>, and <a href="..\ntddk\ns-ntddk-_whea_aer_rootport_descriptor.md">WHEA_AER_ROOTPORT_DESCRIPTOR</a> structures.
+A WHEA_PCI_SLOT_NUMBER structure is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560446">WHEA_AER_BRIDGE_DESCRIPTOR</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff560447">WHEA_AER_ENDPOINT_DESCRIPTOR</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560450">WHEA_AER_ROOTPORT_DESCRIPTOR</a> structures.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_aer_endpoint_descriptor.md">WHEA_AER_ENDPOINT_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_aer_bridge_descriptor.md">WHEA_AER_BRIDGE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560446">WHEA_AER_BRIDGE_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_aer_rootport_descriptor.md">WHEA_AER_ROOTPORT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560447">WHEA_AER_ENDPOINT_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560450">WHEA_AER_ROOTPORT_DESCRIPTOR</a>
  
 
  
-
 

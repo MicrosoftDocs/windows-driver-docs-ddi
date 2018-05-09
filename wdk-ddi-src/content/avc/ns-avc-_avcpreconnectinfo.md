@@ -7,7 +7,7 @@ old-location: stream\avcpreconnectinfo.htm
 old-project: stream
 ms.assetid: 828ce6cf-f47a-4487-8c45-887f2ace8202
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PAVCPRECONNECTINFO, AVCPRECONNECTINFO, AVCPRECONNECTINFO structure [Streaming Media Devices], PAVCPRECONNECTINFO, PAVCPRECONNECTINFO structure pointer [Streaming Media Devices], _AVCPRECONNECTINFO, avc/AVCPRECONNECTINFO, avc/PAVCPRECONNECTINFO, avcref_c38bc8dd-8218-40ea-95b6-c5376fa6273c.xml, stream.avcpreconnectinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVCPRECONNECTINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCPRECONNECTINFO, *PAVCPRECONNECTINFO
 ---
@@ -50,21 +51,6 @@ req.typenames: AVCPRECONNECTINFO, *PAVCPRECONNECTINFO
 
 
 The AVCPRECONNECTINFO structure is used to initialize a subunit driver and establish pin connections.
-
-
-## -syntax
-
-
-````
-typedef struct _AVCPRECONNECTINFO {
-  GUID           DeviceID;
-  UCHAR          SubunitAddress[AVCCONNECTINFO_MAX_SUBUNITADDR_LEN];
-  ULONG          SubunitPlugNumber;
-  KSPIN_DATAFLOW DataFlow;
-  ULONG          Flags;
-  ULONG          UnitPlugNumber;
-} AVCPRECONNECTINFO, *PAVCPRECONNECTINFO;
-````
 
 
 ## -struct-fields
@@ -115,14 +101,14 @@ This structure is used only as member of the AVC_PRECONNECT_INFO structure. It i
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
 
 
 
-<a href="..\avc\ne-avc-_kspin_flag_avc.md">KSPIN_FLAG_AVC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554190">AVC_PRECONNECT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563536">KSPIN_FLAG_AVC</a>
  
 
  

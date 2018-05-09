@@ -7,7 +7,7 @@ old-location: stream\ks_truecolorinfo.htm
 old-project: stream
 ms.assetid: 8297a687-1c8f-4c19-913d-2796e7ef3a60
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_TRUECOLORINFO, KS_TRUECOLORINFO, KS_TRUECOLORINFO structure [Streaming Media Devices], PKS_TRUECOLORINFO, PKS_TRUECOLORINFO structure pointer [Streaming Media Devices], ksmedia/KS_TRUECOLORINFO, ksmedia/PKS_TRUECOLORINFO, stream.ks_truecolorinfo, tag_KS_TRUECOLORINFO, vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_TRUECOLORINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_TRUECOLORINFO, *PKS_TRUECOLORINFO
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_TRUECOLORINFO, *PKS_TRUECOLORINFO
 
 
 The KS_TRUECOLORINFO structure describes color palette and bitmask information for video images that also contain a palette.
-
-
-## -syntax
-
-
-````
-typedef struct tag_KS_TRUECOLORINFO {
-  DWORD      dwBitMasks[KS_iMASK_COLORS];
-  KS_RGBQUAD bmiColors[KS_iPALETTE_COLORS];
-} KS_TRUECOLORINFO, *PKS_TRUECOLORINFO;
-````
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ Array of palette colors.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_rgbquad.md">KS_RGBQUAD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567675">KS_RGBQUAD</a>
  
 
  
-
 

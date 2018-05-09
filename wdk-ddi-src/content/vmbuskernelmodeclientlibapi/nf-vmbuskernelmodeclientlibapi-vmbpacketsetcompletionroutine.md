@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketsetcompletionroutine.htm
 old-project: netvista
 ms.assetid: 5781FE16-6CC8-425B-B14D-C78901D81A75
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: VmbPacketSetCompletionRoutine, VmbPacketSetCompletionRoutine function [Network Drivers Starting with Windows Vista], netvista.vmbpacketsetcompletionroutine, vmbuskernelmodeclientlibapi/VmbPacketSetCompletionRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbPacketSetCompletionRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbPacketSetCompletionRoutine function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbPacketSetCompletionRoutine</b> function sets the completion routine for a packet object.  
-
-
-## -syntax
-
-
-````
-VOID VmbPacketSetCompletionRoutine(
-  _In_ VMBPACKET                         PacketObject,
-  _In_ PFN_VMB_PACKET_COMPLETION_ROUTINE CompletionRoutine
-);
-````
 
 
 ## -parameters
@@ -94,24 +83,23 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_packet_completion_routine.md">EvtVmbPacketCompletionRoutine</a>
+<a href="https://msdn.microsoft.com/DEE6FBD6-4807-4216-9010-F59C9E08076B">EvtVmbPacketCompletionRoutine</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns.md">VmbPacketSendWithExternalPfns</a>
+<a href="https://msdn.microsoft.com/EBB981CB-0107-497A-B6E6-9271E22A8D5F">VmbPacketSend</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalmdl.md">VmbPacketSendWithExternalMdl</a>
+<a href="https://msdn.microsoft.com/C1B3FA0C-65B8-4CE1-B8F5-650DF54C9E1E">VmbPacketSendWithExternalMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/50AACCAB-EFEA-42B7-8A34-FE110C7CDEED">VmbPacketSendWithExternalPfns</a>
  
 
  
-
 

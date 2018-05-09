@@ -7,7 +7,7 @@ old-location: netvista\riluiccserviceinfo.htm
 old-project: netvista
 ms.assetid: 80abf9a7-0a34-4fc2-ab5a-afcb678b7003
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILUICCSERVICEINFO, RILUICCSERVICEINFO, RILUICCSERVICEINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccserviceinfo, ntddrilapitypes/RILUICCSERVICEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCSERVICEINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCSERVICEINFO, *LPRILUICCSERVICEINFO
-req.product: Windows 10 or later.
 ---
 
 # RILUICCSERVICEINFO structure
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCSERVICEINFO {
-  DWORD                  cbSize;
-  RILUICCSERVICESERVICE  dwService;
-  RILUICCSERVICESTATE    dwState;
-} RILUICCSERVICEINFO, RILUICCSERVICEINFO;
-````
 
 
 ## -struct-fields

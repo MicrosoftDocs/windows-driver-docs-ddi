@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.ReadBugCheckData
-title: IDebugControl3::ReadBugCheckData method
+title: IDebugControl3::ReadBugCheckData
 author: windows-driver-content
 description: The ReadBugCheckData method reads the kernel bug check code and related parameters.
 old-location: debugger\readbugcheckdata.htm
 old-project: debugger
 ms.assetid: 3ede32f5-9671-4f38-a33f-96536300267b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl interface [Windows Debugging], ReadBugCheckData method, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, IDebugControl2::ReadBugCheckData, IDebugControl3, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, IDebugControl3::ReadBugCheckData, IDebugControl::ReadBugCheckData, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, ReadBugCheckData method [Windows Debugging], ReadBugCheckData method [Windows Debugging], IDebugControl interface, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, ReadBugCheckData,IDebugControl3.ReadBugCheckData, dbgeng/IDebugControl2::ReadBugCheckData, dbgeng/IDebugControl3::ReadBugCheckData, dbgeng/IDebugControl::ReadBugCheckData, debugger.readbugcheckdata
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],ReadBugCheckData method, IDebugControl2 interface [Windows Debugging],ReadBugCheckData method, IDebugControl2::ReadBugCheckData, IDebugControl3 interface [Windows Debugging],ReadBugCheckData method, IDebugControl3.ReadBugCheckData, IDebugControl3::ReadBugCheckData, IDebugControl::ReadBugCheckData, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, ReadBugCheckData, ReadBugCheckData method [Windows Debugging], ReadBugCheckData method [Windows Debugging],IDebugControl interface, ReadBugCheckData method [Windows Debugging],IDebugControl2 interface, ReadBugCheckData method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::ReadBugCheckData, dbgeng/IDebugControl3::ReadBugCheckData, dbgeng/IDebugControl::ReadBugCheckData, debugger.readbugcheckdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,32 +40,19 @@ api_name:
 -	IDebugControl.ReadBugCheckData
 -	IDebugControl2.ReadBugCheckData
 -	IDebugControl3.ReadBugCheckData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::ReadBugCheckData method
+# IDebugControl3::ReadBugCheckData
 
 
 ## -description
 
 
 The <b>ReadBugCheckData</b> method reads the kernel bug check code and related parameters.
-
-
-## -syntax
-
-
-````
-HRESULT ReadBugCheckData(
-  [out] PULONG   Code,
-  [out] PULONG64 Arg1,
-  [out] PULONG64 Arg2,
-  [out] PULONG64 Arg3,
-  [out] PULONG64 Arg4
-);
-````
 
 
 ## -parameters

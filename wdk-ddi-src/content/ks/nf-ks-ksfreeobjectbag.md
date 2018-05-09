@@ -7,7 +7,7 @@ old-location: stream\ksfreeobjectbag.htm
 old-project: stream
 ms.assetid: d0bc4e8b-b173-4568-8c0f-7b87fd84e2cf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFreeObjectBag, KsFreeObjectBag function [Streaming Media Devices], avfunc_f91aca67-5d6c-42f7-9e24-3b15b54c2b69.xml, ks/KsFreeObjectBag, stream.ksfreeobjectbag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFreeObjectBag
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The<b> KsFreeObjectBag</b> function empties and frees an object bag.
-
-
-## -syntax
-
-
-````
-void KsFreeObjectBag(
-  _In_ KSOBJECT_BAG ObjectBag
-);
-````
 
 
 ## -parameters
@@ -95,28 +86,27 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560941">KsAddItemToObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560965">KsAllocateObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561031">KsCopyObjectBagItems</a>
 
 
 
-<a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561695">KsDiscard</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566798">KsRemoveItemFromObjectBag</a>
  
 
  
-
 

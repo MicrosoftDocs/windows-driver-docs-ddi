@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2indexedlinestrip.htm
 old-project: display
 ms.assetid: 92809162-c39e-4dbb-9ab1-a5b6535d5beb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2INDEXEDLINESTRIP, D3DHAL_DP2INDEXEDLINESTRIP, D3DHAL_DP2INDEXEDLINESTRIP structure [Display Devices], LPD3DHAL_DP2INDEXEDLINESTRIP, LPD3DHAL_DP2INDEXEDLINESTRIP structure pointer [Display Devices], _D3DHAL_DP2INDEXEDLINESTRIP, d3dhal/D3DHAL_DP2INDEXEDLINESTRIP, d3dhal/LPD3DHAL_DP2INDEXEDLINESTRIP, d3dstrct_ab23071d-9180-48d0-b14c-7c8005652968.xml, display.d3dhal_dp2indexedlinestrip"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_DP2INDEXEDLINESTRIP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2INDEXEDLINESTRIP, *LPD3DHAL_DP2INDEXEDLINESTRIP
 ---
@@ -49,17 +50,7 @@ req.typenames: D3DHAL_DP2INDEXEDLINESTRIP, *LPD3DHAL_DP2INDEXEDLINESTRIP
 ## -description
 
 
-D3DHAL_DP2INDEXEDLINESTRIP is parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback when the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_INDEXEDLINESTRIP, and is used to render a sequence of connected line segments using vertex indices.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2INDEXEDLINESTRIP {
-  WORD wV[2];
-} D3DHAL_DP2INDEXEDLINESTRIP, *LPD3DHAL_DP2INDEXEDLINESTRIP;
-````
+D3DHAL_DP2INDEXEDLINESTRIP is parsed from the command buffer by the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_INDEXEDLINESTRIP, and is used to render a sequence of connected line segments using vertex indices.
 
 
 ## -struct-fields
@@ -81,9 +72,9 @@ Although this member has only enough space to hold two indexes, this array of in
 Indexed line strips rendered with vertex buffers are specified using D3DHAL_DP2INDEXEDLINESTRIP. The number of line segments to process is specified by the <b>wPrimitiveCount</b> member of D3DHAL_DP2COMMAND. The sequence of line segments rendered is: (<b>wV[</b>0<b>]</b>, <b>wV[</b>1<b>]</b>), (<b>wV[</b>1<b>]</b>, <b>wV[</b>2<b>]</b>), (<b>wV[</b>2<b>]</b>, <b>wV[</b>3<b>]</b>), ..., (<b>wVStart[wPrimitiveCount</b> -1<b>]</b>, <b>wVStart[wPrimitiveCount]</b>). 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> should process (<b>wPrimitiveCount</b>+1) indexes from the command buffer, in effect processing <b>wPrimitiveCount</b> D3DHAL_DP2INDEXEDLINESTRIP structures. The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> should process (<b>wPrimitiveCount</b>+1) indexes from the command buffer, in effect processing <b>wPrimitiveCount</b> D3DHAL_DP2INDEXEDLINESTRIP structures. The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
-A <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a> structure immediately follows the command in the command buffer. The vertex buffer indexes are relative to the vertex buffer offset specified by the <b>dwVertexOffset</b> member of the <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a> structure plus the base offset obtained from the <b>wVStart</b> member of the D3DHAL_DP2STARTVERTEX structure.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545832">D3DHAL_DP2STARTVERTEX</a> structure immediately follows the command in the command buffer. The vertex buffer indexes are relative to the vertex buffer offset specified by the <b>dwVertexOffset</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a> structure plus the base offset obtained from the <b>wVStart</b> member of the D3DHAL_DP2STARTVERTEX structure.
 
 The following figure shows a portion of a sample command buffer containing a D3DDP2OP_INDEXEDLINESTRIP command, a D3DHAL_DP2STARTVERTEX offset, and a list of D3DHAL_DP2INDEXEDLINESTRIP structures. The driver should process four vertices from the vertex buffer, rendering three connected line segments defined by (v[8], v[4]), (v[4], v[7]), (v[7], v[6]).
 
@@ -93,15 +84,6 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2startvertex.md">D3DHAL_DP2STARTVERTEX</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 
@@ -109,12 +91,20 @@ D3DDP2OP_INDEXEDLINESTRIP
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545832">D3DHAL_DP2STARTVERTEX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

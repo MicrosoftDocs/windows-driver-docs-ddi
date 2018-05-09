@@ -7,7 +7,7 @@ old-location: serports\sercx2_pio_transmit_config.htm
 old-project: serports
 ms.assetid: E2C1705D-4E5E-4FB5-9889-24503ADB9A3C
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSERCX2_PIO_TRANSMIT_CONFIG, 2/PSERCX2_PIO_TRANSMIT_CONFIG, 2/SERCX2_PIO_TRANSMIT_CONFIG, PSERCX2_PIO_TRANSMIT_CONFIG, PSERCX2_PIO_TRANSMIT_CONFIG structure pointer [Serial Ports], SERCX2_PIO_TRANSMIT_CONFIG, SERCX2_PIO_TRANSMIT_CONFIG structure [Serial Ports], _SERCX2_PIO_TRANSMIT_CONFIG, serports.sercx2_pio_transmit_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any IRQL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	SERCX2_PIO_TRANSMIT_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX2_PIO_TRANSMIT_CONFIG, *PSERCX2_PIO_TRANSMIT_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _SERCX2_PIO_TRANSMIT_CONFIG structure
@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The <b>SERCX2_PIO_TRANSMIT_CONFIG</b> structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new PIO-transmit object.
 
 
-## -syntax
-
-
-````
-typedef struct _SERCX2_PIO_TRANSMIT_CONFIG {
-  ULONG                                             Size;
-  PFN_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION    EvtSerCx2PioTransmitInitializeTransaction;
-  PFN_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION       EvtSerCx2PioTransmitCleanupTransaction;
-  PFN_SERCX2_PIO_TRANSMIT_WRITE_BUFFER              EvtSerCx2PioTransmitWriteBuffer;
-  PFN_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION EvtSerCx2PioTransmitEnableReadyNotification;
-  PFN_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION EvtSerCx2PioTransmitCancelReadyNotification;
-  PFN_SERCX2_PIO_TRANSMIT_DRAIN_FIFO                EvtSerCx2PioTransmitDrainFifo;
-  PFN_SERCX2_PIO_TRANSMIT_CANCEL_DRAIN_FIFO         EvtSerCx2PioTransmitCancelDrainFifo;
-  PFN_SERCX2_PIO_TRANSMIT_PURGE_FIFO                EvtSerCx2PioTransmitPurgeFifo;
-} SERCX2_PIO_TRANSMIT_CONFIG, *PSERCX2_PIO_TRANSMIT_CONFIG;
-````
-
-
 ## -struct-fields
 
 
@@ -78,102 +60,101 @@ typedef struct _SERCX2_PIO_TRANSMIT_CONFIG {
 
 ### -field Size
 
-The size, in bytes, of this structure. The <a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
+The size, in bytes, of this structure. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
 ### -field EvtSerCx2PioTransmitInitializeTransaction
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_initialize_transaction.md">EvtSerCx2PioTransmitInitializeTransaction</a> event callback function. This member must point to a valid function.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/2E3652CB-24F1-4467-AF1D-CFD52392B2DB">EvtSerCx2PioTransmitInitializeTransaction</a> event callback function. This member must point to a valid function.
 
 
 ### -field EvtSerCx2PioTransmitCleanupTransaction
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cleanup_transaction.md">EvtSerCx2PioTransmitCleanupTransaction</a> event callback function. This member must point to a valid function.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/48300C50-47B7-47DC-BDE5-3847E1EAE820">EvtSerCx2PioTransmitCleanupTransaction</a> event callback function. This member must point to a valid function.
 
 
 ### -field EvtSerCx2PioTransmitWriteBuffer
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_write_buffer.md">EvtSerCx2PioTransmitWriteBuffer</a> event callback function. This member must point to a valid function.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/28DD175B-9869-4CFC-9BDD-172DA7E015DE">EvtSerCx2PioTransmitWriteBuffer</a> event callback function. This member must point to a valid function.
 
 
 ### -field EvtSerCx2PioTransmitEnableReadyNotification
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_enable_ready_notification.md">EvtSerCx2PioTransmitEnableReadyNotification</a> event callback function. This member must point to a valid function.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/05E5F48B-4E82-4BC3-B6D1-7E9E3435BDB3">EvtSerCx2PioTransmitEnableReadyNotification</a> event callback function. This member must point to a valid function.
 
 
 ### -field EvtSerCx2PioTransmitCancelReadyNotification
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cancel_ready_notification.md">EvtSerCx2PioTransmitCancelReadyNotification</a> event callback function. This member must point to a valid function.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/2483F6A6-67FE-4C75-9872-53F66B4BD658">EvtSerCx2PioTransmitCancelReadyNotification</a> event callback function. This member must point to a valid function.
 
 
 ### -field EvtSerCx2PioTransmitDrainFifo
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_drain_fifo.md">EvtSerCx2PioTransmitDrainFifo</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function. However, a driver that implements this function must also implement <i>EvtSerCx2PioTransmitCancelDrainFifo</i> and <i>EvtSerCx2PioTransmitPurgeFifo</i> functions.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/A21E14DA-0B76-4DA2-B628-C3A4DE843FA9">EvtSerCx2PioTransmitDrainFifo</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function. However, a driver that implements this function must also implement <i>EvtSerCx2PioTransmitCancelDrainFifo</i> and <i>EvtSerCx2PioTransmitPurgeFifo</i> functions.
 
 
 ### -field EvtSerCx2PioTransmitCancelDrainFifo
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cancel_drain_fifo.md">EvtSerCx2PioTransmitCancelDrainFifo</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function. However, a driver that implements this function must also implement <i>EvtSerCx2PioTransmitDrainFifo</i> and <i>EvtSerCx2PioTransmitPurgeFifo</i> functions.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/DAAE9C91-F83F-4D14-8851-7B5DEEA340B3">EvtSerCx2PioTransmitCancelDrainFifo</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function. However, a driver that implements this function must also implement <i>EvtSerCx2PioTransmitDrainFifo</i> and <i>EvtSerCx2PioTransmitPurgeFifo</i> functions.
 
 
 ### -field EvtSerCx2PioTransmitPurgeFifo
 
-A pointer to the driver-implemented <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_purge_fifo.md">EvtSerCx2PioTransmitPurgeFifo</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function. However, a driver that implements this function must also implement <i>EvtSerCx2PioTransmitDrainFifo</i> and <i>EvtSerCx2PioTransmitCancelDrainFifo</i> functions.
+A pointer to the driver-implemented <a href="https://msdn.microsoft.com/2BB02F84-01C1-432D-A4A9-6035F3ED32D7">EvtSerCx2PioTransmitPurgeFifo</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function. However, a driver that implements this function must also implement <i>EvtSerCx2PioTransmitDrainFifo</i> and <i>EvtSerCx2PioTransmitCancelDrainFifo</i> functions.
 
 
 ## -remarks
 
 
 
-The <a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a> method accepts a pointer to a <b>SERCX2_PIO_TRANSMIT_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2PioTransmitCreate</b>, call the <a href="..\sercx\nf-sercx-sercx2_pio_transmit_config_init.md">SERCX2_PIO_TRANSMIT_CONFIG_INIT</a> function to initialize this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> method accepts a pointer to a <b>SERCX2_PIO_TRANSMIT_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2PioTransmitCreate</b>, call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265335">SERCX2_PIO_TRANSMIT_CONFIG_INIT</a> function to initialize this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_enable_ready_notification.md">EvtSerCx2PioTransmitEnableReadyNotification</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cancel_ready_notification.md">EvtSerCx2PioTransmitCancelReadyNotification</a>
+<a href="https://msdn.microsoft.com/DAAE9C91-F83F-4D14-8851-7B5DEEA340B3">EvtSerCx2PioTransmitCancelDrainFifo</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_purge_fifo.md">EvtSerCx2PioTransmitPurgeFifo</a>
+<a href="https://msdn.microsoft.com/2483F6A6-67FE-4C75-9872-53F66B4BD658">EvtSerCx2PioTransmitCancelReadyNotification</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cleanup_transaction.md">EvtSerCx2PioTransmitCleanupTransaction</a>
+<a href="https://msdn.microsoft.com/48300C50-47B7-47DC-BDE5-3847E1EAE820">EvtSerCx2PioTransmitCleanupTransaction</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_drain_fifo.md">EvtSerCx2PioTransmitDrainFifo</a>
+<a href="https://msdn.microsoft.com/A21E14DA-0B76-4DA2-B628-C3A4DE843FA9">EvtSerCx2PioTransmitDrainFifo</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+<a href="https://msdn.microsoft.com/05E5F48B-4E82-4BC3-B6D1-7E9E3435BDB3">EvtSerCx2PioTransmitEnableReadyNotification</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2_pio_transmit_config_init.md">SERCX2_PIO_TRANSMIT_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/2E3652CB-24F1-4467-AF1D-CFD52392B2DB">EvtSerCx2PioTransmitInitializeTransaction</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cancel_drain_fifo.md">EvtSerCx2PioTransmitCancelDrainFifo</a>
+<a href="https://msdn.microsoft.com/2BB02F84-01C1-432D-A4A9-6035F3ED32D7">EvtSerCx2PioTransmitPurgeFifo</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_write_buffer.md">EvtSerCx2PioTransmitWriteBuffer</a>
+<a href="https://msdn.microsoft.com/28DD175B-9869-4CFC-9BDD-172DA7E015DE">EvtSerCx2PioTransmitWriteBuffer</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_initialize_transaction.md">EvtSerCx2PioTransmitInitializeTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265335">SERCX2_PIO_TRANSMIT_CONFIG_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a>
  
 
  
-
 

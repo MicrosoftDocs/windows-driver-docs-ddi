@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ISOCH_QUERY_RESOURCES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_QUERY_RESOURCES
 ---
@@ -50,18 +51,6 @@ req.typenames: IRB_REQ_ISOCH_QUERY_RESOURCES
 
 
 This structure contains the fields necessary to carry out a IsochQueryResources request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_QUERY_RESOURCES {
-  ULONG         fulSpeed;
-  ULONG         BytesPerFrameAvailable;
-  LARGE_INTEGER ChannelsAvailable;
-} IRB_REQ_ISOCH_QUERY_RESOURCES;
-````
 
 
 ## -struct-fields

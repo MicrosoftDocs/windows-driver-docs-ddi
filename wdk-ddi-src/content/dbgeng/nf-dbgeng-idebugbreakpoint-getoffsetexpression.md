@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetOffsetExpression
-title: IDebugBreakpoint::GetOffsetExpression method
+title: IDebugBreakpoint::GetOffsetExpression
 author: windows-driver-content
 description: The GetOffsetExpression methods return the expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\getoffsetexpression.htm
 old-project: debugger
 ms.assetid: 9fbdfa42-7231-4281-ba19-a33e854cd801
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, GetOffsetExpression method [Windows Debugging], GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, GetOffsetExpression,IDebugBreakpoint.GetOffsetExpression, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, IDebugBreakpoint2::GetOffsetExpression, IDebugBreakpoint::GetOffsetExpression, dbgeng/IDebugBreakpoint2::GetOffsetExpression, dbgeng/IDebugBreakpoint::GetOffsetExpression, debugger.getoffsetexpression
+ms.date: 4/24/2018
+ms.keywords: ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, GetOffsetExpression, GetOffsetExpression method [Windows Debugging], GetOffsetExpression method [Windows Debugging],IDebugBreakpoint interface, GetOffsetExpression method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetOffsetExpression method, IDebugBreakpoint.GetOffsetExpression, IDebugBreakpoint2 interface [Windows Debugging],GetOffsetExpression method, IDebugBreakpoint2::GetOffsetExpression, IDebugBreakpoint::GetOffsetExpression, dbgeng/IDebugBreakpoint2::GetOffsetExpression, dbgeng/IDebugBreakpoint::GetOffsetExpression, debugger.getoffsetexpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,30 +39,19 @@ api_location:
 api_name:
 -	IDebugBreakpoint.GetOffsetExpression
 -	IDebugBreakpoint2.GetOffsetExpression
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint::GetOffsetExpression method
+# IDebugBreakpoint::GetOffsetExpression
 
 
 ## -description
 
 
 The <b>GetOffsetExpression</b>  methods return the expression string that evaluates to the location that triggers a breakpoint.
-
-
-## -syntax
-
-
-````
-HRESULT GetOffsetExpression(
-  [out, optional] PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG ExpressionSize
-);
-````
 
 
 ## -parameters

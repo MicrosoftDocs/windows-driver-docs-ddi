@@ -7,7 +7,7 @@ old-location: stream\ksstream_pointer_offset.htm
 old-project: stream
 ms.assetid: ccbe77ee-2377-45d9-b8bf-714680c1920a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET structure [Streaming Media Devices], PKSSTREAM_POINTER_OFFSET, PKSSTREAM_POINTER_OFFSET structure pointer [Streaming Media Devices], _KSSTREAM_POINTER_OFFSET, avstruct_e210364b-520e-4d21-98ea-e22f5468e911.xml, ks/KSSTREAM_POINTER_OFFSET, ks/PKSSTREAM_POINTER_OFFSET, stream.ksstream_pointer_offset"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSSTREAM_POINTER_OFFSET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAM_POINTER_OFFSET, *PKSSTREAM_POINTER_OFFSET
 ---
@@ -52,29 +53,20 @@ req.typenames: KSSTREAM_POINTER_OFFSET, *PKSSTREAM_POINTER_OFFSET
 The KSSTREAM_POINTER_OFFSET structure indexes bytes or mappings within a frame.
 
 
-## -syntax
-
-
-````
-typedef struct _KSSTREAM_POINTER_OFFSET {
-  union {
-    PUCHAR     Data;
-    PKSMAPPING Mappings;
-  };
-  ULONG Count;
-  ULONG Remaining;
-} KSSTREAM_POINTER_OFFSET, *PKSSTREAM_POINTER_OFFSET;
-````
-
-
 ## -struct-fields
 
 
 
 
+### -field Mappings
+
+A pointer to the first element in an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563394">KSMAPPING</a> structures. Specify <b>Mappings</b> if the minidriver sets the KSPIN_FLAG_GENERATE_MAPPINGS flag in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a>. In this case, the <b>Mappings</b> array describes contiguous chunks of physical memory that the client can use to set up a scatter/gather DMA operation with hardware. 
+
+
+
 ### -field Data
 
-A pointer to a buffer containing input data or a buffer to which data is to be output. Specify <b>Data</b> if the minidriver does not set the KSPIN_FLAG_GENERATE_MAPPINGS flag in the <b>Flags</b> member of <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>.
+A pointer to a buffer containing input data or a buffer to which data is to be output. Specify <b>Data</b> if the minidriver does not set the KSPIN_FLAG_GENERATE_MAPPINGS flag in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a>.
 
 
 ### -field Alignment
@@ -92,12 +84,6 @@ If <b>Data</b> is specified above, <b>Count</b> contains the total number of byt
 This member specifies a value of type ULONG that indicates the number of bytes or mappings remaining at and ahead of the given stream pointer. This value is equal to <b>Count</b> minus the number of bytes or mappings that have been processed. <b>Remaining</b> starts equal to <b>Count</b> and decreases as the stream pointer moves forward.
 
 
-#### - Mappings
-
-A pointer to the first element in an array of <a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a> structures. Specify <b>Mappings</b> if the minidriver sets the KSPIN_FLAG_GENERATE_MAPPINGS flag in the <b>Flags</b> member of <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>. In this case, the <b>Mappings</b> array describes contiguous chunks of physical memory that the client can use to set up a scatter/gather DMA operation with hardware. 
-
-
-
 ## -remarks
 
 
@@ -109,16 +95,15 @@ See also <a href="https://msdn.microsoft.com/ba1c525b-26b0-4778-b58b-f4169cfb972
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksmapping.md">KSMAPPING</a>
 
 
 
-<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563394">KSMAPPING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a>
  
 
  
-
 

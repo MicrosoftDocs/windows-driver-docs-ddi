@@ -7,8 +7,8 @@ old-location: stream\ioctl_lamp_set_intensity_white.htm
 old-project: stream
 ms.assetid: 78541C4C-AA0E-4C1F-A7B5-E2A39DF5E2CE
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_LAMP_SET_INTENSITY_WHITE, IOCTL_LAMP_SET_INTENSITY_WHITE control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_INTENSITY_WHITE, stream.ioctl_lamp_set_intensity_white
+ms.date: 4/23/2018
+ms.keywords: IOCTL_LAMP_SET_INTENSITY_WHITE, IOCTL_LAMP_SET_INTENSITY_WHITE control, IOCTL_LAMP_SET_INTENSITY_WHITE control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_INTENSITY_WHITE, stream.ioctl_lamp_set_intensity_white
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	lamp.h
 api_name:
 -	IOCTL_LAMP_SET_INTENSITY_WHITE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LAMP_MODE
+req.typenames: 
 ---
 
 # IOCTL_LAMP_SET_INTENSITY_WHITE IOCTL
@@ -70,12 +71,12 @@ The <b>IOCTL_LAMP_SET_INTENSITY_WHITE</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a <a href="..\lamp\ns-lamp-lamp_intensity_white.md">LAMP_INTENSITY_WHITE</a> structure.
+<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937006">LAMP_INTENSITY_WHITE</a> structure.
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\lamp\ns-lamp-lamp_intensity_white.md">LAMP_INTENSITY_WHITE</a> structure.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937006">LAMP_INTENSITY_WHITE</a> structure.
 
 
 ### -output-buffer

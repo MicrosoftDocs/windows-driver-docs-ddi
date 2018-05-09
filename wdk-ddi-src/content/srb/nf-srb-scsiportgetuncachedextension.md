@@ -7,7 +7,7 @@ old-location: storage\scsiportgetuncachedextension.htm
 old-project: storage
 ms.assetid: d32da7d9-7f26-4c99-8c10-3b9e1a7c9c22
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortGetUncachedExtension, ScsiPortGetUncachedExtension routine [Storage Devices], scsiprt_b3764d3f-3e99-4a2f-b17c-30d6fcafe255.xml, srb/ScsiPortGetUncachedExtension, storage.scsiportgetuncachedextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Scsiport.dll
 api_name:
 -	ScsiPortGetUncachedExtension
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ScsiPortGetUncachedExtension function
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>ScsiPortGetUncachedExtension</b> routine allocates memory that can be used by both the CPU and a bus-master HBA for DMA or for shared data.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
-## -syntax
-
-
-````
-PVOID ScsiPortGetUncachedExtension(
-  _In_ PVOID                           HwDeviceExtension,
-  _In_ PPORT_CONFIGURATION_INFORMATION ConfigInfo,
-  _In_ ULONG                           NumberOfBytes
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ PVOID ScsiPortGetUncachedExtension(
 
 ### -param HwDeviceExtension [in]
 
-Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
+Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension-&gt;HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff564645">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ### -param ConfigInfo [in]
@@ -101,15 +89,15 @@ Indicates the size in bytes of the uncached extension to be allocated. Drivers i
 
 
 
-<b>ScsiPortGetUncachedExtension</b> can be called only from miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine and only for a bus-master HBA. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
+<b>ScsiPortGetUncachedExtension</b> can be called only from miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine and only for a bus-master HBA. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
 
 Because high-end machines have caches and large memories, any memory to be shared between an HBA and the CPU must be specially allocated. Mailboxes or I/O request queues in system memory are examples of this type of shared memory.
 
 A miniport driver must set <b>SrbExtensionSize.</b> before calling <b>ScsiPortGetUncachedExtension</b> to change the size of its per-request storage based on <b>NumberOfPhysicalBreaks</b>.
 
-The <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine can call <b>ScsiPortGetUncachedExtension</b> only once for each bus-master HBA the miniport driver supports.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine can call <b>ScsiPortGetUncachedExtension</b> only once for each bus-master HBA the miniport driver supports.
 
-To obtain the physical address for the uncached extension that the HBA can use, call <a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>.
+To obtain the physical address for the uncached extension that the HBA can use, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564636">ScsiPortGetPhysicalAddress</a>.
 
 The ScsiPort driver will free the memory allocated by <b>ScsiPortGetUncachedExtension</b> when the adapter device is stopped.
 
@@ -118,20 +106,19 @@ The ScsiPort driver will free the memory allocated by <b>ScsiPortGetUncachedExte
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
 
 
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
 
 
-<a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563900">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564636">ScsiPortGetPhysicalAddress</a>
  
 
  
-
 

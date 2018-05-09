@@ -7,8 +7,8 @@ old-location: stream\ikscontrol.htm
 old-project: stream
 ms.assetid: d73cf2fc-15bb-4f45-aae3-fb55bcd072a3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices], described, ksproxy/IKsControl, ksproxy_59a4df2f-d723-499a-adc6-907c0592a6ac.xml, stream.ikscontrol
+ms.date: 4/23/2018
+ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, ksproxy/IKsControl, ksproxy_59a4df2f-d723-499a-adc6-907c0592a6ac.xml, stream.ikscontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -39,9 +39,10 @@ api_location:
 -	Ksproxy.dll
 api_name:
 -	IKsControl
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
 # IKsControl interface
@@ -50,7 +51,7 @@ req.typenames: PIPE_STATE
 ## -description
 
 
-The <b>IKsControl</b> interface provides user-mode methods that control a KS filter or KS pin. See the <a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a> AVStream COM interface for information about the user-mode equivalent of this interface. 
+The <b>IKsControl</b> interface provides user-mode methods that control a KS filter or KS pin. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559766">IKsControl</a> AVStream COM interface for information about the user-mode equivalent of this interface. 
 
 
 ## -inheritance
@@ -109,12 +110,11 @@ The IID for this interface is IID_IKsControl.
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl (AVStream COM Interface)</a>
 
 
 
+<a href="https://msdn.microsoft.com/33eb0244-e0f3-4db7-b6df-2668e826fbd8">IKsControl (AVStream COM Interface)</a>
  
 
  
-
 

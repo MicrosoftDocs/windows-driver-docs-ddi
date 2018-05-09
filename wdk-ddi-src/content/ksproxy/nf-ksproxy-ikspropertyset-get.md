@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPropertySet.Get
-title: IKsPropertySet::Get method
+title: IKsPropertySet::Get
 author: windows-driver-content
 description: The Get method retrieves a property identified by a property-set GUID and a property identifier.
 old-location: stream\ikspropertyset_get.htm
 old-project: stream
 ms.assetid: 09b131f1-4e09-47f7-89b5-970b8b3e495a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: Get method [Streaming Media Devices], Get method [Streaming Media Devices], IKsPropertySet interface, Get,IKsPropertySet.Get, IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], Get method, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, stream.ikspropertyset_get
+ms.date: 4/23/2018
+ms.keywords: Get, Get method [Streaming Media Devices], Get method [Streaming Media Devices],IKsPropertySet interface, IKsPropertySet interface [Streaming Media Devices],Get method, IKsPropertySet.Get, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, stream.ikspropertyset_get
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,12 +38,13 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPropertySet.Get
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPropertySet::Get method
+# IKsPropertySet::Get
 
 
 ## -description
@@ -52,58 +53,42 @@ req.typenames: PIPE_STATE
 The <b>Get</b> method retrieves a property identified by a property-set GUID and a property identifier.
 
 
-## -syntax
-
-
-````
-HRESULT Get(
-  [in]  REFGUID PropSet,
-  [in]  ULONG   Id,
-  [in]  LPVOID  InstanceData,
-  [in]  ULONG   InstanceLength,
-  [out] LPVOID  PropertyData,
-  [in]  ULONG   DataLength,
-  [out] ULONG   *BytesReturned
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param PropSet [in]
+#### - PropSet [in]
 
 GUID that identifies the property set.
 
 
-### -param Id [in]
+#### - Id [in]
 
 Identifier of the property within the property set. 
 
 
-### -param InstanceData [in]
+#### - InstanceData [in]
 
 Pointer to instance data for the property. 
 
 
-### -param InstanceLength [in]
+#### - InstanceLength [in]
 
 Size, in bytes, of the buffer at <i>InstanceData</i>. 
 
 
-### -param PropertyData [out]
+#### - PropertyData [out]
 
 Pointer to a buffer that receives the value of the property. 
 
 
-### -param DataLength [in]
+#### - DataLength [in]
 
 Size, in bytes, of the buffer at <i>PropertyData</i>. 
 
 
-### -param BytesReturned [out]
+#### - BytesReturned [out]
 
 Pointer to a variable that receives the size, in bytes, of the data that <b>Get</b> stores in the buffer at <i>PropertyData</i>. 
 
@@ -138,12 +123,11 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560721">IKsPropertySet::Set</a>
-
-
-
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NC:usbbusif.PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
-title: USB_BUSIFFN_QUERY_CONTROLLER_TYPE
+title: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE
 author: windows-driver-content
 description: The QueryControllerType routine gets information about the USB host controller to which the USB device is attached.
 old-location: buses\querycontrollertype.htm
 old-project: usbref
 ms.assetid: a3155544-cfb6-41a6-9d75-82618f7c7a48
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE, QueryControllerType, QueryControllerType callback function [Buses], USB_BUSIFFN_QUERY_CONTROLLER_TYPE, buses.querycontrollertype, usbbusif/QueryControllerType
+ms.date: 4/25/2018
+ms.keywords: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE, QueryControllerType, QueryControllerType callback function [Buses], USB_BUSIFFN_QUERY_CONTROLLER_TYPE, USB_BUSIFFN_QUERY_CONTROLLER_TYPE callback, buses.querycontrollertype, usbbusif/QueryControllerType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,39 +38,19 @@ api_location:
 -	usbbusif.h
 api_name:
 -	QueryControllerType
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE callback
+# PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE callback function
 
 
 ## -description
 
 
 The <b>QueryControllerType</b> routine gets information about the USB host controller to which the USB device is attached. 
-
-
-## -prototype
-
-
-````
-USB_BUSIFFN_QUERY_CONTROLLER_TYPE QueryControllerType;
-
-NTSTATUS QueryControllerType(
-  _In_  PVOID    BusContext,
-  _Out_ PULONG   HcdiOptionFlags,
-  _Out_ PUSHORT  PciVendorId,
-  _Out_ PUSHORT  PciDeviceId,
-  _Out_ PUCHAR   PciClass,
-  _Out_ PUCHAR   PciSubClass,
-  _Out_ PUCHAR   PciRevisionId,
-  _Out_ PUCHAR   PciProgIf  
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -88,7 +68,7 @@ NTSTATUS QueryControllerType(
 
 #### - BusContext [in]
 
-Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v3.md">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request.
+Handle returned in the <b>BusContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539227">USB_BUS_INTERFACE_USBDI_V3</a> structure by an IRP_MN_QUERY_INTERFACE request.
 
 
 #### - HcdiOptionFlags [out]
@@ -96,9 +76,9 @@ Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-u
 Reserved. Do not use.
 
 
-#### - PciVendorId [out]
+#### - PciClass [out]
 
-Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host controller.
+Pointer to a UCHAR variable that receives the PCI class for the USB host controller.
 
 
 #### - PciDeviceId [out]
@@ -106,14 +86,9 @@ Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host c
 Pointer to a USHORT variable that  receives the PCI device ID for the USB host controller.
 
 
-#### - PciClass [out]
+#### - PciProgIf [out]
 
-Pointer to a UCHAR variable that receives the PCI class for the USB host controller.
-
-
-#### - PciSubClass [out]
-
-Pointer to a UCHAR variable that receives the PCI subclass  for the USB host controller.
+Pointer to a UCHAR variable that receives the PCI programming interface  for the USB host controller.
 
 
 #### - PciRevisionId [out]
@@ -121,9 +96,14 @@ Pointer to a UCHAR variable that receives the PCI subclass  for the USB host con
 Pointer to a UCHAR variable that receives the PCI revision number for the USB host controller.
 
 
-#### - PciProgIf [out]
+#### - PciSubClass [out]
 
-Pointer to a UCHAR variable that receives the PCI programming interface  for the USB host controller.
+Pointer to a UCHAR variable that receives the PCI subclass  for the USB host controller.
+
+
+#### - PciVendorId [out]
+
+Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host controller.
 
 
 ## -returns
@@ -177,12 +157,11 @@ The function definition that is provided on this reference page is an example fu
 
 ## -see-also
 
-<a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v3.md">USB_BUS_INTERFACE_USBDI_V3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539227">USB_BUS_INTERFACE_USBDI_V3</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\calcprivatedepthstencilstatesize.htm
 old-project: display
 ms.assetid: dcc02e1e-97e0-4ccd-8329-8219cad5d09a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CalcPrivateDepthStencilStateSize, CalcPrivateDepthStencilStateSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE, UserModeDisplayDriverDx10_Functions_9eb00c77-fbc0-443d-848b-b7e254de4efe.xml, d3d10umddi/CalcPrivateDepthStencilStateSize, display.calcprivatedepthstencilstatesize
+ms.date: 4/16/2018
+ms.keywords: CalcPrivateDepthStencilStateSize, CalcPrivateDepthStencilStateSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE, PFND3D10DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE callback, UserModeDisplayDriverDx10_Functions_9eb00c77-fbc0-443d-848b-b7e254de4efe.xml, d3d10umddi/CalcPrivateDepthStencilStateSize, display.calcprivatedepthstencilstatesize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	CalcPrivateDepthStencilStateSize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE callback
+# PFND3D10DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE callback function
 
 
 ## -description
@@ -52,26 +53,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>CalcPrivateDepthStencilStateSize</b> function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a depth stencil state.
 
 
-## -prototype
-
-
-````
-PFND3D10DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE CalcPrivateDepthStencilStateSize;
-
-SIZE_T APIENTRY CalcPrivateDepthStencilStateSize(
-  _In_       D3D10DDI_HDEVICE             hDevice,
-  _In_ const D3D10_DDI_DEPTH_STENCIL_DESC *pDepthStencilDesc
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +77,7 @@ SIZE_T APIENTRY CalcPrivateDepthStencilStateSize(
 
 #### - pDepthStencilDesc [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_depth_stencil_desc.md">D3D10_DDI_DEPTH_STENCIL_DESC</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541944">D3D10_DDI_DEPTH_STENCIL_DESC</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
 
 
 ## -returns
@@ -113,16 +100,15 @@ None.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_depth_stencil_desc.md">D3D10_DDI_DEPTH_STENCIL_DESC</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541944">D3D10_DDI_DEPTH_STENCIL_DESC</a>
  
 
  
-
 

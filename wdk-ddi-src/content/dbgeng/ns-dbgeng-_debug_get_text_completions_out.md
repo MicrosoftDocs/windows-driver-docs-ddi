@@ -7,7 +7,7 @@ old-location: debugger\debug_get_text_completions_out.htm
 old-project: debugger
 ms.assetid: 09F3A720-C039-4C8D-84A4-8AF071E1FFB0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PDEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_IS_DOT_COMMAND, DEBUG_GET_TEXT_COMPLETIONS_IS_EXTENSION_COMMAND, DEBUG_GET_TEXT_COMPLETIONS_IS_SYMBOL, DEBUG_GET_TEXT_COMPLETIONS_OUT, DEBUG_GET_TEXT_COMPLETIONS_OUT structure [Windows Debugging], PDEBUG_GET_TEXT_COMPLETIONS_OUT, PDEBUG_GET_TEXT_COMPLETIONS_OUT structure pointer [Windows Debugging], _DEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_OUT, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_OUT, debugger.debug_get_text_completions_out"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_GET_TEXT_COMPLETIONS_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_GET_TEXT_COMPLETIONS_OUT, *PDEBUG_GET_TEXT_COMPLETIONS_OUT
 ---
@@ -50,20 +51,6 @@ req.typenames: DEBUG_GET_TEXT_COMPLETIONS_OUT, *PDEBUG_GET_TEXT_COMPLETIONS_OUT
 
 
 Defines information about text completions to get. 
-
-
-## -syntax
-
-
-````
-typedef struct _DEBUG_GET_TEXT_COMPLETIONS_OUT {
-  ULONG   Flags;
-  ULONG   ReplaceIndex;
-  ULONG   MatchCount;
-  ULONG   Reserved1;
-  ULONG64 Reserved2[2];
-} DEBUG_GET_TEXT_COMPLETIONS_OUT, *PDEBUG_GET_TEXT_COMPLETIONS_OUT;
-````
 
 
 ## -struct-fields

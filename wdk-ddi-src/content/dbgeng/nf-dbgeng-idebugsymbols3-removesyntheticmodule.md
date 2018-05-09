@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.RemoveSyntheticModule
-title: IDebugSymbols3::RemoveSyntheticModule method
+title: IDebugSymbols3::RemoveSyntheticModule
 author: windows-driver-content
 description: The RemoveSyntheticModule method removes a synthetic module from the module list the debugger maintains for the current process.
 old-location: debugger\removesyntheticmodule.htm
 old-project: debugger
 ms.assetid: 951b42b6-4d6a-45af-a27f-6e8056676bb0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticModule method, IDebugSymbols3::RemoveSyntheticModule, IDebugSymbols_f1ed1ce4-53ad-469f-9ab8-17900b6870e8.xml, RemoveSyntheticModule method [Windows Debugging], RemoveSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, RemoveSyntheticModule,IDebugSymbols3.RemoveSyntheticModule, dbgeng/IDebugSymbols3::RemoveSyntheticModule, debugger.removesyntheticmodule
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols3 interface [Windows Debugging],RemoveSyntheticModule method, IDebugSymbols3.RemoveSyntheticModule, IDebugSymbols3::RemoveSyntheticModule, IDebugSymbols_f1ed1ce4-53ad-469f-9ab8-17900b6870e8.xml, RemoveSyntheticModule, RemoveSyntheticModule method [Windows Debugging], RemoveSyntheticModule method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::RemoveSyntheticModule, debugger.removesyntheticmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.RemoveSyntheticModule
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::RemoveSyntheticModule method
+# IDebugSymbols3::RemoveSyntheticModule
 
 
 ## -description
 
 
 The <b>RemoveSyntheticModule</b> method removes a synthetic module from the module list the debugger maintains for the current process.
-
-
-## -syntax
-
-
-````
-HRESULT RemoveSyntheticModule(
-  [in] ULONG64 Base
-);
-````
 
 
 ## -parameters
@@ -124,11 +115,6 @@ For more information about synthetic modules, see Synthetic Modules.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -136,8 +122,12 @@ For more information about synthetic modules, see Synthetic Modules.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
  
 
  
-
 

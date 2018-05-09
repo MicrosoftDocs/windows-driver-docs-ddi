@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_internal_restore_settings.htm
 old-project: serports
 ms.assetid: 55c56436-ac59-4095-a9f3-f36092db19c0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, serports.ioctl_serial_internal_restore_settings, serref_bb81345f-080d-4de6-bc36-34a32f934fc7.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS control, IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, serports.ioctl_serial_internal_restore_settings, serref_bb81345f-080d-4de6-bc36-34a32f934fc7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	ntddser.h
 api_name:
 -	IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS IOCTL
@@ -50,7 +51,7 @@ req.typenames: SD_REQUEST_FUNCTION
 
 
 
-The IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS request restores the specified operating mode of a serial device. The specified operating mode should be a mode that was returned by an <a href="..\ntddser\ni-ntddser-ioctl_serial_internal_basic_settings.md">IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS</a> request. The operating mode settings should be treated as opaque. Serial does not verify the settings when the settings are restored. Note also that a replacement for Serial might implement a different set of parameters.
+The IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS request restores the specified operating mode of a serial device. The specified operating mode should be a mode that was returned by an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546626">IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS</a> request. The operating mode settings should be treated as opaque. Serial does not verify the settings when the settings are restored. Note also that a replacement for Serial might implement a different set of parameters.
 
 
 
@@ -107,12 +108,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_internal_basic_settings.md">IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546626">IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS</a>
  
 
  
-
 

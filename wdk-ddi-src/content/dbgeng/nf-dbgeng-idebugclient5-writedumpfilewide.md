@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.WriteDumpFileWide
-title: IDebugClient5::WriteDumpFileWide method
+title: IDebugClient5::WriteDumpFileWide
 author: windows-driver-content
 description: The WriteDumpFileWide method creates a user-mode or kernel-modecrash dump file.
 old-location: debugger\writedumpfilewide.htm
 old-project: debugger
 ms.assetid: b089499f-4f15-400e-bf88-53d0507200b9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugClient4 interface [Windows Debugging], WriteDumpFileWide method, IDebugClient4::WriteDumpFileWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], WriteDumpFileWide method, IDebugClient5::WriteDumpFileWide, IDebugClient_cbae8215-df5f-484c-9b0a-8a5dc1564a00.xml, WriteDumpFileWide method [Windows Debugging], WriteDumpFileWide method [Windows Debugging], IDebugClient4 interface, WriteDumpFileWide method [Windows Debugging], IDebugClient5 interface, WriteDumpFileWide,IDebugClient5.WriteDumpFileWide, dbgeng/IDebugClient4::WriteDumpFileWide, dbgeng/IDebugClient5::WriteDumpFileWide, debugger.writedumpfilewide
+ms.date: 4/24/2018
+ms.keywords: IDebugClient4 interface [Windows Debugging],WriteDumpFileWide method, IDebugClient4::WriteDumpFileWide, IDebugClient5 interface [Windows Debugging],WriteDumpFileWide method, IDebugClient5.WriteDumpFileWide, IDebugClient5::WriteDumpFileWide, IDebugClient_cbae8215-df5f-484c-9b0a-8a5dc1564a00.xml, WriteDumpFileWide, WriteDumpFileWide method [Windows Debugging], WriteDumpFileWide method [Windows Debugging],IDebugClient4 interface, WriteDumpFileWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient4::WriteDumpFileWide, dbgeng/IDebugClient5::WriteDumpFileWide, debugger.writedumpfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,32 +39,19 @@ api_location:
 api_name:
 -	IDebugClient4.WriteDumpFileWide
 -	IDebugClient5.WriteDumpFileWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::WriteDumpFileWide method
+# IDebugClient5::WriteDumpFileWide
 
 
 ## -description
 
 
 The <b>WriteDumpFileWide</b> method creates a user-mode or kernel-modecrash dump file.
-
-
-## -syntax
-
-
-````
-HRESULT WriteDumpFileWide(
-  [in, optional] PCWSTR  FileName,
-  [in]           ULONG64 FileHandle,
-  [in]           ULONG   Qualifier,
-  [in]           ULONG   FormatFlags,
-  [in, optional] PCWSTR  Comment
-);
-````
 
 
 ## -parameters
@@ -136,11 +123,6 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
 
 
 
@@ -148,12 +130,16 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561382">WriteDumpFile2</a>
  
 
  
-
 

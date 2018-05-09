@@ -1,14 +1,14 @@
 ---
 UID: NF:ks.IKsControl.KsProperty
-title: IKsControl::KsProperty method
+title: IKsControl::KsProperty
 author: windows-driver-content
 description: The IKsControl::KsProperty method sets a property or retrieves property information, together with any other defined support operations available on a property set.
 old-location: stream\ikscontrol_ksproperty2.htm
 old-project: stream
 ms.assetid: a80312ef-394a-4a59-8a04-35d7c60689b6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], KsProperty method, IKsControl::KsProperty, KsProperty method [Streaming Media Devices], KsProperty method [Streaming Media Devices], IKsControl interface, KsProperty,IKsControl.KsProperty, avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, ks/IKsControl::KsProperty, stream.ikscontrol_ksproperty2
+ms.date: 4/23/2018
+ms.keywords: IKsControl interface [Streaming Media Devices],KsProperty method, IKsControl.KsProperty, IKsControl::KsProperty, KsProperty, KsProperty method [Streaming Media Devices], KsProperty method [Streaming Media Devices],IKsControl interface, avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, ks/IKsControl::KsProperty, stream.ikscontrol_ksproperty2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	IKsControl.KsProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
 
-# IKsControl::KsProperty method
+# IKsControl::KsProperty
 
 
 ## -description
 
 
 The <b>IKsControl::KsProperty</b> method sets a property or retrieves property information, together with any other defined support operations available on a property set. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsProperty(
-  [in]      PKSPROPERTY Property,
-  [in]      ULONG       PropertyLength,
-  [in, out] PVOID       PropertyData,
-  [in]      ULONG       DataLength,
-  [out]     ULONG       *BytesReturned
-);
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ NTSTATUS KsProperty(
 
 ### -param Property [in]
 
-Pointer to a structure that describes a property and the request type of the property request. This structure must be either a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> or a structure that contains a <b>KSPROPERTY</b> structure as its first member. An example of a structure that can be pointed to by this member is the <a href="..\ksmedia\ns-ksmedia-ksproperty_videoprocamp_s.md">KSPROPERTY_VIDEOPROCAMP_S</a> structure.
+Pointer to a structure that describes a property and the request type of the property request. This structure must be either a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> or a structure that contains a <b>KSPROPERTY</b> structure as its first member. An example of a structure that can be pointed to by this member is the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566089">KSPROPERTY_VIDEOPROCAMP_S</a> structure.
 
 
 ### -param PropertyLength [in]
@@ -116,7 +103,6 @@ To determine the buffer size that is required for a specific property request, y
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 
@@ -124,12 +110,12 @@ To determine the buffer size that is required for a specific property request, y
 
 
 
-<a href="..\ks\ns-ks-ksproperty_set.md">KSPROPERTY_SET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565617">KSPROPERTY_SET</a>
  
 
  
-
 

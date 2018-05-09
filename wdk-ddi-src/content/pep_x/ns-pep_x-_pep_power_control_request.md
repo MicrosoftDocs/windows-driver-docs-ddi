@@ -7,7 +7,7 @@ old-location: kernel\pep_power_control_request.htm
 old-project: kernel
 ms.assetid: E6665E96-5C58-4533-906A-D9525BA6824C
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_REQUEST, PPEP_POWER_CONTROL_REQUEST structure pointer [Kernel-Mode Driver Architecture], _PEP_POWER_CONTROL_REQUEST, kernel.pep_power_control_request, pepfx/PEP_POWER_CONTROL_REQUEST, pepfx/PPEP_POWER_CONTROL_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_POWER_CONTROL_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST
+req.typenames: PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST
 ---
 
 # _PEP_POWER_CONTROL_REQUEST structure
@@ -50,23 +51,6 @@ req.typenames: PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST, PEP_POWER
 
 
 The <b>PEP_POWER_CONTROL_REQUEST</b> structure contains a request from a driver for a power control operation.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_POWER_CONTROL_REQUEST {
-  PEPHANDLE DeviceHandle;
-  LPCGUID   PowerControlCode;
-  PVOID     InBuffer;
-  SIZE_T    InBufferSize;
-  PVOID     OutBuffer;
-  SIZE_T    OutBufferSize;
-  SIZE_T    BytesReturned;
-  NTSTATUS  Status;
-} PEP_POWER_CONTROL_REQUEST, *PPEP_POWER_CONTROL_REQUEST;
-````
 
 
 ## -struct-fields
@@ -81,7 +65,7 @@ typedef struct _PEP_POWER_CONTROL_REQUEST {
 
 ### -field PowerControlCode
 
-[in] A pointer to a <a href="http://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a> value that specifies the power control operation to perform. This is the same value that the requesting driver supplied as the <i>PowerControlCode</i> parameter to the <a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a> routine.
+[in] A pointer to a <a href="http://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a> value that specifies the power control operation to perform. This is the same value that the requesting driver supplied as the <i>PowerControlCode</i> parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439518">PoFxPowerControl</a> routine.
 
 
 ### -field InBuffer
@@ -122,12 +106,15 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 If the output buffer is too small to receive all of the result data from the operation, the PEP sets the <b>Status</b> member of the structure to STATUS_INSUFFICIENT_RESOURCES, sets  the <b>BytesReturned</b> member to the required size of the output buffer, and (typically) writes no data to the output buffer.
 
-The driver for a device can call the <a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a> routine to request a power control operation on the device. During this call, PoFx delegates the handling of this request to the PEP that owns the device. The <b>PowerControlCode</b> member of the <b>PEP_POWER_CONTROL_REQUEST</b> structure contains a custom control code whose meaning is understood by both the driver and the PEP for the device.
+The driver for a device can call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439518">PoFxPowerControl</a> routine to request a power control operation on the device. During this call, PoFx delegates the handling of this request to the PEP that owns the device. The <b>PowerControlCode</b> member of the <b>PEP_POWER_CONTROL_REQUEST</b> structure contains a custom control code whose meaning is understood by both the driver and the PEP for the device.
 
 
 
 
 ## -see-also
+
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186797">PEP_DPM_POWER_CONTROL_REQUEST</a>
 
@@ -137,12 +124,8 @@ The driver for a device can call the <a href="..\wdm\nf-wdm-pofxpowercontrol.md"
 
 
 
-<a href="..\wdm\nf-wdm-pofxpowercontrol.md">PoFxPowerControl</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439518">PoFxPowerControl</a>
  
 
  
-
 

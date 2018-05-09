@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetSystemVersionValues
-title: IDebugControl4::GetSystemVersionValues method
+title: IDebugControl4::GetSystemVersionValues
 author: windows-driver-content
 description: The GetSystemVersionValues method returns version number information for the current target.
 old-location: debugger\getsystemversionvalues.htm
 old-project: debugger
 ms.assetid: 77996a5f-aaf0-4c8c-9d29-498612ae9c0d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetSystemVersionValues method [Windows Debugging], GetSystemVersionValues method [Windows Debugging], IDebugControl4 interface, GetSystemVersionValues,IDebugControl4.GetSystemVersionValues, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetSystemVersionValues method, IDebugControl4::GetSystemVersionValues, IDebugControl_32de1433-8721-41c0-9b14-43ef8f7bcf70.xml, dbgeng/IDebugControl4::GetSystemVersionValues, debugger.getsystemversionvalues
+ms.date: 4/24/2018
+ms.keywords: GetSystemVersionValues, GetSystemVersionValues method [Windows Debugging], GetSystemVersionValues method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetSystemVersionValues method, IDebugControl4.GetSystemVersionValues, IDebugControl4::GetSystemVersionValues, IDebugControl_32de1433-8721-41c0-9b14-43ef8f7bcf70.xml, dbgeng/IDebugControl4::GetSystemVersionValues, debugger.getsystemversionvalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.GetSystemVersionValues
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetSystemVersionValues method
+# IDebugControl4::GetSystemVersionValues
 
 
 ## -description
 
 
 The <b>GetSystemVersionValues</b> method returns version number information for the current target.
-
-
-## -syntax
-
-
-````
-HRESULT GetSystemVersionValues(
-  [out]           PULONG PlatformId,
-  [out]           PULONG Win32Major,
-  [out]           PULONG Win32Minor,
-  [out, optional] PULONG KdMajor,
-  [out, optional] PULONG KdMinor
-);
-````
 
 
 ## -parameters
@@ -135,11 +122,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549245">GetSystemVersionString</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -147,8 +129,12 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549245">GetSystemVersionString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  
-
 

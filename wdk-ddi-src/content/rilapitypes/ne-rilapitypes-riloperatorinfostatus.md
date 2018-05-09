@@ -7,7 +7,7 @@ old-location: netvista\riloperatorinfostatus.htm
 old-project: netvista
 ms.assetid: 372d84da-600f-44db-ac76-b59ceac7321d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILOPERATORINFOSTATUS, RILOPERATORINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_OPSTATUS_AVAILABLE, RIL_OPSTATUS_CURRENT, RIL_OPSTATUS_FORBIDDEN, RIL_OPSTATUS_MAX, netvista.riloperatorinfostatus, ntddrilapitypes/RILOPERATORINFOSTATUS, ntddrilapitypes/RIL_OPSTATUS_AVAILABLE, ntddrilapitypes/RIL_OPSTATUS_CURRENT, ntddrilapitypes/RIL_OPSTATUS_FORBIDDEN, ntddrilapitypes/RIL_OPSTATUS_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILOPERATORINFOSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILOPERATORINFOSTATUS
-req.product: Windows 10 or later.
 ---
 
 # RILOPERATORINFOSTATUS enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILOPERATORINFOSTATUS { 
-  RIL_OPSTATUS_AVAILABLE,
-  RIL_OPSTATUS_CURRENT,
-  RIL_OPSTATUS_FORBIDDEN,
-  RIL_OPSTATUS_MAX
-} RILOPERATORINFOSTATUS;
-````
 
 
 ## -enum-fields

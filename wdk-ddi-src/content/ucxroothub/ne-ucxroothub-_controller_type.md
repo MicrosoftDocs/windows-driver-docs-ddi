@@ -7,7 +7,7 @@ old-location: buses\_controller_type.htm
 old-project: usbref
 ms.assetid: E7DFBFFA-C65B-4757-8DB8-202760D6D3C6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: CONTROLLER_TYPE, ControllerTypeSoftXhci, ControllerTypeXhci, _CONTROLLER_TYPE, _CONTROLLER_TYPE enumeration [Buses], buses._controller_type, ucxroothub/ControllerTypeSoftXhci, ucxroothub/ControllerTypeXhci, ucxroothub/_CONTROLLER_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: DISPATCH_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	ucxroothub.h
 api_name:
 -	CONTROLLER_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CONTROLLER_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _CONTROLLER_TYPE enumeration
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This enumeration specifies if the USB host controller is an eXtensible Host Controller Interface (xHCI) controller.
-
-
-## -syntax
-
-
-````
-typedef enum _CONTROLLER_TYPE { 
-  ControllerTypeXhci,
-  ControllerTypeSoftXhci
-} CONTROLLER_TYPE;
-````
 
 
 ## -enum-fields
@@ -81,12 +70,11 @@ Indicates the USB host controller is software an xHCI controller.
 
 ## -see-also
 
-<a href="..\ucxroothub\ns-ucxroothub-_roothub_info.md">ROOTHUB_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188031">ROOTHUB_INFO</a>
  
 
  
-
 

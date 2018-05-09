@@ -7,7 +7,7 @@ old-location: kernel\iowriteerrorlogentry.htm
 old-project: kernel
 ms.assetid: 1259c344-584c-410a-a152-5de1f433082c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoWriteErrorLogEntry, IoWriteErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_1822a499-059a-41c8-b97b-aa3a5bfd22e3.xml, kernel.iowriteerrorlogentry, wdm/IoWriteErrorLogEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoWriteErrorLogEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoWriteErrorLogEntry function
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoWriteErrorLogEntry</b> routine queues a given error log packet to the system error logging thread.
 
 
-## -syntax
-
-
-````
-VOID IoWriteErrorLogEntry(
-  _In_ PVOID ElEntry
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ VOID IoWriteErrorLogEntry(
 
 ### -param ElEntry [in]
 
-Pointer to the error log packet the driver has allocated with <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a> and filled in by the caller. 
+Pointer to the error log packet the driver has allocated with <a href="https://msdn.microsoft.com/library/windows/hardware/ff548245">IoAllocateErrorLogEntry</a> and filled in by the caller. 
 
 
 ## -returns
@@ -93,20 +83,19 @@ None
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550571">IO_ERROR_LOG_PACKET</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548245">IoAllocateErrorLogEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549107">IoFreeErrorLogEntry</a>
  
 
  
-
 

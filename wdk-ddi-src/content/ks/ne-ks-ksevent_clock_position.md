@@ -7,7 +7,7 @@ old-location: stream\ksevent_clock_position.htm
 old-project: stream
 ms.assetid: 9F5268BF-293F-4736-974D-25914B67ED4B
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSEVENT_CLOCK_INTERVAL_MARK, KSEVENT_CLOCK_POSITION, KSEVENT_CLOCK_POSITION enumeration [Streaming Media Devices], KSEVENT_CLOCK_POSITION_MARK, ks/KSEVENT_CLOCK_INTERVAL_MARK, ks/KSEVENT_CLOCK_POSITION, ks/KSEVENT_CLOCK_POSITION_MARK, stream.ksevent_clock_position
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSEVENT_CLOCK_POSITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_CLOCK_POSITION
 ---
@@ -50,17 +51,6 @@ req.typenames: KSEVENT_CLOCK_POSITION
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_CLOCK_INTERVAL_MARK,
-  KSEVENT_CLOCK_POSITION_MARK
-} KSEVENT_CLOCK_POSITION;
-````
 
 
 ## -enum-fields

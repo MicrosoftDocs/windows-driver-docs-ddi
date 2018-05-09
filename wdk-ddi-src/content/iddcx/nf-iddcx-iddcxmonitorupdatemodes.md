@@ -7,7 +7,7 @@ old-location: display\iddcxmonitorupdatemodes.htm
 old-project: display
 ms.assetid: 0f05931a-2327-454a-9ba7-da02cb2f13d9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IddCxMonitorUpdateModes, IddCxMonitorUpdateModes method [Display Devices], display.iddcxmonitorupdatemodes, iddcx/IddCxMonitorUpdateModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IddCxMonitorUpdateModes
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,17 +53,6 @@ req.typenames:
 
 
                 An OS callback function the driver calls to update the mode list
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxMonitorUpdateModes(
-  _In_       IDDCX_MONITOR         MonitorObject,
-  _In_ const IDARG_IN_UPDATEMODES* pInArgs
-);
-````
 
 
 ## -parameters

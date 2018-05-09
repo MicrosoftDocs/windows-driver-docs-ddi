@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_GEOFENCE_CREATE_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_GEOFENCE_CREATE_PARAM, *PGNSS_GEOFENCE_CREATE_PARAM
 ---
@@ -50,21 +51,6 @@ req.typenames: GNSS_GEOFENCE_CREATE_PARAM, *PGNSS_GEOFENCE_CREATE_PARAM
 
 
 This structure defines the parameters for creating a geofence in the GNSS engine.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG               Size;
-  ULONG               Version;
-  ULONG               AlertTypes;
-  GNSS_GEOFENCE_STATE InitialState;
-  GNSS_GEOREGION      Boundary;
-  BYTE                Unused[512];
-} GNSS_GEOFENCE_CREATE_PARAM, *PGNSS_GEOFENCE_CREATE_PARAM;
-````
 
 
 ## -struct-fields

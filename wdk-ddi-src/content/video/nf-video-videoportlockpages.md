@@ -7,7 +7,7 @@ old-location: display\videoportlockpages.htm
 old-project: display
 ms.assetid: f5e06ff3-98ba-4443-8ea6-c32b063cd478
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortLockPages, VideoPortLockPages function [Display Devices], VideoPort_Functions_47b202e0-2a8b-4fb0-9cf2-b4ef3ddb9ff4.xml, display.videoportlockpages, video/VideoPortLockPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortLockPages
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortLockPages function
@@ -50,23 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortLockPages</b> function is <b>obsolete</b> in Windows 2000 and later. Use <a href="..\video\nf-video-videoportlockbuffer.md">VideoPortLockBuffer</a> in place of this function.
+The <b>VideoPortLockPages</b> function is <b>obsolete</b> in Windows 2000 and later. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff570326">VideoPortLockBuffer</a> in place of this function.
 
 <b>VideoPortLockPages</b> locks the specified virtual memory and possibly performs part or all of a DMA transfer.
-
-
-## -syntax
-
-
-````
-BOOLEAN VideoPortLockPages(
-  _In_    PVOID                 HwDeviceExtension,
-  _Inout_ PVIDEO_REQUEST_PACKET pVrp,
-  _In_    PEVENT                pUEvent,
-  _In_    PEVENT                pDisplayEvent,
-  _In_    DMA_FLAGS             DmaFlags
-);
-````
 
 
 ## -parameters
@@ -81,7 +67,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pVrp [in, out]
 
-Pointer to a <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a> structure. The miniport driver must have set <b>InputBuffer</b> and <b>InputBufferLength</b> to contain the virtual address and the size in bytes, respectively, of the memory to be locked for the transfer. This memory was allocated by the display driver and passed to the miniport driver through an IOCTL. The video port returns a pointer to and the size in bytes of the scatter/gather list in <b>OutputBuffer</b> and <b>OutputBufferLength</b>, respectively.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a> structure. The miniport driver must have set <b>InputBuffer</b> and <b>InputBufferLength</b> to contain the virtual address and the size in bytes, respectively, of the memory to be locked for the transfer. This memory was allocated by the display driver and passed to the miniport driver through an IOCTL. The video port returns a pointer to and the size in bytes of the scatter/gather list in <b>OutputBuffer</b> and <b>OutputBufferLength</b>, respectively.
 
 
 ### -param pUEvent [in]
@@ -159,12 +145,11 @@ See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bu
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportlockbuffer.md">VideoPortLockBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570326">VideoPortLockBuffer</a>
  
 
  
-
 

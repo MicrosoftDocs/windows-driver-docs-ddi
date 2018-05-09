@@ -7,8 +7,8 @@ old-location: audio\pfndrmcreatecontentmixed.htm
 old-project: audio
 ms.assetid: A4BA818F-126F-4134-AEDA-F983ADFC4A07
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DRMCreateContentMixed, DRMCreateContentMixed callback function [Audio Devices], PFNDRMCREATECONTENTMIXED, audio.pfndrmcreatecontentmixed, drmk/DRMCreateContentMixed
+ms.date: 4/16/2018
+ms.keywords: DRMCreateContentMixed, DRMCreateContentMixed callback function [Audio Devices], PFNDRMCREATECONTENTMIXED, PFNDRMCREATECONTENTMIXED callback, audio.pfndrmcreatecontentmixed, drmk/DRMCreateContentMixed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,19 @@ api_location:
 -	Drmk.h
 api_name:
 -	DRMCreateContentMixed
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
+req.typenames: 
 ---
 
-# PFNDRMCREATECONTENTMIXED callback
+# PFNDRMCREATECONTENTMIXED callback function
 
 
 ## -description
 
 
 This callback function is reserved for system use.
-
-
-## -prototype
-
-
-````
-PFNDRMCREATECONTENTMIXED DRMCreateContentMixed;
-
-NTSTATUS DRMCreateContentMixed(
-  _In_  PULONG paContentId,
-  _In_  ULONG  cContentId,
-  _Out_ PULONG pMixedContentId
-)
-{ ... }
-
-typedef PFNDRMCREATECONTENTMIXED DRMCreateContentMixed;
-````
 
 
 ## -parameters

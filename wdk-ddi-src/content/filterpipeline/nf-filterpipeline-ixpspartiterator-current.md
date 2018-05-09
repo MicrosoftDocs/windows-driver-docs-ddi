@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IXpsPartIterator.Current
-title: IXpsPartIterator::Current method
+title: IXpsPartIterator::Current
 author: windows-driver-content
 description: The Current method provides the current URI and part.
 old-location: print\ixpspartiterator_current.htm
 old-project: print
 ms.assetid: ccc8125a-c571-4267-860a-11fc313e395c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Current method [Print Devices], Current method [Print Devices], IXpsPartIterator interface, Current,IXpsPartIterator.Current, IXpsPartIterator, IXpsPartIterator interface [Print Devices], Current method, IXpsPartIterator::Current, filterpipeline/IXpsPartIterator::Current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, print.ixpspartiterator_current
+ms.date: 4/20/2018
+ms.keywords: Current, Current method [Print Devices], Current method [Print Devices],IXpsPartIterator interface, IXpsPartIterator interface [Print Devices],Current method, IXpsPartIterator.Current, IXpsPartIterator::Current, filterpipeline/IXpsPartIterator::Current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, print.ixpspartiterator_current
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IXpsPartIterator.Current
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IXpsPartIterator::Current method
+# IXpsPartIterator::Current
 
 
 ## -description
 
 
 The <code>Current</code> method provides the current URI and part.
-
-
-## -syntax
-
-
-````
-HRESULT Current(
-  [out] BSTR     *pUri,
-  [out] IUnknown **ppXpsPart
-);
-````
 
 
 ## -parameters

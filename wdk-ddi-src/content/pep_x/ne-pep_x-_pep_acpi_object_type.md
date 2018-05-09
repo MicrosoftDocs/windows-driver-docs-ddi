@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_object_type.htm
 old-project: kernel
 ms.assetid: 81875C20-8E0E-4BAC-B85F-3D275F8B4708
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PepAcpiObjectTypeMaximum, PepAcpiObjectTypeMethod, _PEP_ACPI_OBJECT_TYPE, kernel.pep_acpi_object_type, pepfx/PEP_ACPI_OBJECT_TYPE, pepfx/PepAcpiObjectTypeMaximum, pepfx/PepAcpiObjectTypeMethod"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_OBJECT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PEP_ACPI_OBJECT_TYPE, *PPEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE, *PPEP_ACPI_OBJECT_TYPE
+req.typenames: PEP_ACPI_OBJECT_TYPE, *PPEP_ACPI_OBJECT_TYPE
 ---
 
 # _PEP_ACPI_OBJECT_TYPE enumeration
@@ -50,17 +51,6 @@ req.typenames: PEP_ACPI_OBJECT_TYPE, *PPEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYP
 
 
 The <b>PEP_ACPI_OBJECT_TYPE</b> enumeration indicates the type of ACPI object.
-
-
-## -syntax
-
-
-````
-typedef enum _PEP_ACPI_OBJECT_TYPE { 
-  PepAcpiObjectTypeMethod,
-  PepAcpiObjectTypeMaximum
-} PEP_ACPI_OBJECT_TYPE;
-````
 
 
 ## -enum-fields
@@ -85,19 +75,18 @@ Reserved for use by the operating system.
 
 
 
-The <b>Type</b> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a> structure is an <b>PEP_ACPI_OBJECT_TYPE</b> enumeration value.
+The <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186688">PEP_ACPI_QUERY_OBJECT_INFORMATION</a> structure is an <b>PEP_ACPI_OBJECT_TYPE</b> enumeration value.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186688">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: serports\sercx_status.htm
 old-project: serports
 ms.assetid: 7EF129C7-25C3-49D2-8FC5-FFA1C4E77935
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSERCX_STATUS, 1/SERCX_STATUS, 1/SerCxStatusCancelled, 1/SerCxStatusSuccess, 1/SerCxStatusTimeout, SERCX_STATUS, SERCX_STATUS enumeration [Serial Ports], SerCxStatusCancelled, SerCxStatusSuccess, SerCxStatusTimeout, _SERCX_STATUS, serports.sercx_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at IRQL <= DISPATCH_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SERCX_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
 ---
 
 # _SERCX_STATUS enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SERCX_STATUS</b> enumeration indicates the status of a serial receive or transmit operation.
-
-
-## -syntax
-
-
-````
-typedef enum _SERCX_STATUS { 
-  SerCxStatusSuccess    = STATUS_SUCCESS,
-  SerCxStatusCancelled  = STATUS_CANCELLED,
-  SerCxStatusTimeout    = STATUS_TIMEOUT
-} SERCX_STATUS;
-````
 
 
 ## -enum-fields
@@ -82,34 +70,33 @@ The operation was canceled.
 
 ### -field SerCxStatusTimeout
 
-The operation timed out. This enumeration value applies only to read interval time-outs for receive operations. For more information, see the description of the <b>ReadIntervalTimeout</b> member in <a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>.
+The operation timed out. This enumeration value applies only to read interval time-outs for receive operations. For more information, see the description of the <b>ReadIntervalTimeout</b> member in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439614">SERIAL_TIMEOUTS</a>.
 
 
 ## -remarks
 
 
 
-The <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a> and <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a> methods have parameters that are <b>SERCX_STATUS</b> enumeration values.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh406713">SerCxProgressReceive</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh406715">SerCxProgressTransmit</a> methods have parameters that are <b>SERCX_STATUS</b> enumeration values.
 
 
 
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439614">SERIAL_TIMEOUTS</a>
 
 
 
-<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406713">SerCxProgressReceive</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406715">SerCxProgressTransmit</a>
  
 
  
-
 

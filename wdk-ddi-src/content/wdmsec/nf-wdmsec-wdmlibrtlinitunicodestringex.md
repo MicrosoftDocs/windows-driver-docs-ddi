@@ -7,7 +7,7 @@ old-location: kernel\wdmlibrtlinitunicodestringex.htm
 old-project: kernel
 ms.assetid: 79DEDC5B-2A9B-4493-9CB3-7290BEBBD291
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.wdmlibrtlinitunicodestringex, wdmsec/RtlInitUnicodeString, wdmsec/WdmlibRtlInitUnicodeStringEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 api_name:
 -	WdmlibRtlInitUnicodeStringEx
 -	RtlInitUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdmlibRtlInitUnicodeStringEx function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>WdmlibRtlInitUnicodeStringEx</b> function initializes a counted string of Unicode characters.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdmlibRtlInitUnicodeStringEx(
-  _Out_    PUNICODE_STRING DestinationString,
-  _In_opt_ PCWSTR          SourceString
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ NTSTATUS WdmlibRtlInitUnicodeStringEx(
 
 ### -param DestinationString [out]
 
-A pointer to the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure to be initialized.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure to be initialized.
 
 
 ### -param SourceString [in, optional]
@@ -84,7 +73,7 @@ A pointer to a null-terminated wide-character string. This string is used to ini
 
 
 
-The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure pointed to by <i>DestinationString</i>. The <b>Length</b> member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The <b>MaximumLength</b> member of the structure is set to the length, in bytes, of the source string, including the terminating null. If <i>SourceString</i> is <b>NULL</b>, <b>Length</b> and <b>MaximumLength</b> are both set to zero.
+The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure pointed to by <i>DestinationString</i>. The <b>Length</b> member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The <b>MaximumLength</b> member of the structure is set to the length, in bytes, of the source string, including the terminating null. If <i>SourceString</i> is <b>NULL</b>, <b>Length</b> and <b>MaximumLength</b> are both set to zero.
 
 <b>WdmlibRtlInitUnicodeStringEx</b> does not alter the source string pointed to by <i>SourceString</i>.
 
@@ -97,20 +86,19 @@ Callers of <b>WdmlibRtlInitUnicodeStringEx</b> can be running at IRQL &lt;= DISP
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562954">RtlUnicodeStringInit</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinit.md">RtlUnicodeStringInit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562958">RtlUnicodeStringInitEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

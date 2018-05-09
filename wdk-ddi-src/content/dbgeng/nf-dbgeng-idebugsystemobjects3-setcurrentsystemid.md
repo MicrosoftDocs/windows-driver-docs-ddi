@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.SetCurrentSystemId
-title: IDebugSystemObjects3::SetCurrentSystemId method
+title: IDebugSystemObjects3::SetCurrentSystemId
 author: windows-driver-content
 description: The SetCurrentSystemId method makes the specified target the current target.
 old-location: debugger\setcurrentsystemid.htm
 old-project: debugger
 ms.assetid: 95b761ff-ca78-4793-b5eb-a9ff35a963d3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], SetCurrentSystemId method, IDebugSystemObjects3::SetCurrentSystemId, IDebugSystemObjects4 interface [Windows Debugging], SetCurrentSystemId method, IDebugSystemObjects4::SetCurrentSystemId, IDebugSystemObjects_70a23767-a18b-4920-828a-34fe863fec4a.xml, SetCurrentSystemId method [Windows Debugging], SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, SetCurrentSystemId,IDebugSystemObjects3.SetCurrentSystemId, dbgeng/IDebugSystemObjects3::SetCurrentSystemId, dbgeng/IDebugSystemObjects4::SetCurrentSystemId, debugger.setcurrentsystemid
+ms.date: 4/24/2018
+ms.keywords: IDebugSystemObjects3 interface [Windows Debugging],SetCurrentSystemId method, IDebugSystemObjects3.SetCurrentSystemId, IDebugSystemObjects3::SetCurrentSystemId, IDebugSystemObjects4 interface [Windows Debugging],SetCurrentSystemId method, IDebugSystemObjects4::SetCurrentSystemId, IDebugSystemObjects_70a23767-a18b-4920-828a-34fe863fec4a.xml, SetCurrentSystemId, SetCurrentSystemId method [Windows Debugging], SetCurrentSystemId method [Windows Debugging],IDebugSystemObjects3 interface, SetCurrentSystemId method [Windows Debugging],IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects3::SetCurrentSystemId, dbgeng/IDebugSystemObjects4::SetCurrentSystemId, debugger.setcurrentsystemid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,28 +39,19 @@ api_location:
 api_name:
 -	IDebugSystemObjects3.SetCurrentSystemId
 -	IDebugSystemObjects4.SetCurrentSystemId
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects3::SetCurrentSystemId method
+# IDebugSystemObjects3::SetCurrentSystemId
 
 
 ## -description
 
 
 The <b>SetCurrentSystemId</b> method makes the specified target the current target.
-
-
-## -syntax
-
-
-````
-HRESULT SetCurrentSystemId(
-  [in] ULONG Id
-);
-````
 
 
 ## -parameters
@@ -125,24 +116,23 @@ If the current target is changed, the callback <a href="https://msdn.microsoft.c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550892">IDebugSystemObjects3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550893">IDebugSystemObjects4</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
-
-
  
 
  
-
 

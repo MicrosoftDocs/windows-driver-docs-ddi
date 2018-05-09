@@ -7,8 +7,8 @@ old-location: bltooth\bthfreebrb.htm
 old-project: bltooth
 ms.assetid: fc24cdaf-0695-4e10-82be-a7f7a916f550
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: BthFreeBrb, BthFreeBrb callback function [Bluetooth Devices], PFNBTH_FREE_BRB, bltooth.bthfreebrb, bth_funcs_434cd24f-2604-4526-ac74-14a151365658.xml, bthddi/BthFreeBrb
+ms.date: 4/27/2018
+ms.keywords: BthFreeBrb, BthFreeBrb callback function [Bluetooth Devices], PFNBTH_FREE_BRB, PFNBTH_FREE_BRB callback, bltooth.bthfreebrb, bth_funcs_434cd24f-2604-4526-ac74-14a151365658.xml, bthddi/BthFreeBrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	bthddi.h
 api_name:
 -	BthFreeBrb
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# PFNBTH_FREE_BRB callback
+# PFNBTH_FREE_BRB callback function
 
 
 ## -description
@@ -52,19 +53,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 The 
   <i>BthFreeBrb</i> function frees a Bluetooth request block (BRB) that was allocated previously with 
   <i>BthAllocateBrb</i>.
-
-
-## -prototype
-
-
-````
-PFNBTH_FREE_BRB BthFreeBrb;
-
-VOID BthFreeBrb(
-  _In_ PBRB pBrb
-)
-{ ... }
-````
 
 
 ## -parameters

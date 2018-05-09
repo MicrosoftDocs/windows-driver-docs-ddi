@@ -7,8 +7,8 @@ old-location: buses\evt_ufx_device_endpoint_add.htm
 old-project: usbref
 ms.assetid: F366990E-7FE3-401B-B8BE-E71EAFD3AC58
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: EVT_UFX_DEVICE_ENDPOINT_ADD, EvtUfxDeviceEndpointAdd, EvtUfxDeviceEndpointAdd callback function [Buses], PFN_UFX_DEVICE_ENDPOINT_ADD, PFN_UFX_DEVICE_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_endpoint_add, ufxclient/EvtUfxDeviceEndpointAdd
+ms.date: 4/25/2018
+ms.keywords: EVT_UFX_DEVICE_ENDPOINT_ADD, EVT_UFX_DEVICE_ENDPOINT_ADD callback, EvtUfxDeviceEndpointAdd, EvtUfxDeviceEndpointAdd callback function [Buses], PFN_UFX_DEVICE_ENDPOINT_ADD, PFN_UFX_DEVICE_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_endpoint_add, ufxclient/EvtUfxDeviceEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,36 +38,19 @@ api_location:
 -	Ufxclient.h
 api_name:
 -	PFN_UFX_DEVICE_ENDPOINT_ADD
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UFX_DEVICE_ENDPOINT_ADD callback
+# EVT_UFX_DEVICE_ENDPOINT_ADD callback function
 
 
 ## -description
 
 
 The client driver's implementation to create a default endpoint object.
-
-
-## -prototype
-
-
-````
-EVT_UFX_DEVICE_ENDPOINT_ADD EvtUfxDeviceEndpointAdd;
-
-NTSTATUS EvtUfxDeviceEndpointAdd(
-  _In_          UFXDEVICE                UfxDevice,
-  _In_    const PUSB_ENDPOINT_DESCRIPTOR EndpointDescriptor,
-  _Inout_       PUFXENDPOINT_INIT        EndpointInit
-)
-{ ... }
-
-typedef EVT_UFX_DEVICE_ENDPOINT_ADD PFN_UFX_DEVICE_ENDPOINT_ADD;
-````
 
 
 ## -parameters
@@ -85,7 +68,7 @@ typedef EVT_UFX_DEVICE_ENDPOINT_ADD PFN_UFX_DEVICE_ENDPOINT_ADD;
 
 #### - EndpointDescriptor [in]
 
-A pointer to a <a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a> structure that contains descriptor data.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a> structure that contains descriptor data.
 
 
 #### - EndpointInit [in, out]
@@ -95,7 +78,7 @@ A pointer to an  UFXENDPOINT_INIT opaque structure that contains the endpoint de
 
 #### - UfxDevice [in]
 
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ## -returns
@@ -111,11 +94,11 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 
-The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_ENDPOINT_ADD</i> implementation with the USB function class extension (UFX) by calling the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a> method.
+The client driver for the function host controller registers its <i>EVT_UFX_DEVICE_ENDPOINT_ADD</i> implementation with the USB function class extension (UFX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a> method.
 
-To create the endpoint the client driver is expected to initialize the attributes of the endpoint’s transfer and command queues, and then call <a href="..\ufxclient\nf-ufxclient-ufxendpointcreate.md">UfxEndpointCreate</a> to create the endpoint.
+To create the endpoint the client driver is expected to initialize the attributes of the endpoint’s transfer and command queues, and then call <a href="https://msdn.microsoft.com/library/windows/hardware/mt187965">UfxEndpointCreate</a> to create the endpoint.
 
-The client driver indicates completion of this event by calling the <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a> method.
+The client driver indicates completion of this event by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187952">UfxDeviceEventComplete</a> method.
 
 
 #### Examples
@@ -246,16 +229,15 @@ End:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
 
 
 
-<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187952">UfxDeviceEventComplete</a>
  
 
  
-
 

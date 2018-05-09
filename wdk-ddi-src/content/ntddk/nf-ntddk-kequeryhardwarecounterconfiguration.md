@@ -7,7 +7,7 @@ old-location: kernel\kequeryhardwarecounterconfiguration.htm
 old-project: kernel
 ms.assetid: 5ac33177-38fc-4027-95c9-c2cf9ccdaa52
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml, kernel.kequeryhardwarecounterconfiguration, ntddk/KeQueryHardwareCounterConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeQueryHardwareCounterConfiguration
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # KeQueryHardwareCounterConfiguration function
@@ -52,18 +53,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>KeQueryHardwareCounterConfiguration</b> routine queries the operating system for the list of hardware counters to use for thread profiling. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KeQueryHardwareCounterConfiguration(
-  _Out_ PHARDWARE_COUNTER CounterArray,
-  _In_  ULONG             MaximumCount,
-  _Out_ PULONG            Count
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ NTSTATUS KeQueryHardwareCounterConfiguration(
 
 ### -param CounterArray [out]
 
-A pointer to a caller-allocated buffer into which the routine writes an array of elements of type <a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>. Each array element is a structure that contains information about a hardware counter. The array contains one element for each hardware counter that is assigned to thread profiling. If the routine fails, it writes nothing to this buffer. 
+A pointer to a caller-allocated buffer into which the routine writes an array of elements of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546980">HARDWARE_COUNTER</a>. Each array element is a structure that contains information about a hardware counter. The array contains one element for each hardware counter that is assigned to thread profiling. If the routine fails, it writes nothing to this buffer. 
 
 
 ### -param MaximumCount [in]
@@ -129,23 +118,22 @@ This routine is not implemented for the processor architecture that the caller i
 
 In Windows 7, this routine is implemented only for the x86-based, x64-based, and Itanium-based architectures. If the caller is running on a processor architecture that is not supported, the routine returns STATUS_NOT_IMPLEMENTED. 
 
-To set the hardware counter configuration to use for thread profiling, call the <a href="..\ntddk\nf-ntddk-kesethardwarecounterconfiguration.md">KeSetHardwareCounterConfiguration</a> routine. 
+To set the hardware counter configuration to use for thread profiling, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553257">KeSetHardwareCounterConfiguration</a> routine. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kesethardwarecounterconfiguration.md">KeSetHardwareCounterConfiguration</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_hardware_counter.md">HARDWARE_COUNTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546980">HARDWARE_COUNTER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553257">KeSetHardwareCounterConfiguration</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_xoff_counter.htm
 old-project: serports
 ms.assetid: c24451cd-87d7-493d-83cb-2ee96590b8a3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_XOFF_COUNTER, IOCTL_SERIAL_XOFF_COUNTER control code [Serial Ports], ntddser/IOCTL_SERIAL_XOFF_COUNTER, serports.ioctl_serial_xoff_counter, serref_ef42292d-d9d2-47be-b368-a696af5d0eea.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_XOFF_COUNTER, IOCTL_SERIAL_XOFF_COUNTER control, IOCTL_SERIAL_XOFF_COUNTER control code [Serial Ports], ntddser/IOCTL_SERIAL_XOFF_COUNTER, serports.ioctl_serial_xoff_counter, serref_ef42292d-d9d2-47be-b368-a696af5d0eea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_XOFF_COUNTER
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_XOFF_COUNTER IOCTL
@@ -137,16 +138,15 @@ A write request was received.
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_xoff.md">IOCTL_SERIAL_SET_XOFF</a>
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_xon.md">IOCTL_SERIAL_SET_XON</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546784">IOCTL_SERIAL_SET_XOFF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546793">IOCTL_SERIAL_SET_XON</a>
  
 
  
-
 

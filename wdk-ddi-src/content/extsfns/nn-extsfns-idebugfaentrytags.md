@@ -7,8 +7,8 @@ old-location: debugger\idebugfaentrytags.htm
 old-project: debugger
 ms.assetid: B52DFB0E-0035-40C2-B2F5-5E16B16931C2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging], described, debugger.idebugfaentrytags, extsfns/IDebugFAEntryTags
+ms.date: 4/24/2018
+ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging],described, debugger.idebugfaentrytags, extsfns/IDebugFAEntryTags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	extsfns.h
 api_name:
 -	IDebugFAEntryTags
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
 # IDebugFAEntryTags interface
@@ -63,7 +64,7 @@ The <b>IDebugFAEntryTags</b>
  interface is not a COM interface;removremoproc that is, it does not inherit from <b>IUnknown</b>
 
 To get an <b>IDebugFAEntryTags</b> interface,
-  call the <b>GetDebugFATagControl</b> method of the <a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a> 
+  call the <b>GetDebugFATagControl</b> method of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a> 
   interface.
 
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.StopAcknowledge
-title: IWDFIoRequest2::StopAcknowledge method
+title: IWDFIoRequest2::StopAcknowledge
 author: windows-driver-content
 description: The StopAcknowledge method informs the framework that the driver has stopped processing a specified I/O request.
 old-location: wdf\iwdfiorequest2_stopacknowledge.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: af4ae2c0-b1e1-45af-bd0e-3b9a91566caa
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, StopAcknowledge method, IWDFIoRequest2::StopAcknowledge, StopAcknowledge method, StopAcknowledge method, IWDFIoRequest2 interface, StopAcknowledge,IWDFIoRequest2.StopAcknowledge, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, umdf.iwdfiorequest2_stopacknowledge, wdf.iwdfiorequest2_stopacknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge
+ms.keywords: IWDFIoRequest2 interface,StopAcknowledge method, IWDFIoRequest2.StopAcknowledge, IWDFIoRequest2::StopAcknowledge, StopAcknowledge, StopAcknowledge method, StopAcknowledge method,IWDFIoRequest2 interface, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, umdf.iwdfiorequest2_stopacknowledge, wdf.iwdfiorequest2_stopacknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest2.StopAcknowledge
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::StopAcknowledge method
+# IWDFIoRequest2::StopAcknowledge
 
 
 ## -description
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>StopAcknowledge</b> method informs the framework that the driver has stopped processing a specified I/O request.
-
-
-## -syntax
-
-
-````
-void StopAcknowledge(
-  [in] BOOL Requeue
-);
-````
 
 
 ## -parameters
@@ -169,11 +159,6 @@ CMyReadWriteQueue::OnIoStop(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556871">IQueueCallbackIoStop::OnIoStop</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
 
 
@@ -181,8 +166,12 @@ CMyReadWriteQueue::OnIoStop(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556871">IQueueCallbackIoStop::OnIoStop</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a>
  
 
  
-
 

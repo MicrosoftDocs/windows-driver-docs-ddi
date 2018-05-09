@@ -7,7 +7,7 @@ old-location: netvista\ril_readphonebookentries.htm
 old-project: netvista
 ms.assetid: 3da05f28-a6de-4dad-a978-0439f3244bbb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_ReadPhonebookEntries, RIL_ReadPhonebookEntries method [Network Drivers Starting with Windows Vista], netvista.ril_readphonebookentries, rilapi/RIL_ReadPhonebookEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_ReadPhonebookEntries
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_ReadPhonebookEntries function
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_ReadPhonebookEntries(
-   HRIL                       hRil,
-   LPVOID                     lpContext,
-   HUICCAPP                   hUiccApp,
-   RILPHONEENTRYSTORELOCATION dwStoreLocation,
-   DWORD                      dwStartIndex,
-   DWORD                      dwEndIndex
-);
-````
 
 
 ## -parameters

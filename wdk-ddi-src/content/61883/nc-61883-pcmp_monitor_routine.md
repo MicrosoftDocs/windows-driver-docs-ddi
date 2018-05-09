@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: E140D097-EE2F-4179-A43D-570397459762
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 61883/CmpMonitorRoutine, CmpMonitorRoutine, CmpMonitorRoutine callback function [Buses], IEEE.pcmp_monitor_routine, PCMP_MONITOR_ROUTINE
+ms.keywords: 61883/CmpMonitorRoutine, CmpMonitorRoutine, CmpMonitorRoutine callback function [Buses], IEEE.pcmp_monitor_routine, PCMP_MONITOR_ROUTINE, PCMP_MONITOR_ROUTINE callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	61883.h
 api_name:
 -	CmpMonitorRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
+req.typenames: 
 ---
 
-# PCMP_MONITOR_ROUTINE callback
+# PCMP_MONITOR_ROUTINE callback function
 
 
 ## -description
 
 
 This routine is called for plug monitoring.
-
-
-## -prototype
-
-
-````
-PCMP_MONITOR_ROUTINE CmpMonitorRoutine;
-
-void CmpMonitorRoutine(
-  _In_ PCMP_MONITOR_INFO MonitorInfo
-)
-{ ... }
-
-typedef PCMP_MONITOR_ROUTINE CmpMonitorRoutine;
-````
 
 
 ## -parameters
@@ -88,12 +74,11 @@ This callback does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

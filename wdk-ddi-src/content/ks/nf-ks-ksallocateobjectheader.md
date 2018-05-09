@@ -7,7 +7,7 @@ old-location: stream\ksallocateobjectheader.htm
 old-project: stream
 ms.assetid: 18f5ea44-3f70-4c26-beb3-2f03568df03b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAllocateObjectHeader, KsAllocateObjectHeader function [Streaming Media Devices], ks/KsAllocateObjectHeader, ksfunc_0ab53e6c-a934-4c4a-9377-c81ec37833f6.xml, stream.ksallocateobjectheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAllocateObjectHeader
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,20 +53,6 @@ req.typenames:
 
 The <b>KsAllocateObjectHeader</b> function initializes the required file context 
    header.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAllocateObjectHeader(
-  _Out_          KSOBJECT_HEADER       *Header,
-  _In_           ULONG                 ItemsCount,
-  _In_opt_       PKSOBJECT_CREATE_ITEM ItemsList,
-  _In_           PIRP                  Irp,
-  _In_     const KSDISPATCH_TABLE      *Table
-);
-````
 
 
 ## -parameters
@@ -89,7 +76,7 @@ Specifies the number of object create items in the <i>ItemsList</i> to be added 
 ### -param ItemsList [in, optional]
 
 Optionally specifies a pointer to a caller-allocated buffer containing a series of 
-      <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a> structures to be added to 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a> structures to be added to 
       the object header. Must be set to <b>NULL</b> if there are no object create items.
 
 
@@ -121,7 +108,7 @@ The <b>KsAllocateObjectHeader</b> function returns
 
 
 Before calling this routine the driver must allocate system-resident storage for a 
-     <a href="..\ks\ns-ks-ksdispatch_table.md">KSDISPATCH_TABLE</a> and initialize the dispatch table. 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561723">KSDISPATCH_TABLE</a> and initialize the dispatch table. 
      The memory for this dispatch table cannot be released until <b>KsFreeObjectHeader</b> 
      is called.
 
@@ -133,7 +120,7 @@ Before calling this routine the driver must allocate system-resident storage for
 
 If subobjects exist for a given device, the driver must, before calling 
      <b>KsAllocateObjectHeader</b>, allocate a buffer of either paged or nonpaged memory of 
-     sufficient size to hold a <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a> 
+     sufficient size to hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a> 
      structure for each subobject. For example:
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -153,7 +140,7 @@ createBuffer = (PKSOBJECT_CREATE_ITEM)
 </tr>
 </table></span></div>
 Drivers must not free the memory allocated for the subobject 
-     <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a> list until after calling 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a> list until after calling 
      <b>KsFreeDeviceHeader</b>. Failure to do so can result in a bug check condition.
 
 
@@ -161,20 +148,19 @@ Drivers must not free the memory allocated for the subobject
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreedeviceheader.md">KsFreeDeviceHeader</a>
 
 
 
-<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a>
 
 
 
-<a href="..\ks\nf-ks-ksfreeobjectheader.md">KsFreeObjectHeader</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562560">KsFreeDeviceHeader</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562565">KsFreeObjectHeader</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: debugger\idebugsymbolgroup2.htm
 old-project: debugger
 ms.assetid: d702fe69-966c-4b9a-aa0e-b8376288cb79
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], described, dbgeng/IDebugSymbolGroup2, debugger.idebugsymbolgroup2
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging],described, dbgeng/IDebugSymbolGroup2, debugger.idebugsymbolgroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbolGroup2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugSymbolGroup2 interface
@@ -53,7 +54,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbolGroup2</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>. <b>IDebugSymbolGroup2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbolGroup2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a>. <b>IDebugSymbolGroup2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -196,12 +197,11 @@ Sets the value of the specified symbol.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a>
  
 
  
-
 

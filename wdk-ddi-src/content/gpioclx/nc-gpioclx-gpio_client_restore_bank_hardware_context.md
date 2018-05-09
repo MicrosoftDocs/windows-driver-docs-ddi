@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 7F73BC89-1BAF-413D-A901-56B4A0F3235A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_RestoreBankHardwareContext, CLIENT_RestoreBankHardwareContext callback function [Parallel Ports], GPIO.client_restorebankhardwarecontext, GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT, gpioclx/CLIENT_RestoreBankHardwareContext
+ms.keywords: CLIENT_RestoreBankHardwareContext, CLIENT_RestoreBankHardwareContext callback, CLIENT_RestoreBankHardwareContext callback function [Parallel Ports], GPIO.client_restorebankhardwarecontext, GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT, gpioclx/CLIENT_RestoreBankHardwareContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_RestoreBankHardwareContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT callback
+# GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT callback function
 
 
 ## -description
 
 
 The <i>CLIENT_RestoreBankHardwareContext</i> event callback function restores the hardware context of a bank of general-purpose I/O (GPIO) pins.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT CLIENT_RestoreBankHardwareContext;
-
-NTSTATUS CLIENT_RestoreBankHardwareContext(
-  _In_ PVOID                                               Context,
-  _In_ PGPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS Parameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -147,6 +134,13 @@ The GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT function type is defined in the Gp
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
@@ -155,15 +149,7 @@ The GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT function type is defined in the Gp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698257">GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 
@@ -171,8 +157,8 @@ The GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT function type is defined in the Gp
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698257">GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\iosetfileorigin.htm
 old-project: ifsk
 ms.assetid: 98d38c84-ed3a-4119-9a05-f8211f220467
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: IoSetFileOrigin, IoSetFileOrigin routine [Installable File System Drivers], ifsk.iosetfileorigin, ioref_782eeed5-9c44-4572-b929-4e1fb82d8e03.xml, ntddk/IoSetFileOrigin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoSetFileOrigin
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoSetFileOrigin function
@@ -50,17 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoSetFileOrigin</b> routine specifies whether a given file object is for a remote create request. 
-
-
-## -syntax
-
-
-````
-NTSTATUS IoSetFileOrigin(
-  _In_ PFILE_OBJECT FileObject,
-  _In_ BOOLEAN      Remote
-);
-````
 
 
 ## -parameters
@@ -104,12 +94,11 @@ File system filter drivers should not call <b>IoSetFileOrigin</b>.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioisfileoriginremote.md">IoIsFileOriginRemote</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548435">IoIsFileOriginRemote</a>
  
 
  
-
 

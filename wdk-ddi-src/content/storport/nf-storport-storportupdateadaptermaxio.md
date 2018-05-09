@@ -7,7 +7,7 @@ old-location: storage\storportupdateadaptermaxio.htm
 old-project: storage
 ms.assetid: BB18925D-ACFA-426D-ADD3-33C1D8A99396
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Storport.h
 api_name:
 -	StorPortUpdateAdapterMaxIO
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortUpdateAdapterMaxIO function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This function can be called by a miniport to update the maximum IO's supported by
     an adapter. This function is valid during HwInitialize/HwPassiveInitRoutine
     callback and has effect only during adapter initialization.
-
-
-## -syntax
-
-
-````
-ULONG StorPortUpdateAdapterMaxIO(
-   PVOID HwDeviceExtension,
-   ULONG MaxIoCount
-);
-````
 
 
 ## -parameters
@@ -116,12 +105,11 @@ This function returns of the following values.
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HwInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/54f460da-2dfb-4a9d-9b25-edb90f3bfdd5">HwInitialize</a>
  
 
  
-
 

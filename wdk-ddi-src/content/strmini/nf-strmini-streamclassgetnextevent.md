@@ -7,7 +7,7 @@ old-location: stream\streamclassgetnextevent.htm
 old-project: stream
 ms.assetid: a2f83163-4529-4627-8959-2b4cd6b88828
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: StreamClassGetNextEvent, StreamClassGetNextEvent routine [Streaming Media Devices], strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml, stream.streamclassgetnextevent, strmini/StreamClassGetNextEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Stream.dll
 api_name:
 -	StreamClassGetNextEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StreamClassGetNextEvent function
@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 Minidrivers can use the <b>StreamClassGetNextEvent</b> routine to search the event queue of a device or of a particular stream.
-
-
-## -syntax
-
-
-````
-PKSEVENT_ENTRY StreamClassGetNextEvent(
-  _In_opt_ PVOID             HwDeviceExtension,
-  _In_opt_ PHW_STREAM_OBJECT HwStreamObject,
-  _In_opt_ GUID              *EventGuid,
-  _In_     ULONG             EventItem,
-  _In_opt_ PKSEVENT_ENTRY    CurrentEvent
-);
-````
 
 
 ## -parameters
@@ -80,7 +66,7 @@ TBD
 
 ### -param HwStreamObject [in, optional]
 
-Pointer to a <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>. Set to <b>NULL</b> to search the event queue of the device itself. To search the event queue of a particular stream, set to the stream's stream object.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559697">HW_STREAM_OBJECT</a>. Set to <b>NULL</b> to search the event queue of the device itself. To search the event queue of a particular stream, set to the stream's stream object.
 
 
 ### -param EventGuid [in, optional]
@@ -100,7 +86,7 @@ Pointer to an event in the event queue, or <b>NULL</b>.
 
 #### - HwDeviceExtension [in, optional]
 
-Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>, <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559702">HW_STREAM_REQUEST_BLOCK</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff559697">HW_STREAM_OBJECT</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff559706">HW_TIME_CONTEXT</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
 
 ## -returns

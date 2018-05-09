@@ -7,7 +7,7 @@ old-location: kernel\pep_perf_state_unit.htm
 old-project: kernel
 ms.assetid: 5E5F049D-4306-4382-B3F7-06C1F5FFE93E
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PepPerfStateUnitBandwidth, PepPerfStateUnitFrequency, PepPerfStateUnitMax, PepPerfStateUnitOther, _PEP_PERF_STATE_UNIT, kernel.pep_perf_state_unit, pepfx/PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitBandwidth, pepfx/PepPerfStateUnitFrequency, pepfx/PepPerfStateUnitMax, pepfx/PepPerfStateUnitOther"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PERF_STATE_UNIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PEP_PERF_STATE_UNIT, *PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, *PPEP_PERF_STATE_UNIT
+req.typenames: PEP_PERF_STATE_UNIT, *PPEP_PERF_STATE_UNIT
 ---
 
 # _PEP_PERF_STATE_UNIT enumeration
@@ -50,19 +51,6 @@ req.typenames: PEP_PERF_STATE_UNIT, *PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, 
 
 
 The <b>PEP_PERF_STATE_UNIT</b> enumeration indicates the measurement units in which the performance state (P-state) of a component is specified.
-
-
-## -syntax
-
-
-````
-typedef enum _PEP_PERF_STATE_UNIT { 
-  PepPerfStateUnitOther      = 0,
-  PepPerfStateUnitFrequency,
-  PepPerfStateUnitBandwidth,
-  PepPerfStateUnitMax
-} PEP_PERF_STATE_UNIT;
-````
 
 
 ## -enum-fields
@@ -94,19 +82,18 @@ Reserved for use by operating system.
 
 
 
-The <b>Type</b> member of the <a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a> structure is a <b>PEP_PERF_STATE_UNIT</b> enumeration value.
+The <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186702">PEP_COMPONENT_PERF_SET</a> structure is a <b>PEP_PERF_STATE_UNIT</b> enumeration value.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186702">PEP_COMPONENT_PERF_SET</a>
  
 
  
-
 

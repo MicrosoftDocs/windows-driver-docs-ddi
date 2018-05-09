@@ -4,6 +4,7 @@
 ### [MAGNETOMETER_ACCURACY enumeration](../sensorsdef/ne-sensorsdef-magnetometer_accuracy.md)
 ### [PEDOMETER_STEP_TYPE enumeration](../sensorsdef/ne-sensorsdef-pedometer_step_type.md)
 ### [PEDOMETER_STEP_TYPE_COUNT enumeration](../sensorsdef/ne-sensorsdef-pedometer_step_type_count.md)
+### [SENSOR_CONNECTION_TYPES enumeration](../sensorsdef/ne-sensorsdef-sensor_connection_types.md)
 ### [SENSOR_STATE enumeration](../sensorsdef/ne-sensorsdef-sensor_state.md)
 ### [SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function](../sensorsdef/nf-sensorsdef-sensor_collection_list_calculate_max_count.md)
 ### [SENSOR_COLLECTION_LIST_INIT function](../sensorsdef/nf-sensorsdef-sensor_collection_list_init.md)

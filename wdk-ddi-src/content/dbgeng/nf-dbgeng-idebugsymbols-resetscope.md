@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.ResetScope
-title: IDebugSymbols::ResetScope method
+title: IDebugSymbols::ResetScope
 author: windows-driver-content
 description: The ResetScope method resets the current scope to the default scope of the current thread.
 old-location: debugger\resetscope.htm
 old-project: debugger
 ms.assetid: de8b7c44-98a6-457d-8c04-05d4fc76be16
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSymbols, IDebugSymbols interface [Windows Debugging], ResetScope method, IDebugSymbols2 interface [Windows Debugging], ResetScope method, IDebugSymbols2::ResetScope, IDebugSymbols3 interface [Windows Debugging], ResetScope method, IDebugSymbols3::ResetScope, IDebugSymbols::ResetScope, IDebugSymbols_e3d0b307-57e7-4bc1-83f6-3352dd33a7aa.xml, ResetScope method [Windows Debugging], ResetScope method [Windows Debugging], IDebugSymbols interface, ResetScope method [Windows Debugging], IDebugSymbols2 interface, ResetScope method [Windows Debugging], IDebugSymbols3 interface, ResetScope,IDebugSymbols.ResetScope, dbgeng/IDebugSymbols2::ResetScope, dbgeng/IDebugSymbols3::ResetScope, dbgeng/IDebugSymbols::ResetScope, debugger.resetscope
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging],ResetScope method, IDebugSymbols.ResetScope, IDebugSymbols2 interface [Windows Debugging],ResetScope method, IDebugSymbols2::ResetScope, IDebugSymbols3 interface [Windows Debugging],ResetScope method, IDebugSymbols3::ResetScope, IDebugSymbols::ResetScope, IDebugSymbols_e3d0b307-57e7-4bc1-83f6-3352dd33a7aa.xml, ResetScope, ResetScope method [Windows Debugging], ResetScope method [Windows Debugging],IDebugSymbols interface, ResetScope method [Windows Debugging],IDebugSymbols2 interface, ResetScope method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::ResetScope, dbgeng/IDebugSymbols3::ResetScope, dbgeng/IDebugSymbols::ResetScope, debugger.resetscope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,26 +40,19 @@ api_name:
 -	IDebugSymbols.ResetScope
 -	IDebugSymbols2.ResetScope
 -	IDebugSymbols3.ResetScope
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols::ResetScope method
+# IDebugSymbols::ResetScope
 
 
 ## -description
 
 
 The <b>ResetScope</b> method resets the current scope to the default scope of the current thread.
-
-
-## -syntax
-
-
-````
-HRESULT ResetScope();
-````
 
 
 ## -parameters
@@ -108,19 +101,6 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
@@ -128,8 +108,20 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
  
 
  
-
 

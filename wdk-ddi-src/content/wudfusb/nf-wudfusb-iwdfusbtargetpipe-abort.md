@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.Abort
-title: IWDFUsbTargetPipe::Abort method
+title: IWDFUsbTargetPipe::Abort
 author: windows-driver-content
 description: The Abort method aborts all pending transfers on a USB pipe.
 old-location: wdf\iwdfusbtargetpipe_abort.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f756988d-8b21-4c2e-8c85-68f4eaa2c4f9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: Abort method, Abort method, IWDFUsbTargetPipe interface, Abort,IWDFUsbTargetPipe.Abort, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, Abort method, IWDFUsbTargetPipe::Abort, UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, umdf.iwdfusbtargetpipe_abort, wdf.iwdfusbtargetpipe_abort, wudfusb/IWDFUsbTargetPipe::Abort
+ms.keywords: Abort, Abort method, Abort method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,Abort method, IWDFUsbTargetPipe.Abort, IWDFUsbTargetPipe::Abort, UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, umdf.iwdfusbtargetpipe_abort, wdf.iwdfusbtargetpipe_abort, wudfusb/IWDFUsbTargetPipe::Abort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetPipe.Abort
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::Abort method
+# IWDFUsbTargetPipe::Abort
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Abort</b> method aborts all pending transfers on a USB pipe.
-
-
-## -syntax
-
-
-````
-HRESULT  Abort();
-````
 
 
 ## -parameters
@@ -135,16 +127,15 @@ For more information about how <b>Abort</b> works, see the <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540202">WinUsb_AbortPipe</a>
-
-
-
  
 
  
-
 

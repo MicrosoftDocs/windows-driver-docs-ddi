@@ -7,7 +7,7 @@ old-location: audio\ksaudiomodule_notification.htm
 old-project: audio
 ms.assetid: 92A9462C-0E8C-4012-9374-3437BB220502
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], _KSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification, ksmedia/KSAUDIOMODULE_NOTIFICATION, ksmedia/PKSAUDIOMODULE_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSAUDIOMODULE_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION
 ---
@@ -50,24 +51,6 @@ req.typenames: KSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION
 
 
 The <b>KSAUDIOMODULE_NOTIFICATION</b> structure describes the  properties associated with audio  modules change notification.
-
-
-## -syntax
-
-
-````
-typedef struct _KSAUDIOMODULE_NOTIFICATION {
-  union {
-    struct {
-      GUID  DeviceId;
-      GUID  ClassId;
-      ULONG InstanceId;
-      ULONG Reserved;
-    } ProviderId;
-    LONGLONG  Alignment;
-  };
-} KSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION;
-````
 
 
 ## -struct-fields
@@ -100,7 +83,7 @@ The InstanceId of the audio module.  The InstanceId is a unique identifier that 
 This member is reserved.
 
 
-#### - Alignment
+### -field Alignment
 
 Specifies the value that is used for alignment. 
 

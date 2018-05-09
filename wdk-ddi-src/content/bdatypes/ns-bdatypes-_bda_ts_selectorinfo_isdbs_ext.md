@@ -7,7 +7,7 @@ old-location: stream\bda_ts_selectorinfo_isdbs_ext.htm
 old-project: stream
 ms.assetid: F56D4984-B159-4068-8081-3E2457E50998
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_TS_SELECTORINFO_ISDBS_EXT, BDA_TS_SELECTORINFO_ISDBS_EXT, BDA_TS_SELECTORINFO_ISDBS_EXT structure [Streaming Media Devices], PBDA_TS_SELECTORINFO_ISDBS_EXT, PBDA_TS_SELECTORINFO_ISDBS_EXT structure pointer [Streaming Media Devices], _BDA_TS_SELECTORINFO_ISDBS_EXT, bdatypes/BDA_TS_SELECTORINFO_ISDBS_EXT, bdatypes/PBDA_TS_SELECTORINFO_ISDBS_EXT, stream.bda_ts_selectorinfo_isdbs_ext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_TS_SELECTORINFO_ISDBS_EXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_TS_SELECTORINFO_ISDBS_EXT, *PBDA_TS_SELECTORINFO_ISDBS_EXT
 ---
@@ -50,16 +51,6 @@ req.typenames: BDA_TS_SELECTORINFO_ISDBS_EXT, *PBDA_TS_SELECTORINFO_ISDBS_EXT
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_TS_SELECTORINFO_ISDBS_EXT {
-  BYTE bTMCC[48];
-} BDA_TS_SELECTORINFO_ISDBS_EXT, *PBDA_TS_SELECTORINFO_ISDBS_EXT;
-````
 
 
 ## -struct-fields

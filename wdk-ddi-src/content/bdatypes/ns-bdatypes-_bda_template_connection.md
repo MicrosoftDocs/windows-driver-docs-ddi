@@ -7,7 +7,7 @@ old-location: stream\bda_template_connection.htm
 old-project: stream
 ms.assetid: f3b5d06d-0557-49a8-9c0d-be964203108a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION structure [Streaming Media Devices], PBDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION structure pointer [Streaming Media Devices], _BDA_TEMPLATE_CONNECTION, bdaref_fbba4f2e-dd43-4f5c-b057-f1fbc52cfbe9.xml, bdatypes/BDA_TEMPLATE_CONNECTION, bdatypes/PBDA_TEMPLATE_CONNECTION, stream.bda_template_connection"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_TEMPLATE_CONNECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_TEMPLATE_CONNECTION, *PBDA_TEMPLATE_CONNECTION
 ---
@@ -50,19 +51,6 @@ req.typenames: BDA_TEMPLATE_CONNECTION, *PBDA_TEMPLATE_CONNECTION
 
 
 The BDA_TEMPLATE_CONNECTION structure describes the template for a BDA connection in terms of where it begins and ends. 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_TEMPLATE_CONNECTION {
-  ULONG FromNodeType;
-  ULONG FromNodePinType;
-  ULONG ToNodeType;
-  ULONG ToNodePinType;
-} BDA_TEMPLATE_CONNECTION, *PBDA_TEMPLATE_CONNECTION;
-````
 
 
 ## -struct-fields
@@ -92,7 +80,22 @@ Index of the element in the zero-based array of pin types (KSPIN_DESCRIPTOR_EX a
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556544">BDA_PIN_PAIRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556501">BdaPropertyTemplateConnections</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563473">KSNODE_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a>
 
 
 
@@ -100,24 +103,8 @@ Index of the element in the zero-based array of pin types (KSPIN_DESCRIPTOR_EX a
 
 
 
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
-
-
-
-<a href="..\bdasup\nf-bdasup-bdapropertytemplateconnections.md">BdaPropertyTemplateConnections</a>
-
-
-
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567148">KSTOPOLOGY_CONNECTION</a>
  
 
  
-
 

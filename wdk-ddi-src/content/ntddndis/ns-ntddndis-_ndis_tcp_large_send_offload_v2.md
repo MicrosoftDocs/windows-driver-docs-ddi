@@ -7,7 +7,7 @@ old-location: netvista\ndis_tcp_large_send_offload_v2.htm
 old-project: netvista
 ms.assetid: e53e5771-a3ca-4867-a0ac-65adb66e574c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, PNDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_V2, netvista.ndis_tcp_large_send_offload_v2, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V2, ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, tcpip_offload_ref_739d5001-8b37-437f-ad2e-8ad817feb59d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_TCP_LARGE_SEND_OFFLOAD_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_TCP_LARGE_SEND_OFFLOAD_V2, *PNDIS_TCP_LARGE_SEND_OFFLOAD_V2
 ---
@@ -51,28 +52,7 @@ req.typenames: NDIS_TCP_LARGE_SEND_OFFLOAD_V2, *PNDIS_TCP_LARGE_SEND_OFFLOAD_V2
 
 The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> structure provides large send offload version 2 (LSOV2)
   information in the 
-  <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_TCP_LARGE_SEND_OFFLOAD_V2 {
-  struct {
-    ULONG Encapsulation;
-    ULONG MaxOffLoadSize;
-    ULONG MinSegmentCount;
-  } IPv4;
-  struct {
-    ULONG Encapsulation;
-    ULONG MaxOffLoadSize;
-    ULONG MinSegmentCount;
-    ULONG IpExtensionHeadersSupported  :2;
-    ULONG TcpOptionsSupported  :2;
-  } IPv6;
-} NDIS_TCP_LARGE_SEND_OFFLOAD_V2, *PNDIS_TCP_LARGE_SEND_OFFLOAD_V2;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure.
 
 
 ## -struct-fields
@@ -87,15 +67,13 @@ A structure within <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> that specifies IPv4 inf
      
 
 
-
-#### Encapsulation
+### -field IPv4.Encapsulation
 
 Encapsulation settings for IPv4. For more information about this member, see the following
        Remarks section.
 
 
-
-#### MaxOffLoadSize
+### -field IPv4.MaxOffLoadSize
 
 The maximum bytes of user data that the transport can pass to the miniport driver in a single
        packet. The transport will not pass a packet to the miniport driver that contains more user data bytes
@@ -104,8 +82,7 @@ The maximum bytes of user data that the transport can pass to the miniport drive
        the packet into smaller packets.
 
 
-
-#### MinSegmentCount
+### -field IPv4.MinSegmentCount
 
 The minimum number of segments that a large TCP packet must be divisible by before the transport
        can offload it to the hardware for segmentation. The transport will not offload a large packet to the
@@ -122,15 +99,13 @@ A structure within <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> that specifies IPv6 inf
      
 
 
-
-#### Encapsulation
+### -field IPv6.Encapsulation
 
 Encapsulation settings for IPv6. For more information about this member, see the following
        Remarks section.
 
 
-
-#### MaxOffLoadSize
+### -field IPv6.MaxOffLoadSize
 
 The maximum bytes of user data that the transport can pass to the miniport driver in a single
        packet. The transport will not pass a packet to the miniport driver that contains more user data bytes
@@ -139,8 +114,7 @@ The maximum bytes of user data that the transport can pass to the miniport drive
        the packet into smaller packets.
 
 
-
-#### MinSegmentCount
+### -field IPv6.MinSegmentCount
 
 The minimum number of segments that a large TCP packet must be divisible by before the transport
        can offload it to a NIC for segmentation. The transport will not offload a large packet to the
@@ -150,15 +124,13 @@ The minimum number of segments that a large TCP packet must be divisible by befo
        packets.
 
 
-
-#### IpExtensionHeadersSupported
+### -field IPv6.IpExtensionHeadersSupported
 
 A ULONG value that a miniport driver sets to indicate that the miniport adapter can segment a
        large TCP packet whose IP header contains IPv6 extension headers.
 
 
-
-#### TcpOptionsSupported
+### -field IPv6.TcpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that the miniport driver can segment a
        large TCP packet whose TCP header contains TCP options or to indicate that this capability is enabled
@@ -171,19 +143,19 @@ A ULONG value that a miniport driver sets to indicate that the miniport driver c
 
 The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> structure is used in the 
     <b>LsoV2</b> member of the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure. The
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure. The
     <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> structure specifies current or supported services that a miniport adapter
     provides for segmenting large TCP packets into smaller packets. NDIS also provides large send offload
     version 1 (LSOV1), which is an earlier version of LSOV2. For more information about LSOV1, see 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v1.md">
+    <a href="https://msdn.microsoft.com/3e26b6ae-15e1-41d5-b00d-3e09c1534413">
     NDIS_TCP_LARGE_SEND_OFFLOAD_V1</a>.
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> is used in the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> is used in the 
+    <a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
     NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure, 
-    <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure, 
-    <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure, 
+    <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
     NDIS_FILTER_ATTACH_PARAMETERS</a> structure, 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID, and the 
@@ -192,7 +164,7 @@ The <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> structure is used in the
 
 For 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>,
-    the <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure specifies the task offload capabilities that a miniport adapter supports. If
+    the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure specifies the task offload capabilities that a miniport adapter supports. If
     the current offloads capabilities change, a miniport driver reports the new capabilities in an 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication.
@@ -217,30 +189,47 @@ For an
 The following flags are defined for the 
     <b>Encapsulation</b> members:
 
+NDIS_ENCAPSULATION_NOT_SUPPORTED  
+Specifies that no encapsulation offload is supported.
 
+NDIS_ENCAPSULATION_NULL  
+Specifies NULL encapsulation.
 
+NDIS_ENCAPSULATION_IEEE_802_3  
+Specifies IEEE 802.3 encapsulation.
 
+NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q  
+Specifies IEEE 802.3p and IEEE 802.3q encapsulation.
 
+NDIS_ENCAPSULATION_IEEE_802_3_P_AND_Q_IN_OOB  
+Specifies that IEEE 802.3p and IEEE 802.3q encapsulation settings are specified in the NetBufferListInfo member of each NET_BUFFER_LIST structure.
+
+NDIS_ENCAPSULATION_IEEE_LLC_SNAP_ROUTED  
+Specifies logical link control (LLC) encapsulation for routed protocols, as described in RFC 1483. This flag is also used to indicate Ethernet LLC/SNAP encapsulation.
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
@@ -249,22 +238,17 @@ The following flags are defined for the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v1.md">
+<a href="https://msdn.microsoft.com/3e26b6ae-15e1-41d5-b00d-3e09c1534413">
    NDIS_TCP_LARGE_SEND_OFFLOAD_V1</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
  
 
  
-
 

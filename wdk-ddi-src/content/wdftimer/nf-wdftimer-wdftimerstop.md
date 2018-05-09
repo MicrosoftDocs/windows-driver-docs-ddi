@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfTimerStop
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfTimerStop function
@@ -58,17 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfTimerStop</b> method stops a timer's clock.
 
 
-## -syntax
-
-
-````
-BOOLEAN WdfTimerStop(
-  _In_ WDFTIMER Timer,
-  _In_ BOOLEAN  Wait
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +65,7 @@ BOOLEAN WdfTimerStop(
 
 ### -param Timer [in]
 
-A handle to a framework timer object that was obtained by calling <a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>.
+A handle to a framework timer object that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550050">WdfTimerCreate</a>.
 
 
 ### -param Wait [in]
@@ -101,7 +90,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-When a driver calls <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>, its timer object is added to the system's queue of timer objects. If the timer is not a periodic timer, the system removes the timer object from the queue after the timer's "due time" has elapsed. If the timer is a periodic timer, the timer object remains in the queue until the driver calls <b>WdfTimerStop</b>. 
+When a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550054">WdfTimerStart</a>, its timer object is added to the system's queue of timer objects. If the timer is not a periodic timer, the system removes the timer object from the queue after the timer's "due time" has elapsed. If the timer is a periodic timer, the timer object remains in the queue until the driver calls <b>WdfTimerStop</b>. 
 
 For more information about framework timer objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
 
@@ -134,7 +123,6 @@ The following code example stops a specified timer and waits for all of the driv
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
 
 
 
@@ -142,12 +130,12 @@ The following code example stops a specified timer and waits for all of the driv
 
 
 
-<a href="..\wdftimer\nf-wdftimer-wdftimercreate.md">WdfTimerCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550050">WdfTimerCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550054">WdfTimerStart</a>
  
 
  
-
 

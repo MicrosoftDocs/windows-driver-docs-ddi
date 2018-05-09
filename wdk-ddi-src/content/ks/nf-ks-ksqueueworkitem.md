@@ -7,7 +7,7 @@ old-location: stream\ksqueueworkitem.htm
 old-project: stream
 ms.assetid: a700979e-aee4-4bce-8f98-b44b864fbb43
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsQueueWorkItem, KsQueueWorkItem function [Streaming Media Devices], ks/KsQueueWorkItem, ksfunc_abb711a0-0862-4d91-b2e1-3af290f1112f.xml, stream.ksqueueworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsQueueWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,18 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsQueueWorkItem</b> function queues the specified work item with a worker previous created by the <a href="..\ks\nf-ks-ksregisterworker.md">KsRegisterWorker</a> function.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsQueueWorkItem(
-  _In_ PKSWORKER        Worker,
-  _In_ PWORK_QUEUE_ITEM WorkItem
-);
-````
+The <b>KsQueueWorkItem</b> function queues the specified work item with a worker previous created by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566775">KsRegisterWorker</a> function.
 
 
 ## -parameters
@@ -76,7 +66,7 @@ Specifies the previously allocated worker.
 
 ### -param WorkItem [in]
 
-Specifies the initialized work item to queue. This work item is only associated with the worker as long as the worker is on a queue. The work item must have been initialized by <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>.
+Specifies the initialized work item to queue. This work item is only associated with the worker as long as the worker is on a queue. The work item must have been initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a>.
 
 
 ## -returns

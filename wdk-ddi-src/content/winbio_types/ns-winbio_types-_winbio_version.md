@@ -38,10 +38,10 @@ api_location:
 -	winbio_types.h
 api_name:
 -	WINBIO_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_VERSION structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WINBIO_VERSION structure describes major and minor version information for a WBDI driver.
-
-
-## -syntax
-
-
-````
-typedef struct _WINBIO_VERSION {
-  DWORD MajorVersion;
-  DWORD MinorVersion;
-} WINBIO_VERSION, *PWINBIO_VERSION;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: spb\spb_transfer_list_entry_init_buffer_list.htm
 old-project: SPB
 ms.assetid: 39FFE334-1696-43EF-81FA-C9B05F8FB644
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spb_transfer_list_entry_init_buffer_list, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Spb.h
 api_name:
 -	SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST</b> function returns an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a> structure that is initialized to describe a scatter-gather list.
 
 
-
-
-## -syntax
-
-
-````
-SPB_TRANSFER_LIST_ENTRY SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST(
-  _In_ SPB_TRANSFER_DIRECTION         Direction,
-  _In_ ULONG                          DelayInUs,
-  _In_ SPB_TRANSFER_BUFFER_LIST_ENTRY BufferList[],
-  _In_ ULONG                          BufferListCe
-);
-````
 
 
 ## -parameters
@@ -116,6 +103,9 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
 
 
@@ -124,16 +114,12 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406217">SPB_TRANSFER_BUFFER_LIST_ENTRY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
  
 
  
-
 

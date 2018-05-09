@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_blt_state_background_color_data.htm
 old-project: display
 ms.assetid: 23eaa88a-a3c3-4630-92b0-d76b266a9c45
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_d4f86ea1-cbdd-48ab-84ca-1bc64ba4c8db.xml, DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, display.dxvahdddi_blt_state_background_color_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA
 ---
@@ -50,17 +51,6 @@ req.typenames: DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA
 
 
 The DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA structure describes data that specifies the background color to fill in the target rectangle of the output. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA {
-  BOOL            YCbCr;
-  DXVAHDDDI_COLOR BackgroundColor;
-} DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA;
-````
 
 
 ## -struct-fields
@@ -75,44 +65,43 @@ typedef struct _DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA {
 
 ### -field BackgroundColor
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color.md">DXVAHDDDI_COLOR</a> union that specifies the background color as either a YCbCr or RGB color space. The default value is full range RGB black with opaque alpha, that is (R,G,B,A) = (0.0,0.0,0.0,1.0). 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563025">DXVAHDDDI_COLOR</a> union that specifies the background color as either a YCbCr or RGB color space. The default value is full range RGB black with opaque alpha, that is (R,G,B,A) = (0.0,0.0,0.0,1.0). 
 
 
 ## -remarks
 
 
 
-The color space of the background color is determined by the color space of the output. For more information about output color space, see <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_output_color_space_data.md">DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a>. 
+The color space of the background color is determined by the color space of the output. For more information about output color space, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563002">DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a>. 
 
-The alpha value of the background color is used when the DXVAHDDDI_ALPHA_FILL_MODE_BACKGROUND value is specified in the alpha fill mode (that is, the <b>Mode</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_alpha_fill_data.md">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a> structure) when the DXVAHDDDI_BLT_STATE_ALPHA_FILL value is specified in the <b>State</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure in a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a> function.
+The alpha value of the background color is used when the DXVAHDDDI_ALPHA_FILL_MODE_BACKGROUND value is specified in the alpha fill mode (that is, the <b>Mode</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562985">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a> structure) when the DXVAHDDDI_BLT_STATE_ALPHA_FILL value is specified in the <b>State</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543093">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure in a call to the <a href="https://msdn.microsoft.com/6796372c-279d-427c-a2a4-9b7c99494f53">SetVideoProcessBltState</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_color.md">DXVAHDDDI_COLOR</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543093">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562985">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_output_color_space_data.md">DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563002">DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_alpha_fill_data.md">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563025">DXVAHDDDI_COLOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/6796372c-279d-427c-a2a4-9b7c99494f53">SetVideoProcessBltState</a>
  
 
  
-
 

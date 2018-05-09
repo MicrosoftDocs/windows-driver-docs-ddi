@@ -7,7 +7,7 @@ old-location: stream\medium_info.htm
 old-project: stream
 ms.assetid: 1dd7415d-bfbc-4dea-bac9-bc5b8531a47f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PMEDIUM_INFO, MEDIUM_INFO, MEDIUM_INFO structure [Streaming Media Devices], PMEDIUM_INFO, PMEDIUM_INFO structure pointer [Streaming Media Devices], ksmedia/MEDIUM_INFO, ksmedia/PMEDIUM_INFO, stream.medium_info, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	MEDIUM_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MEDIUM_INFO, *PMEDIUM_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: MEDIUM_INFO, *PMEDIUM_INFO
 
 
 The MEDIUM_INFO structure describes the media loaded into an external device.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  BOOL  MediaPresent;
-  ULONG MediaType;
-  BOOL  RecordInhibit;
-} MEDIUM_INFO, *PMEDIUM_INFO;
-````
 
 
 ## -struct-fields

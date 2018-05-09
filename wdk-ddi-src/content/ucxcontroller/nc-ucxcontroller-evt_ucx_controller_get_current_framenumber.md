@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_controller_get_current_framenumber.htm
 old-project: usbref
 ms.assetid: 2755d0fd-9801-4d54-89cb-54f8b984288c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, EvtUcxControllerGetCurrentFrameNumber, EvtUcxControllerGetCurrentFrameNumber callback function [Buses], PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function pointer [Buses], buses.evt_ucx_controller_get_current_framenumber, ucxcontroller/EvtUcxControllerGetCurrentFrameNumber
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback, EvtUcxControllerGetCurrentFrameNumber, EvtUcxControllerGetCurrentFrameNumber callback function [Buses], PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function pointer [Buses], buses.evt_ucx_controller_get_current_framenumber, ucxcontroller/EvtUcxControllerGetCurrentFrameNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,19 @@ api_location:
 -	Ucxcontroller.h
 api_name:
 -	PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback
+# EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function
 
 
 ## -description
 
 
 The client driver's implementation that UCX calls to retrieve the current 32-bit frame number.
-
-
-## -prototype
-
-
-````
-EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER EvtUcxControllerGetCurrentFrameNumber;
-
-NTSTATUS EvtUcxControllerGetCurrentFrameNumber(
-  _In_  UCXCONTROLLER UcxController,
-  _Out_ PULONG        FrameNumber
-)
-{ ... }
-
-typedef EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER;
-````
 
 
 ## -parameters
@@ -136,12 +120,11 @@ Controller_EvtControllerGetCurrentFrameNumber(
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
-
-
  
 
  
-
 

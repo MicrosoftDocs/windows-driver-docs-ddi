@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_destroycryptosessionpolicy_0030.htm
 old-project: display
 ms.assetid: D02ED6F5-1976-4EAE-A648-0F8ED32B77C6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030, PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030, display.pfnd3d12ddi_destroycryptosessionpolicy_0030
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030, PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030 callback, PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030, display.pfnd3d12ddi_destroycryptosessionpolicy_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030 callback
+# PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030 callback function
 
 
 ## -description
 
 
 Used to destroy a crypto session.
-
-
-## -prototype
-
-
-````
-VOID APIENTRY* PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030(
-   D3D12DDI_HDEVICE                   hDrvDevice,
-   D3D12DDI_HCRYPTOSESSIONPOLICY_0030 hDrvCryptoSessionPolicy
-);
-````
 
 
 ## -parameters

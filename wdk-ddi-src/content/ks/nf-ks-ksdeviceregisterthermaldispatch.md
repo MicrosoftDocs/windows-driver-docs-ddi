@@ -7,7 +7,7 @@ old-location: stream\ksdeviceregisterthermaldispatch.htm
 old-project: stream
 ms.assetid: 7998B753-8E43-471F-9BDE-729D0E38E022
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsDeviceRegisterThermalDispatch, KsDeviceRegisterThermalDispatch function [Streaming Media Devices], ks/KsDeviceRegisterThermalDispatch, stream.ksdeviceregisterthermaldispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsDeviceRegisterThermalDispatch
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 This function is used by the Avstream miniport driver to register callbacks for thermal notifications with the KS port driver.
 
 
-## -syntax
-
-
-````
-void KSDDKAPI NTSTATUS NTAPI KsDeviceRegisterThermalDispatch(
-  _In_ PKSDEVICE                  KsDevice,
-  _In_ PKSDEVICE_THERMAL_DISPATCH KsDeviceThermalDispatch
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ void KSDDKAPI NTSTATUS NTAPI KsDeviceRegisterThermalDispatch(
 
 ### -param KsDevice [in]
 
-A KS device object representing the device managed by KS. For more information, see <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>.
+A KS device object representing the device managed by KS. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>.
 
 
 ### -param KsDeviceThermalDispatch [in]
@@ -105,12 +95,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
  
 
  
-
 

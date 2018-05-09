@@ -73,10 +73,10 @@ typedef EVT_NET_ADAPTER_CREATE_RXQUEUE *PFN_NET_ADAPTER_CREATE_RXQUEUE;
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter 
 The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
-### -param RxQueueInit: 
+### -param RxQueueInit 
 A pointer to a NetAdapterCx-allocated **NETRXQUEUE_INIT** structure. For more information, see the Remarks section.
 
 

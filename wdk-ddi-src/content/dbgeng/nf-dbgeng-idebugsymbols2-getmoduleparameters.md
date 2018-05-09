@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetModuleParameters
-title: IDebugSymbols2::GetModuleParameters method
+title: IDebugSymbols2::GetModuleParameters
 author: windows-driver-content
 description: The GetModuleParameters method returns parameters for modules in the target.
 old-location: debugger\getmoduleparameters.htm
 old-project: debugger
 ms.assetid: f744cd2e-a4ec-43be-a5cc-9135a73bce80
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetModuleParameters method [Windows Debugging], GetModuleParameters method [Windows Debugging], IDebugSymbols interface, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, GetModuleParameters,IDebugSymbols2.GetModuleParameters, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols2::GetModuleParameters, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols3::GetModuleParameters, IDebugSymbols::GetModuleParameters, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, dbgeng/IDebugSymbols2::GetModuleParameters, dbgeng/IDebugSymbols3::GetModuleParameters, dbgeng/IDebugSymbols::GetModuleParameters, debugger.getmoduleparameters
+ms.date: 4/24/2018
+ms.keywords: GetModuleParameters, GetModuleParameters method [Windows Debugging], GetModuleParameters method [Windows Debugging],IDebugSymbols interface, GetModuleParameters method [Windows Debugging],IDebugSymbols2 interface, GetModuleParameters method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleParameters method, IDebugSymbols2 interface [Windows Debugging],GetModuleParameters method, IDebugSymbols2.GetModuleParameters, IDebugSymbols2::GetModuleParameters, IDebugSymbols3 interface [Windows Debugging],GetModuleParameters method, IDebugSymbols3::GetModuleParameters, IDebugSymbols::GetModuleParameters, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, dbgeng/IDebugSymbols2::GetModuleParameters, dbgeng/IDebugSymbols3::GetModuleParameters, dbgeng/IDebugSymbols::GetModuleParameters, debugger.getmoduleparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,31 +40,19 @@ api_name:
 -	IDebugSymbols.GetModuleParameters
 -	IDebugSymbols2.GetModuleParameters
 -	IDebugSymbols3.GetModuleParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::GetModuleParameters method
+# IDebugSymbols2::GetModuleParameters
 
 
 ## -description
 
 
 The <b>GetModuleParameters</b> method returns parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">modules</a> in the target.
-
-
-## -syntax
-
-
-````
-HRESULT GetModuleParameters(
-  [in]           ULONG                    Count,
-  [in, optional] PULONG64                 Bases,
-  [in]           ULONG                    Start,
-  [out]          PDEBUG_MODULE_PARAMETERS Params
-);
-````
 
 
 ## -parameters
@@ -89,7 +77,7 @@ Specifies the index of the first module whose parameters are desired.  If <i>Bas
 
 ### -param Params [out]
 
-Receives the parameters.  The size of this array is the value of <i>Count</i>.  See <a href="..\dbgeng\ns-dbgeng-_debug_module_parameters.md">DEBUG_MODULE_PARAMETERS</a>.
+Receives the parameters.  The size of this array is the value of <i>Count</i>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541514">DEBUG_MODULE_PARAMETERS</a>.
 
 
 ## -returns
@@ -135,7 +123,7 @@ When <i>Bases</i> is <b>NULL</b>, this value indicates that the target contains 
 
 
 
-In the cases when partial results are returned, the entries in the array <i>Params</i> corresponding to modules that could not be found have their <b>Base</b> field set to DEBUG_INVALID_OFFSET.  See <a href="..\dbgeng\ns-dbgeng-_debug_module_parameters.md">DEBUG_MODULE_PARAMETERS</a>.
+In the cases when partial results are returned, the entries in the array <i>Params</i> corresponding to modules that could not be found have their <b>Base</b> field set to DEBUG_INVALID_OFFSET.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541514">DEBUG_MODULE_PARAMETERS</a>.
 
 For more information about modules, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.
 
@@ -144,24 +132,23 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541514">DEBUG_MODULE_PARAMETERS</a>
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_module_parameters.md">DEBUG_MODULE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

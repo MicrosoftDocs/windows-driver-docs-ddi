@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_get_remote_token_from_mr.htm
 old-project: netvista
 ms.assetid: 272DB944-E772-4E98-8918-AE0CEE440E3E
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_GET_REMOTE_TOKEN_FROM_MR, NdkGetRemoteTokenFromMr, NdkGetRemoteTokenFromMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetRemoteTokenFromMr, netvista.ndk_fn_get_remote_token_from_mr
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_GET_REMOTE_TOKEN_FROM_MR, NDK_FN_GET_REMOTE_TOKEN_FROM_MR callback, NdkGetRemoteTokenFromMr, NdkGetRemoteTokenFromMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetRemoteTokenFromMr, netvista.ndk_fn_get_remote_token_from_mr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,31 +38,19 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkGetRemoteTokenFromMr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_GET_REMOTE_TOKEN_FROM_MR callback
+# NDK_FN_GET_REMOTE_TOKEN_FROM_MR callback function
 
 
 ## -description
 
 
 The <i>NdkGetRemoteTokenFromMr</i> (<i>NDK_FN_GET_REMOTE_TOKEN_FROM_MR</i>) function gets a memory token from a remote NDK memory region (MR).
-
-
-## -prototype
-
-
-````
-NDK_FN_GET_REMOTE_TOKEN_FROM_MR NdkGetRemoteTokenFromMr;
-
-UINT32 NdkGetRemoteTokenFromMr(
-  _In_ NDK_MR *pNdkMr
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,7 +60,7 @@ UINT32 NdkGetRemoteTokenFromMr(
 
 ### -param *pNdkMr [in]
 
-A pointer to an NDK memory region (MR) object (<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>).
+A pointer to an NDK memory region (MR) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a>).
 
 
 ## -returns
@@ -89,27 +77,26 @@ The
 
 
 
-<i>NdkGetRemoteTokenFromMr</i> can be called after an <i>NdkRegisterMr</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>) or <i>NdkInitializeFastRegisterMr</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>)  call is completed.
+<i>NdkGetRemoteTokenFromMr</i> can be called after an <i>NdkRegisterMr</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439908">NDK_FN_REGISTER_MR</a>) or <i>NdkInitializeFastRegisterMr</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439900">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>)  call is completed.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439900">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439908">NDK_FN_REGISTER_MR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a>
  
 
  
-
 

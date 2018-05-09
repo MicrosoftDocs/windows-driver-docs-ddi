@@ -7,7 +7,7 @@ old-location: kernel\mmsizeofmdl.htm
 old-project: kernel
 ms.assetid: 83e7d4be-df76-4dc8-a8e2-91d279127ef1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: MmSizeOfMdl, MmSizeOfMdl routine [Kernel-Mode Driver Architecture], k106_7cddc848-8b01-4a6a-b5b1-977f2386fc21.xml, kernel.mmsizeofmdl, wdm/MmSizeOfMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	MmSizeOfMdl
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # MmSizeOfMdl function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>MmSizeOfMdl</b> routine returns the number of bytes to allocate for an MDL describing a given address range.
-
-
-## -syntax
-
-
-````
-SIZE_T MmSizeOfMdl(
-  _In_ PVOID  Base,
-  _In_ SIZE_T Length
-);
-````
 
 
 ## -parameters
@@ -99,16 +88,15 @@ Memory for the MDL itself must be allocated from nonpaged pool.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554500">MmCreateMdl</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
-
-
-
  
 
  
-
 

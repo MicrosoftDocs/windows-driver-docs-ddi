@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.Stop
-title: IWDFRemoteTarget::Stop method
+title: IWDFRemoteTarget::Stop
 author: windows-driver-content
 description: The Stop method temporarily stops a remote I/O target.
 old-location: wdf\iwdfremotetarget_stop.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4aaef251-7387-4e42-a7ae-e08120fc95ff
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, Stop method, IWDFRemoteTarget::Stop, Stop method, Stop method, IWDFRemoteTarget interface, Stop,IWDFRemoteTarget.Stop, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, umdf.iwdfremotetarget_stop, wdf.iwdfremotetarget_stop, wudfddi/IWDFRemoteTarget::Stop
+ms.keywords: IWDFRemoteTarget interface,Stop method, IWDFRemoteTarget.Stop, IWDFRemoteTarget::Stop, Stop, Stop method, Stop method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, umdf.iwdfremotetarget_stop, wdf.iwdfremotetarget_stop, wudfddi/IWDFRemoteTarget::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFRemoteTarget.Stop
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRemoteTarget::Stop method
+# IWDFRemoteTarget::Stop
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>Stop</b> method temporarily stops a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>.
 
 
-## -syntax
-
-
-````
-HRESULT Stop(
-  [in] WDF_IO_TARGET_SENT_IO_ACTION Action
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ HRESULT Stop(
 
 ### -param Action [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that specifies how the framework should handle I/O requests that the driver has sent to the remote I/O target, if the target has not completed the requests.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552388">WDF_IO_TARGET_SENT_IO_ACTION</a>-typed value that specifies how the framework should handle I/O requests that the driver has sent to the remote I/O target, if the target has not completed the requests.
 
 
 ## -returns
@@ -112,16 +102,15 @@ The following code example stops a remote I/O target.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560247">IWDFRemoteTarget</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560280">IWDFRemoteTarget::Start</a>
-
-
-
  
 
  
-
 

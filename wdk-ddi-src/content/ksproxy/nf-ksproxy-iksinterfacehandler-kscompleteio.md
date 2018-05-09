@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsInterfaceHandler.KsCompleteIo
-title: IKsInterfaceHandler::KsCompleteIo method
+title: IKsInterfaceHandler::KsCompleteIo
 author: windows-driver-content
 description: The KsCompleteIo method cleans up extended headers and releases media samples after input and output (I/O) complete.
 old-location: stream\iksinterfacehandler_kscompleteio.htm
 old-project: stream
 ms.assetid: 2ff69f59-5fbd-43fd-afe5-9717d7928d2a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], KsCompleteIo method, IKsInterfaceHandler::KsCompleteIo, KsCompleteIo method [Streaming Media Devices], KsCompleteIo method [Streaming Media Devices], IKsInterfaceHandler interface, KsCompleteIo,IKsInterfaceHandler.KsCompleteIo, ksproxy/IKsInterfaceHandler::KsCompleteIo, ksproxy_3f49ef68-7608-4348-ba18-ffd3bb0e7808.xml, stream.iksinterfacehandler_kscompleteio
+ms.date: 4/23/2018
+ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices],KsCompleteIo method, IKsInterfaceHandler.KsCompleteIo, IKsInterfaceHandler::KsCompleteIo, KsCompleteIo, KsCompleteIo method [Streaming Media Devices], KsCompleteIo method [Streaming Media Devices],IKsInterfaceHandler interface, ksproxy/IKsInterfaceHandler::KsCompleteIo, ksproxy_3f49ef68-7608-4348-ba18-ffd3bb0e7808.xml, stream.iksinterfacehandler_kscompleteio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsInterfaceHandler.KsCompleteIo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsInterfaceHandler::KsCompleteIo method
+# IKsInterfaceHandler::KsCompleteIo
 
 
 ## -description
 
 
 The <b>KsCompleteIo</b> method cleans up extended headers and releases media samples after input and output (I/O) complete. 
-
-
-## -syntax
-
-
-````
-HRESULT KsCompleteIo(
-  [in, out] PKSSTREAM_SEGMENT StreamSegment
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ HRESULT KsCompleteIo(
 
 ### -param StreamSegment [in, out]
 
-Pointer to a <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a> structure that contains header information for a stream segment to complete. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567141">KSSTREAM_SEGMENT</a> structure that contains header information for a stream segment to complete. 
 
 
 ## -returns
@@ -106,7 +97,6 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560710">IKsPin::KsDeliver</a>
 
 
 
@@ -114,12 +104,12 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 
 
-<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560710">IKsPin::KsDeliver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567141">KSSTREAM_SEGMENT</a>
  
 
  
-
 

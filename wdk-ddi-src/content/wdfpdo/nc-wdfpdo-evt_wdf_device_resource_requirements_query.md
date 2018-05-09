@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bacd7e7c-9f71-4dda-98ed-a8d813360943
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_7b6a59e4-0131-45fc-9a9b-f9e2c39660a6.xml, EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY, EvtDeviceResourceRequirementsQuery, EvtDeviceResourceRequirementsQuery callback function, kmdf.evtdeviceresourcerequirementsquery, wdf.evtdeviceresourcerequirementsquery, wdfpdo/EvtDeviceResourceRequirementsQuery
+ms.keywords: DFDeviceObjectFdoPdoRef_7b6a59e4-0131-45fc-9a9b-f9e2c39660a6.xml, EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY, EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY callback, EvtDeviceResourceRequirementsQuery, EvtDeviceResourceRequirementsQuery callback function, kmdf.evtdeviceresourcerequirementsquery, wdf.evtdeviceresourcerequirementsquery, wdfpdo/EvtDeviceResourceRequirementsQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	Wdfpdo.h
 api_name:
 -	EvtDeviceResourceRequirementsQuery
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY callback
+# EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY callback function
 
 
 ## -description
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 A bus driver's <i>EvtDeviceResourceRequirementsQuery</i> event callback function creates a resource requirements list that represents the device's required hardware resources.
-
-
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY EvtDeviceResourceRequirementsQuery;
-
-NTSTATUS EvtDeviceResourceRequirementsQuery(
-  _In_ WDFDEVICE       Device,
-  _In_ WDFIORESREQLIST IoResourceRequirementsList
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -103,7 +89,7 @@ For more information about this callback function's return values, see <a href="
 
 
 
-Framework-based bus drivers can provide an <i>EvtDeviceResourceRequirementsQuery</i> callback function. To register this callback function, bus drivers call <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>.
+Framework-based bus drivers can provide an <i>EvtDeviceResourceRequirementsQuery</i> callback function. To register this callback function, bus drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548805">WdfPdoInitSetEventCallbacks</a>.
 
 The framework calls the bus driver's <i>EvtDeviceResourceRequirementsQuery</i> callback function to obtain a <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">resource requirements list</a> for the device.
 
@@ -113,9 +99,9 @@ To create a resource requirements list, the driver calls <a href="https://msdn.m
 
 For more information about hardware resources and creating resource requirements lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
-If a driver is running on an operating system version that is earlier than Windows 7, a bus driver can use <i>EvtDeviceResourceRequirementsQuery</i> to <a href="..\wdm\nf-wdm-iosetdevicepropertydata.md">set a device property</a> on a child device prior to enumerating the child.
+If a driver is running on an operating system version that is earlier than Windows 7, a bus driver can use <i>EvtDeviceResourceRequirementsQuery</i> to <a href="https://msdn.microsoft.com/8e535a6a-9b17-4ef6-b068-43042a589ac0">set a device property</a> on a child device prior to enumerating the child.
 
-To <a href="..\wdm\nf-wdm-iosetdevicepropertydata.md">set a device property</a> on Windows 7 or later, a bus driver can  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/preprocessing-and-postprocessing-irps">provide  a preprocess routine</a> for  <a href="https://msdn.microsoft.com/library/windows/hardware/hh285209">IRP_MN_DEVICE_ENUMERATED</a>.
+To <a href="https://msdn.microsoft.com/8e535a6a-9b17-4ef6-b068-43042a589ac0">set a device property</a> on Windows 7 or later, a bus driver can  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/preprocessing-and-postprocessing-irps">provide  a preprocess routine</a> for  <a href="https://msdn.microsoft.com/library/windows/hardware/hh285209">IRP_MN_DEVICE_ENUMERATED</a>.
 
 
 #### Examples
@@ -159,12 +145,11 @@ The <b>EVT_WDF_DEVICE_RESOURCE_REQUIREMENTS_QUERY</b> function type is defined i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/3210b28b-cbaa-4ad9-9ca8-3b5f03aee41e">EvtDeviceResourcesQuery</a>
-
-
-
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\dxgkddisetpowercomponentfstate.htm
 old-project: display
 ms.assetid: C68CC6F1-83D6-43D9-93F3-99E3A990C7D7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDISETPOWERCOMPONENTFSTATE, DxgkDdiSetPowerComponentFState, DxgkDdiSetPowerComponentFState callback function [Display Devices], d3dkmddi/DxgkDdiSetPowerComponentFState, display.dxgkddisetpowercomponentfstate
+ms.date: 4/16/2018
+ms.keywords: DXGKDDISETPOWERCOMPONENTFSTATE, DXGKDDISETPOWERCOMPONENTFSTATE callback, DxgkDdiSetPowerComponentFState, DxgkDdiSetPowerComponentFState callback function [Display Devices], d3dkmddi/DxgkDdiSetPowerComponentFState, display.dxgkddisetpowercomponentfstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DxgkDdiSetPowerComponentFState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDISETPOWERCOMPONENTFSTATE callback
+# DXGKDDISETPOWERCOMPONENTFSTATE callback function
 
 
 ## -description
 
 
 Called by the Microsoft DirectX graphics kernel subsystem to transition a power component to an idle state (an F-state).
-
-
-## -prototype
-
-
-````
-DXGKDDISETPOWERCOMPONENTFSTATE DxgkDdiSetPowerComponentFState;
-
-_Check_return_ NTSTATUS APIENTRY* DxgkDdiSetPowerComponentFState(
-  _In_ const HANDLE DriverContext,
-             UINT   ComponentIndex,
-             UINT   FState
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -74,12 +60,12 @@ _Check_return_ NTSTATUS APIENTRY* DxgkDdiSetPowerComponentFState(
 
 ### -param DriverContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ### -param ComponentIndex
 
-The power component index specified by  <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>.<b>pInputData</b> in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function.
+The power component index specified by  <a href="https://msdn.microsoft.com/library/windows/hardware/ff557621">DXGKARG_QUERYADAPTERINFO</a>.<b>pInputData</b> in a call to the <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> function.
 
 
 ### -param FState
@@ -101,9 +87,9 @@ An F-state value that the display miniport driver has reported to the DirectX gr
 
 
 
-The operating system calls <i>DxgkDdiSetPowerComponentFState</i> only if the display miniport driver indicates support by setting <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>.<b>SupportRuntimePowerManagement</b> to <b>TRUE</b>.
+The operating system calls <i>DxgkDdiSetPowerComponentFState</i> only if the display miniport driver indicates support by setting <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>.<b>SupportRuntimePowerManagement</b> to <b>TRUE</b>.
 
-<div class="alert"><b>Note</b>  To avoid a possible deadlock, do not call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a> function until this function has returned.</div>
+<div class="alert"><b>Note</b>  To avoid a possible deadlock, do not call the <a href="https://msdn.microsoft.com/12008d80-8bcb-4289-97ea-d3325731a95f">DxgkCbSetPowerComponentActive</a> function until this function has returned.</div>
 <div> </div>
 When the display miniport driver transitions a power component from the F0 (fully on) state to another F-state, it should save the context needed to later restore the component back to the F0 state.
 
@@ -118,32 +104,31 @@ The operating system guarantees that this function follows the zero level synchr
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_setpowercomponentactive.md">DxgkCbSetPowerComponentActive</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557621">DXGKARG_QUERYADAPTERINFO</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
+<a href="https://msdn.microsoft.com/12008d80-8bcb-4289-97ea-d3325731a95f">DxgkCbSetPowerComponentActive</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\dxgkcblogetwevent.htm
 old-project: display
 ms.assetid: d869f933-4316-440e-899a-d46d72a0d10f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKCB_LOG_ETW_EVENT, DpFunctions_1e074b6d-dff4-4d1f-93ce-4333a4241562.xml, DxgkCbLogEtwEvent, DxgkCbLogEtwEvent callback function [Display Devices], display.dxgkcblogetwevent, dispmprt/DxgkCbLogEtwEvent
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_LOG_ETW_EVENT, DXGKCB_LOG_ETW_EVENT callback, DpFunctions_1e074b6d-dff4-4d1f-93ce-4333a4241562.xml, DxgkCbLogEtwEvent, DxgkCbLogEtwEvent callback function [Display Devices], display.dxgkcblogetwevent, dispmprt/DxgkCbLogEtwEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,34 +38,19 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkCbLogEtwEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKCB_LOG_ETW_EVENT callback
+# DXGKCB_LOG_ETW_EVENT callback function
 
 
 ## -description
 
 
 The <i>DxgkCbLogEtwEvent</i> function logs an Event Tracing for Windows (ETW) event. 
-
-
-## -prototype
-
-
-````
-DXGKCB_LOG_ETW_EVENT DxgkCbLogEtwEvent;
-
-VOID DxgkCbLogEtwEvent(
-  _In_ const LPCGUID EventGuid,
-  _In_       UCHAR   Type,
-  _In_       USHORT  EventBufferSize,
-  _In_       PVOID   EventBuffer
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -111,7 +96,7 @@ None
 
 If event logging is not enabled, <i>DxgkCbLogEtwEvent</i> returns immediately without logging the event.
 
-To enable or disable event logging, call the <a href="..\dispmprt\nc-dispmprt-dxgkddi_control_etw_logging.md">DxgkDdiControlEtwLogging</a>  function.
+To enable or disable event logging, call the <a href="https://msdn.microsoft.com/c94a43bb-19d0-4894-80b0-885562fefea5">DxgkDdiControlEtwLogging</a>  function.
 
 If <i>EventBufferSize</i> is less than or equal to 256, <i>DxgkCbLogEtwEvent</i> can be called an any IRQL. If <i>EventBufferSize</i> is greater than 256, <i>DxgkCbLogEtwEvent</i> must be called at IRQL = PASSIVE_LEVEL.
 
@@ -148,12 +133,11 @@ DummyTrace(
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_control_etw_logging.md">DxgkDdiControlEtwLogging</a>
 
 
 
+<a href="https://msdn.microsoft.com/c94a43bb-19d0-4894-80b0-885562fefea5">DxgkDdiControlEtwLogging</a>
  
 
  
-
 

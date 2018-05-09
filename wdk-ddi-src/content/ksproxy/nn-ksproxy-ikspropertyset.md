@@ -7,8 +7,8 @@ old-location: stream\ikspropertyset.htm
 old-project: stream
 ms.assetid: 9999d6ec-977c-4425-ad38-0c5478272c76
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], IKsPropertySet interface [Streaming Media Devices], described, dsound/IKsPropertySet, ksproxy_5f6316c6-5bcf-4155-b4a5-976a0cee8aa5.xml, stream.ikspropertyset
+ms.date: 4/23/2018
+ms.keywords: IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], IKsPropertySet interface [Streaming Media Devices],described, dsound/IKsPropertySet, ksproxy_5f6316c6-5bcf-4155-b4a5-976a0cee8aa5.xml, stream.ikspropertyset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Ksproxy.lib
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,9 +38,10 @@ api_location:
 -	dsound.h
 api_name:
 -	IKsPropertySet
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
 # IKsPropertySet interface

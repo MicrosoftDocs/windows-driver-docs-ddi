@@ -7,8 +7,8 @@ old-location: display\dxgkddigetnodemetadata.htm
 old-project: display
 ms.assetid: ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_GETNODEMETADATA, DxgkDdiGetNodeMetadata, DxgkDdiGetNodeMetadata callback function [Display Devices], d3dkmddi/DxgkDdiGetNodeMetadata, display.dxgkddigetnodemetadata
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_GETNODEMETADATA, DXGKDDI_GETNODEMETADATA callback, DxgkDdiGetNodeMetadata, DxgkDdiGetNodeMetadata callback function [Display Devices], d3dkmddi/DxgkDdiGetNodeMetadata, display.dxgkddigetnodemetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DxgkDdiGetNodeMetadata
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_GETNODEMETADATA callback
+# DXGKDDI_GETNODEMETADATA callback function
 
 
 ## -description
 
 
 From a provided adapter handle, returns the engine type and friendly name of an engine on a specified GPU node. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later display miniport drivers.
-
-
-## -prototype
-
-
-````
-DXGKDDI_GETNODEMETADATA DxgkDdiGetNodeMetadata;
-
-NTSTATUS APIENTRY DxgkDdiGetNodeMetadata(
-  _In_  const HANDLE                  hAdapter,
-  _In_        UINT                    NodeOrdinal,
-  _Out_       DXGKARG_GETNODEMETADATA *pGetNodeMetadata
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -74,7 +60,7 @@ NTSTATUS APIENTRY DxgkDdiGetNodeMetadata(
 
 ### -param hAdapter [in]
 
-[in] A handle that identifies a display adapter. The DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a> function.
+[in] A handle that identifies a display adapter. The DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
 
 
 ### -param NodeOrdinalAndAdapterIndex
@@ -110,7 +96,7 @@ An index of a node for which engine information will be obtained. This node is w
 </td>
 <td width="60%">
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getnodemetadata.md">DxgkDdiGetNodeMetadata</a> successfully retrieved the engine information.
+<a href="https://msdn.microsoft.com/ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6">DxgkDdiGetNodeMetadata</a> successfully retrieved the engine information.
 
 </td>
 </tr>
@@ -144,7 +130,6 @@ For more information on how to implement this function, see <a href="https://msd
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>
 
 
 
@@ -152,8 +137,8 @@ For more information on how to implement this function, see <a href="https://msd
 
 
 
+<a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>
  
 
  
-
 

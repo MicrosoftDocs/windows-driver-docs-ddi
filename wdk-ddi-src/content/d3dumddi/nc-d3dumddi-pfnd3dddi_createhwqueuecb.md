@@ -7,8 +7,8 @@ old-location: display\pfnd3dddi_createhwqueuecb.htm
 old-project: display
 ms.assetid: 1BA2E4DD-3E91-4D2E-AA90-9C85D53EE9E3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_CREATEHWQUEUECB, PFND3DDDI_CREATEHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_CREATEHWQUEUECB, display.pfnd3dddi_createhwqueuecb
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_CREATEHWQUEUECB, PFND3DDDI_CREATEHWQUEUECB callback, PFND3DDDI_CREATEHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_CREATEHWQUEUECB, display.pfnd3dddi_createhwqueuecb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	PFND3DDDI_CREATEHWQUEUECB
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CREATEHWQUEUECB callback
+# PFND3DDDI_CREATEHWQUEUECB callback function
 
 
 ## -description
 
 
 A callback to create a new hardware queue
-
-
-## -prototype
-
-
-````
-_Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_CREATEHWQUEUECB(
-  _In_    HANDLE                        hDevice,
-  _Inout_ D3DDDICB_CREATEHWQUEUE *const createHwQueue
-);
-````
 
 
 ## -parameters

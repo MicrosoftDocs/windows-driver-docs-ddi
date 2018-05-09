@@ -7,7 +7,7 @@ old-location: netvista\ndiscanceltimerobject.htm
 old-project: netvista
 ms.assetid: b66652b7-2e02-49f5-a7e3-60ff35363a19
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCancelTimerObject, NdisCancelTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisCancelTimerObject, ndis_timer_ref_39b68ae4-4fd7-4609-aebc-e2be21bead04.xml, netvista.ndiscanceltimerobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisCancelTimerObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCancelTimerObject function
@@ -52,17 +53,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisCancelTimerObject</b> function cancels a timer object that is associated with a previous call to the 
-  <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a> function.
-
-
-## -syntax
-
-
-````
-BOOLEAN NdisCancelTimerObject(
-  _In_ NDIS_HANDLE TimerObject
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a> function.
 
 
 ## -parameters
@@ -73,7 +64,7 @@ BOOLEAN NdisCancelTimerObject(
 ### -param TimerObject [in]
 
 A handle to a timer object that NDIS provides when a driver calls the 
-     <a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">
+     <a href="https://msdn.microsoft.com/feb5e4cf-7e23-434e-9dc5-bb445a6f5606">
      NdisAllocateTimerObject</a> function.
 
 
@@ -93,7 +84,7 @@ A handle to a timer object that NDIS provides when a driver calls the
 
 A call to 
     <b>NdisCancelTimerObject</b> cancels execution of a 
-    <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a> function, provided
+    <a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a> function, provided
     that the last specified timeout interval has not yet expired.
 
 NDIS drivers should call 
@@ -103,7 +94,7 @@ NDIS drivers should call
 
 If a nonzero value was specified in the 
     <i>MillisecondsPeriod</i> parameter of the 
-    <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a> function, the timer is known as a <i>periodic timer</i>. If a zero value was specified in the <i>MillisecondsPeriod</i> parameter, the timer is known as a <i>one-shot timer</i>. The following points apply to canceling both types of timers:
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a> function, the timer is known as a <i>periodic timer</i>. If a zero value was specified in the <i>MillisecondsPeriod</i> parameter, the timer is known as a <i>one-shot timer</i>. The following points apply to canceling both types of timers:
 
 <ul>
 <li>
@@ -114,7 +105,7 @@ If  the caller of
 </li>
 <li>
 If  the caller of
-    <b>NdisCancelTimerObject</b> is canceling a periodic timer, <b>NdisCancelTimerObject</b> calls <a href="..\wdm\nf-wdm-keflushqueueddpcs.md">KeFlushQueuedDpcs</a> to ensure that the timer is not currently running. Therefore, the caller is not required to have a separate synchronization mechanism to ensure that the timer is not currently being executed on another processor.
+    <b>NdisCancelTimerObject</b> is canceling a periodic timer, <b>NdisCancelTimerObject</b> calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff552050">KeFlushQueuedDpcs</a> to ensure that the timer is not currently running. Therefore, the caller is not required to have a separate synchronization mechanism to ensure that the timer is not currently being executed on another processor.
 
 If  the caller of
     <b>NdisCancelTimerObject</b> is canceling a one-shot timer, the caller is required to have a separate synchronization mechanism to ensure the timer is not currently running on another processor. For example, the caller could call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567897">NDIS_WAIT_FOR_MUTEX</a> in order to wait for the timer thread to signal a mutex object when the thread is about to complete.
@@ -128,20 +119,19 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561618">NdisAllocateTimerObject</a>
 
 
 
-<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564563">NdisSetTimerObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a>
  
 
  
-
 

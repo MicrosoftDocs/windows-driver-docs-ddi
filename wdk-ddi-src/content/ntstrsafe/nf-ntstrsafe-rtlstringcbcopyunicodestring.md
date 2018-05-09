@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcbcopyunicodestring.htm
 old-project: kernel
 ms.assetid: 87b123ff-0188-4d45-b455-d1ec9def4d63
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCbCopyUnicodeString, RtlStringCbCopyUnicodeString function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyunicodestring, ntstrsafe/RtlStringCbCopyUnicodeString, safestrings_1c916f4b-b084-4587-a867-998b789bd2fa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ntstrsafe.dll
 api_name:
 -	RtlStringCbCopyUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlStringCbCopyUnicodeString function
@@ -50,19 +51,7 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ## -description
 
 
-The <b>RtlStringCbCopyUnicodeString</b> function copies the contents of a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure to a specified destination.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCbCopyUnicodeString(
-  _Out_ NTSTRSAFE_PWSTR  pszDest,
-  _In_  size_t           cbDest,
-  _In_  PCUNICODE_STRING SourceString
-);
-````
+The <b>RtlStringCbCopyUnicodeString</b> function copies the contents of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure to a specified destination.
 
 
 ## -parameters
@@ -154,7 +143,7 @@ The <b>RtlStringCbCopyUnicodeString</b> function uses the destination buffer's s
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
-The <i>SourceString </i>and <i>pszDest</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyunicodestringex.md">RtlStringCbCopyUnicodeStringEx</a> function.
+The <i>SourceString </i>and <i>pszDest</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562817">RtlStringCbCopyUnicodeStringEx</a> function.
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>. 
 
@@ -163,20 +152,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyunicodestring.md">RtlStringCchCopyUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562817">RtlStringCbCopyUnicodeStringEx</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyunicodestringex.md">RtlStringCbCopyUnicodeStringEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562851">RtlStringCchCopyUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

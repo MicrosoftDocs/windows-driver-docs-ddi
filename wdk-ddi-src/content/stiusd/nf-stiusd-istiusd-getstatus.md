@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiUSD.GetStatus
-title: IStiUSD::GetStatus method
+title: IStiUSD::GetStatus
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::GetStatus method returns the status of a still image device.
 old-location: image\istiusd_getstatus.htm
 old-project: image
 ms.assetid: 24133d1d-eac4-4740-9635-1205f7a2c4d4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetStatus method [Imaging Devices], GetStatus method [Imaging Devices], IStiUSD interface, GetStatus,IStiUSD.GetStatus, IStiUSD, IStiUSD interface [Imaging Devices], GetStatus method, IStiUSD::GetStatus, image.istiusd_getstatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, stiusd/IStiUSD::GetStatus
+ms.date: 4/23/2018
+ms.keywords: GetStatus, GetStatus method [Imaging Devices], GetStatus method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetStatus method, IStiUSD.GetStatus, IStiUSD::GetStatus, image.istiusd_getstatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, stiusd/IStiUSD::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiUSD.GetStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiUSD::GetStatus method
+# IStiUSD::GetStatus
 
 
 ## -description
 
 
 A still image minidriver's <b>IStiUSD::GetStatus</b> method returns the status of a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT GetStatus(
-   PSTI_DEVICE_STATUS pDevStatus
-);
-````
 
 
 ## -parameters
@@ -70,7 +60,7 @@ HRESULT GetStatus(
 
 ### -param pDevStatus
 
-Caller-supplied pointer to an <a href="..\sti\ns-sti-_sti_device_status.md">STI_DEVICE_STATUS</a> structure.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548369">STI_DEVICE_STATUS</a> structure.
 
 
 ## -returns
@@ -86,9 +76,9 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 
 
-The caller supplies values for the <b>dwSize</b> and <b>StatusMask</b> members of the <a href="..\sti\ns-sti-_sti_device_status.md">STI_DEVICE_STATUS</a> structure, and the minidriver must supply values for the rest of the structure members.
+The caller supplies values for the <b>dwSize</b> and <b>StatusMask</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548369">STI_DEVICE_STATUS</a> structure, and the minidriver must supply values for the rest of the structure members.
 
-If the driver has previously set the STI_GENCAP_POLLING_NEEDED flag in the device's <a href="..\sti\ns-sti-_sti_dev_caps.md">STI_DEV_CAPS</a> structure, the minidriver's <b>IStiUSD::GetStatus</b> method is the means by which the event monitor determines if a <a href="https://msdn.microsoft.com/5f9be89c-8442-4894-b2f6-a4d3558464bf">Still Image Device Events</a> has occurred. The event monitor will call the method, specifying STI_DEVSTATUS_EVENT_STATE in the supplied <a href="..\sti\ns-sti-_sti_device_status.md">STI_DEVICE_STATUS</a> structure. The driver must poll the device and set STI_EVENTHANDLING_PENDING if an event has occurred.
+If the driver has previously set the STI_GENCAP_POLLING_NEEDED flag in the device's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548380">STI_DEV_CAPS</a> structure, the minidriver's <b>IStiUSD::GetStatus</b> method is the means by which the event monitor determines if a <a href="https://msdn.microsoft.com/5f9be89c-8442-4894-b2f6-a4d3558464bf">Still Image Device Events</a> has occurred. The event monitor will call the method, specifying STI_DEVSTATUS_EVENT_STATE in the supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff548369">STI_DEVICE_STATUS</a> structure. The driver must poll the device and set STI_EVENTHANDLING_PENDING if an event has occurred.
 
 If the caller specifies STI_DEVSTATUS_ONLINE_STATE in the supplied STI_DEVICE_STATUS structure, the minidriver should set the appropriate flag in the structure's <b>dwOnlineState</b> member.
 
@@ -97,7 +87,6 @@ If the caller specifies STI_DEVSTATUS_ONLINE_STATE in the supplied STI_DEVICE_ST
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
 
 
 
@@ -105,8 +94,8 @@ If the caller specifies STI_DEVSTATUS_ONLINE_STATE in the supplied STI_DEVICE_ST
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  
-
 

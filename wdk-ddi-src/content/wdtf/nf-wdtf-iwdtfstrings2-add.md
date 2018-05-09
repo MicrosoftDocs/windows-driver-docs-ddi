@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.Add
-title: IWDTFStrings2::Add method
+title: IWDTFStrings2::Add
 author: windows-driver-content
 description: Adds a single string to the collection.
 old-location: dtf\iwdtfstrings2_add.htm
 old-project: dtf
 ms.assetid: 44a62325-4135-483d-adb4-e73803190541
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework], IWDTFStrings2 interface, Add,IWDTFStrings2.Add, IWDTFStrings2, IWDTFStrings2 interface [Windows Device Testing Framework], Add method, IWDTFStrings2::Add, Microsoft.WDTF.IWDTFStrings2.Add, Microsoft::WDTF::IWDTFStrings2::Add, dtf.iwdtfstrings2_add, wdtf/IWDTFStrings2::Add
+ms.date: 4/4/2018
+ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFStrings2 interface, IWDTFStrings2 interface [Windows Device Testing Framework],Add method, IWDTFStrings2.Add, IWDTFStrings2::Add, Microsoft.WDTF.IWDTFStrings2.Add, Microsoft::WDTF::IWDTFStrings2::Add, dtf.iwdtfstrings2_add, wdtf/IWDTFStrings2::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFStrings2.Add
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFStrings2::Add method
+# IWDTFStrings2::Add
 
 
 ## -description
 
 
 Adds a single string to the collection.
-
-
-## -syntax
-
-
-````
-HRESULT Add(
-  [in] BSTR pString
-);
-````
 
 
 ## -parameters
@@ -84,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfstrings2.md">IWDTFStrings2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439274">IWDTFStrings2</a>
  
 
  
-
 

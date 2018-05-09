@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bthx_query_capabilities.htm
 old-project: bltooth
 ms.assetid: 199C93EC-AB91-47F1-914A-F44BFF1796A6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_BTHX_QUERY_CAPABILITIES, IOCTL_BTHX_QUERY_CAPABILITIES control code [Bluetooth Devices], bltooth.ioctl_bthx_query_capabilities, bthxddi/IOCTL_BTHX_QUERY_CAPABILITIES
+ms.date: 4/27/2018
+ms.keywords: IOCTL_BTHX_QUERY_CAPABILITIES, IOCTL_BTHX_QUERY_CAPABILITIES control, IOCTL_BTHX_QUERY_CAPABILITIES control code [Bluetooth Devices], bltooth.ioctl_bthx_query_capabilities, bthxddi/IOCTL_BTHX_QUERY_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	BthXDDI.h
 api_name:
 -	IOCTL_BTHX_QUERY_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
+req.typenames: 
 ---
 
 # IOCTL_BTHX_QUERY_CAPABILITIES IOCTL
@@ -72,7 +73,7 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a <a href="..\bthxddi\ns-bthxddi-_bthx_capabilities.md">BTHX_CAPABILITIES</a> structure. 
+The <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450833">BTHX_CAPABILITIES</a> structure. 
 
 
 ### -output-buffer-length

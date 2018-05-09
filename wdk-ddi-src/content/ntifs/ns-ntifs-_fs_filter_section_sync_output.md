@@ -7,7 +7,7 @@ old-location: ifsk\fs_filter_section_sync_output_.htm
 old-project: ifsk
 ms.assetid: 3378D971-B5D8-485B-8C58-BE5874445407
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFS_FILTER_SECTION_SYNC_OUTPUT, FS_FILTER_SECTION_SYNC_OUTPUT, FS_FILTER_SECTION_SYNC_OUTPUT structure [Installable File System Drivers], PFS_FILTER_SECTION_SYNC_OUTPUT, PFS_FILTER_SECTION_SYNC_OUTPUT structure pointer [Installable File System Drivers], _FS_FILTER_SECTION_SYNC_OUTPUT, ifsk.fs_filter_section_sync_output_, ntifs/FS_FILTER_SECTION_SYNC_OUTPUT, ntifs/PFS_FILTER_SECTION_SYNC_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FS_FILTER_SECTION_SYNC_OUTPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FS_FILTER_SECTION_SYNC_OUTPUT, *PFS_FILTER_SECTION_SYNC_OUTPUT
 ---
@@ -50,19 +51,6 @@ req.typenames: FS_FILTER_SECTION_SYNC_OUTPUT, *PFS_FILTER_SECTION_SYNC_OUTPUT
 
 
 The  <b>FS_FILTER_SECTION_SYNC_OUTPUT</b> structure contains information describing the attributes of the section that is being created.
-
-
-## -syntax
-
-
-````
-typedef struct _FS_FILTER_SECTION_SYNC_OUTPUT  {
-  ULONG StructureSize;
-  ULONG SizeReturned;
-  ULONG Flags;
-  ULONG DesiredReadAlignment;
-} FS_FILTER_SECTION_SYNC_OUTPUT , *PFS_FILTER_SECTION_SYNC_OUTPUT ;
-````
 
 
 ## -struct-fields

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.QueueWorkItemForIsr
-title: IWDFInterrupt::QueueWorkItemForIsr method
+title: IWDFInterrupt::QueueWorkItemForIsr
 author: windows-driver-content
 description: The QueueWorkItemForIsr method queues a work item to process interrupt-related work outside of the interrupt service routine.
 old-location: wdf\iwdfinterrupt_queueworkitemforisr.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5C6DC011-4032-4DB6-AE17-88E510DF9A3A
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFInterrupt, IWDFInterrupt interface, QueueWorkItemForIsr method, IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr method, QueueWorkItemForIsr method, IWDFInterrupt interface, QueueWorkItemForIsr,IWDFInterrupt.QueueWorkItemForIsr, umdf.iwdfinterrupt_queueworkitemforisr, wdf.iwdfinterrupt_queueworkitemforisr, wudfddi/IWDFInterrupt::QueueWorkItemForIsr
+ms.keywords: IWDFInterrupt interface,QueueWorkItemForIsr method, IWDFInterrupt.QueueWorkItemForIsr, IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr, QueueWorkItemForIsr method, QueueWorkItemForIsr method,IWDFInterrupt interface, umdf.iwdfinterrupt_queueworkitemforisr, wdf.iwdfinterrupt_queueworkitemforisr, wudfddi/IWDFInterrupt::QueueWorkItemForIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFInterrupt.QueueWorkItemForIsr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFInterrupt::QueueWorkItemForIsr method
+# IWDFInterrupt::QueueWorkItemForIsr
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>QueueWorkItemForIsr</b> method queues a work item to process interrupt-related work outside of the interrupt service routine.
-
-
-## -syntax
-
-
-````
-BOOLEAN QueueWorkItemForIsr();
-````
 
 
 ## -parameters
@@ -83,7 +75,7 @@ The method returns TRUE if a work item was successfully queued. If a work item i
 
 
 
-The driver provides a pointer to its <a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md">OnInterruptWorkItem</a> callback function when it calls  <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a> to create the interrupt object.
+The driver provides a pointer to its <a href="https://msdn.microsoft.com/10677BC2-2A98-41C8-BAE9-1FA3689ACD93">OnInterruptWorkItem</a> callback function when it calls  <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a> to create the interrupt object.
 
 For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
 
@@ -92,11 +84,6 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
-
-
-
-<a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_workitem.md">OnInterruptWorkItem</a>
 
 
 
@@ -104,8 +91,12 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/10677BC2-2A98-41C8-BAE9-1FA3689ACD93">OnInterruptWorkItem</a>
  
 
  
-
 

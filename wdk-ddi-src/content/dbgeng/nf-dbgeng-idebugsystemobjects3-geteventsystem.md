@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetEventSystem
-title: IDebugSystemObjects3::GetEventSystem method
+title: IDebugSystemObjects3::GetEventSystem
 author: windows-driver-content
 description: The GetEventSystem method returns the engine target ID for the target in which the last event occurred.
 old-location: debugger\geteventsystem.htm
 old-project: debugger
 ms.assetid: b0a3ce92-b29a-4c5e-8cab-18fc92787e2e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetEventSystem method [Windows Debugging], GetEventSystem method [Windows Debugging], IDebugSystemObjects3 interface, GetEventSystem method [Windows Debugging], IDebugSystemObjects4 interface, GetEventSystem,IDebugSystemObjects3.GetEventSystem, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetEventSystem method, IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects4 interface [Windows Debugging], GetEventSystem method, IDebugSystemObjects4::GetEventSystem, IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, dbgeng/IDebugSystemObjects3::GetEventSystem, dbgeng/IDebugSystemObjects4::GetEventSystem, debugger.geteventsystem
+ms.date: 4/24/2018
+ms.keywords: GetEventSystem, GetEventSystem method [Windows Debugging], GetEventSystem method [Windows Debugging],IDebugSystemObjects3 interface, GetEventSystem method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetEventSystem method, IDebugSystemObjects3.GetEventSystem, IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects4 interface [Windows Debugging],GetEventSystem method, IDebugSystemObjects4::GetEventSystem, IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, dbgeng/IDebugSystemObjects3::GetEventSystem, dbgeng/IDebugSystemObjects4::GetEventSystem, debugger.geteventsystem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,28 +39,19 @@ api_location:
 api_name:
 -	IDebugSystemObjects3.GetEventSystem
 -	IDebugSystemObjects4.GetEventSystem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects3::GetEventSystem method
+# IDebugSystemObjects3::GetEventSystem
 
 
 ## -description
 
 
 The <b>GetEventSystem</b> method returns the engine target ID for the target in which the last event occurred.
-
-
-## -syntax
-
-
-````
-HRESULT GetEventSystem(
-  [out] PULONG Id
-);
-````
 
 
 ## -parameters
@@ -103,24 +94,23 @@ The method was successful.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550892">IDebugSystemObjects3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550893">IDebugSystemObjects4</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552239">Monitoring Events</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
-
-
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\setpixelshaderconstb.htm
 old-project: display
 ms.assetid: 6f7c8932-9332-4ff2-89ab-2f9a66783326
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_SETPIXELSHADERCONSTB, SetPixelShaderConstB, SetPixelShaderConstB callback function [Display Devices], UserModeDisplayDriver_Functions_1f26c07c-fd24-4b1f-bc9d-23f6b8dae95f.xml, d3dumddi/SetPixelShaderConstB, display.setpixelshaderconstb
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETPIXELSHADERCONSTB, PFND3DDDI_SETPIXELSHADERCONSTB callback, SetPixelShaderConstB, SetPixelShaderConstB callback function [Display Devices], UserModeDisplayDriver_Functions_1f26c07c-fd24-4b1f-bc9d-23f6b8dae95f.xml, d3dumddi/SetPixelShaderConstB, display.setpixelshaderconstb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetPixelShaderConstB
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETPIXELSHADERCONSTB callback
+# PFND3DDDI_SETPIXELSHADERCONSTB callback function
 
 
 ## -description
 
 
 The <i>SetPixelShaderConstB</i> function sets one or more pixel shader constant registers with Boolean values. 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETPIXELSHADERCONSTB SetPixelShaderConstB;
-
-__checkReturn HRESULT APIENTRY SetPixelShaderConstB(
-  _In_       HANDLE                         hDevice,
-  _In_ const D3DDDIARG_SETPIXELSHADERCONSTB *pData,
-  _In_ const BOOL                           *pRegisters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -88,7 +74,7 @@ __checkReturn HRESULT APIENTRY SetPixelShaderConstB(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpixelshaderconst.md">D3DDDIARG_SETPIXELSHADERCONST</a> structure that describes how to set the pixel shader constant registers.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543329">D3DDDIARG_SETPIXELSHADERCONST</a> structure that describes how to set the pixel shader constant registers.
 
 
 #### - pRegisters [in]
@@ -107,16 +93,15 @@ __checkReturn HRESULT APIENTRY SetPixelShaderConstB(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpixelshaderconst.md">D3DDDIARG_SETPIXELSHADERCONST</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543329">D3DDDIARG_SETPIXELSHADERCONST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

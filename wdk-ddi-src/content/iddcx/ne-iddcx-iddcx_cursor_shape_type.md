@@ -7,7 +7,7 @@ old-location: display\iddcx_cursor_shape_type.htm
 old-project: display
 ms.assetid: 8aced7c9-e1be-4ec0-8b59-77cee011a71e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IDDCX_CURSOR_SHAPE_TYPE, IDDCX_CURSOR_SHAPE_TYPE enumeration [Display Devices], IDDCX_CURSOR_SHAPE_TYPE_ALPHA, IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR, IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED, display.iddcx_cursor_shape_type, iddcx/IDDCX_CURSOR_SHAPE_TYPE, iddcx/IDDCX_CURSOR_SHAPE_TYPE_ALPHA, iddcx/IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR, iddcx/IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "_requires_same_"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_CURSOR_SHAPE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 
                     Describes the type of cursor.
                 
-
-
-## -syntax
-
-
-````
-typedef enum _IDDCX_CURSOR_SHAPE_TYPE { 
-  IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED  = 0,
-  IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR   = 1,
-  IDDCX_CURSOR_SHAPE_TYPE_ALPHA          = 2
-} IDDCX_CURSOR_SHAPE_TYPE;
-````
 
 
 ## -enum-fields

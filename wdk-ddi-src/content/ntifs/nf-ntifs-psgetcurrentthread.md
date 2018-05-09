@@ -7,7 +7,7 @@ old-location: kernel\psgetcurrentthread.htm
 old-project: kernel
 ms.assetid: 132b30fe-21ef-48dc-8c69-02ccac563b87
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExGetCurrentResourceThread, PsGetCurrentThread, PsGetCurrentThread routine [Kernel-Mode Driver Architecture], k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml, kernel.psgetcurrentthread, wdm/PsGetCurrentThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsGetCurrentThread
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # PsGetCurrentThread function
@@ -50,14 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>PsGetCurrentThread</b> routine identifies the current thread. 
-
-
-## -syntax
-
-
-````
-PETHREAD PsGetCurrentThread(void);
-````
 
 
 ## -parameters
@@ -87,7 +80,14 @@ This macro
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552084">KeGetCurrentThread</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559932">PsCreateSystemThread</a>
 
 
 
@@ -95,20 +95,12 @@ This macro
 
 
 
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559935">PsGetCurrentProcessId</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
-
-
-
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559945">PsIsSystemThread</a>
  
 
  
-
 

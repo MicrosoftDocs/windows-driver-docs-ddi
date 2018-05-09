@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8746eb43-7a6e-4e1d-b8fb-c8b7891295d6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFMemory, IWDFMemory interface, IWDFMemory interface, described, UMDFMemoryObjectRef_14266bd8-214b-4244-a96b-9bea5cfa9d84.xml, umdf.iwdfmemory, wdf.iwdfmemory, wudfddi/IWDFMemory
+ms.keywords: IWDFMemory, IWDFMemory interface, IWDFMemory interface,described, UMDFMemoryObjectRef_14266bd8-214b-4244-a96b-9bea5cfa9d84.xml, umdf.iwdfmemory, wdf.iwdfmemory, wudfddi/IWDFMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFMemory interface
@@ -57,7 +57,7 @@ The <b>IWDFMemory</b> interface exposes the framework memory object that provide
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFMemory</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFMemory</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFMemory</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>. <b>IWDFMemory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

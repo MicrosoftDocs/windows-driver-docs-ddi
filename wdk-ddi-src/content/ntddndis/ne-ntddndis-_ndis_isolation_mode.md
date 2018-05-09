@@ -7,7 +7,7 @@ old-location: netvista\ndis_isolation_mode.htm
 old-project: netvista
 ms.assetid: DA4765CD-808C-438A-9CA6-5ADC27A70EC8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], NdisIsolationModeExternalVirtualSubnet, NdisIsolationModeNativeVirtualSubnet, NdisIsolationModeNone, NdisIsolationModeVlan, _NDIS_ISOLATION_MODE, netvista.ndis_isolation_mode, ntddndis/NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeExternalVirtualSubnet, ntddndis/NdisIsolationModeNativeVirtualSubnet, ntddndis/NdisIsolationModeNone, ntddndis/NdisIsolationModeVlan"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_ISOLATION_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_ISOLATION_MODE, *PNDIS_ISOLATION_MODE
 ---
@@ -50,19 +51,6 @@ req.typenames: NDIS_ISOLATION_MODE, *PNDIS_ISOLATION_MODE
 
 
 The <b>NDIS_ISOLATION_MODE</b> enumeration defines the network isolation modes that can be specified for a VM network adapter.
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_ISOLATION_MODE { 
-  NdisIsolationModeNone                   = 0,
-  NdisIsolationModeNativeVirtualSubnet    = 1,
-  NdisIsolationModeExternalVirtualSubnet  = 2,
-  NdisIsolationModeVlan                   = 3
-} NDIS_ISOLATION_MODE;
-````
 
 
 ## -enum-fields
@@ -94,23 +82,22 @@ Virtual local area network (VLAN)-based isolation.
 
 
 
-<b>NDIS_ISOLATION_MODE</b> enumeration values are used in the <b>IsolationMode</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_isolation_parameters.md">NDIS_ISOLATION_PARAMETERS</a> and <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_isolation.md">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a> structures.
+<b>NDIS_ISOLATION_MODE</b> enumeration values are used in the <b>IsolationMode</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn383679">NDIS_ISOLATION_PARAMETERS</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn383687">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a> structures.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_isolation_parameters.md">NDIS_ISOLATION_PARAMETERS</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_isolation.md">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn383679">NDIS_ISOLATION_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn383687">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a>
  
 
  
-
 

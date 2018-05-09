@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetNextSymbolMatch
-title: IDebugSymbols2::GetNextSymbolMatch method
+title: IDebugSymbols2::GetNextSymbolMatch
 author: windows-driver-content
 description: The GetNextSymbolMatch method returns the next symbol found in a symbol search.
 old-location: debugger\getnextsymbolmatch.htm
 old-project: debugger
 ms.assetid: 0de394a0-9ae8-4ac9-970b-8575bb7dcc99
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetNextSymbolMatch method [Windows Debugging], GetNextSymbolMatch method [Windows Debugging], IDebugSymbols interface, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, GetNextSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, GetNextSymbolMatch,IDebugSymbols2.GetNextSymbolMatch, IDebugSymbols interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols2::GetNextSymbolMatch, IDebugSymbols3 interface [Windows Debugging], GetNextSymbolMatch method, IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols::GetNextSymbolMatch, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, dbgeng/IDebugSymbols2::GetNextSymbolMatch, dbgeng/IDebugSymbols3::GetNextSymbolMatch, dbgeng/IDebugSymbols::GetNextSymbolMatch, debugger.getnextsymbolmatch
+ms.date: 4/24/2018
+ms.keywords: GetNextSymbolMatch, GetNextSymbolMatch method [Windows Debugging], GetNextSymbolMatch method [Windows Debugging],IDebugSymbols interface, GetNextSymbolMatch method [Windows Debugging],IDebugSymbols2 interface, GetNextSymbolMatch method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols2 interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols2.GetNextSymbolMatch, IDebugSymbols2::GetNextSymbolMatch, IDebugSymbols3 interface [Windows Debugging],GetNextSymbolMatch method, IDebugSymbols3::GetNextSymbolMatch, IDebugSymbols::GetNextSymbolMatch, IDebugSymbols_9918b348-5b29-4b38-849e-3a36414b773d.xml, dbgeng/IDebugSymbols2::GetNextSymbolMatch, dbgeng/IDebugSymbols3::GetNextSymbolMatch, dbgeng/IDebugSymbols::GetNextSymbolMatch, debugger.getnextsymbolmatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,32 +40,19 @@ api_name:
 -	IDebugSymbols.GetNextSymbolMatch
 -	IDebugSymbols2.GetNextSymbolMatch
 -	IDebugSymbols3.GetNextSymbolMatch
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::GetNextSymbolMatch method
+# IDebugSymbols2::GetNextSymbolMatch
 
 
 ## -description
 
 
 The <b>GetNextSymbolMatch</b>  method returns the next symbol found in a symbol search.
-
-
-## -syntax
-
-
-````
-HRESULT GetNextSymbolMatch(
-  [in]            ULONG64  Handle,
-  [out, optional] PSTR     Buffer,
-  [in]            ULONG    BufferSize,
-  [out, optional] PULONG   MatchSize,
-  [out, optional] PULONG64 Offset
-);
-````
 
 
 ## -parameters
@@ -161,7 +148,6 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -169,20 +155,20 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>
-
-
-
  
 
  
-
 

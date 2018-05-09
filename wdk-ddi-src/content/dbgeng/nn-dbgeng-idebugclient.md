@@ -7,8 +7,8 @@ old-location: debugger\idebugclient.htm
 old-project: debugger
 ms.assetid: 2e47f7ae-2017-4f05-9a06-6c09bb401e21
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugClient, IDebugClient interface [Windows Debugging], IDebugClient interface [Windows Debugging], described, IDebugClient_3f5f6372-0e7d-4050-b09a-b7776ff8bf7c.xml, dbgeng/IDebugClient, debugger.idebugclient
+ms.date: 4/24/2018
+ms.keywords: IDebugClient, IDebugClient interface [Windows Debugging], IDebugClient interface [Windows Debugging],described, IDebugClient_3f5f6372-0e7d-4050-b09a-b7776ff8bf7c.xml, dbgeng/IDebugClient, debugger.idebugclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -42,9 +42,10 @@ api_name:
 -	IDebugClient.SetOutputWidth
 -	IDebugClient.GetOutputLinePrefix
 -	IDebugClient.SetOutputLinePrefix
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugClient interface
@@ -197,7 +198,7 @@ Causes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541970
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545475">FlushCallbacks</a>
 </td>
 <td align="left" width="63%">
- Forces any remaining buffered output to be delivered to the <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a> object registered with this client.
+ Forces any remaining buffered output to be delivered to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550801">IDebugOutputCallbacks</a> object registered with this client.
 
 </td>
 </tr>
@@ -494,24 +495,23 @@ Creates a user-mode or kernel-mode crash dump file.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

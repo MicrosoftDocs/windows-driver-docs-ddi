@@ -7,7 +7,7 @@ old-location: stream\transportstatus.htm
 old-project: stream
 ms.assetid: 2896fd39-5c33-4c79-8adb-f6862b7b4314
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PTRANSPORTSTATUS, PTRANSPORTSTATUS, PTRANSPORTSTATUS structure pointer [Streaming Media Devices], TRANSPORTSTATUS, TRANSPORTSTATUS structure [Streaming Media Devices], ksmedia/PTRANSPORTSTATUS, ksmedia/TRANSPORTSTATUS, stream.transportstatus, tagTRANSPORTSTATUS, vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TRANSPORTSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSPORTSTATUS, *PTRANSPORTSTATUS
 ---
@@ -50,28 +51,6 @@ req.typenames: TRANSPORTSTATUS, *PTRANSPORTSTATUS
 
 
 The TRANSPORTSTATUS structure describes the current transport status.
-
-
-## -syntax
-
-
-````
-typedef struct tagTRANSPORTSTATUS {
-  LONG Mode;
-  LONG LastError;
-  LONG RecordInhibit;
-  LONG ServoLock;
-  LONG MediaPresent;
-  LONG MediaLength;
-  LONG MediaSize;
-  LONG MediaTrackCount;
-  LONG MediaTrackLength;
-  LONG MediaTrackSide;
-  LONG MediaType;
-  LONG LinkMode;
-  LONG NotifyOn;
-} TRANSPORTSTATUS, *PTRANSPORTSTATUS;
-````
 
 
 ## -struct-fields

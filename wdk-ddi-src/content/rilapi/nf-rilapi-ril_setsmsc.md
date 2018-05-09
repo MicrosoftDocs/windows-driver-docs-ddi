@@ -7,7 +7,7 @@ old-location: netvista\ril_setsmsc.htm
 old-project: netvista
 ms.assetid: bbd3ad3a-cf16-490b-83fe-107a0d802406
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SetSMSC, RIL_SetSMSC method [Network Drivers Starting with Windows Vista], netvista.ril_setsmsc, rilapi/RIL_SetSMSC
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_SetSMSC
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SetSMSC function
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_SetSMSC(
-   HRIL              hRil,
-   LPVOID            lpContext,
-   HUICCAPP          hUiccApp,
-   const RILADDRESS  lpraSvcCtrAddress
-);
-````
 
 
 ## -parameters

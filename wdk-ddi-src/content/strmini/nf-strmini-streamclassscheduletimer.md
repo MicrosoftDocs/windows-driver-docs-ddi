@@ -7,7 +7,7 @@ old-location: stream\streamclassscheduletimer.htm
 old-project: stream
 ms.assetid: 83271c19-911b-481a-bc25-c0b3816cf800
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: StreamClassScheduleTimer, StreamClassScheduleTimer routine [Streaming Media Devices], strclass-routines_73f92fc4-e9bf-40af-8dff-9c2e740dba20.xml, stream.streamclassscheduletimer, strmini/StreamClassScheduleTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Stream.dll
 api_name:
 -	StreamClassScheduleTimer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StreamClassScheduleTimer function
@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The minidriver calls the <b>StreamClassScheduleTimer</b> routine to schedule a timer, and to specify a routine that is called when the timer expires.
-
-
-## -syntax
-
-
-````
-VOID StreamClassScheduleTimer(
-  _In_opt_ PHW_STREAM_OBJECT StreamObject,
-  _In_     PVOID             HwDeviceExtension,
-  _In_     ULONG             NumberOfMicroseconds,
-  _In_     PHW_TIMER_ROUTINE TimerRoutine,
-  _In_     PVOID             Context
-);
-````
 
 
 ## -parameters
@@ -80,7 +66,7 @@ Specifies the stream that sets the timer, or <b>NULL</b> if the timer is set for
 
 ### -param HwDeviceExtension [in]
 
-Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a>, <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>, <a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>, and <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver specifies the size of this buffer in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a> structure it passes when it registers itself via <a href="https://msdn.microsoft.com/library/windows/hardware/ff568263">StreamClassRegisterMinidriver</a>. The class driver then passes pointers to the buffer in the <b>HwDeviceExtension</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559702">HW_STREAM_REQUEST_BLOCK</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff559697">HW_STREAM_OBJECT</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff559706">HW_TIME_CONTEXT</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> structures it passes to the minidriver.
 
 
 ### -param NumberOfMicroseconds [in]

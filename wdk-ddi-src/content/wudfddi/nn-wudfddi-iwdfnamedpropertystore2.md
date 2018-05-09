@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f6935379-bf0d-4319-bcd9-56f0e4016945
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFNamedPropertyStore2, IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface, described, UMDFPropertyStoreObjectRef_6a5d155a-6311-4a43-9b21-2572b04da323.xml, umdf.iwdfnamedpropertystore2, wdf.iwdfnamedpropertystore2, wudfddi/IWDFNamedPropertyStore2
+ms.keywords: IWDFNamedPropertyStore2, IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface,described, UMDFPropertyStoreObjectRef_6a5d155a-6311-4a43-9b21-2572b04da323.xml, umdf.iwdfnamedpropertystore2, wdf.iwdfnamedpropertystore2, wudfddi/IWDFNamedPropertyStore2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFNamedPropertyStore2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFNamedPropertyStore2 interface
@@ -57,7 +57,7 @@ Drivers obtain the <b>IWDFNamedPropertyStore2</b> interface by calling <a href="
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFNamedPropertyStore2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>. <b>IWDFNamedPropertyStore2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFNamedPropertyStore2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff560164">IWDFNamedPropertyStore</a>. <b>IWDFNamedPropertyStore2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

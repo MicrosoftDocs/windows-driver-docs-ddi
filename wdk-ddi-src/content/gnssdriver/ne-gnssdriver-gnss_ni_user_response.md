@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_NI_USER_RESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_NI_USER_RESPONSE
 ---
@@ -49,19 +50,7 @@ req.typenames: GNSS_NI_USER_RESPONSE
 ## -description
 
 
-This enumeration indicates the user’s response to a network initiated (NI) request, which is represented by the <a href="..\gnssdriver\ns-gnssdriver-gnss_ni_response.md">GNSS_NI_RESPONSE</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_Ni_UserResponseAccept   = 0x01,
-  GNSS_Ni_UserResponseDeny     = 0x02,
-  GNSS_Ni_UserResponseTimeout  = 0x03
-} GNSS_NI_USER_RESPONSE;
-````
+This enumeration indicates the user’s response to a network initiated (NI) request, which is represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925196">GNSS_NI_RESPONSE</a> structure.
 
 
 ## -enum-fields

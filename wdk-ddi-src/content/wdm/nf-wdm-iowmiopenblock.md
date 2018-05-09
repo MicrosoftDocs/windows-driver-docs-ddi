@@ -7,7 +7,7 @@ old-location: kernel\iowmiopenblock.htm
 old-project: kernel
 ms.assetid: c23d1861-59df-4bd4-a005-173ccac53049
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoWMIOpenBlock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, kernel.iowmiopenblock, wdm/IoWMIOpenBlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoWMIOpenBlock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoWMIOpenBlock function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoWMIOpenBlock</b> routine opens the WMI data block object for the specified WMI class.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoWMIOpenBlock(
-  _In_  GUID  *DataBlockGuid,
-  _In_  ULONG DesiredAccess,
-  _Out_ PVOID *DataBlockObject
-);
-````
 
 
 ## -parameters
@@ -87,13 +75,13 @@ The following is a description of each access right bit and the operations it al
 
 #### WMIGUID_EXECUTE
 
-The data block object can be used to run WMI class methods. This flag must be set to use <a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a> on the data block object. 
+The data block object can be used to run WMI class methods. This flag must be set to use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550438">IoWMIExecuteMethod</a> on the data block object. 
 
 
 
 #### WMIGUID_NOTIFICATION
 
-The data block object can be used to register event notification callbacks. This flag must be set to use <a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>, and can only be used for WMI event blocks. Callers that specify this flag must also specify the SYNCHRONIZE flag.
+The data block object can be used to register event notification callbacks. This flag must be set to use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550484">IoWMISetNotificationCallback</a>, and can only be used for WMI event blocks. Callers that specify this flag must also specify the SYNCHRONIZE flag.
 
 
 
@@ -133,53 +121,52 @@ Returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on fai
 
 The caller uses <b>IoWMIOpenBlock</b> to create a data block object for the specified WMI class GUID. Subsequently, the caller can use the data block object to read or write WMI class properties, run WMI class methods, and register callbacks for WMI events.
 
-Use the <b>IoWMIQuery<i>Xxx</i></b> and <b>IoWMISet<i>Xxx</i></b> routines to read and write WMI class properties. Use <a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a> to run WMI class methods, and use <a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a> to register a WMI event notification callback.
+Use the <b>IoWMIQuery<i>Xxx</i></b> and <b>IoWMISet<i>Xxx</i></b> routines to read and write WMI class properties. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550438">IoWMIExecuteMethod</a> to run WMI class methods, and use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550484">IoWMISetNotificationCallback</a> to register a WMI event notification callback.
 
-Use <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> to close the data block object once it is no longer needed.
+Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> to close the data block object once it is no longer needed.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmiqueryalldatamultiple.md">IoWMIQueryAllDataMultiple</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550438">IoWMIExecuteMethod</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmiexecutemethod.md">IoWMIExecuteMethod</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550463">IoWMIQueryAllData</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmisetsingleinstance.md">IoWMISetSingleInstance</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550467">IoWMIQueryAllDataMultiple</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550471">IoWMIQuerySingleInstance</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550477">IoWMIQuerySingleInstanceMultiple</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmisetnotificationcallback.md">IoWMISetNotificationCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550484">IoWMISetNotificationCallback</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstancemultiple.md">IoWMIQuerySingleInstanceMultiple</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550493">IoWMISetSingleInstance</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmiqueryalldata.md">IoWMIQueryAllData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550495">IoWMISetSingleItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
  
 
  
-
 

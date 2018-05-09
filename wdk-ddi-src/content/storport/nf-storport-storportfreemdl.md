@@ -7,7 +7,7 @@ old-location: storage\storportfreemdl.htm
 old-project: storage
 ms.assetid: 5cbdda76-c02d-4fd4-8fa9-a783375ea292
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortFreeMdl, StorPortFreeMdl routine [Storage Devices], storage.storportfreemdl, storport/StorPortFreeMdl, storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortFreeMdl
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortFreeMdl function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortFreeMdl</b> routine frees a memory descriptor list (MDL) describing non-paged pool memory.
-
-
-## -syntax
-
-
-````
-ULONG StorPortFreeMdl(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID Mdl
-);
-````
 
 
 ## -parameters
@@ -144,19 +133,18 @@ The call was made at an invalid IRQL.
 
 
 
-A miniport driver calls the <b>StorPortFreeMdl</b> routine to free the MDL that was allocated in a previous call to <a href="..\storport\nf-storport-storportallocatemdl.md">StorPortAllocateMdl</a>.
+A miniport driver calls the <b>StorPortFreeMdl</b> routine to free the MDL that was allocated in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567028">StorPortAllocateMdl</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportallocatemdl.md">StorPortAllocateMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567028">StorPortAllocateMdl</a>
  
 
  
-
 

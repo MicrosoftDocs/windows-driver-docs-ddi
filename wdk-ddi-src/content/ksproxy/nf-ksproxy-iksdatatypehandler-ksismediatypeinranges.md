@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsIsMediaTypeInRanges
-title: IKsDataTypeHandler::KsIsMediaTypeInRanges method
+title: IKsDataTypeHandler::KsIsMediaTypeInRanges
 author: windows-driver-content
 description: The KsIsMediaTypeInRanges method validates that a media type is within the provided data ranges.
 old-location: stream\iksdatatypehandler_ksismediatypeinranges.htm
 old-project: stream
 ms.assetid: 354dcd2b-fa63-4574-94d8-149e3f199751
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], KsIsMediaTypeInRanges method, IKsDataTypeHandler::KsIsMediaTypeInRanges, KsIsMediaTypeInRanges method [Streaming Media Devices], KsIsMediaTypeInRanges method [Streaming Media Devices], IKsDataTypeHandler interface, KsIsMediaTypeInRanges,IKsDataTypeHandler.KsIsMediaTypeInRanges, ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, stream.iksdatatypehandler_ksismediatypeinranges
+ms.date: 4/23/2018
+ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsIsMediaTypeInRanges method, IKsDataTypeHandler.KsIsMediaTypeInRanges, IKsDataTypeHandler::KsIsMediaTypeInRanges, KsIsMediaTypeInRanges, KsIsMediaTypeInRanges method [Streaming Media Devices], KsIsMediaTypeInRanges method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsIsMediaTypeInRanges, ksproxy_ebd4f24e-02a2-4228-b11b-890693ece498.xml, stream.iksdatatypehandler_ksismediatypeinranges
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsDataTypeHandler.KsIsMediaTypeInRanges
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsDataTypeHandler::KsIsMediaTypeInRanges method
+# IKsDataTypeHandler::KsIsMediaTypeInRanges
 
 
 ## -description
 
 
 The <b>KsIsMediaTypeInRanges</b> method validates that a media type is within the provided data ranges.
-
-
-## -syntax
-
-
-````
-HRESULT KsIsMediaTypeInRanges(
-  [in] PVOID DataRanges
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ HRESULT KsIsMediaTypeInRanges(
 
 ### -param DataRanges [in]
 
-Pointer to a buffer that contains a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> structure, followed by a sequence of extensible <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structures, aligned on 64-bit boundaries. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
+Pointer to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a> structure, followed by a sequence of extensible <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structures, aligned on 64-bit boundaries. The KSMULTIPLE_ITEM structure is a header that describes the size of the buffer and the number of entries in the list that follows the header.
 
 
 ## -returns
@@ -92,11 +83,6 @@ A client first calls the <a href="https://msdn.microsoft.com/library/windows/har
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 
@@ -104,8 +90,12 @@ A client first calls the <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a>
  
 
  
-
 

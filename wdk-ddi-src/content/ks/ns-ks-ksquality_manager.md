@@ -7,7 +7,7 @@ old-location: stream\ksquality_manager.htm
 old-project: stream
 ms.assetid: 33e66fa0-53d6-400a-a03b-6d7b3fd01ace
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSQUALITY_MANAGER, KSQUALITY_MANAGER, KSQUALITY_MANAGER structure [Streaming Media Devices], PKSQUALITY_MANAGER, PKSQUALITY_MANAGER structure pointer [Streaming Media Devices], ks-struct_97f36a6a-6d00-4cec-b13d-8f039b54c5a8.xml, ks/KSQUALITY_MANAGER, ks/PKSQUALITY_MANAGER, stream.ksquality_manager"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSQUALITY_MANAGER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSQUALITY_MANAGER, *PKSQUALITY_MANAGER
 ---
@@ -52,17 +53,6 @@ req.typenames: KSQUALITY_MANAGER, *PKSQUALITY_MANAGER
 The KSQUALITY_MANAGER structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565750">KSPROPERTY_STREAM_QUALITY</a> property and contains the handle of the quality manager sink and a context to pass in the quality complaints.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  HANDLE QualityManager;
-  PVOID  Context;
-} KSQUALITY_MANAGER, *PKSQUALITY_MANAGER;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +60,7 @@ typedef struct {
 
 ### -field QualityManager
 
-Specifies a handle to the quality manager sink receiving the <a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a> complaint structures.
+Specifies a handle to the quality manager sink receiving the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566728">KSQUALITY</a> complaint structures.
 
 
 ### -field Context
@@ -80,16 +70,15 @@ Specifies the context parameter to use when reporting quality problems. The cont
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565750">KSPROPERTY_STREAM_QUALITY</a>
 
 
 
-<a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566728">KSQUALITY</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlverifyversioninfo.htm
 old-project: kernel
 ms.assetid: 7c0ca9a0-dfa4-44ab-8d3a-ab43f72c806f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlVerifyVersionInfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, kernel.rtlverifyversioninfo, wdm/RtlVerifyVersionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlVerifyVersionInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlVerifyVersionInfo function
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 The <b>RtlVerifyVersionInfo</b> routine compares a specified set of operating system version requirements to the corresponding attributes of the currently running version of the operating system.
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlVerifyVersionInfo(
-  _In_ PRTL_OSVERSIONINFOEXW VersionInfo,
-  _In_ ULONG                 TypeMask,
-  _In_ ULONGLONG             ConditionMask
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ NTSTATUS RtlVerifyVersionInfo(
 
 ### -param VersionInfo [in]
 
-Pointer to an <a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a> structure that specifies the operating system version requirements to compare to the corresponding attributes of the currently running version of the operating system. 
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff563620">RTL_OSVERSIONINFOEXW</a> structure that specifies the operating system version requirements to compare to the corresponding attributes of the currently running version of the operating system. 
 
 
 ### -param TypeMask [in]
@@ -479,20 +467,19 @@ To verify a range of system versions, a driver can call <b>RtlVerifyVersionInfo<
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563620">RTL_OSVERSIONINFOEXW</a>
 
 
 
-<a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563624">RTL_OSVERSIONINFOW</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a>
  
 
  
-
 

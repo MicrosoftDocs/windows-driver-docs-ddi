@@ -7,7 +7,7 @@ old-location: storage\scsiportwriteregisteruchar.htm
 old-project: storage
 ms.assetid: 67764b34-3bd3-42ad-a1f8-765b4f11fcf6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWriteRegisterUchar, ScsiPortWriteRegisterUchar routine [Storage Devices], scsiprt_11b9d3b9-2866-4f07-a685-68d48e993748.xml, srb/ScsiPortWriteRegisterUchar, storage.scsiportwriteregisteruchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Scsiport.dll
 api_name:
 -	ScsiPortWriteRegisterUchar
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ScsiPortWriteRegisterUchar function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 
 The <b>ScsiPortWriteRegisterUchar</b> routine transfers a unsigned byte value to the HBA.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-VOID ScsiPortWriteRegisterUchar(
-  _In_ PUCHAR Register,
-  _In_ UCHAR  Value
-);
-````
-
 
 ## -parameters
 
@@ -91,12 +80,11 @@ None
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564629">ScsiPortGetDeviceBase</a>
  
 
  
-
 

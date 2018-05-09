@@ -7,8 +7,8 @@ old-location: bltooth\sdpretrieveuuid128.htm
 old-project: bltooth
 ms.assetid: 0e317aea-3625-4511-94e1-355c476c0da6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PRETRIEVEUUID128, SdpRetrieveUuid128, SdpRetrieveUuid128 callback function [Bluetooth Devices], bltooth.sdpretrieveuuid128, bth_funcs_a4149063-722b-45c0-a86b-ffce73b94b0d.xml, sdplib/SdpRetrieveUuid128
+ms.date: 4/27/2018
+ms.keywords: PRETRIEVEUUID128, PRETRIEVEUUID128 callback, SdpRetrieveUuid128, SdpRetrieveUuid128 callback function [Bluetooth Devices], bltooth.sdpretrieveuuid128, bth_funcs_a4149063-722b-45c0-a86b-ffce73b94b0d.xml, sdplib/SdpRetrieveUuid128
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpRetrieveUuid128
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: 
 ---
 
-# PRETRIEVEUUID128 callback
+# PRETRIEVEUUID128 callback function
 
 
 ## -description
@@ -52,20 +53,6 @@ req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 The Bluetooth 
   <b>SdpRetrieveUuid128</b> function is used to copy an unaligned 128-bit universally unique identifier (UUID)
   from an SDP stream.
-
-
-## -prototype
-
-
-````
-PRETRIEVEUUID128 SdpRetrieveUuid128;
-
-void SdpRetrieveUuid128(
-   PUCHAR Stream,
-   GUID   *uuid128
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -113,7 +100,7 @@ The
 This function has no effect on byte order.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    <a href="https://msdn.microsoft.com/bb8a1dd5-8207-4034-993e-eed49dc0f9c4">
     BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
 
@@ -121,12 +108,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcbcopynex.htm
 old-project: kernel
 ms.assetid: 25d6dc68-8cd3-4f8c-ad0d-361b4f6c4cf6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCbCopyNEx, RtlStringCbCopyNExA, RtlStringCbCopyNExW, RtlStringCbCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcopynex, ntstrsafe/RtlStringCbCopyNExA, ntstrsafe/RtlStringCbCopyNExW, safestrings_868bd7e8-88d5-4c41-ba40-ca7934ff86c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_name:
 -	RtlStringCbCopyNExW
 -	RtlStringCbCopyNExA
 -	RtlStringCbCopyNExW
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlStringCbCopyNExW function
@@ -53,22 +54,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 The <b>RtlStringCbCopyNExW</b> and <b>RtlStringCbCopyNExA</b> functions copy a byte-counted string to a buffer while limiting the size of the copied string.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCbCopyNExW(
-  _Out_opt_ LPTSTR  pszDest,
-  _In_      size_t  cbDest,
-  _In_opt_  LPCTSTR pszSrc,
-  _In_      size_t  cbSrc,
-  _Out_opt_ LPTSTR  *ppszDestEnd,
-  _Out_opt_ size_t  *pcbRemaining,
-  _In_      DWORD   dwFlags
-);
-````
 
 
 ## -parameters
@@ -248,7 +233,7 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 
 The size, in bytes, of the destination buffer is provided to <b>RtlStringCbCopyNExW</b> and <b>RtlStringCbCopyNExA</b> to ensure that they do not write past the end of this buffer.
 
-<b>RtlStringCbCopyNEx</b> adds to the functionality of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynw.md">RtlStringCbCopyN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
+<b>RtlStringCbCopyNEx</b> adds to the functionality of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562811">RtlStringCbCopyN</a> by returning a pointer to the end of the destination string as well as the number of bytes left unused in that string. Flags may also be passed to the function for additional control.
 
 Use <b>RtlStringCbCopyNExW</b> to handle Unicode strings and <b>RtlStringCbCopyNExA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
 
@@ -300,16 +285,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynexw.md">RtlStringCchCopyNEx</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopynw.md">RtlStringCbCopyN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562811">RtlStringCbCopyN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562849">RtlStringCchCopyNEx</a>
  
 
  
-
 

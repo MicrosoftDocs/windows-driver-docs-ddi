@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.OutputVaListWide
-title: IDebugControl4::OutputVaListWide method
+title: IDebugControl4::OutputVaListWide
 author: windows-driver-content
 description: The OutputVaListWide method formats a string and sends the result to the output callbacks that are registered with the engine's clients.
 old-location: debugger\outputvalistwide.htm
 old-project: debugger
 ms.assetid: 34d25938-5640-4e32-949f-94605ac38fa0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], OutputVaListWide method, IDebugControl4::OutputVaListWide, OutputVaListWide method [Windows Debugging], OutputVaListWide method [Windows Debugging], IDebugControl4 interface, OutputVaListWide,IDebugControl4.OutputVaListWide, dbgeng/IDebugControl4::OutputVaListWide, debugger.outputvalistwide
+ms.date: 4/24/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging],OutputVaListWide method, IDebugControl4.OutputVaListWide, IDebugControl4::OutputVaListWide, OutputVaListWide, OutputVaListWide method [Windows Debugging], OutputVaListWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OutputVaListWide, debugger.outputvalistwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.OutputVaListWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::OutputVaListWide method
+# IDebugControl4::OutputVaListWide
 
 
 ## -description
 
 
 The <b>OutputVaListWide</b>  method formats a string and sends the result to the <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a> that are registered with the engine's clients.
-
-
-## -syntax
-
-
-````
-HRESULT OutputVaListWide(
-  [in] ULONG   Mask,
-  [in] PCWSTR  Format,
-  [in] va_list Args
-);
-````
 
 
 ## -parameters
@@ -297,7 +286,6 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -305,16 +293,16 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
 
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542750">dprintf</a>
  
 
  
-
 

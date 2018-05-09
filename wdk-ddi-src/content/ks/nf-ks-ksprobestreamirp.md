@@ -7,7 +7,7 @@ old-location: stream\ksprobestreamirp.htm
 old-project: stream
 ms.assetid: 25b49781-2676-4b5e-b17b-dcb1bf98b297
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsProbeStreamIrp, KsProbeStreamIrp function [Streaming Media Devices], ks/KsProbeStreamIrp, ksfunc_0ed25e85-a785-4021-a7b7-59fa6230eff8.xml, stream.ksprobestreamirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsProbeStreamIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsProbeStreamIrp</b> function makes the specified modifications to the input and output buffers of the given IRP based on the flags passed, and it then validates the stream header. This is useful when localizing exception handling or performing asynchronous work on an IRP. The resulting IRP is in essentially the METHOD_OUT_DIRECT or METHOD_IN_DIRECT format, with the exception that the access to the data buffer may be <b>IoModifyAccess</b>, depending on the flags passed to this function or the flags in the stream header. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsProbeStreamIrp(
-  _Inout_  PIRP  Irp,
-  _In_     ULONG ProbeFlags,
-  _In_opt_ ULONG HeaderSize
-);
-````
 
 
 ## -parameters

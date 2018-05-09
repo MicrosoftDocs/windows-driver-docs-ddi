@@ -7,7 +7,7 @@ old-location: ifsk\lock_operation.htm
 old-project: ifsk
 ms.assetid: 25b2dd6a-2e20-4221-bef4-0001bbaae1d5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: IoModifyAccess, IoReadAccess, IoWriteAccess, LOCK_OPERATION, LOCK_OPERATION enumeration [Installable File System Drivers], _LOCK_OPERATION, ifsk.lock_operation, wdm/IoModifyAccess, wdm/IoReadAccess, wdm/IoWriteAccess, wdm/LOCK_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	LOCK_OPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LOCK_OPERATION
-req.product: Windows 10 or later.
 ---
 
 # _LOCK_OPERATION enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>LOCK_OPERATION</b> enumeration specifies the type of access that is appropriate for a type of I/O operation.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  IoReadAccess,
-  IoWriteAccess,
-  IoModifyAccess
-} LOCK_OPERATION;
-````
 
 
 ## -enum-fields
@@ -87,16 +75,15 @@ This value indicates that a driver can examine and change the contents of a buff
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdecodeparameters.md">FltDecodeParameters</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541956">FltDecodeParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554664">MmProbeAndLockPages</a>
  
 
  
-
 

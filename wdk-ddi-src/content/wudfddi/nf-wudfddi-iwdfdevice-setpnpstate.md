@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.SetPnpState
-title: IWDFDevice::SetPnpState method
+title: IWDFDevice::SetPnpState
 author: windows-driver-content
 description: The SetPnpState method turns on or off (or sets to the default state) the specified Plug and Play (PnP) property of a device.
 old-location: wdf\iwdfdevice_setpnpstate.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3bd88ecd-7c7c-4ee9-8eb8-bc5653bd4ed0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice, IWDFDevice interface, SetPnpState method, IWDFDevice::SetPnpState, SetPnpState method, SetPnpState method, IWDFDevice interface, SetPnpState,IWDFDevice.SetPnpState, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, umdf.iwdfdevice_setpnpstate, wdf.iwdfdevice_setpnpstate, wudfddi/IWDFDevice::SetPnpState
+ms.keywords: IWDFDevice interface,SetPnpState method, IWDFDevice.SetPnpState, IWDFDevice::SetPnpState, SetPnpState, SetPnpState method, SetPnpState method,IWDFDevice interface, UMDFDeviceObjectRef_1efea639-31d7-4420-8b8a-c528597ceffb.xml, umdf.iwdfdevice_setpnpstate, wdf.iwdfdevice_setpnpstate, wudfddi/IWDFDevice::SetPnpState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice.SetPnpState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::SetPnpState method
+# IWDFDevice::SetPnpState
 
 
 ## -description
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>SetPnpState</b> method turns on or off (or sets to the default state) the specified Plug and Play (PnP) property of a device.
 
 
-## -syntax
-
-
-````
-void SetPnpState(
-  [in] WDF_PNP_STATE State,
-  [in] WDF_TRI_STATE Value
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ void SetPnpState(
 
 ### -param State [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>-typed value that identifies the PnP property to set.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561434">WDF_PNP_STATE</a>-typed value that identifies the PnP property to set.
 
 
 ### -param Value [in]
@@ -188,7 +177,10 @@ CUmdfHidDevice::OnCompletion(
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
@@ -200,12 +192,8 @@ CUmdfHidDevice::OnCompletion(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561434">WDF_PNP_STATE</a>
  
 
  
-
 

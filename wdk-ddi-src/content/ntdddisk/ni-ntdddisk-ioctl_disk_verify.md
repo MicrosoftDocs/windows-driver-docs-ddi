@@ -7,8 +7,8 @@ old-location: storage\ioctl_disk_verify.htm
 old-project: storage
 ms.assetid: 923a7fac-c1d5-4634-b209-087e3d5d217a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DISK_VERIFY, IOCTL_DISK_VERIFY control code [Storage Devices], k307_bafd5046-34ca-4e76-b1a6-bf5195adbb3b.xml, ntdddisk/IOCTL_DISK_VERIFY, storage.ioctl_disk_verify
+ms.date: 3/29/2018
+ms.keywords: IOCTL_DISK_VERIFY, IOCTL_DISK_VERIFY control, IOCTL_DISK_VERIFY control code [Storage Devices], k307_bafd5046-34ca-4e76-b1a6-bf5195adbb3b.xml, ntdddisk/IOCTL_DISK_VERIFY, storage.ioctl_disk_verify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntdddisk.h
 api_name:
 -	IOCTL_DISK_VERIFY
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DETECTION_TYPE
+req.typenames: 
 ---
 
 # IOCTL_DISK_VERIFY IOCTL
@@ -62,7 +63,7 @@ Performs verification for a specified extent on a disk.
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntdddisk\ns-ntdddisk-_verify_information.md">VERIFY_INFORMATION</a> data specifying the starting offset and length to be verified. 
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568005">VERIFY_INFORMATION</a> data specifying the starting offset and length to be verified. 
 
 
 ### -input-buffer-length
@@ -107,12 +108,11 @@ If the request is successful, then the <b>Status</b> field is set to STATUS_SUCC
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_verify_information.md">VERIFY_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568005">VERIFY_INFORMATION</a>
  
 
  
-
 

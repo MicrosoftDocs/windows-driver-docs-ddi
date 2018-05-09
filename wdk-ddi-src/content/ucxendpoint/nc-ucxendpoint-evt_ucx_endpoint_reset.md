@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_endpoint_reset.htm
 old-project: usbref
 ms.assetid: 927fdd48-416e-4e8f-a29c-c2799952197e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: EVT_UCX_ENDPOINT_RESET, EvtUcxEndpointReset, EvtUcxEndpointReset callback function [Buses], PEVT_UCX_ENDPOINT_RESET, PEVT_UCX_ENDPOINT_RESET callback function pointer [Buses], buses.evt_ucx_endpoint_reset, ucxendpoint/EvtUcxEndpointReset
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_ENDPOINT_RESET, EVT_UCX_ENDPOINT_RESET callback, EvtUcxEndpointReset, EvtUcxEndpointReset callback function [Buses], PEVT_UCX_ENDPOINT_RESET, PEVT_UCX_ENDPOINT_RESET callback function pointer [Buses], buses.evt_ucx_endpoint_reset, ucxendpoint/EvtUcxEndpointReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,36 +38,19 @@ api_location:
 -	ucxendpoint.h
 api_name:
 -	PEVT_UCX_ENDPOINT_RESET
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_ENDPOINT_RESET callback
+# EVT_UCX_ENDPOINT_RESET callback function
 
 
 ## -description
 
 
 The client driver's implementation that UCX calls to reset the controller’s programming for an endpoint.
-
-
-## -prototype
-
-
-````
-EVT_UCX_ENDPOINT_RESET EvtUcxEndpointReset;
-
-VOID EvtUcxEndpointReset(
-  _In_ UCXCONTROLLER UcxController,
-  _In_ UCXENDPOINT   Endpoint,
-  _In_ WDFREQUEST    Request
-)
-{ ... }
-
-typedef EVT_UCX_ENDPOINT_RESET PEVT_UCX_ENDPOINT_RESET;
-````
 
 
 ## -parameters
@@ -106,7 +89,7 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
  method.
 
 The client driver returns completion status in the WDFREQUEST, which it might complete

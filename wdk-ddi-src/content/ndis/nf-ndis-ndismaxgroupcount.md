@@ -7,7 +7,7 @@ old-location: netvista\ndismaxgroupcount.htm
 old-project: netvista
 ms.assetid: 080707c5-cf46-4066-a241-684cdae37fee
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMaxGroupCount, NdisMaxGroupCount function [Network Drivers Starting with Windows Vista], ndis/NdisMaxGroupCount, ndis_processor_group_ref_5744be61-71b7-4abc-ad66-30b26558c0ac.xml, netvista.ndismaxgroupcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMaxGroupCount
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMaxGroupCount function
@@ -53,14 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The
   <b>NdisMaxGroupCount</b> function returns the maximum number of processor groups in the local computer
   system.
-
-
-## -syntax
-
-
-````
-USHORT NdisMaxGroupCount(void);
-````
 
 
 ## -parameters
@@ -89,19 +82,18 @@ NDIS drivers call the
     the local computer system.
 
 To obtain the number of groups that are currently active, call the 
-    <a href="..\ndis\nf-ndis-ndisactivegroupcount.md">NdisActiveGroupCount</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560700">NdisActiveGroupCount</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisactivegroupcount.md">NdisActiveGroupCount</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560700">NdisActiveGroupCount</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.operator
-title: ExtRemoteTyped::operator* method
+title: ExtRemoteTyped::operator
 author: windows-driver-content
 description: The operator* overloaded operator returns the typed data that is pointed to by the typed data represented by this object.
 old-location: debugger\extremotetyped_operator_.htm
 old-project: debugger
 ms.assetid: f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_3e10d850-c463-4d43-8639-7b7daf26c749.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], operator* method, ExtRemoteTyped::operator*, debugger.extremotetyped_operator_, operator* method [Windows Debugging], operator* method [Windows Debugging], ExtRemoteTyped interface, operator*,ExtRemoteTyped.operator*
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_3e10d850-c463-4d43-8639-7b7daf26c749.xml, ExtRemoteTyped interface [Windows Debugging],operator* method, ExtRemoteTyped.operator, ExtRemoteTyped.operator*, ExtRemoteTyped.operator*(), ExtRemoteTyped::operator, ExtRemoteTyped::operator*, debugger.extremotetyped_operator_, operator*, operator* method [Windows Debugging], operator* method [Windows Debugging],ExtRemoteTyped interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.operator*
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTyped::operator* method
+# ExtRemoteTyped::operator
 
 
 ## -description
 
 
 The <b>operator*</b> overloaded operator returns the typed data that is pointed to by the typed data represented by this object.
-
-
-## -syntax
-
-
-````
-ExtRemoteData operator*();
-````
 
 
 ## -parameters
@@ -89,16 +82,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff544233">ExtRe
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544233">ExtRemoteTyped::Dereference</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
  
 
  
-
 

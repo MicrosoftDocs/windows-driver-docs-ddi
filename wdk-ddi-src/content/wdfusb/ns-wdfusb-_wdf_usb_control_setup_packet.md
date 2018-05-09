@@ -38,10 +38,10 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WDF_USB_CONTROL_SETUP_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_CONTROL_SETUP_PACKET, *PWDF_USB_CONTROL_SETUP_PACKET
-req.product: Windows 10 or later.
 ---
 
 # _WDF_USB_CONTROL_SETUP_PACKET structure
@@ -55,45 +55,6 @@ req.product: Windows 10 or later.
 The <b>WDF_USB_CONTROL_SETUP_PACKET</b> structure describes a setup packet for a USB control transfer.
 
 
-## -syntax
-
-
-````
-typedef union _WDF_USB_CONTROL_SETUP_PACKET {
-  struct {
-    union {
-      struct {
-        BYTE Recipient  :2;
-        BYTE Reserved  :3;
-        BYTE Type  :2;
-        BYTE Dir  :1;
-      } Request;
-      BYTE   Byte;
-    } bm;
-    BYTE   bRequest;
-    union {
-      struct {
-        BYTE LowByte;
-        BYTE HiByte;
-      } Bytes;
-      USHORT Value;
-    } wValue;
-    union {
-      struct {
-        BYTE LowByte;
-        BYTE HiByte;
-      } Bytes;
-      USHORT Value;
-    } wIndex;
-    USHORT wLength;
-  } Packet;
-  struct {
-    BYTE Bytes[8];
-  } Generic;
-} WDF_USB_CONTROL_SETUP_PACKET, *PWDF_USB_CONTROL_SETUP_PACKET;
-````
-
-
 ## -struct-fields
 
 
@@ -102,51 +63,40 @@ typedef union _WDF_USB_CONTROL_SETUP_PACKET {
 ### -field Packet
 
 
-
-#### bRequest
-
-A request type. Request type constants are defined in <i>Usb100.h</i>. For more information about request types, see the USB specification.
-
-
-
-#### wLength
-
-The number of bytes to transfer, if applicable. For more information about this value, see the USB specification. The framework sets this value.
-
-
 ### -field Packet.bm
 
 
 ### -field Packet.bm.Request
 
 
+### -field Packet.bm.Request.Recipient
 
-###### bm.Request.Recipient
-
-A bit field that is specified by a <a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>-typed value.
-
+A bit field that is specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552554">WDF_USB_BMREQUEST_RECIPIENT</a>-typed value.
 
 
-###### bm.Request.Reserved
+### -field Packet.bm.Request.Reserved
 
 A reserved bit field. Do not use this member.
 
 
+### -field Packet.bm.Request.Type
 
-###### bm.Request.Type
-
-A bit field that is specified by a <a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_type.md">WDF_USB_BMREQUEST_TYPE</a>-typed value.
-
+A bit field that is specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552557">WDF_USB_BMREQUEST_TYPE</a>-typed value.
 
 
-###### bm.Request.Dir
+### -field Packet.bm.Request.Dir
 
-A bit field that is specified by a <a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_direction.md">WDF_USB_BMREQUEST_DIRECTION</a>-typed value.
+A bit field that is specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552545">WDF_USB_BMREQUEST_DIRECTION</a>-typed value.
 
 
 ### -field Packet.bm.Byte
 
 A byte-sized bitmap that contains the <b>Request.Recipient</b>, <b>Request.Reserved</b>, <b>Request.Type</b>, and <b>Request.Dir</b> bit fields. Use this member as an alternative to specifying the individual bit fields.
+
+
+### -field Packet.bRequest
+
+A request type. Request type constants are defined in <i>Usb100.h</i>. For more information about request types, see the USB specification.
 
 
 ### -field Packet.wValue
@@ -155,14 +105,12 @@ A byte-sized bitmap that contains the <b>Request.Recipient</b>, <b>Request.Reser
 ### -field Packet.wValue.Bytes
 
 
-
-###### wValue.Bytes.LowByte
+### -field Packet.wValue.Bytes.LowByte
 
 The low byte of a 2-byte, request-specific value. For more information about specifying <b>wValue</b>, see the USB specification.
 
 
-
-###### wValue.Bytes.HiByte
+### -field Packet.wValue.Bytes.HiByte
 
 The high byte of a 2-byte, request-specific value. 
 
@@ -178,14 +126,12 @@ A 2-byte value that contains the <b>Bytes.LowByte</b> and <b>Bytes.HiByte</b> va
 ### -field Packet.wIndex.Bytes
 
 
-
-###### wIndex.Bytes.LowByte
+### -field Packet.wIndex.Bytes.LowByte
 
 The low byte of a 2-byte, request-specific value. For more information about specifying <b>wValue</b>, see the USB specification.
 
 
-
-###### wIndex.Bytes.HiByte
+### -field Packet.wIndex.Bytes.HiByte
 
 The high byte of a 2-byte, request-specific value. 
 
@@ -195,11 +141,15 @@ The high byte of a 2-byte, request-specific value.
 A 2-byte value that contains the <b>Bytes.LowByte</b> and <b>Bytes.HiByte</b> values. Use this member as an alternative to specifying individual low-byte and high-byte values.
 
 
+### -field Packet.wLength
+
+The number of bytes to transfer, if applicable. For more information about this value, see the USB specification. The framework sets this value.
+
+
 ### -field Generic
 
 
-
-#### Bytes
+### -field Generic.Bytes
 
 An 8-byte value that represents the entire setup packet. You can use this member as an alternative to specifying individual structure members.
 
@@ -208,38 +158,38 @@ An 8-byte value that represents the entire setup packet. You can use this member
 
 
 
-The <b>WDF_USB_CONTROL_SETUP_PACKET</b> structure is used as input to the <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendcontroltransfersynchronously.md">WdfUsbTargetDeviceSendControlTransferSynchronously</a> and <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforcontroltransfer.md">WdfUsbTargetDeviceFormatRequestForControlTransfer</a> methods.
+The <b>WDF_USB_CONTROL_SETUP_PACKET</b> structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550104">WdfUsbTargetDeviceSendControlTransferSynchronously</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550082">WdfUsbTargetDeviceFormatRequestForControlTransfer</a> methods.
 
 To initialize a <b>WDF_USB_CONTROL_SETUP_PACKET</b> structure, the driver should call one of the following functions:
 
 <ul>
 <li>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init.md">WDF_USB_CONTROL_SETUP_PACKET_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552571">WDF_USB_CONTROL_SETUP_PACKET_INIT</a>
 
 
 </li>
 <li>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_class.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552574">WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS</a>
 
 
 </li>
 <li>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_feature.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552576">WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE</a>
 
 
 </li>
 <li>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552582">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
 
 
 </li>
 <li>
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552588">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
 
 
 </li>
@@ -249,28 +199,27 @@ To initialize a <b>WDF_USB_CONTROL_SETUP_PACKET</b> structure, the driver should
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceformatrequestforcontroltransfer.md">WdfUsbTargetDeviceFormatRequestForControlTransfer</a>
 
 
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_direction.md">WDF_USB_BMREQUEST_DIRECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552545">WDF_USB_BMREQUEST_DIRECTION</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendcontroltransfersynchronously.md">WdfUsbTargetDeviceSendControlTransferSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552554">WDF_USB_BMREQUEST_RECIPIENT</a>
 
 
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_type.md">WDF_USB_BMREQUEST_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552557">WDF_USB_BMREQUEST_TYPE</a>
 
 
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_bmrequest_recipient.md">WDF_USB_BMREQUEST_RECIPIENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550082">WdfUsbTargetDeviceFormatRequestForControlTransfer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550104">WdfUsbTargetDeviceSendControlTransferSynchronously</a>
  
 
  
-
 

@@ -38,10 +38,10 @@ api_location:
 -	wdfobject.h
 api_name:
 -	WdfObjectGetTypedContextWorker
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_SYNCHRONIZATION_SCOPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfObjectGetTypedContextWorker function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfObjectGetTypedContextWorker</b> method is reserved for internal use only. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548749">WdfObjectGetTypedContext</a> macro instead.
-
-
-## -syntax
-
-
-````
-PVOID WdfObjectGetTypedContextWorker(
-  _In_ WDFOBJECT                      Handle,
-  _In_ PCWDF_OBJECT_CONTEXT_TYPE_INFO TypeInfo
-);
-````
 
 
 ## -parameters

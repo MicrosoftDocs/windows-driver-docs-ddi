@@ -7,7 +7,7 @@ old-location: display\dxgk_preemptcommandflags.htm
 old-project: display
 ms.assetid: 24444451-7323-4e1a-9981-cf5caa00c4e3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_PREEMPTCOMMANDFLAGS, DXGK_PREEMPTCOMMANDFLAGS structure [Display Devices], DmStructs_7163ce37-49c8-4b17-aadc-cd36ad5cac9d.xml, _DXGK_PREEMPTCOMMANDFLAGS, d3dkmddi/DXGK_PREEMPTCOMMANDFLAGS, display.dxgk_preemptcommandflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_PREEMPTCOMMANDFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PREEMPTCOMMANDFLAGS
 ---
@@ -52,21 +53,6 @@ req.typenames: DXGK_PREEMPTCOMMANDFLAGS
 The DXGK_PREEMPTCOMMANDFLAGS structure specifies a union that contains either a structure with a reserved member or a 32-bit value. No bit-field flags are currently defined.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_PREEMPTCOMMANDFLAGS {
-  union {
-    struct {
-      UINT Reserved  :32;
-    };
-    UINT Value;
-  };
-} DXGK_PREEMPTCOMMANDFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -77,19 +63,18 @@ typedef struct _DXGK_PREEMPTCOMMANDFLAGS {
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting all 32 bits (0xFFFFFFFF) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that DXGK_PREEMPTCOMMANDFLAGS contains that can hold a 32-bit value.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_preemptcommand.md">DXGKARG_PREEMPTCOMMAND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557616">DXGKARG_PREEMPTCOMMAND</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\usbcamd_getregistrykeyvalue.htm
 old-project: stream
 ms.assetid: c3512a79-884f-4f38-9942-63a4a464585c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: USBCAMD_GetRegistryKeyValue, USBCAMD_GetRegistryKeyValue function [Streaming Media Devices], stream.usbcamd_getregistrykeyvalue, usbcamdi/USBCAMD_GetRegistryKeyValue, usbcmdpr_f93ab3a6-f063-4c69-819d-1aed77b8efe6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	usbcamd2.dll
 api_name:
 -	USBCAMD_GetRegistryKeyValue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBCAMD_GetRegistryKeyValue function
@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USBCAMD_GetRegistryKeyValue</b> function retrieves the device-instance-specific registry key value.
-
-
-## -syntax
-
-
-````
-NTSTATUS USBCAMD_GetRegistryKeyValue(
-  _In_ HANDLE Handle,
-  _In_ PWCHAR KeyNameString,
-  _In_ ULONG  KeyNameStringLength,
-  _In_ PVOID  Data,
-  _In_ ULONG  DataLength
-);
-````
 
 
 ## -parameters

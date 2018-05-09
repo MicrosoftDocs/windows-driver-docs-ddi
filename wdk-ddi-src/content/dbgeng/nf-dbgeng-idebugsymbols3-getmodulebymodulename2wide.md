@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleByModuleName2Wide
-title: IDebugSymbols3::GetModuleByModuleName2Wide method
+title: IDebugSymbols3::GetModuleByModuleName2Wide
 author: windows-driver-content
 description: The GetModuleByModuleName2Wide method searches through the process's modules for one with the specified name.
 old-location: debugger\getmodulebymodulename2wide.htm
 old-project: debugger
 ms.assetid: 49e27e24-d38a-4a22-a92f-33a384437250
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetModuleByModuleName2Wide method [Windows Debugging], GetModuleByModuleName2Wide method [Windows Debugging], IDebugSymbols3 interface, GetModuleByModuleName2Wide,IDebugSymbols3.GetModuleByModuleName2Wide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2Wide method, IDebugSymbols3::GetModuleByModuleName2Wide, dbgeng/IDebugSymbols3::GetModuleByModuleName2Wide, debugger.getmodulebymodulename2wide
+ms.date: 4/24/2018
+ms.keywords: GetModuleByModuleName2Wide, GetModuleByModuleName2Wide method [Windows Debugging], GetModuleByModuleName2Wide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleByModuleName2Wide method, IDebugSymbols3.GetModuleByModuleName2Wide, IDebugSymbols3::GetModuleByModuleName2Wide, dbgeng/IDebugSymbols3::GetModuleByModuleName2Wide, debugger.getmodulebymodulename2wide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetModuleByModuleName2Wide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetModuleByModuleName2Wide method
+# IDebugSymbols3::GetModuleByModuleName2Wide
 
 
 ## -description
 
 
 The <b>GetModuleByModuleName2Wide</b>  method searches through the process's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">modules</a> for one with the specified name.
-
-
-## -syntax
-
-
-````
-HRESULT GetModuleByModuleName2Wide(
-  [in]            PCWSTR   Name,
-  [in]            ULONG    StartIndex,
-  [in]            ULONG    Flags,
-  [out, optional] PULONG   Index,
-  [out, optional] PULONG64 Base
-);
-````
 
 
 ## -parameters
@@ -176,16 +163,15 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547095">GetModuleByModuleName</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

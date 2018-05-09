@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities2.GetParameterDefinition
-title: IPrintSchemaCapabilities2::GetParameterDefinition method
+title: IPrintSchemaCapabilities2::GetParameterDefinition
 author: windows-driver-content
 description: The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the &lt;psf:ParameterDef&gt; element in the PrintCapabilites XML.
 old-location: print\iprintschemacapabilities2_getparameterdefinition.htm
 old-project: print
 ms.assetid: 19C3A3C5-446B-48FD-8E77-2E0F787B16B1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetParameterDefinition method [Print Devices], GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface, GetParameterDefinition,IPrintSchemaCapabilities2.GetParameterDefinition, IPrintSchemaCapabilities2, IPrintSchemaCapabilities2 interface [Print Devices], GetParameterDefinition method, IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition
+ms.date: 4/20/2018
+ms.keywords: GetParameterDefinition, GetParameterDefinition method [Print Devices], GetParameterDefinition method [Print Devices],IPrintSchemaCapabilities2 interface, IPrintSchemaCapabilities2 interface [Print Devices],GetParameterDefinition method, IPrintSchemaCapabilities2.GetParameterDefinition, IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,21 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaCapabilities2.GetParameterDefinition
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaCapabilities2::GetParameterDefinition method
+# IPrintSchemaCapabilities2::GetParameterDefinition
 
 
 ## -description
 
 
-The <b>GetParameterDefinition</b> method retrieves the <a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a> object, and it  represents the &lt;psf:ParameterDef&gt; element in the PrintCapabilites XML.
+The <b>GetParameterDefinition</b> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a> object, and it  represents the &lt;psf:ParameterDef&gt; element in the PrintCapabilites XML.
 
  The keyword name and keyword namespace URI specify the <b>IPrintSchemaParameterDefinition</b> object to be retrieved.
-
-
-## -syntax
-
-
-````
-HRESULT GetParameterDefinition(
-  [in]          BSTR                            bstrName,
-  [in]          BSTR                            bstrNamespaceUri,
-  [out, retval] IPrintSchemaParameterDefinition **ppParameterDefinition
-);
-````
 
 
 ## -parameters
@@ -111,20 +99,19 @@ For more information about the data types that you can use with the &lt;psf:Para
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities2.md">IPrintSchemaCapabilities2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465887">IPrintSchemaCapabilities2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
 
 
 
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg463385.aspx">Print Schema Specification</a>
-
-
-
  
 
  
-
 

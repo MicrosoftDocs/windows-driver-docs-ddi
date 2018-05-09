@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_preferred_providers.htm
 old-project: netvista
 ms.assetid: cbbbf7d2-cf24-47af-89e9-c27d577165e4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS, NDIS_WWAN_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PREFERRED_PROVIDERS, PNDIS_WWAN_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_71564505-6147-416d-8178-0a7f5b30d07e.xml, _NDIS_WWAN_PREFERRED_PROVIDERS, ndiswwan/NDIS_WWAN_PREFERRED_PROVIDERS, ndiswwan/PNDIS_WWAN_PREFERRED_PROVIDERS, netvista.ndis_wwan_preferred_providers"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_PREFERRED_PROVIDERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_PREFERRED_PROVIDERS, *PNDIS_WWAN_PREFERRED_PROVIDERS
 ---
@@ -51,18 +52,6 @@ req.typenames: NDIS_WWAN_PREFERRED_PROVIDERS, *PNDIS_WWAN_PREFERRED_PROVIDERS
 
 The NDIS_WWAN_PREFERRED_PROVIDERS structure represents a list of preferred providers including the
   number of providers in the list.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_PREFERRED_PROVIDERS {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_LIST_HEADER   PreferredListHeader;
-} NDIS_WWAN_PREFERRED_PROVIDERS, *PNDIS_WWAN_PREFERRED_PROVIDERS;
-````
 
 
 ## -struct-fields
@@ -118,7 +107,7 @@ sizeof(NDIS_WWAN_PREFERRED_PROVIDERS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -195,11 +184,11 @@ A
 ### -field PreferredListHeader
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a> object that represents a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a> object that represents a
      list of preferred providers, including the number of providers in the list.
      
 
-These point to the list of <a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a> by using the WWAN_LIST_HEADER structure. 
+These point to the list of <a href="https://msdn.microsoft.com/library/windows/hardware/hh464135">WWAN_PROVIDER2</a> by using the WWAN_LIST_HEADER structure. 
      <b>WwanDataClass</b> flags describe the preference of the specific data access technology and can be set
      to any combination within its own cellular class.
 
@@ -210,16 +199,15 @@ Response to
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a>
  
 
  
-
 

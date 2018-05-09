@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcurrentoplockh.htm
 old-project: ifsk
 ms.assetid: 98eb2bef-18ac-449f-b180-7b0f768cc093
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlCurrentOplockH, FsRtlCurrentOplockH function [Installable File System Drivers], fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, ifsk.fsrtlcurrentoplockh, ntifs/FsRtlCurrentOplockH
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlCurrentOplockH
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlCurrentOplockH function
@@ -52,16 +53,6 @@ req.typenames: TOKEN_TYPE
 A file system or filter driver calls <b>FsRtlCurrentOplockH</b> to determine whether there are any CACHE_HANDLE_LEVEL opportunistic locks (oplocks) on a file. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlCurrentOplockH(
-  _In_ POPLOCK Oplock
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ BOOLEAN FsRtlCurrentOplockH(
 
 ### -param Oplock [in]
 
-An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
+An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
 
 
 ## -returns
@@ -89,23 +80,22 @@ An opaque opportunistic lock pointer for the file. This pointer must have been i
 
 For more information about opportunistic locks, see the Microsoft Windows SDK documentation. 
 
-Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcurrentoplockh.md">FltCurrentOplockH</a> instead of <b>FsRtlCurrentOplock</b>. 
+Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541955">FltCurrentOplockH</a> instead of <b>FsRtlCurrentOplock</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcurrentoplockh.md">FltCurrentOplockH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541955">FltCurrentOplockH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>
  
 
  
-
 

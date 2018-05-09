@@ -7,8 +7,8 @@ old-location: display\d3dkmtcheckvidpnexclusiveownership.htm
 old-project: display
 ms.assetid: 06333989-177c-4c58-b95a-60313c04fe35
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3DKMTCheckVidPnExclusiveOwnership, D3DKMTCheckVidPnExclusiveOwnership callback function [Display Devices], OpenGL_Functions_edc90d51-f7e4-4bb5-be24-1a32b9fb4461.xml, PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, d3dkmthk/D3DKMTCheckVidPnExclusiveOwnership, display.d3dkmtcheckvidpnexclusiveownership
+ms.date: 4/16/2018
+ms.keywords: D3DKMTCheckVidPnExclusiveOwnership, D3DKMTCheckVidPnExclusiveOwnership callback function [Display Devices], OpenGL_Functions_edc90d51-f7e4-4bb5-be24-1a32b9fb4461.xml, PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP callback, d3dkmthk/D3DKMTCheckVidPnExclusiveOwnership, display.d3dkmtcheckvidpnexclusiveownership
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,28 +38,19 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTCheckVidPnExclusiveOwnership
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
+req.typenames: 
 ---
 
-# PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP callback
+# PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP callback function
 
 
 ## -description
 
 
 The <b>D3DKMTCheckVidPnExclusiveOwnership</b> function determines the video present source in the path of a video present network (VidPN) topology that exclusively owns the VidPN. 
-
-
-## -prototype
-
-
-````
-NTSTATUS D3DKMTCheckVidPnExclusiveOwnership(
-  _In_ const D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP *pData
-);
-````
 
 
 ## -parameters
@@ -78,7 +69,7 @@ NTSTATUS D3DKMTCheckVidPnExclusiveOwnership(
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkvidpnexclusiveownership.md">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a> structure that describes the parameters to determine exclusive VidPN ownership. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547784">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a> structure that describes the parameters to determine exclusive VidPN ownership. 
 
 
 ## -returns
@@ -121,7 +112,7 @@ The graphics adapter was stopped or the display device was reset.
 </dl>
 </td>
 <td width="60%">
-The video present source that is identified by the <b>VidPnSourceId</b> member of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkvidpnexclusiveownership.md">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a> is already owned by a display mode manager (DMM) client and cannot be used until the client releases the video present source.
+The video present source that is identified by the <b>VidPnSourceId</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547784">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a> is already owned by a display mode manager (DMM) client and cannot be used until the client releases the video present source.
 
 </td>
 </tr>
@@ -157,12 +148,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkvidpnexclusiveownership.md">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547784">D3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\fltseteafile.htm
 old-project: ifsk
 ms.assetid: 06427ef2-43e9-46c1-92e5-ab1b6146cc43
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_7e886e7f-a5f4-4a87-9322-7818e31c84af.xml, FltSetEaFile, FltSetEaFile function [Installable File System Drivers], fltkernel/FltSetEaFile, ifsk.fltseteafile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltSetEaFile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltSetEaFile function
@@ -50,19 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltSetEaFile</b> sets extended-attribute (EA) values for a file. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltSetEaFile(
-  _In_ PFLT_INSTANCE Instance,
-  _In_ PFILE_OBJECT  FileObject,
-  _In_ PVOID         EaBuffer,
-  _In_ ULONG         Length
-);
-````
 
 
 ## -parameters
@@ -82,7 +70,7 @@ File object pointer for the file.
 
 ### -param EaBuffer [in]
 
-Pointer to a caller-supplied, <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute (EA) values to be set. 
+Pointer to a caller-supplied, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute (EA) values to be set. 
 
 
 ### -param Length [in]
@@ -120,20 +108,19 @@ The instance or volume is being torn down. This is an error code.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryeafile.md">FltQueryEaFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543435">FltQueryEaFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548252">IoCheckEaBufferValidity</a>
  
 
  
-
 

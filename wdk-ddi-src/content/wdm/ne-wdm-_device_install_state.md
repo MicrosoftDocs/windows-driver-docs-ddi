@@ -7,7 +7,7 @@ old-location: kernel\device_install_state.htm
 old-project: kernel
 ms.assetid: 82b702ae-ea62-4bc1-ad92-467eba027e3d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], InstallStateFailedInstall, InstallStateFinishInstall, InstallStateInstalled, InstallStateNeedsReinstall, PDEVICE_INSTALL_STATE, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], _DEVICE_INSTALL_STATE, kernel.device_install_state, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, wdm/DEVICE_INSTALL_STATE, wdm/InstallStateFailedInstall, wdm/InstallStateFinishInstall, wdm/InstallStateInstalled, wdm/InstallStateNeedsReinstall, wdm/PDEVICE_INSTALL_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	DEVICE_INSTALL_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_INSTALL_STATE, *PDEVICE_INSTALL_STATE
-req.product: Windows 10 or later.
 ---
 
 # _DEVICE_INSTALL_STATE enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>DEVICE_INSTALL_STATE</b> enumeration describes a device's installation state.
-
-
-## -syntax
-
-
-````
-typedef enum _DEVICE_INSTALL_STATE { 
-  InstallStateInstalled       = 0,
-  InstallStateNeedsReinstall  = 1,
-  InstallStateFailedInstall   = 2,
-  InstallStateFinishInstall   = 3
-} DEVICE_INSTALL_STATE, *PDEVICE_INSTALL_STATE;
-````
 
 
 ## -enum-fields
@@ -95,23 +82,22 @@ The installation of this device is not yet complete.
 
 
 
-The <a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a> routine supplies a <b>DEVICE_INSTALL_STATE</b> enumeration value when a driver requests <b>DevicePropertyInstallState</b>. The operating system uses the value as a hint about the install state of the device.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff549203">IoGetDeviceProperty</a> routine supplies a <b>DEVICE_INSTALL_STATE</b> enumeration value when a driver requests <b>DevicePropertyInstallState</b>. The operating system uses the value as a hint about the install state of the device.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/a17b4a88-45e8-45e7-b879-2f41b97be368">DEVICE_REGISTRY_PROPERTY</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549203">IoGetDeviceProperty</a>
  
 
  
-
 

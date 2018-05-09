@@ -7,7 +7,7 @@ old-location: stream\ksacquireresetvalue.htm
 old-project: stream
 ms.assetid: 80a990e3-3637-4837-8800-42d5848e01cf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAcquireResetValue, KsAcquireResetValue function [Streaming Media Devices], ks/KsAcquireResetValue, ksfunc_fbfd5f64-6842-4559-9829-05797fda4fa2.xml, stream.ksacquireresetvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAcquireResetValue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsAcquireResetValue </b>function retrieves the current reset state from an IOCTL_KS_RESET_STATE IRP.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAcquireResetValue(
-  _In_  PIRP    Irp,
-  _Out_ KSRESET *ResetValue
-);
-````
 
 
 ## -parameters

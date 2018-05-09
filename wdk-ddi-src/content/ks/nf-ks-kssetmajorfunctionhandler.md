@@ -7,7 +7,7 @@ old-location: stream\kssetmajorfunctionhandler.htm
 old-project: stream
 ms.assetid: 22c1957d-089a-4504-b92c-9268a37ac265
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsSetMajorFunctionHandler, KsSetMajorFunctionHandler function [Streaming Media Devices], ks/KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, stream.kssetmajorfunctionhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsSetMajorFunctionHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsSetMajorFunctionHandler</b> function sets the handler for a specified major function to use the internal dispatching. It routes through a KSDISPATCH_TABLE contained in the opaque object header to be the first element within a structure pointed to by an <b>FsContext</b> within a file object. The dispatching assumes the table and <b>FsContext</b> structure are initialized by the device using <b>KsAllocateObjectHeader</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsSetMajorFunctionHandler(
-  _In_ PDRIVER_OBJECT DriverObject,
-  _In_ ULONG          MajorFunction
-);
-````
 
 
 ## -parameters

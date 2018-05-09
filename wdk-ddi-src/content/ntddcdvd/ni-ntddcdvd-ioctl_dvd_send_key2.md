@@ -7,8 +7,8 @@ old-location: storage\ioctl_dvd_send_key2.htm
 old-project: storage
 ms.assetid: 58b9c2a5-cd29-4c62-b5ae-39911821e3b7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DVD_SEND_KEY2, IOCTL_DVD_SEND_KEY2 control code [Storage Devices], k307_f38bdf8b-8bdc-4f28-bf53-d42f8b04a610.xml, ntddcdvd/IOCTL_DVD_SEND_KEY2, storage.ioctl_dvd_send_key2
+ms.date: 3/29/2018
+ms.keywords: IOCTL_DVD_SEND_KEY2, IOCTL_DVD_SEND_KEY2 control, IOCTL_DVD_SEND_KEY2 control code [Storage Devices], k307_f38bdf8b-8bdc-4f28-bf53-d42f8b04a610.xml, ntddcdvd/IOCTL_DVD_SEND_KEY2, storage.ioctl_dvd_send_key2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddcdvd.h
 api_name:
 -	IOCTL_DVD_SEND_KEY2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_DVD_SEND_KEY2 IOCTL
@@ -50,7 +51,7 @@ req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 
 
 
-Sends the specified key to a DVD device -to complete the related step in an authentication sequence. The IOCTL_DVD_SEND_KEY2 request has write access to the device and can send a broader range of key types than <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_send_key.md">IOCTL_DVD_SEND_KEY</a>. 
+Sends the specified key to a DVD device -to complete the related step in an authentication sequence. The IOCTL_DVD_SEND_KEY2 request has write access to the device and can send a broader range of key types than <a href="https://msdn.microsoft.com/library/windows/hardware/ff560427">IOCTL_DVD_SEND_KEY</a>. 
 
 
 
@@ -62,12 +63,12 @@ Sends the specified key to a DVD device -to complete the related step in an auth
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_PROTECT_KEY</a> structure that indicates the session ID, key type, and key to be sent to the device.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553718">DVD_COPY_PROTECT_KEY</a> structure that indicates the session ID, key type, and key to be sent to the device.
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_PROTECT_KEY</a>.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553718">DVD_COPY_PROTECT_KEY</a>.
 
 
 ### -output-buffer
@@ -105,12 +106,11 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_PROTECT_KEY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553718">DVD_COPY_PROTECT_KEY</a>
  
 
  
-
 

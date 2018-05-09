@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_flush.htm
 old-project: netvista
 ms.assetid: 8C5F62DD-36CB-4EBC-9113-BB5BF19C0D45
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_FLUSH, NdkFlush, NdkFlush callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkFlush, netvista.ndk_fn_flush
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_FLUSH, NDK_FN_FLUSH callback, NdkFlush, NdkFlush callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkFlush, netvista.ndk_fn_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,31 +38,19 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkFlush
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_FLUSH callback
+# NDK_FN_FLUSH callback function
 
 
 ## -description
 
 
 The <i>NdkFlush</i> (<i>NDK_FN_FLUSH</i>) function initiates cancelling of the receive and the initiator queue requests that are currently pending on an NDK queue pair (QP) object.
-
-
-## -prototype
-
-
-````
-NDK_FN_FLUSH NdkFlush;
-
-VOID NdkFlush(
-  _In_ NDK_QP *pNdkQp
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,7 +60,7 @@ VOID NdkFlush(
 
 ### -param *pNdkQp [in]
 
-A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
+A pointer to an NDK queue pair (QP) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>).
 
 
 ## -returns
@@ -97,12 +85,11 @@ If the  NDK consumer wants to verify that all of the requests are flushed after 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>
  
 
  
-
 

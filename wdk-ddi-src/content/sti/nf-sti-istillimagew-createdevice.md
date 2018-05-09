@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.CreateDevice
-title: IStillImageW::CreateDevice method
+title: IStillImageW::CreateDevice
 author: windows-driver-content
 description: The IStillImage::CreateDevice method creates an instance of the COM object that defines the IStiDevice COM Interface, and returns a pointer to the interface.
 old-location: image\istillimage_createdevice.htm
 old-project: image
 ms.assetid: 24491434-1ad2-48fa-85e6-516efbe0550d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices], IStillImageW interface, CreateDevice,IStillImageW.CreateDevice, IStillImageW, IStillImageW interface [Imaging Devices], CreateDevice method, IStillImageW::CreateDevice, image.istillimage_createdevice, sti/IStillImageW::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml
+ms.date: 4/23/2018
+ms.keywords: CreateDevice, CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],CreateDevice method, IStillImageW.CreateDevice, IStillImageW::CreateDevice, image.istillimage_createdevice, sti/IStillImageW::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.CreateDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::CreateDevice method
+# IStillImageW::CreateDevice
 
 
 ## -description
 
 
 The <b>IStillImage::CreateDevice</b> method creates an instance of the COM object that defines the <a href="https://msdn.microsoft.com/b026fb74-9ce6-4d4e-8a5b-402731904064">IStiDevice COM Interface</a>, and returns a pointer to the interface.
-
-
-## -syntax
-
-
-````
-HRESULT CreateDevice(
-  [in]           LPWSTR     pwszDeviceName,
-                 DWORD      dwMode,
-  [out]          PSTIDEVICE *pDevice,
-  [in, optional] LPUNKNOWN  punkOuter
-);
-````
 
 
 ## -parameters
@@ -151,16 +138,15 @@ If you want to create an aggregate COM object that includes <b>IStiDevice</b>, y
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543765">IStiDevice::Release</a>
 
 
 
 <a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
-
-
-
  
 
  
-
 

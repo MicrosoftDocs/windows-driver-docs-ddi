@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.SetTextMacroWide
-title: IDebugControl4::SetTextMacroWide method
+title: IDebugControl4::SetTextMacroWide
 author: windows-driver-content
 description: The SetTextMacroWide method sets the value of a fixed-name alias.
 old-location: debugger\settextmacrowide.htm
 old-project: debugger
 ms.assetid: 98e93636-33e3-4642-a4fb-8590a7a0e784
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], SetTextMacroWide method, IDebugControl4::SetTextMacroWide, SetTextMacroWide method [Windows Debugging], SetTextMacroWide method [Windows Debugging], IDebugControl4 interface, SetTextMacroWide,IDebugControl4.SetTextMacroWide, dbgeng/IDebugControl4::SetTextMacroWide, debugger.settextmacrowide
+ms.date: 4/24/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging],SetTextMacroWide method, IDebugControl4.SetTextMacroWide, IDebugControl4::SetTextMacroWide, SetTextMacroWide, SetTextMacroWide method [Windows Debugging], SetTextMacroWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetTextMacroWide, debugger.settextmacrowide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.SetTextMacroWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::SetTextMacroWide method
+# IDebugControl4::SetTextMacroWide
 
 
 ## -description
 
 
 The <b>SetTextMacroWide</b>  method sets the value of a fixed-name alias.
-
-
-## -syntax
-
-
-````
-HRESULT SetTextMacroWide(
-  [in] ULONG  Slot,
-  [in] PCWSTR Macro
-);
-````
 
 
 ## -parameters
@@ -119,7 +109,6 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
 
 
 
@@ -127,11 +116,7 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
 
 
 
@@ -139,8 +124,12 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
  
 
  
-
 

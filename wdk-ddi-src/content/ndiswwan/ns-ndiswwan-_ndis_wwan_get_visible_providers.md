@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_get_visible_providers.htm
 old-project: netvista
 ms.assetid: C1AF383A-2D9D-4B2F-A925-D138E1B7AA4F
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_GET_VISIBLE_PROVIDERS, NDIS_WWAN_GET_VISIBLE_PROVIDERS, NDIS_WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_GET_VISIBLE_PROVIDERS, PNDIS_WWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_GET_VISIBLE_PROVIDERS, ndiswwan/NDIS_WWAN_GET_VISIBLE_PROVIDERS, ndiswwan/PNDIS_WWAN_GET_VISIBLE_PROVIDERS, netvista.ndis_wwan_get_visible_providers"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_GET_VISIBLE_PROVIDERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_GET_VISIBLE_PROVIDERS, *PNDIS_WWAN_GET_VISIBLE_PROVIDERS
 ---
@@ -50,17 +51,6 @@ req.typenames: NDIS_WWAN_GET_VISIBLE_PROVIDERS, *PNDIS_WWAN_GET_VISIBLE_PROVIDER
 
 
 The NDIS_WWAN_GET_VISIBLE_PROVIDERS structure is used to request the miniport driver get either all visible providers or only multi-carrier visible providers.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_GET_VISIBLE_PROVIDERS {
-  NDIS_OBJECT_HEADER         Header;
-  WWAN_GET_VISIBLE_PROVIDERS VisibleProviders;
-} NDIS_WWAN_GET_VISIBLE_PROVIDERS, *PNDIS_WWAN_GET_VISIBLE_PROVIDERS;
-````
 
 
 ## -struct-fields
@@ -116,7 +106,7 @@ sizeof(NDIS_WWAN_GET_VISIBLE_PROVIDERS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field VisibleProviders
@@ -126,12 +116,11 @@ A formatted WWAN_GET_VISIBLE_PROVIDERS object that provides additional informati
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_get_visible_providers.md">WWAN_GET_VISIBLE_PROVIDERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh831879">WWAN_GET_VISIBLE_PROVIDERS</a>
  
 
  
-
 

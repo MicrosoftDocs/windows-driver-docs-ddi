@@ -7,7 +7,7 @@ old-location: netvista\ril_sendflash.htm
 old-project: netvista
 ms.assetid: 9a23fae8-7142-48a1-871e-1fa3a6d8e112
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SendFlash, RIL_SendFlash method [Network Drivers Starting with Windows Vista], netvista.ril_sendflash, rilapi/RIL_SendFlash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_SendFlash
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SendFlash function
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_SendFlash(
-   HRIL         hRil,
-   LPVOID       lpContext,
-   DWORD        dwExecutor,
-   LPRILADDRESS lpraRilAddress
-);
-````
 
 
 ## -parameters

@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceGetAlignmentRequirement
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceGetAlignmentRequirement function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceGetAlignmentRequirement</b> method retrieves a device's address alignment requirement for memory transfer operations.
-
-
-## -syntax
-
-
-````
-ULONG WdfDeviceGetAlignmentRequirement(
-  _In_ WDFDEVICE Device
-);
-````
 
 
 ## -parameters
@@ -89,12 +79,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546861">WdfDeviceSetAlignmentRequirement</a>
  
 
  
-
 

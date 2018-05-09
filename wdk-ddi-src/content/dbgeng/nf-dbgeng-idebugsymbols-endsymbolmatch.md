@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.EndSymbolMatch
-title: IDebugSymbols::EndSymbolMatch method
+title: IDebugSymbols::EndSymbolMatch
 author: windows-driver-content
 description: The EndSymbolMatch method releases the resources used by a symbol search.
 old-location: debugger\endsymbolmatch.htm
 old-project: debugger
 ms.assetid: 02cc9db2-173a-4d5d-a465-098391336100
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EndSymbolMatch method [Windows Debugging], EndSymbolMatch method [Windows Debugging], IDebugSymbols interface, EndSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, EndSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, EndSymbolMatch,IDebugSymbols.EndSymbolMatch, IDebugSymbols, IDebugSymbols interface [Windows Debugging], EndSymbolMatch method, IDebugSymbols2 interface [Windows Debugging], EndSymbolMatch method, IDebugSymbols2::EndSymbolMatch, IDebugSymbols3 interface [Windows Debugging], EndSymbolMatch method, IDebugSymbols3::EndSymbolMatch, IDebugSymbols::EndSymbolMatch, IDebugSymbols_1661cc8a-ad5c-4cd3-83fe-f829bd07e453.xml, dbgeng/IDebugSymbols2::EndSymbolMatch, dbgeng/IDebugSymbols3::EndSymbolMatch, dbgeng/IDebugSymbols::EndSymbolMatch, debugger.endsymbolmatch
+ms.date: 4/24/2018
+ms.keywords: EndSymbolMatch, EndSymbolMatch method [Windows Debugging], EndSymbolMatch method [Windows Debugging],IDebugSymbols interface, EndSymbolMatch method [Windows Debugging],IDebugSymbols2 interface, EndSymbolMatch method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],EndSymbolMatch method, IDebugSymbols.EndSymbolMatch, IDebugSymbols2 interface [Windows Debugging],EndSymbolMatch method, IDebugSymbols2::EndSymbolMatch, IDebugSymbols3 interface [Windows Debugging],EndSymbolMatch method, IDebugSymbols3::EndSymbolMatch, IDebugSymbols::EndSymbolMatch, IDebugSymbols_1661cc8a-ad5c-4cd3-83fe-f829bd07e453.xml, dbgeng/IDebugSymbols2::EndSymbolMatch, dbgeng/IDebugSymbols3::EndSymbolMatch, dbgeng/IDebugSymbols::EndSymbolMatch, debugger.endsymbolmatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,28 +40,19 @@ api_name:
 -	IDebugSymbols.EndSymbolMatch
 -	IDebugSymbols2.EndSymbolMatch
 -	IDebugSymbols3.EndSymbolMatch
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols::EndSymbolMatch method
+# IDebugSymbols::EndSymbolMatch
 
 
 ## -description
 
 
 The <b>EndSymbolMatch</b> method releases the resources used by a symbol search.
-
-
-## -syntax
-
-
-````
-HRESULT EndSymbolMatch(
-  [in] ULONG64 Handle
-);
-````
 
 
 ## -parameters
@@ -115,7 +106,6 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -123,20 +113,20 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>
-
-
-
  
 
  
-
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFNamedPropertyStore2.DeleteNamedValue
-title: IWDFNamedPropertyStore2::DeleteNamedValue method
+title: IWDFNamedPropertyStore2::DeleteNamedValue
 author: windows-driver-content
 description: The DeleteNamedValue method deletes a value name from the registry.
 old-location: wdf\iwdfnamedpropertystore2_deletenamedvalue.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ce0953d3-054f-446b-9f69-58f4580740f3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DeleteNamedValue method, DeleteNamedValue method, IWDFNamedPropertyStore2 interface, DeleteNamedValue,IWDFNamedPropertyStore2.DeleteNamedValue, IWDFNamedPropertyStore2, IWDFNamedPropertyStore2 interface, DeleteNamedValue method, IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, umdf.iwdfnamedpropertystore2_deletenamedvalue, wdf.iwdfnamedpropertystore2_deletenamedvalue, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue
+ms.keywords: DeleteNamedValue, DeleteNamedValue method, DeleteNamedValue method,IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface,DeleteNamedValue method, IWDFNamedPropertyStore2.DeleteNamedValue, IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, umdf.iwdfnamedpropertystore2_deletenamedvalue, wdf.iwdfnamedpropertystore2_deletenamedvalue, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFNamedPropertyStore2.DeleteNamedValue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFNamedPropertyStore2::DeleteNamedValue method
+# IWDFNamedPropertyStore2::DeleteNamedValue
 
 
 ## -description
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>DeleteNamedValue</b> method deletes a value name from the registry.
-
-
-## -syntax
-
-
-````
-HRESULT DeleteNamedValue(
-  [in] LPCWSTR pwszName
-);
-````
 
 
 ## -parameters
@@ -109,7 +99,7 @@ This method might return one of the other values that Winerror.h contains.
 
 
 
-Before a driver calls <b>DeleteNamedValue</b>, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a> to obtain the <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a> interface.
+Before a driver calls <b>DeleteNamedValue</b>, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a> to obtain the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560168">IWDFNamedPropertyStore2</a> interface.
 
 For more information about accessing the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
@@ -147,16 +137,15 @@ CMyDevice::OnCleanup(
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560168">IWDFNamedPropertyStore2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore2.md">IWDFNamedPropertyStore2</a>
-
-
-
  
 
  
-
 

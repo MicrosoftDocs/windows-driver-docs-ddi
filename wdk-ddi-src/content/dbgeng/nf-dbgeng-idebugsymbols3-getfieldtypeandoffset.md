@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetFieldTypeAndOffset
-title: IDebugSymbols3::GetFieldTypeAndOffset method
+title: IDebugSymbols3::GetFieldTypeAndOffset
 author: windows-driver-content
 description: The GetFieldTypeAndOffset method returns the type of a field and its offset within a container.
 old-location: debugger\getfieldtypeandoffset.htm
 old-project: debugger
 ms.assetid: a73a3bb5-f9f4-41d7-9df7-c7f36a01d157
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetFieldTypeAndOffset method [Windows Debugging], GetFieldTypeAndOffset method [Windows Debugging], IDebugSymbols3 interface, GetFieldTypeAndOffset,IDebugSymbols3.GetFieldTypeAndOffset, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetFieldTypeAndOffset method, IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml, dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, debugger.getfieldtypeandoffset
+ms.date: 4/24/2018
+ms.keywords: GetFieldTypeAndOffset, GetFieldTypeAndOffset method [Windows Debugging], GetFieldTypeAndOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldTypeAndOffset method, IDebugSymbols3.GetFieldTypeAndOffset, IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml, dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, debugger.getfieldtypeandoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetFieldTypeAndOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetFieldTypeAndOffset method
+# IDebugSymbols3::GetFieldTypeAndOffset
 
 
 ## -description
 
 
 The <b>GetFieldTypeAndOffset</b>  method returns the type of a field and its offset within a container.
-
-
-## -syntax
-
-
-````
-HRESULT GetFieldTypeAndOffset(
-  [in]            ULONG64 Module,
-  [in]            ULONG   ContainerTypeId,
-  [in]            PCSTR   Field,
-  [out, optional] PULONG  FieldTypeId,
-  [out, optional] PULONG  Offset
-);
-````
 
 
 ## -parameters
@@ -148,7 +135,6 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -160,8 +146,8 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

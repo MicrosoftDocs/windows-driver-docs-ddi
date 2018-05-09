@@ -7,7 +7,7 @@ old-location: stream\kspropertyhandlerwithallocator.htm
 old-project: stream
 ms.assetid: b7e52667-b4ef-4807-867c-37b80af03b6b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPropertyHandlerWithAllocator, KsPropertyHandlerWithAllocator function [Streaming Media Devices], ks/KsPropertyHandlerWithAllocator, ksfunc_bad2a764-641a-4f28-a7e6-7d9a03d300f3.xml, stream.kspropertyhandlerwithallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsPropertyHandlerWithAllocator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,21 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsPropertyHandlerWithAllocator </b>performs the same handling as <a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters. If used, the filter may need to free the buffer in some nonconventional manner. IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsPropertyHandlerWithAllocator(
-  _In_           PIRP           Irp,
-  _In_           ULONG          PropertySetsCount,
-  _In_     const KSPROPERTY_SET *PropertySet,
-  _In_opt_       PFNKSALLOCATOR Allocator,
-  _In_opt_       ULONG          PropertyItemSize
-);
-````
+The <b>KsPropertyHandlerWithAllocator </b>performs the same handling as <a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a>, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters. If used, the filter may need to free the buffer in some nonconventional manner. IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
 
 
 ## -parameters
@@ -127,16 +114,15 @@ On 64-bit platforms, if the <i>PropertyItemSize</i> parameter is not a multiple 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
 
 
 
-<a href="..\ks\nf-ks-ksfastpropertyhandler.md">KsFastPropertyHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561946">KsFastPropertyHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a>
  
 
  
-
 

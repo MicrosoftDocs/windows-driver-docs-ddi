@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDeviceOpenRegistryKey
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceOpenRegistryKey function
@@ -56,20 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfDeviceOpenRegistryKey</b> method opens a device's hardware key or a driver's software key in the registry and creates a framework registry-key object that represents the registry key.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceOpenRegistryKey(
-  _In_     WDFDEVICE              Device,
-  _In_     ULONG                  DeviceInstanceKeyType,
-  _In_     ACCESS_MASK            DesiredAccess,
-  _In_opt_ PWDF_OBJECT_ATTRIBUTES KeyAttributes,
-  _Out_    WDFKEY                 *Key
-);
-````
 
 
 ## -parameters
@@ -212,7 +198,7 @@ As a best practice, ask for only the types of access that your driver needs.
 
 ### -param KeyAttributes [in, optional]
 
-A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new registry-key object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
 ### -param Key [out]
@@ -239,7 +225,7 @@ A pointer to a location that receives a handle to the new registry-key object.
 </td>
 <td width="60%">
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceopenregistrykey.md">WdfDeviceOpenRegistryKey</a> was not called at IRQL = PASSIVE_LEVEL. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546804">WdfDeviceOpenRegistryKey</a> was not called at IRQL = PASSIVE_LEVEL. 
 
 </td>
 </tr>
@@ -292,16 +278,16 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-If your driver must open a hardware or software key before it has called <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>, it must call <a href="..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md">WdfFdoInitOpenRegistryKey</a> instead of <b>WdfDeviceOpenRegistryKey</b>.
+If your driver must open a hardware or software key before it has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547249">WdfFdoInitOpenRegistryKey</a> instead of <b>WdfDeviceOpenRegistryKey</b>.
 
-When the driver has finished using the registry key that it opened with <b>WdfDeviceOpenRegistryKey</b>, the driver must call <a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>.
+When the driver has finished using the registry key that it opened with <b>WdfDeviceOpenRegistryKey</b>, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549914">WdfRegistryClose</a>.
 
 For more information about the registry, hardware and software keys, and registry objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples
 
-For code examples that use <b>WdfDeviceOpenRegistryKey</b>, see <a href="..\wdfregistry\nf-wdfregistry-wdfregistrycreatekey.md">WdfRegistryCreateKey</a>, <a href="..\wdfregistry\nf-wdfregistry-wdfregistryopenkey.md">WdfRegistryOpenKey</a>, and <a href="..\wdfregistry\nf-wdfregistry-wdfregistryqueryvalue.md">WdfRegistryQueryValue</a>.
+For code examples that use <b>WdfDeviceOpenRegistryKey</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549917">WdfRegistryCreateKey</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549919">WdfRegistryOpenKey</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff549928">WdfRegistryQueryValue</a>.
 
 <div class="code"></div>
 
@@ -309,12 +295,11 @@ For code examples that use <b>WdfDeviceOpenRegistryKey</b>, see <a href="..\wdfr
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitopenregistrykey.md">WdfFdoInitOpenRegistryKey</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547249">WdfFdoInitOpenRegistryKey</a>
  
 
  
-
 

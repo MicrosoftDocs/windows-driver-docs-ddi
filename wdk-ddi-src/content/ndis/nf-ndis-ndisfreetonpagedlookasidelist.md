@@ -7,7 +7,7 @@ old-location: netvista\ndisfreetonpagedlookasidelist.htm
 old-project: netvista
 ms.assetid: 2405a405-177a-420a-9628-a340e0d0acb3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, netvista.ndisfreetonpagedlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisFreeToNPagedLookasideList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisFreeToNPagedLookasideList macro
@@ -51,17 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisFreeToNPagedLookasideList</b> function returns an entry to the given lookaside list.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeToNPagedLookasideList(
-  [in] PNPAGED_LOOKASIDE_LIST Lookaside,
-  [in] PVOID                  Entry
-);
-````
 
 
 ## -parameters
@@ -103,7 +93,7 @@ If the lookaside list has not reached the system-determined maximum number of en
     <b>NdisFreeToNPagedLookasideList</b> either calls the driver's 
     <i>Free</i> function, specified in the 
     <i>Free</i> parameter if the driver provided one to the 
-    <a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
+    <a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
     NdisInitializeNPagedLookasideList</a> function, or it frees the given entry itself.
 
 
@@ -111,23 +101,22 @@ If the lookaside list has not reached the system-determined maximum number of en
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinitializenpagedlookasidelist.md">
-   NdisInitializeNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
-   NdisDeleteNPagedLookasideList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
+<a href="https://msdn.microsoft.com/0622d3db-8d28-4c15-a3d8-1092487b8096">
+   NdisDeleteNPagedLookasideList</a>
+
+
+
+<a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
+   NdisInitializeNPagedLookasideList</a>
  
 
  
-
 

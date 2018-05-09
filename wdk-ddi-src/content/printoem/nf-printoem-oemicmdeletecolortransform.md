@@ -7,7 +7,7 @@ old-location: print\oemicmdeletecolortransform.htm
 old-project: print
 ms.assetid: 820d9e28-fe06-4aa7-91d8-a90340affb94
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMIcmDeleteColorTransform, OEMIcmDeleteColorTransform function [Print Devices], print.oemicmdeletecolortransform, print_unidrv-pscript_rendering_bbbce51d-2346-4260-ae70-598d38276d69.xml, printoem/OEMIcmDeleteColorTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMIcmDeleteColorTransform
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMIcmDeleteColorTransform function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMIcmDeleteColorTransform</code> function deletes the specified color transform.
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMIcmDeleteColorTransform(
-   DHPDEV dhpdev,
-   HANDLE hcmXform
-);
-````
 
 
 ## -parameters

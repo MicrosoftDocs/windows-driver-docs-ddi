@@ -7,8 +7,8 @@ old-location: audio\ioctl_bthhfp_speaker_get_volume_status_update.htm
 old-project: audio
 ms.assetid: CE122D3F-CD8F-47F5-88E0-AB0140A8DE1E
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE, IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_speaker_get_volume_status_update, bthhfpddi/IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE
+ms.date: 4/16/2018
+ms.keywords: IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE, IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE control, IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_speaker_get_volume_status_update, bthhfpddi/IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Bthhfpddi.h
 api_name:
 -	IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
+req.typenames: 
 ---
 
 # IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE IOCTL
@@ -116,7 +117,6 @@ The request’s output parameter is the same as the <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537309">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
 
 
 
@@ -132,8 +132,8 @@ The request’s output parameter is the same as the <a href="https://msdn.micros
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537309">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
  
 
  
-
 

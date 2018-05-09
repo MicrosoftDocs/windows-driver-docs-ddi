@@ -7,8 +7,8 @@ old-location: display\d3dkmtcreatecontext.htm
 old-project: display
 ms.assetid: e30fd034-1268-45bf-bc9c-df33e642fd4e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3DKMTCreateContext, D3DKMTCreateContext callback function [Display Devices], OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, PFND3DKMT_CREATECONTEXT, d3dkmthk/D3DKMTCreateContext, display.d3dkmtcreatecontext
+ms.date: 4/16/2018
+ms.keywords: D3DKMTCreateContext, D3DKMTCreateContext callback function [Display Devices], OpenGL_Functions_ee92f6d8-b9af-4171-a628-e686f190a370.xml, PFND3DKMT_CREATECONTEXT, PFND3DKMT_CREATECONTEXT callback, d3dkmthk/D3DKMTCreateContext, display.d3dkmtcreatecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -38,9 +38,10 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTCreateContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTCreateContext function
@@ -52,26 +53,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTCreateContext</b> function creates a kernel-mode device context.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTCreateContext(
-  _Inout_ D3DKMT_CREATECONTEXT *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createcontext.md">D3DKMT_CREATECONTEXT</a> structure that describes the kernel-mode device context.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547810">D3DKMT_CREATECONTEXT</a> structure that describes the kernel-mode device context.
 
 
 ## -returns
@@ -126,7 +122,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546814">D3DKMTCreateContext</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -140,12 +136,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createcontext.md">D3DKMT_CREATECONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547810">D3DKMT_CREATECONTEXT</a>
  
 
  
-
 

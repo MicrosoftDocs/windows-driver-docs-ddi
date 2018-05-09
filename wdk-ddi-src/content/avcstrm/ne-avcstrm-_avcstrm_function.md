@@ -7,7 +7,7 @@ old-location: stream\avcstrm_function.htm
 old-project: stream
 ms.assetid: 0dacc4b0-003f-4c73-8705-1c1e86ce357c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVCSTRM_ABORT_STREAMING, AVCSTRM_CLOSE, AVCSTRM_FUNCTION, AVCSTRM_FUNCTION enumeration [Streaming Media Devices], AVCSTRM_GET_PROPERTY, AVCSTRM_GET_STATE, AVCSTRM_OPEN, AVCSTRM_READ, AVCSTRM_SET_PROPERTY, AVCSTRM_SET_STATE, AVCSTRM_WRITE, _AVCSTRM_FUNCTION, avcsref_19b1714d-e3a3-40b8-8dd8-fb17ecb2e777.xml, avcstrm/AVCSTRM_ABORT_STREAMING, avcstrm/AVCSTRM_CLOSE, avcstrm/AVCSTRM_FUNCTION, avcstrm/AVCSTRM_GET_PROPERTY, avcstrm/AVCSTRM_GET_STATE, avcstrm/AVCSTRM_OPEN, avcstrm/AVCSTRM_READ, avcstrm/AVCSTRM_SET_PROPERTY, avcstrm/AVCSTRM_SET_STATE, avcstrm/AVCSTRM_WRITE, stream.avcstrm_function
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	AVCSTRM_FUNCTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCSTRM_FUNCTION
 ---
@@ -50,24 +51,6 @@ req.typenames: AVCSTRM_FUNCTION
 
 
 The AVCSTRM_FUNCTION enumeration defines the functionality exposed by the <i>avcstrm.sys</i> driver.
-
-
-## -syntax
-
-
-````
-typedef enum _AVCSTRM_FUNCTION { 
-  AVCSTRM_READ             = 0,
-  AVCSTRM_WRITE            = 1,
-  AVCSTRM_ABORT_STREAMING  = 2,
-  AVCSTRM_OPEN             = 0x100,
-  AVCSTRM_CLOSE            = 0x101,
-  AVCSTRM_GET_STATE        = 0x102,
-  AVCSTRM_SET_STATE        = 0x103,
-  AVCSTRM_GET_PROPERTY     = 0x104,
-  AVCSTRM_SET_PROPERTY     = 0x105
-} AVCSTRM_FUNCTION;
-````
 
 
 ## -enum-fields
@@ -87,7 +70,7 @@ Write data to a stream.
 
 ### -field AVCSTRM_ABORT_STREAMING
 
-Abort streaming. This cancels <i>all</i> streaming IRPs. To cancel an individual IRP, use <a href="..\wdm\nf-wdm-iocancelirp.md">IoCancelIrp</a>.
+Abort streaming. This cancels <i>all</i> streaming IRPs. To cancel an individual IRP, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff548338">IoCancelIrp</a>.
 
 
 ### -field AVCSTRM_OPEN
@@ -122,19 +105,6 @@ Set stream property. This function is not implemented.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
 
 
 
@@ -142,15 +112,7 @@ Set stream property. This function is not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
 
 
 
@@ -158,8 +120,28 @@ Set stream property. This function is not implemented.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
  
 
  
-
 

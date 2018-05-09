@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 7d0231b3-4db7-47b3-8208-70d2cd337005
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: IOCTL_POINT_OF_SERVICE_GET_PROPERTY, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY, pos.ioctl_point_of_service_get_property
+ms.keywords: IOCTL_POINT_OF_SERVICE_GET_PROPERTY, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY, pos.ioctl_point_of_service_get_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_GET_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PosPropertyId
+req.typenames: 
 ---
 
 # IOCTL_POINT_OF_SERVICE_GET_PROPERTY IOCTL
@@ -59,7 +60,7 @@ This I/O control function returns the value of the specified property from the d
 
 ### -input-buffer
 
-Pointer to a buffer that contains the <a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_pospropertyid.md">PosPropertyId</a> for the property you want to get.
+Pointer to a buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772239">PosPropertyId</a> for the property you want to get.
 
 
 ### -input-buffer-length

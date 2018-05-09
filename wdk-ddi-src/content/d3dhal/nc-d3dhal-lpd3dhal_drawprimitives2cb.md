@@ -7,8 +7,8 @@ old-location: display\d3ddrawprimitives2.htm
 old-project: display
 ms.assetid: 6128ff7a-0d2c-48df-8b5e-cab33c5a74f5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3dDrawPrimitives2, D3dDrawPrimitives2 callback function [Display Devices], LPD3DHAL_DRAWPRIMITIVES2CB, d3dfncs_5f3743b4-be3f-4216-883a-af5103a38c7a.xml, d3dhal/D3dDrawPrimitives2, display.d3ddrawprimitives2
+ms.date: 4/16/2018
+ms.keywords: D3dDrawPrimitives2, D3dDrawPrimitives2 callback function [Display Devices], LPD3DHAL_DRAWPRIMITIVES2CB, LPD3DHAL_DRAWPRIMITIVES2CB callback, d3dfncs_5f3743b4-be3f-4216-883a-af5103a38c7a.xml, d3dhal/D3dDrawPrimitives2, display.d3ddrawprimitives2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3dDrawPrimitives2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS
+req.typenames: 
 ---
 
-# LPD3DHAL_DRAWPRIMITIVES2CB callback
+# LPD3DHAL_DRAWPRIMITIVES2CB callback function
 
 
 ## -description
@@ -52,25 +53,12 @@ req.typenames: D3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS
 The <b>D3dDrawPrimitives2</b> function renders primitives and returns the updated render state.
 
 
-## -prototype
-
-
-````
-LPD3DHAL_DRAWPRIMITIVES2CB D3dDrawPrimitives2;
-
-DWORD APIENTRY D3dDrawPrimitives2(
-  _In_ LPD3DHAL_DRAWPRIMITIVES2DATA pdp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param LPD3DHAL_DRAWPRIMITIVES2DATA
+### -param Arg1
 
 
 
@@ -81,7 +69,7 @@ DWORD APIENTRY D3dDrawPrimitives2(
 
 #### - pdp [in]
 
-Points to a <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a> structure that contains the information required for the driver to render one or more primitives.
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a> structure that contains the information required for the driver to render one or more primitives.
 
 
 ## -returns
@@ -111,7 +99,7 @@ Check that a flip to the drawing surface associated with the context is not in p
 
 </li>
 <li>
-Determine the location of the first <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure by adding the number of bytes in the <b>dwCommandOffset</b> member of D3DHAL_DRAWPRIMITIVES2DATA to the command buffer to which the <b>lpDDCommands</b> member of D3DHAL_DRAWPRIMITIVES2DATA points.
+Determine the location of the first <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure by adding the number of bytes in the <b>dwCommandOffset</b> member of D3DHAL_DRAWPRIMITIVES2DATA to the command buffer to which the <b>lpDDCommands</b> member of D3DHAL_DRAWPRIMITIVES2DATA points.
 
 </li>
 <li>
@@ -125,10 +113,10 @@ Determine the location of the first vertex in the vertex buffer. This should onl
 </ul>
 </li>
 <li>Process all of the commands in the command buffer sequentially. For each D3DHAL_DP2COMMAND structure, the driver should do the following:<ul>
-<li>If the command is D3DDP2OP_RENDERSTATE, process the <b>wStateCount </b><a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2renderstate.md">D3DHAL_DP2RENDERSTATE</a> structures that follow in the command buffer, updating the driver state for each render state structure. When the D3DHALDP2_EXECUTEBUFFER flag is set, the driver should also reflect the state change in the array that <b>lpdwRStates</b> points to. <b>wStateCount </b> and <b>lpdwRStates</b> are members of D3DHAL_DRAWPRIMITIVES2DATA.</li>
-<li>If the command is D3DDP2OP_TEXTURESTAGESTATE, process the <b>wStateCount </b><a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2texturestagestate.md">D3DHAL_DP2TEXTURESTAGESTATE</a> structures that follow in the command buffer, updating the driver's texture state associated with the specified texture stage for each texture state structure.</li>
-<li>If the command is D3DDP2OP_VIEWPORTINFO, process the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2viewportinfo.md">D3DHAL_DP2VIEWPORTINFO</a> structure that follows in the command buffer, updating the viewport information stored in the driver's internal rendering context.</li>
-<li>If the command is D3DDP2OP_WINFO, process the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2winfo.md">D3DHAL_DP2WINFO</a> structure that follows in the command buffer, updating the w-buffering information stored in the driver's internal rendering context.</li>
+<li>If the command is D3DDP2OP_RENDERSTATE, process the <b>wStateCount </b><a href="https://msdn.microsoft.com/library/windows/hardware/ff545705">D3DHAL_DP2RENDERSTATE</a> structures that follow in the command buffer, updating the driver state for each render state structure. When the D3DHALDP2_EXECUTEBUFFER flag is set, the driver should also reflect the state change in the array that <b>lpdwRStates</b> points to. <b>wStateCount </b> and <b>lpdwRStates</b> are members of D3DHAL_DRAWPRIMITIVES2DATA.</li>
+<li>If the command is D3DDP2OP_TEXTURESTAGESTATE, process the <b>wStateCount </b><a href="https://msdn.microsoft.com/library/windows/hardware/ff545878">D3DHAL_DP2TEXTURESTAGESTATE</a> structures that follow in the command buffer, updating the driver's texture state associated with the specified texture stage for each texture state structure.</li>
+<li>If the command is D3DDP2OP_VIEWPORTINFO, process the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545936">D3DHAL_DP2VIEWPORTINFO</a> structure that follows in the command buffer, updating the viewport information stored in the driver's internal rendering context.</li>
+<li>If the command is D3DDP2OP_WINFO, process the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545944">D3DHAL_DP2WINFO</a> structure that follows in the command buffer, updating the w-buffering information stored in the driver's internal rendering context.</li>
 <li>Otherwise, process the D3DHAL_DP2<i>Xxx</i> primitive structures that follow the D3DDP2OP_<i>Xxx</i> primitive rendering command in the command buffer.</li>
 <li>If the command is unknown, call the runtime's <b>D3dParseUnknownCommand</b> callback. The runtime provides this callback to the driver's <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a> callback with the GUID_D3DParseUnknownCommandCallback GUID. </li>
 </ul>
@@ -218,56 +206,55 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBU
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglelist.md">D3DHAL_DP2INDEXEDTRIANGLELIST</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2points.md">D3DHAL_DP2POINTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545579">D3DHAL_DP2INDEXEDLINELIST</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2linestrip.md">D3DHAL_DP2LINESTRIP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545593">D3DHAL_DP2INDEXEDLINESTRIP</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglestrip.md">D3DHAL_DP2TRIANGLESTRIP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545602">D3DHAL_DP2INDEXEDTRIANGLEFAN</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglelist.md">D3DHAL_DP2TRIANGLELIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545612">D3DHAL_DP2INDEXEDTRIANGLELIST</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedlinestrip.md">D3DHAL_DP2INDEXEDLINESTRIP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545628">D3DHAL_DP2INDEXEDTRIANGLESTRIP</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglefan.md">D3DHAL_DP2INDEXEDTRIANGLEFAN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545646">D3DHAL_DP2LINELIST</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedlinelist.md">D3DHAL_DP2INDEXEDLINELIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545660">D3DHAL_DP2LINESTRIP</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2linelist.md">D3DHAL_DP2LINELIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545696">D3DHAL_DP2POINTS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545896">D3DHAL_DP2TRIANGLEFAN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545911">D3DHAL_DP2TRIANGLELIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545916">D3DHAL_DP2TRIANGLESTRIP</a>
 
 
 
 <a href="https://msdn.microsoft.com/206f4275-bcb8-4e8e-9c11-c6fb5d9c561d">FVF</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedtrianglestrip.md">D3DHAL_DP2INDEXEDTRIANGLESTRIP</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglefan.md">D3DHAL_DP2TRIANGLEFAN</a>
-
-
-
  
 
  
-
 

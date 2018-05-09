@@ -7,7 +7,7 @@ old-location: display\dxgkarg_describeallocation.htm
 old-project: display
 ms.assetid: fd01ff3b-83b7-43d5-bbc6-6959485edd15
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*INOUT_PDXGKARG_DESCRIBEALLOCATION, DXGKARG_DESCRIBEALLOCATION, DXGKARG_DESCRIBEALLOCATION structure [Display Devices], DmStructs_73e3d53a-788b-4c88-980c-df0d2038694f.xml, _DXGKARG_DESCRIBEALLOCATION, d3dkmddi/DXGKARG_DESCRIBEALLOCATION, display.dxgkarg_describeallocation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_DESCRIBEALLOCATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_DESCRIBEALLOCATION
 ---
@@ -52,26 +53,6 @@ req.typenames: DXGKARG_DESCRIBEALLOCATION
 The DXGKARG_DESCRIBEALLOCATION structure describes an existing allocation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_DESCRIBEALLOCATION {
-  HANDLE                       hAllocation;
-  UINT                         Width;
-  UINT                         Height;
-  D3DDDIFORMAT                 Format;
-  D3DDDI_MULTISAMPLINGMETHOD   MultisampleMethod;
-  D3DDDI_RATIONAL              RefreshRate;
-  UINT                         PrivateDriverFormatAttribute;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-  DXGK_DESCRIBEALLOCATIONFLAGS Flags;
-  D3DDDI_ROTATION              Rotation;
-#endif 
-} DXGKARG_DESCRIBEALLOCATION;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +60,7 @@ typedef struct _DXGKARG_DESCRIBEALLOCATION {
 
 ### -field hAllocation
 
-[in] A handle to an allocation that information is requested for. The driver previously returned this handle in the <b>hAllocation</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a> structure from a call to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function.
+[in] A handle to an allocation that information is requested for. The driver previously returned this handle in the <b>hAllocation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a> structure from a call to the driver's <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> function.
 
 
 ### -field Width
@@ -94,17 +75,17 @@ typedef struct _DXGKARG_DESCRIBEALLOCATION {
 
 ### -field Format
 
-[out] A <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation. The driver returns the format value.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation. The driver returns the format value.
 
 
 ### -field MultisampleMethod
 
-[out] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a> structure that describes the multiple-sampling method that is used for the allocation. The driver returns the description.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544594">D3DDDI_MULTISAMPLINGMETHOD</a> structure that describes the multiple-sampling method that is used for the allocation. The driver returns the description.
 
 
 ### -field RefreshRate
 
-[out] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a> structure that indicates the refresh rate that the primary surface was created with, if applicable.
+[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544641">D3DDDI_RATIONAL</a> structure that indicates the refresh rate that the primary surface was created with, if applicable.
 
 
 ### -field PrivateDriverFormatAttribute
@@ -130,40 +111,39 @@ Supported starting with Windows 8.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_describeallocationflags.md">DXGK_DESCRIBEALLOCATIONFLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544594">D3DDDI_MULTISAMPLINGMETHOD</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_describeallocation.md">DxgkDdiDescribeAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544641">D3DDDI_RATIONAL</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544646">D3DDDI_ROTATION</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560960">DXGK_ALLOCATIONINFO</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464013">DXGK_DESCRIBEALLOCATIONFLAGS</a>
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a>
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/8ee65716-496c-4b0f-baa7-34a625847d5f">DxgkDdiDescribeAllocation</a>
  
 
  
-
 

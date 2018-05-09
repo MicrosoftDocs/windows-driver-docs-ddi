@@ -7,7 +7,7 @@ old-location: storage\sm_sendecho_out.htm
 old-project: storage
 ms.assetid: b3f948e0-4066-487c-aaa9-de29c0023f10
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_SendECHO_OUT, PSM_SendECHO_OUT, PSM_SendECHO_OUT structure pointer [Storage Devices], SM_SendECHO_OUT, SM_SendECHO_OUT structure [Storage Devices], _SM_SendECHO_OUT, hbapiwmi/PSM_SendECHO_OUT, hbapiwmi/SM_SendECHO_OUT, storage.sm_sendecho_out, structs-Fibre_54c4b9c6-e7c1-4125-9e76-0c3e271f5dea.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_SendECHO_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_SendECHO_OUT, *PSM_SendECHO_OUT
 ---
@@ -50,18 +51,6 @@ req.typenames: SM_SendECHO_OUT, *PSM_SendECHO_OUT
 
 
 The SM_SendECHO_OUT structure is used to receive output parameters from the SM_SendECHO method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_SendECHO_OUT {
-  ULONG HBAStatus;
-  ULONG OutRespBufferSize;
-  UCHAR RespBuffer[1];
-} SM_SendECHO_OUT, *PSM_SendECHO_OUT;
-````
 
 
 ## -struct-fields

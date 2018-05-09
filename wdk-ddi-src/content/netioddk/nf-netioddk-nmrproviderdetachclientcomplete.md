@@ -7,7 +7,7 @@ old-location: netvista\nmrproviderdetachclientcomplete.htm
 old-project: netvista
 ms.assetid: a52b3cfc-d6bd-4569-8b09-36dce65d017f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NmrProviderDetachClientComplete, NmrProviderDetachClientComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrProviderDetachClientComplete, netvista.nmrproviderdetachclientcomplete, nmrref_c86f4d4f-b54f-4e31-b683-f692ff7ed1ba.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	netio.dll
 api_name:
 -	NmrProviderDetachClientComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
+req.typenames: 
 ---
 
 # NmrProviderDetachClientComplete function
@@ -55,16 +56,6 @@ The
   detaching from a client module.
 
 
-## -syntax
-
-
-````
-VOID NmrProviderDetachClientComplete(
-  _In_ HANDLE NmrBindingHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +65,7 @@ VOID NmrProviderDetachClientComplete(
 
 A handle used by the NMR to represent the binding between the client module and the provider
      module. The NMR passes this handle to the provider module when it calls the provider module's 
-     <a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a> callback
+     <a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a> callback
      function.
 
 
@@ -94,12 +85,12 @@ None
 A provider module calls the 
     <b>NmrProviderDetachClientComplete</b> function when it asynchronously completes detaching from a client
     module after returning STATUS_PENDING from its 
-    <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a> callback
+    <a href="https://msdn.microsoft.com/0f29bf89-856c-4019-a966-3e666a7fc78d">ProviderDetachClient</a> callback
     function.
 
 A provider module should not call the 
     <b>NmrProviderDetachClientComplete</b> function if it returns STATUS_SUCCESS from its 
-    <a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a> callback
+    <a href="https://msdn.microsoft.com/0f29bf89-856c-4019-a966-3e666a7fc78d">ProviderDetachClient</a> callback
     function.
 
 
@@ -107,16 +98,15 @@ A provider module should not call the
 
 ## -see-also
 
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+<a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/0f29bf89-856c-4019-a966-3e666a7fc78d">ProviderDetachClient</a>
  
 
  
-
 

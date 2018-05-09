@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceFileLineOffsetsWide
-title: IDebugSymbols3::GetSourceFileLineOffsetsWide method
+title: IDebugSymbols3::GetSourceFileLineOffsetsWide
 author: windows-driver-content
 description: The GetSourceFileLineOffsetsWide method maps each line in a source file to a location in the target's memory.
 old-location: debugger\getsourcefilelineoffsetswide.htm
 old-project: debugger
 ms.assetid: f774dde1-3498-423b-bf09-239d3d3421b4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetSourceFileLineOffsetsWide method [Windows Debugging], GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3 interface, GetSourceFileLineOffsetsWide,IDebugSymbols3.GetSourceFileLineOffsetsWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsetsWide method, IDebugSymbols3::GetSourceFileLineOffsetsWide, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, debugger.getsourcefilelineoffsetswide
+ms.date: 4/24/2018
+ms.keywords: GetSourceFileLineOffsetsWide, GetSourceFileLineOffsetsWide method [Windows Debugging], GetSourceFileLineOffsetsWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceFileLineOffsetsWide method, IDebugSymbols3.GetSourceFileLineOffsetsWide, IDebugSymbols3::GetSourceFileLineOffsetsWide, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, debugger.getsourcefilelineoffsetswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetSourceFileLineOffsetsWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSourceFileLineOffsetsWide method
+# IDebugSymbols3::GetSourceFileLineOffsetsWide
 
 
 ## -description
 
 
 The <b>GetSourceFileLineOffsetsWide</b>  method maps each line in a source file to a location in the target's memory.
-
-
-## -syntax
-
-
-````
-HRESULT GetSourceFileLineOffsetsWide(
-  [in]            PCWSTR   File,
-  [out, optional] PULONG64 Buffer,
-  [in]            ULONG    BufferLines,
-  [out, optional] PULONG   FileLines
-);
-````
 
 
 ## -parameters
@@ -140,11 +128,6 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
 
 
 
@@ -152,8 +135,12 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: spb\spbrequestgetparameters.htm
 old-project: SPB
 ms.assetid: 676C28C4-E6F3-4190-927B-67D5618F5645
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbrequestgetparameters, SpbRequestGetParameters, SpbRequestGetParameters method [Buses], spbcx/SpbRequestGetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	spbcxstubs.dll
 api_name:
 -	SpbRequestGetParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpbRequestGetParameters function
@@ -52,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SpbRequestGetParameters</b> method retrieves a set of SPB-specific parameter values from an I/O request.
-
-
-## -syntax
-
-
-````
-VOID SpbRequestGetParameters(
-  _In_  SPBREQUEST             SpbRequest,
-  _Out_ SPB_REQUEST_PARAMETERS *Parameters
-);
-````
 
 
 ## -parameters
@@ -93,7 +82,7 @@ None.
 
 
 
-<b>SpbRequestGetParameters</b> is similar to the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a> method, but retrieves only SPB-specific information. Your SPB controller driver can call  <b>SpbRequestGetParameters</b> to retrieve SPB-specific information from I/O requests that it receives from the SPB framework extension (SpbCx). The SPB controller driver can call <b>WdfRequestGetParameters</b> to retrieve the generic request parameters from I/O requests that it receives.
+<b>SpbRequestGetParameters</b> is similar to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549969">WdfRequestGetParameters</a> method, but retrieves only SPB-specific information. Your SPB controller driver can call  <b>SpbRequestGetParameters</b> to retrieve SPB-specific information from I/O requests that it receives from the SPB framework extension (SpbCx). The SPB controller driver can call <b>WdfRequestGetParameters</b> to retrieve the generic request parameters from I/O requests that it receives.
 
 
 #### Examples
@@ -121,11 +110,6 @@ SpbRequestGetParameters(spbRequest, &amp;parameters);
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406210">SPB_REQUEST_PARAMETERS_INIT</a>
-
-
-
-<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
 
 
 
@@ -133,12 +117,16 @@ SpbRequestGetParameters(spbRequest, &amp;parameters);
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406210">SPB_REQUEST_PARAMETERS_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549969">WdfRequestGetParameters</a>
  
 
  
-
 

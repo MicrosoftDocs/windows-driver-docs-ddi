@@ -7,7 +7,7 @@ old-location: storage\storportinitializedpc.htm
 old-project: storage
 ms.assetid: 0a67304f-c746-46c1-87c4-5d027219e41f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInitializeDpc, StorPortInitializeDpc routine [Storage Devices], storage.storportinitializedpc, storport/StorPortInitializeDpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortInitializeDpc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortInitializeDpc function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortInitializeDpc</b> routine initializes a StorPort DPC. 
-
-
-## -syntax
-
-
-````
-VOID StorPortInitializeDpc(
-  _In_  PVOID           DeviceExtension,
-  _Out_ PSTOR_DPC       Dpc,
-  _In_  PHW_DPC_ROUTINE HwDpcRoutine
-);
-````
 
 
 ## -parameters
@@ -77,7 +65,7 @@ Pointer to the per-adapter device extension.
 
 ### -param Dpc [out]
 
-Pointer to a buffer where a DPC object of type <a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a> will be created. The caller must ensure that the size in bytes of this buffer is greater than or equal to <b>sizeof</b>(STOR_DPC). 
+Pointer to a buffer where a DPC object of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567579">STOR_DPC</a> will be created. The caller must ensure that the size in bytes of this buffer is greater than or equal to <b>sizeof</b>(STOR_DPC). 
 
 
 ### -param HwDpcRoutine [in]
@@ -115,7 +103,7 @@ None.
 
 
 
-The <b>StorPortInitializeDpc</b> routine must be called during HBA initialization from within the miniport driver's <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a> routine. 
+The <b>StorPortInitializeDpc</b> routine must be called during HBA initialization from within the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557407">HwStorPassiveInitializeRoutine</a> routine. 
 
 This routine is implemented using inline function definitions, so that miniport drivers that use this routine will not have to link to libraries that are dependent on the version of the operating system. Miniport drivers can use this routine without sacrificing backward compatibility with versions of the operating system that do not support DPCs in storage miniport drivers. 
 
@@ -124,16 +112,15 @@ This routine is implemented using inline function definitions, so that miniport 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
 
 
 
-<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557407">HwStorPassiveInitializeRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567579">STOR_DPC</a>
  
 
  
-
 

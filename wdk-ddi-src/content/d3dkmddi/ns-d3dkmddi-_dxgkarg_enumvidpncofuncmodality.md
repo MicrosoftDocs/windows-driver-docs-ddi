@@ -7,7 +7,7 @@ old-location: display\dxgkarg_enumvidpncofuncmodality.htm
 old-project: display
 ms.assetid: a67c9e20-68bf-45d5-bbf0-d324643b2a5d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices], DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml, _DXGKARG_ENUMVIDPNCOFUNCMODALITY, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, display.dxgkarg_enumvidpncofuncmodality
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_ENUMVIDPNCOFUNCMODALITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_ENUMVIDPNCOFUNCMODALITY
 ---
@@ -49,19 +50,7 @@ req.typenames: DXGKARG_ENUMVIDPNCOFUNCMODALITY
 ## -description
 
 
-The DXGKARG_ENUMVIDPNCOFUNCMODALITY structure contains arguments for the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a> function. The <i>DxgkDdiEnumVidPnCofuncModality</i> function makes the source and target mode sets of a VidPN cofunctional with the VidPN's topology and the modes that have already been pinned.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_ENUMVIDPNCOFUNCMODALITY {
-  D3DKMDT_HVIDPN                        hConstrainingVidPn;
-  D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE EnumPivotType;
-  DXGK_ENUM_PIVOT                       EnumPivot;
-} DXGKARG_ENUMVIDPNCOFUNCMODALITY;
-````
+The DXGKARG_ENUMVIDPNCOFUNCMODALITY structure contains arguments for the <a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a> function. The <i>DxgkDdiEnumVidPnCofuncModality</i> function makes the source and target mode sets of a VidPN cofunctional with the VidPN's topology and the modes that have already been pinned.
 
 
 ## -struct-fields
@@ -76,12 +65,12 @@ A handle to the VidPn object for which the cofunctional modes are being requeste
 
 ### -field EnumPivotType
 
-A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_enumcofuncmodality_pivot_type.md">D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE</a> enumerator that supplies the enumeration pivot type.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546003">D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE</a> enumerator that supplies the enumeration pivot type.
 
 
 ### -field EnumPivot
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enum_pivot.md">DXGK_ENUM_PIVOT</a> structure.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561064">DXGK_ENUM_PIVOT</a> structure.
 
 
 ## -remarks
@@ -97,20 +86,19 @@ The D3DKMDT_HVIDPN data type is defined in <i>D3dkmdt.h</i>. The D3DDDI_VIDEO_PR
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality.md">DxgkDdiEnumVidPnCofuncModality</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enum_pivot.md">DXGK_ENUM_PIVOT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546003">D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE</a>
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_enumcofuncmodality_pivot_type.md">D3DKMDT_ENUMCOFUNCMODALITY_PIVOT_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561064">DXGK_ENUM_PIVOT</a>
 
 
 
+<a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a>
  
 
  
-
 

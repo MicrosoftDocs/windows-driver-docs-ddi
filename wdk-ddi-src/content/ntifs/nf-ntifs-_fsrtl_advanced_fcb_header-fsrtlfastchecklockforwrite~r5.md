@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlfastchecklockforwrite.htm
 old-project: ifsk
 ms.assetid: 4b4295dd-0d4b-4d41-a2ca-f09fe2d8d8b2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlFastCheckLockForWrite, FsRtlFastCheckLockForWrite routine [Installable File System Drivers], fsrtlref_1f8feaa8-cc2d-47fb-af4a-00ef0efb4190.xml, ifsk.fsrtlfastchecklockforwrite, ntifs/FsRtlFastCheckLockForWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlFastCheckLockForWrite
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -52,21 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlFastCheckLockForWrite</b> routine determines whether the specified process has write access to a locked byte range of a file.
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlFastCheckLockForWrite(
-  _In_ PFILE_LOCK     FileLock,
-  _In_ PLARGE_INTEGER StartingByte,
-  _In_ PLARGE_INTEGER Length,
-  _In_ ULONG          Key,
-  _In_ PVOID          FileObject,
-  _In_ PVOID          ProcessId
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ BOOLEAN FsRtlFastCheckLockForWrite(
 
 ### -param FileLock [in]
 
-A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
+A pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>.
 
 
 ### -param StartingByte [in]
@@ -106,27 +92,26 @@ A pointer to the process ID for the process.
 
 
 
-The <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread~r5.md">FsRtlFastCheckLockForWrite</a> routine returns <b>TRUE</b> if the specified process has write access, <b>FALSE</b> otherwise.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545928">FsRtlFastCheckLockForWrite</a> routine returns <b>TRUE</b> if the specified process has write access, <b>FALSE</b> otherwise.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfastchecklockforread~r5.md">FsRtlFastCheckLockForRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545918">FsRtlFastCheckLockForRead</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>
  
 
  
-
 

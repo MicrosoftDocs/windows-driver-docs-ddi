@@ -38,9 +38,10 @@ api_location:
 -	Pshed.dll
 api_name:
 -	PshedFreeMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # PshedFreeMemory function
@@ -49,17 +50,7 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>PshedFreeMemory</b> function frees a block of memory that was previously allocated by calling the <a href="..\ntddk\nf-ntddk-pshedallocatememory.md">PshedAllocateMemory</a> function.
-
-
-## -syntax
-
-
-````
-VOID PshedFreeMemory(
-  _In_ PVOID Address
-);
-````
+The <b>PshedFreeMemory</b> function frees a block of memory that was previously allocated by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559461">PshedAllocateMemory</a> function.
 
 
 ## -parameters
@@ -85,19 +76,18 @@ None
 
 
 
-A PSHED plug-in calls the <b>PshedFreeMemory</b> function to free a block of memory that it previously allocated by calling the <a href="..\ntddk\nf-ntddk-pshedallocatememory.md">PshedAllocateMemory</a> function.
+A PSHED plug-in calls the <b>PshedFreeMemory</b> function to free a block of memory that it previously allocated by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559461">PshedAllocateMemory</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pshedallocatememory.md">PshedAllocateMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559461">PshedAllocateMemory</a>
  
 
  
-
 

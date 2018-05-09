@@ -7,7 +7,7 @@ old-location: stream\avstrminipinpower.htm
 old-project: stream
 ms.assetid: 6362ca08-cf8d-4e54-b144-10b2252f05c5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniPinPower, AVStrMiniPinPower routine [Streaming Media Devices], PFNKSPINPOWER, avstclbk_fd047ae3-b574-4dad-a16b-2152193fb2cd.xml, ks/AVStrMiniPinPower, stream.avstrminipinpower
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,32 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	AVStrMiniPinPower
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSPINPOWER callback
+# PFNKSPINPOWER callback function
 
 
 ## -description
 
 
 An AVStream minidriver's <i>AVStrMiniPinPower</i> routine is called for pin-centric pins when the device is waking or entering a sleep state.
-
-
-## -prototype
-
-
-````
-PFNKSPINPOWER AVStrMiniPinPower;
-
-void AVStrMiniPinPower(
-  _In_ PKSPIN             Pin,
-  _In_ DEVICE_POWER_STATE State
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ void AVStrMiniPinPower(
 
 ### -param Pin [in]
 
-Points to a pin-centric <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to register the callback.
+Points to a pin-centric <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure for which to register the callback.
 
 
 ### -param State [in]
@@ -96,23 +83,22 @@ None
 
 <div class="alert"><b>Warning</b>  Do not attempt to obtain the filter control mutex from within either the Sleep or Wake callback. Doing so induces a risk of deadlock. For more information about mutexes, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.</div>
 <div> </div>
-The minidriver specifies an address for routines of this type in the <i>Sleep </i>and/or <i>Wake </i>parameters of the <a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a> routine.
+The minidriver specifies an address for routines of this type in the <i>Sleep </i>and/or <i>Wake </i>parameters of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563525">KsPinRegisterPowerCallbacks</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfilterregisterpowercallbacks.md">KsFilterRegisterPowerCallbacks</a>
 
 
 
-<a href="..\ks\nf-ks-kspinregisterpowercallbacks.md">KsPinRegisterPowerCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562550">KsFilterRegisterPowerCallbacks</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563525">KsPinRegisterPowerCallbacks</a>
  
 
  
-
 

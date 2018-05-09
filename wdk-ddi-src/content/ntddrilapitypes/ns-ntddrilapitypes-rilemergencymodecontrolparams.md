@@ -7,7 +7,7 @@ old-location: netvista\rilemergencymodecontrolparams.htm
 old-project: netvista
 ms.assetid: b25ecc96-1ed2-4d8f-8dc8-0fafe58eca24
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilemergencymodecontrolparams, ntddrilapitypes/RILEMERGENCYMODECONTROLPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILEMERGENCYMODECONTROLPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILEMERGENCYMODECONTROLPARAMS, *LPRILEMERGENCYMODECONTROLPARAMS
 ---
@@ -50,17 +51,6 @@ req.typenames: RILEMERGENCYMODECONTROLPARAMS, *LPRILEMERGENCYMODECONTROLPARAMS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILEMERGENCYMODECONTROLPARAMS {
-  DWORD                                 dwExecutor;
-  RILEMERGENCYMODECONTROLPARAMSCONTROL  dwEmergencyModeControl;
-} RILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS;
-````
 
 
 ## -struct-fields

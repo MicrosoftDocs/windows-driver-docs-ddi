@@ -7,7 +7,7 @@ old-location: display\d3dkmtdestroykeyedmutex.htm
 old-project: display
 ms.assetid: 5905035f-25e1-49df-bf59-bef81e724c49
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTDestroyKeyedMutex, D3DKMTDestroyKeyedMutex function [Display Devices], OpenGL_Functions_de5400f1-6ef8-431c-a838-8c82cb03d7f1.xml, d3dkmthk/D3DKMTDestroyKeyedMutex, display.d3dkmtdestroykeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTDestroyKeyedMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTDestroyKeyedMutex function
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTDestroyKeyedMutex</b> function destroys a keyed mutex object.
-
-
-## -syntax
-
-
-````
-NTSTATUS D3DKMTDestroyKeyedMutex(
-  _In_ const D3DKMT_DESTROYKEYEDMUTEX *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroykeyedmutex.md">D3DKMT_DESTROYKEYEDMUTEX</a> structure that specifies the keyed mutex object to destroy. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547885">D3DKMT_DESTROYKEYEDMUTEX</a> structure that specifies the keyed mutex object to destroy. 
 
 
 ## -returns
@@ -125,12 +116,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroykeyedmutex.md">D3DKMT_DESTROYKEYEDMUTEX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547885">D3DKMT_DESTROYKEYEDMUTEX</a>
  
 
  
-
 

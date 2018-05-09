@@ -7,7 +7,7 @@ old-location: ifsk\fltflushbuffers.htm
 old-project: ifsk
 ms.assetid: 269be3a9-7dd8-45e2-8687-99f8ca8f9b8b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml, FltFlushBuffers, FltFlushBuffers routine [Installable File System Drivers], fltkernel/FltFlushBuffers, ifsk.fltflushbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltFlushBuffers
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltFlushBuffers function
@@ -51,17 +52,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>FltFlushBuffers</b> routine is used by the minifilter driver to send a flush request for a given file to the file system. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltFlushBuffers(
-  _In_ PFLT_INSTANCE Instance,
-  _In_ PFILE_OBJECT  FileObject
-);
-````
 
 
 ## -parameters
@@ -129,12 +119,11 @@ A minifilter driver can call <b>FltFlushBuffers</b> to issue an <a href="https:/
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a>
-
-
-
  
 
  
-
 

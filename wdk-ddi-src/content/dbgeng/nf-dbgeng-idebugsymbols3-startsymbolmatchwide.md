@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.StartSymbolMatchWide
-title: IDebugSymbols3::StartSymbolMatchWide method
+title: IDebugSymbols3::StartSymbolMatchWide
 author: windows-driver-content
 description: The StartSymbolMatchWide method initializes a search for symbols whose names match a given pattern.
 old-location: debugger\startsymbolmatchwide.htm
 old-project: debugger
 ms.assetid: dbf8c1a3-cc59-40d7-8355-62891b5b45d2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], StartSymbolMatchWide method, IDebugSymbols3::StartSymbolMatchWide, StartSymbolMatchWide method [Windows Debugging], StartSymbolMatchWide method [Windows Debugging], IDebugSymbols3 interface, StartSymbolMatchWide,IDebugSymbols3.StartSymbolMatchWide, dbgeng/IDebugSymbols3::StartSymbolMatchWide, debugger.startsymbolmatchwide
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols3 interface [Windows Debugging],StartSymbolMatchWide method, IDebugSymbols3.StartSymbolMatchWide, IDebugSymbols3::StartSymbolMatchWide, StartSymbolMatchWide, StartSymbolMatchWide method [Windows Debugging], StartSymbolMatchWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::StartSymbolMatchWide, debugger.startsymbolmatchwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.StartSymbolMatchWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::StartSymbolMatchWide method
+# IDebugSymbols3::StartSymbolMatchWide
 
 
 ## -description
 
 
 The <b>StartSymbolMatchWide</b> method initializes a search for symbols whose names match a given pattern.
-
-
-## -syntax
-
-
-````
-HRESULT StartSymbolMatchWide(
-  [in]  PCWSTR   Pattern,
-  [out] PULONG64 Handle
-);
-````
 
 
 ## -parameters
@@ -130,11 +120,6 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -142,8 +127,12 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

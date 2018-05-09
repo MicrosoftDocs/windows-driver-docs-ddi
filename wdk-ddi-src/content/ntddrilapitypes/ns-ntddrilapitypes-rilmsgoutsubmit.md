@@ -7,7 +7,7 @@ old-location: netvista\rilmsgoutsubmit.htm
 old-project: netvista
 ms.assetid: 83d15e40-b93f-4c7a-bfe4-db939c24b94f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgoutsubmit, ntddrilapitypes/RILMSGOUTSUBMIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGOUTSUBMIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGOUTSUBMIT, *LPRILMSGOUTSUBMIT
 ---
@@ -50,25 +51,6 @@ req.typenames: RILMSGOUTSUBMIT, *LPRILMSGOUTSUBMIT
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILMSGOUTSUBMIT {
-  RILADDRESS               raDestAddress;
-  RILMSGPROTOCOLID         dwProtocolID;
-  RILMSGDCS                rmdDataCoding;
-  RILMSGOUTSUBMITVPFORMAT  dwVPFormat;
-  RILSYSTEMTIME            stVP;
-  DWORD                    dwMsgID;
-  DWORD                    cbHdrLength;
-  DWORD                    cchMsgLength;
-  BYTE [256]               rgbHdr;
-  BYTE [512]               rgbMsg;
-} RILMSGOUTSUBMIT, RILMSGOUTSUBMIT;
-````
 
 
 ## -struct-fields

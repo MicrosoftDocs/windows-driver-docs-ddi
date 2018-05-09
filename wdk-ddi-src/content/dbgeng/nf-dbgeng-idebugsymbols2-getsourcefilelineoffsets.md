@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetSourceFileLineOffsets
-title: IDebugSymbols2::GetSourceFileLineOffsets method
+title: IDebugSymbols2::GetSourceFileLineOffsets
 author: windows-driver-content
 description: The GetSourceFileLineOffsets method maps each line in a source file to a location in the target's memory.
 old-location: debugger\getsourcefilelineoffsets.htm
 old-project: debugger
 ms.assetid: ace9e23a-d7ea-480a-8001-f25310adee22
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetSourceFileLineOffsets method [Windows Debugging], GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols interface, GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols2 interface, GetSourceFileLineOffsets method [Windows Debugging], IDebugSymbols3 interface, GetSourceFileLineOffsets,IDebugSymbols2.GetSourceFileLineOffsets, IDebugSymbols interface [Windows Debugging], GetSourceFileLineOffsets method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetSourceFileLineOffsets method, IDebugSymbols2::GetSourceFileLineOffsets, IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsets method, IDebugSymbols3::GetSourceFileLineOffsets, IDebugSymbols::GetSourceFileLineOffsets, IDebugSymbols_18a64f21-a082-4953-8d69-2b3f7d805c60.xml, dbgeng/IDebugSymbols2::GetSourceFileLineOffsets, dbgeng/IDebugSymbols3::GetSourceFileLineOffsets, dbgeng/IDebugSymbols::GetSourceFileLineOffsets, debugger.getsourcefilelineoffsets
+ms.date: 4/24/2018
+ms.keywords: GetSourceFileLineOffsets, GetSourceFileLineOffsets method [Windows Debugging], GetSourceFileLineOffsets method [Windows Debugging],IDebugSymbols interface, GetSourceFileLineOffsets method [Windows Debugging],IDebugSymbols2 interface, GetSourceFileLineOffsets method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSourceFileLineOffsets method, IDebugSymbols2 interface [Windows Debugging],GetSourceFileLineOffsets method, IDebugSymbols2.GetSourceFileLineOffsets, IDebugSymbols2::GetSourceFileLineOffsets, IDebugSymbols3 interface [Windows Debugging],GetSourceFileLineOffsets method, IDebugSymbols3::GetSourceFileLineOffsets, IDebugSymbols::GetSourceFileLineOffsets, IDebugSymbols_18a64f21-a082-4953-8d69-2b3f7d805c60.xml, dbgeng/IDebugSymbols2::GetSourceFileLineOffsets, dbgeng/IDebugSymbols3::GetSourceFileLineOffsets, dbgeng/IDebugSymbols::GetSourceFileLineOffsets, debugger.getsourcefilelineoffsets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,31 +40,19 @@ api_name:
 -	IDebugSymbols.GetSourceFileLineOffsets
 -	IDebugSymbols2.GetSourceFileLineOffsets
 -	IDebugSymbols3.GetSourceFileLineOffsets
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::GetSourceFileLineOffsets method
+# IDebugSymbols2::GetSourceFileLineOffsets
 
 
 ## -description
 
 
 The <b>GetSourceFileLineOffsets</b>  method maps each line in a source file to a location in the target's memory.
-
-
-## -syntax
-
-
-````
-HRESULT GetSourceFileLineOffsets(
-  [in]            PCSTR    File,
-  [out, optional] PULONG64 Buffer,
-  [in]            ULONG    BufferLines,
-  [out, optional] PULONG   FileLines
-);
-````
 
 
 ## -parameters
@@ -142,19 +130,6 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
@@ -162,8 +137,20 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

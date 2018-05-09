@@ -7,8 +7,8 @@ old-location: storage\ioctl_cdrom_send_opc_information.htm
 old-project: storage
 ms.assetid: 77289AB6-7733-4DA1-B4E9-585AA73D137C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_CDROM_SEND_OPC_INFORMATION, IOCTL_CDROM_SEND_OPC_INFORMATION control code [Storage Devices], ntddcdrm/IOCTL_CDROM_SEND_OPC_INFORMATION, storage.ioctl_cdrom_send_opc_information
+ms.date: 3/29/2018
+ms.keywords: IOCTL_CDROM_SEND_OPC_INFORMATION, IOCTL_CDROM_SEND_OPC_INFORMATION control, IOCTL_CDROM_SEND_OPC_INFORMATION control code [Storage Devices], ntddcdrm/IOCTL_CDROM_SEND_OPC_INFORMATION, storage.ioctl_cdrom_send_opc_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_SEND_OPC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: 
 ---
 
 # IOCTL_CDROM_SEND_OPC_INFORMATION IOCTL
@@ -65,13 +66,13 @@ To perform this operation, call the
 ### -input-buffer
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_simple_opc_info.md">CDROM_SIMPLE_OPC_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441237">CDROM_SIMPLE_OPC_INFO</a>
 
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_simple_opc_info.md">CDROM_SIMPLE_OPC_INFO</a>.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/gg441237">CDROM_SIMPLE_OPC_INFO</a>.
 
 
 ### -output-buffer
@@ -141,11 +142,10 @@ On failures, this IOCTL returns standard errors, such as STATUS_DEVICE_NOT_READY
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_send_opc_information.md">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_simple_opc_info.md">CDROM_SIMPLE_OPC_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441237">CDROM_SIMPLE_OPC_INFO</a>
 
 
 
@@ -153,8 +153,8 @@ On failures, this IOCTL returns standard errors, such as STATUS_DEVICE_NOT_READY
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg441243">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
  
 
  
-
 

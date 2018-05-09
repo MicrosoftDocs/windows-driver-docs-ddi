@@ -7,8 +7,8 @@ old-location: storage\ioctl_changer_get_product_data.htm
 old-project: storage
 ms.assetid: 2e3d0dbd-7d55-4241-9aea-f3474ab49025
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_CHANGER_GET_PRODUCT_DATA, IOCTL_CHANGER_GET_PRODUCT_DATA control code [Storage Devices], k307_a03cd330-a457-4f88-b1e7-2a03ff7651e8.xml, ntddchgr/IOCTL_CHANGER_GET_PRODUCT_DATA, storage.ioctl_changer_get_product_data
+ms.date: 3/29/2018
+ms.keywords: IOCTL_CHANGER_GET_PRODUCT_DATA, IOCTL_CHANGER_GET_PRODUCT_DATA control, IOCTL_CHANGER_GET_PRODUCT_DATA control code [Storage Devices], k307_a03cd330-a457-4f88-b1e7-2a03ff7651e8.xml, ntddchgr/IOCTL_CHANGER_GET_PRODUCT_DATA, storage.ioctl_changer_get_product_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddchgr.h
 api_name:
 -	IOCTL_CHANGER_GET_PRODUCT_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_CHANGER_GET_PRODUCT_DATA IOCTL
@@ -72,7 +73,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="..\ntddchgr\ns-ntddchgr-_changer_product_data.md">CHANGER_PRODUCT_DATA</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551475">CHANGER_PRODUCT_DATA</a> data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -105,16 +106,15 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changergetproductdata.md">ChangerGetProductData</a>
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_product_data.md">CHANGER_PRODUCT_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551475">CHANGER_PRODUCT_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551427">ChangerGetProductData</a>
  
 
  
-
 

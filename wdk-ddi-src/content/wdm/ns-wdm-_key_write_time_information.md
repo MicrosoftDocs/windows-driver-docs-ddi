@@ -7,7 +7,7 @@ old-location: kernel\key_write_time_information.htm
 old-project: kernel
 ms.assetid: 44f68a5a-c7ad-4555-b6b2-6461ac17960a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PKEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_WRITE_TIME_INFORMATION, PKEY_WRITE_TIME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_WRITE_TIME_INFORMATION, kernel.key_write_time_information, kstruct_c_373f0047-919b-44c4-8831-181027ba5f2e.xml, wdm/KEY_WRITE_TIME_INFORMATION, wdm/PKEY_WRITE_TIME_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	KEY_WRITE_TIME_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KEY_WRITE_TIME_INFORMATION, *PKEY_WRITE_TIME_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _KEY_WRITE_TIME_INFORMATION structure
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KEY_WRITE_TIME_INFORMATION</b> structure is used by the system to set the last write time for a registry key.
-
-
-## -syntax
-
-
-````
-typedef struct _KEY_WRITE_TIME_INFORMATION {
-  LARGE_INTEGER LastWriteTime;
-} KEY_WRITE_TIME_INFORMATION, *PKEY_WRITE_TIME_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -75,12 +65,11 @@ Specifies the last time that the key was changed. This time value is expressed i
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_key_set_information_class.md">KEY_SET_INFORMATION_CLASS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553399">KEY_SET_INFORMATION_CLASS</a>
  
 
  
-
 

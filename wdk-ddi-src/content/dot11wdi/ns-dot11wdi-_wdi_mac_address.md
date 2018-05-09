@@ -7,7 +7,7 @@ old-location: netvista\wdi_mac_address.htm
 old-project: netvista
 ms.assetid: e170b797-f8bb-4d3c-a3ee-5fd1a817a500
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWDI_MAC_ADDRESS, PWDI_MAC_ADDRESS, PWDI_MAC_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WDI_MAC_ADDRESS, WDI_MAC_ADDRESS structure [Network Drivers Starting with Windows Vista], _WDI_MAC_ADDRESS, dot11wdi/PWDI_MAC_ADDRESS, dot11wdi/WDI_MAC_ADDRESS, netvista.wdi_mac_address, netvista.wifi_mac_address"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	WDI_MAC_ADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_MAC_ADDRESS, *PWDI_MAC_ADDRESS
 ---
@@ -51,16 +52,6 @@ req.typenames: WDI_MAC_ADDRESS, *PWDI_MAC_ADDRESS
 
 The 
   WDI_MAC_ADDRESS structure defines an IEEE media access control (MAC) address.
-
-
-## -syntax
-
-
-````
-typedef struct _WDI_MAC_ADDRESS {
-  UINT8 Address[6];
-} WDI_MAC_ADDRESS, *PWDI_MAC_ADDRESS;
-````
 
 
 ## -struct-fields

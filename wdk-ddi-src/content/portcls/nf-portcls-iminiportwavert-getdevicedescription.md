@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWaveRT.GetDeviceDescription
-title: IMiniportWaveRT::GetDeviceDescription method
+title: IMiniportWaveRT::GetDeviceDescription
 author: windows-driver-content
 description: The GetDeviceDescription method returns a pointer to a DEVICE_DESCRIPTION structure describing the device.
 old-location: audio\iminiportwavert_getdevicedescription.htm
 old-project: audio
 ms.assetid: c6c0da06-c304-4d2d-907c-ccbb141c385b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetDeviceDescription method [Audio Devices], GetDeviceDescription method [Audio Devices], IMiniportWaveRT interface, GetDeviceDescription,IMiniportWaveRT.GetDeviceDescription, IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], GetDeviceDescription method, IMiniportWaveRT::GetDeviceDescription, audio.iminiportwavert_getdevicedescription, audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, portcls/IMiniportWaveRT::GetDeviceDescription
+ms.date: 4/16/2018
+ms.keywords: GetDeviceDescription, GetDeviceDescription method [Audio Devices], GetDeviceDescription method [Audio Devices],IMiniportWaveRT interface, IMiniportWaveRT interface [Audio Devices],GetDeviceDescription method, IMiniportWaveRT.GetDeviceDescription, IMiniportWaveRT::GetDeviceDescription, audio.iminiportwavert_getdevicedescription, audmp-routines_3a5441ed-a935-42ea-84be-29f1f6b6db07.xml, portcls/IMiniportWaveRT::GetDeviceDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportWaveRT.GetDeviceDescription
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWaveRT::GetDeviceDescription method
+# IMiniportWaveRT::GetDeviceDescription
 
 
 ## -description
 
 
-The <code>GetDeviceDescription</code> method returns a pointer to a <a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a> structure describing the device.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetDeviceDescription(
-  [out] PDEVICE_DESCRIPTION DeviceDescription
-);
-````
+The <code>GetDeviceDescription</code> method returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a> structure describing the device.
 
 
 ## -parameters
@@ -92,20 +83,19 @@ The <i>DeviceDescription</i> parameter contains a pointer to a DEVICE_DESCRIPTIO
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
 
 
 
-<a href="..\portcls\nn-portcls-iportwavert.md">IPortWaveRT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536737">IMiniportWaveRT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536920">IPortWaveRT</a>
  
 
  
-
 

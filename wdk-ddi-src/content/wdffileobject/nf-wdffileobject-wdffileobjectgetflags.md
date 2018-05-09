@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfFileObjectGetFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfFileObjectGetFlags function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfFileObjectGetFlags</b> method returns the flags that a specified framework file object contains.
-
-
-## -syntax
-
-
-````
-ULONG WdfFileObjectGetFlags(
-  _In_ WDFFILEOBJECT FileObject
-);
-````
 
 
 ## -parameters

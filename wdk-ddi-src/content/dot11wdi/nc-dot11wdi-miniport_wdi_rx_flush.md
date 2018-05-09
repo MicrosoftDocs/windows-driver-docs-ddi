@@ -7,8 +7,8 @@ old-location: netvista\miniportwdirxflush.htm
 old-project: netvista
 ms.assetid: 76945A84-A6DB-4753-B04E-32249359B8C6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: MINIPORT_WDI_RX_FLUSH, MiniportWdiRxFlush, MiniportWdiRxFlush callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxFlush, netvista.miniportwdirxflush
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_RX_FLUSH, MINIPORT_WDI_RX_FLUSH callback, MiniportWdiRxFlush, MiniportWdiRxFlush callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxFlush, netvista.miniportwdirxflush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,37 +38,24 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	MiniportWdiRxFlush
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_RX_FLUSH callback
+# MINIPORT_WDI_RX_FLUSH callback function
 
 
 ## -description
 
 
 The 
-  MiniportWdiRxFlush handler function is issued after the <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_stop.md">MiniportWdiRxStop</a> operation is completed. Upon receiving the flush request, the target/RxEngine must  discard all unindicated frames on the port/adapter before indicating <a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_rx_flush_confirm.md">RxFlushConfirm</a>.
+  MiniportWdiRxFlush handler function is issued after the <a href="https://msdn.microsoft.com/AAFECA64-07D7-43E6-ABFB-C0C85A9C03CD">MiniportWdiRxStop</a> operation is completed. Upon receiving the flush request, the target/RxEngine must  discard all unindicated frames on the port/adapter before indicating <a href="https://msdn.microsoft.com/CEED709C-F295-4633-B7C1-4719EDDC7CD4">RxFlushConfirm</a>.
 
-This is a WDI miniport handler inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>.
+This is a WDI miniport handler inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297618">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_WDI_RX_FLUSH</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-MINIPORT_WDI_RX_FLUSH MiniportWdiRxFlush;
-
-VOID MiniportWdiRxFlush(
-  _In_ TAL_TXRX_HANDLE MiniportTalTxRxContext,
-  _In_ WDI_PORT_ID     PortId
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -77,7 +64,7 @@ VOID MiniportWdiRxFlush(
 
 ### -param MiniportTalTxRxContext [in]
 
-TAL device handle returned by the IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
+TAL device handle returned by the IHV miniport in <a href="https://msdn.microsoft.com/C297D681-D43F-4105-9E08-7FF42807E9A0">MiniportWdiTalTxRxInitialize</a>.
 
 
 ### -param PortId [in]
@@ -96,11 +83,10 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297618">NDIS_MINIPORT_WDI_DATA_HANDLERS</a>
 
 
 
@@ -112,8 +98,8 @@ This callback function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
  
 
  
-
 

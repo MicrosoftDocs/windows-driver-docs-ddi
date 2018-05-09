@@ -7,7 +7,7 @@ old-location: netvista\ril_exchangeuiccapdu.htm
 old-project: netvista
 ms.assetid: e0d0eaa5-8f3a-4522-b99b-76f42402dae9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_ExchangeUiccAPDU, RIL_ExchangeUiccAPDU method [Network Drivers Starting with Windows Vista], netvista.ril_exchangeuiccapdu, rilapi/RIL_ExchangeUiccAPDU
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_ExchangeUiccAPDU
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_ExchangeUiccAPDU function
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_ExchangeUiccAPDU(
-   HRIL        hRil,
-   LPVOID      lpContext,
-   DWORD       dwSlotIndex,
-   DWORD       dwChannelId,
-   DWORD       dwAPDULength,
-   const BYTE  bAPDU
-);
-````
 
 
 ## -parameters

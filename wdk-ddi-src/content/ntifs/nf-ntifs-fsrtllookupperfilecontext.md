@@ -7,7 +7,7 @@ old-location: ifsk\fsrtllookupperfilecontext.htm
 old-project: ifsk
 ms.assetid: b15598bd-8362-44f1-83ce-b4282d6604b0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlLookupPerFileContext, FsRtlLookupPerFileContext routine [Installable File System Drivers], fsrtlref_ab859bb7-ea43-4d55-ab37-feebddd270ff.xml, ifsk.fsrtllookupperfilecontext, ntifs/FsRtlLookupPerFileContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlLookupPerFileContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlLookupPerFileContext function
@@ -49,19 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlLookupPerFileContext </b>routine returns a pointer to a <a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a> object that is associated with a specified file.
-
-
-## -syntax
-
-
-````
-PFSRTL_PER_FILE_CONTEXT FsRtlLookupPerFileContext(
-  _In_     PVOID *PerFileContextPointer,
-  _In_opt_ PVOID OwnerId,
-  _In_opt_ PVOID InstanceId
-);
-````
+The <b>FsRtlLookupPerFileContext </b>routine returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a> object that is associated with a specified file.
 
 
 ## -parameters
@@ -99,26 +88,17 @@ A pointer to the first FSRTL_PER_FILE_CONTEXT structure that matches the <i>Owne
 
 By not specifying <i>OwnerID</i> and <i>InstanceId</i>, a filter driver can search for the first context that is associated with a file.  
 
-If the file system does not support per-file context objects, <b>NULL</b> is returned. Use the <a href="..\ntifs\nf-ntifs-fsrtlsupportsperfilecontexts.md">FsRtlSupportsPerFileContexts</a> macro to determine whether a file system supports per-file context objects.
+If the file system does not support per-file context objects, <b>NULL</b> is returned. Use the <a href="https://msdn.microsoft.com/28f0e98f-1f7b-4dcf-8151-e13981634617">FsRtlSupportsPerFileContexts</a> macro to determine whether a file system supports per-file context objects.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlremoveperfilecontext.md">FsRtlRemovePerFileContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547352">FSRTL_PER_FILE_CONTEXT</a>
 
 
 
@@ -126,8 +106,16 @@ If the file system does not support per-file context objects, <b>NULL</b> is ret
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546184">FsRtlInsertPerFileContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547226">FsRtlRemovePerFileContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\rxcebuildconnection.htm
 old-project: ifsk
 ms.assetid: 3d4c2e69-7cdc-4eee-b56c-b1485768e942
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RxCeBuildConnection, RxCeBuildConnection function [Installable File System Drivers], ifsk.rxcebuildconnection, rxce/RxCeBuildConnection, rxref_cc87c9dd-c8e4-4283-96a8-bc2ec15be773.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rxce.h
 api_name:
 -	RxCeBuildConnection
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxCeBuildConnection function
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCeBuildConnection</b> establishes a connection between a local RDBSS connection address and a given remote address. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCeBuildConnection(
-  _In_    PRXCE_ADDRESS                  pAddress,
-  _In_    PRXCE_CONNECTION_INFORMATION   pConnectionInformation,
-  _In_    PRXCE_CONNECTION_EVENT_HANDLER pHandler,
-  _In_    PVOID                          pEventContext,
-  _Inout_ PRXCE_CONNECTION               pConnection,
-  _Inout_ PRXCE_VC                       pVc
-);
-````
 
 
 ## -parameters
@@ -162,16 +147,15 @@ When <b>RxCeBuildConnection</b> is successful, the data members in the RXCE_CONN
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554321">RxCeTearDownConnection</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-
-
-
  
 
  
-
 

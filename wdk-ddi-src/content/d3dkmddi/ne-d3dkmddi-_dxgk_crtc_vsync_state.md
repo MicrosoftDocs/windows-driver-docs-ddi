@@ -7,7 +7,7 @@ old-location: display\dxgk_crtc_vsync_state.htm
 old-project: display
 ms.assetid: 1A7632BB-1DA6-4D03-8A3A-6468A2E4DF71
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_CRTC_VSYNC_STATE, DXGK_CRTC_VSYNC_STATE enumeration [Display Devices], DXGK_INTERRUPT_ENABLE, DXGK_VSYNC_DISABLE_KEEP_PHASE, DXGK_VSYNC_DISABLE_NO_PHASE, _DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_VSYNC_DISABLE_KEEP_PHASE, d3dkmddi/DXGK_VSYNC_DISABLE_NO_PHASE, display.dxgk_crtc_vsync_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_CRTC_VSYNC_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_CRTC_VSYNC_STATE
 ---
@@ -49,19 +50,7 @@ req.typenames: DXGK_CRTC_VSYNC_STATE
 ## -description
 
 
-Provides additional information for <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt2.md">DxgkDdi_ControlInterrupt2 </a>when VSYNC is being utilized.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_CRTC_VSYNC_STATE { 
-  DXGK_INTERRUPT_ENABLE            = 0,
-  DXGK_VSYNC_DISABLE_KEEP_PHASE    = 1,
-  DXGK_VSYNC_DISABLE_NO_PHASE      = 2
-} DXGK_CRTC_VSYNC_STATE;
-````
+Provides additional information for <a href="https://msdn.microsoft.com/0C09CAB1-3DFC-4340-8FF2-99CAF7F13156">DxgkDdi_ControlInterrupt2 </a>when VSYNC is being utilized.
 
 
 ## -enum-fields

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetQuitLockString
-title: IDebugClient5::GetQuitLockString method
+title: IDebugClient5::GetQuitLockString
 author: windows-driver-content
 description: Gets a quit lock string.
 old-location: debugger\idebugclient5_getquitlockstring.htm
 old-project: debugger
 ms.assetid: 986C866E-D5AC-47CD-A666-EDF739E91761
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetQuitLockString method [Windows Debugging], GetQuitLockString method [Windows Debugging], IDebugClient5 interface, GetQuitLockString,IDebugClient5.GetQuitLockString, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetQuitLockString method, IDebugClient5::GetQuitLockString, dbgeng/IDebugClient5::GetQuitLockString, debugger.idebugclient5_getquitlockstring
+ms.date: 4/24/2018
+ms.keywords: GetQuitLockString, GetQuitLockString method [Windows Debugging], GetQuitLockString method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetQuitLockString method, IDebugClient5.GetQuitLockString, IDebugClient5::GetQuitLockString, dbgeng/IDebugClient5::GetQuitLockString, debugger.idebugclient5_getquitlockstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient5.GetQuitLockString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::GetQuitLockString method
+# IDebugClient5::GetQuitLockString
 
 
 ## -description
 
 
 Gets a quit lock string.
-
-
-## -syntax
-
-
-````
-HRESULT GetQuitLockString(
-  [out]           writes_opt_(BufferSize) PSTR Buffer,
-  [in]            ULONG                        BufferSize,
-  [out, optional] PULONG                       StringSize
-);
-````
 
 
 ## -parameters
@@ -108,12 +97,11 @@ The quit lock string
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

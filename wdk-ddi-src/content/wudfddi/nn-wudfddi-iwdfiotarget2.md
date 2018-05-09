@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 52ce1c63-b2cf-4eda-b056-4f1f999110c5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoTarget2, IWDFIoTarget2 interface, IWDFIoTarget2 interface, described, UMDFIoTargetObjectRef_7639fcef-e463-4500-94a0-132b63e1e564.xml, umdf.iwdfiotarget2, wdf.iwdfiotarget2, wudfddi/IWDFIoTarget2
+ms.keywords: IWDFIoTarget2, IWDFIoTarget2 interface, IWDFIoTarget2 interface,described, UMDFIoTargetObjectRef_7639fcef-e463-4500-94a0-132b63e1e564.xml, umdf.iwdfiotarget2, wdf.iwdfiotarget2, wudfddi/IWDFIoTarget2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoTarget2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFIoTarget2 interface
@@ -57,7 +57,7 @@ To obtain the <b>IWDFIoTarget2</b> interface, drivers call <b>IWDFIoTarget::Quer
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoTarget2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>. <b>IWDFIoTarget2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoTarget2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a>. <b>IWDFIoTarget2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

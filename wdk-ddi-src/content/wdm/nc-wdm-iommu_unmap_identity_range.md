@@ -1,0 +1,84 @@
+---
+UID: NC:wdm.IOMMU_UNMAP_IDENTITY_RANGE
+title: IOMMU_UNMAP_IDENTITY_RANGE
+author: windows-driver-content
+description: Deletes an identity mapping for the specified MDL.
+ms.assetid: 9a59ab97-1b72-4fd2-920d-c0a0c242b184
+ms.author: windowsdriverdev
+ms.date: 
+ms.topic: callback
+ms.prod: windows-hardware
+ms.technology: windows-devices
+req.header: wdm.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.lib:
+req.dll:
+req.irql: 
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library: 
+topictype: 
+-	apiref
+apitype: 
+-	UserDefined
+apilocation: 
+-	wdm.h
+apiname: 
+-	IOMMU_UNMAP_IDENTITY_RANGE
+product: Windows
+targetos: Windows
+---
+
+# IOMMU_UNMAP_IDENTITY_RANGE callback function
+
+## -description
+
+Deletes an identity mapping for the specified MDL. 
+
+## -prototype
+
+```
+//Declaration
+
+IOMMU_UNMAP_IDENTITY_RANGE IommuUnmapIdentityRange; 
+
+// Definition
+
+NTSTATUS IommuUnmapIdentityRange 
+(
+	PIOMMU_DMA_DOMAIN Domain
+	PMDL Mdl
+)
+{...}
+
+IOMMU_UNMAP_IDENTITY_RANGE *PIOMMU_UNMAP_IDENTITY_RANGE
+
+
+```
+
+## -parameters
+
+### -param Domain
+[_In_] A pointer to the handle to the domain.
+
+### -param Mdl
+[_In_] A pointer to the MDL to unmap. 
+
+
+## -returns
+
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+
+## -remarks
+
+
+## -see-also

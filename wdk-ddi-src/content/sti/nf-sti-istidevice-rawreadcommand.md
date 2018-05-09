@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStiDevice.RawReadCommand
-title: IStiDevice::RawReadCommand method
+title: IStiDevice::RawReadCommand
 author: windows-driver-content
 description: The IStiDevice::RawReadCommand method reads command information from a still image device.
 old-location: image\istidevice_rawreadcommand.htm
 old-project: image
 ms.assetid: fc6b46af-d3e3-4a49-a354-c0effee6a005
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], RawReadCommand method, IStiDevice::RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices], IStiDevice interface, RawReadCommand,IStiDevice.RawReadCommand, image.istidevice_rawreadcommand, sti/IStiDevice::RawReadCommand, stifnc_cdfe25e7-b5c4-4ed0-b8f5-363c83f1bbba.xml
+ms.date: 4/23/2018
+ms.keywords: IStiDevice interface [Imaging Devices],RawReadCommand method, IStiDevice.RawReadCommand, IStiDevice::RawReadCommand, RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices],IStiDevice interface, image.istidevice_rawreadcommand, sti/IStiDevice::RawReadCommand, stifnc_cdfe25e7-b5c4-4ed0-b8f5-363c83f1bbba.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.RawReadCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiDevice::RawReadCommand method
+# IStiDevice::RawReadCommand
 
 
 ## -description
 
 
 The <b>IStiDevice::RawReadCommand</b> method reads command information from a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT RawReadCommand(
-  [in, out]      LPVOID       lpBuffer,
-  [in, out]      LPDWORD      lpdwNumberOfBytes,
-  [in, optional] LPOVERLAPPED lpOverlapped
-);
-````
 
 
 ## -parameters

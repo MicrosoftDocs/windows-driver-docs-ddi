@@ -7,8 +7,8 @@ old-location: display\videoprocessorsetoutputtargetrect.htm
 old-project: display
 ms.assetid: ac1ba2e0-a289-4dee-b739-d3c1ad0970e1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT, d3d10umddi/pfnVideoProcessorSetOutputTargetRect, display.videoprocessorsetoutputtargetrect, pfnVideoProcessorSetOutputTargetRect, pfnVideoProcessorSetOutputTargetRect callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT callback, d3d10umddi/pfnVideoProcessorSetOutputTargetRect, display.videoprocessorsetoutputtargetrect, pfnVideoProcessorSetOutputTargetRect, pfnVideoProcessorSetOutputTargetRect callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnVideoProcessorSetOutputTargetRect
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT callback
+# PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT callback function
 
 
 ## -description
@@ -54,34 +55,18 @@ Sets the target rectangle for the video processor.
 
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT pfnVideoProcessorSetOutputTargetRect;
-
-VOID APIENTRY* pfnVideoProcessorSetOutputTargetRect(
-  _In_       D3D10DDI_HDEVICE           hDevice,
-  _In_       D3D11_1DDI_HVIDEOPROCESSOR hVideoProcessor,
-  _In_       BOOL                       Enable,
-  _In_ const RECT                       *pOutputRect
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
-### -param BOOL
+### -param Arg3
 
 
 ### -param *
@@ -107,7 +92,7 @@ A handle to the display device (graphics context).
 
 #### - hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 
@@ -147,16 +132,15 @@ If this function is never called, or if the <i>Enable</i> parameter is FALSE, th
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
-
-
-
  
 
  
-
 

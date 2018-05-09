@@ -7,8 +7,8 @@ old-location: hid\ioctl_umdf_hid_set_output_report.htm
 old-project: hid
 ms.assetid: 9D2BF078-305F-4656-8BA0-F03959209874
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_UMDF_HID_SET_OUTPUT_REPORT, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control code, hid.ioctl_umdf_hid_set_output_report, hidport/IOCTL_UMDF_HID_SET_OUTPUT_REPORT, umdf.ioctl_umdf_hid_set_output_report
+ms.date: 4/30/2018
+ms.keywords: IOCTL_UMDF_HID_SET_OUTPUT_REPORT, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control code, hid.ioctl_umdf_hid_set_output_report, hidport/IOCTL_UMDF_HID_SET_OUTPUT_REPORT, umdf.ioctl_umdf_hid_set_output_report
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Hidport.h
 api_name:
 -	IOCTL_UMDF_HID_SET_OUTPUT_REPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+req.typenames: 
 ---
 
 # IOCTL_UMDF_HID_SET_OUTPUT_REPORT IOCTL
@@ -125,16 +126,15 @@ HID minidrivers that carry out the I/O to the device must also:
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541196">IOCTL_HID_SET_OUTPUT_REPORT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439661">IOCTL_UMDF_HID_GET_INPUT_REPORT</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
-
-
-
  
 
  
-
 

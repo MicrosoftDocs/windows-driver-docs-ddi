@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsAllocator.KsGetAllocatorHandle
-title: IKsAllocator::KsGetAllocatorHandle method
+title: IKsAllocator::KsGetAllocatorHandle
 author: windows-driver-content
 description: Retrieves a file handle to an allocator.
 old-location: stream\iksallocator_ksgetallocatorhandle.htm
 old-project: stream
 ms.assetid: 9F79816F-866F-4B68-898F-87D310EFBBE7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsAllocator, IKsAllocator interface [Streaming Media Devices], KsGetAllocatorHandle method, IKsAllocator::KsGetAllocatorHandle, KsGetAllocatorHandle method [Streaming Media Devices], KsGetAllocatorHandle method [Streaming Media Devices], IKsAllocator interface, KsGetAllocatorHandle,IKsAllocator.KsGetAllocatorHandle, ksproxy/IKsAllocator::KsGetAllocatorHandle, stream.iksallocator_ksgetallocatorhandle
+ms.date: 4/23/2018
+ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorHandle method, IKsAllocator.KsGetAllocatorHandle, IKsAllocator::KsGetAllocatorHandle, KsGetAllocatorHandle, KsGetAllocatorHandle method [Streaming Media Devices], KsGetAllocatorHandle method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorHandle, stream.iksallocator_ksgetallocatorhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,12 +38,13 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsAllocator.KsGetAllocatorHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsAllocator::KsGetAllocatorHandle method
+# IKsAllocator::KsGetAllocatorHandle
 
 
 ## -description
@@ -52,16 +53,6 @@ req.typenames: PIPE_STATE
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Retrieves a file handle to an allocator.
-
-
-## -syntax
-
-
-````
-HRESULT KsGetAllocatorHandle(
-    
-);
-````
 
 
 ## -parameters
@@ -82,12 +73,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksallocator.md">IKsAllocator</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559719">IKsAllocator</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\boot_area_info.htm
 old-project: ifsk
 ms.assetid: 9f092940-b8be-4d28-b82c-d169abefe5d9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PBOOT_AREA_INFO, BOOT_AREA_INFO, BOOT_AREA_INFO structure [Installable File System Drivers], PBOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Installable File System Drivers], _BOOT_AREA_INFO, ifsk.boot_area_info, ntifs/BOOT_AREA_INFO, ntifs/PBOOT_AREA_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	BOOT_AREA_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BOOT_AREA_INFO, *PBOOT_AREA_INFO
 ---
@@ -52,19 +53,6 @@ req.typenames: BOOT_AREA_INFO, *PBOOT_AREA_INFO
 The <b>BOOT_AREA_INFO</b> structure contains the output for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff728858">FSCTL_GET_BOOT_AREA_INFO</a> control code.
 
 
-## -syntax
-
-
-````
-typedef struct _BOOT_AREA_INFO {
-  ULONG  BootSectorCount;
-  struct {
-    LARGE_INTEGER Offset;
-  } BootSectors[2];
-} BOOT_AREA_INFO, *PBOOT_AREA_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -73,6 +61,11 @@ typedef struct _BOOT_AREA_INFO {
 ### -field BootSectorCount
 
 The number of elements in the <b>BootSectors</b> array.
+
+
+### -field Offset
+
+ 
 
 
 ### -field BootSectors
@@ -88,12 +81,11 @@ The location of a boot sector or a copy of a boot sector.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff728858">FSCTL_GET_BOOT_AREA_INFO</a>
-
-
-
  
 
  
-
 

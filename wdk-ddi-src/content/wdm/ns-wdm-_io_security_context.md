@@ -7,7 +7,7 @@ old-location: kernel\io_security_context.htm
 old-project: kernel
 ms.assetid: 6500c46b-ae39-4c91-8b84-14df0a7046a1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PIO_SECURITY_CONTEXT, IO_SECURITY_CONTEXT, IO_SECURITY_CONTEXT structure [Kernel-Mode Driver Architecture], PIO_SECURITY_CONTEXT, PIO_SECURITY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _IO_SECURITY_CONTEXT, kernel.io_security_context, kstruct_b_2c3ede84-cdd5-4e78-99b9-5ff642463f85.xml, wdm/IO_SECURITY_CONTEXT, wdm/PIO_SECURITY_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	IO_SECURITY_CONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_SECURITY_CONTEXT, *PIO_SECURITY_CONTEXT
-req.product: Windows 10 or later.
 ---
 
 # _IO_SECURITY_CONTEXT structure
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IO_SECURITY_CONTEXT</b> structure represents the security context of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _IO_SECURITY_CONTEXT {
-  PSECURITY_QUALITY_OF_SERVICE SecurityQos;
-  PACCESS_STATE                AccessState;
-  ACCESS_MASK                  DesiredAccess;
-  ULONG                        FullCreateOptions;
-} IO_SECURITY_CONTEXT, *PIO_SECURITY_CONTEXT;
-````
 
 
 ## -struct-fields
@@ -78,7 +65,7 @@ Reserved for system use.
 
 ### -field AccessState
 
-Reserved for use by file systems and file system filter drivers. This member is a pointer to an <a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a> structure that contains the object's subject context, granted access types, and remaining desired access types. 
+Reserved for use by file systems and file system filter drivers. This member is a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538840">ACCESS_STATE</a> structure that contains the object's subject context, granted access types, and remaining desired access types. 
 
 
 ### -field DesiredAccess
@@ -93,11 +80,6 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_access_state.md">ACCESS_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
@@ -105,8 +87,12 @@ Reserved for system use.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538840">ACCESS_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
  
 
  
-
 

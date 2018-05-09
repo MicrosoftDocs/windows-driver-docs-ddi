@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.SetDataParameters
-title: IDebugBreakpoint::SetDataParameters method
+title: IDebugBreakpoint::SetDataParameters
 author: windows-driver-content
 description: The SetDataParameters method sets the parameters for a processor breakpoint.
 old-location: debugger\setdataparameters.htm
 old-project: debugger
 ms.assetid: 66878652-be29-479f-8e00-a9d8ab1b0db7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], SetDataParameters method, IDebugBreakpoint2 interface [Windows Debugging], SetDataParameters method, IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint::SetDataParameters, SetDataParameters method [Windows Debugging], SetDataParameters method [Windows Debugging], IDebugBreakpoint interface, SetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, SetDataParameters,IDebugBreakpoint.SetDataParameters, dbgeng/IDebugBreakpoint2::SetDataParameters, dbgeng/IDebugBreakpoint::SetDataParameters, debugger.setdataparameters
+ms.date: 4/24/2018
+ms.keywords: ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, IDebugBreakpoint interface [Windows Debugging],SetDataParameters method, IDebugBreakpoint.SetDataParameters, IDebugBreakpoint2 interface [Windows Debugging],SetDataParameters method, IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint::SetDataParameters, SetDataParameters, SetDataParameters method [Windows Debugging], SetDataParameters method [Windows Debugging],IDebugBreakpoint interface, SetDataParameters method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetDataParameters, dbgeng/IDebugBreakpoint::SetDataParameters, debugger.setdataparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,29 +39,19 @@ api_location:
 api_name:
 -	IDebugBreakpoint.SetDataParameters
 -	IDebugBreakpoint2.SetDataParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint::SetDataParameters method
+# IDebugBreakpoint::SetDataParameters
 
 
 ## -description
 
 
 The <b>SetDataParameters</b> method sets the parameters for a processor breakpoint.
-
-
-## -syntax
-
-
-````
-HRESULT SetDataParameters(
-  [in] ULONG Size,
-  [in] ULONG AccessType
-);
-````
 
 
 ## -parameters

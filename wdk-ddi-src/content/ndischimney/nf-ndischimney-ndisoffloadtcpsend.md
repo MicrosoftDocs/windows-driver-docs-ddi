@@ -7,7 +7,7 @@ old-location: netvista\ndisoffloadtcpsend.htm
 old-project: netvista
 ms.assetid: a2743bbb-a6fa-4b7e-8087-132e221a5624
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisOffloadTcpSend, NdisOffloadTcpSend function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpSend, netvista.ndisoffloadtcpsend, tcp_chim_ndis_func_51f71d27-0877-4046-b80d-8c05765d8e69.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisOffloadTcpSend
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
 # NdisOffloadTcpSend function
@@ -56,17 +57,6 @@ A protocol driver or intermediate driver calls the
   <b>NdisOffloadTcpSend</b> function to transmit data on an offloaded TCP connection.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisOffloadTcpSend(
-  _In_ PNDIS_OFFLOAD_HANDLE NdisOffloadHandle,
-  _In_ PNET_BUFFER_LIST     NetBufferList
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +65,7 @@ NDIS_STATUS NdisOffloadTcpSend(
 ### -param NdisOffloadHandle [in]
 
 A handle to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a> structure in the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a> structure in the
      caller's context for the offloaded TCP connection. For more information, see 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
      Referencing Offloaded State Through an Intermediate Driver</a>.
@@ -84,10 +74,10 @@ A handle to an
 ### -param NetBufferList [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. This structure
      can be a stand-alone structure or the first structure in a linked list of NET_BUFFER_LIST structures.
      Each NET_BUFFER_LIST structure in the list describes a list of 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures. Each NET_BUFFER structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures. Each NET_BUFFER structure
      in the list points to a chain of memory descriptor lists (MDLs). The MDLs contain the data to be
      transmitted. The NET_BUFFER_LIST and associated structures are locked so that they remain resident in
      physical memory. However, they are not mapped into system memory.
@@ -109,7 +99,7 @@ The
 
 
 In response to a call to its 
-    <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a> function,
+    <a href="https://msdn.microsoft.com/7c96412f-a866-4863-a06a-9eb6adb2a33b">MiniportTcpOffloadSend</a> function,
     an intermediate driver calls the 
     <b>NdisOffloadTcpSend</b> function to propagate the send operation to the underlying intermediate driver
     or offload target. For more information, see 
@@ -143,33 +133,32 @@ When the underlying driver or offload target subsequently completes the send ope
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_send_handler.md">MiniportTcpOffloadSend</a>
+<a href="https://msdn.microsoft.com/7c96412f-a866-4863-a06a-9eb6adb2a33b">MiniportTcpOffloadSend</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_send_complete_handler.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564609">NdisTcpOffloadSendComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/6f9c7964-e475-421c-99d6-f4fc31a26f02">
    ProtocolTcpOffloadSendComplete</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
-
-
-
  
 
  
-
 

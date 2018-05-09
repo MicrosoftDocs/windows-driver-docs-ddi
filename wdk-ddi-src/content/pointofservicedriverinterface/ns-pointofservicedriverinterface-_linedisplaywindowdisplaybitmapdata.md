@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	LineDisplayWindowDisplayBitmapData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LineDisplayWindowDisplayBitmapData
 ---
@@ -50,16 +51,6 @@ req.typenames: LineDisplayWindowDisplayBitmapData
 
 
 This structure is not implemented.
-
-
-## -syntax
-
-
-````
-typedef struct _LineDisplayWindowDisplayBitmapData {
-   ...;
-} LineDisplayWindowDisplayBitmapData, *PLineDisplayWindowDisplayBitmapData;
-````
 
 
 ## -struct-fields

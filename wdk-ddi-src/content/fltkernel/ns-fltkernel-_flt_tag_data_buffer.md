@@ -7,7 +7,7 @@ old-location: ifsk\flt_tag_data_buffer.htm
 old-project: ifsk
 ms.assetid: a101e0c8-7121-42b6-aa0e-299f37af8e47
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER structure [Installable File System Drivers], FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, PFLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers], _FLT_TAG_DATA_BUFFER, fltkernel/FLT_TAG_DATA_BUFFER, fltkernel/PFLT_TAG_DATA_BUFFER, ifsk.flt_tag_data_buffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FLT_TAG_DATA_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER
 ---
@@ -50,42 +51,6 @@ req.typenames: FLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER
 
 
 The FLT_TAG_DATA_BUFFER structure contains information about a reparse point tag. 
-
-
-## -syntax
-
-
-````
-typedef struct _FLT_TAG_DATA_BUFFER {
-  ULONG  FileTag;
-  USHORT TagDataLength;
-  USHORT UnparsedNameLength;
-  union {
-    struct {
-      USHORT SubstituteNameOffset;
-      USHORT SubstituteNameLength;
-      USHORT PrintNameOffset;
-      USHORT PrintNameLength;
-      ULONG  Flags;
-      WCHAR  PathBuffer[1];
-    } SymbolicLinkReparseBuffer;
-    struct {
-      USHORT SubstituteNameOffset;
-      USHORT SubstituteNameLength;
-      USHORT PrintNameOffset;
-      USHORT PrintNameLength;
-      WCHAR  PathBuffer[1];
-    } MountPointReparseBuffer;
-    struct {
-      UCHAR DataBuffer[1];
-    } GenericReparseBuffer;
-    struct {
-      GUID  TagGuid;
-      UCHAR DataBuffer[1];
-    } GenericGUIDReparseBuffer;
-  };
-} FLT_TAG_DATA_BUFFER, *PFLT_TAG_DATA_BUFFER;
-````
 
 
 ## -struct-fields
@@ -105,7 +70,7 @@ Size, in bytes, of the reparse data pointed to by the <b>DataBuffer</b> member.
 
 ### -field UnparsedNameLength
 
-Length, in bytes, of the unparsed portion of the file name pointed to by the <b>FileName</b> member of the associated file object.  For more information about the <b>FileName</b> member, see <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>.
+Length, in bytes, of the unparsed portion of the file name pointed to by the <b>FileName</b> member of the associated file object.  For more information about the <b>FileName</b> member, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>.
 
 
 ### -field SymbolicLinkReparseBuffer
@@ -311,7 +276,7 @@ Pointer to a buffer that contains user-defined data for the reparse point.
 
 A minifilter can use the FLT_TAG_DATA_BUFFER structure to store information about a reparse point tag. 
 
-A pointer to an FLT_TAG_DATA_BUFFER structure that contains reparse point tag data for an operation is stored in the <b>TagData</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> structure for the operation. 
+A pointer to an FLT_TAG_DATA_BUFFER structure that contains reparse point tag data for an operation is stored in the <b>TagData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> structure for the operation. 
 
 The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion of the FLT_TAG_DATA_BUFFER structure. 
 
@@ -320,24 +285,23 @@ The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544589">FltTagFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544608">FltUntagFile</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\wwan_activation_command.htm
 old-project: netvista
 ms.assetid: e9d25ac3-8ffc-4137-8409-731d8caaa730
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_ACTIVATION_COMMAND, PWWAN_ACTIVATION_COMMAND, PWWAN_ACTIVATION_COMMAND enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_ACTIVATION_COMMAND, WWAN_ACTIVATION_COMMAND enumeration [Network Drivers Starting with Windows Vista], WwanActivationCommandActivate, WwanActivationCommandDeactivate, WwanActivationCommandMax, WwanRef_55137856-bb05-49ac-b318-cc6922a90445.xml, _WWAN_ACTIVATION_COMMAND, netvista.wwan_activation_command, wwan/PWWAN_ACTIVATION_COMMAND, wwan/WWAN_ACTIVATION_COMMAND, wwan/WwanActivationCommandActivate, wwan/WwanActivationCommandDeactivate, wwan/WwanActivationCommandMax"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_ACTIVATION_COMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_ACTIVATION_COMMAND, *PWWAN_ACTIVATION_COMMAND
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_ACTIVATION_COMMAND enumeration
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 The WWAN_ACTIVATION_COMMAND enumeration lists the Packet Data Protocol (PDP) activation commands that
   are supported by the MB device.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_ACTIVATION_COMMAND { 
-  WwanActivationCommandDeactivate  = 0,
-  WwanActivationCommandActivate,
-  WwanActivationCommandMax
-} WWAN_ACTIVATION_COMMAND, *PWWAN_ACTIVATION_COMMAND;
-````
 
 
 ## -enum-fields
@@ -89,12 +77,11 @@ The total number of supported activation commands.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571235">WWAN_SET_CONTEXT_STATE</a>
  
 
  
-
 

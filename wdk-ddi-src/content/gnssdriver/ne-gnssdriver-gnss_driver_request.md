@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_DRIVER_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_DRIVER_REQUEST
 ---
@@ -50,16 +51,6 @@ req.typenames: GNSS_DRIVER_REQUEST
 
 
 GNSS_DRIVER_REQUEST enumerates  the GNSS driver data request types. 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SUPL_CONFIG_DATA  = 0x01
-} GNSS_DRIVER_REQUEST;
-````
 
 
 ## -enum-fields

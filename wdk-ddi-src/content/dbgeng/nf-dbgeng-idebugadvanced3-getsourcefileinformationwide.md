@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugAdvanced3.GetSourceFileInformationWide
-title: IDebugAdvanced3::GetSourceFileInformationWide method
+title: IDebugAdvanced3::GetSourceFileInformationWide
 author: windows-driver-content
 description: The GetSourceFileInformationWide method returns specified information about a source file.
 old-location: debugger\getsourcefileinformationwide.htm
 old-project: debugger
 ms.assetid: 1b7b26be-b7be-4dc7-9863-413f7293707c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetSourceFileInformationWide method [Windows Debugging], GetSourceFileInformationWide method [Windows Debugging], IDebugAdvanced3 interface, GetSourceFileInformationWide,IDebugAdvanced3.GetSourceFileInformationWide, IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformationWide method, IDebugAdvanced3::GetSourceFileInformationWide, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, debugger.getsourcefileinformationwide
+ms.date: 4/24/2018
+ms.keywords: GetSourceFileInformationWide, GetSourceFileInformationWide method [Windows Debugging], GetSourceFileInformationWide method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging],GetSourceFileInformationWide method, IDebugAdvanced3.GetSourceFileInformationWide, IDebugAdvanced3::GetSourceFileInformationWide, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, debugger.getsourcefileinformationwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,34 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugAdvanced3.GetSourceFileInformationWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugAdvanced3::GetSourceFileInformationWide method
+# IDebugAdvanced3::GetSourceFileInformationWide
 
 
 ## -description
 
 
 The <b>GetSourceFileInformationWide</b> method returns specified information about a source file.
-
-
-## -syntax
-
-
-````
-HRESULT GetSourceFileInformationWide(
-  [in]            ULONG   Which,
-  [in]            PWSTR   SourceFile,
-  [in]            ULONG64 Arg64,
-  [in]            ULONG   Arg32,
-  [out, optional] PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  InfoSize
-);
-````
 
 
 ## -parameters
@@ -172,16 +157,15 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545430">FindSourceFileAndToken</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549807">IDebugAdvanced3</a>
  
 
  
-
 

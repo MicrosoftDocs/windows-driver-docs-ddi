@@ -7,7 +7,7 @@ old-location: storage\hba_getportattributesbywwn.htm
 old-project: storage
 ms.assetid: 79d63b5e-78b0-452a-aa84-695c59a7d4a5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_GetPortAttributesByWWN, HBA_GetPortAttributesByWWN routine [Storage Devices], fibreHBA_rtns_2cd8e0da-90d5-41bb-8bd9-ab2ee26ec772.xml, hbaapi/HBA_GetPortAttributesByWWN, storage.hba_getportattributesbywwn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_GetPortAttributesByWWN
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_GetPortAttributesByWWN function
@@ -50,18 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_GetPortAttributesByWWN</b> routine retrieves the attributes for the port specified by the indicated port name. 
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_GetPortAttributesByWWN(
-  _In_  HBA_HANDLE         HbaHandle,
-  _In_  HBA_WWN            PortWWN,
-  _Out_ HBA_PORTATTRIBUTES *HbaPortAttributes
-);
-````
 
 
 ## -parameters
@@ -88,12 +77,12 @@ TBD
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
 
 
 #### - HbaPortAttributes [out]
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a> that holds the port attributes: 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a> that holds the port attributes: 
 
 
 ## -returns
@@ -116,15 +105,6 @@ The <b>HBA_GetPortAttributesByWWN</b> routine serves a purpose very similar to t
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
 
 
 
@@ -132,8 +112,16 @@ The <b>HBA_GetPortAttributesByWWN</b> routine serves a purpose very similar to t
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
  
 
  
-
 

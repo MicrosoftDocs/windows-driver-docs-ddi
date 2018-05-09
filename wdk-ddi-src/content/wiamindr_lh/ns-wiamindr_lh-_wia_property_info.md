@@ -7,7 +7,7 @@ old-location: image\wia_property_info.htm
 old-project: image
 ms.assetid: 9ab9edb8-aa37-4c28-81c9-3e41751f14ed
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], WIA_PROPERTY_INFO, WIA_PROPERTY_INFO structure [Imaging Devices], _WIA_PROPERTY_INFO, image.wia_property_info, wiamindr_lh/PWIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	WIA_PROPERTY_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIA_PROPERTY_INFO, *PWIA_PROPERTY_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WIA_PROPERTY_INFO structure
@@ -51,58 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WIA_PROPERTY_INFO structure is used to store default access and valid value information for an item property of arbitrary type.
-
-
-## -syntax
-
-
-````
-typedef struct _WIA_PROPERTY_INFO {
-  ULONG   lAccessFlags;
-  VARTYPE vt;
-  union {
-    struct {
-      LONG Min;
-      LONG Nom;
-      LONG Max;
-      LONG Inc;
-    } Range;
-    struct {
-      DOUBLE Min;
-      DOUBLE Nom;
-      DOUBLE Max;
-      DOUBLE Inc;
-    } RangeFloat;
-    struct {
-      LONG cNumList;
-      LONG Nom;
-      BYTE *pList;
-    } List;
-    struct {
-      LONG   cNumList;
-      DOUBLE Nom;
-      BYTE   *pList;
-    } ListFloat;
-    struct {
-      LONG cNumList;
-      GUID Nom;
-      GUID *pList;
-    } ListGuid;
-    struct {
-      LONG cNumList;
-      BSTR Nom;
-      BSTR *pList;
-    } ListBStr;
-    struct {
-      LONG Nom;
-      LONG ValidBits;
-    } Flag;
-    struct {
-      LONG Dummy;
-    } None;
-  } ValidVal;
-} WIA_PROPERTY_INFO, *PWIA_PROPERTY_INFO;
-````
 
 
 ## -struct-fields
@@ -356,7 +304,7 @@ For a different property whose valid values are defined by a list of three GUID 
 
 A property whose valid values are defined by a bitset of the values 0x01, 0x02, 0x04, and 0x08 would have the WIA_PROP_FLAG bit set in <b>lAccessFlags</b>, and <b>vt</b> would be set to VT_UI4. For such a property, the value stored in <b>Flag.ValidBits</b> would be 0x0F, the bitwise OR of the four flag values previously mentioned.
 
-The following examples show how to use array data with WIA_PROPERTY_INFO and how to call <a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a> to set your property values.
+The following examples show how to use array data with WIA_PROPERTY_INFO and how to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549475">wiasWriteMultiple</a> to set your property values.
 
 Initialization might look like the following example:
 
@@ -406,12 +354,11 @@ At run time, changing the value with <b>wiasWriteMultiple</b> might look like th
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549358">wiasSetItemPropAttribs</a>
  
 
  
-
 

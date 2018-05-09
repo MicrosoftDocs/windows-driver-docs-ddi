@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.RemoveItemFromFolder
-title: IWiaDrvItem::RemoveItemFromFolder method
+title: IWiaDrvItem::RemoveItemFromFolder
 author: windows-driver-content
 description: The IWiaDrvItem::RemoveItemFromFolder method removes an item from a parent folder.
 old-location: image\iwiadrvitem_removeitemfromfolder.htm
 old-project: image
 ms.assetid: f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], RemoveItemFromFolder method, IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices], RemoveItemFromFolder method [Imaging Devices], IWiaDrvItem interface, RemoveItemFromFolder,IWiaDrvItem.RemoveItemFromFolder, image.iwiadrvitem_removeitemfromfolder, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder
+ms.date: 4/23/2018
+ms.keywords: DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, IWiaDrvItem interface [Imaging Devices],RemoveItemFromFolder method, IWiaDrvItem.RemoveItemFromFolder, IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices], RemoveItemFromFolder method [Imaging Devices],IWiaDrvItem interface, image.iwiadrvitem_removeitemfromfolder, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.RemoveItemFromFolder
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaDrvItem::RemoveItemFromFolder method
+# IWiaDrvItem::RemoveItemFromFolder
 
 
 ## -description
 
 
 The <b>IWiaDrvItem::RemoveItemFromFolder</b> method removes an item from a parent folder.
-
-
-## -syntax
-
-
-````
-HRESULT RemoveItemFromFolder(
-  [in] LONG lReason
-);
-````
 
 
 ## -parameters
@@ -128,16 +118,15 @@ After the item has been removed from the folder, it can no longer be used for de
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+
+
+
+<a href="https://msdn.microsoft.com/0609e1b2-48df-413c-90bd-d7ddea26510a">IWiaDrvItem</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
-
-
-
  
 
  
-
 

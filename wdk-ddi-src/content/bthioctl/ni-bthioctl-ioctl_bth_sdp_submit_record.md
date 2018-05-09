@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bth_sdp_submit_record.htm
 old-project: bltooth
 ms.assetid: ec6739d3-5956-4cc2-90ff-75c67c0a84e7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_BTH_SDP_SUBMIT_RECORD, IOCTL_BTH_SDP_SUBMIT_RECORD control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_submit_record, bth_ioctls_e32ecb99-7a41-4405-844e-8c1038d3cb89.xml, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD
+ms.date: 4/27/2018
+ms.keywords: IOCTL_BTH_SDP_SUBMIT_RECORD, IOCTL_BTH_SDP_SUBMIT_RECORD control, IOCTL_BTH_SDP_SUBMIT_RECORD control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_submit_record, bth_ioctls_e32ecb99-7a41-4405-844e-8c1038d3cb89.xml, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_SDP_SUBMIT_RECORD
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
+req.typenames: 
 ---
 
 # IOCTL_BTH_SDP_SUBMIT_RECORD IOCTL
@@ -53,7 +54,7 @@ req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 The IOCTL_BTH_SDP_SUBMIT_RECORD request allows a profile driver to add an SDP record to the local SDP
      server, allowing the client to advertise that a service is available on the local computer. The profile
      driver calls 
-     <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536690">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
      stop advertising the server on the local SDP server.
 
 
@@ -168,12 +169,11 @@ The stream passed to the input buffer was invalid.
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_remove_record.md">IOCTL_BTH_SDP_REMOVE_RECORD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536690">IOCTL_BTH_SDP_REMOVE_RECORD</a>
  
 
  
-
 

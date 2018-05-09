@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterExtensionAsyncOperation.Cancel
-title: IPrinterExtensionAsyncOperation::Cancel method
+title: IPrinterExtensionAsyncOperation::Cancel
 author: windows-driver-content
 description: Cancels the asynchronous operation.
 old-location: print\iprinterextensionasyncoperation_cancel.htm
 old-project: print
 ms.assetid: B5E1F3C4-A131-411B-BBAB-6E8B69433E13
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Cancel method [Print Devices], Cancel method [Print Devices], IPrinterExtensionAsyncOperation interface, Cancel,IPrinterExtensionAsyncOperation.Cancel, IPrinterExtensionAsyncOperation, IPrinterExtensionAsyncOperation interface [Print Devices], Cancel method, IPrinterExtensionAsyncOperation::Cancel, print.iprinterextensionasyncoperation_cancel, printerextension/IPrinterExtensionAsyncOperation::Cancel
+ms.date: 4/20/2018
+ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrinterExtensionAsyncOperation interface, IPrinterExtensionAsyncOperation interface [Print Devices],Cancel method, IPrinterExtensionAsyncOperation.Cancel, IPrinterExtensionAsyncOperation::Cancel, print.iprinterextensionasyncoperation_cancel, printerextension/IPrinterExtensionAsyncOperation::Cancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterExtensionAsyncOperation.Cancel
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterExtensionAsyncOperation::Cancel method
+# IPrinterExtensionAsyncOperation::Cancel
 
 
 ## -description
 
 
 Cancels the asynchronous operation.
-
-
-## -syntax
-
-
-````
-HRESULT Cancel(
-    void
-);
-````
 
 
 ## -parameters
@@ -96,12 +86,11 @@ Also, note that this method does not wait for the cancellation to be processed -
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionasyncoperation.md">IPrinterExtensionAsyncOperation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265387">IPrinterExtensionAsyncOperation</a>
  
 
  
-
 

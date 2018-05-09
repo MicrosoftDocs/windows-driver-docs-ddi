@@ -7,7 +7,7 @@ old-location: stream\kssynchronousiocontroldevice.htm
 old-project: stream
 ms.assetid: 7e4ca8ea-52c1-462e-bf02-cc82e9ab2be2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsSynchronousIoControlDevice, KsSynchronousIoControlDevice function [Streaming Media Devices], ks/KsSynchronousIoControlDevice, ksfunc_b3bba8f7-d9fb-4372-bfff-f39b4d925561.xml, stream.kssynchronousiocontroldevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsSynchronousIoControlDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,23 +52,6 @@ req.typenames:
 
 
 The <b>KsSynchronousIoControlDevice</b> function performs a synchronous device I/O control on the target device object. It waits in a nonalertable state until the I/O completes. This function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsSynchronousIoControlDevice(
-  _In_  PFILE_OBJECT    FileObject,
-  _In_  KPROCESSOR_MODE RequesorMode,
-  _In_  ULONG           IoControl,
-  _In_  PVOID           InBuffer,
-  _In_  ULONG           InSize,
-  _Out_ PVOID           OutBuffer,
-  _In_  ULONG           OutSize,
-  _Out_ PULONG          BytesReturned
-);
-````
 
 
 ## -parameters

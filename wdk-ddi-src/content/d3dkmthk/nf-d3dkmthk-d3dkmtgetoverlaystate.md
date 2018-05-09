@@ -7,7 +7,7 @@ old-location: display\d3dkmtgetoverlaystate.htm
 old-project: display
 ms.assetid: 6e3db876-c9f9-4de9-a0e2-5911132b72be
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTGetOverlayState, D3DKMTGetOverlayState function [Display Devices], OpenGL_Functions_f2301345-c6d8-42bf-82f9-f8f97d29674f.xml, d3dkmthk/D3DKMTGetOverlayState, display.d3dkmtgetoverlaystate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTGetOverlayState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTGetOverlayState function
@@ -55,26 +56,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTGetOverlayState</b> function retrieves the status about an overlay.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTGetOverlayState(
-  _Inout_ D3DKMT_GETOVERLAYSTATE *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getoverlaystate.md">D3DKMT_GETOVERLAYSTATE</a> structure that describes parameters to retrieve status about an overlay. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548049">D3DKMT_GETOVERLAYSTATE</a> structure that describes parameters to retrieve status about an overlay. 
 
 
 ## -returns
@@ -131,12 +127,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getoverlaystate.md">D3DKMT_GETOVERLAYSTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548049">D3DKMT_GETOVERLAYSTATE</a>
  
 
  
-
 

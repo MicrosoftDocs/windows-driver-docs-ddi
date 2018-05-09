@@ -7,7 +7,7 @@ old-location: bltooth\l2cap_config_option.htm
 old-project: bltooth
 ms.assetid: 9759c2b5-91c7-46e9-97dd-8268bf24db78
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PL2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION structure [Bluetooth Devices], PL2CAP_CONFIG_OPTION, PL2CAP_CONFIG_OPTION structure pointer [Bluetooth Devices], _L2CAP_CONFIG_OPTION, bltooth.l2cap_config_option, bth_structs_029f895f-fc15-4e53-9987-72f9930bc9ab.xml, bthddi/L2CAP_CONFIG_OPTION, bthddi/PL2CAP_CONFIG_OPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	L2CAP_CONFIG_OPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION
 ---
@@ -51,22 +52,9 @@ req.typenames: L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION
 
 An array of L2CAP_CONFIG_OPTION structures is used to specify values for the 
   <b>ExtraOptions</b> member of the 
-  <a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>, 
-  <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>, and 
-  <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a> structures.
-
-
-## -syntax
-
-
-````
-typedef struct _L2CAP_CONFIG_OPTION {
-  CO_HEADER      Header;
-  VOID UNALIGNED *DynamicBuffer;
-  UCHAR          FixedBuffer[4];
-  USHORT         Flags;
-} L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536659">CHANNEL_CONFIG_PARAMETERS</a>, 
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a>, and 
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536680">INDICATION_PARAMETERS</a> structures.
 
 
 ## -struct-fields
@@ -77,7 +65,7 @@ typedef struct _L2CAP_CONFIG_OPTION {
 ### -field Header
 
 A 
-     <a href="..\bthddi\ns-bthddi-_co_header.md">CO_HEADER</a> structure that specifies information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536673">CO_HEADER</a> structure that specifies information
      about vendor-specific configuration options.
 
 
@@ -135,20 +123,19 @@ If set, the
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536659">CHANNEL_CONFIG_PARAMETERS</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536680">INDICATION_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a>
  
 
  
-
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTarget.GetTargetFile
-title: IWDFIoTarget::GetTargetFile method
+title: IWDFIoTarget::GetTargetFile
 author: windows-driver-content
 description: The GetTargetFile method retrieves the framework file object that is associated with the I/O target object.
 old-location: wdf\iwdfiotarget_gettargetfile.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d38ede60-9bcf-4c90-8c41-8f1edf1a1d23
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetTargetFile method, GetTargetFile method, IWDFIoTarget interface, GetTargetFile,IWDFIoTarget.GetTargetFile, IWDFIoTarget, IWDFIoTarget interface, GetTargetFile method, IWDFIoTarget::GetTargetFile, UMDFIoTargetObjectRef_c31a719b-616e-4559-851a-a9f5c35bc9e5.xml, umdf.iwdfiotarget_gettargetfile, wdf.iwdfiotarget_gettargetfile, wudfddi/IWDFIoTarget::GetTargetFile
+ms.keywords: GetTargetFile, GetTargetFile method, GetTargetFile method,IWDFIoTarget interface, IWDFIoTarget interface,GetTargetFile method, IWDFIoTarget.GetTargetFile, IWDFIoTarget::GetTargetFile, UMDFIoTargetObjectRef_c31a719b-616e-4559-851a-a9f5c35bc9e5.xml, umdf.iwdfiotarget_gettargetfile, wdf.iwdfiotarget_gettargetfile, wudfddi/IWDFIoTarget::GetTargetFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoTarget.GetTargetFile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoTarget::GetTargetFile method
+# IWDFIoTarget::GetTargetFile
 
 
 ## -description
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetTargetFile</b> method retrieves the framework file object that is associated with the I/O target object.
-
-
-## -syntax
-
-
-````
-void GetTargetFile(
-  [out] IWDFFile **ppFileObject
-);
-````
 
 
 ## -parameters
@@ -79,7 +69,7 @@ void GetTargetFile(
 
 #### - ppFileObject [out]
 
-Pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface for the I/O target's file object.
+Pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface for the I/O target's file object.
 
 
 ## -returns
@@ -114,16 +104,15 @@ For a code example of how to use the <b>GetTargetFile</b> method, see <a href="h
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a>
  
 
  
-
 

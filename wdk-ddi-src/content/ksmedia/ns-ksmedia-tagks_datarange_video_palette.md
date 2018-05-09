@@ -7,7 +7,7 @@ old-location: stream\ks_datarange_video_palette.htm
 old-project: stream
 ms.assetid: 45488748-fc7e-47a6-8427-479c63d74a27
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DATARANGE_VIDEO_PALETTE, KS_DATARANGE_VIDEO_PALETTE, KS_DATARANGE_VIDEO_PALETTE structure [Streaming Media Devices], PKS_DATARANGE_VIDEO_PALETTE, PKS_DATARANGE_VIDEO_PALETTE structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO_PALETTE, ksmedia/PKS_DATARANGE_VIDEO_PALETTE, stream.ks_datarange_video_palette, tagKS_DATARANGE_VIDEO_PALETTE, vidcapstruct_8bba39d4-8ffb-41df-b314-f63fe26d66fa.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DATARANGE_VIDEO_PALETTE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_VIDEO_PALETTE, *PKS_DATARANGE_VIDEO_PALETTE
 ---
@@ -50,22 +51,6 @@ req.typenames: KS_DATARANGE_VIDEO_PALETTE, *PKS_DATARANGE_VIDEO_PALETTE
 
 
 The KS_DATARANGE_VIDEO_PALETTE structure describes a stream and its color capabilities.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_DATARANGE_VIDEO_PALETTE {
-  KSDATARANGE                 DataRange;
-  BOOL                        bFixedSizeSamples;
-  BOOL                        bTemporalCompression;
-  DWORD                       StreamDescriptionFlags;
-  DWORD                       MemoryAllocationFlags;
-  KS_VIDEO_STREAM_CONFIG_CAPS ConfigCaps;
-  KS_VIDEOINFO                VideoInfo;
-} KS_DATARANGE_VIDEO_PALETTE, *PKS_DATARANGE_VIDEO_PALETTE;
-````
 
 
 ## -struct-fields
@@ -110,7 +95,6 @@ Specifies the details of the video stream.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
 
@@ -118,12 +102,12 @@ Specifies the details of the video stream.
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfo.md">KS_VIDEOINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567698">KS_VIDEOINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567706">KS_VIDEO_STREAM_CONFIG_CAPS</a>
  
 
  
-
 

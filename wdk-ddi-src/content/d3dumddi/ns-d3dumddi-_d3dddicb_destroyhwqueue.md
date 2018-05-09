@@ -7,7 +7,7 @@ old-location: display\d3dddicb_destroyhwqueue.htm
 old-project: display
 ms.assetid: 80735E36-C483-4CD8-AB53-873BA5E997D0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_DESTROYHWQUEUE, D3DDDICB_DESTROYHWQUEUE structure [Display Devices], _D3DDDICB_DESTROYHWQUEUE, d3dumddi/D3DDDICB_DESTROYHWQUEUE, display.d3dddicb_destroyhwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_DESTROYHWQUEUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_DESTROYHWQUEUE
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DDDICB_DESTROYHWQUEUE
 
 
 A structure that holds information to destroy a hardware queue.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_DESTROYHWQUEUE {
-  HANDLE hHwQueue;
-} D3DDDICB_DESTROYHWQUEUE;
-````
 
 
 ## -struct-fields

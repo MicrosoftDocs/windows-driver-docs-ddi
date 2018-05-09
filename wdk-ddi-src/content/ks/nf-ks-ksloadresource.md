@@ -7,7 +7,7 @@ old-location: stream\ksloadresource.htm
 old-project: stream
 ms.assetid: a7b9dcca-ce89-4fde-9e58-3c4a675227bc
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsLoadResource, KsLoadResource function [Streaming Media Devices], ks/KsLoadResource, ksfunc_d966a58a-b0f0-411f-a19c-1db726efc56e.xml, stream.ksloadresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsLoadResource
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,21 +52,6 @@ req.typenames:
 
 
 Copies (loads) a resource from the given image. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsLoadResource(
-  _In_      PVOID     ImageBase,
-  _In_      POOL_TYPE PoolType,
-  _In_      ULONG_PTR ResourceName,
-  _In_      ULONG     ResourceType,
-  _Out_     PVOID     *Resource,
-  _Out_opt_ PULONG    ResourceSize
-);
-````
 
 
 ## -parameters

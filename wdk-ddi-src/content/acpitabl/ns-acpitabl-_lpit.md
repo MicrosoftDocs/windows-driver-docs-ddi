@@ -38,7 +38,8 @@ api_location:
 -	acpitabl.h
 api_name:
 -	LPIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LPIT, *PLPIT
 ---
@@ -50,17 +51,6 @@ req.typenames: LPIT, *PLPIT
 
 
 Defines an LPI ACPI table.
-
-
-## -syntax
-
-
-````
-typedef struct _LPIT {
-  DESCRIPTION_HEADER   Header;
-  LPI_STATE_DESCRIPTOR LpiStates[ANYSIZE_ARRAY];
-} LPIT, *PLPIT;
-````
 
 
 ## -struct-fields

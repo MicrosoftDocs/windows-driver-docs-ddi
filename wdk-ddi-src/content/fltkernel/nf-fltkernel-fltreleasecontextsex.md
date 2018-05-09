@@ -7,7 +7,7 @@ old-location: ifsk\fltreleasecontextsex.htm
 old-project: ifsk
 ms.assetid: AC0811C9-8746-40F4-801E-6A1567ABDE0B
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltReleaseContextsEx, FltReleaseContextsEx routine [Installable File System Drivers], fltkernel/FltReleaseContextsEx, ifsk.fltreleasecontextsex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltReleaseContextsEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltReleaseContextsEx function
@@ -49,18 +50,7 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-<b>FltReleaseContextsEx</b> releases each context in a given <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure.
-
-
-## -syntax
-
-
-````
-VOID FltReleaseContextsEx(
-  _In_ SIZE_T                ContextsSize,
-  _In_ PFLT_RELATED_CONTEXTS Contexts
-);
-````
+<b>FltReleaseContextsEx</b> releases each context in a given <a href="https://msdn.microsoft.com/library/windows/hardware/hh967703">FLT_RELATED_CONTEXTS_EX</a> structure.
 
 
 ## -parameters
@@ -70,12 +60,12 @@ VOID FltReleaseContextsEx(
 
 ### -param ContextsSize [in]
 
-The size, in bytes, of the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure pointed to by <i>Contexts</i>. Set to <b>sizeof</b>(FLT_RELATED_CONTEXTS_EX).
+The size, in bytes, of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967703">FLT_RELATED_CONTEXTS_EX</a> structure pointed to by <i>Contexts</i>. Set to <b>sizeof</b>(FLT_RELATED_CONTEXTS_EX).
 
 
 ### -param Contexts [in]
 
-Pointer to the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure. 
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967703">FLT_RELATED_CONTEXTS_EX</a> structure. 
 
 
 ## -returns
@@ -91,9 +81,9 @@ None
 
 
 
-<b>FltReleaseContextsEx</b> decrements the reference count on all contexts in the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure and sets all members of the structure to NULL_CONTEXT. 
+<b>FltReleaseContextsEx</b> decrements the reference count on all contexts in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967703">FLT_RELATED_CONTEXTS_EX</a> structure and sets all members of the structure to NULL_CONTEXT. 
 
-To get the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a> structure for a given minifilter driver for a given I/O request, call <a href="..\fltkernel\nf-fltkernel-fltgetcontextsex.md">FltGetContextsEx</a>. 
+To get the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967703">FLT_RELATED_CONTEXTS_EX</a> structure for a given minifilter driver for a given I/O request, call <a href="https://msdn.microsoft.com/library/windows/hardware/hh967699">FltGetContextsEx</a>. 
 
 For more information about context reference counting, see <a href="https://msdn.microsoft.com/9ac3aedb-e057-4e19-9de5-709311072b09">Referencing Contexts</a>. 
 
@@ -106,28 +96,27 @@ When each context's reference count reaches zero, the context is freed immediate
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts_ex.md">FLT_RELATED_CONTEXTS_EX</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544629">FLT_CONTEXT_REGISTRATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967703">FLT_RELATED_CONTEXTS_EX</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetcontextsex.md">FltGetContextsEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541710">FltAllocateContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967699">FltGetContextsEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544314">FltReleaseContext</a>
  
 
  
-
 

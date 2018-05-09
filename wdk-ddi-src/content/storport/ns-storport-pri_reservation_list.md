@@ -7,7 +7,7 @@ old-location: storage\pri_reservation_list.htm
 old-project: storage
 ms.assetid: 5756e907-008a-49c3-b1cd-947cb0ce1bd4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST structure pointer [Storage Devices], PRI_RESERVATION_LIST, PRI_RESERVATION_LIST structure [Storage Devices], storage.pri_reservation_list, storport/PPRI_RESERVATION_LIST, storport/PRI_RESERVATION_LIST, structs-general_10a53f53-2aed-4be1-bf2b-d61efa2c846f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	PRI_RESERVATION_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRI_RESERVATION_LIST, *PPRI_RESERVATION_LIST
-req.product: Windows 10 or later.
 ---
 
 # PRI_RESERVATION_LIST structure
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The PRI_RESERVATION_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  UCHAR                      Generation[4];
-  UCHAR                      AdditionalLength[4];
-  PRI_RESERVATION_DESCRIPTOR Reservations[];
-} PRI_RESERVATION_LIST, *PPRI_RESERVATION_LIST;
-````
 
 
 ## -struct-fields
@@ -91,19 +79,18 @@ An array of reservation descriptors.
 
 
 
-The <a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560582">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_persistent_reserve_in.md">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560582">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
  
 
  
-
 

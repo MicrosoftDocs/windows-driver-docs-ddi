@@ -7,7 +7,7 @@ old-location: display\d3dkmt_polldisplaychildren.htm
 old-project: display
 ms.assetid: 39d62c39-a892-4ccd-aea6-32d102d1891c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_POLLDISPLAYCHILDREN, D3DKMT_POLLDISPLAYCHILDREN structure [Display Devices], OpenGL_Structs_08c4958e-cea3-4912-8944-98acb726d798.xml, _D3DKMT_POLLDISPLAYCHILDREN, d3dkmthk/D3DKMT_POLLDISPLAYCHILDREN, display.d3dkmt_polldisplaychildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_POLLDISPLAYCHILDREN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_POLLDISPLAYCHILDREN
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DKMT_POLLDISPLAYCHILDREN
 
 
 The D3DKMT_POLLDISPLAYCHILDREN structure describes parameters for querying for connectivity status of all child devices of the given display adapter.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_POLLDISPLAYCHILDREN {
-  D3DKMT_HANDLE hAdapter;
-  UINT          NonDestructiveOnly;
-  UINT          SynchronousPolling;
-  UINT          DisableModeReset;
-  UINT          PollAllAdapters;
-  UINT          PollInterruptible;
-  UINT          Reserved;
-} D3DKMT_POLLDISPLAYCHILDREN;
-````
 
 
 ## -struct-fields
@@ -80,14 +65,14 @@ typedef struct _D3DKMT_POLLDISPLAYCHILDREN {
 
 ### -field NonDestructiveOnly
 
-[in] A UINT value that specifies whether the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpolldisplaychildren.md">D3DKMTPollDisplayChildren</a> function should be only nondestructive. A nonzero value indicates only a nondestructive call; a zero value indicates the call can be destructive (that is, the call can cause visual artifacts on the screen). 
+[in] A UINT value that specifies whether the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547077">D3DKMTPollDisplayChildren</a> function should be only nondestructive. A nonzero value indicates only a nondestructive call; a zero value indicates the call can be destructive (that is, the call can cause visual artifacts on the screen). 
 
 
 ### -field SynchronousPolling
 
 Supported beginning with Windows 7 operating system.
 
-[in] A UINT value that specifies whether the connectivity status of all child devices is reported within 1 second of the call to <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpolldisplaychildren.md">D3DKMTPollDisplayChildren</a>. If set to a nonzero value, connectivity status is reported within 1 second. Otherwise, there is no time limit on when the display miniport can complete and report the polling.
+[in] A UINT value that specifies whether the connectivity status of all child devices is reported within 1 second of the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547077">D3DKMTPollDisplayChildren</a>. If set to a nonzero value, connectivity status is reported within 1 second. Otherwise, there is no time limit on when the display miniport can complete and report the polling.
 
 If the display miniport driver needs to poll child devices after receiving notice of an ACPI event, the runtime should set <b>SynchronousPolling</b> to a nonzero value.
 
@@ -112,7 +97,7 @@ Supported beginning with Windows 7 operating system.
 
 [in] A UINT value that specifies whether child devices that are aware of hot-plug detection (HPD) are polled. If set to a nonzero value, HPD-aware child devices are polled. Otherwise, HPD-aware child devices might not be discovered in the polling.
 
-HPD-aware devices are those for which, in a call to <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>, the <b>ChildRelations</b>.<b>ChildCapabilities</b>.<b>HpdAwareness</b> member has a value not equal to HpdAwarenessUninitialized or HpdAwarenessNone.
+HPD-aware devices are those for which, in a call to <a href="https://msdn.microsoft.com/eb1a0df0-6239-4d82-8477-7dd015f80b6e">DxgkDdiQueryChildRelations</a>, the <b>ChildRelations</b>.<b>ChildCapabilities</b>.<b>HpdAwareness</b> member has a value not equal to HpdAwarenessUninitialized or HpdAwarenessNone.
 
 For more information on HPD-aware devices, see <a href="https://msdn.microsoft.com/170d2d5d-fd46-431d-9672-61fa048f7dd2">Monitor Hot Plug Detection</a>.
 
@@ -126,16 +111,15 @@ Supported beginning with Windows 7 operating system.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtpolldisplaychildren.md">D3DKMTPollDisplayChildren</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547077">D3DKMTPollDisplayChildren</a>
 
 
 
+<a href="https://msdn.microsoft.com/eb1a0df0-6239-4d82-8477-7dd015f80b6e">DxgkDdiQueryChildRelations</a>
  
 
  
-
 

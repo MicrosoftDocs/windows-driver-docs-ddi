@@ -7,7 +7,7 @@ old-location: display\dxgkarg_setvidpnsourceaddress.htm
 old-project: display
 ms.assetid: b83736b6-17c5-43b8-9204-d165fe07853b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_SETVIDPNSOURCEADDRESS, DXGKARG_SETVIDPNSOURCEADDRESS structure [Display Devices], DmStructs_f179199a-3747-4086-8e77-5434a3e287a1.xml, _DXGKARG_SETVIDPNSOURCEADDRESS, d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESS, display.dxgkarg_setvidpnsourceaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_SETVIDPNSOURCEADDRESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_SETVIDPNSOURCEADDRESS
 ---
@@ -50,25 +51,6 @@ req.typenames: DXGKARG_SETVIDPNSOURCEADDRESS
 
 
 The DXGKARG_SETVIDPNSOURCEADDRESS structure contains arguments for the <a href="https://msdn.microsoft.com/488c929b-3816-457f-b5c2-c176b93d5546">DxgkDdiSetVidPnSourceAddress</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETVIDPNSOURCEADDRESS {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID   VidPnSourceId;
-  UINT                             PrimarySegment;
-  PHYSICAL_ADDRESS                 PrimaryAddress;
-  HANDLE                           hAllocation;
-  UINT                             ContextCount;
-  HANDLE                           Context[1+D3DDDI_MAX_BROADCAST_CONTEXT];
-  DXGK_SETVIDPNSOURCEADDRESS_FLAGS Flags;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-  UINT                             Duration;
-#endif 
-} DXGKARG_SETVIDPNSOURCEADDRESS;
-````
 
 
 ## -struct-fields
@@ -93,7 +75,7 @@ The address, within the segment identified by <i>PrimarySegment</i>, of the sour
 
 ### -field hAllocation
 
-[in] If non-NULL, a handle that the display miniport driver assigned to the allocation and returned from its call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function. The driver must reprogram graphics hardware according to the specific private properties of the allocation, which include but are not limited to pitch size, swizzle format, and so on. 
+[in] If non-NULL, a handle that the display miniport driver assigned to the allocation and returned from its call to the <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> function. The driver must reprogram graphics hardware according to the specific private properties of the allocation, which include but are not limited to pitch size, swizzle format, and so on. 
 
 
 ### -field ContextCount
@@ -108,7 +90,7 @@ The address, within the segment identified by <i>PrimarySegment</i>, of the sour
 
 ### -field Flags
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure that identifies the type of display operation to perform.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562052">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure that identifies the type of display operation to perform.
 
 
 ### -field Duration
@@ -148,20 +130,19 @@ For display mode-switch operations, the <b>ContextCount</b> member is always set
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562052">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
 
 
 
 <a href="https://msdn.microsoft.com/488c929b-3816-457f-b5c2-c176b93d5546">DxgkDdiSetVidPnSourceAddress</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
-
-
  
 
  
-
 

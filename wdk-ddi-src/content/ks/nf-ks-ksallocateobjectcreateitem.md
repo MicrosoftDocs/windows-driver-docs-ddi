@@ -7,7 +7,7 @@ old-location: stream\ksallocateobjectcreateitem.htm
 old-project: stream
 ms.assetid: 43c3894c-5568-4cba-80ed-1d4e4388547b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAllocateObjectCreateItem, KsAllocateObjectCreateItem function [Streaming Media Devices], ks/KsAllocateObjectCreateItem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, stream.ksallocateobjectcreateitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAllocateObjectCreateItem
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,19 +52,6 @@ req.typenames:
 
 
 The <b>KsAllocateObjectCreateItem</b> function allocates a slot for the specified create item, optionally allocating space for and copying the create item data as well. This function assumes that the caller is serializing multiple changes to the create entry list.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAllocateObjectCreateItem(
-  _In_     KSDEVICE_HEADER       Header,
-  _In_     PKSOBJECT_CREATE_ITEM CreateItem,
-  _In_     BOOLEAN               AllocateEntry,
-  _In_opt_ PFNKSITEMFREECALLBACK ItemFreeCallback
-);
-````
 
 
 ## -parameters
@@ -102,12 +90,11 @@ Returns STATUS_SUCCESS if a new item was allocated and attached. Otherwise, it r
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567188">KStrItemFreeCallback</a>
-
-
-
  
 
  
-
 

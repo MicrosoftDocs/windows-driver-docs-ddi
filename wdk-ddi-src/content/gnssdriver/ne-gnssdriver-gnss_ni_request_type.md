@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_NI_REQUEST_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_NI_REQUEST_TYPE
 ---
@@ -49,18 +50,7 @@ req.typenames: GNSS_NI_REQUEST_TYPE
 ## -description
 
 
-This enumeration indicates the network initiated (NI) request type represented by the <a href="..\gnssdriver\ns-gnssdriver-gnss_ni_request_param.md">GNSS_NI_REQUEST_PARAM</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_NI_Request_SingleShot   = 0x01,
-  GNSS_NI_Request_AreaTrigger  = 0x02
-} GNSS_NI_REQUEST_TYPE;
-````
+This enumeration indicates the network initiated (NI) request type represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925191">GNSS_NI_REQUEST_PARAM</a> structure.
 
 
 ## -enum-fields

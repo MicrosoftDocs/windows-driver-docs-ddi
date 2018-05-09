@@ -7,8 +7,8 @@ old-location: stream\ioctl_lamp_set_mode.htm
 old-project: stream
 ms.assetid: 188F8AC8-BB1A-43C1-9933-5E03F954C2C0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_LAMP_SET_MODE, IOCTL_LAMP_SET_MODE control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_MODE, stream.ioctl_lamp_set_mode
+ms.date: 4/23/2018
+ms.keywords: IOCTL_LAMP_SET_MODE, IOCTL_LAMP_SET_MODE control, IOCTL_LAMP_SET_MODE control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_MODE, stream.ioctl_lamp_set_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	lamp.h
 api_name:
 -	IOCTL_LAMP_SET_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LAMP_MODE
+req.typenames: 
 ---
 
 # IOCTL_LAMP_SET_MODE IOCTL
@@ -70,12 +71,12 @@ The <b>IOCTL_LAMP_SET_MODE</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="..\lamp\ne-lamp-lamp_mode.md">LAMP_MODE</a>.
+<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn937009">LAMP_MODE</a>.
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\lamp\ne-lamp-lamp_mode.md">LAMP_MODE</a>.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937009">LAMP_MODE</a>.
 
 
 ### -output-buffer

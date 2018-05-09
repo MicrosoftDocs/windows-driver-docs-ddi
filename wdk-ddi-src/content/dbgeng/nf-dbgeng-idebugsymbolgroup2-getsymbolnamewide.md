@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolNameWide
-title: IDebugSymbolGroup2::GetSymbolNameWide method
+title: IDebugSymbolGroup2::GetSymbolNameWide
 author: windows-driver-content
 description: The GetSymbolNameWide method returns the name of a symbol in a symbol group.
 old-location: debugger\getsymbolnamewide.htm
 old-project: debugger
 ms.assetid: b5de2450-8003-4866-86e8-1fd251e1552c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetSymbolNameWide method [Windows Debugging], GetSymbolNameWide method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolNameWide,IDebugSymbolGroup2.GetSymbolNameWide, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolNameWide method, IDebugSymbolGroup2::GetSymbolNameWide, dbgeng/IDebugSymbolGroup2::GetSymbolNameWide, debugger.getsymbolnamewide
+ms.date: 4/24/2018
+ms.keywords: GetSymbolNameWide, GetSymbolNameWide method [Windows Debugging], GetSymbolNameWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolNameWide method, IDebugSymbolGroup2.GetSymbolNameWide, IDebugSymbolGroup2::GetSymbolNameWide, dbgeng/IDebugSymbolGroup2::GetSymbolNameWide, debugger.getsymbolnamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbolGroup2.GetSymbolNameWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbolGroup2::GetSymbolNameWide method
+# IDebugSymbolGroup2::GetSymbolNameWide
 
 
 ## -description
 
 
 The <b>GetSymbolNameWide</b> method returns the name of a symbol in a symbol group.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolNameWide(
-  [in]            ULONG  Index,
-  [out, optional] PWSTR  Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG NameSize
-);
-````
 
 
 ## -parameters
@@ -140,16 +128,15 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550846">IDebugSymbolGroup2</a>
  
 
  
-
 

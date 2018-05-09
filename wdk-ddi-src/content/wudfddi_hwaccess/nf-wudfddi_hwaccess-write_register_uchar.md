@@ -38,10 +38,10 @@ api_location:
 -	Wudfddi_hwaccess.h
 api_name:
 -	WRITE_REGISTER_UCHAR
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WRITE_REGISTER_UCHAR function
@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>WRITE_REGISTER_UCHAR</b> routine writes a byte to the specified address.
 
 
-## -syntax
-
-
-````
-void WRITE_REGISTER_UCHAR(
-  _In_ IWDFDevice3 *pDevice,
-  _In_ PUCHAR      Register,
-  _In_ UCHAR       Value
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ void WRITE_REGISTER_UCHAR(
 
 ### -param pDevice [in]
 
-Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ### -param Register [in]

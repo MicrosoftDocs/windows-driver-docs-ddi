@@ -7,8 +7,8 @@ old-location: display\dxgkddigetpossiblebrightness.htm
 old-project: display
 ms.assetid: aed565f5-a9c1-4130-a192-68bb699b4bd1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGK_BRIGHTNESS_GET_POSSIBLE, DmFunctions_b14a6b62-e156-4548-9a0d-0a256cf84069.xml, DxgkDdiGetPossibleBrightness, DxgkDdiGetPossibleBrightness callback function [Display Devices], display.dxgkddigetpossiblebrightness, dispmprt/DxgkDdiGetPossibleBrightness
+ms.date: 4/16/2018
+ms.keywords: DXGK_BRIGHTNESS_GET_POSSIBLE, DXGK_BRIGHTNESS_GET_POSSIBLE callback, DmFunctions_b14a6b62-e156-4548-9a0d-0a256cf84069.xml, DxgkDdiGetPossibleBrightness, DxgkDdiGetPossibleBrightness callback function [Display Devices], display.dxgkddigetpossiblebrightness, dispmprt/DxgkDdiGetPossibleBrightness
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,34 +38,19 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkDdiGetPossibleBrightness
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGK_BRIGHTNESS_GET_POSSIBLE callback
+# DXGK_BRIGHTNESS_GET_POSSIBLE callback function
 
 
 ## -description
 
 
 The <i>DxgkDdiGetPossibleBrightness</i> function retrieves the brightness levels that an integrated display panel supports.
-
-
-## -prototype
-
-
-````
-DXGK_BRIGHTNESS_GET_POSSIBLE DxgkDdiGetPossibleBrightness;
-
-NTSTATUS* DxgkDdiGetPossibleBrightness(
-  _In_  PVOID  Context,
-  _In_  ULONG  BufferSize,
-  _Out_ PUCHAR LevelCount,
-  _Out_ PUCHAR BrightnessLevels
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -75,7 +60,7 @@ NTSTATUS* DxgkDdiGetPossibleBrightness(
 
 ### -param Context [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 ### -param BufferSize [in]
@@ -131,12 +116,11 @@ To simplify your job of implementing a display miniport driver, the operating sy
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
  
 
  
-
 

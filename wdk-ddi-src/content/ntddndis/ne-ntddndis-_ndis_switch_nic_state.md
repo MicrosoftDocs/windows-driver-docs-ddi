@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_nic_state.htm
 old-project: netvista
 ms.assetid: 06FFECB3-0883-41CA-9BD3-A6A1D95D5F8C
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NDIS_SWITCH_NIC_STATE, NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchNicStateConnected, NdisSwitchNicStateCreated, NdisSwitchNicStateDeleted, NdisSwitchNicStateDisconnected, NdisSwitchNicStateUnknown, _NDIS_SWITCH_NIC_STATE, netvista.ndis_switch_nic_state, ntddndis/NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateCreated, ntddndis/NdisSwitchNicStateDeleted, ntddndis/NdisSwitchNicStateDisconnected, ntddndis/NdisSwitchNicStateUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SWITCH_NIC_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_NIC_STATE
 ---
@@ -50,20 +51,6 @@ req.typenames: NDIS_SWITCH_NIC_STATE
 
 
 The <b>NDIS_SWITCH_NIC_STATE</b> enumeration specifies the current state of the Hyper-V extensible switch network adapter. 
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_SWITCH_NIC_STATE { 
-  NdisSwitchNicStateUnknown       = 0,
-  NdisSwitchNicStateCreated       = 1,
-  NdisSwitchNicStateConnected     = 2,
-  NdisSwitchNicStateDisconnected  = 3,
-  NdisSwitchNicStateDeleted       = 4
-} NDIS_SWITCH_NIC_STATE;
-````
 
 
 ## -enum-fields
@@ -100,7 +87,7 @@ This value specifies that the NIC is deleted.
 
 
 
-The <b>NicState</b>  member of the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_STATE</b> enumeration data type. 
+The <b>NicState</b>  member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598215">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_STATE</b> enumeration data type. 
 
 
 For more information about extensible switch port states, see <a href="https://msdn.microsoft.com/61403FDE-90BF-4D0A-83E1-5AF8ADBD37A5">Overview of Hyper-V Extensible Switch Network Adapters</a>.
@@ -110,12 +97,11 @@ For more information about extensible switch port states, see <a href="https://m
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598215">NDIS_SWITCH_NIC_PARAMETERS</a>
  
 
  
-
 

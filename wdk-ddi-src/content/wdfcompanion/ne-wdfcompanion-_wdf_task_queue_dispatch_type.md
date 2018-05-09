@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	WDF_TASK_QUEUE_DISPATCH_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_TASK_QUEUE_DISPATCH_TYPE enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 For internal use only.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_TASK_QUEUE_DISPATCH_TYPE { 
-  WdfTaskQueueDispatchInvalid     = 0,
-  WdfTaskQueueDispatchSequential,
-  WdfTaskQueueDispatchParallel,
-  WdfTaskQueueDispatchMax
-} WDF_TASK_QUEUE_DISPATCH_TYPE;
-````
 
 
 ## -enum-fields

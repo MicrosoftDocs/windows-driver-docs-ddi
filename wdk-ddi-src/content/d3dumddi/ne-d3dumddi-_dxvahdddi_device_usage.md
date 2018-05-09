@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_device_usage.htm
 old-project: display
 ms.assetid: 9a2e74fa-ee02-46f9-a51e-b2ffcdf7617a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_37d96cb2-48a3-4538-9225-e63bfe0b5b5f.xml, DXVAHDDDI_DEVICE_USAGE, DXVAHDDDI_DEVICE_USAGE enumeration [Display Devices], DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, _DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, d3dumddi/DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, display.dxvahdddi_device_usage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVAHDDDI_DEVICE_USAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_DEVICE_USAGE
 ---
@@ -50,18 +51,6 @@ req.typenames: DXVAHDDDI_DEVICE_USAGE
 
 
 The DXVAHDDDI_DEVICE_USAGE enumeration contains values that identify how the decode device plays video. 
-
-
-## -syntax
-
-
-````
-typedef enum _DXVAHDDDI_DEVICE_USAGE { 
-  DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL  = 0,
-  DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED    = 1,
-  DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY  = 2
-} DXVAHDDDI_DEVICE_USAGE;
-````
 
 
 ## -enum-fields
@@ -88,19 +77,18 @@ A value that specifies that the device plays video at optimal quality.
 
 
 
-A DXVAHDDDI_DEVICE_USAGE-typed value is specified in the <b>Usage</b> member of a <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_device_desc.md">DXVAHDDDI_DEVICE_DESC</a> structure to help describe a decode device.
+A DXVAHDDDI_DEVICE_USAGE-typed value is specified in the <b>Usage</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563048">DXVAHDDDI_DEVICE_DESC</a> structure to help describe a decode device.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_device_desc.md">DXVAHDDDI_DEVICE_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563048">DXVAHDDDI_DEVICE_DESC</a>
  
 
  
-
 

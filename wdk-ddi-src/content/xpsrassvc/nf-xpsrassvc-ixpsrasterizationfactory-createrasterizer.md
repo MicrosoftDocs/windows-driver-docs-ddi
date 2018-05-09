@@ -1,14 +1,14 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizationFactory.CreateRasterizer
-title: IXpsRasterizationFactory::CreateRasterizer method
+title: IXpsRasterizationFactory::CreateRasterizer
 author: windows-driver-content
 description: The CreateRasterize method creates an XPS rasterizer object.
 old-location: print\ixpsrasterizationfactory_createrasterizer.htm
 old-project: print
 ms.assetid: 07d4f1ed-5dbe-47c1-96e8-dfe21e0c1d0d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices], IXpsRasterizationFactory interface, CreateRasterizer,IXpsRasterizationFactory.CreateRasterizer, IXpsRasterizationFactory, IXpsRasterizationFactory interface [Print Devices], CreateRasterizer method, IXpsRasterizationFactory::CreateRasterizer, print.ixpsrasterizationfactory_createrasterizer, print_xpsrast_5eddcd20-40a0-47da-8b1c-94d17902d783.xml, xpsrassvc/IXpsRasterizationFactory::CreateRasterizer
+ms.date: 4/20/2018
+ms.keywords: CreateRasterizer, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices],IXpsRasterizationFactory interface, IXpsRasterizationFactory interface [Print Devices],CreateRasterizer method, IXpsRasterizationFactory.CreateRasterizer, IXpsRasterizationFactory::CreateRasterizer, print.ixpsrasterizationfactory_createrasterizer, print_xpsrast_5eddcd20-40a0-47da-8b1c-94d17902d783.xml, xpsrassvc/IXpsRasterizationFactory::CreateRasterizer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	IXpsRasterizationFactory.CreateRasterizer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: XPSRAS_BACKGROUND_COLOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IXpsRasterizationFactory::CreateRasterizer method
+# IXpsRasterizationFactory::CreateRasterizer
 
 
 ## -description
 
 
 The <code>CreateRasterize</code> method creates an XPS rasterizer object.
-
-
-## -syntax
-
-
-````
-HRESULT CreateRasterizer(
-  [in, optional]  IXpsOMPage            *xpsPage,
-  [in]            FLOAT                 DPI,
-  [in]            XPSRAS_RENDERING_MODE nonTextRenderingMode,
-  [in]            XPSRAS_RENDERING_MODE textRenderingMode,
-  [out, optional] IXpsRasterizer        **ppIXPSRasterizer
-);
-````
 
 
 ## -parameters
@@ -84,7 +70,7 @@ Dots per inch in the rasterized output. This parameter applies to both the x and
 
 ### -param nonTextRenderingMode [in]
 
-Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following <a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md">XPSRAS_RENDERING_MODE</a> enumeration values:
+Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff564291">XPSRAS_RENDERING_MODE</a> enumeration values:
 
 <ul>
 <li>
@@ -114,7 +100,7 @@ XPSRAS_RENDERING_MODE_ALIASED
 
 ### -param ppIXPSRasterizer [out, optional]
 
-This parameter points to a location into which the method writes a pointer to the <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
+This parameter points to a location into which the method writes a pointer to the <a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
 
 
 ## -returns
@@ -190,11 +176,14 @@ For a code example that calls the <code>CreateRasterizer</code> method, see the 
 
 ## -see-also
 
-<a href="..\xpsrassvc\ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001.md">XPSRAS_RENDERING_MODE</a>
 
 
 
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizationfactory.md">IXpsRasterizationFactory</a>
+<a href="https://msdn.microsoft.com/559bdc65-282e-42b2-998a-276202376c1e">IXpsRasterizationFactory</a>
+
+
+
+<a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a>
 
 
 
@@ -202,12 +191,8 @@ For a code example that calls the <code>CreateRasterizer</code> method, see the 
 
 
 
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564291">XPSRAS_RENDERING_MODE</a>
  
 
  
-
 

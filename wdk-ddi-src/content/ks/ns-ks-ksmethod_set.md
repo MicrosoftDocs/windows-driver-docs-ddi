@@ -7,7 +7,7 @@ old-location: stream\ksmethod_set.htm
 old-project: stream
 ms.assetid: e06bbf6f-f636-4fb1-8195-b74512d4cd13
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSMETHOD_SET, KSMETHOD_SET, KSMETHOD_SET structure [Streaming Media Devices], PKSMETHOD_SET, PKSMETHOD_SET structure pointer [Streaming Media Devices], ks-struct_c3d1123f-8d2a-491b-a748-df8d88c7d9bc.xml, ks/KSMETHOD_SET, ks/PKSMETHOD_SET, stream.ksmethod_set"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSMETHOD_SET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSMETHOD_SET, *PKSMETHOD_SET
 ---
@@ -50,20 +51,6 @@ req.typenames: KSMETHOD_SET, *PKSMETHOD_SET
 
 
 The KSMETHOD_SET structure describes the methods that comprise a kernel streaming method set.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  const GUID              *Set;
-  ULONG                   MethodsCount;
-  const KSMETHOD_ITEM     *MethodItem;
-  ULONG                   FastIoCount;
-  const KSFASTMETHOD_ITEM *FastIoTable;
-} KSMETHOD_SET, *PKSMETHOD_SET;
-````
 
 
 ## -struct-fields
@@ -83,7 +70,7 @@ Specifies the number of methods in this method set.
 
 ### -field MethodItem
 
-Points to an array of <a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a> structures. Each structure describes one method of the method set.
+Points to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a> structures. Each structure describes one method of the method set.
 
 
 ### -field FastIoCount
@@ -107,12 +94,11 @@ Microsoft provides several system-defined kernel streaming method set GUIDs. Min
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a>
  
 
  
-
 

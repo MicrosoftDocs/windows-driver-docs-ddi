@@ -7,7 +7,7 @@ old-location: netvista\ril_getcellbroadcastmsgconfig.htm
 old-project: netvista
 ms.assetid: eeb6392c-a399-4e08-b4f8-54577beddf19
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetCellBroadcastMsgConfig, RIL_GetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], netvista.ril_getcellbroadcastmsgconfig, rilapi/RIL_GetCellBroadcastMsgConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_GetCellBroadcastMsgConfig
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetCellBroadcastMsgConfig function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_GetCellBroadcastMsgConfig(
-   HRIL   hRil,
-   LPVOID lpContext,
-   DWORD  dwExecutor
-);
-````
 
 
 ## -parameters

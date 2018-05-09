@@ -7,7 +7,7 @@ old-location: spb\spbrequestcaptureioothertransferlist.htm
 old-project: SPB
 ms.assetid: 7AC76E6F-1250-49EB-BEA1-3807C65AC2B7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbrequestcaptureioothertransferlist, SpbRequestCaptureIoOtherTransferList, SpbRequestCaptureIoOtherTransferList method [Buses], spbcx/SpbRequestCaptureIoOtherTransferList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	spbcxstubs.dll
 api_name:
 -	SpbRequestCaptureIoOtherTransferList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpbRequestCaptureIoOtherTransferList function
@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SpbRequestCaptureIoOtherTransferList</b> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a> structure in the input buffer of the custom IOCTL request.
-
-
-## -syntax
-
-
-````
-NTSTATUS SpbRequestCaptureIoOtherTransferList(
-  _In_ SPBREQUEST SpbRequest
-);
-````
 
 
 ## -parameters
@@ -124,14 +114,14 @@ Cannot allocate the system resources that are required for this operation.
 
 
 
-This method must be called in the context of the process in which the buffer addresses are valid. Typically, the SPB controller driver calls this method from the <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> event callback function that the driver supplies as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450907">SpbControllerSetIoOtherCallback</a> method.
+This method must be called in the context of the process in which the buffer addresses are valid. Typically, the SPB controller driver calls this method from the <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> event callback function that the driver supplies as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450907">SpbControllerSetIoOtherCallback</a> method.
 
-The maximum IRQL at which the SPB controller driver can call this method depends on whether the originator of the I/O request is running in user mode or in kernel mode. If the request originated from user mode, the driver must call this method at PASSIVE_LEVEL. If the request originated from kernel mode, the driver must call this method at IRQL &lt;= DISPATCH_LEVEL. The driver can call the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetrequestormode.md">WdfRequestGetRequestorMode</a> method to determine the originator's mode. However, this call is typically unnecessary because the driver can rely on the SPB framework extension (SpbCx) to call the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> function at the appropriate IRQL.
+The maximum IRQL at which the SPB controller driver can call this method depends on whether the originator of the I/O request is running in user mode or in kernel mode. If the request originated from user mode, the driver must call this method at PASSIVE_LEVEL. If the request originated from kernel mode, the driver must call this method at IRQL &lt;= DISPATCH_LEVEL. The driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549971">WdfRequestGetRequestorMode</a> method to determine the originator's mode. However, this call is typically unnecessary because the driver can rely on the SPB framework extension (SpbCx) to call the driver's <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> function at the appropriate IRQL.
 
 
 #### Examples
 
-The following code example shows how an SPB controller driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> event callback function can use the <b>SpbRequestCaptureIoOtherTransferList</b> method to obtain the I/O buffer or buffers from a custom IOCTL request.
+The following code example shows how an SPB controller driver's <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> event callback function can use the <b>SpbRequestCaptureIoOtherTransferList</b> method to obtain the I/O buffer or buffers from a custom IOCTL request.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -188,15 +178,14 @@ exit:
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-
-
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450907">SpbControllerSetIoOtherCallback</a>
 
 
 
@@ -204,12 +193,12 @@ exit:
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetrequestormode.md">WdfRequestGetRequestorMode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450907">SpbControllerSetIoOtherCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549971">WdfRequestGetRequestorMode</a>
  
 
  
-
 

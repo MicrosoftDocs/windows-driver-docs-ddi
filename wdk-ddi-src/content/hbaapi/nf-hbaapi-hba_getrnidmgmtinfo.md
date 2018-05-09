@@ -7,7 +7,7 @@ old-location: storage\hba_getrnidmgmtinfo.htm
 old-project: storage
 ms.assetid: 8018d52d-4454-4826-933f-a34a70243547
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_GetRNIDMgmtInfo, HBA_GetRNIDMgmtInfo routine [Storage Devices], fibreHBA_rtns_73ba5195-497c-4105-9b4c-eccd637962b9.xml, hbaapi/HBA_GetRNIDMgmtInfo, storage.hba_getrnidmgmtinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_GetRNIDMgmtInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_GetRNIDMgmtInfo function
@@ -50,17 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_GetRNIDMgmtInfo</b> routine queries the HBA for request node identification data (RNID) management information. 
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_GetRNIDMgmtInfo(
-  _In_  HBA_HANDLE   HbaHandle,
-  _Out_ HBA_MGMTINFO *HbaMgmtInfo
-);
-````
 
 
 ## -parameters
@@ -82,12 +72,12 @@ TBD
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA to query for RNID. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA to query for RNID. 
 
 
 #### - HbaMgmtInfo [out]
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a> that holds the RNID management information. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557092">HBA_MgmtInfo</a> that holds the RNID management information. 
 
 
 ## -returns
@@ -131,20 +121,19 @@ Returned if an unspecified error occurred that prevented the retrieval of the ma
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_mgmtinfo.md">HBA_MgmtInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557092">HBA_MgmtInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
  
 
  
-
 

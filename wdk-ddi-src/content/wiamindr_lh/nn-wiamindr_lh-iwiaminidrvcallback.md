@@ -7,8 +7,8 @@ old-location: image\iwiaminidrvcallback_interface.htm
 old-project: image
 ms.assetid: cf2460c5-325f-43c3-a1fe-5b6982234194
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CallBack_2e94f80e-dde0-4289-8911-a769a909b4d8.xml, IWiaMiniDrvCallBack, IWiaMiniDrvCallBack interface [Imaging Devices], IWiaMiniDrvCallBack interface [Imaging Devices], described, image.iwiaminidrvcallback_interface, wiamindr_lh/IWiaMiniDrvCallBack
+ms.date: 4/23/2018
+ms.keywords: CallBack_2e94f80e-dde0-4289-8911-a769a909b4d8.xml, IWiaMiniDrvCallBack, IWiaMiniDrvCallBack interface [Imaging Devices], IWiaMiniDrvCallBack interface [Imaging Devices],described, image.iwiaminidrvcallback_interface, wiamindr_lh/IWiaMiniDrvCallBack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrvCallBack
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWiaMiniDrvCallBack interface

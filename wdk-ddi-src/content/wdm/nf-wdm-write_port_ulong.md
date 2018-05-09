@@ -7,7 +7,7 @@ old-location: kernel\write_port_ulong.htm
 old-project: kernel
 ms.assetid: fe7c8a20-dadb-4c8d-b208-8fbbf8c719a6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: WRITE_PORT_ULONG, WRITE_PORT_ULONG routine [Kernel-Mode Driver Architecture], k103_3cc5c915-f77f-4cec-af7c-bee345e2137a.xml, kernel.write_port_ulong, wdm/WRITE_PORT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Hal.dll
 api_name:
 -	WRITE_PORT_ULONG
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WRITE_PORT_ULONG function
@@ -54,28 +54,17 @@ req.product: Windows 10 or later.
 The <b>WRITE_PORT_ULONG</b> routine writes a ULONG value to the specified port address.
 
 
-## -syntax
-
-
-````
- VOID WRITE_PORT_ULONG(
-  _In_ PULONG Port,
-  _In_ ULONG  Value
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the port, which must be a mapped memory range in I/O space.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies a ULONG value to be written to the port. 
 

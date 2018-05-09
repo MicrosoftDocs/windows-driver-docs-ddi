@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.EnumConstrainedOptions
-title: IPrintCoreHelper::EnumConstrainedOptions method
+title: IPrintCoreHelper::EnumConstrainedOptions
 author: windows-driver-content
 description: The IPrintCoreHelper::EnumConstrainedOptions method provides a list of all of the options that are constrained in a particular feature, based on current settings.
 old-location: print\iprintcorehelper_enumconstrainedoptions.htm
 old-project: print
 ms.assetid: 16a9417c-6d47-49fc-9ba9-e2b522255942
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices], IPrintCoreHelper interface, EnumConstrainedOptions,IPrintCoreHelper.EnumConstrainedOptions, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], EnumConstrainedOptions method, IPrintCoreHelper::EnumConstrainedOptions, prcomoem/IPrintCoreHelper::EnumConstrainedOptions, print.iprintcorehelper_enumconstrainedoptions, print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml
+ms.date: 4/20/2018
+ms.keywords: EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],EnumConstrainedOptions method, IPrintCoreHelper.EnumConstrainedOptions, IPrintCoreHelper::EnumConstrainedOptions, prcomoem/IPrintCoreHelper::EnumConstrainedOptions, print.iprintcorehelper_enumconstrainedoptions, print_unidrv-pscript_allplugins_7a6e6657-1af2-4719-998a-a41090bee035.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreHelper.EnumConstrainedOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelper::EnumConstrainedOptions method
+# IPrintCoreHelper::EnumConstrainedOptions
 
 
 ## -description
 
 
 The <b>IPrintCoreHelper::EnumConstrainedOptions</b> method provides a list of all of the options that are constrained in a particular feature, based on current settings.
-
-
-## -syntax
-
-
-````
-STDMETHOD EnumConstrainedOptions(
-  [in, optional] CONST DEVMODE *pDevmode,
-  [in]           DWORD         cbSize,
-  [in]           PCSTR         pszFeatureKeyword,
-  [out]          PCSTR         *pConstrainedOptionList[],
-  [out]          DWORD         *pdwNumOptions
-);
-````
 
 
 ## -parameters
@@ -74,7 +60,7 @@ STDMETHOD EnumConstrainedOptions(
 
 ### -param pDevmode [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. If this pointer is provided, <b>IPrintCoreHelper::EnumConstrainedOptions</b> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff554230">IPrintOemUni::DevMode</a> or from a print ticket provider, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. If this pointer is provided, <b>IPrintCoreHelper::EnumConstrainedOptions</b> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff554230">IPrintOemUni::DevMode</a> or from a print ticket provider, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
 
 
 ### -param cbSize [in]
@@ -176,7 +162,10 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
+
+
+
+<a href="https://msdn.microsoft.com/db13410f-e4cb-4077-bb4b-7963e97b435c">IPrintCoreHelper</a>
 
 
 
@@ -185,11 +174,7 @@ An unexpected condition occurred. The core driver is probably in an invalid stat
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552965">IPrintCoreHelper::WhyConstrained</a>
-
-
-
  
 
  
-
 

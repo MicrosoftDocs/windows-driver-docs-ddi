@@ -7,7 +7,7 @@ old-location: display\iddcx_adapter_caps.htm
 old-project: display
 ms.assetid: 3a8610e4-22d5-4732-b4be-846449acb5b1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IDDCX_ADAPTER_CAPS, IDDCX_ADAPTER_CAPS structure [Display Devices], display.iddcx_adapter_caps, iddcx/IDDCX_ADAPTER_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_ADAPTER_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,21 +52,6 @@ req.typenames:
 
 Gives information about the capabilities of the adapter.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_ADAPTER_CAPS {
-  UINT                           Size;
-  IDDCX_ADAPTER_FLAGS            Flags;
-  UINT64                         MaxDisplayPipelineRate;
-  UINT                           MaxMonitorsSupported;
-  IDDCX_ENDPOINT_DIAGNOSTIC_INFO EndPointDiagnostics;
-  UINT                           StaticDesktopReencodeFrameCount;
-} IDDCX_ADAPTER_CAPS, *IDDCX_ADAPTER_CAPS;
-````
 
 
 ## -struct-fields

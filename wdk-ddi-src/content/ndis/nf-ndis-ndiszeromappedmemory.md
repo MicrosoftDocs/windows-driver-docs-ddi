@@ -7,7 +7,7 @@ old-location: netvista\ndiszeromappedmemory.htm
 old-project: netvista
 ms.assetid: 210e20a5-c101-4005-97fb-e549ff97e7ce
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisZeroMappedMemory, NdisZeroMappedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_41b91ff3-a113-4a69-bb38-ec3ba89cc0d7.xml, ndis/NdisZeroMappedMemory, netvista.ndiszeromappedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisZeroMappedMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisZeroMappedMemory macro
@@ -51,17 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 <b>NdisZeroMappedMemory</b> fills a block of memory that was mapped with a preceding call to 
   <b>NdisMMapIoSpace</b> with zeros.
-
-
-## -syntax
-
-
-````
-VOID NdisZeroMappedMemory(
-  _In_ PVOID Destination,
-  _In_ ULONG Length
-);
-````
 
 
 ## -parameters
@@ -87,7 +77,7 @@ A miniport driver can call
     <b>NdisZeroMappedMemory</b> to zero-initialize mapped device memory. The given 
     <i>Destination</i> and 
     <i>Length</i> must be a proper subrange of the range specified when the driver called 
-    <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>.
 
 <b>NdisZeroMappedMemory</b> is optimized, and a miniport driver can call this function any time that it
     needs to clear a mapped memory range.
@@ -97,20 +87,19 @@ A miniport driver can call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiszeromemory.md">NdisZeroMemory</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564698">NdisZeroMemory</a>
  
 
  
-
 

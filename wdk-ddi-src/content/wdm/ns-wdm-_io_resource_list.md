@@ -7,7 +7,7 @@ old-location: kernel\io_resource_list.htm
 old-project: kernel
 ms.assetid: d8c29339-274e-410a-893d-328703d902c3
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PIO_RESOURCE_LIST, IO_RESOURCE_LIST, IO_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PIO_RESOURCE_LIST, PIO_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _IO_RESOURCE_LIST, kernel.io_resource_list, kstruct_b_2e2d049f-a7c9-4051-8fa7-639bf03b5aae.xml, wdm/IO_RESOURCE_LIST, wdm/PIO_RESOURCE_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	IO_RESOURCE_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_RESOURCE_LIST, *PIO_RESOURCE_LIST
-req.product: Windows 10 or later.
 ---
 
 # _IO_RESOURCE_LIST structure
@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>IO_RESOURCE_LIST</b> structure describes a range of raw hardware resources, of various types, that can be used by a device. The resources specified represent a single, acceptable resource configuration for a device. An array of <b>IO_RESOURCE_LIST</b> structures is contained within each <a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _IO_RESOURCE_LIST {
-  USHORT                 Version;
-  USHORT                 Revision;
-  ULONG                  Count;
-  IO_RESOURCE_DESCRIPTOR Descriptors[1];
-} IO_RESOURCE_LIST, *PIO_RESOURCE_LIST;
-````
+The <b>IO_RESOURCE_LIST</b> structure describes a range of raw hardware resources, of various types, that can be used by a device. The resources specified represent a single, acceptable resource configuration for a device. An array of <b>IO_RESOURCE_LIST</b> structures is contained within each <a href="https://msdn.microsoft.com/library/windows/hardware/ff550609">IO_RESOURCE_REQUIREMENTS_LIST</a> structure.
 
 
 ## -struct-fields
@@ -88,7 +75,7 @@ The number of elements in the <b>Descriptors</b> array.
 
 ### -field Descriptors
 
-The first element in an array of one or more <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structures.
+The first element in an array of one or more <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structures.
 
 
 ## -remarks
@@ -102,16 +89,15 @@ This structure is the header for an array of <b>IO_RESOURCE_DESCRIPTOR</b> struc
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550609">IO_RESOURCE_REQUIREMENTS_LIST</a>
  
 
  
-
 

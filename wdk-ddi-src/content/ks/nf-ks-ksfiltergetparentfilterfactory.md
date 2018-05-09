@@ -7,7 +7,7 @@ old-location: stream\ksfiltergetparentfilterfactory.htm
 old-project: stream
 ms.assetid: 08b02410-3e18-4bfd-8f10-2a12a5f94e16
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFilterGetParentFilterFactory, KsFilterGetParentFilterFactory function [Streaming Media Devices], avfunc_fd87cd4c-2ce4-41c6-8b73-4ccebd6e3015.xml, ks/KsFilterGetParentFilterFactory, stream.ksfiltergetparentfilterfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsFilterGetParentFilterFactory
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,16 +53,6 @@ req.typenames:
 The<b> KsFilterGetParentFilterFactory</b> function returns the parent filter factory of the given filter.
 
 
-## -syntax
-
-
-````
-PKSFILTERFACTORY __inline KsFilterGetParentFilterFactory(
-  _In_ PKSFILTER Filter
-);
-````
-
-
 ## -parameters
 
 
@@ -69,14 +60,14 @@ PKSFILTERFACTORY __inline KsFilterGetParentFilterFactory(
 
 ### -param Filter [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for which to return the parent filter factory.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure for which to return the parent filter factory.
 
 
 ## -returns
 
 
 
-<b>KsFilterGetParentFilterFactory</b> returns a pointer to the parent <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure of <i>Filter.</i> This is the AVStream filter factory from which <i>Filter</i> was created.
+<b>KsFilterGetParentFilterFactory</b> returns a pointer to the parent <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> structure of <i>Filter.</i> This is the AVStream filter factory from which <i>Filter</i> was created.
 
 
 
@@ -85,27 +76,26 @@ A pointer to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure for w
 
 
 
-This call is an inline function call to <a href="..\ks\nf-ks-ksgetparent.md">KsGetParent</a>. Note that the object hierarchy is only guaranteed stable while the appropriate mutex is held, in this case the device mutex. For more information about mutexes, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
+This call is an inline function call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562658">KsGetParent</a>. Note that the object hierarchy is only guaranteed stable while the appropriate mutex is held, in this case the device mutex. For more information about mutexes, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetparent.md">KsGetParent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562658">KsGetParent</a>
  
 
  
-
 

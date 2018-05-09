@@ -7,8 +7,8 @@ old-location: display\dxgkddi_settargetadjustedcolorimetry.htm
 old-project: display
 ms.assetid: C37E0DE1-E849-440F-A11A-BB0E3F50BDFA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY, DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback function [Display Devices], display.dxgkddi_settargetadjustedcolorimetry, dispmprt/DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY, DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback, DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback function [Display Devices], display.dxgkddi_settargetadjustedcolorimetry, dispmprt/DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,30 +38,19 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback
+# DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback function
 
 
 ## -description
 
 
 Reports the colorimetry values selected by the OS for a target.
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY(
-  _In_ const Handle                         hAdapter,
-  _In_       D3DDDI_VIDEO_PRESENT_TARGET_ID TargetId,
-  _In_       DXGK_COLORIMETRY               AdjustedColorimetry
-);
-````
 
 
 ## -parameters

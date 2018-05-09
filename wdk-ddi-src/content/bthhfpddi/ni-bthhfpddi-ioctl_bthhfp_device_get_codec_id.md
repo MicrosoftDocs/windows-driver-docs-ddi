@@ -7,8 +7,8 @@ old-location: audio\ioctl_bthhfp_device_get_codec_id.htm
 old-project: audio
 ms.assetid: 38B67F0E-46A4-4AB5-B122-F5DE282FE52D
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IOCTL_BTHHFP_DEVICE_GET_CODEC_ID, IOCTL_BTHHFP_DEVICE_GET_CODEC_ID control code [Audio Devices], audio.ioctl_bthhfp_device_get_codec_id, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CODEC_ID
+ms.date: 4/16/2018
+ms.keywords: IOCTL_BTHHFP_DEVICE_GET_CODEC_ID, IOCTL_BTHHFP_DEVICE_GET_CODEC_ID control, IOCTL_BTHHFP_DEVICE_GET_CODEC_ID control code [Audio Devices], audio.ioctl_bthhfp_device_get_codec_id, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CODEC_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Bthhfpddi.h
 api_name:
 -	IOCTL_BTHHFP_DEVICE_GET_CODEC_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
+req.typenames: 
 ---
 
 # IOCTL_BTHHFP_DEVICE_GET_CODEC_ID IOCTL
@@ -60,17 +61,17 @@ An audio driver can send an <b>IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</b>
 
 ### -input-buffer
 
-An <a href="..\bthhfpddi\ne-bthhfpddi-_hfp_bypass_codec_id_version.md">HFP_BYPASS_CODEC_ID_VERSION</a> enumeration value. Currently, only REQ_HFP_BYPASS_CODEC_ID_V1 is supported.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/dn798964">HFP_BYPASS_CODEC_ID_VERSION</a> enumeration value. Currently, only REQ_HFP_BYPASS_CODEC_ID_V1 is supported.
 
 
 ### -input-buffer-length
 
-The size of an <a href="..\bthhfpddi\ne-bthhfpddi-_hfp_bypass_codec_id_version.md">HFP_BYPASS_CODEC_ID_VERSION</a> enumeration value.
+The size of an <a href="https://msdn.microsoft.com/library/windows/hardware/dn798964">HFP_BYPASS_CODEC_ID_VERSION</a> enumeration value.
 
 
 ### -output-buffer
 
-A codec ID structure containing the codec ID information. Currently, only <a href="..\bthhfpddi\ns-bthhfpddi-_hfp_bypass_codec_id_v1.md">HFP_BYPASS_CODEC_ID_V1</a> is supported.
+A codec ID structure containing the codec ID information. Currently, only <a href="https://msdn.microsoft.com/library/windows/hardware/dn913703">HFP_BYPASS_CODEC_ID_V1</a> is supported.
 
 
 ### -output-buffer-length
@@ -103,12 +104,11 @@ If the routine succeeds, then Status is set to STATUS_SUCCESS and the <i>Informa
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
-
-
-
  
 
  
-
 

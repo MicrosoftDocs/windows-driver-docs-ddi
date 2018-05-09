@@ -7,7 +7,7 @@ old-location: audio\synthdownload.htm
 old-project: audio
 ms.assetid: b6fd9c92-ac36-46ac-b996-d76afaf6b906
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PSYNTHDOWNLOAD, PSYNTHDOWNLOAD, PSYNTHDOWNLOAD structure pointer [Audio Devices], SYNTHDOWNLOAD, SYNTHDOWNLOAD structure [Audio Devices], _SYNTHDOWNLOAD, aud-prop_dbafbabb-05b5-4bf4-9791-e7c2eb78ed4f.xml, audio.synthdownload, dmusprop/PSYNTHDOWNLOAD, dmusprop/SYNTHDOWNLOAD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dmusprop.h
 api_name:
 -	SYNTHDOWNLOAD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYNTHDOWNLOAD, *PSYNTHDOWNLOAD
 ---
@@ -50,17 +51,6 @@ req.typenames: SYNTHDOWNLOAD, *PSYNTHDOWNLOAD
 
 
 The SYNTHDOWNLOAD structure specifies a handle for downloaded DLS data. It also specifies whether the buffer containing the DLS data can be freed.
-
-
-## -syntax
-
-
-````
-typedef struct _SYNTHDOWNLOAD {
-  HANDLE DownloadHandle;
-  BOOL   Free;
-} SYNTHDOWNLOAD, *PSYNTHDOWNLOAD;
-````
 
 
 ## -struct-fields
@@ -91,16 +81,15 @@ If the miniport driver makes its own copy of the DLS data, it sets the <i>Free</
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537396">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537398">KSPROPERTY_SYNTH_DLS_UNLOAD</a>
-
-
-
  
 
  
-
 

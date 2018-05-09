@@ -38,10 +38,10 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_READ_REGISTER_BUFFER_USHORT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_READ_REGISTER_BUFFER_USHORT function
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_READ_REGISTER_BUFFER_USHORT</b> function reads a number of USHORT values from the specified register address into a buffer.
-
-
-## -syntax
-
-
-````
-void WDF_READ_REGISTER_BUFFER_USHORT(
-  _In_  WDFDEVICE Device,
-  _In_  PUSHORT   Register,
-  _Out_ PUSHORT   Buffer,
-  _In_  ULONG     Count 
-);
-````
 
 
 ## -parameters

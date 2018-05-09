@@ -7,7 +7,7 @@ old-location: netvista\rilalphaidentifier.htm
 old-project: netvista
 ms.assetid: 2f7e8df5-31ae-4e1a-8dbb-89bfe8fc422d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILALPHAIDENTIFIER, RILALPHAIDENTIFIER, RILALPHAIDENTIFIER structure [Network Drivers Starting with Windows Vista], netvista.rilalphaidentifier, ntddrilapitypes/RILALPHAIDENTIFIER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILALPHAIDENTIFIER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILALPHAIDENTIFIER, *LPRILALPHAIDENTIFIER
-req.product: Windows 10 or later.
 ---
 
 # RILALPHAIDENTIFIER structure
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILALPHAIDENTIFIER {
-  DWORD                    cbSize;
-  DWORD                    dwParams;
-  RILALPHAIDENTIFIDERTYPE  dwType;
-  WCHAR [256]              wszReason;
-} RILALPHAIDENTIFIER, RILALPHAIDENTIFIER;
-````
 
 
 ## -struct-fields

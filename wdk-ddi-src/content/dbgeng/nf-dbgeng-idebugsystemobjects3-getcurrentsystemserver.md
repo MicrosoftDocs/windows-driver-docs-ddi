@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentSystemServer
-title: IDebugSystemObjects3::GetCurrentSystemServer method
+title: IDebugSystemObjects3::GetCurrentSystemServer
 author: windows-driver-content
 description: Gets the server for the current process.
 old-location: debugger\idebugsystemobjects3_getcurrentsystemserver.htm
 old-project: debugger
 ms.assetid: 7956E4F6-7FB5-4349-81D2-4953108557D2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetCurrentSystemServer method [Windows Debugging], GetCurrentSystemServer method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentSystemServer,IDebugSystemObjects3.GetCurrentSystemServer, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServer method, IDebugSystemObjects3::GetCurrentSystemServer, dbgeng/IDebugSystemObjects3::GetCurrentSystemServer, debugger.idebugsystemobjects3_getcurrentsystemserver
+ms.date: 4/24/2018
+ms.keywords: GetCurrentSystemServer, GetCurrentSystemServer method [Windows Debugging], GetCurrentSystemServer method [Windows Debugging],IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentSystemServer method, IDebugSystemObjects3.GetCurrentSystemServer, IDebugSystemObjects3::GetCurrentSystemServer, dbgeng/IDebugSystemObjects3::GetCurrentSystemServer, debugger.idebugsystemobjects3_getcurrentsystemserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugSystemObjects3.GetCurrentSystemServer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects3::GetCurrentSystemServer method
+# IDebugSystemObjects3::GetCurrentSystemServer
 
 
 ## -description
 
 
 Gets the server for the current process.
-
-
-## -syntax
-
-
-````
-HRESULT GetCurrentSystemServer(
-  [out] PULONG64 Server
-);
-````
 
 
 ## -parameters
@@ -102,16 +93,15 @@ The method was successful.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550892">IDebugSystemObjects3</a>
  
 
  
-
 

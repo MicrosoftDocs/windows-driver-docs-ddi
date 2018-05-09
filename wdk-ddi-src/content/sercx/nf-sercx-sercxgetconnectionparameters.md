@@ -7,7 +7,7 @@ old-location: serports\sercxgetconnectionparameters.htm
 old-project: serports
 ms.assetid: 361BC3A7-AE86-4C92-B7E1-A30D467D4A65
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 1/SerCxGetConnectionParameters, SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], serports.sercxgetconnectionparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SerCxGetConnectionParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCxGetConnectionParameters function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SerCxGetConnectionParameters</b> method retrieves the connection parameters for the associated peripheral device.
-
-
-## -syntax
-
-
-````
-VOID SerCxGetConnectionParameters(
-  [in]  WDFDEVICE Device,
-  [out] PVOID     *ConnectionParameters
-);
-````
 
 
 ## -parameters
@@ -94,19 +83,18 @@ None.
 
 The serial framework extension (SerCx) obtains the connection parameters for the peripheral device from the ACPI resource descriptors in the platform firmware.
 
-For more information about the data format of the connection parameters, see <a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>.
+For more information about the data format of the connection parameters, see <a href="https://msdn.microsoft.com/DC0AB4E3-AA73-4DD5-B91D-95F9D3792321">EvtSerCxApplyConfig</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>
 
 
 
+<a href="https://msdn.microsoft.com/DC0AB4E3-AA73-4DD5-B91D-95F9D3792321">EvtSerCxApplyConfig</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	PointOfServiceDriverInterface.h
 api_name:
 -	MSR_DEAUTHENTICATE_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MSR_DEAUTHENTICATE_DEVICE, *PMSR_DEAUTHENTICATE_DEVICE
 ---
@@ -50,16 +51,6 @@ req.typenames: MSR_DEAUTHENTICATE_DEVICE, *PMSR_DEAUTHENTICATE_DEVICE
 
 
 This structure provides the information necessary to deauthenticate the device.
-
-
-## -syntax
-
-
-````
-typedef struct _MSR_DEAUTHENTICATE_DEVICE {
-  unsigned char Challenge2[MSR_CHALLENGE_SIZE];
-} MSR_DEAUTHENTICATE_DEVICE, *PMSR_DEAUTHENTICATE_DEVICE;
-````
 
 
 ## -struct-fields

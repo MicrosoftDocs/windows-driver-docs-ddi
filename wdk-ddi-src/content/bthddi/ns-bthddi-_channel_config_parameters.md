@@ -7,7 +7,7 @@ old-location: bltooth\channel_config_parameters.htm
 old-project: bltooth
 ms.assetid: c2201e3c-c680-4a22-adf5-5131fb138066
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PCHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS structure [Bluetooth Devices], PCHANNEL_CONFIG_PARAMETERS, PCHANNEL_CONFIG_PARAMETERS structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_PARAMETERS, bltooth.channel_config_parameters, bth_structs_c5360d7a-eb76-4b27-8507-8de862737a06.xml, bthddi/CHANNEL_CONFIG_PARAMETERS, bthddi/PCHANNEL_CONFIG_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	CHANNEL_CONFIG_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS
 ---
@@ -51,21 +52,6 @@ req.typenames: CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS
 
 The CHANNEL_CONFIG_PARAMETERS structure contains configuration parameters for inbound and outbound
   directions of a L2CAP channel.
-
-
-## -syntax
-
-
-````
-typedef struct _CHANNEL_CONFIG_PARAMETERS {
-  ULONG                Flags;
-  CO_MTU               Mtu;
-  CO_FLUSHTO           FlushTO;
-  ULONG                NumExtraOptions;
-  PL2CAP_CONFIG_OPTION ExtraOptions;
-  L2CAP_FLOWSPEC       Flow;
-} CHANNEL_CONFIG_PARAMETERS, *PCHANNEL_CONFIG_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -161,12 +147,11 @@ The QoS settings for the specified channel direction.
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536757">L2CAP_CONFIG_OPTION</a>
  
 
  
-
 

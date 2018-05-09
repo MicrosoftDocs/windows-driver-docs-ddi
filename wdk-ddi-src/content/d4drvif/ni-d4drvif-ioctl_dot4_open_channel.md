@@ -7,8 +7,8 @@ old-location: print\ioctl_ioctl_dot4_open_channel.htm
 old-project: print
 ms.assetid: 9E71A230-5412-4248-A412-B92BE9E119FD
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DOT4_OPEN_CHANNEL, IOCTL_DOT4_OPEN_CHANNEL control code [Print Devices], d4drvif/IOCTL_DOT4_OPEN_CHANNEL, print.ioctl_ioctl_dot4_open_channel
+ms.date: 4/20/2018
+ms.keywords: IOCTL_DOT4_OPEN_CHANNEL, IOCTL_DOT4_OPEN_CHANNEL control, IOCTL_DOT4_OPEN_CHANNEL control code [Print Devices], d4drvif/IOCTL_DOT4_OPEN_CHANNEL, print.ioctl_ioctl_dot4_open_channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	D4drvif.h
 api_name:
 -	IOCTL_DOT4_OPEN_CHANNEL
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: 
 ---
 
 # IOCTL_DOT4_OPEN_CHANNEL IOCTL
@@ -94,7 +95,6 @@ This topic describes <b>IOCTL_DOT4_OPEN_CHANNEL</b>.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -102,16 +102,16 @@ This topic describes <b>IOCTL_DOT4_OPEN_CHANNEL</b>.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.EnumFeatures
-title: IPrintCoreHelperUni::EnumFeatures method
+title: IPrintCoreHelperUni::EnumFeatures
 author: windows-driver-content
 description: The IPrintCoreHelperUni::EnumFeatures method gets a list of all available features, including synthesized and core driver-implement features.
 old-location: print\iprintcorehelperuni_enumfeatures.htm
 old-project: print
 ms.assetid: ed21e52b-13a6-4a89-8bbc-9cbf72e3d9fd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCoreHelperUni interface, EnumFeatures,IPrintCoreHelperUni.EnumFeatures, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], EnumFeatures method, IPrintCoreHelperUni::EnumFeatures, prcomoem/IPrintCoreHelperUni::EnumFeatures, print.iprintcorehelperuni_enumfeatures, print_unidrv-pscript_allplugins_a41557cd-962d-4b7c-960d-dd213b1a68e2.xml
+ms.date: 4/20/2018
+ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],EnumFeatures method, IPrintCoreHelperUni.EnumFeatures, IPrintCoreHelperUni::EnumFeatures, prcomoem/IPrintCoreHelperUni::EnumFeatures, print.iprintcorehelperuni_enumfeatures, print_unidrv-pscript_allplugins_a41557cd-962d-4b7c-960d-dd213b1a68e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreHelperUni.EnumFeatures
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperUni::EnumFeatures method
+# IPrintCoreHelperUni::EnumFeatures
 
 
 ## -description
 
 
 The <code>IPrintCoreHelperUni::EnumFeatures</code> method gets a list of all available features, including synthesized and core driver-implement features.
-
-
-## -syntax
-
-
-````
-STDMETHOD EnumFeatures(
-  [out] PCSTR *pFeatureList[],
-  [out] DWORD *pdwNumFeatures
-);
-````
 
 
 ## -parameters
@@ -104,16 +93,15 @@ For Unidrv features, the feature list is based on the GPD view of the configurat
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552934">IPrintCoreHelperUni::EnumOptions</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
-
-
-
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: hid\ioctl_internal_i8042_controller_write_buffer.htm
 old-project: hid
 ms.assetid: c4970f78-fa4f-4ce9-a538-332f00e0df28
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER, IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER control code [Human Input Devices], hid.ioctl_internal_i8042_controller_write_buffer, i8042ref_5dabcff0-3af4-48ec-9987-36b7bdb736f2.xml, ntdd8042/IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
+ms.date: 4/30/2018
+ms.keywords: IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER, IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER control, IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER control code [Human Input Devices], hid.ioctl_internal_i8042_controller_write_buffer, i8042ref_5dabcff0-3af4-48ec-9987-36b7bdb736f2.xml, ntdd8042/IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MOUSE_STATE, *PMOUSE_STATE
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER IOCTL

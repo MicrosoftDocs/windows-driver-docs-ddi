@@ -7,7 +7,7 @@ old-location: image\wiasvalidateitemproperties.htm
 old-project: image
 ms.assetid: d7858b1b-88cf-4e75-a466-40afdcb01d9b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasvalidateitemproperties, wiamdef/wiasValidateItemProperties, wiasFncs_98dc1f86-1cba-43c0-9f2a-3598701439bc.xml, wiasValidateItemProperties, wiasValidateItemProperties function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasValidateItemProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasValidateItemProperties function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasValidateItemProperties </b>function validates a list of simple item properties against their current valid values.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasValidateItemProperties(
-  _In_       BYTE     *pWiasContext,
-             ULONG    nPropSpec,
-  _In_ const PROPSPEC *pPropSpec
-);
-````
 
 
 ## -parameters

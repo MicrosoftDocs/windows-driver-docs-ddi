@@ -7,7 +7,7 @@ old-location: audio\pcregistersubdevice.htm
 old-project: audio
 ms.assetid: 97461adf-053b-484b-9425-b23ac6deb1bd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: PcRegisterSubdevice, PcRegisterSubdevice function [Audio Devices], audio.pcregistersubdevice, audpc-routines_ba884bcc-8193-4434-9747-d2bce0156eb8.xml, portcls/PcRegisterSubdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcRegisterSubdevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcRegisterSubdevice function
@@ -53,18 +54,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <b>PcRegisterSubdevice</b> function registers a subdevice to make it available for use by clients. 
 
 
-## -syntax
-
-
-````
-NTSTATUS PcRegisterSubdevice(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ PWSTR          Name,
-  _In_ PUNKNOWN       Unknown
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ NTSTATUS PcRegisterSubdevice(
 
 ### -param DeviceObject [in]
 
-Pointer to the adapter driver's device object. This is a system structure of type <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+Pointer to the adapter driver's device object. This is a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
 
 ### -param Name [in]
@@ -82,7 +71,7 @@ Pointer to a null-terminated Unicode string that specifies the name of the subde
 
 ### -param Unknown [in]
 
-Pointer to the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface of the port driver object that is bound to the subdevice.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a> interface of the port driver object that is bound to the subdevice.
 
 
 ## -returns
@@ -98,7 +87,7 @@ Pointer to the <a href="..\portcls\nn-portcls-iport.md">IPort</a> interface of t
 
 
 
-The function registers the device interface instance for a filter object that represents a subdevice on an audio adapter. The I/O manager appends the string specified by the <i>Name</i> parameter to the reference string that it uses to identify the instance. The modified reference string is useful for distinguishing among the subdevices in the audio adapter. For more information about reference strings, see <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>.
+The function registers the device interface instance for a filter object that represents a subdevice on an audio adapter. The I/O manager appends the string specified by the <i>Name</i> parameter to the reference string that it uses to identify the instance. The modified reference string is useful for distinguishing among the subdevices in the audio adapter. For more information about reference strings, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a>.
 
 For more information about the role of the <b>PcRegisterSubdevice</b> function in registering a subdevice, see <a href="https://msdn.microsoft.com/e4ba1209-adc6-48c3-9633-247e9e3849bc">Subdevice Creation</a>.
 
@@ -109,11 +98,14 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
 
 
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a>
 
 
 
@@ -121,12 +113,8 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a>
  
 
  
-
 

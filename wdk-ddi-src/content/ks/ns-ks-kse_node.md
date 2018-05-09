@@ -7,7 +7,7 @@ old-location: stream\kse_node.htm
 old-project: stream
 ms.assetid: 89446165-cdc3-414d-bcce-f2c978d94547
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSE_NODE, KSE_NODE, KSE_NODE structure [Streaming Media Devices], PKSE_NODE, PKSE_NODE structure pointer [Streaming Media Devices], ks-struct_701a51ab-90d7-47d6-8e40-bd30d0ddd7b9.xml, ks/KSE_NODE, ks/PKSE_NODE, stream.kse_node"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSE_NODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSE_NODE, *PKSE_NODE
 ---
@@ -50,18 +51,6 @@ req.typenames: KSE_NODE, *PKSE_NODE
 
 
 The KSE_NODE structure specifies an event request on a specific node.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSEVENT Event;
-  ULONG   NodeId;
-  ULONG   Reserved;
-} KSE_NODE, *PKSE_NODE;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ Reserved for system use. Should be set to zero.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a>
  
 
  
-
 

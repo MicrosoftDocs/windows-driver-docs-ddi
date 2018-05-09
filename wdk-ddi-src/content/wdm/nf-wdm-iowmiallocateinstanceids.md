@@ -7,7 +7,7 @@ old-location: kernel\iowmiallocateinstanceids.htm
 old-project: kernel
 ms.assetid: c382689e-907c-473c-9ab1-da963d7f3ba3
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoWMIAllocateInstanceIds, IoWMIAllocateInstanceIds routine [Kernel-Mode Driver Architecture], k104_52b2c9a6-e9c2-4c9f-b6f1-43ec8c72056a.xml, kernel.iowmiallocateinstanceids, wdm/IoWMIAllocateInstanceIds
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoWMIAllocateInstanceIds
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoWMIAllocateInstanceIds function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoWMIAllocateInstanceIds</b> routine allocates one or more instance IDs that are unique to the GUID.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoWMIAllocateInstanceIds(
-  _In_  GUID  *Guid,
-  _In_  ULONG InstanceCount,
-  _Out_ ULONG *FirstInstanceId
-);
-````
 
 
 ## -parameters
@@ -146,12 +134,11 @@ If greater than one instance was requested in <i>InstanceCount</i> and the routi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmisuggestinstancename.md">IoWmiSuggestInstanceName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550505">IoWmiSuggestInstanceName</a>
  
 
  
-
 

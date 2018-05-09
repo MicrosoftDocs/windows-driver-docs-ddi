@@ -7,40 +7,41 @@ old-location: print\wcsenumcolorprofiles.htm
 old-project: print
 ms.assetid: 54cb2647-5685-4856-9b70-97733758aac2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: WcsEnumColorProfiles, WcsEnumColorProfiles function [Print Devices], colorfnc_06eda9f3-b5d8-4d57-b9e4-1a939bc0ea70.xml, icm/WcsEnumColorProfiles, print.wcsenumcolorprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: icm.h
-req.include-header: 
+req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt: Included in Windows Vista and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
-req.irql: 
+req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+-   APIRef
+-   kbSyntax
 api_type:
--	DllExport
+-   DllExport
 api_location:
--	Mscms.dll
+-   Mscms.dll
 api_name:
--	WcsEnumColorProfiles
-product: Windows
+-   WcsEnumColorProfiles
+product:
+- Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
 # WcsEnumColorProfiles function
@@ -52,20 +53,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 The <code>WcsEnumColorProfiles</code> function enumerates all color profiles that satisfy the enumeration criteria in the specified profile management scope.
 
 
-## -syntax
-
-
-````
-BOOL WcsEnumColorProfiles(
-  _In_      WCS_PROFILE_MANAGEMENT_SCOPE profileManagementScope,
-  _In_      PENUMTYPEW                   pEnumRecord,
-  _Out_     PBYTE                        pBuffer,
-  _In_      DWORD                        dwSize,
-  _Out_opt_ PDWORD                       pnProfiles
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ BOOL WcsEnumColorProfiles(
 
 ### -param scope
 
-TBD
+
 
 
 ### -param pEnumRecord [in]
@@ -98,16 +85,16 @@ An optional pointer to a variable that receives the number of profile names actu
 
 #### - profileManagementScope [in]
 
-A <a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff563752">WCS_PROFILE_MANAGEMENT_SCOPE</a> value that specifies the scope of this profile management operation.
 
 
 ## -remarks
 
 
 
-Use the <a href="..\icm\nf-icm-wcsenumcolorprofilessize.md">WcsEnumColorProfilesSize</a> function to obtain the value for the <i>dwSize</i> parameter, which is the size, in bytes, of the buffer pointed to by the <i>pBuffer</i> parameter.
+Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563722">WcsEnumColorProfilesSize</a> function to obtain the value for the <i>dwSize</i> parameter, which is the size, in bytes, of the buffer pointed to by the <i>pBuffer</i> parameter.
 
-If the <i>profileManagementScope</i> parameter is WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, only system-wide associations of profiles to the device are considered. If <i>profileManagementScope</i> is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, only per-user associations for the current user are considered. If either <a href="..\icm\nf-icm-wcssetuseperuserprofiles.md">WcsSetUsePerUserProfiles</a> has never been called for this user, or <b>WcsSetUsePerUserProfiles</b> was most recently called for this user with its <i>usePerUserProfiles</i> parameter set to <b>FALSE</b>, then <code>WCSEnumColorProfiles</code> returns an empty list.
+If the <i>profileManagementScope</i> parameter is WCS_PROFILE_MANAGEMENT_SCOPE_SYSTEM_WIDE, only system-wide associations of profiles to the device are considered. If <i>profileManagementScope</i> is WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, only per-user associations for the current user are considered. If either <a href="https://msdn.microsoft.com/library/windows/hardware/ff563741">WcsSetUsePerUserProfiles</a> has never been called for this user, or <b>WcsSetUsePerUserProfiles</b> was most recently called for this user with its <i>usePerUserProfiles</i> parameter set to <b>FALSE</b>, then <code>WCSEnumColorProfiles</code> returns an empty list.
 
 If WCS_PROFILE_MANAGEMENT_SCOPE_CURRENT_USER, the current user setting, is present, it overrides the system-wide default for the <i>profileManagementScope</i> parameter.
 
@@ -118,16 +105,15 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
 
-<a href="..\icm\ne-icm-wcs_profile_management_scope.md">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
 
 
-<a href="..\icm\nf-icm-wcsenumcolorprofilessize.md">WcsEnumColorProfilesSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563752">WCS_PROFILE_MANAGEMENT_SCOPE</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563722">WcsEnumColorProfilesSize</a>
+�
 
- 
-
+�
 

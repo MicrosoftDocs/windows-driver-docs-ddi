@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_set_break_on.htm
 old-project: serports
 ms.assetid: bee9cb3c-0ccd-4304-ba7e-7896a16ab123
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_SET_BREAK_ON, IOCTL_SERIAL_SET_BREAK_ON control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BREAK_ON, serports.ioctl_serial_set_break_on, serref_47487a08-4b73-4e3a-be2e-4343dd678b44.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_SET_BREAK_ON, IOCTL_SERIAL_SET_BREAK_ON control, IOCTL_SERIAL_SET_BREAK_ON control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BREAK_ON, serports.ioctl_serial_set_break_on, serref_47487a08-4b73-4e3a-be2e-4343dd678b44.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_SET_BREAK_ON
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_SET_BREAK_ON IOCTL
@@ -51,7 +52,7 @@ req.typenames: SD_REQUEST_FUNCTION
 
 The <b>IOCTL_SERIAL_SET_BREAK_ON</b> request sets the line control break signal active.
 
-To set the line control break signal inactive, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_break_off.md">IOCTL_SERIAL_SET_BREAK_OFF</a> request.
+To set the line control break signal inactive, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546680">IOCTL_SERIAL_SET_BREAK_OFF</a> request.
 
 
 ## -ioctlparameters
@@ -106,12 +107,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_break_off.md">IOCTL_SERIAL_SET_BREAK_OFF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546680">IOCTL_SERIAL_SET_BREAK_OFF</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue
-title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue method
+title: IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
 author: windows-driver-content
 description: Gets the JobCopiesAllDocuments parameter minimum value.
 old-location: print\iprintschemacapabilities_jobcopiesalldocumentsminvalue.htm
 old-project: print
 ms.assetid: 181D085C-65C5-4D7E-9A1B-8641CC9B799B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], JobCopiesAllDocumentsMinValue property, IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue, JobCopiesAllDocumentsMinValue property [Print Devices], JobCopiesAllDocumentsMinValue property [Print Devices], IPrintSchemaCapabilities interface, get_JobCopiesAllDocumentsMinValue, get_JobCopiesAllDocumentsMinValue,IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue, print.iprintschemacapabilities_jobcopiesalldocumentsminvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaCapabilities interface [Print Devices],JobCopiesAllDocumentsMinValue property, IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue, JobCopiesAllDocumentsMinValue property [Print Devices], JobCopiesAllDocumentsMinValue property [Print Devices],IPrintSchemaCapabilities interface, get_JobCopiesAllDocumentsMinValue, print.iprintschemacapabilities_jobcopiesalldocumentsminvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,13 +39,13 @@ api_location:
 api_name:
 -	IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue
 -	IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue method
+# IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
 
 
 ## -description
@@ -58,27 +58,16 @@ This is the copy count minimum.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_JobCopiesAllDocumentsMinValue(
-  [out, retval] ULONG *pulJobCopiesAllDocumentsMinValue 
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a>
  
 
  
-
 

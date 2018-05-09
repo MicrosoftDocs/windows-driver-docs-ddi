@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 27551BE5-1260-4F05-9847-97C90ADF7968
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_ControllerSpecificFunction, CLIENT_ControllerSpecificFunction callback function [Parallel Ports], GPIO.client_controllerspecificfunction, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, gpioclx/CLIENT_ControllerSpecificFunction
+ms.keywords: CLIENT_ControllerSpecificFunction, CLIENT_ControllerSpecificFunction callback, CLIENT_ControllerSpecificFunction callback function [Parallel Ports], GPIO.client_controllerspecificfunction, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, gpioclx/CLIENT_ControllerSpecificFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_ControllerSpecificFunction
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION callback
+# GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION callback function
 
 
 ## -description
 
 
 The <i>CLIENT_ControllerSpecificFunction</i> event callback function performs an operation that is specific to a particular general-purpose I/O (GPIO) controller.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION CLIENT_ControllerSpecificFunction;
-
-NTSTATUS CLIENT_ControllerSpecificFunction(
-  _In_    PVOID                                                Context,
-  _Inout_ PGPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS Parameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -177,16 +164,15 @@ The GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION function type is defined in the Gpi
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698248">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698261">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\ksproperty_timecode_s.htm
 old-project: stream
 ms.assetid: 45af16ee-7405-44a4-ad14-e2cf9d916164
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_TIMECODE_S, KSPROPERTY_TIMECODE_S, KSPROPERTY_TIMECODE_S structure [Streaming Media Devices], PKSPROPERTY_TIMECODE_S, PKSPROPERTY_TIMECODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TIMECODE_S, ksmedia/PKSPROPERTY_TIMECODE_S, stream.ksproperty_timecode_s, vidcapstruct_03a0e9f7-37b7-4591-8cbc-e1d189c82ef2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_TIMECODE_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S
 
 
 The KSPROPERTY_TIMECODE_S structure describes a timecode.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY      Property;
-  TIMECODE_SAMPLE TimecodeSamp;
-} KSPROPERTY_TIMECODE_S, *PKSPROPERTY_TIMECODE_S;
-````
 
 
 ## -struct-fields
@@ -80,20 +70,19 @@ Specifies the timecode sample. Timecode, absolute track number (ATN) and relativ
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagtimecode_sample.md">TIMECODE_SAMPLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565764">KSPROPERTY_TIMECODE_NODE_S</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_timecode_node_s.md">KSPROPERTY_TIMECODE_NODE_S</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568528">TIMECODE_SAMPLE</a>
  
 
  
-
 

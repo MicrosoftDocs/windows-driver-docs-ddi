@@ -7,7 +7,7 @@ old-location: kernel\rtlint8touintptr.htm
 old-project: kernel
 ms.assetid: B96B17E1-911F-442F-811F-294AB14D7058
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlInt8ToUIntPtr, RtlInt8ToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlint8touintptr, ntintsafe/RtlInt8ToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlInt8ToUIntPtr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlInt8ToUIntPtr function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>INT8</b> to a value of type <b>UINT_PTR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlInt8ToUIntPtr(
-  _In_  INT8     i8Operand,
-  _Out_ UINT_PTR *puResult
-);
-````
 
 
 ## -parameters

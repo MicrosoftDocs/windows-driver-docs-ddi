@@ -7,7 +7,7 @@ old-location: kernel\popentrylist.htm
 old-project: kernel
 ms.assetid: b24ec573-4164-4016-a19d-574ebd75ec8f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: PopEntryList, PopEntryList routine [Kernel-Mode Driver Architecture], k109_a5d1634c-e1ab-43ac-ab3f-d0993263f5bb.xml, kernel.popentrylist, wdm/PopEntryList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	PopEntryList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # PopEntryList function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>PopEntryList</b> routine removes the first entry from a singly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563799">SINGLE_LIST_ENTRY</a> structures.
-
-
-## -syntax
-
-
-````
-PSINGLE_LIST_ENTRY PopEntryList(
-  _Inout_ PSINGLE_LIST_ENTRY ListHead
-);
-````
 
 
 ## -parameters
@@ -97,16 +87,17 @@ Callers of <b>PopEntryList</b> can be running at any IRQL. If <b>PopEntryList</b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545408">ExInterlockedPopEntryList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559964">PushEntryList</a>
  
 
  
+
 
 

@@ -7,7 +7,7 @@ old-location: stream\kscomponentid.htm
 old-project: stream
 ms.assetid: 37987f5a-f706-4a5d-b6f7-e726bdfd8473
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCOMPONENTID, KSCOMPONENTID, KSCOMPONENTID structure [Streaming Media Devices], PKSCOMPONENTID, PKSCOMPONENTID structure pointer [Streaming Media Devices], ks-struct_a6ed820f-c35d-411e-98a5-bd14a2141960.xml, ks/KSCOMPONENTID, ks/PKSCOMPONENTID, stream.kscomponentid"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSCOMPONENTID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCOMPONENTID, *PKSCOMPONENTID
 ---
@@ -50,21 +51,6 @@ req.typenames: KSCOMPONENTID, *PKSCOMPONENTID
 
 
 The KSCOMPONENTID structure contains unique identifiers that describe an individual kernel streaming object.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  GUID  Manufacturer;
-  GUID  Product;
-  GUID  Component;
-  GUID  Name;
-  ULONG Version;
-  ULONG Revision;
-} KSCOMPONENTID, *PKSCOMPONENTID;
-````
 
 
 ## -struct-fields
@@ -113,12 +99,11 @@ Supply this structure in a <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565171">KSPROPERTY_GENERAL_COMPONENTID</a>
-
-
-
  
 
  
-
 

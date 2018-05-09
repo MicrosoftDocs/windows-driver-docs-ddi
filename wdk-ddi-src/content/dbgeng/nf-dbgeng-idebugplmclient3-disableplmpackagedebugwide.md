@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.DisablePlmPackageDebugWide
-title: IDebugPlmClient3::DisablePlmPackageDebugWide method
+title: IDebugPlmClient3::DisablePlmPackageDebugWide
 author: windows-driver-content
 description: Disables a Process Lifecycle Management (PLM) package debug.
 old-location: debugger\idebugplmclient3_disableplmpackagedebugwide.htm
 old-project: debugger
 ms.assetid: 23A5BAC2-E8F3-47FF-9B63-3FFF447C33B4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DisablePlmPackageDebugWide method [Windows Debugging], DisablePlmPackageDebugWide method [Windows Debugging], IDebugPlmClient3 interface, DisablePlmPackageDebugWide,IDebugPlmClient3.DisablePlmPackageDebugWide, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], DisablePlmPackageDebugWide method, IDebugPlmClient3::DisablePlmPackageDebugWide, dbgeng/IDebugPlmClient3::DisablePlmPackageDebugWide, debugger.idebugplmclient3_disableplmpackagedebugwide
+ms.date: 4/24/2018
+ms.keywords: DisablePlmPackageDebugWide, DisablePlmPackageDebugWide method [Windows Debugging], DisablePlmPackageDebugWide method [Windows Debugging],IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging],DisablePlmPackageDebugWide method, IDebugPlmClient3.DisablePlmPackageDebugWide, IDebugPlmClient3::DisablePlmPackageDebugWide, dbgeng/IDebugPlmClient3::DisablePlmPackageDebugWide, debugger.idebugplmclient3_disableplmpackagedebugwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugPlmClient3.DisablePlmPackageDebugWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugPlmClient3::DisablePlmPackageDebugWide method
+# IDebugPlmClient3::DisablePlmPackageDebugWide
 
 
 ## -description
 
 
 Disables a Process Lifecycle Management (PLM) package debug.
-
-
-## -syntax
-
-
-````
-HRESULT DisablePlmPackageDebugWide(
-  [in] ULONG64 Server,
-  [in] PCWSTR  PackageFullName
-);
-````
 
 
 ## -parameters
@@ -89,12 +79,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
 
 
 
+<a href="https://msdn.microsoft.com/5B0580FF-0829-406A-B511-C0CD91A08D5F">IDebugPlmClient3</a>
  
 
  
-
 

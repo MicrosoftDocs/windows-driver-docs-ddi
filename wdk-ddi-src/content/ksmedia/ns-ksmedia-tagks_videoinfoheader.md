@@ -7,7 +7,7 @@ old-location: stream\ks_videoinfoheader.htm
 old-project: stream
 ms.assetid: 402f292c-14f8-4ff3-b1b3-b992578cbcc8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER structure [Streaming Media Devices], PKS_VIDEOINFOHEADER, PKS_VIDEOINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER, ksmedia/PKS_VIDEOINFOHEADER, stream.ks_videoinfoheader, tagKS_VIDEOINFOHEADER, vidcapstruct_785a83de-3f90-44f1-b20f-9509032e8a06.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VIDEOINFOHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER
 ---
@@ -50,21 +51,6 @@ req.typenames: KS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER
 
 
 The KS_VIDEOINFOHEADER structure describes the bitmap and color information for a video stream.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_VIDEOINFOHEADER {
-  RECT                rcSource;
-  RECT                rcTarget;
-  DWORD               dwBitRate;
-  DWORD               dwBitErrorRate;
-  REFERENCE_TIME      AvgTimePerFrame;
-  KS_BITMAPINFOHEADER bmiHeader;
-} KS_VIDEOINFOHEADER, *PKS_VIDEOINFOHEADER;
-````
 
 
 ## -struct-fields
@@ -99,14 +85,14 @@ Specifies the average time per frame, in 100-nanosecond units.
 
 ### -field bmiHeader
 
-Describes a <a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
+Describes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
 
 
 ## -remarks
 
 
 
-To describe a video stream with bob or weave settings, use <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>.
+To describe a video stream with bob or weave settings, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff567702">KS_VIDEOINFOHEADER2</a>.
 
 The KS_VIDEOINFOHEADER structure is identical to the Microsoft DirectShow VIDEOINFOHEADER structure.
 
@@ -121,16 +107,15 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_bitmapinfoheader.md">KS_BITMAPINFOHEADER</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader2.md">KS_VIDEOINFOHEADER2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567702">KS_VIDEOINFOHEADER2</a>
  
 
  
-
 

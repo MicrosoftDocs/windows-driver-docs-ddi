@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetEffectiveProcessorType
-title: IDebugControl::GetEffectiveProcessorType method
+title: IDebugControl::GetEffectiveProcessorType
 author: windows-driver-content
 description: The GetEffectiveProcessorType method returns the effective processor type of the processor of the computer that is running the target.
 old-location: debugger\geteffectiveprocessortype.htm
 old-project: debugger
 ms.assetid: 66a5aa3d-fe35-4c30-951f-f25de75dacb0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetEffectiveProcessorType method [Windows Debugging], GetEffectiveProcessorType method [Windows Debugging], IDebugControl interface, GetEffectiveProcessorType method [Windows Debugging], IDebugControl2 interface, GetEffectiveProcessorType method [Windows Debugging], IDebugControl3 interface, GetEffectiveProcessorType,IDebugControl.GetEffectiveProcessorType, IDebugControl, IDebugControl interface [Windows Debugging], GetEffectiveProcessorType method, IDebugControl2 interface [Windows Debugging], GetEffectiveProcessorType method, IDebugControl2::GetEffectiveProcessorType, IDebugControl3 interface [Windows Debugging], GetEffectiveProcessorType method, IDebugControl3::GetEffectiveProcessorType, IDebugControl::GetEffectiveProcessorType, IDebugControl_9e0db836-17eb-4df1-a298-f8d54282d188.xml, dbgeng/IDebugControl2::GetEffectiveProcessorType, dbgeng/IDebugControl3::GetEffectiveProcessorType, dbgeng/IDebugControl::GetEffectiveProcessorType, debugger.geteffectiveprocessortype
+ms.date: 4/24/2018
+ms.keywords: GetEffectiveProcessorType, GetEffectiveProcessorType method [Windows Debugging], GetEffectiveProcessorType method [Windows Debugging],IDebugControl interface, GetEffectiveProcessorType method [Windows Debugging],IDebugControl2 interface, GetEffectiveProcessorType method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetEffectiveProcessorType method, IDebugControl.GetEffectiveProcessorType, IDebugControl2 interface [Windows Debugging],GetEffectiveProcessorType method, IDebugControl2::GetEffectiveProcessorType, IDebugControl3 interface [Windows Debugging],GetEffectiveProcessorType method, IDebugControl3::GetEffectiveProcessorType, IDebugControl::GetEffectiveProcessorType, IDebugControl_9e0db836-17eb-4df1-a298-f8d54282d188.xml, dbgeng/IDebugControl2::GetEffectiveProcessorType, dbgeng/IDebugControl3::GetEffectiveProcessorType, dbgeng/IDebugControl::GetEffectiveProcessorType, debugger.geteffectiveprocessortype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,28 +40,19 @@ api_name:
 -	IDebugControl.GetEffectiveProcessorType
 -	IDebugControl2.GetEffectiveProcessorType
 -	IDebugControl3.GetEffectiveProcessorType
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::GetEffectiveProcessorType method
+# IDebugControl::GetEffectiveProcessorType
 
 
 ## -description
 
 
 The <b>GetEffectiveProcessorType</b> method returns the effective processor type of the processor of the computer that is running the target.
-
-
-## -syntax
-
-
-````
-HRESULT GetEffectiveProcessorType(
-  [out] PULONG Type
-);
-````
 
 
 ## -parameters
@@ -113,11 +104,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546670">GetExecutingProcessorType</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -125,20 +111,24 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546670">GetExecutingProcessorType</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556657">SetEffectiveProcessorType</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
  
 
  
-
 

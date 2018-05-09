@@ -7,8 +7,8 @@ old-location: netvista\wskgetnameinfo.htm
 old-project: netvista
 ms.assetid: 99e10a70-90a7-4d96-ae5f-ba82d8c4c1a8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PFN_WSK_GET_NAME_INFO, WskGetNameInfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetnameinfo, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_GET_NAME_INFO, PFN_WSK_GET_NAME_INFO callback, WskGetNameInfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetnameinfo, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	wsk.h
 api_name:
 -	WskGetNameInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_GET_NAME_INFO callback
+# PFN_WSK_GET_NAME_INFO callback function
 
 
 ## -description
@@ -53,27 +53,6 @@ req.product: Windows 10 or later.
 The 
   <b>WskGetNameInfo</b> function provides protocol-independent translation from a transport address to a host
   name.
-
-
-## -prototype
-
-
-````
-PFN_WSK_GET_NAME_INFO WskGetNameInfo;
-
-NTSTATUS WSKAPI * WskGetNameInfo(
-  _In_      PWSK_CLIENT     Client,
-  _In_      PSOCKADDR       SockAddr,
-  _In_      ULONG           SockAddrLength,
-  _Out_opt_ PUNICODE_STRING NodeName,
-  _Out_opt_ PUNICODE_STRING ServiceName,
-  _In_      ULONG           Flags,
-  _In_opt_  PEPROCESS       OwningProcess,
-  _In_opt_  PETHREAD        OwningThread,
-  _Inout_   PIRP            Irp
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +66,7 @@ NTSTATUS WSKAPI * WskGetNameInfo(
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">
+     <a href="https://msdn.microsoft.com/b5c6667e-33b4-4482-8817-c01d9d314c3a">
      WskCaptureProviderNPI</a> function.
 
 
@@ -109,7 +88,7 @@ NTSTATUS WSKAPI * WskGetNameInfo(
 ### -param NodeName [out, optional]
 
 [out] An optional pointer to a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a host (node) name. On success, the Unicode host name is written as a
      Fully Qualified Domain Name (FQDN) by default. The caller must provide a UNICODE_STRING buffer large
      enough to hold the Unicode host name, which includes the terminating NULL character. If the 
@@ -121,7 +100,7 @@ NTSTATUS WSKAPI * WskGetNameInfo(
 ### -param ServiceName [out, optional]
 
 [out] An optional pointer to a 
-     <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a
      Unicode string that represents a service name associated with the port number. The caller must provide a
      UNICODE_STRING buffer large enough to hold the Unicode service name, which includes the terminating NULL
      character. If the 
@@ -301,7 +280,6 @@ The process to which the
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -309,24 +287,24 @@ The process to which the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
-
-
-
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_get_address_info.md">WskGetAddressInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571132">WskGetAddressInfo</a>
  
 
  
-
 

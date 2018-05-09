@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfPdoRetrieveAddressDescription
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfPdoRetrieveAddressDescription function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfPdoRetrieveAddressDescription</b> method retrieves the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a> that is associated with a specified framework device object.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfPdoRetrieveAddressDescription(
-  _In_    WDFDEVICE                             Device,
-  _Inout_ PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER AddressDescription
-);
-````
 
 
 ## -parameters
@@ -79,7 +68,7 @@ A handle to a framework device object that represents the device's physical devi
 
 ### -param AddressDescription [in, out]
 
-A pointer to a caller-allocated buffer that will receive the address description. The address description must contain a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
+A pointer to a caller-allocated buffer that will receive the address description. The address description must contain a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551219">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
 
 
 ## -returns
@@ -128,20 +117,19 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_address_description_header_init.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrieveaddressdescription.md">WdfChildListRetrieveAddressDescription</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551220">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
 
 
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoretrieveidentificationdescription.md">WdfPdoRetrieveIdentificationDescription</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545648">WdfChildListRetrieveAddressDescription</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548824">WdfPdoRetrieveIdentificationDescription</a>
  
 
  
-
 

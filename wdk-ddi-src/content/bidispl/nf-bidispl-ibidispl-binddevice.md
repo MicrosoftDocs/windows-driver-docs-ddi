@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiSpl.BindDevice
-title: IBidiSpl::BindDevice method
+title: IBidiSpl::BindDevice
 author: windows-driver-content
 description: The BindDevice method binds a printer to a bidi request. This method is similar to the OpenPrinter function.
 old-location: print\ibidispl_ibidispl__binddevice.htm
 old-project: print
 ms.assetid: 880ff314-c79d-4395-83ad-ce61bb8da5b5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BIDI_ACCESS_USER, BindDevice method [Print Devices], BindDevice method [Print Devices], IBidiSpl interface, BindDevice,IBidiSpl.BindDevice, IBidiSpl, IBidiSpl interface [Print Devices], BindDevice method, IBidiSpl::BindDevice, _win32_IBidiSpl_BindDevice, bidispl/IBidiSpl::BindDevice, gdi.ibidispl_ibidispl__binddevice, print.ibidispl_ibidispl__binddevice
+ms.date: 4/20/2018
+ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BIDI_ACCESS_USER, BindDevice, BindDevice method [Print Devices], BindDevice method [Print Devices],IBidiSpl interface, IBidiSpl interface [Print Devices],BindDevice method, IBidiSpl.BindDevice, IBidiSpl::BindDevice, _win32_IBidiSpl_BindDevice, bidispl/IBidiSpl::BindDevice, gdi.ibidispl_ibidispl__binddevice, print.ibidispl_ibidispl__binddevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiSpl.BindDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiSpl::BindDevice method
+# IBidiSpl::BindDevice
 
 
 ## -description
 
 
 The <b>BindDevice</b> method binds a printer to a bidi request. This method is similar to the <a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a> function.
-
-
-## -syntax
-
-
-````
-HRESULT BindDevice(
-  [in] const LPCWSTR pszDeviceName,
-  [in] const DWORD   dwAccess
-);
-````
 
 
 ## -parameters
@@ -158,6 +148,9 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
@@ -166,16 +159,12 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidispl.md">IBidiSpl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144980">IBidiSpl</a>
 
 
 
 <a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
-
-
-
  
 
  
-
 

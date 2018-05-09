@@ -7,7 +7,7 @@ old-location: bltooth\_brb_acl_enter_active_mode.htm
 old-project: bltooth
 ms.assetid: 2a42c8b5-acc0-463e-8ecd-179724be27d9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_ACL_ENTER_ACTIVE_MODE, _BRB_ACL_ENTER_ACTIVE_MODE structure [Bluetooth Devices], bltooth._brb_acl_enter_active_mode, bth_structs_1cb3c3f5-063a-4213-98b0-5a2c667f5e40.xml, bthddi/_BRB_ACL_ENTER_ACTIVE_MODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_ACL_ENTER_ACTIVE_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ The _BRB_ACL_ENTER_ACTIVE_MODE structure specifies the remote device to be place
   mode.
 
 
-## -syntax
-
-
-````
-struct _BRB_ACL_ENTER_ACTIVE_MODE {
-  BRB_HEADER Hdr;
-  BTH_ADDR   BtAddress;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +62,7 @@ struct _BRB_ACL_ENTER_ACTIVE_MODE {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -95,7 +85,6 @@ To place a remote device into active mode, profile drivers should
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 
@@ -103,8 +92,8 @@ To place a remote device into active mode, profile drivers should
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
  
 
  
-
 

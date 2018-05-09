@@ -7,7 +7,7 @@ old-location: print\extdevicemode.htm
 old-project: print
 ms.assetid: dade9d25-7143-4566-adc1-0c97cb508c07
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: ExtDeviceMode, ExtDeviceMode function [Print Devices], print.extdevicemode, spoolfnc_56c49c94-99f4-43b9-90eb-189041a1dd3a.xml, winspool/ExtDeviceMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	ExtDeviceMode
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BIDI_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExtDeviceMode function
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The <b>ExtDeviceMode</b> function is provided only for compatibility with 16-bit applications. Printer drivers without this requirement should instead use the <b>DocumentProperties</b> function, which is described in the Microsoft Windows SDK documentation.
 
 The <b>ExtDeviceMode</b> function retrieves or modifies printer initialization information for a given graphics driver, or displays a driver-supplied printer-configuration property sheet for the specified printer.
-
-
-## -syntax
-
-
-````
-LONG ExtDeviceMode(
-  _In_opt_ HWND       hWnd,
-  _In_opt_ HANDLE     hInst,
-  _Inout_  LPDEVMODEA pDevModeOutput,
-  _In_opt_ LPSTR      pDeviceName,
-  _In_opt_ LPSTR      pPort,
-  _In_opt_ LPDEVMODEA pDevModeInput,
-  _In_opt_ LPSTR      pProfile,
-           DWORD      fMode
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netvista\rilconfparticipantstatusparammask.htm
 old-project: netvista
 ms.assetid: a168b84a-fb3b-4e03-bb28-888b80cca6c6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILCONFPARTICIPANTSTATUSPARAMMASK, RILCONFPARTICIPANTSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CPS_ADDRESS, RIL_PARAM_CPS_ALL, RIL_PARAM_CPS_CALLTRANSFER, RIL_PARAM_CPS_ID, RIL_PARAM_CPS_PARTICIPANTOP, RIL_PARAM_CPS_SIPSTATUS, netvista.rilconfparticipantstatusparammask, ntddrilapitypes/RILCONFPARTICIPANTSTATUSPARAMMASK, ntddrilapitypes/RIL_PARAM_CPS_ADDRESS, ntddrilapitypes/RIL_PARAM_CPS_ALL, ntddrilapitypes/RIL_PARAM_CPS_CALLTRANSFER, ntddrilapitypes/RIL_PARAM_CPS_ID, ntddrilapitypes/RIL_PARAM_CPS_PARTICIPANTOP, ntddrilapitypes/RIL_PARAM_CPS_SIPSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCONFPARTICIPANTSTATUSPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCONFPARTICIPANTSTATUSPARAMMASK
-req.product: Windows 10 or later.
 ---
 
 # RILCONFPARTICIPANTSTATUSPARAMMASK enumeration
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCONFPARTICIPANTSTATUSPARAMMASK { 
-  RIL_PARAM_CPS_ID,
-  RIL_PARAM_CPS_CALLTRANSFER,
-  RIL_PARAM_CPS_ADDRESS,
-  RIL_PARAM_CPS_PARTICIPANTOP,
-  RIL_PARAM_CPS_SIPSTATUS,
-  RIL_PARAM_CPS_ALL
-} RILCONFPARTICIPANTSTATUSPARAMMASK;
-````
 
 
 ## -enum-fields

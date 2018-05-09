@@ -7,7 +7,7 @@ old-location: ifsk\setokengetnochildprocessrestricted.htm
 old-project: ifsk
 ms.assetid: 6C42E6C4-91EB-44A3-84E1-CAFDBD5CD724
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: SeTokenGetNoChildProcessRestricted, SeTokenGetNoChildProcessRestricted function [Installable File System Drivers], ifsk.setokengetnochildprocessrestricted, ntifs/SeTokenGetNoChildProcessRestricted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	SeTokenGetNoChildProcessRestricted
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # SeTokenGetNoChildProcessRestricted function
@@ -51,19 +52,6 @@ req.typenames: TOKEN_TYPE
 
 The <b>SeTokenGetNoChildProcessRestricted</b> routine determines the state of the no child process mitigation.  It is
     not possible to be enforced and audit-only at the same time.
-
-
-## -syntax
-
-
-````
-void NTKERNELAPI SeTokenGetNoChildProcessRestricted(
-  _In_  PACCESS_TOKEN Token,
-  _Out_ PBOOLEAN      Enforced,
-  _Out_ PBOOLEAN      UnlessSecure,
-  _Out_ PBOOLEAN      AuditOnly
-);
-````
 
 
 ## -parameters
@@ -103,12 +91,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-setokensetnochildprocessrestricted.md">SeTokenSetNoChildProcessRestricted</a>
 
 
 
+<a href="https://msdn.microsoft.com/FCFCBF4C-CBAA-4284-A6F4-67630608CF19">SeTokenSetNoChildProcessRestricted</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPin.KsPropagateAcquire
-title: IKsPin::KsPropagateAcquire method
+title: IKsPin::KsPropagateAcquire
 author: windows-driver-content
 description: The KsPropagateAcquire method directs all the pins on the filter to attain the Acquire state.
 old-location: stream\ikspin_kspropagateacquire.htm
 old-project: stream
 ms.assetid: 059bef5a-1db7-4fd7-a19b-c34df81f4447
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsPropagateAcquire method, IKsPin::KsPropagateAcquire, KsPropagateAcquire method [Streaming Media Devices], KsPropagateAcquire method [Streaming Media Devices], IKsPin interface, KsPropagateAcquire,IKsPin.KsPropagateAcquire, ksproxy/IKsPin::KsPropagateAcquire, ksproxy_c3ce0cef-0366-4233-afa5-723f9d3bb4e9.xml, stream.ikspin_kspropagateacquire
+ms.date: 4/23/2018
+ms.keywords: IKsPin interface [Streaming Media Devices],KsPropagateAcquire method, IKsPin.KsPropagateAcquire, IKsPin::KsPropagateAcquire, KsPropagateAcquire, KsPropagateAcquire method [Streaming Media Devices], KsPropagateAcquire method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsPropagateAcquire, ksproxy_c3ce0cef-0366-4233-afa5-723f9d3bb4e9.xml, stream.ikspin_kspropagateacquire
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPin.KsPropagateAcquire
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPin::KsPropagateAcquire method
+# IKsPin::KsPropagateAcquire
 
 
 ## -description
 
 
 The <b>KsPropagateAcquire</b> method directs all the pins on the filter to attain the Acquire state. 
-
-
-## -syntax
-
-
-````
-HRESULT KsPropagateAcquire();
-````
 
 
 ## -parameters
@@ -89,12 +82,11 @@ This method is for proxy use and is not recommended for application use.
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559896">IKsPin</a>
  
 
  
-
 

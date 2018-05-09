@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.RebootRestartWithContext
-title: IWDTFSystemAction2::RebootRestartWithContext method
+title: IWDTFSystemAction2::RebootRestartWithContext
 author: windows-driver-content
 description: Reboots the system and restarts the test script with context data.
 old-location: dtf\iwdtfsystemaction2_rebootrestartwithcontext.htm
 old-project: dtf
 ms.assetid: d88fe083-328c-4ce4-bb15-9fa824384f57
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], RebootRestartWithContext method, IWDTFSystemAction2::RebootRestartWithContext, Microsoft.WDTF.IWDTFSystemAction2.RebootRestartWithContext, Microsoft::WDTF::IWDTFSystemAction2::RebootRestartWithContext, RebootRestartWithContext method [Windows Device Testing Framework], RebootRestartWithContext method [Windows Device Testing Framework], IWDTFSystemAction2 interface, RebootRestartWithContext,IWDTFSystemAction2.RebootRestartWithContext, dtf.iwdtfsystemaction2_rebootrestartwithcontext, wdtfsystemaction/IWDTFSystemAction2::RebootRestartWithContext
+ms.date: 4/4/2018
+ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],RebootRestartWithContext method, IWDTFSystemAction2.RebootRestartWithContext, IWDTFSystemAction2::RebootRestartWithContext, Microsoft.WDTF.IWDTFSystemAction2.RebootRestartWithContext, Microsoft::WDTF::IWDTFSystemAction2::RebootRestartWithContext, RebootRestartWithContext, RebootRestartWithContext method [Windows Device Testing Framework], RebootRestartWithContext method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_rebootrestartwithcontext, wdtfsystemaction/IWDTFSystemAction2::RebootRestartWithContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	WDTFSystemAction.Interop.dll
 api_name:
 -	IWDTFSystemAction2.RebootRestartWithContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSystemAction2::RebootRestartWithContext method
+# IWDTFSystemAction2::RebootRestartWithContext
 
 
 ## -description
 
 
 Reboots the  system and restarts the test script with context data.
-
-
-## -syntax
-
-
-````
-HRESULT RebootRestartWithContext(
-  [in] BSTR psContext,
-  [in] BSTR psContextData
-);
-````
 
 
 ## -parameters
@@ -97,12 +86,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439302">IWDTFSystemAction2</a>
  
 
  
-
 

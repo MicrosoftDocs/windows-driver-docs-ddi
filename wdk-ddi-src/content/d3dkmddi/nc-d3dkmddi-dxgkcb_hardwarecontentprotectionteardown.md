@@ -7,8 +7,8 @@ old-location: display\dxgkcbhardwarecontentprotectionteardown.htm
 old-project: display
 ms.assetid: 7B12B9AD-2288-4CE0-A4D8-F1C96150CE45
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN, DxgkCbHardwareContentProtectionTeardown, DxgkCbHardwareContentProtectionTeardown callback function [Display Devices], d3dkmddi/DxgkCbHardwareContentProtectionTeardown, display.dxgkcbhardwarecontentprotectionteardown
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN, DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback, DxgkCbHardwareContentProtectionTeardown, DxgkCbHardwareContentProtectionTeardown callback function [Display Devices], d3dkmddi/DxgkCbHardwareContentProtectionTeardown, display.dxgkcbhardwarecontentprotectionteardown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkCbHardwareContentProtectionTeardown
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback
+# DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback function
 
 
 ## -description
 
 
 <b>DxgkCbHardwareContentProtectionTeardown</b> is used to indicate when a hardware content protection event occurs.
-
-
-## -prototype
-
-
-````
-DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN DxgkCbHardwareContentProtectionTeardown;
-
-VOID APIENTRY CALLBACK* DxgkCbHardwareContentProtectionTeardown(
-   IN_CONST_HANDLE hAdapter,
-   UINT            Flags
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ A handle to the graphics adapter where the tear-down event is occurring.
 
 ### -param Flags
 
-Additional flags defined by <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags.md">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a> enumeration.
+Additional flags defined by <a href="https://msdn.microsoft.com/library/windows/hardware/dn906828">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a> enumeration.
 
 
 ## -returns
@@ -106,12 +93,11 @@ The driver can call this callback at either passive level or at dispatch level.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags.md">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906828">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a>
  
 
  
-
 

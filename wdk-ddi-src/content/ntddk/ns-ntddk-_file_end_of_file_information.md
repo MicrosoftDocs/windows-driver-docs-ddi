@@ -7,7 +7,7 @@ old-location: kernel\file_end_of_file_information.htm
 old-project: kernel
 ms.assetid: 9af172d9-2309-4731-82bf-55ec99c475a6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PFILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_END_OF_FILE_INFORMATION, PFILE_END_OF_FILE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_END_OF_FILE_INFORMATION, kernel.file_end_of_file_information, kstruct_b_6c41bbd0-64be-4765-b79c-09e2dd86fa6f.xml, ntddk/FILE_END_OF_FILE_INFORMATION, ntddk/PFILE_END_OF_FILE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	FILE_END_OF_FILE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_END_OF_FILE_INFORMATION, *PFILE_END_OF_FILE_INFORMATION
 ---
@@ -49,17 +50,7 @@ req.typenames: FILE_END_OF_FILE_INFORMATION, *PFILE_END_OF_FILE_INFORMATION
 ## -description
 
 
-The <b>FILE_END_OF_FILE_INFORMATION</b> structure is used as an argument to the <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a> routine.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_END_OF_FILE_INFORMATION {
-  LARGE_INTEGER EndOfFile;
-} FILE_END_OF_FILE_INFORMATION, *PFILE_END_OF_FILE_INFORMATION;
-````
+The <b>FILE_END_OF_FILE_INFORMATION</b> structure is used as an argument to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> routine.
 
 
 ## -struct-fields
@@ -83,16 +74,15 @@ The absolute new end of file position as a byte offset from the start of the fil
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
  
 
  
-
 

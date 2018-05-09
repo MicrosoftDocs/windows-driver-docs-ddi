@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_LKGFIX_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_LKGFIX_PARAM, *PGNSS_LKGFIX_PARAM
 ---
@@ -50,17 +51,6 @@ req.typenames: GNSS_LKGFIX_PARAM, *PGNSS_LKGFIX_PARAM
 
 
 This structure is not used currently by the system and is not required to be implemented.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-} GNSS_LKGFIX_PARAM, *PGNSS_LKGFIX_PARAM;
-````
 
 
 ## -struct-fields

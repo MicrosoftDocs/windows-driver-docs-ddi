@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFWorkItem.Enqueue
-title: IWDFWorkItem::Enqueue method
+title: IWDFWorkItem::Enqueue
 author: windows-driver-content
 description: The Enqueue method adds this interface's framework work-item object to the system's work-item queue.
 old-location: wdf\iwdfworkitem_enqueue.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 61A889D5-122F-4091-90D6-EDD43D52A14A
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: Enqueue method, Enqueue method, IWDFWorkItem interface, Enqueue,IWDFWorkItem.Enqueue, IWDFWorkItem, IWDFWorkItem interface, Enqueue method, IWDFWorkItem::Enqueue, umdf.iwdfworkitem_enqueue, wdf.iwdfworkitem_enqueue, wudfddi/IWDFWorkItem::Enqueue
+ms.keywords: Enqueue, Enqueue method, Enqueue method,IWDFWorkItem interface, IWDFWorkItem interface,Enqueue method, IWDFWorkItem.Enqueue, IWDFWorkItem::Enqueue, umdf.iwdfworkitem_enqueue, wdf.iwdfworkitem_enqueue, wudfddi/IWDFWorkItem::Enqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFWorkItem.Enqueue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFWorkItem::Enqueue method
+# IWDFWorkItem::Enqueue
 
 
 ## -description
@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 
    The <b>Enqueue</b> method adds this interface's framework work-item object to the system's work-item queue.
   
-
-
-## -syntax
-
-
-````
-void Enqueue();
-````
 
 
 ## -parameters
@@ -85,9 +77,9 @@ This method does not return a value.
 
 
 
-If your driver reuses its work-item objects, the driver can call <b>Enqueue</b> again for the same work item before a worker thread has removed the work item from the queue and called the driver’s <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function.
+If your driver reuses its work-item objects, the driver can call <b>Enqueue</b> again for the same work item before a worker thread has removed the work item from the queue and called the driver’s <a href="https://msdn.microsoft.com/4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703">OnWorkItem</a> callback function.
 
- However, UMDF won't add the work item to the queue if it is already there. Therefore, your <a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a> callback function must process all queued work each time that it is called.
+ However, UMDF won't add the work item to the queue if it is already there. Therefore, your <a href="https://msdn.microsoft.com/4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703">OnWorkItem</a> callback function must process all queued work each time that it is called.
 
 For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF-9CC2-7215423E6D35">Using Work Items</a>.
 
@@ -96,16 +88,15 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
 
 
 
-<a href="..\wudfworkitem\nc-wudfworkitem-wudf_workitem_function.md">OnWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406734">IWDFWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703">OnWorkItem</a>
  
 
  
-
 

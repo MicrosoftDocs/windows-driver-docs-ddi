@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfRequestProbeAndLockUserBufferForRead
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRequestProbeAndLockUserBufferForRead function
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfRequestProbeAndLockUserBufferForRead</b> method verifies that an I/O request's user-mode buffer is readable, and then it locks the buffer's physical memory pages so drivers in the driver stack can read the buffer.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfRequestProbeAndLockUserBufferForRead(
-  _In_  WDFREQUEST Request,
-  _In_  PVOID      Buffer,
-  _In_  size_t     Length,
-  _Out_ WDFMEMORY  *MemoryObject
-);
-````
 
 
 ## -parameters
@@ -181,26 +168,26 @@ Only a top-level driver can call the <b>WdfRequestProbeAndLockUserBufferForRead<
 
 The user input buffer typically contains information to be written to the device.
 
-The user-mode buffer that the <i>Buffer</i> parameter specifies can be the buffer that <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuserinputbuffer.md">WdfRequestRetrieveUnsafeUserInputBuffer</a> retrieves, or it can be a different user-mode input buffer. For example, an I/O control code that uses the buffered access method might pass a structure that contains an embedded pointer to a user-mode buffer. In such a case, the driver can use<b>WdfRequestProbeAndLockUserBufferForRead</b> to obtain a memory object for the buffer. 
+The user-mode buffer that the <i>Buffer</i> parameter specifies can be the buffer that <a href="https://msdn.microsoft.com/library/windows/hardware/ff550022">WdfRequestRetrieveUnsafeUserInputBuffer</a> retrieves, or it can be a different user-mode input buffer. For example, an I/O control code that uses the buffered access method might pass a structure that contains an embedded pointer to a user-mode buffer. In such a case, the driver can use<b>WdfRequestProbeAndLockUserBufferForRead</b> to obtain a memory object for the buffer. 
 
 The buffer length that the <i>Length</i> parameter specifies must not be larger than the buffer's actual size. Otherwise, drivers can access memory outside of the buffer, which is a security risk.
 
-If <b>WdfRequestProbeAndLockUserBufferForRead</b> returns STATUS_SUCCESS, the driver receives a handle to a framework memory object that represents the user-mode buffer. To access the buffer, the driver must call <a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>.
+If <b>WdfRequestProbeAndLockUserBufferForRead</b> returns STATUS_SUCCESS, the driver receives a handle to a framework memory object that represents the user-mode buffer. To access the buffer, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548715">WdfMemoryGetBuffer</a>.
 
 For more information about <b>WdfRequestProbeAndLockUserBufferForRead</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
 #### Examples
 
-The following code example is a shortened version of the <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> callback function that the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample driver contains. When the callback function receives an I/O request, it determines if the request contains an I/O control code with a transfer type of METHOD_NEITHER. If the request does contain such an I/O control code, the function:
+The following code example is a shortened version of the <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> callback function that the <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample driver contains. When the callback function receives an I/O request, it determines if the request contains an I/O control code with a transfer type of METHOD_NEITHER. If the request does contain such an I/O control code, the function:
 
 <ol>
 <li>
-Calls <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuserinputbuffer.md">WdfRequestRetrieveUnsafeUserInputBuffer</a> and <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuseroutputbuffer.md">WdfRequestRetrieveUnsafeUserOutputBuffer</a> to obtain the virtual addresses of the request's read and write buffers.
+Calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550022">WdfRequestRetrieveUnsafeUserInputBuffer</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550024">WdfRequestRetrieveUnsafeUserOutputBuffer</a> to obtain the virtual addresses of the request's read and write buffers.
 
 </li>
 <li>
-Calls <b>WdfRequestProbeAndLockUserBufferForRead</b> and <a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforwrite.md">WdfRequestProbeAndLockUserBufferForWrite</a> to probe and lock the buffers and to obtain a handle to a framework memory object that represents each buffer.
+Calls <b>WdfRequestProbeAndLockUserBufferForRead</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff549989">WdfRequestProbeAndLockUserBufferForWrite</a> to probe and lock the buffers and to obtain a handle to a framework memory object that represents each buffer.
 
 </li>
 </ol>
@@ -336,20 +323,19 @@ End:
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforwrite.md">WdfRequestProbeAndLockUserBufferForWrite</a>
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorygetbuffer.md">WdfMemoryGetBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548715">WdfMemoryGetBuffer</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuserinputbuffer.md">WdfRequestRetrieveUnsafeUserInputBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549989">WdfRequestProbeAndLockUserBufferForWrite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550022">WdfRequestRetrieveUnsafeUserInputBuffer</a>
  
 
  
-
 

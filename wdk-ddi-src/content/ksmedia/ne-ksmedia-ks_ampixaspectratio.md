@@ -7,7 +7,7 @@ old-location: stream\ks_ampixaspectratio.htm
 old-project: stream
 ms.assetid: 29c84529-11f6-429b-81c6-96d6a1773b3b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KS_AMPixAspectRatio, KS_AMPixAspectRatio enumeration [Streaming Media Devices], KS_PixAspectRatio_NTSC16x9, KS_PixAspectRatio_NTSC4x3, KS_PixAspectRatio_PAL16x9, KS_PixAspectRatio_PAL4x3, ksmedia/KS_AMPixAspectRatio, ksmedia/KS_PixAspectRatio_NTSC16x9, ksmedia/KS_PixAspectRatio_NTSC4x3, ksmedia/KS_PixAspectRatio_PAL16x9, ksmedia/KS_PixAspectRatio_PAL4x3, stream.ks_ampixaspectratio, vidcapstruct_d891dbda-a467-4e13-bad6-fef794146717.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_AMPixAspectRatio
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_AMPixAspectRatio
 ---
@@ -50,19 +51,6 @@ req.typenames: KS_AMPixAspectRatio
 
 
 The KS_AMPixAspectRatio enumeration defines the pixel aspect ratio that corresponds to a 720  480 NTSC video signal or a 720 × 576 PAL video signal.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_PixAspectRatio_NTSC4x3   = 0,
-  KS_PixAspectRatio_NTSC16x9  = 1,
-  KS_PixAspectRatio_PAL4x3    = 2,
-  KS_PixAspectRatio_PAL16x9   = 3
-} KS_AMPixAspectRatio;
-````
 
 
 ## -enum-fields

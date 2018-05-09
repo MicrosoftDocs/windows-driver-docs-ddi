@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.GetDeviceValue
-title: IStillImageW::GetDeviceValue method
+title: IStillImageW::GetDeviceValue
 author: windows-driver-content
 description: The IStillImage::GetDeviceValue method returns registry information associated with a specified still image device.
 old-location: image\istillimage_getdevicevalue.htm
 old-project: image
 ms.assetid: 506c50fa-f162-4b30-bfb9-91987e064c39
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetDeviceValue method [Imaging Devices], GetDeviceValue method [Imaging Devices], IStillImageW interface, GetDeviceValue,IStillImageW.GetDeviceValue, IStillImageW, IStillImageW interface [Imaging Devices], GetDeviceValue method, IStillImageW::GetDeviceValue, image.istillimage_getdevicevalue, sti/IStillImageW::GetDeviceValue, stifnc_4b207dea-28ff-4f85-b8a7-43c038b3e810.xml
+ms.date: 4/23/2018
+ms.keywords: GetDeviceValue, GetDeviceValue method [Imaging Devices], GetDeviceValue method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceValue method, IStillImageW.GetDeviceValue, IStillImageW::GetDeviceValue, image.istillimage_getdevicevalue, sti/IStillImageW::GetDeviceValue, stifnc_4b207dea-28ff-4f85-b8a7-43c038b3e810.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.GetDeviceValue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::GetDeviceValue method
+# IStillImageW::GetDeviceValue
 
 
 ## -description
 
 
 The <b>IStillImage::GetDeviceValue</b> method returns registry information associated with a specified still image device.
-
-
-## -syntax
-
-
-````
-HRESULT GetDeviceValue(
-  [in]      LPWSTR  pwszDeviceName,
-  [in]      LPWSTR  pValueName,
-  [out]     LPDWORD pType,
-  [out]     LPBYTE  pData,
-  [in, out] LPDWORD cbData
-);
-````
 
 
 ## -parameters
@@ -121,7 +107,6 @@ Before calling <b>IStillImage::GetDeviceValue</b>, clients of the <b>IStillImage
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
 
 
 
@@ -129,8 +114,8 @@ Before calling <b>IStillImage::GetDeviceValue</b>, clients of the <b>IStillImage
 
 
 
+<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
  
 
  
-
 

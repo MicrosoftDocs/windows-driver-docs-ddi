@@ -7,8 +7,8 @@ old-location: spb\evtspbtargetconnect.htm
 old-project: SPB
 ms.assetid: D90DD169-A989-4D08-B1B8-BDE7EC9B7A82
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: EVT_SPB_TARGET_CONNECT, EvtSpbTargetConnect, EvtSpbTargetConnect callback function [Buses], SPB.evtspbtargetconnect, spbcx/EvtSpbTargetConnect
+ms.date: 4/30/2018
+ms.keywords: EVT_SPB_TARGET_CONNECT, EVT_SPB_TARGET_CONNECT callback, EvtSpbTargetConnect, EvtSpbTargetConnect callback function [Buses], SPB.evtspbtargetconnect, spbcx/EvtSpbTargetConnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	Spbcx.h
 api_name:
 -	EvtSpbTargetConnect
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SPB_TARGET_CONNECT callback
+# EVT_SPB_TARGET_CONNECT callback function
 
 
 ## -description
 
 
 An SPB controller driver's <i>EvtSpbTargetConnect</i> event callback function opens a connection to a target device on the bus.
-
-
-## -prototype
-
-
-````
-EVT_SPB_TARGET_CONNECT EvtSpbTargetConnect;
-
-NTSTATUS EvtSpbTargetConnect(
-  _In_ WDFDEVICE Controller,
-  _In_ SPBTARGET Target
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -150,11 +136,14 @@ The EVT_SPB_TARGET_CONNECT function type is defined in the Spbcx.h header file. 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
 
 
 
 <a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
@@ -166,12 +155,8 @@ The EVT_SPB_TARGET_CONNECT function type is defined in the Spbcx.h header file. 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
  
 
  
-
 

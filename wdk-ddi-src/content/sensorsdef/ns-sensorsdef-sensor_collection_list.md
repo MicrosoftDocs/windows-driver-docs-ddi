@@ -7,7 +7,7 @@ old-location: sensors\sensor_collection_list.htm
 old-project: sensors
 ms.assetid: B842C707-C6E0-4C56-986E-35BFD32F265D
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST structure pointer [Sensor Devices], SENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST structure [Sensor Devices], sensors.sensor_collection_list, sensorsdef/PSENSOR_COLLECTION_LIST, sensorsdef/SENSOR_COLLECTION_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	SENSOR_COLLECTION_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_COLLECTION_LIST, *PSENSOR_COLLECTION_LIST
-req.product: Windows 10 or later.
 ---
 
 # SENSOR_COLLECTION_LIST structure
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-This structure contains a list of all <a href="..\sensorsdef\ns-sensorsdef-sensor_value_pair.md">SENSOR_VALUE_PAIR</a> structures for each sensor. This structure is returned by calling ReadFile.
-
-
-## -syntax
-
-
-````
-typedef struct _SENSOR_COLLECTION_LIST {
-  ULONG             AllocatedSizeInBytes;
-  ULONG             Count;
-  SENSOR_VALUE_PAIR List[1];
-} SENSOR_COLLECTION_LIST, *PSENSOR_COLLECTION_LIST;
-````
+This structure contains a list of all <a href="https://msdn.microsoft.com/library/windows/hardware/dn946708">SENSOR_VALUE_PAIR</a> structures for each sensor. This structure is returned by calling ReadFile.
 
 
 ## -struct-fields
@@ -82,7 +70,7 @@ Represents the number of used entries in List.
 
 ### -field List
 
-A list of <a href="..\sensorsdef\ns-sensorsdef-sensor_value_pair.md">SENSOR_VALUE_PAIR</a> structures.
+A list of <a href="https://msdn.microsoft.com/library/windows/hardware/dn946708">SENSOR_VALUE_PAIR</a> structures.
 
 
 ## -remarks
@@ -93,13 +81,13 @@ The SENSOR_COLLECTION_LIST structure works with the following helper functions:
 
 <ul>
 <li>
-<a href="..\sensorsdef\nf-sensorsdef-sensor_collection_list_init.md">SENSOR_COLLECTION_LIST_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957094">SENSOR_COLLECTION_LIST_INIT</a>
 </li>
 <li>
-<a href="..\sensorsdef\nf-sensorsdef-sensor_collection_list_size.md">SENSOR_COLLECTION_LIST_SIZE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957095">SENSOR_COLLECTION_LIST_SIZE</a>
 </li>
 <li>
-<a href="..\sensorsdef\nf-sensorsdef-sensor_collection_list_calculate_max_count.md">SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957093">SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</a>
 </li>
 </ul>
 

@@ -7,7 +7,7 @@ old-location: bltooth\enumerator_type.htm
 old-project: bltooth
 ms.assetid: 2f8ae260-3a4c-44a5-85b7-e3ebcf21522b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PENUMERATOR_TYPE, ENUMERATOR_TYPE, ENUMERATOR_TYPE enumeration [Bluetooth Devices], ENUMERATOR_TYPE_MAX, ENUMERATOR_TYPE_PROTOCOL, ENUMERATOR_TYPE_SERVICE, PENUMERATOR_TYPE, PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], _ENUMERATOR_TYPE, bltooth.enumerator_type, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, bthddi/ENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_MAX, bthddi/ENUMERATOR_TYPE_PROTOCOL, bthddi/ENUMERATOR_TYPE_SERVICE, bthddi/PENUMERATOR_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	ENUMERATOR_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ENUMERATOR_TYPE, *PENUMERATOR_TYPE
 ---
@@ -52,18 +53,6 @@ req.typenames: ENUMERATOR_TYPE, *PENUMERATOR_TYPE
 The ENUMERATOR_TYPE enumeration type is used to determine whether the enumerated device is associated
   with a service or a protocol. The ENUMERATOR_TYPE enumeration is intended for internal use only and should
   not be used by profile drivers.
-
-
-## -syntax
-
-
-````
-typedef enum _ENUMERATOR_TYPE { 
-  ENUMERATOR_TYPE_PROTOCOL  = 0,
-  ENUMERATOR_TYPE_SERVICE   = 1,
-  ENUMERATOR_TYPE_MAX       = 2
-} ENUMERATOR_TYPE, *PENUMERATOR_TYPE;
-````
 
 
 ## -enum-fields
@@ -80,7 +69,7 @@ For internal use only. Do not use.
 
 This value should be specified for profile drivers. For more information about how this value is
      used, see 
-     <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536643">BTH_ENUMERATOR_INFO</a>.
 
 
 ### -field ENUMERATOR_TYPE_DEVICE
@@ -97,8 +86,8 @@ For internal use only. Do not use.
 
 A value from this enumeration is returned as the 
     <b>EnumeratorType</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a> structure, which the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536643">BTH_ENUMERATOR_INFO</a> structure, which the 
+    <a href="https://msdn.microsoft.com/43cd8e6b-5710-4308-a7c4-fb6f14940977">
     IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a> returns in its output buffer.
 
 
@@ -106,17 +95,16 @@ A value from this enumeration is returned as the
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536643">BTH_ENUMERATOR_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/43cd8e6b-5710-4308-a7c4-fb6f14940977">
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
-
-
-
  
 
  
-
 

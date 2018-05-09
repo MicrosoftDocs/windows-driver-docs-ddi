@@ -7,7 +7,7 @@ old-location: kernel\keareapcsdisabled.htm
 old-project: kernel
 ms.assetid: 58962146-a16d-4827-9cef-73b3a438be35
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KeAreApcsDisabled, KeAreApcsDisabled routine [Kernel-Mode Driver Architecture], k105_8bdca8e2-6541-4525-b4b6-7fdc26e451ac.xml, kernel.keareapcsdisabled, wdm/KeAreApcsDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeAreApcsDisabled
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # KeAreApcsDisabled function
@@ -50,14 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>KeAreApcsDisabled</b> routine returns whether the calling thread is within a critical region or a guarded region, which disables normal kernel APC delivery.
-
-
-## -syntax
-
-
-````
-BOOLEAN KeAreApcsDisabled(void);
-````
 
 
 ## -parameters
@@ -87,20 +80,19 @@ A thread running at IRQL = PASSIVE_LEVEL can use <b>KeAreApcsDisabled</b> to det
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keareallapcsdisabled.md">KeAreAllApcsDisabled</a>
 
 
 
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551935">KeAreAllApcsDisabled</a>
 
 
 
-<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552021">KeEnterCriticalRegion</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552964">KeLeaveCriticalRegion</a>
  
 
  
-
 

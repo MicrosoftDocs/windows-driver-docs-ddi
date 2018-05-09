@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExpressionSyntax
-title: IDebugControl3::GetExpressionSyntax method
+title: IDebugControl3::GetExpressionSyntax
 author: windows-driver-content
 description: The GetExpressionSyntax method returns the current syntax that the engine is using for evaluating expressions.
 old-location: debugger\getexpressionsyntax.htm
 old-project: debugger
 ms.assetid: e04e4567-5ae6-4349-9876-0c2b55c340e0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetExpressionSyntax method [Windows Debugging], GetExpressionSyntax method [Windows Debugging], IDebugControl3 interface, GetExpressionSyntax,IDebugControl3.GetExpressionSyntax, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetExpressionSyntax method, IDebugControl3::GetExpressionSyntax, IDebugControl_9eae3270-fd1f-4d50-875b-3bd9908ba76d.xml, dbgeng/IDebugControl3::GetExpressionSyntax, debugger.getexpressionsyntax
+ms.date: 4/24/2018
+ms.keywords: GetExpressionSyntax, GetExpressionSyntax method [Windows Debugging], GetExpressionSyntax method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetExpressionSyntax method, IDebugControl3.GetExpressionSyntax, IDebugControl3::GetExpressionSyntax, IDebugControl_9eae3270-fd1f-4d50-875b-3bd9908ba76d.xml, dbgeng/IDebugControl3::GetExpressionSyntax, debugger.getexpressionsyntax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl3.GetExpressionSyntax
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetExpressionSyntax method
+# IDebugControl3::GetExpressionSyntax
 
 
 ## -description
 
 
 The <b>GetExpressionSyntax</b> method returns the current syntax that the engine is using for evaluating expressions.
-
-
-## -syntax
-
-
-````
-HRESULT GetExpressionSyntax(
-  [out] PULONG Flags
-);
-````
 
 
 ## -parameters
@@ -116,15 +107,6 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
 
 
@@ -132,8 +114,16 @@ The method was successful.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
  
 
  
-
 

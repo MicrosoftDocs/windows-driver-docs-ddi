@@ -7,7 +7,7 @@ old-location: kernel\exsetresourceownerpointer.htm
 old-project: kernel
 ms.assetid: 985f811e-cf4f-4dbe-8ede-497ba4eceffd
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExSetResourceOwnerPointer, ExSetResourceOwnerPointer routine [Kernel-Mode Driver Architecture], k102_1f5ed4f7-4252-4f50-9c40-06d6204d8b57.xml, kernel.exsetresourceownerpointer, wdm/ExSetResourceOwnerPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExSetResourceOwnerPointer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExSetResourceOwnerPointer function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ExSetResourceOwnerPointer</b> routine sets the owner thread pointer for an executive resource.
-
-
-## -syntax
-
-
-````
-VOID ExSetResourceOwnerPointer(
-  _Inout_ PERESOURCE Resource,
-  _In_    PVOID      OwnerPointer
-);
-````
 
 
 ## -parameters
@@ -105,12 +94,11 @@ When the user thread is done with the resource, the resource manager thread rele
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545585">ExReleaseResourceForThreadLite</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.DisableRealBatteries
-title: IWDTFSimulatedBatterySystemAction::DisableRealBatteries method
+title: IWDTFSimulatedBatterySystemAction::DisableRealBatteries
 author: windows-driver-content
 description: Disables real batteries if they are present in the system.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_disablerealbatteries.htm
 old-project: dtf
 ms.assetid: 8118589c-00ef-4986-b523-b812160a547d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: DisableRealBatteries method [Windows Device Testing Framework], DisableRealBatteries method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, DisableRealBatteries,IWDTFSimulatedBatterySystemAction.DisableRealBatteries, IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], DisableRealBatteries method, IWDTFSimulatedBatterySystemAction::DisableRealBatteries, dtf.iwdtfsimulatedbatterysystemaction_disablerealbatteries, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableRealBatteries
+ms.date: 4/4/2018
+ms.keywords: DisableRealBatteries, DisableRealBatteries method [Windows Device Testing Framework], DisableRealBatteries method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],DisableRealBatteries method, IWDTFSimulatedBatterySystemAction.DisableRealBatteries, IWDTFSimulatedBatterySystemAction::DisableRealBatteries, dtf.iwdtfsimulatedbatterysystemaction_disablerealbatteries, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableRealBatteries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	wdtfsimulatedbatterysystemaction.h
 api_name:
 -	IWDTFSimulatedBatterySystemAction.DisableRealBatteries
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSimulatedBatterySystemAction::DisableRealBatteries method
+# IWDTFSimulatedBatterySystemAction::DisableRealBatteries
 
 
 ## -description
@@ -60,16 +60,6 @@ Use this method to disable real batteries if they are present in the
     method should be called before calling methods that change the simulated
     battery state, otherwise the state changes might not have the desired
     effect on OS or software behavior.
-
-
-## -syntax
-
-
-````
-HRESULT DisableRealBatteries(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
 
 
 ## -parameters
@@ -91,12 +81,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsimulatedbatterysystemaction\nn-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction.md">IWDTFSimulatedBatterySystemAction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265160">IWDTFSimulatedBatterySystemAction</a>
  
 
  
-
 

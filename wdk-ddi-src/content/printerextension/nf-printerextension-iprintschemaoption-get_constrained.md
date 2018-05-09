@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaOption.get_Constrained
-title: IPrintSchemaOption::get_Constrained method
+title: IPrintSchemaOption::get_Constrained
 author: windows-driver-content
 description: Gets the constraint setting type for the schema option.
 old-location: print\iprintschemaoption_constrained.htm
 old-project: print
 ms.assetid: 57E13395-9E23-4708-B4EC-6839CB6FC62B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Constrained property [Print Devices], Constrained property [Print Devices], IPrintSchemaOption interface, IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], Constrained property, IPrintSchemaOption.Constrained, IPrintSchemaOption::get_Constrained, get_Constrained, get_Constrained,IPrintSchemaOption.get_Constrained, print.iprintschemaoption_constrained, printerextension/IPrintSchemaOption::Constrained, printerextension/IPrintSchemaOption::get_Constrained
+ms.date: 4/20/2018
+ms.keywords: Constrained property [Print Devices], Constrained property [Print Devices],IPrintSchemaOption interface, IPrintSchemaOption interface [Print Devices],Constrained property, IPrintSchemaOption.Constrained, IPrintSchemaOption.get_Constrained, IPrintSchemaOption::Constrained, IPrintSchemaOption::get_Constrained, get_Constrained, print.iprintschemaoption_constrained, printerextension/IPrintSchemaOption::Constrained, printerextension/IPrintSchemaOption::get_Constrained
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,13 +39,13 @@ api_location:
 api_name:
 -	IPrintSchemaOption.Constrained
 -	IPrintSchemaOption.get_Constrained
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaOption::get_Constrained method
+# IPrintSchemaOption::get_Constrained
 
 
 ## -description
@@ -56,31 +56,20 @@ Gets  the constraint setting type for the schema option.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Constrained(
-  [out, retval] PrintSchemaConstrainedSetting *pSetting
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
 
 
 
-<a href="..\printerextension\ne-printerextension-tagprintschemaconstrainedsetting.md">PrintSchemaConstrainedSetting</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh463985">PrintSchemaConstrainedSetting</a>
  
 
  
-
 

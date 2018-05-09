@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiSpl2.SendRecvXMLString
-title: IBidiSpl2::SendRecvXMLString method
+title: IBidiSpl2::SendRecvXMLString
 author: windows-driver-content
 description: The SendRecvXMLString method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the Bidirectional Communication Schemas.
 old-location: print\ibidispl2_ibidispl2__sendrecvxmlstring.htm
 old-project: print
 ms.assetid: 7d61402e-e248-4770-a828-9c266e528115
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IBidiSpl2, IBidiSpl2 interface [Print Devices], SendRecvXMLString method, IBidiSpl2::SendRecvXMLString, SendRecvXMLString method [Print Devices], SendRecvXMLString method [Print Devices], IBidiSpl2 interface, SendRecvXMLString,IBidiSpl2.SendRecvXMLString, _win32_IBidiSpl2_SendRecvXMLString, bidispl/IBidiSpl2::SendRecvXMLString, gdi.ibidispl2_ibidispl2__sendrecvxmlstring, print.ibidispl2_ibidispl2__sendrecvxmlstring
+ms.date: 4/20/2018
+ms.keywords: IBidiSpl2 interface [Print Devices],SendRecvXMLString method, IBidiSpl2.SendRecvXMLString, IBidiSpl2::SendRecvXMLString, SendRecvXMLString, SendRecvXMLString method [Print Devices], SendRecvXMLString method [Print Devices],IBidiSpl2 interface, _win32_IBidiSpl2_SendRecvXMLString, bidispl/IBidiSpl2::SendRecvXMLString, gdi.ibidispl2_ibidispl2__sendrecvxmlstring, print.ibidispl2_ibidispl2__sendrecvxmlstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiSpl2.SendRecvXMLString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiSpl2::SendRecvXMLString method
+# IBidiSpl2::SendRecvXMLString
 
 
 ## -description
 
 
 The <b>SendRecvXMLString</b> method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schemas</a>.
-
-
-## -syntax
-
-
-````
-HRESULT SendRecvXMLString(
-  [in]  BSTR bstrRequest,
-  [out] BSTR *pbstrResponse
-);
-````
 
 
 ## -parameters
@@ -132,7 +122,6 @@ Note that the <b>HRESULT</b> may contain a system error code that is defined in 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 
@@ -140,12 +129,12 @@ Note that the <b>HRESULT</b> may contain a system error code that is defined in 
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144981">IBidiSpl2</a>
 
 
 
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
  
 
  
-
 

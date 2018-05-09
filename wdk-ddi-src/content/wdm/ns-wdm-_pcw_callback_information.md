@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	PCW_CALLBACK_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCW_CALLBACK_INFORMATION, *PPCW_CALLBACK_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _PCW_CALLBACK_INFORMATION structure
@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>PCW_CALLBACK_INFORMATION</b> union supplies details about the notification to send. A provider passes a pointer to this union as a parameter to the <a href="..\wdm\nc-wdm-pcw_callback.md">PcwCallback</a> function. 
-
-
-## -syntax
-
-
-````
-typedef union _PCW_CALLBACK_INFORMATION {
-  PCW_COUNTER_INFORMATION AddCounter;
-  PCW_COUNTER_INFORMATION RemoveCounter;
-  PCW_MASK_INFORMATION    EnumerateInstances;
-  PCW_MASK_INFORMATION    CollectData;
-} PCW_CALLBACK_INFORMATION, *PPCW_CALLBACK_INFORMATION;
-````
+The <b>PCW_CALLBACK_INFORMATION</b> union supplies details about the notification to send. A provider passes a pointer to this union as a parameter to the <a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a> function. 
 
 
 ## -struct-fields
@@ -93,16 +80,15 @@ The PCW_MASK_INFORMATION structure that identifies the instance of the counter s
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_pcw_mask_information.md">PCW_MASK_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_pcw_counter_information.md">PCW_COUNTER_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550341">PCW_COUNTER_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550346">PCW_MASK_INFORMATION</a>
  
 
  
-
 

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_GEOREGIONTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_GEOREGIONTYPE
 ---
@@ -50,16 +51,6 @@ req.typenames: GNSS_GEOREGIONTYPE
 
 
 This enumeration is used for defining a geographical shape. A shape is used to define a geofence. Windows 10 currently only supports circular geofences.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_GeoRegion_Circle  = 0x01
-} GNSS_GEOREGIONTYPE;
-````
 
 
 ## -enum-fields

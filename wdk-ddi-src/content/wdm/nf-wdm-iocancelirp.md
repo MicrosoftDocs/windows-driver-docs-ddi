@@ -7,7 +7,7 @@ old-location: kernel\iocancelirp.htm
 old-project: kernel
 ms.assetid: 8d991192-2df8-4b4d-a4c5-df5091492e67
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoCancelIrp, IoCancelIrp routine [Kernel-Mode Driver Architecture], k104_b43eae94-7d4e-4649-b56c-498285b5033f.xml, kernel.iocancelirp, wdm/IoCancelIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoCancelIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoCancelIrp function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoCancelIrp</b> routine sets the cancel bit in a given IRP and calls the cancel routine for the IRP if there is one.
-
-
-## -syntax
-
-
-````
-BOOLEAN IoCancelIrp(
-  _In_ PIRP Irp
-);
-````
 
 
 ## -parameters
@@ -99,12 +89,11 @@ An intermediate driver should not arbitrarily call <b>IoCancelIrp</b> unless tha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetcancelroutine.md">IoSetCancelRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549674">IoSetCancelRoutine</a>
  
 
  
-
 

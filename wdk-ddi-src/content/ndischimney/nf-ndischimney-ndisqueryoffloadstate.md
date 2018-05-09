@@ -7,7 +7,7 @@ old-location: netvista\ndisqueryoffload.htm
 old-project: netvista
 ms.assetid: 97d30ba7-b67c-460b-ba80-171687495e27
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisQueryOffloadState, NdisQueryOffloadState function [Network Drivers Starting with Windows Vista], ndis/NdisQueryOffloadState, netvista.ndisqueryoffload, tcp_chim_ndis_func_9075e6da-2950-4643-b626-36b4a9ce5a33.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisQueryOffloadState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
 # NdisQueryOffloadState function
@@ -55,17 +56,6 @@ A protocol or intermediate driver calls the
   <b>NdisQueryOffloadState</b> function to query previously offloaded TCP chimney state objects.
 
 
-## -syntax
-
-
-````
-VOID NdisQueryOffloadState(
-  _In_ NDIS_HANDLE                       NdisBindingHandle,
-  _In_ PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST OffloadBlockList
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +65,7 @@ VOID NdisQueryOffloadState(
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>. This handle
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>. This handle
      identifies the binding between the caller and the underlying intermediate driver or offload
      target.
 
@@ -83,7 +73,7 @@ The handle that NDIS provided at the
 ### -param OffloadBlockList [in]
 
 A pointer to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+     <a href="https://msdn.microsoft.com/64febd55-1ab8-4e2e-b738-340167866333">
      NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures. These structures identify the offloaded state objects that are being
      queried.
@@ -109,10 +99,10 @@ An intermediate driver calls the
     State-Manipulation Operations</a>.
 
 From the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that was passed to its 
-    <a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a> function, the
+    <a href="https://msdn.microsoft.com/a583c4cb-53c1-4eff-bcfe-c962f736b1f8">MiniportQueryOffload</a> function, the
     intermediate driver constructs an NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure. For more information, see
     Reusing an 
-    <a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+    <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> Structure. The intermediate driver passes a pointer (the 
     <i>OffloadBlockList</i> parameter) to this NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure when calling the 
     <b>NdisQueryOffloadState</b> function.
@@ -122,36 +112,35 @@ From the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-query_offload_complete_handler.md">
-   ProtocolQueryOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+<a href="https://msdn.microsoft.com/a583c4cb-53c1-4eff-bcfe-c962f736b1f8">MiniportQueryOffload</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+<a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+<a href="https://msdn.microsoft.com/64febd55-1ab8-4e2e-b738-340167866333">
    NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndismqueryoffloadstatecomplete.md">
+<a href="https://msdn.microsoft.com/7bcc6610-0c48-4a7f-b8fa-be372af201ba">
    NdisMQueryOffloadStateComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/f521af88-eb96-4077-8882-9b1d02c6c87c">
+   ProtocolQueryOffloadComplete</a>
  
 
  
-
 

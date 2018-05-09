@@ -7,7 +7,7 @@ old-location: stream\ksservicebusenumpnprequest.htm
 old-project: stream
 ms.assetid: cdf0017f-e8c0-4e95-bea6-8bc2509c090c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsServiceBusEnumPnpRequest, KsServiceBusEnumPnpRequest function [Streaming Media Devices], ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml, stream.ksservicebusenumpnprequest, swenum/KsServiceBusEnumPnpRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsServiceBusEnumPnpRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KsServiceBusEnumPnpRequest function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <i>This function is intended for internal use only.</i>
 
 The <b>KsServiceBusEnumPnpRequest</b> function services IRP_MJ_PNP requests on behalf of the demand-load bus enumerator object that was created with <b>KsCreateBusEnumObject</b>. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsServiceBusEnumPnpRequest(
-  _In_    PDEVICE_OBJECT DeviceObject,
-  _Inout_ PIRP           Irp
-);
-````
 
 
 ## -parameters
@@ -202,20 +191,19 @@ IRP_MN_QUERY_CAPABILITIES
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksservicebusenumcreaterequest.md">KsServiceBusEnumCreateRequest</a>
 
 
 
-<a href="..\swenum\nf-swenum-kscreatebusenumobject.md">KsCreateBusEnumObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561634">KsCreateBusEnumObject</a>
 
 
 
-<a href="..\swenum\nf-swenum-ksisbusenumchilddevice.md">KsIsBusEnumChildDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563389">KsIsBusEnumChildDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566814">KsServiceBusEnumCreateRequest</a>
  
 
  
-
 

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_MEMORY_ERROR_SECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION
 ---
@@ -52,31 +53,6 @@ req.typenames: WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION
 The WHEA_MEMORY_ERROR_SECTION structure describes platform memory error data.
 
 
-## -syntax
-
-
-````
-typedef struct _WHEA_MEMORY_ERROR_SECTION {
-  WHEA_MEMORY_ERROR_SECTION_VALIDBITS ValidBits;
-  WHEA_ERROR_STATUS                   ErrorStatus;
-  ULONGLONG                           PhysicalAddress;
-  ULONGLONG                           PhysicalAddressMask;
-  USHORT                              Node;
-  USHORT                              Card;
-  USHORT                              Module;
-  USHORT                              Bank;
-  USHORT                              Device;
-  USHORT                              Row;
-  USHORT                              Column;
-  USHORT                              BitPosition;
-  ULONGLONG                           RequesterId;
-  ULONGLONG                           ResponderId;
-  ULONGLONG                           TargetId;
-  UCHAR                               ErrorType;
-} WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION;
-````
-
-
 ## -struct-fields
 
 
@@ -84,12 +60,12 @@ typedef struct _WHEA_MEMORY_ERROR_SECTION {
 
 ### -field ValidBits
 
-A <a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560568">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a> union that specifies which members of this structure contain valid data.
 
 
 ### -field ErrorStatus
 
-A <a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a> structure that contains memory error status data.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560514">WHEA_ERROR_STATUS</a> structure that contains memory error status data.
 
 This member contains valid data only if the <b>Validbits.ErrorStatus</b> bit is set.
 
@@ -189,105 +165,55 @@ This member contains valid data only if the <b>Validbits.TargetId</b> bit is set
 
 The type of memory error that occurred. Possible values are:
 
+| Possible Values                   | Description                                                                                                                                                                      |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| WHEA_MEMERRTYPE_UNKNOWN           | An unknown error.                                                                                                                                                                |
+| WHEA_MEMERRTYPE_NOERROR           | No error occurred.                                                                                                                                                               |
+| WHEA_MEMERRTYPE_SINGLEBITECC      | A single bit [ECC](https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab) error.                                                                            |
+| WHEA_MEMERRTYPE_MULTIBITECC       | multibit ECC error.                                                                                                                                                              |
+| WHEA_MEMERRTYPE_SINGLESYMCHIPKILL | A single symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.   |
+| WHEA_MEMERRTYPE_MULTISYMCHIPKILL  | A multiple symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error. |
+| WHEA_MEMERRTYPE_MASTERABORT       | A master abort.                                                                                                                                                                  |
+| WHEA_MEMERRTYPE_TARGETABORT       | A target abort.                                                                                                                                                                  |
+| WHEA_MEMERRTYPE_PARITYERROR       | A parity error.                                                                                                                                                                  |
+| WHEA_MEMERRTYPE_WATCHDOGTIMEOUT   | A watchdog timeout.                                                                                                                                                              |
+| WHEA_MEMERRTYPE_INVALIDADDRESS    | An invalid memory address.                                                                                                                                                       |
+| WHEA_MEMERRTYPE_MIRRORBROKEN      | A broken memory mirror.                                                                                                                                                          |
+| WHEA_MEMERRTYPE_MEMORYSPARING     | A memory sparing error.                                                                                                                                                          | This member contains valid data only if the <b>Validbits.ErrorType</b> bit is set. |
 
 
+### -field Extended
 
+Contains valid data only if the **ValidBits.ExtendedRow** bits is set.
 
-#### WHEA_MEMERRTYPE_UNKNOWN
+If **ValidBits.Row** is not set, the **Row** member contains row number bits (15:0) and Extended contains row number bits (17:16). Bit 0 is the 16th bit of the **Row**.  Bit 1 is the 17th bit of the **Row**.
 
-An unknown error.
+If **ValidBits.ChipIdentification** is set, Bits 7:5 contain Chip Identification.
 
+This value is available starting Windows 10, version 1803.
 
+### -field RankNumber
 
-#### WHEA_MEMERRTYPE_NOERROR
+The Rank number of the memory error location. This member contains valid data only if the **ValidBits.RankNumber** bit is set. This value is available starting Windows 10, version 1803.
+ 
+### -field CardHandle
+Contains the SMBIOS handle for the Memory Array Structure that represents the Memory Card.  This member contains valid data only if the **ValidBits.CardHandle** is set. This value is available starting Windows 10, version 1803.
 
-No error occurred.
-
-
-
-#### WHEA_MEMERRTYPE_SINGLEBITECC
-
-A single bit <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
-
-
-
-#### WHEA_MEMERRTYPE_MULTIBITECC
-
-A multibit ECC error.
-
-
-
-#### WHEA_MEMERRTYPE_SINGLESYMCHIPKILL
-
-A single symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
-
-
-
-#### WHEA_MEMERRTYPE_MULTISYMCHIPKILL
-
-A multiple symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
-
-
-
-#### WHEA_MEMERRTYPE_MASTERABORT
-
-A master abort.
-
-
-
-#### WHEA_MEMERRTYPE_TARGETABORT
-
-A target abort.
-
-
-
-#### WHEA_MEMERRTYPE_PARITYERROR
-
-A parity error.
-
-
-
-#### WHEA_MEMERRTYPE_WATCHDOGTIMEOUT
-
-A watchdog timeout.
-
-
-
-#### WHEA_MEMERRTYPE_INVALIDADDRESS
-
-An invalid memory address.
-
-
-
-#### WHEA_MEMERRTYPE_MIRRORBROKEN
-
-A broken memory mirror.
-
-
-
-#### WHEA_MEMERRTYPE_MEMORYSPARING
-
-A memory sparing error.
-
-This member contains valid data only if the <b>Validbits.ErrorType</b> bit is set.
-
+ 
+### -field ModuleHandle
+Contains the SMBIOS handle for the Memory Device Structure that represents the Memory Module.  This member contains valid data only if the **ValidBits.ModuleHandle** is set. This value is available starting Windows 10, version 1803.
 
 ## -remarks
 
 
 
-The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contained in a platform memory error section of an <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a>. An error record contains a platform memory error section only if the <b>SectionType </b>member of one of the <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains MEMORY_ERROR_SECTION_GUID.
+The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contained in a platform memory error section of an <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a>. An error record contains a platform memory error section only if the <b>SectionType </b>member of one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560496">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe the error record sections for that error record contains MEMORY_ERROR_SECTION_GUID.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
@@ -295,12 +221,16 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560496">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560514">WHEA_ERROR_STATUS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560568">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
  
 
  
-
 

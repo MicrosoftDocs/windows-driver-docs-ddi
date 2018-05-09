@@ -7,7 +7,7 @@ old-location: storage\removepersistententry_out.htm
 old-project: storage
 ms.assetid: 2fa578f7-5892-4ec1-a01f-49c828bd6913
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PRemovePersistentEntry_OUT, PRemovePersistentEntry_OUT, PRemovePersistentEntry_OUT structure pointer [Storage Devices], RemovePersistentEntry_OUT, RemovePersistentEntry_OUT structure [Storage Devices], _RemovePersistentEntry_OUT, hbapiwmi/PRemovePersistentEntry_OUT, hbapiwmi/RemovePersistentEntry_OUT, storage.removepersistententry_out, structs-Fibre_8a84bc15-be90-4a74-a551-c3cf43d4f5ef.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	RemovePersistentEntry_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RemovePersistentEntry_OUT, *PRemovePersistentEntry_OUT
 ---
@@ -50,16 +51,6 @@ req.typenames: RemovePersistentEntry_OUT, *PRemovePersistentEntry_OUT
 
 
 The RemovePersistentEntry_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563988">RemovePersistentEntry</a> WMI method to the WMI client.
-
-
-## -syntax
-
-
-````
-typedef struct _RemovePersistentEntry_OUT {
-  ULONG HBAStatus;
-} RemovePersistentEntry_OUT, *PRemovePersistentEntry_OUT;
-````
 
 
 ## -struct-fields
@@ -83,12 +74,11 @@ The WMI tool suite generates a declaration of the RemovePersistentEntry_OUT stru
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563988">RemovePersistentEntry</a>
-
-
-
  
 
  
-
 

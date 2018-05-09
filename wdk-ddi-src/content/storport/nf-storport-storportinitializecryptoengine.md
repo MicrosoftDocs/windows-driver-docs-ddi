@@ -7,7 +7,7 @@ old-location: storage\storportinitializecryptoengine.htm
 old-project: storage
 ms.assetid: 49F4EEA1-BFA6-4A91-8306-E25569C679A6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInitializeCryptoEngine, StorPortInitializeCryptoEngine routine [Storage Devices], storage.storportinitializecryptoengine, storport/StorPortInitializeCryptoEngine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Storport.h
 api_name:
 -	StorPortInitializeCryptoEngine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortInitializeCryptoEngine function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 Reserved for system use.
-
-
-## -syntax
-
-
-````
- StorPortInitializeCryptoEngine(
-    
-);
-````
 
 
 ## -parameters

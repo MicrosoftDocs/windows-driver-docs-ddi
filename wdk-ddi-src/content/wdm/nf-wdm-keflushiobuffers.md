@@ -7,7 +7,7 @@ old-location: kernel\keflushiobuffers.htm
 old-project: kernel
 ms.assetid: 76954a20-7cd7-454b-a965-8c3f0cdb6e8f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KeFlushIoBuffers, KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, kernel.keflushiobuffers, wdm/KeFlushIoBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeFlushIoBuffers
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeFlushIoBuffers function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeFlushIoBuffers</b> routine flushes the memory region described by an MDL from caches of all processors.
-
-
-## -syntax
-
-
-````
-VOID KeFlushIoBuffers(
-  _In_ PMDL    Mdl,
-  _In_ BOOLEAN ReadOperation,
-  _In_ BOOLEAN DmaOperation
-);
-````
 
 
 ## -parameters
@@ -117,12 +105,11 @@ For more information, see the following topics:
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545917">FlushAdapterBuffers</a>
  
 
  
-
 

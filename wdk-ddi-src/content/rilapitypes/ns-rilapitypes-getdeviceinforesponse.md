@@ -7,7 +7,7 @@ old-location: netvista\getdeviceinforesponse.htm
 old-project: netvista
 ms.assetid: 312b60ba-9df4-4171-a831-ab402cc99664
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPGETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE structure [Network Drivers Starting with Windows Vista], netvista.getdeviceinforesponse, ntddrilapitypes/GETDEVICEINFORESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -37,10 +37,10 @@ api_location:
 -
 api_name:
 -	GETDEVICEINFORESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GETDEVICEINFORESPONSE, *LPGETDEVICEINFORESPONSE
-req.product: Windows 10 or later.
 ---
 
 # GETDEVICEINFORESPONSE structure
@@ -50,16 +50,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _GETDEVICEINFORESPONSE {
-  char [256] Result;
-} GETDEVICEINFORESPONSE, GETDEVICEINFORESPONSE;
-````
 
 
 ## -struct-fields

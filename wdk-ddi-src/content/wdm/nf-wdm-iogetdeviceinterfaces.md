@@ -7,7 +7,7 @@ old-location: kernel\iogetdeviceinterfaces.htm
 old-project: kernel
 ms.assetid: a980fe92-ccd9-4a23-b324-ae8ef4e10345
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoGetDeviceInterfaces, IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml, kernel.iogetdeviceinterfaces, wdm/IoGetDeviceInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoGetDeviceInterfaces
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoGetDeviceInterfaces function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoGetDeviceInterfaces</b> routine returns a list of device interface instances of a particular device interface class (such as all devices on the system that support a HID interface).
-
-
-## -syntax
-
-
-````
-NTSTATUS IoGetDeviceInterfaces(
-  _In_     const GUID           *InterfaceClassGuid,
-  _In_opt_       PDEVICE_OBJECT PhysicalDeviceObject,
-  _In_           ULONG          Flags,
-  _Out_          PWSTR          *SymbolicLinkList
-);
-````
 
 
 ## -parameters
@@ -105,12 +92,12 @@ Return disabled device interface instances in addition to enabled interface inst
 
 When searching for a device that supports a particular interface class, the caller requires an enabled interface instance and thus does not set the DEVICE_INTERFACE_INCLUDE_NONACTIVE flag.
 
-A driver typically sets the DEVICE_INTERFACE_INCLUDE_NONACTIVE flag to locate disabled interface instances that the driver must enable. For example, the class installer for the device might have been directed by the INF file to register one or more interface instances for the device. The interface instances would be registered but are not usable until they are enabled by the driver (using <a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>). To narrow the list of interface instances returned to only those exposed by a given device, a driver can specify a <i>PhysicalDeviceObject</i>.
+A driver typically sets the DEVICE_INTERFACE_INCLUDE_NONACTIVE flag to locate disabled interface instances that the driver must enable. For example, the class installer for the device might have been directed by the INF file to register one or more interface instances for the device. The interface instances would be registered but are not usable until they are enabled by the driver (using <a href="https://msdn.microsoft.com/library/windows/hardware/ff549700">IoSetDeviceInterfaceState</a>). To narrow the list of interface instances returned to only those exposed by a given device, a driver can specify a <i>PhysicalDeviceObject</i>.
 
 
 ### -param SymbolicLinkList [out]
 
-A pointer to a wide character pointer to which the routine, if successful, writes the base address of a buffer that contains a list of Unicode strings. These strings are symbolic link names that identify the device interface instances that match the search criteria. Each Unicode string in the list is null-terminated; the end of the whole list is marked by an additional null character. The routine allocates the buffer for these strings from paged system memory. The caller is responsible for freeing the buffer (by calling the <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> routine) when it is no longer needed.
+A pointer to a wide character pointer to which the routine, if successful, writes the base address of a buffer that contains a list of Unicode strings. These strings are symbolic link names that identify the device interface instances that match the search criteria. Each Unicode string in the list is null-terminated; the end of the whole list is marked by an additional null character. The routine allocates the buffer for these strings from paged system memory. The caller is responsible for freeing the buffer (by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a> routine) when it is no longer needed.
 
 If no device interface instances match the search criteria, this routine returns STATUS_SUCCESS and the string contains a single NULL character.
 
@@ -147,7 +134,7 @@ Possibly indicates that <i>PhysicalDeviceObject</i> was not a valid PDO pointer.
 
 
 
-<b>IoGetDeviceInterfaces</b> returns a list of device interface instances that match the search criteria. A kernel-mode component typically calls this routine to get a list of all enabled device interface instances of a particular device interface class. Such a component can get a pointer to the file object and/or the device object for an interface by calling the <a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a> or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> routine. The device object pointer returned by <b>IoGetDeviceObjectPointer</b> points to the top of the device stack for the device and can be used in calls to the <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a> routine.
+<b>IoGetDeviceInterfaces</b> returns a list of device interface instances that match the search criteria. A kernel-mode component typically calls this routine to get a list of all enabled device interface instances of a particular device interface class. Such a component can get a pointer to the file object and/or the device object for an interface by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549198">IoGetDeviceObjectPointer</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> routine. The device object pointer returned by <b>IoGetDeviceObjectPointer</b> points to the top of the device stack for the device and can be used in calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a> routine.
 
 If there is a default interface for the requested device interface class, it is listed first in <i>SymbolicLinkList</i>. Default interfaces can be set by user mode, but not by kernel mode.
 
@@ -155,7 +142,7 @@ The format of a symbolic link name is opaque; the caller should not attempt to p
 
 Symbolic links for device interface instances can be used across system boots.
 
-To be notified when additional device interface instances of a particular class are enabled on the system, register for notification of a device class change by calling the <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a> routine.
+To be notified when additional device interface instances of a particular class are enabled on the system, register for notification of a device class change by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549526">IoRegisterPlugPlayNotification</a> routine.
 
 Callers of <b>IoGetDeviceInterfaces</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
@@ -164,36 +151,35 @@ Callers of <b>IoGetDeviceInterfaces</b> must be running at IRQL = PASSIVE_LEVEL 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
 
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549198">IoGetDeviceObjectPointer</a>
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549526">IoRegisterPlugPlayNotification</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549700">IoSetDeviceInterfaceState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
  
 
  
-
 

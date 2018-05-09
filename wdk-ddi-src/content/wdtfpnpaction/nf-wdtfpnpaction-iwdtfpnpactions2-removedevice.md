@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.RemoveDevice
-title: IWDTFPNPActions2::RemoveDevice method
+title: IWDTFPNPActions2::RemoveDevice
 author: windows-driver-content
 description: Removes the device.
 old-location: dtf\iwdtfpnpactions2_removedevice.htm
 old-project: dtf
 ms.assetid: 8926e96e-b738-47ff-a5c4-8bc15943c6a4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], RemoveDevice method, IWDTFPNPActions2::RemoveDevice, RemoveDevice method [Windows Device Testing Framework], RemoveDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, RemoveDevice,IWDTFPNPActions2.RemoveDevice, dtf.iwdtfpnpactions2_removedevice, wdtfpnpaction/IWDTFPNPActions2::RemoveDevice
+ms.date: 4/4/2018
+ms.keywords: IWDTFPNPActions2 interface [Windows Device Testing Framework],RemoveDevice method, IWDTFPNPActions2.RemoveDevice, IWDTFPNPActions2::RemoveDevice, RemoveDevice, RemoveDevice method [Windows Device Testing Framework], RemoveDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, dtf.iwdtfpnpactions2_removedevice, wdtfpnpaction/IWDTFPNPActions2::RemoveDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	wdtfpnpaction.h
 api_name:
 -	IWDTFPNPActions2.RemoveDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPActions2::RemoveDevice method
+# IWDTFPNPActions2::RemoveDevice
 
 
 ## -description
 
 
 Removes the device.
-
-
-## -syntax
-
-
-````
-HRESULT RemoveDevice(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
 
 
 ## -parameters
@@ -93,12 +83,11 @@ Under the covers, this will call DIF_REMOVE.
 
 ## -see-also
 
-<a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpactions2.md">IWDTFPNPActions2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451094">IWDTFPNPActions2</a>
  
 
  
-
 

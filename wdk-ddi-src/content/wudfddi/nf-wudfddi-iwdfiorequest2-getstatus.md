@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.GetStatus
-title: IWDFIoRequest2::GetStatus method
+title: IWDFIoRequest2::GetStatus
 author: windows-driver-content
 description: The GetStatus method returns the status of an I/O request.
 old-location: wdf\iwdfiorequest2_getstatus.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 20b10edb-3294-4cc7-91bc-07df565a9cf2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetStatus method, GetStatus method, IWDFIoRequest2 interface, GetStatus,IWDFIoRequest2.GetStatus, IWDFIoRequest2, IWDFIoRequest2 interface, GetStatus method, IWDFIoRequest2::GetStatus, UMDFRequestObjectRef_c2efd103-5295-494f-8938-95cf0d76fc3e.xml, umdf.iwdfiorequest2_getstatus, wdf.iwdfiorequest2_getstatus, wudfddi/IWDFIoRequest2::GetStatus
+ms.keywords: GetStatus, GetStatus method, GetStatus method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetStatus method, IWDFIoRequest2.GetStatus, IWDFIoRequest2::GetStatus, UMDFRequestObjectRef_c2efd103-5295-494f-8938-95cf0d76fc3e.xml, umdf.iwdfiorequest2_getstatus, wdf.iwdfiorequest2_getstatus, wudfddi/IWDFIoRequest2::GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest2.GetStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::GetStatus method
+# IWDFIoRequest2::GetStatus
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetStatus</b> method returns the status of an I/O request.
-
-
-## -syntax
-
-
-````
-HRESULT GetStatus();
-````
 
 
 ## -parameters
@@ -74,7 +66,7 @@ HRESULT GetStatus();
 
 
 
-<b>GetStatus</b> returns an HRESULT-typed status value, This value indicates the current status of the I/O request that the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a> interface represents. 
+<b>GetStatus</b> returns an HRESULT-typed status value, This value indicates the current status of the I/O request that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a> interface represents. 
 
 
 
@@ -104,7 +96,7 @@ For more information about request completion, see <a href="https://docs.microso
 
 #### Examples
 
-The following code example sends an I/O request to an I/O target. If the call to <a href="https://msdn.microsoft.com/f916b414-9cd9-4745-a021-07c810d0d68b">Send</a> succeeds, the example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a> interface, calls <b>GetStatus</b> to obtain the request's status value, and then calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a> to complete the I/O request.
+The following code example sends an I/O request to an I/O target. If the call to <a href="https://msdn.microsoft.com/f916b414-9cd9-4745-a021-07c810d0d68b">Send</a> succeeds, the example obtains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a> interface, calls <b>GetStatus</b> to obtain the request's status value, and then calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a> to complete the I/O request.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -136,7 +128,6 @@ if (SUCCEEDED(hrSend))
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a>
 
 
 
@@ -144,20 +135,20 @@ if (SUCCEEDED(hrSend))
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559084">IWDFIoRequest::GetCompletionParams</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
  
 
  
-
 

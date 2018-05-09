@@ -7,7 +7,7 @@ old-location: stream\ksp_node.htm
 old-project: stream
 ms.assetid: 2d5f1b31-d8fe-40a3-ac23-cc442f3adbe5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSP_NODE, KSP_NODE, KSP_NODE structure [Streaming Media Devices], PKSP_NODE, PKSP_NODE structure pointer [Streaming Media Devices], ks-struct_e93685c5-c84a-469a-ad2c-2407cb2e383b.xml, ks/KSP_NODE, ks/PKSP_NODE, stream.ksp_node"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSP_NODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_NODE, *PKSP_NODE
 ---
@@ -50,18 +51,6 @@ req.typenames: KSP_NODE, *PKSP_NODE
 
 
 Kernel streaming clients use the KSP_NODE structure to specify the property and node type within a KSPROPERTY_TOPOLOGY_NAME property request.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      NodeId;
-  ULONG      Reserved;
-} KSP_NODE, *PKSP_NODE;
-````
 
 
 ## -struct-fields
@@ -86,16 +75,15 @@ Reserved for system use. Should be set to zero.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537143">KSNODEPROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>
-
-
-
  
 
  
-
 

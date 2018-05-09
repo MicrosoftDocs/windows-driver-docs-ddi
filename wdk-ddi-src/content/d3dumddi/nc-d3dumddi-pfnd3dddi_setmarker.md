@@ -7,8 +7,8 @@ old-location: display\pfnsetmarker.htm
 old-project: display
 ms.assetid: 6D4DB988-D339-4B2F-A9B8-41B4FD21FE66
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_SETMARKER, d3dumddi/pfnSetMarker, display.pfnsetmarker, pfnSetMarker, pfnSetMarker callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETMARKER, PFND3DDDI_SETMARKER callback, d3dumddi/pfnSetMarker, display.pfnsetmarker, pfnSetMarker, pfnSetMarker callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,31 +38,19 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	pfnSetMarker
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETMARKER callback
+# PFND3DDDI_SETMARKER callback function
 
 
 ## -description
 
 
-Notifies the user-mode display driver that it must generate a new time stamp if any GPU work has completed since the last call to <i>pfnSetMarker</i>. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers running on Microsoft Direct3D Level 9 hardware. (See requirements in  <a href="https://msdn.microsoft.com/F9AAE489-EC45-4EE6-875E-E084BB3054EE">Direct3D rendering performance improvements</a>.)  For more advanced hardware, drivers should implement the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarker.md">SetMarker</a> function.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETMARKER pfnSetMarker;
-
-_Check_return_ HRESULT APIENTRY* pfnSetMarker(
-  _In_ HANDLE hDevice
-)
-{ ... }
-````
+Notifies the user-mode display driver that it must generate a new time stamp if any GPU work has completed since the last call to <i>pfnSetMarker</i>. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers running on Microsoft Direct3D Level 9 hardware. (See requirements in  <a href="https://msdn.microsoft.com/F9AAE489-EC45-4EE6-875E-E084BB3054EE">Direct3D rendering performance improvements</a>.)  For more advanced hardware, drivers should implement the <a href="https://msdn.microsoft.com/BE618B0C-18E7-4B2B-87EB-172DAD9BCE15">SetMarker</a> function.
 
 
 ## -parameters
@@ -89,10 +77,10 @@ A handle to the display device (graphics context).
 
 
 
-If the marker event type from the  <i>Type</i> parameter of the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">pfnSetMarkerMode</a> function is not <b>D3DDDIMT_NONE</b>, the user-mode display driver must perform this procedure with each call to <i>pfnSetMarker</i>:
+If the marker event type from the  <i>Type</i> parameter of the <a href="https://msdn.microsoft.com/D45750D9-F722-4208-8D00-E14FD9C009CB">pfnSetMarkerMode</a> function is not <b>D3DDDIMT_NONE</b>, the user-mode display driver must perform this procedure with each call to <i>pfnSetMarker</i>:
 
 <ol>
-<li>Increment the value of the <b>APISequenceNumber</b> member of the <a href="..\d3dumddi\ns-d3dumddi-d3dddicb_logumdmarker.md">D3DDDICB_LOGUMDMARKER</a> structure.</li>
+<li>Increment the value of the <b>APISequenceNumber</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn535965">D3DDDICB_LOGUMDMARKER</a> structure.</li>
 <li>Determine which contexts associated with single-threaded device driver interface (DDI) render calls submitted work with the last call to <i>pfnSetMarker</i>. For each such context:<ol>
 <li>If the command buffer for the context is empty, do nothing.</li>
 <li>Otherwise:<ul>
@@ -110,16 +98,15 @@ If the marker event type from the  <i>Type</i> parameter of the <a href="..\d3du
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setmarkermode.md">pfnSetMarkerMode</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarker.md">SetMarker</a>
+<a href="https://msdn.microsoft.com/BE618B0C-18E7-4B2B-87EB-172DAD9BCE15">SetMarker</a>
 
 
 
+<a href="https://msdn.microsoft.com/D45750D9-F722-4208-8D00-E14FD9C009CB">pfnSetMarkerMode</a>
  
 
  
-
 

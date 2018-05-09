@@ -7,7 +7,7 @@ old-location: print\oemdownloadcharglyph.htm
 old-project: print
 ms.assetid: da9a4058-1a0e-484b-afcd-9d4558810acd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMDownloadCharGlyph, OEMDownloadCharGlyph function [Print Devices], print.oemdownloadcharglyph, print_obsoletefunctions_fb2af04d-799c-419c-b675-3444fd7d3143.xml, printoem/OEMDownloadCharGlyph
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMDownloadCharGlyph
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMDownloadCharGlyph function
@@ -50,19 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-DWORD APIENTRY OEMDownloadCharGlyph(
-        PDEVOBJ     pdevobj,
-        PUNIFONTOBJ pUFObj,
-        HGLYPH      hGlyph,
-  _Out_ PDWORD      pdwWidth
-);
-````
 
 
 ## -parameters

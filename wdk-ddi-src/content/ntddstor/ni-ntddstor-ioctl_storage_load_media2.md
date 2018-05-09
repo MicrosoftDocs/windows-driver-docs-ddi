@@ -7,8 +7,8 @@ old-location: storage\ioctl_storage_load_media2.htm
 old-project: storage
 ms.assetid: ba458d46-9b5f-4ee3-80fa-59277e97fb4a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_STORAGE_LOAD_MEDIA2, IOCTL_STORAGE_LOAD_MEDIA2 control code [Storage Devices], k307_3952f49a-8ca1-42eb-afd0-cb0e6eef66fc.xml, ntddstor/IOCTL_STORAGE_LOAD_MEDIA2, storage.ioctl_storage_load_media2
+ms.date: 3/29/2018
+ms.keywords: IOCTL_STORAGE_LOAD_MEDIA2, IOCTL_STORAGE_LOAD_MEDIA2 control, IOCTL_STORAGE_LOAD_MEDIA2 control code [Storage Devices], k307_3952f49a-8ca1-42eb-afd0-cb0e6eef66fc.xml, ntddstor/IOCTL_STORAGE_LOAD_MEDIA2, storage.ioctl_storage_load_media2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	IOCTL_STORAGE_LOAD_MEDIA2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_LOAD_MEDIA2 IOCTL
@@ -50,7 +51,7 @@ req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 
 
 
-Causes media to be loaded in a device that the caller has opened with FILE_READ_ATTRIBUTES. Because no file system is mounted when a device is opened in this way, this request can be processed much more quickly than an <a href="..\ntddstor\ni-ntddstor-ioctl_storage_load_media.md">IOCTL_STORAGE_LOAD_MEDIA</a> request.
+Causes media to be loaded in a device that the caller has opened with FILE_READ_ATTRIBUTES. Because no file system is mounted when a device is opened in this way, this request can be processed much more quickly than an <a href="https://msdn.microsoft.com/library/windows/hardware/ff560567">IOCTL_STORAGE_LOAD_MEDIA</a> request.
 
 Input, output, and I/O status block values for IOCTL_STORAGE_LOAD_MEDIA2 are identical to those for IOCTL_STORAGE_LOAD_MEDIA.
 
@@ -107,12 +108,11 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_load_media.md">IOCTL_STORAGE_LOAD_MEDIA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560567">IOCTL_STORAGE_LOAD_MEDIA</a>
  
 
  
-
 

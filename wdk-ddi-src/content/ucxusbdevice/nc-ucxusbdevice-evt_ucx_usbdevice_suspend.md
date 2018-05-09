@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_usbdevice_suspend.htm
 old-project: usbref
 ms.assetid: 809F946C-DDD4-4C4D-9F0F-F2B4A4657D12
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: "*PFN_UCX_USBDEVICE_SUSPEND, *PFN_UCX_USBDEVICE_SUSPEND callback function [Buses], EVT_UCX_USBDEVICE_SUSPEND, EvtUcxDeviceSuspend, EvtUcxDeviceSuspend callback function [Buses], buses.evt_ucx_usbdevice_suspend, ucxusbdevice/EvtUcxDeviceSuspend"
+ms.date: 4/25/2018
+ms.keywords: "*PFN_UCX_USBDEVICE_SUSPEND, *PFN_UCX_USBDEVICE_SUSPEND callback function [Buses], EVT_UCX_USBDEVICE_SUSPEND, EVT_UCX_USBDEVICE_SUSPEND callback, EvtUcxDeviceSuspend, EvtUcxDeviceSuspend callback function [Buses], buses.evt_ucx_usbdevice_suspend, ucxusbdevice/EvtUcxDeviceSuspend"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,19 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	*PFN_UCX_USBDEVICE_SUSPEND
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_USBDEVICE_SUSPEND callback
+# EVT_UCX_USBDEVICE_SUSPEND callback function
 
 
 ## -description
 
 
 UCX invokes this callback function to send a device suspend state.
-
-
-## -prototype
-
-
-````
-EVT_UCX_USBDEVICE_SUSPEND EvtUcxDeviceSuspend;
-
-void EvtUcxDeviceSuspend(
-  _In_ UCXCONTROLLER UcxController,
-  _In_ UCXUSBDEVICE  UcxUsbDevice
-)
-{ ... }
-
-typedef EVT_UCX_USBDEVICE_SUSPEND *PFN_UCX_USBDEVICE_SUSPEND;
-````
 
 
 ## -parameters
@@ -81,7 +65,7 @@ typedef EVT_UCX_USBDEVICE_SUSPEND *PFN_UCX_USBDEVICE_SUSPEND;
 
 ### -param UcxUsbDevice [in]
 
-A handle to a UCX object that represents the USB device that the client driver received in a previous call to the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
+A handle to a UCX object that represents the USB device that the client driver received in a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a> method.
 
 
 ## -returns
@@ -97,7 +81,7 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers its implementation with the USB host controller extension (UCX) by calling the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
+The UCX client driver registers its implementation with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a> method.
 
 
 

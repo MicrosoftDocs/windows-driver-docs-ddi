@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile2.RetrieveCountedFileName
-title: IWDFFile2::RetrieveCountedFileName method
+title: IWDFFile2::RetrieveCountedFileName
 author: windows-driver-content
 description: The RetrieveCountedFileName method retrieves the full counted file name for a file that is associated with a device.
 old-location: wdf\iwdffile2_retrievecountedfilename.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0b3aa8d9-1947-4e5e-91d1-6f73ddb3908a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFFile2, IWDFFile2 interface, RetrieveCountedFileName method, IWDFFile2::RetrieveCountedFileName, RetrieveCountedFileName method, RetrieveCountedFileName method, IWDFFile2 interface, RetrieveCountedFileName,IWDFFile2.RetrieveCountedFileName, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, umdf.iwdffile2_retrievecountedfilename, wdf.iwdffile2_retrievecountedfilename, wudfddi/IWDFFile2::RetrieveCountedFileName
+ms.keywords: IWDFFile2 interface,RetrieveCountedFileName method, IWDFFile2.RetrieveCountedFileName, IWDFFile2::RetrieveCountedFileName, RetrieveCountedFileName, RetrieveCountedFileName method, RetrieveCountedFileName method,IWDFFile2 interface, UMDFFileObjectRef_89204c8a-3847-4e03-bf8b-c660b1b2408b.xml, umdf.iwdffile2_retrievecountedfilename, wdf.iwdffile2_retrievecountedfilename, wudfddi/IWDFFile2::RetrieveCountedFileName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFFile2.RetrieveCountedFileName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFFile2::RetrieveCountedFileName method
+# IWDFFile2::RetrieveCountedFileName
 
 
 ## -description
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveCountedFileName</b> method retrieves the full counted file name for a file that is associated with a device. 
-
-
-## -syntax
-
-
-````
-HRESULT RetrieveCountedFileName(
-  [out]     WCHAR *pCountedFileName,
-  [in, out] DWORD *pdwCountedFileNameLength
-);
-````
 
 
 ## -parameters
@@ -165,7 +154,7 @@ The driver calls <b>RetrieveCountedFileName</b> again to obtain the file name st
 
 #### Examples
 
-The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a> interface from the <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface that a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function receives. The example calls <b>RetrieveCountedFileName</b> twice--once to obtain the file name's length and once to retrieve the file name string.
+The following code example obtains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558915">IWDFFile2</a> interface from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface that a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a> callback function receives. The example calls <b>RetrieveCountedFileName</b> twice--once to obtain the file name's length and once to retrieve the file name string.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -233,16 +222,15 @@ CMyQueue::OnCreateFile(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558915">IWDFFile2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558939">IWDFFile::RetrieveFileName</a>
-
-
-
  
 
  
-
 

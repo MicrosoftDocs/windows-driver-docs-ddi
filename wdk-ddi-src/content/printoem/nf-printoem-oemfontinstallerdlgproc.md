@@ -7,7 +7,7 @@ old-location: print\oemfontinstallerdlgproc.htm
 old-project: print
 ms.assetid: 6007723b-c7db-42da-bc50-328e19f80448
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMFontInstallerDlgProc, OEMFontInstallerDlgProc function [Print Devices], print.oemfontinstallerdlgproc, print_obsoletefunctions_63eb736f-a9cd-4caf-823e-87b927d09c7a.xml, printoem/OEMFontInstallerDlgProc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMFontInstallerDlgProc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMFontInstallerDlgProc function
@@ -50,19 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-INT_PTR APIENTRY OEMFontInstallerDlgProc(
-   HWND   hWnd,
-   UINT   usMsg,
-   WPARAM wParam,
-   LPARAM lParam
-);
-````
 
 
 ## -parameters

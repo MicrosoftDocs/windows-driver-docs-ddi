@@ -7,7 +7,7 @@ old-location: buses\ursreporthardwareevent.htm
 old-project: usbref
 ms.assetid: 2BC80D99-5265-4D0C-A447-5CC2112F53F8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], buses.ursreporthardwareevent, ursdevice/UrsReportHardwareEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Urscxstub.dll
 api_name:
 -	UrsReportHardwareEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UrsReportHardwareEvent function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Notifies the USB dual-role class extension about a new hardware event.
 
 
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS UrsReportHardwareEvent(
-  _In_ WDFDEVICE          Device,
-  _In_ URS_HARDWARE_EVENT HardwareEvent
-);
-````
-
-
 ## -parameters
 
 
@@ -72,12 +61,12 @@ FORCEINLINE NTSTATUS UrsReportHardwareEvent(
 
 ### -param Device [in]
 
-A handle to the framework device object that the client driver retrieved in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
+A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
 
 ### -param HardwareEvent [in]
 
-A <a href="..\urstypes\ne-urstypes-_urs_hardware_event.md">URS_HARDWARE_EVENT</a>-type value that indicates the type of event that occurred.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt628022">URS_HARDWARE_EVENT</a>-type value that indicates the type of event that occurred.
 
 
 ## -returns
@@ -93,23 +82,22 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-Before reporting any hardware events, the client driver for the dual-role controller must indicate to the class extension that the driver supports hardware events by calling <a href="..\ursdevice\nf-ursdevice-urssethardwareeventsupport.md">UrsSetHardwareEventSupport</a>.
+Before reporting any hardware events, the client driver for the dual-role controller must indicate to the class extension that the driver supports hardware events by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt628018">UrsSetHardwareEventSupport</a>.
 
 The client driver cannot pass <b>UrsHardwareEventNone</b> as the <i>HardwareEvent</i> parameter value. That value is reserved for internal use.
 
-The client driver must call this method to report any hardware event, such as ID-pin interrupts. Typically, in the driver's implementation of the <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a> callback, the driver reads the  ID-pin state and reports the event to the class extension by calling this method. 
+The client driver must call this method to report any hardware event, such as ID-pin interrupts. Typically, in the driver's implementation of the <a href="https://msdn.microsoft.com/6f28a66a-9c17-4020-bfe2-295c22af6ba7">EvtInterruptIsr</a> callback, the driver reads the  ID-pin state and reports the event to the class extension by calling this method. 
 
 
 
 
 ## -see-also
 
-<a href="..\ursdevice\nf-ursdevice-urssethardwareeventsupport.md">UrsSetHardwareEventSupport</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt628018">UrsSetHardwareEventSupport</a>
  
 
  
-
 

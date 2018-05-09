@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.SetBuffer
-title: IWDFMemory::SetBuffer method
+title: IWDFMemory::SetBuffer
 author: windows-driver-content
 description: The SetBuffer method assigns a specified buffer to a memory object that a driver created by calling IWDFDriver::CreatePreallocatedWdfMemory.
 old-location: wdf\iwdfmemory_setbuffer.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1399922d-684c-44a4-8bc7-b9e45ba05086
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFMemory, IWDFMemory interface, SetBuffer method, IWDFMemory::SetBuffer, SetBuffer method, SetBuffer method, IWDFMemory interface, SetBuffer,IWDFMemory.SetBuffer, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, umdf.iwdfmemory_setbuffer, wdf.iwdfmemory_setbuffer, wudfddi/IWDFMemory::SetBuffer
+ms.keywords: IWDFMemory interface,SetBuffer method, IWDFMemory.SetBuffer, IWDFMemory::SetBuffer, SetBuffer, SetBuffer method, SetBuffer method,IWDFMemory interface, UMDFMemoryObjectRef_34339a6a-7426-46fc-8df9-7f5281b03308.xml, umdf.iwdfmemory_setbuffer, wdf.iwdfmemory_setbuffer, wudfddi/IWDFMemory::SetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFMemory.SetBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFMemory::SetBuffer method
+# IWDFMemory::SetBuffer
 
 
 ## -description
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetBuffer</b> method assigns a specified buffer to a memory object that a driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff558902">IWDFDriver::CreatePreallocatedWdfMemory</a>. 
-
-
-## -syntax
-
-
-````
-void SetBuffer(
-  [in] void   *Buffer,
-  [in] SIZE_T BufferSize
-);
-````
 
 
 ## -parameters
@@ -101,16 +90,15 @@ The <b>SetBuffer</b> method can assign a buffer to a memory object that <a href=
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
  
 
  
-
 

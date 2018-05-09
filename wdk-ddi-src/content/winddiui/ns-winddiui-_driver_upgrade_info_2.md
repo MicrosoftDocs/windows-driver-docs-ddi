@@ -7,7 +7,7 @@ old-location: print\driver_upgrade_info_2.htm
 old-project: print
 ms.assetid: 691554c5-5c99-40f0-b0d6-3556e004dd30
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDRIVER_UPGRADE_INFO_2, DRIVER_UPGRADE_INFO_2, DRIVER_UPGRADE_INFO_2 structure [Print Devices], PDRIVER_UPGRADE_INFO_2, PDRIVER_UPGRADE_INFO_2 structure pointer [Print Devices], _DRIVER_UPGRADE_INFO_2, print.driver_upgrade_info_2, print_interface-graphics_3db7d8d4-1f0c-4b76-9e22-bc55aac9b6c7.xml, winddiui/DRIVER_UPGRADE_INFO_2, winddiui/PDRIVER_UPGRADE_INFO_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winddiui.h
 api_name:
 -	DRIVER_UPGRADE_INFO_2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRIVER_UPGRADE_INFO_2, *PDRIVER_UPGRADE_INFO_2
-req.product: Windows 10 or later.
 ---
 
 # _DRIVER_UPGRADE_INFO_2 structure
@@ -50,29 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The DRIVER_UPGRADE_INFO_2 structure is used as an input to a printer interface DLL's <a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DRIVER_UPGRADE_INFO_2 {
-  LPTSTR pPrinterName;
-  LPTSTR pOldDriverDirectory;
-  DWORD  cVersion;
-  LPTSTR pName;
-  LPTSTR pEnvironment;
-  LPTSTR pDriverPath;
-  LPTSTR pDataFile;
-  LPTSTR pConfigFile;
-  LPTSTR pHelpFile;
-  LPTSTR pDependentFiles;
-  LPTSTR pMonitorName;
-  LPTSTR pDefaultDataType;
-  LPTSTR pszzPreviousNames;
-} DRIVER_UPGRADE_INFO_2, *PDRIVER_UPGRADE_INFO_2;
-````
+The DRIVER_UPGRADE_INFO_2 structure is used as an input to a printer interface DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548648">DrvUpgradePrinter</a> function.
 
 
 ## -struct-fields
@@ -206,16 +184,15 @@ To see how this can occur, suppose that a computer is connected to two printers,
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvupgradeprinter.md">DrvUpgradePrinter</a>
 
 
 
-<a href="..\winddiui\ns-winddiui-_driver_upgrade_info_1.md">DRIVER_UPGRADE_INFO_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548522">DRIVER_UPGRADE_INFO_1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548648">DrvUpgradePrinter</a>
  
 
  
-
 

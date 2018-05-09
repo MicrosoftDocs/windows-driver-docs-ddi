@@ -7,7 +7,7 @@ old-location: display\d3dddicb_lock2flags.htm
 old-project: display
 ms.assetid: 1F802912-F99B-4C04-9ABD-8FCC50FD3859
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_LOCK2FLAGS, D3DDDICB_LOCK2FLAGS structure [Display Devices], _D3DDDICB_LOCK2FLAGS, d3dukmdt/D3DDDICB_LOCK2FLAGS, display.d3dddicb_lock2flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDICB_LOCK2FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_LOCK2FLAGS
 ---
@@ -49,24 +50,9 @@ req.typenames: D3DDDICB_LOCK2FLAGS
 ## -description
 
 
-<b>D3DDDICB_LOCK2FLAGS</b> is used by the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a> kernel function to determine how an allocation is locked.
+<b>D3DDDICB_LOCK2FLAGS</b> is used by the <a href="https://msdn.microsoft.com/033FF321-2617-4AAF-8445-10800411F0B5">Lock2</a> kernel function to determine how an allocation is locked.
    
-  Unlike <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">Lock</a>, which supported numerous flags, <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a> has none. The <b>Lock2</b> arguments allow flags to be specified using this structure, but currently it only has a reserved field to allow for capabilities to added in the future.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_LOCK2FLAGS {
-  union {
-    struct {
-      UINT Reserved  :32;
-    };
-    UINT   Value;
-  };
-} D3DDDICB_LOCK2FLAGS;
-````
+  Unlike <a href="https://msdn.microsoft.com/d64abd43-edf2-465a-8d99-8fdce1fcd25f">Lock</a>, which supported numerous flags, <a href="https://msdn.microsoft.com/033FF321-2617-4AAF-8445-10800411F0B5">Lock2</a> has none. The <b>Lock2</b> arguments allow flags to be specified using this structure, but currently it only has a reserved field to allow for capabilities to added in the future.
 
 
 ## -struct-fields
@@ -79,23 +65,22 @@ typedef struct _D3DDDICB_LOCK2FLAGS {
 This member is reserved and must be zero.
 
 
-#### - Value
+### -field Value
 
 This member must be zero.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock.md">Lock</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtlock2.md">Lock2</a>
+<a href="https://msdn.microsoft.com/d64abd43-edf2-465a-8d99-8fdce1fcd25f">Lock</a>
 
 
 
+<a href="https://msdn.microsoft.com/033FF321-2617-4AAF-8445-10800411F0B5">Lock2</a>
  
 
  
-
 

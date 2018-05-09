@@ -7,7 +7,7 @@ old-location: kernel\bdcb_classification.htm
 old-project: kernel
 ms.assetid: 01627E7A-460F-4E49-B98C-0FCCFAB2F8BB
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PBDCB_CLASSIFICATION, BDCB_CLASSIFICATION, BDCB_CLASSIFICATION enumeration [Kernel-Mode Driver Architecture], BdCbClassificationEnd, BdCbClassificationKnownBadImage, BdCbClassificationKnownBadImageBootCritical, BdCbClassificationKnownGoodImage, BdCbClassificationUnknownImage, _BDCB_CLASSIFICATION, kernel.bdcb_classification, ntddk/BDCB_CLASSIFICATION, ntddk/BdCbClassificationEnd, ntddk/BdCbClassificationKnownBadImage, ntddk/BdCbClassificationKnownBadImageBootCritical, ntddk/BdCbClassificationKnownGoodImage, ntddk/BdCbClassificationUnknownImage"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	BDCB_CLASSIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDCB_CLASSIFICATION, *PBDCB_CLASSIFICATION
 ---
@@ -50,20 +51,6 @@ req.typenames: BDCB_CLASSIFICATION, *PBDCB_CLASSIFICATION
 
 
 The BDCB_CLASSIFICATION enumeration lists different classifications of boot start images.
-
-
-## -syntax
-
-
-````
-typedef enum _BDCB_CLASSIFICATION { 
-  BdCbClassificationUnknownImage,
-  BdCbClassificationKnownGoodImage,
-  BdCbClassificationKnownBadImage,
-  BdCbClassificationKnownBadImageBootCritical,
-  BdCbClassificationEnd
-} BDCB_CLASSIFICATION;
-````
 
 
 ## -enum-fields
@@ -98,16 +85,15 @@ Do not use. Reserved for future use.
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_bdcb_image_information.md">BDCB_IMAGE_INFORMATION</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406359">BDCB_IMAGE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a>
  
 
  
-
 

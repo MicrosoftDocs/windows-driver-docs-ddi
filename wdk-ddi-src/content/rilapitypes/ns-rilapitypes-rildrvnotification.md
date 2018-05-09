@@ -7,7 +7,7 @@ old-location: netvista\rildrvnotification.htm
 old-project: netvista
 ms.assetid: 15567aae-a8ab-4289-9dd7-5bf7df80bfc9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILDRVNOTIFICATION, RILDRVNOTIFICATION, RILDRVNOTIFICATION structure [Network Drivers Starting with Windows Vista], netvista.rildrvnotification, ntddrilapitypes/RILDRVNOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILDRVNOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILDRVNOTIFICATION, *LPRILDRVNOTIFICATION
-req.product: Windows 10 or later.
 ---
 
 # RILDRVNOTIFICATION structure
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILDRVNOTIFICATION {
-  DWORD    cbSize;
-  DWORD    cbSizeNeeded;
-  DWORD    dwCode;
-  HRESULT  hrCmdID;
-  DWORD    dwDataSize;
-  BYTE [1] pbData;
-} RILDRVNOTIFICATION, RILDRVNOTIFICATION;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: stream\kscamera_maxvideofps_forphotores.htm
 old-project: stream
 ms.assetid: 4230F7E1-DC36-4265-9E82-907EE82E9DFF
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_MAXVIDEOFPS_FORPHOTORES, KSCAMERA_MAXVIDEOFPS_FORPHOTORES, KSCAMERA_MAXVIDEOFPS_FORPHOTORES structure [Streaming Media Devices], PKSCAMERA_MAXVIDEOFPS_FORPHOTORES, PKSCAMERA_MAXVIDEOFPS_FORPHOTORES structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_MAXVIDEOFPS_FORPHOTORES, ksmedia/PKSCAMERA_MAXVIDEOFPS_FORPHOTORES, stream.kscamera_maxvideofps_forphotores, tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_MAXVIDEOFPS_FORPHOTORES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_MAXVIDEOFPS_FORPHOTORES, *PKSCAMERA_MAXVIDEOFPS_FORPHOTORES
 ---
@@ -50,21 +51,6 @@ req.typenames: KSCAMERA_MAXVIDEOFPS_FORPHOTORES, *PKSCAMERA_MAXVIDEOFPS_FORPHOTO
 
 
 The <b>KSCAMERA_MAXVIDEOFPS_FORPHOTORES</b> structure contains the property data for maximum frame rate at a particular resolution for a camera supporting preview and capture. This structure is used when setting or retrieving the data for the <b>KSPROPERTY_CAMERACONTROL_EXTENDED_MAXVIDFPS_PHOTORES</b> extended control property.
-
-
-## -syntax
-
-
-````
-typedef struct _KSCAMERA_MAXVIDEOFPS_FORPHOTORES {
-  ULONG PhotoResWidth;
-  ULONG PhotoResHeight;
-  ULONG PreviewFPSNum;
-  ULONG PreviewFPSDenom;
-  ULONG CaptureFPSNum;
-  ULONG CaptureFPSDenom;
-} KSCAMERA_MAXVIDEOFPS_FORPHOTORES, *PKSCAMERA_MAXVIDEOFPS_FORPHOTORES;
-````
 
 
 ## -struct-fields

@@ -38,10 +38,10 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_IO_TARGET_SENT_IO_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_IO_TARGET_SENT_IO_ACTION
-req.product: Windows 10 or later.
 ---
 
 # _WDF_IO_TARGET_SENT_IO_ACTION enumeration
@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WDF_IO_TARGET_SENT_IO_ACTION</b> enumeration identifies the actions that the framework can take when a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a> or  <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a> to stop an I/O target.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_IO_TARGET_SENT_IO_ACTION { 
-  WdfIoTargetSentIoUndefined          = 0,
-  WdfIoTargetCancelSentIo             = 1,
-  WdfIoTargetWaitForSentIoToComplete  = 2,
-  WdfIoTargetLeaveSentIoPending       = 3,
-  WdfIoTargetSentIoMaximum            = ( WdfIoTargetLeaveSentIoPending + 1 )
-} WDF_IO_TARGET_SENT_IO_ACTION;
-````
 
 
 ## -enum-fields
@@ -108,19 +94,18 @@ The <b>WDF_IO_TARGET_SENT_IO_ACTION</b> enumeration is used as an input paramete
 
 If your driver specifies the <b>WdfIoTargetWaitForSentIoToComplete</b> flag, the driver must not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a> from a request handler, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a> callback function, or an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a> callback function.
 
-For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION</a>.
+For the KMDF version of this enumeration, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552388">WDF_IO_TARGET_SENT_IO_ACTION</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552388">WDF_IO_TARGET_SENT_IO_ACTION</a>
  
 
  
-
 

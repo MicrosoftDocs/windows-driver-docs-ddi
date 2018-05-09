@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetWindbgExtensionApis64
-title: IDebugControl::GetWindbgExtensionApis64 method
+title: IDebugControl::GetWindbgExtensionApis64
 author: windows-driver-content
 description: The GetWindbgExtensionApis64 method returns a structure that facilitates using the WdbgExts API.
 old-location: debugger\getwindbgextensionapis64.htm
 old-project: debugger
 ms.assetid: 01b34b26-2835-4a58-abf3-190da63d25eb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetWindbgExtensionApis64 method [Windows Debugging], GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl interface, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl2 interface, GetWindbgExtensionApis64 method [Windows Debugging], IDebugControl3 interface, GetWindbgExtensionApis64,IDebugControl.GetWindbgExtensionApis64, IDebugControl, IDebugControl interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl2 interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl2::GetWindbgExtensionApis64, IDebugControl3 interface [Windows Debugging], GetWindbgExtensionApis64 method, IDebugControl3::GetWindbgExtensionApis64, IDebugControl::GetWindbgExtensionApis64, IDebugControl_51215e32-dcd3-440f-92ee-6ff82ae1c8e6.xml, dbgeng/IDebugControl2::GetWindbgExtensionApis64, dbgeng/IDebugControl3::GetWindbgExtensionApis64, dbgeng/IDebugControl::GetWindbgExtensionApis64, debugger.getwindbgextensionapis64
+ms.date: 4/24/2018
+ms.keywords: GetWindbgExtensionApis64, GetWindbgExtensionApis64 method [Windows Debugging], GetWindbgExtensionApis64 method [Windows Debugging],IDebugControl interface, GetWindbgExtensionApis64 method [Windows Debugging],IDebugControl2 interface, GetWindbgExtensionApis64 method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetWindbgExtensionApis64 method, IDebugControl.GetWindbgExtensionApis64, IDebugControl2 interface [Windows Debugging],GetWindbgExtensionApis64 method, IDebugControl2::GetWindbgExtensionApis64, IDebugControl3 interface [Windows Debugging],GetWindbgExtensionApis64 method, IDebugControl3::GetWindbgExtensionApis64, IDebugControl::GetWindbgExtensionApis64, IDebugControl_51215e32-dcd3-440f-92ee-6ff82ae1c8e6.xml, dbgeng/IDebugControl2::GetWindbgExtensionApis64, dbgeng/IDebugControl3::GetWindbgExtensionApis64, dbgeng/IDebugControl::GetWindbgExtensionApis64, debugger.getwindbgextensionapis64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,28 +40,19 @@ api_name:
 -	IDebugControl.GetWindbgExtensionApis64
 -	IDebugControl2.GetWindbgExtensionApis64
 -	IDebugControl3.GetWindbgExtensionApis64
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::GetWindbgExtensionApis64 method
+# IDebugControl::GetWindbgExtensionApis64
 
 
 ## -description
 
 
 The <b>GetWindbgExtensionApis64</b> method returns a structure that facilitates using the WdbgExts API.
-
-
-## -syntax
-
-
-````
-HRESULT GetWindbgExtensionApis64(
-  [in, out] PWINDBG_EXTENSION_APIS64 Api
-);
-````
 
 
 ## -parameters
@@ -117,11 +108,11 @@ The value of <i>Api</i>-&gt;<b>nSize</b> does not equal the size of the structur
 
 
 
-If you are including Wdbgexts.h in your extension code, you should call this method during the initialization of the extension DLL (see <a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>).
+If you are including Wdbgexts.h in your extension code, you should call this method during the initialization of the extension DLL (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540476">DebugExtensionInitialize</a>).
 
 Many WdbgExts functions are really macros.  To ensure that these macros work correctly, the structure received by the <i>Api</i> parameter should be stored in a global variable named <b>ExtensionApis</b>.  
 
-The WINDBG_EXTENSION_APIS64 structure returned by this method serves the same purpose as the one provided to the callback function <a href="..\wdbgexts\nc-wdbgexts-pwindbg_extension_dll_init.md">WinDbgExtensionDllInit</a> (used by WdbgExts extensions).
+The WINDBG_EXTENSION_APIS64 structure returned by this method serves the same purpose as the one provided to the callback function <a href="https://msdn.microsoft.com/library/windows/hardware/ff561303">WinDbgExtensionDllInit</a> (used by WdbgExts extensions).
 
 For a list of the functions provided by the WdbgExts API, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561258">WdbgExts Functions</a>.
 

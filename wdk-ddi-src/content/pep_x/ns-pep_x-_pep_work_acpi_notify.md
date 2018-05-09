@@ -7,7 +7,7 @@ old-location: kernel\pep_work_acpi_notify.htm
 old-project: kernel
 ms.assetid: DFFDDF13-B8C7-4AB0-B2C9-9F34D19B21AE
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACPI_NOTIFY, kernel.pep_work_acpi_notify, pepfx/PEP_WORK_ACPI_NOTIFY, pepfx/PPEP_WORK_ACPI_NOTIFY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_WORK_ACPI_NOTIFY
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY
+req.typenames: PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY
 ---
 
 # _PEP_WORK_ACPI_NOTIFY structure
@@ -50,17 +51,6 @@ req.typenames: PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIF
 
 
 The <b>PEP_WORK_ACPI_NOTIFY</b> structure contains the ACPI Notify code for a device that has generated a hardware event.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_WORK_ACPI_NOTIFY {
-  POHANDLE DeviceHandle;
-  ULONG    NotifyCode;
-} PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY;
-````
 
 
 ## -struct-fields
@@ -82,14 +72,13 @@ The Notify code. For a list of Notify codes and their meanings, see section 5.6.
 
 
 
-The <b>AcpiNotify</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_ACPI_NOTIFY</b> structure.
+The <b>AcpiNotify</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186864">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_ACPI_NOTIFY</b> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 
@@ -97,8 +86,8 @@ The <b>AcpiNotify</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_informa
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186864">PEP_WORK_INFORMATION</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\dxgkcb_acquire_post_display_ownership2.htm
 old-project: display
 ms.assetid: 923A2107-8F5E-4EF7-8C3C-4EFDE26A50F5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2, DxgkcbAcquirePostDisplayOwnership2, DxgkcbAcquirePostDisplayOwnership2 callback function [Display Devices], callback function pointer [Display Devices], display.dxgkcb_acquire_post_display_ownership2, dispmprt/DxgkcbAcquirePostDisplayOwnership2
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2, DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 callback, DxgkcbAcquirePostDisplayOwnership2, DxgkcbAcquirePostDisplayOwnership2 callback function [Display Devices], callback function pointer [Display Devices], display.dxgkcb_acquire_post_display_ownership2, dispmprt/DxgkcbAcquirePostDisplayOwnership2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,19 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkcbAcquirePostDisplayOwnership2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 callback
+# DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 callback function
 
 
 ## -description
 
 
 Called by a display miniport driver to obtain the display information from the current  power-on self-test (POST) display device or the previously running Windows Display Driver Model (WDDM) driver.
-
-
-## -prototype
-
-
-````
-DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 DxgkcbAcquirePostDisplayOwnership2;
-
-NTSTATUS DxgkcbAcquirePostDisplayOwnership2(
-   HANDLE                        DeviceHandle,
-   PDXGK_DISPLAY_INFORMATION     DisplayInfo,
-   PDXGK_DISPLAY_OWNERSHIP_FLAGS Flags
-)
-{ ... }
-
-typedef DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP2 ;
-````
 
 
 ## -parameters

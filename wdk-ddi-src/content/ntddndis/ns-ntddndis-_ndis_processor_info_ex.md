@@ -7,7 +7,7 @@ old-location: netvista\ndis_processor_info_ex.htm
 old-project: netvista
 ms.assetid: e4f28f30-32bc-4bbc-8e95-f87dfe80229d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], PNDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROCESSOR_INFO_EX, ndis_processor_group_ref_0a75adfb-c28f-4d9b-8b29-6da14662bda7.xml, netvista.ndis_processor_info_ex, ntddndis/NDIS_PROCESSOR_INFO_EX, ntddndis/PNDIS_PROCESSOR_INFO_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_PROCESSOR_INFO_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PROCESSOR_INFO_EX, *PNDIS_PROCESSOR_INFO_EX
 ---
@@ -51,21 +52,6 @@ req.typenames: NDIS_PROCESSOR_INFO_EX, *PNDIS_PROCESSOR_INFO_EX
 
 The <b>NDIS_PROCESSOR_INFO_EX</b> structure specifies information about a processor in the local
   computer.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_PROCESSOR_INFO_EX {
-  PROCESSOR_NUMBER ProcNum;
-  ULONG            SocketId;
-  ULONG            CoreId;
-  ULONG            HyperThreadId;
-  USHORT           NodeId;
-  USHORT           NodeDistance;
-} NDIS_PROCESSOR_INFO_EX, *PNDIS_PROCESSOR_INFO_EX;
-````
 
 
 ## -struct-fields
@@ -110,7 +96,7 @@ The node identifier of the processor. This is the number of the NUMA node to whi
 
 The node distance of the processor. If the handle at the 
      <i>NdisHandle</i> parameter that the caller passed to the 
-     <a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+     <a href="https://msdn.microsoft.com/9af21f56-d93d-4130-888c-c7009dc2854d">
      NdisGetProcessorInformationEx</a> function is not <b>NULL</b> and is a miniport adapter handle, this member
      contains the distance of the corresponding NIC from this processor's NUMA node. Otherwise, this member
      is zero for miniport drivers or USHORT_MAX (0xffff) for other drivers.
@@ -121,7 +107,7 @@ The node distance of the processor. If the handle at the
 
 
 The NDIS_PROCESSOR_INFO_EX structure is used in the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">
+    <a href="https://msdn.microsoft.com/ba3c6641-98bc-4c44-9889-7583c4cf61f0">
     NDIS_SYSTEM_PROCESSOR_INFO_EX</a> structure.
 
 
@@ -129,21 +115,20 @@ The NDIS_PROCESSOR_INFO_EX structure is used in the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566808">NDIS_PROCESSOR_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567872">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/9af21f56-d93d-4130-888c-c7009dc2854d">
    NdisGetProcessorInformationEx</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_processor_info.md">NDIS_PROCESSOR_INFO</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
-
-
-
  
 
  
-
 

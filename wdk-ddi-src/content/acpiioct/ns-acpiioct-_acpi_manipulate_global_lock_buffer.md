@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, *PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER
 ---
@@ -50,17 +51,6 @@ req.typenames: ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, *PACPI_MANIPULATE_GLOBAL_LOCK
 
 
 This topic describes the  <b>ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER {
-  ULONG Signature;
-  PVOID LockObject;
-} ACPI_MANIPULATE_GLOBAL_LOCK_BUFFER, *PACPI_MANIPULATE_GLOBAL_LOCK_BUFFER;
-````
 
 
 ## -struct-fields

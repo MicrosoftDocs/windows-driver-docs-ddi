@@ -7,7 +7,7 @@ old-location: display\videoportgetvgastatus.htm
 old-project: display
 ms.assetid: 5a2bb69c-b10a-41bb-a92a-de7add3ca2c5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortGetVgaStatus, VideoPortGetVgaStatus function [Display Devices], VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml, display.videoportgetvgastatus, video/VideoPortGetVgaStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortGetVgaStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortGetVgaStatus function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortGetVgaStatus</b> function detects whether the calling device is decoding a VGA I/O address.
-
-
-## -syntax
-
-
-````
-VP_STATUS VideoPortGetVgaStatus(
-        PVOID  HwDeviceExtension,
-  _Out_ PULONG VgaStatus
-);
-````
 
 
 ## -parameters

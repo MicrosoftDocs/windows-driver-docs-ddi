@@ -7,7 +7,7 @@ old-location: audio\pcnewinterruptsync.htm
 old-project: audio
 ms.assetid: 2455d09a-608e-4529-9c27-ed760c7da675
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: PcNewInterruptSync, PcNewInterruptSync function [Audio Devices], audio.pcnewinterruptsync, audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml, portcls/PcNewInterruptSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcNewInterruptSync
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcNewInterruptSync function
@@ -53,20 +54,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 The <b>PcNewInterruptSync</b> function creates and initializes an interrupt-synchronization object.
 
 
-## -syntax
-
-
-````
-NTSTATUS PcNewInterruptSync(
-  _Out_    PINTERRUPTSYNC    *OutInterruptSync,
-  _In_opt_ PUNKNOWN          OuterUnknown,
-  _In_     PRESOURCELIST     ResourceList,
-  _In_     ULONG             ResourceIndex,
-  _In_     INTERRUPTSYNCMODE Mode
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ NTSTATUS PcNewInterruptSync(
 
 ### -param OutInterruptSync [out]
 
-Output pointer for the interrupt-synchronization object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
+Output pointer for the interrupt-synchronization object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="https://msdn.microsoft.com/library/windows/hardware/ff536590">IInterruptSync</a> object. Specify a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
 ### -param OuterUnknown [in, optional]
@@ -84,7 +71,7 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 
 ### -param ResourceList [in]
 
-Pointer to the <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> object that was provided to the miniport driver during initialization. The port driver will examine this resource list but will not modify it.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536976">IResourceList</a> object that was provided to the miniport driver during initialization. The port driver will examine this resource list but will not modify it.
 
 
 ### -param ResourceIndex [in]
@@ -159,20 +146,19 @@ The <i>OutInterruptSync</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parame
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536590">IInterruptSync</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536976">IResourceList</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536988">IResourceList::NumberOfEntriesOfType</a>
-
-
-
  
 
  
-
 

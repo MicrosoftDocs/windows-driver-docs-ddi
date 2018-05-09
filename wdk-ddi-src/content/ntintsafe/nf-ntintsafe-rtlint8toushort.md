@@ -7,7 +7,7 @@ old-location: kernel\rtlint8toushort.htm
 old-project: kernel
 ms.assetid: E0756361-CC11-4C24-9230-666836462BEF
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlInt8ToUShort, RtlInt8ToUShort function [Kernel-Mode Driver Architecture], kernel.rtlint8toushort, ntintsafe/RtlInt8ToUShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlInt8ToUShort
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlInt8ToUShort function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>INT8</b> to a value of type <b>USHORT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlInt8ToUShort(
-  _In_  INT8   i8Operand,
-  _Out_ USHORT *pusResult
-);
-````
 
 
 ## -parameters

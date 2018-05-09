@@ -7,7 +7,7 @@ old-location: display\dxgkarg_issupportedvidpn.htm
 old-project: display
 ms.assetid: 37f9f40d-6d32-4eeb-8161-282a84ee89dc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*INOUT_PDXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN structure [Display Devices], DmStructs_03198868-50e6-47a1-9119-0fa3bff21ec0.xml, _DXGKARG_ISSUPPORTEDVIDPN, d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN, display.dxgkarg_issupportedvidpn"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_ISSUPPORTEDVIDPN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_ISSUPPORTEDVIDPN
 ---
@@ -49,18 +50,7 @@ req.typenames: DXGKARG_ISSUPPORTEDVIDPN
 ## -description
 
 
-The DXGKARG_ISSUPPORTEDVIDPN structure contains arguments for the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a> function. The <i>DxgkDdiIsSupportedVidPn</i> function determines whether a specified video present network (VidPN) is supported on a display adapter.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_ISSUPPORTEDVIDPN {
-  D3DKMDT_HVIDPN hDesiredVidPn;
-  BOOLEAN        IsVidPnSupported;
-} DXGKARG_ISSUPPORTEDVIDPN;
-````
+The DXGKARG_ISSUPPORTEDVIDPN structure contains arguments for the <a href="https://msdn.microsoft.com/96e96366-6306-4d20-8752-e942f2ed4069">DxgkDdiIsSupportedVidPn</a> function. The <i>DxgkDdiIsSupportedVidPn</i> function determines whether a specified video present network (VidPN) is supported on a display adapter.
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ A Boolean variable that receives <b>TRUE</b> if the VidPN is supported and <b>FA
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_issupportedvidpn.md">DxgkDdiIsSupportedVidPn</a>
 
 
 
+<a href="https://msdn.microsoft.com/96e96366-6306-4d20-8752-e942f2ed4069">DxgkDdiIsSupportedVidPn</a>
  
 
  
-
 

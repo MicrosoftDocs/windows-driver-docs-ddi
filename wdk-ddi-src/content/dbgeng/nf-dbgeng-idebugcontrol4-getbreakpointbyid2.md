@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetBreakpointById2
-title: IDebugControl4::GetBreakpointById2 method
+title: IDebugControl4::GetBreakpointById2
 author: windows-driver-content
 description: The GetBreakpointById2 method returns the breakpoint with the specified breakpoint ID.
 old-location: debugger\getbreakpointbyid2.htm
 old-project: debugger
 ms.assetid: 110eaa8a-d564-4900-8a08-d081572a5f43
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetBreakpointById2 method [Windows Debugging], GetBreakpointById2 method [Windows Debugging], IDebugControl4 interface, GetBreakpointById2,IDebugControl4.GetBreakpointById2, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetBreakpointById2 method, IDebugControl4::GetBreakpointById2, dbgeng/IDebugControl4::GetBreakpointById2, debugger.getbreakpointbyid2
+ms.date: 4/24/2018
+ms.keywords: GetBreakpointById2, GetBreakpointById2 method [Windows Debugging], GetBreakpointById2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetBreakpointById2 method, IDebugControl4.GetBreakpointById2, IDebugControl4::GetBreakpointById2, dbgeng/IDebugControl4::GetBreakpointById2, debugger.getbreakpointbyid2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.GetBreakpointById2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetBreakpointById2 method
+# IDebugControl4::GetBreakpointById2
 
 
 ## -description
 
 
 The <b>GetBreakpointById2</b>  method returns the breakpoint with the specified breakpoint ID.
-
-
-## -syntax
-
-
-````
-HRESULT GetBreakpointById2(
-  [in]  ULONG              Id,
-  [out] PDEBUG_BREAKPOINT2 *Bp
-);
-````
 
 
 ## -parameters
@@ -128,16 +118,15 @@ If the specified breakpoint does not belong to the current process, the method w
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549812">IDebugBreakpoint</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  
-
 

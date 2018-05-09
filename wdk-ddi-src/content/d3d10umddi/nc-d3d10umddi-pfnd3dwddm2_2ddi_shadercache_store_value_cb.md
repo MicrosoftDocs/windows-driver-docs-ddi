@@ -7,8 +7,8 @@ old-location: display\pfnd3dwddm2_2ddi_shadercache_store_value.htm
 old-project: display
 ms.assetid: 715D4C28-029F-463E-9A6D-D8155B570538
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB, d3d12umddi/pfnShaderCacheStoreValue, display.pfnd3dwddm2_2ddi_shadercache_store_value, pfnShaderCacheStoreValue, pfnShaderCacheStoreValue callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB, PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback, d3d12umddi/pfnShaderCacheStoreValue, display.pfnd3dwddm2_2ddi_shadercache_store_value, pfnShaderCacheStoreValue, pfnShaderCacheStoreValue callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,36 +38,19 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnShaderCacheStoreValue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback
+# PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback function
 
 
 ## -description
 
 
 The <i>pfnShaderCacheStoreValue</i> callback function stores a shader cache value.
-
-
-## -prototype
-
-
-````
-PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB pfnShaderCacheStoreValue;
-
-HRESULT APIENTRY CALLBACK * pfnShaderCacheStoreValue(
-       D3DWDDM2_2DDI_HRTCACHESESSION      *hCacheSession,
-  _In_ D3DWDDM2_2DDI_SHADERCACHE_HASH     *pPrecomputedHash,
-  _In_ _reads_bytes_(KeyLen) const void   *pKey,
-       SIZE_T                             KeyLen,
-  _In_ _reads_bytes_(ValueLen) const void *pValue,
-       SIZE_T                             ValueLen
-)
-{ ... }
-````
 
 
 ## -parameters

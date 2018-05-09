@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: b11be48b-e791-4599-80da-2446791f3816
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, pos.ioctl_point_of_service_check_health
+ms.keywords: IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, pos.ioctl_point_of_service_check_health
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PosPropertyId
+req.typenames: 
 ---
 
 # IOCTL_POINT_OF_SERVICE_CHECK_HEALTH IOCTL
@@ -59,7 +60,7 @@ This I/O control function checks the device health.
 
 ### -input-buffer
 
-Pointer to the input buffer, a <a href="..\pointofservicecommontypes\ne-pointofservicecommontypes-driverunifiedposhealthchecklevel.md">UnifiedPosHealthCheckLevel</a> variable.
+Pointer to the input buffer, a <a href="https://msdn.microsoft.com/101a74c8-a0c2-4820-b9a1-41e39ee4cf11">UnifiedPosHealthCheckLevel</a> variable.
 
 
 ### -input-buffer-length
@@ -69,7 +70,7 @@ Size of the input buffer, in bytes. Set to sizeof(<i>UnifiedPosHealthCheckLevel<
 
 ### -output-buffer
 
-Pointer to a buffer that receives a <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posstringtype.md">PosStringType</a> followed by the contents of the health string.
+Pointer to a buffer that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/dn772274">PosStringType</a> followed by the contents of the health string.
 
 
 ### -output-buffer-length

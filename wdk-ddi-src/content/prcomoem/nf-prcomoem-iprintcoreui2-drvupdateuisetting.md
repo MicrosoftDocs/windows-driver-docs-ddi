@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.DrvUpdateUISetting
-title: IPrintCoreUI2::DrvUpdateUISetting method
+title: IPrintCoreUI2::DrvUpdateUISetting
 author: windows-driver-content
 description: The IPrintCoreUI2::DrvUpdateUISetting method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can notify the driver of a modified user interface option.
 old-location: print\iprintcoreui2_drvupdateuisetting.htm
 old-project: print
 ms.assetid: 64cbb304-51f6-4db4-93cb-a64ea5e03599
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices], IPrintCoreUI2 interface, DrvUpdateUISetting,IPrintCoreUI2.DrvUpdateUISetting, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], DrvUpdateUISetting method, IPrintCoreUI2::DrvUpdateUISetting, prcomoem/IPrintCoreUI2::DrvUpdateUISetting, print.iprintcoreui2_drvupdateuisetting, print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml
+ms.date: 4/20/2018
+ms.keywords: DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],DrvUpdateUISetting method, IPrintCoreUI2.DrvUpdateUISetting, IPrintCoreUI2::DrvUpdateUISetting, prcomoem/IPrintCoreUI2::DrvUpdateUISetting, print.iprintcoreui2_drvupdateuisetting, print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreUI2.DrvUpdateUISetting
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreUI2::DrvUpdateUISetting method
+# IPrintCoreUI2::DrvUpdateUISetting
 
 
 ## -description
 
 
 The <code>IPrintCoreUI2::DrvUpdateUISetting</code> method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can notify the driver of a modified user interface option.
-
-
-## -syntax
-
-
-````
-STDMETHOD DrvUpdateUISetting(
-   PVOID pci,
-   PVOID pOptItem,
-   DWORD dwPreviousSelection,
-   DWORD dwMode
-);
-````
 
 
 ## -parameters
@@ -73,12 +60,12 @@ STDMETHOD DrvUpdateUISetting(
 
 ### -param pci
 
-Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure. 
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure. 
 
 
 ### -param pOptItem
 
-Caller-supplied pointer to an <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure describing a user interface option item.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> structure describing a user interface option item.
 
 
 ### -param dwPreviousSelection
@@ -190,11 +177,14 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
 
 
 
@@ -203,11 +193,7 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
-
-
  
 
  
-
 

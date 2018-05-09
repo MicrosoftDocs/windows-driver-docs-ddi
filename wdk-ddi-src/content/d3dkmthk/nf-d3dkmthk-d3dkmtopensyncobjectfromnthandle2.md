@@ -7,7 +7,7 @@ old-location: display\d3dkmtopensyncobjectfromnthandle2.htm
 old-project: display
 ms.assetid: E3295F4F-AB51-4EBB-8B9F-E47BBA52AF47
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTOpenSyncObjectFromNtHandle2, D3DKMTOpenSyncObjectFromNtHandle2 function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle2, display.d3dkmtopensyncobjectfromnthandle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,9 +40,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTOpenSyncObjectFromNtHandle2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTOpenSyncObjectFromNtHandle2 function
@@ -51,17 +52,7 @@ req.typenames: D3DKMT_DRIVERVERSION
 ## -description
 
 
-<b>D3DKMTOpenSyncObjectFromNtHandle2</b> opens a monitored fence object from an NT handle previously created by <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>.
-
-
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOpenSyncObjectFromNtHandle2(
-  _Inout_ D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 *pData
-);
-````
+<b>D3DKMTOpenSyncObjectFromNtHandle2</b> opens a monitored fence object from an NT handle previously created by <a href="https://msdn.microsoft.com/library/windows/hardware/hh780251">D3DKMTShareObjects</a>.
 
 
 ## -parameters
@@ -69,11 +60,16 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOpenSyncObjectFromNtHandle2(
 
 
 
+### -param Arg1
+
+TBD
+
+
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle2.md">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</a> structure that describes the operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906796">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</a> structure that describes the operation.
 
 
 ## -returns
@@ -120,16 +116,15 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtshareobjects.md">D3DKMTShareObjects</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle2.md">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780251">D3DKMTShareObjects</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906796">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\rilmsgbcgeneralwarningtype.htm
 old-project: netvista
 ms.assetid: c9d1a52e-e133-4fb5-a7a1-75699fe35cac
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILMSGBCGENERALWARNINGTYPE, RILMSGBCGENERALWARNINGTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, RIL_WARNINGTYPE_MAX, RIL_WARNINGTYPE_OTHER, RIL_WARNINGTYPE_RESERVED, RIL_WARNINGTYPE_TEST, RIL_WARNINGTYPE_TSUNAMI, netvista.rilmsgbcgeneralwarningtype, ntddrilapitypes/RILMSGBCGENERALWARNINGTYPE, ntddrilapitypes/RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, ntddrilapitypes/RIL_WARNINGTYPE_MAX, ntddrilapitypes/RIL_WARNINGTYPE_OTHER, ntddrilapitypes/RIL_WARNINGTYPE_RESERVED, ntddrilapitypes/RIL_WARNINGTYPE_TEST, ntddrilapitypes/RIL_WARNINGTYPE_TSUNAMI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGBCGENERALWARNINGTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGBCGENERALWARNINGTYPE
-req.product: Windows 10 or later.
 ---
 
 # RILMSGBCGENERALWARNINGTYPE enumeration
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGBCGENERALWARNINGTYPE { 
-  RIL_WARNINGTYPE_TSUNAMI,
-  RIL_WARNINGTYPE_EARTHQUAKETSUNAMI,
-  RIL_WARNINGTYPE_TEST,
-  RIL_WARNINGTYPE_OTHER,
-  RIL_WARNINGTYPE_RESERVED,
-  RIL_WARNINGTYPE_MAX
-} RILMSGBCGENERALWARNINGTYPE;
-````
 
 
 ## -enum-fields

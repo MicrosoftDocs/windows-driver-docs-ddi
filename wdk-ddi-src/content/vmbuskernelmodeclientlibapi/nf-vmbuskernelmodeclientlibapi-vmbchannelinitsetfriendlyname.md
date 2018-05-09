@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelinitsetfriendlyname.htm
 old-project: netvista
 ms.assetid: 17FEFFDB-DCCC-4782-9F99-195A03F4901E
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelInitSetFriendlyName, VmbChannelInitSetFriendlyName function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetfriendlyname, vmbuskernelmodeclientlibapi/VmbChannelInitSetFriendlyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelInitSetFriendlyName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelInitSetFriendlyName function
@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbChannelInitSetFriendlyName</b> function sets the friendly name of the Kernel Mode Client Library (KMCL) channel.  The friendly name is used for debugging and
 performance counter instance naming.  
-
-
-## -syntax
-
-
-````
-NTSTATUS
- VmbChannelInitSetFriendlyName(
-  _In_ VMBCHANNEL       Channel,
-  _In_ PCUNICODE_STRING Name
-);
-````
 
 
 ## -parameters

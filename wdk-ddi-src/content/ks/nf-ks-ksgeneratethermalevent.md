@@ -7,7 +7,7 @@ old-location: stream\ksgeneratethermalevent.htm
 old-project: stream
 ms.assetid: CE450017-1792-4B69-8289-902396D0D7B1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGenerateThermalEvent, KsGenerateThermalEvent function [Streaming Media Devices], ks/KsGenerateThermalEvent, stream.ksgeneratethermalevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsGenerateThermalEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -55,17 +56,6 @@ This function is used by clients (miniport drivers) that do not want to subscrib
 There is a check that verifies whether the miniport driver has the query interface support for a thermal manager (for example, the device is actively managed by a thermal manager). In cases of devices managed by a thermal manager, this call is rejected.
 
 
-## -syntax
-
-
-````
-void KSDDKAPI NTSTATUS NTAPI KsGenerateThermalEvent(
-  _In_ PVOID                  Object,
-  _In_ KSDEVICE_THERMAL_STATE Value
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ void KSDDKAPI NTSTATUS NTAPI KsGenerateThermalEvent(
 
 ### -param Object [in]
 
-Can be  <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>, <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>, or <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>. Depending on the object passed, the thermal notification is sent device-wide, filter-wide, or to the pin.
+Can be  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>. Depending on the object passed, the thermal notification is sent device-wide, filter-wide, or to the pin.
 
 
 ### -param Value [in]

@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiUSD.Diagnostic
-title: IStiUSD::Diagnostic method
+title: IStiUSD::Diagnostic
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::Diagnostic method runs diagnostic tests on a still image device.
 old-location: image\istiusd_diagnostic.htm
 old-project: image
 ms.assetid: bf99c34e-5a71-4f2b-8dca-bed87d18b352
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices], IStiUSD interface, Diagnostic,IStiUSD.Diagnostic, IStiUSD, IStiUSD interface [Imaging Devices], Diagnostic method, IStiUSD::Diagnostic, image.istiusd_diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, stiusd/IStiUSD::Diagnostic
+ms.date: 4/23/2018
+ms.keywords: Diagnostic, Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],Diagnostic method, IStiUSD.Diagnostic, IStiUSD::Diagnostic, image.istiusd_diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, stiusd/IStiUSD::Diagnostic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiUSD.Diagnostic
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiUSD::Diagnostic method
+# IStiUSD::Diagnostic
 
 
 ## -description
 
 
 A still image minidriver's <b>IStiUSD::Diagnostic</b> method runs diagnostic tests on a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT Diagnostic(
-   LPSTI_DIAG pBuffer
-);
-````
 
 
 ## -parameters
@@ -70,7 +60,7 @@ HRESULT Diagnostic(
 
 ### -param pBuffer
 
-Caller-supplied pointer to an <a href="..\sti\ns-sti-_sti_diag.md">STI_DIAG</a> structure to receive testing status information.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548383">STI_DIAG</a> structure to receive testing status information.
 
 
 ## -returns
@@ -93,7 +83,6 @@ The <b>IStiUSD::Diagnostic</b> method is called when a user clicks on the Scanne
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
 
 
 
@@ -101,8 +90,8 @@ The <b>IStiUSD::Diagnostic</b> method is called when a user clicks on the Scanne
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  
-
 

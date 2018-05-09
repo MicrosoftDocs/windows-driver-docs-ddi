@@ -7,7 +7,7 @@ old-location: display\videoportwriteregisterbufferuchar.htm
 old-project: display
 ms.assetid: 43ceb589-e90f-4090-88ed-ada813ac6a6f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortWriteRegisterBufferUchar, VideoPortWriteRegisterBufferUchar function [Display Devices], VideoPort_Functions_5a9ee1e8-744e-4141-993d-1a1710599431.xml, display.videoportwriteregisterbufferuchar, video/VideoPortWriteRegisterBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortWriteRegisterBufferUchar
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortWriteRegisterBufferUchar function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortWriteRegisterBufferUchar</b> function writes a number of unsigned bytes to a mapped register.
 
 
-## -syntax
-
-
-````
-VOID VideoPortWriteRegisterBufferUchar(
-       PUCHAR Register,
-  _In_ PUCHAR Buffer,
-       ULONG  Count
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ VOID VideoPortWriteRegisterBufferUchar(
 
 ### -param Register
 
-Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
+Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>.
 
 
 ### -param Buffer [in]
@@ -98,7 +86,7 @@ None
 
 
 
-A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWriteRegisterBufferUchar</b>.
+A miniport driver's <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> or <a href="https://msdn.microsoft.com/04e3bac6-c905-4c95-bd1b-e85b46c4296d">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWriteRegisterBufferUchar</b>.
 
 Callers of <b>VideoPortWriteRegisterBufferUchar</b> can be running at any IRQL, provided that the memory pointed to by the <i>Buffer</i> parameter is resident and that pointed to by the <i>Register</i> parameter is resident, mapped device memory.
 
@@ -107,12 +95,11 @@ Callers of <b>VideoPortWriteRegisterBufferUchar</b> can be running at any IRQL, 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>
  
 
  
-
 

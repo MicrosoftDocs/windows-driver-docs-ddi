@@ -7,7 +7,7 @@ old-location: storage\hw_initialization_data__scsi_.htm
 old-project: storage
 ms.assetid: 58c80d37-a40d-4839-b516-a78720860cbc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], _HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], srb/HW_INITIALIZATION_DATA, srb/PHW_INITIALIZATION_DATA, storage.hw_initialization_data__scsi_, structs-scsiport_4d9f09a8-742b-4c72-8fc5-dd968bd990d6.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	srb.h
 api_name:
 -	HW_INITIALIZATION_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
-req.product: Windows 10 or later.
 ---
 
 # _HW_INITIALIZATION_DATA structure
@@ -50,43 +50,8 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Each SCSI miniport driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine must initialize with zeros and, then, fill in the relevant HW_INITIALIZATION_DATA (SCSI) information for the OS-specific port driver.
+Each SCSI miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine must initialize with zeros and, then, fill in the relevant HW_INITIALIZATION_DATA (SCSI) information for the OS-specific port driver.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _HW_INITIALIZATION_DATA {
-  ULONG             HwInitializationDataSize;
-  INTERFACE_TYPE    AdapterInterfaceType;
-  PHW_INITIALIZE    HwInitialize;
-  PHW_STARTIO       HwStartIo;
-  PHW_INTERRUPT     HwInterrupt;
-  PHW_FIND_ADAPTER  HwFindAdapter;
-  PHW_RESET_BUS_BUS HwResetBus;
-  PHW_DMA_STARTED   HwDmaStarted;
-  PHW_ADAPTER_STATE HwAdapterState;
-  ULONG             DeviceExtensionSize;
-  ULONG             SpecificLuExtensionSize;
-  ULONG             SrbExtensionSize;
-  ULONG             NumberOfAccessRanges;
-  PVOID             Reserved;
-  BOOLEAN           MapBuffers;
-  BOOLEAN           NeedPhysicalAddresses;
-  BOOLEAN           TaggedQueuing;
-  BOOLEAN           AutoRequestSense;
-  BOOLEAN           MultipleRequestPerLu;
-  BOOLEAN           ReceiveEvent;
-  USHORT            VendorIdLength;
-  PVOID             VendorId;
-  USHORT            ReservedUshort;
-  USHORT            DeviceIdLength;
-  PVOID             DeviceId;
-  PHW_STOP_ADAPTER  HwAdapterControl;
-} HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA;
-````
-
 
 ## -struct-fields
 
@@ -107,37 +72,37 @@ If this is set to <b>PCIBus</b>, the miniport driver must supply values for the 
 
 ### -field HwInitialize
 
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_initialize.md">PHW_INITIALIZE</a>. 
+Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="https://msdn.microsoft.com/library/windows/hardware/ff563866">PHW_INITIALIZE</a>. 
 
 
 ### -field HwStartIo
 
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_startio.md">HwScsiStartIo</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_startio.md">PHW_STARTIO</a>.
+Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="https://msdn.microsoft.com/library/windows/hardware/ff563876">PHW_STARTIO</a>.
 
 
 ### -field HwInterrupt
 
-Pointer to the miniport driver's <a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a> routine, which is a required entry point for any miniport driver of an HBA that generates interrupts. Set this to <b>NULL</b> if the miniport driver needs no ISR. The prototype for this routine is <a href="..\strmini\nc-strmini-phw_interrupt.md">PHW_INTERRUPT</a>.
+Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a> routine, which is a required entry point for any miniport driver of an HBA that generates interrupts. Set this to <b>NULL</b> if the miniport driver needs no ISR. The prototype for this routine is <a href="https://msdn.microsoft.com/library/windows/hardware/ff563871">PHW_INTERRUPT</a>.
 
 
 ### -field HwFindAdapter
 
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_find_adapter.md">PHW_FIND_ADAPTER</a>.
+Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="https://msdn.microsoft.com/library/windows/hardware/ff563862">PHW_FIND_ADAPTER</a>.
 
 
 ### -field HwResetBus
 
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_reset_bus.md">HwScsiResetBus</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="..\srb\nc-srb-phw_reset_bus.md">PHW_RESET_BUS</a>. 
+Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a> routine, which is a required entry point for all miniport drivers. The prototype for this routine is <a href="https://msdn.microsoft.com/library/windows/hardware/ff563872">PHW_RESET_BUS</a>. 
 
 
 ### -field HwDmaStarted
 
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_dma_started.md">HwScsiDmaStarted</a> routine if its HBA uses system DMA, that is, a system DMA controller. Set this to <b>NULL</b> if the HBA is a bus master or uses PIO. The prototype for this routine is <a href="..\srb\nc-srb-phw_dma_started.md">PHW_DMA_STARTED</a>. 
+Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557291">HwScsiDmaStarted</a> routine if its HBA uses system DMA, that is, a system DMA controller. Set this to <b>NULL</b> if the HBA is a bus master or uses PIO. The prototype for this routine is <a href="https://msdn.microsoft.com/library/windows/hardware/ff563860">PHW_DMA_STARTED</a>. 
 
 
 ### -field HwAdapterState
 
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_adapter_state.md">HwScsiAdapterState</a> routine, which is a required entry point for miniport drivers of HBAs with BIOSs that are linked with an operating system-dependent, x86-platform-only port driver that must switch between x86 protected and real processor modes. If the miniport driver needs no <i>HwScsiAdapterState</i> routine, set this member to <b>NULL</b>. A miniport driver for an HBA that has a BIOS must have a HwScsiAdapterState routine in order to be compatible with the x86-only port driver and portable to an x86-only operating system environment. The prototype for this routine is <a href="..\srb\nc-srb-phw_adapter_state.md">PHW_ADAPTER_STATE</a>. 
+Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557278">HwScsiAdapterState</a> routine, which is a required entry point for miniport drivers of HBAs with BIOSs that are linked with an operating system-dependent, x86-platform-only port driver that must switch between x86 protected and real processor modes. If the miniport driver needs no <i>HwScsiAdapterState</i> routine, set this member to <b>NULL</b>. A miniport driver for an HBA that has a BIOS must have a HwScsiAdapterState routine in order to be compatible with the x86-only port driver and portable to an x86-only operating system environment. The prototype for this routine is <a href="https://msdn.microsoft.com/library/windows/hardware/ff563857">PHW_ADAPTER_STATE</a>. 
 
 
 ### -field DeviceExtensionSize
@@ -147,12 +112,12 @@ Specifies the size in bytes required by the miniport driver for its per-HBA devi
 
 ### -field SpecificLuExtensionSize
 
-Specifies the size in bytes required by the miniport driver for its per-logical-unit storage, if any. A miniport driver can use its LU extensions as storage for driver-determined logical-unit information about SCSI peripherals on the bus. The OS-specific port driver initializes each LU extension it allocates with zeros. Leave this member set to zero if the miniport driver does not maintain per-LU information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>.
+Specifies the size in bytes required by the miniport driver for its per-logical-unit storage, if any. A miniport driver can use its LU extensions as storage for driver-determined logical-unit information about SCSI peripherals on the bus. The OS-specific port driver initializes each LU extension it allocates with zeros. Leave this member set to zero if the miniport driver does not maintain per-LU information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff564639">ScsiPortGetUncachedExtension</a>.
 
 
 ### -field SrbExtensionSize
 
-Specifies the size in bytes required by the miniport driver for its per-request storage, if any. A miniport driver can use SRB extensions as storage for driver-determined, request-specific information, such as data necessary to process a particular request. The OS-specific port driver does not initialize SRB extensions, but sets a pointer to this storage in each SRB it sends to the miniport driver. An SRB extension can be safely accessed by the HBA hardware. Leave this member set to zero if the miniport driver does not maintain per-SRB information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>.
+Specifies the size in bytes required by the miniport driver for its per-request storage, if any. A miniport driver can use SRB extensions as storage for driver-determined, request-specific information, such as data necessary to process a particular request. The OS-specific port driver does not initialize SRB extensions, but sets a pointer to this storage in each SRB it sends to the miniport driver. An SRB extension can be safely accessed by the HBA hardware. Leave this member set to zero if the miniport driver does not maintain per-SRB information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff564639">ScsiPortGetUncachedExtension</a>.
 
 
 ### -field NumberOfAccessRanges
@@ -207,6 +172,16 @@ Pointer to an ASCII byte string identifying the manufacturer of the HBA. This me
 If the given <b>AdapterInterfaceType</b> is <b>PCIBus</b>, the vendor ID is a USHORT value allocated by the PCI SIG, which must be converted into a byte string by the miniport driver. For example, if the assigned PCI vendor ID value is 1001, the miniport driver-supplied <b>VendorId</b> string would be ('1', '0', '0', '1').
 
 
+### -field ReservedUshort
+
+Reserved for system use and is not available for use by miniport drivers.
+
+
+### -field PortVersionFlags
+
+ 
+
+
 ### -field DeviceIdLength
 
 Specifies the size in bytes of the <b>DeviceId</b> string, described next.
@@ -221,12 +196,7 @@ If the given <b>AdapterInterfaceType</b> is <b>PCIBus</b>, a device ID is a USHO
 
 ### -field HwAdapterControl
 
-Pointer to the miniport driver's <a href="..\srb\nc-srb-phw_adapter_control.md">HwScsiAdapterControl</a> routine, which is a required entry point for all PnP miniport drivers. Set this to <b>NULL</b> if the miniport driver does not support Plug and Play.
-
-
-#### - ReservedUshort
-
-Reserved for system use and is not available for use by miniport drivers.
+Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a> routine, which is a required entry point for all PnP miniport drivers. Set this to <b>NULL</b> if the miniport driver does not support Plug and Play.
 
 
 ## -remarks
@@ -244,11 +214,6 @@ Both HW_INITIALIZATION_DATA and PORT_CONFIGURATION_INFORMATION have a pair of me
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>
-
-
-
-<a href="..\storport\ns-storport-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
@@ -256,12 +221,16 @@ Both HW_INITIALIZATION_DATA and PORT_CONFIGURATION_INFORMATION have a pair of me
 
 
 
-<a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565393">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564645">ScsiPortInitialize</a>
  
 
  
-
 

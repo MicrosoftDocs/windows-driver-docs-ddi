@@ -7,8 +7,8 @@ old-location: kernel\mmprobeandlockselectedpages_.htm
 old-project: kernel
 ms.assetid: 1DA632FF-FD5F-4C4C-8B8E-5AC26069094A
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
-ms.keywords: MmProbeAndLockSelectedPages, MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture], kernel.mmprobeandlockselectedpages_, wdm/MmProbeAndLockSelectedPages
+ms.date: 4/30/2018
+ms.keywords: MmProbeAndLockSelectedPages, MmProbeAndLockSelectedPages , MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture], kernel.mmprobeandlockselectedpages_, wdm/MmProbeAndLockSelectedPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	MmProbeAndLockSelectedPages
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # MmProbeAndLockSelectedPages function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>MmProbeAndLockSelectedPages</b> routine probes the selected virtual memory pages, makes them resident, and locks them in memory.
-
-
-## -syntax
-
-
-````
-VOID MmProbeAndLockSelectedPages (
-  _Inout_ PMDLX                 MemoryDescriptorList,
-  _In_    PFILE_SEGMENT_ELEMENT SegmentArray,
-  _In_    KPROCESSOR_MODE       AccessMode,
-  _In_    LOCK_OPERATION        Operation
-);
-````
 
 
 ## -parameters
@@ -111,12 +98,11 @@ Calls to <b>MmProbeAndLockSelectedPages</b> must be enclosed in a <b>try/except<
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554664">MmProbeAndLockPages</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.ExitProcess
-title: IDebugEventCallbacksWide::ExitProcess method
+title: IDebugEventCallbacksWide::ExitProcess
 author: windows-driver-content
 description: The ExitProcess callback method is called by the engine when an exit-processdebugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_exitprocess.htm
 old-project: debugger
 ms.assetid: bc104b84-4f0a-420d-8c2c-14b33cc6ca04
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ExitProcess method [Windows Debugging], ExitProcess method [Windows Debugging], IDebugEventCallbacksWide interface, ExitProcess,IDebugEventCallbacksWide.ExitProcess, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ExitProcess method, IDebugEventCallbacksWide::ExitProcess, dbgeng/IDebugEventCallbacksWide::ExitProcess, debugger.idebugeventcallbackswide_exitprocess
+ms.date: 4/24/2018
+ms.keywords: ExitProcess, ExitProcess method [Windows Debugging], ExitProcess method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ExitProcess method, IDebugEventCallbacksWide.ExitProcess, IDebugEventCallbacksWide::ExitProcess, dbgeng/IDebugEventCallbacksWide::ExitProcess, debugger.idebugeventcallbackswide_exitprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugEventCallbacksWide.ExitProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugEventCallbacksWide::ExitProcess method
+# IDebugEventCallbacksWide::ExitProcess
 
 
 ## -description
 
 
 The <b>ExitProcess</b> callback method is called by the engine when an exit-processdebugging event occurs in the target.
-
-
-## -syntax
-
-
-````
-HRESULT ExitProcess(
-  [in] ULONG ExitCode
-);
-````
 
 
 ## -parameters

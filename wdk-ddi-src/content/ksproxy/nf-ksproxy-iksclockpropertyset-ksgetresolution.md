@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetResolution
-title: IKsClockPropertySet::KsGetResolution method
+title: IKsClockPropertySet::KsGetResolution
 author: windows-driver-content
 description: The KsGetResolution method retrieves the clock resolution from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetresolution.htm
 old-project: stream
 ms.assetid: 507d41ae-31b9-4807-99af-9ec48eb2b5aa
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsGetResolution method, IKsClockPropertySet::KsGetResolution, KsGetResolution method [Streaming Media Devices], KsGetResolution method [Streaming Media Devices], IKsClockPropertySet interface, KsGetResolution,IKsClockPropertySet.KsGetResolution, ksproxy/IKsClockPropertySet::KsGetResolution, ksproxy_0c0583b1-5ab3-4e30-bf99-6822d8966171.xml, stream.iksclockpropertyset_ksgetresolution
+ms.date: 4/23/2018
+ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetResolution method, IKsClockPropertySet.KsGetResolution, IKsClockPropertySet::KsGetResolution, KsGetResolution, KsGetResolution method [Streaming Media Devices], KsGetResolution method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetResolution, ksproxy_0c0583b1-5ab3-4e30-bf99-6822d8966171.xml, stream.iksclockpropertyset_ksgetresolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsClockPropertySet.KsGetResolution
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsClockPropertySet::KsGetResolution method
+# IKsClockPropertySet::KsGetResolution
 
 
 ## -description
 
 
 The <b>KsGetResolution</b> method retrieves the clock resolution from the underlying clock.
-
-
-## -syntax
-
-
-````
-HRESULT KsGetResolution(
-  [out] KSRESOLUTION *Resolution
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ HRESULT KsGetResolution(
 
 ### -param Resolution [out]
 
-Pointer to a variable that receives a <a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a> structure that contains the granularity and error of the underlying clock.
+Pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566806">KSRESOLUTION</a> structure that contains the granularity and error of the underlying clock.
 
 
 ## -returns
@@ -94,7 +85,6 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a>
 
 
 
@@ -102,8 +92,8 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566806">KSRESOLUTION</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: image\wiassetpropertyattributes.htm
 old-project: image
 ms.assetid: 210e69e7-b3b8-43b5-a0d3-f023c7256438
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiassetpropertyattributes, wiamdef/wiasSetPropertyAttributes, wiasFncs_630b9e1f-49f8-433e-b0f0-19e7e6c32460.xml, wiasSetPropertyAttributes, wiasSetPropertyAttributes function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasSetPropertyAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasSetPropertyAttributes function
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasSetPropertyAttributes </b>function sets the access flags and valid values for a set of properties.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasSetPropertyAttributes(
-  _In_  BYTE        *pWiasContext,
-        LONG        cPropSpec,
-  _In_  PROPSPEC    *pPropSpec,
-  _In_  ULONG       *pulAccessFlags,
-  _Out_ PROPVARIANT *pPropVar
-);
-````
 
 
 ## -parameters
@@ -110,7 +96,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-Minidrivers should use the function <a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a> to initialize groups of simple properties.
+Minidrivers should use the function <a href="https://msdn.microsoft.com/library/windows/hardware/ff549358">wiasSetItemPropAttribs</a> to initialize groups of simple properties.
 
 The minidriver can set the WIA_PROP_CACHEABLE flag on a property that does not change over time. By setting this flag on a property, the minidriver indicates that the WIA service can cache the property value. See the Windows SDK documentation for a list of all property attributes.
 
@@ -121,12 +107,11 @@ The PROPSPEC and PROPVARIANT structures are defined in the Windows SDK documenta
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549358">wiasSetItemPropAttribs</a>
  
 
  
-
 

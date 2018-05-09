@@ -7,7 +7,7 @@ old-location: ifsk\fltreferencecontext.htm
 old-project: ifsk
 ms.assetid: 3e49f80e-3c30-4796-b2f3-7df37746d97b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_bb2ded16-77d3-4fb3-a6c6-870b0112df7a.xml, FltReferenceContext, FltReferenceContext function [Installable File System Drivers], fltkernel/FltReferenceContext, ifsk.fltreferencecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltReferenceContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltReferenceContext function
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltReferenceContext</b> increments the reference count on a context structure. 
-
-
-## -syntax
-
-
-````
-VOID FltReferenceContext(
-  _In_ PFLT_CONTEXT Context
-);
-````
 
 
 ## -parameters
@@ -87,51 +78,50 @@ None
 
 A minifilter driver calls the <b>FltReferenceContext</b> routine to increment the reference count on a context structure. 
 
-After a successful call to <b>FltReferenceContext</b>, the caller is responsible for decrementing the reference count on the context structure by calling <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>. 
+After a successful call to <b>FltReferenceContext</b>, the caller is responsible for decrementing the reference count on the context structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff544314">FltReleaseContext</a>. 
 
 For more information about context reference counting, see <a href="https://msdn.microsoft.com/9ac3aedb-e057-4e19-9de5-709311072b09">Referencing Contexts</a>. 
 
-To allocate a new context, call <a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>. 
+To allocate a new context, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541710">FltAllocateContext</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544629">FLT_CONTEXT_REGISTRATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541710">FltAllocateContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542997">FltGetContexts</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543058">FltGetInstanceContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543144">FltGetStreamContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumecontext.md">FltGetVolumeContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543155">FltGetStreamHandleContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543189">FltGetVolumeContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544314">FltReleaseContext</a>
  
 
  
-
 

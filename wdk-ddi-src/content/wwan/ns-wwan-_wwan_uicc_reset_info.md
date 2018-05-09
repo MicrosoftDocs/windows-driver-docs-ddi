@@ -7,7 +7,7 @@ old-location: netvista\wwan_uicc_reset_info.htm
 old-project: netvista
 ms.assetid: 1D53135F-3826-4546-A0AD-34697D186E8A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_UICC_RESET_INFO, PWWAN_UICC_RESET_INFO, PWWAN_UICC_RESET_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_UICC_RESET_INFO, WWAN_UICC_RESET_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_UICC_RESET_INFO, netvista.wwan_uicc_reset_info, wwan/PWWAN_UICC_RESET_INFO, wwan/WWAN_UICC_RESET_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_UICC_RESET_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_UICC_RESET_INFO, *PWWAN_UICC_RESET_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_UICC_RESET_INFO structure
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>WWAN_UICC_RESET_INFO</b> structure represents the passthrough status of a modem miniport adapter for a UICC smart card.
 
 
-## -syntax
-
-
-````
-typedef struct _WWAN_UICC_RESET_INFO {
-  WWAN_UICC_PASSTHROUGH_STATUS PassThroughStatus;
-} WWAN_UICC_RESET_INFO, *PWWAN_UICC_RESET_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -70,12 +60,11 @@ typedef struct _WWAN_UICC_RESET_INFO {
 
 ### -field PassThroughStatus
 
-The passthrough status of the miniport adapter. For more info, see <a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_status.md">WWAN_UICC_PASSTHROUGH_STATUS</a>.
+The passthrough status of the miniport adapter. For more info, see <a href="https://msdn.microsoft.com/93D35A64-8394-41C2-BFB8-C8DE93619E75">WWAN_UICC_PASSTHROUGH_STATUS</a>.
 
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_status.md">WWAN_UICC_PASSTHROUGH_STATUS</a>
 
 
 
@@ -83,12 +72,12 @@ The passthrough status of the miniport adapter. For more info, see <a href="..\w
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_uicc_reset_info.md">NDIS_WWAN_UICC_RESET_INFO</a>
+<a href="https://msdn.microsoft.com/9CBAFC44-187A-41ED-9405-1208167AC75D">NDIS_WWAN_UICC_RESET_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/93D35A64-8394-41C2-BFB8-C8DE93619E75">WWAN_UICC_PASSTHROUGH_STATUS</a>
  
 
  
-
 

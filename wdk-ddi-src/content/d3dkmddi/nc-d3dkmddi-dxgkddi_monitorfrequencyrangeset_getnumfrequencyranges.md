@@ -7,8 +7,8 @@ old-location: display\dxgk_monitorfrequencyrangeset_interface_pfngetnumfrequency
 old-project: display
 ms.assetid: ba70c191-832f-4dd1-b949-cb47cf736c6e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES, VidPnFunctions_9840ad40-d098-4215-b3da-2de345970fe6.xml, d3dkmddi/pfnGetNumFrequencyRanges, display.dxgk_monitorfrequencyrangeset_interface_pfngetnumfrequencyranges, pfnGetNumFrequencyRanges, pfnGetNumFrequencyRanges callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES, DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES callback, VidPnFunctions_9840ad40-d098-4215-b3da-2de345970fe6.xml, d3dkmddi/pfnGetNumFrequencyRanges, display.dxgk_monitorfrequencyrangeset_interface_pfngetnumfrequencyranges, pfnGetNumFrequencyRanges, pfnGetNumFrequencyRanges callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	pfnGetNumFrequencyRanges
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES callback
+# DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES callback function
 
 
 ## -description
 
 
 The <b>pfnGetNumFrequencyRanges</b> returns the number of frequency range descriptors in a specified monitor frequency range set object.
-
-
-## -prototype
-
-
-````
-DXGKDDI_MONITORFREQUENCYRANGESET_GETNUMFREQUENCYRANGES pfnGetNumFrequencyRanges;
-
-NTSTATUS APIENTRY pfnGetNumFrequencyRanges(
-  _In_  const D3DKMDT_HMONITORFREQUENCYRANGESET hMonitorFrequencyRangeSet,
-  _Out_       SIZE_T CONST                      *pNumMonitorFrequencyRanges
-)
-{ ... }
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: stream\kstime.htm
 old-project: stream
 ms.assetid: e026a539-7aa5-4205-970d-cf452e4471da
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSTIME, KSTIME, KSTIME structure [Streaming Media Devices], PKSTIME, PKSTIME structure pointer [Streaming Media Devices], ks-struct_9db70ddb-ae2c-464b-a481-6927adef449c.xml, ks/KSTIME, ks/PKSTIME, stream.kstime"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSTIME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSTIME, *PKSTIME
 ---
@@ -50,18 +51,6 @@ req.typenames: KSTIME, *PKSTIME
 
 
 The KSTIME structure specifies a time stamp that can be used to indicate stream position.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG Time;
-  ULONG    Numerator;
-  ULONG    Denominator;
-} KSTIME, *PKSTIME;
-````
 
 
 ## -struct-fields

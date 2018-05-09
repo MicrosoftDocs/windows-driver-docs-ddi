@@ -7,7 +7,7 @@ old-location: display\d3dkmt_gdimodel_sysmem_presenthistorytoken.htm
 old-project: display
 ms.assetid: 764e6504-a056-44c4-acf5-1788832a9c70
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN, D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_2e7ec746-9d7b-43b8-8606-1c92481031a3.xml, _D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN, display.d3dkmt_gdimodel_sysmem_presenthistorytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN
 
 
 The D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN structure identifies a GDI system present-history operation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN {
-  ULONG64 hlsurf;
-  DWORD   dwDirtyFlags;
-  UINT64  uiCookie;
-} D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ typedef struct _D3DKMT_GDIMODEL_SYSMEM_PRESENTHISTORYTOKEN {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  
-
 

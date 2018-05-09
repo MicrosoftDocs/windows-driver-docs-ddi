@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: defd33c5-90ae-40c9-9123-7c3de2c77f35
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFWMIRef_28837d36-7a7e-4468-adbc-826bf4c75ef0.xml, EVT_WDF_WMI_INSTANCE_SET_INSTANCE, EvtWmiInstanceSetInstance, EvtWmiInstanceSetInstance callback function, kmdf.evtwmiinstancesetinstance, wdf.evtwmiinstancesetinstance, wdfwmi/EvtWmiInstanceSetInstance
+ms.keywords: DFWMIRef_28837d36-7a7e-4468-adbc-826bf4c75ef0.xml, EVT_WDF_WMI_INSTANCE_SET_INSTANCE, EVT_WDF_WMI_INSTANCE_SET_INSTANCE callback, EvtWmiInstanceSetInstance, EvtWmiInstanceSetInstance callback function, kmdf.evtwmiinstancesetinstance, wdf.evtwmiinstancesetinstance, wdfwmi/EvtWmiInstanceSetInstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	WdfWMI.h
 api_name:
 -	EvtWmiInstanceSetInstance
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_WMI_INSTANCE_SET_INSTANCE callback
+# EVT_WDF_WMI_INSTANCE_SET_INSTANCE callback function
 
 
 ## -description
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 A driver's <i>EvtWmiInstanceSetInstance</i> callback function sets all of a WMI data provider's instance data to values that a WMI client supplies.
-
-
-## -prototype
-
-
-````
-EVT_WDF_WMI_INSTANCE_SET_INSTANCE EvtWmiInstanceSetInstance;
-
-NTSTATUS EvtWmiInstanceSetInstance(
-  _In_ WDFWMIINSTANCE WmiInstance,
-  _In_ ULONG          InBufferSize,
-  _In_ PVOID          InBuffer
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -103,7 +88,7 @@ The <i>EvtWmiInstanceSetInstance</i> callback function must return STATUS_SUCCES
 
 
 
-To register an <i>EvtWmiInstanceSetInstance</i> callback function, your driver must place the function's address in a <a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a> structure before calling <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>. 
+To register an <i>EvtWmiInstanceSetInstance</i> callback function, your driver must place the function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553058">WDF_WMI_INSTANCE_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff551178">WdfWmiInstanceCreate</a>. 
 
 The framework does not synchronize calls to a driver's WMI event callback functions with each other or with any of the driver's other event callback functions. If an <i>EvtWmiInstanceSetInstance</i> callback function's data is dynamic and shared with other callback functions, your driver can use the framework's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-framework-locks">wait locks or spin locks</a> to synchronize access to the data.
 
@@ -154,32 +139,31 @@ The <b>EVT_WDF_WMI_INSTANCE_SET_INSTANCE</b> function type is defined in the Wdf
 
 ## -see-also
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_item.md">EvtWmiInstanceSetItem</a>
+<a href="https://msdn.microsoft.com/b14de1d7-0df2-46d1-a3bd-c23f33d3ed75">EvtWmiInstanceExecuteMethod</a>
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
+<a href="https://msdn.microsoft.com/13eed838-2943-4bb4-915f-6a84f0f95851">EvtWmiInstanceQueryInstance</a>
 
 
 
-<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
+<a href="https://msdn.microsoft.com/3011d92c-b12b-4240-8a4e-aa039ab8e053">EvtWmiInstanceSetItem</a>
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+<a href="https://msdn.microsoft.com/89b48747-d3aa-48c7-825c-94545f378f07">EvtWmiProviderFunctionControl</a>
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553058">WDF_WMI_INSTANCE_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551178">WdfWmiInstanceCreate</a>
  
 
  
-
 

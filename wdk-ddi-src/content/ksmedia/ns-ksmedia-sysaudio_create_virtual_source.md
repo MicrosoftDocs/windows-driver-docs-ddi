@@ -7,7 +7,7 @@ old-location: audio\sysaudio_create_virtual_source.htm
 old-project: audio
 ms.assetid: c9024cf0-aa0c-4652-89c1-3f2e6f622b3d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PSYSAUDIO_CREATE_VIRTUAL_SOURCE, PSYSAUDIO_CREATE_VIRTUAL_SOURCE, PSYSAUDIO_CREATE_VIRTUAL_SOURCE structure pointer [Audio Devices], SYSAUDIO_CREATE_VIRTUAL_SOURCE, SYSAUDIO_CREATE_VIRTUAL_SOURCE structure [Audio Devices], aud-prop_b5e1f1ed-6007-4f2a-89eb-dcabeb0777e6.xml, audio.sysaudio_create_virtual_source, ksmedia/PSYSAUDIO_CREATE_VIRTUAL_SOURCE, ksmedia/SYSAUDIO_CREATE_VIRTUAL_SOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	SYSAUDIO_CREATE_VIRTUAL_SOURCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYSAUDIO_CREATE_VIRTUAL_SOURCE, *PSYSAUDIO_CREATE_VIRTUAL_SOURCE
 ---
@@ -50,18 +51,6 @@ req.typenames: SYSAUDIO_CREATE_VIRTUAL_SOURCE, *PSYSAUDIO_CREATE_VIRTUAL_SOURCE
 
 
 The SYSAUDIO_CREATE_VIRTUAL_SOURCE structure is used to create a mixer-line virtual source such as a volume control or mute.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  GUID       PinCategory;
-  GUID       PinName;
-} SYSAUDIO_CREATE_VIRTUAL_SOURCE, *PSYSAUDIO_CREATE_VIRTUAL_SOURCE;
-````
 
 
 ## -struct-fields
@@ -95,16 +84,15 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537417">KSPROPERTY_SYSAUDIO_CREATE_VIRTUAL_SOURCE</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\ksm_bda_pin_pair.htm
 old-project: stream
 ms.assetid: 310a3faf-de71-4965-9511-cb8feca7087c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSM_BDA_PIN_PAIR, KSM_BDA_PIN_PAIR, KSM_BDA_PIN_PAIR structure [Streaming Media Devices], PKSM_BDA_PIN_PAIR, PKSM_BDA_PIN_PAIR structure pointer [Streaming Media Devices], _KSM_BDA_PIN_PAIR, bdamedia/KSM_BDA_PIN_PAIR, bdamedia/PKSM_BDA_PIN_PAIR, bdaref_c171cffc-e7e6-432b-98ae-f198fdc20079.xml, stream.ksm_bda_pin_pair"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	KSM_BDA_PIN_PAIR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSM_BDA_PIN_PAIR, *PKSM_BDA_PIN_PAIR
 ---
@@ -52,24 +53,6 @@ req.typenames: KSM_BDA_PIN_PAIR, *PKSM_BDA_PIN_PAIR
 The KSM_BDA_PIN_PAIR structure describes a method request to retrieve the pin pairing structure (BDA_PIN_PAIRING) between a pair of input and output pins. 
 
 
-## -syntax
-
-
-````
-typedef struct _KSM_BDA_PIN_PAIR {
-  KSMETHOD Method;
-  union {
-    ULONG InputPinId;
-    ULONG InputPinType;
-  };
-  union {
-    ULONG OutputPinId;
-    ULONG OutputPinType;
-  };
-} KSM_BDA_PIN_PAIR, *PKSM_BDA_PIN_PAIR;
-````
-
-
 ## -struct-fields
 
 
@@ -80,38 +63,37 @@ typedef struct _KSM_BDA_PIN_PAIR {
 KSMETHOD structure that describes a method and request type of a method request.
 
 
-#### - InputPinId
+### -field InputPinId
 
 Member of the union in KSM_BDA_PIN_PAIR that contains the identifier (ID) of an input pin of the filter.
 
 
-#### - InputPinType
+### -field InputPinType
 
 Member of the union in KSM_BDA_PIN_PAIR that contains the value that specifies the input pin type.
 
 
-#### - OutputPinId
+### -field OutputPinId
 
 Member of the union in KSM_BDA_PIN_PAIR that contains the identifier (ID) of an output pin of the filter.
 
 
-#### - OutputPinType
+### -field OutputPinType
 
 Member of the union in KSM_BDA_PIN_PAIR that contains the value that specifies the output pin type.
 
 
 ## -see-also
 
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556544">BDA_PIN_PAIRING</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\storportgetgroupaffinity.htm
 old-project: storage
 ms.assetid: eec0c985-fb59-4190-afb8-5eb62ac1edea
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetGroupAffinity, StorPortGetGroupAffinity routine [Storage Devices], storage.storportgetgroupaffinity, storport/StorPortGetGroupAffinity, storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortGetGroupAffinity
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortGetGroupAffinity function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetGroupAffinity</b> routine constructs a mask of the active processors in a requested group.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetGroupAffinity(
-  _In_  PVOID      HwDeviceExtension,
-  _In_  USHORT     GroupNumber,
-  _Out_ PKAFFINITY GroupAffinityMask
-);
-````
 
 
 ## -parameters

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetSymbolModule
-title: IDebugSymbols::GetSymbolModule method
+title: IDebugSymbols::GetSymbolModule
 author: windows-driver-content
 description: The GetSymbolModule method returns the base address of module which contains the specified symbol.
 old-location: debugger\getsymbolmodule.htm
 old-project: debugger
 ms.assetid: f3774204-86c3-467b-96ba-739f19d300e3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetSymbolModule method [Windows Debugging], GetSymbolModule method [Windows Debugging], IDebugSymbols interface, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface, GetSymbolModule method [Windows Debugging], IDebugSymbols3 interface, GetSymbolModule,IDebugSymbols.GetSymbolModule, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetSymbolModule method, IDebugSymbols2 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols2::GetSymbolModule, IDebugSymbols3 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols3::GetSymbolModule, IDebugSymbols::GetSymbolModule, IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, dbgeng/IDebugSymbols2::GetSymbolModule, dbgeng/IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule, debugger.getsymbolmodule
+ms.date: 4/24/2018
+ms.keywords: GetSymbolModule, GetSymbolModule method [Windows Debugging], GetSymbolModule method [Windows Debugging],IDebugSymbols interface, GetSymbolModule method [Windows Debugging],IDebugSymbols2 interface, GetSymbolModule method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSymbolModule method, IDebugSymbols.GetSymbolModule, IDebugSymbols2 interface [Windows Debugging],GetSymbolModule method, IDebugSymbols2::GetSymbolModule, IDebugSymbols3 interface [Windows Debugging],GetSymbolModule method, IDebugSymbols3::GetSymbolModule, IDebugSymbols::GetSymbolModule, IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, dbgeng/IDebugSymbols2::GetSymbolModule, dbgeng/IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule, debugger.getsymbolmodule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,29 +40,19 @@ api_name:
 -	IDebugSymbols.GetSymbolModule
 -	IDebugSymbols2.GetSymbolModule
 -	IDebugSymbols3.GetSymbolModule
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols::GetSymbolModule method
+# IDebugSymbols::GetSymbolModule
 
 
 ## -description
 
 
 The <b>GetSymbolModule</b> method returns the base address of module which contains the specified symbol.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolModule(
-  [in]  PCSTR    Symbol,
-  [out] PULONG64 Base
-);
-````
 
 
 ## -parameters

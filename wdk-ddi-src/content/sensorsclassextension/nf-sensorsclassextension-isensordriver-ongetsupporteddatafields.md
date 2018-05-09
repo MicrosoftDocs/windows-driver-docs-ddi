@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetSupportedDataFields
-title: ISensorDriver::OnGetSupportedDataFields method
+title: ISensorDriver::OnGetSupportedDataFields
 author: windows-driver-content
 description: The ISensorDriver::OnGetSupportedDataFields method retrieves the list of data fields that the specified sensor can provide.
 old-location: sensors\isensordriver_ongetsupporteddatafields.htm
 old-project: sensors
 ms.assetid: 5020212e-9e3f-468f-8f7c-77d70a8f024b
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorDriver, ISensorDriver::OnGetSupportedDataFields, OnGetSupportedDataFields method [Sensor Devices], OnGetSupportedDataFields,ISensorDriver.OnGetSupportedDataFields, sensors.isensordriver_ongetsupporteddatafields
+ms.date: 4/30/2018
+ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedDataFields method, ISensorDriver.OnGetSupportedDataFields, ISensorDriver::OnGetSupportedDataFields, OnGetSupportedDataFields, OnGetSupportedDataFields method [Sensor Devices], OnGetSupportedDataFields method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupporteddatafields, sensorsclassextension/ISensorDriver::OnGetSupportedDataFields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,30 +39,19 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnGetSupportedDataFields
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorDriver::OnGetSupportedDataFields method
+# ISensorDriver::OnGetSupportedDataFields
 
 
 ## -description
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545620">ISensorDriver::OnGetSupportedDataFields</a> method retrieves the list of data fields that the specified sensor can provide.
-
-
-## -syntax
-
-
-````
-HRESULT OnGetSupportedDataFields(
-   LPWSTR                          pwszSensorID,
-   IPortableDeviceKeyCollection ** ppSupportedDataFields
-);
-````
 
 
 ## -parameters
@@ -100,4 +89,15 @@ All drivers must support SENSOR_DATA_TYPE_TIMESTAMP as a required data field.
 <a href="http://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> is documented in Windows Portable Devices.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+ 
+
+ 
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.GetConfiguredSettingIndex
-title: IWDFUsbInterface::GetConfiguredSettingIndex method
+title: IWDFUsbInterface::GetConfiguredSettingIndex
 author: windows-driver-content
 description: The GetConfiguredSettingIndex method retrieves the current setting index for a USB interface.
 old-location: wdf\iwdfusbinterface_getconfiguredsettingindex.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0deccfee-34e3-47ee-b141-9758cffcd0c2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetConfiguredSettingIndex method, GetConfiguredSettingIndex method, IWDFUsbInterface interface, GetConfiguredSettingIndex,IWDFUsbInterface.GetConfiguredSettingIndex, IWDFUsbInterface, IWDFUsbInterface interface, GetConfiguredSettingIndex method, IWDFUsbInterface::GetConfiguredSettingIndex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, umdf.iwdfusbinterface_getconfiguredsettingindex, wdf.iwdfusbinterface_getconfiguredsettingindex, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex
+ms.keywords: GetConfiguredSettingIndex, GetConfiguredSettingIndex method, GetConfiguredSettingIndex method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetConfiguredSettingIndex method, IWDFUsbInterface.GetConfiguredSettingIndex, IWDFUsbInterface::GetConfiguredSettingIndex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, umdf.iwdfusbinterface_getconfiguredsettingindex, wdf.iwdfusbinterface_getconfiguredsettingindex, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbInterface.GetConfiguredSettingIndex
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbInterface::GetConfiguredSettingIndex method
+# IWDFUsbInterface::GetConfiguredSettingIndex
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetConfiguredSettingIndex</b> method retrieves the current setting index for a USB interface.
-
-
-## -syntax
-
-
-````
-UCHAR GetConfiguredSettingIndex();
-````
 
 
 ## -parameters
@@ -83,18 +75,17 @@ UCHAR GetConfiguredSettingIndex();
 
 
 
-The <b>GetConfiguredSettingIndex</b> method is provided for convenience because a UMDF driver can obtain the current setting index from the <b>bAlternateSetting</b> member of the <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure that the driver retrieves when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a> method. 
+The <b>GetConfiguredSettingIndex</b> method is provided for convenience because a UMDF driver can obtain the current setting index from the <b>bAlternateSetting</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a> structure that the driver retrieves when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a> method. 
 
 
 
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
 
 
 
@@ -102,8 +93,8 @@ The <b>GetConfiguredSettingIndex</b> method is provided for convenience because 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a>
  
 
  
-
 

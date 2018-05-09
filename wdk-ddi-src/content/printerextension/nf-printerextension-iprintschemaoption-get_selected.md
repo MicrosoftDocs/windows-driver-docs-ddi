@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaOption.get_Selected
-title: IPrintSchemaOption::get_Selected method
+title: IPrintSchemaOption::get_Selected
 author: windows-driver-content
 description: Indicates whether this option is selected.
 old-location: print\iprintschemaoption_selected.htm
 old-project: print
 ms.assetid: 639D25DC-027F-4B53-AD7B-B26011B66171
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], Selected property, IPrintSchemaOption.Selected, IPrintSchemaOption::get_Selected, Selected property [Print Devices], Selected property [Print Devices], IPrintSchemaOption interface, get_Selected, get_Selected,IPrintSchemaOption.get_Selected, print.iprintschemaoption_selected, printerextension/IPrintSchemaOption::Selected, printerextension/IPrintSchemaOption::get_Selected
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaOption interface [Print Devices],Selected property, IPrintSchemaOption.Selected, IPrintSchemaOption.get_Selected, IPrintSchemaOption::Selected, IPrintSchemaOption::get_Selected, Selected property [Print Devices], Selected property [Print Devices],IPrintSchemaOption interface, get_Selected, print.iprintschemaoption_selected, printerextension/IPrintSchemaOption::Selected, printerextension/IPrintSchemaOption::get_Selected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,13 +39,13 @@ api_location:
 api_name:
 -	IPrintSchemaOption.Selected
 -	IPrintSchemaOption.get_Selected
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaOption::get_Selected method
+# IPrintSchemaOption::get_Selected
 
 
 ## -description
@@ -56,27 +56,16 @@ Indicates whether this option is selected.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Selected(
-  [out, retval] BOOL *pbIsSelected
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a>
  
 
  
-
 

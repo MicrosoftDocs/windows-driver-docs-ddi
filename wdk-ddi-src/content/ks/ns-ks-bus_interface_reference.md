@@ -7,7 +7,7 @@ old-location: stream\bus_interface_reference.htm
 old-project: stream
 ms.assetid: 17c2c46c-ff79-4c80-82c9-c49b18426789
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE structure [Streaming Media Devices], PBUS_INTERFACE_REFERENCE, PBUS_INTERFACE_REFERENCE structure pointer [Streaming Media Devices], ks-struct_815b7147-1ae1-48d2-bae3-3efce2613b53.xml, ks/BUS_INTERFACE_REFERENCE, ks/PBUS_INTERFACE_REFERENCE, stream.bus_interface_reference"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	BUS_INTERFACE_REFERENCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE
 ---
@@ -52,19 +53,6 @@ req.typenames: BUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE
 A software device enumerator exports this interface to allow drivers to reference count physical device objects (PDOs) such that the device remains active while in use and is unloaded when not in use.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  INTERFACE                  Interface;
-  PFNREFERENCEDEVICEOBJECT   ReferenceDeviceObject;
-  PFNDEREFERENCEDEVICEOBJECT DereferenceDeviceObject;
-  PFNQUERYREFERENCESTRING    QueryReferenceString;
-} BUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct {
 
 ### -field Interface
 
-Specifies the exported <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>.
+Specifies the exported <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>.
 
 
 ### -field ReferenceDeviceObject

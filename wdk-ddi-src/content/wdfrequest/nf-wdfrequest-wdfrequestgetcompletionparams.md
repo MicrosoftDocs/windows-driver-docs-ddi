@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRequestGetCompletionParams
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRequestGetCompletionParams function
@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRequestGetCompletionParams</b> method retrieves the I/O completion parameters that are associated with a specified framework request object.
-
-
-## -syntax
-
-
-````
-VOID WdfRequestGetCompletionParams(
-  _In_  WDFREQUEST                     Request,
-  _Out_ PWDF_REQUEST_COMPLETION_PARAMS Params
-);
-````
 
 
 ## -parameters
@@ -81,7 +70,7 @@ A handle to a framework request object.
 
 ### -param Params [out]
 
-A pointer to a caller-supplied <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a> structure.
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff552454">WDF_REQUEST_COMPLETION_PARAMS</a> structure.
 
 
 ## -returns
@@ -101,22 +90,22 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-After a driver has called <a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a> to synchronously or asynchronously send an I/O request to an I/O target, and after the I/O target has <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">completed</a> the I/O request, the driver can call <b>WdfRequestGetCompletionParams</b> to obtain the I/O request's completion parameters.
+After a driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a> to synchronously or asynchronously send an I/O request to an I/O target, and after the I/O target has <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">completed</a> the I/O request, the driver can call <b>WdfRequestGetCompletionParams</b> to obtain the I/O request's completion parameters.
 
-The completion parameters structure contains valid information only if the driver has formatted the request by calling one of the <b>WdfIoTargetFormat</b><i>Xxx</i> methods. For example, see <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetformatrequestforread.md">WdfIoTargetFormatRequestForRead</a>.
+The completion parameters structure contains valid information only if the driver has formatted the request by calling one of the <b>WdfIoTargetFormat</b><i>Xxx</i> methods. For example, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548612">WdfIoTargetFormatRequestForRead</a>.
 
-Note that if your driver calls one of the methods that sends I/O requests to I/O targets only synchronously (such as <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendreadsynchronously.md">WdfIoTargetSendReadSynchronously</a>), the driver must <i>not</i> call <b>WdfRequestGetCompletionParams</b>.
+Note that if your driver calls one of the methods that sends I/O requests to I/O targets only synchronously (such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff548669">WdfIoTargetSendReadSynchronously</a>), the driver must <i>not</i> call <b>WdfRequestGetCompletionParams</b>.
 
-The <b>WdfRequestGetCompletionParams</b> method copies the I/O request's completion parameters into the specified <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a> structure.
+The <b>WdfRequestGetCompletionParams</b> method copies the I/O request's completion parameters into the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff552454">WDF_REQUEST_COMPLETION_PARAMS</a> structure.
 
-If a driver sends an I/O request asynchronously, it typically calls this method from within a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function.
+If a driver sends an I/O request asynchronously, it typically calls this method from within a <a href="https://msdn.microsoft.com/7d3eb4d6-9fc7-4924-9b95-f5824713049b">CompletionRoutine</a> callback function.
 
 For more information about <b>WdfRequestGetCompletionParams</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
 #### Examples
 
-The following code example initializes a <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a> structure and then calls <b>WdfRequestGetCompletionParams</b>.
+The following code example initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552454">WDF_REQUEST_COMPLETION_PARAMS</a> structure and then calls <b>WdfRequestGetCompletionParams</b>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -139,20 +128,19 @@ WdfRequestGetCompletionParams(
 
 ## -see-also
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_completion_params_init.md">WDF_REQUEST_COMPLETION_PARAMS_INIT</a>
+<a href="https://msdn.microsoft.com/7d3eb4d6-9fc7-4924-9b95-f5824713049b">CompletionRoutine</a>
 
 
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552454">WDF_REQUEST_COMPLETION_PARAMS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552456">WDF_REQUEST_COMPLETION_PARAMS_INIT</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndismcmclosecallcomplete.htm
 old-project: netvista
 ms.assetid: 24477865-fb89-4078-99cb-1bf24249c7e2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMCmCloseCallComplete, NdisMCmCloseCallComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_78d6cea5-8d8c-49d4-ad57-c41eb63d3a4b.xml, ndis/NdisMCmCloseCallComplete, netvista.ndismcmclosecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisMCmCloseCallComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMCmCloseCallComplete macro
@@ -51,18 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 <b>NdisMCmCloseCallComplete</b> returns the final status of a client's request, for which the MCM driver
   previously returned NDIS_STATUS_PENDING, to tear down a call.
-
-
-## -syntax
-
-
-````
-VOID NdisMCmCloseCallComplete(
-  [in]           NDIS_STATUS Status,
-  [in]           NDIS_HANDLE NdisVcHandle,
-  [in, optional] NDIS_HANDLE NdisPartyHandle
-);
-````
 
 
 ## -parameters
@@ -95,7 +84,7 @@ Specifies either <b>NULL</b> if the
      <i>NdisVcHandle</i> represents a point-to-point VC or the handle to the last remaining party on a
      multipoint connection, which the MCM driver obtained from its per-party state designated by the 
      <i>CallMgrPartyContext</i> passed as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">
+     <a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">
      ProtocolCmCloseCall</a> function.
 
 
@@ -103,9 +92,9 @@ Specifies either <b>NULL</b> if the
 
 Specifies the handle to the VC for the call. This handle was supplied by NDIS when the VC was
      originally created, whether by the MCM driver with 
-     <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a> or as an input parameter
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a> or as an input parameter
      to its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 #### - Status [in]
@@ -130,10 +119,10 @@ If it passes NDIS_STATUS_SUCCESS as the
     <i>NdisVcHandle</i> (and 
     <i>NdisPartyHandle</i>, if any) unusable for transfers over the network as soon as it calls 
     <b>NdisMCmCloseCallComplete</b>. If the MCM driver originally created the VC, it should call 
-    <a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a> with the same 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562819">NdisMCmDeleteVc</a> with the same 
     <i>NdisVcHandle</i> that it just passed to 
     <b>NdisMCmCloseCallComplete</b>. If the client created this VC, the MCM driver can expect a call to its 
-    <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a> function with the
+    <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function with the
     
     <i>ProtocolVcContext</i>, designating its per-VC state in which it has stored the same 
     <i>NdisVcHandle</i>, as an input parameter.
@@ -148,36 +137,35 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmclosecallcomplete.md">NdisCmCloseCallComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561655">NdisCmCloseCallComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562818">NdisMCmDeactivateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562819">NdisMCmDeleteVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
+<a href="https://msdn.microsoft.com/a7ba1ab2-04c9-45b5-a184-e1ad1448561a">ProtocolClCloseCallComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a>
  
 
  
-
 

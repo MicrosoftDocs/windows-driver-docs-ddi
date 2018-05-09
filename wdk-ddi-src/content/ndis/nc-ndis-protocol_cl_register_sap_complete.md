@@ -7,8 +7,8 @@ old-location: netvista\protocolclregistersapcomplete.htm
 old-project: netvista
 ms.assetid: b0a2a224-3353-4f20-b14f-ed5d633a6ead
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PROTOCOL_CL_REGISTER_SAP_COMPLETE, ProtocolClRegisterSapComplete, ProtocolClRegisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_6f2cf710-53e9-43ce-8b9a-46ec76d1146d.xml, ndis/ProtocolClRegisterSapComplete, netvista.protocolclregistersapcomplete
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CL_REGISTER_SAP_COMPLETE, PROTOCOL_CL_REGISTER_SAP_COMPLETE callback, ProtocolClRegisterSapComplete, ProtocolClRegisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_6f2cf710-53e9-43ce-8b9a-46ec76d1146d.xml, ndis/ProtocolClRegisterSapComplete, netvista.protocolclregistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolClRegisterSapComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CL_REGISTER_SAP_COMPLETE callback
+# PROTOCOL_CL_REGISTER_SAP_COMPLETE callback function
 
 
 ## -description
@@ -52,27 +53,11 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 A connection-oriented NDIS client that accepts incoming calls must have 
   a <i>ProtocolClRegisterSapComplete</i> function to complete the asynchronous operations that it initiates
   with 
-  <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>. Otherwise, such a
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>. Otherwise, such a
   protocol driver's registered 
   <i>ProtocolClRegisterSapComplete</i> function can simply return control.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> type.
    For more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-PROTOCOL_CL_REGISTER_SAP_COMPLETE ProtocolClRegisterSapComplete;
-
-VOID ProtocolClRegisterSapComplete(
-  _In_ NDIS_STATUS Status,
-  _In_ NDIS_HANDLE ProtocolSapContext,
-  _In_ PCO_SAP     Sap,
-  _In_ NDIS_HANDLE NdisSapHandle
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -92,10 +77,10 @@ Specifies the final status of the client's call to
 #### NDIS_STATUS_SUCCESS
 
 The SAP has been registered both with NDIS and the call manager, which will subsequently call 
-       <a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">
+       <a href="https://msdn.microsoft.com/2172aeec-8502-414e-9d01-9292c0eb7ce8">
        NdisCmDispatchIncomingCall</a> whenever it receives an incoming call offer directed to the given
        SAP, thereby causing NDIS to call the client's 
-       <a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">
+       <a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">
        ProtocolClIncomingCall</a> function.
 
 
@@ -111,7 +96,7 @@ NDIS or the call manager could not allocate and/or initialize necessary resource
 
 The client supplied an invalid specification at 
        <i>Sap</i> to NDIS, which it forwarded to the call manager's 
-       <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a> function
+       <a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a> function
        for validation.
 
 
@@ -126,7 +111,7 @@ The call manager encountered an error in attempting to register the given SAP an
 
 Specifies the handle to the client's per-SAP context area, which the client originally supplied to
      NDIS when it called 
-     <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>. If the registration
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>. If the registration
      is successful, NDIS retains this context handle and uses it subsequently in calls to the client's 
      <i>ProtocolClIncomingCall</i> function pertaining to this SAP.
 
@@ -146,7 +131,7 @@ If
      the client-specified SAP. Otherwise, this parameter is <b>NULL</b>. The client must save a valid handle,
      preferably in its 
      <i>ProtocolSapContext</i> area, for an eventual call to 
-     <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>.
 
 
 ## -returns
@@ -170,9 +155,9 @@ NDIS calls
     <b>NdisClRegisterSap</b>.
 
 To receive incoming calls through a connection-oriented NIC, a client's 
-    <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">
+    <a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">
     ProtocolCoAfRegisterNotify</a> or 
-    <a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">
+    <a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">
     ProtocolClOpenAfCompleteEx</a> function usually registers one or more SAPs with the call manager.
 
 To register each SAP, the client calls 
@@ -184,7 +169,7 @@ To register each SAP, the client calls
     <i>ProtocolClRegisterSapComplete</i> must save each valid 
     <i>NdisSapHandle</i>, usually in the client's per-SAP 
     <i>ProtocolSapContext</i> area so it can release the SAP later with 
-    <a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>.
 
 The format of a SAP is specific to the call manager. If the call manager does not recognize the SAP
     that the client is attempting to register or if the specified SAP is already in use, the call manager can
@@ -244,57 +229,56 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmregistersapcomplete.md">NdisMCmRegisterSapComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561689">NdisCmRegisterSapComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmregistersapcomplete.md">NdisCmRegisterSapComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_open_af_complete_ex.md">ProtocolClOpenAfCompleteEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
    NdisFreeToNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562830">NdisMCmDispatchIncomingCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563557">NdisMCmRegisterSapComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">ProtocolClOpenAfCompleteEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a>
+
+
+
+<a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">ProtocolCoAfRegisterNotify</a>
  
 
  
-
 

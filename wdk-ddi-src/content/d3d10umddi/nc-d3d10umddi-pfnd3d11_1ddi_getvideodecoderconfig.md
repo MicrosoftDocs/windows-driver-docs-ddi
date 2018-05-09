@@ -7,8 +7,8 @@ old-location: display\getvideodecoderconfig.htm
 old-project: display
 ms.assetid: e13cb42b-258e-4fa6-8dc0-8983b118af3c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D11_1DDI_GETVIDEODECODERCONFIG, d3d10umddi/pfnGetVideoDecoderConfig, display.getvideodecoderconfig, pfnGetVideoDecoderConfig, pfnGetVideoDecoderConfig callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_GETVIDEODECODERCONFIG, PFND3D11_1DDI_GETVIDEODECODERCONFIG callback, d3d10umddi/pfnGetVideoDecoderConfig, display.getvideodecoderconfig, pfnGetVideoDecoderConfig, pfnGetVideoDecoderConfig callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnGetVideoDecoderConfig
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_GETVIDEODECODERCONFIG callback
+# PFND3D11_1DDI_GETVIDEODECODERCONFIG callback function
 
 
 ## -description
@@ -52,28 +53,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Queries the video decoder configuration for a specified video operation.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_GETVIDEODECODERCONFIG pfnGetVideoDecoderConfig;
-
-VOID APIENTRY* pfnGetVideoDecoderConfig(
-  _In_        D3D10DDI_HDEVICE                hDevice,
-  _In_  const D3D11_1DDI_VIDEO_DECODER_DESC   *pDecodeDesc,
-  _In_        UINT                            Index,
-  _Out_       D3D11_1DDI_VIDEO_DECODER_CONFIG *pConfig
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
@@ -85,12 +70,12 @@ VOID APIENTRY* pfnGetVideoDecoderConfig(
 
 
 
-### -param UINT
+### -param Arg2
 
 
 #### - Index [in]
 
-The zero-based index of the video decoder configuration that is used for the specified operation. The display miniport driver specifies the maximum number of video decoder configurations that are required for the operation through a call to its <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderconfigcount.md">GetVideoDecoderConfigCount</a> function.
+The zero-based index of the video decoder configuration that is used for the specified operation. The display miniport driver specifies the maximum number of video decoder configurations that are required for the operation through a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/hh451668">GetVideoDecoderConfigCount</a> function.
 
 
 #### - hDevice [in]
@@ -102,12 +87,12 @@ A handle to the display device (graphics context).
 
 #### - pConfig [out]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_config.md">D3D11_1DDI_VIDEO_DECODER_CONFIG</a> structure that describes the video decoder configuration.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450947">D3D11_1DDI_VIDEO_DECODER_CONFIG</a> structure that describes the video decoder configuration.
 
 
 #### - pDecodeDesc [in]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the video decoder operation.
 
 
 ## -returns
@@ -130,20 +115,19 @@ The Microsoft Direct3D runtime verifies that the <i>pDecodeDesc</i> and <i>Index
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderconfigcount.md">GetVideoDecoderConfigCount</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450947">D3D11_1DDI_VIDEO_DECODER_CONFIG</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_config.md">D3D11_1DDI_VIDEO_DECODER_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451668">GetVideoDecoderConfigCount</a>
  
 
  
-
 

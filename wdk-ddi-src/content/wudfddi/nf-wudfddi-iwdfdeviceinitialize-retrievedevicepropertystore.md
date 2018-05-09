@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.RetrieveDevicePropertyStore
-title: IWDFDeviceInitialize::RetrieveDevicePropertyStore method
+title: IWDFDeviceInitialize::RetrieveDevicePropertyStore
 author: windows-driver-content
 description: The RetrieveDevicePropertyStore method retrieves a device property store that clients can read and write device properties through.
 old-location: wdf\iwdfdeviceinitialize_retrievedevicepropertystore.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 57d03610-b195-4691-8ee9-26c93560700c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDeviceInitialize, IWDFDeviceInitialize interface, RetrieveDevicePropertyStore method, IWDFDeviceInitialize::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method, IWDFDeviceInitialize interface, RetrieveDevicePropertyStore,IWDFDeviceInitialize.RetrieveDevicePropertyStore, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, umdf.iwdfdeviceinitialize_retrievedevicepropertystore, wdf.iwdfdeviceinitialize_retrievedevicepropertystore, wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore
+ms.keywords: IWDFDeviceInitialize interface,RetrieveDevicePropertyStore method, IWDFDeviceInitialize.RetrieveDevicePropertyStore, IWDFDeviceInitialize::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, umdf.iwdfdeviceinitialize_retrievedevicepropertystore, wdf.iwdfdeviceinitialize_retrievedevicepropertystore, wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDeviceInitialize.RetrieveDevicePropertyStore
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDeviceInitialize::RetrieveDevicePropertyStore method
+# IWDFDeviceInitialize::RetrieveDevicePropertyStore
 
 
 ## -description
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <a href="https://msdn.microsoft.com/be47a1f0-03ff-432c-a3ef-5978c9b48183">RetrieveDevicePropertyStore</a> method retrieves a device property store that clients can read and write device properties through.
-
-
-## -syntax
-
-
-````
-HRESULT RetrieveDevicePropertyStore(
-  [in, optional]  PCWSTR                            pcwszServiceName,
-  [in]            WDF_PROPERTY_STORE_RETRIEVE_FLAGS Flags,
-  [out]           IWDFNamedPropertyStore            **ppPropStore,
-  [out, optional] WDF_PROPERTY_STORE_DISPOSITION    *pDisposition
-);
-````
 
 
 ## -parameters
@@ -80,17 +67,17 @@ A pointer to a <b>NULL</b>-terminated string that represents the name of the dev
 
 ### -param Flags [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>-typed value that identifies how to retrieve the device property store. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561449">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>-typed value that identifies how to retrieve the device property store. 
 
 
 ### -param ppPropStore [out]
 
-A pointer to a buffer that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a> interface that is used to retrieve device properties.
+A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560164">IWDFNamedPropertyStore</a> interface that is used to retrieve device properties.
 
 
 ### -param pDisposition [out, optional]
 
-A pointer to a variable that receives a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_disposition.md">WDF_PROPERTY_STORE_DISPOSITION</a>-typed value that identifies whether the framework created the device property store or the device property store already existed. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the disposition information. 
+A pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561440">WDF_PROPERTY_STORE_DISPOSITION</a>-typed value that identifies whether the framework created the device property store or the device property store already existed. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the disposition information. 
 
 
 ## -returns
@@ -107,7 +94,7 @@ A pointer to a variable that receives a <a href="..\wudfddi_types\ne-wudfddi_typ
 
 
 
-The caller should call the <b>Release</b> method of the <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a> interface after finishing with the property store. 
+The caller should call the <b>Release</b> method of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560164">IWDFNamedPropertyStore</a> interface after finishing with the property store. 
 
 For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
@@ -116,24 +103,23 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_disposition.md">WDF_PROPERTY_STORE_DISPOSITION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560164">IWDFNamedPropertyStore</a>
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561440">WDF_PROPERTY_STORE_DISPOSITION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561449">WDF_PROPERTY_STORE_RETRIEVE_FLAGS</a>
  
 
  
-
 

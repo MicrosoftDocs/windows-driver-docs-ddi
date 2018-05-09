@@ -7,7 +7,7 @@ old-location: ifsk\ioattachdevicetodevicestacksafe.htm
 old-project: ifsk
 ms.assetid: bc403fc7-7862-4c4c-8a82-bd5c740b270e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: IoAttachDeviceToDeviceStackSafe, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers], ifsk.ioattachdevicetodevicestacksafe, ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml, ntddk/IoAttachDeviceToDeviceStackSafe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoAttachDeviceToDeviceStackSafe
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoAttachDeviceToDeviceStackSafe function
@@ -50,18 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoAttachDeviceToDeviceStackSafe</b> routine attaches the caller's device object to the topmost device object in a driver stack. 
-
-
-## -syntax
-
-
-````
-NTSTATUS IoAttachDeviceToDeviceStackSafe(
-  _In_  PDEVICE_OBJECT SourceDevice,
-  _In_  PDEVICE_OBJECT TargetDevice,
-  _Out_ PDEVICE_OBJECT *AttachedToDeviceObject
-);
-````
 
 
 ## -parameters
@@ -97,9 +86,9 @@ On input, this parameter specifies the address of <i>SourceDevice-&gt;DeviceExte
 
 
 
-Like <a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>, <b>IoAttachDeviceToDeviceStackSafe</b> establishes layering between drivers so that the same IRPs are sent to each driver in the stack. However, unlike <b>IoAttachDeviceToDeviceStack</b>, <b>IoAttachDeviceToDeviceStackSafe</b> has an additional parameter, <i>AttachedToDeviceObject</i>, which the filter driver uses to pass the address of the <i>SourceDevice</i> object's AttachedToDeviceObject field. <b>IoAttachDeviceToDeviceStackSafe</b> updates this field while holding the I/O system database lock. Because it holds this lock, <b>IoAttachDeviceToDeviceStackSafe</b> avoids a race condition that could otherwise occur if the <i>SourceDevice</i> object received an IRP before its AttachedToDeviceObject field was updated. 
+Like <a href="https://msdn.microsoft.com/library/windows/hardware/ff548300">IoAttachDeviceToDeviceStack</a>, <b>IoAttachDeviceToDeviceStackSafe</b> establishes layering between drivers so that the same IRPs are sent to each driver in the stack. However, unlike <b>IoAttachDeviceToDeviceStack</b>, <b>IoAttachDeviceToDeviceStackSafe</b> has an additional parameter, <i>AttachedToDeviceObject</i>, which the filter driver uses to pass the address of the <i>SourceDevice</i> object's AttachedToDeviceObject field. <b>IoAttachDeviceToDeviceStackSafe</b> updates this field while holding the I/O system database lock. Because it holds this lock, <b>IoAttachDeviceToDeviceStackSafe</b> avoids a race condition that could otherwise occur if the <i>SourceDevice</i> object received an IRP before its AttachedToDeviceObject field was updated. 
 
-A file system filter driver calls <b>IoAttachDeviceToDeviceStackSafe</b> to attach its own filter device object (<i>SourceDevice</i>) above a device object (<i>TargetDevice</i>) belonging to a file system or another filter driver. Subsequent I/O requests sent to <i>AttachedToDeviceObject</i> are received first by the filter driver, which processes them and forwards them down to the next driver in the stack by calling <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>. 
+A file system filter driver calls <b>IoAttachDeviceToDeviceStackSafe</b> to attach its own filter device object (<i>SourceDevice</i>) above a device object (<i>TargetDevice</i>) belonging to a file system or another filter driver. Subsequent I/O requests sent to <i>AttachedToDeviceObject</i> are received first by the filter driver, which processes them and forwards them down to the next driver in the stack by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>. 
 
 If the device object specified by <i>TargetDevice</i> is currently at the top of the driver stack, the <i>SourceDevice</i> is attached directly to the <i>TargetDevice</i>. In this case, <i>TargetDevice</i> and the returned <i>AttachedToDeviceObject</i> pointer are equal. 
 
@@ -114,16 +103,15 @@ At the moment immediately after it is attached to the top of the stack, the <i>S
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548300">IoAttachDeviceToDeviceStack</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
  
 
  
-
 

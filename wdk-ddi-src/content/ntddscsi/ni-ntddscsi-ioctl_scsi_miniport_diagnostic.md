@@ -7,8 +7,8 @@ old-location: storage\ioctl_scsi_miniport_diagnostic.htm
 old-project: storage
 ms.assetid: 79E89E4A-3B06-40FA-BFA6-598331C0A330
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_SCSI_MINIPORT_DIAGNOSTIC, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_DIAGNOSTIC, storage.ioctl_scsi_miniport_diagnostic
+ms.date: 3/29/2018
+ms.keywords: IOCTL_SCSI_MINIPORT_DIAGNOSTIC, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_DIAGNOSTIC, storage.ioctl_scsi_miniport_diagnostic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	ntddscsi.h
 api_name:
 -	IOCTL_SCSI_MINIPORT_DIAGNOSTIC
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
+req.typenames: 
 ---
 
 # IOCTL_SCSI_MINIPORT_DIAGNOSTIC IOCTL
@@ -155,7 +156,6 @@ Parameters
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_storage_diagnostic_mp_request.md">STORAGE_DIAGNOSTIC_MP_REQUEST</a>
 
 
 
@@ -163,8 +163,8 @@ Parameters
 
 
 
+<a href="https://msdn.microsoft.com/1F2B15A6-7C05-4FBA-B54F-EEF013FF5739">STORAGE_DIAGNOSTIC_MP_REQUEST</a>
  
 
  
-
 

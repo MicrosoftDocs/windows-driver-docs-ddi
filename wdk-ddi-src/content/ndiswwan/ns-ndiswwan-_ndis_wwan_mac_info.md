@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_mac_info.htm
 old-project: netvista
 ms.assetid: C55DC50B-5A1B-496E-BBB8-8EB94A9CFD2F
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MAC_INFO, PNDIS_WWAN_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_MAC_INFO, ndiswwan/NDIS_WWAN_MAC_INFO, ndiswwan/PNDIS_WWAN_MAC_INFO, netvista.ndis_wwan_mac_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_MAC_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_MAC_INFO, *PNDIS_WWAN_MAC_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: NDIS_WWAN_MAC_INFO, *PNDIS_WWAN_MAC_INFO
 
 
 The NDIS_WWAN_MAC_INFO structure represents NDIS port information for a PDP context.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_MAC_INFO {
-  ULONG                 uReserved;
-  ULONG                 uNdisPortNumber;
-  NDIS_WWAN_MAC_ADDRESS MacAddr;
-} NDIS_WWAN_MAC_INFO, *PNDIS_WWAN_MAC_INFO;
-````
 
 
 ## -struct-fields

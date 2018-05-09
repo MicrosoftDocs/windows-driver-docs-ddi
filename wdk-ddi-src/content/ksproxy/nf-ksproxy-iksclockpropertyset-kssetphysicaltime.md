@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsSetPhysicalTime
-title: IKsClockPropertySet::KsSetPhysicalTime method
+title: IKsClockPropertySet::KsSetPhysicalTime
 author: windows-driver-content
 description: The KsSetPhysicalTime method sets the physical time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssetphysicaltime.htm
 old-project: stream
 ms.assetid: 2f8eb011-1fe1-40f6-b833-50d3e853bffd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsSetPhysicalTime method, IKsClockPropertySet::KsSetPhysicalTime, KsSetPhysicalTime method [Streaming Media Devices], KsSetPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, KsSetPhysicalTime,IKsClockPropertySet.KsSetPhysicalTime, ksproxy/IKsClockPropertySet::KsSetPhysicalTime, ksproxy_1cebc4eb-efb8-4ec6-97f4-e34fc978fb2f.xml, stream.iksclockpropertyset_kssetphysicaltime
+ms.date: 4/23/2018
+ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsSetPhysicalTime method, IKsClockPropertySet.KsSetPhysicalTime, IKsClockPropertySet::KsSetPhysicalTime, KsSetPhysicalTime, KsSetPhysicalTime method [Streaming Media Devices], KsSetPhysicalTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsSetPhysicalTime, ksproxy_1cebc4eb-efb8-4ec6-97f4-e34fc978fb2f.xml, stream.iksclockpropertyset_kssetphysicaltime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsClockPropertySet.KsSetPhysicalTime
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsClockPropertySet::KsSetPhysicalTime method
+# IKsClockPropertySet::KsSetPhysicalTime
 
 
 ## -description
 
 
 The <b>KsSetPhysicalTime</b> method sets the physical time on the underlying clock. 
-
-
-## -syntax
-
-
-````
-HRESULT KsSetPhysicalTime(
-  [in] LONGLONG Time
-);
-````
 
 
 ## -parameters
@@ -94,7 +85,6 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565088">KSPROPERTY_CLOCK_PHYSICALTIME</a>
 
 
 
@@ -102,8 +92,8 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565088">KSPROPERTY_CLOCK_PHYSICALTIME</a>
  
 
  
-
 

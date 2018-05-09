@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_monitor_opm_get_infomation.htm
 old-project: display
 ms.assetid: b616a105-3c4b-42b7-8352-a1f35479572e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION, EvtIddCxMonitorOpmGetInfomation, EvtIddCxMonitorOpmGetInfomation callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION, PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_infomation, iddcx/EvtIddCxMonitorOpmGetInfomation
+ms.date: 4/16/2018
+ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION, EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION callback, EvtIddCxMonitorOpmGetInfomation, EvtIddCxMonitorOpmGetInfomation callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION, PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_infomation, iddcx/EvtIddCxMonitorOpmGetInfomation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,19 @@ api_location:
 -	iddcx.h
 api_name:
 -	PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
-# EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION callback
+# EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function
 
 
 ## -description
 
 
 <b>EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION</b> is called by the OS to get OPM information.
-
-
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION EvtIddCxMonitorOpmGetInfomation;
-
-NTSTATUS EvtIddCxMonitorOpmGetInfomation(
-  _In_        IDDCX_OPMCTX                  OpmCxtObject,
-  _In_  const IDARG_IN_OPM_GET_INFOMATION*  pInArgs,
-  _Out_       IDARG_OUT_OPM_GET_INFOMATION* pOutArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION;
-````
 
 
 ## -parameters

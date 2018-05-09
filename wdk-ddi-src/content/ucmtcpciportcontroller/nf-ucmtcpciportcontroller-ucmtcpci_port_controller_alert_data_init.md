@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_port_controller_alert_data_init.htm
 old-project: usbref
 ms.assetid: 7c3276cc-9194-4c18-b1d8-2795efbeb357
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT method [Buses], buses.ucmtcpci_port_controller_alert_data_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ucmtcpciportcontroller.h
 api_name:
 -	UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT function
@@ -54,17 +54,7 @@ req.product: Windows 10 or later.
                         Initializes the <b>UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</b> structure.
                 
             
-        Call this function before calling <a href="..\ucmtcpciportcontroller\nf-ucmtcpciportcontroller-ucmtcpciportcontrolleralert.md">UcmTcpciPortControllerAlert</a>.
-
-
-## -syntax
-
-
-````
-VOID UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT(
-  _Out_ PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA AlertData
-);
-````
+        Call this function before calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt805843">UcmTcpciPortControllerAlert</a>.
 
 
 ## -parameters

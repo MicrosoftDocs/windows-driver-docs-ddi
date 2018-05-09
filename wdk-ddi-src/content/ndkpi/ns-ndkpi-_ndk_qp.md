@@ -7,7 +7,7 @@ old-location: netvista\ndk_qp.htm
 old-project: netvista
 ms.assetid: 43491796-35CA-4E0C-90EF-7148651C68A6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NDK_QP, NDK_QP structure [Network Drivers Starting with Windows Vista], _NDK_QP, ndkpi/NDK_QP, netvista.ndk_qp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NDK_QP
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDK_QP, NDK_QP
+req.typenames: NDK_QP
 ---
 
 # _NDK_QP structure
@@ -52,17 +53,6 @@ req.typenames: NDK_QP, NDK_QP
 The <b>NDK_QP</b> structure specifies the attributes of an NDK queue pair (QP) object.
 
 
-## -syntax
-
-
-````
-typedef struct _NDK_QP {
-  NDK_OBJECT_HEADER     Header;
-  CONST NDK_QP_DISPATCH *Dispatch;
-} NDK_QP;
-````
-
-
 ## -struct-fields
 
 
@@ -70,34 +60,25 @@ typedef struct _NDK_QP {
 
 ### -field Header
 
-The <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a> structure for the <b>NDK_QP</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypeQp</b>.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a> structure for the <b>NDK_QP</b> structure. Set the <b>ObjectType</b> member of the structure that <b>Header</b> specifies to <b>NdkObjectTypeQp</b>.
 
 
 ### -field Dispatch
 
-A pointer to an <a href="..\ndkpi\ns-ndkpi-_ndk_qp_dispatch.md">NDK_QP_DISPATCH</a> structure that defines dispatch functions for the NDK QP object.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439934">NDK_QP_DISPATCH</a> structure that defines dispatch functions for the NDK QP object.
 
 
 ## -remarks
 
 
 
-An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..\ndkpi\ns-ndkpi-_ndk_qp_dispatch.md">NDK_QP_DISPATCH</a> table before returning the  created QP object. Also, the NDK provider must not use the <b>Dispatch</b> member after setting it because the NDK consumer can change the <b>Dispatch</b> member to some other value.
+An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439934">NDK_QP_DISPATCH</a> table before returning the  created QP object. Also, the NDK provider must not use the <b>Dispatch</b> member after setting it because the NDK consumer can change the <b>Dispatch</b> member to some other value.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp_dispatch.md">NDK_QP_DISPATCH</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
-
-
-<a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
 
 
 
@@ -105,24 +86,32 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp_with_srq.md">NDK_FN_CREATE_QP_WITH_SRQ</a>
+<a href="https://msdn.microsoft.com/2BF6F253-FCB4-4A61-9A67-81092F3C44E4">NDKPI Work Request Posting Requirements</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp.md">NDK_FN_CREATE_QP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439863">NDK_FN_CLOSE_OBJECT</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439878">NDK_FN_CREATE_QP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439880">NDK_FN_CREATE_QP_WITH_SRQ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439934">NDK_QP_DISPATCH</a>
  
 
  
-
 

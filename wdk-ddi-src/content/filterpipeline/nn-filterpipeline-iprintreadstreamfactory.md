@@ -7,8 +7,8 @@ old-location: print\iprintreadstreamfactory.htm
 old-project: print
 ms.assetid: 91f82cab-64c4-4f25-bf9a-b0757b1a83ca
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintReadStreamFactory, IPrintReadStreamFactory interface [Print Devices], IPrintReadStreamFactory interface [Print Devices], described, filterpipeline/IPrintReadStreamFactory, filterpipeline_6e71f042-ebb2-4a81-91ac-2dbfb8fd2161.xml, print.iprintreadstreamfactory
+ms.date: 4/20/2018
+ms.keywords: IPrintReadStreamFactory, IPrintReadStreamFactory interface [Print Devices], IPrintReadStreamFactory interface [Print Devices],described, filterpipeline/IPrintReadStreamFactory, filterpipeline_6e71f042-ebb2-4a81-91ac-2dbfb8fd2161.xml, print.iprintreadstreamfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintReadStreamFactory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # IPrintReadStreamFactory interface

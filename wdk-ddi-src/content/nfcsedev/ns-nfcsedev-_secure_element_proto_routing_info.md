@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: E22C5985-13A8-4A55-A97B-DABD7E475BD3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PSECURE_ELEMENT_PROTO_ROUTING_INFO, PSECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_PROTO_ROUTING_INFO, SECURE_ELEMENT_PROTO_ROUTING_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_PROTO_ROUTING_INFO, nfpdrivers._secure_element_proto_routing_info"
+ms.keywords: "*PSECURE_ELEMENT_PROTO_ROUTING_INFO, PSECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_PROTO_ROUTING_INFO, SECURE_ELEMENT_PROTO_ROUTING_INFO , SECURE_ELEMENT_PROTO_ROUTING_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_PROTO_ROUTING_INFO, nfpdrivers._secure_element_proto_routing_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	SECURE_ELEMENT_PROTO_ROUTING_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_PROTO_ROUTING_INFO, *PSECURE_ELEMENT_PROTO_ROUTING_INFO
 ---
@@ -50,18 +51,7 @@ req.typenames: SECURE_ELEMENT_PROTO_ROUTING_INFO, *PSECURE_ELEMENT_PROTO_ROUTING
 
 
 SECURE_ELEMENT_PROTO_ROUTING_INFO
- is a member of <a href="..\nfcsedev\ns-nfcsedev-_secure_element_routing_table_entry.md">SECURE_ELEMENT_ROUTING_TABLE_ENTRY</a>. 
-
-
-## -syntax
-
-
-````
-typedef struct _SECURE_ELEMENT_PROTO_ROUTING_INFO {
-  GUID guidSecureElementId;
-  BYTE eRfProtocolType;
-} SECURE_ELEMENT_PROTO_ROUTING_INFO, *P_SECURE_ELEMENT_PROTO_ROUTING_INFO;
-````
+ is a member of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905628">SECURE_ELEMENT_ROUTING_TABLE_ENTRY</a>. 
 
 
 ## -struct-fields

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6C091427-59FF-4101-ACD6-353C959794F6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: OnInterruptEnable, OnInterruptEnable callback function, WUDF_INTERRUPT_ENABLE, umdf.oninterruptenable, wdf.oninterruptenable, wudfinterrupt/OnInterruptEnable
+ms.keywords: OnInterruptEnable, OnInterruptEnable callback function, WUDF_INTERRUPT_ENABLE, WUDF_INTERRUPT_ENABLE callback, umdf.oninterruptenable, wdf.oninterruptenable, wudfinterrupt/OnInterruptEnable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	Wudfinterrupt.h
 api_name:
 -	OnInterruptEnable
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# WUDF_INTERRUPT_ENABLE callback
+# WUDF_INTERRUPT_ENABLE callback function
 
 
 ## -description
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 A driver's <i>OnInterruptEnable</i> event callback function enables a specified hardware interrupt.
-
-
-## -prototype
-
-
-````
-WUDF_INTERRUPT_ENABLE OnInterruptEnable;
-
-HRESULT OnInterruptEnable(
-  _In_ IWDFInterrupt *pInterrupt,
-  _In_ IWDFDevice    *pAssociatedDevice
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -88,12 +74,12 @@ HRESULT OnInterruptEnable(
 
 #### - pAssociatedDevice [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface that the driver used to call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451208">CreateInterrupt</a>. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface that the driver used to call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451208">CreateInterrupt</a>. 
 
 
 #### - pInterrupt [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a> interface.
 
 
 ## -returns
@@ -109,7 +95,7 @@ The callback function must return S_OK if the operation succeeds. Otherwise, the
 
 
 
-To register an <i>OnInterruptEnable</i> callback function, your driver must place the callback function's address in a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice::CreateInterrupt</a>.
+To register an <i>OnInterruptEnable</i> callback function, your driver must place the callback function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464084">WUDF_INTERRUPT_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice::CreateInterrupt</a>.
 
 
 The framework calls the driver's <i>OnInterruptEnable</i> callback function each time the device enters its working (D0) state. Additionally, a driver can cause the framework to call the <i>OnInterruptEnable</i> callback function by calling <a href="https://msdn.microsoft.com/605C58C2-9A4F-4185-BB5C-95C9F5180C05">IWDFInterrupt::Enable</a>.
@@ -184,20 +170,19 @@ Then, implement your callback function as follows:
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice::CreateInterrupt</a>
 
 
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wudf_interrupt_config.md">WUDF_INTERRUPT_CONFIG</a>
+<a href="https://msdn.microsoft.com/3ADBD4C2-075E-4988-BF13-EB0C3E0C02BF">OnInterruptDisable</a>
 
 
 
-<a href="..\wudfinterrupt\nc-wudfinterrupt-wudf_interrupt_disable.md">OnInterruptDisable</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464084">WUDF_INTERRUPT_CONFIG</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\rilmessagestatus.htm
 old-project: netvista
 ms.assetid: 8c111231-f94b-4e52-9887-59d07fe70937
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILMESSAGESTATUS, RILMESSAGESTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGSTATUS_MAX, RIL_MSGSTATUS_RECREAD, RIL_MSGSTATUS_RECUNREAD, RIL_MSGSTATUS_STOSENT, RIL_MSGSTATUS_STOUNSENT, netvista.rilmessagestatus, ntddrilapitypes/RILMESSAGESTATUS, ntddrilapitypes/RIL_MSGSTATUS_MAX, ntddrilapitypes/RIL_MSGSTATUS_RECREAD, ntddrilapitypes/RIL_MSGSTATUS_RECUNREAD, ntddrilapitypes/RIL_MSGSTATUS_STOSENT, ntddrilapitypes/RIL_MSGSTATUS_STOUNSENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMESSAGESTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMESSAGESTATUS
-req.product: Windows 10 or later.
 ---
 
 # RILMESSAGESTATUS enumeration
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMESSAGESTATUS { 
-  RIL_MSGSTATUS_RECUNREAD,
-  RIL_MSGSTATUS_RECREAD,
-  RIL_MSGSTATUS_STOUNSENT,
-  RIL_MSGSTATUS_STOSENT,
-  RIL_MSGSTATUS_MAX
-} RILMESSAGESTATUS;
-````
 
 
 ## -enum-fields

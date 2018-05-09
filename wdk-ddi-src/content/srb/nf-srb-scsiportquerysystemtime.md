@@ -7,7 +7,7 @@ old-location: storage\scsiportquerysystemtime.htm
 old-project: storage
 ms.assetid: 6f6afe6d-8f57-4c08-97ea-b327622a4e39
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortQuerySystemTime, ScsiPortQuerySystemTime routine [Storage Devices], scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, srb/ScsiPortQuerySystemTime, storage.scsiportquerysystemtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Scsiport.dll
 api_name:
 -	ScsiPortQuerySystemTime
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ScsiPortQuerySystemTime function
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 
 The <b>ScsiPortQuerySystemTime</b> routine obtains the current system time.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-VOID ScsiPortQuerySystemTime(
-  _Out_ PLARGE_INTEGER CurrentTime
-);
-````
-
 
 ## -parameters
 

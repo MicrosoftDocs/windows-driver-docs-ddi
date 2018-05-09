@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFUnifiedPropertyStore.GetPropertyData
-title: IWDFUnifiedPropertyStore::GetPropertyData method
+title: IWDFUnifiedPropertyStore::GetPropertyData
 author: windows-driver-content
 description: The GetPropertyData method retrieves the current setting for a device property.
 old-location: wdf\iwdfunifiedpropertystore_getpropertydata.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0AAEB2F1-0449-4F0E-807A-1D2420CF6858
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetPropertyData method, GetPropertyData method, IWDFUnifiedPropertyStore interface, GetPropertyData,IWDFUnifiedPropertyStore.GetPropertyData, IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, GetPropertyData method, IWDFUnifiedPropertyStore::GetPropertyData, umdf.iwdfunifiedpropertystore_getpropertydata, wdf.iwdfunifiedpropertystore_getpropertydata, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
+ms.keywords: GetPropertyData, GetPropertyData method, GetPropertyData method,IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface,GetPropertyData method, IWDFUnifiedPropertyStore.GetPropertyData, IWDFUnifiedPropertyStore::GetPropertyData, umdf.iwdfunifiedpropertystore_getpropertydata, wdf.iwdfunifiedpropertystore_getpropertydata, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUnifiedPropertyStore.GetPropertyData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUnifiedPropertyStore::GetPropertyData method
+# IWDFUnifiedPropertyStore::GetPropertyData
 
 
 ## -description
@@ -54,22 +54,6 @@ req.product: Windows 10 or later.
 
 The <b>GetPropertyData</b> method retrieves the current setting for a device property.
 
-
-
-## -syntax
-
-
-````
-HRESULT GetPropertyData(
-  [in]            const DEVPROPKEY  *PropertyKey,
-  [in]                  LCID        Lcid,
-  [in]                  ULONG       Flags,
-  [in]                  ULONG       PropertyDataSize,
-  [out, optional]       PVOID       PropertyData,
-  [out]                 ULONG       *PropertyDataRequiredSize,
-  [out]                 DEVPROPTYPE *PropertyType
-);
-````
 
 
 ## -parameters
@@ -300,7 +284,14 @@ exit:
 
 ## -see-also
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdf_property_store_root.md">WDF_PROPERTY_STORE_ROOT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451399">IWDFUnifiedPropertyStore</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451403">IWDFUnifiedPropertyStoreFactory</a>
 
 
 
@@ -308,24 +299,16 @@ exit:
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451414">SetPropertyData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561453">WDF_PROPERTY_STORE_ROOT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561458">WDF_PROPERTY_STORE_ROOT_CLASS</a>
  
 
  
-
 

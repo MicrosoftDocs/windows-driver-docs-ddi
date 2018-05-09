@@ -7,8 +7,8 @@ old-location: debugger\idebugclient3.htm
 old-project: debugger
 ms.assetid: 316a4d8b-4cf6-4270-8d9b-e1ede53d567d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugClient3, IDebugClient3 interface [Windows Debugging], IDebugClient3 interface [Windows Debugging], described, dbgeng/IDebugClient3, debugger.idebugclient3
+ms.date: 4/24/2018
+ms.keywords: IDebugClient3, IDebugClient3 interface [Windows Debugging], IDebugClient3 interface [Windows Debugging],described, dbgeng/IDebugClient3, debugger.idebugclient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient3
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugClient3 interface
@@ -53,7 +54,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient3</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>. <b>IDebugClient3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient3</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>. <b>IDebugClient3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -109,20 +110,19 @@ Returns a description of the process that includes the executable image name, th
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

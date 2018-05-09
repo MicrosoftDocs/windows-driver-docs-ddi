@@ -7,8 +7,8 @@ old-location: print\ioctl_usbprint_soft_reset.htm
 old-project: print
 ms.assetid: 84e9197a-a096-42ff-af0d-3f4dab9fe0c6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_USBPRINT_SOFT_RESET, IOCTL_USBPRINT_SOFT_RESET control code [Print Devices], print.ioctl_usbprint_soft_reset, usbioctl_282627ce-49eb-4d8c-88a6-8d211cb91830.xml, usbprint/IOCTL_USBPRINT_SOFT_RESET
+ms.date: 4/20/2018
+ms.keywords: IOCTL_USBPRINT_SOFT_RESET, IOCTL_USBPRINT_SOFT_RESET control, IOCTL_USBPRINT_SOFT_RESET control code [Print Devices], print.ioctl_usbprint_soft_reset, usbioctl_282627ce-49eb-4d8c-88a6-8d211cb91830.xml, usbprint/IOCTL_USBPRINT_SOFT_RESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	usbprint.h
 api_name:
 -	IOCTL_USBPRINT_SOFT_RESET
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION, *PUSB_TRANSPORT_CHARACTERISTICS_CHANGE_UNREGISTRATION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USBPRINT_SOFT_RESET IOCTL
@@ -103,7 +103,6 @@ Not used with this operation; set this parameter to 0.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -111,16 +110,16 @@ Not used with this operation; set this parameter to 0.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

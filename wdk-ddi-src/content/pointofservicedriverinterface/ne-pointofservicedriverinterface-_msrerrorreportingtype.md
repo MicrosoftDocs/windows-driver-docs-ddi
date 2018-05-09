@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	MsrErrorReportingType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MsrErrorReportingType
 ---
@@ -50,17 +51,6 @@ req.typenames: MsrErrorReportingType
 
 
 This enumeration defines the constants that indicate the error reporting type for the magnetic stripe reader (MSR).
-
-
-## -syntax
-
-
-````
-typedef enum _MsrErrorReportingType { 
-  MsrErrorReportingType_CardLevel   = ,
-  MsrErrorReportingType_TrackLevel
-} MsrErrorReportingType;
-````
 
 
 ## -enum-fields

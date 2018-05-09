@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_sys_caps.htm
 old-project: netvista
 ms.assetid: 6A4963A0-4724-4709-A940-817B8AEBE1C9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_SYS_CAPS_INFO, NDIS_WWAN_SYS_CAPS_INFO, NDIS_WWAN_SYS_CAPS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SYS_CAPS_INFO, PNDIS_WWAN_SYS_CAPS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SYS_CAPS_INFO, ndiswwan/NDIS_WWAN_SYS_CAPS_INFO, ndiswwan/PNDIS_WWAN_SYS_CAPS_INFO, netvista.ndis_wwan_sys_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_SYS_CAPS_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SYS_CAPS_INFO, *PNDIS_WWAN_SYS_CAPS_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: NDIS_WWAN_SYS_CAPS_INFO, *PNDIS_WWAN_SYS_CAPS_INFO
 
 
 The <b>NDIS_WWAN_SYS_CAPS_INFO</b> structure represents the overall modem's system capability.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SYS_CAPS_INFO {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_SYS_CAPS_INFO SysCapsInfo;
-} NDIS_WWAN_SYS_CAPS_INFO, *PNDIS_WWAN_SYS_CAPS_INFO;
-````
 
 
 ## -struct-fields
@@ -117,7 +106,7 @@ sizeof(NDIS_WWAN_SYS_CAPS_INFO)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -189,12 +178,15 @@ The operation failed because the device does not support this OID.
 
 ### -field SysCapsInfo
 
-A formatted <a href="..\wwan\ns-wwan-_wwan_sys_caps_info.md">WWAN_SYS_CAPS_INFO</a> structure that represents the overall modem system capability.
+A formatted <a href="https://msdn.microsoft.com/EBD9D4CA-E032-4BB3-A802-D2D7A39E9A42">WWAN_SYS_CAPS_INFO</a> structure that represents the overall modem system capability.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D158432A-A715-4ABB-969C-F8F80D2DB845">OID_WWAN_SYS_CAPS_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -202,16 +194,12 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_sys_caps_info.md">WWAN_SYS_CAPS_INFO<
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/D158432A-A715-4ABB-969C-F8F80D2DB845">OID_WWAN_SYS_CAPS_INFO</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sys_caps_info.md">WWAN_SYS_CAPS_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/EBD9D4CA-E032-4BB3-A802-D2D7A39E9A42">WWAN_SYS_CAPS_INFO</a>
  
 
  
-
 

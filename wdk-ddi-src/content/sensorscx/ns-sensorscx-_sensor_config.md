@@ -7,7 +7,7 @@ old-location: sensors\sensor_config.htm
 old-project: sensors
 ms.assetid: E21E2FEC-8733-4A8A-A0C4-899F10824F9B
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSENSOR_CONFIG, PSENSOR_CONFIG, PSENSOR_CONFIG structure pointer [Sensor Devices], SENSOR_CONFIG, SENSOR_CONFIG structure [Sensor Devices], _SENSOR_CONFIG, sensors.sensor_config, sensorscx/PSENSOR_CONFIG, sensorscx/SENSOR_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	SENSOR_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_CONFIG, *PSENSOR_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _SENSOR_CONFIG structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This structure contains information that the sensor driver passes to the class extension about each sensor.
-
-
-## -syntax
-
-
-````
-typedef struct _SENSOR_CONFIG {
-  ULONG                   Size;
-  PSENSOR_COLLECTION_LIST pEnumerationList;
-} SENSOR_CONFIG, *PSENSOR_CONFIG;
-````
 
 
 ## -struct-fields
@@ -76,7 +65,7 @@ The allocated size of this structure (in bytes).
 
 ### -field pEnumerationList
 
-The list of enumerations. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
+The list of enumerations. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ## -remarks
@@ -87,7 +76,7 @@ The SENSOR_CONFIG structure works with the following helper function:
 
 <ul>
 <li>
-<a href="..\sensorscx\nf-sensorscx-sensor_config_init.md">SENSOR_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957097">SENSOR_CONFIG_INIT</a>
 </li>
 </ul>
 

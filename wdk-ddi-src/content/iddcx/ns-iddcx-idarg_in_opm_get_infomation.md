@@ -7,7 +7,7 @@ old-location: display\idarg_in_opm_get_infomation.htm
 old-project: display
 ms.assetid: 14d0585d-6fa1-4934-a4f2-fe5e20d4a324
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IDARG_IN_OPM_GET_INFOMATION, IDARG_IN_OPM_GET_INFOMATION structure [Display Devices], display.idarg_in_opm_get_infomation, iddcx/IDARG_IN_OPM_GET_INFOMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_OPM_GET_INFOMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
                  Gives information about the OPM.
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_OPM_GET_INFOMATION {
-  IDDCX_OPM_GET_INFO_PARAMETERS GetInfoParameters;
-} IDARG_IN_OPM_GET_INFOMATION, *IDARG_IN_OPM_GET_INFOMATION;
-````
 
 
 ## -struct-fields

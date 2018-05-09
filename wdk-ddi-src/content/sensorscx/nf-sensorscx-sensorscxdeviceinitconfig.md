@@ -7,7 +7,7 @@ old-location: sensors\sensorscxdeviceinitconfig.htm
 old-project: sensors
 ms.assetid: E347F2E1-5AF5-411A-8F05-DA4826240E02
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SensorsCxDeviceInitConfig, SensorsCxDeviceInitConfig function [Sensor Devices], sensors.sensorscxdeviceinitconfig, sensorscx/SensorsCxDeviceInitConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	SensorsCxDeviceInitConfig
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SensorsCxDeviceInitConfig function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This function configures the sensor device.
-
-
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS SensorsCxDeviceInitConfig(
-  _Inout_ PWDFDEVICE_INIT        pFxDeviceInit,
-  _Inout_ PWDF_OBJECT_ATTRIBUTES pFdoAttributes,
-  _In_    ULONG                  Flags
-);
-````
 
 
 ## -parameters

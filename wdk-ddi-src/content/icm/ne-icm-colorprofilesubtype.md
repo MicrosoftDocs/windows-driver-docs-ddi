@@ -7,7 +7,7 @@ old-location: print\colorprofilesubtype.htm
 old-project: print
 ms.assetid: 7ec0dd2d-7be5-4c85-8096-64a45aee01a5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PCOLORPROFILESUBTYPE, COLORPROFILESUBTYPE, COLORPROFILESUBTYPE enumeration [Print Devices], CPST_ABSOLUTE_COLORIMETRIC, CPST_CUSTOM_WORKING_SPACE, CPST_NONE, CPST_PERCEPTUAL, CPST_RELATIVE_COLORIMETRIC, CPST_RGB_WORKING_SPACE, CPST_SATURATION, colorfnc_10016472-785a-4ef5-95c2-7fd3699a6a81.xml, icm/COLORPROFILESUBTYPE, icm/CPST_ABSOLUTE_COLORIMETRIC, icm/CPST_CUSTOM_WORKING_SPACE, icm/CPST_NONE, icm/CPST_PERCEPTUAL, icm/CPST_RELATIVE_COLORIMETRIC, icm/CPST_RGB_WORKING_SPACE, icm/CPST_SATURATION, print.colorprofilesubtype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	icm.h
 api_name:
 -	COLORPROFILESUBTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: COLORPROFILESUBTYPE
 ---
@@ -50,22 +51,6 @@ req.typenames: COLORPROFILESUBTYPE
 
 
 The COLORPROFILESUBTYPE enumeration is used to specify the subtype of color profile.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  CPST_PERCEPTUAL             = INTENT_PERCEPTUAL,
-  CPST_RELATIVE_COLORIMETRIC  = INTENT_RELATIVE_COLORIMETRIC,
-  CPST_SATURATION             = INTENT_SATURATION,
-  CPST_ABSOLUTE_COLORIMETRIC  = INTENT_ABSOLUTE_COLORIMETRIC,
-  CPST_NONE                   = 1,
-  CPST_RGB_WORKING_SPACE      = 2,
-  CPST_CUSTOM_WORKING_SPACE   = 3
-} COLORPROFILESUBTYPE;
-````
 
 
 ## -enum-fields
@@ -139,16 +124,15 @@ The PCOLORPROFILESUBTYPE and LPCOLORPROFILESUBTYPE data types are defined as poi
 
 ## -see-also
 
-<a href="..\icm\nf-icm-wcssetdefaultcolorprofile.md">WcsSetDefaultColorProfile</a>
 
 
 
-<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546018">COLORPROFILETYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563739">WcsSetDefaultColorProfile</a>
  
 
  
-
 

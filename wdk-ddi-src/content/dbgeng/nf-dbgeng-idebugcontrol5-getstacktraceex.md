@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl5.GetStackTraceEx
-title: IDebugControl5::GetStackTraceEx method
+title: IDebugControl5::GetStackTraceEx
 author: windows-driver-content
 description: The GetStackTraceEx method returns the frames at the top of the specified call stack. The GetStackTraceEx method provides inline frame support. For more information about working with inline functions, see Debugging Optimized Code and Inline Functions.
 old-location: debugger\idebugcontrol5_getstacktraceex.htm
 old-project: debugger
 ms.assetid: 6DFCA3CB-D5DE-4EF5-892B-776B932E6CE6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetStackTraceEx method [Windows Debugging], GetStackTraceEx method [Windows Debugging], IDebugControl5 interface, GetStackTraceEx,IDebugControl5.GetStackTraceEx, IDebugControl5, IDebugControl5 interface [Windows Debugging], GetStackTraceEx method, IDebugControl5::GetStackTraceEx, dbgeng/IDebugControl5::GetStackTraceEx, debugger.idebugcontrol5_getstacktraceex
+ms.date: 4/24/2018
+ms.keywords: GetStackTraceEx, GetStackTraceEx method [Windows Debugging], GetStackTraceEx method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetStackTraceEx method, IDebugControl5.GetStackTraceEx, IDebugControl5::GetStackTraceEx, dbgeng/IDebugControl5::GetStackTraceEx, debugger.idebugcontrol5_getstacktraceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl5.GetStackTraceEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl5::GetStackTraceEx method
+# IDebugControl5::GetStackTraceEx
 
 
 ## -description
 
 
 The GetStackTraceEx method returns the frames at the top of the specified call stack. The GetStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406275">Debugging Optimized Code and Inline Functions</a>.
-
-
-## -syntax
-
-
-````
-HRESULT GetStackTraceEx(
-  [in]            ULONG64               FrameOffset,
-  [in]            ULONG64               StackOffset,
-  [in]            ULONG64               InstructionOffset,
-  [out]           PDEBUG_STACK_FRAME_EX Frames,
-  [in]            ULONG                 FrameSize,
-  [out, optional] PULONG                FramesFilled
-);
-````
 
 
 ## -parameters
@@ -161,7 +147,6 @@ No stack frames were returned.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 
@@ -177,7 +162,11 @@ No stack frames were returned.
 
 
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_stacktrace_routine.md">StackTrace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818562">IDebugControl5</a>
 
 
 
@@ -185,16 +174,12 @@ No stack frames were returned.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558794">StackTrace</a>
+
+
+
 <a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
-
-
-
  
 
  
-
 

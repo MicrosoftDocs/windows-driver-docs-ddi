@@ -7,8 +7,8 @@ old-location: netvista\ndiswdicloseadaptercomplete.htm
 old-project: netvista
 ms.assetid: 42500F6F-8E97-454F-819F-8EA3785C0D04
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDIS_WDI_CLOSE_ADAPTER_COMPLETE, NdisWdiCloseAdapterComplete, NdisWdiCloseAdapterComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiCloseAdapterComplete, netvista.ndiswdicloseadaptercomplete
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_CLOSE_ADAPTER_COMPLETE, NDIS_WDI_CLOSE_ADAPTER_COMPLETE callback, NdisWdiCloseAdapterComplete, NdisWdiCloseAdapterComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiCloseAdapterComplete, netvista.ndiswdicloseadaptercomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,34 +38,21 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	NdisWdiCloseAdapterComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_CLOSE_ADAPTER_COMPLETE callback
+# NDIS_WDI_CLOSE_ADAPTER_COMPLETE callback function
 
 
 ## -description
 
 
-The NdisWdiCloseAdapterComplete callback function is called by the IHV when a Close Task operation from <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_close_adapter.md">MiniportWdiCloseAdapter</a> has been successfully started.
+The NdisWdiCloseAdapterComplete callback function is called by the IHV when a Close Task operation from <a href="https://msdn.microsoft.com/E6A96765-3D95-431B-B29A-5BD7641325A8">MiniportWdiCloseAdapter</a> has been successfully started.
 
-This is a control path callback inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>.
-
-
-## -prototype
-
-
-````
-NDIS_WDI_CLOSE_ADAPTER_COMPLETE NdisWdiCloseAdapterComplete;
-
-VOID NdisWdiCloseAdapterComplete(
-  _In_ NDIS_HANDLE MiniportAdapterHandle,
-  _In_ NDIS_STATUS CompletionStatus
-)
-{ ... }
-````
+This is a control path callback inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297621">NDIS_WDI_INIT_PARAMETERS</a>.
 
 
 ## -parameters
@@ -94,16 +81,15 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_close_adapter.md">MiniportWdiCloseAdapter</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/E6A96765-3D95-431B-B29A-5BD7641325A8">MiniportWdiCloseAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297621">NDIS_WDI_INIT_PARAMETERS</a>
  
 
  
-
 

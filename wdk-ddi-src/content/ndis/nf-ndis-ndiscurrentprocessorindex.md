@@ -7,7 +7,7 @@ old-location: netvista\ndiscurrentprocessorindex.htm
 old-project: netvista
 ms.assetid: 68ac845e-9b2f-4e35-8e61-83c799b3cd59
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCurrentProcessorIndex, NdisCurrentProcessorIndex function [Network Drivers Starting with Windows Vista], ndis/NdisCurrentProcessorIndex, ndis_processor_group_ref_c19efe7e-be4a-4093-bd50-80d3c0588dc6.xml, netvista.ndiscurrentprocessorindex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisCurrentProcessorIndex
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCurrentProcessorIndex function
@@ -53,14 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisCurrentProcessorIndex</b> function returns the system-assigned number of the current processor that
   the caller is running on.
-
-
-## -syntax
-
-
-````
-ULONG NdisCurrentProcessorIndex(void);
-````
 
 
 ## -parameters
@@ -94,16 +87,15 @@ NDIS drivers call the
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552063">KeGetCurrentProcessorNumber</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564915">NDIS_CURRENT_PROCESSOR_NUMBER</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
-
-
-
  
 
  
-
 

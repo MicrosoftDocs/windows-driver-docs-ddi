@@ -7,7 +7,7 @@ old-location: stream\kstrallocateframe.htm
 old-project: stream
 ms.assetid: 1b6eec23-82b4-4e8f-89d0-e76d6449906e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrAllocateFrame, KStrAllocateFrame routine [Streaming Media Devices], PFNALLOCATOR_ALLOCATEFRAME, ks/KStrAllocateFrame, ksfunc_a90af96e-53df-43f5-b847-ba1876b788fd.xml, stream.kstrallocateframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,32 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	KStrAllocateFrame
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNALLOCATOR_ALLOCATEFRAME callback
+# PFNALLOCATOR_ALLOCATEFRAME callback function
 
 
 ## -description
 
 
 The <i>KStrAllocateFrame</i> routine describes a vendor-supplied frame allocation function. 
-
-
-## -prototype
-
-
-````
-PFNALLOCATOR_ALLOCATEFRAME KStrAllocateFrame;
-
-NTSTATUS KStrAllocateFrame(
-  _In_  PFILE_OBJECT FileObject,
-  _Out_ PVOID        *Frame
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ NTSTATUS KStrAllocateFrame(
 
 ### -param FileObject [in]
 
-Pointer to a <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure for which to allocate frames.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> structure for which to allocate frames.
 
 
 ### -param *Frame [out]
@@ -94,7 +81,7 @@ Returns STATUS_SUCCESS if the request is handled.  Otherwise returns an appropri
 
 
 
-This type is used in the <b>AllocateFrame</b> member of the <a href="..\ks\ns-ks-ksstreamallocator_functiontable.md">KSSTREAMALLOCATOR_FUNCTIONTABLE</a> structure.
+This type is used in the <b>AllocateFrame</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566862">KSSTREAMALLOCATOR_FUNCTIONTABLE</a> structure.
 
 You can pass an instance of this structure as part of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a> property request.
 
@@ -103,16 +90,15 @@ You can pass an instance of this structure as part of a <a href="https://msdn.mi
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565633">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a>
 
 
 
-<a href="..\ks\ns-ks-ksstreamallocator_functiontable.md">KSSTREAMALLOCATOR_FUNCTIONTABLE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566862">KSSTREAMALLOCATOR_FUNCTIONTABLE</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvDeviceCommand
-title: IWiaMiniDrv::drvDeviceCommand method
+title: IWiaMiniDrv::drvDeviceCommand
 author: windows-driver-content
 description: The IWiaMiniDrv::drvDeviceCommand method issues a command to a WIA device.
 old-location: image\iwiaminidrv_drvdevicecommand.htm
 old-project: image
 ms.assetid: e17c81a6-8c4e-41f0-bd98-f7a9a0f20893
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvDeviceCommand method, IWiaMiniDrv::drvDeviceCommand, MiniDrv_a65ceaef-73bf-4fd1-9d56-2a4b208f54a3.xml, drvDeviceCommand method [Imaging Devices], drvDeviceCommand method [Imaging Devices], IWiaMiniDrv interface, drvDeviceCommand,IWiaMiniDrv.drvDeviceCommand, image.iwiaminidrv_drvdevicecommand, wiamindr_lh/IWiaMiniDrv::drvDeviceCommand
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvDeviceCommand method, IWiaMiniDrv.drvDeviceCommand, IWiaMiniDrv::drvDeviceCommand, MiniDrv_a65ceaef-73bf-4fd1-9d56-2a4b208f54a3.xml, drvDeviceCommand, drvDeviceCommand method [Imaging Devices], drvDeviceCommand method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvdevicecommand, wiamindr_lh/IWiaMiniDrv::drvDeviceCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrv.drvDeviceCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvDeviceCommand method
+# IWiaMiniDrv::drvDeviceCommand
 
 
 ## -description
 
 
 The <b>IWiaMiniDrv::drvDeviceCommand</b> method issues a command to a WIA device.
-
-
-## -syntax
-
-
-````
-HRESULT drvDeviceCommand(
-  [in]                  BYTE        *pWiasContext,
-  [in]                  LONG        lFlags,
-  [in]            const GUID        *plCommand,
-  [out, optional]       IWiaDrvItem **ppWiaDrvItem,
-  [out]                 LONG        *plDevErrVal
-);
-````
 
 
 ## -parameters
@@ -121,7 +107,7 @@ Points to a memory location that will receive a status code for this method. If 
 
 #### - ppWiaDrvItem [out, optional]
 
-Points to a memory location that can receive a pointer to an <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem Interface</a>. See Remarks.
+Points to a memory location that can receive a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543896">IWiaDrvItem Interface</a>. See Remarks.
 
 
 ## -returns
@@ -154,11 +140,10 @@ The WIA service does not write any properties before calling this method. If the
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545020">IWiaMiniDrv::drvWriteItemProperties</a>
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
@@ -166,8 +151,8 @@ The WIA service does not write any properties before calling this method. If the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545020">IWiaMiniDrv::drvWriteItemProperties</a>
  
 
  
-
 

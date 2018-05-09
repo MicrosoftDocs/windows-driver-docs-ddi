@@ -7,7 +7,7 @@ old-location: display\d3dkmt_opensyncobjectfromnthandle2.htm
 old-project: display
 ms.assetid: 7C5F9ACF-AA21-4A2B-B943-3B1D940284E1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 structure [Display Devices], _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, display.d3dkmt_opensyncobjectfromnthandle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 ---
@@ -49,28 +50,7 @@ req.typenames: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 ## -description
 
 
-<b>D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a> to open a monitored fence object.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 {
-  HANDLE                             hNtHandle;
-  D3DKMT_HANDLE                      hDevice;
-  D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS Flags;
-  D3DKMT_HANDLE                      hSyncObject;
-  union {
-    struct {
-      VOID                   *FenceValueCPUVirtualAddress;
-      D3DGPU_VIRTUAL_ADDRESS FenceValueGPUVirtualAddress;
-      UINT                   EngineAffinity;
-    } MonitoredFence;
-    UINT64 Reserved[8];
-  };
-} D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2;
-````
+<b>D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906778">D3DKMTOpenSyncObjectFromNtHandle2</a> to open a monitored fence object.
 
 
 ## -struct-fields
@@ -118,19 +98,18 @@ Contains sync object virtual addresses that can be used in this process.
 [in] A bit field, where each bit position (starting from zero) defines a physical adapter index in an linked display adapter link where the GPU virtual address will be committed. Zero means that GPU virtual address will be committed to all physical adapters.
 
 
-#### - Reserved
+### -field Reserved
 
 The consolidated value of the <b>MonitoredFence</b> structure.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2.md">D3DKMTOpenSyncObjectFromNtHandle2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906778">D3DKMTOpenSyncObjectFromNtHandle2</a>
  
 
  
-
 

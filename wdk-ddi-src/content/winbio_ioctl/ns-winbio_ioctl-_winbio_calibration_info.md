@@ -38,10 +38,10 @@ api_location:
 -	winbio_ioctl.h
 api_name:
 -	WINBIO_CALIBRATION_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WINBIO_CALIBRATION_INFO, *PWINBIO_CALIBRATION_INFO
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_CALIBRATION_INFO structure
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <a href="..\winbio_ioctl\ni-winbio_ioctl-ioctl_biometric_calibrate.md">IOCTL_BIOMETRIC_CALIBRATE</a> IOCTL returns the WINBIO_CALIBRATION_INFO structure as output.
-
-
-## -syntax
-
-
-````
-typedef struct _WINBIO_CALIBRATION_INFO {
-  DWORD       PayloadSize;
-  HRESULT     WinBioHresult;
-  WINBIO_DATA CalibrationData;
-} WINBIO_CALIBRATION_INFO, *PWINBIO_CALIBRATION_INFO;
-````
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536427">IOCTL_BIOMETRIC_CALIBRATE</a> IOCTL returns the WINBIO_CALIBRATION_INFO structure as output.
 
 
 ## -struct-fields
@@ -120,5 +108,5 @@ The device is in the middle of a vendor-specific operation.  This should only be
 
 ### -field CalibrationData
 
-A structure of type <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a> that contains calibration data specific to this sensor.  This member is optional.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536469">WINBIO_DATA</a> that contains calibration data specific to this sensor.  This member is optional.
 

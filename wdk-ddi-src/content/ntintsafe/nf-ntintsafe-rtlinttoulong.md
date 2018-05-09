@@ -7,7 +7,7 @@ old-location: kernel\rtlinttoulong.htm
 old-project: kernel
 ms.assetid: B5308AB1-3BF6-4B93-AC6B-655D00DFC5E5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlIntToULong, RtlIntToULong function [Kernel-Mode Driver Architecture], kernel.rtlinttoulong, ntintsafe/RtlIntToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlIntToULong
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlIntToULong function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>INT</b> to a value of type <b>ULONG</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlIntToULong(
-  _In_  INT   iOperand,
-  _Out_ ULONG *pulResult
-);
-````
 
 
 ## -parameters

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 0576D73A-0A36-4AB7-952C-19B56FD246D8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 61883/CmpNotifyRoutine, CmpNotifyRoutine, CmpNotifyRoutine callback function, IEEE.pcmp_notify_routine, PCMP_NOTIFY_ROUTINE
+ms.keywords: 61883/CmpNotifyRoutine, CmpNotifyRoutine, CmpNotifyRoutine callback function, IEEE.pcmp_notify_routine, PCMP_NOTIFY_ROUTINE, PCMP_NOTIFY_ROUTINE callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	61883.h
 api_name:
 -	CmpNotifyRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
+req.typenames: 
 ---
 
-# PCMP_NOTIFY_ROUTINE callback
+# PCMP_NOTIFY_ROUTINE callback function
 
 
 ## -description
 
 
 This routine is called for plug notification.
-
-
-## -prototype
-
-
-````
-PCMP_NOTIFY_ROUTINE CmpNotifyRoutine;
-
-void CmpNotifyRoutine(
-  _In_ PCMP_NOTIFY_INFO NotifyInfo
-)
-{ ... }
-
-typedef PCMP_NOTIFY_ROUTINE CmpNotifyRoutine;
-````
 
 
 ## -parameters

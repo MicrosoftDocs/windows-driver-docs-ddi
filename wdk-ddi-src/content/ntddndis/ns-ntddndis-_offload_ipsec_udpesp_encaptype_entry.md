@@ -7,7 +7,7 @@ old-location: netvista\offload_ipsec_udpesp_encaptype_entry.htm
 old-project: netvista
 ms.assetid: a1e5ae2e-b183-4ccc-8413-1359c4e8a6bc
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, 216offload_de874753-3127-47fb-8768-a5e2bd6eb96d.xml, OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, netvista.offload_ipsec_udpesp_encaptype_entry, ntddndis/OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, ntddndis/POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, *POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
 ---
@@ -51,17 +52,6 @@ req.typenames: OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, *POFFLOAD_IPSEC_UDPESP_ENCA
 
 The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure specifies the UDP-ESP encapsulation type and
   destination port of a parser entry.
-
-
-## -syntax
-
-
-````
-typedef struct _OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY {
-  UDP_ENCAP_TYPE UdpEncapType;
-  USHORT         DstEncapPort;
-} OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, *POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY;
-````
 
 
 ## -struct-fields
@@ -107,7 +97,7 @@ For an inbound SA (Flags = OFFLOAD_INBOUND_SA), specifies the destination port t
 
 
 The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure is used with the 
-    <a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_udpesp_sa.md">
+    <a href="https://msdn.microsoft.com/4d3f554f-2733-4896-827c-14e92e8034ce">
     OFFLOAD_IPSEC_ADD_UDPESP_SA</a> structure.
 
 
@@ -115,12 +105,11 @@ The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure is used with the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_offload_ipsec_add_udpesp_sa.md">OFFLOAD_IPSEC_ADD_UDPESP_SA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569057">OFFLOAD_IPSEC_ADD_UDPESP_SA</a>
  
 
  
-
 

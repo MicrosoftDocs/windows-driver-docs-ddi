@@ -7,7 +7,7 @@ old-location: display\d3dkmtdestroyallocation.htm
 old-project: display
 ms.assetid: 249ca05c-406d-4d47-a266-222f7be1a883
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTDestroyAllocation, D3DKMTDestroyAllocation function [Display Devices], OpenGL_Functions_ecc5579c-3b0a-4c2c-9978-9f2591444c03.xml, d3dkmthk/D3DKMTDestroyAllocation, display.d3dkmtdestroyallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTDestroyAllocation
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTDestroyAllocation function
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTDestroyAllocation</b> function releases a resource, a list of allocations, or both.
-
-
-## -syntax
-
-
-````
-NTSTATUS D3DKMTDestroyAllocation(
-  _In_ const D3DKMT_DESTROYALLOCATION *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroyallocation.md">D3DKMT_DESTROYALLOCATION</a> structure that contains information for releasing allocations.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547868">D3DKMT_DESTROYALLOCATION</a> structure that contains information for releasing allocations.
 
 
 ## -returns
@@ -125,12 +116,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroyallocation.md">D3DKMT_DESTROYALLOCATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547868">D3DKMT_DESTROYALLOCATION</a>
  
 
  
-
 

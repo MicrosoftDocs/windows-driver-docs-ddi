@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 25D4C7BB-782D-4BDB-9E07-F152E3705705
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFP_ENABLE, IOCTL_NFP_ENABLE control code [Near-Field Proximity Drivers], _IOCTL_NFP_ENABLE, nfpdev/IOCTL_NFP_ENABLE, nfpdrivers.ioctl_nfp_enable
+ms.keywords: IOCTL_NFP_ENABLE, IOCTL_NFP_ENABLE control, IOCTL_NFP_ENABLE control code [Near-Field Proximity Drivers], _IOCTL_NFP_ENABLE, nfpdev/IOCTL_NFP_ENABLE, nfpdrivers.ioctl_nfp_enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	nfpdev.h
 api_name:
 -	IOCTL_NFP_ENABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_INFO
+req.typenames: 
 ---
 
 # IOCTL_NFP_ENABLE IOCTL
@@ -141,7 +142,10 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 
 ## -see-also
 
-<a href="..\nfpdev\ni-nfpdev-ioctl_nfp_disable.md">IOCTL_NFP_DISABLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj853315">IOCTL_NFP_DISABLE</a>
 
 
 
@@ -150,11 +154,7 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
-
-
-
  
 
  
-
 

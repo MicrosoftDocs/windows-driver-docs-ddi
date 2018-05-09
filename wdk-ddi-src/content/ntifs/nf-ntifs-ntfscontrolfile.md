@@ -7,7 +7,7 @@ old-location: kernel\zwfscontrolfile.htm
 old-project: kernel
 ms.assetid: 2e98d111-5af5-4854-9b58-f5237ba913e7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtFsControlFile, ZwFsControlFile, ZwFsControlFile routine [Kernel-Mode Driver Architecture], k111_5da20655-11b0-4366-bca2-8cee3aadbeab.xml, kernel.zwfscontrolfile, ntifs/NtFsControlFile, ntifs/ZwFsControlFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 api_name:
 -	ZwFsControlFile
 -	NtFsControlFile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # NtFsControlFile function
@@ -53,25 +54,6 @@ req.typenames: TOKEN_TYPE
 The <b>ZwFsControlFile</b> routine sends a control code directly to a specified file system or file system filter driver, causing the corresponding driver to perform the specified action.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwFsControlFile(
-  _In_      HANDLE           FileHandle,
-  _In_opt_  HANDLE           Event,
-  _In_opt_  PIO_APC_ROUTINE  ApcRoutine,
-  _In_opt_  PVOID            ApcContext,
-  _Out_     PIO_STATUS_BLOCK IoStatusBlock,
-  _In_      ULONG            FsControlCode,
-  _In_opt_  PVOID            InputBuffer,
-  _In_      ULONG            InputBufferLength,
-  _Out_opt_ PVOID            OutputBuffer,
-  _In_      ULONG            OutputBufferLength
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +61,7 @@ NTSTATUS ZwFsControlFile(
 
 ### -param FileHandle [in]
 
-Handle returned by <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> or <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a> for the file object representing the file or directory on which the specified action is to be performed. The file object must have been opened for asynchronous I/O if the caller specifies an <i>Event</i>, <i>ApcRoutine</i>, and an APC context (in <i>ApcContext</i>), or a completion context (in <i>ApcContext</i>).
+Handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a> for the file object representing the file or directory on which the specified action is to be performed. The file object must have been opened for asynchronous I/O if the caller specifies an <i>Event</i>, <i>ApcRoutine</i>, and an APC context (in <i>ApcContext</i>), or a completion context (in <i>ApcContext</i>).
 
 
 ### -param Event [in, optional]
@@ -196,7 +178,7 @@ For more information about system-defined FSCTL_<i>XXX</i> codes, see the "Remar
 
 For more information about system-defined IOCTL_<i>XXX</i> codes, and about defining driver-specific IOCTL_<i>XXX</i> or FSCTL_<i>XXX</i> values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565406">Using I/O Control Codes</a> in the <i>Kernel Mode Architecture Guide</i> and <i>Device Input and Output Control Codes</i> in the Windows SDK documentation. 
 
-Minifilters should use <a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a> instead of <b>ZwFsControlFile</b>. 
+Minifilters should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff542988">FltFsControlFile</a> instead of <b>ZwFsControlFile</b>. 
 
 Callers of <b>ZwFsControlFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
 
@@ -209,23 +191,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetfunctioncodefromctlcode.md">IoGetFunctionCodeFromCtlCode</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwdeviceiocontrolfile.md">ZwDeviceIoControlFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ioisoperationsynchronous.md">IoIsOperationSynchronous</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542988">FltFsControlFile</a>
 
 
 
@@ -233,11 +202,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549236">IoGetFunctionCodeFromCtlCode</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548443">IoIsOperationSynchronous</a>
 
 
 
@@ -245,12 +214,24 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566441">ZwDeviceIoControlFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a>
  
 
  
-
 

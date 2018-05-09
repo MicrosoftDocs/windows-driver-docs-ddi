@@ -7,8 +7,8 @@ old-location: image\ioctl_get_version.htm
 old-project: image
 ms.assetid: 0521cd73-a3ae-4c7e-b244-4477b69ffc6f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IOCTL_GET_VERSION, IOCTL_GET_VERSION control code [Imaging Devices], image.ioctl_get_version, stifnc_9ed7f2fc-763d-4090-8f25-e9a154055169.xml, usbscan/IOCTL_GET_VERSION
+ms.date: 4/23/2018
+ms.keywords: IOCTL_GET_VERSION, IOCTL_GET_VERSION control, IOCTL_GET_VERSION control code [Imaging Devices], image.ioctl_get_version, stifnc_9ed7f2fc-763d-4090-8f25-e9a154055169.xml, usbscan/IOCTL_GET_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	Usbscan.h
 api_name:
 -	IOCTL_GET_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RAW_PIPE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_GET_VERSION IOCTL
@@ -70,7 +70,7 @@ Zero.
 
 ### -output-buffer
 
-Pointer to a <a href="..\usbscan\ns-usbscan-_drv_version.md">DRV_VERSION</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541204">DRV_VERSION</a> structure.
 
 
 ### -output-buffer-length
@@ -108,7 +108,7 @@ Size of the output buffer.
 <h3><a id="ddk_ioctl_get_version_si"></a><a id="DDK_IOCTL_GET_VERSION_SI"></a>DeviceIoControl Parameters</h3>
 
 
-When the <b>DeviceloControl</b> function is called with the IOCTL_GET_VERSION I/O control code, the caller must specify the address of a <a href="..\usbscan\ns-usbscan-_drv_version.md">DRV_VERSION</a> structure as the function's <i>lpOutBuffer</i> parameter. The kernel-mode driver fills in the structure members.
+When the <b>DeviceloControl</b> function is called with the IOCTL_GET_VERSION I/O control code, the caller must specify the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541204">DRV_VERSION</a> structure as the function's <i>lpOutBuffer</i> parameter. The kernel-mode driver fills in the structure members.
 
 For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
 

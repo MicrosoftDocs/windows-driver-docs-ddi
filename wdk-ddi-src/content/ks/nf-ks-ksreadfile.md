@@ -7,7 +7,7 @@ old-location: stream\ksreadfile.htm
 old-project: stream
 ms.assetid: e3bb6ead-8129-4605-8755-3a56d4b3d8f6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsReadFile, KsReadFile function [Streaming Media Devices], ks/KsReadFile, ksfunc_9264bdad-2acc-46fe-9ca3-d006bf6c3e23.xml, stream.ksreadfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsReadFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,23 +52,6 @@ req.typenames:
 
 
 The <b>KsReadFile</b> function performs a read against the specified file object. It is assumed the caller is serializing access to the file for operations against a FO_SYNCHRONOUS_IO file object. The function attempts to use <b>FastIoDispatch</b> if possible, or generates a read request against the device object. All relevant statistics are updated.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsReadFile(
-  _In_     PFILE_OBJECT     FileObject,
-  _In_opt_ PKEVENT          Event,
-  _In_opt_ PVOID            PortContext,
-  _Out_    PIO_STATUS_BLOCK IoStatusBlock,
-  _Out_    PVOID            Buffer,
-  _In_     ULONG            Length,
-  _In_opt_ ULONG            Key,
-  _In_     KPROCESSOR_MODE  RequestorMode
-);
-````
 
 
 ## -parameters

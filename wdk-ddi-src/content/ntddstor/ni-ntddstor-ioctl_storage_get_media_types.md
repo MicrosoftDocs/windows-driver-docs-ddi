@@ -7,8 +7,8 @@ old-location: storage\ioctl_storage_get_media_types.htm
 old-project: storage
 ms.assetid: 213711fb-26eb-443b-aff4-8f84b643adb3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES, IOCTL_STORAGE_GET_MEDIA_TYPES control code [Storage Devices], k307_9e0698c0-04ff-48b5-ba02-903c59bf6f58.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_TYPES, storage.ioctl_storage_get_media_types
+ms.date: 3/29/2018
+ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES, IOCTL_STORAGE_GET_MEDIA_TYPES control, IOCTL_STORAGE_GET_MEDIA_TYPES control code [Storage Devices], k307_9e0698c0-04ff-48b5-ba02-903c59bf6f58.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_TYPES, storage.ioctl_storage_get_media_types
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	IOCTL_STORAGE_GET_MEDIA_TYPES
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_GET_MEDIA_TYPES IOCTL
@@ -72,7 +73,7 @@ None.
 
 ### -output-buffer
 
-The driver returns an array of <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a> records for the types of media it supports in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+The driver returns an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a> records for the types of media it supports in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -105,12 +106,11 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a>
  
 
  
-
 

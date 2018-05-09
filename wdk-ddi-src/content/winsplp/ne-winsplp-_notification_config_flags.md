@@ -7,7 +7,7 @@ old-location: print\notification_config_flags.htm
 old-project: print
 ms.assetid: B53AB706-D780-4E29-A531-51D3A9041D24
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: NOTIFICATION_CONFIG_ASYNC_CHANNEL, NOTIFICATION_CONFIG_CREATE_EVENT, NOTIFICATION_CONFIG_EVENT_TRIGGER, NOTIFICATION_CONFIG_FLAGS, NOTIFICATION_CONFIG_FLAGS enumeration [Print Devices], NOTIFICATION_CONFIG_REGISTER_CALLBACK, _NOTIFICATION_CONFIG_FLAGS, print.notification_config_flags, winsplp/NOTIFICATION_CONFIG_ASYNC_CHANNEL, winsplp/NOTIFICATION_CONFIG_CREATE_EVENT, winsplp/NOTIFICATION_CONFIG_EVENT_TRIGGER, winsplp/NOTIFICATION_CONFIG_FLAGS, winsplp/NOTIFICATION_CONFIG_REGISTER_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Winsplp.h
 api_name:
 -	NOTIFICATION_CONFIG_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _NOTIFICATION_CONFIG_FLAGS enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum _NOTIFICATION_CONFIG_FLAGS { 
-  NOTIFICATION_CONFIG_CREATE_EVENT       = 1 << 0,
-  NOTIFICATION_CONFIG_REGISTER_CALLBACK  = 1 << 1,
-  NOTIFICATION_CONFIG_EVENT_TRIGGER      = 1 << 2,
-  NOTIFICATION_CONFIG_ASYNC_CHANNEL      = 1 << 3
-} NOTIFICATION_CONFIG_FLAGS;
-````
 
 
 ## -enum-fields

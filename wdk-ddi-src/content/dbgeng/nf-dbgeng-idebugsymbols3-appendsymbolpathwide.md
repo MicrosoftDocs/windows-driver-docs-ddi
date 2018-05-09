@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AppendSymbolPathWide
-title: IDebugSymbols3::AppendSymbolPathWide method
+title: IDebugSymbols3::AppendSymbolPathWide
 author: windows-driver-content
 description: The AppendSymbolPathWide method appends directories to the symbol path.
 old-location: debugger\appendsymbolpathwide.htm
 old-project: debugger
 ms.assetid: 184f40ff-be43-482c-8620-382f11f95548
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: AppendSymbolPathWide method [Windows Debugging], AppendSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, AppendSymbolPathWide,IDebugSymbols3.AppendSymbolPathWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPathWide method, IDebugSymbols3::AppendSymbolPathWide, dbgeng/IDebugSymbols3::AppendSymbolPathWide, debugger.appendsymbolpathwide
+ms.date: 4/24/2018
+ms.keywords: AppendSymbolPathWide, AppendSymbolPathWide method [Windows Debugging], AppendSymbolPathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AppendSymbolPathWide method, IDebugSymbols3.AppendSymbolPathWide, IDebugSymbols3::AppendSymbolPathWide, dbgeng/IDebugSymbols3::AppendSymbolPathWide, debugger.appendsymbolpathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugSymbols3.AppendSymbolPathWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::AppendSymbolPathWide method
+# IDebugSymbols3::AppendSymbolPathWide
 
 
 ## -description
 
 
 The <b>AppendSymbolPathWide</b>  method appends directories to the symbol path.
-
-
-## -syntax
-
-
-````
-HRESULT AppendSymbolPathWide(
-  [in] PCSTR Addition
-);
-````
 
 
 ## -parameters
@@ -111,20 +102,19 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549155">GetSymbolPath</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
-
-
-
  
 
  
-
 

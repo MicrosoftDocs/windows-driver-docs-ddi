@@ -7,7 +7,7 @@ old-location: display\d3dkmtunlock.htm
 old-project: display
 ms.assetid: d672d99a-973f-46b3-b46c-cb0a82a85ede
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTUnlock, D3DKMTUnlock function [Display Devices], OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, d3dkmthk/D3DKMTUnlock, display.d3dkmtunlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTUnlock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTUnlock function
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTUnlock</b> function unlocks a list of allocations.
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTUnlock(
-  _In_ const D3DKMT_UNLOCK *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock.md">D3DKMT_UNLOCK</a> structure that describes a list of allocations to unlock.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548393">D3DKMT_UNLOCK</a> structure that describes a list of allocations to unlock.
 
 
 ## -returns
@@ -169,12 +160,11 @@ The following code examples demonstrates how an OpenGL ICD can use <b>D3DKMTUnlo
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock.md">D3DKMT_UNLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548393">D3DKMT_UNLOCK</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2setindices.htm
 old-project: display
 ms.assetid: ac1b7daf-803d-48a0-89de-4a438f3837f9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES, D3DHAL_DP2SETINDICES structure [Display Devices], LPD3DHAL_DP2SETINDICES, LPD3DHAL_DP2SETINDICES structure pointer [Display Devices], _D3DHAL_DP2SETINDICES, d3dhal/D3DHAL_DP2SETINDICES, d3dhal/LPD3DHAL_DP2SETINDICES, d3dstrct_fd1eb5e4-28c8-45f9-90ba-b57970888717.xml, display.d3dhal_dp2setindices"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_DP2SETINDICES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2SETINDICES
 ---
@@ -53,18 +54,7 @@ req.typenames: D3DHAL_DP2SETINDICES
    DirectX 8.0 and later versions only.
    
 
-The D3DHAL_DP2SETINDICES structure is used to set the current index buffer for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2SETINDICES {
-  DWORD dwVBHandle;
-  DWORD dwStride;
-} D3DHAL_DP2SETINDICES, *LPD3DHAL_DP2SETINDICES;
-````
+The D3DHAL_DP2SETINDICES structure is used to set the current index buffer for <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -93,16 +83,15 @@ A handle value of zero is valid and indicates that the current index buffer is c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.PopOutputLinePrefix
-title: IDebugClient5::PopOutputLinePrefix method
+title: IDebugClient5::PopOutputLinePrefix
 author: windows-driver-content
 description: Restores a previously saved output line prefix.
 old-location: debugger\idebugclient5_popoutputlineprefix.htm
 old-project: debugger
 ms.assetid: 40371218-E948-475E-92E6-0CB02D348008
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], PopOutputLinePrefix method, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], PopOutputLinePrefix method [Windows Debugging], IDebugClient5 interface, PopOutputLinePrefix,IDebugClient5.PopOutputLinePrefix, dbgeng/IDebugClient5::PopOutputLinePrefix, debugger.idebugclient5_popoutputlineprefix
+ms.date: 4/24/2018
+ms.keywords: IDebugClient5 interface [Windows Debugging],PopOutputLinePrefix method, IDebugClient5.PopOutputLinePrefix, IDebugClient5::PopOutputLinePrefix, PopOutputLinePrefix, PopOutputLinePrefix method [Windows Debugging], PopOutputLinePrefix method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::PopOutputLinePrefix, debugger.idebugclient5_popoutputlineprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient5.PopOutputLinePrefix
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::PopOutputLinePrefix method
+# IDebugClient5::PopOutputLinePrefix
 
 
 ## -description
 
 
   Restores a previously saved output line prefix.
-
-
-## -syntax
-
-
-````
-HRESULT PopOutputLinePrefix(
-  [in] ULONG64 Handle
-);
-````
 
 
 ## -parameters
@@ -83,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

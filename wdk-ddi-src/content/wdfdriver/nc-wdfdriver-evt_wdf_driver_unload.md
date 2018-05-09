@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2a2ed215-1b62-4ff1-bea6-e38fafbcf7d0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDriverObjectRef_4c29e844-1ad7-4d45-b01d-e03f841bb9dd.xml, EVT_WDF_DRIVER_UNLOAD, EvtDriverUnload, EvtDriverUnload callback function, kmdf.evtdriverunload, wdf.evtdriverunload, wdfdriver/EvtDriverUnload
+ms.keywords: DFDriverObjectRef_4c29e844-1ad7-4d45-b01d-e03f841bb9dd.xml, EVT_WDF_DRIVER_UNLOAD, EVT_WDF_DRIVER_UNLOAD callback, EvtDriverUnload, EvtDriverUnload callback function, kmdf.evtdriverunload, wdf.evtdriverunload, wdfdriver/EvtDriverUnload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	Wdfdriver.h
 api_name:
 -	EvtDriverUnload
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DPC_CONFIG, *PWDF_DPC_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DRIVER_UNLOAD callback
+# EVT_WDF_DRIVER_UNLOAD callback function
 
 
 ## -description
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 A driver's <i>EvtDriverUnload</i> event callback function performs operations that must take place before the driver is unloaded.
-
-
-## -prototype
-
-
-````
-EVT_WDF_DRIVER_UNLOAD EvtDriverUnload;
-
-VOID EvtDriverUnload(
-  _In_ WDFDRIVER Driver
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -139,12 +126,11 @@ The <b>EVT_WDF_DRIVER_UNLOAD</b> function type is defined in the WdfDriver.h hea
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
-
-
-
  
 
  
-
 

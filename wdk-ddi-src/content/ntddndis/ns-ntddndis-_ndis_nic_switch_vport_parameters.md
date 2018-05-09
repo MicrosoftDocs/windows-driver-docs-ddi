@@ -7,7 +7,7 @@ old-location: netvista\ndis_nic_switch_vport_parameters.htm
 old-project: netvista
 ms.assetid: d75bec3d-b427-40d2-bec3-95b7409f31bb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_VPORT_PARAMETERS, NDIS_NIC_SWITCH_VPORT_PARAMETERS, NDIS_NIC_SWITCH_VPORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_PARAMETERS, PNDIS_NIC_SWITCH_VPORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VPORT_PARAMETERS, netvista.ndis_nic_switch_vport_parameters, ntddndis/NDIS_NIC_SWITCH_VPORT_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_VPORT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_NIC_SWITCH_VPORT_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_NIC_SWITCH_VPORT_PARAMETERS, *PNDIS_NIC_SWITCH_VPORT_PARAMETERS
 ---
@@ -52,26 +53,6 @@ req.typenames: NDIS_NIC_SWITCH_VPORT_PARAMETERS, *PNDIS_NIC_SWITCH_VPORT_PARAMET
 The <b>NDIS_NIC_SWITCH_VPORT_PARAMETERS</b> structure specifies the configuration for a virtual port (VPort) on a network adapter switch of the network adapter. 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_NIC_SWITCH_VPORT_PARAMETERS {
-  NDIS_OBJECT_HEADER                         Header;
-  ULONG                                      Flags;
-  NDIS_NIC_SWITCH_ID                         SwitchId;
-  NDIS_NIC_SWITCH_VPORT_ID                   VPortId;
-  NDIS_VPORT_NAME                            VPortName;
-  NDIS_SRIOV_FUNCTION_ID                     AttachedFunctionId;
-  ULONG                                      NumQueuePairs;
-  NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION InterruptModeration;
-  NDIS_NIC_SWITCH_VPORT_STATE                VPortState;
-  GROUP_AFFINITY                             ProcessorAffinity;
-  ULONG                                      LookaheadSize;
-} NDIS_NIC_SWITCH_VPORT_PARAMETERS, *PNDIS_NIC_SWITCH_VPORT_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -79,7 +60,7 @@ typedef struct _NDIS_NIC_SWITCH_VPORT_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_NIC_SWITCH_VPORT_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_NIC_SWITCH_VPORT_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_VPORT_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -173,7 +154,7 @@ The switch identifier is an integer between zero and the number of switches that
 
 An NDIS_NIC_SWITCH_VPORT_ID value that specifies the identifier of a VPort  on the network adapter. The value is allocated by NDIS,  and is unique across the network adapter. 
 
-The <b>VPortId</b> value is within the range from zero to (<b>NumVPorts</b> - 1), where <b>NumVPorts</b> is the number of VPorts that the miniport driver has configured on the network adapter. The driver specifies this number in the <b>NumVPorts</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a> structure. The driver returns this structure through an OID query request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>. 
+The <b>VPortId</b> value is within the range from zero to (<b>NumVPorts</b> - 1), where <b>NumVPorts</b> is the number of VPorts that the miniport driver has configured on the network adapter. The driver specifies this number in the <b>NumVPorts</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451582">NDIS_NIC_SWITCH_INFO</a> structure. The driver returns this structure through an OID query request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>. 
 
 
 <div class="alert"><b>Note</b>  A VPort identifier of NDIS_DEFAULT_VPORT_ID is reserved for the default VPort that is attached to the PF on the default NIC switch.</div>
@@ -202,14 +183,14 @@ One or more queue pairs are configured on a nondefault VPort through an OID meth
 
 ### -field InterruptModeration
 
-An <a href="..\ntddndis\ne-ntddndis-_ndis_nic_switch_vport_interrupt_moderation.md">NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION</a> value that specifies the interrupt moderation setting of the VPort.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/hh451596">NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION</a> value that specifies the interrupt moderation setting of the VPort.
 
 
 
 
 ### -field VPortState
 
-An <a href="..\ntddndis\ne-ntddndis-_ndis_nic_switch_vport_state.md">NDIS_NIC_SWITCH_VPORT_STATE</a> value that specifies the current state of the VPort.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/hh451598">NDIS_NIC_SWITCH_VPORT_STATE</a> value that specifies the current state of the VPort.
 
 
 ### -field ProcessorAffinity
@@ -253,27 +234,6 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vf_info.md">NDIS_NIC_SWITCH_VF_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_info.md">NDIS_NIC_SWITCH_INFO</a>
 
 
 
@@ -281,8 +241,28 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451582">NDIS_NIC_SWITCH_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451591">NDIS_NIC_SWITCH_VF_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>
  
 
  
-
 

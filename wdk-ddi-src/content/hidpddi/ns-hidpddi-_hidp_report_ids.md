@@ -7,7 +7,7 @@ old-location: hid\hidp_report_ids.htm
 old-project: hid
 ms.assetid: C88B77C3-01CB-4E8C-83A4-EB9AFB122327
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PHIDP_REPORT_IDS, HIDP_REPORT_IDS, HIDP_REPORT_IDS structure [Human Input Devices], PHIDP_REPORT_IDS, PHIDP_REPORT_IDS structure pointer [Human Input Devices], _HIDP_REPORT_IDS, hid.hidp_report_ids, hidpddi/HIDP_REPORT_IDS, hidpddi/PHIDP_REPORT_IDS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Hidpddi.h
 api_name:
 -	HIDP_REPORT_IDS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_REPORT_IDS, *PHIDP_REPORT_IDS
 ---
@@ -50,20 +51,6 @@ req.typenames: HIDP_REPORT_IDS, *PHIDP_REPORT_IDS
 
 
 Contains report ID information for a top-level collection. 
-
-
-## -syntax
-
-
-````
-typedef struct _HIDP_REPORT_IDS {
-  UCHAR               ReportID;
-  UCHAR               CollectionNumber;
-  USHORT              InputLength;
-  USHORT              OutputLength;
-  USHORT              FeatureLength;
-} HIDP_REPORT_IDS, *PHIDP_REPORT_IDS;
-````
 
 
 ## -struct-fields
@@ -78,7 +65,7 @@ The report ID of the top-level collection.
 
 ### -field CollectionNumber
 
-The index of the collection in the array of  <a href="..\hidpddi\ns-hidpddi-_hidp_collection_desc.md">HIDP_COLLECTION_DESC</a> structure.
+The index of the collection in the array of  <a href="https://msdn.microsoft.com/library/windows/hardware/mt740161">HIDP_COLLECTION_DESC</a> structure.
 
 
 ### -field InputLength
@@ -98,12 +85,11 @@ The length of a feature report of this report ID.
 
 ## -see-also
 
-<a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a>
  
 
  
-
 

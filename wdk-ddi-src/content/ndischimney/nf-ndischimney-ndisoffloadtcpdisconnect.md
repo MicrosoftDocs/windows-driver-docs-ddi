@@ -7,7 +7,7 @@ old-location: netvista\ndisoffloadtcpdisconnect.htm
 old-project: netvista
 ms.assetid: f8abff30-b641-4581-8532-8292993ca9f6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisOffloadTcpDisconnect, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpDisconnect, netvista.ndisoffloadtcpdisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisOffloadTcpDisconnect
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
 # NdisOffloadTcpDisconnect function
@@ -59,18 +60,6 @@ A protocol or intermediate driver calls the
   sends a FIN segment.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisOffloadTcpDisconnect(
-  _In_ PNDIS_OFFLOAD_HANDLE NdisOffloadHandle,
-  _In_ PNET_BUFFER_LIST     NetBufferList,
-  _In_ ULONG                Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -79,7 +68,7 @@ NDIS_STATUS NdisOffloadTcpDisconnect(
 ### -param NdisOffloadHandle [in]
 
 A pointer to an 
-     <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a> structure in the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a> structure in the
      caller's context for the offloaded TCP connection. For more information, see 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/referencing-offloaded-state-through-an-intermediate-driver">
      Referencing Offloaded State Through an Intermediate Driver</a>.
@@ -88,8 +77,8 @@ A pointer to an
 ### -param NetBufferList [in]
 
 A pointer to a single 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. Only one 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure is associated with this
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. Only one 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure is associated with this
      NET_BUFFER_LIST structure.
 
 
@@ -130,7 +119,7 @@ The
 
 
 In response to a call to its 
-    <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+    <a href="https://msdn.microsoft.com/f8be12a9-c2c0-4a22-8a57-58c8b27ef69e">
     MiniportTcpOffloadDisconnect</a> function, an intermediate driver calls the 
     <b>NdisOffloadTcpDisconnect</b> function to propagate the disconnect operation to the underlying
     intermediate driver or offload target. For more information, see 
@@ -173,35 +162,34 @@ When the underlying driver or offload target subsequently completes the disconne
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
-   ProtocolTcpOffloadDisconnectComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_disconnect_complete.md">
-   NdisTcpOffloadDisconnectComplete</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
+<a href="https://msdn.microsoft.com/f8be12a9-c2c0-4a22-8a57-58c8b27ef69e">
    MiniportTcpOffloadDisconnect</a>
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/e862d9fe-a60c-4397-95ce-62aa1ef17eae">
+   NdisTcpOffloadDisconnectComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/56244148-638f-4d93-82a6-2cced9744046">
+   ProtocolTcpOffloadDisconnectComplete</a>
  
 
  
-
 

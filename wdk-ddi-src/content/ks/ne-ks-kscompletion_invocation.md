@@ -7,7 +7,7 @@ old-location: stream\kscompletion_invocation.htm
 old-project: stream
 ms.assetid: 2BD1A2F8-BAA2-40A3-9C97-667780A6F395
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSCOMPLETION_INVOCATION, KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], KsInvokeOnCancel, KsInvokeOnError, KsInvokeOnSuccess, ks/KSCOMPLETION_INVOCATION, ks/KsInvokeOnCancel, ks/KsInvokeOnError, ks/KsInvokeOnSuccess, stream.kscompletion_invocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSCOMPLETION_INVOCATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCOMPLETION_INVOCATION
 ---
@@ -50,18 +51,6 @@ req.typenames: KSCOMPLETION_INVOCATION
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KsInvokeOnSuccess  = 1,
-  KsInvokeOnError    = 2,
-  KsInvokeOnCancel   = 4
-} KSCOMPLETION_INVOCATION;
-````
 
 
 ## -enum-fields

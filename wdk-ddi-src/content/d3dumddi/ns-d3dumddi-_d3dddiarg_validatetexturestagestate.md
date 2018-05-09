@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_validatetexturestagestate.htm
 old-project: display
 ms.assetid: 28d2efa5-a7bf-4b85-a0f3-a4bad705a874
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_VALIDATETEXTURESTAGESTATE, D3DDDIARG_VALIDATETEXTURESTAGESTATE structure [Display Devices], UMDisplayDriver_param_Structs_dde6cce2-f21e-4a16-8238-6956d9a465f5.xml, _D3DDDIARG_VALIDATETEXTURESTAGESTATE, d3dumddi/D3DDDIARG_VALIDATETEXTURESTAGESTATE, display.d3dddiarg_validatetexturestagestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_VALIDATETEXTURESTAGESTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_VALIDATETEXTURESTAGESTATE
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DDDIARG_VALIDATETEXTURESTAGESTATE
 
 
 The D3DDDIARG_VALIDATETEXTURESTAGESTATE structure contains the number of passes in which the hardware can perform the blending operations that are specified in the current state.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_VALIDATETEXTURESTAGESTATE {
-  UINT NumPasses;
-} D3DDDIARG_VALIDATETEXTURESTAGESTATE;
-````
 
 
 ## -struct-fields
@@ -74,12 +65,11 @@ typedef struct _D3DDDIARG_VALIDATETEXTURESTAGESTATE {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_validatedevice.md">ValidateDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/058696e0-be4a-45f3-b3e8-55abccdce3ce">ValidateDevice</a>
  
 
  
-
 

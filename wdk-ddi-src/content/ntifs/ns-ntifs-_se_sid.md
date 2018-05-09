@@ -7,7 +7,7 @@ old-location: ifsk\se_sid.htm
 old-project: ifsk
 ms.assetid: 6950B71D-B396-494E-A23C-EE37B439FD05
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PSE_SID, PSE_SID, PSE_SID union pointer [Installable File System Drivers], SE_SID, SE_SID union [Installable File System Drivers], _SE_SID, ifsk.se_sid, ntifs/PSE_SID, ntifs/SE_SID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	SE_SID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SE_SID, *PSE_SID
 ---
@@ -50,17 +51,6 @@ req.typenames: SE_SID, *PSE_SID
 
 
 The <b>SE_SID</b> union holds the maximum-sized valid Security Identifier (SID). The structure occupies 68-bytes and is suitable for stack allocation.
-
-
-## -syntax
-
-
-````
-typedef union _SE_SID {
-  SID   Sid;
-  UCHAR Buffer[SECURITY_MAX_SID_SIZE];
-} SE_SID, *PSE_SID;
-````
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ Specifies an array of SECURITY_MAX_SID_SIZE for allocating enough memory for the
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  
-
 

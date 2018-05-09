@@ -7,7 +7,7 @@ old-location: display\dxgkinitialize.htm
 old-project: display
 ms.assetid: 0eda4184-2852-4a31-b4da-1fbb99ed4670
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DpFunctions_a3ffc7d5-f2bc-42f0-97f3-411bfe7b95e7.xml, DxgkInitialize, DxgkInitialize function [Display Devices], display.dxgkinitialize, dispmprt/DxgkInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_SURPRISE_REMOVAL_TYPE
+req.typenames: 
 ---
 
 # DxgkInitialize function
@@ -52,18 +53,6 @@ req.typenames: DXGK_SURPRISE_REMOVAL_TYPE
 The <b>DxgkInitialize</b> function loads and initializes the DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>).
 
 
-## -syntax
-
-
-````
-NTSTATUS DxgkInitialize(
-  _In_ PDRIVER_OBJECT              DriverObject,
-  _In_ PUNICODE_STRING             RegistryPath,
-  _In_ PDRIVER_INITIALIZATION_DATA DriverInitializationData
-);
-````
-
-
 ## -parameters
 
 
@@ -71,17 +60,17 @@ NTSTATUS DxgkInitialize(
 
 ### -param DriverObject [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure. The display miniport driver previously obtained this pointer in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a> structure. The display miniport driver previously obtained this pointer in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function.
 
 
 ### -param RegistryPath [in]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that supplies the path to the driver's service registry key.  The display miniport driver previously obtained this pointer in its <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> function.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that supplies the path to the driver's service registry key.  The display miniport driver previously obtained this pointer in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a> function.
 
 
 ### -param DriverInitializationData [in]
 
-A pointer to a <a href="..\dispmprt\ns-dispmprt-_driver_initialization_data.md">DRIVER_INITIALIZATION_DATA</a> structure that supplies the DirectX graphics kernel subsystem with pointers to functions implemented by the display miniport driver.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556169">DRIVER_INITIALIZATION_DATA</a> structure that supplies the DirectX graphics kernel subsystem with pointers to functions implemented by the display miniport driver.
 
 
 ## -returns
@@ -212,15 +201,14 @@ DriverEntry(
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556169">DRIVER_INITIALIZATION_DATA</a>
 
 
 
-<a href="..\dispmprt\ns-dispmprt-_driver_initialization_data.md">DRIVER_INITIALIZATION_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
@@ -228,8 +216,8 @@ DriverEntry(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

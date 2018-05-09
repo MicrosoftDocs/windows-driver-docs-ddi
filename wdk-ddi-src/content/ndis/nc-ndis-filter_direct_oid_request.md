@@ -7,8 +7,8 @@ old-location: netvista\filterdirectoidrequest.htm
 old-project: netvista
 ms.assetid: a39f4b50-0183-4f92-82f2-3c8e2e2d0632
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: FILTER_DIRECT_OID_REQUEST, FilterDirectOidRequest, FilterDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterDirectOidRequest, ndis_request_direct_ref_47a005b0-4a5b-4539-a1dc-2d9423022567.xml, netvista.filterdirectoidrequest
+ms.date: 4/25/2018
+ms.keywords: FILTER_DIRECT_OID_REQUEST, FILTER_DIRECT_OID_REQUEST callback, FilterDirectOidRequest, FilterDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterDirectOidRequest, ndis_request_direct_ref_47a005b0-4a5b-4539-a1dc-2d9423022567.xml, netvista.filterdirectoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	FilterDirectOidRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_DIRECT_OID_REQUEST callback
+# FILTER_DIRECT_OID_REQUEST callback function
 
 
 ## -description
@@ -55,20 +56,6 @@ NDIS calls a filter driver's
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_DIRECT_OID_REQUEST</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-FILTER_DIRECT_OID_REQUEST FilterDirectOidRequest;
-
-NDIS_STATUS FilterDirectOidRequest(
-  _In_ NDIS_HANDLE       FilterModuleContext,
-  _In_ PNDIS_OID_REQUEST OidRequest
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,13 +65,13 @@ NDIS_STATUS FilterDirectOidRequest(
 
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param OidRequest [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure that specifies
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that specifies
      the operation requested, including the OID_
      <i>Xx</i> code. The structure can specify either a query request or a set
      request
@@ -122,7 +109,7 @@ A pointer to an
 <td width="60%">
 The filter driver will complete the request asynchronously. After the driver completes the
        request, it must call the 
-       <a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+       <a href="https://msdn.microsoft.com/b6b4d4f4-63d5-496c-9082-f2e8d1a174ec">
        NdisFDirectOidRequestComplete</a> function to inform NDIS that the request is complete.
 
 </td>
@@ -171,7 +158,7 @@ The buffer that
 <td width="60%">
 For a query operation, the 
        <b>InformationBufferLength</b> member of the 
-       <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure does not
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure does not
        match the length that the given OID requires. 
        <i>FilterDirectOidRequest</i> returned the required buffer size, in bytes, in the 
        <b>BytesNeeded</b> member of the NDIS_OID_REQUEST structure.
@@ -222,7 +209,7 @@ For a set operation, the data that was supplied in the
 <td width="60%">
 <i>N</i> one of the preceding return values applies. The filter driver should call
        the 
-       <a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a> function
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff564663">NdisWriteErrorLogEntry</a> function
        with parameters that specify the reason for the failure.
 
 </td>
@@ -240,7 +227,7 @@ For a set operation, the data that was supplied in the
 <i>FilterDirectOidRequest</i> is an optional function. If a filter driver does not use
     direct OID requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
     <b>NdisFRegisterFilterDriver</b> function. If a filter driver defines a 
-    <a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+    <a href="https://msdn.microsoft.com/a97c86e9-4fd9-4e2f-9787-4fa19c38a69b">
     FilterDirectOidRequestComplete</a> function, it must provide the 
     <i>FilterDirectOidRequest</i> function.
 
@@ -248,19 +235,19 @@ NDIS calls the filter driver's
     <i>FilterDirectOidRequest</i> function to process direct OID requests that are
     originated by overlying drivers. Filter drivers can forward such requests to underlying drivers by
     calling the 
-    <a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a> function. As
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561809">NdisFDirectOidRequest</a> function. As
     an option, a filter driver can also complete a request immediately without forwarding the request.
 
 Before the driver calls 
     <b>NdisFDirectOidRequest</b>, the driver must allocate an 
-    <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure and transfer the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure and transfer the
     request information to the new structure by calling the 
-    <a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">
+    <a href="https://msdn.microsoft.com/426ff4f4-7924-4115-9f66-b4152e2ba5bb">
     NdisAllocateCloneOidRequest</a> function.
 
 To complete a request synchronously, the filter driver returns NDIS_STATUS_SUCCESS or a failure
     status. If the driver returns NDIS_STATUS_PENDING, it must call the 
-    <a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+    <a href="https://msdn.microsoft.com/b6b4d4f4-63d5-496c-9082-f2e8d1a174ec">
     NdisFDirectOidRequestComplete</a> function to inform NDIS that the request is complete.
 
 For a query operation, 
@@ -283,7 +270,7 @@ NDIS does not serialize requests that it sends to
     <i>FilterDirectOidRequest</i> with other OID requests. The filter driver must be able
     to handle multiple calls to 
     <i>FilterDirectOidRequest</i> when other requests that are sent to 
-    <a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a> or 
+    <a href="https://msdn.microsoft.com/238bfa21-a971-4fe4-a774-6ba834efc3c5">FilterOidRequest</a> or 
     <i>FilterDirectOidRequest</i> are outstanding.
 
 NDIS calls 
@@ -331,42 +318,41 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatecloneoidrequest.md">NdisAllocateCloneOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+<a href="https://msdn.microsoft.com/a97c86e9-4fd9-4e2f-9787-4fa19c38a69b">
    FilterDirectOidRequestComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfdirectoidrequest.md">NdisFDirectOidRequest</a>
+<a href="https://msdn.microsoft.com/238bfa21-a971-4fe4-a774-6ba834efc3c5">FilterOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfdirectoidrequestcomplete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560706">NdisAllocateCloneOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561809">NdisFDirectOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/b6b4d4f4-63d5-496c-9082-f2e8d1a174ec">
    NdisFDirectOidRequestComplete</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564663">NdisWriteErrorLogEntry</a>
  
 
  
-
 

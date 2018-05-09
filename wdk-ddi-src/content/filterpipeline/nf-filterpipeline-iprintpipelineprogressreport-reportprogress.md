@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineProgressReport.ReportProgress
-title: IPrintPipelineProgressReport::ReportProgress method
+title: IPrintPipelineProgressReport::ReportProgress
 author: windows-driver-content
 description: The ReportProgress method reports the progress of the XPS job consumption to the pipeline manager.
 old-location: print\iprintpipelineprogressreport_reportprogress.htm
 old-project: print
 ms.assetid: 989e8888-3494-4355-a41f-2ed774a060d2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintPipelineProgressReport, IPrintPipelineProgressReport interface [Print Devices], ReportProgress method, IPrintPipelineProgressReport::ReportProgress, ReportProgress method [Print Devices], ReportProgress method [Print Devices], IPrintPipelineProgressReport interface, ReportProgress,IPrintPipelineProgressReport.ReportProgress, filterpipeline/IPrintPipelineProgressReport::ReportProgress, filterpipeline_3f4798ee-db6e-42ab-9eb8-fb016920fd08.xml, print.iprintpipelineprogressreport_reportprogress
+ms.date: 4/20/2018
+ms.keywords: IPrintPipelineProgressReport interface [Print Devices],ReportProgress method, IPrintPipelineProgressReport.ReportProgress, IPrintPipelineProgressReport::ReportProgress, ReportProgress, ReportProgress method [Print Devices], ReportProgress method [Print Devices],IPrintPipelineProgressReport interface, filterpipeline/IPrintPipelineProgressReport::ReportProgress, filterpipeline_3f4798ee-db6e-42ab-9eb8-fb016920fd08.xml, print.iprintpipelineprogressreport_reportprogress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintPipelineProgressReport.ReportProgress
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IPrintPipelineProgressReport::ReportProgress method
+# IPrintPipelineProgressReport::ReportProgress
 
 
 ## -description
 
 
 The <code>ReportProgress</code> method reports the progress of the XPS job consumption to the pipeline manager.
-
-
-## -syntax
-
-
-````
-HRESULT ReportProgress(
-  [in] EXpsJobConsumption update
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ HRESULT ReportProgress(
 
 ### -param update [in]
 
-An <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0003.md">EXpsJobConsumption</a>-typed value that describes the progress to the pipeline manager.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff548778">EXpsJobConsumption</a>-typed value that describes the progress to the pipeline manager.
 
 
 ## -returns
@@ -83,16 +74,15 @@ An <a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline
 
 ## -see-also
 
-<a href="..\filterpipeline\ne-filterpipeline-__midl___midl_itf_filterpipeline_0000_0000_0003.md">EXpsJobConsumption</a>
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintpipelineprogressreport.md">IPrintPipelineProgressReport</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548778">EXpsJobConsumption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554314">IPrintPipelineProgressReport</a>
  
 
  
-
 

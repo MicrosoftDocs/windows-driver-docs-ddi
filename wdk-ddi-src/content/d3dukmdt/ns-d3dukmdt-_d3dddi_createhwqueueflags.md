@@ -7,8 +7,8 @@ old-location: display\d3dddi_createhwqueueflags_.htm
 old-project: display
 ms.assetid: 50318DEC-8EE4-4208-8E7D-E8BFEA4BA06B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS structure [Display Devices], _D3DDDI_CREATEHWQUEUEFLAGS, d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS, display.d3dddi_createhwqueueflags_
+ms.date: 4/16/2018
+ms.keywords: D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS , D3DDDI_CREATEHWQUEUEFLAGS structure [Display Devices], _D3DDDI_CREATEHWQUEUEFLAGS, d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS, display.d3dddi_createhwqueueflags_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_CREATEHWQUEUEFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_CREATEHWQUEUEFLAGS
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DDDI_CREATEHWQUEUEFLAGS
 
 
 A structure used to create hardware queue flags.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_CREATEHWQUEUEFLAGS  {
-  union {
-    struct {
-      UINT DisableGpuTimeout  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} D3DDDI_CREATEHWQUEUEFLAGS ;
-````
 
 
 ## -struct-fields
@@ -83,7 +68,7 @@ Indicates that GPU timeout should be disabled.
 This value is reserved for system use.
 
 
-#### - Value
+### -field Value
 
 This value is used to operate over the members collectively.
 

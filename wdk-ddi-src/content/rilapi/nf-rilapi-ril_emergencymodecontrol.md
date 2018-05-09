@@ -7,7 +7,7 @@ old-location: netvista\ril_emergencymodecontrol.htm
 old-project: netvista
 ms.assetid: 011b8b11-5e75-4db9-ba3d-6483a90788ac
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_EmergencyModeControl, RIL_EmergencyModeControl method [Network Drivers Starting with Windows Vista], netvista.ril_emergencymodecontrol, rilapi/RIL_EmergencyModeControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_EmergencyModeControl
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_EmergencyModeControl function
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_EmergencyModeControl(
-   HRIL                                 hRil,
-   LPVOID                               lpContext,
-   DWORD                                dwExecutor,
-   RILEMERGENCYMODECONTROLPARAMSCONTROL dwEmergencyModeControl
-);
-````
 
 
 ## -parameters

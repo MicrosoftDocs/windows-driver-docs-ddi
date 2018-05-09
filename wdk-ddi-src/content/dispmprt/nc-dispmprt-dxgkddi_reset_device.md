@@ -7,8 +7,8 @@ old-location: display\dxgkddiresetdevice.htm
 old-project: display
 ms.assetid: e757e63d-6d78-4b20-9471-290f56c1bcde
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_RESET_DEVICE, DmFunctions_70e9fe99-65be-47a5-bb9a-fac4e10d3ae9.xml, DxgkDdiResetDevice, DxgkDdiResetDevice callback function [Display Devices], display.dxgkddiresetdevice, dispmprt/DxgkDdiResetDevice
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_RESET_DEVICE, DXGKDDI_RESET_DEVICE callback, DmFunctions_70e9fe99-65be-47a5-bb9a-fac4e10d3ae9.xml, DxgkDdiResetDevice, DxgkDdiResetDevice callback function [Display Devices], display.dxgkddiresetdevice, dispmprt/DxgkDdiResetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,31 +38,19 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkDdiResetDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_RESET_DEVICE callback
+# DXGKDDI_RESET_DEVICE callback function
 
 
 ## -description
 
 
 The <i>DxgkDdiResetDevice</i> function sets a display adapter to VGA character mode (80 x 50).
-
-
-## -prototype
-
-
-````
-DXGKDDI_RESET_DEVICE DxgkDdiResetDevice;
-
-VOID DxgkDdiResetDevice(
-  _In_ const PVOID MiniportDeviceContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,7 +60,7 @@ VOID DxgkDdiResetDevice(
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ## -returns

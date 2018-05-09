@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpntargetmodeset_interface_pfnreleasemodeinfo.htm
 old-project: display
 ms.assetid: 0b1d0331-f0fa-40fc-a1d6-15fe3568f3cc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO, VidPnFunctions_faa4fee3-0bf7-43af-a000-e5b7e891c9e9.xml, d3dkmddi/pfnReleaseModeInfo, display.dxgk_vidpntargetmodeset_interface_pfnreleasemodeinfo, pfnReleaseModeInfo, pfnReleaseModeInfo callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO, DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO callback, VidPnFunctions_faa4fee3-0bf7-43af-a000-e5b7e891c9e9.xml, d3dkmddi/pfnReleaseModeInfo, display.dxgk_vidpntargetmodeset_interface_pfnreleasemodeinfo, pfnReleaseModeInfo, pfnReleaseModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	pfnReleaseModeInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO callback
+# DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO callback function
 
 
 ## -description
 
 
-The <b>pfnReleaseModeInfo</b> function releases a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a> structure that the VidPN manager previously provided to the display miniport driver.
-
-
-## -prototype
-
-
-````
-DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO pfnReleaseModeInfo;
-
-NTSTATUS APIENTRY pfnReleaseModeInfo(
-  _In_ const D3DKMDT_HVIDPNTARGETMODESET     hVidPnTargetModeSet,
-  _In_ const D3DKMDT_VIDPN_TARGET_MODE CONST *pVidPnTargetModeInfo
-)
-{ ... }
-````
+The <b>pfnReleaseModeInfo</b> function releases a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546729">D3DKMDT_VIDPN_TARGET_MODE</a> structure that the VidPN manager previously provided to the display miniport driver.
 
 
 ## -parameters
@@ -73,7 +60,7 @@ NTSTATUS APIENTRY pfnReleaseModeInfo(
 
 ### -param hVidPnTargetModeSet [in]
 
-[in] A handle to a VidPN target mode set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset.md">pfnAcquireTargetModeSet</a> function of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> interface.
+[in] A handle to a VidPN target mode set object. The display miniport driver previously obtained this handle by calling the <a href="https://msdn.microsoft.com/1b91c472-21eb-4aa8-91e3-c9eb70556d9f">pfnAcquireTargetModeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562108">DXGK_VIDPN_INTERFACE</a> interface.
 
 
 ### -param pVidPnTargetModeInfo [in]
@@ -135,29 +122,29 @@ The pointer supplied in <i>pVidPnTargetModeInfo</i> was invalid.
 
 
 
-When you have finished using a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a> structure that you obtained by calling any of the following functions, you must release the structure by calling <b>pfnReleaseModeInfo</b>.
+When you have finished using a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546729">D3DKMDT_VIDPN_TARGET_MODE</a> structure that you obtained by calling any of the following functions, you must release the structure by calling <b>pfnReleaseModeInfo</b>.
 
 <ul>
 <li>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a>
+<a href="https://msdn.microsoft.com/64a1a8f4-afbc-4337-b809-9346c1171e0b">pfnAcquireFirstModeInfo</a>
 
 
 </li>
 <li>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_acquirenextmodeinfo.md">pfnAcquireNextModeInfo</a>
+<a href="https://msdn.microsoft.com/894d0d15-d12a-4138-9a92-8f930c12dd52">pfnAcquireNextModeInfo</a>
 
 
 </li>
 <li>
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_acquirepinnedmodeinfo.md">pfnAcquirePinnedModeInfo</a>
+<a href="https://msdn.microsoft.com/0a321ee2-f246-498d-b658-a01e275644be">pfnAcquirePinnedModeInfo</a>
 
 
 </li>
 </ul>
-If you obtain a D3DKMDT_VIDPN_TARGET_MODE structure by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a> and then pass that structure to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_addmode.md">pfnAddMode</a>, you do not need to release the structure.
+If you obtain a D3DKMDT_VIDPN_TARGET_MODE structure by calling <a href="https://msdn.microsoft.com/ebb37681-fa03-49f5-968b-87c9ff4ebae9">pfnCreateNewModeInfo</a> and then pass that structure to <a href="https://msdn.microsoft.com/96c14056-aa93-4164-8adf-31fa1b3d33d3">pfnAddMode</a>, you do not need to release the structure.
 
 If you obtain a handle by calling <b>pfnCreateNewModeInfo</b> and then you decide not to add the new mode to a target mode set, you must release the newly created structure by calling <b>pfnReleaseModeInfo</b>.
 
@@ -168,24 +155,23 @@ The D3DKMDT_HVIDPNSOURCEMODESET data type is defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_acquirefirstmodeinfo.md">pfnAcquireFirstModeInfo</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_acquirenextmodeinfo.md">pfnAcquireNextModeInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546729">D3DKMDT_VIDPN_TARGET_MODE</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_acquirepinnedmodeinfo.md">pfnAcquirePinnedModeInfo</a>
+<a href="https://msdn.microsoft.com/64a1a8f4-afbc-4337-b809-9346c1171e0b">pfnAcquireFirstModeInfo</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a>
+<a href="https://msdn.microsoft.com/894d0d15-d12a-4138-9a92-8f930c12dd52">pfnAcquireNextModeInfo</a>
 
 
 
+<a href="https://msdn.microsoft.com/0a321ee2-f246-498d-b658-a01e275644be">pfnAcquirePinnedModeInfo</a>
  
 
  
-
 

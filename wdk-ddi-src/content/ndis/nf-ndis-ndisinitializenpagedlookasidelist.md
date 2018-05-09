@@ -7,7 +7,7 @@ old-location: netvista\ndisinitializenpagedlookasidelist.htm
 old-project: netvista
 ms.assetid: d240f2cc-18a6-4c2d-889f-e25a9486d5fe
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisInitializeNPagedLookasideList, NdisInitializeNPagedLookasideList function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeNPagedLookasideList, ndis_lookaside_ref_edf7a9cc-c6bc-405b-88bb-c27331c38069.xml, netvista.ndisinitializenpagedlookasidelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisInitializeNPagedLookasideList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisInitializeNPagedLookasideList function
@@ -52,22 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisInitializeNPagedLookasideList</b> function initializes a lookaside list. After a successful
   initialization, nonpaged fixed-size blocks can be allocated from and freed to the lookaside list.
-
-
-## -syntax
-
-
-````
-VOID NdisInitializeNPagedLookasideList(
-  _In_     PNPAGED_LOOKASIDE_LIST Lookaside,
-  _In_opt_ PALLOCATE_FUNCTION     Allocate,
-  _In_opt_ PFREE_FUNCTION         Free,
-  _In_     ULONG                  Flags,
-  _In_     ULONG                  Size,
-  _In_     ULONG                  Tag,
-  _In_     USHORT                 Depth
-);
-````
 
 
 ## -parameters
@@ -89,7 +74,7 @@ A function entry point that is either <b>NULL</b> or specifies the entry point o
      <i>Allocate</i> function that will allocate an entry of the size that is specified in the 
      <i>Size</i> member whenever it is called. If 
      <i>Allocate</i> is <b>NULL</b>, the 
-     <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+     <a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
      NdisAllocateFromNPagedLookasideList</a> function subsequently allocates entries on behalf of the
      caller. If the caller provides an 
      <i>Allocate</i> function, it also must provide a 
@@ -102,7 +87,7 @@ A function entry point that is either <b>NULL</b> or specifies the entry point o
      <i>Free</i> function that will free an entry of the size that is specified in the 
      <i>Size</i> member whenever it is called. If 
      <i>Free</i> is <b>NULL</b>, the 
-     <a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+     <a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
      NdisFreeToNPagedLookasideList</a> function subsequently frees entries on behalf of the caller.
 
 
@@ -144,11 +129,11 @@ None
 
 <b>NdisInitializeNPagedLookasideList</b> initializes the caller-supplied list head but allocates no memory
     for list entries. The initial entries are allocated on an as-needed basis either with calls to the 
-    <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+    <a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
     NdisAllocateFromNPagedLookasideList</a> function or by the driver-supplied 
     <i>Allocate</i> callback function at the 
     <i>Allocate</i> parameter. The list is populated as the driver frees entries back to the list with the 
-    <a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+    <a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
     NdisFreeToNPagedLookasideList</a> function. Entries collect on the list until a system-determined but
     dynamically sized limit is reached. Then, any surplus entries in the lookaside list are returned to
     nonpaged pool, either by 
@@ -164,13 +149,13 @@ All entries in the lookaside list are of the same size, which is specified in th
     outgoing and incoming calls.
 
 It is more efficient for a driver to allow the 
-    <a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+    <a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
     NdisAllocateFromNPagedLookasideList</a> and 
-    <a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+    <a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
     NdisFreeToNPagedLookasideList</a> functions to manage the allocation and deallocation of entries (see
     the 
-    <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> and 
-    <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> functions). However, a driver that
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a> and 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a> functions). However, a driver that
     tracks state internally about its memory usage might supply 
     <i>Allocate</i> and 
     <i>Free</i> functions to 
@@ -185,17 +170,14 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
-   NdisFreeToNPagedLookasideList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
 
 
 
@@ -203,17 +185,19 @@ Callers of
 
 
 
-<a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
+   NdisAllocateFromNPagedLookasideList</a>
+
+
+
+<a href="https://msdn.microsoft.com/0622d3db-8d28-4c15-a3d8-1092487b8096">
    NdisDeleteNPagedLookasideList</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
+<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
+   NdisFreeToNPagedLookasideList</a>
  
 
  
-
 

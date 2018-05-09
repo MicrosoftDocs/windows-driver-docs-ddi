@@ -7,7 +7,7 @@ old-location: stream\ksgetmultiplepinfactoryitems.htm
 old-project: stream
 ms.assetid: 43210484-dcae-49b7-bda3-50d6c06ee2c0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGetMultiplePinFactoryItems, KsGetMultiplePinFactoryItems function [Streaming Media Devices], ksproxy/KsGetMultiplePinFactoryItems, ksproxy_cd252212-9317-4e1a-9f57-ee18afc23766.xml, stream.ksgetmultiplepinfactoryitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ksproxy.dll
 api_name:
 -	KsGetMultiplePinFactoryItems
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
 # KsGetMultiplePinFactoryItems function
@@ -51,19 +52,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsGetMultiplePinFactoryItems</b> function retrieves pin property items in a variable length data buffer. 
-
-
-## -syntax
-
-
-````
-HRESULT KsGetMultiplePinFactoryItems(
-  _In_  HANDLE FilterHandle,
-  _In_  ULONG  PinFactoryId,
-  _In_  ULONG  PropertyId,
-  _Out_ PVOID  *Items
-);
-````
 
 
 ## -parameters
@@ -113,15 +101,14 @@ For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK d
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559910">IKsPinFactory</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
-<a href="..\ksproxy\nn-ksproxy-ikspinfactory.md">IKsPinFactory</a>
-
-
-
-<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
 
 
 
@@ -129,8 +116,8 @@ For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK d
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566722">KSP_PIN</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\avc_command_irb.htm
 old-project: stream
 ms.assetid: 0aefbce4-a838-40c4-b31f-ff8dd13621f7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PAVC_COMMAND_IRB, AVC_COMMAND_IRB, AVC_COMMAND_IRB structure [Streaming Media Devices], PAVC_COMMAND_IRB, PAVC_COMMAND_IRB structure pointer [Streaming Media Devices], _AVC_COMMAND_IRB, avc/AVC_COMMAND_IRB, avc/PAVC_COMMAND_IRB, avcref_1f88c208-64b9-40d1-9048-d10b105b5569.xml, stream.avc_command_irb"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_COMMAND_IRB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_COMMAND_IRB, *PAVC_COMMAND_IRB
 ---
@@ -50,33 +51,6 @@ req.typenames: AVC_COMMAND_IRB, *PAVC_COMMAND_IRB
 
 
 The AVC_COMMAND_IRB structure defines a structure that contains an AV/C command and response pair.
-
-
-## -syntax
-
-
-````
-typedef struct _AVC_COMMAND_IRB {
-  AVC_IRB       Common;
-  UCHAR         SubunitAddrFlag  :1;
-  UCHAR         AlternateOpcodesFlag  :1;
-  UCHAR         TimeoutFlag  :1;
-  UCHAR         RetryFlag  :1;
-  union {
-    UCHAR CommandType;
-    UCHAR ResponseCode;
-  };
-  PUCHAR        SubunitAddr;
-  PUCHAR        AlternateOpcodes;
-  LARGE_INTEGER Timeout;
-  UCHAR         Retries;
-  UCHAR         Opcode;
-  ULONG         OperandLength;
-  UCHAR         Operands[MAX_AVC_OPERAND_BYTES];
-  NODE_ADDRESS  NodeAddress;
-  ULONG         Generation;
-} AVC_COMMAND_IRB, *PAVC_COMMAND_IRB;
-````
 
 
 ## -struct-fields
@@ -107,6 +81,16 @@ Set this to one if the default time-out is not appropriate for the subunit. If t
 ### -field RetryFlag
 
 Set this to one if the default retry count is not appropriate for the subunit. If this is set, the <b>Retries</b> member must be set to the desired retry count.
+
+
+### -field CommandType
+
+This specifies a value from the AvcCommandType enumeration. This member is used only during AVC_FUNCTION_GET_REQUEST. It is ignored otherwise.
+
+
+### -field ResponseCode
+
+This specifies a value from the AvcResponseCode enumeration. This member is used only during AVC_FUNCTION_SEND_RESPONSE. It is ignored otherwise.
 
 
 ### -field SubunitAddr
@@ -154,16 +138,6 @@ Reserved. This member must be zero.
 Reserved. This member must be zero.
 
 
-#### - CommandType
-
-This specifies a value from the AvcCommandType enumeration. This member is used only during AVC_FUNCTION_GET_REQUEST. It is ignored otherwise.
-
-
-#### - ResponseCode
-
-This specifies a value from the AvcResponseCode enumeration. This member is used only during AVC_FUNCTION_SEND_RESPONSE. It is ignored otherwise.
-
-
 ## -remarks
 
 
@@ -175,7 +149,10 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/wind
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554170">AVC_FUNCTION_SEND_RESPONSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554145">AVC_FUNCTION</a>
 
 
 
@@ -183,14 +160,11 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554170">AVC_FUNCTION_SEND_RESPONSE</a>
  
 
  

@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfMemoryCopyFromBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_MEMORY_DESCRIPTOR_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfMemoryCopyFromBuffer function
@@ -56,19 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfMemoryCopyFromBuffer</b> method copies the contents of a specified source buffer into a specified memory object's buffer.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfMemoryCopyFromBuffer(
-  _In_ WDFMEMORY DestinationMemory,
-  _In_ size_t    DestinationOffset,
-  _In_ PVOID     Buffer,
-  _In_ size_t    NumBytesToCopyFrom
-);
-````
 
 
 ## -parameters
@@ -200,16 +187,15 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycopytobuffer.md">WdfMemoryCopyToBuffer</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548703">WdfMemoryCopyToBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550019">WdfRequestRetrieveOutputMemory</a>
  
 
  
-
 

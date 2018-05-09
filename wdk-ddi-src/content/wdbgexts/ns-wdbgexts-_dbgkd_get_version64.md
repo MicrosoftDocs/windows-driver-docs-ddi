@@ -7,7 +7,7 @@ old-location: debugger\ig_get_kernel_version.htm
 old-project: debugger
 ms.assetid: 692e58b5-74ea-48f3-a9c2-81953b7d600d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PDBGKD_GET_VERSION64, DBGKD_GET_VERSION64, DBGKD_GET_VERSION64 structure [Windows Debugging], PDBGKD_GET_VERSION64, PDBGKD_GET_VERSION64 structure pointer [Windows Debugging], WdbgExts_Ref_33e7f185-3831-439b-9e92-8d942627f66b.xml, _DBGKD_GET_VERSION64, debugger.ig_get_kernel_version, wdbgexts/DBGKD_GET_VERSION64, wdbgexts/PDBGKD_GET_VERSION64"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	DBGKD_GET_VERSION64
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DBGKD_GET_VERSION64, *PDBGKD_GET_VERSION64
-req.product: Windows 10 or later.
 ---
 
 # _DBGKD_GET_VERSION64 structure
@@ -50,30 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The IG_GET_KERNEL_VERSION <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation receives information related to the operating system version of the target.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_GET_KERNEL_VERSION, <i>IpvData</i> should contain an instance of the DBGKD_GET_VERSION64 structure.
-
-
-## -syntax
-
-
-````
-typedef struct _DBGKD_GET_VERSION64 {
-  USHORT  MajorVersion;
-  USHORT  MinorVersion;
-  UCHAR   ProtocolVersion;
-  UCHAR   KdSecondaryVersion;
-  USHORT  Flags;
-  USHORT  MachineType;
-  UCHAR   MaxPacketType;
-  UCHAR   MaxStateChange;
-  UCHAR   MaxManipulate;
-  UCHAR   Simulation;
-  USHORT  Unused[1];
-  ULONG64 KernBase;
-  ULONG64 PsLoadedModuleList;
-  ULONG64 DebuggerDataList;
-} DBGKD_GET_VERSION64, *PDBGKD_GET_VERSION64;
-````
+The IG_GET_KERNEL_VERSION <a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operation receives information related to the operating system version of the target.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_GET_KERNEL_VERSION, <i>IpvData</i> should contain an instance of the DBGKD_GET_VERSION64 structure.
 
 
 ## -struct-fields
@@ -302,14 +279,14 @@ Receives the value of the kernel variable <b>PsLoadedModuleList</b>.
 
 ### -field DebuggerDataList
 
-Receives the value of the kernel variable <b>KdDebuggerDataBlock</b>.  This a pointer to either a KDDEBUGGER_DATA64 structure or a KDDEBUGGER_DATA32 structure.  Use the function <a href="..\wdbgexts\nf-wdbgexts-getdebuggerdata.md">GetDebuggerData</a> to fetch this structure.
+Receives the value of the kernel variable <b>KdDebuggerDataBlock</b>.  This a pointer to either a KDDEBUGGER_DATA64 structure or a KDDEBUGGER_DATA32 structure.  Use the function <a href="https://msdn.microsoft.com/library/windows/hardware/ff546573">GetDebuggerData</a> to fetch this structure.
 
 
 ## -remarks
 
 
 
-The parameters for the IG_GET_KERNEL_VERSION <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a> operation are the members of the DBGKD_GET_VERSION64 structure.
+The parameters for the IG_GET_KERNEL_VERSION <a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operation are the members of the DBGKD_GET_VERSION64 structure.
 
 This operation is only available in kernel-mode debugging.
 
@@ -318,16 +295,15 @@ This operation is only available in kernel-mode debugging.
 
 ## -see-also
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
 
 
 
-<a href="..\wdbgexts\nf-wdbgexts-getdebuggerdata.md">GetDebuggerData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546573">GetDebuggerData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a>
  
 
  
-
 

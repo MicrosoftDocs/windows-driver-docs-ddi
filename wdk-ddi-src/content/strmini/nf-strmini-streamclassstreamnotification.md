@@ -7,7 +7,7 @@ old-location: stream\streamclassstreamnotification.htm
 old-project: stream
 ms.assetid: 67dd0ea0-9c69-415a-8b37-0e8700b6fbd8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: StreamClassStreamNotification, StreamClassStreamNotification routine [Streaming Media Devices], strclass-routines_22bc1b48-b75e-4dce-9aae-16e16b1ca1f9.xml, stream.streamclassstreamnotification, strmini/StreamClassStreamNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Stream.dll
 api_name:
 -	StreamClassStreamNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StreamClassStreamNotification function
@@ -52,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 Streams use the <b>StreamClassStreamNotification</b> routine to notify the class driver that it has completed a stream request, or that an event has occurred.
-
-
-## -syntax
-
-
-````
-VOID  StreamClassStreamNotification(
-  _In_ STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE NotificationType,
-  _In_ PHW_STREAM_OBJECT                          StreamObject,
-       PHW_STREAM_REQUEST_BLOCK                   pSrb,
-       PKSEVENT_ENTRY                             EventEntry,
-       GUID                                       *EventSet,
-       ULONG                                      EventId
-);
-````
 
 
 ## -parameters
@@ -146,7 +131,7 @@ Identifies the event set against which to match in the event queue for this stre
 
 #### - pSrb
 
-Pointer to an <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> structure. Specify only if <i>NotificationType</i> equals <b>StreamRequestComplete</b>. Pointer to the stream request block that the minidriver has completed processing. Once this routine completes, this address is no longer valid. This parameter is optional.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559702">HW_STREAM_REQUEST_BLOCK</a> structure. Specify only if <i>NotificationType</i> equals <b>StreamRequestComplete</b>. Pointer to the stream request block that the minidriver has completed processing. Once this routine completes, this address is no longer valid. This parameter is optional.
 
 
 ## -returns
@@ -162,19 +147,18 @@ None
 
 
 
-The minidriver uses this routine for requests or events that apply to the minidriver as a whole. Stream-specific requests or events use <a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>.
+The minidriver uses this routine for requests or events that apply to the minidriver as a whole. Stream-specific requests or events use <a href="https://msdn.microsoft.com/library/windows/hardware/ff568239">StreamClassDeviceNotification</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\strmini\nf-strmini-streamclassdevicenotification.md">StreamClassDeviceNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568239">StreamClassDeviceNotification</a>
  
 
  
-
 

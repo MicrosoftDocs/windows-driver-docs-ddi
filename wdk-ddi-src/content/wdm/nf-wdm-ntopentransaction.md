@@ -7,7 +7,7 @@ old-location: kernel\zwopentransaction.htm
 old-project: kernel
 ms.assetid: 5ffa50af-24e6-4dab-81cc-6ac26356e9c6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtOpenTransaction, ZwOpenTransaction, ZwOpenTransaction routine [Kernel-Mode Driver Architecture], kernel.zwopentransaction, ktm_ref_ed0e1a06-e5e2-4328-aeeb-d56a78d6a757.xml, wdm/NtOpenTransaction, wdm/ZwOpenTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 api_name:
 -	ZwOpenTransaction
 -	NtOpenTransaction
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # NtOpenTransaction function
@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ZwOpenTransaction</b> routine obtains a handle to an existing <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwOpenTransaction(
-  _Out_    PHANDLE            TransactionHandle,
-  _In_     ACCESS_MASK        DesiredAccess,
-  _In_opt_ POBJECT_ATTRIBUTES ObjectAttributes,
-  _In_     LPGUID             Uow,
-  _In_opt_ HANDLE             TmHandle
-);
-````
 
 
 ## -parameters
@@ -80,12 +66,12 @@ A pointer to a caller-allocated variable that receives a handle to the transacti
 
 ### -param DesiredAccess [in]
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the caller's requested access to the transaction object. For information about how to specify this parameter, see the <i>DesiredAccess</i> parameter of <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>. 
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the caller's requested access to the transaction object. For information about how to specify this parameter, see the <i>DesiredAccess</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a>. 
 
 
 ### -param ObjectAttributes [in, optional]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object's attributes. Use the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> routine to initialize this structure, but specify only that routine's <i>InitializedAttributes</i> and <i>Attributes</i> parameters. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE flag in the <i>Attributes</i> parameter. The <i>ObjectAttributes</i> parameter is optional and can be <b>NULL</b>. 
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that specifies the object's attributes. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> routine to initialize this structure, but specify only that routine's <i>InitializedAttributes</i> and <i>Attributes</i> parameters. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE flag in the <i>Attributes</i> parameter. The <i>ObjectAttributes</i> parameter is optional and can be <b>NULL</b>. 
 
 
 ### -param Uow [in]
@@ -176,7 +162,7 @@ The routine might return other <a href="https://msdn.microsoft.com/library/windo
 
 
 
-Typically, a resource manager calls <b>ZwOpenTransaction</b> after it receives a transaction UOW from a transactional client that had previously called <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>. 
+Typically, a resource manager calls <b>ZwOpenTransaction</b> after it receives a transaction UOW from a transactional client that had previously called <a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a>. 
 
 For more information about <b>ZwOpenTransaction</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542865">Creating a Resource Manager</a>.
 
@@ -189,11 +175,18 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>
 
 
 
@@ -201,28 +194,20 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566420">ZwCommitTransaction</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567086">ZwRollbackTransaction</a>
  
 
  
-
 

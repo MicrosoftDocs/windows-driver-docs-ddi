@@ -7,7 +7,7 @@ old-location: stream\kstrqueryreferencestring.htm
 old-project: stream
 ms.assetid: 08fd750f-19cc-4d78-a26b-9f790c5c3acf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrQueryReferenceString, KStrQueryReferenceString routine [Streaming Media Devices], PFNQUERYREFERENCESTRING, ks/KStrQueryReferenceString, ksfunc_ce750f42-efeb-4861-b451-ef0f8be40f9a.xml, stream.kstrqueryreferencestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,33 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	KStrQueryReferenceString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFNQUERYREFERENCESTRING callback
+# PFNQUERYREFERENCESTRING callback function
 
 
 ## -description
 
 
-This routine creates a buffer from the paged pool and copies the reference string associated with the PDO into this buffer. It is the caller's responsibility to free the buffer using <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>.
-
-
-## -prototype
-
-
-````
-PFNQUERYREFERENCESTRING KStrQueryReferenceString;
-
-NTSTATUS KStrQueryReferenceString(
-  _In_    PVOID  Context,
-  _Inout_ PWCHAR *String
-)
-{ ... }
-````
+This routine creates a buffer from the paged pool and copies the reference string associated with the PDO into this buffer. It is the caller's responsibility to free the buffer using <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>.
 
 
 ## -parameters
@@ -95,7 +81,7 @@ None.
 
 
 
-The driver can access this method through the <b>QueryReferenceString</b> member of the <a href="..\ks\ns-ks-bus_interface_reference.md">BUS_INTERFACE_REFERENCE</a> structure.
+The driver can access this method through the <b>QueryReferenceString</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557584">BUS_INTERFACE_REFERENCE</a> structure.
 
 
 

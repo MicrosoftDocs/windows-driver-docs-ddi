@@ -7,7 +7,7 @@ old-location: stream\ksservicebusenumcreaterequest.htm
 old-project: stream
 ms.assetid: 23a2dd4d-ea30-4646-a4c3-bc90ad60933d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest function [Streaming Media Devices], ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, stream.ksservicebusenumcreaterequest, swenum/KsServiceBusEnumCreateRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsServiceBusEnumCreateRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KsServiceBusEnumCreateRequest function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <i>This function is intended for internal use only.</i>
 
 The <b>KsServiceBusEnumCreateRequest</b> function services IRP_MJ_CREATE requests for the software bus device interface. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsServiceBusEnumCreateRequest(
-  _In_    PDEVICE_OBJECT DeviceObject,
-  _Inout_ PIRP           Irp
-);
-````
 
 
 ## -parameters
@@ -102,12 +91,11 @@ Returns STATUS_SUCCESS if successful. Otherwise. it returns STATUS_OBJECT_NAME_N
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksservicebusenumpnprequest.md">KsServiceBusEnumPnpRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566816">KsServiceBusEnumPnpRequest</a>
  
 
  
-
 

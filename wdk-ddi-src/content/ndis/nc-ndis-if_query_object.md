@@ -7,8 +7,8 @@ old-location: netvista\providerqueryobject.htm
 old-project: netvista
 ms.assetid: dea90ff0-7620-4364-90dc-2dc5d2e34ce1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: "*IFP_QUERY_OBJECT, *IFP_QUERY_OBJECT callback function [Network Drivers Starting with Windows Vista], IF_QUERY_OBJECT, ProviderQueryObject, ProviderQueryObject callback function [Network Drivers Starting with Windows Vista], ndis/ProviderQueryObject, net_if_provider_functions_ref_8e4d405f-cae0-40bc-8d9d-6d85e5c7ff06.xml, netvista.providerqueryobject"
+ms.date: 4/25/2018
+ms.keywords: "*IFP_QUERY_OBJECT, *IFP_QUERY_OBJECT callback function [Network Drivers Starting with Windows Vista], IF_QUERY_OBJECT, IF_QUERY_OBJECT callback, ProviderQueryObject, ProviderQueryObject callback function [Network Drivers Starting with Windows Vista], ndis/ProviderQueryObject, net_if_provider_functions_ref_8e4d405f-cae0-40bc-8d9d-6d85e5c7ff06.xml, netvista.providerqueryobject"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	*IFP_QUERY_OBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# IF_QUERY_OBJECT callback
+# IF_QUERY_OBJECT callback function
 
 
 ## -description
@@ -51,24 +52,6 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 
 The 
   <i>ProviderQueryObject</i> function retrieves information about a network interface.
-
-
-## -prototype
-
-
-````
-IF_QUERY_OBJECT ProviderQueryObject;
-
-NDIS_STATUS ProviderQueryObject(
-  _In_    NDIS_HANDLE      ProviderIfContext,
-  _In_    NET_IF_OBJECT_ID ObjectId,
-  _Inout_ PULONG           pOutputBufferLength,
-  _Out_   PVOID            pOutputBuffer
-)
-{ ... }
-
-typedef IF_QUERY_OBJECT *IFP_QUERY_OBJECT;
-````
 
 
 ## -parameters
@@ -80,7 +63,7 @@ typedef IF_QUERY_OBJECT *IFP_QUERY_OBJECT;
 
 A handle that identifies the interface provider's context area for the interface. The interface
      provider passed this handle to NDIS in a call to the 
-     <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">
+     <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
      NdisIfRegisterInterface</a> function.
 
 
@@ -183,12 +166,11 @@ NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a>
  
 
  
-
 

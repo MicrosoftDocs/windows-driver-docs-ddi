@@ -7,7 +7,7 @@ old-location: kernel\exnotifycallback.htm
 old-project: kernel
 ms.assetid: 5c126639-494d-45b4-81c2-1af6dc773db6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, kernel.exnotifycallback, wdm/ExNotifyCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExNotifyCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExNotifyCallback function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ExNotifyCallback</b> routine causes all callback routines registered for the given object to be called.
-
-
-## -syntax
-
-
-````
-VOID ExNotifyCallback(
-  _In_     PVOID CallbackObject,
-  _In_opt_ PVOID Argument1,
-  _In_opt_ PVOID Argument2
-);
-````
 
 
 ## -parameters
@@ -111,16 +99,15 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. The system
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
 
 
 
-<a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544560">ExCreateCallback</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545534">ExRegisterCallback</a>
  
 
  
-
 

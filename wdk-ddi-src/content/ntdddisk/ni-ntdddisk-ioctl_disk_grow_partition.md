@@ -7,8 +7,8 @@ old-location: storage\ioctl_disk_grow_partition.htm
 old-project: storage
 ms.assetid: 984e9e7a-c135-4a6a-973d-b8597d9f8fed
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DISK_GROW_PARTITION, IOCTL_DISK_GROW_PARTITION control code [Storage Devices], k307_f3c07ac5-6895-46f9-85ad-7706661164a1.xml, ntdddisk/IOCTL_DISK_GROW_PARTITION, storage.ioctl_disk_grow_partition
+ms.date: 3/29/2018
+ms.keywords: IOCTL_DISK_GROW_PARTITION, IOCTL_DISK_GROW_PARTITION control, IOCTL_DISK_GROW_PARTITION control code [Storage Devices], k307_f3c07ac5-6895-46f9-85ad-7706661164a1.xml, ntdddisk/IOCTL_DISK_GROW_PARTITION, storage.ioctl_disk_grow_partition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntdddisk.h
 api_name:
 -	IOCTL_DISK_GROW_PARTITION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DETECTION_TYPE
+req.typenames: 
 ---
 
 # IOCTL_DISK_GROW_PARTITION IOCTL
@@ -50,7 +51,7 @@ req.typenames: DETECTION_TYPE
 
 
 
-Increases the size of an existing partition. It is used in conjunction with <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_update_drive_size.md">IOCTL_DISK_UPDATE_DRIVE_SIZE</a> to extend a disk, so that it will contain a new free space area, and then to extend an existing partition on the disk into the newly attached free space. It takes a <a href="..\ntdddisk\ns-ntdddisk-_disk_grow_partition.md">DISK_GROW_PARTITION</a> structure as the only parameter. For this operation to work, the space after the specified partition must be free. A partition cannot be extended over another existing partition.
+Increases the size of an existing partition. It is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff560419">IOCTL_DISK_UPDATE_DRIVE_SIZE</a> to extend a disk, so that it will contain a new free space area, and then to extend an existing partition on the disk into the newly attached free space. It takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552621">DISK_GROW_PARTITION</a> structure as the only parameter. For this operation to work, the space after the specified partition must be free. A partition cannot be extended over another existing partition.
 
 
 
@@ -62,7 +63,7 @@ Increases the size of an existing partition. It is used in conjunction with <a h
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntdddisk\ns-ntdddisk-_disk_grow_partition.md">DISK_GROW_PARTITION</a> values - that will be used to increase the size of the partition. 
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552621">DISK_GROW_PARTITION</a> values - that will be used to increase the size of the partition. 
 
 
 ### -input-buffer-length
@@ -105,12 +106,11 @@ The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_T
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_grow_partition.md">DISK_GROW_PARTITION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552621">DISK_GROW_PARTITION</a>
  
 
  
-
 

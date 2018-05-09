@@ -7,7 +7,7 @@ old-location: kernel\iosetmasterirpstatus.htm
 old-project: kernel
 ms.assetid: 68C7C46B-AFDB-449D-99B5-1F9A5A9AFFA4
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoSetMasterIrpStatus, IoSetMasterIrpStatus routine [Kernel-Mode Driver Architecture], kernel.iosetmasterirpstatus, ntddk/IoSetMasterIrpStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoSetMasterIrpStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoSetMasterIrpStatus function
@@ -52,17 +53,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>IoSetMasterIrpStatus</b> routine conditionally replaces the <b>Status</b> value in an IRP with the specified NTSTATUS value.
 
 
-## -syntax
-
-
-````
-VOID IoSetMasterIrpStatus(
-  _Inout_ PIRP     MasterIrp,
-  _In_    NTSTATUS Status
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ VOID IoSetMasterIrpStatus(
 
 ### -param MasterIrp [in, out]
 
-A pointer to the master <a href="..\wdm\ns-wdm-_irp.md">IRP</a>. For more information, see Remarks.
+A pointer to the master <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>. For more information, see Remarks.
 
 
 ### -param Status [in]
@@ -110,12 +100,11 @@ There are two exceptions to the general rule. A <i>Status</i> value of STATUS_VE
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
  
 
  
-
 

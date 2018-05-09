@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	DriverMagneticStripeReaderAuthenticationLevel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DriverMagneticStripeReaderAuthenticationLevel
 ---
@@ -50,18 +51,6 @@ req.typenames: DriverMagneticStripeReaderAuthenticationLevel
 
 
 This enumeration defines the levels of magnetic stripe reader (MSR) authentication support.
-
-
-## -syntax
-
-
-````
-typedef enum _DriverMagneticStripeReaderAuthenticationLevel { 
-  NotSupported  = 0,
-  Optional      = 1,
-  Required      = 2
-} DriverMagneticStripeReaderAuthenticationLevel;
-````
 
 
 ## -enum-fields

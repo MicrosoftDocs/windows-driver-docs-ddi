@@ -7,7 +7,7 @@ old-location: print\routerfreebidiresponsecontainer.htm
 old-project: print
 ms.assetid: 3998eed5-398e-4835-b917-54f5ae814ddf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: RouterFreeBidiResponseContainer, RouterFreeBidiResponseContainer function [Print Devices], print.routerfreebidiresponsecontainer, spoolfnc_065c8a3a-5790-45f5-bf79-3af94fdd0571.xml, winsplp/RouterFreeBidiResponseContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	RouterFreeBidiResponseContainer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RouterFreeBidiResponseContainer function
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<code>RouterFreeBidiResponseContainer</code> frees a <a href="..\winspool\ns-winspool-_bidi_response_container.md">BIDI_RESPONSE_CONTAINER</a> structure previously allocated by <a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md">RouterAllocBidiResponseContainer</a>.
-
-
-## -syntax
-
-
-````
-DWORD RouterFreeBidiResponseContainer(
-  _In_ PBIDI_RESPONSE_CONTAINER pData
-);
-````
+<code>RouterFreeBidiResponseContainer</code> frees a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545202">BIDI_RESPONSE_CONTAINER</a> structure previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff562001">RouterAllocBidiResponseContainer</a>.
 
 
 ## -parameters
@@ -84,16 +74,15 @@ Pointer to the BIDI_RESPONSE_CONTAINER structure to be freed.
 
 ## -see-also
 
-<a href="..\winspool\ns-winspool-_bidi_response_container.md">BIDI_RESPONSE_CONTAINER</a>
 
 
 
-<a href="..\winsplp\nf-winsplp-routerallocbidiresponsecontainer.md">RouterAllocBidiResponseContainer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545202">BIDI_RESPONSE_CONTAINER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562001">RouterAllocBidiResponseContainer</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_monitor_descriptor.htm
 old-project: display
 ms.assetid: 4bdce35f-adce-4898-8ef5-011a5476065a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_MONITOR_DESCRIPTOR, D3DKMDT_MONITOR_DESCRIPTOR structure [Display Devices], DmStructs_760a75c4-4db4-445e-a63b-7e77b6b69090.xml, _D3DKMDT_MONITOR_DESCRIPTOR, d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR, display.d3dkmdt_monitor_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_MONITOR_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_MONITOR_DESCRIPTOR
 ---
@@ -50,20 +51,6 @@ req.typenames: D3DKMDT_MONITOR_DESCRIPTOR
 
 
 The D3DKMDT_MONITOR_DESCRIPTOR structure contains a pointer to a monitor descriptor along with information about the monitor descriptor.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_MONITOR_DESCRIPTOR {
-  D3DKMDT_MONITOR_DESCRIPTOR_ID       Id;
-  D3DKMDT_MONITOR_DESCRIPTOR_TYPE     Type;
-  SIZE_T                              DataSize;
-  VOID                                *pData;
-  D3DKMDT_MONITOR_CAPABILITIES_ORIGIN Origin;
-} D3DKMDT_MONITOR_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -78,7 +65,7 @@ An integer that identifies the monitor descriptor.
 
 ### -field Type
 
-A value from the <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_descriptor_type.md">D3DKMDT_MONITOR_DESCRIPTOR_TYPE</a> enumeration that indicates the descriptor type.
+A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546099">D3DKMDT_MONITOR_DESCRIPTOR_TYPE</a> enumeration that indicates the descriptor type.
 
 
 ### -field DataSize
@@ -93,25 +80,24 @@ A pointer to the monitor descriptor.
 
 ### -field Origin
 
-A value of type <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_capabilities_origin.md">D3DKMDT_MONITOR_CAPABILITIES_ORIGIN</a> that indicates the source of the mode information for the monitor. For example, the mode information could be from a default monitor profile or it could be from an override in an INF file.
+A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546075">D3DKMDT_MONITOR_CAPABILITIES_ORIGIN</a> that indicates the source of the mode information for the monitor. For example, the mode information could be from a default monitor profile or it could be from an override in an INF file.
 
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_capabilities_origin.md">D3DKMDT_MONITOR_CAPABILITIES_ORIGIN</a>
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_monitor_descriptor_type.md">D3DKMDT_MONITOR_DESCRIPTOR_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546075">D3DKMDT_MONITOR_CAPABILITIES_ORIGIN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546099">D3DKMDT_MONITOR_DESCRIPTOR_TYPE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568427">Monitor Descriptor Set Interface</a>
-
-
-
  
 
  
-
 

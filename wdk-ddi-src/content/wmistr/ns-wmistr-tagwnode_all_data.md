@@ -7,7 +7,7 @@ old-location: kernel\wnode_all_data.htm
 old-project: kernel
 ms.assetid: 15582270-6cc4-43d4-b9e6-dceab3bc092d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PWNODE_ALL_DATA, PWNODE_ALL_DATA, PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], WNODE_ALL_DATA, WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], kernel.wnode_all_data, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml, tagWNODE_ALL_DATA, wmistr/PWNODE_ALL_DATA, wmistr/WNODE_ALL_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wmistr.h
 api_name:
 -	WNODE_ALL_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WNODE_ALL_DATA, *PWNODE_ALL_DATA
-req.product: Windows 10 or later.
 ---
 
 # tagWNODE_ALL_DATA structure
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The <b>WNODE_ALL_DATA</b> structure contains data for all instances of a data block or event block.
 
 
-## -syntax
-
-
-````
-typedef struct tagWNODE_ALL_DATA {
-  struct _WNODE_HEADER  WnodeHeader;
-  ULONG                DataBlockOffset;
-  ULONG                InstanceCount;
-  ULONG                OffsetInstanceNameOffsets;
-  union {
-    ULONG                       FixedInstanceSize;
-    OFFSETINSTANCEDATAANDLENGTH OffsetInstanceDataAndLength[];
-  };
-} WNODE_ALL_DATA, *PWNODE_ALL_DATA;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +60,7 @@ typedef struct tagWNODE_ALL_DATA {
 
 ### -field WnodeHeader
 
-Specifies a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
 
 
 ### -field DataBlockOffset
@@ -100,14 +83,12 @@ Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to
  
 
 
-
-
-#### - FixedInstanceSize
+### -field DUMMYUNIONNAME.FixedInstanceSize
 
 Indicates the size of each instance to be returned if all such instances are the same size. This member is valid only if the driver sets WNODE_FLAG_FIXED_INSTANCE_SIZE in <b>WnodeHeader.Flags</b>. 
 
 
-#### - OffsetInstanceDataAndLength
+### -field DUMMYUNIONNAME.OffsetInstanceDataAndLength
 
 If instances to be returned vary in size, <b>OffsetInstanceDataAndLength</b> is an array of <b>InstanceCount </b><b>OFFSETINSTANCEDATAANDLENGTH</b> structures that specify the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to the beginning of each instance and its length. <b>OFFSETINSTANCEDATAANDLENGTH</b> is defined as follows:
 
@@ -126,19 +107,17 @@ If instances to be returned vary in size, <b>OffsetInstanceDataAndLength</b> is 
 </table></span></div>
 
 
+Each instance must be aligned on a USHORT boundary. The <b>OffsetInstanceDataAndLength</b> member is valid only if the driver clears WNODE_FLAG_FIXED_INSTANCE_SIZE in <b>WnodeHeader.Flags</b>. 
 
 
-#### OffsetInstanceData
-
-Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to the instance data.
-
-
-
-#### LengthInstanceData
+##### - OffsetInstanceDataAndLength.LengthInstanceData
 
 Indicates the length in bytes of the instance data.
 
-Each instance must be aligned on a USHORT boundary. The <b>OffsetInstanceDataAndLength</b> member is valid only if the driver clears WNODE_FLAG_FIXED_INSTANCE_SIZE in <b>WnodeHeader.Flags</b>. 
+
+##### - OffsetInstanceDataAndLength.OffsetInstanceData
+
+Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to the instance data.
 
 
 ## -remarks
@@ -156,7 +135,6 @@ Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
 
 
@@ -164,12 +142,12 @@ Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566373">WNODE_EVENT_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: hid\hidp_extended_attributes.htm
 old-project: hid
 ms.assetid: 03be8b22-2108-4a13-be1e-642373095ab5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PHIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES, HIDP_EXTENDED_ATTRIBUTES structure [Human Input Devices], PHIDP_EXTENDED_ATTRIBUTES, PHIDP_EXTENDED_ATTRIBUTES structure pointer [Human Input Devices], _HIDP_EXTENDED_ATTRIBUTES, hid.hidp_extended_attributes, hidpi/HIDP_EXTENDED_ATTRIBUTES, hidpi/PHIDP_EXTENDED_ATTRIBUTES, hidstrct_7f0e134c-f292-4558-b805-02861407032f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	hidpi.h
 api_name:
 -	HIDP_EXTENDED_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_EXTENDED_ATTRIBUTES, *PHIDP_EXTENDED_ATTRIBUTES
 ---
@@ -52,19 +53,6 @@ req.typenames: HIDP_EXTENDED_ATTRIBUTES, *PHIDP_EXTENDED_ATTRIBUTES
 The HIDP_EXTENDED_ATTRIBUTES structure contains information about the global items specified for a HID control that the HID parser did not recognize.
 
 
-## -syntax
-
-
-````
-typedef struct _HIDP_EXTENDED_ATTRIBUTES {
-  UCHAR               NumGlobalUnknowns;
-  UCHAR               Reserved[3];
-  PHIDP_UNKNOWN_TOKEN GlobalUnknowns;
-  ULONG               Data[1];
-} HIDP_EXTENDED_ATTRIBUTES, *PHIDP_EXTENDED_ATTRIBUTES;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct _HIDP_EXTENDED_ATTRIBUTES {
 
 ### -field NumGlobalUnknowns
 
-Specifies the number of <a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a> structures in the list specified by <b>Data</b>.
+Specifies the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff539808">HIDP_UNKNOWN_TOKEN</a> structures in the list specified by <b>Data</b>.
 
 
 ### -field Reserved
@@ -87,7 +75,7 @@ Reserved for internal system use only.
 
 ### -field Data
 
-Specifies the memory location where <a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a> returns a variable length array of <a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a> structures.
+Specifies the memory location where <a href="https://msdn.microsoft.com/library/windows/hardware/ff539721">HidP_GetExtendedAttributes</a> returns a variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff539808">HIDP_UNKNOWN_TOKEN</a> structures.
 
 
 ## -remarks
@@ -101,16 +89,15 @@ The HIDP_EXTENDED_ATTRIBUTES structure is designed to be used with <b>HidP_GetEx
 
 ## -see-also
 
-<a href="..\hidpi\ns-hidpi-_hidp_unknown_token.md">HIDP_UNKNOWN_TOKEN</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getextendedattributes.md">HidP_GetExtendedAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539808">HIDP_UNKNOWN_TOKEN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539721">HidP_GetExtendedAttributes</a>
  
 
  
-
 

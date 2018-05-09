@@ -7,7 +7,7 @@ old-location: netvista\ndismcoindicatereceivenetbufferlists.htm
 old-project: netvista
 ms.assetid: dabd472f-9877-4434-a534-e07a047e092f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMCoIndicateReceiveNetBufferLists, NdisMCoIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_98f228ff-027c-4b60-b469-3d9ead72ed6f.xml, ndis/NdisMCoIndicateReceiveNetBufferLists, netvista.ndismcoindicatereceivenetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMCoIndicateReceiveNetBufferLists
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMCoIndicateReceiveNetBufferLists function
@@ -55,19 +56,6 @@ The
   the network.
 
 
-## -syntax
-
-
-````
-VOID NdisMCoIndicateReceiveNetBufferLists(
-  _In_ NDIS_HANDLE      NdisVcHandle,
-  _In_ PNET_BUFFER_LIST NetBufferLists,
-  _In_ ULONG            NumberOfNetBufferLists,
-  _In_ ULONG            CoReceiveFlags
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +65,7 @@ VOID NdisMCoIndicateReceiveNetBufferLists(
 
 A handle that identifies a virtual connection (VC). The miniport driver obtained this handle as an
      input parameter to its 
-     <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a> function, either
+     <a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a> function, either
      when a client set up an outgoing call or when the call manager created a VC for a client-registered
      service access point (SAP) to indicate an incoming-call notification on.
 
@@ -85,7 +73,7 @@ A handle that identifies a virtual connection (VC). The miniport driver obtained
 ### -param NetBufferLists [in]
 
 A linked list of 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that the
      miniport driver allocated.
 
 
@@ -135,10 +123,10 @@ None
 
 A miniport driver typically calls the 
     <b>NdisMCoIndicateReceiveNetBufferLists</b> function from its 
-    <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a> function.
+    <a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a> function.
     When a miniport driver calls 
     <b>NdisMCoIndicateReceiveNetBufferLists</b>, it specifies a list of 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures at the 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures at the 
     <i>NetBufferLists</i> parameter. NDIS then passes the NET_BUFFER_LIST structures to bound protocol drivers.
 
 Miniport drivers must set the 
@@ -150,7 +138,7 @@ If a miniport driver calls
     <b>NdisMCoIndicateReceiveNetBufferLists</b> and clears the NDIS_RECEIVE_FLAGS_RESOURCES flag in the 
     <i>CoReceiveFlags</i> parameter, NDIS returns the NET_BUFFER_LIST structures that 
     <i>NetBufferLists</i> specifies to the miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+    <a href="https://msdn.microsoft.com/0f33ae87-164e-40dc-a915-28211a0d74b7">
     MiniportReturnNetBufferLists</a> function. In this case, the miniport driver must not reclaim the
     NET_BUFFER_LIST structures until NDIS returns the NET_BUFFER_LIST structures to the miniport driver's 
     <i>MiniportReturnNetBufferLists</i> function.
@@ -165,7 +153,7 @@ If a miniport driver calls
     NET_BUFFER_LIST structures immediately after 
     <b>NdisMCoIndicateReceiveNetBufferLists</b> returns. To reclaim the NET_BUFFER_LIST structures, a miniport
     driver can call its own 
-    <a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+    <a href="https://msdn.microsoft.com/0f33ae87-164e-40dc-a915-28211a0d74b7">
     MiniportReturnNetBufferLists</a> function.
 
 If a miniport driver sets the NDIS_RECEIVE_FLAGS_RESOURCES flag in the 
@@ -176,7 +164,7 @@ If a miniport driver sets the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 The caller of 
     <b>NdisMCoIndicateReceiveNetBufferLists</b> must properly initialize the NET_BUFFER_LIST structures, the
     attached 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structures, and any attached memory
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures, and any attached memory
     descriptor lists (MDLs).
 
 
@@ -184,29 +172,28 @@ The caller of
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
+
+
+
+<a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a>
+
+
+
+<a href="https://msdn.microsoft.com/0f33ae87-164e-40dc-a915-28211a0d74b7">
    MiniportReturnNetBufferLists</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
  
 
  
-
 

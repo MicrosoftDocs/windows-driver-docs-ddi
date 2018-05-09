@@ -7,7 +7,7 @@ old-location: stream\ks_tvtuner_change_info.htm
 old-project: stream
 ms.assetid: 7bb04fbb-2894-4148-88c2-fbbebb000ec9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO structure [Streaming Media Devices], PKS_TVTUNER_CHANGE_INFO, PKS_TVTUNER_CHANGE_INFO structure pointer [Streaming Media Devices], ksmedia/KS_TVTUNER_CHANGE_INFO, ksmedia/PKS_TVTUNER_CHANGE_INFO, stream.ks_tvtuner_change_info, tagKS_TVTUNER_CHANGE_INFO, vidcapstruct_225fdabf-bdaf-49df-a2e3-ace62a0a17e2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_TVTUNER_CHANGE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_TVTUNER_CHANGE_INFO, *PKS_TVTUNER_CHANGE_INFO
 ---
@@ -50,19 +51,6 @@ req.typenames: KS_TVTUNER_CHANGE_INFO, *PKS_TVTUNER_CHANGE_INFO
 
 
 The KS_TVTUNER_CHANGE_INFO structure provides vertical blanking interval (VBI) codecs with information about the currently tuned channel.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_TVTUNER_CHANGE_INFO {
-  DWORD dwFlags;
-  DWORD dwCountryCode;
-  DWORD dwAnalogVideoStandard;
-  DWORD dwChannel;
-} KS_TVTUNER_CHANGE_INFO, *PKS_TVTUNER_CHANGE_INFO;
-````
 
 
 ## -struct-fields
@@ -110,7 +98,7 @@ Specifies the country code in use. This corresponds to the International Telecom
 
 ### -field dwAnalogVideoStandard
 
-Specifies the current analog video standard. This member should be set to a value from the <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a> enumeration.
+Specifies the current analog video standard. This member should be set to a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a> enumeration.
 
 
 ### -field dwChannel
@@ -129,12 +117,11 @@ A packet containing a KS_TVTUNER_CHANGE_INFO structure normally originates at a 
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
  
 
  
-
 

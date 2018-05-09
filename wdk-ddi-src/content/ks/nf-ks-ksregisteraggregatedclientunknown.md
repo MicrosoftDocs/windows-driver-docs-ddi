@@ -7,7 +7,7 @@ old-location: stream\ksregisteraggregatedclientunknown.htm
 old-project: stream
 ms.assetid: b0e18e39-2435-4823-aab4-ba52d218294a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsRegisterAggregatedClientUnknown, KsRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_1b7f6d25-4aae-4580-b8d2-5050c9ffede1.xml, ks/KsRegisterAggregatedClientUnknown, stream.ksregisteraggregatedclientunknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsRegisterAggregatedClientUnknown
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 In a manner very similar to COM, the <b>KsRegisterAggregatedClientUnknown</b> function aggregates two objects: the specified AVStream object and a client unknown object.
-
-
-## -syntax
-
-
-````
-PUNKNOWN KsRegisterAggregatedClientUnknown(
-  _In_ PVOID    Object,
-  _In_ PUNKNOWN ClientUnknown
-);
-````
 
 
 ## -parameters
@@ -105,28 +95,27 @@ Minidrivers do not need to be running in a C++ environment to use this function.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinregisteraggregatedclientunknown.md">KsPinRegisterAggregatedClientUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilterfactoryregisteraggregatedclientunknown.md">KsFilterFactoryRegisterAggregatedClientUnknown</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561688">KsDeviceRegisterAggregatedClientUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562538">KsFilterFactoryRegisterAggregatedClientUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilterregisteraggregatedclientunknown.md">KsFilterRegisterAggregatedClientUnknown</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562549">KsFilterRegisterAggregatedClientUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-ksdeviceregisteraggregatedclientunknown.md">KsDeviceRegisterAggregatedClientUnknown</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562655">KsGetOuterUnknown</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563521">KsPinRegisterAggregatedClientUnknown</a>
  
 
  
-
 

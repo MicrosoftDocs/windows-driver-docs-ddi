@@ -7,7 +7,7 @@ old-location: print\spoolercopyfileevent.htm
 old-project: print
 ms.assetid: 39e9b596-7726-439c-8ad9-a987fdfd3860
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: SpoolerCopyFileEvent, SpoolerCopyFileEvent function [Print Devices], poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml, print.spoolercopyfileevent, winsplp/SpoolerCopyFileEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Mscms.dll
 api_name:
 -	SpoolerCopyFileEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpoolerCopyFileEvent function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 A Point and Print DLL's <code>SpoolerCopyFileEvent</code> function receives notifications of events associated with copying print queue-associated files to a print client, when the client connects to a print server.
-
-
-## -syntax
-
-
-````
-BOOL SpoolerCopyFileEvent(
-  _In_ LPWSTR pszPrinterName,
-  _In_ LPWSTR pszKey,
-  _In_ DWORD  dwCopyFileEvent
-);
-````
 
 
 ## -parameters
@@ -188,12 +176,11 @@ If <i>dwCopyFileEvent</i> is COPYFILE_EVENT_ADD_PRINTER_CONNECTION or COPYFILE_E
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-generatecopyfilepaths.md">GenerateCopyFilePaths</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549896">GenerateCopyFilePaths</a>
  
 
  
-
 

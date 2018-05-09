@@ -7,7 +7,7 @@ old-location: print\oemsendfontcmd.htm
 old-project: print
 ms.assetid: 4dcc2ec0-6a75-4fc0-800c-c1ce12e3fd6a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMSendFontCmd, OEMSendFontCmd function [Print Devices], print.oemsendfontcmd, print_obsoletefunctions_f54bf949-57eb-49ea-a69b-f9edfdfb9da6.xml, printoem/OEMSendFontCmd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMSendFontCmd
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMSendFontCmd function
@@ -50,18 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-VOID APIENTRY OEMSendFontCmd(
-   PDEVOBJ      pdevobj,
-   PUNIFONTOBJ  pUFObj,
-   PFINVOCATION pFInv
-);
-````
 
 
 ## -parameters

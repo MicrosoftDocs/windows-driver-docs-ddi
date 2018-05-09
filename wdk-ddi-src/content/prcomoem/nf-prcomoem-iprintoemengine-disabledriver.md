@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.DisableDriver
-title: IPrintOemEngine::DisableDriver method
+title: IPrintOemEngine::DisableDriver
 author: windows-driver-content
 description: "."
 old-location: print\iprintoemengine_disabledriver.htm
 old-project: print
 ms.assetid: 1BCE08D6-B25E-4C1B-B0F7-A53BE0E705A1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DisableDriver method [Print Devices], DisableDriver method [Print Devices], IPrintOemEngine interface, DisableDriver,IPrintOemEngine.DisableDriver, IPrintOemEngine, IPrintOemEngine interface [Print Devices], DisableDriver method, IPrintOemEngine::DisableDriver, prcomoem/IPrintOemEngine::DisableDriver, print.iprintoemengine_disabledriver
+ms.date: 4/20/2018
+ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],DisableDriver method, IPrintOemEngine.DisableDriver, IPrintOemEngine::DisableDriver, prcomoem/IPrintOemEngine::DisableDriver, print.iprintoemengine_disabledriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemEngine.DisableDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemEngine::DisableDriver method
+# IPrintOemEngine::DisableDriver
 
 
 ## -description
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT DisableDriver(
-    
-);
-````
 
 
 ## -parameters
@@ -81,12 +71,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemengine.md">IPrintOemEngine</a>
 
 
 
+<a href="https://msdn.microsoft.com/DE86FA8C-2E27-4B39-B52D-6227AF56F399">IPrintOemEngine</a>
  
 
  
-
 

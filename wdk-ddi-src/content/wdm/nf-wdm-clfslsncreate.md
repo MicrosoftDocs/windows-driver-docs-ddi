@@ -7,7 +7,7 @@ old-location: kernel\clfslsncreate.htm
 old-project: kernel
 ms.assetid: 2b183911-0c4d-4b67-834d-e876d22c99af
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsLsnCreate, ClfsLsnCreate routine [Kernel-Mode Driver Architecture], Clfs_5eea5630-3db0-45bb-8e16-c9e69081f972.xml, kernel.clfslsncreate, wdm/ClfsLsnCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsLsnCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsLsnCreate function
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ClfsLsnCreate</b> routine creates a log sequence number (LSN), given a container identifier, a block offset, and a record sequence number.
-
-
-## -syntax
-
-
-````
-CLFS_LSN ClfsLsnCreate(
-  _In_ CLFS_CONTAINER_ID cidContainer,
-  _In_ ULONG             offBlock,
-  _In_ ULONG             cRecord
-);
-````
 
 
 ## -parameters
@@ -90,7 +78,7 @@ An integer in the range 0 - 511 that supplies the record sequence number.
 
 
 
-<b>ClfsLsnCreate</b> returns a <a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a> structure that represents the container identifier, block offset, and record sequence number supplied by the caller.
+<b>ClfsLsnCreate</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that represents the container identifier, block offset, and record sequence number supplied by the caller.
 
 
 
@@ -108,20 +96,19 @@ systems.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfslsnblockoffset.md">ClfsLsnBlockOffset</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfslsnrecordsequence.md">ClfsLsnRecordSequence</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541569">ClfsLsnBlockOffset</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfslsncontainer.md">ClfsLsnContainer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541573">ClfsLsnContainer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541615">ClfsLsnRecordSequence</a>
  
 
  
-
 

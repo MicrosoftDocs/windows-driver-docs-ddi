@@ -38,10 +38,10 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_DEVICE_PROPERTY_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_DEVICE_PROPERTY_DATA, *PWDF_DEVICE_PROPERTY_DATA
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DEVICE_PROPERTY_DATA structure
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_DEVICE_PROPERTY_DATA</b> structure describes a device property.
-
-
-## -syntax
-
-
-````
-typedef struct _WDF_DEVICE_PROPERTY_DATA {
-  ULONG            Size;
-  const DEVPROPKEY *PropertyKey;
-  LCID             Lcid;
-  ULONG            Flags;
-} WDF_DEVICE_PROPERTY_DATA, *PWDF_DEVICE_PROPERTY_DATA;
-````
 
 
 ## -struct-fields
@@ -91,7 +78,7 @@ Specifies a locale identifier. Set this parameter either to a language-specific 
 
 ### -field Flags
 
-Set to  <b>PLUGPLAY_PROPERTY_PERSISTENT</b> if this property value is being set by <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md">WdfDeviceAssignProperty</a>. Otherwise, set this member to zero.
+Set to  <b>PLUGPLAY_PROPERTY_PERSISTENT</b> if this property value is being set by <a href="https://msdn.microsoft.com/library/windows/hardware/dn265601">WdfDeviceAssignProperty</a>. Otherwise, set this member to zero.
 
 
 ## -remarks
@@ -102,54 +89,53 @@ The <b>WDF_DEVICE_PROPERTY_DATA</b> structure is used as input to the following 
 
 <ul>
 <li>
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265599">WdfDeviceAllocAndQueryPropertyEx</a>
 </li>
 <li>
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md">WdfDeviceAssignProperty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265601">WdfDeviceAssignProperty</a>
 </li>
 <li>
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequerypropertyex.md">WdfDeviceQueryPropertyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265608">WdfDeviceQueryPropertyEx</a>
 </li>
 <li>
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandquerypropertyex.md">WdfFdoInitAllocAndQueryPropertyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265612">WdfFdoInitAllocAndQueryPropertyEx</a>
 </li>
 <li>
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265613">WdfFdoInitQueryPropertyEx</a>
 </li>
 </ul>
-Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>.
+Drivers should initialize this structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn265633">WDF_DEVICE_PROPERTY_DATA_INIT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequerypropertyex.md">WdfDeviceQueryPropertyEx</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265633">WDF_DEVICE_PROPERTY_DATA_INIT</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md">WdfDeviceAssignProperty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265599">WdfDeviceAllocAndQueryPropertyEx</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265601">WdfDeviceAssignProperty</a>
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitallocandquerypropertyex.md">WdfFdoInitAllocAndQueryPropertyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265608">WdfDeviceQueryPropertyEx</a>
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265612">WdfFdoInitAllocAndQueryPropertyEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265613">WdfFdoInitQueryPropertyEx</a>
  
 
  
-
 

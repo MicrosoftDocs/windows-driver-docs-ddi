@@ -7,7 +7,7 @@ old-location: print\initializeprintmonitor2.htm
 old-project: print
 ms.assetid: 73348405-0cc1-412a-b9b1-cfcc300190d7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: InitializePrintMonitor2, InitializePrintMonitor2 function [Print Devices], print.initializeprintmonitor2, spoolfnc_34b0ce7d-8bb5-4cb1-9539-cd3b1b0113f4.xml, winsplp/InitializePrintMonitor2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winsplp.h
 api_name:
 -	InitializePrintMonitor2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # InitializePrintMonitor2 function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 A print monitor's <b>InitializePrintMonitor2</b> function initializes a print monitor for use with clustered print servers.
 
 
-## -syntax
-
-
-````
-LPMONITOR2 InitializePrintMonitor2(
-  _In_  PMONITORINIT pMonitorInit,
-  _Out_ PHANDLE      phMonitor
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ LPMONITOR2 InitializePrintMonitor2(
 
 ### -param pMonitorInit [in]
 
-Caller-supplied pointer to a <a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557535">MONITORINIT</a> structure.
 
 
 ### -param phMonitor [out]
@@ -83,7 +72,7 @@ Caller-supplied location in which the function returns a monitor handle.
 
 
 
-If the operation succeeds, the function should return a pointer to a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure. Otherwise the function should call SetLastError (described in the Microsoft Windows SDK documentation) to set an error code, and return <b>NULL</b>.
+If the operation succeeds, the function should return a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure. Otherwise the function should call SetLastError (described in the Microsoft Windows SDK documentation) to set an error code, and return <b>NULL</b>.
 
 
 
@@ -92,9 +81,9 @@ If the operation succeeds, the function should return a pointer to a <a href="..
 
 
 
-The <b>InitializePrintMonitor2</b> function must be exported by <a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">language monitors</a> and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
+The <b>InitializePrintMonitor2</b> function must be exported by <a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">language monitors</a> and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure.
 
-The <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure is larger in Windows XP than it was in Windows 2000. In order to ensure that a monitor developed with the Windows XP Driver Development Kit (DDK) will install on Windows XP and Windows 2000, the monitor must do the following:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure is larger in Windows XP than it was in Windows 2000. In order to ensure that a monitor developed with the Windows XP Driver Development Kit (DDK) will install on Windows XP and Windows 2000, the monitor must do the following:
 
 <ul>
 <li>
@@ -157,12 +146,11 @@ For a monitor that is loading on Windows 2000, the following code sets the MONIT
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorinit.md">MONITORINIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557535">MONITORINIT</a>
  
 
  
-
 

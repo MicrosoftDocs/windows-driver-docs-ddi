@@ -7,7 +7,7 @@ old-location: ifsk\ioqueuethreadirp.htm
 old-project: ifsk
 ms.assetid: 165eaae5-ce68-462e-902c-64120fba91c5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: IoQueueThreadIrp, IoQueueThreadIrp function [Installable File System Drivers], ifsk.ioqueuethreadirp, ioref_e5906bb2-1a02-4405-92b6-64848786b3f0.xml, ntifs/IoQueueThreadIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntifs.h
 api_name:
 -	IoQueueThreadIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoQueueThreadIrp function
@@ -49,17 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoQueueThreadIrp</b> routine is reserved for system use. See <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a> and <a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>. 
-
-
-## -syntax
-
-
-````
-  IoQueueThreadIrp(
-    
-);
-````
+The <b>IoQueueThreadIrp</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff548318">IoBuildDeviceIoControlRequest</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548330">IoBuildSynchronousFsdRequest</a>. 
 
 
 ## -parameters

@@ -7,8 +7,8 @@ old-location: display\logmarkerstringtable.htm
 old-project: display
 ms.assetid: DDB42924-5C28-4737-92C1-4FB7A00B09AA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: LogMarkerStringTable, LogMarkerStringTable callback function [Display Devices], PFND3DDDI_LOGSTRINGTABLE, d3dumddi/LogMarkerStringTable, display.logmarkerstringtable
+ms.date: 4/16/2018
+ms.keywords: LogMarkerStringTable, LogMarkerStringTable callback function [Display Devices], PFND3DDDI_LOGSTRINGTABLE, PFND3DDDI_LOGSTRINGTABLE callback, d3dumddi/LogMarkerStringTable, display.logmarkerstringtable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	LogMarkerStringTable
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_LOGSTRINGTABLE callback
+# PFND3DDDI_LOGSTRINGTABLE callback function
 
 
 ## -description
 
 
 Called by the Microsoft Direct3D runtime to request that the user-mode display driver log a custom Event Tracing for Windows (ETW) marker event. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_LOGSTRINGTABLE LogMarkerStringTable;
-
-_Check_return_ HRESULT APIENTRY* LogMarkerStringTable(
-   HANDLE                          hLog,
-   PFND3DDDICB_LOGSTRINGTABLEENTRY pfnLogStringTableEntryCb
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ A handle to the Event Tracing for Windows (ETW) log that is to be written to.
 
 ### -param pfnLogStringTableEntryCb
 
-A function pointer to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddicb_logstringtableentry.md">LogMarkerStringTableEntry</a> function that locates a string table entry.
+A function pointer to the <a href="https://msdn.microsoft.com/54D1F822-2D82-498D-A50F-A917FA127496">LogMarkerStringTableEntry</a> function that locates a string table entry.
 
 
 ## -returns
@@ -102,12 +89,11 @@ This function is free-threaded.
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddicb_logstringtableentry.md">LogMarkerStringTableEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/54D1F822-2D82-498D-A50F-A917FA127496">LogMarkerStringTableEntry</a>
  
 
  
-
 

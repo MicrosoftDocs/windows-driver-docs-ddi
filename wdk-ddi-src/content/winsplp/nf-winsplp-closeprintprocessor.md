@@ -7,7 +7,7 @@ old-location: print\closeprintprocessor.htm
 old-project: print
 ms.assetid: 3cf87a18-8b5a-40f2-9c0e-2b29167e283d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: ClosePrintProcessor, ClosePrintProcessor function [Print Devices], print.closeprintprocessor, spoolfnc_f2e791a0-bfae-463c-a7ac-0e9f941ebe51.xml, winsplp/ClosePrintProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Nwprint.dll
 api_name:
 -	ClosePrintProcessor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClosePrintProcessor function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 A print processor's <b>ClosePrintProcessor</b> function completes the printing of a print job and makes the associated handle invalid.
 
 
-## -syntax
-
-
-````
-BOOL ClosePrintProcessor(
-  _Inout_ HANDLE hPrintProcessor
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ BOOL ClosePrintProcessor(
 
 ### -param hPrintProcessor [in, out]
 
-Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>.
+Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a>.
 
 
 ## -returns
@@ -87,23 +77,22 @@ If the operation succeeds, the function should return <b>TRUE</b>. If the operat
 
 
 
-Print processors are required to export a <b>ClosePrintProcessor</b> function. The spooler calls the function after the print processor's <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a> returns. The function should free all resources that were allocated by the <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a> function.
+Print processors are required to export a <b>ClosePrintProcessor</b> function. The spooler calls the function after the print processor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560724">PrintDocumentOnPrintProcessor</a> returns. The function should free all resources that were allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
 
 
 
-<a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560724">PrintDocumentOnPrintProcessor</a>
  
 
  
-
 

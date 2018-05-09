@@ -38,10 +38,10 @@ api_location:
 -	wdfworkitem.h
 api_name:
 -	WDF_WORKITEM_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_WORKITEM_CONFIG_INIT function
@@ -52,18 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_WORKITEM_CONFIG_INIT</b> function initializes a driver's <a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_WORKITEM_CONFIG_INIT(
-  _Out_ PWDF_WORKITEM_CONFIG Config,
-  _In_  PFN_WDF_WORKITEM     EvtWorkItemFunc
-);
-````
+The <b>WDF_WORKITEM_CONFIG_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff553086">WDF_WORKITEM_CONFIG</a> structure.
 
 
 ## -parameters
@@ -73,7 +62,7 @@ VOID WDF_WORKITEM_CONFIG_INIT(
 
 ### -param Config [out]
 
-A pointer to the caller-allocated <a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a> structure to initialize.
+A pointer to the caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff553086">WDF_WORKITEM_CONFIG</a> structure to initialize.
 
 
 ### -param EvtWorkItemFunc [in]
@@ -94,14 +83,14 @@ None
 
 
 
-Drivers must call <b>WDF_WORKITEM_CONFIG_INIT</b> before calling <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>.
+Drivers must call <b>WDF_WORKITEM_CONFIG_INIT</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff551201">WdfWorkItemCreate</a>.
 
-The <b>WDF_WORKITEM_CONFIG_INIT</b> function stores the pointer that the <i>EvtWorkItemFunc</i> parameter specifies and sets the <b>AutomaticSerialization</b> member of the <a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a> structure that is pointed to by the <i>Config</i> parameter to <b>TRUE</b>.
+The <b>WDF_WORKITEM_CONFIG_INIT</b> function stores the pointer that the <i>EvtWorkItemFunc</i> parameter specifies and sets the <b>AutomaticSerialization</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553086">WDF_WORKITEM_CONFIG</a> structure that is pointed to by the <i>Config</i> parameter to <b>TRUE</b>.
 
 
 #### Examples
 
-For a code example that uses <b>WDF_WORKITEM_CONFIG_INIT</b>, see <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>.
+For a code example that uses <b>WDF_WORKITEM_CONFIG_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551201">WdfWorkItemCreate</a>.
 
 <div class="code"></div>
 
@@ -109,20 +98,19 @@ For a code example that uses <b>WDF_WORKITEM_CONFIG_INIT</b>, see <a href="..\wd
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/2a2811de-9024-40a8-b8af-b61ca4100218">EvtWorkItem</a>
 
 
 
-<a href="..\wdfworkitem\ns-wdfworkitem-_wdf_workitem_config.md">WDF_WORKITEM_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553086">WDF_WORKITEM_CONFIG</a>
 
 
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551201">WdfWorkItemCreate</a>
  
 
  
-
 

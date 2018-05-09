@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsTopology.CreateNodeInstance
-title: IKsTopology::CreateNodeInstance method
+title: IKsTopology::CreateNodeInstance
 author: windows-driver-content
 description: The CreateNodeInstance method requests a KS filter object to open a topology node object.
 old-location: stream\ikstopology_createnodeinstance.htm
 old-project: stream
 ms.assetid: 882b47c2-8fbe-4de0-8ef3-206faaf1e990
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: CreateNodeInstance method [Streaming Media Devices], CreateNodeInstance method [Streaming Media Devices], IKsTopology interface, CreateNodeInstance,IKsTopology.CreateNodeInstance, IKsTopology, IKsTopology interface [Streaming Media Devices], CreateNodeInstance method, IKsTopology::CreateNodeInstance, ksproxy/IKsTopology::CreateNodeInstance, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, stream.ikstopology_createnodeinstance
+ms.date: 4/23/2018
+ms.keywords: CreateNodeInstance, CreateNodeInstance method [Streaming Media Devices], CreateNodeInstance method [Streaming Media Devices],IKsTopology interface, IKsTopology interface [Streaming Media Devices],CreateNodeInstance method, IKsTopology.CreateNodeInstance, IKsTopology::CreateNodeInstance, ksproxy/IKsTopology::CreateNodeInstance, ksproxy_91ff533c-4aa9-43db-9165-1c0c6f395393.xml, stream.ikstopology_createnodeinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsTopology.CreateNodeInstance
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsTopology::CreateNodeInstance method
+# IKsTopology::CreateNodeInstance
 
 
 ## -description
 
 
 The <b>CreateNodeInstance</b> method requests a KS filter object to open a topology node object.
-
-
-## -syntax
-
-
-````
-HRESULT CreateNodeInstance(
-  [in]           ULONG       NodeId,
-  [in]           ULONG       Flags,
-  [in]           ACCESS_MASK DesiredAccess,
-  [in, optional] IUnknown    *UnkOuter,
-  [in]           REFGUID     InterfaceId,
-  [out]          LPVOID      *Interface
-);
-````
 
 
 ## -parameters
@@ -84,7 +70,7 @@ A bitmask enumerating the type of topology node object. No flags are currently d
 
 ### -param DesiredAccess [in]
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> bitmask specifying the type of access that the caller requires to the topology node object. See <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> for a description of each access-right value.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> bitmask specifying the type of access that the caller requires to the topology node object. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> for a description of each access-right value.
 
 
 ### -param UnkOuter [in, optional]
@@ -113,11 +99,6 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikstopology.md">IKsTopology</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
@@ -125,8 +106,12 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560737">IKsTopology</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
  
 
  
-
 

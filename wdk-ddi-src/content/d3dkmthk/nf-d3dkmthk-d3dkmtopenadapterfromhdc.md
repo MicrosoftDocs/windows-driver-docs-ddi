@@ -7,7 +7,7 @@ old-location: display\d3dkmtopenadapterfromhdc.htm
 old-project: display
 ms.assetid: f54951fe-c79e-435e-9f31-9c39da26da6c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTOpenAdapterFromHdc, D3DKMTOpenAdapterFromHdc function [Display Devices], OpenGL_Functions_f12cc225-0315-4dfa-ae28-52657ea0f030.xml, d3dkmthk/D3DKMTOpenAdapterFromHdc, display.d3dkmtopenadapterfromhdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTOpenAdapterFromHdc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTOpenAdapterFromHdc function
@@ -55,26 +56,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTOpenAdapterFromHdc</b> function maps a device context handle (HDC) to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTOpenAdapterFromHdc(
-  _Inout_ D3DKMT_OPENADAPTERFROMHDC *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromhdc.md">D3DKMT_OPENADAPTERFROMHDC</a> structure that describes the parameters that are required to perform the mapping.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548121">D3DKMT_OPENADAPTERFROMHDC</a> structure that describes the parameters that are required to perform the mapping.
 
 
 ## -returns
@@ -188,12 +184,11 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTOpenA
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openadapterfromhdc.md">D3DKMT_OPENADAPTERFROMHDC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548121">D3DKMT_OPENADAPTERFROMHDC</a>
  
 
  
-
 

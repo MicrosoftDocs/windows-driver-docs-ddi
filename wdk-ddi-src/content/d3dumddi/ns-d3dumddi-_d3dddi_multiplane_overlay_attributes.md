@@ -7,7 +7,7 @@ old-location: display\d3dddi_multiplane_overlay_attributes.htm
 old-project: display
 ms.assetid: 6f758785-5d7f-4d63-82c7-93ced5de3da4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], _D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, display.d3dddi_multiplane_overlay_attributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 ---
@@ -52,35 +53,6 @@ req.typenames: D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 Used by the user-mode display driver to specify overlay plane attributes.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES {
-  UINT                                         Flags;
-  RECT                                         SrcRect;
-  RECT                                         DstRect;
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM1_3)
-  RECT                                         ClipRect;
-#endif 
-  D3DDDI_ROTATION                              Rotation;
-  D3DDDI_MULTIPLANE_OVERLAY_BLEND              Blend;
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM1_3)
-  UINT                                         DirtyRectCount;
-  RECT                                         *pDirtyRects;
-#else 
-  UINT                                         NumFilters;
-  void                                         *pFilters;
-#endif 
-  D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT VideoFrameFormat;
-  UINT                                         YCbCrFlags;
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM1_3)
-  D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY    StretchQuality;
-#endif 
-} D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +60,7 @@ typedef struct _D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES {
 
 ### -field Flags
 
-Specifies a flip operation as one of the applicable values in the <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_multiplane_overlay_flags.md">D3DDDI_MULTIPLANE_OVERLAY_FLAGS</a> enumeration.
+Specifies a flip operation as one of the applicable values in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780241">D3DDDI_MULTIPLANE_OVERLAY_FLAGS</a> enumeration.
 
 
 ### -field SrcRect
@@ -110,12 +82,12 @@ The driver and hardware can use the <b>ClipRect</b> member to apply a common str
 
 ### -field Rotation
 
-Specifies the clockwise rotation of the overlay plane, given as a value from the <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a> enumeration.
+Specifies the clockwise rotation of the overlay plane, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544646">D3DDDI_ROTATION</a> enumeration.
 
 
 ### -field Blend
 
-Specifies the blend mode that applies to this overlay plane and the plane beneath it, given as a value from the <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_multiplane_overlay_blend.md">D3DDDI_MULTIPLANE_OVERLAY_BLEND</a> enumeration.
+Specifies the blend mode that applies to this overlay plane and the plane beneath it, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780235">D3DDDI_MULTIPLANE_OVERLAY_BLEND</a> enumeration.
 
 
 ### -field DirtyRectCount
@@ -142,53 +114,52 @@ An optional pointer to a buffer that specifies the filters that the driver and h
 
 ### -field VideoFrameFormat
 
-Specifies the overlay plane's video frame format, given as a value from the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_multiplane_overlay_video_frame_format.md">D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a> enumeration.
+Specifies the overlay plane's video frame format, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780243">D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a> enumeration.
 
 <div class="alert"><b>Note</b>  This value must always be <b>DXGI_DDI_MULIIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE</b>. The operating system does not support the other enumeration values.</div>
 <div> </div>
 
 ### -field YCbCrFlags
 
-Specifies YUV range and conversion info given as a value from the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_multiplane_overlay_ycbcr_flags.md">D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a> enumeration.
+Specifies YUV range and conversion info given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780244">D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a> enumeration.
 
 
 ### -field StretchQuality
 
-Specifies the overlay plane's stretch quality, given as a value from the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_multiplane_overlay_stretch_quality.md">D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a> enumeration.
+Specifies the overlay plane's stretch quality, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn312129">D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a> enumeration.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_multiplane_overlay_video_frame_format.md">D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddi_multiplane_overlay_flags.md">D3DDDI_MULTIPLANE_OVERLAY_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780235">D3DDDI_MULTIPLANE_OVERLAY_BLEND</a>
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780241">D3DDDI_MULTIPLANE_OVERLAY_FLAGS</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_multiplane_overlay_ycbcr_flags.md">D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn312129">D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddi_multiplane_overlay_blend.md">D3DDDI_MULTIPLANE_OVERLAY_BLEND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780243">D3DDDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_multiplane_overlay_stretch_quality.md">D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780244">D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544646">D3DDDI_ROTATION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

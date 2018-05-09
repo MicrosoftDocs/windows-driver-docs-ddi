@@ -7,7 +7,7 @@ old-location: display\dxgk_buildpagingbuffer_transfervirtual.htm
 old-project: display
 ms.assetid: D4427E44-204F-490C-9EE7-BBC4906E5920
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, d3dkmddi/DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, display.dxgk_buildpagingbuffer_transfervirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL
 ---
@@ -52,24 +53,6 @@ req.typenames: DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL
 <b>DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</b> is used as part of an allocation transfer operation.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL {
-  HANDLE                         hAllocation;
-  UINT64                         AllocationOffsetInBytes;
-  UINT64                         TransferSizeInBytes;
-  D3DGPU_VIRTUAL_ADDRESS         SourceVirtualAddress;
-  D3DGPU_VIRTUAL_ADDRESS         DestinationVirtualAddress;
-  D3DGPU_VIRTUAL_ADDRESS         SourcePageTable;
-  DXGK_MEMORY_TRANSFER_DIRECTION TransferDirection;
-  DXGK_TRANSFERVIRTUALFLAGS      Flags;
-  D3DGPU_VIRTUAL_ADDRESS         DestinationPageTable;
-} DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +60,7 @@ typedef struct _DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL {
 
 ### -field hAllocation
 
-Kernel mode driver handle of the transferred allocation content. The handle is returned from <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>. The allocation properties are needed to perform special transfers (as swizzle, de-swizzle, etc.).
+Kernel mode driver handle of the transferred allocation content. The handle is returned from <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>. The allocation properties are needed to perform special transfers (as swizzle, de-swizzle, etc.).
 
 
 ### -field AllocationOffsetInBytes
@@ -109,12 +92,12 @@ The GPU virtual address of the page table that is used to map the <b>SourceVirtu
 
 ### -field TransferDirection
 
-The <a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_memory_transfer_direction.md">DXGK_MEMORY_TRANSFER_DIRECTION</a> structure describing the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906830">DXGK_MEMORY_TRANSFER_DIRECTION</a> structure describing the operation.
 
 
 ### -field Flags
 
-The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transfervirtualflags.md">DXGK_TRANSFERVIRTUALFLAGS</a> structure describing the operation.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906843">DXGK_TRANSFERVIRTUALFLAGS</a> structure describing the operation.
 
 
 ### -field DestinationPageTable
@@ -124,24 +107,23 @@ The GPU virtual address of the page table that  is used to map the <b>Destinatio
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transfervirtualflags.md">DXGK_TRANSFERVIRTUALFLAGS</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_memory_transfer_direction.md">DXGK_MEMORY_TRANSFER_DIRECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906830">DXGK_MEMORY_TRANSFER_DIRECTION</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906843">DXGK_TRANSFERVIRTUALFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgk_destroyallocationflags.htm
 old-project: display
 ms.assetid: 8f848d68-cef4-45a2-bdda-1bc8c9df6272
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_DESTROYALLOCATIONFLAGS, DXGK_DESTROYALLOCATIONFLAGS structure [Display Devices], DmStructs_acc32f8d-3d16-493e-be05-e739bc635bd0.xml, _DXGK_DESTROYALLOCATIONFLAGS, d3dkmddi/DXGK_DESTROYALLOCATIONFLAGS, display.dxgk_destroyallocationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_DESTROYALLOCATIONFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_DESTROYALLOCATIONFLAGS
 ---
@@ -52,22 +53,6 @@ req.typenames: DXGK_DESTROYALLOCATIONFLAGS
 The DXGK_DESTROYALLOCATIONFLAGS structure identifies how to release allocations.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_DESTROYALLOCATIONFLAGS {
-  union {
-    struct {
-      UINT DestroyResource  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGK_DESTROYALLOCATIONFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +60,7 @@ typedef struct _DXGK_DESTROYALLOCATIONFLAGS {
 
 ### -field DestroyResource
 
-A UINT value that specifies whether the resource that the <b>hResource</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_destroyallocation.md">DXGKARG_DESTROYALLOCATION</a> structure specifies should be released along with allocations. 
+A UINT value that specifies whether the resource that the <b>hResource</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557581">DXGKARG_DESTROYALLOCATION</a> structure specifies should be released along with allocations. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
@@ -85,19 +70,18 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that DXGK_DESTROYALLOCATIONFLAGS contains that can hold a 32-bit value that identifies how to release allocations.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_destroyallocation.md">DXGKARG_DESTROYALLOCATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557581">DXGKARG_DESTROYALLOCATION</a>
  
 
  
-
 

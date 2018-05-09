@@ -7,7 +7,7 @@ old-location: kernel\obreferenceobjectwithtag.htm
 old-project: kernel
 ms.assetid: d2b95301-c018-4a2f-801d-a78b00c8d9ca
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ObReferenceObjectWithTag, ObReferenceObjectWithTag routine [Kernel-Mode Driver Architecture], k107_a35c78fa-edf5-4a93-908b-baf16718b095.xml, kernel.obreferenceobjectwithtag, wdm/ObReferenceObjectWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ObReferenceObjectWithTag
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ObReferenceObjectWithTag macro
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>ObReferenceObjectWithTag</b> routine increments the reference count of the specified object, and writes a four-byte tag value to the object to support <a href="http://go.microsoft.com/fwlink/p/?linkid=153590">object reference tracing</a>.
 
 
-## -syntax
-
-
-````
-VOID ObReferenceObjectWithTag(
-  _In_ PVOID Object,
-  _In_ ULONG Tag
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ VOID ObReferenceObjectWithTag(
 
 ### -param Object [in]
 
-A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a> routine after it opens the object.
+A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558683">ObReferenceObjectByHandleWithTag</a> routine after it opens the object.
 
 
 ### -param Tag [in]
@@ -83,15 +72,15 @@ Specifies a four-byte, custom tag value. For more information, see the following
 
 
 
-<b>ObReferenceObjectWithTag</b> simply increments the pointer reference count for an object, without making any access checks on the specified object. In contrast, the <a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a> and <a href="..\wdm\nf-wdm-obreferenceobjectbypointerwithtag.md">ObReferenceObjectByPointerWithTag</a> routines verify that the caller has the required access rights to the object and fail if the caller does not have these rights.
+<b>ObReferenceObjectWithTag</b> simply increments the pointer reference count for an object, without making any access checks on the specified object. In contrast, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558683">ObReferenceObjectByHandleWithTag</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff558688">ObReferenceObjectByPointerWithTag</a> routines verify that the caller has the required access rights to the object and fail if the caller does not have these rights.
 
-A <b>ObReferenceObjectWithTag</b> call prevents deletion of the specified object at least until the driver either calls the <a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a> routine, or closes the object. After the object is no longer needed, the driver must call <b>ObDereferenceObjectWithTag</b> to remove its reference to the object.
+A <b>ObReferenceObjectWithTag</b> call prevents deletion of the specified object at least until the driver either calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557734">ObDereferenceObjectWithTag</a> routine, or closes the object. After the object is no longer needed, the driver must call <b>ObDereferenceObjectWithTag</b> to remove its reference to the object.
 
 When the reference count for an object reaches zero, a kernel-mode component can delete the object. However, a driver can delete only those objects that it created, and a driver should never attempt to delete any object that it did not create.
 
 For more information about object references, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554294">Life Cycle of an Object</a>.
 
-The <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> routine is similar to <b>ObReferenceObjectWithTag</b>, except that it does not enable the caller to write a custom tag to an object. In Windows 7 and later versions of Windows, <b>ObReferenceObject</b> always writes a default tag value ('tlfD') to the object. A call to <b>ObReferenceObject</b> has the same effect as a call to <b>ObReferenceObjectWithTag</b> that specifies <i>Tag</i> = 'tlfD'.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a> routine is similar to <b>ObReferenceObjectWithTag</b>, except that it does not enable the caller to write a custom tag to an object. In Windows 7 and later versions of Windows, <b>ObReferenceObject</b> always writes a default tag value ('tlfD') to the object. A call to <b>ObReferenceObject</b> has the same effect as a call to <b>ObReferenceObjectWithTag</b> that specifies <i>Tag</i> = 'tlfD'.
 
 To view an object reference trace in the <a href="http://go.microsoft.com/fwlink/p/?linkid=153599">Windows debugging tools</a>, use the <a href="http://go.microsoft.com/fwlink/p/?linkid=153600">!obtrace</a> kernel-mode debugger extension. In Windows 7, the <a href="http://go.microsoft.com/fwlink/p/?linkid=153600">!obtrace</a> extension is enhanced to display object reference tags, if object reference tracing is enabled. By default, object reference tracing is turned off. Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=153601">Global Flags Editor</a> (Gflags) to enable object reference tracing. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558668">Object Reference Tracing with Tags</a>.
 
@@ -100,24 +89,23 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557734">ObDereferenceObjectWithTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointerwithtag.md">ObReferenceObjectByPointerWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558683">ObReferenceObjectByHandleWithTag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558688">ObReferenceObjectByPointerWithTag</a>
  
 
  
-
 

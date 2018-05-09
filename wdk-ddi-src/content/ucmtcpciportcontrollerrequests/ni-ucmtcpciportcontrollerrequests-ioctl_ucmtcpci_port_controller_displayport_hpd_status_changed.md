@@ -7,8 +7,8 @@ old-location: buses\ioctl_ucmtcpci_port_controller_displayport_hpd_status_change
 old-project: usbref
 ms.assetid: 5FF692BE-14D2-403A-B7B3-C13CAFBECE05
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED, IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED control code [Buses], buses.ioctl_ucmtcpci_port_controller_displayport_hpd_status_changed, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED
+ms.date: 4/25/2018
+ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED, IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED control, IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED control code [Buses], buses.ioctl_ucmtcpci_port_controller_displayport_hpd_status_changed, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	UcmTcpciPortControllerRequests.h
 api_name:
 -	IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UCMTCPCI_PORT_CONTROLLER_IOCTL
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED IOCTL
@@ -60,12 +60,12 @@ Notifies the client driver that the hot-plug detect status of the DisplayPort co
 
 ### -input-buffer
 
-A pointer to a <a href="..\ucmtcpciportcontrollerrequests\ns-ucmtcpciportcontrollerrequests-_ucmtcpci_port_controller_displayport_hpd_status_changed_in_params.md">UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED_IN_PARAMS</a> structure that contains status information.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt805874">UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED_IN_PARAMS</a> structure that contains status information.
 
 
 ### -input-buffer-length
 
-The size of <a href="..\ucmtcpciportcontrollerrequests\ns-ucmtcpciportcontrollerrequests-_ucmtcpci_port_controller_displayport_hpd_status_changed_in_params.md">UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED_IN_PARAMS</a>.
+The size of <a href="https://msdn.microsoft.com/library/windows/hardware/mt805874">UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS_CHANGED_IN_PARAMS</a>.
 
 
 ### -output-buffer
@@ -120,7 +120,6 @@ The UcmTcpciCx class extension sends this IOCTL request when the DisplayPort mod
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -128,16 +127,16 @@ The UcmTcpciCx class extension sends this IOCTL request when the DisplayPort mod
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

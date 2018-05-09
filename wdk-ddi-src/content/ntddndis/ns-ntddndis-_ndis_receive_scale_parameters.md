@@ -7,7 +7,7 @@ old-location: netvista\ndis_receive_scale_parameters.htm
 old-project: netvista
 ms.assetid: 0d51042e-06b4-4105-889f-84a368e5735a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RECEIVE_SCALE_PARAMETERS, NDIS_RECEIVE_SCALE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RSS_PARAM_FLAG_BASE_CPU_UNCHANGED, NDIS_RSS_PARAM_FLAG_DISABLE_RSS, NDIS_RSS_PARAM_FLAG_HASH_INFO_UNCHANGED, NDIS_RSS_PARAM_FLAG_HASH_KEY_UNCHANGED, NDIS_RSS_PARAM_FLAG_ITABLE_UNCHANGED, PNDIS_RECEIVE_SCALE_PARAMETERS, PNDIS_RECEIVE_SCALE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_SCALE_PARAMETERS, netvista.ndis_receive_scale_parameters, ntddndis/NDIS_RECEIVE_SCALE_PARAMETERS, ntddndis/PNDIS_RECEIVE_SCALE_PARAMETERS, receive_scaling_structures_ref_1055bbcb-da8b-4ee1-bd03-55abfa79b5ab.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_RECEIVE_SCALE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RECEIVE_SCALE_PARAMETERS, *PNDIS_RECEIVE_SCALE_PARAMETERS
 ---
@@ -56,31 +57,6 @@ The <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure specifies the <a href="https:
   </b>
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_RECEIVE_SCALE_PARAMETERS {
-  NDIS_OBJECT_HEADER Header;
-  USHORT             Flags;
-  USHORT             BaseCpuNumber;
-  ULONG              HashInformation;
-  USHORT             IndirectionTableSize;
-  ULONG              IndirectionTableOffset;
-  USHORT             HashSecretKeySize;
-  ULONG              HashSecretKeyOffset;
-#if NDIS_SUPPORT_NDIS620
-  ULONG              ProcessorMasksOffset;
-  ULONG              NumberOfProcessorMasks;
-  ULONG              ProcessorMasksEntrySize;
-#endif 
-#if NDIS_SUPPORT_NDIS660
-  PROCESSOR_NUMBER   DefaultProcessorNumber;
-#endif 
-} NDIS_RECEIVE_SCALE_PARAMETERS, *PNDIS_RECEIVE_SCALE_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -89,7 +65,7 @@ typedef struct _NDIS_RECEIVE_SCALE_PARAMETERS {
 ### -field Header
 
 The 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RECEIVE_SCALE_PARAMETERS</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_PARAMETERS</b>. 
@@ -245,7 +221,7 @@ The offset of an array of processor masks from the beginning of the <b>NDIS_RECE
 
 ### -field NumberOfProcessorMasks
 
-The number of elements in an array of type <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> representing the processors used in the indirection table
+The number of elements in an array of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546539">GROUP_AFFINITY</a> representing the processors used in the indirection table
 
 
 ### -field ProcessorMasksEntrySize
@@ -318,21 +294,10 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
-   NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
-   OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -341,18 +306,28 @@ If RSS is disabled, the miniport driver should handle receive operations without
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
-   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
    NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">
+   NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
+   OID_GEN_RECEIVE_SCALE_CAPABILITIES</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-receive-scale-parameters">
+   OID_GEN_RECEIVE_SCALE_PARAMETERS</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-receive-side-scaling2">Receive Side Scaling (RSS)</a>
  
 
  
-
 

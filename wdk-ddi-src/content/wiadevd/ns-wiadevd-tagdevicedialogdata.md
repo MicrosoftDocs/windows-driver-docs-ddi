@@ -7,7 +7,7 @@ old-location: image\devicedialogdata.htm
 old-project: image
 ms.assetid: 8ddd3ad7-fa97-45a4-a124-ceccdfb93f7f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA, DEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA structure pointer [Imaging Devices], PDEVICEDIALOGDATA, PDEVICEDIALOGDATA structure pointer [Imaging Devices], UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, image.devicedialogdata, tagDEVICEDIALOGDATA, wiadevd/DEVICEDIALOGDATA, wiadevd/LPDEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiadevd.h
 api_name:
 -	DEVICEDIALOGDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA
-req.product: Windows 10 or later.
 ---
 
 # tagDEVICEDIALOGDATA structure
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 The DEVICEDIALOGDATA structure contains all the data needed to implement a custom device dialog.
-
-
-## -syntax
-
-
-````
-typedef struct tagDEVICEDIALOGDATA {
-  DWORD    cbSize;
-  HWND     hwndParent;
-  IWiaItem *pIWiaItemRoot;
-  DWORD    dwFlags;
-  LONG     lIntent;
-  LONG     lItemCount;
-  IWiaItem **ppWiaItems;
-} DEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA;
-````
 
 
 ## -struct-fields
@@ -124,12 +108,11 @@ The <b>IWiaPropertyStorage</b> interface is used to access information about the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545069">IWiaUIExtension::DeviceDialog</a>
-
-
-
  
 
  
-
 

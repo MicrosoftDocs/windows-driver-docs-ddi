@@ -7,7 +7,7 @@ old-location: kernel\transaction_outcome.htm
 old-project: kernel
 ms.assetid: 1612e8d8-996b-45d2-93cc-df5b388596d4
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], TransactionOutcomeAborted, TransactionOutcomeCommitted, TransactionOutcomeUndetermined, _TRANSACTION_OUTCOME, kernel.transaction_outcome, ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, wdm/TRANSACTION_OUTCOME, wdm/TransactionOutcomeAborted, wdm/TransactionOutcomeCommitted, wdm/TransactionOutcomeUndetermined
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	TRANSACTION_OUTCOME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSACTION_OUTCOME
-req.product: Windows 10 or later.
 ---
 
 # _TRANSACTION_OUTCOME enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>TRANSACTION_OUTCOME</b> enumeration defines the outcomes (results) that KTM can assign to a transaction.
-
-
-## -syntax
-
-
-````
-typedef enum _TRANSACTION_OUTCOME { 
-  TransactionOutcomeUndetermined  = 1,
-  TransactionOutcomeCommitted     = 2,
-  TransactionOutcomeAborted       = 3
-} TRANSACTION_OUTCOME;
-````
 
 
 ## -enum-fields
@@ -89,19 +77,18 @@ The transaction has been rolled back.
 
 
 
-The <b>TRANSACTION_OUTCOME</b> enumeration is used in the <a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a> structure.
+The <b>TRANSACTION_OUTCOME</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564781">TRANSACTION_BASIC_INFORMATION</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_transaction_basic_information.md">TRANSACTION_BASIC_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564781">TRANSACTION_BASIC_INFORMATION</a>
  
 
  
-
 

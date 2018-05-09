@@ -7,7 +7,7 @@ old-location: buses\ucm_pd_power_data_object_get_type.htm
 old-project: usbref
 ms.assetid: ACB0AB92-5EC8-4792-AB40-853FC5AAD125
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_GET_TYPE, UCM_PD_POWER_DATA_OBJECT_GET_TYPE function [Buses], buses.ucm_pd_power_data_object_get_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_GET_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Ucmtypes.h
 api_name:
 -	UCM_PD_POWER_DATA_OBJECT_GET_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UCM_TYPEC_PARTNER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCM_PD_POWER_DATA_OBJECT_GET_TYPE function
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Retrieves the type of Power Data Object from the <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structure. 
-
-
-## -syntax
-
-
-````
-FORCEINLINE  UCM_PD_POWER_DATA_OBJECT_GET_TYPE(
-  _In_ PUCM_PD_POWER_DATA_OBJECT Pdo
-);
-````
+Retrieves the type of Power Data Object from the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structure. 
 
 
 ## -parameters
@@ -70,14 +60,14 @@ FORCEINLINE  UCM_PD_POWER_DATA_OBJECT_GET_TYPE(
 
 ### -param Pdo [in]
 
-A pointer to a <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structure that contains the type of Power Data Object.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structure that contains the type of Power Data Object.
 
 
 ## -returns
 
 
 
-Returns the <b>Common.Type</b> member of the  <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> structure.
+Returns the <b>Common.Type</b> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structure.
 
 
 
@@ -86,19 +76,18 @@ Returns the <b>Common.Type</b> member of the  <a href="..\ucmtypes\ns-ucmtypes-_
 
 
 
-For information about the Power Data Object including the types of object, see Power Delivery specification. The Type member of <a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a> indicates the type of Power Data Object.
+For information about the Power Data Object including the types of object, see Power Delivery specification. The Type member of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> indicates the type of Power Data Object.
 
 
 
 
 ## -see-also
 
-<a href="..\ucmtypes\ns-ucmtypes-_ucm_pd_power_data_object.md">UCM_PD_POWER_DATA_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a>
  
 
  
-
 

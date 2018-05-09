@@ -7,8 +7,8 @@ old-location: stream\iksdatatypehandler.htm
 old-project: stream
 ms.assetid: ef08d375-1ac6-489f-9fd4-f791ce82c553
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], IKsDataTypeHandler interface [Streaming Media Devices], described, ksproxy/IKsDataTypeHandler, ksproxy_fd2ab182-1556-438e-bc5e-fe1339d0d865.xml, stream.iksdatatypehandler
+ms.date: 4/23/2018
+ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], IKsDataTypeHandler interface [Streaming Media Devices],described, ksproxy/IKsDataTypeHandler, ksproxy_fd2ab182-1556-438e-bc5e-fe1339d0d865.xml, stream.iksdatatypehandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Ksproxy.lib
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,9 +38,10 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsDataTypeHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
 # IKsDataTypeHandler interface
@@ -121,7 +122,7 @@ Sets the media type for a data handler.
 
 
 
-In order to keep the proxy data type neutral, optional data type handlers can be loaded to massage the data stream as it passes to or from kernel-mode filters. You should implement a data type handler as a COM server that, at least, supports the <b>IKsDataTypeHandler</b> interface. Your data type handler can optionally support the <a href="..\ksproxy\nn-ksproxy-iksdatatypecompletion.md">IKsDataTypeCompletion</a> interface. 
+In order to keep the proxy data type neutral, optional data type handlers can be loaded to massage the data stream as it passes to or from kernel-mode filters. You should implement a data type handler as a COM server that, at least, supports the <b>IKsDataTypeHandler</b> interface. Your data type handler can optionally support the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559799">IKsDataTypeCompletion</a> interface. 
 
 A data type handler is typically loaded during the pin connection process, and unloaded when the connection is broken. However, a data type handler is sometimes loaded briefly for other purposes. For instance, if an application uses DirectShow's <b>IAMStreamConfig::SetFormat</b> method, the application possibly uses a data type handler to complete a partial media type parameter sent to the method. 
 
@@ -136,12 +137,11 @@ For more information about <b>IAMStreamConfig::SetFormat</b> and <b>CoCreateInst
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksdatatypecompletion.md">IKsDataTypeCompletion</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559799">IKsDataTypeCompletion</a>
  
 
  
-
 

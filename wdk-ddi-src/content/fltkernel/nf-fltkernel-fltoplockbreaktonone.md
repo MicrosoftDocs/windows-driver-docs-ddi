@@ -7,7 +7,7 @@ old-location: ifsk\fltoplockbreaktonone.htm
 old-project: ifsk
 ms.assetid: 212dc455-9317-4901-9a96-1c71dde0faf3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_7d787a5c-c78b-43d2-aa48-412010c97630.xml, FltOplockBreakToNone, FltOplockBreakToNone routine [Installable File System Drivers], fltkernel/FltOplockBreakToNone, ifsk.fltoplockbreaktonone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltOplockBreakToNone
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltOplockBreakToNone function
@@ -52,20 +53,6 @@ req.typenames: EXpsFontRestriction
 The <b>FltOplockBreakToNone</b> routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key. 
 
 
-## -syntax
-
-
-````
-FLT_PREOP_CALLBACK_STATUS FltOplockBreakToNone(
-  _In_     POPLOCK                                 Oplock,
-  _In_     PFLT_CALLBACK_DATA                      CallbackData,
-  _In_opt_ PVOID                                   Context,
-  _In_opt_ PFLTOPLOCK_WAIT_COMPLETE_ROUTINE        WaitCompletionRoutine,
-  _In_opt_ PFLTOPLOCK_PREPOST_CALLBACKDATA_ROUTINE PrePostCallbackDataRoutine
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +60,12 @@ FLT_PREOP_CALLBACK_STATUS FltOplockBreakToNone(
 
 ### -param Oplock [in]
 
-An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>. 
+An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543289">FltInitializeOplock</a>. 
 
 
 ### -param CallbackData [in]
 
-A pointer to the callback data (<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>) structure for the I/O operation. 
+A pointer to the callback data (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) structure for the I/O operation. 
 
 
 ### -param Context [in, optional]
@@ -178,7 +165,7 @@ A context information pointer that was passed in the <i>Context</i> parameter to
 </dl>
 </td>
 <td width="60%">
-<b>FltOplockBreakToNone</b> encountered a pool allocation failure, or a call to the <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex~r5.md">FsRtlOplockBreakToNoneEx</a> function returned an error. <b>FltOplockBreakToNone</b> will set the error code in the <b>Status</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure of the <b>IoStatus</b> member. The IO_STATUS_BLOCK structure is specified in the <b>IoStatus</b> member of the <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a> callback data structure. The <i>CallbackData</i> parameter points to this FLT_CALLBACK_DATA. 
+<b>FltOplockBreakToNone</b> encountered a pool allocation failure, or a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547108">FsRtlOplockBreakToNoneEx</a> function returned an error. <b>FltOplockBreakToNone</b> will set the error code in the <b>Status</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure of the <b>IoStatus</b> member. The IO_STATUS_BLOCK structure is specified in the <b>IoStatus</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> callback data structure. The <i>CallbackData</i> parameter points to this FLT_CALLBACK_DATA. 
 
 </td>
 </tr>
@@ -221,24 +208,23 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543289">FltInitializeOplock</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex~r5.md">FsRtlOplockBreakToNoneEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547108">FsRtlOplockBreakToNoneEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a>
  
 
  
-
 

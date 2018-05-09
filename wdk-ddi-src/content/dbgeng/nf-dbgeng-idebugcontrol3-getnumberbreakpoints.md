@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNumberBreakpoints
-title: IDebugControl3::GetNumberBreakpoints method
+title: IDebugControl3::GetNumberBreakpoints
 author: windows-driver-content
 description: The GetNumberBreakpoints method returns the number of breakpoints for the current process.
 old-location: debugger\getnumberbreakpoints.htm
 old-project: debugger
 ms.assetid: 9faffb72-3559-4db7-a02e-3d93dc751ac3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetNumberBreakpoints method [Windows Debugging], GetNumberBreakpoints method [Windows Debugging], IDebugControl interface, GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, GetNumberBreakpoints,IDebugControl3.GetNumberBreakpoints, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl2::GetNumberBreakpoints, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl3::GetNumberBreakpoints, IDebugControl::GetNumberBreakpoints, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, dbgeng/IDebugControl2::GetNumberBreakpoints, dbgeng/IDebugControl3::GetNumberBreakpoints, dbgeng/IDebugControl::GetNumberBreakpoints, debugger.getnumberbreakpoints
+ms.date: 4/24/2018
+ms.keywords: GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], GetNumberBreakpoints method [Windows Debugging],IDebugControl interface, GetNumberBreakpoints method [Windows Debugging],IDebugControl2 interface, GetNumberBreakpoints method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetNumberBreakpoints method, IDebugControl2 interface [Windows Debugging],GetNumberBreakpoints method, IDebugControl2::GetNumberBreakpoints, IDebugControl3 interface [Windows Debugging],GetNumberBreakpoints method, IDebugControl3.GetNumberBreakpoints, IDebugControl3::GetNumberBreakpoints, IDebugControl::GetNumberBreakpoints, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, dbgeng/IDebugControl2::GetNumberBreakpoints, dbgeng/IDebugControl3::GetNumberBreakpoints, dbgeng/IDebugControl::GetNumberBreakpoints, debugger.getnumberbreakpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,28 +40,19 @@ api_name:
 -	IDebugControl.GetNumberBreakpoints
 -	IDebugControl2.GetNumberBreakpoints
 -	IDebugControl3.GetNumberBreakpoints
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetNumberBreakpoints method
+# IDebugControl3::GetNumberBreakpoints
 
 
 ## -description
 
 
 The <b>GetNumberBreakpoints</b> method returns the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">breakpoints</a> for the current process.
-
-
-## -syntax
-
-
-````
-HRESULT GetNumberBreakpoints(
-  [out] PULONG Number
-);
-````
 
 
 ## -parameters
@@ -104,28 +95,27 @@ The method was successful.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537856">AddBreakpoint</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
  
 
  
-
 

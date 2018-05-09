@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg_openadapter.htm
 old-project: display
 ms.assetid: 1FABEEBC-358C-40EB-8F5C-F834EE57A1A8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDIARG_OPENADAPTER, D3D12DDIARG_OPENADAPTER structure [Display Devices], d3d12umddi/D3D12DDIARG_OPENADAPTER, display.d3d12ddiarg_openadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDIARG_OPENADAPTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDIARG_OPENADAPTER
 ---
@@ -52,19 +53,6 @@ req.typenames: D3D12DDIARG_OPENADAPTER
 The D3D12DDIARG_OPENADAPTER structure describes the graphics adapter object.
 
 
-## -syntax
-
-
-````
-typedef struct _D3D12DDIARG_OPENADAPTER {
-  D3D12DDI_HRTADAPTER           hRTAdapter;
-  D3D12DDI_HADAPTER             hAdapter;
-  const D3DDDI_ADAPTERCALLBACKS *pAdapterCallbacks;
-  D3D12DDI_ADAPTERFUNCS         *pAdapterFuncs;
-} D3D12DDIARG_OPENADAPTER;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct _D3D12DDIARG_OPENADAPTER {
 
 ### -field hRTAdapter
 
-[in] A runtime handle to the graphics adapter object that specifies the handle that the driver should use to query for graphics adapter capabilities when the driver calls the Microsoft Direct3D runtime-supplied <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md">pfnQueryAdapterInfoCb</a> callback function. 
+[in] A runtime handle to the graphics adapter object that specifies the handle that the driver should use to query for graphics adapter capabilities when the driver calls the Microsoft Direct3D runtime-supplied <a href="https://msdn.microsoft.com/8008574f-a89e-4fed-b745-7cf5baa68e64">pfnQueryAdapterInfoCb</a> callback function. 
 
 
 ### -field hAdapter
@@ -82,7 +70,7 @@ typedef struct _D3D12DDIARG_OPENADAPTER {
 
 ### -field pAdapterCallbacks
 
-[in] A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_adaptercallbacks.md">D3DDDI_ADAPTERCALLBACKS</a> structure that contains the Direct3D runtime-supplied <b>pfnQueryAdapterInfoCb</b> callback function that the driver can use.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544350">D3DDDI_ADAPTERCALLBACKS</a> structure that contains the Direct3D runtime-supplied <b>pfnQueryAdapterInfoCb</b> callback function that the driver can use.
 
 
 ### -field pAdapterFuncs

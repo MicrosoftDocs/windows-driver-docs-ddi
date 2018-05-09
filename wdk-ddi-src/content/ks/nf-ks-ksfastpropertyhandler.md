@@ -7,7 +7,7 @@ old-location: stream\ksfastpropertyhandler.htm
 old-project: stream
 ms.assetid: 39a216f8-297d-45cc-9bec-4c0ee9941441
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFastPropertyHandler, KsFastPropertyHandler function [Streaming Media Devices], ks/KsFastPropertyHandler, ksfunc_4b896ea0-aa74-4acf-b8fa-cdc4c8cdb4b1.xml, stream.ksfastpropertyhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFastPropertyHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,14 +52,6 @@ req.typenames:
 
 
 The <b>KsFastPropertyHandler</b> function handles fast property requests through IOCTL_KS_PROPERTY. It responds to all property identifiers defined by the sets that are also contained in the fast I/O list. This function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-KSDDKAPI BOOLEAN NTAPI KsFastPropertyHandler(void);
-````
 
 
 ## -parameters
@@ -128,12 +121,11 @@ The owner of a property set can perform prefiltering or postfiltering of the pro
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a>
  
 
  
-
 

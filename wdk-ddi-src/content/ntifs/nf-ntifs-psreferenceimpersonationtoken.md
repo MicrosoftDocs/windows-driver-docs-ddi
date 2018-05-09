@@ -7,7 +7,7 @@ old-location: ifsk\psreferenceimpersonationtoken.htm
 old-project: ifsk
 ms.assetid: c72f48a8-ba51-423f-9105-7d78521dcae2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: PsReferenceImpersonationToken, PsReferenceImpersonationToken routine [Installable File System Drivers], ifsk.psreferenceimpersonationtoken, ntifs/PsReferenceImpersonationToken, psref_150f4e7c-56c2-4108-b5c9-0882f9027252.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsReferenceImpersonationToken
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # PsReferenceImpersonationToken function
@@ -50,19 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>PsReferenceImpersonationToken</b> routine increments the reference count of the impersonation token for the specified thread.
-
-
-## -syntax
-
-
-````
-PACCESS_TOKEN PsReferenceImpersonationToken(
-  _Inout_ PETHREAD                      Thread,
-  _Out_   PBOOLEAN                      CopyOnOpen,
-  _Out_   PBOOLEAN                      EffectiveOnly,
-  _Out_   PSECURITY_IMPERSONATION_LEVEL ImpersonationLevel
-);
-````
 
 
 ## -parameters
@@ -124,24 +112,23 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551893">PsDereferenceImpersonationToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psimpersonateclient.md">PsImpersonateClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
  
 
  
-
 

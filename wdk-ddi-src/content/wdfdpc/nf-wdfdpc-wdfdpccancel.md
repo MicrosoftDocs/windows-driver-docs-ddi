@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDpcCancel
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDpcCancel function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDpcCancel</b> method attempts to cancel the execution of a DPC object's scheduled <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a> callback function.
-
-
-## -syntax
-
-
-````
-BOOLEAN WdfDpcCancel(
-  _In_ WDFDPC  Dpc,
-  _In_ BOOLEAN Wait
-);
-````
 
 
 ## -parameters
@@ -106,7 +95,7 @@ If the <i>Wait</i> parameter is <b>TRUE</b>, <b>WdfDpcCancel</b> must be called 
 
 #### Examples
 
-The following code example cancels the execution of the callback function that is associated with the DPC object that the code example in the <a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a> topic created.
+The following code example cancels the execution of the callback function that is associated with the DPC object that the code example in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547140">WdfDpcCreate</a> topic created.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -126,12 +115,11 @@ The following code example cancels the execution of the callback function that i
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/b934a0da-0709-4427-bbf2-8d53f9511cf1">EvtDpcFunc</a>
-
-
-
  
 
  
-
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.Close
-title: IWDFRemoteTarget::Close method
+title: IWDFRemoteTarget::Close
 author: windows-driver-content
 description: The Close method closes a remote I/O target.
 old-location: wdf\iwdfremotetarget_close.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c24082c4-0c79-4956-8035-79198cb2b7ee
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: Close method, Close method, IWDFRemoteTarget interface, Close,IWDFRemoteTarget.Close, IWDFRemoteTarget, IWDFRemoteTarget interface, Close method, IWDFRemoteTarget::Close, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, umdf.iwdfremotetarget_close, wdf.iwdfremotetarget_close, wudfddi/IWDFRemoteTarget::Close
+ms.keywords: Close, Close method, Close method,IWDFRemoteTarget interface, IWDFRemoteTarget interface,Close method, IWDFRemoteTarget.Close, IWDFRemoteTarget::Close, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, umdf.iwdfremotetarget_close, wdf.iwdfremotetarget_close, wudfddi/IWDFRemoteTarget::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFRemoteTarget.Close
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRemoteTarget::Close method
+# IWDFRemoteTarget::Close
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Close</b> method closes a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>.
-
-
-## -syntax
-
-
-````
-HRESULT Close();
-````
 
 
 ## -parameters
@@ -126,16 +118,15 @@ CMyRemoteTarget::OnRemoteTargetRemoveComplete(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560247">IWDFRemoteTarget</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560259">IWDFRemoteTarget::CloseForQueryRemove</a>
-
-
-
  
 
  
-
 

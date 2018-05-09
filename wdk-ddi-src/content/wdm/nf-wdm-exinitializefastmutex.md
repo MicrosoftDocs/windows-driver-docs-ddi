@@ -7,7 +7,7 @@ old-location: kernel\exinitializefastmutex.htm
 old-project: kernel
 ms.assetid: edd189f9-1089-470f-95a9-670bdba9c210
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExInitializeFastMutex, ExInitializeFastMutex routine [Kernel-Mode Driver Architecture], k102_b340d108-2e1c-4fa5-9bd0-d174452b125c.xml, kernel.exinitializefastmutex, wdm/ExInitializeFastMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExInitializeFastMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExInitializeFastMutex function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ExInitializeFastMutex</b> routine initializes a fast mutex variable, used to synchronize mutually exclusive access by a set of threads to a shared resource.
-
-
-## -syntax
-
-
-````
-VOID ExInitializeFastMutex(
-  _Out_ PFAST_MUTEX FastMutex
-);
-````
 
 
 ## -parameters
@@ -99,6 +89,21 @@ For more information about fast mutexes, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544337">ExAcquireFastMutex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544340">ExAcquireFastMutexUnsafe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
 
 
@@ -107,28 +112,12 @@ For more information about fast mutexes, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544340">ExAcquireFastMutexUnsafe</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545715">FAST_MUTEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544337">ExAcquireFastMutex</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552147">KeInitializeMutex</a>
  
 
  
-
 

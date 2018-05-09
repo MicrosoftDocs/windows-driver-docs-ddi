@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcchcopyex.htm
 old-project: kernel
 ms.assetid: c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCchCopyEx, RtlStringCchCopyExA, RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopyex, ntstrsafe/RtlStringCchCopyExA, ntstrsafe/RtlStringCchCopyExW, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_name:
 -	RtlStringCchCopyExW
 -	RtlStringCchCopyExA
 -	RtlStringCchCopyExW
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlStringCchCopyExA function
@@ -53,21 +54,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 The <b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> functions copy a character-counted string into a buffer.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCchCopyExW(
-  _Out_opt_ LPTSTR  pszDest,
-  _In_      size_t  cchDest,
-  _In_opt_  LPCTSTR pszSrc,
-  _Out_opt_ LPTSTR  *ppszDestEnd,
-  _Out_opt_ size_t  *pcchRemaining,
-  _In_      DWORD   dwFlags
-);
-````
 
 
 ## -parameters
@@ -241,7 +227,7 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 </ul>
 The size, in characters, of the destination buffer is provided to <b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> to ensure that they do not write past the end of the buffer.
 
-<b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> add to the functionality of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyw.md">RtlStringCchCopy</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control. Use <b>RtlStringCchCopyExW</b> to handle Unicode strings and <b>RtlStringCchCopyExA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
+<b>RtlStringCchCopyExW</b> and <b>RtlStringCchCopyExA</b> add to the functionality of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562841">RtlStringCchCopy</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control. Use <b>RtlStringCchCopyExW</b> to handle Unicode strings and <b>RtlStringCchCopyExA</b> to handle ANSI strings. The form you use depends on your data, as shown in the following table.
 
 <table>
 <tr>
@@ -291,16 +277,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyw.md">RtlStringCchCopy</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyexw.md">RtlStringCbCopyEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562807">RtlStringCbCopyEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562841">RtlStringCchCopy</a>
  
 
  
-
 

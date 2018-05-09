@@ -7,7 +7,7 @@ old-location: netvista\ril_getoperatorlist.htm
 old-project: netvista
 ms.assetid: 34894a89-73ba-4744-97b9-7c1f124431f4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetOperatorList, RIL_GetOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_getoperatorlist, rilapi/RIL_GetOperatorList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_GetOperatorList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetOperatorList function
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_GetOperatorList(
-   HRIL   hRil,
-   LPVOID lpContext,
-   DWORD  dwExecutor,
-   DWORD  dwSystemTypes
-);
-````
 
 
 ## -parameters

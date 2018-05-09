@@ -7,7 +7,7 @@ old-location: stream\ksproperty_tvaudio_s.htm
 old-project: stream
 ms.assetid: a2e26798-322a-4057-8c29-3429711e36a4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S structure [Streaming Media Devices], PKSPROPERTY_TVAUDIO_S, PKSPROPERTY_TVAUDIO_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TVAUDIO_S, ksmedia/PKSPROPERTY_TVAUDIO_S, stream.ksproperty_tvaudio_s, vidcapstruct_d9dd7c2c-ed79-4efa-ae11-07e069abda5c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_TVAUDIO_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_TVAUDIO_S, *PKSPROPERTY_TVAUDIO_S
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPROPERTY_TVAUDIO_S, *PKSPROPERTY_TVAUDIO_S
 
 
 The KSPROPERTY_TVAUDIO_S structure describes the current TV audio mode, such as stereo or mono audio and language settings.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      Mode;
-} KSPROPERTY_TVAUDIO_S, *PKSPROPERTY_TVAUDIO_S;
-````
 
 
 ## -struct-fields
@@ -138,6 +128,9 @@ Indicates that the audio is in the third language supported by the device.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -147,11 +140,7 @@ Indicates that the audio is in the third language supported by the device.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567811">PROPSETID_VIDCAP_TVAUDIO</a>
-
-
-
  
 
  
-
 

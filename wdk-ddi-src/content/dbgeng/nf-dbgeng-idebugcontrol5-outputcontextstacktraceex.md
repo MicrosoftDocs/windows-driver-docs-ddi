@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl5.OutputContextStackTraceEx
-title: IDebugControl5::OutputContextStackTraceEx method
+title: IDebugControl5::OutputContextStackTraceEx
 author: windows-driver-content
 description: The OutputContextStackTraceEx method prints the call stack specified by an array of stack frames and corresponding register contexts.
 old-location: debugger\idebugcontrol5_outputcontextstacktraceex.htm
 old-project: debugger
 ms.assetid: B0C1E602-83CE-4F4E-9198-B1B1CDAFF4BF
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl5, IDebugControl5 interface [Windows Debugging], OutputContextStackTraceEx method, IDebugControl5::OutputContextStackTraceEx, OutputContextStackTraceEx method [Windows Debugging], OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, OutputContextStackTraceEx,IDebugControl5.OutputContextStackTraceEx, dbgeng/IDebugControl5::OutputContextStackTraceEx, debugger.idebugcontrol5_outputcontextstacktraceex
+ms.date: 4/24/2018
+ms.keywords: IDebugControl5 interface [Windows Debugging],OutputContextStackTraceEx method, IDebugControl5.OutputContextStackTraceEx, IDebugControl5::OutputContextStackTraceEx, OutputContextStackTraceEx, OutputContextStackTraceEx method [Windows Debugging], OutputContextStackTraceEx method [Windows Debugging],IDebugControl5 interface, dbgeng/IDebugControl5::OutputContextStackTraceEx, debugger.idebugcontrol5_outputcontextstacktraceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,34 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl5.OutputContextStackTraceEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl5::OutputContextStackTraceEx method
+# IDebugControl5::OutputContextStackTraceEx
 
 
 ## -description
 
 
 The OutputContextStackTraceEx method prints the call stack specified by an array of stack frames and corresponding register contexts. The OutputContextStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406275">Debugging Optimized Code and Inline Functions</a>.
-
-
-## -syntax
-
-
-````
-HRESULT OutputContextStackTraceEx(
-  [in] ULONG                 OutputControl,
-  [in] PDEBUG_STACK_FRAME_EX Frames,
-  [in] ULONG                 FramesSize,
-  [in] PVOID                 FrameContexts,
-  [in] ULONG                 FrameContextsSize,
-  [in] ULONG                 FrameContextsEntrySize,
-  [in] ULONG                 Flags
-);
-````
 
 
 ## -parameters
@@ -256,12 +241,11 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818562">IDebugControl5</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\bda_wmdrm_keyinfolist.htm
 old-project: stream
 ms.assetid: 0A151425-C22F-4201-855F-FF6FECE611D7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST structure [Streaming Media Devices], PBDA_WMDRM_KEYINFOLIST, PBDA_WMDRM_KEYINFOLIST structure pointer [Streaming Media Devices], _BDA_WMDRM_KEYINFOLIST, bdatypes/BDA_WMDRM_KEYINFOLIST, bdatypes/PBDA_WMDRM_KEYINFOLIST, stream.bda_wmdrm_keyinfolist"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_WMDRM_KEYINFOLIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_WMDRM_KEYINFOLIST, *PBDA_WMDRM_KEYINFOLIST
 ---
@@ -50,18 +51,6 @@ req.typenames: BDA_WMDRM_KEYINFOLIST, *PBDA_WMDRM_KEYINFOLIST
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_WMDRM_KEYINFOLIST {
-  PBDARESULT lResult;
-  ULONG      ulKeyuuidBufferLen;
-  GUID       argKeyuuidBuffer[MIN_DIMENSION];
-} BDA_WMDRM_KEYINFOLIST, *PBDA_WMDRM_KEYINFOLIST;
-````
 
 
 ## -struct-fields

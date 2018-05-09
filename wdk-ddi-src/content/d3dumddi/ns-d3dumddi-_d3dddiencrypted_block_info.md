@@ -7,7 +7,7 @@ old-location: display\d3dddiencrypted_block_info.htm
 old-project: display
 ms.assetid: a02f782f-6918-479a-b3de-9443df2e9ffe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIENCRYPTED_BLOCK_INFO, D3DDDIENCRYPTED_BLOCK_INFO structure [Display Devices], D3D_other_Structs_ca22516f-415c-47ff-9ba5-b837171cf77e.xml, _D3DDDIENCRYPTED_BLOCK_INFO, d3dumddi/D3DDDIENCRYPTED_BLOCK_INFO, display.d3dddiencrypted_block_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIENCRYPTED_BLOCK_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIENCRYPTED_BLOCK_INFO
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DDDIENCRYPTED_BLOCK_INFO
 
 
 The D3DDDIENCRYPTED_BLOCK_INFO structure describes the portions of a buffer that are encrypted. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIENCRYPTED_BLOCK_INFO {
-  UINT NumEncryptedBytesAtBeginning;
-  UINT NumBytesInSkipPattern;
-  UINT NumBytesInEncryptPattern;
-} D3DDDIENCRYPTED_BLOCK_INFO;
-````
 
 
 ## -struct-fields
@@ -90,7 +79,7 @@ typedef struct _D3DDDIENCRYPTED_BLOCK_INFO {
 
 Because the buffer's encrypted portion is specified in bytes, an application must ensure that the encrypted blocks match the GPU's crypto-block alignment. 
 
-The runtime can specify a populated D3DDDIENCRYPTED_BLOCK_INFO structure in the block of memory that the <b>pEncryptedBlockInfo</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decryptionblt.md">D3DDDIARG_DECRYPTIONBLT</a> structure points to when the runtime calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a> function to write data to a protected surface. 
+The runtime can specify a populated D3DDDIENCRYPTED_BLOCK_INFO structure in the block of memory that the <b>pEncryptedBlockInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543011">D3DDDIARG_DECRYPTIONBLT</a> structure points to when the runtime calls the driver's <a href="https://msdn.microsoft.com/1bfe2b9c-90f6-48bf-b0b3-30788ef94110">DecryptionBlt</a> function to write data to a protected surface. 
 
 The following examples show how the runtime can partition a buffer's encryption.
 
@@ -113,16 +102,15 @@ The following examples show how the runtime can partition a buffer's encryption.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decryptionblt.md">D3DDDIARG_DECRYPTIONBLT</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decryptionblt.md">DecryptionBlt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543011">D3DDDIARG_DECRYPTIONBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/1bfe2b9c-90f6-48bf-b0b3-30788ef94110">DecryptionBlt</a>
  
 
  
-
 

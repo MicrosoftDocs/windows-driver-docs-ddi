@@ -7,7 +7,7 @@ old-location: hid\hidp_getcoldesc_dbg.htm
 old-project: hid
 ms.assetid: 65EEEDED-14FE-4275-9314-276E544427DE
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PHIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG structure [Human Input Devices], PHIDP_GETCOLDESC_DBG, PHIDP_GETCOLDESC_DBG structure pointer [Human Input Devices], _HIDP_GETCOLDESC_DBG, hid.hidp_getcoldesc_dbg, hidpddi/HIDP_GETCOLDESC_DBG, hidpddi/PHIDP_GETCOLDESC_DBG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Hidpddi.h
 api_name:
 -	HIDP_GETCOLDESC_DBG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG
 ---
@@ -50,19 +51,7 @@ req.typenames: HIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG
 
 
 Contains the error code indicating the failure in parsing the report 
-                                      descriptor. This structure is used in the <a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a> call.
-
-
-## -syntax
-
-
-````
-typedef struct _HIDP_GETCOLDESC_DBG {
-  ULONG BreakOffset;
-  ULONG ErrorCode;
-  ULONG Args[6];
-} HIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG;
-````
+                                      descriptor. This structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a> call.
 
 
 ## -struct-fields
@@ -90,12 +79,11 @@ Error-specific arguments. These are described as comments in the possible values
 
 ## -see-also
 
-<a href="..\hidpddi\nf-hidpddi-hidp_getcollectiondescription.md">HidP_GetCollectionDescription</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a>
  
 
  
-
 

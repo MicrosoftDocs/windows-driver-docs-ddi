@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents
-title: IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents method
+title: IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents
 author: windows-driver-content
 description: Waits until all device installations have completed.
 old-location: dtf\iwdtfdriversetupsystemaction2_waitnopendinginstallevents.htm
 old-project: dtf
 ms.assetid: d58f5d02-d4cf-4208-b5c4-1047b8278ff7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], WaitNoPendingInstallEvents method, IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, WaitNoPendingInstallEvents method [Windows Device Testing Framework], WaitNoPendingInstallEvents method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, WaitNoPendingInstallEvents,IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, dtf.iwdtfdriversetupsystemaction2_waitnopendinginstallevents, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents
+ms.date: 4/4/2018
+ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],WaitNoPendingInstallEvents method, IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, WaitNoPendingInstallEvents, WaitNoPendingInstallEvents method [Windows Device Testing Framework], WaitNoPendingInstallEvents method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_waitnopendinginstallevents, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 -	IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents method
+# IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents
 
 
 ## -description
 
 
 Waits until all device installations have completed.
-
-
-## -syntax
-
-
-````
-HRESULT WaitNoPendingInstallEvents(
-  [out, retval] VARIANT_BOOL *pNoMoreEvents
-);
-````
 
 
 ## -parameters
@@ -90,12 +80,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450948">IWDTFDriverSetupSystemAction2</a>
  
 
  
-
 

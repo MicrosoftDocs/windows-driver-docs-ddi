@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsSetMediaType
-title: IKsDataTypeHandler::KsSetMediaType method
+title: IKsDataTypeHandler::KsSetMediaType
 author: windows-driver-content
 description: The KsSetMediaType method sets the media type for a data type handler.
 old-location: stream\iksdatatypehandler_kssetmediatype.htm
 old-project: stream
 ms.assetid: b1c97d4f-b305-4c9f-b3fd-06d0ebcb0ed0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], KsSetMediaType method, IKsDataTypeHandler::KsSetMediaType, KsSetMediaType method [Streaming Media Devices], KsSetMediaType method [Streaming Media Devices], IKsDataTypeHandler interface, KsSetMediaType,IKsDataTypeHandler.KsSetMediaType, ksproxy/IKsDataTypeHandler::KsSetMediaType, ksproxy_5992cc35-8912-4e1e-8712-ebb6f36f5193.xml, stream.iksdatatypehandler_kssetmediatype
+ms.date: 4/23/2018
+ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsSetMediaType method, IKsDataTypeHandler.KsSetMediaType, IKsDataTypeHandler::KsSetMediaType, KsSetMediaType, KsSetMediaType method [Streaming Media Devices], KsSetMediaType method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsSetMediaType, ksproxy_5992cc35-8912-4e1e-8712-ebb6f36f5193.xml, stream.iksdatatypehandler_kssetmediatype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsDataTypeHandler.KsSetMediaType
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsDataTypeHandler::KsSetMediaType method
+# IKsDataTypeHandler::KsSetMediaType
 
 
 ## -description
 
 
 The <b>KsSetMediaType</b> method sets the media type for a data type handler. 
-
-
-## -syntax
-
-
-````
-HRESULT KsSetMediaType(
-  [in] const AM_MEDIA_TYPE *MediaType
-);
-````
 
 
 ## -parameters
@@ -101,12 +92,11 @@ For more information about <b>CMediaType</b> class, see the Microsoft Windows SD
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksdatatypehandler.md">IKsDataTypeHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559807">IKsDataTypeHandler</a>
  
 
  
-
 

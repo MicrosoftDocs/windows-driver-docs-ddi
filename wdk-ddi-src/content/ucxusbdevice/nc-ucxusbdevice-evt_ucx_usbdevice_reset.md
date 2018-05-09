@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_usbdevice_reset.htm
 old-project: usbref
 ms.assetid: 6876e35c-f293-4849-915f-c686a9d91dd1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: EVT_UCX_USBDEVICE_RESET, EvtUcxUsbDeviceReset, EvtUcxUsbDeviceReset callback function [Buses], PEVT_UCX_USBDEVICE_RESET, PEVT_UCX_USBDEVICE_RESET callback function pointer [Buses], buses.evt_ucx_usbdevice_reset, ucxusbdevice/EvtUcxUsbDeviceReset
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_USBDEVICE_RESET, EVT_UCX_USBDEVICE_RESET callback, EvtUcxUsbDeviceReset, EvtUcxUsbDeviceReset callback function [Buses], PEVT_UCX_USBDEVICE_RESET, PEVT_UCX_USBDEVICE_RESET callback function pointer [Buses], buses.evt_ucx_usbdevice_reset, ucxusbdevice/EvtUcxUsbDeviceReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	PEVT_UCX_USBDEVICE_RESET
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_USBDEVICE_RESET callback
+# EVT_UCX_USBDEVICE_RESET callback function
 
 
 ## -description
@@ -52,22 +52,6 @@ req.product: Windows 10 or later.
 
 The client driver's implementation that UCX calls when the port to which the device is
     attached is reset.
-
-
-## -prototype
-
-
-````
-EVT_UCX_USBDEVICE_RESET EvtUcxUsbDeviceReset;
-
-VOID EvtUcxUsbDeviceReset(
-  _In_ UCXCONTROLLER UcxController,
-  _In_ WDFREQUEST    Request
-)
-{ ... }
-
-typedef EVT_UCX_USBDEVICE_RESET PEVT_UCX_USBDEVICE_RESET;
-````
 
 
 ## -parameters
@@ -82,7 +66,7 @@ typedef EVT_UCX_USBDEVICE_RESET PEVT_UCX_USBDEVICE_RESET;
 
 ### -param Request [in]
 
-Contains the <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_reset.md">USBDEVICE_RESET</a> structure.
+Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188077">USBDEVICE_RESET</a> structure.
 
 
 ## -returns
@@ -98,7 +82,7 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a> method.
 
 To
     transition the device to the desired state, the host controller driver communicates with the hardware to complete the request.
@@ -140,16 +124,15 @@ UsbDevice_EvtUcxUsbDeviceReset(
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_reset.md">USBDEVICE_RESET</a>
 
 
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188077">USBDEVICE_RESET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a>
  
 
  
-
 

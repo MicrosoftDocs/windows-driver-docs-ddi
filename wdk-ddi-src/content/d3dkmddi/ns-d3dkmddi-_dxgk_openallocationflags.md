@@ -7,7 +7,7 @@ old-location: display\dxgk_openallocationflags.htm
 old-project: display
 ms.assetid: 6dae69b1-ff48-4d43-bc01-e7ad7bb7acc9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_OPENALLOCATIONFLAGS, DXGK_OPENALLOCATIONFLAGS structure [Display Devices], DmStructs_3b5228f0-93fa-434a-b2ca-9007c372d9ed.xml, _DXGK_OPENALLOCATIONFLAGS, d3dkmddi/DXGK_OPENALLOCATIONFLAGS, display.dxgk_openallocationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_OPENALLOCATIONFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_OPENALLOCATIONFLAGS
 ---
@@ -50,23 +51,6 @@ req.typenames: DXGK_OPENALLOCATIONFLAGS
 
 
 The DXGK_OPENALLOCATIONFLAGS structure identifies the operation to perform for allocations.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_OPENALLOCATIONFLAGS {
-  union {
-    struct {
-      UINT Create  :1;
-      UINT ReadOnly  :1;
-      UINT Reserved  :30;
-    };
-    UINT Value;
-  };
-} DXGK_OPENALLOCATIONFLAGS;
-````
 
 
 ## -struct-fields
@@ -95,19 +79,18 @@ Supported starting with Windows 8.
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that DXGK_OPENALLOCATIONFLAGS contains that can hold a 32-bit value that identifies the operation to perform for allocations.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557609">DXGKARG_OPENALLOCATION</a>
  
 
  
-
 

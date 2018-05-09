@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_texblt1.htm
 old-project: display
 ms.assetid: e11fd9b5-c3ad-4f8f-890c-30ca5ce4a57f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_TEXBLT1, D3DDDIARG_TEXBLT1 structure [Display Devices], _D3DDDIARG_TEXBLT1, d3dumddi/D3DDDIARG_TEXBLT1, display.d3dddiarg_texblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDIARG_TEXBLT1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_TEXBLT1
 ---
@@ -50,21 +51,6 @@ req.typenames: D3DDDIARG_TEXBLT1
 
 
 Describes parameters for a texture bit-block transfer (bitblt) operation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_TEXBLT1 {
-  HANDLE hDstResource;
-  HANDLE hSrcResource;
-  UINT   CubeMapFace;
-  POINT  DstPoint;
-  RECT   SrcRect;
-  UINT   CopyFlags;
-} D3DDDIARG_TEXBLT1;
-````
 
 
 ## -struct-fields
@@ -99,25 +85,24 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a
 
 ### -field CopyFlags
 
-A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a> enumeration type.
+A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451175">D3DDDI_COPY_FLAGS</a> enumeration type.
 
 
 ## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451175">D3DDDI_COPY_FLAGS</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

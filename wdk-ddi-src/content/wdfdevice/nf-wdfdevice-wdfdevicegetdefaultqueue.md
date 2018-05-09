@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDeviceGetDefaultQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceGetDefaultQueue function
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfDeviceGetDefaultQueue</b> method returns a handle to a device's default I/O queue.
-
-
-## -syntax
-
-
-````
-WDFQUEUE WdfDeviceGetDefaultQueue(
-  _In_ WDFDEVICE Device
-);
-````
 
 
 ## -parameters

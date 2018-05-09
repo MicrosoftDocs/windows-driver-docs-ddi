@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	PCI_EXPRESS_PME_REQUESTOR_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCI_EXPRESS_PME_REQUESTOR_ID, *PPCI_EXPRESS_PME_REQUESTOR_ID
 ---

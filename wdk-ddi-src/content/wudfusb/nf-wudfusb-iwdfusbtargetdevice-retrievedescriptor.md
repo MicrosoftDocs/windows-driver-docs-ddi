@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrieveDescriptor
-title: IWDFUsbTargetDevice::RetrieveDescriptor method
+title: IWDFUsbTargetDevice::RetrieveDescriptor
 author: windows-driver-content
 description: The RetrieveDescriptor method retrieves a USB descriptor, which can describe a device, configuration, or string.
 old-location: wdf\iwdfusbtargetdevice_retrievedescriptor.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c97b399e-fb25-475a-a2a0-0cf4fb24433c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, RetrieveDescriptor method, IWDFUsbTargetDevice::RetrieveDescriptor, RetrieveDescriptor method, RetrieveDescriptor method, IWDFUsbTargetDevice interface, RetrieveDescriptor,IWDFUsbTargetDevice.RetrieveDescriptor, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, umdf.iwdfusbtargetdevice_retrievedescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor
+ms.keywords: IWDFUsbTargetDevice interface,RetrieveDescriptor method, IWDFUsbTargetDevice.RetrieveDescriptor, IWDFUsbTargetDevice::RetrieveDescriptor, RetrieveDescriptor, RetrieveDescriptor method, RetrieveDescriptor method,IWDFUsbTargetDevice interface, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, umdf.iwdfusbtargetdevice_retrievedescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetDevice.RetrieveDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetDevice::RetrieveDescriptor method
+# IWDFUsbTargetDevice::RetrieveDescriptor
 
 
 ## -description
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveDescriptor</b> method retrieves a USB descriptor, which can describe a device, configuration, or string.
-
-
-## -syntax
-
-
-````
-HRESULT RetrieveDescriptor(
-  [in]      UCHAR  DescriptorType,
-  [in]      UCHAR  Index,
-  [in]      USHORT LanguageID,
-  [in, out] ULONG  *BufferLength,
-  [out]     PVOID  Buffer
-);
-````
 
 
 ## -parameters
@@ -78,7 +64,7 @@ HRESULT RetrieveDescriptor(
 
 A value that specifies the type of descriptor to return. This parameter corresponds to the <b>bDescriptorType</b> field of a standard device descriptor, whose values are described in the <i>Universal Serial Bus</i> specification. (This resource may not be available in some languages 
 
-and countries.) Some of these values are listed in the description of the DescriptorType member of the <a href="..\usb\ns-usb-_urb_control_descriptor_request.md">_URB_CONTROL_DESCRIPTOR_REQUEST</a> structure.
+and countries.) Some of these values are listed in the description of the DescriptorType member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540357">_URB_CONTROL_DESCRIPTOR_REQUEST</a> structure.
 
 
 
@@ -217,16 +203,15 @@ CUmdfHidDevice::RetrieveConfigDescriptor(
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540257">WinUsb_GetDescriptor</a>
-
-
-
  
 
  
-
 

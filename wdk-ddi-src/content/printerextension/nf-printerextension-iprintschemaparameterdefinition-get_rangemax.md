@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_RangeMax
-title: IPrintSchemaParameterDefinition::get_RangeMax method
+title: IPrintSchemaParameterDefinition::get_RangeMax
 author: windows-driver-content
 description: The RangeMax property gets the maximum value of the allowed data range.
 old-location: print\_iprintschemaparameterdefinition_rangemax.htm
 old-project: print
 ms.assetid: 516FADF0-3786-4C41-B38D-4A742AD68719
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], RangeMax property, IPrintSchemaParameterDefinition.RangeMax, IPrintSchemaParameterDefinition::get_RangeMax, RangeMax property [Print Devices], RangeMax property [Print Devices], IPrintSchemaParameterDefinition interface, get_RangeMax, get_RangeMax,IPrintSchemaParameterDefinition.get_RangeMax, print._iprintschemaparameterdefinition_rangemax, printerextension/IPrintSchemaParameterDefinition::RangeMax, printerextension/IPrintSchemaParameterDefinition::get_RangeMax
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],RangeMax property, IPrintSchemaParameterDefinition.RangeMax, IPrintSchemaParameterDefinition.get_RangeMax, IPrintSchemaParameterDefinition::RangeMax, IPrintSchemaParameterDefinition::get_RangeMax, RangeMax property [Print Devices], RangeMax property [Print Devices],IPrintSchemaParameterDefinition interface, get_RangeMax, print._iprintschemaparameterdefinition_rangemax, printerextension/IPrintSchemaParameterDefinition::RangeMax, printerextension/IPrintSchemaParameterDefinition::get_RangeMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,13 +39,13 @@ api_location:
 api_name:
 -	IPrintSchemaParameterDefinition.RangeMax
 -	IPrintSchemaParameterDefinition.get_RangeMax
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaParameterDefinition::get_RangeMax method
+# IPrintSchemaParameterDefinition::get_RangeMax
 
 
 ## -description
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>RangeMax</b> property gets the maximum value of the allowed data range.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_RangeMax(
-  [out, retval] INT *pRangeMax
-);
-````
 
 
 ## -parameters
@@ -82,12 +72,11 @@ For the <b>PrintSchemaParameterDataType_NumericString</b> and <b>PrintSchemaPara
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
  
 
  
-
 

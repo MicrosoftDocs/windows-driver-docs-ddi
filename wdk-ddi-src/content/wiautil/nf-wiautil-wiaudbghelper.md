@@ -7,7 +7,7 @@ old-location: image\wiaudbghelper.htm
 old-project: image
 ms.assetid: 5be1ede7-13a0-4ef4-93bd-8a1adc5baa9e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaudbghelper, wiauDbgHelper, wiauDbgHelper function [Imaging Devices], wiauFncs_be2f3b11-e1a0-4728-856e-ce686344f166.xml, wiautil/wiauDbgHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauDbgHelper
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauDbgHelper macro
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgHelper</b> function formats a message and writes it to a log file, or debugger, or both.
-
-
-## -syntax
-
-
-````
-void __stdcall wiauDbgHelper(
-  _In_ LPCSTR  prefix,
-  _In_ LPCSTR  fname,
-  _In_ LPCSTR  fmt,
-       va_list marker
-);
-````
 
 
 ## -parameters
@@ -126,28 +113,27 @@ The <b>wiauDbgHelper</b> function is a general-purpose function that is used int
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549627">wiauDbgDump</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549637">wiauDbgErrorHr</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550161">wiauDbgTrace</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550163">wiauDbgWarning</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: netvista\miniportsynchronizeinterrupt.htm
 old-project: netvista
 ms.assetid: aac1ff91-76aa-46a0-8e8a-85b9f8c3323c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: "(*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER), (*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_SYNCHRONIZE_INTERRUPT, MiniportSynchronizeInterrupt, MiniportSynchronizeInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSynchronizeInterrupt, ndis_interrupts_miniport_functions_ref_68ebc08d-67f9-42d8-9ade-669dc35a4242.xml, netvista.miniportsynchronizeinterrupt"
+ms.date: 4/25/2018
+ms.keywords: "(*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER), (*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_SYNCHRONIZE_INTERRUPT, MINIPORT_SYNCHRONIZE_INTERRUPT callback, MiniportSynchronizeInterrupt, MiniportSynchronizeInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportSynchronizeInterrupt, ndis_interrupts_miniport_functions_ref_68ebc08d-67f9-42d8-9ade-669dc35a4242.xml, netvista.miniportsynchronizeinterrupt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	(*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER)
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_SYNCHRONIZE_INTERRUPT callback
+# MINIPORT_SYNCHRONIZE_INTERRUPT callback function
 
 
 ## -description
@@ -52,26 +53,11 @@ req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 A miniport driver must provide a 
    <i>MiniportSynchronizeInterrupt</i> handler if any driver function that runs at less than DIRQL shares
    resources with the 
-   <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function.
+   <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function.
 
-For message signaled interrupts, the miniport driver provides a <i>MiniportSynchronizeMessageInterrupt</i> handler if any driver function that runs at less than DIRQL shares resources for a message signaled interrupt with the <a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a> function.
+For message signaled interrupts, the miniport driver provides a <i>MiniportSynchronizeMessageInterrupt</i> handler if any driver function that runs at less than DIRQL shares resources for a message signaled interrupt with the <a href="https://msdn.microsoft.com/ec2e6f49-dc40-48e8-96dc-c9440a6662a3">MiniportMessageInterrupt</a> function.
 <div class="alert"><b>Note</b>  You must declare this function by using either the <b>MINIPORT_SYNCHRONIZE_INTERRUPT</b> type for non-message signaled interrupts, or by using the <b>MINIPORT_SYNCHRONIZE_MESSAGE_INTERRUPT</b> type for message signaled interrupts. For
    more information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-MINIPORT_SYNCHRONIZE_INTERRUPT MiniportSynchronizeInterrupt;
-
-BOOLEAN MiniportSynchronizeInterrupt(
-  _In_ NDIS_HANDLE SynchronizeContext
-)
-{ ... }
-
-typedef MINIPORT_SYNCHRONIZE_INTERRUPT (*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER);
-````
-
 
 ## -parameters
 
@@ -82,7 +68,7 @@ typedef MINIPORT_SYNCHRONIZE_INTERRUPT (*MINIPORT_SYNCHRONIZE_INTERRUPT_HANDLER)
 
 A handle to a context area that is supplied when the miniport driver's 
      <i>MiniportXxx</i> or internal function called the 
-     <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+     <a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
      NdisMSynchronizeWithInterruptEx</a> function.
 
 
@@ -105,14 +91,14 @@ A handle to a context area that is supplied when the miniport driver's
 <div> </div>
 If any miniport driver function that runs at less than DIRQL shares resources, such as NIC registers,
     with the driver's 
-    <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function, that
+    <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function, that
     driver cannot access those resources directly. If such a lower priority function attempts to access the
     shared resources directly, it might be preempted by 
     <i>MiniportInterrupt</i>, which could override the state changes of the lower priority driver function.
 
 To synchronize access to shared resources with 
     <i>MiniportInterrupt</i>, lower priority driver functions must call the 
-    <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+    <a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
     NdisMSynchronizeWithInterruptEx</a> function. The driver's 
     <i>MiniportSynchronizeInterrupt</i> function accesses the shared resources at DIRQL. Calling 
     <b>NdisMSynchronizeWithInterruptEx</b> prevents race conditions and deadlocks in such a miniport
@@ -122,9 +108,9 @@ Any lower priority driver functions that share resources among themselves (but n
     that runs at DIRQL) should use a spin lock to protect those shared resources.
 
 <i>MiniportSynchronizeInterrupt</i> runs at the DIRQL assigned when the driver's 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
     calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+    <a href="https://msdn.microsoft.com/db0b3d51-5bbb-45fb-8c45-dda8c2212b5f">
     NdisMRegisterInterruptEx</a> function. Like any driver function that runs at DIRQL, 
     <i>MiniportSynchronizeInterrupt</i> should return control back to the caller as quickly as possible, and
     it can call only those 
@@ -200,29 +186,28 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInetrrupt</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563649">NdisMRegisterInterruptEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
    NdisMSynchronizeWithInterruptEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
-
-
-
  
 
  
-
 

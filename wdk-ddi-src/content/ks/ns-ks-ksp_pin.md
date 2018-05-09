@@ -7,7 +7,7 @@ old-location: stream\ksp_pin.htm
 old-project: stream
 ms.assetid: 0be4c4e1-6ea6-4439-841d-088cb1902604
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSP_PIN, KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, KSP_PIN, KSP_PIN structure [Streaming Media Devices], PKSP_PIN, PKSP_PIN structure pointer [Streaming Media Devices], ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, ks/KSP_PIN, ks/PKSP_PIN, stream.ksp_pin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSP_PIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_PIN, *PKSP_PIN
 ---
@@ -50,22 +51,6 @@ req.typenames: KSP_PIN, *PKSP_PIN
 
 
 Kernel streaming clients use the KSP_PIN structure to specify the property and pin type within a KSPROPSETID_Pin property request.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      PinId;
-  union {
-    ULONG Reserved;
-    ULONG Flags;
-  };
-  ULONG      Reserved;
-} KSP_PIN, *PKSP_PIN;
-````
 
 
 ## -struct-fields
@@ -83,7 +68,14 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56426
 Specifies the pin type ID.
 
 
-#### - Flags
+### -field Reserved
+
+Reserved. Should be set to zero.
+
+Reserved. Should be set to zero.
+
+
+### -field Flags
 
 Pin flags. This is set to either 0 or the following.
 
@@ -106,21 +98,13 @@ The client is aware of attributes and handles attribute ranges.
  
 
 
-#### - Reserved
-
-Reserved. Should be set to zero.
-
-Reserved. Should be set to zero.
-
-
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
-
-
-
  
 
  
-
 

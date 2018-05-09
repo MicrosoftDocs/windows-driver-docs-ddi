@@ -1,14 +1,14 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SetValidValues
-title: CWiauPropertyList::SetValidValues method
+title: CWiauPropertyList::SetValidValues
 author: windows-driver-content
 description: The CWiauPropertyList::SetValidValues(BSTR, list) method sets the type, as well as default, current, and valid values for a BSTR property associated with a list of values.
 old-location: image\cwiaupropertylist_setvalidvalues_bstr__list_.htm
 old-project: image
 ms.assetid: b806e310-4e6d-4258-8dd5-0c9aa35a35f4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], SetValidValues method, CWiauPropertyList::SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices], CWiauPropertyList interface, SetValidValues,CWiauPropertyList.SetValidValues, image.cwiaupropertylist_setvalidvalues_bstr__list_, wiauFncs_7653406d-852f-452e-94c3-187be530f684.xml, wiautil/CWiauPropertyList::SetValidValues
+ms.date: 4/23/2018
+ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(BSTR list), CWiauPropertyList::SetValidValues(INT  ,BSTR  ,BSTR  ,INT,BSTR  *), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(BSTR,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_bstr__list_, wiauFncs_7653406d-852f-452e-94c3-187be530f684.xml, wiautil/CWiauPropertyList::SetValidValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauPropertyList.SetValidValues
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# CWiauPropertyList::SetValidValues method
+# CWiauPropertyList::SetValidValues
 
 
 ## -description
 
 
 The <b>CWiauPropertyList::SetValidValues(BSTR, list)</b> method sets the type, as well as default, current, and valid values for a <b>BSTR</b> property associated with a list of values. The method also sets the property type to VT_BSTR and subtype to WIA_PROP_LIST (defined in the Microsoft Windows SDK documentation).
-
-
-## -syntax
-
-
-````
-void SetValidValues(
-   INT    index,
-   BSTR   defaultValue,
-   BSTR   currentValue,
-   INT    numValues,
-   BSTR   *pValues
-);
-````
 
 
 ## -parameters
@@ -115,20 +101,19 @@ This method does not return a value.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/4f11bec0-8ff4-4fa0-824c-71ce9774d5d1">CWiauPropertyList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540403">CWiauPropertyList::SendToWia</a>
-
-
-
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
-
-
-
  
 
  
-
 

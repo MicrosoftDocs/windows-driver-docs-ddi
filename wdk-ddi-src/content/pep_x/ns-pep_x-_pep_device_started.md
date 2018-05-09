@@ -7,7 +7,7 @@ old-location: kernel\pep_device_started.htm
 old-project: kernel
 ms.assetid: 02A30A9F-A27D-492E-8FB3-D8CB34D51D5A
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_DEVICE_STARTED, PEP_DEVICE_STARTED, PEP_DEVICE_STARTED structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_STARTED, PPEP_DEVICE_STARTED structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_STARTED, kernel.pep_device_started, pepfx/PEP_DEVICE_STARTED, pepfx/PPEP_DEVICE_STARTED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_DEVICE_STARTED
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED, PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED
+req.typenames: PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED
 ---
 
 # _PEP_DEVICE_STARTED structure
@@ -50,16 +51,6 @@ req.typenames: PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED, PEP_DEVICE_STARTED, *PP
 
 
 The <b>PEP_DEVICE_STARTED</b> structure identifies a device whose driver has completed its registration with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_DEVICE_STARTED {
-  PEPHANDLE DeviceHandle;
-} PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED;
-````
 
 
 ## -struct-fields
@@ -83,16 +74,15 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186714">PEP_DPM_DEVICE_STARTED</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-
-
-
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_lh.IWiaImageFilter.InitializeFilter
-title: IWiaImageFilter::InitializeFilter method
+title: IWiaImageFilter::InitializeFilter
 author: windows-driver-content
 description: The IWiaImageFilter::InitializeFilter method stores the references to pWiaItem2 and pWiaTransferCallback parameters passed into the method.
 old-location: image\iwiaimagefilter_initializefilter.htm
 old-project: image
 ms.assetid: 03e359aa-4745-4961-a342-79f725468aab
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, IWiaImageFilter, IWiaImageFilter interface [Imaging Devices], InitializeFilter method, IWiaImageFilter::InitializeFilter, InitializeFilter method [Imaging Devices], InitializeFilter method [Imaging Devices], IWiaImageFilter interface, InitializeFilter,IWiaImageFilter.InitializeFilter, image.iwiaimagefilter_initializefilter, wia_lh/IWiaImageFilter::InitializeFilter
+ms.date: 4/23/2018
+ms.keywords: IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, IWiaImageFilter interface [Imaging Devices],InitializeFilter method, IWiaImageFilter.InitializeFilter, IWiaImageFilter::InitializeFilter, InitializeFilter, InitializeFilter method [Imaging Devices], InitializeFilter method [Imaging Devices],IWiaImageFilter interface, image.iwiaimagefilter_initializefilter, wia_lh/IWiaImageFilter::InitializeFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	wia_lh.h
 api_name:
 -	IWiaImageFilter.InitializeFilter
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaImageFilter::InitializeFilter method
+# IWiaImageFilter::InitializeFilter
 
 
 ## -description
 
 
 The <b>IWiaImageFilter::InitializeFilter</b> method stores the references to <i>pWiaItem2</i> and <i>pWiaTransferCallback</i> parameters passed into the method.
-
-
-## -syntax
-
-
-````
-HRESULT InitializeFilter(
-  [in] IWiaItem2              *pWiaItem2,
-  [in] IWiaTransferCallback   *pWiaTransferCallback 
-);
-````
 
 
 ## -parameters
@@ -76,7 +65,7 @@ Points to the <b>IWiaItem2</b> item that the image acquisition was initiated for
 
 ### -param pWiaTransferCallback [in]
 
-Points to a <a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCallback</a> interface. The IWiaTransferCallback interface is the application's callback interface, which is passed to <b>IWiaTransfer::Download</b> and <b>IWiaPreview::GetNewPreview</b>. 
+Points to a <a href="https://msdn.microsoft.com/c85e5faa-b14b-4775-a5cc-cec5e20dc974">IWiaTransferCallback</a> interface. The IWiaTransferCallback interface is the application's callback interface, which is passed to <b>IWiaTransfer::Download</b> and <b>IWiaPreview::GetNewPreview</b>. 
 
 
 
@@ -110,16 +99,15 @@ The <b>IWiaItem2, IWiaPreview</b> and <b>IWiaTransfer</b> interfaces are describ
 
 ## -see-also
 
-<a href="..\wia_lh\nn-wia_lh-iwiaimagefilter.md">IWiaImageFilter</a>
 
 
 
-<a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCallback Interface</a>
+<a href="https://msdn.microsoft.com/de74898b-ac04-468d-874d-7ca281e22a86">IWiaImageFilter</a>
 
 
 
+<a href="https://msdn.microsoft.com/c85e5faa-b14b-4775-a5cc-cec5e20dc974">IWiaTransferCallback Interface</a>
  
 
  
-
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.MapIoSpace
-title: IWDFDevice3::MapIoSpace method
+title: IWDFDevice3::MapIoSpace
 author: windows-driver-content
 description: The MapIoSpace method maps the given physical address range to system address space and returns a pseudo base address.
 old-location: wdf\iwdfdevice3_mapiospace.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 243C7299-7C74-408A-8FB9-32FB3315251F
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice3, IWDFDevice3 interface, MapIoSpace method, IWDFDevice3::\_MapIoSpace, IWDFDevice3::MapIoSpace, MapIoSpace method, MapIoSpace method, IWDFDevice3 interface, MapIoSpace,IWDFDevice3.MapIoSpace, umdf.iwdfdevice3_mapiospace, wdf.iwdfdevice3_mapiospace, wudfddi/IWDFDevice3::\_MapIoSpace
+ms.keywords: IWDFDevice3 interface,MapIoSpace method, IWDFDevice3.MapIoSpace, IWDFDevice3::\_MapIoSpace, IWDFDevice3::MapIoSpace, MapIoSpace, MapIoSpace method, MapIoSpace method,IWDFDevice3 interface, umdf.iwdfdevice3_mapiospace, wdf.iwdfdevice3_mapiospace, wudfddi/IWDFDevice3::\_MapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice3.MapIoSpace
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice3::MapIoSpace method
+# IWDFDevice3::MapIoSpace
 
 
 ## -description
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>MapIoSpace</b> method maps the given physical address range to system address space and returns a pseudo base address. 
-
-
-## -syntax
-
-
-````
-HRESULT  MapIoSpace(
-  [in]  PHYSICAL_ADDRESS    PhysicalAddress,
-  [in]  SIZE_T              NumberOfBytes,
-  [in]  MEMORY_CACHING_TYPE CacheType,
-  [out] VOID                **pPseudoBaseAddress
-);
-````
 
 
 ## -parameters
@@ -85,7 +72,7 @@ Specifies a value greater than zero, indicating the number of bytes to be mapped
 
 ### -param CacheType [in]
 
-Specifies a <a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the physical address range. The MEMORY_CACHING_TYPE enumeration type is defined in Wudfwdm.h.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the physical address range. The MEMORY_CACHING_TYPE enumeration type is defined in Wudfwdm.h.
 
 
 ### -param pPseudoBaseAddress [out]
@@ -106,7 +93,7 @@ The method returns S_OK if the operation succeeds. Otherwise, this method return
 
 
 
-A driver must call this method during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>MapIoSpace</b> maps the physical address returned in the resource list to a framework-managed address referred to as the pseudo base address.
+A driver must call this method during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>MapIoSpace</b> maps the physical address returned in the resource list to a framework-managed address referred to as the pseudo base address.
 
  The driver can then use the pseudo base address to access device registers with READ_REGISTER_<i>Xxx</i> and WRITE_REGISTER_<i>Xxx</i> functions. For  an example, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
 
@@ -230,12 +217,11 @@ CMyDevice::OnReleaseHardware(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a>
  
 
  
-
 

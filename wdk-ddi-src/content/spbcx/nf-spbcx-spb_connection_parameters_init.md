@@ -7,7 +7,7 @@ old-location: spb\spb_connection_parameters_init.htm
 old-project: SPB
 ms.assetid: 0E23690B-4AE1-42F1-A53F-FE9A4697DBF2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spb_connection_parameters_init, SPB_CONNECTION_PARAMETERS_INIT, SPB_CONNECTION_PARAMETERS_INIT function [Buses], spbcx/SPB_CONNECTION_PARAMETERS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Spbcx.h
 api_name:
 -	SPB_CONNECTION_PARAMETERS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SPB_CONNECTION_PARAMETERS_INIT function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_CONNECTION_PARAMETERS_INIT</b> function initializes an  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406204">SPB_CONNECTION_PARAMETERS</a> structure.
-
-
-## -syntax
-
-
-````
-VOID SPB_CONNECTION_PARAMETERS_INIT(
-  _Out_ SPB_CONNECTION_PARAMETERS *Parameters
-);
-````
 
 
 ## -parameters
@@ -93,7 +83,6 @@ Your SPB controller driver must use this function to initialize an <b>SPB_CONNEC
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
 
 
 
@@ -101,8 +90,8 @@ Your SPB controller driver must use this function to initialize an <b>SPB_CONNEC
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
  
 
  
-
 

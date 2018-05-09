@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetFeature
-title: IPrintSchemaCapabilities::GetFeature method
+title: IPrintSchemaCapabilities::GetFeature
 author: windows-driver-content
 description: Gets a named feature from the PrintCapabilities, by name and full namespace URI.
 old-location: print\iprintschemacapabilities_getfeature.htm
 old-project: print
 ms.assetid: AC6434F5-0892-4426-98BB-BC02AD17917B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFeature method [Print Devices], GetFeature method [Print Devices], IPrintSchemaCapabilities interface, GetFeature,IPrintSchemaCapabilities.GetFeature, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], GetFeature method, IPrintSchemaCapabilities::GetFeature, print.iprintschemacapabilities_getfeature, printerextension/IPrintSchemaCapabilities::GetFeature
+ms.date: 4/20/2018
+ms.keywords: GetFeature, GetFeature method [Print Devices], GetFeature method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetFeature method, IPrintSchemaCapabilities.GetFeature, IPrintSchemaCapabilities::GetFeature, print.iprintschemacapabilities_getfeature, printerextension/IPrintSchemaCapabilities::GetFeature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaCapabilities.GetFeature
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaCapabilities::GetFeature method
+# IPrintSchemaCapabilities::GetFeature
 
 
 ## -description
 
 
 Gets a named feature from the PrintCapabilities, by name and full namespace URI.
-
-
-## -syntax
-
-
-````
-HRESULT GetFeature(
-  [in]          BSTR                bstrName,
-  [in]          BSTR                bstrNamespaceUri,
-  [out, retval] IPrintSchemaFeature **ppFeature
-);
-````
 
 
 ## -parameters
@@ -101,27 +89,26 @@ This method returns an <b>HRESULT</b> value.
 
 When the requested feature, option or property is not found, this method returns S_FALSE and sets a NULL pointer on the output object of the feature, option or property.
 
-So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a> object does not contain the specified feature, option or property, the app must obtain an <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a> object and query it via <a href="https://msdn.microsoft.com/053BFE59-FDC6-42F3-BE14-CE63D5637D62">IPrintSchemaCapabilities::GetFeatureByKeyName</a> or via <b>IPrintSchemaCapabilities::GetFeature</b>.
+So if the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a> object does not contain the specified feature, option or property, the app must obtain an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a> object and query it via <a href="https://msdn.microsoft.com/053BFE59-FDC6-42F3-BE14-CE63D5637D62">IPrintSchemaCapabilities::GetFeatureByKeyName</a> or via <b>IPrintSchemaCapabilities::GetFeature</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451284">IPrintSchemaFeature</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  
-
 

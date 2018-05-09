@@ -7,8 +7,8 @@ old-location: display\pfnd3dwddm2_2ddi_set_shadercache_session.htm
 old-project: display
 ms.assetid: 18BA159D-5E78-41AC-8CB8-97AEC2AE9592
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION, d3d10umddi/pfnSetShaderCacheSession, display.pfnd3dwddm2_2ddi_set_shadercache_session, pfnSetShaderCacheSession, pfnSetShaderCacheSession callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION, PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION callback, d3d10umddi/pfnSetShaderCacheSession, display.pfnd3dwddm2_2ddi_set_shadercache_session, pfnSetShaderCacheSession, pfnSetShaderCacheSession callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	pfnSetShaderCacheSession
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION callback
+# PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION callback function
 
 
 ## -description
@@ -52,29 +53,15 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <i>pfnSetShaderCacheSession</i> callback function sets a shader cache session.
 
 
-## -prototype
-
-
-````
-PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION pfnSetShaderCacheSession;
-
-VOID APIENTRY* pfnSetShaderCacheSession(
-   D3D10DDI_HDEVICE            hDevice,
-   D3DWDDM2_2DDI_HCACHESESSION hCacheSession
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3DWDDM2_2DDI_HCACHESESSION
+### -param Arg2
 
 
 
@@ -106,19 +93,18 @@ This callback function does not return a value.
 
 
 
-Access this callback function by using the <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure. 
+Access this callback function by using the <a href="https://msdn.microsoft.com/4E082193-70BA-4F36-9001-2A12014F3AC3">D3DWDDM2_2DDI_DEVICEFUNCS</a> structure. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_2ddi_devicefuncs.md">D3DWDDM2_2DDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/4E082193-70BA-4F36-9001-2A12014F3AC3">D3DWDDM2_2DDI_DEVICEFUNCS</a>
  
 
  
-
 

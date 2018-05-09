@@ -7,7 +7,7 @@ old-location: kernel\zwallocatelocallyuniqueid.htm
 old-project: kernel
 ms.assetid: 63ca0e60-700b-459a-a88a-bc7bb6f5f6e6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId routine [Kernel-Mode Driver Architecture], k111_de9ec26c-4aa4-4f1b-b876-c6e27bb2a067.xml, kernel.zwallocatelocallyuniqueid, ntddk/NtAllocateLocallyUniqueId, ntddk/ZwAllocateLocallyUniqueId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 api_name:
 -	ZwAllocateLocallyUniqueId
 -	NtAllocateLocallyUniqueId
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # ZwAllocateLocallyUniqueId function
@@ -50,17 +51,7 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>ZwAllocateLocallyUniqueId</b> routine allocates a locally unique identifier (<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>). 
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwAllocateLocallyUniqueId(
-  _Out_ PLUID LUID
-);
-````
+The <b>ZwAllocateLocallyUniqueId</b> routine allocates a locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>). 
 
 
 ## -parameters
@@ -93,7 +84,7 @@ Pointer to a caller-allocated buffer to receive a copy of the source LUID struct
 
 
 
-The allocated <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a> is unique to the local system only, and uniqueness is guaranteed only until the system is next restarted.
+The allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> is unique to the local system only, and uniqueness is guaranteed only until the system is next restarted.
 
 <div class="alert"><b>Note</b>  If the call to the <b>ZwAllocateLocallyUniqueId</b> function occurs in user mode, you should use the name "<b>NtAllocateLocallyUniqueId</b>" instead of "<b>ZwAllocateLocallyUniqueId</b>".</div>
 <div> </div>
@@ -104,16 +95,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
-
-
  
 
  
-
 

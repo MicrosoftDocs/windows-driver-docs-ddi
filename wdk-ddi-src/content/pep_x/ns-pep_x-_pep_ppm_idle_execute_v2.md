@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_idle_execute_v2.htm
 old-project: kernel
 ms.assetid: 28CF8291-E7C3-4289-909C-C89D350A9D83
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_PPM_IDLE_EXECUTE_V2, PEP_PPM_IDLE_EXECUTE_V2, PEP_PPM_IDLE_EXECUTE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_EXECUTE_V2, PPEP_PPM_IDLE_EXECUTE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_EXECUTE_V2, kernel.pep_ppm_idle_execute_v2, pepfx/PEP_PPM_IDLE_EXECUTE_V2, pepfx/PPEP_PPM_IDLE_EXECUTE_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_IDLE_EXECUTE_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PEP_PPM_IDLE_EXECUTE_V2, *PPEP_PPM_IDLE_EXECUTE_V2, PEP_PPM_IDLE_EXECUTE_V2, *PPEP_PPM_IDLE_EXECUTE_V2
+req.typenames: PEP_PPM_IDLE_EXECUTE_V2, *PPEP_PPM_IDLE_EXECUTE_V2
 ---
 
 # _PEP_PPM_IDLE_EXECUTE_V2 structure
@@ -50,20 +51,6 @@ req.typenames: PEP_PPM_IDLE_EXECUTE_V2, *PPEP_PPM_IDLE_EXECUTE_V2, PEP_PPM_IDLE_
 
 
 The <b>PEP_PPM_IDLE_EXECUTE_V2</b> structure specifies the idle state that the processor is to enter.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_IDLE_EXECUTE_V2 {
-  NTSTATUS                                   Status;
-  ULONG                                      ProcessorState;
-  ULONG                                      PlatformState;
-  ULONG                                      CoordinatedStateCount;
-  _Field_size_(CoordinatedStateCount) PULONG CoordinatedStates;
-} PEP_PPM_IDLE_EXECUTE_V2, *PPEP_PPM_IDLE_EXECUTE_V2;
-````
 
 
 ## -struct-fields
@@ -107,6 +94,9 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186807">PEP_NOTIFY_PPM_IDLE_EXECUTE</a>
 
 
@@ -116,11 +106,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
-
-
-
  
 
  
-
 

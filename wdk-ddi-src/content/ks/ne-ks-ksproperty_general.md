@@ -7,7 +7,7 @@ old-location: stream\ksproperty_general.htm
 old-project: stream
 ms.assetid: 45D94211-4756-4D3C-8512-2AF7953CFADC
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSPROPERTY_GENERAL, KSPROPERTY_GENERAL enumeration [Streaming Media Devices], KSPROPERTY_GENERAL_COMPONENTID, ks/KSPROPERTY_GENERAL, ks/KSPROPERTY_GENERAL_COMPONENTID, stream.ksproperty_general
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPROPERTY_GENERAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_GENERAL
 ---
@@ -50,16 +51,6 @@ req.typenames: KSPROPERTY_GENERAL
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_GENERAL_COMPONENTID
-} KSPROPERTY_GENERAL;
-````
 
 
 ## -enum-fields

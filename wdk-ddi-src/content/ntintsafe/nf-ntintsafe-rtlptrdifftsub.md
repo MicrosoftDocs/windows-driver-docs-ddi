@@ -7,7 +7,7 @@ old-location: kernel\rtlptrdifftsub.htm
 old-project: kernel
 ms.assetid: C87E3BD5-8CA7-443E-8CC3-F863CD4F321A
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlPtrdiffTSub, RtlPtrdiffTSub function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftsub, ntintsafe/RtlPtrdiffTSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlPtrdiffTSub
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlPtrdiffTSub function
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Subtracts one value of type <b>PTRDIFF_T</b> from another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlPtrdiffTSub(
-  _In_  PTRDIFF_T Minuend,
-  _In_  PTRDIFF_T Subtrahend,
-  _Out_ PTRDIFF_T *pResult
-);
-````
 
 
 ## -parameters

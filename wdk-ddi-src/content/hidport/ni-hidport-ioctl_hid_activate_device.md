@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_activate_device.htm
 old-project: hid
 ms.assetid: 5d2f218c-a9a5-4149-8fde-898171dfc9a7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_ACTIVATE_DEVICE, IOCTL_HID_ACTIVATE_DEVICE control code [Human Input Devices], hid.ioctl_hid_activate_device, hidioreq_031bb843-02fe-4859-acf2-4bcbfaaea657.xml, hidport/IOCTL_HID_ACTIVATE_DEVICE
+ms.date: 4/30/2018
+ms.keywords: IOCTL_HID_ACTIVATE_DEVICE, IOCTL_HID_ACTIVATE_DEVICE control, IOCTL_HID_ACTIVATE_DEVICE control code [Human Input Devices], hid.ioctl_hid_activate_device, hidioreq_031bb843-02fe-4859-acf2-4bcbfaaea657.xml, hidport/IOCTL_HID_ACTIVATE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	hidport.h
 api_name:
 -	IOCTL_HID_ACTIVATE_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+req.typenames: 
 ---
 
 # IOCTL_HID_ACTIVATE_DEVICE IOCTL
@@ -117,12 +118,11 @@ Minidrivers that call other drivers with this IRP to carry out the I/O to their 
 
 ## -see-also
 
-<a href="..\hidport\ni-hidport-ioctl_hid_deactivate_device.md">IOCTL_HID_DEACTIVATE_DEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541075">IOCTL_HID_DEACTIVATE_DEVICE</a>
  
 
  
-
 

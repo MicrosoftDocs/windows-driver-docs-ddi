@@ -8,7 +8,7 @@ old-project: gnss
 ms.assetid: 3A15A61A-8822-4E20-9979-B89BFA092281
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_STOP_FIXSESSION, IOCTL_GNSS_STOP_FIXSESSION control code [Sensor Devices], gnss.ioctl_gnss_stop_fixsession, gnssdriver/IOCTL_GNSS_STOP_FIXSESSION
+ms.keywords: IOCTL_GNSS_STOP_FIXSESSION, IOCTL_GNSS_STOP_FIXSESSION control, IOCTL_GNSS_STOP_FIXSESSION control code [Sensor Devices], gnss.ioctl_gnss_stop_fixsession, gnssdriver/IOCTL_GNSS_STOP_FIXSESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_STOP_FIXSESSION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_STOP_FIXSESSION IOCTL
@@ -59,7 +60,7 @@ The <b>IOCTL_GNSS_STOP_FIXSESSION</b> control code is used by the GNSS adapter t
 
 ### -input-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_stopfixsession_param.md">GNSS_STOPFIXSESSION_PARAM</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925221">GNSS_STOPFIXSESSION_PARAM</a> structure.
 
 
 ### -input-buffer-length
@@ -129,7 +130,6 @@ If no other fix sessions are active, the GNSS driver should keep the GNSS engine
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -137,14 +137,15 @@ If no other fix sessions are active, the GNSS driver should keep the GNSS engine
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

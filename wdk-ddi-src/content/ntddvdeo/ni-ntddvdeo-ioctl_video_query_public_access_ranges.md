@@ -7,8 +7,8 @@ old-location: display\ioctl_video_query_public_access_ranges.htm
 old-project: display
 ms.assetid: 2ae79e9c-34e4-4862-afd1-be6e808183cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES, IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES control code [Display Devices], Video_IOCTLs_e41d01a5-e889-445e-87cd-948f95ba2810.xml, display.ioctl_video_query_public_access_ranges, ntddvdeo/IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES
+ms.date: 4/16/2018
+ms.keywords: IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES, IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES control, IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES control code [Display Devices], Video_IOCTLs_e41d01a5-e889-445e-87cd-948f95ba2810.xml, display.ioctl_video_query_public_access_ranges, ntddvdeo/IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: 
 ---
 
 # IOCTL_VIDEO_QUERY_PUBLIC_ACCESS_RANGES IOCTL
@@ -76,7 +77,7 @@ None
 
 ### -output-buffer
 
-The miniport driver returns an array of <a href="..\ntddvdeo\ns-ntddvdeo-_video_public_access_ranges.md">VIDEO_PUBLIC_ACCESS_RANGES</a> in the VRP <b>OutputBuffer</b>.
+The miniport driver returns an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff570546">VIDEO_PUBLIC_ACCESS_RANGES</a> in the VRP <b>OutputBuffer</b>.
 
 
 ### -output-buffer-length
@@ -108,21 +109,20 @@ The miniport driver returns an array of <a href="..\ntddvdeo\ns-ntddvdeo-_video_
 
 ### -status-block
 
-If the miniport driver returns an address range or ranges, it sets the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_PUBLIC_ACCESS_RANGES); otherwise, the miniport driver sets this member to zero.
+If the miniport driver returns an address range or ranges, it sets the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_PUBLIC_ACCESS_RANGES); otherwise, the miniport driver sets this member to zero.
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_public_access_ranges.md">VIDEO_PUBLIC_ACCESS_RANGES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570546">VIDEO_PUBLIC_ACCESS_RANGES</a>
  
 
  
-
 

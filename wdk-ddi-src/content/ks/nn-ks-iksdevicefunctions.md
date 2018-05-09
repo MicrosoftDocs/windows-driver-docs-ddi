@@ -7,8 +7,8 @@ old-location: stream\iksdevicefunctions.htm
 old-project: stream
 ms.assetid: d29e7b39-5fcf-4543-9363-6f8ac6a9c7dc
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsDeviceFunctions, IKsDeviceFunctions interface [Streaming Media Devices], IKsDeviceFunctions interface [Streaming Media Devices], described, avintfc_68e124c6-7a91-4c68-8327-e2c83b982699.xml, ks/IKsDeviceFunctions, stream.iksdevicefunctions
+ms.date: 4/23/2018
+ms.keywords: IKsDeviceFunctions, IKsDeviceFunctions interface [Streaming Media Devices], IKsDeviceFunctions interface [Streaming Media Devices],described, avintfc_68e124c6-7a91-4c68-8327-e2c83b982699.xml, ks/IKsDeviceFunctions, stream.iksdevicefunctions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	IKsDeviceFunctions
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -72,7 +73,7 @@ The <b>IKsDeviceFunctions</b> interface has these methods.
 <a href="https://msdn.microsoft.com/e5dc54a6-e26a-455b-9990-92f5cfece923">RegisterAdapterObjectEx</a>
 </td>
 <td align="left" width="63%">
-Registers a DMA adapter object with AVStream. All drivers compiled for Win64 should use this method instead of <a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>.
+Registers a DMA adapter object with AVStream. All drivers compiled for Win64 should use this method instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561687">KsDeviceRegisterAdapterObject</a>.
 
 </td>
 </tr>

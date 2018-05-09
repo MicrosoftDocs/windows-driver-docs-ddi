@@ -7,7 +7,7 @@ old-location: stream\bda_diseqc_send.htm
 old-project: stream
 ms.assetid: C40EAB5C-61AA-45FB-856E-07AB4D0228A6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_DISEQC_SEND, BDA_DISEQC_SEND, BDA_DISEQC_SEND structure [Streaming Media Devices], PBDA_DISEQC_SEND, PBDA_DISEQC_SEND structure pointer [Streaming Media Devices], _BDA_DISEQC_SEND, bdatypes/BDA_DISEQC_SEND, bdatypes/PBDA_DISEQC_SEND, stream.bda_diseqc_send"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_DISEQC_SEND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_DISEQC_SEND, *PBDA_DISEQC_SEND
 ---
@@ -50,18 +51,6 @@ req.typenames: BDA_DISEQC_SEND, *PBDA_DISEQC_SEND
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_DISEQC_SEND {
-  ULONG ulRequestId;
-  ULONG ulPacketLength;
-  BYTE  argbPacketData[8];
-} BDA_DISEQC_SEND, *PBDA_DISEQC_SEND;
-````
 
 
 ## -struct-fields

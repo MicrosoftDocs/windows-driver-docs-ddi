@@ -7,7 +7,7 @@ old-location: netvista\ndisinitializelisthead.htm
 old-project: netvista
 ms.assetid: da3f5f28-2794-491b-a359-be8508b050bf
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisInitializeListHead, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, netvista.ndisinitializelisthead
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisInitializeListHead
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisInitializeListHead macro
@@ -51,16 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisInitializeListHead</b> function initializes a doubly linked, driver-maintained queue.
-
-
-## -syntax
-
-
-````
-VOID NdisInitializeListHead(
-  [in] PLIST_ENTRY ListHead
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ A pointer to driver-allocated nonpaged storage for the head of the interlocked q
 
 
 <b>NdisInitializeListHead</b> can be called from a 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function or
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function or
     from a protocol driver's 
     <a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry</a> routine
     if the driver queues requests internally. However, miniport drivers seldom set up internal queues because
@@ -93,7 +84,7 @@ Any NDIS driver that maintains an internal queue is responsible for synchronizin
 
 For an interlocked queue, the driver also must provide nonpaged storage for a spin lock. It must
     initialize the spin lock with the 
-    <a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a> function before
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function before
     passing a pointer to that spin lock to any of the 
     <b>NdisInterlocked<i>Xxx</i>List</b> functions.
 
@@ -104,17 +95,6 @@ Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisI
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
-   NdisInterlockedInsertHeadList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinterlockedinserttaillist.md">
-   NdisInterlockedInsertTailList</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
 
 
 
@@ -123,17 +103,27 @@ Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisI
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/c6221ce9-682c-453b-b036-f4219c9540da">
+   NdisInterlockedInsertHeadList</a>
+
+
+
+<a href="https://msdn.microsoft.com/cc455bb1-3574-4dfb-9462-f2c67632132b">
+   NdisInterlockedInsertTailList</a>
+
+
+
+<a href="https://msdn.microsoft.com/85cbc158-7132-4666-8161-a78251a62e4d">
    NdisInterlockedRemoveHeadList</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
  
 
  
-
 

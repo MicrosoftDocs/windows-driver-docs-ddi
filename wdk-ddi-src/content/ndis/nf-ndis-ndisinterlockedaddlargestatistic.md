@@ -7,7 +7,7 @@ old-location: netvista\ndisinterlockedaddlargestatistic.htm
 old-project: netvista
 ms.assetid: 7bc753b1-5e09-431b-b226-fb7194dd6947
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddLargeStatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml, netvista.ndisinterlockedaddlargestatistic
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisInterlockedAddLargeStatistic
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisInterlockedAddLargeStatistic macro
@@ -52,17 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisInterlockedAddLargeStatistic</b> function performs an interlocked addition of a ULONG increment value
   to a LARGE_INTEGER addend value.
-
-
-## -syntax
-
-
-````
-VOID NdisInterlockedAddLargeStatistic(
-  [in] PLARGE_INTEGER Addend,
-  [in] ULONG          Increment
-);
-````
 
 
 ## -parameters
@@ -90,7 +80,7 @@ Functions that perform interlocked operations must not cause a page fault to occ
     nor any of the data that they access can cause a page fault without bringing down the local computer.
 
 <b>NdisInterlockedAddLargeStatistic</b> masks interrupts and can be safely used to synchronize a driver's 
-    <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function with other
+    <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function with other
     driver code.
 
 
@@ -98,12 +88,11 @@ Functions that perform interlocked operations must not cause a page fault to occ
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
 
 
 
+<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>
  
 
  
-
 

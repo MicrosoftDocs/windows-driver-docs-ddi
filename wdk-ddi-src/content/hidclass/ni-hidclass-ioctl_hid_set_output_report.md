@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_set_output_report.htm
 old-project: hid
 ms.assetid: f5c0f3a7-5d90-4a95-9ba0-01aea98d8c79
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_SET_OUTPUT_REPORT, IOCTL_HID_SET_OUTPUT_REPORT control code [Human Input Devices], hid.ioctl_hid_set_output_report, hidclass/IOCTL_HID_SET_OUTPUT_REPORT, hidioreq_1b4d06b6-4e28-4465-8b88-356d70bf1dee.xml
+ms.date: 4/30/2018
+ms.keywords: IOCTL_HID_SET_OUTPUT_REPORT, IOCTL_HID_SET_OUTPUT_REPORT control, IOCTL_HID_SET_OUTPUT_REPORT control code [Human Input Devices], hid.ioctl_hid_set_output_report, hidclass/IOCTL_HID_SET_OUTPUT_REPORT, hidioreq_1b4d06b6-4e28-4465-8b88-356d70bf1dee.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	hidclass.h
 api_name:
 -	IOCTL_HID_SET_OUTPUT_REPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_HID_SET_OUTPUT_REPORT IOCTL
@@ -67,10 +68,35 @@ The input buffer size, in bytes, must be large enough to hold the output report 
 
 The <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> member points to the input buffer that contains an output report. If the collection includes report IDs, the requester must set the first byte of the buffer to a nonzero report ID. Otherwise, the requester must set the first byte to zero. The output report -- excluding its report ID, if report IDs are used -- is located at ((PUCHAR)<i>ReportBuffer</i> + 1).
 
+<b>Minidriver handling</b>
+
+<b>Irp-&gt;UserBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539949">HID_XFER_PACKET</a> structure that the HID class driver uses to input the following members:
+
+
+
+
+#### -ReportID
+
+Specifies the report ID for a top-level collection.
+
+
+#### -reportBuffer
+
+Pointer to a requester-allocated input buffer that contains an output report.
+
+
+#### -reportBufferLen
+
+Specifies the size, in bytes, of the output buffer.
+
 
 ### -input-buffer-length
 
 The input buffer size, in bytes, must be large enough to hold the output report -- excluding its report ID, if report IDs are used -- plus one additional byte that specifies a nonzero report ID or zero.
+
+<b>Minidriver handling</b>
+
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539949">HID_XFER_PACKET</a> structure.
 
 
 ### -output-buffer
@@ -115,39 +141,55 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 </li>
 </ul>
+<b>Minidriver handling</b>
+
+
+       HID minidrivers that carry out the I/O to the device set the following fields of <b>Irp-&gt;IoStatus</b>:
+
+<ul>
+<li>
+<b>Information</b> is set to the number of bytes transferred to the device.
+
+</li>
+<li>
+<b>Status</b> is set to STATUS_SUCCESS if the transfer completed without error. Otherwise, it is set to an appropriate NTSTATUS error code.
+
+</li>
+</ul>
+HID minidrivers that call other drivers with this IOCTL to carry out the I/O should ensure that the <b>Information</b> field of the status block is correct and not change the contents of the <b>Status</b> field.
+
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538910">HidD_GetFeature</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538945">HidD_GetInputReport</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_setfeature.md">HidD_SetFeature</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539684">HidD_SetFeature</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539690">HidD_SetOutputReport</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541100">IOCTL_HID_GET_FEATURE</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_setoutputreport.md">HidD_SetOutputReport</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541126">IOCTL_HID_GET_INPUT_REPORT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541176">IOCTL_HID_SET_FEATURE</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\ioctl_video_enable_pointer.htm
 old-project: display
 ms.assetid: df6d348a-2720-4d47-9bc7-fc0627c951e6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_VIDEO_ENABLE_POINTER, IOCTL_VIDEO_ENABLE_POINTER control code [Display Devices], Video_IOCTLs_89a9a8cc-bfd6-4969-bb8f-26d72cbaa807.xml, display.ioctl_video_enable_pointer, ntddvdeo/IOCTL_VIDEO_ENABLE_POINTER
+ms.date: 4/16/2018
+ms.keywords: IOCTL_VIDEO_ENABLE_POINTER, IOCTL_VIDEO_ENABLE_POINTER control, IOCTL_VIDEO_ENABLE_POINTER control code [Display Devices], Video_IOCTLs_89a9a8cc-bfd6-4969-bb8f-26d72cbaa807.xml, display.ioctl_video_enable_pointer, ntddvdeo/IOCTL_VIDEO_ENABLE_POINTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_ENABLE_POINTER
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: 
 ---
 
 # IOCTL_VIDEO_ENABLE_POINTER IOCTL
@@ -50,7 +51,7 @@ req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
 
 
 
-Makes the pointer visible by enabling pointer attributes. Support for this modal request is optional; however, if a miniport driver supports this request, it must process an <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_pointer_attr.md">IOCTL_VIDEO_SET_POINTER_ATTR</a> request before processing this request.
+Makes the pointer visible by enabling pointer attributes. Support for this modal request is optional; however, if a miniport driver supports this request, it must process an <a href="https://msdn.microsoft.com/library/windows/hardware/ff568144">IOCTL_VIDEO_SET_POINTER_ATTR</a> request before processing this request.
 
 
 
@@ -108,17 +109,16 @@ None
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure.
+The miniport driver does not set the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure.
 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_pointer_attr.md">IOCTL_VIDEO_SET_POINTER_ATTR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568144">IOCTL_VIDEO_SET_POINTER_ATTR</a>
  
 
  
-
 

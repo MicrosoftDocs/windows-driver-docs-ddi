@@ -7,7 +7,7 @@ old-location: kernel\io_session_state_information.htm
 old-project: kernel
 ms.assetid: ef56da02-52ae-4f85-8820-fc310638bb89
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PIO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION structure [Kernel-Mode Driver Architecture], PIO_SESSION_STATE_INFORMATION, PIO_SESSION_STATE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _IO_SESSION_STATE_INFORMATION, kernel.io_session_state_information, kstruct_b_1021e6f4-b82d-4f1d-8664-dbef116240d1.xml, wdm/IO_SESSION_STATE_INFORMATION, wdm/PIO_SESSION_STATE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	IO_SESSION_STATE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_SESSION_STATE_INFORMATION, *PIO_SESSION_STATE_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _IO_SESSION_STATE_INFORMATION structure
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>IO_SESSION_STATE_INFORMATION</b> structure contains information about the state of a user session.
 
 
-## -syntax
-
-
-````
-typedef struct _IO_SESSION_STATE_INFORMATION {
-  ULONG            SessionId;
-  IO_SESSION_STATE SessionState;
-  BOOLEAN          LocalSession;
-} IO_SESSION_STATE_INFORMATION, *PIO_SESSION_STATE_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -73,12 +61,12 @@ typedef struct _IO_SESSION_STATE_INFORMATION {
 ### -field SessionId
 
 
-      The session ID. This member contains the <a href="http://go.microsoft.com/fwlink/p/?linkid=155045">Terminal Services</a> session identifier of a user session. The <a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a> routine sets this member to the session ID of the session that is represented by the session object that the <i>ContainerObject</i> parameter of <b>IoGetContainerInformation</b> points to.
+      The session ID. This member contains the <a href="http://go.microsoft.com/fwlink/p/?linkid=155045">Terminal Services</a> session identifier of a user session. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff549164">IoGetContainerInformation</a> routine sets this member to the session ID of the session that is represented by the session object that the <i>ContainerObject</i> parameter of <b>IoGetContainerInformation</b> points to.
 
 
 ### -field SessionState
 
-The current state of the user session that is identified by <i>SessionId</i>. This member is set to one of the following <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a> enumeration constants:
+The current state of the user session that is identified by <i>SessionId</i>. This member is set to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff550631">IO_SESSION_STATE</a> enumeration constants:
 
 <ul>
 <li><b>IoSessionStateCreated</b></li>
@@ -112,16 +100,15 @@ To obtain information about a user session, a driver calls the <b>IoGetContainer
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
 
 
 
-<a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550631">IO_SESSION_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549164">IoGetContainerInformation</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\ioctl_video_query_color_capabilities.htm
 old-project: display
 ms.assetid: ba1a1fcd-9551-41cb-b1f9-097b51a26380
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES, IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES control code [Display Devices], Video_IOCTLs_26b0d5c4-d7b5-4056-9d78-6b9fa9a8ab72.xml, display.ioctl_video_query_color_capabilities, ntddvdeo/IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
+ms.date: 4/16/2018
+ms.keywords: IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES, IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES control, IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES control code [Display Devices], Video_IOCTLs_26b0d5c4-d7b5-4056-9d78-6b9fa9a8ab72.xml, display.ioctl_video_query_color_capabilities, ntddvdeo/IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: 
 ---
 
 # IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES IOCTL
@@ -108,17 +109,16 @@ The miniport driver returns all VIDEO_COLOR_CAPABILITIES information in the VRP 
 
 ### -status-block
 
-If the miniport driver successfully returns the color-capabilities data, it sets the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_COLOR_CAPABILITIES); otherwise, the miniport driver sets this member to zero.
+If the miniport driver successfully returns the color-capabilities data, it sets the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_COLOR_CAPABILITIES); otherwise, the miniport driver sets this member to zero.
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
  
 
  
-
 

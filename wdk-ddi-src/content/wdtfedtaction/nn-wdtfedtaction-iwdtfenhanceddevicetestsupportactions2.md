@@ -7,8 +7,8 @@ old-location: dtf\iwdtfenhanceddevicetestsupportactions2.htm
 old-project: dtf
 ms.assetid: 6b66ed33-966f-4672-93c7-377fc68a7798
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFEnhancedDeviceTestSupportActions2, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework], described, dtf.iwdtfenhanceddevicetestsupportactions2, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2
+ms.date: 4/4/2018
+ms.keywords: IWDTFEnhancedDeviceTestSupportActions2, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework],described, dtf.iwdtfenhanceddevicetestsupportactions2, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	wdtfedtaction.h
 api_name:
 -	IWDTFEnhancedDeviceTestSupportActions2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDTFEnhancedDeviceTestSupportActions2 interface
@@ -139,7 +139,7 @@ Sets a value that indicates whether the target device should be restarted by def
 
 
 The EDT filter driver provides support for the 
-<a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpaction2.md">IWDTFPNPAction2</a> interface methods 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451065">IWDTFPNPAction2</a> interface methods 
 that are prefixed with <b>EDT</b>.
 
 

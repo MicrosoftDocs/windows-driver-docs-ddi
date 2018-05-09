@@ -8,7 +8,7 @@ old-project: SD
 ms.assetid: b3d23404-2d55-4a37-8c4c-d857c5307f18
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AcknowledgeInterrupt, AcknowledgeInterrupt callback function [Buses], PSDBUS_ACKNOWLEDGE_INT_ROUTINE, SD.psdbus_acknowledge_int_routine, ntddsd/AcknowledgeInterrupt, sd-rtns_9197189b-4b46-4ab6-aa7b-df880985241b.xml
+ms.keywords: AcknowledgeInterrupt, AcknowledgeInterrupt callback function [Buses], PSDBUS_ACKNOWLEDGE_INT_ROUTINE, PSDBUS_ACKNOWLEDGE_INT_ROUTINE callback, SD.psdbus_acknowledge_int_routine, ntddsd/AcknowledgeInterrupt, sd-rtns_9197189b-4b46-4ab6-aa7b-df880985241b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,31 +38,19 @@ api_location:
 -	ntddsd.h
 api_name:
 -	AcknowledgeInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
+req.typenames: 
 ---
 
-# PSDBUS_ACKNOWLEDGE_INT_ROUTINE callback
+# PSDBUS_ACKNOWLEDGE_INT_ROUTINE callback function
 
 
 ## -description
 
 
 The PSDBUS_ACKNOWLEDGE_INT_ROUTINE prototype declares the routine that a Secure Digital (SD) device driver must call to acknowledge to the bus driver that it has finished processing the interrupt.
-
-
-## -prototype
-
-
-````
-PSDBUS_ACKNOWLEDGE_INT_ROUTINE AcknowledgeInterrupt;
-
-NTSTATUS AcknowledgeInterrupt(
-  _In_ PVOID Context
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -99,7 +87,6 @@ The caller must be running at IRQL &lt;= DISPATCH_LEVEL when it acknowledges tha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
 
 
 
@@ -107,8 +94,8 @@ The caller must be running at IRQL &lt;= DISPATCH_LEVEL when it acknowledges tha
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
  
 
  
-
 

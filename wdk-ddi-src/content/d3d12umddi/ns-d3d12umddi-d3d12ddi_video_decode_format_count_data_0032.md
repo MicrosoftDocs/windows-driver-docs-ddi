@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-video-decode-format-count-data-0032.htm
 old-project: display
 ms.assetid: 3d28fe10-1dfc-4017-9ab0-d8b8e2d45448
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, display.d3d12ddi-video-decode-format-count-data-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
 
 
 Video decode format count data.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 {
-  UINT                                      NodeIndex;
-  D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020  Configuration;
-  UINT                                      FormatCount;
-} D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032;
-````
 
 
 ## -struct-fields

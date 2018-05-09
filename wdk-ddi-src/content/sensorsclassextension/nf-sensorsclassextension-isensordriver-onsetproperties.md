@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnSetProperties
-title: ISensorDriver::OnSetProperties method
+title: ISensorDriver::OnSetProperties
 author: windows-driver-content
 description: The ISensorDriver::OnSetProperties method specifies values for the specified list of properties.
 old-location: sensors\isensordriver_onsetproperties.htm
 old-project: sensors
 ms.assetid: 7c3cca5b-1d08-42dc-8dc4-42eb1160b8bb
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorDriver, ISensorDriver interface [Sensor Devices], OnSetProperties method, ISensorDriver::OnSetProperties, OnSetProperties method [Sensor Devices], OnSetProperties method [Sensor Devices], ISensorDriver interface, OnSetProperties,ISensorDriver.OnSetProperties, Sensor_IFaces_1b27ccef-2b50-4942-b8fa-9126e2624b27.xml, sensors.isensordriver_onsetproperties, sensorsclassextension/ISensorDriver::OnSetProperties
+ms.date: 4/30/2018
+ms.keywords: ISensorDriver interface [Sensor Devices],OnSetProperties method, ISensorDriver.OnSetProperties, ISensorDriver::OnSetProperties, OnSetProperties, OnSetProperties method [Sensor Devices], OnSetProperties method [Sensor Devices],ISensorDriver interface, Sensor_IFaces_1b27ccef-2b50-4942-b8fa-9126e2624b27.xml, sensors.isensordriver_onsetproperties, sensorsclassextension/ISensorDriver::OnSetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,32 +39,19 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	ISensorDriver.OnSetProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorDriver::OnSetProperties method
+# ISensorDriver::OnSetProperties
 
 
 ## -description
 
 
 The <b>ISensorDriver::OnSetProperties</b> method specifies values for the specified list of properties.
-
-
-## -syntax
-
-
-````
-HRESULT OnSetProperties(
-  [in]  IWDFFile              *pClientFile,
-  [in]  LPWSTR                pwszSensorID,
-  [in]  IPortableDeviceValues *pPropertiesToSet,
-  [out] IPortableDeviceValues **ppResults
-);
-````
 
 
 ## -parameters
@@ -74,7 +61,7 @@ HRESULT OnSetProperties(
 
 ### -param pClientFile [in]
 
-Pointer to an <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface that represents the file object for the application specifying property values.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface that represents the file object for the application specifying property values.
 
 
 ### -param pwszSensorID [in]
@@ -120,12 +107,15 @@ The sensor class extension is responsible for freeing any <b>PROPVARIANT</b> str
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: print\getprintoutputinfo.htm
 old-project: print
 ms.assetid: 0EC09215-48B1-4B71-9B4C-99A25C35269F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: GetPrintOutputInfo, GetPrintOutputInfo function [Print Devices], print.getprintoutputinfo, winspool/GetPrintOutputInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Winspool.h
 api_name:
 -	GetPrintOutputInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BIDI_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # GetPrintOutputInfo function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT WINAPI GetPrintOutputInfo(
-  _In_  HWND    hWnd,
-  _In_  PCWSTR  pszPrinter,
-  _Out_ HANDLE  *phFile,
-  _Out_ PWSTR   *ppszOutputFile
-);
-````
 
 
 ## -parameters

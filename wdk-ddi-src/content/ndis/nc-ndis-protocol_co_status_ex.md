@@ -7,8 +7,8 @@ old-location: netvista\protocolcostatusex.htm
 old-project: netvista
 ms.assetid: 1416ad56-548c-4f12-9922-9ab9a7e4fd3a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PROTOCOL_CO_STATUS_EX, ProtocolCoStatusEx, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml, ndis/ProtocolCoStatusEx, netvista.protocolcostatusex
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CO_STATUS_EX, PROTOCOL_CO_STATUS_EX callback, ProtocolCoStatusEx, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml, ndis/ProtocolCoStatusEx, netvista.protocolcostatusex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCoStatusEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CO_STATUS_EX callback
+# PROTOCOL_CO_STATUS_EX callback function
 
 
 ## -description
@@ -55,21 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CO_STATUS_EX</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CO_STATUS_EX ProtocolCoStatusEx;
-
-VOID ProtocolCoStatusEx(
-  _In_ NDIS_HANDLE             ProtocolBindingContext,
-  _In_ NDIS_HANDLE             ProtocolVcContext,
-  _In_ PNDIS_STATUS_INDICATION StatusIndication
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,7 +66,7 @@ VOID ProtocolCoStatusEx(
 A handle to a protocol driver-allocated context area. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
      driver called the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function.
 
 
 ### -param ProtocolVcContext [in]
@@ -89,14 +75,14 @@ A handle to a protocol driver-allocated context area in which the protocol drive
      virtual connection (VC) run-time state information. If the status indication is 
      <u>not</u> VC-specific, this parameter is <b>NULL</b>. Otherwise, the protocol driver originally supplied this
      handle either when it called the 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> function or from its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> function or from its 
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ### -param StatusIndication [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.
 
 
@@ -170,24 +156,23 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\ucmtcpcideviceinitinitialize.htm
 old-project: usbref
 ms.assetid: a9afbac3-9494-466c-b36b-26a5839913f1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize method [Buses], buses.ucmtcpcideviceinitinitialize, ucmtcpcidevice/UcmTcpciDeviceInitInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	ucmtcpcicxstub.dll
 api_name:
 -	UcmTcpciDeviceInitInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcmTcpciDeviceInitInitialize function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 
                 
-
-
-## -syntax
-
-
-````
-NTSTATUS UcmTcpciDeviceInitInitialize(
-  _In_ PWDFDEVICE_INIT DeviceInit
-);
-````
 
 
 ## -parameters
@@ -91,19 +81,18 @@ A pointer to a framework-allocated <a href="https://msdn.microsoft.com/library/w
 
 
 
-The client driver calls this method after it has performed all of its own initialization in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure, just before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
+The client driver calls this method after it has performed all of its own initialization in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure, just before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
-
-
-
  
 
  
-
 

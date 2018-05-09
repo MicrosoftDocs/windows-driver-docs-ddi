@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbInterface.RetrieveUsbPipeObject
-title: IWDFUsbInterface::RetrieveUsbPipeObject method
+title: IWDFUsbInterface::RetrieveUsbPipeObject
 author: windows-driver-content
 description: The RetrieveUsbPipeObject method retrieves a USB pipe object for the specified pipe index.
 old-location: wdf\iwdfusbinterface_retrieveusbpipeobject.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: abfaad6b-be42-4547-aa26-5b44e53118bc
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbInterface, IWDFUsbInterface interface, RetrieveUsbPipeObject method, IWDFUsbInterface::RetrieveUsbPipeObject, RetrieveUsbPipeObject method, RetrieveUsbPipeObject method, IWDFUsbInterface interface, RetrieveUsbPipeObject,IWDFUsbInterface.RetrieveUsbPipeObject, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, umdf.iwdfusbinterface_retrieveusbpipeobject, wdf.iwdfusbinterface_retrieveusbpipeobject, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject
+ms.keywords: IWDFUsbInterface interface,RetrieveUsbPipeObject method, IWDFUsbInterface.RetrieveUsbPipeObject, IWDFUsbInterface::RetrieveUsbPipeObject, RetrieveUsbPipeObject, RetrieveUsbPipeObject method, RetrieveUsbPipeObject method,IWDFUsbInterface interface, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, umdf.iwdfusbinterface_retrieveusbpipeobject, wdf.iwdfusbinterface_retrieveusbpipeobject, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbInterface.RetrieveUsbPipeObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbInterface::RetrieveUsbPipeObject method
+# IWDFUsbInterface::RetrieveUsbPipeObject
 
 
 ## -description
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveUsbPipeObject</b> method retrieves a USB pipe object for the specified pipe index.
-
-
-## -syntax
-
-
-````
-HRESULT RetrieveUsbPipeObject(
-  [in]  UCHAR             PipeIndex,
-  [out] IWDFUsbTargetPipe **ppPipe
-);
-````
 
 
 ## -parameters
@@ -78,7 +67,7 @@ The index of the USB pipe object to retrieve.
 
 ### -param ppPipe [out]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a> interface for the USB pipe object whose index is specified by <i>PipeIndex</i>.
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a> interface for the USB pipe object whose index is specified by <i>PipeIndex</i>.
 
 
 ## -returns
@@ -137,7 +126,7 @@ This value corresponds to the error code that the WinUsb API returned.
 
 
 
-A UMDF driver can call the methods of the <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a> interface that the <b>RetrieveUsbPipeObject</b> method retrieves to obtain the type of pipe and other information.
+A UMDF driver can call the methods of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a> interface that the <b>RetrieveUsbPipeObject</b> method retrieves to obtain the type of pipe and other information.
 
 
 #### Examples
@@ -150,16 +139,15 @@ For a code example of how to use the<b>RetrieveUsbPipeObject</b> method, see <a 
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
  
 
  
-
 

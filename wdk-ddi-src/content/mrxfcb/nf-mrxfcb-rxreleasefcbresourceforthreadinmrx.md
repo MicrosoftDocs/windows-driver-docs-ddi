@@ -7,7 +7,7 @@ old-location: ifsk\rxreleasefcbresourceforthreadinmrx.htm
 old-project: ifsk
 ms.assetid: 86b6f18b-4088-4fa3-ace3-f083f61ef0d0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RxReleaseFcbResourceForThreadInMRx, RxReleaseFcbResourceForThreadInMRx function [Installable File System Drivers], ifsk.rxreleasefcbresourceforthreadinmrx, mrxfcb/RxReleaseFcbResourceForThreadInMRx, rxref_bed9a8b0-1761-413e-b816-599b51a7f305.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	mrxfcb.h
 api_name:
 -	RxReleaseFcbResourceForThreadInMRx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
 # RxReleaseFcbResourceForThreadInMRx function
@@ -50,18 +51,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 
 
 <b>RxReleaseFcbResourceForThreadInMRx</b> releases the FCB resource acquired by a network mini-redirector driver with a particular thread ID. 
-
-
-## -syntax
-
-
-````
-VOID RxReleaseFcbResourceForThreadInMRx(
-  _In_    PRX_CONTEXT      pRxContext,
-  _Inout_ PMRX_FCB         MrxFcb,
-  _In_    ERESOURCE_THREAD ResourceThreadId
-);
-````
 
 
 ## -parameters
@@ -106,24 +95,23 @@ The <b>RxReleaseFcbResourceForThreadInMRx</b> routine will release an FCB resour
 
 ## -see-also
 
-<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
 
 
 
-<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553363">RxAcquireExclusiveFcbResourceInMRx</a>
 
 
 
-<a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrx.md">RxAcquireSharedFcbResourceInMRx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553372">RxAcquireSharedFcbResourceInMRx</a>
 
 
 
-<a href="..\mrxfcb\nf-mrxfcb-rxacquiresharedfcbresourceinmrxex.md">RxAcquireSharedFcbResourceInMRxEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553375">RxAcquireSharedFcbResourceInMRxEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554699">RxReleaseFcbResourceInMRx</a>
  
 
  
-
 

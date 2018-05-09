@@ -7,7 +7,7 @@ old-location: netvista\wskreleaseprovidernpi.htm
 old-project: netvista
 ms.assetid: 6b0b995a-61db-4bdf-a896-74d91bd192e7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: WskReleaseProviderNPI, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskreleaseprovidernpi, wsk/WskReleaseProviderNPI, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Netio.dll
 api_name:
 -	WskReleaseProviderNPI
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WskReleaseProviderNPI function
@@ -55,17 +55,7 @@ The
   <b>WskReleaseProviderNPI</b> function releases a 
   <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">Network Programming Interface
   (NPI)</a> that was captured with 
-  <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>.
-
-
-## -syntax
-
-
-````
-VOID WskReleaseProviderNPI(
-  _In_ PWSK_REGISTRATION WskRegistration
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a>.
 
 
 ## -parameters
@@ -76,7 +66,7 @@ VOID WskReleaseProviderNPI(
 ### -param WskRegistration [in]
 
 A pointer to the memory location initialized by 
-     <a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a> that identifies a WSK
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a> that identifies a WSK
      application's registration instance.
 
 
@@ -105,16 +95,15 @@ For each call to
 
 ## -see-also
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571178">WSK_REGISTRATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a>
  
 
  
-
 

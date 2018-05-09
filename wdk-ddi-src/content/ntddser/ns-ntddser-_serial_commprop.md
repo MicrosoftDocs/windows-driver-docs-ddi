@@ -7,7 +7,7 @@ old-location: serports\serial_commprop.htm
 old-project: serports
 ms.assetid: 1C8610F5-A397-4CDE-890D-7AA5AD94A6AF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSERIAL_COMMPROP, PSERIAL_COMMPROP, PSERIAL_COMMPROP structure pointer [Serial Ports], SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], _SERIAL_COMMPROP, ntddser/PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP, serports.serial_commprop"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	SERIAL_COMMPROP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERIAL_COMMPROP, *PSERIAL_COMMPROP
 ---
@@ -50,33 +51,6 @@ req.typenames: SERIAL_COMMPROP, *PSERIAL_COMMPROP
 
 
 The <b>SERIAL_COMMPROP</b> structure specifies the properties of a serial port.
-
-
-## -syntax
-
-
-````
-typedef struct _SERIAL_COMMPROP {
-  USHORT PacketLength;
-  USHORT PacketVersion;
-  ULONG  ServiceMask;
-  ULONG  Reserved1;
-  ULONG  MaxTxQueue;
-  ULONG  MaxRxQueue;
-  ULONG  MaxBaud;
-  ULONG  ProvSubType;
-  ULONG  ProvCapabilities;
-  ULONG  SettableParams;
-  ULONG  SettableBaud;
-  USHORT SettableData;
-  USHORT SettableStopParity;
-  ULONG  CurrentTxQueue;
-  ULONG  CurrentRxQueue;
-  ULONG  ProvSpec1;
-  ULONG  ProvSpec2;
-  WCHAR  ProvChar[1];
-} SERIAL_COMMPROP, *PSERIAL_COMMPROP;
-````
 
 
 ## -struct-fields
@@ -468,7 +442,7 @@ For SerCx2 and SerCx, the associated serial controller driver typically sets thi
 
 Receive queue size. This member specifies the size, in bytes, of the serial controller driver's internal input buffer. A value of zero indicates that the buffer size is unavailable.
 
-For SerCx2 and SerCx, this member is set by the associated serial controller driver. For SerCx2, the driver typically sets this member to zero. For SerCx, the driver typically sets this member to the size of the ring buffer that SerCx uses to buffer received data. This driver can call the <a href="..\sercx\nf-sercx-sercxgetringbufferutilization.md">SerCxGetRingBufferUtilization</a> method to get the ring buffer size from SerCx.
+For SerCx2 and SerCx, this member is set by the associated serial controller driver. For SerCx2, the driver typically sets this member to zero. For SerCx, the driver typically sets this member to the size of the ring buffer that SerCx uses to buffer received data. This driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406704">SerCxGetRingBufferUtilization</a> method to get the ring buffer size from SerCx.
 
 Serial.sys sets this member to a nonzero value that indicates the input buffer size.
 
@@ -492,19 +466,18 @@ Provider-specific data. Applications should ignore this member unless provider-s
 
 
 
-This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_properties.md">IOCTL_SERIAL_GET_PROPERTIES</a> request.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546597">IOCTL_SERIAL_GET_PROPERTIES</a> request.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_properties.md">IOCTL_SERIAL_GET_PROPERTIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546597">IOCTL_SERIAL_GET_PROPERTIES</a>
  
 
  
-
 

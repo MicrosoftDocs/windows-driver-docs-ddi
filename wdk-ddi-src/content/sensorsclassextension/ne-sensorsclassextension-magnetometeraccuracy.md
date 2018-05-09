@@ -7,7 +7,7 @@ old-location: sensors\magnetometeraccuracy.htm
 old-project: sensors
 ms.assetid: DC495EFB-3522-4220-87F8-3DB501831D6E
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enumeration [Sensor Devices], Unknown, Unreliable, sensors.magnetometeraccuracy, sensorsclassextension/Approximate, sensorsclassextension/High, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/Unknown, sensorsclassextension/Unreliable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= PASSIVE_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	SensorsClassExtension.h
 api_name:
 -	MagnetometerAccuracy
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MagnetometerAccuracy
-req.product: Windows 10 or later.
 ---
 
 # MagnetometerAccuracy enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 Specifies the accuracy of the magnetometer.
-
-
-## -syntax
-
-
-````
-typedef enum _MagnetometerAccuracy { 
-  Unknown      = 0,
-  Unreliable   = 1,
-  Approximate  = 2,
-  High         = 3
-} MagnetometerAccuracy;
-````
 
 
 ## -enum-fields
@@ -118,12 +105,11 @@ Apps that need calibration may periodically ask the user to calibrate the device
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor Properties</a>
-
-
-
  
 
  
-
 

@@ -8,7 +8,7 @@ old-project: gnss
 ms.assetid: 14D396B1-5F55-4902-8986-BD4CC5B2ACC4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code [Sensor Devices], gnss.ioctl_gnss_listen_breadcrumbing_alert_, gnssdriver/IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
+ms.keywords: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code [Sensor Devices], gnss.ioctl_gnss_listen_breadcrumbing_alert_, gnssdriver/IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT IOCTL
@@ -50,7 +51,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 
 
 The <b>IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT </b> 
-   control code is used to request alert information  from <a href="..\gnssdriver\ns-gnssdriver-gnss_breadcrumbing_alert_data.md">GNSS_BREADCRUMBING_ALERT_DATA</a> when the breadcrumbing buffer has reached a level at which OS read
+   control code is used to request alert information  from <a href="https://msdn.microsoft.com/library/windows/hardware/mt767987">GNSS_BREADCRUMBING_ALERT_DATA</a> when the breadcrumbing buffer has reached a level at which OS read
 operations should be performed.
 
 
@@ -124,7 +125,6 @@ Size of the output buffer.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -132,14 +132,15 @@ Size of the output buffer.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceInterfaceReferenceNoOp
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_PDO_EVENT_CALLBACKS, *PWDF_PDO_EVENT_CALLBACKS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceInterfaceReferenceNoOp function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceInterfaceReferenceNoOp</b> method can be used for driver-defined interfaces that do not require reference counts.
-
-
-## -syntax
-
-
-````
-VOID WdfDeviceInterfaceReferenceNoOp(
-  _In_ PVOID Context
-);
-````
 
 
 ## -parameters
@@ -89,14 +79,14 @@ None
 
 
 
-You can use the <b>WdfDeviceInterfaceReferenceNoOp</b> method's address as the <b>InterfaceReference</b> member of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure that is contained in the framework's <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure.
+You can use the <b>WdfDeviceInterfaceReferenceNoOp</b> method's address as the <b>InterfaceReference</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure that is contained in the framework's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552439">WDF_QUERY_INTERFACE_CONFIG</a> structure.
 
 For more information about interface reference counts and the <b>WdfDeviceInterfaceReferenceNoOp</b> method, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-driver-defined-interfaces">Using Driver-Defined Interfaces</a>.
 
 
 #### Examples
 
-For a code example that uses <b>WdfDeviceInterfaceReferenceNoOp</b>, see <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
+For a code example that uses <b>WdfDeviceInterfaceReferenceNoOp</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545870">WdfDeviceAddQueryInterface</a>.
 
 <div class="code"></div>
 
@@ -104,20 +94,19 @@ For a code example that uses <b>WdfDeviceInterfaceReferenceNoOp</b>, see <a href
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
-<a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md">WdfDeviceInterfaceDereferenceNoOp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
 
 
 
-<a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552439">WDF_QUERY_INTERFACE_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546790">WdfDeviceInterfaceDereferenceNoOp</a>
  
 
  
-
 

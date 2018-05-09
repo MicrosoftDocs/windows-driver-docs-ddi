@@ -7,7 +7,7 @@ old-location: stream\bda_ipv4_address_list.htm
 old-project: stream
 ms.assetid: 92E90C2A-D59C-4A38-A444-978B16170B89
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST structure [Streaming Media Devices], PBDA_IPv4_ADDRESS_LIST, PBDA_IPv4_ADDRESS_LIST structure pointer [Streaming Media Devices], _BDA_IPv4_ADDRESS_LIST, bdatypes/BDA_IPv4_ADDRESS_LIST, bdatypes/PBDA_IPv4_ADDRESS_LIST, stream.bda_ipv4_address_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_IPv4_ADDRESS_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_IPv4_ADDRESS_LIST, *PBDA_IPv4_ADDRESS_LIST
 ---
@@ -50,17 +51,6 @@ req.typenames: BDA_IPv4_ADDRESS_LIST, *PBDA_IPv4_ADDRESS_LIST
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_IPv4_ADDRESS_LIST {
-  ULONG            ulcAddresses;
-  BDA_IPv4_ADDRESS rgAddressl[MIN_DIMENSION];
-} BDA_IPv4_ADDRESS_LIST, *PBDA_IPv4_ADDRESS_LIST;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: display\d3dkmtgetsharedprimaryhandle.htm
 old-project: display
 ms.assetid: 927a6ddd-caac-4460-b9df-3ba22db69398
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTGetSharedPrimaryHandle, D3DKMTGetSharedPrimaryHandle function [Display Devices], OpenGL_Functions_bb0d000e-4846-4851-a6c5-c70330ef8921.xml, d3dkmthk/D3DKMTGetSharedPrimaryHandle, display.d3dkmtgetsharedprimaryhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTGetSharedPrimaryHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTGetSharedPrimaryHandle function
@@ -55,26 +56,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTGetSharedPrimaryHandle</b> function retrieves the global shared handle for the primary surface.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTGetSharedPrimaryHandle(
-  _Inout_ D3DKMT_GETSHAREDPRIMARYHANDLE *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getsharedprimaryhandle.md">D3DKMT_GETSHAREDPRIMARYHANDLE</a> structure that describes the parameters that are required to retrieve the shared handle.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548070">D3DKMT_GETSHAREDPRIMARYHANDLE</a> structure that describes the parameters that are required to retrieve the shared handle.
 
 
 ## -returns
@@ -205,12 +201,11 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTGetSh
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getsharedprimaryhandle.md">D3DKMT_GETSHAREDPRIMARYHANDLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548070">D3DKMT_GETSHAREDPRIMARYHANDLE</a>
  
 
  
-
 

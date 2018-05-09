@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfIoResourceListGetCount
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfIoResourceListGetCount function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfIoResourceListGetCount</b> method returns the number of resource descriptors that are contained in a resource requirements list's <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a>.
-
-
-## -syntax
-
-
-````
-ULONG WdfIoResourceListGetCount(
-  _In_ WDFIORESLIST ResourceList
-);
-````
 
 
 ## -parameters
@@ -98,7 +88,7 @@ For more information about resource requirements lists and logical configuration
 
 #### Examples
 
-For a code example that uses <b>WdfIoResourceListGetCount</b>, see <a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetioreslist.md">WdfIoResourceRequirementsListGetIoResList</a>.
+For a code example that uses <b>WdfIoResourceListGetCount</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548553">WdfIoResourceRequirementsListGetIoResList</a>.
 
 <div class="code"></div>
 
@@ -106,12 +96,11 @@ For a code example that uses <b>WdfIoResourceListGetCount</b>, see <a href="..\w
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetioreslist.md">WdfIoResourceRequirementsListGetIoResList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548553">WdfIoResourceRequirementsListGetIoResList</a>
  
 
  
-
 

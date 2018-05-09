@@ -7,8 +7,8 @@ old-location: netvista\wskinspectcomplete.htm
 old-project: netvista
 ms.assetid: 31846ec9-0a4b-4e1f-9c14-c1b139f39c55
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PFN_WSK_INSPECT_COMPLETE, WskInspectComplete, WskInspectComplete callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectcomplete, wsk/WskInspectComplete, wskref_af7aebea-0be9-457d-8404-6106b21312ec.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_INSPECT_COMPLETE, PFN_WSK_INSPECT_COMPLETE callback, WskInspectComplete, WskInspectComplete callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectcomplete, wsk/WskInspectComplete, wskref_af7aebea-0be9-457d-8404-6106b21312ec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	wsk.h
 api_name:
 -	WskInspectComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_INSPECT_COMPLETE callback
+# PFN_WSK_INSPECT_COMPLETE callback function
 
 
 ## -description
@@ -55,22 +55,6 @@ The
   request that was received on a listening socket that has conditional accept mode enabled.
 
 
-## -prototype
-
-
-````
-PFN_WSK_INSPECT_COMPLETE WskInspectComplete;
-
-NTSTATUS WSKAPI * WskInspectComplete(
-  _In_    PWSK_SOCKET        ListenSocket,
-  _In_    PWSK_INSPECT_ID    InspectID,
-  _In_    WSK_INSPECT_ACTION Action,
-  _Inout_ PIRP               Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -79,7 +63,7 @@ NTSTATUS WSKAPI * WskInspectComplete(
 ### -param ListenSocket [in]
 
 A pointer to a 
-     <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure. This pointer specifies the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure. This pointer specifies the
      listening socket on which the WSK application received the incoming connection request that it is
      inspecting.
 
@@ -87,7 +71,7 @@ A pointer to a
 ### -param InspectID [in]
 
 A pointer to a 
-     <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a> structure. The contents of
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571170">WSK_INSPECT_ID</a> structure. The contents of
      the structure identify the specific connection request that the WSK application is inspecting.
 
 
@@ -153,7 +137,7 @@ The WSK subsystem could not resume the inspect operation immediately. The WSK su
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -182,7 +166,7 @@ An error occurred. The IRP will be completed with failure status.
 A WSK application calls the 
     <b>WskInspectComplete</b> function to complete the inspection of an incoming connection request for which
     the application's 
-    <a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a> event callback function
+    <a href="https://msdn.microsoft.com/40f184ac-4ef3-485a-a529-71c1f2716427">WskInspectEvent</a> event callback function
     previously returned 
     <b>WskInspectPend</b>.
 
@@ -195,7 +179,7 @@ A WSK application can call the
     Accepting Incoming Connections</a>.
 
 The WSK subsystem passed a pointer to a 
-    <a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a> structure to the WSK
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571170">WSK_INSPECT_ID</a> structure to the WSK
     application when it called the application's 
     <i>WskInspectEvent</i> event callback function. The WSK application copied the contents of that structure
     to its own WSK_INSPECT_ID structure before returning 
@@ -210,12 +194,12 @@ If a WSK application specifies
     <i>Action</i> parameter, the WSK subsystem will continue to establish the socket connection. The WSK
     subsystem will return the socket to the WSK application by either completing a call by the WSK
     application to the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a> function or calling the WSK
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a> function or calling the WSK
     application's 
-    <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a> event callback function if
+    <a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a> event callback function if
     it is enabled. If the incoming connection request is dropped before the socket connection is fully
     established, the WSK subsystem will call the WSK application's 
-    <a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a> event callback function.
+    <a href="https://msdn.microsoft.com/50e0ef5d-0577-4b5c-b541-fc78079a953c">WskAbortEvent</a> event callback function.
 
 If a WSK application specifies 
     <b>WskInspectReject</b> in the 
@@ -238,23 +222,6 @@ If the WSK application calls the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_inspect_id.md">WSK_INSPECT_ID</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
 
@@ -262,16 +229,32 @@ If the WSK application calls the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571170">WSK_INSPECT_ID</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571176">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/50e0ef5d-0577-4b5c-b541-fc78079a953c">WskAbortEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a>
+
+
+
+<a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/40f184ac-4ef3-485a-a529-71c1f2716427">WskInspectEvent</a>
  
 
  
-
 

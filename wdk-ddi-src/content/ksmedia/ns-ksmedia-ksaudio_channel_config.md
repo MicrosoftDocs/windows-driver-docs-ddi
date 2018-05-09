@@ -7,7 +7,7 @@ old-location: audio\ksaudio_channel_config.htm
 old-project: audio
 ms.assetid: 64e46fd5-f6bf-425d-b2a5-c938f8e565b9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], PKSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, audio.ksaudio_channel_config, ksmedia/KSAUDIO_CHANNEL_CONFIG, ksmedia/PKSAUDIO_CHANNEL_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_CHANNEL_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_CHANNEL_CONFIG, *PKSAUDIO_CHANNEL_CONFIG
 ---
@@ -50,16 +51,6 @@ req.typenames: KSAUDIO_CHANNEL_CONFIG, *PKSAUDIO_CHANNEL_CONFIG
 
 
 The KSAUDIO_CHANNEL_CONFIG structure specifies the configuration of channels within the data format of an audio stream.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONG ActiveSpeakerPositions;
-} KSAUDIO_CHANNEL_CONFIG, *PKSAUDIO_CHANNEL_CONFIG;
-````
 
 
 ## -struct-fields
@@ -468,7 +459,8 @@ In the preceding table, the constant KSAUDIO_SPEAKER_DIRECTOUT has a value of ze
 
 The speaker configuration for a 5.1-channel surround format is defined by the constant KSAUDIO_SPEAKER_5POINT1_SURROUND in the preceding table. The geometric layout of the speakers is shown in the following figure, which shows the positions of the front-left, front-right, front-center, side-left, and side-right speakers. The figure omits the low-frequency speaker because it is nondirectional.
 
-<img alt="Diagram illustrating a 5.1-channel surround speaker configuration; the low-frequency speaker is not shown" src="images/spkrposn_new.png"/>
+<img alt="Diagram illustrating a 5.1-channel surround speaker configuration; the low-frequency speaker is not shown" src="images/spkrposn-new.png"/>
+
 For this example, the following list shows the ordering of the six channels within each block of audio data:
 
 <ol>
@@ -632,16 +624,15 @@ Side Right (8 MSBs)
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538802">WAVEFORMATEXTENSIBLE</a>
  
 
  
-
 

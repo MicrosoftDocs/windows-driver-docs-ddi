@@ -7,7 +7,7 @@ old-location: stream\kscamera_extendedprop_roitype.htm
 old-project: stream
 ms.assetid: 29458793-35DA-4CE4-AAD9-E1DD90C28E5C
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSCAMERA_EXTENDEDPROP_ROITYPE, KSCAMERA_EXTENDEDPROP_ROITYPE enumeration [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, stream.kscamera_extendedprop_roitype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_ROITYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROITYPE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROITYPE
 
 
 This enumeration contains the ROI types.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN  = 0,
-  KSCAMERA_EXTENDEDPROP_ROITYPE_FACE
-} KSCAMERA_EXTENDEDPROP_ROITYPE;
-````
 
 
 ## -enum-fields

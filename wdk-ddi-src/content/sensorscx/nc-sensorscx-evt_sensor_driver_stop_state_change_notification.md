@@ -7,8 +7,8 @@ old-location: sensors\evt_sensor_driver_stop_state_change_notification.htm
 old-project: sensors
 ms.assetid: 53B064AF-D06B-46A0-9D77-2DA72F0B47D6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, EvtSensorDriverStopStateChangeNotification, EvtSensorDriverStopStateChangeNotification callback function [Sensor Devices], PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback function pointer [Sensor Devices], sensors.evt_sensor_driver_stop_state_change_notification, sensorscx/EvtSensorDriverStopStateChangeNotification
+ms.date: 4/30/2018
+ms.keywords: EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback, EvtSensorDriverStopStateChangeNotification, EvtSensorDriverStopStateChangeNotification callback function [Sensor Devices], PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION, PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback function pointer [Sensor Devices], sensors.evt_sensor_driver_stop_state_change_notification, sensorscx/EvtSensorDriverStopStateChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	sensorscx.h
 api_name:
 -	PFN_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback
+# EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback function
 
 
 ## -description
 
 
 Used to stop a state change notification.
-
-
-## -prototype
-
-
-````
-NTSTATUS EvtSensorDriverStopStateChangeNotification(
-   SENSOROBJECT Sensors
-);
-````
 
 
 ## -parameters

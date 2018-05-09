@@ -7,8 +7,8 @@ old-location: netvista\wskreceivefromevent.htm
 old-project: netvista
 ms.assetid: 1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PFN_WSK_RECEIVE_FROM_EVENT, WskReceiveFromEvent, WskReceiveFromEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefromevent, wsk/WskReceiveFromEvent, wskref_c8523644-4a5e-4b0f-b8ef-b6a4fd081868.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_RECEIVE_FROM_EVENT, PFN_WSK_RECEIVE_FROM_EVENT callback, WskReceiveFromEvent, WskReceiveFromEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefromevent, wsk/WskReceiveFromEvent, wskref_c8523644-4a5e-4b0f-b8ef-b6a4fd081868.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	wsk.h
 api_name:
 -	WskReceiveFromEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_RECEIVE_FROM_EVENT callback
+# PFN_WSK_RECEIVE_FROM_EVENT callback function
 
 
 ## -description
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The 
   <i>WskReceiveFromEvent</i> event callback function notifies a WSK application that one or more datagrams
   have been received on a datagram socket.
-
-
-## -prototype
-
-
-````
-PFN_WSK_RECEIVE_FROM_EVENT WskReceiveFromEvent;
-
-NTSTATUS APIENTRY WskReceiveFromEvent(
-  _In_opt_ PVOID                    SocketContext,
-  _In_     ULONG                    Flags,
-  _In_opt_ PWSK_DATAGRAM_INDICATION DataIndication
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -79,7 +64,7 @@ NTSTATUS APIENTRY WskReceiveFromEvent(
 
 A pointer to the socket context for the datagram socket that has received the datagrams. The WSK
      application provided this pointer to the WSK subsystem when it called the 
-     <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a> function to create the datagram
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> function to create the datagram
      socket.
 
 
@@ -117,10 +102,10 @@ The WSK subsystem called the
 ### -param DataIndication [in, optional]
 
 A pointer to a linked list of 
-     <a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a> structures
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571164">WSK_DATAGRAM_INDICATION</a> structures
      that describe the received datagrams. If this parameter is <b>NULL</b>, the socket is no longer functional and
      the WSK application must call the 
-     <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
      socket as soon as possible.
 
 
@@ -145,7 +130,7 @@ A WSK application's
 <td width="60%">
 The WSK application accepted the datagrams and retrieved all of the datagrams from the linked
        list of 
-       <a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">
+       <a href="https://msdn.microsoft.com/061db3ca-80ed-419e-8cca-f49d1498b780">
        WSK_DATAGRAM_INDICATION</a> structures. The WSK subsystem can call the 
        <i>WskReceiveFromEvent</i> event callback function again when new datagrams are received on the
        socket.
@@ -161,11 +146,11 @@ The WSK application accepted the datagrams and retrieved all of the datagrams fr
 <td width="60%">
 The WSK application accepted the datagrams but did not retrieve all of the datagrams from the
        linked list of 
-       <a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">
+       <a href="https://msdn.microsoft.com/061db3ca-80ed-419e-8cca-f49d1498b780">
        WSK_DATAGRAM_INDICATION</a> structures. The WSK application retains the linked list of
        WSK_DATAGRAM_INDICATION structures until all of the datagrams have been retrieved. After the WSK
        application has retrieved all of the datagrams, it calls the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a> function to release the linked
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571144">WskRelease</a> function to release the linked
        list of WSK_DATAGRAM_INDICATION structures back to the WSK subsystem. The WSK subsystem can call the 
        <i>WskReceiveFromEvent</i> event callback function again when new datagrams are received on the
        socket.
@@ -234,7 +219,7 @@ The WSK subsystem calls a WSK application's
 If a WSK application's 
     <i>WskReceiveFromEvent</i> event callback function is enabled on a datagram socket and the application
     also has a pending call to the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a> function on the same
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571141">WskReceiveFrom</a> function on the same
     datagram socket, then, when datagrams arrive, the pending call to the 
     <b>WskReceiveFrom</b> function will take precedence over the 
     <i>WskReceiveFromEvent</i> event callback function. The WSK subsystem calls the application's 
@@ -260,40 +245,39 @@ A WSK application's <i>WskReceiveFromEvent</i> event callback function must not 
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_client_datagram_dispatch.md">WSK_CLIENT_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571158">WSK_CLIENT_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571164">WSK_DATAGRAM_INDICATION</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571141">WskReceiveFrom</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571144">WskRelease</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571148">WskSendTo</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
  
 
  
-
 

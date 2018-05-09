@@ -7,7 +7,7 @@ old-location: netvista\ndismunmapiospace.htm
 old-project: netvista
 ms.assetid: 068232d3-b160-4090-b72c-63d9a31c1567
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMUnmapIoSpace, NdisMUnmapIoSpace function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_b10c4068-0218-4349-8d87-5a9d9a32aac7.xml, ndis/NdisMUnmapIoSpace, netvista.ndismunmapiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMUnmapIoSpace
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMUnmapIoSpace function
@@ -51,19 +52,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 
 <b>NdisMUnmapIoSpace</b> releases a virtual range mapped by an initialization-time call to 
-  <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>.
-
-
-## -syntax
-
-
-````
-VOID NdisMUnmapIoSpace(
-  _In_ NDIS_HANDLE MiniportAdapterHandle,
-  _In_ PVOID       VirtualAddress,
-  _In_ UINT        Length
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>.
 
 
 ## -parameters
@@ -74,7 +63,7 @@ VOID NdisMUnmapIoSpace(
 ### -param MiniportAdapterHandle [in]
 
 Specifies the handle originally input to 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ### -param VirtualAddress [in]
@@ -103,7 +92,7 @@ None
 
 
 When a miniport driver is unloading, any memory range that it mapped during initialization with 
-    <a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a> must be released with a
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a> must be released with a
     call to 
     <b>NdisMUnmapIoSpace</b>.
 
@@ -114,28 +103,27 @@ The
     <b>NdisMMapIoSpace</b>.
 
 <b>NdisMUnmapIoSpace</b> can be called only from a miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> and 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> functions.
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> and 
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> functions.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975119">NdisMMapIoSpace</a>
  
 
  
-
 

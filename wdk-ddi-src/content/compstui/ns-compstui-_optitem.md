@@ -7,7 +7,7 @@ old-location: print\optitem.htm
 old-project: print
 ms.assetid: 983f9774-d498-473a-bdfb-ec55cc4298cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*POPTITEM, OPTITEM, OPTITEM structure [Print Devices], POPTITEM, POPTITEM structure pointer [Print Devices], _OPTITEM, compstui/OPTITEM, compstui/POPTITEM, cpsuifnc_0d0609c0-cb09-4428-b083-8db736570309.xml, print.optitem"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	compstui.h
 api_name:
 -	OPTITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OPTITEM, *POPTITEM
 ---
@@ -49,37 +50,7 @@ req.typenames: OPTITEM, *POPTITEM
 ## -description
 
 
-The OPTITEM structure is used by CPSUI applications (including printer interface DLLs) for describing one <a href="https://msdn.microsoft.com/572330d6-1a1b-46fd-bfb4-be2b0990bca4">property sheet option</a> on a property sheet page, if the page is described by a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _OPTITEM {
-  WORD      cbSize;
-  BYTE      Level;
-  BYTE      DlgPageIdx;
-  DWORD     Flags;
-  ULONG_PTR UserData;
-  LPTSTR    pName;
-  union {
-    LONG   Sel;
-    LPTSTR pSel;
-  };
-  union {
-    PEXTCHKBOX pExtChkBox;
-    PEXTPUSH   pExtPush;
-  };
-  POPTTYPE  pOptType;
-  DWORD     HelpIndex;
-  BYTE      DMPubID;
-  BYTE      UserItemID;
-  WORD      wReserved;
-  POIEXT    pOIExt;
-  ULONG_PTR dwReserved[3];
-} OPTITEM, *POPTITEM;
-````
+The OPTITEM structure is used by CPSUI applications (including printer interface DLLs) for describing one <a href="https://msdn.microsoft.com/572330d6-1a1b-46fd-bfb4-be2b0990bca4">property sheet option</a> on a property sheet page, if the page is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546211">COMPROPSHEETUI</a> structure.
 
 
 ## -struct-fields
@@ -99,7 +70,7 @@ Specifies the level of this option in the treeview. For more information, see th
 
 ### -field DlgPageIdx
 
-Identifies the dialog to which the option belongs. Specifies an array index into the DLGPAGE array pointed to by the <b>pDlgPage</b> member of the <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
+Identifies the dialog to which the option belongs. Specifies an array index into the DLGPAGE array pointed to by the <b>pDlgPage</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546211">COMPROPSHEETUI</a> structure.
 
 If <b>pDlgPage</b> points to a CPSUI-supplied, predefined DLGPAGE structure, CPSUI supplies this index.
 
@@ -114,7 +85,7 @@ Optional bit flags that modify the option's characteristics. The OPTIF_CHANGEONC
 
 #### OPTIF_CALLBACK
 
-When a user modifies the option, CPSUI should call the <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function specified in the <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
+When a user modifies the option, CPSUI should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564313">_CPSUICALLBACK</a>-typed callback function specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546211">COMPROPSHEETUI</a> structure.
 
 
 
@@ -257,7 +228,7 @@ This flag can only be used when <b>pOptType</b> contains <b>NULL</b>.
 
 Optional 32-bit value that can be set and used by the caller.
 
-(Printer interface DLLs for <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> and <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">Pscript</a> use this member to supply a pointer to a <a href="..\printoem\ns-printoem-_userdata.md">USERDATA</a> structure. <a href="https://msdn.microsoft.com/22ac2af6-37d8-4913-95af-9c3dc8576d40">User interface plug-ins</a> can reference this structure.)
+(Printer interface DLLs for <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> and <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">Pscript</a> use this member to supply a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563611">USERDATA</a> structure. <a href="https://msdn.microsoft.com/22ac2af6-37d8-4913-95af-9c3dc8576d40">User interface plug-ins</a> can reference this structure.)
 
 
 ### -field pName
@@ -270,24 +241,50 @@ String identifier representing a localized, displayable option name. This can be
  
 
 
+### -field DUMMYUNIONNAME.Sel
+
+This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
+
+If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
+
+
+### -field DUMMYUNIONNAME.pSel
+
+This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
+
+If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
+
+
 ### -field DUMMYUNIONNAME2
 
  
 
 
+### -field DUMMYUNIONNAME2.pExtChkBox
+
+Pointer to EXTCHKBOX structure
+
+
+### -field DUMMYUNIONNAME2.pExtPush
+
+This union can be a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548781">EXTCHKBOX</a> structure, a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548795">EXTPUSH</a> structure, or <b>NULL</b>.
+
+An OPTITEM structure can optionally have an EXTCHKBOX structure, an EXTPUSH structure, or neither, associated with it. If this union is not <b>NULL</b>, and if OPTIF_EXT_IS_EXTPUSH is set in <b>Flags</b>, <b>pExtPush</b> is valid. If the flag is not set, <b>pExtChkBox</b> is valid.
+
+
 ### -field pOptType
 
-Pointer to an <a href="..\compstui\ns-compstui-_opttype.md">OPTTYPE</a> structure that describes the option's display type. If <b>NULL</b>, the option has no parameters and is used as a parent to options with a higher <b>Level</b> value. The child options must immediately follow the parent in the OPTITEM array. (See the following Remarks section.)
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559670">OPTTYPE</a> structure that describes the option's display type. If <b>NULL</b>, the option has no parameters and is used as a parent to options with a higher <b>Level</b> value. The child options must immediately follow the parent in the OPTITEM array. (See the following Remarks section.)
 
 
 ### -field HelpIndex
 
-Help file index, which identifies help text to be associated with the option. If zero, help file text does not exist for this option. Note that the <b>pOIExt</b> member of this structure must be set with the address of an <a href="..\compstui\ns-compstui-_oiext.md">OIEXT</a> structure in order for help text functionality to exist.
+Help file index, which identifies help text to be associated with the option. If zero, help file text does not exist for this option. Note that the <b>pOIExt</b> member of this structure must be set with the address of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559590">OIEXT</a> structure in order for help text functionality to exist.
 
 
 ### -field DMPubID
 
-This member is meant for use by printer interface DLLs, when creating a <b>Document Properties</b> property sheet (see <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>). It is a constant value specifying which, if any, public member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure is associated with this option. The following table lists available constants, the associated DEVMODE structure member, and the required value for <b>pName</b> for each constant.
+This member is meant for use by printer interface DLLs, when creating a <b>Document Properties</b> property sheet (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a>). It is a constant value specifying which, if any, public member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure is associated with this option. The following table lists available constants, the associated DEVMODE structure member, and the required value for <b>pName</b> for each constant.
 
 <table>
 <tr>
@@ -563,7 +560,7 @@ Ignored by CPSUI, can be a caller-defined value.
 </table>
  
 
-CPSUI does not maintain a DEVMODE structure. The application is responsible for copying user-selected option parameters into a DEVMODE structure. CPSUI uses <b>DMPubID</b> contents to determine treeview placement of standard options, and to determine the contents of the <b>Layout</b> and <b>Paper/Quality</b> tabs (see the <b>pDlgPage</b> member of the <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure).
+CPSUI does not maintain a DEVMODE structure. The application is responsible for copying user-selected option parameters into a DEVMODE structure. CPSUI uses <b>DMPubID</b> contents to determine treeview placement of standard options, and to determine the contents of the <b>Layout</b> and <b>Paper/Quality</b> tabs (see the <b>pDlgPage</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546211">COMPROPSHEETUI</a> structure).
 
 For additional information about using the <b>DMPubID</b> member, see the following Remarks section.
 
@@ -580,7 +577,7 @@ Reserved, must be initialized to zero.
 
 ### -field pOIExt
 
-Pointer to an optional <a href="..\compstui\ns-compstui-_oiext.md">OIEXT</a> structure. The caller is responsible for allocating storage for this structure.
+Pointer to an optional <a href="https://msdn.microsoft.com/library/windows/hardware/ff559590">OIEXT</a> structure. The caller is responsible for allocating storage for this structure.
 
 
 ### -field dwReserved
@@ -588,37 +585,11 @@ Pointer to an optional <a href="..\compstui\ns-compstui-_oiext.md">OIEXT</a> str
 Reserved, must be initialized to zero.
 
 
-#### - Sel
-
-This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
-
-If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
-
-
-#### - pExtChkBox
-
-Pointer to EXTCHKBOX structure
-
-
-#### - pExtPush
-
-This union can be a pointer to an <a href="..\compstui\ns-compstui-_extchkbox.md">EXTCHKBOX</a> structure, a pointer to an <a href="..\compstui\ns-compstui-_extpush.md">EXTPUSH</a> structure, or <b>NULL</b>.
-
-An OPTITEM structure can optionally have an EXTCHKBOX structure, an EXTPUSH structure, or neither, associated with it. If this union is not <b>NULL</b>, and if OPTIF_EXT_IS_EXTPUSH is set in <b>Flags</b>, <b>pExtPush</b> is valid. If the flag is not set, <b>pExtChkBox</b> is valid.
-
-
-#### - pSel
-
-This union indicates the option's currently selected parameter value. Its usage is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
-
-If <b>pOptType</b> is <b>NULL</b>, the option has no parameters, so this union identifies an icon to be associated with the treeview node for the option. The icon identifier can be either an icon handle or an icon resource identifier, as indicated by OPTIF_SEL_AS_HICON in <b>Flags</b>.
-
-
 ## -remarks
 
 
 
-OPTITEM structures should be placed in an array, and the array's address should be placed in the <b>pOptItem</b> member of a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
+OPTITEM structures should be placed in an array, and the array's address should be placed in the <b>pOptItem</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546211">COMPROPSHEETUI</a> structure.
 
 The <b>Level</b> member allows you to create child nodes in the treeview. For example, to create a set of option nodes under a level 1 parent node, specify level 2 for each child node and include their OPTITEM structures in the OPTITEM array, immediately after the parent's OPTITEM structure. In the parent's OPTITEM structure, <b>pOptType</b> should be <b>NULL</b>. 
 
@@ -650,7 +621,7 @@ DMPUB_COPIES_COLLATE
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562853">TVOT_UDARROW</a> plus <a href="..\compstui\ns-compstui-_extchkbox.md">EXTCHKBOX</a> (See comments following this table.)
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562853">TVOT_UDARROW</a> plus <a href="https://msdn.microsoft.com/library/windows/hardware/ff548781">EXTCHKBOX</a> (See comments following this table.)
 
 </td>
 </tr>
@@ -858,7 +829,7 @@ If OPTIF_EXT_HIDE is not set in <b>Flags</b>, CPSUI enables the check box if a u
 
 Additionally, CPSUI sets the option's display text to <b>copy</b> for one copy and <b>copies</b> for more than one copy.
 
-If <b>DMPubID</b> is DMPUB_COLOR, its first <a href="..\compstui\ns-compstui-_optparam.md">OPTPARAM</a> structure (<b>Sel</b>=0) must represent Gray Scale, and <b>pData</b> in the OPTPARAM structure must be IDS_CPSUI_GRAYSCALE. Its second OPTPARAM structure (<b>Sel</b>=1) must represent Color, and <b>pData</b> in the OPTPARAM structure must be IDS_CPSUI_COLOR. If another option's <b>DMPubID</b> is DMPUB_ICMINTENT and if Color is not selected, CPSUI disables the option for which DMPUB_ICMINTENT is specified.
+If <b>DMPubID</b> is DMPUB_COLOR, its first <a href="https://msdn.microsoft.com/library/windows/hardware/ff559660">OPTPARAM</a> structure (<b>Sel</b>=0) must represent Gray Scale, and <b>pData</b> in the OPTPARAM structure must be IDS_CPSUI_GRAYSCALE. Its second OPTPARAM structure (<b>Sel</b>=1) must represent Color, and <b>pData</b> in the OPTPARAM structure must be IDS_CPSUI_COLOR. If another option's <b>DMPubID</b> is DMPUB_ICMINTENT and if Color is not selected, CPSUI disables the option for which DMPUB_ICMINTENT is specified.
 
 CPSUI disables color matching when Color is not selected.
 

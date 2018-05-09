@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_multiplane_overlay_stereo_flip_mode.htm
 old-project: display
 ms.assetid: f44317c5-661c-42f6-847b-b325e4c1321a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE, display.dxgi_ddi_multiplane_overlay_stereo_flip_mode, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
 
 
 Identifies the overlay plane's stereo flip mode. Only the <b>DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE</b> value is supported.
-
-
-## -syntax
-
-
-````
-typedef enum DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE { 
-  DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE    = 0,
-  DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0  = 1,
-  DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1  = 2
-} DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE;
-````
 
 
 ## -enum-fields

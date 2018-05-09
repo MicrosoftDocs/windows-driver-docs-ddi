@@ -7,7 +7,7 @@ old-location: image\wiaustrw2c.htm
 old-project: image
 ms.assetid: 53657c26-5007-4c8e-aadf-5d464f1222d2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaustrw2c, wiauFncs_e97643cb-071d-48bb-82b9-98244bd4284b.xml, wiauStrW2C, wiauStrW2C function [Imaging Devices], wiautil/wiauStrW2C
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauStrW2C
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauStrW2C function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauStrW2C</b> function converts a Unicode string to an ANSI character string.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauStrW2C(
-  _In_  WCHAR *pwszSrc,
-  _Out_ CHAR  *pszDst,
-        INT   iSize
-);
-````
 
 
 ## -parameters
@@ -96,20 +84,19 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaustrw2w.md">wiauStrW2W</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2c.md">wiauStrC2C</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550183">wiauStrC2C</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaustrc2w.md">wiauStrC2W</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550186">wiauStrC2W</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550189">wiauStrW2W</a>
  
 
  
-
 

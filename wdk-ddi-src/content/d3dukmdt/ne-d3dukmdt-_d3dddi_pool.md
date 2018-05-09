@@ -7,7 +7,7 @@ old-location: display\d3dddi_pool.htm
 old-project: display
 ms.assetid: b3f34183-7595-47b6-a2f1-c32650734a04
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIPOOL_LOCALVIDMEM, D3DDDIPOOL_NONLOCALVIDMEM, D3DDDIPOOL_STAGINGMEM, D3DDDIPOOL_SYSTEMMEM, D3DDDIPOOL_VIDEOMEMORY, D3DDDI_POOL, D3DDDI_POOL enumeration [Display Devices], D3D_other_Structs_859cbea4-6000-4906-a3f4-3ff6ea4caa7b.xml, _D3DDDI_POOL, d3dukmdt/D3DDDIPOOL_LOCALVIDMEM, d3dukmdt/D3DDDIPOOL_NONLOCALVIDMEM, d3dukmdt/D3DDDIPOOL_STAGINGMEM, d3dukmdt/D3DDDIPOOL_SYSTEMMEM, d3dukmdt/D3DDDIPOOL_VIDEOMEMORY, d3dukmdt/D3DDDI_POOL, display.d3dddi_pool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_POOL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_POOL
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DDDI_POOL
 
 
 The D3DDDI_POOL enumeration type contains values that identify particular types of memory pool.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DDDI_POOL { 
-  D3DDDIPOOL_SYSTEMMEM       = 1,
-  D3DDDIPOOL_VIDEOMEMORY     = 2,
-  D3DDDIPOOL_LOCALVIDMEM     = 3,
-  D3DDDIPOOL_NONLOCALVIDMEM  = 4,
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM1_3)
-  D3DDDIPOOL_STAGINGMEM      = 5
-
-#endif } D3DDDI_POOL;
-````
 
 
 ## -enum-fields
@@ -113,12 +98,11 @@ Note that the D3DDDIPOOL_LOCALVIDMEM and D3DDDIPOOL_NONLOCALVIDMEM values are pr
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542963">D3DDDIARG_CREATERESOURCE</a>
  
 
  
-
 

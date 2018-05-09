@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfWorkItemGetParentObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_WMI_PROVIDER_CONFIG, *PWDF_WMI_PROVIDER_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfWorkItemGetParentObject function
@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfWorkItemGetParentObject</b> method returns the framework object that a specified work item is associated with.
 
 
-## -syntax
-
-
-````
-WDFOBJECT WdfWorkItemGetParentObject(
-  _In_ WDFWORKITEM WorkItem
-);
-````
-
-
 ## -parameters
 
 
@@ -75,14 +65,14 @@ WDFOBJECT WdfWorkItemGetParentObject(
 
 ### -param WorkItem [in]
 
-A handle to a framework work-item object that is obtained from a previous call to <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>.
+A handle to a framework work-item object that is obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551201">WdfWorkItemCreate</a>.
 
 
 ## -returns
 
 
 
-<b>WdfWorkItemGetParentObject</b> returns a handle to the framework object that the driver specified as the <b>ParentObject</b> member of the driver's <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure when the driver previously called <a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>.
+<b>WdfWorkItemGetParentObject</b> returns a handle to the framework object that the driver specified as the <b>ParentObject</b> member of the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure when the driver previously called <a href="https://msdn.microsoft.com/library/windows/hardware/ff551201">WdfWorkItemCreate</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -127,16 +117,15 @@ t1394_BusResetRoutineWorkItem(
 
 ## -see-also
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551201">WdfWorkItemCreate</a>
  
 
  
-
 

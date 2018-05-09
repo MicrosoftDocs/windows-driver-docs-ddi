@@ -7,7 +7,7 @@ old-location: kernel\rtlintadd.htm
 old-project: kernel
 ms.assetid: DF556961-D5BA-4A50-9E6A-DACE96D13B50
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlIntAdd, RtlIntAdd function [Kernel-Mode Driver Architecture], kernel.rtlintadd, ntintsafe/RtlIntAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlIntAdd
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlIntAdd function
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Adds two values of type <b>INT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlIntAdd(
-  _In_  INT iAugend,
-  _In_  INT iAddend,
-  _Out_ INT *piResult
-);
-````
 
 
 ## -parameters

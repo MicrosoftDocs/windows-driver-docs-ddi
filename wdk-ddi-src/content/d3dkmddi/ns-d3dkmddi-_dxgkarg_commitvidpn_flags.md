@@ -7,7 +7,7 @@ old-location: display\dxgkarg_commitvidpn_flags.htm
 old-project: display
 ms.assetid: 02fe4216-101e-4ba7-88df-029f8bba9c17
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS structure [Display Devices], DmStructs_267e916a-7058-4ce7-892d-9ed9d6f74bce.xml, _DXGKARG_COMMITVIDPN_FLAGS, d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS, display.dxgkarg_commitvidpn_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_COMMITVIDPN_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_COMMITVIDPN_FLAGS
 ---
@@ -49,19 +50,7 @@ req.typenames: DXGKARG_COMMITVIDPN_FLAGS
 ## -description
 
 
-The DXGKARG_COMMITVIDPN_FLAGS structure identifies details about a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_COMMITVIDPN_FLAGS {
-  UINT PathPowerTransition  :1;
-  UINT PathPoweredOff  :1;
-  UINT Reserved  :30;
-} DXGKARG_COMMITVIDPN_FLAGS;
-````
+The DXGKARG_COMMITVIDPN_FLAGS structure identifies details about a call to the <a href="https://msdn.microsoft.com/979b86e9-f3ff-4022-8c00-b6afc2b1f747">DxgkDdiCommitVidPn</a> function.
 
 
 ## -struct-fields
@@ -71,9 +60,9 @@ typedef struct _DXGKARG_COMMITVIDPN_FLAGS {
 
 ### -field PathPowerTransition
 
-A UINT value that specifies whether the Microsoft DirectX graphics kernel subsystem calls the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> function to power off a connected monitor.
+A UINT value that specifies whether the Microsoft DirectX graphics kernel subsystem calls the <a href="https://msdn.microsoft.com/979b86e9-f3ff-4022-8c00-b6afc2b1f747">DxgkDdiCommitVidPn</a> function to power off a connected monitor.
 
-If <b>PathPowerTransition</b> is set to <b>TRUE</b>, the display miniport driver can optimize this call for a power down (for example, the driver might disable vertical syncs). The driver must also be aware that it might still receive calls to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> function on the affected source.
+If <b>PathPowerTransition</b> is set to <b>TRUE</b>, the display miniport driver can optimize this call for a power down (for example, the driver might disable vertical syncs). The driver must also be aware that it might still receive calls to its <a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a> function on the affected source.
 
 Setting this member is equivalent to setting the first bit of a 32-bit value (0x00000001).
 
@@ -82,7 +71,7 @@ For more information, see the following Remarks section.
 
 ### -field PathPoweredOff
 
-A UINT value that specifies whether the DirectX graphics kernel subsystem calls <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> to inform the driver that the user changed modes.
+A UINT value that specifies whether the DirectX graphics kernel subsystem calls <a href="https://msdn.microsoft.com/979b86e9-f3ff-4022-8c00-b6afc2b1f747">DxgkDdiCommitVidPn</a> to inform the driver that the user changed modes.
 
 If <b>PathPoweredOff</b> is set to <b>TRUE</b>, the display miniport driver should expect present operations that are based on the new topology. The driver cannot perform any operations that would cause the topology path to be powered on again (for example, the driver cannot enable vertical syncs) because the monitor should now be powered off.
 
@@ -102,11 +91,11 @@ This member is reserved and should be set to zero. Setting this member to zero i
 
 The DXGKARG_COMMITVIDPN_FLAGS structure stores information that the display miniport driver can use to determine how to respond to requested mode changes. With this information, the driver can distinguish between mode changes that occur during regular activity because an application requested a mode change, changes that occur because of power transitions, and changes that occur while monitors are turned off.
 
-During regular activity, when the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a> function is called, both <b>PathPowerTransition</b> and <b>PathPoweredOff</b> members will be <b>FALSE</b> so that the driver should apply mode changes immediately. Such mode changes are usually performed as isolated events. Therefore, there is no need for the driver to track any state that is associated with the previous mode configuration.
+During regular activity, when the <a href="https://msdn.microsoft.com/979b86e9-f3ff-4022-8c00-b6afc2b1f747">DxgkDdiCommitVidPn</a> function is called, both <b>PathPowerTransition</b> and <b>PathPoweredOff</b> members will be <b>FALSE</b> so that the driver should apply mode changes immediately. Such mode changes are usually performed as isolated events. Therefore, there is no need for the driver to track any state that is associated with the previous mode configuration.
 
-If monitors are being turned off or turned on, <b>PathPowerTransition</b> will be <b>TRUE</b> to indicate a power transition. In this case, a common pattern is that the monitors will be turned off, and then at some later time, the original configuration will be restored. It can be a significant workload for the driver to reset the display configuration completely after a system shutdown. Additionally, , the driver must continue to complete <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> operations while the monitors are turned off. However, the driver can reduce its workload when a call is made to <i>DxgkDdiCommitVidPn</i> by making sure that the involved monitors are powered off. When power is restored, the driver workload to restore the display configuration will thereby be reduced.
+If monitors are being turned off or turned on, <b>PathPowerTransition</b> will be <b>TRUE</b> to indicate a power transition. In this case, a common pattern is that the monitors will be turned off, and then at some later time, the original configuration will be restored. It can be a significant workload for the driver to reset the display configuration completely after a system shutdown. Additionally, , the driver must continue to complete <a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a> operations while the monitors are turned off. However, the driver can reduce its workload when a call is made to <i>DxgkDdiCommitVidPn</i> by making sure that the involved monitors are powered off. When power is restored, the driver workload to restore the display configuration will thereby be reduced.
 
-Because the monitor might not be physically connected (at system resume time, for example), the driver should not rely on Windows to make a later call to the <a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a> function to set the power state of the child device of the display adapter. However, Windows will still request that the CRTC is to be turned on. If the driver does not turn on vertical sync when it is requested to do so by the display mode manager (DMM), and if the user later reconnects the monitor, the monitor display might be blank.
+Because the monitor might not be physically connected (at system resume time, for example), the driver should not rely on Windows to make a later call to the <a href="https://msdn.microsoft.com/6462be4f-1f6e-4b85-a3ba-15820ee8605b">DxgkDdiSetPowerState</a> function to set the power state of the child device of the display adapter. However, Windows will still request that the CRTC is to be turned on. If the driver does not turn on vertical sync when it is requested to do so by the display mode manager (DMM), and if the user later reconnects the monitor, the monitor display might be blank.
 
 <i>DxgkDdiPresent</i> operations must still be honored by the driver while monitors are turned off. The driver might have to act upon a mode change triggered by an application, for example to perform modifications to the rendering pipeline to account for rotation changes. Settings of <b>PathPowerTransition</b> = <b>FALSE</b> and <b>PathPoweredOff</b> = <b>TRUE</b> inform the driver that such a mode change has occurred. In this case, the driver must not turn on the monitors, but instead it should reprogram the hardware, if it is necessary, to accommodate the mode change so that additional <i>DxgkDdiPresent</i> operations can be completed. When such a mode change has been performed, and monitors are later turned back on, it is unlikely that the mode that occurred before the power down will be restored.
 
@@ -117,20 +106,19 @@ If a system resume operation is triggered after monitors were turned off for a s
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_set_power_state.md">DxgkDdiSetPowerState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557552">DXGKARG_COMMITVIDPN</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_commitvidpn.md">DXGKARG_COMMITVIDPN</a>
+<a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a>
 
 
 
+<a href="https://msdn.microsoft.com/6462be4f-1f6e-4b85-a3ba-15820ee8605b">DxgkDdiSetPowerState</a>
  
 
  
-
 

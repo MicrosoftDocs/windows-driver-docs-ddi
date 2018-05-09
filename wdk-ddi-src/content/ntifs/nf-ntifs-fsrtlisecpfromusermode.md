@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlisecpfromusermode.htm
 old-project: ifsk
 ms.assetid: cdc5d6a3-637e-4f0e-bc94-25bfe5763695
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlIsEcpFromUserMode, FsRtlIsEcpFromUserMode routine [Installable File System Drivers], fsrtlref_14f09529-adf9-4113-bff4-5183ade20059.xml, ifsk.fsrtlisecpfromusermode, ntifs/FsRtlIsEcpFromUserMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlIsEcpFromUserMode
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlIsEcpFromUserMode function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlIsEcpFromUserMode</b> routine determines whether an extra create parameter (ECP) context structure originated from user mode. 
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsEcpFromUserMode(
-  _In_ PVOID EcpContext
-);
-````
 
 
 ## -parameters

@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IPartThumbnail.GetThumbnailProperties
-title: IPartThumbnail::GetThumbnailProperties method
+title: IPartThumbnail::GetThumbnailProperties
 author: windows-driver-content
 description: The GetThumbnailProperties method gets the thumbnail properties.
 old-location: print\ipartthumbnail_getthumbnailproperties.htm
 old-project: print
 ms.assetid: 4255bdea-4d6e-4e69-ae76-6562a3f07678
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetThumbnailProperties method [Print Devices], GetThumbnailProperties method [Print Devices], IPartThumbnail interface, GetThumbnailProperties,IPartThumbnail.GetThumbnailProperties, IPartThumbnail, IPartThumbnail interface [Print Devices], GetThumbnailProperties method, IPartThumbnail::GetThumbnailProperties, filterpipeline/IPartThumbnail::GetThumbnailProperties, filterpipeline_efcc2b07-7b10-4599-b03b-e031883c119e.xml, print.ipartthumbnail_getthumbnailproperties
+ms.date: 4/20/2018
+ms.keywords: GetThumbnailProperties, GetThumbnailProperties method [Print Devices], GetThumbnailProperties method [Print Devices],IPartThumbnail interface, IPartThumbnail interface [Print Devices],GetThumbnailProperties method, IPartThumbnail.GetThumbnailProperties, IPartThumbnail::GetThumbnailProperties, filterpipeline/IPartThumbnail::GetThumbnailProperties, filterpipeline_efcc2b07-7b10-4599-b03b-e031883c119e.xml, print.ipartthumbnail_getthumbnailproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartThumbnail.GetThumbnailProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IPartThumbnail::GetThumbnailProperties method
+# IPartThumbnail::GetThumbnailProperties
 
 
 ## -description
 
 
 The <b>GetThumbnailProperties</b> method gets the thumbnail properties.
-
-
-## -syntax
-
-
-````
-HRESULT GetThumbnailProperties(
-  [out] BSTR *pContentType
-);
-````
 
 
 ## -parameters

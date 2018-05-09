@@ -7,7 +7,7 @@ old-location: print\unidrv_private_devmode.htm
 old-project: print
 ms.assetid: 91b8ba63-5276-43f8-81a6-07afc1a77ced
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE structure pointer [Print Devices], UNIDRV_PRIVATE_DEVMODE, UNIDRV_PRIVATE_DEVMODE structure [Print Devices], _UNIDRV_PRIVATE_DEVMODE, print.unidrv_private_devmode, print_unidrv-pscript_ui_accecb33-b4e7-4e2d-a2f2-d792456eb9db.xml, printoem/PUNIDRV_PRIVATE_DEVMODE, printoem/UNIDRV_PRIVATE_DEVMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	UNIDRV_PRIVATE_DEVMODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNIDRV_PRIVATE_DEVMODE, *PUNIDRV_PRIVATE_DEVMODE
-req.product: Windows 10 or later.
 ---
 
 # _UNIDRV_PRIVATE_DEVMODE structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The UNIDRV_PRIVATE_DEVMODE structure enables Unidrv plug-ins to determine the size of the private portion of Unidrv's DEVMODEW structure.
-
-
-## -syntax
-
-
-````
-typedef struct _UNIDRV_PRIVATE_DEVMODE {
-  WORD wReserved[4];
-  WORD wSize;
-} UNIDRV_PRIVATE_DEVMODE, *PUNIDRV_PRIVATE_DEVMODE;
-````
 
 
 ## -struct-fields
@@ -126,7 +115,7 @@ The preceding example starts with the address of the public DEVMODEW structure (
 
 </li>
 <li>
-Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid <a href="..\printoem\ns-printoem-_oem_dmextraheader.md">OEM_DMEXTRAHEADER</a> structure.
+Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid <a href="https://msdn.microsoft.com/library/windows/hardware/ff559588">OEM_DMEXTRAHEADER</a> structure.
 
 </li>
 </ol>
@@ -135,12 +124,11 @@ Verify that the private portion of your plug-in's DEVMODEW structure begins with
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_pscript5_private_devmode.md">PSCRIPT5_PRIVATE_DEVMODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561799">PSCRIPT5_PRIVATE_DEVMODE</a>
  
 
  
-
 

@@ -38,10 +38,10 @@ api_location:
 -	wdfmemory.h
 api_name:
 -	WDF_MEMORY_DESCRIPTOR_INIT_MDL
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_MEMORY_DESCRIPTOR_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_MEMORY_DESCRIPTOR_INIT_MDL function
@@ -52,19 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_MEMORY_DESCRIPTOR_INIT_MDL</b> function initializes a <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure so that it describes a specified memory descriptor list (MDL).
-
-
-## -syntax
-
-
-````
-VOID WDF_MEMORY_DESCRIPTOR_INIT_MDL(
-  _Out_ PWDF_MEMORY_DESCRIPTOR Descriptor,
-  _In_  PMDL                   Mdl,
-  _In_  ULONG                  BufferLength
-);
-````
+The <b>WDF_MEMORY_DESCRIPTOR_INIT_MDL</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a> structure so that it describes a specified memory descriptor list (MDL).
 
 
 ## -parameters
@@ -74,7 +62,7 @@ VOID WDF_MEMORY_DESCRIPTOR_INIT_MDL(
 
 ### -param Descriptor [out]
 
-A pointer to a <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a> structure.
 
 
 ### -param Mdl [in]
@@ -100,12 +88,12 @@ None
 
 
 
-The <b>WDF_MEMORY_DESCRIPTOR_INIT_MDL</b> function zeros the specified <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure and sets the structure's <b>Type</b> member to <b>WdfMemoryDescriptorTypeMdl</b>. Then it sets the structure's <b>u.MdlType.Mdl</b> and <b>u.MdlType.BufferLength</b> members to the values that the <i>Mdl</i> and <i>BufferLength</i> parameters specify, respectively.
+The <b>WDF_MEMORY_DESCRIPTOR_INIT_MDL</b> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a> structure and sets the structure's <b>Type</b> member to <b>WdfMemoryDescriptorTypeMdl</b>. Then it sets the structure's <b>u.MdlType.Mdl</b> and <b>u.MdlType.BufferLength</b> members to the values that the <i>Mdl</i> and <i>BufferLength</i> parameters specify, respectively.
 
 
 #### Examples
 
-The following code example allocates a buffer, creates an MDL for the buffer, and uses the MDL to initialize a <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a> structure.
+The following code example allocates a buffer, creates an MDL for the buffer, and uses the MDL to initialize a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a> structure.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -150,32 +138,31 @@ WDF_MEMORY_DESCRIPTOR_INIT_MDL(
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>
 
 
 
-<a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548263">IoAllocateMdl</a>
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_handle.md">WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554498">MmBuildMdlForNonPagedPool</a>
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdf_memory_descriptor_init_buffer.md">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552392">WDF_MEMORY_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552393">WDF_MEMORY_DESCRIPTOR_INIT_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552395">WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</a>
  
 
  
-
 

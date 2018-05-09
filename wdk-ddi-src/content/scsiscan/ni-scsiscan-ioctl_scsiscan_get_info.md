@@ -7,8 +7,8 @@ old-location: image\ioctl_scsiscan_get_info.htm
 old-project: image
 ms.assetid: 48045e29-5982-44e6-b9a7-3b000e5cf338
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IOCTL_SCSISCAN_GET_INFO, IOCTL_SCSISCAN_GET_INFO control code [Imaging Devices], image.ioctl_scsiscan_get_info, scsiscan/IOCTL_SCSISCAN_GET_INFO, stifnc_5897897c-6c10-42cd-9301-d5b5f54675fd.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SCSISCAN_GET_INFO, IOCTL_SCSISCAN_GET_INFO control, IOCTL_SCSISCAN_GET_INFO control code [Imaging Devices], image.ioctl_scsiscan_get_info, scsiscan/IOCTL_SCSISCAN_GET_INFO, stifnc_5897897c-6c10-42cd-9301-d5b5f54675fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	scsiscan.h
 api_name:
 -	IOCTL_SCSISCAN_GET_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_SCSISCAN_GET_INFO IOCTL
@@ -70,7 +70,7 @@ Set to 0.
 
 ### -output-buffer
 
-Pointer to a <a href="..\scsiscan\ns-scsiscan-_scsiscan_info.md">SCSISCAN_INFO</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547981">SCSISCAN_INFO</a> structure.
 
 
 ### -output-buffer-length
@@ -112,7 +112,6 @@ When the DeviceloControl function is called with the <b>IOCTL_SCSISCAN_GET_INFO<
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -120,16 +119,16 @@ When the DeviceloControl function is called with the <b>IOCTL_SCSISCAN_GET_INFO<
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

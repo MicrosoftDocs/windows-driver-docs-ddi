@@ -7,7 +7,7 @@ old-location: serports\serial_line_control.htm
 old-project: serports
 ms.assetid: 2D11187E-B21B-4211-BAC0-248B93BAB6D5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL, PSERIAL_LINE_CONTROL structure pointer [Serial Ports], SERIAL_LINE_CONTROL, SERIAL_LINE_CONTROL structure [Serial Ports], _SERIAL_LINE_CONTROL, ntddser/PSERIAL_LINE_CONTROL, ntddser/SERIAL_LINE_CONTROL, serports.serial_line_control"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntddser.h
 api_name:
 -	SERIAL_LINE_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL
 ---
@@ -50,18 +51,6 @@ req.typenames: SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL
 
 
 The <b>SERIAL_LINE_CONTROL</b> structure describes the control settings for the serial line.
-
-
-## -syntax
-
-
-````
-typedef struct _SERIAL_LINE_CONTROL {
-  UCHAR StopBits;
-  UCHAR Parity;
-  UCHAR WordLength;
-} SERIAL_LINE_CONTROL, *PSERIAL_LINE_CONTROL;
-````
 
 
 ## -struct-fields
@@ -136,23 +125,22 @@ Data bits per character. This member indicates the number of data bits in each c
 
 
 
-This structure is used by the <a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a> and <a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a> requests.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546582">IOCTL_SERIAL_GET_LINE_CONTROL</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff546740">IOCTL_SERIAL_SET_LINE_CONTROL</a> requests.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a>
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_line_control.md">IOCTL_SERIAL_GET_LINE_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546582">IOCTL_SERIAL_GET_LINE_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546740">IOCTL_SERIAL_SET_LINE_CONTROL</a>
  
 
  
-
 

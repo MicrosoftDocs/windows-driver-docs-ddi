@@ -7,7 +7,7 @@ old-location: image\wiaudbglegacytrace2.htm
 old-project: image
 ms.assetid: 911a7089-d4ac-4da0-8be6-a3a36567635c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaudbglegacytrace2, wiauDbgLegacyTrace2, wiauDbgLegacyTrace2 function [Imaging Devices], wiauFncs_8fbdcd6b-cb2b-461b-81f0-880675d0124b.xml, wiautil/wiauDbgLegacyTrace2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiautil.h
 api_name:
 -	wiauDbgLegacyTrace2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauDbgLegacyTrace2 function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgLegacyTrace2</b> function logs a trace message.
-
-
-## -syntax
-
-
-````
-inline void __stdcall wiauDbgLegacyTrace2(
-   HINSTANCE   hInstance,
-   LPCSTR      fmt, ...
-);
-````
 
 
 ## -parameters
@@ -104,19 +93,18 @@ None
 
 
 
-The <b>wiauDbgLegacyTrace2</b> function is identical to the <a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a> function except that the former has a parameter that specifies the handle to the DLL instance and the latter has a parameter used to identify the function or method that is active when the function is called.
+The <b>wiauDbgLegacyTrace2</b> function is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550161">wiauDbgTrace</a> function except that the former has a parameter that specifies the handle to the DLL instance and the latter has a parameter used to identify the function or method that is active when the function is called.
 
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550161">wiauDbgTrace</a>
  
 
  
-
 

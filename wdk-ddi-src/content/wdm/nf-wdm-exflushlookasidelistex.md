@@ -7,7 +7,7 @@ old-location: kernel\exflushlookasidelistex.htm
 old-project: kernel
 ms.assetid: 38601573-750f-46fc-ae04-cef0d90d9ea9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExFlushLookasideListEx, ExFlushLookasideListEx routine [Kernel-Mode Driver Architecture], k102_bb02a725-bc22-4c22-91f2-0232c1cb0f1f.xml, kernel.exflushlookasidelistex, wdm/ExFlushLookasideListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExFlushLookasideListEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExFlushLookasideListEx function
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>ExFlushLookasideListEx</b> routine flushes all entries from the specified lookaside list and frees the allocated storage for each entry.
 
 
-## -syntax
-
-
-````
-VOID ExFlushLookasideListEx(
-  _Inout_ PLOOKASIDE_LIST_EX Lookaside
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ VOID ExFlushLookasideListEx(
 
 ### -param Lookaside [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a> structure that describes a lookaside list. This structure was previously initialized by the <a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a> routine.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a> structure that describes a lookaside list. This structure was previously initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545298">ExInitializeLookasideListEx</a> routine.
 
 
 ## -returns
@@ -95,16 +85,15 @@ For more information about lookaside lists, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545298">ExInitializeLookasideListEx</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializelookasidelistex.md">ExInitializeLookasideListEx</a>
-
-
-
  
 
  
-
 

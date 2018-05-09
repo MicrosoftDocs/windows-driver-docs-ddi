@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.TryToAcquireInterruptLock
-title: IWDFInterrupt::TryToAcquireInterruptLock method
+title: IWDFInterrupt::TryToAcquireInterruptLock
 author: windows-driver-content
 description: The TryToAcquireInterruptLock method acquires the interrupt lock if no other thread has already acquired it.
 old-location: wdf\iwdfinterrupt_trytoacquireinterruptlock.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4A109CDF-C5DE-4BAE-AA4E-294EA5CE86C5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFInterrupt, IWDFInterrupt interface, TryToAcquireInterruptLock method, IWDFInterrupt::TryToAcquireInterruptLock, TryToAcquireInterruptLock method, TryToAcquireInterruptLock method, IWDFInterrupt interface, TryToAcquireInterruptLock,IWDFInterrupt.TryToAcquireInterruptLock, umdf.iwdfinterrupt_trytoacquireinterruptlock, wdf.iwdfinterrupt_trytoacquireinterruptlock, wudfddi/IWDFInterrupt::TryToAcquireInterruptLock
+ms.keywords: IWDFInterrupt interface,TryToAcquireInterruptLock method, IWDFInterrupt.TryToAcquireInterruptLock, IWDFInterrupt::TryToAcquireInterruptLock, TryToAcquireInterruptLock, TryToAcquireInterruptLock method, TryToAcquireInterruptLock method,IWDFInterrupt interface, umdf.iwdfinterrupt_trytoacquireinterruptlock, wdf.iwdfinterrupt_trytoacquireinterruptlock, wudfddi/IWDFInterrupt::TryToAcquireInterruptLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFInterrupt.TryToAcquireInterruptLock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFInterrupt::TryToAcquireInterruptLock method
+# IWDFInterrupt::TryToAcquireInterruptLock
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>TryToAcquireInterruptLock</b> method acquires the interrupt lock if no other thread has already acquired it.
-
-
-## -syntax
-
-
-````
-BOOLEAN TryToAcquireInterruptLock();
-````
 
 
 ## -parameters
@@ -98,11 +90,10 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
 
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterrupttrytoacquirelock.md">WdfInterruptTryToAcquireLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>
 
 
 
@@ -110,8 +101,8 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439284">WdfInterruptTryToAcquireLock</a>
  
 
  
-
 

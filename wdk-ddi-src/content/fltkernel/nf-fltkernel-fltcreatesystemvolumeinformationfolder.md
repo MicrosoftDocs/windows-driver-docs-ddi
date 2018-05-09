@@ -7,7 +7,7 @@ old-location: ifsk\fltcreatesystemvolumeinformationfolder.htm
 old-project: ifsk
 ms.assetid: 1da9bd59-d45e-40e0-9947-c4f56309acc7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_cceaf5ba-8497-4026-94af-8b59afe9c24d.xml, FltCreateSystemVolumeInformationFolder, FltCreateSystemVolumeInformationFolder function [Installable File System Drivers], fltkernel/FltCreateSystemVolumeInformationFolder, ifsk.fltcreatesystemvolumeinformationfolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltCreateSystemVolumeInformationFolder
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCreateSystemVolumeInformationFolder function
@@ -51,16 +52,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltCreateSystemVolumeInformationFolder</b> verifies the existence of the "System Volume Information" folder on a file system volume. If the folder is not present, then the folder is created. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltCreateSystemVolumeInformationFolder(
-  _In_ PFLT_INSTANCE Instance
-);
-````
 
 
 ## -parameters
@@ -107,7 +98,7 @@ A temporary buffer required by this function could not be allocated.
 
 <b>FltCreateSystemVolumeInformationFolder</b> verifies the existence of the "System Volume Information" folder in the root directory of the volume to which the given <i>Instance</i> is attached. 
 
-If the folder is not present, then the folder is created. If the volume is an NTFS volume, the folder is created with an access control list (<a href="..\wdm\ns-wdm-_acl.md">ACL</a>) containing one access control entry (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>) indicating full access for the local SYSTEM account, and the ACE will have the inheritance bits set. The folder will be created with the FILE_ATTRIBUTE_HIDDEN and FILE_ATTRIBUTE_SYSTEM attributes set. 
+If the folder is not present, then the folder is created. If the volume is an NTFS volume, the folder is created with an access control list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>) containing one access control entry (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>) indicating full access for the local SYSTEM account, and the ACE will have the inheritance bits set. The folder will be created with the FILE_ATTRIBUTE_HIDDEN and FILE_ATTRIBUTE_SYSTEM attributes set. 
 
 If the folder is already present and the volume is an NTFS volume, the ACE that indicates full control for SYSTEM will be checked and if necessary modified to have the inheritance bits set. 
 
@@ -118,20 +109,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcreatesystemvolumeinformationfolder.md">RtlCreateSystemVolumeInformationFolder</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552175">RtlCreateSystemVolumeInformationFolder</a>
  
 
  
-
 

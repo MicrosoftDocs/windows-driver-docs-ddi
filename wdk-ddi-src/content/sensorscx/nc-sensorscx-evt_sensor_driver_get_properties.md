@@ -7,8 +7,8 @@ old-location: sensors\evtsensorgetproperties.htm
 old-project: sensors
 ms.assetid: 259C37C9-DE8C-4BC8-B18A-CDD96B97056D
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_GET_PROPERTIES, EvtSensorGetProperties, EvtSensorGetProperties callback function [Sensor Devices], sensors.evtsensorgetproperties, sensorscx/EvtSensorGetProperties
+ms.date: 4/30/2018
+ms.keywords: EVT_SENSOR_DRIVER_GET_PROPERTIES, EVT_SENSOR_DRIVER_GET_PROPERTIES callback, EvtSensorGetProperties, EvtSensorGetProperties callback function [Sensor Devices], sensors.evtsensorgetproperties, sensorscx/EvtSensorGetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,31 +38,19 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EvtSensorGetProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_GET_PROPERTIES callback
+# EVT_SENSOR_DRIVER_GET_PROPERTIES callback function
 
 
 ## -description
 
 
 This callback function returns the properties for a given sensor.
-
-
-## -prototype
-
-
-````
-NT_STATUS EvtSensorGetProperties(
-  _In_        SENSOROBJECT            Sensor,
-  _Inout_opt_ PSENSOR_COLLECTION_LIST pProperties,
-  _Out_       PULONG                  pSize
-);
-````
 
 
 ## -parameters
@@ -77,7 +65,7 @@ A reference to a sensor object.
 
 ### -param pProperties [in, out, optional]
 
-A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
+A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ### -param pSize [out]

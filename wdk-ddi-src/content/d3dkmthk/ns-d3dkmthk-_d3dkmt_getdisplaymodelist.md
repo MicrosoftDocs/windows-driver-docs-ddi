@@ -7,7 +7,7 @@ old-location: display\d3dkmt_getdisplaymodelist.htm
 old-project: display
 ms.assetid: c937f1df-0221-4418-b48a-bcf0c41fa1e0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_GETDISPLAYMODELIST, D3DKMT_GETDISPLAYMODELIST structure [Display Devices], OpenGL_Structs_27c1c3f3-6316-4dc3-b83d-1a8f6f6360bb.xml, _D3DKMT_GETDISPLAYMODELIST, d3dkmthk/D3DKMT_GETDISPLAYMODELIST, display.d3dkmt_getdisplaymodelist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_GETDISPLAYMODELIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_GETDISPLAYMODELIST
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMT_GETDISPLAYMODELIST
 
 
 The D3DKMT_GETDISPLAYMODELIST structure describes a list of display modes.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_GETDISPLAYMODELIST {
-  D3DKMT_HANDLE                  hAdapter;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  D3DKMT_DISPLAYMODE             *pModeList;
-  UINT                           ModeCount;
-} D3DKMT_GETDISPLAYMODELIST;
-````
 
 
 ## -struct-fields
@@ -82,7 +70,7 @@ typedef struct _D3DKMT_GETDISPLAYMODELIST {
 
 ### -field pModeList
 
-[out] An array of <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a> structures that represent the list of display modes.
+[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a> structures that represent the list of display modes.
 
 
 ### -field ModeCount
@@ -92,16 +80,15 @@ typedef struct _D3DKMT_GETDISPLAYMODELIST {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdisplaymodelist.md">D3DKMTGetDisplayModeList</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_displaymode.md">D3DKMT_DISPLAYMODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546967">D3DKMTGetDisplayModeList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: print\spoolerfindfirstprinterchangenotification.htm
 old-project: print
 ms.assetid: 429A5DF5-46A6-4A41-A77B-4D5743C841DC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: SpoolerFindFirstPrinterChangeNotification, SpoolerFindFirstPrinterChangeNotification function [Print Devices], print.spoolerfindfirstprinterchangenotification, winsplp/SpoolerFindFirstPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Winsplp.h
 api_name:
 -	SpoolerFindFirstPrinterChangeNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpoolerFindFirstPrinterChangeNotification function
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-BOOL WINAPI SpoolerFindFirstPrinterChangeNotification(
-  _In_      HANDLE                   hPrinter,
-            DWORD                    fdwFilterFlags,
-            DWORD                    fdwOptions,
-  _In_      PVOID                    pPrinterNotifyOptions,
-  _In_opt_  PVOID                    pvReserved,
-  _In_      PVOID                    pNotificationConfig,
-  _Out_opt_ PHANDLE                  phNotify,
-  _Out_opt_ PHANDLE                  phEvent
-);
-````
 
 
 ## -parameters

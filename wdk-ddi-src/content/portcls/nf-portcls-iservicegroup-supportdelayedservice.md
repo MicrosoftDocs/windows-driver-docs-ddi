@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IServiceGroup.SupportDelayedService
-title: IServiceGroup::SupportDelayedService method
+title: IServiceGroup::SupportDelayedService
 author: windows-driver-content
 description: The SupportDelayedService method indicates that the service group should prepare to support delayed service.
 old-location: audio\iservicegroup_supportdelayedservice.htm
 old-project: audio
 ms.assetid: ca9fc65f-299d-4d23-b98e-471daf07f413
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IServiceGroup, IServiceGroup interface [Audio Devices], SupportDelayedService method, IServiceGroup::SupportDelayedService, SupportDelayedService method [Audio Devices], SupportDelayedService method [Audio Devices], IServiceGroup interface, SupportDelayedService,IServiceGroup.SupportDelayedService, audio.iservicegroup_supportdelayedservice, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, portcls/IServiceGroup::SupportDelayedService
+ms.date: 4/16/2018
+ms.keywords: IServiceGroup interface [Audio Devices],SupportDelayedService method, IServiceGroup.SupportDelayedService, IServiceGroup::SupportDelayedService, SupportDelayedService, SupportDelayedService method [Audio Devices], SupportDelayedService method [Audio Devices],IServiceGroup interface, audio.iservicegroup_supportdelayedservice, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, portcls/IServiceGroup::SupportDelayedService
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IServiceGroup.SupportDelayedService
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IServiceGroup::SupportDelayedService method
+# IServiceGroup::SupportDelayedService
 
 
 ## -description
 
 
 The <code>SupportDelayedService</code> method indicates that the service group should prepare to support delayed service.
-
-
-## -syntax
-
-
-````
-VOID SupportDelayedService(
-    None
-);
-````
 
 
 ## -parameters
@@ -92,16 +83,15 @@ The <code>SupportDelayedService</code> method initializes the notification timer
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537003">IServiceGroup::RequestDelayedService</a>
-
-
-
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
  
 
  
-
 

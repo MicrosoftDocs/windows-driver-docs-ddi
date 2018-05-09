@@ -38,7 +38,8 @@ api_location:
 -	windot11.h
 api_name:
 -	DOT11_PHY_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_PHY_TYPE, *PDOT11_PHY_TYPE, DOT11_PHY_TYPE, *PDOT11_PHY_TYPE
 req.product: Windows 10 or later.

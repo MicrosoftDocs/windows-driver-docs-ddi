@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.DispatchCallbacks
-title: IDebugClient5::DispatchCallbacks method
+title: IDebugClient5::DispatchCallbacks
 author: windows-driver-content
 description: The DispatchCallbacks method lets the debugger engine use the current thread for callbacks.
 old-location: debugger\dispatchcallbacks.htm
 old-project: debugger
 ms.assetid: 05fb9569-c2d6-4650-b1c3-8b86ed7ef07d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DispatchCallbacks method [Windows Debugging], DispatchCallbacks method [Windows Debugging], IDebugClient interface, DispatchCallbacks method [Windows Debugging], IDebugClient2 interface, DispatchCallbacks method [Windows Debugging], IDebugClient3 interface, DispatchCallbacks method [Windows Debugging], IDebugClient4 interface, DispatchCallbacks method [Windows Debugging], IDebugClient5 interface, DispatchCallbacks,IDebugClient5.DispatchCallbacks, IDebugClient interface [Windows Debugging], DispatchCallbacks method, IDebugClient2 interface [Windows Debugging], DispatchCallbacks method, IDebugClient2::DispatchCallbacks, IDebugClient3 interface [Windows Debugging], DispatchCallbacks method, IDebugClient3::DispatchCallbacks, IDebugClient4 interface [Windows Debugging], DispatchCallbacks method, IDebugClient4::DispatchCallbacks, IDebugClient5, IDebugClient5 interface [Windows Debugging], DispatchCallbacks method, IDebugClient5::DispatchCallbacks, IDebugClient::DispatchCallbacks, IDebugClient_faf284c2-ca0f-4e00-bd74-08817338a808.xml, dbgeng/IDebugClient2::DispatchCallbacks, dbgeng/IDebugClient3::DispatchCallbacks, dbgeng/IDebugClient4::DispatchCallbacks, dbgeng/IDebugClient5::DispatchCallbacks, dbgeng/IDebugClient::DispatchCallbacks, debugger.dispatchcallbacks
+ms.date: 4/24/2018
+ms.keywords: DispatchCallbacks, DispatchCallbacks method [Windows Debugging], DispatchCallbacks method [Windows Debugging],IDebugClient interface, DispatchCallbacks method [Windows Debugging],IDebugClient2 interface, DispatchCallbacks method [Windows Debugging],IDebugClient3 interface, DispatchCallbacks method [Windows Debugging],IDebugClient4 interface, DispatchCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],DispatchCallbacks method, IDebugClient2 interface [Windows Debugging],DispatchCallbacks method, IDebugClient2::DispatchCallbacks, IDebugClient3 interface [Windows Debugging],DispatchCallbacks method, IDebugClient3::DispatchCallbacks, IDebugClient4 interface [Windows Debugging],DispatchCallbacks method, IDebugClient4::DispatchCallbacks, IDebugClient5 interface [Windows Debugging],DispatchCallbacks method, IDebugClient5.DispatchCallbacks, IDebugClient5::DispatchCallbacks, IDebugClient::DispatchCallbacks, IDebugClient_faf284c2-ca0f-4e00-bd74-08817338a808.xml, dbgeng/IDebugClient2::DispatchCallbacks, dbgeng/IDebugClient3::DispatchCallbacks, dbgeng/IDebugClient4::DispatchCallbacks, dbgeng/IDebugClient5::DispatchCallbacks, dbgeng/IDebugClient::DispatchCallbacks, debugger.dispatchcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,28 +42,19 @@ api_name:
 -	IDebugClient3.DispatchCallbacks
 -	IDebugClient4.DispatchCallbacks
 -	IDebugClient5.DispatchCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::DispatchCallbacks method
+# IDebugClient5::DispatchCallbacks
 
 
 ## -description
 
 
 The <b>DispatchCallbacks</b> method lets the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> use the current thread for callbacks.
-
-
-## -syntax
-
-
-````
-HRESULT DispatchCallbacks(
-  [in] ULONG Timeout
-);
-````
 
 
 ## -parameters
@@ -132,31 +123,10 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543265">ExitDispatch</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -164,8 +134,28 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a>
  
 
  
-
 

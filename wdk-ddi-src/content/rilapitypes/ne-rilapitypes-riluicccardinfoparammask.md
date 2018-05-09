@@ -7,7 +7,7 @@ old-location: netvista\riluicccardinfoparammask.htm
 old-project: netvista
 ms.assetid: e206ed8b-89c3-4503-a4c7-57d29c9c00ff
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILUICCCARDINFOPARAMMASK, RILUICCCARDINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDINFO_ALL, RIL_PARAM_CARDINFO_APPINFO, RIL_PARAM_CARDINFO_ICCID, RIL_PARAM_CARDINFO_NUMAPPS, netvista.riluicccardinfoparammask, ntddrilapitypes/RILUICCCARDINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_CARDINFO_ALL, ntddrilapitypes/RIL_PARAM_CARDINFO_APPINFO, ntddrilapitypes/RIL_PARAM_CARDINFO_ICCID, ntddrilapitypes/RIL_PARAM_CARDINFO_NUMAPPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCCARDINFOPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCCARDINFOPARAMMASK
-req.product: Windows 10 or later.
 ---
 
 # RILUICCCARDINFOPARAMMASK enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILUICCCARDINFOPARAMMASK { 
-  RIL_PARAM_CARDINFO_ICCID,
-  RIL_PARAM_CARDINFO_NUMAPPS,
-  RIL_PARAM_CARDINFO_APPINFO,
-  RIL_PARAM_CARDINFO_ALL
-} RILUICCCARDINFOPARAMMASK;
-````
 
 
 ## -enum-fields

@@ -7,8 +7,8 @@ old-location: storage\ioctl_ehstor_device_get_authz_state.htm
 old-project: storage
 ms.assetid: 20322156-316B-4FE5-A804-14506C8CEB49
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE, IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE, storage.ioctl_ehstor_device_get_authz_state
+ms.date: 3/29/2018
+ms.keywords: IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE, IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE control, IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE, storage.ioctl_ehstor_device_get_authz_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	EhStorIoctl.h
 api_name:
 -	IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PDO_TYPE
+req.typenames: 
 ---
 
 # IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE IOCTL
@@ -59,12 +60,12 @@ This IOCTL is used to inform the owning driver for the IEEE 1667 device PDOs tha
 
 ### -input-buffer
 
-The input buffer at Irp-&gt;AssociatedIrp.SystemBuffer must contain a structure of type <a href="..\ehstorioctl\ns-ehstorioctl-tagact_authz_state.md">ACT_AUTHZ_STATE</a>.
+The input buffer at Irp-&gt;AssociatedIrp.SystemBuffer must contain a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550120">ACT_AUTHZ_STATE</a>.
 
 
 ### -input-buffer-length
 
-The length of an <a href="..\ehstorioctl\ns-ehstorioctl-tagact_authz_state.md">ACT_AUTHZ_STATE</a> structure.
+The length of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550120">ACT_AUTHZ_STATE</a> structure.
 
 
 ### -output-buffer

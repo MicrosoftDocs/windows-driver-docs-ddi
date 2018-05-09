@@ -7,8 +7,8 @@ old-location: storage\ioctl_scsi_miniport.htm
 old-project: storage
 ms.assetid: 5a9facc7-c83e-4dd4-9fb4-e3385c1b94ea
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_SCSI_MINIPORT, IOCTL_SCSI_MINIPORT control code [Storage Devices], k307_49b821f3-1a79-44aa-a6a1-92543177181d.xml, ntddscsi/IOCTL_SCSI_MINIPORT, storage.ioctl_scsi_miniport
+ms.date: 3/29/2018
+ms.keywords: IOCTL_SCSI_MINIPORT, IOCTL_SCSI_MINIPORT control, IOCTL_SCSI_MINIPORT control code [Storage Devices], k307_49b821f3-1a79-44aa-a6a1-92543177181d.xml, ntddscsi/IOCTL_SCSI_MINIPORT, storage.ioctl_scsi_miniport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddscsi.h
 api_name:
 -	IOCTL_SCSI_MINIPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
+req.typenames: 
 ---
 
 # IOCTL_SCSI_MINIPORT IOCTL
@@ -62,7 +63,7 @@ Sends a special control function to an HBA-specific miniport driver. Results var
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain an <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure. 
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure. 
 
 
 ### -input-buffer-length
@@ -72,12 +73,12 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> must contain an <a href=
 
 ### -output-buffer
 
-An updated <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure is returned to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
+An updated <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure is returned to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
 
-The length of the <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> structure.
+The length of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a> structure.
 
 
 ### -in-out-buffer
@@ -105,12 +106,11 @@ The <b>Information</b> field contains the number of bytes returned in the output
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566339">SRB_IO_CONTROL</a>
  
 
  
-
 

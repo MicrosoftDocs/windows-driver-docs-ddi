@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbolGroup2.GetSymbolSize
-title: IDebugSymbolGroup2::GetSymbolSize method
+title: IDebugSymbolGroup2::GetSymbolSize
 author: windows-driver-content
 description: The GetSymbolSize method returns the size of a symbol's value.
 old-location: debugger\getsymbolsize.htm
 old-project: debugger
 ms.assetid: f35bbbeb-585b-47b0-ae36-bd37fe9e1bbc
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComOther_a6e69468-38f9-449d-9bd7-0ef52585f2aa.xml, GetSymbolSize method [Windows Debugging], GetSymbolSize method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolSize,IDebugSymbolGroup2.GetSymbolSize, IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolSize method, IDebugSymbolGroup2::GetSymbolSize, dbgeng/IDebugSymbolGroup2::GetSymbolSize, debugger.getsymbolsize
+ms.date: 4/24/2018
+ms.keywords: ComOther_a6e69468-38f9-449d-9bd7-0ef52585f2aa.xml, GetSymbolSize, GetSymbolSize method [Windows Debugging], GetSymbolSize method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolSize method, IDebugSymbolGroup2.GetSymbolSize, IDebugSymbolGroup2::GetSymbolSize, dbgeng/IDebugSymbolGroup2::GetSymbolSize, debugger.getsymbolsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbolGroup2.GetSymbolSize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbolGroup2::GetSymbolSize method
+# IDebugSymbolGroup2::GetSymbolSize
 
 
 ## -description
 
 
 The <b>GetSymbolSize</b> method returns the size of a symbol's value.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolSize(
-  [in]  ULONG  Index,
-  [out] PULONG Size
-);
-````
 
 
 ## -parameters
@@ -128,7 +118,6 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b6f03eb5-e386-4e88-a729-db08f1fa460c">IDebugSymbols::GetTypeSize</a>
 
 
 
@@ -136,12 +125,12 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550846">IDebugSymbolGroup2</a>
 
 
 
+<a href="https://msdn.microsoft.com/b6f03eb5-e386-4e88-a729-db08f1fa460c">IDebugSymbols::GetTypeSize</a>
  
 
  
-
 

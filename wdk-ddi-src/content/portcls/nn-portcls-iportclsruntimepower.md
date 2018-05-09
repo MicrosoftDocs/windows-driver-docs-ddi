@@ -7,8 +7,8 @@ old-location: audio\iportclsruntimepower.htm
 old-project: audio
 ms.assetid: 8D03B2A0-6C8C-4EBE-86F4-70C8DE179947
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], IPortClsRuntimePower interface [Audio Devices], described, audio.iportclsruntimepower, portcls/IPortClsRuntimePower
+ms.date: 4/16/2018
+ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], IPortClsRuntimePower interface [Audio Devices],described, audio.iportclsruntimepower, portcls/IPortClsRuntimePower
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortClsRuntimePower
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IPortClsRuntimePower interface

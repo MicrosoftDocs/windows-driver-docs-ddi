@@ -7,8 +7,8 @@ old-location: stream\camfreebandwidth.htm
 old-project: stream
 ms.assetid: 360fd299-bb8a-4fbb-899d-0e5fbe228d80
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: CamFreeBandwidth, CamFreeBandwidth callback function [Streaming Media Devices], PCAM_FREE_BW_ROUTINE, stream.camfreebandwidth, usbcamdi/CamFreeBandwidth, usbcmdpr_bf8779db-a06c-49b8-aa2f-e558a53bfa93.xml
+ms.date: 4/23/2018
+ms.keywords: CamFreeBandwidth, CamFreeBandwidth callback function [Streaming Media Devices], PCAM_FREE_BW_ROUTINE, PCAM_FREE_BW_ROUTINE callback, stream.camfreebandwidth, usbcamdi/CamFreeBandwidth, usbcmdpr_bf8779db-a06c-49b8-aa2f-e558a53bfa93.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,22 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamFreeBandwidth
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_FREE_BW_ROUTINE callback
+# PCAM_FREE_BW_ROUTINE callback function
 
 
 ## -description
 
 
-<p class="CCE_Message">[CamFreeBandwidth is not supported and may be altered or unavailable in the future. Instead, use <a href="..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine_ex.md">CamFreeBandwidthEx</a>.
+<p class="CCE_Message">[CamFreeBandwidth is not supported and may be altered or unavailable in the future. Instead, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff557613">CamFreeBandwidthEx</a>.
 ]
 
 A camera minidriver's <b>CamFreeBandwidth</b> callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
-
-
-## -prototype
-
-
-````
-NTSTATUS CamFreeBandwidth(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext
-);
-````
 
 
 ## -parameters
@@ -95,7 +84,7 @@ Pointer to the camera minidriver's device context.
 
 
 
-Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
+Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568585">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
 
 USBCAMD calls the camera minidriver's <b>CamFreeBandwidth</b> callback function after the isochronous video stream has stopped.
 
@@ -108,16 +97,15 @@ This function is required.
 
 ## -see-also
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_selectalternateinterface.md">USBCAMD_SelectAlternateInterface</a>
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine_ex.md">CamFreeBandwidthEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557613">CamFreeBandwidthEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568625">USBCAMD_SelectAlternateInterface</a>
  
 
  
-
 

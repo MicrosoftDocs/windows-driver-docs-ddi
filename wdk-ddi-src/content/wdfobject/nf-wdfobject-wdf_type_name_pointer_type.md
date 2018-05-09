@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WDF_TYPE_NAME_POINTER_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_SYNCHRONIZATION_SCOPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_TYPE_NAME_POINTER_TYPE macro
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 
 
 This macro is reserved for internal use only.
-
-
-## -syntax
-
-
-````
-void WDF_TYPE_NAME_POINTER_TYPE(
-    _contexttype
-);
-````
 
 
 ## -parameters

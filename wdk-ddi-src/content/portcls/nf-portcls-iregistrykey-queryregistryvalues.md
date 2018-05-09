@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IRegistryKey.QueryRegistryValues
-title: IRegistryKey::QueryRegistryValues method
+title: IRegistryKey::QueryRegistryValues
 author: windows-driver-content
 description: The QueryRegistryValues method allows the caller to query several values from the registry with a single call.
 old-location: audio\iregistrykey_queryregistryvalues.htm
 old-project: audio
 ms.assetid: eb3aa7ec-65f7-4e3d-8059-e9627de9818c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], QueryRegistryValues method, IRegistryKey::QueryRegistryValues, QueryRegistryValues method [Audio Devices], QueryRegistryValues method [Audio Devices], IRegistryKey interface, QueryRegistryValues,IRegistryKey.QueryRegistryValues, audio.iregistrykey_queryregistryvalues, audmp-routines_b2601a0c-3b8f-4e2b-868c-cf189eca7e05.xml, portcls/IRegistryKey::QueryRegistryValues
+ms.date: 4/16/2018
+ms.keywords: IRegistryKey interface [Audio Devices],QueryRegistryValues method, IRegistryKey.QueryRegistryValues, IRegistryKey::QueryRegistryValues, QueryRegistryValues, QueryRegistryValues method [Audio Devices], QueryRegistryValues method [Audio Devices],IRegistryKey interface, audio.iregistrykey_queryregistryvalues, audmp-routines_b2601a0c-3b8f-4e2b-868c-cf189eca7e05.xml, portcls/IRegistryKey::QueryRegistryValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IRegistryKey.QueryRegistryValues
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IRegistryKey::QueryRegistryValues method
+# IRegistryKey::QueryRegistryValues
 
 
 ## -description
 
 
 The <code>QueryRegistryValues</code> method allows the caller to query several values from the registry with a single call.
-
-
-## -syntax
-
-
-````
-NTSTATUS QueryRegistryValues(
-  [in]           PRTL_QUERY_REGISTRY_TABLE QueryTable,
-  [in, optional] PVOID                     Context
-);
-````
 
 
 ## -parameters
@@ -70,7 +60,7 @@ NTSTATUS QueryRegistryValues(
 
 ### -param QueryTable [in]
 
-Pointer to an array of one or more RTL_QUERY_REGISTRY_TABLE structures. (This structure is described in <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>.) Each structure specifies the value name and subkey name for a registry entry that the caller is querying. Each structure also contains a function pointer to a caller-supplied <b>QueryRoutine</b> callback that the <code>QueryRegistryValues</code> method will call with information about the corresponding registry entry. The array must be terminated by a structure with a <b>Name</b> member that is <b>NULL</b>.
+Pointer to an array of one or more RTL_QUERY_REGISTRY_TABLE structures. (This structure is described in <a href="https://msdn.microsoft.com/library/windows/hardware/ff562046">RtlQueryRegistryValues</a>.) Each structure specifies the value name and subkey name for a registry entry that the caller is querying. Each structure also contains a function pointer to a caller-supplied <b>QueryRoutine</b> callback that the <code>QueryRegistryValues</code> method will call with information about the corresponding registry entry. The array must be terminated by a structure with a <b>Name</b> member that is <b>NULL</b>.
 
 
 ### -param Context [in, optional]
@@ -123,23 +113,22 @@ Indicates that the method was unable to find the object that was specified in on
 
 This method uses caller-supplied callback routines to enumerate the values of a list of registry entries. If successful, the method returns after calling all the callback routines in the list.
 
-The <i>QueryTable</i> parameter points to an array of RTL_QUERY_REGISTRY_TABLE structures. The first member of this structure, <b>QueryRoutine</b>, is a function pointer to a caller-supplied callback routine. For more information, see <a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>.
+The <i>QueryTable</i> parameter points to an array of RTL_QUERY_REGISTRY_TABLE structures. The first member of this structure, <b>QueryRoutine</b>, is a function pointer to a caller-supplied callback routine. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff562046">RtlQueryRegistryValues</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536965">IRegistryKey</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562046">RtlQueryRegistryValues</a>
  
 
  
-
 

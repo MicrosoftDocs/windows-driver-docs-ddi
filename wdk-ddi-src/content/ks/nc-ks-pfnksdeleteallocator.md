@@ -7,7 +7,7 @@ old-location: stream\avstrminideleteallocator.htm
 old-project: stream
 ms.assetid: 867da1f8-061b-4fc1-8e20-3ebc43300f15
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniDeleteAllocator, AVStrMiniDeleteAllocator routine [Streaming Media Devices], PFNKSDELETEALLOCATOR, avstclbk_32e3c0fd-c437-45e0-8e5e-72f2f628ee51.xml, ks/AVStrMiniDeleteAllocator, stream.avstrminideleteallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,31 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	AVStrMiniDeleteAllocator
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSDELETEALLOCATOR callback
+# PFNKSDELETEALLOCATOR callback function
 
 
 ## -description
 
 
 An AVStream minidriver's <i>AVStrMiniDeleteAllocator</i> routine deletes the allocator that is associated with a pin.
-
-
-## -prototype
-
-
-````
-PFNKSDELETEALLOCATOR AVStrMiniDeleteAllocator;
-
-VOID AVStrMiniDeleteAllocator(
-  _In_ PVOID Context
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,7 +60,7 @@ VOID AVStrMiniDeleteAllocator(
 
 ### -param Context [in]
 
-Pointer to the allocator's context structure created by <a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a>.
+Pointer to the allocator's context structure created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556321">AVStrMiniInitializeAllocator</a>.
 
 
 ## -returns
@@ -88,7 +76,7 @@ None
 
 
 
-The minidriver specifies this routine's address in the <b>DeleteAllocator</b> member of its <a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a> structure. The minidriver passes this structure to the class driver in <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>.
+The minidriver specifies this routine's address in the <b>DeleteAllocator</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff560976">KSALLOCATOR_DISPATCH</a> structure. The minidriver passes this structure to the class driver in <a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>.
 
 Once this function is called, AVStream will no longer use the allocator to allocate and free memory. This handler should release all system resources reserved by the allocator.
 
@@ -99,20 +87,19 @@ For more information, see <a href="https://msdn.microsoft.com/07812703-a66f-450a
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnkspininitializeallocator.md">AVStrMiniInitializeAllocator</a>
 
 
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556321">AVStrMiniInitializeAllocator</a>
 
 
 
-<a href="..\ks\ns-ks-_ksallocator_dispatch.md">KSALLOCATOR_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560976">KSALLOCATOR_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: bltooth\bth_vendor_event_info.htm
 old-project: bltooth
 ms.assetid: 796f9d91-5c75-4a05-a997-0d5beb7d9fca
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PBTH_VENDOR_EVENT_INFO, BTH_VENDOR_EVENT_INFO, BTH_VENDOR_EVENT_INFO structure [Bluetooth Devices], PBTH_VENDOR_EVENT_INFO, PBTH_VENDOR_EVENT_INFO structure pointer [Bluetooth Devices], _BTH_VENDOR_EVENT_INFO, bltooth.bth_vendor_event_info, bth_ref_039b7b82-a08d-41a4-9566-2a5192a23ac2.xml, bthioctl/BTH_VENDOR_EVENT_INFO, bthioctl/PBTH_VENDOR_EVENT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= PASSIVE_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_VENDOR_EVENT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO
 ---
@@ -51,18 +52,6 @@ req.typenames: BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO
 
 The BTH_VENDOR_EVENT_INFO structure specifies the buffer that is associated with the
   GUID_BLUETOOTH_HCI_VENDOR_EVENT GUID.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_VENDOR_EVENT_INFO {
-  BTH_ADDR BthAddress;
-  ULONG    EventSize;
-  UCHAR    EventInfo[1];
-} BTH_VENDOR_EVENT_INFO, *PBTH_VENDOR_EVENT_INFO;
-````
 
 
 ## -struct-fields

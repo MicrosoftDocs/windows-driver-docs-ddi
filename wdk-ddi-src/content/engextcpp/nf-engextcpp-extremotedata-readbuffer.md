@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.ReadBuffer
-title: ExtRemoteData::ReadBuffer method
+title: ExtRemoteData::ReadBuffer
 author: windows-driver-content
 description: The ReadBuffer method reads data from the target's memory. The data is located in the beginning of the region represented by the ExtRemoteData object. However, the size of the data can be different.
 old-location: debugger\extremotedata_readbuffer.htm
 old-project: debugger
 ms.assetid: 1ad13196-a133-4168-9a36-1f7e4ed5c4f1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], ReadBuffer method, ExtRemoteData::ReadBuffer, ReadBuffer method [Windows Debugging], ReadBuffer method [Windows Debugging], ExtRemoteData class, ReadBuffer,ExtRemoteData.ReadBuffer, debugger.extremotedata_readbuffer
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_b27c97d0-4083-4773-b323-55f915dfdd05.xml, ExtRemoteData class [Windows Debugging],ReadBuffer method, ExtRemoteData.ReadBuffer, ExtRemoteData::ReadBuffer, ReadBuffer, ReadBuffer method [Windows Debugging], ReadBuffer method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_readbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteData.ReadBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::ReadBuffer method
+# ExtRemoteData::ReadBuffer
 
 
 ## -description
 
 
-The <b>ReadBuffer</b> method reads data from the target's memory.  The data is located in the beginning of the region represented by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object.  However, the size of the data can be different.
-
-
-## -syntax
-
-
-````
-ULONG ReadBuffer(
-  [out] PVOID Buffer,
-  [in]  ULONG Bytes,
-  [in]  bool  MustReadAll
-);
-````
+The <b>ReadBuffer</b> method reads data from the target's memory.  The data is located in the beginning of the region represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object.  However, the size of the data can be different.
 
 
 ## -parameters
@@ -95,16 +84,15 @@ Specifies what happens if the debugger engine is unable to read all the data fro
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544110">ExtRemoteData::WriteBuffer</a>
-
-
-
  
 
  
-
 

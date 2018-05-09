@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfObjectContextGetObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_SYNCHRONIZATION_SCOPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfObjectContextGetObject function
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfObjectContextGetObject</b> method returns a handle to the framework object that a specified context space belongs to.
-
-
-## -syntax
-
-
-````
-WDFOBJECT WdfObjectContextGetObject(
-  _In_ PVOID ContextPointer
-);
-````
 
 
 ## -parameters
@@ -115,12 +105,11 @@ device = WdfObjectContextGetObject(DeviceContext);</pre>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548749">WdfObjectGetTypedContext</a>
-
-
-
  
 
  
-
 

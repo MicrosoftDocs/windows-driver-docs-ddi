@@ -7,7 +7,7 @@ old-location: spb\spb_request_type.htm
 old-project: SPB
 ms.assetid: B3C2505E-A2B6-4D79-B8B7-9D1B53AA5B56
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSPB_REQUEST_TYPE, SPB.spb_request_type, SPB_REQUEST_TYPE, SPB_REQUEST_TYPE enumeration [Buses], SpbRequestTypeLockConnection, SpbRequestTypeLockController, SpbRequestTypeMax, SpbRequestTypeOther, SpbRequestTypeRead, SpbRequestTypeSequence, SpbRequestTypeUndefined, SpbRequestTypeUnlockConnection, SpbRequestTypeUnlockController, SpbRequestTypeWrite, _SPB_REQUEST_TYPE, spbcx/SPB_REQUEST_TYPE, spbcx/SpbRequestTypeLockConnection, spbcx/SpbRequestTypeLockController, spbcx/SpbRequestTypeMax, spbcx/SpbRequestTypeOther, spbcx/SpbRequestTypeRead, spbcx/SpbRequestTypeSequence, spbcx/SpbRequestTypeUndefined, spbcx/SpbRequestTypeUnlockConnection, spbcx/SpbRequestTypeUnlockController, spbcx/SpbRequestTypeWrite"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	spbcx.h
 api_name:
 -	SPB_REQUEST_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _SPB_REQUEST_TYPE enumeration
@@ -51,25 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_REQUEST_TYPE</b> enumeration specifies the type of SPB operation that a client is requesting.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SpbRequestTypeUndefined         = 0,
-  SpbRequestTypeRead,
-  SpbRequestTypeWrite,
-  SpbRequestTypeSequence,
-  SpbRequestTypeLockController,
-  SpbRequestTypeUnlockController,
-  SpbRequestTypeLockConnection,
-  SpbRequestTypeUnlockConnection,
-  SpbRequestTypeOther,
-  SpbRequestTypeMax
-} SPB_REQUEST_TYPE;
-````
 
 
 ## -enum-fields
@@ -119,7 +100,7 @@ A request to unlock the specified target device.  This request is handled entire
 
 ### -field SpbRequestTypeOther
 
-An unknown I/O control (IOCTL) request sent by a client (peripheral driver) to a target device on the bus.  Call the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a> method to retrieve the parameters for this request; for this call, use the SPBREQUEST handle for the <i>Request</i> parameter. Your SPB controller driver receives requests of this type only if it registers an <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a> callback function.  Otherwise, SpbCx rejects unknown IOCTL requests.
+An unknown I/O control (IOCTL) request sent by a client (peripheral driver) to a target device on the bus.  Call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549969">WdfRequestGetParameters</a> method to retrieve the parameters for this request; for this call, use the SPBREQUEST handle for the <i>Request</i> parameter. Your SPB controller driver receives requests of this type only if it registers an <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a> callback function.  Otherwise, SpbCx rejects unknown IOCTL requests.
 
 
 ### -field SpbRequestTypeMax
@@ -138,11 +119,30 @@ The <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SP
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
+
+
+
+<a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a>
+
+
+
+<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
 
 
 
 <a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>
+
+
+
+<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/4EB36115-2783-4FD5-9CEE-1F7C971C334D">EvtSpbControllerUnlock</a>
 
 
 
@@ -154,32 +154,12 @@ The <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SP
 
 
 
-<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
-
-
-
 <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/4EB36115-2783-4FD5-9CEE-1F7C971C334D">EvtSpbControllerUnlock</a>
-
-
-
-<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
-
-
-
-<a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549969">WdfRequestGetParameters</a>
  
 
  
-
 

@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRequestGetIoQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRequestGetIoQueue function
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRequestGetIoQueue</b> method returns a handle to the framework queue object from which a specified I/O request was delivered.
-
-
-## -syntax
-
-
-````
-WDFQUEUE WdfRequestGetIoQueue(
-  _In_ WDFREQUEST Request
-);
-````
 
 
 ## -parameters
@@ -119,12 +109,11 @@ device = WdfIoQueueGetDevice(WdfRequestGetIoQueue(Request));</pre>
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuegetdevice.md">WdfIoQueueGetDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547421">WdfIoQueueGetDevice</a>
  
 
  
-
 

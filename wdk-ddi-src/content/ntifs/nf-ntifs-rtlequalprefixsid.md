@@ -7,7 +7,7 @@ old-location: ifsk\rtlequalprefixsid.htm
 old-project: ifsk
 ms.assetid: 6db96d3b-721f-40d5-8f8d-54cdd33f85c8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlEqualPrefixSid, RtlEqualPrefixSid routine [Installable File System Drivers], ifsk.rtlequalprefixsid, ntifs/RtlEqualPrefixSid, rtlref_67b0c7e1-647f-426a-8d9d-dde2d98b0cc3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlEqualPrefixSid
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlEqualPrefixSid function
@@ -50,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlEqualPrefixSid</b> routine determines whether two security-identifier (SID) prefixes are equal. An SID prefix is the entire SID except for the last subauthority value. 
-
-
-## -syntax
-
-
-````
-BOOLEAN RtlEqualPrefixSid(
-  _In_ PSID Sid1,
-  _In_ PSID Sid2
-);
-````
 
 
 ## -parameters
@@ -104,24 +94,23 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552146">RtlCopySid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552260">RtlEqualSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcopysid.md">RtlCopySid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553314">RtlValidSid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  
-
 

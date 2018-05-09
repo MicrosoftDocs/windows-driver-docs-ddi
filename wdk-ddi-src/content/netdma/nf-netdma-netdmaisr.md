@@ -7,7 +7,7 @@ old-location: netvista\netdmaisr.htm
 old-project: netvista
 ms.assetid: 81aa5707-b614-429b-bd8e-0204eec74e0f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NetDmaIsr, NetDmaIsr function [Network Drivers Starting with Windows Vista], netdma/NetDmaIsr, netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netvista.netdmaisr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	netdma.h
 api_name:
 -	NetDmaIsr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
+req.typenames: 
 ---
 
 # NetDmaIsr function
@@ -56,18 +57,6 @@ in Windows 8 and later.</div><div> </div>The
   channel.
 
 
-## -syntax
-
-
-````
-VOID NetDmaIsr(
-  _In_  PVOID            NetDmaChannelHandle,
-  _In_  PHYSICAL_ADDRESS DmaDescriptor,
-  _Out_ PULONG           pCpuNumber
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +66,7 @@ VOID NetDmaIsr(
 
 A handle that identifies the DMA channel. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">
      ProviderAllocateDmaChannel</a> function.
 
 
@@ -111,7 +100,7 @@ DMA provider drivers call the
 
 If the NET_DMA_INTERRUPT_ON_COMPLETION flag in the 
     <b>ControlFlags</b> member of the 
-    <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a> structure is set, the
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568734">NET_DMA_DESCRIPTOR</a> structure is set, the
     DMA engine should generate an interrupt for the DMA channel after it processes the DMA descriptor. When
     this flag is cleared, the DMA engine does not generate an interrupt.
 
@@ -126,16 +115,15 @@ A DMA provider driver should do as little work as possible in its ISR handler. T
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
 
 
-<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568734">NET_DMA_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a>
  
 
  
-
 

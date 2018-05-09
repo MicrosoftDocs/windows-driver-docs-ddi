@@ -7,8 +7,8 @@ old-location: image\ioctl_wait_on_device_event.htm
 old-project: image
 ms.assetid: 0895a19b-bb28-405a-98df-28522a18ec2b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IOCTL_WAIT_ON_DEVICE_EVENT, IOCTL_WAIT_ON_DEVICE_EVENT control code [Imaging Devices], image.ioctl_wait_on_device_event, stifnc_ef4b6e5f-ed60-4354-adae-443e1a27b215.xml, usbscan/IOCTL_WAIT_ON_DEVICE_EVENT
+ms.date: 4/23/2018
+ms.keywords: IOCTL_WAIT_ON_DEVICE_EVENT, IOCTL_WAIT_ON_DEVICE_EVENT control, IOCTL_WAIT_ON_DEVICE_EVENT control code [Imaging Devices], image.ioctl_wait_on_device_event, stifnc_ef4b6e5f-ed60-4354-adae-443e1a27b215.xml, usbscan/IOCTL_WAIT_ON_DEVICE_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	Usbscan.h
 api_name:
 -	IOCTL_WAIT_ON_DEVICE_EVENT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RAW_PIPE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_WAIT_ON_DEVICE_EVENT IOCTL

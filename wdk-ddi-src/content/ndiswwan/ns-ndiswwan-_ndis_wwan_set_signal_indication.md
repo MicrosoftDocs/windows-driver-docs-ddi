@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_set_signal_indication.htm
 old-project: netvista
 ms.assetid: 6ef6fdd4-7d52-436a-96ee-ed83fab33e7b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_SIGNAL_INDICATION, PNDIS_WWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_da95b173-97da-4e41-9628-2a101a851f1c.xml, _NDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/NDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/PNDIS_WWAN_SET_SIGNAL_INDICATION, netvista.ndis_wwan_set_signal_indication"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_SET_SIGNAL_INDICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_SET_SIGNAL_INDICATION, *PNDIS_WWAN_SET_SIGNAL_INDICATION
 ---
@@ -51,17 +52,6 @@ req.typenames: NDIS_WWAN_SET_SIGNAL_INDICATION, *PNDIS_WWAN_SET_SIGNAL_INDICATIO
 
 The NDIS_WWAN_SET_SIGNAL_INDICATION structure represents the signal indication of the MB
   device.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_SET_SIGNAL_INDICATION {
-  NDIS_OBJECT_HEADER         Header;
-  WWAN_SET_SIGNAL_INDICATION SignalIndication;
-} NDIS_WWAN_SET_SIGNAL_INDICATION, *PNDIS_WWAN_SET_SIGNAL_INDICATION;
-````
 
 
 ## -struct-fields
@@ -117,29 +107,28 @@ sizeof(NDIS_WWAN_SET_SIGNAL_INDICATION)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SignalIndication
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_set_signal_indication.md">
+     <a href="https://msdn.microsoft.com/266ec8f5-f6ec-47e5-b433-4f570f2d43d2">
      WWAN_SET_SIGNAL_INDICATION</a> object that represents the frequency of RSSI interval and RSSI
      threshold notifications.
 
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_set_signal_indication.md">WWAN_SET_SIGNAL_INDICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571237">WWAN_SET_SIGNAL_INDICATION</a>
  
 
  
-
 

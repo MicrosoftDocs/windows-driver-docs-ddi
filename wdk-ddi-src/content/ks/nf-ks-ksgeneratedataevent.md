@@ -7,7 +7,7 @@ old-location: stream\ksgeneratedataevent.htm
 old-project: stream
 ms.assetid: 3ba49134-e144-4212-9ef7-e16b9d5f90ea
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGenerateDataEvent, KsGenerateDataEvent function [Streaming Media Devices], ks/KsGenerateDataEvent, ksfunc_4e7efb50-d6c2-45b5-9b44-5c3d48e91933.xml, stream.ksgeneratedataevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGenerateDataEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsGenerateDataEvent</b> function generates one of the standard event notifications when given an event entry structure and callback data. This allows a device to determine when event notifications should be generated, yet still use this helper function to perform the actual notification.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsGenerateDataEvent(
-  _In_ PKSEVENT_ENTRY EventEntry,
-  _In_ ULONG          DataSize,
-  _In_ PVOID          Data
-);
-````
 
 
 ## -parameters
@@ -107,12 +96,11 @@ This function is specifically for events that pass data back through a callback 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560992">KSBUFFER_ITEM</a>
  
 
  
-
 

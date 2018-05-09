@@ -7,8 +7,8 @@ old-location: display\pfnd3dddi_submitsignalsyncobjectstohwqueuecb.htm
 old-project: display
 ms.assetid: D952A432-7B2C-43AC-9BC4-4335D2F37301
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, display.pfnd3dddi_submitsignalsyncobjectstohwqueuecb
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback, PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, display.pfnd3dddi_submitsignalsyncobjectstohwqueuecb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback
+# PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback function
 
 
 ## -description
 
 
 A callback to submit a signal command to the hardware queue.
-
-
-## -prototype
-
-
-````
-_Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB(
-  _In_ HANDLE                                           hDevice,
-  _In_ D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE *const submitSignalSyncoObjectsToHwQueue
-);
-````
 
 
 ## -parameters

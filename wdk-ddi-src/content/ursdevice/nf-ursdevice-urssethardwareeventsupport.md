@@ -7,7 +7,7 @@ old-location: buses\urssethardwareeventsupport.htm
 old-project: usbref
 ms.assetid: 905BA306-29A5-4AAB-BA30-6B459E0062F6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UrsSetHardwareEventSupport, UrsSetHardwareEventSupport function [Buses], buses.urssethardwareeventsupport, ursdevice/UrsSetHardwareEventSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Urscxstub.dll
 api_name:
 -	UrsSetHardwareEventSupport
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UrsSetHardwareEventSupport function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 Indicates the client driver's support for reporting new hardware events.
 
 
-## -syntax
-
-
-````
-FORCEINLINE void UrsSetHardwareEventSupport(
-  _In_ WDFDEVICE Device,
-  _In_ BOOLEAN   HardwareEventReportingSupported
-);
-````
-
-
 ## -parameters
 
 
@@ -72,14 +61,14 @@ FORCEINLINE void UrsSetHardwareEventSupport(
 
 ### -param Device [in]
 
-A handle to the framework device object that the client driver retrieved in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
+A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
 
 ### -param HardwareEventReportingSupported [in]
 
 A boolean value that indicates support for  reporting hardware events. 
 
-TRUE indicates the client driver will report hardware events by calling <a href="..\ursdevice\nf-ursdevice-ursreporthardwareevent.md">UrsReportHardwareEvent</a>. 
+TRUE indicates the client driver will report hardware events by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt628017">UrsReportHardwareEvent</a>. 
 
 FALSE indicates hardware event reporting is not handled by the client driver.
 
@@ -97,11 +86,11 @@ This function does not return a value.
 
 
 
-Before the client driver can report hardware events, the client driver for the dual-role controller must indicate to the class extension that the driver supports hardware events by calling this method. Typically, the driver calls <b>UrsSetHardwareEventSupport</b> in the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a> callback function. The driver must not call this method after <i>EvtDevicePrepareHardware</i> has returned. Otherwise, the method fails and a break is issued if <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> is enabled.
+Before the client driver can report hardware events, the client driver for the dual-role controller must indicate to the class extension that the driver supports hardware events by calling this method. Typically, the driver calls <b>UrsSetHardwareEventSupport</b> in the driver's <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function. The driver must not call this method after <i>EvtDevicePrepareHardware</i> has returned. Otherwise, the method fails and a break is issued if <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> is enabled.
 
 For certain controllers, the client driver might not support role detection before performing a role switch operation. In that case, the client driver must  set  <i>HardwareEventReportingSupported</i> to FALSE.  The operating system manages the role of the controller.
 
-Otherwise, if the driver supports role detection, it must set  <i>HardwareEventReportingSupported</i> to TRUE.  This indicates to the class extension that the client driver will  handle hardware events, such as ID pin interrupts, and report to the class extension that the role needs to be changed. The driver can report events by calling <a href="..\ursdevice\nf-ursdevice-ursreporthardwareevent.md">UrsReportHardwareEvent</a>.
+Otherwise, if the driver supports role detection, it must set  <i>HardwareEventReportingSupported</i> to TRUE.  This indicates to the class extension that the client driver will  handle hardware events, such as ID pin interrupts, and report to the class extension that the role needs to be changed. The driver can report events by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt628017">UrsReportHardwareEvent</a>.
 
 
 #### Examples
@@ -163,12 +152,11 @@ EvtDevicePrepareHardware (
 
 ## -see-also
 
-<a href="..\ursdevice\nf-ursdevice-ursreporthardwareevent.md">UrsReportHardwareEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt628017">UrsReportHardwareEvent</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmtlock.htm
 old-project: display
 ms.assetid: d64abd43-edf2-465a-8d99-8fdce1fcd25f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTLock, D3DKMTLock function [Display Devices], OpenGL_Functions_ca085861-b8a0-434a-843d-9b8052376df5.xml, d3dkmthk/D3DKMTLock, display.d3dkmtlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTLock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTLock function
@@ -55,26 +56,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTLock</b> function locks an entire allocation or specific pages within an allocation.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTLock(
-  _Inout_ D3DKMT_LOCK *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_lock.md">D3DKMT_LOCK</a> structure that describes parameters for locking an allocation.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548094">D3DKMT_LOCK</a> structure that describes parameters for locking an allocation.
 
 
 ## -returns
@@ -203,12 +199,11 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTLock<
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_lock.md">D3DKMT_LOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548094">D3DKMT_LOCK</a>
  
 
  
-
 

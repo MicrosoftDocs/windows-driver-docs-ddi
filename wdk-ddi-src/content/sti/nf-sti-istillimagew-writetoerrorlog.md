@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.WriteToErrorLog
-title: IStillImageW::WriteToErrorLog method
+title: IStillImageW::WriteToErrorLog
 author: windows-driver-content
 description: The IStillImage::WriteToErrorLog method writes a message to the still image error log.
 old-location: image\istillimage_writetoerrorlog.htm
 old-project: image
 ms.assetid: 24795026-41bc-447e-812f-8fc3a1c573b9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], WriteToErrorLog method, IStillImageW::WriteToErrorLog, IStillImageW::WriteToErrorLogiwiade, WriteToErrorLog method [Imaging Devices], WriteToErrorLog method [Imaging Devices], IStillImageW interface, WriteToErrorLog,IStillImageW.WriteToErrorLog, image.istillimage_writetoerrorlog, sti/IStillImageW::WriteToErrorLog, stifnc_1f27ad38-72b2-4b5f-8bb1-3456bfbd207a.xml
+ms.date: 4/23/2018
+ms.keywords: IStillImageW interface [Imaging Devices],WriteToErrorLog method, IStillImageW.WriteToErrorLog, IStillImageW::WriteToErrorLog, IStillImageW::WriteToErrorLogiwiade, WriteToErrorLog, WriteToErrorLog method [Imaging Devices], WriteToErrorLog method [Imaging Devices],IStillImageW interface, image.istillimage_writetoerrorlog, sti/IStillImageW::WriteToErrorLog, stifnc_1f27ad38-72b2-4b5f-8bb1-3456bfbd207a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.WriteToErrorLog
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::WriteToErrorLog method
+# IStillImageW::WriteToErrorLog
 
 
 ## -description
 
 
 The <b>IStillImage::WriteToErrorLog </b>method writes a message to the still image error log.
-
-
-## -syntax
-
-
-````
-HRESULT WriteToErrorLog(
-       DWORD   dwMessageType,
-  [in] LPCWSTR pszMessage
-);
-````
 
 
 ## -parameters

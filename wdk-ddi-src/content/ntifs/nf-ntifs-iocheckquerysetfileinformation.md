@@ -7,7 +7,7 @@ old-location: ifsk\iocheckquerysetfileinformation.htm
 old-project: ifsk
 ms.assetid: c68cbdb4-bdf8-4c18-8f96-7274021f9ac2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: IoCheckQuerySetFileInformation, IoCheckQuerySetFileInformation function [Installable File System Drivers], ifsk.iocheckquerysetfileinformation, ioref_22478455-1bd1-46cb-8ac2-05e4857c9524.xml, ntifs/IoCheckQuerySetFileInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntifs.h
 api_name:
 -	IoCheckQuerySetFileInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoCheckQuerySetFileInformation function
@@ -49,17 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>IoCheckQuerySetFileInformation</b> routine is reserved for system use. See <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> and <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>.
-
-
-## -syntax
-
-
-````
-  IoCheckQuerySetFileInformation(
-    
-);
-````
+The <b>IoCheckQuerySetFileInformation</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>.
 
 
 ## -parameters

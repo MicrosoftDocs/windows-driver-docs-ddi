@@ -7,8 +7,8 @@ old-location: hid\ioctl_internal_mouse_disconnect.htm
 old-project: hid
 ms.assetid: e62c61e7-ef64-4939-ad24-686d137b6319
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_INTERNAL_MOUSE_DISCONNECT, IOCTL_INTERNAL_MOUSE_DISCONNECT control code [Human Input Devices], hid.ioctl_internal_mouse_disconnect, kbdmou/IOCTL_INTERNAL_MOUSE_DISCONNECT, mfilref_11062207-6bb0-4a84-aaee-c3c086812b90.xml
+ms.date: 4/30/2018
+ms.keywords: IOCTL_INTERNAL_MOUSE_DISCONNECT, IOCTL_INTERNAL_MOUSE_DISCONNECT control, IOCTL_INTERNAL_MOUSE_DISCONNECT control code [Human Input Devices], hid.ioctl_internal_mouse_disconnect, kbdmou/IOCTL_INTERNAL_MOUSE_DISCONNECT, mfilref_11062207-6bb0-4a84-aaee-c3c086812b90.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	kbdmou.h
 api_name:
 -	IOCTL_INTERNAL_MOUSE_DISCONNECT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_MOUSE_DISCONNECT IOCTL
@@ -102,12 +103,11 @@ The <b>Status</b> member is set to STATUS_NOT_IMPLEMENTED.
 
 ## -see-also
 
-<a href="..\kbdmou\ni-kbdmou-ioctl_internal_mouse_connect.md">IOCTL_INTERNAL_MOUSE_CONNECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541294">IOCTL_INTERNAL_MOUSE_CONNECT</a>
  
 
  
-
 

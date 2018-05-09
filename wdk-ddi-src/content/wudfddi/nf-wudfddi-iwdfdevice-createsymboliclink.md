@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateSymbolicLink
-title: IWDFDevice::CreateSymbolicLink method
+title: IWDFDevice::CreateSymbolicLink
 author: windows-driver-content
 description: The CreateSymbolicLink method creates a symbolic link for the device.
 old-location: wdf\iwdfdevice_createsymboliclink.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 15984217-e789-457c-b20f-c3d51741f5d3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreateSymbolicLink method, CreateSymbolicLink method, IWDFDevice interface, CreateSymbolicLink,IWDFDevice.CreateSymbolicLink, IWDFDevice, IWDFDevice interface, CreateSymbolicLink method, IWDFDevice::CreateSymbolicLink, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, umdf.iwdfdevice_createsymboliclink, wdf.iwdfdevice_createsymboliclink, wudfddi/IWDFDevice::CreateSymbolicLink
+ms.keywords: CreateSymbolicLink, CreateSymbolicLink method, CreateSymbolicLink method,IWDFDevice interface, IWDFDevice interface,CreateSymbolicLink method, IWDFDevice.CreateSymbolicLink, IWDFDevice::CreateSymbolicLink, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, umdf.iwdfdevice_createsymboliclink, wdf.iwdfdevice_createsymboliclink, wudfddi/IWDFDevice::CreateSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice.CreateSymbolicLink
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::CreateSymbolicLink method
+# IWDFDevice::CreateSymbolicLink
 
 
 ## -description
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateSymbolicLink</b> method creates a symbolic link for the device.
-
-
-## -syntax
-
-
-````
-HRESULT CreateSymbolicLink(
-  [in] PCWSTR pSymbolicLink
-);
-````
 
 
 ## -parameters
@@ -98,16 +88,15 @@ For an example usage of this method, see the <a href="http://go.microsoft.com/fw
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556932">IWDFDevice2::CreateSymbolicLinkWithReferenceString</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
  
 
  
-
 

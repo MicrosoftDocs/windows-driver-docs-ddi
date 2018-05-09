@@ -7,7 +7,7 @@ old-location: stream\lamp_intensity_color.htm
 old-project: stream
 ms.assetid: F87AFCA5-651C-4782-9F6F-C0AFB09010CB
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: LAMP_INTENSITY_COLOR, LAMP_INTENSITY_COLOR structure [Streaming Media Devices], lamp/LAMP_INTENSITY_COLOR, stream.lamp_intensity_color
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	lamp.h
 api_name:
 -	LAMP_INTENSITY_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_INTENSITY_COLOR
 ---
@@ -49,19 +50,7 @@ req.typenames: LAMP_INTENSITY_COLOR
 ## -description
 
 
-This structure is the I/O parameter type of <a href="..\lamp\ni-lamp-ioctl_lamp_get_intensity_color.md">IOCTL_LAMP_GET_INTENSITY_COLOR</a> and <a href="..\lamp\ni-lamp-ioctl_lamp_set_intensity_color.md">IOCTL_LAMP_SET_INTENSITY_COLOR</a>.
-
-
-## -syntax
-
-
-````
-typedef struct LAMP_INTENSITY_COLOR {
-  BYTE Red;
-  BYTE Green;
-  BYTE Blue;
-} LAMP_INTENSITY_COLOR;
-````
+This structure is the I/O parameter type of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925069">IOCTL_LAMP_GET_INTENSITY_COLOR</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn925076">IOCTL_LAMP_SET_INTENSITY_COLOR</a>.
 
 
 ## -struct-fields

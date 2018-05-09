@@ -7,7 +7,7 @@ old-location: print\widthrun.htm
 old-project: print
 ms.assetid: 18cc608e-b94d-4588-98e9-c22a7949a3b6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PWIDTHRUN, PWIDTHRUN, PWIDTHRUN structure pointer [Print Devices], WIDTHRUN, WIDTHRUN structure [Print Devices], _WIDTHRUN, print.widthrun, print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml, prntfont/PWIDTHRUN, prntfont/WIDTHRUN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	prntfont.h
 api_name:
 -	WIDTHRUN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIDTHRUN, *PWIDTHRUN
-req.product: Windows 10 or later.
 ---
 
 # _WIDTHRUN structure
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WIDTHRUN structure is used to define the contents of <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv font metrics files</a> (.ufm files).
-
-
-## -syntax
-
-
-````
-typedef struct _WIDTHRUN {
-  WORD  wStartGlyph;
-  WORD  wGlyphCount;
-  DWORD loCharWidthOffset;
-} WIDTHRUN, *PWIDTHRUN;
-````
 
 
 ## -struct-fields
@@ -82,14 +70,14 @@ Specifies the number of glyphs represented by the width run.
 
 ### -field loCharWidthOffset
 
-Specifies the offset from the beginning of a <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a> structure to the location containing the width of the set of glyphs contained in the width run.
+Specifies the offset from the beginning of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563774">WIDTHTABLE</a> structure to the location containing the width of the set of glyphs contained in the width run.
 
 
 ## -remarks
 
 
 
-A width run describes the widths of a set of adjacent glyphs. Sets of width runs are described by an array of WIDTHRUN elements. The array is contained in a <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a> structure.
+A width run describes the widths of a set of adjacent glyphs. Sets of width runs are described by an array of WIDTHRUN elements. The array is contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563774">WIDTHTABLE</a> structure.
 
 Index values contained in <b>dwStartGlyph</b> are integers, starting with 1, with each glyph in the font having an index. That is, the first glyph in the font is assigned an index value of 1, the next glyph's index is 2, and so on.
 
@@ -126,16 +114,15 @@ For East Asian device fonts, the <b>fwdAveCharWidth</b> and <b>fwdMaxCharInc</b>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
 
 
 
-<a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563774">WIDTHTABLE</a>
  
 
  
-
 

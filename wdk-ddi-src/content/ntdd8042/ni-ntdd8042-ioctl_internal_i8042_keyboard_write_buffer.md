@@ -7,8 +7,8 @@ old-location: hid\ioctl_internal_i8042_keyboard_write_buffer.htm
 old-project: hid
 ms.assetid: 583263fc-8b95-47d9-9f20-306b2200b573
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER, IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER control code [Human Input Devices], hid.ioctl_internal_i8042_keyboard_write_buffer, i8042ref_a981431f-38cd-4cc4-899e-a79799da0e01.xml, ntdd8042/IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER
+ms.date: 4/30/2018
+ms.keywords: IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER, IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER control, IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER control code [Human Input Devices], hid.ioctl_internal_i8042_keyboard_write_buffer, i8042ref_a981431f-38cd-4cc4-899e-a79799da0e01.xml, ntdd8042/IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MOUSE_STATE, *PMOUSE_STATE
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_I8042_KEYBOARD_WRITE_BUFFER IOCTL
@@ -129,16 +130,15 @@ The request completed successfully.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542067">IOCTL_KEYBOARD_SET_INDICATORS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542076">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
-
-
-
  
 
  
-
 

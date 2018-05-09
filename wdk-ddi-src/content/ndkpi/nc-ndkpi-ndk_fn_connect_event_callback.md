@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_connect_event_callback.htm
 old-project: netvista
 ms.assetid: D7009707-7139-4572-A620-C8ACFA6B5665
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_CONNECT_EVENT_CALLBACK, NdkConnectEventCallback, NdkConnectEventCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectEventCallback, netvista.ndk_fn_connect_event_callback
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CONNECT_EVENT_CALLBACK, NDK_FN_CONNECT_EVENT_CALLBACK callback, NdkConnectEventCallback, NdkConnectEventCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectEventCallback, netvista.ndk_fn_connect_event_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkConnectEventCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CONNECT_EVENT_CALLBACK callback
+# NDK_FN_CONNECT_EVENT_CALLBACK callback function
 
 
 ## -description
@@ -53,20 +54,6 @@ The <i>NdkConnectEventCallback</i> (<i>NDK_FN_CONNECT_EVENT_CALLBACK</i>) functi
 
 
 
-## -prototype
-
-
-````
-NDK_FN_CONNECT_EVENT_CALLBACK NdkConnectEventCallback;
-
-VOID NdkConnectEventCallback(
-  _In_opt_ PVOID         ConnectEventContext,
-  _In_     NDK_CONNECTOR *pNdkConnector
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -74,12 +61,12 @@ VOID NdkConnectEventCallback(
 
 ### -param ConnectEventContext [in, optional]
 
-A context area that was specified in the <i>ConnectEventContext</i> parameter of the <i>NdkCreateListener</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>) function when the listener object was created.
+A context area that was specified in the <i>ConnectEventContext</i> parameter of the <i>NdkCreateListener</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439874">NDK_FN_CREATE_LISTENER</a>) function when the listener object was created.
 
 
 ### -param *pNdkConnector [in]
 
-A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>) that represents a new incoming connection request.
+A pointer to an NDK connector object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>) that represents a new incoming connection request.
 
 
 ## -returns
@@ -97,23 +84,22 @@ None
 
 <div class="alert"><b>Note</b>  This function is implemented by the NDK consumer and passed to the NDK provider.</div>
 <div> </div>
-The NDK consumer specified the <i>NdkConnectEventCallback</i> function  in the <i>ConnectEventContext</i> parameter of the <i>NdkCreateListener</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>) function when the listener object was created.
+The NDK consumer specified the <i>NdkConnectEventCallback</i> function  in the <i>ConnectEventContext</i> parameter of the <i>NdkCreateListener</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439874">NDK_FN_CREATE_LISTENER</a>) function when the listener object was created.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_listener.md">NDK_FN_CREATE_LISTENER</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439874">NDK_FN_CREATE_LISTENER</a>
  
 
  
-
 

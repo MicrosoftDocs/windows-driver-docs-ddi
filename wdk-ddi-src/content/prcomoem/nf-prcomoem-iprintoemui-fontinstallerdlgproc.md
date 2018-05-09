@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.FontInstallerDlgProc
-title: IPrintOemUI::FontInstallerDlgProc method
+title: IPrintOemUI::FontInstallerDlgProc
 author: windows-driver-content
 description: A user interface plug-in's IPrintOemUI::FontInstallerDlgProc method replaces the Unidrv font installer's user interface.
 old-location: print\iprintoemui_fontinstallerdlgproc.htm
 old-project: print
 ms.assetid: 6f63d48d-7c2f-4531-b6db-fd4fdcfbce27
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: FontInstallerDlgProc method [Print Devices], FontInstallerDlgProc method [Print Devices], IPrintOemUI interface, FontInstallerDlgProc,IPrintOemUI.FontInstallerDlgProc, IPrintOemUI, IPrintOemUI interface [Print Devices], FontInstallerDlgProc method, IPrintOemUI::FontInstallerDlgProc, prcomoem/IPrintOemUI::FontInstallerDlgProc, print.iprintoemui_fontinstallerdlgproc, print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml
+ms.date: 4/20/2018
+ms.keywords: FontInstallerDlgProc, FontInstallerDlgProc method [Print Devices], FontInstallerDlgProc method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],FontInstallerDlgProc method, IPrintOemUI.FontInstallerDlgProc, IPrintOemUI::FontInstallerDlgProc, prcomoem/IPrintOemUI::FontInstallerDlgProc, print.iprintoemui_fontinstallerdlgproc, print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUI.FontInstallerDlgProc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI::FontInstallerDlgProc method
+# IPrintOemUI::FontInstallerDlgProc
 
 
 ## -description
 
 
 A user interface plug-in's <code>IPrintOemUI::FontInstallerDlgProc</code> method replaces the Unidrv font installer's user interface.
-
-
-## -syntax
-
-
-````
-HRESULT FontInstallerDlgProc(
-   HWND   hWnd,
-   UINT   usMsg,
-   WPARAM wParam,
-   LPARAM lParam
-);
-````
 
 
 ## -parameters
@@ -149,23 +136,22 @@ A user interface plug-in can implement the <code>IPrintOemUI::FontInstallerDlgPr
 
 The <code>IPrintOemUI::FontInstallerDlgProc</code> method is used by Unidrv as a dialog box procedure, and its address is passed to <b>DialogBoxParam</b> (described in the Microsoft Windows SDK documentation) when a user invokes the font installer from Unidrv's user interface.
 
-If the message received for <i>usMsg</i> is WM_INIT or WM_USER+WM_FI_NAME, <i>lParam</i> points to an <a href="..\prntfont\ns-prntfont-_oemfontinstparam.md">OEMFONTINSTPARAM</a> structure.
+If the message received for <i>usMsg</i> is WM_INIT or WM_USER+WM_FI_NAME, <i>lParam</i> points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557731">OEMFONTINSTPARAM</a> structure.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/0ef635dd-9598-4356-94fc-7e5237df9bd9">IPrintOemUI</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554188">IPrintOemUI::UpdateExternalFonts</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
-
-
-
  
 
  
-
 

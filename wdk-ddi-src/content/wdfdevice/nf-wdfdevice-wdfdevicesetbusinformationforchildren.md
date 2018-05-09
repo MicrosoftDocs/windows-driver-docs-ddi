@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceSetBusInformationForChildren
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceSetBusInformationForChildren function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceSetBusInformationForChildren</b> method sets information about a bus that a bus driver supports. This information is available to the bus's child devices.
-
-
-## -syntax
-
-
-````
-VOID WdfDeviceSetBusInformationForChildren(
-  _In_ WDFDEVICE            Device,
-  _In_ PPNP_BUS_INFORMATION BusInformation
-);
-````
 
 
 ## -parameters
@@ -79,7 +68,7 @@ A handle to a framework device object.
 
 ### -param BusInformation [in]
 
-A pointer to a caller-allocated <a href="..\wdm\ns-wdm-_pnp_bus_information.md">PNP_BUS_INFORMATION</a> structure that describes the bus.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff559608">PNP_BUS_INFORMATION</a> structure that describes the bus.
 
 
 ## -returns
@@ -97,7 +86,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-Child devices can obtain the information that <b>WdfDeviceSetBusInformationForChildren</b> supplies by calling <a href="..\wdffdo\nf-wdffdo-wdffdoinitqueryproperty.md">WdfFdoInitQueryProperty</a> or <a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryproperty.md">WdfDeviceQueryProperty</a>.
+Child devices can obtain the information that <b>WdfDeviceSetBusInformationForChildren</b> supplies by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547254">WdfFdoInitQueryProperty</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546820">WdfDeviceQueryProperty</a>.
 
 
 #### Examples
@@ -128,12 +117,11 @@ WdfDeviceSetBusInformationForChildren(
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_pnp_bus_information.md">PNP_BUS_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559608">PNP_BUS_INFORMATION</a>
  
 
  
-
 

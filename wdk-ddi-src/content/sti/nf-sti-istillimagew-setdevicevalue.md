@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.SetDeviceValue
-title: IStillImageW::SetDeviceValue method
+title: IStillImageW::SetDeviceValue
 author: windows-driver-content
 description: The IStillImage::SetDeviceValue method sets registry information for a specified still image device.
 old-location: image\istillimage_setdevicevalue.htm
 old-project: image
 ms.assetid: e2ea9c59-cc63-4ced-a225-e0c9667dd574
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStillImageW, IStillImageW interface [Imaging Devices], SetDeviceValue method, IStillImageW::SetDeviceValue, SetDeviceValue method [Imaging Devices], SetDeviceValue method [Imaging Devices], IStillImageW interface, SetDeviceValue,IStillImageW.SetDeviceValue, image.istillimage_setdevicevalue, sti/IStillImageW::SetDeviceValue, stifnc_74822300-cad0-43db-80b9-d3f868afcd19.xml
+ms.date: 4/23/2018
+ms.keywords: IStillImageW interface [Imaging Devices],SetDeviceValue method, IStillImageW.SetDeviceValue, IStillImageW::SetDeviceValue, SetDeviceValue, SetDeviceValue method [Imaging Devices], SetDeviceValue method [Imaging Devices],IStillImageW interface, image.istillimage_setdevicevalue, sti/IStillImageW::SetDeviceValue, stifnc_74822300-cad0-43db-80b9-d3f868afcd19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.SetDeviceValue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::SetDeviceValue method
+# IStillImageW::SetDeviceValue
 
 
 ## -description
 
 
 The <b>IStillImage::SetDeviceValue</b> method sets registry information for a specified still image device.
-
-
-## -syntax
-
-
-````
-HRESULT SetDeviceValue(
-  [in] LPWSTR pwszDeviceName,
-  [in] LPWSTR pValueName,
-       DWORD  Type,
-  [in] LPBYTE pData,
-       DWORD  cbData
-);
-````
 
 
 ## -parameters
@@ -119,7 +105,6 @@ Before calling <b>IStillImage::SetDeviceValue</b>, clients of the <b>IStillImage
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
 
 
 
@@ -127,8 +112,8 @@ Before calling <b>IStillImage::SetDeviceValue</b>, clients of the <b>IStillImage
 
 
 
+<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
  
 
  
-
 

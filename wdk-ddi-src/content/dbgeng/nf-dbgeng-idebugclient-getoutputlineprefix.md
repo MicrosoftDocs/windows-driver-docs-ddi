@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetOutputLinePrefix
-title: IDebugClient::GetOutputLinePrefix method
+title: IDebugClient::GetOutputLinePrefix
 author: windows-driver-content
 description: Gets the prefix used for multiple lines of output.
 old-location: debugger\idebugclient_getoutputlineprefix.htm
 old-project: debugger
 ms.assetid: FE836B10-1782-4B0E-9D4B-2740FE94B6E1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetOutputLinePrefix method [Windows Debugging], GetOutputLinePrefix method [Windows Debugging], IDebugClient interface, GetOutputLinePrefix,IDebugClient.GetOutputLinePrefix, IDebugClient, IDebugClient interface [Windows Debugging], GetOutputLinePrefix method, IDebugClient::GetOutputLinePrefix, dbgeng/IDebugClient::GetOutputLinePrefix, debugger.idebugclient_getoutputlineprefix
+ms.date: 4/24/2018
+ms.keywords: GetOutputLinePrefix, GetOutputLinePrefix method [Windows Debugging], GetOutputLinePrefix method [Windows Debugging],IDebugClient interface, IDebugClient interface [Windows Debugging],GetOutputLinePrefix method, IDebugClient.GetOutputLinePrefix, IDebugClient::GetOutputLinePrefix, dbgeng/IDebugClient::GetOutputLinePrefix, debugger.idebugclient_getoutputlineprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient.GetOutputLinePrefix
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient::GetOutputLinePrefix method
+# IDebugClient::GetOutputLinePrefix
 
 
 ## -description
 
 
     Gets the prefix used for multiple lines of output.
-
-
-## -syntax
-
-
-````
-HRESULT GetOutputLinePrefix(
-  [out]           writes_opt_(BufferSize) PSTR Buffer,
-  [in]            ULONG                        BufferSize,
-  [out, optional] PULONG                       PrefixSize
-);
-````
 
 
 ## -parameters
@@ -128,12 +117,11 @@ Some of the engine commands produce
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
  
 
  
-
 

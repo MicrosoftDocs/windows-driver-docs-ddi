@@ -7,7 +7,7 @@ old-location: netvista\ndiscompletenetpnpevent.htm
 old-project: netvista
 ms.assetid: 2a59e6a1-d018-4b95-8e50-8351a3b69d86
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCompleteNetPnPEvent, NdisCompleteNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteNetPnPEvent, netvista.ndiscompletenetpnpevent, protocol_ndis_functions_ref_4f57d0f9-c9bf-4451-a612-caa665d0b6be.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisCompleteNetPnPEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCompleteNetPnPEvent function
@@ -53,20 +54,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 Protocol drivers call the 
   <b>NdisCompleteNetPnPEvent</b> function to complete a response to a Plug and Play or Power Management event
   for which the caller's 
-  <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a> function returned
+  <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> function returned
   NDIS_STATUS_PENDING.
-
-
-## -syntax
-
-
-````
-VOID NdisCompleteNetPnPEvent(
-  _In_ NDIS_HANDLE                 NdisBindingHandle,
-  _In_ PNET_PNP_EVENT_NOTIFICATION NetPnPEvent,
-  _In_ NDIS_STATUS                 Status
-);
-````
 
 
 ## -parameters
@@ -78,7 +67,7 @@ VOID NdisCompleteNetPnPEvent(
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function. The handle
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function. The handle
      identifies the binding between the caller and the underlying miniport adapter.
 
 
@@ -92,16 +81,16 @@ TBD
 The protocol driver's response to the pending Plug and Play or Power Management event
      notification. To succeed such an event, specify NDIS_STATUS_SUCCESS. For information about other status
      values, see the return values of the 
-     <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">
+     <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">
      ProtocolNetPnPEvent</a> function.
 
 
 #### - NetPnPEvent [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">
+     <a href="https://msdn.microsoft.com/58d3baf3-a1fa-42ae-b795-2774a148aeda">
      NET_PNP_EVENT_NOTIFICATION</a> structure that NDIS passed to the caller's 
-     <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">
+     <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">
      ProtocolNetPnPEvent</a> function.
 
 
@@ -119,7 +108,7 @@ None
 
 
 When a protocol driver returns NDIS_STATUS_PENDING from its 
-    <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a> function, it
+    <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> function, it
     must eventually call 
     <b>NdisCompleteNetPnPEvent</b> to indicate its response to the given Plug and Play or Power Management
     notification.
@@ -129,20 +118,19 @@ When a protocol driver returns NDIS_STATUS_PENDING from its
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568752">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\kspinpropertyhandler.htm
 old-project: stream
 ms.assetid: b721b79b-93f3-4dc8-853d-543222464341
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinPropertyHandler, KsPinPropertyHandler function [Streaming Media Devices], ks/KsPinPropertyHandler, ksfunc_4ebda111-4b9a-4e8e-b050-af336121bcf0.xml, stream.kspinpropertyhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsPinPropertyHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,20 +52,6 @@ req.typenames:
 
 
 The <b>KsPinPropertyHandler</b> function performs standard handling of the static members of<b> the </b><a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a> property set. This handling does not include <a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsPinPropertyHandler(
-  _In_          PIRP             Irp,
-  _In_          PKSPROPERTY      Property,
-  _Inout_       PVOID            Data,
-  _In_          ULONG            DescriptorsCount,
-  _In_    const KSPIN_DESCRIPTOR *Descriptor
-);
-````
 
 
 ## -parameters
@@ -84,7 +71,7 @@ Specifies the specific property information.
 
 ### -param Data [in, out]
 
-Specifies the data parameter mapped to a system address. This is the same parameter passed to a property handler through a <a href="..\ks\nf-ks-kspropertyhandler.md">KsPropertyHandler</a> callback.
+Specifies the data parameter mapped to a system address. This is the same parameter passed to a property handler through a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a> callback.
 
 
 ### -param DescriptorsCount [in]

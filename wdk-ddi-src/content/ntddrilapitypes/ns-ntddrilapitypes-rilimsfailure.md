@@ -7,7 +7,7 @@ old-location: netvista\rilimsfailure.htm
 old-project: netvista
 ms.assetid: 8be10470-3761-4120-8987-00d6fcc9a989
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILIMSFAILURE, RILIMSFAILURE, RILIMSFAILURE structure [Network Drivers Starting with Windows Vista], netvista.rilimsfailure, ntddrilapitypes/RILIMSFAILURE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILIMSFAILURE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILIMSFAILURE, *LPRILIMSFAILURE
 ---
@@ -50,22 +51,6 @@ req.typenames: RILIMSFAILURE, *LPRILIMSFAILURE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILIMSFAILURE {
-  DWORD                     cbSize;
-  DWORD                     dwParams;
-  DWORD                     dwExecutor;
-  RILIMSFAILUREMESSAGETYPE  dwMessageType;
-  DWORD                     dwMessageSubType;
-  DWORD                     dwErrorCode;
-  WCHAR [256]               wszErrorString;
-} RILIMSFAILURE, RILIMSFAILURE;
-````
 
 
 ## -struct-fields

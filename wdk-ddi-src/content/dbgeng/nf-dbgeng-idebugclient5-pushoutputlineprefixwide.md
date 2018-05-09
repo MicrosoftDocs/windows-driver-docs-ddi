@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.PushOutputLinePrefixWide
-title: IDebugClient5::PushOutputLinePrefixWide method
+title: IDebugClient5::PushOutputLinePrefixWide
 author: windows-driver-content
 description: Saves a wide string output line prefix.
 old-location: debugger\idebugclient5_pushoutputlineprefixwide.htm
 old-project: debugger
 ms.assetid: B3D4AE97-9CDB-425D-A04B-E164852FDF19
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], PushOutputLinePrefixWide method, IDebugClient5::PushOutputLinePrefixWide, PushOutputLinePrefixWide method [Windows Debugging], PushOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, PushOutputLinePrefixWide,IDebugClient5.PushOutputLinePrefixWide, dbgeng/IDebugClient5::PushOutputLinePrefixWide, debugger.idebugclient5_pushoutputlineprefixwide
+ms.date: 4/24/2018
+ms.keywords: IDebugClient5 interface [Windows Debugging],PushOutputLinePrefixWide method, IDebugClient5.PushOutputLinePrefixWide, IDebugClient5::PushOutputLinePrefixWide, PushOutputLinePrefixWide, PushOutputLinePrefixWide method [Windows Debugging], PushOutputLinePrefixWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::PushOutputLinePrefixWide, debugger.idebugclient5_pushoutputlineprefixwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient5.PushOutputLinePrefixWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::PushOutputLinePrefixWide method
+# IDebugClient5::PushOutputLinePrefixWide
 
 
 ## -description
 
 
     Saves a wide string output line prefix.
-
-
-## -syntax
-
-
-````
-HRESULT PushOutputLinePrefixWide(
-  [in, optional] PCWSTR   NewPrefix,
-  [out]          PULONG64 Handle
-);
-````
 
 
 ## -parameters
@@ -89,12 +79,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

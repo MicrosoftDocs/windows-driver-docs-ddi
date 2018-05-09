@@ -7,7 +7,7 @@ old-location: ifsk\kereadstatequeue.htm
 old-project: ifsk
 ms.assetid: 02bcc901-91f4-40fc-ab4b-de958e00f862
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: KeReadStateQueue, KeReadStateQueue function [Installable File System Drivers], ifsk.kereadstatequeue, keref_ae112949-4020-4501-8403-da1075d854c6.xml, ntifs/KeReadStateQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntifs.h
 api_name:
 -	KeReadStateQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # KeReadStateQueue function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>KeReadStateQueue</b> routine is reserved for system use. 
-
-
-## -syntax
-
-
-````
-  KeReadStateQueue(
-    
-);
-````
 
 
 ## -parameters

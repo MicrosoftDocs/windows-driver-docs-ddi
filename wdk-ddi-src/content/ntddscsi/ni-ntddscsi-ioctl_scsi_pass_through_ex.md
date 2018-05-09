@@ -7,8 +7,8 @@ old-location: storage\ioctl_scsi_pass_through_ex.htm
 old-project: storage
 ms.assetid: BDF4375D-660D-4AF0-A692-16EEA59954B3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_SCSI_PASS_THROUGH_EX, IOCTL_SCSI_PASS_THROUGH_EX control code [Storage Devices], ntddscsi/IOCTL_SCSI_PASS_THROUGH_EX, storage.ioctl_scsi_pass_through_ex
+ms.date: 3/29/2018
+ms.keywords: IOCTL_SCSI_PASS_THROUGH_EX, IOCTL_SCSI_PASS_THROUGH_EX control, IOCTL_SCSI_PASS_THROUGH_EX control code [Storage Devices], ntddscsi/IOCTL_SCSI_PASS_THROUGH_EX, storage.ioctl_scsi_pass_through_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddscsi.h
 api_name:
 -	IOCTL_SCSI_PASS_THROUGH_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
+req.typenames: 
 ---
 
 # IOCTL_SCSI_PASS_THROUGH_EX IOCTL
@@ -63,7 +64,7 @@ If a class driver for the target type of device exists, the request must be sent
 
 </li>
 <li>
-This request cannot be used if the CDB might require the underlying miniport driver to access memory directly. If the caller's CDB might require direct access to memory, use <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a> instead. 
+This request cannot be used if the CDB might require the underlying miniport driver to access memory directly. If the caller's CDB might require direct access to memory, use <a href="https://msdn.microsoft.com/library/windows/hardware/jj602800">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a> instead. 
 
 </li>
 <li>
@@ -76,7 +77,7 @@ Applications do not require administrative privileges to send a pass-through req
 </li>
 </ul>The calling application creates the SCSI command descriptor block, which can include a request for request-sense data if a CHECK CONDITION occurs. 
 
-<b>IOCTL_SCSI_PASS_THROUGH_EX</b> is a buffered device control request. To bypass buffering in system memory, callers should use <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_direct.md">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>. When handling an <b>IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</b> request, the system locks down the buffer in user memory and the device accesses this memory directly. 
+<b>IOCTL_SCSI_PASS_THROUGH_EX</b> is a buffered device control request. To bypass buffering in system memory, callers should use <a href="https://msdn.microsoft.com/library/windows/hardware/jj602800">IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</a>. When handling an <b>IOCTL_SCSI_PASS_THROUGH_DIRECT_EX</b> request, the system locks down the buffer in user memory and the device accesses this memory directly. 
 
 This request is typically used for transferring small amounts of data (&lt;16K).
 
@@ -92,23 +93,23 @@ Storage class drivers set the minor IRP number to IRP_MN_SCSI_CLASS to indicate 
 
 ### -input-buffer
 
-This structure includes a SCSI CDB, which must be initialized by the caller except for the path, target ID, and logical unit number (LUN), which are filled in by the port driver. For a data-out command, the data to be transferred is included in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> at <b>DataInBufferOffset</b> in the <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_ex.md">SCSI_PASS_THROUGH_EX</a> structure. However, the caller must allocate additional storage, immediately following <b>SCSI_PASS_THROUGH_EX</b>, if the caller asks for request-sense data.
+This structure includes a SCSI CDB, which must be initialized by the caller except for the path, target ID, and logical unit number (LUN), which are filled in by the port driver. For a data-out command, the data to be transferred is included in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> at <b>DataInBufferOffset</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> structure. However, the caller must allocate additional storage, immediately following <b>SCSI_PASS_THROUGH_EX</b>, if the caller asks for request-sense data.
 
 
 ### -input-buffer-length
 
 <i>
-       Parameters.DeviceIoControl.InputBufferLength</i> indicates the size, in bytes, of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH_EX)). The size of the <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_ex.md">SCSI_PASS_THROUGH_EX</a> structure varies, depending on the value specified in <b>DataInTransferLength</b> .
+       Parameters.DeviceIoControl.InputBufferLength</i> indicates the size, in bytes, of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH_EX)). The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> structure varies, depending on the value specified in <b>DataInTransferLength</b> .
 
 
 ### -output-buffer
 
-The port driver returns any request-sense data and any data transferred from the device to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_ex.md">SCSI_PASS_THROUGH_EX</a> structure are updated to indicate the amount of data transferred.
+The port driver returns any request-sense data and any data transferred from the device to the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> structure are updated to indicate the amount of data transferred.
 
 
 ### -output-buffer-length
 
-The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_ex.md">SCSI_PASS_THROUGH_EX</a> structure are updated to indicate the amount of data transferred.
+The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> structure are updated to indicate the amount of data transferred.
 
 
 ### -in-out-buffer
@@ -131,26 +132,25 @@ The <b>SenseInfoLength</b> and <b>DataOutTransferLength</b> in the <a href="..\n
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_ex.md">SCSI_PASS_THROUGH_EX</a> is improperly set. 
+The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a> is improperly set. 
 
 
 ## -remarks
 
 
 
-In order to issue an <b>IOCTL_SCSI_PASS_THROUGH_EX</b> request, the underlying storage device must support extended SRBs. This means that the supported SRB type is <b>SRB_TYPE_STORAGE_REQUEST_BLOCK</b>. An application can query for SRB support with the <b>IOCTL_STORAGE_QUERY_PROPERTY</b> request with a query type of <b>PropertyStandardQuery</b> and a property type of <b>StorageDeviceProperty</b>. The <b>SrbType</b> member returned in the <a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTIOR</a> structure will indicate either <b>SRB_TYPE_SCSI_REQUEST_BLOCK</b> or <b>SRB_TYPE_STORAGE_REQUEST_BLOCK</b>.
+In order to issue an <b>IOCTL_SCSI_PASS_THROUGH_EX</b> request, the underlying storage device must support extended SRBs. This means that the supported SRB type is <b>SRB_TYPE_STORAGE_REQUEST_BLOCK</b>. An application can query for SRB support with the <b>IOCTL_STORAGE_QUERY_PROPERTY</b> request with a query type of <b>PropertyStandardQuery</b> and a property type of <b>StorageDeviceProperty</b>. The <b>SrbType</b> member returned in the <a href="https://msdn.microsoft.com/83ef2a1a-f95e-4b05-8911-e5e900192630">STORAGE_ADAPTER_DESCRIPTIOR</a> structure will indicate either <b>SRB_TYPE_SCSI_REQUEST_BLOCK</b> or <b>SRB_TYPE_STORAGE_REQUEST_BLOCK</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_ex.md">SCSI_PASS_THROUGH_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553715">SCSI_PASS_THROUGH_EX</a>
  
 
  
-
 

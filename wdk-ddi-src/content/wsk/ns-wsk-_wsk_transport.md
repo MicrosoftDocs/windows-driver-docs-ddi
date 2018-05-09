@@ -7,7 +7,7 @@ old-location: netvista\wsk_transport.htm
 old-project: netvista
 ms.assetid: aaf7b5ac-0401-4b6a-a478-3d50559817db
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWSK_TRANSPORT, PWSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], WSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], _WSK_TRANSPORT, netvista.wsk_transport, wsk/PWSK_TRANSPORT, wsk/WSK_TRANSPORT, wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_TRANSPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_TRANSPORT, *PWSK_TRANSPORT
-req.product: Windows 10 or later.
 ---
 
 # _WSK_TRANSPORT structure
@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 The WSK_TRANSPORT structure specifies an available transport that is supported by the WSK
   subsystem.
-
-
-## -syntax
-
-
-````
-typedef struct _WSK_TRANSPORT {
-  USHORT         Version;
-  USHORT         SocketType;
-  ULONG          Protocol;
-  ADDRESS_FAMILY AddressFamily;
-  GUID           ProviderId;
-} WSK_TRANSPORT, *PWSK_TRANSPORT;
-````
 
 
 ## -struct-fields
@@ -132,13 +118,13 @@ The identifier of the transport provider that implements the transport.
 
 
 A WSK application passes a pointer to an array of WSK_TRANSPORT structures to the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a> function when specifying
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a> function when specifying
     the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571195">WSK_TRANSPORT_LIST_QUERY</a> control
     code. The WSK subsystem fills in the array with the list of available transports that can be used for
     socket communication. When a WSK application calls the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a> or 
-    <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a> function to create a new
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a> function to create a new
     socket, it can pass the values contained in the 
     <b>AddressFamily</b>, 
     <b>SocketType</b>, and 
@@ -157,20 +143,19 @@ A single transport provider can support multiple combinations of values for the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>
  
 
  
-
 

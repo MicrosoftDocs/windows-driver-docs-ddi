@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcchvprintfex.htm
 old-project: kernel
 ms.assetid: e28dd810-d86f-479f-b049-63a626ed432f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCchVPrintfEx, RtlStringCchVPrintfExA, RtlStringCchVPrintfExW, RtlStringCchVPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchvprintfex, ntstrsafe/RtlStringCchVPrintfExA, ntstrsafe/RtlStringCchVPrintfExW, safestrings_e2c4ac8d-ac84-4a99-84b3-51b54a508a0a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_name:
 -	RtlStringCchVPrintfExW
 -	RtlStringCchVPrintfExA
 -	RtlStringCchVPrintfExW
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlStringCchVPrintfExW function
@@ -53,22 +54,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 The <b>RtlStringCchVPrintfExW</b> and <b>RtlStringCchVPrintfExA</b> functions create a character-counted text string, with formatting that is based on supplied formatting information.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCchVPrintfExW(
-  _Out_     LPTSTR  pszDest,
-  _In_      size_t  cchDest,
-  _Out_opt_ LPTSTR  *ppszDestEnd,
-  _Out_opt_ size_t  *pcchRemaining,
-  _In_      DWORD   dwFlags,
-  _In_opt_  LPCTSTR pszFormat,
-  _In_      va_list argList
-);
-````
 
 
 ## -parameters
@@ -255,7 +240,7 @@ _<b>vsnwprintf</b>
 </ul>
 All of these functions accept a format string and its arguments, provided as a <b>va_list</b>-typed argument list, and return a formatted string. <b>RtlStringCchVPrintfExW</b> and <b>RtlStringCchVPrintfExA</b> receive the size, in characters, of the destination buffer to ensure that they do not write past the end of the buffer.
 
-<b>RtlStringCchVPrintfExW</b> and <b>RtlStringCchVPrintfExA</b> add to the functionality of <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control.
+<b>RtlStringCchVPrintfExW</b> and <b>RtlStringCchVPrintfExA</b> add to the functionality of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562865">RtlStringCchVPrintf</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control.
 
 For more information about <b>va_list</b>-typed argument lists, see the Microsoft Windows SDK documentation.
 
@@ -309,20 +294,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfexw.md">RtlStringCbVPrintfEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562832">RtlStringCbVPrintfEx</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562864">RtlStringCchPrintfEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562865">RtlStringCchVPrintf</a>
  
 
  
-
 

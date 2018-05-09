@@ -72,7 +72,7 @@ typedef EVT_TXQUEUE_ADVANCE *PFN_TXQUEUE_ADVANCE;
 
 ## -parameters
 
-### -param TxQueue: 
+### -param TxQueue 
 A handle to a net transmit queue.
 
 ## -returns

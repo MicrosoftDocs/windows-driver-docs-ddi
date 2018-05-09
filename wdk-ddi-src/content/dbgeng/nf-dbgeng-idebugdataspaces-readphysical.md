@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces.ReadPhysical
-title: IDebugDataSpaces::ReadPhysical method
+title: IDebugDataSpaces::ReadPhysical
 author: windows-driver-content
 description: The ReadPhysical method reads the target's memory from the specified physical address.
 old-location: debugger\readphysical3.htm
 old-project: debugger
 ms.assetid: 8df51985-9208-46ce-8802-6bc5ec707ab2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugDataSpaces, IDebugDataSpaces interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces2 interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces2::ReadPhysical, IDebugDataSpaces3 interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces3::ReadPhysical, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical method, IDebugDataSpaces4::ReadPhysical, IDebugDataSpaces::ReadPhysical, IDebugDataSpaces_5be1f680-1177-4cdf-a4d8-5868644a51af.xml, ReadPhysical method [Windows Debugging], ReadPhysical method [Windows Debugging], IDebugDataSpaces interface, ReadPhysical method [Windows Debugging], IDebugDataSpaces2 interface, ReadPhysical method [Windows Debugging], IDebugDataSpaces3 interface, ReadPhysical method [Windows Debugging], IDebugDataSpaces4 interface, ReadPhysical,IDebugDataSpaces.ReadPhysical, dbgeng/IDebugDataSpaces2::ReadPhysical, dbgeng/IDebugDataSpaces3::ReadPhysical, dbgeng/IDebugDataSpaces4::ReadPhysical, dbgeng/IDebugDataSpaces::ReadPhysical, debugger.readphysical3
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces.ReadPhysical, IDebugDataSpaces2 interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces2::ReadPhysical, IDebugDataSpaces3 interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces3::ReadPhysical, IDebugDataSpaces4 interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces4::ReadPhysical, IDebugDataSpaces::ReadPhysical, IDebugDataSpaces_5be1f680-1177-4cdf-a4d8-5868644a51af.xml, ReadPhysical, ReadPhysical method [Windows Debugging], ReadPhysical method [Windows Debugging],IDebugDataSpaces interface, ReadPhysical method [Windows Debugging],IDebugDataSpaces2 interface, ReadPhysical method [Windows Debugging],IDebugDataSpaces3 interface, ReadPhysical method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadPhysical, dbgeng/IDebugDataSpaces3::ReadPhysical, dbgeng/IDebugDataSpaces4::ReadPhysical, dbgeng/IDebugDataSpaces::ReadPhysical, debugger.readphysical3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,31 +41,19 @@ api_name:
 -	IDebugDataSpaces2.ReadPhysical
 -	IDebugDataSpaces3.ReadPhysical
 -	IDebugDataSpaces4.ReadPhysical
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces::ReadPhysical method
+# IDebugDataSpaces::ReadPhysical
 
 
 ## -description
 
 
 The <b>ReadPhysical</b> method reads the target's memory from the specified physical address.
-
-
-## -syntax
-
-
-````
-HRESULT ReadPhysical(
-  [in]            ULONG64 Offset,
-  [out]           PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  BytesRead
-);
-````
 
 
 ## -parameters

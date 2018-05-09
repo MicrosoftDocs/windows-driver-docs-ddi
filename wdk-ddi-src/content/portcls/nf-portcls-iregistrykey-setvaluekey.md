@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IRegistryKey.SetValueKey
-title: IRegistryKey::SetValueKey method
+title: IRegistryKey::SetValueKey
 author: windows-driver-content
 description: The SetValueKey method replaces or creates a value entry under the open key.
 old-location: audio\iregistrykey_setvaluekey.htm
 old-project: audio
 ms.assetid: 4f9dd025-b49f-44ab-88c4-38139e6cbee2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], SetValueKey method, IRegistryKey::SetValueKey, SetValueKey method [Audio Devices], SetValueKey method [Audio Devices], IRegistryKey interface, SetValueKey,IRegistryKey.SetValueKey, audio.iregistrykey_setvaluekey, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, portcls/IRegistryKey::SetValueKey
+ms.date: 4/16/2018
+ms.keywords: IRegistryKey interface [Audio Devices],SetValueKey method, IRegistryKey.SetValueKey, IRegistryKey::SetValueKey, SetValueKey, SetValueKey method [Audio Devices], SetValueKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_setvaluekey, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, portcls/IRegistryKey::SetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IRegistryKey.SetValueKey
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IRegistryKey::SetValueKey method
+# IRegistryKey::SetValueKey
 
 
 ## -description
 
 
 The <code>SetValueKey</code> method replaces or creates a value entry under the open key.
-
-
-## -syntax
-
-
-````
-NTSTATUS SetValueKey(
-  [in, optional] PUNICODE_STRING ValueName,
-  [in]           ULONG           Type,
-  [in]           PVOID           Data,
-  [in]           ULONG           DataSize
-);
-````
 
 
 ## -parameters
@@ -72,7 +60,7 @@ NTSTATUS SetValueKey(
 
 ### -param ValueName [in, optional]
 
-Pointer to a string containing the name of the value entry to set. The name string is specified by a structure of type <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>. If the value entry has no name, set this parameter to <b>NULL</b>. If the caller specifies a name string but the given name is not unique relative to its containing key, the method replaces the data for an existing value entry.
+Pointer to a string containing the name of the value entry to set. The name string is specified by a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>. If the value entry has no name, set this parameter to <b>NULL</b>. If the caller specifies a name string but the given name is not unique relative to its containing key, the method replaces the data for an existing value entry.
 
 
 ### -param Type [in]
@@ -103,7 +91,7 @@ REG_RESOURCE_REQUIREMENTS_LIST
 
 REG_FULL_RESOURCE_DESCRIPTOR
 
-These parameter types are explained in <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>.
+These parameter types are explained in <a href="https://msdn.microsoft.com/library/windows/hardware/ff567109">ZwSetValueKey</a>.
 
 
 ### -param Data [in]
@@ -166,20 +154,19 @@ If the given key has no existing value entry with a name matching the given <i>V
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536965">IRegistryKey</a>
 
 
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567109">ZwSetValueKey</a>
  
 
  
-
 

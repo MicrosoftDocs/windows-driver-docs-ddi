@@ -7,7 +7,7 @@ old-location: print\devqueryprint_info.htm
 old-project: print
 ms.assetid: c46193f2-4c69-4aed-a063-2225faba9ee1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO structure [Print Devices], PDEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO structure pointer [Print Devices], _DEVQUERYPRINT_INFO, print.devqueryprint_info, print_interface-graphics_f968cd94-5290-4aab-908b-c0c01d3038a6.xml, winddiui/DEVQUERYPRINT_INFO, winddiui/PDEVQUERYPRINT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winddiui.h
 api_name:
 -	DEVQUERYPRINT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVQUERYPRINT_INFO, *PDEVQUERYPRINT_INFO
-req.product: Windows 10 or later.
 ---
 
 # _DEVQUERYPRINT_INFO structure
@@ -50,23 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The DEVQUERYPRINT_INFO structure is used as an input parameter to a printer interface DLL's <a href="..\winddiui\nf-winddiui-devqueryprintex.md">DevQueryPrintEx</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DEVQUERYPRINT_INFO {
-  WORD    cbSize;
-  WORD    Level;
-  HANDLE  hPrinter;
-  DEVMODE *pDevMode;
-  LPWSTR  pszErrorStr;
-  DWORD   cchErrorStr;
-  DWORD   cchNeeded;
-} DEVQUERYPRINT_INFO, *PDEVQUERYPRINT_INFO;
-````
+The DEVQUERYPRINT_INFO structure is used as an input parameter to a printer interface DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff547576">DevQueryPrintEx</a> function.
 
 
 ## -struct-fields
@@ -111,12 +95,11 @@ Driver-supplied length, in bytes, of the error string supplied in the buffer poi
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-devqueryprintex.md">DevQueryPrintEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547576">DevQueryPrintEx</a>
  
 
  
-
 

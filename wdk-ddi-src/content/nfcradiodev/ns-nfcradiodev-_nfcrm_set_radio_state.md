@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 22FE29AC-790D-40D2-949F-9C132F67AEAB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PNFCRM_SET_RADIO_STATE, NFCRM_SET_RADIO_STATE, NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], P_NFCRM_SET_RADIO_STATE, P_NFCRM_SET_RADIO_STATE structure pointer [Near-Field Proximity Drivers], _NFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], nfcradiodev/NFCRM_SET_RADIO_STATE, nfcradiodev/P_NFCRM_SET_RADIO_STATE, nfpdrivers._nfcrm_set_radio_state_"
+ms.keywords: "*PNFCRM_SET_RADIO_STATE, NFCRM_SET_RADIO_STATE, NFCRM_SET_RADIO_STATE , NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], P_NFCRM_SET_RADIO_STATE, P_NFCRM_SET_RADIO_STATE structure pointer [Near-Field Proximity Drivers], _NFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], nfcradiodev/NFCRM_SET_RADIO_STATE, nfcradiodev/P_NFCRM_SET_RADIO_STATE, nfpdrivers._nfcrm_set_radio_state_"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -38,7 +38,8 @@ api_location:
 -	nfcradiodev.h
 api_name:
 -	_NFCRM_SET_RADIO_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFCRM_SET_RADIO_STATE, *PNFCRM_SET_RADIO_STATE
 ---
@@ -50,17 +51,6 @@ req.typenames: NFCRM_SET_RADIO_STATE, *PNFCRM_SET_RADIO_STATE
 
 
 This structure is used to set the radio state. The driver, in the case of airplane mode, has to persist the radio state and restore it when airplane mode is disabled.
-
-
-## -syntax
-
-
-````
-typedef struct _NFCRM_SET_RADIO_STATE  {
-  BOOLEAN SystemStateUpdate;
-  BOOLEAN MediaRadioOn;
-} _NFCRM_SET_RADIO_STATE, *P_NFCRM_SET_RADIO_STATE;
-````
 
 
 ## -struct-fields

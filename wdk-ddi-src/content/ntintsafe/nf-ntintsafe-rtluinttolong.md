@@ -7,7 +7,7 @@ old-location: kernel\rtluinttolong.htm
 old-project: kernel
 ms.assetid: 9C388D02-003B-4B0E-B2ED-E311AE750601
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUIntToLong, RtlUIntToLong function [Kernel-Mode Driver Architecture], kernel.rtluinttolong, ntintsafe/RtlUIntToLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlUIntToLong
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlUIntToLong function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>UINT</b> to a value of type <b>LONG</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUIntToLong(
-  _In_  UINT uOperand,
-  _Out_ LONG *plResult
-);
-````
 
 
 ## -parameters

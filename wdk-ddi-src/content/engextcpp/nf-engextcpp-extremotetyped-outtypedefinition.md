@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.OutTypeDefinition
-title: ExtRemoteTyped::OutTypeDefinition method
+title: ExtRemoteTyped::OutTypeDefinition
 author: windows-driver-content
 description: The OutTypeDefinition method prints the type of the typed data represented by this object.
 old-location: debugger\extremotetyped_outtypedefinition.htm
 old-project: debugger
 ms.assetid: f7d24a3b-b5a8-4924-85d9-8bf7983b95fa
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, ExtRemoteTyped::OutTypeDefinition, OutTypeDefinition method [Windows Debugging], OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface, OutTypeDefinition,ExtRemoteTyped.OutTypeDefinition, debugger.extremotetyped_outtypedefinition
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped interface [Windows Debugging],OutTypeDefinition method, ExtRemoteTyped.OutTypeDefinition, ExtRemoteTyped::OutTypeDefinition, OutTypeDefinition, OutTypeDefinition method [Windows Debugging], OutTypeDefinition method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outtypedefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.OutTypeDefinition
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTyped::OutTypeDefinition method
+# ExtRemoteTyped::OutTypeDefinition
 
 
 ## -description
 
 
 The <b>OutTypeDefinition</b> method prints the type of the typed data represented by this object.
-
-
-## -syntax
-
-
-````
-void OutTypeDefinition();
-````
 
 
 ## -parameters

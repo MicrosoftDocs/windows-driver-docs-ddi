@@ -7,8 +7,8 @@ old-location: display\setstreamsource.htm
 old-project: display
 ms.assetid: 669dbabc-91fb-40f9-a034-11c3c2e70436
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_SETSTREAMSOURCE, SetStreamSource, SetStreamSource callback function [Display Devices], UserModeDisplayDriver_Functions_c84f438f-92b5-4d01-8d27-275deedc29e4.xml, d3dumddi/SetStreamSource, display.setstreamsource
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETSTREAMSOURCE, PFND3DDDI_SETSTREAMSOURCE callback, SetStreamSource, SetStreamSource callback function [Display Devices], UserModeDisplayDriver_Functions_c84f438f-92b5-4d01-8d27-275deedc29e4.xml, d3dumddi/SetStreamSource, display.setstreamsource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetStreamSource
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETSTREAMSOURCE callback
+# PFND3DDDI_SETSTREAMSOURCE callback function
 
 
 ## -description
 
 
 The <i>SetStreamSource</i> function binds a portion of a vertex stream source to a vertex buffer. 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETSTREAMSOURCE SetStreamSource;
-
-__checkReturn HRESULT APIENTRY SetStreamSource(
-  _In_       HANDLE                    hDevice,
-  _In_ const D3DDDIARG_SETSTREAMSOURCE *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY SetStreamSource(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsource.md">D3DDDIARG_SETSTREAMSOURCE</a> structure that specifies the portion of the vertex stream source to bind.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543352">D3DDDIARG_SETSTREAMSOURCE</a> structure that specifies the portion of the vertex stream source to bind.
 
 
 ## -returns
@@ -110,16 +97,15 @@ The Microsoft Direct3D runtime calls the user-mode display driver's <i>SetStream
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setstreamsource.md">D3DDDIARG_SETSTREAMSOURCE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543352">D3DDDIARG_SETSTREAMSOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

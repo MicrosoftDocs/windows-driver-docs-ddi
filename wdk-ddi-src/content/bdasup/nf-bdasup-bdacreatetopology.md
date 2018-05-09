@@ -7,7 +7,7 @@ old-location: stream\bdacreatetopology.htm
 old-project: stream
 ms.assetid: 855ef77c-2a85-4c8c-b8e3-c4aaa0d2a089
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: BdaCreateTopology, BdaCreateTopology function [Streaming Media Devices], bdaref_bbf47d95-2b93-4e05-a5fa-aa5ed4968b0a.xml, bdasup/BdaCreateTopology, stream.bdacreatetopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Bdasup.dll
 api_name:
 -	BdaCreateTopology
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
+req.typenames: 
 ---
 
 # BdaCreateTopology function
@@ -51,18 +52,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 
 
 The <b>BdaCreateTopology</b> function creates the topology between two pins. 
-
-
-## -syntax
-
-
-````
-NTSTATUS BdaCreateTopology(
-  _In_ PKSFILTER pKSFilter,
-  _In_ ULONG     InputPinId,
-  _In_ ULONG     OutputPinId
-);
-````
 
 
 ## -parameters
@@ -100,14 +89,21 @@ Returns STATUS_SUCCESS or an appropriate error code. Returns <b>NULL</b> if no v
 
 
 
-A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatetopology.md">BdaMethodCreateTopology</a> function when the network provider dynamically creates a topology between filter pins using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a> method set. If a BDA minidriver must create a topology between filter pins without relying on the network provider, the BDA minidriver should call the <b>BdaCreateTopology</b> function directly.
+A BDA minidriver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556471">BdaMethodCreateTopology</a> function when the network provider dynamically creates a topology between filter pins using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a> method set. If a BDA minidriver must create a topology between filter pins without relying on the network provider, the BDA minidriver should call the <b>BdaCreateTopology</b> function directly.
 
 
 
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdamethodcreatetopology.md">BdaMethodCreateTopology</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556471">BdaMethodCreateTopology</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
 
 
 
@@ -115,16 +111,8 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethodcreatetopology.
 
 
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a>
-
-
-
  
 
  
-
 

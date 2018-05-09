@@ -7,7 +7,7 @@ old-location: display\dxgkarg_formathistorybuffer.htm
 old-project: display
 ms.assetid: 40E00234-C22B-4F86-AC5D-197223298FD7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_FORMATHISTORYBUFFER, DXGKARG_FORMATHISTORYBUFFER structure [Display Devices], _DXGKARG_FORMATHISTORYBUFFER, d3dkmddi/DXGKARG_FORMATHISTORYBUFFER, display.dxgkarg_formathistorybuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGKARG_FORMATHISTORYBUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_FORMATHISTORYBUFFER
 ---
@@ -52,22 +53,6 @@ req.typenames: DXGKARG_FORMATHISTORYBUFFER
 Contains info for the display miniport driver to format a history buffer.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGKARG_FORMATHISTORYBUFFER {
-  DXGK_HISTORY_BUFFER            *pHistoryBuffer;
-  UINT32                         HistoryBufferSize;
-  PVOID                          pFormattedBuffer;
-  UINT32                         FormattedBufferSize;
-  UINT32                         NumTimestamps;
-  DXGKARG_HISTORYBUFFERPRECISION Precision;
-  UINT32                         Offset;
-} DXGKARG_FORMATHISTORYBUFFER;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +60,7 @@ typedef struct _DXGKARG_FORMATHISTORYBUFFER {
 
 ### -field pHistoryBuffer
 
-A pointer to the unformatted <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a> history buffer that was populated by the GPU.
+A pointer to the unformatted <a href="https://msdn.microsoft.com/library/windows/hardware/dn439361">DXGK_HISTORY_BUFFER</a> history buffer that was populated by the GPU.
 
 
 ### -field HistoryBufferSize
@@ -97,21 +82,21 @@ The size, in bytes, of the buffer pointed to by <b>pFormattedBuffer</b>. The dri
 
 ### -field NumTimestamps
 
-The number of time stamps. On completion of a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_formathistorybuffer.md">DxgkDdiFormatHistoryBuffer</a> function, the driver should set this value to the number of time stamps that are written to the formatted buffer pointed to by <b>pFormattedBuffer</b>.
+The number of time stamps. On completion of a call to the <a href="https://msdn.microsoft.com/84417629-5C12-4CB5-B147-0A558A4F9090">DxgkDdiFormatHistoryBuffer</a> function, the driver should set this value to the number of time stamps that are written to the formatted buffer pointed to by <b>pFormattedBuffer</b>.
 
 Note that the number of time stamps that will be in the formatted output buffer won't be known until the driver completes the formatted buffer pointed to by <b>pFormattedBuffer</b>.
 
 
 ### -field Precision
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a> structure that the driver fills with info on the precision of the time stamps that will be logged to the Event Tracing for Windows (ETW) facility.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn439359">DXGKARG_HISTORYBUFFERPRECISION</a> structure that the driver fills with info on the precision of the time stamps that will be logged to the Event Tracing for Windows (ETW) facility.
 
-The value of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>.<b>PrecisionBits</b> member cannot be zero.
+The value of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn439359">DXGKARG_HISTORYBUFFERPRECISION</a>.<b>PrecisionBits</b> member cannot be zero.
 
 
 ### -field Offset
 
-On input to a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_formathistorybuffer.md">DxgkDdiFormatHistoryBuffer</a> function, the value of this member is the offset to the first time stamp at which formatting should start. On completion of the function call, the driver should set the value to zero if it successfully formatted all the time stamps in the history buffer.
+On input to a call to the <a href="https://msdn.microsoft.com/84417629-5C12-4CB5-B147-0A558A4F9090">DxgkDdiFormatHistoryBuffer</a> function, the value of this member is the offset to the first time stamp at which formatting should start. On completion of the function call, the driver should set the value to zero if it successfully formatted all the time stamps in the history buffer.
 
 If nonzero, the driver could not format all the time stamps in the history buffer without filling the formatted buffer. In this case, the value represents the offset that should be continued from in the next function call.
 
@@ -127,20 +112,19 @@ The driver should obtain time stamp entries and the number of usable time stamps
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer.md">DXGK_HISTORY_BUFFER</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn439359">DXGKARG_HISTORYBUFFERPRECISION</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_formathistorybuffer.md">DxgkDdiFormatHistoryBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn439361">DXGK_HISTORY_BUFFER</a>
 
 
 
+<a href="https://msdn.microsoft.com/84417629-5C12-4CB5-B147-0A558A4F9090">DxgkDdiFormatHistoryBuffer</a>
  
 
  
-
 

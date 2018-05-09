@@ -7,8 +7,8 @@ old-location: audio\iportwavertstream.htm
 old-project: audio
 ms.assetid: ca5039ff-d34a-4a61-b288-64f0c1f31b91
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], IPortWaveRTStream interface [Audio Devices], described, audio.iportwavertstream, audmp-routines_485f04fa-bdd1-4b92-bb3b-4f8653393811.xml, portcls/IPortWaveRTStream
+ms.date: 4/16/2018
+ms.keywords: IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], IPortWaveRTStream interface [Audio Devices],described, audio.iportwavertstream, audmp-routines_485f04fa-bdd1-4b92-bb3b-4f8653393811.xml, portcls/IPortWaveRTStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortWaveRTStream
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IPortWaveRTStream interface
@@ -55,7 +56,7 @@ An audio stream is associated with each pin instance on a WaveRT filter. The ada
 
 To allocate the memory needed for the cyclic buffer, the miniport driver must call the <a href="https://msdn.microsoft.com/44839b9e-f206-49e6-a9f6-14e79d1e0ae2">AllocatePagesForMdl</a> method or the <a href="https://msdn.microsoft.com/976f7e83-9b2a-4e1b-ab76-76d8e9711bff">AllocateContiguousPagesForMdl</a> method of the <code>IPortWaveRTStream</code> interface. The interface provides additional methods that can map the allocated pages, unmap them, and can also free them.
 
-The methods in the <code>IPortWaveRTStream</code> interface are based on, and are similar to, the MmXxx kernel functions that perform allocation and mapping of memory descriptor lists (<a href="..\wdm\ns-wdm-_mdl.md">MDLs</a>). However, the MmXxx functions cannot be used in place of the <code>IPortWaveRTStream</code> methods. 
+The methods in the <code>IPortWaveRTStream</code> interface are based on, and are similar to, the MmXxx kernel functions that perform allocation and mapping of memory descriptor lists (<a href="https://msdn.microsoft.com/71524333-dd5d-4f0b-8dd3-034ea926bc93">MDLs</a>). However, the MmXxx functions cannot be used in place of the <code>IPortWaveRTStream</code> methods. 
 
 
 ## -inheritance
@@ -78,7 +79,7 @@ The <b>IPortWaveRTStream</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536924">IPortWaveRTStream::AllocateContiguousPagesForMdl</a>
 </td>
 <td align="left" width="63%">
-The <code>AllocateContiguousPagesForMdl</code> method allocates a list of contiguous, nonpaged, physical memory pages and returns a pointer to a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>) that describes them.
+The <code>AllocateContiguousPagesForMdl</code> method allocates a list of contiguous, nonpaged, physical memory pages and returns a pointer to a memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>) that describes them.
 
 </td>
 </tr>
@@ -87,7 +88,7 @@ The <code>AllocateContiguousPagesForMdl</code> method allocates a list of contig
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536925">IPortWaveRTStream::AllocatePagesForMdl</a>
 </td>
 <td align="left" width="63%">
-The <code>AllocatePagesForMdl</code> method allocates a list of nonpaged physical memory pages and returns a pointer to a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>) that describes them.
+The <code>AllocatePagesForMdl</code> method allocates a list of nonpaged physical memory pages and returns a pointer to a memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>) that describes them.
 
 </td>
 </tr>
@@ -96,7 +97,7 @@ The <code>AllocatePagesForMdl</code> method allocates a list of nonpaged physica
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536926">IPortWaveRTStream::FreePagesFromMdl</a>
 </td>
 <td align="left" width="63%">
-The <code>FreePagesFromMdl</code> method frees a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>).
+The <code>FreePagesFromMdl</code> method frees a memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>).
 
 </td>
 </tr>
@@ -105,7 +106,7 @@ The <code>FreePagesFromMdl</code> method frees a memory descriptor list (<a href
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536928">IPortWaveRTStream::GetPhysicalPageAddress</a>
 </td>
 <td align="left" width="63%">
-The <code>GetPhysicalPageAddress</code> method returns the physical address for a page within a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>).
+The <code>GetPhysicalPageAddress</code> method returns the physical address for a page within a memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>).
 
 </td>
 </tr>
@@ -114,7 +115,7 @@ The <code>GetPhysicalPageAddress</code> method returns the physical address for 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536930">IPortWaveRTStream::GetPhysicalPagesCount</a>
 </td>
 <td align="left" width="63%">
-The <code>GetPhysicalPagesCount</code> method returns the count of the physical pages in a memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>).
+The <code>GetPhysicalPagesCount</code> method returns the count of the physical pages in a memory descriptor list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>).
 
 </td>
 </tr>

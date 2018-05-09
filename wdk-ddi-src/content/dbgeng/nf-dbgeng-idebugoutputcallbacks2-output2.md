@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugOutputCallbacks2.Output2
-title: IDebugOutputCallbacks2::Output2 method
+title: IDebugOutputCallbacks2::Output2
 author: windows-driver-content
 description: Returns notifications for the IDebugOutputCallbacks2 interface.
 old-location: debugger\idebugoutputcallbacks2_output2.htm
 old-project: debugger
 ms.assetid: 2FFF9B54-6E77-4D46-B6C0-5BADD208BFCC
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_DML, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_TEXT, IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], Output2 method, IDebugOutputCallbacks2::Output2, Output2 method [Windows Debugging], Output2 method [Windows Debugging], IDebugOutputCallbacks2 interface, Output2,IDebugOutputCallbacks2.Output2, dbgeng/IDebugOutputCallbacks2::Output2, debugger.idebugoutputcallbacks2_output2
+ms.date: 4/24/2018
+ms.keywords: DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_DML, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_TEXT, IDebugOutputCallbacks2 interface [Windows Debugging],Output2 method, IDebugOutputCallbacks2.Output2, IDebugOutputCallbacks2::Output2, Output2, Output2 method [Windows Debugging], Output2 method [Windows Debugging],IDebugOutputCallbacks2 interface, dbgeng/IDebugOutputCallbacks2::Output2, debugger.idebugoutputcallbacks2_output2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugOutputCallbacks2.Output2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugOutputCallbacks2::Output2 method
+# IDebugOutputCallbacks2::Output2
 
 
 ## -description
 
 
-Returns notifications for the <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks2.md">IDebugOutputCallbacks2</a> interface.
-
-
-## -syntax
-
-
-````
-HRESULT Output2(
-  [in]           ULONG   Which,
-  [in]           ULONG   Flags,
-  [in]           ULONG64 Arg,
-  [in, optional] PCWSTR  Text
-);
-````
+Returns notifications for the <a href="https://msdn.microsoft.com/D35D8960-AD9F-4493-B6CD-3E3049CC3BBD">IDebugOutputCallbacks2</a> interface.
 
 
 ## -parameters
@@ -158,12 +146,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks2.md">IDebugOutputCallbacks2</a>
 
 
 
+<a href="https://msdn.microsoft.com/D35D8960-AD9F-4493-B6CD-3E3049CC3BBD">IDebugOutputCallbacks2</a>
  
 
  
-
 

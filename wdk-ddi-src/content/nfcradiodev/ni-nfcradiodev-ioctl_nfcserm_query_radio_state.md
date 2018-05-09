@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 625E3B0B-78B4-4C12-B1FD-555FAA5E0E19
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFCSERM_QUERY_RADIO_STATE, IOCTL_NFCSERM_QUERY_RADIO_STATE control code [Near-Field Proximity Drivers], _IOCTL_NFCSERM_QUERY_RADIO_STATE, nfcradiodev/IOCTL_NFCSERM_QUERY_RADIO_STATE, nfpdrivers.ioctl_nfcserm_query_radio_state
+ms.keywords: IOCTL_NFCSERM_QUERY_RADIO_STATE, IOCTL_NFCSERM_QUERY_RADIO_STATE control, IOCTL_NFCSERM_QUERY_RADIO_STATE control code [Near-Field Proximity Drivers], _IOCTL_NFCSERM_QUERY_RADIO_STATE, nfcradiodev/IOCTL_NFCSERM_QUERY_RADIO_STATE, nfpdrivers.ioctl_nfcserm_query_radio_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	nfcradiodev.h
 api_name:
 -	IOCTL_NFCSERM_QUERY_RADIO_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG
+req.typenames: 
 ---
 
 # IOCTL_NFCSERM_QUERY_RADIO_STATE IOCTL
@@ -70,7 +71,7 @@ None
 ### -output-buffer
 
 
-<a href="..\nfcradiodev\ns-nfcradiodev-_nfcrm_set_radio_state.md"> NFCRM_RADIO_STATE structure</a>
+<a href="https://msdn.microsoft.com/22FE29AC-790D-40D2-949F-9C132F67AEAB"> NFCRM_RADIO_STATE structure</a>
 
 
 

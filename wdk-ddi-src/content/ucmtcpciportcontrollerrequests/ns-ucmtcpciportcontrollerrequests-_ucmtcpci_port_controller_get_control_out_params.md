@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_port_controller_get_control_out_params.htm
 old-project: usbref
 ms.assetid: c75167cb-14c9-4189-961a-97a50c84d6be
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS structure [Buses], _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, buses.ucmtcpci_port_controller_get_control_out_params, ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Ucmtcpciportcontrollerrequests.h
 api_name:
 -	UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS structure
@@ -52,20 +52,7 @@ req.product: Windows 10 or later.
 
 
              Stores the values of all control registers of the port controller retrieved by the 
-             <a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_get_control.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS {
-  UCMTCPCI_PORT_CONTROLLER_TCPC_CONTROL  TCPCControl;
-  UCMTCPCI_PORT_CONTROLLER_ROLE_CONTROL  RoleControl;
-  UCMTCPCI_PORT_CONTROLLER_FAULT_CONTROL FaultControl;
-  UCMTCPCI_PORT_CONTROLLER_POWER_CONTROL PowerControl;
-} UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS, *PUCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS;
-````
+             <a href="https://msdn.microsoft.com/library/windows/hardware/mt805832">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a> request.
 
 
 ## -struct-fields
@@ -103,12 +90,11 @@ typedef struct _UCMTCPCI_PORT_CONTROLLER_GET_CONTROL_OUT_PARAMS {
 
 ## -see-also
 
-<a href="..\ucmtcpciportcontrollerrequests\ni-ucmtcpciportcontrollerrequests-ioctl_ucmtcpci_port_controller_get_control.md">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805832">IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_CONTROL</a>
  
 
  
-
 

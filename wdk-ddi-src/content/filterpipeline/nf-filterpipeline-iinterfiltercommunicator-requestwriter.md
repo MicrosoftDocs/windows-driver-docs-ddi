@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IInterFilterCommunicator.RequestWriter
-title: IInterFilterCommunicator::RequestWriter method
+title: IInterFilterCommunicator::RequestWriter
 author: windows-driver-content
 description: The RequestWriter method retrieves the writer interface for an IInterFilterCommunicator object.
 old-location: print\iinterfiltercommunicator_requestwriter.htm
 old-project: print
 ms.assetid: 1f0684f0-e15e-491f-ba09-314f831d7ba9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IInterFilterCommunicator, IInterFilterCommunicator interface [Print Devices], RequestWriter method, IInterFilterCommunicator::RequestWriter, RequestWriter method [Print Devices], RequestWriter method [Print Devices], IInterFilterCommunicator interface, RequestWriter,IInterFilterCommunicator.RequestWriter, filterpipeline/IInterFilterCommunicator::RequestWriter, filterpipeline_b2f3eac2-d759-45b4-818b-4d828c5aeedc.xml, print.iinterfiltercommunicator_requestwriter
+ms.date: 4/20/2018
+ms.keywords: IInterFilterCommunicator interface [Print Devices],RequestWriter method, IInterFilterCommunicator.RequestWriter, IInterFilterCommunicator::RequestWriter, RequestWriter, RequestWriter method [Print Devices], RequestWriter method [Print Devices],IInterFilterCommunicator interface, filterpipeline/IInterFilterCommunicator::RequestWriter, filterpipeline_b2f3eac2-d759-45b4-818b-4d828c5aeedc.xml, print.iinterfiltercommunicator_requestwriter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IInterFilterCommunicator.RequestWriter
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IInterFilterCommunicator::RequestWriter method
+# IInterFilterCommunicator::RequestWriter
 
 
 ## -description
 
 
 The <b>RequestWriter</b> method retrieves the writer interface for an <b>IInterFilterCommunicator</b> object.
-
-
-## -syntax
-
-
-````
-HRESULT RequestWriter(
-  [out] void **ppIWriter
-);
-````
 
 
 ## -parameters
@@ -92,16 +83,15 @@ The <b>IInterFilterCommunicator</b> object is passed to each filter in the <a hr
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551050">IInterFilterCommunicator</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554291">IPrintPipelineFilter::InitializeFilter</a>
-
-
-
-<a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommunicator.md">IInterFilterCommunicator</a>
-
-
-
  
 
  
-
 

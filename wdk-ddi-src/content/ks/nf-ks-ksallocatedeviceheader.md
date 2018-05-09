@@ -7,7 +7,7 @@ old-location: stream\ksallocatedeviceheader.htm
 old-project: stream
 ms.assetid: 554f03bf-cacd-401b-aa34-fcfe1c31091e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAllocateDeviceHeader, KsAllocateDeviceHeader function [Streaming Media Devices], ks/KsAllocateDeviceHeader, ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, stream.ksallocatedeviceheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAllocateDeviceHeader
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsAllocateDeviceHeader</b> function allocates and initializes the required device extension header. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAllocateDeviceHeader(
-  _Out_    KSDEVICE_HEADER       *Header,
-  _In_     ULONG                 ItemsCount,
-  _In_opt_ PKSOBJECT_CREATE_ITEM ItemsList
-);
-````
 
 
 ## -parameters
@@ -125,16 +114,15 @@ Drivers must not free the memory allocated for the subobject KSOBJECT_CREATE_ITE
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreedeviceheader.md">KsFreeDeviceHeader</a>
 
 
 
-<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562560">KsFreeDeviceHeader</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\expandedstackcall.htm
 old-project: kernel
 ms.assetid: ca9af049-f183-458c-b43f-891678a7be5e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: DrvrRtns_2b43fd11-2258-4b8d-adb7-58dcc5d37897.xml, EXPAND_STACK_CALLOUT, ExpandedStackCall, ExpandedStackCall routine [Kernel-Mode Driver Architecture], kernel.expandedstackcall, ntddk/ExpandedStackCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,31 +38,19 @@ api_location:
 -	Ntddk.h
 api_name:
 -	ExpandedStackCall
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# EXPAND_STACK_CALLOUT callback
+# EXPAND_STACK_CALLOUT callback function
 
 
 ## -description
 
 
 The <i>ExpandedStackCall</i> routine executes with a guaranteed stack size.
-
-
-## -prototype
-
-
-````
-EXPAND_STACK_CALLOUT ExpandedStackCall;
-
-VOID ExpandedStackCall(
-  _In_opt_ PVOID Parameter
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,7 +60,7 @@ VOID ExpandedStackCall(
 
 ### -param Parameter [in, optional]
 
-The value passed to the <a href="..\ntddk\nf-ntddk-keexpandkernelstackandcallout.md">KeExpandKernelStackAndCallout</a> routine that executed <i>ExpandedStackCall</i>.
+The value passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552030">KeExpandKernelStackAndCallout</a> routine that executed <i>ExpandedStackCall</i>.
 
 
 ## -returns
@@ -136,12 +124,11 @@ The EXPAND_STACK_CALLOUT function type is defined in the Wdm.h header file. To m
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-keexpandkernelstackandcallout.md">KeExpandKernelStackAndCallout</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552030">KeExpandKernelStackAndCallout</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\ksfilteraddtopologyconnections.htm
 old-project: stream
 ms.assetid: 32a61103-5f2f-4b73-a299-bf6a14c3bec9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFilterAddTopologyConnections, KsFilterAddTopologyConnections function [Streaming Media Devices], avfunc_99b8984f-5ca2-460b-ab20-230fd09b6d13.xml, ks/KsFilterAddTopologyConnections, stream.ksfilteraddtopologyconnections
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFilterAddTopologyConnections
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,18 +54,6 @@ req.typenames:
 The<b> KsFilterAddTopologyConnections</b> function adds new topology connections to a filter.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsFilterAddTopologyConnections(
-  _In_       PKSFILTER             Filter,
-  _In_       ULONG                 NewConnectionsCount,
-  _In_ const KSTOPOLOGY_CONNECTION *NewTopologyConnections
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ NTSTATUS KsFilterAddTopologyConnections(
 
 ### -param Filter [in]
 
-<i>A pointer</i> to the <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> to which to add the new connections.
+<i>A pointer</i> to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> to which to add the new connections.
 
 
 ### -param NewConnectionsCount [in]
@@ -82,7 +71,7 @@ The number of connections in <i>NewTopologyConnections</i>.
 
 ### -param NewTopologyConnections [in]
 
-A pointer to an array of <a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a> structures containing the new topology connections.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567148">KSTOPOLOGY_CONNECTION</a> structures containing the new topology connections.
 
 
 ## -returns
@@ -107,16 +96,15 @@ For more information about mutexes, see <a href="https://msdn.microsoft.com/011e
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567148">KSTOPOLOGY_CONNECTION</a>
  
 
  
-
 

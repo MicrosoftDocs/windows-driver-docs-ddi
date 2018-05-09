@@ -7,7 +7,7 @@ old-location: stream\ks_dvdcopy_chlgkey.htm
 old-project: stream
 ms.assetid: 10be15fc-ca0e-40d4-8fe9-9682478f5c5b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DVDCOPY_CHLGKEY, KS_DVDCOPY_CHLGKEY, KS_DVDCOPY_CHLGKEY structure [Streaming Media Devices], PKS_DVDCOPY_CHLGKEY, PKS_DVDCOPY_CHLGKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_CHLGKEY, dvdref_af25bbe5-5caf-4cd7-be78-1d905a50ef82.xml, ksmedia/KS_DVDCOPY_CHLGKEY, ksmedia/PKS_DVDCOPY_CHLGKEY, stream.ks_dvdcopy_chlgkey"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DVDCOPY_CHLGKEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY
 
 
 The KS_DVDCOPY_CHLGKEY structure is used to describe the challenge key information for the DVD copyright protection authentication process.
-
-
-## -syntax
-
-
-````
-typedef struct _KS_DVDCOPY_CHLGKEY {
-  BYTE ChlgKey[10];
-  BYTE Reserved[2];
-} KS_DVDCOPY_CHLGKEY, *PKS_DVDCOPY_CHLGKEY;
-````
 
 
 ## -struct-fields
@@ -91,12 +81,11 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565140">KSPROPERTY_DVDCOPY_CHLG_KEY</a>
-
-
-
  
 
  
-
 

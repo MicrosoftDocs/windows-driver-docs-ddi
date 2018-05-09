@@ -7,7 +7,7 @@ old-location: netvista\ril_getpreferredoperatorlist.htm
 old-project: netvista
 ms.assetid: bee76337-8349-4e61-9b0c-e525ed001850
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetPreferredOperatorList, RIL_GetPreferredOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_getpreferredoperatorlist, rilapi/RIL_GetPreferredOperatorList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_GetPreferredOperatorList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetPreferredOperatorList function
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_GetPreferredOperatorList(
-   HRIL                                hRil,
-   LPVOID                              lpContext,
-   HUICCAPP                            hUiccApp,
-   RILGETPREFERENCEDOPERATORLISTFORMAT dwFormat
-);
-````
 
 
 ## -parameters

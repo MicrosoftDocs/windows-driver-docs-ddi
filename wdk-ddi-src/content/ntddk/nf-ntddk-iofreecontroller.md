@@ -7,7 +7,7 @@ old-location: kernel\iofreecontroller.htm
 old-project: kernel
 ms.assetid: a9b0ca27-dc46-4f9b-a3f9-51bbd759afc1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoFreeController, IoFreeController routine [Kernel-Mode Driver Architecture], k104_42ed98f0-34b1-45d9-981e-e3e62411ad70.xml, kernel.iofreecontroller, ntddk/IoFreeController
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoFreeController
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoFreeController function
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoFreeController</b> routine releases a previously allocated controller object when the driver has completed an I/O request.
-
-
-## -syntax
-
-
-````
-VOID IoFreeController(
-  _In_ PCONTROLLER_OBJECT ControllerObject
-);
-````
 
 
 ## -parameters
@@ -92,20 +83,19 @@ The connection between the current target device object and the controller objec
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iodeletecontroller.md">IoDeleteController</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548224">IoAllocateController</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioallocatecontroller.md">IoAllocateController</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548395">IoCreateController</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549078">IoDeleteController</a>
  
 
  
-
 

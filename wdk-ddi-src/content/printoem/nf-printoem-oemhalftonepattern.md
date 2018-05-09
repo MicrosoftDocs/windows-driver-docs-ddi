@@ -7,7 +7,7 @@ old-location: print\oemhalftonepattern.htm
 old-project: print
 ms.assetid: c574d997-736e-4883-a2c3-447985fcee55
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMHalftonePattern, OEMHalftonePattern function [Print Devices], print.oemhalftonepattern, print_obsoletefunctions_5b15743c-f7ce-4107-a263-5cf28ead726d.xml, printoem/OEMHalftonePattern
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMHalftonePattern
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMHalftonePattern function
@@ -50,23 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMHalftonePattern(
-       PDEVOBJ                                 pdevobj,
-       PBYTE                                   pHTPattern,
-       DWORD                                   dwHTPatternX,
-       DWORD                                   dwHTPatternY,
-       DWORD                                   dwHTNumPatterns,
-       DWORD                                   dwCallbackID,
-  _In_ _reads_bytes_opt_(dwResourceSize) PBYTE pResource,
-       DWORD                                   dwResourceSize
-);
-````
 
 
 ## -parameters

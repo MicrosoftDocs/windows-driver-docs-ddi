@@ -7,8 +7,8 @@ old-location: print\iprintschemacapabilities2.htm
 old-project: print
 ms.assetid: 1C361DC6-6517-4845-BEA6-09D2BB3B3232
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaCapabilities2, IPrintSchemaCapabilities2 interface [Print Devices], IPrintSchemaCapabilities2 interface [Print Devices], described, print.iprintschemacapabilities2, printerextension/IPrintSchemaCapabilities2
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaCapabilities2, IPrintSchemaCapabilities2 interface [Print Devices], IPrintSchemaCapabilities2 interface [Print Devices],described, print.iprintschemacapabilities2, printerextension/IPrintSchemaCapabilities2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaCapabilities2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintSchemaCapabilities2 interface
@@ -50,12 +50,12 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>IPrintSchemaCapabilities2</b> interface represents an extension to the <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a> object, which provides wrapper methods over a print capabilities document.
+The <b>IPrintSchemaCapabilities2</b> interface represents an extension to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a> object, which provides wrapper methods over a print capabilities document.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaCapabilities2</b> interface inherits from <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>. <b>IPrintSchemaCapabilities2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaCapabilities2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a>. <b>IPrintSchemaCapabilities2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IPrintSchemaCapabilities2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn465889">GetParameterDefinition</a>
 </td>
 <td align="left" width="63%">
-The <b>GetParameterDefinition</b> method retrieves the <a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a> object, and it  represents the &lt;psf:ParameterDef&gt; element in the PrintCapabilites XML.
+The <b>GetParameterDefinition</b> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a> object, and it  represents the &lt;psf:ParameterDef&gt; element in the PrintCapabilites XML.
 
 </td>
 </tr>
@@ -82,12 +82,11 @@ The <b>GetParameterDefinition</b> method retrieves the <a href="..\printerextens
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a>
  
 
  
-
 

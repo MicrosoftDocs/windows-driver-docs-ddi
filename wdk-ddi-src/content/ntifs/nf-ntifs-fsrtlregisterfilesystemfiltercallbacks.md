@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlregisterfilesystemfiltercallbacks.htm
 old-project: ifsk
 ms.assetid: cd6d2ab6-ce17-47db-b5d0-4f9543e15487
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlRegisterFileSystemFilterCallbacks, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, ifsk.fsrtlregisterfilesystemfiltercallbacks, ntifs/FsRtlRegisterFileSystemFilterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlRegisterFileSystemFilterCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlRegisterFileSystemFilterCallbacks function
@@ -50,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 File system filter drivers and file systems call the <b>FsRtlRegisterFileSystemFilterCallbacks</b> routine to register notification callback routines to be invoked when the underlying file system performs certain operations. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FsRtlRegisterFileSystemFilterCallbacks(
-  _In_ struct _DRIVER_OBJECT *FilterDriverObject,
-  _In_ PFS_FILTER_CALLBACKS  Callbacks
-);
-````
 
 
 ## -parameters

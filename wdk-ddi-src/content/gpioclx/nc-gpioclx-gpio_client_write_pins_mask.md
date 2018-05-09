@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 6B3667AA-4658-4EDE-A8E1-925064BCD249
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_WriteGpioPinsUsingMask, CLIENT_WriteGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_writegpiopinsusingmask, GPIO_CLIENT_WRITE_PINS_MASK, gpioclx/CLIENT_WriteGpioPinsUsingMask
+ms.keywords: CLIENT_WriteGpioPinsUsingMask, CLIENT_WriteGpioPinsUsingMask callback, CLIENT_WriteGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_writegpiopinsusingmask, GPIO_CLIENT_WRITE_PINS_MASK, gpioclx/CLIENT_WriteGpioPinsUsingMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_WriteGpioPinsUsingMask
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_WRITE_PINS_MASK callback
+# GPIO_CLIENT_WRITE_PINS_MASK callback function
 
 
 ## -description
 
 
 The <i>CLIENT_WriteGpioPinsUsingMask</i> event callback function writes to a set of general-purpose I/O (GPIO) pins that are configured as data outputs.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_WRITE_PINS_MASK CLIENT_WriteGpioPinsUsingMask;
-
-NTSTATUS CLIENT_WriteGpioPinsUsingMask(
-  _In_ PVOID                            Context,
-  _In_ PGPIO_WRITE_PINS_MASK_PARAMETERS WriteParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,6 +132,13 @@ The GPIO_CLIENT_WRITE_PINS_MASK function type is defined in the Gpioclx.h header
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
@@ -153,20 +147,12 @@ The GPIO_CLIENT_WRITE_PINS_MASK function type is defined in the Gpioclx.h header
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698258">GPIO_WRITE_PINS_MASK_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698258">GPIO_WRITE_PINS_MASK_PARAMETERS</a>
  
 
  
-
 

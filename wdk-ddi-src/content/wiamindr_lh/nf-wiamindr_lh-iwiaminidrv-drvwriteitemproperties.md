@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvWriteItemProperties
-title: IWiaMiniDrv::drvWriteItemProperties method
+title: IWiaMiniDrv::drvWriteItemProperties
 author: windows-driver-content
 description: The IWiaMiniDrv::drvWriteItemProperties method writes driver item properties to a WIA hardware device.
 old-location: image\iwiaminidrv_drvwriteitemproperties.htm
 old-project: image
 ms.assetid: 350cb7f6-499f-4fbc-b5c0-6f4daf2a2af0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvWriteItemProperties method, IWiaMiniDrv::drvWriteItemProperties, MiniDrv_9296f23a-679c-48e0-b594-ece8a1030e50.xml, drvWriteItemProperties method [Imaging Devices], drvWriteItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvWriteItemProperties,IWiaMiniDrv.drvWriteItemProperties, image.iwiaminidrv_drvwriteitemproperties, wiamindr_lh/IWiaMiniDrv::drvWriteItemProperties
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvWriteItemProperties method, IWiaMiniDrv.drvWriteItemProperties, IWiaMiniDrv::drvWriteItemProperties, MiniDrv_9296f23a-679c-48e0-b594-ece8a1030e50.xml, drvWriteItemProperties, drvWriteItemProperties method [Imaging Devices], drvWriteItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvwriteitemproperties, wiamindr_lh/IWiaMiniDrv::drvWriteItemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrv.drvWriteItemProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvWriteItemProperties method
+# IWiaMiniDrv::drvWriteItemProperties
 
 
 ## -description
 
 
 The <b>IWiaMiniDrv::drvWriteItemProperties</b> method writes driver item properties to a WIA hardware device.
-
-
-## -syntax
-
-
-````
-HRESULT drvWriteItemProperties(
-  [in]  BYTE                      *pWiasContext,
-  [in]  LONG                      lFlags,
-  [in]  PMINIDRV_TRANSFER_CONTEXT pmdtc,
-  [out] LONG                      *plDevErrVal
-);
-````
 
 
 ## -parameters
@@ -110,7 +97,7 @@ Points to a memory location that will receive a status code for this method. If 
 
 #### - pmdtc [in]
 
-Points to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure containing the device transfer context.
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545250">MINIDRV_TRANSFER_CONTEXT</a> structure containing the device transfer context.
 
 
 ## -returns
@@ -126,27 +113,10 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadmultiple.md">wiasReadMultiple</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545005">IWiaMiniDrv::drvReadItemProperties</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
@@ -154,24 +124,40 @@ The value pointed to by <i>plDevErrVal</i> can be converted to a string by calli
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545005">IWiaMiniDrv::drvReadItemProperties</a>
 
 
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545250">MINIDRV_TRANSFER_CONTEXT</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetrootitem.md">wiasGetRootItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549264">wiasGetRootItem</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549300">wiasReadMultiple</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549308">wiasReadPropBin</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549320">wiasReadPropFloat</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549325">wiasReadPropGuid</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549330">wiasReadPropLong</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549341">wiasReadPropStr</a>
  
 
  
-
 

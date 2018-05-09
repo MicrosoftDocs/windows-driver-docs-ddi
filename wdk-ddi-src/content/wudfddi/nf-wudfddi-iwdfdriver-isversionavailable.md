@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDriver.IsVersionAvailable
-title: IWDFDriver::IsVersionAvailable method
+title: IWDFDriver::IsVersionAvailable
 author: windows-driver-content
 description: The IsVersionAvailable method determines whether the specified version of the framework is available.
 old-location: wdf\iwdfdriver_isversionavailable.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9048a568-3369-44eb-8fa8-361ce968a253
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDriver, IWDFDriver interface, IsVersionAvailable method, IWDFDriver::IsVersionAvailable, IsVersionAvailable method, IsVersionAvailable method, IWDFDriver interface, IsVersionAvailable,IWDFDriver.IsVersionAvailable, UMDFDriverObjectRef_6ad78413-a8c5-4a9f-953d-94bd4eaf3425.xml, umdf.iwdfdriver_isversionavailable, wdf.iwdfdriver_isversionavailable, wudfddi/IWDFDriver::IsVersionAvailable
+ms.keywords: IWDFDriver interface,IsVersionAvailable method, IWDFDriver.IsVersionAvailable, IWDFDriver::IsVersionAvailable, IsVersionAvailable, IsVersionAvailable method, IsVersionAvailable method,IWDFDriver interface, UMDFDriverObjectRef_6ad78413-a8c5-4a9f-953d-94bd4eaf3425.xml, umdf.iwdfdriver_isversionavailable, wdf.iwdfdriver_isversionavailable, wudfddi/IWDFDriver::IsVersionAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDriver.IsVersionAvailable
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDriver::IsVersionAvailable method
+# IWDFDriver::IsVersionAvailable
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>IsVersionAvailable</b> method determines whether the specified version of the framework is available.
 
 
-## -syntax
-
-
-````
-BOOL IsVersionAvailable(
-  [in] UMDF_VERSION_DATA *pMinimumVersion
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ BOOL IsVersionAvailable(
 
 ### -param pMinimumVersion [in]
 
-A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">UMDF_VERSION_DATA</a> structure that describes the minimum version of the framework that the driver supports.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561352">UMDF_VERSION_DATA</a> structure that describes the minimum version of the framework that the driver supports.
 
 
 ## -returns
@@ -86,16 +76,15 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 
 
-<a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">UMDF_VERSION_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561352">UMDF_VERSION_DATA</a>
  
 
  
-
 

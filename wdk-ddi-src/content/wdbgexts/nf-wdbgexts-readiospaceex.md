@@ -7,7 +7,7 @@ old-location: debugger\readiospaceex.htm
 old-project: debugger
 ms.assetid: de0681e6-c716-4879-8e07-daacc092d18f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/24/2018
 ms.keywords: ReadIoSpaceEx, ReadIoSpaceEx function [Windows Debugging], WdbgExts_Ref_96fa3635-35d1-4d58-835a-96754480170a.xml, debugger.readiospaceex, wdbgexts/ReadIoSpaceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	ReadIoSpaceEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ReadIoSpaceEx function
@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>ReadIoSpaceEx</b> function is an extended version of <a href="..\wdbgexts\nf-wdbgexts-readiospace.md">ReadIoSpace</a>. It reads not only the system I/O locations, but also I/O locations on a bus. <b>ReadIoSpace</b> works like <b>ReadIoSpaceEx</b>, except that it defaults <i>interfacetype</i> to ISA, <i>busnumber</i> to zero, and <i>addressspace</i> to 1.
-
-
-## -syntax
-
-
-````
-__inline VOID ReadIoSpaceEx(
-   ULONG  address,
-   PULONG data,
-   PULONG size,
-   ULONG  interfacetype,
-   ULONG  busnumber,
-   ULONG  addressspace
-);
-````
+The <b>ReadIoSpaceEx</b> function is an extended version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553574">ReadIoSpace</a>. It reads not only the system I/O locations, but also I/O locations on a bus. <b>ReadIoSpace</b> works like <b>ReadIoSpaceEx</b>, except that it defaults <i>interfacetype</i> to ISA, <i>busnumber</i> to zero, and <i>addressspace</i> to 1.
 
 
 ## -parameters
@@ -116,7 +101,7 @@ None
 
 
 
-If you are writing 64-bit code, you should use <a href="..\wdbgexts\nf-wdbgexts-readiospaceex64.md">ReadIoSpaceEx64</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
+If you are writing 64-bit code, you should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553583">ReadIoSpaceEx64</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 If you are writing a WdbgExts extension, include <b>wdbgexts.h</b>. If you are writing a DbgEng extension that calls this function, include <b>wdbgexts.h</b> before <b>dbgeng.h</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details).
 

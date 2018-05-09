@@ -7,8 +7,8 @@ old-location: netvista\miniportresetex.htm
 old-project: netvista
 ms.assetid: 15f82163-a1b5-4cef-a53e-8a97adb2cd92
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: MINIPORT_RESET, MiniportResetEx, MiniportResetEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_13afeb89-4956-4a8d-ade8-8d17a4a84128.xml, ndis/MiniportResetEx, netvista.miniportresetex
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_RESET, MINIPORT_RESET callback, MiniportResetEx, MiniportResetEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_13afeb89-4956-4a8d-ade8-8d17a4a84128.xml, ndis/MiniportResetEx, netvista.miniportresetex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportResetEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_RESET callback
+# MINIPORT_RESET callback function
 
 
 ## -description
@@ -53,20 +54,6 @@ NDIS calls an NDIS miniport driver's
    <i>MiniportResetEx</i> function to initiate a reset of a network interface card (NIC). For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a> and <a href="https://msdn.microsoft.com/d5209809-039c-4ac2-afdf-1f5144307850">Miniport Driver Hardware Reset</a>.
 <div class="alert"><b>Note</b>  An NDIS miniport driver may declare this function by using the <b>MINIPORT_RESET</b> type.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_RESET MiniportResetEx;
-
-NDIS_STATUS MiniportResetEx(
-  _In_  NDIS_HANDLE MiniportAdapterContext,
-  _Out_ PBOOLEAN    AddressingReset
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,14 +62,14 @@ NDIS_STATUS MiniportResetEx(
 ### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
 
 ### -param AddressingReset [out]
 
 A pointer to a Boolean variable. The miniport driver sets this variable to <b>TRUE</b> if NDIS should call the 
-     <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function to
+     <a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a> function to
      restore addressing and other configuration settings to the current values. For more information, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff546572">Hardware Reset</a>.
 
@@ -106,7 +93,7 @@ A pointer to a Boolean variable. The miniport driver sets this variable to <b>TR
 </td>
 <td width="60%">
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> successfully reset the miniport adapter to an operational state.
+<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a> successfully reset the miniport adapter to an operational state.
 
 </td>
 </tr>
@@ -118,7 +105,7 @@ A pointer to a Boolean variable. The miniport driver sets this variable to <b>TR
 </td>
 <td width="60%">
 The driver will complete the reset operation asynchronously by calling the 
-       <a href="..\ndis\nf-ndis-ndismresetcomplete.md">NdisMResetComplete</a> function when the
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff563663">NdisMResetComplete</a> function when the
        operation is done.
 
 </td>
@@ -131,7 +118,7 @@ The driver will complete the reset operation asynchronously by calling the
 </td>
 <td width="60%">
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a> determined that the miniport adapter was currently being reset, so this call is
+<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a> determined that the miniport adapter was currently being reset, so this call is
        superfluous.
 
 </td>
@@ -146,7 +133,7 @@ The driver will complete the reset operation asynchronously by calling the
 <i>MiniportResetEx</i> successfully reset the miniport adapter but a recoverable error occurred during
        the operation. 
        <i>MiniportResetEx</i> should have called the 
-       <a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a> function
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff564663">NdisWriteErrorLogEntry</a> function
        with more information about the error.
 
 </td>
@@ -177,7 +164,7 @@ The driver will complete the reset operation asynchronously by calling the
 
 A driver specifies the 
     <i>MiniportResetEx</i> entry point when it calls the 
-    <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
     NdisMRegisterMiniportDriver</a> function.
 
 <i>MiniportResetEx</i> is not required for intermediate drivers.
@@ -191,7 +178,7 @@ If a reset operation changes other information, such as multicast or functional 
     information, 
     <i>MiniportResetEx</i> must set the variable at 
     <i>AddressingReset</i> to <b>TRUE</b> before it returns. This causes NDIS to call the 
-    <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function to
+    <a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a> function to
     restore the information. NDIS also restores the Wake on the LAN (WoL) pattern list by calling 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569773">OID_PNP_ADD_WAKE_UP_PATTERN</a>. The
     driver should free the WoL pattern list from its adapter context because the hardware list is already
@@ -201,27 +188,27 @@ NDIS will not abort any pending OID requests or send requests. If the driver can
     pending OID or send requests after a reset, the driver can hold pending OID or send requests until after
     the reset operation is complete. Otherwise, the driver should complete the pending OID or send requests
     by calling the 
-    <a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a> or 
-    <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563622">NdisMOidRequestComplete</a> or 
+    <a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
     NdisMSendNetBufferListsComplete</a> functions respectively before 
     <i>MiniportResetEx</i> returns.
 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, the miniport driver must not hold pending OID or send requests until after
     the reset operation is complete. Instead, the driver must complete these pending requests
     by calling the 
-    <a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a> or 
-    <a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">NdisMSendNetBufferListsComplete</a> functions respectively  before 
-    the reset operation is complete. If the driver completes the reset operation asynchronously, it must complete pending OID and send requests before the driver calls <a href="..\ndis\nf-ndis-ndismresetcomplete.md">NdisMResetComplete</a>.</div>
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563622">NdisMOidRequestComplete</a> or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563668">NdisMSendNetBufferListsComplete</a> functions respectively  before 
+    the reset operation is complete. If the driver completes the reset operation asynchronously, it must complete pending OID and send requests before the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff563663">NdisMResetComplete</a>.</div>
 <div> </div>
 A miniport driver should not call the 
-    <a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563600">NdisMIndicateStatusEx</a> function to
     signal the start and finish of each reset operation. NDIS notifies bound protocol drivers when a reset
     begins and ends.
 
 If 
     <i>MiniportResetEx</i> must wait for state changes in the miniport adapter during reset operations, it can
     call the 
-    <a href="..\ndis\nf-ndis-ndisstallexecution.md">NdisStallExecution</a> function. However, a
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564568">NdisStallExecution</a> function. However, a
     
     <i>MiniportResetEx</i> function must not call 
     <b>NdisStallExecution</b> with a time interval larger than 50 microseconds. If the driver must wait longer
@@ -230,7 +217,7 @@ If
 
 If 
     <i>MiniportResetEx</i> returns NDIS_STATUS_PENDING, the driver must complete the reset by calling the 
-    <a href="..\ndis\nf-ndis-ndismresetcomplete.md">NdisMResetComplete</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563663">NdisMResetComplete</a> function.
 
 If a miniport adapter is in the 
     <b>MediaConnectStateConnected</b> state and its state changes because of a reset, including a change to
@@ -243,18 +230,18 @@ If a miniport adapter is in the
 <i>MiniportResetEx</i> can be preempted by an interrupt.
 
 NDIS calls the 
-    <a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a> function
+    <a href="https://msdn.microsoft.com/ead0af85-0584-49de-82cc-8a059ebfdf4f">MiniportCheckForHangEx</a> function
     periodically to determine whether it should call 
     <i>MiniportResetEx</i>. The default time-out for calling 
     <i>MiniportCheckForHangEx</i> is 2 seconds. If this default is too short, a miniport driver can set a larger <b>CheckForHangTimeInSeconds</b> value when calling the
     
-    <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
     NdisMSetMiniportAttributes</a> function during initialization. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>.
 
 NDIS cannot determine whether a NIC has stopped responding for receive operations. To handle this kind
     of failure, the 
     <i>MiniportCheckForHangEx</i> function can monitor receive operations and, if necessary, return <b>TRUE</b> to
-    force a reset. A miniport can also request a reset by calling <a href="..\ndis\nf-ndis-ndismresetminiport.md">NdisMResetMiniport</a>.
+    force a reset. A miniport can also request a reset by calling <a href="https://msdn.microsoft.com/library/windows/hardware/jj647917">NdisMResetMiniport</a>.
 
 NDIS calls 
     <i>MiniportResetEx</i> at IRQL &lt;= DISPATCH_LEVEL.
@@ -301,31 +288,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismoidrequestcomplete.md">NdisMOidRequestComplete</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismindicatestatusex.md">NdisMIndicateStatusEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
@@ -333,37 +295,61 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismsendnetbufferlistscomplete.md">
-   NdisMSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismresetcomplete.md">NdisMResetComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismresetminiport.md">NdisMResetMiniport</a>
-
-
-
 <a href="https://msdn.microsoft.com/d5209809-039c-4ac2-afdf-1f5144307850">Miniport Driver Hardware Reset</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_check_for_hang.md">MiniportCheckForHangEx</a>
+<a href="https://msdn.microsoft.com/ead0af85-0584-49de-82cc-8a059ebfdf4f">MiniportCheckForHangEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisstallexecution.md">NdisStallExecution</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563600">NdisMIndicateStatusEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563622">NdisMOidRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563663">NdisMResetComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj647917">NdisMResetMiniport</a>
+
+
+
+<a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
+   NdisMSendNetBufferListsComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564568">NdisStallExecution</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564663">NdisWriteErrorLogEntry</a>
  
 
  
-
 

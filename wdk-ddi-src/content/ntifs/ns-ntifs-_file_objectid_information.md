@@ -7,7 +7,7 @@ old-location: ifsk\file_objectid_information.htm
 old-project: ifsk
 ms.assetid: bbbaf48b-78c3-4a4b-801b-2fe3c0112a68
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], PFILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], _FILE_OBJECTID_INFORMATION, fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, ifsk.file_objectid_information, ntifs/FILE_OBJECTID_INFORMATION, ntifs/PFILE_OBJECTID_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_OBJECTID_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_OBJECTID_INFORMATION, *PFILE_OBJECTID_INFORMATION
 ---
@@ -50,25 +51,6 @@ req.typenames: FILE_OBJECTID_INFORMATION, *PFILE_OBJECTID_INFORMATION
 
 
 The FILE_OBJECTID_INFORMATION structure is used to query for object ID information for the files in a directory on an NTFS volume. 
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_OBJECTID_INFORMATION {
-  LONGLONG FileReference;
-  UCHAR    ObjectId[16];
-  union {
-    struct {
-      UCHAR BirthVolumeId[16];
-      UCHAR BirthObjectId[16];
-      UCHAR DomainId[16];
-    };
-    UCHAR  ExtendedInfo[48];
-  };
-} FILE_OBJECTID_INFORMATION, *PFILE_OBJECTID_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -111,6 +93,9 @@ The 16-byte file object ID for the file. NTFS generates this number and assigns 
  
 
 
+### -field DUMMYUNIONNAME.ExtendedInfo
+
+User-provided data. You can use it to contain the <b>BirthVolumeID</b>, <b>BirthObjectID</b>, and <b>DomainID</b> members, or you can define a different data structure. 
 
 
 #### - ( unnamed struct )
@@ -136,11 +121,6 @@ The object identifier of the file at the time it was created. After copy operati
 Reserved; must be zero. 
 
 
-#### - ExtendedInfo
-
-User-provided data. You can use it to contain the <b>BirthVolumeID</b>, <b>BirthObjectID</b>, and <b>DomainID</b> members, or you can define a different data structure. 
-
-
 ## -remarks
 
 
@@ -149,7 +129,7 @@ This information can be queried in either of the following ways:
 
 <ul>
 <li>
-Call <a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>, passing FileObjectIdInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_OBJECTID_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>, passing FileObjectIdInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_OBJECTID_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
 
 </li>
 <li>
@@ -170,7 +150,10 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540318">FILE_INTERNAL_INFORMATION</a>
 
 
 
@@ -178,12 +161,8 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567047">ZwQueryDirectoryFile</a>
  
 
  
-
 

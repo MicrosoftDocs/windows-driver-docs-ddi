@@ -7,7 +7,7 @@ old-location: netvista\riluiccatrinfo.htm
 old-project: netvista
 ms.assetid: 84ced2d3-43a9-42ef-b8fb-592dc960b01b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILUICCATRINFO, RILUICCATRINFO, RILUICCATRINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccatrinfo, ntddrilapitypes/RILUICCATRINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCATRINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCATRINFO, *LPRILUICCATRINFO
-req.product: Windows 10 or later.
 ---
 
 # RILUICCATRINFO structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCATRINFO {
-  DWORD     dwATRlength;
-  BYTE [36] bATR;
-} RILUICCATRINFO, RILUICCATRINFO;
-````
 
 
 ## -struct-fields

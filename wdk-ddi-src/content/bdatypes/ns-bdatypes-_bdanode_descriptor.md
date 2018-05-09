@@ -7,7 +7,7 @@ old-location: stream\bdanode_descriptor.htm
 old-project: stream
 ms.assetid: 324eddca-f619-44e2-b32f-34cefd4c9cdc
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDANODE_DESCRIPTOR, BDANODE_DESCRIPTOR, BDANODE_DESCRIPTOR structure [Streaming Media Devices], PBDANODE_DESCRIPTOR, PBDANODE_DESCRIPTOR structure pointer [Streaming Media Devices], _BDANODE_DESCRIPTOR, bdaref_0610ecfc-d15b-4031-9d88-b041ef21e2fb.xml, bdatypes/BDANODE_DESCRIPTOR, bdatypes/PBDANODE_DESCRIPTOR, stream.bdanode_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDANODE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDANODE_DESCRIPTOR, *PBDANODE_DESCRIPTOR
 ---
@@ -50,18 +51,6 @@ req.typenames: BDANODE_DESCRIPTOR, *PBDANODE_DESCRIPTOR
 
 
 The BDANODE_DESCRIPTOR structure describes a BDA node. 
-
-
-## -syntax
-
-
-````
-typedef struct _BDANODE_DESCRIPTOR {
-  ULONG ulBdaNodeType;
-  GUID  guidFunction;
-  GUID  guidName;
-} BDANODE_DESCRIPTOR, *PBDANODE_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -86,16 +75,15 @@ GUID that can be used to store a string containing the name of the node. Applica
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556529">BDA Node Category GUIDs</a>
 
 
 
-<a href="..\ks\ns-ks-_ksnode_descriptor.md">KSNODE_DESCRIPTOR</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563473">KSNODE_DESCRIPTOR</a>
  
 
  
-
 

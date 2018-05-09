@@ -7,8 +7,8 @@ old-location: debugger\idebugeventcallbacks.htm
 old-project: debugger
 ms.assetid: f5e51d0e-0967-4e35-b24b-4bd99c975569
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComCallbacks_72745555-ec34-41fa-9305-cf23357bcd17.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], described, dbgeng/IDebugEventCallbacks, debugger.idebugeventcallbacks
+ms.date: 4/24/2018
+ms.keywords: ComCallbacks_72745555-ec34-41fa-9305-cf23357bcd17.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging],described, dbgeng/IDebugEventCallbacks, debugger.idebugeventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugEventCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugEventCallbacks interface
@@ -199,7 +200,7 @@ This method is called by the engine when a module-unload debugging event occurs 
 
 
 
-The <a href="..\dbgeng\nn-dbgeng-idebugeventcallbackswide.md">IDebugEventCallbacksWide</a> interface includes Unicode versions of these methods; the Unicode methods share the same names as those used by the methods in <b>IDebugEventCallbacks</b>.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550563">IDebugEventCallbacksWide</a> interface includes Unicode versions of these methods; the Unicode methods share the same names as those used by the methods in <b>IDebugEventCallbacks</b>.
 
 
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.PostStateChange
-title: ISensorClassExtension::PostStateChange method
+title: ISensorClassExtension::PostStateChange
 author: windows-driver-content
 description: The ISensorClassExtension::PostStateChange method notifies the sensor class extension about a change in the operational state of the sensor.
 old-location: sensors\isensorclassextension_poststatechange.htm
 old-project: sensors
 ms.assetid: ae3bc846-df63-4186-9554-f4600e1f2066
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorClassExtension, ISensorClassExtension interface [Sensor Devices], PostStateChange method, ISensorClassExtension::PostStateChange, PostStateChange method [Sensor Devices], PostStateChange method [Sensor Devices], ISensorClassExtension interface, PostStateChange,ISensorClassExtension.PostStateChange, Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml, sensors.isensorclassextension_poststatechange, sensorsclassextension/ISensorClassExtension::PostStateChange
+ms.date: 4/30/2018
+ms.keywords: ISensorClassExtension interface [Sensor Devices],PostStateChange method, ISensorClassExtension.PostStateChange, ISensorClassExtension::PostStateChange, PostStateChange, PostStateChange method [Sensor Devices], PostStateChange method [Sensor Devices],ISensorClassExtension interface, Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml, sensors.isensorclassextension_poststatechange, sensorsclassextension/ISensorClassExtension::PostStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,30 +39,19 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	ISensorClassExtension.PostStateChange
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorClassExtension::PostStateChange method
+# ISensorClassExtension::PostStateChange
 
 
 ## -description
 
 
 The <b>ISensorClassExtension::PostStateChange</b> method notifies the sensor class extension about a change in the operational state of the sensor.
-
-
-## -syntax
-
-
-````
-HRESULT PostStateChange(
-  [in] LPWSTR      pwszSensorID,
-  [in] SensorState State
-);
-````
 
 
 ## -parameters
@@ -85,7 +74,7 @@ HRESULT PostStateChange(
 #### - State [in]
 
 
-<a href="..\sensorsclassextension\ne-sensorsclassextension-__midl___midl_itf_windowssensorclassextension_0000_0000_0001.md">SensorState</a> value that indicates the new state.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545708">SensorState</a> value that indicates the new state.
 
 
 ## -returns
@@ -185,7 +174,10 @@ The following example code demonstrates a function that posts a state-changed ev
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545598">ISensorDriver::OnClientUnsubscribeFromEvents</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545503">ISensorClassExtension</a>
 
 
 
@@ -193,8 +185,8 @@ The following example code demonstrates a function that posts a state-changed ev
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545598">ISensorDriver::OnClientUnsubscribeFromEvents</a>
  
 
  
-
 

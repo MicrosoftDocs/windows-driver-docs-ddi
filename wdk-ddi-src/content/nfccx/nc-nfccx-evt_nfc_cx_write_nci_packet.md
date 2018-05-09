@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: B734439A-E345-44CC-8FD0-8E38A718A773
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: EVT_NFC_CX_WRITE_NCI_PACKET, EvtNfcCxWriteNciPacket, EvtNfcCxWriteNciPacket callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxWriteNciPacket, nfpdrivers.evtnfccxwritencipacket
+ms.keywords: EVT_NFC_CX_WRITE_NCI_PACKET, EVT_NFC_CX_WRITE_NCI_PACKET callback, EvtNfcCxWriteNciPacket, EvtNfcCxWriteNciPacket callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxWriteNciPacket, nfpdrivers.evtnfccxwritencipacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	nfccx.h
 api_name:
 -	EvtNfcCxWriteNciPacket
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NET_PNP_EVENT, *PNET_PNP_EVENT
+req.typenames: 
 ---
 
-# EVT_NFC_CX_WRITE_NCI_PACKET callback
+# EVT_NFC_CX_WRITE_NCI_PACKET callback function
 
 
 ## -description
 
 
 Called by the NFC CX to send a write packet to the client driver. The request code must match IOCTL_NFCCX_WRITE_PACKET. 
-
-
-## -prototype
-
-
-````
-EVT_NFC_CX_WRITE_NCI_PACKET EvtNfcCxWriteNciPacket;
-
-void EvtNfcCxWriteNciPacket(
-  _In_ WDFDEVICE  Device,
-  _In_ WDFREQUEST Request
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -101,16 +88,15 @@ The client driver should not make any blocking calls when handling this function
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

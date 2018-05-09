@@ -7,7 +7,7 @@ old-location: print\oemcopybits.htm
 old-project: print
 ms.assetid: bd7a8fc6-0d68-4d80-b622-90cd981f9d13
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMCopyBits, OEMCopyBits function [Print Devices], print.oemcopybits, print_unidrv-pscript_rendering_fbf15e40-01e8-4207-b130-b152a225025e.xml, printoem/OEMCopyBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMCopyBits
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMCopyBits function
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>OEMCopyBits</code> function performs translations between device-managed raster surfaces and GDI standard-format bitmaps. 
-
-
-## -syntax
-
-
-````
-BOOL  APIENTRY OEMCopyBits(
-   SURFOBJ  *psoDest,
-   SURFOBJ  *psoSrc,
-   CLIPOBJ  *pco,
-   XLATEOBJ *pxlo,
-   RECTL    *prclDest,
-   POINTL   *pptlSrc
-);
-````
 
 
 ## -parameters

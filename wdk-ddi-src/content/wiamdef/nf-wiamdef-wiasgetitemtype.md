@@ -7,7 +7,7 @@ old-location: image\wiasgetitemtype.htm
 old-project: image
 ms.assetid: 9659d669-ccf3-423a-9c81-12232a978d07
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasgetitemtype, wiamdef/wiasGetItemType, wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml, wiasGetItemType, wiasGetItemType function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasGetItemType
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasGetItemType function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasGetItemType </b>function indicates the item type.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetItemType(
-  _In_  BYTE *pWiasContext,
-  _Out_ LONG *plItemType
-);
-````
 
 
 ## -parameters

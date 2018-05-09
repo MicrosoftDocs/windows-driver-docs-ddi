@@ -7,7 +7,7 @@ old-location: stream\kshandshake.htm
 old-project: stream
 ms.assetid: fe163d23-0eaf-4a3e-b371-2f65f2235251
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSHANDSHAKE, KSHANDSHAKE, KSHANDSHAKE structure [Streaming Media Devices], PKSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml, ks/KSHANDSHAKE, ks/PKSHANDSHAKE, stream.kshandshake"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSHANDSHAKE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSHANDSHAKE, *PKSHANDSHAKE
 ---
@@ -50,18 +51,6 @@ req.typenames: KSHANDSHAKE, *PKSHANDSHAKE
 
 
 The KSHANDSHAKE structure is used to pass information back and forth while pins are handshaking in an attempt to negotiate a private interface.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  GUID  ProtocolId;
-  PVOID Argument1;
-  PVOID Argument2;
-} KSHANDSHAKE, *PKSHANDSHAKE;
-````
 
 
 ## -struct-fields
@@ -88,7 +77,7 @@ A pointer to an interface-dependent argument.
 
 
 
-See <a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a> for more information about negotiating private interfaces between AVStream pins.
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563519">KsPinHandshake</a> for more information about negotiating private interfaces between AVStream pins.
 
 Pin handshaking is a concept that is usable only between two pins that support IOCTL_KS_HANDSHAKE. Currently, only AVStream pins support this interface; thus this is only useful for negotiating private interfaces between two AVStream pins. Currently, connections between AVStream pins are negotiated via this mechanism.
 
@@ -97,16 +86,15 @@ Pin handshaking is a concept that is usable only between two pins that support I
 
 ## -see-also
 
-<a href="..\ks\ni-ks-ioctl_ks_handshake.md">IOCTL_KS_HANDSHAKE</a>
 
 
 
-<a href="..\ks\nf-ks-kspinhandshake.md">KsPinHandshake</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560813">IOCTL_KS_HANDSHAKE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563519">KsPinHandshake</a>
  
 
  
-
 

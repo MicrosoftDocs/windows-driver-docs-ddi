@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vidpn_present_path_content.htm
 old-project: display
 ms.assetid: 29423933-c3cf-4fe4-b79c-f82718163a23
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_CONTENT, D3DKMDT_VIDPN_PRESENT_PATH_CONTENT enumeration [Display Devices], D3DKMDT_VPPC_GRAPHICS, D3DKMDT_VPPC_NOTSPECIFIED, D3DKMDT_VPPC_UNINITIALIZED, D3DKMDT_VPPC_VIDEO, DmEnums_000ba351-38c5-4ab5-981c-15e4f44b3765.xml, _D3DKMDT_VIDPN_PRESENT_PATH_CONTENT, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_CONTENT, d3dkmdt/D3DKMDT_VPPC_GRAPHICS, d3dkmdt/D3DKMDT_VPPC_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPC_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPC_VIDEO, display.d3dkmdt_vidpn_present_path_content
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_VIDPN_PRESENT_PATH_CONTENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_CONTENT
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMDT_VIDPN_PRESENT_PATH_CONTENT
 
 
 The D3DKMDT_VIDPN_PRESENT_PATH_CONTENT enumeration is used to indicate the type of content that is displayed on a VidPN present path.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_VIDPN_PRESENT_PATH_CONTENT { 
-  D3DKMDT_VPPC_UNINITIALIZED  = 0,
-  D3DKMDT_VPPC_GRAPHICS       = 1,
-  D3DKMDT_VPPC_VIDEO          = 2,
-  D3DKMDT_VPPC_NOTSPECIFIED   = 255
-} D3DKMDT_VIDPN_PRESENT_PATH_CONTENT;
-````
 
 
 ## -enum-fields
@@ -94,7 +82,7 @@ Indicates that no content type has been specified.
 
 
 
-The <b>Content</b> member of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path.md">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a value from the D3DKMDT_VIDPN_PRESENT_PATH_CONTENT enumeration.
+The <b>Content</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546647">D3DKMDT_VIDPN_PRESENT_PATH</a> structure is a value from the D3DKMDT_VIDPN_PRESENT_PATH_CONTENT enumeration.
 
 
 

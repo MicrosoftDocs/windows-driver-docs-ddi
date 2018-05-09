@@ -7,7 +7,7 @@ old-location: bltooth\sdpfreetree.htm
 old-project: bltooth
 ms.assetid: 7d3f743e-2422-474d-aaad-4386e0dc100a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: SdpFreeTree, SdpFreeTree function [Bluetooth Devices], bltooth.sdpfreetree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml, sdplib/SdpFreeTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpFreeTree
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SdpFreeTree function
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The Bluetooth 
   <b>SdpFreeTree</b> function is used to free the memory allocated for the tree-based representation of an SDP
   record.
-
-
-## -syntax
-
-
-````
-NTSTATUS SdpFreeTree(
-  _In_ PSDP_TREE_ROOT_NODE Tree
-);
-````
 
 
 ## -parameters
@@ -90,18 +80,18 @@ Possible return values include:
 
 Callers should perform an 
     <b>SdpFreeTree</b> call when the tree-based representation of an SDP record is no longer needed. The 
-    <a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a> and 
-    <a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a> functions
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536818">SdpCreateNodeTree</a> and 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536794">SdpConvertStreamToTree</a> functions
     allocate the memory for the tree representations of SDP records that they create. The 
     <b>SdpFreeTree</b> function releases the memory allocated to the 
-    <a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a> structure that these
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536851">SDP_TREE_ROOT_NODE</a> structure that these
     functions create and all 
-    <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a> structures associated with the tree
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a> structures associated with the tree
     representation.
 
 Bluetooth profile drivers can obtain a pointer to the 
     <b>SdpFreeTree</b> function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">
+    <a href="https://msdn.microsoft.com/c9aeaaed-f017-4b23-b867-d704c4f8afb6">
     BTHDDI_SDP_NODE_INTERFACE</a> structure.
 
 
@@ -109,28 +99,27 @@ Bluetooth profile drivers can obtain a pointer to the
 
 ## -see-also
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a>
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536635">BTHDDI_SDP_NODE_INTERFACE</a>
 
 
 
-<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a>
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536851">SDP_TREE_ROOT_NODE</a>
 
 
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536794">SdpConvertStreamToTree</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536818">SdpCreateNodeTree</a>
  
 
  
-
 

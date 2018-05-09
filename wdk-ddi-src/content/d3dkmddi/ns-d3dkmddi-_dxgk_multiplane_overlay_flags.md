@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_flags.htm
 old-project: display
 ms.assetid: 2592e308-1d34-464f-8301-9ece54b4d017
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_FLAGS, DXGK_MULTIPLANE_OVERLAY_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_FLAGS, display.dxgk_multiplane_overlay_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_MULTIPLANE_OVERLAY_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_FLAGS
 ---
@@ -50,28 +51,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_FLAGS
 
 
 Identifies a flip operation to be performed on an overlay plane.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_FLAGS {
-  union {
-    struct {
-      UINT VerticalFlip  :1;
-      UINT HorizontalFlip  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-      UINT PanelFitterPostComposition;
-      UINT Reserved  :29;
-#else 
-      UINT Reserved  :30;
-#endif 
-    };
-    UINT   Value;
-  };
-} DXGK_MULTIPLANE_OVERLAY_FLAGS;
-````
 
 
 ## -struct-fields
@@ -100,15 +79,15 @@ This member is reserved and should be set to zero. Setting this member to zero i
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
+### -field Value
+
+A 32-bit value that identifies the type of flip operation to perform.
+
+
 #### - PanelFitterPostComposition
 
 Indicates that the plane is to be stretched using panel fitter hardware. 
                                                         This should only be set for plane 0. 
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
-
-
-#### - Value
-
-A 32-bit value that identifies the type of flip operation to perform.
 

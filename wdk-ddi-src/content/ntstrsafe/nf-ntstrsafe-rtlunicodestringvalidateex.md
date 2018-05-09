@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringvalidateex.htm
 old-project: kernel
 ms.assetid: 864935c4-28b8-4738-ac83-e51e6988248b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringValidateEx, RtlUnicodeStringValidateEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvalidateex, ntstrsafe/RtlUnicodeStringValidateEx, safestrings_dcb45919-f329-4637-b09b-f944ad034502.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ntstrsafe.dll
 api_name:
 -	RtlUnicodeStringValidateEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlUnicodeStringValidateEx function
@@ -50,18 +51,7 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ## -description
 
 
-The <b>RtlUnicodeStringValidateEx</b> function validates the contents of a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUnicodeStringValidateEx(
-  _In_ PCUNICODE_STRING SourceString,
-  _In_ DWORD            dwFlags
-);
-````
+The <b>RtlUnicodeStringValidateEx</b> function validates the contents of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure.
 
 
 ## -parameters
@@ -151,16 +141,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringvalidate.md">RtlUnicodeStringValidate</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562977">RtlUnicodeStringValidate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

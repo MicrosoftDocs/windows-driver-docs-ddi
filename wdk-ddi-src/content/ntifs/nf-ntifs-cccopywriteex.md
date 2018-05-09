@@ -7,7 +7,7 @@ old-location: ifsk\cccopywriteex.htm
 old-project: ifsk
 ms.assetid: A8945F1C-56CF-494F-9E50-11C7A713E5F0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: CcCopyWriteEx, CcCopyWriteEx routine [Installable File System Drivers], ifsk.cccopywriteex, ntifs/CcCopyWriteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcCopyWriteEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcCopyWriteEx function
@@ -50,21 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>CcCopyWriteEx</b> routine copies data from a user buffer to a cached file. The I/O byte count for the operation is charged to the issuing thread.
-
-
-## -syntax
-
-
-````
-BOOLEAN CcCopyWriteEx(
-  _In_ PFILE_OBJECT   FileObject,
-  _In_ PLARGE_INTEGER FileOffset,
-  _In_ ULONG          Length,
-  _In_ BOOLEAN        Wait,
-  _In_ PVOID          Buffer,
-  _In_ PETHREAD       IoIssuerThread
-);
-````
 
 
 ## -parameters
@@ -121,19 +107,18 @@ If <i>Wait</i> is <b>FALSE</b>, <b>CcCopyWriteEx</b> will refuse to block, and w
 
 If any failure occurs, <b>CcCopyWriteEx</b> raises a status exception for that particular failure. For example, if a pool allocation failure occurs, <b>CcCopyWriteEx</b> raises an exception with the <b>STATUS_INSUFFICIENT_RESOURCES</b> status; if an I/O error occurs, <b>CcCopyWriteEx</b> raises the status exception of the I/O error. Therefore, to gain control if a failure occurs, the driver should wrap the call to <b>CcCopyWriteEx</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
-To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>.
+To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcInitializeCacheMap</a>
  
 
  
-
 

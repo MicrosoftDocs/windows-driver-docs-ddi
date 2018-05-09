@@ -7,7 +7,7 @@ old-location: print\drvsplabort.htm
 old-project: print
 ms.assetid: b40dff76-4330-4527-b1f6-69f625732604
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: DrvSplAbort, DrvSplAbort function [Print Devices], print.drvsplabort, print_interface-graphics_78bb32ad-7688-4ea9-9369-93db9d2eea96.xml, winddiui/DrvSplAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvSplAbort
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # DrvSplAbort function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-VOID WINAPI DrvSplAbort(
-   HANDLE hDriver
-);
-````
 
 
 ## -parameters
@@ -78,7 +68,7 @@ VOID WINAPI DrvSplAbort(
 This function does not return a value.
 
 <h2><a id="ddk_drvsplabort_gg"></a><a id="DDK_DRVSPLABORT_GG"></a></h2>
-The <b>DrvSplAbort</b> function is obsolete, and is supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later. Use <a href="..\winddiui\nf-winddiui-drvdocumentevent.md">DrvDocumentEvent</a> instead of this function.
+The <b>DrvSplAbort</b> function is obsolete, and is supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff548544">DrvDocumentEvent</a> instead of this function.
 
 The <b>DrvSplAbort</b> function enables a user-mode rendering DLL to respond to a request to cancel a print job.
 

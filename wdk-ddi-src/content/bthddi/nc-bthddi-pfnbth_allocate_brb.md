@@ -7,8 +7,8 @@ old-location: bltooth\bthallocatebrb.htm
 old-project: bltooth
 ms.assetid: e1ac9d4c-75e2-4d37-86d7-3c3f1486222e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: BthAllocateBrb, BthAllocateBrb callback function [Bluetooth Devices], PFNBTH_ALLOCATE_BRB, bltooth.bthallocatebrb, bth_funcs_db0aa96f-62de-40f5-bcce-2aa7e930af3d.xml, bthddi/BthAllocateBrb
+ms.date: 4/27/2018
+ms.keywords: BthAllocateBrb, BthAllocateBrb callback function [Bluetooth Devices], PFNBTH_ALLOCATE_BRB, PFNBTH_ALLOCATE_BRB callback, bltooth.bthallocatebrb, bth_funcs_db0aa96f-62de-40f5-bcce-2aa7e930af3d.xml, bthddi/BthAllocateBrb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	bthddi.h
 api_name:
 -	BthAllocateBrb
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# PFNBTH_ALLOCATE_BRB callback
+# PFNBTH_ALLOCATE_BRB callback function
 
 
 ## -description
@@ -51,20 +52,6 @@ req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 
 The 
   <i>BthAllocateBrb</i> function allocates a Bluetooth request block (BRB) of the specified type.
-
-
-## -prototype
-
-
-````
-PFNBTH_ALLOCATE_BRB BthAllocateBrb;
-
-PBRB BthAllocateBrb(
-  _In_ BRB_TYPE brbType,
-  _In_ ULONG    tag
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -75,7 +62,7 @@ PBRB BthAllocateBrb(
 ### -param brbType [in]
 
 Specifies a value from the 
-     <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a> enumeration to initialize the BRB
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536631">BRB_TYPE</a> enumeration to initialize the BRB
      with.
 
 
@@ -84,7 +71,7 @@ Specifies a value from the
 Specifies a 4-byte 
      pool tag that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 
-     <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
 
 
 ## -returns
@@ -112,20 +99,19 @@ Profile drivers obtain a pointer to the
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536631">BRB_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>
+
+
+
 pool tag
-
-
-
-<a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
  
 
  
-
 

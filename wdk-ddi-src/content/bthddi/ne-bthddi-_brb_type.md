@@ -7,7 +7,7 @@ old-location: bltooth\brb_type.htm
 old-project: bltooth
 ms.assetid: 590e13cf-6cbc-4a7f-a68e-ada4a5027ed2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: BRB_ACL_ENTER_ACTIVE_MODE, BRB_GET_DEVICE_INTERFACE_STRING, BRB_HCI_GET_LOCAL_BD_ADDR, BRB_L2CA_ACL_TRANSFER, BRB_L2CA_CLOSE_CHANNEL, BRB_L2CA_INFO_REQUEST, BRB_L2CA_OPEN_CHANNEL, BRB_L2CA_OPEN_CHANNEL_RESPONSE, BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE, BRB_L2CA_PING, BRB_L2CA_REGISTER_SERVER, BRB_L2CA_UNREGISTER_SERVER, BRB_L2CA_UPDATE_CHANNEL, BRB_REGISTER_PSM, BRB_SCO_CLOSE_CHANNEL, BRB_SCO_FLUSH_CHANNEL, BRB_SCO_GET_CHANNEL_INFO, BRB_SCO_GET_SYSTEM_INFO, BRB_SCO_OPEN_CHANNEL, BRB_SCO_OPEN_CHANNEL_RESPONSE, BRB_SCO_OPEN_UNMANAGED_CHANNEL, BRB_SCO_OPEN_UNMANAGED_CHANNEL_RESPONSE, BRB_SCO_REGISTER_SERVER, BRB_SCO_TRANSFER, BRB_SCO_UNREGISTER_SERVER, BRB_STORED_LINK_KEY, BRB_TYPE, BRB_TYPE enumeration [Bluetooth Devices], BRB_UNREGISTER_PSM, _BRB_TYPE, bltooth.brb_type, bth_enums_6d3541ca-7ba6-4430-9d97-55d88bea987f.xml, bthddi/BRB_ACL_ENTER_ACTIVE_MODE, bthddi/BRB_GET_DEVICE_INTERFACE_STRING, bthddi/BRB_HCI_GET_LOCAL_BD_ADDR, bthddi/BRB_L2CA_ACL_TRANSFER, bthddi/BRB_L2CA_CLOSE_CHANNEL, bthddi/BRB_L2CA_INFO_REQUEST, bthddi/BRB_L2CA_OPEN_CHANNEL, bthddi/BRB_L2CA_OPEN_CHANNEL_RESPONSE, bthddi/BRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE, bthddi/BRB_L2CA_PING, bthddi/BRB_L2CA_REGISTER_SERVER, bthddi/BRB_L2CA_UNREGISTER_SERVER, bthddi/BRB_L2CA_UPDATE_CHANNEL, bthddi/BRB_REGISTER_PSM, bthddi/BRB_SCO_CLOSE_CHANNEL, bthddi/BRB_SCO_FLUSH_CHANNEL, bthddi/BRB_SCO_GET_CHANNEL_INFO, bthddi/BRB_SCO_GET_SYSTEM_INFO, bthddi/BRB_SCO_OPEN_CHANNEL, bthddi/BRB_SCO_OPEN_CHANNEL_RESPONSE, bthddi/BRB_SCO_OPEN_UNMANAGED_CHANNEL, bthddi/BRB_SCO_OPEN_UNMANAGED_CHANNEL_RESPONSE, bthddi/BRB_SCO_REGISTER_SERVER, bthddi/BRB_SCO_TRANSFER, bthddi/BRB_SCO_UNREGISTER_SERVER, bthddi/BRB_STORED_LINK_KEY, bthddi/BRB_TYPE, bthddi/BRB_UNREGISTER_PSM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	BRB_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BRB_TYPE
 ---
@@ -51,43 +52,6 @@ req.typenames: BRB_TYPE
 
 The <b>BRB_TYPE</b> enumeration type is used to determine the Bluetooth request block when a profile driver 
   <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">builds and sends</a> a BRB.
-
-
-## -syntax
-
-
-````
-typedef enum _BRB_TYPE { 
-  BRB_HCI_GET_LOCAL_BD_ADDR                = 0x0001,
-  BRB_L2CA_REGISTER_SERVER                 = 0x0100,
-  BRB_L2CA_UNREGISTER_SERVER               = 0x0101,
-  BRB_L2CA_OPEN_CHANNEL                    = 0x0102,
-  BRB_L2CA_OPEN_CHANNEL_RESPONSE           = 0x0103,
-  BRB_L2CA_CLOSE_CHANNEL                   = 0x0104,
-  BRB_L2CA_ACL_TRANSFER                    = 0x0105,
-  BRB_L2CA_UPDATE_CHANNEL                  = 0x0106,
-  BRB_L2CA_PING                            = 0x0107,
-  BRB_L2CA_INFO_REQUEST                    = 0x0108,
-  BRB_REGISTER_PSM                         = 0x0109,
-  BRB_UNREGISTER_PSM                       = 0x010a,
-  BRB_SCO_REGISTER_SERVER                  = 0x0200,
-  BRB_SCO_UNREGISTER_SERVER                = 0x0201,
-  BRB_SCO_OPEN_CHANNEL                     = 0x0202,
-  BRB_SCO_OPEN_CHANNEL_RESPONSE            = 0x0203,
-  BRB_SCO_CLOSE_CHANNEL                    = 0x0204,
-  BRB_SCO_TRANSFER                         = 0x0205,
-  BRB_SCO_GET_CHANNEL_INFO                 = 0x0207,
-  BRB_SCO_GET_SYSTEM_INFO                  = 0x0209,
-  BRB_SCO_FLUSH_CHANNEL                    = 0x020a,
-  BRB_SCO_OPEN_UNMANAGED_CHANNEL           = 0x0210,
-  BRB_SCO_OPEN_UNMANAGED_CHANNEL_RESPONSE  = 0x0211,
-  BRB_L2CA_OPEN_ENHANCED_CHANNEL           = 0x0212,
-  BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE  = 0x0213,
-  BRB_ACL_ENTER_ACTIVE_MODE                = 0x0301,
-  BRB_STORED_LINK_KEY                      = 0x0310,
-  BRB_GET_DEVICE_INTERFACE_STRING          = 0x0320
-} BRB_TYPE;
-````
 
 
 ## -enum-fields
@@ -304,9 +268,9 @@ This value declares a
 
 The type of BRB is specified in the 
     <b>Type</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure. The 
-    <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a> and 
-    <a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a> functions automatically
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure. The 
+    <a href="https://msdn.microsoft.com/e1ac9d4c-75e2-4d37-86d7-3c3f1486222e">BthAllocateBrb</a> and 
+    <a href="https://msdn.microsoft.com/0b822d28-edaa-40cc-a678-112a356d9022">BthInitializeBrb</a> functions automatically
     set the 
     <b>Type</b> member.
 
@@ -315,28 +279,27 @@ The type of BRB is specified in the
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb.md">BRB</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536607">BRB</a>
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+<a href="https://msdn.microsoft.com/e1ac9d4c-75e2-4d37-86d7-3c3f1486222e">BthAllocateBrb</a>
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+<a href="https://msdn.microsoft.com/0b822d28-edaa-40cc-a678-112a356d9022">BthInitializeBrb</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536751">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
  
 
  
-
 

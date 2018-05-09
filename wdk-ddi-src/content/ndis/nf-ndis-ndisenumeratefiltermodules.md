@@ -7,7 +7,7 @@ old-location: netvista\ndisenumeratefiltermodules.htm
 old-project: netvista
 ms.assetid: cab7609e-cf87-46f6-af23-891e19ef1b80
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisEnumerateFilterModules, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, ndis/NdisEnumerateFilterModules, netvista.ndisenumeratefiltermodules
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisEnumerateFilterModules
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisEnumerateFilterModules function
@@ -53,20 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisEnumerateFilterModules</b> function enumerates all the filters modules and filter intermediate driver
   instances in a filter stack.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisEnumerateFilterModules(
-  _In_    NDIS_HANDLE NdisHandle,
-  _In_    PVOID       InterfaceBuffer,
-  _In_    ULONG       InterfaceBufferLength,
-  _Inout_ PULONG      BytesNeeded,
-  _Inout_ PULONG      BytesWritten
-);
-````
 
 
 ## -parameters
@@ -97,9 +84,9 @@ If the handle is an NDIS filter module handle, NDIS returns information about al
 
 A pointer to a caller-allocated memory block in which NDIS returns the information for all the
      filter modules in a filter stack, starting with top-most filter. This buffer contains an 
-     <a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a> structure that is
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565457">NDIS_ENUM_FILTERS</a> structure that is
      followed by zero or more 
-     <a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a> structures, one
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565532">NDIS_FILTER_INTERFACE</a> structures, one
      for each filter module in the stack.
 
 
@@ -199,16 +186,15 @@ An NDIS miniport driver, protocol driver, or filter driver can call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_enum_filters.md">NDIS_ENUM_FILTERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_filter_interface.md">NDIS_FILTER_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565457">NDIS_ENUM_FILTERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565532">NDIS_FILTER_INTERFACE</a>
  
 
  
-
 

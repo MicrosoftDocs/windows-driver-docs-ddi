@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni2.GetNamedCommand
-title: IPrintCoreHelperUni2::GetNamedCommand method
+title: IPrintCoreHelperUni2::GetNamedCommand
 author: windows-driver-content
 description: The GetNamedCommand method returns the specified command.
 old-location: print\iprintcorehelperuni2_getnamedcommand.htm
 old-project: print
 ms.assetid: A9C9C69E-8C89-4131-996F-A48AD9E9D244
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetNamedCommand method [Print Devices], GetNamedCommand method [Print Devices], IPrintCoreHelperUni2 interface, GetNamedCommand,IPrintCoreHelperUni2.GetNamedCommand, IPrintCoreHelperUni2, IPrintCoreHelperUni2 interface [Print Devices], GetNamedCommand method, IPrintCoreHelperUni2::GetNamedCommand, prcomoem/IPrintCoreHelperUni2::GetNamedCommand, print.iprintcorehelperuni2_getnamedcommand
+ms.date: 4/20/2018
+ms.keywords: GetNamedCommand, GetNamedCommand method [Print Devices], GetNamedCommand method [Print Devices],IPrintCoreHelperUni2 interface, IPrintCoreHelperUni2 interface [Print Devices],GetNamedCommand method, IPrintCoreHelperUni2.GetNamedCommand, IPrintCoreHelperUni2::GetNamedCommand, prcomoem/IPrintCoreHelperUni2::GetNamedCommand, print.iprintcorehelperuni2_getnamedcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreHelperUni2.GetNamedCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperUni2::GetNamedCommand method
+# IPrintCoreHelperUni2::GetNamedCommand
 
 
 ## -description
 
 
 The <b>GetNamedCommand</b> method returns the specified command.
-
-
-## -syntax
-
-
-````
-HRESULT GetNamedCommand(
-  [in]  PDEVMODE pDevmode,
-  [in]  DWORD    cbSize,
-  [in]  LPCWSTR  pszCommandName,
-  [out] PBYTE    **ppCommandBytes,
-  [out] DWORD    *pcbCommandSize
-);
-````
 
 
 ## -parameters
@@ -125,12 +111,11 @@ The <b>GetNamedCommand</b> method will not return commands containing references
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni2.md">IPrintCoreHelperUni2</a>
 
 
 
+<a href="https://msdn.microsoft.com/F7EC4309-1274-4DA1-B006-A716627010F6">IPrintCoreHelperUni2</a>
  
 
  
-
 

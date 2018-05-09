@@ -7,7 +7,7 @@ old-location: display\dxgkarg_setvidpnsourcevisibility.htm
 old-project: display
 ms.assetid: 073fbcc4-57d8-4709-9605-a3440b5e8e17
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_SETVIDPNSOURCEVISIBILITY, DXGKARG_SETVIDPNSOURCEVISIBILITY structure [Display Devices], DmStructs_877a0a99-de1a-4f16-81af-e9dae624281a.xml, _DXGKARG_SETVIDPNSOURCEVISIBILITY, d3dkmddi/DXGKARG_SETVIDPNSOURCEVISIBILITY, display.dxgkarg_setvidpnsourcevisibility
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_SETVIDPNSOURCEVISIBILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_SETVIDPNSOURCEVISIBILITY
 ---
@@ -49,18 +50,7 @@ req.typenames: DXGKARG_SETVIDPNSOURCEVISIBILITY
 ## -description
 
 
-The DXGKARG_SETVIDPNSOURCEVISIBILITY structure contains arguments for the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility.md">DxgkDdiSetVidPnSourceVisibility</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETVIDPNSOURCEVISIBILITY {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  BOOLEAN                        Visible;
-} DXGKARG_SETVIDPNSOURCEVISIBILITY;
-````
+The DXGKARG_SETVIDPNSOURCEVISIBILITY structure contains arguments for the <a href="https://msdn.microsoft.com/c94473b4-b898-456d-944d-8879adea16d1">DxgkDdiSetVidPnSourceVisibility</a> function.
 
 
 ## -struct-fields
@@ -77,17 +67,16 @@ An integer that identifies a video present source on the display adapter.
 
 A Boolean value that specifies whether the video output codec associated with the source must start scanning or stop scanning the source's primary surface. If <b>Visible</b> is <b>TRUE</b>, the codec must start scanning. 
 
-If <b>Visible</b> is <b>FALSE</b>, the codec must stop scanning. However, a VSync signal should be generated even if a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility.md">DxgkDdiSetVidPnSourceVisibility</a> function sets <b>Visible</b> to <b>FALSE</b>.
+If <b>Visible</b> is <b>FALSE</b>, the codec must stop scanning. However, a VSync signal should be generated even if a call to the <a href="https://msdn.microsoft.com/c94473b4-b898-456d-944d-8879adea16d1">DxgkDdiSetVidPnSourceVisibility</a> function sets <b>Visible</b> to <b>FALSE</b>.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility.md">DxgkDdiSetVidPnSourceVisibility</a>
 
 
 
+<a href="https://msdn.microsoft.com/c94473b4-b898-456d-944d-8879adea16d1">DxgkDdiSetVidPnSourceVisibility</a>
  
 
  
-
 

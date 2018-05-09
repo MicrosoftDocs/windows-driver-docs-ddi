@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_lh.IWiaSegmentationFilter.DetectRegions
-title: IWiaSegmentationFilter::DetectRegions method
+title: IWiaSegmentationFilter::DetectRegions
 author: windows-driver-content
 description: The IWiaSegmentationFilter::DetectRegions method determines the subregions of an image laid out on the flatbed platen so that each subregion can be acquired into a separate image item.
 old-location: image\iwiasegmentationfilter_detectregions.htm
 old-project: image
 ms.assetid: 53ad769e-38b5-463d-9fa0-053c2215cc81
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DetectRegions method [Imaging Devices], DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, DetectRegions,IWiaSegmentationFilter.DetectRegions, IWiaSegmentationFilter, IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, IWiaSegmentationFilter::DetectRegions, image.iwiasegmentationfilter_detectregions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, wia_lh/IWiaSegmentationFilter::DetectRegions
+ms.date: 4/23/2018
+ms.keywords: DetectRegions, DetectRegions method [Imaging Devices], DetectRegions method [Imaging Devices],IWiaSegmentationFilter interface, IWiaSegmentationFilter interface [Imaging Devices],DetectRegions method, IWiaSegmentationFilter.DetectRegions, IWiaSegmentationFilter::DetectRegions, image.iwiasegmentationfilter_detectregions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, wia_lh/IWiaSegmentationFilter::DetectRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	wia_lh.h
 api_name:
 -	IWiaSegmentationFilter.DetectRegions
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaSegmentationFilter::DetectRegions method
+# IWiaSegmentationFilter::DetectRegions
 
 
 ## -description
 
 
 The <b>IWiaSegmentationFilter::DetectRegions</b> method determines the subregions of an image laid out on the flatbed platen so that each subregion can be acquired into a separate image item.
-
-
-## -syntax
-
-
-````
-HRESULT DetectRegions(
-  [in]           LONG      lFlags,
-  [in, optional] IStream   *pInputStream ,
-  [in, optional] IWiaItem2 *pWiaItem2
-);
-````
 
 
 ## -parameters

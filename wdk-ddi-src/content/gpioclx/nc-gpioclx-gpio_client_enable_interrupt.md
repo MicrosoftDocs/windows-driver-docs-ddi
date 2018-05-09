@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: BCCD3046-A7CE-4CD7-82A5-78F0A3684BA4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_EnableInterrupt, CLIENT_EnableInterrupt callback function [Parallel Ports], GPIO.client_enableinterrupt, GPIO_CLIENT_ENABLE_INTERRUPT, gpioclx/CLIENT_EnableInterrupt
+ms.keywords: CLIENT_EnableInterrupt, CLIENT_EnableInterrupt callback, CLIENT_EnableInterrupt callback function [Parallel Ports], GPIO.client_enableinterrupt, GPIO_CLIENT_ENABLE_INTERRUPT, gpioclx/CLIENT_EnableInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_EnableInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_ENABLE_INTERRUPT callback
+# GPIO_CLIENT_ENABLE_INTERRUPT callback function
 
 
 ## -description
 
 
 The <i>CLIENT_EnableInterrupt</i> event callback function enables interrupts on a general-purpose I/O (GPIO) pin that is configured as an interrupt input.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_ENABLE_INTERRUPT CLIENT_EnableInterrupt;
-
-NTSTATUS CLIENT_EnableInterrupt(
-  _In_ PVOID                             Context,
-  _In_ PGPIO_ENABLE_INTERRUPT_PARAMETERS InterruptParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -152,15 +139,10 @@ The GPIO_CLIENT_ENABLE_INTERRUPT function type is defined in the Gpioclx.h heade
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439371">CLIENT_DisableInterrupt</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406464">GPIO_ENABLE_INTERRUPT_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
@@ -168,8 +150,12 @@ The GPIO_CLIENT_ENABLE_INTERRUPT function type is defined in the Gpioclx.h heade
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406464">GPIO_ENABLE_INTERRUPT_PARAMETERS</a>
  
 
  
-
 

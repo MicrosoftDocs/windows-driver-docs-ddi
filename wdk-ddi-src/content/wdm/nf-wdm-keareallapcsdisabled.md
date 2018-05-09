@@ -7,7 +7,7 @@ old-location: kernel\keareallapcsdisabled.htm
 old-project: kernel
 ms.assetid: b4b57819-e2c9-4ac3-989e-c5e064f7487b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KeAreAllApcsDisabled, KeAreAllApcsDisabled routine [Kernel-Mode Driver Architecture], k105_91675ec9-bef3-4ef8-9403-14999e018745.xml, kernel.keareallapcsdisabled, wdm/KeAreAllApcsDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeAreAllApcsDisabled
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeAreAllApcsDisabled function
@@ -51,14 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeAreAllApcsDisabled</b> routine indicates whether the calling thread is inside a guarded region or running at IRQL &gt;= APC_LEVEL, which disables all APC delivery.
-
-
-## -syntax
-
-
-````
-BOOLEAN KeAreAllApcsDisabled(void);
-````
 
 
 ## -parameters
@@ -88,12 +80,11 @@ A thread inside a guarded region or running at IRQL &gt;= APC_LEVEL has all APCs
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keareapcsdisabled.md">KeAreApcsDisabled</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551938">KeAreApcsDisabled</a>
  
 
  
-
 

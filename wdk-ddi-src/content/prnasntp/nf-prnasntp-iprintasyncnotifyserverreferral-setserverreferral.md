@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyServerReferral.SetServerReferral
-title: IPrintAsyncNotifyServerReferral::SetServerReferral method
+title: IPrintAsyncNotifyServerReferral::SetServerReferral
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnotifyserverreferral_setserverreferral.htm
 old-project: print
 ms.assetid: 6555386C-8589-424A-9640-530B0C625DE2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintAsyncNotifyServerReferral, IPrintAsyncNotifyServerReferral interface [Print Devices], SetServerReferral method, IPrintAsyncNotifyServerReferral::SetServerReferral, SetServerReferral method [Print Devices], SetServerReferral method [Print Devices], IPrintAsyncNotifyServerReferral interface, SetServerReferral,IPrintAsyncNotifyServerReferral.SetServerReferral, print.iprintasyncnotifyserverreferral_setserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::SetServerReferral
+ms.date: 4/20/2018
+ms.keywords: IPrintAsyncNotifyServerReferral interface [Print Devices],SetServerReferral method, IPrintAsyncNotifyServerReferral.SetServerReferral, IPrintAsyncNotifyServerReferral::SetServerReferral, SetServerReferral, SetServerReferral method [Print Devices], SetServerReferral method [Print Devices],IPrintAsyncNotifyServerReferral interface, print.iprintasyncnotifyserverreferral_setserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::SetServerReferral
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncNotifyServerReferral.SetServerReferral
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintAsyncNotifyServerReferral::SetServerReferral method
+# IPrintAsyncNotifyServerReferral::SetServerReferral
 
 
 ## -description
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT SetServerReferral(
-  [in] PCWSTR pRmtServerReferral
-);
-````
 
 
 ## -parameters
@@ -82,12 +72,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasyncnotifyserverreferral.md">IPrintAsyncNotifyServerReferral</a>
 
 
 
+<a href="https://msdn.microsoft.com/46B3C57E-EE02-4821-9D5F-A2005CFC2998">IPrintAsyncNotifyServerReferral</a>
  
 
  
-
 

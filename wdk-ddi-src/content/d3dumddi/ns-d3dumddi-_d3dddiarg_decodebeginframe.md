@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_decodebeginframe.htm
 old-project: display
 ms.assetid: 8219beee-b27c-4f81-aef7-8d38363d4645
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_DECODEBEGINFRAME, D3DDDIARG_DECODEBEGINFRAME structure [Display Devices], UMDisplayDriver_param_Structs_fdee5664-6d7b-4d54-ac34-69d216f05896.xml, _D3DDDIARG_DECODEBEGINFRAME, d3dumddi/D3DDDIARG_DECODEBEGINFRAME, display.d3dddiarg_decodebeginframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_DECODEBEGINFRAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_DECODEBEGINFRAME
 ---
@@ -52,17 +53,6 @@ req.typenames: D3DDDIARG_DECODEBEGINFRAME
 The D3DDDIARG_DECODEBEGINFRAME structure specifies the Microsoft DirectX Video Accelerator (VA) decoder that should start decoding a frame. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DECODEBEGINFRAME {
-  HANDLE             hDecode;
-  DXVADDI_PVP_SETKEY *pPVPSetKey;
-} D3DDDIARG_DECODEBEGINFRAME;
-````
-
-
 ## -struct-fields
 
 
@@ -70,30 +60,29 @@ typedef struct _D3DDDIARG_DECODEBEGINFRAME {
 
 ### -field hDecode
 
-A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a> function.
+A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a> function.
 
 
 ### -field pPVPSetKey
 
-A pointer to the <a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_setkey.md">DXVADDI_PVP_SETKEY</a> structure that contains a key that the driver requires for the decode device to start operating. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562925">DXVADDI_PVP_SETKEY</a> structure that contains a key that the driver requires for the decode device to start operating. 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_setkey.md">DXVADDI_PVP_SETKEY</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a>
+<a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdecodedevice.md">CreateDecodeDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562925">DXVADDI_PVP_SETKEY</a>
 
 
 
+<a href="https://msdn.microsoft.com/3e6153aa-7b21-429d-8908-1ff3a4d25e17">DecodeBeginFrame</a>
  
 
  
-
 

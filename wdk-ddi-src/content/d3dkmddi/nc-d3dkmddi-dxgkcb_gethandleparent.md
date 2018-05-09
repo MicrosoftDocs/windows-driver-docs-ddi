@@ -7,8 +7,8 @@ old-location: display\dxgkcbgethandleparent.htm
 old-project: display
 ms.assetid: db8e7a91-d62a-4d2f-ac21-266e365a352c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKCB_GETHANDLEPARENT, DpFunctions_7094d9b1-3262-45b9-88de-e834878b6b2d.xml, DxgkCbGetHandleParent, DxgkCbGetHandleParent callback function [Display Devices], d3dkmddi/DxgkCbGetHandleParent, display.dxgkcbgethandleparent
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_GETHANDLEPARENT, DXGKCB_GETHANDLEPARENT callback, DpFunctions_7094d9b1-3262-45b9-88de-e834878b6b2d.xml, DxgkCbGetHandleParent, DxgkCbGetHandleParent callback function [Display Devices], d3dkmddi/DxgkCbGetHandleParent, display.dxgkcbgethandleparent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,31 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkCbGetHandleParent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKCB_GETHANDLEPARENT callback
+# DXGKCB_GETHANDLEPARENT callback function
 
 
 ## -description
 
 
 The <b>DxgkCbGetHandleParent</b> function retrieves the parent resource from the specified allocation.
-
-
-## -prototype
-
-
-````
-DXGKCB_GETHANDLEPARENT DxgkCbGetHandleParent;
-
-D3DKMT_HANDLE APIENTRY DxgkCbGetHandleParent(
-  _In_ D3DKMT_HANDLE hAllocation
-)
-{ ... }
-````
 
 
 ## -parameters

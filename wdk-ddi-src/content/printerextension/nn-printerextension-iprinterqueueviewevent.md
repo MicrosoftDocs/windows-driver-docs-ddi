@@ -7,8 +7,8 @@ old-location: print\iprinterqueueviewevent.htm
 old-project: print
 ms.assetid: 23951787-C147-43A6-99D6-71AC037F6A43
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterQueueViewEvent, IPrinterQueueViewEvent interface [Print Devices], IPrinterQueueViewEvent interface [Print Devices], described, print.iprinterqueueviewevent, printerextension/IPrinterQueueViewEvent
+ms.date: 4/20/2018
+ms.keywords: IPrinterQueueViewEvent, IPrinterQueueViewEvent interface [Print Devices], IPrinterQueueViewEvent interface [Print Devices],described, print.iprinterqueueviewevent, printerextension/IPrinterQueueViewEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterQueueViewEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterQueueViewEvent interface
@@ -73,7 +73,7 @@ The <b>IPrinterQueueViewEvent</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265394">OnChanged</a>
 </td>
 <td align="left" width="63%">
-Provides an <a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a> object that provides a snapshot of a range of print jobs in the queue.
+Provides an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a> object that provides a snapshot of a range of print jobs in the queue.
 
 </td>
 </tr>
@@ -91,12 +91,11 @@ Provides an <a href="..\printerextension\nn-printerextension-iprintjobcollection
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
-
-
-
  
 
  
-
 

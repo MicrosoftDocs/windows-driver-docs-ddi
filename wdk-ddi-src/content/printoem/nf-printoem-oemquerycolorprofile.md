@@ -7,7 +7,7 @@ old-location: print\oemquerycolorprofile.htm
 old-project: print
 ms.assetid: a33a216d-f97e-44be-b9a5-bdadf1c422e1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMQueryColorProfile, OEMQueryColorProfile function [Print Devices], print.oemquerycolorprofile, print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, printoem/OEMQueryColorProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMQueryColorProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMQueryColorProfile function
@@ -50,23 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMQueryColorProfile(
-        HANDLE                               hPrinter,
-        POEMUIOBJ                            poemuiobj,
-        PDEVMODE                             pPublicDM,
-        PVOID                                pOEMDM,
-        ULONG                                ulQueryMode,
-  _Out_ _writes_bytes_(*pcbProfileData) VOID *pvProfileData,
-  _Out_ ULONG                                *pcbProfileData,
-  _Out_ FLONG                                *pflProfileData
-);
-````
 
 
 ## -parameters

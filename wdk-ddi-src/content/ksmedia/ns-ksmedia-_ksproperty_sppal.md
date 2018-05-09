@@ -7,7 +7,7 @@ old-location: stream\ksproperty_sppal.htm
 old-project: stream
 ms.assetid: b6c50f2f-efc7-415f-895b-fcffb2575fe8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_SPPAL, KSPROPERTY_SPPAL, KSPROPERTY_SPPAL structure [Streaming Media Devices], PKSPROPERTY_SPPAL, PKSPROPERTY_SPPAL structure pointer [Streaming Media Devices], _KSPROPERTY_SPPAL, dvdref_002f96c4-a499-4f93-8c3a-b083ed7a3339.xml, ksmedia/KSPROPERTY_SPPAL, ksmedia/PKSPROPERTY_SPPAL, stream.ksproperty_sppal"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_SPPAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SPPAL, *PKSPROPERTY_SPPAL
 ---
@@ -50,16 +51,6 @@ req.typenames: KSPROPERTY_SPPAL, *PKSPROPERTY_SPPAL
 
 
 The KSPROPERTY_SPPAL structure is used to describe the palette of a subpicture display.
-
-
-## -syntax
-
-
-````
-typedef struct _KSPROPERTY_SPPAL {
-  KS_DVD_YUV sppal[16];
-} KSPROPERTY_SPPAL, *PKSPROPERTY_SPPAL;
-````
 
 
 ## -struct-fields
@@ -83,12 +74,11 @@ The KSPROPERTY_SPPAL structure is used by the <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565151">KSPROPERTY_DVDSUBPIC_PALETTE</a>
-
-
-
  
 
  
-
 

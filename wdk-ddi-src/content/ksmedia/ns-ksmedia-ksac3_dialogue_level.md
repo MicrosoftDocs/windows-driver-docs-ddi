@@ -7,7 +7,7 @@ old-location: audio\ksac3_dialogue_level.htm
 old-project: audio
 ms.assetid: c29d5cbc-ddcc-42e9-ac2d-e442a489adfd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL structure [Audio Devices], PKSAC3_DIALOGUE_LEVEL, PKSAC3_DIALOGUE_LEVEL structure pointer [Audio Devices], aud-prop_223d9fe5-3b60-46b4-a157-7ddab97a75f8.xml, audio.ksac3_dialogue_level, ksmedia/KSAC3_DIALOGUE_LEVEL, ksmedia/PKSAC3_DIALOGUE_LEVEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAC3_DIALOGUE_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAC3_DIALOGUE_LEVEL, *PKSAC3_DIALOGUE_LEVEL
 ---
@@ -50,16 +51,6 @@ req.typenames: KSAC3_DIALOGUE_LEVEL, *PKSAC3_DIALOGUE_LEVEL
 
 
 The KSAC3_DIALOGUE_LEVEL structure specifies the average volume level of spoken dialog within the audio program encoded in an AC-3 stream.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG DialogueLevel;
-} KSAC3_DIALOGUE_LEVEL, *PKSAC3_DIALOGUE_LEVEL;
-````
 
 
 ## -struct-fields
@@ -85,12 +76,11 @@ For more information about dialog levels, see the AC-3 specification at the <a h
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537212">KSPROPERTY_AC3_BIT_STREAM_MODE</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	SPEED_MAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPEED_MAP, *PSPEED_MAP
 ---
@@ -50,19 +51,6 @@ req.typenames: SPEED_MAP, *PSPEED_MAP
 
 
 The SPEED_MAP structure is stores a IEEE 1394 bus speed map.
-
-
-## -syntax
-
-
-````
-typedef struct _SPEED_MAP {
-  USHORT SPD_Length;
-  USHORT SPD_CRC;
-  ULONG  SPD_Generation;
-  UCHAR  SPD_Speed_Code[4032];
-} SPEED_MAP, *PSPEED_MAP;
-````
 
 
 ## -struct-fields
@@ -107,12 +95,11 @@ The SPEED_MAP structure describes the maximum speed that devices on the bus can 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537646">REQUEST_GET_SPEED_TOPOLOGY_MAPS</a>
-
-
-
  
 
  
-
 

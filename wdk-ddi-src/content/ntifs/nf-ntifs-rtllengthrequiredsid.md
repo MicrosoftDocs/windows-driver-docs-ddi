@@ -7,7 +7,7 @@ old-location: ifsk\rtllengthrequiredsid.htm
 old-project: ifsk
 ms.assetid: 1d6aa888-8e61-4a0e-88ea-13842fc2fff2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlLengthRequiredSid, RtlLengthRequiredSid routine [Installable File System Drivers], ifsk.rtllengthrequiredsid, ntifs/RtlLengthRequiredSid, rtlref_78e8a660-8510-40bc-b221-747538423488.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlLengthRequiredSid
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlLengthRequiredSid function
@@ -51,16 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlLengthRequiredSid</b> routine returns the length, in bytes, of the buffer required to store a security identifier (SID) with a specified number of subauthorities. 
-
-
-## -syntax
-
-
-````
-ULONG RtlLengthRequiredSid(
-  _In_ ULONG SubAuthorityCount
-);
-````
 
 
 ## -parameters
@@ -93,36 +84,35 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtllengthsid.md">RtlLengthSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlequalsid.md">RtlEqualSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552256">RtlEqualPrefixSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlvalidsid.md">RtlValidSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552260">RtlEqualSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlequalprefixsid.md">RtlEqualPrefixSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552998">RtlInitializeSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553085">RtlLengthSid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlinitializesid.md">RtlInitializeSid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553236">RtlSubAuthoritySid</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553314">RtlValidSid</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  
-
 

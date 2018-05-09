@@ -7,8 +7,8 @@ old-location: display\pfncreatecontextvirtualcb.htm
 old-project: display
 ms.assetid: 7787FEDF-E18C-4120-A073-A13933856F57
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_CREATECONTEXTVIRTUALCB, d3dumddi/pfnCreateContextVirtualCb, display.pfncreatecontextvirtualcb, pfnCreateContextVirtualCb, pfnCreateContextVirtualCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_CREATECONTEXTVIRTUALCB, PFND3DDDI_CREATECONTEXTVIRTUALCB callback, d3dumddi/pfnCreateContextVirtualCb, display.pfncreatecontextvirtualcb, pfnCreateContextVirtualCb, pfnCreateContextVirtualCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	pfnCreateContextVirtualCb
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CREATECONTEXTVIRTUALCB callback
+# PFND3DDDI_CREATECONTEXTVIRTUALCB callback function
 
 
 ## -description
 
 
 <b>pfnCreateContextVirtualCb</b> should be used with contexts that support virtual addressing.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_CREATECONTEXTVIRTUALCB pfnCreateContextVirtualCb;
-
-HRESULT APIENTRY CALLBACK* pfnCreateContextVirtualCb(
-  _In_    HANDLE                 hDevice,
-  _Inout_ D3DDDICB_CREATECONTEXT *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ A handle to the display device.
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createcontextvirtual.md">D3DDDICB_CREATECONTEXTVIRTUAL</a> structure that describes the context to create.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914418">D3DDDICB_CREATECONTEXTVIRTUAL</a> structure that describes the context to create.
 
 
 ## -returns

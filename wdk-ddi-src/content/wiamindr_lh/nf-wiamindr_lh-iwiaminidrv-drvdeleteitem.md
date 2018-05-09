@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvDeleteItem
-title: IWiaMiniDrv::drvDeleteItem method
+title: IWiaMiniDrv::drvDeleteItem
 author: windows-driver-content
 description: The IWiaMiniDrv::drvDeleteItem method deletes the current driver item.
 old-location: image\iwiaminidrv_drvdeleteitem.htm
 old-project: image
 ms.assetid: 616a0edd-d769-411d-bc94-57ba18a00c4d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvDeleteItem method, IWiaMiniDrv::drvDeleteItem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, drvDeleteItem method [Imaging Devices], drvDeleteItem method [Imaging Devices], IWiaMiniDrv interface, drvDeleteItem,IWiaMiniDrv.drvDeleteItem, image.iwiaminidrv_drvdeleteitem, wiamindr_lh/IWiaMiniDrv::drvDeleteItem
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvDeleteItem method, IWiaMiniDrv.drvDeleteItem, IWiaMiniDrv::drvDeleteItem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, drvDeleteItem, drvDeleteItem method [Imaging Devices], drvDeleteItem method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvdeleteitem, wiamindr_lh/IWiaMiniDrv::drvDeleteItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrv.drvDeleteItem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvDeleteItem method
+# IWiaMiniDrv::drvDeleteItem
 
 
 ## -description
 
 
 The <b>IWiaMiniDrv::drvDeleteItem</b> method deletes the current driver item.
-
-
-## -syntax
-
-
-````
-HRESULT drvDeleteItem(
-  [in]  BYTE *pWiasContext,
-  [in]  LONG lFlags,
-  [out] LONG *plDevErrVal
-);
-````
 
 
 ## -parameters
@@ -140,16 +128,15 @@ Since the WIA service verifies these conditions, it is not necessary for the min
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
-
-
  
 
  
-
 

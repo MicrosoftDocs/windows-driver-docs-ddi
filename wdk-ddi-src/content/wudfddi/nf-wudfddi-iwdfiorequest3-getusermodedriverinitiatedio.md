@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest3.GetUserModeDriverInitiatedIo
-title: IWDFIoRequest3::GetUserModeDriverInitiatedIo method
+title: IWDFIoRequest3::GetUserModeDriverInitiatedIo
 author: windows-driver-content
 description: The GetUserModeDriverInitiatedIo method determines whether an I/O request is marked as initiated by a UMDF driver.
 old-location: wdf\iwdfiorequest3_getusermodedriverinitiatedio.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 41C4E9D2-DC1B-4DFC-8C15-E9C21515B5F0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetUserModeDriverInitiatedIo method, GetUserModeDriverInitiatedIo method, IWDFIoRequest3 interface, GetUserModeDriverInitiatedIo,IWDFIoRequest3.GetUserModeDriverInitiatedIo, IWDFIoRequest3, IWDFIoRequest3 interface, GetUserModeDriverInitiatedIo method, IWDFIoRequest3::GetUserModeDriverInitiatedIo, umdf.iwdfiorequest3_getusermodedriverinitiatedio, wdf.iwdfiorequest3_getusermodedriverinitiatedio, wudfddi/IWDFIoRequest3::GetUserModeDriverInitiatedIo
+ms.keywords: GetUserModeDriverInitiatedIo, GetUserModeDriverInitiatedIo method, GetUserModeDriverInitiatedIo method,IWDFIoRequest3 interface, IWDFIoRequest3 interface,GetUserModeDriverInitiatedIo method, IWDFIoRequest3.GetUserModeDriverInitiatedIo, IWDFIoRequest3::GetUserModeDriverInitiatedIo, umdf.iwdfiorequest3_getusermodedriverinitiatedio, wdf.iwdfiorequest3_getusermodedriverinitiatedio, wudfddi/IWDFIoRequest3::GetUserModeDriverInitiatedIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest3.GetUserModeDriverInitiatedIo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest3::GetUserModeDriverInitiatedIo method
+# IWDFIoRequest3::GetUserModeDriverInitiatedIo
 
 
 ## -description
@@ -55,14 +55,6 @@ req.product: Windows 10 or later.
 
    The 
   <b>GetUserModeDriverInitiatedIo</b> method determines whether an I/O request is marked as initiated by a UMDF driver.
-
-
-## -syntax
-
-
-````
-BOOL GetUserModeDriverInitiatedIo();
-````
 
 
 ## -parameters
@@ -87,23 +79,22 @@ The method returns <b>TRUE</b> if the request is marked as UMDF driver-initiated
 
 For additional information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451354">SetUserModeDriverInitiatedIo</a>.
 
-The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetusermodedriverinitiatedio.md">WdfRequestGetUserModeInitiatedIo</a>.
+The UMDF 2 equivalent of this method is <a href="https://msdn.microsoft.com/library/windows/hardware/dn265618">WdfRequestGetUserModeInitiatedIo</a>.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451337">IWDFIoRequest3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451354">SetUserModeDriverInitiatedIo</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
-
-
-
  
 
  
-
 

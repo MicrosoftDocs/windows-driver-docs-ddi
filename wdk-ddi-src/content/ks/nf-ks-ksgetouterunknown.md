@@ -7,7 +7,7 @@ old-location: stream\ksgetouterunknown.htm
 old-project: stream
 ms.assetid: e86e2c96-9ae5-4f6d-9c76-1c2816f318e7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGetOuterUnknown, KsGetOuterUnknown function [Streaming Media Devices], avfunc_5b660e76-03af-4fba-92f9-f11eeeaa3da0.xml, ks/KsGetOuterUnknown, stream.ksgetouterunknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGetOuterUnknown
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The<b> KsGetOuterUnknown </b>function returns the outer <b>IUnknown</b> of a given AVStream object.
-
-
-## -syntax
-
-
-````
-PUNKNOWN KsGetOuterUnknown(
-  _In_ PVOID Object
-);
-````
 
 
 ## -parameters
@@ -86,7 +77,7 @@ A pointer to an AVStream object for which to return the outer <b>IUnknown</b> in
 
 
 
-Minidrivers should not call this function directly. Instead, use one of the inline versions that perform automatic typecasting: <a href="..\ks\nf-ks-ksdevicegetouterunknown.md">KsDeviceGetOuterUnknown</a>, <a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>, <a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>, <a href="..\ks\nf-ks-kspingetouterunknown.md">KsPinGetOuterUnknown</a>.
+Minidrivers should not call this function directly. Instead, use one of the inline versions that perform automatic typecasting: <a href="https://msdn.microsoft.com/library/windows/hardware/ff561686">KsDeviceGetOuterUnknown</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff562535">KsFilterFactoryGetOuterUnknown</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff562547">KsFilterGetOuterUnknown</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff563515">KsPinGetOuterUnknown</a>.
 
 Minidrivers using this function must include <i>kcom.h</i> and use a C++ compiler.
 
@@ -95,32 +86,31 @@ Minidrivers using this function must include <i>kcom.h</i> and use a C++ compile
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetouterunknown.md">KsPinGetOuterUnknown</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559766">IKsControl</a>
 
 
 
-<a href="..\ks\nf-ks-ksdevicegetouterunknown.md">KsDeviceGetOuterUnknown</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561686">KsDeviceGetOuterUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562535">KsFilterFactoryGetOuterUnknown</a>
 
 
 
-<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562547">KsFilterGetOuterUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563515">KsPinGetOuterUnknown</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566767">KsRegisterAggregatedClientUnknown</a>
  
 
  
-
 

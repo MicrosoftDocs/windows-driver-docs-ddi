@@ -7,7 +7,7 @@ old-location: kernel\rtlulongbyteswap.htm
 old-project: kernel
 ms.assetid: 4c08a70e-5092-40fb-94fd-c3ef8a5537b5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUlongByteSwap, RtlUlongByteSwap routine [Kernel-Mode Driver Architecture], k109_0d4753a3-859a-429f-bd07-66669f1b46e8.xml, kernel.rtlulongbyteswap, wdm/RtlUlongByteSwap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlUlongByteSwap
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlUlongByteSwap macro
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlUlongByteSwap</b> routine reverses the ordering of the four bytes in a 32-bit unsigned integer value.
-
-
-## -syntax
-
-
-````
-ULONG RtlUlongByteSwap(
-  _In_ ULONG Source
-);
-````
 
 
 ## -parameters
@@ -92,23 +82,22 @@ A typical use of this routine is to convert a ULONG value from little-endian byt
 
 Use this routine instead of <b>ntohl</b> or <b>htonl</b>.
 
-To reverse the ordering of bytes in a USHORT value, use the <a href="..\wdm\nf-wdm-rtlushortbyteswap.md">RtlUshortByteSwap</a> routine. To reverse ordering of bytes in a ULONGLONG value, use the <a href="..\wdm\nf-wdm-rtlulonglongbyteswap.md">RtlUlonglongByteSwap</a> routine.
+To reverse the ordering of bytes in a USHORT value, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563016">RtlUshortByteSwap</a> routine. To reverse ordering of bytes in a ULONGLONG value, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562890">RtlUlonglongByteSwap</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlulonglongbyteswap.md">RtlUlonglongByteSwap</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlushortbyteswap.md">RtlUshortByteSwap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562890">RtlUlonglongByteSwap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563016">RtlUshortByteSwap</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\settexture.htm
 old-project: display
 ms.assetid: b2ed86c5-cd4f-4aaa-a062-4c7ae4e088df
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_SETTEXTURE, SetTexture, SetTexture callback function [Display Devices], UserModeDisplayDriver_Functions_f85a8797-cbcc-40df-a339-af69ce128e95.xml, d3dumddi/SetTexture, display.settexture
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETTEXTURE, PFND3DDDI_SETTEXTURE callback, SetTexture, SetTexture callback function [Display Devices], UserModeDisplayDriver_Functions_f85a8797-cbcc-40df-a339-af69ce128e95.xml, d3dumddi/SetTexture, display.settexture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetTexture
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETTEXTURE callback
+# PFND3DDDI_SETTEXTURE callback function
 
 
 ## -description
 
 
 The <i>SetTexture</i> function inserts a texture at a particular stage in a multiple-texture group.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETTEXTURE SetTexture;
-
-__checkReturn HRESULT APIENTRY SetTexture(
-  _In_ HANDLE hDevice,
-  _In_ UINT   Stage,
-  _In_ HANDLE hTexture
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -77,10 +63,10 @@ __checkReturn HRESULT APIENTRY SetTexture(
  A handle to the display device (graphics context).
 
 
-### -param UINT
+### -param Arg1
 
 
-### -param HANDLE
+### -param Arg2
 
 
 
@@ -110,12 +96,11 @@ __checkReturn HRESULT APIENTRY SetTexture(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

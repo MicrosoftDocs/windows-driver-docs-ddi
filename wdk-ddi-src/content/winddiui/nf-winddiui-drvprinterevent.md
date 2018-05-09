@@ -7,7 +7,7 @@ old-location: print\drvprinterevent.htm
 old-project: print
 ms.assetid: 7566f92d-0e25-44bf-a2b3-587bb11a7d03
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: DrvPrinterEvent, DrvPrinterEvent function [Print Devices], print.drvprinterevent, print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml, winddiui/DrvPrinterEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvPrinterEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # DrvPrinterEvent function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 A printer interface DLL's <b>DrvPrinterEvent</b> function is called by the print spooler when processing printer-specific events that might require action by the printer driver.
-
-
-## -syntax
-
-
-````
-BOOL DrvPrinterEvent(
-  _In_ LPWSTR pPrinterName,
-       int    DriverEvent,
-       DWORD  Flags,
-       LPARAM lParam
-);
-````
 
 
 ## -parameters
@@ -101,7 +88,7 @@ PRINTER_EVENT_ATTRIBUTES_CHANGED
 
 </td>
 <td>
-The attribute bits for a printer have changed. In response to an application's call to the <b>SetPrinter</b> function (described in the Windows SDK documentation), the spooler calls the printer driver's <b>DrvPrinterEvent</b> function, passing the event code in the call. When this event code is used, the <i>lParam</i> parameter points to a <a href="..\winddiui\ns-winddiui-_printer_event_attributes_info.md">PRINTER_EVENT_ATTRIBUTES_INFO</a> structure that describes the old and the new attributes.
+The attribute bits for a printer have changed. In response to an application's call to the <b>SetPrinter</b> function (described in the Windows SDK documentation), the spooler calls the printer driver's <b>DrvPrinterEvent</b> function, passing the event code in the call. When this event code is used, the <i>lParam</i> parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560858">PRINTER_EVENT_ATTRIBUTES_INFO</a> structure that describes the old and the new attributes.
 
 </td>
 </tr>

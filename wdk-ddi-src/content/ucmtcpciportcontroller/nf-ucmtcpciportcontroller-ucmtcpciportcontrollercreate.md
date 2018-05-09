@@ -7,7 +7,7 @@ old-location: buses\ucmtcpciportcontrollercreate.htm
 old-project: usbref
 ms.assetid: 29862d9b-c004-445b-b90b-6990e5e01966
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UcmTcpciPortControllerCreate, UcmTcpciPortControllerCreate method [Buses], buses.ucmtcpciportcontrollercreate, ucmtcpciportcontroller/UcmTcpciPortControllerCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	ucmtcpcicxstub.dll
 api_name:
 -	UcmTcpciPortControllerCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UCMTCPCI_PORT_CONTROLLER_ALERT_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcmTcpciPortControllerCreate function
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 Creates a port controller object to register with UcmTcpciCx. 
 
 
-## -syntax
-
-
-````
-NTSTATUS UcmTcpciPortControllerCreate(
-   WDFDEVICE                        WdfDevice,
-   PUCMTCPCI_PORT_CONTROLLER_CONFIG Config,
-   PWDF_OBJECT_ATTRIBUTES           Attributes,
-   UCMTCPCIPORTCONTROLLER*          PortControllerObject
-);
-````
-
-
 ## -parameters
 
 
@@ -74,17 +61,17 @@ NTSTATUS UcmTcpciPortControllerCreate(
 
 ### -param WdfDevice
 
-A handle to a framework device object that the client driver received in the previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. 
+A handle to a framework device object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. 
 
 
 ### -param Config
 
-A pointer to the <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_config.md">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> that is initialized by calling <b>UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT</b>. This value cannot be NULL.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805900">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> that is initialized by calling <b>UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT</b>. This value cannot be NULL.
 
 
 ### -param Attributes
 
-A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new object. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied attributes for the new object. This parameter is optional and can be <b>WDF_NO_OBJECT_ATTRIBUTES</b>.
 
 
 ### -param PortControllerObject
@@ -123,7 +110,7 @@ The handle to a framework device object is invalid.
 </dl>
 </td>
 <td width="60%">
-Invalid size for the structure pointed to by <i>Config</i> or <i> Config-&gt;Capabilities</i>. Must be size of <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_config.md">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> or <a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities.md">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a>, respectively. 
+Invalid size for the structure pointed to by <i>Config</i> or <i> Config-&gt;Capabilities</i>. Must be size of <a href="https://msdn.microsoft.com/library/windows/hardware/mt805900">UCMTCPCI_PORT_CONTROLLER_CONFIG</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/mt805870">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a>, respectively. 
 
 </td>
 </tr>
@@ -135,20 +122,19 @@ Invalid size for the structure pointed to by <i>Config</i> or <i> Config-&gt;Cap
 
 ## -see-also
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EVT_WDF_DRIVER_DEVICE_ADD</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541693">EVT_WDF_DRIVER_DEVICE_ADD</a>
 
 
 
-<a href="..\ucmtcpciportcontroller\ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_config.md">UCMTCPCI_PORT_CONTROLLER_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805900">UCMTCPCI_PORT_CONTROLLER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>
  
 
  
-
 

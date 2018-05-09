@@ -7,8 +7,8 @@ old-location: netvista\fwps_vswitch_lifetime_event_callback0.htm
 old-project: netvista
 ms.assetid: 6A2058FB-AE3D-48F0-B1D9-3B8894A5419E
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0, fwpsk/vSwitchLifetimeNotifyFn, netvista.fwps_vswitch_lifetime_event_callback0, vSwitchLifetimeNotifyFn, vSwitchLifetimeNotifyFn callback function [Network Drivers Starting with Windows Vista]
+ms.date: 4/25/2018
+ms.keywords: FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0, FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 callback, fwpsk/vSwitchLifetimeNotifyFn, netvista.fwps_vswitch_lifetime_event_callback0, vSwitchLifetimeNotifyFn, vSwitchLifetimeNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	fwpsk.h
 api_name:
 -	vSwitchLifetimeNotifyFn
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: 
 ---
 
-# FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 callback
+# FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 callback function
 
 
 ## -description
@@ -57,23 +58,6 @@ The filter engine calls the
 
 
 
-## -prototype
-
-
-````
-FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0 vSwitchLifetimeNotifyFn;
-
-NTSTATUS NTAPI vSwitchLifetimeNotifyFn(
-  _In_opt_       void                    *notifyContext,
-  _In_           FWPS_VSWITCH_EVENT_TYPE eventType,
-  _In_     const  NDIS_SWITCH_PARAMETERS *vSwitch,
-  _In_opt_ const NDIS_SWITCH_PORT_ARRAY  *vSwitchPorts,
-  _In_opt_ const NDIS_SWITCH_NIC_ARRAY   *vSwitchInterfaces
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,32 +65,32 @@ NTSTATUS NTAPI vSwitchLifetimeNotifyFn(
 
 ### -param *notifyContext [in, optional]
 
-A pointer to a context supplied by the callout driver. The driver passed this pointer to the  <i>notifyContext</i> parameter of the <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
+A pointer to a context supplied by the callout driver. The driver passed this pointer to the  <i>notifyContext</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439687">FwpsvSwitchEventsSubscribe0</a>
  function. This parameter is optional and can be NULL.
 
 
 ### -param eventType [in]
 
-The type of virtual switch event  specified as one of the <a href="..\fwpsk\ne-fwpsk-fwps_vswitch_event_type_.md">FWPS_VSWITCH_EVENT_TYPE</a> enumeration values. For more information, see Remarks.
+The type of virtual switch event  specified as one of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451265">FWPS_VSWITCH_EVENT_TYPE</a> enumeration values. For more information, see Remarks.
 
 
 ### -param *vSwitch [in]
 
-A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a> structure that contains information about a virtual switch.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh598220">NDIS_SWITCH_PARAMETERS</a> structure that contains information about a virtual switch.
 
 
-<div class="alert"><b>Note</b>  The information in the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a> structure reflects the initial state of the virtual switch, not necessarily its current state. In particular, the <b>NumSwitchPorts</b> and <b>IsActive</b> members might still have their initial value of zero, unless a virtual switch PnP event has been triggered. Current state information can be found in the other parameters to this callback function.</div>
+<div class="alert"><b>Note</b>  The information in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598220">NDIS_SWITCH_PARAMETERS</a> structure reflects the initial state of the virtual switch, not necessarily its current state. In particular, the <b>NumSwitchPorts</b> and <b>IsActive</b> members might still have their initial value of zero, unless a virtual switch PnP event has been triggered. Current state information can be found in the other parameters to this callback function.</div>
 <div> </div>
 
 ### -param *vSwitchPorts [in, optional]
 
-A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a> structure that specifies an array of port configuration parameters. Each element in the array specifies the parameters for a port on a virtual switch.   
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh598221">NDIS_SWITCH_PORT_ARRAY</a> structure that specifies an array of port configuration parameters. Each element in the array specifies the parameters for a port on a virtual switch.   
 
 
 
 ### -param *vSwitchInterfaces [in, optional]
 
-A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a> structure that specifies an array of miniport adapter configuration parameters. Each element in the array specifies the parameters for a virtual or physical miniport adapter that is attached to a port on a virtual switch.   
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh598212">NDIS_SWITCH_NIC_ARRAY</a> structure that specifies an array of miniport adapter configuration parameters. Each element in the array specifies the parameters for a virtual or physical miniport adapter that is attached to a port on a virtual switch.   
 
 
 
@@ -160,16 +144,16 @@ An error occurred.
   
   <i>vSwitchLifetimeNotifyFn</i> callback function  by calling  
     
-    the <a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
+    the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439687">FwpsvSwitchEventsSubscribe0</a>
  function.
    
 
 If the <i>vSwitchLifetimeNotifyFn</i> callback is registered, the WFP filter driver notifies the callout driver when a  virtual switch instance is created. Multiple instances of a virtual switch can be present  in a Hyper-V host at the same time.
 
-The WFP filter driver queries the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a> OID in the <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a> function to obtain the virtual switch identifier that is  associated with the current instance of the virtual switch. The WFP filter driver also queries the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a> and   <a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a> OIDs to obtain the initial set of configured virtual NICs and virtual ports. The WFP filter driver passes  the <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a> and <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a> structure information from the OIDs to  <i>vSwitchLifetimeNotifyFn</i> with FWPS_VSWITCH_EVENT_VSWITCH_CREATE set in the <i>eventType</i> parameter. 
+The WFP filter driver queries the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a> OID in the <a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a> function to obtain the virtual switch identifier that is  associated with the current instance of the virtual switch. The WFP filter driver also queries the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a> and   <a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a> OIDs to obtain the initial set of configured virtual NICs and virtual ports. The WFP filter driver passes  the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598221">NDIS_SWITCH_PORT_ARRAY</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh598212">NDIS_SWITCH_NIC_ARRAY</a> structure information from the OIDs to  <i>vSwitchLifetimeNotifyFn</i> with FWPS_VSWITCH_EVENT_VSWITCH_CREATE set in the <i>eventType</i> parameter. 
 
 
-In the WFP filter driver's  <a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>, the filter calls  with FWPS_VSWITCH_EVENT_VSWITCH_DELETE set in the <i>eventType</i><i>vSwitchLifetimeNotifyFn</i> parameter.
+In the WFP filter driver's  <a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>, the filter calls  with FWPS_VSWITCH_EVENT_VSWITCH_DELETE set in the <i>eventType</i><i>vSwitchLifetimeNotifyFn</i> parameter.
 
 A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i>.
 
@@ -178,15 +162,6 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i
 
 ## -see-also
 
-<a href="..\fwpsk\ne-fwpsk-fwps_vswitch_event_type_.md">FWPS_VSWITCH_EVENT_TYPE</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a>
 
 
 
@@ -194,7 +169,43 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451265">FWPS_VSWITCH_EVENT_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451276">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540475">FilterDetach</a>
+
+
+
+<a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439687">FwpsvSwitchEventsSubscribe0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439695">FwpsvSwitchNotifyComplete0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598212">NDIS_SWITCH_NIC_ARRAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598220">NDIS_SWITCH_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598221">NDIS_SWITCH_PORT_ARRAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562610">NdisFRestartComplete</a>
 
 
 
@@ -202,40 +213,12 @@ A callout driver cannot return STATUS_PENDING from <i>vSwitchLifetimeNotifyFn</i
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitcheventssubscribe0.md">FwpsvSwitchEventsSubscribe0</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfrestartcomplete.md">NdisFRestartComplete</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsvswitchnotifycomplete0.md">FwpsvSwitchNotifyComplete0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_port_event_callback0.md">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
-
-
-
  
 
  
-
 

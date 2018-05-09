@@ -38,10 +38,10 @@ api_location:
 -	Wdfobject.h
 api_name:
 -	WdfObjectQuery
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_SYNCHRONIZATION_SCOPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfObjectQuery function
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfObjectQuery</b> method is not implemented.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfObjectQuery(
-  _In_  WDFOBJECT  Object,
-  _In_  CONST GUID *Guid,
-  _In_  ULONG      QueryBufferLength,
-  _Out_ PVOID      QueryBuffer
-);
-````
 
 
 ## -parameters

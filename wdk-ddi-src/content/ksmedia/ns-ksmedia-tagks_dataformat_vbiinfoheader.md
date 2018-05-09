@@ -7,7 +7,7 @@ old-location: stream\ks_dataformat_vbiinfoheader.htm
 old-project: stream
 ms.assetid: 597b081f-d2ff-4e20-b352-2082f1ef4d45
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DATAFORMAT_VBIINFOHEADER, KS_DATAFORMAT_VBIINFOHEADER, KS_DATAFORMAT_VBIINFOHEADER structure [Streaming Media Devices], PKS_DATAFORMAT_VBIINFOHEADER, PKS_DATAFORMAT_VBIINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_VBIINFOHEADER, ksmedia/PKS_DATAFORMAT_VBIINFOHEADER, stream.ks_dataformat_vbiinfoheader, tagKS_DATAFORMAT_VBIINFOHEADER, vidcapstruct_67cdb187-7d2b-464b-a871-6b2f18a9839f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DATAFORMAT_VBIINFOHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATAFORMAT_VBIINFOHEADER, *PKS_DATAFORMAT_VBIINFOHEADER
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_DATAFORMAT_VBIINFOHEADER, *PKS_DATAFORMAT_VBIINFOHEADER
 
 
 The KS_DATAFORMAT_VBIINFOHEADER structure describes a vertical blanking interval (VBI) stream.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_DATAFORMAT_VBIINFOHEADER {
-  KSDATAFORMAT     DataFormat;
-  KS_VBIINFOHEADER VBIInfoHeader;
-} KS_DATAFORMAT_VBIINFOHEADER, *PKS_DATAFORMAT_VBIINFOHEADER;
-````
 
 
 ## -struct-fields
@@ -89,16 +79,15 @@ This structure is used when a connection to a VBI pin is being proposed.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
 
 
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567692">KS_VBIINFOHEADER</a>
  
 
  
-
 

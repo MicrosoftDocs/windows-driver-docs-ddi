@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.EnumOptions
-title: IPrintCoreHelperUni::EnumOptions method
+title: IPrintCoreHelperUni::EnumOptions
 author: windows-driver-content
 description: The IPrintCoreHelperUni::EnumOptions method gets a list of available options for the given feature.
 old-location: print\iprintcorehelperuni_enumoptions.htm
 old-project: print
 ms.assetid: 07ed6417-1cdc-4a56-88c3-c2171c54e77c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnumOptions method [Print Devices], EnumOptions method [Print Devices], IPrintCoreHelperUni interface, EnumOptions,IPrintCoreHelperUni.EnumOptions, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], EnumOptions method, IPrintCoreHelperUni::EnumOptions, prcomoem/IPrintCoreHelperUni::EnumOptions, print.iprintcorehelperuni_enumoptions, print_unidrv-pscript_allplugins_57929bdd-c8d4-4e48-be3d-449df47b744b.xml
+ms.date: 4/20/2018
+ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],EnumOptions method, IPrintCoreHelperUni.EnumOptions, IPrintCoreHelperUni::EnumOptions, prcomoem/IPrintCoreHelperUni::EnumOptions, print.iprintcorehelperuni_enumoptions, print_unidrv-pscript_allplugins_57929bdd-c8d4-4e48-be3d-449df47b744b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreHelperUni.EnumOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperUni::EnumOptions method
+# IPrintCoreHelperUni::EnumOptions
 
 
 ## -description
 
 
 The <code>IPrintCoreHelperUni::EnumOptions</code> method gets a list of available options for the given feature. 
-
-
-## -syntax
-
-
-````
-STDMETHOD EnumOptions(
-  [in]  PCSTR pszFeatureKeyword,
-  [out] PCSTR *pOptionList[],
-  [out] DWORD *pdwNumOptions
-);
-````
 
 
 ## -parameters
@@ -110,20 +98,19 @@ When <code>IPrintCoreHelperUni::EnumOptions</code> returns, the option list cont
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552929">IPrintCoreHelperUni::EnumConstrainedOptions</a>
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552931">IPrintCoreHelperUni::EnumFeatures</a>
-
-
-
  
 
  
-
 

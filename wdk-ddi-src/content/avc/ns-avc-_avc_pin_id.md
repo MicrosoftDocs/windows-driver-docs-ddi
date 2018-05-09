@@ -7,7 +7,7 @@ old-location: stream\avc_pin_id.htm
 old-project: stream
 ms.assetid: 0341b1c4-a050-45f4-b9fc-b28b6a8af75d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PAVC_PIN_ID, AVC_PIN_ID, AVC_PIN_ID structure [Streaming Media Devices], PAVC_PIN_ID, PAVC_PIN_ID structure pointer [Streaming Media Devices], _AVC_PIN_ID, avc/AVC_PIN_ID, avc/PAVC_PIN_ID, avcref_28e8a7a5-a90b-4e1b-ad4c-1a1ccbc405c5.xml, stream.avc_pin_id"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_PIN_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_PIN_ID, *PAVC_PIN_ID
 ---
@@ -50,16 +51,6 @@ req.typenames: AVC_PIN_ID, *PAVC_PIN_ID
 
 
 The AVC_PIN_ID structure describes a pin on a subunit.
-
-
-## -syntax
-
-
-````
-typedef struct _AVC_PIN_ID {
-  ULONG PinId;
-} AVC_PIN_ID, *PAVC_PIN_ID;
-````
 
 
 ## -struct-fields
@@ -87,15 +78,10 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 ## -see-also
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554169">AVC_FUNCTION_RELEASE</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554145">AVC_FUNCTION</a>
 
 
 
@@ -107,6 +93,11 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554169">AVC_FUNCTION_RELEASE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554177">AVC_MULTIFUNC_IRB</a>
  
 
  

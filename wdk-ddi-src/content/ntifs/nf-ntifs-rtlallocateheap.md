@@ -7,7 +7,7 @@ old-location: ifsk\rtlallocateheap.htm
 old-project: ifsk
 ms.assetid: 38f4c2b7-f9cd-42f2-b75e-725976b6b9dd
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlAllocateHeap, RtlAllocateHeap routine [Installable File System Drivers], ifsk.rtlallocateheap, ntifs/RtlAllocateHeap, rtlref_fa360ead-62c7-46c3-8d66-a73ee9e1a0bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ntdll.dll
 api_name:
 -	RtlAllocateHeap
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlAllocateHeap function
@@ -51,18 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlAllocateHeap</b> routine allocates a block of memory from a heap. 
-
-
-## -syntax
-
-
-````
-PVOID RtlAllocateHeap(
-  _In_     PVOID  HeapHandle,
-  _In_opt_ ULONG  Flags,
-  _In_     SIZE_T Size
-);
-````
 
 
 ## -parameters
@@ -120,7 +109,7 @@ Specifies that the allocated memory will be initialized to zero. Otherwise, the 
 
 ### -param Size [in]
 
-Number of bytes to be allocated. If the heap, specified by the <i>HeapHandle</i> parameter, is a nongrowable heap, <i>Size</i> must be less than or equal to the heap's virtual memory threshold. (For more information, see the <b>VirtualMemoryThreshold</b> member of the <i>Parameters</i> parameter to <a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>.) 
+Number of bytes to be allocated. If the heap, specified by the <i>HeapHandle</i> parameter, is a nongrowable heap, <i>Size</i> must be less than or equal to the heap's virtual memory threshold. (For more information, see the <b>VirtualMemoryThreshold</b> member of the <i>Parameters</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552159">RtlCreateHeap</a>.) 
 
 
 ## -returns
@@ -206,20 +195,19 @@ The process has multiple threads, and the application provides its own mechanism
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldestroyheap.md">RtlDestroyHeap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552159">RtlCreateHeap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552233">RtlDestroyHeap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552276">RtlFreeHeap</a>
  
 
  
-
 

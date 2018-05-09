@@ -7,8 +7,8 @@ old-location: display\d3dkmtcreatekeyedmutex.htm
 old-project: display
 ms.assetid: ae9e4771-ba8d-4472-aeb8-04c3f3c59efa
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3DKMTCreateKeyedMutex, D3DKMTCreateKeyedMutex callback function [Display Devices], OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, PFND3DKMT_CREATEKEYEDMUTEX, d3dkmthk/D3DKMTCreateKeyedMutex, display.d3dkmtcreatekeyedmutex
+ms.date: 4/16/2018
+ms.keywords: D3DKMTCreateKeyedMutex, D3DKMTCreateKeyedMutex callback function [Display Devices], OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, PFND3DKMT_CREATEKEYEDMUTEX, PFND3DKMT_CREATEKEYEDMUTEX callback, d3dkmthk/D3DKMTCreateKeyedMutex, display.d3dkmtcreatekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -38,9 +38,10 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTCreateKeyedMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTCreateKeyedMutex function
@@ -52,26 +53,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTCreateKeyedMutex</b> function creates a keyed mutex object.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTCreateKeyedMutex(
-  _Inout_ D3DKMT_CREATEKEYEDMUTEX *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex.md">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547834">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create. 
 
 
 ## -returns
@@ -126,7 +122,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatekeyedmutex.md">D3DKMTCreateKeyedMutex</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546845">D3DKMTCreateKeyedMutex</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -140,12 +136,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createkeyedmutex.md">D3DKMT_CREATEKEYEDMUTEX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547834">D3DKMT_CREATEKEYEDMUTEX</a>
  
 
  
-
 

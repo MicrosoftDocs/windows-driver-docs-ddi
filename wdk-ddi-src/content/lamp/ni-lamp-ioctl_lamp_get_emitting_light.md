@@ -7,8 +7,8 @@ old-location: stream\ioctl_lamp_get_emitting_light.htm
 old-project: stream
 ms.assetid: 82BBD72D-9F65-442F-8B25-E80A2160C5A2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_LAMP_GET_EMITTING_LIGHT, IOCTL_LAMP_GET_EMITTING_LIGHT control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_EMITTING_LIGHT, stream.ioctl_lamp_get_emitting_light
+ms.date: 4/23/2018
+ms.keywords: IOCTL_LAMP_GET_EMITTING_LIGHT, IOCTL_LAMP_GET_EMITTING_LIGHT control, IOCTL_LAMP_GET_EMITTING_LIGHT control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_EMITTING_LIGHT, stream.ioctl_lamp_get_emitting_light
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	lamp.h
 api_name:
 -	IOCTL_LAMP_GET_EMITTING_LIGHT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LAMP_MODE
+req.typenames: 
 ---
 
 # IOCTL_LAMP_GET_EMITTING_LIGHT IOCTL

@@ -7,7 +7,7 @@ old-location: kernel\write_port_uchar.htm
 old-project: kernel
 ms.assetid: 951b688f-21fa-4555-b877-e140e46a1700
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: WRITE_PORT_UCHAR, WRITE_PORT_UCHAR routine [Kernel-Mode Driver Architecture], k103_1495098b-03fb-4677-ac5a-2a1de9223f8b.xml, kernel.write_port_uchar, wdm/WRITE_PORT_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Hal.dll
 api_name:
 -	WRITE_PORT_UCHAR
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WRITE_PORT_UCHAR function
@@ -54,28 +54,17 @@ req.product: Windows 10 or later.
 The <b>WRITE_PORT_UCHAR</b> routine writes a byte to the specified port address.
 
 
-## -syntax
-
-
-````
- VOID WRITE_PORT_UCHAR(
-  _In_ PUCHAR Port,
-  _In_ UCHAR  Value
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param Port [in]
+#### - Port [in]
 
 Pointer to the port, which must be a mapped memory range in I/O space.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies a byte to be written to the port. 
 

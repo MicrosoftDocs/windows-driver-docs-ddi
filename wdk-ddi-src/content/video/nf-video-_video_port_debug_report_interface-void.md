@@ -39,7 +39,8 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMapFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
 req.product: Windows 10 or later.
@@ -148,7 +149,7 @@ A miniport driver can call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -156,11 +157,11 @@ A miniport driver can call
 
 
 
+<a href="..\ndis\nf-ndis-ndisclosefile.md">NdisCloseFile</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

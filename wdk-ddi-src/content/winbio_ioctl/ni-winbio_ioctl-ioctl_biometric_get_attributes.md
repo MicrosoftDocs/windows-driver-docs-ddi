@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 7a855435-017e-4724-adb4-976403015a93
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IOCTL_BIOMETRIC_GET_ATTRIBUTES, IOCTL_BIOMETRIC_GET_ATTRIBUTES control code [Biometric Devices], biometric.ioctl_biometric_get_attributes, biometric_ref_ee60223e-6d9a-4533-9449-b7a7463f835e.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_ATTRIBUTES
+ms.keywords: IOCTL_BIOMETRIC_GET_ATTRIBUTES, IOCTL_BIOMETRIC_GET_ATTRIBUTES control, IOCTL_BIOMETRIC_GET_ATTRIBUTES control code [Biometric Devices], biometric.ioctl_biometric_get_attributes, biometric_ref_ee60223e-6d9a-4533-9449-b7a7463f835e.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	Winbio_ioctl.h
 api_name:
 -	IOCTL_BIOMETRIC_GET_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_BIOMETRIC_GET_ATTRIBUTES IOCTL
@@ -70,7 +70,7 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_sensor_attributes.md">WINBIO_SENSOR_ATTRIBUTES</a> structure.
+The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536475">WINBIO_SENSOR_ATTRIBUTES</a> structure.
 
 
 ### -output-buffer-length
@@ -165,7 +165,7 @@ Any other failure that prevents the payload from being filled in.
 
 
 
-If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_sensor_attributes.md">WINBIO_SENSOR_ATTRIBUTES</a> with an HRESULT value indicating the status of the biometric operation.
+If the vendor-supplied driver passes back the entire payload, it should fill in the <b>WinBioHresult</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff536475">WINBIO_SENSOR_ATTRIBUTES</a> with an HRESULT value indicating the status of the biometric operation.
 
 
 

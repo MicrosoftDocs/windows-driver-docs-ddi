@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.Stop
-title: IWDFIoQueue::Stop method
+title: IWDFIoQueue::Stop
 author: windows-driver-content
 description: The Stop method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests.
 old-location: wdf\iwdfioqueue_stop.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4ad9410a-f3ec-445a-b509-7666a81e1427
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoQueue, IWDFIoQueue interface, Stop method, IWDFIoQueue::Stop, Stop method, Stop method, IWDFIoQueue interface, Stop,IWDFIoQueue.Stop, UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, umdf.iwdfioqueue_stop, wdf.iwdfioqueue_stop, wudfddi/IWDFIoQueue::Stop
+ms.keywords: IWDFIoQueue interface,Stop method, IWDFIoQueue.Stop, IWDFIoQueue::Stop, Stop, Stop method, Stop method,IWDFIoQueue interface, UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, umdf.iwdfioqueue_stop, wdf.iwdfioqueue_stop, wudfddi/IWDFIoQueue::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoQueue.Stop
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoQueue::Stop method
+# IWDFIoQueue::Stop
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>Stop</b> method prevents an I/O queue from delivering I/O requests, but the queue receives and stores new requests.
 
 
-## -syntax
-
-
-````
-void Stop(
-  [in, optional] IQueueCallbackStateChange *pStopComplete
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void Stop(
 
 ### -param pStopComplete [in, optional]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a> interface whose method the framework calls after all outstanding I/O requests, if any, in the driver are completed. This parameter is optional and can be <b>NULL</b>.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556877">IQueueCallbackStateChange</a> interface whose method the framework calls after all outstanding I/O requests, if any, in the driver are completed. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
@@ -88,7 +78,7 @@ None
 
 
 
-A call to <b>Stop</b> is asynchronous and immediately returns to the driver. The driver is notified through the method of the supplied <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a> interface after all outstanding requests in the driver complete.
+A call to <b>Stop</b> is asynchronous and immediately returns to the driver. The driver is notified through the method of the supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556877">IQueueCallbackStateChange</a> interface after all outstanding requests in the driver complete.
 
 The driver should ensure that only one of the following methods is in progress at any given time: 
 
@@ -119,11 +109,14 @@ The <b>Stop</b> method enables the queue to receive new requests, even if the qu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556877">IQueueCallbackStateChange</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
 
 
 
@@ -131,12 +124,8 @@ The <b>Stop</b> method enables the queue to receive new requests, even if the qu
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
  
 
  
-
 

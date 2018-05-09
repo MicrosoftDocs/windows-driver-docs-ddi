@@ -7,7 +7,7 @@ old-location: ifsk\fltpropagateactivityidtothread.htm
 old-project: ifsk
 ms.assetid: 7453EEB1-F974-4AEB-93C4-A75A79E1FE19
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltPropagateActivityIdToThread, FltPropagateActivityIdToThread routine [Installable File System Drivers], fltkernel/FltPropagateActivityIdToThread, ifsk.fltpropagateactivityidtothread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltPropagateActivityIdToThread
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltPropagateActivityIdToThread function
@@ -50,18 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>FltPropagateActivityIdToThread</b> routine associates the activity ID from the  IRP in the minifilter's callback data with the current thread.
-
-
-## -syntax
-
-
-````
-NTSTATUS FltPropagateActivityIdToThread(
-  _In_    PFLT_CALLBACK_DATA CallbackData,
-  _Inout_ LPGUID             PropagatedId,
-  _Out_   LPGUID             *OriginalId
-);
-````
 
 
 ## -parameters
@@ -153,16 +142,15 @@ The <b>FltPropagateActivityIdToThread</b> routine is  used by trace aware minifi
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetactivityidcallbackdata.md">FltGetActivityIdCallbackData</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetactivityidcallbackdata.md">FltSetActivityIdCallbackData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967698">FltGetActivityIdCallbackData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh967702">FltSetActivityIdCallbackData</a>
  
 
  
-
 

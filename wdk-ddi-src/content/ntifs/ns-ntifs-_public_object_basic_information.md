@@ -7,7 +7,7 @@ old-location: ifsk\public_object_basic_information.htm
 old-project: ifsk
 ms.assetid: 2190f88e-6905-4e58-9523-2b6d4864c776
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PPUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION structure pointer [Installable File System Drivers], PUBLIC_OBJECT_BASIC_INFORMATION, PUBLIC_OBJECT_BASIC_INFORMATION structure [Installable File System Drivers], _PUBLIC_OBJECT_BASIC_INFORMATION, ifsk.public_object_basic_information, ntifs/PPUBLIC_OBJECT_BASIC_INFORMATION, ntifs/PUBLIC_OBJECT_BASIC_INFORMATION, objectstructures_f0dec604-d95c-47b4-aedc-168a3ae1dedc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	PUBLIC_OBJECT_BASIC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PUBLIC_OBJECT_BASIC_INFORMATION, *PPUBLIC_OBJECT_BASIC_INFORMATION
 ---
@@ -50,20 +51,6 @@ req.typenames: PUBLIC_OBJECT_BASIC_INFORMATION, *PPUBLIC_OBJECT_BASIC_INFORMATIO
 
 
 The PUBLIC_OBJECT_BASIC_INFORMATION structure holds a subset of the full information that is available for an object.
-
-
-## -syntax
-
-
-````
-typedef struct _PUBLIC_OBJECT_BASIC_INFORMATION {
-  ULONG       Attributes;
-  ACCESS_MASK GrantedAccess;
-  ULONG       HandleCount;
-  ULONG       PointerCount;
-  ULONG       Reserved[10];
-} PUBLIC_OBJECT_BASIC_INFORMATION, *PPUBLIC_OBJECT_BASIC_INFORMATION;
-````
 
 
 ## -struct-fields

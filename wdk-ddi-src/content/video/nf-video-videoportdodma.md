@@ -7,7 +7,7 @@ old-location: display\videoportdodma.htm
 old-project: display
 ms.assetid: a827df55-ff88-439a-8d56-fba8212105a6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortDoDma, VideoPortDoDma function [Display Devices], VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, display.videoportdodma, video/VideoPortDoDma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortDoDma
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortDoDma function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortDoDma</b> function is <b>obsolete</b> in Windows 2000 and later. 
 
 <b>VideoPortDoDma</b> causes the miniport driver's <i>HwVidStartDma</i> function to be called.
-
-
-## -syntax
-
-
-````
-PDMA VideoPortDoDma(
-  _In_ PVOID     HwDeviceExtension,
-  _In_ PDMA      pDma,
-  _In_ DMA_FLAGS DmaFlags
-);
-````
 
 
 ## -parameters
@@ -79,7 +67,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pDma [in]
 
-Specifies a non-<b>NULL</b> DMA handle. This handle was obtained from a prior call to <b>VideoPortDoDma</b> or from the <b>OutputBuffer</b> member of the <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a> returned by <a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a>.
+Specifies a non-<b>NULL</b> DMA handle. This handle was obtained from a prior call to <b>VideoPortDoDma</b> or from the <b>OutputBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a> returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff570327">VideoPortLockPages</a>.
 
 
 ### -param DmaFlags [in]
@@ -135,16 +123,15 @@ See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bu
 
 ## -see-also
 
-<a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
 
 
 
-<a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570547">VIDEO_REQUEST_PACKET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570327">VideoPortLockPages</a>
  
 
  
-
 

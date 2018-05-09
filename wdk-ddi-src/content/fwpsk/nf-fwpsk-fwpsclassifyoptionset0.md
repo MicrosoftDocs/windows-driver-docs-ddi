@@ -7,7 +7,7 @@ old-location: netvista\fwpsclassifyoptionset0.htm
 old-project: netvista
 ms.assetid: 8653fac0-8b2f-4e77-9588-2854ae168c1a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsClassifyOptionSet0, FwpsClassifyOptionSet0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsClassifyOptionSet0, netvista.fwpsclassifyoptionset0, wfp_ref_2_funct_3_fwps_C_a482e4f1-dc60-450e-8e3f-6ba7da1a4528.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Fwpkclnt.dll
 api_name:
 -	FwpsClassifyOptionSet0
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsClassifyOptionSet0 function
@@ -52,21 +53,9 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 
 The 
   <b>FwpsClassifyOptionSet0</b> function is called by a callout filter's 
-  <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> function to specify additional
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function to specify additional
   information that affects the characteristics of permitted filtering operations.
 <div class="alert"><b>Note</b>  <b>FwpsClassifyOptionSet0</b> is a specific version of <b>FwpsClassifyOptionSet</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsClassifyOptionSet0(
-  _In_ const FWPS_INCOMING_METADATA_VALUES0 *inMetadataValues,
-  _In_ const FWP_CLASSIFY_OPTION_TYPE       option,
-  _In_ const FWP_VALUE0                     *newValue
-);
-````
-
 
 ## -parameters
 
@@ -76,7 +65,7 @@ NTSTATUS NTAPI FwpsClassifyOptionSet0(
 ### -param inMetadataValues [in]
 
 A pointer to an 
-     <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a> structure. This structure contains the values for each of the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a> structure. This structure contains the values for each of the
      metadata fields at the layer that is being filtered.
 
 
@@ -193,7 +182,7 @@ An error occurred.
 
 
 This function should be called only by a callout filter's 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function.
 
 The following are the allowed values of the 
     <i>option</i> parameter and members of the 
@@ -303,19 +292,6 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550079">FWPM_CLASSIFY_OPTIONS0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
 
 
 
@@ -323,13 +299,25 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550079">FWPM_CLASSIFY_OPTIONS0</a>
+
+
+
+<a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">
    FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: image\wiaudbglegacyerror2.htm
 old-project: image
 ms.assetid: 981fef6c-65a7-4ba1-ad6a-c7c9c2795feb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaudbglegacyerror2, wiauDbgLegacyError2, wiauDbgLegacyError2 function [Imaging Devices], wiauFncs_647f5e2c-bcc7-4e9a-9746-2f0685f29fcf.xml, wiautil/wiauDbgLegacyError2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiautil.h
 api_name:
 -	wiauDbgLegacyError2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauDbgLegacyError2 function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgLegacyError2</b> function logs an error message.
-
-
-## -syntax
-
-
-````
-inline void __stdcall wiauDbgLegacyError2(
-   HINSTANCE   hInstance,
-   LPCSTR      fmt, ...
-);
-````
 
 
 ## -parameters
@@ -104,19 +93,18 @@ None
 
 
 
-The <b>wiauDbgLegacyError2</b> function is identical to the <a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a> function except that the former has a parameter that specifies the handle to the DLL instance and the latter has a parameter used to identify the function or method that is active when the function is called.
+The <b>wiauDbgLegacyError2</b> function is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a> function except that the former has a parameter that specifies the handle to the DLL instance and the latter has a parameter used to identify the function or method that is active when the function is called.
 
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a>
  
 
  
-
 

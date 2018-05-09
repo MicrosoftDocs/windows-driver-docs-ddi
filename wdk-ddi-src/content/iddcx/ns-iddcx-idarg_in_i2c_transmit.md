@@ -7,7 +7,7 @@ old-location: display\idarg_in_i2c_transmit.htm
 old-project: display
 ms.assetid: 1422f1fc-9653-4e6b-a7dd-c224ce7b9ca0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IDARG_IN_I2C_TRANSMIT, IDARG_IN_I2C_TRANSMIT structure [Display Devices], display.idarg_in_i2c_transmit, iddcx/IDARG_IN_I2C_TRANSMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_I2C_TRANSMIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 
                  Gives information about the I2C data being transmitted by the OS.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_I2C_TRANSMIT {
-  UINT                                     SevenBitI2CAddress;
-  UINT                                     DataSizeInBytes;
-  _Field_size_full_(DataSizeInBytes) PVOID pData;
-} IDARG_IN_I2C_TRANSMIT, *IDARG_IN_I2C_TRANSMIT;
-````
 
 
 ## -struct-fields

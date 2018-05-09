@@ -7,7 +7,7 @@ old-location: kernel\exinterlockedinserttaillist.htm
 old-project: kernel
 ms.assetid: cd322d64-4005-426c-b3ce-0fe8f6ce868e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExInterlockedInsertTailList, ExInterlockedInsertTailList routine [Kernel-Mode Driver Architecture], k102_a6d47e7b-63d2-48e9-9f6a-99f733194c1b.xml, kernel.exinterlockedinserttaillist, wdm/ExInterlockedInsertTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExInterlockedInsertTailList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExInterlockedInsertTailList function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ExInterlockedInsertTailList</b> routine atomically inserts an entry at the end of a doubly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structures.
-
-
-## -syntax
-
-
-````
-PLIST_ENTRY ExInterlockedInsertTailList(
-  _Inout_ PLIST_ENTRY ListHead,
-  _Inout_ PLIST_ENTRY ListEntry,
-  _Inout_ PKSPIN_LOCK Lock
-);
-````
 
 
 ## -parameters
@@ -82,7 +70,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 ### -param Lock [in, out]
 
-A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
+A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
 
 ## -returns
@@ -98,7 +86,7 @@ A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to 
 
 
 
-<b>ExInterlockedInsertTailList</b> performs the same operation as <a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
+<b>ExInterlockedInsertTailList</b> performs the same operation as <a href="https://msdn.microsoft.com/library/windows/hardware/ff547823">InsertTailList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
 
 For more information about using this routine to implement a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
 
@@ -109,24 +97,23 @@ The <b>ExInterlockedInsertTailList</b> routine can be called at any IRQL. The st
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-inserttaillist.md">InsertTailList</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545397">ExInterlockedInsertHeadList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547823">InsertTailList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>
  
 
  
-
 

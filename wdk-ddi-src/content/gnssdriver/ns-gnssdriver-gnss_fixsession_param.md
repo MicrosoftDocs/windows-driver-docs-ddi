@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_FIXSESSION_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_FIXSESSION_PARAM, *PGNSS_FIXSESSION_PARAM
 ---
@@ -50,30 +51,6 @@ req.typenames: GNSS_FIXSESSION_PARAM, *PGNSS_FIXSESSION_PARAM
 
 
 This structure defines the parameters used by the GNSS adapter to start a fix session.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG               Size;
-  ULONG               Version;
-  ULONG               FixSessionID;
-  GNSS_FIXSESSIONTYPE SessionType;
-  ULONG               HorizontalAccuracy;
-  ULONG               HorizontalConfidence;
-  ULONG               Reserved[9];
-  ULONG               FixLevelOfDetails;
-  union {
-    GNSS_SINGLESHOT_PARAM         SingleShotParam;
-    GNSS_DISTANCETRACKING_PARAM   DistanceParam;
-    GNSS_CONTINUOUSTRACKING_PARAM ContinuousParam;
-    GNSS_LKGFIX_PARAM             LkgFixParam;
-  };
-  BYTE                Unused[512];
-} GNSS_FIXSESSION_PARAM, *PGNSS_FIXSESSION_PARAM;
-````
 
 
 ## -struct-fields
@@ -133,6 +110,31 @@ The GNSS driver may choose to override this input.
 This flag is OR-ed with the bit-values defined in GNSS_FIXDETAIL_* mask.
 
 
+### -field SingleShotParam
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925218">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
+
+
+### -field DistanceParam
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925105">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
+
+
+### -field ContinuousParam
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925099">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
+
+
+### -field LkgFixParam
+
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925182">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
+
+
+### -field UnusedParam
+
+ 
+
+
 ### -field Unused
 
  
@@ -140,29 +142,9 @@ This flag is OR-ed with the bit-values defined in GNSS_FIXDETAIL_* mask.
 
 
 
-#### - ContinuousParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_continuoustracking_param.md">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
-
-
-#### - DistanceParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_distancetracking_param.md">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
-
-
-#### - LkgFixParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_lkgfix_param.md">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
-
-
 #### - Reserved[9]
 
 Reserved for future use.
-
-
-#### - SingleShotParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_singleshot_param.md">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
 
 
 #### - Unused[512]

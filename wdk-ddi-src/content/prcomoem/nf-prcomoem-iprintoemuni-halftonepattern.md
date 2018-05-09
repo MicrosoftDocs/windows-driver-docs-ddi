@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.HalftonePattern
-title: IPrintOemUni::HalftonePattern method
+title: IPrintOemUni::HalftonePattern
 author: windows-driver-content
 description: The IPrintOemUni::HalftonePattern method can be used with Unidrv-supported printers to create or modify a halftone pattern before it is used in a halftoning operation.
 old-location: print\iprintoemuni_halftonepattern.htm
 old-project: print
 ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: HalftonePattern method [Print Devices], HalftonePattern method [Print Devices], IPrintOemUni interface, HalftonePattern,IPrintOemUni.HalftonePattern, IPrintOemUni, IPrintOemUni interface [Print Devices], HalftonePattern method, IPrintOemUni::HalftonePattern, prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml
+ms.date: 4/20/2018
+ms.keywords: HalftonePattern, HalftonePattern method [Print Devices], HalftonePattern method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],HalftonePattern method, IPrintOemUni.HalftonePattern, IPrintOemUni::HalftonePattern, prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,36 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.HalftonePattern
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::HalftonePattern method
+# IPrintOemUni::HalftonePattern
 
 
 ## -description
 
 
 The <code>IPrintOemUni::HalftonePattern</code> method can be used with Unidrv-supported printers to create or modify a halftone pattern before it is used in a halftoning operation.
-
-
-## -syntax
-
-
-````
-HRESULT HalftonePattern(
-   PDEVOBJ pdevobj,
-   PBYTE   pHTPattern,
-   DWORD   dwHTPatternX,
-   DWORD   dwHTPatternY,
-   DWORD   dwHTNumPatterns,
-   DWORD   dwCallbackID,
-   PBYTE   pResource,
-   DWORD   dwResourceSize
-);
-````
 
 
 ## -parameters
@@ -77,7 +60,7 @@ HRESULT HalftonePattern(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pHTPattern
@@ -290,16 +273,15 @@ For more information about halftoning, see <a href="https://msdn.microsoft.com/c
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
-
-
-
  
 
  
-
 

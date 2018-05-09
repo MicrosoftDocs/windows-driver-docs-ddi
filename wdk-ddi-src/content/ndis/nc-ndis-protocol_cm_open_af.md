@@ -7,8 +7,8 @@ old-location: netvista\protocolcmopenaf.htm
 old-project: netvista
 ms.assetid: 7422c205-bc41-4121-b430-ff9e6b49dc2e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PROTOCOL_CM_OPEN_AF, ProtocolCmOpenAf, ProtocolCmOpenAf callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_2dbd2a83-f6e5-4324-9419-6a39a8e81f41.xml, ndis/ProtocolCmOpenAf, netvista.protocolcmopenaf
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CM_OPEN_AF, PROTOCOL_CM_OPEN_AF callback, ProtocolCmOpenAf, ProtocolCmOpenAf callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_2dbd2a83-f6e5-4324-9419-6a39a8e81f41.xml, ndis/ProtocolCmOpenAf, netvista.protocolcmopenaf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCmOpenAf
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CM_OPEN_AF callback
+# PROTOCOL_CM_OPEN_AF callback function
 
 
 ## -description
@@ -55,22 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CM_OPEN_AF</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CM_OPEN_AF ProtocolCmOpenAf;
-
-NDIS_STATUS ProtocolCmOpenAf(
-  _In_  NDIS_HANDLE        CallMgrBindingContext,
-  _In_  PCO_ADDRESS_FAMILY AddressFamily,
-  _In_  NDIS_HANDLE        NdisAfHandle,
-  _Out_ PNDIS_HANDLE       CallMgrAfContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -80,16 +65,16 @@ NDIS_STATUS ProtocolCmOpenAf(
 
 For a non-integrated call manager, <i>CallMgrBindingContext</i> specifies the handle to a call manager-allocated context area in which the call managers maintains
      its per-binding state information. The call manager supplied this handle when it called 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>.
 
-For an integrated call manager (MCM), <i>CallMgrBindingContext</i> specifies the handle to a miniport-allocated context area in which the miniport maintains its per-adapter state information.  The miniport supplied this handle in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff553623">NdisMSetAttributesEx</a> call (for 5.x drivers) or its <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a> call (for 6.x drivers).
+For an integrated call manager (MCM), <i>CallMgrBindingContext</i> specifies the handle to a miniport-allocated context area in which the miniport maintains its per-adapter state information.  The miniport supplied this handle in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff553623">NdisMSetAttributesEx</a> call (for 5.x drivers) or its <a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a> call (for 6.x drivers).
 
 
 ### -param AddressFamily [in]
 
 Specifies the address family that a client is opening. This address family was registered by the
      call manager when it called 
-     <a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+     <a href="https://msdn.microsoft.com/8890bf31-f2c7-48b0-926d-8931893ede86">
      NdisCmRegisterAddressFamilyEx</a>.
 
 
@@ -137,7 +122,7 @@ Indicates that the call manager has successfully allocated and initialized any r
 <td width="60%">
 Indicates that the requested operation is being handled asynchronously. The call manager must
        call 
-       <a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
+       <a href="https://msdn.microsoft.com/eed57341-0b1a-4697-b05d-680bc17da796">
        NdisCmOpenAddressFamilyComplete</a> when it has completed all its open-AF operations to indicate to
        NDIS (and the client) that the operation(s) has been completed.
 
@@ -254,26 +239,25 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmopenaddressfamilycomplete.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/eed57341-0b1a-4697-b05d-680bc17da796">
    NdisCmOpenAddressFamilyComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
+<a href="https://msdn.microsoft.com/8890bf31-f2c7-48b0-926d-8931893ede86">
    NdisCmRegisterAddressFamilyEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
  
 
  
-
 

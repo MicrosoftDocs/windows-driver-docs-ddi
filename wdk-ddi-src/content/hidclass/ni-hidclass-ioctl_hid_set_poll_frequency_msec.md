@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_set_poll_frequency_msec.htm
 old-project: hid
 ms.assetid: 308c07da-8528-4219-ae48-5d20438a183c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_SET_POLL_FREQUENCY_MSEC, IOCTL_HID_SET_POLL_FREQUENCY_MSEC control code [Human Input Devices], hid.ioctl_hid_set_poll_frequency_msec, hidclass/IOCTL_HID_SET_POLL_FREQUENCY_MSEC, hidioreq_6492a059-8c30-440f-ae98-95d071545408.xml
+ms.date: 4/30/2018
+ms.keywords: IOCTL_HID_SET_POLL_FREQUENCY_MSEC, IOCTL_HID_SET_POLL_FREQUENCY_MSEC control, IOCTL_HID_SET_POLL_FREQUENCY_MSEC control code [Human Input Devices], hid.ioctl_hid_set_poll_frequency_msec, hidclass/IOCTL_HID_SET_POLL_FREQUENCY_MSEC, hidioreq_6492a059-8c30-440f-ae98-95d071545408.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	hidclass.h
 api_name:
 -	IOCTL_HID_SET_POLL_FREQUENCY_MSEC
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_HID_SET_POLL_FREQUENCY_MSEC IOCTL
@@ -112,12 +113,11 @@ The HID class driver sets the <b>Status</b> member of <b>Irp-&gt;IoStatus</b> to
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_poll_frequency_msec.md">IOCTL_HID_GET_POLL_FREQUENCY_MSEC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541142">IOCTL_HID_GET_POLL_FREQUENCY_MSEC</a>
  
 
  
-
 

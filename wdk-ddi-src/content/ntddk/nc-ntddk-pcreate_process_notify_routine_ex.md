@@ -7,8 +7,8 @@ old-location: kernel\pcreate_process_notify_routine_ex.htm
 old-project: kernel
 ms.assetid: 071BD24F-AA58-4A39-8059-CEF6D7105DB6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
-ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE_EX, SetCreateProcessNotifyRoutineEx, SetCreateProcessNotifyRoutineEx callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine_ex, ntddk/SetCreateProcessNotifyRoutineEx
+ms.date: 4/30/2018
+ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE_EX, PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback, SetCreateProcessNotifyRoutineEx, SetCreateProcessNotifyRoutineEx callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine_ex, ntddk/SetCreateProcessNotifyRoutineEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ntddk.h
 api_name:
 -	SetCreateProcessNotifyRoutineEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback
+# PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback function
 
 
 ## -description
@@ -51,21 +52,6 @@ req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 
 A callback routine implemented by a driver to notify the caller when a process is created or exits.
 <div class="alert"><b>Warning</b>  The actions that  you can perform in this routine are restricted for safe calls. See <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager#best">Best Practices</a>. </div><div> </div>
-
-## -prototype
-
-
-````
-PCREATE_PROCESS_NOTIFY_ROUTINE_EX SetCreateProcessNotifyRoutineEx;
-
-void SetCreateProcessNotifyRoutineEx(
-  _In_        HANDLE                 ParentId,
-  _In_        HANDLE                 ProcessId,
-  _Inout_opt_ PPS_CREATE_NOTIFY_INFO CreateInfo
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -82,7 +68,7 @@ The process ID of the process.
 
 ### -param CreateInfo [in, out, optional]
 
-A pointer to a <a href="..\ntddk\ns-ntddk-_ps_create_notify_info.md">PS_CREATE_NOTIFY_INFO</a> structure that contains information about the new process. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff559960">PS_CREATE_NOTIFY_INFO</a> structure that contains information about the new process. 
 
 
 #### - ParentId [in]
@@ -103,23 +89,22 @@ This callback function does not return a value.
 
 
 
-Highest-level drivers call <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a> to register their implementation of  <i>PCREATE_PROCESS_NOTIFY_ROUTINE_EX</i> routine. An installable file system (IFS) or highest-level system-profiling driver might register a process-creation callback routine to track which processes are created and deleted against the driver's internal state across the system. 
+Highest-level drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff559953">PsSetCreateProcessNotifyRoutineEx</a> to register their implementation of  <i>PCREATE_PROCESS_NOTIFY_ROUTINE_EX</i> routine. An installable file system (IFS) or highest-level system-profiling driver might register a process-creation callback routine to track which processes are created and deleted against the driver's internal state across the system. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex2.md">PsSetCreateProcessNotifyRoutineEx2</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559953">PsSetCreateProcessNotifyRoutineEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805891">PsSetCreateProcessNotifyRoutineEx2</a>
  
 
  
-
 

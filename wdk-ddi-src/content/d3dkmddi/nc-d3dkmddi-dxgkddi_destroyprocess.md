@@ -7,8 +7,8 @@ old-location: display\dxgkddidestroyprocess.htm
 old-project: display
 ms.assetid: C5117F9B-876D-4F74-B528-47698666B44B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_DESTROYPROCESS, DxgkDdiDestroyProcess, DxgkDdiDestroyProcess callback function [Display Devices], d3dkmddi/DxgkDdiDestroyProcess, display.dxgkddidestroyprocess, dispmprt/DxgkDdiDestroyProcess
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_DESTROYPROCESS, DXGKDDI_DESTROYPROCESS callback, DxgkDdiDestroyProcess, DxgkDdiDestroyProcess callback function [Display Devices], d3dkmddi/DxgkDdiDestroyProcess, display.dxgkddidestroyprocess, dispmprt/DxgkDdiDestroyProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -39,32 +39,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiDestroyProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_DESTROYPROCESS callback
+# DXGKDDI_DESTROYPROCESS callback function
 
 
 ## -description
 
 
 <b>DxgkDdiDestroyProcess</b> destroys a kernel mode driver process object.
-
-
-## -prototype
-
-
-````
-DXGKDDI_DESTROYPROCESS DxgkDdiDestroyProcess;
-
-NTSTATUS APIENTRY DxgkDdiDestroyProcess(
-  _In_ const HANDLE hAdapter,
-  _In_ const HANDLE hKmdProcess
-)
-{ ... }
-````
 
 
 ## -parameters

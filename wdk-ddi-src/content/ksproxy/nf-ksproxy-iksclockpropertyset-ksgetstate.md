@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsClockPropertySet.KsGetState
-title: IKsClockPropertySet::KsGetState method
+title: IKsClockPropertySet::KsGetState
 author: windows-driver-content
 description: The KsGetState method retrieves the streaming state of a pin from the underlying clock.
 old-location: stream\iksclockpropertyset_ksgetstate.htm
 old-project: stream
 ms.assetid: 153e4f47-ae07-4f1e-9ab5-69ef6565ad5d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], KsGetState method, IKsClockPropertySet::KsGetState, KsGetState method [Streaming Media Devices], KsGetState method [Streaming Media Devices], IKsClockPropertySet interface, KsGetState,IKsClockPropertySet.KsGetState, ksproxy/IKsClockPropertySet::KsGetState, ksproxy_d14aea61-913f-44f9-8fc0-08d31b9e8e50.xml, stream.iksclockpropertyset_ksgetstate
+ms.date: 4/23/2018
+ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetState method, IKsClockPropertySet.KsGetState, IKsClockPropertySet::KsGetState, KsGetState, KsGetState method [Streaming Media Devices], KsGetState method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetState, ksproxy_d14aea61-913f-44f9-8fc0-08d31b9e8e50.xml, stream.iksclockpropertyset_ksgetstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsClockPropertySet.KsGetState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsClockPropertySet::KsGetState method
+# IKsClockPropertySet::KsGetState
 
 
 ## -description
 
 
 The <b>KsGetState</b> method retrieves the streaming state of a pin from the underlying clock.
-
-
-## -syntax
-
-
-````
-HRESULT KsGetState(
-  [out] KSSTATE *State
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ HRESULT KsGetState(
 
 ### -param State [out]
 
-Pointer to a variable that receives a value that specifies the streaming state of a pin. This value can be one of the following values from the <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumerated type:
+Pointer to a variable that receives a value that specifies the streaming state of a pin. This value can be one of the following values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a> enumerated type:
 
 <table>
 <tr>

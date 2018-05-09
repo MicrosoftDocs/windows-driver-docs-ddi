@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.OutputStackTrace
-title: IDebugControl::OutputStackTrace method
+title: IDebugControl::OutputStackTrace
 author: windows-driver-content
 description: The OutputStackTrace method outputs either the supplied stack frame or the current stack frames.
 old-location: debugger\outputstacktrace.htm
 old-project: debugger
 ms.assetid: 207f289c-347c-4ae7-9bbd-7c4a04d19e24
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], OutputStackTrace method, IDebugControl2 interface [Windows Debugging], OutputStackTrace method, IDebugControl2::OutputStackTrace, IDebugControl3 interface [Windows Debugging], OutputStackTrace method, IDebugControl3::OutputStackTrace, IDebugControl::OutputStackTrace, IDebugControl_07d53535-7d91-4771-84b1-f4ac4895a158.xml, OutputStackTrace method [Windows Debugging], OutputStackTrace method [Windows Debugging], IDebugControl interface, OutputStackTrace method [Windows Debugging], IDebugControl2 interface, OutputStackTrace method [Windows Debugging], IDebugControl3 interface, OutputStackTrace,IDebugControl.OutputStackTrace, dbgeng/IDebugControl2::OutputStackTrace, dbgeng/IDebugControl3::OutputStackTrace, dbgeng/IDebugControl::OutputStackTrace, debugger.outputstacktrace
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],OutputStackTrace method, IDebugControl.OutputStackTrace, IDebugControl2 interface [Windows Debugging],OutputStackTrace method, IDebugControl2::OutputStackTrace, IDebugControl3 interface [Windows Debugging],OutputStackTrace method, IDebugControl3::OutputStackTrace, IDebugControl::OutputStackTrace, IDebugControl_07d53535-7d91-4771-84b1-f4ac4895a158.xml, OutputStackTrace, OutputStackTrace method [Windows Debugging], OutputStackTrace method [Windows Debugging],IDebugControl interface, OutputStackTrace method [Windows Debugging],IDebugControl2 interface, OutputStackTrace method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputStackTrace, dbgeng/IDebugControl3::OutputStackTrace, dbgeng/IDebugControl::OutputStackTrace, debugger.outputstacktrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,31 +40,19 @@ api_name:
 -	IDebugControl.OutputStackTrace
 -	IDebugControl2.OutputStackTrace
 -	IDebugControl3.OutputStackTrace
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::OutputStackTrace method
+# IDebugControl::OutputStackTrace
 
 
 ## -description
 
 
 The <b>OutputStackTrace</b> method outputs either the supplied stack frame or the current stack frames.
-
-
-## -syntax
-
-
-````
-HRESULT OutputStackTrace(
-  [in]           ULONG              OutputControl,
-  [in, optional] PDEBUG_STACK_FRAME Frames,
-  [in]           ULONG              FramesSize,
-  [in]           ULONG              Flags
-);
-````
 
 
 ## -parameters
@@ -249,23 +237,6 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548425">GetStackTrace</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -273,8 +244,24 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548425">GetStackTrace</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
  
 
  
-
 

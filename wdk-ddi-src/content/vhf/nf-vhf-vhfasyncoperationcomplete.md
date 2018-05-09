@@ -7,7 +7,7 @@ old-location: hid\_vhfasyncoperationcomplete.htm
 old-project: hid
 ms.assetid: F28E6FC0-C2FE-4119-82D9-C38289340D3D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: VhfAsyncOperationComplete, VhfAsyncOperationComplete method [Human Input Devices], hid._vhfasyncoperationcomplete, vhf/VhfAsyncOperationComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	VhfKm.dll
 api_name:
 -	VhfAsyncOperationComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VhfAsyncOperationComplete function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The HID source driver calls this method to set the results of an asynchronous operation. 
 
 
-## -syntax
-
-
-````
-NTSTATUS VhfAsyncOperationComplete(
-  [in] VHFOPERATIONHANDLE VhfOperationHandle,
-  [in] NTSTATUS           CompletionStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ NTSTATUS VhfAsyncOperationComplete(
 
 ### -param VhfOperationHandle [in]
 
-The operation handle set by Virtual HID Framework (VHF). This handle is passed to the HID source driver  in the <i>VhfOperationHandle</i> parameter of <a href="..\vhf\nc-vhf-evt_vhf_async_operation.md">EvtVhfAsyncOperation</a>.
+The operation handle set by Virtual HID Framework (VHF). This handle is passed to the HID source driver  in the <i>VhfOperationHandle</i> parameter of <a href="https://msdn.microsoft.com/C42174FE-202F-405D-840B-8613762F43AC">EvtVhfAsyncOperation</a>.
 
 
 ### -param CompletionStatus [in]
@@ -93,19 +82,18 @@ If the <b>VhfAsyncOperationComplete</b> call succeeds, the method returns STATUS
 
 
 
-The HID source driver can call  from the event callback or at a later time after returning from the <a href="..\vhf\nc-vhf-evt_vhf_async_operation.md">EvtVhfAsyncOperation</a> callback.
+The HID source driver can call  from the event callback or at a later time after returning from the <a href="https://msdn.microsoft.com/C42174FE-202F-405D-840B-8613762F43AC">EvtVhfAsyncOperation</a> callback.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/26964963-792F-4529-B4FC-110BF5C65B35">Write a HID source driver by using Virtual HID Framework (VHF)</a>
-
-
-
  
 
  
-
 

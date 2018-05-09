@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiRequest.SetSchema
-title: IBidiRequest::SetSchema method
+title: IBidiRequest::SetSchema
 author: windows-driver-content
 description: The SetSchema method sets the bidi schema string.
 old-location: print\ibidirequest_ibidirequest__setschema.htm
 old-project: print
 ms.assetid: ca4f7ea4-fcad-42b0-a63a-eee3706e5cbf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], SetSchema method, IBidiRequest::SetSchema, SetSchema method [Print Devices], SetSchema method [Print Devices], IBidiRequest interface, SetSchema,IBidiRequest.SetSchema, _win32_IBidiRequest_SetSchema, bidispl/IBidiRequest::SetSchema, gdi.ibidirequest_ibidirequest__setschema, print.ibidirequest_ibidirequest__setschema
+ms.date: 4/20/2018
+ms.keywords: IBidiRequest interface [Print Devices],SetSchema method, IBidiRequest.SetSchema, IBidiRequest::SetSchema, SetSchema, SetSchema method [Print Devices], SetSchema method [Print Devices],IBidiRequest interface, _win32_IBidiRequest_SetSchema, bidispl/IBidiRequest::SetSchema, gdi.ibidirequest_ibidirequest__setschema, print.ibidirequest_ibidirequest__setschema
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiRequest.SetSchema
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiRequest::SetSchema method
+# IBidiRequest::SetSchema
 
 
 ## -description
 
 
 The <b>SetSchema</b> method sets the bidi schema string.
-
-
-## -syntax
-
-
-````
-HRESULT SetSchema(
-  [in] const LPCWSTR pszSchema
-);
-````
 
 
 ## -parameters
@@ -124,6 +115,9 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
@@ -132,12 +126,8 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a>
  
 
  
-
 

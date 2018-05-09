@@ -38,10 +38,10 @@ api_location:
 -	wdfobject.h
 api_name:
 -	WDF_OBJECT_ATTRIBUTES_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_SYNCHRONIZATION_SCOPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_OBJECT_ATTRIBUTES_INIT function
@@ -52,17 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The WDF_OBJECT_ATTRIBUTES_INIT function initializes a driver's <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_OBJECT_ATTRIBUTES_INIT(
-  _Out_ PWDF_OBJECT_ATTRIBUTES Attributes
-);
-````
+The WDF_OBJECT_ATTRIBUTES_INIT function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure.
 
 
 ## -parameters
@@ -72,7 +62,7 @@ VOID WDF_OBJECT_ATTRIBUTES_INIT(
 
 ### -param Attributes [out]
 
-A pointer to the driver's <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure.
+A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure.
 
 
 ## -returns
@@ -88,21 +78,20 @@ None
 
 
 
-The WDF_OBJECT_ATTRIBUTES_INIT function sets the <b>ExecutionLevel</b> member of the specified <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure to <b>WdfExecutionLevelInheritFromParent</b>, and it sets the <b>SynchronizationScope</b> member to <b>WdfSynchronizationScopeInheritFromParent</b>.
+The WDF_OBJECT_ATTRIBUTES_INIT function sets the <b>ExecutionLevel</b> member of the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure to <b>WdfExecutionLevelInheritFromParent</b>, and it sets the <b>SynchronizationScope</b> member to <b>WdfSynchronizationScopeInheritFromParent</b>.
 
-For code examples that use WDF_OBJECT_ATTRIBUTES_INIT, see <a href="..\wdfobject\nf-wdfobject-wdfobjectcreate.md">WdfObjectCreate</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548749">WdfObjectGetTypedContext</a>.
+For code examples that use WDF_OBJECT_ATTRIBUTES_INIT, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548730">WdfObjectCreate</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548749">WdfObjectGetTypedContext</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a>
  
 
  
-
 

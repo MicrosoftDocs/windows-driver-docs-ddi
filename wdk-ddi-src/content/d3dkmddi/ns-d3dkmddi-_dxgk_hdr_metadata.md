@@ -7,7 +7,7 @@ old-location: display\dxgk_hdr_metadata.htm
 old-project: display
 ms.assetid: 15AE3B05-1FD4-4ADB-B92F-9098225A920B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_HDR_METADATA, DXGK_HDR_METADATA structure [Display Devices], _DXGK_HDR_METADATA, d3dkmddi/DXGK_HDR_METADATA, display.dxgk_hdr_metadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_HDR_METADATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_HDR_METADATA
 ---
@@ -50,18 +51,6 @@ req.typenames: DXGK_HDR_METADATA
 
 
 Contains information about the HDR metadata.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_HDR_METADATA {
-  D3DDDI_HDR_METADATA_TYPE  Type;
-  UINT                      Size;
-  VOID                      *pMetaData;
-} DXGK_HDR_METADATA;
-````
 
 
 ## -struct-fields
@@ -81,5 +70,5 @@ Indicates the size of the HDR metadata.
 
 ### -field pMetaData
 
-Pointer to the HDR metadata. Interpret this data according to the <a href="../d3dukmdt/ne-d3dukmdt-_d3dddi_hdr_metadata_type">D3DDDI_HDR_METADATA_TYPE</a> value in the Type field.
+Pointer to the HDR metadata.
 

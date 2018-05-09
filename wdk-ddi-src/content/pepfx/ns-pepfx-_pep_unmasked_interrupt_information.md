@@ -7,7 +7,7 @@ old-location: kernel\pep_unmasked_interrupt_information.htm
 old-project: kernel
 ms.assetid: 1DD9A0A2-7D19-419A-8653-C16FDB28299E
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_UNMASKED_INTERRUPT_INFORMATION, PEP_UNMASKED_INTERRUPT_INFORMATION, PEP_UNMASKED_INTERRUPT_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_UNMASKED_INTERRUPT_INFORMATION, PPEP_UNMASKED_INTERRUPT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_UNMASKED_INTERRUPT_INFORMATION, kernel.pep_unmasked_interrupt_information, pepfx/PEP_UNMASKED_INTERRUPT_INFORMATION, pepfx/PPEP_UNMASKED_INTERRUPT_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_UNMASKED_INTERRUPT_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_UNMASKED_INTERRUPT_INFORMATION, *PPEP_UNMASKED_INTERRUPT_INFORMATION
 ---
@@ -50,23 +51,6 @@ req.typenames: PEP_UNMASKED_INTERRUPT_INFORMATION, *PPEP_UNMASKED_INTERRUPT_INFO
 
 
 The <b>PEP_UNMASKED_INTERRUPT_INFORMATION</b> structure contains information about an interrupt source.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_UNMASKED_INTERRUPT_INFORMATION {
-  USHORT                       Version;
-  USHORT                       Size;
-  PEP_UNMASKED_INTERRUPT_FLAGS Flags;
-  KINTERRUPT_MODE              Mode;
-  KINTERRUPT_POLARITY          Polarity;
-  ULONG                        Gsiv;
-  USHORT                       PinNumber;
-  PEPHANDLE                    DeviceHandle;
-} PEP_UNMASKED_INTERRUPT_INFORMATION, *PPEP_UNMASKED_INTERRUPT_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -86,17 +70,17 @@ The size, in bytes, of this structure.
 
 ### -field Flags
 
-A <a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_flags.md">PEP_UNMASKED_INTERRUPT_FLAGS</a> union that indicates whether the interrupt is a primary or secondary interrupt. For more information, see <a href="https://msdn.microsoft.com/731B0E36-4480-4B69-931E-1F7B40B18911">Primary and Secondary Interrupts</a>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt629127">PEP_UNMASKED_INTERRUPT_FLAGS</a> union that indicates whether the interrupt is a primary or secondary interrupt. For more information, see <a href="https://msdn.microsoft.com/731B0E36-4480-4B69-931E-1F7B40B18911">Primary and Secondary Interrupts</a>.
 
 
 ### -field Mode
 
-A <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value. This member indicates whether the interrupt is edge-triggered or level-triggered.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERRUPT_MODE</a> enumeration value. This member indicates whether the interrupt is edge-triggered or level-triggered.
 
 
 ### -field Polarity
 
-A <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> enumeration value. This member indicates which edge or level of the interrupt signal triggers the interrupt.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554243">KINTERRUPT_POLARITY</a> enumeration value. This member indicates which edge or level of the interrupt signal triggers the interrupt.
 
 
 ### -field Gsiv
@@ -127,15 +111,6 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_flags.md">PEP_UNMASKED_INTERRUPT_FLAGS</a>
-
-
-
-<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 
@@ -143,8 +118,16 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERRUPT_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554243">KINTERRUPT_POLARITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt629127">PEP_UNMASKED_INTERRUPT_FLAGS</a>
  
 
  
-
 

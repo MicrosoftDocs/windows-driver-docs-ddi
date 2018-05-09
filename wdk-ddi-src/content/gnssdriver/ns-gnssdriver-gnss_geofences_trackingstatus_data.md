@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_GEOFENCES_TRACKINGSTATUS_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_GEOFENCES_TRACKINGSTATUS_DATA, *PGNSS_GEOFENCES_TRACKINGSTATUS_DATA
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_GEOFENCES_TRACKINGSTATUS_DATA, *PGNSS_GEOFENCES_TRACKINGSTAT
 
 
 This structure is used by the GNSS engine to notify of any changes in the tracking status while tracking a set of previously created geofences.
-
-
-## -syntax
-
-
-````
-typedef struct _GNSS_GEOFENCES_TRACKINGSTATUS_DATA {
-  ULONG    Size;
-  ULONG    Version;
-  NTSTATUS Status;
-  FILETIME StatusTimeStamp;
-  BYTE     Unused[512];
-} GNSS_GEOFENCES_TRACKINGSTATUS_DATA, *PGNSS_GEOFENCES_TRACKINGSTATUS_DATA;
-````
 
 
 ## -struct-fields

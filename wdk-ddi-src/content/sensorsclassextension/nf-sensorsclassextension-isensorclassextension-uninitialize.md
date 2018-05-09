@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.Uninitialize
-title: ISensorClassExtension::Uninitialize method
+title: ISensorClassExtension::Uninitialize
 author: windows-driver-content
 description: The ISensorClassExtension::Uninitialize method uninitializes the sensor class extension object.
 old-location: sensors\isensorclassextension_uninitialize.htm
 old-project: sensors
 ms.assetid: 204a6126-bb69-4a96-acbf-3ad5b8ae0f04
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorClassExtension, ISensorClassExtension::Uninitialize, Uninitialize method [Sensor Devices], Uninitialize,ISensorClassExtension.Uninitialize, sensors.isensorclassextension_uninitialize
+ms.date: 4/30/2018
+ms.keywords: ISensorClassExtension interface [Sensor Devices],Uninitialize method, ISensorClassExtension.Uninitialize, ISensorClassExtension::Uninitialize, Uninitialize, Uninitialize method [Sensor Devices], Uninitialize method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_uninitialize, sensorsclassextension/ISensorClassExtension::Uninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,27 +39,19 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	Uninitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorClassExtension::Uninitialize method
+# ISensorClassExtension::Uninitialize
 
 
 ## -description
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545547">ISensorClassExtension::Uninitialize</a> method uninitializes the sensor class extension object.
-
-
-## -syntax
-
-
-````
-HRESULT Uninitialize();
-````
 
 
 ## -parameters
@@ -117,4 +109,15 @@ Typically, you will uninitialize  the sensor class extension when the driver is 
 If you must, for some reason, otherwise release and uninitialize the sensor class extension, you must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558954">IWDFIoQueue::DrainSynchronously</a> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545547">ISensorClassExtension::Uninitialize</a>. You can retrieve the queue interface by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff558830">IWDFDevice::GetDefaultIoQueue</a> on the WDF device object. Then, call <b>IWDFIoQueue::DrainSynchronously</b> to process all the queued requests. Calling <b>IWDFIoQueue::DrainSynchronously</b> blocks the queuing of new requests, so you must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558977">IWDFIoQueue::Start</a> after you reinitialize the class extension.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545503">ISensorClassExtension</a>
+ 
+
+ 
 

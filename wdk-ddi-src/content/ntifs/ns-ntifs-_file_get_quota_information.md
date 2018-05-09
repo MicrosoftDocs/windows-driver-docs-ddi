@@ -7,7 +7,7 @@ old-location: ifsk\file_get_quota_information.htm
 old-project: ifsk
 ms.assetid: 4c4d57bd-28b3-4db3-a172-bc1a27dd10b2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION structure [Installable File System Drivers], PFILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION structure pointer [Installable File System Drivers], _FILE_GET_QUOTA_INFORMATION, fileinformationstructures_e64ee968-bf98-422e-9bed-837b984fbc33.xml, ifsk.file_get_quota_information, ntifs/FILE_GET_QUOTA_INFORMATION, ntifs/PFILE_GET_QUOTA_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_GET_QUOTA_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_GET_QUOTA_INFORMATION, *PFILE_GET_QUOTA_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: FILE_GET_QUOTA_INFORMATION, *PFILE_GET_QUOTA_INFORMATION
 
 
 The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information. 
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_GET_QUOTA_INFORMATION {
-  ULONG NextEntryOffset;
-  ULONG SidLength;
-  SID   Sid;
-} FILE_GET_QUOTA_INFORMATION, *PFILE_GET_QUOTA_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -81,14 +70,14 @@ Length, in bytes, of the <b>Sid</b> member.
 
 ### -field Sid
 
-Security identifier (<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>) whose quota information is to be returned. 
+Security identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>) whose quota information is to be returned. 
 
 
 ## -remarks
 
 
 
-The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information. The quota information is returned in a <a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>-structured buffer. 
+The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information. The quota information is returned in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540342">FILE_QUOTA_INFORMATION</a>-structured buffer. 
 
 This structure must be aligned on a LONG (4-byte) boundary. 
 
@@ -97,15 +86,14 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540342">FILE_QUOTA_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_quota_information.md">FILE_QUOTA_INFORMATION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iocheckquotabuffervalidity.md">IoCheckQuotaBufferValidity</a>
 
 
 
@@ -113,12 +101,12 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548279">IoCheckQuotaBufferValidity</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
  
 
  
-
 

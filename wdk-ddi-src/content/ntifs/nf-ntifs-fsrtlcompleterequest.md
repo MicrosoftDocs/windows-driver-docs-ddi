@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcompleterequest.htm
 old-project: ifsk
 ms.assetid: dd53d3c5-3a31-4ea9-9f16-0d1b9397f63e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlCompleteRequest, FsRtlCompleteRequest function [Installable File System Drivers], fsrtlref_ae47bec7-1534-4ace-a29b-d5b6a5da292c.xml, ifsk.fsrtlcompleterequest, ntifs/FsRtlCompleteRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlCompleteRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlCompleteRequest macro
@@ -50,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlCompleteRequest</b> macro completes an IRP with the specified status.
-
-
-## -syntax
-
-
-````
-VOID FsRtlCompleteRequest(
-  _In_ PIRP     Irp,
-  _In_ NTSTATUS Status
-);
-````
 
 
 ## -parameters
@@ -94,12 +84,11 @@ Status value to be returned for the IRP.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>
  
 
  
-
 

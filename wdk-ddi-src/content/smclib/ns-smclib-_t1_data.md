@@ -8,7 +8,7 @@ old-project: smartcrd
 ms.assetid: af20cab0-c70b-404c-b6bd-54d9ecf75714
 ms.author: windowsdriverdev
 ms.date: 2/22/2018
-ms.keywords: "*PT1_DATA, T1_DATA, T1_DATA structure [Smart Card Reader Devices], T1_DATA, *PT1_DATA, T1_DATA, *PT1_DATA structure [Smart Card Reader Devices], _T1_DATA, scstruct_d4b3fe1d-28d8-45dc-86f1-2cb75a5bec85.xml, smartcrd.t1_data, smclib/T1_DATA"
+ms.keywords: "*PT1_DATA, T1_DATA, T1_DATA structure [Smart Card Reader Devices], T1_DATA,*PT1_DATA, T1_DATA,*PT1_DATA structure [Smart Card Reader Devices], _T1_DATA, scstruct_d4b3fe1d-28d8-45dc-86f1-2cb75a5bec85.xml, smartcrd.t1_data, smclib/T1_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level (See Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Smclib.h
 api_name:
 -	T1_DATA, *PT1_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: T1_DATA, *PT1_DATA
-req.product: Windows 10 or later.
 ---
 
 # _T1_DATA structure
@@ -51,30 +51,6 @@ req.product: Windows 10 or later.
 
 
 The T1_DATA structure is used by the smart card driver library to process T1 I/O. 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  UCHAR   InfSize;
-  ULONG   BytesReceived;
-  ULONG   BytesSent;
-  ULONG   BytesToSend;
-  UCHAR   LastError;
-  UCHAR   NAD;
-  ULONG   PrevState;
-  UCHAR   Resend;
-  UCHAR   Resynch;
-  UCHAR   RSN;
-  UCHAR   SSN;
-  ULONG   State;
-  UCHAR   Wtx;
-  PUCHAR  ReplyData;
-  BOOLEAN WaitForReply;
-} T1_DATA, *PT1_DATA;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_parameters.htm
 old-project: netvista
 ms.assetid: E68A9018-1E79-4DA6-8C7A-434A2468169F
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PARAMETERS, NDIS_SWITCH_PORT_PARAMETERS, NDIS_SWITCH_PORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PARAMETERS, PNDIS_SWITCH_PORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PARAMETERS, netvista.ndis_switch_port_parameters, ntddndis/NDIS_SWITCH_PORT_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_SWITCH_PORT_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_PARAMETERS, *PNDIS_SWITCH_PORT_PARAMETERS
 ---
@@ -52,23 +53,6 @@ req.typenames: NDIS_SWITCH_PORT_PARAMETERS, *PNDIS_SWITCH_PORT_PARAMETERS
 The <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure contains the configuration data for a Hyper-V extensible switch port. 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_SWITCH_PORT_PARAMETERS {
-  NDIS_OBJECT_HEADER            Header;
-  ULONG                         Flags;
-  NDIS_SWITCH_PORT_ID           PortId;
-  NDIS_SWITCH_PORT_NAME         PortName;
-  NDIS_SWITCH_PORT_FRIENDLYNAME PortFriendlyName;
-  NDIS_SWITCH_PORT_TYPE         PortType;
-  BOOLEAN                       IsValidationPort;
-  NDIS_SWITCH_PORT_PARAMETERS   PortState;
-} NDIS_SWITCH_PORT_PARAMETERS, *PNDIS_SWITCH_PORT_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -76,7 +60,7 @@ typedef struct _NDIS_SWITCH_PORT_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value:  
 
@@ -117,7 +101,7 @@ The internal port name is used by WMI-based policy management applications. For 
 
 ### -field PortType
 
-An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_type.md">NDIS_SWITCH_PORT_TYPE</a> value that specifies the type of the extensible switch port.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/hh598245">NDIS_SWITCH_PORT_TYPE</a> value that specifies the type of the extensible switch port.
 
 
 ### -field IsValidationPort
@@ -127,14 +111,14 @@ An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_type.md">NDIS_SWITCH_PORT_
 
 ### -field PortState
 
- An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_state.md">NDIS_SWITCH_PORT_STATE</a> value that specifies the current state of the port. 
+ An <a href="https://msdn.microsoft.com/library/windows/hardware/jj673025">NDIS_SWITCH_PORT_STATE</a> value that specifies the current state of the port. 
 
 
 ## -remarks
 
 
 
-The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>  structure contains a pointer to an <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure for the following OID requests:
+The <b>InformationBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>  structure contains a pointer to an <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure for the following OID requests:
 
 <ul>
 <li>
@@ -162,7 +146,7 @@ The <b>InformationBuffer</b> member of the <a href="..\ndis\ns-ndis-_ndis_oid_re
 
 </li>
 </ul>
-OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a> return an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a> structure that contains an array of elements. Each element is formatted as an <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure.
+OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a> return an <a href="https://msdn.microsoft.com/library/windows/hardware/hh598221">NDIS_SWITCH_PORT_ARRAY</a> structure that contains an array of elements. Each element is formatted as an <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure.
 
 Extensible switch extensions can access the  port property buffer inside an <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure by using the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598223">NDIS_SWITCH_PORT_AT_ARRAY_INDEX</a> macro.
 
@@ -175,11 +159,10 @@ Extensible switch extensions can access the  port property buffer inside an <b>N
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598272">OID_SWITCH_PORT_CREATE</a>
+<b></b>
 
 
 
@@ -187,7 +170,39 @@ Extensible switch extensions can access the  port property buffer inside an <b>N
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598221">NDIS_SWITCH_PORT_ARRAY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598223">NDIS_SWITCH_PORT_AT_ARRAY_INDEX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598229">NDIS_SWITCH_PORT_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj673025">NDIS_SWITCH_PORT_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598245">NDIS_SWITCH_PORT_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598272">OID_SWITCH_PORT_CREATE</a>
 
 
 
@@ -196,39 +211,7 @@ Extensible switch extensions can access the  port property buffer inside an <b>N
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598279">OID_SWITCH_PORT_TEARDOWN</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_type.md">NDIS_SWITCH_PORT_TYPE</a>
-
-
-
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_state.md">NDIS_SWITCH_PORT_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_array.md">NDIS_SWITCH_PORT_ARRAY</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
-<b></b>
-
-
-
  
 
  
-
 

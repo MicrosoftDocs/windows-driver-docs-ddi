@@ -7,7 +7,7 @@ old-location: debugger\debug_offset_region.htm
 old-project: debugger
 ms.assetid: 7116B31A-D584-4B9D-AFB4-5B15B659BE54
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/24/2018
 ms.keywords: "*PDEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION structure [Windows Debugging], PDEBUG_OFFSET_REGION, PDEBUG_OFFSET_REGION structure pointer [Windows Debugging], _DEBUG_OFFSET_REGION, dbgeng/DEBUG_OFFSET_REGION, dbgeng/PDEBUG_OFFSET_REGION, debugger.debug_offset_region"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	DbgEng.h
 api_name:
 -	DEBUG_OFFSET_REGION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEBUG_OFFSET_REGION, *PDEBUG_OFFSET_REGION
 ---
@@ -50,17 +51,6 @@ req.typenames: DEBUG_OFFSET_REGION, *PDEBUG_OFFSET_REGION
 
 
 Defines a debug offset region.
-
-
-## -syntax
-
-
-````
-typedef struct _DEBUG_OFFSET_REGION {
-  ULONG64 Base;
-  ULONG64 Size;
-} DEBUG_OFFSET_REGION, *PDEBUG_OFFSET_REGION;
-````
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ The size of the region.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549798">IDebugAdvanced</a>
  
 
  
-
 

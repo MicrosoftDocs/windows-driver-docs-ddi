@@ -7,7 +7,7 @@ old-location: netvista\ndisfreememory.htm
 old-project: netvista
 ms.assetid: 0096fef7-2a5a-45cd-8e54-dc1ec0e84237
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisFreeMemory, NdisFreeMemory function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemory, ndis_memory_ref_a178b0d7-8966-4356-8f63-3293605a6655.xml, netvista.ndisfreememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisFreeMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisFreeMemory function
@@ -52,19 +53,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The
   <b>NdisFreeMemory</b> function releases a block of memory that was previously allocated with the 
-  <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeMemory(
-  _In_ PVOID VirtualAddress,
-  _In_ UINT  Length,
-  _In_ UINT  MemoryFlags
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561606">NdisAllocateMemoryWithTagPriority</a> function.
 
 
 ## -parameters
@@ -75,19 +64,19 @@ VOID NdisFreeMemory(
 ### -param VirtualAddress [in]
 
 A pointer to the base virtual address of the allocated memory. This address was returned by the 
-     <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561606">NdisAllocateMemoryWithTagPriority</a> function.
 
 
 ### -param Length [in]
 
-The size, in bytes, of the memory block to be released. If the memory was allocated with <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a> or the <i>MemoryFlags</i> parameter is zero, this parameter is ignored. 
+The size, in bytes, of the memory block to be released. If the memory was allocated with <a href="https://msdn.microsoft.com/library/windows/hardware/ff561606">NdisAllocateMemoryWithTagPriority</a> or the <i>MemoryFlags</i> parameter is zero, this parameter is ignored. 
 
 
 ### -param MemoryFlags [in]
 
 A set of flags that specify the type of memory to free. This value must be zero if the memory was
       allocated with 
-      <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>. With NDIS 6.0 and later versions, the 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561606">NdisAllocateMemoryWithTagPriority</a>. With NDIS 6.0 and later versions, the 
       <b>NdisAllocateMemoryWithTagPriority</b> is always used to allocate memory.
 
 
@@ -131,17 +120,16 @@ When releasing memory that is neither contiguous nor noncached, a caller of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+
+
+
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
    NdisAllocateMemoryWithTagPriority</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
-
-
-
  
 
  
-
 

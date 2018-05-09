@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_DEVICE_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_DEVICE_CAPABILITY, *PGNSS_DEVICE_CAPABILITY
 ---
@@ -50,42 +51,6 @@ req.typenames: GNSS_DEVICE_CAPABILITY, *PGNSS_DEVICE_CAPABILITY
 
 
 This structure is used to determine the device capabilities of the underlying GNSS engine.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG             Size;
-  ULONG             Version;
-  BOOL              SupportMultipleFixSessions;
-  BOOL              SupportMultipleAppSessions;
-  BOOL              RequireAgnssInjection;
-  ULONG             AgnssFormatSupported;
-  ULONG             AgnssFormatPreferred;
-  BOOL              SupportDistanceTracking;
-  BOOL              SupportContinuousTracking;
-  ULONG             Reserved1;
-  BOOL              Reserved2;
-  BOOL              Reserved3;
-  BOOL              Reserved4;
-  BOOL              Reserved5;
-  ULONG             GeofencingSupport;
-  BOOL              Reserved6;
-  BOOL              Reserved7;
-  BOOL              SupportCpLocation;
-  BOOL              SupportUplV2;
-  BOOL              SupportSuplV1;
-  BOOL              SupportSuplV2;
-  GNSS_SUPL_VERSION SupportedSuplVersion;
-  ULONG             MaxGeofencesSupported;
-  BOOL              SupportMultipleSuplRootCert;
-  ULONG             GnssBreadCrumbPayloadVersion;
-  ULONG             MaxGnssBreadCrumbFixes;
-  BYTE              Unused[496];
-} GNSS_DEVICE_CAPABILITY, *PGNSS_DEVICE_CAPABILITY;
-````
 
 
 ## -struct-fields

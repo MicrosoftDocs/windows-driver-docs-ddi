@@ -7,7 +7,7 @@ old-location: stream\bdavalidatenodeproperty.htm
 old-project: stream
 ms.assetid: e3a6d757-68c5-49d1-92cc-0ebf6ba6bbec
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: BdaValidateNodeProperty, BdaValidateNodeProperty function [Streaming Media Devices], bdaref_a6f1ec2f-9e23-4cbb-a3dc-fab0d2c5ca1c.xml, bdasup/BdaValidateNodeProperty, stream.bdavalidatenodeproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Bdasup.dll
 api_name:
 -	BdaValidateNodeProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
+req.typenames: 
 ---
 
 # BdaValidateNodeProperty function
@@ -51,17 +52,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 
 
 The <b>BdaValidateNodeProperty</b> function validates that a node property request is associated with a specific pin. 
-
-
-## -syntax
-
-
-````
-NTSTATUS BdaValidateNodeProperty(
-  _In_ PIRP        Irp,
-  _In_ PKSPROPERTY pKSProperty
-);
-````
 
 
 ## -parameters
@@ -111,11 +101,10 @@ A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> functi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566533">KSPROPSETID_BdaAutodemodulate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566542">KSPROPSETID_BdaFrequencyFilter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
@@ -127,12 +116,12 @@ A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> functi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566533">KSPROPSETID_BdaAutodemodulate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566542">KSPROPSETID_BdaFrequencyFilter</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\kscamera_extendedprop_roi_whitebalance.htm
 old-project: stream
 ms.assetid: 16BDC61E-390C-4D79-A8D0-049404974733
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, stream.kscamera_extendedprop_roi_whitebalance, tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, *PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE
 ---
@@ -52,17 +53,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, *PKSCAMERA_EXTENDEDPROP_R
 This structure contains the ROI info structure for white balance.
 
 
-## -syntax
-
-
-````
-typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE {
-  KSCAMERA_EXTENDEDPROP_ROI_INFO ROIInfo;
-  ULONGLONG                      Reserved;
-} KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, *PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +60,7 @@ typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE {
 
 ### -field ROIInfo
 
-See the <a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_roi_info.md">KSCAMERA_EXTENDEDPROP_ROI_INFO</a> structure for more information.
+See the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925167">KSCAMERA_EXTENDEDPROP_ROI_INFO</a> structure for more information.
 
 
 ### -field Reserved

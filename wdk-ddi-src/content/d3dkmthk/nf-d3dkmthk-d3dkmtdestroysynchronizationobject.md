@@ -7,7 +7,7 @@ old-location: display\d3dkmtdestroysynchronizationobject.htm
 old-project: display
 ms.assetid: 38e77d21-a386-4de8-8d1c-db48434828c6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTDestroySynchronizationObject, D3DKMTDestroySynchronizationObject function [Display Devices], OpenGL_Functions_181e72ed-9dd7-4b4c-b6e6-9231a2603f20.xml, d3dkmthk/D3DKMTDestroySynchronizationObject, display.d3dkmtdestroysynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTDestroySynchronizationObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTDestroySynchronizationObject function
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTDestroySynchronizationObject</b> function destroys a kernel-mode synchronization object.
-
-
-## -syntax
-
-
-````
-NTSTATUS D3DKMTDestroySynchronizationObject(
-  _In_ const D3DKMT_DESTROYSYNCHRONIZATIONOBJECT *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroysynchronizationobject.md">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains the handle to the synchronization object to destroy.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547898">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a> structure that contains the handle to the synchronization object to destroy.
 
 
 ## -returns
@@ -127,12 +118,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroysynchronizationobject.md">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547898">D3DKMT_DESTROYSYNCHRONIZATIONOBJECT</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortWavePciStream.TerminatePacket
-title: IPortWavePciStream::TerminatePacket method
+title: IPortWavePciStream::TerminatePacket
 author: windows-driver-content
 description: The TerminatePacket method terminates the packet currently being mapped.
 old-location: audio\iportwavepcistream_terminatepacket.htm
 old-project: audio
 ms.assetid: b85c37ff-b8f0-43df-bce2-f8a85ec050a7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IPortWavePciStream, IPortWavePciStream interface [Audio Devices], TerminatePacket method, IPortWavePciStream::TerminatePacket, TerminatePacket method [Audio Devices], TerminatePacket method [Audio Devices], IPortWavePciStream interface, TerminatePacket,IPortWavePciStream.TerminatePacket, audio.iportwavepcistream_terminatepacket, audmp-routines_7991fb3b-ea9a-4c58-acd5-7563752f415e.xml, portcls/IPortWavePciStream::TerminatePacket
+ms.date: 4/16/2018
+ms.keywords: IPortWavePciStream interface [Audio Devices],TerminatePacket method, IPortWavePciStream.TerminatePacket, IPortWavePciStream::TerminatePacket, TerminatePacket, TerminatePacket method [Audio Devices], TerminatePacket method [Audio Devices],IPortWavePciStream interface, audio.iportwavepcistream_terminatepacket, audmp-routines_7991fb3b-ea9a-4c58-acd5-7563752f415e.xml, portcls/IPortWavePciStream::TerminatePacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortWavePciStream.TerminatePacket
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortWavePciStream::TerminatePacket method
+# IPortWavePciStream::TerminatePacket
 
 
 ## -description
 
 
 The <code>TerminatePacket</code> method terminates the packet currently being mapped.
-
-
-## -syntax
-
-
-````
-NTSTATUS TerminatePacket(
-    None
-);
-````
 
 
 ## -parameters

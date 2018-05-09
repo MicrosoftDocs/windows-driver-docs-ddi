@@ -7,7 +7,7 @@ old-location: print\dot4_dc_open_data.htm
 old-project: print
 ms.assetid: 72AE7A78-C02D-4C14-B017-9CEECF34FEDF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDOT4_DC_OPEN_DATA, DOT4_DC_OPEN_DATA, DOT4_DC_OPEN_DATA structure [Print Devices], PDOT4_DC_OPEN_DATA, PDOT4_DC_OPEN_DATA structure pointer [Print Devices], _DOT4_DC_OPEN_DATA, d4drvif/DOT4_DC_OPEN_DATA, d4drvif/PDOT4_DC_OPEN_DATA, print.dot4_dc_open_data"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D4drvif.h
 api_name:
 -	DOT4_DC_OPEN_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT4_DC_OPEN_DATA, *PDOT4_DC_OPEN_DATA
 ---
@@ -50,18 +51,6 @@ req.typenames: DOT4_DC_OPEN_DATA, *PDOT4_DC_OPEN_DATA
 
 
 This topic describes the <b>DOT4_DC_OPEN_DATA</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _DOT4_DC_OPEN_DATA {
-  unsigned char  bHsid;
-  fAddActivity   unsigned char;
-  CHANNEL_HANDLE hChannelHandle;
-} DOT4_DC_OPEN_DATA, *PDOT4_DC_OPEN_DATA;
-````
 
 
 ## -struct-fields

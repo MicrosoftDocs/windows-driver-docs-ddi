@@ -7,7 +7,7 @@ old-location: kernel\interface.htm
 old-project: kernel
 ms.assetid: d853643d-d3e8-40cc-a8a8-848f36f3bdae
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PINTERFACE, INTERFACE, INTERFACE structure [Kernel-Mode Driver Architecture], PINTERFACE, PINTERFACE structure pointer [Kernel-Mode Driver Architecture], _INTERFACE, kernel.interface, kstruct_b_667d57fa-a959-4904-a15e-af4d4f44988e.xml, wdm/INTERFACE, wdm/PINTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	INTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INTERFACE, *PINTERFACE
-req.product: Windows 10 or later.
 ---
 
 # _INTERFACE structure
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>INTERFACE</b> structure describes an interface that is exported by a driver for use by other drivers.
-
-
-## -syntax
-
-
-````
-typedef struct _INTERFACE {
-  USHORT                 Size;
-  USHORT                 Version;
-  PVOID                  Context;
-  PINTERFACE_REFERENCE   InterfaceReference;
-  PINTERFACE_DEREFERENCE InterfaceDereference;
-} INTERFACE, *PINTERFACE;
-````
 
 
 ## -struct-fields
@@ -89,12 +75,12 @@ Pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-Pointer to a driver-supplied <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
+Pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-Pointer to a driver-supplied <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
+Pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ## -remarks
@@ -112,11 +98,6 @@ Each driver that imports the interface (whether by sending <b>IRP_MN_QUERY_INTER
 
 ## -see-also
 
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
-
-
-
-<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 
@@ -124,8 +105,12 @@ Each driver that imports the interface (whether by sending <b>IRP_MN_QUERY_INTER
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a>
  
 
  
-
 

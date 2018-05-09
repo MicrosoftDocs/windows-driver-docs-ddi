@@ -7,7 +7,7 @@ old-location: storage\hba_scsireadcapacityv2.htm
 old-project: storage
 ms.assetid: 8347e1ef-1285-43a9-bea7-a9a59ec0dfd0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_ScsiReadCapacityV2, HBA_ScsiReadCapacityV2 routine [Storage Devices], fibreHBA_rtns_8ac08e6d-79aa-4eee-a352-aa8ff51ec85f.xml, hbaapi/HBA_ScsiReadCapacityV2, storage.hba_scsireadcapacityv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_ScsiReadCapacityV2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_ScsiReadCapacityV2 function
@@ -52,24 +53,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_ScsiReadCapacityV2</b> routine sends a SCSI read capacity command to the indicated remote port. 
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_ScsiReadCapacityV2(
-  _In_    HBA_HANDLE HbaHandle,
-  _In_    HBA_WWN    HbaPortWWN,
-  _In_    HBA_WWN    discoveredPortWWN,
-  _In_    HBA_UINT64 fcLUN,
-  _Out_   void       *pRespBuffer,
-  _Inout_ HBA_UINT32 *pRespBufferSize,
-  _Out_   HBA_UINT8  *pScsiStatus,
-  _Out_   void       *pSenseBuffer,
-  _Inout_ HBA_UINT32 *pSenseBufferSize
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +60,7 @@ HBA_STATUS HBA_API HBA_ScsiReadCapacityV2(
 
 ### -param HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI read capacity command is sent.
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI read capacity command is sent.
 
 
 ### -param HbaPortWWN [in]
@@ -215,16 +198,15 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
  
 
  
-
 

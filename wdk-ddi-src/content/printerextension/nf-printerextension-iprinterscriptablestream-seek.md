@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptableStream.Seek
-title: IPrinterScriptableStream::Seek method
+title: IPrinterScriptableStream::Seek
 author: windows-driver-content
 description: Sets the seek pointer.
 old-location: print\iprinterscriptablestream__seek.htm
 old-project: print
 ms.assetid: 82080353-2252-4BF2-B7F4-F297DCA99FA0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], Seek method, IPrinterScriptableStream::Seek, Seek method [Print Devices], Seek method [Print Devices], IPrinterScriptableStream interface, Seek,IPrinterScriptableStream.Seek, print.iprinterscriptablestream__seek, printerextension/IPrinterScriptableStream::Seek
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptableStream interface [Print Devices],Seek method, IPrinterScriptableStream.Seek, IPrinterScriptableStream::Seek, Seek, Seek method [Print Devices], Seek method [Print Devices],IPrinterScriptableStream interface, print.iprinterscriptablestream__seek, printerextension/IPrinterScriptableStream::Seek
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptableStream.Seek
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptableStream::Seek method
+# IPrinterScriptableStream::Seek
 
 
 ## -description
 
 
 Sets the seek pointer.
-
-
-## -syntax
-
-
-````
-HRESULT Seek(
-  [in]          LONG        lOffset,
-  [in]          STREAM_SEEK streamSeek,
-  [out, retval] LONG        *plPosition
-);
-````
 
 
 ## -parameters
@@ -96,12 +84,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973218">IPrinterScriptableStream</a>
  
 
  
-
 

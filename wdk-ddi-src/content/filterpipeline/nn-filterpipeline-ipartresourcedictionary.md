@@ -38,7 +38,8 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPartResourceDictionary
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: EXpsFontRestriction
 ---
@@ -54,12 +55,11 @@ The <b>IPartResourceDictionary</b> interface is the abstraction for an XPS resou
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartbase.md">IPartBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551846">IPartBase</a>
  
 
  
-
 

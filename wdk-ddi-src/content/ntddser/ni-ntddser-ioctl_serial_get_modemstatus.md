@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_get_modemstatus.htm
 old-project: serports
 ms.assetid: d3926476-758d-4bc0-a1e8-114dc47dc846
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_GET_MODEMSTATUS, IOCTL_SERIAL_GET_MODEMSTATUS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_MODEMSTATUS, serports.ioctl_serial_get_modemstatus, serref_6948e4a9-43c8-4ebe-9a0c-c47a2d3f1a7a.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_GET_MODEMSTATUS, IOCTL_SERIAL_GET_MODEMSTATUS control, IOCTL_SERIAL_GET_MODEMSTATUS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_MODEMSTATUS, serports.ioctl_serial_get_modemstatus, serref_6948e4a9-43c8-4ebe-9a0c-c47a2d3f1a7a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_GET_MODEMSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_GET_MODEMSTATUS IOCTL
@@ -106,12 +107,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_modem_control.md">IOCTL_SERIAL_SET_MODEM_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546748">IOCTL_SERIAL_SET_MODEM_CONTROL</a>
  
 
  
-
 

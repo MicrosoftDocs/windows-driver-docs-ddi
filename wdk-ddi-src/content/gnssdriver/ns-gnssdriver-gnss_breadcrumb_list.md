@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_BREADCRUMB_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_BREADCRUMB_LIST, *PGNSS_BREADCRUMB_LIST
 ---
@@ -49,22 +50,7 @@ req.typenames: GNSS_BREADCRUMB_LIST, *PGNSS_BREADCRUMB_LIST
 ## -description
 
 
-This structure contains the response to an <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_pop_breadcrumbs.md">IOCTL_GNSS_POP_BREADCRUMBS</a>.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG NumCrumbs;
-  union {
-    GNSS_BREADCRUMB_V1  v1[50];
-  };
-} GNSS_BREADCRUMB_LIST, *PGNSS_BREADCRUMB_LIST;
-````
+This structure contains the response to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt767992">IOCTL_GNSS_POP_BREADCRUMBS</a>.
 
 
 ## -struct-fields
@@ -85,6 +71,13 @@ Version number.
 ### -field NumCrumbs
 
 The number of breadcrumbs in the <b>IOCTL_GNSS_POP_BREADCRUMBS</b> response.
+
+
+### -field v1
+
+ 
+
+
 
 
 #### - v1[50]

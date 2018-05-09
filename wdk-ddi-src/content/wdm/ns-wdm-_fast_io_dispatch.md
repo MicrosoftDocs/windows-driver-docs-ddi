@@ -7,7 +7,7 @@ old-location: ifsk\fast_io_dispatch.htm
 old-project: ifsk
 ms.assetid: 9F422CE9-8ADC-4709-8FE5-5A3501B47AC2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFAST_IO_DISPATCH, FAST_IO_DISPATCH, FAST_IO_DISPATCH structure [Installable File System Drivers], PFAST_IO_DISPATCH, PFAST_IO_DISPATCH structure pointer [Installable File System Drivers], _FAST_IO_DISPATCH, ifsk.fast_io_dispatch, wdm/FAST_IO_DISPATCH, wdm/PFAST_IO_DISPATCH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	FAST_IO_DISPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FAST_IO_DISPATCH, *PFAST_IO_DISPATCH
-req.product: Windows 10 or later.
 ---
 
 # _FAST_IO_DISPATCH structure
@@ -51,43 +51,6 @@ req.product: Windows 10 or later.
 
 
 Contains a set of callback routines that a file system driver or file system filter driver (legacy) provides for fast I/O processing.
-
-
-## -syntax
-
-
-````
-typedef struct _FAST_IO_DISPATCH {
-  ULONG                                  SizeOfFastIoDispatch;
-  PFAST_IO_CHECK_IF_POSSIBLE             FastIoCheckIfPossible;
-  PFAST_IO_READ                          FastIoRead;
-  PFAST_IO_WRITE                         FastIoWrite;
-  PFAST_IO_QUERY_BASIC_INFO              FastIoQueryBasicInfo;
-  PFAST_IO_QUERY_STANDARD_INFO           FastIoQueryStandardInfo;
-  PFAST_IO_LOCK                          FastIoLock;
-  PFAST_IO_UNLOCK_SINGLE                 FastIoUnlockSingle;
-  PFAST_IO_UNLOCK_ALL                    FastIoUnlockAll;
-  PFAST_IO_UNLOCK_ALL_BY_KEY             FastIoUnlockAllByKey;
-  PFAST_IO_DEVICE_CONTROL                FastIoDeviceControl;
-  PFAST_IO_ACQUIRE_FILE                  AcquireFileForNtCreateSection;
-  PFAST_IO_RELEASE_FILE                  ReleaseFileForNtCreateSection;
-  PFAST_IO_DETACH_DEVICE                 FastIoDetachDevice;
-  PFAST_IO_QUERY_NETWORK_OPEN_INFO       FastIoQueryNetworkOpenInfo;
-  PFAST_IO_ACQUIRE_FOR_MOD_WRITE         AcquireForModWrite;
-  PFAST_IO_MDL_READ                      MdlRead;
-  PFAST_IO_MDL_READ_COMPLETE             MdlReadComplete;
-  PFAST_IO_PREPARE_MDL_WRITE             PrepareMdlWrite;
-  PFAST_IO_MDL_WRITE_COMPLETE            MdlWriteComplete;
-  PFAST_IO_READ_COMPRESSED               FastIoReadCompressed;
-  PFAST_IO_WRITE_COMPRESSED              FastIoWriteCompressed;
-  PFAST_IO_MDL_READ_COMPLETE_COMPRESSED  MdlReadCompleteCompressed;
-  PFAST_IO_MDL_WRITE_COMPLETE_COMPRESSED MdlWriteCompleteCompressed;
-  PFAST_IO_QUERY_OPEN                    FastIoQueryOpen;
-  PFAST_IO_RELEASE_FOR_MOD_WRITE         ReleaseForModWrite;
-  PFAST_IO_ACQUIRE_FOR_CCFLUSH           AcquireForCcFlush;
-  PFAST_IO_RELEASE_FOR_CCFLUSH           ReleaseForCcFlush;
-} FAST_IO_DISPATCH, *PFAST_IO_DISPATCH;
-````
 
 
 ## -struct-fields

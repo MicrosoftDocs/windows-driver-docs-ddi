@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival
-title: IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival method
+title: IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
 author: windows-driver-content
 description: A driver's OnRemoteInterfaceArrival event callback function informs the driver when a device interface is available.
 old-location: wdf\ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 19a0eec7-1a67-42ad-86d2-20566a2c1268
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackRemoteInterfaceNotification, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, OnRemoteInterfaceArrival method, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival,IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
+ms.keywords: IPnpCallbackRemoteInterfaceNotification interface,OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, OnRemoteInterfaceArrival, OnRemoteInterfaceArrival method, OnRemoteInterfaceArrival method,IPnpCallbackRemoteInterfaceNotification interface, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival method
+# IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 A driver's <b>OnRemoteInterfaceArrival</b> event callback function informs the driver when a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> is available. 
 
 
-## -syntax
-
-
-````
-void OnRemoteInterfaceArrival(
-  [in] IWDFRemoteInterfaceInitialize *pWdfRemoteInterfaceInit
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void OnRemoteInterfaceArrival(
 
 ### -param pWdfRemoteInterfaceInit [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a> interface that identifies the device interface that has arrived.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560232">IWDFRemoteInterfaceInitialize</a> interface that identifies the device interface that has arrived.
 
 
 ## -returns
@@ -90,7 +80,7 @@ None.
 
 A UMDF-based driver can register its optional <b>OnRemoteInterfaceArrival</b> event callback function by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff556939">IWDFDevice2::RegisterRemoteInterfaceNotification</a>.
 
-The driver can use methods of the <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a> interface to determine which device interface has arrived.
+The driver can use methods of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560232">IWDFRemoteInterfaceInitialize</a> interface to determine which device interface has arrived.
 
 Before the driver can send I/O requests to the device interface, the driver must do the following:
 
@@ -116,11 +106,10 @@ For more information about using remote interface objects to access device inter
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556772">IPnpCallbackRemoteInterfaceNotification</a>
 
 
 
@@ -128,16 +117,16 @@ For more information about using remote interface objects to access device inter
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackremoteinterfacenotification.md">IPnpCallbackRemoteInterfaceNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560232">IWDFRemoteInterfaceInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
  
 
  
-
 

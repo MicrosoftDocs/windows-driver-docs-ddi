@@ -1,14 +1,14 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetTime
-title: IKsReferenceClock::GetTime method
+title: IKsReferenceClock::GetTime
 author: windows-driver-content
 description: The IKsReferenceClock::GetTime method queries the associated reference clock for the current time.
 old-location: stream\iksreferenceclock_gettime.htm
 old-project: stream
 ms.assetid: 3e5ff621-47ec-4ab7-bf8e-26bff57588f8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: GetTime method [Streaming Media Devices], GetTime method [Streaming Media Devices], IKsReferenceClock interface, GetTime,IKsReferenceClock.GetTime, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetTime method, IKsReferenceClock::GetTime, avintfc_54820682-eb28-4344-91d3-ee30ef2f7bd6.xml, ks/IKsReferenceClock::GetTime, stream.iksreferenceclock_gettime
+ms.date: 4/23/2018
+ms.keywords: GetTime, GetTime method [Streaming Media Devices], GetTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetTime method, IKsReferenceClock.GetTime, IKsReferenceClock::GetTime, avintfc_54820682-eb28-4344-91d3-ee30ef2f7bd6.xml, ks/IKsReferenceClock::GetTime, stream.iksreferenceclock_gettime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	IKsReferenceClock.GetTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
 
-# IKsReferenceClock::GetTime method
+# IKsReferenceClock::GetTime
 
 
 ## -description
 
 
 The <b>IKsReferenceClock::GetTime</b> method queries the associated reference clock for the current time.
-
-
-## -syntax
-
-
-````
-LONGLONG GetTime();
-````
 
 
 ## -parameters
@@ -80,7 +73,7 @@ The <b>IKsReferenceClock::GetTime</b> method returns the current stream time for
 
 
 
-Do not call this method when obtaining a time stamp for the <b>PresentationTime</b> member of <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a>. Instead, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560728">IKsReferenceClock::GetCorrelatedTime</a> in this situation.
+Do not call this method when obtaining a time stamp for the <b>PresentationTime</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a>. Instead, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560728">IKsReferenceClock::GetCorrelatedTime</a> in this situation.
 
 For more information, see <a href="https://msdn.microsoft.com/fc1d5bca-72e3-48e2-b46f-09a13bba83b4">AVStream Clocks</a>.
 
@@ -91,12 +84,11 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563517">KsPinGetReferenceClockInterface</a>
  
 
  
-
 

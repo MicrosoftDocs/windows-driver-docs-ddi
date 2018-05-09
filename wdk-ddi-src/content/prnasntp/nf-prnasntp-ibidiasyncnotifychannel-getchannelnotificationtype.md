@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.GetChannelNotificationType
-title: IBidiAsyncNotifyChannel::GetChannelNotificationType method
+title: IBidiAsyncNotifyChannel::GetChannelNotificationType
 author: windows-driver-content
 description: "."
 old-location: print\ibidiasyncnotifychannel_getchannelnotificationtype.htm
 old-project: print
 ms.assetid: EB0F515D-A2FF-4744-ABC8-8FFD9DD08F24
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetChannelNotificationType method [Print Devices], GetChannelNotificationType method [Print Devices], IBidiAsyncNotifyChannel interface, GetChannelNotificationType,IBidiAsyncNotifyChannel.GetChannelNotificationType, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], GetChannelNotificationType method, IBidiAsyncNotifyChannel::GetChannelNotificationType, print.ibidiasyncnotifychannel_getchannelnotificationtype, prnasntp/IBidiAsyncNotifyChannel::GetChannelNotificationType
+ms.date: 4/20/2018
+ms.keywords: GetChannelNotificationType, GetChannelNotificationType method [Print Devices], GetChannelNotificationType method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],GetChannelNotificationType method, IBidiAsyncNotifyChannel.GetChannelNotificationType, IBidiAsyncNotifyChannel::GetChannelNotificationType, print.ibidiasyncnotifychannel_getchannelnotificationtype, prnasntp/IBidiAsyncNotifyChannel::GetChannelNotificationType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IBidiAsyncNotifyChannel.GetChannelNotificationType
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IBidiAsyncNotifyChannel::GetChannelNotificationType method
+# IBidiAsyncNotifyChannel::GetChannelNotificationType
 
 
 ## -description
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT GetChannelNotificationType(
-    
-);
-````
 
 
 ## -parameters
@@ -81,12 +71,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-ibidiasyncnotifychannel.md">IBidiAsyncNotifyChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/5038BCFA-6E18-4BF8-9442-4F12D77418B0">IBidiAsyncNotifyChannel</a>
  
 
  
-
 

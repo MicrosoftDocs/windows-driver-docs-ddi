@@ -7,7 +7,7 @@ old-location: print\notification_callback_commands.htm
 old-project: print
 ms.assetid: D93D09AE-B0B8-4682-BBBA-1EEC952A733D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: NOTIFICATION_CALLBACK_COMMANDS, NOTIFICATION_CALLBACK_COMMANDS enumeration [Print Devices], NOTIFICATION_COMMAND_CONTEXT_ACQUIRE, NOTIFICATION_COMMAND_CONTEXT_RELEASE, NOTIFICATION_COMMAND_NOTIFY, _NOTIFICATION_CALLBACK_COMMANDS, print.notification_callback_commands, winsplp/NOTIFICATION_CALLBACK_COMMANDS, winsplp/NOTIFICATION_COMMAND_CONTEXT_ACQUIRE, winsplp/NOTIFICATION_COMMAND_CONTEXT_RELEASE, winsplp/NOTIFICATION_COMMAND_NOTIFY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Winsplp.h
 api_name:
 -	NOTIFICATION_CALLBACK_COMMANDS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NOTIFICATION_CALLBACK_COMMANDS
-req.product: Windows 10 or later.
 ---
 
 # _NOTIFICATION_CALLBACK_COMMANDS enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum _NOTIFICATION_CALLBACK_COMMANDS { 
-  NOTIFICATION_COMMAND_NOTIFY,
-  NOTIFICATION_COMMAND_CONTEXT_ACQUIRE,
-  NOTIFICATION_COMMAND_CONTEXT_RELEASE
-} NOTIFICATION_CALLBACK_COMMANDS;
-````
 
 
 ## -enum-fields

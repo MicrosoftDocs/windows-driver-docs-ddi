@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_TIMESTAMP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_TIMESTAMP, *PWHEA_TIMESTAMP
 ---
@@ -52,27 +53,6 @@ req.typenames: WHEA_TIMESTAMP, *PWHEA_TIMESTAMP
 The WHEA_TIMESTAMP union describes the time that an error was reported to the operating system.
 
 
-## -syntax
-
-
-````
-typedef union _WHEA_TIMESTAMP {
-  struct {
-    ULONGLONG Seconds  :8;
-    ULONGLONG Minutes  :8;
-    ULONGLONG Hours  :8;
-    ULONGLONG Precise  :1;
-    ULONGLONG Reserved  :7;
-    ULONGLONG Day  :8;
-    ULONGLONG Month  :8;
-    ULONGLONG Year  :8;
-    ULONGLONG Century  :8;
-  };
-  LARGE_INTEGER AsLARGE_INTEGER;
-} WHEA_TIMESTAMP, *PWHEA_TIMESTAMP;
-````
-
-
 ## -struct-fields
 
 
@@ -83,75 +63,74 @@ typedef union _WHEA_TIMESTAMP {
  
 
 
-### -field AsLARGE_INTEGER
+### -field DUMMYSTRUCTNAME.Seconds
 
-A LARGE_INTEGER representation of the contents of the WHEA_TIMESTAMP union.
-
-
-#### - Century
-
-The century.
+The number of seconds past the minute.
 
 
-#### - Day
-
-The day of the month.
-
-
-#### - Hours
-
-The hour in the day.
-
-
-#### - Minutes
+### -field DUMMYSTRUCTNAME.Minutes
 
 The number of minutes past the hour.
 
 
-#### - Month
+### -field DUMMYSTRUCTNAME.Hours
 
-The month of the year.
+The hour in the day.
 
 
-#### - Precise
+### -field DUMMYSTRUCTNAME.Precise
 
 If this member is set to 1, the timestamp correlates precisely to the time of the error event.
 
 <div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
 <div> </div>
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
 
-#### - Seconds
+### -field DUMMYSTRUCTNAME.Day
 
-The number of seconds past the minute.
+The day of the month.
 
 
-#### - Year
+### -field DUMMYSTRUCTNAME.Month
+
+The month of the year.
+
+
+### -field DUMMYSTRUCTNAME.Year
 
 The year within the century.
+
+
+### -field DUMMYSTRUCTNAME.Century
+
+The century.
+
+
+### -field AsLARGE_INTEGER
+
+A LARGE_INTEGER representation of the contents of the WHEA_TIMESTAMP union.
 
 
 ## -remarks
 
 
 
-A WHEA_TIMESTAMP union is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a> structure.
+A WHEA_TIMESTAMP union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a>
  
 
  
-
 

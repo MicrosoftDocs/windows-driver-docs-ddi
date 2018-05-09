@@ -7,7 +7,7 @@ old-location: stream\bda_ts_selectorinfo.htm
 old-project: stream
 ms.assetid: 34F10EDD-C196-4022-8D03-45A005F17F5F
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO structure [Streaming Media Devices], PBDA_TS_SELECTORINFO, PBDA_TS_SELECTORINFO structure pointer [Streaming Media Devices], _BDA_TS_SELECTORINFO, bdatypes/BDA_TS_SELECTORINFO, bdatypes/PBDA_TS_SELECTORINFO, stream.bda_ts_selectorinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_TS_SELECTORINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_TS_SELECTORINFO, *PBDA_TS_SELECTORINFO
 ---
@@ -50,20 +51,6 @@ req.typenames: BDA_TS_SELECTORINFO, *PBDA_TS_SELECTORINFO
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_TS_SELECTORINFO {
-  BYTE   bTSInfolength;
-  BYTE   bReserved[2];
-  GUID   guidNetworkType;
-  BYTE   bTSIDCount;
-  USHORT usTSID[MIN_DIMENSION];
-} BDA_TS_SELECTORINFO, *PBDA_TS_SELECTORINFO;
-````
 
 
 ## -struct-fields

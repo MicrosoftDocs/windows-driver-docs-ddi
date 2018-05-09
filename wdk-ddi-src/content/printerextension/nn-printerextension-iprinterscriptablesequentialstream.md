@@ -7,8 +7,8 @@ old-location: print\iprinterscriptablesequentialstream_interface.htm
 old-project: print
 ms.assetid: 85DF7DCB-7AB1-4A46-AD70-6D47D9F98079
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptableSequentialStream, IPrinterScriptableSequentialStream interface [Print Devices], IPrinterScriptableSequentialStream interface [Print Devices], described, print.iprinterscriptablesequentialstream_interface, printerextension/IPrinterScriptableSequentialStream
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptableSequentialStream, IPrinterScriptableSequentialStream interface [Print Devices], IPrinterScriptableSequentialStream interface [Print Devices],described, print.iprinterscriptablesequentialstream_interface, printerextension/IPrinterScriptableSequentialStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	printerextension.h
 api_name:
 -	IPrinterScriptableSequentialStream
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterScriptableSequentialStream interface

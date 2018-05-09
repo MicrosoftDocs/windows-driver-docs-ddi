@@ -7,7 +7,7 @@ old-location: display\dxgk_glitch_effect.htm
 old-project: display
 ms.assetid: EACD5B8D-B579-4EB0-93C7-0B356A67CA8F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_GLITCH_EFFECT, DXGK_GLITCH_EFFECT enumeration [Display Devices], DXGK_GLITCH_EFFECT_BLACK_CONTENT, DXGK_GLITCH_EFFECT_DEGRADED_CONTENT, DXGK_GLITCH_EFFECT_GARBAGE_CONTENT, DXGK_GLITCH_EFFECT_SEAMLESS, DXGK_GLITCH_EFFECT_STALE_CONTENT, DXGK_GLITCH_EFFECT_SYNC_LOSS, _DXGK_GLITCH_EFFECT, d3dkmddi/DXGK_GLITCH_EFFECT, d3dkmddi/DXGK_GLITCH_EFFECT_BLACK_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_DEGRADED_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_GARBAGE_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_SEAMLESS, d3dkmddi/DXGK_GLITCH_EFFECT_STALE_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_SYNC_LOSS, display.dxgk_glitch_effect
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_GLITCH_EFFECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_GLITCH_EFFECT
 ---
@@ -52,21 +53,6 @@ req.typenames: DXGK_GLITCH_EFFECT
 Enumeration which describes the user visible effect of a glitch during a SetTimingsFromVidPn call.
 
 
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_GLITCH_EFFECT { 
-  DXGK_GLITCH_EFFECT_SYNC_LOSS         = 0,
-  DXGK_GLITCH_EFFECT_GARBAGE_CONTENT   = 1,
-  DXGK_GLITCH_EFFECT_STALE_CONTENT     = 2,
-  DXGK_GLITCH_EFFECT_BLACK_CONTENT     = 3,
-  DXGK_GLITCH_EFFECT_DEGRADED_CONTENT  = 4,
-  DXGK_GLITCH_EFFECT_SEAMLESS          = 255
-} DXGK_GLITCH_EFFECT;
-````
 
 
 ## -enum-fields

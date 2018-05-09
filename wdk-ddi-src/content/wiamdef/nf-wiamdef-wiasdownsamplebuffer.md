@@ -7,7 +7,7 @@ old-location: image\wiasdownsamplebuffer.htm
 old-project: image
 ms.assetid: 4581b852-f539-4cad-93fd-2638c885c2e7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasdownsamplebuffer, wiamdef/wiasDownSampleBuffer, wiasDownSampleBuffer, wiasDownSampleBuffer function [Imaging Devices], wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasDownSampleBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasDownSampleBuffer function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasDownSampleBuffer</b> function takes in a buffer of DWORD-aligned pixel data and downsamples it (produces image data of lower resolution) to the specified size and resolution.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasDownSampleBuffer(
-          LONG                  lFlags,
-  _Inout_ WIAS_DOWN_SAMPLE_INFO *pInfo
-);
-````
 
 
 ## -parameters
@@ -84,7 +73,7 @@ WIAS_GET_DOWNSAMPLED_SIZE_ONLY
 
 </td>
 <td>
-Do not copy the downsampled data to the destination buffer. Instead, set the following members of the <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_down_sample_info.md">WIAS_DOWN_SAMPLE_INFO</a> structure: <b>ulDownSampledHeight</b>, <b>ulDownSampleWidth</b>, <b>ulAlignedHeight</b>, <b>ulAlignedWidth</b>.
+Do not copy the downsampled data to the destination buffer. Instead, set the following members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549546">WIAS_DOWN_SAMPLE_INFO</a> structure: <b>ulDownSampledHeight</b>, <b>ulDownSampleWidth</b>, <b>ulAlignedHeight</b>, <b>ulAlignedWidth</b>.
 
 </td>
 </tr>
@@ -94,7 +83,7 @@ Do not copy the downsampled data to the destination buffer. Instead, set the fol
 
 ### -param pInfo [in, out]
 
-Pointer to the <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_down_sample_info.md">WIAS_DOWN_SAMPLE_INFO</a> structure that contains all of the information needed for the downsampling operation.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549546">WIAS_DOWN_SAMPLE_INFO</a> structure that contains all of the information needed for the downsampling operation.
 
 
 ## -returns
@@ -193,12 +182,11 @@ More generally, if the original image has a resolution of R<i>in</i> dpi, and is
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_down_sample_info.md">WIAS_DOWN_SAMPLE_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549546">WIAS_DOWN_SAMPLE_INFO</a>
  
 
  
-
 

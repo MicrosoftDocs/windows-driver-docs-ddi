@@ -7,7 +7,7 @@ old-location: netvista\riluicccommand.htm
 old-project: netvista
 ms.assetid: 1c2ded31-9d2d-46e4-a23f-a48528fd448f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILUICCCOMMAND, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], RIL_UICCCMD_MAX, RIL_UICCCMD_READRECORD, RIL_UICCCMD_UPDATEBINARY, RIL_UICCCMD_UPDATERECORD, netvista.riluicccommand, ntddrilapitypes/RILUICCCOMMAND, ntddrilapitypes/RIL_UICCCMD_MAX, ntddrilapitypes/RIL_UICCCMD_READRECORD, ntddrilapitypes/RIL_UICCCMD_UPDATEBINARY, ntddrilapitypes/RIL_UICCCMD_UPDATERECORD
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCCOMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCCOMMAND
-req.product: Windows 10 or later.
 ---
 
 # RILUICCCOMMAND enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILUICCCOMMAND { 
-  RIL_UICCCMD_READRECORD,
-  RIL_UICCCMD_UPDATEBINARY,
-  RIL_UICCCMD_UPDATERECORD,
-  RIL_UICCCMD_MAX
-} RILUICCCOMMAND;
-````
 
 
 ## -enum-fields

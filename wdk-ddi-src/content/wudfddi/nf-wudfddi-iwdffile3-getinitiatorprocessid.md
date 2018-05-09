@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFFile3.GetInitiatorProcessId
-title: IWDFFile3::GetInitiatorProcessId method
+title: IWDFFile3::GetInitiatorProcessId
 author: windows-driver-content
 description: The GetInitiatorProcessId method retrieves the initiator process ID associated with an IWDFFile interface.
 old-location: wdf\iwdffile3_getinitiatorprocessid.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4D23A651-7231-40CE-B9C2-4382D4E7F683
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetInitiatorProcessId method, GetInitiatorProcessId method, IWDFFile3 interface, GetInitiatorProcessId,IWDFFile3.GetInitiatorProcessId, IWDFFile3, IWDFFile3 interface, GetInitiatorProcessId method, IWDFFile3::GetInitiatorProcessId, umdf.iwdffile3_getinitiatorprocessid, wdf.iwdffile3_getinitiatorprocessid, wudfddi/IWDFFile3::GetInitiatorProcessId
+ms.keywords: GetInitiatorProcessId, GetInitiatorProcessId method, GetInitiatorProcessId method,IWDFFile3 interface, IWDFFile3 interface,GetInitiatorProcessId method, IWDFFile3.GetInitiatorProcessId, IWDFFile3::GetInitiatorProcessId, umdf.iwdffile3_getinitiatorprocessid, wdf.iwdffile3_getinitiatorprocessid, wudfddi/IWDFFile3::GetInitiatorProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFFile3.GetInitiatorProcessId
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFFile3::GetInitiatorProcessId method
+# IWDFFile3::GetInitiatorProcessId
 
 
 ## -description
@@ -52,17 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>GetInitiatorProcessId</b> method retrieves the initiator process ID associated with an <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface.
-
-
-## -syntax
-
-
-````
-void GetInitiatorProcessId(
-  [out] DWORD *pdwProcessId
-);
-````
+The <b>GetInitiatorProcessId</b> method retrieves the initiator process ID associated with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface.
 
 
 ## -parameters
@@ -135,12 +125,11 @@ CMyQueue::OnCreateFile(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile3.md">IWDFFile3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451275">IWDFFile3</a>
  
 
  
-
 

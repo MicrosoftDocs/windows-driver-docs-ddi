@@ -7,7 +7,7 @@ old-location: display\d3dddicaps_simple_instancing_support.htm
 old-project: display
 ms.assetid: CF75EBC8-D756-49B5-BC1F-1DBE8DC04137
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure [Display Devices], d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, display.d3dddicaps_simple_instancing_support
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
 
 
 Describes whether simple instancing is supported.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT {
-  BOOL SimpleInstancingSupported;
-} D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT;
-````
 
 
 ## -struct-fields
@@ -80,7 +71,7 @@ Supported starting with Windows 8.1.
 
 
 
-Instancing capabilities are exposed through the <b>D3DDDICAPS_GET_SIMPLE_INSTANCING_SUPPORT</b> constant value of the <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a> enumeration.
+Instancing capabilities are exposed through the <b>D3DDDICAPS_GET_SIMPLE_INSTANCING_SUPPORT</b> constant value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a> enumeration.
 
 For more info on simple instancing, see The Microsoft Direct3D 11 topic, <a href="https://msdn.microsoft.com/940381BB-E8F6-416D-8F36-CC3591E70703">D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</a>.
 
@@ -89,16 +80,15 @@ For more info on simple instancing, see The Microsoft Direct3D 11 topic, <a hre
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/940381BB-E8F6-416D-8F36-CC3591E70703">D3D11_FEATURE_DATA_D3D9_SIMPLE_INSTANCING_SUPPORT</a>
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
  
 
  
-
 

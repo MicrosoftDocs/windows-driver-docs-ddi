@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.ExitThread
-title: IDebugEventCallbacksWide::ExitThread method
+title: IDebugEventCallbacksWide::ExitThread
 author: windows-driver-content
 description: The ExitThread callback method is called by the engine when an exit-threaddebugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_exitthread.htm
 old-project: debugger
 ms.assetid: 77933fa9-ff30-45cf-894d-83a425802e25
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ExitThread method [Windows Debugging], ExitThread method [Windows Debugging], IDebugEventCallbacksWide interface, ExitThread,IDebugEventCallbacksWide.ExitThread, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ExitThread method, IDebugEventCallbacksWide::ExitThread, dbgeng/IDebugEventCallbacksWide::ExitThread, debugger.idebugeventcallbackswide_exitthread
+ms.date: 4/24/2018
+ms.keywords: ExitThread, ExitThread method [Windows Debugging], ExitThread method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ExitThread method, IDebugEventCallbacksWide.ExitThread, IDebugEventCallbacksWide::ExitThread, dbgeng/IDebugEventCallbacksWide::ExitThread, debugger.idebugeventcallbackswide_exitthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugEventCallbacksWide.ExitThread
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugEventCallbacksWide::ExitThread method
+# IDebugEventCallbacksWide::ExitThread
 
 
 ## -description
 
 
 The <b>ExitThread</b> callback method is called by the engine when an exit-threaddebugging event occurs in the target.
-
-
-## -syntax
-
-
-````
-HRESULT ExitThread(
-  [in] ULONG ExitCode
-);
-````
 
 
 ## -parameters

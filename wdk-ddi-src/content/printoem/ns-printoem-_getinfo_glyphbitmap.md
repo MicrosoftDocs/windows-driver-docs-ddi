@@ -7,7 +7,7 @@ old-location: print\getinfo_glyphbitmap.htm
 old-project: print
 ms.assetid: 6a5887fd-0269-4cd1-acf1-f7242016d993
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PGETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP structure [Print Devices], PGETINFO_GLYPHBITMAP, PGETINFO_GLYPHBITMAP structure pointer [Print Devices], _GETINFO_GLYPHBITMAP, print.getinfo_glyphbitmap, print_unidrv-pscript_rendering_56355138-13b0-4e8b-8132-f7c017105ab3.xml, printoem/GETINFO_GLYPHBITMAP, printoem/PGETINFO_GLYPHBITMAP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	GETINFO_GLYPHBITMAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GETINFO_GLYPHBITMAP, *PGETINFO_GLYPHBITMAP
-req.product: Windows 10 or later.
 ---
 
 # _GETINFO_GLYPHBITMAP structure
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The GETINFO_GLYPHBITMAP structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _GETINFO_GLYPHBITMAP {
-  DWORD     dwSize;
-  HGLYPH    hGlyph;
-  GLYPHDATA *pGlyphData;
-} GETINFO_GLYPHBITMAP, *PGETINFO_GLYPHBITMAP;
-````
 
 
 ## -struct-fields
@@ -98,7 +86,6 @@ The value that a rendering plug-in specifies for the <b>hGlyph</b> member must h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554241">IPrintOemUni::DownloadCharGlyph</a>
 
 
 
@@ -106,12 +93,12 @@ The value that a rendering plug-in specifies for the <b>hGlyph</b> member must h
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554241">IPrintOemUni::DownloadCharGlyph</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-
-
-
  
 
  
-
 

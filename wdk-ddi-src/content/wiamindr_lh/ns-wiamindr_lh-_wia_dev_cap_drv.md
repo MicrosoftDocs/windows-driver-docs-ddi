@@ -7,7 +7,7 @@ old-location: image\wia_dev_cap_drv.htm
 old-project: image
 ms.assetid: 4024d455-2393-481f-8cb5-b33346ca85c7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PWIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV structure pointer [Imaging Devices], WIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV structure [Imaging Devices], _WIA_DEV_CAP_DRV, image.wia_dev_cap_drv, wiamindr_lh/PWIA_DEV_CAP_DRV, wiamindr_lh/WIA_DEV_CAP_DRV, wiastrct_111f0703-6db4-4a87-ae12-20a3120219cc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	WIA_DEV_CAP_DRV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WIA_DEV_CAP_DRV, *PWIA_DEV_CAP_DRV
-req.product: Windows 10 or later.
 ---
 
 # _WIA_DEV_CAP_DRV structure
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WIA_DEV_CAP_DRV structure is used to enumerate device capabilities. A device capability is defined by an event or command that the device supports.
-
-
-## -syntax
-
-
-````
-typedef struct _WIA_DEV_CAP_DRV {
-  GUID     *guid;
-  ULONG    ulFlags;
-  LPOLESTR wszName;
-  LPOLESTR wszDescription;
-  LPOLESTR wszIcon;
-} WIA_DEV_CAP_DRV, *PWIA_DEV_CAP_DRV;
-````
 
 
 ## -struct-fields
@@ -140,16 +126,15 @@ When a driver is enumerating event handlers, the only valid value is WIA_IS_DEFA
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/639eff56-655d-4b6a-95f0-daa1daf62fae">Driver Capabilities</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543977">IWiaMiniDrv::drvGetCapabilities</a>
-
-
-
  
 
  
-
 

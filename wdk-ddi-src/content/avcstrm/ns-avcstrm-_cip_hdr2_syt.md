@@ -7,7 +7,7 @@ old-location: stream\cip_hdr2_syt.htm
 old-project: stream
 ms.assetid: e66b721f-4cc0-4d35-9e24-6d7dd4029ea4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PCIP_HDR2_SYT, CIP_HDR2_SYT, CIP_HDR2_SYT structure [Streaming Media Devices], PCIP_HDR2_SYT, PCIP_HDR2_SYT structure pointer [Streaming Media Devices], _CIP_HDR2_SYT, avcsref_1ea551ca-5d40-4bc3-bc54-b736fd6a2b23.xml, avcstrm/CIP_HDR2_SYT, avcstrm/PCIP_HDR2_SYT, stream.cip_hdr2_syt"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	CIP_HDR2_SYT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_HDR2_SYT, *PCIP_HDR2_SYT
 ---
@@ -50,21 +51,6 @@ req.typenames: CIP_HDR2_SYT, *PCIP_HDR2_SYT
 
 
 The CIP_HDR2_SYT structure describes the second quadlet of a CIP header pair for a DV format stream.
-
-
-## -syntax
-
-
-````
-typedef struct _CIP_HDR2_SYT {
-  ULONG SYT  :16;
-  ULONG RSV  :2;
-  ULONG STYPE  :5;
-  ULONG F5060_OR_TSF  :1;
-  ULONG FMT  :6;
-  ULONG Bit10  :2;
-} CIP_HDR2_SYT, *PCIP_HDR2_SYT;
-````
 
 
 ## -struct-fields
@@ -94,7 +80,7 @@ Specifies field encoding or time-shift flag depending on the value of FMT. This 
 
 ### -field FMT
 
-CIP format ID. For example, 000000 = DV and 100000 = MPEG2TS. If this is 111111 (no data), then DBS, FN, SPH and DBC (in the first quadlet of the CIP header, <a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>) are ignored.
+CIP format ID. For example, 000000 = DV and 100000 = MPEG2TS. If this is 111111 (no data), then DBS, FN, SPH and DBC (in the first quadlet of the CIP header, <a href="https://msdn.microsoft.com/library/windows/hardware/ff557668">CIP_HDR1</a>) are ignored.
 
 
 ### -field Bit10
@@ -104,12 +90,11 @@ Must be set to 1:0.
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_cip_hdr1.md">CIP_HDR1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557668">CIP_HDR1</a>
  
 
  
-
 

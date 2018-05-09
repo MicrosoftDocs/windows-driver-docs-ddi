@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.SetString
-title: IPrinterPropertyBag::SetString method
+title: IPrinterPropertyBag::SetString
 author: windows-driver-content
 description: Writes a string property.
 old-location: print\iprinterpropertybag_setstring.htm
 old-project: print
 ms.assetid: FF063DFE-FD80-4E30-8289-5B40642C867F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], SetString method, IPrinterPropertyBag::SetString, SetString method [Print Devices], SetString method [Print Devices], IPrinterPropertyBag interface, SetString,IPrinterPropertyBag.SetString, print.iprinterpropertybag_setstring, printerextension/IPrinterPropertyBag::SetString
+ms.date: 4/20/2018
+ms.keywords: IPrinterPropertyBag interface [Print Devices],SetString method, IPrinterPropertyBag.SetString, IPrinterPropertyBag::SetString, SetString, SetString method [Print Devices], SetString method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setstring, printerextension/IPrinterPropertyBag::SetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterPropertyBag.SetString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterPropertyBag::SetString method
+# IPrinterPropertyBag::SetString
 
 
 ## -description
 
 
 Writes a string property.
-
-
-## -syntax
-
-
-````
-HRESULT SetString(
-  [in] BSTR bstrName,
-  [in] BSTR bstrValue
-);
-````
 
 
 ## -parameters
@@ -105,12 +94,11 @@ A call to set a property on a queue property bag will fail with ERROR_ACCESS_DEN
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
  
 
  
-
 

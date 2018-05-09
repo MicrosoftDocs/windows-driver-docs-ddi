@@ -7,7 +7,7 @@ old-location: stream\ksproperty_cameracontrol_node_s2.htm
 old-project: stream
 ms.assetid: 0d3ed82e-3565-4b0b-bca9-1d0b91732d18
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_NODE_S2, KSPROPERTY_CAMERACONTROL_NODE_S2, KSPROPERTY_CAMERACONTROL_NODE_S2 structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_NODE_S2, PKSPROPERTY_CAMERACONTROL_NODE_S2 structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_NODE_S2, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_S2, stream.ksproperty_cameracontrol_node_s2, vidcapstruct_fda6afc4-4b0a-4161-9502-1b335b1022e2.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_NODE_S2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_NODE_S2, *PKSPROPERTY_CAMERACONTROL_NODE_S2
 ---
@@ -52,20 +53,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_NODE_S2, *PKSPROPERTY_CAMERACONTROL_NODE
 The KSPROPERTY_CAMERACONTROL_NODE_S2 structure describes node-based properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a> property set that use two values at the same time. This structure specifies property values in requests to the USB video class driver.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSP_NODE NodeProperty;
-  LONG     Value1;
-  ULONG    Flags;
-  ULONG    Capabilities;
-  LONG     Value2;
-} KSPROPERTY_CAMERACONTROL_NODE_S2, *PKSPROPERTY_CAMERACONTROL_NODE_S2;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +60,7 @@ typedef struct {
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="..\ks\ns-ks-ksp_node.md">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID. 
+Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID. 
 
 
 ### -field Value1

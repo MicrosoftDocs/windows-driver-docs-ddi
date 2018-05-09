@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.SetArg
-title: ExtExtension::SetArg method
+title: ExtExtension::SetArg
 author: windows-driver-content
 description: The SetArg method sets a named argument for the current extension command.
 old-location: debugger\setarg.htm
 old-project: debugger
 ms.assetid: 02d43054-27e9-4f2f-8d0a-506cf052f24f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_20376f38-03cf-4e1c-a4af-6b318a425ebc.xml, ExtExtension, ExtExtension class [Windows Debugging], SetArg method, ExtExtension::SetArg, SetArg method [Windows Debugging], SetArg method [Windows Debugging], ExtExtension class, SetArg,ExtExtension.SetArg, debugger.setarg
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_20376f38-03cf-4e1c-a4af-6b318a425ebc.xml, ExtExtension class [Windows Debugging],SetArg method, ExtExtension.SetArg, ExtExtension::SetArg, SetArg, SetArg method [Windows Debugging], SetArg method [Windows Debugging],ExtExtension class, debugger.setarg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	Engextcpp.hpp
 api_name:
 -	ExtExtension.SetArg
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::SetArg method
+# ExtExtension::SetArg
 
 
 ## -description
 
 
 The <b>SetArg</b> method sets a named argument for the current extension command.
-
-
-## -syntax
-
-
-````
-bool SetArg(
-  [in]           PCSTR   Name,
-  [in, optional] PCSTR   StrArg,
-  [in]           ULONG64 NumArg,
-  [in]           bool    OnlyIfUnset
-);
-````
 
 
 ## -parameters

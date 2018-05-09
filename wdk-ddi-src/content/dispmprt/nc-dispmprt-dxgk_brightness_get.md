@@ -7,8 +7,8 @@ old-location: display\dxgkddigetbrightness.htm
 old-project: display
 ms.assetid: e226cd36-45af-4d80-9aba-8919b267483b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGK_BRIGHTNESS_GET, DmFunctions_be286481-7cef-4059-acb2-cac6554eb346.xml, DxgkDdiGetBrightness, DxgkDdiGetBrightness callback function [Display Devices], display.dxgkddigetbrightness, dispmprt/DxgkDdiGetBrightness
+ms.date: 4/16/2018
+ms.keywords: DXGK_BRIGHTNESS_GET, DXGK_BRIGHTNESS_GET callback, DmFunctions_be286481-7cef-4059-acb2-cac6554eb346.xml, DxgkDdiGetBrightness, DxgkDdiGetBrightness callback function [Display Devices], display.dxgkddigetbrightness, dispmprt/DxgkDdiGetBrightness
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -16,18 +16,18 @@ req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -38,12 +38,13 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkDdiGetBrightness
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGK_BRIGHTNESS_GET callback
+# DXGK_BRIGHTNESS_GET callback function
 
 
 ## -description
@@ -71,21 +72,21 @@ NTSTATUS* DxgkDdiGetBrightness(
 
 
 
-### -param Context [in]
+### -param Context
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
-### -param Brightness [in]
+### -param Brightness
 
-A pointer to a variable that receives the brightness level. 
+[in] A pointer to a variable that receives the brightness level.
 
 
 ## -returns
 
 
 
-<i>DxgkDdiGetBrightness</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes that are defined in <i>Ntstatus.h</i>. 
+<i>DxgkDdiGetBrightness</i> returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes that are defined in <i>Ntstatus.h</i>.
 
 
 

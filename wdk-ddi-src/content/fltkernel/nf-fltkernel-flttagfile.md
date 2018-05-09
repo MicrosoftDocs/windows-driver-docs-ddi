@@ -7,7 +7,7 @@ old-location: ifsk\flttagfile.htm
 old-project: ifsk
 ms.assetid: fbc8b596-1299-4dfa-953b-5730905f0e30
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_01cd7989-387a-4a7c-a45a-3a60a8b126c0.xml, FltTagFile, FltTagFile function [Installable File System Drivers], fltkernel/FltTagFile, ifsk.flttagfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltTagFile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltTagFile function
@@ -50,21 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltTagFile</b> sets a reparse tag on a file or directory. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltTagFile(
-  _In_     PFLT_INSTANCE InitiatingInstance,
-  _In_     PFILE_OBJECT  FileObject,
-  _In_     ULONG         FileTag,
-  _In_opt_ GUID          *Guid,
-  _In_     PVOID         DataBuffer,
-  _In_     USHORT        DataBufferLength
-);
-````
 
 
 ## -parameters
@@ -180,9 +166,9 @@ The reparse GUID specified by the caller did not match the GUID of the reparse p
 
 Minifilter drivers should use <b>FltTagFile</b> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a> to set a reparse point. 
 
-Not all file systems support reparse points. The NTFS file system supports them; the FAT file system does not. Minifilter drivers can determine whether a file system supports reparse points by calling <a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>, specifying FileFsAttributeInformation for the <i>FsInformation</i> parameter, and examining the FILE_SUPPORTS_REPARSE_POINTS bit flag in the returned <a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a> structure. 
+Not all file systems support reparse points. The NTFS file system supports them; the FAT file system does not. Minifilter drivers can determine whether a file system supports reparse points by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a>, specifying FileFsAttributeInformation for the <i>FsInformation</i> parameter, and examining the FILE_SUPPORTS_REPARSE_POINTS bit flag in the returned <a href="https://msdn.microsoft.com/library/windows/hardware/ff540251">FILE_FS_ATTRIBUTE_INFORMATION</a> structure. 
 
-To remove an existing reparse point, call <a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>. 
+To remove an existing reparse point, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544608">FltUntagFile</a>. 
 
 For more information about reparse points, see the Microsoft Windows SDK documentation. 
 
@@ -191,11 +177,18 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540251">FILE_FS_ATTRIBUTE_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544820">FLT_TAG_DATA_BUFFER</a>
 
 
 
@@ -203,35 +196,7 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_tag_data_buffer.md">FLT_TAG_DATA_BUFFER</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-isreparsetagmicrosoft.md">IsReparseTagMicrosoft</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
 
 
 
@@ -239,12 +204,32 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542988">FltFsControlFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543443">FltQueryVolumeInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544608">FltUntagFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549452">IsReparseTagMicrosoft</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549462">IsReparseTagNameSurrogate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552012">REPARSE_DATA_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552014">REPARSE_GUID_DATA_BUFFER</a>
  
 
  
-
 

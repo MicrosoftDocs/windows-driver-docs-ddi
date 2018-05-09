@@ -7,7 +7,7 @@ old-location: kernel\zwsetinformationtransaction.htm
 old-project: kernel
 ms.assetid: 47e729d8-241e-47f0-a595-d95c5ac516a4
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtSetInformationTransaction, ZwSetInformationTransaction, ZwSetInformationTransaction routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationtransaction, ktm_ref_575490bd-1003-43b3-8e41-676c4b0e4f25.xml, wdm/NtSetInformationTransaction, wdm/ZwSetInformationTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 api_name:
 -	ZwSetInformationTransaction
 -	NtSetInformationTransaction
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # NtSetInformationTransaction function
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>ZwSetInformationTransaction</b> routine sets information for a specified transaction.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwSetInformationTransaction(
-  _In_ HANDLE                        TransactionHandle,
-  _In_ TRANSACTION_INFORMATION_CLASS TransactionInformationClass,
-  _In_ PVOID                         TransactionInformation,
-  _In_ ULONG                         TransactionInformationLength
-);
-````
-
-
 ## -parameters
 
 
@@ -74,17 +61,17 @@ NTSTATUS ZwSetInformationTransaction(
 
 ### -param TransactionHandle [in]
 
-A handle to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a> or <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>. The handle must have TRANSACTION_SET_INFORMATION access to the object.
+A handle to a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a> that was obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567033">ZwOpenTransaction</a>. The handle must have TRANSACTION_SET_INFORMATION access to the object.
 
 
 ### -param TransactionInformationClass [in]
 
-A <a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>-typed value that specifies the type of information to set. The value must be <b>TransactionPropertiesInformation</b>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564800">TRANSACTION_INFORMATION_CLASS</a>-typed value that specifies the type of information to set. The value must be <b>TransactionPropertiesInformation</b>.
 
 
 ### -param TransactionInformation [in]
 
-A pointer to a caller-allocated buffer that contains the information to set. The buffer's structure type must be <a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a>.
+A pointer to a caller-allocated buffer that contains the information to set. The buffer's structure type must be <a href="https://msdn.microsoft.com/library/windows/hardware/ff564844">TRANSACTION_PROPERTIES_INFORMATION</a>.
 
 
 ### -param TransactionInformationLength [in]
@@ -192,15 +179,14 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
 
 
 
-<a href="..\wdm\ns-wdm-_transaction_properties_information.md">TRANSACTION_PROPERTIES_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564800">TRANSACTION_INFORMATION_CLASS</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564844">TRANSACTION_PROPERTIES_INFORMATION</a>
 
 
 
@@ -208,16 +194,16 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567033">ZwOpenTransaction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a>
  
 
  
-
 

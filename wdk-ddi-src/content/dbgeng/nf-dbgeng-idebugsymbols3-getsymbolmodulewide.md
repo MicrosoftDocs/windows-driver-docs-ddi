@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolModuleWide
-title: IDebugSymbols3::GetSymbolModuleWide method
+title: IDebugSymbols3::GetSymbolModuleWide
 author: windows-driver-content
 description: The GetSymbolModuleWide method returns the base address of module which contains the specified symbol.
 old-location: debugger\getsymbolmodulewide.htm
 old-project: debugger
 ms.assetid: 4c1284da-b086-46f3-aeea-0afe6a2f1031
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetSymbolModuleWide method [Windows Debugging], GetSymbolModuleWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolModuleWide,IDebugSymbols3.GetSymbolModuleWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolModuleWide method, IDebugSymbols3::GetSymbolModuleWide, dbgeng/IDebugSymbols3::GetSymbolModuleWide, debugger.getsymbolmodulewide
+ms.date: 4/24/2018
+ms.keywords: GetSymbolModuleWide, GetSymbolModuleWide method [Windows Debugging], GetSymbolModuleWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolModuleWide method, IDebugSymbols3.GetSymbolModuleWide, IDebugSymbols3::GetSymbolModuleWide, dbgeng/IDebugSymbols3::GetSymbolModuleWide, debugger.getsymbolmodulewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetSymbolModuleWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSymbolModuleWide method
+# IDebugSymbols3::GetSymbolModuleWide
 
 
 ## -description
 
 
 The <b>GetSymbolModuleWide</b> method returns the base address of module which contains the specified symbol.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolModuleWide(
-  [in]  PCWSTR   Symbol,
-  [out] PULONG64 Base
-);
-````
 
 
 ## -parameters

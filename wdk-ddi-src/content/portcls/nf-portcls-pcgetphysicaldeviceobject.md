@@ -7,7 +7,7 @@ old-location: audio\pcgetphysicaldeviceobject.htm
 old-project: audio
 ms.assetid: A7917082-4C3F-445A-AD26-32DE670754E5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject function [Audio Devices], audio.pcgetphysicaldeviceobject, portcls/PcGetPhysicalDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcGetPhysicalDeviceObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcGetPhysicalDeviceObject function
@@ -51,17 +52,6 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 
 The <b>PcGetPhysicalDeviceObject</b> function enables audio miniport drivers to retrieve the  underlying physical device object of the audio device.
-
-
-## -syntax
-
-
-````
-PORTCLASSAPI NTSTATUS NTAPI PcGetPhysicalDeviceObject(
-  _In_  PDEVICE_OBJECT pDeviceObject,
-  _Out_ PDEVICE_OBJECT ppPhysicalObject
-);
-````
 
 
 ## -parameters
@@ -90,12 +80,11 @@ The <b>PcGetPhysicalDeviceObject</b> function returns STATUS_SUCCESS if the func
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536208">Audio Port Class Functions</a>
-
-
-
  
 
  
-
 

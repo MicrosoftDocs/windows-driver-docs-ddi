@@ -7,7 +7,7 @@ old-location: storage\srbex_data_bidirectional.htm
 old-project: storage
 ms.assetid: B61247DC-8AC3-4A96-985B-A4CAC232555E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices], SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], _SRBEX_DATA_BIDIRECTIONAL, storage.srbex_data_bidirectional, storport/PSRBEX_DATA_BIDIRECTIONAL, storport/SRBEX_DATA_BIDIRECTIONAL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Storport.h
 api_name:
 -	SRBEX_DATA_BIDIRECTIONAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL
-req.product: Windows 10 or later.
 ---
 
 # _SRBEX_DATA_BIDIRECTIONAL structure
@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 The <b>SRBEX_DATA_BIDIRECTIONAL</b> structure contains the extended SRB data for bi-directional transfer commands.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _SRBEX_DATA_BIDIRECTIONAL {
-  SRBEXDATATYPE       Type;
-  ULONG               Length;
-  ULONG               DataInTransferLength;
-  ULONG               Reserved1;
-  PVOID POINTER_ALIGN DataInBuffer;
-} SRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL;
-````
-
 
 ## -struct-fields
 
@@ -99,12 +85,11 @@ A pointer to the buffer that contains the data sent from the device.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451474">STORAGE_REQUEST_BLOCK</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\zwsetinformationenlistment.htm
 old-project: kernel
 ms.assetid: c87547b0-a16e-48b5-91ca-c414c5317ac6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtSetInformationEnlistment, ZwSetInformationEnlistment, ZwSetInformationEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationenlistment, ktm_ref_3e37f795-0826-43df-bb96-14f1031437da.xml, wdm/NtSetInformationEnlistment, wdm/ZwSetInformationEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 api_name:
 -	ZwSetInformationEnlistment
 -	NtSetInformationEnlistment
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwSetInformationEnlistment function
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 The <b>ZwSetInformationEnlistment</b> routine sets information for a specified <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a>.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwSetInformationEnlistment(
-  _In_ HANDLE                       EnlistmentHandle,
-  _In_ ENLISTMENT_INFORMATION_CLASS EnlistmentInformationClass,
-  _In_ PVOID                        EnlistmentInformation,
-  _In_ ULONG                        EnlistmentInformationLength
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +61,12 @@ NTSTATUS ZwSetInformationEnlistment(
 
 ### -param EnlistmentHandle [in]
 
-A handle to an enlistment object that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a> or <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>. The handle must have ENLISTMENT_SET_INFORMATION access to the object.
+A handle to an enlistment object that was obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567008">ZwOpenEnlistment</a>. The handle must have ENLISTMENT_SET_INFORMATION access to the object.
 
 
 ### -param EnlistmentInformationClass [in]
 
-A <a href="..\wdm\ne-wdm-_enlistment_information_class.md">ENLISTMENT_INFORMATION_CLASS</a>-typed enumeration value that specifies the type of information to be set. This value must be <b>EnlistmentRecoveryInformation</b>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544260">ENLISTMENT_INFORMATION_CLASS</a>-typed enumeration value that specifies the type of information to be set. This value must be <b>EnlistmentRecoveryInformation</b>.
 
 The enumeration's <b>EnlistmentBasicInformation</b> and <b>EnlistmentFullInformation</b> values are not used with <b>ZwSetInformationEnlistment</b>. 
 
@@ -172,7 +159,7 @@ The routine might return other <a href="https://msdn.microsoft.com/library/windo
 
 
 
-A resource manager can use the <b>ZwSetInformationEnlistment</b> routine to set recovery information for an enlistment. KTM writes the recovery information to the log stream, and the resource manager can call <a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a> to read this information from the log stream at any time.
+A resource manager can use the <b>ZwSetInformationEnlistment</b> routine to set recovery information for an enlistment. KTM writes the recovery information to the log stream, and the resource manager can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567051">ZwQueryInformationEnlistment</a> to read this information from the log stream at any time.
 
 Each subsequent call to <b>ZwSetInformationEnlistment</b> deletes the recovery information that the previous call specified before it stores the new recovery information.
 
@@ -187,11 +174,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 
 
-<a href="..\wdm\ne-wdm-_enlistment_information_class.md">ENLISTMENT_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544260">ENLISTMENT_INFORMATION_CLASS</a>
 
 
 
@@ -199,16 +185,16 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566422">ZwCreateEnlistment</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567008">ZwOpenEnlistment</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567051">ZwQueryInformationEnlistment</a>
  
 
  
-
 

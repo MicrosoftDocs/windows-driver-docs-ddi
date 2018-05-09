@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfWmiInstanceGetDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_WMI_PROVIDER_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfWmiInstanceGetDevice function
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfWmiInstanceGetDevice</b> method returns a handle to the framework device object that is associated with a specified WMI instance object.
 
 
-## -syntax
-
-
-````
-WDFDEVICE WdfWmiInstanceGetDevice(
-  _In_ WDFWMIINSTANCE WmiInstance
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ WDFDEVICE WdfWmiInstanceGetDevice(
 
 ### -param WmiInstance [in]
 
-A handle to a WMI instance object that the driver obtained from a previous call to <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>.
+A handle to a WMI instance object that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551178">WdfWmiInstanceCreate</a>.
 
 
 ## -returns
@@ -91,12 +81,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551178">WdfWmiInstanceCreate</a>
  
 
  
-
 

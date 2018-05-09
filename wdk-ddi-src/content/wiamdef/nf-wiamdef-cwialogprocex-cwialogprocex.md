@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamdef.CWiaLogProcEx.CWiaLogProcEx
-title: CWiaLogProcEx::CWiaLogProcEx method
+title: CWiaLogProcEx::CWiaLogProcEx
 author: windows-driver-content
 description: The CWiaLogProcEx constructor is called when the function or method being logged is entered.
 old-location: image\cwialogprocex_cwialogprocex.htm
 old-project: image
 ms.assetid: D4004501-2DA5-416C-A29B-C0084CF34DC9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CWiaLogProcEx, CWiaLogProcEx interface [Imaging Devices], CWiaLogProcEx method, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx interface, CWiaLogProcEx,CWiaLogProcEx.CWiaLogProcEx, CWiaLogProcEx::CWiaLogProcEx, image.cwialogprocex_cwialogprocex, wiamdef/CWiaLogProcEx::CWiaLogProcEx
+ms.date: 4/23/2018
+ms.keywords: CWiaLogProcEx, CWiaLogProcEx interface [Imaging Devices],CWiaLogProcEx method, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx method [Imaging Devices],CWiaLogProcEx interface, CWiaLogProcEx.CWiaLogProcEx, CWiaLogProcEx::CWiaLogProcEx, image.cwialogprocex_cwialogprocex, wiamdef/CWiaLogProcEx::CWiaLogProcEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	Wiamdef.h
 api_name:
 -	CWiaLogProcEx.CWiaLogProcEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# CWiaLogProcEx::CWiaLogProcEx method
+# CWiaLogProcEx::CWiaLogProcEx
 
 
 ## -description
 
 
 The <a href="https://msdn.microsoft.com/5DD3EC13-5DDD-4640-A841-00576F74429A">CWiaLogProcEx</a> constructor is called when the function or method being logged is entered.
-
-
-## -syntax
-
-
-````
-void CWiaLogProcEx(
-   IWiaLogEx *pIWiaLogEx,
-   INT       ResourceID,
-   INT       DetailLevel,
-   CHAR      *pszMsg,
-   LONG      lMethodId = 0
-);
-````
 
 
 ## -parameters
@@ -125,12 +111,11 @@ This method does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844723">CWiaLogProcEx</a>
-
-
-
  
 
  
-
 

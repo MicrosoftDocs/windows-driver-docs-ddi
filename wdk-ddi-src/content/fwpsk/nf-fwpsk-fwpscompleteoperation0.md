@@ -7,7 +7,7 @@ old-location: netvista\fwpscompleteoperation0.htm
 old-project: netvista
 ms.assetid: e0d584c4-ec58-4d5f-bddf-86bcfbfa6b97
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsCompleteOperation0, FwpsCompleteOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCompleteOperation0, netvista.fwpscompleteoperation0, wfp_ref_2_funct_3_fwps_C_bfabbf4d-812a-411f-b9ef-c2e6f145404d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsCompleteOperation0
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsCompleteOperation0 function
@@ -55,17 +56,6 @@ The
   pending completion of another operation.
 <div class="alert"><b>Note</b>  <b>FwpsCompleteOperation0</b> is a specific version of <b>FwpsCompleteOperation</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-void NTAPI FwpsCompleteOperation0(
-  _In_     HANDLE           completionContext,
-  _In_opt_ PNET_BUFFER_LIST netBufferList
-);
-````
-
-
 ## -parameters
 
 
@@ -74,13 +64,13 @@ void NTAPI FwpsCompleteOperation0(
 ### -param completionContext [in]
 
 A completion context handle that was previously created by a call to the 
-     <a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551199">FwpsPendOperation0</a> function.
 
 
 ### -param netBufferList [in, optional]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure that describes
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that describes
      the packet data for which processing has been suspended pending completion of another operation.
 
 
@@ -99,7 +89,7 @@ None.
 
 When the callout is ready to resume packet processing after operations on the packet were suspended by
     a call to 
-    <a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a>, the callout should
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551199">FwpsPendOperation0</a>, the callout should
     call the 
     <b>FwpsCompleteOperation0</b> function, passing it the 
     <i>completionContext</i> parameter value from 
@@ -124,16 +114,15 @@ Pended connections are authenticated again after the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpspendoperation0.md">FwpsPendOperation0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551199">FwpsPendOperation0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
  
 
  
-
 

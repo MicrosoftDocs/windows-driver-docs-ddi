@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOStressAction2.ContinueAsync
-title: IWDTFSimpleIOStressAction2::ContinueAsync method
+title: IWDTFSimpleIOStressAction2::ContinueAsync
 author: windows-driver-content
 description: Asynchronously signals the I/O to continue.
 old-location: dtf\iwdtfsimpleiostressaction2_continueasync.htm
 old-project: dtf
 ms.assetid: 5297881a-34ba-4fa7-a116-a890ce8b7434
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: ContinueAsync method [Windows Device Testing Framework], ContinueAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, ContinueAsync,IWDTFSimpleIOStressAction2.ContinueAsync, IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], ContinueAsync method, IWDTFSimpleIOStressAction2::ContinueAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.ContinueAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::ContinueAsync, dtf.iwdtfsimpleiostressaction2_continueasync, wdtfinterfaces/IWDTFSimpleIOStressAction2::ContinueAsync
+ms.date: 4/4/2018
+ms.keywords: ContinueAsync, ContinueAsync method [Windows Device Testing Framework], ContinueAsync method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],ContinueAsync method, IWDTFSimpleIOStressAction2.ContinueAsync, IWDTFSimpleIOStressAction2::ContinueAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.ContinueAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::ContinueAsync, dtf.iwdtfsimpleiostressaction2_continueasync, wdtfinterfaces/IWDTFSimpleIOStressAction2::ContinueAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,27 +38,19 @@ api_location:
 -	WDTFInterfaces.Interop.dll
 api_name:
 -	IWDTFSimpleIOStressAction2.ContinueAsync
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSimpleIOStressAction2::ContinueAsync method
+# IWDTFSimpleIOStressAction2::ContinueAsync
 
 
 ## -description
 
 
 Asynchronously signals the I/O to continue.
-
-
-## -syntax
-
-
-````
-HRESULT ContinueAsync();
-````
 
 
 ## -parameters
@@ -79,12 +71,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleiostressaction2.md">IWDTFSimpleIOStressAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451157">IWDTFSimpleIOStressAction2</a>
  
 
  
-
 

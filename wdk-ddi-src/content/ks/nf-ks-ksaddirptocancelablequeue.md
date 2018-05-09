@@ -7,7 +7,7 @@ old-location: stream\ksaddirptocancelablequeue.htm
 old-project: stream
 ms.assetid: 399ca0d6-6355-40f8-ac2c-c69d7ae699e1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAddIrpToCancelableQueue, KsAddIrpToCancelableQueue function [Streaming Media Devices], ks/KsAddIrpToCancelableQueue, ksfunc_8a3caaa5-29ca-4c55-a3f6-8214808954b3.xml, stream.ksaddirptocancelablequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAddIrpToCancelableQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,20 +52,6 @@ req.typenames:
 
 
 The <b>KsAddIrpToCancelableQueue</b> function adds an IRP to a queue of cancelable IRPs, thus allowing the IRP to be canceled. If the IRP had been previously set to a canceled state, the <b>KsAddIrpToCancelableQueue </b>function completes the canceling of that IRP. 
-
-
-## -syntax
-
-
-````
-VOID KsAddIrpToCancelableQueue(
-  _Inout_  PLIST_ENTRY           QueueHead,
-  _In_     PKSPIN_LOCK           SpinLock,
-  _In_     PIRP                  Irp,
-  _In_     KSLIST_ENTRY_LOCATION ListLocation,
-  _In_opt_ PDRIVER_CANCEL        DriverCancel
-);
-````
 
 
 ## -parameters

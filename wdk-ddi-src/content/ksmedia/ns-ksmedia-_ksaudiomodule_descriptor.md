@@ -7,7 +7,7 @@ old-location: audio\ksaudiomodule_descriptor.htm
 old-project: audio
 ms.assetid: 3A991D49-B873-4C03-8A5B-D91EB5E63192
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR structure [Audio Devices], PKSAUDIOMODULE_DESCRIPTOR, PKSAUDIOMODULE_DESCRIPTOR structure pointer [Audio Devices], _KSAUDIOMODULE_DESCRIPTOR, audio.ksaudiomodule_descriptor, ksmedia/KSAUDIOMODULE_DESCRIPTOR, ksmedia/PKSAUDIOMODULE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSAUDIOMODULE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR
 ---
@@ -50,20 +51,6 @@ req.typenames: KSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR
 
 
 The <b>KSAUDIOMODULE_DESCRIPTOR</b> structure describes the static, external  properties of audio modules.
-
-
-## -syntax
-
-
-````
-typedef struct _KSAUDIOMODULE_DESCRIPTOR {
-  GUID  ClassId;
-  ULONG InstanceId;
-  ULONG VersionMajor;
-  ULONG VersionMinor;
-  WCHAR Name[AUDIOMODULE_MAX_NAME_CCH_SIZE];
-} KSAUDIOMODULE_DESCRIPTOR, *PKSAUDIOMODULE_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -93,13 +80,6 @@ The minor version of the audio module.  Usage is defined by the implementer.
 
 ### -field Name
 
- 
-
-
-
-
-#### - Name[AUDIOMODULE_MAX_NAME_CCH_SIZE]
-
 The friendly name of the audio module. The maximum length is AUDIOMODULE_MAX_NAME_CCH_SIZE wide characters. It is defined as 128 in KSMedia.h.
 
 
@@ -114,12 +94,11 @@ For more information about audio modules, see  <a href="https://msdn.microsoft.c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/EAD613AA-005B-4751-B60E-212853CA40B4">KSPROPERTY_AUDIOMODULE_DESCRIPTORS</a>
-
-
-
  
 
  
-
 

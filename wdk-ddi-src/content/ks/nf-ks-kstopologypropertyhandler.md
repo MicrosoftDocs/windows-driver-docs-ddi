@@ -7,7 +7,7 @@ old-location: stream\kstopologypropertyhandler.htm
 old-project: stream
 ms.assetid: fe033614-b1a0-490b-b45b-a8d8de650dbf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsTopologyPropertyHandler, KsTopologyPropertyHandler function [Streaming Media Devices], ks/KsTopologyPropertyHandler, ksfunc_d007eab3-23b3-42ea-a1d9-b2be806cb4ea.xml, stream.kstopologypropertyhandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsTopologyPropertyHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,20 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsTopologyPropertyHandler</b> function performs standard handling of the static members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566598">KSPROPSETID_Topology</a> Property Set. The function uses the <a href="..\ks\ns-ks-kstopology.md">KSTOPOLOGY</a> structure, which describes the set of information that is returned by this property set.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsTopologyPropertyHandler(
-  _In_          PIRP        Irp,
-  _In_          PKSPROPERTY Property,
-  _Inout_       PVOID       Data,
-  _In_    const KSTOPOLOGY  *Topology
-);
-````
+The <b>KsTopologyPropertyHandler</b> function performs standard handling of the static members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566598">KSPROPSETID_Topology</a> Property Set. The function uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567146">KSTOPOLOGY</a> structure, which describes the set of information that is returned by this property set.
 
 
 ## -parameters
@@ -88,7 +76,7 @@ Specifies the topology property-specific data.
 
 ### -param Topology [in]
 
-Points to a <a href="..\ks\ns-ks-kstopology.md">KSTOPOLOGY</a> structure containing the topology information.
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567146">KSTOPOLOGY</a> structure containing the topology information.
 
 
 ## -returns

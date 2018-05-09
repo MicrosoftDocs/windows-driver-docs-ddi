@@ -7,7 +7,7 @@ old-location: print\wcscreateiccprofile.htm
 old-project: print
 ms.assetid: fbe37d6c-9b91-46d8-9d29-1de3ef542c19
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: WcsCreateIccProfile, WcsCreateIccProfile function [Print Devices], colorfnc_cb099d17-1109-4cb5-bbdc-76f1df13c60b.xml, icm/WcsCreateIccProfile, print.wcscreateiccprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Mscms.dll
 api_name:
 -	WcsCreateIccProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
 # WcsCreateIccProfile function
@@ -50,17 +51,6 @@ req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
 
 
 The <code>WcsCreateIccProfile</code> function converts a WCS profile into an ICC profile.
-
-
-## -syntax
-
-
-````
-HPROFILE WcsCreateIccProfile(
-  _In_ HPROFILE hWcsProfile,
-  _In_ DWORD    dwOptions
-);
-````
 
 
 ## -parameters

@@ -7,8 +7,8 @@ old-location: storage\ioctl_disk_set_partition_info.htm
 old-project: storage
 ms.assetid: 3ff5a328-04b0-4de9-abe1-759c36f31899
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DISK_SET_PARTITION_INFO, IOCTL_DISK_SET_PARTITION_INFO control code [Storage Devices], k307_9035067b-43ed-4b4f-9516-23fd7448d5e6.xml, ntdddisk/IOCTL_DISK_SET_PARTITION_INFO, storage.ioctl_disk_set_partition_info
+ms.date: 3/29/2018
+ms.keywords: IOCTL_DISK_SET_PARTITION_INFO, IOCTL_DISK_SET_PARTITION_INFO control, IOCTL_DISK_SET_PARTITION_INFO control code [Storage Devices], k307_9035067b-43ed-4b4f-9516-23fd7448d5e6.xml, ntdddisk/IOCTL_DISK_SET_PARTITION_INFO, storage.ioctl_disk_set_partition_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntdddisk.h
 api_name:
 -	IOCTL_DISK_SET_PARTITION_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DETECTION_TYPE
+req.typenames: 
 ---
 
 # IOCTL_DISK_SET_PARTITION_INFO IOCTL
@@ -62,7 +63,7 @@ Changes the partition type of the specified disk partition. (Floppy drivers need
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION</a> to be set. 
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566192">SET_PARTITION_INFORMATION</a> to be set. 
 
 
 ### -input-buffer-length
@@ -105,12 +106,11 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field can be set 
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566192">SET_PARTITION_INFORMATION</a>
  
 
  
-
 

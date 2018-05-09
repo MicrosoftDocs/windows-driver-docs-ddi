@@ -7,8 +7,8 @@ old-location: print\iprintticketprovider_getprintcapabilities.htm
 old-project: print
 ms.assetid: 12dfd953-2336-47ce-8fdc-df8c6138b31d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetPrintCapabilities, GetPrintCapabilities method [Print Devices], GetPrintCapabilities method [Print Devices], IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices], GetPrintCapabilities method, IPrintTicketProvider::GetPrintCapabilities, prdrvcom/IPrintTicketProvider::GetPrintCapabilities, print.iprintticketprovider_getprintcapabilities, print_ticket-package_82407167-f510-4a1d-acd4-1baaac8e1928.xml
+ms.date: 4/20/2018
+ms.keywords: GetPrintCapabilities, GetPrintCapabilities method [Print Devices], GetPrintCapabilities method [Print Devices],IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices],GetPrintCapabilities method, IPrintTicketProvider::GetPrintCapabilities, prdrvcom/IPrintTicketProvider::GetPrintCapabilities, print.iprintticketprovider_getprintcapabilities, print_ticket-package_82407167-f510-4a1d-acd4-1baaac8e1928.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -38,10 +38,10 @@ api_location:
 -	prdrvcom.h
 api_name:
 -	IPrintTicketProvider.GetPrintCapabilities
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SHIMOPTS, *PSHIMOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # GetPrintCapabilities function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintTicketProvider::GetPrintCapabilities</code> method queries the provider for a complete print capabilities document that describes the printer's features and parameters.
-
-
-## -syntax
-
-
-````
-HRESULT GetPrintCapabilities(
-  [in]  IXMLDOMDocument2 *pPrintTicket,
-  [out] IXMLDOMDocument2 **ppCapabilities
-);
-````
 
 
 ## -parameters

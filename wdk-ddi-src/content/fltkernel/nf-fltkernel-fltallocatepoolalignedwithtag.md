@@ -7,7 +7,7 @@ old-location: ifsk\fltallocatepoolalignedwithtag.htm
 old-project: ifsk
 ms.assetid: ffb1493f-6076-4b93-8431-b3ffd4679f96
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltAllocatePoolAlignedWithTag, FltAllocatePoolAlignedWithTag function [Installable File System Drivers], FltApiRef_a_to_d_b617aed0-5103-4a1e-aa0d-86247d99e803.xml, fltkernel/FltAllocatePoolAlignedWithTag, ifsk.fltallocatepoolalignedwithtag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltAllocatePoolAlignedWithTag
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltAllocatePoolAlignedWithTag function
@@ -51,19 +52,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltAllocatePoolAlignedWithTag</b> allocates a device-aligned buffer for use in a noncached I/O operation. 
-
-
-## -syntax
-
-
-````
-PVOID FltAllocatePoolAlignedWithTag(
-  _In_ PFLT_INSTANCE Instance,
-  _In_ POOL_TYPE     PoolType,
-  _In_ SIZE_T        NumberOfBytes,
-  _In_ ULONG         Tag
-);
-````
 
 
 ## -parameters
@@ -88,7 +76,7 @@ Type of pool to allocate. One of the following:
 
 <b>PagedPoolCacheAligned</b>
 
-See <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> for a description of the available pool memory types. 
+See <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> for a description of the available pool memory types. 
 
 
 ### -param NumberOfBytes [in]
@@ -114,7 +102,7 @@ If not enough free pool is available to satisfy the request, <b>FltAllocatePoolA
 
 
 
-<b>FltAllocatePoolAlignedWithTag</b> allocates a buffer that is aligned in accordance with the underlying device for the given volume. Such device-aligned buffers are required for noncached I/O. (They can also be used for cached I/O.) Thus when calling routines that perform noncached I/O, such as <a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a> and <a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>, minifilter drivers should call <b>FltAllocatePoolAlignedWithTag</b> instead of <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>. 
+<b>FltAllocatePoolAlignedWithTag</b> allocates a buffer that is aligned in accordance with the underlying device for the given volume. Such device-aligned buffers are required for noncached I/O. (They can also be used for cached I/O.) Thus when calling routines that perform noncached I/O, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff544286">FltReadFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544610">FltWriteFile</a>, minifilter drivers should call <b>FltAllocatePoolAlignedWithTag</b> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>. 
 
 If the caller specifies a value of zero for the <i>NumberOfBytes</i> parameter, <b>FltAllocatePoolAlignedWithTag</b> allocates the smallest amount of memory that meets the alignment requirement. 
 
@@ -122,7 +110,7 @@ The system associates the pool tag specified by the <i>Tag</i> parameter with th
 
 For more information about memory management, see <a href="https://msdn.microsoft.com/e030a37c-26ab-4177-9980-4336928975e1">Memory Management</a>. 
 
-When the buffer that <b>FltAllocatePoolAlignedWithTag</b> allocates is no longer needed, the caller is responsible for freeing it by calling <a href="..\fltkernel\nf-fltkernel-fltfreepoolalignedwithtag.md">FltFreePoolAlignedWithTag</a>. 
+When the buffer that <b>FltAllocatePoolAlignedWithTag</b> allocates is no longer needed, the caller is responsible for freeing it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff542979">FltFreePoolAlignedWithTag</a>. 
 
 Callers of <b>FltAllocatePoolAlignedWithTag</b> can be running at IRQL DISPATCH_LEVEL only if a NonPaged<i>XxxPoolType</i> is specified. Otherwise, callers must be running at IRQL &lt;= APC_LEVEL. 
 
@@ -131,24 +119,23 @@ Callers of <b>FltAllocatePoolAlignedWithTag</b> can be running at IRQL DISPATCH_
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreepoolalignedwithtag.md">FltFreePoolAlignedWithTag</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542979">FltFreePoolAlignedWithTag</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544286">FltReadFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544610">FltWriteFile</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadPointersVirtual
-title: IDebugDataSpaces4::ReadPointersVirtual method
+title: IDebugDataSpaces4::ReadPointersVirtual
 author: windows-driver-content
 description: The ReadPointersVirtual method is a convenience method for reading pointers from the target's virtual address space.
 old-location: debugger\readpointersvirtual.htm
 old-project: debugger
 ms.assetid: 003fd20c-12d6-40b0-8e43-a7d730199846
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugDataSpaces interface [Windows Debugging], ReadPointersVirtual method, IDebugDataSpaces2 interface [Windows Debugging], ReadPointersVirtual method, IDebugDataSpaces2::ReadPointersVirtual, IDebugDataSpaces3 interface [Windows Debugging], ReadPointersVirtual method, IDebugDataSpaces3::ReadPointersVirtual, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadPointersVirtual method, IDebugDataSpaces4::ReadPointersVirtual, IDebugDataSpaces::ReadPointersVirtual, IDebugDataSpaces_d3857a69-3e22-4d7a-97ef-d6cb7bf8613a.xml, ReadPointersVirtual method [Windows Debugging], ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces interface, ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces2 interface, ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces3 interface, ReadPointersVirtual method [Windows Debugging], IDebugDataSpaces4 interface, ReadPointersVirtual,IDebugDataSpaces4.ReadPointersVirtual, dbgeng/IDebugDataSpaces2::ReadPointersVirtual, dbgeng/IDebugDataSpaces3::ReadPointersVirtual, dbgeng/IDebugDataSpaces4::ReadPointersVirtual, dbgeng/IDebugDataSpaces::ReadPointersVirtual, debugger.readpointersvirtual
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces2 interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces2::ReadPointersVirtual, IDebugDataSpaces3 interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces3::ReadPointersVirtual, IDebugDataSpaces4 interface [Windows Debugging],ReadPointersVirtual method, IDebugDataSpaces4.ReadPointersVirtual, IDebugDataSpaces4::ReadPointersVirtual, IDebugDataSpaces::ReadPointersVirtual, IDebugDataSpaces_d3857a69-3e22-4d7a-97ef-d6cb7bf8613a.xml, ReadPointersVirtual, ReadPointersVirtual method [Windows Debugging], ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces interface, ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces2 interface, ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces3 interface, ReadPointersVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadPointersVirtual, dbgeng/IDebugDataSpaces3::ReadPointersVirtual, dbgeng/IDebugDataSpaces4::ReadPointersVirtual, dbgeng/IDebugDataSpaces::ReadPointersVirtual, debugger.readpointersvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,30 +41,19 @@ api_name:
 -	IDebugDataSpaces2.ReadPointersVirtual
 -	IDebugDataSpaces3.ReadPointersVirtual
 -	IDebugDataSpaces4.ReadPointersVirtual
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::ReadPointersVirtual method
+# IDebugDataSpaces4::ReadPointersVirtual
 
 
 ## -description
 
 
 The <b>ReadPointersVirtual</b> method is a convenience method for reading pointers from the target's virtual address space.
-
-
-## -syntax
-
-
-````
-HRESULT ReadPointersVirtual(
-  [in]  ULONG    Count,
-  [in]  ULONG64  Offset,
-  [out] PULONG64 Ptrs
-);
-````
 
 
 ## -parameters
@@ -126,23 +115,22 @@ This method reads from the memory from the target's virtual address space.  The 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550528">IDebugDataSpaces</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550531">IDebugDataSpaces2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561451">WritePointersVirtual</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
 
 
 
@@ -150,8 +138,8 @@ This method reads from the memory from the target's virtual address space.  The 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561451">WritePointersVirtual</a>
  
 
  
-
 

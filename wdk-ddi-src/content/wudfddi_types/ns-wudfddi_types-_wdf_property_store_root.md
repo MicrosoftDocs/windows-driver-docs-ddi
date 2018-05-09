@@ -38,10 +38,10 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_PROPERTY_STORE_ROOT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT
-req.product: Windows 10 or later.
 ---
 
 # _WDF_PROPERTY_STORE_ROOT structure
@@ -53,29 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_PROPERTY_STORE_ROOT</b> structure contains information that identifies a UMDF property store. 
-
-
-## -syntax
-
-
-````
-typedef struct _WDF_PROPERTY_STORE_ROOT {
-  ULONG                         LengthCb;
-  WDF_PROPERTY_STORE_ROOT_CLASS RootClass;
-  union {
-    struct {
-      PCWSTR ServiceName;
-    } HardwareKey;
-    struct {
-      LPCGUID InterfaceGUID;
-      PCWSTR  ReferenceString;
-    } DeviceInterfaceKey;
-    struct {
-      PCWSTR LegacyMapName;
-    } LegacyHardwareKey;
-  } Qualifier;
-} WDF_PROPERTY_STORE_ROOT, *PWDF_PROPERTY_STORE_ROOT;
-````
 
 
 ## -struct-fields
@@ -90,7 +67,7 @@ The length, in bytes, of this structure.
 
 ### -field RootClass
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_root_class.md">WDF_PROPERTY_STORE_ROOT_CLASS</a>-typed value that identifies a property store.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561458">WDF_PROPERTY_STORE_ROOT_CLASS</a>-typed value that identifies a property store.
 
 
 ### -field Qualifier
@@ -215,7 +192,7 @@ Set the <b>Qualifier.LegacyHardwareKey.LegacyMapName</b> member to a character s
 
 </li>
 </ol>
-The driver can obtain read or write access to the specified subkey under the <b>DEVICEMAP</b> key. The driver can optionally create the subkey if it does not exist. However, a driver that creates this subkey must specify the <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_property_store_retrieve_flags.md">WdfPropertyStoreCreateVolatile</a> flag so that the system deletes the subkey each time that it restarts.
+The driver can obtain read or write access to the specified subkey under the <b>DEVICEMAP</b> key. The driver can optionally create the subkey if it does not exist. However, a driver that creates this subkey must specify the <a href="https://msdn.microsoft.com/bd64ef0d-b2e7-4f82-87a8-77fe98677fd9">WdfPropertyStoreCreateVolatile</a> flag so that the system deletes the subkey each time that it restarts.
 
 For more information about these registry keys, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in UMDF-based Drivers</a>.
 
@@ -224,12 +201,11 @@ For more information about these registry keys, see <a href="https://docs.micros
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>
-
-
-
  
 
  
-
 

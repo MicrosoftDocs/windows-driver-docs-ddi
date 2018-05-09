@@ -7,8 +7,8 @@ old-location: display\settexturestagestate.htm
 old-project: display
 ms.assetid: 56b9d7bf-1036-4ad1-a0fb-4d7154b50b27
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_SETTEXTURESTAGESTATE, SetTextureStageState, SetTextureStageState callback function [Display Devices], UserModeDisplayDriver_Functions_b84233ed-861a-4d59-a1b0-5b475f5019d5.xml, d3dumddi/SetTextureStageState, display.settexturestagestate
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETTEXTURESTAGESTATE, PFND3DDDI_SETTEXTURESTAGESTATE callback, SetTextureStageState, SetTextureStageState callback function [Display Devices], UserModeDisplayDriver_Functions_b84233ed-861a-4d59-a1b0-5b475f5019d5.xml, d3dumddi/SetTextureStageState, display.settexturestagestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetTextureStageState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETTEXTURESTAGESTATE callback
+# PFND3DDDI_SETTEXTURESTAGESTATE callback function
 
 
 ## -description
 
 
 The <i>SetTextureStageState</i> function updates the state of a texture at a particular stage in a multiple-texture group.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETTEXTURESTAGESTATE SetTextureStageState;
-
-__checkReturn HRESULT APIENTRY SetTextureStageState(
-  _In_       HANDLE                      hDevice,
-  _In_ const D3DDDIARG_TEXTURESTAGESTATE *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY SetTextureStageState(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_texturestagestate.md">D3DDDIARG_TEXTURESTAGESTATE</a> structure that describes how to update the texture.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543389">D3DDDIARG_TEXTURESTAGESTATE</a> structure that describes how to update the texture.
 
 
 ## -returns
@@ -103,7 +90,7 @@ __checkReturn HRESULT APIENTRY SetTextureStageState(
 
 
 
-The user-mode display driver is not required to store colorkey values in its private allocation structure because the Microsoft Direct3D runtime always passes the appropriate colorkeying information in calls to the driver's <i>SetTextureStageState</i> function. For example, the runtime passes the following colorkey information in the indicated members of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_texturestagestate.md">D3DDDIARG_TEXTURESTAGESTATE</a> structure that is pointed to by <i>pData</i> to perform the indicated colorkey operation: 
+The user-mode display driver is not required to store colorkey values in its private allocation structure because the Microsoft Direct3D runtime always passes the appropriate colorkeying information in calls to the driver's <i>SetTextureStageState</i> function. For example, the runtime passes the following colorkey information in the indicated members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543389">D3DDDIARG_TEXTURESTAGESTATE</a> structure that is pointed to by <i>pData</i> to perform the indicated colorkey operation: 
 
 <ul>
 <li>
@@ -120,16 +107,15 @@ D3DTSS_DISABLETEXTURECOLORKEY in the <b>State</b> member and <b>TRUE</b> in the 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_texturestagestate.md">D3DDDIARG_TEXTURESTAGESTATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543389">D3DDDIARG_TEXTURESTAGESTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

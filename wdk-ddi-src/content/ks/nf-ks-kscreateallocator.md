@@ -7,7 +7,7 @@ old-location: stream\kscreateallocator.htm
 old-project: stream
 ms.assetid: c67e036c-9f4c-447e-94bb-73cf215c865a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsCreateAllocator, KsCreateAllocator function [Streaming Media Devices], ks/KsCreateAllocator, ksfunc_cc89b86b-fdd7-4e08-83b1-0df712fccaa4.xml, stream.kscreateallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsCreateAllocator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsCreateAllocator</b> function creates a handle to an allocator for the given sink connection handle. This function does not complete the IRP or set the status in the IRP.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreateAllocator(
-  _In_  HANDLE               ConnectionHandle,
-  _In_  PKSALLOCATOR_FRAMING AllocatorFraming,
-  _Out_ PHANDLE              AllocatorHandle
-);
-````
 
 
 ## -parameters
@@ -105,12 +94,11 @@ There are two versions of the <b>KsCreateAllocator</b> function: one for user-mo
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a>
  
 
  
-
 

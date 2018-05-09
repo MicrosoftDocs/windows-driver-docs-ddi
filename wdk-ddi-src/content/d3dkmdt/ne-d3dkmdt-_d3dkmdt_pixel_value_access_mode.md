@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_pixel_value_access_mode.htm
 old-project: display
 ms.assetid: da4074ac-309d-46b9-b630-79d73ed73f36
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_PIXEL_VALUE_ACCESS_MODE, D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration [Display Devices], D3DKMDT_PVAM_DIRECT, D3DKMDT_PVAM_PRESETPALETTE, D3DKMDT_PVAM_SETTABLEPALETTE, D3DKMDT_PVAM_UNINITIALIZED, DmEnums_ac8b4715-9a7c-4698-8f57-e6125f90f75b.xml, _D3DKMDT_PIXEL_VALUE_ACCESS_MODE, d3dkmdt/D3DKMDT_PIXEL_VALUE_ACCESS_MODE, d3dkmdt/D3DKMDT_PVAM_DIRECT, d3dkmdt/D3DKMDT_PVAM_PRESETPALETTE, d3dkmdt/D3DKMDT_PVAM_SETTABLEPALETTE, d3dkmdt/D3DKMDT_PVAM_UNINITIALIZED, display.d3dkmdt_pixel_value_access_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_PIXEL_VALUE_ACCESS_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_PIXEL_VALUE_ACCESS_MODE
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DKMDT_PIXEL_VALUE_ACCESS_MODE
 
 
 The D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration is used to indicate the way color values or palette indices are stored in the primary surface of a video present source.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMDT_PIXEL_VALUE_ACCESS_MODE { 
-  D3DKMDT_PVAM_UNINITIALIZED    = 0,
-  D3DKMDT_PVAM_DIRECT           = 1,
-  D3DKMDT_PVAM_PRESETPALETTE    = 2,
-  D3DKMDT_PVAM_SETTABLEPALETTE  = 3
-} D3DKMDT_PIXEL_VALUE_ACCESS_MODE;
-````
 
 
 ## -enum-fields
@@ -94,19 +82,18 @@ Indicates that palette indices are stored in the primary surface. Colors are sto
 
 
 
-The <b>Format.Graphics</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_source_mode.md">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_graphics_rendering_format.md">D3DKMDT_GRAPHICS_RENDERING_FORMAT</a> structure. The <b>PixelValueAccessMode</b> member of the D3DKMDT_GRAPHICS_RENDERING_FORMAT structure is a D3DKMDT_PIXEL_VALUE_ACCESS_MODE value.
+The <b>Format.Graphics</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546724">D3DKMDT_VIDPN_SOURCE_MODE</a> structure is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546041">D3DKMDT_GRAPHICS_RENDERING_FORMAT</a> structure. The <b>PixelValueAccessMode</b> member of the D3DKMDT_GRAPHICS_RENDERING_FORMAT structure is a D3DKMDT_PIXEL_VALUE_ACCESS_MODE value.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570558">VidPn Source Mode Set Interface</a>
-
-
-
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.GetInterestMask
-title: IDebugEventCallbacksWide::GetInterestMask method
+title: IDebugEventCallbacksWide::GetInterestMask
 author: windows-driver-content
 description: The GetInterestMask callback method is called to determine which events the IDebugEventCallbacksWide object is interested in. The engine calls GetInterestMask when the object is registered with a client by using SetEventCallbacks.
 old-location: debugger\idebugeventcallbackswide_getinterestmask.htm
 old-project: debugger
 ms.assetid: b1e62ae3-4a3d-42db-b7fe-87d1a7e0b438
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging], IDebugEventCallbacksWide interface, GetInterestMask,IDebugEventCallbacksWide.GetInterestMask, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], GetInterestMask method, IDebugEventCallbacksWide::GetInterestMask, dbgeng/IDebugEventCallbacksWide::GetInterestMask, debugger.idebugeventcallbackswide_getinterestmask
+ms.date: 4/24/2018
+ms.keywords: GetInterestMask, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],GetInterestMask method, IDebugEventCallbacksWide.GetInterestMask, IDebugEventCallbacksWide::GetInterestMask, dbgeng/IDebugEventCallbacksWide::GetInterestMask, debugger.idebugeventcallbackswide_getinterestmask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugEventCallbacksWide.GetInterestMask
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugEventCallbacksWide::GetInterestMask method
+# IDebugEventCallbacksWide::GetInterestMask
 
 
 ## -description
 
 
 The <b>GetInterestMask</b> callback method is called to determine which <a href="https://msdn.microsoft.com/library/windows/hardware/ff543067">events</a> the <b>IDebugEventCallbacksWide</b> object is interested in.  The engine calls <b>GetInterestMask</b> when the object is registered with a client by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>.
-
-
-## -syntax
-
-
-````
-HRESULT GetInterestMask(
-  [out] PULONG Mask
-);
-````
 
 
 ## -parameters

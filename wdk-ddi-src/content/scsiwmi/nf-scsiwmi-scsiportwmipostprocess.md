@@ -7,7 +7,7 @@ old-location: storage\scsiportwmipostprocess.htm
 old-project: storage
 ms.assetid: da1770bc-2233-47ef-afab-cfcb34edb4b9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortWmiPostProcess, ScsiPortWmiPostProcess routine [Storage Devices], scsiprt_e10d02e1-18d2-4152-ac11-83bdcbb2ce49.xml, scsiwmi/ScsiPortWmiPostProcess, storage.scsiportwmipostprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	scsiwmi.h
 api_name:
 -	ScsiPortWmiPostProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCSIWMI_ENABLE_DISABLE_CONTROL
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ScsiPortWmiPostProcess function
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 The <b>ScsiPortWmiPostProcess</b> routine updates a request context for a WMI SRB.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-VOID ScsiPortWmiPostProcess(
-  _In_ PSCSIWMI_REQUEST_CONTEXT RequestContext,
-  _In_ UCHAR                    SrbStatus,
-  _In_ ULONG                    BufferUsed
-);
-````
-
 
 ## -parameters
 
@@ -111,24 +99,23 @@ If a miniport driver sets <i>SrbStatus</i> to SRB_STATUS_DATA_OVERRUN and sets <
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564946">SCSIWMI_REQUEST_CONTEXT</a>
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564766">ScsiPortWmiDispatchFunction</a>
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnsize.md">ScsiPortWmiGetReturnSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564789">ScsiPortWmiGetReturnSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564791">ScsiPortWmiGetReturnStatus</a>
  
 
  
-
 

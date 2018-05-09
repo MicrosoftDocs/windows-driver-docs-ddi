@@ -7,7 +7,7 @@ old-location: netvista\ril_getallemergencynumbers.htm
 old-project: netvista
 ms.assetid: 9bb94db6-1d0d-471f-b2a5-71ca659afcd0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetAllEmergencyNumbers, RIL_GetAllEmergencyNumbers method [Network Drivers Starting with Windows Vista], netvista.ril_getallemergencynumbers, rilapi/RIL_GetAllEmergencyNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_GetAllEmergencyNumbers
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetAllEmergencyNumbers function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_GetAllEmergencyNumbers(
-   HRIL   hRil,
-   LPVOID lpContext
-);
-````
 
 
 ## -parameters

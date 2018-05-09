@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStiDevice.Subscribe
-title: IStiDevice::Subscribe method
+title: IStiDevice::Subscribe
 author: windows-driver-content
 description: The IStiDevice::Subscribe method registers the caller to receive notifications of device events.
 old-location: image\istidevice_subscribe.htm
 old-project: image
 ms.assetid: 6266b311-6846-4615-a686-b68b00001fe7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], Subscribe method, IStiDevice::Subscribe, Subscribe method [Imaging Devices], Subscribe method [Imaging Devices], IStiDevice interface, Subscribe,IStiDevice.Subscribe, image.istidevice_subscribe, sti/IStiDevice::Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml
+ms.date: 4/23/2018
+ms.keywords: IStiDevice interface [Imaging Devices],Subscribe method, IStiDevice.Subscribe, IStiDevice::Subscribe, Subscribe, Subscribe method [Imaging Devices], Subscribe method [Imaging Devices],IStiDevice interface, image.istidevice_subscribe, sti/IStiDevice::Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.Subscribe
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiDevice::Subscribe method
+# IStiDevice::Subscribe
 
 
 ## -description
 
 
 The<b> IStiDevice::Subscribe</b> method registers the caller to receive notifications of device events.
-
-
-## -syntax
-
-
-````
-HRESULT Subscribe(
-  [in, out] LPSTISUBSCRIBE lpSubscribe
-);
-````
 
 
 ## -parameters
@@ -77,7 +67,7 @@ HRESULT Subscribe(
 
 #### - lpSubscribe [in, out]
 
-Caller-supplied pointer to an <a href="..\sti\ns-sti-_stisubscribe.md">STISUBSCRIBE</a> structure containing subscription parameter values.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548355">STISUBSCRIBE</a> structure containing subscription parameter values.
 
 
 ## -returns
@@ -95,7 +85,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 The<b> IStiDevice::Subscribe</b> method is typically called by applications that intercept events from devices and reroute them. The method allows these applications to be notified of <a href="https://msdn.microsoft.com/5f9be89c-8442-4894-b2f6-a4d3558464bf">Still Image Device Events</a> so they can then dispatch control to appropriate display applications.
 
-Based on contents supplied in the <a href="..\sti\ns-sti-_stisubscribe.md">STISUBSCRIBE</a> structure, the caller can request to be notified of device events by Windows messages or by Win32 events (by means of <b>SetEvent</b> calls).
+Based on contents supplied in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548355">STISUBSCRIBE</a> structure, the caller can request to be notified of device events by Windows messages or by Win32 events (by means of <b>SetEvent</b> calls).
 
 When the application receives notification of an event, it can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543751">IStiDevice::GetLastNotificationData</a> to find out which event occurred. 
 
@@ -106,11 +96,6 @@ Before calling <b>IStiDevice::Subscribe</b>, clients of the <b>IStiDevice</b> CO
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543796">IStillImage::LaunchApplicationForDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543773">IStiDevice::UnSubscribe</a>
 
 
 
@@ -118,8 +103,12 @@ Before calling <b>IStiDevice::Subscribe</b>, clients of the <b>IStiDevice</b> CO
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543773">IStiDevice::UnSubscribe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543796">IStillImage::LaunchApplicationForDevice</a>
  
 
  
-
 

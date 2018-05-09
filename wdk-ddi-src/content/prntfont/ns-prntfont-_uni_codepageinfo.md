@@ -7,7 +7,7 @@ old-location: print\uni_codepageinfo.htm
 old-project: print
 ms.assetid: 042362d3-d5bf-47af-957f-8f1eb7a9ca7a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PUNI_CODEPAGEINFO, PUNI_CODEPAGEINFO, PUNI_CODEPAGEINFO structure pointer [Print Devices], UNI_CODEPAGEINFO, UNI_CODEPAGEINFO structure [Print Devices], _UNI_CODEPAGEINFO, print.uni_codepageinfo, print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, prntfont/PUNI_CODEPAGEINFO, prntfont/UNI_CODEPAGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	prntfont.h
 api_name:
 -	UNI_CODEPAGEINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNI_CODEPAGEINFO, *PUNI_CODEPAGEINFO
-req.product: Windows 10 or later.
 ---
 
 # _UNI_CODEPAGEINFO structure
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The UNI_CODEPAGEINFO structure is one of the structures used to define the contents of <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">glyph translation table files</a> (.gtt files).
-
-
-## -syntax
-
-
-````
-typedef struct _UNI_CODEPAGEINFO {
-  DWORD dwCodePage;
-  INVOC SelectSymbolSet;
-  INVOC UnSelectSymbolSet;
-} UNI_CODEPAGEINFO, *PUNI_CODEPAGEINFO;
-````
 
 
 ## -struct-fields
@@ -77,22 +65,21 @@ Identifies a Windows code page.
 
 ### -field SelectSymbolSet
 
-Is an <a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a> structure containing the printer command to select the code page's symbol set.
+Is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551796">INVOC</a> structure containing the printer command to select the code page's symbol set.
 
 
 ### -field UnSelectSymbolSet
 
-Is an <a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a> structure containing the printer command to deselect the code page's symbol set.
+Is an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551796">INVOC</a> structure containing the printer command to deselect the code page's symbol set.
 
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_invoc.md">INVOC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551796">INVOC</a>
  
 
  
-
 

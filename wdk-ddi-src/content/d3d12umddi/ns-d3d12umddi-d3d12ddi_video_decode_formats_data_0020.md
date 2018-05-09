@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_formats_data.htm
 old-project: display
 ms.assetid: 0FF0F184-60FF-4467-ABF5-E05893083B25
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020, D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020, display.d3d12ddi_video_decode_formats_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020
 ---
@@ -50,19 +51,6 @@ req.typenames: D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020
 
 
 Specifies information used to retrieve a list of supported formats for a decode configuration.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020 {
-  UINT                                     NodeIndex;
-  D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 Configuration;
-  UINT                                     FormatCount;
-  DXGI_FORMAT                              *pOutputFormats;
-} D3D12DDI_VIDEO_DECODE_FORMATS_DATA_0020;
-````
 
 
 ## -struct-fields
@@ -92,12 +80,11 @@ A pointer to the returned supported formats.  The calling application allocates 
 
 ## -see-also
 
-<a href="..\d3d12umddi\nc-d3d12umddi-pfnd3d12ddi_video_get_decode_format_count_0020.md">pfnGetDecodeFormatCount</a>
 
 
 
+<a href="https://msdn.microsoft.com/84503E38-E141-4DAC-B305-6C7E6157A3E9">pfnGetDecodeFormatCount</a>
  
 
  
-
 

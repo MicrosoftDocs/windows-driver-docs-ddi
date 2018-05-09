@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDeviceGetDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceGetDriver function
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfDeviceGetDriver</b> method returns a handle to the framework driver object that is associated with a specified framework device object.
-
-
-## -syntax
-
-
-````
-WDFDRIVER WdfDeviceGetDriver(
-  _In_ WDFDEVICE Device
-);
-````
 
 
 ## -parameters
@@ -91,12 +81,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivergetregistrypath.md">WdfDriverGetRegistryPath</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547187">WdfDriverGetRegistryPath</a>
  
 
  
-
 

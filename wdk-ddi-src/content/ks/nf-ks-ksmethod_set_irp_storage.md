@@ -7,7 +7,7 @@ old-location: stream\ksmethod_set_irp_storage.htm
 old-project: stream
 ms.assetid: bc0a309d-305e-400a-b571-7958926dd1dc
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSMETHOD_SET_IRP_STORAGE, KSMETHOD_SET_IRP_STORAGE macro [Streaming Media Devices], ks/KSMETHOD_SET_IRP_STORAGE, ksfunc_d413bf2a-7d63-48c2-9e75-d84cf1344f5c.xml, stream.ksmethod_set_irp_storage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSMETHOD_SET_IRP_STORAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,17 +50,7 @@ req.typenames:
 ## -description
 
 
-This macro returns a pointer to the <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a> in which the method is located.
-
-
-## -syntax
-
-
-````
-VOID KSMETHOD_SET_IRP_STORAGE(
-  [in] IRP Irp
-);
-````
+This macro returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563423">KSMETHOD_SET</a> in which the method is located.
 
 
 ## -parameters
@@ -76,7 +67,7 @@ Specifies the IRP passed to the handler routine.
 
 
 
-The pointer to a KSMETHOD_SET structure is extracted from <b>Irp-&gt;Tail.Overlay.DriverContext</b>. Parameters in <b>DriverContext</b> are initialized by <a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a> and <a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>.
+The pointer to a KSMETHOD_SET structure is extracted from <b>Irp-&gt;Tail.Overlay.DriverContext</b>. Parameters in <b>DriverContext</b> are initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff563399">KsMethodHandler</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff563401">KsMethodHandlerWithAllocator</a>.
 
 The macro is defined as follows:
 
@@ -86,11 +77,6 @@ The macro is defined as follows:
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
-
-
-
-<a href="..\ks\nf-ks-ksfastmethodhandler.md">KsFastMethodHandler</a>
 
 
 
@@ -98,20 +84,24 @@ The macro is defined as follows:
 
 
 
-<a href="..\ks\nf-ks-ksmethodhandlerwithallocator.md">KsMethodHandlerWithAllocator</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563420">KSMETHOD_ITEM</a>
 
 
 
-<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563423">KSMETHOD_SET</a>
 
 
 
-<a href="..\ks\ns-ks-ksmethod_item.md">KSMETHOD_ITEM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561940">KsFastMethodHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563399">KsMethodHandler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563401">KsMethodHandlerWithAllocator</a>
  
 
  
-
 

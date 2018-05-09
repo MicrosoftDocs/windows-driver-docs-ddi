@@ -7,7 +7,7 @@ old-location: kernel\bugcheckcallback.htm
 old-project: kernel
 ms.assetid: ecd777f0-bba2-4f14-9fa6-8f47ac83fe7f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: BugCheckCallback, BugCheckCallback routine [Kernel-Mode Driver Architecture], DrvrRtns_e968f3db-9875-4f94-8781-074029354e2c.xml, KBUGCHECK_CALLBACK_ROUTINE, kernel.bugcheckcallback, wdm/BugCheckCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,33 +38,19 @@ api_location:
 -	Wdm.h
 api_name:
 -	BugCheckCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# KBUGCHECK_CALLBACK_ROUTINE callback
+# KBUGCHECK_CALLBACK_ROUTINE callback function
 
 
 ## -description
 
 
 The <i>BugCheckCallback</i> routine is executed whenever the system issues a bug check.
-
-
-## -prototype
-
-
-````
-KBUGCHECK_CALLBACK_ROUTINE BugCheckCallback;
-
-VOID BugCheckCallback(
-  _In_ PVOID Buffer,
-  _In_ ULONG Length
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -97,7 +83,7 @@ None
 
 Drivers can supply a <i>BugCheckCallback</i> that resets the device to a known state if the system issues a bug check.
 
-Use <a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a> to register a <i>BugCheckCallback</i> routine. A driver can subsequently remove the callback by using the <a href="..\wdm\nf-wdm-kederegisterbugcheckcallback.md">KeDeregisterBugCheckCallback</a> routine. If the driver can be unloaded, it must remove any registered callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
+Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553105">KeRegisterBugCheckCallback</a> to register a <i>BugCheckCallback</i> routine. A driver can subsequently remove the callback by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551992">KeDeregisterBugCheckCallback</a> routine. If the driver can be unloaded, it must remove any registered callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
 
 A <i>BugCheckCallback</i> routine is strongly restricted in the actions it can take. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566401">Writing a Bug Check Callback Routine</a>. The routine <u>can</u> safely use the <b>READ_PORT_<i>XXX</i></b>, <b>READ_REGISTER_<i>XXX</i></b>, <b>WRITE_PORT_<i>XXX</i></b>, and <b>WRITE_REGISTER_<i>XXX</i></b> routines to interact with the device.
 
@@ -150,15 +136,6 @@ The KBUGCHECK_CALLBACK_ROUTINE function type is defined in the Wdm.h header file
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-kederegisterbugcheckcallback.md">KeDeregisterBugCheckCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-keregisterbugcheckcallback.md">KeRegisterBugCheckCallback</a>
 
 
 
@@ -166,8 +143,16 @@ The KBUGCHECK_CALLBACK_ROUTINE function type is defined in the Wdm.h header file
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551992">KeDeregisterBugCheckCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553105">KeRegisterBugCheckCallback</a>
  
 
  
-
 

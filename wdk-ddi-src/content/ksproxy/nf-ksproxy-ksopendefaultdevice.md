@@ -7,7 +7,7 @@ old-location: stream\ksopendefaultdevice.htm
 old-project: stream
 ms.assetid: a017f0b7-8f4f-4797-96de-10137cb3443e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsOpenDefaultDevice, KsOpenDefaultDevice function [Streaming Media Devices], ksproxy/KsOpenDefaultDevice, ksproxy_9c80d462-baaa-497b-a337-5d42e94b9c3f.xml, stream.ksopendefaultdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ksproxy.dll
 api_name:
 -	KsOpenDefaultDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
 # KsOpenDefaultDevice function
@@ -51,18 +52,6 @@ req.typenames: PIPE_STATE
 
 
 The <b>KsOpenDefaultDevice</b> function opens a handle to the first device that is listed in the specified Plug and Play (PnP) category. 
-
-
-## -syntax
-
-
-````
-HRESULT KsOpenDefaultDevice(
-  _In_  REFGUID     Category,
-  _In_  ACCESS_MASK Access,
-  _Out_ PHANDLE     DeviceHandle
-);
-````
 
 
 ## -parameters

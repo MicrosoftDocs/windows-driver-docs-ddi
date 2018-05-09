@@ -7,7 +7,7 @@ old-location: netvista\fwps_bind_request0.htm
 old-project: netvista
 ms.assetid: 1a311470-b443-41d8-866f-10bf3120c13c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: FWPS_BIND_REQUEST0, FWPS_BIND_REQUEST0 structure [Network Drivers Starting with Windows Vista], _FWPS_BIND_REQUEST0, fwpsk/FWPS_BIND_REQUEST0, netvista.fwps_bind_request0, wfp_ref_3_struct_3_fwps_A-E_2be0409e-0b99-44ba-ad3c-bc3c6bb1bee7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	fwpsk.h
 api_name:
 -	FWPS_BIND_REQUEST0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FWPS_BIND_REQUEST0
 ---
@@ -53,19 +54,6 @@ The <b>FWPS_BIND_REQUEST0</b> structure defines modifiable data for the FWPM_LAY
   and FWPM_LAYER_ALE_AUTH_BIND_REDIRECT_V6 layers. The callout driver uses this data to inspect or modify the
   connection information.
 <div class="alert"><b>Note</b>  <b>FWPS_BIND_REQUEST0</b> is a specific version of <b>FWPS_BIND_REQUEST</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-typedef struct _FWPS_BIND_REQUEST0 {
-  SOCKADDR_STORAGE           localAddressAndPort;
-  UINT64                     portReservationToken;
-  struct _FWPS_BIND_REQUEST0  *previousVersion;
-  UINT64                     modifierFilterId;
-} FWPS_BIND_REQUEST0;
-````
-
 
 ## -struct-fields
 
@@ -97,7 +85,7 @@ The previous version of the bind request data. This read-only field records the 
 
 The value of the 
      <b>FilterId</b> member of the 
-     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> function's 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function's 
      <i>filter</i> parameter. For more information about the 
      <b>FilterId</b> member, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>.
@@ -108,13 +96,13 @@ The value of the
 
 
 The callout driver obtains this structure by calling the 
-    <a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
+    <a href="https://msdn.microsoft.com/79816d01-bf27-49d0-b6f1-083b7e87cc4e">
     FwpsAcquireWritableLayerDataPointer0</a> function, which returns a pointer to a <b>FWPS_BIND_REQUEST0</b>
     structure through the 
     <i>writableLayerData</i> parameter.
 
 The 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> function can modify the bind
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function can modify the bind
     request's parameters, such as redirecting the local transport address or port to another address or port. If
     it modifies the bind request's parameters, the  
     <i>classifyFn</i> function must do the following:
@@ -122,19 +110,19 @@ The
 <ul>
 <li>
 Make all changes to the <b>FWPS_BIND_REQUEST0</b> structure that was returned by
-      <a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">FwpsAcquireWritableLayerDataPointer0</a>. Only the 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff550087">FwpsAcquireWritableLayerDataPointer0</a>. Only the 
       <b>localAddressAndPort</b> and 
       <b>portReservationToken</b> members can be modified.
 
 </li>
 <li>
 Call 
-      <a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">
+      <a href="https://msdn.microsoft.com/d32c19b6-462e-48e3-b22b-02542dca9cc4">
       FwpsApplyModifiedLayerData0</a> with the 
       <i>modifiedLayerData</i> parameter set to the address of the <b>FWPS_BIND_REQUEST0</b> structure, even if the callout driver didn't modify any data. This value
       must be the same as the 
       <i>modifiedLayerData</i> parameter value that was returned by 
-      <a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
+      <a href="https://msdn.microsoft.com/79816d01-bf27-49d0-b6f1-083b7e87cc4e">
       FwpsAcquireWritableLayerDataPointer0</a>.
 
 </li>
@@ -150,20 +138,6 @@ This structure acts as a linked list that contains a record of all changes made 
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsacquirewritablelayerdatapointer0.md">
-   FwpsAcquireWritableLayerDataPointer0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
 
 
 
@@ -171,8 +145,21 @@ This structure acts as a linked list that contains a record of all changes made 
 
 
 
+<a href="https://msdn.microsoft.com/79816d01-bf27-49d0-b6f1-083b7e87cc4e">
+   FwpsAcquireWritableLayerDataPointer0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551137">FwpsApplyModifiedLayerData0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570825">SOCKADDR_STORAGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  
-
 

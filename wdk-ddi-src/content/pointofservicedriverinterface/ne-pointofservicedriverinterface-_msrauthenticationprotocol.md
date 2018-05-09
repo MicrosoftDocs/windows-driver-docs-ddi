@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	MsrAuthenticationProtocol
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MsrAuthenticationProtocolType
 ---
@@ -50,17 +51,6 @@ req.typenames: MsrAuthenticationProtocolType
 
 
 This enumeration defines magnetic stripe reader (MSR) authentication protocols.
-
-
-## -syntax
-
-
-````
-typedef enum _MsrAuthenticationProtocol { 
-  MsrAuthenticationProtocolType_None               = 0,
-  MsrAuthenticationProtocolType_ChallengeResponse
-} MsrAuthenticationProtocol;
-````
 
 
 ## -enum-fields

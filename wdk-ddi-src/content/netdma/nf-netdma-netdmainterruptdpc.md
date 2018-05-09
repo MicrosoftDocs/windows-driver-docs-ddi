@@ -7,7 +7,7 @@ old-location: netvista\netdmainterruptdpc.htm
 old-project: netvista
 ms.assetid: 93d7e4dd-70ee-4490-bffd-9b07511ee9fe
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NetDmaInterruptDpc, NetDmaInterruptDpc function [Network Drivers Starting with Windows Vista], netdma/NetDmaInterruptDpc, netdma_ref_112a0d48-213e-4b5c-a776-11d5dcb83e1b.xml, netvista.netdmainterruptdpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	netdma.h
 api_name:
 -	NetDmaInterruptDpc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
+req.typenames: 
 ---
 
 # NetDmaInterruptDpc function
@@ -56,17 +57,6 @@ in Windows 8 and later.</div><div> </div>The
   (DPC) has completed on a DMA channel.
 
 
-## -syntax
-
-
-````
-VOID NetDmaInterruptDpc(
-  _In_     PVOID            NetDmaChannelHandle,
-  _In_opt_ PHYSICAL_ADDRESS DmaDescriptor
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +66,7 @@ VOID NetDmaInterruptDpc(
 
 A handle that identifies the DMA channel. The DMA provider driver received this handle from NetDMA
      in a call to the 
-     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">
      ProviderAllocateDmaChannel</a> function.
 
 
@@ -106,12 +96,11 @@ DMA providers call the
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a>
  
 
  
-
 

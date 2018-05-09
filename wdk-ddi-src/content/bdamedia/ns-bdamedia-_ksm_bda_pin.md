@@ -7,7 +7,7 @@ old-location: stream\ksm_bda_pin.htm
 old-project: stream
 ms.assetid: 7e7778ba-cf4f-44e8-91ce-c53458d3db9a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSM_BDA_PIN, KSM_BDA_PIN, KSM_BDA_PIN structure [Streaming Media Devices], PKSM_BDA_PIN, PKSM_BDA_PIN structure pointer [Streaming Media Devices], _KSM_BDA_PIN, bdamedia/KSM_BDA_PIN, bdamedia/PKSM_BDA_PIN, bdaref_190ab329-704e-472a-926c-1aa04d4b6df5.xml, stream.ksm_bda_pin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	KSM_BDA_PIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSM_BDA_PIN, *PKSM_BDA_PIN
 ---
@@ -52,21 +53,6 @@ req.typenames: KSM_BDA_PIN, *PKSM_BDA_PIN
 The KSM_BDA_PIN structure describes a method request to create or delete a pin factory for a filter. 
 
 
-## -syntax
-
-
-````
-typedef struct _KSM_BDA_PIN {
-  KSMETHOD Method;
-  union {
-    ULONG PinId;
-    ULONG PinType;
-  };
-  ULONG    Reserved;
-} KSM_BDA_PIN, *PKSM_BDA_PIN;
-````
-
-
 ## -struct-fields
 
 
@@ -77,29 +63,28 @@ typedef struct _KSM_BDA_PIN {
 KSMETHOD structure that describes a method and request type of a method request.
 
 
+### -field PinId
+
+Member of the union in KSM_BDA_PIN that contains the identifier (ID) of a pin factory of a filter.
+
+
+### -field PinType
+
+Member of the union in KSM_BDA_PIN that contains the value that specifies the pin type.
+
+
 ### -field Reserved
 
 Reserved.
 
 
-#### - PinId
-
-Member of the union in KSM_BDA_PIN that contains the identifier (ID) of a pin factory of a filter.
-
-
-#### - PinType
-
-Member of the union in KSM_BDA_PIN that contains the value that specifies the pin type.
-
-
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
-
-
-
  
 
  
-
 

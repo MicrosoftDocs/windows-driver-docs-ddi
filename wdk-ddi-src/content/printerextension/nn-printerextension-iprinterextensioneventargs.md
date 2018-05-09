@@ -7,8 +7,8 @@ old-location: print\iprinterextensioneventargs.htm
 old-project: print
 ms.assetid: 77850B5A-4E24-4057-B87F-D964620ABF94
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], IPrinterExtensionEventArgs interface [Print Devices], described, print.iprinterextensioneventargs, printerextension/IPrinterExtensionEventArgs
+ms.date: 4/20/2018
+ms.keywords: IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], IPrinterExtensionEventArgs interface [Print Devices],described, print.iprinterextensioneventargs, printerextension/IPrinterExtensionEventArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterExtensionEventArgs
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterExtensionEventArgs interface
@@ -55,16 +55,15 @@ Represents the context for the desktop printer extension activation.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
+
+
+
 <a href="https://msdn.microsoft.com/4E20303A-BEB3-4928-BA5A-356D978FA2BE">V4 Printer Driver Property Bags</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: bltooth\_brb_sco_open_channel.htm
 old-project: bltooth
 ms.assetid: 7f73aaec-09fb-45f2-bff0-daef9fdb9b90
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_SCO_OPEN_CHANNEL, _BRB_SCO_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_open_channel, bth_structs_f852010d-7117-48fe-bd65-f4e4f17e8706.xml, bthddi/_BRB_SCO_OPEN_CHANNEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_SCO_OPEN_CHANNEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -54,31 +55,6 @@ The _BRB_SCO_OPEN_CHANNEL structure describes a SCO channel to open to a remote 
   remote device.
 
 
-## -syntax
-
-
-````
-struct _BRB_SCO_OPEN_CHANNEL {
-  BRB_HEADER                 Hdr;
-  BTH_ADDR                   BtAddress;
-  ULONG                      TransmitBandwidth;
-  ULONG                      ReceiveBandwidth;
-  USHORT                     MaxLatency;
-  USHORT                     PacketType;
-  USHORT                     ContentFormat;
-  USHORT                     Reserved;
-  SCO_RETRANSMISSION_EFFORT  RetransmissionEffort;
-  ULONG                      ChannelFlags;
-  ULONG                      CallbackFlags;
-  PFNSCO_INDICATION_CALLBACK Callback;
-  PVOID                      CallbackContext;
-  PVOID                      ReferenceObject;
-  SCO_CHANNEL_HANDLE         ChannelHandle;
-  UCHAR                      Response;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -87,7 +63,7 @@ struct _BRB_SCO_OPEN_CHANNEL {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -248,7 +224,7 @@ Reserved for future use. Do not use.
 ### -field RetransmissionEffort
 
 A 
-     <a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">
+     <a href="https://msdn.microsoft.com/bf466384-bf13-42cc-a02d-ef880cac4c02">
      SCO_RETRANSMISSION_EFFORT</a> enumeration value that determines the retransmission policies for the
      channel.
 
@@ -338,7 +314,7 @@ The profile driver should be notified when the remote device is disconnected.
 ### -field Callback
 
 The 
-     <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a> implemented by
+     <a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a> implemented by
      the profile driver, that the Bluetooth driver stack should call to notify the profile driver about any
      changes to the SCO connection.
 
@@ -352,8 +328,8 @@ The context to pass to the callback function specified in the
 ### -field ReferenceObject
 
 A pointer to an object to pass to 
-     <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> and 
-     <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> for which to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a> and 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> for which to
      maintain a reference count of.
 
 
@@ -439,7 +415,7 @@ To accept or reject an incoming SCO connection request initiated by a remote dev
 
 A profile driver should build and send a <b>BRB_SCO_OPEN_CHANNEL_RESPONSE</b> request when the Bluetooth
     driver stack calls the profile driver's 
-    <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a> and passes 
+    <a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a> and passes 
     <b>ScoIndicationRemoteConnect</b> in the callback function's 
     <i>Indication</i> parameter.
 
@@ -452,11 +428,14 @@ The profile driver specifies whether the connection should be accepted by storin
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
-
-
-
-<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
 
 
 
@@ -464,24 +443,20 @@ The profile driver specifies whether the connection should be accepted by storin
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a>
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+<a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536783">SCO_RETRANSMISSION_EFFORT</a>
  
 
  
-
 

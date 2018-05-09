@@ -7,7 +7,7 @@ old-location: stream\ksstreampointeradvanceoffsets.htm
 old-project: stream
 ms.assetid: 0377371b-b755-4473-a449-9a85e1ca456c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsStreamPointerAdvanceOffsets, KsStreamPointerAdvanceOffsets function [Streaming Media Devices], avfunc_31a73e93-c2b5-4867-9bb1-40090d0ea07e.xml, ks/KsStreamPointerAdvanceOffsets, stream.ksstreampointeradvanceoffsets
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsStreamPointerAdvanceOffsets
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,19 +54,6 @@ req.typenames:
 The<b> KsStreamPointerAdvanceOffsets</b> function advances the offsets of <i>StreamPointer</i>.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsStreamPointerAdvanceOffsets(
-  _In_ PKSSTREAM_POINTER StreamPointer,
-  _In_ ULONG             InUsed,
-  _In_ ULONG             OutUsed,
-  _In_ BOOLEAN           Eject
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ NTSTATUS KsStreamPointerAdvanceOffsets(
 
 ### -param StreamPointer [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the stream pointer for which to advance the offsets. <i>StreamPointer</i> should be in the locked state when this function is called.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> structure representing the stream pointer for which to advance the offsets. <i>StreamPointer</i> should be in the locked state when this function is called.
 
 
 ### -param InUsed [in]
@@ -119,24 +107,23 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567125">KsStreamPointerAdvance</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567127">KsStreamPointerAdvanceOffsetsAndUnlock</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn892390">KsStreamPointerLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567137">KsStreamPointerUnlock</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: image\wiaudbgwarning.htm
 old-project: image
 ms.assetid: f10f1c28-0bfd-44c5-a0aa-9f9227f775d2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaudbgwarning, wiauDbgWarning, wiauDbgWarning function [Imaging Devices], wiauFncs_1248626b-0d4f-445c-855c-9ba477cf306c.xml, wiautil/wiauDbgWarning
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiautil.h
 api_name:
 -	wiauDbgWarning
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauDbgWarning function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgWarning</b> function logs a warning message.
-
-
-## -syntax
-
-
-````
-inline void __stdcall wiauDbgWarning(
-   LPCSTR   fname,
-   LPCSTR   fmt, ...
-);
-````
 
 
 ## -parameters
@@ -102,24 +91,23 @@ None
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgtrace.md">wiauDbgTrace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549627">wiauDbgDump</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549637">wiauDbgErrorHr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550161">wiauDbgTrace</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ReturnInputWide
-title: IDebugControl4::ReturnInputWide method
+title: IDebugControl4::ReturnInputWide
 author: windows-driver-content
 description: The ReturnInputWide method is used by IDebugInputCallbacks objects to send an input string to the engine following a request for input.
 old-location: debugger\returninputwide.htm
 old-project: debugger
 ms.assetid: 6e7f0995-14d0-4dd3-b598-2f988a2ec4fd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], ReturnInputWide method, IDebugControl4::ReturnInputWide, ReturnInputWide method [Windows Debugging], ReturnInputWide method [Windows Debugging], IDebugControl4 interface, ReturnInputWide,IDebugControl4.ReturnInputWide, dbgeng/IDebugControl4::ReturnInputWide, debugger.returninputwide
+ms.date: 4/24/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging],ReturnInputWide method, IDebugControl4.ReturnInputWide, IDebugControl4::ReturnInputWide, ReturnInputWide, ReturnInputWide method [Windows Debugging], ReturnInputWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::ReturnInputWide, debugger.returninputwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.ReturnInputWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::ReturnInputWide method
+# IDebugControl4::ReturnInputWide
 
 
 ## -description
 
 
 The <b>ReturnInputWide</b>  method is used by <b>IDebugInputCallbacks</b> objects to send an input string to the engine following a request for input.
-
-
-## -syntax
-
-
-````
-HRESULT ReturnInputWide(
-  [in] PCWSTR Buffer
-);
-````
 
 
 ## -parameters

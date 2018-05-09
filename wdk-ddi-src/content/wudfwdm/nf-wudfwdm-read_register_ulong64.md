@@ -38,10 +38,10 @@ api_location:
 -	Wudfddi_hwaccess.h
 api_name:
 -	READ_REGISTER_ULONG64
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # READ_REGISTER_ULONG64 function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>READ_REGISTER_ULONG64</b> function reads a ULONG64 value from the specified register address.
-
-
-## -syntax
-
-
-````
-ULONG64 READ_REGISTER_ULONG64(
-  _In_ IWDFDevice3 *pDevice,
-  _In_ PULONG64    Register
-);
-````
 
 
 ## -parameters
@@ -78,7 +67,7 @@ A pointer to the register address, which must be a mapped range in memory space.
 
 #### - pDevice [in]
 
-Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ## -returns

@@ -7,8 +7,8 @@ old-location: print\iprintschemadisplayableelement_interface.htm
 old-project: print
 ms.assetid: A1ACF7C4-2DEE-405E-AEEE-BC03B9D5FAD2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaDisplayableElement, IPrintSchemaDisplayableElement interface [Print Devices], IPrintSchemaDisplayableElement interface [Print Devices], described, print.iprintschemadisplayableelement_interface, printerextension/IPrintSchemaDisplayableElement
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaDisplayableElement, IPrintSchemaDisplayableElement interface [Print Devices], IPrintSchemaDisplayableElement interface [Print Devices],described, print.iprintschemadisplayableelement_interface, printerextension/IPrintSchemaDisplayableElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaDisplayableElement
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintSchemaDisplayableElement interface
@@ -55,16 +55,15 @@ Provides the displayable string for a PrintCapabilites PrintSchema element.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451270">IPrintSchemaElement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
  
 
  
-
 

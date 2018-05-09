@@ -7,7 +7,7 @@ old-location: ifsk\iocreatestreamfileobject.htm
 old-project: ifsk
 ms.assetid: 4186a362-f75d-4633-b9eb-5b0810bf56dc
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: IoCreateStreamFileObject, IoCreateStreamFileObject routine [Installable File System Drivers], ifsk.iocreatestreamfileobject, ioref_b800437d-cde5-4605-955f-c14152aa0576.xml, ntifs/IoCreateStreamFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoCreateStreamFileObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoCreateStreamFileObject function
@@ -50,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>IoCreateStreamFileObject</b> routine creates a new stream file object. 
-
-
-## -syntax
-
-
-````
-PFILE_OBJECT IoCreateStreamFileObject(
-  _In_opt_ PFILE_OBJECT   FileObject,
-  _In_opt_ PDEVICE_OBJECT DeviceObject
-);
-````
 
 
 ## -parameters
@@ -97,7 +87,7 @@ A stream file object is commonly used to represent an internal stream for a volu
 
 A stream file object can also be used to represent an alternate data stream for accessing a file's metadata, such as extended attributes or security descriptors. In this case, the <i>FileObject</i> parameter in the call to <b>IoCreateStreamFileObject</b> specifies an existing file object for the file. The newly created stream file object permits the file system to view, change, and cache the file's metadata as if it were an ordinary file. 
 
-When the stream file object is no longer needed, the caller must decrement its reference count by calling <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>. When the stream file object's reference count reaches zero, an IRP_MJ_CLOSE request is sent to the file system driver stack for the volume. 
+When the stream file object is no longer needed, the caller must decrement its reference count by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>. When the stream file object's reference count reaches zero, an IRP_MJ_CLOSE request is sent to the file system driver stack for the volume. 
 
 File system filter driver writers should note that <b>IoCreateStreamFileObject</b> causes an IRP_MJ_CLEANUP request to be sent to the file system driver stack for the volume. Because file systems often create stream file objects as a side effect of operations other than IRP_MJ_CREATE, it is difficult for filter drivers to reliably detect stream file object creation. Thus a filter driver should expect to receive IRP_MJ_CLEANUP and IRP_MJ_CLOSE requests for previously unseen file objects. 
 
@@ -108,11 +98,6 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObject</b> raises a ST
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
@@ -120,11 +105,7 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObject</b> raises a ST
 
 
 
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectex.md">IoCreateStreamFileObjectEx</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iocreatestreamfileobjectlite.md">IoCreateStreamFileObjectLite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 
 
 
@@ -132,8 +113,16 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObject</b> raises a ST
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548303">IoCreateStreamFileObjectEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548306">IoCreateStreamFileObjectLite</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
  
 
  
-
 

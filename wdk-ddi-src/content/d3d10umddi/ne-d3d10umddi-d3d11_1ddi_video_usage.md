@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_usage.htm
 old-project: display
 ms.assetid: f107b9a8-d124-4fc3-80b3-dd20a87f9a86
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_VIDEO_USAGE, D3D11_1DDI_VIDEO_USAGE enumeration [Display Devices], D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY, D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED, D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL, d3d10umddi/D3D11_1DDI_VIDEO_USAGE, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED, d3d10umddi/D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL, display.d3d11_1ddi_video_usage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_VIDEO_USAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_USAGE
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D11_1DDI_VIDEO_USAGE
 
 
 Identifies how the decode device plays video.
-
-
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_VIDEO_USAGE { 
-  D3D11_1DDI_VIDEO_USAGE_PLAYBACK_NORMAL  = 0,
-  D3D11_1DDI_VIDEO_USAGE_OPTIMAL_SPEED    = 1,
-  D3D11_1DDI_VIDEO_USAGE_OPTIMAL_QUALITY  = 2
-} D3D11_1DDI_VIDEO_USAGE;
-````
 
 
 ## -enum-fields
@@ -88,19 +77,18 @@ Specifies that the device plays video at optimal quality.
 
 
 
-A value of type <b>D3D11_1DDI_VIDEO_USAGE</b> is specified in the <b>Usage</b> member of a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_info.md">D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO</a> structure to help describe a decode device.
+A value of type <b>D3D11_1DDI_VIDEO_USAGE</b> is specified in the <b>Usage</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450943">D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO</a> structure to help describe a decode device.
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_info.md">D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450943">D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO</a>
  
 
  
-
 

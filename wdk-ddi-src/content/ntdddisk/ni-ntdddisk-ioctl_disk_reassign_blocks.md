@@ -7,8 +7,8 @@ old-location: storage\ioctl_disk_reassign_blocks.htm
 old-project: storage
 ms.assetid: d79f8e47-87c5-4203-b9d7-722d9be4e848
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS, IOCTL_DISK_REASSIGN_BLOCKS control code [Storage Devices], k307_56b4bc99-0b59-48d5-a87d-277ee06a0830.xml, ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS, storage.ioctl_disk_reassign_blocks
+ms.date: 3/29/2018
+ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS, IOCTL_DISK_REASSIGN_BLOCKS control, IOCTL_DISK_REASSIGN_BLOCKS control code [Storage Devices], k307_56b4bc99-0b59-48d5-a87d-277ee06a0830.xml, ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS, storage.ioctl_disk_reassign_blocks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntdddisk.h
 api_name:
 -	IOCTL_DISK_REASSIGN_BLOCKS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DETECTION_TYPE
+req.typenames: 
 ---
 
 # IOCTL_DISK_REASSIGN_BLOCKS IOCTL
@@ -62,7 +63,7 @@ Maps defective blocks to new location on disk. This request instructs the device
 
 ### -input-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntdddisk\ns-ntdddisk-_reassign_blocks.md">REASSIGN_BLOCKS</a> values to be set. Note that this structure contains a variable-sized array of block numbers. It is the caller's responsibility to make sure that the array of block numbers is sorted in ascending order.
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563962">REASSIGN_BLOCKS</a> values to be set. Note that this structure contains a variable-sized array of block numbers. It is the caller's responsibility to make sure that the array of block numbers is sorted in ascending order.
 
 
 ### -input-buffer-length
@@ -105,12 +106,11 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field can be set 
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_reassign_blocks.md">REASSIGN_BLOCKS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563962">REASSIGN_BLOCKS</a>
  
 
  
-
 

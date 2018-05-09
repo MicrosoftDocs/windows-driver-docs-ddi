@@ -7,7 +7,7 @@ old-location: kernel\pep_work_active_complete.htm
 old-project: kernel
 ms.assetid: DD7D7E5F-D35C-40B4-B414-A6D2EB8D3A02
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE, PEP_WORK_ACTIVE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACTIVE_COMPLETE, PPEP_WORK_ACTIVE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACTIVE_COMPLETE, kernel.pep_work_active_complete, pep_x/PEP_WORK_ACTIVE_COMPLETE, pep_x/PPEP_WORK_ACTIVE_COMPLETE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pep_x.h
 api_name:
 -	PEP_WORK_ACTIVE_COMPLETE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_WORK_ACTIVE_COMPLETE, *PPEP_WORK_ACTIVE_COMPLETE
 ---
@@ -50,17 +51,6 @@ req.typenames: PEP_WORK_ACTIVE_COMPLETE, *PPEP_WORK_ACTIVE_COMPLETE
 
 
 The <b>PEP_WORK_ACTIVE_COMPLETE</b> structure identifies a component that is now in the <i>active</i> condition.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_WORK_ACTIVE_COMPLETE {
-  POHANDLE DeviceHandle;
-  ULONG    Component;
-} PEP_WORK_ACTIVE_COMPLETE, *PPEP_WORK_ACTIVE_COMPLETE;
-````
 
 
 ## -struct-fields
@@ -75,25 +65,24 @@ A handle that represents the registration of the device with the Windows <a href
 
 ### -field Component
 
-[in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+[in] The index that identifies the component. This member is an index into the <b>Components</b> array in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186713">PEP_DEVICE_REGISTER_V2</a> structure that the PEP previously supplied in response to the <b>PEP_DPM_REGISTER_DEVICE</b> notification for this device. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ## -remarks
 
 
 
-The <b>ActiveComplete</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_ACTIVE_COMPLETE</b> structure.
+The <b>ActiveComplete</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186864">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_ACTIVE_COMPLETE</b> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186713">PEP_DEVICE_REGISTER_V2</a>
 
 
 
@@ -101,8 +90,8 @@ The <b>ActiveComplete</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_inf
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186864">PEP_WORK_INFORMATION</a>
  
 
  
-
 

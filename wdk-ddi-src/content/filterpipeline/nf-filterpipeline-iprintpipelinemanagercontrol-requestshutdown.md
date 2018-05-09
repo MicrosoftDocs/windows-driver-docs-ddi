@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IPrintPipelineManagerControl.RequestShutdown
-title: IPrintPipelineManagerControl::RequestShutdown method
+title: IPrintPipelineManagerControl::RequestShutdown
 author: windows-driver-content
 description: The RequestShutdown method requests that a pipeline be shut down.
 old-location: print\iprintpipelinemanagercontrol_requestshutdown.htm
 old-project: print
 ms.assetid: dfb0d7d1-4e82-4471-814b-4b8c4929c709
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintPipelineManagerControl, IPrintPipelineManagerControl interface [Print Devices], RequestShutdown method, IPrintPipelineManagerControl::RequestShutdown, RequestShutdown method [Print Devices], RequestShutdown method [Print Devices], IPrintPipelineManagerControl interface, RequestShutdown,IPrintPipelineManagerControl.RequestShutdown, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, print.iprintpipelinemanagercontrol_requestshutdown
+ms.date: 4/20/2018
+ms.keywords: IPrintPipelineManagerControl interface [Print Devices],RequestShutdown method, IPrintPipelineManagerControl.RequestShutdown, IPrintPipelineManagerControl::RequestShutdown, RequestShutdown, RequestShutdown method [Print Devices], RequestShutdown method [Print Devices],IPrintPipelineManagerControl interface, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, print.iprintpipelinemanagercontrol_requestshutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintPipelineManagerControl.RequestShutdown
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IPrintPipelineManagerControl::RequestShutdown method
+# IPrintPipelineManagerControl::RequestShutdown
 
 
 ## -description
 
 
 The <code>RequestShutdown</code> method requests that a pipeline be shut down.
-
-
-## -syntax
-
-
-````
-HRESULT RequestShutdown(
-  [in] HRESULT       hrReason,
-  [in] IImgErrorInfo *pReason
-);
-````
 
 
 ## -parameters
@@ -91,7 +81,7 @@ Not used. Set to <b>NULL</b>.
 
 
 
-A filter that uses the <a href="..\filterpipeline\nn-filterpipeline-ixpsdocumentconsumer.md">IXpsDocumentConsumer</a> interface must call <code>IPrintPipelineManagerControl::RequestShutdown</code> before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556293">IXpsDocumentConsumer::CloseSender</a> to shut down the pipeline. Calling <b>IXpsDocumentConsumer::CloseSender</b> first can produce an invalid XPS document and cause an error. 
+A filter that uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556291">IXpsDocumentConsumer</a> interface must call <code>IPrintPipelineManagerControl::RequestShutdown</code> before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556293">IXpsDocumentConsumer::CloseSender</a> to shut down the pipeline. Calling <b>IXpsDocumentConsumer::CloseSender</b> first can produce an invalid XPS document and cause an error. 
 
 
 

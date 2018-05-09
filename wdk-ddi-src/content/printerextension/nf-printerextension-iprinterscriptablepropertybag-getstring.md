@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetString
-title: IPrinterScriptablePropertyBag::GetString method
+title: IPrinterScriptablePropertyBag::GetString
 author: windows-driver-content
 description: Gets a string property.
 old-location: print\iprinterscriptablepropertybag_getstring.htm
 old-project: print
 ms.assetid: FA14B81D-0B51-4C07-96BC-38CAABED735A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetString method [Print Devices], GetString method [Print Devices], IPrinterScriptablePropertyBag interface, GetString,IPrinterScriptablePropertyBag.GetString, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], GetString method, IPrinterScriptablePropertyBag::GetString, print.iprinterscriptablepropertybag_getstring, printerextension/IPrinterScriptablePropertyBag::GetString
+ms.date: 4/20/2018
+ms.keywords: GetString, GetString method [Print Devices], GetString method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetString method, IPrinterScriptablePropertyBag.GetString, IPrinterScriptablePropertyBag::GetString, print.iprinterscriptablepropertybag_getstring, printerextension/IPrinterScriptablePropertyBag::GetString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptablePropertyBag.GetString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptablePropertyBag::GetString method
+# IPrinterScriptablePropertyBag::GetString
 
 
 ## -description
 
 
 Gets a string property.
-
-
-## -syntax
-
-
-````
-HRESULT GetString(
-  [in]          BSTR bstrName,
-  [out, retval] BSTR *pbstrValue
-);
-````
 
 
 ## -parameters
@@ -99,12 +88,11 @@ A call to <b>GetString</b> will throw an exception, if the specified property is
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
  
 
  
-
 

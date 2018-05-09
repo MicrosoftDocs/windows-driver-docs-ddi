@@ -7,7 +7,7 @@ old-location: buses\_ucx_controller_config_set_pci_info.htm
 old-project: usbref
 ms.assetid: 493B8E5B-D2CC-453E-8202-69337FAC85ED
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UCX_CONTROLLER_CONFIG_SET_PCI_INFO, UCX_CONTROLLER_CONFIG_SET_PCI_INFO function [Buses], buses._ucx_controller_config_set_pci_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_PCI_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Ucxcontroller.h
 api_name:
 -	UCX_CONTROLLER_CONFIG_SET_PCI_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCX_CONTROLLER_CONFIG_SET_PCI_INFO function
@@ -50,24 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a> structure with the specified values for the controller with PCI as the parent bus type.
-
-
-## -syntax
-
-
-````
-__inline
-void UCX_CONTROLLER_CONFIG_SET_PCI_INFO(
-  _In_ PUCX_CONTROLLER_CONFIG Config,
-  _In_ ULONG                  VendorId,
-  _In_ ULONG                  DeviceId,
-  _In_ USHORT                 RevisionId,
-  _In_ ULONG                  BusNumber,
-  _In_ ULONG                  DeviceNumber,
-  _In_ ULONG                  FunctionNumber
-);
-````
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188057">UCX_CONTROLLER_CONFIG</a> structure with the specified values for the controller with PCI as the parent bus type.
 
 
 ## -parameters
@@ -77,7 +60,7 @@ void UCX_CONTROLLER_CONFIG_SET_PCI_INFO(
 
 ### -param Config [in]
 
-A pointer to a <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a> structure to initialize.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188057">UCX_CONTROLLER_CONFIG</a> structure to initialize.
 
 
 ### -param VendorId [in]
@@ -121,16 +104,15 @@ This function does not return a value.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188057">UCX_CONTROLLER_CONFIG</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
-
-
-
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
-
-
-
  
 
  
-
 

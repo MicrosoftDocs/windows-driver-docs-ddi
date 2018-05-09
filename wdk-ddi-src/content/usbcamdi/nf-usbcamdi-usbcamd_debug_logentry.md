@@ -7,7 +7,7 @@ old-location: stream\usbcamd_debug_logentry.htm
 old-project: stream
 ms.assetid: a718cf3e-8359-4560-a88e-dd7789b61be6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: USBCAMD_Debug_LogEntry, USBCAMD_Debug_LogEntry function [Streaming Media Devices], stream.usbcamd_debug_logentry, usbcamdi/USBCAMD_Debug_LogEntry, usbcmdpr_6f6f6419-d845-4488-bd8d-70efa67357fa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	usbcamd2.dll
 api_name:
 -	USBCAMD_Debug_LogEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBCAMD_Debug_LogEntry function
@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USBCAMD_Debug_LogEntry</b> function is called by the camera minidriver to log debugging information to a file.
-
-
-## -syntax
-
-
-````
-VOID USBCAMD_Debug_LogEntry(
-  _In_ CHAR  *Name,
-  _In_ ULONG Info1,
-  _In_ ULONG Info2,
-  _In_ ULONG Info3
-);
-````
 
 
 ## -parameters

@@ -7,8 +7,8 @@ old-location: display\flipoverlay.htm
 old-project: display
 ms.assetid: 8490ebdd-f993-4c77-b6da-d57ef5e5d05f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: FlipOverlay, FlipOverlay callback function [Display Devices], PFND3DDDI_FLIPOVERLAY, UserModeDisplayDriver_Functions_4a2c5f7b-8d52-465f-84ea-a1fc4f53381b.xml, d3dumddi/FlipOverlay, display.flipoverlay
+ms.date: 4/16/2018
+ms.keywords: FlipOverlay, FlipOverlay callback function [Display Devices], PFND3DDDI_FLIPOVERLAY, PFND3DDDI_FLIPOVERLAY callback, UserModeDisplayDriver_Functions_4a2c5f7b-8d52-465f-84ea-a1fc4f53381b.xml, d3dumddi/FlipOverlay, display.flipoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	FlipOverlay
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_FLIPOVERLAY callback
+# PFND3DDDI_FLIPOVERLAY callback function
 
 
 ## -description
 
 
 The <i>FlipOverlay</i> function causes the overlay hardware to start displaying the given new allocation.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_FLIPOVERLAY FlipOverlay;
-
-__checkReturn HRESULT APIENTRY FlipOverlay(
-  _In_       HANDLE                hDevice,
-  _In_ const D3DDDIARG_FLIPOVERLAY *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY FlipOverlay(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_flipoverlay.md">D3DDDIARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543124">D3DDDIARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
 
 
 ## -returns
@@ -110,16 +97,15 @@ Overlays are independent from the resources that are displayed by using the over
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_flipoverlay.md">D3DDDIARG_FLIPOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543124">D3DDDIARG_FLIPOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

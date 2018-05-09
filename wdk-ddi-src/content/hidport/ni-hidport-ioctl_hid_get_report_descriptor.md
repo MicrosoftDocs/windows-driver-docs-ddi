@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_get_report_descriptor.htm
 old-project: hid
 ms.assetid: 7f0e6295-9c96-4167-8414-6f7b7b171f37
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_GET_REPORT_DESCRIPTOR, IOCTL_HID_GET_REPORT_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_report_descriptor, hidioreq_01b638bd-f2d5-4acc-8527-9fd98bde8144.xml, hidport/IOCTL_HID_GET_REPORT_DESCRIPTOR
+ms.date: 4/30/2018
+ms.keywords: IOCTL_HID_GET_REPORT_DESCRIPTOR, IOCTL_HID_GET_REPORT_DESCRIPTOR control, IOCTL_HID_GET_REPORT_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_report_descriptor, hidioreq_01b638bd-f2d5-4acc-8527-9fd98bde8144.xml, hidport/IOCTL_HID_GET_REPORT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	hidport.h
 api_name:
 -	IOCTL_HID_GET_REPORT_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+req.typenames: 
 ---
 
 # IOCTL_HID_GET_REPORT_DESCRIPTOR IOCTL
@@ -116,16 +117,15 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
 ## -see-also
 
-<a href="..\hidport\ni-hidport-ioctl_hid_get_device_descriptor.md">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_get_physical_descriptor.md">IOCTL_GET_PHYSICAL_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541064">IOCTL_GET_PHYSICAL_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439622">IOCTL_HID_GET_DEVICE_DESCRIPTOR</a>
  
 
  
-
 

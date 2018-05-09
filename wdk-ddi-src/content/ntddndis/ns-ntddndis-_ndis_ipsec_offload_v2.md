@@ -7,7 +7,7 @@ old-location: netvista\ndis_ipsec_offload_v2.htm
 old-project: netvista
 ms.assetid: 2319fe88-8f32-415c-bea1-4b7e723f6dbb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2, NDIS_IPSEC_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V2, PNDIS_IPSEC_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V2, netvista.ndis_ipsec_offload_v2, ntddndis/NDIS_IPSEC_OFFLOAD_V2, ntddndis/PNDIS_IPSEC_OFFLOAD_V2, task_offload_IPsecv2_ref_e1c132dd-5f77-48e0-98c5-d27b253ec182.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddndis.h
 api_name:
 -	NDIS_IPSEC_OFFLOAD_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_IPSEC_OFFLOAD_V2, *PNDIS_IPSEC_OFFLOAD_V2
 ---
@@ -53,32 +54,7 @@ req.typenames: NDIS_IPSEC_OFFLOAD_V2, *PNDIS_IPSEC_OFFLOAD_V2
 
 The NDIS_IPSEC_OFFLOAD_V2 structure provides information about Internet protocol security (IPsec)
   version 2 task offload capabilities in the 
-  <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_IPSEC_OFFLOAD_V2 {
-  ULONG   Encapsulation;
-  BOOLEAN IPv6Supported;
-  BOOLEAN IPv4Options;
-  BOOLEAN IPv6NonIPsecExtensionHeaders;
-  BOOLEAN Ah;
-  BOOLEAN Esp;
-  BOOLEAN AhEspCombined;
-  BOOLEAN Transport;
-  BOOLEAN Tunnel;
-  BOOLEAN TransportTunnelCombined;
-  BOOLEAN LsoSupported;
-  BOOLEAN ExtendedSequenceNumbers;
-  ULONG   UdpEsp;
-  ULONG   AuthenticationAlgorithms;
-  ULONG   EncryptionAlgorithms;
-  ULONG   SaOffloadCapacity;
-} NDIS_IPSEC_OFFLOAD_V2, *PNDIS_IPSEC_OFFLOAD_V2;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure.
 
 
 ## -struct-fields
@@ -163,7 +139,7 @@ A BOOLEAN value that is set to <b>TRUE</b> if the NIC supports large send offloa
      member is <b>FALSE</b>. Note that the LSO capabilities of the NIC are specified in the 
      <b>LsoV1</b> or 
      <b>LsoV2</b> members of the 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure. The 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure. The 
      <b>LsoSupported</b> flag indicates that the capabilities that are specified in those members are also
      valid if the connection is secured with IPsec.
 
@@ -356,7 +332,7 @@ The number of SA bundles, which might include ESP or AH or both, that can be off
 
 In NDIS 6.1 and later versions, the NDIS_IPSEC_OFFLOAD_V2 structure is used in the 
     <b>IPsecV2</b> member of the 
-    <a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a> structure. The
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure. The
     NDIS_IPSEC_OFFLOAD_V2 structure specifies the current or supported capabilities that a miniport adapter
     provides for IPsec offload processing.
 
@@ -364,10 +340,10 @@ In NDIS 6.1 and later versions, the NDIS_IPSEC_OFFLOAD_V2 structure is used in t
     <b>Tunnel</b> member.</div>
 <div> </div>
 NDIS_OFFLOAD is used in the 
-    <a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
+    <a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
     NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure, 
-    <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure, 
-    <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure, 
+    <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
     NDIS_FILTER_ATTACH_PARAMETERS</a> structure, 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID, and the 
@@ -408,23 +384,31 @@ The following flags are defined for the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565796">NDIS_IPSEC_OFFLOAD_V1</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
@@ -433,21 +417,12 @@ The following flags are defined for the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v1.md">NDIS_IPSEC_OFFLOAD_V1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>
  
 
  
-
 

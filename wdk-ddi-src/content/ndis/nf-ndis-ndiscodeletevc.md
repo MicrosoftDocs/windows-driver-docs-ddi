@@ -7,7 +7,7 @@ old-location: netvista\ndiscodeletevc.htm
 old-project: netvista
 ms.assetid: 31e88a5b-d97c-482a-aab0-dd987b15d657
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCoDeleteVc, NdisCoDeleteVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_19f96afa-aa63-44e4-817a-8b701c6d12c6.xml, ndis/NdisCoDeleteVc, netvista.ndiscodeletevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisCoDeleteVc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCoDeleteVc function
@@ -53,16 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 <b>NdisCoDeleteVc</b> destroys a caller-created VC.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisCoDeleteVc(
-  _In_ NDIS_HANDLE NdisVcHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +63,7 @@ NDIS_STATUS NdisCoDeleteVc(
 
 Specifies the handle identifying the VC to be deleted. The caller originally obtained this handle
      from 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>.
 
 
 ## -returns
@@ -136,22 +127,22 @@ When a protocol calls
 <ul>
 <li>
 If the call tear-down was initiated by a local client, that client has already called 
-      <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a> with the given 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a> with the given 
       <i>NdisVcHandle</i> and its close-call request has completed successfully.
 
 </li>
 <li>
 If the call tear-down was initiated by a remote client, the stand-alone call manager has already
       called 
-      <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a> with the given 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a> with the given 
       <i>NdisVcHandle</i> and its deactivation request has completed successfully.
 
 </li>
 </ul>
 Only the protocol that created a particular VC can delete that VC. A call to 
     <b>NdisCoDeleteVc</b> causes NDIS to call both the underlying miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a> function and the 
-    <a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a> function of the
+    <a href="https://msdn.microsoft.com/ed9b6ad1-059b-47d9-b1f7-10d498c5d2d4">MiniportCoDeleteVc</a> function and the 
+    <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function of the
     client or call manager with which the caller shares the 
     <i>NdisVcHandle</i> .
 
@@ -162,51 +153,50 @@ When
 Stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
     <b>NdisCoDeleteVc</b>. Connection-oriented miniport drivers that provide integrated call-management
     support call 
-    <a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a> instead.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562819">NdisMCmDeleteVc</a> instead.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
+<a href="https://msdn.microsoft.com/ed9b6ad1-059b-47d9-b1f7-10d498c5d2d4">MiniportCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_call.md">ProtocolCmCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562819">NdisMCmDeleteVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_close_call.md">ProtocolClIncomingCloseCall</a>
+<a href="https://msdn.microsoft.com/a7ba1ab2-04c9-45b5-a184-e1ad1448561a">ProtocolClCloseCallComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
+<a href="https://msdn.microsoft.com/01c7d887-eb54-47c3-98f0-bc567b60fb4b">ProtocolClIncomingCloseCall</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+<a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">ProtocolCmCloseCall</a>
 
 
 
+<a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a>
  
 
  
-
 

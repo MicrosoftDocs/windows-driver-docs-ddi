@@ -7,7 +7,7 @@ old-location: buses\udecxurbcompletewithntstatus.htm
 old-project: usbref
 ms.assetid: E1EAA11F-B32F-4551-9788-49BC8A13BB19
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus function [Buses], buses.udecxurbcompletewithntstatus, udecxurb/UdecxUrbCompleteWithNtStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Udecxstub.dll
 api_name:
 -	UdecxUrbCompleteWithNtStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UdecxUrbCompleteWithNtStatus function
@@ -55,17 +55,6 @@ Completes the URB request with an <a href="https://msdn.microsoft.com/7792201b-6
 
 
 
-## -syntax
-
-
-````
-FORCEINLINE void UdecxUrbCompleteWithNtStatus(
-  _In_ WDFREQUEST Request,
-  _In_ NTSTATUS   NtStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ FORCEINLINE void UdecxUrbCompleteWithNtStatus(
 
 ### -param Request [in]
 
-A handle to a framework request object that contains the <a href="..\usb\ns-usb-_urb.md">URB</a> for the transfer.
+A handle to a framework request object that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> for the transfer.
 
 
 ### -param NtStatus [in]
@@ -92,7 +81,6 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -100,8 +88,8 @@ This function does not return a value.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

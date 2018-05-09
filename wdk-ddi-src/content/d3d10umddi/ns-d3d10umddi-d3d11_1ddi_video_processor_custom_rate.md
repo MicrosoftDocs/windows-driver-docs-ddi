@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_processor_custom_rate.htm
 old-project: display
 ms.assetid: d7ea23de-1d2d-4a76-aa99-0b18bf50654c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE, D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE, display.d3d11_1ddi_video_processor_custom_rate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE
 ---
@@ -50,19 +51,6 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE
 
 
 Specifies a custom rate for frame-rate conversion or inverse telecine (IVTC).
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE {
-  DXGI_RATIONAL CustomRate;
-  UINT          OutputFrames;
-  BOOL          InputInterlaced;
-  UINT          InputFramesOrFields;
-} D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE;
-````
 
 
 ## -struct-fields
@@ -101,12 +89,11 @@ The <b>CustomRate</b> member gives the rate conversion factor, while the remaini
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
-
-
-
  
 
  
-
 

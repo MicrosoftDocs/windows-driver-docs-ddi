@@ -7,7 +7,7 @@ old-location: stream\bda_cas_check_entitlementtoken.htm
 old-project: stream
 ms.assetid: B6B645DF-AB4C-42FE-A664-AF9C9DD4F9E6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_CAS_CHECK_ENTITLEMENTTOKEN, BDA_CAS_CHECK_ENTITLEMENTTOKEN, BDA_CAS_CHECK_ENTITLEMENTTOKEN structure [Streaming Media Devices], PBDA_CAS_CHECK_ENTITLEMENTTOKEN, PBDA_CAS_CHECK_ENTITLEMENTTOKEN structure pointer [Streaming Media Devices], _BDA_CAS_CHECK_ENTITLEMENTTOKEN, bdatypes/BDA_CAS_CHECK_ENTITLEMENTTOKEN, bdatypes/PBDA_CAS_CHECK_ENTITLEMENTTOKEN, stream.bda_cas_check_entitlementtoken"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Bdatypes.h
 api_name:
 -	BDA_CAS_CHECK_ENTITLEMENTTOKEN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_CAS_CHECK_ENTITLEMENTTOKEN, *PBDA_CAS_CHECK_ENTITLEMENTTOKEN
 ---
@@ -50,17 +51,6 @@ req.typenames: BDA_CAS_CHECK_ENTITLEMENTTOKEN, *PBDA_CAS_CHECK_ENTITLEMENTTOKEN
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_CAS_CHECK_ENTITLEMENTTOKEN {
-  PBDARESULT lResult;
-  ULONG      ulDescrambleStatus;
-} BDA_CAS_CHECK_ENTITLEMENTTOKEN, *PBDA_CAS_CHECK_ENTITLEMENTTOKEN;
-````
 
 
 ## -struct-fields

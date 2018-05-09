@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b6ab28e1-08d5-49ee-931a-8e2fe68bd75e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallback, IPnpCallback interface, IPnpCallback interface, described, UMDFDeviceObjectRef_1e101e13-802b-4196-a76c-ed4103d6fbe3.xml, umdf.ipnpcallback, wdf.ipnpcallback, wudfddi/IPnpCallback
+ms.keywords: IPnpCallback, IPnpCallback interface, IPnpCallback interface,described, UMDFDeviceObjectRef_1e101e13-802b-4196-a76c-ed4103d6fbe3.xml, umdf.ipnpcallback, wdf.ipnpcallback, wudfddi/IPnpCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: WUDFx.dll
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -38,10 +38,10 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IPnpCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPnpCallback interface

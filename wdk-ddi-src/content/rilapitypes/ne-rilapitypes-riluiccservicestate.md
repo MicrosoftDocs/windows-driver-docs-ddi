@@ -7,7 +7,7 @@ old-location: netvista\riluiccservicestate.htm
 old-project: netvista
 ms.assetid: 01d64333-3f49-45e1-bd2b-dda0aeb6a083
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILUICCSERVICESTATE, RILUICCSERVICESTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCSERVICESTATE_DISABLED, RIL_UICCSERVICESTATE_ENABLED, RIL_UICCSERVICESTATE_MAX, netvista.riluiccservicestate, ntddrilapitypes/RILUICCSERVICESTATE, ntddrilapitypes/RIL_UICCSERVICESTATE_DISABLED, ntddrilapitypes/RIL_UICCSERVICESTATE_ENABLED, ntddrilapitypes/RIL_UICCSERVICESTATE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCSERVICESTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCSERVICESTATE
-req.product: Windows 10 or later.
 ---
 
 # RILUICCSERVICESTATE enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILUICCSERVICESTATE { 
-  RIL_UICCSERVICESTATE_DISABLED,
-  RIL_UICCSERVICESTATE_ENABLED,
-  RIL_UICCSERVICESTATE_MAX
-} RILUICCSERVICESTATE;
-````
 
 
 ## -enum-fields

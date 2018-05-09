@@ -7,7 +7,7 @@ old-location: image\wiassetvalidlistfloat.htm
 old-project: image
 ms.assetid: e1a833aa-fc8b-4506-aba8-ba6dc9a375ba
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiassetvalidlistfloat, wiamdef/wiasSetValidListFloat, wiasFncs_ef1aa836-f63d-43e8-8378-22d37fbdc3a2.xml, wiasSetValidListFloat, wiasSetValidListFloat function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasSetValidListFloat
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasSetValidListFloat function
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasSetValidListFloat </b>function sets valid values for a WIA_PROP_LIST property of type VT_R4.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasSetValidListFloat(
-  _In_ BYTE   *pWiasContext,
-       PROPID propid,
-       ULONG  ulCount,
-       FLOAT  fNom,
-  _In_ FLOAT  *pfValues
-);
-````
 
 
 ## -parameters
@@ -108,32 +94,31 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangefloat.md">wiasSetValidRangeFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidliststr.md">wiasSetValidListStr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549390">wiasSetValidFlag</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidrangelong.md">wiasSetValidRangeLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549409">wiasSetValidListGuid</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistlong.md">wiasSetValidListLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549414">wiasSetValidListLong</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidflag.md">wiasSetValidFlag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549421">wiasSetValidListStr</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetvalidlistguid.md">wiasSetValidListGuid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549425">wiasSetValidRangeFloat</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549434">wiasSetValidRangeLong</a>
  
 
  
-
 

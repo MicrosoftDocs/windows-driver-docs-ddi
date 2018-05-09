@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KdChangeOption
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KdChangeOption function
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KdChangeOption</b> routine accesses and changes state in the kernel that is related to kernel debugging. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KdChangeOption(
-  _In_      KD_OPTION Option,
-  _In_opt_  ULONG     InBufferBytes,
-  _In_      PVOID     InBuffer,
-  _In_opt_  ULONG     OutBufferBytes,
-  _Out_     PVOID     OutBuffer,
-  _Out_opt_ PULONG    OutBufferNeeded
-);
-````
 
 
 ## -parameters

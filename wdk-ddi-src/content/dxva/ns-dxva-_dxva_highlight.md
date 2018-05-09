@@ -7,7 +7,7 @@ old-location: display\dxva_highlight.htm
 old-project: display
 ms.assetid: 62c5f41a-1db2-4777-af86-67d2345a05c0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPDXVA_Highlight, DXVA_Highlight, DXVA_Highlight structure [Display Devices], LPDXVA_Highlight, LPDXVA_Highlight structure pointer [Display Devices], _DXVA_Highlight, display.dxva_highlight, dxva/DXVA_Highlight, dxva/LPDXVA_Highlight, dxvaref_509ed85b-59ad-44d2-a686-2b2077542c6d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxva.h
 api_name:
 -	DXVA_Highlight
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVA_Highlight, *LPDXVA_Highlight
 ---
@@ -50,19 +51,6 @@ req.typenames: DXVA_Highlight, *LPDXVA_Highlight
 
 
 The DXVA_Highlight structure is sent by the host decoder to the accelerator to specify a highlighted rectangular area of a subpicture, and to create an alpha-blending surface with DCCMD data and a DPXD surface.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVA_Highlight {
-  WORD wHighlightActive;
-  WORD wHighlightIndices;
-  WORD wHighlightAlphas;
-  RECT HighlightRect;
-} DXVA_Highlight, *LPDXVA_Highlight;
-````
 
 
 ## -struct-fields
@@ -139,12 +127,11 @@ The DXVA_Highlight structure is formulated in a manner compatible with the DVD v
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

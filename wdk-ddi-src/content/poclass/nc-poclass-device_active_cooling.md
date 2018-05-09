@@ -7,7 +7,7 @@ old-location: kernel\activecooling.htm
 old-project: kernel
 ms.assetid: ADC0145D-135F-46E6-91C9-B545DBE1D83B
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ActiveCooling, ActiveCooling routine [Kernel-Mode Driver Architecture], DEVICE_ACTIVE_COOLING, kernel.activecooling, poclass/ActiveCooling
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,32 +38,19 @@ api_location:
 -	Poclass.h
 api_name:
 -	ActiveCooling
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
+req.typenames: 
 ---
 
-# DEVICE_ACTIVE_COOLING callback
+# DEVICE_ACTIVE_COOLING callback function
 
 
 ## -description
 
 
 The <i>ActiveCooling</i> callback routine engages or disengages a device's active-cooling function.
-
-
-## -prototype
-
-
-````
-DEVICE_ACTIVE_COOLING ActiveCooling;
-
-void ActiveCooling(
-  _Inout_opt_ PVOID   Context,
-  _In_        BOOLEAN Engaged
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ void ActiveCooling(
 
 ### -param Context [in, out, optional]
 
-A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="..\poclass\ns-poclass-_thermal_cooling_interface.md">THERMAL_COOLING_INTERFACE</a> structure that the driver previously supplied to the caller.
+A pointer to interface-specific context information. The caller sets this parameter to the value of the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh698275">THERMAL_COOLING_INTERFACE</a> structure that the driver previously supplied to the caller.
 
 
 ### -param Engaged [in]
@@ -109,12 +96,11 @@ For more information about active cooling, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\poclass\ns-poclass-_thermal_cooling_interface.md">THERMAL_COOLING_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698275">THERMAL_COOLING_INTERFACE</a>
  
 
  
-
 

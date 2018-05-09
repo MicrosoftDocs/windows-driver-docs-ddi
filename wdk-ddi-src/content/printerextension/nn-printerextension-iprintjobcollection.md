@@ -7,8 +7,8 @@ old-location: print\iprintjobcollection.htm
 old-project: print
 ms.assetid: 757328A6-DD2C-4057-820B-39EB83277194
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintJobCollection, IPrintJobCollection interface [Print Devices], IPrintJobCollection interface [Print Devices], described, print.iprintjobcollection, printerextension/IPrintJobCollection
+ms.date: 4/20/2018
+ms.keywords: IPrintJobCollection, IPrintJobCollection interface [Print Devices], IPrintJobCollection interface [Print Devices],described, print.iprintjobcollection, printerextension/IPrintJobCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintJobCollection
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintJobCollection interface
@@ -76,7 +76,7 @@ The <b>IPrintJobCollection</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a> object.
+Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a> object.
 
 </td>
 </tr>
@@ -136,7 +136,6 @@ The order of print jobs in the enumerated list is the same as the order provided
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
 
 
 
@@ -144,8 +143,8 @@ The order of print jobs in the enumerated list is the same as the order provided
 
 
 
+<a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\rilwritephonebookentryparams.htm
 old-project: netvista
 ms.assetid: 56d13074-4d7e-474e-8c4a-d319f38ecc97
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwritephonebookentryparams, ntddrilapitypes/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILWRITEPHONEBOOKENTRYPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 ---
@@ -50,20 +51,6 @@ req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILWRITEPHONEBOOKENTRYPARAMS {
-  HUICCAPP                    hUiccApp;
-  RILPHONEENTRYSTORELOCATION  dwStoreLocation;
-  BOOL                        fHasLockVerification;
-  RILUICCLOCKCREDENTIAL       lockVerification;
-  RILPHONEBOOKENTRY           pbEntry;
-} RILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS;
-````
 
 
 ## -struct-fields

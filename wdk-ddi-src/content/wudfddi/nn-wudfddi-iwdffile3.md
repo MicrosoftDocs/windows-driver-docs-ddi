@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 67F55A00-2DE4-4ECE-8DAF-BBCBB156454E
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFFile3, IWDFFile3 interface, IWDFFile3 interface, described, umdf.iwdffile3, wdf.iwdffile3, wudfddi/IWDFFile3
+ms.keywords: IWDFFile3, IWDFFile3 interface, IWDFFile3 interface,described, umdf.iwdffile3, wdf.iwdffile3, wudfddi/IWDFFile3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: WUDFx.dll
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -38,10 +38,10 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IWDFFile3
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFFile3 interface
@@ -57,7 +57,7 @@ Drivers obtain the <b>IWDFFile3</b> interface by calling <b>IWDFFile::QueryInter
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFile3</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a>. <b>IWDFFile3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFile3</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff558915">IWDFFile2</a>. <b>IWDFFile3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IWDFFile3</b> interface has these methods.
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451279">GetInitiatorProcessId</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451279">GetInitiatorProcessId</a> method retrieves the initiator process ID associated with an <a href="..\wudfddi\nn-wudfddi-iwdffile.md">IWDFFile</a> interface.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451279">GetInitiatorProcessId</a> method retrieves the initiator process ID associated with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface.
 
 </td>
 </tr>
@@ -84,12 +84,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451279">GetIn
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdffile2.md">IWDFFile2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558915">IWDFFile2</a>
  
 
  
-
 

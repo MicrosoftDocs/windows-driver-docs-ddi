@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	DriverUnifiedPosHealthCheckLevel
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DriverUnifiedPosHealthCheckLevel
 ---
@@ -50,19 +51,6 @@ req.typenames: DriverUnifiedPosHealthCheckLevel
 
 
 This enumeration indicates the type of health check to be performed when CheckHealthAsync is called on a POS device.
-
-
-## -syntax
-
-
-````
-typedef enum _DriverUnifiedPosHealthCheckLevel { 
-  UnknownHealthCheckLevel  = 0,
-  POSInternal              = 1,
-  External                 = 2,
-  Interactive              = 3
-} DriverUnifiedPosHealthCheckLevel;
-````
 
 
 ## -enum-fields

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b334588a-7a92-4542-8f45-13c363ce22f0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDmaObjectRef_b04ab1d3-dbff-42f2-b22a-a212d04fac5b.xml, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP, EvtDmaEnablerSelfManagedIoStop, EvtDmaEnablerSelfManagedIoStop callback function, kmdf.evtdmaenablerselfmanagediostop, wdf.evtdmaenablerselfmanagediostop, wdfdmaenabler/EvtDmaEnablerSelfManagedIoStop
+ms.keywords: DFDmaObjectRef_b04ab1d3-dbff-42f2-b22a-a212d04fac5b.xml, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP callback, EvtDmaEnablerSelfManagedIoStop, EvtDmaEnablerSelfManagedIoStop callback function, kmdf.evtdmaenablerselfmanagediostop, wdf.evtdmaenablerselfmanagediostop, wdfdmaenabler/EvtDmaEnablerSelfManagedIoStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	WdfDmaEnabler.h
 api_name:
 -	EvtDmaEnablerSelfManagedIoStop
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REMOVE_LOCK_OPTIONS, *PWDF_REMOVE_LOCK_OPTIONS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP callback
+# EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP callback function
 
 
 ## -description
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 A driver's <i>EvtDmaEnablerSelfManagedIoStop</i> event callback function stops a DMA device's self-managed I/O operations.
-
-
-## -prototype
-
-
-````
-EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP EvtDmaEnablerSelfManagedIoStop;
-
-NTSTATUS EvtDmaEnablerSelfManagedIoStop(
-  _In_ WDFDMAENABLER DmaEnabler
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -91,7 +78,7 @@ A handle to a DMA enabler object.
 
 
 
-To register an <i>EvtDmaEnablerSelfManagedIoStop</i> callback function, a function driver for a DMA device places the callback function's address in a <a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a> structure before the driver calls <a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>.
+To register an <i>EvtDmaEnablerSelfManagedIoStop</i> callback function, a function driver for a DMA device places the callback function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> structure before the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a>.
 
 For more information about the <i>EvtDmaEnablerSelfManagedIoStop</i> callback function, see <a href="https://msdn.microsoft.com/abbb8f60-560f-41c9-85c5-1ec82078b99e">Supporting Power Management for DMA Devices</a>.
 
@@ -136,20 +123,19 @@ The <b>EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP</b> function type is defined in t
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_start.md">EvtDmaEnablerSelfManagedIoStart</a>
 
 
 
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+<a href="https://msdn.microsoft.com/397791c1-c394-48ae-b6cf-42f4494438f1">EvtDmaEnablerSelfManagedIoStart</a>
 
 
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a>
  
 
  
-
 

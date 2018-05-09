@@ -7,7 +7,7 @@ old-location: netvista\rilmsgdcstype.htm
 old-project: netvista
 ms.assetid: 557fc92e-6550-44ea-ac09-bb0b74e1275f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILMSGDCSTYPE, RILMSGDCSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_DCSTYPE_LANGUAGE, RIL_DCSTYPE_MAX, RIL_DCSTYPE_MSGCLASS, RIL_DCSTYPE_MSGWAIT, netvista.rilmsgdcstype, ntddrilapitypes/RILMSGDCSTYPE, ntddrilapitypes/RIL_DCSTYPE_LANGUAGE, ntddrilapitypes/RIL_DCSTYPE_MAX, ntddrilapitypes/RIL_DCSTYPE_MSGCLASS, ntddrilapitypes/RIL_DCSTYPE_MSGWAIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGDCSTYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGDCSTYPE
 ---
@@ -50,19 +51,6 @@ req.typenames: RILMSGDCSTYPE
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGDCSTYPE { 
-  RIL_DCSTYPE_MSGWAIT,
-  RIL_DCSTYPE_MSGCLASS,
-  RIL_DCSTYPE_LANGUAGE,
-  RIL_DCSTYPE_MAX
-} RILMSGDCSTYPE;
-````
 
 
 ## -enum-fields

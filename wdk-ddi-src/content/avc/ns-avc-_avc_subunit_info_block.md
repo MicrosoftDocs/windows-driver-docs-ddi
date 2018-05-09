@@ -7,7 +7,7 @@ old-location: stream\avc_subunit_info_block.htm
 old-project: stream
 ms.assetid: 66231303-20ec-42d4-b61d-c8e85e4e6a88
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PAVC_SUBUNIT_INFO_BLOCK, AVC_SUBUNIT_INFO_BLOCK, AVC_SUBUNIT_INFO_BLOCK structure [Streaming Media Devices], PAVC_SUBUNIT_INFO_BLOCK, PAVC_SUBUNIT_INFO_BLOCK structure pointer [Streaming Media Devices], _AVC_SUBUNIT_INFO_BLOCK, avc/AVC_SUBUNIT_INFO_BLOCK, avc/PAVC_SUBUNIT_INFO_BLOCK, avcref_d8151f14-0fc4-4be5-b815-d94dc77165db.xml, stream.avc_subunit_info_block"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_SUBUNIT_INFO_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_SUBUNIT_INFO_BLOCK, *PAVC_SUBUNIT_INFO_BLOCK
 ---
@@ -50,16 +51,6 @@ req.typenames: AVC_SUBUNIT_INFO_BLOCK, *PAVC_SUBUNIT_INFO_BLOCK
 
 
 The AVC_SUBUNIT_INFO_BLOCK structure describes subunit information.
-
-
-## -syntax
-
-
-````
-typedef struct _AVC_SUBUNIT_INFO_BLOCK {
-  UCHAR Info[AVC_SUBUNITINFO_BYTES];
-} AVC_SUBUNIT_INFO_BLOCK, *PAVC_SUBUNIT_INFO_BLOCK;
-````
 
 
 ## -struct-fields
@@ -87,18 +78,18 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554145">AVC_FUNCTION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554164">AVC_FUNCTION_GET_SUBUNIT_INFO</a>
 
 
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554177">AVC_MULTIFUNC_IRB</a>
  
 
  

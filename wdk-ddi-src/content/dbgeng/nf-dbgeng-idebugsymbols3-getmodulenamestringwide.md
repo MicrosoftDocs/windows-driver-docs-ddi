@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleNameStringWide
-title: IDebugSymbols3::GetModuleNameStringWide method
+title: IDebugSymbols3::GetModuleNameStringWide
 author: windows-driver-content
 description: The GetModuleNameStringWide method returns the name of the specified module.
 old-location: debugger\getmodulenamestringwide.htm
 old-project: debugger
 ms.assetid: e1b756b9-394a-4ec4-845e-867460998086
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetModuleNameStringWide method [Windows Debugging], GetModuleNameStringWide method [Windows Debugging], IDebugSymbols3 interface, GetModuleNameStringWide,IDebugSymbols3.GetModuleNameStringWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleNameStringWide method, IDebugSymbols3::GetModuleNameStringWide, dbgeng/IDebugSymbols3::GetModuleNameStringWide, debugger.getmodulenamestringwide
+ms.date: 4/24/2018
+ms.keywords: GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], GetModuleNameStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleNameStringWide method, IDebugSymbols3.GetModuleNameStringWide, IDebugSymbols3::GetModuleNameStringWide, dbgeng/IDebugSymbols3::GetModuleNameStringWide, debugger.getmodulenamestringwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetModuleNameStringWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetModuleNameStringWide method
+# IDebugSymbols3::GetModuleNameStringWide
 
 
 ## -description
 
 
 The <b>GetModuleNameStringWide</b>  method returns the name of the specified module.
-
-
-## -syntax
-
-
-````
-HRESULT GetModuleNameStringWide(
-  [in]            ULONG   Which,
-  [in]            ULONG   Index,
-  [in]            ULONG64 Base,
-  [out, optional] PWSTR   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  NameSize
-);
-````
 
 
 ## -parameters
@@ -210,16 +196,15 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547146">GetModuleNames</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

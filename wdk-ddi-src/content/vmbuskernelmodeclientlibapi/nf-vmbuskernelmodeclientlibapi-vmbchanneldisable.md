@@ -7,7 +7,7 @@ old-location: netvista\vmbchanneldisable.htm
 old-project: netvista
 ms.assetid: 688A1DF3-F801-47C3-8403-9FA5D96BD428
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelDisable, VmbChannelDisable function [Network Drivers Starting with Windows Vista], netvista.vmbchanneldisable, vmbuskernelmodeclientlibapi/VmbChannelDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelDisable
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelDisable function
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbChannelDisable</b> function disables a channel, which closes it for client channels and revokes the channel offer for server channels. This function waits until the channel is completely torn down
 before it returns.
-
-
-## -syntax
-
-
-````
-VOID VmbChannelDisable(
-  _In_ VMBCHANNEL Channel
-);
-````
 
 
 ## -parameters

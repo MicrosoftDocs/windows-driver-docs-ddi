@@ -7,8 +7,8 @@ old-location: netvista\wskgetremoteaddress.htm
 old-project: netvista
 ms.assetid: a2d65d55-744b-4851-b1fa-7087e0f06452
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PFN_WSK_GET_REMOTE_ADDRESS, WskGetRemoteAddress, WskGetRemoteAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetremoteaddress, wsk/WskGetRemoteAddress, wskref_5d771d25-f0bc-4292-a3cc-96704c0a39f3.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_GET_REMOTE_ADDRESS, PFN_WSK_GET_REMOTE_ADDRESS callback, WskGetRemoteAddress, WskGetRemoteAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetremoteaddress, wsk/WskGetRemoteAddress, wskref_5d771d25-f0bc-4292-a3cc-96704c0a39f3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	wsk.h
 api_name:
 -	WskGetRemoteAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_GET_REMOTE_ADDRESS callback
+# PFN_WSK_GET_REMOTE_ADDRESS callback function
 
 
 ## -description
@@ -55,21 +55,6 @@ The
   or stream socket.
 
 
-## -prototype
-
-
-````
-PFN_WSK_GET_REMOTE_ADDRESS WskGetRemoteAddress;
-
-NTSTATUS WSKAPI * WskGetRemoteAddress(
-  _In_    PWSK_SOCKET Socket,
-  _Out_   PSOCKADDR   RemoteAddress,
-  _Inout_ PIRP        Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,7 +63,7 @@ NTSTATUS WSKAPI * WskGetRemoteAddress(
 ### -param Socket [in]
 
 A pointer to a 
-     <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a> structure that specifies the socket
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being queried.
 
 
@@ -161,7 +146,7 @@ The socket is not connected to a remote transport address. The IRP will be compl
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a> function to close the
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -189,18 +174,18 @@ An error occurred. The IRP will be completed with failure status.
 
 A WSK application can call the 
     <b>WskGetRemoteAddress</b> function only on a connection-oriented or stream socket that has been connected to a
-    remote transport address. A stream socket is connected to a remote transport address by calling the <a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a> function. A connection-oriented socket is connected to a remote transport address in one
+    remote transport address. A stream socket is connected to a remote transport address by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff571125">WskConnect</a> function. A connection-oriented socket is connected to a remote transport address in one
     of the following ways:
 
 <ul>
 <li>
 The WSK application calls the 
-      <a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a> function.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571125">WskConnect</a> function.
 
 </li>
 <li>
 The WSK application creates, binds, and connects the socket by calling the 
-      <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a> function.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a> function.
 
 </li>
 <li>
@@ -223,11 +208,6 @@ If the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 
@@ -235,41 +215,45 @@ If the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_get_local_address.md">WskGetLocalAddress</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/A10B901E-9987-40E9-976B-4CD9455E0AEE">WSK_PROVIDER_STREAM_DISPATCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a>
+
+
+
+<a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571121">WskBind</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571125">WskConnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571133">WskGetLocalAddress</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\kscreatetopologynode.htm
 old-project: stream
 ms.assetid: aeed8086-b413-428c-b275-d555523b5503
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsCreateTopologyNode, KsCreateTopologyNode function [Streaming Media Devices], ks/KsCreateTopologyNode, ksfunc_15092cdb-3f97-4f13-a10e-9dbc92d20776.xml, stream.kscreatetopologynode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsCreateTopologyNode
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,19 +52,6 @@ req.typenames:
 
 
 The <b>KsCreateTopologyNode</b> function creates a handle to a topology node instance. The function can only be called at <b>PASSIVE_LEVEL</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreateTopologyNode(
-  _In_  HANDLE         ParentHandle,
-  _In_  PKSNODE_CREATE NodeCreate,
-  _In_  ACCESS_MASK    DesiredAccess,
-  _Out_ PHANDLE        NodeHandle
-);
-````
 
 
 ## -parameters
@@ -104,14 +92,13 @@ Returns <b>STATUS_SUCCESS</b>, or an error if unable to create a node.
 
 
 
-The <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a> structure describes the set of information used to create the node handle.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563471">KSNODE_CREATE</a> structure describes the set of information used to create the node handle.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a>
 
 
 
@@ -119,8 +106,8 @@ The <a href="..\ks\ns-ks-ksnode_create.md">KSNODE_CREATE</a> structure describes
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563471">KSNODE_CREATE</a>
  
 
  
-
 

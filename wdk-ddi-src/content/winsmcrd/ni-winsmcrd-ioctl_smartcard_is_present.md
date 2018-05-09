@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 8EF97A77-7A6A-4FDF-82AA-05481AEA7C28
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_SMARTCARD_IS_PRESENT, IOCTL_SMARTCARD_IS_PRESENT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_is_present, winsmcrd/IOCTL_SMARTCARD_IS_PRESENT
+ms.keywords: IOCTL_SMARTCARD_IS_PRESENT, IOCTL_SMARTCARD_IS_PRESENT control, IOCTL_SMARTCARD_IS_PRESENT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_is_present, winsmcrd/IOCTL_SMARTCARD_IS_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	winsmcrd.h
 api_name:
 -	IOCTL_SMARTCARD_IS_PRESENT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_SMARTCARD_IS_PRESENT IOCTL
@@ -159,7 +159,6 @@ The driver must support CancelIo on this pended IOCTL.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
 
 
@@ -167,8 +166,8 @@ The driver must support CancelIo on this pended IOCTL.
 
 
 
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
  
 
  
-
 

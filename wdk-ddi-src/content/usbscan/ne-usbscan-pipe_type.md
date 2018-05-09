@@ -7,7 +7,7 @@ old-location: image\pipe_type.htm
 old-project: image
 ms.assetid: ae3077a3-01a8-4578-9a26-b8b14ec51a7a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: ALL_PIPE, EVENT_PIPE, PIPE_TYPE, PIPE_TYPE enumeration [Imaging Devices], READ_DATA_PIPE, WRITE_DATA_PIPE, image.pipe_type, stifnc_dd4122fa-8df4-4190-91ec-248a1e63ab64.xml, usbscan/ALL_PIPE, usbscan/EVENT_PIPE, usbscan/PIPE_TYPE, usbscan/READ_DATA_PIPE, usbscan/WRITE_DATA_PIPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	usbscan.h
 api_name:
 -	PIPE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_TYPE
-req.product: Windows 10 or later.
 ---
 
 # PIPE_TYPE enumeration
@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>PIPE_TYPE</b> data type is used as input to the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function, if the I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_cancel_io.md">IOCTL_CANCEL_IO</a> or <a href="..\usbscan\ni-usbscan-ioctl_reset_pipe.md">IOCTL_RESET_PIPE</a>. An interrupt pipe, a bulk IN pipe, and a bulk OUT pipe are associated with each device handle supplied to <b>DeviceIoControl</b>. The specified PIPE_TYPE value indicates on which of these pipes the operation should be performed, as indicated in the following table. 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  EVENT_PIPE       = 0,
-  READ_DATA_PIPE   = 1,
-  WRITE_DATA_PIPE  = 2,
-  ALL_PIPE         = 3
-} PIPE_TYPE;
-````
+The <b>PIPE_TYPE</b> data type is used as input to the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function, if the I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542843">IOCTL_CANCEL_IO</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542872">IOCTL_RESET_PIPE</a>. An interrupt pipe, a bulk IN pipe, and a bulk OUT pipe are associated with each device handle supplied to <b>DeviceIoControl</b>. The specified PIPE_TYPE value indicates on which of these pipes the operation should be performed, as indicated in the following table. 
 
 
 ## -enum-fields

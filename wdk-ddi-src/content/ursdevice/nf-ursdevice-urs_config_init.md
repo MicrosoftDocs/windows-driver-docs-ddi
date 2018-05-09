@@ -7,7 +7,7 @@ old-location: buses\urs_config_init.htm
 old-project: usbref
 ms.assetid: 72229643-1177-4884-94A9-89920A5488A6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: URS_CONFIG_INIT, URS_CONFIG_INIT function [Buses], buses.urs_config_init, ursdevice/URS_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Ursdevice.h
 api_name:
 -	URS_CONFIG_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # URS_CONFIG_INIT function
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Initializes a <a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a> structure. 
-
-
-## -syntax
-
-
-````
-FORCEINLINE void URS_CONFIG_INIT(
-  _Out_ PURS_CONFIG                                 Config,
-  _In_  URS_HOST_INTERFACE_TYPE                     HostInterfaceType,
-  _In_  PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS EvtUrsFilterRemoveResourceRequirements
-);
-````
+Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt628020">URS_CONFIG</a> structure. 
 
 
 ## -parameters
@@ -72,12 +60,12 @@ FORCEINLINE void URS_CONFIG_INIT(
 
 ### -param Config [out]
 
- A pointer to a <a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a> structure to initialize.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt628020">URS_CONFIG</a> structure to initialize.
 
 
 ### -param HostInterfaceType [in]
 
- A <a href="..\urstypes\ne-urstypes-_urs_host_interface_type.md">URS_HOST_INTERFACE_TYPE</a> type value that indicates the type of host controller that the dual-role controller implements.
+ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt628023">URS_HOST_INTERFACE_TYPE</a> type value that indicates the type of host controller that the dual-role controller implements.
 
 
 ### -param EvtUrsFilterRemoveResourceRequirements [in]
@@ -96,16 +84,15 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
 
 
 
-<a href="..\ursdevice\nf-ursdevice-ursdeviceinitialize.md">UrsDeviceInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt628020">URS_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt628012">UrsDeviceInitialize</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\iddcx_monitor_description.htm
 old-project: display
 ms.assetid: 3ef7ffca-9192-4578-8397-c7fbb2ea2239
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION structure [Display Devices], display.iddcx_monitor_description, iddcx/IDDCX_MONITOR_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_MONITOR_DESCRIPTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,19 +51,6 @@ req.typenames:
 
 
 Gives information about the current monitor description.
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_MONITOR_DESCRIPTION {
-  UINT                              Size;
-  IDDCX_MONITOR_DESCRIPTION_TYPE    Type;
-  UINT                              DataSize;
-  _Field_size_full_(DataSize) PVOID pData;
-} IDDCX_MONITOR_DESCRIPTION, *IDDCX_MONITOR_DESCRIPTION;
-````
 
 
 ## -struct-fields

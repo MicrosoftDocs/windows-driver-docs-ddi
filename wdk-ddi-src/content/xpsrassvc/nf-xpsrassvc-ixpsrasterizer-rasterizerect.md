@@ -1,14 +1,14 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizer.RasterizeRect
-title: IXpsRasterizer::RasterizeRect method
+title: IXpsRasterizer::RasterizeRect
 author: windows-driver-content
 description: The RasterizeRect method rasterizes an axis-aligned, rectangular region of an XPS fixed page.
 old-location: print\ixpsrasterizer_rasterizerect.htm
 old-project: print
 ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IXpsRasterizer, IXpsRasterizer interface [Print Devices], RasterizeRect method, IXpsRasterizer::RasterizeRect, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices], IXpsRasterizer interface, RasterizeRect,IXpsRasterizer.RasterizeRect, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, xpsrassvc/IXpsRasterizer::RasterizeRect
+ms.date: 4/20/2018
+ms.keywords: IXpsRasterizer interface [Print Devices],RasterizeRect method, IXpsRasterizer.RasterizeRect, IXpsRasterizer::RasterizeRect, RasterizeRect, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices],IXpsRasterizer interface, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, xpsrassvc/IXpsRasterizer::RasterizeRect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,34 +38,19 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	IXpsRasterizer.RasterizeRect
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: XPSRAS_BACKGROUND_COLOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IXpsRasterizer::RasterizeRect method
+# IXpsRasterizer::RasterizeRect
 
 
 ## -description
 
 
 The <code>RasterizeRect</code> method rasterizes an axis-aligned, rectangular region of an XPS fixed page.
-
-
-## -syntax
-
-
-````
-HRESULT RasterizeRect(
-  [in]            INT                                x,
-  [in]            INT                                y,
-  [in]            INT                                width,
-  [in]            INT                                height,
-  [in, optional]  IXpsRasterizerNotificationCallback *notificationCallback,
-  [out, optional] IWICBitmap                         **bitmap
-);
-````
 
 
 ## -parameters
@@ -95,7 +80,7 @@ The height, in pixels, of the output bitmap.
 
 ### -param notificationCallback [in, optional]
 
-Pointer to the <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a> interface of a notification object that is implemented by the caller. This parameter is optional and can be <b>NULL</b> if the caller does not require notification callbacks.
+Pointer to the <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a> interface of a notification object that is implemented by the caller. This parameter is optional and can be <b>NULL</b> if the caller does not require notification callbacks.
 
 
 ### -param bitmap [out, optional]
@@ -181,19 +166,6 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 ## -see-also
 
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizernotificationcallback.md">IXpsRasterizerNotificationCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556366">IXpsRasterizer::SetMinimalLineWidth</a>
-
-
-
-<a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a>
 
 
 
@@ -201,8 +173,20 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
+
+
+
+<a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556366">IXpsRasterizer::SetMinimalLineWidth</a>
+
+
+
+<a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
  
 
  
-
 

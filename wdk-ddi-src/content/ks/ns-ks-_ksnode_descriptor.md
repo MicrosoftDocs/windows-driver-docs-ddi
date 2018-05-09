@@ -7,7 +7,7 @@ old-location: stream\ksnode_descriptor.htm
 old-project: stream
 ms.assetid: dfc5760f-fdd6-45f3-aeac-4406892e518a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSNODE_DESCRIPTOR, KSNODE_DESCRIPTOR, KSNODE_DESCRIPTOR structure [Streaming Media Devices], PKSNODE_DESCRIPTOR, PKSNODE_DESCRIPTOR structure pointer [Streaming Media Devices], _KSNODE_DESCRIPTOR, avstruct_c4e79318-e112-4f57-ad6f-58e71ec53532.xml, ks/KSNODE_DESCRIPTOR, ks/PKSNODE_DESCRIPTOR, stream.ksnode_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSNODE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSNODE_DESCRIPTOR, *PKSNODE_DESCRIPTOR
 ---
@@ -52,18 +53,6 @@ req.typenames: KSNODE_DESCRIPTOR, *PKSNODE_DESCRIPTOR
 The KSNODE_DESCRIPTOR structure describes a topology node within a filter.
 
 
-## -syntax
-
-
-````
-typedef struct _KSNODE_DESCRIPTOR {
-  const KSAUTOMATION_TABLE *AutomationTable;
-  const GUID               *Type;
-  const GUID               *Name;
-} KSNODE_DESCRIPTOR, *PKSNODE_DESCRIPTOR;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct _KSNODE_DESCRIPTOR {
 
 ### -field AutomationTable
 
-A pointer to a <a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a> structure for this topology node. The automation table contains the properties, methods, and events supported by this topology node.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560990">KSAUTOMATION_TABLE</a> structure for this topology node. The automation table contains the properties, methods, and events supported by this topology node.
 
 
 ### -field Type
@@ -93,12 +82,11 @@ A pointer to a GUID that represents the name of this topology node. This is used
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a>
  
 
  
-
 

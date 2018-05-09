@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetFloat
-title: ExtRemoteData::GetFloat method
+title: ExtRemoteData::GetFloat
 author: windows-driver-content
 description: The GetFloat method returns a float version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getfloat.htm
 old-project: debugger
 ms.assetid: f2781f6b-cc3e-427c-8181-908639613270
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_f1ca75e4-6dea-4237-b76a-04b3af234060.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetFloat method, ExtRemoteData::GetFloat, GetFloat method [Windows Debugging], GetFloat method [Windows Debugging], ExtRemoteData class, GetFloat,ExtRemoteData.GetFloat, debugger.extremotedata_getfloat
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_f1ca75e4-6dea-4237-b76a-04b3af234060.xml, ExtRemoteData class [Windows Debugging],GetFloat method, ExtRemoteData.GetFloat, ExtRemoteData::GetFloat, GetFloat, GetFloat method [Windows Debugging], GetFloat method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getfloat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteData.GetFloat
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::GetFloat method
+# ExtRemoteData::GetFloat
 
 
 ## -description
 
 
-The <b>GetFloat</b> method returns a <b>float</b> version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object, which represents the contents of the target's memory.
-
-
-## -syntax
-
-
-````
-float GetFloat();
-````
+The <b>GetFloat</b> method returns a <b>float</b> version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
 
 ## -parameters
@@ -71,7 +64,7 @@ float GetFloat();
 
 
 
-<b>GetFloat</b> returns the <b>float</b> version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object.
+<b>GetFloat</b> returns the <b>float</b> version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object.
 
 
 
@@ -80,18 +73,17 @@ float GetFloat();
 
 
 
-The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object must be <code>sizeof(float)</code>.
+The size of the memory represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object must be <code>sizeof(float)</code>.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544022">ExtRemoteData::GetDouble</a>
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
 
 
 
@@ -99,8 +91,8 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544022">ExtRemoteData::GetDouble</a>
  
 
  
-
 

@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: EFF7C3D8-9E52-446A-BF55-0308A0D2835E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_ReadGpioPinsUsingMask, CLIENT_ReadGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_readgpiopinsusingmask, GPIO_CLIENT_READ_PINS_MASK, gpioclx/CLIENT_ReadGpioPinsUsingMask
+ms.keywords: CLIENT_ReadGpioPinsUsingMask, CLIENT_ReadGpioPinsUsingMask callback, CLIENT_ReadGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_readgpiopinsusingmask, GPIO_CLIENT_READ_PINS_MASK, gpioclx/CLIENT_ReadGpioPinsUsingMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_ReadGpioPinsUsingMask
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_READ_PINS_MASK callback
+# GPIO_CLIENT_READ_PINS_MASK callback function
 
 
 ## -description
 
 
 The <i>CLIENT_ReadGpioPinsUsingMask</i> event callback function reads a bank of general-purpose I/O (GPIO) pins.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_READ_PINS_MASK CLIENT_ReadGpioPinsUsingMask;
-
-NTSTATUS CLIENT_ReadGpioPinsUsingMask(
-  _In_    PVOID                           Context,
-  _Inout_ PGPIO_READ_PINS_MASK_PARAMETERS ReadParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,6 +132,13 @@ The GPIO_CLIENT_READ_PINS_MASK function type is defined in the Gpioclx.h header 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
@@ -153,20 +147,12 @@ The GPIO_CLIENT_READ_PINS_MASK function type is defined in the Gpioclx.h header 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh698254">GPIO_READ_PINS_MASK_PARAMETERS</a>
-
-
-
  
 
  
-
 

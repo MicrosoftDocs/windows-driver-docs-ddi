@@ -7,7 +7,7 @@ old-location: ifsk\rtldestroyheap.htm
 old-project: ifsk
 ms.assetid: e62855a0-284b-434b-88a4-1f21f1b77cf2
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlDestroyHeap, RtlDestroyHeap routine [Installable File System Drivers], ifsk.rtldestroyheap, ntifs/RtlDestroyHeap, rtlref_c1cb90f1-932d-46ab-badc-d960503def9c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlDestroyHeap
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlDestroyHeap function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlDestroyHeap</b> routine destroys the specified heap object. <b>RtlDestroyHeap</b> decommits and releases all the pages of a private heap object, and it invalidates the handle to the heap. 
-
-
-## -syntax
-
-
-````
-PVOID RtlDestroyHeap(
-  _In_ PVOID HeapHandle
-);
-````
 
 
 ## -parameters
@@ -94,20 +85,19 @@ Processes can call <b>RtlDestroyHeap</b> without first calling <b>RtlFreeHeap</b
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlcreateheap.md">RtlCreateHeap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlfreeheap.md">RtlFreeHeap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552108">RtlAllocateHeap</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlallocateheap.md">RtlAllocateHeap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552159">RtlCreateHeap</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552276">RtlFreeHeap</a>
  
 
  
-
 

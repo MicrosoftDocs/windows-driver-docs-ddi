@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.ExecuteWide
-title: IDebugControl4::ExecuteWide method
+title: IDebugControl4::ExecuteWide
 author: windows-driver-content
 description: The ExecuteWide method executes the specified debugger commands.
 old-location: debugger\executewide.htm
 old-project: debugger
 ms.assetid: 2aece5f0-5cfd-47fe-b8c1-e191f0a4296d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ExecuteWide method [Windows Debugging], ExecuteWide method [Windows Debugging], IDebugControl4 interface, ExecuteWide,IDebugControl4.ExecuteWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], ExecuteWide method, IDebugControl4::ExecuteWide, dbgeng/IDebugControl4::ExecuteWide, debugger.executewide
+ms.date: 4/24/2018
+ms.keywords: ExecuteWide, ExecuteWide method [Windows Debugging], ExecuteWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ExecuteWide method, IDebugControl4.ExecuteWide, IDebugControl4::ExecuteWide, dbgeng/IDebugControl4::ExecuteWide, debugger.executewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.ExecuteWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::ExecuteWide method
+# IDebugControl4::ExecuteWide
 
 
 ## -description
 
 
 The <b>ExecuteWide</b>  method executes the specified debugger commands.
-
-
-## -syntax
-
-
-````
-HRESULT ExecuteWide(
-  [in] ULONG  OutputControl,
-  [in] PCWSTR Command,
-  [in] ULONG  Flags
-);
-````
 
 
 ## -parameters
@@ -161,7 +150,6 @@ This method executes the given command string.  If the string has multiple comma
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -169,8 +157,8 @@ This method executes the given command string.  If the string has multiple comma
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  
-
 

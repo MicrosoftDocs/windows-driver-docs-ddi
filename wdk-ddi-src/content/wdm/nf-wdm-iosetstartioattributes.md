@@ -7,7 +7,7 @@ old-location: kernel\iosetstartioattributes.htm
 old-project: kernel
 ms.assetid: 47ae3578-231c-49c8-a851-9f165db27fb1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoSetStartIoAttributes, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture], k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, kernel.iosetstartioattributes, wdm/IoSetStartIoAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoSetStartIoAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoSetStartIoAttributes function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoSetStartIoAttributes</b> routine sets attributes for the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine.
-
-
-## -syntax
-
-
-````
-VOID IoSetStartIoAttributes(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ BOOLEAN        DeferredStartIo,
-  _In_ BOOLEAN        NonCancelable
-);
-````
 
 
 ## -parameters
@@ -77,7 +65,7 @@ Pointer to the device object for the driver's device.
 
 ### -param DeferredStartIo [in]
 
-If <b>TRUE</b>, the I/O manager will defer any call to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine while the driver is already inside the routine. In particular, if the <i>StartIo</i> routine calls <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>, the <i>StartIo</i> routine will not be called again until the current invocation completes. The default is <b>FALSE</b>.
+If <b>TRUE</b>, the I/O manager will defer any call to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine while the driver is already inside the routine. In particular, if the <i>StartIo</i> routine calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff550358">IoStartNextPacket</a>, the <i>StartIo</i> routine will not be called again until the current invocation completes. The default is <b>FALSE</b>.
 
 
 ### -param NonCancelable [in]
@@ -96,16 +84,15 @@ None
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550358">IoStartNextPacket</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a>
-
-
-
  
 
  
-
 

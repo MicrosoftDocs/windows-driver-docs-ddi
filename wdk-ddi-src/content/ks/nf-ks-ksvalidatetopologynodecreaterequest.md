@@ -7,7 +7,7 @@ old-location: stream\ksvalidatetopologynodecreaterequest.htm
 old-project: stream
 ms.assetid: a7d69bf8-7aa8-46c2-98f9-769ee174757b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsValidateTopologyNodeCreateRequest, KsValidateTopologyNodeCreateRequest function [Streaming Media Devices], ks/KsValidateTopologyNodeCreateRequest, ksfunc_f2b7fc56-1bca-4de5-981b-68364aa96fa7.xml, stream.ksvalidatetopologynodecreaterequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsValidateTopologyNodeCreateRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsValidateTopologyNodeCreateRequest</b> function validates a topology node creation request and returns the create structure associated with the request. The function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsValidateTopologyNodeCreateRequest(
-  _In_  PIRP           Irp,
-  _In_  PKSTOPOLOGY    Topology,
-  _Out_ PKSNODE_CREATE *NodeCreate
-);
-````
 
 
 ## -parameters

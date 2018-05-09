@@ -7,8 +7,8 @@ old-location: spb\evtspbcontrolleriowrite.htm
 old-project: SPB
 ms.assetid: D97C3A17-309E-4364-8DFB-9073901D332E
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: EVT_SPB_CONTROLLER_WRITE, EvtSpbControllerIoWrite, EvtSpbControllerIoWrite callback function [Buses], SPB.evtspbcontrolleriowrite, spbcx/EvtSpbControllerIoWrite
+ms.date: 4/30/2018
+ms.keywords: EVT_SPB_CONTROLLER_WRITE, EVT_SPB_CONTROLLER_WRITE callback, EvtSpbControllerIoWrite, EvtSpbControllerIoWrite callback function [Buses], SPB.evtspbcontrolleriowrite, spbcx/EvtSpbControllerIoWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,19 @@ api_location:
 -	Spbcx.h
 api_name:
 -	EvtSpbControllerIoWrite
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SPB_CONTROLLER_WRITE callback
+# EVT_SPB_CONTROLLER_WRITE callback function
 
 
 ## -description
 
 
 An SPB controller driver's <i>EvtSpbControllerIoWrite</i> event callback function writes data to the specified target device from the buffers that are supplied with the write request.
-
-
-## -prototype
-
-
-````
-EVT_SPB_CONTROLLER_WRITE EvtSpbControllerIoWrite;
-
-VOID EvtSpbControllerIoWrite(
-  _In_ WDFDEVICE  Controller,
-  _In_ SPBTARGET  Target,
-  _In_ SPBREQUEST Request,
-  _In_ size_t     Length
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -166,27 +150,6 @@ The EVT_SPB_CONTROLLER_WRITE function type is defined in the Spbcx.h header file
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
 
 
 
@@ -194,8 +157,28 @@ The EVT_SPB_CONTROLLER_WRITE function type is defined in the Spbcx.h header file
 
 
 
+<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
  
 
  
-
 

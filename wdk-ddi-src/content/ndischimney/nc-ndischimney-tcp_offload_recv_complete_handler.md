@@ -7,8 +7,8 @@ old-location: netvista\protocoltcpoffloadreceivecomplete.htm
 old-project: netvista
 ms.assetid: 78201512-6b70-4b4b-9016-0f42fed41ac6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ProtocolTcpOffloadReceiveComplete, ProtocolTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_RECV_COMPLETE_HANDLER, ndischimney/ProtocolTcpOffloadReceiveComplete, netvista.protocoltcpoffloadreceivecomplete, tcp_chim_protocol_func_3f02ff3b-3b86-4a30-8022-2c540b5e9484.xml
+ms.date: 4/25/2018
+ms.keywords: ProtocolTcpOffloadReceiveComplete, ProtocolTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_RECV_COMPLETE_HANDLER, TCP_OFFLOAD_RECV_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadReceiveComplete, netvista.protocoltcpoffloadreceivecomplete, tcp_chim_protocol_func_3f02ff3b-3b86-4a30-8022-2c540b5e9484.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndischimney.h
 api_name:
 -	ProtocolTcpOffloadReceiveComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# TCP_OFFLOAD_RECV_COMPLETE_HANDLER callback
+# TCP_OFFLOAD_RECV_COMPLETE_HANDLER callback function
 
 
 ## -description
@@ -54,21 +55,7 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 NDIS calls a protocol or intermediate driver's 
   <i>ProtocolTcpOffloadReceiveComplete</i> function to complete a receive operation that the driver previously
   initiated by calling the 
-  <a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceive.md">NdisOffloadTcpReceive</a> function.
-
-
-## -prototype
-
-
-````
-TCP_OFFLOAD_RECV_COMPLETE_HANDLER ProtocolTcpOffloadReceiveComplete;
-
-VOID ProtocolTcpOffloadReceiveComplete(
-  _In_ NDIS_HANDLE      ProtocolBindingContext,
-  _In_ PNET_BUFFER_LIST NetBufferList
-)
-{ ... }
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff563703">NdisOffloadTcpReceive</a> function.
 
 
 ## -parameters
@@ -81,16 +68,16 @@ VOID ProtocolTcpOffloadReceiveComplete(
 A handle to a context area allocated by the protocol driver. The driver maintains the per binding
      context information in this context area. The driver supplied this handle to NDIS when the driver called
      the 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function.
 
 
 ### -param NetBufferList [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. This structure
      can be stand-alone or the first structure in a linked list of NET_BUFFER_LIST structures. The driver
      supplied this pointer as an input parameter in a previous call to the 
-     <a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceive.md">
+     <a href="https://msdn.microsoft.com/021f41c4-6ba9-418e-bc18-131ce6d90877">
      NdisOffloadTcpReceive</a> function.
 
 
@@ -108,7 +95,7 @@ None
 
 
 In response to an underlying driver's or offload target's call to the 
-    <a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+    <a href="https://msdn.microsoft.com/d5b1341b-cbe0-483c-9abb-b8706f2db2dd">
     NdisOffloadTcpReceiveComplete</a> function, NDIS calls the overlying protocol driver's or intermediate
     driver's 
     <i>ProtocolTcpOffloadReceiveComplete</i> function.
@@ -140,29 +127,28 @@ In response, NDIS calls the overlying driver's
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+
+
+
+<a href="https://msdn.microsoft.com/9c9c033d-e892-4d8a-8f12-4ca34cdc9ea1">MiniportTcpOffloadReceive</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563703">NdisOffloadTcpReceive</a>
+
+
+
+<a href="https://msdn.microsoft.com/d5b1341b-cbe0-483c-9abb-b8706f2db2dd">
    NdisOffloadTcpReceiveComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceive.md">NdisOffloadTcpReceive</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
  
 
  
-
 

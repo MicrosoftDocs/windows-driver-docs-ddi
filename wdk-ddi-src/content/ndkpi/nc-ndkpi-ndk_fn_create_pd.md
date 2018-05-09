@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_create_pd.htm
 old-project: netvista
 ms.assetid: 18698FAC-1BE6-45E4-911E-661D63607B3F
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_CREATE_PD, NdkCreatePd, NdkCreatePd callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreatePd, netvista.ndk_fn_create_pd
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CREATE_PD, NDK_FN_CREATE_PD callback, NdkCreatePd, NdkCreatePd callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreatePd, netvista.ndk_fn_create_pd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,34 +38,19 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkCreatePd
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CREATE_PD callback
+# NDK_FN_CREATE_PD callback function
 
 
 ## -description
 
 
 The <i>NdkCreatePd</i> (<i>NDK_FN_CREATE_PD</i>) function creates an NDK protection domain (PD) object.
-
-
-## -prototype
-
-
-````
-NDK_FN_CREATE_PD NdkCreatePd;
-
-NTSTATUS NdkCreatePd(
-  _In_     NDK_ADAPTER              *pNdkAdapter,
-  _In_     NDK_FN_CREATE_COMPLETION CreateCompletion,
-  _In_opt_ PVOID                    RequestContext,
-           _Outptr_ NDK_PD          **ppNdkPd
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -75,12 +60,12 @@ NTSTATUS NdkCreatePd(
 
 ### -param *pNdkAdapter [in]
 
-A pointer to an NDK adapter object (<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>).
+A pointer to an NDK adapter object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a>).
 
 
 ### -param CreateCompletion [in]
 
-A pointer to an <i>NdkCreateCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
+A pointer to an <i>NdkCreateCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
 
 
 ### -param RequestContext [in, optional]
@@ -90,12 +75,12 @@ A context value that the NDK provider passes back to the <i>NdkCreateCompletion<
 
 #### - **ppNdkPd
 
-A pointer to a created PD object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If  the request returns STATUS_PENDING then this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
+A pointer to a created PD object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439931">NDK_PD</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If  the request returns STATUS_PENDING then this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
 
 #### - ppNdkPd
 
-A pointer to a created PD object (<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If  the request returns STATUS_PENDING then this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
+A pointer to a created PD object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439931">NDK_PD</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If  the request returns STATUS_PENDING then this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
 
 ## -returns
@@ -128,7 +113,7 @@ The PD object  was created successfully and returned with the <i>*ppNdkPd</i> pa
 </dl>
 </td>
 <td width="60%">
- The operation is pending and will be completed later. The provider will call the function specified in the <i>CreateCompletion</i> parameter(<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) to complete the pending operation.
+ The operation is pending and will be completed later. The provider will call the function specified in the <i>CreateCompletion</i> parameter(<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>) to complete the pending operation.
  
 
 </td>
@@ -167,18 +152,13 @@ An error occurred.
 
 
 
-The <i>NdkCreatePd</i> function creates an  NDK protection domain (PD) object. If the function returns STATUS_SUCCESS, the created object is returned in the <i>ppNdkPd</i> parameter. If <i>NdkCreatePd</i> returns STATUS_PENDING, the created object is returned by the <i>NdkCreateCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) function that is specified in the <i>CreateCompletion</i> parameter.
+The <i>NdkCreatePd</i> function creates an  NDK protection domain (PD) object. If the function returns STATUS_SUCCESS, the created object is returned in the <i>ppNdkPd</i> parameter. If <i>NdkCreatePd</i> returns STATUS_PENDING, the created object is returned by the <i>NdkCreateCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>) function that is specified in the <i>CreateCompletion</i> parameter.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
 
 
 
@@ -186,16 +166,20 @@ The <i>NdkCreatePd</i> function creates an  NDK protection domain (PD) object. I
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439850">NDK_ADAPTER_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439931">NDK_PD</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\bdcb_callback_type.htm
 old-project: kernel
 ms.assetid: 22698DF4-7B8C-40B8-9B07-EEDCC03D0D0F
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PBDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbInitializeImage, BdCbStatusUpdate, _BDCB_CALLBACK_TYPE, kernel.bdcb_callback_type, ntddk/BDCB_CALLBACK_TYPE, ntddk/BdCbInitializeImage, ntddk/BdCbStatusUpdate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	BDCB_CALLBACK_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDCB_CALLBACK_TYPE, *PBDCB_CALLBACK_TYPE
 ---
@@ -49,18 +50,7 @@ req.typenames: BDCB_CALLBACK_TYPE, *PBDCB_CALLBACK_TYPE
 ## -description
 
 
-The BDCB_CALLBACK_TYPE enumeration specifies  whether the callback being passed to a <a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine is a status update or a boot-start driver initialization notification.
-
-
-## -syntax
-
-
-````
-typedef enum _BDCB_CALLBACK_TYPE { 
-  BdCbStatusUpdate,
-  BdCbInitializeImage
-} BDCB_CALLBACK_TYPE;
-````
+The BDCB_CALLBACK_TYPE enumeration specifies  whether the callback being passed to a <a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a> routine is a status update or a boot-start driver initialization notification.
 
 
 ## -enum-fields
@@ -96,7 +86,7 @@ BdCbStatusUpdate
 </td>
 <td>
 
-<a href="..\ntddk\ne-ntddk-_bdcb_status_update_type.md">BDCB_STATUS_UPDATE_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406367">BDCB_STATUS_UPDATE_TYPE</a>
 
 
 </td>
@@ -108,7 +98,7 @@ BdCbInitializeImage
 </td>
 <td>
 
-<a href="..\ntddk\ne-ntddk-_bdcb_classification.md">BDCB_CLASSIFICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406355">BDCB_CLASSIFICATION</a>
 
 
 </td>
@@ -121,20 +111,19 @@ BdCbInitializeImage
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
 
 
 
-<a href="..\ntddk\ne-ntddk-_bdcb_classification.md">BDCB_CLASSIFICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406355">BDCB_CLASSIFICATION</a>
 
 
 
-<a href="..\ntddk\ne-ntddk-_bdcb_status_update_type.md">BDCB_STATUS_UPDATE_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406367">BDCB_STATUS_UPDATE_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a>
  
 
  
-
 

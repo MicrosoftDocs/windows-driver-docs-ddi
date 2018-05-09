@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.IsFrom32BitProcess
-title: IWDFIoRequest::IsFrom32BitProcess method
+title: IWDFIoRequest::IsFrom32BitProcess
 author: windows-driver-content
 description: The IsFrom32BitProcess method determines whether a request originated from a 32-bit process.
 old-location: wdf\iwdfiorequest_isfrom32bitprocess.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 80e43bd7-9ab9-46b0-a7f3-08c3577be4bc
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest, IWDFIoRequest interface, IsFrom32BitProcess method, IWDFIoRequest::IsFrom32BitProcess, IsFrom32BitProcess method, IsFrom32BitProcess method, IWDFIoRequest interface, IsFrom32BitProcess,IWDFIoRequest.IsFrom32BitProcess, UMDFRequestObjectRef_728bc611-2c40-4a49-b967-77e388072860.xml, umdf.iwdfiorequest_isfrom32bitprocess, wdf.iwdfiorequest_isfrom32bitprocess, wudfddi/IWDFIoRequest::IsFrom32BitProcess
+ms.keywords: IWDFIoRequest interface,IsFrom32BitProcess method, IWDFIoRequest.IsFrom32BitProcess, IWDFIoRequest::IsFrom32BitProcess, IsFrom32BitProcess, IsFrom32BitProcess method, IsFrom32BitProcess method,IWDFIoRequest interface, UMDFRequestObjectRef_728bc611-2c40-4a49-b967-77e388072860.xml, umdf.iwdfiorequest_isfrom32bitprocess, wdf.iwdfiorequest_isfrom32bitprocess, wudfddi/IWDFIoRequest::IsFrom32BitProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest.IsFrom32BitProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::IsFrom32BitProcess method
+# IWDFIoRequest::IsFrom32BitProcess
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>IsFrom32BitProcess</b> method determines whether a request originated from a 32-bit process.
-
-
-## -syntax
-
-
-````
-BOOL  IsFrom32BitProcess();
-````
 
 
 ## -parameters
@@ -81,12 +73,11 @@ BOOL  IsFrom32BitProcess();
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
  
 
  
-
 

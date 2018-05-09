@@ -7,7 +7,7 @@ old-location: spb\spbrequestcomplete.htm
 old-project: SPB
 ms.assetid: 356BC81E-8FE9-4BC7-83E5-20A64D149A0D
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbrequestcomplete, SpbRequestComplete, SpbRequestComplete method [Buses], spbcx/SpbRequestComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	spbcxstubs.dll
 api_name:
 -	SpbRequestComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpbRequestComplete function
@@ -52,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SpbRequestComplete</b> method completes an I/O request and supplies a completion status.
-
-
-## -syntax
-
-
-````
-VOID SpbRequestComplete(
-  _In_ SPBREQUEST Request,
-  _In_ NTSTATUS   CompletionStatus
-);
-````
 
 
 ## -parameters
@@ -119,7 +108,7 @@ Your controller driver calls this method to complete an I/O request that it prev
 <a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a>
 <a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
 <a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>
-Call <b>SpbRequestComplete</b> instead of the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a> method to complete I/O requests received by the callback functions in the preceding list.
+Call <b>SpbRequestComplete</b> instead of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a> method to complete I/O requests received by the callback functions in the preceding list.
 
 A bug check occurs if the caller supplies an invalid SPBREQUEST handle.
 
@@ -130,6 +119,21 @@ A call to <b>SpbRequestComplete</b> represents the final stage in the processing
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
+
+
+
+<a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a>
+
+
+
+<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
+
+
+
 <a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>
 
 
@@ -138,24 +142,8 @@ A call to <b>SpbRequestComplete</b> represents the final stage in the processing
 
 
 
-<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-
-
-
-<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
-
-
-
-<a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a>
  
 
  
-
 

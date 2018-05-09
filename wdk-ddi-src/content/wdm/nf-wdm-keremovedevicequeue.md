@@ -7,7 +7,7 @@ old-location: kernel\keremovedevicequeue.htm
 old-project: kernel
 ms.assetid: 9cad7d89-bcaa-47d6-b3e5-51653cbef318
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KeRemoveDeviceQueue, KeRemoveDeviceQueue routine [Kernel-Mode Driver Architecture], k105_3e26b41e-7e9c-4fc9-8496-f107f3450dd7.xml, kernel.keremovedevicequeue, wdm/KeRemoveDeviceQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeRemoveDeviceQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeRemoveDeviceQueue function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeRemoveDeviceQueue</b> routine removes an entry from the head of a specified device queue.
-
-
-## -syntax
-
-
-````
-PKDEVICE_QUEUE_ENTRY KeRemoveDeviceQueue(
-  _Inout_ PKDEVICE_QUEUE DeviceQueue
-);
-````
 
 
 ## -parameters
@@ -95,28 +85,27 @@ It is an error to call <b>KeRemoveDeviceQueue</b> when the device queue object i
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
 
 
 
-<a href="..\wdm\nf-wdm-keremovebykeydevicequeue.md">KeRemoveByKeyDeviceQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552126">KeInitializeDeviceQueue</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552178">KeInsertByKeyDeviceQueue</a>
 
 
 
-<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552180">KeInsertDeviceQueue</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553152">KeRemoveByKeyDeviceQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553163">KeRemoveEntryDeviceQueue</a>
  
 
  
-
 

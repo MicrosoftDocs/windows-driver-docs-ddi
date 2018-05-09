@@ -7,8 +7,8 @@ old-location: stream\ioctl_ks_write_stream.htm
 old-project: stream
 ms.assetid: 560cfc18-5cbe-4af7-b579-3904ee68acbf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_KS_WRITE_STREAM, IOCTL_KS_WRITE_STREAM control code [Streaming Media Devices], ks-ioctl_83263ce8-e0b1-4ae5-a5b8-848e0fb99471.xml, ks/IOCTL_KS_WRITE_STREAM, stream.ioctl_ks_write_stream
+ms.date: 4/23/2018
+ms.keywords: IOCTL_KS_WRITE_STREAM, IOCTL_KS_WRITE_STREAM control, IOCTL_KS_WRITE_STREAM control code [Streaming Media Devices], ks-ioctl_83263ce8-e0b1-4ae5-a5b8-848e0fb99471.xml, ks/IOCTL_KS_WRITE_STREAM, stream.ioctl_ks_write_stream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	IOCTL_KS_WRITE_STREAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,7 +50,7 @@ req.typenames:
 ## -description
 
 
-An application can use IOCTL_KS_WRITE_STREAM to write data to a pin. The application passes IOCTL_KS_WRITE_STREAM with the parameters described below to the <a href="..\ksproxy\nf-ksproxy-kssynchronousdevicecontrol.md">KsSynchronousDeviceControl</a> function.
+An application can use IOCTL_KS_WRITE_STREAM to write data to a pin. The application passes IOCTL_KS_WRITE_STREAM with the parameters described below to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567142">KsSynchronousDeviceControl</a> function.
 
 
 ## -ioctlparameters
@@ -59,7 +60,7 @@ An application can use IOCTL_KS_WRITE_STREAM to write data to a pin. The applica
 
 ### -input-buffer
 
-A client provides a pointer to an array of <a href="..\ks\ns-ks-ksstream_header.md">KSSTREAM_HEADER</a> structures in <b>InBuffer</b>. The stream data to write is contained in the buffers pointed to by the stream headers. The headers can also contain presentation time and duration. 
+A client provides a pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567138">KSSTREAM_HEADER</a> structures in <b>InBuffer</b>. The stream data to write is contained in the buffers pointed to by the stream headers. The headers can also contain presentation time and duration. 
 
 
 ### -input-buffer-length
@@ -106,16 +107,15 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksprobestreamirp.md">KsProbeStreamIrp</a>
 
 
 
-<a href="..\ks\ni-ks-ioctl_ks_read_stream.md">IOCTL_KS_READ_STREAM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560827">IOCTL_KS_READ_STREAM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564252">KsProbeStreamIrp</a>
  
 
  
-
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.GetNumInterfaces
-title: IWDFUsbTargetDevice::GetNumInterfaces method
+title: IWDFUsbTargetDevice::GetNumInterfaces
 author: windows-driver-content
 description: The GetNumInterfaces method retrieves the number of USB interfaces for the USB device.
 old-location: wdf\iwdfusbtargetdevice_getnuminterfaces.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4da2f2b0-f2ad-465d-b63e-f11406d4c210
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetNumInterfaces method, GetNumInterfaces method, IWDFUsbTargetDevice interface, GetNumInterfaces,IWDFUsbTargetDevice.GetNumInterfaces, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, GetNumInterfaces method, IWDFUsbTargetDevice::GetNumInterfaces, UMDFUSBref_43f488a1-350d-473a-aa10-d88983ea39f7.xml, umdf.iwdfusbtargetdevice_getnuminterfaces, wdf.iwdfusbtargetdevice_getnuminterfaces, wudfusb/IWDFUsbTargetDevice::GetNumInterfaces
+ms.keywords: GetNumInterfaces, GetNumInterfaces method, GetNumInterfaces method,IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface,GetNumInterfaces method, IWDFUsbTargetDevice.GetNumInterfaces, IWDFUsbTargetDevice::GetNumInterfaces, UMDFUSBref_43f488a1-350d-473a-aa10-d88983ea39f7.xml, umdf.iwdfusbtargetdevice_getnuminterfaces, wdf.iwdfusbtargetdevice_getnuminterfaces, wudfusb/IWDFUsbTargetDevice::GetNumInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetDevice.GetNumInterfaces
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetDevice::GetNumInterfaces method
+# IWDFUsbTargetDevice::GetNumInterfaces
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetNumInterfaces</b> method retrieves the number of USB interfaces for the USB device.
-
-
-## -syntax
-
-
-````
-UCHAR GetNumInterfaces();
-````
 
 
 ## -parameters
@@ -74,7 +66,7 @@ UCHAR GetNumInterfaces();
 
 
 
-<b>GetNumInterfaces</b> returns the number of <a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a> interfaces for the USB device in the default configuration. The default configuration is identified by index zero.
+<b>GetNumInterfaces</b> returns the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a> interfaces for the USB device in the default configuration. The default configuration is identified by index zero.
 
 
 
@@ -105,16 +97,15 @@ The following code example retrieves the number of USB interfaces for the USB de
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: image\wias_assert.htm
 old-project: image
 ms.assetid: 74dac8e1-a909-4c22-a650-af8a43421c5c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], image.wias_assert, wiamdef/WIAS_ASSERT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiamdef.h
 api_name:
 -	WIAS_ASSERT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WIAS_ASSERT macro
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WIAS_ASSERT macro writes a diagnostic message to the <i>Wiatrace.log</i> file.
-
-
-## -syntax
-
-
-````
-VOID WIAS_ASSERT(
-   HInst      HInst,
-   Expression Expression
-);
-````
 
 
 ## -parameters
@@ -108,20 +97,19 @@ To enable asserts in free builds, drivers must define the WIA_DEBUG macro by add
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549572">WIAS_HRESULT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549619">WIAS_TRACE</a>
  
 
  
-
 

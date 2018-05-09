@@ -7,8 +7,8 @@ old-location: netvista\protocolcoreceivenetbufferlists.htm
 old-project: netvista
 ms.assetid: 1755804c-d82f-465d-862f-8a2340516f8e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS, ProtocolCoReceiveNetBufferLists, ProtocolCoReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_cebb36c0-45b2-4318-b70d-aae2eada001f.xml, ndis/ProtocolCoReceiveNetBufferLists, netvista.protocolcoreceivenetbufferlists
+ms.date: 4/25/2018
+ms.keywords: PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS, PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS callback, ProtocolCoReceiveNetBufferLists, ProtocolCoReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_cebb36c0-45b2-4318-b70d-aae2eada001f.xml, ndis/ProtocolCoReceiveNetBufferLists, netvista.protocolcoreceivenetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	ProtocolCoReceiveNetBufferLists
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS callback
+# PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS callback function
 
 
 ## -description
@@ -55,23 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS</b> type.
    For more information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS ProtocolCoReceiveNetBufferLists;
-
-VOID ProtocolCoReceiveNetBufferLists(
-  _In_ NDIS_HANDLE        ProtocolBindingContext,
-  _In_ NDIS_HANDLE        ProtocolVcContext,
-  _In_ INPNET_BUFFER_LIST NetBufferLists,
-  _In_ ULONG              NumberOfNetBufferLists,
-  _In_ ULONG              ReceiveFlags
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,7 +65,7 @@ VOID ProtocolCoReceiveNetBufferLists(
 
 A handle to a context area that the protocol driver allocated to maintain state information for a
      binding. This handle was passed to NDIS in a previous call to 
-     <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>.
 
 
 ### -param ProtocolVcContext [in]
@@ -89,21 +73,21 @@ A handle to a context area that the protocol driver allocated to maintain state 
 A handle to a protocol driver-allocated context area in which this driver maintains the
      per-virtual connection (VC) run-time state information. A client or stand-alone call manager supplied
      this handle either when it called the 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> function or from its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> function or from its 
+     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
 
 ### -param NetBufferLists [in]
 
 A linked list of 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that the
      underlying driver allocated. Each <b>NET_BUFFER_LIST</b> structure is usually associated with one 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ### -param NumberOfNetBufferLists [in]
 
-The number of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures that are in the linked list of structures that 
+The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that are in the linked list of structures that 
      <i>NetBufferLists</i> specifies.
 
 
@@ -127,7 +111,7 @@ The current IRQL is DISPATCH_LEVEL. For more information about this flag, see
 
 #### NDIS_RECEIVE_FLAGS_RESOURCES
 
-NDIS reclaims ownership of the <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures and any attached NET_BUFFER structures
+NDIS reclaims ownership of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures and any attached NET_BUFFER structures
        immediately after the call to 
        <i>ProtocolCoReceiveNetBufferLists</i> returns.
 
@@ -148,15 +132,15 @@ None
 The 
     <i>ProtocolCoReceiveNetBufferLists</i> function is required for CoNDIS protocol drivers. NDIS calls 
     <i>ProtocolCoReceiveNetBufferLists</i> after a bound miniport driver calls the 
-    <a href="..\ndis\nf-ndis-ndismcoindicatereceivenetbufferlists.md">
+    <a href="https://msdn.microsoft.com/dabd472f-9877-4434-a534-e07a047e092f">
     NdisMCoIndicateReceiveNetBufferLists</a> function. A call to 
     <i>ProtocolCoReceiveNetBufferLists</i> can also occur as a result of a loopback.
 
 If the <b>NDIS_RECEIVE_FLAGS_RESOURCES</b> flag in the 
     <i>CoReceiveFlags</i> parameter is not set, the protocol driver retains ownership of the 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures until it calls
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures until it calls
     the 
-    <a href="..\ndis\nf-ndis-ndisreturnnetbufferlists.md">
+    <a href="https://msdn.microsoft.com/1a45bc5c-cdc1-46d2-905b-3d5eea3645c1">
     NdisReturnNetBufferLists</a> function. If NDIS sets the <b>NDIS_RECEIVE_FLAGS_RESOURCES</b> flag, the protocol
     driver cannot retain the <b>NET_BUFFER_LIST</b> structure and associated resources. <b>NDIS_RECEIVE_FLAGS_RESOURCES</b>
     indicates that an underlying driver has low receive resources. In this case, the 
@@ -216,41 +200,6 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_return_net_buffer_lists.md">
-   MiniportReturnNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">ProtocolCoSendNetBufferListsComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcoindicatereceivenetbufferlists.md">
-   NdisMCoIndicateReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreturnnetbufferlists.md">NdisReturnNetBufferLists</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -258,8 +207,42 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="https://msdn.microsoft.com/0f33ae87-164e-40dc-a915-28211a0d74b7">
+   MiniportReturnNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/dabd472f-9877-4434-a534-e07a047e092f">
+   NdisMCoIndicateReceiveNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564534">NdisReturnNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
+
+
+
+<a href="https://msdn.microsoft.com/fb4b00c0-0b14-48dd-a6f2-aae659c6bb28">ProtocolCoSendNetBufferListsComplete</a>
  
 
  
-
 

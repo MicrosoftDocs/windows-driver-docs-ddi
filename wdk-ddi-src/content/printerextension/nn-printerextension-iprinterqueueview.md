@@ -7,8 +7,8 @@ old-location: print\iprinterqueueview.htm
 old-project: print
 ms.assetid: 81B3D4A3-7176-4656-B23D-04F0F84D9000
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterQueueView, IPrinterQueueView interface [Print Devices], IPrinterQueueView interface [Print Devices], described, print.iprinterqueueview, printerextension/IPrinterQueueView
+ms.date: 4/20/2018
+ms.keywords: IPrinterQueueView, IPrinterQueueView interface [Print Devices], IPrinterQueueView interface [Print Devices],described, print.iprinterqueueview, printerextension/IPrinterQueueView
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterQueueView
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterQueueView interface
@@ -95,16 +95,15 @@ And also, note that job enumeration starts when the first event handler is added
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/D964A0C4-041A-47BD-87AB-4AF523939DF0">IPrinterQueueViewEvent::OnChanged</a>
 
 
 
 <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: audio\hdaudio_device_information.htm
 old-project: audio
 ms.assetid: 091aee9d-5ecd-481a-b5e2-28b4828b2c2e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PHDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION structure [Audio Devices], PHDAUDIO_DEVICE_INFORMATION, PHDAUDIO_DEVICE_INFORMATION structure pointer [Audio Devices], _HDAUDIO_DEVICE_INFORMATION, aud-prop2_3350e3d4-dfbe-4002-b237-2395f4a07c7f.xml, audio.hdaudio_device_information, hdaudio/HDAUDIO_DEVICE_INFORMATION, hdaudio/PHDAUDIO_DEVICE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	hdaudio.h
 api_name:
 -	HDAUDIO_DEVICE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HDAUDIO_DEVICE_INFORMATION, *PHDAUDIO_DEVICE_INFORMATION
 ---
@@ -50,20 +51,6 @@ req.typenames: HDAUDIO_DEVICE_INFORMATION, *PHDAUDIO_DEVICE_INFORMATION
 
 
 The HDAUDIO_DEVICE_INFORMATION structure specifies the hardware capabilities of the HD Audio bus controller.
-
-
-## -syntax
-
-
-````
-typedef struct _HDAUDIO_DEVICE_INFORMATION {
-  USHORT  Size;
-  USHORT  DeviceVersion;
-  USHORT  DriverVersion;
-  USHORT  CodecsDetected;
-  BOOLEAN IsStripingSupported;
-} HDAUDIO_DEVICE_INFORMATION, *PHDAUDIO_DEVICE_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -100,19 +87,18 @@ Specifies whether the HD Audio controller supports <a href="https://msdn.microso
 
 
 
-The <a href="..\hdaudio\nc-hdaudio-pget_device_information.md">GetDeviceInformation</a> routine uses this structure to provide information about the HD Audio controller's device-specific capabilities to clients.
+The <a href="https://msdn.microsoft.com/bdd08133-0641-4eea-bfa3-75f700356132">GetDeviceInformation</a> routine uses this structure to provide information about the HD Audio controller's device-specific capabilities to clients.
 
 
 
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pget_device_information.md">GetDeviceInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/bdd08133-0641-4eea-bfa3-75f700356132">GetDeviceInformation</a>
  
 
  
-
 

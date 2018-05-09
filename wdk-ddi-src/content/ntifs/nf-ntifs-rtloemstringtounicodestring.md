@@ -7,7 +7,7 @@ old-location: ifsk\rtloemstringtounicodestring.htm
 old-project: ifsk
 ms.assetid: 0420718f-3d0f-4f15-85ec-c2cdfa930023
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlOemStringToUnicodeString, RtlOemStringToUnicodeString routine [Installable File System Drivers], ifsk.rtloemstringtounicodestring, ntifs/RtlOemStringToUnicodeString, rtlref_6b1f3210-6b02-4f20-9887-b7efd0090b7f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlOemStringToUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlOemStringToUnicodeString function
@@ -50,18 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlOemStringToUnicodeString</b> routine translates a given source string into a null-terminated Unicode string using the current system OEM code page. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlOemStringToUnicodeString(
-       PUNICODE_STRING DestinationString,
-  _In_ PCOEM_STRING    SourceString,
-  _In_ BOOLEAN         AllocateDestinationString
-);
-````
 
 
 ## -parameters
@@ -108,36 +97,35 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561903">RtlFreeUnicodeString</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553142">RtlOemStringToCountedUnicodeString</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtloemtounicoden.md">RtlOemToUnicodeN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553147">RtlOemStringToUnicodeSize</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlunicodestringtooemstring.md">RtlUnicodeStringToOemString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553157">RtlOemToUnicodeN</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553255">RtlUnicodeStringToOemString</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

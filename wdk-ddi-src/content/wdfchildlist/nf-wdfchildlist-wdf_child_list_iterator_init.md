@@ -38,10 +38,10 @@ api_location:
 -	Wdfchildlist.h
 api_name:
 -	WDF_CHILD_LIST_ITERATOR_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_RETRIEVE_CHILD_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_CHILD_LIST_ITERATOR_INIT function
@@ -52,18 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WDF_CHILD_LIST_ITERATOR_INIT</b> function initializes a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_CHILD_LIST_ITERATOR_INIT(
-  _Out_ PWDF_CHILD_LIST_ITERATOR Iterator,
-  _In_  ULONG                    Flags
-);
-````
+The <b>WDF_CHILD_LIST_ITERATOR_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551230">WDF_CHILD_LIST_ITERATOR</a> structure.
 
 
 ## -parameters
@@ -73,12 +62,12 @@ VOID WDF_CHILD_LIST_ITERATOR_INIT(
 
 ### -param Iterator [out]
 
-A pointer to a driver-supplied <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a> structure.
+A pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff551230">WDF_CHILD_LIST_ITERATOR</a> structure.
 
 
 ### -param Flags [in]
 
-A <a href="..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md">WDF_RETRIEVE_CHILD_FLAGS</a>-typed flag value.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552507">WDF_RETRIEVE_CHILD_FLAGS</a>-typed flag value.
 
 
 ## -returns
@@ -92,16 +81,15 @@ None
 
 ## -see-also
 
-<a href="..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md">WDF_RETRIEVE_CHILD_FLAGS</a>
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551230">WDF_CHILD_LIST_ITERATOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552507">WDF_RETRIEVE_CHILD_FLAGS</a>
  
 
  
-
 

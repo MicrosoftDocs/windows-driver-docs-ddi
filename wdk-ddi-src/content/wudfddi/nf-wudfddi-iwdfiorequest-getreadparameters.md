@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetReadParameters
-title: IWDFIoRequest::GetReadParameters method
+title: IWDFIoRequest::GetReadParameters
 author: windows-driver-content
 description: The GetReadParameters method retrieves the request parameters for a read-type request.
 old-location: wdf\iwdfiorequest_getreadparameters.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3d5691fa-f5dc-4d13-b19c-a169a43aa7b9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetReadParameters method, GetReadParameters method, IWDFIoRequest interface, GetReadParameters,IWDFIoRequest.GetReadParameters, IWDFIoRequest, IWDFIoRequest interface, GetReadParameters method, IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, umdf.iwdfiorequest_getreadparameters, wdf.iwdfiorequest_getreadparameters, wudfddi/IWDFIoRequest::GetReadParameters
+ms.keywords: GetReadParameters, GetReadParameters method, GetReadParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetReadParameters method, IWDFIoRequest.GetReadParameters, IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, umdf.iwdfiorequest_getreadparameters, wdf.iwdfiorequest_getreadparameters, wudfddi/IWDFIoRequest::GetReadParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest.GetReadParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::GetReadParameters method
+# IWDFIoRequest::GetReadParameters
 
 
 ## -description
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetReadParameters</b> method retrieves the request parameters for a read-type request.
-
-
-## -syntax
-
-
-````
-void  GetReadParameters(
-  [out] SIZE_T   *pSizeInBytes,
-  [out] LONGLONG *pllOffset,
-  [out] ULONG    *pulKey
-);
-````
 
 
 ## -parameters
@@ -124,16 +112,15 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pSizeI
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
  
 
  
-
 

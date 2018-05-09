@@ -39,10 +39,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	vDbgPrintExWithPrefix
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # vDbgPrintExWithPrefix function
@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>vDbgPrintExWithPrefix</b> routine sends a string to the kernel debugger if certain conditions that you specify are met. This routine can append a prefix to debugger output to help organize debugging results.
-
-
-## -syntax
-
-
-````
-ULONG vDbgPrintExWithPrefix(
-  _In_ PCCH    Prefix,
-  _In_ ULONG   ComponentId,
-  _In_ ULONG   Level,
-  _In_ PCCH    Format,
-  _In_ va_list arglist
-);
-````
 
 
 ## -parameters
@@ -158,16 +144,15 @@ This routine is defined in Wdm.h. Component filter IDs are defined in Dpfilter.h
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-vdbgprintex.md">vDbgPrintEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543634">DbgPrintEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556075">vDbgPrintEx</a>
  
 
  
-
 

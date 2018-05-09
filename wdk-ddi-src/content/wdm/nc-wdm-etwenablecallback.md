@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 5953a3ae-b130-42fd-9dc8-974d15c6dfc5
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: EtwEnableCallback, EtwEnableCallback callback function [Driver Development Tools], PETWENABLECALLBACK, devtest.etwenablecallback, etw_km_6405d4d5-382c-4950-9b91-0cb224a3d069.xml, wdm/EtwEnableCallback
+ms.keywords: EtwEnableCallback, EtwEnableCallback callback function [Driver Development Tools], PETWENABLECALLBACK, PETWENABLECALLBACK callback, devtest.etwenablecallback, etw_km_6405d4d5-382c-4950-9b91-0cb224a3d069.xml, wdm/EtwEnableCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,38 +38,19 @@ api_location:
 -	wdm.h
 api_name:
 -	EtwEnableCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ETWENABLECALLBACK callback
+# ETWENABLECALLBACK callback function
 
 
 ## -description
 
 
 The <b>EtwEnableCallback</b> function is an optional driver-supplied callback function that is used to receive enable or disable notifications. 
-
-
-## -prototype
-
-
-````
-PETWENABLECALLBACK EtwEnableCallback;
-
-VOID EtwEnableCallback(
-  _In_        LPCGUID                  SourceId,
-  _In_        ULONG                    IsEnabled,
-  _In_        UCHAR                    Level,
-  _In_        ULONGLONG                MatchAnyKeyword,
-  _In_        ULONGLONG                MatchAllKeyword,
-  _In_opt_    PEVENT_FILTER_DESCRIPTOR FilterData,
-  _Inout_opt_ PVOID                    CallbackContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -113,7 +94,7 @@ The provider-defined data. This parameter is optional. The provider determines t
 
 ### -param CallbackContext [in, out, optional]
 
-The context of the callback function that is defined when the provider called <a href="..\wdm\nf-wdm-etwregister.md">EtwRegister</a> to register itself. This parameter is optional.
+The context of the callback function that is defined when the provider called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545603">EtwRegister</a> to register itself. This parameter is optional.
 
 
 #### - IsEnabled [in]
@@ -145,11 +126,6 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
-
-
-
-<a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
 
 
 
@@ -161,16 +137,20 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545590">EtwEventEnabled</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545595">EtwProviderEnabled</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545603">EtwRegister</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545684">Event Filter Descriptor</a>
-
-
-
-<a href="..\wdm\nf-wdm-etwregister.md">EtwRegister</a>
-
-
-
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsControl.KsMethod
-title: IKsControl::KsMethod method
+title: IKsControl::KsMethod
 author: windows-driver-content
 description: The KsMethod method sends a method to a KS object, along with any other defined support operations available on a method set.
 old-location: stream\ikscontrol_ksmethod.htm
 old-project: stream
 ms.assetid: 9f9121be-786d-4a1c-bb01-7bf3c1d3b6cf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], KsMethod method, IKsControl::KsMethod, KsMethod method [Streaming Media Devices], KsMethod method [Streaming Media Devices], IKsControl interface, KsMethod,IKsControl.KsMethod, ksproxy/IKsControl::KsMethod, ksproxy_700d1bc3-f01e-4fff-9976-f64cdfd54f82.xml, stream.ikscontrol_ksmethod
+ms.date: 4/23/2018
+ms.keywords: IKsControl interface [Streaming Media Devices],KsMethod method, IKsControl.KsMethod, IKsControl::KsMethod, KsMethod, KsMethod method [Streaming Media Devices], KsMethod method [Streaming Media Devices],IKsControl interface, ksproxy/IKsControl::KsMethod, ksproxy_700d1bc3-f01e-4fff-9976-f64cdfd54f82.xml, stream.ikscontrol_ksmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsControl.KsMethod
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsControl::KsMethod method
+# IKsControl::KsMethod
 
 
 ## -description
 
 
 The <b>KsMethod</b> method sends a method to a KS object, along with any other defined support operations available on a method set. 
-
-
-## -syntax
-
-
-````
-HRESULT KsMethod(
-  [in]      PKSMETHOD Method,
-  [in]      ULONG     MethodLength,
-  [in, out] LPVOID    MethodData,
-  [in]      ULONG     DataLength,
-  [in, out] ULONG     *BytesReturned
-);
-````
 
 
 ## -parameters
@@ -118,12 +105,11 @@ To determine the buffer size that is required for a specific method request, you
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
-
-
-
  
 
  
-
 

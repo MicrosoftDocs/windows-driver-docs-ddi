@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.GetTypeName
-title: ExtRemoteTyped::GetTypeName method
+title: ExtRemoteTyped::GetTypeName
 author: windows-driver-content
 description: The GetTypeName method returns the type name of the typed data represented by this object.
 old-location: debugger\extremotetyped_gettypename.htm
 old-project: debugger
 ms.assetid: 162b3a05-dccd-4df4-8728-801a8fb39afc
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_063b1f9f-802d-4db4-9661-6f1909d396ee.xml, ExtRemoteTyped, ExtRemoteTyped interface [Windows Debugging], GetTypeName method, ExtRemoteTyped::GetTypeName, GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging], ExtRemoteTyped interface, GetTypeName,ExtRemoteTyped.GetTypeName, debugger.extremotetyped_gettypename
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_063b1f9f-802d-4db4-9661-6f1909d396ee.xml, ExtRemoteTyped interface [Windows Debugging],GetTypeName method, ExtRemoteTyped.GetTypeName, ExtRemoteTyped::GetTypeName, GetTypeName, GetTypeName method [Windows Debugging], GetTypeName method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_gettypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.GetTypeName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTyped::GetTypeName method
+# ExtRemoteTyped::GetTypeName
 
 
 ## -description
 
 
 The <b>GetTypeName</b> method returns the type name of the typed data represented by this object.
-
-
-## -syntax
-
-
-````
-PSTR GetTypeName();
-````
 
 
 ## -parameters
@@ -78,15 +71,10 @@ PSTR GetTypeName();
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
 
 
@@ -94,8 +82,12 @@ PSTR GetTypeName();
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
  
 
  
-
 

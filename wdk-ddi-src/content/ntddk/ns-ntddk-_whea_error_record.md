@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_ERROR_RECORD
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: "*PWHEA_ERROR_RECORD, *PWHEA_ERROR_RECORD, WHEA_ERROR_RECORD, PWHEA_ERROR_RECORD"
+req.typenames: "*PWHEA_ERROR_RECORD, WHEA_ERROR_RECORD, PWHEA_ERROR_RECORD"
 ---
 
 # _WHEA_ERROR_RECORD structure
@@ -52,17 +53,6 @@ req.typenames: "*PWHEA_ERROR_RECORD, *PWHEA_ERROR_RECORD, WHEA_ERROR_RECORD, PWH
 The WHEA_ERROR_RECORD structure describes an <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a> that contains error information about a hardware error condition that occurred.
 
 
-## -syntax
-
-
-````
-typedef struct _WHEA_ERROR_RECORD {
-  WHEA_ERROR_RECORD_HEADER             Header;
-  WHEA_ERROR_RECORD_SECTION_DESCRIPTOR SectionDescriptor[ANYSIZE_ARRAY];
-} WHEA_ERROR_RECORD, *PWHEA_ERROR_RECORD;
-````
-
-
 ## -struct-fields
 
 
@@ -70,12 +60,12 @@ typedef struct _WHEA_ERROR_RECORD {
 
 ### -field Header
 
-A <a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a> structure that describes general information about the hardware error condition.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a> structure that describes general information about the hardware error condition.
 
 
 ### -field SectionDescriptor
 
-A variable sized array of <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe each of the sections of error information that are contained in the error record. The number of structures in the array is specified by the <b>Header.SectionCount</b> member of the WHEA_ERROR_RECORD structure.
+A variable sized array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560496">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> structures that describe each of the sections of error information that are contained in the error record. The number of structures in the array is specified by the <b>Header.SectionCount</b> member of the WHEA_ERROR_RECORD structure.
 
 
 ## -remarks
@@ -93,16 +83,15 @@ A user-mode application can retrieve the error record from the hardware error ev
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560496">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
  
 
  
-
 

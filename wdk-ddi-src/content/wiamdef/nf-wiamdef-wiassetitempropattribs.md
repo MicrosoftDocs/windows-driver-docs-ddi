@@ -7,7 +7,7 @@ old-location: image\wiassetitempropattribs.htm
 old-project: image
 ms.assetid: 354d09c3-8db4-4af9-b077-8e3bcda7a6f2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiassetitempropattribs, wiamdef/wiasSetItemPropAttribs, wiasFncs_f3e1e830-6569-4b0f-8e0a-deac0a95022b.xml, wiasSetItemPropAttribs, wiasSetItemPropAttribs function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasSetItemPropAttribs
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasSetItemPropAttribs function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasSetItemPropAttribs </b>function sets the access flags and valid values for an item's set of properties.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasSetItemPropAttribs(
-  _In_ BYTE               *pWiasContext,
-       LONG               cPropSpec,
-  _In_ PROPSPEC           *pPropSpec,
-  _In_ PWIA_PROPERTY_INFO pwpi
-);
-````
 
 
 ## -parameters
@@ -88,7 +75,7 @@ Pointer to the first element of an array of PROPSPEC structures (defined in the 
 
 ### -param pwpi [in]
 
-Pointer to the first element of an array of <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_info.md">WIA_PROPERTY_INFO</a> structures that contain the property values to be written.
+Pointer to the first element of an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552751">WIA_PROPERTY_INFO</a> structures that contain the property values to be written.
 
 
 ## -returns
@@ -144,7 +131,7 @@ VT_UI1, VT_UI2, VT_UI4, VT_UI8, VT_I1, VT_I2, VT_I4, ,VT_I8, VT_R4, VT_R8, VT_BS
 </table>
  
 
-Minidrivers should initialize complex properties using the <a href="..\wiamdef\nf-wiamdef-wiassetpropertyattributes.md">wiasSetPropertyAttributes</a> function.
+Minidrivers should initialize complex properties using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549381">wiasSetPropertyAttributes</a> function.
 
 The minidriver can set the WIA_PROP_CACHEABLE flag on a property that does not change over time. By setting this flag on a property, the minidriver indicates that the WIA service can cache the property value. See the Windows SDK documentation for a list of all property attributes.
 
@@ -161,20 +148,19 @@ Reboot the system and repeat the steps necessary to produce this error. There wi
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropnames.md">wiasSetItemPropNames</a>
 
 
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_info.md">WIA_PROPERTY_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552751">WIA_PROPERTY_INFO</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetpropertyattributes.md">wiasSetPropertyAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549369">wiasSetItemPropNames</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549381">wiasSetPropertyAttributes</a>
  
 
  
-
 

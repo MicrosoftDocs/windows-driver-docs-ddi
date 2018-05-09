@@ -7,8 +7,8 @@ old-location: display\dxgkcbqueryservices.htm
 old-project: display
 ms.assetid: 0ce5df90-2019-4a92-97d6-0218acc8b1e8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKCB_QUERY_SERVICES, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml, DxgkCbQueryServices, DxgkCbQueryServices callback function [Display Devices], display.dxgkcbqueryservices, dispmprt/DxgkCbQueryServices
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_QUERY_SERVICES, DXGKCB_QUERY_SERVICES callback, DpFunctions_1bf190e2-3bfc-4ea9-942a-502ec71fa362.xml, DxgkCbQueryServices, DxgkCbQueryServices callback function [Display Devices], display.dxgkcbqueryservices, dispmprt/DxgkCbQueryServices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkCbQueryServices
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKCB_QUERY_SERVICES callback
+# DXGKCB_QUERY_SERVICES callback function
 
 
 ## -description
 
 
 The <b>DxgkCbQueryServices</b> function returns an interface implemented by the display port driver.
-
-
-## -prototype
-
-
-````
-DXGKCB_QUERY_SERVICES DxgkCbQueryServices;
-
-NTSTATUS DxgkCbQueryServices(
-  _In_    HANDLE        DeviceHandle,
-  _In_    DXGK_SERVICES ServicesType,
-  _Inout_ PINTERFACE    Interface
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -74,17 +60,17 @@ NTSTATUS DxgkCbQueryServices(
 
 ### -param DeviceHandle [in]
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
 
 
 ### -param ServicesType [in]
 
-A constant from the <a href="..\dispmprt\ne-dispmprt-dxgk_services.md">DXGK_SERVICES</a> enumeration that specifies which interface is being requested. This parameter must be set to <b>DxgkServicesAgp</b>, <b>DxgkServicesDebugReport</b>, or <b>DxgkServicesTimedOperation</b>, as those are the only supported interfaces.
+A constant from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562049">DXGK_SERVICES</a> enumeration that specifies which interface is being requested. This parameter must be set to <b>DxgkServicesAgp</b>, <b>DxgkServicesDebugReport</b>, or <b>DxgkServicesTimedOperation</b>, as those are the only supported interfaces.
 
 
 ### -param Interface [in, out]
 
-A pointer to an <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure that receives the requested interface.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a> structure that receives the requested interface.
 
 
 ## -returns
@@ -106,7 +92,7 @@ To obtain an AGP interface, do the following:
 
 <ol>
 <li>
-Allocate a <a href="..\dispmprt\ns-dispmprt-_dxgk_agp_interface.md">DXGK_AGP_INTERFACE</a> structure.
+Allocate a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560949">DXGK_AGP_INTERFACE</a> structure.
 
 </li>
 <li>
@@ -122,7 +108,7 @@ Call <b>DxgkCbQueryServices</b>; set <i>ServicesType</i> to <b>DxgkServicesAgp</
 
 </li>
 <li>
-On return from <b>DxgkCbQueryServices</b>, your DXGK_AGP_INTERFACE structure will contain pointers to the interface functions: <a href="..\dispmprt\nc-dispmprt-dxgkcb_agp_allocate_pool.md">AgpAllocatePool</a> and the like.
+On return from <b>DxgkCbQueryServices</b>, your DXGK_AGP_INTERFACE structure will contain pointers to the interface functions: <a href="https://msdn.microsoft.com/abac76e0-eb8a-450a-a797-3733a8f71990">AgpAllocatePool</a> and the like.
 
 </li>
 </ol>
@@ -130,7 +116,7 @@ To obtain a Debug Report interface, do the following:
 
 <ol>
 <li>
-Allocate a <a href="..\dispmprt\ns-dispmprt-_dxgk_debug_report_interface.md">DXGK_DEBUG_REPORT_INTERFACE</a> structure.
+Allocate a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561040">DXGK_DEBUG_REPORT_INTERFACE</a> structure.
 
 </li>
 <li>
@@ -154,7 +140,7 @@ To obtain a Timed Operation interface, do the following:
 
 <ol>
 <li>
-Allocate a <a href="..\dispmprt\ns-dispmprt-_dxgk_timed_operation_interface.md">DXGK_TIMED_OPERATION_INTERFACE</a> structure.
+Allocate a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562065">DXGK_TIMED_OPERATION_INTERFACE</a> structure.
 
 </li>
 <li>
@@ -179,7 +165,6 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
 
 
 
@@ -187,16 +172,16 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report Interface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
  
 
  
-
 

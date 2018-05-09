@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects2.GetProcessIdByPeb
-title: IDebugSystemObjects2::GetProcessIdByPeb method
+title: IDebugSystemObjects2::GetProcessIdByPeb
 author: windows-driver-content
 description: The GetProcessIdByPeb method returns the engine process ID for the specified process. The process is specified by its process environment block (PEB).
 old-location: debugger\getprocessidbypeb.htm
 old-project: debugger
 ms.assetid: 2ee2b610-30c7-4932-b8f6-df5040a5bad8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetProcessIdByPeb method [Windows Debugging], GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects interface, GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects2 interface, GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects3 interface, GetProcessIdByPeb method [Windows Debugging], IDebugSystemObjects4 interface, GetProcessIdByPeb,IDebugSystemObjects2.GetProcessIdByPeb, IDebugSystemObjects interface [Windows Debugging], GetProcessIdByPeb method, IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByPeb method, IDebugSystemObjects2::GetProcessIdByPeb, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByPeb method, IDebugSystemObjects3::GetProcessIdByPeb, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByPeb method, IDebugSystemObjects4::GetProcessIdByPeb, IDebugSystemObjects::GetProcessIdByPeb, IDebugSystemObjects_f5f2396d-d537-40a0-987d-314a9dfb01ff.xml, dbgeng/IDebugSystemObjects2::GetProcessIdByPeb, dbgeng/IDebugSystemObjects3::GetProcessIdByPeb, dbgeng/IDebugSystemObjects4::GetProcessIdByPeb, dbgeng/IDebugSystemObjects::GetProcessIdByPeb, debugger.getprocessidbypeb
+ms.date: 4/24/2018
+ms.keywords: GetProcessIdByPeb, GetProcessIdByPeb method [Windows Debugging], GetProcessIdByPeb method [Windows Debugging],IDebugSystemObjects interface, GetProcessIdByPeb method [Windows Debugging],IDebugSystemObjects2 interface, GetProcessIdByPeb method [Windows Debugging],IDebugSystemObjects3 interface, GetProcessIdByPeb method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetProcessIdByPeb method, IDebugSystemObjects2 interface [Windows Debugging],GetProcessIdByPeb method, IDebugSystemObjects2.GetProcessIdByPeb, IDebugSystemObjects2::GetProcessIdByPeb, IDebugSystemObjects3 interface [Windows Debugging],GetProcessIdByPeb method, IDebugSystemObjects3::GetProcessIdByPeb, IDebugSystemObjects4 interface [Windows Debugging],GetProcessIdByPeb method, IDebugSystemObjects4::GetProcessIdByPeb, IDebugSystemObjects::GetProcessIdByPeb, IDebugSystemObjects_f5f2396d-d537-40a0-987d-314a9dfb01ff.xml, dbgeng/IDebugSystemObjects2::GetProcessIdByPeb, dbgeng/IDebugSystemObjects3::GetProcessIdByPeb, dbgeng/IDebugSystemObjects4::GetProcessIdByPeb, dbgeng/IDebugSystemObjects::GetProcessIdByPeb, debugger.getprocessidbypeb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,29 +41,19 @@ api_name:
 -	IDebugSystemObjects2.GetProcessIdByPeb
 -	IDebugSystemObjects3.GetProcessIdByPeb
 -	IDebugSystemObjects4.GetProcessIdByPeb
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects2::GetProcessIdByPeb method
+# IDebugSystemObjects2::GetProcessIdByPeb
 
 
 ## -description
 
 
 The <b>GetProcessIdByPeb</b> method returns the engine process ID for the specified process.  The process is specified by its process environment block (PEB).
-
-
-## -syntax
-
-
-````
-HRESULT GetProcessIdByPeb(
-  [in]  ULONG64 Offset,
-  [out] PULONG  Id
-);
-````
 
 
 ## -parameters

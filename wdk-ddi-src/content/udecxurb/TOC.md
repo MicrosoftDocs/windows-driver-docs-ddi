@@ -1,4 +1,4 @@
-# [buses](../_buses/index.md)
+# [Universal Serial Bus (USB)](../_usbref/index.md)
 ## [Udecxurb.h](index.md)
 ### [UdecxUrbComplete function](../udecxurb/nf-udecxurb-udecxurbcomplete.md)
 ### [UdecxUrbCompleteWithNtStatus function](../udecxurb/nf-udecxurb-udecxurbcompletewithntstatus.md)

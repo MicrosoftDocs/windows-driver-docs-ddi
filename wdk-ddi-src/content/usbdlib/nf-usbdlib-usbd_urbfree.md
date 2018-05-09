@@ -7,7 +7,7 @@ old-location: buses\usbd_urbfree.htm
 old-project: usbref
 ms.assetid: DD80BAA0-EC01-4231-827A-962580D1E201
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: USBD_UrbFree, USBD_UrbFree routine [Buses], buses.usbd_urbfree, usbdlib/USBD_UrbFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Usbdex.dll
 api_name:
 -	USBD_UrbFree
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBD_UrbFree function
@@ -51,19 +51,8 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>USBD_UrbFree</b> routine releases the <a href="..\usb\ns-usb-_urb.md">URB</a> that is allocated by <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>, <a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>, <a href="..\usbdlib\nf-usbdlib-usbd_selectconfigurballocateandbuild.md">USBD_SelectConfigUrbAllocateAndBuild</a>, or 
-    <a href="..\usbdlib\nf-usbdlib-usbd_selectinterfaceurballocateandbuild.md">USBD_SelectInterfaceUrbAllocateAndBuild</a>.
-
-
-## -syntax
-
-
-````
-void USBD_UrbFree(
-  _In_ USBD_HANDLE USBDHandle,
-  _In_ PURB        Urb
-);
-````
+The <b>USBD_UrbFree</b> routine releases the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> that is allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/hh406250">USBD_UrbAllocate</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh406231">USBD_IsochUrbAllocate</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh406243">USBD_SelectConfigUrbAllocateAndBuild</a>, or 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh406245">USBD_SelectInterfaceUrbAllocateAndBuild</a>.
 
 
 ## -parameters
@@ -73,12 +62,12 @@ void USBD_UrbFree(
 
 ### -param USBDHandle [in]
 
-USBD handle that is retrieved by the client driver in a previous call to  the <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a> routine.
+USBD handle that is retrieved by the client driver in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406241">USBD_CreateHandle</a> routine.
 
 
 ### -param Urb [in]
 
-Pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> structure to be released.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> structure to be released.
 
 
 ## -returns
@@ -94,27 +83,26 @@ This routine does not return a value.
 
 
 
-You must call <b>USBD_UrbFree</b> to release the URB allocated by <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a> after the request is complete. 
+You must call <b>USBD_UrbFree</b> to release the URB allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/hh406250">USBD_UrbAllocate</a> after the request is complete. 
 
 Failure to call <b>USBD_UrbFree</b> can cause a memory leak. 
 
-For a code example, see <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>.
+For a code example, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406250">USBD_UrbAllocate</a>.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
 
 
 
-<a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406250">USBD_UrbAllocate</a>
  
 
  
-
 

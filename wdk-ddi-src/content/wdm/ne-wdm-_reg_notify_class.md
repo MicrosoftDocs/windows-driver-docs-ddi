@@ -7,7 +7,7 @@ old-location: kernel\reg_notify_class.htm
 old-project: kernel
 ms.assetid: 2ec47d47-1de3-43af-9a71-7fa366ba2d1a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: MaxRegNtNotifyClass, REG_NOTIFY_CLASS, REG_NOTIFY_CLASS enumeration [Kernel-Mode Driver Architecture], RegNtCallbackObjectContextCleanup, RegNtDeleteKey, RegNtDeleteValueKey, RegNtEnumerateKey, RegNtEnumerateValueKey, RegNtKeyHandleClose, RegNtPostCreateKey, RegNtPostCreateKeyEx, RegNtPostDeleteKey, RegNtPostDeleteValueKey, RegNtPostEnumerateKey, RegNtPostEnumerateValueKey, RegNtPostFlushKey, RegNtPostKeyHandleClose, RegNtPostLoadKey, RegNtPostOpenKey, RegNtPostOpenKeyEx, RegNtPostQueryKey, RegNtPostQueryKeyName, RegNtPostQueryKeySecurity, RegNtPostQueryMultipleValueKey, RegNtPostQueryValueKey, RegNtPostRenameKey, RegNtPostReplaceKey, RegNtPostRestoreKey, RegNtPostSaveKey, RegNtPostSetInformationKey, RegNtPostSetKeySecurity, RegNtPostSetValueKey, RegNtPostUnLoadKey, RegNtPreCreateKey, RegNtPreCreateKeyEx, RegNtPreDeleteKey, RegNtPreDeleteValueKey, RegNtPreEnumerateKey, RegNtPreEnumerateValueKey, RegNtPreFlushKey, RegNtPreKeyHandleClose, RegNtPreLoadKey, RegNtPreOpenKey, RegNtPreOpenKeyEx, RegNtPreQueryKey, RegNtPreQueryKeyName, RegNtPreQueryKeySecurity, RegNtPreQueryMultipleValueKey, RegNtPreQueryValueKey, RegNtPreRenameKey, RegNtPreReplaceKey, RegNtPreRestoreKey, RegNtPreSaveKey, RegNtPreSetInformationKey, RegNtPreSetKeySecurity, RegNtPreSetValueKey, RegNtPreUnLoadKey, RegNtQueryKey, RegNtQueryMultipleValueKey, RegNtQueryValueKey, RegNtRenameKey, RegNtSetInformationKey, RegNtSetValueKey, _REG_NOTIFY_CLASS, kernel.reg_notify_class, sysenum_b6fa1e3a-74d4-4925-b7c9-60d905c48f50.xml, wdm/MaxRegNtNotifyClass, wdm/REG_NOTIFY_CLASS, wdm/RegNtCallbackObjectContextCleanup, wdm/RegNtDeleteKey, wdm/RegNtDeleteValueKey, wdm/RegNtEnumerateKey, wdm/RegNtEnumerateValueKey, wdm/RegNtKeyHandleClose, wdm/RegNtPostCreateKey, wdm/RegNtPostCreateKeyEx, wdm/RegNtPostDeleteKey, wdm/RegNtPostDeleteValueKey, wdm/RegNtPostEnumerateKey, wdm/RegNtPostEnumerateValueKey, wdm/RegNtPostFlushKey, wdm/RegNtPostKeyHandleClose, wdm/RegNtPostLoadKey, wdm/RegNtPostOpenKey, wdm/RegNtPostOpenKeyEx, wdm/RegNtPostQueryKey, wdm/RegNtPostQueryKeyName, wdm/RegNtPostQueryKeySecurity, wdm/RegNtPostQueryMultipleValueKey, wdm/RegNtPostQueryValueKey, wdm/RegNtPostRenameKey, wdm/RegNtPostReplaceKey, wdm/RegNtPostRestoreKey, wdm/RegNtPostSaveKey, wdm/RegNtPostSetInformationKey, wdm/RegNtPostSetKeySecurity, wdm/RegNtPostSetValueKey, wdm/RegNtPostUnLoadKey, wdm/RegNtPreCreateKey, wdm/RegNtPreCreateKeyEx, wdm/RegNtPreDeleteKey, wdm/RegNtPreDeleteValueKey, wdm/RegNtPreEnumerateKey, wdm/RegNtPreEnumerateValueKey, wdm/RegNtPreFlushKey, wdm/RegNtPreKeyHandleClose, wdm/RegNtPreLoadKey, wdm/RegNtPreOpenKey, wdm/RegNtPreOpenKeyEx, wdm/RegNtPreQueryKey, wdm/RegNtPreQueryKeyName, wdm/RegNtPreQueryKeySecurity, wdm/RegNtPreQueryMultipleValueKey, wdm/RegNtPreQueryValueKey, wdm/RegNtPreRenameKey, wdm/RegNtPreReplaceKey, wdm/RegNtPreRestoreKey, wdm/RegNtPreSaveKey, wdm/RegNtPreSetInformationKey, wdm/RegNtPreSetKeySecurity, wdm/RegNtPreSetValueKey, wdm/RegNtPreUnLoadKey, wdm/RegNtQueryKey, wdm/RegNtQueryMultipleValueKey, wdm/RegNtQueryValueKey, wdm/RegNtRenameKey, wdm/RegNtSetInformationKey, wdm/RegNtSetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	REG_NOTIFY_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_NOTIFY_CLASS
-req.product: Windows 10 or later.
 ---
 
 # _REG_NOTIFY_CLASS enumeration
@@ -51,77 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>REG_NOTIFY_CLASS</b> enumeration type specifies the type of registry operation that the configuration manager is passing to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine.
-
-
-## -syntax
-
-
-````
-enum REG_NOTIFY_CLASS {
-  RegNtDeleteKey, 
-  RegNtPreDeleteKey                  = RegNtDeleteKey, 
-  RegNtSetValueKey, 
-  RegNtPreSetValueKey                = RegNtSetValueKey, 
-  RegNtDeleteValueKey, 
-  RegNtPreDeleteValueKey             = RegNtDeleteValueKey, 
-  RegNtSetInformationKey, 
-  RegNtPreSetInformationKey          = RegNtSetInformationKey, 
-  RegNtRenameKey, 
-  RegNtPreRenameKey                  = RegNtRenameKey, 
-  RegNtEnumerateKey, 
-  RegNtPreEnumerateKey               = RegNtEnumerateKey, 
-  RegNtEnumerateValueKey, 
-  RegNtPreEnumerateValueKey          = RegNtEnumerateValueKey, 
-  RegNtQueryKey, 
-  RegNtPreQueryKey                   = RegNtQueryKey, 
-  RegNtQueryValueKey, 
-  RegNtPreQueryValueKey              = RegNtQueryValueKey, 
-  RegNtQueryMultipleValueKey, 
-  RegNtPreQueryMultipleValueKey      = RegNtQueryMultipleValueKey, 
-  RegNtPreCreateKey, 
-  RegNtPostCreateKey, 
-  RegNtPreOpenKey, 
-  RegNtPostOpenKey, 
-  RegNtKeyHandleClose, 
-  RegNtPreKeyHandleClose             = RegNtKeyHandleClose, 
-  RegNtPostDeleteKey, 
-  RegNtPostSetValueKey, 
-  RegNtPostDeleteValueKey, 
-  RegNtPostSetInformationKey, 
-  RegNtPostRenameKey, 
-  RegNtPostEnumerateKey, 
-  RegNtPostEnumerateValueKey, 
-  RegNtPostQueryKey, 
-  RegNtPostQueryValueKey, 
-  RegNtPostQueryMultipleValueKey, 
-  RegNtPostKeyHandleClose, 
-  RegNtPreCreateKeyEx, 
-  RegNtPostCreateKeyEx, 
-  RegNtPreOpenKeyEx, 
-  RegNtPostOpenKeyEx, 
-  RegNtPreFlushKey, 
-  RegNtPostFlushKey, 
-  RegNtPreLoadKey, 
-  RegNtPostLoadKey, 
-  RegNtPreUnLoadKey, 
-  RegNtPostUnLoadKey, 
-  RegNtPreQueryKeySecurity, 
-  RegNtPostQueryKeySecurity, 
-  RegNtPreSetKeySecurity, 
-  RegNtPostSetKeySecurity, 
-  RegNtCallbackObjectContextCleanup, 
-  RegNtPreRestoreKey, 
-  RegNtPostRestoreKey, 
-  RegNtPreSaveKey, 
-  RegNtPostSaveKey, 
-  RegNtPreReplaceKey, 
-  RegNtPostReplaceKey, 
-  RegNtPreQueryKeyName, 
-  RegNtPostQueryKeyName, 
-  MaxRegNtNotifyClass 
-
-};
-````
 
 
 ## -enum-fields
@@ -387,7 +316,7 @@ Specifies that a thread has attempted to set a registry key's security informati
 ### -field RegNtCallbackObjectContextCleanup
 
 
-      Specifies that the driver has called <a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a> or the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine has just finished processing a <b>RegNtPreKeyHandleClose</b> class value. Use this value on Windows Vista and later versions of the Windows operating system.
+      Specifies that the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff541928">CmUnRegisterCallback</a> or the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine has just finished processing a <b>RegNtPreKeyHandleClose</b> class value. Use this value on Windows Vista and later versions of the Windows operating system.
 
 
 ### -field RegNtPreRestoreKey
@@ -446,16 +375,15 @@ When the configuration manager calls a driver's <i>RegistryCallback</i> routine,
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmunregistercallback.md">CmUnRegisterCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541928">CmUnRegisterCallback</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
-
-
  
 
  
-
 

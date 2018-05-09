@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUI.DrvUpgradeRegistrySetting
-title: IPrintOemDriverUI::DrvUpgradeRegistrySetting method
+title: IPrintOemDriverUI::DrvUpgradeRegistrySetting
 author: windows-driver-content
 description: The IPrintOemDriverUI::DrvUpdateRegistrySetting method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can update device settings stored in the registry.
 old-location: print\iprintoemdriverui_drvupgraderegistrysetting.htm
 old-project: print
 ms.assetid: 9249dd75-7d90-414a-b6b5-4be0fc4f3170
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvUpgradeRegistrySetting method [Print Devices], DrvUpgradeRegistrySetting method [Print Devices], IPrintOemDriverUI interface, DrvUpgradeRegistrySetting,IPrintOemDriverUI.DrvUpgradeRegistrySetting, IPrintOemDriverUI, IPrintOemDriverUI interface [Print Devices], DrvUpgradeRegistrySetting method, IPrintOemDriverUI::DrvUpgradeRegistrySetting, prcomoem/IPrintOemDriverUI::DrvUpgradeRegistrySetting, print.iprintoemdriverui_drvupgraderegistrysetting, print_unidrv-pscript_ui_f87ff21a-a7c2-49b5-857a-2ef201c2f13f.xml
+ms.date: 4/20/2018
+ms.keywords: DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting method [Print Devices], DrvUpgradeRegistrySetting method [Print Devices],IPrintOemDriverUI interface, IPrintOemDriverUI interface [Print Devices],DrvUpgradeRegistrySetting method, IPrintOemDriverUI.DrvUpgradeRegistrySetting, IPrintOemDriverUI::DrvUpgradeRegistrySetting, prcomoem/IPrintOemDriverUI::DrvUpgradeRegistrySetting, print.iprintoemdriverui_drvupgraderegistrysetting, print_unidrv-pscript_ui_f87ff21a-a7c2-49b5-857a-2ef201c2f13f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemDriverUI.DrvUpgradeRegistrySetting
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemDriverUI::DrvUpgradeRegistrySetting method
+# IPrintOemDriverUI::DrvUpgradeRegistrySetting
 
 
 ## -description
 
 
 The <code>IPrintOemDriverUI::DrvUpdateRegistrySetting</code> method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can update device settings stored in the registry.
-
-
-## -syntax
-
-
-````
-HRESULT DrvUpgradeRegistrySetting(
-   HANDLE hPrinter,
-   PCSTR  pFeature,
-   PCSTR  pOption
-);
-````
 
 
 ## -parameters

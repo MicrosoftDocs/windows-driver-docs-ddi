@@ -7,7 +7,7 @@ old-location: kernel\pep_query_soc_subsystem_metadata.htm
 old-project: kernel
 ms.assetid: D823EF66-1440-45B7-A0D8-A98522AA69E1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PPEP_QUERY_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_METADATA, kernel.pep_query_soc_subsystem_metadata, pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_QUERY_SOC_SUBSYSTEM_METADATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA
 ---
@@ -50,21 +51,6 @@ req.typenames: PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METAD
 
 
 The <b>PEP_QUERY_SOC_SUBSYSTEM_METADATA</b> structure is used with the <b>PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</b> notification to collect optional metadata about the system on a chip (SoC) subsystem whose blocking time has just been queried.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_QUERY_SOC_SUBSYSTEM_METADATA {
-  ULONG                       PlatformIdleStateIndex;
-  PVOID                       SubsystemHandle;
-  PCUNICODE_STRING            SubsystemName;
-  ULONG                       Flags;
-  ULONG                       MetadataCount;
-  PPEP_SOC_SUBSYSTEM_METADATA Metadata[ANYSIZE_ARRAY];
-} PEP_QUERY_SOC_SUBSYSTEM_METADATA, *PPEP_QUERY_SOC_SUBSYSTEM_METADATA;
-````
 
 
 ## -struct-fields
@@ -99,21 +85,20 @@ This member is reserved and should be set to zero.
 
 ### -field Metadata
 
-[in/out] An array of pointers to <a href="..\pepfx\ns-pepfx-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a> structures.  Each entry holds one key/value metadata string-pair.
+[in/out] An array of pointers to <a href="https://msdn.microsoft.com/library/windows/hardware/mt186854">PEP_SOC_SUBSYSTEM_METADATA</a> structures.  Each entry holds one key/value metadata string-pair.
 
 
 ## -see-also
+
+
+
 
 <b>PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</b>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_soc_subsystem_metadata.md">PEP_SOC_SUBSYSTEM_METADATA</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186854">PEP_SOC_SUBSYSTEM_METADATA</a>
  
 
  
-
 

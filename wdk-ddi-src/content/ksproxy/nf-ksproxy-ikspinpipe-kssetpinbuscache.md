@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsSetPinBusCache
-title: IKsPinPipe::KsSetPinBusCache method
+title: IKsPinPipe::KsSetPinBusCache
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_kssetpinbuscache.htm
 old-project: stream
 ms.assetid: 5340DB05-12D9-4965-B207-BA113F3801A7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsSetPinBusCache method, IKsPinPipe::KsSetPinBusCache, KsSetPinBusCache method [Streaming Media Devices], KsSetPinBusCache method [Streaming Media Devices], IKsPinPipe interface, KsSetPinBusCache,IKsPinPipe.KsSetPinBusCache, ksproxy/IKsPinPipe::KsSetPinBusCache, stream.ikspinpipe_kssetpinbuscache
+ms.date: 4/23/2018
+ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPinBusCache method, IKsPinPipe.KsSetPinBusCache, IKsPinPipe::KsSetPinBusCache, KsSetPinBusCache, KsSetPinBusCache method [Streaming Media Devices], KsSetPinBusCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPinBusCache, stream.ikspinpipe_kssetpinbuscache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,12 +38,13 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPinPipe.KsSetPinBusCache
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPinPipe::KsSetPinBusCache method
+# IKsPinPipe::KsSetPinBusCache
 
 
 ## -description
@@ -52,16 +53,6 @@ req.typenames: PIPE_STATE
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Not recommended for application use.
-
-
-## -syntax
-
-
-````
-HRESULT KsSetPinBusCache(
-    
-);
-````
 
 
 ## -parameters
@@ -87,12 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559922">IKsPinPipe</a>
  
 
  
-
 

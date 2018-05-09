@@ -38,9 +38,10 @@ api_location:
 -	NfcCx.dll
 api_name:
 -	NfcCxDeviceInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
+req.typenames: 
 ---
 
 # NfcCxDeviceInitialize function
@@ -50,16 +51,6 @@ req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 
 
 Called by the client driver after a WDF device has been created during the AddDevice routine.
-
-
-## -syntax
-
-
-````
-NTSTATUS  NfcCxDeviceInitialize(
-   WDFDEVICE Device
-);
-````
 
 
 ## -parameters
@@ -83,16 +74,15 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

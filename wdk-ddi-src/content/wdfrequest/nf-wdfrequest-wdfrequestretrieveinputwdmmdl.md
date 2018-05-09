@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfRequestRetrieveInputWdmMdl
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRequestRetrieveInputWdmMdl function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfRequestRetrieveInputWdmMdl</b> method retrieves a memory descriptor list (MDL) that represents an I/O request's input buffer.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfRequestRetrieveInputWdmMdl(
-  _In_  WDFREQUEST Request,
-  _Out_ PMDL       *Mdl
-);
-````
 
 
 ## -parameters
@@ -178,7 +167,7 @@ For more information about <b>WdfRequestRetrieveInputWdmMdl</b>, see <a href="ht
 
 #### Examples
 
-The following code example is part of an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_write.md">EvtIoWrite</a> callback function that obtains an MDL for an I/O request's input buffer. If the call to <b>WdfRequestRetrieveInputWdmMdl</b> fails, the driver completes the request with the error status that <b>WdfRequestRetrieveInputWdmMdl</b> returns.
+The following code example is part of an <a href="https://msdn.microsoft.com/5a0fa3b4-d020-4664-afa4-352573d4f079">EvtIoWrite</a> callback function that obtains an MDL for an I/O request's input buffer. If the call to <b>WdfRequestRetrieveInputWdmMdl</b> fails, the driver completes the request with the error status that <b>WdfRequestRetrieveInputWdmMdl</b> returns.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -219,12 +208,11 @@ MyDrvEvtIoWrite(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputwdmmdl.md">WdfRequestRetrieveOutputWdmMdl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550021">WdfRequestRetrieveOutputWdmMdl</a>
  
 
  
-
 

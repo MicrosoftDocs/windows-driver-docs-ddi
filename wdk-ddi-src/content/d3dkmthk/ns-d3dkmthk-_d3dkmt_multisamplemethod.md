@@ -7,7 +7,7 @@ old-location: display\d3dkmt_multisamplemethod.htm
 old-project: display
 ms.assetid: 6cdc0665-61e6-4c13-9b15-46ce301febec
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_MULTISAMPLEMETHOD, D3DKMT_MULTISAMPLEMETHOD structure [Display Devices], OpenGL_Structs_0617065f-aa53-4b1a-9a3f-e135972d4852.xml, _D3DKMT_MULTISAMPLEMETHOD, d3dkmthk/D3DKMT_MULTISAMPLEMETHOD, display.d3dkmt_multisamplemethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_MULTISAMPLEMETHOD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_MULTISAMPLEMETHOD
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DKMT_MULTISAMPLEMETHOD
 
 
 The D3DKMT_MULTISAMPLEMETHOD structure describes a multiple-sampling method.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_MULTISAMPLEMETHOD {
-  UINT NumSamples;
-  UINT NumQualityLevels;
-  UINT Reserved;
-} D3DKMT_MULTISAMPLEMETHOD;
-````
 
 
 ## -struct-fields
@@ -95,16 +84,15 @@ The driver can partition its quality levels for a given multiple-sampling method
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetmultisamplemethodlist.md">D3DKMTGetMultisampleMethodList</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546975">D3DKMTGetMultisampleMethodList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548039">D3DKMT_GETMULTISAMPLEMETHODLIST</a>
  
 
  
-
 

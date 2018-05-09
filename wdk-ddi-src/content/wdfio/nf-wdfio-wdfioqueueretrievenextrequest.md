@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfIoQueueRetrieveNextRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_IO_QUEUE_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfIoQueueRetrieveNextRequest function
@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfIoQueueRetrieveNextRequest</b> method retrieves the next available I/O request from a specified I/O queue. 
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfIoQueueRetrieveNextRequest(
-  _In_  WDFQUEUE   Queue,
-  _Out_ WDFREQUEST *OutRequest
-);
-````
 
 
 ## -parameters
@@ -187,16 +176,15 @@ status = WdfIoQueueRetrieveNextRequest(
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrievefoundrequest.md">WdfIoQueueRetrieveFoundRequest</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh975099">WdfIoQueueRetrieveFoundRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548470">WdfIoQueueRetrieveRequestByFileObject</a>
  
 
  
-
 

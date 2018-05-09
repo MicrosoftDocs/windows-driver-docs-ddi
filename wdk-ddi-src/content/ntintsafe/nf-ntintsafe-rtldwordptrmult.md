@@ -7,7 +7,7 @@ old-location: kernel\rtldwordptrmult.htm
 old-project: kernel
 ms.assetid: E7EEE6D7-19C8-481F-BAEF-15998819D2D0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlDWordPtrMult, RtlDWordPtrMult function [Kernel-Mode Driver Architecture], kernel.rtldwordptrmult, ntintsafe/RtlDWordPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlDWordPtrMult
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlDWordPtrMult function
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Multiplies one value of type <b>DWORD_PTR</b> by another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlDWordPtrMult(
-  _In_  DWORD_PTR dwMultiplicand,
-  _In_  DWORD_PTR dwMultiplier,
-  _Out_ DWORD_PTR *pdwResult
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: netvista\wwan_uiccslot_state.htm
 old-project: netvista
 ms.assetid: 63A3C2AA-6EBF-469D-933A-C51F5EC31C47
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_UICCSLOT_STATE, UICCSlotStateActive, UICCSlotStateEmpty, UICCSlotStateError, UICCSlotStateNotReady, UICCSlotStateOff, UICCSlotStateOffEmpty, UICCSlotStateUnknown, WWAN_UICCSLOT_STATE, WWAN_UICCSLOT_STATE enumeration [Network Drivers Starting with Windows Vista], _WWAN_UICCSLOT_STATE, netvista.wwan_uiccslot_state, wwan/UICCSlotStateActive, wwan/UICCSlotStateEmpty, wwan/UICCSlotStateError, wwan/UICCSlotStateNotReady, wwan/UICCSlotStateOff, wwan/UICCSlotStateOffEmpty, wwan/UICCSlotStateUnknown, wwan/WWAN_UICCSLOT_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_UICCSLOT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_UICCSLOT_STATE, *PWWAN_UICCSLOT_STATE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_UICCSLOT_STATE enumeration
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WWAN_UICCSLOT_STATE</b> enumeration lists the different states of a UICC (SIM) card slot on a modem. The slot state represents a summary of both the slot state and the card state.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_UICCSLOT_STATE { 
-  UICCSlotStateUnknown,
-  UICCSlotStateOffEmpty,
-  UICCSlotStateOff,
-  UICCSlotStateEmpty,
-  UICCSlotStateNotReady,
-  UICCSlotStateActive,
-  UICCSlotStateError
-} WWAN_UICCSLOT_STATE;
-````
 
 
 ## -enum-fields
@@ -152,12 +136,11 @@ The set of reported states is constrained by the capability of the slot hardware
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_slot_info.md">WWAN_SLOT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/F45D253E-E7D7-4600-AF8C-6D4EB096030D">WWAN_SLOT_INFO</a>
  
 
  
-
 

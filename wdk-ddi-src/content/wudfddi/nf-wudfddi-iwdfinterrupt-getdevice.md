@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.GetDevice
-title: IWDFInterrupt::GetDevice method
+title: IWDFInterrupt::GetDevice
 author: windows-driver-content
 description: The GetDevice method returns the framework device object interface for this interrupt object.
 old-location: wdf\iwdfinterrupt_getdevice.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 71C4E02F-B58A-46BA-A6A7-133D6CAF2A85
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetDevice method, GetDevice method, IWDFInterrupt interface, GetDevice,IWDFInterrupt.GetDevice, IWDFInterrupt, IWDFInterrupt interface, GetDevice method, IWDFInterrupt::GetDevice, umdf.iwdfinterrupt_getdevice, wdf.iwdfinterrupt_getdevice, wudfddi/IWDFInterrupt::GetDevice
+ms.keywords: GetDevice, GetDevice method, GetDevice method,IWDFInterrupt interface, IWDFInterrupt interface,GetDevice method, IWDFInterrupt.GetDevice, IWDFInterrupt::GetDevice, umdf.iwdfinterrupt_getdevice, wdf.iwdfinterrupt_getdevice, wudfddi/IWDFInterrupt::GetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFInterrupt.GetDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFInterrupt::GetDevice method
+# IWDFInterrupt::GetDevice
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetDevice</b> method returns the framework device object interface for this interrupt object.
-
-
-## -syntax
-
-
-````
-IWDFDevice3* GetDevice();
-````
 
 
 ## -parameters
@@ -90,12 +82,11 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>
  
 
  
-
 

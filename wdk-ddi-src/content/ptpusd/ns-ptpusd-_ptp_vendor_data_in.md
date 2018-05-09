@@ -7,7 +7,7 @@ old-location: image\ptp_vendor_data_in.htm
 old-project: image
 ms.assetid: 896209d0-d545-495b-b743-98c0b9d976ff
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN structure pointer [Imaging Devices], PTP_VENDOR_DATA_IN, PTP_VENDOR_DATA_IN structure [Imaging Devices], _PTP_VENDOR_DATA_IN, image.ptp_vendor_data_in, ptpusd/PPTP_VENDOR_DATA_IN, ptpusd/PTP_VENDOR_DATA_IN, wiastrct_b0ebb671-78d9-4224-8bde-893fb0afc9f8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	ptpusd.h
 api_name:
 -	PTP_VENDOR_DATA_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PTP_VENDOR_DATA_IN, *PPTP_VENDOR_DATA_IN
-req.product: Windows 10 or later.
 ---
 
 # _PTP_VENDOR_DATA_IN structure
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 The PTP_VENDOR_DATA_IN structure contains information about an arbitrary command that an application issues to the device.
-
-
-## -syntax
-
-
-````
-typedef struct _PTP_VENDOR_DATA_IN {
-  WORD  OpCode;
-  DWORD SessionId;
-  DWORD TransactionId;
-  DWORD Params[PTP_MAX_PARAMS];
-  DWORD NumParams;
-  DWORD NextPhase;
-  BYTE  VendorWriteData[1];
-} PTP_VENDOR_DATA_IN, *PPTP_VENDOR_DATA_IN;
-````
 
 
 ## -struct-fields
@@ -160,12 +144,11 @@ For more information about the opcodes used in the <b>OpCode</b> member, see PIM
 
 ## -see-also
 
-<a href="..\ptpusd\ns-ptpusd-_ptp_vendor_data_out.md">PTP_VENDOR_DATA_OUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546452">PTP_VENDOR_DATA_OUT</a>
  
 
  
-
 

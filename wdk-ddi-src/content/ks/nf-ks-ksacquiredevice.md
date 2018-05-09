@@ -7,7 +7,7 @@ old-location: stream\ksacquiredevice.htm
 old-project: stream
 ms.assetid: c486351a-b5a6-4a67-826d-6f66d04518b3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAcquireDevice, KsAcquireDevice function [Streaming Media Devices], avfunc_396e6da2-9423-43ae-8a2b-24655a43037b.xml, ks/KsAcquireDevice, stream.ksacquiredevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAcquireDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The<b> KsAcquireDevice</b> function gains synchronous access for <i>Device</i> by acquiring the device mutex.
-
-
-## -syntax
-
-
-````
-void KsAcquireDevice(
-  _In_ PKSDEVICE Device
-);
-````
 
 
 ## -parameters
@@ -93,16 +84,15 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
-<a href="..\ks\nf-ks-ksreleasedevice.md">KsReleaseDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566783">KsReleaseDevice</a>
  
 
  
-
 

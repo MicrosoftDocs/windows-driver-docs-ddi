@@ -7,7 +7,7 @@ old-location: stream\ksproperty_set.htm
 old-project: stream
 ms.assetid: 18eda28d-f1dc-4b49-8c1a-07e11ea4b288
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_SET, KSPROPERTY_SET, KSPROPERTY_SET structure [Streaming Media Devices], PKSPROPERTY_SET, PKSPROPERTY_SET structure pointer [Streaming Media Devices], ks-struct_2c865d90-5142-4cda-bbd2-af67ac716c87.xml, ks/KSPROPERTY_SET, ks/PKSPROPERTY_SET, stream.ksproperty_set"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_SET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SET, *PKSPROPERTY_SET
 ---
@@ -50,20 +51,6 @@ req.typenames: KSPROPERTY_SET, *PKSPROPERTY_SET
 
 
 A kernel streaming driver or pin may use the KSPROPERTY_SET structure to describe how it supports a property set.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  const GUID                *Set;
-  ULONG                     PropertiesCount;
-  const KSPROPERTY_ITEM     *PropertyItem;
-  ULONG                     FastIoCount;
-  const KSFASTPROPERTY_ITEM *FastIoTable;
-} KSPROPERTY_SET, *PKSPROPERTY_SET;
-````
 
 
 ## -struct-fields
@@ -83,7 +70,7 @@ Specifies the size of the array pointed to by the <b>PropertyItem</b> member.
 
 ### -field PropertyItem
 
-Points to the beginning of an array of <a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a> structures that describe how the driver or pin supports each property in the set.
+Points to the beginning of an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a> structures that describe how the driver or pin supports each property in the set.
 
 
 ### -field FastIoCount
@@ -93,7 +80,7 @@ Reserved for system use.
 
 ### -field FastIoTable
 
-A pointer to a <a href="..\ks\ns-ks-ksfastproperty_item.md">KSFASTPROPERTY_ITEM</a> structure. This member is reserved for system use.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562521">KSFASTPROPERTY_ITEM</a> structure. This member is reserved for system use.
 
 
 ## -remarks
@@ -107,12 +94,11 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>
  
 
  
-
 

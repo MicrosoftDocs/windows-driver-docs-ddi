@@ -7,7 +7,7 @@ old-location: hid\hidp_usageandpagelistdifference.htm
 old-project: hid
 ms.assetid: 80be9231-365d-4a38-8aa6-7da383bdcc40
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidP_UsageAndPageListDifference, HidP_UsageAndPageListDifference function [Human Input Devices], hid.hidp_usageandpagelistdifference, hidfunc_0c86a540-d046-449f-a6ee-a122141fe6a3.xml, hidpi/HidP_UsageAndPageListDifference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	hidpi.h
 api_name:
 -	HidP_UsageAndPageListDifference
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_UsageAndPageListDifference function
@@ -50,16 +51,6 @@ req.typenames: HIDP_REPORT_TYPE
 
 
 The <b>HidP_UsageAndPageListDifference</b> routine is not implemented.
-
-
-## -syntax
-
-
-````
- HidP_UsageAndPageListDifference(
-    
-);
-````
 
 
 ## -parameters

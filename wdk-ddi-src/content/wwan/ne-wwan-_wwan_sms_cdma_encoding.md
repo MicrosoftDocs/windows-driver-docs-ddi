@@ -7,7 +7,7 @@ old-location: netvista\wwan_sms_cdma_encoding.htm
 old-project: netvista
 ms.assetid: 1f632da2-36bb-491e-b445-5c320277a446
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_SMS_CDMA_ENCODING, PWWAN_SMS_CDMA_ENCODING, PWWAN_SMS_CDMA_ENCODING enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CDMA_ENCODING, WWAN_SMS_CDMA_ENCODING enumeration [Network Drivers Starting with Windows Vista], WwanRef_a106195c-4a1c-4f95-9c38-91390dadf046.xml, WwanSmsCdmaEncoding7BitAscii, WwanSmsCdmaEncodingEpm, WwanSmsCdmaEncodingGsm7Bit, WwanSmsCdmaEncodingIa5, WwanSmsCdmaEncodingKorean, WwanSmsCdmaEncodingLatin, WwanSmsCdmaEncodingLatinHebrew, WwanSmsCdmaEncodingMax, WwanSmsCdmaEncodingOctet, WwanSmsCdmaEncodingShiftJis, WwanSmsCdmaEncodingUnicode, _WWAN_SMS_CDMA_ENCODING, netvista.wwan_sms_cdma_encoding, wwan/PWWAN_SMS_CDMA_ENCODING, wwan/WWAN_SMS_CDMA_ENCODING, wwan/WwanSmsCdmaEncoding7BitAscii, wwan/WwanSmsCdmaEncodingEpm, wwan/WwanSmsCdmaEncodingGsm7Bit, wwan/WwanSmsCdmaEncodingIa5, wwan/WwanSmsCdmaEncodingKorean, wwan/WwanSmsCdmaEncodingLatin, wwan/WwanSmsCdmaEncodingLatinHebrew, wwan/WwanSmsCdmaEncodingMax, wwan/WwanSmsCdmaEncodingOctet, wwan/WwanSmsCdmaEncodingShiftJis, wwan/WwanSmsCdmaEncodingUnicode"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SMS_CDMA_ENCODING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_CDMA_ENCODING, *PWWAN_SMS_CDMA_ENCODING
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_SMS_CDMA_ENCODING enumeration
@@ -52,26 +52,6 @@ req.product: Windows 10 or later.
 
 The WWAN_SMS_CDMA_ENCODING enumeration lists the different SMS CDMA encoding formats that are
   supported by the MB device.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_SMS_CDMA_ENCODING { 
-  WwanSmsCdmaEncodingOctet        = 0,
-  WwanSmsCdmaEncodingEpm,
-  WwanSmsCdmaEncoding7BitAscii,
-  WwanSmsCdmaEncodingIa5,
-  WwanSmsCdmaEncodingUnicode,
-  WwanSmsCdmaEncodingShiftJis,
-  WwanSmsCdmaEncodingKorean,
-  WwanSmsCdmaEncodingLatinHebrew,
-  WwanSmsCdmaEncodingLatin,
-  WwanSmsCdmaEncodingGsm7Bit,
-  WwanSmsCdmaEncodingMax
-} WWAN_SMS_CDMA_ENCODING, *PWWAN_SMS_CDMA_ENCODING;
-````
 
 
 ## -enum-fields
@@ -136,16 +116,15 @@ The total number of supported SMS CDMA encoding formats.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571243">WWAN_SMS_CDMA_RECORD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571251">WWAN_SMS_SEND_CDMA</a>
  
 
  
-
 

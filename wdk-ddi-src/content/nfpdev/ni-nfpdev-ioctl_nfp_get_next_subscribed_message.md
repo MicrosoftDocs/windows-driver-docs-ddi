@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 975C32AE-6A2C-44C8-8F53-4158FDF1B942
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE, IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE, nfpdrivers.ioctl_nfp_get_next_subscribed_message
+ms.keywords: IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE, IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE control, IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE, nfpdrivers.ioctl_nfp_get_next_subscribed_message
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	nfpdev.h
 api_name:
 -	IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TECH_ROUTING_INFO, *PSECURE_ELEMENT_TECH_ROUTING_INFO
+req.typenames: 
 ---
 
 # IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE IOCTL
@@ -191,16 +192,15 @@ The driver MUST support CancelIo of the pended IOCTL.
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) overall design guide</a>
 
 
 
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
-
-
-
  
 
  
-
 

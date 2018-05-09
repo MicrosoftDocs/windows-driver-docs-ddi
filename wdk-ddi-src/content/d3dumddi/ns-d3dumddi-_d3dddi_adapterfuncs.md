@@ -7,7 +7,7 @@ old-location: display\d3dddi_adapterfuncs.htm
 old-project: display
 ms.assetid: bbf4852c-0fa5-47c0-a77e-7114b2a77549
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_ADAPTERFUNCS, D3DDDI_ADAPTERFUNCS structure [Display Devices], D3D_other_Structs_2397321f-704c-4c93-bbd1-b7591134294c.xml, _D3DDDI_ADAPTERFUNCS, d3dumddi/D3DDDI_ADAPTERFUNCS, display.d3dddi_adapterfuncs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDI_ADAPTERFUNCS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_ADAPTERFUNCS
 ---
@@ -52,18 +53,6 @@ req.typenames: D3DDDI_ADAPTERFUNCS
 The D3DDDI_ADAPTERFUNCS structure contains functions that the user-mode display driver can implement to communicate with a graphics adapter object. 
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_ADAPTERFUNCS {
-  PFND3DDDI_GETCAPS      pfnGetCaps;
-  PFND3DDDI_CREATEDEVICE pfnCreateDevice;
-  PFND3DDDI_CLOSEADAPTER pfnCloseAdapter;
-} D3DDDI_ADAPTERFUNCS;
-````
-
-
 ## -struct-fields
 
 
@@ -71,17 +60,17 @@ typedef struct _D3DDDI_ADAPTERFUNCS {
 
 ### -field pfnGetCaps
 
-A pointer to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a> function that queries for capabilities of the graphics hardware.
+A pointer to the driver's <a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a> function that queries for capabilities of the graphics hardware.
 
 
 ### -field pfnCreateDevice
 
-A pointer to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a> function that creates a representation of a display device that handles a collection of rendering state.
+A pointer to the driver's <a href="https://msdn.microsoft.com/ce35bdac-af90-471f-af93-0e665be6c7f6">CreateDevice</a> function that creates a representation of a display device that handles a collection of rendering state.
 
 
 ### -field pfnCloseAdapter
 
-A pointer to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_closeadapter.md">CloseAdapter</a> function that releases resources for a graphics adapter object.
+A pointer to the driver's <a href="https://msdn.microsoft.com/9dc7f71a-753d-41ca-8eaa-bff6536e834f">CloseAdapter</a> function that releases resources for a graphics adapter object.
 
 
 ## -remarks
@@ -109,28 +98,27 @@ typedef HRESULT (APIENTRY *PFND3DDDI_CLOSEADAPTER)(IN HANDLE hAdapter);</pre>
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_openadapter.md">D3DDDIARG_OPENADAPTER</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_closeadapter.md">CloseAdapter</a>
+<a href="https://msdn.microsoft.com/9dc7f71a-753d-41ca-8eaa-bff6536e834f">CloseAdapter</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="https://msdn.microsoft.com/ce35bdac-af90-471f-af93-0e665be6c7f6">CreateDevice</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543226">D3DDDIARG_OPENADAPTER</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_openadapter.md">OpenAdapter</a>
+<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
 
 
 
+<a href="https://msdn.microsoft.com/41dc9ee4-e9bc-4ebd-9b90-6446ded6ea16">OpenAdapter</a>
  
 
  
-
 

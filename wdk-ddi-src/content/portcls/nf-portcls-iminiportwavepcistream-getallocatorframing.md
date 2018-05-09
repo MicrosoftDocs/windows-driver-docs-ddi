@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.GetAllocatorFraming
-title: IMiniportWavePciStream::GetAllocatorFraming method
+title: IMiniportWavePciStream::GetAllocatorFraming
 author: windows-driver-content
 description: The GetAllocatorFraming method gets the preferred allocator-framing parameters for the stream.
 old-location: audio\iminiportwavepcistream_getallocatorframing.htm
 old-project: audio
 ms.assetid: 0b140ddc-52b5-4aee-afeb-5b2be57fe7b7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetAllocatorFraming method [Audio Devices], GetAllocatorFraming method [Audio Devices], IMiniportWavePciStream interface, GetAllocatorFraming,IMiniportWavePciStream.GetAllocatorFraming, IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], GetAllocatorFraming method, IMiniportWavePciStream::GetAllocatorFraming, audio.iminiportwavepcistream_getallocatorframing, audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, portcls/IMiniportWavePciStream::GetAllocatorFraming
+ms.date: 4/16/2018
+ms.keywords: GetAllocatorFraming, GetAllocatorFraming method [Audio Devices], GetAllocatorFraming method [Audio Devices],IMiniportWavePciStream interface, IMiniportWavePciStream interface [Audio Devices],GetAllocatorFraming method, IMiniportWavePciStream.GetAllocatorFraming, IMiniportWavePciStream::GetAllocatorFraming, audio.iminiportwavepcistream_getallocatorframing, audmp-routines_aef1d53f-2db6-4372-90fa-fb501c199e41.xml, portcls/IMiniportWavePciStream::GetAllocatorFraming
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportWavePciStream.GetAllocatorFraming
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWavePciStream::GetAllocatorFraming method
+# IMiniportWavePciStream::GetAllocatorFraming
 
 
 ## -description
 
 
 The <code>GetAllocatorFraming</code> method gets the preferred allocator-framing parameters for the stream.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetAllocatorFraming(
-  [out] PKSALLOCATOR_FRAMING AllocatorFraming
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ NTSTATUS GetAllocatorFraming(
 
 ### -param AllocatorFraming [out]
 
-Pointer to a <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure into which the method writes the miniport driver's allocator-framing preferences for this stream.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a> structure into which the method writes the miniport driver's allocator-framing preferences for this stream.
 
 
 ## -returns
@@ -94,16 +85,15 @@ See the discussion of allocator framing in <a href="https://msdn.microsoft.com/6
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536725">IMiniportWavePciStream</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a>
  
 
  
-
 

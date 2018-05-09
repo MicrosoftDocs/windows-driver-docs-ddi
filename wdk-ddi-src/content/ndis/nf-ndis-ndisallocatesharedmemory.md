@@ -7,7 +7,7 @@ old-location: netvista\ndisallocatesharedmemory.htm
 old-project: netvista
 ms.assetid: 1e4919df-7897-44c3-876f-0f1acfe6d5af
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisAllocateSharedMemory, NdisAllocateSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSharedMemory, ndis_shared_memory_ref_252ce78e-6920-4825-9537-c1ddd2f9f900.xml, netvista.ndisallocatesharedmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisAllocateSharedMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisAllocateSharedMemory function
@@ -54,18 +55,6 @@ The
   <b>NdisAllocateSharedMemory</b> function allocates shared memory from a shared memory provider.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisAllocateSharedMemory(
-  _In_    NDIS_HANDLE                    NdisHandle,
-  _In_    PNDIS_SHARED_MEMORY_PARAMETERS SharedMemoryParameters,
-  _Inout_ PNDIS_HANDLE                   pAllocationHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -75,25 +64,25 @@ NDIS_STATUS NdisAllocateSharedMemory(
 
 An NDIS driver or instance handle that was obtained during caller initialization. For example, a
      miniport driver can use the NDIS handle that it obtained from the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
      NdisMRegisterMiniportDriver</a> or 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
      Other NDIS drivers can use the handles from the following functions:
      
 
 
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
 
 
 
 ### -param SharedMemoryParameters [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">
+     <a href="https://msdn.microsoft.com/286b08f6-179e-426e-ae65-b108529d049a">
      NDIS_SHARED_MEMORY_PARAMETERS</a> structure that defines the requested attributes for the shared
      memory.
 
@@ -170,7 +159,7 @@ The operation failed for unspecified reasons.
 
 
 
-<div class="alert"><b>Note</b>  A miniport driver must have already called <a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">NdisMRegisterScatterGatherDma</a> or <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> to initialize a
+<div class="alert"><b>Note</b>  A miniport driver must have already called <a href="https://msdn.microsoft.com/library/windows/hardware/ff563659">NdisMRegisterScatterGatherDma</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a> to initialize a
   scatter/gather DMA channel before calling <b>NdisAllocateSharedMemory</b>.</div>
 <div> </div>
 NDIS drivers call the 
@@ -179,18 +168,18 @@ NDIS drivers call the
 
 The 
     <i>SharedMemoryParameters</i> parameter contains a pointer to an 
-    <a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">
+    <a href="https://msdn.microsoft.com/286b08f6-179e-426e-ae65-b108529d049a">
     NDIS_SHARED_MEMORY_PARAMETERS</a> structure that defines the requested attributes for the shared
     memory. If the <b>NDIS_SHARED_MEM_PARAMETERS_CONTIGUOUS</b> flag is not set in the 
     <b>Flags</b> member, shared memory can be specified in a scatter-gather list that is contained in
     non-contiguous memory.
 
 NDIS calls the 
-    <a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a> function of a shared memory provider from the context of the call to 
+    <a href="https://msdn.microsoft.com/d85b4f28-707b-4525-afd8-83e1ceb2674e">NetAllocateSharedMemory</a> function of a shared memory provider from the context of the call to 
     <b>NdisAllocateSharedMemory</b>.
 
 The driver must call the 
-    <a href="..\ndis\nf-ndis-ndisfreesharedmemory.md">NdisFreeSharedMemory</a> function to free
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562601">NdisFreeSharedMemory</a> function to free
     the shared memory that it allocates with 
     <b>NdisAllocateSharedMemory</b>.
 
@@ -199,53 +188,52 @@ The driver must call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreesharedmemory.md">NdisFreeSharedMemory</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\nc-ndis-allocate_shared_memory_handler.md">NetAllocateSharedMemory</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567303">NDIS_SHARED_MEMORY_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562601">NdisFreeSharedMemory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
    NdisMRegisterScatterGatherDma</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisregisterprotocoldriver.md">NdisRegisterProtocolDriver</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
+<a href="https://msdn.microsoft.com/d85b4f28-707b-4525-afd8-83e1ceb2674e">NetAllocateSharedMemory</a>
  
 
  
-
 

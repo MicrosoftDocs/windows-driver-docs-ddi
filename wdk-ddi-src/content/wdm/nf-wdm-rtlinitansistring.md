@@ -7,7 +7,7 @@ old-location: kernel\rtlinitansistring.htm
 old-project: kernel
 ms.assetid: 7b535ea0-091f-4a1b-bfb7-db3cfabbe846
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlInitAnsiString, RtlInitAnsiString routine [Kernel-Mode Driver Architecture], k109_733e2861-a19a-41ca-92cc-d50caa8beead.xml, kernel.rtlinitansistring, wdm/RtlInitAnsiString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlInitAnsiString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlInitAnsiString function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlInitAnsiString</b> routine initializes a counted string of ANSI characters.
-
-
-## -syntax
-
-
-````
-VOID RtlInitAnsiString(
-  _Out_    PANSI_STRING DestinationString,
-  _In_opt_ PCSZ         SourceString
-);
-````
 
 
 ## -parameters
@@ -118,7 +107,7 @@ UNICODE_STRING RTL_CONSTANT_STRING(
 
 <b>RTL_CONSTANT_STRING</b> returns either a string structure or Unicode string structure.
 
-The <b>RTL_CONSTANT_STRING</b> macro replaces the <b>RtlInitAnsiString</b>, <a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>, and <a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a> routines when passing a constant string.
+The <b>RTL_CONSTANT_STRING</b> macro replaces the <b>RtlInitAnsiString</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561929">RtlInitString</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff561934">RtlInitUnicodeString</a> routines when passing a constant string.
 
 You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
@@ -127,12 +116,11 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-
-
  
 
  
-
 

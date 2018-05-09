@@ -7,7 +7,7 @@ old-location: netvista\fwpscalloutregister0.htm
 old-project: netvista
 ms.assetid: 1f003775-4b93-44cd-8c58-18e0e3fb5656
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsCalloutRegister0, FwpsCalloutRegister0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutRegister0, netvista.fwpscalloutregister0, wfp_ref_2_funct_3_fwps_C_a1902e8d-fa04-4d2c-ab39-04d313d01833.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Fwpkclnt.dll
 api_name:
 -	FwpsCalloutRegister0
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsCalloutRegister0 function
@@ -52,19 +53,7 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 
 The 
   <b>FwpsCalloutRegister0</b> function registers a callout with the filter engine.
-<div class="alert"><b>Note</b>  <b>FwpsCalloutRegister0</b> is the specific version of <b>FwpsCalloutRegister</b> used in Windows Vista and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a> is available. For Windows 7, <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a> is available.</div><div> </div>
-
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsCalloutRegister0(
-  _Inout_         void          *deviceObject,
-  _In_      const FWPS_CALLOUT0 *callout,
-  _Out_opt_       UINT32        *calloutId
-);
-````
-
+<div class="alert"><b>Note</b>  <b>FwpsCalloutRegister0</b> is the specific version of <b>FwpsCalloutRegister</b> used in Windows Vista and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439576">FwpsCalloutRegister2</a> is available. For Windows 7, <a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -81,7 +70,7 @@ A pointer to a device object that was previously created by the callout driver. 
 ### -param callout [in]
 
 A pointer to a constant 
-     <a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a> structure that contains the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551224">FWPS_CALLOUT0</a> structure that contains the
      data that is required to register the callout with the filter engine.
 
 
@@ -89,15 +78,15 @@ A pointer to a constant
 
 A pointer to a UINT32-typed variable that receives a run-time identifier that identifies the
      callout in the filter engine. The callout driver passes this identifier to the 
-     <a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">FwpsCalloutUnregisterById0</a> function when unregistering the callout from the filter engine. If a
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551144">FwpsCalloutUnregisterById0</a> function when unregistering the callout from the filter engine. If a
      callout driver is filtering a data flow, it also passes this identifier to the 
-     <a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a> and 
-     <a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a> functions.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551165">FwpsFlowAssociateContext0</a> and 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551169">FwpsFlowRemoveContext0</a> functions.
      If a callout driver injects data into data streams, it also passes this identifier to the 
-     <a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a> function. 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551213">FwpsStreamInjectAsync0</a> function. 
      The filter engine also passes this
      identifier to the callout driver's 
-     <a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a> callout function. This
+     <a href="https://msdn.microsoft.com/65449a23-da5d-4884-b98e-030461eb019a">flowDeleteFn</a> callout function. This
      parameter is optional and can be <b>NULL</b>.
 
 
@@ -134,7 +123,7 @@ The callout was successfully registered with the filter engine.
 The callout could not be registered with the filter engine. A callout is already registered in
        the filter engine with an identifier identical to the GUID specified in the 
        <b>calloutKey</b> member of the 
-       <a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a> structure pointed to by the 
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff551224">FWPS_CALLOUT0</a> structure pointed to by the 
        <i>callout</i> parameter.
 
 </td>
@@ -172,9 +161,9 @@ A callout and filters that specify the callout for the filter's action can be ad
     callout is registered with the filter engine.
 
 A callout driver unregisters a callout from the filter engine by calling either the 
-    <a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">
+    <a href="https://msdn.microsoft.com/81e7e704-c387-48a0-a222-cae751bba1d3">
     FwpsCalloutUnregisterById0</a> function or the 
-    <a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">
+    <a href="https://msdn.microsoft.com/24254e56-c7f5-4424-98b5-3b99bf210d5b">
     FwpsCalloutUnregisterByKey0</a> function. A callout driver cannot be unloaded until all of the callouts
     that were previously registered with the filter engine have been successfully unregistered.
 
@@ -183,43 +172,6 @@ A callout driver unregisters a callout from the filter engine by calling either 
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">FwpsCalloutUnregisterById0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">FwpsCalloutUnregisterByKey0</a>
-
-
-
-<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
 
 
 
@@ -227,12 +179,48 @@ A callout driver unregisters a callout from the filter engine by calling either 
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551224">FWPS_CALLOUT0</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439576">FwpsCalloutRegister2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551144">FwpsCalloutUnregisterById0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551145">FwpsCalloutUnregisterByKey0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551165">FwpsFlowAssociateContext0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551169">FwpsFlowRemoveContext0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551213">FwpsStreamInjectAsync0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
+
+
+
+<a href="https://msdn.microsoft.com/65449a23-da5d-4884-b98e-030461eb019a">flowDeleteFn</a>
  
 
  
-
 

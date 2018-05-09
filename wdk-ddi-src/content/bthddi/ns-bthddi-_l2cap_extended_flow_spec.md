@@ -7,7 +7,7 @@ old-location: bltooth\l2cap_extended_flow_spec.htm
 old-project: bltooth
 ms.assetid: B190484F-1A87-4C52-A1FF-4D4EB593A963
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PL2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC structure [Bluetooth Devices], PL2CAP_EXTENDED_FLOW_SPEC, PL2CAP_EXTENDED_FLOW_SPEC structure pointer [Bluetooth Devices], _L2CAP_EXTENDED_FLOW_SPEC, bltooth.l2cap_extended_flow_spec, bthddi/L2CAP_EXTENDED_FLOW_SPEC, bthddi/PL2CAP_EXTENDED_FLOW_SPEC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Bthddi.h
 api_name:
 -	L2CAP_EXTENDED_FLOW_SPEC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: L2CAP_EXTENDED_FLOW_SPEC, *PL2CAP_EXTENDED_FLOW_SPEC
 ---
@@ -50,21 +51,6 @@ req.typenames: L2CAP_EXTENDED_FLOW_SPEC, *PL2CAP_EXTENDED_FLOW_SPEC
 
 
 The L2CAP_EXTENDED_FLOW_SPEC is reserved for future use.
-
-
-## -syntax
-
-
-````
-typedef struct _L2CAP_EXTENDED_FLOW_SPEC {
-  UCHAR  Identifier;
-  UCHAR  ServiceType;
-  USHORT MaxSDUSize;
-  ULONG  SDUInterArrivalTime;
-  ULONG  AccessLatency;
-  ULONG  FlushTimeout;
-} L2CAP_EXTENDED_FLOW_SPEC, *PL2CAP_EXTENDED_FLOW_SPEC;
-````
 
 
 ## -struct-fields

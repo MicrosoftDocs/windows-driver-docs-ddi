@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_PROCESSOR_FAMILY_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO
 ---
@@ -52,27 +53,6 @@ req.typenames: WHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO
 The WHEA_PROCESSOR_FAMILY_INFO union describes the processor family information for an x86 or x64 processor.
 
 
-## -syntax
-
-
-````
-typedef union _WHEA_PROCESSOR_FAMILY_INFO {
-  struct {
-    ULONG Stepping  :4;
-    ULONG Model  :4;
-    ULONG Family  :4;
-    ULONG ProcessorType  :2;
-    ULONG Reserved1  :2;
-    ULONG ExtendedModel  :4;
-    ULONG ExtendedFamily  :8;
-    ULONG Reserved2  :4;
-    ULONG Reserved3;
-  };
-  ULONGLONG AsULONGLONG;
-} WHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -83,61 +63,61 @@ typedef union _WHEA_PROCESSOR_FAMILY_INFO {
  
 
 
-### -field AsULONGLONG
+### -field DUMMYSTRUCTNAME.Stepping
 
-A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO union.
-
-
-#### - ExtendedFamily
-
-The extended processor family identifier.
+The stepping of the processor.
 
 
-#### - ExtendedModel
-
-The extended processor model identifier.
-
-
-#### - Family
-
-The processor family identifier.
-
-
-#### - Model
+### -field DUMMYSTRUCTNAME.Model
 
 The processor model identifier.
 
 
-#### - ProcessorType
+### -field DUMMYSTRUCTNAME.Family
+
+The processor family identifier.
+
+
+### -field DUMMYSTRUCTNAME.ProcessorType
 
 The processor type identifier.
 
 
-#### - Reserved1
+### -field DUMMYSTRUCTNAME.Reserved1
 
 Reserved for system use.
 
 
-#### - Reserved2
+### -field DUMMYSTRUCTNAME.ExtendedModel
+
+The extended processor model identifier.
+
+
+### -field DUMMYSTRUCTNAME.ExtendedFamily
+
+The extended processor family identifier.
+
+
+### -field DUMMYSTRUCTNAME.Reserved2
 
 Reserved for system use.
 
 
-#### - Reserved3
+### -field DUMMYSTRUCTNAME.Reserved3
 
 Reserved for system use.
 
 
-#### - Stepping
+### -field AsULONGLONG
 
-The stepping of the processor.
+A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO union.
 
 
 ## -remarks
 
 
 
-For x86 and x64 processors, the <b>CPUVersion</b> member of the <a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a> structure contains a WHEA_PROCESSOR_FAMILY_INFO union.
+For x86 and x64 processors, the <b>CPUVersion</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560607">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a> structure contains a WHEA_PROCESSOR_FAMILY_INFO union.
 
 The contents of this union are obtained by executing the CPUID instruction with the EAX register set to 1 on input. For more information about the CPUID instruction, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=78804">Intel 64 and IA-32 Architectures Software Developer's Manual</a>. For additional information about the data that is contained in the members of this union, see <a href="http://go.microsoft.com/fwlink/p/?linkid=80097">AP-485 Intel Processor Identification and the CPUID Instruction</a>.
 
@@ -146,12 +126,11 @@ The contents of this union are obtained by executing the CPUID instruction with 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_processor_generic_error_section.md">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560607">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a>
  
 
  
-
 

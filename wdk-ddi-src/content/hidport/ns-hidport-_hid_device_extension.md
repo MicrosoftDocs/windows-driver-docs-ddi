@@ -7,7 +7,7 @@ old-location: hid\hid_device_extension.htm
 old-project: hid
 ms.assetid: 409fbc3e-1221-4869-9087-693b1e4d4587
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PHID_DEVICE_EXTENSION, HID_DEVICE_EXTENSION, HID_DEVICE_EXTENSION structure [Human Input Devices], PHID_DEVICE_EXTENSION, PHID_DEVICE_EXTENSION structure pointer [Human Input Devices], _HID_DEVICE_EXTENSION, hid.hid_device_extension, hidport/HID_DEVICE_EXTENSION, hidport/PHID_DEVICE_EXTENSION, hidstrct_faf2bb84-b1f7-4cfa-84b0-5328dfb521dc.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hidport.h
 api_name:
 -	HID_DEVICE_EXTENSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION
 ---
@@ -50,18 +51,6 @@ req.typenames: HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION
 
 
 The HID_DEVICE_EXTENSION structure is used by a HID minidriver as its layout for the device extension of a HIDClass device's functional device object.
-
-
-## -syntax
-
-
-````
-typedef struct _HID_DEVICE_EXTENSION {
-  PDEVICE_OBJECT PhysicalDeviceObject;
-  PDEVICE_OBJECT NextDeviceObject;
-  PVOID          MiniDeviceExtension;
-} HID_DEVICE_EXTENSION, *PHID_DEVICE_EXTENSION;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ Pointer to the minidriver-specific portion of the device extension.
 
 ## -see-also
 
-<a href="..\hidport\nf-hidport-hidregisterminidriver.md">HidRegisterMinidriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539835">HidRegisterMinidriver</a>
  
 
  
-
 

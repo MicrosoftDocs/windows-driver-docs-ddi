@@ -7,7 +7,7 @@ old-location: display\d3d10_ddi_texture_address_mode.htm
 old-project: display
 ms.assetid: 96bbba03-97c1-43f2-bf3e-902de77d5eb9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10_DDI_TEXTURE_ADDRESS_BORDER, D3D10_DDI_TEXTURE_ADDRESS_CLAMP, D3D10_DDI_TEXTURE_ADDRESS_MIRROR, D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE, D3D10_DDI_TEXTURE_ADDRESS_MODE, D3D10_DDI_TEXTURE_ADDRESS_MODE enumeration [Display Devices], D3D10_DDI_TEXTURE_ADDRESS_WRAP, UMDisplayDriver_Dx10param_Structs_11f66184-ba3e-4c13-869b-d810c97b1878.xml, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_BORDER, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_CLAMP, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MIRROR, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_MODE, d3d10umddi/D3D10_DDI_TEXTURE_ADDRESS_WRAP, display.d3d10_ddi_texture_address_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10_DDI_TEXTURE_ADDRESS_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10_DDI_TEXTURE_ADDRESS_MODE
 ---
@@ -50,20 +51,6 @@ req.typenames: D3D10_DDI_TEXTURE_ADDRESS_MODE
 
 
 The D3D10_DDI_TEXTURE_ADDRESS_MODE enumeration type contains values that identify the texture address mode of a sampler.
-
-
-## -syntax
-
-
-````
-typedef enum D3D10_DDI_TEXTURE_ADDRESS_MODE { 
-  D3D10_DDI_TEXTURE_ADDRESS_WRAP        = 1,
-  D3D10_DDI_TEXTURE_ADDRESS_MIRROR      = 2,
-  D3D10_DDI_TEXTURE_ADDRESS_CLAMP       = 3,
-  D3D10_DDI_TEXTURE_ADDRESS_BORDER      = 4,
-  D3D10_DDI_TEXTURE_ADDRESS_MIRRORONCE  = 5
-} D3D10_DDI_TEXTURE_ADDRESS_MODE;
-````
 
 
 ## -enum-fields
@@ -98,12 +85,11 @@ Similar to D3D10_DDI_TEXTURE_ADDRESS_MIRROR and D3D10_DDI_TEXTURE_ADDRESS_CLAMP.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_sampler_desc.md">D3D10_DDI_SAMPLER_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542011">D3D10_DDI_SAMPLER_DESC</a>
  
 
  
-
 

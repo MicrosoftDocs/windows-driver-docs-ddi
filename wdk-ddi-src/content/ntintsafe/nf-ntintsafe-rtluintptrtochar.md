@@ -7,7 +7,7 @@ old-location: kernel\rtluintptrtochar.htm
 old-project: kernel
 ms.assetid: 531A8110-FF91-4DE7-8FC5-305A2525DD40
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUIntPtrToChar, RtlUIntPtrToChar function [Kernel-Mode Driver Architecture], kernel.rtluintptrtochar, ntintsafe/RtlUIntPtrToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlUIntPtrToChar
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlUIntPtrToChar function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>UINT_PTR</b> to a value of type <b>CHAR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUIntPtrToChar(
-  _In_  SHORT     sOperand,
-  _Out_ ULONG_PTR *pulResult
-);
-````
 
 
 ## -parameters

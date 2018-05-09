@@ -7,7 +7,7 @@ old-location: stream\ksproperty_cameracontrol_s.htm
 old-project: stream
 ms.assetid: 203c6452-26d4-4dbf-89d4-c7e6d47e7c16
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S, PKSPROPERTY_CAMERACONTROL_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S, ksmedia/PKSPROPERTY_CAMERACONTROL_S, stream.ksproperty_cameracontrol_s, vidcapstruct_bfabf468-24f0-4acb-b064-229b3eea7df3.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S
 ---
@@ -50,19 +51,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S
 
 
 The KSPROPERTY_CAMERACONTROL_S structure describes filter-based properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a> property set.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  LONG       Value;
-  ULONG      Flags;
-  ULONG      Capabilities;
-} KSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S;
-````
 
 
 ## -struct-fields
@@ -188,20 +176,19 @@ Indicates that the device settings are in relative values.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564420">KSPROPERTY_CAMERACONTROL_NODE_S</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_node_s.md">KSPROPERTY_CAMERACONTROL_NODE_S</a>
-
-
-
  
 
  
-
 

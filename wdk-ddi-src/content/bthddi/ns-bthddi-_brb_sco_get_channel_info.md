@@ -7,7 +7,7 @@ old-location: bltooth\_brb_sco_get_channel_info.htm
 old-project: bltooth
 ms.assetid: 1a7eb79c-5a3e-4977-ba1f-682bbebb0494
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_SCO_GET_CHANNEL_INFO, _BRB_SCO_GET_CHANNEL_INFO structure [Bluetooth Devices], bltooth._brb_sco_get_channel_info, bth_structs_cf7da00a-9c32-432d-a8a2-7bac58fe17e0.xml, bthddi/_BRB_SCO_GET_CHANNEL_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_SCO_GET_CHANNEL_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,30 +54,6 @@ The _BRB_SCO_GET_CHANNEL_INFO structure describes the settings and statistics of
   channel.
 
 
-## -syntax
-
-
-````
-struct _BRB_SCO_GET_CHANNEL_INFO {
-  BRB_HEADER                Hdr;
-  BTH_ADDR                  BtAddress;
-  SCO_CHANNEL_HANDLE        ChannelHandle;
-  ULONG                     InfoFlags;
-  ULONG                     TransmitBandwidth;
-  ULONG                     ReceiveBandwidth;
-  USHORT                    MaxLatency;
-  USHORT                    PacketType;
-  USHORT                    ContentFormat;
-  USHORT                    Reserved;
-  SCO_RETRANSMISSION_EFFORT RetransmissionEffort;
-  ULONG                     ChannelFlags;
-  CONNECTION_HANDLE         HciConnectionHandle;
-  SCO_LINK_TYPE             LinkType;
-  BASEBAND_CHANNEL_INFO     BasebandInfo;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -85,7 +62,7 @@ struct _BRB_SCO_GET_CHANNEL_INFO {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -262,7 +239,7 @@ Reserved for future use. Do not use.
 ### -field RetransmissionEffort
 
 A 
-     <a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a> value that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536783">SCO_RETRANSMISSION_EFFORT</a> value that
      determines the channel's retransmission policies.
 
 
@@ -319,14 +296,14 @@ The host controller interface's connection handle for the SCO connection.
 ### -field LinkType
 
 The 
-     <a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a> that is associated with the host
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536781">SCO_LINK_TYPE</a> that is associated with the host
      controller interface.
 
 
 ### -field BasebandInfo
 
 A 
-     <a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a> structure that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536578">BASEBAND_CHANNEL_INFO</a> structure that
      contains information for the SCO connection. This information is only available for links established
      using the 1.2 Bluetooth Synchronous Commands.
 
@@ -345,7 +322,14 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536578">BASEBAND_CHANNEL_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
 
 
 
@@ -353,20 +337,12 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 
 
-<a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536781">SCO_LINK_TYPE</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536783">SCO_RETRANSMISSION_EFFORT</a>
  
 
  
-
 

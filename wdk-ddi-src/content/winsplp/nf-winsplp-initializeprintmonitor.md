@@ -7,7 +7,7 @@ old-location: print\initializeprintmonitor.htm
 old-project: print
 ms.assetid: 825ae98b-74d7-4e41-944b-0dc77cc0cc51
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: InitializePrintMonitor, InitializePrintMonitor function [Print Devices], print.initializeprintmonitor, spoolfnc_ff45a3d4-a007-4ebd-b120-582f23ccaffb.xml, winsplp/InitializePrintMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winsplp.h
 api_name:
 -	InitializePrintMonitor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # InitializePrintMonitor function
@@ -50,19 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>InitializePrintMonitor</b> function is obsolete and is supported only for compatibility purposes. New print monitors should implement <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a> so that they can be used with print server clusters.
+The <b>InitializePrintMonitor</b> function is obsolete and is supported only for compatibility purposes. New print monitors should implement <a href="https://msdn.microsoft.com/library/windows/hardware/ff551605">InitializePrintMonitor2</a> so that they can be used with print server clusters.
 
 A print monitor's <b>InitializePrintMonitor</b> function initializes a print monitor.
-
-
-## -syntax
-
-
-````
-LPMONITOREX InitializePrintMonitor(
-  _In_ LPWSTR pRegistryRoot
-);
-````
 
 
 ## -parameters
@@ -79,7 +69,7 @@ Caller-supplied pointer to a string identifying a registry path that the print m
 
 
 
-If the operation succeeds, the function should return a pointer to a <a href="..\winsplp\ns-winsplp-_monitorex.md">MONITOREX</a> structure. Otherwise the function should call SetLastError (described in the Microsoft Windows SDK documentation) to set an error code, and return <b>NULL</b>.
+If the operation succeeds, the function should return a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557533">MONITOREX</a> structure. Otherwise the function should call SetLastError (described in the Microsoft Windows SDK documentation) to set an error code, and return <b>NULL</b>.
 
 
 
@@ -88,7 +78,7 @@ If the operation succeeds, the function should return a pointer to a <a href="..
 
 
 
-The <b>InitializePrintMonitor</b> function must be exported by <a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">language monitors</a> and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a <a href="..\winsplp\ns-winsplp-_monitor.md">MONITOR</a> structure, which is referenced through the <a href="..\winsplp\ns-winsplp-_monitorex.md">MONITOREX</a> function.
+The <b>InitializePrintMonitor</b> function must be exported by <a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">language monitors</a> and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542552">MONITOR</a> structure, which is referenced through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557533">MONITOREX</a> function.
 
 The <i>pRegistryRoot</i> parameter supplies a pointer a string representing the path to a <i>MonitorName</i> registry key, where <i>MonitorName</i> is the monitor name that was specified when the spooler's <b>AddMonitor</b> function was called to add the monitor. The monitor can use this key to store monitor-specific value names and values. When the spooler's <b>DeleteMonitor</b> function is called, the spooler deletes the <i>MonitorName</i> key and all values stored underneath it. (The <b>AddMonitor</b> and <b>DeleteMonitor</b> functions are described in the Windows SDK documentation.)
 
@@ -97,16 +87,15 @@ The <i>pRegistryRoot</i> parameter supplies a pointer a string representing the 
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorex.md">MONITOREX</a>
 
 
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitorui.md">InitializePrintMonitorUI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551608">InitializePrintMonitorUI</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557533">MONITOREX</a>
  
 
  
-
 

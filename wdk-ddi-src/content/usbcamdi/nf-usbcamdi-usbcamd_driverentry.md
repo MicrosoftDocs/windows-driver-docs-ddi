@@ -7,7 +7,7 @@ old-location: stream\usbcamd_driverentry.htm
 old-project: stream
 ms.assetid: ac77b121-2495-4739-8c8f-96d6c48e4dc6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices], stream.usbcamd_driverentry, usbcamdi/USBCAMD_DriverEntry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	usbcamd2.dll
 api_name:
 -	USBCAMD_DriverEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBCAMD_DriverEntry function
@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USBCAMD_DriverEntry</b> function registers the minidriver with USBCAMD, effectively binding USBCAMD and the minidriver together.
-
-
-## -syntax
-
-
-````
-ULONG USBCAMD_DriverEntry(
-  _In_ PVOID                           Context1,
-  _In_ PVOID                           Context2,
-  _In_ ULONG                           DeviceContextSize,
-  _In_ ULONG                           FrameContextSize,
-  _In_ PADAPTER_RECEIVE_PACKET_ROUTINE ReceivePacket
-);
-````
 
 
 ## -parameters
@@ -95,7 +81,7 @@ TBD
 
 ### -param ReceivePacket [in]
 
-Pointer to the minidriver-defined <a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
+Pointer to the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff554080">AdapterReceivePacket</a> function that handles adapter-based SRB requests.
 
 
 #### - FrameContextSize [in]
@@ -119,27 +105,26 @@ Specifies the size, in bytes, required for the minidriver's frame-specific conte
 A camera minidriver must call <b>USBCAMD_DriverEntry</b> from the minidriver's <b>DriverEntry</b> routine. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558717">DriverEntry for Stream Class Minidrivers</a>
 
 
-<i>FrameContextSize</i> is optional. A non-<b>NULL</b> value should be provided only with calls to <a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a> or <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>.
+<i>FrameContextSize</i> is optional. A non-<b>NULL</b> value should be provided only with calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557617">CamNewVideoFrame</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff557623">CamProcessRawVideoFrame</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md">CamNewVideoFrame</a>
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md">AdapterReceivePacket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554080">AdapterReceivePacket</a>
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md">CamProcessRawVideoFrame</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557617">CamNewVideoFrame</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557623">CamProcessRawVideoFrame</a>
  
 
  
-
 

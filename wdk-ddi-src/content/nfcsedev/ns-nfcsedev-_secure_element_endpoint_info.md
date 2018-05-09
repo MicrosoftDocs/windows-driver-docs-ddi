@@ -38,7 +38,8 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	SECURE_ELEMENT_ENDPOINT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURE_ELEMENT_ENDPOINT_INFO, *PSECURE_ELEMENT_ENDPOINT_INFO
 ---
@@ -49,18 +50,7 @@ req.typenames: SECURE_ELEMENT_ENDPOINT_INFO, *PSECURE_ELEMENT_ENDPOINT_INFO
 ## -description
 
 
-SECURE_ELEMENT_ENDPOINT_INFO is a member of <a href="..\nfcsedev\ns-nfcsedev-_secure_element_endpoint_list.md">SECURE_ELEMENT_ENDPOINT_LIST</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SECURE_ELEMENT_ENDPOINT_INFO {
-  GUID                guidSecureElementId;
-  SECURE_ELEMENT_TYPE eSecureElementType;
-} SECURE_ELEMENT_ENDPOINT_INFO, *P_SECURE_ELEMENT_ENDPOINT_INFO;
-````
+SECURE_ELEMENT_ENDPOINT_INFO is a member of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905622">SECURE_ELEMENT_ENDPOINT_LIST</a>.
 
 
 ## -struct-fields

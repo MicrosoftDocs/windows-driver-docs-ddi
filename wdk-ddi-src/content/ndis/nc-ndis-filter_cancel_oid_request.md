@@ -7,8 +7,8 @@ old-location: netvista\filtercanceloidrequest.htm
 old-project: netvista
 ms.assetid: e7e3f67e-5353-4355-bf19-8a8041cafc84
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: FILTER_CANCEL_OID_REQUEST, FilterCancelOidRequest, FilterCancelOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelOidRequest, ndis_request_ref_495c5b9b-651d-4255-bf88-30789153314f.xml, netvista.filtercanceloidrequest
+ms.date: 4/25/2018
+ms.keywords: FILTER_CANCEL_OID_REQUEST, FILTER_CANCEL_OID_REQUEST callback, FilterCancelOidRequest, FilterCancelOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelOidRequest, ndis_request_ref_495c5b9b-651d-4255-bf88-30789153314f.xml, netvista.filtercanceloidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	FilterCancelOidRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_CANCEL_OID_REQUEST callback
+# FILTER_CANCEL_OID_REQUEST callback function
 
 
 ## -description
@@ -54,20 +55,6 @@ NDIS calls a filter driver's
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_CANCEL_OID_REQUEST</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-FILTER_CANCEL_OID_REQUEST FilterCancelOidRequest;
-
-VOID FilterCancelOidRequest(
-  _In_ NDIS_HANDLE FilterModuleContext,
-  _In_ PVOID       RequestId
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,13 +64,13 @@ VOID FilterCancelOidRequest(
 
 A handle to the context area for the filter module that is the target of this request. The filter
      driver created and initialized this context area in the 
-     <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
 
 ### -param RequestId [in]
 
 A cancellation identifier for the request. This identifier specifies the 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structures that are being
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structures that are being
      canceled.
 
 
@@ -102,16 +89,16 @@ None
 
 <i>FilterCancelOidRequest</i> is an optional function. If a filter driver does not use OID requests, it
     can set the entry point for this function to <b>NULL</b> when it calls the 
-    <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">
+    <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
     NdisFRegisterFilterDriver</a> function.
 
 When NDIS calls 
     <i>FilterCancelOidRequest</i>, the filter driver should attempt to call 
-    <a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561833">NdisFOidRequestComplete</a> function
     as soon as possible.
 
 The request parameters are defined in the 
-    <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure at 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure at 
     <i>OidRequest</i> .
 
 If a filter driver does not queue OID requests, the driver is not required to provide a 
@@ -129,7 +116,7 @@ If the request processing is still not complete in a filter driver, the driver c
 
 If the filter driver forwarded the request to an underlying driver and the processing is still not
     complete, the filter driver calls the 
-    <a href="..\ndis\nf-ndis-ndisfcanceloidrequest.md">NdisFCancelOidRequest</a> function with
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561792">NdisFCancelOidRequest</a> function with
     the 
     <i>OidRequest</i> parameter set to the value that it sent to the underlying driver.
 
@@ -178,28 +165,27 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfcanceloidrequest.md">NdisFCancelOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfoidrequestcomplete.md">NdisFOidRequestComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561792">NdisFCancelOidRequest</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561833">NdisFOidRequestComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
  
 
  
-
 

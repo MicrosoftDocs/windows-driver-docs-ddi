@@ -7,7 +7,7 @@ old-location: kernel\bdcb_status_update_type.htm
 old-project: kernel
 ms.assetid: E18AD58C-74D0-4CA7-9EE5-F96863F88E26
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PBDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbStatusPrepareForDependecyLoad, BdCbStatusPrepareForDriverLoad, BdCbStatusPrepareForUnload, _BDCB_STATUS_UPDATE_TYPE, kernel.bdcb_status_update_type, ntddk/BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDependecyLoad, ntddk/BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForUnload"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	BDCB_STATUS_UPDATE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDCB_STATUS_UPDATE_TYPE, *PBDCB_STATUS_UPDATE_TYPE
 ---
@@ -50,18 +51,6 @@ req.typenames: BDCB_STATUS_UPDATE_TYPE, *PBDCB_STATUS_UPDATE_TYPE
 
 
 The BDCB_STATUS_UPDATE_TYPE enumeration lists the types of boot-driver callback status updates.
-
-
-## -syntax
-
-
-````
-typedef enum _BDCB_STATUS_UPDATE_TYPE { 
-  BdCbStatusPrepareForDependecyLoad,
-  BdCbStatusPrepareForDriverLoad,
-  BdCbStatusPrepareForUnload
-} BDCB_STATUS_UPDATE_TYPE;
-````
 
 
 ## -enum-fields
@@ -89,16 +78,15 @@ Windows will start loading driver dependencies next.
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_bdcb_status_update_context.md">BDCB_STATUS_UPDATE_CONTEXT</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406363">BDCB_STATUS_UPDATE_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a>
  
 
  
-
 

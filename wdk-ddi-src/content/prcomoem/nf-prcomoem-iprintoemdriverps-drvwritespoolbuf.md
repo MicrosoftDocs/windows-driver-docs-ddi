@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverPS.DrvWriteSpoolBuf
-title: IPrintOemDriverPS::DrvWriteSpoolBuf method
+title: IPrintOemDriverPS::DrvWriteSpoolBuf
 author: windows-driver-content
 description: The IPrintOemDriverPS::DrvWriteSpoolBuf method is provided by the Pscript5 driver so that rendering plug-ins can send printer data to the spooler.
 old-location: print\iprintoemdriverps_drvwritespoolbuf.htm
 old-project: print
 ms.assetid: 91eb36b3-ea05-4a5e-8bba-47c262a4fa4a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices], IPrintOemDriverPS interface, DrvWriteSpoolBuf,IPrintOemDriverPS.DrvWriteSpoolBuf, IPrintOemDriverPS, IPrintOemDriverPS interface [Print Devices], DrvWriteSpoolBuf method, IPrintOemDriverPS::DrvWriteSpoolBuf, prcomoem/IPrintOemDriverPS::DrvWriteSpoolBuf, print.iprintoemdriverps_drvwritespoolbuf, print_unidrv-pscript_rendering_aa71a302-dc97-4bc2-8cbb-fd32c6237e74.xml
+ms.date: 4/20/2018
+ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices],IPrintOemDriverPS interface, IPrintOemDriverPS interface [Print Devices],DrvWriteSpoolBuf method, IPrintOemDriverPS.DrvWriteSpoolBuf, IPrintOemDriverPS::DrvWriteSpoolBuf, prcomoem/IPrintOemDriverPS::DrvWriteSpoolBuf, print.iprintoemdriverps_drvwritespoolbuf, print_unidrv-pscript_rendering_aa71a302-dc97-4bc2-8cbb-fd32c6237e74.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemDriverPS.DrvWriteSpoolBuf
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemDriverPS::DrvWriteSpoolBuf method
+# IPrintOemDriverPS::DrvWriteSpoolBuf
 
 
 ## -description
 
 
 The <code>IPrintOemDriverPS::DrvWriteSpoolBuf</code> method is provided by the Pscript5 driver so that <a href="https://msdn.microsoft.com/e55ca083-2790-4929-9e5b-6fce49eb0404">rendering plug-ins</a> can send printer data to the spooler.
-
-
-## -syntax
-
-
-````
-HRESULT DrvWriteSpoolBuf(
-        PDEVOBJ pdevobj,
-        PVOID   pBuffer,
-        DWORD   cbSize,
-  [out] DWORD   *pdwResult
-);
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ HRESULT DrvWriteSpoolBuf(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pBuffer

@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlallocateresource.htm
 old-project: ifsk
 ms.assetid: a02f87ea-e7e5-48ff-94a2-a76b4f0cd04a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlAllocateResource, FsRtlAllocateResource function [Installable File System Drivers], fsrtlref_7c0e205b-9e67-4fba-a70d-67e441cdcddf.xml, ifsk.fsrtlallocateresource, ntifs/FsRtlAllocateResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlAllocateResource
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlAllocateResource function
@@ -49,17 +50,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlAllocateResource</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a> and <a href="..\wdm\nf-wdm-exinitializeresourcelite.md">ExInitializeResourceLite</a> instead.
-
-
-## -syntax
-
-
-````
-  FsRtlAllocateResource(
-    
-);
-````
+The <b>FsRtlAllocateResource</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544388">ExAllocateFromNPagedLookasideList</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff545317">ExInitializeResourceLite</a> instead.
 
 
 ## -parameters

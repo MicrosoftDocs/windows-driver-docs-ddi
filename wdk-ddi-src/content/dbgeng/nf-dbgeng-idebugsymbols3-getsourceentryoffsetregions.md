@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntryOffsetRegions
-title: IDebugSymbols3::GetSourceEntryOffsetRegions method
+title: IDebugSymbols3::GetSourceEntryOffsetRegions
 author: windows-driver-content
 description: Returns all memory regions known to be associated with a source entry.
 old-location: debugger\idebugsymbols3_getsourceentryoffsetregions.htm
 old-project: debugger
 ms.assetid: A39FF088-1AA3-4E2F-8EF6-AD7F79FBBC92
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetSourceEntryOffsetRegions method [Windows Debugging], GetSourceEntryOffsetRegions method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntryOffsetRegions,IDebugSymbols3.GetSourceEntryOffsetRegions, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryOffsetRegions method, IDebugSymbols3::GetSourceEntryOffsetRegions, dbgeng/IDebugSymbols3::GetSourceEntryOffsetRegions, debugger.idebugsymbols3_getsourceentryoffsetregions
+ms.date: 4/24/2018
+ms.keywords: GetSourceEntryOffsetRegions, GetSourceEntryOffsetRegions method [Windows Debugging], GetSourceEntryOffsetRegions method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntryOffsetRegions method, IDebugSymbols3.GetSourceEntryOffsetRegions, IDebugSymbols3::GetSourceEntryOffsetRegions, dbgeng/IDebugSymbols3::GetSourceEntryOffsetRegions, debugger.idebugsymbols3_getsourceentryoffsetregions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,12 +38,13 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugSymbols3.GetSourceEntryOffsetRegions
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSourceEntryOffsetRegions method
+# IDebugSymbols3::GetSourceEntryOffsetRegions
 
 
 ## -description
@@ -53,20 +54,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
     with a source entry.  
 
 
-## -syntax
-
-
-````
-HRESULT GetSourceEntryOffsetRegions(
-  [in]            PDEBUG_SYMBOL_SOURCE_ENTRY                      Entry,
-  [in]            ULONG                                           Flags,
-  [out]           _writes_opt_(RegionsCount) PDEBUG_OFFSET_REGION Regions,
-  [in]            ULONG                                           RegionsCount,
-  [out, optional] PULONG                                          RegionsAvail
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ HRESULT GetSourceEntryOffsetRegions(
 
 ### -param Entry [in]
 
-An entry as a <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure. 
+An entry as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541680">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure. 
 
 
 ### -param Flags [in]
@@ -112,20 +99,19 @@ This function returns all known memory regions that associated
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541680">DEBUG_SYMBOL_SOURCE_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
 
 
 
 <a href="https://msdn.microsoft.com/986774F6-5256-4703-990A-EAB4AB09AF55">IDebugSymbols3::GetSymbolEntryOffsetRegions</a>
-
-
-
  
 
  
-
 

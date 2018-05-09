@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usb_get_hub_name.htm
 old-project: usbref
 ms.assetid: af0a1cfe-16e8-4356-9b5c-2e2523869906
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_INTERNAL_USB_GET_HUB_NAME, IOCTL_INTERNAL_USB_GET_HUB_NAME control code [Buses], buses.ioctl_internal_usb_get_hub_name, usbioctl/IOCTL_INTERNAL_USB_GET_HUB_NAME, usbirp_54327688-c86b-4d05-b81d-5368f694f9ca.xml
+ms.date: 4/25/2018
+ms.keywords: IOCTL_INTERNAL_USB_GET_HUB_NAME, IOCTL_INTERNAL_USB_GET_HUB_NAME control, IOCTL_INTERNAL_USB_GET_HUB_NAME control code [Buses], buses.ioctl_internal_usb_get_hub_name, usbioctl/IOCTL_INTERNAL_USB_GET_HUB_NAME, usbirp_54327688-c86b-4d05-b81d-5368f694f9ca.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_INTERNAL_USB_GET_HUB_NAME
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_USB_GET_HUB_NAME IOCTL
@@ -67,7 +67,7 @@ Drivers can use the symbolic name to retrieve additional information about the h
 
 ### -input-buffer
 
-<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> points to a <a href="..\usbioctl\ns-usbioctl-_usb_hub_name.md">USB_HUB_NAME</a> structure.
+<b>Irp-&gt;AssociatedIrp.SystemBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540025">USB_HUB_NAME</a> structure.
 
 
 ### -input-buffer-length
@@ -110,12 +110,11 @@ A lower-level driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or th
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_root_hub_name.md">USB_ROOT_HUB_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540142">USB_ROOT_HUB_NAME</a>
  
 
  
-
 

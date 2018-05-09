@@ -7,7 +7,7 @@ old-location: display\iddcx_endpoint_version.htm
 old-project: display
 ms.assetid: ad6220e3-9b6a-4a46-978b-31edfb2c8b9b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IDDCX_ENDPOINT_VERSION, IDDCX_ENDPOINT_VERSION structure [Display Devices], display.iddcx_endpoint_version, iddcx/IDDCX_ENDPOINT_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_ENDPOINT_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,20 +53,6 @@ req.typenames:
 
                  Gives version information about the video data endpoint.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_ENDPOINT_VERSION {
-  UINT   Size;
-  UINT   MajorVer;
-  UINT   MinorVer;
-  UINT   Build;
-  UINT64 SKU;
-} IDDCX_ENDPOINT_VERSION, *IDDCX_ENDPOINT_VERSION;
-````
 
 
 ## -struct-fields

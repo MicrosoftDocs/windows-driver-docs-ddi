@@ -7,7 +7,7 @@ old-location: netvista\ril_getalladditionalnumberstrings.htm
 old-project: netvista
 ms.assetid: fc0f5a3b-3ab0-4103-85a2-f7b5ce64ec79
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetAllAdditionalNumberStrings, RIL_GetAllAdditionalNumberStrings method [Network Drivers Starting with Windows Vista], netvista.ril_getalladditionalnumberstrings, rilapi/RIL_GetAllAdditionalNumberStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_GetAllAdditionalNumberStrings
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetAllAdditionalNumberStrings function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_GetAllAdditionalNumberStrings(
-   HRIL     hRil,
-   LPVOID   lpContext,
-   HUICCAPP hUiccApp
-);
-````
 
 
 ## -parameters

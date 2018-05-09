@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	POWER_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
 ---
 
 # __MIDL___MIDL_itf_wudfddi_0000_0000_0001 enumeration
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>POWER_ACTION</b> enumeration identifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564553">system power actions</a> that can occur on a computer.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  PowerActionNone           = 0,
-  PowerActionReserved       = ( PowerActionNone + 1 ),
-  PowerActionSleep          = ( PowerActionReserved + 1 ),
-  PowerActionHibernate      = ( PowerActionSleep + 1 ),
-  PowerActionShutdown       = ( PowerActionHibernate + 1 ),
-  PowerActionShutdownReset  = ( PowerActionShutdown + 1 ),
-  PowerActionShutdownOff    = ( PowerActionShutdownReset + 1 ),
-  PowerActionWarmEject      = ( PowerActionShutdownOff + 1 )
-} POWER_ACTION, *PPOWER_ACTION;
-````
 
 
 ## -enum-fields
@@ -128,12 +111,11 @@ The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="htt
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>
-
-
-
  
 
  
-
 

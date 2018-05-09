@@ -7,7 +7,7 @@ old-location: storage\scsiportreadregisterulong.htm
 old-project: storage
 ms.assetid: e644fce4-2367-4851-8252-47a25faf0b6d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ScsiPortReadRegisterUlong, ScsiPortReadRegisterUlong routine [Storage Devices], scsiprt_fe99fb31-bbec-4213-bfe5-88efbe2e71e9.xml, srb/ScsiPortReadRegisterUlong, storage.scsiportreadregisterulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Scsiport.dll
 api_name:
 -	ScsiPortReadRegisterUlong
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ScsiPortReadRegisterUlong function
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 
 The <b>ScsiPortReadRegisterUlong</b> routine reads a ULONG value from the HBA.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-ULONG ScsiPortReadRegisterUlong(
-  _In_ PULONG Register
-);
-````
-
 
 ## -parameters
 
@@ -94,12 +84,11 @@ Pointer to the register. The given <i>Register</i> must be in a mapped memory-sp
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564629">ScsiPortGetDeviceBase</a>
  
 
  
-
 

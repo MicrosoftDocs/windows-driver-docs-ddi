@@ -7,7 +7,7 @@ old-location: netvista\wdi_cipher_algorithm.htm
 old-project: netvista
 ms.assetid: 08413358-DFBC-4AC3-97B3-380D98EFFBF3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_CIPHER_ALGORITHM, WDI_CIPHER_ALGORITHM enumeration [Device and Driver Installation], WDI_CIPHER_ALGO_BIP, WDI_CIPHER_ALGO_CCMP, WDI_CIPHER_ALGO_GCMP, WDI_CIPHER_ALGO_IHV_END, WDI_CIPHER_ALGO_IHV_START, WDI_CIPHER_ALGO_NONE, WDI_CIPHER_ALGO_RSN_USE_GROUP, WDI_CIPHER_ALGO_TKIP, WDI_CIPHER_ALGO_WEP, WDI_CIPHER_ALGO_WEP104, WDI_CIPHER_ALGO_WEP40, WDI_CIPHER_ALGO_WPA_USE_GROUP, _WDI_CIPHER_ALGORITHM, netvista.wdi_cipher_algorithm, netvista.wifi_cipher_algorithm, wditypes/WDI_CIPHER_ALGORITHM, wditypes/WDI_CIPHER_ALGO_BIP, wditypes/WDI_CIPHER_ALGO_CCMP, wditypes/WDI_CIPHER_ALGO_GCMP, wditypes/WDI_CIPHER_ALGO_IHV_END, wditypes/WDI_CIPHER_ALGO_IHV_START, wditypes/WDI_CIPHER_ALGO_NONE, wditypes/WDI_CIPHER_ALGO_RSN_USE_GROUP, wditypes/WDI_CIPHER_ALGO_TKIP, wditypes/WDI_CIPHER_ALGO_WEP, wditypes/WDI_CIPHER_ALGO_WEP104, wditypes/WDI_CIPHER_ALGO_WEP40, wditypes/WDI_CIPHER_ALGO_WPA_USE_GROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wditypes.hpp
 api_name:
 -	WDI_CIPHER_ALGORITHM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_CIPHER_ALGORITHM
-req.product: Windows 10 or later.
 ---
 
 # _WDI_CIPHER_ALGORITHM enumeration
@@ -51,27 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WDI_CIPHER_ALGORITHM enumeration defines the cipher algorithm values.
-
-
-## -syntax
-
-
-````
-typedef enum _WDI_CIPHER_ALGORITHM { 
-  WDI_CIPHER_ALGO_NONE           = 0x00,
-  WDI_CIPHER_ALGO_WEP40          = 0x01,
-  WDI_CIPHER_ALGO_TKIP           = 0x02,
-  WDI_CIPHER_ALGO_CCMP           = 0x04,
-  WDI_CIPHER_ALGO_WEP104         = 0x05,
-  WDI_CIPHER_ALGO_BIP            = 0x06,
-  WDI_CIPHER_ALGO_GCMP           = 0x08,
-  WDI_CIPHER_ALGO_WPA_USE_GROUP  = 0x100,
-  WDI_CIPHER_ALGO_RSN_USE_GROUP  = 0x100,
-  WDI_CIPHER_ALGO_WEP            = 0x101,
-  WDI_CIPHER_ALGO_IHV_START      = 0x80000000,
-  WDI_CIPHER_ALGO_IHV_END        = 0xffffffff
-} WDI_CIPHER_ALGORITHM;
-````
 
 
 ## -enum-fields

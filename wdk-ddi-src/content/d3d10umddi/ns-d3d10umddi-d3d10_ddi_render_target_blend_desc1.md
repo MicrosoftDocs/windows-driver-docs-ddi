@@ -7,7 +7,7 @@ old-location: display\d3d10_ddi_render_target_blend_desc1.htm
 old-project: display
 ms.assetid: 4cbc3072-46f1-40c3-ba3f-4d99f19b280e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10_DDI_RENDER_TARGET_BLEND_DESC1, D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure [Display Devices], UMDisplayDriver_Dx10param_Structs_cc133adc-9ca8-4596-b3b8-9c3b352cd696.xml, d3d10umddi/D3D10_DDI_RENDER_TARGET_BLEND_DESC1, display.d3d10_ddi_render_target_blend_desc1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10_DDI_RENDER_TARGET_BLEND_DESC1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10_DDI_RENDER_TARGET_BLEND_DESC1
 ---
@@ -50,23 +51,6 @@ req.typenames: D3D10_DDI_RENDER_TARGET_BLEND_DESC1
 
 
 The D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure describes a blend state for a render target.
-
-
-## -syntax
-
-
-````
-typedef struct D3D10_DDI_RENDER_TARGET_BLEND_DESC1 {
-  BOOL               BlendEnable;
-  D3D10_DDI_BLEND    SrcBlend;
-  D3D10_DDI_BLEND    DestBlend;
-  D3D10_DDI_BLEND_OP BlendOp;
-  D3D10_DDI_BLEND    SrcBlendAlpha;
-  D3D10_DDI_BLEND    DestBlendAlpha;
-  D3D10_DDI_BLEND_OP BlendOpAlpha;
-  UINT8              RenderTargetWriteMask;
-} D3D10_DDI_RENDER_TARGET_BLEND_DESC1;
-````
 
 
 ## -struct-fields
@@ -81,32 +65,32 @@ typedef struct D3D10_DDI_RENDER_TARGET_BLEND_DESC1 {
 
 ### -field SrcBlend
 
-[in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>-typed value that indicates the blend mode of the source for the enabled render target. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541916">D3D10_DDI_BLEND</a>-typed value that indicates the blend mode of the source for the enabled render target. 
 
 
 ### -field DestBlend
 
-[in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>-typed value that indicates the blend mode of the destination for the enabled render target. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541916">D3D10_DDI_BLEND</a>-typed value that indicates the blend mode of the destination for the enabled render target. 
 
 
 ### -field BlendOp
 
-[in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>-typed value that indicates the blending operation for the enabled render target. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541923">D3D10_DDI_BLEND_OP</a>-typed value that indicates the blending operation for the enabled render target. 
 
 
 ### -field SrcBlendAlpha
 
-[in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>-typed value that indicates the transparency blend mode of the source for the enabled render target. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541916">D3D10_DDI_BLEND</a>-typed value that indicates the transparency blend mode of the source for the enabled render target. 
 
 
 ### -field DestBlendAlpha
 
-[in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>-typed value that indicates the transparency blend mode of the destination for the enabled render target. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541916">D3D10_DDI_BLEND</a>-typed value that indicates the transparency blend mode of the destination for the enabled render target. 
 
 
 ### -field BlendOpAlpha
 
-[in] A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>-typed value that indicates the transparency blending operation for the enabled render target. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541923">D3D10_DDI_BLEND_OP</a>-typed value that indicates the transparency blending operation for the enabled render target. 
 
 
 ### -field RenderTargetWriteMask
@@ -176,35 +160,34 @@ Writes red, green, blue, and a transparency level
 
 
 
-An array of D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structures are specified in the <b>RenderTarget</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1_ddi_blend_desc.md">D3D10_1_DDI_BLEND_DESC</a> structure to describe a blend state. 
+An array of D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structures are specified in the <b>RenderTarget</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541880">D3D10_1_DDI_BLEND_DESC</a> structure to describe a blend state. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1_ddi_blend_desc.md">D3D10_1_DDI_BLEND_DESC</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
+<a href="https://msdn.microsoft.com/6f48290e-d571-4e59-9f33-58398db5b6fb">CalcPrivateBlendStateSize(D3D10_1)</a>
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
+<a href="https://msdn.microsoft.com/1b258f28-c386-477c-92d1-cb5918080dcf">CreateBlendState(D3D10_1)</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_createblendstate.md">CreateBlendState(D3D10_1)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541880">D3D10_1_DDI_BLEND_DESC</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D10_1)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541916">D3D10_DDI_BLEND</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541923">D3D10_DDI_BLEND_OP</a>
  
 
  
-
 

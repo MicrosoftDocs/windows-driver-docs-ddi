@@ -7,7 +7,7 @@ old-location: stream\kscamera_extendedprop_photomode.htm
 old-project: stream
 ms.assetid: 96F920FC-43CE-4ACC-B880-9AD03B5D6009
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_PHOTOMODE, PKSCAMERA_EXTENDEDPROP_PHOTOMODE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_PHOTOMODE, ksmedia/PKSCAMERA_EXTENDEDPROP_PHOTOMODE, stream.kscamera_extendedprop_photomode, tagKSCAMERA_EXTENDEDPROP_PHOTOMODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_PHOTOMODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_PHOTOMODE, *PKSCAMERA_EXTENDEDPROP_PHOTOMODE
 ---
@@ -50,19 +51,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_PHOTOMODE, *PKSCAMERA_EXTENDEDPROP_PHOTOMOD
 
 
 The <b>KSCAMERA_EXTENDEDPROP_PHOTOMODE</b> structure contains the property data for the history  frame counts in photo mode. This structure is used when setting or retrieving the data for the <a href="https://msdn.microsoft.com/library/windows/hardware/dn917959">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE</a> extended control property.
-
-
-## -syntax
-
-
-````
-typedef struct _KSCAMERA_EXTENDEDPROP_PHOTOMODE {
-  ULONG RequestedHistoryFrames;
-  ULONG MaxHistoryFrames;
-  ULONG SubMode;
-  ULONG Reserved;
-} KSCAMERA_EXTENDEDPROP_PHOTOMODE, *PKSCAMERA_EXTENDEDPROP_PHOTOMODE;
-````
 
 
 ## -struct-fields
@@ -92,12 +80,11 @@ Reserved. Set to 0.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn917959">KSPROPERTY_CAMERACONTROL_EXTENDED_PHOTOMODE</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_DRIVER_REQUEST_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_DRIVER_REQUEST_DATA
 ---
@@ -52,19 +53,6 @@ req.typenames: GNSS_DRIVER_REQUEST_DATA
 This structure contains driver data request information.
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG               Size;
-  ULONG               Version;
-  GNSS_DRIVER_REQUEST Request;
-  ULONG               RequestFlag;
-} GNSS_DRIVER_REQUEST_DATA, *PGNSS_DRIVER_REQUEST_DATA;
-````
 
 
 ## -struct-fields
@@ -86,7 +74,7 @@ Version number.
 
 The type of request made by the driver.
 
-Represented by the <a href="..\gnssdriver\ne-gnssdriver-gnss_driver_request.md">GNSS_DRIVER_REQUEST</a> enumeration.
+Represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925124">GNSS_DRIVER_REQUEST</a> enumeration.
 
 
 ### -field RequestFlag

@@ -7,7 +7,7 @@ old-location: bltooth\sco_indication_parameters.htm
 old-project: bltooth
 ms.assetid: 2d3ae219-8a40-476c-b8eb-94f4c0566527
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PSCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS structure pointer [Bluetooth Devices], SCO_INDICATION_PARAMETERS, SCO_INDICATION_PARAMETERS structure [Bluetooth Devices], _SCO_INDICATION_PARAMETERS, bltooth.sco_indication_parameters, bth_structs_73ebf679-d092-4b0a-a54f-84539b8c85ae.xml, bthddi/PSCO_INDICATION_PARAMETERS, bthddi/SCO_INDICATION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	SCO_INDICATION_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS
 ---
@@ -51,28 +52,6 @@ req.typenames: SCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS
 
 The SCO_INDICATION_PARAMETERS structure describes indication parameters about a SCO connect or
   disconnect notification.
-
-
-## -syntax
-
-
-````
-typedef struct _SCO_INDICATION_PARAMETERS {
-  SCO_CHANNEL_HANDLE ConnectionHandle;
-  BTH_ADDR           BtAddress;
-  union {
-    struct {
-      struct {
-        SCO_LINK_TYPE LinkType;
-      } Request;
-    } Connect;
-    struct {
-      SCO_DISCONNECT_REASON Reason;
-      BOOLEAN               CloseNow;
-    } Disconnect;
-  } Parameters;
-} SCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -109,11 +88,10 @@ The structure that contains parameters for the
 The structure that contains the parameters for the SCO connection request.
 
 
-
-###### Connect.Request.LinkType
+### -field Parameters.Connect.Request.LinkType
 
 A value from the 
-        <a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a> enumeration that indicates the
+        <a href="https://msdn.microsoft.com/library/windows/hardware/ff536781">SCO_LINK_TYPE</a> enumeration that indicates the
         type of incoming connection.
 
 
@@ -126,7 +104,7 @@ The structure that contains parameters for the
 ### -field Parameters.Disconnect.Reason
 
 A 
-       <a href="..\bthddi\ne-bthddi-_sco_disconnect_reason.md">SCO_DISCONNECT_REASON</a> value that
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536775">SCO_DISCONNECT_REASON</a> value that
        indicates why the SCO connection was terminated.
 
 
@@ -142,7 +120,7 @@ A Boolean value that a profile driver can set to indicate whether the SCO connec
 
 
 A profile driver's 
-    <a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a> should process
+    <a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a> should process
     a notification differently depending upon the value that the Bluetooth driver stack passes in the 
     <i>Indication</i> parameter of the callback function.
 
@@ -161,16 +139,15 @@ When the Bluetooth driver stack passes
 
 ## -see-also
 
-<a href="..\bthddi\ne-bthddi-_sco_disconnect_reason.md">SCO_DISCONNECT_REASON</a>
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+<a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536775">SCO_DISCONNECT_REASON</a>
  
 
  
-
 

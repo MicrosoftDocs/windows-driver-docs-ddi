@@ -7,7 +7,7 @@ old-location: storage\storportreadregisterbufferushort.htm
 old-project: storage
 ms.assetid: 169f1089-ac17-4d4c-b989-018ff087aa39
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortReadRegisterBufferUshort, StorPortReadRegisterBufferUshort routine [Storage Devices], storage.storportreadregisterbufferushort, storport/StorPortReadRegisterBufferUshort, storprt_9ba740e5-78b0-464d-903c-6bb4c22788fd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortReadRegisterBufferUshort
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortReadRegisterBufferUshort macro
@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortReadRegisterBufferUshort</b> routine reads a value from a specified register address. 
-
-
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortReadRegisterBufferUshort(
-  _In_ PVOID   HwDeviceExtension,
-  _In_ PUSHORT Register,
-  _In_ PUSHORT Buffer,
-  _In_ ULONG   Count
-);
-````
 
 
 ## -parameters
@@ -120,23 +107,22 @@ Pointer to the register where the data is to be read.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportreadregisterbufferushort.md">ScsiPortReadRegisterBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterushort.md">StorPortReadRegisterUshort</a>.
+For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564737">ScsiPortReadRegisterBufferUshort</a>. For a nonbuffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567488">StorPortReadRegisterUshort</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreadregisterushort.md">StorPortReadRegisterUshort</a>
 
 
 
-<a href="..\storport\nf-storport-scsiportreadregisterbufferushort.md">ScsiPortReadRegisterBufferUshort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564737">ScsiPortReadRegisterBufferUshort</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567488">StorPortReadRegisterUshort</a>
  
 
  
-
 

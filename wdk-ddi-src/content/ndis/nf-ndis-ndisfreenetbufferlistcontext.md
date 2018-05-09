@@ -7,7 +7,7 @@ old-location: netvista\ndisfreenetbufferlistcontext.htm
 old-project: netvista
 ms.assetid: e5554790-a7a2-4c0d-a6ae-585ea909cd3d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisFreeNetBufferListContext, NdisFreeNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferListContext, ndis_netbuf_functions_ref_ee330dac-2453-46e7-a298-7d4a59caf0ab.xml, netvista.ndisfreenetbufferlistcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisFreeNetBufferListContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisFreeNetBufferListContext function
@@ -52,20 +53,9 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisFreeNetBufferListContext</b> function to release context space in the 
-  <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a> structure of a
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a> structure of a
   
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeNetBufferListContext(
-  _In_ PNET_BUFFER_LIST NetBufferList,
-  _In_ USHORT           ContextSize
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 
 ## -parameters
@@ -97,7 +87,7 @@ None
 
 
 <b>NdisFreeNetBufferListContext</b> releases context space that was allocated in a previous call to 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
+    <a href="https://msdn.microsoft.com/3bbad723-86bf-4206-9e51-52a66efaec20">
     NdisAllocateNetBufferListContext</a>. If 
     <b>NdisAllocateNetBufferListContext</b> allocated memory to satisfy in the call to 
     <b>NdisAllocateNetBufferListContext</b>, 
@@ -108,21 +98,20 @@ None
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/3bbad723-86bf-4206-9e51-52a66efaec20">
    NdisAllocateNetBufferListContext</a>
-
-
-
  
 
  
-
 

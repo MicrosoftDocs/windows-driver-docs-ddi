@@ -7,7 +7,7 @@ old-location: image\rangevalue.htm
 old-project: image
 ms.assetid: 18322d1f-9fc9-43f0-925e-616731845792
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PRANGEVALUE, MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, PRANGEVALUE, PRANGEVALUE structure pointer [Imaging Devices], RANGEVALUE, RANGEVALUE structure [Imaging Devices], _RANGEVALUE, image.rangevalue, wiamicro/PRANGEVALUE, wiamicro/RANGEVALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiamicro.h
 api_name:
 -	RANGEVALUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RANGEVALUE, *PRANGEVALUE
-req.product: Windows 10 or later.
 ---
 
 # _RANGEVALUE structure
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The RANGEVALUE structure is used by a microdriver to communicate to the WIA Flatbed driver the legal values for a microdriver function parameter.
-
-
-## -syntax
-
-
-````
-typedef struct _RANGEVALUE {
-  LONG lMin;
-  LONG lMax;
-  LONG lStep;
-} RANGEVALUE, *PRANGEVALUE;
-````
 
 
 ## -struct-fields

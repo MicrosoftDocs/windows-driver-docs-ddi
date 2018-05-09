@@ -7,7 +7,7 @@ old-location: print\branchofficejobdataprinted.htm
 old-project: print
 ms.assetid: 77737A33-9592-43A3-B12A-5BFDCA0209BE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PBranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted structure [Print Devices], PBranchOfficeJobDataPrinted, PBranchOfficeJobDataPrinted structure pointer [Print Devices], print.branchofficejobdataprinted, winsplp/BranchOfficeJobDataPrinted, winsplp/PBranchOfficeJobDataPrinted"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Winsplp.h
 api_name:
 -	BranchOfficeJobDataPrinted
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted
-req.product: Windows 10 or later.
 ---
 
 # BranchOfficeJobDataPrinted structure
@@ -51,23 +51,6 @@ req.product: Windows 10 or later.
 
 
 Contains the necessary data for logging a branch office job completed event on a remote server. This is based on standard job-related data available to the spooler.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  DWORD    Status;
-  LPWSTR   pDocumentName;
-  LPWSTR   pUserName;
-  LPWSTR   pMachineName;
-  LPWSTR   pPrinterName;
-  LPWSTR   pPortName;
-  LONGLONG Size;
-  DWORD    TotalPages;
-} BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted;
-````
 
 
 ## -struct-fields

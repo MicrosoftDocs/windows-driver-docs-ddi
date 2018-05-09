@@ -7,7 +7,7 @@ old-location: sensors\sensorscxsensorinitialize.htm
 old-project: sensors
 ms.assetid: D6C0B66A-58ED-4E1D-89E2-4A1AF77281C1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SensorsCxSensorInitialize, SensorsCxSensorInitialize function [Sensor Devices], sensors.sensorscxsensorinitialize, sensorscx/SensorsCxSensorInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	SensorsCxSensorInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SensorsCxSensorInitialize function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 This function sets the enumeration properties of a sensor.
 
  For more information about sensor properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957027">Enumeration properties</a>.
-
-
-## -syntax
-
-
-````
-FORCEINLINE NTSTATUS SensorsCxSensorInitialize(
-  _In_ SENSOROBJECT   Sensor,
-  _In_ PSENSOR_CONFIG pSensorConfig
-);
-````
 
 
 ## -parameters
@@ -78,7 +67,7 @@ A reference to a sensor object.
 
 ### -param pSensorConfig [in]
 
-A list of enumeration properties. For more information, see <a href="..\sensorscx\ns-sensorscx-_sensor_config.md">SENSOR_CONFIG</a>.
+A list of enumeration properties. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957096">SENSOR_CONFIG</a>.
 
 
 ## -returns
@@ -97,7 +86,7 @@ STATUS_INVALID_PARAMETER is returned if any of the _In_ parameters are NULL or t
 
 </li>
 <li>
-STATUS_BUFFER_TOO_SMALL is returned if the <b>pSensorConfig</b> buffer is smaller than the size of the <a href="..\sensorscx\ns-sensorscx-_sensor_config.md">SENSOR_CONFIG</a> structure.
+STATUS_BUFFER_TOO_SMALL is returned if the <b>pSensorConfig</b> buffer is smaller than the size of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957096">SENSOR_CONFIG</a> structure.
 
 </li>
 <li>

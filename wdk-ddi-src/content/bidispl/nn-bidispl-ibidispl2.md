@@ -7,8 +7,8 @@ old-location: print\ibidispl2.htm
 old-project: print
 ms.assetid: 90e8a390-7d30-4bcf-8c81-438c86529ceb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IBidiSpl2, IBidiSpl2 interface [Print Devices], IBidiSpl2 interface [Print Devices], described, _win32_IBidiSpl2, bidispl/IBidiSpl2, gdi.ibidispl2, print.ibidispl2
+ms.date: 4/20/2018
+ms.keywords: IBidiSpl2, IBidiSpl2 interface [Print Devices], IBidiSpl2 interface [Print Devices],described, _win32_IBidiSpl2, bidispl/IBidiSpl2, gdi.ibidispl2, print.ibidispl2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: Bidispl.dll
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -38,9 +38,10 @@ api_location:
 -	Bidispl.h
 api_name:
 -	IBidiSpl2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
 # IBidiSpl2 interface
@@ -108,7 +109,6 @@ Releases a printer from a bidirectional communication request.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
 
 
 
@@ -120,8 +120,8 @@ Releases a printer from a bidirectional communication request.
 
 
 
+<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
  
 
  
-
 

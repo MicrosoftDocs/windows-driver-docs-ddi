@@ -7,7 +7,7 @@ old-location: display\d3dkmtcreatehwcontext.htm
 old-project: display
 ms.assetid: 147F46A9-1182-4480-8886-7C39F940EA7D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTCreateHwContext, D3DKMTCreateHwContext method [Display Devices], d3dkmthk/D3DKMTCreateHwContext, display.d3dkmtcreatehwcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTCreateHwContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTCreateHwContext function
@@ -52,19 +53,14 @@ req.typenames: D3DKMT_DRIVERVERSION
 Used to create a new hardware context.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTCreateHwContext(
-  _Inout_ D3DKMT_CREATEHWCONTEXT *createHwContext
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 

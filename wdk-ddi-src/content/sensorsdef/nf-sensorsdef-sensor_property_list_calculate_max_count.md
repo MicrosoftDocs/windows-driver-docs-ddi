@@ -7,7 +7,7 @@ old-location: sensors\sensor_property_list_calculate_max_count.htm
 old-project: sensors
 ms.assetid: 5E639331-5929-4575-855F-CAFB4E77B66D
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], sensors.sensor_property_list_calculate_max_count, sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SENSOR_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 This function calculates the number of PROPERTYKEY elements.
 
 
-## -syntax
-
-
-````
-FORCEINLINE ULONG SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT(
-  _In_ PSENSOR_PROPERTY_LIST pPropertyList
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ FORCEINLINE ULONG SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT(
 
 ### -param pPropertyList [in]
 
-A pointer to a <a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a> structure.
 
 
 ## -returns
@@ -84,12 +74,11 @@ The <b>SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT</b> function returns a ULONG val
 
 ## -see-also
 
-<a href="..\sensorsdef\ns-sensorsdef-sensor_property_list.md">SENSOR_PROPERTY_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a>
  
 
  
-
 

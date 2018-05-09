@@ -7,7 +7,7 @@ old-location: storage\hwstorpassiveinitializeroutine.htm
 old-project: storage
 ms.assetid: 70f65a4e-0a98-4135-bb38-530c729538a3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HW_PASSIVE_INITIALIZE_ROUTINE, HwStorPassiveInitializeRoutine, HwStorPassiveInitializeRoutine routine [Storage Devices], storage.hwstorpassiveinitializeroutine, stormini_e2404f14-1cdc-44d7-bd58-97acfa57bc36.xml, storport/HwStorPassiveInitializeRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,32 +38,19 @@ api_location:
 -	Storport.h
 api_name:
 -	HwStorPassiveInitializeRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# HW_PASSIVE_INITIALIZE_ROUTINE callback
+# HW_PASSIVE_INITIALIZE_ROUTINE callback function
 
 
 ## -description
 
 
-The <b>HwStorPassiveInitializeRoutine</b> callback routine is called after the <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine when the current IRQL is at PASSIVE_LEVEL. The <b>HwStorPassiveInitializeRoutine</b> callback is set by calling the <a href="..\storport\nf-storport-storportenablepassiveinitialization.md">StorPortEnablePassiveInitialization</a> routine. Initializing of the miniport's deferred procedure calls (DPCs) occurs in the <b>HwStorPassiveInitializeRoutine</b> callback.
-
-
-## -prototype
-
-
-````
-HW_PASSIVE_INITIALIZE_ROUTINE HwStorPassiveInitializeRoutine;
-
-BOOLEAN HwStorPassiveInitializeRoutine(
-   IN PVOID HwDeviceExtension
-)
-{ ... }
-````
+The <b>HwStorPassiveInitializeRoutine</b> callback routine is called after the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a> routine when the current IRQL is at PASSIVE_LEVEL. The <b>HwStorPassiveInitializeRoutine</b> callback is set by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567056">StorPortEnablePassiveInitialization</a> routine. Initializing of the miniport's deferred procedure calls (DPCs) occurs in the <b>HwStorPassiveInitializeRoutine</b> callback.
 
 
 ## -parameters
@@ -161,12 +148,11 @@ The <b>HW_PASSIVE_INITIALIZE_ROUTINE</b> function type is defined in the Storpor
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportenablepassiveinitialization.md">StorPortEnablePassiveInitialization</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567056">StorPortEnablePassiveInitialization</a>
  
 
  
-
 

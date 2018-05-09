@@ -7,7 +7,7 @@ old-location: kernel\ioupdateshareaccess.htm
 old-project: kernel
 ms.assetid: b8e14607-a8d4-4e15-8b1d-92096879ea65
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoUpdateShareAccess, IoUpdateShareAccess routine [Kernel-Mode Driver Architecture], k104_24b78a73-20f1-4d8b-be0e-67964e8dbc31.xml, kernel.ioupdateshareaccess, wdm/IoUpdateShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoUpdateShareAccess
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoUpdateShareAccess function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoUpdateShareAccess</b> routine updates the share access for the given file object, usually when the file is being opened.
-
-
-## -syntax
-
-
-````
-VOID IoUpdateShareAccess(
-  _In_    PFILE_OBJECT  FileObject,
-  _Inout_ PSHARE_ACCESS ShareAccess
-);
-````
 
 
 ## -parameters
@@ -101,20 +90,19 @@ Before calling <b>IoUpdateShareAccess</b>, the caller must successfully call <b>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioremoveshareaccess.md">IoRemoveShareAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548341">IoCheckShareAccess</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549587">IoRemoveShareAccess</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550324">IoSetShareAccess</a>
  
 
  
-
 

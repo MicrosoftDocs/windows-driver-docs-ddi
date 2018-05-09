@@ -7,7 +7,7 @@ old-location: display\d3d12ddi-video-process-support-data-0032.htm
 old-project: display
 ms.assetid: ea2dabc5-6853-4491-8c1f-f3f5ae516952
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032, display.d3d12ddi-video-process-support-data-0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
 ---
@@ -50,30 +51,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032
 
 
 Video process support data.
-
-
-## -syntax
-
-
-````
-typedef struct _D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 {
-  UINT                                                                               NodeIndex;
-  D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020                                             InputSample;
-  D3D12DDI_VIDEO_FIELD_TYPE_0020                                                     InputFieldType;
-  D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020                                            InputStereoFormat;
-  DXGI_RATIONAL                                                                      InputFrameRate;
-  D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020                                             OutputFormat;
-  D3D12DDI_VIDEO_FRAME_STEREO_FORMAT_0020                                            OutputStereoFormat;
-  DXGI_RATIONAL                                                                      OutputFrameRate;
-  D3D12DDI_VIDEO_PROCESS_SUPPORT_FLAGS_0022                                          SupportFlags;
-  D3D12DDI_VIDEO_SCALE_SUPPORT_0032                                                  ScaleSupport;
-  D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS_0020                                  FeatureSupport;
-  D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS_0020                                      DeinterlaceSupport;
-  D3D12DDI_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS_0022                                  AutoProcessingSupport;
-  D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020                                           FilterSupport;
-  D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 [D3D12DDI_VIDEO_PROCESS_MAX_FILTERS_0020] FilterRangeSupport;
-} D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032, D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032;
-````
 
 
 ## -struct-fields

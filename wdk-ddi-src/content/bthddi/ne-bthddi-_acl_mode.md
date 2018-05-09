@@ -7,7 +7,7 @@ old-location: bltooth\acl_mode.htm
 old-project: bltooth
 ms.assetid: 90013f42-9393-4037-8d0d-13fe5d7caa0b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: ACL_DISCONNECTED, ACL_MODE, ACL_MODE enumeration [Bluetooth Devices], ACL_MODE_ACTIVE, ACL_MODE_ENTER_ACTIVE, ACL_MODE_ENTER_HOLD, ACL_MODE_ENTER_PARK, ACL_MODE_ENTER_SNIFF, ACL_MODE_HOLD, ACL_MODE_PARK, ACL_MODE_SNIFF, _ACL_MODE, bltooth.acl_mode, bth_enums_52494ea2-66f0-4c7d-8f7b-c427a21ee826.xml, bthddi/ACL_DISCONNECTED, bthddi/ACL_MODE, bthddi/ACL_MODE_ACTIVE, bthddi/ACL_MODE_ENTER_ACTIVE, bthddi/ACL_MODE_ENTER_HOLD, bthddi/ACL_MODE_ENTER_PARK, bthddi/ACL_MODE_ENTER_SNIFF, bthddi/ACL_MODE_HOLD, bthddi/ACL_MODE_PARK, bthddi/ACL_MODE_SNIFF
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	ACL_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACL_MODE
 ---
@@ -50,24 +51,6 @@ req.typenames: ACL_MODE
 
 
 The ACL_MODE enumeration type is used to list the possible states of an ACL connection.
-
-
-## -syntax
-
-
-````
-typedef enum _ACL_MODE { 
-  ACL_MODE_ACTIVE        = 0x0,
-  ACL_MODE_HOLD          = 0x1,
-  ACL_MODE_SNIFF         = 0x2,
-  ACL_MODE_PARK          = 0x3,
-  ACL_MODE_ENTER_ACTIVE  = 0x4,
-  ACL_MODE_ENTER_HOLD    = 0x5,
-  ACL_MODE_ENTER_SNIFF   = 0x6,
-  ACL_MODE_ENTER_PARK    = 0x7,
-  ACL_DISCONNECTED       = 0x8
-} ACL_MODE;
-````
 
 
 ## -enum-fields
@@ -125,7 +108,7 @@ This value indicates the ACL is disconnected.
 
 
 The 
-    <a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a> structure uses this
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536855">_BRB_ACL_GET_MODE</a> structure uses this
     enumeration.
 
 
@@ -133,12 +116,11 @@ The
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_acl_get_mode.md">_BRB_ACL_GET_MODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536855">_BRB_ACL_GET_MODE</a>
  
 
  
-
 

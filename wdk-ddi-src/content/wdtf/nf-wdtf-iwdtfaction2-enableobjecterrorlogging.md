@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFAction2.EnableObjectErrorLogging
-title: IWDTFAction2::EnableObjectErrorLogging method
+title: IWDTFAction2::EnableObjectErrorLogging
 author: windows-driver-content
 description: Enables object error logging for the action.
 old-location: dtf\iwdtfaction2_enableobjecterrorlogging.htm
 old-project: dtf
 ms.assetid: 684e3c82-65f1-43fd-858a-461760dcaa8d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: EnableObjectErrorLogging method [Windows Device Testing Framework], EnableObjectErrorLogging method [Windows Device Testing Framework], IWDTFAction2 interface, EnableObjectErrorLogging,IWDTFAction2.EnableObjectErrorLogging, IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], EnableObjectErrorLogging method, IWDTFAction2::EnableObjectErrorLogging, Microsoft.WDTF.IWDTFAction2.EnableObjectErrorLogging, Microsoft::WDTF::IWDTFAction2::EnableObjectErrorLogging, dtf.iwdtfaction2_enableobjecterrorlogging, wdtf/IWDTFAction2::EnableObjectErrorLogging
+ms.date: 4/4/2018
+ms.keywords: EnableObjectErrorLogging, EnableObjectErrorLogging method [Windows Device Testing Framework], EnableObjectErrorLogging method [Windows Device Testing Framework],IWDTFAction2 interface, IWDTFAction2 interface [Windows Device Testing Framework],EnableObjectErrorLogging method, IWDTFAction2.EnableObjectErrorLogging, IWDTFAction2::EnableObjectErrorLogging, Microsoft.WDTF.IWDTFAction2.EnableObjectErrorLogging, Microsoft::WDTF::IWDTFAction2::EnableObjectErrorLogging, dtf.iwdtfaction2_enableobjecterrorlogging, wdtf/IWDTFAction2::EnableObjectErrorLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,27 +38,19 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFAction2.EnableObjectErrorLogging
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFAction2::EnableObjectErrorLogging method
+# IWDTFAction2::EnableObjectErrorLogging
 
 
 ## -description
 
 
 Enables object error logging for the action.
-
-
-## -syntax
-
-
-````
-HRESULT EnableObjectErrorLogging();
-````
 
 
 ## -parameters
@@ -79,12 +71,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a>
  
 
  
-
 

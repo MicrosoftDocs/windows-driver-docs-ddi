@@ -7,7 +7,7 @@ old-location: netvista\wsk_registration.htm
 old-project: netvista
 ms.assetid: 770c53bb-5e11-4bd4-a175-6ea6ae0bb782
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWSK_REGISTRATION, PWSK_REGISTRATION, PWSK_REGISTRATION structure pointer [Network Drivers Starting with Windows Vista], WSK_REGISTRATION, WSK_REGISTRATION structure [Network Drivers Starting with Windows Vista], _WSK_REGISTRATION, netvista.wsk_registration, wsk/PWSK_REGISTRATION, wsk/WSK_REGISTRATION, wskref_1ad5b68d-5a86-476c-aa04-0f11db552a01.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_REGISTRATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_REGISTRATION, *PWSK_REGISTRATION
-req.product: Windows 10 or later.
 ---
 
 # _WSK_REGISTRATION structure
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 The WSK_REGISTRATION structure is used by the WSK subsystem to register or unregister a WSK
   application as a WSK client.
-
-
-## -syntax
-
-
-````
-typedef struct _WSK_REGISTRATION {
-  ULONGLONG  ReservedRegistrationState;
-  PVOID      ReservedRegistrationContext;
-  KSPIN_LOCK ReservedRegistrationLock;
-} WSK_REGISTRATION, *PWSK_REGISTRATION;
-````
 
 
 ## -struct-fields

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 5BA627C9-747D-493A-B568-B2912BBB622F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFCSE_HCE_REMOTE_SEND, IOCTL_NFCSE_HCE_REMOTE_SEND control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_HCE_REMOTE_SEND, nfpdrivers.ioctl_nfcse_hce_remote_send
+ms.keywords: IOCTL_NFCSE_HCE_REMOTE_SEND, IOCTL_NFCSE_HCE_REMOTE_SEND control, IOCTL_NFCSE_HCE_REMOTE_SEND control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_HCE_REMOTE_SEND, nfpdrivers.ioctl_nfcse_hce_remote_send
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_HCE_REMOTE_SEND
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_NFCSE_HCE_REMOTE_SEND IOCTL
@@ -61,7 +62,7 @@ Transmits response APDU from DeviceHost NFCEE to remote device. The caller must 
 
 ### -input-buffer
 
-Pointer to buffer containing <a href="..\nfcsedev\ns-nfcsedev-_secure_element_hce_data_packet.md">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure.
+Pointer to buffer containing <a href="https://msdn.microsoft.com/library/windows/hardware/dn905624">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure.
 
 
 

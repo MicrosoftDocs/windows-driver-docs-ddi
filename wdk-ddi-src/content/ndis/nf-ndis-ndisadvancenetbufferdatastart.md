@@ -7,7 +7,7 @@ old-location: netvista\ndisadvancenetbufferdatastart.htm
 old-project: netvista
 ms.assetid: 49b69282-137d-4bb5-92f5-4d27cedbb6d4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisAdvanceNetBufferDataStart, NdisAdvanceNetBufferDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisAdvanceNetBufferDataStart, ndis_netbuf_functions_ref_b03aee2c-859d-425f-9b07-91b324505ff4.xml, netvista.ndisadvancenetbufferdatastart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisAdvanceNetBufferDataStart
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisAdvanceNetBufferDataStart function
@@ -53,21 +54,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 Call the 
   <b>NdisAdvanceNetBufferDataStart</b> function to release the 
   <i>used data space</i> that was added with the 
-  <a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+  <a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
   NdisRetreatNetBufferDataStart</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisAdvanceNetBufferDataStart(
-  _In_     PNET_BUFFER                 NetBuffer,
-  _In_     ULONG                       DataOffsetDelta,
-  _In_     BOOLEAN                     FreeMdl,
-  _In_opt_ NET_BUFFER_FREE_MDL_HANDLER FreeMdlHandler
-);
-````
 
 
 ## -parameters
@@ -78,7 +66,7 @@ VOID NdisAdvanceNetBufferDataStart(
 ### -param NetBuffer [in]
 
 A pointer to a previously allocated 
-     <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
 
 
 ### -param DataOffsetDelta [in]
@@ -98,7 +86,7 @@ A BOOLEAN value that, if <b>TRUE</b>, requests NDIS to free any MDLs that become
 ### -param FreeMdlHandler [in, optional]
 
 An optional entry point for an 
-     <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a> function. If the caller
+     <a href="https://msdn.microsoft.com/a92b2de9-231d-4dcc-8220-857063a35eb1">NetFreeMdl</a> function. If the caller
      specifies an entry point for the 
      <i>NetFreeMdl</i> function, NDIS calls 
      <i>NetFreeMdl</i> to free an MDL and memory.
@@ -118,20 +106,20 @@ None
 
 
 If NDIS allocated memory to satisfy a corresponding call to the 
-    <a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+    <a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
     NdisRetreatNetBufferDataStart</a> function, then 
     <b>NdisAdvanceNetBufferDataStart</b> frees the memory that 
     <b>NdisRetreatNetBufferDataStart</b> allocated. Otherwise, the memory remains in the MDL and only the
     value of the 
     <b>DataOffset</b> member of the 
-    <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a> structure is modified.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure is modified.
 
 NDIS calls the 
-    <a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a> function specified at 
+    <a href="https://msdn.microsoft.com/a92b2de9-231d-4dcc-8220-857063a35eb1">NetFreeMdl</a> function specified at 
     <i>FreeMdl</i> if 
     <b>NdisAdvanceNetBufferDataStart</b> must free memory. NDIS calls 
     <i>NetFreeMdl</i> only to free the MDLs and memory that the driver allocated in the 
-    <a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a> function.
+    <a href="https://msdn.microsoft.com/14247f48-7ef8-481c-aa1e-e657475812fa">NetAllocateMdl</a> function.
 
 When protocol drivers call 
     <b>NdisAdvanceNetBufferDataStart</b> on the receive path to access the various transport headers, the MDL
@@ -143,25 +131,24 @@ When protocol drivers call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-net_buffer_free_mdl_handler.md">NetFreeMdl</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+<a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
    NdisRetreatNetBufferDataStart</a>
 
 
 
+<a href="https://msdn.microsoft.com/14247f48-7ef8-481c-aa1e-e657475812fa">NetAllocateMdl</a>
+
+
+
+<a href="https://msdn.microsoft.com/a92b2de9-231d-4dcc-8220-857063a35eb1">NetFreeMdl</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\file_provider_external_info_v0.htm
 old-project: ifsk
 ms.assetid: E2368589-9F75-4743-9D38-323221B20EF8
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0 structure [Installable File System Drivers], PFILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0 structure pointer [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V0, ifsk.file_provider_external_info_v0, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_PROVIDER_EXTERNAL_INFO_V0
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0
 ---
@@ -49,18 +50,7 @@ req.typenames: FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0
 ## -description
 
 
-This structure may be altered or unavailable. Instead, use <a href="..\ntifs\ns-ntifs-_file_provider_external_info_v1.md">FILE_PROVIDER_EXTERNAL_INFO_V1</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_PROVIDER_EXTERNAL_INFO_V0 {
-  ULONG Version;
-  ULONG Algorithm;
-} FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0;
-````
+This structure may be altered or unavailable. Instead, use <a href="https://msdn.microsoft.com/library/windows/hardware/mt426732">FILE_PROVIDER_EXTERNAL_INFO_V1</a>.
 
 
 ## -struct-fields
@@ -86,12 +76,11 @@ Specifies the compression algorithm that is used to compress this file. Currentl
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_provider_external_info_v1.md">FILE_PROVIDER_EXTERNAL_INFO_V1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt426732">FILE_PROVIDER_EXTERNAL_INFO_V1</a>
  
 
  
-
 

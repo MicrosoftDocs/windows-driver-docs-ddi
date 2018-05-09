@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CIP_FRAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CIP_FRAME, *PCIP_FRAME
 ---
@@ -52,31 +53,17 @@ req.typenames: CIP_FRAME, *PCIP_FRAME
 The CIP_FRAME structure describes a frame to be attached to an input or output plug.  
 
 
-## -syntax
-
-
-````
-typedef struct _CIP_FRAME {
-  union {
-    PVOID Reserved;
-    PVOID pNext;
-  };
-  ULONG                 Flags;
-  PCIP_VALIDATE_ROUTINE pfnValidate;
-  PVOID                 ValidateContext;
-  PCIP_NOTIFY_ROUTINE   pfnNotify;
-  PVOID                 NotifyContext;
-  CYCLE_TIME            Timestamp;
-  ULONG                 Status;
-  PUCHAR                Packet;
-  ULONG                 CompletedBytes;
-} CIP_FRAME, *PCIP_FRAME;
-````
-
-
 ## -struct-fields
 
 
+
+
+### -field Reserved
+
+
+### -field pNext
+
+Reserved for internal use.
 
 
 ### -field Flags
@@ -224,17 +211,8 @@ Points to the beginning of a caller-allocated data buffer to be transmitted or r
 ### -field CompletedBytes
 
 
-#### - Reserved
-
-
-#### - pNext
-
-Reserved for internal use.
-
-
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>
 
 
 
@@ -242,8 +220,8 @@ Reserved for internal use.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>
  
 
  
-
 

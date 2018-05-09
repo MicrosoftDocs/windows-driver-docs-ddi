@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.FindChildItemByName
-title: IWiaDrvItem::FindChildItemByName method
+title: IWiaDrvItem::FindChildItemByName
 author: windows-driver-content
 description: The IWiaDrvItem::FindChildItemByName method searches the driver item tree for a specific child item.
 old-location: image\iwiadrvitem_findchilditembyname.htm
 old-project: image
 ms.assetid: 04f446f2-cd59-4191-be0c-60140ecee3b2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DrvItem_afe8c47f-ebf9-484e-94bf-fdcd4713ea2a.xml, FindChildItemByName method [Imaging Devices], FindChildItemByName method [Imaging Devices], IWiaDrvItem interface, FindChildItemByName,IWiaDrvItem.FindChildItemByName, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], FindChildItemByName method, IWiaDrvItem::FindChildItemByName, image.iwiadrvitem_findchilditembyname, wiamindr_lh/IWiaDrvItem::FindChildItemByName
+ms.date: 4/23/2018
+ms.keywords: DrvItem_afe8c47f-ebf9-484e-94bf-fdcd4713ea2a.xml, FindChildItemByName, FindChildItemByName method [Imaging Devices], FindChildItemByName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],FindChildItemByName method, IWiaDrvItem.FindChildItemByName, IWiaDrvItem::FindChildItemByName, image.iwiadrvitem_findchilditembyname, wiamindr_lh/IWiaDrvItem::FindChildItemByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.FindChildItemByName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaDrvItem::FindChildItemByName method
+# IWiaDrvItem::FindChildItemByName
 
 
 ## -description
 
 
 The <b>IWiaDrvItem::FindChildItemByName</b> method searches the driver item tree for a specific child item.
-
-
-## -syntax
-
-
-````
-HRESULT FindChildItemByName(
-  [in]            BSTR        bstrChildItemName,
-  [out, optional] IWiaDrvItem **ppIChildItem
-);
-````
 
 
 ## -parameters
@@ -111,7 +100,10 @@ Minidrivers typically use this method to search a driver item tree for a specifi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>
+
+
+
+<a href="https://msdn.microsoft.com/0609e1b2-48df-413c-90bd-d7ddea26510a">IWiaDrvItem</a>
 
 
 
@@ -119,12 +111,8 @@ Minidrivers typically use this method to search a driver item tree for a specifi
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>
  
 
  
-
 

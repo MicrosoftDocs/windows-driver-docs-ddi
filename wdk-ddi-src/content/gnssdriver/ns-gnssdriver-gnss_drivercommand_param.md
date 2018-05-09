@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_DRIVERCOMMAND_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_DRIVERCOMMAND_PARAM, *PGNSS_DRIVERCOMMAND_PARAM
 ---
@@ -52,22 +53,6 @@ req.typenames: GNSS_DRIVERCOMMAND_PARAM, *PGNSS_DRIVERCOMMAND_PARAM
 This structure is used to send a command to the GNSS driver.
 
 The command may involve configuring certain parameters and state variables of the underlying GNSS driver or device, or executing certain defined actions through the driver.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                   Size;
-  ULONG                   Version;
-  GNSS_DRIVERCOMMAND_TYPE CommandType;
-  ULONG                   CommandFlag;
-  ULONG                   CommandDataSize;
-  BYTE                    Unused[512];
-  BYTE                    CommandData[ANYSIZE_ARRAY];
-} GNSS_DRIVERCOMMAND_PARAM, *PGNSS_DRIVERCOMMAND_PARAM;
-````
 
 
 ## -struct-fields
@@ -89,7 +74,7 @@ Version number.
 
 Identifies the specific command that the driver is required to execute.
 
-This is a well-defined list of GNSS driver commands, as defined by the <a href="..\gnssdriver\ne-gnssdriver-gnss_drivercommand_type.md">GNSS_DRIVERCOMMAND_TYPE</a> enumeration.
+This is a well-defined list of GNSS driver commands, as defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925109">GNSS_DRIVERCOMMAND_TYPE</a> enumeration.
 
 
 ### -field Reserved

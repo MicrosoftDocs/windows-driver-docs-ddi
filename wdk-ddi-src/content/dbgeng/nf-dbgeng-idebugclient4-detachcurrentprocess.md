@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.DetachCurrentProcess
-title: IDebugClient4::DetachCurrentProcess method
+title: IDebugClient4::DetachCurrentProcess
 author: windows-driver-content
 description: The DetachCurrentProcess method detaches the debugger engine from the current process, resuming all its threads.
 old-location: debugger\detachcurrentprocess.htm
 old-project: debugger
 ms.assetid: 233aec2e-4d61-4369-80bb-a01a5fd5b925
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DetachCurrentProcess method [Windows Debugging], DetachCurrentProcess method [Windows Debugging], IDebugClient2 interface, DetachCurrentProcess method [Windows Debugging], IDebugClient3 interface, DetachCurrentProcess method [Windows Debugging], IDebugClient4 interface, DetachCurrentProcess method [Windows Debugging], IDebugClient5 interface, DetachCurrentProcess,IDebugClient4.DetachCurrentProcess, IDebugClient2 interface [Windows Debugging], DetachCurrentProcess method, IDebugClient2::DetachCurrentProcess, IDebugClient3 interface [Windows Debugging], DetachCurrentProcess method, IDebugClient3::DetachCurrentProcess, IDebugClient4, IDebugClient4 interface [Windows Debugging], DetachCurrentProcess method, IDebugClient4::DetachCurrentProcess, IDebugClient5 interface [Windows Debugging], DetachCurrentProcess method, IDebugClient5::DetachCurrentProcess, IDebugClient_cee2b21f-2cbf-449d-a2c8-2006e21074db.xml, dbgeng/IDebugClient2::DetachCurrentProcess, dbgeng/IDebugClient3::DetachCurrentProcess, dbgeng/IDebugClient4::DetachCurrentProcess, dbgeng/IDebugClient5::DetachCurrentProcess, debugger.detachcurrentprocess
+ms.date: 4/24/2018
+ms.keywords: DetachCurrentProcess, DetachCurrentProcess method [Windows Debugging], DetachCurrentProcess method [Windows Debugging],IDebugClient2 interface, DetachCurrentProcess method [Windows Debugging],IDebugClient3 interface, DetachCurrentProcess method [Windows Debugging],IDebugClient4 interface, DetachCurrentProcess method [Windows Debugging],IDebugClient5 interface, IDebugClient2 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient2::DetachCurrentProcess, IDebugClient3 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient3::DetachCurrentProcess, IDebugClient4 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient4.DetachCurrentProcess, IDebugClient4::DetachCurrentProcess, IDebugClient5 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient5::DetachCurrentProcess, IDebugClient_cee2b21f-2cbf-449d-a2c8-2006e21074db.xml, dbgeng/IDebugClient2::DetachCurrentProcess, dbgeng/IDebugClient3::DetachCurrentProcess, dbgeng/IDebugClient4::DetachCurrentProcess, dbgeng/IDebugClient5::DetachCurrentProcess, debugger.detachcurrentprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,26 +41,19 @@ api_name:
 -	IDebugClient3.DetachCurrentProcess
 -	IDebugClient4.DetachCurrentProcess
 -	IDebugClient5.DetachCurrentProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::DetachCurrentProcess method
+# IDebugClient4::DetachCurrentProcess
 
 
 ## -description
 
 
 The <b>DetachCurrentProcess</b> method detaches the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> from the current process, resuming all its <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">threads</a>.
-
-
-## -syntax
-
-
-````
-HRESULT DetachCurrentProcess();
-````
 
 
 ## -parameters
@@ -111,7 +104,6 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
 
 
 
@@ -119,27 +111,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
 
 
 
@@ -147,12 +119,32 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541851">DetachProcesses</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
  
 
  
-
 

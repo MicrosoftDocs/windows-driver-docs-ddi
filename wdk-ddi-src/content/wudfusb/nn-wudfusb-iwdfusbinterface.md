@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 90770016-1267-437e-af70-99741231dc29
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbInterface, IWDFUsbInterface interface, IWDFUsbInterface interface, described, UMDFUSBref_d505d36b-9a59-452d-b35f-ceeff7a0b818.xml, umdf.iwdfusbinterface, wdf.iwdfusbinterface, wudfusb/IWDFUsbInterface
+ms.keywords: IWDFUsbInterface, IWDFUsbInterface interface, IWDFUsbInterface interface,described, UMDFUSBref_d505d36b-9a59-452d-b35f-ceeff7a0b818.xml, umdf.iwdfusbinterface, wdf.iwdfusbinterface, wudfusb/IWDFUsbInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFUsbInterface interface
@@ -60,7 +60,7 @@ The <b>IWDFUsbInterface</b> interface exposes a USB interface that a USB device 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbInterface</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFUsbInterface</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbInterface</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>. <b>IWDFUsbInterface</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

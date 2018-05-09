@@ -7,7 +7,7 @@ old-location: storage\storportreleasespinlock.htm
 old-project: storage
 ms.assetid: ed91d41a-575d-4b26-a7e0-f3ce43db76b4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortReleaseSpinLock, StorPortReleaseSpinLock routine [Storage Devices], storage.storportreleasespinlock, storport/StorPortReleaseSpinLock, storprt_5f3bd7a7-ffdd-4d7b-992b-70c2cea3acec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortReleaseSpinLock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortReleaseSpinLock function
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>StorPortReleaseSpinLock</b> routine releases a spinlock acquired by <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>.
-
-
-## -syntax
-
-
-````
-VOID StorPortReleaseSpinLock(
-  _In_    PVOID             HwDeviceExtension,
-  _Inout_ PSTOR_LOCK_HANDLE LockHandle
-);
-````
+The <b>StorPortReleaseSpinLock</b> routine releases a spinlock acquired by <a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>.
 
 
 ## -parameters
@@ -76,7 +65,7 @@ TBD
 
 ### -param LockHandle [in, out]
 
-Pointer to a lock handle returned by <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>.
+Pointer to a lock handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>.
 
 
 #### - HwDeviceExtension [in]
@@ -95,12 +84,11 @@ None.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\fltcloseclientport.htm
 old-project: ifsk
 ms.assetid: 7a23b8f6-688f-4aa4-9bf3-f8bda0458566
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_0def0996-8190-4482-a7bb-018c79773eca.xml, FltCloseClientPort, FltCloseClientPort function [Installable File System Drivers], fltkernel/FltCloseClientPort, ifsk.fltcloseclientport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltCloseClientPort
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCloseClientPort function
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltCloseClientPort</b> closes a communication client port. 
-
-
-## -syntax
-
-
-````
-VOID FltCloseClientPort(
-  _In_  PFLT_FILTER Filter,
-  _Out_ PFLT_PORT   *ClientPort
-);
-````
 
 
 ## -parameters
@@ -91,28 +81,19 @@ None
 
 
 
-A minifilter driver normally calls <b>FltCloseClientPort</b> from the <i>DisconnectNotifyCallback</i> routine that it registered when it called <a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>. The Filter Manager calls the <i>DisconnectNotifyCallback</i> routine whenever the user-mode handle count for the client port reaches zero or when the minifilter driver is about to be unloaded. 
+A minifilter driver normally calls <b>FltCloseClientPort</b> from the <i>DisconnectNotifyCallback</i> routine that it registered when it called <a href="https://msdn.microsoft.com/library/windows/hardware/ff541931">FltCreateCommunicationPort</a>. The Filter Manager calls the <i>DisconnectNotifyCallback</i> routine whenever the user-mode handle count for the client port reaches zero or when the minifilter driver is about to be unloaded. 
 
 <b>FltCloseClientPort</b> closes a communication client port that was created by the minifilter driver's <i>ConnectNotifyCallback</i> routine. 
 
-On input, the <i>ClientPort</i> parameter is a pointer to a variable containing the opaque handle for the client port to be closed. To ensure that any messages sent by <a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a> are synchronized properly when the communication client port is being closed, <b>FltCloseClientPort</b> sets this variable to <b>NULL</b>. 
+On input, the <i>ClientPort</i> parameter is a pointer to a variable containing the opaque handle for the client port to be closed. To ensure that any messages sent by <a href="https://msdn.microsoft.com/library/windows/hardware/ff544378">FltSendMessage</a> are synchronized properly when the communication client port is being closed, <b>FltCloseClientPort</b> sets this variable to <b>NULL</b>. 
 
-This routine disconnects a specific connection from the minifilter driver. To close the handle for the minifilter driver's server port, which listens for incoming connections, use <a href="..\fltkernel\nf-fltkernel-fltclosecommunicationport.md">FltCloseCommunicationPort</a>. 
+This routine disconnects a specific connection from the minifilter driver. To close the handle for the minifilter driver's server port, which listens for incoming connections, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff541871">FltCloseCommunicationPort</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclosecommunicationport.md">FltCloseCommunicationPort</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
 
 
 
@@ -120,8 +101,16 @@ This routine disconnects a specific connection from the minifilter driver. To cl
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541871">FltCloseCommunicationPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541931">FltCreateCommunicationPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544378">FltSendMessage</a>
  
 
  
-
 

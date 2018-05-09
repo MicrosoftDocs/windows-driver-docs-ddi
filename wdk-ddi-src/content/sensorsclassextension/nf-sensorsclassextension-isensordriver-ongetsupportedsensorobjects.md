@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetSupportedSensorObjects
-title: ISensorDriver::OnGetSupportedSensorObjects method
+title: ISensorDriver::OnGetSupportedSensorObjects
 author: windows-driver-content
 description: The ISensorDriver::OnGetSupportedSensorObjects method retrieves the list of sensors that the driver provides.
 old-location: sensors\isensordriver_ongetsupportedsensorobjects.htm
 old-project: sensors
 ms.assetid: a8ea63cf-24ba-467b-9c27-ab8e38be1c04
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorDriver, ISensorDriver::OnGetSupportedSensorObjects, OnGetSupportedSensorObjects method [Sensor Devices], OnGetSupportedSensorObjects,ISensorDriver.OnGetSupportedSensorObjects, sensors.isensordriver_ongetsupportedsensorobjects
+ms.date: 4/30/2018
+ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedSensorObjects method, ISensorDriver.OnGetSupportedSensorObjects, ISensorDriver::OnGetSupportedSensorObjects, OnGetSupportedSensorObjects, OnGetSupportedSensorObjects method [Sensor Devices], OnGetSupportedSensorObjects method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedsensorobjects, sensorsclassextension/ISensorDriver::OnGetSupportedSensorObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,29 +39,19 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnGetSupportedSensorObjects
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorDriver::OnGetSupportedSensorObjects method
+# ISensorDriver::OnGetSupportedSensorObjects
 
 
 ## -description
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545633">ISensorDriver::OnGetSupportedSensorObjects</a> method retrieves the list of sensors that the driver provides.
-
-
-## -syntax
-
-
-````
-HRESULT OnGetSupportedSensorObjects(
-   IPortableDeviceValuesCollection ** ppSensorObjectCollection
-);
-````
 
 
 ## -parameters
@@ -81,4 +71,15 @@ Address of an IPortableDeviceValuesCollection pointer that receives the list of 
 If the operation succeeds, this method returns S_OK. Otherwise, this method returns one of the error codes that are defined in Winerror.h.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+ 
+
+ 
 

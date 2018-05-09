@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usb_get_device_config_info.htm
 old-project: usbref
 ms.assetid: 518de598-6281-4838-b453-9f699524cbf4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control code [Buses], buses.ioctl_internal_usb_get_device_config_info, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
+ms.date: 4/25/2018
+ms.keywords: IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control code [Buses], buses.ioctl_internal_usb_get_device_config_info, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO IOCTL
@@ -64,22 +64,22 @@ The <b>IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO</b>
 
 ### -input-buffer
 
-<b>Parameters.Others.Argument1</b> points to a <a href="..\usbioctl\ns-usbioctl-_hub_device_config_info_v1.md">HUB_DEVICE_CONFIG_INFO</a> structure to receive the device configuration information.
+<b>Parameters.Others.Argument1</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537179">HUB_DEVICE_CONFIG_INFO</a> structure to receive the device configuration information.
 
 
 ### -input-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_hub_device_config_info_v1.md">HUB_DEVICE_CONFIG_INFO</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537179">HUB_DEVICE_CONFIG_INFO</a> structure.
 
 
 ### -output-buffer
 
-<b>Parameters.Others.Argument1</b> points to a <a href="..\usbioctl\ns-usbioctl-_hub_device_config_info_v1.md">HUB_DEVICE_CONFIG_INFO</a> structure containing the device configuration information. 
+<b>Parameters.Others.Argument1</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537179">HUB_DEVICE_CONFIG_INFO</a> structure containing the device configuration information. 
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_hub_device_config_info_v1.md">HUB_DEVICE_CONFIG_INFO</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537179">HUB_DEVICE_CONFIG_INFO</a> structure.
 
 
 ### -in-out-buffer
@@ -109,23 +109,22 @@ The hub or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or 
 
 
 
-Upon successful completion, the HardwareIds, CompatibleIds, DeviceDescription <a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a> structures contained in the <a href="..\usbioctl\ns-usbioctl-_hub_device_config_info_v1.md">HUB_DEVICE_CONFIG_INFO</a> structure  points to string buffers allocated by the hub driver.  The caller driver is responsible for releasing these buffers before the driver unloads.
+Upon successful completion, the HardwareIds, CompatibleIds, DeviceDescription <a href="https://msdn.microsoft.com/library/windows/hardware/ff540043">USB_ID_STRING</a> structures contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537179">HUB_DEVICE_CONFIG_INFO</a> structure  points to string buffers allocated by the hub driver.  The caller driver is responsible for releasing these buffers before the driver unloads.
 
 
 
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a>
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_hub_device_config_info_v1.md">HUB_DEVICE_CONFIG_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537179">HUB_DEVICE_CONFIG_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540043">USB_ID_STRING</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\iosetnextirpstacklocation.htm
 old-project: kernel
 ms.assetid: 39a0b4d3-691f-45ca-a616-f3e123026776
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoSetNextIrpStackLocation, IoSetNextIrpStackLocation routine [Kernel-Mode Driver Architecture], k104_34f06977-f176-4590-9d5a-adffebbdd9b9.xml, kernel.iosetnextirpstacklocation, wdm/IoSetNextIrpStackLocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	IoSetNextIrpStackLocation
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoSetNextIrpStackLocation function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoSetNextIrpStackLocation</b> routine sets the IRP stack location in a driver-allocated IRP to that of the caller.
-
-
-## -syntax
-
-
-````
-VOID IoSetNextIrpStackLocation(
-  _Inout_ PIRP Irp
-);
-````
 
 
 ## -parameters
@@ -109,36 +99,35 @@ A driver cannot call <b>IoSetNextIrpStackLocation</b> with any IRP it allocates 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548257">IoAllocateIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548310">IoBuildAsynchronousFsdRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548318">IoBuildDeviceIoControlRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548330">IoBuildSynchronousFsdRequest</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549679">IoSetCompletionRoutine</a>
  
 
  
-
 

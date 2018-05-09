@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfsimulatedbatterysystemaction.IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToDC
-title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC method
+title: IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC
 author: windows-driver-content
 description: Sets the simulated battery status to DC power.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_setsimulatedbatterytodc.htm
 old-project: dtf
 ms.assetid: 7564c5f0-ea36-4009-bd34-3119ef23149e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], SetSimulatedBatteryToDC method, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC, SetSimulatedBatteryToDC method [Windows Device Testing Framework], SetSimulatedBatteryToDC method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, SetSimulatedBatteryToDC,IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToDC, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytodc, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC
+ms.date: 4/4/2018
+ms.keywords: IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],SetSimulatedBatteryToDC method, IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToDC, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC, SetSimulatedBatteryToDC, SetSimulatedBatteryToDC method [Windows Device Testing Framework], SetSimulatedBatteryToDC method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytodc, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	wdtfsimulatedbatterysystemaction.h
 api_name:
 -	IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToDC
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC method
+# IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC
 
 
 ## -description
@@ -58,16 +58,6 @@ Sets the simulated battery status to DC power.
  Use this method to set the simulated battery status to DC power.  If
     real batteries in the system are disabled, this sets the OS status and 
     policy to DC power.  This is useful for testing software behavior that changes depending on the AC/DC state.
-
-
-## -syntax
-
-
-````
-HRESULT SetSimulatedBatteryToDC(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
 
 
 ## -parameters
@@ -89,12 +79,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsimulatedbatterysystemaction\nn-wdtfsimulatedbatterysystemaction-iwdtfsimulatedbatterysystemaction.md">IWDTFSimulatedBatterySystemAction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265160">IWDTFSimulatedBatterySystemAction</a>
  
 
  
-
 

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.GetPnpState
-title: IWDFDevice::GetPnpState method
+title: IWDFDevice::GetPnpState
 author: windows-driver-content
 description: The GetPnpState method determines whether the given Plug and Play (PnP) property of a device is on or off (or set to the default state).
 old-location: wdf\iwdfdevice_getpnpstate.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7214a0e9-5519-4daa-bd2f-cc3c697dd867
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetPnpState method, GetPnpState method, IWDFDevice interface, GetPnpState,IWDFDevice.GetPnpState, IWDFDevice, IWDFDevice interface, GetPnpState method, IWDFDevice::GetPnpState, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, umdf.iwdfdevice_getpnpstate, wdf.iwdfdevice_getpnpstate, wudfddi/IWDFDevice::GetPnpState
+ms.keywords: GetPnpState, GetPnpState method, GetPnpState method,IWDFDevice interface, IWDFDevice interface,GetPnpState method, IWDFDevice.GetPnpState, IWDFDevice::GetPnpState, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, umdf.iwdfdevice_getpnpstate, wdf.iwdfdevice_getpnpstate, wudfddi/IWDFDevice::GetPnpState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice.GetPnpState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::GetPnpState method
+# IWDFDevice::GetPnpState
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetPnpState</b> method determines whether the given Plug and Play (PnP) property of a device is on or off (or set to the default state).
 
 
-## -syntax
-
-
-````
-WDF_TRI_STATE GetPnpState(
-  [in] WDF_PNP_STATE State
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ WDF_TRI_STATE GetPnpState(
 
 ### -param State [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>-typed value that identifies the PnP property to retrieve status about. 
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561434">WDF_PNP_STATE</a>-typed value that identifies the PnP property to retrieve status about. 
 
 
 ## -returns
@@ -127,7 +117,10 @@ The PnP property is turned on.
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_pnp_state.md">WDF_PNP_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
@@ -135,12 +128,8 @@ The PnP property is turned on.
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561434">WDF_PNP_STATE</a>
  
 
  
-
 

@@ -38,10 +38,10 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_REMOVE_LOCK_OPTIONS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_REMOVE_LOCK_OPTIONS_INIT function
@@ -54,19 +54,7 @@ req.product: Windows 10 or later.
 
 
    The 
-  <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b> function initializes a <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a> structure.
-
-
-## -syntax
-
-
-````
-__inline
-void WDF_REMOVE_LOCK_OPTIONS_INIT(
-  _Out_ PWDF_REMOVE_LOCK_OPTIONS RemoveLockOptions,
-  _In_  ULONG                    Flags
-);
-````
+  <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406495">WDF_REMOVE_LOCK_OPTIONS</a> structure.
 
 
 ## -parameters
@@ -76,13 +64,13 @@ void WDF_REMOVE_LOCK_OPTIONS_INIT(
 
 ### -param RemoveLockOptions [out]
 
-A pointer to a <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406495">WDF_REMOVE_LOCK_OPTIONS</a> structure.
 
 
 ### -param Flags [in]
 
 
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>-typed flags.
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406498">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>-typed flags.
 
 
 ## -returns
@@ -98,11 +86,11 @@ This function does not return a value.
 
 
 
-The <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b> function zeros the <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a> structure that the <i>RemoveLockOptions</i> parameter specifies and sets its <b>Size</b> member. This function also sets the structure's <b>Flags</b> member to the value provided in the <i>Flags</i> parameter.
+The <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b> function zeros the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406495">WDF_REMOVE_LOCK_OPTIONS</a> structure that the <i>RemoveLockOptions</i> parameter specifies and sets its <b>Size</b> member. This function also sets the structure's <b>Flags</b> member to the value provided in the <i>Flags</i> parameter.
 
-Before a driver calls <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>, it must call <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b> to initialize a <a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a> structure.
+Before a driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451095">WdfDeviceInitSetRemoveLockOptions</a>, it must call <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b> to initialize a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406495">WDF_REMOVE_LOCK_OPTIONS</a> structure.
 
-For a code example that uses <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b>, see <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>.
+For a code example that uses <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451095">WdfDeviceInitSetRemoveLockOptions</a>.
 
 
 
@@ -111,20 +99,19 @@ For a code example that uses <b>WDF_REMOVE_LOCK_OPTIONS_INIT</b>, see <a href=".
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_remove_lock_options.md">WDF_REMOVE_LOCK_OPTIONS</a>
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406495">WDF_REMOVE_LOCK_OPTIONS</a>
 
 
 
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_remove_lock_options_flags.md">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406498">WDF_REMOVE_LOCK_OPTIONS_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451095">WdfDeviceInitSetRemoveLockOptions</a>
  
 
  
-
 

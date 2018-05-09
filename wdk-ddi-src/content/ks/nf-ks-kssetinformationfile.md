@@ -7,7 +7,7 @@ old-location: stream\kssetinformationfile.htm
 old-project: stream
 ms.assetid: 878c6565-99f9-4f45-abba-ba4ece5b5743
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsSetInformationFile, KsSetInformationFile function [Streaming Media Devices], ks/KsSetInformationFile, ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, stream.kssetinformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsSetInformationFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,19 +52,6 @@ req.typenames:
 
 
 The <b>KsSetInformationFile</b> function performs an information set against the specified file object. The function attempts to use <b>FastIoDispatch</b> if possible, or it generates an information set against the device object.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsSetInformationFile(
-  _In_ PFILE_OBJECT           FileObject,
-  _In_ PVOID                  FileInformation,
-  _In_ ULONG                  Length,
-  _In_ FILE_INFORMATION_CLASS FileInformationClass
-);
-````
 
 
 ## -parameters

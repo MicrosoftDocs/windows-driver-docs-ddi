@@ -7,7 +7,7 @@ old-location: sensors\activity_states.htm
 old-project: sensors
 ms.assetid: E602F16A-AFD8-4698-AC90-1686887FFEA6
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: ACTIVITY_STATE, ACTIVITY_STATE enumeration [Sensor Devices], ActivityState_Biking, ActivityState_Fidgeting, ActivityState_Force_Dword, ActivityState_Idle, ActivityState_InVehicle, ActivityState_Max, ActivityState_Running, ActivityState_Stationary, ActivityState_Unknown, ActivityState_Walking, sensors.activity_states, sensorsdef/ACTIVITY_STATE, sensorsdef/ActivityState_Biking, sensorsdef/ActivityState_Fidgeting, sensorsdef/ActivityState_Force_Dword, sensorsdef/ActivityState_Idle, sensorsdef/ActivityState_InVehicle, sensorsdef/ActivityState_Max, sensorsdef/ActivityState_Running, sensorsdef/ActivityState_Stationary, sensorsdef/ActivityState_Unknown, sensorsdef/ActivityState_Walking
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	ACTIVITY_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACTIVITY_STATE
-req.product: Windows 10 or later.
 ---
 
 # ACTIVITY_STATE enumeration
@@ -51,25 +51,6 @@ req.product: Windows 10 or later.
 
 
 This enumeration represents the activity states reported by the activity detection sensor.
-
-
-## -syntax
-
-
-````
-typedef enum _ACTIVITY_STATES { 
-  ActivityState_Unknown      = 0x00000001,
-  ActivityState_Stationary   = 0x00000002,
-  ActivityState_Fidgeting    = 0x00000004,
-  ActivityState_Walking      = 0x00000008,
-  ActivityState_Running      = 0x00000010,
-  ActivityState_InVehicle    = 0x00000020,
-  ActivityState_Biking       = 0x00000040,
-  ActivityState_Idle         = 0x00000080,
-  ActivityState_Max          = 0x00000100,
-  ActivityState_Force_Dword  = 0xFFFFFFFF
-} ACTIVITY_STATE;
-````
 
 
 ## -enum-fields
@@ -138,12 +119,11 @@ For more information about the sensor data fields that use this enumeration, see
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957013">Activity detection sensor data fields</a>
-
-
-
  
 
  
-
 

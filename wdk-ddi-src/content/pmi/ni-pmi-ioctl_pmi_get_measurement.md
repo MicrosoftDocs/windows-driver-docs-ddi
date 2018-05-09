@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 2f479147-cccb-44c8-bc86-37c6731cb95b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_PMI_GET_MEASUREMENT, IOCTL_PMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices], PowerMeterRef_2317a4b3-7909-4c52-a012-39c892a39154.xml, pmi/IOCTL_PMI_GET_MEASUREMENT, powermeter.ioctl_pmi_get_measurement
+ms.keywords: IOCTL_PMI_GET_MEASUREMENT, IOCTL_PMI_GET_MEASUREMENT control, IOCTL_PMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices], PowerMeterRef_2317a4b3-7909-4c52-a012-39c892a39154.xml, pmi/IOCTL_PMI_GET_MEASUREMENT, powermeter.ioctl_pmi_get_measurement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Pmi.h
 api_name:
 -	IOCTL_PMI_GET_MEASUREMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PMI_MEASUREMENT_UNIT
+req.typenames: 
 ---
 
 # IOCTL_PMI_GET_MEASUREMENT IOCTL
@@ -64,17 +65,17 @@ The initiator-allocated output buffer that is pointed to by the <b>AssociatedIrp
 
 ### -input-buffer-length
 
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the IRP's current I/O stack location (<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>) is set to the size in bytes of the initiator-allocated output buffer that is pointed to by the <b>AssociatedIrp.SystemBuffer</b> member of the IRP. This size must be greater than or equal to <b>sizeof</b>(<a href="..\pmi\ns-pmi-_pmi_measurement_data.md">PMI_MEASUREMENT_DATA</a>) or the request fails with an error status of STATUS_BUFFER_TOO_SMALL.
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the IRP's current I/O stack location (<a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a>) is set to the size in bytes of the initiator-allocated output buffer that is pointed to by the <b>AssociatedIrp.SystemBuffer</b> member of the IRP. This size must be greater than or equal to <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff543893">PMI_MEASUREMENT_DATA</a>) or the request fails with an error status of STATUS_BUFFER_TOO_SMALL.
 
 
 ### -output-buffer
 
-If the request completes successfully, the output buffer pointed to by the <b>AssociatedIrp.SystemBuffer</b> member contains a <a href="..\pmi\ns-pmi-_pmi_measurement_data.md">PMI_MEASUREMENT_DATA</a> structure. This structure contains the requested measurement data.
+If the request completes successfully, the output buffer pointed to by the <b>AssociatedIrp.SystemBuffer</b> member contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543893">PMI_MEASUREMENT_DATA</a> structure. This structure contains the requested measurement data.
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\pmi\ns-pmi-_pmi_measurement_data.md">PMI_MEASUREMENT_DATA</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543893">PMI_MEASUREMENT_DATA</a> structure.
 
 
 ### -in-out-buffer
@@ -97,7 +98,7 @@ The size of a <a href="..\pmi\ns-pmi-_pmi_measurement_data.md">PMI_MEASUREMENT_D
 
 ### -status-block
 
-The <b>Information</b> member is set to the size, in bytes, of a <a href="..\pmi\ns-pmi-_pmi_measurement_data.md">PMI_MEASUREMENT_DATA</a> structure.
+The <b>Information</b> member is set to the size, in bytes, of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543893">PMI_MEASUREMENT_DATA</a> structure.
 
 The <b>Status</b> member is set to one of the following values:
 
@@ -106,7 +107,7 @@ The <b>Status</b> member is set to one of the following values:
 
 #### -STATUS_BUFFER_TOO_SMALL
 
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> is less than the size, in bytes, of a <a href="..\pmi\ns-pmi-_pmi_measurement_data.md">PMI_MEASUREMENT_DATA</a> structure.
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> is less than the size, in bytes, of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543893">PMI_MEASUREMENT_DATA</a> structure.
 
 
 #### -STATUS_SUCCESS
@@ -118,39 +119,38 @@ The WDM driver that supports the PMI interface has completed the IOCTL request s
 
 
 
-The <b>IOCTL_PMI_GET_MEASUREMENT</b> request queries the current measurement data from the power meter. This measurement data is sampled and averaged based on the power meter's measurement configuration parameters. The measurement configuration parameters are queried through the <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a> request with an input <a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a> value of <b>PmiMeasurementConfiguration</b>.
+The <b>IOCTL_PMI_GET_MEASUREMENT</b> request queries the current measurement data from the power meter. This measurement data is sampled and averaged based on the power meter's measurement configuration parameters. The measurement configuration parameters are queried through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543842">IOCTL_PMI_GET_CONFIGURATION</a> request with an input <a href="https://msdn.microsoft.com/library/windows/hardware/ff543869">PMI_CONFIGURATION_TYPE</a> value of <b>PmiMeasurementConfiguration</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543842">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_measurement_data.md">PMI_MEASUREMENT_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543869">PMI_CONFIGURATION_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543893">PMI_MEASUREMENT_DATA</a>
  
 
  
-
 

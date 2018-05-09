@@ -7,7 +7,7 @@ old-location: netvista\ndisfreememorywithtag.htm
 old-project: netvista
 ms.assetid: c9010a08-3c62-481a-8545-253d7b24b1ac
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisFreeMemoryWithTag, NdisFreeMemoryWithTag function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemoryWithTag, ndis_shared_memory_ref_2a68decc-2cef-4606-9679-c29c0e5362a2.xml, netvista.ndisfreememorywithtag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisFreeMemoryWithTag
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisFreeMemoryWithTag function
@@ -51,18 +52,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 
 The 
-  <b>NdisFreeMemoryWithTag</b> function is deprecated for all NDIS versions.  Use <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a> instead.
-
-
-## -syntax
-
-
-````
-VOID NdisFreeMemoryWithTag(
-  _In_ PVOID VirtualAddress,
-  _In_ ULONG Tag
-);
-````
+  <b>NdisFreeMemoryWithTag</b> function is deprecated for all NDIS versions.  Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561606">NdisAllocateMemoryWithTagPriority</a> instead.
 
 
 ## -parameters
@@ -126,12 +116,11 @@ When a caller of
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550767">NdisAllocateMemoryWithTag</a>
-
-
-
  
 
  
-
 

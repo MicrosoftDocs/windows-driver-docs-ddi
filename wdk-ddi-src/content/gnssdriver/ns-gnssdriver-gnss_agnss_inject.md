@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_AGNSS_INJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_INJECT, *PGNSS_AGNSS_INJECT
 ---
@@ -50,26 +51,6 @@ req.typenames: GNSS_AGNSS_INJECT, *PGNSS_AGNSS_INJECT
 
 
 This structure defines the parameters for AGNSS injection.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                   Size;
-  ULONG                   Version;
-  GNSS_AGNSS_REQUEST_TYPE InjectionType;
-  NTSTATUS                InjectionStatus;
-  ULONG                   InjectionDataSize;
-  BYTE                    Unused[512];
-  union {
-    GNSS_AGNSS_INJECTTIME     Time;
-    GNSS_AGNSS_INJECTPOSITION Position;
-    GNSS_AGNSS_INJECTBLOB     BlobData;
-  };
-} GNSS_AGNSS_INJECT, *PGNSS_AGNSS_INJECT;
-````
 
 
 ## -struct-fields
@@ -111,24 +92,22 @@ Size of the injection data.
  
 
 
+### -field Time
 
 
-#### - BlobData
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925095">GNSS_AGNSS_INJECTTIME</a> contains the format for AGNSS time injection.
 
 
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectblob.md">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
+### -field Position
 
 
-#### - Position
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925094">GNSS_AGNSS_INJECTPOSITION</a> contains  the format for AGNSS position injection.
 
 
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injectposition.md">GNSS_AGNSS_INJECTPOSITION</a> contains  the format for AGNSS position injection.
+### -field BlobData
 
 
-#### - Time
-
-
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_injecttime.md">GNSS_AGNSS_INJECTTIME</a> contains the format for AGNSS time injection.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925093">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
 
 
 #### - Unused[512]

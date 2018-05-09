@@ -7,7 +7,7 @@ old-location: bltooth\_brb_l2ca_register_server.htm
 old-project: bltooth
 ms.assetid: b7eca29a-7e3c-4cfc-b285-42faca263c5e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_L2CA_REGISTER_SERVER, _BRB_L2CA_REGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_l2ca_register_server, bth_structs_c803cec6-8a80-4d75-9c81-fd479ee37a97.xml, bthddi/_BRB_L2CA_REGISTER_SERVER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_L2CA_REGISTER_SERVER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,23 +54,6 @@ A profile driver uses the _BRB_L2CA_REGISTER_SERVER structure to register itself
   of receiving L2CAP connections from remote Bluetooth devices.
 
 
-## -syntax
-
-
-````
-struct _BRB_L2CA_REGISTER_SERVER {
-  BRB_HEADER                     Hdr;
-  BTH_ADDR                       BtAddress;
-  USHORT                         PSM;
-  ULONG                          IndicationFlags;
-  PFNBTHPORT_INDICATION_CALLBACK IndicationCallback;
-  PVOID                          IndicationCallbackContext;
-  PVOID                          ReferenceObject;
-  L2CAP_SERVER_HANDLE            ServerHandle;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -78,7 +62,7 @@ struct _BRB_L2CA_REGISTER_SERVER {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -142,7 +126,7 @@ The profile driver will accept notifications when a device is unpersonalized.
 ### -field IndicationCallback
 
 A 
-     <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>,
+     <a href="https://msdn.microsoft.com/d3ca900d-1dd6-49da-ae94-855de3fbd086">L2CAP Callback Function</a>,
      implemented by the profile driver, that the Bluetooth driver stack should call to notify the profile
      driver about incoming L2CAP connections.
 
@@ -156,8 +140,8 @@ The context to be passed to the callback function that is specified in the
 ### -field ReferenceObject
 
 A pointer to an object to pass to the 
-     <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> and 
-     <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> functions to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a> and 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> functions to
      maintain a reference count. Profile drivers should provide this object in such a way that the Bluetooth
      driver stack can increase the count of the object for as long as the driver stack can call the callback
      function specified in the 
@@ -197,11 +181,11 @@ A profile driver can specify zero the
     <b>Psm</b> member of the _BRB_L2CA_REGISTER_SERVER structure--which means that the PSM is unspecified--and
     the profile driver will subsequently issue a <b>BRB_REGISTER_PSM</b> BRB to obtain a dynamic PSM to register for
     connection notifications. For more information about PSMs, see 
-    <a href="..\bthddi\ns-bthddi-_brb_psm.md">_BRB_PSM</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536865">_BRB_PSM</a>.
 
 After the profile driver has registered itself, the Bluetooth driver stack can notify it when a remote
     device attempts to connect to it by calling the 
-    <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a> that the
+    <a href="https://msdn.microsoft.com/d3ca900d-1dd6-49da-ae94-855de3fbd086">L2CAP Callback Function</a> that the
     profile driver implements and specifies in the 
     <b>IndicationCallback</b> member.
 
@@ -214,7 +198,7 @@ When the profile driver receives notification of a connection attempt, it should
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
     BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> BRB to either accept or reject the connection attempt. For more
     information about accepting or rejecting L2CAP connection attempts, see the 
-    <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a> structure.
 
 After a connection is established, the profile driver can issue other BRBs to communicate with the
     remote device.
@@ -235,15 +219,10 @@ While this procedure allows a profile driver to accept incoming connection reque
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
 
 
 
@@ -251,16 +230,20 @@ While this procedure allows a profile driver to accept incoming connection reque
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+<a href="https://msdn.microsoft.com/d3ca900d-1dd6-49da-ae94-855de3fbd086">L2CAP Callback Function</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a>
  
 
  
-
 

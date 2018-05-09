@@ -7,7 +7,7 @@ old-location: buses\usbd_pipe_information.htm
 old-project: usbref
 ms.assetid: 92e4e960-fd74-42e1-8448-a07676507427
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION structure pointer [Buses], USBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], _USBD_PIPE_INFORMATION, buses.usbd_pipe_information, usb/PUSBD_PIPE_INFORMATION, usb/USBD_PIPE_INFORMATION, usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	usb.h
 api_name:
 -	USBD_PIPE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBD_PIPE_INFORMATION, *PUSBD_PIPE_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _USBD_PIPE_INFORMATION structure
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 The  <b>USBD_PIPE_INFORMATION</b> structure is used by USB client drivers to hold information about a pipe from a specific interface.
-
-
-## -syntax
-
-
-````
-typedef struct _USBD_PIPE_INFORMATION {
-  USHORT           MaximumPacketSize;
-  UCHAR            EndpointAddress;
-  UCHAR            Interval;
-  USBD_PIPE_TYPE   PipeType;
-  USBD_PIPE_HANDLE PipeHandle;
-  ULONG            MaximumTransferSize;
-  ULONG            PipeFlags;
-} USBD_PIPE_INFORMATION, *PUSBD_PIPE_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -88,7 +72,7 @@ Specifies the bus address for this pipe.
 
 ### -field Interval
 
-Contains the polling interval, indicated by the <b>bInterval</b> field in the corresponding endpoint descriptor (<a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>). This value is only valid for interrupt and isochronous pipes.  For other types of pipe, this value should be ignored. It reflects the device's configuration in firmware. Drivers cannot change it. 
+Contains the polling interval, indicated by the <b>bInterval</b> field in the corresponding endpoint descriptor (<a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a>). This value is only valid for interrupt and isochronous pipes.  For other types of pipe, this value should be ignored. It reflects the device's configuration in firmware. Drivers cannot change it. 
 
 The polling interval, together with the speed of the device and the type of host controller, determine the frequency with which the driver should initiate a transfer. The value in <b>Interval</b> does not represent a fixed amount of time. It is a relative value, and the actual polling frequency will also depend on whether the device and the USB host controller operate at low, full or high speed. 
 
@@ -225,7 +209,7 @@ The mappings in the preceding tables between periods and polling intervals are v
 
 ### -field PipeType
 
-Specifies what type of transfers this pipe uses. These values are defined in the <a href="..\usb\ne-usb-_usbd_pipe_type.md">USBD_PIPE_TYPE</a> enumeration.
+Specifies what type of transfers this pipe uses. These values are defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539119">USBD_PIPE_TYPE</a> enumeration.
 
 
 ### -field PipeHandle
@@ -290,7 +274,6 @@ The value received in <b>MaximumPacketSize</b> for an isochronous endpoint (high
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_endpoint_descriptor.md">USB_ENDPOINT_DESCRIPTOR</a>
 
 
 
@@ -298,8 +281,8 @@ The value received in <b>MaximumPacketSize</b> for an isochronous endpoint (high
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539317">USB_ENDPOINT_DESCRIPTOR</a>
  
 
  
-
 

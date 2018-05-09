@@ -7,7 +7,7 @@ old-location: stream\ksproperty_extxport_s.htm
 old-project: stream
 ms.assetid: 01132969-b459-4110-a067-fda6c7ee5510
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_EXTXPORT_S, KSPROPERTY_EXTXPORT_S, KSPROPERTY_EXTXPORT_S structure [Streaming Media Devices], PKSPROPERTY_EXTXPORT_S, PKSPROPERTY_EXTXPORT_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_EXTXPORT_S, ksmedia/PKSPROPERTY_EXTXPORT_S, stream.ksproperty_extxport_s, vidcapstruct_9cd12be8-0378-481b-80e3-81b3decc1823.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_EXTXPORT_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_EXTXPORT_S, *PKSPROPERTY_EXTXPORT_S
 ---
@@ -50,35 +51,6 @@ req.typenames: KSPROPERTY_EXTXPORT_S, *PKSPROPERTY_EXTXPORT_S
 
 
 The KSPROPERTY_EXTXPORT_S structure describes an external transport and its capabilities.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  union {
-    ULONG           Capabilities;
-    ULONG           SignalMode;
-    ULONG           LoadMedium;
-    MEDIUM_INFO     MediumInfo;
-    TRANSPORT_STATE XPrtState;
-    struct {
-      BYTE frame;
-      BYTE second;
-      BYTE minute;
-      BYTE hour;
-    } Timecode;
-    DWORD           dwTimecode;
-    DWORD           dwAbsTrackNumber;
-    struct {
-      ULONG PayloadSize;
-      BYTE  Payload[512];
-    } RawAVC;
-  } u;
-} KSPROPERTY_EXTXPORT_S, *PKSPROPERTY_EXTXPORT_S;
-````
 
 
 ## -struct-fields
@@ -94,46 +66,29 @@ Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/har
 ### -field u
 
 
-
-#### Capabilities
+### -field u.Capabilities
 
 Specifies the capabilities of the external transport. For example ED_TRANSCAP_CAN_EJECT, ED_TRANSCAP_CAN_PLAY_BACKWARDS, or ED_TRANSCAP_CAN_BUMP_PLAY. See Remarks.
 
 
-
-#### SignalMode
+### -field u.SignalMode
 
 Specifies the signal mode of the external transport. For example ED_TRANSBASIC_SIGNAL_525_60_SD, ED_TRANSBASIC_SIGNAL_MPEG2TS or ED_TRANSBASIC_SIGNAL_0625_50_MPEG. See Remarks
 
 
-
-#### LoadMedium
+### -field u.LoadMedium
 
 Specifies load medium. For example eject, open tray, close tray.
 
 
-
-#### MediumInfo
+### -field u.MediumInfo
 
 Describes the medium info.
 
 
-
-#### XPrtState
+### -field u.XPrtState
 
 Describes the external transports state.
-
-
-
-#### dwTimecode
-
-Specifies the timecode, in hour:minute:second:frame format. This member is defined for future use.
-
-
-
-#### dwAbsTrackNumber
-
-Specifies the absolute track number. This member is defined for future use.
 
 
 ### -field u.Timecode
@@ -161,6 +116,16 @@ Specifies the minute. This member is defined for future use.
 Specifies the hour. This member is defined for future use.
 
 
+### -field u.dwTimecode
+
+Specifies the timecode, in hour:minute:second:frame format. This member is defined for future use.
+
+
+### -field u.dwAbsTrackNumber
+
+Specifies the absolute track number. This member is defined for future use.
+
+
 ### -field u.RawAVC
 
 
@@ -185,24 +150,23 @@ Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_extxport_node_s.md">KSPROPERTY_EXTXPORT_NODE_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565164">KSPROPERTY_EXTXPORT_NODE_S</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-transport_state.md">TRANSPORT_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567726">MEDIUM_INFO</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-medium_info.md">MEDIUM_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568546">TRANSPORT_STATE</a>
  
 
  
-
 

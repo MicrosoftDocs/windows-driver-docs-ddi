@@ -7,7 +7,7 @@ old-location: hid\hidp_initializereportforid.htm
 old-project: hid
 ms.assetid: 9d56a07e-8898-4bd6-93ae-752ff7d3b215
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidP_InitializeReportForID, HidP_InitializeReportForID routine [Human Input Devices], hid.hidp_initializereportforid, hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml, hidpi/HidP_InitializeReportForID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Hidparse.dll
 api_name:
 -	HidP_InitializeReportForID
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_InitializeReportForID function
@@ -53,20 +54,6 @@ req.typenames: HIDP_REPORT_TYPE
 The <b>HidP_InitializeReportForID</b> routine initializes a HID report.
 
 
-## -syntax
-
-
-````
-NTSTATUS __stdcall HidP_InitializeReportForID(
-  _In_  HIDP_REPORT_TYPE     ReportType,
-  _In_  UCHAR                ReportID,
-  _In_  PHIDP_PREPARSED_DATA PreparsedData,
-  _Out_ PCHAR                Report,
-  _In_  ULONG                ReportLength
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ NTSTATUS __stdcall HidP_InitializeReportForID(
 
 ### -param ReportType [in]
 
-Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator that indicates the type of HID report located at <i>Report</i>.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539774">HIDP_REPORT_TYPE</a> enumerator that indicates the type of HID report located at <i>Report</i>.
 
 
 ### -param ReportID [in]
@@ -94,7 +81,7 @@ Pointer to the caller-allocated buffer containing the HID report that <b>HidP_In
 
 ### -param ReportLength [in]
 
-Specifies the size, in bytes, of the HID report located at <i>Report</i>. <i>ReportLength</i> must be equal to the collection's report length for the specified report type, as specified by the <i>Xxx</i><b>ReportByteLength</b> members of a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
+Specifies the size, in bytes, of the HID report located at <i>Report</i>. <i>ReportLength</i> must be equal to the collection's report length for the specified report type, as specified by the <i>Xxx</i><b>ReportByteLength</b> members of a collection's <a href="https://msdn.microsoft.com/library/windows/hardware/ff539697">HIDP_CAPS</a> structure.
 
 
 ## -returns
@@ -194,24 +181,23 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539697">HIDP_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539774">HIDP_REPORT_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539715">HidP_GetCaps</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
-
-
-
-<a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-
-
-
  
 
  
-
 

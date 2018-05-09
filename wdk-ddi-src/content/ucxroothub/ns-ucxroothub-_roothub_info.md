@@ -7,7 +7,7 @@ old-location: buses\_roothub_info.htm
 old-project: usbref
 ms.assetid: 634398E9-7AAA-424C-8C81-287F70CE3578
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PROOTHUB_INFO, P_ROOTHUB_INFO, P_ROOTHUB_INFO structure pointer [Buses], ROOTHUB_INFO, ROOTHUB_INFO structure [Buses], _ROOTHUB_INFO, buses._roothub_info, ucxroothub/P_ROOTHUB_INFO, ucxroothub/_ROOTHUB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	ucxroothub.h
 api_name:
 -	ROOTHUB_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ROOTHUB_INFO, *PROOTHUB_INFO
-req.product: Windows 10 or later.
 ---
 
 # _ROOTHUB_INFO structure
@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Provides information about a USB root hub. This structure is passed by UCX in the <a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_info.md">EVT_UCX_ROOTHUB_GET_INFO</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _ROOTHUB_INFO {
-  ULONG           Size;
-  CONTROLLER_TYPE ControllerType;
-  USHORT          NumberOf20Ports;
-  USHORT          NumberOf30Ports;
-  USHORT          MaxU1ExitLatency;
-  USHORT          MaxU2ExitLatency;
-} ROOTHUB_INFO, *P_ROOTHUB_INFO;
-````
+Provides information about a USB root hub. This structure is passed by UCX in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187836">EVT_UCX_ROOTHUB_GET_INFO</a> callback function.
 
 
 ## -struct-fields
@@ -80,7 +65,7 @@ The size in bytes of this structure.
 
 ### -field ControllerType
 
-A <a href="..\ucxroothub\ne-ucxroothub-_controller_type.md">CONTROLLER_TYPE</a> value that identifies the type of eXtensible Host Controller Interface (xHCI) which has the root hub.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188016">CONTROLLER_TYPE</a> value that identifies the type of eXtensible Host Controller Interface (xHCI) which has the root hub.
 
 
 ### -field NumberOf20Ports
@@ -105,12 +90,11 @@ The exit latency for the slowest link for U2 transition.
 
 ## -see-also
 
-<a href="..\ucxroothub\nc-ucxroothub-evt_ucx_roothub_get_info.md">EVT_UCX_ROOTHUB_GET_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187836">EVT_UCX_ROOTHUB_GET_INFO</a>
  
 
  
-
 

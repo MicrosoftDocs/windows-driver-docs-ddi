@@ -7,7 +7,7 @@ old-location: print\drvsplstartpage.htm
 old-project: print
 ms.assetid: 7291a0ec-7a43-4fc6-ac1d-60487b2ad3d8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: DrvSplStartPage, DrvSplStartPage function [Print Devices], print.drvsplstartpage, print_interface-graphics_4f9a41e8-8706-428e-8f58-945485151f62.xml, winddiui/DrvSplStartPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winddiui.h
 api_name:
 -	DrvSplStartPage
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # DrvSplStartPage function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-BOOL WINAPI DrvSplStartPage(
-   HANDLE hDriver
-);
-````
 
 
 ## -parameters

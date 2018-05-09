@@ -7,8 +7,8 @@ old-location: bltooth\sdpgetnextelement.htm
 old-project: bltooth
 ms.assetid: 60216196-f8c7-4555-a461-4862ce6bc376
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PGETNEXTELEMENT, SdpGetNextElement, SdpGetNextElement callback function [Bluetooth Devices], bltooth.sdpgetnextelement, bth_funcs_344a59cb-6151-4634-bc5f-cb23c58eb329.xml, sdplib/SdpGetNextElement
+ms.date: 4/27/2018
+ms.keywords: PGETNEXTELEMENT, PGETNEXTELEMENT callback, SdpGetNextElement, SdpGetNextElement callback function [Bluetooth Devices], bltooth.sdpgetnextelement, bth_funcs_344a59cb-6151-4634-bc5f-cb23c58eb329.xml, sdplib/SdpGetNextElement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpGetNextElement
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: 
 ---
 
-# PGETNEXTELEMENT callback
+# PGETNEXTELEMENT callback function
 
 
 ## -description
@@ -52,23 +53,6 @@ req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 The Bluetooth 
   <b>SdpGetNextElement</b> function is used to iterate through the entries found in an SDP record
   stream.
-
-
-## -prototype
-
-
-````
-PGETNEXTELEMENT SdpGetNextElement;
-
-VOID SdpGetNextElement(
-   PUCHAR Stream,
-   ULONG  StreamSize,
-   PUCHAR CurrentElement,
-   PUCHAR *NextElement,
-   PULONG NextElementSize
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -131,7 +115,7 @@ Calling this function with the
     <i>CurrentElement</i> parameter set to <b>NULL</b> returns the first entry in the container stream.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    <a href="https://msdn.microsoft.com/bb8a1dd5-8207-4034-993e-eed49dc0f9c4">
     BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
 
@@ -139,12 +123,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
  
 
  
-
 

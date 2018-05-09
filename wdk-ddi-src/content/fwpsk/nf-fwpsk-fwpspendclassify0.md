@@ -7,7 +7,7 @@ old-location: netvista\fwpspendclassify0.htm
 old-project: netvista
 ms.assetid: 8abf967f-776e-4438-b20a-d7c278793633
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsPendClassify0, FwpsPendClassify0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendClassify0, netvista.fwpspendclassify0, wfp_ref_2_funct_3_fwps_J-Q_b0a2ba71-91f1-460c-9b67-d8ddbe25cb44.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsPendClassify0
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsPendClassify0 function
@@ -51,24 +52,11 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 
 
 A callout's 
-  <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> function calls 
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function calls 
   <b>FwpsPendClassify0</b> to pend the current classify request. After the request is pended, the callout driver must complete
   the processing of the classify request asynchronously by calling 
-  <a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>.
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff551150">FwpsCompleteClassify0</a>.
 <div class="alert"><b>Note</b>  <b>FwpsPendClassify0</b> is a specific version of <b>FwpsPendClassify</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsPendClassify0(
-  _In_    UINT64             classifyHandle,
-  _In_    UINT64             filterId,
-  _In_    UINT32             flags,
-  _Inout_ FWPS_CLASSIFY_OUT0 *classifyOut
-);
-````
-
 
 ## -parameters
 
@@ -79,7 +67,7 @@ NTSTATUS NTAPI FwpsPendClassify0(
 
 The classification handle that identifies the callout driver's processing at the current layer.
      This handle is obtained by calling 
-     <a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">
+     <a href="https://msdn.microsoft.com/7348d937-6541-47a7-ae70-7d851d41bc1a">
      FwpsAcquireClassifyHandle0</a>.
 
 
@@ -87,7 +75,7 @@ The classification handle that identifies the callout driver's processing at the
 
 The value of the 
      <b>FilterId</b> member of the 
-     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> function's 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function's 
      <i>filter</i> parameter. For more information about the 
      <b>FilterId</b> member, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>.
@@ -102,7 +90,7 @@ Reserved for future use. Set to zero.
 
 Set to the 
      <i>classifyOut</i> parameter of the callout driver's 
-     <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> function. The 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function. The 
      <i>classifyOut</i> parameter of 
      <i>classifyFn</i> is listed as an output parameter in the header, but it contains enough information on
      input to be useful to the engine when passed to 
@@ -167,11 +155,11 @@ An error occurred.
 
 <b>FwpsPendClassify0</b> puts the classification of the indicated event in a pended state. A callout
     driver typically pends classification so that more processing can be done outside the scope of the 
-    <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a> callout function. The callout driver can
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. The callout driver can
     then pass the classification handle and any other pertinent data about the indication to a function with
     less impact on performance than the driver callout functions. When processing is complete, the callout
     must call 
-    <a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a> to remove
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551150">FwpsCompleteClassify0</a> to remove
     the pended state. At the time of the call to FwpsCompleteClassify, the callout driver must return a
     filled-out 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a> structure just as it
@@ -179,8 +167,8 @@ An error occurred.
 
 FwpsPendClassify0 increments the reference count for the classification handle passed in the 
     <i>classifyHandle</i> parameter. After the callout driver calls this function, it can call 
-    <a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">
-    FwpsReleaseClassifyHandle0</a> to release the local instance. When <a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a> is called, the
+    <a href="https://msdn.microsoft.com/d61f9e04-e308-4844-9d46-d15faee04e75">
+    FwpsReleaseClassifyHandle0</a> to release the local instance. When <a href="https://msdn.microsoft.com/library/windows/hardware/ff551150">FwpsCompleteClassify0</a> is called, the
     reference to the handle will be decremented automatically.
 
 
@@ -188,11 +176,6 @@ FwpsPendClassify0 increments the reference count for the classification handle p
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
 
 
 
@@ -200,20 +183,24 @@ FwpsPendClassify0 increments the reference count for the classification handle p
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscompleteclassify0.md">FwpsCompleteClassify0</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552389">FWPS_FILTER1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550085">FwpsAcquireClassifyHandle0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551150">FwpsCompleteClassify0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551208">FwpsReleaseClassifyHandle0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  
-
 

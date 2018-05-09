@@ -7,8 +7,8 @@ old-location: buses\evt_ucm_connector_set_data_role.htm
 old-project: usbref
 ms.assetid: 344E0F3F-7363-4611-AD33-80CCED5D3564
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: EVT_UCM_CONNECTOR_SET_DATA_ROLE, EvtSetDataRole, EvtSetDataRole callback function [Buses], PFN_UCM_CONNECTOR_SET_DATA_ROLE, PFN_UCM_CONNECTOR_SET_DATA_ROLE callback function pointer [Buses], buses.evt_ucm_connector_set_data_role, ucmmanager/EvtSetDataRole
+ms.date: 4/25/2018
+ms.keywords: EVT_UCM_CONNECTOR_SET_DATA_ROLE, EVT_UCM_CONNECTOR_SET_DATA_ROLE callback, EvtSetDataRole, EvtSetDataRole callback function [Buses], PFN_UCM_CONNECTOR_SET_DATA_ROLE, PFN_UCM_CONNECTOR_SET_DATA_ROLE callback function pointer [Buses], buses.evt_ucm_connector_set_data_role, ucmmanager/EvtSetDataRole
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,19 @@ api_location:
 -	Ucmmanager.h
 api_name:
 -	PFN_UCM_CONNECTOR_SET_DATA_ROLE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PORT_DATA_1, *PPORT_DATA_1
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCM_CONNECTOR_SET_DATA_ROLE callback
+# EVT_UCM_CONNECTOR_SET_DATA_ROLE callback function
 
 
 ## -description
 
 
 The client driver's implementation of the <i>EVT_UCM_CONNECTOR_SET_DATA_ROLE</i> event callback function that swaps the data role of the connector to the specified role when attached to a partner connector.  
-
-
-## -prototype
-
-
-````
-EVT_UCM_CONNECTOR_SET_DATA_ROLE EvtSetDataRole;
-
-NTSTATUS EvtSetDataRole(
-  _In_ UCMCONNECTOR      Connector,
-  _In_ UCM_TYPEC_PARTNER DataRole
-)
-{ ... }
-
-typedef EVT_UCM_CONNECTOR_SET_DATA_ROLE PFN_UCM_CONNECTOR_SET_DATA_ROLE;
-````
 
 
 ## -parameters
@@ -76,12 +60,12 @@ typedef EVT_UCM_CONNECTOR_SET_DATA_ROLE PFN_UCM_CONNECTOR_SET_DATA_ROLE;
 
 ### -param Connector [in]
 
-Handle to the connector that the client driver received in a previous call to  the <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a> method.
+Handle to the connector that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a> method.
 
 
 ### -param DataRole [in]
 
-A <a href="..\ucmtypes\ne-ucmtypes-_ucm_typec_partner.md">UCM_TYPEC_PARTNER</a>-typed flag that specifies the role to set.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187947">UCM_TYPEC_PARTNER</a>-typed flag that specifies the role to set.
 
 
 ## -returns
@@ -97,9 +81,9 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 
-To register an <i>EVT_UCM_CONNECTOR_SET_DATA_ROLE</i> callback function, the client driver must call <a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>.  
+To register an <i>EVT_UCM_CONNECTOR_SET_DATA_ROLE</i> callback function, the client driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>.  
 
-The USB connector manager framework extension (UcmCx) can request  either <b>UcmTypeCPortStateUfp</b> or   <b>UcmTypeCPortStateDfp</b>. If the port is already in the requested role, the client driver can complete the request without any changes. Otherwise, it starts a data-role swap operation (DR_Swap). The driver calls <a href="..\ucmmanager\nf-ucmmanager-ucmconnectordatadirectionchanged.md">UcmConnectorDataDirectionChanged</a> to notify UcmCx about the success or failure of that operation. The driver can call that method within the callback function.
+The USB connector manager framework extension (UcmCx) can request  either <b>UcmTypeCPortStateUfp</b> or   <b>UcmTypeCPortStateDfp</b>. If the port is already in the requested role, the client driver can complete the request without any changes. Otherwise, it starts a data-role swap operation (DR_Swap). The driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/mt187910">UcmConnectorDataDirectionChanged</a> to notify UcmCx about the success or failure of that operation. The driver can call that method within the callback function.
 
 The role persists for the current connection.  
 
@@ -144,12 +128,11 @@ EvtSetDataRole(
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorcreate.md">UcmConnectorCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>
  
 
  
-
 

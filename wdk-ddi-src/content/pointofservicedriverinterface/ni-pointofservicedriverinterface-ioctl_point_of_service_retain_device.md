@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: c221862f-99db-4815-812f-8b22b46fff4a
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE, IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE, pos.ioctl_point_of_service_retain_device
+ms.keywords: IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE, IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE control, IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE, pos.ioctl_point_of_service_retain_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PosPropertyId
+req.typenames: 
 ---
 
 # IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE IOCTL
@@ -121,9 +122,9 @@ The POS library has not successfully initialized.
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
 
 
-This IOCTL only works if the client has previously called <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device.md">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a>.
+This IOCTL only works if the client has previously called <a href="https://msdn.microsoft.com/library/windows/hardware/dn772093">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a>.
 
-When handling this IOCTL, the driver can call <a href="..\poscx\nf-poscx-poscxretaindevice.md">PosCxRetainDevice</a>. The driver writer does not need to handle claim contention because the PosCx library determines who gets the claim.
+When handling this IOCTL, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/mt593134">PosCxRetainDevice</a>. The driver writer does not need to handle claim contention because the PosCx library determines who gets the claim.
 
 
 

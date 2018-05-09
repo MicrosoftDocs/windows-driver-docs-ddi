@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportAudioEngineNode.GetMixFormat
-title: IMiniportAudioEngineNode::GetMixFormat method
+title: IMiniportAudioEngineNode::GetMixFormat
 author: windows-driver-content
 description: Gets the audio data format for the audio engine mixer.
 old-location: audio\iminiportaudioenginenode_getmixformat.htm
 old-project: audio
 ms.assetid: CB0DD6C8-DFB3-42E0-B38F-341677A72E29
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetMixFormat method [Audio Devices], GetMixFormat method [Audio Devices], IMiniportAudioEngineNode interface, GetMixFormat,IMiniportAudioEngineNode.GetMixFormat, IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], GetMixFormat method, IMiniportAudioEngineNode::GetMixFormat, audio.iminiportaudioenginenode_getmixformat, portcls/IMiniportAudioEngineNode::GetMixFormat
+ms.date: 4/16/2018
+ms.keywords: GetMixFormat, GetMixFormat method [Audio Devices], GetMixFormat method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetMixFormat method, IMiniportAudioEngineNode.GetMixFormat, IMiniportAudioEngineNode::GetMixFormat, audio.iminiportaudioenginenode_getmixformat, portcls/IMiniportAudioEngineNode::GetMixFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportAudioEngineNode.GetMixFormat
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportAudioEngineNode::GetMixFormat method
+# IMiniportAudioEngineNode::GetMixFormat
 
 
 ## -description
 
 
 Gets the audio data format for the audio engine mixer.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetMixFormat(
-  [in]  ULONG                     ulNodeId,
-  [out] KSDATAFORMAT_WAVEFORMATEX *pFormat,
-  [in]  ULONG                     ulBufferSize
-);
-````
 
 
 ## -parameters
@@ -76,7 +65,7 @@ The ID of the mixer node.
 
 ### -param pFormat [out]
 
-A structure of type <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a> that represents the audio data format.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537095">KSDATAFORMAT_WAVEFORMATEX</a> that represents the audio data format.
 
 
 ### -param ulBufferSize [in]
@@ -95,16 +84,15 @@ The data buffer size.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
 
 
 
-<a href="..\portcls\nn-portcls-iminiportaudioenginenode.md">IMiniportAudioEngineNode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302040">IMiniportAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537095">KSDATAFORMAT_WAVEFORMATEX</a>
  
 
  
-
 

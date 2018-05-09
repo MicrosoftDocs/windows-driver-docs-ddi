@@ -7,7 +7,7 @@ old-location: stream\ksproperty_streaminterface.htm
 old-project: stream
 ms.assetid: E771F59E-7F85-40B9-BBA9-D1CC398B12CA
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSPROPERTY_STREAMINTERFACE, KSPROPERTY_STREAMINTERFACE enumeration [Streaming Media Devices], KSPROPERTY_STREAMINTERFACE_HEADERSIZE, ks/KSPROPERTY_STREAMINTERFACE, ks/KSPROPERTY_STREAMINTERFACE_HEADERSIZE, stream.ksproperty_streaminterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSPROPERTY_STREAMINTERFACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_STREAMINTERFACE
 ---
@@ -50,16 +51,6 @@ req.typenames: KSPROPERTY_STREAMINTERFACE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_STREAMINTERFACE_HEADERSIZE
-} KSPROPERTY_STREAMINTERFACE;
-````
 
 
 ## -enum-fields

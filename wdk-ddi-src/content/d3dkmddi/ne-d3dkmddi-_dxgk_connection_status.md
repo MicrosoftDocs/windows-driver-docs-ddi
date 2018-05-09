@@ -7,7 +7,7 @@ old-location: display\dxgk_connection_status.htm
 old-project: display
 ms.assetid: D78A845E-1F5D-42F7-9391-8F3F6555B7E5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_CONNECTION_STATUS, ConnectionStatusUninitialized, DXGK_CONNECTION_STATUS, DXGK_CONNECTION_STATUS enumeration [Display Devices], LinkConfigurationFailed, LinkConfigurationStarted, LinkConfigurationSucceeded, MonitorStatusConnected, MonitorStatusDisconnected, MonitorStatusUnknown, TargetStatusConnected, TargetStatusDisconnected, TargetStatusJoined, _DXGK_CONNECTION_STATUS, d3dkmddi/ConnectionStatusUninitialized, d3dkmddi/DXGK_CONNECTION_STATUS, d3dkmddi/LinkConfigurationFailed, d3dkmddi/LinkConfigurationStarted, d3dkmddi/LinkConfigurationSucceeded, d3dkmddi/MonitorStatusConnected, d3dkmddi/MonitorStatusDisconnected, d3dkmddi/MonitorStatusUnknown, d3dkmddi/TargetStatusConnected, d3dkmddi/TargetStatusDisconnected, d3dkmddi/TargetStatusJoined, display.dxgk_connection_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_CONNECTION_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_CONNECTION_STATUS, *PDXGK_CONNECTION_STATUS
 ---
@@ -50,25 +51,6 @@ req.typenames: DXGK_CONNECTION_STATUS, *PDXGK_CONNECTION_STATUS
 
 
 Enumeration indicating the connection status values which can be reported.  
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_CONNECTION_STATUS { 
-  ConnectionStatusUninitialized  = 0,
-  TargetStatusDisconnected       = 4,
-  TargetStatusConnected,
-  TargetStatusJoined,
-  MonitorStatusDisconnected      = 8,
-  MonitorStatusUnknown,
-  MonitorStatusConnected,
-  LinkConfigurationStarted       = 12,
-  LinkConfigurationFailed,
-  LinkConfigurationSucceeded
-} DXGK_CONNECTION_STATUS;
-````
 
 
 ## -enum-fields

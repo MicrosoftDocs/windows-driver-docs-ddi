@@ -7,7 +7,7 @@ old-location: print\oemupgraderegistry.htm
 old-project: print
 ms.assetid: 780ae330-907e-4e77-a5f9-cb44811f289f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMUpgradeRegistry, OEMUpgradeRegistry function [Print Devices], print.oemupgraderegistry, print_obsoletefunctions_5837e384-9879-4909-8dfa-f3c74486bde0.xml, printoem/OEMUpgradeRegistry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMUpgradeRegistry
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMUpgradeRegistry function
@@ -50,18 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMUpgradeRegistry(
-   DWORD                         dwLevel,
-   PBYTE                         pDriverUpgradeInfo,
-   PFN_DrvUpgradeRegistrySetting pfnUpgrade
-);
-````
 
 
 ## -parameters
@@ -80,12 +68,11 @@ BOOL APIENTRY OEMUpgradeRegistry(
 
 ## -see-also
 
-<a href="..\printoem\nc-printoem-pfn_drvupgraderegistrysetting.md">DrvUpgradeRegistrySetting</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548652">DrvUpgradeRegistrySetting</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: ifsk\flt_file_name_information.htm
 old-project: ifsk
 ms.assetid: 998a028a-7dd8-429a-8195-68d4b4b1b156
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION structure [Installable File System Drivers], FltSystemStructures_0c108c25-effe-413b-9d2a-a215f4eebf37.xml, PFLT_FILE_NAME_INFORMATION, PFLT_FILE_NAME_INFORMATION structure pointer [Installable File System Drivers], _FLT_FILE_NAME_INFORMATION, fltkernel/FLT_FILE_NAME_INFORMATION, fltkernel/PFLT_FILE_NAME_INFORMATION, ifsk.flt_file_name_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	fltkernel.h
 api_name:
 -	FLT_FILE_NAME_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION
 ---
@@ -50,25 +51,6 @@ req.typenames: FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION
 
 
 The FLT_FILE_NAME_INFORMATION structure contains file name information. 
-
-
-## -syntax
-
-
-````
-typedef struct _FLT_FILE_NAME_INFORMATION {
-  USHORT                     Size;
-  FLT_FILE_NAME_PARSED_FLAGS NamesParsed;
-  FLT_FILE_NAME_OPTIONS      Format;
-  UNICODE_STRING             Name;
-  UNICODE_STRING             Volume;
-  UNICODE_STRING             Share;
-  UNICODE_STRING             Extension;
-  UNICODE_STRING             Stream;
-  UNICODE_STRING             FinalComponent;
-  UNICODE_STRING             ParentDir;
-} FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -83,7 +65,7 @@ Size, in bytes, of the FLT_FILE_NAME_INFORMATION structure.
 
 ### -field NamesParsed
 
-Bitmask of flags that indicate which name components have been parsed from the <b>Name</b> string by <a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>. Note that, when parsing the <b>Name</b> string, <b>FltParseFileNameInformation</b> sets this flag for each component, whether the component is found to be present in the string. These values may be combined by using the OR operator. 
+Bitmask of flags that indicate which name components have been parsed from the <b>Name</b> string by <a href="https://msdn.microsoft.com/library/windows/hardware/ff543417">FltParseFileNameInformation</a>. Note that, when parsing the <b>Name</b> string, <b>FltParseFileNameInformation</b> sets this flag for each component, whether the component is found to be present in the string. These values may be combined by using the OR operator. 
 
 <table>
 <tr>
@@ -180,7 +162,7 @@ The <b>Name</b> member contains the short (8.3) name for the file. The short nam
 ### -field Name
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the file name string, formatted as specified by the <b>Format</b> member. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the file name string, formatted as specified by the <b>Format</b> member. 
 
 
 ### -field Volume
@@ -195,22 +177,22 @@ UNICODE_STRING structure that contains the network share name parsed from the <b
 
 ### -field Extension
 
-UNICODE_STRING structure that contains the extension parsed from the <b>Name</b> string. If no extension is found, <a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a> sets <b>Extension.Length</b> to zero. 
+UNICODE_STRING structure that contains the extension parsed from the <b>Name</b> string. If no extension is found, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543417">FltParseFileNameInformation</a> sets <b>Extension.Length</b> to zero. 
 
 
 ### -field Stream
 
-UNICODE_STRING structure that contains the stream name parsed from the <b>Name</b> string. If no stream name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a> sets <b>Stream.Length</b> to zero. 
+UNICODE_STRING structure that contains the stream name parsed from the <b>Name</b> string. If no stream name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543417">FltParseFileNameInformation</a> sets <b>Stream.Length</b> to zero. 
 
 
 ### -field FinalComponent
 
-UNICODE_STRING structure that contains the final name component parsed from the <b>Name</b> string. If no final component name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a> sets <b>FinalComponent.Length</b> to zero. 
+UNICODE_STRING structure that contains the final name component parsed from the <b>Name</b> string. If no final component name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543417">FltParseFileNameInformation</a> sets <b>FinalComponent.Length</b> to zero. 
 
 
 ### -field ParentDir
 
-UNICODE_STRING structure that contains the parent directory name parsed from the <b>Name</b> string by <a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>. If no parent directory name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <b>FltParseFileNameInformation</b> sets <b>ParentDir.Length</b> to zero. 
+UNICODE_STRING structure that contains the parent directory name parsed from the <b>Name</b> string by <a href="https://msdn.microsoft.com/library/windows/hardware/ff543417">FltParseFileNameInformation</a>. If no parent directory name is found, or if <b>Format</b> is FLT_FILE_NAME_SHORT, <b>FltParseFileNameInformation</b> sets <b>ParentDir.Length</b> to zero. 
 
 
 ## -remarks
@@ -237,7 +219,7 @@ A file name is considered <i>normalized</i> if all of the following are true:
 
 <ul>
 <li>
-It contains the full directory path for the file, including the volume name, unless the user opened the file by file ID but does not have traverse privilege for the entire path. (For more information, see <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>.) 
+It contains the full directory path for the file, including the volume name, unless the user opened the file by file ID but does not have traverse privilege for the entire path. (For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543032">FltGetFileNameInformation</a>.) 
 
 </li>
 <li>
@@ -335,44 +317,23 @@ The following is an example of a short name for a file:
 </td>
 </tr>
 </table></span></div>
-To obtain an FLT_FILE_NAME_INFORMATION structure for a file, call <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>, <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>, or <a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>. These routines returns a pointer to a Filter Manager-owned FLT_FILE_NAME_INFORMATION structure that is shared by all minifilters. 
+To obtain an FLT_FILE_NAME_INFORMATION structure for a file, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543032">FltGetFileNameInformation</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543035">FltGetFileNameInformationUnsafe</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff543003">FltGetDestinationFileNameInformation</a>. These routines returns a pointer to a Filter Manager-owned FLT_FILE_NAME_INFORMATION structure that is shared by all minifilters. 
 
 <div class="alert"><b>Note</b>    Do not modify the contents of FLT_FILE_NAME_INFORMATION structures, because these structures are cached by the Filter Manager so that all minifilters can use them. If your minifilter must modify this information in some way, it should copy the information into another buffer first. </div>
 <div> </div>
-File systems such as NTFS and FAT use a per-volume tunnel cache to briefly preserve file names and other metadata for files that are being renamed, linked to, or deleted. This file name tunneling can cause the final component in normalized file name information returned by a preoperation call to <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>, <a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>, or <a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a> to be invalidated. If a minifilter retrieves normalized file name information in the preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine for a create, hard-link, or rename operation, it must call <a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a> from its postoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routine to retrieve the correct file name information for the file. 
+File systems such as NTFS and FAT use a per-volume tunnel cache to briefly preserve file names and other metadata for files that are being renamed, linked to, or deleted. This file name tunneling can cause the final component in normalized file name information returned by a preoperation call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543032">FltGetFileNameInformation</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543035">FltGetFileNameInformationUnsafe</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff543003">FltGetDestinationFileNameInformation</a> to be invalidated. If a minifilter retrieves normalized file name information in the preoperation callback (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>) routine for a create, hard-link, or rename operation, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543177">FltGetTunneledName</a> from its postoperation callback (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551107">PFLT_POST_OPERATION_CALLBACK</a>) routine to retrieve the correct file name information for the file. 
 
-Although it contains numerous <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structures, the FLT_FILE_NAME_INFORMATION structure does not occupy much space in memory because all of the UNICODE_STRING structures in a FLT_FILE_NAME_INFORMATION structure share a single buffer. 
+Although it contains numerous <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structures, the FLT_FILE_NAME_INFORMATION structure does not occupy much space in memory because all of the UNICODE_STRING structures in a FLT_FILE_NAME_INFORMATION structure share a single buffer. 
 
-To parse the contents of the <b>Name</b> string, call <a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>. This routine sets the values of the <b>Extension</b>, <b>Stream</b>, <b>FinalComponent</b>, <b>ParentDir</b>, and <b>NamesParsed</b> members of this structure. 
+To parse the contents of the <b>Name</b> string, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543417">FltParseFileNameInformation</a>. This routine sets the values of the <b>Extension</b>, <b>Stream</b>, <b>FinalComponent</b>, <b>ParentDir</b>, and <b>NamesParsed</b> members of this structure. 
 
-Minifilters are responsible for calling <a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a> to release the FLT_FILE_NAME_INFORMATION structure when it is no longer needed. 
+Minifilters are responsible for calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff544320">FltReleaseFileNameInformation</a> to release the FLT_FILE_NAME_INFORMATION structure when it is no longer needed. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
 
 
@@ -380,28 +341,48 @@ Minifilters are responsible for calling <a href="..\fltkernel\nf-fltkernel-fltre
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543003">FltGetDestinationFileNameInformation</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543032">FltGetFileNameInformation</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543035">FltGetFileNameInformationUnsafe</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543177">FltGetTunneledName</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543413">FltParseFileName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543417">FltParseFileNameInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544301">FltReferenceFileNameInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544320">FltReleaseFileNameInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551107">PFLT_POST_OPERATION_CALLBACK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

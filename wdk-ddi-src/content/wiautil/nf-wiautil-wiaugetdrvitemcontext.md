@@ -7,7 +7,7 @@ old-location: image\wiaugetdrvitemcontext.htm
 old-project: image
 ms.assetid: 6d4b7a25-436f-4547-8969-66dd45fa46fd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaugetdrvitemcontext, wiauFncs_3928edcb-8885-456a-a27d-62612fcb2d1a.xml, wiauGetDrvItemContext, wiauGetDrvItemContext function [Imaging Devices], wiautil/wiauGetDrvItemContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauGetDrvItemContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauGetDrvItemContext function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauGetDrvItemContext</b> function gets the driver item context, and optionally, the driver item.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauGetDrvItemContext(
-  _In_    BYTE                  *pWiasContext,
-  _Inout_ VOID                  **ppItemCtx,
-  _Inout_ IWiaDrvItem ppDrvItem **ppDrvItem
-);
-````
 
 
 ## -parameters

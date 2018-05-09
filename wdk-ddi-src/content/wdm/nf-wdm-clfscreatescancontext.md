@@ -7,7 +7,7 @@ old-location: kernel\clfscreatescancontext.htm
 old-project: kernel
 ms.assetid: f3392e43-8463-4d21-9206-34d09f3c7f59
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsCreateScanContext, ClfsCreateScanContext routine [Kernel-Mode Driver Architecture], Clfs_475944a4-914e-4532-a066-ee7ff9109756.xml, kernel.clfscreatescancontext, wdm/ClfsCreateScanContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsCreateScanContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsCreateScanContext function
@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>ClfsCreateScanContext</b> routine creates a scan context that can be used to iterate over the containers of a specified CLFS log.
 
 
-## -syntax
-
-
-````
-NTSTATUS ClfsCreateScanContext(
-  _In_    PLOG_FILE_OBJECT   plfoLog,
-  _In_    ULONG              cFromContainer,
-  _In_    ULONG              cContainers,
-  _In_    CLFS_SCAN_MODE     eScanMode,
-  _Inout_ PCLFS_SCAN_CONTEXT pcxScan
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ NTSTATUS ClfsCreateScanContext(
 
 ### -param plfoLog [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The scan context is created for the log that provides the underlying storage for that stream. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The scan context is created for the log that provides the underlying storage for that stream. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>.
 
 
 ### -param cFromContainer [in]
@@ -85,7 +71,7 @@ The index of the first container to be scanned. Containers are indexed starting 
 
 ### -param cContainers [in]
 
-The number of containers to be scanned with each call to <a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>.
+The number of containers to be scanned with each call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541737">ClfsScanLogContainers</a>.
 
 
 ### -param eScanMode [in]
@@ -137,7 +123,7 @@ If <i>pcxScan</i> points to a CLFS_SCAN_CONTEXT structure that has been passed t
 
 ### -param pcxScan [in, out]
 
-A pointer to a caller-allocated <a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a> structure whose members are initialized by this routine. This structure is later passed to <a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff541856">CLFS_SCAN_CONTEXT</a> structure whose members are initialized by this routine. This structure is later passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541737">ClfsScanLogContainers</a>.
 
 
 ## -returns
@@ -160,12 +146,11 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsscanlogcontainers.md">ClfsScanLogContainers</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541737">ClfsScanLogContainers</a>
  
 
  
-
 

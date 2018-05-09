@@ -7,7 +7,7 @@ old-location: netvista\ndismcmderegistersapcomplete.htm
 old-project: netvista
 ms.assetid: 69524144-fc55-4721-a753-6452566a8b26
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMCmDeregisterSapComplete, NdisMCmDeregisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_c7c4035b-8227-418a-895d-9b14027ce4c4.xml, ndis/NdisMCmDeregisterSapComplete, netvista.ndismcmderegistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisMCmDeregisterSapComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMCmDeregisterSapComplete macro
@@ -51,17 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 <b>NdisMCmDeregisterSapComplete</b> returns the final status of a client's request, for which the MCM driver
   previously returned NDIS_STATUS_PENDING, to deregister a SAP.
-
-
-## -syntax
-
-
-````
-VOID NdisMCmDeregisterSapComplete(
-  [in] NDIS_STATUS Status,
-  [in] NDIS_HANDLE NdisSapHandle
-);
-````
 
 
 ## -parameters
@@ -99,12 +89,12 @@ Specifies NDIS_STATUS_SUCCESS.
 
 <b>NdisMCmDeregisterSapComplete</b> notifies both NDIS and the client that the MCM driver has completed
     the SAP-deregistration request for which its 
-    <a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">
+    <a href="https://msdn.microsoft.com/738c426e-aa4f-4f59-b955-fbf67071303f">
     ProtocolCmDeregisterSap</a> function previously returned NDIS_STATUS_PENDING.
 
 A call to 
     <b>NdisMCmDeregisterSapComplete</b> causes NDIS to call the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+    <a href="https://msdn.microsoft.com/93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6">
     ProtocolClDeregisterSapComplete</a> function.
 
 The MCM driver should consider the 
@@ -121,25 +111,24 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmderegistersapcomplete.md">NdisCmDeregisterSapComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561659">NdisCmDeregisterSapComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6">
    ProtocolClDeregisterSapComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
-
-
-
+<a href="https://msdn.microsoft.com/738c426e-aa4f-4f59-b955-fbf67071303f">ProtocolCmDeregisterSap</a>
  
 
  
-
 

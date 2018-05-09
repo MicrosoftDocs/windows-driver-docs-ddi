@@ -7,8 +7,8 @@ old-location: display\reportstatistic.htm
 old-project: display
 ms.assetid: 13e1afa2-5552-468f-ac6b-3458dedd9b76
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFN_REPORT_STATISTIC, ReportStatistic, ReportStatistic callback function [Display Devices], display.reportstatistic, netdispumdddi/ReportStatistic
+ms.date: 4/16/2018
+ms.keywords: PFN_REPORT_STATISTIC, PFN_REPORT_STATISTIC callback, ReportStatistic, ReportStatistic callback function [Display Devices], display.reportstatistic, netdispumdddi/ReportStatistic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	ReportStatistic
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: 
 ---
 
-# PFN_REPORT_STATISTIC callback
+# PFN_REPORT_STATISTIC callback function
 
 
 ## -description
@@ -54,20 +55,6 @@ Called by the user-mode display driver to report the statistics of the Miracast 
 
 
 
-## -prototype
-
-
-````
-PFN_REPORT_STATISTIC ReportStatistic;
-
-VOID ReportStatistic(
-  _In_ HANDLE                  hMiracastDeviceHandle,
-  _In_ MIRACAST_STATISTIC_DATA *pStatistics
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,12 +62,12 @@ VOID ReportStatistic(
 
 ### -param hMiracastDeviceHandle [in]
 
-A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a> function.
+A handle that represents a Miracast device. The Miracast user-mode driver previously obtained this handle as the <i>hMiracastDeviceHandle</i> parameter in a call to the <a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a> function.
 
 
 ### -param *pStatistics [in]
 
-A pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-miracast_statistic_data.md">MIRACAST_STATISTIC_DATA</a> structure that contains the statistics data.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265479">MIRACAST_STATISTIC_DATA</a> structure that contains the statistics data.
 
 
 ## -returns
@@ -113,16 +100,15 @@ For more info on how to use this function, see these topics:
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_statistic_data.md">MIRACAST_STATISTIC_DATA</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+<a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265479">MIRACAST_STATISTIC_DATA</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\keconvertperformancecountertoauxiliarycounter.htm
 old-project: kernel
 ms.assetid: 69F7C73E-C609-4080-8CB8-2F4D9A8C695B
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KeConvertPerformanceCounterToAuxiliaryCounter, KeConvertPerformanceCounterToAuxiliaryCounter routine [Kernel-Mode Driver Architecture], kernel.keconvertperformancecountertoauxiliarycounter, wdm/KeConvertPerformanceCounterToAuxiliaryCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Hal.dll
 api_name:
 -	KeConvertPerformanceCounterToAuxiliaryCounter
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeConvertPerformanceCounterToAuxiliaryCounter function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The  <b>KeConvertPerformanceCounterToAuxiliaryCounter</b> routine converts the specified performance counter value into an auxiliary counter value.
-
-
-## -syntax
-
-
-````
-NTSTATUS KeConvertPerformanceCounterToAuxiliaryCounter(
-  _In_      ULONG64  PerformanceCounterValue,
-  _Out_     PULONG64 AuxiliaryCounterValue,
-  _Out_opt_ PULONG64 ConversionError
-);
-````
 
 
 ## -parameters
@@ -166,12 +154,11 @@ If the <i>ConversionError</i> value is greater than the expected value (determin
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keconvertauxiliarycountertoperformancecounter.md">KeConvertAuxiliaryCounterToPerformanceCounter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt146560">KeConvertAuxiliaryCounterToPerformanceCounter</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetItemFlags
-title: IWiaDrvItem::GetItemFlags method
+title: IWiaDrvItem::GetItemFlags
 author: windows-driver-content
 description: The IWiaDrvItem::GetItemFlags method gets the item flags of the current IWiaDrvItem item.
 old-location: image\iwiadrvitem_getitemflags.htm
 old-project: image
 ms.assetid: 47358d69-ef45-4cac-8187-72c354912c4e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml, GetItemFlags method [Imaging Devices], GetItemFlags method [Imaging Devices], IWiaDrvItem interface, GetItemFlags,IWiaDrvItem.GetItemFlags, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetItemFlags method, IWiaDrvItem::GetItemFlags, image.iwiadrvitem_getitemflags, wiamindr_lh/IWiaDrvItem::GetItemFlags
+ms.date: 4/23/2018
+ms.keywords: DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml, GetItemFlags, GetItemFlags method [Imaging Devices], GetItemFlags method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetItemFlags method, IWiaDrvItem.GetItemFlags, IWiaDrvItem::GetItemFlags, image.iwiadrvitem_getitemflags, wiamindr_lh/IWiaDrvItem::GetItemFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.GetItemFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaDrvItem::GetItemFlags method
+# IWiaDrvItem::GetItemFlags
 
 
 ## -description
 
 
 The <b>IWiaDrvItem::GetItemFlags</b> method gets the item flags of the current <b>IWiaDrvItem</b> item.
-
-
-## -syntax
-
-
-````
-HRESULT GetItemFlags(
-  [out] LONG *plFlags
-);
-````
 
 
 ## -parameters
@@ -93,23 +83,22 @@ If the method succeeds, it places the item flag values in the location pointed t
 
 
 
-The method places the current <b>IWiaDrvItem</b> item's flag values in the location pointed to by <i>pIFlags</i>. The item's flag values were set when the item was created by the driver services library function <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>.
+The method places the current <b>IWiaDrvItem</b> item's flag values in the location pointed to by <i>pIFlags</i>. The item's flag values were set when the item was created by the driver services library function <a href="https://msdn.microsoft.com/library/windows/hardware/ff549160">wiasCreateDrvItem</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+<a href="https://msdn.microsoft.com/0609e1b2-48df-413c-90bd-d7ddea26510a">IWiaDrvItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549160">wiasCreateDrvItem</a>
  
 
  
-
 

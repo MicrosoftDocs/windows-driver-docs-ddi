@@ -19,6 +19,7 @@
 ### [SensorsCxDeviceInitialize function](../sensorscx/nf-sensorscx-sensorscxdeviceinitialize.md)
 ### [SensorsCxSensorCreate function](../sensorscx/nf-sensorscx-sensorscxsensorcreate.md)
 ### [SensorsCxSensorDataReady function](../sensorscx/nf-sensorscx-sensorscxsensordataready.md)
+### [SensorsCxSensorHistoryRetrievalCompleted function](../sensorscx/nf-sensorscx-sensorscxsensorhistoryretrievalcompleted.md)
 ### [SensorsCxSensorInitialize function](../sensorscx/nf-sensorscx-sensorscxsensorinitialize.md)
 ### [SensorsCxStateChange function](../sensorscx/nf-sensorscx-sensorscxstatechange.md)
 ### [SENSOR_CONFIG_INIT function](../sensorscx/nf-sensorscx-sensor_config_init.md)

@@ -7,7 +7,7 @@ old-location: netvista\nmrclientattachprovider.htm
 old-project: netvista
 ms.assetid: dca8f82b-f058-4765-890c-973f8462c2f5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	netio.dll
 api_name:
 -	NmrClientAttachProvider
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
+req.typenames: 
 ---
 
 # NmrClientAttachProvider function
@@ -54,20 +55,6 @@ The
   <b>NmrClientAttachProvider</b> function attaches a client module to a provider module.
 
 
-## -syntax
-
-
-````
-NTSTATUS NmrClientAttachProvider(
-  _In_        HANDLE NmrBindingHandle,
-  _In_        PVOID  ClientBindingContext,
-  _In_  const VOID   *ClientDispatch,
-  _Out_       PVOID  *ProviderBindingContext,
-  _Out_ const VOID   **ProviderDispatch
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +64,7 @@ NTSTATUS NmrClientAttachProvider(
 
 A handle used by the NMR to represent the binding between the client module and the provider
      module. The NMR passes this handle to the client module when it calls the client module's 
-     <a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a> callback
+     <a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a> callback
      function.
 
 
@@ -180,12 +167,12 @@ An error occurred.
 
 A client module calls the 
     <b>NmrClientAttachProvider</b> function from its 
-    <a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a> callback
+    <a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a> callback
     function to attach itself to a provider module.
 
 When a client module calls the 
     <b>NmrClientAttachProvider</b> function, the NMR calls the provider module's 
-    <a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a> callback
+    <a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a> callback
     function to complete the attachment process. The 
     <b>NmrClientAttachProvider</b> function returns the status code that is returned by the provider module's 
     <i>ProviderAttachClient</i> callback
@@ -201,7 +188,7 @@ If the
     <b>NmrClientAttachProvider</b> function returns STATUS_SUCCESS and the client module dynamically allocated
     the memory for its binding context, the client module should free that allocated memory when the NMR
     calls the client module's 
-    <a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">
+    <a href="https://msdn.microsoft.com/eebffed4-a2e0-4743-871b-f50f0cdda30d">
     ClientCleanupBindingContext</a> callback function after the client module and provider module are
     detached from each other.
 
@@ -217,20 +204,19 @@ If the
 
 ## -see-also
 
-<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
+<a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+<a href="https://msdn.microsoft.com/eebffed4-a2e0-4743-871b-f50f0cdda30d">ClientCleanupBindingContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a>
  
 
  
-
 

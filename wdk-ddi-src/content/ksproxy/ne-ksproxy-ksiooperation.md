@@ -7,7 +7,7 @@ old-location: stream\ksiooperation.htm
 old-project: stream
 ms.assetid: 993909CB-B00C-40C0-ADDA-DB4389D9812E
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSIOOPERATION, KSIOOPERATION enumeration [Streaming Media Devices], KsIoOperation_Read, KsIoOperation_Write, ksproxy/KSIOOPERATION, ksproxy/KsIoOperation_Read, ksproxy/KsIoOperation_Write, stream.ksiooperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	KSIOOPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSIOOPERATION
 ---
@@ -50,17 +51,6 @@ req.typenames: KSIOOPERATION
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KsIoOperation_Write,
-  KsIoOperation_Read
-} KSIOOPERATION;
-````
 
 
 ## -enum-fields

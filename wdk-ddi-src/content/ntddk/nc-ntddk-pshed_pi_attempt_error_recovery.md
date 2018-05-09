@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: e7186c16-f093-4a64-aa25-03e9ce0f967e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: AttemptRecovery, AttemptRecovery callback function [WHEA Drivers and Applications], PSHED_PI_ATTEMPT_ERROR_RECOVERY, ntddk/AttemptRecovery, whea.attemptrecovery, whearef_e6307253-0f45-4613-b384-ad737da27031.xml
+ms.keywords: AttemptRecovery, AttemptRecovery callback function [WHEA Drivers and Applications], PSHED_PI_ATTEMPT_ERROR_RECOVERY, PSHED_PI_ATTEMPT_ERROR_RECOVERY callback, ntddk/AttemptRecovery, whea.attemptrecovery, whearef_e6307253-0f45-4613-b384-ad737da27031.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	Ntddk.h
 api_name:
 -	AttemptRecovery
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PSHED_PI_ATTEMPT_ERROR_RECOVERY callback
+# PSHED_PI_ATTEMPT_ERROR_RECOVERY callback function
 
 
 ## -description
 
 
 A PSHED plug-in's <i>AttemptRecovery</i> callback function attempts to recover from a recoverable hardware error.
-
-
-## -prototype
-
-
-````
-PSHED_PI_ATTEMPT_ERROR_RECOVERY AttemptRecovery;
-
-NTSTATUS AttemptRecovery(
-  _Inout_opt_ PVOID              PluginContext,
-  _In_        ULONG              BufferLength,
-  _In_        PWHEA_ERROR_RECORD ErrorRecord
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -74,7 +60,7 @@ NTSTATUS AttemptRecovery(
 
 ### -param PluginContext [in, out, optional]
 
-A pointer to the context area that was specified in the <b>Context</b> member of the <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a> function to register itself with the PSHED.
+A pointer to the context area that was specified in the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560617">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure when the PSHED plug-in called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559466">PshedRegisterPlugin</a> function to register itself with the PSHED.
 
 
 ### -param BufferLength [in]
@@ -84,7 +70,7 @@ The size, in bytes, of the error record that is pointed to by the <i>ErrorRecord
 
 ### -param ErrorRecord [in]
 
-A pointer to a <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure that describes an error record for a recoverable hardware error.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560483">WHEA_ERROR_RECORD</a> structure that describes an error record for a recoverable hardware error.
 
 
 ## -returns
@@ -130,11 +116,11 @@ The attempt to recover from the hardware error was unsuccessful.
 
 
 
-A PSHED plug-in that participates in error recovery sets the <b>Callbacks.AttemptRecovery</b> member of the <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure to point to its <i>AttemptRecovery</i> callback function when the plug-in calls the <a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a> function to register itself with the PSHED. The PSHED plug-in must also set the <b>PshedFAErrorRecovery</b> flag in the <b>FunctionalAreaMask</b> member of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
+A PSHED plug-in that participates in error recovery sets the <b>Callbacks.AttemptRecovery</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560617">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a> structure to point to its <i>AttemptRecovery</i> callback function when the plug-in calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559466">PshedRegisterPlugin</a> function to register itself with the PSHED. The PSHED plug-in must also set the <b>PshedFAErrorRecovery</b> flag in the <b>FunctionalAreaMask</b> member of the WHEA_PSHED_PLUGIN_REGISTRATION_PACKET structure.
 
 The Windows kernel attempts to recover from a recoverable hardware error while it processes the error after all of the hardware error data has been put into the error record. The Windows kernel then calls into the PSHED to give it an opportunity to perform any required recovery operations. If a PSHED plug-in is registered to participate in error recovery, the PSHED calls the PSHED plug-in's <i>AttemptRecovery</i> callback function so that it can attempt to correct the error and/or perform any additional operations that are required to fully recover from the error condition.
 
-If the Windows kernel or the PSHED successfully recovers from the hardware error, it updates the <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure that describes the error before it calls the PSHED plug-in's <i>AttemptRecovery</i> callback function as follows: 
+If the Windows kernel or the PSHED successfully recovers from the hardware error, it updates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560483">WHEA_ERROR_RECORD</a> structure that describes the error before it calls the PSHED plug-in's <i>AttemptRecovery</i> callback function as follows: 
 
 <ul>
 <li>
@@ -155,20 +141,19 @@ The PSHED calls a PSHED plug-in's <i>AttemptRecovery</i> callback function at IR
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559466">PshedRegisterPlugin</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560483">WHEA_ERROR_RECORD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560617">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
  
 
  
-
 

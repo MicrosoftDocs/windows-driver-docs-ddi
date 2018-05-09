@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMusicTechnology.SetTechnology
-title: IMusicTechnology::SetTechnology method
+title: IMusicTechnology::SetTechnology
 author: windows-driver-content
 description: The SetTechnology method changes the Technology member of each KSDATARANGE_MUSIC structure in the data ranges for the miniport driver's pins.
 old-location: audio\imusictechnology_settechnology.htm
 old-project: audio
 ms.assetid: 7e32b408-930d-4ef4-960e-1a0da5ef6803
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IMusicTechnology, IMusicTechnology interface [Audio Devices], SetTechnology method, IMusicTechnology::SetTechnology, SetTechnology method [Audio Devices], SetTechnology method [Audio Devices], IMusicTechnology interface, SetTechnology,IMusicTechnology.SetTechnology, audio.imusictechnology_settechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, portcls/IMusicTechnology::SetTechnology
+ms.date: 4/16/2018
+ms.keywords: IMusicTechnology interface [Audio Devices],SetTechnology method, IMusicTechnology.SetTechnology, IMusicTechnology::SetTechnology, SetTechnology, SetTechnology method [Audio Devices], SetTechnology method [Audio Devices],IMusicTechnology interface, audio.imusictechnology_settechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, portcls/IMusicTechnology::SetTechnology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IMusicTechnology.SetTechnology
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMusicTechnology::SetTechnology method
+# IMusicTechnology::SetTechnology
 
 
 ## -description
 
 
-The <code>SetTechnology</code> method changes the <b>Technology</b> member of each <a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a> structure in the data ranges for the miniport driver's pins.
-
-
-## -syntax
-
-
-````
-NTSTATUS SetTechnology(
-  [in] const GUID *Technology
-);
-````
+The <code>SetTechnology</code> method changes the <b>Technology</b> member of each <a href="https://msdn.microsoft.com/library/windows/hardware/ff537097">KSDATARANGE_MUSIC</a> structure in the data ranges for the miniport driver's pins.
 
 
 ## -parameters
@@ -69,7 +60,7 @@ NTSTATUS SetTechnology(
 
 ### -param Technology [in]
 
-Specifies a technology GUID. This parameter should point to one of the GUIDs that are defined for the <b>Technology</b> member of the <a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a> structure.
+Specifies a technology GUID. This parameter should point to one of the GUIDs that are defined for the <b>Technology</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537097">KSDATARANGE_MUSIC</a> structure.
 
 
 ## -returns
@@ -154,16 +145,15 @@ For more information, see <a href="https://msdn.microsoft.com/3b7c2907-e67f-458e
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-imusictechnology.md">IMusicTechnology</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksdatarange_music.md">KSDATARANGE_MUSIC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536778">IMusicTechnology</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537097">KSDATARANGE_MUSIC</a>
  
 
  
-
 

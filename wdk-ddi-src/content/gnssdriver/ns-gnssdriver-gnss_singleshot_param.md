@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_SINGLESHOT_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SINGLESHOT_PARAM, *PGNSS_SINGLESHOT_PARAM
 ---
@@ -50,18 +51,6 @@ req.typenames: GNSS_SINGLESHOT_PARAM, *PGNSS_SINGLESHOT_PARAM
 
 
 This structure defines the parameters for a single-shot fix session.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG ResponseTime;
-} GNSS_SINGLESHOT_PARAM, *PGNSS_SINGLESHOT_PARAM;
-````
 
 
 ## -struct-fields

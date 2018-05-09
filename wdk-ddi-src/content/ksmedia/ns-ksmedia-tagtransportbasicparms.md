@@ -7,7 +7,7 @@ old-location: stream\transportbasicparms.htm
 old-project: stream
 ms.assetid: 40e305b3-e91c-4227-99e7-dbb939082f54
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], TRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices], ksmedia/PTRANSPORTBASICPARMS, ksmedia/TRANSPORTBASICPARMS, stream.transportbasicparms, tagTRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TRANSPORTBASICPARMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS
 ---
@@ -50,45 +51,6 @@ req.typenames: TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS
 
 
 The TRANSPORTBASICPARMS structure is defined but not used.
-
-
-## -syntax
-
-
-````
-typedef struct tagTRANSPORTBASICPARMS {
-  LONG  TimeFormat;
-  LONG  TimeReference;
-  LONG  Superimpose;
-  LONG  EndStopAction;
-  LONG  RecordFormat;
-  LONG  StepFrames;
-  LONG  SetpField;
-  LONG  Preroll;
-  LONG  RecPreroll;
-  LONG  Postroll;
-  LONG  EditDelay;
-  LONG  PlayTCDelay;
-  LONG  RecTCDelay;
-  LONG  EditField;
-  LONG  FrameServo;
-  LONG  ColorFrameServo;
-  LONG  ServoRef;
-  LONG  WarnGenlock;
-  LONG  SetTracking;
-  TCHAR VolumeName[40];
-  LONG  Ballistic[20];
-  LONG  Speed;
-  LONG  CounterFormat;
-  LONG  TunerChannel;
-  LONG  TunerNumber;
-  LONG  TimerEvent;
-  LONG  TimerStartDay;
-  LONG  TimerStartTime;
-  LONG  TimerStopDay;
-  LONG  TimerStopTime;
-} TRANSPORTBASICPARMS, *PTRANSPORTBASICPARMS;
-````
 
 
 ## -struct-fields

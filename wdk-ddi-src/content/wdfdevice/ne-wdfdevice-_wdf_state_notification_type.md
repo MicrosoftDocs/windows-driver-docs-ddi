@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WDF_STATE_NOTIFICATION_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_STATE_NOTIFICATION_TYPE enumeration
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WDF_STATE_NOTIFICATION_TYPE</b> enumeration identifies the type of Plug and Play, power, or power policy notification that a framework-based driver will receive.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_STATE_NOTIFICATION_TYPE { 
-  StateNotificationInvalid           = 0x0000,
-  StateNotificationEnterState        = 0x0001,
-  StateNotificationPostProcessState  = 0x0002,
-  StateNotificationLeaveState        = 0x0004,
-  StateNotificationAllStates         = StateNotificationEnterState | StateNotificationPostProcessState | StateNotificationLeaveState
-} WDF_STATE_NOTIFICATION_TYPE;
-````
 
 
 ## -enum-fields
@@ -128,19 +114,19 @@ To register for notification of a change in state, the driver can call the follo
 <ul>
 <li>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpnpstatechangecallback.md">WdfDeviceInitRegisterPnpStateChangeCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546057">WdfDeviceInitRegisterPnpStateChangeCallback</a>
 
 
 </li>
 <li>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpowerstatechangecallback.md">WdfDeviceInitRegisterPowerStateChangeCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546071">WdfDeviceInitRegisterPowerStateChangeCallback</a>
 
 
 </li>
 <li>
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitregisterpowerpolicystatechangecallback.md">WdfDeviceInitRegisterPowerPolicyStateChangeCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546066">WdfDeviceInitRegisterPowerPolicyStateChangeCallback</a>
 
 
 </li>
@@ -150,20 +136,19 @@ To register for notification of a change in state, the driver can call the follo
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_notification_data.md">WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</a>
 
 
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_notification_data.md">WDF_DEVICE_POWER_NOTIFICATION_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551260">WDF_DEVICE_PNP_NOTIFICATION_DATA</a>
 
 
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_notification_data.md">WDF_DEVICE_PNP_NOTIFICATION_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551268">WDF_DEVICE_POWER_NOTIFICATION_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551273">WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</a>
  
 
  
-
 

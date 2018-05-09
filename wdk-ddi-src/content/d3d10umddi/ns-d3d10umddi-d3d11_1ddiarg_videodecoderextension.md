@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_videodecoderextension.htm
 old-project: display
 ms.assetid: d11a6be1-f723-47eb-b131-e1b02451e18a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDIARG_VIDEODECODEREXTENSION, D3D11_1DDIARG_VIDEODECODEREXTENSION structure [Display Devices], d3d10umddi/D3D11_1DDIARG_VIDEODECODEREXTENSION, display.d3d11_1ddiarg_videodecoderextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDIARG_VIDEODECODEREXTENSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDIARG_VIDEODECODEREXTENSION
 ---
@@ -49,23 +50,7 @@ req.typenames: D3D11_1DDIARG_VIDEODECODEREXTENSION
 ## -description
 
 
-Specifies driver-specific data for the extended Microsoft DirectX Video Acceleration (DXVA) decoding function that is provided by a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension.md">VideoDecoderExtension</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDIARG_VIDEODECODEREXTENSION {
-  UINT               Function;
-  void               *pPrivateInputData;
-  UINT               PrivateInputDataSize;
-  void               *pPrivateOutputData;
-  UINT               PrivateOutputDataSize;
-  UINT               ResourceCount;
-  D3D10DDI_HRESOURCE *pResourceList;
-} D3D11_1DDIARG_VIDEODECODEREXTENSION;
-````
+Specifies driver-specific data for the extended Microsoft DirectX Video Acceleration (DXVA) decoding function that is provided by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451699">VideoDecoderExtension</a> function.
 
 
 ## -struct-fields
@@ -119,12 +104,11 @@ The exact meaning of each structure member depends on the value of <b>Function</
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension.md">VideoDecoderExtension</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451699">VideoDecoderExtension</a>
  
 
  
-
 

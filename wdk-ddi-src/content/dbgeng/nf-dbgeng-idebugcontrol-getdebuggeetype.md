@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetDebuggeeType
-title: IDebugControl::GetDebuggeeType method
+title: IDebugControl::GetDebuggeeType
 author: windows-driver-content
 description: The GetDebuggeeType method describes the nature of the current target.
 old-location: debugger\getdebuggeetype.htm
 old-project: debugger
 ms.assetid: 86f236fa-73f8-4071-b6da-6de2d276cbff
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetDebuggeeType method [Windows Debugging], GetDebuggeeType method [Windows Debugging], IDebugControl interface, GetDebuggeeType method [Windows Debugging], IDebugControl2 interface, GetDebuggeeType method [Windows Debugging], IDebugControl3 interface, GetDebuggeeType,IDebugControl.GetDebuggeeType, IDebugControl, IDebugControl interface [Windows Debugging], GetDebuggeeType method, IDebugControl2 interface [Windows Debugging], GetDebuggeeType method, IDebugControl2::GetDebuggeeType, IDebugControl3 interface [Windows Debugging], GetDebuggeeType method, IDebugControl3::GetDebuggeeType, IDebugControl::GetDebuggeeType, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, dbgeng/IDebugControl2::GetDebuggeeType, dbgeng/IDebugControl3::GetDebuggeeType, dbgeng/IDebugControl::GetDebuggeeType, debugger.getdebuggeetype
+ms.date: 4/24/2018
+ms.keywords: GetDebuggeeType, GetDebuggeeType method [Windows Debugging], GetDebuggeeType method [Windows Debugging],IDebugControl interface, GetDebuggeeType method [Windows Debugging],IDebugControl2 interface, GetDebuggeeType method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetDebuggeeType method, IDebugControl.GetDebuggeeType, IDebugControl2 interface [Windows Debugging],GetDebuggeeType method, IDebugControl2::GetDebuggeeType, IDebugControl3 interface [Windows Debugging],GetDebuggeeType method, IDebugControl3::GetDebuggeeType, IDebugControl::GetDebuggeeType, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, dbgeng/IDebugControl2::GetDebuggeeType, dbgeng/IDebugControl3::GetDebuggeeType, dbgeng/IDebugControl::GetDebuggeeType, debugger.getdebuggeetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,29 +40,19 @@ api_name:
 -	IDebugControl.GetDebuggeeType
 -	IDebugControl2.GetDebuggeeType
 -	IDebugControl3.GetDebuggeeType
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::GetDebuggeeType method
+# IDebugControl::GetDebuggeeType
 
 
 ## -description
 
 
 The <b>GetDebuggeeType</b> method describes the nature of the current target.
-
-
-## -syntax
-
-
-````
-HRESULT GetDebuggeeType(
-  [out] PULONG Class,
-  [out] PULONG Qualifier
-);
-````
 
 
 ## -parameters

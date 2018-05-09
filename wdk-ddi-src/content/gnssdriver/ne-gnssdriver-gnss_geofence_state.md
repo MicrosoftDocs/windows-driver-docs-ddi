@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_GEOFENCE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_GEOFENCE_STATE
 ---
@@ -50,18 +51,6 @@ req.typenames: GNSS_GEOFENCE_STATE
 
 
 GNSS_GEOFENCE_STATE enumerates the various states of a single geofence.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_GeofenceState_Unknown  = 0x00,
-  GNSS_GeofenceState_Entered  = 0x01,
-  GNSS_GeofenceState_Exited   = 0x02
-} GNSS_GEOFENCE_STATE;
-````
 
 
 ## -enum-fields

@@ -7,7 +7,7 @@ old-location: stream\ksfilterfactorysetdeviceclassesstate.htm
 old-project: stream
 ms.assetid: 66515f08-b652-4aa0-8f22-b5ff0a407d6a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFilterFactorySetDeviceClassesState, KsFilterFactorySetDeviceClassesState function [Streaming Media Devices], avfunc_a88f0816-e755-450f-b8b7-83dee85171f9.xml, ks/KsFilterFactorySetDeviceClassesState, stream.ksfilterfactorysetdeviceclassesstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFilterFactorySetDeviceClassesState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 The <b>KsFilterFactorySetDeviceClassesState</b> function enables or disables the device classes that have been registered by a given filter factory.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsFilterFactorySetDeviceClassesState(
-  _In_ PKSFILTERFACTORY FilterFactory,
-  _In_ BOOLEAN          NewState
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ NTSTATUS KsFilterFactorySetDeviceClassesState(
 
 ### -param FilterFactory [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> for which to change device class status.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> for which to change device class status.
 
 
 ### -param NewState [in]

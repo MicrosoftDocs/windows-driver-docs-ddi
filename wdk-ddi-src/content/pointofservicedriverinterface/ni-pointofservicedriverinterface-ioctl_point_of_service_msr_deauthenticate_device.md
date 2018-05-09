@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 796ee8e7-693f-41dd-ad09-cb3c21779ab9
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_deauthenticate_device
+ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE control, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_deauthenticate_device
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PosPropertyId
+req.typenames: 
 ---
 
 # IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE IOCTL
@@ -59,7 +60,7 @@ This I/O control function deauthenticates the magnetic stripe reader (MSR).
 
 ### -input-buffer
 
-Pointer to the input buffer, a <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_msr_deauthenticate_device.md">MSR_DEAUTHENTICATE_DEVICE</a> variable that contains the challenge token.
+Pointer to the input buffer, a <a href="https://msdn.microsoft.com/library/windows/hardware/dn772182">MSR_DEAUTHENTICATE_DEVICE</a> variable that contains the challenge token.
 
 
 ### -input-buffer-length

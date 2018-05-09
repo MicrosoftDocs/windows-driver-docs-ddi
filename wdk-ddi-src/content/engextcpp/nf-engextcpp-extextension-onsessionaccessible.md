@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.OnSessionAccessible
-title: ExtExtension::OnSessionAccessible method
+title: ExtExtension::OnSessionAccessible
 author: windows-driver-content
 description: The OnSessionAccessible method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes accessible.
 old-location: debugger\onsessionaccessible.htm
 old-project: debugger
 ms.assetid: 85012fde-fc8b-4728-be5f-6acf502de9bc
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_88df5a39-051b-4d84-840e-8caf5414a0e6.xml, ExtExtension, ExtExtension class [Windows Debugging], OnSessionAccessible method, ExtExtension::OnSessionAccessible, OnSessionAccessible method [Windows Debugging], OnSessionAccessible method [Windows Debugging], ExtExtension class, OnSessionAccessible,ExtExtension.OnSessionAccessible, debugger.onsessionaccessible
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_88df5a39-051b-4d84-840e-8caf5414a0e6.xml, ExtExtension class [Windows Debugging],OnSessionAccessible method, ExtExtension.OnSessionAccessible, ExtExtension::OnSessionAccessible, OnSessionAccessible, OnSessionAccessible method [Windows Debugging], OnSessionAccessible method [Windows Debugging],ExtExtension class, debugger.onsessionaccessible
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	Engextcpp.hpp
 api_name:
 -	ExtExtension.OnSessionAccessible
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::OnSessionAccessible method
+# ExtExtension::OnSessionAccessible
 
 
 ## -description
 
 
 The <b>OnSessionAccessible</b> method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes accessible.
-
-
-## -syntax
-
-
-````
-virtual void OnSessionAccessible(
-  [in] ULONG64 Argument
-);
-````
 
 
 ## -parameters
@@ -87,22 +78,17 @@ This method does not return a value.
 
 If this method is defined in the extension library class <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>, it can be used to allow the extension library to cache information about the session without the need to register event callbacks.
 
-This method is called when a target is suspended and, if the session is already accessible, after the extension library is initialized (and <a href="..\engextcpp\nf-engextcpp-extextension-getrawargstr.md">OnSessionActive</a> has been called).
+This method is called when a target is suspended and, if the session is already accessible, after the extension library is initialized (and <a href="https://msdn.microsoft.com/library/windows/hardware/ff552312">OnSessionActive</a> has been called).
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
-
-
-
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessionactive.md">OnSessionActive</a>
-
-
-
-<a href="..\engextcpp\nf-engextcpp-extextension-onsessioninaccessible.md">OnSessionInaccessible</a>
 
 
 
@@ -110,8 +96,12 @@ This method is called when a target is suspended and, if the session is already 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552312">OnSessionActive</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552315">OnSessionInaccessible</a>
  
 
  
-
 

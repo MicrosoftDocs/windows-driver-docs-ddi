@@ -7,8 +7,8 @@ old-location: display\dxgkddiopenallocation.htm
 old-project: display
 ms.assetid: 551154d7-950d-40e5-810b-8d803c1731ca
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_OPENALLOCATIONINFO, DmFunctions_e27ad0cd-ae79-4207-abb0-68f048452101.xml, DxgkDdiOpenAllocation, DxgkDdiOpenAllocation callback function [Display Devices], d3dkmddi/DxgkDdiOpenAllocation, display.dxgkddiopenallocation
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_OPENALLOCATIONINFO, DXGKDDI_OPENALLOCATIONINFO callback, DmFunctions_e27ad0cd-ae79-4207-abb0-68f048452101.xml, DxgkDdiOpenAllocation, DxgkDdiOpenAllocation callback function [Display Devices], d3dkmddi/DxgkDdiOpenAllocation, display.dxgkddiopenallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiOpenAllocation
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_OPENALLOCATIONINFO callback
+# DXGKDDI_OPENALLOCATIONINFO callback function
 
 
 ## -description
 
 
-The <i>DxgkDdiOpenAllocation</i> function binds non-device-specific allocations that the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function created to allocations that are specific to the specified graphics context device.
-
-
-## -prototype
-
-
-````
-DXGKDDI_OPENALLOCATIONINFO DxgkDdiOpenAllocation;
-
-NTSTATUS APIENTRY DxgkDdiOpenAllocation(
-  _In_ const HANDLE                 hDevice,
-  _In_ const DXGKARG_OPENALLOCATION *pOpenAllocation
-)
-{ ... }
-````
+The <i>DxgkDdiOpenAllocation</i> function binds non-device-specific allocations that the <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> function created to allocations that are specific to the specified graphics context device.
 
 
 ## -parameters
@@ -73,12 +60,12 @@ NTSTATUS APIENTRY DxgkDdiOpenAllocation(
 
 ### -param hDevice [in]
 
-[in] A handle to the graphics context device that the allocations are bound from. The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hDevice</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a> structure. 
+[in] A handle to the graphics context device that the allocations are bound from. The display miniport driver's <a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557570">DXGKARG_CREATEDEVICE</a> structure. 
 
 
 ### -param pOpenAllocation [in]
 
-[in] A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a> structure that contains information about binding allocations.
+[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557609">DXGKARG_OPENALLOCATION</a> structure that contains information about binding allocations.
 
 
 ## -returns
@@ -146,13 +133,13 @@ The display miniport driver is not compatible with the user-mode display driver 
 
 
 
-The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiOpenAllocation</i> function to bind nondevice-specific allocations that the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function created to allocations that are specific to the graphics context device that the <i>hDevice</i> parameter specifies. The display miniport driver binds allocations to a device so the driver can keep track of allocation data that is specific to a device. 
+The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiOpenAllocation</i> function to bind nondevice-specific allocations that the <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a> function created to allocations that are specific to the graphics context device that the <i>hDevice</i> parameter specifies. The display miniport driver binds allocations to a device so the driver can keep track of allocation data that is specific to a device. 
 
 The display miniport driver can bind an allocation to any device that any process (on the same graphics adapter) created and not just to a device in the creating process. 
 
-When <i>DxgkDdiOpenAllocation</i> returns STATUS_SUCCESS, the driver sets the <b>hDeviceSpecificAllocation</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a> structure for each allocation to a non-NULL value. The DXGK_OPENALLOCATIONINFO structure for each allocation is an element of the array that the <b>pOpenAllocation</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a> structure specifies.  
+When <i>DxgkDdiOpenAllocation</i> returns STATUS_SUCCESS, the driver sets the <b>hDeviceSpecificAllocation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561983">DXGK_OPENALLOCATIONINFO</a> structure for each allocation to a non-NULL value. The DXGK_OPENALLOCATIONINFO structure for each allocation is an element of the array that the <b>pOpenAllocation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557609">DXGKARG_OPENALLOCATION</a> structure specifies.  
 
-The driver can modify the allocation private driver data that is passed in the <b>pPrivateDriverData</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a> structure only when the allocation is created (which is indicated when the <b>Create</b> bit-field flag in the <b>Flags</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a> structure is set). The driver should determine that it can only read the allocation private driver data when the allocation is opened (that is, when the <b>Create</b> bit-field flag is not set).
+The driver can modify the allocation private driver data that is passed in the <b>pPrivateDriverData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561983">DXGK_OPENALLOCATIONINFO</a> structure only when the allocation is created (which is indicated when the <b>Create</b> bit-field flag in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557609">DXGKARG_OPENALLOCATION</a> structure is set). The driver should determine that it can only read the allocation private driver data when the allocation is opened (that is, when the <b>Create</b> bit-field flag is not set).
 
 <i>DxgkDdiOpenAllocation</i> should be made pageable.
 
@@ -161,28 +148,27 @@ The driver can modify the allocation private driver data that is passed in the <
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationinfo.md">DXGK_OPENALLOCATIONINFO</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557570">DXGKARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_openallocation.md">DXGKARG_OPENALLOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557609">DXGKARG_OPENALLOCATION</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561983">DXGK_OPENALLOCATIONINFO</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a>
  
 
  
-
 

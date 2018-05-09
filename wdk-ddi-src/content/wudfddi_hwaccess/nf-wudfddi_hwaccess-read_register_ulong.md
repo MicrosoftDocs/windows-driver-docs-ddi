@@ -38,10 +38,10 @@ api_location:
 -	Wudfddi_hwaccess.h
 api_name:
 -	READ_REGISTER_ULONG
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # READ_REGISTER_ULONG function
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>READ_REGISTER_ULONG</b> function reads a ULONG value from the specified register address.
 
 
-## -syntax
-
-
-````
-ULONG READ_REGISTER_ULONG(
-  _In_ IWDFDevice3 *pDevice,
-  _In_ PULONG      Register
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +62,7 @@ ULONG READ_REGISTER_ULONG(
 
 ### -param pDevice [in]
 
-Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ### -param Register [in]

@@ -7,8 +7,8 @@ old-location: storage\ioctl_storage_get_hotplug_info.htm
 old-project: storage
 ms.assetid: e549aa75-d847-4276-ab40-29214b0475cf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_STORAGE_GET_HOTPLUG_INFO, IOCTL_STORAGE_GET_HOTPLUG_INFO control code [Storage Devices], k307_06a9c82a-ee57-421f-befc-0a9da3543b40.xml, ntddstor/IOCTL_STORAGE_GET_HOTPLUG_INFO, storage.ioctl_storage_get_hotplug_info
+ms.date: 3/29/2018
+ms.keywords: IOCTL_STORAGE_GET_HOTPLUG_INFO, IOCTL_STORAGE_GET_HOTPLUG_INFO control, IOCTL_STORAGE_GET_HOTPLUG_INFO control code [Storage Devices], k307_06a9c82a-ee57-421f-befc-0a9da3543b40.xml, ntddstor/IOCTL_STORAGE_GET_HOTPLUG_INFO, storage.ioctl_storage_get_hotplug_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	IOCTL_STORAGE_GET_HOTPLUG_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_GET_HOTPLUG_INFO IOCTL
@@ -72,7 +73,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the hotplug configuration data in a <a href="..\ntddstor\ns-ntddstor-_storage_hotplug_info.md">STORAGE_HOTPLUG_INFO</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The driver returns the hotplug configuration data in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566987">STORAGE_HOTPLUG_INFO</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -105,16 +106,15 @@ The <b>Information</b> field is set to <b>sizeof</b>(STORAGE_HOTPLUG_INFO). The 
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_hotplug_info.md">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
 
 
 
-<a href="..\ntddstor\ns-ntddstor-_storage_hotplug_info.md">STORAGE_HOTPLUG_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560606">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566987">STORAGE_HOTPLUG_INFO</a>
  
 
  
-
 

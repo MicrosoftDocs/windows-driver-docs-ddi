@@ -7,7 +7,7 @@ old-location: kernel\iounregisterplugplaynotification.htm
 old-project: kernel
 ms.assetid: 55eca513-030c-47f8-9ce9-ab36183cbaf2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoUnregisterPlugPlayNotification, IoUnregisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], k104_7235d17c-b6f8-406a-b896-36478354ca73.xml, kernel.iounregisterplugplaynotification, wdm/IoUnregisterPlugPlayNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoUnregisterPlugPlayNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoUnregisterPlugPlayNotification function
@@ -55,16 +55,6 @@ This routine is <u>obsolete</u> in Windows 7 and later versions of Windows. For 
 The <b>IoUnregisterPlugPlayNotification</b> routine removes the registration of a driver's callback routine for a PnP event.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoUnregisterPlugPlayNotification(
-  _In_ PVOID NotificationEntry
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ NTSTATUS IoUnregisterPlugPlayNotification(
 
 ### -param NotificationEntry [in]
 
-Pointer to an opaque value representing the registration to be removed. The value was returned by a previous call to <a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>.
+Pointer to an opaque value representing the registration to be removed. The value was returned by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549526">IoRegisterPlugPlayNotification</a>.
 
 
 ## -returns
@@ -88,7 +78,7 @@ Pointer to an opaque value representing the registration to be removed. The valu
 
 
 
-In Windows 7 and later versions of Windows, this function is obsolete and is provided only to support existing drivers. Use the <a href="..\wdm\nf-wdm-iounregisterplugplaynotificationex.md">IoUnregisterPlugPlayNotificationEx</a> routine instead.
+In Windows 7 and later versions of Windows, this function is obsolete and is provided only to support existing drivers. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550404">IoUnregisterPlugPlayNotificationEx</a> routine instead.
 
 <div class="alert"><b>Note</b>    The system does not synchronize between the execution of the notification routine and <b>IoUnregisterPlugPlayNotification</b>. Therefore, the routine can be called after the <b>IoUnregisterPlugPlayNotification</b> method has returned. If necessary, a driver should implement its own mechanism to ignore any notifications after <b>IoUnregisterPlugPlayNotification</b> has been called.</div>
 <div> </div>
@@ -103,16 +93,15 @@ A driver cannot be unloaded until it removes all of its PnP notification registr
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iounregisterplugplaynotificationex.md">IoUnregisterPlugPlayNotificationEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549526">IoRegisterPlugPlayNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550404">IoUnregisterPlugPlayNotificationEx</a>
  
 
  
-
 

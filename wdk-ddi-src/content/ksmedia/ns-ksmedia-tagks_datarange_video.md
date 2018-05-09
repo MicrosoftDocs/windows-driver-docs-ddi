@@ -7,7 +7,7 @@ old-location: stream\ks_datarange_video.htm
 old-project: stream
 ms.assetid: 682fe2b7-3166-4691-8959-ec7f34c414f7
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DATARANGE_VIDEO, KS_DATARANGE_VIDEO, KS_DATARANGE_VIDEO structure [Streaming Media Devices], PKS_DATARANGE_VIDEO, PKS_DATARANGE_VIDEO structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO, ksmedia/PKS_DATARANGE_VIDEO, stream.ks_datarange_video, tagKS_DATARANGE_VIDEO, vidcapstruct_1ea64e7e-bfcd-444c-a6e9-914f20fb2172.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DATARANGE_VIDEO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_VIDEO, *PKS_DATARANGE_VIDEO
 ---
@@ -50,22 +51,6 @@ req.typenames: KS_DATARANGE_VIDEO, *PKS_DATARANGE_VIDEO
 
 
 The KS_DATARANGE_VIDEO structure describes a range of video streams without bob or weave settings.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_DATARANGE_VIDEO {
-  KSDATARANGE                 DataRange;
-  BOOL                        bFixedSizeSamples;
-  BOOL                        bTemporalCompression;
-  DWORD                       StreamDescriptionFlags;
-  DWORD                       MemoryAllocationFlags;
-  KS_VIDEO_STREAM_CONFIG_CAPS ConfigCaps;
-  KS_VIDEOINFOHEADER          VideoInfoHeader;
-} KS_DATARANGE_VIDEO, *PKS_DATARANGE_VIDEO;
-````
 
 
 ## -struct-fields
@@ -131,11 +116,6 @@ For example, a stream that supports RGB16, RGB24, YVU9, and JPEG capture formats
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
 
@@ -143,8 +123,12 @@ For example, a stream that supports RGB16, RGB24, YVU9, and JPEG capture formats
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567700">KS_VIDEOINFOHEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567706">KS_VIDEO_STREAM_CONFIG_CAPS</a>
  
 
  
-
 

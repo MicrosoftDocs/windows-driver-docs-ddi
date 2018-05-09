@@ -7,7 +7,7 @@ old-location: display\d3dkmt_destroyhwcontext.htm
 old-project: display
 ms.assetid: DFFFE90A-C505-466A-B415-AA6C6352421B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_DESTROYHWCONTEXT, D3DKMT_DESTROYHWCONTEXT structure [Display Devices], _D3DKMT_DESTROYHWCONTEXT, d3dkmthk/D3DKMT_DESTROYHWCONTEXT, display.d3dkmt_destroyhwcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DESTROYHWCONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DESTROYHWCONTEXT
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DKMT_DESTROYHWCONTEXT
 
 
 A structure holding information to destroy a hardware context.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYHWCONTEXT {
-  D3DKMT_HANDLE hHwContext;
-} D3DKMT_DESTROYHWCONTEXT;
-````
 
 
 ## -struct-fields

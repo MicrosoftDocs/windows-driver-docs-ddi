@@ -7,7 +7,7 @@ old-location: stream\lamp_capabilities_white.htm
 old-project: stream
 ms.assetid: F407B953-8B03-4053-A5F4-3E96E9F9645E
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: LAMP_CAPABILITIES_WHITE, LAMP_CAPABILITIES_WHITE structure [Streaming Media Devices], lamp/LAMP_CAPABILITIES_WHITE, stream.lamp_capabilities_white
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	lamp.h
 api_name:
 -	LAMP_CAPABILITIES_WHITE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_CAPABILITIES_WHITE
 ---
@@ -52,16 +53,6 @@ req.typenames: LAMP_CAPABILITIES_WHITE
 This structure is the I/O parameter type of <b>IOCTL_LAMP_{GET|SET}_INTENSITY_WHITE</b>.
 
 
-## -syntax
-
-
-````
-typedef struct LAMP_CAPABILITIES_WHITE {
-  BOOLEAN IsLightIntensityAdjustable;
-} LAMP_CAPABILITIES_WHITE;
-````
-
-
 ## -struct-fields
 
 
@@ -69,5 +60,5 @@ typedef struct LAMP_CAPABILITIES_WHITE {
 
 ### -field IsLightIntensityAdjustable
 
-If this field evaluates <b>TRUE</b>, a client can get/set light intensity by calling <a href="..\lamp\ni-lamp-ioctl_lamp_get_intensity_white.md">IOCTL_LAMP_GET_INTENSITY_WHITE</a>  and <a href="..\lamp\ni-lamp-ioctl_lamp_set_intensity_white.md">IOCTL_LAMP_SET_INTENSITY_WHITE</a>.
+If this field evaluates <b>TRUE</b>, a client can get/set light intensity by calling <a href="https://msdn.microsoft.com/9B9FD4A1-F005-4CB8-80E3-D8AA74F6B9FB">IOCTL_LAMP_GET_INTENSITY_WHITE</a>  and <a href="https://msdn.microsoft.com/library/windows/hardware/dn925078">IOCTL_LAMP_SET_INTENSITY_WHITE</a>.
 

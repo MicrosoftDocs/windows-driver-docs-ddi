@@ -7,7 +7,7 @@ old-location: ifsk\rxcompleterequest.htm
 old-project: ifsk
 ms.assetid: f5e9219b-0697-427e-b92e-7cd647a0e0b6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RxCompleteRequest, RxCompleteRequest function [Installable File System Drivers], ifsk.rxcompleterequest, rxprocs/RxCompleteRequest, rxref_12eec336-4619-430c-a36c-ddbe855b8865.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rxprocs.h
 api_name:
 -	RxCompleteRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxCompleteRequest function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxCompleteRequest</b> completes the IRP request associated with an RX_CONTEXT structure.
-
-
-## -syntax
-
-
-````
-NTSTATUS RxCompleteRequest(
-   PRX_CONTEXT RxContext,
-   NTSTATUS    Status
-);
-````
 
 
 ## -parameters
@@ -106,44 +95,43 @@ The <b>RxCompleteRequest</b> routine is not normally called by network mini-redi
 
 ## -see-also
 
-<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554348">RxCompleteRequest_Real</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554367">RxCreateRxContext</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554388">RxDereference</a>
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554393">RxDereferenceAndDeleteRxContext_Real</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554502">RxInitializeContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554643">RxPrepareContextForReuse</a>
+
+
+
+<a href="https://msdn.microsoft.com/8418ed17-39f0-4a3b-9eb5-453c7cc2ae98">RxResumeBlockedOperations_Serially</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557377">__RxSynchronizeBlockingOperations</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
-
-
-
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortClsPower.SetIdlePowerManagement
-title: IPortClsPower::SetIdlePowerManagement method
+title: IPortClsPower::SetIdlePowerManagement
 author: windows-driver-content
 description: The SetIdlePowerManagement method provides a way for the adapter driver to opt in or opt out of idle state detection.
 old-location: audio\iportclspower_setidlepowermanagement.htm
 old-project: audio
 ms.assetid: ccef350c-7c46-43fa-8834-b0d712d9cf38
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IPortClsPower, IPortClsPower interface [Audio Devices], SetIdlePowerManagement method, IPortClsPower::SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], SetIdlePowerManagement method [Audio Devices], IPortClsPower interface, SetIdlePowerManagement,IPortClsPower.SetIdlePowerManagement, audio.iportclspower_setidlepowermanagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, portcls/IPortClsPower::SetIdlePowerManagement
+ms.date: 4/16/2018
+ms.keywords: IPortClsPower interface [Audio Devices],SetIdlePowerManagement method, IPortClsPower.SetIdlePowerManagement, IPortClsPower::SetIdlePowerManagement, SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], SetIdlePowerManagement method [Audio Devices],IPortClsPower interface, audio.iportclspower_setidlepowermanagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, portcls/IPortClsPower::SetIdlePowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortClsPower.SetIdlePowerManagement
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortClsPower::SetIdlePowerManagement method
+# IPortClsPower::SetIdlePowerManagement
 
 
 ## -description
 
 
 The <code>SetIdlePowerManagement</code> method provides a way for the adapter driver to opt in or opt out of idle state detection.
-
-
-## -syntax
-
-
-````
-NTSTATUS SetIdlePowerManagement(
-  [in] PDEVICE_OBJECT DeviceObject,
-  [in] BOOLEAN        bEnabled
-);
-````
 
 
 ## -parameters
@@ -70,7 +60,7 @@ NTSTATUS SetIdlePowerManagement(
 
 ### -param _DeviceObject [in]
 
-Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
+Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
 ### -param _bEnabled [in]
@@ -98,20 +88,19 @@ When the <i>bEnabled</i> parameter is set to <b>TRUE</b>, it indicates that the 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536844">IPortClsPower</a>
 
 
 
 <a href="https://msdn.microsoft.com/43721EC9-4901-4C68-9CCC-E0A71BF2200E">Immediate Idle Timeout Opt-in</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
  
 
  
-
 

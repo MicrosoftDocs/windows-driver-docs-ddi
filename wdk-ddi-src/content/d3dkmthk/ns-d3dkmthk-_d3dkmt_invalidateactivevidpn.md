@@ -7,7 +7,7 @@ old-location: display\d3dkmt_invalidateactivevidpn.htm
 old-project: display
 ms.assetid: 51fb1993-b9f3-436a-9a6d-7d4f9bf26083
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_INVALIDATEACTIVEVIDPN, D3DKMT_INVALIDATEACTIVEVIDPN structure [Display Devices], OpenGL_Structs_6610529b-39db-4fc4-981a-96a6b3bf7543.xml, _D3DKMT_INVALIDATEACTIVEVIDPN, d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN, display.d3dkmt_invalidateactivevidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_INVALIDATEACTIVEVIDPN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_INVALIDATEACTIVEVIDPN
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DKMT_INVALIDATEACTIVEVIDPN
 
 
 The D3DKMT_INVALIDATEACTIVEVIDPN structure describes parameters that invalidate the active video present network (VidPN) currently in use. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_INVALIDATEACTIVEVIDPN {
-  D3DKMT_HANDLE hAdapter;
-  VOID          *pPrivateDriverData;
-  UINT          PrivateDriverDataSize;
-} D3DKMT_INVALIDATEACTIVEVIDPN;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ typedef struct _D3DKMT_INVALIDATEACTIVEVIDPN {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtinvalidateactivevidpn.md">D3DKMTInvalidateActiveVidPn</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547023">D3DKMTInvalidateActiveVidPn</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadHandleData
-title: IDebugDataSpaces4::ReadHandleData method
+title: IDebugDataSpaces4::ReadHandleData
 author: windows-driver-content
 description: The ReadHandleData method retrieves information about a system object specified by a system handle.
 old-location: debugger\readhandledata.htm
 old-project: debugger
 ms.assetid: 9ad8e8c1-6aee-4eac-93e6-5997212c63d0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadHandleData method, IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, ReadHandleData method [Windows Debugging], ReadHandleData method [Windows Debugging], IDebugDataSpaces2 interface, ReadHandleData method [Windows Debugging], IDebugDataSpaces3 interface, ReadHandleData method [Windows Debugging], IDebugDataSpaces4 interface, ReadHandleData,IDebugDataSpaces4.ReadHandleData, dbgeng/IDebugDataSpaces2::ReadHandleData, dbgeng/IDebugDataSpaces3::ReadHandleData, dbgeng/IDebugDataSpaces4::ReadHandleData, debugger.readhandledata
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging],ReadHandleData method, IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging],ReadHandleData method, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces4 interface [Windows Debugging],ReadHandleData method, IDebugDataSpaces4.ReadHandleData, IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, ReadHandleData, ReadHandleData method [Windows Debugging], ReadHandleData method [Windows Debugging],IDebugDataSpaces2 interface, ReadHandleData method [Windows Debugging],IDebugDataSpaces3 interface, ReadHandleData method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadHandleData, dbgeng/IDebugDataSpaces3::ReadHandleData, dbgeng/IDebugDataSpaces4::ReadHandleData, debugger.readhandledata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,32 +40,19 @@ api_name:
 -	IDebugDataSpaces2.ReadHandleData
 -	IDebugDataSpaces3.ReadHandleData
 -	IDebugDataSpaces4.ReadHandleData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::ReadHandleData method
+# IDebugDataSpaces4::ReadHandleData
 
 
 ## -description
 
 
 The <b>ReadHandleData</b> method retrieves information about a system object specified by a system handle.
-
-
-## -syntax
-
-
-````
-HRESULT ReadHandleData(
-  [in]            ULONG64 Handle,
-  [in]            ULONG   DataType,
-  [out, optional] PVOID   Buffer,
-  [in]            ULONG   BufferSize,
-  [out, optional] PULONG  DataSize
-);
-````
 
 
 ## -parameters
@@ -95,7 +82,7 @@ DEBUG_HANDLE_DATA_TYPE_BASIC
 <td>
 Returns basic information about the system object.
 
-In this case, the argument <i>Buffer</i> can be considered to have type <a href="..\dbgeng\ns-dbgeng-_debug_handle_data_basic.md">PDEBUG_HANDLE_DATA_BASIC</a>.
+In this case, the argument <i>Buffer</i> can be considered to have type <a href="https://msdn.microsoft.com/c1ad22b9-9733-417a-96ae-bc5920462f4f">PDEBUG_HANDLE_DATA_BASIC</a>.
 
 </td>
 </tr>
@@ -129,7 +116,7 @@ DEBUG_HANDLE_DATA_TYPE_HANDLE_COUNT
 
 </td>
 <td>
-Returns the number of handles held by the object.  This is similar to the field <a href="..\dbgeng\ns-dbgeng-_debug_handle_data_basic.md">DEBUG_HANDLE_DATA_BASIC</a>.<b>HandleCount</b>.
+Returns the number of handles held by the object.  This is similar to the field <a href="https://msdn.microsoft.com/library/windows/hardware/ff541500">DEBUG_HANDLE_DATA_BASIC</a>.<b>HandleCount</b>.
 
 In this case, the argument <i>Buffer</i> can be considered to have type PULONG.
 
@@ -219,7 +206,6 @@ This method is only available in user-mode debugging.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
 
 
@@ -227,16 +213,16 @@ Handles
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550531">IDebugDataSpaces2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
  
 
  
-
 

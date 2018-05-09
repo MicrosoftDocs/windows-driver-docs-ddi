@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketsendwithexternalpfns.htm
 old-project: netvista
 ms.assetid: 50AACCAB-EFEA-42B7-8A34-FE110C7CDEED
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, VmbPacketSendWithExternalPfns, VmbPacketSendWithExternalPfns function [Network Drivers Starting with Windows Vista], netvista.vmbpacketsendwithexternalpfns, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalPfns
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	VmbusKernelModeClientLibApi.h
 api_name:
 -	VmbPacketSendWithExternalPfns
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbPacketSendWithExternalPfns function
@@ -54,22 +54,6 @@ req.product: Windows 10 or later.
 
 The <b>VmbPacketSendWithExternalPfns</b> function sends the data in a packet buffer or external data as an array of Page Frame Numbers (PFNs). The function associates that data with the VMBus packet object, which represents the packet
 throughout the lifetime of the transaction. 
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbPacketSendWithExternalPfns(
-  _In_ __drv_aliasesMem VMBPACKET       PacketObject,
-  _In_ reads_bytes_(BufferLength) PVOID Buffer,
-  _In_ UINT32                           BufferLength,
-  _In_ PPFN_NUMBER                      ExternalDataPfns,
-  _In_ UINT32                           PfnOffset,
-  _In_ UINT32                           PfnLength,
-  _In_ UINT32                           Flags
-);
-````
 
 
 ## -parameters
@@ -163,19 +147,18 @@ the data starts.
 
 
 
-This function differs from the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a> function in that it allows passing an array of PFNs,  effectively physical addresses. 
+This function differs from the <a href="https://msdn.microsoft.com/EBB981CB-0107-497A-B6E6-9271E22A8D5F">VmbPacketSend</a> function in that it allows passing an array of PFNs,  effectively physical addresses. 
 
 
 
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a>
 
 
 
+<a href="https://msdn.microsoft.com/EBB981CB-0107-497A-B6E6-9271E22A8D5F">VmbPacketSend</a>
  
 
  
-
 

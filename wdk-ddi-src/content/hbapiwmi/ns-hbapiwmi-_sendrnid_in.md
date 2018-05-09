@@ -7,7 +7,7 @@ old-location: storage\sendrnid_in.htm
 old-project: storage
 ms.assetid: 668c4d1a-52e8-49ea-bd19-e789dfa8dfa5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSendRNID_IN, PSendRNID_IN, PSendRNID_IN structure pointer [Storage Devices], SendRNID_IN, SendRNID_IN structure [Storage Devices], _SendRNID_IN, hbapiwmi/PSendRNID_IN, hbapiwmi/SendRNID_IN, storage.sendrnid_in, structs-Fibre_506226e9-45f1-40d3-bd41-7b30fe16673e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SendRNID_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SendRNID_IN, *PSendRNID_IN
 ---
@@ -50,17 +51,6 @@ req.typenames: SendRNID_IN, *PSendRNID_IN
 
 
 The SendRNID_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a> WMI method.
-
-
-## -syntax
-
-
-````
-typedef struct _SendRNID_IN {
-  UCHAR wwn[8];
-  ULONG wwntype;
-} SendRNID_IN, *PSendRNID_IN;
-````
 
 
 ## -struct-fields
@@ -89,12 +79,11 @@ The WMI tool suite generates a declaration of the SendRNID_IN structure in <i>Hb
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565459">SendRNID</a>
-
-
-
  
 
  
-
 

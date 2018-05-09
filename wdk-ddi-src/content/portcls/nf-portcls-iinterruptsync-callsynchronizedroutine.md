@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IInterruptSync.CallSynchronizedRoutine
-title: IInterruptSync::CallSynchronizedRoutine method
+title: IInterruptSync::CallSynchronizedRoutine
 author: windows-driver-content
 description: The CallSynchronizedRoutine method calls a routine that is not an interrupt service routine (ISR) but whose execution needs to be synchronized with ISRs.
 old-location: audio\iinterruptsync_callsynchronizedroutine.htm
 old-project: audio
 ms.assetid: 9895ee9a-4d8c-4cd4-8df4-fedaf864a178
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CallSynchronizedRoutine method [Audio Devices], CallSynchronizedRoutine method [Audio Devices], IInterruptSync interface, CallSynchronizedRoutine,IInterruptSync.CallSynchronizedRoutine, IInterruptSync, IInterruptSync interface [Audio Devices], CallSynchronizedRoutine method, IInterruptSync::CallSynchronizedRoutine, audio.iinterruptsync_callsynchronizedroutine, audmp-routines_985e70ee-3e6b-4514-adb5-1b37f92c9ae4.xml, portcls/IInterruptSync::CallSynchronizedRoutine
+ms.date: 4/16/2018
+ms.keywords: CallSynchronizedRoutine, CallSynchronizedRoutine method [Audio Devices], CallSynchronizedRoutine method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],CallSynchronizedRoutine method, IInterruptSync.CallSynchronizedRoutine, IInterruptSync::CallSynchronizedRoutine, audio.iinterruptsync_callsynchronizedroutine, audmp-routines_985e70ee-3e6b-4514-adb5-1b37f92c9ae4.xml, portcls/IInterruptSync::CallSynchronizedRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IInterruptSync.CallSynchronizedRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IInterruptSync::CallSynchronizedRoutine method
+# IInterruptSync::CallSynchronizedRoutine
 
 
 ## -description
 
 
 The <code>CallSynchronizedRoutine</code> method calls a routine that is not an interrupt service routine (ISR) but whose execution needs to be synchronized with ISRs.
-
-
-## -syntax
-
-
-````
-NTSTATUS CallSynchronizedRoutine(
-  [in] PINTERRUPTSYNCROUTINE Routine,
-  [in] PVOID                 DynamicContext
-);
-````
 
 
 ## -parameters
@@ -70,7 +60,7 @@ NTSTATUS CallSynchronizedRoutine(
 
 ### -param Routine [in]
 
-Pointer to the routine that is to be called. This routine will run exclusive of the object's ISR and all other routines that are synchronized through the object. Even on multiple-processor machines, routines that are synchronized by a given object will not run concurrently. This parameter is a function pointer of type PINTERRUPTSYNCROUTINE (see <a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>).
+Pointer to the routine that is to be called. This routine will run exclusive of the object's ISR and all other routines that are synchronized through the object. Even on multiple-processor machines, routines that are synchronized by a given object will not run concurrently. This parameter is a function pointer of type PINTERRUPTSYNCROUTINE (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536590">IInterruptSync</a>).
 
 
 ### -param DynamicContext [in]
@@ -93,27 +83,26 @@ A context value to be passed to the routine.
 
 Execution of any registered ISR is guaranteed to be held off until the call to the routine that is passed to <code>CallSynchronizedRoutine</code> has completed.
 
-Callers of <code>CallSynchronizedRoutine</code> must be running at an IRQL that is less than or equal to the level of the interrupt that is associated with the synchronization object. This interrupt was specified by the <a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a> function's <i>ResourceList</i> and <i>ResourceIndex</i> parameters.
+Callers of <code>CallSynchronizedRoutine</code> must be running at an IRQL that is less than or equal to the level of the interrupt that is associated with the synchronization object. This interrupt was specified by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537713">PcNewInterruptSync</a> function's <i>ResourceList</i> and <i>ResourceIndex</i> parameters.
 
 
 
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcnewinterruptsync.md">PcNewInterruptSync</a>
 
 
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536590">IInterruptSync</a>
 
 
 
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537713">PcNewInterruptSync</a>
  
 
  
-
 

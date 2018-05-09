@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRequestGetRequestorMode
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRequestGetRequestorMode function
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRequestGetRequestorMode</b> method returns the processor access mode of the originator of a specified I/O request.
-
-
-## -syntax
-
-
-````
-KPROCESSOR_MODE WdfRequestGetRequestorMode(
-  _In_ WDFREQUEST Request
-);
-````
 
 
 ## -parameters

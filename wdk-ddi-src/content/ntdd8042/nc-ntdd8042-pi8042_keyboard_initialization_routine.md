@@ -7,8 +7,8 @@ old-location: hid\pi8042_keyboard_initialization_routine.htm
 old-project: hid
 ms.assetid: bc1c82f0-f68c-433c-87f0-16c687d18557
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: KeyboardInitializationRoutine, KeyboardInitializationRoutine callback function [Human Input Devices], PI8042_KEYBOARD_INITIALIZATION_ROUTINE, hid.pi8042_keyboard_initialization_routine, i8042ref_4bc54efc-bd3d-4091-a8c7-64631d187d20.xml, ntdd8042/KeyboardInitializationRoutine
+ms.date: 4/30/2018
+ms.keywords: KeyboardInitializationRoutine, KeyboardInitializationRoutine callback function [Human Input Devices], PI8042_KEYBOARD_INITIALIZATION_ROUTINE, PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback, hid.pi8042_keyboard_initialization_routine, i8042ref_4bc54efc-bd3d-4091-a8c7-64631d187d20.xml, ntdd8042/KeyboardInitializationRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,19 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	KeyboardInitializationRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
+req.typenames: 
 ---
 
-# PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback
+# PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback function
 
 
 ## -description
 
 
 A PI8042_KEYBOARD_INITIALIZATION_ROUTINE-typed callback routine supplements the default initialization of a keyboard device by I8042prt.
-
-
-## -prototype
-
-
-````
-PI8042_KEYBOARD_INITIALIZATION_ROUTINE KeyboardInitializationRoutine;
-
-NTSTATUS KeyboardInitializationRoutine(
-  _In_  PVOID                   InitializationContext,
-  _In_  PVOID                   SynchFuncContext,
-  _In_  PI8042_SYNCH_READ_PORT  ReadPort,
-  _In_  PI8042_SYNCH_WRITE_PORT WritePort,
-  _Out_ PBOOLEAN                TurnTranslationOn
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -86,12 +70,12 @@ Pointer to the context for the callbacks that are pointed to by <i>ReadPort</i> 
 
 ### -param ReadPort [in]
 
-Pointer to a <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a> callback that reads from the port.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543272">PI8042_SYNCH_READ_PORT</a> callback that reads from the port.
 
 
 ### -param WritePort [in]
 
-Pointer to a <a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md">PI8042_SYNCH_WRITE_PORT</a> callback that writes to the port.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543276">PI8042_SYNCH_WRITE_PORT</a> callback that writes to the port.
 
 
 ### -param TurnTranslationOn [out]
@@ -121,16 +105,15 @@ If an upper-level keyboard filter driver supplies an initialization callback, I8
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md">PI8042_SYNCH_WRITE_PORT</a>
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md">PI8042_SYNCH_READ_PORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543272">PI8042_SYNCH_READ_PORT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543276">PI8042_SYNCH_WRITE_PORT</a>
  
 
  
-
 

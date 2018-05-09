@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_get_string.htm
 old-project: hid
 ms.assetid: 0812f27f-f38c-487d-9e92-98e16ddde21c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_GET_STRING, IOCTL_HID_GET_STRING control code [Human Input Devices], hid.ioctl_hid_get_string, hidioreq_987af494-0ac9-4b86-ab66-63dad179cec5.xml, hidport/IOCTL_HID_GET_STRING
+ms.date: 4/30/2018
+ms.keywords: IOCTL_HID_GET_STRING, IOCTL_HID_GET_STRING control, IOCTL_HID_GET_STRING control code [Human Input Devices], hid.ioctl_hid_get_string, hidioreq_987af494-0ac9-4b86-ab66-63dad179cec5.xml, hidport/IOCTL_HID_GET_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	hidport.h
 api_name:
 -	IOCTL_HID_GET_STRING
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+req.typenames: 
 ---
 
 # IOCTL_HID_GET_STRING IOCTL
@@ -140,40 +141,39 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
 ## -see-also
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getmanufacturerstring.md">HidD_GetManufacturerString</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getindexedstring.md">HidD_GetIndexedString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538927">HidD_GetIndexedString</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getserialnumberstring.md">HidD_GetSerialNumberString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538959">HidD_GetManufacturerString</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_indexed_string.md">IOCTL_HID_GET_INDEXED_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539681">HidD_GetProductString</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_product_string.md">IOCTL_HID_GET_PRODUCT_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539683">HidD_GetSerialNumberString</a>
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getproductstring.md">HidD_GetProductString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541109">IOCTL_HID_GET_INDEXED_STRING</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_manufacturer_string.md">IOCTL_HID_GET_MANUFACTURER_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541134">IOCTL_HID_GET_MANUFACTURER_STRING</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_serialnumber_string.md">IOCTL_HID_GET_SERIALNUMBER_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541146">IOCTL_HID_GET_PRODUCT_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541160">IOCTL_HID_GET_SERIALNUMBER_STRING</a>
  
 
  
-
 

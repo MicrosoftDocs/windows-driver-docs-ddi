@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.GetFeatureByKeyName
-title: IPrintSchemaTicket::GetFeatureByKeyName method
+title: IPrintSchemaTicket::GetFeatureByKeyName
 author: windows-driver-content
 description: Gets a feature from the PrintTicket based on the specified key name.
 old-location: print\iprintschematicket_getfeaturebykeyname.htm
 old-project: print
 ms.assetid: 3BD7B8D6-B06F-492F-A73E-DA0799387B2A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices], IPrintSchemaTicket interface, GetFeatureByKeyName,IPrintSchemaTicket.GetFeatureByKeyName, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaTicket::GetFeatureByKeyName, print.iprintschematicket_getfeaturebykeyname, printerextension/IPrintSchemaTicket::GetFeatureByKeyName
+ms.date: 4/20/2018
+ms.keywords: GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetFeatureByKeyName method, IPrintSchemaTicket.GetFeatureByKeyName, IPrintSchemaTicket::GetFeatureByKeyName, print.iprintschematicket_getfeaturebykeyname, printerextension/IPrintSchemaTicket::GetFeatureByKeyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaTicket.GetFeatureByKeyName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaTicket::GetFeatureByKeyName method
+# IPrintSchemaTicket::GetFeatureByKeyName
 
 
 ## -description
 
 
 Gets a feature from the PrintTicket based on the specified key name.
-
-
-## -syntax
-
-
-````
-HRESULT GetFeatureByKeyName(
-  [in]          BSTR                bstrKeyName,
-  [out, retval] IPrintSchemaFeature **ppFeature
-);
-````
 
 
 ## -parameters
@@ -96,22 +85,17 @@ See <a href="https://msdn.microsoft.com/053BFE59-FDC6-42F3-BE14-CE63D5637D62">IP
 
 When the requested feature, option or property is not found, this method returns S_FALSE and sets a NULL pointer on the output object of the feature, option or property.
 
-So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a> object does not contain the specified feature, option or property, the app must obtain an <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a> object and query it via <b>IPrintSchemaCapabilities::GetFeatureByKeyName</b> or via <a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>.
+So if the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a> object does not contain the specified feature, option or property, the app must obtain an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a> object and query it via <b>IPrintSchemaCapabilities::GetFeatureByKeyName</b> or via <a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a>
 
 
 
@@ -123,8 +107,12 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451284">IPrintSchemaFeature</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  
-
 

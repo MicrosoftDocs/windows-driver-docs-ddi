@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.IsValidTagToSet
-title: IDebugFAEntryTags::IsValidTagToSet method
+title: IDebugFAEntryTags::IsValidTagToSet
 author: windows-driver-content
 description: The IsValidTagToSet method determines whether it is OK to set the data of a specified tag.
 old-location: debugger\idebugfaentrytags_isvalidtagtoset.htm
 old-project: debugger
 ms.assetid: 83B5C54F-182B-4D2F-8ED2-7A0B529F1D2E
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], IsValidTagToSet method, IDebugFAEntryTags::IsValidTagToSet, IsValidTagToSet method [Windows Debugging], IsValidTagToSet method [Windows Debugging], IDebugFAEntryTags interface, IsValidTagToSet,IDebugFAEntryTags.IsValidTagToSet, debugger.idebugfaentrytags_isvalidtagtoset, extsfns/IDebugFAEntryTags::IsValidTagToSet
+ms.date: 4/24/2018
+ms.keywords: IDebugFAEntryTags interface [Windows Debugging],IsValidTagToSet method, IDebugFAEntryTags.IsValidTagToSet, IDebugFAEntryTags::IsValidTagToSet, IsValidTagToSet, IsValidTagToSet method [Windows Debugging], IsValidTagToSet method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_isvalidtagtoset, extsfns/IDebugFAEntryTags::IsValidTagToSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	extsfns.h
 api_name:
 -	IDebugFAEntryTags.IsValidTagToSet
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFAEntryTags::IsValidTagToSet method
+# IDebugFAEntryTags::IsValidTagToSet
 
 
 ## -description
 
 
 The <b>IsValidTagToSet</b> method determines whether it is OK to set the data of a specified tag.
-
-
-## -syntax
-
-
-````
-BOOL IsValidTagToSet(
-   FA_TAG Tag
-);
-````
 
 
 ## -parameters
@@ -83,7 +74,14 @@ This method returns TRUE if it is OK to set the data of the specified tag. Other
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983404">IDebugFAEntryTags</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
 
 
 
@@ -91,16 +89,8 @@ This method returns TRUE if it is OK to set the data of the specified tag. Other
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
-
-
-
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
  
 
  
-
 

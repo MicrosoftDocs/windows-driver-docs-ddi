@@ -7,7 +7,7 @@ old-location: stream\kscreatebusenumobject.htm
 old-project: stream
 ms.assetid: bb117f9d-a288-4db6-8f28-96ab5152289c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsCreateBusEnumObject, KsCreateBusEnumObject function [Streaming Media Devices], ksfunc_c2f2d2fb-fea1-40af-8a0b-358b96bae705.xml, stream.kscreatebusenumobject, swenum/KsCreateBusEnumObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsCreateBusEnumObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KsCreateBusEnumObject function
@@ -54,21 +54,6 @@ req.product: Windows 10 or later.
 <i>This function is intended for internal use only.</i>
 
 The <b>KsCreateBusEnumObject</b> function creates a demand-load bus enumerator object and initializes it for use with the demand-load bus enumerator services. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreateBusEnumObject(
-  _In_     PWSTR          BusIdentifier,
-  _In_     PDEVICE_OBJECT BusDeviceObject,
-  _In_     PDEVICE_OBJECT PhysicalDeviceObject,
-  _In_opt_ PDEVICE_OBJECT PnpDeviceObject,
-  _In_opt_ REFGUID        InterfaceGuid,
-  _In_opt_ PWSTR          ServiceRelativePath
-);
-````
 
 
 ## -parameters
@@ -130,12 +115,11 @@ The demand-load bus enumerator object extends a Plug and Play device by servicin
 
 ## -see-also
 
-<a href="..\swenum\nf-swenum-ksservicebusenumpnprequest.md">KsServiceBusEnumPnpRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566816">KsServiceBusEnumPnpRequest</a>
  
 
  
-
 

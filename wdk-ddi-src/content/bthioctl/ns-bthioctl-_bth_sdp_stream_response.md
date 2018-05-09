@@ -7,7 +7,7 @@ old-location: bltooth\bth_sdp_stream_response.htm
 old-project: bltooth
 ms.assetid: 5b7db410-8d9c-4c3e-aaae-44f7d5b779a0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PBTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices], PBTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices], _BTH_SDP_STREAM_RESPONSE, bltooth.bth_sdp_stream_response, bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, bthioctl/BTH_SDP_STREAM_RESPONSE, bthioctl/PBTH_SDP_STREAM_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= PASSIVE_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_SDP_STREAM_RESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE
 ---
@@ -50,18 +51,6 @@ req.typenames: BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE
 
 
 The BTH_SDP_STREAM_RESPONSE structure contains information about an SDP record.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_SDP_STREAM_RESPONSE {
-  ULONG requiredSize;
-  ULONG responseSize;
-  UCHAR response[1];
-} BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE;
-````
 
 
 ## -struct-fields
@@ -90,9 +79,9 @@ The first byte of the SDP record stream.
 
 
 This structure is returned with a raw stream to the output buffer of the 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">
+    <a href="https://msdn.microsoft.com/30daf70e-34d1-45f7-a69b-503e275b83af">
     IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a> and 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+    <a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
     IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a> IOCTLs.
 
 The 
@@ -105,17 +94,16 @@ The
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536687">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
+
+
+
+<a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
-
-
-
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
-
-
-
  
 
  
-
 

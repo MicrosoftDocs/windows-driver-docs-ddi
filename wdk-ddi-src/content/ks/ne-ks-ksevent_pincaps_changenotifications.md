@@ -7,7 +7,7 @@ old-location: stream\ksevent_pincaps_changenotifications.htm
 old-project: stream
 ms.assetid: FC46144A-8343-4C1F-8061-4C9DCAB22370
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSEVENT_PINCAPS_CHANGENOTIFICATIONS, KSEVENT_PINCAPS_CHANGENOTIFICATIONS enumeration [Streaming Media Devices], KSEVENT_PINCAPS_FORMATCHANGE, KSEVENT_PINCAPS_JACKINFOCHANGE, ks/KSEVENT_PINCAPS_CHANGENOTIFICATIONS, ks/KSEVENT_PINCAPS_FORMATCHANGE, ks/KSEVENT_PINCAPS_JACKINFOCHANGE, stream.ksevent_pincaps_changenotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSEVENT_PINCAPS_CHANGENOTIFICATIONS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 ---
@@ -50,17 +51,6 @@ req.typenames: KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSEVENT_PINCAPS_FORMATCHANGE,
-  KSEVENT_PINCAPS_JACKINFOCHANGE
-} KSEVENT_PINCAPS_CHANGENOTIFICATIONS;
-````
 
 
 ## -enum-fields

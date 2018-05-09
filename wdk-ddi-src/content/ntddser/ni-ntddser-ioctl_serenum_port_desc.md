@@ -7,8 +7,8 @@ old-location: serports\ioctl_serenum_port_desc.htm
 old-project: serports
 ms.assetid: 9ecaa3fa-137d-4f79-9316-727ecab35da8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERENUM_PORT_DESC, IOCTL_SERENUM_PORT_DESC control code [Serial Ports], ntddser/IOCTL_SERENUM_PORT_DESC, senumref_2afa4ab9-ceac-4477-9ac6-10f572444e61.xml, serports.ioctl_serenum_port_desc
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERENUM_PORT_DESC, IOCTL_SERENUM_PORT_DESC control, IOCTL_SERENUM_PORT_DESC control code [Serial Ports], ntddser/IOCTL_SERENUM_PORT_DESC, senumref_2afa4ab9-ceac-4477-9ac6-10f572444e61.xml, serports.ioctl_serenum_port_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	ntddser.h
 api_name:
 -	IOCTL_SERENUM_PORT_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERENUM_PORT_DESC IOCTL

@@ -7,7 +7,7 @@ old-location: display\dxgkarg_controlinterrupt2.htm
 old-project: display
 ms.assetid: 881F93B2-999F-4E3A-A71D-731946E8AA97
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTERRUPT2 structure [Display Devices], DXGKARG_CONTROLINTTERUPT2, DXGKARG_CONTROLINTTERUPT2 structure [Display Devices], _DXGKARG_CONTROLINTERRUPT2, d3dkmddi/DXGKARG_CONTROLINTERRUPT2, display.dxgkarg_controlinterrupt2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_CONTROLINTTERUPT2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_CONTROLINTERRUPT2
 ---
@@ -49,18 +50,7 @@ req.typenames: DXGKARG_CONTROLINTERRUPT2
 ## -description
 
 
-The DXGKARG_CONTROLINTERRUPT2 structure is used in <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt2.md">DxgkDdi_ControlInterrupt2</a> calls to describe the state of interrupts. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_CONTROLINTERRUPT2 {
-  DXGK_INTERRUPT_STATE  InterruptState;
-  DXGK_CRTC_VSYNC_STATE CrtcVsyncState;
-} DXGKARG_CONTROLINTTERUPT2;
-````
+The DXGKARG_CONTROLINTERRUPT2 structure is used in <a href="https://msdn.microsoft.com/library/windows/hardware/mt667971">DxgkDdi_ControlInterrupt2</a> calls to describe the state of interrupts. 
 
 
 ## -struct-fields
@@ -73,26 +63,23 @@ typedef struct _DXGKARG_CONTROLINTERRUPT2 {
  
 
 
-
-
-#### - CrtcVsyncState
-
-Indicates whether VSYNCs are enabled if interrupts are also enabled for the driver.
-
-
-#### - InterruptState
+### -field InterruptState
 
 Indicates whether  interrupts are enabled for the driver.
 
 
+### -field CrtcVsyncState
+
+Indicates whether VSYNCs are enabled if interrupts are also enabled for the driver.
+
+
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_controlinterrupt2.md">DxgkDdi_ControlInterrupt2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt667971">DxgkDdi_ControlInterrupt2</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: sensors\sensorconnectiontype.htm
 old-project: sensors
 ms.assetid: 63df4f99-ddc2-4a0b-b19b-63390771d529
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SENSOR_CONNECTION_TYPE_PC_ATTACHED, SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SENSOR_CONNECTION_TYPE_PC_INTEGRATED, SensorConnectionType, SensorConnectionType enumeration [Sensor Devices], Sensor_Enums_bca4556b-94f3-4213-9daa-3571f403d556.xml, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002, sensors.sensorconnectiontype, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_ATTACHED, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_EXTERNAL, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsclassextension/SensorConnectionType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= PASSIVE_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	SensorsClassExtension.h
 api_name:
 -	SensorConnectionType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
 ---
 
 # __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002 enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SensorConnectionType</b> enumeration type defines values for the <a href="https://msdn.microsoft.com/1BF1568D-A889-4158-9C6D-160D9B06F0DE">SENSOR_CONNECTION_TYPE</a> property.
-
-
-## -syntax
-
-
-````
-enum SensorConnectionType {
-  SENSOR_CONNECTION_TYPE_PC_INTEGRATED  = 0, 
-  SENSOR_CONNECTION_TYPE_PC_ATTACHED    = ( SENSOR_CONNECTION_TYPE_PC_INTEGRATED + 1 ), 
-  SENSOR_CONNECTION_TYPE_PC_EXTERNAL    = ( SENSOR_CONNECTION_TYPE_PC_ATTACHED + 1 ) 
-
-};
-````
 
 
 ## -enum-fields
@@ -88,7 +75,6 @@ Indicates that the sensor is connected by external means, such as through a netw
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
 
 
 
@@ -96,8 +82,8 @@ Indicates that the sensor is connected by external means, such as through a netw
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
  
 
  
-
 

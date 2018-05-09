@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPin.KsIncrementPendingIoCount
-title: IKsPin::KsIncrementPendingIoCount method
+title: IKsPin::KsIncrementPendingIoCount
 author: windows-driver-content
 description: The KsIncrementPendingIoCount method increments the number of input/output (I/O) operations that are in progress on a pin.
 old-location: stream\ikspin_ksincrementpendingiocount.htm
 old-project: stream
 ms.assetid: e79ae2ac-6636-491d-8c98-70a5ff3a23ef
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsIncrementPendingIoCount method, IKsPin::KsIncrementPendingIoCount, KsIncrementPendingIoCount method [Streaming Media Devices], KsIncrementPendingIoCount method [Streaming Media Devices], IKsPin interface, KsIncrementPendingIoCount,IKsPin.KsIncrementPendingIoCount, ksproxy/IKsPin::KsIncrementPendingIoCount, ksproxy_c654f701-d58e-4953-ad55-76d98096b7f0.xml, stream.ikspin_ksincrementpendingiocount
+ms.date: 4/23/2018
+ms.keywords: IKsPin interface [Streaming Media Devices],KsIncrementPendingIoCount method, IKsPin.KsIncrementPendingIoCount, IKsPin::KsIncrementPendingIoCount, KsIncrementPendingIoCount, KsIncrementPendingIoCount method [Streaming Media Devices], KsIncrementPendingIoCount method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsIncrementPendingIoCount, ksproxy_c654f701-d58e-4953-ad55-76d98096b7f0.xml, stream.ikspin_ksincrementpendingiocount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPin.KsIncrementPendingIoCount
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPin::KsIncrementPendingIoCount method
+# IKsPin::KsIncrementPendingIoCount
 
 
 ## -description
 
 
 The <b>KsIncrementPendingIoCount</b> method increments the number of input/output (I/O) operations that are in progress on a pin.
-
-
-## -syntax
-
-
-````
-LONG KsIncrementPendingIoCount();
-````
 
 
 ## -parameters
@@ -84,7 +77,7 @@ The <b>KsIncrementPendingIoCount</b> method is typically called from within an i
 
 <ol>
 <li>
-The proxy creates an instance of an interface handler (<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>) to handle a particular media type. 
+The proxy creates an instance of an interface handler (<a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a>) to handle a particular media type. 
 
 </li>
 <li>
@@ -105,7 +98,10 @@ The client calls the <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559872">IKsInterfaceHandler::KsSetPin</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a>
 
 
 
@@ -113,20 +109,16 @@ The client calls the <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560709">IKsPin::KsDecrementPendingIoCount</a>
-
-
-
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559872">IKsInterfaceHandler::KsSetPin</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560709">IKsPin::KsDecrementPendingIoCount</a>
  
 
  
-
 

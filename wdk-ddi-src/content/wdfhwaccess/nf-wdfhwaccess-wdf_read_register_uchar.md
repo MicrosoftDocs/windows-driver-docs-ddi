@@ -38,10 +38,10 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_READ_REGISTER_UCHAR
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_READ_REGISTER_UCHAR function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>WDF_READ_REGISTER_UCHAR</b> function reads a byte from the specified register address.
-
-
-## -syntax
-
-
-````
-UCHAR WDF_READ_REGISTER_UCHAR(
-  _In_ WDFDEVICE Device,
-  _In_ PUCHAR    Register
-);
-````
 
 
 ## -parameters

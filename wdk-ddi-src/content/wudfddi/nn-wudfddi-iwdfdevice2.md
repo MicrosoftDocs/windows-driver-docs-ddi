@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f4d3d2cf-8877-4071-8e75-f971803beca4
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice2, IWDFDevice2 interface, IWDFDevice2 interface, described, UMDFDeviceObjectRef_0b02d642-234d-4f98-b6d1-5557aa74eb14.xml, umdf.iwdfdevice2, wdf.iwdfdevice2, wudfddi/IWDFDevice2
+ms.keywords: IWDFDevice2, IWDFDevice2 interface, IWDFDevice2 interface,described, UMDFDeviceObjectRef_0b02d642-234d-4f98-b6d1-5557aa74eb14.xml, umdf.iwdfdevice2, wdf.iwdfdevice2, wudfddi/IWDFDevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFDevice2 interface
@@ -57,7 +57,7 @@ Drivers obtain the <b>IWDFDevice2</b> interface by calling <b>IWDFDevice::QueryI
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDevice2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>. <b>IWDFDevice2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDevice2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>. <b>IWDFDevice2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -7,7 +7,7 @@ old-location: buses\usb_bus_interface_usbdi_v2.htm
 old-project: usbref
 ms.assetid: c7d9f8b1-a18f-4644-aaee-c019692e62a6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2, PUSB_BUS_INTERFACE_USBDI_V2 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V2, USB_BUS_INTERFACE_USBDI_V2 structure [Buses], _USB_BUS_INTERFACE_USBDI_V2, buses.usb_bus_interface_usbdi_v2, usbbusif/PUSB_BUS_INTERFACE_USBDI_V2, usbbusif/USB_BUS_INTERFACE_USBDI_V2, usbinterKR_bcb1539a-bd26-421b-b8b3-c135ffe45e57.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	usbbusif.h
 api_name:
 -	USB_BUS_INTERFACE_USBDI_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V2, *PUSB_BUS_INTERFACE_USBDI_V2
-req.product: Windows 10 or later.
 ---
 
 # _USB_BUS_INTERFACE_USBDI_V2 structure
@@ -51,26 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USB_BUS_INTERFACE_USBDI_V2</b> structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs. 
-
-
-## -syntax
-
-
-````
-typedef struct _USB_BUS_INTERFACE_USBDI_V2 {
-  USHORT                             Size;
-  USHORT                             Version;
-  PVOID                              BusContext;
-  PINTERFACE_REFERENCE               InterfaceReference;
-  PINTERFACE_DEREFERENCE             InterfaceDereference;
-  PUSB_BUSIFFN_GETUSBDI_VERSION      GetUSBDIVersion;
-  PUSB_BUSIFFN_QUERY_BUS_TIME        QueryBusTime;
-  PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB    SubmitIsoOutUrb;
-  PUSB_BUSIFFN_QUERY_BUS_INFORMATION QueryBusInformation;
-  PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED  IsDeviceHighSpeed;
-  PUSB_BUSIFFN_ENUM_LOG_ENTRY        EnumLogEntry;
-} USB_BUS_INTERFACE_USBDI_V2, *PUSB_BUS_INTERFACE_USBDI_V2;
-````
 
 
 ## -struct-fields
@@ -143,12 +123,12 @@ Contains information that describes the USB bus and the USB bus driver that expo
 
 ### -field InterfaceReference
 
-Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>. 
+Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a>. 
 
 
 ### -field InterfaceDereference
 
-Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>. 
+Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a>. 
 
 
 ### -field GetUSBDIVersion
@@ -194,16 +174,15 @@ The routines in this structure must be callable at IRQL &gt;= DISPATCH_LEVEL.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">Bus Driver Interface Routines for USB Client Drivers</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: spb\spb_transfer_descriptor.htm
 old-project: SPB
 ms.assetid: 3D370646-3879-4415-8D80-04D0B23839B0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR structure pointer [Buses], SPB.spb_transfer_descriptor, SPB_TRANSFER_DESCRIPTOR, SPB_TRANSFER_DESCRIPTOR structure [Buses], spbcx/PSPB_TRANSFER_DESCRIPTOR, spbcx/SPB_TRANSFER_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any IRQL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Spbcx.h
 api_name:
 -	SPB_TRANSFER_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_DESCRIPTOR, *PSPB_TRANSFER_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # SPB_TRANSFER_DESCRIPTOR structure
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_TRANSFER_DESCRIPTOR</b> structure describes a single transfer in an <a href="https://msdn.microsoft.com/7415DB28-5E93-4F47-B169-7C652969D4C7">I/O transfer sequence</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _SPB_TRANSFER_DESCRIPTOR {
-  USHORT                 Size;
-  SPB_TRANSFER_DIRECTION Direction;
-  size_t                 TransferLength;
-  ULONG                  DelayInUs;
-} SPB_TRANSFER_DESCRIPTOR, *PSPB_TRANSFER_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -108,6 +95,9 @@ The <b>DelayInUs</b> member specifies a delay before the start of the transfer. 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406219">SPB_TRANSFER_DESCRIPTOR_INIT</a>
 
 
@@ -117,11 +107,7 @@ The <b>DelayInUs</b> member specifies a delay before the start of the transfer. 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450924">SpbRequestGetTransferParameters</a>
-
-
-
  
 
  
-
 

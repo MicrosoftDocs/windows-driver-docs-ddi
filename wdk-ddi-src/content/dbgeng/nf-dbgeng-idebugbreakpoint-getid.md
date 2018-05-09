@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint.GetId
-title: IDebugBreakpoint::GetId method
+title: IDebugBreakpoint::GetId
 author: windows-driver-content
 description: The GetId method returns a breakpoint ID, which is the engine's unique identifier for a breakpoint.
 old-location: debugger\getid.htm
 old-project: debugger
 ms.assetid: 991d8a40-1991-4c06-9557-9abee3ed8073
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, GetId method [Windows Debugging], GetId method [Windows Debugging], IDebugBreakpoint interface, GetId method [Windows Debugging], IDebugBreakpoint2 interface, GetId,IDebugBreakpoint.GetId, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetId method, IDebugBreakpoint2 interface [Windows Debugging], GetId method, IDebugBreakpoint2::GetId, IDebugBreakpoint::GetId, dbgeng/IDebugBreakpoint2::GetId, dbgeng/IDebugBreakpoint::GetId, debugger.getid
+ms.date: 4/24/2018
+ms.keywords: ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, GetId, GetId method [Windows Debugging], GetId method [Windows Debugging],IDebugBreakpoint interface, GetId method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetId method, IDebugBreakpoint.GetId, IDebugBreakpoint2 interface [Windows Debugging],GetId method, IDebugBreakpoint2::GetId, IDebugBreakpoint::GetId, dbgeng/IDebugBreakpoint2::GetId, dbgeng/IDebugBreakpoint::GetId, debugger.getid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,28 +39,19 @@ api_location:
 api_name:
 -	IDebugBreakpoint.GetId
 -	IDebugBreakpoint2.GetId
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint::GetId method
+# IDebugBreakpoint::GetId
 
 
 ## -description
 
 
 The <b>GetId</b> method returns a breakpoint ID, which is the engine's unique identifier for a breakpoint.
-
-
-## -syntax
-
-
-````
-HRESULT GetId(
-  [out] PULONG Id
-);
-````
 
 
 ## -parameters

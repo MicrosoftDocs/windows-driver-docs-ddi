@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni3.SetBandSize
-title: IPrintOemUni3::SetBandSize method
+title: IPrintOemUni3::SetBandSize
 author: windows-driver-content
 description: The IPrintOemUni3::SetBandSize method can be used with Unidrv-supported printers to specify the desired band size on the printed output.
 old-location: print\iprintoemuni3_setbandsize.htm
 old-project: print
 ms.assetid: e75fdfa5-2b25-4d89-b3ef-40cb445f874f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: BMF_16BPP, BMF_1BPP, BMF_24BPP, BMF_32BPP, BMF_4BPP, BMF_4RLE, BMF_8BPP, BMF_8RLE, IPrintOemUni3, IPrintOemUni3 interface [Print Devices], SetBandSize method, IPrintOemUni3::SetBandSize, SetBandSize method [Print Devices], SetBandSize method [Print Devices], IPrintOemUni3 interface, SetBandSize,IPrintOemUni3.SetBandSize, prcomoem/IPrintOemUni3::SetBandSize, print.iprintoemuni3_setbandsize, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml
+ms.date: 4/20/2018
+ms.keywords: BMF_16BPP, BMF_1BPP, BMF_24BPP, BMF_32BPP, BMF_4BPP, BMF_4RLE, BMF_8BPP, BMF_8RLE, IPrintOemUni3 interface [Print Devices],SetBandSize method, IPrintOemUni3.SetBandSize, IPrintOemUni3::SetBandSize, SetBandSize, SetBandSize method [Print Devices], SetBandSize method [Print Devices],IPrintOemUni3 interface, prcomoem/IPrintOemUni3::SetBandSize, print.iprintoemuni3_setbandsize, print_unidrv-pscript_rendering_b381059a-7a5c-49c7-b721-6012ff44157c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,34 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni3.SetBandSize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni3::SetBandSize method
+# IPrintOemUni3::SetBandSize
 
 
 ## -description
 
 
 The <code>IPrintOemUni3::SetBandSize</code> method can be used with Unidrv-supported printers to specify the desired band size on the printed output.
-
-
-## -syntax
-
-
-````
-HRESULT SetBandSize(
-  [in] PDEVOBJ pdevobj,
-  [in] INT     iFormat,
-  [in] DWORD   dwPageWidthBytes,
-  [in] DWORD   dwPageHeight,
-  [in] DWORD   dwMaxHeight,
-  [in] PDWORD  pdwRequiredHeight
-);
-````
 
 
 ## -parameters
@@ -75,7 +60,7 @@ HRESULT SetBandSize(
 
 ### -param pdevobj [in]
 
-A caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+A caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param iFormat [in]

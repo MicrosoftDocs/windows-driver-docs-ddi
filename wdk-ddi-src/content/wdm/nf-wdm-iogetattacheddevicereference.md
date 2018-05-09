@@ -7,7 +7,7 @@ old-location: kernel\iogetattacheddevicereference.htm
 old-project: kernel
 ms.assetid: 540a4e5c-8d7b-4ba8-a9a6-6e13d9b85f23
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoGetAttachedDeviceReference, IoGetAttachedDeviceReference routine [Kernel-Mode Driver Architecture], k104_f7fa8878-306a-4de2-b418-8102754306f7.xml, kernel.iogetattacheddevicereference, wdm/IoGetAttachedDeviceReference
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoGetAttachedDeviceReference
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoGetAttachedDeviceReference function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoGetAttachedDeviceReference</b> routine returns a pointer to the highest level device object in a driver stack and increments the reference count on that object.
-
-
-## -syntax
-
-
-````
-PDEVICE_OBJECT IoGetAttachedDeviceReference(
-  _In_ PDEVICE_OBJECT DeviceObject
-);
-````
 
 
 ## -parameters
@@ -88,19 +78,18 @@ Pointer to the device object for which the topmost attached device object is ret
 
 If the device object at <i>DeviceObject</i> has no device objects attached to it, <i>DeviceObject</i> and the returned pointer are equal.
 
-Device driver writers must ensure that when they have completed all operations that required them to make this call, that they call <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> with the device object pointer returned by this routine. Failure to do so will prevent the system from freeing or deleting the device object because of an outstanding reference count.
+Device driver writers must ensure that when they have completed all operations that required them to make this call, that they call <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> with the device object pointer returned by this routine. Failure to do so will prevent the system from freeing or deleting the device object because of an outstanding reference count.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
  
 
  
-
 

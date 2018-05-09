@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdfinterrupt.h
 api_name:
 -	WDF_INTERRUPT_EXTENDED_POLICY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_EXTENDED_POLICY, *PWDF_INTERRUPT_EXTENDED_POLICY
-req.product: Windows 10 or later.
 ---
 
 # _WDF_INTERRUPT_EXTENDED_POLICY structure
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_INTERRUPT_EXTENDED_POLICY</b> structure contains information about an interrupt's policy, priority, affinity, and group.
-
-
-## -syntax
-
-
-````
-typedef struct _WDF_INTERRUPT_EXTENDED_POLICY {
-  ULONG                  Size;
-  WDF_INTERRUPT_POLICY   Policy;
-  WDF_INTERRUPT_PRIORITY Priority;
-  GROUP_AFFINITY         TargetProcessorSetAndGroup;
-} WDF_INTERRUPT_EXTENDED_POLICY, *PWDF_INTERRUPT_EXTENDED_POLICY;
-````
 
 
 ## -struct-fields
@@ -80,12 +67,12 @@ The size, in bytes, of this structure.
 
 ### -field Policy
 
-A <a href="..\wdfinterrupt\ne-wdfinterrupt-_wdf_interrupt_policy.md">WDF_INTERRUPT_POLICY</a>-typed enumerator that specifies a processor affinity policy for the interrupt.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh464032">WDF_INTERRUPT_POLICY</a>-typed enumerator that specifies a processor affinity policy for the interrupt.
 
 
 ### -field Priority
 
-A <a href="..\wdfinterrupt\ne-wdfinterrupt-_wdf_interrupt_priority.md">WDF_INTERRUPT_PRIORITY</a>-typed enumerator that specifies a priority for the interrupt.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552355">WDF_INTERRUPT_PRIORITY</a>-typed enumerator that specifies a priority for the interrupt.
 
 
 ### -field TargetProcessorSetAndGroup
@@ -97,25 +84,24 @@ A GROUP_AFFINITY structure that specifies a processor group and a processor affi
 
 
 
-The <b>WDF_INTERRUPT_EXTENDED_POLICY</b> structure is used as input the <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md">WdfInterruptSetExtendedPolicy</a>. 
+The <b>WDF_INTERRUPT_EXTENDED_POLICY</b> structure is used as input the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547381">WdfInterruptSetExtendedPolicy</a>. 
 
-To initialize a <b>WDF_INTERRUPT_EXTENDED_POLICY</b> structure, your driver must call <a href="..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>.
+To initialize a <b>WDF_INTERRUPT_EXTENDED_POLICY</b> structure, your driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552350">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md">WdfInterruptSetExtendedPolicy</a>
 
 
 
-<a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_interrupt_extended_policy_init.md">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552350">WDF_INTERRUPT_EXTENDED_POLICY_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547381">WdfInterruptSetExtendedPolicy</a>
  
 
  
-
 

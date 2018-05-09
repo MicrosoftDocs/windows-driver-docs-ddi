@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetFieldOffset
-title: IDebugSymbols::GetFieldOffset method
+title: IDebugSymbols::GetFieldOffset
 author: windows-driver-content
 description: The GetFieldOffset method returns the offset of a field from the base address of an instance of a type.
 old-location: debugger\getfieldoffset2.htm
 old-project: debugger
 ms.assetid: 4081ddf9-673d-4df6-8698-726a70d32c03
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetFieldOffset method [Windows Debugging], GetFieldOffset method [Windows Debugging], IDebugSymbols interface, GetFieldOffset method [Windows Debugging], IDebugSymbols2 interface, GetFieldOffset method [Windows Debugging], IDebugSymbols3 interface, GetFieldOffset,IDebugSymbols.GetFieldOffset, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetFieldOffset method, IDebugSymbols2 interface [Windows Debugging], GetFieldOffset method, IDebugSymbols2::GetFieldOffset, IDebugSymbols3 interface [Windows Debugging], GetFieldOffset method, IDebugSymbols3::GetFieldOffset, IDebugSymbols::GetFieldOffset, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, dbgeng/IDebugSymbols2::GetFieldOffset, dbgeng/IDebugSymbols3::GetFieldOffset, dbgeng/IDebugSymbols::GetFieldOffset, debugger.getfieldoffset2
+ms.date: 4/24/2018
+ms.keywords: GetFieldOffset, GetFieldOffset method [Windows Debugging], GetFieldOffset method [Windows Debugging],IDebugSymbols interface, GetFieldOffset method [Windows Debugging],IDebugSymbols2 interface, GetFieldOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetFieldOffset method, IDebugSymbols.GetFieldOffset, IDebugSymbols2 interface [Windows Debugging],GetFieldOffset method, IDebugSymbols2::GetFieldOffset, IDebugSymbols3 interface [Windows Debugging],GetFieldOffset method, IDebugSymbols3::GetFieldOffset, IDebugSymbols::GetFieldOffset, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, dbgeng/IDebugSymbols2::GetFieldOffset, dbgeng/IDebugSymbols3::GetFieldOffset, dbgeng/IDebugSymbols::GetFieldOffset, debugger.getfieldoffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,31 +40,19 @@ api_name:
 -	IDebugSymbols.GetFieldOffset
 -	IDebugSymbols2.GetFieldOffset
 -	IDebugSymbols3.GetFieldOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols::GetFieldOffset method
+# IDebugSymbols::GetFieldOffset
 
 
 ## -description
 
 
 The <b>GetFieldOffset</b>  method returns the offset of a field from the base address of an instance of a type.
-
-
-## -syntax
-
-
-````
-HRESULT GetFieldOffset(
-  [in]  ULONG64 Module,
-  [in]  ULONG   TypeId,
-  [in]  PCSTR   Field,
-  [out] PULONG  Offset
-);
-````
 
 
 ## -parameters

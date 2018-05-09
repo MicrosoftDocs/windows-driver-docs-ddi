@@ -7,7 +7,7 @@ old-location: kernel\rtlrunoncecomplete.htm
 old-project: kernel
 ms.assetid: 1cdc4fde-2370-4e58-9e67-dec731cdb935
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlRunOnceComplete, RtlRunOnceComplete routine [Kernel-Mode Driver Architecture], k109_00290091-7130-4217-8098-0baa7309223c.xml, kernel.rtlrunoncecomplete, ntddk/RtlRunOnceComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlRunOnceComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlRunOnceComplete function
@@ -49,19 +50,7 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>RtlRunOnceComplete</b> routine completes the one-time initialization began by <a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlRunOnceComplete(
-  _Inout_  PRTL_RUN_ONCE RunOnce,
-  _In_     ULONG         Flags,
-  _In_opt_ PVOID         Context
-);
-````
+The <b>RtlRunOnceComplete</b> routine completes the one-time initialization began by <a href="https://msdn.microsoft.com/library/windows/hardware/ff562759">RtlRunOnceBeginInitialize</a>.
 
 
 ## -parameters
@@ -141,7 +130,7 @@ The operation could not be completed. If the caller specified RTL_RUN_ONCE_ASYNC
 
 
 
-If <b>RtlRunOnceComplete</b> returns STATUS_SUCCESS, any subsequent call to <a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a> for the same <a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a> structure supplies <i>Context</i> as the initialized data.
+If <b>RtlRunOnceComplete</b> returns STATUS_SUCCESS, any subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562759">RtlRunOnceBeginInitialize</a> for the same <a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a> structure supplies <i>Context</i> as the initialized data.
 
 If the caller specified RTL_RUN_ONCE_ASYNC in the <i>Flags</i> parameter and <b>RtlRunOnceComplete</b> returns any value other than STATUS_SUCCESS, the caller must clean up any initialization that it attempted. 
 
@@ -150,28 +139,27 @@ If the caller specified RTL_RUN_ONCE_ASYNC in the <i>Flags</i> parameter and <b>
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562759">RtlRunOnceBeginInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562765">RtlRunOnceExecuteOnce</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562767">RtlRunOnceInitialize</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrunonceexecuteonce.md">RtlRunOnceExecuteOnce</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrunonceinitialize.md">RtlRunOnceInitialize</a>
-
-
-
  
 
  
-
 

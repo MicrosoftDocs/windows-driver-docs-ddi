@@ -7,8 +7,8 @@ old-location: print\iprintoemui_interface.htm
 old-project: print
 ms.assetid: 0ef635dd-9598-4356-94fc-7e5237df9bd9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], IPrintOemUI interface [Print Devices], described, prcomoem/IPrintOemUI, print.iprintoemui_interface, print_unidrv-pscript_ui_d2e42772-2604-4ef1-a667-70139ac8a62a.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], IPrintOemUI interface [Print Devices],described, prcomoem/IPrintOemUI, print.iprintoemui_interface, print_unidrv-pscript_ui_d2e42772-2604-4ef1-a667-70139ac8a62a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,10 +38,10 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUI
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintOemUI interface
@@ -118,7 +118,7 @@ The <code>IPrintOemUI::DocumentPropertySheets</code> method allows a user interf
 <a href="https://msdn.microsoft.com/aacddaea-3a6f-4018-92ac-fe4aa2ddabd3">DriverEvent</a>
 </td>
 <td align="left" width="63%">
-The printer driver's <a href="..\winddiui\nf-winddiui-drvdriverevent.md">DrvDriverEvent</a> function calls a user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method for additional processing of printer driver events.
+The printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548551">DrvDriverEvent</a> function calls a user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method for additional processing of printer driver events.
 
 </td>
 </tr>

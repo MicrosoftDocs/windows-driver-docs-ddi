@@ -7,8 +7,8 @@ old-location: buses\ufx_proprietary_charger_abort_operation.htm
 old-project: usbref
 ms.assetid: 32BCBE1C-BD0E-46D6-9C6D-6B8F1CE0E540
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, UfxProprietaryChargerAbort, UfxProprietaryChargerAbort callback function [Buses], buses.ufx_proprietary_charger_abort_operation, ufxproprietarycharger/UfxProprietaryChargerAbort
+ms.date: 4/25/2018
+ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback, UfxProprietaryChargerAbort, UfxProprietaryChargerAbort callback function [Buses], buses.ufx_proprietary_charger_abort_operation, ufxproprietarycharger/UfxProprietaryChargerAbort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,34 +38,19 @@ api_location:
 -	ufxproprietarycharger.h
 api_name:
 -	PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback
+# UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback function
 
 
 ## -description
 
 
 The filter driver's implementation to abort a charger operation.
-
-
-## -prototype
-
-
-````
-UFX_PROPRIETARY_CHARGER_ABORT_OPERATION UfxProprietaryChargerAbort;
-
-NTSTATUS UfxProprietaryChargerAbort(
-  _In_ PVOID Context
-)
-{ ... }
-
-typedef UFX_PROPRIETARY_CHARGER_ABORT_OPERATION PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION;
-````
 
 
 ## -parameters
@@ -98,12 +83,11 @@ To support handling of proprietary chargers, the USB lower filter driver must pu
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/05D2B46A-282C-4B75-9F5C-2FC0AF344AB9">USB filter driver for supporting proprietary chargers</a>
-
-
-
  
 
  
-
 

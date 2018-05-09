@@ -7,28 +7,28 @@ old-location: display\pfnd3d12ddi_calcprivatecommandqueuesize_0023.htm
 old-project: display
 ms.assetid: 70A81285-97CD-4526-8EB0-F00908B2D331
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023, d3d12umddi/pfnCalcPrivateCommandQueueSize, display.pfnd3d12ddi_calcprivatecommandqueuesize_0023, pfnCalcPrivateCommandQueueSize, pfnCalcPrivateCommandQueueSize callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023, PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023 callback, d3d12umddi/pfnCalcPrivateCommandQueueSize, display.pfnd3d12ddi_calcprivatecommandqueuesize_0023, pfnCalcPrivateCommandQueueSize, pfnCalcPrivateCommandQueueSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,32 +38,19 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnCalcPrivateCommandQueueSize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023 callback
+# PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023 callback function
 
 
 ## -description
 
 
-The <i>pfnCalcPrivateCommandQueueSize</i> callback function is used to calculate the size of a private command queue. 
-
-
-## -prototype
-
-
-````
-PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023 pfnCalcPrivateCommandQueueSize;
-
-SIZE_T APIENTRY* pfnCalcPrivateCommandQueueSize(
-             D3D12DDI_HDEVICE                    hDevice,
-  _In_ const D3D12DDIARG_CREATECOMMANDQUEUE_0023 *CreateCommandQueue
-)
-{ ... }
-````
+The <i>pfnCalcPrivateCommandQueueSize</i> callback function is used to calculate the size of a private command queue.
 
 
 ## -parameters
@@ -71,8 +58,9 @@ SIZE_T APIENTRY* pfnCalcPrivateCommandQueueSize(
 
 
 
-### -param D3D12DDI_HDEVICE
+### -param Arg1
 
+A handle to the display device (graphics context).
 
 ### -param *
 
@@ -85,7 +73,7 @@ SIZE_T APIENTRY* pfnCalcPrivateCommandQueueSize(
 
 #### - CreateCommandQueue [in]
 
-An argument used to create a command queue. 
+An argument used to create a command queue.
 
 
 #### - hDevice

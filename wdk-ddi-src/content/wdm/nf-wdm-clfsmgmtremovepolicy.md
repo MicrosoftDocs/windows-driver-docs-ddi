@@ -7,7 +7,7 @@ old-location: kernel\clfsmgmtremovepolicy.htm
 old-project: kernel
 ms.assetid: 6f0ae6fc-4f2f-4a1a-ac2f-93689f6b7d50
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsMgmtRemovePolicy, ClfsMgmtRemovePolicy routine [Kernel-Mode Driver Architecture], Clfs_management_70e3d576-6891-4379-a25b-d880222db235.xml, kernel.clfsmgmtremovepolicy, wdm/ClfsMgmtRemovePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsMgmtRemovePolicy
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsMgmtRemovePolicy function
@@ -51,18 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>ClfsMgmtRemovePolicy</b> routine resets a log's <a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a> structure to its default value.
-
-
-## -syntax
-
-
-````
-NTSTATUS ClfsMgmtRemovePolicy(
-  _In_ PLOG_FILE_OBJECT      LogFile,
-  _In_ CLFS_MGMT_POLICY_TYPE PolicyType
-);
-````
+The <b>ClfsMgmtRemovePolicy</b> routine resets a log's <a href="https://msdn.microsoft.com/library/windows/hardware/ff541842">CLFS_MGMT_POLICY</a> structure to its default value.
 
 
 ## -parameters
@@ -77,7 +66,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 ### -param PolicyType [in]
 
-A value of the <a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of the policy to be removed.
+A value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541849">CLFS_MGMT_POLICY_TYPE</a> enumeration that supplies the type of the policy to be removed.
 
 
 ## -returns
@@ -167,16 +156,15 @@ This routine might also return other <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_clfs_mgmt_policy.md">CLFS_MGMT_POLICY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541842">CLFS_MGMT_POLICY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541849">CLFS_MGMT_POLICY_TYPE</a>
  
 
  
-
 

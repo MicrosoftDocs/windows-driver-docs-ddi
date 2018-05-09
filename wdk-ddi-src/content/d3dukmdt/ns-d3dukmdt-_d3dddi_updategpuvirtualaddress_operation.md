@@ -7,7 +7,7 @@ old-location: display\d3dddi_updategpuvirtualaddress_operation.htm
 old-project: display
 ms.assetid: BCA741A8-2294-43C1-8B9C-3724274D637B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure [Display Devices], _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, display.d3dddi_updategpuvirtualaddress_operation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
 ---
@@ -50,44 +51,6 @@ req.typenames: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
 
 
 <b>D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION</b> describes a virtual address update operation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION {
-  D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION_TYPE OperationType;
-  union {
-    struct {
-      D3DGPU_VIRTUAL_ADDRESS BaseAddress;
-      D3DGPU_SIZE_T          SizeInBytes;
-      D3DKMT_HANDLE          hAllocation;
-      D3DGPU_SIZE_T          AllocationOffsetInBytes;
-      D3DGPU_SIZE_T          AllocationSizeInBytes;
-    } Map;
-    struct {
-      D3DGPU_VIRTUAL_ADDRESS                  BaseAddress;
-      D3DGPU_SIZE_T                           SizeInBytes;
-      D3DKMT_HANDLE                           hAllocation;
-      D3DGPU_SIZE_T                           AllocationOffsetInBytes;
-      D3DGPU_SIZE_T                           AllocationSizeInBytes;
-      D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE Protection;
-      UINT64                                  DriverProtection;
-    } MapProtect;
-    struct {
-      D3DGPU_VIRTUAL_ADDRESS                  BaseAddress;
-      D3DGPU_SIZE_T                           SizeInBytes;
-      D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE Protection;
-    } Unmap;
-    struct {
-      D3DGPU_VIRTUAL_ADDRESS BaseAddress;
-      D3DGPU_SIZE_T          SizeInBytes;
-      D3DGPU_VIRTUAL_ADDRESS DestAddress;
-    } Copy;
-  };
-} D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION;
-````
 
 
 ## -struct-fields
@@ -107,7 +70,7 @@ Maps the given virtual address range to the given allocation range. The allocati
 
 Specifies the <b>BaseAddress</b> of the GPU virtual address range to update. The value is in bytes and must be 4KB aligned.
 
-The entire range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>SizeInBytes</b> must be in the <i>reserved (zero)</i> or <i>mapped </i>state, or the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a> operation will fail. The virtual address ranges for all operations must belong to a virtual address range which is reserved by the same <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a> call.
+The entire range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>SizeInBytes</b> must be in the <i>reserved (zero)</i> or <i>mapped </i>state, or the <a href="https://msdn.microsoft.com/99D075A0-4483-47D1-BA24-80C45BFF407A">pfnUpdateGpuVirtualAddressCb</a> operation will fail. The virtual address ranges for all operations must belong to a virtual address range which is reserved by the same <a href="https://msdn.microsoft.com/CEDE03E1-4B0D-4839-B7D6-0826CC103C5E">pfnReserveGpuVirtualAddressCb</a> call.
 
 
 
@@ -143,7 +106,7 @@ Maps the given virtual address range to the given allocation range. The allocati
 Specifies the <b>BaseAddress</b> of the GPU virtual address range to update. The value is in bytes and must be 4KB aligned.
 
 
-The entire range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>SizeInBytes</b> must be in the <i>reserved (zero)</i> or <i>mapped</i> state, or <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a> will fail. The virtual address ranges for all operations must belong to a virtual address range which is reserved by the same <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a> call.
+The entire range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>SizeInBytes</b> must be in the <i>reserved (zero)</i> or <i>mapped</i> state, or <a href="https://msdn.microsoft.com/99D075A0-4483-47D1-BA24-80C45BFF407A">pfnUpdateGpuVirtualAddressCb</a> will fail. The virtual address ranges for all operations must belong to a virtual address range which is reserved by the same <a href="https://msdn.microsoft.com/CEDE03E1-4B0D-4839-B7D6-0826CC103C5E">pfnReserveGpuVirtualAddressCb</a> call.
 
 
 
@@ -228,16 +191,15 @@ Specifies the start virtual address of the destination virtual address range. Th
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md">pfnReserveGpuVirtualAddressCb</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updategpuvirtualaddresscb.md">pfnUpdateGpuVirtualAddressCb</a>
+<a href="https://msdn.microsoft.com/CEDE03E1-4B0D-4839-B7D6-0826CC103C5E">pfnReserveGpuVirtualAddressCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/99D075A0-4483-47D1-BA24-80C45BFF407A">pfnUpdateGpuVirtualAddressCb</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_field_type.htm
 old-project: display
 ms.assetid: 869BF62F-C8FE-4AD8-A413-65FBE97EE7FB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_FIELD_TYPE_0020, D3D12DDI_VIDEO_FIELD_TYPE_0020 enumeration [Display Devices], D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_BOTTOM_FIELD_FIRST, D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_TOP_FIELD_FIRST, D3D12DDI_VIDEO_FIELD_TYPE_0020_NONE, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_BOTTOM_FIELD_FIRST, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_TOP_FIELD_FIRST, d3d12umddi/D3D12DDI_VIDEO_FIELD_TYPE_0020_NONE, display.d3d12ddi_video_field_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_FIELD_TYPE_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_FIELD_TYPE_0020
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D12DDI_VIDEO_FIELD_TYPE_0020
 
 
 Contains values that define how a video frame is interlaced.
-
-
-## -syntax
-
-
-````
-typedef enum D3D12DDI_VIDEO_FIELD_TYPE_0020 { 
-  D3D12DDI_VIDEO_FIELD_TYPE_0020_NONE                           = 0,
-  D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_TOP_FIELD_FIRST     = 1,
-  D3D12DDI_VIDEO_FIELD_TYPE_0020_INTERLACED_BOTTOM_FIELD_FIRST  = 2
-} D3D12DDI_VIDEO_FIELD_TYPE_0020;
-````
 
 
 ## -enum-fields

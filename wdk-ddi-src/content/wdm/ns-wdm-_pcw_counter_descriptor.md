@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	PCW_COUNTER_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCW_COUNTER_DESCRIPTOR, *PPCW_COUNTER_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _PCW_COUNTER_DESCRIPTOR structure
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The PCW_COUNTER_DESCRIPTOR structure supplies details about the notification to send.
-
-
-## -syntax
-
-
-````
-typedef struct _PCW_COUNTER_DESCRIPTOR {
-  USHORT Id;
-  USHORT StructIndex;
-  USHORT Offset;
-  USHORT Size;
-} PCW_COUNTER_DESCRIPTOR, *PPCW_COUNTER_DESCRIPTOR;
-````
 
 
 ## -struct-fields

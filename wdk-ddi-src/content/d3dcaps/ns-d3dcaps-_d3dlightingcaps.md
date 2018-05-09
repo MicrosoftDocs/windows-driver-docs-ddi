@@ -7,7 +7,7 @@ old-location: display\d3dlightingcaps.htm
 old-project: display
 ms.assetid: ea8ba463-e8dd-4952-bcad-6fe565fe3292
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DLIGHTINGCAPS, D3DLIGHTINGCAPS, D3DLIGHTINGCAPS structure [Display Devices], LPD3DLIGHTINGCAPS, LPD3DLIGHTINGCAPS structure pointer [Display Devices], _D3DLIGHTINGCAPS, d3dcaps/D3DLIGHTINGCAPS, d3dcaps/LPD3DLIGHTINGCAPS, d3dstrct_98470d9f-b4ed-49ee-9c0f-34c991916de3.xml, display.d3dlightingcaps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dcaps.h
 api_name:
 -	D3DLIGHTINGCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DLIGHTINGCAPS, *LPD3DLIGHTINGCAPS
 ---
@@ -54,19 +55,6 @@ req.typenames: D3DLIGHTINGCAPS, *LPD3DLIGHTINGCAPS
    
 
 The D3DLIGHTINGCAPS structure describes the lighting capabilities of a device.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DLIGHTINGCAPS {
-  DWORD dwSize;
-  DWORD dwCaps;
-  DWORD dwLightingModel;
-  DWORD dwNumLights;
-} D3DLIGHTINGCAPS, *LPD3DLIGHTINGCAPS;
-````
 
 
 ## -struct-fields
@@ -151,19 +139,18 @@ Specifies the number of lights that can be handled.
 
 This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for DirectX 7.0 and earlier runtime compatibility. See <a href="https://msdn.microsoft.com/a03a7cbc-95be-4251-8e3a-bef4a093f03d">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
 
-This structure is a member of the <a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a> structure.
+This structure is a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544689">D3DDEVICEDESC_V1</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544689">D3DDEVICEDESC_V1</a>
  
 
  
-
 

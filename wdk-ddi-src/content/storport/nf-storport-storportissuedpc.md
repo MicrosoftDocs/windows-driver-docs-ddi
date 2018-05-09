@@ -7,7 +7,7 @@ old-location: storage\storportissuedpc.htm
 old-project: storage
 ms.assetid: a0c46c51-f6c4-4609-9dba-b730f33c3ed6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortIssueDpc, StorPortIssueDpc routine [Storage Devices], storage.storportissuedpc, storport/StorPortIssueDpc, storprt_e9cbe677-4d21-4c07-97a2-9db50858321f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortIssueDpc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortIssueDpc function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortIssueDpc</b> routine issues a deferred procedure call (DPC). 
-
-
-## -syntax
-
-
-````
-BOOLEAN StorPortIssueDpc(
-  _In_ PVOID     DeviceExtension,
-  _In_ PSTOR_DPC Dpc,
-  _In_ PVOID     SystemArgument1,
-  _In_ PVOID     SystemArgument2
-);
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ Pointer to the per-adapter device extension.
 
 ### -param Dpc [in]
 
-Pointer to a buffer containing an initialized DPC object of type <a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a> returned by the <a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a> routine. 
+Pointer to a buffer containing an initialized DPC object of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567579">STOR_DPC</a> returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567110">StorPortInitializeDpc</a> routine. 
 
 
 ### -param SystemArgument1 [in]
@@ -104,7 +91,7 @@ The <b>StorPortIssueDpc</b> routine returns <b>TRUE</b> if the DPC was successfu
 
 
 
-The <b>StorPortIssueDpc</b>  routine calls the <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a> kernel routine to queue the DPC. The <b>KeInsertQueueDpc</b> kernel routine does not allow a DPC to be queued multiple times. Thus, if the DPC object specified by the <i>Dpc</i> parameter is already in the DPC queue, <b>KeInsertQueueDpc</b> ignores the queue request. This ensures that a deferred routine initialized with <a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a> is always synchronized with itself. In other words, the caller does not need to sequentialize calls to the <b>StorPortIssueDpc</b> routine to ensure that multiple instances the routine do not run simultaneously. 
+The <b>StorPortIssueDpc</b>  routine calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552185">KeInsertQueueDpc</a> kernel routine to queue the DPC. The <b>KeInsertQueueDpc</b> kernel routine does not allow a DPC to be queued multiple times. Thus, if the DPC object specified by the <i>Dpc</i> parameter is already in the DPC queue, <b>KeInsertQueueDpc</b> ignores the queue request. This ensures that a deferred routine initialized with <a href="https://msdn.microsoft.com/library/windows/hardware/ff567110">StorPortInitializeDpc</a> is always synchronized with itself. In other words, the caller does not need to sequentialize calls to the <b>StorPortIssueDpc</b> routine to ensure that multiple instances the routine do not run simultaneously. 
 
 If a miniport driver has multiple work-items that must be performed by the same DPC, the miniport driver must ensure that each work item completes before issuing the DPC for the next work item. 
 
@@ -113,20 +100,19 @@ If a miniport driver has multiple work-items that must be performed by the same 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552185">KeInsertQueueDpc</a>
 
 
 
-<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567579">STOR_DPC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567110">StorPortInitializeDpc</a>
  
 
  
-
 

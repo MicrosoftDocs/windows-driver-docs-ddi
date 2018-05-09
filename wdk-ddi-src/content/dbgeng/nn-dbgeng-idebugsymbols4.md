@@ -7,8 +7,8 @@ old-location: debugger\idebugsymbols4.htm
 old-project: debugger
 ms.assetid: BE2734B5-1E67-4E38-B4DF-0C353BFB1F0B
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], described, dbgeng/IDebugSymbols4, debugger.idebugsymbols4
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], IDebugSymbols4 interface [Windows Debugging],described, dbgeng/IDebugSymbols4, debugger.idebugsymbols4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugSymbols4
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugSymbols4 interface

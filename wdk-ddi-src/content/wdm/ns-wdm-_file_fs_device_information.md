@@ -7,7 +7,7 @@ old-location: kernel\file_fs_device_information.htm
 old-project: kernel
 ms.assetid: 0849bbc2-cfc7-4437-896d-3f46e8f6461a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PFILE_FS_DEVICE_INFORMATION, FILE_FS_DEVICE_INFORMATION, FILE_FS_DEVICE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_FS_DEVICE_INFORMATION, PFILE_FS_DEVICE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_FS_DEVICE_INFORMATION, kernel.file_fs_device_information, kstruct_b_86acb464-7e57-467f-998e-896b0a7cebc4.xml, wdm/FILE_FS_DEVICE_INFORMATION, wdm/PFILE_FS_DEVICE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	FILE_FS_DEVICE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_FS_DEVICE_INFORMATION, *PFILE_FS_DEVICE_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _FILE_FS_DEVICE_INFORMATION structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>FILE_FS_DEVICE_INFORMATION</b> structure provides file system device information about the type of device object associated with a file object.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_FS_DEVICE_INFORMATION {
-  DEVICE_TYPE DeviceType;
-  ULONG       Characteristics;
-} FILE_FS_DEVICE_INFORMATION, *PFILE_FS_DEVICE_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -76,17 +65,16 @@ Set when a driver calls <b>IoCreateDevice</b> as appropriate for the type of und
 
 ### -field Characteristics
 
-The device characteristics. For a description of relevant values, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>.
+The device characteristics. For a description of relevant values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
  
 
  
-
 

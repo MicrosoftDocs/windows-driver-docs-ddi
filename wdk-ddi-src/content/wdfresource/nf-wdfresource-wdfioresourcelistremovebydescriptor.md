@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfIoResourceListRemoveByDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfIoResourceListRemoveByDescriptor function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfIoResourceListRemoveByDescriptor</b> method removes a resource descriptor from a resource requirement list's <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a>.
-
-
-## -syntax
-
-
-````
-VOID WdfIoResourceListRemoveByDescriptor(
-  _In_ WDFIORESLIST            ResourceList,
-  _In_ PIO_RESOURCE_DESCRIPTOR Descriptor
-);
-````
 
 
 ## -parameters
@@ -79,7 +68,7 @@ A handle to a framework resource-range-list object that represents a logical con
 
 ### -param Descriptor [in]
 
-A pointer to an <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
+A pointer to an <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
 
 ## -returns
@@ -158,16 +147,15 @@ for (j = 0; j &lt; resCount; j++) {
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistremove.md">WdfIoResourceListRemove</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548523">WdfIoResourceListRemove</a>
  
 
  
-
 

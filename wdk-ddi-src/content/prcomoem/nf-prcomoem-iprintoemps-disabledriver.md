@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemPS.DisableDriver
-title: IPrintOemPS::DisableDriver method
+title: IPrintOemPS::DisableDriver
 author: windows-driver-content
 description: The IPrintOemPS::DisableDriver method allows a rendering plug-in for Pscript to free resources that were allocated by the plug-in's IPrintOemPS::EnableDriver method.
 old-location: print\iprintoemps_disabledriver.htm
 old-project: print
 ms.assetid: 4fa25706-dc79-45fd-a805-7b9d110213ed
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DisableDriver method [Print Devices], DisableDriver method [Print Devices], IPrintOemPS interface, DisableDriver,IPrintOemPS.DisableDriver, IPrintOemPS, IPrintOemPS interface [Print Devices], DisableDriver method, IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, print.iprintoemps_disabledriver, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml
+ms.date: 4/20/2018
+ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],DisableDriver method, IPrintOemPS.DisableDriver, IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, print.iprintoemps_disabledriver, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,27 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemPS.DisableDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemPS::DisableDriver method
+# IPrintOemPS::DisableDriver
 
 
 ## -description
 
 
 The <code>IPrintOemPS::DisableDriver</code> method allows a rendering plug-in for <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">Pscript</a> to free resources that were allocated by the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff553212">IPrintOemPS::EnableDriver</a> method.
-
-
-## -syntax
-
-
-````
-STDMETHOD DisableDriver();
-````
 
 
 ## -parameters

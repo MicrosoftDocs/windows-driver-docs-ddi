@@ -7,7 +7,7 @@ old-location: stream\ksenableevent.htm
 old-project: stream
 ms.assetid: 2338e583-4491-492e-b7e6-fa4e23485c22
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsEnableEvent, KsEnableEvent function [Streaming Media Devices], ks/KsEnableEvent, ksfunc_f6611298-cc8d-40eb-86e6-1287caff3ec0.xml, stream.ksenableevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsEnableEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,21 +52,6 @@ req.typenames:
 
 
 The <b>KsEnableEvent</b> function enables events requested through IOCTL_KS_ENABLE_EVENT. It responds to all event identifiers defined by the sets. This function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsEnableEvent(
-  _In_           PIRP              Irp,
-  _In_           ULONG             EventSetsCount,
-  _In_     const KSEVENT_SET       *EventSet,
-  _Inout_        PLIST_ENTRY       EventsList,
-  _In_opt_       KSEVENTS_LOCKTYPE EventsFlags,
-  _In_opt_       PVOID             EventsLock
-);
-````
 
 
 ## -parameters
@@ -95,7 +81,7 @@ If the enabling event's KSEVENT_SET.AddHandler for the event set is <b>NULL</b>,
 
 ### -param EventsFlags [in, optional]
 
-Specifies <a href="..\ks\ne-ks-ksevents_locktype.md">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
+Specifies <a href="https://msdn.microsoft.com/library/windows/hardware/ff561784">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
 
 
 ### -param EventsLock [in, optional]
@@ -123,12 +109,11 @@ Minidrivers do not call <b>KsEnableEvent</b>. Only a pure KS driver or a class d
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561694">KsDisableEvent</a>
  
 
  
-
 

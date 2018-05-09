@@ -7,7 +7,7 @@ old-location: display\driver_initialization_data.htm
 old-project: display
 ms.assetid: 3ab00f9c-7ce9-41bf-85c5-96be31d19719
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA structure [Display Devices], DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml, PDRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices], _DRIVER_INITIALIZATION_DATA, display.driver_initialization_data, dispmprt/DRIVER_INITIALIZATION_DATA, dispmprt/PDRIVER_INITIALIZATION_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,18 +16,18 @@ req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -38,7 +38,8 @@ api_location:
 -	Dispmprt.h
 api_name:
 -	DRIVER_INITIALIZATION_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA
 ---
@@ -129,7 +130,7 @@ typedef struct _DRIVER_INITIALIZATION_DATA {
   PDXGKDDI_RENDER                                         DxgkDdiRenderKm;
   VOID                                                    *Reserved;
   PDXGKDDI_QUERYVIDPNHWCAPABILITY                         DxgkDdiQueryVidPnHWCapability;
-#endif 
+#endif
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
   PDXGKDDISETPOWERCOMPONENTFSTATE                         DxgkDdiSetPowerComponentFState;
   PDXGKDDI_QUERYDEPENDENTENGINEGROUP                      DxgkDdiQueryDependentEngineGroup;
@@ -143,7 +144,7 @@ typedef struct _DRIVER_INITIALIZATION_DATA {
   PDXGKDDIPOWERRUNTIMECONTROLREQUEST                      DxgkDdiPowerRuntimeControlRequest;
   PDXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY     DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay;
   PDXGKDDI_NOTIFY_SURPRISE_REMOVAL                        DxgkDdiNotifySurpriseRemoval;
-#endif 
+#endif
 #if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
   PDXGKDDI_GETNODEMETADATA                                DxgkDdiGetNodeMetadata;
   PDXGKDDISETPOWERPSTATE                                  DxgkDdiSetPowerPState;
@@ -151,7 +152,7 @@ typedef struct _DRIVER_INITIALIZATION_DATA {
   PDXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT                  DxgkDdiCheckMultiPlaneOverlaySupport;
   PDXGKDDI_CALIBRATEGPUCLOCK                              DxgkDdiCalibrateGpuClock;
   PDXGKDDI_FORMATHISTORYBUFFER                            DxgkDdiFormatHistoryBuffer;
-#endif 
+#endif
 } DRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA;
 ````
 
@@ -258,7 +259,7 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 
 ### -field DxgkDdiCreateAllocation
 
-A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function. 
+A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a> function.
 
 
 ### -field DxgkDdiDestroyAllocation
@@ -268,12 +269,12 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 
 ### -field DxgkDdiDescribeAllocation
 
-A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_describeallocation.md">DxgkDdiDescribeAllocation</a> function. 
+A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_describeallocation.md">DxgkDdiDescribeAllocation</a> function.
 
 
 ### -field DxgkDdiGetStandardAllocationDriverData
 
-A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a> function. 
+A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a> function.
 
 
 ### -field DxgkDdiAcquireSwizzlingRange
@@ -425,7 +426,7 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 
 ### -field DxgkDdiCloseAllocation
 
-A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_closeallocation.md">DxgkDdiCloseAllocation</a> function. 
+A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_closeallocation.md">DxgkDdiCloseAllocation</a> function.
 
 
 ### -field DxgkDdiRender
@@ -483,7 +484,7 @@ A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgk
 
 
       This member is reserved and should be set to zero.
-     
+
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
@@ -492,7 +493,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 
 
       This member is reserved and should be set to zero.
-     
+
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
@@ -501,7 +502,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 
 
       This member is reserved and should be set to zero.
-     
+
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
@@ -510,7 +511,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 
 
       This member is reserved and should be set to zero.
-     
+
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
@@ -519,7 +520,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 
 
       This member is reserved and should be set to zero.
-     
+
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
@@ -528,7 +529,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 
 
       This member is reserved and should be set to zero.
-     
+
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
@@ -539,7 +540,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 
 
       A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a> function.
-     
+
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
@@ -548,7 +549,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 
 
       This member is reserved and should be set to zero.
-     
+
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
@@ -557,7 +558,7 @@ Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7
 
 
       A pointer to the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryvidpnhwcapability.md">DxgkDdiQueryVidPnHWCapability</a> function.
-     
+
 
 Available only when DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WIN7.
 
@@ -692,218 +693,240 @@ Supported starting with Windows 8.1.
 
 ### -field DxgkDdiRenderGdi
 
- 
+
 
 
 ### -field DxgkDdiSubmitCommandVirtual
 
- 
+
 
 
 ### -field DxgkDdiSetRootPageTable
 
- 
+
 
 
 ### -field DxgkDdiGetRootPageTableSize
 
- 
+
 
 
 ### -field DxgkDdiMapCpuHostAperture
 
- 
+
 
 
 ### -field DxgkDdiUnmapCpuHostAperture
 
- 
+
 
 
 ### -field DxgkDdiCheckMultiPlaneOverlaySupport2
 
- 
+
 
 
 ### -field DxgkDdiCreateProcess
 
- 
+
 
 
 ### -field DxgkDdiDestroyProcess
 
- 
+
 
 
 ### -field DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2
 
- 
+
 
 
 ### -field Reserved1
 
- 
+
 
 
 ### -field Reserved2
 
- 
+
 
 
 ### -field DxgkDdiPowerRuntimeSetDeviceHandle
 
- 
+
 
 
 ### -field DxgkDdiSetStablePowerState
 
- 
+
 
 
 ### -field DxgkDdiSetVideoProtectedRegion
 
- 
+
 
 
 ### -field DxgkDdiCheckMultiPlaneOverlaySupport3
 
- 
+
 
 
 ### -field DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3
 
- 
+
 
 
 ### -field DxgkDdiPostMultiPlaneOverlayPresent
 
- 
+
 
 
 ### -field DxgkDdiValidateUpdateAllocationProperty
 
- 
+
 
 
 ### -field DxgkDdiControlModeBehavior
 
- 
+
 
 
 ### -field DxgkDdiUpdateMonitorLinkInfo
 
- 
+
 
 
 ### -field DxgkDdiCreateHwContext
 
- 
+
 
 
 ### -field DxgkDdiDestroyHwContext
 
- 
+
 
 
 ### -field DxgkDdiCreateHwQueue
 
- 
+
 
 
 ### -field DxgkDdiDestroyHwQueue
 
- 
+
 
 
 ### -field DxgkDdiSubmitCommandToHwQueue
 
- 
+
 
 
 ### -field DxgkDdiSwitchToHwContextList
 
- 
+
 
 
 ### -field DxgkDdiResetHwEngine
 
- 
+
 
 
 ### -field DxgkDdiCreatePeriodicFrameNotification
 
- 
+
 
 
 ### -field DxgkDdiDestroyPeriodicFrameNotification
 
- 
+
 
 
 ### -field DxgkDdiSetTimingsFromVidPn
 
- 
+
 
 
 ### -field DxgkDdiSetTargetGamma
 
- 
+
 
 
 ### -field DxgkDdiSetTargetContentType
 
- 
+
 
 
 ### -field DxgkDdiSetTargetAnalogCopyProtection
 
- 
+
 
 
 ### -field DxgkDdiSetTargetAdjustedColorimetry
 
- 
+
 
 
 ### -field DxgkDdiDisplayDetectControl
 
- 
+
 
 
 ### -field DxgkDdiQueryConnectionChange
 
- 
+
 
 
 ### -field DxgkDdiExchangePreStartInfo
 
- 
+
 
 
 ### -field DxgkDdiGetMultiPlaneOverlayCaps
 
- 
+
 
 
 ### -field DxgkDdiGetPostCompositionCaps
 
- 
+
 
 
 ### -field DxgkDdiUpdateHwContextState
 
- 
+
 
 
 ### -field DxgkDdiCreateProtectedSession
 
- 
+
 
 
 ### -field DxgkDdiDestroyProtectedSession
 
- 
 
+### -field DxgkDdiSetSchedulingLogBuffer
+
+### -field DxgkDdiSetupPriorityBands
+
+### -field DxgkDdiNotifyFocusPresent
+
+### -field DxgkDdiSetContextSchedulingProperties
+
+### -field DxgkDdiSuspendContext
+
+### -field DxgkDdiResumeContext
+
+### -field DxgkDdiSetVirtualMachineData
+
+### -field DxgkDdiBeginExclusiveAccess
+
+### -field DxgkDdiEndExclusiveAccess
+
+### -field DxgkDdiQueryDiagnosticTypesSupport
+
+### -field DxgkDdiControlDiagnosticReporting
+
+### -field DxgkDdiResumeHwEngine
 
 
 
@@ -976,7 +999,7 @@ typedef DXGKDDI_PRESENT  *PDXGKDDI_PRESENT;
 typedef DXGKDDI_UPDATEOVERLAY  *PDXGKDDI_UPDATEOVERLAY;
 typedef DXGKDDI_FLIPOVERLAY  *PDXGKDDI_FLIPOVERLAY;
 typedef DXGKDDI_DESTROYOVERLAY  *PDXGKDDI_DESTROYOVERLAY;
-typedef DXGKDDI_CREATECONTEXT  *PDXGKDDI_CREATECONTEXT; 
+typedef DXGKDDI_CREATECONTEXT  *PDXGKDDI_CREATECONTEXT;
 typedef DXGKDDI_DESTROYCONTEXT  *PDXGKDDI_DESTROYCONTEXT;
 typedef DXGKDDI_LINK_DEVICE  *PDXGKDDI_LINK_DEVICE;
 typedef DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT  *PDXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT;
@@ -997,10 +1020,10 @@ typedef DXGKDDI_QUERYENGINESTATUS  *PDXGKDDI_QUERYENGINESTATUS;
 typedef DXGKDDI_RESETENGINE  *PDXGKDDI_RESETENGINE;
 typedef DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP  *PDXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP;
 typedef DXGKDDI_SYSTEM_DISPLAY_ENABLE  *PDXGKDDI_SYSTEM_DISPLAY_ENABLE;
-typedef DXGKDDI_SYSTEM_DISPLAY_WRITE  *PDXGKDDI_SYSTEM_DISPLAY_WRITE; 
+typedef DXGKDDI_SYSTEM_DISPLAY_WRITE  *PDXGKDDI_SYSTEM_DISPLAY_WRITE;
 typedef DXGKDDI_CANCELCOMMAND  *PDXGKDDI_CANCELCOMMAND;
 typedef DXGKDDI_GET_CHILD_CONTAINER_ID  *PDXGKDDI_GET_CHILD_CONTAINER_ID;
-typedef DXGKDDIPOWERRUNTIMECONTROLREQUEST  *PDXGKDDIPOWERRUNTIMECONTROLREQUEST; 
+typedef DXGKDDIPOWERRUNTIMECONTROLREQUEST  *PDXGKDDIPOWERRUNTIMECONTROLREQUEST;
 typedef DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY *PDXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY;
 typedef DXGKDDI_NOTIFY_SURPRISE_REMOVAL         *PDXGKDDI_NOTIFY_SURPRISE_REMOVAL;
 #endif //
@@ -1009,7 +1032,7 @@ typedef DXGKDDI_GETNODEMETADATA  *PDXGKDDI_GETNODEMETADATA;
 typedef DXGKDDI_CONTROLINTERRUPT2  *PDXGKDDI_CONTROLINTERRUPT2;
 typedef DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT  *PDXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT;
 typedef DXGKDDI_FORMATHISTORYBUFFER  *PDXGKDDI_FORMATHISTORYBUFFER;
-typedef DXGKDDI_CALIBRATEGPUCLOCK  *PDXGKDDI_CALIBRATEGPUCLOCK; 
+typedef DXGKDDI_CALIBRATEGPUCLOCK  *PDXGKDDI_CALIBRATEGPUCLOCK;
 #endif</pre>
 </td>
 </tr>

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterQueueView.SetViewRange
-title: IPrinterQueueView::SetViewRange method
+title: IPrinterQueueView::SetViewRange
 author: windows-driver-content
 description: Sets the range of print jobs being monitored.
 old-location: print\iprinterqueueview_setviewrange.htm
 old-project: print
 ms.assetid: DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterQueueView, IPrinterQueueView interface [Print Devices], SetViewRange method, IPrinterQueueView::SetViewRange, SetViewRange method [Print Devices], SetViewRange method [Print Devices], IPrinterQueueView interface, SetViewRange,IPrinterQueueView.SetViewRange, print.iprinterqueueview_setviewrange, printerextension/IPrinterQueueView::SetViewRange
+ms.date: 4/20/2018
+ms.keywords: IPrinterQueueView interface [Print Devices],SetViewRange method, IPrinterQueueView.SetViewRange, IPrinterQueueView::SetViewRange, SetViewRange, SetViewRange method [Print Devices], SetViewRange method [Print Devices],IPrinterQueueView interface, print.iprinterqueueview_setviewrange, printerextension/IPrinterQueueView::SetViewRange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterQueueView.SetViewRange
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterQueueView::SetViewRange method
+# IPrinterQueueView::SetViewRange
 
 
 ## -description
 
 
 Sets the range of print jobs being monitored.
-
-
-## -syntax
-
-
-````
-HRESULT SetViewRange(
-  [in] ULONG ulViewOffset,
-  [in] ULONG ulViewSize
-);
-````
 
 
 ## -parameters
@@ -101,11 +90,6 @@ Invoking this method causes the events for status change to the jobs to be fired
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D964A0C4-041A-47BD-87AB-4AF523939DF0">IPrinterQueueViewEvent::OnChanged</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
 
 
 
@@ -113,8 +97,12 @@ Invoking this method causes the events for status change to the jobs to be fired
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265392">IPrinterQueueView</a>
+
+
+
+<a href="https://msdn.microsoft.com/D964A0C4-041A-47BD-87AB-4AF523939DF0">IPrinterQueueViewEvent::OnChanged</a>
  
 
  
-
 

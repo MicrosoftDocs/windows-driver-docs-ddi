@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval
-title: IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval method
+title: IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
 author: windows-driver-content
 description: A UMDF-based driver's OnRemoteInterfaceRemoval event callback function notifies the driver that it cannot use a device interface because the interface has been removed.
 old-location: wdf\iremoteinterfacecallbackremoval_onremoteinterfaceremoval.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0dfa2eb8-a7f6-46d9-9599-5e2aaf583f78
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IRemoteInterfaceCallbackRemoval, IRemoteInterfaceCallbackRemoval interface, OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, OnRemoteInterfaceRemoval method, OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval interface, OnRemoteInterfaceRemoval,IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval, UMDFIoTargetObjectRef_17c1557c-2046-4bea-8b7f-88fea7103155.xml, umdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wudfddi/IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
+ms.keywords: IRemoteInterfaceCallbackRemoval interface,OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval, IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, OnRemoteInterfaceRemoval, OnRemoteInterfaceRemoval method, OnRemoteInterfaceRemoval method,IRemoteInterfaceCallbackRemoval interface, UMDFIoTargetObjectRef_17c1557c-2046-4bea-8b7f-88fea7103155.xml, umdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wudfddi/IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval method
+# IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 A UMDF-based driver's <b>OnRemoteInterfaceRemoval</b> event callback function notifies the driver that it cannot use a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a> because the interface has been removed.
 
 
-## -syntax
-
-
-````
-void OnRemoteInterfaceRemoval(
-  [in] IWDFRemoteInterface *pWdfRemoteInterface
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void OnRemoteInterfaceRemoval(
 
 ### -param pWdfRemoteInterface [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfremoteinterface.md">IWDFRemoteInterface</a> interface of a remote interface object that represents a device interface. The driver obtains this pointer when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>.
+A pointer to the <a href="https://msdn.microsoft.com/10d4cd20-c797-455c-b16d-00982be5c1b7">IWDFRemoteInterface</a> interface of a remote interface object that represents a device interface. The driver obtains this pointer when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>.
 
 
 ## -returns
@@ -99,11 +89,6 @@ For more information about a driver's <b>OnRemoteInterfaceRemoval</b> event call
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556889">IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iremoteinterfacecallbackremoval.md">IRemoteInterfaceCallbackRemoval</a>
 
 
 
@@ -111,8 +96,12 @@ For more information about a driver's <b>OnRemoteInterfaceRemoval</b> event call
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556889">IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556891">IRemoteInterfaceCallbackRemoval</a>
  
 
  
-
 

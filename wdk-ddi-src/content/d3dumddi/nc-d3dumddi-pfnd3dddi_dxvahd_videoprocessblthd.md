@@ -7,8 +7,8 @@ old-location: display\videoprocessblthd.htm
 old-project: display
 ms.assetid: 62451fc4-92cc-4553-80cc-0843cf734a62
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD, UserModeDisplayDriver_Functions_72b2babe-fc93-4960-93d3-6bc2022227c8.xml, VideoProcessBltHD, VideoProcessBltHD callback function [Display Devices], d3dumddi/VideoProcessBltHD, display.videoprocessblthd
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD, PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD callback, UserModeDisplayDriver_Functions_72b2babe-fc93-4960-93d3-6bc2022227c8.xml, VideoProcessBltHD, VideoProcessBltHD callback function [Display Devices], d3dumddi/VideoProcessBltHD, display.videoprocessblthd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	VideoProcessBltHD
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD callback
+# PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD callback function
 
 
 ## -description
@@ -52,26 +53,12 @@ req.typenames: DXGK_PTE
 The <i>VideoProcessBltHD</i> function processes video input streams and composes to an output surface.
 
 
-## -prototype
-
-
-````
-PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD VideoProcessBltHD;
-
-__checkReturn HRESULT APIENTRY VideoProcessBltHD(
-  _In_       HANDLE                             hDevice,
-  _In_ const D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param HANDLE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +77,7 @@ __checkReturn HRESULT APIENTRY VideoProcessBltHD(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd.md">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structure that describes the DirectX VA video processing operation to perform. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543101">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structure that describes the DirectX VA video processing operation to perform. 
 
 
 ## -returns
@@ -134,12 +121,11 @@ The DirectX VA video processing operation is successfully performed.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd.md">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543101">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a>
  
 
  
-
 

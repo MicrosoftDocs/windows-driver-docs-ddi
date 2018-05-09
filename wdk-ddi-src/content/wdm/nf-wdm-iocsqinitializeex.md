@@ -7,7 +7,7 @@ old-location: kernel\iocsqinitializeex.htm
 old-project: kernel
 ms.assetid: 9f6501c2-a708-4583-a821-e1b8264ff0af
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoCsqInitializeEx, IoCsqInitializeEx routine [Kernel-Mode Driver Architecture], k104_68bf2330-ba47-4896-8052-41afee2d887e.xml, kernel.iocsqinitializeex, wdm/IoCsqInitializeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoCsqInitializeEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoCsqInitializeEx function
@@ -51,22 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoCsqInitializeEx</b> routine initializes the dispatch table for a cancel-safe IRP queue.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoCsqInitializeEx(
-  _Out_ PIO_CSQ                       Csq,
-  _In_  PIO_CSQ_INSERT_IRP_EX         CsqInsertIrp,
-  _In_  PIO_CSQ_REMOVE_IRP            CsqRemoveIrp,
-  _In_  PIO_CSQ_PEEK_NEXT_IRP         CsqPeekNextIrp,
-  _In_  PIO_CSQ_ACQUIRE_LOCK          CsqAcquireLock,
-  _In_  PIO_CSQ_RELEASE_LOCK          CsqReleaseLock,
-  _In_  PIO_CSQ_COMPLETE_CANCELED_IRP CsqCompleteCanceledIrp
-);
-````
 
 
 ## -parameters
@@ -81,32 +65,32 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 ### -param CsqInsertIrp [in]
 
-Pointer to the driver-defined <a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a> function for the driver's cancel-safe IRP queue.
+Pointer to the driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff542956">CsqInsertIrpEx</a> function for the driver's cancel-safe IRP queue.
 
 
 ### -param CsqRemoveIrp [in]
 
-Pointer to the driver-defined <a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a> function for the driver's cancel-safe IRP queue.
+Pointer to the driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff542968">CsqRemoveIrp</a> function for the driver's cancel-safe IRP queue.
 
 
 ### -param CsqPeekNextIrp [in]
 
-Pointer to the driver-defined <a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a> function for the driver's cancel-safe IRP queue.
+Pointer to the driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff542959">CsqPeekNextIrp</a> function for the driver's cancel-safe IRP queue.
 
 
 ### -param CsqAcquireLock [in]
 
-Pointer to the driver-defined <a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a> function for the driver's cancel-safe IRP queue.
+Pointer to the driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff542934">CsqAcquireLock</a> function for the driver's cancel-safe IRP queue.
 
 
 ### -param CsqReleaseLock [in]
 
-Pointer to the driver-defined <a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a> function for the driver's cancel-safe IRP queue.
+Pointer to the driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff542965">CsqReleaseLock</a> function for the driver's cancel-safe IRP queue.
 
 
 ### -param CsqCompleteCanceledIrp [in]
 
-Pointer to the driver-defined <a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a> function for the driver's cancel-safe IRP queue.
+Pointer to the driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff542940">CsqCompleteCanceledIrp</a> function for the driver's cancel-safe IRP queue.
 
 
 ## -returns
@@ -122,11 +106,11 @@ Pointer to the driver-defined <a href="..\wdm\nc-wdm-io_csq_complete_canceled_ir
 
 
 
-The <a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a> and <b>IoCsqInitializeEx</b> routines initialize an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a> structure that describes a driver's cancel-safe IRP queue. You can use <b>IoCsqInitializeEx</b> to specify an IRP queue with extended capabilities instead of one specified by <b>IoCsqInitialize</b>:
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff549054">IoCsqInitialize</a> and <b>IoCsqInitializeEx</b> routines initialize an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a> structure that describes a driver's cancel-safe IRP queue. You can use <b>IoCsqInitializeEx</b> to specify an IRP queue with extended capabilities instead of one specified by <b>IoCsqInitialize</b>:
 
 <ul>
 <li>
-The driver implements a <a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a> routine rather than a <a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a> routine. <i>CsqInsertIrpEx</i> takes an additional parameter, <i>InsertContext</i>. When the driver calls <a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a> to insert the IRP, it specifies the value that is passed as <i>InsertContext</i>. 
+The driver implements a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542956">CsqInsertIrpEx</a> routine rather than a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542947">CsqInsertIrp</a> routine. <i>CsqInsertIrpEx</i> takes an additional parameter, <i>InsertContext</i>. When the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff549067">IoCsqInsertIrpEx</a> to insert the IRP, it specifies the value that is passed as <i>InsertContext</i>. 
 
 </li>
 <li>
@@ -143,11 +127,34 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542934">CsqAcquireLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542940">CsqCompleteCanceledIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542947">CsqInsertIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542956">CsqInsertIrpEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542959">CsqPeekNextIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542965">CsqReleaseLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542968">CsqRemoveIrp</a>
 
 
 
@@ -155,52 +162,28 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 
 
-<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550567">IO_CSQ_IRP_CONTEXT</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549060">IoCsqInitializeEx</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549066">IoCsqInsertIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549067">IoCsqInsertIrpEx</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549070">IoCsqRemoveIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549072">IoCsqRemoveNextIrp</a>
  
 
  
-
 

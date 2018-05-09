@@ -39,10 +39,10 @@ api_location:
 -	None.dll
 api_name:
 -	WDF_IO_QUEUE_STOPPED
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_IO_QUEUE_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_IO_QUEUE_STOPPED function
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WDF_IO_QUEUE_STOPPED</b> function returns <b>TRUE</b> if an I/O queue's state indicates that the queue is stopped.
 
 
-## -syntax
-
-
-````
-BOOLEAN WDF_IO_QUEUE_STOPPED(
-  _In_ WDF_IO_QUEUE_STATE State
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ BOOLEAN WDF_IO_QUEUE_STOPPED(
 
 ### -param State [in]
 
-A <a href="..\wdfio\ne-wdfio-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-typed value that <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a> returns.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561417">WDF_IO_QUEUE_STATE</a>-typed value that <a href="https://msdn.microsoft.com/library/windows/hardware/ff548437">WdfIoQueueGetState</a> returns.
 
 
 ## -returns
@@ -91,9 +81,9 @@ A <a href="..\wdfio\ne-wdfio-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>-type
 
 An I/O queue is stopped if it can accept new I/O requests but the framework is not delivering them to the driver. 
 
-Your driver can call <b>WDF_IO_QUEUE_STOPPED</b> after it has called <a href="..\wdfio\nf-wdfio-wdfioqueuegetstate.md">WdfIoQueueGetState</a>.
+Your driver can call <b>WDF_IO_QUEUE_STOPPED</b> after it has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff548437">WdfIoQueueGetState</a>.
 
-For more information about I/O queue states, see <a href="..\wdfio\ne-wdfio-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>.
+For more information about I/O queue states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561417">WDF_IO_QUEUE_STATE</a>.
 
 
 #### Examples
@@ -127,24 +117,23 @@ IsQueueStopped(
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_drained.md">WDF_IO_QUEUE_DRAINED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552363">WDF_IO_QUEUE_DRAINED</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_ready.md">WDF_IO_QUEUE_READY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552368">WDF_IO_QUEUE_IDLE</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_idle.md">WDF_IO_QUEUE_IDLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552369">WDF_IO_QUEUE_PURGED</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552371">WDF_IO_QUEUE_READY</a>
  
 
  
-
 

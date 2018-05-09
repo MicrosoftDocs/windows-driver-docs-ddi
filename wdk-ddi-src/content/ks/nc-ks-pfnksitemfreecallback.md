@@ -7,7 +7,7 @@ old-location: stream\kstritemfreecallback.htm
 old-project: stream
 ms.assetid: c97bb216-a53b-47c7-9be2-2364604b4cf8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrItemFreeCallback, KStrItemFreeCallback routine [Streaming Media Devices], PFNKSITEMFREECALLBACK, ks/KStrItemFreeCallback, ksfunc_3d98c1cb-4984-4d82-8e58-181445f1feca.xml, stream.kstritemfreecallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,31 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	KStrItemFreeCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSITEMFREECALLBACK callback
+# PFNKSITEMFREECALLBACK callback function
 
 
 ## -description
 
 
 A streaming minidriver's <i>KStrItemFreeCallback</i> routine is called to free a previously allocated create item. <i>KStrItemFreeCallback</i> allows the minidriver to perform any cleanup, including flushing security descriptor changes, if necessary.
-
-
-## -prototype
-
-
-````
-PFNKSITEMFREECALLBACK KStrItemFreeCallback;
-
-VOID KStrItemFreeCallback(
-  _In_ PKSOBJECT_CREATE_ITEM CreateItem
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,7 +60,7 @@ VOID KStrItemFreeCallback(
 
 ### -param CreateItem [in]
 
-Specifies a create item that was previously allocated by <a href="..\ks\nf-ks-ksallocateobjectcreateitem.md">KsAllocateObjectCreateItem</a>.
+Specifies a create item that was previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff560968">KsAllocateObjectCreateItem</a>.
 
 
 ## -returns
@@ -88,7 +76,7 @@ Returns STATUS_SUCCESS if the passed in create item was successfully freed, or t
 
 
 
-The <i>Context</i> parameter of the <a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a> structure must contain sufficient information to perform cleanup for the create item.
+The <i>Context</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a> structure must contain sufficient information to perform cleanup for the create item.
 
 The <i>Flags</i> member of the KSOBJECT_CREATE_ITEM structure indicates if it is necessary to flush security descriptor changes.
 
@@ -97,16 +85,15 @@ The <i>Flags</i> member of the KSOBJECT_CREATE_ITEM structure indicates if it is
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
 
 
 
-<a href="..\ks\nf-ks-ksallocateobjectcreateitem.md">KsAllocateObjectCreateItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560968">KsAllocateObjectCreateItem</a>
  
 
  
-
 

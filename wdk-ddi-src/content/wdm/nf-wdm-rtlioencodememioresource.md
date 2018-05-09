@@ -7,7 +7,7 @@ old-location: kernel\rtlioencodememioresource.htm
 old-project: kernel
 ms.assetid: b2f51d54-3fda-4cbf-a148-0572122ed9fa
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlIoEncodeMemIoResource, RtlIoEncodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_2e51e72a-98c4-4600-8e9c-41251c3e9849.xml, kernel.rtlioencodememioresource, wdm/RtlIoEncodeMemIoResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlIoEncodeMemIoResource
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlIoEncodeMemIoResource function
@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>RtlIoEncodeMemIoResource</b> routine updates an <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure to describe a range of memory or I/O port addresses.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlIoEncodeMemIoResource(
-  _In_ PIO_RESOURCE_DESCRIPTOR Descriptor,
-  _In_ UCHAR                   Type,
-  _In_ ULONGLONG               Length,
-  _In_ ULONGLONG               Alignment,
-  _In_ ULONGLONG               MinimumAddress,
-  _In_ ULONGLONG               MaximumAddress
-);
-````
+The <b>RtlIoEncodeMemIoResource</b> routine updates an <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure to describe a range of memory or I/O port addresses.
 
 
 ## -parameters
@@ -75,7 +60,7 @@ NTSTATUS RtlIoEncodeMemIoResource(
 
 ### -param Descriptor [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure to update.
+A pointer to the <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure to update.
 
 
 ### -param Type [in]
@@ -121,7 +106,7 @@ The maximum address that can be assigned to the device.
 </dl>
 </td>
 <td width="60%">
-The <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure was updated.
+The <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure was updated.
 
 </td>
 </tr>
@@ -202,16 +187,15 @@ Lowest 32 bits must be zero.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561950">RtlIoDecodeMemIoResource</a>
  
 
  
-
 

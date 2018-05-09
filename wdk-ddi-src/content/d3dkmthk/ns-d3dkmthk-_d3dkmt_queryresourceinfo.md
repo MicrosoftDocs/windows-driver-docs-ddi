@@ -7,7 +7,7 @@ old-location: display\d3dkmt_queryresourceinfo.htm
 old-project: display
 ms.assetid: 14078b2b-8951-48df-912a-e053bc997dde
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_QUERYRESOURCEINFO, D3DKMT_QUERYRESOURCEINFO structure [Display Devices], OpenGL_Structs_1bab95d7-d3a4-4380-939f-bca4e2d98478.xml, _D3DKMT_QUERYRESOURCEINFO, d3dkmthk/D3DKMT_QUERYRESOURCEINFO, display.d3dkmt_queryresourceinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_QUERYRESOURCEINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_QUERYRESOURCEINFO
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DKMT_QUERYRESOURCEINFO
 
 
 The D3DKMT_QUERYRESOURCEINFO structure describes parameters for retrieving information about a resource.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_QUERYRESOURCEINFO {
-  D3DKMT_HANDLE hDevice;
-  D3DKMT_HANDLE hGlobalShare;
-  VOID          *pPrivateRuntimeData;
-  UINT          PrivateRuntimeDataSize;
-  UINT          TotalPrivateDriverDataSize;
-  UINT          ResourcePrivateDriverDataSize;
-  UINT          NumAllocations;
-} D3DKMT_QUERYRESOURCEINFO;
-````
 
 
 ## -struct-fields
@@ -85,7 +70,7 @@ typedef struct _D3DKMT_QUERYRESOURCEINFO {
 
 ### -field pPrivateRuntimeData
 
-[in] If non-<b>NULL</b>, a pointer to a buffer that receives the runtime-private data that is supplied at create time. The OpenGL ICD should first call the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a> function with <b>pPrivateRuntimeData</b> set to <b>NULL</b> to obtain the buffer size and then call again with the correct size buffer. 
+[in] If non-<b>NULL</b>, a pointer to a buffer that receives the runtime-private data that is supplied at create time. The OpenGL ICD should first call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547124">D3DKMTQueryResourceInfo</a> function with <b>pPrivateRuntimeData</b> set to <b>NULL</b> to obtain the buffer size and then call again with the correct size buffer. 
 
 
 ### -field PrivateRuntimeDataSize
@@ -110,16 +95,15 @@ typedef struct _D3DKMT_QUERYRESOURCEINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfo.md">D3DKMTQueryResourceInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547065">D3DKMTOpenResource</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547124">D3DKMTQueryResourceInfo</a>
  
 
  
-
 

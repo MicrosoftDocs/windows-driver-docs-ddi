@@ -7,7 +7,7 @@ old-location: kernel\exallocatepoolwithquotatag.htm
 old-project: kernel
 ms.assetid: 1d2e4c8c-c76c-4936-80bf-005d8a393aa9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExAllocatePoolWithQuotaTag, ExAllocatePoolWithQuotaTag routine [Kernel-Mode Driver Architecture], k102_70106c3b-0d33-4fa7-be6a-2ac42cf3cbfe.xml, kernel.exallocatepoolwithquotatag, wdm/ExAllocatePoolWithQuotaTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExAllocatePoolWithQuotaTag
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExAllocatePoolWithQuotaTag function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The <b>ExAllocatePoolWithQuotaTag</b> routine allocates pool memory, charging the quota against the current process.
 
 
-## -syntax
-
-
-````
-PVOID ExAllocatePoolWithQuotaTag(
-  _In_ POOL_TYPE PoolType,
-  _In_ SIZE_T    NumberOfBytes,
-  _In_ ULONG     Tag
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ PVOID ExAllocatePoolWithQuotaTag(
 
 ### -param PoolType [in]
 
-Specifies the type of pool memory to allocate. For a description of the available pool memory types, see <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>.
+Specifies the type of pool memory to allocate. For a description of the available pool memory types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>.
 
 You can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_QUOTA_FAIL_INSTEAD_OF_RAISE flag. This flag causes the routine to return a <b>NULL</b> value if the request cannot be satisfied.
 
@@ -86,7 +74,7 @@ Specifies the number of bytes to allocate.
 
 ### -param Tag [in]
 
-Specifies the pool tag for the allocated memory. For more information, see the <i>Tag</i> parameter of <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>.
+Specifies the pool tag for the allocated memory. For more information, see the <i>Tag</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
 
 
 ## -returns
@@ -104,13 +92,13 @@ If the request cannot be satisfied, <b>ExAllocatePoolWithQuotaTag</b> raises an 
 
 
 
-This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> instead.
+This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a> instead.
 
 If <i>NumberOfBytes</i> is PAGE_SIZE or greater, a page-aligned buffer is allocated. Memory allocations of PAGE_SIZE or less are allocated within a page and do not cross page boundaries. Memory allocations of less than PAGE_SIZE are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
 
 The system associates the pool tag with the allocated memory. Programming tools, such as WinDbg, can display the pool tag associated with each allocated buffer. The value of <i>Tag</i> is normally displayed in reversed order. For example, if a caller passes 'Fred' as a <i>Tag</i>, it would appear as 'derF' if the pool is dumped or when tracking pool usage in the debugger.
 
-The allocated buffer can be freed with either <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> or <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>.
+The allocated buffer can be freed with either <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff544593">ExFreePoolWithTag</a>.
 
 <div class="alert"><b>Note</b>  Do not set <i>NumberOfBytes</i> = 0. Avoid zero-length allocations because they waste pool header space and, in many cases, indicate a potential validation issue in the calling code. For this reason, <a href="https://msdn.microsoft.com/library/windows/hardware/ff557262">Driver Verifier</a> flags such allocations as possible errors.</div>
 <div> </div>
@@ -127,24 +115,23 @@ Callers of <b>ExAllocatePoolWithQuotaTag</b> must be executing at IRQL &lt;= DIS
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 
-<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544593">ExFreePoolWithTag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>
  
 
  
-
 

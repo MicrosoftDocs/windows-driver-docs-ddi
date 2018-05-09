@@ -7,7 +7,7 @@ old-location: audio\pcnewminiport.htm
 old-project: audio
 ms.assetid: 15046dc7-42ae-4ebe-acb9-2b0bbad1e833
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: PcNewMiniport, PcNewMiniport function [Audio Devices], audio.pcnewminiport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, portcls/PcNewMiniport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Portcls.dll
 api_name:
 -	PcNewMiniport
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcNewMiniport function
@@ -50,18 +51,7 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <b>PcNewMiniport</b> function creates an instance of one of the system-supplied miniport drivers that are built into the PortCls system driver, portcls.sys. A class ID specifies which of these miniport drivers to instantiate. The driver supports a miniport interface that is derived from <a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS PcNewMiniport(
-  _Out_ PMINIPORT *OutMiniPort,
-  _In_  REFCLSID  ClassID
-);
-````
+The <b>PcNewMiniport</b> function creates an instance of one of the system-supplied miniport drivers that are built into the PortCls system driver, portcls.sys. A class ID specifies which of these miniport drivers to instantiate. The driver supports a miniport interface that is derived from <a href="https://msdn.microsoft.com/library/windows/hardware/ff536698">IMiniport</a>.
 
 
 ## -parameters
@@ -71,7 +61,7 @@ NTSTATUS PcNewMiniport(
 
 ### -param OutMiniPort [out]
 
-Output pointer for the miniport-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a> object. This object is an instance of the miniport driver that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
+Output pointer for the miniport-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="https://msdn.microsoft.com/library/windows/hardware/ff536698">IMiniport</a> object. This object is an instance of the miniport driver that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
 
 
 ### -param ClassID [in]
@@ -107,7 +97,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 
 </td>
 <td>
-DMusUART miniport driver for MPU-401 synth device. Exposes <a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a> interface for use with <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a> port object.
+DMusUART miniport driver for MPU-401 synth device. Exposes <a href="https://msdn.microsoft.com/library/windows/hardware/ff536699">IMiniportDMus</a> interface for use with <a href="https://msdn.microsoft.com/library/windows/hardware/ff536879">IPortDMus</a> port object.
 
 </td>
 </tr>
@@ -117,7 +107,7 @@ DMusUART miniport driver for MPU-401 synth device. Exposes <a href="..\dmusicks\
 
 </td>
 <td>
-DMusUARTCapture miniport driver for MPU-401 capture device. Exposes <a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a> interface for use with <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a> port object.
+DMusUARTCapture miniport driver for MPU-401 capture device. Exposes <a href="https://msdn.microsoft.com/library/windows/hardware/ff536699">IMiniportDMus</a> interface for use with <a href="https://msdn.microsoft.com/library/windows/hardware/ff536879">IPortDMus</a> port object.
 
 </td>
 </tr>
@@ -127,7 +117,7 @@ DMusUARTCapture miniport driver for MPU-401 capture device. Exposes <a href="..\
 
 </td>
 <td>
-FmSynth miniport driver for FM synth device. Exposes <a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a> interface for use with <a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a> port object.
+FmSynth miniport driver for FM synth device. Exposes <a href="https://msdn.microsoft.com/library/windows/hardware/ff536703">IMiniportMidi</a> interface for use with <a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a> port object.
 
 </td>
 </tr>
@@ -147,7 +137,7 @@ Same as the preceding entry, except that the driver also supports a volume node.
 
 </td>
 <td>
-UART miniport driver for MPU-401 synth device. Exposes <a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a> interface for use with <a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a> port object. Obsolete.
+UART miniport driver for MPU-401 synth device. Exposes <a href="https://msdn.microsoft.com/library/windows/hardware/ff536703">IMiniportMidi</a> interface for use with <a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a> port object. Obsolete.
 
 </td>
 </tr>
@@ -175,28 +165,27 @@ The <i>OutMiniport</i> parameter follows the <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
 
 
 
-<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536698">IMiniport</a>
 
 
 
-<a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536699">IMiniportDMus</a>
 
 
 
-<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536703">IMiniportMidi</a>
 
 
 
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536879">IPortDMus</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
  
 
  
-
 

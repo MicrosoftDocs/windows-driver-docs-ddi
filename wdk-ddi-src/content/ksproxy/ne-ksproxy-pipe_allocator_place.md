@@ -7,7 +7,7 @@ old-location: stream\pipe_allocator_place.htm
 old-project: stream
 ms.assetid: 86B1D8BB-7213-403C-8EAB-D681A5DBF49E
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PPIPE_ALLOCATOR_PLACE, PIPE_ALLOCATOR_PLACE, PIPE_ALLOCATOR_PLACE enumeration [Streaming Media Devices], Pipe_Allocator_FirstPin, Pipe_Allocator_LastPin, Pipe_Allocator_MiddlePin, Pipe_Allocator_None, ksproxy/PIPE_ALLOCATOR_PLACE, ksproxy/Pipe_Allocator_FirstPin, ksproxy/Pipe_Allocator_LastPin, ksproxy/Pipe_Allocator_MiddlePin, ksproxy/Pipe_Allocator_None, stream.pipe_allocator_place"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	PIPE_ALLOCATOR_PLACE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PIPE_ALLOCATOR_PLACE
 ---
@@ -50,19 +51,6 @@ req.typenames: PIPE_ALLOCATOR_PLACE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  Pipe_Allocator_None,
-  Pipe_Allocator_FirstPin,
-  Pipe_Allocator_LastPin,
-  Pipe_Allocator_MiddlePin
-} PIPE_ALLOCATOR_PLACE;
-````
 
 
 ## -enum-fields

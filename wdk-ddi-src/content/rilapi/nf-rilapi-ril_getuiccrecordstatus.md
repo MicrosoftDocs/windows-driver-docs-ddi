@@ -7,7 +7,7 @@ old-location: netvista\ril_getuiccrecordstatus.htm
 old-project: netvista
 ms.assetid: f4834b37-7269-47e3-9af4-81d17fa79179
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetUiccRecordStatus, RIL_GetUiccRecordStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccrecordstatus, rilapi/RIL_GetUiccRecordStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_GetUiccRecordStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetUiccRecordStatus function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_GetUiccRecordStatus(
-   HRIL                   hRil,
-   LPVOID                 lpContext,
-   const RILUICCFILEPATH  lpFilePath
-);
-````
 
 
 ## -parameters

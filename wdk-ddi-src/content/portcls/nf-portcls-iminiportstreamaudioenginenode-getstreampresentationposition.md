@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamPresentationPosition
-title: IMiniportStreamAudioEngineNode::GetStreamPresentationPosition method
+title: IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
 author: windows-driver-content
 description: Gets the current cursor position in the audio data stream that is being rendered to the endpoint.
 old-location: audio\iminiportstreamaudioenginenode_getstreampresentationposition.htm
 old-project: audio
 ms.assetid: 872A4445-8E0B-4804-ADDC-8CD9608E3EBF
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetStreamPresentationPosition method [Audio Devices], GetStreamPresentationPosition method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamPresentationPosition,IMiniportStreamAudioEngineNode.GetStreamPresentationPosition, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamPresentationPosition method, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, audio.iminiportstreamaudioenginenode_getstreampresentationposition, portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
+ms.date: 4/16/2018
+ms.keywords: GetStreamPresentationPosition, GetStreamPresentationPosition method [Audio Devices], GetStreamPresentationPosition method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamPresentationPosition method, IMiniportStreamAudioEngineNode.GetStreamPresentationPosition, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, audio.iminiportstreamaudioenginenode_getstreampresentationposition, portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportStreamAudioEngineNode.GetStreamPresentationPosition
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportStreamAudioEngineNode::GetStreamPresentationPosition method
+# IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
 
 
 ## -description
 
 
 Gets the current cursor position in the audio data stream that is being rendered to the endpoint.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetStreamPresentationPosition(
-  [out] KSAUDIO_PRESENTATION_POSITION *pPresentationPosition
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ NTSTATUS GetStreamPresentationPosition(
 
 ### -param pPresentationPosition [out]
 
-A <a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a> structure that represents the current cursor position in the audio data stream.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450865">KSAUDIO_PRESENTATION_POSITION</a> structure that represents the current cursor position in the audio data stream.
 
 
 ## -returns
@@ -85,16 +76,15 @@ code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450865">KSAUDIO_PRESENTATION_POSITION</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\zwallocatevirtualmemory.htm
 old-project: kernel
 ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtAllocateVirtualMemory, ZwAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, kernel.zwallocatevirtualmemory, ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 api_name:
 -	ZwAllocateVirtualMemory
 -	NtAllocateVirtualMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # NtAllocateVirtualMemory function
@@ -51,21 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ZwAllocateVirtualMemory</b> routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwAllocateVirtualMemory(
-  _In_    HANDLE    ProcessHandle,
-  _Inout_ PVOID     *BaseAddress,
-  _In_    ULONG_PTR ZeroBits,
-  _Inout_ PSIZE_T   RegionSize,
-  _In_    ULONG     AllocationType,
-  _In_    ULONG     Protect
-);
-````
 
 
 ## -parameters
@@ -363,7 +349,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwfreevirtualmemory.md">ZwFreeVirtualMemory</a>
 
 
 
@@ -371,8 +356,8 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566460">ZwFreeVirtualMemory</a>
  
 
  
-
 

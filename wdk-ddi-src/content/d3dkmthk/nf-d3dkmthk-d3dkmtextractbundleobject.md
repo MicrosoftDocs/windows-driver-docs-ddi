@@ -7,28 +7,28 @@ old-location: display\d3dkmtextractbundleobject.htm
 old-project: display
 ms.assetid: f3193d5b-084f-4df1-9688-26ba5a964cca
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTExtractBundleObject, D3DKMTExtractBundleObject method [Display Devices], d3dkmthk/D3DKMTExtractBundleObject, display.d3dkmtextractbundleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: d3dkmthk.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib: NtosKrnl.exe
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTExtractBundleObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTExtractBundleObject function
@@ -50,23 +51,18 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 
-			
+
             Used to extract the bundle object.
-
-
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTExtractBundleObject(
-  _Inout_ D3DKMT_EXTRACTBUNDLEOBJECT  *D3dkmt_extractbundleobject
-);
-````
 
 
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
@@ -80,7 +76,7 @@ Holds information to extract the bundle object.
 
 
 
-Returns STATUS_SUCCESS if completed successfully. 
+Returns STATUS_SUCCESS if completed successfully.
 
 
 

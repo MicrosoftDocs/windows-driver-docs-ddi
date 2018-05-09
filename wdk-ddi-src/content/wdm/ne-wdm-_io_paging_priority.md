@@ -7,7 +7,7 @@ old-location: kernel\io_paging_priority.htm
 old-project: kernel
 ms.assetid: c96d1c81-429f-46de-b56c-6424734ccd7a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IO_PAGING_PRIORITY, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture], IoPagingPriorityHigh, IoPagingPriorityInvalid, IoPagingPriorityNormal, IoPagingPriorityReserved1, IoPagingPriorityReserved2, _IO_PAGING_PRIORITY, kernel.io_paging_priority, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, wdm/IO_PAGING_PRIORITY, wdm/IoPagingPriorityHigh, wdm/IoPagingPriorityInvalid, wdm/IoPagingPriorityNormal, wdm/IoPagingPriorityReserved1, wdm/IoPagingPriorityReserved2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	IO_PAGING_PRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_PAGING_PRIORITY
-req.product: Windows 10 or later.
 ---
 
 # _IO_PAGING_PRIORITY enumeration
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IO_PAGING_PRIORITY</b> enumeration describes the priority value for a paging I/O IRP.
-
-
-## -syntax
-
-
-````
-typedef enum _IO_PAGING_PRIORITY { 
-  IoPagingPriorityInvalid    = 0,
-  IoPagingPriorityNormal     = 1,
-  IoPagingPriorityHigh       = 2,
-  IoPagingPriorityReserved1  = 3,
-  IoPagingPriorityReserved2  = 4
-} IO_PAGING_PRIORITY;
-````
 
 
 ## -enum-fields
@@ -101,19 +87,18 @@ Reserved for system use.
 
 
 
-The <a href="..\ntddk\nf-ntddk-iogetpagingiopriority.md">IoGetPagingIoPriority</a> routine returns an <b>IO_PAGING_PRIORITY</b> value to indicate the priority value of a paging I/O IRP. 
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff549269">IoGetPagingIoPriority</a> routine returns an <b>IO_PAGING_PRIORITY</b> value to indicate the priority value of a paging I/O IRP. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iogetpagingiopriority.md">IoGetPagingIoPriority</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549269">IoGetPagingIoPriority</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\encryptionblt.htm
 old-project: display
 ms.assetid: a92bfff7-8af6-48c3-9e7f-95b9426aaaf2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3DDDI_ENCRYPTIONBLT, UserModeDisplayDriver_Functions_49cc68db-1210-44e5-80f1-347210dc6cf3.xml, d3dumddi/EncryptionBlt, display.encryptionblt
+ms.date: 4/16/2018
+ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3DDDI_ENCRYPTIONBLT, PFND3DDDI_ENCRYPTIONBLT callback, UserModeDisplayDriver_Functions_49cc68db-1210-44e5-80f1-347210dc6cf3.xml, d3dumddi/EncryptionBlt, display.encryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	EncryptionBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_ENCRYPTIONBLT callback
+# PFND3DDDI_ENCRYPTIONBLT callback function
 
 
 ## -description
 
 
 The <i>EncryptionBlt</i> function reads encrypted data from a protected surface.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_ENCRYPTIONBLT EncryptionBlt;
-
-__checkReturn HRESULT APIENTRY EncryptionBlt(
-  _In_       HANDLE                  hDevice,
-  _In_ const D3DDDIARG_ENCRYPTIONBLT *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY EncryptionBlt(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_encryptionblt.md">D3DDDIARG_ENCRYPTIONBLT</a> structure that describes the parameters of the encrypted bit-block transfer (bitblt) operation. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543105">D3DDDIARG_ENCRYPTIONBLT</a> structure that describes the parameters of the encrypted bit-block transfer (bitblt) operation. 
 
 
 ## -returns
@@ -144,7 +131,7 @@ The driver does not support the <i>EncryptionBlt</i> function.
 
 
 
-Hardware and drivers can optionally support <i>EncryptionBlt</i>. Some hardware might also require to use a separate key to decrypt the data that is read back. The driver returns this key in a block of memory that the <b>pIV</b> member of <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_encryptionblt.md">D3DDDIARG_ENCRYPTIONBLT</a> points to. 
+Hardware and drivers can optionally support <i>EncryptionBlt</i>. Some hardware might also require to use a separate key to decrypt the data that is read back. The driver returns this key in a block of memory that the <b>pIV</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543105">D3DDDIARG_ENCRYPTIONBLT</a> points to. 
 
 If the driver and hardware use a separate key for the encryption bitblt, the application must recognize this fact and use the key. 
 
@@ -159,16 +146,15 @@ The Direct3D runtime verifies that the destination surface specified by the <b>D
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_encryptionblt.md">D3DDDIARG_ENCRYPTIONBLT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543105">D3DDDIARG_ENCRYPTIONBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

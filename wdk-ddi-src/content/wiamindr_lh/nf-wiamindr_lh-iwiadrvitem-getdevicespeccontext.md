@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetDeviceSpecContext
-title: IWiaDrvItem::GetDeviceSpecContext method
+title: IWiaDrvItem::GetDeviceSpecContext
 author: windows-driver-content
 description: The IWiaDrvItem::GetDeviceSpecContext method gets a device-specific context.
 old-location: image\iwiadrvitem_getdevicespeccontext.htm
 old-project: image
 ms.assetid: 04f8d7ef-43c6-43b7-afa1-06ae379a8e26
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, GetDeviceSpecContext method [Imaging Devices], GetDeviceSpecContext method [Imaging Devices], IWiaDrvItem interface, GetDeviceSpecContext,IWiaDrvItem.GetDeviceSpecContext, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetDeviceSpecContext method, IWiaDrvItem::GetDeviceSpecContext, image.iwiadrvitem_getdevicespeccontext, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext
+ms.date: 4/23/2018
+ms.keywords: DrvItem_c9edf09c-212c-456c-9eb2-c6c87adf59f3.xml, GetDeviceSpecContext, GetDeviceSpecContext method [Imaging Devices], GetDeviceSpecContext method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetDeviceSpecContext method, IWiaDrvItem.GetDeviceSpecContext, IWiaDrvItem::GetDeviceSpecContext, image.iwiadrvitem_getdevicespeccontext, wiamindr_lh/IWiaDrvItem::GetDeviceSpecContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.GetDeviceSpecContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaDrvItem::GetDeviceSpecContext method
+# IWiaDrvItem::GetDeviceSpecContext
 
 
 ## -description
 
 
 The<b> IWiaDrvItem::GetDeviceSpecContext</b> method gets a device-specific context.
-
-
-## -syntax
-
-
-````
-HRESULT GetDeviceSpecContext(
-  [out, optional] BYTE **ppSpecContext
-);
-````
 
 
 ## -parameters
@@ -93,23 +83,22 @@ If the method succeeds, it stores a pointer to the device-specific context in <i
 
 
 
-Minidrivers typically use this method to obtain a pointer to a device-specific context associated with an <b>IWiaDrvItem</b> item. The device-specific context is associated with the item when the item is created using the driver services library function <a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>.
+Minidrivers typically use this method to obtain a pointer to a device-specific context associated with an <b>IWiaDrvItem</b> item. The device-specific context is associated with the item when the item is created using the driver services library function <a href="https://msdn.microsoft.com/library/windows/hardware/ff549160">wiasCreateDrvItem</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiascreatedrvitem.md">wiasCreateDrvItem</a>
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
+<a href="https://msdn.microsoft.com/0609e1b2-48df-413c-90bd-d7ddea26510a">IWiaDrvItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549160">wiasCreateDrvItem</a>
  
 
  
-
 

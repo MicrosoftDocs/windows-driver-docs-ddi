@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_receive.htm
 old-project: netvista
 ms.assetid: DC40C6B5-3F52-4A7E-B8FC-917ACDF8309A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_RECEIVE, NdkReceive, NdkReceive callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReceive, netvista.ndk_fn_receive
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_RECEIVE, NDK_FN_RECEIVE callback, NdkReceive, NdkReceive callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReceive, netvista.ndk_fn_receive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkReceive
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_RECEIVE callback
+# NDK_FN_RECEIVE callback function
 
 
 ## -description
@@ -54,22 +55,6 @@ req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
   
 
 
-## -prototype
-
-
-````
-NDK_FN_RECEIVE NdkReceive;
-
-NTSTATUS NdkReceive(
-  _In_     NDK_QP                         *pNdkQp,
-  _In_opt_ PVOID                          RequestContext,
-           _In_reads_(nSge) CONST NDK_SGE *pSgl,
-  _In_     ULONG                          nSge
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -78,12 +63,12 @@ NTSTATUS NdkReceive(
 ### -param *pNdkQp [in]
 
 A pointer to an NDK queue pair (QP) object
-(<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>).
+(<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>).
 
 
 ### -param RequestContext [in, optional]
 
-A context value to be returned in the <b>RequestContext</b> member of the <a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a> structure for this request.
+A context value to be returned in the <b>RequestContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a> structure for this request.
 
 
 
@@ -98,7 +83,7 @@ parameter.
 
 #### - pSgl
 
-An array of SGE structures (<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>) that represent the buffers to receive incoming data.
+An array of SGE structures (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439936">NDK_SGE</a>) that represent the buffers to receive incoming data.
 
 
 
@@ -153,11 +138,6 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
 
 
 
@@ -165,12 +145,16 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439935">NDK_RESULT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439936">NDK_SGE</a>
  
 
  
-
 

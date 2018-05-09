@@ -7,7 +7,7 @@ old-location: kernel\rtllongtoint.htm
 old-project: kernel
 ms.assetid: 9C35B77E-FFEC-42A0-9D2C-9E52E210C941
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongToInt, RtlLongToInt function [Kernel-Mode Driver Architecture], kernel.rtllongtoint, ntintsafe/RtlLongToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlLongToInt
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlLongToInt function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>LONG</b> to a value of type <b>INT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongToInt(
-  _In_  LONG lOperand,
-  _Out_ INT  *piResult
-);
-````
 
 
 ## -parameters

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.GetFlags
-title: IDebugBreakpoint2::GetFlags method
+title: IDebugBreakpoint2::GetFlags
 author: windows-driver-content
 description: The GetFlags method returns the flags for a breakpoint.
 old-location: debugger\getflags.htm
 old-project: debugger
 ms.assetid: 0137a872-63e9-4630-86fa-accfaa9b6d6b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml, GetFlags method [Windows Debugging], GetFlags method [Windows Debugging], IDebugBreakpoint interface, GetFlags method [Windows Debugging], IDebugBreakpoint2 interface, GetFlags,IDebugBreakpoint2.GetFlags, IDebugBreakpoint interface [Windows Debugging], GetFlags method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], GetFlags method, IDebugBreakpoint2::GetFlags, IDebugBreakpoint::GetFlags, dbgeng/IDebugBreakpoint2::GetFlags, dbgeng/IDebugBreakpoint::GetFlags, debugger.getflags
+ms.date: 4/24/2018
+ms.keywords: ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml, GetFlags, GetFlags method [Windows Debugging], GetFlags method [Windows Debugging],IDebugBreakpoint interface, GetFlags method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetFlags method, IDebugBreakpoint2 interface [Windows Debugging],GetFlags method, IDebugBreakpoint2.GetFlags, IDebugBreakpoint2::GetFlags, IDebugBreakpoint::GetFlags, dbgeng/IDebugBreakpoint2::GetFlags, dbgeng/IDebugBreakpoint::GetFlags, debugger.getflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,28 +39,19 @@ api_location:
 api_name:
 -	IDebugBreakpoint.GetFlags
 -	IDebugBreakpoint2.GetFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint2::GetFlags method
+# IDebugBreakpoint2::GetFlags
 
 
 ## -description
 
 
 The <b>GetFlags</b> method returns the flags for a breakpoint.
-
-
-## -syntax
-
-
-````
-HRESULT GetFlags(
-  [out] PULONG Flags
-);
-````
 
 
 ## -parameters

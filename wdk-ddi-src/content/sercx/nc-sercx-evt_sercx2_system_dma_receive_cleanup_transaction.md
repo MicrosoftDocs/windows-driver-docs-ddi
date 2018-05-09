@@ -7,8 +7,8 @@ old-location: serports\evtsercx2systemdmareceivecleanuptransaction.htm
 old-project: serports
 ms.assetid: 66B15ED1-583D-418C-90C5-25BBBCEE7B5A
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2SystemDmaReceiveCleanupTransaction, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION, EvtSerCx2SystemDmaReceiveCleanupTransaction, EvtSerCx2SystemDmaReceiveCleanupTransaction callback function [Serial Ports], serports.evtsercx2systemdmareceivecleanuptransaction
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2SystemDmaReceiveCleanupTransaction, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION callback, EvtSerCx2SystemDmaReceiveCleanupTransaction, EvtSerCx2SystemDmaReceiveCleanupTransaction callback function [Serial Ports], serports.evtsercx2systemdmareceivecleanuptransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	EvtSerCx2SystemDmaReceiveCleanupTransaction
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION callback
+# EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION callback function
 
 
 ## -description
 
 
 The <i>EvtSerCx2SystemDmaReceiveCleanupTransaction</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to clean up the serial controller state after a system-DMA-receive transaction ends.
-
-
-## -prototype
-
-
-````
-EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION EvtSerCx2SystemDmaReceiveCleanupTransaction;
-
-VOID EvtSerCx2SystemDmaReceiveCleanupTransaction(
-  _In_ SERCX2SYSTEMDMARECEIVE SystemDmaReceive
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ VOID EvtSerCx2SystemDmaReceiveCleanupTransaction(
 
 ### -param SystemDmaReceive [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> method to create this object.
 
 
 ## -returns
@@ -89,9 +76,9 @@ None.
 
 
 
-Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> call that creates the system-DMA-receive object.
+Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> call that creates the system-DMA-receive object.
 
-Your serial controller driver should implement an <i>EvtSerCx2SystemDmaReceiveCleanupTransaction</i> function if it needs to clean up the serial controller state at the end of a system-DMA-receive transaction. SerCx2 calls this function, if it is implemented, after a system-DMA-receive transaction ends. In response to the <i>EvtSerCx2SystemDmaReceiveCleanupTransaction</i> call, the serial controller driver must call the <a href="..\sercx\nf-sercx-sercx2systemdmareceivecleanuptransactioncomplete.md">SerCx2SystemDmaReceiveCleanupTransactionComplete</a> method to notify SerCx2 after the clean-up work is done.
+Your serial controller driver should implement an <i>EvtSerCx2SystemDmaReceiveCleanupTransaction</i> function if it needs to clean up the serial controller state at the end of a system-DMA-receive transaction. SerCx2 calls this function, if it is implemented, after a system-DMA-receive transaction ends. In response to the <i>EvtSerCx2SystemDmaReceiveCleanupTransaction</i> call, the serial controller driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265278">SerCx2SystemDmaReceiveCleanupTransactionComplete</a> method to notify SerCx2 after the clean-up work is done.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265343">SerCx2 System-DMA-Receive Transactions</a>.
 
@@ -137,11 +124,6 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION</b> function type is de
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecleanuptransactioncomplete.md">SerCx2SystemDmaReceiveCleanupTransactionComplete</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
 
 
 
@@ -149,8 +131,12 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION</b> function type is de
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265278">SerCx2SystemDmaReceiveCleanupTransactionComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a>
  
 
  
-
 

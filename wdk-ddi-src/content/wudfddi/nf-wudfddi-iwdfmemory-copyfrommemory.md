@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFMemory.CopyFromMemory
-title: IWDFMemory::CopyFromMemory method
+title: IWDFMemory::CopyFromMemory
 author: windows-driver-content
 description: The CopyFromMemory method safely copies data from the specified source buffer and prevents overruns that the copy operation might otherwise cause.
 old-location: wdf\iwdfmemory_copyfrommemory.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 29b77215-9c7e-47f2-8c94-0bcd733f54a2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CopyFromMemory method, CopyFromMemory method, IWDFMemory interface, CopyFromMemory,IWDFMemory.CopyFromMemory, IWDFMemory, IWDFMemory interface, CopyFromMemory method, IWDFMemory::CopyFromMemory, UMDFMemoryObjectRef_c5bc961a-62e9-4692-bbd7-6551b268b08b.xml, umdf.iwdfmemory_copyfrommemory, wdf.iwdfmemory_copyfrommemory, wudfddi/IWDFMemory::CopyFromMemory
+ms.keywords: CopyFromMemory, CopyFromMemory method, CopyFromMemory method,IWDFMemory interface, IWDFMemory interface,CopyFromMemory method, IWDFMemory.CopyFromMemory, IWDFMemory::CopyFromMemory, UMDFMemoryObjectRef_c5bc961a-62e9-4692-bbd7-6551b268b08b.xml, umdf.iwdfmemory_copyfrommemory, wdf.iwdfmemory_copyfrommemory, wudfddi/IWDFMemory::CopyFromMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFMemory.CopyFromMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFMemory::CopyFromMemory method
+# IWDFMemory::CopyFromMemory
 
 
 ## -description
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CopyFromMemory</b> method safely copies data from the specified source buffer and prevents overruns that the copy operation might otherwise cause.
-
-
-## -syntax
-
-
-````
-HRESULT CopyFromMemory(
-  [in]           IWDFMemory        *pSource,
-  [in, optional] PWDFMEMORY_OFFSET pSourceOffset
-);
-````
 
 
 ## -parameters
@@ -85,12 +74,12 @@ HRESULT CopyFromMemory(
 
 #### - pSource [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for the memory object that is the source of the copy operation.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface for the memory object that is the source of the copy operation.
 
 
 #### - pSourceOffset [in, optional]
 
-A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a> structure that describes the information that is copied from a memory block. This parameter is optional. The driver can pass <b>NULL</b> if the entire source buffer is copied. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561398">WDFMEMORY_OFFSET</a> structure that describes the information that is copied from a memory block. This parameter is optional. The driver can pass <b>NULL</b> if the entire source buffer is copied. 
 
 The <b>BufferOffset</b> member of the WDFMEMORY_OFFSET structure, if not <b>NULL</b>, indicates the offset into the source buffer to start the copy operation from. 
 
@@ -108,16 +97,15 @@ The <b>BufferLength</b> member should be set to 0; the framework ignores this me
 
 ## -see-also
 
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561398">WDFMEMORY_OFFSET</a>
  
 
  
-
 

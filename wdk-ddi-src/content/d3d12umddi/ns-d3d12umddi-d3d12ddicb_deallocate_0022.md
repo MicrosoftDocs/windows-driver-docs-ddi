@@ -7,7 +7,7 @@ old-location: display\d3d12ddicb_deallocate_0022.htm
 old-project: display
 ms.assetid: 977868D1-02E1-4460-9194-2079B986045E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDICB_DEALLOCATE_0022, D3D12DDICB_DEALLOCATE_0022 structure [Display Devices], d3d12umddi/D3D12DDICB_DEALLOCATE_0022, display.d3d12ddicb_deallocate_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDICB_DEALLOCATE_0022
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDICB_DEALLOCATE_0022
 ---
@@ -50,19 +51,6 @@ req.typenames: D3D12DDICB_DEALLOCATE_0022
 
 
 Specifies values for use with a deallocation callback function. 
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDICB_DEALLOCATE_0022 {
-  HANDLE                         hResource;
-  UINT                           NumAllocations;
-  const D3DKMT_HANDLE            *HandleList;
-  D3D12DDI_DEALLOCATE_FLAGS_0022 Flags;
-} D3D12DDICB_DEALLOCATE_0022;
-````
 
 
 ## -struct-fields
@@ -85,17 +73,16 @@ A pointer to a list of kernel handles.
 
 ### -field Flags
 
-Flags to use for deallocation, as specified in the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_deallocate_flags_0022.md">D3D12DDI_DEALLOCATE_FLAGS_0022</a> enumeration.
+Flags to use for deallocation, as specified in the <a href="https://msdn.microsoft.com/17E3C01A-0716-4B3C-B4B3-72B055FB40EA">D3D12DDI_DEALLOCATE_FLAGS_0022</a> enumeration.
 
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_deallocate_flags_0022.md">D3D12DDI_DEALLOCATE_FLAGS_0022</a>
 
 
 
+<a href="https://msdn.microsoft.com/17E3C01A-0716-4B3C-B4B3-72B055FB40EA">D3D12DDI_DEALLOCATE_FLAGS_0022</a>
  
 
  
-
 

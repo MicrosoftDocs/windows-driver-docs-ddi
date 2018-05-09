@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide
-title: IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide method
+title: IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide
 author: windows-driver-content
 description: Launches and attaches to a Process Lifecycle Management (PLM) background task.
 old-location: debugger\idebugplmclient3_activateanddebugplmbgtaskwide.htm
 old-project: debugger
 ms.assetid: 77358032-1777-46F4-BF16-5DFFAC15E672
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ActivateAndDebugPlmBgTaskWide method [Windows Debugging], ActivateAndDebugPlmBgTaskWide method [Windows Debugging], IDebugPlmClient3 interface, ActivateAndDebugPlmBgTaskWide,IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide, IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], ActivateAndDebugPlmBgTaskWide method, IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, dbgeng/IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, debugger.idebugplmclient3_activateanddebugplmbgtaskwide
+ms.date: 4/24/2018
+ms.keywords: ActivateAndDebugPlmBgTaskWide, ActivateAndDebugPlmBgTaskWide method [Windows Debugging], ActivateAndDebugPlmBgTaskWide method [Windows Debugging],IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging],ActivateAndDebugPlmBgTaskWide method, IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide, IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, dbgeng/IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, debugger.idebugplmclient3_activateanddebugplmbgtaskwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide method
+# IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide
 
 
 ## -description
 
 
     Launches and attaches to a Process Lifecycle Management (PLM) background task.
-
-
-## -syntax
-
-
-````
-HRESULT ActivateAndDebugPlmBgTaskWide(
-  [in] ULONG64 Server,
-  [in] PCWSTR  PackageFullName,
-  [in] PCWSTR  BackgroundTaskId
-);
-````
 
 
 ## -parameters
@@ -97,12 +86,11 @@ If a debugger session is not already started, this method starts one.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugplmclient3.md">IDebugPlmClient3</a>
 
 
 
+<a href="https://msdn.microsoft.com/5B0580FF-0829-406A-B511-C0CD91A08D5F">IDebugPlmClient3</a>
  
 
  
-
 

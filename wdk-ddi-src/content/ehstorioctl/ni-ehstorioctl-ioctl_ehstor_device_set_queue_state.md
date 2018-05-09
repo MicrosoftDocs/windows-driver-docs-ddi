@@ -7,8 +7,8 @@ old-location: storage\ioctl_ehstor_device_set_queue_state.htm
 old-project: storage
 ms.assetid: 83AFAC73-39B8-442A-822E-411D08130F88
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE, IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE, storage.ioctl_ehstor_device_set_queue_state
+ms.date: 3/29/2018
+ms.keywords: IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE, IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE control, IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE, storage.ioctl_ehstor_device_set_queue_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	EhStorIoctl.h
 api_name:
 -	IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PDO_TYPE
+req.typenames: 
 ---
 
 # IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE IOCTL
@@ -153,12 +154,11 @@ To prevent abuse of  the <b>IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE</b> request by a
 
 ## -see-also
 
-<a href="..\ehstorioctl\ni-ehstorioctl-ioctl_ehstor_device_get_queue_state.md">IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451417">IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE</a>
  
 
  
-
 

@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfIoTargetCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfIoTargetCreate function
@@ -56,18 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfIoTargetCreate</b> method creates a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/general-i-o-targets">remote I/O target</a> for a specified device.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfIoTargetCreate(
-  _In_     WDFDEVICE              Device,
-  _In_opt_ PWDF_OBJECT_ATTRIBUTES IoTargetAttributes,
-  _Out_    WDFIOTARGET            *IoTarget
-);
-````
 
 
 ## -parameters
@@ -82,7 +70,7 @@ A handle to a framework device object.
 
 ### -param IoTargetAttributes [in, optional]
 
-A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the I/O target object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that specifies object attributes for the I/O target object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
 ### -param IoTarget [out]
@@ -130,7 +118,7 @@ There was insufficient memory to create a new I/O target object.
 </dl>
 </td>
 <td width="60%">
-The <b>ParentObject</b> member of the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that <i>IoTargetAttributes</i> specified did not specify the framework device object that <i>Device</i> specified, or an object whose chain of parents leads to that object.
+The <b>ParentObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that <i>IoTargetAttributes</i> specified did not specify the framework device object that <i>Device</i> specified, or an object whose chain of parents leads to that object.
 
 </td>
 </tr>
@@ -152,20 +140,20 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-After a driver calls <b>WdfIoTargetCreate</b>, the driver must call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a> before it can send requests to the remote I/O target. 
+After a driver calls <b>WdfIoTargetCreate</b>, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548634">WdfIoTargetOpen</a> before it can send requests to the remote I/O target. 
 
-If the driver specifies a parent object in the <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure's <b>ParentObject</b> member, the parent object can be a framework device object or any object whose chain of parents leads to a framework device object. The framework will delete the I/O target object when it (or the driver) deletes the device object.
+If the driver specifies a parent object in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure's <b>ParentObject</b> member, the parent object can be a framework device object or any object whose chain of parents leads to a framework device object. The framework will delete the I/O target object when it (or the driver) deletes the device object.
 
 For more information about <b>WdfIoTargetCreate</b>, see <a href="https://msdn.microsoft.com/c5d5b589-09a3-4f58-83bf-2876b37b0937">Initializing a General I/O Target</a>. 
 
-If your driver provides <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> or <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a> callback functions for the I/O target object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
+If your driver provides <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> or <a href="https://msdn.microsoft.com/4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3">EvtDestroyCallback</a> callback functions for the I/O target object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
 
 For more information about I/O targets, see <a href="https://msdn.microsoft.com/77fd1b64-c3a9-4e12-ac69-0e3725695795">Using I/O Targets</a>.
 
 
 #### Examples
 
-For a code example that uses <b>WdfIoTargetCreate</b>, see <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>.
+For a code example that uses <b>WdfIoTargetCreate</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548634">WdfIoTargetOpen</a>.
 
 <div class="code"></div>
 
@@ -173,16 +161,15 @@ For a code example that uses <b>WdfIoTargetCreate</b>, see <a href="..\wdfiotarg
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548634">WdfIoTargetOpen</a>
  
 
  
-
 

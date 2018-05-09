@@ -7,8 +7,8 @@ old-location: display\d3dkmtacquirekeyedmutex.htm
 old-project: display
 ms.assetid: 0d9627c3-ed1d-49d4-bdca-bc0e49efc234
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3DKMTAcquireKeyedMutex, D3DKMTAcquireKeyedMutex callback function [Display Devices], OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, PFND3DKMT_ACQUIREKEYEDMUTEX, d3dkmthk/D3DKMTAcquireKeyedMutex, display.d3dkmtacquirekeyedmutex
+ms.date: 4/16/2018
+ms.keywords: D3DKMTAcquireKeyedMutex, D3DKMTAcquireKeyedMutex callback function [Display Devices], OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, PFND3DKMT_ACQUIREKEYEDMUTEX, PFND3DKMT_ACQUIREKEYEDMUTEX callback, d3dkmthk/D3DKMTAcquireKeyedMutex, display.d3dkmtacquirekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -16,19 +16,19 @@ req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: D3DKMTAcquireKeyedMutex is supported beginning with the Windows 7 operating system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,12 +38,13 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTAcquireKeyedMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
+req.typenames: 
 ---
 
-# PFND3DKMT_ACQUIREKEYEDMUTEX callback
+# PFND3DKMT_ACQUIREKEYEDMUTEX callback function
 
 
 ## -description
@@ -52,22 +53,12 @@ req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
 The <b>D3DKMTAcquireKeyedMutex</b> function acquires a keyed mutex object.
 
 
-## -prototype
-
-
-````
-NTSTATUS APIENTRY D3DKMTAcquireKeyedMutex(
-  _Inout_ D3DKMT_ACQUIREKEYEDMUTEX *pData
-);
-````
-
-
 ## -parameters
 
 
 
 
-### -param *
+### -param *pData [in, out]
 
 
 
@@ -78,7 +69,7 @@ NTSTATUS APIENTRY D3DKMTAcquireKeyedMutex(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex.md">D3DKMT_ACQUIREKEYEDMUTEX</a> structure that specifies the keyed mutex object to acquire. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547275">D3DKMT_ACQUIREKEYEDMUTEX</a> structure that specifies the keyed mutex object to acquire. 
 
 
 ## -returns
@@ -99,7 +90,7 @@ A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex.md">D3
 </dl>
 </td>
 <td width="60%">
-The keyed mutex object was successfully acquired. 
+The keyed mutex object was successfully acquired.
 
 </td>
 </tr>
@@ -133,7 +124,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nc-d3dkmthk-pfnd3dkmt_acquirekeyedmutex.md">D3DKMTAcquireKeyedMutex</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546732">D3DKMTAcquireKeyedMutex</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -147,12 +138,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_acquirekeyedmutex.md">D3DKMT_ACQUIREKEYEDMUTEX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547275">D3DKMT_ACQUIREKEYEDMUTEX</a>
  
 
  
-
 

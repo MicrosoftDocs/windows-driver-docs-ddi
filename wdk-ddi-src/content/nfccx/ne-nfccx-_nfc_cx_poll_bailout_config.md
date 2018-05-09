@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 1085EA0A-B688-4F77-80AF-E81CFE645CDF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PNFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_BAILOUT_DEFAULT, NFC_CX_POLL_BAILOUT_NFC_A, NFC_CX_POLL_BAILOUT_NFC_B, _NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_DEFAULT, nfccx/NFC_CX_POLL_BAILOUT_NFC_A, nfccx/NFC_CX_POLL_BAILOUT_NFC_B, nfpdrivers.nfc_cx_poll_bailout_config"
+ms.keywords: "*PNFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_BAILOUT_CONFIG,*PNFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG,*PNFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_BAILOUT_DEFAULT, NFC_CX_POLL_BAILOUT_NFC_A, NFC_CX_POLL_BAILOUT_NFC_B, _NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_DEFAULT, nfccx/NFC_CX_POLL_BAILOUT_NFC_A, nfccx/NFC_CX_POLL_BAILOUT_NFC_B, nfpdrivers.nfc_cx_poll_bailout_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Requires same
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG
 ---
@@ -50,18 +51,6 @@ req.typenames: NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG
 
 
 The NFC_CX_POLL_BAILOUT_CONFIG enumeration specifies poll mode bail out.
-
-
-## -syntax
-
-
-````
-typedef enum _NFC_CX_POLL_BAILOUT_CONFIG { 
-  NFC_CX_POLL_BAILOUT_NFC_A    = 0x01,
-  NFC_CX_POLL_BAILOUT_NFC_B    = 0x02,
-  NFC_CX_POLL_BAILOUT_DEFAULT  = 0x00
-} NFC_CX_POLL_BAILOUT_CONFIG, *PNFC_CX_POLL_BAILOUT_CONFIG;
-````
 
 
 ## -enum-fields
@@ -80,16 +69,15 @@ typedef enum _NFC_CX_POLL_BAILOUT_CONFIG {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

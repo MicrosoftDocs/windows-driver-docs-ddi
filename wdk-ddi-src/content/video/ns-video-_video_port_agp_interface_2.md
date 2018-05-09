@@ -7,7 +7,7 @@ old-location: display\video_port_agp_interface_2.htm
 old-project: display
 ms.assetid: 626cbf2d-2841-4b52-b17d-5377aa2f6264
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*PVIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2 structure pointer [Display Devices], VIDEO_PORT_AGP_INTERFACE_2, VIDEO_PORT_AGP_INTERFACE_2 structure [Display Devices], Video_Structs_99a2957c-7304-4e59-9609-748a5d7b878b.xml, _VIDEO_PORT_AGP_INTERFACE_2, display.video_port_agp_interface_2, video/PVIDEO_PORT_AGP_INTERFACE_2, video/VIDEO_PORT_AGP_INTERFACE_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	video.h
 api_name:
 -	VIDEO_PORT_AGP_INTERFACE_2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_PORT_AGP_INTERFACE_2, *PVIDEO_PORT_AGP_INTERFACE_2
-req.product: Windows 10 or later.
 ---
 
 # _VIDEO_PORT_AGP_INTERFACE_2 structure
@@ -51,30 +51,6 @@ req.product: Windows 10 or later.
 
 
 The VIDEO_PORT_AGP_INTERFACE_2 structure describes the AGP service routines provided by the video port driver.
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_PORT_AGP_INTERFACE_2 {
-  USHORT                 Size;
-  USHORT                 Version;
-  PVOID                  Context;
-  PINTERFACE_REFERENCE   InterfaceReference;
-  PINTERFACE_DEREFERENCE InterfaceDereference;
-  PAGP_RESERVE_PHYSICAL  AgpReservePhysical;
-  PAGP_RELEASE_PHYSICAL  AgpReleasePhysical;
-  PAGP_COMMIT_PHYSICAL   AgpCommitPhysical;
-  PAGP_FREE_PHYSICAL     AgpFreePhysical;
-  PAGP_RESERVE_VIRTUAL   AgpReserveVirtual;
-  PAGP_RELEASE_VIRTUAL   AgpReleaseVirtual;
-  PAGP_COMMIT_VIRTUAL    AgpCommitVirtual;
-  PAGP_FREE_VIRTUAL      AgpFreeVirtual;
-  ULONGLONG              AgpAllocationLimit;
-  PAGP_SET_RATE          AgpSetRate;
-} VIDEO_PORT_AGP_INTERFACE_2, *PVIDEO_PORT_AGP_INTERFACE_2;
-````
 
 
 ## -struct-fields
@@ -109,42 +85,42 @@ Pointer to the video port driver-implemented dereference routine for this interf
 
 ### -field AgpReservePhysical
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a> routine.
 
 
 ### -field AgpReleasePhysical
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_release_physical.md">AgpReleasePhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/4da0f5cb-a017-4df5-958b-c76b7a08495a">AgpReleasePhysical</a> routine.
 
 
 ### -field AgpCommitPhysical
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_commit_physical.md">AgpCommitPhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/3c3a6936-7435-4a42-99e6-2c048613af23">AgpCommitPhysical</a> routine.
 
 
 ### -field AgpFreePhysical
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_free_physical.md">AgpFreePhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/bb0e3330-5601-47dd-afc6-94a70b42daaf">AgpFreePhysical</a> routine.
 
 
 ### -field AgpReserveVirtual
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/966dfc6c-6830-4872-b411-2801e3a4b753">AgpReserveVirtual</a> routine.
 
 
 ### -field AgpReleaseVirtual
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_release_virtual.md">AgpReleaseVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/4e880b39-e0ee-4801-86b7-ffc06ed415ab">AgpReleaseVirtual</a> routine.
 
 
 ### -field AgpCommitVirtual
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_commit_virtual.md">AgpCommitVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/8a3e7fcd-d838-47ad-a42b-7eb070f81418">AgpCommitVirtual</a> routine.
 
 
 ### -field AgpFreeVirtual
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_free_virtual.md">AgpFreeVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/a6f689ab-8cf1-4207-af2b-30957500c190">AgpFreeVirtual</a> routine.
 
 
 ### -field AgpAllocationLimit
@@ -154,36 +130,35 @@ Specifies the maximum total number of bytes of AGP memory that a miniport driver
 
 ### -field AgpSetRate
 
-Pointer to the video port driver-implemented <a href="..\videoagp\nc-videoagp-pagp_set_rate.md">AgpSetRate</a> routine.
+Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/6885df05-8cc4-4ae0-b7ca-6fd94374cfbf">AgpSetRate</a> routine.
 
 
 ## -remarks
 
 
 
-PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>Version</b> members, and then call the <a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a> function, which initializes the remaining members of this structure.
+PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>Version</b> members, and then call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a> function, which initializes the remaining members of this structure.
 
-This structure is identical to the <a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a> structure, except for the <b>AgpSetRate</b> member, which that structure lacks. Video miniport drivers should first attempt to use VIDEO_PORT_AGP_INTERFACE_2 in a call to <b>VideoPortQueryServices</b>. If that call fails, due to the fact that the AGP filter driver does not support the newer version of the AGP interface, the video miniport driver can make a second call to <b>VideoPortQueryServices</b>, this time passing a VIDEO_PORT_AGP_INTERFACE structure.
+This structure is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570527">VIDEO_PORT_AGP_INTERFACE</a> structure, except for the <b>AgpSetRate</b> member, which that structure lacks. Video miniport drivers should first attempt to use VIDEO_PORT_AGP_INTERFACE_2 in a call to <b>VideoPortQueryServices</b>. If that call fails, due to the fact that the AGP filter driver does not support the newer version of the AGP interface, the video miniport driver can make a second call to <b>VideoPortQueryServices</b>, this time passing a VIDEO_PORT_AGP_INTERFACE structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
 
 
 
-<a href="..\video\ns-video-_video_port_agp_interface.md">VIDEO_PORT_AGP_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570527">VIDEO_PORT_AGP_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>
  
 
  
-
 

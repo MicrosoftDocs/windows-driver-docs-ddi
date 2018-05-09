@@ -7,8 +7,8 @@ old-location: netvista\providercleanupbindingcontext.htm
 old-project: netvista
 ms.assetid: 0af476f6-0113-4aeb-b7d6-8e0e64a89bd0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], ProviderCleanupBindingContext, ProviderCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderCleanupBindingContext, netvista.providercleanupbindingcontext, nmrref_9723dfb1-96dd-410c-a5cd-1adfb6aa9544.xml
+ms.date: 4/25/2018
+ms.keywords: NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], ProviderCleanupBindingContext, ProviderCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderCleanupBindingContext, netvista.providercleanupbindingcontext, nmrref_9723dfb1-96dd-410c-a5cd-1adfb6aa9544.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	netioddk.h
 api_name:
 -	PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
+req.typenames: 
 ---
 
-# NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback
+# NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback function
 
 
 ## -description
@@ -55,21 +56,6 @@ A provider module's
   another.
 
 
-## -prototype
-
-
-````
-NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN ProviderCleanupBindingContext;
-
-VOID ProviderCleanupBindingContext(
-  _In_ PVOID ProviderBindingContext
-)
-{ ... }
-
-typedef NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN * PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN;
-````
-
-
 ## -parameters
 
 
@@ -79,7 +65,7 @@ typedef NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN * PNPI_PROVIDER_CLEANUP_BINDING_
 
 A pointer to the provider module's context for the binding between the provider module and the
      client module from which it has detached. The provider module's 
-     <a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a> callback
+     <a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a> callback
      function returns this pointer to the NMR when it attaches to the client module.
 
 
@@ -110,9 +96,9 @@ If the provider module does not dynamically allocate the memory for its binding 
     <i>ProviderCleanupBindingContext</i> callback function. If the provider module does not implement a 
     <i>ProviderCleanupBindingContext</i> callback function, then it must set the 
     <i>ProviderCleanupBindingContext</i> member of the 
-    <a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">
+    <a href="https://msdn.microsoft.com/a83220e8-496c-4b83-b774-88ab1f017e8d">
     NPI_PROVIDER_CHARACTERISTICS</a> structure to <b>NULL</b> when it calls the 
-    <a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568784">NmrRegisterProvider</a> function to
     register itself with the NMR.
 
 The NMR calls a provider module's 
@@ -123,24 +109,23 @@ The NMR calls a provider module's
 
 ## -see-also
 
-<a href="..\netioddk\nc-netioddk-npi_provider_detach_client_fn.md">ProviderDetachClient</a>
 
 
 
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/a684136a-e2f2-4f82-9e9a-166b40bd7536">ClientDetachProvider</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_client_detach_provider_fn.md">ClientDetachProvider</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568814">NPI_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
+<a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/0f29bf89-856c-4019-a966-3e666a7fc78d">ProviderDetachClient</a>
  
 
  
-
 

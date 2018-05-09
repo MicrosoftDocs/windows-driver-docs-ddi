@@ -7,7 +7,7 @@ old-location: ifsk\rtlcapturestackbacktrace.htm
 old-project: ifsk
 ms.assetid: e4ad1eac-1788-4dfe-9444-f40e0de156c4
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlCaptureStackBackTrace, RtlCaptureStackBackTrace routine [Installable File System Drivers], ifsk.rtlcapturestackbacktrace, ntifs/RtlCaptureStackBackTrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-Core-RTLSupport-l1-2-0.dll
 api_name:
 -	RtlCaptureStackBackTrace
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlCaptureStackBackTrace function
@@ -53,19 +54,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlCaptureStackBackTrace</b> routine captures a stack back trace by walking up the stack and recording the information for each frame.
-
-
-## -syntax
-
-
-````
-USHORT RtlCaptureStackBackTrace(
-  _In_      ULONG  FramesToSkip,
-  _In_      ULONG  FramesToCapture,
-  _Out_     PVOID  *BackTrace,
-  _Out_opt_ PULONG BackTraceHash
-);
-````
 
 
 ## -parameters

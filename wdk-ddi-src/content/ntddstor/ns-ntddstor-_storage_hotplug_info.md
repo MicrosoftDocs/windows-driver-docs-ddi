@@ -7,7 +7,7 @@ old-location: storage\storage_hotplug_info.htm
 old-project: storage
 ms.assetid: dcfd5a42-cb76-4386-9f8f-98e0a217c49a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO, PSTORAGE_HOTPLUG_INFO structure pointer [Storage Devices], STORAGE_HOTPLUG_INFO, STORAGE_HOTPLUG_INFO structure [Storage Devices], _STORAGE_HOTPLUG_INFO, ntddstor/PSTORAGE_HOTPLUG_INFO, ntddstor/STORAGE_HOTPLUG_INFO, storage.storage_hotplug_info, structs-general_36f1b63b-a574-47e7-85b0-10954c2d84d9.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddstor.h
 api_name:
 -	STORAGE_HOTPLUG_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO
 ---
@@ -50,20 +51,6 @@ req.typenames: STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO
 
 
 The STORAGE_HOTPLUG_INFO structure provides hotplug information for a device. 
-
-
-## -syntax
-
-
-````
-typedef struct _STORAGE_HOTPLUG_INFO {
-  ULONG   Size;
-  BOOLEAN MediaRemovable;
-  BOOLEAN MediaHotplug;
-  BOOLEAN DeviceHotplug;
-  BOOLEAN WriteCacheEnableOverride;
-} STORAGE_HOTPLUG_INFO, *PSTORAGE_HOTPLUG_INFO;
-````
 
 
 ## -struct-fields
@@ -102,7 +89,7 @@ Do not use; set the value to <b>NULL</b>.
 
 The value of the <b>Size</b> member also identifies the version of this structure. New members will be added to this structure in the future. If the value of the <b>Size</b> member is <b>sizeof</b>(STORAGE_HOTPLUG_INFO), the current version of the structure is the same as the version you compiled with. If the value is not <b>sizeof</b>(STORAGE_HOTPLUG_INFO), the current version contains additional members.
 
-Microsoft Windows XP includes support for hotplug devices. A hotplug device refers to a device whose <b>RemovalPolicy</b> value displayed in the Device Manager is <b>ExpectSurpriseRemoval</b>. To query whether a particular device is a hotplug device, use the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_hotplug_info.md">IOCTL_STORAGE_GET_HOTPLUG_INFO</a> request. To set the hotplug properties of a device, use the <a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_hotplug_info.md">IOCTL_STORAGE_SET_HOTPLUG_INFO</a> request.
+Microsoft Windows XP includes support for hotplug devices. A hotplug device refers to a device whose <b>RemovalPolicy</b> value displayed in the Device Manager is <b>ExpectSurpriseRemoval</b>. To query whether a particular device is a hotplug device, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560554">IOCTL_STORAGE_GET_HOTPLUG_INFO</a> request. To set the hotplug properties of a device, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560606">IOCTL_STORAGE_SET_HOTPLUG_INFO</a> request.
 
 In the case of the IOCTL_STORAGE_SET_HOTPLUG_INFO request, the <b>DeviceHotplug</b> member of the STORAGE_HOTPLUG_INFO structure determines what action is taken. If the value of that member is nonzero, the value for the device's removal policy in the registry is set to <b>ExpectSurpriseRemoval</b> and all levels of caching are disabled. If the value of <b>DeviceHotplug</b> is zero, the removal policy is set to <b>ExpectOrderlyRemoval</b>, and caching may be selectively enabled. 
 
@@ -111,16 +98,15 @@ In the case of the IOCTL_STORAGE_SET_HOTPLUG_INFO request, the <b>DeviceHotplug<
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_get_hotplug_info.md">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
 
 
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_hotplug_info.md">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560554">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560606">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
  
 
  
-
 

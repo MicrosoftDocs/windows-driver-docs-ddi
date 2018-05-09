@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDeviceInitialize.SetFilter
-title: IWDFDeviceInitialize::SetFilter method
+title: IWDFDeviceInitialize::SetFilter
 author: windows-driver-content
 description: The SetFilter method sets the property that enables a device as a filter device.
 old-location: wdf\iwdfdeviceinitialize_setfilter.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a5f61a83-43db-4ad7-9b18-0cdf574ea546
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDeviceInitialize, IWDFDeviceInitialize interface, SetFilter method, IWDFDeviceInitialize::SetFilter, SetFilter method, SetFilter method, IWDFDeviceInitialize interface, SetFilter,IWDFDeviceInitialize.SetFilter, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml, umdf.iwdfdeviceinitialize_setfilter, wdf.iwdfdeviceinitialize_setfilter, wudfddi/IWDFDeviceInitialize::SetFilter
+ms.keywords: IWDFDeviceInitialize interface,SetFilter method, IWDFDeviceInitialize.SetFilter, IWDFDeviceInitialize::SetFilter, SetFilter, SetFilter method, SetFilter method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml, umdf.iwdfdeviceinitialize_setfilter, wdf.iwdfdeviceinitialize_setfilter, wudfddi/IWDFDeviceInitialize::SetFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDeviceInitialize.SetFilter
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDeviceInitialize::SetFilter method
+# IWDFDeviceInitialize::SetFilter
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetFilter</b> method sets the property that enables a device as a filter device.
-
-
-## -syntax
-
-
-````
-void SetFilter();
-````
 
 
 ## -parameters
@@ -102,16 +94,15 @@ For a code example of how to use the <b>SetFilter</b> method, see <a href="https
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
  
 
  
-
 

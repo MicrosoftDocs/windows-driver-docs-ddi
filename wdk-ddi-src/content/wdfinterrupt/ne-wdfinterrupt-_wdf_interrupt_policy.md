@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdfinterrupt.h
 api_name:
 -	WDF_INTERRUPT_POLICY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY
-req.product: Windows 10 or later.
 ---
 
 # _WDF_INTERRUPT_POLICY enumeration
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_INTERRUPT_POLICY</b> enumeration type identifies the affinity policies that the PnP manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_INTERRUPT_POLICY { 
-  WdfIrqPolicyMachineDefault                     = 0,
-  WdfIrqPolicyAllCloseProcessors                 = 1,
-  WdfIrqPolicyOneCloseProcessor                  = 2,
-  WdfIrqPolicyAllProcessorsInMachine             = 3,
-  WdfIrqPolicySpecifiedProcessors                = 4,
-  WdfIrqPolicySpreadMessagesAcrossAllProcessors  = 5
-} WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY;
-````
 
 
 ## -enum-fields
@@ -109,19 +94,18 @@ The PnP manager should assign different message-based interrupts to different pr
 
 
 
-The <b>WDF_INTERRUPT_POLICY</b> enumeration type is used as input to the <a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a> method.
+The <b>WDF_INTERRUPT_POLICY</b> enumeration type is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547387">WdfInterruptSetPolicy</a> method.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetpolicy.md">WdfInterruptSetPolicy</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547387">WdfInterruptSetPolicy</a>
  
 
  
-
 

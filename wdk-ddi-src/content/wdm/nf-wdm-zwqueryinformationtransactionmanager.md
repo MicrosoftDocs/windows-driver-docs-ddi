@@ -7,7 +7,7 @@ old-location: kernel\zwqueryinformationtransactionmanager.htm
 old-project: kernel
 ms.assetid: c87e0635-ad0a-4832-97ed-30c731559fb9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtQueryInformationTransactionManager, ZwQueryInformationTransactionManager, ZwQueryInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationtransactionmanager, ktm_ref_3311322f-0cc0-4198-8c80-1b203403b080.xml, wdm/NtQueryInformationTransactionManager, wdm/ZwQueryInformationTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 api_name:
 -	ZwQueryInformationTransactionManager
 -	NtQueryInformationTransactionManager
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwQueryInformationTransactionManager function
@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>ZwQueryInformationTransactionManager</b> routine retrieves information about a specified transaction manager object.
 
 
-## -syntax
-
-
-````
-NTSTATUS ZwQueryInformationTransactionManager(
-  _In_      HANDLE                               TransactionManagerHandle,
-  _In_      TRANSACTIONMANAGER_INFORMATION_CLASS TransactionManagerInformationClass,
-  _Out_     PVOID                                TransactionManagerInformation,
-  _In_      ULONG                                TransactionManagerInformationLength,
-  _Out_opt_ PULONG                               ReturnLength
-);
-````
-
-
 ## -parameters
 
 
@@ -75,12 +61,12 @@ NTSTATUS ZwQueryInformationTransactionManager(
 
 ### -param TransactionManagerHandle [in]
 
-A handle to a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a> that was obtained by a previous call to <a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a> or <a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>. The handle must have TRANSACTIONMANAGER_QUERY_INFORMATION access to the object.
+A handle to a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a> that was obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566430">ZwCreateTransactionManager</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567035">ZwOpenTransactionManager</a>. The handle must have TRANSACTIONMANAGER_QUERY_INFORMATION access to the object.
 
 
 ### -param TransactionManagerInformationClass [in]
 
-A <a href="..\wdm\ne-wdm-_transactionmanager_information_class.md">TRANSACTIONMANAGER_INFORMATION_CLASS</a>-typed enumeration value that specifies the information to be obtained. This value must be one of the following:
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564762">TRANSACTIONMANAGER_INFORMATION_CLASS</a>-typed enumeration value that specifies the information to be obtained. This value must be one of the following:
 
 <ul>
 <li>
@@ -101,7 +87,7 @@ The enumeration's <b>TransactionManagerOnlineProbeInformation</b> value is not u
 
 ### -param TransactionManagerInformation [out]
 
-A pointer to a caller-allocated buffer that receives the information that the <i>TransactionManagerInformationClass</i> parameter specifies. The buffer's structure type must be <a href="..\wdm\ns-wdm-_transactionmanager_basic_information.md">TRANSACTIONMANAGER_BASIC_INFORMATION</a>, <a href="..\wdm\ns-wdm-_transactionmanager_log_information.md">TRANSACTIONMANAGER_LOG_INFORMATION</a>, <a href="..\wdm\ns-wdm-_transactionmanager_logpath_information.md">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a>, or <a href="..\wdm\ns-wdm-_transactionmanager_recovery_information.md">TRANSACTIONMANAGER_RECOVERY_INFORMATION</a>.
+A pointer to a caller-allocated buffer that receives the information that the <i>TransactionManagerInformationClass</i> parameter specifies. The buffer's structure type must be <a href="https://msdn.microsoft.com/library/windows/hardware/ff564753">TRANSACTIONMANAGER_BASIC_INFORMATION</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff564767">TRANSACTIONMANAGER_LOG_INFORMATION</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff564764">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff564776">TRANSACTIONMANAGER_RECOVERY_INFORMATION</a>.
 
 
 ### -param TransactionManagerInformationLength [in]
@@ -214,11 +200,22 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwrollforwardtransactionmanager.md">ZwRollforwardTransactionManager</a>
 
 
 
-<a href="..\wdm\ns-wdm-_transactionmanager_logpath_information.md">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564753">TRANSACTIONMANAGER_BASIC_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564762">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564764">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564767">TRANSACTIONMANAGER_LOG_INFORMATION</a>
 
 
 
@@ -226,32 +223,20 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\ne-wdm-_transactionmanager_information_class.md">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566430">ZwCreateTransactionManager</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567035">ZwOpenTransactionManager</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatetransactionmanager.md">ZwCreateTransactionManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567079">ZwRecoverTransactionManager</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a>
-
-
-
-<a href="..\wdm\ns-wdm-_transactionmanager_log_information.md">TRANSACTIONMANAGER_LOG_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_transactionmanager_basic_information.md">TRANSACTIONMANAGER_BASIC_INFORMATION</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567089">ZwRollforwardTransactionManager</a>
  
 
  
-
 

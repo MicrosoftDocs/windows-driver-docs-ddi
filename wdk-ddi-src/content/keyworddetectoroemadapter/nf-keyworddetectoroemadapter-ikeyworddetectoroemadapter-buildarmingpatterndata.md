@@ -1,14 +1,14 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.BuildArmingPatternData
-title: IKeywordDetectorOemAdapter::BuildArmingPatternData method
+title: IKeywordDetectorOemAdapter::BuildArmingPatternData
 author: windows-driver-content
 description: The BuildArmingPatternData method is called by the operating system to build OEM-specific pattern data that includes any keyword and user-specific model data for detection.
 old-location: audio\ikeyworddetectoroemadapter_buildarmingpatterndata.htm
 old-project: audio
 ms.assetid: F74DC3C3-C182-4BBA-93C8-95A73C58CFEF
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: BuildArmingPatternData method [Audio Devices], BuildArmingPatternData method [Audio Devices], IKeywordDetectorOemAdapter interface, BuildArmingPatternData,IKeywordDetectorOemAdapter.BuildArmingPatternData, IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], BuildArmingPatternData method, IKeywordDetectorOemAdapter::BuildArmingPatternData, audio.ikeyworddetectoroemadapter_buildarmingpatterndata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::BuildArmingPatternData
+ms.date: 4/16/2018
+ms.keywords: BuildArmingPatternData, BuildArmingPatternData method [Audio Devices], BuildArmingPatternData method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],BuildArmingPatternData method, IKeywordDetectorOemAdapter.BuildArmingPatternData, IKeywordDetectorOemAdapter::BuildArmingPatternData, audio.ikeyworddetectoroemadapter_buildarmingpatterndata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::BuildArmingPatternData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	KeywordDetectorOemAdapter.h
 api_name:
 -	IKeywordDetectorOemAdapter.BuildArmingPatternData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: KEYWORDID
+req.typenames: 
 ---
 
-# IKeywordDetectorOemAdapter::BuildArmingPatternData method
+# IKeywordDetectorOemAdapter::BuildArmingPatternData
 
 
 ## -description
 
 
 The <b>BuildArmingPatternData</b> method is called by the operating system to build OEM-specific pattern data that includes any keyword and user-specific model data for detection.
-
-
-## -syntax
-
-
-````
-HRESULT BuildArmingPatternData(
-  [in]  IStream                     *UserModelData,
-  [in]  KEYWORDSELECTOR             *KeywordSelectors,
-  [in]  ULONG                       NumKeywordSelectors,
-  [out] SOUNDDETECTOR_PATTERNHEADER **ppPatternData = 0
-);
-````
 
 
 ## -parameters
@@ -72,12 +60,12 @@ HRESULT BuildArmingPatternData(
 
 ### -param UserModelData [in]
 
-A pointer to <b>IStream</b> bound to model data for the <a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a> values in the <i>KeywordSelectors</i> parameter.
+A pointer to <b>IStream</b> bound to model data for the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957511">KEYWORDSELECTOR</a> values in the <i>KeywordSelectors</i> parameter.
 
 
 ### -param KeywordSelectors [in]
 
-An array of <a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a> structures identifying the desired set of matches for the keyword detector to arm.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn957511">KEYWORDSELECTOR</a> structures identifying the desired set of matches for the keyword detector to arm.
 
 
 ### -param NumKeywordSelectors [in]
@@ -162,11 +150,6 @@ The operating system may call this method at any time. The operating system may 
 
 ## -see-also
 
-<a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
 
 
 
@@ -174,12 +157,16 @@ The operating system may call this method at any time. The operating system may 
 
 
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
+<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957504">IKeywordDetectorOemAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957511">KEYWORDSELECTOR</a>
  
 
  
-
 

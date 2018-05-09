@@ -7,7 +7,7 @@ old-location: print\monitor.htm
 old-project: print
 ms.assetid: 0b0dc06f-51c2-429f-a9bb-079f8a61411d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*LPMONITOR, LPMONITOR, LPMONITOR structure pointer [Print Devices], MONITOR, MONITOR structure [Print Devices], _MONITOR, print.monitor, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, winsplp/LPMONITOR, winsplp/MONITOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winsplp.h
 api_name:
 -	MONITOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MONITOR, *LPMONITOR
-req.product: Windows 10 or later.
 ---
 
 # _MONITOR structure
@@ -50,94 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The MONITOR structure is obsolete and is supported only for compatibility reasons. New print monitors should implement <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> so that they can be used with print server clusters.
+The MONITOR structure is obsolete and is supported only for compatibility reasons. New print monitors should implement <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> so that they can be used with print server clusters.
 
 The MONITOR structure contains pointers to the functions defined by print monitors.
-
-
-## -syntax
-
-
-````
-typedef struct _MONITOR {
-  BOOL  (WINAPI *pfnEnumPorts)(
-      LPWSTR pName, 
-      DWORD Level, 
-      LPBYTE pPorts, 
-      DWORD cbBuf, 
-      LPDWORD pcbNeeded, 
-      LPDWORD pcReturned);
-  BOOL  (WINAPI *pfnOpenPort)(
-      LPWSTR pName, 
-      PHANDLE pHandle);
-  BOOL  (WINAPI *pfnOpenPortEx)(
-      LPWSTR pPortName, 
-      LPWSTR pPrinterName, 
-      PHANDLE pHandle, 
-      struct _MONITOR * pMonitor);
-  BOOL  (WINAPI *pfnStartDocPort)(
-      HANDLE hPort, 
-      LPWSTR pPrinterName, 
-      DWORD JobId, 
-      DWORD Level, 
-      LPBYTE pDocInfo);
-  BOOL  (WINAPI *pfnWritePort)(
-      HANDLE hPort, 
-      LPBYTE pBuffer, 
-      DWORD cbBuf, 
-      LPDWORD pcbWritten);
-  BOOL  (WINAPI *pfnReadPort)(
-      HANDLE hPort, 
-      LPBYTE pBuffer, 
-      DWORD cbBuffer, 
-      LPDWORD pcbRead);
-  BOOL  (WINAPI *pfnEndDocPort)(HANDLE hPort);
-  BOOL  (WINAPI *pfnClosePort)(HANDLE hPort);
-  BOOL  (WINAPI *pfnAddPort)(
-      LPWSTR pName, 
-      HWND hWnd, 
-      LPWSTR pMonitorName);
-  BOOL  (WINAPI *pfnAddPortEx)(
-      LPWSTR pName, 
-      DWORD Level, 
-      LPBYTE lpBuffer, 
-      LPWSTR pMonitorName);
-  BOOL  (WINAPI *pfnConfigurePort)(
-      LPWSTR pName, 
-      HWND hWnd, 
-      LPWSTR pPortName);
-  BOOL  (WINAPI *pfnDeletePort)(
-      LPWSTR pName, 
-      HWND hWnd, 
-      LPWSTR pPortName);
-  BOOL  (WINAPI *pfnGetPrinterDataFromPort)(
-      HANDLE hPort, 
-      DWORD ControlID, 
-      LPWSTR pValueName, 
-      LPWSTR lpInBuffer, 
-      DWORD cbInBuffer, 
-      LPWSTR lpOutBuffer, 
-      DWORD cbOutBuffer, 
-      LPDWORD lpcbReturned);
-  BOOL  (WINAPI *pfnSetPortTimeOuts)(
-      HANDLE hPort, 
-      LPCOMMTIMEOUTS lpCTO, 
-      DWORD reserved);
-  BOOL  (WINAPI *pfnXcvOpenPort)(
-      LPCWSTR pszObject, 
-      ACCESS_MASK GrantedAccess, 
-      PHANDLE phXcv);
-  DWORD (WINAPI *pfnXcvDataPort)(
-      HANDLE hXcv, 
-      LPCWSTR pszDataName, 
-      PBYTE pInputData, 
-      DWORD cbInputData, 
-      PBYTE pOutputData, 
-      DWORD cbOutputData, 
-      PDWORD pcbOutputNeeded);
-  BOOL  (WINAPI *pfnXcvClosePort)(HANDLE hXcv);
-} MONITOR, *LPMONITOR;
-````
 
 
 ## -struct-fields
@@ -728,7 +643,7 @@ The spooler calls <b>DeletePort</b> so a port monitor can delete a port from the
 Applications can delete local and remote ports. The printer UI displays a confirmation message box before the spooler calls <b>DeletePort</b>, so a monitor should ignore the <i>hWnd</i> parameter and not display another dialog box.
 
 
-<a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">Language monitors</a> and port monitor server DLLs are required to define an <b>EndDocPort</b> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
+<a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">Language monitors</a> and port monitor server DLLs are required to define an <b>EndDocPort</b> function and include the function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure.
 
 The handle received as the function's hPort argument is the port handle that the monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559593">OpenPort</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a> function supplied.
 
@@ -740,9 +655,9 @@ The <b>EndDocPort</b> function should free all resources that were allocated by 
 
 You might want to modify the <b>EndDocPort</b> function's behavior if the user has deleted or restarted the print job. The function can call <b>GetJob</b>, described in the Windows SDK documentation, and check for a status of JOB_STATUS_DELETING or JOB_STATUS_RESTART, to see if either of these events has occurred.
 
-Port monitor server DLLs are required to define an <b>EnumPorts</b> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure. Language monitors do not export this function.
+Port monitor server DLLs are required to define an <b>EnumPorts</b> function and include the function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure. Language monitors do not export this function.
 
-The purpose of the <b>EnumPorts</b> function is to enumerate the ports currently supported by a print monitor. These ports are ones that were previously specified to the monitor's <a href="..\winsplp\nf-winsplp-addportui.md">AddPortUI</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545025">AddPortEx</a> function.
+The purpose of the <b>EnumPorts</b> function is to enumerate the ports currently supported by a print monitor. These ports are ones that were previously specified to the monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff545026">AddPortUI</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545025">AddPortEx</a> function.
 
 The <b>EnumPorts</b> function should fill the buffer pointed to by <i>pPort</i> with an array of PORT_INFO_1 or PORT_INFO_2 structures. Then starting in a memory location following the last array element, the function must load all the strings pointed to by the array's structure members. Refer to localmon.dll, a <a href="https://msdn.microsoft.com/dac754bf-f39d-439c-974b-889436211ef3">sample port monitor</a>, for an example of how to do this. The function must also return the number of structures supplied (that is, the number of supported ports) by placing the number in the location pointed to by <i>pcReturned</i>.
 
@@ -755,7 +670,7 @@ The port monitor must support localization of strings pointed to by the <b>pMoni
 The <b>fPortType</b> member of the PORT_INFO_2 structure is not used with NT-based operating systems.
 
 
-<a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">Language monitors</a> and port monitor server DLLs can optionally define a <b>GetPrinterDataFromPort</b> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
+<a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">Language monitors</a> and port monitor server DLLs can optionally define a <b>GetPrinterDataFromPort</b> function and include the function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure.
 
 The function is meant for use with bidirectional printers, and can be used in the following two ways:
 
@@ -781,22 +696,22 @@ If a language monitor's <b>GetPrinterDataFromPort</b> function receives a nonzer
 
 When a port monitor's <b>GetPrinterDataFromPort</b> function receives a nonzero I/O control code in <i>ControlID</i>, it should call <b>DeviceIOControl</b> (described in the Windows SDK documentation) to pass the control code to the kernel-mode port driver. The <i>lpInBuffer</i>, <i>cbInBuffer</i>, <i>lpOutBuffer</i>, <i>cbOutBuffer</i>, and <i>lpcbReturned</i> parameter values should also be passed to <b>DeviceIOControl</b>.
 
-Language monitors are required to define an <code>OpenPortEx</code> function and include its address in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure. The <code>OpenPortEx</code> function is called by the print spooler when a print queue is being connected to a port. 
+Language monitors are required to define an <code>OpenPortEx</code> function and include its address in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure. The <code>OpenPortEx</code> function is called by the print spooler when a print queue is being connected to a port. 
 
 The <code>OpenPortEx</code> function's primary purpose is to return a port handle that the caller can use as an input argument for subsequent calls to the language monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff563792">WritePort</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561909">ReadPort</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a> functions. Because a language monitor typically implements these functions by calling the equivalent functions in its associated port monitor, a language monitor typically obtains a port handle by calling the port monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559593">OpenPort</a> function. For more information see <a href="https://msdn.microsoft.com/6c3c55fc-40f3-43d7-b8a2-20fed8d28813">Language and Port Monitor Interaction</a>.
 
-The <code>OpenPortEx</code> function's <i>pMonitor</i> parameter is a pointer to the port monitor's <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure. This structure contains pointers to the port monitor's callable functions. The <code>OpenPortEx</code> function should check the structure to verify that all required function pointers are non-<b>NULL</b>. If the structure is valid, the function should copy it into local storage. Otherwise <code>OpenPortEx</code> should call <b>SetLastError</b>, specifying ERROR_INVALID_PRINT_MONITOR, and return <b>FALSE</b>.
+The <code>OpenPortEx</code> function's <i>pMonitor</i> parameter is a pointer to the port monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure. This structure contains pointers to the port monitor's callable functions. The <code>OpenPortEx</code> function should check the structure to verify that all required function pointers are non-<b>NULL</b>. If the structure is valid, the function should copy it into local storage. Otherwise <code>OpenPortEx</code> should call <b>SetLastError</b>, specifying ERROR_INVALID_PRINT_MONITOR, and return <b>FALSE</b>.
 
 Print monitor functions that accept a port handle as input do not also accept a monitor handle. Therefore, the <code>OpenPortEx</code> function must store the received monitor handle in a location that can be referenced by the port handle. This allows the functions that accept a port handle to reference the monitor handle.
 
-A port monitor server DLL's <code>SetPortTimeOuts</code> function allows a language monitor to specify port time-out values for an open port. The function is optional, and must be provided only if the port monitor controls a port that allows the modification of port time-out values. If the function is defined, its address must be included in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
+A port monitor server DLL's <code>SetPortTimeOuts</code> function allows a language monitor to specify port time-out values for an open port. The function is optional, and must be provided only if the port monitor controls a port that allows the modification of port time-out values. If the function is defined, its address must be included in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure.
 
 The function is called by pjlmon.dll, the <a href="https://msdn.microsoft.com/fd1ef790-c17b-4735-87fc-6b7b8597ac4d">sample language monitor</a>, and you can write a customized language monitor that calls it. The print spooler does not call <code>SetPortTimeOuts</code>.
 
 The port monitor should initialize the port's time-out values from within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff559593">OpenPort</a> function.
 
 
-<a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">Language monitors</a> and port monitor server DLLs are required to define a <code>StartDocPort</code> function and include the function's address in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
+<a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">Language monitors</a> and port monitor server DLLs are required to define a <code>StartDocPort</code> function and include the function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> structure.
 
 The handle received as the function's <i>hPort</i> argument is the port handle that the monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559593">OpenPort</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a> function supplied.
 
@@ -811,16 +726,15 @@ If necessary, the port monitor should prevent other processes from using the spe
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
 
 
 
-<a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557541">MONITORUI</a>
  
 
  
-
 

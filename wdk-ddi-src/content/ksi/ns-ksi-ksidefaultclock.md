@@ -7,7 +7,7 @@ old-location: stream\ksidefaultclock.htm
 old-project: stream
 ms.assetid: 08509C28-DDD4-4060-A16A-857A6BF6F6E1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSIDEFAULTCLOCK, KSIDEFAULTCLOCK, KSIDEFAULTCLOCK structure [Streaming Media Devices], PKSIDEFAULTCLOCK, PKSIDEFAULTCLOCK structure pointer [Streaming Media Devices], ksi/KSIDEFAULTCLOCK, ksi/PKSIDEFAULTCLOCK, stream.ksidefaultclock"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksi.h
 api_name:
 -	KSIDEFAULTCLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK
 ---
@@ -50,37 +51,6 @@ req.typenames: KSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG                  Frequency;
-  LONGLONG                  LastDueTime;
-  LONGLONG                  RunningTimeDelta;
-  LONGLONG                  LastRunningTime;
-  KSPIN_LOCK                TimeAccessLock;
-  LIST_ENTRY                EventQueue;
-  KSPIN_LOCK                EventQueueLock;
-  KTIMER                    QueueTimer;
-  KDPC                      QueueDpc;
-  LONG                      ReferenceCount;
-  KSSTATE                   State;
-  LONGLONG                  SuspendDelta;
-  LONGLONG                  SuspendTime;
-  PFNKSSETTIMER             SetTimer;
-  PFNKSCANCELTIMER          CancelTimer;
-  PFNKSCLOCK_CORRELATEDTIME CorrelatedTime;
-  PVOID                     Context;
-  KSRESOLUTION              Resolution;
-  KEVENT                    FreeEvent;
-  LONG                      ExternalTimeReferenceCount;
-  BOOLEAN                   ExternalTimeValid;
-  LONGLONG                  LastStreamTime;
-} KSIDEFAULTCLOCK, *PKSIDEFAULTCLOCK;
-````
 
 
 ## -struct-fields

@@ -7,8 +7,8 @@ old-location: debugger\idebugfailureanalysis2.htm
 old-project: debugger
 ms.assetid: 0B44FCB9-D23F-4630-9F9A-FBAD46712B14
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging], described, debugger.idebugfailureanalysis2, extsfns/IDebugFailureAnalysis2
+ms.date: 4/24/2018
+ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging],described, debugger.idebugfailureanalysis2, extsfns/IDebugFailureAnalysis2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	extsfns.h
 api_name:
 -	IDebugFailureAnalysis2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
 # IDebugFailureAnalysis2 interface
@@ -137,7 +138,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBu
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983414">GetDebugFATagControl</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/jj983414">GetDebugFATagControl</a> method gets a pointer to an <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a> interface, which provides access to the tags in a DebugFailureAnalysisTags object.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/jj983414">GetDebugFATagControl</a> method gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/jj983404">IDebugFAEntryTags</a> interface, which provides access to the tags in a DebugFailureAnalysisTags object.
 
 </td>
 </tr>
@@ -263,7 +264,6 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUl
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -271,12 +271,12 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUl
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
  
 
  
-
 

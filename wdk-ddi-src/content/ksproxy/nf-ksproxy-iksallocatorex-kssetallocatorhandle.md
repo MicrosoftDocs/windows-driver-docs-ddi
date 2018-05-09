@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsAllocatorEx.KsSetAllocatorHandle
-title: IKsAllocatorEx::KsSetAllocatorHandle method
+title: IKsAllocatorEx::KsSetAllocatorHandle
 author: windows-driver-content
 description: Sets the handle for an allocator.
 old-location: stream\iksallocatorex_kssetallocatorhandle.htm
 old-project: stream
 ms.assetid: E259B3D0-7536-4287-A7A2-367407D97F33
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsAllocatorEx, IKsAllocatorEx interface [Streaming Media Devices], KsSetAllocatorHandle method, IKsAllocatorEx::KsSetAllocatorHandle, KsSetAllocatorHandle method [Streaming Media Devices], KsSetAllocatorHandle method [Streaming Media Devices], IKsAllocatorEx interface, KsSetAllocatorHandle,IKsAllocatorEx.KsSetAllocatorHandle, ksproxy/IKsAllocatorEx::KsSetAllocatorHandle, stream.iksallocatorex_kssetallocatorhandle
+ms.date: 4/23/2018
+ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsSetAllocatorHandle method, IKsAllocatorEx.KsSetAllocatorHandle, IKsAllocatorEx::KsSetAllocatorHandle, KsSetAllocatorHandle, KsSetAllocatorHandle method [Streaming Media Devices], KsSetAllocatorHandle method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsSetAllocatorHandle, stream.iksallocatorex_kssetallocatorhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,12 +38,13 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsAllocatorEx.KsSetAllocatorHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsAllocatorEx::KsSetAllocatorHandle method
+# IKsAllocatorEx::KsSetAllocatorHandle
 
 
 ## -description
@@ -52,16 +53,6 @@ req.typenames: PIPE_STATE
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Sets the handle for an allocator.
-
-
-## -syntax
-
-
-````
-HRESULT KsSetAllocatorHandle(
-    
-);
-````
 
 
 ## -parameters
@@ -87,12 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksallocatorex.md">IKsAllocatorEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559724">IKsAllocatorEx</a>
  
 
  
-
 

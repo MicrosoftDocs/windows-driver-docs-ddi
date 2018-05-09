@@ -7,7 +7,7 @@ old-location: netvista\rilcbgwlconfiginfo.htm
 old-project: netvista
 ms.assetid: b92f6639-bf6a-4c1b-a0a6-57e310251591
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbgwlconfiginfo, ntddrilapitypes/RILCBGWLCONFIGINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCBGWLCONFIGINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCBGWLCONFIGINFO, *LPRILCBGWLCONFIGINFO
-req.product: Windows 10 or later.
 ---
 
 # RILCBGWLCONFIGINFO structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCBGWLCONFIGINFO {
-  BOOL      fAccept;
-  RILRANGE  rgrrBroadcastMsgID;
-} RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO;
-````
 
 
 ## -struct-fields

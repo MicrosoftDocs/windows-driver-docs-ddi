@@ -7,7 +7,7 @@ old-location: kernel\rtllongptrtoint.htm
 old-project: kernel
 ms.assetid: 265CABEE-E2FD-4ACA-9C82-54291E63479B
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongPtrToInt, RtlLongPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtllongptrtoint, ntintsafe/RtlLongPtrToInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlLongPtrToInt
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlLongPtrToInt function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>LONG_PTR</b> to a value of type <b>INT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongPtrToInt(
-  _In_  LONG_PTR lOperand,
-  _Out_ INT      *piResult
-);
-````
 
 
 ## -parameters

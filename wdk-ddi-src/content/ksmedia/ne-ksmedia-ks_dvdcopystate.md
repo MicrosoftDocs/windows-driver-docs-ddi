@@ -7,7 +7,7 @@ old-location: stream\ks_dvdcopystate.htm
 old-project: stream
 ms.assetid: 4072eaf1-d4cc-4255-90c1-177d6d58bb0a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KS_DVDCOPYSTATE, KS_DVDCOPYSTATE enumeration [Streaming Media Devices], KS_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED, KS_DVDCOPYSTATE_AUTHENTICATION_REQUIRED, KS_DVDCOPYSTATE_DONE, KS_DVDCOPYSTATE_INITIALIZE, KS_DVDCOPYSTATE_INITIALIZE_TITLE, dvdref_f91c9ef4-f31c-4065-8017-26ef6ef76708.xml, ksmedia/KS_DVDCOPYSTATE, ksmedia/KS_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED, ksmedia/KS_DVDCOPYSTATE_AUTHENTICATION_REQUIRED, ksmedia/KS_DVDCOPYSTATE_DONE, ksmedia/KS_DVDCOPYSTATE_INITIALIZE, ksmedia/KS_DVDCOPYSTATE_INITIALIZE_TITLE, stream.ks_dvdcopystate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DVDCOPYSTATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPYSTATE
 ---
@@ -50,20 +51,6 @@ req.typenames: KS_DVDCOPYSTATE
 
 
 The KS_DVDCOPYSTATE enumeration describes the progress of the DVD copyright protection initialization, authentication and key negotiation sequence.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_DVDCOPYSTATE_INITIALIZE                   = 0,
-  KS_DVDCOPYSTATE_INITIALIZE_TITLE             = 1,
-  KS_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED  = 2,
-  KS_DVDCOPYSTATE_AUTHENTICATION_REQUIRED      = 3,
-  KS_DVDCOPYSTATE_DONE                         = 4
-} KS_DVDCOPYSTATE;
-````
 
 
 ## -enum-fields
@@ -98,16 +85,15 @@ Indicates that the copyright protection sequence is complete.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565147">KSPROPERTY_DVDCOPY_SET_COPY_STATE</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-_ks_dvdcopy_set_copy_state.md">KS_DVDCOPY_SET_COPY_STATE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567639">KS_DVDCOPY_SET_COPY_STATE</a>
  
 
  
-
 

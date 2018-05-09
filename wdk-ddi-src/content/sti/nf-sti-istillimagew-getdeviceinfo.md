@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.GetDeviceInfo
-title: IStillImageW::GetDeviceInfo method
+title: IStillImageW::GetDeviceInfo
 author: windows-driver-content
 description: The IStillImage::GetDeviceInfo method returns hardware characteristics for a specified still image device.
 old-location: image\istillimage_getdeviceinfo.htm
 old-project: image
 ms.assetid: 4f3e1dcd-1885-4b9f-b033-19d91178d8ab
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetDeviceInfo method [Imaging Devices], GetDeviceInfo method [Imaging Devices], IStillImageW interface, GetDeviceInfo,IStillImageW.GetDeviceInfo, IStillImageW, IStillImageW interface [Imaging Devices], GetDeviceInfo method, IStillImageW::GetDeviceInfo, image.istillimage_getdeviceinfo, sti/IStillImageW::GetDeviceInfo, stifnc_a6d46551-9c0a-41f2-a5ed-ca5bc4d1b8c1.xml
+ms.date: 4/23/2018
+ms.keywords: GetDeviceInfo, GetDeviceInfo method [Imaging Devices], GetDeviceInfo method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceInfo method, IStillImageW.GetDeviceInfo, IStillImageW::GetDeviceInfo, image.istillimage_getdeviceinfo, sti/IStillImageW::GetDeviceInfo, stifnc_a6d46551-9c0a-41f2-a5ed-ca5bc4d1b8c1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.GetDeviceInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::GetDeviceInfo method
+# IStillImageW::GetDeviceInfo
 
 
 ## -description
 
 
 The <b>IStillImage::GetDeviceInfo</b> method returns hardware characteristics for a specified still image device.
-
-
-## -syntax
-
-
-````
-HRESULT GetDeviceInfo(
-  [in]  LPWSTR pwszDeviceName,
-  [out] LPVOID *ppBuffer
-);
-````
 
 
 ## -parameters
@@ -76,7 +65,7 @@ Caller-supplied pointer to a string representing an internal device name, obtain
 
 ### -param ppBuffer [out]
 
-Receives a handle to an <a href="..\sti\ns-sti-_sti_device_informationw.md">STI_DEVICE_INFORMATION</a> structure.
+Receives a handle to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548361">STI_DEVICE_INFORMATION</a> structure.
 
 
 ## -returns
@@ -92,7 +81,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-The <b>IStillImage::GetDeviceInfo</b> method returns an <a href="..\sti\ns-sti-_sti_device_informationw.md">STI_DEVICE_INFORMATION</a> structure for the specified still-image device. Structure contents are typically used for creating user interface displays.
+The <b>IStillImage::GetDeviceInfo</b> method returns an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548361">STI_DEVICE_INFORMATION</a> structure for the specified still-image device. Structure contents are typically used for creating user interface displays.
 
 Before calling <b>IStillImage::GetDeviceInfo</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543804">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
 
@@ -103,16 +92,15 @@ When the caller has finished using the STI_DEVICE_INFORMATION structure referenc
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543784">IStillImage::GetDeviceList</a>
 
 
 
 <a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
-
-
-
  
 
  
-
 

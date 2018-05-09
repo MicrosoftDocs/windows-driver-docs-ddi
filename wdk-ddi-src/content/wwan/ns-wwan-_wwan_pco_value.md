@@ -7,7 +7,7 @@ old-location: netvista\wwan_pco_value.htm
 old-project: netvista
 ms.assetid: 45A499CE-2C9A-4070-BEF8-880E7673FA8E
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_PCO_VALUE, PWWAN_PCO_VALUE, PWWAN_PCO_VALUE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PCO_VALUE, WWAN_PCO_VALUE structure [Network Drivers Starting with Windows Vista], _WWAN_PCO_VALUE, netvista.wwan_pco_value, wwan/PWWAN_PCO_VALUE, wwan/WWAN_PCO_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_PCO_VALUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_PCO_VALUE, *PWWAN_PCO_VALUE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_PCO_VALUE structure
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WWAN_PCO_VALUE</b> structure represents the PCO information payload from the network as defined in the 3GPP TS24.008 spec.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_PCO_VALUE {
-  ULONG         Size;
-  WWAN_PCO_TYPE Type;
-  BYTE          PcoData[WWAN_PCO_OCT_BUF_LEN];
-} WWAN_PCO_VALUE, *PWWAN_PCO_VALUE;
-````
 
 
 ## -struct-fields
@@ -77,7 +65,7 @@ The length of the PCO value that is valid in <b>PcoData</b>, which will be octet
 
 ### -field Type
 
-Indicates whether the PCO value being passed up is the original structure that was received by the modem or a subset of the full PCO structure and has the header synthesized. For more info, see <a href="..\wwan\ne-wwan-_wwan_pco_type.md">WWAN_PCO_TYPE</a>.
+Indicates whether the PCO value being passed up is the original structure that was received by the modem or a subset of the full PCO structure and has the header synthesized. For more info, see <a href="https://msdn.microsoft.com/0AD10F14-EBDB-45F8-A435-1D0A6D6FEFFF">WWAN_PCO_TYPE</a>.
 
 
 ### -field PcoData
@@ -108,7 +96,6 @@ The following figure shows  	a full PCO structure as defined in the 3G TS24.008 
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_pco_type.md">WWAN_PCO_TYPE</a>
 
 
 
@@ -116,12 +103,12 @@ The following figure shows  	a full PCO structure as defined in the 3G TS24.008 
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pco_status.md">NDIS_WWAN_PCO_STATUS</a>
+<a href="https://msdn.microsoft.com/C71187C5-74B6-450A-8461-BB9FDF60DB8D">NDIS_WWAN_PCO_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/0AD10F14-EBDB-45F8-A435-1D0A6D6FEFFF">WWAN_PCO_TYPE</a>
  
 
  
-
 

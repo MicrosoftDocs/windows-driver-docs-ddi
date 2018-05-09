@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.SetBool
-title: IPrinterPropertyBag::SetBool method
+title: IPrinterPropertyBag::SetBool
 author: windows-driver-content
 description: Writes a specified boolean property value.
 old-location: print\iprinterpropertybag_setbool.htm
 old-project: print
 ms.assetid: B97C3FE9-0AC8-4147-A394-3344EBBA0B4C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], SetBool method, IPrinterPropertyBag::SetBool, SetBool method [Print Devices], SetBool method [Print Devices], IPrinterPropertyBag interface, SetBool,IPrinterPropertyBag.SetBool, print.iprinterpropertybag_setbool, printerextension/IPrinterPropertyBag::SetBool
+ms.date: 4/20/2018
+ms.keywords: IPrinterPropertyBag interface [Print Devices],SetBool method, IPrinterPropertyBag.SetBool, IPrinterPropertyBag::SetBool, SetBool, SetBool method [Print Devices], SetBool method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setbool, printerextension/IPrinterPropertyBag::SetBool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterPropertyBag.SetBool
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterPropertyBag::SetBool method
+# IPrinterPropertyBag::SetBool
 
 
 ## -description
 
 
 Writes a specified boolean property value.
-
-
-## -syntax
-
-
-````
-HRESULT SetBool(
-  [in] BSTR bstrName,
-  [in] BOOL bValue
-);
-````
 
 
 ## -parameters
@@ -105,12 +94,11 @@ A call to set a property on a queue property bag will fail with ERROR_ACCESS_DEN
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
  
 
  
-
 

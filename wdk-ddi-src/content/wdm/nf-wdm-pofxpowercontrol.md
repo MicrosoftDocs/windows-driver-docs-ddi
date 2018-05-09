@@ -7,7 +7,7 @@ old-location: kernel\pofxpowercontrol.htm
 old-project: kernel
 ms.assetid: B821AF54-AF2C-4E19-BC70-2E0A8F172D93
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: PoFxPowerControl, PoFxPowerControl routine [Kernel-Mode Driver Architecture], kernel.pofxpowercontrol, wdm/PoFxPowerControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Ntoskrnl.exe
 api_name:
 -	PoFxPowerControl
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # PoFxPowerControl function
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 The <b>PoFxPowerControl</b> routine sends a power control request to the power management framework (PoFx).
 
 
-## -syntax
-
-
-````
-NTSTATUS PoFxPowerControl(
-  _In_      POHANDLE Handle,
-  _In_      LPCGUID  PowerControlCode,
-  _In_opt_  PVOID    InBuffer,
-  _In_      SIZE_T   InBufferSize,
-  _Out_opt_ PVOID    OutBuffer,
-  _In_      SIZE_T   OutBufferSize,
-  _Out_opt_ PSIZE_T  BytesReturned
-);
-````
-
-
 ## -parameters
 
 
@@ -76,7 +60,7 @@ NTSTATUS PoFxPowerControl(
 
 ### -param Handle [in]
 
-A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a> routine.
+A handle that represents the registration of the device with PoFx. The device driver previously received this handle from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a> routine.
 
 
 ### -param PowerControlCode [in]
@@ -163,16 +147,15 @@ PoFx delegates the handling of all power control requests to the power engine pl
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-
-
-
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.AsyncCloseChannel
-title: IBidiAsyncNotifyChannel::AsyncCloseChannel method
+title: IBidiAsyncNotifyChannel::AsyncCloseChannel
 author: windows-driver-content
 description: "."
 old-location: print\ibidiasyncnotifychannel_asyncclosechannel.htm
 old-project: print
 ms.assetid: D2A8A131-E839-40E2-8897-DA74F7BA0FA8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: AsyncCloseChannel method [Print Devices], AsyncCloseChannel method [Print Devices], IBidiAsyncNotifyChannel interface, AsyncCloseChannel,IBidiAsyncNotifyChannel.AsyncCloseChannel, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], AsyncCloseChannel method, IBidiAsyncNotifyChannel::AsyncCloseChannel, print.ibidiasyncnotifychannel_asyncclosechannel, prnasntp/IBidiAsyncNotifyChannel::AsyncCloseChannel
+ms.date: 4/20/2018
+ms.keywords: AsyncCloseChannel, AsyncCloseChannel method [Print Devices], AsyncCloseChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],AsyncCloseChannel method, IBidiAsyncNotifyChannel.AsyncCloseChannel, IBidiAsyncNotifyChannel::AsyncCloseChannel, print.ibidiasyncnotifychannel_asyncclosechannel, prnasntp/IBidiAsyncNotifyChannel::AsyncCloseChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IBidiAsyncNotifyChannel.AsyncCloseChannel
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IBidiAsyncNotifyChannel::AsyncCloseChannel method
+# IBidiAsyncNotifyChannel::AsyncCloseChannel
 
 
 ## -description
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT AsyncCloseChannel(
-  [in] IPrintAsyncNotifyDataObject *pObject,
-  [in] IPrintAsyncCookie           *pCookie
-);
-````
 
 
 ## -parameters
@@ -98,12 +87,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-ibidiasyncnotifychannel.md">IBidiAsyncNotifyChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/5038BCFA-6E18-4BF8-9442-4F12D77418B0">IBidiAsyncNotifyChannel</a>
  
 
  
-
 

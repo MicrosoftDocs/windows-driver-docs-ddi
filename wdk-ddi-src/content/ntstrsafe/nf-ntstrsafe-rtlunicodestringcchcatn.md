@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringcchcatn.htm
 old-project: kernel
 ms.assetid: 03715e4e-6f8a-402d-9544-b01cc06d1809
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringCchCatN, RtlUnicodeStringCchCatN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcatn, ntstrsafe/RtlUnicodeStringCchCatN, safestrings_3958e107-6da7-4bf5-a592-097ddb52c1b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ntstrsafe.dll
 api_name:
 -	RtlUnicodeStringCchCatN
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlUnicodeStringCchCatN function
@@ -50,19 +51,7 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ## -description
 
 
-The <b>RtlUnicodeStringCchCatN</b> function concatenates two strings that are contained in <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structures while limiting the size of the copied string.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUnicodeStringCchCatN(
-  _Inout_ PUNICODE_STRING  DestinationString,
-  _In_    PCUNICODE_STRING SourceString,
-  _In_    size_t           cchToAppend
-);
-````
+The <b>RtlUnicodeStringCchCatN</b> function concatenates two strings that are contained in <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structures while limiting the size of the copied string.
 
 
 ## -parameters
@@ -154,7 +143,7 @@ The <b>RtlUnicodeStringCchCatN</b> function uses the destination buffer's size t
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
-The <i>SourceString</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatnex.md">RtlUnicodeStringCchCatNEx</a> function.
+The <i>SourceString</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>. If you need to handle <b>NULL</b> pointer values, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562923">RtlUnicodeStringCchCatNEx</a> function.
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>. 
 
@@ -163,20 +152,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatn.md">RtlUnicodeStringCbCatN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562905">RtlUnicodeStringCbCatN</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatnex.md">RtlUnicodeStringCchCatNEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562923">RtlUnicodeStringCchCatNEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

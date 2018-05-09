@@ -7,8 +7,8 @@ old-location: netvista\wskcontrolclient.htm
 old-project: netvista
 ms.assetid: dad13c60-3511-4641-9182-71a1ce032a69
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PFN_WSK_CONTROL_CLIENT, WskControlClient, WskControlClient callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolclient, wsk/WskControlClient, wskref_11f754a6-78c0-44ca-8dbc-75521ed659b7.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_CONTROL_CLIENT, PFN_WSK_CONTROL_CLIENT callback, WskControlClient, WskControlClient callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolclient, wsk/WskControlClient, wskref_11f754a6-78c0-44ca-8dbc-75521ed659b7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	wsk.h
 api_name:
 -	WskControlClient
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_CONTROL_CLIENT callback
+# PFN_WSK_CONTROL_CLIENT callback function
 
 
 ## -description
@@ -52,26 +52,6 @@ req.product: Windows 10 or later.
 
 The 
   <b>WskControlClient</b> function performs control operations on a WSK client object.
-
-
-## -prototype
-
-
-````
-PFN_WSK_CONTROL_CLIENT WskControlClient;
-
-NTSTATUS WSKAPI * WskControlClient(
-  _In_      PWSK_CLIENT Client,
-  _In_      ULONG       ControlCode,
-  _In_      SIZE_T      InputSize,
-  _In_opt_  PVOID       InputBuffer,
-  _In_      SIZE_T      OutputSize,
-  _Out_opt_ PVOID       OutputBuffer,
-  _Out_opt_ SIZE_T      *OutputSizeReturned,
-  _Inout_   PIRP        Irp
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -85,7 +65,7 @@ A pointer to a
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a> structure that was returned through
      the 
      <i>WskProviderNpi</i> parameter of the 
-     <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">
+     <a href="https://msdn.microsoft.com/b5c6667e-33b4-4482-8817-c01d9d314c3a">
      WskCaptureProviderNPI</a> function.
 
 
@@ -308,11 +288,6 @@ If the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
-
-
-
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 
 
@@ -320,20 +295,24 @@ If the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_transport.md">WSK_TRANSPORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571175">WSK_PROVIDER_DISPATCH</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571177">WSK_PROVIDER_NPI</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571193">WSK_TRANSPORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571122">WskCaptureProviderNPI</a>
  
 
  
-
 

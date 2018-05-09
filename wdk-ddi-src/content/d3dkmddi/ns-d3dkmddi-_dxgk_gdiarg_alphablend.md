@@ -7,7 +7,7 @@ old-location: display\dxgk_gdiarg_alphablend.htm
 old-project: display
 ms.assetid: 8bb9321c-00a0-4360-9a38-fcef2209028c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_GDIARG_ALPHABLEND, DXGK_GDIARG_ALPHABLEND structure [Display Devices], DmStructs_8cbd2c26-3cda-445f-807d-e80038ccc8bd.xml, _DXGK_GDIARG_ALPHABLEND, d3dkmddi/DXGK_GDIARG_ALPHABLEND, display.dxgk_gdiarg_alphablend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_GDIARG_ALPHABLEND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_GDIARG_ALPHABLEND
 ---
@@ -50,24 +51,6 @@ req.typenames: DXGK_GDIARG_ALPHABLEND
 
 
 The DXGK_GDIARG_ALPHABLEND structure describes the characteristics of a GDI hardware-accelerated alpha blend operation.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_GDIARG_ALPHABLEND {
-  RECT    SrcRect;
-  RECT    DstRect;
-  UINT    SrcAllocationIndex;
-  UINT    DstAllocationIndex;
-  UINT    NumSubRects;
-  RECT    *pSubRects;
-  BYTE    SourceConstantAlpha;
-  BOOLEAN SourceHasAlpha;
-  UINT    SrcPitch;
-} DXGK_GDIARG_ALPHABLEND;
-````
 
 
 ## -struct-fields
@@ -158,12 +141,11 @@ int Ys = truncate((Yd â€“ DstRect.top + 0.5) * Hs/Hd + SrcRect.top)</code><
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

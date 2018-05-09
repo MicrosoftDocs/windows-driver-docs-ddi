@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bth_sdp_connect.htm
 old-project: bltooth
 ms.assetid: 8bfe92c9-6049-4d68-80a9-3a8f8dda3bcc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_BTH_SDP_CONNECT, IOCTL_BTH_SDP_CONNECT control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_connect, bth_ioctls_e03c93b3-b2af-40d0-a296-bb76f33c38a2.xml, bthioctl/IOCTL_BTH_SDP_CONNECT
+ms.date: 4/27/2018
+ms.keywords: IOCTL_BTH_SDP_CONNECT, IOCTL_BTH_SDP_CONNECT control, IOCTL_BTH_SDP_CONNECT control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_connect, bth_ioctls_e03c93b3-b2af-40d0-a296-bb76f33c38a2.xml, bthioctl/IOCTL_BTH_SDP_CONNECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_SDP_CONNECT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
+req.typenames: 
 ---
 
 # IOCTL_BTH_SDP_CONNECT IOCTL
@@ -65,14 +66,14 @@ The IOCTL_BTH_SDP_CONNECT request creates a connection to the SDP service on a r
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a> structure that specifies
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a> structure that specifies
       the address of the remote SDP server, the request's timeout setting, and other information specific to
       the connection.
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a> structure.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a> structure.
 
 
 ### -output-buffer
@@ -84,7 +85,7 @@ The
 
 ### -output-buffer-length
 
-Length of a <a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a> structure.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a> structure.
 
 
 ### -in-out-buffer
@@ -193,23 +194,22 @@ The IOCTL_BTH_SDP_CONNECT request allows a profile driver to obtain an SDP conne
     remote device. After the SDP connection handle is obtained, the profile driver can pass it to other SDP
     IOCTL interfaces to gather information about the remote device's SDP server. When the SDP queries are
     completed, the profile driver must close the SDP connection with 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_disconnect.md">IOCTL_BTH_SDP_DISCONNECT</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536689">IOCTL_BTH_SDP_DISCONNECT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_disconnect.md">IOCTL_BTH_SDP_DISCONNECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536689">IOCTL_BTH_SDP_DISCONNECT</a>
  
 
  
-
 

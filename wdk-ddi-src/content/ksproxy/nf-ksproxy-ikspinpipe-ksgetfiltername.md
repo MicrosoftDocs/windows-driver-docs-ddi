@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetFilterName
-title: IKsPinPipe::KsGetFilterName method
+title: IKsPinPipe::KsGetFilterName
 author: windows-driver-content
 description: Returns the name of a filter.
 old-location: stream\ikspinpipe_ksgetfiltername.htm
 old-project: stream
 ms.assetid: A009B276-AF91-4FDD-AB81-6992311B3744
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsGetFilterName method, IKsPinPipe::KsGetFilterName, KsGetFilterName method [Streaming Media Devices], KsGetFilterName method [Streaming Media Devices], IKsPinPipe interface, KsGetFilterName,IKsPinPipe.KsGetFilterName, ksproxy/IKsPinPipe::KsGetFilterName, stream.ikspinpipe_ksgetfiltername
+ms.date: 4/23/2018
+ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetFilterName method, IKsPinPipe.KsGetFilterName, IKsPinPipe::KsGetFilterName, KsGetFilterName, KsGetFilterName method [Streaming Media Devices], KsGetFilterName method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetFilterName, stream.ikspinpipe_ksgetfiltername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,12 +38,13 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPinPipe.KsGetFilterName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPinPipe::KsGetFilterName method
+# IKsPinPipe::KsGetFilterName
 
 
 ## -description
@@ -52,16 +53,6 @@ req.typenames: PIPE_STATE
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Returns the name of a filter
-
-
-## -syntax
-
-
-````
-HRESULT KsGetFilterName(
-    
-);
-````
 
 
 ## -parameters
@@ -82,12 +73,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559922">IKsPinPipe</a>
  
 
  
-
 

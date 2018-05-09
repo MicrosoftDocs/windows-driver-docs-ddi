@@ -7,7 +7,7 @@ old-location: netvista\rilsystemselectionprefsroamingmode.htm
 old-project: netvista
 ms.assetid: aa9e1a92-e175-46ce-9f2e-3794e8d96636
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILSYSTEMSELECTIONPREFSROAMINGMODE, RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration [Network Drivers Starting with Windows Vista], RIL_ROAMMODE_AUTOMATIC, RIL_ROAMMODE_DOMESTIC, RIL_ROAMMODE_MAX, netvista.rilsystemselectionprefsroamingmode, ntddrilapitypes/RILSYSTEMSELECTIONPREFSROAMINGMODE, ntddrilapitypes/RIL_ROAMMODE_AUTOMATIC, ntddrilapitypes/RIL_ROAMMODE_DOMESTIC, ntddrilapitypes/RIL_ROAMMODE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSYSTEMSELECTIONPREFSROAMINGMODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSYSTEMSELECTIONPREFSROAMINGMODE
-req.product: Windows 10 or later.
 ---
 
 # RILSYSTEMSELECTIONPREFSROAMINGMODE enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILSYSTEMSELECTIONPREFSROAMINGMODE { 
-  RIL_ROAMMODE_AUTOMATIC,
-  RIL_ROAMMODE_DOMESTIC,
-  RIL_ROAMMODE_MAX
-} RILSYSTEMSELECTIONPREFSROAMINGMODE;
-````
 
 
 ## -enum-fields

@@ -7,8 +7,8 @@ old-location: kernel\silo_context_cleanup_callback.htm
 old-project: kernel
 ms.assetid: 452E63E8-DFBB-43AF-81F4-0405C3EF74CE
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
-ms.keywords: CleanupCallback, CleanupCallback callback function [Kernel-Mode Driver Architecture], SILO_CONTEXT_CLEANUP_CALLBACK, kernel.silo_context_cleanup_callback, ntddk/CleanupCallback
+ms.date: 4/30/2018
+ms.keywords: CleanupCallback, CleanupCallback callback function [Kernel-Mode Driver Architecture], SILO_CONTEXT_CLEANUP_CALLBACK, SILO_CONTEXT_CLEANUP_CALLBACK callback, kernel.silo_context_cleanup_callback, ntddk/CleanupCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,31 +38,19 @@ api_location:
 -	ntddk.h
 api_name:
 -	CleanupCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# SILO_CONTEXT_CLEANUP_CALLBACK callback
+# SILO_CONTEXT_CLEANUP_CALLBACK callback function
 
 
 ## -description
 
 
 This callback is invoked when the context object reaches a reference count of zero.
-
-
-## -prototype
-
-
-````
-SILO_CONTEXT_CLEANUP_CALLBACK CleanupCallback;
-
-void CleanupCallback(
-  _In_ PVOID SiloContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -72,7 +60,7 @@ void CleanupCallback(
 
 ### -param SiloContext [in]
 
-A pointer provided by the user with the call to <a href="..\ntddk\nf-ntddk-pscreatesilocontext.md">PsCreateSiloContext</a>.
+A pointer provided by the user with the call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt735058">PsCreateSiloContext</a>.
 
 
 ## -returns

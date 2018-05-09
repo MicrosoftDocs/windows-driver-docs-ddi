@@ -7,7 +7,7 @@ old-location: storage\ataportallocatequeuetag.htm
 old-project: storage
 ms.assetid: e298f51b-58b7-4f04-85d3-3ee809deb489
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortAllocateQueueTag, AtaPortAllocateQueueTag routine [Storage Devices], atartns_bae1e6d8-6ae5-4428-88a6-334a63fcefae.xml, irb/AtaPortAllocateQueueTag, storage.ataportallocatequeuetag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	irb.h
 api_name:
 -	AtaPortAllocateQueueTag
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortAllocateQueueTag function
@@ -51,18 +52,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortAllocateQueueTag</b> routine returns a queue tag for the specified device.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-UCHAR AtaPortAllocateQueueTag(
-  _In_ PVOID ChannelExtension,
-  _In_ UCHAR TargetId,
-  _In_ UCHAR Lun
-);
-````
-
 
 ## -parameters
 
@@ -109,16 +98,15 @@ The <b>AtaPortAllocateQueueTag</b> routine allocates either a per device queue t
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportinitializequeuetag.md">AtaPortInitializeQueueTag</a>
 
 
 
-<a href="..\irb\nf-irb-ataportreleasequeuetag.md">AtaPortReleaseQueueTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550168">AtaPortInitializeQueueTag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550214">AtaPortReleaseQueueTag</a>
  
 
  
-
 

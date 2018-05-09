@@ -7,7 +7,7 @@ old-location: kernel\kequerydpcwatchdoginformation.htm
 old-project: kernel
 ms.assetid: d776b815-815b-491d-b84b-5bf1944c9fac
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KeQueryDpcWatchdogInformation, KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml, kernel.kequerydpcwatchdoginformation, wdm/KeQueryDpcWatchdogInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeQueryDpcWatchdogInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeQueryDpcWatchdogInformation function
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>KeQueryDpcWatchdogInformation</b> routine returns the deferred procedure call (DPC) watchdog timer values for the current processor.
 
 
-## -syntax
-
-
-````
-NTSTATUS KeQueryDpcWatchdogInformation(
-  _Out_ PKDPC_WATCHDOG_INFORMATION WatchdogInformation
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ NTSTATUS KeQueryDpcWatchdogInformation(
 
 ### -param WatchdogInformation [out]
 
-A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_kdpc_watchdog_information.md">KDPC_WATCHDOG_INFORMATION</a> structure. The routine writes the current DPC watchdog timer values to this structure.
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff544087">KDPC_WATCHDOG_INFORMATION</a> structure. The routine writes the current DPC watchdog timer values to this structure.
 
 
 ## -returns
@@ -127,12 +117,11 @@ DPC routines should run only for brief periods, and should delegate as much proc
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_kdpc_watchdog_information.md">KDPC_WATCHDOG_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544087">KDPC_WATCHDOG_INFORMATION</a>
  
 
  
-
 

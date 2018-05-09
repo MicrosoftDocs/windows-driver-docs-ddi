@@ -38,7 +38,8 @@ api_location:
 -	parallel.h
 api_name:
 -	(*PPARALLEL_FREE_ROUTINE)
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
@@ -96,11 +97,11 @@ For more information, see <a href="https://msdn.microsoft.com/ea3a1998-9e31-4047
 
 ## -see-also
 
-<a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
-
-
-
 <a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+
+
+
+<a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
 
 
 

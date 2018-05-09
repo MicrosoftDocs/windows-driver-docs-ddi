@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetEventFilterText
-title: IDebugControl::GetEventFilterText method
+title: IDebugControl::GetEventFilterText
 author: windows-driver-content
 description: The GetEventFilterText method returns a short description of an event for a specific filter.
 old-location: debugger\geteventfiltertext.htm
 old-project: debugger
 ms.assetid: d311a030-e24c-427c-8a52-0c67d4fac653
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetEventFilterText method [Windows Debugging], GetEventFilterText method [Windows Debugging], IDebugControl interface, GetEventFilterText method [Windows Debugging], IDebugControl2 interface, GetEventFilterText method [Windows Debugging], IDebugControl3 interface, GetEventFilterText,IDebugControl.GetEventFilterText, IDebugControl, IDebugControl interface [Windows Debugging], GetEventFilterText method, IDebugControl2 interface [Windows Debugging], GetEventFilterText method, IDebugControl2::GetEventFilterText, IDebugControl3 interface [Windows Debugging], GetEventFilterText method, IDebugControl3::GetEventFilterText, IDebugControl::GetEventFilterText, IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, dbgeng/IDebugControl2::GetEventFilterText, dbgeng/IDebugControl3::GetEventFilterText, dbgeng/IDebugControl::GetEventFilterText, debugger.geteventfiltertext
+ms.date: 4/24/2018
+ms.keywords: GetEventFilterText, GetEventFilterText method [Windows Debugging], GetEventFilterText method [Windows Debugging],IDebugControl interface, GetEventFilterText method [Windows Debugging],IDebugControl2 interface, GetEventFilterText method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetEventFilterText method, IDebugControl.GetEventFilterText, IDebugControl2 interface [Windows Debugging],GetEventFilterText method, IDebugControl2::GetEventFilterText, IDebugControl3 interface [Windows Debugging],GetEventFilterText method, IDebugControl3::GetEventFilterText, IDebugControl::GetEventFilterText, IDebugControl_61936aac-8fe2-4f18-86aa-cba1404d845f.xml, dbgeng/IDebugControl2::GetEventFilterText, dbgeng/IDebugControl3::GetEventFilterText, dbgeng/IDebugControl::GetEventFilterText, debugger.geteventfiltertext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,31 +40,19 @@ api_name:
 -	IDebugControl.GetEventFilterText
 -	IDebugControl2.GetEventFilterText
 -	IDebugControl3.GetEventFilterText
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::GetEventFilterText method
+# IDebugControl::GetEventFilterText
 
 
 ## -description
 
 
 The <b>GetEventFilterText</b>  method returns a short description of an event for a specific filter.
-
-
-## -syntax
-
-
-````
-HRESULT GetEventFilterText(
-  [in]            ULONG  Index,
-  [out, optional] PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG TextSize
-);
-````
 
 
 ## -parameters
@@ -142,28 +130,27 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\ksdispatchspecificmethod.htm
 old-project: stream
 ms.assetid: d23ba3a3-9fcf-46a5-88dd-42af389c8598
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsDispatchSpecificMethod, KsDispatchSpecificMethod function [Streaming Media Devices], ks/KsDispatchSpecificMethod, ksfunc_9304d127-8930-4e0e-b39f-aefc10e54131.xml, stream.ksdispatchspecificmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDispatchSpecificMethod
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 The <b>KsDispatchSpecificMethod</b> function dispatches a method to a specific handler. The function assumes that the caller has previously dispatched the IRP to a handler through the <b>KsMethodHandler</b> function. 
 
 The function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsDispatchSpecificMethod(
-  _In_ PIRP         Irp,
-  _In_ PFNKSHANDLER Handler
-);
-````
 
 
 ## -parameters
@@ -101,12 +91,11 @@ The <b>KsDispatchSpecificMethod</b> function is intended for additional processi
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563399">KsMethodHandler</a>
  
 
  
-
 

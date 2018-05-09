@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_test_idle_state.htm
 old-project: kernel
 ms.assetid: 2B465848-6564-404F-8F5B-E761866278C5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_TEST_IDLE_STATE, PPEP_PPM_TEST_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_TEST_IDLE_STATE, kernel.pep_ppm_test_idle_state, pepfx/PEP_PPM_TEST_IDLE_STATE, pepfx/PPEP_PPM_TEST_IDLE_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_TEST_IDLE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_TEST_IDLE_STATE, *PPEP_PPM_TEST_IDLE_STATE
 ---
@@ -50,18 +51,6 @@ req.typenames: PEP_PPM_TEST_IDLE_STATE, *PPEP_PPM_TEST_IDLE_STATE
 
 
 The <b>PEP_PPM_TEST_IDLE_STATE</b> structure contains information about whether the processor can immediately enter a processor idle state.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_TEST_IDLE_STATE {
-  ULONG ProcessorState;
-  ULONG PlatformState;
-  ULONG VetoReason;
-} PEP_PPM_TEST_IDLE_STATE, *PPEP_PPM_TEST_IDLE_STATE;
-````
 
 
 ## -struct-fields
@@ -95,7 +84,6 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
 
 
 
@@ -107,12 +95,12 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186831">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a>
-
-
-
  
 
  
-
 

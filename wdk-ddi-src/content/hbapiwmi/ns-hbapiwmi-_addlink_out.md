@@ -7,7 +7,7 @@ old-location: storage\addlink_out.htm
 old-project: storage
 ms.assetid: fe088ec7-2577-488d-a1c7-a7e2a1f86f6a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PAddLink_OUT, AddLink_OUT, AddLink_OUT structure [Storage Devices], PAddLink_OUT, PAddLink_OUT structure pointer [Storage Devices], _AddLink_OUT, hbapiwmi/AddLink_OUT, hbapiwmi/PAddLink_OUT, storage.addlink_out, structs-Fibre_5f49a86f-a59f-4572-bfa2-5bb78dfe599b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	AddLink_OUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AddLink_OUT, *PAddLink_OUT
 ---
@@ -50,16 +51,6 @@ req.typenames: AddLink_OUT, *PAddLink_OUT
 
 
 The AddLink_OUT structure is used by an HBA miniport driver to report the status of a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550128">AddLink</a> WMI method.
-
-
-## -syntax
-
-
-````
-typedef struct _AddLink_OUT {
-  ULONG HBAStatus;
-} AddLink_OUT, *PAddLink_OUT;
-````
 
 
 ## -struct-fields
@@ -83,6 +74,9 @@ The WMI tool suite generates a declaration of the AddLink_OUT structure in <i>Hb
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550128">AddLink</a>
 
 
@@ -92,11 +86,7 @@ The WMI tool suite generates a declaration of the AddLink_OUT structure in <i>Hb
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>
-
-
-
  
 
  
-
 

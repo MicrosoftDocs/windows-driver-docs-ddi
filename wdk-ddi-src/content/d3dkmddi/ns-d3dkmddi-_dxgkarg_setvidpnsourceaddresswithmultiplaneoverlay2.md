@@ -7,7 +7,7 @@ old-location: display\dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2.htm
 old-project: display
 ms.assetid: 6138BAF5-F953-47E7-A572-BE4673CF7046
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 structure [Display Devices], _DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2, display.dxgkarg_setvidpnsourceaddresswithmultiplaneoverlay2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
 ---
@@ -50,25 +51,9 @@ req.typenames: DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2
 
 
 
-<b>DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2</b> is passed to the  <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a> function to change the overlay configuration being displayed.
+<b>DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2</b> is passed to the  <a href="https://msdn.microsoft.com/7E87D610-6449-47E0-AB6B-9D926B490B45">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a> function to change the overlay configuration being displayed.
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2 {
-  UINT                             ContextCount;
-  HANDLE                           Context[1+D3DDDI_MAX_BROADCAST_CONTEXT];
-  DXGK_SETVIDPNSOURCEADDRESS_FLAGS Flags;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID   VidPnSourceId;
-  UINT                             PlaneCount;
-  DXGK_MULTIPLANE_OVERLAY_PLANE2   pPlanes;
-  UINT                             Duration;
-} DXGKARG_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2;
-````
 
 
 ## -struct-fields
@@ -88,7 +73,7 @@ An array of handles to the contexts that contributed to a display operation.
 
 ### -field Flags
 
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure that identifies the type of display operation to perform.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562052">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a> structure that identifies the type of display operation to perform.
 
 
 ### -field VidPnSourceId
@@ -103,7 +88,7 @@ The number of overlay planes in the <b>pPlanes</b> list.
 
 ### -field pPlanes
 
-An array of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane2.md">DXGK_MULTIPLANE_OVERLAY_PLANE2</a> structures that specify the overlay planes to display.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn914478">DXGK_MULTIPLANE_OVERLAY_PLANE2</a> structures that specify the overlay planes to display.
 
 
 ### -field Duration
@@ -115,20 +100,19 @@ If zero, the refresh rate should be the default rate based on the current mode.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_setvidpnsourceaddress_flags.md">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay2.md">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914478">DXGK_MULTIPLANE_OVERLAY_PLANE2</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_multiplane_overlay_plane2.md">DXGK_MULTIPLANE_OVERLAY_PLANE2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562052">DXGK_SETVIDPNSOURCEADDRESS_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/7E87D610-6449-47E0-AB6B-9D926B490B45">DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2</a>
  
 
  
-
 

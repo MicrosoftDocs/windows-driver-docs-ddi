@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.CreateSymbolGroup2
-title: IDebugSymbols3::CreateSymbolGroup2 method
+title: IDebugSymbols3::CreateSymbolGroup2
 author: windows-driver-content
 description: The CreateSymbolGroup2 method creates a new symbol group.
 old-location: debugger\createsymbolgroup2.htm
 old-project: debugger
 ms.assetid: 42ddf77a-14c8-4d6a-98a2-b0c67836990d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CreateSymbolGroup2 method [Windows Debugging], CreateSymbolGroup2 method [Windows Debugging], IDebugSymbols3 interface, CreateSymbolGroup2,IDebugSymbols3.CreateSymbolGroup2, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup2 method, IDebugSymbols3::CreateSymbolGroup2, dbgeng/IDebugSymbols3::CreateSymbolGroup2, debugger.createsymbolgroup2
+ms.date: 4/24/2018
+ms.keywords: CreateSymbolGroup2, CreateSymbolGroup2 method [Windows Debugging], CreateSymbolGroup2 method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],CreateSymbolGroup2 method, IDebugSymbols3.CreateSymbolGroup2, IDebugSymbols3::CreateSymbolGroup2, dbgeng/IDebugSymbols3::CreateSymbolGroup2, debugger.createsymbolgroup2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugSymbols3.CreateSymbolGroup2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::CreateSymbolGroup2 method
+# IDebugSymbols3::CreateSymbolGroup2
 
 
 ## -description
 
 
 The <b>CreateSymbolGroup2</b>  method creates a new symbol group.
-
-
-## -syntax
-
-
-````
-HRESULT CreateSymbolGroup2(
-  [out] IDebugSymbolGroup **Group
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ HRESULT CreateSymbolGroup2(
 
 ### -param Group [out]
 
-Receives an interface pointer for the new <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a> object.
+Receives an interface pointer for the new <a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a> object.
 
 
 ## -returns
@@ -115,20 +106,19 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550838">IDebugSymbolGroup</a>
+
+
+
 <a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

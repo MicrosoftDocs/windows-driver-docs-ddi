@@ -7,7 +7,7 @@ old-location: netvista\ril_setmsginuiccstatus.htm
 old-project: netvista
 ms.assetid: 0f24bddd-9e22-4710-9028-dbeeac29e2d5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SetMsgInUiccStatus, RIL_SetMsgInUiccStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setmsginuiccstatus, rilapi/RIL_SetMsgInUiccStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_SetMsgInUiccStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SetMsgInUiccStatus function
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_SetMsgInUiccStatus(
-   HRIL             hRil,
-   LPVOID           lpContext,
-   HUICCAPP         hUiccApp,
-   DWORD            dwIndex,
-   RILMESSAGESTATUS dwStatus
-);
-````
 
 
 ## -parameters

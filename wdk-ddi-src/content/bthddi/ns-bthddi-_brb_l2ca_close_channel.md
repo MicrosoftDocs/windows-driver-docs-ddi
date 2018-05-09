@@ -7,7 +7,7 @@ old-location: bltooth\_brb_l2ca_close_channel.htm
 old-project: bltooth
 ms.assetid: 0a9f3720-8ae4-4219-a8b3-f1b88126f176
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_L2CA_CLOSE_CHANNEL, _BRB_L2CA_CLOSE_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_close_channel, bth_structs_97d7dc1f-eb95-4cf3-8d21-a814622a0b81.xml, bthddi/_BRB_L2CA_CLOSE_CHANNEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_L2CA_CLOSE_CHANNEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 The _BRB_L2CA_CLOSE_CHANNEL structure describes an open L2CAP channel to close.
 
 
-## -syntax
-
-
-````
-struct _BRB_L2CA_CLOSE_CHANNEL {
-  BRB_HEADER           Hdr;
-  BTH_ADDR             BtAddress;
-  L2CAP_CHANNEL_HANDLE ChannelHandle;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +61,7 @@ struct _BRB_L2CA_CLOSE_CHANNEL {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -106,6 +95,13 @@ A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initi
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536614">BRB_L2CA_CLOSE_CHANNEL</a>
 
 
@@ -116,15 +112,7 @@ A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initi
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
  
 
  
-
 

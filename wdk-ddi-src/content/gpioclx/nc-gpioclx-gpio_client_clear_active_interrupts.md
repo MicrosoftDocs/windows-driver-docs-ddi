@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 8D66F806-92BA-4A70-99F6-1C221E8752A3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_ClearActiveInterrupts, CLIENT_ClearActiveInterrupts callback function [Parallel Ports], GPIO.client_clearactiveinterrupts, GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS, gpioclx/CLIENT_ClearActiveInterrupts
+ms.keywords: CLIENT_ClearActiveInterrupts, CLIENT_ClearActiveInterrupts callback, CLIENT_ClearActiveInterrupts callback function [Parallel Ports], GPIO.client_clearactiveinterrupts, GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS, gpioclx/CLIENT_ClearActiveInterrupts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_ClearActiveInterrupts
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS callback
+# GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS callback function
 
 
 ## -description
 
 
 The <i>CLIENT_ClearActiveInterrupts</i> event callback function clears active interrupts on a set of general-purpose I/O (GPIO) pins that are configured as interrupt inputs.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS CLIENT_ClearActiveInterrupts;
-
-NTSTATUS CLIENT_ClearActiveInterrupts(
-  _In_    PVOID                                    Context,
-  _Inout_ PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS ClearParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,11 +132,6 @@ The GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
@@ -157,7 +139,7 @@ The GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 
@@ -165,8 +147,12 @@ The GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
  
 
  
-
 

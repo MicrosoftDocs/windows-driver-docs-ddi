@@ -7,7 +7,7 @@ old-location: image\device_descriptor.htm
 old-project: image
 ms.assetid: 15ad337a-0b33-48ba-98cf-6aff2698e2ba
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PDEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR, DEVICE_DESCRIPTOR structure [Imaging Devices], PDEVICE_DESCRIPTOR, PDEVICE_DESCRIPTOR structure pointer [Imaging Devices], _DEVICE_DESCRIPTOR, image.device_descriptor, stifnc_1b07d50b-5530-47d4-a212-54305a0fef7a.xml, usbscan/DEVICE_DESCRIPTOR, usbscan/PDEVICE_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	usbscan.h
 api_name:
 -	DEVICE_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_DESCRIPTOR, *PDEVICE_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _DEVICE_DESCRIPTOR structure
@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The DEVICE_DESCRIPTOR structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_get_device_descriptor.md">IOCTL_GET_DEVICE_DESCRIPTOR</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _DEVICE_DESCRIPTOR {
-  USHORT usVendorId;
-  USHORT usProductId;
-  USHORT usBcdDevice;
-  USHORT usLanguageId;
-} DEVICE_DESCRIPTOR, *PDEVICE_DESCRIPTOR;
-````
+The DEVICE_DESCRIPTOR structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542856">IOCTL_GET_DEVICE_DESCRIPTOR</a>.
 
 
 ## -struct-fields

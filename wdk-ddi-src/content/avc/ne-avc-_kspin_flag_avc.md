@@ -7,7 +7,7 @@ old-location: stream\kspin_flag_avc.htm
 old-project: stream
 ms.assetid: 45a85718-8997-4c54-b283-e26247866735
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSPIN_FLAG_AVC, KSPIN_FLAG_AVC enumeration [Streaming Media Devices], KSPIN_FLAG_AVCMASK, KSPIN_FLAG_AVC_CONNECTED, KSPIN_FLAG_AVC_FIXEDPCR, KSPIN_FLAG_AVC_PCRONLY, KSPIN_FLAG_AVC_PERMANENT, _KSPIN_FLAG_AVC, avc/KSPIN_FLAG_AVC, avc/KSPIN_FLAG_AVCMASK, avc/KSPIN_FLAG_AVC_CONNECTED, avc/KSPIN_FLAG_AVC_FIXEDPCR, avc/KSPIN_FLAG_AVC_PCRONLY, avc/KSPIN_FLAG_AVC_PERMANENT, avcref_9fab0898-b113-4d2f-ae4a-8cc6b01217d9.xml, stream.kspin_flag_avc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	KSPIN_FLAG_AVC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPIN_FLAG_AVC
 ---
@@ -50,20 +51,6 @@ req.typenames: KSPIN_FLAG_AVC
 
 
 The KSPIN_FLAG_AVC enumeration type is used for connection management and in the <b>AVC_FUNCTION_GET_CONNECTINFO</b> function code.
-
-
-## -syntax
-
-
-````
-typedef enum _KSPIN_FLAG_AVC { 
-  KSPIN_FLAG_AVCMASK        = 0x03,
-  KSPIN_FLAG_AVC_PERMANENT  = 0x01,
-  KSPIN_FLAG_AVC_CONNECTED  = 0x02,
-  KSPIN_FLAG_AVC_PCRONLY    = 0x04,
-  KSPIN_FLAG_AVC_FIXEDPCR   = 0x08
-} KSPIN_FLAG_AVC;
-````
 
 
 ## -enum-fields
@@ -107,14 +94,14 @@ These bit flags are used by the intersect handler to determine plug compatibilit
 
 ## -see-also
 
-<a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556379">AV/C Intersect Handler</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554154">AVC_FUNCTION_GET_CONNECTINFO</a>
-
-
-
  
 
  

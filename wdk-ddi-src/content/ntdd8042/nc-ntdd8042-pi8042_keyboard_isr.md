@@ -7,8 +7,8 @@ old-location: hid\pi8042_keyboard_isr.htm
 old-project: hid
 ms.assetid: e21fa089-0650-4a3f-96f9-f479d36ef080
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: KeyboardIsr, KeyboardIsr callback function [Human Input Devices], PI8042_KEYBOARD_ISR, hid.pi8042_keyboard_isr, i8042ref_34293f47-3e6c-4721-ab58-8ac531543c8e.xml, ntdd8042/KeyboardIsr
+ms.date: 4/30/2018
+ms.keywords: KeyboardIsr, KeyboardIsr callback function [Human Input Devices], PI8042_KEYBOARD_ISR, PI8042_KEYBOARD_ISR callback, hid.pi8042_keyboard_isr, i8042ref_34293f47-3e6c-4721-ab58-8ac531543c8e.xml, ntdd8042/KeyboardIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,37 +38,19 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	KeyboardIsr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
+req.typenames: 
 ---
 
-# PI8042_KEYBOARD_ISR callback
+# PI8042_KEYBOARD_ISR callback function
 
 
 ## -description
 
 
 A PI8042_KEYBOARD_ISR-typed callback routine customizes the operation of the I8042prt keyboard ISR.
-
-
-## -prototype
-
-
-````
-PI8042_KEYBOARD_ISR KeyboardIsr;
-
-BOOLEAN KeyboardIsr(
-  _In_  PVOID                IsrContext,
-  _In_  PKEYBOARD_INPUT_DATA CurrentInput,
-  _In_  POUTPUT_PACKET       CurrentOutput,
-  _In_  UCHAR                StatusByte,
-  _In_  PUCHAR               Byte,
-  _Out_ PBOOLEAN             ContinueProcessing,
-  _In_  PKEYBOARD_SCAN_STATE ScanState
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -88,7 +70,7 @@ Pointer to the input <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ### -param CurrentOutput [in]
 
-Pointer to an <a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a> structure, which specifies an array of bytes that is being written to the hardware device.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543218">OUTPUT_PACKET</a> structure, which specifies an array of bytes that is being written to the hardware device.
 
 
 ### -param StatusByte [in]
@@ -108,7 +90,7 @@ Specifies, if <b>TRUE</b>, that processing in the I8042prt keyboard ISR will con
 
 ### -param ScanState [in]
 
-Pointer to a <a href="..\ntdd8042\ne-ntdd8042-_keyboard_scan_state.md">KEYBOARD_SCAN_STATE</a> enumeration value, which identifies the keyboard scan state.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542342">KEYBOARD_SCAN_STATE</a> enumeration value, which identifies the keyboard scan state.
 
 
 ## -returns
@@ -135,11 +117,14 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542337">KEYBOARD_INPUT_DATA</a>
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542342">KEYBOARD_SCAN_STATE</a>
 
 
 
@@ -147,16 +132,12 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 
 
-<a href="..\ntdd8042\ns-ntdd8042-_output_packet.md">OUTPUT_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543218">OUTPUT_PACKET</a>
 
 
 
-<a href="..\ntdd8042\ne-ntdd8042-_keyboard_scan_state.md">KEYBOARD_SCAN_STATE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543248">PI8042_KEYBOARD_ISR</a>
  
 
  
-
 

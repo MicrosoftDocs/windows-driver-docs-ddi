@@ -7,7 +7,7 @@ old-location: kernel\zwfreevirtualmemory.htm
 old-project: kernel
 ms.assetid: ca6675cf-3482-4e62-8f7c-801c1deacd37
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtFreeVirtualMemory, ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, kernel.zwfreevirtualmemory, ntifs/NtFreeVirtualMemory, ntifs/ZwFreeVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 api_name:
 -	ZwFreeVirtualMemory
 -	NtFreeVirtualMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # ZwFreeVirtualMemory function
@@ -51,19 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ZwFreeVirtualMemory</b> routine releases, decommits, or both, a region of pages within the virtual address space of a specified process.
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwFreeVirtualMemory(
-  _In_    HANDLE  ProcessHandle,
-  _Inout_ PVOID   *BaseAddress,
-  _Inout_ PSIZE_T RegionSize,
-  _In_    ULONG   FreeType
-);
-````
 
 
 ## -parameters
@@ -80,7 +68,7 @@ A handle for the process in whose context the pages to be freed reside. Use the 
 
 A pointer to a variable that will receive the virtual address of the freed region of pages. 
 
-If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, <i>BaseAddress</i> must be the base address returned by <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a> when the region was reserved.
+If the MEM_RELEASE flag is set in the <i>FreeType</i> parameter, <i>BaseAddress</i> must be the base address returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> when the region was reserved.
 
 
 ### -param RegionSize [in, out]
@@ -138,7 +126,7 @@ MEM_RELEASE
 <td>
 <b>ZwFreeVirtualMemory</b> will release the specified region of pages. The pages enter the free state.
 
-If you specify this flag, *<i>RegionSize</i> must be zero, and <i>BaseAddress </i>must point to the base address returned by <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a> when the region was reserved. <b>ZwFreeVirtualMemory</b> fails if either of these conditions is not met.
+If you specify this flag, *<i>RegionSize</i> must be zero, and <i>BaseAddress </i>must point to the base address returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> when the region was reserved. <b>ZwFreeVirtualMemory</b> fails if either of these conditions is not met.
 
 If any pages in the region are currently committed, <b>ZwFreeVirtualMemory</b> first decommits and then releases them.
 
@@ -247,7 +235,7 @@ The system initializes and loads each committed page into physical memory only a
 
 When a process terminates, the system releases all storage for committed pages.
 
-You can use <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a> to put committed memory pages into either the reserved or free state.
+You can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> to put committed memory pages into either the reserved or free state.
 
 </td>
 </tr>
@@ -274,7 +262,7 @@ Decommit and release a region of committed or uncommitted pages. After this oper
 
 If a page is decommitted but not released, its state changes to reserved. You can subsequently call <b>ZwAllocateVirtualMemory</b> to commit it, or <b>ZwFreeVirtualMemory</b> to release it. Attempting to read from or write to a reserved page results in an access violation exception.
 
-<b>ZwFreeVirtualMemory</b> can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by <a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a> must be released at the same time.
+<b>ZwFreeVirtualMemory</b> can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a> must be released at the same time.
 
 If a page is released, its state changes to free, and it is available for subsequent allocation operations. After memory has been released or decommitted, you can never refer to the memory again. Any information that may have been in that memory is gone forever. Attempting to read from or write to a free page results in an access violation exception. If you require information, do not decommit or free memory that contains that information.
 
@@ -289,7 +277,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwallocatevirtualmemory.md">ZwAllocateVirtualMemory</a>
 
 
 
@@ -297,8 +284,8 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566416">ZwAllocateVirtualMemory</a>
  
 
  
-
 

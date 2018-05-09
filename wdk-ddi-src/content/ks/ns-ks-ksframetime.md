@@ -7,7 +7,7 @@ old-location: stream\ksframetime.htm
 old-project: stream
 ms.assetid: 0e3beb72-2b00-41be-a7b4-341bcf065e92
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSFRAMETIME, KSFRAMETIME, KSFRAMETIME structure [Streaming Media Devices], PKSFRAMETIME, PKSFRAMETIME structure pointer [Streaming Media Devices], ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml, ks/KSFRAMETIME, ks/PKSFRAMETIME, stream.ksframetime"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSFRAMETIME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSFRAMETIME, *PKSFRAMETIME
 ---
@@ -50,18 +51,6 @@ req.typenames: KSFRAMETIME, *PKSFRAMETIME
 
 
 The KSFRAMETIME structure is supported by rendering pins, and is used to return the duration of the next "frame" of data, and flags associated with that frame.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG Duration;
-  ULONG    FrameFlags;
-  ULONG    Reserved;
-} KSFRAMETIME, *PKSFRAMETIME;
-````
 
 
 ## -struct-fields
@@ -76,7 +65,7 @@ Specifies the duration in presentation time units.
 
 ### -field FrameFlags
 
-Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>.
+Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for <a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a>.
 
 
 ### -field Reserved

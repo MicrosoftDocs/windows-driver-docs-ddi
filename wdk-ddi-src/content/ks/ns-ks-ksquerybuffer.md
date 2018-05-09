@@ -7,7 +7,7 @@ old-location: stream\ksquerybuffer.htm
 old-project: stream
 ms.assetid: 6827df53-f970-4ceb-961d-b4b95fa56cfe
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSQUERYBUFFER, KSQUERYBUFFER, KSQUERYBUFFER structure [Streaming Media Devices], PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices], ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, ks/KSQUERYBUFFER, ks/PKSQUERYBUFFER, stream.ksquerybuffer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSQUERYBUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSQUERYBUFFER, *PKSQUERYBUFFER
 ---
@@ -50,18 +51,6 @@ req.typenames: KSQUERYBUFFER, *PKSQUERYBUFFER
 
 
 The KSQUERYBUFFER structure is used when querying for outstanding buffers available on an event with KSEVENT_TYPE_QUERYBUFFER<b>.</b>
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSEVENT      Event;
-  PKSEVENTDATA EventData;
-  PVOID        Reserved;
-} KSQUERYBUFFER, *PKSQUERYBUFFER;
-````
 
 
 ## -struct-fields
@@ -76,7 +65,7 @@ Specifies the description of the original event, with the KSEVENT_TYPE_QUERYBUFF
 
 ### -field EventData
 
-A pointer to a <a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a> structure. This is the same pointer supplied to <a href="..\ks\nc-ks-pfnksaddevent.md">AVStrMiniAddEvent</a> at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a> structure. This is the same pointer supplied to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554260">AVStrMiniAddEvent</a> at event enable time. This pointer is used as the unique identifier in locating the event, just as it is used when disabling the event.
 
 
 ### -field Reserved
@@ -157,16 +146,15 @@ life is good.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560992">KSBUFFER_ITEM</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
-
-
-
-<a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
-
-
-
  
 
  
-
 

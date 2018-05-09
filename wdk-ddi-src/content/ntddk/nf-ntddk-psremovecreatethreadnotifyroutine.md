@@ -7,7 +7,7 @@ old-location: kernel\psremovecreatethreadnotifyroutine.htm
 old-project: kernel
 ms.assetid: ef1fd29c-e0ef-4c08-ab3a-b1a3c694c06b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: PsRemoveCreateThreadNotifyRoutine, PsRemoveCreateThreadNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_cfa75911-6de3-4459-8093-855279e0a5f7.xml, kernel.psremovecreatethreadnotifyroutine, ntddk/PsRemoveCreateThreadNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsRemoveCreateThreadNotifyRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # PsRemoveCreateThreadNotifyRoutine function
@@ -49,17 +50,7 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>PsRemoveCreateThreadNotifyRoutine</b> routine removes a callback routine that was registered by the <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a> routine.
-
-
-## -syntax
-
-
-````
-NTSTATUS PsRemoveCreateThreadNotifyRoutine(
-  _In_ PCREATE_THREAD_NOTIFY_ROUTINE NotifyRoutine
-);
-````
+The <b>PsRemoveCreateThreadNotifyRoutine</b> routine removes a callback routine that was registered by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559954">PsSetCreateThreadNotifyRoutine</a> routine.
 
 
 ## -parameters
@@ -69,7 +60,7 @@ NTSTATUS PsRemoveCreateThreadNotifyRoutine(
 
 ### -param NotifyRoutine [in]
 
-Pointer to the callback routine that the driver has previously registered through <a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>. 
+Pointer to the callback routine that the driver has previously registered through <a href="https://msdn.microsoft.com/library/windows/hardware/ff559954">PsSetCreateThreadNotifyRoutine</a>. 
 
 
 ## -returns
@@ -92,12 +83,11 @@ If the driver's callback routine is currently running, <b>PsRemoveCreateThreadNo
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559954">PsSetCreateThreadNotifyRoutine</a>
  
 
  
-
 

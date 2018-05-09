@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter
-title: IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter method
+title: IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
 author: windows-driver-content
 description: Gets the value of the PeakMeter node in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getstreamchannelpeakmeter.htm
 old-project: audio
 ms.assetid: 69860DFE-DDA6-4889-B796-CEAEE59A10CC
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetStreamChannelPeakMeter method [Audio Devices], GetStreamChannelPeakMeter method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamChannelPeakMeter,IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamChannelPeakMeter method, IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, audio.iminiportstreamaudioenginenode_getstreamchannelpeakmeter, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
+ms.date: 4/16/2018
+ms.keywords: GetStreamChannelPeakMeter, GetStreamChannelPeakMeter method [Audio Devices], GetStreamChannelPeakMeter method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelPeakMeter method, IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter, IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter, audio.iminiportstreamaudioenginenode_getstreamchannelpeakmeter, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportStreamAudioEngineNode.GetStreamChannelPeakMeter
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter method
+# IMiniportStreamAudioEngineNode::GetStreamChannelPeakMeter
 
 
 ## -description
 
 
 Gets the value of the PeakMeter node in the path of the audio stream.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetStreamChannelPeakMeter(
-  [in]  UINT32 ulChannel,
-  [out] LONG   *plPeakMeter
-);
-````
 
 
 ## -parameters
@@ -91,12 +81,11 @@ code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFStrings2.get_Item
-title: IWDTFStrings2::get_Item method
+title: IWDTFStrings2::get_Item
 author: windows-driver-content
-description: Gets an individual device in the DeviceDepot.
-old-location: dtf\iwdtfdevicedepot2_item.htm
+description: Gets an individual string in the collection.
+old-location: dtf\iwdtfstrings2_item.htm
 old-project: dtf
-ms.assetid: 9411437c-60d8-424e-b54c-7750f1c4dd9e
+ms.assetid: 01fe6cb0-5867-440f-b4ad-79bc946260b1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework], Item property, IWDTFDeviceDepot2.Item, IWDTFDeviceDepot2::get_Item, IWDTFStrings2, IWDTFStrings2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, Microsoft.WDTF.IWDTFDeviceDepot2.Item, Microsoft::WDTF::IWDTFDeviceDepot2::Item, dtf.iwdtfdevicedepot2_item, get_Item,IWDTFStrings2.get_Item, wdtf/IWDTFDeviceDepot2::Item, wdtf/IWDTFDeviceDepot2::get_Item
+ms.date: 4/4/2018
+ms.keywords: IWDTFStrings2 interface [Windows Device Testing Framework],Item property, IWDTFStrings2.Item, IWDTFStrings2.get_Item, IWDTFStrings2::Item, IWDTFStrings2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework],IWDTFStrings2 interface, Microsoft.WDTF.IWDTFStrings2.Item, Microsoft::WDTF::IWDTFStrings2::Item, dtf.iwdtfstrings2_item, get_Item, wdtf/IWDTFStrings2::Item, wdtf/IWDTFStrings2::get_Item
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -37,34 +37,23 @@ api_type:
 api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
--	IWDTFDeviceDepot2.Item
--	IWDTFDeviceDepot2.get_Item
-product: Windows
+-	IWDTFStrings2.Item
+-	IWDTFStrings2.get_Item
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFStrings2::get_Item method
+# IWDTFStrings2::get_Item
 
 
 ## -description
 
 
-Gets an individual device in the DeviceDepot.
+Gets an individual string in the collection.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_Item(
-  [in]          LONG         Index,
-  [out, retval] IWDTFTarget2 **ppTarget
-);
-````
 
 
 ## -parameters
@@ -72,16 +61,11 @@ HRESULT get_Item(
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfdevicedepot2.md">IWDTFDeviceDepot2</a>
 
 
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439274">IWDTFStrings2</a>
  
 
  
-
 

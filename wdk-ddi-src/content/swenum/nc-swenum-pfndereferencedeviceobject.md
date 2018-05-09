@@ -7,7 +7,7 @@ old-location: stream\kstrdereferencedeviceobject.htm
 old-project: stream
 ms.assetid: 8d220b69-122c-4019-9c70-4c744503481d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrDereferenceDeviceObject, KStrDereferenceDeviceObject routine [Streaming Media Devices], PFNDEREFERENCEDEVICEOBJECT, ks/KStrDereferenceDeviceObject, ksfunc_521a642c-7a09-416b-a883-09ec5af4f026.xml, stream.kstrdereferencedeviceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,32 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	KStrDereferenceDeviceObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFNDEREFERENCEDEVICEOBJECT callback
+# PFNDEREFERENCEDEVICEOBJECT callback function
 
 
 ## -description
 
 
 The driver can use this routine to decrement the reference count of the PDO.
-
-
-## -prototype
-
-
-````
-PFNDEREFERENCEDEVICEOBJECT KStrDereferenceDeviceObject;
-
-VOID KStrDereferenceDeviceObject(
-  _In_ PVOID Context
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -89,7 +76,7 @@ Returns STATUS_SUCCESS if the request is handled. Otherwise returns an appropria
 
 
 
-Minidrivers access this method through the <b>DereferenceDeviceObject</b> member of the <a href="..\ks\ns-ks-bus_interface_reference.md">BUS_INTERFACE_REFERENCE</a> structure.
+Minidrivers access this method through the <b>DereferenceDeviceObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557584">BUS_INTERFACE_REFERENCE</a> structure.
 
 When the PDO's reference count is 0, it becomes eligible for removal. Note that this condition does not guarantee removal.
 

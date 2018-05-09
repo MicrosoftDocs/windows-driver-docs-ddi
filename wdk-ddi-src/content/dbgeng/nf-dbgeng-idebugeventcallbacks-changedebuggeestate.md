@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacks.ChangeDebuggeeState
-title: IDebugEventCallbacks::ChangeDebuggeeState method
+title: IDebugEventCallbacks::ChangeDebuggeeState
 author: windows-driver-content
 description: The ChangeDebuggeeState callback method is called by the engine when it makes or detects changes to the target.
 old-location: debugger\idebugeventcallbacks_changedebuggeestate.htm
 old-project: debugger
 ms.assetid: 157a420a-18ad-46cf-ae93-603e9226ee4f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface, ChangeDebuggeeState,IDebugEventCallbacks.ChangeDebuggeeState, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], ChangeDebuggeeState method, IDebugEventCallbacks::ChangeDebuggeeState, dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, debugger.idebugeventcallbacks_changedebuggeestate
+ms.date: 4/24/2018
+ms.keywords: ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging],IDebugEventCallbacks interface, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml, IDebugEventCallbacks interface [Windows Debugging],ChangeDebuggeeState method, IDebugEventCallbacks.ChangeDebuggeeState, IDebugEventCallbacks::ChangeDebuggeeState, dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, debugger.idebugeventcallbacks_changedebuggeestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugEventCallbacks.ChangeDebuggeeState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugEventCallbacks::ChangeDebuggeeState method
+# IDebugEventCallbacks::ChangeDebuggeeState
 
 
 ## -description
 
 
 The <b>ChangeDebuggeeState</b> callback method is called by the engine when it makes or detects changes to the target.
-
-
-## -syntax
-
-
-````
-HRESULT ChangeDebuggeeState(
-  [in] ULONG   Flags,
-  [in] ULONG64 Argument
-);
-````
 
 
 ## -parameters

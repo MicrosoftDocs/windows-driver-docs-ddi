@@ -7,7 +7,7 @@ old-location: bltooth\_brb_sco_close_channel.htm
 old-project: bltooth
 ms.assetid: 1921cee1-411b-4fec-acfd-3380e84823b8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_SCO_CLOSE_CHANNEL, _BRB_SCO_CLOSE_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_close_channel, bth_structs_d031efa4-0a68-47c0-8344-e95c677661c9.xml, bthddi/_BRB_SCO_CLOSE_CHANNEL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_SCO_CLOSE_CHANNEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 The _BRB_SCO_CLOSE_CHANNEL structure describes a currently open SCO channel to close.
 
 
-## -syntax
-
-
-````
-struct _BRB_SCO_CLOSE_CHANNEL {
-  BRB_HEADER         Hdr;
-  BTH_ADDR           BtAddress;
-  SCO_CHANNEL_HANDLE ChannelHandle;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +61,7 @@ struct _BRB_SCO_CLOSE_CHANNEL {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -103,16 +92,15 @@ A <b>BRB_SCO_CLOSE_CHANNEL</b> request can be made for a channel that was initia
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536622">BRB_SCO_CLOSE_CHANNEL</a>
-
-
-
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
-
-
-
  
 
  
-
 

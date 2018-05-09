@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackHardwareInterrupt.OnD0EntryPostInterruptsEnabled
-title: IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled method
+title: IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled
 author: windows-driver-content
 description: A driver's OnD0EntryPostInterruptsEnabled event callback function performs device-specific operations that are required when the driver enables the device's hardware interrupts.
 old-location: wdf\ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6AA5AA6F-DC73-40E6-8EE0-CAA91D89A0E8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackHardwareInterrupt, IPnpCallbackHardwareInterrupt interface, OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, OnD0EntryPostInterruptsEnabled method, OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt interface, OnD0EntryPostInterruptsEnabled,IPnpCallbackHardwareInterrupt.OnD0EntryPostInterruptsEnabled, umdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, wdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, wudfddi/IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled
+ms.keywords: IPnpCallbackHardwareInterrupt interface,OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt.OnD0EntryPostInterruptsEnabled, IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, OnD0EntryPostInterruptsEnabled, OnD0EntryPostInterruptsEnabled method, OnD0EntryPostInterruptsEnabled method,IPnpCallbackHardwareInterrupt interface, umdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, wdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, wudfddi/IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IPnpCallbackHardwareInterrupt.OnD0EntryPostInterruptsEnabled
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled method
+# IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled
 
 
 ## -description
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 A driver's <b>OnD0EntryPostInterruptsEnabled</b> event callback function performs device-specific operations that are required when the driver enables the device's hardware interrupts.
-
-
-## -syntax
-
-
-````
-HRESULT OnD0EntryPostInterruptsEnabled(
-  [in] IWDFDevice3            *pInterrupt,
-  [in] WDF_POWER_DEVICE_STATE PreviousState
-);
-````
 
 
 ## -parameters
@@ -78,12 +67,12 @@ HRESULT OnD0EntryPostInterruptsEnabled(
 
 ### -param PreviousState [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the previous device power state.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552421">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the previous device power state.
 
 
 #### - pInterrupt [in]
 
-A pointer to <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface.
+A pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface.
 
 
 ## -returns
@@ -106,16 +95,15 @@ For more information, see <a href="https://msdn.microsoft.com/432907e7-05a3-4a99
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439744">IPnpCallbackHardwareInterrupt</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439755">OnD0ExitPreInterruptsDisabled</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardwareinterrupt.md">IPnpCallbackHardwareInterrupt</a>
-
-
-
  
 
  
-
 

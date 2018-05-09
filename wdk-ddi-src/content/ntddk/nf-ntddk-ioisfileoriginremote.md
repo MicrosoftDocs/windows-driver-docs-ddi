@@ -7,7 +7,7 @@ old-location: ifsk\ioisfileoriginremote.htm
 old-project: ifsk
 ms.assetid: 46655cbe-0483-4897-bd12-ce108af326c6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: IoIsFileOriginRemote, IoIsFileOriginRemote routine [Installable File System Drivers], ifsk.ioisfileoriginremote, ioref_04dab537-9cd7-44be-9592-0682c0bfbd7e.xml, ntddk/IoIsFileOriginRemote
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoIsFileOriginRemote
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoIsFileOriginRemote function
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoIsFileOriginRemote</b> routine determines whether a given file object is for a remote create request. 
-
-
-## -syntax
-
-
-````
-BOOLEAN IoIsFileOriginRemote(
-  _In_ PFILE_OBJECT FileObject
-);
-````
 
 
 ## -parameters
@@ -89,19 +80,18 @@ File system filter drivers call <b>IoIsFileOriginRemote</b> for a file object to
 
 <b>IoIsFileOriginRemote</b> must be called after the create request has entirely completed. In other words, it cannot be called in the create dispatch ("pre-create") path or the create completion ("post-create") path. 
 
-<b>IoIsFileOriginRemote</b> checks the FO_REMOTE_ORIGIN flag on the file object pointed to by <i>FileObject</i>. Network file systems set or clear this flag by calling <a href="..\ntddk\nf-ntddk-iosetfileorigin.md">IoSetFileOrigin</a>. 
+<b>IoIsFileOriginRemote</b> checks the FO_REMOTE_ORIGIN flag on the file object pointed to by <i>FileObject</i>. Network file systems set or clear this flag by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548535">IoSetFileOrigin</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetfileorigin.md">IoSetFileOrigin</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548535">IoSetFileOrigin</a>
  
 
  
-
 

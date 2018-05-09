@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_create_listener.htm
 old-project: netvista
 ms.assetid: CC6259B8-AF3B-4FCE-94E3-7A5CD80C64A7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_CREATE_LISTENER, NdkCreateListener, NdkCreateListener callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateListener, netvista.ndk_fn_create_listener
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CREATE_LISTENER, NDK_FN_CREATE_LISTENER callback, NdkCreateListener, NdkCreateListener callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateListener, netvista.ndk_fn_create_listener
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,36 +38,19 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkCreateListener
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CREATE_LISTENER callback
+# NDK_FN_CREATE_LISTENER callback function
 
 
 ## -description
 
 
 The <i>NdkCreateListener</i> (<i>NDK_FN_CREATE_LISTENER</i>) function creates an NDK listener object.
-
-
-## -prototype
-
-
-````
-NDK_FN_CREATE_LISTENER NdkCreateListener;
-
-NTSTATUS NdkCreateListener(
-  _In_     NDK_ADAPTER                   *pNdkAdapter,
-  _In_     NDK_FN_CONNECT_EVENT_CALLBACK ConnectEvent,
-  _In_opt_ PVOID                         ConnectEventContext,
-  _In_     NDK_FN_CREATE_COMPLETION      CreateCompletion,
-  _In_opt_ PVOID                         RequestContext,
-           _Outptr_ NDK_LISTENER         **ppNdkListener
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -77,12 +60,12 @@ NTSTATUS NdkCreateListener(
 
 ### -param *pNdkAdapter [in]
 
-A pointer to an NDK adapter object (<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>).
+A pointer to an NDK adapter object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a>).
 
 
 ### -param ConnectEvent [in]
 
-A pointer to the <i>NdkConnectEventCallback </i> function   (<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect_event_callback.md">NDK_FN_CONNECT_EVENT_CALLBACK</a>) that the provider uses to notify the consumer for each incoming connection request.
+A pointer to the <i>NdkConnectEventCallback </i> function   (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439867">NDK_FN_CONNECT_EVENT_CALLBACK</a>) that the provider uses to notify the consumer for each incoming connection request.
 
 
 ### -param ConnectEventContext [in, optional]
@@ -92,7 +75,7 @@ A context value that the NDK provider passes back to the <i>NdkConnectEventCallb
 
 ### -param CreateCompletion [in]
 
-A pointer to an <i>NdkCreateCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
+A pointer to an <i>NdkCreateCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>) function that completes the creation of an NDK object.
 
 
 ### -param RequestContext [in, optional]
@@ -102,12 +85,12 @@ A context value that the NDK provider passes back to the <i>NdkCreateCompletion<
 
 #### - **ppNdkListener
 
-A pointer to the created NDK  listener object (<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>) is returned in this location if request succeeds without returning STATUS_PENDING. If <i>NdkCreateListener</i> returns STATUS_PENDING this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
+A pointer to the created NDK  listener object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439918">NDK_LISTENER</a>) is returned in this location if request succeeds without returning STATUS_PENDING. If <i>NdkCreateListener</i> returns STATUS_PENDING this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
 
 #### - ppNdkListener
 
-A pointer to the created NDK  listener object (<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>) is returned in this location if request succeeds without returning STATUS_PENDING. If <i>NdkCreateListener</i> returns STATUS_PENDING this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
+A pointer to the created NDK  listener object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439918">NDK_LISTENER</a>) is returned in this location if request succeeds without returning STATUS_PENDING. If <i>NdkCreateListener</i> returns STATUS_PENDING this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
 
 ## -returns
@@ -139,7 +122,7 @@ The listener object was created successfully and returned with the <i>*ppNdkList
 </dl>
 </td>
 <td width="60%">
- The operation is pending and will be completed later. The provider will call the function specified in the <i>CreateCompletion</i> parameter(<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) to complete the pending operation.
+ The operation is pending and will be completed later. The provider will call the function specified in the <i>CreateCompletion</i> parameter(<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>) to complete the pending operation.
  
 
 </td>
@@ -178,18 +161,13 @@ An error occurred.
 
 
 
-The <i>NdkCreateListener</i> function creates an NDK listener object. If the function returns STATUS_SUCCESS, the created object is returned in the <i>ppNdkListener</i> parameter. If <i>NdkCreateListener</i> returns STATUS_PENDING, the created object is returned by the <i>NdkCreateCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>) function that is specified in the <i>CreateCompletion</i> parameter.
+The <i>NdkCreateListener</i> function creates an NDK listener object. If the function returns STATUS_SUCCESS, the created object is returned in the <i>ppNdkListener</i> parameter. If <i>NdkCreateListener</i> returns STATUS_PENDING, the created object is returned by the <i>NdkCreateCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>) function that is specified in the <i>CreateCompletion</i> parameter.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect_event_callback.md">NDK_FN_CONNECT_EVENT_CALLBACK</a>
 
 
 
@@ -197,20 +175,24 @@ The <i>NdkCreateListener</i> function creates an NDK listener object. If the fun
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439850">NDK_ADAPTER_DISPATCH</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439867">NDK_FN_CONNECT_EVENT_CALLBACK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439871">NDK_FN_CREATE_COMPLETION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439918">NDK_LISTENER</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\ksremoveirpfromcancelablequeue.htm
 old-project: stream
 ms.assetid: 6bc23364-07c9-4a01-b475-e4620f62a674
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsRemoveIrpFromCancelableQueue, KsRemoveIrpFromCancelableQueue function [Streaming Media Devices], ks/KsRemoveIrpFromCancelableQueue, ksfunc_35dd895b-1a0b-40a2-bc84-cdc2844bd30f.xml, stream.ksremoveirpfromcancelablequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsRemoveIrpFromCancelableQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,19 +52,6 @@ req.typenames:
 
 
 The <b>KsRemoveIrpFromCancelableQueue</b> function pops the next noncanceled IRP from the specified queue that can be canceled and removes its cancel status. The function searches the list until an IRP is found that has a cancel routine or until the end of the list is reached. The function minimizes the use of the cancel spin lock by using the provided spin lock to synchronize access in most cases. The function may be called at IRQ level DISPATCH_LEVEL or lower.
-
-
-## -syntax
-
-
-````
-PIRP KsRemoveIrpFromCancelableQueue(
-  _Inout_ PLIST_ENTRY             QueueHead,
-  _In_    PKSPIN_LOCK             SpinLock,
-  _In_    KSLIST_ENTRY_LOCATION   ListLocation,
-  _In_    KSIRP_REMOVAL_OPERATION RemovalOperation
-);
-````
 
 
 ## -parameters
@@ -130,16 +118,15 @@ typedef enum {
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksreleaseirponcancelablequeue.md">KsReleaseIrpOnCancelableQueue</a>
 
 
 
-<a href="..\ks\nf-ks-ksremovespecificirpfromcancelablequeue.md">KsRemoveSpecificIrpFromCancelableQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566789">KsReleaseIrpOnCancelableQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566802">KsRemoveSpecificIrpFromCancelableQueue</a>
  
 
  
-
 

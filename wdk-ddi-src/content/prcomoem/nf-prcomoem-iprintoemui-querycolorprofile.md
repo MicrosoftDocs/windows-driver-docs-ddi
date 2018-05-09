@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.QueryColorProfile
-title: IPrintOemUI::QueryColorProfile method
+title: IPrintOemUI::QueryColorProfile
 author: windows-driver-content
 description: The IPrintOemUI::QueryColorProfile method allows a user interface plug-in to specify an ICC profile to use for color management.
 old-location: print\iprintoemui_querycolorprofile.htm
 old-project: print
 ms.assetid: ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], QueryColorProfile method, IPrintOemUI::QueryColorProfile, QueryColorProfile method [Print Devices], QueryColorProfile method [Print Devices], IPrintOemUI interface, QueryColorProfile,IPrintOemUI.QueryColorProfile, prcomoem/IPrintOemUI::QueryColorProfile, print.iprintoemui_querycolorprofile, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUI interface [Print Devices],QueryColorProfile method, IPrintOemUI.QueryColorProfile, IPrintOemUI::QueryColorProfile, QueryColorProfile, QueryColorProfile method [Print Devices], QueryColorProfile method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::QueryColorProfile, print.iprintoemui_querycolorprofile, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,36 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUI.QueryColorProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI::QueryColorProfile method
+# IPrintOemUI::QueryColorProfile
 
 
 ## -description
 
 
 The <code>IPrintOemUI::QueryColorProfile</code> method allows a user interface plug-in to specify an ICC profile to use for color management.
-
-
-## -syntax
-
-
-````
-HRESULT QueryColorProfile(
-   HANDLE    hPrinter,
-   POEMUIOBJ poemuiobj,
-   PDEVMODE  pPublicDM,
-   PVOID     pOEMDM,
-   ULONG     ulQueryMode,
-   VOID      *pvProfileData,
-   ULONG     *pcbProfileData,
-   FLONG     *pflProfileData
-);
-````
 
 
 ## -parameters
@@ -82,7 +65,7 @@ Caller-supplied printer handle.
 
 ### -param poemuiobj
 
-Caller-supplied pointer to an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
+Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure.
 
 
 ### -param pPublicDM
@@ -225,7 +208,7 @@ The method is not implemented.
 
 
 
-A user interface plug-in's <code>IPrintOemUI::QueryColorProfile</code> method performs the same types of operations as the <b>DrvQueryColorProfile</b> function that is exported by user-mode printer interface DLLs. For information about printer events and how they should be processed, see the description of the <a href="..\winddiui\nf-winddiui-drvquerycolorprofile.md">DrvQueryColorProfile</a> function.
+A user interface plug-in's <code>IPrintOemUI::QueryColorProfile</code> method performs the same types of operations as the <b>DrvQueryColorProfile</b> function that is exported by user-mode printer interface DLLs. For information about printer events and how they should be processed, see the description of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548573">DrvQueryColorProfile</a> function.
 
 If you provide a user interface plug-in, the printer driver's <b>DrvQueryColorProfile</b> function calls the <code>IPrintOemUI::QueryColorProfile</code> method. The <b>DrvQueryColorProfile</b> function performs its own processing for the specified event, and then calls the <code>IPrintOemUI::QueryColorProfile</code> method to handle additional processing of the event.
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetPipe
-title: IKsPinPipe::KsGetPipe method
+title: IKsPinPipe::KsGetPipe
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_ksgetpipe.htm
 old-project: stream
 ms.assetid: 5672C7E2-83AA-4BDC-BE60-E2BC54BD636F
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsGetPipe method, IKsPinPipe::KsGetPipe, KsGetPipe method [Streaming Media Devices], KsGetPipe method [Streaming Media Devices], IKsPinPipe interface, KsGetPipe,IKsPinPipe.KsGetPipe, ksproxy/IKsPinPipe::KsGetPipe, stream.ikspinpipe_ksgetpipe
+ms.date: 4/23/2018
+ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPipe method, IKsPinPipe.KsGetPipe, IKsPinPipe::KsGetPipe, KsGetPipe, KsGetPipe method [Streaming Media Devices], KsGetPipe method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPipe, stream.ikspinpipe_ksgetpipe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,12 +38,13 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPinPipe.KsGetPipe
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPinPipe::KsGetPipe method
+# IKsPinPipe::KsGetPipe
 
 
 ## -description
@@ -52,16 +53,6 @@ req.typenames: PIPE_STATE
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Not recommended for application use.
-
-
-## -syntax
-
-
-````
-HRESULT KsGetPipe(
-    
-);
-````
 
 
 ## -parameters
@@ -87,12 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559922">IKsPinPipe</a>
  
 
  
-
 

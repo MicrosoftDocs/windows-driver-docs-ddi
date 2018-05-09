@@ -7,7 +7,7 @@ old-location: netvista\ndisdprreleasespinlock.htm
 old-project: netvista
 ms.assetid: d6a7af70-6a1e-471b-919f-80a704d25446
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisDprReleaseSpinLock, NdisDprReleaseSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisDprReleaseSpinLock, ndis_spin_lock_ref_7f9e73b2-9284-4a8c-895e-209a7685fa94.xml, netvista.ndisdprreleasespinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisDprReleaseSpinLock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisDprReleaseSpinLock macro
@@ -53,18 +54,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisDprReleaseSpinLock</b> function releases a spin lock acquired in the immediately preceding call to
   the 
-  <a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">
+  <a href="https://msdn.microsoft.com/2e21d2f8-467e-43d3-8261-2373a8b8daa4">
   NdisDprAcquireSpinLock</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisDprReleaseSpinLock(
-  [in] PNDIS_SPIN_LOCK SpinLock
-);
-````
 
 
 ## -parameters
@@ -87,9 +78,9 @@ Release of the spin lock allows another driver function to use the resources the
 A spin lock acquired with 
     <b>NdisDprAcquireSpinLock</b> must be released with 
     <b>NdisDprReleaseSpinLock</b>. A spin lock acquired with 
-    <a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a> must be released
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560699">NdisAcquireSpinLock</a> must be released
     with 
-    <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a>.
 
 For more information about acquiring and releasing NDIS spin locks, see 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
@@ -100,12 +91,11 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561749">NdisDprAcquireSpinLock</a>
  
 
  
-
 

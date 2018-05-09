@@ -16,19 +16,19 @@ req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,7 +60,7 @@ typedef struct DXGI_DDI_BASE_CALLBACKS {
   PFNDDXGIDDI_PRESENTCB                    pfnPresentCb;
 #if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WIN8)
   PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB pfnPresentMultiplaneOverlayCb;
-#endif 
+#endif
 } DXGI_DDI_BASE_CALLBACKS;
 ````
 
@@ -82,9 +82,8 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh
 
 ### -field pfnPresentMultiplaneOverlay1Cb
 
- 
 
-
+### -field pfnSubmitPresentBltToHwQueueCb
 
 
 ## -see-also

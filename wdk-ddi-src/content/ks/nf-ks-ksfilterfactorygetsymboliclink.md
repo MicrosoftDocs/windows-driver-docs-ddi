@@ -7,7 +7,7 @@ old-location: stream\ksfilterfactorygetsymboliclink.htm
 old-project: stream
 ms.assetid: db657820-75b7-49fe-904d-05f8bc45b8c5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFilterFactoryGetSymbolicLink, KsFilterFactoryGetSymbolicLink function [Streaming Media Devices], avfunc_066ba440-b7d8-4c75-99bd-7b7cb38e4d70.xml, ks/KsFilterFactoryGetSymbolicLink, stream.ksfilterfactorygetsymboliclink
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFilterFactoryGetSymbolicLink
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsFilterFactoryGetSymbolicLink</b> function returns the symbolic link associated with a given filter factory.
 
 
-## -syntax
-
-
-````
-PUNICODE_STRING KsFilterFactoryGetSymbolicLink(
-  _In_ PKSFILTERFACTORY FilterFactory
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ PUNICODE_STRING KsFilterFactoryGetSymbolicLink(
 
 ### -param FilterFactory [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure for which to acquire the symbolic link.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> structure for which to acquire the symbolic link.
 
 
 ## -returns

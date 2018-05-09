@@ -7,7 +7,7 @@ old-location: display\video_share_memory_information.htm
 old-project: display
 ms.assetid: 004ecb65-a462-45e5-a647-9655727b202b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*PVIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION, PVIDEO_SHARE_MEMORY_INFORMATION structure pointer [Display Devices], VIDEO_SHARE_MEMORY_INFORMATION, VIDEO_SHARE_MEMORY_INFORMATION structure [Display Devices], Video_Structs_bed1b1c4-1ee2-4f6b-862e-d6dd85d11e35.xml, _VIDEO_SHARE_MEMORY_INFORMATION, display.video_share_memory_information, ntddvdeo/PVIDEO_SHARE_MEMORY_INFORMATION, ntddvdeo/VIDEO_SHARE_MEMORY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddvdeo.h
 api_name:
 -	VIDEO_SHARE_MEMORY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_SHARE_MEMORY_INFORMATION, *PVIDEO_SHARE_MEMORY_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: VIDEO_SHARE_MEMORY_INFORMATION, *PVIDEO_SHARE_MEMORY_INFORMATION
 
 
 The VIDEO_SHARE_MEMORY_INFORMATION structure is used to communicate to the display driver that a request for a block of user-mode memory has been fulfilled.
-
-
-## -syntax
-
-
-````
-typedef struct _VIDEO_SHARE_MEMORY_INFORMATION {
-  ULONG SharedViewOffset;
-  ULONG SharedViewSize;
-  PVOID VirtualAddress;
-} VIDEO_SHARE_MEMORY_INFORMATION, *PVIDEO_SHARE_MEMORY_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -88,7 +77,7 @@ Indicates the address in virtual memory at which the requested memory was mapped
 
 
 
-When an application must have access to user-mode video memory, the display driver can call into the video miniport driver by sending it an <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a> request. The miniport driver uses a <a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a> structure as an input buffer, and communicates back to the display driver a VIDEO_SHARE_MEMORY_INFORMATION structure. 
+When an application must have access to user-mode video memory, the display driver can call into the video miniport driver by sending it an <a href="https://msdn.microsoft.com/library/windows/hardware/ff568149">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a> request. The miniport driver uses a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570548">VIDEO_SHARE_MEMORY</a> structure as an input buffer, and communicates back to the display driver a VIDEO_SHARE_MEMORY_INFORMATION structure. 
 
 The video miniport driver fills out a VIDEO_SHARE_MEMORY_INFORMATION structure based on information in a VIDEO_SHARE_MEMORY structure. The following table summarizes how the information is used:
 
@@ -145,16 +134,15 @@ If <b>NULL</b>, the miniport driver determines the address of a frame buffer to 
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568149">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570548">VIDEO_SHARE_MEMORY</a>
  
 
  
-
 

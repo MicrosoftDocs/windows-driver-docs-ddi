@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackSelfManagedIo.OnSelfManagedIoRestart
-title: IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart method
+title: IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart
 author: windows-driver-content
 description: The OnSelfManagedIoRestart method restarts a device's self-managed I/O operations.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediorestart.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dccc4be0-0724-44b6-8476-276b46acee6a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoRestart method, IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart, OnSelfManagedIoRestart method, OnSelfManagedIoRestart method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoRestart,IPnpCallbackSelfManagedIo.OnSelfManagedIoRestart, UMDFDeviceObjectRef_c570a334-c420-443d-8844-b4ff2bf35f47.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediorestart, wdf.ipnpcallbackselfmanagedio_onselfmanagediorestart, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart
+ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoRestart method, IPnpCallbackSelfManagedIo.OnSelfManagedIoRestart, IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart, OnSelfManagedIoRestart, OnSelfManagedIoRestart method, OnSelfManagedIoRestart method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_c570a334-c420-443d-8844-b4ff2bf35f47.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediorestart, wdf.ipnpcallbackselfmanagedio_onselfmanagediorestart, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IPnpCallbackSelfManagedIo.OnSelfManagedIoRestart
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart method
+# IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnSelfManagedIoRestart</b> method restarts a device's self-managed I/O operations.
 
 
-## -syntax
-
-
-````
-HRESULT OnSelfManagedIoRestart(
-  [in] IWDFDevice *pWdfDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ HRESULT OnSelfManagedIoRestart(
 
 ### -param pWdfDevice [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device for which the self-managed I/O operations are restarted.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface for the device object of the device for which the self-managed I/O operations are restarted.
 
 
 ## -returns
@@ -93,27 +83,26 @@ HRESULT error codes are defined in Winerror.h.
 
 
 
-A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556776">IPnpCallbackSelfManagedIo</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556776">IPnpCallbackSelfManagedIo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetUchar
-title: ExtRemoteData::GetUchar method
+title: ExtRemoteData::GetUchar
 author: windows-driver-content
 description: The GetUChar method returns a UCHAR version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getuchar.htm
 old-project: debugger
 ms.assetid: 2c4b7f40-210a-44fa-b7d4-150355d6b75b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_687a7887-560a-4565-8417-ec46cc1ee254.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetUchar method, ExtRemoteData::GetUchar, GetUchar method [Windows Debugging], GetUchar method [Windows Debugging], ExtRemoteData class, GetUchar,ExtRemoteData.GetUchar, debugger.extremotedata_getuchar
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_687a7887-560a-4565-8417-ec46cc1ee254.xml, ExtRemoteData class [Windows Debugging],GetUchar method, ExtRemoteData.GetUchar, ExtRemoteData::GetUchar, GetUchar, GetUchar method [Windows Debugging], GetUchar method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteData.GetUchar
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::GetUchar method
+# ExtRemoteData::GetUchar
 
 
 ## -description
 
 
-The <b>GetUChar</b> method returns a UCHAR version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object, which represents the contents of the target's memory.
-
-
-## -syntax
-
-
-````
-UCHAR GetUchar();
-````
+The <b>GetUChar</b> method returns a UCHAR version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
 
 ## -parameters
@@ -71,7 +64,7 @@ UCHAR GetUchar();
 
 
 
-<b>GetUChar</b> returns the UCHAR version of the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object.
+<b>GetUChar</b> returns the UCHAR version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object.
 
 
 
@@ -80,14 +73,17 @@ UCHAR GetUchar();
 
 
 
-The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a> object must be <code>sizeof(UCHAR)</code>.
+The size of the memory represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object must be <code>sizeof(UCHAR)</code>.
 
 
 
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
 
 
 
@@ -96,11 +92,7 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
-
-
  
 
  
-
 

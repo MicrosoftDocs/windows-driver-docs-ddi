@@ -7,7 +7,7 @@ old-location: display\dxgkarg_displaydetectcontrol.htm
 old-project: display
 ms.assetid: A0B5798E-FF4D-4133-BFA9-39B37CC387F6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_DISPLAYDETECTCONTROL, DXGKARG_DISPLAYDETECTCONTROL structure [Display Devices], PDXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL structure pointer [Display Devices], _DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/PDXGKARG_DISPLAYDETECTCONTROL, display.dxgkarg_displaydetectcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_DISPLAYDETECTCONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_DISPLAYDETECTCONTROL
 ---
@@ -49,20 +50,7 @@ req.typenames: DXGKARG_DISPLAYDETECTCONTROL
 ## -description
 
 
-Used to hold the arguments for <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_displaydetectcontrol.md">DXGKDDI_DISPLAYDETECTCONTROL</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_DISPLAYDETECTCONTROL {
-  D3DDDI_VIDEO_PRESENT_TARGET_ID TargetID  :24;
-  DXGK_DISPLAYDETECTCONTROLTYPE  Type  :4;
-  UINT                           NonDestructiveOnly  :1;
-  UINT                           Reserved  :3;
-} DXGKARG_DISPLAYDETECTCONTROL, *PDXGKARG_DISPLAYDETECTCONTROL;
-````
+Used to hold the arguments for <a href="https://msdn.microsoft.com/6F10EA4D-BCDE-475E-9937-414CB83F6F2F">DXGKDDI_DISPLAYDETECTCONTROL</a>.
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: buses\_urb_control_get_configuration_request.htm
 old-project: usbref
 ms.assetid: 6f50b520-244e-4848-8696-969de82aa8ff
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "_URB_CONTROL_GET_CONFIGURATION_REQUEST, _URB_CONTROL_GET_CONFIGURATION_REQUEST structure [Buses], buses._urb_control_get_configuration_request, usb/_URB_CONTROL_GET_CONFIGURATION_REQUEST, usbstrct_77d89ae2-eb81-48f0-b399-85d39a5feb6a.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	usb.h
 api_name:
 -	_URB_CONTROL_GET_CONFIGURATION_REQUEST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
-req.product: Windows 10 or later.
 ---
 
 # _URB_CONTROL_GET_CONFIGURATION_REQUEST structure
@@ -53,24 +53,6 @@ req.product: Windows 10 or later.
 The _URB_CONTROL_GET_CONFIGURATION_REQUEST structure is used by USB client drivers to retrieve the current configuration for a device.
 
 
-## -syntax
-
-
-````
-struct _URB_CONTROL_GET_CONFIGURATION_REQUEST {
-  struct URB_HEADER  Hdr;
-  PVOID               Reserved;
-  ULONG               Reserved0;
-  ULONG               TransferBufferLength;
-  PVOID               TransferBuffer;
-  PMDL                TransferBufferMDL;
-  struct URB  *UrbLink;
-  struct URB_HCD_AREA  hca;
-  UCHAR               Reserved1[8];
-};
-````
-
-
 ## -struct-fields
 
 
@@ -78,7 +60,7 @@ struct _URB_CONTROL_GET_CONFIGURATION_REQUEST {
 
 ### -field Hdr
 
-Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be set to URB_FUNCTION_GET_CONFIGURATION.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be set to URB_FUNCTION_GET_CONFIGURATION.
 
 <b>Hdr.Length</b> must equal <code>sizeof(_URB_CONTROL_GET_CONFIGURATION_REQUEST)</code>.
 
@@ -134,7 +116,10 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
 
 
 
@@ -142,12 +127,8 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540409">_URB_HEADER</a>
  
 
  
-
 

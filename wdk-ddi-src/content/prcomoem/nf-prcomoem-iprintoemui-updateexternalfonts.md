@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.UpdateExternalFonts
-title: IPrintOemUI::UpdateExternalFonts method
+title: IPrintOemUI::UpdateExternalFonts
 author: windows-driver-content
 description: The IPrintOemUI::UpdateExternalFonts method allows a user interface plug-in to update a printer's Unidrv Font Format Files (.uff file).
 old-location: print\iprintoemui_updateexternalfonts.htm
 old-project: print
 ms.assetid: 5c501305-fa5f-4466-9a9a-83f072d904b3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], UpdateExternalFonts method, IPrintOemUI::UpdateExternalFonts, UpdateExternalFonts method [Print Devices], UpdateExternalFonts method [Print Devices], IPrintOemUI interface, UpdateExternalFonts,IPrintOemUI.UpdateExternalFonts, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUI interface [Print Devices],UpdateExternalFonts method, IPrintOemUI.UpdateExternalFonts, IPrintOemUI::UpdateExternalFonts, UpdateExternalFonts, UpdateExternalFonts method [Print Devices], UpdateExternalFonts method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUI.UpdateExternalFonts
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI::UpdateExternalFonts method
+# IPrintOemUI::UpdateExternalFonts
 
 
 ## -description
 
 
 The <code>IPrintOemUI::UpdateExternalFonts</code> method allows a user interface plug-in to update a printer's <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv Font Format Files</a> (.uff file).
-
-
-## -syntax
-
-
-````
-HRESULT UpdateExternalFonts(
-   HANDLE hPrinter,
-   HANDLE hHeap,
-   PWSTR  pwstrCartridges
-);
-````
 
 
 ## -parameters
@@ -150,16 +138,15 @@ Descriptions of cartridge fonts can be copied from the .uff file specified by th
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/0ef635dd-9598-4356-94fc-7e5237df9bd9">IPrintOemUI</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554176">IPrintOemUI::FontInstallerDlgProc</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
-
-
-
  
 
  
-
 

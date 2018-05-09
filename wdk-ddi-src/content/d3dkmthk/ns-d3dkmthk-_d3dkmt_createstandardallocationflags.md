@@ -7,7 +7,7 @@ old-location: display\d3dkmt-createstandardallocationflags.htm
 old-project: display
 ms.assetid: a1a4aa0c-2edc-48b9-ad49-c876be930955
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATIONFLAGS, D3DKMT_CREATESTANDARDALLOCATIONFLAGS structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATIONFLAGS, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATIONFLAGS, display.d3dkmt-createstandardallocationflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_CREATESTANDARDALLOCATIONFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_CREATESTANDARDALLOCATIONFLAGS
 ---
@@ -52,21 +53,6 @@ req.typenames: D3DKMT_CREATESTANDARDALLOCATIONFLAGS
 Used to create standard allocation flags.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATESTANDARDALLOCATIONFLAGS {
-  union {
-    struct {
-      UINT Reserved  :32;
-    };
-    UINT Value;
-  };
-} D3DKMT_CREATESTANDARDALLOCATIONFLAGS;
-````
-
-
 ## -struct-fields
 
 
@@ -77,7 +63,7 @@ typedef struct _D3DKMT_CREATESTANDARDALLOCATIONFLAGS {
 This value is reserved for use by the operating system.
 
 
-#### - Value
+### -field Value
 
 The value used to operate over the other members.
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmt_closeadapter.htm
 old-project: display
 ms.assetid: ef85d18a-c4cd-4999-8782-19e4114a0594
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_CLOSEADAPTER, D3DKMT_CLOSEADAPTER structure [Display Devices], OpenGL_Structs_578046d6-1625-4485-b43c-16ce2b7e812c.xml, _D3DKMT_CLOSEADAPTER, d3dkmthk/D3DKMT_CLOSEADAPTER, display.d3dkmt_closeadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_CLOSEADAPTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_CLOSEADAPTER
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DKMT_CLOSEADAPTER
 
 
 The D3DKMT_CLOSEADAPTER structure specifies the graphics adapter to close.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CLOSEADAPTER {
-  D3DKMT_HANDLE hAdapter;
-} D3DKMT_CLOSEADAPTER;
-````
 
 
 ## -struct-fields
@@ -74,12 +65,11 @@ typedef struct _D3DKMT_CLOSEADAPTER {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcloseadapter.md">D3DKMTCloseAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546787">D3DKMTCloseAdapter</a>
  
 
  
-
 

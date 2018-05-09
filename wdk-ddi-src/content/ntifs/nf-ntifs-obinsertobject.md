@@ -7,7 +7,7 @@ old-location: ifsk\obinsertobject.htm
 old-project: ifsk
 ms.assetid: 2984b246-3e3c-4121-b7a0-d9509a1717a3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: ObInsertObject, ObInsertObject function [Installable File System Drivers], ifsk.obinsertobject, ntifs/ObInsertObject, obref_9ecb8aa6-496e-4daf-96cf-d68ec5863e94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntifs.h
 api_name:
 -	ObInsertObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # ObInsertObject function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ObInsertObject</b> routine is reserved for system use. 
-
-
-## -syntax
-
-
-````
-  ObInsertObject(
-    
-);
-````
 
 
 ## -parameters

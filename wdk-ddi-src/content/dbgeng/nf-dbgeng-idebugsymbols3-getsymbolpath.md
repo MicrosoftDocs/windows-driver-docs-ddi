@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolPath
-title: IDebugSymbols3::GetSymbolPath method
+title: IDebugSymbols3::GetSymbolPath
 author: windows-driver-content
 description: The GetSymbolPath method returns the symbol path.
 old-location: debugger\getsymbolpath.htm
 old-project: debugger
 ms.assetid: bee6d7c5-b866-4b48-859e-9acb2219e7c1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetSymbolPath method [Windows Debugging], GetSymbolPath method [Windows Debugging], IDebugSymbols interface, GetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, GetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, GetSymbolPath,IDebugSymbols3.GetSymbolPath, IDebugSymbols interface [Windows Debugging], GetSymbolPath method, IDebugSymbols2 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols2::GetSymbolPath, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols3::GetSymbolPath, IDebugSymbols::GetSymbolPath, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, dbgeng/IDebugSymbols2::GetSymbolPath, dbgeng/IDebugSymbols3::GetSymbolPath, dbgeng/IDebugSymbols::GetSymbolPath, debugger.getsymbolpath
+ms.date: 4/24/2018
+ms.keywords: GetSymbolPath, GetSymbolPath method [Windows Debugging], GetSymbolPath method [Windows Debugging],IDebugSymbols interface, GetSymbolPath method [Windows Debugging],IDebugSymbols2 interface, GetSymbolPath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSymbolPath method, IDebugSymbols2 interface [Windows Debugging],GetSymbolPath method, IDebugSymbols2::GetSymbolPath, IDebugSymbols3 interface [Windows Debugging],GetSymbolPath method, IDebugSymbols3.GetSymbolPath, IDebugSymbols3::GetSymbolPath, IDebugSymbols::GetSymbolPath, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, dbgeng/IDebugSymbols2::GetSymbolPath, dbgeng/IDebugSymbols3::GetSymbolPath, dbgeng/IDebugSymbols::GetSymbolPath, debugger.getsymbolpath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,30 +40,19 @@ api_name:
 -	IDebugSymbols.GetSymbolPath
 -	IDebugSymbols2.GetSymbolPath
 -	IDebugSymbols3.GetSymbolPath
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSymbolPath method
+# IDebugSymbols3::GetSymbolPath
 
 
 ## -description
 
 
 The <b>GetSymbolPath</b>  method returns the symbol path.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolPath(
-  [out, optional] PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG PathSize
-);
-````
 
 
 ## -parameters
@@ -136,15 +125,6 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -152,12 +132,20 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
  
 
  
-
 

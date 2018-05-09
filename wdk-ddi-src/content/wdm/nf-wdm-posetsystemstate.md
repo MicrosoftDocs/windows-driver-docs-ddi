@@ -7,7 +7,7 @@ old-location: kernel\posetsystemstate.htm
 old-project: kernel
 ms.assetid: b62db582-381a-457f-9755-d8667c7561af
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: PoSetSystemState, PoSetSystemState routine [Kernel-Mode Driver Architecture], kernel.posetsystemstate, portn_f20a5d5b-d863-4ff7-8837-6a7e625271d7.xml, wdm/PoSetSystemState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PoSetSystemState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # PoSetSystemState function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 Drivers call the <b>PoSetSystemState</b> routine to indicate that the system is active.
-
-
-## -syntax
-
-
-````
-VOID PoSetSystemState(
-  _In_ EXECUTION_STATE Flags
-);
-````
 
 
 ## -parameters
@@ -106,7 +96,7 @@ None
 
 
 
-A driver calls <b>PoSetSystemState</b> to set flags indicating that system activity is occurring. Unlike <a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>, this routine does not allow the driver to set a persistent busy state. 
+A driver calls <b>PoSetSystemState</b> to set flags indicating that system activity is occurring. Unlike <a href="https://msdn.microsoft.com/library/windows/hardware/ff559731">PoRegisterSystemState</a>, this routine does not allow the driver to set a persistent busy state. 
 
 The <i>Flags</i> parameter specifies the type of activity occurring. Drivers can specify any combination of the flags.
 
@@ -117,16 +107,15 @@ Drivers can set the system busy state to request that the system avoid leaving o
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
 
 
-<a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559731">PoRegisterSystemState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559794">PoUnregisterSystemState</a>
  
 
  
-
 

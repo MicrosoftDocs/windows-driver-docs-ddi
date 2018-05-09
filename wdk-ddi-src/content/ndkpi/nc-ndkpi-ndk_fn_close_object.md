@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_close_object.htm
 old-project: netvista
 ms.assetid: 9547DCCE-6B3C-434F-A8CA-1AA59AB7152A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_CLOSE_OBJECT, NdkCloseObject, NdkCloseObject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseObject, netvista.ndk_fn_close_object
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CLOSE_OBJECT, NDK_FN_CLOSE_OBJECT callback, NdkCloseObject, NdkCloseObject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseObject, netvista.ndk_fn_close_object
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkCloseObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CLOSE_OBJECT callback
+# NDK_FN_CLOSE_OBJECT callback function
 
 
 ## -description
 
 
 The <i>NdkCloseObject</i> (<i>NDK_FN_CLOSE_OBJECT</i>) function initiates a close request for an NDK  object.
-
-
-## -prototype
-
-
-````
-NDK_FN_CLOSE_OBJECT NdkCloseObject;
-
-NTSTATUS NdkCloseObject(
-  _In_     NDK_OBJECT_HEADER       *pNdkObject,
-  _In_     NDK_FN_CLOSE_COMPLETION CloseCompletion,
-  _In_opt_ PVOID                   RequestContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -74,12 +60,12 @@ NTSTATUS NdkCloseObject(
 
 ### -param *pNdkObject [in]
 
-A pointer to the object header (<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>) for the object to close.
+A pointer to the object header (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a>) for the object to close.
 
 
 ### -param CloseCompletion [in]
 
-A pointer to an <i>NdkCloseCompletion</i> close completion callback function  (<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_completion.md">NDK_FN_CLOSE_COMPLETION</a>).
+A pointer to an <i>NdkCloseCompletion</i> close completion callback function  (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439862">NDK_FN_CLOSE_COMPLETION</a>).
 
 
 ### -param RequestContext [in, optional]
@@ -144,35 +130,34 @@ An error occurred.
 
 The function dispatch table for each  type of NDK object   includes  an <i>NDK_FN_CLOSE_OBJECT</i> function pointer. Close  requests are asynchronous. An  NDK consumer must not access the object after a close request is started. 
 
-The NDK provider must ensure that the <i>NdkCloseCompletion</i> function (<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_completion.md">NDK_FN_CLOSE_COMPLETION</a>) is the last callback called for the object that is closing. The provider must ensure that all outstanding asynchronous requests are completed and all in-progress callbacks have returned and further callbacks are prevented before the provider calls the <i>NdkCloseCompletion</i> function.   After the provider calls the <i>NdkCloseCompletion</i> function, the provider not call any  completion functions or notification callback functions  for the object.
+The NDK provider must ensure that the <i>NdkCloseCompletion</i> function (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439862">NDK_FN_CLOSE_COMPLETION</a>) is the last callback called for the object that is closing. The provider must ensure that all outstanding asynchronous requests are completed and all in-progress callbacks have returned and further callbacks are prevented before the provider calls the <i>NdkCloseCompletion</i> function.   After the provider calls the <i>NdkCloseCompletion</i> function, the provider not call any  completion functions or notification callback functions  for the object.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439853">NDK_CONNECTOR_DISPATCH</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_completion.md">NDK_FN_CLOSE_COMPLETION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439855">NDK_CQ_DISPATCH</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439862">NDK_FN_CLOSE_COMPLETION</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcblength.htm
 old-project: kernel
 ms.assetid: 74644211-7cf5-48d4-9025-7831cb449979
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCbLength, RtlStringCbLengthA, RtlStringCbLengthW, RtlStringCbLengthW function [Kernel-Mode Driver Architecture], kernel.rtlstringcblength, ntstrsafe/RtlStringCbLengthA, ntstrsafe/RtlStringCbLengthW, safestrings_1453b6f9-2e9d-4864-96e8-e0245a1a7827.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_name:
 -	RtlStringCbLengthW
 -	RtlStringCbLengthA
 -	RtlStringCbLengthW
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlStringCbLengthA function
@@ -53,18 +54,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 The <b>RtlStringCbLengthW</b> and <b>RtlStringCbLengthA</b> functions determine the length, in bytes, of a supplied string. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCbLengthW(
-  _In_      LPCTSTR psz,
-  _In_      size_t  cbMax,
-  _Out_opt_ size_t  *pcb
-);
-````
 
 
 ## -parameters
@@ -189,12 +178,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchlengthw.md">RtlStringCchLength</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562856">RtlStringCchLength</a>
  
 
  
-
 

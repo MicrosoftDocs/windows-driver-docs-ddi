@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddiarg_createvideodecoder.htm
 old-project: display
 ms.assetid: c309e9b1-b2bc-40bc-90b9-5c070ba48957
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDIARG_CREATEVIDEODECODER, D3D11_1DDIARG_CREATEVIDEODECODER structure [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEODECODER, display.d3d11_1ddiarg_createvideodecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDIARG_CREATEVIDEODECODER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDIARG_CREATEVIDEODECODER
 ---
@@ -52,17 +53,6 @@ req.typenames: D3D11_1DDIARG_CREATEVIDEODECODER
 Specifies the attributes of a video decoder object.
 
 
-## -syntax
-
-
-````
-typedef struct D3D11_1DDIARG_CREATEVIDEODECODER {
-  D3D11_1DDI_VIDEO_DECODER_DESC   Desc;
-  D3D11_1DDI_VIDEO_DECODER_CONFIG Config;
-} D3D11_1DDIARG_CREATEVIDEODECODER;
-````
-
-
 ## -struct-fields
 
 
@@ -70,26 +60,25 @@ typedef struct D3D11_1DDIARG_CREATEVIDEODECODER {
 
 ### -field Desc
 
-A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that describes the video stream and the decoder profile.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that describes the video stream and the decoder profile.
 
 
 ### -field Config
 
-A <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_config.md">D3D11_1DDI_VIDEO_DECODER_CONFIG</a> structure that specifies the decoder configuration.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450947">D3D11_1DDI_VIDEO_DECODER_CONFIG</a> structure that specifies the decoder configuration.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_desc.md">D3D11_1DDI_VIDEO_DECODER_DESC</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoder_config.md">D3D11_1DDI_VIDEO_DECODER_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450947">D3D11_1DDI_VIDEO_DECODER_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450951">D3D11_1DDI_VIDEO_DECODER_DESC</a>
  
 
  
-
 

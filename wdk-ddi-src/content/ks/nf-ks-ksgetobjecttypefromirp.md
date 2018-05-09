@@ -7,7 +7,7 @@ old-location: stream\ksgetobjecttypefromirp.htm
 old-project: stream
 ms.assetid: 4fe45811-a823-4cc6-bdc4-a1f2ac892d37
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGetObjectTypeFromIrp, KsGetObjectTypeFromIrp function [Streaming Media Devices], avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, ks/KsGetObjectTypeFromIrp, stream.ksgetobjecttypefromirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGetObjectTypeFromIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsGetObjectTypeFromIrp</b> function returns the AVStream object type that is associated with a given IRP.
 
 
-## -syntax
-
-
-````
-KSOBJECTTYPE KsGetObjectTypeFromIrp(
-  _In_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -70,38 +61,37 @@ KSOBJECTTYPE KsGetObjectTypeFromIrp(
 
 ### -param Irp [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to find the associated AVStream object type.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure for which to find the associated AVStream object type.
 
 
 ## -returns
 
 
 
-<b>KsGetObjectTypeFromIrp</b> returns the type of AVStream object associated with the given IRP as a <a href="..\ks\ne-ks-ksobjecttype.md">KSOBJECTTYPE</a> enumeration. This is one of the following: <b>KsObjectTypeDevice</b>, <b>KsObjectTypeFilterFactory</b>, <b>KsObjectTypeFilter</b>, <b>KsObjectTypePin</b>.
+<b>KsGetObjectTypeFromIrp</b> returns the type of AVStream object associated with the given IRP as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563476">KSOBJECTTYPE</a> enumeration. This is one of the following: <b>KsObjectTypeDevice</b>, <b>KsObjectTypeFilterFactory</b>, <b>KsObjectTypeFilter</b>, <b>KsObjectTypePin</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksforwardirp.md">KsForwardIrp</a>
 
 
 
-<a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
-<a href="..\ks\nf-ks-ksdispatchirp.md">KsDispatchIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560934">KsAddIrpToCancelableQueue</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561709">KsDispatchIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562557">KsForwardIrp</a>
  
 
  
-
 

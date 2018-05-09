@@ -7,7 +7,7 @@ old-location: ifsk\rtlntstatustodoserrornoteb.htm
 old-project: ifsk
 ms.assetid: be22fb7f-408a-44ee-ae83-0f1dadcec87f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError routine [Installable File System Drivers], RtlNtStatusToDosErrorNoTeb, ifsk.rtlntstatustodoserrornoteb, ntifs/RtlNtStatusToDosError, rtlref_161ea08b-d596-4a3c-ab9b-b66f757e4415.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlNtStatusToDosError
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlNtStatusToDosErrorNoTeb function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlNtStatusToDosErrorNoTeb</b>  routine converts the specified NTSTATUS code to its equivalent system error code. Reserved for system use.
-
-
-## -syntax
-
-
-````
-ULONG RtlNtStatusToDosError(
-  _In_ NTSTATUS Status
-);
-````
 
 
 ## -parameters

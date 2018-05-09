@@ -7,7 +7,7 @@ old-location: bltooth\bthx_version.htm
 old-project: bltooth
 ms.assetid: 2C5CC5B1-52F1-4DF5-9397-E8FD4983BA25
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PBTHX_VERSION, BTHX_VERSION, BTHX_VERSION structure [Bluetooth Devices], _BTHX_VERSION, bltooth.bthx_version, bthxddi/_BTHX_VERSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	BthXDDI.h
 api_name:
 -	_BTHX_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTHX_VERSION, *PBTHX_VERSION
 ---
@@ -50,16 +51,6 @@ req.typenames: BTHX_VERSION, *PBTHX_VERSION
 
 
 The BTHX_VERSION structure describes the version or versions that the transport driver supports.
-
-
-## -syntax
-
-
-````
-struct _BTHX_VERSION {
-  ULONG Version;
-};
-````
 
 
 ## -struct-fields

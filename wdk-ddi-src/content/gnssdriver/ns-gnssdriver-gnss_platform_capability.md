@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_PLATFORM_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_PLATFORM_CAPABILITY, *PGNSS_PLATFORM_CAPABILITY
 ---
@@ -50,21 +51,6 @@ req.typenames: GNSS_PLATFORM_CAPABILITY, *PGNSS_PLATFORM_CAPABILITY
 
 
 This structure is used to communicate the platform/HLOS capabilities to the underlying GNSS driver.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  BOOL  SupportAgnssInjection;
-  ULONG AgnssFormatSupported;
-  BOOL  Reserved;
-  BYTE  Unused[512];
-} GNSS_PLATFORM_CAPABILITY, *PGNSS_PLATFORM_CAPABILITY;
-````
 
 
 ## -struct-fields

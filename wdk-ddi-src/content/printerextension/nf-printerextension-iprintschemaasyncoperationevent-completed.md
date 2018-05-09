@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaAsyncOperationEvent.Completed
-title: IPrintSchemaAsyncOperationEvent::Completed method
+title: IPrintSchemaAsyncOperationEvent::Completed
 author: windows-driver-content
 description: Is called when asynchronous PrintSchema operation that is represented by an IPrintSchemaAsyncOperation context is completed.
 old-location: print\iprintschemaasyncoperationevent_completed.htm
 old-project: print
 ms.assetid: B1599F21-D6DD-497D-9CD8-6C637ABAA33A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Completed method [Print Devices], Completed method [Print Devices], IPrintSchemaAsyncOperationEvent interface, Completed,IPrintSchemaAsyncOperationEvent.Completed, IPrintSchemaAsyncOperationEvent, IPrintSchemaAsyncOperationEvent interface [Print Devices], Completed method, IPrintSchemaAsyncOperationEvent::Completed, print.iprintschemaasyncoperationevent_completed, printerextension/IPrintSchemaAsyncOperationEvent::Completed
+ms.date: 4/20/2018
+ms.keywords: Completed, Completed method [Print Devices], Completed method [Print Devices],IPrintSchemaAsyncOperationEvent interface, IPrintSchemaAsyncOperationEvent interface [Print Devices],Completed method, IPrintSchemaAsyncOperationEvent.Completed, IPrintSchemaAsyncOperationEvent::Completed, print.iprintschemaasyncoperationevent_completed, printerextension/IPrintSchemaAsyncOperationEvent::Completed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaAsyncOperationEvent.Completed
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaAsyncOperationEvent::Completed method
+# IPrintSchemaAsyncOperationEvent::Completed
 
 
 ## -description
 
 
-Is called when asynchronous PrintSchema operation that is represented by an <a href="..\printerextension\nn-printerextension-iprintschemaasyncoperation.md">IPrintSchemaAsyncOperation</a> context is completed.
-
-
-## -syntax
-
-
-````
-HRESULT Completed(
-  [in] IPrintSchemaTicket *pTicket,
-  [in] HRESULT            hrOperation
-);
-````
+Is called when asynchronous PrintSchema operation that is represented by an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451224">IPrintSchemaAsyncOperation</a> context is completed.
 
 
 ## -parameters
@@ -99,16 +88,15 @@ The print ticket passed to the <b>Completed</b> method is the final validated, m
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaasyncoperationevent.md">IPrintSchemaAsyncOperationEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451211">IPrintSchemaAsyncOperationEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  
-
 

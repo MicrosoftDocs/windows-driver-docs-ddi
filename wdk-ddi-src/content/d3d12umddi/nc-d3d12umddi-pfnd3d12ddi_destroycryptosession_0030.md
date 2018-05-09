@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_destroycryptosession_0030_.htm
 old-project: display
 ms.assetid: 1A16AE54-8A39-419E-B664-366287CF396D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D12DDI_DESTROYCRYPTOSESSION_0030, PFND3D12DDI_DESTROYCRYPTOSESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYCRYPTOSESSION_0030, display.pfnd3d12ddi_destroycryptosession_0030_
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_DESTROYCRYPTOSESSION_0030, PFND3D12DDI_DESTROYCRYPTOSESSION_0030  callback, PFND3D12DDI_DESTROYCRYPTOSESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYCRYPTOSESSION_0030, display.pfnd3d12ddi_destroycryptosession_0030_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	d3d12umddi.h
 api_name:
 -	PFND3D12DDI_DESTROYCRYPTOSESSION_0030
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_DESTROYCRYPTOSESSION_0030 callback
+# PFND3D12DDI_DESTROYCRYPTOSESSION_0030 callback function
 
 
 ## -description
 
 
 Used to destroy a crypto session.
-
-
-## -prototype
-
-
-````
-VOID APIENTRY* PFND3D12DDI_DESTROYCRYPTOSESSION_0030(
-   D3D12DDI_HDEVICE             hDrvDevice,
-   D3D12DDI_HCRYPTOSESSION_0030 hDrvCryptoSession
-);
-````
 
 
 ## -parameters

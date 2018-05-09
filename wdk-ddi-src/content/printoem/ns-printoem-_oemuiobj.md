@@ -7,7 +7,7 @@ old-location: print\oemuiobj.htm
 old-project: print
 ms.assetid: ba9252ec-3aef-4e8c-a335-bde33686beae
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*POEMUIOBJ, OEMUIOBJ, OEMUIOBJ structure [Print Devices], POEMUIOBJ, POEMUIOBJ structure pointer [Print Devices], _OEMUIOBJ, print.oemuiobj, print_unidrv-pscript_ui_ce37eb2d-06c0-4bca-88f0-c5ab836c9fd3.xml, printoem/OEMUIOBJ, printoem/POEMUIOBJ"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMUIOBJ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMUIOBJ, *POEMUIOBJ
-req.product: Windows 10 or later.
 ---
 
 # _OEMUIOBJ structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The OEMUIOBJ structure is used as an input argument to several of the methods exported by user interface plug-ins.
-
-
-## -syntax
-
-
-````
-typedef struct _OEMUIOBJ {
-  DWORD       cbSize;
-  POEMUIPROCS pOemUIProcs;
-} OEMUIOBJ, *POEMUIOBJ;
-````
 
 
 ## -struct-fields
@@ -76,7 +65,7 @@ Size of the OEMUIOBJ structure.
 
 ### -field pOemUIProcs
 
-Pointer to a an <a href="..\printoem\ns-printoem-_oemuiprocs.md">OEMUIPROCS</a> structure, which is a private, internal structure.
+Pointer to a an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559574">OEMUIPROCS</a> structure, which is a private, internal structure.
 
 
 ## -remarks

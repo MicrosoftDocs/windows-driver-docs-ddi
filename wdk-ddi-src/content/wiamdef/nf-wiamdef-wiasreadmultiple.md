@@ -7,7 +7,7 @@ old-location: image\wiasreadmultiple.htm
 old-project: image
 ms.assetid: 814642f7-24df-4d64-bc2b-d76d84b2a6d3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasreadmultiple, wiamdef/wiasReadMultiple, wiasFncs_c6d42143-4cd8-4f9a-bbf4-aec0ce2c0615.xml, wiasReadMultiple, wiasReadMultiple function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasReadMultiple
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasReadMultiple function
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasReadMultiple </b>function retrieves multiple property values from a WIA item.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasReadMultiple(
-  _In_            BYTE        *pWiasContext,
-                  ULONG       ulCount,
-  _In_      const PROPSPEC    *ps,
-  _Out_           PROPVARIANT *pv,
-  _Out_opt_       PROPVARIANT *pvOld
-);
-````
 
 
 ## -parameters
@@ -119,12 +105,11 @@ PROPSPEC, PROPVARIANT, <b>PropVariantClear</b>, and <b>IPropertyStorage::ReadMul
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549475">wiasWriteMultiple</a>
  
 
  
-
 

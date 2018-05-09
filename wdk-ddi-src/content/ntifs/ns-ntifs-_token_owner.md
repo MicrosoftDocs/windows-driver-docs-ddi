@@ -7,7 +7,7 @@ old-location: ifsk\token_owner.htm
 old-project: ifsk
 ms.assetid: 25f4a9c2-7146-422c-bd55-2520e7d8619b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PTOKEN_OWNER, PTOKEN_OWNER, PTOKEN_OWNER structure pointer [Installable File System Drivers], TOKEN_OWNER, TOKEN_OWNER structure [Installable File System Drivers], _TOKEN_OWNER, ifsk.token_owner, ntifs/PTOKEN_OWNER, ntifs/TOKEN_OWNER, securitystructures_1be454bb-1b55-4fe5-bdbb-85bfcf9dc9c8.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	TOKEN_OWNER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_OWNER, *PTOKEN_OWNER
 ---
@@ -50,16 +51,6 @@ req.typenames: TOKEN_OWNER, *PTOKEN_OWNER
 
 
 TOKEN_OWNER contains the default owner security identifier (SID) that will be applied to newly created objects. 
-
-
-## -syntax
-
-
-````
-typedef struct _TOKEN_OWNER {
-  PSID Owner;
-} TOKEN_OWNER, *PTOKEN_OWNER;
-````
 
 
 ## -struct-fields
@@ -87,28 +78,27 @@ If it is a group SID, the <b>Owner</b> must match a group SID in the token, wher
 
 ## -see-also
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556838">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567102">ZwSetInformationToken</a>
  
 
  
-
 

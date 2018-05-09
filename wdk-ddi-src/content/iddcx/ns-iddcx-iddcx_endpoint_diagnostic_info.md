@@ -7,7 +7,7 @@ old-location: display\iddcx_endpoint_diagnostic_info.htm
 old-project: display
 ms.assetid: 70be09ed-5633-464b-b311-f671efe83a54
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IDDCX_ENDPOINT_DIAGNOSTIC_INFO, IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure [Display Devices], display.iddcx_endpoint_diagnostic_info, iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_ENDPOINT_DIAGNOSTIC_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,23 +51,6 @@ req.typenames:
 
 
 Gives information about the video data endpoint.
-
-
-## -syntax
-
-
-````
-typedef struct IDDCX_ENDPOINT_DIAGNOSTIC_INFO {
-  UINT                         Size;
-  IDDCX_TRANSMISSION_TYPE      TransmissionType;
-  PCWSTR                       pEndPointFriendlyName;
-  PCWSTR                       pEndPointModelName;
-  PCWSTR                       pEndPointManufacturerName;
-  IDDCX_ENDPOINT_VERSION*      pHardwareVersion;
-  IDDCX_ENDPOINT_VERSION*      pFirmwareVersion;
-  IDDCX_FEATURE_IMPLEMENTATION GammaSupport;
-} IDDCX_ENDPOINT_DIAGNOSTIC_INFO, *IDDCX_ENDPOINT_DIAGNOSTIC_INFO;
-````
 
 
 ## -struct-fields

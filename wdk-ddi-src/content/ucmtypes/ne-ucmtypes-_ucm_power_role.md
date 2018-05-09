@@ -7,7 +7,7 @@ old-location: buses\ucm_power_role.htm
 old-project: usbref
 ms.assetid: 005B2A80-F6F8-42DA-86C3-277676B9168A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UCM_POWER_ROLE, UCM_POWER_ROLE enumeration [Buses], UcmPowerRoleInvalid, UcmPowerRoleSink, UcmPowerRoleSource, _UCM_POWER_ROLE, buses.ucm_power_role, ucmtypes/UCM_POWER_ROLE, ucmtypes/UcmPowerRoleInvalid, ucmtypes/UcmPowerRoleSink, ucmtypes/UcmPowerRoleSource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Ucmtypes.h
 api_name:
 -	UCM_POWER_ROLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCM_POWER_ROLE
-req.product: Windows 10 or later.
 ---
 
 # _UCM_POWER_ROLE enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 Defines power roles of USB Type-C connected devices. 
-
-
-## -syntax
-
-
-````
-typedef enum _UCM_POWER_ROLE { 
-  UcmPowerRoleInvalid  = 0x0,
-  UcmPowerRoleSink     = 0x1,
-  UcmPowerRoleSource   = 0x2
-} UCM_POWER_ROLE;
-````
 
 
 ## -enum-fields
@@ -87,20 +75,19 @@ Indicates the power role is set to source power.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187819">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt187924">UCM_CONNECTOR_PD_CONFIG</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt187914">UcmConnectorPowerDirectionChanged</a>
-
-
-
-<a href="..\ucmmanager\nc-ucmmanager-evt_ucm_connector_set_power_role.md">EVT_UCM_CONNECTOR_SET_POWER_ROLE</a>
-
-
-
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_pd_config.md">UCM_CONNECTOR_PD_CONFIG</a>
-
-
-
  
 
  
-
 

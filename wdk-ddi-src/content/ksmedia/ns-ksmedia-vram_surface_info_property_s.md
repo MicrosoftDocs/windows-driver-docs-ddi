@@ -7,7 +7,7 @@ old-location: stream\vram_surface_info_property_s.htm
 old-project: stream
 ms.assetid: 9bb24ca3-2684-4873-8136-c560f3374310
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PVRAM_SURFACE_INFO_PROPERTY_S, PVRAM_SURFACE_INFO_PROPERTY_S, PVRAM_SURFACE_INFO_PROPERTY_S structure pointer [Streaming Media Devices], VRAM_SURFACE_INFO_PROPERTY_S, VRAM_SURFACE_INFO_PROPERTY_S structure [Streaming Media Devices], avstruct_f0149912-f7c6-4cf5-bc5e-107c03c7823f.xml, ksmedia/PVRAM_SURFACE_INFO_PROPERTY_S, ksmedia/VRAM_SURFACE_INFO_PROPERTY_S, stream.vram_surface_info_property_s"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	VRAM_SURFACE_INFO_PROPERTY_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VRAM_SURFACE_INFO_PROPERTY_S, *PVRAM_SURFACE_INFO_PROPERTY_S
 ---
@@ -50,17 +51,6 @@ req.typenames: VRAM_SURFACE_INFO_PROPERTY_S, *PVRAM_SURFACE_INFO_PROPERTY_S
 
 
 The VRAM_SURFACE_INFO_PROPERTY_S structure describes property items in the KSPROPSETID_VramCapture property set.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY         Property;
-  PVRAM_SURFACE_INFO pVramSurfaceInfo;
-} VRAM_SURFACE_INFO_PROPERTY_S, *PVRAM_SURFACE_INFO_PROPERTY_S;
-````
 
 
 ## -struct-fields
@@ -75,21 +65,20 @@ This member specifies an initialized <a href="https://msdn.microsoft.com/library
 
 ### -field pVramSurfaceInfo
 
-This member specifies a pointer to a structure of type <a href="..\ksmedia\ns-ksmedia-vram_surface_info.md">VRAM_SURFACE_INFO</a>.
+This member specifies a pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568783">VRAM_SURFACE_INFO</a>.
 
 
 ## -see-also
+
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-vram_surface_info.md">VRAM_SURFACE_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568783">VRAM_SURFACE_INFO</a>
  
 
  
-
 

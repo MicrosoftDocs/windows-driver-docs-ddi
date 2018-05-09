@@ -7,7 +7,7 @@ old-location: stream\ks_videocontrolflags.htm
 old-project: stream
 ms.assetid: 7f8b3727-132c-41c8-a252-0f9c8812002f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KS_Obsolete_VideoControlFlag_ExternalTriggerEnable, KS_Obsolete_VideoControlFlag_Trigger, KS_VideoControlFlag_ExternalTriggerEnable, KS_VideoControlFlag_FlipHorizontal, KS_VideoControlFlag_FlipVertical, KS_VideoControlFlag_IndependentImagePin, KS_VideoControlFlag_StartPhotoSequenceCapture, KS_VideoControlFlag_StillCapturePreviewFrame, KS_VideoControlFlag_StopPhotoSequenceCapture, KS_VideoControlFlag_Trigger, KS_VideoControlFlags, KS_VideoControlFlags enumeration [Streaming Media Devices], ksmedia/KS_Obsolete_VideoControlFlag_ExternalTriggerEnable, ksmedia/KS_Obsolete_VideoControlFlag_Trigger, ksmedia/KS_VideoControlFlag_ExternalTriggerEnable, ksmedia/KS_VideoControlFlag_FlipHorizontal, ksmedia/KS_VideoControlFlag_FlipVertical, ksmedia/KS_VideoControlFlag_IndependentImagePin, ksmedia/KS_VideoControlFlag_StartPhotoSequenceCapture, ksmedia/KS_VideoControlFlag_StillCapturePreviewFrame, ksmedia/KS_VideoControlFlag_StopPhotoSequenceCapture, ksmedia/KS_VideoControlFlag_Trigger, ksmedia/KS_VideoControlFlags, stream.ks_videocontrolflags, vidcapstruct_ae01591c-4ee4-4e70-bfc2-c78ad73a296f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VideoControlFlags
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VideoControlFlags
 ---
@@ -50,27 +51,6 @@ req.typenames: KS_VideoControlFlags
 
 
 The KS_VideoControlFlags enumeration defines video control capabilities for a specific stream.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_VideoControlFlag_FlipHorizontal                  = 0x0001,
-  KS_VideoControlFlag_FlipVertical                    = 0x0002,
-  KS_Obsolete_VideoControlFlag_ExternalTriggerEnable  = 0x0010,
-  KS_Obsolete_VideoControlFlag_Trigger                = 0x0020,
-  KS_VideoControlFlag_ExternalTriggerEnable           = 0x0004,
-  KS_VideoControlFlag_Trigger                         = 0x0008,
-  KS_VideoControlFlag_IndependentImagePin             = 0x0040,
-#if NTDDI_VERSION >= NTDDI_WIN8
-  KS_VideoControlFlag_StillCapturePreviewFrame        = 0x0080,
-  KS_VideoControlFlag_StartPhotoSequenceCapture       = 0x0100,
-  KS_VideoControlFlag_StopPhotoSequenceCapture        = 0x0200
-
-#endif } KS_VideoControlFlags;
-````
 
 
 ## -enum-fields
@@ -138,16 +118,15 @@ Supported starting with Windows 8.1.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videocontrol_caps_s.md">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videocontrol_mode_s.md">KSPROPERTY_VIDEOCONTROL_MODE_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566036">KSPROPERTY_VIDEOCONTROL_CAPS_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566043">KSPROPERTY_VIDEOCONTROL_MODE_S</a>
  
 
  
-
 

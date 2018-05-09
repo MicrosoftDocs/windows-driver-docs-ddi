@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPin.KsMediaSamplesCompleted
-title: IKsPin::KsMediaSamplesCompleted method
+title: IKsPin::KsMediaSamplesCompleted
 author: windows-driver-content
 description: The KsMediaSamplesCompleted method informs a pin that a stream segment completed.
 old-location: stream\ikspin_ksmediasamplescompleted.htm
 old-project: stream
 ms.assetid: df3bbc09-14aa-4243-887b-d88d02a59f73
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsMediaSamplesCompleted method, IKsPin::KsMediaSamplesCompleted, KsMediaSamplesCompleted method [Streaming Media Devices], KsMediaSamplesCompleted method [Streaming Media Devices], IKsPin interface, KsMediaSamplesCompleted,IKsPin.KsMediaSamplesCompleted, ksproxy/IKsPin::KsMediaSamplesCompleted, ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, stream.ikspin_ksmediasamplescompleted
+ms.date: 4/23/2018
+ms.keywords: IKsPin interface [Streaming Media Devices],KsMediaSamplesCompleted method, IKsPin.KsMediaSamplesCompleted, IKsPin::KsMediaSamplesCompleted, KsMediaSamplesCompleted, KsMediaSamplesCompleted method [Streaming Media Devices], KsMediaSamplesCompleted method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsMediaSamplesCompleted, ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, stream.ikspin_ksmediasamplescompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPin.KsMediaSamplesCompleted
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPin::KsMediaSamplesCompleted method
+# IKsPin::KsMediaSamplesCompleted
 
 
 ## -description
 
 
 The <b>KsMediaSamplesCompleted</b> method informs a pin that a stream segment completed. 
-
-
-## -syntax
-
-
-````
-HRESULT KsMediaSamplesCompleted(
-  [in] PKSSTREAM_SEGMENT StreamSegment
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ HRESULT KsMediaSamplesCompleted(
 
 ### -param StreamSegment [in]
 
-Pointer to a <a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a> structure that contains header information for a completed stream segment. 
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567141">KSSTREAM_SEGMENT</a> structure that contains header information for a completed stream segment. 
 
 
 ## -returns
@@ -94,7 +85,10 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksinterfacehandler.md">IKsInterfaceHandler</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a>
 
 
 
@@ -102,12 +96,8 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="..\ksproxy\ns-ksproxy-_ksstream_segment.md">KSSTREAM_SEGMENT</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567141">KSSTREAM_SEGMENT</a>
  
 
  
-
 

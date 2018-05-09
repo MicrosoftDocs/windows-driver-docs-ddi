@@ -7,7 +7,7 @@ old-location: stream\avc_peer_do_list.htm
 old-project: stream
 ms.assetid: 5420df9b-35e7-49b4-97dc-a1d61623551c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST, AVC_PEER_DO_LIST structure [Streaming Media Devices], PAVC_PEER_DO_LIST, PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices], _AVC_PEER_DO_LIST, avc/AVC_PEER_DO_LIST, avc/PAVC_PEER_DO_LIST, avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, stream.avc_peer_do_list"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	avc.h
 api_name:
 -	AVC_PEER_DO_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST
 ---
@@ -50,17 +51,6 @@ req.typenames: AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST
 
 
 The AVC_PEER_DO_LIST describes all nonvirtual (peer) instances of <i>avc.sys</i>.
-
-
-## -syntax
-
-
-````
-typedef struct _AVC_PEER_DO_LIST {
-  ULONG          Count;
-  PDEVICE_OBJECT *Objects;
-} AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST;
-````
 
 
 ## -struct-fields
@@ -93,18 +83,18 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554145">AVC_FUNCTION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554168">AVC_FUNCTION_PEER_DO_LIST</a>
 
 
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554177">AVC_MULTIFUNC_IRB</a>
  
 
  

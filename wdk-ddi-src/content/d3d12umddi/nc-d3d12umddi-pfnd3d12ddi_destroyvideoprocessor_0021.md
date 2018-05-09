@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_destroyvideoprocessor.htm
 old-project: display
 ms.assetid: 93C1FA5F-064F-41AC-B854-FF59A5CC172C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021, d3d12umddi/pfnDestroyVideoProcessor, display.pfnd3d12ddi_destroyvideoprocessor, pfnDestroyVideoProcessor, pfnDestroyVideoProcessor callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021, PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 callback, d3d12umddi/pfnDestroyVideoProcessor, display.pfnd3d12ddi_destroyvideoprocessor, pfnDestroyVideoProcessor, pfnDestroyVideoProcessor callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnDestroyVideoProcessor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 callback
+# PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 callback function
 
 
 ## -description
 
 
 The <i>pfnDestroyVideoProcessor</i> callback function destroys a video processor.
-
-
-## -prototype
-
-
-````
-PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 pfnDestroyVideoProcessor;
-
-VOID APIENTRY* pfnDestroyVideoProcessor(
-   D3D12DDI_HDEVICE         hDrvDevice,
-   D3D12DDI_HVIDEOPROCESSOR hDrvVideoProcessor
-)
-{ ... }
-````
 
 
 ## -parameters

@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 4385911b-ae38-4748-ad11-cc161922776a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IOCTL_BIOMETRIC_RESET, IOCTL_BIOMETRIC_RESET control code [Biometric Devices], biometric.ioctl_biometric_reset, biometric_ref_4043b840-5b38-40b2-bd80-282a28badd14.xml, winbio_ioctl/IOCTL_BIOMETRIC_RESET
+ms.keywords: IOCTL_BIOMETRIC_RESET, IOCTL_BIOMETRIC_RESET control, IOCTL_BIOMETRIC_RESET control code [Biometric Devices], biometric.ioctl_biometric_reset, biometric_ref_4043b840-5b38-40b2-bd80-282a28badd14.xml, winbio_ioctl/IOCTL_BIOMETRIC_RESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	Winbio_ioctl.h
 api_name:
 -	IOCTL_BIOMETRIC_RESET
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_BIOMETRIC_RESET IOCTL
@@ -70,12 +70,12 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_blank_payload.md">WINBIO_BLANK_PAYLOAD</a> structure.
+The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536464">WINBIO_BLANK_PAYLOAD</a> structure.
 
 
 ### -output-buffer-length
 
-The length of a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_blank_payload.md">WINBIO_BLANK_PAYLOAD</a> structure.
+The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536464">WINBIO_BLANK_PAYLOAD</a> structure.
 
 The vendor-supplied driver can optionally return a DWORD-sized buffer that specifies the buffer size necessary for the requested operation.
 

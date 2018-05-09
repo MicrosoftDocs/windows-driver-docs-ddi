@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_lh.IWiaTransferCallback.GetNextStream
-title: IWiaTransferCallback::GetNextStream method
+title: IWiaTransferCallback::GetNextStream
 author: windows-driver-content
 description: The IWiaTransferCallback::GetNextStream method is implemented by an image processing filter.
 old-location: image\iwiatransfercallback_getnextstream.htm
 old-project: image
 ms.assetid: 025c29d3-1167-4aa3-8399-01dab5729267
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices], IWiaTransferCallback interface, GetNextStream,IWiaTransferCallback.GetNextStream, IWiaTransferCallback, IWiaTransferCallback interface [Imaging Devices], GetNextStream method, IWiaTransferCallback::GetNextStream, IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, image.iwiatransfercallback_getnextstream, wia_lh/IWiaTransferCallback::GetNextStream
+ms.date: 4/23/2018
+ms.keywords: GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices],IWiaTransferCallback interface, IWiaTransferCallback interface [Imaging Devices],GetNextStream method, IWiaTransferCallback.GetNextStream, IWiaTransferCallback::GetNextStream, IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, image.iwiatransfercallback_getnextstream, wia_lh/IWiaTransferCallback::GetNextStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	wia_lh.h
 api_name:
 -	IWiaTransferCallback.GetNextStream
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaTransferCallback::GetNextStream method
+# IWiaTransferCallback::GetNextStream
 
 
 ## -description
 
 
 The <b>IWiaTransferCallback::GetNextStream</b> method is implemented by an image processing filter. It is called by the WIA service as a result of an application calling <b>IWiaTransfer::Download</b> or the preview component's <b>IWiaPreview::GetNewPreview</b>. The <b>IWiaTransfer</b> and <b>IWiaPreview</b> interfaces are described in the Microsoft Windows SDK documentation.
-
-
-## -syntax
-
-
-````
-HRESULT GetNextStream(
-  [in]  LONG    lFlags,
-  [in]  BSTR    bstrItemName,
-  [in]  BSTR    bstrFullItemName,
-  [out] IStream **ppDestination
-);
-````
 
 
 ## -parameters
@@ -120,7 +107,6 @@ In its <b>IWiaTransferCallback::GetNextStream</b> implementation, the image proc
 
 ## -see-also
 
-<a href="..\wia_lh\nn-wia_lh-iwiatransfercallback.md">IWiaTransferCallback</a>
 
 
 
@@ -128,8 +114,8 @@ In its <b>IWiaTransferCallback::GetNextStream</b> implementation, the image proc
 
 
 
+<a href="https://msdn.microsoft.com/c85e5faa-b14b-4775-a5cc-cec5e20dc974">IWiaTransferCallback</a>
  
 
  
-
 

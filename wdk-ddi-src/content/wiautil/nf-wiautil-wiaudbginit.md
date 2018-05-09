@@ -7,7 +7,7 @@ old-location: image\wiaudbginit.htm
 old-project: image
 ms.assetid: a9308d66-c8b0-4e0e-8203-e2b3f91b7e27
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaudbginit, wiauDbgInit, wiauDbgInit function [Imaging Devices], wiauFncs_0f18edab-cbf7-4012-85ea-93f101343ecb.xml, wiautil/wiauDbgInit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauDbgInit
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauDbgInit macro
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauDbgInit</b> function initializes WIA debugging.
-
-
-## -syntax
-
-
-````
-void __stdcall wiauDbgInit(
-  _In_opt_ HINSTANCE hInstance
-);
-````
 
 
 ## -parameters

@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.RetrievePipePolicy
-title: IWDFUsbTargetPipe::RetrievePipePolicy method
+title: IWDFUsbTargetPipe::RetrievePipePolicy
 author: windows-driver-content
 description: The RetrievePipePolicy method retrieves a WinUsb pipe policy.
 old-location: wdf\iwdfusbtargetpipe_retrievepipepolicy.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 578f7633-307e-4cda-b8fe-ae73a095976f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, RetrievePipePolicy method, IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy method, RetrievePipePolicy method, IWDFUsbTargetPipe interface, RetrievePipePolicy,IWDFUsbTargetPipe.RetrievePipePolicy, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, umdf.iwdfusbtargetpipe_retrievepipepolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy
+ms.keywords: IWDFUsbTargetPipe interface,RetrievePipePolicy method, IWDFUsbTargetPipe.RetrievePipePolicy, IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy, RetrievePipePolicy method, RetrievePipePolicy method,IWDFUsbTargetPipe interface, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, umdf.iwdfusbtargetpipe_retrievepipepolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetPipe.RetrievePipePolicy
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::RetrievePipePolicy method
+# IWDFUsbTargetPipe::RetrievePipePolicy
 
 
 ## -description
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrievePipePolicy</b> method retrieves a WinUsb pipe policy.
-
-
-## -syntax
-
-
-````
-HRESULT RetrievePipePolicy(
-  [in]      ULONG PolicyType,
-  [in, out] ULONG *ValueLength,
-  [out]     PVOID Value
-);
-````
 
 
 ## -parameters
@@ -156,11 +144,10 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
 
 
 
@@ -168,8 +155,8 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540266">WinUsb_GetPipePolicy</a>
  
 
  
-
 

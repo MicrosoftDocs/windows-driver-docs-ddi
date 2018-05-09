@@ -7,7 +7,7 @@ old-location: netvista\ril_openuicclogicalchannel.htm
 old-project: netvista
 ms.assetid: 8e77d55d-62f5-450c-9d9a-41acfece84c0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_OpenUiccLogicalChannel, RIL_OpenUiccLogicalChannel method [Network Drivers Starting with Windows Vista], netvista.ril_openuicclogicalchannel, rilapi/RIL_OpenUiccLogicalChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_OpenUiccLogicalChannel
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_OpenUiccLogicalChannel function
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_OpenUiccLogicalChannel(
-   HRIL        hRil,
-   LPVOID      lpContext,
-   DWORD       dwSlotIndex,
-   DWORD       dwChannelGroup,
-   DWORD       dwAppIdLength,
-   const BYTE  pbAppId,
-   DWORD       dwSelectP2Arg
-);
-````
 
 
 ## -parameters

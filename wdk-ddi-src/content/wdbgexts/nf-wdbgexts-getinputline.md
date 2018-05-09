@@ -7,7 +7,7 @@ old-location: debugger\getinputline.htm
 old-project: debugger
 ms.assetid: 18d4aae5-dd11-4c3a-8088-52121f46d208
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetInputLine, GetInputLine function [Windows Debugging], WdbgExts_Ref_ed42718c-5e3e-4fe6-a2d6-f553b6c58800.xml, debugger.getinputline, wdbgexts/GetInputLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	GetInputLine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # GetInputLine function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetInputLine</b> function requests an input string from the debugger.
-
-
-## -syntax
-
-
-````
-__inline ULONG GetInputLine(
-   PCSTR Prompt,
-   PSTR  Buffer,
-   ULONG BufferSize
-);
-````
 
 
 ## -parameters

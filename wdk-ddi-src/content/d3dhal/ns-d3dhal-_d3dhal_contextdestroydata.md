@@ -7,7 +7,7 @@ old-location: display\d3dhal_contextdestroydata.htm
 old-project: display
 ms.assetid: 1224f634-b349-4098-a6ad-cbf18742ffb7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA structure [Display Devices], LPD3DHAL_CONTEXTDESTROYDATA, LPD3DHAL_CONTEXTDESTROYDATA structure pointer [Display Devices], _D3DHAL_CONTEXTDESTROYDATA, d3dhal/D3DHAL_CONTEXTDESTROYDATA, d3dhal/LPD3DHAL_CONTEXTDESTROYDATA, d3dstrct_7ae0080d-0578-43e2-9ddc-0dd7df1a4fcd.xml, display.d3dhal_contextdestroydata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_CONTEXTDESTROYDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_CONTEXTDESTROYDATA
 ---
@@ -49,18 +50,7 @@ req.typenames: D3DHAL_CONTEXTDESTROYDATA
 ## -description
 
 
-The D3DHAL_CONTEXTDESTROYDATA structure contains the information that the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextdestroycb.md">D3dContextDestroy</a> function requires to delete a context.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_CONTEXTDESTROYDATA {
-  ULONG_PTR dwhContext;
-  HRESULT   ddrval;
-} D3DHAL_CONTEXTDESTROYDATA, *LPD3DHAL_CONTEXTDESTROYDATA;
-````
+The D3DHAL_CONTEXTDESTROYDATA structure contains the information that the <a href="https://msdn.microsoft.com/caed780c-06a1-4697-b102-bffb134ecf84">D3dContextDestroy</a> function requires to delete a context.
 
 
 ## -struct-fields
@@ -75,17 +65,16 @@ Specifies the handle to the context to be destroyed.
 
 ### -field ddrval
 
-Specifies the location where the driver writes the return code for <a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextdestroycb.md">D3dContextDestroy</a>. D3D_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
+Specifies the location where the driver writes the return code for <a href="https://msdn.microsoft.com/caed780c-06a1-4697-b102-bffb134ecf84">D3dContextDestroy</a>. D3D_OK indicates success. For more information, see <a href="https://msdn.microsoft.com/033beb6e-5872-4cb3-8f39-459e2fff82cd">Return Codes for Direct3D Driver Callbacks</a>.
 
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextdestroycb.md">D3dContextDestroy</a>
 
 
 
+<a href="https://msdn.microsoft.com/caed780c-06a1-4697-b102-bffb134ecf84">D3dContextDestroy</a>
  
 
  
-
 

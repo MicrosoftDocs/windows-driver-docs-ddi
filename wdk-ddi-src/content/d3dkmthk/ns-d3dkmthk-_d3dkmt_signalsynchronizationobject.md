@@ -7,7 +7,7 @@ old-location: display\d3dkmt_signalsynchronizationobject.htm
 old-project: display
 ms.assetid: 13368ea2-dd2e-48af-b528-097104dffb60
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_8a7c1832-e93f-47d3-b5ec-b5bea7f3321a.xml, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, display.d3dkmt_signalsynchronizationobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 ---
@@ -49,20 +50,7 @@ req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 ## -description
 
 
-The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure contains information about the synchronization events that the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject.md">D3DKMTSignalSynchronizationObject</a> function signals. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT {
-  D3DKMT_HANDLE        hContext;
-  UINT                 ObjectCount;
-  D3DKMT_HANDLE        ObjectHandleArray[D3DDDI_MAX_OBJECT_SIGNALED];
-  D3DDDICB_SIGNALFLAGS Flags;
-} D3DKMT_SIGNALSYNCHRONIZATIONOBJECT;
-````
+The D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure contains information about the synchronization events that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547219">D3DKMTSignalSynchronizationObject</a> function signals. 
 
 
 ## -struct-fields
@@ -87,21 +75,20 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT {
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544271">D3DDDICB_SIGNALFLAGS</a> structure that indicates, in bit-field flags, signaling behavior.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_signalflags.md">D3DDDICB_SIGNALFLAGS</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobject.md">D3DKMTSignalSynchronizationObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544271">D3DDDICB_SIGNALFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547219">D3DKMTSignalSynchronizationObject</a>
  
 
  
-
 

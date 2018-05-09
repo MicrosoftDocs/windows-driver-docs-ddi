@@ -7,7 +7,7 @@ old-location: display\d3dkmtopenresource2.htm
 old-project: display
 ms.assetid: 7D496443-F68D-41E6-B377-BC9E6F6ABB83
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTOpenResource2, D3DKMTOpenResource2 function [Display Devices], d3dkmthk/D3DKMTOpenResource2, display.d3dkmtopenresource2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTOpenResource2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTOpenResource2 function
@@ -55,19 +56,14 @@ req.typenames: D3DKMT_DRIVERVERSION
 Reserved for system use. Do not use in your driver.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTOpenResource2(
-  _Inout_ D3DKMT_OPENRESOURCE *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 

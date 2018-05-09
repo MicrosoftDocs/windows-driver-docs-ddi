@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetInt32
-title: IPrinterScriptablePropertyBag::GetInt32 method
+title: IPrinterScriptablePropertyBag::GetInt32
 author: windows-driver-content
 description: Gets an integer property.
 old-location: print\iprinterscriptablepropertybag_getint32.htm
 old-project: print
 ms.assetid: 0E1089E4-5FE4-4769-A244-3E1979E4DE46
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetInt32 method [Print Devices], GetInt32 method [Print Devices], IPrinterScriptablePropertyBag interface, GetInt32,IPrinterScriptablePropertyBag.GetInt32, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], GetInt32 method, IPrinterScriptablePropertyBag::GetInt32, print.iprinterscriptablepropertybag_getint32, printerextension/IPrinterScriptablePropertyBag::GetInt32
+ms.date: 4/20/2018
+ms.keywords: GetInt32, GetInt32 method [Print Devices], GetInt32 method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetInt32 method, IPrinterScriptablePropertyBag.GetInt32, IPrinterScriptablePropertyBag::GetInt32, print.iprinterscriptablepropertybag_getint32, printerextension/IPrinterScriptablePropertyBag::GetInt32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptablePropertyBag.GetInt32
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptablePropertyBag::GetInt32 method
+# IPrinterScriptablePropertyBag::GetInt32
 
 
 ## -description
 
 
 Gets an integer property.
-
-
-## -syntax
-
-
-````
-HRESULT GetInt32(
-  [in]          BSTR bstrName,
-  [out, retval] LONG *pnValue
-);
-````
 
 
 ## -parameters
@@ -99,12 +88,11 @@ A call to <b>GetInt32</b> will throw an exception, if the specified property is 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
  
 
  
-
 

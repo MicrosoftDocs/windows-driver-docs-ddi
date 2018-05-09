@@ -7,7 +7,7 @@ old-location: stream\ksstream_metadata_info.htm
 old-project: stream
 ms.assetid: 40C09BCD-407F-4F2D-8780-4DEC1C9246E8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSSTREAM_METADATA_INFO, KSSTREAM_METADATA_INFO, KSSTREAM_METADATA_INFO structure [Streaming Media Devices], PKSSTREAM_METADATA_INFO, PKSSTREAM_METADATA_INFO structure pointer [Streaming Media Devices], ks/KSSTREAM_METADATA_INFO, ks/PKSSTREAM_METADATA_INFO, stream.ksstream_metadata_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSSTREAM_METADATA_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAM_METADATA_INFO, *PKSSTREAM_METADATA_INFO
 ---
@@ -50,21 +51,6 @@ req.typenames: KSSTREAM_METADATA_INFO, *PKSSTREAM_METADATA_INFO
 
 
 This structure contains the metadata information that is passed down to the driver.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                               BufferSize;
-  ULONG                               UsedSize;
-  Field_size_bytes_(BufferSize) PVOID Data;
-  Field_size_bytes_(BufferSize) PVOID SystemVa;
-  ULONG                               Flags;
-  ULONG                               Reserved;
-} KSSTREAM_METADATA_INFO, *PKSSTREAM_METADATA_INFO;
-````
 
 
 ## -struct-fields

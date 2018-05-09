@@ -7,7 +7,7 @@ old-location: stream\kocreateinstance.htm
 old-project: stream
 ms.assetid: ee719cbe-0933-4adc-b5c7-62b66f2bf4e1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KoCreateInstance, KoCreateInstance function [Streaming Media Devices], kcom/KoCreateInstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, stream.kocreateinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ks.dll
 api_name:
 -	KoCreateInstance
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: CONNECT_DATA, *PCONNECT_DATA
+req.typenames: 
 ---
 
 # KoCreateInstance function
@@ -53,20 +54,6 @@ req.typenames: CONNECT_DATA, *PCONNECT_DATA
 <i>This function is intended for internal use only.</i>
 
 The <b>KoCreateInstance</b> function creates an object of the class with the specified CLSID. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KoCreateInstance(
-  _In_     REFCLSID ClassId,
-  _In_opt_ IUnknown *UnkOuter,
-  _In_     ULONG    ClsContext,
-  _In_     REFIID   InterfaceId,
-  _Out_    PVOID    *Interface
-);
-````
 
 
 ## -parameters

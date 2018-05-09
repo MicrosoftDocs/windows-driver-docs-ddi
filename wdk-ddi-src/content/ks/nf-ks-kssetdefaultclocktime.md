@@ -7,7 +7,7 @@ old-location: stream\kssetdefaultclocktime.htm
 old-project: stream
 ms.assetid: c8b4fef4-cfbb-4cdd-b762-062b8ae4a423
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsSetDefaultClockTime, KsSetDefaultClockTime function [Streaming Media Devices], ks/KsSetDefaultClockTime, ksfunc_737648d0-8fc4-405c-96c8-61778e6758e9.xml, stream.kssetdefaultclocktime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsSetDefaultClockTime
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,20 +51,9 @@ req.typenames:
 ## -description
 
 
-The <b>KsSetDefaultClockTime</b> function sets the current time of the clock. It modifies the current time returned by the clock. The owner of the default clock is expected to serialize access to this function and to the <a href="..\ks\nf-ks-kssetdefaultclockstate.md">KsSetDefaultClockState</a> function.
+The <b>KsSetDefaultClockTime</b> function sets the current time of the clock. It modifies the current time returned by the clock. The owner of the default clock is expected to serialize access to this function and to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566820">KsSetDefaultClockState</a> function.
 
 The function can be called at DISPATCH_LEVEL.
-
-
-## -syntax
-
-
-````
-VOID KsSetDefaultClockTime(
-  _In_ PKSDEFAULTCLOCK DefaultClock,
-  _In_ LONGLONG        Time
-);
-````
 
 
 ## -parameters
@@ -92,12 +82,11 @@ None
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetdefaultclocktime.md">KsGetDefaultClockTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562614">KsGetDefaultClockTime</a>
  
 
  
-
 

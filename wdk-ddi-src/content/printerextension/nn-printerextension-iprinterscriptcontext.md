@@ -7,8 +7,8 @@ old-location: print\iprinterscriptcontext.htm
 old-project: print
 ms.assetid: B44B47EA-6848-430E-9C10-F6DD460C2304
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], IPrinterScriptContext interface [Print Devices], described, print.iprinterscriptcontext, printerextension/IPrinterScriptContext
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], IPrinterScriptContext interface [Print Devices],described, print.iprinterscriptcontext, printerextension/IPrinterScriptContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterScriptContext interface
@@ -113,12 +113,11 @@ Provides access to the user property bag, if the property bag is present.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/4E20303A-BEB3-4928-BA5A-356D978FA2BE">V4 Printer Driver Property Bags</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_FIXDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_FIXDATA, *PGNSS_FIXDATA
 ---
@@ -50,25 +51,6 @@ req.typenames: GNSS_FIXDATA, *PGNSS_FIXDATA
 
 
 This structure defines the specific data elements associated with a GNSS fix returned from the driver.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                  Size;
-  ULONG                  Version;
-  ULONG                  FixSessionID;
-  FILETIME               FixTimeStamp;
-  BOOL                   IsFinalFix;
-  NTSTATUS               FixStatus;
-  ULONG                  FixLevelOfDetails;
-  GNSS_FIXDATA_BASIC     BasicData;
-  GNSS_FIXDATA_ACCURACY  AccuracyData;
-  GNSS_FIXDATA_SATELLITE SatelliteData;
-} GNSS_FIXDATA, *PGNSS_FIXDATA;
-````
 
 
 ## -struct-fields

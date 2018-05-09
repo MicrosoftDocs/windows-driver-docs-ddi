@@ -7,7 +7,7 @@ old-location: display\dxgkarg_createprocess.htm
 old-project: display
 ms.assetid: F4FDF254-1C36-43DC-B1FD-376AD7658E61
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS structure [Display Devices], _DXGKARG_CREATEPROCESS, d3dkmddi/DXGKARG_CREATEPROCESS, display.dxgkarg_createprocess"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -17,17 +17,17 @@ req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_CREATEPROCESS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_CREATEPROCESS
 ---
@@ -49,21 +50,7 @@ req.typenames: DXGKARG_CREATEPROCESS
 ## -description
 
 
-<b>DXGKARG_CREATEPROCESS</b> is used with <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_CREATEPROCESS {
-  HANDLE                  hDxgkProcess;
-  HANDLE                  hKmdProcess;
-  DXGK_CREATEPROCESSFLAGS Flags;
-  UINT                    NumPasid;
-  ULONG*                  pPasid;
-} DXGKARG_CREATEPROCESS;
-````
+<b>DXGKARG_CREATEPROCESS</b> is used with <a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 
 
 ## -struct-fields
@@ -83,31 +70,41 @@ typedef struct _DXGKARG_CREATEPROCESS {
 
 ### -field Flags
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createprocessflags.md">DXGK_CREATEPROCESSFLAGS</a> structure describing the operation.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/dn914476">DXGK_CREATEPROCESSFLAGS</a> structure describing the operation.
 
 
 ### -field NumPasid
 
-[in] The number of elements in the process address space identifier array located in the <b>pPasid</b>  member. 
+[in] The number of elements in the process address space identifier array located in the <b>pPasid</b>  member.
 
 
 ### -field pPasid
 
 [in] A pointer to an array of process address identifiers. There will be one for each physical GPUs.
 
+### -field hKmdVmWorkerProcess
+
+[in] Driver VM worker process handle when VirtualMachineProcess is set.
+
+### -field ProcessNameLength
+
+[in] The length of the process name.
+
+### -field pProcessName
+
+[in] The process name. Can be NULL.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createprocess.md">DxgkDdiCreateProcess</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_createprocessflags.md">DXGK_CREATEPROCESSFLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914476">DXGK_CREATEPROCESSFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a>
  
 
  
-
 

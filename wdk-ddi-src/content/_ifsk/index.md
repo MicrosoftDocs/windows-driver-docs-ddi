@@ -2,7 +2,7 @@
 UID: TP:ifsk
 ms.assetid: c842e40c-3483-3721-b6bf-4da6e333af1a
 ms.author: windowsdriverdev
-ms.date: 03/13/18
+ms.date: 05/01/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -10,6 +10,7 @@ ms.topic: portal
 ---
 
 # Installable file system
+
 
 
 Overview of the Installable file system technology.
@@ -48,7 +49,7 @@ To develop Installable file system, you need these headers:
  * [struchdr.h](..\struchdr\index.md)
  * [tdi.h](..\tdi\index.md)
 
-For the programming guide, see [Installable file system](===404===https://docs.microsoft.com/en-us/windows-hardware/drivers/ifsk).
+For the programming guide, see [Installable file system](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs).
 
 ## Functions
 
@@ -440,10 +441,10 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [FsRtlLookupPerFileContext function](..\ntifs\nf-ntifs-fsrtllookupperfilecontext.md) | The FsRtlLookupPerFileContext routine returns a pointer to a FSRTL_PER_FILE_CONTEXT object that is associated with a specified file. |
 | [FsRtlLookupPerFileObjectContext function](..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md) | For a &#0034;legacy&#0034; file system filter driver, the FsRtlLookupPerFileObjectContext function retrieves context information previously associated with a file object. |
 | [FsRtlLookupPerStreamContextInternal function](..\ntifs\nf-ntifs-fsrtllookupperstreamcontextinternal.md) | Reserved for system use. |
-| [FsRtlMdlReadCompleteDev function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreadcompletedev~r2.md) | The FsRtlMdlReadCompleteDev routine completes the read operation that the FsRtlMdlReadDev routine initiated. |
-| [FsRtlMdlReadDev function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md) | The FsRtlMdlReadDev routine returns a memory descriptor list (MDL) that points directly to the specified byte range in the file cache. |
+| [FsRtlMdlReadCompleteDev function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreadcompletedev~r2.md) | The FltFastIoMdlReadComplete routine completes the read operation that the FltFastIoMdlRead routine initiated. |
+| [FsRtlMdlReadDev function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md) | The FltFastIoMdlRead routine returns a memory descriptor list (MDL) that points directly to the specified byte range in the file cache. |
 | [FsRtlMdlReadEx function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreadex~r5.md) | The FsRtlMdlReadEx routine performs a fast cached MDL read. If the requested data is not cached, the routine reverts to an IRP based MDL read operation. |
-| [FsRtlMdlWriteCompleteDev function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlwritecompletedev~r3.md) | The FsRtlMdlWriteCompleteDev routine frees the resources that FsRtlPrepareMdlWriteDev allocated. |
+| [FsRtlMdlWriteCompleteDev function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlwritecompletedev~r3.md) | The FltFastIoMdlWriteComplete routine frees the resources that FltFastIoPrepareMdlWrite allocated. |
 | [FsRtlMupGetProviderIdFromName function](..\ntifs\nf-ntifs-fsrtlmupgetprovideridfromname.md) | The FsRtlMupGetProviderIdFromName routine gets the provider identifier of a network redirector that is registered with the multiple UNC provider (MUP) from the device name of the network redirector. |
 | [FsRtlMupGetProviderInfoFromFileObject function](..\ntifs\nf-ntifs-fsrtlmupgetproviderinfofromfileobject.md) | The FsRtlMupGetProviderInfoFromFileObject routine gets information about a network redirector that is registered with the multiple UNC provider (MUP) from a file object for a file that is located on a remote file system. |
 | [FsRtlNormalizeNtstatus function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnormalizentstatus~r1.md) | The FsRtlNormalizeNtstatus routine translates an arbitrary exception into a status value that is handled by the exception filter. |
@@ -469,7 +470,7 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [FsRtlOplockKeysEqual function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockkeysequal~r1.md) | The FsRtlOplockKeysEqual routine compares the opportunistic lock (oplock) keys that are stored in the file object extensions of two file objects. |
 | [FsRtlPostPagingFileStackOverflow function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow~r2.md) | The FsRtlPostPagingFileStackOverflow routine posts a paging file stack overflow item to the stack overflow thread. |
 | [FsRtlPostStackOverflow function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpoststackoverflow~r2.md) | The FsRtlPostStackOverflow routine posts a stack overflow item to the stack overflow thread. |
-| [FsRtlPrepareMdlWriteDev function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev~r6.md) | The FsRtlPrepareMdlWriteDev routine returns a linked list of memory descriptor lists (MDLs) that point to the specified range of cached file data to write data directly to the cache. |
+| [FsRtlPrepareMdlWriteDev function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwritedev~r6.md) | The FltFastIoPrepareMdlWrite routine returns a linked list of memory descriptor lists (MDLs) that point to the specified range of cached file data to write data directly to the cache. |
 | [FsRtlPrepareMdlWriteEx function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpreparemdlwriteex~r5.md) | The FsRtlPrepareMdlWriteEx routine returns a linked list of memory descriptor lists (MDLs) that point to the specified range of cached file data to write data directly to the cache. |
 | [FsRtlPrepareToReuseEcp function](..\ntifs\nf-ntifs-fsrtlpreparetoreuseecp.md) | The FsRtlPrepareToReuseEcp routine resets an extra create parameter (ECP) context structure, which prepares it for reuse. |
 | [FsRtlPrivateLock function](..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprivatelock~r11.md) | Obsolete. |
@@ -993,6 +994,7 @@ For the programming guide, see [Installable file system](===404===https://docs.m
 | [_REPARSE_DATA_BUFFER structure](..\ntifs\ns-ntifs-_reparse_data_buffer.md) | The REPARSE_DATA_BUFFER structure contains reparse point data for a Microsoft reparse point. |
 | [_REPARSE_GUID_DATA_BUFFER structure](..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md) | The REPARSE_GUID_DATA_BUFFER structure contains reparse point data for a reparse point. |
 | [_RX_CONTEXT structure](..\rxcontx\ns-rxcontx-_rx_context.md) | The RX_CONTEXT structure encapsulates an IRP for use by RDBSS, network mini-redirectors, and the file system. |
+| [_SECURITY_DESCRIPTOR structure](..\ntifs\ns-ntifs-_security_descriptor.md) | The SECURITY_DESCRIPTOR structure contains the security information associated with an object. Drivers use this structure to set and query an object's security status. |
 | [_SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure](..\ntifs\ns-ntifs-_set_dax_alloc_alignment_hint_input.md) | This structure is for internal use only and should not be called from your code. |
 | [_SE_EXPORTS structure](..\ntifs\ns-ntifs-_se_exports.md) | The SeExports structure is a large external static SE_EXPORTS structure that defines a number of well-known security constants for privilege values and security identifiers. |
 | [_SE_SID structure](..\ntifs\ns-ntifs-_se_sid.md) | The SE_SID union holds the maximum-sized valid Security Identifier (SID). The structure occupies 68-bytes and is suitable for stack allocation. |

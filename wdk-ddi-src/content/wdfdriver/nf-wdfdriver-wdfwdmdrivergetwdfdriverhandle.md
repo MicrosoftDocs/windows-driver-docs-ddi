@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfWdmDriverGetWdfDriverHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_INIT_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfWdmDriverGetWdfDriverHandle function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfWdmDriverGetWdfDriverHandle</b> method returns a handle to the framework driver object that is associated with a specified Windows Driver Model (WDM) driver object.
-
-
-## -syntax
-
-
-````
-WDFDRIVER WdfWdmDriverGetWdfDriverHandle(
-  _In_ PDRIVER_OBJECT DriverObject
-);
-````
 
 
 ## -parameters

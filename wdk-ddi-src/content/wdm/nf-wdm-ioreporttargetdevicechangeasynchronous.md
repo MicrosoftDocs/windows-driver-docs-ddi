@@ -7,7 +7,7 @@ old-location: kernel\ioreporttargetdevicechangeasynchronous.htm
 old-project: kernel
 ms.assetid: 69ffe74f-59f9-41d6-a494-ee00be5bec62
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture], k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml, kernel.ioreporttargetdevicechangeasynchronous, wdm/IoReportTargetDeviceChangeAsynchronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoReportTargetDeviceChangeAsynchronous
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoReportTargetDeviceChangeAsynchronous function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoReportTargetDeviceChangeAsynchronous</b> routine notifies the PnP manager that a custom event has occurred on a device. 
-
-
-## -syntax
-
-
-````
-NTSTATUS IoReportTargetDeviceChangeAsynchronous(
-  _In_     PDEVICE_OBJECT                   PhysicalDeviceObject,
-  _In_     PVOID                            NotificationStructure,
-  _In_opt_ PDEVICE_CHANGE_COMPLETE_CALLBACK Callback,
-  _Inout_  PVOID                            Context
-);
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ Pointer to the PDO of the device being reported.
 
 ### -param NotificationStructure [in]
 
-Pointer to a caller-supplied <a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a> structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
+Pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff564596">TARGET_DEVICE_CUSTOM_NOTIFICATION</a> structure describing the custom event. The PnP manager sends this structure to drivers that registered for notification of the event.
 
 <i>NotificationStructure</i>.<b>FileObject</b> must be <b>NULL</b>. <i>NotificationStructure</i>.<b>Event</b> must contain the custom GUID for the event. The other fields of the <i>NotificationStructure</i> must be filled in as appropriate for the custom event.
 
@@ -162,16 +149,15 @@ Callers of <b>IoReportTargetDeviceChangeAsynchronous</b> must be running at IRQL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioreporttargetdevicechange.md">IoReportTargetDeviceChange</a>
 
 
 
-<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549625">IoReportTargetDeviceChange</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564596">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
  
 
  
-
 

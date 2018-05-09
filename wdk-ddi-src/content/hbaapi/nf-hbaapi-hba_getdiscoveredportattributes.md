@@ -7,7 +7,7 @@ old-location: storage\hba_getdiscoveredportattributes.htm
 old-project: storage
 ms.assetid: 64c6ed50-a4b9-4a8c-b38c-b2fcdf5ccee9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_GetDiscoveredPortAttributes, HBA_GetDiscoveredPortAttributes routine [Storage Devices], fibreHBA_rtns_3f74a187-728d-4534-8ad8-29e1a9b0add5.xml, hbaapi/HBA_GetDiscoveredPortAttributes, storage.hba_getdiscoveredportattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_GetDiscoveredPortAttributes
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_GetDiscoveredPortAttributes function
@@ -50,19 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_GetDiscoveredPortAttributes</b> routine retrieves the attributes for a specified remote fibre channel port.
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_GetDiscoveredPortAttributes(
-  _In_  HBA_HANDLE         HbaHandle,
-  _In_  HBA_UINT32         PortIndex,
-  _In_  HBA_UINT32         DiscoveredPortIndex,
-  _Out_ HBA_PORTATTRIBUTES *HbaPortAttributes
-);
-````
 
 
 ## -parameters
@@ -94,12 +82,12 @@ TBD
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
 
 
 #### - HbaPortAttributes [out]
 
-Contains a structure of type <a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a> that reports the port attributes. 
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a> that reports the port attributes. 
 
 
 ## -returns
@@ -122,11 +110,6 @@ The <b>HBA_GetDiscoveredPortAttributes</b> library routine corresponds to the <a
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
 
 
 
@@ -134,8 +117,12 @@ The <b>HBA_GetDiscoveredPortAttributes</b> library routine corresponds to the <a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557107">HBA_PortAttributes</a>
  
 
  
-
 

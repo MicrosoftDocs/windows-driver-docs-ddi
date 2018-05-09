@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.SetFontSubstitution
-title: IPrintCoreHelper::SetFontSubstitution method
+title: IPrintCoreHelper::SetFontSubstitution
 author: windows-driver-content
 description: The IPrintCoreHelper::SetFontSubstitution method specifies the device font to print in place of a given TrueType font.
 old-location: print\iprintcorehelper_setfontsubstitution.htm
 old-project: print
 ms.assetid: 2d0278b0-0011-4946-a095-5fef77a8b194
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], SetFontSubstitution method, IPrintCoreHelper::SetFontSubstitution, SetFontSubstitution method [Print Devices], SetFontSubstitution method [Print Devices], IPrintCoreHelper interface, SetFontSubstitution,IPrintCoreHelper.SetFontSubstitution, prcomoem/IPrintCoreHelper::SetFontSubstitution, print.iprintcorehelper_setfontsubstitution, print_unidrv-pscript_allplugins_4ac54a23-3b42-4bb7-a078-a53774a537b2.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintCoreHelper interface [Print Devices],SetFontSubstitution method, IPrintCoreHelper.SetFontSubstitution, IPrintCoreHelper::SetFontSubstitution, SetFontSubstitution, SetFontSubstitution method [Print Devices], SetFontSubstitution method [Print Devices],IPrintCoreHelper interface, prcomoem/IPrintCoreHelper::SetFontSubstitution, print.iprintcorehelper_setfontsubstitution, print_unidrv-pscript_allplugins_4ac54a23-3b42-4bb7-a078-a53774a537b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreHelper.SetFontSubstitution
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelper::SetFontSubstitution method
+# IPrintCoreHelper::SetFontSubstitution
 
 
 ## -description
 
 
 The <b>IPrintCoreHelper::SetFontSubstitution</b> method specifies the device font to print in place of a given TrueType font. 
-
-
-## -syntax
-
-
-````
-HRESULT SetFontSubstitution(
-  [in] PCWSTR pszTrueTypeFontName,
-  [in] PCWSTR pszDevFontName
-);
-````
 
 
 ## -parameters
@@ -168,16 +157,15 @@ To obtain a list of valid device fonts, create an information context for the cu
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
+
+
+
+<a href="https://msdn.microsoft.com/db13410f-e4cb-4077-bb4b-7963e97b435c">IPrintCoreHelper</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552957">IPrintCoreHelper::GetFontSubstitution</a>
-
-
-
  
 
  
-
 

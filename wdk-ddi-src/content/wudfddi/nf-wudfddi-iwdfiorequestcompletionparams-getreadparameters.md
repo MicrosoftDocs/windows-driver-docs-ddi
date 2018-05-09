@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequestCompletionParams.GetReadParameters
-title: IWDFIoRequestCompletionParams::GetReadParameters method
+title: IWDFIoRequestCompletionParams::GetReadParameters
 author: windows-driver-content
 description: The GetReadParameters method retrieves parameters that are associated with the completion of a read request.
 old-location: wdf\iwdfiorequestcompletionparams_getreadparameters.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f38616e-498b-485e-84c8-de62477b5871
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetReadParameters method, GetReadParameters method, IWDFIoRequestCompletionParams interface, GetReadParameters,IWDFIoRequestCompletionParams.GetReadParameters, IWDFIoRequestCompletionParams, IWDFIoRequestCompletionParams interface, GetReadParameters method, IWDFIoRequestCompletionParams::GetReadParameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, umdf.iwdfiorequestcompletionparams_getreadparameters, wdf.iwdfiorequestcompletionparams_getreadparameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters
+ms.keywords: GetReadParameters, GetReadParameters method, GetReadParameters method,IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface,GetReadParameters method, IWDFIoRequestCompletionParams.GetReadParameters, IWDFIoRequestCompletionParams::GetReadParameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, umdf.iwdfiorequestcompletionparams_getreadparameters, wdf.iwdfiorequestcompletionparams_getreadparameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequestCompletionParams.GetReadParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequestCompletionParams::GetReadParameters method
+# IWDFIoRequestCompletionParams::GetReadParameters
 
 
 ## -description
@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>GetReadParameters</b> method retrieves parameters that are associated with the completion of a read request.
 
 
-## -syntax
-
-
-````
-void  GetReadParameters(
-  [out] IWDFMemory **ppReadMemory,
-  [out] SIZE_T     *pBytesRead,
-  [out] SIZE_T     *pReadMemoryOffset
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +62,7 @@ void  GetReadParameters(
 
 ### -param ppReadMemory [out]
 
-A pointer to a variable that receives a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a> interface for access to the read buffer for the completion of the read request. 
+A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a> interface for access to the read buffer for the completion of the read request. 
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
@@ -104,16 +92,15 @@ None
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequestcompletionparams.md">IWDFIoRequestCompletionParams</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559055">IWDFIoRequestCompletionParams</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
  
 
  
-
 

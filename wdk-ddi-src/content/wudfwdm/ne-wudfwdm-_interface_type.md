@@ -7,7 +7,7 @@ old-location: kernel\interface_type.htm
 old-project: kernel
 ms.assetid: 4d20f3fd-d06e-420b-af69-9ef34addc611
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PINTERFACE_TYPE, ACPIBus, CBus, Eisa, INTERFACE_TYPE, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], InterfaceTypeUndefined, Internal, InternalPowerBus, Isa, MPIBus, MPSABus, MaximumInterfaceType, MicroChannel, NuBus, PCIBus, PCMCIABus, PINTERFACE_TYPE, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PNPBus, PNPISABus, ProcessorInternal, TurboChannel, VMEBus, Vmcs, _INTERFACE_TYPE, kernel.interface_type, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, wdm/ACPIBus, wdm/CBus, wdm/Eisa, wdm/INTERFACE_TYPE, wdm/InterfaceTypeUndefined, wdm/Internal, wdm/InternalPowerBus, wdm/Isa, wdm/MPIBus, wdm/MPSABus, wdm/MaximumInterfaceType, wdm/MicroChannel, wdm/NuBus, wdm/PCIBus, wdm/PCMCIABus, wdm/PINTERFACE_TYPE, wdm/PNPBus, wdm/PNPISABus, wdm/ProcessorInternal, wdm/TurboChannel, wdm/VMEBus, wdm/Vmcs"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at IRQL <= DISPATCH_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	INTERFACE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INTERFACE_TYPE, *PINTERFACE_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _INTERFACE_TYPE enumeration
@@ -51,35 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>INTERFACE_TYPE</b> enumeration indicates the bus type. 
-
-
-## -syntax
-
-
-````
-typedef enum _INTERFACE_TYPE { 
-  InterfaceTypeUndefined  = -1,
-  Internal,
-  Isa,
-  Eisa,
-  MicroChannel,
-  TurboChannel,
-  PCIBus,
-  VMEBus,
-  NuBus,
-  PCMCIABus,
-  CBus,
-  MPIBus,
-  MPSABus,
-  ProcessorInternal,
-  InternalPowerBus,
-  PNPISABus,
-  PNPBus,
-  Vmcs,
-  ACPIBus,
-  MaximumInterfaceType
-} INTERFACE_TYPE, *PINTERFACE_TYPE;
-````
 
 
 ## -enum-fields
@@ -189,32 +160,33 @@ Marks the upper limit of the possible bus types.
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
 
 
 
-<a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a>
 
 
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564629">ScsiPortGetDeviceBase</a>
 
 
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564761">ScsiPortValidateRange</a>
 
 
 
-<a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567080">StorPortGetDeviceBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567513">StorPortValidateRange</a>
  
 
  
+
 
 

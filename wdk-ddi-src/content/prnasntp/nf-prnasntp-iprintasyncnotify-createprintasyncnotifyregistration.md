@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration
-title: IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration method
+title: IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnotify_createprintasyncnotifyregistration.htm
 old-project: print
 ms.assetid: 845FA810-0286-4FA9-9BD4-A160989C581A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CreatePrintAsyncNotifyRegistration method [Print Devices], CreatePrintAsyncNotifyRegistration method [Print Devices], IPrintAsyncNotify interface, CreatePrintAsyncNotifyRegistration,IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration, IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], CreatePrintAsyncNotifyRegistration method, IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration, print.iprintasyncnotify_createprintasyncnotifyregistration, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
+ms.date: 4/20/2018
+ms.keywords: CreatePrintAsyncNotifyRegistration, CreatePrintAsyncNotifyRegistration method [Print Devices], CreatePrintAsyncNotifyRegistration method [Print Devices],IPrintAsyncNotify interface, IPrintAsyncNotify interface [Print Devices],CreatePrintAsyncNotifyRegistration method, IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration, IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration, print.iprintasyncnotify_createprintasyncnotifyregistration, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration method
+# IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
 
 
 ## -description
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT CreatePrintAsyncNotifyRegistration(
-  [in]  PrintAsyncNotificationType        *pType,
-  [in]  PrintAsyncNotifyUserFilter        filter,
-  [in]  PrintAsyncNotifyConversationStyle pStyle,
-  [in]  IPrintAsyncNotifyCallback         *pCallback,
-  [out] IPrintAsyncNotifyRegistration     **ppRegistration
-);
-````
 
 
 ## -parameters
@@ -105,12 +91,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasyncnotify.md">IPrintAsyncNotify</a>
 
 
 
+<a href="https://msdn.microsoft.com/7C12C528-03B2-42B7-A73D-21DF3FEF1505">IPrintAsyncNotify</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiDeviceControl.AddRef
-title: IStiDeviceControl::AddRef method
+title: IStiDeviceControl::AddRef
 author: windows-driver-content
 description: The IStiDeviceControl::AddRef method increments the reference count for the IStiDeviceControl interface.
 old-location: image\istidevicecontrol_addref.htm
 old-project: image
 ms.assetid: 8aa28efb-a030-4fed-b9f2-0e67ff1e7c9e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: AddRef method [Imaging Devices], AddRef method [Imaging Devices], IStiDeviceControl interface, AddRef,IStiDeviceControl.AddRef, IStiDeviceControl, IStiDeviceControl interface [Imaging Devices], AddRef method, IStiDeviceControl::AddRef, image.istidevicecontrol_addref, stifnc_b0cd1dfe-9e37-42a5-83e0-d0f97c9439e8.xml, stiusd/IStiDeviceControl::AddRef
+ms.date: 4/23/2018
+ms.keywords: AddRef, AddRef method [Imaging Devices], AddRef method [Imaging Devices],IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices],AddRef method, IStiDeviceControl.AddRef, IStiDeviceControl::AddRef, image.istidevicecontrol_addref, stifnc_b0cd1dfe-9e37-42a5-83e0-d0f97c9439e8.xml, stiusd/IStiDeviceControl::AddRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,27 +38,19 @@ api_location:
 -	Stiusd.h
 api_name:
 -	IStiDeviceControl.AddRef
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiDeviceControl::AddRef method
+# IStiDeviceControl::AddRef
 
 
 ## -description
 
 
 The <b>IStiDeviceControl::AddRef</b> method increments the reference count for the <b>IStiDeviceControl</b> interface.
-
-
-## -syntax
-
-
-````
-HRESULT AddRef();
-````
 
 
 ## -parameters
@@ -90,16 +82,15 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/de58597a-d10a-45b3-bf75-539e5cd00535">IStiDeviceControl</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543725">IStiDeviceControl::Release</a>
-
-
-
  
 
  
-
 

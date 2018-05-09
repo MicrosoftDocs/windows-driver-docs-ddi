@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_get_hub_capabilities_ex.htm
 old-project: usbref
 ms.assetid: 49c25f30-8eff-4894-8a82-a90c5a7d9aa4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_USB_GET_HUB_CAPABILITIES_EX, IOCTL_USB_GET_HUB_CAPABILITIES_EX control code [Buses], buses.ioctl_usb_get_hub_capabilities_ex, usbioctl/IOCTL_USB_GET_HUB_CAPABILITIES_EX, usbirp_bed6a9f5-00ee-4f0b-9906-cd27d85a74c2.xml
+ms.date: 4/25/2018
+ms.keywords: IOCTL_USB_GET_HUB_CAPABILITIES_EX, IOCTL_USB_GET_HUB_CAPABILITIES_EX control, IOCTL_USB_GET_HUB_CAPABILITIES_EX control code [Buses], buses.ioctl_usb_get_hub_capabilities_ex, usbioctl/IOCTL_USB_GET_HUB_CAPABILITIES_EX, usbirp_bed6a9f5-00ee-4f0b-9906-cd27d85a74c2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_USB_GET_HUB_CAPABILITIES_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USB_GET_HUB_CAPABILITIES_EX IOCTL
@@ -75,7 +75,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated buffer.
 
 ### -output-buffer
 
-<b>AssociatedIrp.SystemBuffer</b> points to a user-allocated <a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities_ex.md">USB_HUB_CAPABILITIES_EX</a> structure. On output, this structure describes the hub capabilities. 
+<b>AssociatedIrp.SystemBuffer</b> points to a user-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff539329">USB_HUB_CAPABILITIES_EX</a> structure. On output, this structure describes the hub capabilities. 
 
 
 ### -output-buffer-length
@@ -108,12 +108,11 @@ The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the reque
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities_ex.md">USB_HUB_CAPABILITIES_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539329">USB_HUB_CAPABILITIES_EX</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bth_sdp_service_search.htm
 old-project: bltooth
 ms.assetid: aea2aff2-5983-4583-9cc8-a45401ecdfb6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_BTH_SDP_SERVICE_SEARCH, IOCTL_BTH_SDP_SERVICE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_search, bth_ioctls_63b14ae9-91a6-42c7-bdd2-6ab9326f106c.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_SEARCH
+ms.date: 4/27/2018
+ms.keywords: IOCTL_BTH_SDP_SERVICE_SEARCH, IOCTL_BTH_SDP_SERVICE_SEARCH control, IOCTL_BTH_SDP_SERVICE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_search, bth_ioctls_63b14ae9-91a6-42c7-bdd2-6ab9326f106c.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_SEARCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_SDP_SERVICE_SEARCH
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
+req.typenames: 
 ---
 
 # IOCTL_BTH_SDP_SERVICE_SEARCH IOCTL
@@ -65,7 +66,7 @@ The IOCTL_BTH_SDP_SERVICE_SEARCH request contacts a remote device with an SDP re
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">
+      <a href="https://msdn.microsoft.com/d1ef833e-8350-499c-9a3d-408d900c9245">
       BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure that specifies the connection handle to the remote SDP
       server and an array of GUIDs to search for.
 
@@ -73,7 +74,7 @@ The
 ### -input-buffer-length
 
 The length of a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">
+      <a href="https://msdn.microsoft.com/d1ef833e-8350-499c-9a3d-408d900c9245">
       BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure/
 
 
@@ -201,12 +202,11 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_service_search_request.md">BTH_SDP_SERVICE_SEARCH_REQUEST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536652">BTH_SDP_SERVICE_SEARCH_REQUEST</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortMidi.RegisterServiceGroup
-title: IPortMidi::RegisterServiceGroup method
+title: IPortMidi::RegisterServiceGroup
 author: windows-driver-content
 description: The RegisterServiceGroup method registers the service group to be used for the IPortMidi::Notify method.
 old-location: audio\iportmidi_registerservicegroup.htm
 old-project: audio
 ms.assetid: 8e6b967f-7114-4231-bcfc-23637cd83268
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IPortMidi, IPortMidi interface [Audio Devices], RegisterServiceGroup method, IPortMidi::RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices], IPortMidi interface, RegisterServiceGroup,IPortMidi.RegisterServiceGroup, audio.iportmidi_registerservicegroup, audmp-routines_ff2228bf-489d-4980-a317-e9cb89e4f394.xml, portcls/IPortMidi::RegisterServiceGroup
+ms.date: 4/16/2018
+ms.keywords: IPortMidi interface [Audio Devices],RegisterServiceGroup method, IPortMidi.RegisterServiceGroup, IPortMidi::RegisterServiceGroup, RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices],IPortMidi interface, audio.iportmidi_registerservicegroup, audmp-routines_ff2228bf-489d-4980-a317-e9cb89e4f394.xml, portcls/IPortMidi::RegisterServiceGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortMidi.RegisterServiceGroup
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortMidi::RegisterServiceGroup method
+# IPortMidi::RegisterServiceGroup
 
 
 ## -description
 
 
 The <code>RegisterServiceGroup</code> method registers the service group to be used for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a> method.
-
-
-## -syntax
-
-
-````
-void RegisterServiceGroup(
-  [in] PSERVICEGROUP ServiceGroup
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ void RegisterServiceGroup(
 
 ### -param ServiceGroup [in]
 
-Pointer to the miniport driver's <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object that is being registered.
+Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a> object that is being registered.
 
 
 ## -returns
@@ -92,20 +83,19 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a>
 
 
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
-
-
-
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
  
 
  
-
 

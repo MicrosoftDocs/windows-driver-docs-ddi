@@ -7,7 +7,7 @@ old-location: display\dxgk_flipcaps.htm
 old-project: display
 ms.assetid: 33399b7c-ce67-4c49-be26-2b2d759ff5a0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_FLIPCAPS, DXGK_FLIPCAPS structure [Display Devices], DmStructs_11bba63e-8001-41d2-9c60-978024921994.xml, _DXGK_FLIPCAPS, d3dkmddi/DXGK_FLIPCAPS, display.dxgk_flipcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_FLIPCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_FLIPCAPS
 ---
@@ -49,30 +50,7 @@ req.typenames: DXGK_FLIPCAPS
 ## -description
 
 
-The <b>DXGK_FLIPCAPS</b> structure identifies flipping capabilities of the display miniport driver that the driver provides through a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_FLIPCAPS {
-  union {
-    struct {
-      UINT FlipOnVSyncWithNoWait  :1;
-      UINT FlipOnVSyncMmIo  :1;
-      UINT FlipInterval  :1;
-      UINT FlipImmediateMmIo  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-      UINT FlipIndependent  :1;
-      UINT Reserved  :27;
-#endif 
-      UINT Reserved  :28;
-    };
-    UINT Value;
-  };
-} DXGK_FLIPCAPS;
-````
+The <b>DXGK_FLIPCAPS</b> structure identifies flipping capabilities of the display miniport driver that the driver provides through a call to its <a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a> function.
 
 
 ## -struct-fields
@@ -82,7 +60,7 @@ typedef struct _DXGK_FLIPCAPS {
 
 ### -field FlipOnVSyncWithNoWait
 
-A <b>UINT</b> value that specifies whether the driver supports the scheduling of a flip command that will take effect on the next vertical retrace period (vertical sync) without causing the graphics pipeline to stall until that vertical sync occurs. That is, the graphics pipeline must proceed immediately after the driver writes the physical address of the flipping surface into flip-pending registers at the hardware. Although most hardware uses a depth of one flip-pending register, if hardware uses more than one flip-pending register, the driver should specify the number in the <b>MaxQueuedFlipOnVSync</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure. 
+A <b>UINT</b> value that specifies whether the driver supports the scheduling of a flip command that will take effect on the next vertical retrace period (vertical sync) without causing the graphics pipeline to stall until that vertical sync occurs. That is, the graphics pipeline must proceed immediately after the driver writes the physical address of the flipping surface into flip-pending registers at the hardware. Although most hardware uses a depth of one flip-pending register, if hardware uses more than one flip-pending register, the driver should specify the number in the <b>MaxQueuedFlipOnVSync</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a> structure. 
 
 If <b>FlipOnVSyncWithNoWait</b> is set to 1 (<b>TRUE</b>), the driver supports this mechanism. If <b>FlipOnVSyncWithNoWait</b> is set to 0 (<b>FALSE</b>), the driver does not support this mechanism. That is, the graphics pipeline must wait until the next vertical sync occurs after the scheduling of a flip command to take effect on the next vertical sync.
 
@@ -95,11 +73,11 @@ A <b>UINT</b> value that specifies whether the driver supports a memory mapped I
 
 <ul>
 <li>
-No generation of a DMA buffer to pass in a call to its <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a> function (that is, <b>NULL</b> is passed in the <b>pDmaBuffer</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a> structure).
+No generation of a DMA buffer to pass in a call to its <a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a> function (that is, <b>NULL</b> is passed in the <b>pDmaBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557618">DXGKARG_PRESENT</a> structure).
 
 </li>
 <li>
-A flip through a call to its <a href="https://msdn.microsoft.com/488c929b-3816-457f-b5c2-c176b93d5546">DxgkDdiSetVidPnSourceAddress</a> function at device interrupt request level (DIRQL). In the call to <i>DxgkDdiSetVidPnSourceAddress</i>, the driver should program the digital-to-analog converter (DAC) and use the value in the <b>PrimaryAddress</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddress.md">DXGKARG_SETVIDPNSOURCEADDRESS</a> structure to start the scan out. After the vertical sync, the driver should notify the GPU scheduler to report the effective scan address by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function with the <b>DXGK_INTERRUPT_CRTC_VSYNC</b> value set in the <b>InterruptType</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure. The driver should then call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a> function to perform most of the scan-out processing.
+A flip through a call to its <a href="https://msdn.microsoft.com/488c929b-3816-457f-b5c2-c176b93d5546">DxgkDdiSetVidPnSourceAddress</a> function at device interrupt request level (DIRQL). In the call to <i>DxgkDdiSetVidPnSourceAddress</i>, the driver should program the digital-to-analog converter (DAC) and use the value in the <b>PrimaryAddress</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559484">DXGKARG_SETVIDPNSOURCEADDRESS</a> structure to start the scan out. After the vertical sync, the driver should notify the GPU scheduler to report the effective scan address by calling the <a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a> function with the <b>DXGK_INTERRUPT_CRTC_VSYNC</b> value set in the <b>InterruptType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557538">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a> structure. The driver should then call the <a href="https://msdn.microsoft.com/3df3f7d4-3721-46f5-b9e3-19bd3d870292">DxgkCbNotifyDpc</a> function to perform most of the scan-out processing.
 
 </li>
 </ul>
@@ -124,7 +102,7 @@ Supported starting with Windows 7.
 
 A <b>UINT</b> value that specifies whether the driver supports an independent flip. WDDM 1.3 and later drivers must set this member to 1.
 
-In an <i>independent flip</i>, the operating system attempts to bypass a Desktop Window Manager (DWM) user-mode present call and flips to the application back buffer by calling <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>  and <a href="https://msdn.microsoft.com/488c929b-3816-457f-b5c2-c176b93d5546">DxgkDdiSetVidPnSourceAddress</a> in Direct Flip and multiplane overlay presentation models.
+In an <i>independent flip</i>, the operating system attempts to bypass a Desktop Window Manager (DWM) user-mode present call and flips to the application back buffer by calling <a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a>  and <a href="https://msdn.microsoft.com/488c929b-3816-457f-b5c2-c176b93d5546">DxgkDdiSetVidPnSourceAddress</a> in Direct Flip and multiplane overlay presentation models.
 
 Note that there will be cases when a DWM user-mode present call is made even when <b>FlipIndependent</b> is set. Your driver must still handle such cases.
 
@@ -150,55 +128,54 @@ This member is reserved and should be set to zero. Setting this member to zero i
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 28 bits (0xFFFFFFF0) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that DXGK_FLIPCAPS contains that can hold a 32-bit value that identifies flipping capabilities.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_notify_interrupt_data.md">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557538">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557618">DXGKARG_PRESENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557621">DXGKARG_QUERYADAPTERINFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559484">DXGKARG_SETVIDPNSOURCEADDRESS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/3df3f7d4-3721-46f5-b9e3-19bd3d870292">DxgkCbNotifyDpc</a>
+
+
+
+<a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a>
+
+
+
+<a href="https://msdn.microsoft.com/f2f4c54c-7413-48e5-a165-d71f35642b6c">DxgkDdiQueryAdapterInfo</a>
 
 
 
 <a href="https://msdn.microsoft.com/488c929b-3816-457f-b5c2-c176b93d5546">DxgkDdiSetVidPnSourceAddress</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setvidpnsourceaddress.md">DXGKARG_SETVIDPNSOURCEADDRESS</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
-
-
-
  
 
  
-
 

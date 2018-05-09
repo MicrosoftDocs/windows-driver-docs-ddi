@@ -7,7 +7,7 @@ old-location: kernel\iorequestdeviceeject.htm
 old-project: kernel
 ms.assetid: ceaa6793-43ba-4998-827e-8a2c7c892e50
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoRequestDeviceEject, IoRequestDeviceEject routine [Kernel-Mode Driver Architecture], k104_59a74c47-2538-400a-a9b5-a27a5fc495dd.xml, kernel.iorequestdeviceeject, wdm/IoRequestDeviceEject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoRequestDeviceEject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoRequestDeviceEject function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoRequestDeviceEject</b> routine notifies the PnP manager that the device eject button was pressed. 
-
-
-## -syntax
-
-
-````
-VOID IoRequestDeviceEject(
-  _In_ PDEVICE_OBJECT PhysicalDeviceObject
-);
-````
 
 
 ## -parameters
@@ -147,15 +137,6 @@ Callers of <b>IoRequestDeviceEject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
 
 
 
@@ -163,8 +144,16 @@ Callers of <b>IoRequestDeviceEject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
  
 
  
-
 

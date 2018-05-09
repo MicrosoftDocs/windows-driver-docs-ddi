@@ -7,7 +7,7 @@ old-location: ifsk\ccgetfileobjectfromsectionptrsref.htm
 old-project: ifsk
 ms.assetid: 8afbd8df-95fc-453f-a1d8-400a993c286a
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: CcGetFileObjectFromSectionPtrsRef, CcGetFileObjectFromSectionPtrsRef routine [Installable File System Drivers], ccref_e38ddec7-5501-40b4-a2a3-0a13c1c0fb4d.xml, ifsk.ccgetfileobjectfromsectionptrsref, ntifs/CcGetFileObjectFromSectionPtrsRef
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcGetFileObjectFromSectionPtrsRef
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcGetFileObjectFromSectionPtrsRef function
@@ -52,16 +53,6 @@ req.typenames: TOKEN_TYPE
 When passed a pointer to a SECTION_OBJECT_POINTERS structure for a cached file, the <b>CcGetFileObjectFromSectionPtrsRef</b> routine returns a pointer to the file object that the cache manager is using for the cached file.
 
 
-## -syntax
-
-
-````
-PFILE_OBJECT CcGetFileObjectFromSectionPtrsRef(
-  _In_ PSECTION_OBJECT_POINTERS SectionObjectPointer
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ PFILE_OBJECT CcGetFileObjectFromSectionPtrsRef(
 
 ### -param SectionObjectPointer [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a> structure that is associated with the cached file.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563687">SECTION_OBJECT_POINTERS</a> structure that is associated with the cached file.
 
 
 ## -returns
@@ -85,27 +76,26 @@ A pointer to the file object for the cached file, or <b>NULL</b> if the file is 
 
 
 
-The file object is returned with a reference.  The caller is responsible for calling <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> on the file object when it has finished using the file object.
+The file object is returned with a reference.  The caller is responsible for calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> on the file object when it has finished using the file object.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
-<a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539104">CcGetFileObjectFromSectionPtrs</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrs.md">CcGetFileObjectFromSectionPtrs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563687">SECTION_OBJECT_POINTERS</a>
  
 
  
-
 

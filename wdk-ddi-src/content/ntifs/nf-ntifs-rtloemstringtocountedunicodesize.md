@@ -7,7 +7,7 @@ old-location: ifsk\rtloemstringtocountedunicodesize.htm
 old-project: ifsk
 ms.assetid: a618420f-ea69-471d-82a0-1e86f85e270b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlOemStringToCountedUnicodeSize, RtlOemStringToCountedUnicodeSize routine [Installable File System Drivers], ifsk.rtloemstringtocountedunicodesize, ntifs/RtlOemStringToCountedUnicodeSize, rtlref_dc10fcb6-356a-4c09-aea6-c386030039f0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntifs.h
 api_name:
 -	RtlOemStringToCountedUnicodeSize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlOemStringToCountedUnicodeSize macro
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlOemStringToCountedUnicodeSize</b> routine determines the size, in bytes, that a given OEM string will be after it is translated into a counted Unicode string. 
-
-
-## -syntax
-
-
-````
-ULONG RtlOemStringToCountedUnicodeSize(
-  _In_ POEM_STRING OemString
-);
-````
 
 
 ## -parameters
@@ -94,20 +85,19 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtloemstringtocountedunicodestring.md">RtlOemStringToCountedUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553142">RtlOemStringToCountedUnicodeString</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtloemstringtounicodesize.md">RtlOemStringToUnicodeSize</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553147">RtlOemStringToUnicodeSize</a>
  
 
  
-
 

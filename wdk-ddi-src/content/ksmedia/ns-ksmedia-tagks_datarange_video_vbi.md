@@ -7,7 +7,7 @@ old-location: stream\ks_datarange_video_vbi.htm
 old-project: stream
 ms.assetid: 83801ea2-1beb-4b73-8906-ffefee67a2ac
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DATARANGE_VIDEO_VBI, KS_DATARANGE_VIDEO_VBI, KS_DATARANGE_VIDEO_VBI structure [Streaming Media Devices], PKS_DATARANGE_VIDEO_VBI, PKS_DATARANGE_VIDEO_VBI structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO_VBI, ksmedia/PKS_DATARANGE_VIDEO_VBI, stream.ks_datarange_video_vbi, tagKS_DATARANGE_VIDEO_VBI, vidcapstruct_79d2aa9b-f3b9-4faf-b06e-6048686602a5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DATARANGE_VIDEO_VBI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATARANGE_VIDEO_VBI, *PKS_DATARANGE_VIDEO_VBI
 ---
@@ -50,22 +51,6 @@ req.typenames: KS_DATARANGE_VIDEO_VBI, *PKS_DATARANGE_VIDEO_VBI
 
 
 The KS_DATARANGE_VIDEO_VBI structure describes a range of data formats containing vertical blanking interval (VBI) data.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_DATARANGE_VIDEO_VBI {
-  KSDATARANGE                 DataRange;
-  BOOL                        bFixedSizeSamples;
-  BOOL                        bTemporalCompression;
-  DWORD                       StreamDescriptionFlags;
-  DWORD                       MemoryAllocationFlags;
-  KS_VIDEO_STREAM_CONFIG_CAPS ConfigCaps;
-  KS_VBIINFOHEADER            VBIInfoHeader;
-} KS_DATARANGE_VIDEO_VBI, *PKS_DATARANGE_VIDEO_VBI;
-````
 
 
 ## -struct-fields
@@ -110,11 +95,6 @@ Indicates VBI-specific information for the range of formats being described.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
 
 
 
@@ -122,8 +102,12 @@ Indicates VBI-specific information for the range of formats being described.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567692">KS_VBIINFOHEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567706">KS_VIDEO_STREAM_CONFIG_CAPS</a>
  
 
  
-
 

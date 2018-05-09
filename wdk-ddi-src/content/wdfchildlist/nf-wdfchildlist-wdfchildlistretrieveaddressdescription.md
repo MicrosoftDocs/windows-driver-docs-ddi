@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfChildListRetrieveAddressDescription
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_RETRIEVE_CHILD_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfChildListRetrieveAddressDescription function
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfChildListRetrieveAddressDescription</b> method locates a child device that has a specified <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">identification description</a> and retrieves the device's <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/dynamic-enumeration">address description</a>.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfChildListRetrieveAddressDescription(
-  _In_    WDFCHILDLIST                                 ChildList,
-  _In_    PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER IdentificationDescription,
-  _Inout_ PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER        AddressDescription
-);
-````
 
 
 ## -parameters
@@ -80,12 +68,12 @@ A handle to a child list object.
 
 ### -param IdentificationDescription [in]
 
-A pointer to a caller-allocated <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies a driver-supplied child identification description.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies a driver-supplied child identification description.
 
 
 ### -param AddressDescription [in, out]
 
-A pointer to a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure that identifies a child address description. The framework fills in this description.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551219">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure that identifies a child address description. The framework fills in this description.
 
 
 ## -returns
@@ -191,24 +179,23 @@ if (!NT_SUCCESS(status) {
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551219">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551220">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_address_description_header_init.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551225">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
  
 
  
-
 

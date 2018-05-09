@@ -7,7 +7,7 @@ old-location: netvista\wdi_txrx_peer_cfg.htm
 old-project: netvista
 ms.assetid: 5d2a97a3-3214-4f23-bf9d-d0ed292a46f0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWDI_TXRX_PEER_CFG, PWDI_TXRX_PEER_CFG, PWDI_TXRX_PEER_CFG structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_PEER_CFG, WDI_TXRX_PEER_CFG structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_PEER_CFG, dot11wdi/PWDI_TXRX_PEER_CFG, dot11wdi/WDI_TXRX_PEER_CFG, netvista.wdi_txrx_peer_cfg, netvista.wifi_txrx_peer_cfg"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	WDI_TXRX_PEER_CFG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TXRX_PEER_CFG, *PWDI_TXRX_PEER_CFG
 ---
@@ -52,16 +53,6 @@ req.typenames: WDI_TXRX_PEER_CFG, *PWDI_TXRX_PEER_CFG
 The WDI_TXRX_PEER_CFG structure defines peer configuration.
 
 
-## -syntax
-
-
-````
-typedef struct _WDI_TXRX_PEER_CFG {
-  WDI_TXRX_PEER_QOS_CAPS PeerQoSConfig;
-} WDI_TXRX_PEER_CFG, *PWDI_TXRX_PEER_CFG;
-````
-
-
 ## -struct-fields
 
 
@@ -69,5 +60,5 @@ typedef struct _WDI_TXRX_PEER_CFG {
 
 ### -field PeerQoSConfig
 
-The peer's QoS capability as defined in <a href="..\dot11wdi\ne-dot11wdi-_wdi_txrx_peer_qos_caps.md">WDI_TXRX_PEER_QOS_CAPS</a>.
+The peer's QoS capability as defined in <a href="https://msdn.microsoft.com/library/windows/hardware/dn898191">WDI_TXRX_PEER_QOS_CAPS</a>.
 

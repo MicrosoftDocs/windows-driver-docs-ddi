@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrieveDeviceInformation
-title: IWDFUsbTargetDevice::RetrieveDeviceInformation method
+title: IWDFUsbTargetDevice::RetrieveDeviceInformation
 author: windows-driver-content
 description: The RetrieveDeviceInformation method retrieves device information of the specified type.
 old-location: wdf\iwdfusbtargetdevice_retrievedeviceinformation.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 04e3dfba-3313-4575-9956-5b1861b8212a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, RetrieveDeviceInformation method, IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation method, RetrieveDeviceInformation method, IWDFUsbTargetDevice interface, RetrieveDeviceInformation,IWDFUsbTargetDevice.RetrieveDeviceInformation, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, umdf.iwdfusbtargetdevice_retrievedeviceinformation, wdf.iwdfusbtargetdevice_retrievedeviceinformation, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation
+ms.keywords: IWDFUsbTargetDevice interface,RetrieveDeviceInformation method, IWDFUsbTargetDevice.RetrieveDeviceInformation, IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation, RetrieveDeviceInformation method, RetrieveDeviceInformation method,IWDFUsbTargetDevice interface, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, umdf.iwdfusbtargetdevice_retrievedeviceinformation, wdf.iwdfusbtargetdevice_retrievedeviceinformation, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetDevice.RetrieveDeviceInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetDevice::RetrieveDeviceInformation method
+# IWDFUsbTargetDevice::RetrieveDeviceInformation
 
 
 ## -description
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>RetrieveDeviceInformation</b> method retrieves device information of the specified type.
-
-
-## -syntax
-
-
-````
-HRESULT RetrieveDeviceInformation(
-  [in]      ULONG InformationType,
-  [in, out] ULONG *BufferLength,
-  [out]     PVOID Buffer
-);
-````
 
 
 ## -parameters
@@ -161,16 +149,15 @@ For a code example of how to use the<b>RetrieveDeviceInformation</b> method, see
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540290">WinUsb_QueryDeviceInformation</a>
-
-
-
  
 
  
-
 

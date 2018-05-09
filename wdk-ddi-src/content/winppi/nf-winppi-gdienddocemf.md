@@ -7,7 +7,7 @@ old-location: print\gdienddocemf.htm
 old-project: print
 ms.assetid: e58403d4-aacc-4d22-98e5-86db1a69c54a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: GdiEndDocEMF, GdiEndDocEMF function [Print Devices], gdifnc_632b9c31-c0c1-4447-8a0c-ac8fb6b5af55.xml, print.gdienddocemf, winppi/GdiEndDocEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_location:
 -	GDI32Full.dll
 api_name:
 -	GdiEndDocEMF
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # GdiEndDocEMF function
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>GdiEndDocEMF</b> function ends EMF playback operations for an EMF-formatted print job.
 
 
-## -syntax
-
-
-````
-BOOL GdiEndDocEMF(
-   HANDLE SpoolFileHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ BOOL GdiEndDocEMF(
 
 ### -param SpoolFileHandle
 
-Caller-supplied spool file handle, obtained by a previous call to <a href="..\winppi\nf-winppi-gdigetspoolfilehandle.md">GdiGetSpoolFileHandle</a>.
+Caller-supplied spool file handle, obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549517">GdiGetSpoolFileHandle</a>.
 
 
 ## -returns
@@ -88,7 +78,7 @@ If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the funct
 
 
 
-The <b>GdiEndDocEMF</b> function is exported by gdi32.dll for use within a print processor's <a href="..\winsplp\nf-winsplp-printdocumentonprintprocessor.md">PrintDocumentOnPrintProcessor</a> function.
+The <b>GdiEndDocEMF</b> function is exported by gdi32.dll for use within a print processor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560724">PrintDocumentOnPrintProcessor</a> function.
 
 The function performs operations that must be performed after a print job's EMF records have been played. The function calls the spooler's <b>EndDoc</b> function (described in the Microsoft Window SDK documentation), which in turn calls the printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556215">DrvEndDoc</a> function.
 
@@ -99,12 +89,11 @@ For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab4
 
 ## -see-also
 
-<a href="..\winppi\nf-winppi-gdistartdocemf.md">GdiStartDocEMF</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549534">GdiStartDocEMF</a>
  
 
  
-
 

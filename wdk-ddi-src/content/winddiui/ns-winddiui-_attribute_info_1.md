@@ -7,7 +7,7 @@ old-location: print\attribute_info_1.htm
 old-project: print
 ms.assetid: 7902877c-4991-48ae-9285-82949f898af2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1, ATTRIBUTE_INFO_1 structure [Print Devices], PATTRIBUTE_INFO_1, PATTRIBUTE_INFO_1 structure pointer [Print Devices], _ATTRIBUTE_INFO_1, print.attribute_info_1, print_interface-graphics_6c838297-1acb-4d8f-aa5d-beab06a6d3d2.xml, winddiui/ATTRIBUTE_INFO_1, winddiui/PATTRIBUTE_INFO_1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winddiui.h
 api_name:
 -	ATTRIBUTE_INFO_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ATTRIBUTE_INFO_1, *PATTRIBUTE_INFO_1
-req.product: Windows 10 or later.
 ---
 
 # _ATTRIBUTE_INFO_1 structure
@@ -50,23 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The ATTRIBUTE_INFO_1 structure is used as a parameter for a printer interface DLL's <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a> function. All member values are function-supplied.
-
-
-## -syntax
-
-
-````
-typedef struct _ATTRIBUTE_INFO_1 {
-  DWORD dwJobNumberOfPagesPerSide;
-  DWORD dwDrvNumberOfPagesPerSide;
-  DWORD dwNupBorderFlags;
-  DWORD dwJobPageOrderFlags;
-  DWORD dwDrvPageOrderFlags;
-  DWORD dwJobNumberOfCopies;
-  DWORD dwDrvNumberOfCopies;
-} ATTRIBUTE_INFO_1, *PATTRIBUTE_INFO_1;
-````
+The ATTRIBUTE_INFO_1 structure is used as a parameter for a printer interface DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548581">DrvQueryJobAttributes</a> function. All member values are function-supplied.
 
 
 ## -struct-fields
@@ -192,12 +176,11 @@ The print processor uses <b>dwJobNumberOfCopies</b> and <b>dwDrvNumberOfCopies</
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548581">DrvQueryJobAttributes</a>
  
 
  
-
 

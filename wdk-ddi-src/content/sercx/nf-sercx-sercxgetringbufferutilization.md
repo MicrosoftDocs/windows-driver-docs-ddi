@@ -7,7 +7,7 @@ old-location: serports\sercxgetringbufferutilization.htm
 old-project: serports
 ms.assetid: 8D4B8682-5713-47D6-A18E-F2EE44614DFB
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 1/SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization method [Serial Ports], serports.sercxgetringbufferutilization
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SerCxGetRingBufferUtilization
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCxGetRingBufferUtilization function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SerCxGetRingBufferUtilization</b> method enables the serial controller driver to determine how much of the type-ahead ring buffer is currently filled by data received from the serial port.
-
-
-## -syntax
-
-
-````
-VOID SerCxGetRingBufferUtilization(
-  [in]            WDFDEVICE Device,
-  [out, optional] PULONG    BytesUsed,
-  [out, optional] PULONG    BufferSize
-);
-````
 
 
 ## -parameters
@@ -100,25 +88,24 @@ None.
 
 The serial controller driver calls this function to determine how much storage space is available in the type-ahead ring buffer. The serial controller extension (SerCx) maintains this buffer to contain data that the serial controller driver receives from the serial port when no read request from the client is currently being processed. This function provides the information that the driver requires to accurately perform software flow control (XON/XOFF).
 
-To implement software flow control, the serial controller driver monitors the amount of space available in the type-ahead ring buffer. The available space, in bytes, is equal to <i>BufferSize</i> - <i>BytesUsed</i>. When the available space falls below a client-specified threshold, <b>XoffLimit</b>, the serial controller driver transmits an XOFF character to tell the transmitting port to pause transmission. Later, when the available space rises above a client-specified threshold, <b>XonLimit</b>, the driver transmits an XON character to tell the transmitting port to resume transmission. Typically, the client specified these two thresholds in a previous <a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a> I/O control request.
+To implement software flow control, the serial controller driver monitors the amount of space available in the type-ahead ring buffer. The available space, in bytes, is equal to <i>BufferSize</i> - <i>BytesUsed</i>. When the available space falls below a client-specified threshold, <b>XoffLimit</b>, the serial controller driver transmits an XOFF character to tell the transmitting port to pause transmission. Later, when the available space rises above a client-specified threshold, <b>XonLimit</b>, the driver transmits an XON character to tell the transmitting port to resume transmission. Typically, the client specified these two thresholds in a previous <a href="https://msdn.microsoft.com/library/windows/hardware/ff546736">IOCTL_SERIAL_SET_HANDFLOW</a> I/O control request.
 
-SerCx evaluates the available space in the type-ahead ring buffer in the context of the current flow control and handshaking settings. After the type-ahead ring buffer empties completely, SerCx calls the driver's <a href="..\sercx\nc-sercx-evt_sercx_receive.md">EvtSerCxReceive</a> callback function so that the driver can send an XON and resume receiving data. The <i>EvtSerCxReceive</i> function can call <b>SerCxGetRingBufferUtilization</b> to determine whether to send an XON.
+SerCx evaluates the available space in the type-ahead ring buffer in the context of the current flow control and handshaking settings. After the type-ahead ring buffer empties completely, SerCx calls the driver's <a href="https://msdn.microsoft.com/C862D632-5425-4EEB-9C5D-BC3721D9F132">EvtSerCxReceive</a> callback function so that the driver can send an XON and resume receiving data. The <i>EvtSerCxReceive</i> function can call <b>SerCxGetRingBufferUtilization</b> to determine whether to send an XON.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_handflow.md">IOCTL_SERIAL_SET_HANDFLOW</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_receive.md">EvtSerCxReceive</a>
+<a href="https://msdn.microsoft.com/C862D632-5425-4EEB-9C5D-BC3721D9F132">EvtSerCxReceive</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546736">IOCTL_SERIAL_SET_HANDFLOW</a>
  
 
  
-
 

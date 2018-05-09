@@ -7,7 +7,7 @@ old-location: kernel\rtldowncaseunicodechar.htm
 old-project: kernel
 ms.assetid: 1377a069-5065-4305-a48c-7a84f0071fc3
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlDowncaseUnicodeChar, RtlDowncaseUnicodeChar routine [Kernel-Mode Driver Architecture], k109_e9ba1cee-5de9-4f8f-b964-6668ddef36b7.xml, kernel.rtldowncaseunicodechar, wdm/RtlDowncaseUnicodeChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlDowncaseUnicodeChar
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlDowncaseUnicodeChar function
@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlDowncaseUnicodeChar</b> routine converts the specified Unicode character to lowercase. 
-
-
-## -syntax
-
-
-````
-WCHAR RtlDowncaseUnicodeChar(
-  _In_ WCHAR SourceCharacter
-);
-````
 
 
 ## -parameters
@@ -94,16 +84,15 @@ Ntoskrnl.lib supports the <b>RtlDowncaseUnicodeChar</b> routine in the WDK for W
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldowncaseunicodestring.md">RtlDowncaseUnicodeString</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlupcaseunicodechar.md">RtlUpcaseUnicodeChar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552237">RtlDowncaseUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563003">RtlUpcaseUnicodeChar</a>
  
 
  
-
 

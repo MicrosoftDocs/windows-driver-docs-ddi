@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsSetPinFramingCache
-title: IKsPinPipe::KsSetPinFramingCache method
+title: IKsPinPipe::KsSetPinFramingCache
 author: windows-driver-content
 description: Not recommended for application use.
 old-location: stream\ikspinpipe_kssetpinframingcache.htm
 old-project: stream
 ms.assetid: E334FEE1-DD78-4906-ADFA-1B496F91BA28
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsSetPinFramingCache method, IKsPinPipe::KsSetPinFramingCache, KsSetPinFramingCache method [Streaming Media Devices], KsSetPinFramingCache method [Streaming Media Devices], IKsPinPipe interface, KsSetPinFramingCache,IKsPinPipe.KsSetPinFramingCache, ksproxy/IKsPinPipe::KsSetPinFramingCache, stream.ikspinpipe_kssetpinframingcache
+ms.date: 4/23/2018
+ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPinFramingCache method, IKsPinPipe.KsSetPinFramingCache, IKsPinPipe::KsSetPinFramingCache, KsSetPinFramingCache, KsSetPinFramingCache method [Streaming Media Devices], KsSetPinFramingCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPinFramingCache, stream.ikspinpipe_kssetpinframingcache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,12 +38,13 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPinPipe.KsSetPinFramingCache
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPinPipe::KsSetPinFramingCache method
+# IKsPinPipe::KsSetPinFramingCache
 
 
 ## -description
@@ -52,16 +53,6 @@ req.typenames: PIPE_STATE
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Not recommended for application use.
-
-
-## -syntax
-
-
-````
-HRESULT KsSetPinFramingCache(
-    
-);
-````
 
 
 ## -parameters
@@ -97,12 +88,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikspinpipe.md">IKsPinPipe</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559922">IKsPinPipe</a>
  
 
  
-
 

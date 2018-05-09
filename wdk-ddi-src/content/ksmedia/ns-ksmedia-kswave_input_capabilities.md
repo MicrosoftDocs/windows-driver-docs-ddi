@@ -7,7 +7,7 @@ old-location: stream\kswave_input_capabilities.htm
 old-project: stream
 ms.assetid: 8bed3cec-1779-4b3c-9ba2-aa4a335fecd1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices], PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices], dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml, ksmedia/KSWAVE_INPUT_CAPABILITIES, ksmedia/PKSWAVE_INPUT_CAPABILITIES, stream.kswave_input_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSWAVE_INPUT_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES
 ---
@@ -50,22 +51,6 @@ req.typenames: KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES
 
 
 The KSWAVE_INPUT_CAPABILITIES structure is used to describe the input capabilities of a device.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG MaximumChannelsPerConnection;
-  ULONG MinimumBitsPerSample;
-  ULONG MaximumBitsPerSample;
-  ULONG MinimumSampleFrequency;
-  ULONG MaximumSampleFrequency;
-  ULONG TotalConnections;
-  ULONG ActiveConnections;
-} KSWAVE_INPUT_CAPABILITIES, *PKSWAVE_INPUT_CAPABILITIES;
-````
 
 
 ## -struct-fields
@@ -119,12 +104,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566521">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a>
-
-
-
  
 
  
-
 

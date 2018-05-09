@@ -7,7 +7,7 @@ old-location: display\d3dddi_gamma_ramp_dxgi_1.htm
 old-project: display
 ms.assetid: f5c67404-3baf-44f1-8b19-f099cf71c178
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_GAMMA_RAMP_DXGI_1, D3DDDI_GAMMA_RAMP_DXGI_1 structure [Display Devices], DmStructs_378e6432-010f-453c-8e59-d32f243543f0.xml, _D3DDDI_GAMMA_RAMP_DXGI_1, d3dukmdt/D3DDDI_GAMMA_RAMP_DXGI_1, display.d3dddi_gamma_ramp_dxgi_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_GAMMA_RAMP_DXGI_1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_GAMMA_RAMP_DXGI_1
 ---
@@ -52,18 +53,6 @@ req.typenames: D3DDDI_GAMMA_RAMP_DXGI_1
 The D3DDDI_GAMMA_RAMP_DXGI_1 structure describes a gamma function.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_GAMMA_RAMP_DXGI_1 {
-  D3DDDI_DXGI_RGB Scale;
-  D3DDDI_DXGI_RGB Offset;
-  D3DDDI_DXGI_RGB GammaCurve[1025];
-} D3DDDI_GAMMA_RAMP_DXGI_1;
-````
-
-
 ## -struct-fields
 
 
@@ -71,27 +60,26 @@ typedef struct _D3DDDI_GAMMA_RAMP_DXGI_1 {
 
 ### -field Scale
 
-A <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a> structure that holds the scale for the gamma function.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a> structure that holds the scale for the gamma function.
 
 
 ### -field Offset
 
-A <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a> structure that holds the offset for the gamma function.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a> structure that holds the offset for the gamma function.
 
 
 ### -field GammaCurve
 
-An array of <a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a> structures that describe the curve of the gamma function.
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a> structures that describe the curve of the gamma function.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-d3dddi_dxgi_rgb.md">D3DDDI_DXGI_RGB</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a>
  
 
  
-
 

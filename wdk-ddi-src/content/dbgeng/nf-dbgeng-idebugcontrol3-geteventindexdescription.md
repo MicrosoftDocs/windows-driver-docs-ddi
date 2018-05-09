@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetEventIndexDescription
-title: IDebugControl3::GetEventIndexDescription method
+title: IDebugControl3::GetEventIndexDescription
 author: windows-driver-content
 description: The GetEventIndexDescription method describes the specified event in a static list of events for the current target.
 old-location: debugger\geteventindexdescription.htm
 old-project: debugger
 ms.assetid: 75aace9d-3f1e-4002-82e6-d581903da4f9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetEventIndexDescription method [Windows Debugging], GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface, GetEventIndexDescription,IDebugControl3.GetEventIndexDescription, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method, IDebugControl3::GetEventIndexDescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, dbgeng/IDebugControl3::GetEventIndexDescription, debugger.geteventindexdescription
+ms.date: 4/24/2018
+ms.keywords: GetEventIndexDescription, GetEventIndexDescription method [Windows Debugging], GetEventIndexDescription method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetEventIndexDescription method, IDebugControl3.GetEventIndexDescription, IDebugControl3::GetEventIndexDescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, dbgeng/IDebugControl3::GetEventIndexDescription, debugger.geteventindexdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl3.GetEventIndexDescription
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetEventIndexDescription method
+# IDebugControl3::GetEventIndexDescription
 
 
 ## -description
 
 
 The <b>GetEventIndexDescription</b>  method describes the specified event in a static list of events for the current target.
-
-
-## -syntax
-
-
-````
-HRESULT GetEventIndexDescription(
-  [in]            ULONG  Index,
-  [in]            ULONG  Which,
-  [in, optional]  PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG DescSize
-);
-````
 
 
 ## -parameters
@@ -135,11 +122,6 @@ The amount of descriptive information available for a particular target varies d
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
 
 
 
@@ -147,8 +129,12 @@ The amount of descriptive information available for a particular target varies d
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\ks_dataformat_mpeg2ts_avc.htm
 old-project: stream
 ms.assetid: 17768308-d92d-4033-aee8-2d52ce1e51fd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DATAFORMAT_MPEG2TS_AVC, KS_DATAFORMAT_MPEG2TS_AVC, KS_DATAFORMAT_MPEG2TS_AVC structure [Streaming Media Devices], PKS_DATAFORMAT_MPEG2TS_AVC, PKS_DATAFORMAT_MPEG2TS_AVC structure pointer [Streaming Media Devices], avcsref_1c04182d-3d89-4db1-9b5f-7fdbc3e62c47.xml, avcstrm/KS_DATAFORMAT_MPEG2TS_AVC, avcstrm/PKS_DATAFORMAT_MPEG2TS_AVC, stream.ks_dataformat_mpeg2ts_avc, tagKS_DATAFORMAT_MPEG2TS_AVC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	KS_DATAFORMAT_MPEG2TS_AVC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATAFORMAT_MPEG2TS_AVC, *PKS_DATAFORMAT_MPEG2TS_AVC
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_DATAFORMAT_MPEG2TS_AVC, *PKS_DATAFORMAT_MPEG2TS_AVC
 
 
 The KS_DATAFORMAT_MPEG2TS_AVC structure stores the data format for an AV/C MPEG2 connection.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_DATAFORMAT_MPEG2TS_AVC {
-  KSDATAFORMAT   DataFormat;
-  AVCCONNECTINFO ConnectInfo;
-} KS_DATAFORMAT_MPEG2TS_AVC, *PKS_DATAFORMAT_MPEG2TS_AVC;
-````
 
 
 ## -struct-fields
@@ -80,16 +70,15 @@ Specifies the AV/C connection information.
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avcconnectinfo.md">AVCCONNECTINFO</a>
 
 
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554101">AVCCONNECTINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
  
 
  
-
 

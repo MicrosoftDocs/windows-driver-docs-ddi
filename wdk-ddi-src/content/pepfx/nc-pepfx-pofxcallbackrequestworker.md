@@ -7,7 +7,7 @@ old-location: kernel\requestworker.htm
 old-project: kernel
 ms.assetid: A77277D2-B644-469D-A668-78C23BF41367
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: POFXCALLBACKREQUESTWORKER, RequestWorker, RequestWorker routine [Kernel-Mode Driver Architecture], kernel.requestworker, pepfx/RequestWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,31 +38,19 @@ api_location:
 -	pepfx.h
 api_name:
 -	RequestWorker
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VPCI_PNP_ID, *PVPCI_PNP_ID
+req.typenames: 
 ---
 
-# POFXCALLBACKREQUESTWORKER callback
+# POFXCALLBACKREQUESTWORKER callback function
 
 
 ## -description
 
 
 The <b>RequestWorker</b> routine is called by a platform extension plug-in (PEP) to inform the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device.
-
-
-## -prototype
-
-
-````
-POFXCALLBACKREQUESTWORKER RequestWorker;
-
-VOID RequestWorker(
-  _In_ POHANDLE PluginHandle
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -88,7 +76,7 @@ None.
 
 
 
-This routine is implemented by PoFx and is called by the PEP. The <b>RequestWorker</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>RequestWorker</b> routine.
+This routine is implemented by PoFx and is called by the PEP. The <b>RequestWorker</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>RequestWorker</b> routine.
 
 Each time the PEP calls this routine, PoFx responds by sending a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a> notification to the PEP. This notification might be delayed if a worker thread is not immediately available to process the work request.
 
@@ -99,16 +87,15 @@ A PEP can call this routine at IRQL &lt;= DISPATCH_LEVEL.
 
 ## -see-also
 
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_WORK</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
  
 
  
-
 

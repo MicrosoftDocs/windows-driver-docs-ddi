@@ -7,7 +7,7 @@ old-location: audio\ksp_drmaudiostream_contentid.htm
 old-project: audio
 ms.assetid: 16a83c46-c183-4dc2-9d98-877976cf5750
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSP_DRMAUDIOSTREAM_CONTENTID, KSP_DRMAUDIOSTREAM_CONTENTID, KSP_DRMAUDIOSTREAM_CONTENTID structure [Audio Devices], PKSP_DRMAUDIOSTREAM_CONTENTID, PKSP_DRMAUDIOSTREAM_CONTENTID structure pointer [Audio Devices], aud-prop_f18ac59e-1ebf-4e98-8bab-1f54f76c6a64.xml, audio.ksp_drmaudiostream_contentid, drmk/KSP_DRMAUDIOSTREAM_CONTENTID, drmk/PKSP_DRMAUDIOSTREAM_CONTENTID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	drmk.h
 api_name:
 -	KSP_DRMAUDIOSTREAM_CONTENTID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSP_DRMAUDIOSTREAM_CONTENTID, *PKSP_DRMAUDIOSTREAM_CONTENTID
 ---
@@ -50,24 +51,6 @@ req.typenames: KSP_DRMAUDIOSTREAM_CONTENTID, *PKSP_DRMAUDIOSTREAM_CONTENTID
 
 
 The KSP_DRMAUDIOSTREAM_CONTENTID structure specifies the property, request type, and context for a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>set-property request. It also specifies a list of function pointers to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536356">DRM functions</a>.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY                         Property;
-  PVOID                              Context;
-  PFNDRMADDCONTENTHANDLERS           DrmAddContentHandlers;
-  PFNDRMCREATECONTENTMIXED           DrmCreateContentMixed;
-  PFNDRMDESTROYCONTENT               DrmDestroyContent;
-  PFNDRMFORWARDCONTENTTODEVICEOBJECT DrmForwardContentToDeviceObject;
-  PFNDRMFORWARDCONTENTTOFILEOBJECT   DrmForwardContentToFileObject;
-  PFNDRMFORWARDCONTENTTOINTERFACE    DrmForwardContentToInterface;
-  PFNDRMGETCONTENTRIGHTS             DrmGetContentRights;
-} KSP_DRMAUDIOSTREAM_CONTENTID, *PKSP_DRMAUDIOSTREAM_CONTENTID;
-````
 
 
 ## -struct-fields
@@ -82,42 +65,42 @@ Specifies the property to get or set. This member is a structure of type <a href
 
 ### -field Context
 
-Pointer to context data. This is the context specified in the <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a> function's <i>DrmForward</i> parameter.
+Pointer to context data. This is the context specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536351">DrmForwardContentToDeviceObject</a> function's <i>DrmForward</i> parameter.
 
 
 ### -field DrmAddContentHandlers
 
-Pointer to <a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a> function.
+Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536347">DrmAddContentHandlers</a> function.
 
 
 ### -field DrmCreateContentMixed
 
-Pointer to <a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a> function.
+Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536348">DrmCreateContentMixed</a> function.
 
 
 ### -field DrmDestroyContent
 
-Pointer to <a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a> function.
+Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a> function.
 
 
 ### -field DrmForwardContentToDeviceObject
 
-Pointer to <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a> function.
+Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536351">DrmForwardContentToDeviceObject</a> function.
 
 
 ### -field DrmForwardContentToFileObject
 
-Pointer to <a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a> function.
+Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536352">DrmForwardContentToFileObject</a> function.
 
 
 ### -field DrmForwardContentToInterface
 
-Pointer to <a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a> function.
+Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536353">DrmForwardContentToInterface</a> function.
 
 
 ### -field DrmGetContentRights
 
-Pointer to <a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a> function.
+Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a> function.
 
 
 ## -remarks
@@ -131,27 +114,34 @@ The structure contains function pointers to the DRM library functions in order t
 
 ## -see-also
 
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536347">DrmAddContentHandlers</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536348">DrmCreateContentMixed</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmforwardcontenttointerface.md">DrmForwardContentToInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmdestroycontent.md">DrmDestroyContent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536351">DrmForwardContentToDeviceObject</a>
 
 
 
-<a href="..\drmk\nf-drmk-drmgetcontentrights.md">DrmGetContentRights</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536352">DrmForwardContentToFileObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536353">DrmForwardContentToInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>
 
 
 
@@ -159,16 +149,8 @@ The structure contains function pointers to the DRM library functions in order t
 
 
 
-<a href="..\drmk\nf-drmk-drmaddcontenthandlers.md">DrmAddContentHandlers</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmforwardcontenttofileobject.md">DrmForwardContentToFileObject</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
  
 
  
-
 

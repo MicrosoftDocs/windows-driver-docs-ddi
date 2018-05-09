@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlisleaddbcscharacter.htm
 old-project: ifsk
 ms.assetid: 3cbae037-6205-4315-8ff7-0c67a91c4c69
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlIsLeadDbcsCharacter, FsRtlIsLeadDbcsCharacter function [Installable File System Drivers], fsrtlref_758a5e18-3446-43c4-8cce-baecdf727f98.xml, ifsk.fsrtlisleaddbcscharacter, ntifs/FsRtlIsLeadDbcsCharacter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntifs.h
 api_name:
 -	FsRtlIsLeadDbcsCharacter
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlIsLeadDbcsCharacter macro
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlIsLeadDbcsCharacter</b> macro determines whether a character is a lead byte (the first byte of a character) in a double-byte character set (DBCS). 
-
-
-## -syntax
-
-
-````
-BOOLEAN FsRtlIsLeadDbcsCharacter(
-  _In_ UCHAR DbcsCharacter
-);
-````
 
 
 ## -parameters
@@ -94,20 +85,19 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldoesdbcscontainwildcards.md">FsRtlDoesDbcsContainWildCards</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression~r1.md">FsRtlIsDbcsInExpression</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545877">FsRtlDissectDbcs</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldissectdbcs~r2.md">FsRtlDissectDbcs</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545891">FsRtlDoesDbcsContainWildCards</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546803">FsRtlIsDbcsInExpression</a>
  
 
  
-
 

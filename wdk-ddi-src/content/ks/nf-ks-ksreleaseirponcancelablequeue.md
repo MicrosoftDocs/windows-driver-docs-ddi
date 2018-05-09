@@ -7,7 +7,7 @@ old-location: stream\ksreleaseirponcancelablequeue.htm
 old-project: stream
 ms.assetid: 797e0821-2354-4dd5-b2ee-428d654feb40
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsReleaseIrpOnCancelableQueue, KsReleaseIrpOnCancelableQueue function [Streaming Media Devices], ks/KsReleaseIrpOnCancelableQueue, ksfunc_90599c85-7874-4eca-9177-45dcacbeacc7.xml, stream.ksreleaseirponcancelablequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsReleaseIrpOnCancelableQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsReleaseIrpOnCancelableQueue</b> function releases an acquired IRP that is already on a queue that can be canceled. The function sets the cancel function and completes the canceling of the IRP, if necessary. The function can be called at IRQ level DISPATCH_LEVEL or lower.
-
-
-## -syntax
-
-
-````
-VOID KsReleaseIrpOnCancelableQueue(
-  _In_     PIRP           Irp,
-  _In_opt_ PDRIVER_CANCEL DriverCancel
-);
-````
 
 
 ## -parameters

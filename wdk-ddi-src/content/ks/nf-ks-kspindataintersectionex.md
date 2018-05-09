@@ -7,7 +7,7 @@ old-location: stream\kspindataintersectionex.htm
 old-project: stream
 ms.assetid: 4d471d91-7b2c-441d-a640-4f66ef7f1b2f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinDataIntersectionEx, KsPinDataIntersectionEx function [Streaming Media Devices], ks/KsPinDataIntersectionEx, ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, stream.kspindataintersectionex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsPinDataIntersectionEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,23 +51,6 @@ req.typenames:
 
 
 The <b>KsPinDataIntersectionEx</b> function handles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a> through a callback function.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsPinDataIntersectionEx(
-  _In_           PIRP                    Irp,
-  _In_           PKSP_PIN                Pin,
-  _Out_          PVOID                   Data,
-  _In_           ULONG                   DescriptorsCount,
-  _In_     const KSPIN_DESCRIPTOR        *Descriptor,
-  _In_           ULONG                   DescriptorSize,
-  _In_opt_       PFNKSINTERSECTHANDLEREX IntersectHandler,
-  _In_opt_       PVOID                   HandlerContext
-);
-````
 
 
 ## -parameters
@@ -106,7 +90,7 @@ Size of the descriptor structures, in bytes.
 
 ### -param IntersectHandler [in, optional]
 
-Contains the optional minidriver-defined <a href="..\ks\nc-ks-pfnksintersecthandlerex.md">KStrIntersectHandlerEx</a> callback function to compare data ranges.
+Contains the optional minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567185">KStrIntersectHandlerEx</a> callback function to compare data ranges.
 
 
 ### -param HandlerContext [in, optional]
@@ -158,12 +142,11 @@ These differences excepted, <b>KsPinDataIntersection</b> and <b>KsPinDataInterse
 
 ## -see-also
 
-<a href="..\ks\nc-ks-pfnksintersecthandlerex.md">KStrIntersectHandlerEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567185">KStrIntersectHandlerEx</a>
  
 
  
-
 

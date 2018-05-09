@@ -38,7 +38,8 @@ apilocation:
 -	ntddk.h
 apiname:
 -	WHEA_XPF_PROCESSOR_ERROR_SECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_PROCESSOR_ERROR, *PWHEA_XPF_PROCESSOR_ERROR
 ---

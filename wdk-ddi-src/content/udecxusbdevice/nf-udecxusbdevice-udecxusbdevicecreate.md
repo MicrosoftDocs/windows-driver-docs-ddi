@@ -7,7 +7,7 @@ old-location: buses\udecxusbdevicecreate.htm
 old-project: usbref
 ms.assetid: 2AA67B06-F87F-47E3-A80F-154993BAF0E8
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UdecxUsbDeviceCreate, UdecxUsbDeviceCreate function [Buses], buses.udecxusbdevicecreate, udecxusbdevice/UdecxUsbDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Udecxstub.dll
 api_name:
 -	UdecxUsbDeviceCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UdecxUsbDeviceCreate function
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 Creates a USB Device Emulation (UDE) device object.
 
 
-## -syntax
-
-
-````
-NTSTATUS UdecxUsbDeviceCreate(
-  _Inout_  PUDECXUSBDEVICE_INIT   *UdecxUsbDeviceInit,
-  _In_opt_ PWDF_OBJECT_ATTRIBUTES Attributes,
-  _Out_    UDECXUSBDEVICE         *UdecxUsbDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +61,12 @@ NTSTATUS UdecxUsbDeviceCreate(
 
 ### -param UdecxUsbDeviceInit [in, out]
 
-A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>. 
+A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627968">UdecxUsbDeviceInitAllocate</a>. 
 
 
 ### -param Attributes [in, optional]
 
-A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object. 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure that specifies attributes for the USB device object. 
 
 
 ### -param UdecxUsbDevice [out]
@@ -97,7 +85,6 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
@@ -105,8 +92,8 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
  
 
  
-
 

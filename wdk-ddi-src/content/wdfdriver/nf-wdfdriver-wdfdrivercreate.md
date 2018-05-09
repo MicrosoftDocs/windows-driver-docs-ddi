@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDriverCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_INIT_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDriverCreate function
@@ -58,20 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfDriverCreate</b> method creates a framework driver object for the calling driver.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfDriverCreate(
-  _In_      PDRIVER_OBJECT         DriverObject,
-  _In_      PCUNICODE_STRING       RegistryPath,
-  _In_opt_  PWDF_OBJECT_ATTRIBUTES DriverAttributes,
-  _In_      PWDF_DRIVER_CONFIG     DriverConfig,
-  _Out_opt_ WDFDRIVER              *Driver
-);
-````
-
-
 ## -parameters
 
 
@@ -79,22 +65,22 @@ NTSTATUS WdfDriverCreate(
 
 ### -param DriverObject [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a> structure that represents a Windows Driver Model (WDM) driver object. The driver receives this pointer as input to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a> structure that represents a Windows Driver Model (WDM) driver object. The driver receives this pointer as input to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine.
 
 
 ### -param RegistryPath [in]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the registry path string that the driver received as input to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the registry path string that the driver received as input to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. 
 
 
 ### -param DriverAttributes [in, optional]
 
-A pointer to a caller-allocated <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a> structure. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a> structure. (The structure's <b>ParentObject</b> member must be <b>NULL</b>.) This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES. 
 
 
 ### -param DriverConfig [in]
 
-A pointer to a caller-allocated <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a> structure.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551300">WDF_DRIVER_CONFIG</a> structure.
 
 
 ### -param Driver [out, optional]
@@ -120,7 +106,7 @@ A pointer to a location that receives a handle to the new framework driver objec
 </dl>
 </td>
 <td width="60%">
-The driver called <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a> more than once.
+The driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a> more than once.
 
 </td>
 </tr>
@@ -131,7 +117,7 @@ The driver called <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriv
 </dl>
 </td>
 <td width="60%">
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kernel-mode-driver-framework-with-non-pnp-drivers">non-Plug and Play (PnP) driver</a> specified an <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function.
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-kernel-mode-driver-framework-with-non-pnp-drivers">non-Plug and Play (PnP) driver</a> specified an <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function.
 
 </td>
 </tr>
@@ -153,11 +139,11 @@ A system bug check occurs if the <i>DriverObject</i>, <i>RegistryPath</i>, or <i
 
 A driver that uses Kernel-Mode Driver Framework must call <b>WdfDriverCreate</b> from within its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine, before calling any other framework routines. For more information about <b>DriverEntry</b>, see <b>DriverEntry for Framework-based Drivers</b>. 
 
-Before your driver calls <b>WdfDriverCreate</b>, the driver must call <a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a> to initialize its <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a> structure.
+Before your driver calls <b>WdfDriverCreate</b>, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551302">WDF_DRIVER_CONFIG_INIT</a> to initialize its <a href="https://msdn.microsoft.com/library/windows/hardware/ff551300">WDF_DRIVER_CONFIG</a> structure.
 
 The framework driver object is the top of your driver's tree of framework objects and therefore does not have a parent object.
 
-If your driver provides <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a> or <a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_destroy.md">EvtDestroyCallback</a> callback functions for the driver object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
+If your driver provides <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> or <a href="https://msdn.microsoft.com/4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3">EvtDestroyCallback</a> callback functions for the driver object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
 
 
 #### Examples
@@ -209,11 +195,10 @@ DriverEntry(
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
@@ -221,24 +206,24 @@ DriverEntry(
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a>
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551300">WDF_DRIVER_CONFIG</a>
 
 
 
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551302">WDF_DRIVER_CONFIG_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552400">WDF_OBJECT_ATTRIBUTES</a>
  
 
  
-
 

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_CONTROLLER_BASIC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLIENT_CONTROLLER_BASIC_INFORMATION, *PCLIENT_CONTROLLER_BASIC_INFORMATION
 ---
@@ -50,21 +51,6 @@ req.typenames: CLIENT_CONTROLLER_BASIC_INFORMATION, *PCLIENT_CONTROLLER_BASIC_IN
 
 
 The <b>CLIENT_CONTROLLER_BASIC_INFORMATION</b> structure contains general-purpose I/O (GPIO) controller hardware attributes and  configuration information.
-
-
-## -syntax
-
-
-````
-typedef struct _CLIENT_CONTROLLER_BASIC_INFORMATION {
-  USHORT                     Version;
-  USHORT                     Size;
-  USHORT                     TotalPins;
-  USHORT                     NumberOfPinsPerBank;
-  ULONG                      DeviceIdleTimeout;
-  CONTROLLER_ATTRIBUTE_FLAGS Flags;
-} CLIENT_CONTROLLER_BASIC_INFORMATION, *PCLIENT_CONTROLLER_BASIC_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -133,16 +119,15 @@ Typically, a bank in a GPIO controller device can be turned on and off independe
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439449">CONTROLLER_ATTRIBUTE_FLAGS</a>
-
-
-
  
 
  
-
 

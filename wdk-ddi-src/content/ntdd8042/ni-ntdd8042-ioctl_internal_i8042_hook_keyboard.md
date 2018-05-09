@@ -7,8 +7,8 @@ old-location: hid\ioctl_internal_i8042_hook_keyboard.htm
 old-project: hid
 ms.assetid: 74580730-1cbb-40fb-a4a3-20523f933171
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_INTERNAL_I8042_HOOK_KEYBOARD, IOCTL_INTERNAL_I8042_HOOK_KEYBOARD control code [Human Input Devices], hid.ioctl_internal_i8042_hook_keyboard, kfilref_d213e6a4-db1b-4fed-8cd9-503703ee59dd.xml, ntdd8042/IOCTL_INTERNAL_I8042_HOOK_KEYBOARD
+ms.date: 4/30/2018
+ms.keywords: IOCTL_INTERNAL_I8042_HOOK_KEYBOARD, IOCTL_INTERNAL_I8042_HOOK_KEYBOARD control, IOCTL_INTERNAL_I8042_HOOK_KEYBOARD control code [Human Input Devices], hid.ioctl_internal_i8042_hook_keyboard, kfilref_d213e6a4-db1b-4fed-8cd9-503703ee59dd.xml, ntdd8042/IOCTL_INTERNAL_I8042_HOOK_KEYBOARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	IOCTL_INTERNAL_I8042_HOOK_KEYBOARD
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MOUSE_STATE, *PMOUSE_STATE
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_I8042_HOOK_KEYBOARD IOCTL
@@ -64,7 +65,7 @@ Adds an ISR callback routine to the I8042prt keyboard ISR
 </ul>
 The initialization and ISR callbacks are optional and are provided by an upper-level filter driver for a PS/2-style keyboard device.
 
-After I8042prt receives an <a href="..\kbdmou\ni-kbdmou-ioctl_internal_keyboard_connect.md">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request, it sends a synchronous IOCTL_INTERNAL_I8042_HOOK_KEYBOARD request to the top of the keyboard device stack.
+After I8042prt receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541273">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request, it sends a synchronous IOCTL_INTERNAL_I8042_HOOK_KEYBOARD request to the top of the keyboard device stack.
 
 After Kbfiltr receives the hook keyboard request, Kbfiltr filters the request in the following way:
 
@@ -125,7 +126,7 @@ Pointer to an optional callback that is called by the I8042prt keyboard ISR.
 
 ### -input-buffer-length
 
-The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to a value that is greater than or equal to the size, in bytes, of an <a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_keyboard.md">INTERNAL_I8042_HOOK_KEYBOARD</a> structure.
+The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to a value that is greater than or equal to the size, in bytes, of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541039">INTERNAL_I8042_HOOK_KEYBOARD</a> structure.
 
 
 ### -output-buffer
@@ -175,16 +176,15 @@ The request completed successfully.
 
 ## -see-also
 
-<a href="..\kbdmou\ni-kbdmou-ioctl_internal_keyboard_connect.md">IOCTL_INTERNAL_KEYBOARD_CONNECT</a>
 
 
 
-<a href="..\ntdd8042\ns-ntdd8042-_internal_i8042_hook_keyboard.md">INTERNAL_I8042_HOOK_KEYBOARD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541039">INTERNAL_I8042_HOOK_KEYBOARD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541273">IOCTL_INTERNAL_KEYBOARD_CONNECT</a>
  
 
  
-
 

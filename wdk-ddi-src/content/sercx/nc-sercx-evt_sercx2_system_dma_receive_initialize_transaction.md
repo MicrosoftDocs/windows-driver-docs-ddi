@@ -7,8 +7,8 @@ old-location: serports\evtsercx2systemdmareceiveinitializetransaction.htm
 old-project: serports
 ms.assetid: 34E016AF-439C-44CC-A2AE-78CD7B2B5443
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2SystemDmaReceiveInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION, EvtSerCx2SystemDmaReceiveInitializeTransaction, EvtSerCx2SystemDmaReceiveInitializeTransaction callback function [Serial Ports], serports.evtsercx2systemdmareceiveinitializetransaction
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2SystemDmaReceiveInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION callback, EvtSerCx2SystemDmaReceiveInitializeTransaction, EvtSerCx2SystemDmaReceiveInitializeTransaction callback function [Serial Ports], serports.evtsercx2systemdmareceiveinitializetransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	EvtSerCx2SystemDmaReceiveInitializeTransaction
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION callback
+# EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION callback function
 
 
 ## -description
 
 
 The <i>EvtSerCx2EvtSerCx2SystemDmaReceiveInitializeTransaction</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to prepare the serial controller driver to perform a system-DMA-receive transaction.
-
-
-## -prototype
-
-
-````
-EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION EvtSerCx2SystemDmaReceiveInitializeTransaction;
-
-VOID EvtSerCx2SystemDmaReceiveInitializeTransaction(
-  _In_ SERCX2SYSTEMDMARECEIVE SystemDmaReceive,
-  _In_ ULONG                  Length
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -74,7 +60,7 @@ VOID EvtSerCx2SystemDmaReceiveInitializeTransaction(
 
 ### -param SystemDmaReceive [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMARECEIVE</a> handle to a system-DMA-receive object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> method to create this object.
 
 
 ### -param Length [in]
@@ -95,9 +81,9 @@ None.
 
 
 
-Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a> call that creates the system-DMA-receive object.
+Your serial controller driver can, as an option, implement this function. If implemented, the driver registers the function in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a> call that creates the system-DMA-receive object.
 
-Your driver should implement an <i>EvtSerCx2EvtSerCx2SystemDmaReceiveInitializeTransaction</i> function if it needs to initialize the serial controller and associated hardware in preparation for a new system-DMA-receive transaction. SerCx2 calls this function, if it is implemented, before a system-DMA-receive transaction starts. In response to this call, the serial controller driver must call the <a href="..\sercx\nf-sercx-sercx2systemdmareceiveinitializetransactioncomplete.md">SerCx2SystemDmaReceiveInitializeTransactionComplete</a> method to notify SerCx2 after the initialization is finished.
+Your driver should implement an <i>EvtSerCx2EvtSerCx2SystemDmaReceiveInitializeTransaction</i> function if it needs to initialize the serial controller and associated hardware in preparation for a new system-DMA-receive transaction. SerCx2 calls this function, if it is implemented, before a system-DMA-receive transaction starts. In response to this call, the serial controller driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265281">SerCx2SystemDmaReceiveInitializeTransactionComplete</a> method to notify SerCx2 after the initialization is finished.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265343">SerCx2 System-DMA-Receive Transactions</a>.
 
@@ -144,11 +130,6 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION</b> function type is
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2systemdmareceiveinitializetransactioncomplete.md">SerCx2SystemDmaReceiveInitializeTransactionComplete</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
 
 
 
@@ -156,8 +137,12 @@ The <b>EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION</b> function type is
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265279">SerCx2SystemDmaReceiveCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265281">SerCx2SystemDmaReceiveInitializeTransactionComplete</a>
  
 
  
-
 

@@ -39,10 +39,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	vDbgPrintEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # vDbgPrintEx function
@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>vDbgPrintEx</b> routine sends a string to the kernel debugger if certain conditions are met.
-
-
-## -syntax
-
-
-````
-ULONG vDbgPrintEx(
-  _In_ ULONG   ComponentId,
-  _In_ ULONG   Level,
-  _In_ PCCH    Format,
-  _In_ va_list arglist
-);
-````
 
 
 ## -parameters
@@ -150,12 +137,11 @@ This routine is defined in Wdm.h. Component filter IDs are defined in Dpfilter.h
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543634">DbgPrintEx</a>
  
 
  
-
 

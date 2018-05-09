@@ -7,7 +7,7 @@ old-location: netvista\ndiscmdispatchcallconnected.htm
 old-project: netvista
 ms.assetid: c5fcca82-ab8f-4ea9-86df-295f43fe7afa
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCmDispatchCallConnected, NdisCmDispatchCallConnected function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_15a94b5d-378c-46f0-9808-411d1e92218c.xml, ndis/NdisCmDispatchCallConnected, netvista.ndiscmdispatchcallconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisCmDispatchCallConnected
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCmDispatchCallConnected function
@@ -55,16 +56,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
   <i>incoming</i> call initiated on a remote node.
 
 
-## -syntax
-
-
-````
-VOID NdisCmDispatchCallConnected(
-  _In_ NDIS_HANDLE NdisVcHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -73,8 +64,8 @@ VOID NdisCmDispatchCallConnected(
 ### -param NdisVcHandle [in]
 
 Specifies the handle to the VC that represents the connection, which was created with 
-     <a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a> when the call manager's 
-     <a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> when the call manager's 
+     <a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
      ProtocolCoReceiveNetBufferLists</a> function was notified of the incoming call.
 
 
@@ -92,14 +83,14 @@ None
 
 
 A stand-alone CM's 
-    <a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+    <a href="https://msdn.microsoft.com/353e929b-17c8-47e8-82fd-b646e93a5b9a">
     ProtocolCmIncomingCallComplete</a> function calls 
     <b>NdisCmDispatchCallConnected</b> to complete the final handshake for an incoming call from a remote
     node, which the client has already accepted.
 
 A call to 
     <b>NdisCmDispatchCallConnected</b> causes NDIS to call the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">
+    <a href="https://msdn.microsoft.com/675b2066-6a65-47cf-bde7-3c843f97c960">
     ProtocolClCallConnected</a> function.
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
@@ -112,30 +103,29 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmdispatchcallconnected.md">NdisMCmDispatchCallConnected</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562826">NdisMCmDispatchCallConnected</a>
+
+
+
+<a href="https://msdn.microsoft.com/675b2066-6a65-47cf-bde7-3c843f97c960">ProtocolClCallConnected</a>
+
+
+
+<a href="https://msdn.microsoft.com/353e929b-17c8-47e8-82fd-b646e93a5b9a">
    ProtocolCmIncomingCallComplete</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_receive_net_buffer_lists.md">
+<a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
    ProtocolCoReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
-
-
-
  
 
  
-
 

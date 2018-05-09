@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ISOCH_FREE_RESOURCES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ISOCH_FREE_RESOURCES
 ---
@@ -50,16 +51,6 @@ req.typenames: IRB_REQ_ISOCH_FREE_RESOURCES
 
 
 This structure contains the fields necessary to carry out a IsochFreeResources request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ISOCH_FREE_RESOURCES {
-  HANDLE hResource;
-} IRB_REQ_ISOCH_FREE_RESOURCES;
-````
 
 
 ## -struct-fields

@@ -7,7 +7,7 @@ old-location: netvista\riluicctoolkitcmd.htm
 old-project: netvista
 ms.assetid: f5fc28df-ee06-4efd-8509-a05ed0ebf322
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILUICCTOOLKITCMD, RILUICCTOOLKITCMD, RILUICCTOOLKITCMD structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitcmd, ntddrilapitypes/RILUICCTOOLKITCMD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUICCTOOLKITCMD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUICCTOOLKITCMD, *LPRILUICCTOOLKITCMD
-req.product: Windows 10 or later.
 ---
 
 # RILUICCTOOLKITCMD structure
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILUICCTOOLKITCMD {
-  DWORD    cbSize;
-  DWORD    dwSlotIndex;
-  BOOL     fTerminalResponseNeeded;
-  DWORD    dwDetailsSize;
-  BYTE [1] bDetails;
-} RILUICCTOOLKITCMD, RILUICCTOOLKITCMD;
-````
 
 
 ## -struct-fields

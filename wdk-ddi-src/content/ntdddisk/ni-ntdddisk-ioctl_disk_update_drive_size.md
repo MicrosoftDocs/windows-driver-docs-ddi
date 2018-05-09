@@ -7,8 +7,8 @@ old-location: storage\ioctl_disk_update_drive_size.htm
 old-project: storage
 ms.assetid: a12c1082-c3ff-40b8-b756-be320ab98b30
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DISK_UPDATE_DRIVE_SIZE, IOCTL_DISK_UPDATE_DRIVE_SIZE control code [Storage Devices], k307_52e1c8fb-a16b-41a6-a9bc-e0daec91f639.xml, ntdddisk/IOCTL_DISK_UPDATE_DRIVE_SIZE, storage.ioctl_disk_update_drive_size
+ms.date: 3/29/2018
+ms.keywords: IOCTL_DISK_UPDATE_DRIVE_SIZE, IOCTL_DISK_UPDATE_DRIVE_SIZE control, IOCTL_DISK_UPDATE_DRIVE_SIZE control code [Storage Devices], k307_52e1c8fb-a16b-41a6-a9bc-e0daec91f639.xml, ntdddisk/IOCTL_DISK_UPDATE_DRIVE_SIZE, storage.ioctl_disk_update_drive_size
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntdddisk.h
 api_name:
 -	IOCTL_DISK_UPDATE_DRIVE_SIZE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DETECTION_TYPE
+req.typenames: 
 ---
 
 # IOCTL_DISK_UPDATE_DRIVE_SIZE IOCTL
@@ -75,7 +76,7 @@ None.
 
        Otherwise, the driver returns with an error status of STATUS_BUFFER_TOO_SMALL.
 
-The device driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
+The device driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a> structure in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -108,12 +109,11 @@ The device driver returns the <a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a>
  
 
  
-
 

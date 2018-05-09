@@ -7,7 +7,7 @@ old-location: stream\bda_locktype.htm
 old-project: stream
 ms.assetid: 6119727a-05af-4a70-a321-5f0f2e439b93
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: BDA_LockType, BDA_LockType enumeration [Streaming Media Devices], Bda_LockType_Complete, Bda_LockType_DecoderDemod, Bda_LockType_None, Bda_LockType_PLL, _BdaLockType, bdamedia/BDA_LockType, bdamedia/Bda_LockType_Complete, bdamedia/Bda_LockType_DecoderDemod, bdamedia/Bda_LockType_None, bdamedia/Bda_LockType_PLL, bdaref_46e4b273-15bc-47bc-a14b-2a6be1cc3c0f.xml, stream.bda_locktype
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	BDA_LockType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_LockType
 ---
@@ -50,19 +51,6 @@ req.typenames: BDA_LockType
 
 
 The BDA_LockType enumerated type contains values that specify lock types for a signal. 
-
-
-## -syntax
-
-
-````
-typedef enum _BdaLockType { 
-  Bda_LockType_None          = 0x00,
-  Bda_LockType_PLL           = 0x01,
-  Bda_LockType_DecoderDemod  = 0x02,
-  Bda_LockType_Complete      = 0x80
-} BDA_LockType;
-````
 
 
 ## -enum-fields
@@ -92,7 +80,6 @@ To be supplied.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564370">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
 
 
 
@@ -100,8 +87,8 @@ To be supplied.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564370">KSPROPERTY_BDA_SIGNAL_LOCK_TYPE</a>
  
 
  
-
 

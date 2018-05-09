@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTTryStopDevice
-title: IWDTFPNPActions2::EDTTryStopDevice method
+title: IWDTFPNPActions2::EDTTryStopDevice
 author: windows-driver-content
 description: Attempts to send an IRP_MN_STOP_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpactions2_edttrystopdevice.htm
 old-project: dtf
 ms.assetid: 407210ca-7288-4647-b3ff-508bd8bb8e05
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: EDTTryStopDevice method [Windows Device Testing Framework], EDTTryStopDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTTryStopDevice,IWDTFPNPActions2.EDTTryStopDevice, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTTryStopDevice method, IWDTFPNPActions2::EDTTryStopDevice, dtf.iwdtfpnpactions2_edttrystopdevice, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDevice
+ms.date: 4/4/2018
+ms.keywords: EDTTryStopDevice, EDTTryStopDevice method [Windows Device Testing Framework], EDTTryStopDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTTryStopDevice method, IWDTFPNPActions2.EDTTryStopDevice, IWDTFPNPActions2::EDTTryStopDevice, dtf.iwdtfpnpactions2_edttrystopdevice, wdtfpnpaction/IWDTFPNPActions2::EDTTryStopDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	wdtfpnpaction.h
 api_name:
 -	IWDTFPNPActions2.EDTTryStopDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPActions2::EDTTryStopDevice method
+# IWDTFPNPActions2::EDTTryStopDevice
 
 
 ## -description
 
 
 Attempts to send an IRP_MN_STOP_DEVICE event to the target device.
-
-
-## -syntax
-
-
-````
-HRESULT EDTTryStopDevice(
-  [out, retval] VARIANT_BOOL *pbSuccess
-);
-````
 
 
 ## -parameters
@@ -107,12 +97,11 @@ which does consume hardware resources. For example, if your device is a USB mous
 
 ## -see-also
 
-<a href="..\wdtfpnpaction\nn-wdtfpnpaction-iwdtfpnpactions2.md">IWDTFPNPActions2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451094">IWDTFPNPActions2</a>
  
 
  
-
 

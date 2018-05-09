@@ -7,7 +7,7 @@ old-location: ifsk\fltcreatefile.htm
 old-project: ifsk
 ms.assetid: fd7e1f27-e492-4402-ae9e-4ce52c3420d0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_2059a625-6d9e-4083-9c2e-d92e76c7539a.xml, FltCreateFile, FltCreateFile function [Installable File System Drivers], fltkernel/FltCreateFile, ifsk.fltcreatefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Fltmgr.dll
 api_name:
 -	FltCreateFile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCreateFile function
@@ -51,29 +52,6 @@ req.typenames: EXpsFontRestriction
 
 
 Minifilter drivers call <b>FltCreateFile </b>to create a new file or open an existing file.
-
-
-## -syntax
-
-
-````
-NTSTATUS FltCreateFile(
-  _In_     PFLT_FILTER        Filter,
-  _In_opt_ PFLT_INSTANCE      Instance,
-  _Out_    PHANDLE            FileHandle,
-  _In_     ACCESS_MASK        DesiredAccess,
-  _In_     POBJECT_ATTRIBUTES ObjectAttributes,
-  _Out_    PIO_STATUS_BLOCK   IoStatusBlock,
-  _In_opt_ PLARGE_INTEGER     AllocationSize,
-  _In_     ULONG              FileAttributes,
-  _In_     ULONG              ShareAccess,
-  _In_     ULONG              CreateDisposition,
-  _In_     ULONG              CreateOptions,
-  _In_opt_ PVOID              EaBuffer,
-  _In_     ULONG              EaLength,
-  _In_     ULONG              Flags
-);
-````
 
 
 ## -parameters
@@ -153,7 +131,7 @@ READ_CONTROL
 
 </td>
 <td>
-The access control list (<a href="..\wdm\ns-wdm-_acl.md">ACL</a>) and ownership information associated with the file can be read.
+The access control list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>) and ownership information associated with the file can be read.
 
 </td>
 </tr>
@@ -203,7 +181,7 @@ WRITE_DAC
 
 </td>
 <td>
-The discretionary access control list (<a href="..\wdm\ns-wdm-_acl.md">DACL</a>) associated with the file can be written.
+The discretionary access control list (<a href="https://msdn.microsoft.com/dac27df2-fabd-4402-8daf-9317888dd30b">DACL</a>) associated with the file can be written.
 
 </td>
 </tr>
@@ -313,7 +291,7 @@ The directory can be traversed: that is, it can be part of the pathname of a fil
 
 ### -param ObjectAttributes [in]
 
-A pointer to a structure already initialized with <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>. If the caller is running in the system process context, this parameter can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to <b>InitializeObjectAttributes</b>. Members of this structure for a file object include the following. 
+A pointer to a structure already initialized with <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>. If the caller is running in the system process context, this parameter can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to <b>InitializeObjectAttributes</b>. Members of this structure for a file object include the following. 
 
 <table>
 <tr>
@@ -336,7 +314,7 @@ Specifies the number of bytes of <i>ObjectAttributes</i> data supplied. This val
 
 </td>
 <td>
-Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure containing the name of the file to be created or opened. This name must be a fully qualified file specification or the name of a device object unless it is the name of a file relative to the directory specified by <b>RootDirectory</b>. For example, \Device\Floppy1\myfile.dat or \??\B:\myfile.dat could be the fully qualified file specification, if the floppy driver and overlying file system are already loaded. (Note: \?? replaces \DosDevices as the name of the Win32 object namespace. \DosDevices still works, but \?? is translated faster by the object manager.)
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure containing the name of the file to be created or opened. This name must be a fully qualified file specification or the name of a device object unless it is the name of a file relative to the directory specified by <b>RootDirectory</b>. For example, \Device\Floppy1\myfile.dat or \??\B:\myfile.dat could be the fully qualified file specification, if the floppy driver and overlying file system are already loaded. (Note: \?? replaces \DosDevices as the name of the Win32 object namespace. \DosDevices still works, but \?? is translated faster by the object manager.)
 
 </td>
 </tr>
@@ -356,7 +334,7 @@ Optionally specifies a handle to a directory obtained by a preceding call to <b>
 
 </td>
 <td>
-Optionally specifies a security descriptor (<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>) to be applied to a file. <a href="..\wdm\ns-wdm-_acl.md">ACLs</a> specified by such a security descriptor are only applied to the file when it is created. If the value is <b>NULL</b> when a file is created, the ACL placed on the file is file-system-dependent; most file systems propagate some part of such an ACL from the parent directory file combined with the caller's default ACL. 
+Optionally specifies a security descriptor (<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>) to be applied to a file. <a href="https://msdn.microsoft.com/dac27df2-fabd-4402-8daf-9317888dd30b">ACLs</a> specified by such a security descriptor are only applied to the file when it is created. If the value is <b>NULL</b> when a file is created, the ACL placed on the file is file-system-dependent; most file systems propagate some part of such an ACL from the parent directory file combined with the caller's default ACL. 
 
 </td>
 </tr>
@@ -376,7 +354,7 @@ Is a set of flags that controls the file object attributes. If the caller is run
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateFile</b>, the <b>Information</b> member contains one of the following values.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateFile</b>, the <b>Information</b> member contains one of the following values.
 
 FILE_CREATED
 
@@ -720,7 +698,7 @@ FILE_DELETE_ON_CLOSE
 
 </td>
 <td>
-Delete the file when the last handle to it is passed to <a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>. 
+Delete the file when the last handle to it is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541863">FltClose</a>. 
 
 </td>
 </tr>
@@ -772,7 +750,7 @@ This flag allows an application to request a filter opportunistic lock (oplock) 
 
 ### -param EaBuffer [in, optional]
 
-A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>-structured buffer containing extended attribute (EA) information to be applied to the file. 
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>-structured buffer containing extended attribute (EA) information to be applied to the file. 
 
 
 ### -param EaLength [in]
@@ -853,7 +831,7 @@ The specified <i>Filter</i> or <i>Instance</i> is being torn down. This status c
 </td>
 <td width="60%">
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a> encountered a pool allocation. This is an error code. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541935">FltCreateFile</a> encountered a pool allocation. This is an error code. 
 
 </td>
 </tr>
@@ -891,9 +869,9 @@ The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> mem
 
 
 
-On versions of Windows earlier than Microsoft Windows Update Rollup for Windows 2000 SP4 and Windows Server 2003 SP1, minifilter drivers should call <b>FltCreateFile</b> instead of <a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>, <a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>, or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>) to obtain a file handle for use with <b>Zw</b><i>Xxx</i> I/O routines such as <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a> and <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>.
+On versions of Windows earlier than Microsoft Windows Update Rollup for Windows 2000 SP4 and Windows Server 2003 SP1, minifilter drivers should call <b>FltCreateFile</b> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548418">IoCreateFile</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff548289">IoCreateFileSpecifyDeviceObjectHint</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>) to obtain a file handle for use with <b>Zw</b><i>Xxx</i> I/O routines such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>.
 
-On Microsoft Windows Update Rollup for Windows 2000 SP4, Windows Server 2003 SP1 and later, minifilter drivers can use <a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a> to obtain a file object pointer for use with <b>Flt...File</b> routines such as <a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a> and <a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>. On earlier versions of Windows, the handle obtained from <b>FltCreateFile</b> can be converted into a file object pointer by calling <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> as follows: 
+On Microsoft Windows Update Rollup for Windows 2000 SP4, Windows Server 2003 SP1 and later, minifilter drivers can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff541937">FltCreateFileEx</a> to obtain a file object pointer for use with <b>Flt...File</b> routines such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff544286">FltReadFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544610">FltWriteFile</a>. On earlier versions of Windows, the handle obtained from <b>FltCreateFile</b> can be converted into a file object pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> as follows: 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -926,7 +904,7 @@ As a pathname relative to the directory file represented by the handle in the <b
 
 </li>
 </ul>
-Any handle that is obtained from <b>FltCreateFile</b> must eventually be released by calling <a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>. 
+Any handle that is obtained from <b>FltCreateFile</b> must eventually be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541863">FltClose</a>. 
 
 Driver routines that do not run in the system process context must set the OBJ_KERNEL_HANDLE attribute for the <i>ObjectAttributes</i> parameter of <b>FltCreateFile</b>. Setting this attribute restricts the use of the handle that is returned by <b>FltCreateFile</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
 
@@ -948,7 +926,7 @@ If only the FILE_EXECUTE and SYNCHRONIZE flags are set, the caller cannot use th
 </ul>
 The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, possibly simultaneously. If both file openers have the privilege to access a file in the specified manner, the file can be successfully opened and shared. If the original caller of <b>FltCreateFile</b> does not specify FILE_SHARE_READ, FILE_SHARE_WRITE, or FILE_SHARE_DELETE, no other open operations can be performed on the file because the original caller is given exclusive access to the file. 
 
-For a shared file to be successfully opened, the requested <i>DesiredAccess</i> to the file must be compatible with both the <i>DesiredAccess</i> and <i>ShareAccess</i> specifications of all preceding opens that have not yet been released with <a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>. That is, the <i>DesiredAccess</i> specified to <b>FltCreateFile</b> for a given file must not conflict with the accesses that other openers of the file have disallowed. 
+For a shared file to be successfully opened, the requested <i>DesiredAccess</i> to the file must be compatible with both the <i>DesiredAccess</i> and <i>ShareAccess</i> specifications of all preceding opens that have not yet been released with <a href="https://msdn.microsoft.com/library/windows/hardware/ff541863">FltClose</a>. That is, the <i>DesiredAccess</i> specified to <b>FltCreateFile</b> for a given file must not conflict with the accesses that other openers of the file have disallowed. 
 
 <div class="alert"><b>Note</b>    If IO_IGNORE_SHARE_ACCESS_CHECK is specified in the <i>Flags</i> parameter, the I/O manager ignores the <i>ShareAccess</i> parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for the <i>ShareAccess </i>parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. </div>
 <div> </div>
@@ -974,23 +952,23 @@ The <i>CreateOptions</i> FILE_NO_INTERMEDIATE_BUFFERING flag prevents the file s
 
 <ul>
 <li>
-Any byte <i>Offset</i> value passed to <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a> or <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a> must be a multiple of the sector size. 
+Any byte <i>Offset</i> value passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a> must be a multiple of the sector size. 
 
 </li>
 <li>
-The <i>Length</i> passed to <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a> or <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a> must be a multiple of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in fewer significant bytes being transferred to that buffer if the end of the file was reached during the transfer. 
+The <i>Length</i> passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a> must be a multiple of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in fewer significant bytes being transferred to that buffer if the end of the file was reached during the transfer. 
 
 </li>
 <li>
-Buffers must be aligned in accordance with the alignment requirement of the underlying storage device. This information can be obtained by calling <b>FltCreateFile</b> to get a handle for the file object that represents the physical device and then calling <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> with that handle, specifying FileAlignmentInformation as the <i>FileInformationClass</i>. For more information about the system FILE_<i>XXX</i>_ALIGNMENT values, which are defined in ntifs.h, see <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547807">Initializing a Device Object</a>. 
+Buffers must be aligned in accordance with the alignment requirement of the underlying storage device. This information can be obtained by calling <b>FltCreateFile</b> to get a handle for the file object that represents the physical device and then calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> with that handle, specifying FileAlignmentInformation as the <i>FileInformationClass</i>. For more information about the system FILE_<i>XXX</i>_ALIGNMENT values, which are defined in ntifs.h, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547807">Initializing a Device Object</a>. 
 
 </li>
 <li>
-Calls to <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is a multiple of the sector size. 
+Calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is a multiple of the sector size. 
 
 </li>
 </ul>
-The <i>CreateOptions</i> FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT, which are mutually exclusive as their names suggest, specify that the file is being opened for synchronous I/O. This means that all I/O operations on the file are to be synchronous as long as they occur through the file object that the returned <i>FileHandle</i> refers to. All I/O on such a file is serialized across all threads by using the returned handle. With either of these <i>CreateOptions</i> set, the I/O Manager maintains the current file position offset in the file object's <b>CurrentByteOffset</b> field. This offset can be used in calls to <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a> and <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>. It can also be queried or set by calling <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> or <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>. 
+The <i>CreateOptions</i> FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT, which are mutually exclusive as their names suggest, specify that the file is being opened for synchronous I/O. This means that all I/O operations on the file are to be synchronous as long as they occur through the file object that the returned <i>FileHandle</i> refers to. All I/O on such a file is serialized across all threads by using the returned handle. With either of these <i>CreateOptions</i> set, the I/O Manager maintains the current file position offset in the file object's <b>CurrentByteOffset</b> field. This offset can be used in calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a>. It can also be queried or set by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>. 
 
 If the <i>CreateOptions</i> FILE_OPEN_REPARSE_POINT flag is not specified and <b>FltCreateFile</b> attempts to open a file with a reparse point, normal reparse point processing occurs for the file.  If, on the other hand, the FILE_OPEN_REPARSE_POINT flag is specified, normal reparse processing does not occur and <b>FltCreateFile</b> attempts to directly open the reparse point file.  In either case, if the open operation was successful, <b>FltCreateFile</b> returns STATUS_SUCCESS; otherwise, the routine returns an NTSTATUS error code. <b>FltCreateFile</b> never returns STATUS_REPARSE.
 
@@ -1025,7 +1003,7 @@ Step three makes this practical only for filter oplocks. The handle opened in st
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER. 
 
-Minifilter drivers must use <a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>, not <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>, to rename a file. 
+Minifilter drivers must use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a>, not <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>, to rename a file. 
 
 <div class="alert"><b>Note</b>    If you try to open a volume but only specify a combination of the following flags for the <i>DesiredAccess</i> parameter, <b>FltCreateFile</b> will open a handle, independent of the file system, that has direct access to the storage device for the volume.<dl>
 <dd>
@@ -1049,7 +1027,7 @@ SYNCHRONIZE
 
 </dd>
 </dl>
-<p class="note">You must not use <b>FltCreateFile</b> to open a handle with direct access to the storage device for the volume or you will leak system resources. If you want to open a handle with direct access to a storage device, call the <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>, <a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>, or <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> function instead.
+<p class="note">You must not use <b>FltCreateFile</b> to open a handle with direct access to the storage device for the volume or you will leak system resources. If you want to open a handle with direct access to a storage device, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff548289">IoCreateFileSpecifyDeviceObjectHint</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> function instead.
 
 </div>
 <div> </div>
@@ -1058,19 +1036,6 @@ SYNCHRONIZE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
 
 
 
@@ -1078,68 +1043,80 @@ SYNCHRONIZE
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541863">FltClose</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541937">FltCreateFileEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544286">FltReadFile</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544610">FltWriteFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548418">IoCreateFile</a>
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548289">IoCreateFileSpecifyDeviceObjectHint</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a>
  
 
  
-
 

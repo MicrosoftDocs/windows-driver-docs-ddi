@@ -7,7 +7,7 @@ old-location: netvista\fwpsacquirewritablelayerdatapointer0.htm
 old-project: netvista
 ms.assetid: 79816d01-bf27-49d0-b6f1-083b7e87cc4e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsAcquireWritableLayerDataPointer0, FwpsAcquireWritableLayerDataPointer0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAcquireWritableLayerDataPointer0, netvista.fwpsacquirewritablelayerdatapointer0, wfp_ref_2_funct_3_fwps_A-B_adf2c5a7-ebcb-4c05-aa5a-3b794b60dc74.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsAcquireWritableLayerDataPointer0
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsAcquireWritableLayerDataPointer0 function
@@ -55,20 +56,6 @@ The
   changed.
 <div class="alert"><b>Note</b>  <b>FwpsAcquireWritableLayerDataPointer0</b> is a specific version of <b>FwpsAcquireWritableLayerDataPointer</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsAcquireWritableLayerDataPointer0(
-  _In_    UINT64             classifyHandle,
-  _In_    UINT64             filterId,
-  _In_    UINT32             flags,
-  _Out_   PVOID              *writableLayerData,
-  _Inout_ FWPS_CLASSIFY_OUT0 *classifyOut
-);
-````
-
-
 ## -parameters
 
 
@@ -78,7 +65,7 @@ NTSTATUS NTAPI FwpsAcquireWritableLayerDataPointer0(
 
 A handle for the classify request.
      This handle is obtained by calling 
-     <a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">
+     <a href="https://msdn.microsoft.com/7348d937-6541-47a7-ae70-7d851d41bc1a">
      FwpsAcquireClassifyHandle0</a>.
 
 
@@ -166,7 +153,7 @@ An error occurred.
 
 
 For every call to this function, you must make a matching call to 
-    <a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a> to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551137">FwpsApplyModifiedLayerData0</a> to
     finalize the changes that were made, even if your callout driver didn't modify any data. If you do not make the call to <b>FwpsApplyModifiedLayerData0</b>, this could result in the classify not completing correctly.
 
 The following structures are defined to contain modifiable layer data. The pointer set on output as
@@ -176,13 +163,13 @@ The following structures are defined to contain modifiable layer data. The point
 <ul>
 <li>
 
-<a href="..\fwpsk\ns-fwpsk-_fwps_bind_request0.md">FWPS_BIND_REQUEST0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551221">FWPS_BIND_REQUEST0</a>
 
 
 </li>
 <li>
 
-<a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551231">FWPS_CONNECT_REQUEST0</a>
 
 
 </li>
@@ -192,19 +179,10 @@ The following structures are defined to contain modifiable layer data. The point
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-_fwps_bind_request0.md">FWPS_BIND_REQUEST0</a>
 
 
 
-<a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsacquireclassifyhandle0.md">FwpsAcquireClassifyHandle0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551221">FWPS_BIND_REQUEST0</a>
 
 
 
@@ -212,11 +190,7 @@ The following structures are defined to contain modifiable layer data. The point
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsreleaseclassifyhandle0.md">FwpsReleaseClassifyHandle0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551231">FWPS_CONNECT_REQUEST0</a>
 
 
 
@@ -224,8 +198,20 @@ The following structures are defined to contain modifiable layer data. The point
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550085">FwpsAcquireClassifyHandle0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551137">FwpsApplyModifiedLayerData0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551208">FwpsReleaseClassifyHandle0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
  
 
  
-
 

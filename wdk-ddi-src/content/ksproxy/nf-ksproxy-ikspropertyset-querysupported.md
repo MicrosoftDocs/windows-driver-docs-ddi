@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPropertySet.QuerySupported
-title: IKsPropertySet::QuerySupported method
+title: IKsPropertySet::QuerySupported
 author: windows-driver-content
 description: The QuerySupported method determines whether a KS object supports a property set and the type of that support.
 old-location: stream\ikspropertyset_querysupported.htm
 old-project: stream
 ms.assetid: 8b59da4f-0beb-46e8-913d-b992fa9f694d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], QuerySupported method, IKsPropertySet::QuerySupported, QuerySupported method [Streaming Media Devices], QuerySupported method [Streaming Media Devices], IKsPropertySet interface, QuerySupported,IKsPropertySet.QuerySupported, ksproxy/IKsPropertySet::QuerySupported, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, stream.ikspropertyset_querysupported
+ms.date: 4/23/2018
+ms.keywords: IKsPropertySet interface [Streaming Media Devices],QuerySupported method, IKsPropertySet.QuerySupported, IKsPropertySet::QuerySupported, QuerySupported, QuerySupported method [Streaming Media Devices], QuerySupported method [Streaming Media Devices],IKsPropertySet interface, ksproxy/IKsPropertySet::QuerySupported, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, stream.ikspropertyset_querysupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsPropertySet.QuerySupported
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPropertySet::QuerySupported method
+# IKsPropertySet::QuerySupported
 
 
 ## -description
 
 
 The <b>QuerySupported</b> method determines whether a KS object supports a property set and the type of that support.
-
-
-## -syntax
-
-
-````
-HRESULT QuerySupported(
-  [in]  REFGUID PropSet,
-  [in]  ULONG   Id,
-  [out] ULONG   *TypeSupport
-);
-````
 
 
 ## -parameters
@@ -183,16 +172,15 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560719">IKsPropertySet::Get</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560721">IKsPropertySet::Set</a>
-
-
-
  
 
  
-
 

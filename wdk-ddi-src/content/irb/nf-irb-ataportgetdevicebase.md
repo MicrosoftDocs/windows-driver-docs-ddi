@@ -7,7 +7,7 @@ old-location: storage\ataportgetdevicebase.htm
 old-project: storage
 ms.assetid: 5cad43c7-00f0-4590-997c-f956afe07e55
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortGetDeviceBase, AtaPortGetDeviceBase routine [Storage Devices], atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml, irb/AtaPortGetDeviceBase, storage.ataportgetdevicebase
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	pciidex.dll
 api_name:
 -	AtaPortGetDeviceBase
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortGetDeviceBase function
@@ -54,18 +55,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortGetDeviceBase</b> routine returns a mapped logical base address that is used to communicate with an HBA.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-PVOID AtaPortGetDeviceBase(
-  _In_ PVOID                ChannelExtension,
-  _In_ IDE_PHYSICAL_ADDRESS IoAddress,
-  _In_ ULONG                NumberOfBytes
-);
-````
-
 
 ## -parameters
 
@@ -84,7 +73,7 @@ Specifies the base address to map.
 
 ### -param NumberOfBytes [in]
 
-Specifies the size, in bytes, of the range that the mappings should cover. The value for this parameter can be obtained from the <b>IdeAccessRange</b> member of the <a href="..\irb\ns-irb-_ide_miniport_resources.md">IDE_MINIPORT_RESOURCES</a> structure.
+Specifies the size, in bytes, of the range that the mappings should cover. The value for this parameter can be obtained from the <b>IdeAccessRange</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559119">IDE_MINIPORT_RESOURCES</a> structure.
 
 
 ## -returns
@@ -107,20 +96,19 @@ Miniport drivers must use logical addresses that have been mapped into system sp
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportreadportulong.md">AtaPortReadPortUlong</a>
 
 
 
-<a href="..\irb\nf-irb-ataportreadportuchar.md">AtaPortReadPortUchar</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550182">AtaPortReadPortUchar</a>
 
 
 
-<a href="..\irb\nf-irb-ataportreadportushort.md">AtaPortReadPortUshort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550184">AtaPortReadPortUlong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550185">AtaPortReadPortUshort</a>
  
 
  
-
 

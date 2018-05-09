@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_feature_status_type.htm
 old-project: netvista
 ms.assetid: bdf19090-5688-4496-8f9a-3a1c422ede60
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortFeatureStatusTypeCustom, NdisSwitchPortFeatureStatusTypeMaximum, NdisSwitchPortFeatureStatusTypeUndefined, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, netvista.ndis_switch_port_feature_status_type, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchPortFeatureStatusTypeCustom, ntddndis/NdisSwitchPortFeatureStatusTypeMaximum, ntddndis/NdisSwitchPortFeatureStatusTypeUndefined, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, *PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE
 ---
@@ -55,18 +56,6 @@ The <b>NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE</b> enumeration specifies the type o
 An extensible switch port feature is defined and supported by an independent software vendor (ISV).
 
 
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE { 
-  NdisSwitchPortFeatureStatusTypeUndefined,
-  NdisSwitchPortFeatureStatusTypeCustom,
-  NdisSwitchPortFeatureStatusTypeMaximum
-} NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, *PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE;
-````
 
 
 ## -enum-fields
@@ -97,7 +86,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-The <b>FeatureStatusType</b> member of the  <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_feature_status_parameters.md">NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</a> structure is an <b>NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE</b> enumeration data type.
+The <b>FeatureStatusType</b> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh598227">NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</a> structure is an <b>NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE</b> enumeration data type.
 
 For more information about extensible switch port policies, see <a href="https://msdn.microsoft.com/8AB85E48-EF37-4D42-873B-34D4835AF22E">Hyper-V Extensible Switch Policies</a>.
 
@@ -108,7 +97,6 @@ For more information about extensible switch port policies, see <a href="https:/
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_feature_status_parameters.md">NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</a>
 
 
 
@@ -116,8 +104,8 @@ For more information about extensible switch port policies, see <a href="https:/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598227">NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</a>
  
 
  
-
 

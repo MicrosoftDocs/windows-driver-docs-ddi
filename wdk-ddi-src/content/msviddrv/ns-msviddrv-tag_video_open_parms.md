@@ -7,7 +7,7 @@ old-location: stream\video_open_parms.htm
 old-project: stream
 ms.assetid: BD11B67F-9229-4584-A20D-7D7C70B42977
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*LPVIDEO_OPEN_PARMS, LPVIDEO_OPEN_PARMS, LPVIDEO_OPEN_PARMS structure pointer [Streaming Media Devices], VIDEO_OPEN_PARMS, VIDEO_OPEN_PARMS structure [Streaming Media Devices], msviddrv/LPVIDEO_OPEN_PARMS, msviddrv/VIDEO_OPEN_PARMS, stream.video_open_parms, tag_video_open_parms"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= APC_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Msviddrv.h
 api_name:
 -	VIDEO_OPEN_PARMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: VIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS
 ---
@@ -50,24 +51,6 @@ req.typenames: VIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct tag_video_open_parms {
-  DWORD  dwSize;
-  FOURCC fccType;
-  FOURCC fccComp;
-  DWORD  dwVersion;
-  DWORD  dwFlags;
-  DWORD  dwError;
-  LPVOID pV1Reserved;
-  LPVOID pV2Reserved;
-  DWORD  dnDevNode;
-} VIDEO_OPEN_PARMS, *LPVIDEO_OPEN_PARMS;
-````
 
 
 ## -struct-fields

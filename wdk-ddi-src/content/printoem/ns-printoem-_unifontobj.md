@@ -7,7 +7,7 @@ old-location: print\unifontobj.htm
 old-project: print
 ms.assetid: ff3ecef2-abf2-4ecb-b4af-81e6c6d8fb4c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PUNIFONTOBJ, PUNIFONTOBJ, PUNIFONTOBJ structure pointer [Print Devices], UNIFONTOBJ, UNIFONTOBJ structure [Print Devices], _UNIFONTOBJ, print.unifontobj, print_unidrv-pscript_rendering_05a25ef3-5ce2-43f5-ae35-790691bda143.xml, printoem/PUNIFONTOBJ, printoem/UNIFONTOBJ"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	UNIFONTOBJ
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UNIFONTOBJ, *PUNIFONTOBJ
-req.product: Windows 10 or later.
 ---
 
 # _UNIFONTOBJ structure
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The UNIFONTOBJ structure is used as an input parameter to font functions in rendering plug-ins.
-
-
-## -syntax
-
-
-````
-typedef struct _UNIFONTOBJ {
-  ULONG      ulFontID;
-  DWORD      dwFlags;
-  IFIMETRICS *pIFIMetrics;
-  PFNGETINFO pfnGetInfo;
-} UNIFONTOBJ, *PUNIFONTOBJ;
-````
 
 
 ## -struct-fields
@@ -175,7 +162,6 @@ Pointer to Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
 
 
@@ -183,8 +169,8 @@ Pointer to Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\fwpsallocatenetbufferandnetbufferlist0.htm
 old-project: netvista
 ms.assetid: d7f2d3c0-f2c9-4624-b3e1-9fbbf64c7186
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsAllocateNetBufferAndNetBufferList0, FwpsAllocateNetBufferAndNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateNetBufferAndNetBufferList0, netvista.fwpsallocatenetbufferandnetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_9a88a8c9-a5fb-48a9-bc42-ae30de234468.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	fwpkclnt.dll
 api_name:
 -	FwpsAllocateNetBufferAndNetBufferList0
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsAllocateNetBufferAndNetBufferList0 function
@@ -52,24 +53,8 @@ req.typenames: FWPS_VSWITCH_EVENT_TYPE
 
 The 
   <b>FwpsAllocateNetBufferAndNetBufferList0</b> function allocates a new 
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 <div class="alert"><b>Note</b>  <b>FwpsAllocateNetBufferAndNetBufferList0</b> is a specific version of <b>FwpsAllocateNetBufferAndNetBufferList</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
-
-## -syntax
-
-
-````
-NTSTATUS NTAPI FwpsAllocateNetBufferAndNetBufferList0(
-  _In_     NDIS_HANDLE     poolHandle,
-  _In_     USHORT          contextSize,
-  _In_     USHORT          contextBackFill,
-  _In_opt_ MDL             *mdlChain,
-  _In_     ULONG           dataOffset,
-  _In_     SIZE_T          dataLength,
-  _Out_    NET_BUFFER_LIST **netBufferList
-);
-````
-
 
 ## -parameters
 
@@ -79,15 +64,15 @@ NTSTATUS NTAPI FwpsAllocateNetBufferAndNetBufferList0(
 ### -param poolHandle [in]
 
 A 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> pool handle that was
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
-     <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">NdisAllocateNetBufferListPool</a> function.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561611">NdisAllocateNetBufferListPool</a> function.
 
 
 ### -param contextSize [in]
 
 The size, in bytes, of used data space in the 
-     <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a> structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a> structure
      to reserve for the callout driver. The value of this parameter must be a multiple of the value defined
      by <b>MEMORY_ALLOCATION_ALIGNMENT</b>.
 
@@ -124,7 +109,7 @@ The length, in bytes, of the
 ### -param netBufferList [out]
 
 A pointer to a variable that receives a pointer to the new 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 
 ## -returns
@@ -148,7 +133,7 @@ The
 </td>
 <td width="60%">
 The new 
-       <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure was
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure was
        successfully allocated.
 
 </td>
@@ -176,16 +161,16 @@ An error occurred.
 
 A callout driver calls the 
     <b>FwpsAllocateNetBufferAndNetBufferList0</b> function to allocate a new 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 This function is a wrapper around the 
-    <a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+    <a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
     NdisAllocateNetBufferAndNetBufferList</a> function, but it is specialized for use by WFP 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a>.
 
-After the data described by the new <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure has been successfully injected into the
+After the data described by the new <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure has been successfully injected into the
     network stack, the callout driver frees the new <b>NET_BUFFER_LIST</b> structure by calling the 
-    <a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">
+    <a href="https://msdn.microsoft.com/7e337d7a-a408-4574-8da3-ea333fdbde8b">
     FwpsFreeNetBufferList0</a> function.
 
 
@@ -193,34 +178,33 @@ After the data described by the new <a href="..\ndis\ns-ndis-_net_buffer_list.md
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551172">FwpsFreeNetBufferList0</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a>
+
+
+
+<a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
    NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
+   NdisAllocateNetBufferListPool</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-
-
-
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
  
 
  
-
 

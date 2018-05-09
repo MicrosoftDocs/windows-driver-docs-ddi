@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlnotifyfullchangedirectory.htm
 old-project: ifsk
 ms.assetid: 42e5340e-0be4-49d1-a219-88b7425a41ef
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlNotifyFullChangeDirectory, FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml, ifsk.fsrtlnotifyfullchangedirectory, rxprocs/FsRtlNotifyFullChangeDirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlNotifyFullChangeDirectory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # FsRtlNotifyFullChangeDirectory macro
@@ -51,25 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>FsRtlNotifyFullChangeDirectory</b> routine creates a notify structure for a notification request and adds it to the specified notify list.
-
-
-## -syntax
-
-
-````
-VOID FsRtlNotifyFullChangeDirectory(
-  _In_     PNOTIFY_SYNC               NotifySync,
-  _In_     PLIST_ENTRY                NotifyList,
-  _In_     PVOID                      FsContext,
-  _In_     PSTRING                    FullDirectoryName,
-  _In_     BOOLEAN                    WatchTree,
-  _In_     BOOLEAN                    IgnoreBuffer,
-  _In_     ULONG                      CompletionFilter,
-  _In_opt_ PIRP                       NotifyIrp,
-  _In_opt_ PCHECK_FOR_TRAVERSE_ACCESS TraverseCallback,
-  _In_opt_ PSECURITY_SUBJECT_CONTEXT  SubjectContext
-);
-````
 
 
 ## -parameters
@@ -330,7 +311,7 @@ Optional pointer to a callback routine to be invoked when a change occurs in a s
 </td>
 </tr>
 </table></span></div>
-For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>. <i>TraverseCallback</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
+For more information about the <i>TargetContext</i> parameter, see the <i>TargetContext</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547041">FsRtlNotifyFullReportChange</a>. <i>TraverseCallback</i> is ignored if <i>NotifyIrp</i> is <b>NULL</b>.
 
 
 #### - WatchTree [in]
@@ -363,11 +344,10 @@ If the file object has not undergone cleanup, <b>FsRtlNotifyFullChangeDirectory<
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547041">FsRtlNotifyFullReportChange</a>
 
 
 
@@ -375,8 +355,8 @@ If the file object has not undergone cleanup, <b>FsRtlNotifyFullChangeDirectory<
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563714">SECURITY_SUBJECT_CONTEXT</a>
  
 
  
-
 

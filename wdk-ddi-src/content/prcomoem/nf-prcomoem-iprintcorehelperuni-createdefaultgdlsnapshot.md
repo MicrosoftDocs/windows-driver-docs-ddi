@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.CreateDefaultGDLSnapshot
-title: IPrintCoreHelperUni::CreateDefaultGDLSnapshot method
+title: IPrintCoreHelperUni::CreateDefaultGDLSnapshot
 author: windows-driver-content
 description: The IPrintCoreHelperUni::CreateDefaultGDLSnapshot method gets a GDL snapshot based on the driver default configuration.
 old-location: print\iprintcorehelperuni_createdefaultgdlsnapshot.htm
 old-project: print
 ms.assetid: 987c3721-d8a8-4aac-8f42-6eac9b5ccdc5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CreateDefaultGDLSnapshot method [Print Devices], CreateDefaultGDLSnapshot method [Print Devices], IPrintCoreHelperUni interface, CreateDefaultGDLSnapshot,IPrintCoreHelperUni.CreateDefaultGDLSnapshot, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], CreateDefaultGDLSnapshot method, IPrintCoreHelperUni::CreateDefaultGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot, print.iprintcorehelperuni_createdefaultgdlsnapshot, print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml
+ms.date: 4/20/2018
+ms.keywords: CreateDefaultGDLSnapshot, CreateDefaultGDLSnapshot method [Print Devices], CreateDefaultGDLSnapshot method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],CreateDefaultGDLSnapshot method, IPrintCoreHelperUni.CreateDefaultGDLSnapshot, IPrintCoreHelperUni::CreateDefaultGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot, print.iprintcorehelperuni_createdefaultgdlsnapshot, print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreHelperUni.CreateDefaultGDLSnapshot
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperUni::CreateDefaultGDLSnapshot method
+# IPrintCoreHelperUni::CreateDefaultGDLSnapshot
 
 
 ## -description
 
 
 The <code>IPrintCoreHelperUni::CreateDefaultGDLSnapshot</code> method gets a GDL snapshot based on the driver default configuration.
-
-
-## -syntax
-
-
-````
-HRESULT CreateDefaultGDLSnapshot(
-  [in]  DWORD    dwFlags,
-  [out] LPSTREAM *ppSnapshotStream
-);
-````
 
 
 ## -parameters
@@ -90,16 +79,15 @@ A pointer to a stream that supplies the XML version of the GDL snapshot.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552923">IPrintCoreHelperUni::CreateGDLSnapshot</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
-
-
-
  
 
  
-
 

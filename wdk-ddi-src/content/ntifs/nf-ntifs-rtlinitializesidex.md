@@ -7,7 +7,7 @@ old-location: ifsk\rtlinitializesidex.htm
 old-project: ifsk
 ms.assetid: 367D8BC1-07F4-474E-913A-5F825320A70C
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlInitializeSidEx, RtlInitializeSidEx routine [Installable File System Drivers], ifsk.rtlinitializesidex, ntifs/RtlInitializeSidEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlInitializeSidEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlInitializeSidEx function
@@ -50,19 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlInitializeSidEx</b> routine initializes a pre-allocated security identifier (SID) structure. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlInitializeSidEx(
-  _Out_ PSID                      Sid,
-  _In_  PSID_IDENTIFIER_AUTHORITY IdentifierAuthority,
-  _In_  UCHAR                     SubAuthorityCount,
-                                  ...
-);
-````
 
 
 ## -parameters
@@ -77,7 +65,7 @@ Pointer to a caller-allocated SID structure to be initialized.
 
 ### -param IdentifierAuthority [in]
 
-Pointer to an <a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a> structure to set in the SID structure. 
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556743">SID_IDENTIFIER_AUTHORITY</a> structure to set in the SID structure. 
 
 
 ### -param SubAuthorityCount [in]
@@ -147,20 +135,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553236">RtlSubAuthoritySid</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556743">SID_IDENTIFIER_AUTHORITY</a>
  
 
  
-
 

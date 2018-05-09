@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_usbdevice_endpoint_add.htm
 old-project: usbref
 ms.assetid: 1cbafa33-e957-4865-9d4f-26f12827a941
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: EVT_UCX_USBDEVICE_ENDPOINT_ADD, EvtUcxUsbDeviceEndpointAdd, EvtUcxUsbDeviceEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceEndpointAdd
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_USBDEVICE_ENDPOINT_ADD, EVT_UCX_USBDEVICE_ENDPOINT_ADD callback, EvtUcxUsbDeviceEndpointAdd, EvtUcxUsbDeviceEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,39 +38,19 @@ api_location:
 -	ucxusbdevice.h
 api_name:
 -	PEVT_UCX_USBDEVICE_ENDPOINT_ADD
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_USBDEVICE_ENDPOINT_ADD callback
+# EVT_UCX_USBDEVICE_ENDPOINT_ADD callback function
 
 
 ## -description
 
 
 The client driver's implementation that UCX calls to add a new endpoint for a USB device.
-
-
-## -prototype
-
-
-````
-EVT_UCX_USBDEVICE_ENDPOINT_ADD EvtUcxUsbDeviceEndpointAdd;
-
-NTSTATUS EvtUcxUsbDeviceEndpointAdd(
-  _In_     UCXCONTROLLER                                 UcxController,
-  _In_     UCXUSBDEVICE                                  UcxUsbDevice,
-  _In_     PUSB_ENDPOINT_DESCRIPTOR                      UsbEndpointDescriptor,
-  _In_     ULONG                                         UsbEndpointDescriptorBufferLength,
-  _In_opt_ PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR SuperSpeedEndpointCompanionDescriptor,
-  _In_     PUCXENDPOINT_INIT                             UcxEndpointInit
-)
-{ ... }
-
-typedef EVT_UCX_USBDEVICE_ENDPOINT_ADD PEVT_UCX_USBDEVICE_ENDPOINT_ADD;
-````
 
 
 ## -parameters
@@ -123,9 +103,9 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a> method.
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a> method.
 
-The callback function calls <a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a> to create a new endpoint object and register endpoint object callback functions.
+The callback function calls <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a> to create a new endpoint object and register endpoint object callback functions.
 
 Then, the callback  function typically creates a WDF queue associated with the endpoint
     object.   The  queue does not receive any requests until the class extension
@@ -227,28 +207,27 @@ EvtUsbDeviceEndpointAddEnd:
 
 ## -see-also
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxendpointcreate.md">UcxEndpointCreate</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188037">UcxDefaultEndpointInitSetEventCallbacks</a>
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
 
 
 
-<a href="..\ucxendpoint\nf-ucxendpoint-ucxdefaultendpointinitseteventcallbacks.md">UcxDefaultEndpointInitSetEventCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188052">UcxUsbDeviceCreate</a>
 
 
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552360">WDF_IO_QUEUE_CONFIG_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547401">WdfIoQueueCreate</a>
  
 
  
-
 

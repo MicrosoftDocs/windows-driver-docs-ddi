@@ -7,8 +7,8 @@ old-location: display\dxgkddirecommendmonitormodes.htm
 old-project: display
 ms.assetid: 1fa29ab6-1faa-4be6-ae87-4cac9057471d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_RECOMMENDMONITORMODES, DmFunctions_0e8f1382-ec41-4953-8e1e-f2a5121acc0c.xml, DxgkDdiRecommendMonitorModes, DxgkDdiRecommendMonitorModes callback function [Display Devices], d3dkmddi/DxgkDdiRecommendMonitorModes, display.dxgkddirecommendmonitormodes
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_RECOMMENDMONITORMODES, DXGKDDI_RECOMMENDMONITORMODES callback, DmFunctions_0e8f1382-ec41-4953-8e1e-f2a5121acc0c.xml, DxgkDdiRecommendMonitorModes, DxgkDdiRecommendMonitorModes callback function [Display Devices], d3dkmddi/DxgkDdiRecommendMonitorModes, display.dxgkddirecommendmonitormodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DxgkDdiRecommendMonitorModes
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_RECOMMENDMONITORMODES callback
+# DXGKDDI_RECOMMENDMONITORMODES callback function
 
 
 ## -description
 
 
 The <i>DxgkDdiRecommendMonitorModes</i> function inspects the monitor source mode set that is associated with a particular video present target and possibly adds modes to the set.
-
-
-## -prototype
-
-
-````
-DXGKDDI_RECOMMENDMONITORMODES DxgkDdiRecommendMonitorModes;
-
-NTSTATUS APIENTRY DxgkDdiRecommendMonitorModes(
-  _In_ const HANDLE                              hAdapter,
-  _In_ const DXGKARG_RECOMMENDMONITORMODES CONST *pRecommendMonitorModesArg
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ NTSTATUS APIENTRY DxgkDdiRecommendMonitorModes(
 
 ### -param hAdapter [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a> function.
+A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
 
 
 ### -param pRecommendMonitorModes
@@ -87,7 +74,7 @@ A handle to a context block that is associated with a display adapter. The displ
 
 #### - pRecommendMonitorModesArg [in]
 
-A pointer to a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_recommendmonitormodes.md">DXGKARG_RECOMMENDMONITORMODES</a> structure that contains function arguments.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557636">DXGKARG_RECOMMENDMONITORMODES</a> structure that contains function arguments.
 
 
 ## -returns
@@ -142,12 +129,11 @@ The miniport driver should pass through any error code that it gets from the ope
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set Interface</a>
-
-
-
  
 
  
-
 

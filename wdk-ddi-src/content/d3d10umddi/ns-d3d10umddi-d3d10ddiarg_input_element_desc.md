@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_input_element_desc.htm
 old-project: display
 ms.assetid: cc052b73-8837-4756-a192-620dcd5cacb5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10DDIARG_INPUT_ELEMENT_DESC, D3D10DDIARG_INPUT_ELEMENT_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_c640f88f-3031-4412-a9bc-a8058cf8dab0.xml, d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC, display.d3d10ddiarg_input_element_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10DDIARG_INPUT_ELEMENT_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10DDIARG_INPUT_ELEMENT_DESC
 ---
@@ -50,21 +51,6 @@ req.typenames: D3D10DDIARG_INPUT_ELEMENT_DESC
 
 
 The D3D10DDIARG_INPUT_ELEMENT_DESC structure describes an element of a layout.
-
-
-## -syntax
-
-
-````
-typedef struct D3D10DDIARG_INPUT_ELEMENT_DESC {
-  UINT                           InputSlot;
-  UINT                           AlignedByteOffset;
-  DXGI_FORMAT                    Format;
-  D3D10_DDI_INPUT_CLASSIFICATION InputSlotClass;
-  UINT                           InstanceDataStepRate;
-  UINT                           InputRegister;
-} D3D10DDIARG_INPUT_ELEMENT_DESC;
-````
 
 
 ## -struct-fields
@@ -132,12 +118,11 @@ D3D10_DDI_INPUT_PER_INSTANCE_DATA (1)
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createelementlayout.md">D3D10DDIARG_CREATEELEMENTLAYOUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541674">D3D10DDIARG_CREATEELEMENTLAYOUT</a>
  
 
  
-
 

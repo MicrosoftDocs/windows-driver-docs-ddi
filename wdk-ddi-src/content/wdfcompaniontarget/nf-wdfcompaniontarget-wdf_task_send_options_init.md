@@ -38,10 +38,10 @@ api_location:
 -	wdfcompaniontarget.h
 api_name:
 -	WDF_TASK_SEND_OPTIONS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_TASK_SEND_OPTIONS_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_TASK_SEND_OPTIONS_INIT function
@@ -52,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-FORCEINLINE VOID WDF_TASK_SEND_OPTIONS_INIT(
-  _Out_ PWDF_TASK_SEND_OPTIONS Options,
-  _In_  ULONG                  Flags
-);
-````
 
 
 ## -parameters

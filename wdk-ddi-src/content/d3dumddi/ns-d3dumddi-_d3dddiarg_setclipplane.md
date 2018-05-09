@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setclipplane.htm
 old-project: display
 ms.assetid: 94e942a4-de66-47a3-89bf-fbec2a408775
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_SETCLIPPLANE, D3DDDIARG_SETCLIPPLANE structure [Display Devices], UMDisplayDriver_param_Structs_3371265a-3cb5-4aee-b019-14ef454e9d6d.xml, _D3DDDIARG_SETCLIPPLANE, d3dumddi/D3DDDIARG_SETCLIPPLANE, display.d3dddiarg_setclipplane
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_SETCLIPPLANE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETCLIPPLANE
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDIARG_SETCLIPPLANE
 
 
 The D3DDDIARG_SETCLIPPLANE structure describes a clip plane. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETCLIPPLANE {
-  UINT  Index;
-  FLOAT Plane[4];
-} D3DDDIARG_SETCLIPPLANE;
-````
 
 
 ## -struct-fields
@@ -89,12 +79,11 @@ The general plane equation in standard form is A<i>x</i> + B<i>y</i> + C<i>z</i>
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setclipplane.md">SetClipPlane</a>
 
 
 
+<a href="https://msdn.microsoft.com/99edfc35-23a5-41e0-8705-7dffba564c10">SetClipPlane</a>
  
 
  
-
 

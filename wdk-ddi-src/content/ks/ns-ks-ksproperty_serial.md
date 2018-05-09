@@ -7,7 +7,7 @@ old-location: stream\ksproperty_serial.htm
 old-project: stream
 ms.assetid: 751bf70d-0602-487a-82c7-efca075b8968
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_SERIAL, KSPROPERTY_SERIAL, KSPROPERTY_SERIAL structure [Streaming Media Devices], PKSPROPERTY_SERIAL, PKSPROPERTY_SERIAL structure pointer [Streaming Media Devices], ks-struct_1d2733c1-6b2a-48e2-ae94-d108a011754e.xml, ks/KSPROPERTY_SERIAL, ks/PKSPROPERTY_SERIAL, stream.ksproperty_serial"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_SERIAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SERIAL, *PKSPROPERTY_SERIAL
 ---
@@ -52,18 +53,6 @@ req.typenames: KSPROPERTY_SERIAL, *PKSPROPERTY_SERIAL
 The KSPROPERTY_SERIAL structure is a header that is included for each property that follows a KSPROPERTY_SERIALHDR structure.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSIDENTIFIER PropTypeSet;
-  ULONG        Id;
-  ULONG        PropertyLength;
-} KSPROPERTY_SERIAL, *PKSPROPERTY_SERIAL;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct {
 
 ### -field PropTypeSet
 
-A structure of type <a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a> that specifies the type of property data. This is the same information obtained from querying Basic Support.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562676">KSIDENTIFIER</a> that specifies the type of property data. This is the same information obtained from querying Basic Support.
 
 
 ### -field Id
@@ -95,12 +84,11 @@ A KSPROPERTY_SERIAL structure is followed by the property data, with the start o
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_serialhdr.md">KSPROPERTY_SERIALHDR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565614">KSPROPERTY_SERIALHDR</a>
  
 
  
-
 

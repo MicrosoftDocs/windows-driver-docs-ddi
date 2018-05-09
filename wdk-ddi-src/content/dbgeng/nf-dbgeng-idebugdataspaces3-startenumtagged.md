@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.StartEnumTagged
-title: IDebugDataSpaces3::StartEnumTagged method
+title: IDebugDataSpaces3::StartEnumTagged
 author: windows-driver-content
 description: The StartEnumTagged method initializes a enumeration over the tagged data associated with a debugger session.
 old-location: debugger\startenumtagged.htm
 old-project: debugger
 ms.assetid: b79b1f09-baff-4071-a209-6fc399c9aef9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces4 interface [Windows Debugging], StartEnumTagged method, IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, StartEnumTagged method [Windows Debugging], StartEnumTagged method [Windows Debugging], IDebugDataSpaces3 interface, StartEnumTagged method [Windows Debugging], IDebugDataSpaces4 interface, StartEnumTagged,IDebugDataSpaces3.StartEnumTagged, dbgeng/IDebugDataSpaces3::StartEnumTagged, dbgeng/IDebugDataSpaces4::StartEnumTagged, debugger.startenumtagged
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces3 interface [Windows Debugging],StartEnumTagged method, IDebugDataSpaces3.StartEnumTagged, IDebugDataSpaces3::StartEnumTagged, IDebugDataSpaces4 interface [Windows Debugging],StartEnumTagged method, IDebugDataSpaces4::StartEnumTagged, IDebugDataSpaces_bc6f5148-04e1-4912-8ca2-8c095519af8f.xml, StartEnumTagged, StartEnumTagged method [Windows Debugging], StartEnumTagged method [Windows Debugging],IDebugDataSpaces3 interface, StartEnumTagged method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces3::StartEnumTagged, dbgeng/IDebugDataSpaces4::StartEnumTagged, debugger.startenumtagged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,28 +39,19 @@ api_location:
 api_name:
 -	IDebugDataSpaces3.StartEnumTagged
 -	IDebugDataSpaces4.StartEnumTagged
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces3::StartEnumTagged method
+# IDebugDataSpaces3::StartEnumTagged
 
 
 ## -description
 
 
 The <b>StartEnumTagged</b> method initializes a enumeration over the tagged data associated with a debugger session.
-
-
-## -syntax
-
-
-````
-HRESULT StartEnumTagged(
-  [out] PULONG64 Handle
-);
-````
 
 
 ## -parameters

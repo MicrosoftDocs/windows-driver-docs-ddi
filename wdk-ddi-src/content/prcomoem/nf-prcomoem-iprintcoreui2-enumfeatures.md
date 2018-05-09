@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.EnumFeatures
-title: IPrintCoreUI2::EnumFeatures method
+title: IPrintCoreUI2::EnumFeatures
 author: windows-driver-content
 description: The IPrintCoreUI2::EnumFeatures method enumerates a printer's available features.
 old-location: print\iprintcoreui2_enumfeatures.htm
 old-project: print
 ms.assetid: e5c16b6d-555d-4360-b781-4d22be81ab56
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCoreUI2 interface, EnumFeatures,IPrintCoreUI2.EnumFeatures, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], EnumFeatures method, IPrintCoreUI2::EnumFeatures, prcomoem/IPrintCoreUI2::EnumFeatures, print.iprintcoreui2_enumfeatures, print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml
+ms.date: 4/20/2018
+ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],EnumFeatures method, IPrintCoreUI2.EnumFeatures, IPrintCoreUI2::EnumFeatures, prcomoem/IPrintCoreUI2::EnumFeatures, print.iprintcoreui2_enumfeatures, print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreUI2.EnumFeatures
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreUI2::EnumFeatures method
+# IPrintCoreUI2::EnumFeatures
 
 
 ## -description
 
 
 The <code>IPrintCoreUI2::EnumFeatures</code> method enumerates a printer's available features.
-
-
-## -syntax
-
-
-````
-HRESULT EnumFeatures(
-  [in]  POEMUIOBJ poemuiobj,
-  [in]  DWORD     dwFlags,
-  [out] PSTR      pmszFeatureList,
-  [in]  DWORD     cbSize,
-  [out] PDWORD    pcbNeeded
-);
-````
 
 
 ## -parameters
@@ -74,7 +60,7 @@ HRESULT EnumFeatures(
 
 ### -param poemuiobj [in]
 
-Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
+Pointer to the current context, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure.
 
 
 ### -param dwFlags [in]
@@ -179,11 +165,10 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
 
 
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
 
 
 
@@ -191,8 +176,8 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a>
  
 
  
-
 

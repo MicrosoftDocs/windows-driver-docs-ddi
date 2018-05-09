@@ -7,7 +7,7 @@ old-location: stream\stream_time_reference.htm
 old-project: stream
 ms.assetid: BC3839C0-AED6-470D-9C2B-B1529B2B3D1A
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSTREAM_TIME_REFERENCE, PSTREAM_TIME_REFERENCE, PSTREAM_TIME_REFERENCE structure pointer [Streaming Media Devices], STREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE structure [Streaming Media Devices], _STREAM_TIME_REFERENCE, stream.stream_time_reference, strmini/PSTREAM_TIME_REFERENCE, strmini/STREAM_TIME_REFERENCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Strmini.h
 api_name:
 -	STREAM_TIME_REFERENCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
-req.product: Windows 10 or later.
 ---
 
 # _STREAM_TIME_REFERENCE structure
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _STREAM_TIME_REFERENCE {
-  STREAM_TIMESTAMP CurrentOnboardClockValue;
-  LARGE_INTEGER    OnboardClockFrequency;
-  LARGE_INTEGER    CurrentSystemTime;
-  ULONG            Reserved[2];
-} STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE;
-````
 
 
 ## -struct-fields

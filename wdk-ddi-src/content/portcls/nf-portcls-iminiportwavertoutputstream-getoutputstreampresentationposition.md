@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition
-title: IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition method
+title: IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
 author: windows-driver-content
 description: Returns stream presentation information.
 old-location: audio\iminiportwavertoutputstream_getoutputstreampresentationposition.htm
 old-project: audio
 ms.assetid: 8E52A10E-5666-41B5-B342-491E5AF9DD38
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetOutputStreamPresentationPosition method [Audio Devices], GetOutputStreamPresentationPosition method [Audio Devices], IMiniportWaveRTOutputStream interface, GetOutputStreamPresentationPosition,IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition, IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream interface [Audio Devices], GetOutputStreamPresentationPosition method, IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, audio.iminiportwavertoutputstream_getoutputstreampresentationposition, portcls/IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
+ms.date: 4/16/2018
+ms.keywords: GetOutputStreamPresentationPosition, GetOutputStreamPresentationPosition method [Audio Devices], GetOutputStreamPresentationPosition method [Audio Devices],IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices],GetOutputStreamPresentationPosition method, IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition, IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, audio.iminiportwavertoutputstream_getoutputstreampresentationposition, portcls/IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition method
+# IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
 
 
 ## -description
 
 
 Returns stream presentation information.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetOutputStreamPresentationPosition(
-  [out] KSAUDIO_PRESENTATION_POSITION *pPresentationPosition
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ NTSTATUS GetOutputStreamPresentationPosition(
 
 ### -param pPresentationPosition [out]
 
- pPresentationPosition returns a <a href="..\ksmedia\ns-ksmedia-ksaudio_presentation_position.md">KSAUDIO_PRESENTATION_POSITION</a> structure that represents a recent presentation position in the audio data stream. For more information, see <a href="https://msdn.microsoft.com/872A4445-8E0B-4804-ADDC-8CD9608E3EBF">IMiniportStreamAudioEngineNode::GetStreamPresentationPosition</a>.
+ pPresentationPosition returns a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450865">KSAUDIO_PRESENTATION_POSITION</a> structure that represents a recent presentation position in the audio data stream. For more information, see <a href="https://msdn.microsoft.com/872A4445-8E0B-4804-ADDC-8CD9608E3EBF">IMiniportStreamAudioEngineNode::GetStreamPresentationPosition</a>.
 
 
 ## -returns
@@ -99,12 +90,11 @@ This does not mean that GetPacketCount and GetOutputStreamPresentationPosition, 
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavertoutputstream.md">IMiniportWaveRTOutputStream</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn946534">IMiniportWaveRTOutputStream</a>
  
 
  
-
 

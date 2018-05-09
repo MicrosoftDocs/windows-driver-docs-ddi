@@ -7,7 +7,7 @@ old-location: print\finvocation.htm
 old-project: print
 ms.assetid: 958d6f1f-e8e8-43e6-a4d4-73bae4b2be21
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PFINVOCATION, FINVOCATION, FINVOCATION structure [Print Devices], PFINVOCATION, PFINVOCATION structure pointer [Print Devices], _FINVOCATION, print.finvocation, print_unidrv-pscript_rendering_9937cdea-eacb-457c-af51-d8963ffd59e9.xml, printoem/FINVOCATION, printoem/PFINVOCATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	FINVOCATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FINVOCATION, *PFINVOCATION
-req.product: Windows 10 or later.
 ---
 
 # _FINVOCATION structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The FINVOCATION structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554274">IPrintOemUni::SendFontCmd</a> method. The structure is defined in printoem.h.
-
-
-## -syntax
-
-
-````
-typedef struct _FINVOCATION {
-  DWORD dwCount;
-  PBYTE pubCommand;
-} FINVOCATION, *PFINVOCATION;
-````
 
 
 ## -struct-fields
@@ -81,12 +70,11 @@ Unidrv-supplied pointer to a string containing the printer's font selection comm
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554274">IPrintOemUni::SendFontCmd</a>
-
-
-
  
 
  
-
 

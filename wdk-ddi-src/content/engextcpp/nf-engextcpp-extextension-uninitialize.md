@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.Uninitialize
-title: ExtExtension::Uninitialize method
+title: ExtExtension::Uninitialize
 author: windows-driver-content
 description: The Uninitialize method is called by the engine to uninitialize an EngExtCpp extension library before it is unloaded.
 old-location: debugger\uninitialize.htm
 old-project: debugger
 ms.assetid: 2c8f0005-523b-4223-9859-a586f73db206
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_614648b0-a948-4066-bec1-0840e2cf08ec.xml, ExtExtension, ExtExtension class [Windows Debugging], Uninitialize method, ExtExtension::Uninitialize, Uninitialize method [Windows Debugging], Uninitialize method [Windows Debugging], ExtExtension class, Uninitialize,ExtExtension.Uninitialize, debugger.uninitialize
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_614648b0-a948-4066-bec1-0840e2cf08ec.xml, ExtExtension class [Windows Debugging],Uninitialize method, ExtExtension.Uninitialize, ExtExtension::Uninitialize, Uninitialize, Uninitialize method [Windows Debugging], Uninitialize method [Windows Debugging],ExtExtension class, debugger.uninitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,26 +38,19 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtExtension.Uninitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::Uninitialize method
+# ExtExtension::Uninitialize
 
 
 ## -description
 
 
 The <b>Uninitialize</b> method is called by the engine to uninitialize an EngExtCpp extension library before it is unloaded.
-
-
-## -syntax
-
-
-````
-virtual void Uninitialize();
-````
 
 
 ## -parameters
@@ -89,11 +82,10 @@ There may or may not be a debugging session active when this function is called,
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
-
-
-
-<a href="..\engextcpp\nf-engextcpp-extextension-initialize.md">Initialize</a>
 
 
 
@@ -101,8 +93,8 @@ There may or may not be a debugging session active when this function is called,
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
  
 
  
-
 

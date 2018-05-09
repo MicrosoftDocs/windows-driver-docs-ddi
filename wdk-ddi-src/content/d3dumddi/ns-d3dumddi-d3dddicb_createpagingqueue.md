@@ -7,7 +7,7 @@ old-location: display\d3dddicb_createpagingqueue.htm
 old-project: display
 ms.assetid: 9E36B02F-2292-416C-AA09-1968EECE5A3D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_CREATEPAGINGQUEUE, D3DDDICB_CREATEPAGINGQUEUE structure [Display Devices], d3dumddi/D3DDDICB_CREATEPAGINGQUEUE, display.d3dddicb_createpagingqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_CREATEPAGINGQUEUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_CREATEPAGINGQUEUE
 ---
@@ -49,21 +50,7 @@ req.typenames: D3DDDICB_CREATEPAGINGQUEUE
 ## -description
 
 
-<b>D3DDDICB_CREATEPAGINGQUEUE</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpagingqueuecb.md">pfnCreatePagingQueueCb</a> to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDICB_CREATEPAGINGQUEUE {
-  D3DDDI_PAGINGQUEUE_PRIORITY Priority;
-  D3DKMT_HANDLE               hPagingQueue;
-  D3DKMT_HANDLE               hSyncObject;
-  VOID                        *FenceValueCPUVirtualAddress;
-  UINT                        PhysicalAdapterIndex;
-} D3DDDICB_CREATEPAGINGQUEUE;
-````
+<b>D3DDDICB_CREATEPAGINGQUEUE</b> is used with <a href="https://msdn.microsoft.com/99E4CFCF-7A0A-43A9-9E23-B7A9F9375690">pfnCreatePagingQueueCb</a> to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
 
 
 ## -struct-fields
@@ -100,23 +87,22 @@ typedef struct D3DDDICB_CREATEPAGINGQUEUE {
 
 
 
-A device can have multiple paging queues created for it. Paging queues can be destroyed either explicitly by calling <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroypagingqueuecb.md">pfnDestroyPagingQueueCb</a>, or by implicitly destroying the device they belong to. After the latter, paging queue handles will become invalid.
+A device can have multiple paging queues created for it. Paging queues can be destroyed either explicitly by calling <a href="https://msdn.microsoft.com/2C039656-5384-4864-8F29-A336B0ED06C0">pfnDestroyPagingQueueCb</a>, or by implicitly destroying the device they belong to. After the latter, paging queue handles will become invalid.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroypagingqueuecb.md">pfnDestroyPagingQueueCb</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createpagingqueuecb.md">pfnCreatePagingQueueCb</a>
+<a href="https://msdn.microsoft.com/99E4CFCF-7A0A-43A9-9E23-B7A9F9375690">pfnCreatePagingQueueCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/2C039656-5384-4864-8F29-A336B0ED06C0">pfnDestroyPagingQueueCb</a>
  
 
  
-
 

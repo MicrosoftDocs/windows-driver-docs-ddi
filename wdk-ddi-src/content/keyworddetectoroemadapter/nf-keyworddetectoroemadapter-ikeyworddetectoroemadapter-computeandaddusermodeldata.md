@@ -1,14 +1,14 @@
 ---
 UID: NF:keyworddetectoroemadapter.IKeywordDetectorOemAdapter.ComputeAndAddUserModelData
-title: IKeywordDetectorOemAdapter::ComputeAndAddUserModelData method
+title: IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
 author: windows-driver-content
 description: The ComputeAndAddUserModelData method is used by the training user experience to compute the user-specific information relative to the user-independent keyword.
 old-location: audio\ikeyworddetectoroemadapter_computeandaddusermodeldata.htm
 old-project: audio
 ms.assetid: 4E810EAD-3864-44C1-9845-60DAB288BB48
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComputeAndAddUserModelData method [Audio Devices], ComputeAndAddUserModelData method [Audio Devices], IKeywordDetectorOemAdapter interface, ComputeAndAddUserModelData,IKeywordDetectorOemAdapter.ComputeAndAddUserModelData, IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], ComputeAndAddUserModelData method, IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, audio.ikeyworddetectoroemadapter_computeandaddusermodeldata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
+ms.date: 4/16/2018
+ms.keywords: ComputeAndAddUserModelData, ComputeAndAddUserModelData method [Audio Devices], ComputeAndAddUserModelData method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],ComputeAndAddUserModelData method, IKeywordDetectorOemAdapter.ComputeAndAddUserModelData, IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, audio.ikeyworddetectoroemadapter_computeandaddusermodeldata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	KeywordDetectorOemAdapter.h
 api_name:
 -	IKeywordDetectorOemAdapter.ComputeAndAddUserModelData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: KEYWORDID
+req.typenames: 
 ---
 
-# IKeywordDetectorOemAdapter::ComputeAndAddUserModelData method
+# IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
 
 
 ## -description
 
 
 The <b>ComputeAndAddUserModelData</b> method is used by the training user experience to compute the user-specific information relative to the user-independent keyword. The DLL updates the <i>ModelData</i> parameter with the results. 
-
-
-## -syntax
-
-
-````
-HRESULT ComputeAndAddUserModelData(
-  [in] IStream         *ModelData,
-  [in] KEYWORDSELECTOR KeywordSelector,
-  [in] LONG            KeywordEndBytePos,
-  [in] IMFMediaBuffer  **UserRecordings,
-  [in] ULONG           NumUserRecordings = 0
-);
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ A pointer to the <b>IStream</b> object bound to model data. It is modified by th
 
 ### -param KeywordSelector [in]
 
-A <a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a> struct that uniquely identifies this model.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/dn957511">KEYWORDSELECTOR</a> struct that uniquely identifies this model.
 
 
 ### -param KeywordEndBytePos [in]
@@ -159,16 +146,15 @@ The processing was unable to complete.
 
 ## -see-also
 
-<a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a>
 
 
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957504">IKeywordDetectorOemAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957511">KEYWORDSELECTOR</a>
  
 
  
-
 

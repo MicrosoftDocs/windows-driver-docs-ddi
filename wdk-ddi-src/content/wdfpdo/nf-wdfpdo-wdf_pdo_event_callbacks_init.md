@@ -38,10 +38,10 @@ api_location:
 -	wdfpdo.h
 api_name:
 -	WDF_PDO_EVENT_CALLBACKS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_PDO_EVENT_CALLBACKS_INIT function
@@ -52,17 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WDF_PDO_EVENT_CALLBACKS_INIT</b> function initializes a <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_PDO_EVENT_CALLBACKS_INIT(
-  _Out_ PWDF_PDO_EVENT_CALLBACKS Callbacks
-);
-````
+The <b>WDF_PDO_EVENT_CALLBACKS_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552409">WDF_PDO_EVENT_CALLBACKS</a> structure.
 
 
 ## -parameters
@@ -72,7 +62,7 @@ VOID WDF_PDO_EVENT_CALLBACKS_INIT(
 
 ### -param Callbacks [out]
 
-A pointer to the driver's <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a> structure. 
+A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552409">WDF_PDO_EVENT_CALLBACKS</a> structure. 
 
 
 ## -returns
@@ -88,12 +78,12 @@ None
 
 
 
-The <b>WDF_PDO_EVENT_CALLBACKS_INIT</b> function zeros the specified <a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a> structure and sets the structure's <b>Size</b> member.
+The <b>WDF_PDO_EVENT_CALLBACKS_INIT</b> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff552409">WDF_PDO_EVENT_CALLBACKS</a> structure and sets the structure's <b>Size</b> member.
 
 
 #### Examples
 
-For a code example that uses <b>WDF_PDO_EVENT_CALLBACKS_INIT</b>, see <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>.
+For a code example that uses <b>WDF_PDO_EVENT_CALLBACKS_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548805">WdfPdoInitSetEventCallbacks</a>.
 
 <div class="code"></div>
 
@@ -101,16 +91,15 @@ For a code example that uses <b>WDF_PDO_EVENT_CALLBACKS_INIT</b>, see <a href=".
 
 ## -see-also
 
-<a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
 
 
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552409">WDF_PDO_EVENT_CALLBACKS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548805">WdfPdoInitSetEventCallbacks</a>
  
 
  
-
 

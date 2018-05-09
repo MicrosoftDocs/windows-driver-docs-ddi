@@ -7,7 +7,7 @@ old-location: print\pdev_use_true_color.htm
 old-project: print
 ms.assetid: 75ffe04a-4d77-4486-8fc7-35b0b6144b99
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: PDEV_USE_TRUE_COLOR, PDEV_USE_TRUE_COLOR structure [Print Devices], _PDEV_USE_TRUE_COLOR, print.pdev_use_true_color, print_unidrv-pscript_rendering_bac188d1-ddd5-44e6-b2f1-7c617d6c4b6f.xml, printoem/PDEV_USE_TRUE_COLOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	PDEV_USE_TRUE_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PDEV_USE_TRUE_COLOR
-req.product: Windows 10 or later.
 ---
 
 # _PDEV_USE_TRUE_COLOR structure
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The PDEV_USE_TRUE_COLOR structure indicates whether the output color space should be color or grayscale.
-
-
-## -syntax
-
-
-````
-typedef struct _PDEV_USE_TRUE_COLOR {
-  BOOL bUseTrueColor;
-} PDEV_USE_TRUE_COLOR;
-````
 
 
 ## -struct-fields
@@ -88,12 +78,11 @@ A plug-in can use this flag to turn color output on or off for Pscript5 printer 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553189">IPrintOemPS2::GetPDEVAdjustment</a>
-
-
-
  
 
  
-
 

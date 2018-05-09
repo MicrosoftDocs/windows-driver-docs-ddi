@@ -7,7 +7,7 @@ old-location: display\d3dddi_openallocationinfo.htm
 old-project: display
 ms.assetid: cd50602a-c4aa-410b-9ed6-56d7237571cd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_OPENALLOCATIONINFO, D3DDDI_OPENALLOCATIONINFO structure [Display Devices], D3D_other_Structs_cfb185b4-cc7d-4c1a-9e76-6032816feab0.xml, _D3DDDI_OPENALLOCATIONINFO, d3dukmdt/D3DDDI_OPENALLOCATIONINFO, display.d3dddi_openallocationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_OPENALLOCATIONINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_OPENALLOCATIONINFO
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DDDI_OPENALLOCATIONINFO
 
 
 The D3DDDI_OPENALLOCATIONINFO structure describes an allocation to be opened.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_OPENALLOCATIONINFO {
-  D3DKMT_HANDLE hAllocation;
-  const VOID    *pPrivateDriverData;
-  UINT          PrivateDriverDataSize;
-} D3DDDI_OPENALLOCATIONINFO;
-````
 
 
 ## -struct-fields

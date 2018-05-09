@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Eval
-title: IWDTFTargets2::Eval method
+title: IWDTFTargets2::Eval
 author: windows-driver-content
 description: Evaluates whether all items in the collection match an SDEL statement.
 old-location: dtf\iwdtftargets2_eval.htm
 old-project: dtf
 ms.assetid: 028a1fa9-686d-4f56-a49f-a7e90f960018
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: Eval method [Windows Device Testing Framework], Eval method [Windows Device Testing Framework], IWDTFTargets2 interface, Eval,IWDTFTargets2.Eval, IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], Eval method, IWDTFTargets2::Eval, Microsoft.WDTF.IWDTFTargets2.Eval, Microsoft::WDTF::IWDTFTargets2::Eval, dtf.iwdtftargets2_eval, wdtf/IWDTFTargets2::Eval
+ms.date: 4/4/2018
+ms.keywords: Eval, Eval method [Windows Device Testing Framework], Eval method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Eval method, IWDTFTargets2.Eval, IWDTFTargets2::Eval, Microsoft.WDTF.IWDTFTargets2.Eval, Microsoft::WDTF::IWDTFTargets2::Eval, dtf.iwdtftargets2_eval, wdtf/IWDTFTargets2::Eval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFTargets2.Eval
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTargets2::Eval method
+# IWDTFTargets2::Eval
 
 
 ## -description
 
 
 Evaluates whether all items in the collection match an SDEL statement.
-
-
-## -syntax
-
-
-````
-HRESULT Eval(
-  [in]          BSTR         SDEL,
-  [out, retval] VARIANT_BOOL *pResult
-);
-````
 
 
 ## -parameters
@@ -90,12 +79,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439458">IWDTFTargets2</a>
  
 
  
-
 

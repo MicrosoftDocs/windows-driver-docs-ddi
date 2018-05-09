@@ -7,7 +7,7 @@ old-location: netvista\rilrequestgeolocationdata.htm
 old-project: netvista
 ms.assetid: 814e00c5-7248-4853-a61b-e70be86bca0e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrequestgeolocationdata, ntddrilapitypes/RILREQUESTGEOLOCATIONDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILREQUESTGEOLOCATIONDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILREQUESTGEOLOCATIONDATA, *LPRILREQUESTGEOLOCATIONDATA
-req.product: Windows 10 or later.
 ---
 
 # RILREQUESTGEOLOCATIONDATA structure
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILREQUESTGEOLOCATIONDATA {
-  DWORD                          cbSize;
-  DWORD                          dwParams;
-  DWORD                          dwExecutor;
-  RILGEOLOCATIONTYPEMASK         dwLocationInformationMask;
-  RILGEOLOCATIONREQUESTACCURACY  dwLocationRequestAccuracy;
-  RILGEOLOCATIONREQUESTINFO      rrRequestInformation;
-} RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA;
-````
 
 
 ## -struct-fields

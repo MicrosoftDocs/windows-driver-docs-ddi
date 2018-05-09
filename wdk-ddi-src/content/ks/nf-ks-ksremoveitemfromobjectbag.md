@@ -7,7 +7,7 @@ old-location: stream\ksremoveitemfromobjectbag.htm
 old-project: stream
 ms.assetid: 8644b5eb-e038-4cdb-b461-d643ff929736
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsRemoveItemFromObjectBag, KsRemoveItemFromObjectBag function [Streaming Media Devices], avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, ks/KsRemoveItemFromObjectBag, stream.ksremoveitemfromobjectbag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsRemoveItemFromObjectBag
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The<b> KsRemoveItemFromObjectBag </b>function removes an item from an object bag.
-
-
-## -syntax
-
-
-````
-ULONG KsRemoveItemFromObjectBag(
-  _In_ KSOBJECT_BAG ObjectBag,
-  _In_ PVOID        Item,
-  _In_ BOOLEAN      Free
-);
-````
 
 
 ## -parameters
@@ -117,32 +106,31 @@ Note that the mutex associated with the bag must be held. For more  information,
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560941">KsAddItemToObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksmergeautomationtables.md">KsMergeAutomationTables</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560965">KsAllocateObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561031">KsCopyObjectBagItems</a>
 
 
 
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561695">KsDiscard</a>
 
 
 
-<a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562562">KsFreeObjectBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563395">KsMergeAutomationTables</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\kspinacquireprocessingmutex.htm
 old-project: stream
 ms.assetid: ce1fb470-6fee-4de0-a5db-15875a14e581
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinAcquireProcessingMutex, KsPinAcquireProcessingMutex function [Streaming Media Devices], avfunc_d06d3037-45b0-4931-86e4-ef7c586bcdf1.xml, ks/KsPinAcquireProcessingMutex, stream.kspinacquireprocessingmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsPinAcquireProcessingMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsPinAcquireProcessingMutex </b>function acquires the processing mutex for the AVStream pin specified by <i>Pin</i>.
 
 
-## -syntax
-
-
-````
-void KsPinAcquireProcessingMutex(
-  _In_ PKSPIN Pin
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ void KsPinAcquireProcessingMutex(
 
 ### -param Pin [in]
 
-A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which to acquire the processing mutex.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure for which to acquire the processing mutex.
 
 
 ## -returns
@@ -93,24 +84,23 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
 
 
-<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563485">KsPinAcquireControl</a>
 
 
 
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563526">KsPinReleaseControl</a>
 
 
 
-<a href="..\ks\nf-ks-kspinreleaseprocessingmutex.md">KsPinReleaseProcessingMutex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563527">KsPinReleaseProcessingMutex</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566780">KsReleaseControl</a>
  
 
  
-
 

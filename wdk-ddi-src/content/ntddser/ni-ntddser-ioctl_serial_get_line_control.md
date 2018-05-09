@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_get_line_control.htm
 old-project: serports
 ms.assetid: 72585a00-ee43-44fa-a6f4-baa9fe5a2e3f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_GET_LINE_CONTROL, IOCTL_SERIAL_GET_LINE_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_LINE_CONTROL, serports.ioctl_serial_get_line_control, serref_46b42112-a960-44dc-8ce7-3c8d68746fe9.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_GET_LINE_CONTROL, IOCTL_SERIAL_GET_LINE_CONTROL control, IOCTL_SERIAL_GET_LINE_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_LINE_CONTROL, serports.ioctl_serial_get_line_control, serref_46b42112-a960-44dc-8ce7-3c8d68746fe9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_GET_LINE_CONTROL
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_GET_LINE_CONTROL IOCTL
@@ -51,9 +52,9 @@ req.typenames: SD_REQUEST_FUNCTION
 
 The <b>IOCTL_SERIAL_GET_LINE_CONTROL</b> request returns information about the line control set for a serial device. The line control parameters include the number of stop bits, the number of data bits, and the parity.
 
-To configure the line control, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a> request.
+To configure the line control, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546740">IOCTL_SERIAL_SET_LINE_CONTROL</a> request.
 
-For information about valid line control register settings, see <a href="..\ntddser\ns-ntddser-_serial_line_control.md">SERIAL_LINE_CONTROL</a>.
+For information about valid line control register settings, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj680686">SERIAL_LINE_CONTROL</a>.
 
 
 ## -ioctlparameters
@@ -108,16 +109,15 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_line_control.md">IOCTL_SERIAL_SET_LINE_CONTROL</a>
 
 
 
-<a href="..\ntddser\ns-ntddser-_serial_line_control.md">SERIAL_LINE_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546740">IOCTL_SERIAL_SET_LINE_CONTROL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj680686">SERIAL_LINE_CONTROL</a>
  
 
  
-
 

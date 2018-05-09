@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.GetOptions
-title: IPrintCoreUI2::GetOptions method
+title: IPrintCoreUI2::GetOptions
 author: windows-driver-content
 description: The IPrintCoreUI2::GetOptions method retrieves the driver's current feature settings in the format of a list of feature/option keyword pairs.
 old-location: print\iprintcoreui2_getoptions.htm
 old-project: print
 ms.assetid: d83b8520-6f31-403c-ac58-6d6a20cf8750
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetOptions method [Print Devices], GetOptions method [Print Devices], IPrintCoreUI2 interface, GetOptions,IPrintCoreUI2.GetOptions, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetOptions method, IPrintCoreUI2::GetOptions, prcomoem/IPrintCoreUI2::GetOptions, print.iprintcoreui2_getoptions, print_unidrv-pscript_ui_9d2ad553-1fd3-4420-9b30-c73a41c28c8d.xml
+ms.date: 4/20/2018
+ms.keywords: GetOptions, GetOptions method [Print Devices], GetOptions method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetOptions method, IPrintCoreUI2.GetOptions, IPrintCoreUI2::GetOptions, prcomoem/IPrintCoreUI2::GetOptions, print.iprintcoreui2_getoptions, print_unidrv-pscript_ui_9d2ad553-1fd3-4420-9b30-c73a41c28c8d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,35 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreUI2.GetOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreUI2::GetOptions method
+# IPrintCoreUI2::GetOptions
 
 
 ## -description
 
 
 The <code>IPrintCoreUI2::GetOptions</code> method retrieves the driver's current feature settings in the format of a list of feature/option keyword pairs.
-
-
-## -syntax
-
-
-````
-HRESULT GetOptions(
-  [in]  POEMUIOBJ poemuiobj,
-  [in]  DWORD     dwFlags,
-  [in]  PCSTR     pmszFeaturesRequested,
-  [in]  DWORD     cbIn,
-  [out] PSTR      pmszFeatureOptionBuf,
-  [in]  DWORD     cbSize,
-  [out] PDWORD    pcbNeeded
-);
-````
 
 
 ## -parameters
@@ -76,7 +60,7 @@ HRESULT GetOptions(
 
 ### -param poemuiobj [in]
 
-Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
+Pointer to the current context, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure.
 
 
 ### -param dwFlags [in]
@@ -202,7 +186,10 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+
+
+
+<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
 
 
 
@@ -214,16 +201,12 @@ For more information, see <a href="https://msdn.microsoft.com/c8b5c235-0b74-47c8
 
 
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a>
  
 
  
-
 

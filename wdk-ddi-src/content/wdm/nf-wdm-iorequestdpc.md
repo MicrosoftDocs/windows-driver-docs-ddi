@@ -7,7 +7,7 @@ old-location: kernel\iorequestdpc.htm
 old-project: kernel
 ms.assetid: 196555c8-74a6-4dae-ac4d-52654015ffeb
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoRequestDpc, IoRequestDpc routine [Kernel-Mode Driver Architecture], k104_37f449eb-de3d-4932-b845-388c73c55d01.xml, kernel.iorequestdpc, wdm/IoRequestDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	IoRequestDpc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoRequestDpc function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoRequestDpc</b> routine queues a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a> routine to complete interrupt-driven I/O processing at a lower IRQL.
-
-
-## -syntax
-
-
-````
-VOID IoRequestDpc(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ PIRP           Irp,
-  _In_ PVOID          Context
-);
-````
 
 
 ## -parameters
@@ -100,7 +88,7 @@ None
 
 Callers of <b>IoRequestDpc</b> must be running at DIRQL.
 
-Drivers call  <b>IoRequestDpc</b> from an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine. Because of this, <b>IoRequestDpc</b> runs at the DIRQL value that was specified by <i>SynchronizeIrql</i> when the driver called <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>. However, it is also possible to queue a DPC at any IRQL &gt;= DISPATCH_LEVEL by using the <b>Ke<i>Xxx</i>Dpc</b> routines. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565664">Which Type of DPC Should You Use?</a>
+Drivers call  <b>IoRequestDpc</b> from an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine. Because of this, <b>IoRequestDpc</b> runs at the DIRQL value that was specified by <i>SynchronizeIrql</i> when the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a>. However, it is also possible to queue a DPC at any IRQL &gt;= DISPATCH_LEVEL by using the <b>Ke<i>Xxx</i>Dpc</b> routines. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565664">Which Type of DPC Should You Use?</a>
 
 
 
@@ -108,20 +96,19 @@ Drivers call  <b>IoRequestDpc</b> from an <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549307">IoInitializeDpcRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioinitializedpcrequest.md">IoInitializeDpcRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552130">KeInitializeDpc</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552185">KeInsertQueueDpc</a>
  
 
  
-
 

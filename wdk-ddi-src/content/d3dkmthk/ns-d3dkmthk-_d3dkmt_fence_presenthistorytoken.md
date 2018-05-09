@@ -7,7 +7,7 @@ old-location: display\d3dkmt_fence_presenthistorytoken.htm
 old-project: display
 ms.assetid: a27371cf-08d2-4502-b766-3b9c60272080
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_FENCE_PRESENTHISTORYTOKEN, D3DKMT_FENCE_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_eaaa4933-1089-4698-9812-05ff6521f431.xml, _D3DKMT_FENCE_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN, display.d3dkmt_fence_presenthistorytoken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_FENCE_PRESENTHISTORYTOKEN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_FENCE_PRESENTHISTORYTOKEN
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DKMT_FENCE_PRESENTHISTORYTOKEN
 
 
 The D3DKMT_FENCE_PRESENTHISTORYTOKEN structure identifies a fence present-history operation.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_FENCE_PRESENTHISTORYTOKEN {
-  UINT64 Key;
-} D3DKMT_FENCE_PRESENTHISTORYTOKEN;
-````
 
 
 ## -struct-fields
@@ -74,12 +65,11 @@ typedef struct _D3DKMT_FENCE_PRESENTHISTORYTOKEN {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  
-
 

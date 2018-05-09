@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfUsbTargetDeviceGetIoTarget
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfUsbTargetDeviceGetIoTarget function
@@ -58,16 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbTargetDeviceGetIoTarget</b> method returns a handle to the I/O target object that is associated with a specified USB device.
 
 
-## -syntax
-
-
-````
-WDFIOTARGET WdfUsbTargetDeviceGetIoTarget(
-  _In_ WDFUSBDEVICE UsbDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +65,7 @@ WDFIOTARGET WdfUsbTargetDeviceGetIoTarget(
 
 ### -param UsbDevice [in]
 
-A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
+A handle to a USB device object that was obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
 ## -returns
@@ -119,16 +109,15 @@ The following code example creates a request object and verifies that the framew
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetpipegetiotarget.md">WdfUsbTargetPipeGetIoTarget</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551146">WdfUsbTargetPipeGetIoTarget</a>
  
 
  
-
 

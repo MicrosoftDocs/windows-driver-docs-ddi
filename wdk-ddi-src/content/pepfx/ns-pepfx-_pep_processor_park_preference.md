@@ -7,7 +7,7 @@ old-location: kernel\pep_processor_park_preference.htm
 old-project: kernel
 ms.assetid: AADA3F1E-DEE8-42E3-B0B8-9EA276F46F86
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_PARK_PREFERENCE, PPEP_PROCESSOR_PARK_PREFERENCE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_PARK_PREFERENCE, kernel.pep_processor_park_preference, pepfx/PEP_PROCESSOR_PARK_PREFERENCE, pepfx/PPEP_PROCESSOR_PARK_PREFERENCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PROCESSOR_PARK_PREFERENCE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PROCESSOR_PARK_PREFERENCE, *PPEP_PROCESSOR_PARK_PREFERENCE
 ---
@@ -50,18 +51,6 @@ req.typenames: PEP_PROCESSOR_PARK_PREFERENCE, *PPEP_PROCESSOR_PARK_PREFERENCE
 
 
 The <b>PEP_PROCESSOR_PARK_PREFERENCE</b> structure indicates the preferences of the operating system and platform extension plug-in (PEP) regarding whether the specified processor should be parked to reduce power consumption.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PROCESSOR_PARK_PREFERENCE {
-  PEPHANDLE Processor;
-  UCHAR     PoPreference;
-  UCHAR     PepPreference;
-} PEP_PROCESSOR_PARK_PREFERENCE, *PPEP_PROCESSOR_PARK_PREFERENCE;
-````
 
 
 ## -struct-fields
@@ -88,7 +77,7 @@ The PEP's parking preference for this processor. For more information, see Remar
 
 
 
-The <b>Processors</b> member of the <a href="..\pepfx\ns-pepfx-_pep_ppm_park_selection.md">PEP_PPM_PARK_SELECTION</a> structure is a pointer to an array of <b>PEP_PROCESSOR_PARK_PREFERENCE</b> structures.
+The <b>Processors</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186812">PEP_PPM_PARK_SELECTION</a> structure is a pointer to an array of <b>PEP_PROCESSOR_PARK_PREFERENCE</b> structures.
 
 The <b>Processor</b> and <b>PoPreference</b> members of the <b>PEP_PROCESSOR_PARK_PREFERENCE</b> structure contain input values that are supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> when a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a> notification is sent to the PEP. The <b>PepPreference</b> member contains an output value that the PEP writes to the structure in response to this notification.
 
@@ -123,11 +112,6 @@ The following table lists the three values that are defined for the <b>PoPrefere
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_ppm_park_selection.md">PEP_PPM_PARK_SELECTION</a>
 
 
 
@@ -135,8 +119,12 @@ The following table lists the three values that are defined for the <b>PoPrefere
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186812">PEP_PPM_PARK_SELECTION</a>
  
 
  
-
 

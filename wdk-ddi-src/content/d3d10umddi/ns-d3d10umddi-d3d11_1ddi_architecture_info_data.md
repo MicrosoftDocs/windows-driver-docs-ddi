@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_architecture_info_data.htm
 old-project: display
 ms.assetid: 262d511d-2846-415d-b1b8-2687f12f9f78
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_ARCHITECTURE_INFO_DATA, D3D11_1DDI_ARCHITECTURE_INFO_DATA structure [Display Devices], d3d10umddi/D3D11_1DDI_ARCHITECTURE_INFO_DATA, display.d3d11_1ddi_architecture_info_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D11_1DDI_ARCHITECTURE_INFO_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_ARCHITECTURE_INFO_DATA
 ---
@@ -50,16 +51,6 @@ req.typenames: D3D11_1DDI_ARCHITECTURE_INFO_DATA
 
 
 Describes information about display adapter architecture.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_ARCHITECTURE_INFO_DATA {
-  BOOL TileBasedDeferredRenderer;
-} D3D11_1DDI_ARCHITECTURE_INFO_DATA;
-````
 
 
 ## -struct-fields

@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiUSD.RawWriteCommand
-title: IStiUSD::RawWriteCommand method
+title: IStiUSD::RawWriteCommand
 author: windows-driver-content
 description: A still image minidriver's IStiDevice::RawWriteCommand method sends command information to a still image device.
 old-location: image\istiusd_rawwritecommand.htm
 old-project: image
 ms.assetid: c1b03ff5-1924-4221-b177-15214a8bf4f1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], RawWriteCommand method, IStiUSD::RawWriteCommand, RawWriteCommand method [Imaging Devices], RawWriteCommand method [Imaging Devices], IStiUSD interface, RawWriteCommand,IStiUSD.RawWriteCommand, image.istiusd_rawwritecommand, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, stiusd/IStiUSD::RawWriteCommand
+ms.date: 4/23/2018
+ms.keywords: IStiUSD interface [Imaging Devices],RawWriteCommand method, IStiUSD.RawWriteCommand, IStiUSD::RawWriteCommand, RawWriteCommand, RawWriteCommand method [Imaging Devices], RawWriteCommand method [Imaging Devices],IStiUSD interface, image.istiusd_rawwritecommand, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, stiusd/IStiUSD::RawWriteCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiUSD.RawWriteCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiUSD::RawWriteCommand method
+# IStiUSD::RawWriteCommand
 
 
 ## -description
 
 
 A still image minidriver's <b>IStiDevice::RawWriteCommand</b> method sends command information to a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT RawWriteCommand(
-   LPVOID       lpBuffer,
-   DWORD        nNumberOfBytes,
-   LPOVERLAPPED lpOverlapped
-);
-````
 
 
 ## -parameters
@@ -107,16 +95,15 @@ Implementation of this method, along with the meaning of buffer contents, are ve
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543762">IStiDevice::RawWriteCommand</a>
 
 
 
 <a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
-
-
-
  
 
  
-
 

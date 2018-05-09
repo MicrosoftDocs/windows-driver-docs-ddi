@@ -7,7 +7,7 @@ old-location: kernel\excreatecallback.htm
 old-project: kernel
 ms.assetid: a8532a6d-2b7f-4ed6-a2e4-6157d5e842ff
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExCreateCallback, ExCreateCallback routine [Kernel-Mode Driver Architecture], k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml, kernel.excreatecallback, wdm/ExCreateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExCreateCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExCreateCallback function
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 The <b>ExCreateCallback</b> routine either creates a new callback object or opens an existing callback object on behalf of the caller.
 
 
-## -syntax
-
-
-````
-NTSTATUS ExCreateCallback(
-  _Out_ PCALLBACK_OBJECT   *CallbackObject,
-  _In_  POBJECT_ATTRIBUTES ObjectAttributes,
-  _In_  BOOLEAN            Create,
-  _In_  BOOLEAN            AllowMultipleCallbacks
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +60,12 @@ NTSTATUS ExCreateCallback(
 
 ### -param CallbackObject [out]
 
-A pointer to a location that receives a pointer to a callback object, which is an opaque, system structure. If the <b>ExCreateCallback</b> call succeeds, the routine writes the address of the newly created or opened callback object to this location. The callback object pointer obtained from this routine can be supplied as a parameter to the <a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a> or <a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a> routine.
+A pointer to a location that receives a pointer to a callback object, which is an opaque, system structure. If the <b>ExCreateCallback</b> call succeeds, the routine writes the address of the newly created or opened callback object to this location. The callback object pointer obtained from this routine can be supplied as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545534">ExRegisterCallback</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545489">ExNotifyCallback</a> routine.
 
 
 ### -param ObjectAttributes [in]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that contains the callback object's attributes. This structure was previously initialized by the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> routine.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that contains the callback object's attributes. This structure was previously initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> routine.
 
 
 ### -param Create [in]
@@ -104,11 +91,11 @@ Whether a newly created callback object should allow multiple registered callbac
 
 
 
-A driver calls <b>ExCreateCallback</b> to create a new callback object or to open an existing callback object. After the object has been created or opened, other components can call the <a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a> routine to register callback routines with the callback object.
+A driver calls <b>ExCreateCallback</b> to create a new callback object or to open an existing callback object. After the object has been created or opened, other components can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545534">ExRegisterCallback</a> routine to register callback routines with the callback object.
 
-Before calling <b>ExCreateCallback</b>, the driver must call <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> to initialize the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure for the callback object. Unnamed callback objects are not permitted. The caller must specify a name for the object; otherwise, the call fails with STATUS_UNSUCCESSFUL. The caller should specify the OBJ_PERMANENT attribute in the callback object to prevent the object from being deleted before it can be registered with the object manager. The caller should also specify any other attributes, such as OBJ_CASE_INSENSITIVE, that might be needed.
+Before calling <b>ExCreateCallback</b>, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> to initialize the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure for the callback object. Unnamed callback objects are not permitted. The caller must specify a name for the object; otherwise, the call fails with STATUS_UNSUCCESSFUL. The caller should specify the OBJ_PERMANENT attribute in the callback object to prevent the object from being deleted before it can be registered with the object manager. The caller should also specify any other attributes, such as OBJ_CASE_INSENSITIVE, that might be needed.
 
-When all operations have been completed with the callback object, the driver must delete the object to prevent a memory leak. For information about deleting an object  that was created with the OBJ_PERMANENT object attribute, see <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>.
+When all operations have been completed with the callback object, the driver must delete the object to prevent a memory leak. For information about deleting an object  that was created with the OBJ_PERMANENT object attribute, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>.
 
 The following table shows the callback objects that the operating system creates for use by drivers.
 
@@ -147,24 +134,23 @@ For more information about callback objects, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545489">ExNotifyCallback</a>
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545534">ExRegisterCallback</a>
 
 
 
-<a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
  
 
  
-
 

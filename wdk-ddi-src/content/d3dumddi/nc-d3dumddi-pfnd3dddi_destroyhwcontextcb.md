@@ -7,8 +7,8 @@ old-location: display\pfnd3dddi_destroyhwcontextcb.htm
 old-project: display
 ms.assetid: CD3B8EE1-8B54-4F0A-B3C7-3B6F7D968497
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_DESTROYHWCONTEXTCB, PFND3DDDI_DESTROYHWCONTEXTCB callback function [Display Devices], d3dumddi/PFND3DDDI_DESTROYHWCONTEXTCB, display.pfnd3dddi_destroyhwcontextcb
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_DESTROYHWCONTEXTCB, PFND3DDDI_DESTROYHWCONTEXTCB callback, PFND3DDDI_DESTROYHWCONTEXTCB callback function [Display Devices], d3dumddi/PFND3DDDI_DESTROYHWCONTEXTCB, display.pfnd3dddi_destroyhwcontextcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	PFND3DDDI_DESTROYHWCONTEXTCB
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DESTROYHWCONTEXTCB callback
+# PFND3DDDI_DESTROYHWCONTEXTCB callback function
 
 
 ## -description
 
 
 A callback to destroy a hardware context.
-
-
-## -prototype
-
-
-````
-_Check_return_ HRESULT APIENTRY CALLBACK PFND3DDDI_DESTROYHWCONTEXTCB(
-  _In_ HANDLE                           hDevice,
-  _In_ D3DDDICB_DESTROYHWCONTEXT *const destroyHwContext
-);
-````
 
 
 ## -parameters

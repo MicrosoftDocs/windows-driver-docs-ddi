@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterQueue.GetProperties
-title: IPrinterQueue::GetProperties method
+title: IPrinterQueue::GetProperties
 author: windows-driver-content
 description: Gets the properties in the property bag for the queue.
 old-location: print\iprinterqueue_getproperties.htm
 old-project: print
 ms.assetid: 87EED8B5-676C-4056-812B-B0424148FCFA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetProperties method [Print Devices], GetProperties method [Print Devices], IPrinterQueue interface, GetProperties,IPrinterQueue.GetProperties, IPrinterQueue, IPrinterQueue interface [Print Devices], GetProperties method, IPrinterQueue::GetProperties, print.iprinterqueue_getproperties, printerextension/IPrinterQueue::GetProperties
+ms.date: 4/20/2018
+ms.keywords: GetProperties, GetProperties method [Print Devices], GetProperties method [Print Devices],IPrinterQueue interface, IPrinterQueue, IPrinterQueue interface [Print Devices],GetProperties method, IPrinterQueue.GetProperties, IPrinterQueue::GetProperties, print.iprinterqueue_getproperties, printerextension/IPrinterQueue::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterQueue.GetProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterQueue::GetProperties method
+# IPrinterQueue::GetProperties
 
 
 ## -description
 
 
 Gets the properties in the property bag for the queue.
-
-
-## -syntax
-
-
-````
-HRESULT GetProperties(
-  [out, retval] IPrinterPropertyBag **ppPropertyBag
-);
-````
 
 
 ## -parameters
@@ -84,16 +74,15 @@ This method returns and <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439635">IPrinterQueue</a>
  
 
  
-
 

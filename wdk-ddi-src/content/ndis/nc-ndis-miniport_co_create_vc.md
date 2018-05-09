@@ -7,8 +7,8 @@ old-location: netvista\miniportcocreatevc.htm
 old-project: netvista
 ms.assetid: 99eaba29-ce17-4e79-878e-5fdf7411e56c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: MINIPORT_CO_CREATE_VC, MiniportCoCreateVc, MiniportCoCreateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_73192f8d-af71-40f8-8118-52124bc38e94.xml, ndis/MiniportCoCreateVc, netvista.miniportcocreatevc
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_CO_CREATE_VC, MINIPORT_CO_CREATE_VC callback, MiniportCoCreateVc, MiniportCoCreateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_73192f8d-af71-40f8-8118-52124bc38e94.xml, ndis/MiniportCoCreateVc, netvista.miniportcocreatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportCoCreateVc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_CO_CREATE_VC callback
+# MINIPORT_CO_CREATE_VC callback function
 
 
 ## -description
@@ -56,21 +57,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_CO_CREATE_VC</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_CO_CREATE_VC MiniportCoCreateVc;
-
-NDIS_STATUS MiniportCoCreateVc(
-  _In_  NDIS_HANDLE  MiniportAdapterContext,
-  _In_  NDIS_HANDLE  NdisVcHandle,
-  _Out_ PNDIS_HANDLE MiniportVcContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -81,9 +67,9 @@ NDIS_STATUS MiniportCoCreateVc(
 Specifies the handle to a miniport driver-allocated context area in which the miniport driver
      maintains state information about this instance of the adapter. The miniport driver provided this handle
      to NDIS by calling 
-     <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+     <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
      NdisMSetMiniportAttributes</a> from its 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
 
 
@@ -212,16 +198,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
  
 
  
-
 

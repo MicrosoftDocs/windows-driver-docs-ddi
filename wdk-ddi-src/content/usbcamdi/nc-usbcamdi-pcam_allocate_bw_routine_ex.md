@@ -7,7 +7,7 @@ old-location: stream\camallocatebandwidthex.htm
 old-project: stream
 ms.assetid: 00d8385e-e339-4e63-a79a-f5fa87d8987d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: CamAllocateBandwidthEx, CamAllocateBandwidthEx routine [Streaming Media Devices], PCAM_ALLOCATE_BW_ROUTINE_EX, stream.camallocatebandwidthex, usbcamdi/CamAllocateBandwidthEx, usbcmdpr_dd4a1139-55b9-4342-9eeb-69e902497fa2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,36 +38,19 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamAllocateBandwidthEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_ALLOCATE_BW_ROUTINE_EX callback
+# PCAM_ALLOCATE_BW_ROUTINE_EX callback function
 
 
 ## -description
 
 
 A camera minidriver's <b>CamAllocateBandwidthEx</b> callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
-
-
-## -prototype
-
-
-````
-PCAM_ALLOCATE_BW_ROUTINE_EX CamAllocateBandwidthEx;
-
-NTSTATUS CamAllocateBandwidthEx(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext,
-   PULONG         RawFrameLength,
-   PVOID          Format,
-   ULONG          StreamNumber
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -92,7 +75,7 @@ Specifies the size, in bytes, of the raw frame data from the packet stream.
 
 ### -param Format
 
-Pointer to a <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a> structure associated with this stream.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567331">KS_DATAFORMAT_VIDEOINFOHEADER</a> structure associated with this stream.
 
 
 ### -param StreamNumber
@@ -126,20 +109,19 @@ This function is required.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader.md">KS_DATAFORMAT_VIDEOINFOHEADER</a>
 
 
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_selectalternateinterface.md">USBCAMD_SelectAlternateInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567331">KS_DATAFORMAT_VIDEOINFOHEADER</a>
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568590">USBCAMD_DEVICE_DATA2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568625">USBCAMD_SelectAlternateInterface</a>
  
 
  
-
 

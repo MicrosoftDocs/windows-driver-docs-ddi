@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.GetInformation
-title: IWDFUsbTargetPipe::GetInformation method
+title: IWDFUsbTargetPipe::GetInformation
 author: windows-driver-content
 description: The GetInformation method retrieves information about a USB pipe (endpoint).
 old-location: wdf\iwdfusbtargetpipe_getinformation.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b1462a64-debf-441f-8964-4644074e5e53
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetInformation method, GetInformation method, IWDFUsbTargetPipe interface, GetInformation,IWDFUsbTargetPipe.GetInformation, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, GetInformation method, IWDFUsbTargetPipe::GetInformation, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, umdf.iwdfusbtargetpipe_getinformation, wdf.iwdfusbtargetpipe_getinformation, wudfusb/IWDFUsbTargetPipe::GetInformation
+ms.keywords: GetInformation, GetInformation method, GetInformation method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,GetInformation method, IWDFUsbTargetPipe.GetInformation, IWDFUsbTargetPipe::GetInformation, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, umdf.iwdfusbtargetpipe_getinformation, wdf.iwdfusbtargetpipe_getinformation, wudfusb/IWDFUsbTargetPipe::GetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetPipe.GetInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::GetInformation method
+# IWDFUsbTargetPipe::GetInformation
 
 
 ## -description
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetInformation</b> method retrieves information about a USB pipe (endpoint).
-
-
-## -syntax
-
-
-````
-void GetInformation(
-  [out] PWINUSB_PIPE_INFORMATION pInfo
-);
-````
 
 
 ## -parameters
@@ -95,7 +85,6 @@ After a UMDF driver calls the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 
@@ -103,8 +92,8 @@ After a UMDF driver calls the <a href="https://msdn.microsoft.com/library/window
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
  
 
  
-
 

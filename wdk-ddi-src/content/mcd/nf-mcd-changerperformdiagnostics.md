@@ -7,7 +7,7 @@ old-location: storage\changerperformdiagnostics.htm
 old-project: storage
 ms.assetid: 87767b2b-8ca3-4d19-8719-673562246a41
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ChangerPerformDiagnostics, ChangerPerformDiagnostics function [Storage Devices], chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, mcd/ChangerPerformDiagnostics, storage.changerperformdiagnostics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	mcd.h
 api_name:
 -	ChangerPerformDiagnostics
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # ChangerPerformDiagnostics function
@@ -50,17 +51,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 
 
 <b>ChangerPerformDiagnostics</b> performs diagnostic tests on the changer device.
-
-
-## -syntax
-
-
-````
-NTSTATUS ChangerPerformDiagnostics(
-  _In_  PDEVICE_OBJECT                    DeviceObject,
-  _Out_ PWMI_CHANGER_PROBLEM_DEVICE_ERROR ChangerDeviceError
-);
-````
 
 
 ## -parameters
@@ -82,7 +72,7 @@ TBD
 
 #### - ChangerDeviceError [out]
 
-Pointer to the buffer of type <a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a> in which the minidriver returns the diagnostic information.
+Pointer to the buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568029">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a> in which the minidriver returns the diagnostic information.
 
 
 ## -returns
@@ -112,16 +102,15 @@ STATUS_BUFFER_TOO_SMALL
 
 ## -see-also
 
-<a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
 
 
 
-<a href="..\ntddchgr\ne-ntddchgr-_changer_device_problem_type.md">CHANGER_DEVICE_PROBLEM_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551453">CHANGER_DEVICE_PROBLEM_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568029">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
  
 
  
-
 

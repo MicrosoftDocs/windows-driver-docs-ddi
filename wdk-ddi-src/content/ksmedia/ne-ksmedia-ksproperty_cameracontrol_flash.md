@@ -7,7 +7,7 @@ old-location: stream\ksproperty_cameracontrol_flash.htm
 old-project: stream
 ms.assetid: 7d5de6db-70a1-4d4a-b563-4a281cd0d68d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSPROPERTY_CAMERACONTROL_FLASH, KSPROPERTY_CAMERACONTROL_FLASH enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, stream.ksproperty_cameracontrol_flash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_FLASH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_FLASH
 ---
@@ -50,16 +51,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_FLASH
 
 
 Used to specify camera flash control.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID  = 0
-} KSPROPERTY_CAMERACONTROL_FLASH;
-````
 
 
 ## -enum-fields
@@ -74,12 +65,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPRO
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
-
-
-
  
 
  
-
 

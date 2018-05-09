@@ -7,8 +7,8 @@ old-location: ifsk\pdriver_fs_notification.htm
 old-project: ifsk
 ms.assetid: 571aaa9b-8620-46ff-af29-19b00804e0ad
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
-ms.keywords: DRIVER_FS_NOTIFICATION, DriverNotificationRoutine, DriverNotificationRoutine routine [Installable File System Drivers], FilterCallbacks_5b421108-0db7-47ba-afba-3a8b79a61d66.xml, ifsk.pdriver_fs_notification, ntifs/DriverNotificationRoutine
+ms.date: 4/16/2018
+ms.keywords: DRIVER_FS_NOTIFICATION, DriverNotificationRoutine, DriverNotificationRoutine routine [Installable File System Drivers], FilterCallbacks_5b421108-0db7-47ba-afba-3a8b79a61d66.xml, PDRIVER_FS_NOTIFICATION, ifsk.pdriver_fs_notification, ntifs/DriverNotificationRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	Ntifs.h
 api_name:
 -	PDRIVER_FS_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
+req.typenames: 
 ---
 
-# DRIVER_FS_NOTIFICATION callback
+# DRIVER_FS_NOTIFICATION callback function
 
 
 ## -description
 
 
-A PDRIVER_FS_NOTIFICATION-typed routine is called by the operating system when a file system registers or unregisters itself by using <a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a> or <a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>.
-
-
-## -prototype
-
-
-````
-DRIVER_FS_NOTIFICATION DriverNotificationRoutine;
-
-VOID  DriverNotificationRoutine(
-  _In_ struct _DEVICE_OBJECT *DeviceObject,
-  _In_ BOOLEAN               FsActive
-)
-{ ... }
-````
+A PDRIVER_FS_NOTIFICATION-typed routine is called by the operating system when a file system registers or unregisters itself by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff548494">IoRegisterFileSystem</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548552">IoUnregisterFileSystem</a>.
 
 
 ## -parameters
@@ -151,24 +138,23 @@ typedef DRIVER_FS_NOTIFICATION *PDRIVER_FS_NOTIFICATION;</pre>
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548499">IoRegisterFsRegistrationChange</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchange.md">IoRegisterFsRegistrationChange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548508">IoRegisterFsRegistrationChangeEx</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangemountaware.md">IoRegisterFsRegistrationChangeMountAware</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548514">IoRegisterFsRegistrationChangeMountAware</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548557">IoUnregisterFsRegistrationChange</a>
  
 
  
-
 

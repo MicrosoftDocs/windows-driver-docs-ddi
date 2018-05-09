@@ -7,7 +7,7 @@ old-location: print\monitorex.htm
 old-project: print
 ms.assetid: f03f72a8-8dc1-4e27-b89b-1afea16a177a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*LPMONITOREX, LPMONITOREX, LPMONITOREX structure pointer [Print Devices], MONITOREX, MONITOREX structure [Print Devices], _MONITOREX, print.monitorex, spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, winsplp/LPMONITOREX, winsplp/MONITOREX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winsplp.h
 api_name:
 -	MONITOREX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MONITOREX, *LPMONITOREX
-req.product: Windows 10 or later.
 ---
 
 # _MONITOREX structure
@@ -50,20 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The MONITOREX structure is obsolete and supported for compatibility purposes only. New print monitors should implement <a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a> and <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> so that they can be used with print server clusters.
+The MONITOREX structure is obsolete and supported for compatibility purposes only. New print monitors should implement <a href="https://msdn.microsoft.com/library/windows/hardware/ff551605">InitializePrintMonitor2</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff557532">MONITOR2</a> so that they can be used with print server clusters.
 
-The MONITOREX structure is used as the return value for a print monitor's <a href="..\winsplp\nf-winsplp-initializeprintmonitor.md">InitializePrintMonitor</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _MONITOREX {
-  DWORD   dwMonitorSize;
-  MONITOR Monitor;
-} MONITOREX, *LPMONITOREX;
-````
+The MONITOREX structure is used as the return value for a print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551600">InitializePrintMonitor</a> function.
 
 
 ## -struct-fields
@@ -78,7 +67,7 @@ Specifies the size, in bytes, of the Monitor <b>member</b>.
 
 ### -field Monitor
 
-Is a <a href="..\winsplp\ns-winsplp-_monitor.md">MONITOR</a> structure.
+Is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542552">MONITOR</a> structure.
 
 
 ## -remarks
@@ -92,12 +81,11 @@ Print monitors are responsible for filling in the MONITOREX and MONITOR structur
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-_monitor.md">MONITOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542552">MONITOR</a>
  
 
  
-
 

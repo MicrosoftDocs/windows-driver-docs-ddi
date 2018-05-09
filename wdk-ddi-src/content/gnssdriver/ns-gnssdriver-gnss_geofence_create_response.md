@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_GEOFENCE_CREATE_RESPONSE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_GEOFENCE_CREATE_RESPONSE, *PGNSS_GEOFENCE_CREATE_RESPONSE
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_GEOFENCE_CREATE_RESPONSE, *PGNSS_GEOFENCE_CREATE_RESPONSE
 
 
 This structure defines the response expected from the GNSS engine when a new geofence is created.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG    Size;
-  ULONG    Version;
-  NTSTATUS CreationStatus;
-  ULONG    GeofenceID;
-  BYTE     Unused[512];
-} GNSS_GEOFENCE_CREATE_RESPONSE, *PGNSS_GEOFENCE_CREATE_RESPONSE;
-````
 
 
 ## -struct-fields

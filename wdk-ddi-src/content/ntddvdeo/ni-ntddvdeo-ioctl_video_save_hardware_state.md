@@ -7,8 +7,8 @@ old-location: display\ioctl_video_save_hardware_state.htm
 old-project: display
 ms.assetid: 24d786df-2cdd-465c-b468-212e109d5ae1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_VIDEO_SAVE_HARDWARE_STATE, IOCTL_VIDEO_SAVE_HARDWARE_STATE control code [Display Devices], Video_IOCTLs_2595d8e2-5b1e-47dd-b3ba-627425f84215.xml, display.ioctl_video_save_hardware_state, ntddvdeo/IOCTL_VIDEO_SAVE_HARDWARE_STATE
+ms.date: 4/16/2018
+ms.keywords: IOCTL_VIDEO_SAVE_HARDWARE_STATE, IOCTL_VIDEO_SAVE_HARDWARE_STATE control, IOCTL_VIDEO_SAVE_HARDWARE_STATE control code [Display Devices], Video_IOCTLs_2595d8e2-5b1e-47dd-b3ba-627425f84215.xml, display.ioctl_video_save_hardware_state, ntddvdeo/IOCTL_VIDEO_SAVE_HARDWARE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_SAVE_HARDWARE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: 
 ---
 
 # IOCTL_VIDEO_SAVE_HARDWARE_STATE IOCTL
@@ -108,17 +109,16 @@ The miniport driver returns a VIDEO_HARDWARE_STATE structure in the VRP <b>Outpu
 
 ### -status-block
 
-If the miniport driver successfully saves the adapter state, it sets the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_HARDWARE_STATE); otherwise, the miniport driver sets this member to zero.
+If the miniport driver successfully saves the adapter state, it sets the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_HARDWARE_STATE); otherwise, the miniport driver sets this member to zero.
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
  
 
  
-
 

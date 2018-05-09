@@ -7,7 +7,7 @@ old-location: ifsk\mmgetmaximumfilesectionsize.htm
 old-project: ifsk
 ms.assetid: 5B3E5B33-EFED-485A-A62A-7A54322408AC
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize routine [Installable File System Drivers], ifsk.mmgetmaximumfilesectionsize, ntifs/MmGetMaximumFileSectionSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	MmGetMaximumFileSectionSize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # MmGetMaximumFileSectionSize function
@@ -50,14 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>MmGetMaximumFileSectionSize</b> returns the maximum possible size of a file section for the current version of Windows.
-
-
-## -syntax
-
-
-````
-ULONGLONG MmGetMaximumFileSectionSize(void);
-````
 
 
 ## -parameters

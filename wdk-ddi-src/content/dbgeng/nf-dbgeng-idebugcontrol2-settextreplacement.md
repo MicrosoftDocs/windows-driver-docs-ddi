@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetTextReplacement
-title: IDebugControl2::SetTextReplacement method
+title: IDebugControl2::SetTextReplacement
 author: windows-driver-content
 description: The SetTextReplacement method sets the value of a user-named alias.
 old-location: debugger\settextreplacement.htm
 old-project: debugger
 ms.assetid: 00c82e73-5649-403b-9f07-81bdd2f6c756
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl2, IDebugControl2 interface [Windows Debugging], SetTextReplacement method, IDebugControl2::SetTextReplacement, IDebugControl3 interface [Windows Debugging], SetTextReplacement method, IDebugControl3::SetTextReplacement, IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, SetTextReplacement method [Windows Debugging], SetTextReplacement method [Windows Debugging], IDebugControl2 interface, SetTextReplacement method [Windows Debugging], IDebugControl3 interface, SetTextReplacement,IDebugControl2.SetTextReplacement, dbgeng/IDebugControl2::SetTextReplacement, dbgeng/IDebugControl3::SetTextReplacement, debugger.settextreplacement
+ms.date: 4/24/2018
+ms.keywords: IDebugControl2 interface [Windows Debugging],SetTextReplacement method, IDebugControl2.SetTextReplacement, IDebugControl2::SetTextReplacement, IDebugControl3 interface [Windows Debugging],SetTextReplacement method, IDebugControl3::SetTextReplacement, IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, SetTextReplacement, SetTextReplacement method [Windows Debugging], SetTextReplacement method [Windows Debugging],IDebugControl2 interface, SetTextReplacement method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetTextReplacement, dbgeng/IDebugControl3::SetTextReplacement, debugger.settextreplacement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,29 +39,19 @@ api_location:
 api_name:
 -	IDebugControl2.SetTextReplacement
 -	IDebugControl3.SetTextReplacement
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::SetTextReplacement method
+# IDebugControl2::SetTextReplacement
 
 
 ## -description
 
 
 The <b>SetTextReplacement</b>  method sets the value of a user-named alias.  
-
-
-## -syntax
-
-
-````
-HRESULT SetTextReplacement(
-  [in]           PCSTR SrcText,
-  [in, optional] PCSTR DstText
-);
-````
 
 
 ## -parameters
@@ -124,27 +114,6 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
-
-
-
-<a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -152,12 +121,32 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
+
+
+
+<a href="https://msdn.microsoft.com/6e42122b-5a18-403b-a19a-1346bea8da12">as, aS (Set Alias)</a>
  
 
  
-
 

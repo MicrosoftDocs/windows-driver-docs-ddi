@@ -7,7 +7,7 @@ old-location: kernel\kepulseevent.htm
 old-project: kernel
 ms.assetid: 57505700-9775-4dac-a106-951da0744631
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KePulseEvent, KePulseEvent routine [Kernel-Mode Driver Architecture], k105_86079f76-4593-4ef2-ab1b-6f4c3ba17142.xml, kernel.kepulseevent, ntddk/KePulseEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KePulseEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # KePulseEvent function
@@ -50,18 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>KePulseEvent</b> routine atomically sets an event object to a signaled state, attempts to satisfy as many waits as possible, and then resets the event object to a not-signaled state. 
-
-
-## -syntax
-
-
-````
-LONG KePulseEvent(
-  _Inout_ PRKEVENT  Event,
-  _In_    KPRIORITY Increment,
-  _In_    BOOLEAN   Wait
-);
-````
 
 
 ## -parameters
@@ -81,7 +70,7 @@ Specifies the priority increment that is to be applied if setting the event caus
 
 ### -param Wait [in]
 
-Specifies a Boolean value that signifies whether the call to <b>KePulseEvent</b> will be immediately followed by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KePulseEvent</b> call is immediately followed by a call to <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>. For more information, see the following Remarks section.
+Specifies a Boolean value that signifies whether the call to <b>KePulseEvent</b> will be immediately followed by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KePulseEvent</b> call is immediately followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -115,23 +104,26 @@ If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552137">KeInitializeEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553089">KeReadStateEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553176">KeResetEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553253">KeSetEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>
 
 
 
@@ -139,12 +131,8 @@ If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread co
 
 
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
  
 
  
-
 

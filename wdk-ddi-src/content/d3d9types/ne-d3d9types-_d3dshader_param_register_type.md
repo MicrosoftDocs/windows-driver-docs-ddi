@@ -7,7 +7,7 @@ old-location: display\shader_register_types.htm
 old-project: display
 ms.assetid: e1763ae1-5583-43fe-a342-3b9b5a92ef3f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DSHADER_PARAM_REGISTER_TYPE, D3DSHADER_PARAM_REGISTER_TYPE enumeration [Display Devices], D3DSPR_ADDR, D3DSPR_ATTROUT, D3DSPR_COLOROUT, D3DSPR_CONST, D3DSPR_CONST2, D3DSPR_CONST3, D3DSPR_CONST4, D3DSPR_CONSTBOOL, D3DSPR_CONSTINT, D3DSPR_DEPTHOUT, D3DSPR_FORCE_DWORD, D3DSPR_INPUT, D3DSPR_LABEL, D3DSPR_LOOP, D3DSPR_MISCTYPE, D3DSPR_OUTPUT, D3DSPR_PREDICATE, D3DSPR_RASTOUT, D3DSPR_SAMPLER, D3DSPR_TEMP, D3DSPR_TEMPFLOAT16, D3DSPR_TEXCRDOUT, D3DSPR_TEXTURE, UserModeDisplayDriver_Shader_1968e381-80d3-44f2-a02d-7625ba93f95a.xml, _D3DSHADER_PARAM_REGISTER_TYPE, d3d9types/ D3DSPR_CONST, d3d9types/D3DSHADER_PARAM_REGISTER_TYPE, d3d9types/D3DSPR_ADDR, d3d9types/D3DSPR_ATTROUT, d3d9types/D3DSPR_COLOROUT, d3d9types/D3DSPR_CONST2, d3d9types/D3DSPR_CONST3, d3d9types/D3DSPR_CONST4, d3d9types/D3DSPR_CONSTBOOL, d3d9types/D3DSPR_CONSTINT, d3d9types/D3DSPR_DEPTHOUT, d3d9types/D3DSPR_FORCE_DWORD, d3d9types/D3DSPR_INPUT, d3d9types/D3DSPR_LABEL, d3d9types/D3DSPR_LOOP, d3d9types/D3DSPR_MISCTYPE, d3d9types/D3DSPR_OUTPUT, d3d9types/D3DSPR_PREDICATE, d3d9types/D3DSPR_RASTOUT, d3d9types/D3DSPR_SAMPLER, d3d9types/D3DSPR_TEMP, d3d9types/D3DSPR_TEMPFLOAT16, d3d9types/D3DSPR_TEXCRDOUT, d3d9types/D3DSPR_TEXTURE, display.shader_register_types
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d9types.h
 api_name:
 -	D3DSHADER_PARAM_REGISTER_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DSHADER_PARAM_REGISTER_TYPE
 ---
@@ -50,38 +51,6 @@ req.typenames: D3DSHADER_PARAM_REGISTER_TYPE
 
 
 Pixel and vertex shader operations specify register types in bits 28, 29, 30, 11, and 12 of destination and source parameter tokens. The following register types can be specified:
-
-
-## -syntax
-
-
-````
-typedef enum _D3DSHADER_PARAM_REGISTER_TYPE { 
-  D3DSPR_TEMP         = 0,
-  D3DSPR_INPUT        = 1,
-   D3DSPR_CONST       = 2,
-  D3DSPR_ADDR         = 3,
-  D3DSPR_TEXTURE      = 3,
-  D3DSPR_RASTOUT      = 4,
-  D3DSPR_ATTROUT      = 5,
-  D3DSPR_TEXCRDOUT    = 6,
-  D3DSPR_OUTPUT       = 6,
-  D3DSPR_CONSTINT     = 7,
-  D3DSPR_COLOROUT     = 8,
-  D3DSPR_DEPTHOUT     = 9,
-  D3DSPR_SAMPLER      = 10,
-  D3DSPR_CONST2       = 11,
-  D3DSPR_CONST3       = 12,
-  D3DSPR_CONST4       = 13,
-  D3DSPR_CONSTBOOL    = 14,
-  D3DSPR_LOOP         = 15,
-  D3DSPR_TEMPFLOAT16  = 16,
-  D3DSPR_MISCTYPE     = 17,
-  D3DSPR_LABEL        = 18,
-  D3DSPR_PREDICATE    = 19,
-  D3DSPR_FORCE_DWORD  = 0x7fffffff
-} D3DSHADER_PARAM_REGISTER_TYPE;
-````
 
 
 ## -enum-fields

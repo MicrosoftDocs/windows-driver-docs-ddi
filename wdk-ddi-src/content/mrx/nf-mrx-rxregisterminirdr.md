@@ -7,7 +7,7 @@ old-location: ifsk\rxregisterminirdr.htm
 old-project: ifsk
 ms.assetid: f9c2fedd-b513-4ea9-b915-cdcc05b88d6f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RxRegisterMinirdr, RxRegisterMinirdr function [Installable File System Drivers], ifsk.rxregisterminirdr, mrx/RxRegisterMinirdr, rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	mrx.h
 api_name:
 -	RxRegisterMinirdr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
 # RxRegisterMinirdr function
@@ -50,23 +51,6 @@ req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
 
 
 <b>RxRegisterMinirdr</b> is called by a network mini-redirector driver to register the driver with RDBSS, which adds the registration information to an internal registration table. RDBSS also builds a device object for the network mini-redirector. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RxRegisterMinirdr(
-  _Out_   PRDBSS_DEVICE_OBJECT *DeviceObject,
-  _Inout_ PDRIVER_OBJECT       DriverObject,
-  _In_    PMINIRDR_DISPATCH    MrdrDispatch,
-  _In_    ULONG                Controls,
-  _In_    PUNICODE_STRING      DeviceName,
-  _In_    ULONG                DeviceExtensionSize,
-  _In_    DEVICE_TYPE          DeviceType,
-  _In_    ULONG                DeviceCharacteristics
-);
-````
 
 
 ## -parameters
@@ -81,7 +65,7 @@ A pointer to where the created device object will be stored.
 
 ### -param DriverObject [in, out]
 
-A pointer to the driver object of the network mini-redirector driver. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. This driver object will be used to create the device object for the network mini-redirector driver. 
+A pointer to the driver object of the network mini-redirector driver. Each driver receives a pointer to its driver object in a parameter to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. This driver object will be used to create the device object for the network mini-redirector driver. 
 
 
 ### -param MrdrDispatch [in]
@@ -127,7 +111,7 @@ A pointer to a buffer that contains a zero-terminated Unicode string that names 
 
 ### -param DeviceExtensionSize [in]
 
-The size specified by the mini-redirector driver for the number of bytes to be allocated for the device extension of the device object. The internal structure of the device extension is driver-defined. This parameter is added to the size of the device extension used by RDBSS and passed as the <i>DeviceExtensionSize</i> parameter to the <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> routine by RDBSS.
+The size specified by the mini-redirector driver for the number of bytes to be allocated for the device extension of the device object. The internal structure of the device extension is driver-defined. This parameter is added to the size of the device extension used by RDBSS and passed as the <i>DeviceExtensionSize</i> parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> routine by RDBSS.
 
 
 ### -param DeviceType [in]
@@ -218,7 +202,7 @@ The call to create the device object returned a <b>NULL</b> device object.
 
 A network mini-redirector registers with RDBSS whenever the driver is loaded by the kernel and unregisters with RDBSS when the driver is unloaded. A non-monolithic driver (the SMB network mini-redirector) communicates with the <i>Rdbss.sys</i>, another kernel driver. For a monolithic network mini-redirector driver that statically links with <i>Rdbsslib.lib</i>, this communication is merely a call to an <i>Rdbsslib.lib</i> library routine.
 
-A network mini-redirector informs RDBSS that it has been loaded by calling <b>RxRegisterMinirdr</b>, the registration routine exported from RDBSS. When a network mini-redirector driver first starts (in its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine), the driver calls the RDBSS <b>RxRegisterMinirdr</b> routine to register the network mini-redirector driver with RDBSS. Based on the parameters passed to <b>RxRegisterMinirdr</b>, RDBSS calls <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a> to create the device object for the network mini-redirector driver. 
+A network mini-redirector informs RDBSS that it has been loaded by calling <b>RxRegisterMinirdr</b>, the registration routine exported from RDBSS. When a network mini-redirector driver first starts (in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine), the driver calls the RDBSS <b>RxRegisterMinirdr</b> routine to register the network mini-redirector driver with RDBSS. Based on the parameters passed to <b>RxRegisterMinirdr</b>, RDBSS calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> to create the device object for the network mini-redirector driver. 
 
 As part of this registration process, the network mini-redirector passes a parameter to <b>RxRegisterMinirdr</b> that is a pointer to a large structure, MINIRDR_DISPATCH, which contains configuration information for the network mini-redirector and a dispatch table of pointers to callback routines implemented by the network mini-redirector driver. This configuration data is used to configure internal RDBSS tables for use with this network mini-redirector. RDBSS uses the callback routines passed in this structure to communicate with the network mini-redirector. A network mini-redirector can chose to implement only some of these callback routines. Any callback routine that is not implemented should be set to a <b>NULL</b> pointer in the dispatch table passed to RDBSS. Only callback routines implemented by the network mini-redirector will be called by RDBSS. 
 
@@ -270,7 +254,7 @@ The <b>pRdbssScavenger</b> member structure is initialized.
 </ul>
 If the <b>RxRegisterMinirdr</b> call is successful, RDBSS sets the internal state of the network mini-redirector in RDBSS to RDBSS_STARTABLE.
 
-The network mini-redirector does not actually start operation until it receives a call to its <a href="..\mrx\nc-mrx-pmrx_calldown_ctx.md">MRxStart</a> routine, one of the callback routines passed in the MINIRDR_DISPATCH structure. The <b>MrxStart</b> callback routine must be implemented by the network mini-redirector driver if it wishes to receive callbacks for operations, unless the network mini-redirector preserves its own driver dispatch entry points. Otherwise, RDBSS will only allow the following I/O request packets through to the driver until <b>MrxStart</b> returns successfully:
+The network mini-redirector does not actually start operation until it receives a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a> routine, one of the callback routines passed in the MINIRDR_DISPATCH structure. The <b>MrxStart</b> callback routine must be implemented by the network mini-redirector driver if it wishes to receive callbacks for operations, unless the network mini-redirector preserves its own driver dispatch entry points. Otherwise, RDBSS will only allow the following I/O request packets through to the driver until <b>MrxStart</b> returns successfully:
 
 <ul>
 <li>
@@ -278,7 +262,7 @@ IRP requests for device create operations and device operations where the <i>Fil
 
 </li>
 </ul>
-For any other IRP request, the RDBSS dispatch routine, <a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>, will return a status of STATUS_REDIRECTOR_NOT_STARTED. 
+For any other IRP request, the RDBSS dispatch routine, <a href="https://msdn.microsoft.com/library/windows/hardware/ff554468">RxFsdDispatch</a>, will return a status of STATUS_REDIRECTOR_NOT_STARTED. 
 
 The RDBSS dispatch routine will also fail any requests for the following I/O request packets:
 
@@ -299,48 +283,47 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_calldown_ctx.md">MRxStart</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554468">RxFsdDispatch</a>
 
 
 
-<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554718">RxSetDomainForMailslotBroadcast</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554736">RxStartMinirdr</a>
 
 
 
-<a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554743">RxStopMinirdr</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554744">RxUnregisterMinirdr</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554662">RxpUnregisterMinirdr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557374">__RxFillAndInstallFastIoDispatch</a>
  
 
  
-
 

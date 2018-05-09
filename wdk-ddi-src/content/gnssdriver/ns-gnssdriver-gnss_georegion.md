@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_GEOREGION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_GEOREGION, *PGNSS_GEOREGION
 ---
@@ -50,22 +51,6 @@ req.typenames: GNSS_GEOREGION, *PGNSS_GEOREGION
 
 
 This structure defines the geographical shape of  a geofence.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG              Size;
-  ULONG              Version;
-  GNSS_GEOREGIONTYPE GeoRegionType;
-  union {
-    GNSS_GEOREGION_CIRCLE Circle;
-    BYTE                  Unused[512];
-  };
-} GNSS_GEOREGION, *PGNSS_GEOREGION;
-````
 
 
 ## -struct-fields
@@ -86,13 +71,20 @@ Version number.
 ### -field GeoRegionType
 
 
-<a href="..\gnssdriver\ne-gnssdriver-gnss_georegiontype.md">GNSS_GEOREGIONTYP</a>E enumeration that defines the georegion type of a geofence.
+<a href="https://msdn.microsoft.com/736A1D63-A96E-4E29-ADFD-F441AC4757C6">GNSS_GEOREGIONTYP</a>E enumeration that defines the georegion type of a geofence.
 
 
-#### - Circle
+### -field Circle
 
 
-<a href="..\gnssdriver\ns-gnssdriver-gnss_georegion_circle.md">GNSS_GEOREGION_CIRCLE</a> structure that defines a circular geofence.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925179">GNSS_GEOREGION_CIRCLE</a> structure that defines a circular geofence.
+
+
+### -field Unused
+
+ 
+
+
 
 
 #### - Unused[512]

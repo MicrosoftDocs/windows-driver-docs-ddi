@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetLfxState
-title: IMiniportStreamAudioEngineNode::GetLfxState method
+title: IMiniportStreamAudioEngineNode::GetLfxState
 author: windows-driver-content
 description: Gets the state of the local effects (LFX) node that is in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_getlfxstate.htm
 old-project: audio
 ms.assetid: 2810D8B3-DDB7-4B55-839B-B2D079BDC0FC
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetLfxState method [Audio Devices], GetLfxState method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetLfxState,IMiniportStreamAudioEngineNode.GetLfxState, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetLfxState method, IMiniportStreamAudioEngineNode::GetLfxState, audio.iminiportstreamaudioenginenode_getlfxstate, portcls/IMiniportStreamAudioEngineNode::GetLfxState
+ms.date: 4/16/2018
+ms.keywords: GetLfxState, GetLfxState method [Audio Devices], GetLfxState method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetLfxState method, IMiniportStreamAudioEngineNode.GetLfxState, IMiniportStreamAudioEngineNode::GetLfxState, audio.iminiportstreamaudioenginenode_getlfxstate, portcls/IMiniportStreamAudioEngineNode::GetLfxState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportStreamAudioEngineNode.GetLfxState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportStreamAudioEngineNode::GetLfxState method
+# IMiniportStreamAudioEngineNode::GetLfxState
 
 
 ## -description
 
 
 Gets the state of the local effects (LFX) node that is in the path of the audio stream.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetLfxState(
-  [out] BOOL *pbEnable
-);
-````
 
 
 ## -parameters
@@ -85,12 +76,11 @@ code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
  
 
  
-
 

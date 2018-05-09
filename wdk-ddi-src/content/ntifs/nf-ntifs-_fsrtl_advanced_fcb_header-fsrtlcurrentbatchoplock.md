@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlcurrentbatchoplock.htm
 old-project: ifsk
 ms.assetid: cfa02246-12ac-4229-bcdb-4792eb5cb0e7
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlCurrentBatchOplock, FsRtlCurrentBatchOplock function [Installable File System Drivers], fsrtlref_d5d16133-2531-4e50-85b7-381740d45d9a.xml, ifsk.fsrtlcurrentbatchoplock, ntifs/FsRtlCurrentBatchOplock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlCurrentBatchOplock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlCurrentBatchOplock function
@@ -52,16 +53,6 @@ req.typenames: TOKEN_TYPE
 A file system or filter driver calls <b>FsRtlCurrentBatchOplock</b> to determine whether there are any batch or filter opportunistic locks (oplocks) on a file. 
 
 
-## -syntax
-
-
-````
-BOOLEAN FsRtlCurrentBatchOplock(
-  _In_ POPLOCK Oplock
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ BOOLEAN FsRtlCurrentBatchOplock(
 
 ### -param Oplock [in]
 
-Opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
+Opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
 
 
 ## -returns
@@ -89,22 +80,17 @@ Opaque opportunistic lock pointer for the file. This pointer must have been init
 
 For detailed information about opportunistic locks, see the Microsoft Windows SDK documentation. 
 
-Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcurrentbatchoplock.md">FltCurrentBatchOplock</a> instead of <b>FsRtlCurrentBatchOplock</b>. 
+Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541946">FltCurrentBatchOplock</a> instead of <b>FsRtlCurrentBatchOplock</b>. 
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545538">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
 
 
 
@@ -116,23 +102,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcurrentbatchoplock
 
 
 
-<a href="..\rxprocs\nf-rxprocs-fsrtloplockisfastiopossible.md">FsRtlOplockIsFastIoPossible</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializeoplock.md">FsRtlUninitializeOplock</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcurrentbatchoplock.md">FltCurrentBatchOplock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545485">FSCTL_OPLOCK_BREAK_NOTIFY</a>
 
 
 
@@ -140,20 +110,40 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcurrentbatchoplock
 
 
 
-<a href="..\rxprocs\nf-rxprocs-fsrtlcheckoplock.md">FsRtlCheckOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrl~r2.md">FsRtlOplockFsctrl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545538">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545485">FSCTL_OPLOCK_BREAK_NOTIFY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541946">FltCurrentBatchOplock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545767">FsRtlCheckOplock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547112">FsRtlOplockFsctrl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547120">FsRtlOplockIsFastIoPossible</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547328">FsRtlUninitializeOplock</a>
  
 
  
-
 

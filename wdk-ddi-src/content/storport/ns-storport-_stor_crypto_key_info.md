@@ -7,7 +7,7 @@ old-location: storage\stor_crypto_key_info.htm
 old-project: storage
 ms.assetid: 4C936B29-1C88-432C-938B-A78BFDDC57E4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO structure pointer [Storage Devices], STOR_CRYPTO_KEY_INFO, STOR_CRYPTO_KEY_INFO structure [Storage Devices], _STOR_CRYPTO_KEY_INFO, storage.stor_crypto_key_info, storport/PSTOR_CRYPTO_KEY_INFO, storport/STOR_CRYPTO_KEY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Storport.h
 api_name:
 -	STOR_CRYPTO_KEY_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_KEY_INFO, *PSTOR_CRYPTO_KEY_INFO
-req.product: Windows 10 or later.
 ---
 
 # _STOR_CRYPTO_KEY_INFO structure
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 Reserved for system use.
-
-
-## -syntax
-
-
-````
-typedef struct _STOR_CRYPTO_KEY_INFO {
-  ;      // Reserved for system use.
-} STOR_CRYPTO_KEY_INFO, *PSTOR_CRYPTO_KEY_INFO;
-````
 
 
 ## -struct-fields

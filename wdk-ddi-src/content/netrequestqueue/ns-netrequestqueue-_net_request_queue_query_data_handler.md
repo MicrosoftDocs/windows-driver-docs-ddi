@@ -24,7 +24,7 @@ req.unicode-ansi:
 req.max-support:
 req.alt-api:
 req.alt-loc:
-req.typenames: *PNET_REQUEST_QUEUE_QUERY_DATA_HANDLER, NET_REQUEST_QUEUE_QUERY_DATA_HANDLER
+req.typenames: NET_REQUEST_QUEUE_QUERY_DATA_HANDLER, *PNET_REQUEST_QUEUE_QUERY_DATA_HANDLER
 topictype: 
 -	apiref
 apitype: 

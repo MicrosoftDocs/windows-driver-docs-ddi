@@ -8,7 +8,7 @@ old-project: gnss
 ms.assetid: 037B5AD9-39C2-4F50-8E63-0736EA37FEF9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_GET_FIXDATA, IOCTL_GNSS_GET_FIXDATA control code [Sensor Devices], gnss.ioctl_gnss_get_fixdata, gnssdriver/IOCTL_GNSS_GET_FIXDATA
+ms.keywords: IOCTL_GNSS_GET_FIXDATA, IOCTL_GNSS_GET_FIXDATA control, IOCTL_GNSS_GET_FIXDATA control code [Sensor Devices], gnss.ioctl_gnss_get_fixdata, gnssdriver/IOCTL_GNSS_GET_FIXDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_GET_FIXDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_GET_FIXDATA IOCTL
@@ -50,7 +51,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 
 
 The <b>IOCTL_GNSS_GET_FIXDATA</b> 
-   control code is used by the GNSS adapter to register to receive the next fix data from an active fix session. This IOCTL provides the GNSS driver with a pending I/O request, the asynchronous resolution of which notifies the adapter that data is being provided through the overlapped structures <b>GnssEvent</b> member as a data buffer. The GnssEvent member is a <a href="..\gnssdriver\ne-gnssdriver-gnss_event_type.md">GNSS_EVENT</a> structure.
+   control code is used by the GNSS adapter to register to receive the next fix data from an active fix session. This IOCTL provides the GNSS driver with a pending I/O request, the asynchronous resolution of which notifies the adapter that data is being provided through the overlapped structures <b>GnssEvent</b> member as a data buffer. The GnssEvent member is a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925134">GNSS_EVENT</a> structure.
 
 
 
@@ -117,12 +118,12 @@ Set to 0.
 
 <h3><a id="Output"></a><a id="output"></a><a id="OUTPUT"></a>Output</h3>
 
-<a href="..\gnssdriver\ns-gnssdriver-gnss_event.md">GNSS_EVENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925134">GNSS_EVENT</a>
 
 
 The <b>EventType</b> element must be set to <b>GNSS_Event_FixAvailable</b>.
 
-The data associated with this event is of type <a href="..\gnssdriver\ns-gnssdriver-gnss_fixdata.md">GNSS_FIXDATA</a>.
+The data associated with this event is of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn925139">GNSS_FIXDATA</a>.
 
 <h3><a id="GNSS_adapter_notes"></a><a id="gnss_adapter_notes"></a><a id="GNSS_ADAPTER_NOTES"></a>GNSS adapter notes</h3>
 The GNSS adapter issues one or more get fix request after starting a fix session. This call creates a pending I/O against which the GNSS driver can return fix data when it is available from the underlying GNSS engine or cache value.
@@ -130,14 +131,13 @@ The GNSS adapter issues one or more get fix request after starting a fix session
 <h3><a id="GNSS_driver_notes"></a><a id="gnss_driver_notes"></a><a id="GNSS_DRIVER_NOTES"></a>GNSS driver notes</h3>
 Whenever a fix data is ready, the driver fills the buffer and completes the I/O. The driver must ensure that the data is returned for the specified fix session ID.
 
-Whenever fix data is ready, the driver must fill the buffer and complete the I/O request. It is the driver’s responsibility to ensure that the data is returned for the specified fix session ID. Additionally, when a fix session is stopped by the GNSS adapter issuing an <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_stop_fixsession.md">IOCTL_GNSS_STOP_FIXSESSION</a>, the driver must cancel all pending get fix requests for the given fix session ID.
+Whenever fix data is ready, the driver must fill the buffer and complete the I/O request. It is the driver’s responsibility to ensure that the data is returned for the specified fix session ID. Additionally, when a fix session is stopped by the GNSS adapter issuing an <a href="https://msdn.microsoft.com/library/windows/hardware/dn917752">IOCTL_GNSS_STOP_FIXSESSION</a>, the driver must cancel all pending get fix requests for the given fix session ID.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -145,14 +145,15 @@ Whenever fix data is ready, the driver must fill the buffer and complete the I/O
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

@@ -8,7 +8,7 @@ old-project: gnss
 ms.assetid: 68EC4397-1983-4D02-BF6E-599DC987E7E9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_INJECT_AGNSS, IOCTL_GNSS_INJECT_AGNSS control code [Sensor Devices], gnss.ioctl_gnss_inject_agnss, gnssdriver/IOCTL_GNSS_INJECT_AGNSS
+ms.keywords: IOCTL_GNSS_INJECT_AGNSS, IOCTL_GNSS_INJECT_AGNSS control, IOCTL_GNSS_INJECT_AGNSS control code [Sensor Devices], gnss.ioctl_gnss_inject_agnss, gnssdriver/IOCTL_GNSS_INJECT_AGNSS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_INJECT_AGNSS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_INJECT_AGNSS IOCTL
@@ -49,7 +50,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ## -description
 
 
-The <b>IOCTL_GNSS_INJECT_AGNSS</b> control code is used by the GNSS adapter to inject AGNSS data into the driver. This IOCTL is sent as a result of the driver previously responding to a pending <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_listen_agnss.md">IOCTL_GNSS_LISTEN_AGNSS</a> request. 
+The <b>IOCTL_GNSS_INJECT_AGNSS</b> control code is used by the GNSS adapter to inject AGNSS data into the driver. This IOCTL is sent as a result of the driver previously responding to a pending <a href="https://msdn.microsoft.com/library/windows/hardware/dn917733">IOCTL_GNSS_LISTEN_AGNSS</a> request. 
 
 
 ## -ioctlparameters
@@ -59,7 +60,7 @@ The <b>IOCTL_GNSS_INJECT_AGNSS</b> control code is used by the GNSS adapter to i
 
 ### -input-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_inject.md">GNSS_AGNSS_INJECT</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925092">GNSS_AGNSS_INJECT</a> structure.
 
 
 ### -input-buffer-length
@@ -106,7 +107,7 @@ Set to 0.
 
 <h3><a id="Input"></a><a id="input"></a><a id="INPUT"></a>Input</h3>
 
-<a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_inject.md">GNSS_AGNSS_INJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn925092">GNSS_AGNSS_INJECT</a>
 
 
 Depending on the InjectionType element, the appropriate data element is filled.
@@ -139,7 +140,6 @@ The GNSS driver completes the I/O request after consuming the injection data.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -147,14 +147,15 @@ The GNSS driver completes the I/O request after consuming the injection data.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

@@ -7,8 +7,8 @@ old-location: debugger\idebugcontrol3.htm
 old-project: debugger
 ms.assetid: 95e714b4-4167-41a1-ab2c-b088dbaf5fe2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], IDebugControl3 interface [Windows Debugging], described, dbgeng/IDebugControl3, debugger.idebugcontrol3
+ms.date: 4/24/2018
+ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], IDebugControl3 interface [Windows Debugging],described, dbgeng/IDebugControl3, debugger.idebugcontrol3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl3
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugControl3 interface
@@ -53,7 +54,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl3</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>. <b>IDebugControl3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl3</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>. <b>IDebugControl3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -199,20 +200,19 @@ Sets the next event for the current target by selecting the event from the stati
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: print\removeprintdeviceobject.htm
 old-project: print
 ms.assetid: D94A669E-4293-4235-8BC4-C7883BB0C83C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices], print.removeprintdeviceobject, winsplp/RemovePrintDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	RemovePrintDeviceObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RemovePrintDeviceObject function
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 </div><div> </div>The <b>RemovePrintDeviceObject</b> function removes a device object from a print provider queue.
 
 
-## -syntax
-
-
-````
-HRESULT WINAPI RemovePrintDeviceObject(
-  _In_ HANDLE hDeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ HRESULT WINAPI RemovePrintDeviceObject(
 
 ### -param hDeviceObject [in]
 
-The HANDLE to the device object to be removed. This should be a device object that was  created with <a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>.
+The HANDLE to the device object to be removed. This should be a device object that was  created with <a href="https://msdn.microsoft.com/library/windows/hardware/dn917890">AddPrintDeviceObject</a>.
 
 
 ## -returns
@@ -97,12 +87,11 @@ Call <b>RemovePrintDeviceObject</b> to remove the device object for a printer th
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-addprintdeviceobject.md">AddPrintDeviceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn917890">AddPrintDeviceObject</a>
  
 
  
-
 

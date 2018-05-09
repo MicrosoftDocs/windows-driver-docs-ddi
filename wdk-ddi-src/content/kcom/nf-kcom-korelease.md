@@ -7,7 +7,7 @@ old-location: stream\korelease.htm
 old-project: stream
 ms.assetid: 59be582c-0f56-45d8-b407-e588ee0f7f8b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KoRelease, KoRelease function [Streaming Media Devices], kcom/KoRelease, ksfunc_5a688121-dc73-48fe-8b85-1f6c14fb3a22.xml, stream.korelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ks.dll
 api_name:
 -	KoRelease
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: CONNECT_DATA, *PCONNECT_DATA
+req.typenames: 
 ---
 
 # KoRelease function
@@ -53,16 +54,6 @@ req.typenames: CONNECT_DATA, *PCONNECT_DATA
 <i>This function is intended for internal use only.</i>
 
 The <b>KoRelease</b> function decrements the reference count for the calling interface on an object. 
-
-
-## -syntax
-
-
-````
-void KoRelease(
-  _In_ REFCLSID ClassId
-);
-````
 
 
 ## -parameters

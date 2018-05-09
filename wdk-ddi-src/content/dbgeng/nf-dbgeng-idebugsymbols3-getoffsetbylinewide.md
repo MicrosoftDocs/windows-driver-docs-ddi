@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetOffsetByLineWide
-title: IDebugSymbols3::GetOffsetByLineWide method
+title: IDebugSymbols3::GetOffsetByLineWide
 author: windows-driver-content
 description: The GetOffsetByLineWide method returns the location of the instruction that corresponds to a specified line in the source code.
 old-location: debugger\getoffsetbylinewide.htm
 old-project: debugger
 ms.assetid: ba09333e-84a5-4166-a859-e09c0cf74347
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetOffsetByLineWide method [Windows Debugging], GetOffsetByLineWide method [Windows Debugging], IDebugSymbols3 interface, GetOffsetByLineWide,IDebugSymbols3.GetOffsetByLineWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLineWide method, IDebugSymbols3::GetOffsetByLineWide, dbgeng/IDebugSymbols3::GetOffsetByLineWide, debugger.getoffsetbylinewide
+ms.date: 4/24/2018
+ms.keywords: GetOffsetByLineWide, GetOffsetByLineWide method [Windows Debugging], GetOffsetByLineWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetOffsetByLineWide method, IDebugSymbols3.GetOffsetByLineWide, IDebugSymbols3::GetOffsetByLineWide, dbgeng/IDebugSymbols3::GetOffsetByLineWide, debugger.getoffsetbylinewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetOffsetByLineWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetOffsetByLineWide method
+# IDebugSymbols3::GetOffsetByLineWide
 
 
 ## -description
 
 
 The <b>GetOffsetByLineWide</b>  method returns the location of the instruction that corresponds to a specified line in the source code.
-
-
-## -syntax
-
-
-````
-HRESULT GetOffsetByLineWide(
-  [in]  ULONG    Line,
-  [in]  PCWSTR   File,
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters
@@ -125,7 +114,6 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -133,8 +121,8 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

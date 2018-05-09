@@ -7,7 +7,7 @@ old-location: ifsk\rtlrealpredecessor.htm
 old-project: ifsk
 ms.assetid: 8cb981a4-7dea-4d42-bbde-35cf5494494b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlRealPredecessor, RtlRealPredecessor routine [Installable File System Drivers], ifsk.rtlrealpredecessor, ntddk/RtlRealPredecessor, rtlref_1c872dd0-50cb-48ff-a7e4-e3c88b3b087f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlRealPredecessor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlRealPredecessor function
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>RtlRealPredecessor</b> routine returns a pointer to the predecessor of the specified node in the splay link tree. 
-
-
-## -syntax
-
-
-````
-PRTL_SPLAY_LINKS RtlRealPredecessor(
-  _In_ PRTL_SPLAY_LINKS Links
-);
-````
 
 
 ## -parameters
@@ -106,20 +97,19 @@ Callers of <b>RtlRealPredecessor</b> must be running at IRQL &lt;= DISPATCH_LEVE
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlsubtreepredecessor.md">RtlSubtreePredecessor</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553188">RtlRealSuccessor</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553226">RtlSplay</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553237">RtlSubtreePredecessor</a>
  
 
  
-
 

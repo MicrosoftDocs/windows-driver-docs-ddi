@@ -7,7 +7,7 @@ old-location: kernel\rtluintptrtoshort.htm
 old-project: kernel
 ms.assetid: F381965B-0482-4D1A-874D-A1308812DB24
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUIntPtrToShort, RtlUIntPtrToShort function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoshort, ntintsafe/RtlUIntPtrToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlUIntPtrToShort
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlUIntPtrToShort function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>UINT_PTR</b> to a value of type <b>SHORT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUIntPtrToShort(
-  _In_  UINT_PTR uOperand,
-  _Out_ SHORT    *psResult
-);
-````
 
 
 ## -parameters

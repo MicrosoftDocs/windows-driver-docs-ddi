@@ -7,7 +7,7 @@ old-location: stream\ksvalidateconnectrequest.htm
 old-project: stream
 ms.assetid: 64343a8a-9629-469e-95a3-b9c140cdd324
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsValidateConnectRequest, KsValidateConnectRequest function [Streaming Media Devices], ks/KsValidateConnectRequest, ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml, stream.ksvalidateconnectrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsValidateConnectRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,19 +54,6 @@ req.typenames:
 The <b>KsValidateConnectRequest</b> function validates a connection request and returns a pointer to the connection structure associated with the request.
 
 This function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsValidateConnectRequest(
-  _In_        PIRP             Irp ,
-  _In_        ULONG            DescriptorsCount ,
-  _In_  const KSPIN_DESCRIPTOR *Descriptor ,
-  _Out_       PKSPIN_CONNECT   *Connect 
-);
-````
 
 
 ## -parameters
@@ -85,12 +73,12 @@ Specifies the number of pin descriptors passed.
 
 ### -param Descriptor [in]
 
-Specifies a pointer to the list of <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a> structures.
+Specifies a pointer to the list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a> structures.
 
 
 ### -param Connect [out]
 
-Specifies a location in which to place a pointer to the <a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a> pointer passed to the create request. If <b>KsValidateConnectRequest</b>  returns success, then Connect+1 will contain a pointer to the KSDATAFORMAT with which the pin was opened.
+Specifies a location in which to place a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563531">KSPIN_CONNECT</a> pointer passed to the create request. If <b>KsValidateConnectRequest</b>  returns success, then Connect+1 will contain a pointer to the KSDATAFORMAT with which the pin was opened.
 
 
 ## -returns

@@ -7,8 +7,8 @@ old-location: print\iprintjob.htm
 old-project: print
 ms.assetid: 068E53EC-26B8-48E7-A605-081709C94043
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintJob, IPrintJob interface [Print Devices], IPrintJob interface [Print Devices], described, print.iprintjob, printerextension/IPrintJob
+ms.date: 4/20/2018
+ms.keywords: IPrintJob, IPrintJob interface [Print Devices], IPrintJob interface [Print Devices],described, print.iprintjob, printerextension/IPrintJob
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintJob
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintJob interface
@@ -77,6 +77,15 @@ The <b>IPrintJob</b> interface has these methods.
 </td>
 <td align="left" width="63%">
 Requests the cancellation of a print job.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+</td>
+<td align="left" width="63%">
+Gets the current status of the print job.
 
 </td>
 </tr>
@@ -139,22 +148,6 @@ Gets the number of pages that have been printed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Gets the current status of the print job.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn265410">SubmissionTime</a>
 
 
@@ -200,16 +193,15 @@ The <b>IPrintJob</b> interface provides a wrapper around select properties of th
 
 ## -see-also
 
+
+
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a>
 
 
 
 <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
-
-
-
  
 
  
-
 

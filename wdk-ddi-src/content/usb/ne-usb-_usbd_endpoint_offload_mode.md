@@ -7,7 +7,7 @@ old-location: buses\usbd_endpoint_offload_mode.htm
 old-project: usbref
 ms.assetid: 577B2B5E-934E-4354-B6FF-FDFE9D1144D7
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: USBD_ENDPOINT_OFFLOAD_MODE, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], UsbdEndpointOffloadHardwareAssisted, UsbdEndpointOffloadModeNotSupported, UsbdEndpointOffloadSoftwareAssisted, _USBD_ENDPOINT_OFFLOAD_MODE, buses.usbd_endpoint_offload_mode, usb/USBD_ENDPOINT_OFFLOAD_MODE, usb/UsbdEndpointOffloadHardwareAssisted, usb/UsbdEndpointOffloadModeNotSupported, usb/UsbdEndpointOffloadSoftwareAssisted
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Usb.h
 api_name:
 -	USBD_ENDPOINT_OFFLOAD_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBD_ENDPOINT_OFFLOAD_MODE
-req.product: Windows 10 or later.
 ---
 
 # _USBD_ENDPOINT_OFFLOAD_MODE enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 Defines values for endpoint offloading options in the USB device or host controller.
-
-
-## -syntax
-
-
-````
-typedef enum _USBD_ENDPOINT_OFFLOAD_MODE { 
-  UsbdEndpointOffloadModeNotSupported  = 0,
-  UsbdEndpointOffloadSoftwareAssisted,
-  UsbdEndpointOffloadHardwareAssisted
-} USBD_ENDPOINT_OFFLOAD_MODE;
-````
 
 
 ## -enum-fields
@@ -87,12 +75,11 @@ Endpoint offloading is handled in the USB device or host controller hardware.
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_queryusbcapability.md">USBD_QueryUsbCapability</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>
  
 
  
-
 

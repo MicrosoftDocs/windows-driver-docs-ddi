@@ -7,8 +7,8 @@ old-location: print\drvgetstandardvariable.htm
 old-project: print
 ms.assetid: 743d8e3c-3115-4c2d-b7f3-6f99ba684693
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvGetStandardVariable, DrvGetStandardVariable callback function [Print Devices], PFN_DrvGetStandardVariable, print.drvgetstandardvariable, print_obsoletefunctions_143de6bb-bea1-4292-8ac4-e34c2610a8ab.xml, printoem/DrvGetStandardVariable
+ms.date: 4/20/2018
+ms.keywords: DrvGetStandardVariable, DrvGetStandardVariable callback function [Print Devices], PFN_DrvGetStandardVariable, PFN_DrvGetStandardVariable callback, print.drvgetstandardvariable, print_obsoletefunctions_143de6bb-bea1-4292-8ac4-e34c2610a8ab.xml, printoem/DrvGetStandardVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	printoem.h
 api_name:
 -	DrvGetStandardVariable
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_DrvGetStandardVariable callback
+# PFN_DrvGetStandardVariable callback function
 
 
 ## -description
@@ -54,24 +54,7 @@ This <b>DrvGetStandardVariable</b> function is obsolete.
 
 Windows 2000 and later printer drivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553129">IPrintOemDriverUni::DrvGetStandardVariable</a>. 
 
-This function pointer prototype defines the type of the <b>BGetStandardVariable</b> member of the <a href="..\printoem\ns-printoem-_drvprocs.md">DRVPROCS</a> structure.
-
-
-## -prototype
-
-
-````
-PFN_DrvGetStandardVariable DrvGetStandardVariable;
-
-BOOL APIENTRY* DrvGetStandardVariable(
-   PDEVOBJ pdevobj,
-   DWORD   dwIndex,
-   PVOID   pBuffer,
-   DWORD   cbSize,
-   PDWORD  pcbNeeded
-)
-{ ... }
-````
+This function pointer prototype defines the type of the <b>BGetStandardVariable</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548571">DRVPROCS</a> structure.
 
 
 ## -parameters

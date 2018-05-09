@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any IRQL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	sffdisk.h
 api_name:
 -	SFFDISK_DCMD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SFFDISK_DCMD
-req.product: Windows 10 or later.
 ---
 
 # SFFDISK_DCMD enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The SFFDISK_DCMD enumeration identifies the type of Secure Digital (SD) card operation.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SFFDISK_DC_GET_VERSION     = 0,
-  SFFDISK_DC_LOCK_CHANNEL    = 1,
-  SFFDISK_DC_UNLOCK_CHANNEL  = 2,
-  SFFDISK_DC_DEVICE_COMMAND  = 3
-} SFFDISK_DCMD;
-````
 
 
 ## -enum-fields
@@ -102,12 +89,11 @@ Applications that submit IOCTL_SFFDISK_DEVICE_COMMAND requests to the SD stack u
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/68205c17-5ff6-45a3-83c7-e106b314f9a5">SFFDISK_DEVICE_COMMAND_DATA</a>
-
-
-
  
 
  
-
 

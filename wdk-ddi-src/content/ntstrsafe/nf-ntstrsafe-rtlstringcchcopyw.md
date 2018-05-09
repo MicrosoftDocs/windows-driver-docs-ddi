@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcchcopy.htm
 old-project: kernel
 ms.assetid: d5c6d7d2-fe14-49d5-9e81-3a425a4cf1b3
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCchCopy, RtlStringCchCopyA, RtlStringCchCopyW, RtlStringCchCopyW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopy, ntstrsafe/RtlStringCchCopyA, ntstrsafe/RtlStringCchCopyW, safestrings_75c329c3-0463-4c8f-a363-ac26ec15c923.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_name:
 -	RtlStringCchCopyW
 -	RtlStringCchCopyA
 -	RtlStringCchCopyW
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlStringCchCopyW function
@@ -53,18 +54,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 The <b>RtlStringCchCopyW</b> and <b>RtlStringCchCopyA</b> functions copy a null-terminated source string into a destination buffer of specified length. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCchCopyW(
-  _Out_ LPTSTR  pszDest,
-  _In_  size_t  cchDest,
-  _In_  LPCTSTR pszSrc
-);
-````
 
 
 ## -parameters
@@ -160,7 +149,7 @@ The function returns the STATUS_INVALID_PARAMETER value when:
 
 </li>
 </ul>
-These functions are not replacements for <b>strncpy</b>. Use <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynw.md">RtlStringCchCopyN</a> or <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopynexw.md">RtlStringCchCopyNEx</a> to replace <b>strncpy</b>.
+These functions are not replacements for <b>strncpy</b>. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562846">RtlStringCchCopyN</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff562849">RtlStringCchCopyNEx</a> to replace <b>strncpy</b>.
 
 The size, in characters, of the destination buffer is provided to <b>RtlStringCchCopyW</b> and <b>RtlStringCchCopyA</b> to ensure that they do not write past the end of the buffer.
 
@@ -205,7 +194,7 @@ L"string"
 
 If <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior of the function is undefined.
 
-Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyexw.md">RtlStringCchCopyEx</a>.
+Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="https://msdn.microsoft.com/c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7">RtlStringCchCopyEx</a>.
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
 
@@ -214,16 +203,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyexw.md">RtlStringCchCopyEx</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyw.md">RtlStringCbCopy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562805">RtlStringCbCopy</a>
 
 
 
+<a href="https://msdn.microsoft.com/c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7">RtlStringCchCopyEx</a>
  
 
  
-
 

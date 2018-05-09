@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS
 ---
@@ -49,25 +50,7 @@ req.typenames: WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_
 ## -description
 
 
-The WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union describes which members of a <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure contain valid data.
-
-
-## -syntax
-
-
-````
-typedef union _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS {
-  struct {
-    ULONGLONG ErrorStatus  :1;
-    ULONGLONG IdInfo  :1;
-    ULONGLONG MemoryNumber  :1;
-    ULONGLONG IoNumber  :1;
-    ULONGLONG RegisterDataPairs  :1;
-    ULONGLONG Reserved  :59;
-  };
-  ULONGLONG ValidBits;
-} WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS;
-````
+The WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union describes which members of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560589">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure contain valid data.
 
 
 ## -struct-fields
@@ -80,58 +63,57 @@ typedef union _WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS {
  
 
 
-### -field ValidBits
-
-A ULONGLONG representation of the contents of the WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union.
-
-
-#### - ErrorStatus
+### -field DUMMYSTRUCTNAME.ErrorStatus
 
 A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
-#### - IdInfo
+### -field DUMMYSTRUCTNAME.IdInfo
 
 A single bit that indicates that the <b>IdInfo</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
-#### - IoNumber
-
-A single bit that indicates that the <b>IoNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
-
-
-#### - MemoryNumber
+### -field DUMMYSTRUCTNAME.MemoryNumber
 
 A single bit that indicates that the <b>MemoryNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
-#### - RegisterDataPairs
+### -field DUMMYSTRUCTNAME.IoNumber
+
+A single bit that indicates that the <b>IoNumber</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.RegisterDataPairs
 
 A single bit that indicates that the <b>RegisterDataPairs</b> member of the WHEA_PCIXDEVICE_ERROR_SECTION structure contains valid data.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
+
+
+### -field ValidBits
+
+A ULONGLONG representation of the contents of the WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union.
 
 
 ## -remarks
 
 
 
-A WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union is contained within the <a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure.
+A WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560589">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section.md">WHEA_PCIXDEVICE_ERROR_SECTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560589">WHEA_PCIXDEVICE_ERROR_SECTION</a>
  
 
  
-
 

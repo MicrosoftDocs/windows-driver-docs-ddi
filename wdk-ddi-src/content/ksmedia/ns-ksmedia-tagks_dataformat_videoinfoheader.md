@@ -7,7 +7,7 @@ old-location: stream\ks_dataformat_videoinfoheader.htm
 old-project: stream
 ms.assetid: 60a04887-d696-42b2-95af-cce1c0bc102b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DATAFORMAT_VIDEOINFOHEADER, KS_DATAFORMAT_VIDEOINFOHEADER, KS_DATAFORMAT_VIDEOINFOHEADER structure [Streaming Media Devices], PKS_DATAFORMAT_VIDEOINFOHEADER, PKS_DATAFORMAT_VIDEOINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_VIDEOINFOHEADER, ksmedia/PKS_DATAFORMAT_VIDEOINFOHEADER, stream.ks_dataformat_videoinfoheader, tagKS_DATAFORMAT_VIDEOINFOHEADER, vidcapstruct_756be7d3-2dca-4e93-a113-7ee3871f3107.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DATAFORMAT_VIDEOINFOHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DATAFORMAT_VIDEOINFOHEADER, *PKS_DATAFORMAT_VIDEOINFOHEADER
 ---
@@ -50,17 +51,6 @@ req.typenames: KS_DATAFORMAT_VIDEOINFOHEADER, *PKS_DATAFORMAT_VIDEOINFOHEADER
 
 
 The KS_DATAFORMAT_VIDEOINFOHEADER structure describes a video stream that does not include bob or weave settings.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_DATAFORMAT_VIDEOINFOHEADER {
-  KSDATAFORMAT       DataFormat;
-  KS_VIDEOINFOHEADER VideoInfoHeader;
-} KS_DATAFORMAT_VIDEOINFOHEADER, *PKS_DATAFORMAT_VIDEOINFOHEADER;
-````
 
 
 ## -struct-fields
@@ -84,27 +74,26 @@ Specifies the details of the video stream.
 
 This format is used for most capture output streams.
 
-Minidrivers that must specify a data format that contains settings for bob or weave must use the <a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader2.md">KS_DATAFORMAT_VIDEOINFOHEADER2</a> structure.
+Minidrivers that must specify a data format that contains settings for bob or weave must use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567335">KS_DATAFORMAT_VIDEOINFOHEADER2</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-tagks_dataformat_videoinfoheader2.md">KS_DATAFORMAT_VIDEOINFOHEADER2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
 
 
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567335">KS_DATAFORMAT_VIDEOINFOHEADER2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567700">KS_VIDEOINFOHEADER</a>
  
 
  
-
 

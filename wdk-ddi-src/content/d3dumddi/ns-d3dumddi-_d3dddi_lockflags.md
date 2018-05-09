@@ -7,7 +7,7 @@ old-location: display\d3dddi_lockflags.htm
 old-project: display
 ms.assetid: b9bc6607-3222-45d0-a0d8-18c815a41771
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_LOCKFLAGS, D3DDDI_LOCKFLAGS structure [Display Devices], D3D_other_Structs_1bff30dd-936f-4753-bcbe-e656c454e675.xml, _D3DDDI_LOCKFLAGS, d3dumddi/D3DDDI_LOCKFLAGS, display.d3dddi_lockflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDI_LOCKFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_LOCKFLAGS
 ---
@@ -50,31 +51,6 @@ req.typenames: D3DDDI_LOCKFLAGS
 
 
 The D3DDDI_LOCKFLAGS structure identifies how to lock a resource.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_LOCKFLAGS {
-  union {
-    struct {
-      UINT ReadOnly  :1;
-      UINT WriteOnly  :1;
-      UINT NoOverwrite  :1;
-      UINT Discard  :1;
-      UINT RangeValid  :1;
-      UINT AreaValid  :1;
-      UINT BoxValid  :1;
-      UINT NotifyOnly  :1;
-      UINT MightDrawFromLocked  :1;
-      UINT DoNotWait  :1;
-      UINT Reserved  :22;
-    };
-    UINT   Value;
-  };
-} D3DDDI_LOCKFLAGS;
-````
 
 
 ## -struct-fields
@@ -136,7 +112,7 @@ Setting this member is equivalent to setting the eighth bit of the 32-bit <b>Val
 
 ### -field MightDrawFromLocked
 
-A UINT value that specifies whether the driver is possibly requested to draw from a vertex buffer even if the vertex buffer is locked by the Direct3D runtime. <b>MightDrawFromLocked</b> does not guarantee that the driver will receive calls to its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive.md">DrawIndexedPrimitive</a>, <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawindexedprimitive2.md">DrawIndexedPrimitive2</a>, <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive.md">DrawPrimitive</a>, and <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawprimitive2.md">DrawPrimitive2</a> functions following the call to <b>Lock</b>. <b>MightDrawFromLocked</b> is set only on vertex buffers that were created with the <b>MightDrawFromLocked</b> bit-field flag set in the <b>Flags</b> member of the <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource.md">D3DDDIARG_CREATERESOURCE</a> structure during create time.
+A UINT value that specifies whether the driver is possibly requested to draw from a vertex buffer even if the vertex buffer is locked by the Direct3D runtime. <b>MightDrawFromLocked</b> does not guarantee that the driver will receive calls to its <a href="https://msdn.microsoft.com/12bb6274-d042-43bb-b9f5-1417f42da729">DrawIndexedPrimitive</a>, <a href="https://msdn.microsoft.com/f12af70c-a6f2-42da-be62-1cfeb90b6239">DrawIndexedPrimitive2</a>, <a href="https://msdn.microsoft.com/1a6de2b0-cab0-4fcf-be1b-a8cc1c1f79e9">DrawPrimitive</a>, and <a href="https://msdn.microsoft.com/a81080f0-fbb3-4616-9324-642b60befcb3">DrawPrimitive2</a> functions following the call to <b>Lock</b>. <b>MightDrawFromLocked</b> is set only on vertex buffers that were created with the <b>MightDrawFromLocked</b> bit-field flag set in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542963">D3DDDIARG_CREATERESOURCE</a> structure during create time.
 
 Setting this member is equivalent to setting the ninth bit of the 32-bit <b>Value</b> member (0x00000100).
 
@@ -153,19 +129,18 @@ Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Valu
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 22 bits (0xFFFFFC00) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDI_LOCKFLAGS that can hold one 32-bit value that identifies how to lock a resource.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_lock.md">D3DDDIARG_LOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543204">D3DDDIARG_LOCK</a>
  
 
  
-
 

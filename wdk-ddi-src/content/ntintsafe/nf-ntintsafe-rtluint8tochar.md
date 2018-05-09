@@ -7,7 +7,7 @@ old-location: kernel\rtluint8tochar.htm
 old-project: kernel
 ms.assetid: 78EAB56F-8E6D-4048-83DC-1B9BC75E08B5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUInt8ToChar, RtlUInt8ToChar function [Kernel-Mode Driver Architecture], kernel.rtluint8tochar, ntintsafe/RtlUInt8ToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlUInt8ToChar
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlUInt8ToChar function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>UINT8</b> to a value of type <b>CHAR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUInt8ToChar(
-  _In_  UINT8 u8Operand,
-  _Out_ CHAR  *pch
-);
-````
 
 
 ## -parameters

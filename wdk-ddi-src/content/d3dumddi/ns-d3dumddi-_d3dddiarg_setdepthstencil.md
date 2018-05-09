@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setdepthstencil.htm
 old-project: display
 ms.assetid: 9d0e9762-060e-40bb-9914-3577a086e8e0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_SETDEPTHSTENCIL, D3DDDIARG_SETDEPTHSTENCIL structure [Display Devices], UMDisplayDriver_param_Structs_8e3b527c-b594-4bed-9fe1-c8f3a410746d.xml, _D3DDDIARG_SETDEPTHSTENCIL, d3dumddi/D3DDDIARG_SETDEPTHSTENCIL, display.d3dddiarg_setdepthstencil
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_SETDEPTHSTENCIL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETDEPTHSTENCIL
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DDDIARG_SETDEPTHSTENCIL
 
 
 The D3DDDIARG_SETDEPTHSTENCIL structure specifies a depth buffer. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETDEPTHSTENCIL {
-  HANDLE hZBuffer;
-} D3DDDIARG_SETDEPTHSTENCIL;
-````
 
 
 ## -struct-fields
@@ -74,12 +65,11 @@ typedef struct _D3DDDIARG_SETDEPTHSTENCIL {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdepthstencil.md">SetDepthStencil</a>
 
 
 
+<a href="https://msdn.microsoft.com/7c4b01c8-2376-4956-9b18-649647c19b2b">SetDepthStencil</a>
  
 
  
-
 

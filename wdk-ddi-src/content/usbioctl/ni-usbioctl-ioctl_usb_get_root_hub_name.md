@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_get_root_hub_name.htm
 old-project: usbref
 ms.assetid: f1d7ab17-516a-4f6e-b343-3f67a6e07ae4
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_USB_GET_ROOT_HUB_NAME, IOCTL_USB_GET_ROOT_HUB_NAME control code [Buses], buses.ioctl_usb_get_root_hub_name, usbioctl/IOCTL_USB_GET_ROOT_HUB_NAME, usbirp_cf8d4d13-20cc-4134-8050-e3cd376a632e.xml
+ms.date: 4/25/2018
+ms.keywords: IOCTL_USB_GET_ROOT_HUB_NAME, IOCTL_USB_GET_ROOT_HUB_NAME control, IOCTL_USB_GET_ROOT_HUB_NAME control code [Buses], buses.ioctl_usb_get_root_hub_name, usbioctl/IOCTL_USB_GET_ROOT_HUB_NAME, usbirp_cf8d4d13-20cc-4134-8050-e3cd376a632e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_USB_GET_ROOT_HUB_NAME
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USB_GET_ROOT_HUB_NAME IOCTL
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 
 
 
-The <b>IOCTL_USB_GET_ROOT_HUB_NAME</b> I/O control request is used with the <a href="..\usbioctl\ns-usbioctl-_usb_root_hub_name.md">USB_ROOT_HUB_NAME</a> structure to retrieve the symbolic link name of the root hub.
+The <b>IOCTL_USB_GET_ROOT_HUB_NAME</b> I/O control request is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540142">USB_ROOT_HUB_NAME</a> structure to retrieve the symbolic link name of the root hub.
 
 <b>IOCTL_USB_GET_ROOT_HUB_NAME</b> is a user-mode I/O control request. This request targets the USB host controller (GUID_DEVINTERFACE_USB_HOST_CONTROLLER).
 
@@ -75,12 +75,12 @@ None.
 
 ### -output-buffer
 
-On output, the <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="..\usbioctl\ns-usbioctl-_usb_root_hub_name.md">USB_ROOT_HUB_NAME</a> structure that contains the symbolic link name of the root hub.  The leading "\xxx\ " text is not included in the retrieved string.
+On output, the <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540142">USB_ROOT_HUB_NAME</a> structure that contains the symbolic link name of the root hub.  The leading "\xxx\ " text is not included in the retrieved string.
 
 
 ### -output-buffer-length
 
-The size of a <a href="..\usbioctl\ns-usbioctl-_usb_root_hub_name.md">USB_ROOT_HUB_NAME</a> structure.
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540142">USB_ROOT_HUB_NAME</a> structure.
 
 
 ### -in-out-buffer
@@ -110,12 +110,11 @@ If the root hub is removed or stopped, the request returns STATUS_SUCCESS but th
 
 ## -see-also
 
-<a href="..\usbioctl\ns-usbioctl-_usb_root_hub_name.md">USB_ROOT_HUB_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540142">USB_ROOT_HUB_NAME</a>
  
 
  
-
 

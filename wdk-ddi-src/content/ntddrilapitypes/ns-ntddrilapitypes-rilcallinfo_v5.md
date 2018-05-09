@@ -7,7 +7,7 @@ old-location: netvista\rilcallinfo_v5.htm
 old-project: netvista
 ms.assetid: 76d6c066-f455-45d4-ac39-76d1420fe8c9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILCALLINFO, *LPRILCALLINFO_V5, RILCALLINFO, RILCALLINFO_V5, RILCALLINFO_V5 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v5, ntddrilapitypes/RILCALLINFO_V5"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLINFO_V5
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLINFO_V5, *LPRILCALLINFO_V5, RILCALLINFO, *LPRILCALLINFO
 ---
@@ -50,36 +51,6 @@ req.typenames: RILCALLINFO_V5, *LPRILCALLINFO_V5, RILCALLINFO, *LPRILCALLINFO
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLINFO_V5 {
-  DWORD                           cbSize;
-  DWORD                           dwParams;
-  DWORD                           dwExecutor;
-  DWORD                           dwID;
-  RILCALLINFODIRECTION            dwDirection;
-  RILCALLINFOSTATUS               dwStatus;
-  RILCALLTYPE                     dwType;
-  RILCALLINFOMULTIPARTY           dwMultiparty;
-  RILADDRESS                      raAddress;
-  RILSUBADDRESS                   rsaSubAddress;
-  WCHAR [256]                     wszDescription;
-  RILREMOTEPARTYINFOVALUE         dwNumberPresentationIndicator;
-  RILREMOTEPARTYINFOVALUE         dwNamePresentationIndicator;
-  DWORD                           dwFlags;
-  RILCALLINFODISCONNECTINITIATOR  dwDisconnectInitiator;
-  RILCALLINFODISCONNECTREASON     dwDisconnectReason;
-  RILCALLDISCONNECTDETAILS        stDisconnectDetails;
-  RILCALLMEDIAOFFERANSWERSET      rcmOfferAnswer;
-  RILCALLHANDOVERSTATE            rchsHandoverState;
-  RILCALLMODIFICATIONCAUSECODE    dwCallModificationCauseCode;
-  RILCALLRTT                      stRTTInfo;
-} RILCALLINFO_V5, RILCALLINFO_V5;
-````
 
 
 ## -struct-fields

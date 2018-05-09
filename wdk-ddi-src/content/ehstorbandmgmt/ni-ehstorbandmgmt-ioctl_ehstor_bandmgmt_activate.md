@@ -7,8 +7,8 @@ old-location: storage\ioctl_ehstor_bandmgmt_activate.htm
 old-project: storage
 ms.assetid: 10C3077A-1A6A-4AA1-BC9B-829353A8A895
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_EHSTOR_BANDMGMT_ACTIVATE, IOCTL_EHSTOR_BANDMGMT_ACTIVATE control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ACTIVATE, storage.ioctl_ehstor_bandmgmt_activate
+ms.date: 3/29/2018
+ms.keywords: IOCTL_EHSTOR_BANDMGMT_ACTIVATE, IOCTL_EHSTOR_BANDMGMT_ACTIVATE control, IOCTL_EHSTOR_BANDMGMT_ACTIVATE control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ACTIVATE, storage.ioctl_ehstor_bandmgmt_activate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	EhStorBandMgmt.h
 api_name:
 -	IOCTL_EHSTOR_BANDMGMT_ACTIVATE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: 
 ---
 
 # IOCTL_EHSTOR_BANDMGMT_ACTIVATE IOCTL
@@ -224,9 +225,9 @@ One of the following values can be returned in the <b>Status</b> field.
 
 
 
-If STATUS_SUCCESS is returned from this request, a driver or application can then send an <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a> request to retrieve the enabled band management capabilities of the device.
+If STATUS_SUCCESS is returned from this request, a driver or application can then send an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451390">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a> request to retrieve the enabled band management capabilities of the device.
 
-Before a successful return from <b>IOCTL_EHSTOR_BANDMGMT_ACTIVATE</b>, the device is not activated. Until the device is activated, the only band management IOCTL that will   return successfully is <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>. After activation, the remaining band management IOCTLs are available.
+Before a successful return from <b>IOCTL_EHSTOR_BANDMGMT_ACTIVATE</b>, the device is not activated. Until the device is activated, the only band management IOCTL that will   return successfully is <a href="https://msdn.microsoft.com/library/windows/hardware/hh451390">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>. After activation, the remaining band management IOCTLs are available.
 
 Activation of Enhanced Storage devices is controlled by the Group Policy settings of the system.  The registry value at <i>HKLM\Software\Policies\Microsoft\Windows\EnhancedStorageDevices\TCGSecurityActivationDisabled</i> determines whether security activation is 
 enabled. A REG_DWORD value of 0 allows security activation on the storage device. Otherwise, a value of 1 disables security activation and the <b>IOCTL_EHSTOR_BANDMGMT_ACTIVATE</b> request will return with <b>STATUS_NOT_SUPPORTED.</b>
@@ -236,16 +237,15 @@ enabled. A REG_DWORD value of 0 allows security activation on the storage device
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_revert.md">IOCTL_EHSTOR_BANDMGMT_REVERT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451390">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451392">IOCTL_EHSTOR_BANDMGMT_REVERT</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\iddcxdeviceinitialize.htm
 old-project: display
 ms.assetid: 4967e897-1a71-4f17-ad5b-9cc9916b0087
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IddCxDeviceInitialize, IddCxDeviceInitialize method [Display Devices], display.iddcxdeviceinitialize, iddcx/IddCxDeviceInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IddCxDeviceInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,16 +53,6 @@ req.typenames:
 Initializes a WDF device
 
                 
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxDeviceInitialize(
-  _In_ WDFDEVICE Device
-);
-````
 
 
 ## -parameters

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_ERROR_INJECTION_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_ERROR_INJECTION_CAPABILITIES, *PWHEA_ERROR_INJECTION_CAPABILITIES
 ---
@@ -52,36 +53,6 @@ req.typenames: WHEA_ERROR_INJECTION_CAPABILITIES, *PWHEA_ERROR_INJECTION_CAPABIL
 The WHEA_ERROR_INJECTION_CAPABILITIES union describes the types of hardware errors that can be injected into a hardware platform.
 
 
-## -syntax
-
-
-````
-typedef union _WHEA_ERROR_INJECTION_CAPABILITIES {
-  struct {
-    ULONG ProcessorCorrectable  :1;
-    ULONG ProcessorUncorrectableNonFatal  :1;
-    ULONG ProcessorUncorrectableFatal  :1;
-    ULONG MemoryCorrectable  :1;
-    ULONG MemoryUncorrectableNonFatal  :1;
-    ULONG MemoryUncorrectableFatal  :1;
-    ULONG PCIExpressCorrectable  :1;
-    ULONG PCIExpressUncorrectableNonFatal  :1;
-    ULONG PCIExpressUncorrectableFatal  :1;
-    ULONG PlatformCorrectable  :1;
-    ULONG PlatformUncorrectableNonFatal  :1;
-    ULONG PlatformUncorrectableFatal  :1;
-    ULONG IA64Corrected  :1;
-    ULONG IA64Recoverable  :1;
-    ULONG IA64Fatal  :1;
-    ULONG IA64RecoverableCache  :1;
-    ULONG IA64RecoverableRegFile  :1;
-    ULONG Reserved  :15;
-  };
-  ULONG  AsULONG;
-} WHEA_ERROR_INJECTION_CAPABILITIES, *PWHEA_ERROR_INJECTION_CAPABILITIES;
-````
-
-
 ## -struct-fields
 
 
@@ -92,113 +63,116 @@ typedef union _WHEA_ERROR_INJECTION_CAPABILITIES {
  
 
 
-### -field AsULONG
-
-A ULONG representation of the contents of the WHEA_ERROR_INJECTION_CAPABILITIES union.
-
-
-#### - IA64Corrected
-
-A single bit that indicates that a corrected IA64 error can be injected into the hardware platform.
-
-
-#### - IA64Fatal
-
-A single bit that indicates that a fatal IA64 error can be injected into the hardware platform.
-
-
-#### - IA64Recoverable
-
-A single bit that indicates that a recoverable IA64 error can be injected into the hardware platform.
-
-
-#### - IA64RecoverableCache
-
-A single bit that indicates that a recoverable IA64 cache error can be injected into the hardware platform.
-
-
-#### - IA64RecoverableRegFile
-
-A single bit that indicates that a recoverable IA64 register file error can be injected into the hardware platform.
-
-
-#### - MemoryCorrectable
-
-A single bit that indicates that a correctable memory error can be injected into the hardware platform.
-
-
-#### - MemoryUncorrectableFatal
-
-A single bit that indicates that an uncorrectable fatal memory error can be injected into the hardware platform.
-
-
-#### - MemoryUncorrectableNonFatal
-
-A single bit that indicates that an uncorrectable nonfatal memory error can be injected into the hardware platform.
-
-
-#### - PCIExpressCorrectable
-
-A single bit that indicates that a correctable PCI Express (PCIe) error can be injected into the hardware platform.
-
-
-#### - PCIExpressUncorrectableFatal
-
-A single bit that indicates that an uncorrectable fatal PCI Express (PCIe) error can be injected into the hardware platform.
-
-
-#### - PCIExpressUncorrectableNonFatal
-
-A single bit that indicates that an uncorrectable nonfatal PCI Express (PCIe) error can be injected into the hardware platform.
-
-
-#### - PlatformCorrectable
-
-A single bit that indicates that a correctable platform error can be injected into the hardware platform.
-
-
-#### - PlatformUncorrectableFatal
-
-A single bit that indicates that an uncorrectable fatal platform error can be injected into the hardware platform.
-
-
-#### - PlatformUncorrectableNonFatal
-
-A single bit that indicates that an uncorrectable nonfatal platform error can be injected into the hardware platform.
-
-
-#### - ProcessorCorrectable
+### -field DUMMYSTRUCTNAME.ProcessorCorrectable
 
 A single bit that indicates that a correctable processor error can be injected into the hardware platform.
 
 
-#### - ProcessorUncorrectableFatal
-
-A single bit that indicates that an uncorrectable fatal processor error can be injected into the hardware platform.
-
-
-#### - ProcessorUncorrectableNonFatal
+### -field DUMMYSTRUCTNAME.ProcessorUncorrectableNonFatal
 
 A single bit that indicates that an uncorrectable nonfatal processor error can be injected into the hardware platform.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.ProcessorUncorrectableFatal
+
+A single bit that indicates that an uncorrectable fatal processor error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.MemoryCorrectable
+
+A single bit that indicates that a correctable memory error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.MemoryUncorrectableNonFatal
+
+A single bit that indicates that an uncorrectable nonfatal memory error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.MemoryUncorrectableFatal
+
+A single bit that indicates that an uncorrectable fatal memory error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.PCIExpressCorrectable
+
+A single bit that indicates that a correctable PCI Express (PCIe) error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.PCIExpressUncorrectableNonFatal
+
+A single bit that indicates that an uncorrectable nonfatal PCI Express (PCIe) error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.PCIExpressUncorrectableFatal
+
+A single bit that indicates that an uncorrectable fatal PCI Express (PCIe) error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.PlatformCorrectable
+
+A single bit that indicates that a correctable platform error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.PlatformUncorrectableNonFatal
+
+A single bit that indicates that an uncorrectable nonfatal platform error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.PlatformUncorrectableFatal
+
+A single bit that indicates that an uncorrectable fatal platform error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.IA64Corrected
+
+A single bit that indicates that a corrected IA64 error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.IA64Recoverable
+
+A single bit that indicates that a recoverable IA64 error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.IA64Fatal
+
+A single bit that indicates that a fatal IA64 error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.IA64RecoverableCache
+
+A single bit that indicates that a recoverable IA64 cache error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.IA64RecoverableRegFile
+
+A single bit that indicates that a recoverable IA64 register file error can be injected into the hardware platform.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
+
+
+### -field AsULONG
+
+A ULONG representation of the contents of the WHEA_ERROR_INJECTION_CAPABILITIES union.
 
 
 ## -remarks
 
 
 
-A user-mode WHEA management application calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559516">WHEAErrorInjectionMethods::GetErrorInjectionCapabilitiesRtn</a> method to retrieve a WHEA_ERROR_INJECTION_CAPABILITIES union that describes the types of hardware errors that can be injected into the hardware platform. If a PSHED plug-in is registered to participate in error injection, the PSHED plug-in's <a href="..\ntddk\nc-ntddk-pshed_pi_get_injection_capabilities.md">GetInjectionCapabilities</a> callback function is called to provide this information back to the calling application. The application uses this information when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559518">WHEAErrorInjectionMethods::InjectErrorRtn</a> method to inject a hardware error into the hardware platform.
+A user-mode WHEA management application calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559516">WHEAErrorInjectionMethods::GetErrorInjectionCapabilitiesRtn</a> method to retrieve a WHEA_ERROR_INJECTION_CAPABILITIES union that describes the types of hardware errors that can be injected into the hardware platform. If a PSHED plug-in is registered to participate in error injection, the PSHED plug-in's <a href="https://msdn.microsoft.com/8cb19677-11b8-4594-b4dd-ebd00fae07d4">GetInjectionCapabilities</a> callback function is called to provide this information back to the calling application. The application uses this information when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559518">WHEAErrorInjectionMethods::InjectErrorRtn</a> method to inject a hardware error into the hardware platform.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559518">WHEAErrorInjectionMethods::InjectErrorRtn</a>
+
+
+
+<a href="https://msdn.microsoft.com/8cb19677-11b8-4594-b4dd-ebd00fae07d4">GetInjectionCapabilities</a>
 
 
 
@@ -206,12 +180,8 @@ A user-mode WHEA management application calls the <a href="https://msdn.microsof
 
 
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_get_injection_capabilities.md">GetInjectionCapabilities</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559518">WHEAErrorInjectionMethods::InjectErrorRtn</a>
  
 
  
-
 

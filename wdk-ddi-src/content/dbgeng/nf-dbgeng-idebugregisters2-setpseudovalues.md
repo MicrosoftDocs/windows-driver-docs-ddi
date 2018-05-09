@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.SetPseudoValues
-title: IDebugRegisters2::SetPseudoValues method
+title: IDebugRegisters2::SetPseudoValues
 author: windows-driver-content
 description: The SetPseudoValues method sets the value of several pseudo-registers.
 old-location: debugger\setpseudovalues.htm
 old-project: debugger
 ms.assetid: 89bfe36a-6674-43b7-a889-24fe15771aea
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues method [Windows Debugging], SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, SetPseudoValues,IDebugRegisters2.SetPseudoValues, dbgeng/IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues
+ms.date: 4/24/2018
+ms.keywords: IDebugRegisters2 interface [Windows Debugging],SetPseudoValues method, IDebugRegisters2.SetPseudoValues, IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues, SetPseudoValues method [Windows Debugging], SetPseudoValues method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugRegisters2.SetPseudoValues
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters2::SetPseudoValues method
+# IDebugRegisters2::SetPseudoValues
 
 
 ## -description
 
 
 The <b>SetPseudoValues</b> method sets the value of several pseudo-registers.
-
-
-## -syntax
-
-
-````
-HRESULT SetPseudoValues(
-  [in]           ULONG        Source,
-  [in]           ULONG        Count,
-  [in, optional] PULONG       Indices,
-  [in]           ULONG        Start,
-  [in]           PDEBUG_VALUE Values
-);
-````
 
 
 ## -parameters
@@ -135,7 +122,7 @@ Specifies the index of the first pseudo-register whose value will be set.  The p
 
 ### -param Values [in]
 
-Specifies the new values of the pseudo-registers.  The number of elements this array holds is <i>Count</i>.  See <a href="..\dbgeng\ns-dbgeng-_debug_value.md">DEBUG_VALUE</a> for a description of this parameter type.
+Specifies the new values of the pseudo-registers.  The number of elements this array holds is <i>Count</i>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a> for a description of this parameter type.
 
 
 ## -returns
@@ -170,23 +157,22 @@ The method was successful.
 
 
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548215">GetPseudoValues</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
  
 
  
-
 

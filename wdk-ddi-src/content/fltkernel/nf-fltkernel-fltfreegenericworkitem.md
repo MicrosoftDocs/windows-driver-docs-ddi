@@ -7,7 +7,7 @@ old-location: ifsk\fltfreegenericworkitem.htm
 old-project: ifsk
 ms.assetid: 6675d529-10de-4c39-999c-4c18471ea6e0
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_e8a6dadd-879e-4476-9433-40a065066445.xml, FltFreeGenericWorkItem, FltFreeGenericWorkItem routine [Installable File System Drivers], fltkernel/FltFreeGenericWorkItem, ifsk.fltfreegenericworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltFreeGenericWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltFreeGenericWorkItem function
@@ -49,17 +50,7 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-The <b>FltFreeGenericWorkItem</b> routine frees a work item allocated by the <a href="..\fltkernel\nf-fltkernel-fltallocategenericworkitem.md">FltAllocateGenericWorkItem</a> routine. 
-
-
-## -syntax
-
-
-````
-VOID FltFreeGenericWorkItem(
-  _In_ PFLT_GENERIC_WORKITEM FltWorkItem
-);
-````
+The <b>FltFreeGenericWorkItem</b> routine frees a work item allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541749">FltAllocateGenericWorkItem</a> routine. 
 
 
 ## -parameters
@@ -85,23 +76,22 @@ None
 
 
 
-<b>FltFreeGenericWorkItem</b> frees an FLT_GENERIC_WORKITEM structure that was allocated by a previous call to <a href="..\fltkernel\nf-fltkernel-fltallocategenericworkitem.md">FltAllocateGenericWorkItem</a>. The freed memory is returned to nonpaged pool. 
+<b>FltFreeGenericWorkItem</b> frees an FLT_GENERIC_WORKITEM structure that was allocated by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541749">FltAllocateGenericWorkItem</a>. The freed memory is returned to nonpaged pool. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocategenericworkitem.md">FltAllocateGenericWorkItem</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueuegenericworkitem.md">FltQueueGenericWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541749">FltAllocateGenericWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543452">FltQueueGenericWorkItem</a>
  
 
  
-
 

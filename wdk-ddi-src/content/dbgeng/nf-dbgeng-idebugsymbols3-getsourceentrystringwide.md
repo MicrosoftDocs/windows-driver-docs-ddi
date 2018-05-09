@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceEntryStringWide
-title: IDebugSymbols3::GetSourceEntryStringWide method
+title: IDebugSymbols3::GetSourceEntryStringWide
 author: windows-driver-content
 description: Queries symbol information and returns locations in the target's memory.
 old-location: debugger\idebugsymbols3_getsourceentrystringwide.htm
 old-project: debugger
 ms.assetid: CDB72C6A-43E5-463B-97E5-44D22214C071
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetSourceEntryStringWide method [Windows Debugging], GetSourceEntryStringWide method [Windows Debugging], IDebugSymbols3 interface, GetSourceEntryStringWide,IDebugSymbols3.GetSourceEntryStringWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceEntryStringWide method, IDebugSymbols3::GetSourceEntryStringWide, dbgeng/IDebugSymbols3::GetSourceEntryStringWide, debugger.idebugsymbols3_getsourceentrystringwide
+ms.date: 4/24/2018
+ms.keywords: GetSourceEntryStringWide, GetSourceEntryStringWide method [Windows Debugging], GetSourceEntryStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntryStringWide method, IDebugSymbols3.GetSourceEntryStringWide, IDebugSymbols3::GetSourceEntryStringWide, dbgeng/IDebugSymbols3::GetSourceEntryStringWide, debugger.idebugsymbols3_getsourceentrystringwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugSymbols3.GetSourceEntryStringWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSourceEntryStringWide method
+# IDebugSymbols3::GetSourceEntryStringWide
 
 
 ## -description
 
 
 Queries symbol information and returns locations in the target's memory.
-
-
-## -syntax
-
-
-````
-HRESULT GetSourceEntryStringWide(
-  [in]            PDEBUG_SYMBOL_SOURCE_ENTRY     Entry,
-  [in]            ULONG                          Which,
-  [out]           _writes_opt_(BufferSize) PWSTR Buffer,
-  [in]            ULONG                          BufferSize,
-  [out, optional] PULONG                         StringSize
-);
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ HRESULT GetSourceEntryStringWide(
 
 ### -param Entry [in]
 
-An entry as a <a href="..\dbgeng\ns-dbgeng-_debug_symbol_source_entry.md">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure. 
+An entry as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541680">DEBUG_SYMBOL_SOURCE_ENTRY</a> structure. 
 
 
 ### -param Which [in]
@@ -109,12 +96,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

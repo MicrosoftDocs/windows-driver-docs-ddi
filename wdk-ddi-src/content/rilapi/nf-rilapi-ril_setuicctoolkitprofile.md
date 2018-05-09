@@ -7,7 +7,7 @@ old-location: netvista\ril_setuicctoolkitprofile.htm
 old-project: netvista
 ms.assetid: 123bf713-d238-491a-bc53-1f35dbb34feb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SetUiccToolkitProfile, RIL_SetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], netvista.ril_setuicctoolkitprofile, rilapi/RIL_SetUiccToolkitProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_SetUiccToolkitProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SetUiccToolkitProfile function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_SetUiccToolkitProfile(
-   HRIL                         hRil,
-   LPVOID                       lpContext,
-   const RILUICCTOOLKITPROFILE  lpToolkitProfile
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: kernel\rtluintptrmult.htm
 old-project: kernel
 ms.assetid: E484AB83-DEA6-4FC7-9896-26984D998661
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUIntPtrMult, RtlUIntPtrMult function [Kernel-Mode Driver Architecture], kernel.rtluintptrmult, ntintsafe/RtlUIntPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlUIntPtrMult
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlUIntPtrMult function
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Multiplies one value of type <b>UINT_PTR</b> by another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUIntPtrMult(
-  _In_  UINT_PTR uMultiplicand,
-  _In_  UINT_PTR uMultiplier,
-  _Out_ UINT_PTR *puResult
-);
-````
 
 
 ## -parameters

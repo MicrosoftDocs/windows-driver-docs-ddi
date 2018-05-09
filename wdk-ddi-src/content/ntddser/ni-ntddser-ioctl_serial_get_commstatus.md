@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_get_commstatus.htm
 old-project: serports
 ms.assetid: 70d0efe3-5ba1-4552-8c58-83c3f14e2264
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_GET_COMMSTATUS, IOCTL_SERIAL_GET_COMMSTATUS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_COMMSTATUS, serports.ioctl_serial_get_commstatus, serref_4c26c2fc-2285-4b46-8791-0fb613e1c05a.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_GET_COMMSTATUS, IOCTL_SERIAL_GET_COMMSTATUS control, IOCTL_SERIAL_GET_COMMSTATUS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_COMMSTATUS, serports.ioctl_serial_get_commstatus, serref_4c26c2fc-2285-4b46-8791-0fb613e1c05a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_GET_COMMSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_GET_COMMSTATUS IOCTL
@@ -49,7 +50,7 @@ req.typenames: SD_REQUEST_FUNCTION
 ## -description
 
 
-The <b>IOCTL_SERIAL_GET_COMMSTATUS</b> request returns information about the communication status of a serial device. For more information about the status information that is retrieved by this request, see <a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>.
+The <b>IOCTL_SERIAL_GET_COMMSTATUS</b> request returns information about the communication status of a serial device. For more information about the status information that is retrieved by this request, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj673022">SERIAL_STATUS</a>.
 
 
 ## -ioctlparameters
@@ -104,12 +105,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj673022">SERIAL_STATUS</a>
  
 
  
-
 

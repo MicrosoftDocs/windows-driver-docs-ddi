@@ -7,7 +7,7 @@ old-location: stream\bda_pid_unmap.htm
 old-project: stream
 ms.assetid: 7c669708-9b5d-424f-ab6f-6e3498331c74
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_PID_UNMAP, BDA_PID_UNMAP, BDA_PID_UNMAP structure [Streaming Media Devices], PBDA_PID_UNMAP, PBDA_PID_UNMAP structure pointer [Streaming Media Devices], _BDA_PID_UNMAP, bdaref_2ce4a3ed-4ca0-421f-9de6-6a07dffe0cbe.xml, bdatypes/BDA_PID_UNMAP, bdatypes/PBDA_PID_UNMAP, stream.bda_pid_unmap"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_PID_UNMAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_PID_UNMAP, *PBDA_PID_UNMAP
 ---
@@ -50,17 +51,6 @@ req.typenames: BDA_PID_UNMAP, *PBDA_PID_UNMAP
 
 
 The BDA_PID_UNMAP structure describes packet types to stop filtering from the input stream of a packet identifier (PID) filter. These packet types are identified with PIDs. 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_PID_UNMAP {
-  ULONG ulcPIDs;
-  ULONG aulPIDs[MIN_DIMENSION];
-} BDA_PID_UNMAP, *PBDA_PID_UNMAP;
-````
 
 
 ## -struct-fields
@@ -80,15 +70,10 @@ Array of PIDs that identify packets to unmap from the output of a PID filter.
 
 ## -see-also
 
-<a href="..\bdatypes\ns-bdatypes-pid_map.md">PID_MAP</a>
 
 
 
-<a href="..\bdatypes\ns-bdatypes-_bda_pid_map.md">BDA_PID_MAP</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556534">BDA_PID_MAP</a>
 
 
 
@@ -96,8 +81,12 @@ Array of PIDs that identify packets to unmap from the output of a PID filter.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567763">PID_MAP</a>
  
 
  
-
 

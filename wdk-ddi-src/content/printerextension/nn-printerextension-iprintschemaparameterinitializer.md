@@ -7,8 +7,8 @@ old-location: print\iprintschemaparameterinitializer.htm
 old-project: print
 ms.assetid: A4A1C231-3D71-4952-B5FA-0C8275DEF4F1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaParameterInitializer, IPrintSchemaParameterInitializer interface [Print Devices], IPrintSchemaParameterInitializer interface [Print Devices], described, print.iprintschemaparameterinitializer, printerextension/IPrintSchemaParameterInitializer
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaParameterInitializer, IPrintSchemaParameterInitializer interface [Print Devices], IPrintSchemaParameterInitializer interface [Print Devices],described, print.iprintschemaparameterinitializer, printerextension/IPrintSchemaParameterInitializer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaParameterInitializer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrintSchemaParameterInitializer interface
@@ -57,20 +57,19 @@ For more information about the four data types that you can use with the &lt;psf
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451270">IPrintSchemaElement</a>
+
+
+
 <a href="https://msdn.microsoft.com/E5403359-A757-4530-B17B-C80E8A45AA92">IPrintSchematicket2::GetParameterInitializer</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg463385.aspx">Print Schema Specification</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmtsignalsynchronizationobjectfromcpu.htm
 old-project: display
 ms.assetid: 23DC5EB1-E606-499D-B78A-AFF95E6B00A3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTSignalSynchronizationObjectFromCpu, D3DKMTSignalSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu, display.d3dkmtsignalsynchronizationobjectfromcpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTSignalSynchronizationObjectFromCpu
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTSignalSynchronizationObjectFromCpu function
@@ -56,16 +57,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 <b>D3DKMTSignalSynchronizationObjectFromCpu</b> enables a driver to signal a monitored fence.
 
 
-
-
-## -syntax
-
-
-````
-HRESULT APIENTRY D3DKMTSignalSynchronizationObjectFromCpu(
-  _In_ const D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU *pData
-);
-````
 
 
 ## -parameters
@@ -82,7 +73,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_signalsynchronizationobjectfromcpu.md">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation..
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906803">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation..
 
 
 ## -returns

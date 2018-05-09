@@ -7,7 +7,7 @@ old-location: display\d3dddicb_submitwaitforsyncobjectstohwqueue.htm
 old-project: display
 ms.assetid: 9890EB61-2CED-41AB-9A87-76D5020D84A0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, display.d3dddicb_submitwaitforsyncobjectstohwqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
 
 
 A structure that holds information to wait for synchronized objects. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE {
-  HANDLE              hHwQueue;
-  UINT                ObjectCount;
-  const D3DKMT_HANDLE *ObjectHandleArray;
-  const UINT64        *FenceValueArray;
-} D3DDDICB_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE;
-````
 
 
 ## -struct-fields

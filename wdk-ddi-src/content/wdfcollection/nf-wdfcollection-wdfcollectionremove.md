@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfCollectionRemove
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfCollectionRemove function
@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfCollectionRemove</b> method removes an object from a specified object collection.
-
-
-## -syntax
-
-
-````
-VOID WdfCollectionRemove(
-  _In_ WDFCOLLECTION Collection,
-  _In_ WDFOBJECT     Item
-);
-````
 
 
 ## -parameters
@@ -126,12 +115,11 @@ The following code example removes a specified object from a specified object co
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremoveitem.md">WdfCollectionRemoveItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545792">WdfCollectionRemoveItem</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\dxgkddi_createprotectedsession.htm
 old-project: display
 ms.assetid: 0FAE7AA0-839D-4D21-BC10-46B2B651979F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_CREATEPROTECTEDSESSION, DXGKDDI_CREATEPROTECTEDSESSION callback function [Display Devices], d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION, display.dxgkddi_createprotectedsession
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_CREATEPROTECTEDSESSION, DXGKDDI_CREATEPROTECTEDSESSION callback, DXGKDDI_CREATEPROTECTEDSESSION callback function [Display Devices], d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION, display.dxgkddi_createprotectedsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_CREATEPROTECTEDSESSION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_CREATEPROTECTEDSESSION callback
+# DXGKDDI_CREATEPROTECTEDSESSION callback function
 
 
 ## -description
 
 
 Used to create a protected session.
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_CREATEPROTECTEDSESSION(
-  _In_    const HANDLE                           hAdapter,
-  _Inout_       PDXGKARG_CREATEPROTECTEDSESSION  pCreateProtectedSession
-);
-````
 
 
 ## -parameters

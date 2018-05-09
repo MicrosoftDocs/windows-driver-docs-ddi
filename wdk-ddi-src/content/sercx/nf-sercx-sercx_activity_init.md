@@ -7,7 +7,7 @@ old-location: serports\sercx_activity_init.htm
 old-project: serports
 ms.assetid: 211A3DBB-96B8-4DB5-BB50-FAB7500D999F
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 1/SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT, SERCX_ACTIVITY_INIT function [Serial Ports], serports.sercx_activity_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SERCX_ACTIVITY_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SERCX_ACTIVITY_INIT function
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>SERCX_ACTIVITY_INIT</b> function initializes a <a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a> structure.
-
-
-## -syntax
-
-
-````
-VOID SERCX_ACTIVITY_INIT(
-  _Out_ SERCX_ACTIVITY *Activity
-);
-````
+The <b>SERCX_ACTIVITY_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439527">SERCX_ACTIVITY</a> structure.
 
 
 ## -parameters
@@ -84,12 +74,11 @@ None.
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439527">SERCX_ACTIVITY</a>
  
 
  
-
 

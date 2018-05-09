@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ee44c0bf-1fca-442d-8871-df6079e89ced
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectGeneralRef_74ee41b0-ed8c-4028-8f82-d747a4d916bb.xml, EVT_WDF_DEVICE_FILE_CREATE, EvtDeviceFileCreate, EvtDeviceFileCreate callback function, kmdf.evtdevicefilecreate, wdf.evtdevicefilecreate, wdfdevice/EvtDeviceFileCreate
+ms.keywords: DFDeviceObjectGeneralRef_74ee41b0-ed8c-4028-8f82-d747a4d916bb.xml, EVT_WDF_DEVICE_FILE_CREATE, EVT_WDF_DEVICE_FILE_CREATE callback, EvtDeviceFileCreate, EvtDeviceFileCreate callback function, kmdf.evtdevicefilecreate, wdf.evtdevicefilecreate, wdfdevice/EvtDeviceFileCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	Wdfdevice.h
 api_name:
 -	EvtDeviceFileCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DEVICE_FILE_CREATE callback
+# EVT_WDF_DEVICE_FILE_CREATE callback function
 
 
 ## -description
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 A driver's <i>EvtDeviceFileCreate</i> callback function handles operations that must be performed when an application requests access to a device.
-
-
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_FILE_CREATE EvtDeviceFileCreate;
-
-VOID EvtDeviceFileCreate(
-  _In_ WDFDEVICE     Device,
-  _In_ WDFREQUEST    Request,
-  _In_ WDFFILEOBJECT FileObject
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +72,7 @@ A handle to a framework request object that represents a file creation request.
 
 ### -param FileObject [in]
 
-A handle to a framework file object that describes a file that is being opened for the specified request. This parameter is <b>NULL</b> if the driver has specified <a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WdfFileObjectNotRequired</a> for the <b>FileObjectClass </b>member of the <a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a> structure.
+A handle to a framework file object that describes a file that is being opened for the specified request. This parameter is <b>NULL</b> if the driver has specified <a href="https://msdn.microsoft.com/e0887061-eafe-4dba-bb7a-58bf949e2d08">WdfFileObjectNotRequired</a> for the <b>FileObjectClass </b>member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551319">WDF_FILEOBJECT_CONFIG</a> structure.
 
 
 ## -returns
@@ -105,11 +90,11 @@ None
 
 The framework calls a driver's <i>EvtDeviceFileCreate</i> callback function when a user application or another driver opens the device to perform an I/O operation, such as reading or writing a file. 
 
-The driver can pass the <i>Request</i> handle to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a> to retrieve parameters that are associated with the file creation request. The parameters are stored in the <b>Parameters.Create</b> member of the <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_parameters.md">WDF_REQUEST_PARAMETERS</a> structure. 
+The driver can pass the <i>Request</i> handle to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549969">WdfRequestGetParameters</a> to retrieve parameters that are associated with the file creation request. The parameters are stored in the <b>Parameters.Create</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552472">WDF_REQUEST_PARAMETERS</a> structure. 
 
 This callback function is called synchronously, in the context of the user thread that opens the device. 
 
-To register an <i>EvtDeviceFileCreate</i> callback function, the driver must call the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetfileobjectconfig.md">WdfDeviceInitSetFileObjectConfig</a> method.
+To register an <i>EvtDeviceFileCreate</i> callback function, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546107">WdfDeviceInitSetFileObjectConfig</a> method.
 
 For more information about framework file objects and the <i>EvtDeviceFileCreate</i> callback function, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.
 
@@ -156,12 +141,11 @@ The <b>EVT_WDF_DEVICE_FILE_CREATE</b> function type is defined in the Wdfdevice.
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551319">WDF_FILEOBJECT_CONFIG</a>
  
 
  
-
 

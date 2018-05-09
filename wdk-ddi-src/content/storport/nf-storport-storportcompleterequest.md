@@ -7,7 +7,7 @@ old-location: storage\storportcompleterequest.htm
 old-project: storage
 ms.assetid: 20ee0633-a743-46e8-a094-37099b8e4427
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortCompleteRequest, StorPortCompleteRequest routine [Storage Devices], storage.storportcompleterequest, storport/StorPortCompleteRequest, storprt_c91d5dfe-31de-4804-a0be-c2bab228fbb9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortCompleteRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortCompleteRequest function
@@ -54,20 +54,6 @@ req.product: Windows 10 or later.
 The <b>StorPortCompleteRequest</b> routine completes all outstanding requests setting the SRB status value to <b>SrbStatus</b>. 
 
 
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortCompleteRequest(
-  _In_ PVOID HwDeviceExtension,
-  _In_ UCHAR PathId,
-  _In_ UCHAR TargetId,
-  _In_ UCHAR Lun,
-  _In_ UCHAR SrbStatus
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +61,7 @@ STORPORT_API VOID StorPortCompleteRequest(
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
+A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567108">StorPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ### -param PathId [in]
@@ -118,12 +104,11 @@ We do not recommend that writers of Storport miniport drivers use this particula
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564608">ScsiPortCompleteRequest</a>
  
 
  
-
 

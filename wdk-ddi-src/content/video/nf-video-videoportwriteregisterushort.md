@@ -7,7 +7,7 @@ old-location: display\videoportwriteregisterushort.htm
 old-project: display
 ms.assetid: 0bc9b0a1-6cd8-4d76-a71e-694a8435773e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortWriteRegisterUshort, VideoPortWriteRegisterUshort function [Display Devices], VideoPort_Functions_b7adcb2e-bf7a-4ce3-bcd9-f11c24982b48.xml, display.videoportwriteregisterushort, video/VideoPortWriteRegisterUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortWriteRegisterUshort
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortWriteRegisterUshort function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortWriteRegisterUshort</b> function writes a USHORT value to a mapped register.
 
 
-## -syntax
-
-
-````
-VOID VideoPortWriteRegisterUshort(
-   PUSHORT Register,
-   USHORT  Value
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ VOID VideoPortWriteRegisterUshort(
 
 ### -param Register
 
-Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>.
+Pointer to the register. The given <i>Register</i> must be in a mapped memory-space range returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>.
 
 
 ### -param Value
@@ -92,7 +81,7 @@ None
 
 
 
-A miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWriteRegisterUshort</b>.
+A miniport driver's <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> or <a href="https://msdn.microsoft.com/04e3bac6-c905-4c95-bd1b-e85b46c4296d">HwVidSynchronizeExecutionCallback</a> function can call <b>VideoPortWriteRegisterUshort</b>.
 
 Callers of <b>VideoPortWriteRegisterUshort</b> can be running at any IRQL, provided that the memory pointed to by the <i>Register</i> parameter is resident, mapped device memory.
 
@@ -101,12 +90,11 @@ Callers of <b>VideoPortWriteRegisterUshort</b> can be running at any IRQL, provi
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>
  
 
  
-
 

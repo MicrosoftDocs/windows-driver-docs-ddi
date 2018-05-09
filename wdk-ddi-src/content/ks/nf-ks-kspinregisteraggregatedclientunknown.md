@@ -7,7 +7,7 @@ old-location: stream\kspinregisteraggregatedclientunknown.htm
 old-project: stream
 ms.assetid: 302d87be-a276-49ea-98f2-89e1f231c3c6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinRegisterAggregatedClientUnknown, KsPinRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_688a6c60-58c8-4e65-a3bc-d68e713ca3fc.xml, ks/KsPinRegisterAggregatedClientUnknown, stream.kspinregisteraggregatedclientunknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsPinRegisterAggregatedClientUnknown
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,18 +50,7 @@ req.typenames:
 ## -description
 
 
-This inline function is a wrapper for <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>.
-
-
-## -syntax
-
-
-````
-PUNKNOWN __inline KsPinRegisterAggregatedClientUnknown(
-  _In_ PKSPIN   Pin,
-  _In_ PUNKNOWN ClientUnknown
-);
-````
+This inline function is a wrapper for <a href="https://msdn.microsoft.com/library/windows/hardware/ff566767">KsRegisterAggregatedClientUnknown</a>.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ PUNKNOWN __inline KsPinRegisterAggregatedClientUnknown(
 
 ### -param Pin [in]
 
-A pointer to a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure.
 
 
 ### -param ClientUnknown [in]
@@ -91,19 +81,18 @@ A pointer to an <b>IUnknown</b> interface.
 
 
 
-This inline function only performs a typecast and then calls <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>.
+This inline function only performs a typecast and then calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566767">KsRegisterAggregatedClientUnknown</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566767">KsRegisterAggregatedClientUnknown</a>
  
 
  
-
 

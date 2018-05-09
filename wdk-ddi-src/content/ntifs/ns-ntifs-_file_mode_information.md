@@ -7,7 +7,7 @@ old-location: kernel\file_mode_information.htm
 old-project: kernel
 ms.assetid: c01ee792-4e39-4135-b389-a5c5ac832245
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PFILE_MODE_INFORMATION, FILE_MODE_INFORMATION, FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_MODE_INFORMATION, kernel.file_mode_information, kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, ntifs/FILE_MODE_INFORMATION, ntifs/PFILE_MODE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	FILE_MODE_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION
 ---
@@ -50,16 +51,6 @@ req.typenames: FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION
 
 
 The <b>FILE_MODE_INFORMATION</b> structure is used to query or set the access mode of a file.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_MODE_INFORMATION {
-  ULONG Mode;
-} FILE_MODE_INFORMATION, *PFILE_MODE_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -116,25 +107,24 @@ These flags are defined in the Wdm.h header file. For more information, see the 
 
 
 
-This structure contains a set of flags that specify the mode in which the file can be accessed. These flags are a subset of the options that can be specified in the <i>CreateOptions</i> parameter of the <a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a> routine.
+This structure contains a set of flags that specify the mode in which the file can be accessed. These flags are a subset of the options that can be specified in the <i>CreateOptions</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548418">IoCreateFile</a> routine.
 
-This structure is used by the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a> routine.
+This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548418">IoCreateFile</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
  
 
  
-
 

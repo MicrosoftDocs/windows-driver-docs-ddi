@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiUSD.RawReadData
-title: IStiUSD::RawReadData method
+title: IStiUSD::RawReadData
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::RawReadData method reads data from a still image device.
 old-location: image\istiusd_rawreaddata.htm
 old-project: image
 ms.assetid: 6ae64309-da53-420b-bf87-e8924e902dba
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], RawReadData method, IStiUSD::RawReadData, RawReadData method [Imaging Devices], RawReadData method [Imaging Devices], IStiUSD interface, RawReadData,IStiUSD.RawReadData, image.istiusd_rawreaddata, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, stiusd/IStiUSD::RawReadData
+ms.date: 4/23/2018
+ms.keywords: IStiUSD interface [Imaging Devices],RawReadData method, IStiUSD.RawReadData, IStiUSD::RawReadData, RawReadData, RawReadData method [Imaging Devices], RawReadData method [Imaging Devices],IStiUSD interface, image.istiusd_rawreaddata, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, stiusd/IStiUSD::RawReadData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	stiusd.h
 api_name:
 -	IStiUSD.RawReadData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiUSD::RawReadData method
+# IStiUSD::RawReadData
 
 
 ## -description
 
 
 A still image minidriver's <b>IStiUSD::RawReadData</b> method reads data from a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT RawReadData(
-   LPVOID       lpBuffer,
-   LPDWORD      lpdwNumberOfBytes,
-   LPOVERLAPPED lpOverlapped
-);
-````
 
 
 ## -parameters
@@ -100,14 +88,13 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 A still image minidriver typically implements this method by calling <b>ReadFile</b> (described in the Windows SDK documentation).
 
-For USB devices, better performance can be achieved if read requests are aligned to maximum packet size boundaries. Maximum packet sizes can be obtained by calling <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, specifying the <a href="..\usbscan\ni-usbscan-ioctl_get_channel_align_rqst.md">IOCTL_GET_CHANNEL_ALIGN_RQST</a> I/O control code.
+For USB devices, better performance can be achieved if read requests are aligned to maximum packet size boundaries. Maximum packet sizes can be obtained by calling <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, specifying the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542849">IOCTL_GET_CHANNEL_ALIGN_RQST</a> I/O control code.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
 
 
 
@@ -115,8 +102,8 @@ For USB devices, better performance can be achieved if read requests are aligned
 
 
 
+<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
  
 
  
-
 

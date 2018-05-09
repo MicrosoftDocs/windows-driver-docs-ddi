@@ -7,7 +7,7 @@ old-location: display\d3dkmt-removesurfacefromswapchain.htm
 old-project: display
 ms.assetid: 249a2bfc-7326-480f-bcc0-8d5104a9c890
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure [Display Devices], _D3DKMT_REMOVESURFACEFROMSWAPCHAIN, d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN, display.d3dkmt-removesurfacefromswapchain
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_REMOVESURFACEFROMSWAPCHAIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_REMOVESURFACEFROMSWAPCHAIN
 ---
@@ -52,19 +53,6 @@ req.typenames: D3DKMT_REMOVESURFACEFROMSWAPCHAIN
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Used to remove a surface from the swap chain.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_REMOVESURFACEFROMSWAPCHAIN {
-  HANDLE hNtSwapChain;
-  BOOL   bProducer;
-  HANDLE hNtSurfaceHandle;
-  UINT   BufferIdx;
-} D3DKMT_REMOVESURFACEFROMSWAPCHAIN;
-````
 
 
 ## -struct-fields

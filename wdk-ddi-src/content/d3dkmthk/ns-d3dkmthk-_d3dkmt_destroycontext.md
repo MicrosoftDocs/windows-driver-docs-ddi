@@ -7,7 +7,7 @@ old-location: display\d3dkmt_destroycontext.htm
 old-project: display
 ms.assetid: 116c0fa7-ac3c-4a56-804c-637514a19c73
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_DESTROYCONTEXT, D3DKMT_DESTROYCONTEXT structure [Display Devices], OpenGL_Structs_97f52665-09e6-4f11-b2cc-a7abcc61827c.xml, _D3DKMT_DESTROYCONTEXT, d3dkmthk/D3DKMT_DESTROYCONTEXT, display.d3dkmt_destroycontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DESTROYCONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DESTROYCONTEXT
 ---
@@ -52,16 +53,6 @@ req.typenames: D3DKMT_DESTROYCONTEXT
 The D3DKMT_DESTROYCONTEXT structure contains a handle to a kernel-mode device context to release.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DKMT_DESTROYCONTEXT {
-  D3DKMT_HANDLE hContext;
-} D3DKMT_DESTROYCONTEXT;
-````
-
-
 ## -struct-fields
 
 
@@ -69,21 +60,20 @@ typedef struct _D3DKMT_DESTROYCONTEXT {
 
 ### -field hContext
 
-[in] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a> function.
+[in] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546814">D3DKMTCreateContext</a> function.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroycontext.md">D3DKMTDestroyContext</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatecontext.md">D3DKMTCreateContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546814">D3DKMTCreateContext</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546897">D3DKMTDestroyContext</a>
  
 
  
-
 

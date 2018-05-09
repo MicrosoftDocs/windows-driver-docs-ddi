@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiRequest.GetOutputData
-title: IBidiRequest::GetOutputData method
+title: IBidiRequest::GetOutputData
 author: windows-driver-content
 description: The GetOutputData method gets the specified output data coming back from the printer.
 old-location: print\ibidirequest_ibidirequest__getoutputdata.htm
 old-project: print
 ms.assetid: 0757dbc2-850b-4267-9339-b87591f85767
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, GetOutputData method [Print Devices], GetOutputData method [Print Devices], IBidiRequest interface, GetOutputData,IBidiRequest.GetOutputData, IBidiRequest, IBidiRequest interface [Print Devices], GetOutputData method, IBidiRequest::GetOutputData, _win32_IBidiRequest_GetOutputData, bidispl/IBidiRequest::GetOutputData, gdi.ibidirequest_ibidirequest__getoutputdata, print.ibidirequest_ibidirequest__getoutputdata
+ms.date: 4/20/2018
+ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, GetOutputData, GetOutputData method [Print Devices], GetOutputData method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetOutputData method, IBidiRequest.GetOutputData, IBidiRequest::GetOutputData, _win32_IBidiRequest_GetOutputData, bidispl/IBidiRequest::GetOutputData, gdi.ibidirequest_ibidirequest__getoutputdata, print.ibidirequest_ibidirequest__getoutputdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiRequest.GetOutputData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiRequest::GetOutputData method
+# IBidiRequest::GetOutputData
 
 
 ## -description
 
 
 The <b>GetOutputData</b> method gets the specified output data coming back from the printer.
-
-
-## -syntax
-
-
-````
-HRESULT GetOutputData(
-  [in]  const DWORD  dwIndex,
-  [out]       LPWSTR *ppszSchema,
-  [out]       DWORD  *pdwType,
-  [out]       BYTE   **ppData,
-  [out]       ULONG  *uSize
-);
-````
 
 
 ## -parameters
@@ -258,7 +245,6 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/4c857ff4-02c1-487b-bdb0-44d62a4cf4a1">GetEnumCount</a>
 
 
 
@@ -270,12 +256,12 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+<a href="https://msdn.microsoft.com/4c857ff4-02c1-487b-bdb0-44d62a4cf4a1">GetEnumCount</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a>
  
 
  
-
 

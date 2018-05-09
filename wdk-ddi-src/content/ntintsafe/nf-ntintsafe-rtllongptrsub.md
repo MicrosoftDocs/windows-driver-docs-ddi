@@ -7,7 +7,7 @@ old-location: kernel\rtllongptrsub.htm
 old-project: kernel
 ms.assetid: 3F95CA04-3CE1-4298-B3B6-5D111AB4F3D3
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongPtrSub, RtlLongPtrSub function [Kernel-Mode Driver Architecture], kernel.rtllongptrsub, ntintsafe/RtlLongPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlLongPtrSub
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlLongPtrSub function
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Subtracts one value of type <b>LONG_PTR</b> from another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongPtrSub(
-  _In_  LONG_PTR lMinuend,
-  _In_  LONG_PTR lSubtrahend,
-  _Out_ LONG_PTR *plResult
-);
-````
 
 
 ## -parameters

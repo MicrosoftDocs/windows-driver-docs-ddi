@@ -7,7 +7,7 @@ old-location: kernel\pssetcreateprocessnotifyroutine.htm
 old-project: kernel
 ms.assetid: eeeea140-e469-476f-adce-4505817bc35e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: PsSetCreateProcessNotifyRoutine, PsSetCreateProcessNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_6ae7797a-ecbe-4665-85d5-e199f13613cd.xml, kernel.pssetcreateprocessnotifyroutine, ntddk/PsSetCreateProcessNotifyRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsSetCreateProcessNotifyRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # PsSetCreateProcessNotifyRoutine function
@@ -52,17 +53,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>PsSetCreateProcessNotifyRoutine</b> routine adds a driver-supplied callback routine to, or removes it from, a list of routines to be called whenever a process is created or deleted.
 
 
-## -syntax
-
-
-````
-NTSTATUS PsSetCreateProcessNotifyRoutine(
-  _In_ PCREATE_PROCESS_NOTIFY_ROUTINE NotifyRoutine,
-  _In_ BOOLEAN                        Remove
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ NTSTATUS PsSetCreateProcessNotifyRoutine(
 
 ### -param NotifyRoutine [in]
 
-Specifies the entry point of a caller-supplied process-creation callback routine. See <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine.md">PCREATE_PROCESS_NOTIFY_ROUTINE</a>.
+Specifies the entry point of a caller-supplied process-creation callback routine. See <a href="https://msdn.microsoft.com/library/windows/hardware/mt764085">PCREATE_PROCESS_NOTIFY_ROUTINE</a>.
 
 
 ### -param Remove [in]
@@ -121,7 +111,7 @@ The given <i>NotifyRoutine</i> has already been registered, so this call is a re
 
 
 
-Highest-level drivers can call <b>PsSetCreateProcessNotifyRoutine</b> to set up their process-creation notify routines implemented as <a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine.md">PCREATE_PROCESS_NOTIFY_ROUTINE</a>.
+Highest-level drivers can call <b>PsSetCreateProcessNotifyRoutine</b> to set up their process-creation notify routines implemented as <a href="https://msdn.microsoft.com/library/windows/hardware/mt764085">PCREATE_PROCESS_NOTIFY_ROUTINE</a>.
 
 An IFS or highest-level system-profiling driver might register a process-creation callback to track the system-wide creation and deletion of processes against the driver's internal state. For Windows Vista and later versions of Windows, the system can register up to 64 process-creation callback routines.
 
@@ -134,28 +124,27 @@ After a driver-supplied routine is registered, it is called with <i>Create</i> s
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt764085">PCREATE_PROCESS_NOTIFY_ROUTINE</a>
 
 
 
-<a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine.md">PCREATE_PROCESS_NOTIFY_ROUTINE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559935">PsGetCurrentProcessId</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559953">PsSetCreateProcessNotifyRoutineEx</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559954">PsSetCreateThreadNotifyRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559957">PsSetLoadImageNotifyRoutine</a>
  
 
  
-
 

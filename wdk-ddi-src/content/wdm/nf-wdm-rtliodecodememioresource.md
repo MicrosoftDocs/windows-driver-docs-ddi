@@ -7,7 +7,7 @@ old-location: kernel\rtliodecodememioresource.htm
 old-project: kernel
 ms.assetid: a6bdbd68-b4ec-467f-9892-e968243e8994
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlIoDecodeMemIoResource, RtlIoDecodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_27e29ad7-3e41-44ad-b3da-027180f51d2a.xml, kernel.rtliodecodememioresource, wdm/RtlIoDecodeMemIoResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlIoDecodeMemIoResource
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlIoDecodeMemIoResource function
@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>RtlIoDecodeMemIoResource</b> routine provides the address information that is contained in an <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that describes a range of memory or I/O port addresses.
-
-
-## -syntax
-
-
-````
-ULONGLONG RtlIoDecodeMemIoResource(
-  _In_      PIO_RESOURCE_DESCRIPTOR Descriptor,
-  _Out_opt_ PULONGLONG              Alignment,
-  _Out_opt_ PULONGLONG              MinimumAddress,
-  _Out_opt_ PULONGLONG              MaximumAddress
-);
-````
+The <b>RtlIoDecodeMemIoResource</b> routine provides the address information that is contained in an <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure that describes a range of memory or I/O port addresses.
 
 
 ## -parameters
@@ -73,7 +60,7 @@ ULONGLONG RtlIoDecodeMemIoResource(
 
 ### -param Descriptor [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure to provide the address information for.
+A pointer to the <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure to provide the address information for.
 
 
 ### -param Alignment [out, optional]
@@ -104,23 +91,22 @@ A pointer to a variable that receives the maximum address of the address range. 
 
 
 
-The <b>Type</b> member of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure must be <b>CmResourceTypeMemory</b>, <b>CmResourceTypeMemoryLarge</b>, or <b>CmResourceTypePort</b>. 
+The <b>Type</b> member of the <a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a> structure must be <b>CmResourceTypeMemory</b>, <b>CmResourceTypeMemoryLarge</b>, or <b>CmResourceTypePort</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlioencodememioresource.md">RtlIoEncodeMemIoResource</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561952">RtlIoEncodeMemIoResource</a>
  
 
  
-
 

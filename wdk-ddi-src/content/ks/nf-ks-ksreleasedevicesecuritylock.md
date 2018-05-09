@@ -7,7 +7,7 @@ old-location: stream\ksreleasedevicesecuritylock.htm
 old-project: stream
 ms.assetid: b14a4816-2e72-491d-9881-ae532c287e99
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsReleaseDeviceSecurityLock, KsReleaseDeviceSecurityLock function [Streaming Media Devices], ks/KsReleaseDeviceSecurityLock, ksfunc_4f6e594d-1f06-4741-89f2-d153db3a63e7.xml, stream.ksreleasedevicesecuritylock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsReleaseDeviceSecurityLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The <b>KsReleaseDeviceSecurityLock</b> function releases a previously acquired security lock on the device object header.
-
-
-## -syntax
-
-
-````
-VOID KsReleaseDeviceSecurityLock(
-  _In_ KSDEVICE_HEADER Header
-);
-````
 
 
 ## -parameters
@@ -84,12 +75,11 @@ None
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a>
  
 
  
-
 

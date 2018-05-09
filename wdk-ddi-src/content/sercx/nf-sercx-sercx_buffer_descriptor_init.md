@@ -7,7 +7,7 @@ old-location: serports\sercx_buffer_descriptor_init.htm
 old-project: serports
 ms.assetid: 73C7C38A-F6E1-4276-A66A-0C16BC6E8F1C
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 1/SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], serports.sercx_buffer_descriptor_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	SERCX_BUFFER_DESCRIPTOR_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SERCX_BUFFER_DESCRIPTOR_INIT function
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>SERCX_BUFFER_DESCRIPTOR_INIT</b> function initializes a <a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a> structure.
-
-
-## -syntax
-
-
-````
-VOID SERCX_BUFFER_DESCRIPTOR_INIT(
-  _Out_ SERCX_BUFFER_DESCRIPTOR *Descriptor
-);
-````
+The <b>SERCX_BUFFER_DESCRIPTOR_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439539">SERCX_BUFFER_DESCRIPTOR</a> structure.
 
 
 ## -parameters
@@ -84,12 +74,11 @@ None.
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-sercx_buffer_descriptor.md">SERCX_BUFFER_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439539">SERCX_BUFFER_DESCRIPTOR</a>
  
 
  
-
 

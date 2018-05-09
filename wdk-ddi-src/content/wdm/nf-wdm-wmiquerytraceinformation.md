@@ -7,7 +7,7 @@ old-location: kernel\wmiquerytraceinformation.htm
 old-project: kernel
 ms.assetid: 8a6a930a-4267-47be-be00-ab9c102560c4
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: WmiQueryTraceInformation, WmiQueryTraceInformation routine [Kernel-Mode Driver Architecture], k902_c4cd7b60-d605-465f-b018-f82b6d1144de.xml, kernel.wmiquerytraceinformation, wdm/WmiQueryTraceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	WmiQueryTraceInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WmiQueryTraceInformation function
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The <b>WmiQueryTraceInformation</b> routine returns information about a <a href="https://msdn.microsoft.com/72505a9a-830a-4529-ba73-31af0fedfeec">WMI event trace</a>.
 
 
-## -syntax
-
-
-````
-NTSTATUS WmiQueryTraceInformation(
-  _In_      TRACE_INFORMATION_CLASS TraceInformationClass,
-  _Out_     PVOID                   TraceInformation,
-  _In_      ULONG                   TraceInformationLength,
-  _Out_opt_ PULONG                  RequiredLength,
-  _In_opt_  PVOID                   Buffer
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ NTSTATUS WmiQueryTraceInformation(
 
 ### -param TraceInformationClass [in]
 
-Specifies a <a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a> enumerator that indicates the type of information to return about an event trace.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564750">TRACE_INFORMATION_CLASS</a> enumerator that indicates the type of information to return about an event trace.
 
 
 ### -param TraceInformation [out]
@@ -370,28 +356,27 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
 
 
 
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550520">IoWmiWriteEvent</a>
 
 
 
-<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564750">TRACE_INFORMATION_CLASS</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565807">WmiFireEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565836">WmiTraceMessage</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566340">WmiTraceMessageVa</a>
  
 
  
-
 

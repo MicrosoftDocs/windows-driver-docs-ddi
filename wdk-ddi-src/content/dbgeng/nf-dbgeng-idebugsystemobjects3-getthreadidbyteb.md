@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetThreadIdByTeb
-title: IDebugSystemObjects3::GetThreadIdByTeb method
+title: IDebugSystemObjects3::GetThreadIdByTeb
 author: windows-driver-content
 description: The GetThreadIdByTeb method returns the engine thread ID of the specified thread. The thread is specified by its thread environment block (TEB).
 old-location: debugger\getthreadidbyteb.htm
 old-project: debugger
 ms.assetid: 64b98d8b-883b-4a2c-a5de-058bb3b732df
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetThreadIdByTeb method [Windows Debugging], GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects interface, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects2 interface, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects3 interface, GetThreadIdByTeb method [Windows Debugging], IDebugSystemObjects4 interface, GetThreadIdByTeb,IDebugSystemObjects3.GetThreadIdByTeb, IDebugSystemObjects interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects2::GetThreadIdByTeb, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects3::GetThreadIdByTeb, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdByTeb method, IDebugSystemObjects4::GetThreadIdByTeb, IDebugSystemObjects::GetThreadIdByTeb, IDebugSystemObjects_6f4062c3-c2ef-43bf-81c6-32103f37e793.xml, dbgeng/IDebugSystemObjects2::GetThreadIdByTeb, dbgeng/IDebugSystemObjects3::GetThreadIdByTeb, dbgeng/IDebugSystemObjects4::GetThreadIdByTeb, dbgeng/IDebugSystemObjects::GetThreadIdByTeb, debugger.getthreadidbyteb
+ms.date: 4/24/2018
+ms.keywords: GetThreadIdByTeb, GetThreadIdByTeb method [Windows Debugging], GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects interface, GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects2 interface, GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects3 interface, GetThreadIdByTeb method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects2 interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects2::GetThreadIdByTeb, IDebugSystemObjects3 interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects3.GetThreadIdByTeb, IDebugSystemObjects3::GetThreadIdByTeb, IDebugSystemObjects4 interface [Windows Debugging],GetThreadIdByTeb method, IDebugSystemObjects4::GetThreadIdByTeb, IDebugSystemObjects::GetThreadIdByTeb, IDebugSystemObjects_6f4062c3-c2ef-43bf-81c6-32103f37e793.xml, dbgeng/IDebugSystemObjects2::GetThreadIdByTeb, dbgeng/IDebugSystemObjects3::GetThreadIdByTeb, dbgeng/IDebugSystemObjects4::GetThreadIdByTeb, dbgeng/IDebugSystemObjects::GetThreadIdByTeb, debugger.getthreadidbyteb
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,29 +41,19 @@ api_name:
 -	IDebugSystemObjects2.GetThreadIdByTeb
 -	IDebugSystemObjects3.GetThreadIdByTeb
 -	IDebugSystemObjects4.GetThreadIdByTeb
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects3::GetThreadIdByTeb method
+# IDebugSystemObjects3::GetThreadIdByTeb
 
 
 ## -description
 
 
 The <b>GetThreadIdByTeb</b> method returns the engine thread ID of the specified thread.  The thread is specified by its thread environment block (TEB).
-
-
-## -syntax
-
-
-````
-HRESULT GetThreadIdByTeb(
-  [in]  ULONG64 Offset,
-  [out] PULONG  Id
-);
-````
 
 
 ## -parameters

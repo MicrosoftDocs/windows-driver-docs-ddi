@@ -7,7 +7,7 @@ old-location: ifsk\file_id_global_tx_dir_information.htm
 old-project: ifsk
 ms.assetid: 4c4a0458-8ab3-4ef0-b455-c7a70737f322
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_GLOBAL_TX_DIR_INFORMATION, ifsk.file_id_global_tx_dir_information, ntifs/FILE_ID_GLOBAL_TX_DIR_INFORMATION, ntifs/PFILE_ID_GLOBAL_TX_DIR_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_ID_GLOBAL_TX_DIR_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_ID_GLOBAL_TX_DIR_INFORMATION, *PFILE_ID_GLOBAL_TX_DIR_INFORMATION
 ---
@@ -50,29 +51,6 @@ req.typenames: FILE_ID_GLOBAL_TX_DIR_INFORMATION, *PFILE_ID_GLOBAL_TX_DIR_INFORM
 
 
 The <b>FILE_ID_GLOBAL_TX_DIR_INFORMATION</b> structure contains information about transactional visibility for the files in a directory.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_ID_GLOBAL_TX_DIR_INFORMATION {
-  ULONG          NextEntryOffset;
-  ULONG          FileIndex;
-  LARGE_INTEGER  CreationTime;
-  LARGE_INTEGER  LastAccessTime;
-  LARGE_INTEGER  LastWriteTime;
-  LARGE_INTEGER  ChangeTime;
-  LARGE_INTEGER  EndOfFile;
-  LARGE_INTEGER  AllocationSize;
-  ULONG          FileAttributes;
-  ULONG          FileNameLength;
-  LARGE_INTEGER  FileId;
-  GUID           LockingTransactionId;
-  ULONG          TxInfoFlags;
-  WCHAR          FileName[1];
-} FILE_ID_GLOBAL_TX_DIR_INFORMATION, *PFILE_ID_GLOBAL_TX_DIR_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -250,7 +228,7 @@ A sequence of Unicode characters containing the file name.
 
 
 
-The <b>FILE_ID_GLOBAL_TX_DIR_INFORMATION</b> structure can be implemented for file systems that return the FILE_SUPPORTS_TRANSACTIONS flag in response to a query using a <a href="..\ntifs\ns-ntifs-_file_fs_attribute_information.md">FILE_FS_ATTRIBUTE_INFORMATION</a> structure. It must not be implemented for file systems that do not return that flag.
+The <b>FILE_ID_GLOBAL_TX_DIR_INFORMATION</b> structure can be implemented for file systems that return the FILE_SUPPORTS_TRANSACTIONS flag in response to a query using a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540251">FILE_FS_ATTRIBUTE_INFORMATION</a> structure. It must not be implemented for file systems that do not return that flag.
   
 
 If the FILE_ID_GLOBAL_TX_DIR_INFO_FLAG_WRITELOCKED flag is not set in <b>TxInfoFlags</b>, <b>LockingTransactionId</b> is ignored.

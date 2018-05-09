@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetStackOffset2
-title: IDebugRegisters2::GetStackOffset2 method
+title: IDebugRegisters2::GetStackOffset2
 author: windows-driver-content
 description: The GetStackOffset2 method returns the current thread's current stack location.
 old-location: debugger\getstackoffset2.htm
 old-project: debugger
 ms.assetid: c90119a8-c93b-4432-b164-b1f4c562ef2d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetStackOffset2 method [Windows Debugging], GetStackOffset2 method [Windows Debugging], IDebugRegisters2 interface, GetStackOffset2,IDebugRegisters2.GetStackOffset2, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetStackOffset2 method, IDebugRegisters2::GetStackOffset2, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml, dbgeng/IDebugRegisters2::GetStackOffset2, debugger.getstackoffset2
+ms.date: 4/24/2018
+ms.keywords: GetStackOffset2, GetStackOffset2 method [Windows Debugging], GetStackOffset2 method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetStackOffset2 method, IDebugRegisters2.GetStackOffset2, IDebugRegisters2::GetStackOffset2, IDebugRegisters_ec4e5846-b785-4b82-9670-04e7087b7d99.xml, dbgeng/IDebugRegisters2::GetStackOffset2, debugger.getstackoffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugRegisters2.GetStackOffset2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters2::GetStackOffset2 method
+# IDebugRegisters2::GetStackOffset2
 
 
 ## -description
 
 
 The <b>GetStackOffset2</b> method returns the current thread's current stack location.
-
-
-## -syntax
-
-
-````
-HRESULT GetStackOffset2(
-  [in]  ULONG    Source,
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters
@@ -150,7 +140,6 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 
@@ -158,8 +147,8 @@ The method was successful.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
  
 
  
-
 

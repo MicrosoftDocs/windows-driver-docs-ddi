@@ -7,7 +7,7 @@ old-location: stream\usbcamd_controlvendorcommand.htm
 old-project: stream
 ms.assetid: 3bd11885-2c33-4d4d-b9e8-8eff79eb9c61
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: USBCAMD_ControlVendorCommand, USBCAMD_ControlVendorCommand function [Streaming Media Devices], stream.usbcamd_controlvendorcommand, usbcamdi/USBCAMD_ControlVendorCommand, usbcmdpr_71f3fad0-03ef-4328-90cf-d556de6736f5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	usbcamd2.dll
 api_name:
 -	USBCAMD_ControlVendorCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBCAMD_ControlVendorCommand function
@@ -52,24 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USBCAMD_ControlVendorCommand</b> function sends vendor-specific commands to the control pipe.
-
-
-## -syntax
-
-
-````
-NTSTATUS USBCAMD_ControlVendorCommand(
-  _In_        PVOID                      DeviceContext,
-  _In_        UCHAR                      Request,
-  _In_        USHORT                     Value,
-  _In_        USHORT                     Index,
-  _Inout_opt_ PVOID                      Buffer,
-  _Inout_     PULONG                     BufferLength,
-  _In_        BOOLEAN                    GetData,
-  _In_opt_    PCOMMAND_COMPLETE_FUNCTION CommandComplete,
-  _In_opt_    PVOID                      CommandContext
-);
-````
 
 
 ## -parameters
@@ -114,12 +96,12 @@ Pointer to the buffer length value. Buffer length is expressed in bytes. If the 
 
 ### -param CommandComplete [in, optional]
 
-Pointer to a camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>, which is called when the bulk read or write is completed. This value can be <b>NULL</b>.
+Pointer to a camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a>, which is called when the bulk read or write is completed. This value can be <b>NULL</b>.
 
 
 ### -param CommandContext [in, optional]
 
-Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>.
+Pointer to a block of memory, that is passed as an argument to the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a>.
 
 
 ## -returns
@@ -165,19 +147,18 @@ There are insufficient resources to allocate the vendor command.
 
 
 
-This function may be called at IRQL &gt;= PASSIVE_LEVEL. If the function is called at IRQL &gt; PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined <a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a> is called and passed the value in the <i>CommandContext</i> argument<i>.</i>
+This function may be called at IRQL &gt;= PASSIVE_LEVEL. If the function is called at IRQL &gt; PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a> is called and passed the value in the <i>CommandContext</i> argument<i>.</i>
 
 
 
 
 ## -see-also
 
-<a href="..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md">CommandCompleteFunction</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557713">CommandCompleteFunction</a>
  
 
  
-
 

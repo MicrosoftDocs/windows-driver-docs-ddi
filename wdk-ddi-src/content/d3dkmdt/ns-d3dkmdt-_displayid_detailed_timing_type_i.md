@@ -7,7 +7,7 @@ old-location: display\displayid_detailed_timing_type_i.htm
 old-project: display
 ms.assetid: 7b3fa3a4-a77a-4c5f-b157-1fbdc3a7be33
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices], DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I, d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I, display.displayid_detailed_timing_type_i
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DISPLAYID_DETAILED_TIMING_TYPE_I
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DISPLAYID_DETAILED_TIMING_TYPE_I
 ---
@@ -52,40 +53,41 @@ req.typenames: DISPLAYID_DETAILED_TIMING_TYPE_I
 The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mode set for a video present target.
 
 
-## -syntax
-
-
-````
-typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
-  struct {
-    ULONG PixelClock  :24;
-    ULONG AspectRatio  :3;
-    ULONG Reserved  :1;
-    ULONG ScanningType  :1;
-    ULONG StereoMode  :2;
-    ULONG PreferredTiming  :1;
-  };
-  USHORT HorizontalActivePixels;
-  USHORT HorizontalBlankPixels;
-  struct {
-    USHORT HorizontalFrontPorch  :15;
-    USHORT HorizontalSyncPolarity  :1;
-  };
-  USHORT HorizontalSyncWidth;
-  USHORT VerticalActiveLines;
-  USHORT VerticalBlankLines;
-  struct {
-    USHORT VerticalFrontPorch  :15;
-    USHORT VerticalSyncPolarity  :1;
-  };
-  USHORT VerticalSyncWidth;
-} DISPLAYID_DETAILED_TIMING_TYPE_I;
-````
-
-
 ## -struct-fields
 
 
+
+
+### -field PixelClock
+
+[in] The display pixel clock rate, in units of 10 KHz. Clock rate must be between 1 MHz and 10 GHz, inclusive.
+
+
+### -field AspectRatio
+
+[in] The display aspect ratio, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a> enumeration.
+
+
+### -field Reserved
+
+[in] Reserved for system use.
+
+
+### -field ScanningType
+
+[in] The frame scanning type. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a> enumeration.
+
+
+### -field StereoMode
+
+[in] The display stereo vision mode. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a> enumeration.
+
+
+### -field PreferredTiming
+
+
+       [in] Indicates whether the first 128-byte block of a monitor's Extended Display Identification Data <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">Extended Display Identification Data (EDID)</a> contains detailed timing data. This must be 1 if the display conforms to EDID version 1.3 and later.
+      
 
 
 ### -field HorizontalActivePixels
@@ -96,6 +98,16 @@ typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
 ### -field HorizontalBlankPixels
 
 [in] The number of blank pixels in the horizontal direction.
+
+
+### -field HorizontalFrontPorch
+
+[in] The horizontal front porch interval, in pixels. The front porch is the blanking interval before the sync pulse.
+
+
+### -field HorizontalSyncPolarity
+
+[in] The horizontal sync polarity, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
 
 
 ### -field HorizontalSyncWidth
@@ -113,61 +125,19 @@ typedef struct _DISPLAYID_DETAILED_TIMING_TYPE_I {
 [in] The number of blank scan lines.
 
 
-### -field VerticalSyncWidth
-
-[in] The vertical sync interval, in number of lines.
-
-
-#### - AspectRatio
-
-[in] The display aspect ratio, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a> enumeration.
-
-
-#### - HorizontalFrontPorch
-
-[in] The horizontal front porch interval, in pixels. The front porch is the blanking interval before the sync pulse.
-
-
-#### - HorizontalSyncPolarity
-
-[in] The horizontal sync polarity, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
-
-
-#### - PixelClock
-
-[in] The display pixel clock rate, in units of 10 KHz. Clock rate must be between 1 MHz and 10 GHz, inclusive.
-
-
-#### - PreferredTiming
-
-
-       [in] Indicates whether the first 128-byte block of a monitor's Extended Display Identification Data <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">Extended Display Identification Data (EDID)</a> contains detailed timing data. This must be 1 if the display conforms to EDID version 1.3 and later.
-      
-
-
-#### - Reserved
-
-[in] Reserved for system use.
-
-
-#### - ScanningType
-
-[in] The frame scanning type. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a> enumeration.
-
-
-#### - StereoMode
-
-[in] The display stereo vision mode. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a> enumeration.
-
-
-#### - VerticalFrontPorch
+### -field VerticalFrontPorch
 
 [in] The vertical front porch interval, in number of lines. The front porch is the blanking interval before the sync pulse.
 
 
-#### - VerticalSyncPolarity
+### -field VerticalSyncPolarity
 
 [in] The vertical sync polarity. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
+
+
+### -field VerticalSyncWidth
+
+[in] The vertical sync interval, in number of lines.
 
 
 ## -remarks
@@ -185,7 +155,6 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a>
 
 
 
@@ -193,16 +162,16 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
  
 
  
-
 

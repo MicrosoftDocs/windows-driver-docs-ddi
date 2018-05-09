@@ -7,7 +7,7 @@ old-location: stream\kscamera_extendedprop_header.htm
 old-project: stream
 ms.assetid: 2CE89C1E-8FE8-4304-BD3F-5A926CAC74B4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL, KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE, KSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_HEADER structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_HEADER, PKSCAMERA_EXTENDEDPROP_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_HEADER, ksmedia/PKSCAMERA_EXTENDEDPROP_HEADER, stream.kscamera_extendedprop_header, tagKSCAMERA_EXTENDEDPROP_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER
 ---
@@ -50,21 +51,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER
 
 
 The <b>KSCAMERA_EXTENDEDPROP_HEADER</b> structure is the payload header for an extend control property.
-
-
-## -syntax
-
-
-````
-typedef struct _KSCAMERA_EXTENDEDPROP_HEADER {
-  ULONG     Version;
-  ULONG     PinId;
-  ULONG     Size;
-  ULONG     Result;
-  ULONGLONG Flags;
-  ULONGLONG Capability;
-} KSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER;
-````
 
 
 ## -struct-fields
@@ -134,12 +120,11 @@ Applies only to asynchronous controls. This flag marks the control operation as 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_value.md">KSCAMERA_EXTENDEDPROP_VALUE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn567565">KSCAMERA_EXTENDEDPROP_VALUE</a>
  
 
  
-
 

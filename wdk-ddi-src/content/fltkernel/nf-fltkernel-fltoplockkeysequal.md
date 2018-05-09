@@ -7,7 +7,7 @@ old-location: ifsk\fltoplockkeysequal.htm
 old-project: ifsk
 ms.assetid: 660aa6f2-03d8-44aa-b263-29a74c912668
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_66634abf-9f0a-44b1-a4e4-85ef958b05f5.xml, FltOplockKeysEqual, FltOplockKeysEqual routine [Installable File System Drivers], fltkernel/FltOplockKeysEqual, ifsk.fltoplockkeysequal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltOplockKeysEqual
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltOplockKeysEqual function
@@ -50,17 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>FltOplockKeysEqual</b> routine compares the opportunistic lock (oplock) keys that are stored in the file object extensions of two file objects. 
-
-
-## -syntax
-
-
-````
-BOOLEAN FltOplockKeysEqual(
-  _In_opt_ PFILE_OBJECT Fo1,
-  _In_opt_ PFILE_OBJECT Fo2
-);
-````
 
 
 ## -parameters
@@ -98,12 +88,11 @@ If no oplock key was provided when the file objects were created, the file objec
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockkeysequal~r1.md">FsRtlOplockKeysEqual</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547141">FsRtlOplockKeysEqual</a>
  
 
  
-
 

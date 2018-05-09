@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_unlock.htm
 old-project: display
 ms.assetid: e6e0b0fd-be80-4c44-9d7d-1b9476b44b65
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_UNLOCK, D3DDDIARG_UNLOCK structure [Display Devices], UMDisplayDriver_param_Structs_ae4773cf-d43a-4468-8d6b-a4c4fa9b55fa.xml, _D3DDDIARG_UNLOCK, d3dumddi/D3DDDIARG_UNLOCK, display.d3dddiarg_unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_UNLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_UNLOCK
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DDDIARG_UNLOCK
 
 
 The D3DDDIARG_UNLOCK structure describes a resource or a surface within the resource to unlock. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_UNLOCK {
-  HANDLE             hResource;
-  UINT               SubResourceIndex;
-  D3DDDI_UNLOCKFLAGS Flags;
-} D3DDDIARG_UNLOCK;
-````
 
 
 ## -struct-fields
@@ -81,21 +70,20 @@ typedef struct _D3DDDIARG_UNLOCK {
 
 ### -field Flags
 
-[in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_unlockflags.md">D3DDDI_UNLOCKFLAGS</a> structure that indicates, in bit-field flags, how to unlock the resource.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544680">D3DDDI_UNLOCKFLAGS</a> structure that indicates, in bit-field flags, how to unlock the resource.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlock.md">Unlock</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_unlockflags.md">D3DDDI_UNLOCKFLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544680">D3DDDI_UNLOCKFLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/23cc9c64-99d4-4602-a1b0-234fe7fcc3da">Unlock</a>
  
 
  
-
 

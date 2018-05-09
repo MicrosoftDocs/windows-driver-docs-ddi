@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_control_cq_interrupt_moderation.htm
 old-project: netvista
 ms.assetid: 44EB6C92-1ADA-4675-9E19-BAB79097FF5B
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION, NdkControlCqInterruptModeration, NdkControlCqInterruptModeration callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkControlCqInterruptModeration, netvista.ndk_fn_control_cq_interrupt_moderation
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION, NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION callback, NdkControlCqInterruptModeration, NdkControlCqInterruptModeration callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkControlCqInterruptModeration, netvista.ndk_fn_control_cq_interrupt_moderation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkControlCqInterruptModeration
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION callback
+# NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION callback function
 
 
 ## -description
@@ -54,21 +55,6 @@ The <i>NdkControlCqInterruptModeration</i> (<i>NDK_FN_CONTROL_CQ_INTERRUPT_MODER
 For more information about interrupt moderation, see <a href="https://msdn.microsoft.com/291f9606-6379-4b78-b388-ba663f84b431">Interrupt Moderation</a>.
 
 
-## -prototype
-
-
-````
-NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION NdkControlCqInterruptModeration;
-
-NTSTATUS NdkControlCqInterruptModeration(
-  _In_ NDK_CQ *pNdkCq,
-  _In_ ULONG  ModerationInterval,
-  _In_ ULONG  ModerationCount
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +62,7 @@ NTSTATUS NdkControlCqInterruptModeration(
 
 ### -param *pNdkCq [in]
 
-A pointer to an NDK completion queue object (<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>).
+A pointer to an NDK completion queue object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>).
 
 
 
@@ -136,7 +122,7 @@ The operation completed successfully.
 </td>
 <td width="60%">
 The NDK 
-provider does not support CQ interrupt moderation control with <a href="..\ndkpi\nc-ndkpi-ndk_fn_control_cq_interrupt_moderation.md">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a>. A provider that sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORT flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure's <b>AdapterFlags</b> member must not return this status code.
+provider does not support CQ interrupt moderation control with <a href="https://msdn.microsoft.com/library/windows/hardware/jj552973">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a>. A provider that sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORT flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure's <b>AdapterFlags</b> member must not return this status code.
 
 
 </td>
@@ -191,20 +177,19 @@ Providers that indicate support for interrupt moderation with the NDK_ADAPTER_FL
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439855">NDK_CQ_DISPATCH</a>
  
 
  
-
 

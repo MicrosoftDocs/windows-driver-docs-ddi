@@ -7,7 +7,7 @@ old-location: image\wiasgetchangedvalueguid.htm
 old-project: image
 ms.assetid: 5a282acf-6084-4076-a69b-fe23c9eb4d6c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasgetchangedvalueguid, wiamdef/wiasGetChangedValueGuid, wiasFncs_b8b576d4-1470-4105-8725-928f70a1e3cc.xml, wiasGetChangedValueGuid, wiasGetChangedValueGuid function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasGetChangedValueGuid
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasGetChangedValueGuid function
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasGetChangedValueGuid </b>function determines whether a property with a GUID value has been changed by an application.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetChangedValueGuid(
-  _In_  BYTE                    *pWiasContext,
-  _In_  WIA_PROPERTY_CONTEXT    *pContext,
-        BOOL                    bNoValidation,
-        PROPID                  propID,
-  _Out_ WIAS_CHANGED_VALUE_INFO *pValInfo
-);
-````
 
 
 ## -parameters
@@ -79,7 +65,7 @@ Pointer to a WIA item context.
 
 ### -param pContext [in]
 
-Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a> structure that contains the current property context.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552749">WIA_PROPERTY_CONTEXT</a> structure that contains the current property context.
 
 
 ### -param bNoValidation
@@ -101,7 +87,7 @@ TBD
 
 #### - pValInfo [out]
 
-Pointer to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_changed_value_info.md">WIAS_CHANGED_VALUE_INFO</a> structure that contains the current and previous values of the property.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff549535">WIAS_CHANGED_VALUE_INFO</a> structure that contains the current and previous values of the property.
 
 
 ## -returns
@@ -124,28 +110,27 @@ The driver should validate the property only after the driver has updated the va
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wias_changed_value_info.md">WIAS_CHANGED_VALUE_INFO</a>
 
 
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549535">WIAS_CHANGED_VALUE_INFO</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552749">WIA_PROPERTY_CONTEXT</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549200">wiasGetChangedValueFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluelong.md">wiasGetChangedValueLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549214">wiasGetChangedValueLong</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549219">wiasGetChangedValueStr</a>
  
 
  
-
 

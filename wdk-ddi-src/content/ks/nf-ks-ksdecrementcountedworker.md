@@ -7,7 +7,7 @@ old-location: stream\ksdecrementcountedworker.htm
 old-project: stream
 ms.assetid: 2b38e4df-e5b6-480b-bd4e-62e059e26411
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsDecrementCountedWorker, KsDecrementCountedWorker function [Streaming Media Devices], ks/KsDecrementCountedWorker, ksfunc_7ddba520-3deb-4160-87e1-a12d2210b5da.xml, stream.ksdecrementcountedworker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDecrementCountedWorker
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,17 +51,7 @@ req.typenames:
 ## -description
 
 
-Decrements the current worker count of a worker previous created by <a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>. This should be called after each task within a worker has been completed. 
-
-
-## -syntax
-
-
-````
-ULONG KsDecrementCountedWorker(
-  _In_ PKSWORKER Worker
-);
-````
+Decrements the current worker count of a worker previous created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566770">KsRegisterCountedWorker</a>. This should be called after each task within a worker has been completed. 
 
 
 ## -parameters
@@ -86,23 +77,22 @@ Returns the current counter. A count of zero implies that the task list has been
 
 
 
-<b>KsDecrementCountedWorker</b> should be called after each task within a worker has been completed. A corresponding call to <a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a> would have previously incremented the count. <b>KsDecrementCountedWorker</b> may be called at DISPATCH_LEVEL.
+<b>KsDecrementCountedWorker</b> should be called after each task within a worker has been completed. A corresponding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562678">KsIncrementCountedWorker</a> would have previously incremented the count. <b>KsDecrementCountedWorker</b> may be called at DISPATCH_LEVEL.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a>
 
 
 
-<a href="..\ks\nf-ks-ksregistercountedworker.md">KsRegisterCountedWorker</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562678">KsIncrementCountedWorker</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566770">KsRegisterCountedWorker</a>
  
 
  
-
 

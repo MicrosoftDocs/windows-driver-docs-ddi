@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEvent.OnDriverEvent
-title: IPrinterExtensionEvent::OnDriverEvent method
+title: IPrinterExtensionEvent::OnDriverEvent
 author: windows-driver-content
 description: Called when a driver event occurs.
 old-location: print\iprinterextensionevent_ondriverevent.htm
 old-project: print
 ms.assetid: F00FD4FB-08D5-42D4-8CC2-85EE02D95E4B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], OnDriverEvent method, IPrinterExtensionEvent::OnDriverEvent, OnDriverEvent method [Print Devices], OnDriverEvent method [Print Devices], IPrinterExtensionEvent interface, OnDriverEvent,IPrinterExtensionEvent.OnDriverEvent, print.iprinterextensionevent_ondriverevent, printerextension/IPrinterExtensionEvent::OnDriverEvent
+ms.date: 4/20/2018
+ms.keywords: IPrinterExtensionEvent interface [Print Devices],OnDriverEvent method, IPrinterExtensionEvent.OnDriverEvent, IPrinterExtensionEvent::OnDriverEvent, OnDriverEvent, OnDriverEvent method [Print Devices], OnDriverEvent method [Print Devices],IPrinterExtensionEvent interface, print.iprinterextensionevent_ondriverevent, printerextension/IPrinterExtensionEvent::OnDriverEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	printerextension.h
 api_name:
 -	IPrinterExtensionEvent.OnDriverEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterExtensionEvent::OnDriverEvent method
+# IPrinterExtensionEvent::OnDriverEvent
 
 
 ## -description
 
 
 Called when a driver event occurs.
-
-
-## -syntax
-
-
-````
-HRESULT OnDriverEvent(
-  [in] IPrinterExtensionEventArgs *pEventArgs
-);
-````
 
 
 ## -parameters
@@ -84,16 +74,15 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionevent.md">IPrinterExtensionEvent</a>
+<a href="https://msdn.microsoft.com/A0F4DB51-D68E-4516-833A-7E984247796B">IPrinterExtensionEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
  
 
  
-
 

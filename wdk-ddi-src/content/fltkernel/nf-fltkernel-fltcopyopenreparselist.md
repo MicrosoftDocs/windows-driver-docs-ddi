@@ -7,7 +7,7 @@ old-location: ifsk\fltcopyopenreparselist.htm
 old-project: ifsk
 ms.assetid: 07C39363-559A-4B55-850E-052BA78E869D
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltCopyOpenReparseList, fltkernel/FltAddOpenReparseEntry, ifsk.fltcopyopenreparselist
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltKernel.h
 api_name:
 -	FltAddOpenReparseEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCopyOpenReparseList function
@@ -51,18 +52,6 @@ req.typenames: EXpsFontRestriction
 
 This routine copies any open reparse information from a previous create into
     a new ECP list that can be used to issue a second create.
-
-
-## -syntax
-
-
-````
-NTSTATUS FltAddOpenReparseEntry(
-  _In_    PFLT_FILTER        Filter,
-  _In_    PFLT_CALLBACK_DATA Data,
-  _Inout_ PECP_LIST          EcpList
-);
-````
 
 
 ## -parameters
@@ -128,12 +117,11 @@ The operation completed successfully.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeopenreparselist.md">FltFreeOpenReparseList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt734259">FltFreeOpenReparseList</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.GetFeatureAttribute
-title: IPrintCoreUI2::GetFeatureAttribute method
+title: IPrintCoreUI2::GetFeatureAttribute
 author: windows-driver-content
 description: The IPrintCoreUI2::GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.
 old-location: print\iprintcoreui2_getfeatureattribute.htm
 old-project: print
 ms.assetid: 6f3d16a9-bac7-44da-9d16-0f737d12d952
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices], IPrintCoreUI2 interface, GetFeatureAttribute,IPrintCoreUI2.GetFeatureAttribute, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetFeatureAttribute method, IPrintCoreUI2::GetFeatureAttribute, prcomoem/IPrintCoreUI2::GetFeatureAttribute, print.iprintcoreui2_getfeatureattribute, print_unidrv-pscript_ui_47513174-ac2c-4c61-9847-35244e31c486.xml
+ms.date: 4/20/2018
+ms.keywords: GetFeatureAttribute, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetFeatureAttribute method, IPrintCoreUI2.GetFeatureAttribute, IPrintCoreUI2::GetFeatureAttribute, prcomoem/IPrintCoreUI2::GetFeatureAttribute, print.iprintcoreui2_getfeatureattribute, print_unidrv-pscript_ui_47513174-ac2c-4c61-9847-35244e31c486.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,36 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCoreUI2.GetFeatureAttribute
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreUI2::GetFeatureAttribute method
+# IPrintCoreUI2::GetFeatureAttribute
 
 
 ## -description
 
 
 The <code>IPrintCoreUI2::GetFeatureAttribute</code> method retrieves the feature attribute list or the value of a specific feature attribute.
-
-
-## -syntax
-
-
-````
-HRESULT GetFeatureAttribute(
-  [in]  POEMUIOBJ poemuiobj,
-  [in]  DWORD     dwFlags,
-  [in]  PCSTR     pszFeatureKeyword,
-  [in]  PCSTR     pszAttribute,
-  [out] PDWORD    pdwDataType,
-  [out] PBYTE     pbData,
-  [in]  DWORD     cbSize,
-  [out] PDWORD    pcbNeeded
-);
-````
 
 
 ## -parameters
@@ -77,7 +60,7 @@ HRESULT GetFeatureAttribute(
 
 ### -param poemuiobj [in]
 
-Pointer to the current context, an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
+Pointer to the current context, an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a> structure.
 
 
 ### -param dwFlags [in]
@@ -97,7 +80,7 @@ Pointer to a caller-supplied buffer containing an ASCII string specifying the si
 
 ### -param pdwDataType [out]
 
-Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumeration, which is defined in printoem.h.
+Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548692">EATTRIBUTE_DATATYPE</a> enumeration, which is defined in printoem.h.
 
 
 ### -param pbData [out]
@@ -188,7 +171,7 @@ The method failed
 
 This method is supported only for Windows XP Pscript5 plug-ins, not for Unidrv plug-ins. 
 
-If this method is called with its <i>pszAttribute</i> and <i>pbData</i> parameters set to <b>NULL</b>, the method returns with *<i>pcbNeeded</i> set to the number of bytes needed for the list of all supported attribute names for the feature. If the method is called a second time, with <i>pszAttribute</i> set to <b>NULL</b> and <i>pbData</i> pointing to a buffer of the size specified in *<i>pcbNeeded</i> in the previous call, the method returns with *<i>pdwDataType</i> set to kADT_ASCII (an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumerated type) and <i>pbData</i> pointing to a null-delimited list of all supported attribute names for the feature. This list is terminated with two null characters.
+If this method is called with its <i>pszAttribute</i> and <i>pbData</i> parameters set to <b>NULL</b>, the method returns with *<i>pcbNeeded</i> set to the number of bytes needed for the list of all supported attribute names for the feature. If the method is called a second time, with <i>pszAttribute</i> set to <b>NULL</b> and <i>pbData</i> pointing to a buffer of the size specified in *<i>pcbNeeded</i> in the previous call, the method returns with *<i>pdwDataType</i> set to kADT_ASCII (an enumerator of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548692">EATTRIBUTE_DATATYPE</a> enumerated type) and <i>pbData</i> pointing to a null-delimited list of all supported attribute names for the feature. This list is terminated with two null characters.
 
 To reduce the need to make two calls per data access, pass the method an output buffer of a fixed size (1 KB, for example), and then check the function return value. If the method returns S_OK, the buffer already contains the data of interest. If the method returns E_OUTOFMEMORY, the value in *<i>pcbNeeded</i> is the buffer size needed to hold the data of interest. The caller should then allocate a buffer of that larger size and proceed with a second call to the method.
 
@@ -199,7 +182,10 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreui2.md">IPrintCoreUI2</a>
+
+
+
+<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
 
 
 
@@ -207,20 +193,16 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
-
-
-
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553059">IPrintCoreUI2::GetGlobalAttribute</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553064">IPrintCoreUI2::GetOptionAttribute</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559571">OEMUIOBJ</a>
  
 
  
-
 

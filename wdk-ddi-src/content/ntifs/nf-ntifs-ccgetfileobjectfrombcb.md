@@ -7,7 +7,7 @@ old-location: ifsk\ccgetfileobjectfrombcb.htm
 old-project: ifsk
 ms.assetid: d30a2ee4-4736-4127-95db-b86e782c3577
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: CcGetFileObjectFromBcb, CcGetFileObjectFromBcb routine [Installable File System Drivers], ccref_7fdf1d1e-a080-4322-a09c-be0a16543050.xml, ifsk.ccgetfileobjectfrombcb, ntifs/CcGetFileObjectFromBcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcGetFileObjectFromBcb
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcGetFileObjectFromBcb function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 Given a pointer to a pinned buffer control block (BCB) for a file, the <b>CcGetFileObjectFromBcb</b> routine returns a pointer to the file object that the cache manager is using for that file.
-
-
-## -syntax
-
-
-````
-PFILE_OBJECT CcGetFileObjectFromBcb(
-  _In_ PVOID Bcb
-);
-````
 
 
 ## -parameters
@@ -92,24 +83,23 @@ The file object pointer is guaranteed to remain valid as long as the BCB exists.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539155">CcMapData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539176">CcPinMappedData</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539180">CcPinRead</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539183">CcPreparePinWrite</a>
  
 
  
-
 

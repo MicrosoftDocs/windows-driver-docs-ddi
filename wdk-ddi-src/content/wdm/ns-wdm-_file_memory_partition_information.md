@@ -7,7 +7,7 @@ old-location: ifsk\_file_memory_partition_information.htm
 old-project: ifsk
 ms.assetid: 1d74aec3-dbc5-4494-ba52-135e3f545c1b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_MEMORY_PARTITION_INFORMATION, ifsk._file_memory_partition_information, wdm/FILE_MEMORY_PARTITION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	FILE_MEMORY_PARTITION_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_MEMORY_PARTITION_INFORMATION, *PFILE_MEMORY_PARTITION_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _FILE_MEMORY_PARTITION_INFORMATION structure
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Stores information about memory partition. This structure is used by the <b>ZwSetInformationFile</b> function.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_MEMORY_PARTITION_INFORMATION {
-  ULONG_PTR OwnerPartitionHandle;
-  union {
-    struct {
-      UCHAR NoCrossPartitionAccess;
-      UCHAR Spare[3];
-    } DUMMYSTRUCTNAME;
-    ULONG AllFlags;
-  } Flags;
-} FILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -85,12 +68,6 @@ Handle to the specified partition.
 ### -field Flags
 
 
-
-#### AllFlags
-
-Bitwise of all flags. 
-
-
 ### -field Flags.DUMMYSTRUCTNAME
 
 
@@ -104,4 +81,7 @@ Determines whether cross-partition access is allowed.
  
 
 
+### -field Flags.AllFlags
+
+Bitwise of all flags. 
 

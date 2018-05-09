@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetReturnOffset
-title: IDebugControl3::GetReturnOffset method
+title: IDebugControl3::GetReturnOffset
 author: windows-driver-content
 description: The GetReturnOffset method returns the return address for the current function.
 old-location: debugger\getreturnoffset.htm
 old-project: debugger
 ms.assetid: 65d72369-7ace-4d3d-a15c-6322c0066470
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetReturnOffset method [Windows Debugging], GetReturnOffset method [Windows Debugging], IDebugControl interface, GetReturnOffset method [Windows Debugging], IDebugControl2 interface, GetReturnOffset method [Windows Debugging], IDebugControl3 interface, GetReturnOffset,IDebugControl3.GetReturnOffset, IDebugControl interface [Windows Debugging], GetReturnOffset method, IDebugControl2 interface [Windows Debugging], GetReturnOffset method, IDebugControl2::GetReturnOffset, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetReturnOffset method, IDebugControl3::GetReturnOffset, IDebugControl::GetReturnOffset, IDebugControl_7c101d44-aa43-48d4-8176-2ed110eca231.xml, dbgeng/IDebugControl2::GetReturnOffset, dbgeng/IDebugControl3::GetReturnOffset, dbgeng/IDebugControl::GetReturnOffset, debugger.getreturnoffset
+ms.date: 4/24/2018
+ms.keywords: GetReturnOffset, GetReturnOffset method [Windows Debugging], GetReturnOffset method [Windows Debugging],IDebugControl interface, GetReturnOffset method [Windows Debugging],IDebugControl2 interface, GetReturnOffset method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetReturnOffset method, IDebugControl2 interface [Windows Debugging],GetReturnOffset method, IDebugControl2::GetReturnOffset, IDebugControl3 interface [Windows Debugging],GetReturnOffset method, IDebugControl3.GetReturnOffset, IDebugControl3::GetReturnOffset, IDebugControl::GetReturnOffset, IDebugControl_7c101d44-aa43-48d4-8176-2ed110eca231.xml, dbgeng/IDebugControl2::GetReturnOffset, dbgeng/IDebugControl3::GetReturnOffset, dbgeng/IDebugControl::GetReturnOffset, debugger.getreturnoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,28 +40,19 @@ api_name:
 -	IDebugControl.GetReturnOffset
 -	IDebugControl2.GetReturnOffset
 -	IDebugControl3.GetReturnOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetReturnOffset method
+# IDebugControl3::GetReturnOffset
 
 
 ## -description
 
 
 The <b>GetReturnOffset</b> method returns the return address for the current function.
-
-
-## -syntax
-
-
-````
-HRESULT GetReturnOffset(
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters

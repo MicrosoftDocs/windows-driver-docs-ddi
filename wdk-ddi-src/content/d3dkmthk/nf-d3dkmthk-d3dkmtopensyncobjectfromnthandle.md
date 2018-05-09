@@ -7,7 +7,7 @@ old-location: display\d3dkmtopensyncobjectfromnthandle.htm
 old-project: display
 ms.assetid: 202695a2-cfe3-423f-b4da-a9ad312c5168
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTOpenSyncObjectFromNtHandle, D3DKMTOpenSyncObjectFromNtHandle function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle, display.d3dkmtopensyncobjectfromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTOpenSyncObjectFromNtHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTOpenSyncObjectFromNtHandle function
@@ -55,26 +56,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 Maps an NT process handle to a graphics processing unit (GPU) synchronization object.
 
 
-## -syntax
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOpenSyncObjectFromNtHandle(
-  _Inout_ D3DKMT_OPENSYNCOBJECTFROMNTHANDLE *pObject
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pObject [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle.md">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE</a> structure that describes information that is required to perform the mapping.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780268">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE</a> structure that describes information that is required to perform the mapping.
 
 
 ## -returns
@@ -121,12 +117,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle.md">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh780268">D3DKMT_OPENSYNCOBJECTFROMNTHANDLE</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\camfreebandwidthex.htm
 old-project: stream
 ms.assetid: ef6aa2bf-8b45-4048-ac21-b069e28b556f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: CamFreeBandwidthEx, CamFreeBandwidthEx routine [Streaming Media Devices], PCAM_FREE_BW_ROUTINE_EX, stream.camfreebandwidthex, usbcamdi/CamFreeBandwidthEx, usbcmdpr_bf3efd8f-3320-469c-a358-85cf2d896caf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,34 +38,19 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamFreeBandwidthEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_FREE_BW_ROUTINE_EX callback
+# PCAM_FREE_BW_ROUTINE_EX callback function
 
 
 ## -description
 
 
 A camera minidriver's <b>CamFreeBandwidthEx</b> callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth.
-
-
-## -prototype
-
-
-````
-PCAM_FREE_BW_ROUTINE_EX CamFreeBandwidthEx;
-
-NTSTATUS CamFreeBandwidthEx(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext,
-   ULONG          StreamNumber
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -123,16 +108,15 @@ This function is required.
 
 ## -see-also
 
-<a href="..\usbcamdi\nf-usbcamdi-usbcamd_selectalternateinterface.md">USBCAMD_SelectAlternateInterface</a>
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568590">USBCAMD_DEVICE_DATA2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568625">USBCAMD_SelectAlternateInterface</a>
  
 
  
-
 

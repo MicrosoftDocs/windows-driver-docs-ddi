@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.GetType
-title: IWDFUsbTargetPipe::GetType method
+title: IWDFUsbTargetPipe::GetType
 author: windows-driver-content
 description: The GetType method retrieves the type of a USB pipe.
 old-location: wdf\iwdfusbtargetpipe_gettype.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c8d76d5b-f388-4e22-ba57-d299ab3dee80
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetType method, GetType method, IWDFUsbTargetPipe interface, GetType,IWDFUsbTargetPipe.GetType, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, GetType method, IWDFUsbTargetPipe::GetType, UMDFUSBref_792b0720-a0c3-45da-b5e8-7b2f3a0c3770.xml, umdf.iwdfusbtargetpipe_gettype, wdf.iwdfusbtargetpipe_gettype, wudfusb/IWDFUsbTargetPipe::GetType
+ms.keywords: GetType, GetType method, GetType method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,GetType method, IWDFUsbTargetPipe.GetType, IWDFUsbTargetPipe::GetType, UMDFUSBref_792b0720-a0c3-45da-b5e8-7b2f3a0c3770.xml, umdf.iwdfusbtargetpipe_gettype, wdf.iwdfusbtargetpipe_gettype, wudfusb/IWDFUsbTargetPipe::GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetPipe.GetType
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::GetType method
+# IWDFUsbTargetPipe::GetType
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetType</b> method retrieves the type of a USB pipe.
-
-
-## -syntax
-
-
-````
-USBD_PIPE_TYPE  GetType();
-````
 
 
 ## -parameters
@@ -92,16 +84,15 @@ For a code example of how to use the <b>GetType</b> method, see <a href="https:/
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560403">IWDFUsbTargetPipe::GetInformation</a>
-
-
-
  
 
  
-
 

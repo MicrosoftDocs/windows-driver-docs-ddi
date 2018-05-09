@@ -38,7 +38,8 @@ api_location:
 -	Hwnclx.h
 api_name:
 -	HWN_CLIENT_REGISTRATION_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: HWN_CLIENT_REGISTRATION_PACKET, *PHWN_CLIENT_REGISTRATION_PACKET
 ---
@@ -136,11 +137,11 @@ A pointer to the client driver's implementation of the  <a href="..\hwnclx\nc-hw
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn789335">Hardware notifications support</a>
+
+
+
+<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
 
 
 

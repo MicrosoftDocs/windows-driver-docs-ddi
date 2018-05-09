@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: c73472ee-aa27-4256-aa58-9331312ad513
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 61883/IOCTL_61883_CLASS, 61883_requests_a47ccc46-e231-4e3e-8a71-97e4a79143e4.xml, IEEE.ioctl_61883_class, IOCTL_61883_CLASS, IOCTL_61883_CLASS control code [Buses]
+ms.keywords: 61883/IOCTL_61883_CLASS, 61883_requests_a47ccc46-e231-4e3e-8a71-97e4a79143e4.xml, IEEE.ioctl_61883_class, IOCTL_61883_CLASS, IOCTL_61883_CLASS control, IOCTL_61883_CLASS control code [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	61883.h
 api_name:
 -	IOCTL_61883_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: CMP_PLUG_TYPE
+req.typenames: 
 ---
 
 # IOCTL_61883_CLASS IOCTL
@@ -111,12 +112,11 @@ The information the IEC-61883 protocol driver returns in the I/O Status Block is
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

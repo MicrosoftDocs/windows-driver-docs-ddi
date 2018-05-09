@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.GetInfo
-title: IPrintOemUni::GetInfo method
+title: IPrintOemUni::GetInfo
 author: windows-driver-content
 description: A rendering plug-in's IPrintOemUni::GetInfo method returns identification information.
 old-location: print\iprintoemuni_getinfo.htm
 old-project: print
 ms.assetid: 8c4ab4a0-387f-49f8-bb9e-4851c5079cff
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetInfo method [Print Devices], GetInfo method [Print Devices], IPrintOemUni interface, GetInfo,IPrintOemUni.GetInfo, IPrintOemUni, IPrintOemUni interface [Print Devices], GetInfo method, IPrintOemUni::GetInfo, prcomoem/IPrintOemUni::GetInfo, print.iprintoemuni_getinfo, print_unidrv-pscript_rendering_67919d6c-27a7-4f53-b558-9a6d6b391dad.xml
+ms.date: 4/20/2018
+ms.keywords: GetInfo, GetInfo method [Print Devices], GetInfo method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],GetInfo method, IPrintOemUni.GetInfo, IPrintOemUni::GetInfo, prcomoem/IPrintOemUni::GetInfo, print.iprintoemuni_getinfo, print_unidrv-pscript_rendering_67919d6c-27a7-4f53-b558-9a6d6b391dad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemUni.GetInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::GetInfo method
+# IPrintOemUni::GetInfo
 
 
 ## -description
 
 
 A rendering plug-in's <code>IPrintOemUni::GetInfo</code> method returns identification information.
-
-
-## -syntax
-
-
-````
-STDMETHOD GetInfo(
-   DWORD  dwMode,
-   PVOID  pBuffer,
-   DWORD  cbSize,
-   PDWORD pcbNeeded
-);
-````
 
 
 ## -parameters
@@ -81,7 +68,7 @@ Contains one of the following caller-supplied integer constants.
 
 #### OEMGI_GETREQUESTEDHELPERINTERFACES
 
-The method must write the bit flag value of OEMPUBLISH_IPRINTCOREHELPER to the buffer <i>pBuffer</i> if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554269">IPrintOemUni::PublishDriverInterface</a> method should be called with parameter <i>pIUnknown</i> pointing to an object that implements the <a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni Interface</a>.
+The method must write the bit flag value of OEMPUBLISH_IPRINTCOREHELPER to the buffer <i>pBuffer</i> if the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554269">IPrintOemUni::PublishDriverInterface</a> method should be called with parameter <i>pIUnknown</i> pointing to an object that implements the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552940">IPrintCoreHelperUni Interface</a>.
 
 
 
@@ -89,7 +76,7 @@ The method must write the bit flag value of OEMPUBLISH_IPRINTCOREHELPER to the b
 
 #### OEMGI_GETSIGNATURE
 
-The method must return a unique four-byte identification signature. The plug-in must also place this signature in <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structures, as described in the description of the <a href="..\printoem\ns-printoem-_oemcuipparam.md">OEMCUIPPARAM</a>. structure's <b>pOEMOptItems</b> member.
+The method must return a unique four-byte identification signature. The plug-in must also place this signature in <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> structures, as described in the description of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557653">OEMCUIPPARAM</a>. structure's <b>pOEMOptItems</b> member.
 
 
 
@@ -169,11 +156,6 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
 
 
 
@@ -181,8 +163,12 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
  
 
  
-
 

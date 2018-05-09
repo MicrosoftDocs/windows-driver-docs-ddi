@@ -38,7 +38,8 @@ api_location:
 -	61883.h
 api_name:
 -	CMP_MONITOR_PLUGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS
 ---
@@ -50,18 +51,6 @@ req.typenames: CMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS
 
 
 This structure is used to monitor plug access. The request allows a driver to monitor all access to local oPCR and iPCR plugs.
-
-
-## -syntax
-
-
-````
-typedef struct _CMP_MONITOR_PLUGS {
-  ULONG                Flags;
-  PCMP_MONITOR_ROUTINE pfnNotify;
-  PVOID                Context;
-} CMP_MONITOR_PLUGS, *PCMP_MONITOR_PLUGS;
-````
 
 
 ## -struct-fields
@@ -120,12 +109,11 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoSt
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

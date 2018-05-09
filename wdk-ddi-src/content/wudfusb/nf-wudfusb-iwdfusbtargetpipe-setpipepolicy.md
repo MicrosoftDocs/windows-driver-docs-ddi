@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.SetPipePolicy
-title: IWDFUsbTargetPipe::SetPipePolicy method
+title: IWDFUsbTargetPipe::SetPipePolicy
 author: windows-driver-content
 description: The SetPipePolicy method sets the WinUsb pipe policy.
 old-location: wdf\iwdfusbtargetpipe_setpipepolicy.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, SetPipePolicy method, IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy method, SetPipePolicy method, IWDFUsbTargetPipe interface, SetPipePolicy,IWDFUsbTargetPipe.SetPipePolicy, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, umdf.iwdfusbtargetpipe_setpipepolicy, wdf.iwdfusbtargetpipe_setpipepolicy, wudfusb/IWDFUsbTargetPipe::SetPipePolicy
+ms.keywords: IWDFUsbTargetPipe interface,SetPipePolicy method, IWDFUsbTargetPipe.SetPipePolicy, IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy, SetPipePolicy method, SetPipePolicy method,IWDFUsbTargetPipe interface, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, umdf.iwdfusbtargetpipe_setpipepolicy, wdf.iwdfusbtargetpipe_setpipepolicy, wudfusb/IWDFUsbTargetPipe::SetPipePolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetPipe.SetPipePolicy
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::SetPipePolicy method
+# IWDFUsbTargetPipe::SetPipePolicy
 
 
 ## -description
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>SetPipePolicy</b> method sets the WinUsb pipe policy.
-
-
-## -syntax
-
-
-````
-HRESULT SetPipePolicy(
-  [in] ULONG PolicyType,
-  [in] ULONG ValueLength,
-  [in] PVOID Value
-);
-````
 
 
 ## -parameters
@@ -217,11 +205,10 @@ CMyDevice::ConfigureUsbIoTargets(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
 
 
 
@@ -229,8 +216,8 @@ CMyDevice::ConfigureUsbIoTargets(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a>
  
 
  
-
 

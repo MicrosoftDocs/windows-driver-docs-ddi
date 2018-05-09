@@ -7,7 +7,7 @@ old-location: stream\bdapropertynodetypes.htm
 old-project: stream
 ms.assetid: 786ced41-7841-4898-93d5-afb4dcf7fa0c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: BdaPropertyNodeTypes, BdaPropertyNodeTypes function [Streaming Media Devices], bdaref_cec37979-eb0c-4914-86fe-6dc613c61ae8.xml, bdasup/BdaPropertyNodeTypes, stream.bdapropertynodetypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Bdasup.dll
 api_name:
 -	BdaPropertyNodeTypes
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
+req.typenames: 
 ---
 
 # BdaPropertyNodeTypes function
@@ -51,18 +52,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 
 
 The <b>BdaPropertyNodeTypes</b> function retrieves a list of node types in a template topology. 
-
-
-## -syntax
-
-
-````
-NTSTATUS BdaPropertyNodeTypes(
-  _In_  PIRP        Irp,
-  _In_  PKSPROPERTY pKSProperty,
-  _Out_ ULONG       *pulProperty
-);
-````
 
 
 ## -parameters
@@ -110,6 +99,9 @@ A BDA minidriver calls the <b>BdaPropertyNodeTypes</b> function to retrieve the 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -119,11 +111,7 @@ A BDA minidriver calls the <b>BdaPropertyNodeTypes</b> function to retrieve the 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
-
-
-
  
 
  
-
 

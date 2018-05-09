@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEventArgs.get_Request
-title: IPrinterExtensionEventArgs::get_Request method
+title: IPrinterExtensionEventArgs::get_Request
 author: windows-driver-content
 description: Gets the IPrinterExtensionRequest object for the current event.
 old-location: print\iprinterextensioneventargs_request.htm
 old-project: print
 ms.assetid: 2F11C510-B649-4DC6-B0BC-89C4159E464C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], Request property, IPrinterExtensionEventArgs.Request, IPrinterExtensionEventArgs::get_Request, Request property [Print Devices], Request property [Print Devices], IPrinterExtensionEventArgs interface, get_Request, get_Request,IPrinterExtensionEventArgs.get_Request, print.iprinterextensioneventargs_request, printerextension/IPrinterExtensionEventArgs::Request, printerextension/IPrinterExtensionEventArgs::get_Request
+ms.date: 4/20/2018
+ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],Request property, IPrinterExtensionEventArgs.Request, IPrinterExtensionEventArgs.get_Request, IPrinterExtensionEventArgs::Request, IPrinterExtensionEventArgs::get_Request, Request property [Print Devices], Request property [Print Devices],IPrinterExtensionEventArgs interface, get_Request, print.iprinterextensioneventargs_request, printerextension/IPrinterExtensionEventArgs::Request, printerextension/IPrinterExtensionEventArgs::get_Request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,33 +39,23 @@ api_location:
 api_name:
 -	IPrinterExtensionEventArgs.Request
 -	IPrinterExtensionEventArgs.get_Request
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterExtensionEventArgs::get_Request method
+# IPrinterExtensionEventArgs::get_Request
 
 
 ## -description
 
 
-Gets the <a href="..\printerextension\nn-printerextension-iprinterextensionrequest.md">IPrinterExtensionRequest</a> object for the current event.
+Gets the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439517">IPrinterExtensionRequest</a> object for the current event.
 
 This interface is used to complete or cancel the event.
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_Request(
-  [out, retval] IPrinterExtensionRequest **ppRequest
-);
-````
 
 
 ## -parameters
@@ -73,16 +63,15 @@ HRESULT get_Request(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioneventargs.md">IPrinterExtensionEventArgs</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionrequest.md">IPrinterExtensionRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439517">IPrinterExtensionRequest</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: hid\output_packet.htm
 old-project: hid
 ms.assetid: 1d8d723f-aae5-499e-94cf-c7ccdb24c45f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*POUTPUT_PACKET, OUTPUT_PACKET, OUTPUT_PACKET structure [Human Input Devices], POUTPUT_PACKET, POUTPUT_PACKET structure pointer [Human Input Devices], _OUTPUT_PACKET, hid.output_packet, i8042ref_3e563892-06cb-4021-847d-d6afda279c7a.xml, ntdd8042/OUTPUT_PACKET, ntdd8042/POUTPUT_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	OUTPUT_PACKET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OUTPUT_PACKET, *POUTPUT_PACKET
 ---
@@ -50,19 +51,6 @@ req.typenames: OUTPUT_PACKET, *POUTPUT_PACKET
 
 
 OUTPUT_PACKET contains information about the data that is being written to a keyboard or mouse device by I8042prt.
-
-
-## -syntax
-
-
-````
-typedef struct _OUTPUT_PACKET {
-  PUCHAR         Bytes;
-  ULONG          CurrentByte;
-  ULONG          ByteCount;
-  TRANSMIT_STATE State;
-} OUTPUT_PACKET, *POUTPUT_PACKET;
-````
 
 
 ## -struct-fields
@@ -121,18 +109,13 @@ Identifies that a write is in progress.
 
 
 
-This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a> callback routine and a <a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a> callback routine.
+This structure is used with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543248">PI8042_KEYBOARD_ISR</a> callback routine and a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a> callback routine.
 
 
 
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
-
-
-
-<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
 
 
 
@@ -140,12 +123,16 @@ This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_i
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
+<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543248">PI8042_KEYBOARD_ISR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a>
  
 
  
-
 

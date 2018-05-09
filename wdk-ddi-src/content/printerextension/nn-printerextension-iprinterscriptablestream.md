@@ -7,8 +7,8 @@ old-location: print\iprinterscriptablestream.htm
 old-project: print
 ms.assetid: AD3CDF90-76ED-498B-8DE1-B191504EB415
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices], described, print.iprinterscriptablestream, printerextension/IPrinterScriptableStream
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices],described, print.iprinterscriptablestream, printerextension/IPrinterScriptableStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptableStream
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterScriptableStream interface
@@ -50,12 +50,12 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The IPrinterScriptableStream interface builds on <a href="..\printerextension\nn-printerextension-iprinterscriptablesequentialstream.md">IPrinterScriptableSequentialStream</a> and adds IStream-like semantics.
+The IPrinterScriptableStream interface builds on <a href="https://msdn.microsoft.com/85DF7DCB-7AB1-4A46-AD70-6D47D9F98079">IPrinterScriptableSequentialStream</a> and adds IStream-like semantics.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterScriptableStream</b> interface inherits from <a href="..\printerextension\nn-printerextension-iprinterscriptablesequentialstream.md">IPrinterScriptableSequentialStream</a>. <b>IPrinterScriptableStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterScriptableStream</b> interface inherits from <a href="https://msdn.microsoft.com/85DF7DCB-7AB1-4A46-AD70-6D47D9F98079">IPrinterScriptableSequentialStream</a>. <b>IPrinterScriptableStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -100,7 +100,10 @@ Sets the size of the scriptable stream, in bytes.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
 
 
 
@@ -112,12 +115,8 @@ Sets the size of the scriptable stream, in bytes.
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablesequentialstream.md">IPrinterScriptableSequentialStream</a>
-
-
-
+<a href="https://msdn.microsoft.com/85DF7DCB-7AB1-4A46-AD70-6D47D9F98079">IPrinterScriptableSequentialStream</a>
  
 
  
-
 

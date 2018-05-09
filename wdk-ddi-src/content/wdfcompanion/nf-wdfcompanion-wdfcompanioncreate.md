@@ -38,10 +38,10 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	WdfCompanionCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfCompanionCreate function
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfCompanionCreate(
-  _Inout_  PWDFDEVICE_INIT        *DeviceInit,
-  _In_opt_ PWDF_OBJECT_ATTRIBUTES DeviceAttributes,
-  _Out_    WDFCOMPANION           *Companion
-);
-````
 
 
 ## -parameters

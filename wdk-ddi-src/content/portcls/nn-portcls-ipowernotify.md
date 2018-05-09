@@ -7,8 +7,8 @@ old-location: audio\ipowernotify.htm
 old-project: audio
 ms.assetid: f4856f40-b462-4e69-9324-a2cc837b2893
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IPowerNotify, IPowerNotify interface [Audio Devices], IPowerNotify interface [Audio Devices], described, audio.ipowernotify, audmp-routines_345bcede-d886-4423-b56e-0b7c15596744.xml, portcls/IPowerNotify
+ms.date: 4/16/2018
+ms.keywords: IPowerNotify, IPowerNotify interface [Audio Devices], IPowerNotify interface [Audio Devices],described, audio.ipowernotify, audmp-routines_345bcede-d886-4423-b56e-0b7c15596744.xml, portcls/IPowerNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	portcls.h
 api_name:
 -	IPowerNotify
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IPowerNotify interface
@@ -53,31 +54,31 @@ The <code>IPowerNotify</code> interface is an optional interface that miniport d
 <dl>
 <dd>
 
-<a href="..\portcls\nn-portcls-iminiportwavepci.md">IMiniportWavePci</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536724">IMiniportWavePci</a>
 
 
 </dd>
 <dd>
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWaveCyclic</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536714">IMiniportWaveCyclic</a>
 
 
 </dd>
 <dd>
 
-<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536703">IMiniportMidi</a>
 
 
 </dd>
 <dd>
 
-<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536699">IMiniportDMus</a>
 
 
 </dd>
 <dd>
 
-<a href="..\portcls\nn-portcls-iminiporttopology.md">IMiniportTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536712">IMiniportTopology</a>
 
 
 </dd>

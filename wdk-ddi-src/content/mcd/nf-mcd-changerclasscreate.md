@@ -7,7 +7,7 @@ old-location: storage\changerclasscreate.htm
 old-project: storage
 ms.assetid: 3abaf674-e8a8-42bb-ac31-1ca8f5e148e4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: ChangerClassCreate, ChangerClassCreate routine [Storage Devices], chgrclas_27002d62-809d-48db-a2fc-8603d376f0d2.xml, mcd/ChangerClassCreate, storage.changerclasscreate, storage.changerclasscreateclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	mcd.h
 api_name:
 -	ChangerClassCreate
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LAMP_INTENSITY_WHITE
+req.typenames: 
 ---
 
 # ChangerClassCreate function
@@ -50,17 +51,6 @@ req.typenames: LAMP_INTENSITY_WHITE
 
 
 The <b>ChangerClassCreate</b> routine is called by a changer minidriver to allow the class driver perform device-independent operations needed to create or close a device. 
-
-
-## -syntax
-
-
-````
-NTSTATUS ChangerClassCreate(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ PIRP           Irp
-);
-````
 
 
 ## -parameters

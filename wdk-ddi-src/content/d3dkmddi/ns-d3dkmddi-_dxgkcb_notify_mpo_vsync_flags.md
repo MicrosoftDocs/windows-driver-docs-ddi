@@ -7,7 +7,7 @@ old-location: display\dxgkcb_notify_mpo_vsync_flags.htm
 old-project: display
 ms.assetid: 5583297C-D927-4D9A-8F77-D9871B2CA736
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, DXGKCB_NOTIFY_MPO_VSYNC_FLAGS structure [Display Devices], _DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, d3dkmddi/DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, display.dxgkcb_notify_mpo_vsync_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
 ---
@@ -50,22 +51,6 @@ req.typenames: DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
 
 
 A structure containing the flags set by the driver to process a flip entry.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKCB_NOTIFY_MPO_VSYNC_FLAGS {
-  union {
-    struct {
-      UINT PostPresentNeeded  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGKCB_NOTIFY_MPO_VSYNC_FLAGS;
-````
 
 
 ## -struct-fields
@@ -83,5 +68,5 @@ The driver sets this flag to indicate that scheduler must call DXGDDI_POSTMULTIP
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 

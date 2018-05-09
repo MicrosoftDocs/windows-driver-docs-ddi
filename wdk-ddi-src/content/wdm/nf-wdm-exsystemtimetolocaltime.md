@@ -7,7 +7,7 @@ old-location: kernel\exsystemtimetolocaltime.htm
 old-project: kernel
 ms.assetid: d77ce60e-7b23-4f60-af63-d613ceba281e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExSystemTimeToLocalTime, ExSystemTimeToLocalTime routine [Kernel-Mode Driver Architecture], k102_9cf20274-70ae-41f6-b56f-2dc8aa7fd0e3.xml, kernel.exsystemtimetolocaltime, wdm/ExSystemTimeToLocalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExSystemTimeToLocalTime
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExSystemTimeToLocalTime function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ExSystemTimeToLocalTime</b> routine converts a GMT system time value to the local system time for the current time zone.
-
-
-## -syntax
-
-
-````
-VOID ExSystemTimeToLocalTime(
-  _In_  PLARGE_INTEGER SystemTime,
-  _Out_ PLARGE_INTEGER LocalTime
-);
-````
 
 
 ## -parameters
@@ -99,12 +88,11 @@ None
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545483">ExLocalTimeToSystemTime</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetRunningProcessSystemIdByExecutableNameWide
-title: IDebugClient5::GetRunningProcessSystemIdByExecutableNameWide method
+title: IDebugClient5::GetRunningProcessSystemIdByExecutableNameWide
 author: windows-driver-content
 description: The GetRunningProcessSystemIdByExecutableNameWide method searches for a process with a given executable file name and return its process ID.
 old-location: debugger\getrunningprocesssystemidbyexecutablenamewide.htm
 old-project: debugger
 ms.assetid: ab21286e-96cd-402c-bb8d-d33b4ee7938e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging], GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging], IDebugClient3 interface, GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging], IDebugClient4 interface, GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging], IDebugClient5 interface, GetRunningProcessSystemIdByExecutableNameWide,IDebugClient5.GetRunningProcessSystemIdByExecutableNameWide, IDebugClient3 interface [Windows Debugging], GetRunningProcessSystemIdByExecutableNameWide method, IDebugClient3::GetRunningProcessSystemIdByExecutableNameWide, IDebugClient4 interface [Windows Debugging], GetRunningProcessSystemIdByExecutableNameWide method, IDebugClient4::GetRunningProcessSystemIdByExecutableNameWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetRunningProcessSystemIdByExecutableNameWide method, IDebugClient5::GetRunningProcessSystemIdByExecutableNameWide, dbgeng/IDebugClient3::GetRunningProcessSystemIdByExecutableNameWide, dbgeng/IDebugClient4::GetRunningProcessSystemIdByExecutableNameWide, dbgeng/IDebugClient5::GetRunningProcessSystemIdByExecutableNameWide, debugger.getrunningprocesssystemidbyexecutablenamewide
+ms.date: 4/24/2018
+ms.keywords: GetRunningProcessSystemIdByExecutableNameWide, GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging], GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging],IDebugClient3 interface, GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging],IDebugClient4 interface, GetRunningProcessSystemIdByExecutableNameWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],GetRunningProcessSystemIdByExecutableNameWide method, IDebugClient3::GetRunningProcessSystemIdByExecutableNameWide, IDebugClient4 interface [Windows Debugging],GetRunningProcessSystemIdByExecutableNameWide method, IDebugClient4::GetRunningProcessSystemIdByExecutableNameWide, IDebugClient5 interface [Windows Debugging],GetRunningProcessSystemIdByExecutableNameWide method, IDebugClient5.GetRunningProcessSystemIdByExecutableNameWide, IDebugClient5::GetRunningProcessSystemIdByExecutableNameWide, dbgeng/IDebugClient3::GetRunningProcessSystemIdByExecutableNameWide, dbgeng/IDebugClient4::GetRunningProcessSystemIdByExecutableNameWide, dbgeng/IDebugClient5::GetRunningProcessSystemIdByExecutableNameWide, debugger.getrunningprocesssystemidbyexecutablenamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,31 +40,19 @@ api_name:
 -	IDebugClient3.GetRunningProcessSystemIdByExecutableNameWide
 -	IDebugClient4.GetRunningProcessSystemIdByExecutableNameWide
 -	IDebugClient5.GetRunningProcessSystemIdByExecutableNameWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::GetRunningProcessSystemIdByExecutableNameWide method
+# IDebugClient5::GetRunningProcessSystemIdByExecutableNameWide
 
 
 ## -description
 
 
 The <b>GetRunningProcessSystemIdByExecutableNameWide</b> method searches for a process with a given executable file name and return its process ID.
-
-
-## -syntax
-
-
-````
-HRESULT GetRunningProcessSystemIdByExecutableNameWide(
-  [in]  ULONG64 Server,
-  [in]  PCWSTR  ExeName,
-  [in]  ULONG   Flags,
-  [out] PULONG  Id
-);
-````
 
 
 ## -parameters
@@ -185,31 +173,6 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
 
 
 
@@ -217,8 +180,32 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

@@ -38,10 +38,10 @@ api_location:
 -	Wdfhwaccess.h
 api_name:
 -	WDF_WRITE_PORT_BUFFER_ULONG
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_WRITE_PORT_BUFFER_ULONG function
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 
 The <b>WDF_WRITE_PORT_BUFFER_ULONG</b> function writes a number of ULONG values from a buffer to the specified port address.
 
-
-
-## -syntax
-
-
-````
-void WDF_WRITE_PORT_BUFFER_ULONG(
-  _In_ WDFDEVICE Device,
-  _In_ PULONG    Port,
-  _In_ PULONG    Buffer,
-  _In_ ULONG     Count 
-);
-````
 
 
 ## -parameters

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperUni.GetFontSubstitution
-title: IPrintCoreHelperUni::GetFontSubstitution method
+title: IPrintCoreHelperUni::GetFontSubstitution
 author: windows-driver-content
 description: The IPrintCoreHelperUni::GetFontSubstitution method indicates which device font, if any, is used as a substitution font for a specified TrueType font.
 old-location: print\iprintcorehelperuni_getfontsubstitution.htm
 old-project: print
 ms.assetid: f11b3b85-d01b-4133-9279-bff0001e04f9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFontSubstitution method [Print Devices], GetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, GetFontSubstitution,IPrintCoreHelperUni.GetFontSubstitution, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], GetFontSubstitution method, IPrintCoreHelperUni::GetFontSubstitution, prcomoem/IPrintCoreHelperUni::GetFontSubstitution, print.iprintcorehelperuni_getfontsubstitution, print_unidrv-pscript_allplugins_9ce6a5aa-84f7-4193-8dcc-1e4a12b91b19.xml
+ms.date: 4/20/2018
+ms.keywords: GetFontSubstitution, GetFontSubstitution method [Print Devices], GetFontSubstitution method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],GetFontSubstitution method, IPrintCoreHelperUni.GetFontSubstitution, IPrintCoreHelperUni::GetFontSubstitution, prcomoem/IPrintCoreHelperUni::GetFontSubstitution, print.iprintcorehelperuni_getfontsubstitution, print_unidrv-pscript_allplugins_9ce6a5aa-84f7-4193-8dcc-1e4a12b91b19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreHelperUni.GetFontSubstitution
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperUni::GetFontSubstitution method
+# IPrintCoreHelperUni::GetFontSubstitution
 
 
 ## -description
 
 
 The <code>IPrintCoreHelperUni::GetFontSubstitution</code> method indicates which device font, if any, is used as a substitution font for a specified TrueType font.
-
-
-## -syntax
-
-
-````
-STDMETHOD GetFontSubstitution(
-  [in]  PCWSTR pszTrueTypeFontName,
-  [out] PCWSTR *ppszDevFontName
-);
-````
 
 
 ## -parameters
@@ -168,16 +157,15 @@ To obtain a list of available fonts, create an information context for the curre
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552941">IPrintCoreHelperUni::SetFontSubstitution</a>
-
-
-
  
 
  
-
 

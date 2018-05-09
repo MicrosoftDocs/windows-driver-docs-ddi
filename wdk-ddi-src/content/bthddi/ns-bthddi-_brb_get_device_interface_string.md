@@ -7,7 +7,7 @@ old-location: bltooth\_brb_get_device_interface_string.htm
 old-project: bltooth
 ms.assetid: 340e4b9a-9959-4eda-b26b-674f7fca7156
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_GET_DEVICE_INTERFACE_STRING, _BRB_GET_DEVICE_INTERFACE_STRING structure [Bluetooth Devices], bltooth._brb_get_device_interface_string, bth_structs_3d85c9ac-2714-4d6c-8a3e-f8908d8e5be9.xml, bthddi/_BRB_GET_DEVICE_INTERFACE_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	_BRB_GET_DEVICE_INTERFACE_STRING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,18 +54,6 @@ The _BRB_GET_DEVICE_INTERFACE_STRING structure describes the device interface st
   device object.
 
 
-## -syntax
-
-
-````
-struct _BRB_GET_DEVICE_INTERFACE_STRING {
-  BRB_HEADER Hdr;
-  PWCHAR     DeviceInterfaceString;
-  ULONG      DeviceInterfaceStringCbLength;
-};
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +62,7 @@ struct _BRB_GET_DEVICE_INTERFACE_STRING {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -101,7 +90,7 @@ To get the device interface string for the current device object, profile driver
     BRB_GET_DEVICE_INTERFACE_STRING</a> request.
 
 The Bluetooth driver stack performs an 
-    <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> call on
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a> call on
     each device object it creates. The BRB returns the device interface string returned by that call. This
     can be useful for registering for events.
 
@@ -114,7 +103,6 @@ If the buffer pointed to by the
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
 
 
@@ -123,12 +111,12 @@ If the buffer pointed to by the
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a>
  
 
  
-
 

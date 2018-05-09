@@ -7,7 +7,7 @@ old-location: stream\ksacquiredevicesecuritylock.htm
 old-project: stream
 ms.assetid: a5a003c1-fa35-461d-8a47-a1a7bc2375b4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAcquireDeviceSecurityLock, KsAcquireDeviceSecurityLock function [Streaming Media Devices], ks/KsAcquireDeviceSecurityLock, ksfunc_dd097c63-acd6-4de2-b3c9-a50e55e3f3f1.xml, stream.ksacquiredevicesecuritylock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAcquireDeviceSecurityLock
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsAcquireDeviceSecurityLock</b> function acquires the security lock associated with a device object. An exclusive lock is acquired when changing a security descriptor. When manipulating the security of any object under a particular device object, this lock must be acquired.
-
-
-## -syntax
-
-
-````
-VOID KsAcquireDeviceSecurityLock(
-  _In_ KSDEVICE_HEADER Header,
-  _In_ BOOLEAN         Exclusive
-);
-````
 
 
 ## -parameters
@@ -99,12 +89,11 @@ A shared lock is acquired when validating access during a create. An exclusive l
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a>
  
 
  
-
 

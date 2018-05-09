@@ -7,7 +7,7 @@ old-location: stream\bdacreatefilterfactory.htm
 old-project: stream
 ms.assetid: bce1a41a-03fa-4f41-aeba-e18c85b07e00
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: BdaCreateFilterFactory, BdaCreateFilterFactory function [Streaming Media Devices], bdaref_187ab038-cc22-4f82-a9c9-b326b77fef64.xml, bdasup/BdaCreateFilterFactory, stream.bdacreatefilterfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Bdasup.dll
 api_name:
 -	BdaCreateFilterFactory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
+req.typenames: 
 ---
 
 # BdaCreateFilterFactory function
@@ -51,18 +52,6 @@ req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 
 
 The <b>BdaCreateFilterFactory</b> function adds the specified filter descriptor as a filter factory to the specified device and associates the filter factory with the specified BDA template topology. 
-
-
-## -syntax
-
-
-````
-NTSTATUS BdaCreateFilterFactory(
-  _In_       PKSDEVICE           pKSDevice,
-  _In_ const KSFILTER_DESCRIPTOR *pFilterDescriptor,
-  _In_ const BDA_FILTER_TEMPLATE *pBdaFilterTemplate
-);
-````
 
 
 ## -parameters
@@ -77,12 +66,12 @@ Points to the BDA device to which to add the filter factory with associated BDA 
 
 ### -param pFilterDescriptor [in]
 
-Points to a <a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a> structure that describes a filter for the BDA device. Note that not all of the template pin and node types may be exposed as pin and node factories when the filter is first initialized. 
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a> structure that describes a filter for the BDA device. Note that not all of the template pin and node types may be exposed as pin and node factories when the filter is first initialized. 
 
 
 ### -param pBdaFilterTemplate [in]
 
-Points to a <a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a> structure that describes a BDA template topology. 
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556523">BDA_FILTER_TEMPLATE</a> structure that describes a BDA template topology. 
 
 
 ## -returns
@@ -120,38 +109,37 @@ A BDA minidriver calls the <b>BdaCreateFilterFactory</b> function to add a filte
 
 </li>
 </ul>
-If a BDA minidriver requires a pointer to the newly created filter factory (<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>), the minidriver should call the <a href="..\bdasup\nf-bdasup-bdacreatefilterfactoryex.md">BdaCreateFilterFactoryEx</a> function instead.
+If a BDA minidriver requires a pointer to the newly created filter factory (<a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>), the minidriver should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556441">BdaCreateFilterFactoryEx</a> function instead.
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556523">BDA_FILTER_TEMPLATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556441">BdaCreateFilterFactoryEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563403">KSMETHODSETID_BdaChangeSync</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-
-
-<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
-
-
-
-<a href="..\bdasup\nf-bdasup-bdacreatefilterfactoryex.md">BdaCreateFilterFactoryEx</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
@@ -159,8 +147,8 @@ If a BDA minidriver requires a pointer to the newly created filter factory (<a h
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3ddevinfo_vcache.htm
 old-project: display
 ms.assetid: 3c20b757-c27c-446c-a138-066fc57ec1bc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE, D3DDEVINFO_VCACHE structure [Display Devices], LPD3DDEVINFO_VCACHE, LPD3DDEVINFO_VCACHE structure pointer [Display Devices], _D3DDEVINFO_VCACHE, d3d9types/D3DDEVINFO_VCACHE, d3d9types/LPD3DDEVINFO_VCACHE, d3dstrct_19dad044-1780-4c89-a518-328f0dfa3a26.xml, display.d3ddevinfo_vcache"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d9types.h
 api_name:
 -	D3DDEVINFO_VCACHE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDEVINFO_VCACHE, *LPD3DDEVINFO_VCACHE
 ---
@@ -54,19 +55,6 @@ req.typenames: D3DDEVINFO_VCACHE, *LPD3DDEVINFO_VCACHE
    
 
 The D3DDEVINFO_VCACHE structure describes vertex-cache information of a device.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDEVINFO_VCACHE {
-  DWORD Pattern;
-  DWORD OptMethod;
-  DWORD CacheSize;
-  DWORD MagicNumber;
-} D3DDEVINFO_VCACHE, *LPD3DDEVINFO_VCACHE;
-````
 
 
 ## -struct-fields
@@ -138,24 +126,15 @@ Specifies the number that should be used as part of a trial-and-error procedure 
 
 <b>DirectX 8.1 versions only.</b> The Direct3D runtime calls a driver's <a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a> function to obtain vertex-cache information from the driver. In this <b>D3dGetDriverState</b> call, the runtime specifies the D3DDEVINFOID_VCACHE flag in the <b>dwFlags</b> member of the DD_GETDRIVERSTATEDATA structure that the runtime passes. The driver specifies vertex-cache information in a D3DDEVINFO_VCACHE structure and returns it at the <b>lpdwStates</b> member of DD_GETDRIVERSTATEDATA.
 
-<b>DirectX 9.0 and later versions only.</b> The Direct3D runtime specifies D3DDP2OP_CREATEQUERY and D3DDP2OP_ISSUEQUERY commands in calls to the driver's <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback to create driver-side resources for the query and then to asynchronously query the driver for vertex-cache information. In the call with the D3DDP2OP_CREATEQUERY command, the runtime specifies the D3DQUERYTYPE_VCACHE query type in the <b>QueryType</b> member of the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a> structure. 
+<b>DirectX 9.0 and later versions only.</b> The Direct3D runtime specifies D3DDP2OP_CREATEQUERY and D3DDP2OP_ISSUEQUERY commands in calls to the driver's <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback to create driver-side resources for the query and then to asynchronously query the driver for vertex-cache information. In the call with the D3DDP2OP_CREATEQUERY command, the runtime specifies the D3DQUERYTYPE_VCACHE query type in the <b>QueryType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545469">D3DHAL_DP2CREATEQUERY</a> structure. 
 
-When the driver completes a vertex-cache query, the driver sets the total size of the response buffer in the dwErrorOffset member of the <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a> structure and sets the <b>ddrval</b> member of D3DHAL_DRAWPRIMITIVES2DATA to D3D_OK for successful completion. The driver also overwrites the incoming command buffer with the outgoing response buffer. This response buffer contains a <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a> structure that identifies a response for the vertex-cache query. This D3DHAL_DP2RESPONSEQUERY is followed by the vertex-cache data in the D3DDEVINFO_VCACHE structure. 
+When the driver completes a vertex-cache query, the driver sets the total size of the response buffer in the dwErrorOffset member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a> structure and sets the <b>ddrval</b> member of D3DHAL_DRAWPRIMITIVES2DATA to D3D_OK for successful completion. The driver also overwrites the incoming command buffer with the outgoing response buffer. This response buffer contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545714">D3DHAL_DP2RESPONSEQUERY</a> structure that identifies a response for the vertex-cache query. This D3DHAL_DP2RESPONSEQUERY is followed by the vertex-cache data in the D3DDEVINFO_VCACHE structure. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
-
-
-
-<a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a>
 
 
 
@@ -163,20 +142,28 @@ D3DDP2OP_CREATEQUERY
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
-
-
-
 D3DDP2OP_ISSUEQUERY
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545469">D3DHAL_DP2CREATEQUERY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545714">D3DHAL_DP2RESPONSEQUERY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545957">D3DHAL_DRAWPRIMITIVES2DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+
+
+
+<a href="https://msdn.microsoft.com/6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0">D3dGetDriverState</a>
  
 
  
-
 

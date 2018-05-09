@@ -7,8 +7,8 @@ old-location: dtf\iwdtfdriversetupaction2.htm
 old-project: dtf
 ms.assetid: 474590f9-f737-4b9a-9a63-8cce8a35c538
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFDriverSetupAction2, IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], described, Microsoft.WDTF.IWDTFDriverSetupAction2, dtf.iwdtfdriversetupaction2, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2
+ms.date: 4/4/2018
+ms.keywords: IWDTFDriverSetupAction2, IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFDriverSetupAction2, dtf.iwdtfdriversetupaction2, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	WDTFDriverSetupDeviceAction.Interop.dll
 api_name:
 -	IWDTFDriverSetupAction2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDTFDriverSetupAction2 interface

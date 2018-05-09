@@ -7,7 +7,7 @@ old-location: stream\ksfilterfactoryregisteraggregatedclientunknown.htm
 old-project: stream
 ms.assetid: 7750a0f5-f38d-4530-81dc-589a1c2009ca
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFilterFactoryRegisterAggregatedClientUnknown, KsFilterFactoryRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_03ec0abd-d481-4b97-b8ab-6be504e95a55.xml, ks/KsFilterFactoryRegisterAggregatedClientUnknown, stream.ksfilterfactoryregisteraggregatedclientunknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsFilterFactoryRegisterAggregatedClientUnknown
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -49,18 +50,7 @@ req.typenames:
 ## -description
 
 
-This inline function is a wrapper for <a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>.
-
-
-## -syntax
-
-
-````
-PUNKNOWN __inline KsFilterFactoryRegisterAggregatedClientUnknown(
-  _In_ PKSFILTERFACTORY FilterFactory,
-  _In_ PUNKNOWN         ClientUnknown
-);
-````
+This inline function is a wrapper for <a href="https://msdn.microsoft.com/library/windows/hardware/ff566767">KsRegisterAggregatedClientUnknown</a>.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ PUNKNOWN __inline KsFilterFactoryRegisterAggregatedClientUnknown(
 
 ### -param FilterFactory [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> structure that represents the specified AVStream filter factory.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> structure that represents the specified AVStream filter factory.
 
 
 ### -param ClientUnknown [in]
@@ -98,12 +88,11 @@ Note that this inline function only performs a typecast and then calls <b>KsRegi
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566767">KsRegisterAggregatedClientUnknown</a>
  
 
  
-
 

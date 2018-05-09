@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_packet_service_state.htm
 old-project: netvista
 ms.assetid: 63dbd674-32b3-4843-8349-706c3c0380e5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PACKET_SERVICE_STATE, PNDIS_WWAN_PACKET_SERVICE_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_b676b582-9e62-4e40-adbf-fe924103ebb6.xml, _NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE, netvista.ndis_wwan_packet_service_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_PACKET_SERVICE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE
 ---
@@ -51,18 +52,6 @@ req.typenames: NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE
 
 The NDIS_WWAN_PACKET_SERVICE_STATE structure represents the packet service attachment state of the MB
   device.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_PACKET_SERVICE_STATE {
-  NDIS_OBJECT_HEADER  Header;
-  WWAN_STATUS         uStatus;
-  WWAN_PACKET_SERVICE PacketService;
-} NDIS_WWAN_PACKET_SERVICE_STATE, *PNDIS_WWAN_PACKET_SERVICE_STATE;
-````
 
 
 ## -struct-fields
@@ -118,7 +107,7 @@ sizeof(NDIS_WWAN_PACKET_SERVICE_STATE)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -296,22 +285,21 @@ A bad SIM card is detected.
 ### -field PacketService
 
 A formatted 
-     <a href="..\wwan\ns-wwan-_wwan_packet_service.md">WWAN_PACKET_SERVICE</a> object that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571210">WWAN_PACKET_SERVICE</a> object that
      represents the packet service attachment state of the MB device.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_packet_service.md">WWAN_PACKET_SERVICE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571210">WWAN_PACKET_SERVICE</a>
  
 
  
-
 

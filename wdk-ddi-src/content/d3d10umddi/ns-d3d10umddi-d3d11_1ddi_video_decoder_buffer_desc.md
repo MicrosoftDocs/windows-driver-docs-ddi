@@ -38,7 +38,8 @@ apilocation:
 -	D3d10umddi.h
 apiname:
 -	D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC
 ---

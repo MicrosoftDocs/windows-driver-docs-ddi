@@ -73,10 +73,10 @@ typedef EVT_RXQUEUE_SET_NOTIFICATION_ENABLED *PFN_RXQUEUE_SET_NOTIFICATION_ENABL
 
 ## -parameters
 
-### -param RxQueue: 
+### -param RxQueue 
 A handle to a net receive queue.
 
-### -param NotificationEnabled: 
+### -param NotificationEnabled 
 A value of TRUE requests that the client enable receive queue notification. A value of FALSE requests that the client disable receive queue notification.
 
 ## -returns

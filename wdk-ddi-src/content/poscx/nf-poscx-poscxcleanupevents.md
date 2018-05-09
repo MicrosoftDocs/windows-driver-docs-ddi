@@ -38,9 +38,10 @@ api_location:
 -	poscx.h
 api_name:
 -	PosCxCleanupEvents
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POS_CX_EVENT_PRIORITY
+req.typenames: 
 req.product: Windows 10 or later.
 ---
 
@@ -53,17 +54,6 @@ req.product: Windows 10 or later.
       PosCxCleanupEvents is called to clean up all pending events for a given  
 
       caller, identified by the open instance.
-
-
-## -syntax
-
-
-````
-VOID PosCxCleanupEvents(
-  _In_ WDFDEVICE     device,
-  _In_ WDFFILEOBJECT fileObject
-);
-````
 
 
 ## -parameters

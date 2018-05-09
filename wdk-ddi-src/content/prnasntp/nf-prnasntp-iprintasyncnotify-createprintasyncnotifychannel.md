@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotify.CreatePrintAsyncNotifyChannel
-title: IPrintAsyncNotify::CreatePrintAsyncNotifyChannel method
+title: IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnotify_createprintasyncnotifychannel.htm
 old-project: print
 ms.assetid: B86297A4-1234-46B1-A10B-BD9A6E5012F2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CreatePrintAsyncNotifyChannel method [Print Devices], CreatePrintAsyncNotifyChannel method [Print Devices], IPrintAsyncNotify interface, CreatePrintAsyncNotifyChannel,IPrintAsyncNotify.CreatePrintAsyncNotifyChannel, IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], CreatePrintAsyncNotifyChannel method, IPrintAsyncNotify::CreatePrintAsyncNotifyChannel, print.iprintasyncnotify_createprintasyncnotifychannel, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
+ms.date: 4/20/2018
+ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel method [Print Devices], CreatePrintAsyncNotifyChannel method [Print Devices],IPrintAsyncNotify interface, IPrintAsyncNotify interface [Print Devices],CreatePrintAsyncNotifyChannel method, IPrintAsyncNotify.CreatePrintAsyncNotifyChannel, IPrintAsyncNotify::CreatePrintAsyncNotifyChannel, print.iprintasyncnotify_createprintasyncnotifychannel, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,34 +38,19 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncNotify.CreatePrintAsyncNotifyChannel
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintAsyncNotify::CreatePrintAsyncNotifyChannel method
+# IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 
 
 ## -description
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT CreatePrintAsyncNotifyChannel(
-  [in]  ULONG                             uL,
-  [in]  PrintAsyncNotificationType        *pType,
-  [in]  PrintAsyncNotifyUserFilter        filter,
-  [in]  PrintAsyncNotifyConversationStyle style,
-  [in]  IPrintAsyncNotifyCallback         *pCallback,
-  [out] IPrintAsyncNotifyChannel          **ppChannel
-);
-````
 
 
 ## -parameters
@@ -109,12 +94,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasyncnotify.md">IPrintAsyncNotify</a>
 
 
 
+<a href="https://msdn.microsoft.com/7C12C528-03B2-42B7-A73D-21DF3FEF1505">IPrintAsyncNotify</a>
  
 
  
-
 

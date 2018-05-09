@@ -7,7 +7,7 @@ old-location: kernel\slist_entry.htm
 old-project: kernel
 ms.assetid: 690bcd8a-3c4f-4254-99c7-4ad600b4ae4f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSLIST_ENTRY, PSLIST_ENTRY, PSLIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], SLIST_ENTRY, SLIST_ENTRY structure [Kernel-Mode Driver Architecture], _SLIST_ENTRY, kernel.slist_entry, kstruct_d_2bfe90ad-ee2e-4dbf-a028-5b3481aa8695.xml, wdm/PSLIST_ENTRY, wdm/SLIST_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	SLIST_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SLIST_ENTRY, *PSLIST_ENTRY
-req.product: Windows 10 or later.
 ---
 
 # _SLIST_ENTRY structure
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 An <b>SLIST_ENTRY</b> structure describes an entry in a sequenced singly linked list.
-
-
-## -syntax
-
-
-````
-typedef struct _SLIST_ENTRY {
-  struct _SLIST_ENTRY  *Next;
-} SLIST_ENTRY, *PSLIST_ENTRY;
-````
 
 
 ## -struct-fields
@@ -88,20 +78,19 @@ For more information about how to use <b>SLIST_ENTRY</b> structures to implement
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545379">ExInterlockedFlushSList</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedflushslist.md">ExInterlockedFlushSList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545414">ExInterlockedPopEntrySList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545422">ExInterlockedPushEntrySList</a>
  
 
  
-
 

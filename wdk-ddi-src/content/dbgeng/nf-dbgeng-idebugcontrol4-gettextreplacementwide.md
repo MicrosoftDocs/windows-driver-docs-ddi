@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetTextReplacementWide
-title: IDebugControl4::GetTextReplacementWide method
+title: IDebugControl4::GetTextReplacementWide
 author: windows-driver-content
 description: The GetTextReplacementWide method returns the value of a user-named alias or an automatic alias.
 old-location: debugger\gettextreplacementwide.htm
 old-project: debugger
 ms.assetid: 39a609f3-8f79-4a8b-9d29-0cfe09070f2b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetTextReplacementWide method [Windows Debugging], GetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, GetTextReplacementWide,IDebugControl4.GetTextReplacementWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetTextReplacementWide method, IDebugControl4::GetTextReplacementWide, dbgeng/IDebugControl4::GetTextReplacementWide, debugger.gettextreplacementwide
+ms.date: 4/24/2018
+ms.keywords: GetTextReplacementWide, GetTextReplacementWide method [Windows Debugging], GetTextReplacementWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetTextReplacementWide method, IDebugControl4.GetTextReplacementWide, IDebugControl4::GetTextReplacementWide, dbgeng/IDebugControl4::GetTextReplacementWide, debugger.gettextreplacementwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,35 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.GetTextReplacementWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetTextReplacementWide method
+# IDebugControl4::GetTextReplacementWide
 
 
 ## -description
 
 
 The <b>GetTextReplacementWide</b>  method returns the value of a user-named alias or an automatic alias.  
-
-
-## -syntax
-
-
-````
-HRESULT GetTextReplacementWide(
-  [in, optional]  PCWSTR SrcText,
-  [in]            ULONG  Index,
-  [out, optional] PWSTR  SrcBuffer,
-  [in]            ULONG  SrcBufferSize,
-  [out, optional] PULONG SrcSize,
-  [out, optional] PWSTR  DstBuffer,
-  [in]            ULONG  DstBufferSize,
-  [out, optional] PULONG DstSize
-);
-````
 
 
 ## -parameters
@@ -155,19 +139,6 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
@@ -175,12 +146,24 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538014">al (List Aliases)</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ril_managecalls_v2.htm
 old-project: netvista
 ms.assetid: d0fd4af9-e97e-4c2b-aea3-87d45b192568
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_ManageCalls_V2, RIL_ManageCalls_V2 method [Network Drivers Starting with Windows Vista], netvista.ril_managecalls_v2, rilapi/RIL_ManageCalls_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_ManageCalls_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_ManageCalls_V2 function
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_ManageCalls_V2(
-   HRIL                               hRil,
-   LPVOID                             lpContext,
-   DWORD                              dwExecutor,
-   RILMANAGECALLPARAMSCOMMAND         dwCommand,
-   DWORD                              dwID,
-   const LPRILCALLMEDIAOFFERANSWERSET lprcmOfferAnswer
-);
-````
 
 
 ## -parameters

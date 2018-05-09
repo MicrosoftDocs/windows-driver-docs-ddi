@@ -7,7 +7,7 @@ old-location: stream\kscopyobjectbagitems.htm
 old-project: stream
 ms.assetid: 5b3ee4f1-5c5a-413f-b927-96293cc87e98
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsCopyObjectBagItems, KsCopyObjectBagItems function [Streaming Media Devices], avfunc_26fe6218-6e9e-4a1a-93c6-f8f2ca10abbb.xml, ks/KsCopyObjectBagItems, stream.kscopyobjectbagitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsCopyObjectBagItems
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The<b> KsCopyObjectBagItems </b>function copies all items from one object bag into another.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCopyObjectBagItems(
-  _In_ KSOBJECT_BAG ObjectBagDestination,
-  _In_ KSOBJECT_BAG ObjectBagSource
-);
-````
 
 
 ## -parameters
@@ -99,48 +89,47 @@ Note that mutexes for both bags should be held. If the object bag in question is
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560941">KsAddItemToObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksadditemtoobjectbag.md">KsAddItemToObjectBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560965">KsAllocateObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561695">KsDiscard</a>
 
 
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562562">KsFreeObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563506">KsPinGetConnectedFilterInterface</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563509">KsPinGetConnectedPinInterface</a>
 
 
 
-<a href="..\ks\nf-ks-kspinsetpinclocktime.md">KsPinSetPinClockTime</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563517">KsPinGetReferenceClockInterface</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563528">KsPinSetPinClockTime</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetconnectedpininterface.md">KsPinGetConnectedPinInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566798">KsRemoveItemFromObjectBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568796">_KsEdit</a>
  
 
  
-
 

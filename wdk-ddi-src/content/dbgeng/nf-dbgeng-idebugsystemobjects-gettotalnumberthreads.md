@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects.GetTotalNumberThreads
-title: IDebugSystemObjects::GetTotalNumberThreads method
+title: IDebugSystemObjects::GetTotalNumberThreads
 author: windows-driver-content
 description: The GetTotalNumberThreads method returns the total number of threads for all the processes in the current target, in addition to the largest number of threads in any process for the current target.
 old-location: debugger\gettotalnumberthreads.htm
 old-project: debugger
 ms.assetid: dce67b78-a5e0-4664-b183-f462bcd773c8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetTotalNumberThreads method [Windows Debugging], GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects interface, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects2 interface, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects3 interface, GetTotalNumberThreads method [Windows Debugging], IDebugSystemObjects4 interface, GetTotalNumberThreads,IDebugSystemObjects.GetTotalNumberThreads, IDebugSystemObjects, IDebugSystemObjects interface [Windows Debugging], GetTotalNumberThreads method, IDebugSystemObjects2 interface [Windows Debugging], GetTotalNumberThreads method, IDebugSystemObjects2::GetTotalNumberThreads, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreads method, IDebugSystemObjects3::GetTotalNumberThreads, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreads method, IDebugSystemObjects4::GetTotalNumberThreads, IDebugSystemObjects::GetTotalNumberThreads, IDebugSystemObjects_fece8f3e-8d85-492a-b1f8-beadc398613e.xml, dbgeng/IDebugSystemObjects2::GetTotalNumberThreads, dbgeng/IDebugSystemObjects3::GetTotalNumberThreads, dbgeng/IDebugSystemObjects4::GetTotalNumberThreads, dbgeng/IDebugSystemObjects::GetTotalNumberThreads, debugger.gettotalnumberthreads
+ms.date: 4/24/2018
+ms.keywords: GetTotalNumberThreads, GetTotalNumberThreads method [Windows Debugging], GetTotalNumberThreads method [Windows Debugging],IDebugSystemObjects interface, GetTotalNumberThreads method [Windows Debugging],IDebugSystemObjects2 interface, GetTotalNumberThreads method [Windows Debugging],IDebugSystemObjects3 interface, GetTotalNumberThreads method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetTotalNumberThreads method, IDebugSystemObjects.GetTotalNumberThreads, IDebugSystemObjects2 interface [Windows Debugging],GetTotalNumberThreads method, IDebugSystemObjects2::GetTotalNumberThreads, IDebugSystemObjects3 interface [Windows Debugging],GetTotalNumberThreads method, IDebugSystemObjects3::GetTotalNumberThreads, IDebugSystemObjects4 interface [Windows Debugging],GetTotalNumberThreads method, IDebugSystemObjects4::GetTotalNumberThreads, IDebugSystemObjects::GetTotalNumberThreads, IDebugSystemObjects_fece8f3e-8d85-492a-b1f8-beadc398613e.xml, dbgeng/IDebugSystemObjects2::GetTotalNumberThreads, dbgeng/IDebugSystemObjects3::GetTotalNumberThreads, dbgeng/IDebugSystemObjects4::GetTotalNumberThreads, dbgeng/IDebugSystemObjects::GetTotalNumberThreads, debugger.gettotalnumberthreads
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,29 +41,19 @@ api_name:
 -	IDebugSystemObjects2.GetTotalNumberThreads
 -	IDebugSystemObjects3.GetTotalNumberThreads
 -	IDebugSystemObjects4.GetTotalNumberThreads
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects::GetTotalNumberThreads method
+# IDebugSystemObjects::GetTotalNumberThreads
 
 
 ## -description
 
 
 The <b>GetTotalNumberThreads</b> method returns the total number of <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">threads</a> for all the <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">processes</a> in the current target, in addition to the largest number of threads in any process for the current target.
-
-
-## -syntax
-
-
-````
-HRESULT GetTotalNumberThreads(
-  [out] PULONG Total,
-  [out] PULONG LargestProcess
-);
-````
 
 
 ## -parameters

@@ -7,8 +7,8 @@ old-location: print\iprinterextensioncontext_interface.htm
 old-project: print
 ms.assetid: DD0B5E6F-8E16-48E1-967B-D188535E1320
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterExtensionContext, IPrinterExtensionContext interface [Print Devices], IPrinterExtensionContext interface [Print Devices], described, print.iprinterextensioncontext_interface, printerextension/IPrinterExtensionContext
+ms.date: 4/20/2018
+ms.keywords: IPrinterExtensionContext, IPrinterExtensionContext interface [Print Devices], IPrinterExtensionContext interface [Print Devices],described, print.iprinterextensioncontext_interface, printerextension/IPrinterExtensionContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterExtensionContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterExtensionContext interface
@@ -55,6 +55,17 @@ Represents the context for the activation of a UWP device app for printers.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh846191">IPrinterExtensionContextCollection</a>
+
+
+
+<a href="https://msdn.microsoft.com/F2279727-168D-451B-8EDB-8A4A36ACA08F">IPrinterExtensionContextCollection::Count</a>
+
+
+
 <a href="https://msdn.microsoft.com/5E3DC6C7-E370-4120-81B7-2093812AD009">IPrinterExtensionContextCollection::GetAt</a>
 
 
@@ -64,19 +75,7 @@ Represents the context for the activation of a UWP device app for printers.
 
 
 <a href="https://msdn.microsoft.com/4E20303A-BEB3-4928-BA5A-356D978FA2BE">V4 Printer Driver Property Bags</a>
-
-
-
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
-
-
-
-<a href="https://msdn.microsoft.com/F2279727-168D-451B-8EDB-8A4A36ACA08F">IPrinterExtensionContextCollection::Count</a>
-
-
-
  
 
  
-
 

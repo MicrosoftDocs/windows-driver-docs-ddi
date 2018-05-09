@@ -7,7 +7,7 @@ old-location: display\d3dkmt_waitforsynchronizationobjectfromgpu.htm
 old-project: display
 ms.assetid: F22149E4-0396-46DE-89FE-9B4321D86605
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_waitforsynchronizationobjectfromgpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 ---
@@ -49,24 +50,7 @@ req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 ## -description
 
 
-<b>D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromgpu.md">D3DKMTWaitForSynchronizationObjectFromGpu</a> to wait for a monitored fence to reach a certain value.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU {
-  HANDLE              hContext;
-  UINT                ObjectCount;
-  const D3DKMT_HANDLE *ObjectHandleArray;
-  union {
-    const UINT64 *MonitoredFenceValueArray;
-    UINT64       FenceValue;
-    UINT64       Reserved[8];
-  };
-} D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU;
-````
+<b>D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906790">D3DKMTWaitForSynchronizationObjectFromGpu</a> to wait for a monitored fence to reach a certain value.
 
 
 ## -struct-fields
@@ -89,29 +73,28 @@ typedef struct _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU {
 [in] An array of kernel-mode handles to the synchronization events that the context that is specified by the <b>hContext</b> member waits for.
 
 
-#### - FenceValue
-
-[in] Fence value to wait for when the input object is of type <b>D3DDDI_FENCE</b>.
-
-
-#### - MonitoredFenceValueArray
+### -field MonitoredFenceValueArray
 
 [in] An array of 64-bit monitored fence values to wait for, each value corresponding to a synchronization object in <b>ObjectHandleArray</b>.
 
 
-#### - Reserved
+### -field FenceValue
+
+[in] Fence value to wait for when the input object is of type <b>D3DDDI_FENCE</b>.
+
+
+### -field Reserved
 
 This member is reserved and should be set to zero.
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromgpu.md">D3DKMTWaitForSynchronizationObjectFromGpu</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906790">D3DKMTWaitForSynchronizationObjectFromGpu</a>
  
 
  
-
 

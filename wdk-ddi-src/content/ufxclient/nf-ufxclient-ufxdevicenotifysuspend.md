@@ -7,7 +7,7 @@ old-location: buses\ufxdevicenotifysuspend.htm
 old-project: usbref
 ms.assetid: 80786A5A-E585-4092-814F-B940DD6967C6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UfxDeviceNotifySuspend, UfxDeviceNotifySuspend method [Buses], buses.ufxdevicenotifysuspend, ufxclient/UfxDeviceNotifySuspend
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -38,10 +38,10 @@ api_location:
 -	ufxclient.h
 api_name:
 -	UfxDeviceNotifySuspend
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UfxDeviceNotifySuspend function
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Notifies UFX about a USB bus suspend event.
 
 
-## -syntax
-
-
-````
-VOID UfxDeviceNotifySuspend(
-  [in] UFXDEVICE UfxDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ VOID UfxDeviceNotifySuspend(
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ## -returns
@@ -88,7 +78,7 @@ This method does not return a value.
 
 The client driver calls <b>UfxDeviceNotifySuspend</b> when it receives a bus suspend event. The default endpoint should be reset on a bus suspend.  The device should move to a low power mode.
 
-The client driver typically calls <b>UfxDeviceNotifySuspend</b> from its <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a> callback function.  The following example shows how to handle a suspend event.
+The client driver typically calls <b>UfxDeviceNotifySuspend</b> from its <a href="https://msdn.microsoft.com/d2d505e0-aeac-4871-8c60-d026b2833043">EvtInterruptDpc</a> callback function.  The following example shows how to handle a suspend event.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

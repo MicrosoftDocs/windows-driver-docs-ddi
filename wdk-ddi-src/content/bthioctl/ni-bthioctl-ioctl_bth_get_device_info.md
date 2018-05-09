@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bth_get_device_info.htm
 old-project: bltooth
 ms.assetid: 99bc222f-9c27-45b7-ade1-2401dfa41d7c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_BTH_GET_DEVICE_INFO, IOCTL_BTH_GET_DEVICE_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_device_info, bth_ioctls_427504e3-7414-4d2c-b835-b612ed73ce01.xml, bthioctl/IOCTL_BTH_GET_DEVICE_INFO
+ms.date: 4/27/2018
+ms.keywords: IOCTL_BTH_GET_DEVICE_INFO, IOCTL_BTH_GET_DEVICE_INFO control, IOCTL_BTH_GET_DEVICE_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_device_info, bth_ioctls_427504e3-7414-4d2c-b835-b612ed73ce01.xml, bthioctl/IOCTL_BTH_GET_DEVICE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_GET_DEVICE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
+req.typenames: 
 ---
 
 # IOCTL_BTH_GET_DEVICE_INFO IOCTL
@@ -65,20 +66,20 @@ The IOCTL_BTH_GET_DEVICE_INFO request returns information about all cached, prev
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer for a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_device_info_list.md">BTH_DEVICE_INFO_LIST</a> structure.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536642">BTH_DEVICE_INFO_LIST</a> structure.
 
 
 ### -input-buffer-length
 
 The length of a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_device_info_list.md">BTH_DEVICE_INFO_LIST</a> structure
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536642">BTH_DEVICE_INFO_LIST</a> structure
 
 
 ### -output-buffer
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_device_info_list.md">BTH_DEVICE_INFO_LIST</a> structure. The 
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536642">BTH_DEVICE_INFO_LIST</a> structure. The 
       <b>numOfDevices</b> member of the BTH_DEVICE_INFO_LIST structure contains the number of devices for
       which there is information and an array of 
       <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structures; one array
@@ -184,7 +185,6 @@ The BTH_DEVICE_INFO_LIST structure includes storage for the first BTH_DEVICE_INF
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_device_info_list.md">BTH_DEVICE_INFO_LIST</a>
 
 
 
@@ -192,8 +192,8 @@ The BTH_DEVICE_INFO_LIST structure includes storage for the first BTH_DEVICE_INF
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536642">BTH_DEVICE_INFO_LIST</a>
  
 
  
-
 

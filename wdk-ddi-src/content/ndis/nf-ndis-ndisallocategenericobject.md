@@ -7,7 +7,7 @@ old-location: netvista\ndisallocategenericobject.htm
 old-project: netvista
 ms.assetid: 166584fb-8a81-4a5b-93c9-3ad5348e15a7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisAllocateGenericObject, NdisAllocateGenericObject function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateGenericObject, ndis_object_ref_bb08930d-d264-4580-be64-a48061ab8ad4.xml, netvista.ndisallocategenericobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisAllocateGenericObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisAllocateGenericObject function
@@ -52,18 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Components that do not have an NDIS handle use the 
   <b>NdisAllocateGenericObject</b> function to allocate a generic NDIS object.
-
-
-## -syntax
-
-
-````
-PNDIS_GENERIC_OBJECT NdisAllocateGenericObject(
-   PDRIVER_OBJECT DriverObject,
-   ULONG          Tag,
-   USHORT         Size
-);
-````
 
 
 ## -parameters
@@ -84,7 +73,7 @@ The kernel memory tag that NDIS should use to allocate memory for the generic ob
 ### -param Size
 
 The amount of memory, in bytes, to reserve for the caller. This does not include the size of the 
-     <a href="..\ndis\ns-ndis-_ndis_generic_object.md">NDIS_GENERIC_OBJECT</a> structure. Use the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565680">NDIS_GENERIC_OBJECT</a> structure. Use the
      additional memory space for your own purposes. To access the additional memory, use 
      sizeof(NDIS_GENERIC_OBJECT) to skip over the generic object structure.
 
@@ -108,7 +97,7 @@ NDIS uses a generic object to manage resources that are allocated by a component
     handle in some NDIS resource allocation APIs that require an NDIS handle.
 
 NDIS drivers must call the 
-    <a href="..\ndis\nf-ndis-ndisfreegenericobject.md">NdisFreeGenericObject</a> function to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561850">NdisFreeGenericObject</a> function to
     free a generic object that was created with 
     <b>NdisAllocateGenericObject</b>.
 
@@ -117,16 +106,15 @@ NDIS drivers must call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_generic_object.md">NDIS_GENERIC_OBJECT</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreegenericobject.md">NdisFreeGenericObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565680">NDIS_GENERIC_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561850">NdisFreeGenericObject</a>
  
 
  
-
 

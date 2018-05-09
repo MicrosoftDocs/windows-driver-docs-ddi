@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_AGNSS_INJECTBLOB
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB
 ---
@@ -50,22 +51,6 @@ req.typenames: GNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB
 
 
 This structure defines the format for AGNSS extended ephemeris injection.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG BlobOui;
-  ULONG BlobVersion;
-  ULONG AgnssFormat;
-  ULONG BlobSize;
-  BYTE  BlobData[ANYSIZE_ARRAY];
-} GNSS_AGNSS_INJECTBLOB, *PGNSS_AGNSS_INJECTBLOB;
-````
 
 
 ## -struct-fields

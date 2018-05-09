@@ -7,8 +7,8 @@ old-location: netvista\ndiswdipeercreateindication.htm
 old-project: netvista
 ms.assetid: 58B60160-FE04-4EDE-900F-244D0F76E50D
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDIS_WDI_PEER_CREATE_IND, NdisWdiPeerCreateIndication, NdisWdiPeerCreateIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiPeerCreateIndication, netvista.ndiswdipeercreateindication
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_PEER_CREATE_IND, NDIS_WDI_PEER_CREATE_IND callback, NdisWdiPeerCreateIndication, NdisWdiPeerCreateIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiPeerCreateIndication, netvista.ndiswdipeercreateindication
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	NdisWdiPeerCreateIndication
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_PEER_CREATE_IND callback
+# NDIS_WDI_PEER_CREATE_IND callback function
 
 
 ## -description
@@ -51,23 +52,7 @@ req.typenames: SYNTH_STATS, *PSYNTH_STATS
 
 The NdisWdiPeerCreateIndication callback function specifies a peer ID to associate with a peer MAC address.
 
-This is a callback inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>.
-
-
-## -prototype
-
-
-````
-NDIS_WDI_PEER_CREATE_IND NdisWdiPeerCreateIndication;
-
-VOID NdisWdiPeerCreateIndication(
-  _In_ NDIS_HANDLE     NdisMiniportDataPathHandle,
-  _In_ WDI_PORT_ID     PortId,
-  _In_ WDI_PEER_ID     PeerId,
-  _In_ WDI_MAC_ADDRESS PeerAddr
-)
-{ ... }
-````
+This is a callback inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>.
 
 
 ## -parameters
@@ -77,7 +62,7 @@ VOID NdisWdiPeerCreateIndication(
 
 ### -param NdisMiniportDataPathHandle [in]
 
-The NdisMiniportDataPathHandle passed to IHV miniport in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_tal_txrx_initialize.md">MiniportWdiTalTxRxInitialize</a>.
+The NdisMiniportDataPathHandle passed to IHV miniport in <a href="https://msdn.microsoft.com/C297D681-D43F-4105-9E08-7FF42807E9A0">MiniportWdiTalTxRxInitialize</a>.
 
 
 ### -param PortId [in]
@@ -123,11 +108,10 @@ In peer queuing mode, a peer is created with all TIDs paused with <b>WDI_TX_PAUS
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297620">NDIS_WDI_DATA_API</a>
 
 
 
@@ -135,16 +119,16 @@ In peer queuing mode, a peer is created with all TIDs paused with <b>WDI_TX_PAUS
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn926071">WDI_MAC_ADDRESS</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_mac_address.md">WDI_MAC_ADDRESS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt269099">WDI_PORT_ID</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\kscachemedium.htm
 old-project: stream
 ms.assetid: d0e9c146-5d73-49e8-92a8-c453f5bbbfe9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsCacheMedium, KsCacheMedium function [Streaming Media Devices], ks/KsCacheMedium, ksfunc_19ac113f-3eb8-4073-90b0-786cc82cdf37.xml, stream.kscachemedium
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsCacheMedium
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsCacheMedium</b> function improves graph building performance of pins that use Mediums to define connectivity.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCacheMedium(
-  _In_ PUNICODE_STRING SymbolicLink,
-  _In_ PKSPIN_MEDIUM   Medium,
-  _In_ ULONG           PinDirection
-);
-````
 
 
 ## -parameters

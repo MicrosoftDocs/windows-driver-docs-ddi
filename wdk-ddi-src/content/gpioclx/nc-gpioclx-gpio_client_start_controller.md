@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 311C5273-1C16-4EA7-96B4-838CCE6926BA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_StartController, CLIENT_StartController callback function [Parallel Ports], GPIO.client_startcontroller, GPIO_CLIENT_START_CONTROLLER, gpioclx/CLIENT_StartController
+ms.keywords: CLIENT_StartController, CLIENT_StartController callback, CLIENT_StartController callback function [Parallel Ports], GPIO.client_startcontroller, GPIO_CLIENT_START_CONTROLLER, gpioclx/CLIENT_StartController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_StartController
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_START_CONTROLLER callback
+# GPIO_CLIENT_START_CONTROLLER callback function
 
 
 ## -description
 
 
 The <i>CLIENT_StartController</i> event callback function performs operations that are needed when the general-purpose I/O (GPIO) controller device enters the D0 power state.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_START_CONTROLLER CLIENT_StartController;
-
-NTSTATUS CLIENT_StartController(
-  _In_ PVOID                  Context,
-  _In_ BOOLEAN                RestoreContext,
-  _In_ WDF_POWER_DEVICE_STATE PreviousPowerState
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -84,7 +70,7 @@ Whether the client driver should restore the GPIO controller to a previously sav
 
 ### -param PreviousPowerState [in]
 
-The previous device power state. This parameter is a <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a> enumeration value that specifies the low-power state from which the device entered the D0 power state. The GPIO controller driver can use this information to determine how to configure the controller device so that it is ready to use.
+The previous device power state. This parameter is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552421">WDF_POWER_DEVICE_STATE</a> enumeration value that specifies the low-power state from which the device entered the D0 power state. The GPIO controller driver can use this information to determine how to configure the controller device so that it is ready to use.
 
 
 ## -returns
@@ -153,16 +139,15 @@ The GPIO_CLIENT_START_CONTROLLER function type is defined in the Gpioclx.h heade
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
  
 
  
-
 

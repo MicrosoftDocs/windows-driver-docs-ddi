@@ -7,8 +7,8 @@ old-location: netvista\ndistcpoffloadforwardcomplete.htm
 old-project: netvista
 ms.assetid: 080949ab-8a27-4d13-992e-597210d4882c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, NdisTcpOffloadForwardComplete, NdisTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadForwardComplete, netvista.ndistcpoffloadforwardcomplete, tcp_chim_ndis_func_a6483879-a4ae-49e0-859f-51a66070566d.xml
+ms.date: 4/25/2018
+ms.keywords: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback, NdisTcpOffloadForwardComplete, NdisTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadForwardComplete, netvista.ndistcpoffloadforwardcomplete, tcp_chim_ndis_func_a6483879-a4ae-49e0-859f-51a66070566d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	ndischimney.h
 api_name:
 -	NdisTcpOffloadForwardComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback
+# NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback function
 
 
 ## -description
@@ -54,19 +55,8 @@ req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
 An offload target calls the 
   <b>NdisTcpOffloadForwardComplete</b> function to complete one or more forward requests that were made to the
   
-  <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">
+  <a href="https://msdn.microsoft.com/e5702476-60a3-4bfc-b959-198e98f0f9ba">
   MiniportTcpOffloadForward</a> function of the offload target.
-
-
-## -prototype
-
-
-````
-VOID NdisTcpOffloadForwardComplete(
-  _In_ NDIS_HANDLE      NdisMiniportHandle,
-  _In_ PNET_BUFFER_LIST NetBufferList
-);
-````
 
 
 ## -parameters
@@ -77,17 +67,17 @@ VOID NdisTcpOffloadForwardComplete(
 ### -param NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to the 
-     <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">
+     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
      NdisMRegisterMiniportDriver</a> function.
 
 
 ### -param NetBufferList [in]
 
 A pointer to a 
-     <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure. This structure
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. This structure
      can be stand-alone or the first structure in a linked list of NET_BUFFER_LIST structures. The offload
      target obtained these structures in one or more calls to its 
-     <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">
+     <a href="https://msdn.microsoft.com/e5702476-60a3-4bfc-b959-198e98f0f9ba">
      MiniportTcpOffloadForward</a> function.
 
 
@@ -105,9 +95,9 @@ None
 
 
 To improve system performance, an offload target can create a linked list that contains 
-    <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structures from multiple
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures from multiple
     calls to the 
-    <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">
+    <a href="https://msdn.microsoft.com/e5702476-60a3-4bfc-b959-198e98f0f9ba">
     MiniportTcpOffloadForward</a> function. The offload target can then pass such a linked list in a single
     call to the 
     <b>NdisTcpOffloadForwardComplete</b> function.
@@ -123,24 +113,23 @@ An offload target must write one of the following status values to each NET_BUFF
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/e5702476-60a3-4bfc-b959-198e98f0f9ba">MiniportTcpOffloadForward</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\exfreepool.htm
 old-project: kernel
 ms.assetid: c26f9b28-396d-40de-bdc3-287fc3ac4113
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExFreePool, ExFreePool routine [Kernel-Mode Driver Architecture], k102_134b475a-f669-4f1e-8836-f41945d7230c.xml, kernel.exfreepool, wdm/ExFreePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExFreePool
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # ExFreePool macro
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>ExFreePool</b> routine deallocates a block of pool memory. 
-
-
-## -syntax
-
-
-````
-VOID ExFreePool(
-  _In_ PVOID P
-);
-````
 
 
 ## -parameters
@@ -85,9 +76,9 @@ Specifies the address of the block of pool memory being deallocated.
 
 
 
-This routine releases memory allocated by <a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>, <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>, <a href="..\wdm\nf-wdm-exallocatepoolwithquota.md">ExAllocatePoolWithQuota</a>, or <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>. The memory block must not be accessed after it is freed.
+This routine releases memory allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff544501">ExAllocatePool</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff544506">ExAllocatePoolWithQuota</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff544513">ExAllocatePoolWithQuotaTag</a>. The memory block must not be accessed after it is freed.
 
-Drivers can also use the <b>ExFreePoolWithTag</b> routine to free buffers allocated by <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> and <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>.
+Drivers can also use the <b>ExFreePoolWithTag</b> routine to free buffers allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544513">ExAllocatePoolWithQuotaTag</a>.
 
 Callers of <b>ExFreePool</b> must be running at IRQL &lt;= DISPATCH_LEVEL. A caller at DISPATCH_LEVEL must have specified a <b>NonPaged</b><i>Xxx</i><i>PoolType</i> when the memory was allocated. Otherwise, the caller must be running at IRQL &lt;= APC_LEVEL.
 
@@ -96,28 +87,27 @@ Callers of <b>ExFreePool</b> must be running at IRQL &lt;= DISPATCH_LEVEL. A cal
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544501">ExAllocatePool</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544506">ExAllocatePoolWithQuota</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544513">ExAllocatePoolWithQuotaTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquota.md">ExAllocatePoolWithQuota</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544593">ExFreePoolWithTag</a>
  
 
  
-
 

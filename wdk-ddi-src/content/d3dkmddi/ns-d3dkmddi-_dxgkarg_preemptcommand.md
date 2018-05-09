@@ -7,7 +7,7 @@ old-location: display\dxgkarg_preemptcommand.htm
 old-project: display
 ms.assetid: de8f8bee-44e9-4a6a-bb36-a43a66afe188
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_PREEMPTCOMMAND, DXGKARG_PREEMPTCOMMAND structure [Display Devices], DmStructs_2564ca47-8304-4a95-a408-2e5ccca7353d.xml, _DXGKARG_PREEMPTCOMMAND, d3dkmddi/DXGKARG_PREEMPTCOMMAND, display.dxgkarg_preemptcommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_PREEMPTCOMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_PREEMPTCOMMAND
 ---
@@ -49,20 +50,7 @@ req.typenames: DXGKARG_PREEMPTCOMMAND
 ## -description
 
 
-The DXGKARG_PREEMPTCOMMAND structure describes a command that a display miniport driver must use to preempt a direct memory access (DMA) buffer that the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a> function previously submitted to the hardware command execution unit.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_PREEMPTCOMMAND {
-  UINT                     PreemptionFenceId;
-  UINT                     NodeOrdinal;
-  UINT                     EngineOrdinal;
-  DXGK_PREEMPTCOMMANDFLAGS Flags;
-} DXGKARG_PREEMPTCOMMAND;
-````
+The DXGKARG_PREEMPTCOMMAND structure describes a command that a display miniport driver must use to preempt a direct memory access (DMA) buffer that the <a href="https://msdn.microsoft.com/de1925ab-e444-4cf6-acd9-8fdab26afcec">DxgkDdiSubmitCommand</a> function previously submitted to the hardware command execution unit.
 
 
 ## -struct-fields
@@ -72,7 +60,7 @@ typedef struct _DXGKARG_PREEMPTCOMMAND {
 
 ### -field PreemptionFenceId
 
-[in] A unique identifier that the display miniport driver must patch into the fence command at the end of the DMA buffer to preempt the previously submitted DMA buffer. The display miniport driver uses the identifier in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a> function to inform the graphics processing unit (GPU) scheduler about the preemption at deferred-procedure-call (DPC) time.
+[in] A unique identifier that the display miniport driver must patch into the fence command at the end of the DMA buffer to preempt the previously submitted DMA buffer. The display miniport driver uses the identifier in a call to the <a href="https://msdn.microsoft.com/3df3f7d4-3721-46f5-b9e3-19bd3d870292">DxgkCbNotifyDpc</a> function to inform the graphics processing unit (GPU) scheduler about the preemption at deferred-procedure-call (DPC) time.
 
 
 ### -field NodeOrdinal
@@ -87,37 +75,36 @@ typedef struct _DXGKARG_PREEMPTCOMMAND {
 
 ### -field Flags
 
-[in] A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_preemptcommandflags.md">DXGK_PREEMPTCOMMANDFLAGS</a> structure with a reserved member or a 32-bit value. No flags are currently defined for this structure.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561997">DXGK_PREEMPTCOMMANDFLAGS</a> structure with a reserved member or a 32-bit value. No flags are currently defined for this structure.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561997">DXGK_PREEMPTCOMMANDFLAGS</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+<a href="https://msdn.microsoft.com/3df3f7d4-3721-46f5-b9e3-19bd3d870292">DxgkCbNotifyDpc</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_preemptcommandflags.md">DXGK_PREEMPTCOMMANDFLAGS</a>
+<a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+<a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_preemptcommand.md">DxgkDdiPreemptCommand</a>
+<a href="https://msdn.microsoft.com/8cea02d4-f25e-4ff4-8c9e-aa360a764c4b">DxgkDdiPreemptCommand</a>
 
 
 
+<a href="https://msdn.microsoft.com/de1925ab-e444-4cf6-acd9-8fdab26afcec">DxgkDdiSubmitCommand</a>
  
 
  
-
 

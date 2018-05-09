@@ -7,7 +7,7 @@ old-location: netvista\ril_getphonebookoptions.htm
 old-project: netvista
 ms.assetid: 7d8ff1cc-e5d6-473b-bc16-e87468bb546c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetPhonebookOptions, RIL_GetPhonebookOptions method [Network Drivers Starting with Windows Vista], netvista.ril_getphonebookoptions, rilapi/RIL_GetPhonebookOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_GetPhonebookOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetPhonebookOptions function
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_GetPhonebookOptions(
-   HRIL                       hRil,
-   LPVOID                     lpContext,
-   HUICCAPP                   hUiccApp,
-   RILPHONEENTRYSTORELOCATION dwStoreLocation
-);
-````
 
 
 ## -parameters

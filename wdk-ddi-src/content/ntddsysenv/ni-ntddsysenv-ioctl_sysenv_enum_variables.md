@@ -7,8 +7,8 @@ old-location: kernel\ioctl_ioctl_sysenv_enum_variables.htm
 old-project: kernel
 ms.assetid: 605CA19C-048A-4FBA-8568-7B1867C99210
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
-ms.keywords: IOCTL_SYSENV_ENUM_VARIABLES, IOCTL_SYSENV_ENUM_VARIABLES control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_enum_variables, ntddsysenv/IOCTL_SYSENV_ENUM_VARIABLES
+ms.date: 4/30/2018
+ms.keywords: IOCTL_SYSENV_ENUM_VARIABLES, IOCTL_SYSENV_ENUM_VARIABLES control, IOCTL_SYSENV_ENUM_VARIABLES control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_enum_variables, ntddsysenv/IOCTL_SYSENV_ENUM_VARIABLES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddsysenv.h
 api_name:
 -	IOCTL_SYSENV_ENUM_VARIABLES
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_GROUP, *PSTORAGE_ZONE_GROUP
+req.typenames: 
 ---
 
 # IOCTL_SYSENV_ENUM_VARIABLES IOCTL
@@ -74,9 +75,9 @@ Size of BOOLEAN.
 
 ### -output-buffer
 
-A pointer to a buffer that contains the system environment variable information. If values have been requested, the buffer points to an array of <a href="..\ntddsysenv\ns-ntddsysenv-_xvariable_name_and_value.md">XVARIABLE_NAME_AND_VALUE</a> structures. Otherwise, returns an array of <a href="..\ntddsysenv\ns-ntddsysenv-_xvariable_name.md">XVARIABLE_NAME</a>  structures. 
+A pointer to a buffer that contains the system environment variable information. If values have been requested, the buffer points to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt791536">XVARIABLE_NAME_AND_VALUE</a> structures. Otherwise, returns an array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt791535">XVARIABLE_NAME</a>  structures. 
 
-The location of the next entry is determined by <b>NextEntryOffset</b> of the <a href="..\ntddsysenv\ns-ntddsysenv-_xvariable_name_and_value.md">XVARIABLE_NAME_AND_VALUE</a> and <a href="..\ntddsysenv\ns-ntddsysenv-_xvariable_name.md">XVARIABLE_NAME</a>.
+The location of the next entry is determined by <b>NextEntryOffset</b> of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt791536">XVARIABLE_NAME_AND_VALUE</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt791535">XVARIABLE_NAME</a>.
 
 
 ### -output-buffer-length
@@ -114,7 +115,6 @@ On input, the length in bytes of the output buffer. On output,
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -122,16 +122,16 @@ On input, the length in bytes of the output buffer. On output,
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

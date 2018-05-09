@@ -7,7 +7,7 @@ old-location: kernel\ktmobject_cursor.htm
 old-project: kernel
 ms.assetid: 0cfcd019-0c5b-4635-859f-741a6e4aa91d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PKTMOBJECT_CURSOR, KTMOBJECT_CURSOR, KTMOBJECT_CURSOR structure [Kernel-Mode Driver Architecture], PKTMOBJECT_CURSOR, PKTMOBJECT_CURSOR structure pointer [Kernel-Mode Driver Architecture], _KTMOBJECT_CURSOR, kernel.ktmobject_cursor, ktm_ref_dab40de2-cd5f-4f13-93e8-5baa3b9cc37f.xml, wdm/KTMOBJECT_CURSOR, wdm/PKTMOBJECT_CURSOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	KTMOBJECT_CURSOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR
-req.product: Windows 10 or later.
 ---
 
 # _KTMOBJECT_CURSOR structure
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>KTMOBJECT_CURSOR</b> structure receives enumeration information about KTM objects when a component calls <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a>. 
-
-
-## -syntax
-
-
-````
-typedef struct _KTMOBJECT_CURSOR {
-  GUID  LastQuery;
-  ULONG ObjectIdCount;
-  GUID  ObjectIds[1];
-} KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR;
-````
+The <b>KTMOBJECT_CURSOR</b> structure receives enumeration information about KTM objects when a component calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566450">ZwEnumerateTransactionObject</a>. 
 
 
 ## -struct-fields
@@ -96,12 +84,11 @@ The <b>KTMOBJECT_CURSOR</b> structure is used at the beginning of buffers that c
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566450">ZwEnumerateTransactionObject</a>
  
 
  
-
 

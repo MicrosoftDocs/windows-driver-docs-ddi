@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptableSequentialStream.Write
-title: IPrinterScriptableSequentialStream::Write method
+title: IPrinterScriptableSequentialStream::Write
 author: windows-driver-content
 description: The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.
 old-location: print\iprinterscriptablesequentialstream_write.htm
 old-project: print
 ms.assetid: 1140F881-A6E1-4342-A069-BE9EB3BD4BF8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterScriptableSequentialStream, IPrinterScriptableSequentialStream interface [Print Devices], Write method, IPrinterScriptableSequentialStream::Write, Write method [Print Devices], Write method [Print Devices], IPrinterScriptableSequentialStream interface, Write,IPrinterScriptableSequentialStream.Write, print.iprinterscriptablesequentialstream_write, printerextension/IPrinterScriptableSequentialStream::Write
+ms.date: 4/20/2018
+ms.keywords: IPrinterScriptableSequentialStream interface [Print Devices],Write method, IPrinterScriptableSequentialStream.Write, IPrinterScriptableSequentialStream::Write, Write, Write method [Print Devices], Write method [Print Devices],IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_write, printerextension/IPrinterScriptableSequentialStream::Write
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	printerextension.h
 api_name:
 -	IPrinterScriptableSequentialStream.Write
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptableSequentialStream::Write method
+# IPrinterScriptableSequentialStream::Write
 
 
 ## -description
 
 
 The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.
-
-
-## -syntax
-
-
-````
-HRESULT Write(
-  [in]          IDispatch *pdispArray,
-  [out, retval] LONG      *pcbWritten
-);
-````
 
 
 ## -parameters
@@ -95,12 +84,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablesequentialstream.md">IPrinterScriptableSequentialStream</a>
 
 
 
+<a href="https://msdn.microsoft.com/85DF7DCB-7AB1-4A46-AD70-6D47D9F98079">IPrinterScriptableSequentialStream</a>
  
 
  
-
 

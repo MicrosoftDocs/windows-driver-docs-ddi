@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	GET_LOCAL_HOST_INFO3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GET_LOCAL_HOST_INFO3, *PGET_LOCAL_HOST_INFO3
 ---
@@ -50,17 +51,6 @@ req.typenames: GET_LOCAL_HOST_INFO3, *PGET_LOCAL_HOST_INFO3
 
 
 The GET_LOCAL_HOST_INFO3 structure contains the data returned by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a> request using <b>u.GetLocalHostInformation.nLevel</b> = GET_POWER_SUPPLIED.
-
-
-## -syntax
-
-
-````
-typedef struct _GET_LOCAL_HOST_INFO3 {
-  ULONG deciWattsSupplied;
-  ULONG Voltage;
-} GET_LOCAL_HOST_INFO3, *PGET_LOCAL_HOST_INFO3;
-````
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ Specifies the voltage, in tenths of a volt.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
-
-
-
  
 
  
-
 

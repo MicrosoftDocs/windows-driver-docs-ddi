@@ -7,7 +7,7 @@ old-location: netvista\wwan_vendor_specific.htm
 old-project: netvista
 ms.assetid: e3f024d0-4543-4c28-958f-58a3072027ad
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_VENDOR_SPECIFIC, PWWAN_VENDOR_SPECIFIC, PWWAN_VENDOR_SPECIFIC structure pointer [Network Drivers Starting with Windows Vista], WWAN_VENDOR_SPECIFIC, WWAN_VENDOR_SPECIFIC structure [Network Drivers Starting with Windows Vista], WwanRef_9261cb07-079e-4266-8358-fff73af8c31a.xml, _WWAN_VENDOR_SPECIFIC, netvista.wwan_vendor_specific, wwan/PWWAN_VENDOR_SPECIFIC, wwan/WWAN_VENDOR_SPECIFIC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_VENDOR_SPECIFIC
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_VENDOR_SPECIFIC, *PWWAN_VENDOR_SPECIFIC
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_VENDOR_SPECIFIC structure
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_VENDOR_SPECIFIC structure represents vendor-specific data.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_VENDOR_SPECIFIC {
-  ULONG uVendorSpecificBufferSize;
-} WWAN_VENDOR_SPECIFIC, *PWWAN_VENDOR_SPECIFIC;
-````
 
 
 ## -struct-fields
@@ -86,12 +76,11 @@ NDIS_WWAN_VENDOR_SPECIFIC should have the data following the
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_vendor_specific.md">NDIS_WWAN_VENDOR_SPECIFIC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567947">NDIS_WWAN_VENDOR_SPECIFIC</a>
  
 
  
-
 

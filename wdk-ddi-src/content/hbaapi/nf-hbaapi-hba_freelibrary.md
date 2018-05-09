@@ -7,7 +7,7 @@ old-location: storage\hba_freelibrary.htm
 old-project: storage
 ms.assetid: 513cdedc-2ecd-4b02-a85b-5abd9c0c7fcd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_FreeLibrary, HBA_FreeLibrary routine [Storage Devices], fibreHBA_rtns_ae252017-7aa2-4d15-a387-26ec34cc964c.xml, hbaapi/HBA_FreeLibrary, storage.hba_freelibrary
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_FreeLibrary
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_FreeLibrary function
@@ -50,14 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_FreeLibrary</b> routine releases system resources associated with fibre channel HBA library.
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_FreeLibrary(void);
-````
 
 
 ## -parameters
@@ -78,12 +71,11 @@ The <b>HBA_FreeLibrary</b> routine returns a value of type <a href="https://msdn
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: netvista\miniportcodeactivatevc.htm
 old-project: netvista
 ms.assetid: 8c17cec8-d161-47cf-b886-bb8b8d957656
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: MINIPORT_CO_DEACTIVATE_VC, MiniportCoDeactivateVc, MiniportCoDeactivateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_01461ff7-cd2e-466d-ab9a-7903484ecbc5.xml, ndis/MiniportCoDeactivateVc, netvista.miniportcodeactivatevc
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_CO_DEACTIVATE_VC, MINIPORT_CO_DEACTIVATE_VC callback, MiniportCoDeactivateVc, MiniportCoDeactivateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_01461ff7-cd2e-466d-ab9a-7903484ecbc5.xml, ndis/MiniportCoDeactivateVc, netvista.miniportcodeactivatevc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	MiniportCoDeactivateVc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_CO_DEACTIVATE_VC callback
+# MINIPORT_CO_DEACTIVATE_VC callback function
 
 
 ## -description
@@ -55,19 +56,6 @@ The
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_CO_DEACTIVATE_VC</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -prototype
-
-
-````
-MINIPORT_CO_DEACTIVATE_VC MiniportCoDeactivateVc;
-
-NDIS_STATUS MiniportCoDeactivateVc(
-  _In_ NDIS_HANDLE MiniportVcContext
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -77,7 +65,7 @@ NDIS_STATUS MiniportCoDeactivateVc(
 
 Specified the handle to a miniport driver-allocated context area in which the miniport driver
      maintains state information per-VC. The miniport driver supplied this handle to NDIS from its 
-     <a href="..\ndis\nc-ndis-miniport_co_create_vc.md">MiniportCoCreateVc</a> function.
+     <a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a> function.
 
 
 ## -returns
@@ -110,7 +98,7 @@ Indicates that the miniport driver successfully halted any communication across 
 <td width="60%">
 Indicates that the miniport driver will complete the request to halt the VC asynchronously. When
        the miniport driver has completed halting the VC, it must then call 
-       <a href="..\ndis\nf-ndis-ndismcodeactivatevccomplete.md">
+       <a href="https://msdn.microsoft.com/8ea36895-4728-45ad-84f7-3517afd2327d">
        NdisMCoDeactivateVcComplete</a> to signal NDIS that this operation has been completed.
 
 </td>
@@ -131,7 +119,7 @@ Indicates that the miniport driver will complete the request to halt the VC asyn
     across the VC.
 
 There is not a one-to-one relationship between calls to 
-    <a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a> and 
+    <a href="https://msdn.microsoft.com/243a1236-4b8a-4f00-9f14-3142fa81c362">MiniportCoActivateVc</a> and 
     <i>MiniportCoDeactivateVc</i>. While NDIS may call 
     <i>MiniportCoActivateVc</i> multiple times on a single VC, only one call to 
     <i>MiniportCoDeactivateVc</i> is made to shut down a virtual connection. For example, a VC can be reused
@@ -179,16 +167,15 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcodeactivatevccomplete.md">NdisMCoDeactivateVcComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_activate_vc.md">MiniportCoActivateVc</a>
+<a href="https://msdn.microsoft.com/243a1236-4b8a-4f00-9f14-3142fa81c362">MiniportCoActivateVc</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563559">NdisMCoDeactivateVcComplete</a>
  
 
  
-
 

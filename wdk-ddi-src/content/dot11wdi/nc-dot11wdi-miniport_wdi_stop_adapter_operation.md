@@ -7,8 +7,8 @@ old-location: netvista\miniportwdistopoperation.htm
 old-project: netvista
 ms.assetid: 19BDA96D-DA25-4555-B836-78F4695257B0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: "(*MINIPORT_WDI_STOP_OPERATION_HANDLER), (*MINIPORT_WDI_STOP_OPERATION_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_WDI_STOP_ADAPTER_OPERATION, MiniportWdiStopAdapterOperation, MiniportWdiStopAdapterOperation callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiStopAdapterOperation, netvista.miniportwdistopoperation"
+ms.date: 4/25/2018
+ms.keywords: "(*MINIPORT_WDI_STOP_OPERATION_HANDLER), (*MINIPORT_WDI_STOP_OPERATION_HANDLER) callback function [Network Drivers Starting with Windows Vista], MINIPORT_WDI_STOP_ADAPTER_OPERATION, MINIPORT_WDI_STOP_ADAPTER_OPERATION callback, MiniportWdiStopAdapterOperation, MiniportWdiStopAdapterOperation callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiStopAdapterOperation, netvista.miniportwdistopoperation"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,37 +38,23 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	(*MINIPORT_WDI_STOP_OPERATION_HANDLER)
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_STOP_ADAPTER_OPERATION callback
+# MINIPORT_WDI_STOP_ADAPTER_OPERATION callback function
 
 
 ## -description
 
 
-The MiniportWdiStopAdapterOperation handler function can be used by the IHV driver to undo the operations performed in <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_start_adapter_operation.md">MiniportWdiStartAdapterOperation</a>.
+The MiniportWdiStopAdapterOperation handler function can be used by the IHV driver to undo the operations performed in <a href="https://msdn.microsoft.com/B74F44E4-AD7A-46EE-81B0-E2BD2FB79A5B">MiniportWdiStartAdapterOperation</a>.
 
-This is an optional WDI miniport handler inside <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>.
+This is an optional WDI miniport handler inside <a href="https://msdn.microsoft.com/library/windows/hardware/mt297617">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_WDI_STOP_ADAPTER_OPERATION</b> type. For more
    information, see the following Examples section.</div><div> </div>
-
-## -prototype
-
-
-````
-MINIPORT_WDI_STOP_ADAPTER_OPERATION MiniportWdiStopAdapterOperation;
-
-VOID MiniportWdiStopAdapterOperation(
-  _In_ NDIS_HANDLE MiniportAdapterContext
-)
-{ ... }
-
-typedef MINIPORT_WDI_STOP_ADAPTER_OPERATION (*MINIPORT_WDI_STOP_OPERATION_HANDLER);
-````
-
 
 ## -parameters
 
@@ -91,16 +77,15 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_start_adapter_operation.md">MiniportWdiStartOperation</a>
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
+<a href="https://msdn.microsoft.com/B74F44E4-AD7A-46EE-81B0-E2BD2FB79A5B">MiniportWdiStartOperation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297617">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
  
 
  
-
 

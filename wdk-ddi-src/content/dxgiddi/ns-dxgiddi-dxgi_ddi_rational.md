@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_rational.htm
 old-project: display
 ms.assetid: 3a1ebeb8-4a0e-4a1f-9039-13ca8e375e5e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI_DDI_RATIONAL, DXGI_DDI_RATIONAL structure [Display Devices], UMDisplayDriver_Dx10param_Structs_ef68ce24-ab05-45db-9b37-02367bbba7f4.xml, display.dxgi_ddi_rational, dxgiddi/DXGI_DDI_RATIONAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dxgiddi.h
 api_name:
 -	DXGI_DDI_RATIONAL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_RATIONAL
 ---
@@ -50,17 +51,6 @@ req.typenames: DXGI_DDI_RATIONAL
 
 
 The DXGI_DDI_RATIONAL structure describes a fractional value that represents vertical and horizontal frequencies of a display mode (that is, vertical sync and horizontal sync). 
-
-
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_RATIONAL {
-  UINT Numerator;
-  UINT Denominator;
-} DXGI_DDI_RATIONAL;
-````
 
 
 ## -struct-fields
@@ -91,12 +81,11 @@ For a rational number with a finite fractional sequence, use a denominator of th
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_mode_desc.md">DXGI_DDI_MODE_DESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557499">DXGI_DDI_MODE_DESC</a>
  
 
  
-
 

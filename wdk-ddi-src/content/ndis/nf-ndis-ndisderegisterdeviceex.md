@@ -7,7 +7,7 @@ old-location: netvista\ndisderegisterdeviceex.htm
 old-project: netvista
 ms.assetid: bca1ef90-b574-4ed5-a9ec-c553372490b1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisDeregisterDeviceEx, NdisDeregisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis/NdisDeregisterDeviceEx, ndis_devices_ref_40ed1b6b-39ce-43fc-ae0d-8371eab300d7.xml, netvista.ndisderegisterdeviceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisDeregisterDeviceEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisDeregisterDeviceEx function
@@ -52,17 +53,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisDeregisterDeviceEx</b> function removes, from the system, a device object that was created by the 
-  <a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisDeregisterDeviceEx(
-  _In_ NDIS_HANDLE NdisDeviceHandle
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a> function.
 
 
 ## -parameters
@@ -73,7 +64,7 @@ VOID NdisDeregisterDeviceEx(
 ### -param NdisDeviceHandle [in]
 
 The handle returned by 
-     <a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a> that identifies
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a> that identifies
      the device object to be deregistered.
 
 
@@ -92,7 +83,7 @@ None
 
 The 
     <b>NdisDeregisterDeviceEx</b> function removes a device object that was created by the 
-    <a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a> function. 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a> function. 
     <b>NdisDeregisterDeviceEx</b> also removes the symbolic link that is associated with this device
     object.
 
@@ -101,12 +92,11 @@ The
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisregisterdeviceex.md">NdisRegisterDeviceEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a>
  
 
  
-
 

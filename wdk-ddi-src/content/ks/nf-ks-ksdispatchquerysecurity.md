@@ -7,7 +7,7 @@ old-location: stream\ksdispatchquerysecurity.htm
 old-project: stream
 ms.assetid: 0aed2613-b40f-4328-91c4-c8e945c6ef17
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsDispatchQuerySecurity, KsDispatchQuerySecurity function [Streaming Media Devices], ks/KsDispatchQuerySecurity, ksfunc_9bf0ae3b-19d0-455d-9d58-2d7b7c515f30.xml, stream.ksdispatchquerysecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDispatchQuerySecurity
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsDispatchQuerySecurity</b> function is used in the KSDISPATCH_TABLE.QuerySecurity entry to handle querying about the current security descriptor. The assumption is that the KSOBJECT_HEADER structure is being used in the <b>FsContext</b> data structure and that the <b>CreateItem</b> points to a valid item that optionally contains a security descriptor. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsDispatchQuerySecurity(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ PIRP           Irp
-);
-````
 
 
 ## -parameters

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols.GetOffsetByLine
-title: IDebugSymbols::GetOffsetByLine method
+title: IDebugSymbols::GetOffsetByLine
 author: windows-driver-content
 description: The GetOffsetByLine method returns the location of the instruction that corresponds to a specified line in the source code.
 old-location: debugger\getoffsetbyline.htm
 old-project: debugger
 ms.assetid: 347e0d45-8be1-4e4e-8a6a-44d5c914bf0f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetOffsetByLine method [Windows Debugging], GetOffsetByLine method [Windows Debugging], IDebugSymbols interface, GetOffsetByLine method [Windows Debugging], IDebugSymbols2 interface, GetOffsetByLine method [Windows Debugging], IDebugSymbols3 interface, GetOffsetByLine,IDebugSymbols.GetOffsetByLine, IDebugSymbols, IDebugSymbols interface [Windows Debugging], GetOffsetByLine method, IDebugSymbols2 interface [Windows Debugging], GetOffsetByLine method, IDebugSymbols2::GetOffsetByLine, IDebugSymbols3 interface [Windows Debugging], GetOffsetByLine method, IDebugSymbols3::GetOffsetByLine, IDebugSymbols::GetOffsetByLine, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml, dbgeng/IDebugSymbols2::GetOffsetByLine, dbgeng/IDebugSymbols3::GetOffsetByLine, dbgeng/IDebugSymbols::GetOffsetByLine, debugger.getoffsetbyline
+ms.date: 4/24/2018
+ms.keywords: GetOffsetByLine, GetOffsetByLine method [Windows Debugging], GetOffsetByLine method [Windows Debugging],IDebugSymbols interface, GetOffsetByLine method [Windows Debugging],IDebugSymbols2 interface, GetOffsetByLine method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetOffsetByLine method, IDebugSymbols.GetOffsetByLine, IDebugSymbols2 interface [Windows Debugging],GetOffsetByLine method, IDebugSymbols2::GetOffsetByLine, IDebugSymbols3 interface [Windows Debugging],GetOffsetByLine method, IDebugSymbols3::GetOffsetByLine, IDebugSymbols::GetOffsetByLine, IDebugSymbols_1aa7fddc-6a33-469e-828f-45ff0f31aae7.xml, dbgeng/IDebugSymbols2::GetOffsetByLine, dbgeng/IDebugSymbols3::GetOffsetByLine, dbgeng/IDebugSymbols::GetOffsetByLine, debugger.getoffsetbyline
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,30 +40,19 @@ api_name:
 -	IDebugSymbols.GetOffsetByLine
 -	IDebugSymbols2.GetOffsetByLine
 -	IDebugSymbols3.GetOffsetByLine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols::GetOffsetByLine method
+# IDebugSymbols::GetOffsetByLine
 
 
 ## -description
 
 
 The <b>GetOffsetByLine</b>  method returns the location of the instruction that corresponds to a specified line in the source code.
-
-
-## -syntax
-
-
-````
-HRESULT GetOffsetByLine(
-  [in]  ULONG    Line,
-  [in]  PCSTR    File,
-  [out] PULONG64 Offset
-);
-````
 
 
 ## -parameters
@@ -127,11 +116,6 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
@@ -139,12 +123,16 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

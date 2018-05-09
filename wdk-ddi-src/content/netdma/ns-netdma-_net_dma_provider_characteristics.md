@@ -7,7 +7,7 @@ old-location: netvista\net_dma_provider_characteristics.htm
 old-project: netvista
 ms.assetid: 7ec6d449-fdc2-44d8-976b-5a1d23c76e7b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNET_DMA_PROVIDER_CHARACTERISTICS, PNET_DMA_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PROVIDER_CHARACTERISTICS, netdma/NET_DMA_PROVIDER_CHARACTERISTICS, netdma/PNET_DMA_PROVIDER_CHARACTERISTICS, netdma_ref_24841207-9eca-483b-9ee5-81e7f24b62e6.xml, netvista.net_dma_provider_characteristics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	netdma.h
 api_name:
 -	NET_DMA_PROVIDER_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
@@ -52,31 +53,6 @@ req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERIST
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported in Windows 8 and later.</div><div> </div>The NET_DMA_PROVIDER_CHARACTERISTICS structure specifies the characteristics for a NetDMA provider,
   including the entry points for the 
   <i>ProviderXxx</i> functions.
-
-
-## -syntax
-
-
-````
-typedef struct _NET_DMA_PROVIDER_CHARACTERISTICS {
-  UCHAR                             MajorVersion;
-  UCHAR                             MinorVersion;
-  USHORT                            Size;
-  ULONG                             Flags;
-  PDEVICE_OBJECT                    PhysicalDeviceObject;
-  ULONG                             MaxDmaChannelCount;
-  DMA_CHANNELS_CPU_AFFINITY_HANDLER SetDmaChannelCpuAffinity;
-  DMA_CHANNEL_ALLOCATE_HANDLER      AllocateDmaChannel;
-  DMA_CHANNEL_FREE_HANDLER          FreeDmaChannel;
-  DMA_START_HANDLER                 StartDma;
-  DMA_SUSPEND_HANDLER               SuspendDma;
-  DMA_RESUME_HANDLER                ResumeDma;
-  DMA_ABORT_HANDLER                 AbortDma;
-  DMA_APPEND_HANDLER                AppendDma;
-  DMA_RESET_HANDLER                 ResetChannel;
-  UNICODE_STRING                    FriendlyName;
-} NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS;
-````
 
 
 ## -struct-fields
@@ -133,61 +109,61 @@ The maximum number of DMA channels that the DMA provider can support.
 ### -field SetDmaChannelCpuAffinity
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
+     <a href="https://msdn.microsoft.com/a53d8798-63fa-4b16-bda2-880ca3521d03">
      ProviderSetDmaChannelCpuAffinity</a> function.
 
 
 ### -field AllocateDmaChannel
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">
      ProviderAllocateDmaChannel</a> function.
 
 
 ### -field FreeDmaChannel
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_channel_free_handler.md">
+     <a href="https://msdn.microsoft.com/5bbe432d-f236-46ec-8e78-788bd676b852">
      ProviderFreeDmaChannel</a> function.
 
 
 ### -field StartDma
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a> function.
+     <a href="https://msdn.microsoft.com/0926e8c4-f2ca-401f-abe8-76aec359a1e2">ProviderStartDma</a> function.
 
 
 ### -field SuspendDma
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a> function. If this
+     <a href="https://msdn.microsoft.com/b020b0c6-eb69-44d0-a374-b39eb2f536f1">ProviderSuspendDma</a> function. If this
      function is not supported, set this member to <b>NULL</b>.
 
 
 ### -field ResumeDma
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a> function. If this
+     <a href="https://msdn.microsoft.com/06609603-eeed-4fb0-a878-87cad2e72b46">ProviderResumeDma</a> function. If this
      function is not supported, set this member to <b>NULL</b>.
 
 
 ### -field AbortDma
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a> function. If this
+     <a href="https://msdn.microsoft.com/b9c23f36-0885-49fd-b92e-dac38d5f363f">ProviderAbortDma</a> function. If this
      function is not supported, set this member to <b>NULL</b>.
 
 
 ### -field AppendDma
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a> function.
+     <a href="https://msdn.microsoft.com/51de8ddf-cbfc-4e49-b44a-207307a937e7">ProviderAppendDma</a> function.
 
 
 ### -field ResetChannel
 
 The entry point for the 
-     <a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a> function. If
+     <a href="https://msdn.microsoft.com/ee882897-fbc6-4017-8c30-2a54f6c49491">ProviderResetChannel</a> function. If
      this function is not supported, set this member to <b>NULL</b>.
 
 
@@ -202,7 +178,7 @@ A Unicode string that represents the user-readable description of the NetDMA pro
 
 
 To register a DMA provider, a DMA provider driver calls the 
-    <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568336">NetDmaRegisterProvider</a> function
     from its 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
 
@@ -215,32 +191,6 @@ The DMA provider driver supplies a NET_DMA_PROVIDER_CHARACTERISTICS structure at
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_reset_handler.md">ProviderResetChannel</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
-   ProviderSetDmaChannelCpuAffinity</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_channel_free_handler.md">ProviderFreeDmaChannel</a>
-
-
-
-<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
 
 
 
@@ -248,20 +198,45 @@ The DMA provider driver supplies a NET_DMA_PROVIDER_CHARACTERISTICS structure at
 
 
 
-<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568336">NetDmaRegisterProvider</a>
 
 
 
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+<a href="https://msdn.microsoft.com/b9c23f36-0885-49fd-b92e-dac38d5f363f">ProviderAbortDma</a>
 
 
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+<a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/51de8ddf-cbfc-4e49-b44a-207307a937e7">ProviderAppendDma</a>
+
+
+
+<a href="https://msdn.microsoft.com/5bbe432d-f236-46ec-8e78-788bd676b852">ProviderFreeDmaChannel</a>
+
+
+
+<a href="https://msdn.microsoft.com/ee882897-fbc6-4017-8c30-2a54f6c49491">ProviderResetChannel</a>
+
+
+
+<a href="https://msdn.microsoft.com/06609603-eeed-4fb0-a878-87cad2e72b46">ProviderResumeDma</a>
+
+
+
+<a href="https://msdn.microsoft.com/a53d8798-63fa-4b16-bda2-880ca3521d03">
+   ProviderSetDmaChannelCpuAffinity</a>
+
+
+
+<a href="https://msdn.microsoft.com/0926e8c4-f2ca-401f-abe8-76aec359a1e2">ProviderStartDma</a>
+
+
+
+<a href="https://msdn.microsoft.com/b020b0c6-eb69-44d0-a374-b39eb2f536f1">ProviderSuspendDma</a>
  
 
  
-
 

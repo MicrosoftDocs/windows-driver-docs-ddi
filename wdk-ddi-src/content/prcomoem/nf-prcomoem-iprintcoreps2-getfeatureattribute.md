@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.GetFeatureAttribute
-title: IPrintCorePS2::GetFeatureAttribute method
+title: IPrintCorePS2::GetFeatureAttribute
 author: windows-driver-content
 description: The IPrintCorePS2::GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.
 old-location: print\iprintcoreps2_getfeatureattribute.htm
 old-project: print
 ms.assetid: 1a87da8a-a495-4451-a6f3-1261efda09f3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices], IPrintCorePS2 interface, GetFeatureAttribute,IPrintCorePS2.GetFeatureAttribute, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], GetFeatureAttribute method, IPrintCorePS2::GetFeatureAttribute, prcomoem/IPrintCorePS2::GetFeatureAttribute, print.iprintcoreps2_getfeatureattribute, print_unidrv-pscript_rendering_e3e316c3-10a4-429e-8a00-dfbd9034490e.xml
+ms.date: 4/20/2018
+ms.keywords: GetFeatureAttribute, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],GetFeatureAttribute method, IPrintCorePS2.GetFeatureAttribute, IPrintCorePS2::GetFeatureAttribute, prcomoem/IPrintCorePS2::GetFeatureAttribute, print.iprintcoreps2_getfeatureattribute, print_unidrv-pscript_rendering_e3e316c3-10a4-429e-8a00-dfbd9034490e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,36 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCorePS2.GetFeatureAttribute
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCorePS2::GetFeatureAttribute method
+# IPrintCorePS2::GetFeatureAttribute
 
 
 ## -description
 
 
 The <code>IPrintCorePS2::GetFeatureAttribute</code> method retrieves the feature attribute list or the value of a specific feature attribute.
-
-
-## -syntax
-
-
-````
-HRESULT GetFeatureAttribute(
-  [in]  PDEVOBJ pdevobj,
-  [in]  DWORD   dwFlags,
-  [in]  PCSTR   pszFeatureKeyword,
-  [in]  PCSTR   pszAttribute,
-  [out] PDWORD  pdwDataType,
-  [out] PBYTE   pbData,
-  [in]  DWORD   cbSize,
-  [out] PDWORD  pcbNeeded
-);
-````
 
 
 ## -parameters
@@ -77,7 +60,7 @@ HRESULT GetFeatureAttribute(
 
 ### -param pdevobj [in]
 
-Pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param dwFlags [in]
@@ -97,7 +80,7 @@ Pointer to a caller-supplied buffer containing an ASCII string specifying the si
 
 ### -param pdwDataType [out]
 
-Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumeration, which is defined in printoem.h.
+Pointer to a memory location that receives a value specifying the data type of the requested attribute. This value is an enumerator of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548692">EATTRIBUTE_DATATYPE</a> enumeration, which is defined in printoem.h.
 
 
 ### -param pbData [out]
@@ -186,7 +169,7 @@ The method failed.
 
 
 
-If this method is called with its <i>pszAttribute</i> and <i>pbData</i> parameters set to <b>NULL</b>, the method returns with *<i>pcbNeeded</i> set to the number of bytes needed for the list of all supported attribute names for the feature. If the method is called a second time, with <i>pszAttribute</i> set to <b>NULL</b> and <i>pbData</i> pointing to a buffer of the size specified in *<i>pcbNeeded</i> in the previous call, the method returns with *<i>pdwDataType</i> set to kADT_ASCII (an enumerator of the <a href="..\printoem\ne-printoem-_eattribute_datatype.md">EATTRIBUTE_DATATYPE</a> enumerated type) and <i>pbData</i> pointing to a null-delimited list of all supported attribute names for the feature. This list is terminated with two null characters.
+If this method is called with its <i>pszAttribute</i> and <i>pbData</i> parameters set to <b>NULL</b>, the method returns with *<i>pcbNeeded</i> set to the number of bytes needed for the list of all supported attribute names for the feature. If the method is called a second time, with <i>pszAttribute</i> set to <b>NULL</b> and <i>pbData</i> pointing to a buffer of the size specified in *<i>pcbNeeded</i> in the previous call, the method returns with *<i>pdwDataType</i> set to kADT_ASCII (an enumerator of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548692">EATTRIBUTE_DATATYPE</a> enumerated type) and <i>pbData</i> pointing to a null-delimited list of all supported attribute names for the feature. This list is terminated with two null characters.
 
 To reduce the need to make two calls per data access, pass the method an output buffer of a fixed size (1 KB, for example), and then check the function return value. If the method returns S_OK, the buffer already contains the data of interest. If the method returns E_OUTOFMEMORY, the value in *<i>pcbNeeded</i> is the buffer size needed to hold the data of interest. The caller should then allocate a buffer of that larger size and proceed with a second call to the method.
 
@@ -199,11 +182,14 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553013">IPrintCorePS2::GetOptionAttribute</a>
 
 
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/bf7e15df-49ba-4850-acf6-dab5dc137f48">IPrintCorePS2</a>
 
 
 
@@ -211,16 +197,12 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553013">IPrintCorePS2::GetOptionAttribute</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: image\wiasreadpropguid.htm
 old-project: image
 ms.assetid: 287bf42b-253a-4d1a-8879-c3ab89b6743a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasreadpropguid, wiamdef/wiasReadPropGuid, wiasFncs_80e78a38-5f47-4bd3-b071-62eebc65fd6f.xml, wiasReadPropGuid, wiasReadPropGuid function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasReadPropGuid
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasReadPropGuid function
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasReadPropGuid </b>function retrieves a GUID property value from a WIA item.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasReadPropGuid(
-  _In_      BYTE   *pWiasContext,
-            PROPID propid,
-  _Out_     GUID   *pgVal,
-  _Out_opt_ GUID   *pgValOld,
-            BOOL   bMustExist
-);
-````
 
 
 ## -parameters
@@ -118,28 +104,27 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549308">wiasReadPropBin</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549320">wiasReadPropFloat</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropbin.md">wiasReadPropBin</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549330">wiasReadPropLong</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549341">wiasReadPropStr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549512">wiasWritePropGuid</a>
  
 
  
-
 

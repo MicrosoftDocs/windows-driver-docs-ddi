@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient3.AbandonCurrentProcess
-title: IDebugClient3::AbandonCurrentProcess method
+title: IDebugClient3::AbandonCurrentProcess
 author: windows-driver-content
 description: The AbandonCurrentProcess method removes the current process from the debugger engine's process list without detaching or terminating the process.
 old-location: debugger\abandoncurrentprocess.htm
 old-project: debugger
 ms.assetid: a6abbdb8-8d19-4ae0-8272-8faa87b8e409
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: AbandonCurrentProcess method [Windows Debugging], AbandonCurrentProcess method [Windows Debugging], IDebugClient2 interface, AbandonCurrentProcess method [Windows Debugging], IDebugClient3 interface, AbandonCurrentProcess method [Windows Debugging], IDebugClient4 interface, AbandonCurrentProcess method [Windows Debugging], IDebugClient5 interface, AbandonCurrentProcess,IDebugClient3.AbandonCurrentProcess, IDebugClient2 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient2::AbandonCurrentProcess, IDebugClient3, IDebugClient3 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient3::AbandonCurrentProcess, IDebugClient4 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient4::AbandonCurrentProcess, IDebugClient5 interface [Windows Debugging], AbandonCurrentProcess method, IDebugClient5::AbandonCurrentProcess, IDebugClient_2a3f34d6-591b-4cae-bc28-2da5f05a9548.xml, dbgeng/IDebugClient2::AbandonCurrentProcess, dbgeng/IDebugClient3::AbandonCurrentProcess, dbgeng/IDebugClient4::AbandonCurrentProcess, dbgeng/IDebugClient5::AbandonCurrentProcess, debugger.abandoncurrentprocess
+ms.date: 4/24/2018
+ms.keywords: AbandonCurrentProcess, AbandonCurrentProcess method [Windows Debugging], AbandonCurrentProcess method [Windows Debugging],IDebugClient2 interface, AbandonCurrentProcess method [Windows Debugging],IDebugClient3 interface, AbandonCurrentProcess method [Windows Debugging],IDebugClient4 interface, AbandonCurrentProcess method [Windows Debugging],IDebugClient5 interface, IDebugClient2 interface [Windows Debugging],AbandonCurrentProcess method, IDebugClient2::AbandonCurrentProcess, IDebugClient3 interface [Windows Debugging],AbandonCurrentProcess method, IDebugClient3.AbandonCurrentProcess, IDebugClient3::AbandonCurrentProcess, IDebugClient4 interface [Windows Debugging],AbandonCurrentProcess method, IDebugClient4::AbandonCurrentProcess, IDebugClient5 interface [Windows Debugging],AbandonCurrentProcess method, IDebugClient5::AbandonCurrentProcess, IDebugClient_2a3f34d6-591b-4cae-bc28-2da5f05a9548.xml, dbgeng/IDebugClient2::AbandonCurrentProcess, dbgeng/IDebugClient3::AbandonCurrentProcess, dbgeng/IDebugClient4::AbandonCurrentProcess, dbgeng/IDebugClient5::AbandonCurrentProcess, debugger.abandoncurrentprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,26 +41,19 @@ api_name:
 -	IDebugClient3.AbandonCurrentProcess
 -	IDebugClient4.AbandonCurrentProcess
 -	IDebugClient5.AbandonCurrentProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient3::AbandonCurrentProcess method
+# IDebugClient3::AbandonCurrentProcess
 
 
 ## -description
 
 
 The <b>AbandonCurrentProcess</b> method removes the <a href="https://msdn.microsoft.com/295b05a3-e27f-4761-a562-7e87e25bfd3b">current process</a> from the debugger engine's process list without detaching or terminating the process.
-
-
-## -syntax
-
-
-````
-HRESULT AbandonCurrentProcess();
-````
 
 
 ## -parameters
@@ -111,27 +104,10 @@ Windows will continue to consider this process as being debugged, and so the pro
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561508">.abandon (Abandon Process)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
@@ -139,7 +115,7 @@ Windows will continue to consider this process as being debugged, and so the pro
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
 
 
@@ -147,8 +123,24 @@ Windows will continue to consider this process as being debugged, and so the pro
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
  
 
  
-
 

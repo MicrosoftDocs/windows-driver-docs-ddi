@@ -7,7 +7,7 @@ old-location: ifsk\file_pipe_local_information.htm
 old-project: ifsk
 ms.assetid: 7ca66b75-e5ff-46a6-8a40-47aa53bf0f6f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFILE_PIPE_LOCAL_INFORMATION, FILE_PIPE_LOCAL_INFORMATION, FILE_PIPE_LOCAL_INFORMATION structure [Installable File System Drivers], PFILE_PIPE_LOCAL_INFORMATION, PFILE_PIPE_LOCAL_INFORMATION structure pointer [Installable File System Drivers], _FILE_PIPE_LOCAL_INFORMATION, ifsk.file_pipe_local_information, ntifs/FILE_PIPE_LOCAL_INFORMATION, ntifs/PFILE_PIPE_LOCAL_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	FILE_PIPE_LOCAL_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FILE_PIPE_LOCAL_INFORMATION, *PFILE_PIPE_LOCAL_INFORMATION
 ---
@@ -50,25 +51,6 @@ req.typenames: FILE_PIPE_LOCAL_INFORMATION, *PFILE_PIPE_LOCAL_INFORMATION
 
 
 The <b>FILE_PIPE_LOCAL_INFORMATION</b> structure contains information about the local end of a named pipe.
-
-
-## -syntax
-
-
-````
-typedef struct _FILE_PIPE_LOCAL_INFORMATION {
-  ULONG NamedPipeType;
-  ULONG NamedPipeConfiguration;
-  ULONG MaximumInstances;
-  ULONG CurrentInstances;
-  ULONG InboundQuota;
-  ULONG ReadDataAvailable;
-  ULONG OutboundQuota;
-  ULONG WriteQuotaAvailable;
-  ULONG NamedPipeState;
-  ULONG NamedPipeEnd;
-} FILE_PIPE_LOCAL_INFORMATION, *PFILE_PIPE_LOCAL_INFORMATION;
-````
 
 
 ## -struct-fields

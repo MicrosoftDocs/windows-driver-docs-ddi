@@ -7,8 +7,8 @@ old-location: stream\ikstopology.htm
 old-project: stream
 ms.assetid: 418a415c-b4db-41a1-825e-66704c45e134
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsTopology, IKsTopology interface [Streaming Media Devices], IKsTopology interface [Streaming Media Devices], described, ksproxy/IKsTopology, ksproxy_521e5b73-c9cc-4cb2-acf5-746e470678cd.xml, stream.ikstopology
+ms.date: 4/23/2018
+ms.keywords: IKsTopology, IKsTopology interface [Streaming Media Devices], IKsTopology interface [Streaming Media Devices],described, ksproxy/IKsTopology, ksproxy_521e5b73-c9cc-4cb2-acf5-746e470678cd.xml, stream.ikstopology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Ksproxy.lib
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,9 +38,10 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsTopology
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
 # IKsTopology interface

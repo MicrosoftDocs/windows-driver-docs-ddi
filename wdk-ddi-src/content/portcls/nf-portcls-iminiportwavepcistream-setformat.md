@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.SetFormat
-title: IMiniportWavePciStream::SetFormat method
+title: IMiniportWavePciStream::SetFormat
 author: windows-driver-content
 description: The SetFormat method sets the KS data format of the wave stream.
 old-location: audio\iminiportwavepcistream_setformat.htm
 old-project: audio
 ms.assetid: c8dfa58d-f38b-4ef1-9607-575191d8ddea
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], SetFormat method, IMiniportWavePciStream::SetFormat, SetFormat method [Audio Devices], SetFormat method [Audio Devices], IMiniportWavePciStream interface, SetFormat,IMiniportWavePciStream.SetFormat, audio.iminiportwavepcistream_setformat, audmp-routines_7b5ce806-912e-4c30-9f3e-4a2b31a12864.xml, portcls/IMiniportWavePciStream::SetFormat
+ms.date: 4/16/2018
+ms.keywords: IMiniportWavePciStream interface [Audio Devices],SetFormat method, IMiniportWavePciStream.SetFormat, IMiniportWavePciStream::SetFormat, SetFormat, SetFormat method [Audio Devices], SetFormat method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_setformat, audmp-routines_7b5ce806-912e-4c30-9f3e-4a2b31a12864.xml, portcls/IMiniportWavePciStream::SetFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportWavePciStream.SetFormat
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWavePciStream::SetFormat method
+# IMiniportWavePciStream::SetFormat
 
 
 ## -description
 
 
 The <code>SetFormat</code> method sets the KS data format of the wave stream.
-
-
-## -syntax
-
-
-````
-NTSTATUS SetFormat(
-  [in] PKSDATAFORMAT DataFormat
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ NTSTATUS SetFormat(
 
 ### -param DataFormat [in]
 
-Pointer to <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that describes the new format of the stream.
+Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure that describes the new format of the stream.
 
 
 ## -returns
@@ -94,11 +85,6 @@ For information about specifying wave stream formats, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
-
-
-
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
@@ -106,8 +92,12 @@ For information about specifying wave stream formats, see <a href="https://msdn.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536725">IMiniportWavePciStream</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
  
 
  
-
 

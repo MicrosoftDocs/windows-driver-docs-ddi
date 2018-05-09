@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	SECURITY_IMPERSONATION_LEVEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SECURITY_IMPERSONATION_LEVEL
-req.product: Windows 10 or later.
 ---
 
 # _SECURITY_IMPERSONATION_LEVEL enumeration
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to UMDF only]
 
 The <b>SECURITY_IMPERSONATION_LEVEL</b> enumeration contains values that identify security impersonation levels.
-
-
-## -syntax
-
-
-````
-typedef enum _SECURITY_IMPERSONATION_LEVEL { 
-  SecurityAnonymous       = 0,
-  SecurityIdentification  = ( SecurityAnonymous + 1 ),
-  SecurityImpersonation   = ( SecurityIdentification + 1 ),
-  SecurityDelegation      = ( SecurityImpersonation + 1 )
-} SECURITY_IMPERSONATION_LEVEL;
-````
 
 
 ## -enum-fields
@@ -108,12 +95,11 @@ For more information about the security impersonation levels, see the <b>SECURIT
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
-
-
-
  
 
  
-
 

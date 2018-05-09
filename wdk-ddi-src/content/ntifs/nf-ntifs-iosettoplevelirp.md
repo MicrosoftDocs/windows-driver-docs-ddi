@@ -7,7 +7,7 @@ old-location: ifsk\iosettoplevelirp.htm
 old-project: ifsk
 ms.assetid: 10d1889b-d79c-4c06-a012-77414c88ce17
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: IoSetTopLevelIrp, IoSetTopLevelIrp routine [Installable File System Drivers], ifsk.iosettoplevelirp, ioref_1c046677-97df-4f46-956c-108a203f83f2.xml, ntifs/IoSetTopLevelIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoSetTopLevelIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoSetTopLevelIrp function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>IoSetTopLevelIrp</b> routine sets the value of the <b>TopLevelIrp</b> field of the current thread.
-
-
-## -syntax
-
-
-````
-VOID IoSetTopLevelIrp(
-  _In_opt_ PIRP Irp
-);
-````
 
 
 ## -parameters
@@ -85,7 +76,7 @@ None
 
 
 
-<b>IoSetTopLevelIrp</b> sets the value of the <b>TopLevelIrp</b> field in the thread object for the current thread. This value can be <b>NULL</b>, a pointer to the current IRP, or an FSRTL flag. For more information about these values and what they mean, see the reference entry for <a href="..\wdm\nf-wdm-iogettoplevelirp.md">IoGetTopLevelIrp</a>.
+<b>IoSetTopLevelIrp</b> sets the value of the <b>TopLevelIrp</b> field in the thread object for the current thread. This value can be <b>NULL</b>, a pointer to the current IRP, or an FSRTL flag. For more information about these values and what they mean, see the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff548405">IoGetTopLevelIrp</a>.
 
 Only file systems can call <b>IoSetTopLevelIrp</b>. File system filters and minifilters cannot safely call this routine, because doing so can cause deadlocks. 
 
@@ -94,12 +85,11 @@ Only file systems can call <b>IoSetTopLevelIrp</b>. File system filters and mini
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogettoplevelirp.md">IoGetTopLevelIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548405">IoGetTopLevelIrp</a>
  
 
  
-
 

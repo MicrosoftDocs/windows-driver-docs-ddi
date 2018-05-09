@@ -7,7 +7,7 @@ old-location: display\d3dkmtupdateoverlay.htm
 old-project: display
 ms.assetid: bd8fc34a-60a3-4ae7-b13e-50d8b4342834
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTUpdateOverlay, D3DKMTUpdateOverlay function [Display Devices], OpenGL_Functions_bddc75da-dc62-43cf-8ee7-ec9958198669.xml, d3dkmthk/D3DKMTUpdateOverlay, display.d3dkmtupdateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTUpdateOverlay
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTUpdateOverlay function
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTUpdateOverlay</b> function modifies a kernel-mode overlay object.
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTUpdateOverlay(
-  _In_ const D3DKMT_UPDATEOVERLAY *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_updateoverlay.md">D3DKMT_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548402">D3DKMT_UPDATEOVERLAY</a> structure that describes how to modify the overlay.
 
 
 ## -returns
@@ -134,7 +125,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtupdateoverlay.md">D3DKMTUpdateOverlay</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547241">D3DKMTUpdateOverlay</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -148,12 +139,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_updateoverlay.md">D3DKMT_UPDATEOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548402">D3DKMT_UPDATEOVERLAY</a>
  
 
  
-
 

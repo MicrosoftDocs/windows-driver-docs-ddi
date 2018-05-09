@@ -7,8 +7,8 @@ old-location: storage\ioctl_aacs_get_challenge_key.htm
 old-project: storage
 ms.assetid: 97c43a15-e120-44bd-8a5e-40b80aba646d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_AACS_GET_CHALLENGE_KEY, IOCTL_AACS_GET_CHALLENGE_KEY control code [Storage Devices], k307_f500a9e4-ea44-4089-bfa0-8215635a11c6.xml, ntddcdvd/IOCTL_AACS_GET_CHALLENGE_KEY, storage.ioctl_aacs_get_challenge_key
+ms.date: 3/29/2018
+ms.keywords: IOCTL_AACS_GET_CHALLENGE_KEY, IOCTL_AACS_GET_CHALLENGE_KEY control, IOCTL_AACS_GET_CHALLENGE_KEY control code [Storage Devices], k307_f500a9e4-ea44-4089-bfa0-8215635a11c6.xml, ntddcdvd/IOCTL_AACS_GET_CHALLENGE_KEY, storage.ioctl_aacs_get_challenge_key
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddcdvd.h
 api_name:
 -	IOCTL_AACS_GET_CHALLENGE_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_AACS_GET_CHALLENGE_KEY IOCTL
@@ -69,12 +70,12 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55374
 
 ### -output-buffer
 
-The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the drive challenge key with a format of <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_challenge_key.md">AACS_CHALLENGE_KEY</a>. 
+The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the drive challenge key with a format of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550108">AACS_CHALLENGE_KEY</a>. 
 
 
 ### -output-buffer-length
 
-Length of an <a href="..\ntddcdvd\ns-ntddcdvd-_aacs_challenge_key.md">AACS_CHALLENGE_KEY</a>.
+Length of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550108">AACS_CHALLENGE_KEY</a>.
 
 
 ### -in-out-buffer

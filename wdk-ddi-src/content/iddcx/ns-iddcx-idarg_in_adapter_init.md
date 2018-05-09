@@ -7,7 +7,7 @@ old-location: display\idarg_in_adapter_init.htm
 old-project: display
 ms.assetid: 2db324c8-69b1-4497-b6a7-76047baeca19
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IDARG_IN_ADAPTER_INIT, IDARG_IN_ADAPTER_INIT structure [Display Devices], display.idarg_in_adapter_init, iddcx/IDARG_IN_ADAPTER_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDARG_IN_ADAPTER_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 
                  Initializes an adapter that will be hosted on a WDF device.
              
-
-
-## -syntax
-
-
-````
-typedef struct IDARG_IN_ADAPTER_INIT {
-  WDFDEVICE              WdfDevice;
-  IDDCX_ADAPTER_CAPS*    pCaps;
-  PWDF_OBJECT_ATTRIBUTES ObjectAttributes;
-} IDARG_IN_ADAPTER_INIT, *IDARG_IN_ADAPTER_INIT;
-````
 
 
 ## -struct-fields

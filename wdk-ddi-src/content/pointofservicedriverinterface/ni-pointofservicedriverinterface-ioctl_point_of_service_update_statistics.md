@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 94c8d49a-5136-49f3-a313-74c032502f1f
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, pos.ioctl_point_of_service_update_statistics
+ms.keywords: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, pos.ioctl_point_of_service_update_statistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PosPropertyId
+req.typenames: 
 ---
 
 # IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS IOCTL
@@ -60,7 +61,7 @@ This I/O control function sets the specified statistic to the value in the input
 ### -input-buffer
 
 
-<a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posstatisticsheader.md">PosStatisticsHeader</a> where <i>PosStatisticsHeader.EntryCount</i> is set to the number of statistics to update. This structure is then followed by a corresponding number of <a href="..\pointofservicedriverinterface\ns-pointofservicedriverinterface-_posvaluestatisticsentry.md">PosValueStatisticsEntry</a> structures that contain the name of a statistic and the corresponding value to which it will be updated.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn772241">PosStatisticsHeader</a> where <i>PosStatisticsHeader.EntryCount</i> is set to the number of statistics to update. This structure is then followed by a corresponding number of <a href="https://msdn.microsoft.com/library/windows/hardware/dn772322">PosValueStatisticsEntry</a> structures that contain the name of a statistic and the corresponding value to which it will be updated.
 
 
 ### -input-buffer-length

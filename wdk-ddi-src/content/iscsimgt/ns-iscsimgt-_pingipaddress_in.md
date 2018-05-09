@@ -7,7 +7,7 @@ old-location: storage\pingipaddress_in.htm
 old-project: storage
 ms.assetid: 2dec9594-727e-44e6-8be8-2416ea77e447
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PPingIPAddress_IN, PPingIPAddress_IN, PPingIPAddress_IN structure pointer [Storage Devices], PingIPAddress_IN, PingIPAddress_IN structure [Storage Devices], _PingIPAddress_IN, iscsimgt/PPingIPAddress_IN, iscsimgt/PingIPAddress_IN, storage.pingipaddress_in, structs-iSCSI_4b2a763e-bb28-4132-9f29-08377e81dd82.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	PingIPAddress_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PingIPAddress_IN, *PPingIPAddress_IN
 ---
@@ -50,19 +51,6 @@ req.typenames: PingIPAddress_IN, *PPingIPAddress_IN
 
 
 The PingIPAddress_IN structure holds the input data for the PingIPAddress method.
-
-
-## -syntax
-
-
-````
-typedef struct _PingIPAddress_IN {
-  ULONG            RequestCount;
-  ULONG            RequestSize;
-  ULONG            Timeout;
-  ISCSI_IP_Address Address;
-} PingIPAddress_IN, *PPingIPAddress_IN;
-````
 
 
 ## -struct-fields
@@ -87,7 +75,7 @@ The timeout (in milliseconds) for each ping request.
 
 ### -field Address
 
-The IP address to which the ping request must be sent. The IP address is provided by the <a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a> structure.
+The IP address to which the ping request must be sent. The IP address is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure.
 
 
 ## -remarks
@@ -101,12 +89,11 @@ We recommend that you implement this class.
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
  
 
  
-
 

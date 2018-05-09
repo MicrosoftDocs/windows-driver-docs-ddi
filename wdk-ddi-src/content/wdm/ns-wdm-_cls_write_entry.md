@@ -7,7 +7,7 @@ old-location: kernel\clfs_write_entry.htm
 old-project: kernel
 ms.assetid: 4b008fc7-35fe-40f9-8475-1a2ac04edb58
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCLFS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, CLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], CLS_WRITE_ENTRY, CLS_WRITE_ENTRY structure [Kernel-Mode Driver Architecture], PCLFS_WRITE_ENTRY, PCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PCLS_WRITE_ENTRY, PCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PPCLFS_WRITE_ENTRY, PPCLFS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], PPCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY structure pointer [Kernel-Mode Driver Architecture], _CLS_WRITE_ENTRY, kernel.clfs_write_entry, kstruct_a_331b7685-f256-4071-8edf-e517afc2b8cc.xml, wdm/CLFS_WRITE_ENTRY, wdm/CLS_WRITE_ENTRY, wdm/PCLFS_WRITE_ENTRY, wdm/PCLS_WRITE_ENTRY, wdm/PPCLFS_WRITE_ENTRY, wdm/PPCLS_WRITE_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	CLS_WRITE_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, PPCLS_WRITE_ENTRY
-req.product: Windows 10 or later.
 ---
 
 # _CLS_WRITE_ENTRY structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>CLFS_WRITE_ENTRY</b> structure holds the address and size of a buffer that contains one unit of data to be written to a Common Log File System (CLFS) stream.
-
-
-## -syntax
-
-
-````
-typedef struct _CLS_WRITE_ENTRY {
-  PVOID Buffer;
-  ULONG ByteLength;
-} CLS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, **PPCLS_WRITE_ENTRY, CLFS_WRITE_ENTRY, *PCLFS_WRITE_ENTRY, **PPCLFS_WRITE_ENTRY;
-````
 
 
 ## -struct-fields
@@ -90,16 +79,15 @@ CLFS collects the buffers pointed to by several <b>CLFS_WRITE_ENTRY</b> structur
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsreserveandappendlogaligned.md">ClfsReserveAndAppendLogAligned</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsreserveandappendlog.md">ClfsReserveAndAppendLog</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541723">ClfsReserveAndAppendLog</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541726">ClfsReserveAndAppendLogAligned</a>
  
 
  
-
 

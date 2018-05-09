@@ -7,7 +7,7 @@ old-location: display\videoportlogerror.htm
 old-project: display
 ms.assetid: d013aeb9-43a9-460f-a670-5b7bc9d3753d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortLogError, VideoPortLogError function [Display Devices], VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml, display.videoportlogerror, video/VideoPortLogError
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortLogError
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortLogError function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortLogError</b> function logs errors to the system event log when a miniport driver detects a hardware error condition during I/O operations.
-
-
-## -syntax
-
-
-````
-VOID VideoPortLogError(
-   PVOID                 HwDeviceExtension,
-   PVIDEO_REQUEST_PACKET Vrp,
-   VP_STATUS             ErrorCode,
-   ULONG                 UniqueId
-);
-````
 
 
 ## -parameters
@@ -113,19 +100,18 @@ Miniport drivers should call <b>VideoPortLogError</b> to notify the user if the 
 
 However, miniport drivers should <i>not</i> log errors, such as "failed to detect hardware," that occur frequently during normal operation.
 
-<b>VideoPortLogError</b> can be called from a miniport driver's <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> or <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a> function. 
+<b>VideoPortLogError</b> can be called from a miniport driver's <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> or <a href="https://msdn.microsoft.com/04e3bac6-c905-4c95-bd1b-e85b46c4296d">HwVidSynchronizeExecutionCallback</a> function. 
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570170">VideoDebugPrint</a>
-
-
-
  
 
  
-
 

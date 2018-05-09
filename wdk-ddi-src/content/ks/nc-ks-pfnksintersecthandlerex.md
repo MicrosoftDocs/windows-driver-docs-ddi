@@ -7,7 +7,7 @@ old-location: stream\avstrminiintersecthandlerex.htm
 old-project: stream
 ms.assetid: d80f8bc6-29dc-4cb0-87f5-414ec6418156
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniIntersectHandlerEx, AVStrMiniIntersectHandlerEx routine [Streaming Media Devices], PFNKSINTERSECTHANDLEREX, avstclbk_7a9be78c-3ca2-4fe2-961c-37dbd122a4b8.xml, ks/AVStrMiniIntersectHandlerEx, stream.avstrminiintersecthandlerex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,38 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	AVStrMiniIntersectHandlerEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSINTERSECTHANDLEREX callback
+# PFNKSINTERSECTHANDLEREX callback function
 
 
 ## -description
 
 
 AVStream calls a minidriver's <i>AVStrMiniIntersectHandlerEx</i> routine to determine the highest quality intersection of two data ranges.
-
-
-## -prototype
-
-
-````
-PFNKSINTERSECTHANDLEREX AVStrMiniIntersectHandlerEx;
-
-NTSTATUS AVStrMiniIntersectHandlerEx(
-  _In_  PVOID        Context,
-  _In_  PIRP         Irp,
-  _In_  PKSP_PIN     Pin,
-  _In_  PKSDATARANGE DataRange,
-  _In_  PKSDATARANGE MatchingDataRange,
-  _In_  ULONG        DataBufferSize,
-  _Out_ PVOID        Data,
-  _Out_ PULONG       DataSize
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -79,17 +60,17 @@ NTSTATUS AVStrMiniIntersectHandlerEx(
 
 ### -param Context [in]
 
-Pointer to the <b>Context</b> member of the corresponding <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> structure.
+Pointer to the <b>Context</b> member of the corresponding <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure.
 
 
 ### -param Irp [in]
 
-Pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> containing the intersection request.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> containing the intersection request.
 
 
 ### -param Pin [in]
 
-Pointer to a structure of type <a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a> that was passed in the intersection property request.
+Pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566722">KSP_PIN</a> that was passed in the intersection property request.
 
 
 ### -param DataRange [in]
@@ -130,18 +111,25 @@ If the callback finds a match, return STATUS_SUCCESS. Otherwise return STATUS_NO
 
 
 
-The minidriver specifies this routine's address in the <b>IntersectHandler</b> member of a <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a> structure.
+The minidriver specifies this routine's address in the <b>IntersectHandler</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a> structure.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a>
 
 
 
@@ -149,20 +137,12 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 
 
-<a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566722">KSP_PIN</a>
 
 
 
-<a href="..\ks\ns-ks-ksp_pin.md">KSP_PIN</a>
-
-
-
-<a href="..\ks\nf-ks-kspindataintersectionex.md">KsPinDataIntersectionEx</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563499">KsPinDataIntersectionEx</a>
  
 
  
-
 

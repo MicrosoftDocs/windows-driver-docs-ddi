@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetReadStream
-title: IPrinterScriptablePropertyBag::GetReadStream method
+title: IPrinterScriptablePropertyBag::GetReadStream
 author: windows-driver-content
 description: Gets a read stream and uses it to read from a property.
 old-location: print\iprinterscriptablepropertybag_getreadstream.htm
 old-project: print
 ms.assetid: 493E6C55-DC3B-4160-9642-BDABADD575B8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetReadStream method [Print Devices], GetReadStream method [Print Devices], IPrinterScriptablePropertyBag interface, GetReadStream,IPrinterScriptablePropertyBag.GetReadStream, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], GetReadStream method, IPrinterScriptablePropertyBag::GetReadStream, print.iprinterscriptablepropertybag_getreadstream, printerextension/IPrinterScriptablePropertyBag::GetReadStream
+ms.date: 4/20/2018
+ms.keywords: GetReadStream, GetReadStream method [Print Devices], GetReadStream method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetReadStream method, IPrinterScriptablePropertyBag.GetReadStream, IPrinterScriptablePropertyBag::GetReadStream, print.iprinterscriptablepropertybag_getreadstream, printerextension/IPrinterScriptablePropertyBag::GetReadStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptablePropertyBag.GetReadStream
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptablePropertyBag::GetReadStream method
+# IPrinterScriptablePropertyBag::GetReadStream
 
 
 ## -description
 
 
 Gets a read stream and uses it to read  from a property.
-
-
-## -syntax
-
-
-````
-HRESULT GetReadStream(
-  [in]          BSTR                     bstrName,
-  [out, retval] IPrinterScriptableStream **ppStream
-);
-````
 
 
 ## -parameters
@@ -101,16 +90,15 @@ A call to <b>GetReadStream</b> will throw an exception, if the specified propert
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablestream.md">IPrinterScriptableStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973218">IPrinterScriptableStream</a>
  
 
  
-
 

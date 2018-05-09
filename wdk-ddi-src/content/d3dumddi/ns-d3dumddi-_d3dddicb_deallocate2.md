@@ -7,7 +7,7 @@ old-location: display\d3dddicb_deallocate2.htm
 old-project: display
 ms.assetid: C859CB06-3F71-4F6D-9949-0E9AE75CEC20
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_DEALLOCATE2, D3DDDICB_DEALLOCATE2 structure [Display Devices], _D3DDDICB_DEALLOCATE2, d3dumddi/D3DDDICB_DEALLOCATE2, display.d3dddicb_deallocate2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_DEALLOCATE2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_DEALLOCATE2
 ---
@@ -49,21 +50,8 @@ req.typenames: D3DDDICB_DEALLOCATE2
 ## -description
 
 
-The <b>D3DDDICB_DEALLOCATE2</b> structure describes parameters for releasing allocations with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocate2cb.md">pfnDeallocate2Cb</a>
+The <b>D3DDDICB_DEALLOCATE2</b> structure describes parameters for releasing allocations with <a href="https://msdn.microsoft.com/68C7EC44-D744-4C69-86D9-35B3B089875A">pfnDeallocate2Cb</a>
 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_DEALLOCATE2 {
-  HANDLE                           hResource;
-  UINT                             NumAllocations;
-  const D3DKMT_HANDLE              *HandleList;
-  D3DDDICB_DESTROYALLOCATION2FLAGS Flags;
-} D3DDDICB_DEALLOCATE2;
-````
 
 
 ## -struct-fields
@@ -83,28 +71,27 @@ typedef struct _D3DDDICB_DEALLOCATE2 {
 
 ### -field HandleList
 
-[in] An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the allocations. The Direct3D runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to release the allocations.
+[in] An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the allocations. The Direct3D runtime's <a href="https://msdn.microsoft.com/a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to release the allocations.
 
 If the user-mode display driver sets the handle in the <b>hResource</b> member to non-<b>NULL</b>, <b>HandleList</b> is ignored by the Direct3D runtime. 
 
 
 ### -field Flags
 
-[in] A <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_destroyallocation2flags.md">D3DDDICB_DESTROYALLOCATION2FLAGS</a> structure that contains additional details about the operation.
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/dn906318">D3DDDICB_DESTROYALLOCATION2FLAGS</a> structure that contains additional details about the operation.
 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddicb_destroyallocation2flags.md">D3DDDICB_DESTROYALLOCATION2FLAGS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocate2cb.md">pfnDeallocate2Cb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906318">D3DDDICB_DESTROYALLOCATION2FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/68C7EC44-D744-4C69-86D9-35B3B089875A">pfnDeallocate2Cb</a>
  
 
  
-
 

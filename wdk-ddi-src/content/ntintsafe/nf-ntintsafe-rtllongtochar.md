@@ -7,7 +7,7 @@ old-location: kernel\rtllongtochar.htm
 old-project: kernel
 ms.assetid: 4D326534-2DEB-419B-9E14-D88543071ECC
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongToChar, RtlLongToChar function [Kernel-Mode Driver Architecture], kernel.rtllongtochar, ntintsafe/RtlLongToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlLongToChar
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlLongToChar function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>LONG</b> to a value of type <b>CHAR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongToChar(
-  _In_  LONG lOperand,
-  _Out_ CHAR *pch
-);
-````
 
 
 ## -parameters

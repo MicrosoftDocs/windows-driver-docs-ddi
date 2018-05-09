@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugBreakpoint2.SetOffset
-title: IDebugBreakpoint2::SetOffset method
+title: IDebugBreakpoint2::SetOffset
 author: windows-driver-content
 description: The SetOffset method sets the location that triggers a breakpoint.
 old-location: debugger\setoffset.htm
 old-project: debugger
 ms.assetid: 25898500-f16e-4838-854f-5eb299727e2b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, IDebugBreakpoint interface [Windows Debugging], SetOffset method, IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, IDebugBreakpoint2::SetOffset, IDebugBreakpoint::SetOffset, SetOffset method [Windows Debugging], SetOffset method [Windows Debugging], IDebugBreakpoint interface, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, SetOffset,IDebugBreakpoint2.SetOffset, dbgeng/IDebugBreakpoint2::SetOffset, dbgeng/IDebugBreakpoint::SetOffset, debugger.setoffset
+ms.date: 4/24/2018
+ms.keywords: ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, IDebugBreakpoint interface [Windows Debugging],SetOffset method, IDebugBreakpoint2 interface [Windows Debugging],SetOffset method, IDebugBreakpoint2.SetOffset, IDebugBreakpoint2::SetOffset, IDebugBreakpoint::SetOffset, SetOffset, SetOffset method [Windows Debugging], SetOffset method [Windows Debugging],IDebugBreakpoint interface, SetOffset method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetOffset, dbgeng/IDebugBreakpoint::SetOffset, debugger.setoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,28 +39,19 @@ api_location:
 api_name:
 -	IDebugBreakpoint.SetOffset
 -	IDebugBreakpoint2.SetOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugBreakpoint2::SetOffset method
+# IDebugBreakpoint2::SetOffset
 
 
 ## -description
 
 
 The <b>SetOffset</b> method sets the location that triggers a breakpoint.
-
-
-## -syntax
-
-
-````
-HRESULT SetOffset(
-  [in] ULONG64 Offset
-);
-````
 
 
 ## -parameters

@@ -7,8 +7,8 @@ old-location: display\getvideoprocessorfilterrange.htm
 old-project: display
 ms.assetid: ab3f8abb-4735-42c1-9664-8f2f5f7d5da7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE, d3d10umddi/pfnGetVideoProcessorFilterRange, display.getvideoprocessorfilterrange, pfnGetVideoProcessorFilterRange, pfnGetVideoProcessorFilterRange callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE, PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE callback, d3d10umddi/pfnGetVideoProcessorFilterRange, display.getvideoprocessorfilterrange, pfnGetVideoProcessorFilterRange, pfnGetVideoProcessorFilterRange callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnGetVideoProcessorFilterRange
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE callback
+# PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE callback function
 
 
 ## -description
@@ -52,34 +53,18 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Queries the range of values that the display miniport driver supports for a specified video processor filter.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE pfnGetVideoProcessorFilterRange;
-
-VOID APIENTRY* pfnGetVideoProcessorFilterRange(
-  _In_  D3D10DDI_HDEVICE                        hDevice,
-  _In_  D3D11_1DDI_HVIDEOPROCESSORENUM          hProcessorEnum,
-  _In_  D3D11_1DDI_VIDEO_PROCESSOR_FILTER       Filter,
-  _Out_ D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE *pFilterRange
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSORENUM
+### -param Arg2
 
 
-### -param D3D11_1DDI_VIDEO_PROCESSOR_FILTER
+### -param Arg3
 
 
 ### -param *
@@ -93,7 +78,7 @@ VOID APIENTRY* pfnGetVideoProcessorFilterRange(
 
 #### - Filter [in]
 
-The type of the video processor filter, specified as a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
+The type of the video processor filter, specified as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450982">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
 
 
 
@@ -107,14 +92,14 @@ A handle to the display device (graphics context).
 
 #### - hProcessorEnum [in]
 
-A handle to a video processor enumeration object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a> function.
+A handle to a video processor enumeration object that was created through a call to the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function.
 
 
 
 
 #### - pFilterRange [out]
 
-A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_filter_range.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE</a> structure that specifies the range of values for the specified filter.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450985">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE</a> structure that specifies the range of values for the specified filter.
 
 
 
@@ -130,20 +115,19 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_filter.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum.md">CreateVideoProcessorEnum</a>
+<a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_filter_range.md">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450982">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450985">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE</a>
  
 
  
-
 

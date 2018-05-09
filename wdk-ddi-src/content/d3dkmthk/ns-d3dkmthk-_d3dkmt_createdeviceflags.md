@@ -7,7 +7,7 @@ old-location: display\d3dkmt_createdeviceflags.htm
 old-project: display
 ms.assetid: 90d4ce0a-1f36-4f2e-bdbe-5f80c8dfb92a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_CREATEDEVICEFLAGS, D3DKMT_CREATEDEVICEFLAGS structure [Display Devices], OpenGL_Structs_7cb495c3-44aa-46cb-8bca-87b66c5d422f.xml, _D3DKMT_CREATEDEVICEFLAGS, d3dkmthk/D3DKMT_CREATEDEVICEFLAGS, display.d3dkmt_createdeviceflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_CREATEDEVICEFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_CREATEDEVICEFLAGS
 ---
@@ -49,24 +50,7 @@ req.typenames: D3DKMT_CREATEDEVICEFLAGS
 ## -description
 
 
-The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of device context to be created in a call to the <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_CREATEDEVICEFLAGS {
-  UINT LegacyMode  :1;
-  UINT RequestVSync  :1;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-  UINT DisableGpuTimeout  :1;
-  UINT Reserved  :29;
-#else 
-  UINT Reserved  :30;
-#endif 
-} D3DKMT_CREATEDEVICEFLAGS;
-````
+The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of device context to be created in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> function.
 
 
 ## -struct-fields
@@ -106,12 +90,11 @@ This member is reserved and should be set to zero. Setting this member is equiva
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdevice.md">D3DKMT_CREATEDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547819">D3DKMT_CREATEDEVICE</a>
  
 
  
-
 

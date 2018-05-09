@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2drawrectpatch.htm
 old-project: display
 ms.assetid: 892fe11a-4dfd-43cb-8f9a-b148d81a087f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2DRAWRECTPATCH, D3DHAL_DP2DRAWRECTPATCH, D3DHAL_DP2DRAWRECTPATCH structure [Display Devices], LPD3DHAL_DP2DRAWRECTPATCH, LPD3DHAL_DP2DRAWRECTPATCH structure pointer [Display Devices], _D3DHAL_DP2DRAWRECTPATCH, d3dhal/D3DHAL_DP2DRAWRECTPATCH, d3dhal/LPD3DHAL_DP2DRAWRECTPATCH, d3dstrct_beda6033-07b1-4985-8eac-6bb49bcce07e.xml, display.d3dhal_dp2drawrectpatch"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_DP2DRAWRECTPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2DRAWRECTPATCH
 ---
@@ -53,18 +54,7 @@ req.typenames: D3DHAL_DP2DRAWRECTPATCH
    DirectX 8.0 and later versions only.
    
 
-D3DHAL_DRAWRECTPATCH is parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback when the <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWRECTPATCH, and is used to render a rectangular patch.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2DRAWRECTPATCH {
-  DWORD Handle;
-  DWORD Flags;
-} D3DHAL_DP2DRAWRECTPATCH, *LPD3DHAL_DP2DRAWRECTPATCH;
-````
+D3DHAL_DRAWRECTPATCH is parsed from the command buffer by the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_DRAWRECTPATCH, and is used to render a rectangular patch.
 
 
 ## -struct-fields
@@ -109,11 +99,18 @@ The driver receives notification that cached patch information is be released vi
 
 ## -see-also
 
+
+
+
 D3DDP2OP_DRAWRECTPATCH
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545543">D3DHAL_DP2DRAWTRIPATCH</a>
 
 
 
@@ -121,16 +118,8 @@ D3DRS_DELETERTPATCH
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawtripatch.md">D3DHAL_DP2DRAWTRIPATCH</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

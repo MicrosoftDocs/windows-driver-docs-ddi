@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_CWTESTDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_CWTESTDATA, *PGNSS_CWTESTDATA
 ---
@@ -50,21 +51,6 @@ req.typenames: GNSS_CWTESTDATA, *PGNSS_CWTESTDATA
 
 
 This structure defines specific data elements associated with  carrier wave test results returned from the driver.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG    Size;
-  ULONG    Version;
-  NTSTATUS TestResultStatus;
-  double   SignalToNoiseRatio;
-  double   Frequency;
-  BYTE     Unused[512];
-} GNSS_CWTESTDATA, *PGNSS_CWTESTDATA;
-````
 
 
 ## -struct-fields

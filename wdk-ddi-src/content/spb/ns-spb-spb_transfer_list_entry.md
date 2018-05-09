@@ -7,7 +7,7 @@ old-location: spb\spb_transfer_list_entry.htm
 old-project: SPB
 ms.assetid: e13b7a7e-4acb-4a77-ac46-94af2ebccc20
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSPB_TRANSFER_LIST_ENTRY, PSPB_TRANSFER_LIST_ENTRY, PSPB_TRANSFER_LIST_ENTRY structure pointer [Buses], SPB.spb_transfer_list_entry, SPB_TRANSFER_LIST_ENTRY, SPB_TRANSFER_LIST_ENTRY structure [Buses], spb/PSPB_TRANSFER_LIST_ENTRY, spb/SPB_TRANSFER_LIST_ENTRY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Spb.h
 api_name:
 -	SPB_TRANSFER_LIST_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY
-req.product: Windows 10 or later.
 ---
 
 # SPB_TRANSFER_LIST_ENTRY structure
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_TRANSFER_LIST_ENTRY</b> structure describes a single transfer in an <a href="https://msdn.microsoft.com/7415DB28-5E93-4F47-B169-7C652969D4C7">I/O transfer sequence</a>.
-
-
-## -syntax
-
-
-````
-typedef struct SPB_TRANSFER_LIST_ENTRY {
-  SPB_TRANSFER_DIRECTION Direction;
-  ULONG                  DelayInUs;
-  SPB_TRANSFER_BUFFER    Buffer;
-} SPB_TRANSFER_LIST_ENTRY, *PSPB_TRANSFER_LIST_ENTRY;
-````
 
 
 ## -struct-fields
@@ -100,11 +88,10 @@ To request an I/O transfer sequence for a target device on the bus, a client (pe
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
 
 
 
@@ -112,16 +99,16 @@ To request an I/O transfer sequence for a target device on the bus, a client (pe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
  
 
  
-
 

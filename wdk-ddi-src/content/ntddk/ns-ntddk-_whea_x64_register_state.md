@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_X64_REGISTER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE
 ---
@@ -50,50 +51,6 @@ req.typenames: WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE
 
 
 The WHEA_X64_REGISTER_STATE structure describes the state of an x64 processor's registers.
-
-
-## -syntax
-
-
-````
-typedef struct _WHEA_X64_REGISTER_STATE {
-  ULONGLONG Rax;
-  ULONGLONG Rbx;
-  ULONGLONG Rcx;
-  ULONGLONG Rdx;
-  ULONGLONG Rsi;
-  ULONGLONG Rdi;
-  ULONGLONG Rbp;
-  ULONGLONG Rsp;
-  ULONGLONG R8;
-  ULONGLONG R9;
-  ULONGLONG R10;
-  ULONGLONG R11;
-  ULONGLONG R12;
-  ULONGLONG R13;
-  ULONGLONG R14;
-  ULONGLONG R15;
-  USHORT    Cs;
-  USHORT    Ds;
-  USHORT    Ss;
-  USHORT    Es;
-  USHORT    Fs;
-  USHORT    Gs;
-  ULONG     Reserved;
-  ULONGLONG Rflags;
-  ULONGLONG Eip;
-  ULONGLONG Cr0;
-  ULONGLONG Cr1;
-  ULONGLONG Cr2;
-  ULONGLONG Cr3;
-  ULONGLONG Cr4;
-  ULONGLONG Cr8;
-  WHEA128A  Gdtr;
-  WHEA128A  Idtr;
-  USHORT    Ldtr;
-  USHORT    Tr;
-} WHEA_X64_REGISTER_STATE, *PWHEA_X64_REGISTER_STATE;
-````
 
 
 ## -struct-fields
@@ -307,19 +264,18 @@ The task register.
 
 
 
-If the <b>RegisterContextType</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_64BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X64_REGISTER_STATE structure.
+If the <b>RegisterContextType</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560647">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_64BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X64_REGISTER_STATE structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560647">WHEA_XPF_CONTEXT_INFO</a>
  
 
  
-
 

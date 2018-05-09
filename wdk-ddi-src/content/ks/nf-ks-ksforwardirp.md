@@ -7,7 +7,7 @@ old-location: stream\ksforwardirp.htm
 old-project: stream
 ms.assetid: 6db0c232-d90b-4187-94c0-a840f87cf999
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsForwardIrp, KsForwardIrp function [Streaming Media Devices], ks/KsForwardIrp, ksfunc_cc7908b4-a6f2-40b1-990f-22c7b5e2bda2.xml, stream.ksforwardirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsForwardIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsForwardIrp</b> function forwards an IRP to the specified driver after initializing the next stack location and setting the file object. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsForwardIrp(
-  _In_ PIRP         Irp,
-  _In_ PFILE_OBJECT FileObject,
-  _In_ BOOLEAN      ReuseStackLocation
-);
-````
 
 
 ## -parameters

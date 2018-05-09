@@ -7,7 +7,7 @@ old-location: spb\spb_transfer_buffer_format.htm
 old-project: SPB
 ms.assetid: EAC78940-318D-4785-9D7E-410B8AB2F4C7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSPB_TRANSFER_BUFFER_FORMAT, SPB.spb_transfer_buffer_format, SPB_TRANSFER_BUFFER_FORMAT, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], SpbTransferBufferFormatInvalid, SpbTransferBufferFormatList, SpbTransferBufferFormatMax, SpbTransferBufferFormatMdl, SpbTransferBufferFormatSimple, SpbTransferBufferFormatSimpleNonPaged, spb/SPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatInvalid, spb/SpbTransferBufferFormatList, spb/SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatMdl, spb/SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatSimpleNonPaged"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Spb.h
 api_name:
 -	SPB_TRANSFER_BUFFER_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_BUFFER_FORMAT, *PSPB_TRANSFER_BUFFER_FORMAT
-req.product: Windows 10 or later.
 ---
 
 # SPB_TRANSFER_BUFFER_FORMAT enumeration
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_TRANSFER_BUFFER_FORMAT</b> enumeration specifies the format of the buffer that is described by an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SpbTransferBufferFormatInvalid,
-  SpbTransferBufferFormatSimple,
-  SpbTransferBufferFormatList,
-  SpbTransferBufferFormatSimpleNonPaged,
-  SpbTransferBufferFormatMdl,
-  SpbTransferBufferFormatMax
-} SPB_TRANSFER_BUFFER_FORMAT;
-````
 
 
 ## -enum-fields
@@ -114,12 +99,11 @@ The <b>Format</b> member of the <a href="https://msdn.microsoft.com/library/wind
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
-
-
-
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.GetExtensionByPath
-title: IDebugControl2::GetExtensionByPath method
+title: IDebugControl2::GetExtensionByPath
 author: windows-driver-content
 description: The GetExtensionByPath method returns the handle for an already loaded extension library.
 old-location: debugger\getextensionbypath.htm
 old-project: debugger
 ms.assetid: 32755878-3f52-4e52-b093-1678c8b8bb42
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetExtensionByPath method [Windows Debugging], GetExtensionByPath method [Windows Debugging], IDebugControl interface, GetExtensionByPath method [Windows Debugging], IDebugControl2 interface, GetExtensionByPath method [Windows Debugging], IDebugControl3 interface, GetExtensionByPath,IDebugControl2.GetExtensionByPath, IDebugControl interface [Windows Debugging], GetExtensionByPath method, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetExtensionByPath method, IDebugControl2::GetExtensionByPath, IDebugControl3 interface [Windows Debugging], GetExtensionByPath method, IDebugControl3::GetExtensionByPath, IDebugControl::GetExtensionByPath, IDebugControl_821ee348-ddb2-4464-93cd-b6a58e267795.xml, dbgeng/IDebugControl2::GetExtensionByPath, dbgeng/IDebugControl3::GetExtensionByPath, dbgeng/IDebugControl::GetExtensionByPath, debugger.getextensionbypath
+ms.date: 4/24/2018
+ms.keywords: GetExtensionByPath, GetExtensionByPath method [Windows Debugging], GetExtensionByPath method [Windows Debugging],IDebugControl interface, GetExtensionByPath method [Windows Debugging],IDebugControl2 interface, GetExtensionByPath method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExtensionByPath method, IDebugControl2 interface [Windows Debugging],GetExtensionByPath method, IDebugControl2.GetExtensionByPath, IDebugControl2::GetExtensionByPath, IDebugControl3 interface [Windows Debugging],GetExtensionByPath method, IDebugControl3::GetExtensionByPath, IDebugControl::GetExtensionByPath, IDebugControl_821ee348-ddb2-4464-93cd-b6a58e267795.xml, dbgeng/IDebugControl2::GetExtensionByPath, dbgeng/IDebugControl3::GetExtensionByPath, dbgeng/IDebugControl::GetExtensionByPath, debugger.getextensionbypath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,29 +40,19 @@ api_name:
 -	IDebugControl.GetExtensionByPath
 -	IDebugControl2.GetExtensionByPath
 -	IDebugControl3.GetExtensionByPath
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::GetExtensionByPath method
+# IDebugControl2::GetExtensionByPath
 
 
 ## -description
 
 
 The <b>GetExtensionByPath</b>  method returns the handle for an already loaded extension library.
-
-
-## -syntax
-
-
-````
-HRESULT GetExtensionByPath(
-  [in]  PCSTR    Path,
-  [out] PULONG64 Handle
-);
-````
 
 
 ## -parameters
@@ -121,15 +111,6 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -137,8 +118,16 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

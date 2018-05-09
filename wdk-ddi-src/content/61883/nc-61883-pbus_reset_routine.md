@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 99555765-A58F-45A1-B146-3742C390E666
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 61883/BusResetRoutine, BusResetRoutine, BusResetRoutine callback function [Buses], IEEE.pbus_reset_routine, PBUS_RESET_ROUTINE
+ms.keywords: 61883/BusResetRoutine, BusResetRoutine, BusResetRoutine callback function [Buses], IEEE.pbus_reset_routine, PBUS_RESET_ROUTINE, PBUS_RESET_ROUTINE callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,34 +38,19 @@ api_location:
 -	61883.h
 api_name:
 -	BusResetRoutine
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOPOLOGY_MAP, *PTOPOLOGY_MAP
+req.typenames: 
 ---
 
-# PBUS_RESET_ROUTINE callback
+# PBUS_RESET_ROUTINE callback function
 
 
 ## -description
 
 
 This is a caller-supplied function to be called by the protocol driver when the 1394 bus is reset.
-
-
-## -prototype
-
-
-````
-PBUS_RESET_ROUTINE BusResetRoutine;
-
-void BusResetRoutine(
-  _In_ PVOID                Context,
-  _In_ PBUS_GENERATION_NODE BusResetInfo
-)
-{ ... }
-
-typedef PBUS_RESET_ROUTINE BusResetRoutine;
-````
 
 
 ## -parameters
@@ -94,12 +79,11 @@ This callback does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
-
-
-
  
 
  
-
 

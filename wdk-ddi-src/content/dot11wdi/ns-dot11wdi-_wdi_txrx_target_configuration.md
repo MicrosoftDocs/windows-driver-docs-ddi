@@ -7,7 +7,7 @@ old-location: netvista\wdi_txrx_target_configuration.htm
 old-project: netvista
 ms.assetid: 5a2d8bdf-cfc2-4724-aab3-0277edb477e7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWDI_TXRX_TARGET_CONFIGURATION, PWDI_TXRX_TARGET_CONFIGURATION, PWDI_TXRX_TARGET_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_TARGET_CONFIGURATION, WDI_TXRX_TARGET_CONFIGURATION structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_TARGET_CONFIGURATION, dot11wdi/PWDI_TXRX_TARGET_CONFIGURATION, dot11wdi/WDI_TXRX_TARGET_CONFIGURATION, netvista.wdi_txrx_target_configuration, netvista.wifi_txrx_target_configuration"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	WDI_TXRX_TARGET_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TXRX_TARGET_CONFIGURATION, *PWDI_TXRX_TARGET_CONFIGURATION
 ---
@@ -51,18 +52,6 @@ req.typenames: WDI_TXRX_TARGET_CONFIGURATION, *PWDI_TXRX_TARGET_CONFIGURATION
 
 The 
   WDI_TXRX_TARGET_CONFIGURATION structure defines the target configuration.
-
-
-## -syntax
-
-
-````
-typedef struct _WDI_TXRX_TARGET_CONFIGURATION {
-  WDI_TXRX_PARAMETERS TxRxParams;
-  UINT8               MaxNumPorts;
-  UINT8               MaxNumPeers;
-} WDI_TXRX_TARGET_CONFIGURATION, *PWDI_TXRX_TARGET_CONFIGURATION;
-````
 
 
 ## -struct-fields

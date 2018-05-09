@@ -7,7 +7,7 @@ old-location: display\d3dddicb_createhwcontext.htm
 old-project: display
 ms.assetid: DA1C3976-0261-4FF1-8E49-EDF93D7BED22
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_CREATEHWCONTEXT, D3DDDICB_CREATEHWCONTEXT structure [Display Devices], _D3DDDICB_CREATEHWCONTEXT, d3dumddi/D3DDDICB_CREATEHWCONTEXT, display.d3dddicb_createhwcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_CREATEHWCONTEXT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_CREATEHWCONTEXT
 ---
@@ -50,21 +51,6 @@ req.typenames: D3DDDICB_CREATEHWCONTEXT
 
 
 A structure that gives information for creating a hardware context.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_CREATEHWCONTEXT {
-  UINT                         NodeOrdinal;
-  UINT                         EngineAffinity;
-  3DDDI_CREATEHWCONTEXTFLAGS   Flags;
-  UINT                         PrivateDriverDataSize;
-  VOID                         *pPrivateDriverData;
-  HANDLE                       hHwContext;
-} D3DDDICB_CREATEHWCONTEXT;
-````
 
 
 ## -struct-fields

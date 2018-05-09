@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlbalancereads.htm
 old-project: ifsk
 ms.assetid: 06d55d5d-1b2e-43f9-8d01-2f81489cc861
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlBalanceReads, FsRtlBalanceReads routine [Installable File System Drivers], fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml, ifsk.fsrtlbalancereads, ntifs/FsRtlBalanceReads
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlBalanceReads
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlBalanceReads function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>FsRtlBalanceReads</b> routine signals to a fault-tolerant disk driver that it is now safe to start balancing reads from a mirrored drive. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FsRtlBalanceReads(
-  _In_ PDEVICE_OBJECT TargetDevice
-);
-````
 
 
 ## -parameters
@@ -92,12 +83,11 @@ A pointer to the device object from which the device starts the balanced read.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccistheredirtydata.md">CcIsThereDirtyData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539145">CcIsThereDirtyData</a>
  
 
  
-
 

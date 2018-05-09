@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.FillVirtual
-title: IDebugDataSpaces3::FillVirtual method
+title: IDebugDataSpaces3::FillVirtual
 author: windows-driver-content
 description: The FillVirtual method writes a pattern of bytes to the target's virtual memory. The pattern is written repeatedly until the specified memory range is filled.
 old-location: debugger\fillvirtual.htm
 old-project: debugger
 ms.assetid: d55ccd38-00c7-491b-aadf-8b42b5e89600
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: FillVirtual method [Windows Debugging], FillVirtual method [Windows Debugging], IDebugDataSpaces2 interface, FillVirtual method [Windows Debugging], IDebugDataSpaces3 interface, FillVirtual method [Windows Debugging], IDebugDataSpaces4 interface, FillVirtual,IDebugDataSpaces3.FillVirtual, IDebugDataSpaces2 interface [Windows Debugging], FillVirtual method, IDebugDataSpaces2::FillVirtual, IDebugDataSpaces3, IDebugDataSpaces3 interface [Windows Debugging], FillVirtual method, IDebugDataSpaces3::FillVirtual, IDebugDataSpaces4 interface [Windows Debugging], FillVirtual method, IDebugDataSpaces4::FillVirtual, IDebugDataSpaces_26ed83e1-6084-4826-bf6c-30be250d3e3f.xml, dbgeng/IDebugDataSpaces2::FillVirtual, dbgeng/IDebugDataSpaces3::FillVirtual, dbgeng/IDebugDataSpaces4::FillVirtual, debugger.fillvirtual
+ms.date: 4/24/2018
+ms.keywords: FillVirtual, FillVirtual method [Windows Debugging], FillVirtual method [Windows Debugging],IDebugDataSpaces2 interface, FillVirtual method [Windows Debugging],IDebugDataSpaces3 interface, FillVirtual method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces2 interface [Windows Debugging],FillVirtual method, IDebugDataSpaces2::FillVirtual, IDebugDataSpaces3 interface [Windows Debugging],FillVirtual method, IDebugDataSpaces3.FillVirtual, IDebugDataSpaces3::FillVirtual, IDebugDataSpaces4 interface [Windows Debugging],FillVirtual method, IDebugDataSpaces4::FillVirtual, IDebugDataSpaces_26ed83e1-6084-4826-bf6c-30be250d3e3f.xml, dbgeng/IDebugDataSpaces2::FillVirtual, dbgeng/IDebugDataSpaces3::FillVirtual, dbgeng/IDebugDataSpaces4::FillVirtual, debugger.fillvirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,32 +40,19 @@ api_name:
 -	IDebugDataSpaces2.FillVirtual
 -	IDebugDataSpaces3.FillVirtual
 -	IDebugDataSpaces4.FillVirtual
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces3::FillVirtual method
+# IDebugDataSpaces3::FillVirtual
 
 
 ## -description
 
 
 The <b>FillVirtual</b> method writes a pattern of bytes to the target's virtual memory.  The pattern is written repeatedly until the specified memory range is filled.
-
-
-## -syntax
-
-
-````
-HRESULT FillVirtual(
-  [in]            ULONG64 Start,
-  [in]            ULONG   Size,
-  [in]            PVOID   Pattern,
-  [in]            ULONG   PatternSize,
-  [out, optional] PULONG  Filled
-);
-````
 
 
 ## -parameters
@@ -139,24 +126,23 @@ If the final copy of the pattern will not completely fit into the memory range, 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550531">IDebugDataSpaces2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
-
-
-
  
 
  
-
 

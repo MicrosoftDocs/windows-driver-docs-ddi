@@ -7,8 +7,8 @@ old-location: debugger\idebugregisters2.htm
 old-project: debugger
 ms.assetid: f92a75a9-6578-4bbf-8d80-680493b4d284
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], described, dbgeng/IDebugRegisters2, debugger.idebugregisters2
+ms.date: 4/24/2018
+ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], IDebugRegisters2 interface [Windows Debugging],described, dbgeng/IDebugRegisters2, debugger.idebugregisters2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugRegisters2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugRegisters2 interface
@@ -53,7 +54,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugRegisters2</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>. <b>IDebugRegisters2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugRegisters2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a>. <b>IDebugRegisters2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -206,12 +207,11 @@ Sets the value of several of the target's registers.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a>
  
 
  
-
 

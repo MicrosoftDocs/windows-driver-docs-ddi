@@ -7,7 +7,7 @@ old-location: display\dxgkarg_setpalette.htm
 old-project: display
 ms.assetid: a76d9549-d182-437f-a570-7d24fd6a5488
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_SETPALETTE, DXGKARG_SETPALETTE structure [Display Devices], DmStructs_d5720608-bc3d-437a-b080-6cd8b9635391.xml, _DXGKARG_SETPALETTE, d3dkmdt/DXGKARG_SETPALETTE, display.dxgkarg_setpalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	DXGKARG_SETPALETTE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_SETPALETTE
 ---
@@ -50,19 +51,6 @@ req.typenames: DXGKARG_SETPALETTE
 
 
 The DXGKARG_SETPALETTE structure describes the palette to set for a display. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_SETPALETTE {
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           FirstEntry;
-  UINT                           NumEntries;
-  D3DKMDT_PALETTEDATA            *pLookupTable;
-} DXGKARG_SETPALETTE;
-````
 
 
 ## -struct-fields
@@ -87,21 +75,20 @@ typedef struct _DXGKARG_SETPALETTE {
 
 ### -field pLookupTable
 
-[in] An array of color entries to copy into the device's color palette (that is, the device's color registers). Each color entry is accessed as a generic 32-bit value or as the <b>Red</b>, <b>Green</b>, <b>Blue</b>, and <b>Unused</b> members of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a> structure.
+[in] An array of color entries to copy into the device's color palette (that is, the device's color registers). Each color entry is accessed as a generic 32-bit value or as the <b>Red</b>, <b>Green</b>, <b>Blue</b>, and <b>Unused</b> members of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546155">D3DKMDT_PALETTEDATA</a> structure.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpalette.md">DxgkDdiSetPalette</a>
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546155">D3DKMDT_PALETTEDATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/3a46bf84-df62-4247-b842-d5b131c96428">DxgkDdiSetPalette</a>
  
 
  
-
 

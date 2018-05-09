@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ac42710-9f44-4982-a0d9-c49048870aeb
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_932fbb3b-df8b-49ca-9b86-3d98b6fdd39f.xml, EVT_WDF_DEVICE_SET_LOCK, EvtDeviceSetLock, EvtDeviceSetLock callback function, kmdf.evtdevicesetlock, wdf.evtdevicesetlock, wdfpdo/EvtDeviceSetLock
+ms.keywords: DFDeviceObjectFdoPdoRef_932fbb3b-df8b-49ca-9b86-3d98b6fdd39f.xml, EVT_WDF_DEVICE_SET_LOCK, EVT_WDF_DEVICE_SET_LOCK callback, EvtDeviceSetLock, EvtDeviceSetLock callback function, kmdf.evtdevicesetlock, wdf.evtdevicesetlock, wdfpdo/EvtDeviceSetLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	Wdfpdo.h
 api_name:
 -	EvtDeviceSetLock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DEVICE_SET_LOCK callback
+# EVT_WDF_DEVICE_SET_LOCK callback function
 
 
 ## -description
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 A driver's <i>EvtDeviceSetLock</i> event callback function locks the specified device so that it cannot be ejected, or unlocks the device so that it can be ejected.
-
-
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_SET_LOCK EvtDeviceSetLock;
-
-NTSTATUS EvtDeviceSetLock(
-  _In_ WDFDEVICE Device,
-  _In_ BOOLEAN   IsLocked
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -103,7 +89,7 @@ For more information about this callback function's return values, see <a href="
 
 
 
-Framework-based bus drivers can provide an <i>EvtDeviceSetLock</i> callback function. To register this callback function, bus drivers call <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>.
+Framework-based bus drivers can provide an <i>EvtDeviceSetLock</i> callback function. To register this callback function, bus drivers call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548805">WdfPdoInitSetEventCallbacks</a>.
 
 The framework calls the driver's <i>EvtDeviceSetLock</i> callback function when the PnP manager requests the bus driver to lock or unlock one of its enumerated child devices. 
 
@@ -153,12 +139,11 @@ The <b>EVT_WDF_DEVICE_SET_LOCK</b> function type is defined in the Wdfpdo.h head
 
 ## -see-also
 
-<a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_eject.md">EvtDeviceEject</a>
 
 
 
+<a href="https://msdn.microsoft.com/fc3f3a15-9a79-4275-9ba4-b01ab8851390">EvtDeviceEject</a>
  
 
  
-
 

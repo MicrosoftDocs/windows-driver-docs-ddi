@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WDF_ALIGN_SIZE_DOWN
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_ALIGN_SIZE_DOWN function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_ALIGN_SIZE_DOWN</b> function returns the next-lower buffer size that is aligned to a specified alignment offset.
-
-
-## -syntax
-
-
-````
-size_t WDF_ALIGN_SIZE_DOWN(
-  _In_ size_t Length,
-  _In_ size_t AlignTo
-);
-````
 
 
 ## -parameters
@@ -95,7 +84,7 @@ WDF_ALIGN_SIZE_DOWN returns the aligned buffer size, in bytes.
 
 
 
-Drivers can use <a href="..\wdfcore\nf-wdfcore-wdf_align_size_up.md">WDF_ALIGN_SIZE_UP</a> or <b>WDF_ALIGN_SIZE_DOWN</b> to calculate a buffer size that is aligned to a specified alignment offset. This calculation is useful if your driver must allocate multiple contiguous buffers, if each buffer must begin at an address alignment boundary.
+Drivers can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff551217">WDF_ALIGN_SIZE_UP</a> or <b>WDF_ALIGN_SIZE_DOWN</b> to calculate a buffer size that is aligned to a specified alignment offset. This calculation is useful if your driver must allocate multiple contiguous buffers, if each buffer must begin at an address alignment boundary.
 
 
 #### Examples
@@ -118,12 +107,11 @@ The following code example receives a buffer size and returns the size (either t
 
 ## -see-also
 
-<a href="..\wdfcore\nf-wdfcore-wdf_align_size_up.md">WDF_ALIGN_SIZE_UP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551217">WDF_ALIGN_SIZE_UP</a>
  
 
  
-
 

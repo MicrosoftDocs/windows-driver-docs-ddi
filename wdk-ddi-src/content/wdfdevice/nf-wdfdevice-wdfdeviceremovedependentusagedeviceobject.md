@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceRemoveDependentUsageDeviceObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceRemoveDependentUsageDeviceObject function
@@ -53,18 +53,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WdfDeviceRemoveDependentUsageDeviceObject</b> method indicates that a specified device no longer depends on another device when the specified device is used to store <a href="..\wdfdevice\ne-wdfdevice-_wdf_special_file_type.md">special files</a>. 
-
-
-## -syntax
-
-
-````
-VOID WdfDeviceRemoveDependentUsageDeviceObject(
-  _In_ WDFDEVICE      Device,
-  _In_ PDEVICE_OBJECT DependentDevice
-);
-````
+The <b>WdfDeviceRemoveDependentUsageDeviceObject</b> method indicates that a specified device no longer depends on another device when the specified device is used to store <a href="https://msdn.microsoft.com/3879570f-e083-4eaf-aa5b-9b78d8f826c1">special files</a>. 
 
 
 ## -parameters
@@ -79,7 +68,7 @@ A handle to a framework device object.
 
 ### -param DependentDevice [in]
 
-A pointer to a caller-supplied <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that identifies a device that <i>Device</i> depends on.
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that identifies a device that <i>Device</i> depends on.
 
 
 ## -returns
@@ -95,7 +84,7 @@ None.
 
 
 
-Your driver can call <b>WdfDeviceRemoveDependentUsageDeviceObject</b> to remove a device dependency that a previous call to <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceadddependentusagedeviceobject.md">WdfDeviceAddDependentUsageDeviceObject</a> created.
+Your driver can call <b>WdfDeviceRemoveDependentUsageDeviceObject</b> to remove a device dependency that a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545864">WdfDeviceAddDependentUsageDeviceObject</a> created.
 
 For more information about <b>WdfDeviceRemoveDependentUsageDeviceObject</b> and <b>WdfDeviceRemoveDependentUsageDeviceObject</b>, see <a href="https://msdn.microsoft.com/350e715f-be36-4999-99a2-6175d9763b3f">Supporting Special Files</a>. 
 
@@ -122,12 +111,11 @@ The following code example removes a device (<b>pDeviceObject</b>) from the list
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceadddependentusagedeviceobject.md">WdfDeviceAddDependentUsageDeviceObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545864">WdfDeviceAddDependentUsageDeviceObject</a>
  
 
  
-
 

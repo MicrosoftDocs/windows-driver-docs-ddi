@@ -7,7 +7,7 @@ old-location: storage\stor_pofx_device_v2.htm
 old-project: storage
 ms.assetid: 1AD3B5E6-CF90-49D2-8FF7-FE309E4331CE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTOR_POFX_DEVICE_V2, PSTOR_POFX_DEVICE_V2, PSTOR_POFX_DEVICE_V2 structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_V2 structure [Storage Devices], _STOR_POFX_DEVICE_V2, storage.stor_pofx_device_v2, storport/PSTOR_POFX_DEVICE_V2, storport/STOR_POFX_DEVICE_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	STOR_POFX_DEVICE_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STOR_POFX_DEVICE_V2, *PSTOR_POFX_DEVICE_V2
-req.product: Windows 10 or later.
 ---
 
 # _STOR_POFX_DEVICE_V2 structure
@@ -50,25 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>STOR_POFX_DEVICE_V2</b> structure describes the power attributes of a storage device to the power management framework (PoFx). This structure is similar to <a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a> but contains additional timeout settings.
-
-
-## -syntax
-
-
-````
-typedef struct _STOR_POFX_DEVICE_V2 {
-  ULONG               Version;
-  USHORT              Size;
-  ULONG               ComponentCount;
-  ULONG               Flags;
-  union {
-    ULONG UnitMinIdleTimeoutInMS;
-    ULONG AdapterIdleTimeoutInMS;
-  };
-  STOR_POFX_COMPONENT Components[ANYSIZE_ARRAY];
-} STOR_POFX_DEVICE_V2, *PSTOR_POFX_DEVICE_V2;
-````
+The <b>STOR_POFX_DEVICE_V2</b> structure describes the power attributes of a storage device to the power management framework (PoFx). This structure is similar to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920429">STOR_POFX_DEVICE</a> but contains additional timeout settings.
 
 
 ## -struct-fields
@@ -161,58 +143,57 @@ The timeout value in <b>UnitMinIdleTimeoutInMS</b>  or <b>AdapterIdleTimeoutInMS
  
 
 
-### -field Components
+### -field UnitMinIdleTimeoutInMS
 
-This member is the first element in an array of one or more <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
+The minimum idle time in milliseconds for an unit. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
 
 
-#### - AdapterIdleTimeoutInMS
+### -field AdapterIdleTimeoutInMS
 
 The adapter idle timeout value in milliseconds. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
 
 
-#### - UnitMinIdleTimeoutInMS
+### -field Components
 
-The minimum idle time in milliseconds for an unit. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
+This member is the first element in an array of one or more <a href="https://msdn.microsoft.com/library/windows/hardware/hh920427">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
 
 
 ## -remarks
 
 
 
-To register a storage adapter for Storport PoFx support, the miniport driver calls <a href="..\storport\nf-storport-storportenablepassiveinitialization.md">StorPortEnablePassiveInitialization</a> in its <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a> routine and implements a <a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>. The miniport calls <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a> within it's <b>HwStorPassiveInitializeRoutine</b> to provide information about the adapter component.
+To register a storage adapter for Storport PoFx support, the miniport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567056">StorPortEnablePassiveInitialization</a> in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a> routine and implements a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557407">HwStorPassiveInitializeRoutine</a>. The miniport calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a> within it's <b>HwStorPassiveInitializeRoutine</b> to provide information about the adapter component.
 
-To register a storage unit for Storport PoFx support, the miniport driver implements the <a href="..\storport\nc-storport-hw_unit_control.md">HwStorUnitControl</a> callback routine and provides handling of the <b>ScsiUnitPoFxPowerInfo</b> unit control code. When the handling the <b>ScsiUnitPoFxPowerInfo</b> control code, the miniport calls <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a> if idle power management for the unit component is enabled.
+To register a storage unit for Storport PoFx support, the miniport driver implements the <a href="https://msdn.microsoft.com/library/windows/hardware/hh920398">HwStorUnitControl</a> callback routine and provides handling of the <b>ScsiUnitPoFxPowerInfo</b> unit control code. When the handling the <b>ScsiUnitPoFxPowerInfo</b> control code, the miniport calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a> if idle power management for the unit component is enabled.
 
-The component for the storage device identified by its <b>Components</b> array index. Storage devices have only one component so the index of 0 is used.  Routines such as  <a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a> and <a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a> use the array index of a component to identify the component.
+The component for the storage device identified by its <b>Components</b> array index. Storage devices have only one component so the index of 0 is used.  Routines such as  <a href="https://msdn.microsoft.com/library/windows/hardware/hh920422">StorPortPoFxActivateComponent</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh920423">StorPortPoFxIdleComponent</a> use the array index of a component to identify the component.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
 
 
-<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920427">STOR_POFX_COMPONENT</a>
 
 
 
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920429">STOR_POFX_DEVICE</a>
 
 
 
-<a href="..\storport\nf-storport-storportpofxidlecomponent.md">StorPortPoFxIdleComponent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920422">StorPortPoFxActivateComponent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh920423">StorPortPoFxIdleComponent</a>
  
 
  
-
 

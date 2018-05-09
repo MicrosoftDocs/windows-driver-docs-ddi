@@ -7,7 +7,7 @@ old-location: ifsk\fltcreatenamedpipefile.htm
 old-project: ifsk
 ms.assetid: F4F3A591-B4BE-4367-A76A-820552F9B3B5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FILE_PIPE_BYTE_STREAM_MODE, FILE_PIPE_BYTE_STREAM_TYPE, FILE_PIPE_COMPLETE_OPERATION, FILE_PIPE_MESSAGE_MODE, FILE_PIPE_MESSAGE_TYPE, FILE_PIPE_QUEUE_COMPLETION, FltCreateNamedPipeFile, FltCreateNamedPipeFile function [Installable File System Drivers], fltkernel/FltCreateNamedPipeFile, ifsk.fltcreatenamedpipefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Fltmgr.dll
 api_name:
 -	FltCreateNamedPipeFile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCreateNamedPipeFile function
@@ -51,33 +52,6 @@ req.typenames: EXpsFontRestriction
 
 
 Minifilter drivers call <b>FltCreateNamedPipeFile</b> to create a new pipe or open an existing pipe.  
-
-
-## -syntax
-
-
-````
-NTSTATUS FltCreateNamedPipeFile(
-  _In_      PFLT_FILTER               Filter,
-  _In_opt_  PFLT_INSTANCE             Instance,
-  _Out_     PHANDLE                   FileHandle,
-  _Out_opt_ PFILE_OBJECT              *FileObject,
-  _In_      ACCESS_MASK               DesiredAccess,
-  _In_      POBJECT_ATTRIBUTES        ObjectAttributes,
-  _Out_     PIO_STATUS_BLOCK          IoStatusBlock,
-  _In_      ULONG                     ShareAccess,
-  _In_      ULONG                     CreateDisposition,
-  _In_      ULONG                     CreateOptions,
-  _In_      ULONG                     NamedPipeType,
-  _In_      ULONG                     ReadMode,
-  _In_      ULONG                     CompletionMode,
-  _In_      ULONG                     MaximumInstances,
-  _In_      ULONG                     InBoundQuota,
-  _In_      ULONG                     OutBoundQuota,
-  _In_opt_  PLARGE_INTEGER            DefaultTimeout,
-  _In_opt_  PIO_DRIVER_CREATE_CONTEXT DriverContext
-);
-````
 
 
 ## -parameters
@@ -130,7 +104,7 @@ FILE_READ_ATTRIBUTES
 
 </td>
 <td>
-<i>FileAttributes</i> flags can be read.  For additional information, see the table of valid flag values in the <i>FileAttributes</i> parameter of <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>.
+<i>FileAttributes</i> flags can be read.  For additional information, see the table of valid flag values in the <i>FileAttributes</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a>.
 
 </td>
 </tr>
@@ -140,7 +114,7 @@ READ_CONTROL
 
 </td>
 <td>
-The access control list (<a href="..\wdm\ns-wdm-_acl.md">ACL</a>) and ownership information associated with the named pipe can be read.
+The access control list (<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>) and ownership information associated with the named pipe can be read.
 
 </td>
 </tr>
@@ -180,7 +154,7 @@ WRITE_DAC
 
 </td>
 <td>
-The discretionary access control list (<a href="..\wdm\ns-wdm-_acl.md">DACL</a>) associated with the named pipe can be written.
+The discretionary access control list (<a href="https://msdn.microsoft.com/dac27df2-fabd-4402-8daf-9317888dd30b">DACL</a>) associated with the named pipe can be written.
 
 </td>
 </tr>
@@ -250,7 +224,7 @@ STANDARD_RIGHTS_WRITE, FILE_WRITE_DATA, FILE_APPEND_DATA, and SYNCHRONIZE.
 
 ### -param ObjectAttributes [in]
 
-A pointer to an opaque <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that is already initialized with <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>. If the caller is running in the system process context, this parameter can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to <b>InitializeObjectAttributes</b>. Members of this structure for a file object are listed in the following table. 
+A pointer to an opaque <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that is already initialized with <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>. If the caller is running in the system process context, this parameter can be <b>NULL</b>. Otherwise, the caller must set the OBJ_KERNEL_HANDLE attribute in the call to <b>InitializeObjectAttributes</b>. Members of this structure for a file object are listed in the following table. 
 
 <table>
 <tr>
@@ -273,7 +247,7 @@ The number of bytes of data that are contained in the structure pointed to by <i
 
 </td>
 <td>
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the name of the pipe to be created or opened. This name must be a fully qualified file specification or the name of a device object unless it is the name of a file relative to the directory specified by <b>RootDirectory</b>. For example, "\Device\NamedPipe\mypipe" or "\??\pipe\mypipe" could both be valid file specifications. (Note: "\??" replaces "\DosDevices" as the name of the Win32 object namespace. "\DosDevices" still works, but "\??" is translated faster by the object manager.)
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the name of the pipe to be created or opened. This name must be a fully qualified file specification or the name of a device object unless it is the name of a file relative to the directory specified by <b>RootDirectory</b>. For example, "\Device\NamedPipe\mypipe" or "\??\pipe\mypipe" could both be valid file specifications. (Note: "\??" replaces "\DosDevices" as the name of the Win32 object namespace. "\DosDevices" still works, but "\??" is translated faster by the object manager.)
 
 </td>
 </tr>
@@ -283,7 +257,7 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 
 </td>
 <td>
-An optional handle to a directory, obtained by a preceding call to <a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>. If this value is <b>NULL</b>, the <i>ObjectName</i>member must be a fully qualified file specification that includes the full path to the target pipe. If this value is non-<b>NULL</b>, the <i>ObjectName</i> member specifies a pipe name that is relative to this directory.
+An optional handle to a directory, obtained by a preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a>. If this value is <b>NULL</b>, the <i>ObjectName</i>member must be a fully qualified file specification that includes the full path to the target pipe. If this value is non-<b>NULL</b>, the <i>ObjectName</i> member specifies a pipe name that is relative to this directory.
 
 </td>
 </tr>
@@ -293,7 +267,7 @@ An optional handle to a directory, obtained by a preceding call to <a href="..\f
 
 </td>
 <td>
-An optional security descriptor (<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>) to be applied to a pipe. <a href="..\wdm\ns-wdm-_acl.md">ACLs</a> specified by such a security descriptor are only applied to the pipe when it is created. If the value is <b>NULL</b> when a pipe is created, the ACL placed on the pipe is dependant on the named pipe file system and may allow a client with any access to create an instance.
+An optional security descriptor (<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>) to be applied to a pipe. <a href="https://msdn.microsoft.com/dac27df2-fabd-4402-8daf-9317888dd30b">ACLs</a> specified by such a security descriptor are only applied to the pipe when it is created. If the value is <b>NULL</b> when a pipe is created, the ACL placed on the pipe is dependant on the named pipe file system and may allow a client with any access to create an instance.
 
 </td>
 </tr>
@@ -313,7 +287,7 @@ A set of flags that controls the file object attributes. If the caller is runnin
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateNamedPipeFile</b>, the <b>Information</b> member of the variable contains one of the following values:
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateNamedPipeFile</b>, the <b>Information</b> member of the variable contains one of the following values:
 
 FILE_CREATED
 
@@ -560,7 +534,7 @@ The default timeout in 100-nanosecond increments. This value is expressed as a n
 
 ### -param DriverContext [in, optional]
 
-An optional pointer to an <a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a> structure already initialized by <a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>.
+An optional pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548565">IO_DRIVER_CREATE_CONTEXT</a> structure already initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548419">IoInitializeDriverCreateContext</a>.
 
 
 #### - InBoundQuota [in]
@@ -618,9 +592,9 @@ The <i>ObjectAttributes</i> parameter did not contain a <b>RootDirectory</b> mem
 
 The <b>FltCreateNamedPipeFile</b> function allows minifilter drivers to create or open pipe instances. This is useful for creating virtual pipes or for creating pipe unions for multiplexing I/O.
 
-The <i>instance</i> parameter is either <b> NULL</b> or is previously set by attaching to the named pipe volume. A volume pointer is obtained by passing "\Device\NamedPipe" as the volume name to <a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>.
+The <i>instance</i> parameter is either <b> NULL</b> or is previously set by attaching to the named pipe volume. A volume pointer is obtained by passing "\Device\NamedPipe" as the volume name to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543220">FltGetVolumeFromName</a>.
 
-To specify an extra create parameter (ECP) as part of a create operation, initialize the <b>ExtraCreateParameter</b> member of the <a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a> structure with the <a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a> routine.  If ECPs are used, they must be allocated, initialized, and freed using their associated support routines.  Upon returning from the call of <b>FltCreateNamedPipeFile</b>, the ECP list is unchanged and may be passed to additional calls of <b>FltCreateNamedPipeFile</b> for other create operations.  The ECP list structure is not automatically deallocated. The caller of <b>FltCreateNamedPipeFile</b> must deallocate this structure by calling the <a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a> routine.
+To specify an extra create parameter (ECP) as part of a create operation, initialize the <b>ExtraCreateParameter</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548565">IO_DRIVER_CREATE_CONTEXT</a> structure with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541741">FltAllocateExtraCreateParameterList</a> routine.  If ECPs are used, they must be allocated, initialized, and freed using their associated support routines.  Upon returning from the call of <b>FltCreateNamedPipeFile</b>, the ECP list is unchanged and may be passed to additional calls of <b>FltCreateNamedPipeFile</b> for other create operations.  The ECP list structure is not automatically deallocated. The caller of <b>FltCreateNamedPipeFile</b> must deallocate this structure by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542964">FltFreeExtraCreateParameterList</a> routine.
 
 
      If <i>Instance</i> is not <b>NULL</b>, the create request from <b>FltCreateNamedPipeFile</b> is sent only to the instances attached below the specified minifilter driver instance and to the named pipe file system. The specified instance and the instances attached above it do not receive the create request. If no instance is specified, the request goes to the top of the stack and is received by all instances and the named pipe file system.
@@ -630,28 +604,27 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541741">FltAllocateExtraCreateParameterList</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542964">FltFreeExtraCreateParameterList</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548565">IO_DRIVER_CREATE_CONTEXT</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548419">IoInitializeDriverCreateContext</a>
  
 
  
-
 

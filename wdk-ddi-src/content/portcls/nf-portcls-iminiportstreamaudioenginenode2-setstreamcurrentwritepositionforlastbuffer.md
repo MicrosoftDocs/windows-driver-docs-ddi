@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer
-title: IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer method
+title: IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer
 author: windows-driver-content
 description: Sets the current cursor position in the last audio data stream that was written to the audio buffer.
 old-location: audio\iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer.htm
 old-project: audio
 ms.assetid: 93E3D03B-6FA1-49D5-AF38-6C2FEA3FC95D
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IMiniportStreamAudioEngineNode2, IMiniportStreamAudioEngineNode2 interface [Audio Devices], SetStreamCurrentWritePositionForLastBuffer method, IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer, SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], IMiniportStreamAudioEngineNode2 interface, SetStreamCurrentWritePositionForLastBuffer,IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer, audio.iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer, portcls/IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer
+ms.date: 4/16/2018
+ms.keywords: IMiniportStreamAudioEngineNode2 interface [Audio Devices],SetStreamCurrentWritePositionForLastBuffer method, IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer, IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer, SetStreamCurrentWritePositionForLastBuffer, SetStreamCurrentWritePositionForLastBuffer method [Audio Devices], SetStreamCurrentWritePositionForLastBuffer method [Audio Devices],IMiniportStreamAudioEngineNode2 interface, audio.iminiportstreamaudioenginenode2_setstreamcurrentwritepositionforlastbuffer, portcls/IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportStreamAudioEngineNode2.SetStreamCurrentWritePositionForLastBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer method
+# IMiniportStreamAudioEngineNode2::SetStreamCurrentWritePositionForLastBuffer
 
 
 ## -description
 
 
 Sets the current cursor position in the last audio data stream that was written to the audio buffer.
-
-
-## -syntax
-
-
-````
-NTSTATUS SetStreamCurrentWritePositionForLastBuffer(
-  [in] ULONG ulWritePosition
-);
-````
 
 
 ## -parameters
@@ -94,16 +85,15 @@ If the buffer is only partially filled, then the audio driver needs to notify th
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn338127">IMiniportStreamAudioEngineNode2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn292492">KSPROPERTY_AUDIO_WAVERT_CURRENT_WRITE_LASTBUFFER_POSITION</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode2.md">IMiniportStreamAudioEngineNode2</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: storage\set_partition_information_ex.htm
 old-project: storage
 ms.assetid: a30c10d4-5e85-4a59-b262-054a6fdc2fb8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX structure pointer [Storage Devices], SET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX structure [Storage Devices], _SET_PARTITION_INFORMATION_EX, ntdddisk/PSET_PARTITION_INFORMATION_EX, ntdddisk/SET_PARTITION_INFORMATION_EX, storage.set_partition_information_ex, structs-disk_5eaa53e2-feaf-404f-a2a8-174ae77bfab5.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntdddisk.h
 api_name:
 -	SET_PARTITION_INFORMATION_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SET_PARTITION_INFORMATION_EX, *PSET_PARTITION_INFORMATION_EX
 ---
@@ -49,21 +50,7 @@ req.typenames: SET_PARTITION_INFORMATION_EX, *PSET_PARTITION_INFORMATION_EX
 ## -description
 
 
-<b>SET_PARTITION_INFORMATION_EX</b> is used with the IOCTL <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info_ex.md">IOCTL_DISK_SET_PARTITION_INFO_EX</a> to set information for a specific partition.
-
-
-## -syntax
-
-
-````
-typedef struct _SET_PARTITION_INFORMATION_EX {
-  PARTITION_STYLE PartitionStyle;
-  union {
-    SET_PARTITION_INFORMATION_MBR Mbr;
-    SET_PARTITION_INFORMATION_GPT Gpt;
-  };
-} SET_PARTITION_INFORMATION_EX, *PSET_PARTITION_INFORMATION_EX;
-````
+<b>SET_PARTITION_INFORMATION_EX</b> is used with the IOCTL <a href="https://msdn.microsoft.com/library/windows/hardware/ff560417">IOCTL_DISK_SET_PARTITION_INFO_EX</a> to set information for a specific partition.
 
 
 ## -struct-fields
@@ -81,16 +68,14 @@ Takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">P
  
 
 
-
-
-#### - Gpt
-
-Contains the information for a GUID Partition Table partition that is not held in common with a Master Boot Record partition. This member is valid when <b>PartitionStyle</b> member is set to PARTITION_STYLE_GPT. For a definition of this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566196">SET_PARTITION_INFORMATION_GPT</a>.
-
-
-#### - Mbr
+### -field DUMMYUNIONNAME.Mbr
 
 Contains the information for a Master Boot Record partition that is not held in common with a GUID Partition Table partition. This member is valid when <b>PartitionStyle</b> member is set to PARTITION_STYLE_MBR. For a definition of this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>.
+
+
+### -field DUMMYUNIONNAME.Gpt
+
+Contains the information for a GUID Partition Table partition that is not held in common with a Master Boot Record partition. This member is valid when <b>PartitionStyle</b> member is set to PARTITION_STYLE_GPT. For a definition of this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566196">SET_PARTITION_INFORMATION_GPT</a>.
 
 
 ## -remarks
@@ -104,7 +89,10 @@ In the case of GPT partitions, any value that can be retrieved from the partitio
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560417">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
 
 
 
@@ -112,12 +100,8 @@ In the case of GPT partitions, any value that can be retrieved from the partitio
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info_ex.md">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>
  
 
  
-
 

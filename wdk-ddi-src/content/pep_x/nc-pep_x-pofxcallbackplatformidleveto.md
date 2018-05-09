@@ -7,7 +7,7 @@ old-location: kernel\platformidleveto.htm
 old-project: kernel
 ms.assetid: 61D637E6-316D-49A5-B1B1-C89415C7D0B8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: POFXCALLBACKPLATFORMIDLEVETO, PlatformIdleVeto, PlatformIdleVeto routine [Kernel-Mode Driver Architecture], kernel.platformidleveto, pepfx/PlatformIdleVeto
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,34 +38,19 @@ api_location:
 -	pepfx.h
 api_name:
 -	PlatformIdleVeto
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
+req.typenames: 
 ---
 
-# POFXCALLBACKPLATFORMIDLEVETO callback
+# POFXCALLBACKPLATFORMIDLEVETO callback function
 
 
 ## -description
 
 
 The <b>PlatformIdleVeto</b> routine increments or decrements the veto count for a veto code for a platform idle state.
-
-
-## -prototype
-
-
-````
-POFXCALLBACKPLATFORMIDLEVETO PlatformIdleVeto;
-
-NTSTATUS PlatformIdleVeto(
-  _In_ POHANDLE ProcessorHandle,
-  _In_ ULONG    PlatformState,
-  _In_ ULONG    VetoReason,
-  _In_ BOOLEAN  Increment
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -125,7 +110,7 @@ Indicates that the <b>PlatformIdleVeto</b> routine is not implemented for this p
 
 
 
-This routine is implemented by the PoFx and is called by the PEP. The <b>PlatformIdleVeto</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>PlatformIdleVeto</b> routine.
+This routine is implemented by the PoFx and is called by the PEP. The <b>PlatformIdleVeto</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to a <b>PlatformIdleVeto</b> routine.
 
 After the PEP handles the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a> notification, each platform idle state starts with a veto count of zero for all veto codes. The PEP can increment the veto count of a veto code to prevent the operating system from transitioning the platform to this idle state. The PEP decrements the veto count when the veto reason that caused the count to be incremented is no longer in effect. Only after the count for all veto codes has decremented to zero is the operating system allowed to transition the platform to this idle state.
 
@@ -136,7 +121,10 @@ This routine must be called at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 
@@ -144,12 +132,8 @@ This routine must be called at IRQL = PASSIVE_LEVEL.
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
-
-
-
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
  
 
  
-
 

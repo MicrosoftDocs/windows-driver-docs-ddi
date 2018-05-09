@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfIoResourceRequirementsListRemoveByIoResList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfIoResourceRequirementsListRemoveByIoResList function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfIoResourceRequirementsListRemoveByIoResList</b> method removes a <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a> from a resource requirements list.
-
-
-## -syntax
-
-
-````
-VOID WdfIoResourceRequirementsListRemoveByIoResList(
-  _In_ WDFIORESREQLIST RequirementsList,
-  _In_ WDFIORESLIST    IoResList
-);
-````
 
 
 ## -parameters
@@ -181,32 +170,31 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 ## -see-also
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistremove.md">WdfIoResourceRequirementsListRemove</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetdescriptor.md">WdfIoResourceListGetDescriptor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548506">WdfIoResourceListGetCount</a>
 
 
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetcount.md">WdfIoResourceListGetCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548510">WdfIoResourceListGetDescriptor</a>
 
 
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetioreslist.md">WdfIoResourceRequirementsListGetIoResList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548545">WdfIoResourceRequirementsListGetCount</a>
 
 
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetcount.md">WdfIoResourceRequirementsListGetCount</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548553">WdfIoResourceRequirementsListGetIoResList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548570">WdfIoResourceRequirementsListRemove</a>
  
 
  
-
 

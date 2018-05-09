@@ -7,7 +7,7 @@ old-location: image\wiasgetrootitem.htm
 old-project: image
 ms.assetid: 09885782-2293-49a3-af48-6450dbc6a24e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasgetrootitem, wiamdef/wiasGetRootItem, wiasFncs_4e991723-5462-456e-b56f-82a38e5cf556.xml, wiasGetRootItem, wiasGetRootItem function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasGetRootItem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasGetRootItem function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasGetRootItem</b> function retrieves the root item context of a specified WIA item.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetRootItem(
-  _In_  BYTE *pWiasContext,
-  _Out_ BYTE **ppWiasContext
-);
-````
 
 
 ## -parameters
@@ -90,12 +79,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetdrvitem.md">wiasGetDrvItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549243">wiasGetDrvItem</a>
  
 
  
-
 

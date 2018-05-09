@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_initialize_spb_spi_resource.htm
 old-project: kernel
 ms.assetid: 76568167-283C-4966-B7FC-0E8CDCD19B60
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE, PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_spb_spi_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
+req.typenames: 
 ---
 
 # PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function
@@ -49,31 +50,7 @@ req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ## -description
 
 
-The <b>PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_spi_resource.md">PEP_ACPI_SPB_SPI_RESOURCE</a> structure.
-
-
-## -syntax
-
-
-````
-FORCEINLINE VOID PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE(
-  _In_  USHORT             DeviceSelection,
-  _In_  UCHAR              DeviceSelectionPolarity,
-  _In_  UCHAR              WireMode,
-  _In_  UCHAR              DataBitLength,
-  _In_  BOOLEAN            SlaveMode,
-  _In_  ULONG              ConnectionSpeed,
-  _In_  UCHAR              ClockPolarity,
-  _In_  UCHAR              ClockPhase,
-  _In_  PUNICODE_STRING    ResourceSource,
-  _In_  UCHAR              ResourceSourceIndex,
-  _In_  BOOLEAN            ResourceUsage,
-  _In_  BOOLEAN            SharedMode,
-  _In_  PCHAR              VendorData,
-  _In_  USHORT             VendorDataLength,
-  _Out_ PPEP_ACPI_RESOURCE Resource
-);
-````
+The <b>PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://msdn.microsoft.com/library/windows/hardware/mt186696">PEP_ACPI_SPB_SPI_RESOURCE</a> structure.
 
 
 ## -parameters
@@ -162,7 +139,7 @@ The length of the buffer pointed to by the <i>VendorData</i> parameter.
 
 ### -param Resource [out]
 
-A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_spi_resource.md">PEP_ACPI_SPB_SPI_RESOURCE</a>.
+A pointer to the resource. The structure behind the pointer is of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt186696">PEP_ACPI_SPB_SPI_RESOURCE</a>.
 
 
 ## -returns
@@ -176,12 +153,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_spb_spi_resource.md">PEP_ACPI_SPB_SPI_RESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186696">PEP_ACPI_SPB_SPI_RESOURCE</a>
  
 
  
-
 

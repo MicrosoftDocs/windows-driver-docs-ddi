@@ -7,7 +7,7 @@ old-location: netvista\rilaccesstechnology.htm
 old-project: netvista
 ms.assetid: 28363041-4adc-4348-a1a5-2b9c11750286
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], netvista.rilaccesstechnology, ntddrilapitypes/RILACCESSTECHNOLOGY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILACCESSTECHNOLOGY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILACCESSTECHNOLOGY, *LPRILACCESSTECHNOLOGY
-req.product: Windows 10 or later.
 ---
 
 # RILACCESSTECHNOLOGY structure
@@ -51,25 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILACCESSTECHNOLOGY {
-  DWORD                         cbSize;
-  DWORD                         dwParams;
-  DWORD                         dwSystemType;
-  NULL                          RILACCESSTECHNOLOGYKINDUNION;
-  RILACCESSTECHNOLOGYKINDUNION  kindUnion;
-  RILEVDOKIND                   dwEvdoKind;
-  RILGSMKIND                    dwGsmKind;
-  RILUMTSKIND                   dwUmtsKind;
-  RILTDSCDMAKIND                dwTdscdmaKind;
-  RILLTEKIND                    dwLteKind;
-} RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY;
-````
 
 
 ## -struct-fields
@@ -87,6 +68,31 @@ typedef struct _RILACCESSTECHNOLOGY {
 
 
 ### -field kindUnion
+
+
+### -field kindUnion.dwEvdoKind
+
+ 
+
+
+### -field kindUnion.dwGsmKind
+
+ 
+
+
+### -field kindUnion.dwUmtsKind
+
+ 
+
+
+### -field kindUnion.dwTdscdmaKind
+
+ 
+
+
+### -field kindUnion.dwLteKind
+
+ 
 
 
 ### -field RILACCESSTECHNOLOGYKINDUNION

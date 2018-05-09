@@ -7,7 +7,7 @@ old-location: print\drvprocs.htm
 old-project: print
 ms.assetid: fcdfb7ba-cbb4-454b-b366-82d0c95b4afd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDRVPROCS, DRVPROCS, DRVPROCS structure [Print Devices], PDRVPROCS, PDRVPROCS structure pointer [Print Devices], _DRVPROCS, print.drvprocs, print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, printoem/DRVPROCS, printoem/PDRVPROCS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	DRVPROCS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRVPROCS, *PDRVPROCS
-req.product: Windows 10 or later.
 ---
 
 # _DRVPROCS structure
@@ -58,62 +58,46 @@ All of the functions pointed to by members of this structure are obsolete. For i
 <dl>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvwritespoolbuf.md">DrvWriteSpoolBuf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548662">DrvWriteSpoolBuf</a>
 
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvxmoveto.md">DrvXMoveTo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548665">DrvXMoveTo</a>
 
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvymoveto.md">DrvYMoveTo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548673">DrvYMoveTo</a>
 
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvgetdriversetting.md">DrvGetDriverSetting</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548556">DrvGetDriverSetting</a>
 
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvgetstandardvariable.md">DrvGetStandardVariable</a> (for information about BGetStandardVariable)
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548562">DrvGetStandardVariable</a> (for information about BGetStandardVariable)
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvunidrivertextout.md">DrvUnidriverTextOut</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548638">DrvUnidriverTextOut</a>
 
 
 </dd>
 <dd>
 
-<a href="..\printoem\nc-printoem-pfn_drvwriteabortbuf.md">DrvWriteAbortBuf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548657">DrvWriteAbortBuf</a>
 
 
 </dd>
 </dl>
-
-## -syntax
-
-
-````
-typedef struct _DRVPROCS {
-  PFN_DrvWriteSpoolBuf       DrvWriteSpoolBuf;
-  PFN_DrvXMoveTo             DrvXMoveTo;
-  PFN_DrvYMoveTo             DrvYMoveTo;
-  PFN_DrvGetDriverSetting    DrvGetDriverSetting;
-  PFN_DrvGetStandardVariable BGetStandardVariable;
-  PFN_DrvUnidriverTextOut    DrvUnidriverTextOut;
-  PFN_DrvWriteAbortBuf       DrvWriteAbortBuf;
-} DRVPROCS, *PDRVPROCS;
-````
-
 
 ## -struct-fields
 

@@ -7,7 +7,7 @@ old-location: display\iddcx_feature_implementation.htm
 old-project: display
 ms.assetid: 7bed6940-3f69-4cc0-b746-98cd7441f4b8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IDDCX_FEATURE_IMPLEMENTATION, IDDCX_FEATURE_IMPLEMENTATION enumeration [Display Devices], IDDCX_FEATURE_IMPLEMENTATION_HARDWARE, IDDCX_FEATURE_IMPLEMENTATION_NONE, IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE, IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED, display.iddcx_feature_implementation, iddcx/IDDCX_FEATURE_IMPLEMENTATION, iddcx/IDDCX_FEATURE_IMPLEMENTATION_HARDWARE, iddcx/IDDCX_FEATURE_IMPLEMENTATION_NONE, iddcx/IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE, iddcx/IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "_requires_same_"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_FEATURE_IMPLEMENTATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,19 +53,6 @@ req.typenames:
 
                     Enum used to indicate how a given supported feature is implemented
                 
-
-
-## -syntax
-
-
-````
-typedef enum _IDDCX_FEATURE_IMPLEMENTATION { 
-  IDDCX_FEATURE_IMPLEMENTATION_UNINITIALIZED  = 0,
-  IDDCX_FEATURE_IMPLEMENTATION_NONE           = 1,
-  IDDCX_FEATURE_IMPLEMENTATION_HARDWARE       = 2,
-  IDDCX_FEATURE_IMPLEMENTATION_SOFTWARE       = 3
-} IDDCX_FEATURE_IMPLEMENTATION;
-````
 
 
 ## -enum-fields

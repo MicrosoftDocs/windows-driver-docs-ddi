@@ -7,7 +7,7 @@ old-location: stream\ksaddobjectcreateitemtodeviceheader.htm
 old-project: stream
 ms.assetid: cf508b5c-4af8-4371-b833-eaa71535afc5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAddObjectCreateItemToDeviceHeader, KsAddObjectCreateItemToDeviceHeader function [Streaming Media Devices], ks/KsAddObjectCreateItemToDeviceHeader, ksfunc_89d7ee34-62de-4702-9cfa-5e3b6c9a9819.xml, stream.ksaddobjectcreateitemtodeviceheader
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAddObjectCreateItemToDeviceHeader
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,20 +52,6 @@ req.typenames:
 
 
 The <b>KsAddObjectCreateItemToDeviceHeader</b> function adds the specified create-item to an empty item in the previously allocated create item list for this device header. An empty item is signified by a <b>NULL</b> create dispatch function in the entry. This function assumes that the caller is serializing multiple changes to the create items list.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAddObjectCreateItemToDeviceHeader(
-  _In_     KSDEVICE_HEADER      Header,
-  _In_     PDRIVER_DISPATCH     Create,
-  _In_     PVOID                Context,
-  _In_     PWSTR                ObjectClass,
-  _In_opt_ PSECURITY_DESCRIPTOR SecurityDescriptor
-);
-````
 
 
 ## -parameters

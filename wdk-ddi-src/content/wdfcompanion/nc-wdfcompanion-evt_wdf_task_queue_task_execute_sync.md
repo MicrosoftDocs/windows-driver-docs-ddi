@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c45d1873-fb29-49ee-b99b-09861478ac89
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function, wdf.evt_wdf_task_queue_task_execute_sync, wdfcompanion/EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
+ms.keywords: EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback, EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function, wdf.evt_wdf_task_queue_task_execute_sync, wdfcompanion/EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	wdfcompanion.h
 api_name:
 -	EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback
+# EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC callback function
 
 
 ## -description
@@ -52,25 +52,6 @@ req.product: Windows 10 or later.
 
 
 			For internal use only.
-
-
-## -prototype
-
-
-````
-EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC;
-
-NTSTATUS EVT_WDF_TASK_QUEUE_TASK_EXECUTE_SYNC(
-  _In_      WDFTASKQUEUE Queue,
-  _In_opt_  PVOID        InputBuffer,
-  _Out_opt_ PVOID        OutputBuffer,
-  _In_      size_t       InputBufferLength,
-  _In_      size_t       OutputBufferLength,
-  _In_      size_t       *BytesWritten,
-  _In_      ULONG        TaskOperationCode
-)
-{ ... }
-````
 
 
 ## -parameters

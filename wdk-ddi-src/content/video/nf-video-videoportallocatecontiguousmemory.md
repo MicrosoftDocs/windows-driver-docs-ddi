@@ -7,7 +7,7 @@ old-location: display\videoportallocatecontiguousmemory.htm
 old-project: display
 ms.assetid: ba23f4d4-7e3d-4bfc-acf7-68dab01d2f61
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortAllocateContiguousMemory, VideoPortAllocateContiguousMemory function [Display Devices], VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, display.videoportallocatecontiguousmemory, video/VideoPortAllocateContiguousMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortAllocateContiguousMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortAllocateContiguousMemory function
@@ -50,21 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortAllocateContiguousMemory</b> function is <b>obsolete</b> in Windows 2000 and later. Video miniport drivers should use <a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a> in its place.
+The <b>VideoPortAllocateContiguousMemory</b> function is <b>obsolete</b> in Windows 2000 and later. Video miniport drivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff570178">VideoPortAllocateCommonBuffer</a> in its place.
 
 <b>VideoPortAllocateContiguousMemory</b> allocates a range of physically contiguous, cache-aligned memory from the nonpaged pool.
-
-
-## -syntax
-
-
-````
-PVOID VideoPortAllocateContiguousMemory(
-  _In_ PVOID            HwDeviceExtension,
-  _In_ ULONG            NumberOfBytes,
-  _In_ PHYSICAL_ADDRESS HighestAcceptableAddress
-);
-````
 
 
 ## -parameters
@@ -109,12 +97,11 @@ A miniport driver that must use contiguous memory should allocate only what it n
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportallocatebuffer.md">VideoPortAllocateBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570177">VideoPortAllocateBuffer</a>
  
 
  
-
 

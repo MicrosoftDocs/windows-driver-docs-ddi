@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_process_reference_info_data.htm
 old-project: display
 ms.assetid: 3711ACBD-482E-4BB8-8530-C92DA610CA5B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020, D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020, display.d3d12ddi_video_process_reference_info_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020
 ---
@@ -50,24 +51,6 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020
 
 
 Data structure for D3D12DDICAPS_VIDEO_PROCESS_REFERENCE_INFO capability check.  Retrieves the number of past and future frames required for a given deinterlace mode.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020 {
-  UINT                                              NodeIndex;
-  D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS_0020     DeinterlaceMode;
-  D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS_0020          Filters;
-  D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS_0020 FeatureSupport;
-  DXGI_RATIONAL                                     InputRate;
-  DXGI_RATIONAL                                     OutputRate;
-  BOOL                                              EnableAutoProcessing;
-  UINT                                              PastFrames;
-  UINT                                              FutureFrames;
-} D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020;
-````
 
 
 ## -struct-fields
@@ -82,17 +65,17 @@ In multi-adapter operation, this indicates which physical adapter of the device 
 
 ### -field DeinterlaceMode
 
-The deinterlacing mode for which to retrieve the number of past and future frames.  Only a single mode may be queried at once.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a> enumeration.
+The deinterlacing mode for which to retrieve the number of past and future frames.  Only a single mode may be queried at once.  For more information, see the <a href="https://msdn.microsoft.com/7E34CCE5-A771-4EBE-A09B-79424405BFF3">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a> enumeration.
 
 
 ### -field Filters
 
-The filters for which to retrieve the number of past and future frames.  You can specify multiple filters may be specified.  For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.
+The filters for which to retrieve the number of past and future frames.  You can specify multiple filters may be specified.  For more information, see the <a href="https://msdn.microsoft.com/28662E87-F6A4-42B0-9BF0-49A6C65B245C">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.
 
 
 ### -field FeatureSupport
 
-The features for which to retrieve the number of past and future frames.  For more information, see the  <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_feature_support_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a> enumeration. 
+The features for which to retrieve the number of past and future frames.  For more information, see the  <a href="https://msdn.microsoft.com/6DBF48B1-44C7-4C53-8488-F1217E6FAA1C">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a> enumeration. 
 
 
 ### -field InputFrameRate
@@ -132,20 +115,19 @@ The output rate of the stream.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_feature_support_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a>
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
+<a href="https://msdn.microsoft.com/7E34CCE5-A771-4EBE-A09B-79424405BFF3">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
 
 
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
+<a href="https://msdn.microsoft.com/6DBF48B1-44C7-4C53-8488-F1217E6FAA1C">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/28662E87-F6A4-42B0-9BF0-49A6C65B245C">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
  
 
  
-
 

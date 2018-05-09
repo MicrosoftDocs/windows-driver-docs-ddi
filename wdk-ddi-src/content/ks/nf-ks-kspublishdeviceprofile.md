@@ -7,7 +7,7 @@ old-location: stream\kspublishdeviceprofile.htm
 old-project: stream
 ms.assetid: 944A593D-D623-400C-80F9-6DCD973681C9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPublishDeviceProfile, KsPublishDeviceProfile function [Streaming Media Devices], ks/KsPublishDeviceProfile, stream.kspublishdeviceprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	ks.dll
 api_name:
 -	KsPublishDeviceProfile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 The <b>KsPublishDeviceProfile</b> API is called to publish device profile information.
 
 
-## -syntax
-
-
-````
- __drv_maxIRQL(PASSIVE_LEVEL) KSDDKAPI NTSTATUS NTAPI KsPublishDeviceProfile(
-  _In_ PKSFILTERFACTORY       FilterFactory,
-  _In_ PKSDEVICE_PROFILE_INFO Profile
-);
-````
-
-
 ## -parameters
 
 
@@ -71,12 +61,12 @@ The <b>KsPublishDeviceProfile</b> API is called to publish device profile inform
 
 ### -param FilterFactory [in]
 
-This is the same <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a> used in the <a href="..\ks\nf-ks-ksinitializedeviceprofile.md">KsInitializeDeviceProfile</a> API.
+This is the same <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> used in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn917797">KsInitializeDeviceProfile</a> API.
 
 
 ### -param Profile [in]
 
-This is a camera profile of type <a href="..\ksmedia\ns-ksmedia-_ksdevice_profile_info.md">KSDEVICE_PROFILE_INFO</a>.
+This is a camera profile of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn925223">KSDEVICE_PROFILE_INFO</a>.
 
 
 ## -returns

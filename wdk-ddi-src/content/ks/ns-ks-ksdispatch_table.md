@@ -7,7 +7,7 @@ old-location: stream\ksdispatch_table.htm
 old-project: stream
 ms.assetid: baa45ce7-3dcd-4383-99f2-aeb664a03190
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSDISPATCH_TABLE, KSDISPATCH_TABLE, KSDISPATCH_TABLE structure [Streaming Media Devices], PKSDISPATCH_TABLE, PKSDISPATCH_TABLE structure pointer [Streaming Media Devices], ks-struct_c1daf962-90e2-495e-9531-c23716ee9d68.xml, ks/KSDISPATCH_TABLE, ks/PKSDISPATCH_TABLE, stream.ksdispatch_table"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSDISPATCH_TABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSDISPATCH_TABLE, *PKSDISPATCH_TABLE
 ---
@@ -50,25 +51,6 @@ req.typenames: KSDISPATCH_TABLE, *PKSDISPATCH_TABLE
 
 
 The KSDISPATCH_TABLE structure contains pointers to minidriver implemented IRP dispatch routines.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  PDRIVER_DISPATCH        DeviceIoControl;
-  PDRIVER_DISPATCH        Read;
-  PDRIVER_DISPATCH        Write;
-  PDRIVER_DISPATCH        Flush;
-  PDRIVER_DISPATCH        Close;
-  PDRIVER_DISPATCH        QuerySecurity;
-  PDRIVER_DISPATCH        SetSecurity;
-  PFAST_IO_DEVICE_CONTROL FastDeviceIoControl;
-  PFAST_IO_READ           FastRead;
-  PFAST_IO_WRITE          FastWrite;
-} KSDISPATCH_TABLE, *PKSDISPATCH_TABLE;
-````
 
 
 ## -struct-fields
@@ -132,23 +114,22 @@ Specifies the minidriver's routine to dispatch fast write requests to.
 
 A pointer to a dispatch table is contained in the opaque object header that is the first element of data pointed to by the file object's <b>FsContext</b> field.
 
-For more information about minidriver implemented IRP dispatch routines, see <a href="..\ks\nf-ks-kssetmajorfunctionhandler.md">KsSetMajorFunctionHandler</a>, and <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>.
+For more information about minidriver implemented IRP dispatch routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566840">KsSetMajorFunctionHandler</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
-<a href="..\ks\nf-ks-kssetmajorfunctionhandler.md">KsSetMajorFunctionHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566840">KsSetMajorFunctionHandler</a>
  
 
  
-
 

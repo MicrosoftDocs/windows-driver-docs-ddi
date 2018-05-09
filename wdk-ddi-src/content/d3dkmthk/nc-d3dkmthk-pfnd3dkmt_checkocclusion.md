@@ -7,8 +7,8 @@ old-location: display\d3dkmtcheckocclusion.htm
 old-project: display
 ms.assetid: ce889a72-5f42-4bcf-aa15-6ec9b0423781
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3DKMTCheckOcclusion, D3DKMTCheckOcclusion callback function [Display Devices], OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, PFND3DKMT_CHECKOCCLUSION, d3dkmthk/D3DKMTCheckOcclusion, display.d3dkmtcheckocclusion
+ms.date: 4/16/2018
+ms.keywords: D3DKMTCheckOcclusion, D3DKMTCheckOcclusion callback function [Display Devices], OpenGL_Functions_a73b8485-971d-47a7-bc42-77bd709c5a74.xml, PFND3DKMT_CHECKOCCLUSION, PFND3DKMT_CHECKOCCLUSION callback, d3dkmthk/D3DKMTCheckOcclusion, display.d3dkmtcheckocclusion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,28 +38,19 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTCheckOcclusion
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
+req.typenames: 
 ---
 
-# PFND3DKMT_CHECKOCCLUSION callback
+# PFND3DKMT_CHECKOCCLUSION callback function
 
 
 ## -description
 
 
 The <b>D3DKMTCheckOcclusion</b> function verifies whether the client area of a window is occluded.
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY D3DKMTCheckOcclusion(
-  _In_ const D3DKMT_CHECKOCCLUSION *pData
-);
-````
 
 
 ## -parameters
@@ -78,7 +69,7 @@ NTSTATUS APIENTRY D3DKMTCheckOcclusion(
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkocclusion.md">D3DKMT_CHECKOCCLUSION</a> structure that describes parameters for checking occlusion.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547306">D3DKMT_CHECKOCCLUSION</a> structure that describes parameters for checking occlusion.
 
 
 ## -returns
@@ -144,12 +135,11 @@ The handle to the window that is checked for occlusion must be valid. A window i
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_checkocclusion.md">D3DKMT_CHECKOCCLUSION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547306">D3DKMT_CHECKOCCLUSION</a>
  
 
  
-
 

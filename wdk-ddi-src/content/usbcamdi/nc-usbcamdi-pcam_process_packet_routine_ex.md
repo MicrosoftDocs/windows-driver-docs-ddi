@@ -7,7 +7,7 @@ old-location: stream\camprocessusbpacketex.htm
 old-project: stream
 ms.assetid: 9f69b2f0-6e55-440f-98ab-35d8faddf933
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: CamProcessUSBPacketEx, CamProcessUSBPacketEx routine [Streaming Media Devices], PCAM_PROCESS_PACKET_ROUTINE_EX, stream.camprocessusbpacketex, usbcamdi/CamProcessUSBPacketEx, usbcmdpr_bd37e77c-386b-4b94-ad7c-8b1c5c26799a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,41 +38,19 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	CamProcessUSBPacketEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_PROCESS_PACKET_ROUTINE_EX callback
+# PCAM_PROCESS_PACKET_ROUTINE_EX callback function
 
 
 ## -description
 
 
 A camera minidriver's <b>CamProcessUSBPacketEx</b> callback function processes a USB packet.
-
-
-## -prototype
-
-
-````
-PCAM_PROCESS_PACKET_ROUTINE_EX CamProcessUSBPacketEx;
-
-ULONG CamProcessUSBPacketEx(
-   PDEVICE_OBJECT              BusDeviceObject,
-   PVOID                       DeviceContext,
-   PVOID                       CurrentFrameContext,
-   PUSBD_ISO_PACKET_DESCRIPTOR SyncPacket,
-   PVOID                       SyncBuffer,
-   PUSBD_ISO_PACKET_DESCRIPTOR DataPacket,
-   PVOID                       DataBuffer,
-   PBOOLEAN                    FrameComplete,
-   PULONG                      PacketFlag,
-   PULONG                      ValidDataOffset
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -97,7 +75,7 @@ Pointer to the camera minidriver's frame context.
 
 ### -param SyncPacket
 
-Pointer to a <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a> structure from the sync pipe. This value is <b>NULL</b> if the interface has only one pipe.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539084">USBD_ISO_PACKET_DESCRIPTOR</a> structure from the sync pipe. This value is <b>NULL</b> if the interface has only one pipe.
 
 
 ### -param SyncBuffer
@@ -181,7 +159,7 @@ This function returns the number of bytes that should be copied.
 
 
 
-The minidriver should complete its <b>CamProcessUSBPacketEx</b> function as quickly as possible. Image processing should be deferred to the <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a> function.
+The minidriver should complete its <b>CamProcessUSBPacketEx</b> function as quickly as possible. Image processing should be deferred to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557625">CamProcessRawVideoFrameEx</a> function.
 
 This callback function is used with isochronous pipes only (video or still streaming).
 
@@ -194,16 +172,15 @@ This function is optional.
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557625">CamProcessRawVideoFrameEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539084">USBD_ISO_PACKET_DESCRIPTOR</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\streamclassdebugprint.htm
 old-project: stream
 ms.assetid: a8b7efd2-7773-44dc-92de-85b03c31ada8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: StreamClassDebugPrint, StreamClassDebugPrint routine [Streaming Media Devices], strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, stream.streamclassdebugprint, strmini/StreamClassDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Stream.dll
 api_name:
 -	StreamClassDebugPrint
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StreamClassDebugPrint function
@@ -54,18 +54,6 @@ req.product: Windows 10 or later.
 In a checked build environment, the minidriver can use the <b>StreamClassDebugPrint</b> routine to print debug messages to the application window and to the Debugger Command window.
 
 
-## -syntax
-
-
-````
-VOID __cdecl StreamClassDebugPrint(
-  _In_ STREAM_DEBUG_LEVEL DebugPrintLevel,
-  _In_ PCCHAR             DebugMessage,
-       ...                arguments
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +61,7 @@ VOID __cdecl StreamClassDebugPrint(
 
 ### -param DebugPrintLevel [in]
 
-Specifies an enumeration of type <a href="..\strmini\ne-strmini-stream_debug_level.md">STREAM_DEBUG_LEVEL</a>. The debugger prints messages if this parameter is less than or equal to the <i>StreamDebug</i> variable in <i>stream.sys</i> symbols.
+Specifies an enumeration of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568302">STREAM_DEBUG_LEVEL</a>. The debugger prints messages if this parameter is less than or equal to the <i>StreamDebug</i> variable in <i>stream.sys</i> symbols.
 
 
 ### -param DebugMessage [in]
@@ -113,16 +101,15 @@ For more information, see <a href="https://msdn.microsoft.com/544b922b-58e4-4cbb
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
 
 
 
-<a href="..\strmini\nf-strmini-streamclassdebugassert.md">StreamClassDebugAssert</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543632">DbgPrint</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568233">StreamClassDebugAssert</a>
  
 
  
-
 

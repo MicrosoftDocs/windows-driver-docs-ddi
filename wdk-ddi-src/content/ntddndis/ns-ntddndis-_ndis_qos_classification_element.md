@@ -7,7 +7,7 @@ old-location: netvista\ndis_qos_classification_element.htm
 old-project: netvista
 ms.assetid: 2677dc3a-7685-40bf-94c3-2efecf21e9a8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NDIS_QOS_CLASSIFICATION_ELEMENT, NDIS_QOS_CLASSIFICATION_ELEMENT structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_CLASSIFICATION_ELEMENT, PNDIS_QOS_CLASSIFICATION_ELEMENT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_CLASSIFICATION_ELEMENT, netvista.ndis_qos_classification_element, ntddndis/NDIS_QOS_CLASSIFICATION_ELEMENT, ntddndis/PNDIS_QOS_CLASSIFICATION_ELEMENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_QOS_CLASSIFICATION_ELEMENT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_QOS_CLASSIFICATION_ELEMENT, PNDIS_QOS_CLASSIFICATION_ELEMENT
 ---
@@ -73,21 +74,6 @@ For example, a traffic classification could specify that all egress packets for 
 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_QOS_CLASSIFICATION_ELEMENT {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              Flags;
-  USHORT             ConditionSelector;
-  USHORT             ConditionField;
-  USHORT             ActionSelector;
-  USHORT             ActionField;
-} NDIS_QOS_CLASSIFICATION_ELEMENT, *PNDIS_QOS_CLASSIFICATION_ELEMENT;
-````
-
-
 ## -struct-fields
 
 
@@ -95,7 +81,7 @@ typedef struct _NDIS_QOS_CLASSIFICATION_ELEMENT {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_QOS_CLASSIFICATION_ELEMENT</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_QOS_CLASSIFICATION_ELEMENT</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_QOS_CLASSIFICATION_ELEMENT. To specify the version of the <b>NDIS_QOS_CLASSIFICATION_ELEMENT</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -160,9 +146,9 @@ For more information, see <a href="https://docs.microsoft.com/">Guidelines for S
 
 A traffic classification specifies a <i>condition</i> and an <i>action</i> that the network adapter applies to egress packet data. When the adapter inspects the egress packet data and finds a matching classification condition, it applies the corresponding action to the egress packet.
 
-<div class="alert"><b>Note</b>  Starting with NDIS 6.30, all actions are based on 802.1p priority levels. However, after the network adapter determines the priority level, it must use the egress policies for the NDIS QoS traffic class that is associated with the priority level. The association of priority levels to traffic classes is specified in the <a href="..\ntddndis\ns-ntddndis-_ndis_qos_parameters.md">NDIS_QOS_PARAMETERS</a> structure.</div>
+<div class="alert"><b>Note</b>  Starting with NDIS 6.30, all actions are based on 802.1p priority levels. However, after the network adapter determines the priority level, it must use the egress policies for the NDIS QoS traffic class that is associated with the priority level. The association of priority levels to traffic classes is specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451640">NDIS_QOS_PARAMETERS</a> structure.</div>
 <div> </div>
-The <b>NDIS_QOS_CLASSIFICATION_ELEMENT</b> structure specifies each traffic classification element within the array that is specified by the  <a href="..\ntddndis\ns-ntddndis-_ndis_qos_parameters.md">NDIS_QOS_PARAMETERS</a> structure. This structure is used in the following OID requests:
+The <b>NDIS_QOS_CLASSIFICATION_ELEMENT</b> structure specifies each traffic classification element within the array that is specified by the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451640">NDIS_QOS_PARAMETERS</a> structure. This structure is used in the following OID requests:
 
 <ul>
 <li>
@@ -174,7 +160,7 @@ OID method requests of <a href="https://msdn.microsoft.com/library/windows/hardw
 
 </li>
 </ul>
-The miniport driver also returns an <a href="..\ntddndis\ns-ntddndis-_ndis_qos_parameters.md">NDIS_QOS_PARAMETERS</a> structure that contains an array of <b>NDIS_QOS_CLASSIFICATION_ELEMENT</b> structures in the following NDIS status indications:
+The miniport driver also returns an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451640">NDIS_QOS_PARAMETERS</a> structure that contains an array of <b>NDIS_QOS_CLASSIFICATION_ELEMENT</b> structures in the following NDIS status indications:
 
 <ul>
 <li>
@@ -256,7 +242,7 @@ The <b>ConditionField</b> member contains a 16-bit NetworkDirect port value.
 </table>
  
 
-If the <b>ConditionSelector</b> member contains a value of NDIS_QOS_CONDITION_DEFAULT, the associated classification action must be applied to all egress packets that did not match any other classification conditions. When the DCB component issues an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451835">OID_QOS_PARAMETERS</a>, it may set the  <b>ConditionSelector</b> to NDIS_QOS_CONDITION_DEFAULT in only the first <b>NDIS_QOS_CLASSIFICATION_ELEMENT</b> structure in the <a href="..\ntddndis\ns-ntddndis-_ndis_qos_parameters.md">NDIS_QOS_PARAMETERS</a> array.
+If the <b>ConditionSelector</b> member contains a value of NDIS_QOS_CONDITION_DEFAULT, the associated classification action must be applied to all egress packets that did not match any other classification conditions. When the DCB component issues an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451835">OID_QOS_PARAMETERS</a>, it may set the  <b>ConditionSelector</b> to NDIS_QOS_CONDITION_DEFAULT in only the first <b>NDIS_QOS_CLASSIFICATION_ELEMENT</b> structure in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451640">NDIS_QOS_PARAMETERS</a> array.
 
 If the <b>ConditionSelector</b> member contains a value of NDIS_QOS_CONDITION_NETDIRECT_PORT, the miniport driver must match the <b>ConditionField</b> member against either the source or destination port of a NetworkDirect connection. If the miniport driver accepts a NetDirect connection, the driver must match the <b>ConditionField</b> member against the source port of any packet it sends over that connection. If the miniport driver initiates a NetDirect connection, it must match the <b>ConditionField</b> member against the destination port of any packet it sends over that connection.
 
@@ -289,31 +275,6 @@ For more information on NDIS QoS traffic classes, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451832">OID_QOS_OPERATIONAL_PARAMETERS</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_qos_parameters.md">NDIS_QOS_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451841">OID_QOS_REMOTE_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439810">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451835">OID_QOS_PARAMETERS</a>
 
 
 
@@ -321,8 +282,32 @@ For more information on NDIS QoS traffic classes, see <a href="https://msdn.micr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451640">NDIS_QOS_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439810">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451832">OID_QOS_OPERATIONAL_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451835">OID_QOS_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451841">OID_QOS_REMOTE_PARAMETERS</a>
  
 
  
-
 

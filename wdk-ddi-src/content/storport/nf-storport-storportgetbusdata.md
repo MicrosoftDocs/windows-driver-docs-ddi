@@ -7,7 +7,7 @@ old-location: storage\storportgetbusdata.htm
 old-project: storage
 ms.assetid: 19999e21-1afd-42ac-9809-b8ed4b6ac7e3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, storport/StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortGetBusData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortGetBusData function
@@ -52,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetBusData</b> routine retrieves the bus-specific configuration information necessary to initialize the HBA.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetBusData(
-  _In_    PVOID DeviceExtension,
-  _In_    ULONG BusDataType,
-  _In_    ULONG SystemIoBusNumber,
-  _In_    ULONG SlotNumber,
-  _Inout_ PVOID Buffer,
-  _In_    ULONG Length
-);
-````
 
 
 ## -parameters
@@ -81,12 +66,12 @@ Pointer to the miniport driver's per-HBA storage area.
 
 ### -param BusDataType [in]
 
-Contains a value of type <a href="..\ntddk\ne-ntddk-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of bus-specific configuration data to be returned. Currently, this value can be one of the following: <b>Cmos</b>, <b>EisaConfiguration</b>, <b>Pos</b>, or <b>PCIConfiguration</b>. However, additional types of bus configuration will be supported in the future. The upper bound on the types supported is always <b>MaximumBusDataType</b>.
+Contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff540700">BUS_DATA_TYPE</a> that specifies the type of bus-specific configuration data to be returned. Currently, this value can be one of the following: <b>Cmos</b>, <b>EisaConfiguration</b>, <b>Pos</b>, or <b>PCIConfiguration</b>. However, additional types of bus configuration will be supported in the future. The upper bound on the types supported is always <b>MaximumBusDataType</b>.
 
 
 ### -param SystemIoBusNumber [in]
 
-Specifies the system-assigned number of the I/O bus. The miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains this value from the <b>SystemIoBusNumber</b> member initially set in <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>.
+Specifies the system-assigned number of the I/O bus. The miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> routine obtains this value from the <b>SystemIoBusNumber</b> member initially set in <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a>.
 
 
 ### -param SlotNumber [in]
@@ -149,25 +134,24 @@ The PCI bus exists, but there is no device at the given PCI <i>SlotNumber</i>. T
 
 
 
-<b>StorPortGetBusData</b> can be called only from a miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine or from <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a> when the control type is <b>ScsiSetRunningConfig</b>. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
+<b>StorPortGetBusData</b> can be called only from a miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> routine or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a> when the control type is <b>ScsiSetRunningConfig</b>. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
 
-Configuration data returned by <b>StorPortGetBusData</b> is valid only until the miniport driver calls <b>StorPortGetBusData</b> again. As soon as the caller's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine returns control, any returned configuration data becomes invalid.
+Configuration data returned by <b>StorPortGetBusData</b> is valid only until the miniport driver calls <b>StorPortGetBusData</b> again. As soon as the caller's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> routine returns control, any returned configuration data becomes invalid.
 
 
 
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a>
  
 
  
-
 

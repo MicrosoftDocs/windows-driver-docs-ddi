@@ -7,7 +7,7 @@ old-location: netvista\ndismregisterminiportdriver.htm
 old-project: netvista
 ms.assetid: bed68aa8-499d-41fd-997b-a46316913cc8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMRegisterMiniportDriver, NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, ndis/NdisMRegisterMiniportDriver, netvista.ndismregisterminiportdriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMRegisterMiniportDriver
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMRegisterMiniportDriver function
@@ -55,20 +56,6 @@ A miniport driver calls the
   <i>MiniportXxx</i> entry points with NDIS as the first step in initialization.
 
 
-## -syntax
-
-
-````
-NDIS_STATUS NdisMRegisterMiniportDriver(
-  _In_     PDRIVER_OBJECT                        DriverObject,
-  _In_     PUNICODE_STRING                       RegistryPath,
-  _In_opt_ NDIS_HANDLE                           MiniportDriverContext,
-  _In_     PNDIS_MINIPORT_DRIVER_CHARACTERISTICS MiniportDriverCharacteristics,
-  _Out_    PNDIS_HANDLE                          NdisMiniportDriverHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +64,7 @@ NDIS_STATUS NdisMRegisterMiniportDriver(
 ### -param DriverObject [in]
 
 A pointer to an opaque driver object that the miniport driver received in its 
-     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter (see 
      <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
      Miniport Drivers</a>).
@@ -86,7 +73,7 @@ A pointer to an opaque driver object that the miniport driver received in its
 ### -param RegistryPath [in]
 
 A pointer to an opaque registry path that the miniport driver received in its 
-     <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine at the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine at the 
      <i>Argument2</i> parameter.
 
 
@@ -99,7 +86,7 @@ A handle to a driver-allocated context area where the driver maintains state and
 ### -param MiniportDriverCharacteristics [in]
 
 A pointer to an 
-     <a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">
+     <a href="https://msdn.microsoft.com/2e2c8522-127d-49d5-a5d6-97f9403bec89">
      NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a> structure that the caller initialized.
 
 
@@ -129,7 +116,7 @@ A pointer to a caller-supplied handle variable. NDIS writes a handle to this var
 </td>
 <td width="60%">
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a> registered the miniport driver successfully.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a> registered the miniport driver successfully.
 
 </td>
 </tr>
@@ -195,7 +182,7 @@ This is a default error status, returned when none of the preceding errors cause
 
 An NDIS driver calls 
     <b>NdisMRegisterMiniportDriver</b> from its 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. For more information, see 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. For more information, see 
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548818">DriverEntry of NDIS
     Miniport Drivers</a>.
 
@@ -225,27 +212,37 @@ To enable miniport drivers to register optional services, NDIS calls the
 
 After a driver calls 
     <b>NdisMRegisterMiniportDriver</b>, the driver should be prepared to be called back at the 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function that
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function that
     is specified in the 
     <i>MiniportDriverCharacteristics</i> parameter.
 
 If an error occurs in 
-    <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> after 
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> after 
     <b>NdisMRegisterMiniportDriver</b> returns successfully, the driver must call the 
-    <a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+    <a href="https://msdn.microsoft.com/c428e30d-ce86-4ca0-bc65-45d84a7c910e">
     NdisMDeregisterMiniportDriver</a> function before 
     <b>DriverEntry</b> returns. If 
     <b>DriverEntry</b> succeeds, the driver must call 
     <b>NdisMDeregisterMiniportDriver</b> from its 
-    <a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a> function.
+    <a href="https://msdn.microsoft.com/25c803cf-f8a6-4e41-a731-c3ae7f1db211">MiniportDriverUnload</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">
-   NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/25c803cf-f8a6-4e41-a731-c3ae7f1db211">MiniportDriverUnload</a>
+
+
+
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
@@ -253,25 +250,14 @@ If an error occurs in
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/2e2c8522-127d-49d5-a5d6-97f9403bec89">
+   NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismderegisterminiportdriver.md">
+<a href="https://msdn.microsoft.com/c428e30d-ce86-4ca0-bc65-45d84a7c910e">
    NdisMDeregisterMiniportDriver</a>
-
-
-
  
 
  
-
 

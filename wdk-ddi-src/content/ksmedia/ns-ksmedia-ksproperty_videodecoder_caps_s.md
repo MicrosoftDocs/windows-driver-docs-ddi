@@ -7,7 +7,7 @@ old-location: stream\ksproperty_videodecoder_caps_s.htm
 old-project: stream
 ms.assetid: af81a053-8c09-411c-a437-21859ea867b2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_VIDEODECODER_CAPS_S, KSPROPERTY_VIDEODECODER_CAPS_S, KSPROPERTY_VIDEODECODER_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_VIDEODECODER_CAPS_S, PKSPROPERTY_VIDEODECODER_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEODECODER_CAPS_S, ksmedia/PKSPROPERTY_VIDEODECODER_CAPS_S, stream.ksproperty_videodecoder_caps_s, vidcapstruct_091e360d-7c9a-4ffc-a7b5-aa634847bbed.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_VIDEODECODER_CAPS_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_VIDEODECODER_CAPS_S, *PKSPROPERTY_VIDEODECODER_CAPS_S
 ---
@@ -50,20 +51,6 @@ req.typenames: KSPROPERTY_VIDEODECODER_CAPS_S, *PKSPROPERTY_VIDEODECODER_CAPS_S
 
 
 The KSPROPERTY_VIDEODECODER_CAPS_S structure describes the hardware capabilities of the video decoder device.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      StandardsSupported;
-  ULONG      Capabilities;
-  ULONG      SettlingTime;
-  ULONG      HSyncPerVSync;
-} KSPROPERTY_VIDEODECODER_CAPS_S, *PKSPROPERTY_VIDEODECODER_CAPS_S;
-````
 
 
 ## -struct-fields
@@ -78,12 +65,12 @@ Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/har
 
 ### -field StandardsSupported
 
-Specifies the video standards supported by the device. This member may be set to one or more (logically ORed) values from the <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a> enumeration.
+Specifies the video standards supported by the device. This member may be set to one or more (logically ORed) values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a> enumeration.
 
 
 ### -field Capabilities
 
-Specifies video decoder capabilities. This member must be set to zero or one of the values from the <a href="..\ksmedia\ne-ksmedia-ks_videodecoder_flags.md">KS_VIDEODECODER_FLAGS</a> enumeration.
+Specifies video decoder capabilities. This member must be set to zero or one of the values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567697">KS_VIDEODECODER_FLAGS</a> enumeration.
 
 
 ### -field SettlingTime
@@ -98,19 +85,6 @@ Specifies the number of horizontal sync pulses the video decoder produces during
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566046">KSPROPERTY_VIDEODECODER_CAPS</a>
-
-
-
-<a href="..\ksmedia\ne-ksmedia-ks_videodecoder_flags.md">KS_VIDEODECODER_FLAGS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568121">PROPSETID_VIDCAP_VIDEODECODER</a>
-
-
-
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
 
@@ -118,8 +92,20 @@ Specifies the number of horizontal sync pulses the video decoder produces during
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566046">KSPROPERTY_VIDEODECODER_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567697">KS_VIDEODECODER_FLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568121">PROPSETID_VIDCAP_VIDEODECODER</a>
  
 
  
-
 

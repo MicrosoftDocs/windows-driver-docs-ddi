@@ -7,8 +7,8 @@ old-location: storage\ioctl_cdrom_get_configuration.htm
 old-project: storage
 ms.assetid: 2eb4b5c3-db06-4d21-8937-847734d7ac2f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_CDROM_GET_CONFIGURATION, IOCTL_CDROM_GET_CONFIGURATION control code [Storage Devices], k307_355fe40f-4056-4bd7-8e79-8824c38589f6.xml, ntddcdrm/IOCTL_CDROM_GET_CONFIGURATION, storage.ioctl_cdrom_get_configuration
+ms.date: 3/29/2018
+ms.keywords: IOCTL_CDROM_GET_CONFIGURATION, IOCTL_CDROM_GET_CONFIGURATION control, IOCTL_CDROM_GET_CONFIGURATION control code [Storage Devices], k307_355fe40f-4056-4bd7-8e79-8824c38589f6.xml, ntddcdrm/IOCTL_CDROM_GET_CONFIGURATION, storage.ioctl_cdrom_get_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	ntddcdrm.h
 api_name:
 -	IOCTL_CDROM_GET_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: 
 ---
 
 # IOCTL_CDROM_GET_CONFIGURATION IOCTL
@@ -78,7 +79,7 @@ Input buffer.
 
 ### -output-buffer
 
-The driver returns the feature and profile data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The data begins with a header of type <a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>. Feature data is reported in the space immediately following this header. Its size and formatting depend on which features are reported. 
+The driver returns the feature and profile data in the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The data begins with a header of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff554980">GET_CONFIGURATION_HEADER</a>. Feature data is reported in the space immediately following this header. Its size and formatting depend on which features are reported. 
 
 
 ### -output-buffer-length
@@ -111,16 +112,15 @@ The <b>Information</b> field is set to the number of bytes that are returned. Th
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_get_configuration_header.md">GET_CONFIGURATION_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_get_configuration_ioctl_input.md">GET_CONFIGURATION_IOCTL_INPUT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554980">GET_CONFIGURATION_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554984">GET_CONFIGURATION_IOCTL_INPUT</a>
  
 
  
-
 

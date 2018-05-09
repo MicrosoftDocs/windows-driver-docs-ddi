@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters.GetDescription
-title: IDebugRegisters::GetDescription method
+title: IDebugRegisters::GetDescription
 author: windows-driver-content
 description: The GetDescription method returns the description of a register.
 old-location: debugger\getdescription.htm
 old-project: debugger
 ms.assetid: 895d18e7-673e-41bb-a3be-eb5b4a778880
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetDescription method [Windows Debugging], GetDescription method [Windows Debugging], IDebugRegisters interface, GetDescription method [Windows Debugging], IDebugRegisters2 interface, GetDescription,IDebugRegisters.GetDescription, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetDescription method, IDebugRegisters2 interface [Windows Debugging], GetDescription method, IDebugRegisters2::GetDescription, IDebugRegisters::GetDescription, IDebugRegisters_aa062ab9-e090-4cad-b875-b6e99a019c16.xml, dbgeng/IDebugRegisters2::GetDescription, dbgeng/IDebugRegisters::GetDescription, debugger.getdescription
+ms.date: 4/24/2018
+ms.keywords: GetDescription, GetDescription method [Windows Debugging], GetDescription method [Windows Debugging],IDebugRegisters interface, GetDescription method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetDescription method, IDebugRegisters.GetDescription, IDebugRegisters2 interface [Windows Debugging],GetDescription method, IDebugRegisters2::GetDescription, IDebugRegisters::GetDescription, IDebugRegisters_aa062ab9-e090-4cad-b875-b6e99a019c16.xml, dbgeng/IDebugRegisters2::GetDescription, dbgeng/IDebugRegisters::GetDescription, debugger.getdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,32 +39,19 @@ api_location:
 api_name:
 -	IDebugRegisters.GetDescription
 -	IDebugRegisters2.GetDescription
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters::GetDescription method
+# IDebugRegisters::GetDescription
 
 
 ## -description
 
 
 The <b>GetDescription</b>  method returns the description of a register.
-
-
-## -syntax
-
-
-````
-HRESULT GetDescription(
-  [in]            ULONG                       Register,
-  [out, optional] PSTR                        NameBuffer,
-  [in]            ULONG                       NameBufferSize,
-  [out, optional] PULONG                      NameSize,
-  [out, optional] PDEBUG_REGISTER_DESCRIPTION Desc
-);
-````
 
 
 ## -parameters
@@ -94,7 +81,7 @@ Receives the size, in characters, of the register's name in <i>NameBuffer</i> bu
 
 ### -param Desc [out, optional]
 
-Receives the description of the register.  See <a href="..\dbgeng\ns-dbgeng-_debug_register_description.md">DEBUG_REGISTER_DESCRIPTION</a> for more details.
+Receives the description of the register.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541538">DEBUG_REGISTER_DESCRIPTION</a> for more details.
 
 
 ## -returns
@@ -162,7 +149,7 @@ The index of the register requested is greater than the total number of register
 
 
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 

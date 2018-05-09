@@ -7,7 +7,7 @@ old-location: stream\kswave_output_capabilities.htm
 old-project: stream
 ms.assetid: 3f7d534d-bfd8-4aca-a14d-97c047fb5aeb
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSWAVE_OUTPUT_CAPABILITIES, KSWAVE_OUTPUT_CAPABILITIES, KSWAVE_OUTPUT_CAPABILITIES structure [Streaming Media Devices], PKSWAVE_OUTPUT_CAPABILITIES, PKSWAVE_OUTPUT_CAPABILITIES structure pointer [Streaming Media Devices], dvdref_7660f724-15c2-419f-a0d9-c432069547a3.xml, ksmedia/KSWAVE_OUTPUT_CAPABILITIES, ksmedia/PKSWAVE_OUTPUT_CAPABILITIES, stream.kswave_output_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSWAVE_OUTPUT_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSWAVE_OUTPUT_CAPABILITIES, *PKSWAVE_OUTPUT_CAPABILITIES
 ---
@@ -50,35 +51,6 @@ req.typenames: KSWAVE_OUTPUT_CAPABILITIES, *PKSWAVE_OUTPUT_CAPABILITIES
 
 
 The KSWAVE_OUTPUT_CAPABILITIES structure is used to describe the output capabilities of a device.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG MaximumChannelsPerConnection;
-  ULONG MinimumBitsPerSample;
-  ULONG MaximumBitsPerSample;
-  ULONG MinimumSampleFrequency;
-  ULONG MaximumSampleFrequency;
-  ULONG TotalConnections;
-  ULONG StaticConnections;
-  ULONG StreamingConnections;
-  ULONG ActiveConnections;
-  ULONG ActiveStaticConnections;
-  ULONG ActiveStreamingConnections;
-  ULONG Total3DConnections;
-  ULONG Static3DConnections;
-  ULONG Streaming3DConnections;
-  ULONG Active3DConnections;
-  ULONG ActiveStatic3DConnections;
-  ULONG ActiveStreaming3DConnections;
-  ULONG TotalSampleMemory;
-  ULONG FreeSampleMemory;
-  ULONG LargestFreeContiguousSampleMemory;
-} KSWAVE_OUTPUT_CAPABILITIES, *PKSWAVE_OUTPUT_CAPABILITIES;
-````
 
 
 ## -struct-fields
@@ -197,12 +169,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566523">KSPROPERTY_WAVE_OUTPUT_CAPABILITIES</a>
-
-
-
  
 
  
-
 

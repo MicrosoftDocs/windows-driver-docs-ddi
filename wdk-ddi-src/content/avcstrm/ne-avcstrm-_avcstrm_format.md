@@ -7,7 +7,7 @@ old-location: stream\avcstrm_format.htm
 old-project: stream
 ms.assetid: 4481ec67-55b6-479e-b0b6-5f8ed56a5290
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVCSTRM_FORMAT, AVCSTRM_FORMAT enumeration [Streaming Media Devices], AVCSTRM_FORMAT_HDDV_NTSC, AVCSTRM_FORMAT_HDDV_PAL, AVCSTRM_FORMAT_MPEG2TS, AVCSTRM_FORMAT_SDDV_NTSC, AVCSTRM_FORMAT_SDDV_PAL, AVCSTRM_FORMAT_SDLDV_NTSC, AVCSTRM_FORMAT_SDLDV_PAL, _AVCSTRM_FORMAT, avcsref_489c2bf8-1e1f-4feb-91fb-0ba3666ba399.xml, avcstrm/AVCSTRM_FORMAT, avcstrm/AVCSTRM_FORMAT_HDDV_NTSC, avcstrm/AVCSTRM_FORMAT_HDDV_PAL, avcstrm/AVCSTRM_FORMAT_MPEG2TS, avcstrm/AVCSTRM_FORMAT_SDDV_NTSC, avcstrm/AVCSTRM_FORMAT_SDDV_PAL, avcstrm/AVCSTRM_FORMAT_SDLDV_NTSC, avcstrm/AVCSTRM_FORMAT_SDLDV_PAL, stream.avcstrm_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	avcstrm.h
 api_name:
 -	AVCSTRM_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: AVCSTRM_FORMAT
 ---
@@ -50,22 +51,6 @@ req.typenames: AVCSTRM_FORMAT
 
 
 The AVCSTRM_FUNCTION enumeration defines the AV/C subunit stream formats supported by <i>avcstrm.sys</i>.
-
-
-## -syntax
-
-
-````
-typedef enum _AVCSTRM_FORMAT { 
-  AVCSTRM_FORMAT_SDDV_NTSC   = 0,
-  AVCSTRM_FORMAT_SDDV_PAL    = 1,
-  AVCSTRM_FORMAT_MPEG2TS     = 2,
-  AVCSTRM_FORMAT_HDDV_NTSC   = 3,
-  AVCSTRM_FORMAT_HDDV_PAL    = 4,
-  AVCSTRM_FORMAT_SDLDV_NTSC  = 5,
-  AVCSTRM_FORMAT_SDLDV_PAL   = 6
-} AVCSTRM_FORMAT;
-````
 
 
 ## -enum-fields
@@ -110,12 +95,11 @@ Specifies the 61883-5 specification for SDL-DVCR data transmission. PAL. This fo
 
 ## -see-also
 
-<a href="..\avcstrm\ns-avcstrm-_avcstrm_format_info.md">AVCSTRM_FORMAT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554117">AVCSTRM_FORMAT_INFO</a>
  
 
  
-
 

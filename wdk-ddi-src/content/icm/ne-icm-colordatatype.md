@@ -7,7 +7,7 @@ old-location: print\colordatatype.htm
 old-project: print
 ms.assetid: ff7c9a81-3445-4a9e-aee3-2c63aafb0c82
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PCOLORDATATYPE, COLORDATATYPE, COLORDATATYPE enumeration [Print Devices], COLOR_10b_R10G10B10A2, COLOR_10b_R10G10B10A2_XR, COLOR_BYTE, COLOR_FLOAT, COLOR_FLOAT16, COLOR_S2DOT13FIXED, COLOR_WORD, colorfnc_6619f1aa-d905-47ef-bd39-2fe34446e831.xml, icm/COLORDATATYPE, icm/COLOR_10b_R10G10B10A2, icm/COLOR_10b_R10G10B10A2_XR, icm/COLOR_BYTE, icm/COLOR_FLOAT, icm/COLOR_FLOAT16, icm/COLOR_S2DOT13FIXED, icm/COLOR_WORD, print.colordatatype"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	icm.h
 api_name:
 -	COLORDATATYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: COLORDATATYPE
 ---
@@ -50,22 +51,6 @@ req.typenames: COLORDATATYPE
 
 
 The values of the COLORDATATYPE enumeration are used by WCS functions to indicate the data type of vector content.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  COLOR_BYTE                = 1,
-  COLOR_WORD                = 2,
-  COLOR_FLOAT               = 3,
-  COLOR_S2DOT13FIXED        = 4,
-  COLOR_10b_R10G10B10A2     = 5,
-  COLOR_10b_R10G10B10A2_XR  = 6,
-  COLOR_FLOAT16             = 7
-} COLORDATATYPE;
-````
 
 
 ## -enum-fields

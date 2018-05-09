@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.DrvWriteSpoolBuf
-title: IPrintCorePS2::DrvWriteSpoolBuf method
+title: IPrintCorePS2::DrvWriteSpoolBuf
 author: windows-driver-content
 description: The IPrintCorePS2::DrvWriteSpoolBuf method is provided by the Pscript5 driver so that a rendering plug-in can send printer data to the spooler.
 old-location: print\iprintcoreps2_drvwritespoolbuf.htm
 old-project: print
 ms.assetid: 25405dd8-730e-4de6-af44-9dd584ed3087
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices], IPrintCorePS2 interface, DrvWriteSpoolBuf,IPrintCorePS2.DrvWriteSpoolBuf, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], DrvWriteSpoolBuf method, IPrintCorePS2::DrvWriteSpoolBuf, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml
+ms.date: 4/20/2018
+ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],DrvWriteSpoolBuf method, IPrintCorePS2.DrvWriteSpoolBuf, IPrintCorePS2::DrvWriteSpoolBuf, prcomoem/IPrintCorePS2::DrvWriteSpoolBuf, print.iprintcoreps2_drvwritespoolbuf, print_unidrv-pscript_rendering_56d81faa-5b82-4d07-beb1-9a8a82fc7409.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintCorePS2.DrvWriteSpoolBuf
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCorePS2::DrvWriteSpoolBuf method
+# IPrintCorePS2::DrvWriteSpoolBuf
 
 
 ## -description
 
 
 The <code>IPrintCorePS2::DrvWriteSpoolBuf</code> method is provided by the Pscript5 driver so that a <a href="https://msdn.microsoft.com/e55ca083-2790-4929-9e5b-6fce49eb0404">rendering plug-in</a> can send printer data to the spooler.
-
-
-## -syntax
-
-
-````
-HRESULT DrvWriteSpoolBuf(
-  [in]  PDEVOBJ pdevobj ,
-  [in]  PVOID   pBuffer ,
-  [in]  DWORD   cbSize ,
-  [out] DWORD   *pdwResult 
-);
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ HRESULT DrvWriteSpoolBuf(
 
 ### -param pdevobj [in]
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param pBuffer [in]
@@ -152,16 +139,15 @@ This method has the same behavior as <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/bf7e15df-49ba-4850-acf6-dab5dc137f48">IPrintCorePS2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553103">IPrintOemDriverPS::DrvWriteSpoolBuf</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcoreps2.md">IPrintCorePS2</a>
-
-
-
  
 
  
-
 

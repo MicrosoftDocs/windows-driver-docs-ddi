@@ -7,7 +7,7 @@ old-location: stream\bda_filter_template.htm
 old-project: stream
 ms.assetid: 93078225-3487-46db-b13e-e2013be86d97
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE, BDA_FILTER_TEMPLATE structure [Streaming Media Devices], PBDA_FILTER_TEMPLATE, PBDA_FILTER_TEMPLATE structure pointer [Streaming Media Devices], _BDA_FILTER_TEMPLATE, bdaref_cf65795d-632d-4c79-9136-95c256ae8b35.xml, bdasup/BDA_FILTER_TEMPLATE, bdasup/PBDA_FILTER_TEMPLATE, stream.bda_filter_template"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bdasup.h
 api_name:
 -	BDA_FILTER_TEMPLATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_FILTER_TEMPLATE, *PBDA_FILTER_TEMPLATE
 ---
@@ -50,18 +51,6 @@ req.typenames: BDA_FILTER_TEMPLATE, *PBDA_FILTER_TEMPLATE
 
 
 The BDA_FILTER_TEMPLATE structure describes the template topology for a BDA filter. 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_FILTER_TEMPLATE {
-  const KSFILTER_DESCRIPTOR *pFilterDescriptor;
-  ULONG                     ulcPinPairs;
-  const BDA_PIN_PAIRING     *pPinPairs;
-} BDA_FILTER_TEMPLATE, *PBDA_FILTER_TEMPLATE;
-````
 
 
 ## -struct-fields
@@ -86,24 +75,23 @@ Array of BDA_PIN_PAIRING structures that describe the topology between a pair of
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
 
 
 
-<a href="..\bdasup\ns-bdasup-_bda_pin_pairing.md">BDA_PIN_PAIRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556544">BDA_PIN_PAIRING</a>
 
 
 
-<a href="..\bdasup\nf-bdasup-bdacreatefilterfactory.md">BdaCreateFilterFactory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556438">BdaCreateFilterFactory</a>
 
 
 
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556464">BdaInitFilter</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a>
  
 
  
-
 

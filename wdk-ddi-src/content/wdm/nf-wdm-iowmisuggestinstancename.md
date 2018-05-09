@@ -7,7 +7,7 @@ old-location: kernel\iowmisuggestinstancename.htm
 old-project: kernel
 ms.assetid: a07ff2f6-e67e-489e-a477-6dc4b4ce6fed
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoWMISuggestInstanceName, IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture], k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml, kernel.iowmisuggestinstancename, wdm/IoWMISuggestInstanceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoWMISuggestInstanceName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoWMISuggestInstanceName function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoWMISuggestInstanceName</b> routine is used to request that WMI suggest a base name which a driver can use to build WMI instance names for the device.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoWMISuggestInstanceName(
-  _In_opt_ PDEVICE_OBJECT  PhysicalDeviceObject,
-  _In_opt_ PUNICODE_STRING SymbolicLinkName,
-  _In_     BOOLEAN         CombineNames,
-  _Out_    PUNICODE_STRING SuggestedInstanceName
-);
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ If supplied, points to the driver's physical device object.
 
 ### -param SymbolicLinkName [in, optional]
 
-If supplied, points to the symbolic link name returned from <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>. 
+If supplied, points to the symbolic link name returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a>. 
 
 
 ### -param CombineNames [in]
@@ -88,7 +75,7 @@ If <b>TRUE</b> then the suggested names returned will combine the <i>PhysicalDev
 
 ### -param SuggestedInstanceName [out]
 
-A pointer to a buffer which upon successful completion will contain a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> which contains the suggested instance name. The caller is responsible for freeing this buffer when it is no longer needed.
+A pointer to a buffer which upon successful completion will contain a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> which contains the suggested instance name. The caller is responsible for freeing this buffer when it is no longer needed.
 
 
 ## -returns
@@ -163,12 +150,11 @@ If the <i>CombineNames</i> parameter is <b>TRUE</b> then both <i>PhysicalDeviceO
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiallocateinstanceids.md">IoWMIAllocateInstanceIds</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550429">IoWMIAllocateInstanceIds</a>
  
 
  
-
 

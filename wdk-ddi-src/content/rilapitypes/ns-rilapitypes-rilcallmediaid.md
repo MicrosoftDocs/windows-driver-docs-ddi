@@ -7,7 +7,7 @@ old-location: netvista\rilcallmediaid.htm
 old-project: netvista
 ms.assetid: de55805d-d5fe-47ea-832d-536d8a7ee257
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILCALLMEDIAID, RILCALLMEDIAID, RILCALLMEDIAID structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaid, ntddrilapitypes/RILCALLMEDIAID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIAID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIAID, *LPRILCALLMEDIAID
-req.product: Windows 10 or later.
 ---
 
 # RILCALLMEDIAID structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILCALLMEDIAID {
-  RILCALLMEDIATYPE  dwType;
-  DWORD             dwID;
-} RILCALLMEDIAID, RILCALLMEDIAID;
-````
 
 
 ## -struct-fields

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag.GetBool
-title: IPrinterScriptablePropertyBag::GetBool method
+title: IPrinterScriptablePropertyBag::GetBool
 author: windows-driver-content
 description: Gets a specified boolean property.
 old-location: print\iprinterscriptablepropertybag_getbool.htm
 old-project: print
 ms.assetid: EEBB916B-0E7B-4523-BB13-A4758F5491BB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetBool method [Print Devices], GetBool method [Print Devices], IPrinterScriptablePropertyBag interface, GetBool,IPrinterScriptablePropertyBag.GetBool, IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], GetBool method, IPrinterScriptablePropertyBag::GetBool, print.iprinterscriptablepropertybag_getbool, printerextension/IPrinterScriptablePropertyBag::GetBool
+ms.date: 4/20/2018
+ms.keywords: GetBool, GetBool method [Print Devices], GetBool method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetBool method, IPrinterScriptablePropertyBag.GetBool, IPrinterScriptablePropertyBag::GetBool, print.iprinterscriptablepropertybag_getbool, printerextension/IPrinterScriptablePropertyBag::GetBool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterScriptablePropertyBag.GetBool
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptablePropertyBag::GetBool method
+# IPrinterScriptablePropertyBag::GetBool
 
 
 ## -description
 
 
 Gets a specified boolean property.
-
-
-## -syntax
-
-
-````
-HRESULT GetBool(
-  [in]          BSTR bstrName,
-  [out, retval] BOOL *pbValue
-);
-````
 
 
 ## -parameters
@@ -99,12 +88,11 @@ A call to <b>GetBool</b> will throw an exception, if the specified property is n
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterscriptablepropertybag.md">IPrinterScriptablePropertyBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
  
 
  
-
 

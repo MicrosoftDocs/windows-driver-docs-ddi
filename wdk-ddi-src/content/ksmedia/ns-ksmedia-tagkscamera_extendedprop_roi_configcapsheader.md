@@ -7,7 +7,7 @@ old-location: stream\kscamera_extendedprop_roi_configcapsheader.htm
 old-project: stream
 ms.assetid: E915BF71-F29C-440B-9A56-50389AA8A9CF
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER, KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER, KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER, PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER, stream.kscamera_extendedprop_roi_configcapsheader, tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER, *PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER
 ---
@@ -52,18 +53,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER, *PKSCAMERA_EXTENDEDPR
 This structure contains the header information for ROI capabilities.
 
 
-## -syntax
-
-
-````
-typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER {
-  ULONG     Size;
-  ULONG     ConfigCapCount;
-  ULONGLONG Reserved;
-} KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER, *PKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPSHEADER {
 
 ### -field Size
 
-The size of this header and all <a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_roi_configcaps.md">KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS</a> structures that follow.
+The size of this header and all <a href="https://msdn.microsoft.com/library/windows/hardware/dn925154">KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS</a> structures that follow.
 
 
 ### -field ConfigCapCount

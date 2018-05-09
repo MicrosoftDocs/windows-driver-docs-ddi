@@ -7,8 +7,8 @@ old-location: serports\evtsercxfileclose.htm
 old-project: serports
 ms.assetid: C72CA6D0-DD85-46AC-9CE3-BE11233475C0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 1/EvtSerCxFileClose, EVT_SERCX_FILECLOSE, EvtSerCxFileClose, EvtSerCxFileClose callback function [Serial Ports], serports.evtsercxfileclose
+ms.date: 4/23/2018
+ms.keywords: 1/EvtSerCxFileClose, EVT_SERCX_FILECLOSE, EVT_SERCX_FILECLOSE callback, EvtSerCxFileClose, EvtSerCxFileClose callback function [Serial Ports], serports.evtsercxfileclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	1.0\Sercx.h
 api_name:
 -	EvtSerCxFileClose
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX_FILECLOSE callback
+# EVT_SERCX_FILECLOSE callback function
 
 
 ## -description
 
 
 The <i>EvtSerCxFileClose</i> event callback function notifies the serial controller driver that the file object that represents the serial controller device has been released.
-
-
-## -prototype
-
-
-````
-EVT_SERCX_FILECLOSE EvtSerCxFileClose;
-
-VOID EvtSerCxFileClose(
-  _In_ WDFDEVICE Device
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -89,11 +76,11 @@ None.
 
 
 
-This function should remove the serial controller device from the state in which it is ready to receive and transmit data. This function should disable interrupts if interrupts are enabled. Any memory that is allocated only for the lifetime of the file object should be deallocated either in this function or in the <a href="..\sercx\nc-sercx-evt_sercx_filecleanup.md">EvtSerCxFileCleanup</a> function.
+This function should remove the serial controller device from the state in which it is ready to receive and transmit data. This function should disable interrupts if interrupts are enabled. Any memory that is allocated only for the lifetime of the file object should be deallocated either in this function or in the <a href="https://msdn.microsoft.com/D9E19BD1-2C44-4F86-9AEB-F50443FAE8DC">EvtSerCxFileCleanup</a> function.
 
 If the serial controller driver implements an <i>EvtSerCxFileCleanup</i> function, the serial framework extension (SerCx)  calls this function before it calls the <i>EvtSerCxFileClose</i> function. SerCx calls the <i>EvtSerCxFileCleanup</i> function when a client closes the last handle to the file object that represents the serial controller device. After this call, the driver receives no new requests for I/O operations. SerCx calls the <i>EvtSerCxFileClose</i> function when the file object is released, which occurs only after all outstanding I/O requests are either completed or canceled.
 
-To register an <i>EvtSerCxFileClose</i> callback function, the driver must call the <a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a> method.
+To register an <i>EvtSerCxFileClose</i> callback function, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406711">SerCxInitialize</a> method.
 
 For more information, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.
 
@@ -151,16 +138,15 @@ For more information about SDV requirements for function declarations, see <a hr
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxinitialize.md">SerCxInitialize</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_filecleanup.md">EvtSerCxFileCleanup</a>
+<a href="https://msdn.microsoft.com/D9E19BD1-2C44-4F86-9AEB-F50443FAE8DC">EvtSerCxFileCleanup</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406711">SerCxInitialize</a>
  
 
  
-
 

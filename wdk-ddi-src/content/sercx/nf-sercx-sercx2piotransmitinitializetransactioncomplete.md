@@ -7,7 +7,7 @@ old-location: serports\sercx2piotransmitinitializetransactioncomplete.htm
 old-project: serports
 ms.assetid: 3A2CA5FB-0844-4992-9A05-DDF9D7F1BADC
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 2/SerCx2PioTransmitInitializeTransactionComplete, SerCx2PioTransmitInitializeTransactionComplete, SerCx2PioTransmitInitializeTransactionComplete method [Serial Ports], serports.sercx2piotransmitinitializetransactioncomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	SerCx2PioTransmitInitializeTransactionComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCx2PioTransmitInitializeTransactionComplete function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>SerCx2PioTransmitInitializeTransactionComplete</b> method notifies version 2 of the serial framework extension (SerCx2) that the serial controller driver has finished initializing the serial controller hardware in preparation for a new PIO-transmit transaction.
 
 
-## -syntax
-
-
-````
-VOID SerCx2PioTransmitInitializeTransactionComplete(
-  [in] SERCX2PIOTRANSMIT PioTransmit,
-  [in] BOOLEAN           InitSuccess
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ VOID SerCx2PioTransmitInitializeTransactionComplete(
 
 ### -param PioTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> method to create this object.
 
 
 ### -param InitSuccess [in]
@@ -92,7 +81,7 @@ None.
 
 
 
-Before SerCx2 initiates a PIO-transmit transaction, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_initialize_transaction.md">EvtSerCx2PioTransmitInitializeTransaction</a> event callback function, if it is implemented, to initialize the serial controller to perform the transaction. In response to this call, the driver should first do any initialization that is needed; then the driver must call <b>SerCx2PioTransmitInitializeTransactionComplete</b> to notify SerCx2. SerCx2 expects this notification and does not start the transaction until it is notified.
+Before SerCx2 initiates a PIO-transmit transaction, SerCx2 calls the <a href="https://msdn.microsoft.com/2E3652CB-24F1-4467-AF1D-CFD52392B2DB">EvtSerCx2PioTransmitInitializeTransaction</a> event callback function, if it is implemented, to initialize the serial controller to perform the transaction. In response to this call, the driver should first do any initialization that is needed; then the driver must call <b>SerCx2PioTransmitInitializeTransactionComplete</b> to notify SerCx2. SerCx2 expects this notification and does not start the transaction until it is notified.
 
 The serial controller driver must call <b>SerCx2PioTransmitInitializeTransactionComplete</b> only in response to a call to the <i>EvtSerCx2PioTransmitInitializeTransaction</i> function.
 
@@ -103,7 +92,10 @@ For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/2E3652CB-24F1-4467-AF1D-CFD52392B2DB">EvtSerCx2PioTransmitInitializeTransaction</a>
 
 
 
@@ -111,12 +103,8 @@ For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_initialize_transaction.md">EvtSerCx2PioTransmitInitializeTransaction</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a>
  
 
  
-
 

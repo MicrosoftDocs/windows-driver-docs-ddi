@@ -7,7 +7,7 @@ old-location: stream\ksrate_capability.htm
 old-project: stream
 ms.assetid: 70866a87-0ebd-4230-9958-ace18116fa23
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSRATE_CAPABILITY, KSRATE_CAPABILITY, KSRATE_CAPABILITY structure [Streaming Media Devices], PKSRATE_CAPABILITY, PKSRATE_CAPABILITY structure pointer [Streaming Media Devices], ks-struct_4697e3ed-7ef5-4278-be5f-96083d755ab0.xml, ks/KSRATE_CAPABILITY, ks/PKSRATE_CAPABILITY, stream.ksrate_capability"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSRATE_CAPABILITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSRATE_CAPABILITY, *PKSRATE_CAPABILITY
 ---
@@ -50,17 +51,6 @@ req.typenames: KSRATE_CAPABILITY, *PKSRATE_CAPABILITY
 
 
 The client uses the KSRATE_CAPABILITY structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565756">KSPROPERTY_STREAM_RATECAPABILITY</a> property request.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  KSRATE     Rate;
-} KSRATE_CAPABILITY, *PKSRATE_CAPABILITY;
-````
 
 
 ## -struct-fields
@@ -75,5 +65,5 @@ A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware
 
 ### -field Rate
 
-A structure of type <a href="..\ks\ns-ks-ksrate.md">KSRATE</a> that specifies the requested rate.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566752">KSRATE</a> that specifies the requested rate.
 

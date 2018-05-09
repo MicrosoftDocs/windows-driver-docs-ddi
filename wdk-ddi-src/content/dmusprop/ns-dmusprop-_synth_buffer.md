@@ -7,7 +7,7 @@ old-location: audio\synth_buffer.htm
 old-project: audio
 ms.assetid: 51b16308-47a8-42e0-9393-fd93045e4e47
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PSYNTH_BUFFER, PSYNTH_BUFFER, PSYNTH_BUFFER structure pointer [Audio Devices], SYNTH_BUFFER, SYNTH_BUFFER structure [Audio Devices], _SYNTH_BUFFER, aud-prop_297e165a-cb0d-4ea1-b69c-b65bcb4ee69a.xml, audio.synth_buffer, dmusprop/PSYNTH_BUFFER, dmusprop/SYNTH_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dmusprop.h
 api_name:
 -	SYNTH_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SYNTH_BUFFER, *PSYNTH_BUFFER
 ---
@@ -50,17 +51,6 @@ req.typenames: SYNTH_BUFFER, *PSYNTH_BUFFER
 
 
 The SYNTH_BUFFER structure specifies DLS data that is being downloaded to a synthesizer.
-
-
-## -syntax
-
-
-````
-typedef struct _SYNTH_BUFFER {
-  ULONG BufferSize;
-  PVOID BufferAddress;
-} SYNTH_BUFFER, *PSYNTH_BUFFER;
-````
 
 
 ## -struct-fields
@@ -89,12 +79,11 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537396">KSPROPE
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537396">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a>
-
-
-
  
 
  
-
 

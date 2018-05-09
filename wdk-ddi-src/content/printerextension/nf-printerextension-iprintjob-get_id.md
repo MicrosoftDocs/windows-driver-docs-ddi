@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintJob.get_Id
-title: IPrintJob::get_Id method
+title: IPrintJob::get_Id
 author: windows-driver-content
 description: Gets the print job identifier (ID).
 old-location: print\iprintjob_id.htm
 old-project: print
 ms.assetid: 8354E38C-0A3D-48CB-9CA5-0DC0C01FDF17
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintJob, IPrintJob interface [Print Devices], Id property, IPrintJob.Id, IPrintJob::get_Id, Id property [Print Devices], Id property [Print Devices], IPrintJob interface, get_Id, get_Id,IPrintJob.get_Id, print.iprintjob_id, printerextension/IPrintJob::Id, printerextension/IPrintJob::get_Id
+ms.date: 4/20/2018
+ms.keywords: IPrintJob interface [Print Devices],Id property, IPrintJob.Id, IPrintJob.get_Id, IPrintJob::Id, IPrintJob::get_Id, Id property [Print Devices], Id property [Print Devices],IPrintJob interface, get_Id, print.iprintjob_id, printerextension/IPrintJob::Id, printerextension/IPrintJob::get_Id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,13 +39,13 @@ api_location:
 api_name:
 -	IPrintJob.Id
 -	IPrintJob.get_Id
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintJob::get_Id method
+# IPrintJob::get_Id
 
 
 ## -description
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 Gets the print job identifier (ID).
 
 This property is read-only.
-
-
-## -syntax
-
-
-````
-HRESULT get_Id(
-  [out, retval] ULONG *pulID
-);
-````
 
 
 ## -parameters
@@ -80,12 +70,11 @@ You must not use the <b>IPrintJob::Id</b> property  to invoke spooler Job APIs. 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
  
 
  
-
 

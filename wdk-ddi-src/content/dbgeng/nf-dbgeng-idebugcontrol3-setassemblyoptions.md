@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetAssemblyOptions
-title: IDebugControl3::SetAssemblyOptions method
+title: IDebugControl3::SetAssemblyOptions
 author: windows-driver-content
 description: The SetAssemblyOptions method sets the assembly and disassembly options that affect how the debugger engine assembles and disassembles processor instructions for the target.
 old-location: debugger\setassemblyoptions.htm
 old-project: debugger
 ms.assetid: ec86ac71-212c-4edd-94c6-bab1cb5fa660
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], SetAssemblyOptions method, IDebugControl3::SetAssemblyOptions, IDebugControl_b39768e8-fb98-4056-b548-c568316279e1.xml, SetAssemblyOptions method [Windows Debugging], SetAssemblyOptions method [Windows Debugging], IDebugControl3 interface, SetAssemblyOptions,IDebugControl3.SetAssemblyOptions, dbgeng/IDebugControl3::SetAssemblyOptions, debugger.setassemblyoptions
+ms.date: 4/24/2018
+ms.keywords: IDebugControl3 interface [Windows Debugging],SetAssemblyOptions method, IDebugControl3.SetAssemblyOptions, IDebugControl3::SetAssemblyOptions, IDebugControl_b39768e8-fb98-4056-b548-c568316279e1.xml, SetAssemblyOptions, SetAssemblyOptions method [Windows Debugging], SetAssemblyOptions method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::SetAssemblyOptions, debugger.setassemblyoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl3.SetAssemblyOptions
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::SetAssemblyOptions method
+# IDebugControl3::SetAssemblyOptions
 
 
 ## -description
 
 
 The <b>SetAssemblyOptions</b> method sets the assembly and disassembly options that affect how the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> assembles and disassembles processor instructions for the target.
-
-
-## -syntax
-
-
-````
-HRESULT SetAssemblyOptions(
-  [in] ULONG Options
-);
-````
 
 
 ## -parameters
@@ -173,27 +164,6 @@ Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assem
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
 
 
 
@@ -201,8 +171,28 @@ Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assem
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
  
 
  
-
 

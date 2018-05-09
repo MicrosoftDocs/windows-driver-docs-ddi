@@ -7,7 +7,7 @@ old-location: print\drvpopulatefilterservices.htm
 old-project: print
 ms.assetid: A24DAC54-57FE-419D-8B5D-54B8AFC338DE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: DrvPopulateFilterServices, DrvPopulateFilterServices function [Print Devices], filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Filterpipeline.h
 api_name:
 -	DrvPopulateFilterServices
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # DrvPopulateFilterServices function
@@ -50,16 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>DrvPopulateFilterServices</b> function is called by the XPSDrv filter pipeline manager to allow the service provider to instantiate  filter service objects in the filter pipeline property bag specified by the <i>pPropertyBag</i> parameter.
-
-
-## -syntax
-
-
-````
-HRESULT WINAPI DrvPopulateFilterServices(
-  _In_ IPrintPipelinePropertyBag *pPropertyBag
-);
-````
 
 
 ## -parameters
@@ -92,11 +83,6 @@ The <a href="https://msdn.microsoft.com/7567c514-3034-4db0-9622-31d14eb3772e">XP
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/7567c514-3034-4db0-9622-31d14eb3772e">XPSDrv printer driver</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554320">IPrintPipelinePropertyBag</a>
 
 
 
@@ -104,8 +90,12 @@ The <a href="https://msdn.microsoft.com/7567c514-3034-4db0-9622-31d14eb3772e">XP
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554320">IPrintPipelinePropertyBag</a>
+
+
+
+<a href="https://msdn.microsoft.com/7567c514-3034-4db0-9622-31d14eb3772e">XPSDrv printer driver</a>
  
 
  
-
 

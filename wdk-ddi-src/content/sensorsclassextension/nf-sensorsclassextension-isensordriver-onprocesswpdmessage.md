@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnProcessWpdMessage
-title: ISensorDriver::OnProcessWpdMessage method
+title: ISensorDriver::OnProcessWpdMessage
 author: windows-driver-content
 description: The ISensorDriver::OnProcessWpdMessage method handles Windows Portable Device (WPD) commands that the ISensorClassExtension::ProcessIoControl method does not handle internally.
 old-location: sensors\isensordriver_onprocesswpdmessage.htm
 old-project: sensors
 ms.assetid: 4780d0ea-a54a-4125-b3b6-2210a14eff71
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorDriver, ISensorDriver::OnProcessWpdMessage, OnProcessWpdMessage method [Sensor Devices], OnProcessWpdMessage,ISensorDriver.OnProcessWpdMessage, sensors.isensordriver_onprocesswpdmessage
+ms.date: 4/30/2018
+ms.keywords: ISensorDriver interface [Sensor Devices],OnProcessWpdMessage method, ISensorDriver.OnProcessWpdMessage, ISensorDriver::OnProcessWpdMessage, OnProcessWpdMessage, OnProcessWpdMessage method [Sensor Devices], OnProcessWpdMessage method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onprocesswpdmessage, sensorsclassextension/ISensorDriver::OnProcessWpdMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,30 +39,19 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	OnProcessWpdMessage
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorDriver::OnProcessWpdMessage method
+# ISensorDriver::OnProcessWpdMessage
 
 
 ## -description
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545644">ISensorDriver::OnProcessWpdMessage</a> method handles Windows Portable Device (WPD) commands that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545536">ISensorClassExtension::ProcessIoControl</a> method does not handle internally. 
-
-
-## -syntax
-
-
-````
-HRESULT OnProcessWpdMessage(
-   IUnknown * pUnkPortableDeviceValuesParams,
-   IUnknown * pUnkPortableDeviceValuesResults
-);
-````
 
 
 ## -parameters
@@ -96,4 +85,15 @@ If the operation succeeds, this method returns S_OK. Otherwise, this method retu
 This method enables you to extend the WPD commands and interfaces in a device-specific way.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+ 
+
+ 
 

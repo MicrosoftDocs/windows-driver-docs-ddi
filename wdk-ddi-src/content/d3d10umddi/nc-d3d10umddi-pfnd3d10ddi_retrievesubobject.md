@@ -7,8 +7,8 @@ old-location: display\retrievesubobject_d3d11_1_.htm
 old-project: display
 ms.assetid: 9029ec8d-102f-4d83-8ab5-fc208d8b5249
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D10DDI_RETRIEVESUBOBJECT, RetrieveSubObject(D3D11_1), RetrieveSubObject(D3D11_1) callback function [Display Devices], d3d10umddi/RetrieveSubObject(D3D11_1), display.retrievesubobject, display.retrievesubobject_d3d11_1_
+ms.date: 4/16/2018
+ms.keywords: PFND3D10DDI_RETRIEVESUBOBJECT, PFND3D10DDI_RETRIEVESUBOBJECT callback, RetrieveSubObject(D3D11_1), RetrieveSubObject(D3D11_1) callback function [Display Devices], d3d10umddi/RetrieveSubObject(D3D11_1), display.retrievesubobject, display.retrievesubobject_d3d11_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	RetrieveSubObject(D3D11_1)
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_RETRIEVESUBOBJECT callback
+# PFND3D10DDI_RETRIEVESUBOBJECT callback function
 
 
 ## -description
@@ -52,30 +53,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Retrieves subparts of the Microsoft Direct3D driver device object. 
 
 
-## -prototype
-
-
-````
-PFND3D10DDI_RETRIEVESUBOBJECT RetrieveSubObject(D3D11_1);
-
-HRESULT APIENTRY* RetrieveSubObject(D3D11_1)(
-        D3D10DDI_HDEVICE hDevice,
-  _In_  UINT32           SubDeviceID,
-  _In_  SIZE_T           ParamSize,
-  _In_  void             *pParams,
-  _In_  SIZE_T           OutputParamSize,
-  _Out_ void             *pOutputParamsBuffer
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param SubDeviceID [in]
@@ -94,7 +77,7 @@ The function table being retrieved, with the following possible values.
 </dl>
 </td>
 <td width="60%">
-A video function table that is described as a   structure. The function returns a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_videodevicefuncs.md">D3D11_1DDI_VIDEODEVICEFUNCS</a> structure in the buffer referenced by the <i>pOutputParamsBuffer</i> parameter.
+A video function table that is described as a   structure. The function returns a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406452">D3D11_1DDI_VIDEODEVICEFUNCS</a> structure in the buffer referenced by the <i>pOutputParamsBuffer</i> parameter.
 
 </td>
 </tr>
@@ -105,7 +88,7 @@ A video function table that is described as a   structure. The function returns 
 </dl>
 </td>
 <td width="60%">
-A WDDM 2.0 and later video function table that is described as a   structure. The function returns a <a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_videodevicefuncs.md">D3DWDDM2_0DDI_VIDEODEVICEFUNCS</a> structure in the buffer referenced by the <i>pOutputParamsBuffer</i> parameter.
+A WDDM 2.0 and later video function table that is described as a   structure. The function returns a <a href="https://msdn.microsoft.com/library/windows/hardware/dn894613">D3DWDDM2_0DDI_VIDEODEVICEFUNCS</a> structure in the buffer referenced by the <i>pOutputParamsBuffer</i> parameter.
 
 Supported starting with WDDM 2.0.
 
@@ -156,7 +139,7 @@ Returns S_OK if the operation succeeds. Otherwise, this function returns an appr
 
 
 
-The Direct3D runtime considers the retrieved subparts to be appended to the Direct3D driver device object and expects  them to be destroyed along with the rest of the device when <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroydevice.md">DestroyDevice</a> is called.
+The Direct3D runtime considers the retrieved subparts to be appended to the Direct3D driver device object and expects  them to be destroyed along with the rest of the device when <a href="https://msdn.microsoft.com/90ada8c8-8ad8-4992-aac1-6eb7fdf3f249">DestroyDevice</a> is called.
 
 Subdevices are retrieved from the root device object independently. The DDI interface version is provided implicitly within the subdevice ID.
 
@@ -167,20 +150,19 @@ This function is free-threaded.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_videodevicefuncs.md">D3DWDDM2_0DDI_VIDEODEVICEFUNCS</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_videodevicefuncs.md">D3D11_1DDI_VIDEODEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406452">D3D11_1DDI_VIDEODEVICEFUNCS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_destroydevice.md">DestroyDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn894613">D3DWDDM2_0DDI_VIDEODEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/90ada8c8-8ad8-4992-aac1-6eb7fdf3f249">DestroyDevice</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ril_disablemodemfilters.htm
 old-project: netvista
 ms.assetid: eb1ac5cc-f757-4aee-9a21-ed4b03d4b6a8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_DisableModemFilters, RIL_DisableModemFilters method [Network Drivers Starting with Windows Vista], netvista.ril_disablemodemfilters, rilapi/RIL_DisableModemFilters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_DisableModemFilters
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_DisableModemFilters function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_DisableModemFilters(
-   HRIL   hRil,
-   LPVOID lpContext,
-   DWORD  filterID
-);
-````
 
 
 ## -parameters

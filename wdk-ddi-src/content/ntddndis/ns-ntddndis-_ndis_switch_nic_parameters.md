@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_nic_parameters.htm
 old-project: netvista
 ms.assetid: 52B9DD8B-E96F-464C-9D98-5EF8B6C050C5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_FLAGS_NIC_INITIALIZING, NDIS_SWITCH_NIC_PARAMETERS, NDIS_SWITCH_NIC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_PARAMETERS, PNDIS_SWITCH_NIC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_PARAMETERS, netvista.ndis_switch_nic_parameters, ntddndis/NDIS_SWITCH_NIC_PARAMETERS, ntddndis/PNDIS_SWITCH_NIC_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SWITCH_NIC_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SWITCH_NIC_PARAMETERS, *PNDIS_SWITCH_NIC_PARAMETERS
 ---
@@ -55,32 +56,6 @@ The <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure specifies the configuration para
 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_SWITCH_NIC_PARAMETERS {
-  NDIS_OBJECT_HEADER           Header;
-  ULONG                        Flags;
-  NDIS_SWITCH_NIC_NAME         NicName;
-  NDIS_SWITCH_NIC_FRIENDLYNAME NicFriendlyName;
-  NDIS_SWITCH_PORT_ID          PortId;
-  NDIS_SWITCH_NIC_INDEX        NicIndex;
-  NDIS_SWITCH_NIC_TYPE         NicType;
-  NDIS_SWITCH_NIC_STATE        NicState;
-  NDIS_VM_NAME                 VmName;
-  NDIS_VM_FRIENDLYNAME         VMFriendlyName;
-  GUID                         NetCfgInstanceId;
-  ULONG                        MTU;
-  USHORT                       NumaNodeId;
-  UCHAR                        PermanentMacAddress[NDIS_MAX_PHYS_ADDRESS_LENGTH];
-  UCHAR                        VMMacAddress[NDIS_MAX_PHYS_ADDRESS_LENGTH];
-  UCHAR                        CurrentMacAddress[NDIS_MAX_PHYS_ADDRESS_LENGTH];
-  BOOLEAN                      VFAssigned;
-} NDIS_SWITCH_NIC_PARAMETERS, *PNDIS_SWITCH_NIC_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -88,7 +63,7 @@ typedef struct _NDIS_SWITCH_NIC_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value: 
 
@@ -160,12 +135,12 @@ For more information on NDIS_SWITCH_NIC_INDEX values, see <a href="https://msdn.
 
 ### -field NicType
 
-An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_type.md">NDIS_SWITCH_NIC_TYPE</a> value that specifies the type of the network adapter that is connected to an extensible switch port.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/hh598218">NDIS_SWITCH_NIC_TYPE</a> value that specifies the type of the network adapter that is connected to an extensible switch port.
 
 
 ### -field NicState
 
-An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_state.md">NDIS_SWITCH_NIC_STATE</a> value that specifies the current state of the network adapter.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/jj673024">NDIS_SWITCH_NIC_STATE</a> value that specifies the current state of the network adapter.
 
 
 ### -field VmName
@@ -223,7 +198,7 @@ A <b>UCHAR</b> array that specifies the media access control (MAC) address as co
 
 ### -field VMMacAddress
 
-A <b>UCHAR</b> array that specifies the MAC address that is configured on the network adapter inside the VM itself. The field is all zeros for non VM NICs. If <i>AllowMacSpoofing</i> (from <a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_security.md">NDIS_SWITCH_PORT_PROPERTY_SECURITY</a>) is TRUE, this address will also be applied to the <i>CurrentMacAddress.</i>
+A <b>UCHAR</b> array that specifies the MAC address that is configured on the network adapter inside the VM itself. The field is all zeros for non VM NICs. If <i>AllowMacSpoofing</i> (from <a href="https://msdn.microsoft.com/library/windows/hardware/hh598241">NDIS_SWITCH_PORT_PROPERTY_SECURITY</a>) is TRUE, this address will also be applied to the <i>CurrentMacAddress.</i>
 
 
 ### -field CurrentMacAddress
@@ -260,7 +235,7 @@ An NDIS_VM_FRIENDLYNAME value that specifies the external name of the Hyper-V ch
 
 
 
-OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a> return an <a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a> structure that contains zero or more elements. Each element is formatted as an <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure.
+OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a> return an <a href="https://msdn.microsoft.com/library/windows/hardware/hh598212">NDIS_SWITCH_NIC_ARRAY</a> structure that contains zero or more elements. Each element is formatted as an <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure.
 
 The <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure is also used in the following OID requests: 
 
@@ -342,7 +317,14 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598268">OID_SWITCH_NIC_SAVE</a>
+
+
+
+<b></b>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -350,31 +332,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_state.md">NDIS_SWITCH_NIC_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598212">NDIS_SWITCH_NIC_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598265">OID_SWITCH_NIC_DISCONNECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598215">NDIS_SWITCH_NIC_PARAMETERS</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_parameters.md">NDIS_SWITCH_NIC_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj673024">NDIS_SWITCH_NIC_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598269">OID_SWITCH_NIC_SAVE_COMPLETE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598263">OID_SWITCH_NIC_CREATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598218">NDIS_SWITCH_NIC_TYPE</a>
 
 
 
@@ -386,24 +356,28 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598263">OID_SWITCH_NIC_CREATE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598264">OID_SWITCH_NIC_DELETE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_nic_array.md">NDIS_SWITCH_NIC_ARRAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598265">OID_SWITCH_NIC_DISCONNECT</a>
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_nic_type.md">NDIS_SWITCH_NIC_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598268">OID_SWITCH_NIC_SAVE</a>
 
 
 
-<b></b>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598269">OID_SWITCH_NIC_SAVE_COMPLETE</a>
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-switch-nic-updated">OID_SWITCH_NIC_UPDATED</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\decodeendframe.htm
 old-project: display
 ms.assetid: 6e8d3280-6ddc-4593-9208-c4f0c9ff254c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DecodeEndFrame, DecodeEndFrame callback function [Display Devices], PFND3DDDI_DECODEENDFRAME, UserModeDisplayDriver_Functions_c80e307b-2b64-4b43-84c3-cae711e8282f.xml, d3dumddi/DecodeEndFrame, display.decodeendframe
+ms.date: 4/16/2018
+ms.keywords: DecodeEndFrame, DecodeEndFrame callback function [Display Devices], PFND3DDDI_DECODEENDFRAME, PFND3DDDI_DECODEENDFRAME callback, UserModeDisplayDriver_Functions_c80e307b-2b64-4b43-84c3-cae711e8282f.xml, d3dumddi/DecodeEndFrame, display.decodeendframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DecodeEndFrame
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DECODEENDFRAME callback
+# PFND3DDDI_DECODEENDFRAME callback function
 
 
 ## -description
 
 
 The <b>DecodeEndFrame</b> function notifies the user-mode display driver that all of the data that was required to decode the current frame was submitted.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_DECODEENDFRAME DecodeEndFrame;
-
-__checkReturn HRESULT APIENTRY DecodeEndFrame(
-  _In_    HANDLE                   hDevice,
-  _Inout_ D3DDDIARG_DECODEENDFRAME *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY DecodeEndFrame(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeendframe.md">D3DDDIARG_DECODEENDFRAME</a> structure that describes the DirectX VA decoder that should stop decoding a frame.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542991">D3DDDIARG_DECODEENDFRAME</a> structure that describes the DirectX VA decoder that should stop decoding a frame.
 
 
 ## -returns
@@ -133,27 +120,26 @@ DecodeEndFrame could not allocate the required memory for it to complete.
 
 
 
-The <b>DecodeEndFrame</b> function notifies the user-mode display driver that its <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeexecute.md">DecodeExecute</a> function can no longer be called on the specified decode device.
+The <b>DecodeEndFrame</b> function notifies the user-mode display driver that its <a href="https://msdn.microsoft.com/e12496c0-e3e4-437e-9f84-a30ee99b4541">DecodeExecute</a> function can no longer be called on the specified decode device.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_decodeendframe.md">D3DDDIARG_DECODEENDFRAME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542991">D3DDDIARG_DECODEENDFRAME</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeexecute.md">DecodeExecute</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/e12496c0-e3e4-437e-9f84-a30ee99b4541">DecodeExecute</a>
  
 
  
-
 

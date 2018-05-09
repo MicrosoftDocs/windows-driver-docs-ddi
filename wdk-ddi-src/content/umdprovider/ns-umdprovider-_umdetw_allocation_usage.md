@@ -7,7 +7,7 @@ old-location: display\umdetw_allocation_usage.htm
 old-project: display
 ms.assetid: 40522471-0fbc-4193-8164-60138e3862fe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, umdprovider/UMDETW_ALLOCATION_USAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	umdprovider.h
 api_name:
 -	UMDETW_ALLOCATION_USAGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
 ---
 
 # _UMDETW_ALLOCATION_USAGE structure
@@ -51,24 +51,6 @@ req.product: Windows 10 or later.
 
 
 Indicates the reason for mapping from a Microsoft Direct3D  memory allocation to a Microsoft DirectX graphics kernel subsystem (Dxgkrnl.sys) allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _UMDETW_ALLOCATION_USAGE {
-  union {
-    struct {
-      UINT Packed  :1;
-      UINT Renamed  :1;
-      UINT Reserved  :14;
-      UINT DriverReserved  :16;
-    };
-    UINT   Value;
-  };
-} UMDETW_ALLOCATION_USAGE;
-````
 
 
 ## -struct-fields
@@ -96,19 +78,18 @@ Reserved for system use. Do not use in your driver.
 The driver can use these bit fields for its own internal purposes.
 
 
-#### - Value
+### -field Value
 
 A 32-bit value that specifies the allocation mapping.
 
 
 ## -see-also
 
-<a href="..\umdprovider\nf-umdprovider-umdetwlogmapallocation.md">UMDEtwLogMapAllocation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a>
  
 
  
-
 

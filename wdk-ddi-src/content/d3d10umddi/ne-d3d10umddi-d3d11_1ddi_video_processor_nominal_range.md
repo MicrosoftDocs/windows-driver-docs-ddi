@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_processor_nominal_range.htm
 old-project: display
 ms.assetid: E8D77D49-9E7C-45B3-850C-1E814B44464B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE, D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255, D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235, D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED, DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED, display.d3d11_1ddi_video_processor_nominal_range
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	DXVAHDDDI_NOMINAL_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE
 
 
 Indicates the luminance range of YUV data.
-
-
-## -syntax
-
-
-````
-typedef enum _DXVAHDDDI_NOMINAL_RANGE { 
-  D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_UNDEFINED  = 0,
-  D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_16_235     = 1,
-  D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE_0_255      = 2
-} DXVAHDDDI_NOMINAL_RANGE;
-````
 
 
 ## -enum-fields

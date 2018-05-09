@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL  (See Remarks section.)"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WDF_USB_PIPE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_PIPE_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_USB_PIPE_TYPE enumeration
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_USB_PIPE_TYPE</b> enumeration identifies the types of USB pipes.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_USB_PIPE_TYPE { 
-  WdfUsbPipeTypeInvalid      = 0,
-  WdfUsbPipeTypeControl      = 1,
-  WdfUsbPipeTypeIsochronous  = 2,
-  WdfUsbPipeTypeBulk         = 3,
-  WdfUsbPipeTypeInterrupt    = 4
-} WDF_USB_PIPE_TYPE;
-````
 
 
 ## -enum-fields
@@ -103,19 +89,18 @@ The pipe is an interrupt pipe.
 
 
 
-The <b>WDF_USB_PIPE_TYPE</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a> structure.
+The <b>WDF_USB_PIPE_TYPE</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553037">WDF_USB_PIPE_INFORMATION</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_pipe_information.md">WDF_USB_PIPE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553037">WDF_USB_PIPE_INFORMATION</a>
  
 
  
-
 

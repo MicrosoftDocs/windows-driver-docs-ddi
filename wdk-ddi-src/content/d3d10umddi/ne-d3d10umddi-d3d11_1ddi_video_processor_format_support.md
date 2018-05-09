@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_processor_format_support.htm
 old-project: display
 ms.assetid: 3fef0cb0-6584-487d-9660-1c748509a6a9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, display.d3d11_1ddi_video_processor_format_support
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT
 ---
@@ -50,17 +51,6 @@ req.typenames: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT
 
 
 Specifies how a video format can be used for video processing.
-
-
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT { 
-  D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT   = 0x00000001,
-  D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT  = 0x00000002
-} D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT;
-````
 
 
 ## -enum-fields

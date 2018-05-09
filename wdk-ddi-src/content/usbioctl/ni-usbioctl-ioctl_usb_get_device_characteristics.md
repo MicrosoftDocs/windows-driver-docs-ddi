@@ -7,8 +7,8 @@ old-location: buses\_ioctl_usb_get_device_characteristics.htm
 old-project: usbref
 ms.assetid: FEEF13FE-E7CF-4513-8E16-B1E46283883C
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_USB_GET_DEVICE_CHARACTERISTICS, IOCTL_USB_GET_DEVICE_CHARACTERISTICS control code [Buses], buses._ioctl_usb_get_device_characteristics, usbioctl/ IOCTL_USB_GET_DEVICE_CHARACTERISTICS
+ms.date: 4/25/2018
+ms.keywords: IOCTL_USB_GET_DEVICE_CHARACTERISTICS, IOCTL_USB_GET_DEVICE_CHARACTERISTICS control, IOCTL_USB_GET_DEVICE_CHARACTERISTICS control code [Buses], buses._ioctl_usb_get_device_characteristics, usbioctl/ IOCTL_USB_GET_DEVICE_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_USB_GET_DEVICE_CHARACTERISTICS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USB_GET_DEVICE_CHARACTERISTICS IOCTL
@@ -96,12 +96,12 @@ The client driver sends this request to determine general characteristics about 
 
 ### -in-out-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member is a pointer to a caller-allocated <a href="..\usbioctl\ns-usbioctl-_usb_device_characteristics.md">USB_DEVICE_CHARACTERISTIC</a>S structure.  On input, set <b>Version</b> to USB_DEVICE_CHARACTERISTICS_VERSION_1. On output <b>Version</b> is reset to a version less than or equal to USB_DEVICE_CHARACTERISTICS_VERSION_1;  <b>UsbDeviceCharacteristicsFlags</b> is set to USB_DEVICE_CHARACTERISTICS_MAXIMUM_PATH_DELAYS_AVAILABLE and the remaining members of the structure is filled with delay information.
+The <b>AssociatedIrp.SystemBuffer</b> member is a pointer to a caller-allocated <a href="https://msdn.microsoft.com/D4A8DE43-3E81-4A1C-B1C0-ABE6000D9F11">USB_DEVICE_CHARACTERISTIC</a>S structure.  On input, set <b>Version</b> to USB_DEVICE_CHARACTERISTICS_VERSION_1. On output <b>Version</b> is reset to a version less than or equal to USB_DEVICE_CHARACTERISTICS_VERSION_1;  <b>UsbDeviceCharacteristicsFlags</b> is set to USB_DEVICE_CHARACTERISTICS_MAXIMUM_PATH_DELAYS_AVAILABLE and the remaining members of the structure is filled with delay information.
 
 
 ### -inout-buffer-length
 
-The size of the <a href="..\usbioctl\ns-usbioctl-_usb_device_characteristics.md">USB_DEVICE_CHARACTERISTICS</a> structure.
+The size of the <a href="https://msdn.microsoft.com/D4A8DE43-3E81-4A1C-B1C0-ABE6000D9F11">USB_DEVICE_CHARACTERISTICS</a> structure.
 
 
 ### -status-block
@@ -111,15 +111,6 @@ The size of the <a href="..\usbioctl\ns-usbioctl-_usb_device_characteristics.md"
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -127,12 +118,20 @@ The size of the <a href="..\usbioctl\ns-usbioctl-_usb_device_characteristics.md"
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/usbcon/usb-client-drivers-for-ma-usb">USB client drivers for Media-Agnostic (MA-USB)</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

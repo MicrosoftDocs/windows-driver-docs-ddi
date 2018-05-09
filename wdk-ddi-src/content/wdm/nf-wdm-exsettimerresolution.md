@@ -7,7 +7,7 @@ old-location: kernel\exsettimerresolution.htm
 old-project: kernel
 ms.assetid: 968d57fa-7a8e-42cf-b73b-d669ecbbaf48
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExSetTimerResolution, ExSetTimerResolution routine [Kernel-Mode Driver Architecture], k102_09179649-af93-434f-92e0-844a2bdf34dc.xml, kernel.exsettimerresolution, wdm/ExSetTimerResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExSetTimerResolution
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExSetTimerResolution function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ExSetTimerResolution</b> routine modifies the frequency at which the system clock interrupts. <u>Use this routine with extreme caution (see the following Remarks section).</u>
-
-
-## -syntax
-
-
-````
-ULONG ExSetTimerResolution(
-  _In_ ULONG   DesiredTime,
-  _In_ BOOLEAN SetResolution
-);
-````
 
 
 ## -parameters
@@ -131,12 +120,11 @@ During the processing of an <a href="https://msdn.microsoft.com/library/windows/
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>
  
 
  
-
 

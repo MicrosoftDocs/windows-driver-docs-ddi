@@ -7,8 +7,8 @@ old-location: display\bufblt.htm
 old-project: display
 ms.assetid: d75f3fad-3bcd-44ad-9bd5-f61f5346cf8d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: BufBlt, BufBlt callback function [Display Devices], PFND3DDDI_BUFBLT, UserModeDisplayDriver_Functions_87f3469d-cae9-43e7-a0ae-d19bef34314e.xml, d3dumddi/BufBlt, display.bufblt
+ms.date: 4/16/2018
+ms.keywords: BufBlt, BufBlt callback function [Display Devices], PFND3DDDI_BUFBLT, PFND3DDDI_BUFBLT callback, UserModeDisplayDriver_Functions_87f3469d-cae9-43e7-a0ae-d19bef34314e.xml, d3dumddi/BufBlt, display.bufblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	BufBlt
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_BUFBLT callback
+# PFND3DDDI_BUFBLT callback function
 
 
 ## -description
 
 
 The <b>BufBlt</b> function performs a bit-block transfer (bitblt) operation from a source vertex or index buffer to a destination vertex or index buffer.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_BUFBLT BufBlt;
-
-__checkReturn HRESULT APIENTRY BufBlt(
-  _In_       HANDLE              hDevice,
-  _In_ const D3DDDIARG_BUFFERBLT *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY BufBlt(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt.md">D3DDDIARG_BUFFERBLT</a> structure that describes the parameters of the buffer bitblt operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542890">D3DDDIARG_BUFFERBLT</a> structure that describes the parameters of the buffer bitblt operation.
 
 
 ## -returns
@@ -101,16 +88,15 @@ __checkReturn HRESULT APIENTRY BufBlt(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_bufferblt.md">D3DDDIARG_BUFFERBLT</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542890">D3DDDIARG_BUFFERBLT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

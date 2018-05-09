@@ -7,8 +7,8 @@ old-location: print\ioctl_ioctl_dot4_read.htm
 old-project: print
 ms.assetid: 6E9E20E9-37F1-4C2F-B7C8-885F617A671F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DOT4_READ, IOCTL_DOT4_READ control code [Print Devices], d4drvif/IOCTL_DOT4_READ, print.ioctl_ioctl_dot4_read
+ms.date: 4/20/2018
+ms.keywords: IOCTL_DOT4_READ, IOCTL_DOT4_READ control, IOCTL_DOT4_READ control code [Print Devices], d4drvif/IOCTL_DOT4_READ, print.ioctl_ioctl_dot4_read
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	D4drvif.h
 api_name:
 -	IOCTL_DOT4_READ
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: 
 ---
 
 # IOCTL_DOT4_READ IOCTL
@@ -94,7 +95,6 @@ This topic describes <b>IOCTL_DOT4_READ</b>.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -102,16 +102,16 @@ This topic describes <b>IOCTL_DOT4_READ</b>.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

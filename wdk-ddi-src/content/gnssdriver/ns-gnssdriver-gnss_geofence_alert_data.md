@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_GEOFENCE_ALERT_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_GEOFENCE_ALERT_DATA, *PGNSS_GEOFENCE_ALERT_DATA
 ---
@@ -50,22 +51,6 @@ req.typenames: GNSS_GEOFENCE_ALERT_DATA, *PGNSS_GEOFENCE_ALERT_DATA
 
 
 This structure is used by the GNSS engine to notify a geofence breach alert.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                 Size;
-  ULONG                 Version;
-  ULONG                 GeofenceID;
-  GNSS_GEOFENCE_STATE   GeofenceState;
-  GNSS_FIXDATA_BASIC    FixBasicData;
-  GNSS_FIXDATA_ACCURACY FixAccuracyData;
-  BYTE                  Unused[512];
-} GNSS_GEOFENCE_ALERT_DATA, *PGNSS_GEOFENCE_ALERT_DATA;
-````
 
 
 ## -struct-fields

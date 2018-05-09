@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	PCW_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCW_DATA, *PPCW_DATA
-req.product: Windows 10 or later.
 ---
 
 # _PCW_DATA structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The PCW_DATA structure describes the array of data blocks that are associated with an instance.
-
-
-## -syntax
-
-
-````
-typedef struct _PCW_DATA {
-  const VOID *Data;
-  ULONG      Size;
-} PCW_DATA, *PPCW_DATA;
-````
 
 
 ## -struct-fields

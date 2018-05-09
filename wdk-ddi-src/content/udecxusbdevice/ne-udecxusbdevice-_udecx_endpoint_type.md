@@ -7,7 +7,7 @@ old-location: buses\udecx_endpoint_type.htm
 old-project: usbref
 ms.assetid: EFA5DDC0-9E6B-450E-B191-1DA9FBAC269C
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE, UDECX_ENDPOINT_TYPE enumeration [Buses], UdecxEndpointTypeDynamic, UdecxEndpointTypeInvalid, UdecxEndpointTypeSimple, _UDECX_ENDPOINT_TYPE, buses.udecx_endpoint_type, udecxusbdevice/UDECX_ENDPOINT_TYPE, udecxusbdevice/UdecxEndpointTypeDynamic, udecxusbdevice/UdecxEndpointTypeInvalid, udecxusbdevice/UdecxEndpointTypeSimple"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	UdecxUsbDevice.h
 api_name:
 -	UDECX_ENDPOINT_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UDECX_ENDPOINT_TYPE, *PUDECX_ENDPOINT_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _UDECX_ENDPOINT_TYPE enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 Defines values for endpoint types supported by a virtual USB device.
-
-
-## -syntax
-
-
-````
-typedef enum _UDECX_ENDPOINT_TYPE { 
-  UdecxEndpointTypeInvalid  = 0,
-  UdecxEndpointTypeSimple   = ,
-  UdecxEndpointTypeDynamic  = 
-} UDECX_ENDPOINT_TYPE;
-````
 
 
 ## -enum-fields
@@ -82,12 +70,11 @@ The endpoint is defined in the first (and only) interface setting of the interfa
 
 ### -field UdecxEndpointTypeDynamic
 
-The endpoint is dynamically created in the client driver's implementation of the <a href="..\udecxusbdevice\nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure.md">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback.
+The endpoint is dynamically created in the client driver's implementation of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt595913">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback.
 
 
 ## -see-also
 
-<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitsetendpointstype.md">UdecxUsbDeviceInitSetEndpointsType</a>
 
 
 
@@ -95,8 +82,8 @@ The endpoint is dynamically created in the client driver's implementation of the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt627970">UdecxUsbDeviceInitSetEndpointsType</a>
  
 
  
-
 

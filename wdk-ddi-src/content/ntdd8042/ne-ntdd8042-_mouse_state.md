@@ -7,7 +7,7 @@ old-location: hid\mouse_state.htm
 old-project: hid
 ms.assetid: 6d2af5a8-f12a-4d22-945c-8cba32b3f277
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PMOUSE_STATE, MOUSE_STATE, MOUSE_STATE enumeration [Human Input Devices], MouseExpectingACK, MouseIdle, MouseResetting, PMOUSE_STATE, PMOUSE_STATE enumeration pointer [Human Input Devices], XMovement, YMovement, ZMovement, _MOUSE_STATE, hid.mouse_state, i8042ref_80f54e52-c6ff-4346-ba46-708cce3af17c.xml, ntdd8042/MOUSE_STATE, ntdd8042/MouseExpectingACK, ntdd8042/MouseIdle, ntdd8042/MouseResetting, ntdd8042/PMOUSE_STATE, ntdd8042/XMovement, ntdd8042/YMovement, ntdd8042/ZMovement"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	MOUSE_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---
@@ -50,21 +51,6 @@ req.typenames: MOUSE_STATE, *PMOUSE_STATE
 
 
 The MOUSE_STATE enumeration type identifies the current state of input from a mouse.
-
-
-## -syntax
-
-
-````
-typedef enum _MOUSE_STATE { 
-  MouseIdle,
-  XMovement,
-  YMovement,
-  ZMovement,
-  MouseExpectingACK,
-  MouseResetting
-} MOUSE_STATE, *PMOUSE_STATE;
-````
 
 
 ## -enum-fields
@@ -106,14 +92,13 @@ Indicates that I8042prt is resetting the mouse.
 
 
 
-The MOUSE_STATE enumerator is used as input to a <a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a> callback.
+The MOUSE_STATE enumerator is used as input to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a> callback.
 
 
 
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
 
 
 
@@ -121,8 +106,8 @@ The MOUSE_STATE enumerator is used as input to a <a href="..\ntdd8042\nc-ntdd804
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a>
  
 
  
-
 

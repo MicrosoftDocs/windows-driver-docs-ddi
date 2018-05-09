@@ -7,7 +7,7 @@ old-location: ifsk\rtlinitializesplaylinks.htm
 old-project: ifsk
 ms.assetid: 34818dc0-d241-4f5f-a202-08200fbc23a3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlInitializeSplayLinks, RtlInitializeSplayLinks routine [Installable File System Drivers], ifsk.rtlinitializesplaylinks, ntddk/RtlInitializeSplayLinks, rtlref_20e818cf-6afb-4699-b760-bbd7964b576c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntddk.h
 api_name:
 -	RtlInitializeSplayLinks
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlInitializeSplayLinks function
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>RtlInitializeSplayLinks</b> routine initializes a splay link node. 
-
-
-## -syntax
-
-
-````
-VOID RtlInitializeSplayLinks(
-  _In_ PRTL_SPLAY_LINKS Links
-);
-````
 
 
 ## -parameters
@@ -96,68 +87,67 @@ Callers of <b>RtlInitializeSplayLinks</b> must be running at IRQL &lt;= DISPATCH
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlsubtreesuccessor.md">RtlSubtreeSuccessor</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545293">ExInitializeFastMutex</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552214">RtlDeleteNoSplay</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553017">RtlInsertAsLeftChild</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553022">RtlInsertAsRightChild</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553054">RtlIsLeftChild</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553066">RtlIsRightChild</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553072">RtlIsRoot</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtldeletenosplay.md">RtlDeleteNoSplay</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553080">RtlLeftChild</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553165">RtlParent</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlsubtreepredecessor.md">RtlSubtreePredecessor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553186">RtlRealPredecessor</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553188">RtlRealSuccessor</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553200">RtlRightChild</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisrightchild.md">RtlIsRightChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553226">RtlSplay</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553237">RtlSubtreePredecessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553239">RtlSubtreeSuccessor</a>
  
 
  
-
 

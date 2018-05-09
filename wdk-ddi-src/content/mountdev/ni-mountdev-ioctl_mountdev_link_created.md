@@ -7,8 +7,8 @@ old-location: storage\ioctl_mountdev_link_created.htm
 old-project: storage
 ms.assetid: 98ccf623-8232-4bcb-bd72-39dd31c7ede3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_MOUNTDEV_LINK_CREATED, IOCTL_MOUNTDEV_LINK_CREATED control code [Storage Devices], k307_b93a8e67-8e02-4d7d-aac2-a11f3d4297c2.xml, mountdev/IOCTL_MOUNTDEV_LINK_CREATED, storage.ioctl_mountdev_link_created
+ms.date: 3/29/2018
+ms.keywords: IOCTL_MOUNTDEV_LINK_CREATED, IOCTL_MOUNTDEV_LINK_CREATED control, IOCTL_MOUNTDEV_LINK_CREATED control code [Storage Devices], k307_b93a8e67-8e02-4d7d-aac2-a11f3d4297c2.xml, mountdev/IOCTL_MOUNTDEV_LINK_CREATED, storage.ioctl_mountdev_link_created
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	mountdev.h
 api_name:
 -	IOCTL_MOUNTDEV_LINK_CREATED
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
+req.typenames: 
 ---
 
 # IOCTL_MOUNTDEV_LINK_CREATED IOCTL
@@ -59,7 +60,7 @@ Support for this IOCTL by the mount manager clients is optional. The mount manag
 
 ### -input-buffer
 
-The mount point manager places a variable-length structure of type <a href="..\mountmgr\ns-mountmgr-_mountdev_name.md">MOUNTDEV_NAME</a>, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The mount manager inserts the persistent name just assigned at the address pointed to by the <i>Name</i> member of this structure.
+The mount point manager places a variable-length structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562256">MOUNTDEV_NAME</a>, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b>. The mount manager inserts the persistent name just assigned at the address pointed to by the <i>Name</i> member of this structure.
 
 
 ### -input-buffer-length
@@ -102,12 +103,11 @@ No status.
 
 ## -see-also
 
-<a href="..\mountmgr\ns-mountmgr-_mountdev_name.md">MOUNTDEV_NAME</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562256">MOUNTDEV_NAME</a>
  
 
  
-
 

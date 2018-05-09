@@ -7,7 +7,7 @@ old-location: netvista\ril_sendmsg.htm
 old-project: netvista
 ms.assetid: 0ae1ed49-af07-4e34-80fa-34a55c973cfb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SendMsg, RIL_SendMsg method [Network Drivers Starting with Windows Vista], netvista.ril_sendmsg, rilapi/RIL_SendMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_SendMsg
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SendMsg function
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_SendMsg(
-   HRIL              hRil,
-   LPVOID            lpContext,
-   DWORD             dwExecutor,
-   HUICCAPP          hUiccApp,
-   const RILMESSAGE  lpMessage,
-   DWORD             dwOptions
-);
-````
 
 
 ## -parameters

@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings
-title: IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings method
+title: IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings
 author: windows-driver-content
 description: Gets the allowed stepping value for the audio stream attribute.
 old-location: audio\iminiportstreamaudioenginenode_getstreamattributesteppings.htm
 old-project: audio
 ms.assetid: 2EC0C859-5479-4A55-9180-DB9938400DF7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetStreamAttributeSteppings method [Audio Devices], GetStreamAttributeSteppings method [Audio Devices], IMiniportStreamAudioEngineNode interface, GetStreamAttributeSteppings,IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings, IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamAttributeSteppings method, IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, audio.iminiportstreamaudioenginenode_getstreamattributesteppings, portcls/IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings
+ms.date: 4/16/2018
+ms.keywords: GetStreamAttributeSteppings, GetStreamAttributeSteppings method [Audio Devices], GetStreamAttributeSteppings method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamAttributeSteppings method, IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings, IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, audio.iminiportstreamaudioenginenode_getstreamattributesteppings, portcls/IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings method
+# IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings
 
 
 ## -description
 
 
 Gets the allowed stepping value for the audio stream attribute.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetStreamAttributeSteppings(
-  [in]  eChannelTargetType        targetType,
-  [out] PKSPROPERTY_STEPPING_LONG pKsPropStepLong,
-  [in]  UINT32                    ui32DataSize
-);
-````
 
 
 ## -parameters
@@ -71,7 +60,7 @@ NTSTATUS GetStreamAttributeSteppings(
 
 ### -param targetType [in]
 
-An <a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a> enumerated value that specifies the  target node type.
+An <a href="https://msdn.microsoft.com/library/windows/hardware/dn302034">eChannelTargetType</a> enumerated value that specifies the  target node type.
 
 
 ### -param pKsPropStepLong [out]
@@ -97,11 +86,10 @@ code.
 
 ## -see-also
 
-<a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
 
 
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
 
 
 
@@ -109,8 +97,8 @@ code.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302034">eChannelTargetType</a>
  
 
  
-
 

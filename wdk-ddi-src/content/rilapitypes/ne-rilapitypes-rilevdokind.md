@@ -7,7 +7,7 @@ old-location: netvista\rilevdokind.htm
 old-project: netvista
 ms.assetid: 9887342b-85bd-4161-b9de-06ceb56014e5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILEVDOKIND, RILEVDOKIND enumeration [Network Drivers Starting with Windows Vista], RIL_EVDOKIND_MAX, RIL_EVDOKIND_REVA, RIL_EVDOKIND_REVB, netvista.rilevdokind, ntddrilapitypes/RILEVDOKIND, ntddrilapitypes/RIL_EVDOKIND_MAX, ntddrilapitypes/RIL_EVDOKIND_REVA, ntddrilapitypes/RIL_EVDOKIND_REVB
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILEVDOKIND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILEVDOKIND
-req.product: Windows 10 or later.
 ---
 
 # RILEVDOKIND enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILEVDOKIND { 
-  RIL_EVDOKIND_REVA,
-  RIL_EVDOKIND_REVB,
-  RIL_EVDOKIND_MAX
-} RILEVDOKIND;
-````
 
 
 ## -enum-fields

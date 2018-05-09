@@ -7,7 +7,7 @@ old-location: hid\internal_i8042_start_information.htm
 old-project: hid
 ms.assetid: 8ceaa9de-195f-4a89-bc3e-323256097248
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PINTERNAL_I8042_START_INFORMATION, INTERNAL_I8042_START_INFORMATION, INTERNAL_I8042_START_INFORMATION structure [Human Input Devices], PINTERNAL_I8042_START_INFORMATION, PINTERNAL_I8042_START_INFORMATION structure pointer [Human Input Devices], _INTERNAL_I8042_START_INFORMATION, hid.internal_i8042_start_information, i8042ref_bf7bcffd-5c6b-47b4-be53-2b543990b2fa.xml, ntdd8042/INTERNAL_I8042_START_INFORMATION, ntdd8042/PINTERNAL_I8042_START_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntdd8042.h
 api_name:
 -	INTERNAL_I8042_START_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMATION
 ---
@@ -50,18 +51,6 @@ req.typenames: INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMAT
 
 
 INTERNAL_I8042_START_INFORMATION specifies the <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">interrupt object</a> that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR. 
-
-
-## -syntax
-
-
-````
-typedef struct _INTERNAL_I8042_START_INFORMATION {
-  ULONG       Size;
-  PKINTERRUPT InterruptObject;
-  ULONG       Reserved[8];
-} INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -88,23 +77,22 @@ Reserved for future use.
 
 
 
-This structure is used with <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information.md">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a> and <a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_mouse_start_information.md">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a> requests.
+This structure is used with <a href="https://msdn.microsoft.com/library/windows/hardware/ff541257">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff541265">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a> requests.
 
 
 
 
 ## -see-also
 
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_mouse_start_information.md">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
 
 
 
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information.md">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541257">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541265">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
  
 
  
-
 

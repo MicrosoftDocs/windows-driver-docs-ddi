@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetNumberSystems
-title: IDebugSystemObjects3::GetNumberSystems method
+title: IDebugSystemObjects3::GetNumberSystems
 author: windows-driver-content
 description: The GetNumberSystems method returns the number of targets to which the engine is currently connected.
 old-location: debugger\getnumbersystems.htm
 old-project: debugger
 ms.assetid: 27465cd9-77bc-4c9e-bac6-bd471ca93261
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetNumberSystems method [Windows Debugging], GetNumberSystems method [Windows Debugging], IDebugSystemObjects3 interface, GetNumberSystems method [Windows Debugging], IDebugSystemObjects4 interface, GetNumberSystems,IDebugSystemObjects3.GetNumberSystems, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetNumberSystems method, IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects4 interface [Windows Debugging], GetNumberSystems method, IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, dbgeng/IDebugSystemObjects3::GetNumberSystems, dbgeng/IDebugSystemObjects4::GetNumberSystems, debugger.getnumbersystems
+ms.date: 4/24/2018
+ms.keywords: GetNumberSystems, GetNumberSystems method [Windows Debugging], GetNumberSystems method [Windows Debugging],IDebugSystemObjects3 interface, GetNumberSystems method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetNumberSystems method, IDebugSystemObjects3.GetNumberSystems, IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects4 interface [Windows Debugging],GetNumberSystems method, IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, dbgeng/IDebugSystemObjects3::GetNumberSystems, dbgeng/IDebugSystemObjects4::GetNumberSystems, debugger.getnumbersystems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,28 +39,19 @@ api_location:
 api_name:
 -	IDebugSystemObjects3.GetNumberSystems
 -	IDebugSystemObjects4.GetNumberSystems
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects3::GetNumberSystems method
+# IDebugSystemObjects3::GetNumberSystems
 
 
 ## -description
 
 
 The <b>GetNumberSystems</b> method returns the number of targets to which the engine is currently connected.
-
-
-## -syntax
-
-
-````
-HRESULT GetNumberSystems(
-  [out] PULONG Number
-);
-````
 
 
 ## -parameters
@@ -103,20 +94,19 @@ The method was successful.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550892">IDebugSystemObjects3</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550893">IDebugSystemObjects4</a>
  
 
  
-
 

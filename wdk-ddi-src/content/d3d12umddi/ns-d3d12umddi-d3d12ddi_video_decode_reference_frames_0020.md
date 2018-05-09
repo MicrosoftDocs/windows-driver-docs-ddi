@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_decode_reference_frames.htm
 old-project: display
 ms.assetid: B7ED4ADA-572A-4D15-B8FD-6EAF2DB87157
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, display.d3d12ddi_video_decode_reference_frames
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020
 ---
@@ -49,19 +50,7 @@ req.typenames: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020
 ## -description
 
 
-Contains the reference frames for the current decode operation.  
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 {
-  D3D12DDI_HRESOURCE *hDrvReferenceTexture2Ds;
-  UINT               *pReferenceSubresources;
-  UINT               NumReferenceResources;
-} D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020;
-````
+Contains the reference frames for the current decode operation.
 
 
 ## -struct-fields
@@ -71,17 +60,17 @@ typedef struct D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 {
 
 ### -field hDrvTexture2Ds
 
- 
+
 
 
 ### -field pSubresources
 
- 
+
 
 
 ### -field NumTexture2Ds
 
- 
+
 
 
 

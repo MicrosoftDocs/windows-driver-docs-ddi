@@ -7,7 +7,7 @@ old-location: stream\kse_pin.htm
 old-project: stream
 ms.assetid: 6936F732-ECAA-4CA7-B2AF-CA22A5C93FC9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSE_PIN, KSE_PIN, KSE_PIN structure [Streaming Media Devices], PKSE_PIN, PKSE_PIN structure pointer [Streaming Media Devices], ks/KSE_PIN, ks/PKSE_PIN, stream.kse_pin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	KSE_PIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSE_PIN, *PKSE_PIN
 ---
@@ -50,18 +51,6 @@ req.typenames: KSE_PIN, *PKSE_PIN
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Event;
-  ULONG PinId;
-  ULONG Reserved;
-} KSE_PIN, *PKSE_PIN;
-````
 
 
 ## -struct-fields

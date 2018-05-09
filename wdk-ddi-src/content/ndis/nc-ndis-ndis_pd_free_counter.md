@@ -7,8 +7,8 @@ old-location: netvista\ndispdfreecounter.htm
 old-project: netvista
 ms.assetid: 60C47437-A999-4F82-B144-6F77410E5C07
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDIS_PD_FREE_COUNTER, NdisPDFreeCounter, NdisPDFreeCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeCounter, netvista.ndispdfreecounter
+ms.date: 4/25/2018
+ms.keywords: NDIS_PD_FREE_COUNTER, NDIS_PD_FREE_COUNTER callback, NdisPDFreeCounter, NdisPDFreeCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeCounter, netvista.ndispdfreecounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	NdisPDFreeCounter
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_PD_FREE_COUNTER callback
+# NDIS_PD_FREE_COUNTER callback function
 
 
 ## -description
@@ -56,19 +57,6 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 
 
-## -prototype
-
-
-````
-NDIS_PD_FREE_COUNTER NdisPDFreeCounter;
-
-void NdisPDFreeCounter(
-  _In_ __drv_freesMem (Mem) NDIS_PD_COUNTER_HANDLE CounterHandle
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -76,7 +64,7 @@ void NdisPDFreeCounter(
 
 ### -param CounterHandle [in]
 
-A counter handle that the miniport driver allocated in its <a href="..\ndis\nc-ndis-ndis_pd_allocate_counter.md">NdisPDAllocateCounter</a> function.
+A counter handle that the miniport driver allocated in its <a href="https://msdn.microsoft.com/86AA537D-952F-4A7A-ACA4-24B8C1AE932A">NdisPDAllocateCounter</a> function.
 
 
 ## -returns
@@ -90,12 +78,11 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-ndis_pd_allocate_counter.md">NdisPDAllocateCounter</a>
 
 
 
+<a href="https://msdn.microsoft.com/86AA537D-952F-4A7A-ACA4-24B8C1AE932A">NdisPDAllocateCounter</a>
  
 
  
-
 

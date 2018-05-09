@@ -7,7 +7,7 @@ old-location: display\videoportgetassociateddeviceid.htm
 old-project: display
 ms.assetid: 6c40f98b-4d93-4ee8-8217-51e6f1170cf8
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortGetAssociatedDeviceID, VideoPortGetAssociatedDeviceID function [Display Devices], VideoPort_Functions_56a3fa57-fd1a-4b45-8de7-ee9450a525f4.xml, display.videoportgetassociateddeviceid, video/VideoPortGetAssociatedDeviceID
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortGetAssociatedDeviceID
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortGetAssociatedDeviceID function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>VideoPortGetAssociatedDeviceID</b> function obtains the child ID for a specified device object.
-
-
-## -syntax
-
-
-````
-ULONG VideoPortGetAssociatedDeviceID(
-  _In_ PVOID DeviceObject
-);
-````
 
 
 ## -parameters

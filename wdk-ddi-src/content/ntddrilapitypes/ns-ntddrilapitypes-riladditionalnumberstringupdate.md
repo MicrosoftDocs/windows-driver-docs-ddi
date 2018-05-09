@@ -7,7 +7,7 @@ old-location: netvista\riladditionalnumberstringupdate.htm
 old-project: netvista
 ms.assetid: 43fe1e25-be15-4f7a-8ecf-e4492235c6c2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], netvista.riladditionalnumberstringupdate, ntddrilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILADDITIONALNUMBERSTRINGUPDATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILADDITIONALNUMBERSTRINGUPDATE, *LPRILADDITIONALNUMBERSTRINGUPDATE
 ---
@@ -50,20 +51,6 @@ req.typenames: RILADDITIONALNUMBERSTRINGUPDATE, *LPRILADDITIONALNUMBERSTRINGUPDA
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILADDITIONALNUMBERSTRINGUPDATE {
-  DWORD                     cbSize;
-  HUICCAPP                  hUiccApp;
-  RILPHONEBOOKANSOPERATION  dwOpType;
-  DWORD                     dwNumId;
-  WCHAR [256]               wszText;
-} RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE;
-````
 
 
 ## -struct-fields

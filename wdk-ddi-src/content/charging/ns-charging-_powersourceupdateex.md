@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Charging.h
 api_name:
 -	BATTERY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 ---

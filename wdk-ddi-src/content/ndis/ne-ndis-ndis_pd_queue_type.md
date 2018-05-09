@@ -7,7 +7,7 @@ old-location: netvista\ndis_pd_queue_type.htm
 old-project: netvista
 ms.assetid: 4536B3AB-6170-4819-975A-47D9A6223EAE
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NDIS_PD_QUEUE_TYPE, NDIS_PD_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista], PDQueueTypeMax, PDQueueTypeReceive, PDQueueTypeTransmit, PDQueueTypeUnknown, ndis/NDIS_PD_QUEUE_TYPE, ndis/PDQueueTypeMax, ndis/PDQueueTypeReceive, ndis/PDQueueTypeTransmit, ndis/PDQueueTypeUnknown, netvista.ndis_pd_queue_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	NDIS_PD_QUEUE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_PD_QUEUE_TYPE
 ---
@@ -49,20 +50,7 @@ req.typenames: NDIS_PD_QUEUE_TYPE
 ## -description
 
 
-The <b>NDIS_PD_QUEUE_TYPE</b> enumeration defines types of PacketDirect Provider Interface (PDPI)  queues. Its enumeration values are used in the <b>QueueType</b> member of the <a href="..\ndis\ns-ndis-_ndis_pd_queue_parameters.md">NDIS_PD_QUEUE_PARAMETERS</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum _NDIS_PD_QUEUE_TYPE { 
-  PDQueueTypeUnknown,
-  PDQueueTypeReceive,
-  PDQueueTypeTransmit,
-  PDQueueTypeMax
-} NDIS_PD_QUEUE_TYPE;
-````
+The <b>NDIS_PD_QUEUE_TYPE</b> enumeration defines types of PacketDirect Provider Interface (PDPI)  queues. Its enumeration values are used in the <b>QueueType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931846">NDIS_PD_QUEUE_PARAMETERS</a> structure.
 
 
 ## -enum-fields
@@ -94,16 +82,15 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-ndis_pd_allocate_queue.md">NdisPDAllocateQueue</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_pd_queue_parameters.md">NDIS_PD_QUEUE_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn931846">NDIS_PD_QUEUE_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/E9091C69-0E21-40CC-B3D3-1F770ABA0D47">NdisPDAllocateQueue</a>
  
 
  
-
 

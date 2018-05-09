@@ -7,7 +7,7 @@ old-location: ifsk\ccgetfileobjectfromsectionptrs.htm
 old-project: ifsk
 ms.assetid: da756f88-e2c6-4bff-8390-be48902fe130
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: CcGetFileObjectFromSectionPtrs, CcGetFileObjectFromSectionPtrs routine [Installable File System Drivers], ccref_2e9f9f04-b5e3-47e5-beff-5e4d7181ca9d.xml, ifsk.ccgetfileobjectfromsectionptrs, ntifs/CcGetFileObjectFromSectionPtrs
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	CcGetFileObjectFromSectionPtrs
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcGetFileObjectFromSectionPtrs function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 Given a pointer to the section object pointers for a cached file, the <b>CcGetFileObjectFromSectionPtrs</b> routine returns a pointer to the file object that the cache manager is using for the file.
-
-
-## -syntax
-
-
-````
-PFILE_OBJECT CcGetFileObjectFromSectionPtrs(
-  _In_ PSECTION_OBJECT_POINTERS SectionObjectPointer
-);
-````
 
 
 ## -parameters
@@ -87,7 +78,7 @@ A pointer to the file object, or <b>NULL</b> if the file is not cached or is no 
 
 The file system is responsible for ensuring that the file object remains valid while in use. It is impossible for the cache manager to guarantee this. 
 
-By using <b>CcGetFileObjectFromSectionPtrs</b>, you lose some caching functionality. Instead, use the <a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrsref.md">CcGetFileObjectFromSectionPtrsRef</a> routine, which provides the same functionality as <b>CcGetFileObjectFromSectionPtrs</b> as well as creating a reference for the object.
+By using <b>CcGetFileObjectFromSectionPtrs</b>, you lose some caching functionality. Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539113">CcGetFileObjectFromSectionPtrsRef</a> routine, which provides the same functionality as <b>CcGetFileObjectFromSectionPtrs</b> as well as creating a reference for the object.
 
 For more information about creating mapped sections and views of memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563682">Sections and Views</a>. 
 
@@ -96,16 +87,15 @@ For more information about creating mapped sections and views of memory, see <a 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrsref.md">CcGetFileObjectFromSectionPtrsRef</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539113">CcGetFileObjectFromSectionPtrsRef</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539188">CcPurgeCacheSection</a>
  
 
  
-
 

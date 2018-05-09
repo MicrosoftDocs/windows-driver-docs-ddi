@@ -7,7 +7,7 @@ old-location: kernel\rtlcreateregistrykey.htm
 old-project: kernel
 ms.assetid: 2214acc8-b24a-4db4-9ce3-f639291428f2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlCreateRegistryKey, RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], k109_9a163bcc-501d-453b-b426-a4267d04135c.xml, kernel.rtlcreateregistrykey, wdm/RtlCreateRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlCreateRegistryKey
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlCreateRegistryKey function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlCreateRegistryKey</b> routine adds a key object in the registry along a given relative path.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlCreateRegistryKey(
-  _In_ ULONG RelativeTo,
-  _In_ PWSTR Path
-);
-````
 
 
 ## -parameters
@@ -167,32 +156,31 @@ Specifies the registry path according to the <i>RelativeTo</i> value.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561754">RtlCheckRegistryKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561829">RtlDeleteRegistryValue</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlcheckregistrykey.md">RtlCheckRegistryKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562046">RtlQueryRegistryValues</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563034">RtlWriteRegistryValue</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566447">ZwEnumerateKey</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567014">ZwOpenKey</a>
  
 
  
-
 

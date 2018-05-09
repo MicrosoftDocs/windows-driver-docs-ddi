@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsAllocatorEx.KsSetProperties
-title: IKsAllocatorEx::KsSetProperties method
+title: IKsAllocatorEx::KsSetProperties
 author: windows-driver-content
 description: Sets the properties for an allocator.
 old-location: stream\iksallocatorex_kssetproperties.htm
 old-project: stream
 ms.assetid: 17145801-5EE4-4022-997A-03B14C794D2F
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsAllocatorEx, IKsAllocatorEx interface [Streaming Media Devices], KsSetProperties method, IKsAllocatorEx::KsSetProperties, KsSetProperties method [Streaming Media Devices], KsSetProperties method [Streaming Media Devices], IKsAllocatorEx interface, KsSetProperties,IKsAllocatorEx.KsSetProperties, ksproxy/IKsAllocatorEx::KsSetProperties, stream.iksallocatorex_kssetproperties
+ms.date: 4/23/2018
+ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsSetProperties method, IKsAllocatorEx.KsSetProperties, IKsAllocatorEx::KsSetProperties, KsSetProperties, KsSetProperties method [Streaming Media Devices], KsSetProperties method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsSetProperties, stream.iksallocatorex_kssetproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,12 +38,13 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsAllocatorEx.KsSetProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsAllocatorEx::KsSetProperties method
+# IKsAllocatorEx::KsSetProperties
 
 
 ## -description
@@ -52,16 +53,6 @@ req.typenames: PIPE_STATE
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Sets the properties for an allocator. 
-
-
-## -syntax
-
-
-````
-HRESULT KsSetProperties(
-    
-);
-````
 
 
 ## -parameters
@@ -82,12 +73,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksallocatorex.md">IKsAllocatorEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559724">IKsAllocatorEx</a>
  
 
  
-
 

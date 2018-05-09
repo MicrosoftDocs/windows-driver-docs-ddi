@@ -7,7 +7,7 @@ old-location: kernel\iobuilddeviceiocontrolrequest.htm
 old-project: kernel
 ms.assetid: dde2a45d-9257-4d94-928a-e25f112b2773
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoBuildDeviceIoControlRequest, IoBuildDeviceIoControlRequest routine [Kernel-Mode Driver Architecture], k104_dca88c92-682a-437e-963b-6fac4e9c39bf.xml, kernel.iobuilddeviceiocontrolrequest, wdm/IoBuildDeviceIoControlRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoBuildDeviceIoControlRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoBuildDeviceIoControlRequest function
@@ -51,24 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IoBuildDeviceIoControlRequest</b> routine allocates and sets up an IRP for a synchronously processed device control request.
-
-
-## -syntax
-
-
-````
-PIRP IoBuildDeviceIoControlRequest(
-  _In_      ULONG            IoControlCode,
-  _In_      PDEVICE_OBJECT   DeviceObject,
-  _In_opt_  PVOID            InputBuffer,
-  _In_      ULONG            InputBufferLength,
-  _Out_opt_ PVOID            OutputBuffer,
-  _In_      ULONG            OutputBufferLength,
-  _In_      BOOLEAN          InternalDeviceIoControl,
-  _In_opt_  PKEVENT          Event,
-  _Out_     PIO_STATUS_BLOCK IoStatusBlock
-);
-````
 
 
 ## -parameters
@@ -83,7 +65,7 @@ Supplies the I/O control code (<a href="https://msdn.microsoft.com/library/windo
 
 ### -param DeviceObject [in]
 
-Supplies a pointer to the <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure for the next-lower driver's device object, which represents the target device.
+Supplies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure for the next-lower driver's device object, which represents the target device.
 
 
 ### -param InputBuffer [in, optional]
@@ -113,7 +95,7 @@ If <b>TRUE</b>, the routine sets the IRP's major function code to <a href="https
 
 ### -param Event [in, optional]
 
-Supplies a pointer to a caller-allocated and initialized event object. The I/O manager sets the event to the Signaled state when a lower-level driver completes the requested operation. After calling <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>, the driver can wait for the event object. The <i>Event</i> parameter is optional and can be set to NULL. However, if <i>Event</i> is NULL, the caller must supply an <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine for the IRP to notify the caller when the operation completes.
+Supplies a pointer to a caller-allocated and initialized event object. The I/O manager sets the event to the Signaled state when a lower-level driver completes the requested operation. After calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>, the driver can wait for the event object. The <i>Event</i> parameter is optional and can be set to NULL. However, if <i>Event</i> is NULL, the caller must supply an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548354">IoCompletion</a> routine for the IRP to notify the caller when the operation completes.
 
 
 ### -param IoStatusBlock [out]
@@ -125,7 +107,7 @@ Specifies an I/O status block to be set when the request is completed by lower d
 
 
 
-If the operation succeeds, <b>IoBuildDeviceIoControlRequest</b> returns a pointer to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a>, with the next-lower driver's I/O stack location set up from the supplied parameters. Otherwise, the routine returns <b>NULL</b>.
+If the operation succeeds, <b>IoBuildDeviceIoControlRequest</b> returns a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>, with the next-lower driver's I/O stack location set up from the supplied parameters. Otherwise, the routine returns <b>NULL</b>.
 
 
 
@@ -136,9 +118,9 @@ If the operation succeeds, <b>IoBuildDeviceIoControlRequest</b> returns a pointe
 
 A driver can call <b>IoBuildDeviceIoControlRequest</b> to set up IRPs for device control requests that it synchronously sends to lower-level drivers.
 
-After calling <b>IoBuildDeviceIoControlRequest</b> to create a request, the driver must call <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a> to send the request to the next-lower driver. If <b>IoCallDriver</b> returns STATUS_PENDING, the driver must wait for the completion of the IRP by calling <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a> on the given <i>Event</i>. Most drivers do not need to set an <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine for the IRP.
+After calling <b>IoBuildDeviceIoControlRequest</b> to create a request, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a> to send the request to the next-lower driver. If <b>IoCallDriver</b> returns STATUS_PENDING, the driver must wait for the completion of the IRP by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a> on the given <i>Event</i>. Most drivers do not need to set an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548354">IoCompletion</a> routine for the IRP.
 
-IRPs that are created by <b>IoBuildDeviceIoControlRequest</b> must be completed by a driver's call to <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>. A driver that calls <b>IoBuildDeviceIoControlRequest</b> must not call <a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>, because the I/O manager frees these synchronous IRPs after <b>IoCompleteRequest</b> has been called.
+IRPs that are created by <b>IoBuildDeviceIoControlRequest</b> must be completed by a driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>. A driver that calls <b>IoBuildDeviceIoControlRequest</b> must not call <a href="https://msdn.microsoft.com/library/windows/hardware/hh454223">IoFreeIrp</a>, because the I/O manager frees these synchronous IRPs after <b>IoCompleteRequest</b> has been called.
 
 <b>IoBuildDeviceIoControlRequest</b> queues the IRPs that it creates to an IRP queue that is specific to the current thread. If the thread exits, the I/O manager cancels the IRP.
 
@@ -153,44 +135,43 @@ The actual method by which the contents of the <i>InputBuffer</i> and <i>OutputB
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548257">IoAllocateIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548310">IoBuildAsynchronousFsdRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548330">IoBuildSynchronousFsdRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-iobuildsynchronousfsdrequest.md">IoBuildSynchronousFsdRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552137">KeInitializeEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
  
 
  
-
 

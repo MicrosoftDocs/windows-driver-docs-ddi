@@ -7,7 +7,7 @@ old-location: ifsk\rtlisroot.htm
 old-project: ifsk
 ms.assetid: 74b3894e-972f-430b-bb8f-20fa46bf8b7d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlIsRoot, RtlIsRoot routine [Installable File System Drivers], ifsk.rtlisroot, ntddk/RtlIsRoot, rtlref_d7c73e66-d8b8-4a18-a987-d61f13f48dc4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntddk.h
 api_name:
 -	RtlIsRoot
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlIsRoot macro
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>RtlIsRoot</b> routine determines whether the specified node is the root node of a splay link tree. 
-
-
-## -syntax
-
-
-````
-BOOLEAN RtlIsRoot(
-  _In_ PRTL_SPLAY_LINKS Links
-);
-````
 
 
 ## -parameters
@@ -85,20 +76,19 @@ Callers of <b>RtlIsRoot</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553010">RtlInitializeSplayLinks</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisrightchild.md">RtlIsRightChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553054">RtlIsLeftChild</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553066">RtlIsRightChild</a>
  
 
  
-
 

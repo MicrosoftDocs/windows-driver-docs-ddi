@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_get_peer_address.htm
 old-project: netvista
 ms.assetid: 7015FBC6-BACD-4154-A6E5-15A949BA5906
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_GET_PEER_ADDRESS, NdkGetPeerAddress, NdkGetPeerAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetPeerAddress, netvista.ndk_fn_get_peer_address
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_GET_PEER_ADDRESS, NDK_FN_GET_PEER_ADDRESS callback, NdkGetPeerAddress, NdkGetPeerAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetPeerAddress, netvista.ndk_fn_get_peer_address
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkGetPeerAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_GET_PEER_ADDRESS callback
+# NDK_FN_GET_PEER_ADDRESS callback function
 
 
 ## -description
 
 
 The <i>NdkGetPeerAddress</i> (<i>NDK_FN_GET_PEER_ADDRESS</i>) function returns the remote address for an NDK connection.
-
-
-## -prototype
-
-
-````
-NDK_FN_GET_PEER_ADDRESS NdkGetPeerAddress;
-
-NTSTATUS NdkGetPeerAddress(
-  _In_ NDK_CONNECTOR                                                         *pNdkConnector,
-       _Out_writes_bytes_to_opt_(*pAddressLength, *pAddressLength) PSOCKADDR pAddress,
-       _Inout_ ULONG                                                         *pAddressLength
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -74,7 +60,7 @@ NTSTATUS NdkGetPeerAddress(
 
 ### -param *pNdkConnector [in]
 
-A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
+A pointer to an NDK connector object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>).
 
 
 ### -param pAddress
@@ -149,16 +135,15 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439853">NDK_CONNECTOR_DISPATCH</a>
  
 
  
-
 

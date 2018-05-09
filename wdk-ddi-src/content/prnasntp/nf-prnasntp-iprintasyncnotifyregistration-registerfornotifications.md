@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyRegistration.RegisterForNotifications
-title: IPrintAsyncNotifyRegistration::RegisterForNotifications method
+title: IPrintAsyncNotifyRegistration::RegisterForNotifications
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnotifyregistration_registerfornotifications.htm
 old-project: print
 ms.assetid: 8D34983F-7547-48FF-B61A-F78BDA9D2248
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintAsyncNotifyRegistration, IPrintAsyncNotifyRegistration interface [Print Devices], RegisterForNotifications method, IPrintAsyncNotifyRegistration::RegisterForNotifications, RegisterForNotifications method [Print Devices], RegisterForNotifications method [Print Devices], IPrintAsyncNotifyRegistration interface, RegisterForNotifications,IPrintAsyncNotifyRegistration.RegisterForNotifications, print.iprintasyncnotifyregistration_registerfornotifications, prnasntp/IPrintAsyncNotifyRegistration::RegisterForNotifications
+ms.date: 4/20/2018
+ms.keywords: IPrintAsyncNotifyRegistration interface [Print Devices],RegisterForNotifications method, IPrintAsyncNotifyRegistration.RegisterForNotifications, IPrintAsyncNotifyRegistration::RegisterForNotifications, RegisterForNotifications, RegisterForNotifications method [Print Devices], RegisterForNotifications method [Print Devices],IPrintAsyncNotifyRegistration interface, print.iprintasyncnotifyregistration_registerfornotifications, prnasntp/IPrintAsyncNotifyRegistration::RegisterForNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,27 +38,19 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintAsyncNotifyRegistration.RegisterForNotifications
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintAsyncNotifyRegistration::RegisterForNotifications method
+# IPrintAsyncNotifyRegistration::RegisterForNotifications
 
 
 ## -description
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT RegisterForNotifications();
-````
 
 
 ## -parameters
@@ -79,12 +71,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintasyncnotifyregistration.md">IPrintAsyncNotifyRegistration</a>
 
 
 
+<a href="https://msdn.microsoft.com/DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5">IPrintAsyncNotifyRegistration</a>
  
 
  
-
 

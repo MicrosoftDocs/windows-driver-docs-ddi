@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_SUPL_CERT_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_SUPL_CERT_ACTION
 ---
@@ -49,19 +50,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ## -description
 
 
-This enumeration indicates the action to take upon receipt of the SUPL certificate, which is defined by the <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_cert_config.md">GNSS_SUPL_CERT_CONFIG</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_Supl_Cert_Inject  = 0x01,
-  GNSS_Supl_Cert_Delete  = 0x02,
-  GNSS_Supl_Cert_Purge   = 0x03
-} GNSS_SUPL_CERT_ACTION;
-````
+This enumeration indicates the action to take upon receipt of the SUPL certificate, which is defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925227">GNSS_SUPL_CERT_CONFIG</a> structure.
 
 
 ## -enum-fields
@@ -76,7 +65,7 @@ Indicates that the certificate should be injected.
 
 ### -field GNSS_Supl_Cert_Delete
 
-Indicates that the certificate specified by the <b>SuplCertName</b> member of the <a href="..\gnssdriver\ns-gnssdriver-gnss_supl_cert_config.md">GNSS_SUPL_CERT_CONFIG</a> structure should be deleted.
+Indicates that the certificate specified by the <b>SuplCertName</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925227">GNSS_SUPL_CERT_CONFIG</a> structure should be deleted.
 
 
 ### -field GNSS_Supl_Cert_Purge

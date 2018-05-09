@@ -7,7 +7,7 @@ old-location: display\dxgk_multiplane_overlay_post_composition_flags.htm
 old-project: display
 ms.assetid: F7791AB9-6D20-4560-A478-E30F08C6AC3A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, display.dxgk_multiplane_overlay_post_composition_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
 ---
@@ -50,23 +51,6 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS
 
 
 A structure containing the flags describing the transformations applied to an image.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS {
-  union {
-    struct {
-      UINT VerticalFlip  :1;
-      UINT HorizontalFlip  :1;
-      UINT Reserved  :30;
-    };
-    UINT Value;
-  };
-} DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS;
-````
 
 
 ## -struct-fields
@@ -89,7 +73,7 @@ Indicates that the image should be flipped horizontally.
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 
 ## -remarks

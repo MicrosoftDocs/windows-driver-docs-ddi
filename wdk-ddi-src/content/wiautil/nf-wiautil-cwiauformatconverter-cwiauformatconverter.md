@@ -1,14 +1,14 @@
 ---
 UID: NF:wiautil.CWiauFormatConverter.CWiauFormatConverter
-title: CWiauFormatConverter::CWiauFormatConverter method
+title: CWiauFormatConverter::CWiauFormatConverter
 author: windows-driver-content
 description: The CWiauFormatConverter::CWiauFormatConverter method is the constructor for the CWiauFormatConverter class.
 old-location: image\cwiauformatconverter_cwiauformatconverter.htm
 old-project: image
 ms.assetid: 0a575614-38a7-484c-909c-2e762dc7cbb4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], CWiauFormatConverter method, CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter interface, CWiauFormatConverter,CWiauFormatConverter.CWiauFormatConverter, CWiauFormatConverter::CWiauFormatConverter, image.cwiauformatconverter_cwiauformatconverter, wiauFncs_6da3d902-58a2-4507-b565-8dcb0a85cbd7.xml, wiautil/CWiauFormatConverter::CWiauFormatConverter
+ms.date: 4/23/2018
+ms.keywords: CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices],CWiauFormatConverter method, CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter method [Imaging Devices],CWiauFormatConverter interface, CWiauFormatConverter.CWiauFormatConverter, CWiauFormatConverter::CWiauFormatConverter, image.cwiauformatconverter_cwiauformatconverter, wiauFncs_6da3d902-58a2-4507-b565-8dcb0a85cbd7.xml, wiautil/CWiauFormatConverter::CWiauFormatConverter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,27 +38,19 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauFormatConverter.CWiauFormatConverter
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# CWiauFormatConverter::CWiauFormatConverter method
+# CWiauFormatConverter::CWiauFormatConverter
 
 
 ## -description
 
 
 The <b>CWiauFormatConverter::CWiauFormatConverter</b> method is the constructor for the <b>CWiauFormatConverter</b> class.
-
-
-## -syntax
-
-
-````
-void CWiauFormatConverter();
-````
 
 
 ## -parameters
@@ -79,16 +71,15 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
+
+
+
+<a href="https://msdn.microsoft.com/b30c3336-ddc6-459d-97c4-244ca0b50cfc">CWiauFormatConverter</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540385">CWiauFormatConverter::~CWiauFormatConverter</a>
-
-
-
  
 
  
-
 

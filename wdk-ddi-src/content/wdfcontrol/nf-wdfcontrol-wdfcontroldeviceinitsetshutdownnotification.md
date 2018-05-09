@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfControlDeviceInitSetShutdownNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfControlDeviceInitSetShutdownNotification function
@@ -56,18 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfControlDeviceInitSetShutdownNotification</b> method sets shutdown notification information for a control device object.
 
 
-## -syntax
-
-
-````
-VOID WdfControlDeviceInitSetShutdownNotification(
-  _In_ PWDFDEVICE_INIT                      DeviceInit,
-  _In_ PFN_WDF_DEVICE_SHUTDOWN_NOTIFICATION Notification,
-  _In_ UCHAR                                Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -75,7 +63,7 @@ VOID WdfControlDeviceInitSetShutdownNotification(
 
 ### -param DeviceInit [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained by calling <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure that the driver obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a>.
 
 
 ### -param Notification [in]
@@ -85,7 +73,7 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/365e669b-b4a1-432a
 
 ### -param Flags [in]
 
-One or more <a href="..\wdfcontrol\ne-wdfcontrol-_wdf_device_shutdown_flags.md">WDF_DEVICE_SHUTDOWN_FLAGS</a>-typed flags that indicate when the <a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a> callback function will be called.
+One or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff551282">WDF_DEVICE_SHUTDOWN_FLAGS</a>-typed flags that indicate when the <a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a> callback function will be called.
 
 
 ## -returns
@@ -101,12 +89,12 @@ None
 
 
 
-The driver must call <b>WdfControlDeviceInitSetShutdownNotification</b> before calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>. For more information about calling <b>WdfControlDeviceInitSetShutdownNotification</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">Using Control Device Objects</a>.
+The driver must call <b>WdfControlDeviceInitSetShutdownNotification</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfControlDeviceInitSetShutdownNotification</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">Using Control Device Objects</a>.
 
 
 #### Examples
 
-For a code example that uses <b>WdfControlDeviceInitSetShutdownNotification</b>, see <a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>.
+For a code example that uses <b>WdfControlDeviceInitSetShutdownNotification</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a>.
 
 <div class="code"></div>
 
@@ -114,15 +102,6 @@ For a code example that uses <b>WdfControlDeviceInitSetShutdownNotification</b>,
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
-
-
-
-<a href="..\wdfcontrol\ne-wdfcontrol-_wdf_device_shutdown_flags.md">WDF_DEVICE_SHUTDOWN_FLAGS</a>
 
 
 
@@ -130,8 +109,16 @@ For a code example that uses <b>WdfControlDeviceInitSetShutdownNotification</b>,
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551282">WDF_DEVICE_SHUTDOWN_FLAGS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>
  
 
  
-
 

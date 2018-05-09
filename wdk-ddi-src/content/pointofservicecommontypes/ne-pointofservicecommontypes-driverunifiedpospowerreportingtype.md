@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	DriverUnifiedPosPowerReportingType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DriverUnifiedPosPowerReportingType
 ---
@@ -50,18 +51,6 @@ req.typenames: DriverUnifiedPosPowerReportingType
 
 
 This enumeration defines the type of power reporting that is supported by the device (for example, advanced, standard, and so on). 
-
-
-## -syntax
-
-
-````
-typedef enum _DriverUnifiedPosPowerReportingType { 
-  UnknownPowerReportingType  = 0,
-  Standard                   = 1,
-  Advanced                   = 2
-} DriverUnifiedPosPowerReportingType;
-````
 
 
 ## -enum-fields

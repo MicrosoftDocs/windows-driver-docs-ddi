@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 0E0480BA-0F9D-4AD4-8FEC-35B3757494B9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_MaskInterrupts, CLIENT_MaskInterrupts callback function [Parallel Ports], GPIO.client_maskinterrupts, GPIO_CLIENT_MASK_INTERRUPTS, gpioclx/CLIENT_MaskInterrupts
+ms.keywords: CLIENT_MaskInterrupts, CLIENT_MaskInterrupts callback, CLIENT_MaskInterrupts callback function [Parallel Ports], GPIO.client_maskinterrupts, GPIO_CLIENT_MASK_INTERRUPTS, gpioclx/CLIENT_MaskInterrupts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_MaskInterrupts
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_MASK_INTERRUPTS callback
+# GPIO_CLIENT_MASK_INTERRUPTS callback function
 
 
 ## -description
 
 
 The <i>CLIENT_MaskInterrupts</i> event callback function masks interrupts on a set of general-purpose I/O (GPIO) pins that are configured as interrupt inputs.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_MASK_INTERRUPTS CLIENT_MaskInterrupts;
-
-NTSTATUS CLIENT_MaskInterrupts(
-  _In_    PVOID                           Context,
-  _Inout_ PGPIO_MASK_INTERRUPT_PARAMETERS MaskParameters
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -145,6 +132,13 @@ The GPIO_CLIENT_MASK_INTERRUPTS function type is defined in the Gpioclx.h header
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
@@ -153,20 +147,12 @@ The GPIO_CLIENT_MASK_INTERRUPTS function type is defined in the Gpioclx.h header
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698252">GPIO_MASK_INTERRUPT_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698252">GPIO_MASK_INTERRUPT_PARAMETERS</a>
  
 
  
-
 

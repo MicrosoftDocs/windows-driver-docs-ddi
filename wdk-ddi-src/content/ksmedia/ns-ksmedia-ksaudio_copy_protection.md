@@ -7,7 +7,7 @@ old-location: audio\ksaudio_copy_protection.htm
 old-project: audio
 ms.assetid: 7dab0240-67c3-4412-a7a5-bb98d84c6bdd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION structure [Audio Devices], PKSAUDIO_COPY_PROTECTION, PKSAUDIO_COPY_PROTECTION structure pointer [Audio Devices], aud-prop_94eac763-0c97-406d-b255-686ac82f908c.xml, audio.ksaudio_copy_protection, ksmedia/KSAUDIO_COPY_PROTECTION, ksmedia/PKSAUDIO_COPY_PROTECTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_COPY_PROTECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_COPY_PROTECTION, *PKSAUDIO_COPY_PROTECTION
 ---
@@ -50,17 +51,6 @@ req.typenames: KSAUDIO_COPY_PROTECTION, *PKSAUDIO_COPY_PROTECTION
 
 
 The KSAUDIO_COPY_PROTECTION structure specifies the copy-protection status of an audio stream.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  BOOL fCopyrighted;
-  BOOL fOriginal;
-} KSAUDIO_COPY_PROTECTION, *PKSAUDIO_COPY_PROTECTION;
-````
 
 
 ## -struct-fields
@@ -93,12 +83,11 @@ The KSPROPERTY_AUDIO_COPY_PROTECTION property is separate from and unrelated to 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537253">KSPROPERTY_AUDIO_COPY_PROTECTION</a>
-
-
-
  
 
  
-
 

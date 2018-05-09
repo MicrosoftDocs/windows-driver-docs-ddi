@@ -7,7 +7,7 @@ old-location: netvista\ril_sendrestricteduicccmd.htm
 old-project: netvista
 ms.assetid: f9341659-105b-4ec7-bce7-878698de8c14
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SendRestrictedUiccCmd, RIL_SendRestrictedUiccCmd method [Network Drivers Starting with Windows Vista], netvista.ril_sendrestricteduicccmd, rilapi/RIL_SendRestrictedUiccCmd
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_SendRestrictedUiccCmd
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SendRestrictedUiccCmd function
@@ -53,22 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_SendRestrictedUiccCmd(
-   HRIL                         hRil,
-   LPVOID                       lpContext,
-   RILUICCCOMMAND               dwCommand,
-   const RILUICCCMDPARAMETERS   lpParameters,
-   const BYTE                   lpbData,
-   DWORD                        dwSize,
-   const RILUICCLOCKCREDENTIAL  lpLockVerification
-);
-````
 
 
 ## -parameters

@@ -7,8 +7,8 @@ old-location: display\calcprivateshaderresourceviewsize.htm
 old-project: display
 ms.assetid: 2abf5ca9-974b-40d7-b71c-43c4fb33dd7c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CalcPrivateShaderResourceViewSize, CalcPrivateShaderResourceViewSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE, UserModeDisplayDriverDx10_Functions_57360213-38f5-45aa-aadb-0bcdb674aec1.xml, d3d10umddi/CalcPrivateShaderResourceViewSize, display.calcprivateshaderresourceviewsize
+ms.date: 4/16/2018
+ms.keywords: CalcPrivateShaderResourceViewSize, CalcPrivateShaderResourceViewSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE, PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE callback, UserModeDisplayDriverDx10_Functions_57360213-38f5-45aa-aadb-0bcdb674aec1.xml, d3d10umddi/CalcPrivateShaderResourceViewSize, display.calcprivateshaderresourceviewsize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	CalcPrivateShaderResourceViewSize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE callback
+# PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE callback function
 
 
 ## -description
@@ -52,26 +53,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <b>CalcPrivateShaderResourceViewSize</b> function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader resource view.
 
 
-## -prototype
-
-
-````
-PFND3D10DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE CalcPrivateShaderResourceViewSize;
-
-SIZE_T APIENTRY CalcPrivateShaderResourceViewSize(
-  _In_       D3D10DDI_HDEVICE                     hDevice,
-  _In_ const D3D10DDIARG_CREATESHADERRESOURCEVIEW *pCreateShaderResourceView
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param *
@@ -90,7 +77,7 @@ SIZE_T APIENTRY CalcPrivateShaderResourceViewSize(
 
 #### - pCreateShaderResourceView [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createshaderresourceview.md">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541708">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
 
 
 ## -returns
@@ -104,16 +91,15 @@ SIZE_T APIENTRY CalcPrivateShaderResourceViewSize(
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createshaderresourceview.md">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541708">D3D10DDIARG_CREATESHADERRESOURCEVIEW</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a>
  
 
  
-
 

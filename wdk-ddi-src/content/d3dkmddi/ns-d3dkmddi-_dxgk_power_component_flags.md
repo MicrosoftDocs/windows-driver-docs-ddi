@@ -7,7 +7,7 @@ old-location: display\dxgk_power_component_flags.htm
 old-project: display
 ms.assetid: aa8cce5b-d582-4c5b-99e2-fad1f0e80128
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS structure [Display Devices], _DXGK_POWER_COMPONENT_FLAGS, d3dkmddi/DXGK_POWER_COMPONENT_FLAGS, display.dxgk_power_component_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_POWER_COMPONENT_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_POWER_COMPONENT_FLAGS
 ---
@@ -50,24 +51,6 @@ req.typenames: DXGK_POWER_COMPONENT_FLAGS
 
 
 Describes state transition information about a power component.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_POWER_COMPONENT_FLAGS {
-  union {
-    struct {
-      UINT Reserved0  :1;
-      UINT DriverCompletesFStateTransition  :1;
-      UINT TransitionTo_F0_OnDx  :1;
-      UINT Reserved  :29;
-    };
-    UINT Value;
-  };
-} DXGK_POWER_COMPONENT_FLAGS;
-````
 
 
 ## -struct-fields
@@ -82,9 +65,9 @@ Reserved for system use and should be set to zero.
 
 ### -field DriverCompletesFStateTransition
 
-If set, indicates that the display miniport driver will call the  <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_completefstatetransition.md">DxgkCbCompleteFStateTransition</a> function for a registered power component when the component completes an F-state transition.
+If set, indicates that the display miniport driver will call the  <a href="https://msdn.microsoft.com/69a6d9bc-44a9-4204-988e-e11c80f67f28">DxgkCbCompleteFStateTransition</a> function for a registered power component when the component completes an F-state transition.
 
-For more information, see Remarks section of the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_completefstatetransition.md">DxgkCbCompleteFStateTransition</a> function.
+For more information, see Remarks section of the <a href="https://msdn.microsoft.com/69a6d9bc-44a9-4204-988e-e11c80f67f28">DxgkCbCompleteFStateTransition</a> function.
 
 
 ### -field TransitionTo_F0_OnDx
@@ -109,19 +92,18 @@ If set, during a Dx transition the power manager places the component into the F
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that <b>DXGK_POWER_COMPONENT_FLAGS</b> contains that can hold a 32-bit value that identifies information about the power component.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_completefstatetransition.md">DxgkCbCompleteFStateTransition</a>
 
 
 
+<a href="https://msdn.microsoft.com/69a6d9bc-44a9-4204-988e-e11c80f67f28">DxgkCbCompleteFStateTransition</a>
  
 
  
-
 

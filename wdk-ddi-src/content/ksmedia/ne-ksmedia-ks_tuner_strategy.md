@@ -7,7 +7,7 @@ old-location: stream\ks_tuner_strategy.htm
 old-project: stream
 ms.assetid: 333b1b11-cc6e-4546-9638-e5dcb4c2607c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KS_TUNER_STRATEGY, KS_TUNER_STRATEGY enumeration [Streaming Media Devices], KS_TUNER_STRATEGY_DRIVER_TUNES, KS_TUNER_STRATEGY_PLL, KS_TUNER_STRATEGY_SIGNAL_STRENGTH, ksmedia/KS_TUNER_STRATEGY, ksmedia/KS_TUNER_STRATEGY_DRIVER_TUNES, ksmedia/KS_TUNER_STRATEGY_PLL, ksmedia/KS_TUNER_STRATEGY_SIGNAL_STRENGTH, stream.ks_tuner_strategy, vidcapstruct_99c03903-7b57-44ea-8c11-a3017931dfca.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_TUNER_STRATEGY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_TUNER_STRATEGY
 ---
@@ -50,18 +51,6 @@ req.typenames: KS_TUNER_STRATEGY
 
 
 The KS_TUNER_STRATEGY enumeration defines tuning method strategies.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KS_TUNER_STRATEGY_PLL              = 0X01,
-  KS_TUNER_STRATEGY_SIGNAL_STRENGTH  = 0X02,
-  KS_TUNER_STRATEGY_DRIVER_TUNES     = 0X04
-} KS_TUNER_STRATEGY;
-````
 
 
 ## -enum-fields
@@ -86,12 +75,11 @@ The minidriver has total control over the fine tuning process. No fine tuning is
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_mode_caps_s.md">KSPROPERTY_TUNER_MODE_CAPS_S</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565872">KSPROPERTY_TUNER_MODE_CAPS_S</a>
  
 
  
-
 

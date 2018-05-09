@@ -7,7 +7,7 @@ old-location: kernel\rtlclearallbits.htm
 old-project: kernel
 ms.assetid: 8271b13a-a64e-4d5e-b319-283255b8127f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlClearAllBits, RtlClearAllBits routine [Kernel-Mode Driver Architecture], k109_6fb17a55-6839-411c-9289-720657ba4983.xml, kernel.rtlclearallbits, wdm/RtlClearAllBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlClearAllBits
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlClearAllBits function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 The <b>RtlClearAllBits</b> routine sets all bits in a given bitmap variable to zero. 
 
 
-## -syntax
-
-
-````
-VOID RtlClearAllBits(
-  _In_ PRTL_BITMAP BitMapHeader
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ VOID RtlClearAllBits(
 
 ### -param BitMapHeader [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a> routine. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a> routine. 
 
 
 ## -returns
@@ -94,40 +84,39 @@ Callers of <b>RtlClearAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561742">RtlAreBitsClear</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlclearbits.md">RtlClearBits</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561745">RtlAreBitsSet</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561763">RtlClearBits</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindsetbitsandclear.md">RtlFindSetBitsAndClear</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561890">RtlFindSetBits</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561895">RtlFindSetBitsAndClear</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562037">RtlNumberOfSetBits</a>
  
 
  
-
 

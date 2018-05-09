@@ -7,7 +7,7 @@ old-location: ifsk\rxpreleaseprefixtablelock.htm
 old-project: ifsk
 ms.assetid: 57aef4ed-2ece-4af3-b1ca-e4fe5a306f82
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RxpReleasePrefixTableLock, RxpReleasePrefixTableLock function [Installable File System Drivers], ifsk.rxpreleaseprefixtablelock, prefix/RxpReleasePrefixTableLock, rxref_34f5b33a-efeb-42a0-8e57-6c32c262319a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	prefix.h
 api_name:
 -	RxpReleasePrefixTableLock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SHIMOPTS, *PSHIMOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxpReleasePrefixTableLock function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>RxpReleasePrefixTableLock</b> releases a previously acquired shared or exclusive prefix table lock. 
-
-
-## -syntax
-
-
-````
-VOID RxpReleasePrefixTableLock(
-   PRX_PREFIX_TABLE pTable
-);
-````
 
 
 ## -parameters
@@ -112,23 +102,6 @@ Normal kernel APC delivery should be disabled before calling the <b>RxpAcquirePr
 
 ## -see-also
 
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockexclusive.md">RxpAcquirePrefixTableLockExclusive</a>
-
-
-
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
-
-
-
-<a href="..\prefix\nf-prefix-rxprefixtablelookupname.md">RxPrefixTableLookupName</a>
-
-
-
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
-
-
-
-<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
 
 
 
@@ -140,8 +113,24 @@ Normal kernel APC delivery should be disabled before calling the <b>RxpAcquirePr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552021">KeEnterCriticalRegion</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552964">KeLeaveCriticalRegion</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554632">RxPrefixTableLookupName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554595">RxpAcquirePrefixTableLockExclusive</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554598">RxpAcquirePrefixTableLockShared</a>
  
 
  
-
 

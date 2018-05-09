@@ -7,7 +7,7 @@ old-location: stream\ksfreeobjectcreateitemsbycontext.htm
 old-project: stream
 ms.assetid: 70c2942d-1225-4a50-b734-27995b4481d1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFreeObjectCreateItemsByContext, KsFreeObjectCreateItemsByContext function [Streaming Media Devices], ks/KsFreeObjectCreateItemsByContext, ksfunc_0ad51072-eff4-4be3-95f4-b54c9267a4a9.xml, stream.ksfreeobjectcreateitemsbycontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsFreeObjectCreateItemsByContext
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 Frees all create items with a specific context.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsFreeObjectCreateItemsByContext(
-  _In_ KSDEVICE_HEADER Header,
-  _In_ PVOID           Context
-);
-````
 
 
 ## -parameters
@@ -99,12 +89,11 @@ Instead of freeing create items by name as <b>KsFreeObjectCreateItems</b> does, 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreeobjectcreateitem.md">KsFreeObjectCreateItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562563">KsFreeObjectCreateItem</a>
  
 
  
-
 

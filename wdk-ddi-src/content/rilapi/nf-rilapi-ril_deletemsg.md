@@ -7,7 +7,7 @@ old-location: netvista\ril_deletemsg.htm
 old-project: netvista
 ms.assetid: bda4663b-0aae-481a-8bd6-f242c6e6b1de
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_DeleteMsg, RIL_DeleteMsg method [Network Drivers Starting with Windows Vista], netvista.ril_deletemsg, rilapi/RIL_DeleteMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_DeleteMsg
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_DeleteMsg function
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_DeleteMsg(
-   HRIL     hRil,
-   LPVOID   lpContext,
-   HUICCAPP hUiccApp,
-   DWORD    dwIndex
-);
-````
 
 
 ## -parameters

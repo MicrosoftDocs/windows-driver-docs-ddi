@@ -7,7 +7,7 @@ old-location: image\wiasdebugerror.htm
 old-project: image
 ms.assetid: fcddc83d-5fb1-43ad-9abd-8d5e2549b580
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasdebugerror, wiamdef/wiasDebugError, wiasDebugError, wiasDebugError function [Imaging Devices], wiasFncs_0ccba388-a6ca-42b9-acd5-720b6763a202.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasDebugError
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasDebugError function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This function prints a debug error string in the Device Manager debug console. The output color is always red.
-
-
-## -syntax
-
-
-````
-VOID __cdecl wiasDebugError(
-   HINSTANCE   hInstance,
-   LPCSTR      pszFormat, ...
-);
-````
 
 
 ## -parameters
@@ -104,23 +93,22 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-The wiasDebugError function is not recommended for Windows XP and later. For Windows XP use the <a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a> macro instead. For Windows Vista use the <a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a> macro instead.
+The wiasDebugError function is not recommended for Windows XP and later. For Windows XP use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549580">WIAS_LERROR</a> macro instead. For Windows Vista use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a> macro instead.
 
 
 
 
 ## -see-also
 
-<a href="..\wiautil\nf-wiautil-wias_lerror.md">WIAS_LERROR</a>
 
 
 
-<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549580">WIAS_LERROR</a>
  
 
  
-
 

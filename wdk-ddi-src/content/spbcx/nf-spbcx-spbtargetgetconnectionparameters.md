@@ -7,7 +7,7 @@ old-location: spb\spbtargetgetconnectionparameters.htm
 old-project: SPB
 ms.assetid: 0692D8A3-CA43-4D27-9E8E-EB104DB1651F
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbtargetgetconnectionparameters, SpbTargetGetConnectionParameters, SpbTargetGetConnectionParameters method [Buses], spbcx/SpbTargetGetConnectionParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	spbcxstubs.dll
 api_name:
 -	SpbTargetGetConnectionParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpbTargetGetConnectionParameters function
@@ -52,17 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SpbTargetGetConnectionParameters</b> method retrieves the connection parameters for a target device on the bus.
-
-
-## -syntax
-
-
-````
-VOID SpbTargetGetConnectionParameters(
-  _In_  SPBTARGET                 Target,
-  _Out_ SPB_CONNECTION_PARAMETERS *ConnectionParameters
-);
-````
 
 
 ## -parameters
@@ -106,7 +95,10 @@ The SPB framework extension (SpbCx) calls your controller driver's <a href="http
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
 
 
 
@@ -122,12 +114,8 @@ The SPB framework extension (SpbCx) calls your controller driver's <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
  
 
  
-
 

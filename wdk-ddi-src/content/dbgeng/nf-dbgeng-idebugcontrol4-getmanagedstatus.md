@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetManagedStatus
-title: IDebugControl4::GetManagedStatus method
+title: IDebugControl4::GetManagedStatus
 author: windows-driver-content
 description: Provides feedback on the engine's use of the runtime debugging APIs provided by the common language runtime (CLR).
 old-location: debugger\idebugcontrol4_getmanagedstatus.htm
 old-project: debugger
 ms.assetid: C2D32ABB-5ABE-4580-9577-1144569EA8E1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetManagedStatus method [Windows Debugging], GetManagedStatus method [Windows Debugging], IDebugControl4 interface, GetManagedStatus,IDebugControl4.GetManagedStatus, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetManagedStatus method, IDebugControl4::GetManagedStatus, dbgeng/IDebugControl4::GetManagedStatus, debugger.idebugcontrol4_getmanagedstatus
+ms.date: 4/24/2018
+ms.keywords: GetManagedStatus, GetManagedStatus method [Windows Debugging], GetManagedStatus method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetManagedStatus method, IDebugControl4.GetManagedStatus, IDebugControl4::GetManagedStatus, dbgeng/IDebugControl4::GetManagedStatus, debugger.idebugcontrol4_getmanagedstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,12 +38,13 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugControl4.GetManagedStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetManagedStatus method
+# IDebugControl4::GetManagedStatus
 
 
 ## -description
@@ -51,20 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
  Provides feedback on the engine's
     use of the runtime debugging APIs provided by the common language runtime (CLR).
-
-
-## -syntax
-
-
-````
-HRESULT GetManagedStatus(
-  [out, optional] PULONG                        Flags,
-  [in]            ULONG                         WhichString,
-  [out]           _writes_opt_(StringSize) PSTR String,
-  [in]            ULONG                         StringSize,
-  [out, optional] PULONG                        StringNeeded
-);
-````
 
 
 ## -parameters
@@ -130,12 +117,11 @@ The method was successful.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
  
 
  
-
 

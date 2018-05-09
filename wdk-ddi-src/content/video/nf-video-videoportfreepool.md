@@ -7,7 +7,7 @@ old-location: display\videoportfreepool.htm
 old-project: display
 ms.assetid: 84e4f178-87d3-4f40-b4fc-7959818305fd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortFreePool, VideoPortFreePool function [Display Devices], VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, display.videoportfreepool, video/VideoPortFreePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortFreePool
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortFreePool function
@@ -50,18 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>VideoPortFreePool</b> function deallocates a block of pool memory previously allocated by <a href="..\video\nf-video-videoportallocatepool.md">VideoPortAllocatePool</a>.
-
-
-## -syntax
-
-
-````
-VOID VideoPortFreePool(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PVOID Ptr
-);
-````
+The <b>VideoPortFreePool</b> function deallocates a block of pool memory previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff570180">VideoPortAllocatePool</a>.
 
 
 ## -parameters
@@ -101,16 +90,15 @@ Callers of <b>VideoPortFreePool</b> must be running at IRQL &lt;= DISPATCH_LEVEL
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportallocatepool.md">VideoPortAllocatePool</a>
 
 
 
-<a href="..\video\nf-video-videoportallocatecommonbuffer.md">VideoPortAllocateCommonBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570178">VideoPortAllocateCommonBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570180">VideoPortAllocatePool</a>
  
 
  
-
 

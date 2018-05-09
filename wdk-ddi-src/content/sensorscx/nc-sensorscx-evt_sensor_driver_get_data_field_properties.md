@@ -7,8 +7,8 @@ old-location: sensors\evtsensorgetdatafieldproperties.htm
 old-project: sensors
 ms.assetid: E3BE0351-724E-4407-AA5B-D7AAEFE508D4
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, EvtSensorGetDataFieldProperties, EvtSensorGetDataFieldProperties callback function [Sensor Devices], sensors.evtsensorgetdatafieldproperties, sensorscx/EvtSensorGetDataFieldProperties
+ms.date: 4/30/2018
+ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback, EvtSensorGetDataFieldProperties, EvtSensorGetDataFieldProperties callback function [Sensor Devices], sensors.evtsensorgetdatafieldproperties, sensorscx/EvtSensorGetDataFieldProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EvtSensorGetDataFieldProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback
+# EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback function
 
 
 ## -description
 
 
 This callback function returns the properties of a given data field associated with a sensor.
-
-
-## -prototype
-
-
-````
-NT_STATUS EvtSensorGetDataFieldProperties(
-  _In_        SENSOROBJECT            Sensor,
-  _In_        CONST                   *pDataField,
-  _Inout_opt_ PSENSOR_COLLECTION_LIST pProperties,
-  _Out_       PULONG                  pSize
-);
-````
 
 
 ## -parameters
@@ -83,7 +70,7 @@ A reference to a data field. For more information, see <a href="https://msdn.mic
 
 ### -param pProperties [in, out, optional]
 
-A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>.
+A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
 
 
 ### -param pSize [out]
@@ -113,20 +100,19 @@ This function must be implemented by the driver and is called by the class exten
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957080">Proximity sensor data fields</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>
-
-
-
-<a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
-
-
-
  
 
  
-
 

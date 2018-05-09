@@ -7,7 +7,7 @@ old-location: display\umdetwunregister.htm
 old-project: display
 ms.assetid: 19ab8771-2a86-469a-98e4-3d295a458b90
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: UMDEtwUnregister, UMDEtwUnregister function [Display Devices], display.umdetwunregister, umdprovider/UMDEtwUnregister
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	umdprovider.h
 api_name:
 -	UMDEtwUnregister
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_SEMANTIC
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UMDEtwUnregister function
@@ -51,14 +51,6 @@ req.product: Windows 10 or later.
 
 
 Unregisters the event trace provider. Call this function before the user-mode driver is unloaded. After this function is called, the driver should not make any other calls to log events.
-
-
-## -syntax
-
-
-````
-void UMDEtwUnregister(void);
-````
 
 
 ## -parameters
@@ -106,12 +98,11 @@ The <a href="https://msdn.microsoft.com/fdcccf6f-2f31-4356-a4ee-3b6229c01b75">Ev
 
 ## -see-also
 
-<a href="..\umdprovider\nf-umdprovider-umdetwregister.md">UMDEtwRegister</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj542439">UMDEtwRegister</a>
  
 
  
-
 

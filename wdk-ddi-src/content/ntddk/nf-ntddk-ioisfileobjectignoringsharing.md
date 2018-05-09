@@ -7,7 +7,7 @@ old-location: ifsk\ioisfileobjectignoringsharing.htm
 old-project: ifsk
 ms.assetid: 1398056B-6AC3-4F92-8981-58C193907D6F
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers], ifsk.ioisfileobjectignoringsharing, ntddk/IoIsFileObjectIgnoringSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoIsFileObjectIgnoringSharing
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoIsFileObjectIgnoringSharing function
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoIsFileObjectIgnoringSharing</b> routine determines if a file object is set with the option to ignore file  sharing access checks.
-
-
-## -syntax
-
-
-````
-BOOLEAN IoIsFileObjectIgnoringSharing(
-   PFILE_OBJECT FileObject
-);
-````
 
 
 ## -parameters
@@ -83,12 +74,11 @@ Pointer to a file object for the file.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetfileobjectignoresharing.md">IoSetFileObjectIgnoreSharing</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj126227">IoSetFileObjectIgnoreSharing</a>
  
 
  
-
 

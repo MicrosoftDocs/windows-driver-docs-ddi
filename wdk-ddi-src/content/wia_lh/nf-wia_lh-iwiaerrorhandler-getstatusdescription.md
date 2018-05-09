@@ -1,14 +1,14 @@
 ---
 UID: NF:wia_lh.IWiaErrorHandler.GetStatusDescription
-title: IWiaErrorHandler::GetStatusDescription method
+title: IWiaErrorHandler::GetStatusDescription
 author: windows-driver-content
 description: The system UI calls the GetStatusDescription method to provide the user with extra information about an error, if the user requests this information. This method is implemented by a driver's UI extension.
 old-location: image\iwiaerrorhandler_getstatusdescription.htm
 old-project: image
 ms.assetid: c3b5622d-9d51-4008-abb0-c8a60c4a6b16
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetStatusDescription method [Imaging Devices], GetStatusDescription method [Imaging Devices], IWiaErrorHandler interface, GetStatusDescription,IWiaErrorHandler.GetStatusDescription, IWiaErrorHandler, IWiaErrorHandler interface [Imaging Devices], GetStatusDescription method, IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml, image.iwiaerrorhandler_getstatusdescription, wia_lh/IWiaErrorHandler::GetStatusDescription
+ms.date: 4/23/2018
+ms.keywords: GetStatusDescription, GetStatusDescription method [Imaging Devices], GetStatusDescription method [Imaging Devices],IWiaErrorHandler interface, IWiaErrorHandler interface [Imaging Devices],GetStatusDescription method, IWiaErrorHandler.GetStatusDescription, IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml, image.iwiaerrorhandler_getstatusdescription, wia_lh/IWiaErrorHandler::GetStatusDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	wia_lh.h
 api_name:
 -	IWiaErrorHandler.GetStatusDescription
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaErrorHandler::GetStatusDescription method
+# IWiaErrorHandler::GetStatusDescription
 
 
 ## -description
 
 
  The system UI calls the <b>GetStatusDescription</b> method to provide the user with extra information about an error, if the user requests this information. This method is implemented by a driver's UI extension.
-
-
-## -syntax
-
-
-````
-HRESULT GetStatusDescription(
-  [in]  LONG      lFlags,
-  [in]  IWiaItem2 *pWiaItem2,
-  [in]  HRESULT   hrStatus,
-  [out] BSTR      *pbstrDescription
-);
-````
 
 
 ## -parameters
@@ -143,16 +130,15 @@ The implementation of <b>IWiaErrorHandler::GetStatusDescription</b> should retur
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/b441fbca-75fe-4b9d-a9d5-2ad5a4a55801">IWiaErrorHandler</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543909">IWiaErrorHandler::ReportStatus</a>
-
-
-
-<a href="..\wia_lh\nn-wia_lh-iwiaerrorhandler.md">IWiaErrorHandler</a>
-
-
-
  
 
  
-
 

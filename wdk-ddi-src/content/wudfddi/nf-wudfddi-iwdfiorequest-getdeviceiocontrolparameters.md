@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetDeviceIoControlParameters
-title: IWDFIoRequest::GetDeviceIoControlParameters method
+title: IWDFIoRequest::GetDeviceIoControlParameters
 author: windows-driver-content
 description: The GetDeviceIoControlParameters method retrieves the request parameters for a device I/O control-type request.
 old-location: wdf\iwdfiorequest_getdeviceiocontrolparameters.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 96de6f7a-da1d-44a6-b1f7-44859312a662
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetDeviceIoControlParameters method, GetDeviceIoControlParameters method, IWDFIoRequest interface, GetDeviceIoControlParameters,IWDFIoRequest.GetDeviceIoControlParameters, IWDFIoRequest, IWDFIoRequest interface, GetDeviceIoControlParameters method, IWDFIoRequest::GetDeviceIoControlParameters, UMDFRequestObjectRef_8a0fa5cd-af16-4599-8282-4ca0a81591ac.xml, umdf.iwdfiorequest_getdeviceiocontrolparameters, wdf.iwdfiorequest_getdeviceiocontrolparameters, wudfddi/IWDFIoRequest::GetDeviceIoControlParameters
+ms.keywords: GetDeviceIoControlParameters, GetDeviceIoControlParameters method, GetDeviceIoControlParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetDeviceIoControlParameters method, IWDFIoRequest.GetDeviceIoControlParameters, IWDFIoRequest::GetDeviceIoControlParameters, UMDFRequestObjectRef_8a0fa5cd-af16-4599-8282-4ca0a81591ac.xml, umdf.iwdfiorequest_getdeviceiocontrolparameters, wdf.iwdfiorequest_getdeviceiocontrolparameters, wudfddi/IWDFIoRequest::GetDeviceIoControlParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest.GetDeviceIoControlParameters
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::GetDeviceIoControlParameters method
+# IWDFIoRequest::GetDeviceIoControlParameters
 
 
 ## -description
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetDeviceIoControlParameters</b> method retrieves the request parameters for a device I/O control-type request.
-
-
-## -syntax
-
-
-````
-void  GetDeviceIoControlParameters(
-  [out] ULONG  *pControlCode,
-  [out] SIZE_T *pInBufferSize,
-  [out] SIZE_T *pOutBufferSize
-);
-````
 
 
 ## -parameters
@@ -115,11 +103,10 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pContr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
@@ -127,8 +114,8 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pContr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
  
 
  
-
 

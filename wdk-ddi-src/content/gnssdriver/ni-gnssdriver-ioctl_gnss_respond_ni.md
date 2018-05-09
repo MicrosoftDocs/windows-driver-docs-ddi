@@ -8,7 +8,7 @@ old-project: gnss
 ms.assetid: AEEB014C-653F-459A-A04A-6E0732E8E5B0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_RESPOND_NI, IOCTL_GNSS_RESPOND_NI control code [Sensor Devices], gnss.ioctl_gnss_respond_ni, gnssdriver/IOCTL_GNSS_RESPOND_NI
+ms.keywords: IOCTL_GNSS_RESPOND_NI, IOCTL_GNSS_RESPOND_NI control, IOCTL_GNSS_RESPOND_NI control code [Sensor Devices], gnss.ioctl_gnss_respond_ni, gnssdriver/IOCTL_GNSS_RESPOND_NI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_RESPOND_NI
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_RESPOND_NI IOCTL
@@ -49,7 +50,7 @@ req.typenames: GNSS_SUPL_CERT_ACTION
 ## -description
 
 
-The <b>IOCTL_GNSS_RESPOND_NI</b> control code is used by the GNSS adapter to respond to an NI request that was asynchronously communicated to it by the GNSS driver through the resolution of an <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_listen_ni.md">IOCTL_GNSS_LISTEN_NI</a> request. 
+The <b>IOCTL_GNSS_RESPOND_NI</b> control code is used by the GNSS adapter to respond to an NI request that was asynchronously communicated to it by the GNSS driver through the resolution of an <a href="https://msdn.microsoft.com/library/windows/hardware/dn917738">IOCTL_GNSS_LISTEN_NI</a> request. 
 
 
 ## -ioctlparameters
@@ -59,7 +60,7 @@ The <b>IOCTL_GNSS_RESPOND_NI</b> control code is used by the GNSS adapter to res
 
 ### -input-buffer
 
-A pointer to a <a href="..\gnssdriver\ns-gnssdriver-gnss_ni_response.md">GNSS_NI_RESPONSE</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925196">GNSS_NI_RESPONSE</a> structure.
 
 
 
@@ -134,7 +135,6 @@ It is the GNSS driver’s responsibility to pass the user’s response, containe
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -142,14 +142,15 @@ It is the GNSS driver’s responsibility to pass the user’s response, containe
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

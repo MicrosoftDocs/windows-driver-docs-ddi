@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_setindices.htm
 old-project: display
 ms.assetid: 9a0b8706-91ba-42a5-aaa2-0381931d64f0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_SETINDICES, D3DDDIARG_SETINDICES structure [Display Devices], UMDisplayDriver_param_Structs_68458ee2-76c8-41c5-b610-47ef40874c1e.xml, _D3DDDIARG_SETINDICES, d3dumddi/D3DDDIARG_SETINDICES, display.d3dddiarg_setindices
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_SETINDICES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_SETINDICES
 ---
@@ -50,17 +51,6 @@ req.typenames: D3DDDIARG_SETINDICES
 
 
 The D3DDDIARG_SETINDICES structure describes parameters for setting the current index buffer. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_SETINDICES {
-  HANDLE hIndexBuffer;
-  UINT   Stride;
-} D3DDDIARG_SETINDICES;
-````
 
 
 ## -struct-fields
@@ -80,16 +70,15 @@ typedef struct _D3DDDIARG_SETINDICES {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setindices.md">SetIndices</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setstreamsourceum.md">SetStreamSourceUM</a>
+<a href="https://msdn.microsoft.com/5348b3f9-78c5-4915-ba68-296d6f9f916c">SetIndices</a>
 
 
 
+<a href="https://msdn.microsoft.com/75a70801-0338-45ed-a691-5f84202575d5">SetStreamSourceUM</a>
  
 
  
-
 

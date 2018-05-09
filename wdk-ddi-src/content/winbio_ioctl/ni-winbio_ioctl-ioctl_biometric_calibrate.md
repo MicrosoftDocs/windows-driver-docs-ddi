@@ -8,7 +8,7 @@ old-project: biometric
 ms.assetid: 3ffd954f-91f8-4896-b105-86e07a5b6be7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IOCTL_BIOMETRIC_CALIBRATE, IOCTL_BIOMETRIC_CALIBRATE control code [Biometric Devices], biometric.ioctl_biometric_calibrate, biometric_ref_160131c1-3389-4869-89c5-0d01761930e2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE
+ms.keywords: IOCTL_BIOMETRIC_CALIBRATE, IOCTL_BIOMETRIC_CALIBRATE control, IOCTL_BIOMETRIC_CALIBRATE control code [Biometric Devices], biometric.ioctl_biometric_calibrate, biometric_ref_160131c1-3389-4869-89c5-0d01761930e2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	Winbio_ioctl.h
 api_name:
 -	IOCTL_BIOMETRIC_CALIBRATE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_BIOMETRIC_CALIBRATE IOCTL
@@ -70,12 +70,12 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_calibration_info.md">WINBIO_CALIBRATION_INFO</a> structure.
+The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536465">WINBIO_CALIBRATION_INFO</a> structure.
 
 
 ### -output-buffer-length
 
-Length of a <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_calibration_info.md">WINBIO_CALIBRATION_INFO</a> structure. 
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536465">WINBIO_CALIBRATION_INFO</a> structure. 
 
 The vendor-supplied driver can optionally return a DWORD-sized buffer that specifies the buffer size necessary for the requested operation.
 

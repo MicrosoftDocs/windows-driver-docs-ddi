@@ -7,8 +7,8 @@ old-location: display\startmiracastsession.htm
 old-project: display
 ms.assetid: 2778d9d0-7f97-416f-a5ae-3754b17e8a29
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFN_START_MIRACAST_SESSION, StartMiracastSession, StartMiracastSession callback function [Display Devices], display.startmiracastsession, netdispumdddi/StartMiracastSession
+ms.date: 4/16/2018
+ms.keywords: PFN_START_MIRACAST_SESSION, PFN_START_MIRACAST_SESSION callback, StartMiracastSession, StartMiracastSession callback function [Display Devices], display.startmiracastsession, netdispumdddi/StartMiracastSession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,34 +38,19 @@ api_location:
 -	Netdispumdddi.h
 api_name:
 -	StartMiracastSession
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: 
 ---
 
-# PFN_START_MIRACAST_SESSION callback
+# PFN_START_MIRACAST_SESSION callback function
 
 
 ## -description
 
 
 Called by the operating system to start a Miracast connected session.
-
-
-## -prototype
-
-
-````
-PFN_START_MIRACAST_SESSION StartMiracastSession;
-
-NTSTATUS StartMiracastSession(
-  _In_  PVOID                         pMiracastContext,
-  _In_  SOCKET                        MiracastRTSPSocket,
-  _In_  MIRACAST_WFD_CONNECTION_STATS *pWfdConnectionStats,
-  _Out_ MIRACAST_SESSION_INFO         *pSessionInfo
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -77,24 +62,24 @@ NTSTATUS StartMiracastSession(
 
 A pointer to a context associated with a display adapter.
 
-The operating system obtained the context when it called the Miracast user-mode driver's <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a> function.
+The operating system obtained the context when it called the Miracast user-mode driver's <a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a> function.
 
 
 ### -param MiracastRTSPSocket [in]
 
 The operating system-supplied network socket handle of the Real Time Streaming Protocol (RTSP). 
 
-<div class="alert"><b>Note</b>  The Miracast user-mode driver should not close this socket. When the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> function is called, the operating system will close this socket.</div>
+<div class="alert"><b>Note</b>  The Miracast user-mode driver should not close this socket. When the <a href="https://msdn.microsoft.com/ab9ad8ee-9390-41a4-9a69-2e98579b2b77">StopMiracastSession</a> function is called, the operating system will close this socket.</div>
 <div> </div>
 
 ### -param *pWfdConnectionStats [in]
 
-A pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a> structure that indicates the Wi-Fi Direct connection statistics.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265482">MIRACAST_WFD_CONNECTION_STATS</a> structure that indicates the Wi-Fi Direct connection statistics.
 
 
 ### -param *pSessionInfo [out]
 
-A pointer to a <a href="..\netdispumdddi\ns-netdispumdddi-miracast_session_info.md">MIRACAST_SESSION_INFO</a> structure that the Miracast user-mode driver should complete after it has obtained the capabilities of the Miracast sink.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265478">MIRACAST_SESSION_INFO</a> structure that the Miracast user-mode driver should complete after it has obtained the capabilities of the Miracast sink.
 
 
 ## -returns
@@ -131,42 +116,41 @@ The current suggested encode rate cannot sustain a Miracast sink that supports m
 
 When this function is called, the Miracast user-mode driver should start communicating with the Miracast sink using the Miracast protocol. The driver should  gather the capabilities of the sink and the attributes of the monitor that's connected to the sink.  The driver should perform enough of the negotiation with the sink to determine whether a monitor is connected to the sink or not. If the driver determines that a monitor is connected to the sink, it should also determine whether the current suggested bit rate is high enough to at least support the lowest sink supported mode of 1024 x 768 pixels.
 
-The driver should also set the value of these members of <a href="..\netdispumdddi\ns-netdispumdddi-miracast_session_info.md">MIRACAST_SESSION_INFO</a> pointed to by <i>pSessionInfo</i> in these cases:
+The driver should also set the value of these members of <a href="https://msdn.microsoft.com/library/windows/hardware/dn265478">MIRACAST_SESSION_INFO</a> pointed to by <i>pSessionInfo</i> in these cases:
 
 
 
 
 #### Thread Safety
 
-The operating system guarantees that only one of the <a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>, <a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>, <i>StartMiracastSession</i>, and <a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a> functions is called at a time.
+The operating system guarantees that only one of the <a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a>, <a href="https://msdn.microsoft.com/1b155e15-1e4e-45bb-98cc-f1c19923ed2c">DestroyMiracastContext</a>, <i>StartMiracastSession</i>, and <a href="https://msdn.microsoft.com/ab9ad8ee-9390-41a4-9a69-2e98579b2b77">StopMiracastSession</a> functions is called at a time.
 
 
 
 
 ## -see-also
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_session_info.md">MIRACAST_SESSION_INFO</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
+<a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_destroy_miracast_context.md">DestroyMiracastContext</a>
+<a href="https://msdn.microsoft.com/1b155e15-1e4e-45bb-98cc-f1c19923ed2c">DestroyMiracastContext</a>
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265478">MIRACAST_SESSION_INFO</a>
 
 
 
-<a href="..\netdispumdddi\ns-netdispumdddi-miracast_wfd_connection_stats.md">MIRACAST_WFD_CONNECTION_STATS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265482">MIRACAST_WFD_CONNECTION_STATS</a>
 
 
 
+<a href="https://msdn.microsoft.com/ab9ad8ee-9390-41a4-9a69-2e98579b2b77">StopMiracastSession</a>
  
 
  
-
 

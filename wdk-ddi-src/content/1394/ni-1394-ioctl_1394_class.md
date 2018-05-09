@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 88a5f5ab-e85b-4bd6-a2f5-bbcdc8c4f30c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: 1394/IOCTL_1394_CLASS, 1394irp_fa8ee811-14ee-44a0-9a9c-b53a421497d4.xml, IEEE.ioctl_1394_class, IOCTL_1394_CLASS, IOCTL_1394_CLASS control code [Buses]
+ms.keywords: 1394/IOCTL_1394_CLASS, 1394irp_fa8ee811-14ee-44a0-9a9c-b53a421497d4.xml, IEEE.ioctl_1394_class, IOCTL_1394_CLASS, IOCTL_1394_CLASS control, IOCTL_1394_CLASS control code [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,8 +38,10 @@ api_location:
 -	1394.h
 api_name:
 -	IOCTL_1394_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
+req.typenames: 
 ---
 
 # IOCTL_1394_CLASS IOCTL
@@ -240,12 +242,11 @@ The information the bus driver returns in the I/O Status Block is documented bel
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537241">IOCTL_IEEE1394_API_REQUEST</a>
-
-
-
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_BREADCRUMBING_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_BREADCRUMBING_PARAM, *PGNSS_BREADCRUMBING_PARAM
 ---
@@ -49,22 +50,7 @@ req.typenames: GNSS_BREADCRUMBING_PARAM, *PGNSS_BREADCRUMBING_PARAM
 ## -description
 
 
-This structure contains the configuration passed into the start of breadcrumbing via <a href="..\gnssdriver\ni-gnssdriver-ioctl_gnss_start_breadcrumbing.md">IOCTL_GNSS_START_BREADCRUMBING</a>.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG MaximumHorizontalUncertainty;
-  ULONG MinDistanceBetweenFixes;
-  ULONG MaximumErrorTimeoutMs;
-  BYTE  Unused[512];
-} GNSS_BREADCRUMBING_PARAM, *PGNSS_BREADCRUMBING_PARAM;
-````
+This structure contains the configuration passed into the start of breadcrumbing via <a href="https://msdn.microsoft.com/library/windows/hardware/mt767993">IOCTL_GNSS_START_BREADCRUMBING</a>.
 
 
 ## -struct-fields

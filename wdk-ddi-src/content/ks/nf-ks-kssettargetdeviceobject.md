@@ -7,7 +7,7 @@ old-location: stream\kssettargetdeviceobject.htm
 old-project: stream
 ms.assetid: 0d90f70d-8cbe-4c95-ae54-494ff404631a
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsSetTargetDeviceObject, KsSetTargetDeviceObject function [Streaming Media Devices], ks/KsSetTargetDeviceObject, ksfunc_f5e0140d-a6f3-49a1-a319-f55bdd5f0734.xml, stream.kssettargetdeviceobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsSetTargetDeviceObject
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 The <b>KsSetTargetDeviceObject</b> function sets the target device object of an object. The function adds the object header to a list of object headers that have target devices. 
 
 
-## -syntax
-
-
-````
-VOID KsSetTargetDeviceObject(
-  _In_     KSOBJECT_HEADER Header,
-  _In_opt_ PDEVICE_OBJECT  TargetDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +61,7 @@ VOID KsSetTargetDeviceObject(
 
 ### -param Header [in]
 
-Points to a header previously allocated by <a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>.
+Points to a header previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff560972">KsAllocateObjectHeader</a>.
 
 
 ### -param TargetDevice [in, optional]
@@ -101,24 +91,23 @@ If <b>KsSetDevicePnpAndBaseObject</b> is also used to assign the PnP object stac
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksrecalculatestackdepth.md">KsRecalculateStackDepth</a>
 
 
 
-<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a>
 
 
 
-<a href="..\ks\nf-ks-kssetdevicepnpandbaseobject.md">KsSetDevicePnpAndBaseObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560972">KsAllocateObjectHeader</a>
 
 
 
-<a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
+<a href="https://msdn.microsoft.com/0b8f23a5-af8a-4b99-8f17-092076523914">KsRecalculateStackDepth</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566831">KsSetDevicePnpAndBaseObject</a>
  
 
  
-
 

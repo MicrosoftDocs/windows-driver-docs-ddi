@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: FAB86862-C0A1-4FC1-A80F-44F235B9B37D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_PrepareController, CLIENT_PrepareController callback function [Parallel Ports], GPIO.client_preparecontroller, GPIO_CLIENT_PREPARE_CONTROLLER, gpioclx/CLIENT_PrepareController
+ms.keywords: CLIENT_PrepareController, CLIENT_PrepareController callback, CLIENT_PrepareController callback function [Parallel Ports], GPIO.client_preparecontroller, GPIO_CLIENT_PREPARE_CONTROLLER, gpioclx/CLIENT_PrepareController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,34 +38,19 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_PrepareController
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_PREPARE_CONTROLLER callback
+# GPIO_CLIENT_PREPARE_CONTROLLER callback function
 
 
 ## -description
 
 
 The <i>CLIENT_PrepareController</i> event callback function performs any operations that are needed to make the general-purpose I/O (GPIO) controller ready to be accessed by the GPIO controller driver.
-
-
-## -prototype
-
-
-````
-GPIO_CLIENT_PREPARE_CONTROLLER CLIENT_PrepareController;
-
-NTSTATUS CLIENT_PrepareController(
-  _In_ WDFDEVICE    Device,
-  _In_ PVOID        Context,
-  _In_ WDFCMRESLIST ResourcesRaw,
-  _In_ WDFCMRESLIST ResourcesTranslated
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -167,6 +152,9 @@ The GPIO_CLIENT_PREPARE_CONTROLLER function type is defined in the Gpioclx.h hea
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439411">CLIENT_ReleaseController</a>
 
 
@@ -176,11 +164,7 @@ The GPIO_CLIENT_PREPARE_CONTROLLER function type is defined in the Gpioclx.h hea
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
  
 
  
-
 

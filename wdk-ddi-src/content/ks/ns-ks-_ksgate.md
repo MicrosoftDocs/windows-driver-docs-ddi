@@ -7,7 +7,7 @@ old-location: stream\ksgate.htm
 old-project: stream
 ms.assetid: f6b5169e-2ff1-43da-a207-0c15c75e1367
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSGATE, KSGATE, KSGATE structure [Streaming Media Devices], PKSGATE, PKSGATE structure pointer [Streaming Media Devices], _KSGATE, avstruct_b232aae6-2b0a-44f9-beaf-29fe4b7f8b86.xml, ks/KSGATE, ks/PKSGATE, stream.ksgate"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSGATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSGATE, *PKSGATE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSGATE, *PKSGATE
 
 
 The KSGATE structure describes an AVStream gate object.
-
-
-## -syntax
-
-
-````
-typedef struct _KSGATE {
-  LONG    Count;
-  PKSGATE NextGate;
-} KSGATE, *PKSGATE;
-````
 
 
 ## -struct-fields
@@ -92,24 +82,23 @@ All of the manipulations of <b>Count</b> are done using interlocked functions to
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562573">KsGateInitialize</a>
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562574">KsGateInitializeAnd</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562576">KsGateInitializeOr</a>
  
 
  
-
 

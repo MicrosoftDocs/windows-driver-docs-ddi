@@ -7,7 +7,7 @@ old-location: kernel\poregisterpowersettingcallback.htm
 old-project: kernel
 ms.assetid: a4dd91c4-f6b1-4751-a2be-9b4872fa7bb2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: PoRegisterPowerSettingCallback, PoRegisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], kernel.poregisterpowersettingcallback, portn_ddaef830-5cf5-4b7f-9fa6-e29a2b9f847f.xml, wdm/PoRegisterPowerSettingCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PoRegisterPowerSettingCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # PoRegisterPowerSettingCallback function
@@ -52,20 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>PoRegisterPowerSettingCallback</b> routine registers a power-setting callback routine to receive notifications of changes in the specified power setting.
 
 
-## -syntax
-
-
-````
-NTSTATUS PoRegisterPowerSettingCallback(
-  _In_opt_ PDEVICE_OBJECT          DeviceObject,
-  _In_     LPCGUID                 SettingGuid,
-  _In_     PPOWER_SETTING_CALLBACK Callback,
-  _In_opt_ PVOID                   Context,
-  _Out_    PVOID                   *Handle
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +60,7 @@ NTSTATUS PoRegisterPowerSettingCallback(
 
 ### -param DeviceObject [in, optional]
 
-A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure that is associated with the caller of this routine. This parameter is optional. It is used internally only for debugging purposes. If this parameter is not supplied, it must be set to <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that is associated with the caller of this routine. This parameter is optional. It is used internally only for debugging purposes. If this parameter is not supplied, it must be set to <b>NULL</b>.
 
 
 ### -param SettingGuid [in]
@@ -93,7 +80,7 @@ A pointer to the context for the callback routine. This parameter is optional. I
 
 ### -param Handle [out]
 
-A handle that the power manager uses to represent the callback routine. A driver must subsequently supply this handle in a call to <a href="..\wdm\nf-wdm-pounregisterpowersettingcallback.md">PoUnregisterPowerSettingCallback</a> to unregister the callback routine.
+A handle that the power manager uses to represent the callback routine. A driver must subsequently supply this handle in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff559788">PoUnregisterPowerSettingCallback</a> to unregister the callback routine.
 
 
 ## -returns
@@ -141,11 +128,11 @@ The routine could not allocate the system resources that are required to registe
 
 A driver calls <b>PoRegisterPowerSettingCallback</b> to register a callback routine with the power manager. The power manager subsequently calls this callback routine to notify the driver after there is a change to the specified power setting. In addition, the power manager initializes the power setting of the driver by immediately calling the callback routine and passing the current value of the power setting. The power manager initializes the power setting of the driver this way regardless of whether the power setting has actually changed.
 
-A driver should call <b>PoRegisterPowerSettingCallback</b> for each power setting that the driver needs to monitor. Drivers should call this routine in their <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine during initialization. Typically, most drivers pass a pointer to a device extension in the <i>Context</i> parameter.
+A driver should call <b>PoRegisterPowerSettingCallback</b> for each power setting that the driver needs to monitor. Drivers should call this routine in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine during initialization. Typically, most drivers pass a pointer to a device extension in the <i>Context</i> parameter.
 
-To unregister a power-setting callback, call the <a href="..\wdm\nf-wdm-pounregisterpowersettingcallback.md">PoUnregisterPowerSettingCallback</a> routine.
+To unregister a power-setting callback, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559788">PoUnregisterPowerSettingCallback</a> routine.
 
-Typically, Kernel-Mode Driver Framework (KMDF) drivers should call <b>PoRegisterPowerSettingCallback</b> from their <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_init.md">EvtDeviceSelfManagedIoInit</a> callback function, and should call <b>PoUnregisterPowerSettingCallback</b> from their <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a> callback function. These drivers should <u>not</u> call <b>PoRegisterPowerSettingCallback</b> from their <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function; otherwise, the power-setting callback routine might be called before the driver stack is completely built.
+Typically, Kernel-Mode Driver Framework (KMDF) drivers should call <b>PoRegisterPowerSettingCallback</b> from their <a href="https://msdn.microsoft.com/9dbc66db-ea94-4e6a-9618-00999a9dd641">EvtDeviceSelfManagedIoInit</a> callback function, and should call <b>PoUnregisterPowerSettingCallback</b> from their <a href="https://msdn.microsoft.com/639ff3fd-ce38-417e-8fc4-a03ad259a5c8">EvtDeviceSelfManagedIoCleanup</a> callback function. These drivers should <u>not</u> call <b>PoRegisterPowerSettingCallback</b> from their <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function; otherwise, the power-setting callback routine might be called before the driver stack is completely built.
 
 The callback routine that is registered for a particular power setting is called when a transition in power state occurs that changes the value of the setting, or when the power manager changes the value of the setting. For example, if <i>SettingGuid</i> points to the GUID value GUID_LIDSWITCH_STATE_CHANGE, the callback routine is called when the lid to a laptop computer clicks open or closed. The <i>Value</i> parameter passed to the callback routine in this example points to a ULONG value that is 1 if the state of the lid switch changed from closed to open, and is 0 if the state of the lid switch changed from open to closed. For more information, see the power-setting GUID definitions and extensive comments in the Wdm.h header file.
 
@@ -250,28 +237,27 @@ The POWER_SETTING_CALLBACK function type is defined in the Wdm.h header file. To
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
 
 
 
-<a href="..\wdm\nf-wdm-pounregisterpowersettingcallback.md">PoUnregisterPowerSettingCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
 
 
 
-<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/639ff3fd-ce38-417e-8fc4-a03ad259a5c8">EvtDeviceSelfManagedIoCleanup</a>
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="https://msdn.microsoft.com/9dbc66db-ea94-4e6a-9618-00999a9dd641">EvtDeviceSelfManagedIoInit</a>
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_init.md">EvtDeviceSelfManagedIoInit</a>
+<a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559788">PoUnregisterPowerSettingCallback</a>
  
 
  
-
 

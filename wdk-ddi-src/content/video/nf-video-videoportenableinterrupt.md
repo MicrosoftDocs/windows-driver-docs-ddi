@@ -7,7 +7,7 @@ old-location: display\videoportenableinterrupt.htm
 old-project: display
 ms.assetid: d40b0bc6-fad0-4c83-b1ca-c5105112ae2d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortEnableInterrupt, VideoPortEnableInterrupt function [Display Devices], VideoPort_Functions_63966cab-5451-4fa0-ae8f-635fae20aabd.xml, display.videoportenableinterrupt, video/VideoPortEnableInterrupt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortEnableInterrupt
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortEnableInterrupt function
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortEnableInterrupt</b> function is <b>obsolete</b> and should not be called.
 
 The <b>VideoPortEnableInterrupt</b> function reenables interrupts from a video adapter after a call to <b>VideoPortDisableInterrupt</b>.
-
-
-## -syntax
-
-
-````
-VP_STATUS VideoPortEnableInterrupt(
-   PVOID HwDeviceExtension
-);
-````
 
 
 ## -parameters
@@ -90,7 +80,7 @@ If <b>VideoPortEnableInterrupt</b> succeeds, it returns NO_ERROR. Otherwise, it 
 
 If you need to disable interrupts for the display adapter, write hardware-specific code to prevent the display adapter from generating interrupts. To subsequently enable interrupts, write hardware-specific code to allow the display adapter to resume generating interrupts.
 
-You should not call <a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a> or <b>VideoPortEnableInterrupt</b> for the following reasons:
+You should not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff570294">VideoPortDisableInterrupt</a> or <b>VideoPortEnableInterrupt</b> for the following reasons:
 
 <ul>
 <li>
@@ -106,31 +96,30 @@ On a multiprocessor machine, a call to <b>VideoPortEnableInterrupt</b> might run
 
 </li>
 </ul>
-If the video miniport driver has not registered an <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a> routine for the display adapter, <b>VideoPortEnableInterrupt</b> returns ERROR_INVALID_FUNCTION. 
+If the video miniport driver has not registered an <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> routine for the display adapter, <b>VideoPortEnableInterrupt</b> returns ERROR_INVALID_FUNCTION. 
 
 
 
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportdisableinterrupt.md">VideoPortDisableInterrupt</a>
 
 
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+<a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a>
 
 
 
-<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+<a href="https://msdn.microsoft.com/04e3bac6-c905-4c95-bd1b-e85b46c4296d">HwVidSynchronizeExecutionCallback</a>
 
 
 
-<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570505">VIDEO_HW_INITIALIZATION_DATA</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570294">VideoPortDisableInterrupt</a>
  
 
  
-
 

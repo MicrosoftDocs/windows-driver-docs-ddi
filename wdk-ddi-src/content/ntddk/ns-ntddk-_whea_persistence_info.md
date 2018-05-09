@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_PERSISTENCE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO
 ---
@@ -52,24 +53,6 @@ req.typenames: WHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO
 The WHEA_PERSISTENCE_INFO union describes data that is used by the error record persistence interface for storing an error record.
 
 
-## -syntax
-
-
-````
-typedef union _WHEA_PERSISTENCE_INFO {
-  struct {
-    ULONGLONG Signature  :16;
-    ULONGLONG Length  :24;
-    ULONGLONG Identifier  :16;
-    ULONGLONG Attributes  :2;
-    ULONGLONG DoNotLog  :1;
-    ULONGLONG Reserved  :5;
-  };
-  ULONGLONG AsULONGLONG;
-} WHEA_PERSISTENCE_INFO, *PWHEA_PERSISTENCE_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -80,58 +63,57 @@ typedef union _WHEA_PERSISTENCE_INFO {
  
 
 
-### -field AsULONGLONG
+### -field DUMMYSTRUCTNAME.Signature
 
-A ULONGLONG representation of the contents of the WHEA_PERSISTENCE_INFO union.
-
-
-#### - Attributes
-
-Attribute flags that describe the error record. No attributes are currently defined.
+The signature of the error record when it is stored in the platform's persistent data storage. This member contains the value 'RE'.
 
 
-#### - DoNotLog
-
-A single bit that indicates that WHEA should not log an entry in the system event log for the error record.
-
-
-#### - Identifier
-
-An identifier that uniquely identifies the error record when it is stored in the platform's persistent data storage. The data type for this identifier is WHEA_ERROR_RECORD_ID.
-
-
-#### - Length
+### -field DUMMYSTRUCTNAME.Length
 
 The length, in bytes, of the error record when it is stored in the platform's persistent data storage.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.Identifier
+
+An identifier that uniquely identifies the error record when it is stored in the platform's persistent data storage. The data type for this identifier is WHEA_ERROR_RECORD_ID.
+
+
+### -field DUMMYSTRUCTNAME.Attributes
+
+Attribute flags that describe the error record. No attributes are currently defined.
+
+
+### -field DUMMYSTRUCTNAME.DoNotLog
+
+A single bit that indicates that WHEA should not log an entry in the system event log for the error record.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use. This member must be zero.
 
 
-#### - Signature
+### -field AsULONGLONG
 
-The signature of the error record when it is stored in the platform's persistent data storage. This member contains the value 'RE'.
+A ULONGLONG representation of the contents of the WHEA_PERSISTENCE_INFO union.
 
 
 ## -remarks
 
 
 
-A WHEA_PERSISTENCE_INFO union is contained within the <a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a> structure.
+A WHEA_PERSISTENCE_INFO union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a>
  
 
  
-
 

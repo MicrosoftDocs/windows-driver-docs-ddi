@@ -7,7 +7,7 @@ old-location: ifsk\fltsetsecurityobject.htm
 old-project: ifsk
 ms.assetid: 3276dff3-d12a-4a30-bbdc-a582a2228df3
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_1174281c-5ba7-489b-8b8a-c0a4697ce678.xml, FltSetSecurityObject, FltSetSecurityObject function [Installable File System Drivers], fltkernel/FltSetSecurityObject, ifsk.fltsetsecurityobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltSetSecurityObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltSetSecurityObject function
@@ -50,19 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltSetSecurityObject</b> sets an object's security state. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltSetSecurityObject(
-  _In_ PFLT_INSTANCE        Instance,
-  _In_ PFILE_OBJECT         FileObject,
-  _In_ SECURITY_INFORMATION SecurityInformation,
-  _In_ PSECURITY_DESCRIPTOR SecurityDescriptor
-);
-````
 
 
 ## -parameters
@@ -258,15 +246,14 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-zwquerysecurityobject.md">ZwQuerySecurityObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543441">FltQuerySecurityObject</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltquerysecurityobject.md">FltQuerySecurityObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
 
 
 
@@ -274,12 +261,12 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-zwsetsecurityobject.md">ZwSetSecurityObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567066">ZwQuerySecurityObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567106">ZwSetSecurityObject</a>
  
 
  
-
 

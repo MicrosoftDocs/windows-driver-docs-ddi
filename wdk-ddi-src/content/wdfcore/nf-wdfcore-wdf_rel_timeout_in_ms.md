@@ -39,10 +39,10 @@ api_location:
 -	None.dll
 api_name:
 -	WDF_REL_TIMEOUT_IN_MS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_REL_TIMEOUT_IN_MS function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_REL_TIMEOUT_IN_MS</b> function converts a specified number of milliseconds to a relative time value.
-
-
-## -syntax
-
-
-````
-LONGLONG WDF_REL_TIMEOUT_IN_MS(
-  _In_ ULONGLONG Time
-);
-````
 
 
 ## -parameters
@@ -116,12 +106,11 @@ inTimerQueue = WdfTimerStart(
 
 ## -see-also
 
-<a href="..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_ms.md">WDF_ABS_TIMEOUT_IN_MS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551209">WDF_ABS_TIMEOUT_IN_MS</a>
  
 
  
-
 

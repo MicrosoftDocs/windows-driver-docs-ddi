@@ -7,8 +7,8 @@ old-location: stream\camrestorestate.htm
 old-project: stream
 ms.assetid: 9a69cace-11cc-4671-9e7c-df510cbdd16d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: CamRestoreState, CamSaveState, MyCamState, MyCamState callback function [Streaming Media Devices], PCAM_STATE_ROUTINE, stream.camrestorestate, usbcamdi/MyCamState, usbcmdpr_74c8ba54-9be6-4512-a498-b49635db1760.xml
+ms.date: 4/23/2018
+ms.keywords: CamRestoreState, CamSaveState, MyCamState, MyCamState callback function [Streaming Media Devices], PCAM_STATE_ROUTINE, PCAM_STATE_ROUTINE callback, stream.camrestorestate, usbcamdi/MyCamState, usbcmdpr_74c8ba54-9be6-4512-a498-b49635db1760.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	MyCamState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PCAM_STATE_ROUTINE callback
+# PCAM_STATE_ROUTINE callback function
 
 
 ## -description
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[CamRestoreState is not supported and may be altered or unavailable in the future. ]
 
 A camera minidriver's state callback function restores a previously saved device context state or saves the current device context state.
-
-
-## -prototype
-
-
-````
-NTSTATUS MyCamState(
-   PDEVICE_OBJECT BusDeviceObject,
-   PVOID          DeviceContext
-);
-````
 
 
 ## -parameters
@@ -122,12 +111,11 @@ This function is optional.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568157">SRB_CHANGE_POWER_STATE</a>
-
-
-
  
 
  
-
 

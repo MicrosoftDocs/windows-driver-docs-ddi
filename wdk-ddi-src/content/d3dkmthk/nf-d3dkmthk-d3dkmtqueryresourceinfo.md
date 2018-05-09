@@ -7,7 +7,7 @@ old-location: display\d3dkmtqueryresourceinfo.htm
 old-project: display
 ms.assetid: d195634e-d626-43c9-8212-f32b95c1f526
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTQueryResourceInfo, D3DKMTQueryResourceInfo function [Display Devices], OpenGL_Functions_77dad2ba-a352-4b1a-b2be-53c41589bf90.xml, d3dkmthk/D3DKMTQueryResourceInfo, display.d3dkmtqueryresourceinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTQueryResourceInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTQueryResourceInfo function
@@ -55,26 +56,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTQueryResourceInfo</b> function retrieves information about a shared resource.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTQueryResourceInfo(
-  _Inout_ D3DKMT_QUERYRESOURCEINFO *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryresourceinfo.md">D3DKMT_QUERYRESOURCEINFO</a> structure that contains parameters for retrieving information about a shared resource.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548223">D3DKMT_QUERYRESOURCEINFO</a> structure that contains parameters for retrieving information about a shared resource.
 
 
 ## -returns
@@ -144,25 +140,24 @@ This function might also return other NTSTATUS values.
 
 
 
-The OpenGL ICD typically calls <b>D3DKMTQueryResourceInfo</b> to obtain information about the resource and then uses this information to allocate the appropriate buffers for a call to <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>.
+The OpenGL ICD typically calls <b>D3DKMTQueryResourceInfo</b> to obtain information about the resource and then uses this information to allocate the appropriate buffers for a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547065">D3DKMTOpenResource</a>.
 
-For an example of how an OpenGL ICD can use <b>D3DKMTQueryResourceInfo</b> to retrieve information about a shared resource, see the code example in <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>.
+For an example of how an OpenGL ICD can use <b>D3DKMTQueryResourceInfo</b> to retrieve information about a shared resource, see the code example in <a href="https://msdn.microsoft.com/library/windows/hardware/ff547065">D3DKMTOpenResource</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryresourceinfo.md">D3DKMT_QUERYRESOURCEINFO</a>
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenresource.md">D3DKMTOpenResource</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547065">D3DKMTOpenResource</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548223">D3DKMT_QUERYRESOURCEINFO</a>
  
 
  
-
 

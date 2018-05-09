@@ -7,7 +7,7 @@ old-location: display\dxgkarg_queryenginestatus.htm
 old-project: display
 ms.assetid: f7255c97-5c25-4ee2-988b-ff301878fe7c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*INOUT_PDXGKARG_QUERYENGINESTATUS, DXGKARG_QUERYENGINESTATUS, DXGKARG_QUERYENGINESTATUS structure [Display Devices], _DXGKARG_QUERYENGINESTATUS, d3dkmddi/DXGKARG_QUERYENGINESTATUS, display.dxgkarg_queryenginestatus"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGKARG_QUERYENGINESTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_QUERYENGINESTATUS
 ---
@@ -49,19 +50,7 @@ req.typenames: DXGKARG_QUERYENGINESTATUS
 ## -description
 
 
-Used in a call to the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryenginestatus.md">DxgkDdiQueryEngineStatus</a> function to specify a node within an active physical adapter (engine) that is to be queried for its progress.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_QUERYENGINESTATUS {
-  UINT              NodeOrdinal;
-  UINT              EngineOrdinal;
-  DXGK_ENGINESTATUS EngineStatus;
-} DXGKARG_QUERYENGINESTATUS;
-````
+Used in a call to the <a href="https://msdn.microsoft.com/87c99fcb-d25a-41b1-a1f3-9cf9ab7b141e">DxgkDdiQueryEngineStatus</a> function to specify a node within an active physical adapter (engine) that is to be queried for its progress.
 
 
 ## -struct-fields
@@ -71,7 +60,7 @@ typedef struct _DXGKARG_QUERYENGINESTATUS {
 
 ### -field NodeOrdinal
 
-[in] An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being queried in a call to <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryenginestatus.md">DxgkDdiQueryEngineStatus</a>.
+[in] An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being queried in a call to <a href="https://msdn.microsoft.com/87c99fcb-d25a-41b1-a1f3-9cf9ab7b141e">DxgkDdiQueryEngineStatus</a>.
 
 
 ### -field EngineOrdinal
@@ -81,7 +70,7 @@ typedef struct _DXGKARG_QUERYENGINESTATUS {
 
 ### -field EngineStatus
 
-[out] The progress, of type <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enginestatus.md">DXGK_ENGINESTATUS</a>, of the node and physical adapter that are specified by the <b>NodeOrdinal</b> and <b>EngineOrdinal</b> members.
+[out] The progress, of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh464023">DXGK_ENGINESTATUS</a>, of the node and physical adapter that are specified by the <b>NodeOrdinal</b> and <b>EngineOrdinal</b> members.
 
 
 ## -remarks
@@ -95,16 +84,15 @@ For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryenginestatus.md">DxgkDdiQueryEngineStatus</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enginestatus.md">DXGK_ENGINESTATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464023">DXGK_ENGINESTATUS</a>
 
 
 
+<a href="https://msdn.microsoft.com/87c99fcb-d25a-41b1-a1f3-9cf9ab7b141e">DxgkDdiQueryEngineStatus</a>
  
 
  
-
 

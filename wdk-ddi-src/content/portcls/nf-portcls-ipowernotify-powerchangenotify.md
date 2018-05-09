@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPowerNotify.PowerChangeNotify
-title: IPowerNotify::PowerChangeNotify method
+title: IPowerNotify::PowerChangeNotify
 author: windows-driver-content
 description: The PowerChangeNotify method notifies the miniport driver of changes in the power state.
 old-location: audio\ipowernotify_powerchangenotify.htm
 old-project: audio
 ms.assetid: bbc49675-93d1-4ea2-9a3d-b72d76521de7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IPowerNotify, IPowerNotify interface [Audio Devices], PowerChangeNotify method, IPowerNotify::PowerChangeNotify, PowerChangeNotify method [Audio Devices], PowerChangeNotify method [Audio Devices], IPowerNotify interface, PowerChangeNotify,IPowerNotify.PowerChangeNotify, audio.ipowernotify_powerchangenotify, audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml, portcls/IPowerNotify::PowerChangeNotify
+ms.date: 4/16/2018
+ms.keywords: IPowerNotify interface [Audio Devices],PowerChangeNotify method, IPowerNotify.PowerChangeNotify, IPowerNotify::PowerChangeNotify, PowerChangeNotify, PowerChangeNotify method [Audio Devices], PowerChangeNotify method [Audio Devices],IPowerNotify interface, audio.ipowernotify_powerchangenotify, audmp-routines_14b6d53d-cf30-47d1-bace-402fe4e5d7ba.xml, portcls/IPowerNotify::PowerChangeNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IPowerNotify.PowerChangeNotify
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPowerNotify::PowerChangeNotify method
+# IPowerNotify::PowerChangeNotify
 
 
 ## -description
 
 
 The <code>PowerChangeNotify</code> method notifies the miniport driver of changes in the power state.
-
-
-## -syntax
-
-
-````
-void PowerChangeNotify(
-  [in] POWER_STATE PowerState
-);
-````
 
 
 ## -parameters
@@ -96,7 +87,6 @@ The code for this method must reside in paged memory.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-ipowernotify.md">IPowerNotify</a>
 
 
 
@@ -104,8 +94,8 @@ The code for this method must reside in paged memory.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536947">IPowerNotify</a>
  
 
  
-
 

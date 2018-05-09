@@ -7,7 +7,7 @@ old-location: stream\ksmethodhandlerwithallocator.htm
 old-project: stream
 ms.assetid: 3a4c2eaa-167a-406a-a792-612c3e624f89
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsMethodHandlerWithAllocator, KsMethodHandlerWithAllocator function [Streaming Media Devices], ks/KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, stream.ksmethodhandlerwithallocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsMethodHandlerWithAllocator
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,20 +52,6 @@ req.typenames:
 
 
 The <b>KsMethodHandlerWithAllocator</b> functions performs the same handling as <b>KsMethodHandler</b>, with the same restrictions, but allows an optional allocator callback to be used to provide a buffer for the parameters. If used, the filter may need to free the buffer in some nonconventional manner. Note that the IRP_BUFFERED_IO and IRP_DEALLOCATE_BUFFER flags are not set when using a custom allocator.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsMethodHandlerWithAllocator(
-  _In_           PIRP           Irp,
-  _In_           ULONG          MethodSetsCount,
-  _In_     const KSMETHOD_SET   *MethodSet,
-  _In_opt_       PFNKSALLOCATOR Allocator,
-  _In_opt_       ULONG          MethodItemSize
-);
-````
 
 
 ## -parameters

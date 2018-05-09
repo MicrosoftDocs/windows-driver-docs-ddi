@@ -7,7 +7,7 @@ old-location: bltooth\bth_device_info_list.htm
 old-project: bltooth
 ms.assetid: ad4888fc-3d90-4920-bf84-aea18841d238
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PBTH_DEVICE_INFO_LIST, BTH_DEVICE_INFO_LIST, BTH_DEVICE_INFO_LIST structure [Bluetooth Devices], PBTH_DEVICE_INFO_LIST, PBTH_DEVICE_INFO_LIST structure pointer [Bluetooth Devices], _BTH_DEVICE_INFO_LIST, bltooth.bth_device_info_list, bth_structs_230962ed-c458-4c9e-a317-e2508b07c059.xml, bthioctl/BTH_DEVICE_INFO_LIST, bthioctl/PBTH_DEVICE_INFO_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= PASSIVE_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthioctl.h
 api_name:
 -	BTH_DEVICE_INFO_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BTH_DEVICE_INFO_LIST, *PBTH_DEVICE_INFO_LIST
 ---
@@ -51,17 +52,6 @@ req.typenames: BTH_DEVICE_INFO_LIST, *PBTH_DEVICE_INFO_LIST
 
 The BTH_DEVICE_INFO_LIST structure contains output information about all cached, previously
   discovered remote devices.
-
-
-## -syntax
-
-
-````
-typedef struct _BTH_DEVICE_INFO_LIST {
-  ULONG           numOfDevices;
-  BTH_DEVICE_INFO deviceList[1];
-} BTH_DEVICE_INFO_LIST, *PBTH_DEVICE_INFO_LIST;
-````
 
 
 ## -struct-fields
@@ -86,7 +76,7 @@ An open-ended array of
 
 
 The 
-    <a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_device_info.md">IOCTL_BTH_GET_DEVICE_INFO</a> call's
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536683">IOCTL_BTH_GET_DEVICE_INFO</a> call's
     output buffer contains the list of all cached, previously discovered remote devices.
 
 The 
@@ -99,16 +89,15 @@ The
 
 ## -see-also
 
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_get_device_info.md">IOCTL_BTH_GET_DEVICE_INFO</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536683">IOCTL_BTH_GET_DEVICE_INFO</a>
  
 
  
-
 

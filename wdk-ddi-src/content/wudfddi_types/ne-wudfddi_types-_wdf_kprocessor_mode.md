@@ -38,10 +38,10 @@ api_location:
 -	Wudfddi_types.h
 api_name:
 -	WDF_KPROCESSOR_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_KPROCESSOR_MODE, *PWDF_KPROCESSOR_MODE
-req.product: Windows 10 or later.
 ---
 
 # _WDF_KPROCESSOR_MODE enumeration
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>WDF_KPROCESSOR_MODE</b> enumeration type identifies the processor modes in which a thread can execute.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_KPROCESSOR_MODE { 
-  WdfKProcessorModeInvalid  = 0,
-  WdfKernelMode             = 1,
-  WdfUserMode               = 2,
-  WdfKProcessorModeMaximum  = 3
-} WDF_KPROCESSOR_MODE, *PWDF_KPROCESSOR_MODE;
-````
 
 
 ## -enum-fields
@@ -104,12 +91,11 @@ The <b>WDF_KPROCESSOR_MODE</b> enumeration type is return type for <a href="http
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559002">IWDFIoRequest2::GetRequestorMode</a>
-
-
-
  
 
  
-
 

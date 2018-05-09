@@ -7,7 +7,7 @@ old-location: storage\idehwstartio.htm
 old-project: storage
 ms.assetid: 9172e62e-263c-471c-bcc2-9be4e1d6b1a2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: IDE_HW_STARTIO, IdeHwStartIo, IdeHwStartIo routine [Storage Devices], atartns_5be92425-7e5b-4a9b-9673-baea4aace64a.xml, irb/IdeHwStartIo, storage.idehwstartio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,12 +38,13 @@ api_location:
 -	irb.h
 api_name:
 -	IdeHwStartIo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LUID
+req.typenames: 
 ---
 
-# IDE_HW_STARTIO callback
+# IDE_HW_STARTIO callback function
 
 
 ## -description
@@ -51,20 +52,6 @@ req.typenames: LUID
 
 The <b><i>IdeHwStartIo</i></b> miniport driver routine processes the synchronized aspects of an I/O request.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -prototype
-
-
-````
-IDE_HW_STARTIO IdeHwStartIo;
-
-BOOLEAN IdeHwStartIo(
-  _In_ PVOID              ChannelExtension,
-  _In_ PIDE_REQUEST_BLOCK Irb
-)
-{ ... }
-````
-
 
 ## -parameters
 
@@ -78,7 +65,7 @@ A pointer to the miniport driver per channel device extension.
 
 ### -param Irb [in]
 
-A pointer to a structure of type <a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a> that defines the IDE request block (IRB) to process.
+A pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559140">IDE_REQUEST_BLOCK</a> that defines the IDE request block (IRB) to process.
 
 
 ## -returns
@@ -105,16 +92,15 @@ After this routine returns, the miniport driver should be prepared to receive th
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559140">IDE_REQUEST_BLOCK</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>
-
-
-
-<a href="..\irb\ns-irb-_ide_request_block.md">IDE_REQUEST_BLOCK</a>
-
-
-
  
 
  
-
 

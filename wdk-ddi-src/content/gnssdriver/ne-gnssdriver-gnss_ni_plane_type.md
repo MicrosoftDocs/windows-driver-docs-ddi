@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_NI_PLANE_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_NI_PLANE_TYPE
 ---
@@ -49,19 +50,7 @@ req.typenames: GNSS_NI_PLANE_TYPE
 ## -description
 
 
-This enumeration indicates the plane type of a network initiated (NI) request represented by the <a href="..\gnssdriver\ns-gnssdriver-gnss_ni_request_param.md">GNSS_NI_REQUEST_PARAM</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_NI_SUPL   = 0x01,
-  GNSS_NI_CP     = 0x02,
-  GNSS_NI_V2UPL  = 0x03
-} GNSS_NI_PLANE_TYPE;
-````
+This enumeration indicates the plane type of a network initiated (NI) request represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925191">GNSS_NI_REQUEST_PARAM</a> structure.
 
 
 ## -enum-fields

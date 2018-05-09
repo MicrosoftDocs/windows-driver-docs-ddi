@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_CONTINUOUSTRACKING_PARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_CONTINUOUSTRACKING_PARAM, *PGNSS_CONTINUOUSTRACKING_PARAM
 ---
@@ -50,18 +51,6 @@ req.typenames: GNSS_CONTINUOUSTRACKING_PARAM, *PGNSS_CONTINUOUSTRACKING_PARAM
 
 
 This structure defines the parameters for a continuous tracking fix session.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  ULONG PreferredInterval;
-} GNSS_CONTINUOUSTRACKING_PARAM, *PGNSS_CONTINUOUSTRACKING_PARAM;
-````
 
 
 ## -struct-fields

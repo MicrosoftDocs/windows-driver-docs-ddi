@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetDumpFileWide
-title: IDebugClient4::GetDumpFileWide method
+title: IDebugClient4::GetDumpFileWide
 author: windows-driver-content
 description: The GetDumpFileWide method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfilewide.htm
 old-project: debugger
 ms.assetid: 42acd24e-5952-46b3-bb0b-1eb43125fccd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetDumpFileWide method [Windows Debugging], GetDumpFileWide method [Windows Debugging], IDebugClient4 interface, GetDumpFileWide method [Windows Debugging], IDebugClient5 interface, GetDumpFileWide,IDebugClient4.GetDumpFileWide, IDebugClient4, IDebugClient4 interface [Windows Debugging], GetDumpFileWide method, IDebugClient4::GetDumpFileWide, IDebugClient5 interface [Windows Debugging], GetDumpFileWide method, IDebugClient5::GetDumpFileWide, dbgeng/IDebugClient4::GetDumpFileWide, dbgeng/IDebugClient5::GetDumpFileWide, debugger.getdumpfilewide
+ms.date: 4/24/2018
+ms.keywords: GetDumpFileWide, GetDumpFileWide method [Windows Debugging], GetDumpFileWide method [Windows Debugging],IDebugClient4 interface, GetDumpFileWide method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],GetDumpFileWide method, IDebugClient4.GetDumpFileWide, IDebugClient4::GetDumpFileWide, IDebugClient5 interface [Windows Debugging],GetDumpFileWide method, IDebugClient5::GetDumpFileWide, dbgeng/IDebugClient4::GetDumpFileWide, dbgeng/IDebugClient5::GetDumpFileWide, debugger.getdumpfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,33 +39,19 @@ api_location:
 api_name:
 -	IDebugClient4.GetDumpFileWide
 -	IDebugClient5.GetDumpFileWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::GetDumpFileWide method
+# IDebugClient4::GetDumpFileWide
 
 
 ## -description
 
 
 The <b>GetDumpFileWide</b> method describes the files containing supporting information that were used when opening the current dump target.
-
-
-## -syntax
-
-
-````
-HRESULT GetDumpFileWide(
-  [in]            ULONG    Index,
-  [out, optional] PWSTR    Buffer,
-  [in]            ULONG    BufferSize,
-  [out, optional] PULONG   NameSize,
-  [out, optional] PULONG64 Handle,
-  [out]           PULONG   Type
-);
-````
 
 
 ## -parameters
@@ -142,19 +128,6 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -162,8 +135,20 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

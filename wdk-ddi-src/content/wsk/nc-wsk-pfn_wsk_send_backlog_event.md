@@ -7,8 +7,8 @@ old-location: netvista\wsksendbacklogevent.htm
 old-project: netvista
 ms.assetid: e944af6f-6753-48b0-b3f6-0709f24e3ff0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: PFN_WSK_SEND_BACKLOG_EVENT, WskSendBacklogEvent, WskSendBacklogEvent callback function [Network Drivers Starting with Windows Vista], netvista.wsksendbacklogevent, wsk/WskSendBacklogEvent, wskref_9b34fa29-9c3a-4aa2-8ceb-3f637c4902cd.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_SEND_BACKLOG_EVENT, PFN_WSK_SEND_BACKLOG_EVENT callback, WskSendBacklogEvent, WskSendBacklogEvent callback function [Network Drivers Starting with Windows Vista], netvista.wsksendbacklogevent, wsk/WskSendBacklogEvent, wskref_9b34fa29-9c3a-4aa2-8ceb-3f637c4902cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	wsk.h
 api_name:
 -	WskSendBacklogEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_SEND_BACKLOG_EVENT callback
+# PFN_WSK_SEND_BACKLOG_EVENT callback function
 
 
 ## -description
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 The 
   <i>WskSendBacklogEvent</i> event callback function notifies a WSK application when the ideal send backlog
   size changes for a connection-oriented socket.
-
-
-## -prototype
-
-
-````
-PFN_WSK_SEND_BACKLOG_EVENT WskSendBacklogEvent;
-
-NTSTATUS APIENTRY WskSendBacklogEvent(
-  _In_opt_ PVOID  SocketContext,
-  _In_     SIZE_T IdealBacklogSize
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -84,24 +70,24 @@ A pointer to the socket context for the connection-oriented socket that is notif
 <ul>
 <li>
 It called the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a> function to create the socket.
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> function to create the socket.
 
 </li>
 <li>
 It called the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a> function to create
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a> function to create
        the socket.
 
 </li>
 <li>
 It called the 
-       <a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a> function to accept the socket as an
+       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a> function to accept the socket as an
        incoming connection.
 
 </li>
 <li>
 Its 
-       <a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a> event callback function
+       <a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a> event callback function
        was called to accept the socket as an incoming connection.
 
 </li>
@@ -141,7 +127,7 @@ The ideal send backlog size for a connection-oriented socket is the optimal amou
 
 A WSK application can obtain the current ideal backlog size for a connection-oriented socket at any
     time by calling the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a> function.
 
 The WSK subsystem calls a WSK application's 
     <i>WskSendBacklogEvent</i> event callback function at IRQL &lt;= DISPATCH_LEVEL.
@@ -153,37 +139,36 @@ A WSK application's <i>WskSendBacklogEvent</i> event callback function must not 
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
+<a href="https://msdn.microsoft.com/960eee8a-2950-4baf-b32d-be13b3d65951">
    WSK_CLIENT_CONNECTION_DISPATCH</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571109">WskAccept</a>
 
 
 
+<a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571146">WskSend</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>
  
 
  
-
 

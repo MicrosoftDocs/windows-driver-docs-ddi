@@ -7,7 +7,7 @@ old-location: kernel\zwcreatetransactionmanager.htm
 old-project: kernel
 ms.assetid: 9c9f0a8b-7add-4ab1-835d-39f508ce32a9
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtCreateTransactionManager, ZwCreateTransactionManager, ZwCreateTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwcreatetransactionmanager, ktm_ref_56fad0b5-053d-4d65-bdb3-8c2d09fee541.xml, wdm/NtCreateTransactionManager, wdm/ZwCreateTransactionManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 api_name:
 -	ZwCreateTransactionManager
 -	NtCreateTransactionManager
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwCreateTransactionManager function
@@ -52,21 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ZwCreateTransactionManager</b> routine creates a new transaction manager object.
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwCreateTransactionManager(
-  _Out_    PHANDLE            TmHandle,
-  _In_     ACCESS_MASK        DesiredAccess,
-  _In_opt_ POBJECT_ATTRIBUTES ObjectAttributes,
-  _In_opt_ PUNICODE_STRING    LogFileName,
-  _In_opt_ ULONG              CreateOptions,
-  _In_opt_ ULONG              CommitStrength
-);
-````
 
 
 ## -parameters
@@ -94,7 +79,7 @@ TRANSACTIONMANAGER_CREATE_RM
 
 </td>
 <td>
-Create a resource manager (see <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>).
+Create a resource manager (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566427">ZwCreateResourceManager</a>).
 
 </td>
 </tr>
@@ -104,7 +89,7 @@ TRANSACTIONMANAGER_QUERY_INFORMATION
 
 </td>
 <td>
-Obtain information about the transaction manager (see <a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a> and <a href="..\wdm\nf-wdm-zwenumeratetransactionobject.md">ZwEnumerateTransactionObject</a>). Also required for <a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>, <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>, and <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>.) 
+Obtain information about the transaction manager (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567058">ZwQueryInformationTransactionManager</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff566450">ZwEnumerateTransactionObject</a>). Also required for <a href="https://msdn.microsoft.com/library/windows/hardware/ff567026">ZwOpenResourceManager</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff566429">ZwCreateTransaction</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567033">ZwOpenTransaction</a>.) 
 
 </td>
 </tr>
@@ -114,7 +99,7 @@ TRANSACTIONMANAGER_RECOVER
 
 </td>
 <td>
-Recover the transaction manager (see <a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a> and <a href="..\wdm\nf-wdm-zwrollforwardtransactionmanager.md">ZwRollforwardTransactionManager</a>).
+Recover the transaction manager (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567079">ZwRecoverTransactionManager</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567089">ZwRollforwardTransactionManager</a>).
 
 </td>
 </tr>
@@ -194,12 +179,12 @@ STANDARD_RIGHTS_REQUIRED, TRANSACTIONMANAGER_GENERIC_READ, TRANSACTIONMANAGER_GE
 
 ### -param ObjectAttributes [in, optional]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> routine to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. This parameter is optional and can be <b>NULL</b>.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that specifies the object name and other attributes. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> routine to initialize this structure. If the caller is not running in a system thread context, it must set the OBJ_KERNEL_HANDLE attribute when it calls <b>InitializeObjectAttributes</b>. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param LogFileName [in, optional]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path and file name of a <a href="https://msdn.microsoft.com/d7ad0e16-d1f2-4c41-b647-95b5445c2708">CLFS log file stream</a> to be associated with the transaction manager object. This parameter must be <b>NULL</b> if the <i>CreateOptions</i> parameter is TRANSACTION_MANAGER_VOLATILE. Otherwise, this parameter must be non-<b>NULL</b>. For more information, see the following Remarks section.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains the path and file name of a <a href="https://msdn.microsoft.com/d7ad0e16-d1f2-4c41-b647-95b5445c2708">CLFS log file stream</a> to be associated with the transaction manager object. This parameter must be <b>NULL</b> if the <i>CreateOptions</i> parameter is TRANSACTION_MANAGER_VOLATILE. Otherwise, this parameter must be non-<b>NULL</b>. For more information, see the following Remarks section.
 
 
 ### -param CreateOptions [in, optional]
@@ -414,11 +399,11 @@ The routine might return other <a href="https://msdn.microsoft.com/library/windo
 
 If the log file stream that the <i>LogFileName </i>parameter specifies does not exist, KTM calls CLFS to create the stream. If the stream already exists, KTM calls CLFS to open the stream.
 
-Your TPS component must call <a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a> after it has called <b>ZwCreateTransactionManager</b>
+Your TPS component must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567079">ZwRecoverTransactionManager</a> after it has called <b>ZwCreateTransactionManager</b>
 
-If your TPS component specifies the TRANSACTION_MANAGER_VOLATILE flag in the <i>CreateOptions </i>parameter, all resource managers that are associated with the transaction manager object must specify the RESOURCE_MANAGER_VOLATILE flag when they call <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>.
+If your TPS component specifies the TRANSACTION_MANAGER_VOLATILE flag in the <i>CreateOptions </i>parameter, all resource managers that are associated with the transaction manager object must specify the RESOURCE_MANAGER_VOLATILE flag when they call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566427">ZwCreateResourceManager</a>.
 
-A TPS component that calls <b>ZwCreateTransactionManager</b> must eventually call <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a> to close the object handle.
+A TPS component that calls <b>ZwCreateTransactionManager</b> must eventually call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> to close the object handle.
 
 For more information about how use <b>ZwCreateTransactionManager</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542865">Creating a Resource Manager</a>.
 
@@ -431,15 +416,18 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwrollforwardtransactionmanager.md">ZwRollforwardTransactionManager</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
 
 
 
@@ -447,28 +435,24 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567035">ZwOpenTransactionManager</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567058">ZwQueryInformationTransactionManager</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567079">ZwRecoverTransactionManager</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567089">ZwRollforwardTransactionManager</a>
  
 
  
-
 

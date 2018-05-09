@@ -7,7 +7,7 @@ old-location: netvista\ndisgetcurrentprocessorcpuusage.htm
 old-project: netvista
 ms.assetid: 03f1559c-83a7-478c-a616-ebe6002cb724
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisGetCurrentProcessorCpuUsage, NdisGetCurrentProcessorCpuUsage function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCpuUsage, ndis_sysinfo_ref_64c35a8c-5776-4902-b062-0685a16f5453.xml, netvista.ndisgetcurrentprocessorcpuusage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisGetCurrentProcessorCpuUsage
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisGetCurrentProcessorCpuUsage function
@@ -54,16 +55,6 @@ The
   <b>NdisGetCurrentProcessorCpuUsage</b> function returns the  average amount of activity on the current processor since boot as a
   percentage.
 <div class="alert"><b>Note</b>  This function is deprecated. Do not use it in your driver.</div><div> </div>
-
-## -syntax
-
-
-````
-VOID NdisGetCurrentProcessorCpuUsage(
-  _Out_ PULONG pCpuUsage
-);
-````
-
 
 ## -parameters
 
@@ -90,19 +81,18 @@ None
 
 The <b>NdisGetCurrentProcessorCpuUsage</b> function returns the average amount of activity on the current processor since the last boot, not the current usage level. This information is not particularly useful. Therefore, we recommend that you don't use <b>NdisGetCurrentProcessorCpuUsage</b> in your driver.
 
-As an alternative, you can use <a href="..\ndis\nf-ndis-ndisgetcurrentprocessorcounts.md">NdisGetCurrentProcessorCounts</a> to see whether the processor is currently loaded.
+As an alternative, you can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562625">NdisGetCurrentProcessorCounts</a> to see whether the processor is currently loaded.
 
 
 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisgetcurrentprocessorcounts.md">NdisGetCurrentProcessorCounts</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562625">NdisGetCurrentProcessorCounts</a>
  
 
  
-
 

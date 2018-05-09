@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.EnumFeatures
-title: IPrintCoreHelperPS::EnumFeatures method
+title: IPrintCoreHelperPS::EnumFeatures
 author: windows-driver-content
 description: The IPrintCoreHelperPS::EnumFeatures method gets a list of all available features, including synthesized and core driver-implement features.
 old-location: print\iprintcorehelperps_enumfeatures.htm
 old-project: print
 ms.assetid: c67c15a4-3dbf-4317-b6d5-e52f426e7619
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCoreHelperPS interface, EnumFeatures,IPrintCoreHelperPS.EnumFeatures, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], EnumFeatures method, IPrintCoreHelperPS::EnumFeatures, prcomoem/IPrintCoreHelperPS::EnumFeatures, print.iprintcorehelperps_enumfeatures, print_unidrv-pscript_allplugins_06a6f78b-fa5d-496e-b276-f32bba7c2502.xml
+ms.date: 4/20/2018
+ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],EnumFeatures method, IPrintCoreHelperPS.EnumFeatures, IPrintCoreHelperPS::EnumFeatures, prcomoem/IPrintCoreHelperPS::EnumFeatures, print.iprintcorehelperps_enumfeatures, print_unidrv-pscript_allplugins_06a6f78b-fa5d-496e-b276-f32bba7c2502.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreHelperPS.EnumFeatures
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperPS::EnumFeatures method
+# IPrintCoreHelperPS::EnumFeatures
 
 
 ## -description
 
 
 The<b> IPrintCoreHelperPS::EnumFeatures</b> method gets a list of all available features, including synthesized and core driver-implement features.
-
-
-## -syntax
-
-
-````
-STDMETHOD EnumFeatures(
-  [out] PCSTR *pFeatureList,
-  [out] DWORD *pdwNumFeatures
-);
-````
 
 
 ## -parameters
@@ -90,16 +79,15 @@ A pointer to a variable that receives the number of feature keywords in the arra
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/2be594f1-1eb1-42e0-a345-ee7edf4d96dd">IPrintCoreHelperPS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551987">IPrintCoreHelperPS::EnumOptions</a>
-
-
-
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
-
-
-
  
 
  
-
 

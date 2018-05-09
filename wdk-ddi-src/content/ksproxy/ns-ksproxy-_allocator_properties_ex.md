@@ -7,7 +7,7 @@ old-location: stream\allocator_properties_ex.htm
 old-project: stream
 ms.assetid: 6edb8af4-a5c9-430f-800a-8a6f47a9cce4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PALLOCATOR_PROPERTIES_EX, ALLOCATOR_PROPERTIES_EX, ALLOCATOR_PROPERTIES_EX structure [Streaming Media Devices], PALLOCATOR_PROPERTIES_EX, PALLOCATOR_PROPERTIES_EX structure pointer [Streaming Media Devices], _ALLOCATOR_PROPERTIES_EX, ksproxy/ALLOCATOR_PROPERTIES_EX, ksproxy/PALLOCATOR_PROPERTIES_EX, ksproxy_6d16a85e-e11b-46e1-a9ab-b8f099e32d57.xml, stream.allocator_properties_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksproxy.h
 api_name:
 -	ALLOCATOR_PROPERTIES_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ALLOCATOR_PROPERTIES_EX
 ---
@@ -50,36 +51,6 @@ req.typenames: ALLOCATOR_PROPERTIES_EX
 
 
 The ALLOCATOR_PROPERTIES_EX structure is for proxy use and not recommended for application use. ALLOCATOR_PROPERTIES_EX contains information that describes properties of an allocator.
-
-
-## -syntax
-
-
-````
-typedef struct _ALLOCATOR_PROPERTIES_EX {
-  long                 cBuffers;
-  long                 cbBuffer;
-  long                 cbAlign;
-  long                 cbPrefix;
-  GUID                 MemoryType;
-  GUID                 BusType;
-  PIPE_STATE           State;
-  PIPE_TERMINATION     Input;
-  PIPE_TERMINATION     Output;
-  ULONG                Strategy;
-  ULONG                Flags;
-  ULONG                Weight;
-  KS_LogicalMemoryType LogicalMemoryType;
-  PIPE_ALLOCATOR_PLACE AllocatorPlace;
-  PIPE_DIMENSIONS      Dimensions;
-  KS_FRAMING_RANGE     PhysicalRange;
-  IKsAllocatorEx       *PrevSegment;
-  ULONG                CountNextSegments;
-  IKsAllocatorEx       **NextSegments;
-  ULONG                InsideFactors;
-  ULONG                NumberPins;
-} ALLOCATOR_PROPERTIES_EX, *PALLOCATOR_PROPERTIES_EX;
-````
 
 
 ## -struct-fields

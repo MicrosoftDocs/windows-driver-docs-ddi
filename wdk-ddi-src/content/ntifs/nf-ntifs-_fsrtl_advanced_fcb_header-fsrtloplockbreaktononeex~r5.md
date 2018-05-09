@@ -7,7 +7,7 @@ old-location: ifsk\fsrtloplockbreaktononeex.htm
 old-project: ifsk
 ms.assetid: 229d4f31-7c3f-4ae2-bb67-d31c67121f61
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlOplockBreakToNoneEx, FsRtlOplockBreakToNoneEx routine [Installable File System Drivers], fsrtlref_df3afc17-e57b-43b5-8281-4128854d2064.xml, ifsk.fsrtloplockbreaktononeex, ntifs/FsRtlOplockBreakToNoneEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlOplockBreakToNoneEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -52,21 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlOplockBreakToNoneEx</b> routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key. 
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlOplockBreakToNoneEx(
-  _Inout_  POPLOCK                       Oplock,
-  _In_     PIRP                          Irp,
-  _In_     ULONG                         Flags,
-  _In_opt_ PVOID                         Context,
-  _In_opt_ POPLOCK_WAIT_COMPLETE_ROUTINE CompletionRoutine,
-  _In_opt_ POPLOCK_FS_PREPOST_IRP        PostIrpRoutine
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ NTSTATUS FsRtlOplockBreakToNoneEx(
 
 ### -param Oplock [in, out]
 
-An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
+An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
 
 
 ### -param Irp [in]
@@ -228,23 +214,22 @@ An opportunistic lock break (oplock) is underway. STATUS_OPLOCK_BREAK_IN_PROGRES
 
 For more information about opportunistic locks, see the Microsoft Windows SDK documentation. 
 
-Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockbreaktononeex.md">FltOplockBreakToNoneEx</a> instead of <b>FsRtlOplockBreakToNoneEx</b>. 
+Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543392">FltOplockBreakToNoneEx</a> instead of <b>FsRtlOplockBreakToNoneEx</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltoplockbreaktononeex.md">FltOplockBreakToNoneEx</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543392">FltOplockBreakToNoneEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>
  
 
  
-
 

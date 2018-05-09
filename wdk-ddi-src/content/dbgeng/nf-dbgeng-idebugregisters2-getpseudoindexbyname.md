@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetPseudoIndexByName
-title: IDebugRegisters2::GetPseudoIndexByName method
+title: IDebugRegisters2::GetPseudoIndexByName
 author: windows-driver-content
 description: The GetPseudoIndexByName method returns the index of a pseudo-register.
 old-location: debugger\getpseudoindexbyname.htm
 old-project: debugger
 ms.assetid: 0973d8d8-53df-47aa-be65-71045c2e6006
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetPseudoIndexByName method [Windows Debugging], GetPseudoIndexByName method [Windows Debugging], IDebugRegisters2 interface, GetPseudoIndexByName,IDebugRegisters2.GetPseudoIndexByName, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetPseudoIndexByName method, IDebugRegisters2::GetPseudoIndexByName, IDebugRegisters_95580025-4059-4a5b-bd68-d7ebfa20607e.xml, dbgeng/IDebugRegisters2::GetPseudoIndexByName, debugger.getpseudoindexbyname
+ms.date: 4/24/2018
+ms.keywords: GetPseudoIndexByName, GetPseudoIndexByName method [Windows Debugging], GetPseudoIndexByName method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoIndexByName method, IDebugRegisters2.GetPseudoIndexByName, IDebugRegisters2::GetPseudoIndexByName, IDebugRegisters_95580025-4059-4a5b-bd68-d7ebfa20607e.xml, dbgeng/IDebugRegisters2::GetPseudoIndexByName, debugger.getpseudoindexbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugRegisters2.GetPseudoIndexByName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters2::GetPseudoIndexByName method
+# IDebugRegisters2::GetPseudoIndexByName
 
 
 ## -description
 
 
 The <b>GetPseudoIndexByName</b>  method returns the index of a pseudo-register.
-
-
-## -syntax
-
-
-````
-HRESULT GetPseudoIndexByName(
-  [in]  PCSTR  Name,
-  [out] PULONG Index
-);
-````
 
 
 ## -parameters
@@ -112,14 +102,13 @@ The method was successful.
 
 For the names of all the pseudo-registers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553485">Pseudo-Register Syntax</a>.
 
-For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
 
 
 
@@ -127,8 +116,8 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
  
 
  
-
 

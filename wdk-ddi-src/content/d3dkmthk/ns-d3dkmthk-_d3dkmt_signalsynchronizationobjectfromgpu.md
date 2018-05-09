@@ -7,7 +7,7 @@ old-location: display\d3dkmt_signalsynchronizationobjectfromgpu.htm
 old-project: display
 ms.assetid: 09190DCC-5F88-4C49-89B3-9063707E3F15
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_signalsynchronizationobjectfromgpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 ---
@@ -49,23 +50,7 @@ req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 ## -description
 
 
-<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu.md">D3DKMTSignalSynchronizationObjectFromGpu</a> to signal a monitored fence.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU {
-  HANDLE              hContext;
-  UINT                ObjectCount;
-  const D3DKMT_HANDLE *ObjectHandleArray;
-  union {
-    const UINT64 *MonitoredFenceValueArray;
-    UINT64       Reserved[8];
-  };
-} D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU;
-````
+<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906784">D3DKMTSignalSynchronizationObjectFromGpu</a> to signal a monitored fence.
 
 
 ## -struct-fields
@@ -88,12 +73,12 @@ typedef struct _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU {
 [in] An array of kernel-mode handles to the synchronization events that the <b>hContext</b> member signals.
 
 
-#### - MonitoredFenceValueArray
+### -field MonitoredFenceValueArray
 
 [in] An array of 64-bit monitored fence values to signal, each of which correspond to a synchronization object in <b>ObjectHandleArray</b>.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero.
 
@@ -101,12 +86,11 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu.md">D3DKMTSignalSynchronizationObjectFromGpu</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906784">D3DKMTSignalSynchronizationObjectFromGpu</a>
  
 
  
-
 

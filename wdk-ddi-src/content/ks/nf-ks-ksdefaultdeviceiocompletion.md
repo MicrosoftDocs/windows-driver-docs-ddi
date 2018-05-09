@@ -7,7 +7,7 @@ old-location: stream\ksdefaultdeviceiocompletion.htm
 old-project: stream
 ms.assetid: 6e466815-aef4-4602-b3cf-66b47b2e3f3b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsDefaultDeviceIoCompletion, KsDefaultDeviceIoCompletion function [Streaming Media Devices], ks/KsDefaultDeviceIoCompletion, ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml, stream.ksdefaultdeviceiocompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDefaultDeviceIoCompletion
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsDefaultDeviceIoCompletion</b> function is used to return a default response and to complete any device I/O control. It can be used in the KSDISPATCH_TABLE and as the default response to unknown Ioctl's. It is important to use this function so that queries such as property requests return the correct value rather than just STATUS_INVALID_DEVICE_REQUEST when properties are not support for instance.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsDefaultDeviceIoCompletion(
-  _In_ PDEVICE_OBJECT DeviceObject,
-  _In_ PIRP           Irp
-);
-````
 
 
 ## -parameters

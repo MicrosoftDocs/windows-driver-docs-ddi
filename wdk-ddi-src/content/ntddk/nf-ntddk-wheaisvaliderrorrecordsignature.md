@@ -38,9 +38,10 @@ api_location:
 -	ntddk.h
 api_name:
 -	WheaIsValidErrorRecordSignature
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # WheaIsValidErrorRecordSignature function
@@ -52,16 +53,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 The <b>WheaIsValidErrorRecordSignature </b>function verifies whether a WHEA <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a> is valid.
 
 
-## -syntax
-
-
-````
-BOOLEAN WheaIsValidErrorRecordSignature(
-  _In_ PWHEA_ERROR_RECORD Record
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ BOOLEAN WheaIsValidErrorRecordSignature(
 
 ### -param Record [in]
 
-A pointer to a WHEA <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a> that is formatted as a <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure.
+A pointer to a WHEA <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-048d9612ee2a">error record</a> that is formatted as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560483">WHEA_ERROR_RECORD</a> structure.
 
 
 ## -returns
@@ -85,18 +76,13 @@ A pointer to a WHEA <a href="https://msdn.microsoft.com/080da29a-b5cb-45a5-848d-
 
 
 
-The <b>WheaIsValidErrorRecordSignature </b>function verifies that the specified <a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a> structure contains valid values.
+The <b>WheaIsValidErrorRecordSignature </b>function verifies that the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff560483">WHEA_ERROR_RECORD</a> structure contains valid values.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
 
 
 
@@ -104,8 +90,12 @@ The <b>WheaIsValidErrorRecordSignature </b>function verifies that the specified 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560483">WHEA_ERROR_RECORD</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560487">WHEA_ERROR_RECORD_HEADER</a>
  
 
  
-
 

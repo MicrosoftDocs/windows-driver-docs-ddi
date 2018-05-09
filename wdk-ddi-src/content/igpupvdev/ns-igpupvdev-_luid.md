@@ -38,7 +38,8 @@ api_location:
 -	igpupvdev.h
 api_name:
 -	LUID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LUID
 ---

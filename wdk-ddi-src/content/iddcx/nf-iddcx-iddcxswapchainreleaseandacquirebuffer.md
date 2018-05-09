@@ -7,7 +7,7 @@ old-location: display\iddcxswapchainreleaseandacquirebuffer.htm
 old-project: display
 ms.assetid: f9b0cf3f-cbb6-4b44-81c1-b60ae525ec17
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IddCxSwapChainReleaseAndAcquireBuffer, IddCxSwapChainReleaseAndAcquireBuffer method [Display Devices], display.iddcxswapchainreleaseandacquirebuffer, iddcx/IddCxSwapChainReleaseAndAcquireBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IddCxSwapChainReleaseAndAcquireBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -54,17 +55,6 @@ req.typenames:
                 An OS callback function the driver calls when it wants to release the current buffer in the swap chain and acquire a new one
 
 
-## -syntax
-
-
-````
-HRESULT IddCxSwapChainReleaseAndAcquireBuffer(
-  _In_  IDDCX_SWAPCHAIN                    SwapChainObject,
-  _Out_ IDARG_OUT_RELEASEANDACQUIREBUFFER* pOutArgs
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ HRESULT IddCxSwapChainReleaseAndAcquireBuffer(
 
 ### -param SwapChainObject [in]
 
-The swap-chain object passed to the <a href="..\iddcx\nc-iddcx-evt_idd_cx_monitor_assign_swapchain.md">EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN</a> call.
+The swap-chain object passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761861">EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN</a> call.
 
 
 ### -param pOutArgs [out]

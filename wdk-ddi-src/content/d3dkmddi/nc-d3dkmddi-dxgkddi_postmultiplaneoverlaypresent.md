@@ -7,8 +7,8 @@ old-location: display\dxgkddi_postmultiplaneoverlaypresent.htm
 old-project: display
 ms.assetid: C420DDE8-73D4-4D43-861C-A7B31B4C7DEC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function [Display Devices], d3dkmddi/DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, display.dxgkddi_postmultiplaneoverlaypresent
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function [Display Devices], d3dkmddi/DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, display.dxgkddi_postmultiplaneoverlaypresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback
+# DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function
 
 
 ## -description
 
 
 Called after a new multi-plane overlay configuration has taken effect, allowing the driver to optimize hardware state.  Optional for Windows Display Driver Model (WDDM) 2.0 or later drivers that support multi-plane overlays.
-
-
-## -prototype
-
-
-````
-NTSTATUS  DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT(
-  _In_ const HANDLE                                hAdapter,
-  _In_ const PDXGKARG_POSTMULTIPLANEOVERLAYPRESENT pPostMultiPlaneOverlayPresent
-);
-````
 
 
 ## -parameters

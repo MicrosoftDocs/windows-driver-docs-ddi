@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2settexlod.htm
 old-project: display
 ms.assetid: 89fc8319-64ec-4e9d-8863-e5140e9f7a44
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2SETTEXLOD, D3DHAL_DP2SETTEXLOD, D3DHAL_DP2SETTEXLOD structure [Display Devices], _D3DHAL_DP2SETTEXLOD, d3dhal/D3DHAL_DP2SETTEXLOD, d3dstrct_8b7c348f-b058-4cd8-ac49-788765e4fa15.xml, display.d3dhal_dp2settexlod"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_DP2SETTEXLOD
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2SETTEXLOD
 ---
@@ -49,18 +50,7 @@ req.typenames: D3DHAL_DP2SETTEXLOD
 ## -description
 
 
-The D3DHAL_DP2SETTEXLOD structure is used to set the level of detail (LOD) for MIP maps when the D3DDP2OP_SETTEXLOD command is sent to <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2SETTEXLOD {
-  DWORD dwDDSurface;
-  DWORD dwLOD;
-} D3DHAL_DP2SETTEXLOD;
-````
+The D3DHAL_DP2SETTEXLOD structure is used to set the level of detail (LOD) for MIP maps when the D3DDP2OP_SETTEXLOD command is sent to <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -90,7 +80,6 @@ Controls the maximum MIP level loaded into video memory. Therefore, if the most 
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
@@ -98,8 +87,8 @@ D3DDP2OP_SETTEXLOD
 
 
 
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

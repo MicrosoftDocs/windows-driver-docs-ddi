@@ -7,7 +7,7 @@ old-location: sensors\sensor_state.htm
 old-project: sensors
 ms.assetid: F1E869AE-2FAF-402F-9C50-58D81E0EFF69
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SENSOR_STATE, SENSOR_STATE enumeration [Sensor Devices], SensorState_Active, SensorState_Error, SensorState_Idle, SensorState_Initializing, sensors.sensor_state, sensorsdef/SENSOR_STATE, sensorsdef/SensorState_Active, sensorsdef/SensorState_Error, sensorsdef/SensorState_Idle, sensorsdef/SensorState_Initializing
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	SENSOR_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_STATE
-req.product: Windows 10 or later.
 ---
 
 # SENSOR_STATE enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This enumeration represents the valid states of a sensor.
-
-
-## -syntax
-
-
-````
-typedef enum _SENSOR_STATE { 
-  SensorState_Initializing  = 0,
-  SensorState_Idle,
-  SensorState_Active,
-  SensorState_Error
-} SENSOR_STATE;
-````
 
 
 ## -enum-fields

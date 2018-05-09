@@ -7,7 +7,7 @@ old-location: stream\kscompletependingrequest.htm
 old-project: stream
 ms.assetid: 9bde557e-0759-4f5b-989e-a34a701d2ebd
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsCompletePendingRequest, KsCompletePendingRequest function [Streaming Media Devices], avfunc_e01e61fc-ec10-4781-aee2-0aa7e24ca31a.xml, ks/KsCompletePendingRequest, stream.kscompletependingrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsCompletePendingRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsCompletePendingRequest</b> function is used to complete an I/O request in response to which an AVStream dispatch function previously returned STATUS_PENDING.
 
 
-## -syntax
-
-
-````
-void KsCompletePendingRequest(
-  _In_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ void KsCompletePendingRequest(
 
 ### -param Irp [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure that must be completed; this is passed in the dispatch function that returned a STATUS_PENDING.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure that must be completed; this is passed in the dispatch function that returned a STATUS_PENDING.
 
 
 ## -returns
@@ -95,24 +86,23 @@ If the dispatch function in question does not pass an IRP, it <b>cannot</b> retu
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksfilter_dispatch.md">KSFILTER_DISPATCH</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562554">KSFILTER_DISPATCH</a>
  
 
  
-
 

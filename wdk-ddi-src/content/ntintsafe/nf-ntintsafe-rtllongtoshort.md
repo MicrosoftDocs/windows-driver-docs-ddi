@@ -7,7 +7,7 @@ old-location: kernel\rtllongtoshort.htm
 old-project: kernel
 ms.assetid: FDFEADE6-CD33-4C04-972B-3E31C43E730A
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongToShort, RtlLongToShort function [Kernel-Mode Driver Architecture], kernel.rtllongtoshort, ntintsafe/RtlLongToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlLongToShort
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlLongToShort function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>LONG</b> to a value of type <b>SHORT</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongToShort(
-  _In_  LONG  lOperand,
-  _Out_ SHORT *psResult
-);
-````
 
 
 ## -parameters

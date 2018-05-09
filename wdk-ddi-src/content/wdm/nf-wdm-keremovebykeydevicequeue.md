@@ -7,7 +7,7 @@ old-location: kernel\keremovebykeydevicequeue.htm
 old-project: kernel
 ms.assetid: 9819567c-1c79-440c-9bac-f81f23df29ae
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KeRemoveByKeyDeviceQueue, KeRemoveByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], k105_7ceac4c8-26cc-4dfc-86fa-937d1c63d11b.xml, kernel.keremovebykeydevicequeue, wdm/KeRemoveByKeyDeviceQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeRemoveByKeyDeviceQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeRemoveByKeyDeviceQueue function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeRemoveByKeyDeviceQueue</b> routine removes an entry, selected according to a sort key value, from the specified device queue. 
-
-
-## -syntax
-
-
-````
-PKDEVICE_QUEUE_ENTRY KeRemoveByKeyDeviceQueue(
-  _Inout_ PKDEVICE_QUEUE DeviceQueue,
-  _In_    ULONG          SortKey
-);
-````
 
 
 ## -parameters
@@ -101,28 +90,27 @@ It is an error to call <b>KeRemoveByKeyDeviceQueue</b> when the device queue obj
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552126">KeInitializeDeviceQueue</a>
 
 
 
-<a href="..\wdm\nf-wdm-keremovedevicequeue.md">KeRemoveDeviceQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552178">KeInsertByKeyDeviceQueue</a>
 
 
 
-<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552180">KeInsertDeviceQueue</a>
 
 
 
-<a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553156">KeRemoveDeviceQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553163">KeRemoveEntryDeviceQueue</a>
  
 
  
-
 

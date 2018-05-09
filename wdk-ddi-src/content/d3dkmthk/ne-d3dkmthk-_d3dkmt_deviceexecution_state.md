@@ -7,7 +7,7 @@ old-location: display\d3dkmt_deviceexecution_state.htm
 old-project: display
 ms.assetid: 31935433-6fa4-4d1a-9ad4-879353102e71
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_DEVICEEXECUTION_ACTIVE, D3DKMT_DEVICEEXECUTION_ERROR_DMAFAULT, D3DKMT_DEVICEEXECUTION_ERROR_DMAPAGEFAULT, D3DKMT_DEVICEEXECUTION_ERROR_OUTOFMEMORY, D3DKMT_DEVICEEXECUTION_HUNG, D3DKMT_DEVICEEXECUTION_RESET, D3DKMT_DEVICEEXECUTION_STATE, D3DKMT_DEVICEEXECUTION_STATE enumeration [Display Devices], D3DKMT_DEVICEEXECUTION_STOPPED, OpenGL_Structs_35637d1a-f40f-49f5-b774-777e02f22b68.xml, _D3DKMT_DEVICEEXECUTION_STATE, d3dkmthk/, d3dkmthk/D3DKMT_DEVICEEXECUTION_ACTIVE, d3dkmthk/D3DKMT_DEVICEEXECUTION_ERROR_DMAFAULT, d3dkmthk/D3DKMT_DEVICEEXECUTION_ERROR_DMAPAGEFAULT, d3dkmthk/D3DKMT_DEVICEEXECUTION_ERROR_OUTOFMEMORY, d3dkmthk/D3DKMT_DEVICEEXECUTION_HUNG, d3dkmthk/D3DKMT_DEVICEEXECUTION_RESET, d3dkmthk/D3DKMT_DEVICEEXECUTION_STATE, d3dkmthk/D3DKMT_DEVICEEXECUTION_STOPPED, display.d3dkmt_deviceexecution_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_DEVICEEXECUTION_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_DEVICEEXECUTION_STATE
 ---
@@ -50,25 +51,6 @@ req.typenames: D3DKMT_DEVICEEXECUTION_STATE
 
 
 The <b>D3DKMT_DEVICEEXECUTION_STATE</b> enumeration type contains values that indicate the execution status for a device.
-
-
-## -syntax
-
-
-````
-typedef enum _D3DKMT_DEVICEEXECUTION_STATE { 
-  D3DKMT_DEVICEEXECUTION_ACTIVE              = 1,
-  D3DKMT_DEVICEEXECUTION_RESET               = 2,
-  D3DKMT_DEVICEEXECUTION_HUNG                = 3,
-  D3DKMT_DEVICEEXECUTION_STOPPED             = 4,
-  D3DKMT_DEVICEEXECUTION_ERROR_OUTOFMEMORY   = 5,
-  D3DKMT_DEVICEEXECUTION_ERROR_DMAFAULT      = 6,
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-  D3DKMT_DEVICEEXECUTION_ERROR_DMAPAGEFAULT  = 7,
-#endif 
-  
-} D3DKMT_DEVICEEXECUTION_STATE;
-````
 
 
 ## -enum-fields
@@ -117,12 +99,11 @@ The display miniport driver reported a page fault while processing a DMA buffer 
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a>
  
 
  
-
 

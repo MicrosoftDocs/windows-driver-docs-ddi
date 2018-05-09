@@ -7,7 +7,7 @@ old-location: buses\usbfn_action.htm
 old-project: usbref
 ms.assetid: 9E9AB3E0-EBDC-4EC3-BFBF-C78EE56BD699
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBFN_ACTION, USBFN_ACTION, USBFN_ACTION enumeration [Buses], UsbfnActionDetectProprietaryCharger, UsbfnActionNoCad, UsbfnActionNone, _USBFN_ACTION, buses.usbfn_action, ufxbase/USBFN_ACTION, ufxbase/UsbfnActionDetectProprietaryCharger, ufxbase/UsbfnActionNoCad, ufxbase/UsbfnActionNone"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	ufxbase.h
 api_name:
 -	USBFN_ACTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_ACTION, *PUSBFN_ACTION
-req.product: Windows 10 or later.
 ---
 
 # _USBFN_ACTION enumeration
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Defines special actions UFX should take when the client driver calls the <a href="..\ufxclient\nf-ufxclient-ufxdeviceportdetectcompleteex.md">UfxDevicePortDetectCompleteEx</a> function.
-
-
-## -syntax
-
-
-````
-typedef enum _USBFN_ACTION { 
-  UsbfnActionNone                      = 0,
-  UsbfnActionNoCad,
-  UsbfnActionDetectProprietaryCharger
-} USBFN_ACTION;
-````
+Defines special actions UFX should take when the client driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187963">UfxDevicePortDetectCompleteEx</a> function.
 
 
 ## -enum-fields
@@ -82,5 +70,5 @@ UFX should not notify the battery manager about the detected port type or the ma
 
 ### -field UsbfnActionDetectProprietaryCharger
 
-UFX should initiate proprietary charger detection by calling the client driver’s <a href="..\ufxclient\nc-ufxclient-evt_ufx_device_proprietary_charger_detect.md">EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER</a> callback function.
+UFX should initiate proprietary charger detection by calling the client driver’s <a href="https://msdn.microsoft.com/library/windows/hardware/mt187850">EVT_UFX_DEVICE_DETECT_PROPRIETARY_CHARGER</a> callback function.
 

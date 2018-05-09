@@ -7,8 +7,8 @@ old-location: print\ioctl_ioctl_dot4_add_activity_broadcast.htm
 old-project: print
 ms.assetid: 5B4E96FB-3214-4303-B8EB-9AB5CB42D8C7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DOT4_ADD_ACTIVITY_BROADCAST, IOCTL_DOT4_ADD_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_ADD_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_add_activity_broadcast
+ms.date: 4/20/2018
+ms.keywords: IOCTL_DOT4_ADD_ACTIVITY_BROADCAST, IOCTL_DOT4_ADD_ACTIVITY_BROADCAST control, IOCTL_DOT4_ADD_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_ADD_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_add_activity_broadcast
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	D4drvif.h
 api_name:
 -	IOCTL_DOT4_ADD_ACTIVITY_BROADCAST
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: 
 ---
 
 # IOCTL_DOT4_ADD_ACTIVITY_BROADCAST IOCTL
@@ -94,7 +95,6 @@ This topic describes <b>IOCTL_DOT4_ADD_ACTIVITY_BROADCAST</b>.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -102,16 +102,16 @@ This topic describes <b>IOCTL_DOT4_ADD_ACTIVITY_BROADCAST</b>.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

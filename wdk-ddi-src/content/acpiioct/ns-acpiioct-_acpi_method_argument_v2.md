@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_METHOD_ARGUMENT_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_METHOD_ARGUMENT_V2
 ---
@@ -50,21 +51,6 @@ req.typenames: ACPI_METHOD_ARGUMENT_V2
 
 
 This topic describes the  <b>ACPI_METHOD_ARGUMENT_V2</b> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _ACPI_METHOD_ARGUMENT_V2 {
-  USHORT Type;
-  USHORT DataLength;
-  union {
-    ULONG                                 Argument;
-     _Field_size_bytes_(DataLength) UCHAR Data[ANYSIZE_ARRAY];
-  } DUMMYUNIONNAME;
-} ACPI_METHOD_ARGUMENT_V2, *PACPI_METHOD_ARGUMENT_V2;
-````
 
 
 ## -struct-fields
@@ -85,4 +71,16 @@ Defines the <b>USHORT</b> member <b>DataLength</b>.
 ### -field DUMMYUNIONNAME
 
 Defines the members of <b>DUMMYUNIONNAME</b>.
+
+
+### -field DUMMYUNIONNAME.Argument
+
+ 
+
+
+### -field DUMMYUNIONNAME.Data
+
+ 
+
+
 

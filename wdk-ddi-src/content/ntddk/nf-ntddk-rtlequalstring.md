@@ -7,7 +7,7 @@ old-location: kernel\rtlequalstring.htm
 old-project: kernel
 ms.assetid: f8244276-0cf6-4315-9f4a-85890194dad8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlEqualString, RtlEqualString routine [Kernel-Mode Driver Architecture], k109_67ef861f-4f4b-4e98-be53-8962b02df08e.xml, kernel.rtlequalstring, ntddk/RtlEqualString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ntdll.dll
 api_name:
 -	RtlEqualString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlEqualString function
@@ -51,18 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>RtlEqualString</b> routine compares two counted strings to determine whether they are equal.
-
-
-## -syntax
-
-
-````
-BOOLEAN RtlEqualString(
-  _In_ const STRING  *String1,
-  _In_ const STRING  *String2,
-  _In_       BOOLEAN CaseInSensitive
-);
-````
 
 
 ## -parameters
@@ -96,12 +85,11 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlequalunicodestring.md">RtlEqualUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561854">RtlEqualUnicodeString</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\d3dkmtopennthandlefromname.htm
 old-project: display
 ms.assetid: bcd33f64-7ad0-4e26-af73-e4f2b1b6e5fb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3DKMTOpenNtHandleFromName, D3DKMTOpenNtHandleFromName callback function [Display Devices], PFND3DKMT_OPENNTHANDLEFROMNAME, d3dkmthk/D3DKMTOpenNtHandleFromName, display.d3dkmtopennthandlefromname
+ms.date: 4/16/2018
+ms.keywords: D3DKMTOpenNtHandleFromName, D3DKMTOpenNtHandleFromName callback function [Display Devices], PFND3DKMT_OPENNTHANDLEFROMNAME, PFND3DKMT_OPENNTHANDLEFROMNAME callback, d3dkmthk/D3DKMTOpenNtHandleFromName, display.d3dkmtopennthandlefromname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,28 +38,19 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMTOpenNtHandleFromName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
+req.typenames: 
 ---
 
-# PFND3DKMT_OPENNTHANDLEFROMNAME callback
+# PFND3DKMT_OPENNTHANDLEFROMNAME callback function
 
 
 ## -description
 
 
 From a given graphics adapter name, opens an NT handle to the process.
-
-
-## -prototype
-
-
-````
-EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOpenNtHandleFromName(
-  _Inout_ D3DKMT_OPENNTHANDLEFROMNAME *pData
-);
-````
 
 
 ## -parameters
@@ -78,7 +69,7 @@ EXTERN_C _Check_return_ NTSTATUS APIENTRY D3DKMTOpenNtHandleFromName(
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_opennthandlefromname.md">D3DKMT_OPENNTHANDLEFROMNAME</a> structure that describes information required to open an NT handle.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406493">D3DKMT_OPENNTHANDLEFROMNAME</a> structure that describes information required to open an NT handle.
 
 
 ## -returns

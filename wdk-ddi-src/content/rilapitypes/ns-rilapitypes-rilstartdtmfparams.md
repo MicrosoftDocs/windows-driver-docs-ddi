@@ -7,7 +7,7 @@ old-location: netvista\rilstartdtmfparams.htm
 old-project: netvista
 ms.assetid: 3837fcee-7b94-464f-904c-c6eaa1002620
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilstartdtmfparams, ntddrilapitypes/RILSTARTDTMFPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILSTARTDTMFPARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILSTARTDTMFPARAMS, *LPRILSTARTDTMFPARAMS
-req.product: Windows 10 or later.
 ---
 
 # RILSTARTDTMFPARAMS structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILSTARTDTMFPARAMS {
-  DWORD  dwExecutor;
-  char   ch;
-} RILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS;
-````
 
 
 ## -struct-fields

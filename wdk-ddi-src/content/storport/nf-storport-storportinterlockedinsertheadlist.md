@@ -7,7 +7,7 @@ old-location: storage\storportinterlockedinsertheadlist.htm
 old-project: storage
 ms.assetid: 13874D19-4835-41B4-B58C-2B25D619607C
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInterlockedInsertHeadList, StorPortInterlockedInsertHeadList routine [Storage Devices], storage.storportinterlockedinsertheadlist, storport/StorPortInterlockedInsertHeadList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortInterlockedInsertHeadList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortInterlockedInsertHeadList function
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The StorPortInterlockedInsertHeadList routine atomically inserts an entry at the beginning of a doubly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/mt790432">STOR_LIST_ENTRY</a> structures
-
-
-## -syntax
-
-
-````
-ULONG StorPortInterlockedInsertHeadList(
-  _In_    PVOID            HwDeviceExtension,
-  _Inout_ PSTOR_LIST_ENTRY ListHead,
-  _Inout_ PSTOR_LIST_ENTRY ListEntry,
-  _Inout_ PSTOR_LIST_ENTRY *Result,
-  _Inout_ PSTOR_KSPIN_LOCK Lock
-);
-````
 
 
 ## -parameters
@@ -158,6 +144,17 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547820">InsertHeadList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt790427">StorPortInitializeSpinLock</a>
 
 
@@ -166,20 +163,8 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
-
-
-
  
 
  
-
 

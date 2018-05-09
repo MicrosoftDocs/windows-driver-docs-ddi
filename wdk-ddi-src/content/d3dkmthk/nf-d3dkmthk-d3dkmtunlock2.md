@@ -7,7 +7,7 @@ old-location: display\d3dkmtunlock2.htm
 old-project: display
 ms.assetid: DDAA5F5A-4A9C-4E8C-B322-A9B395DC753B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTUnlock2, D3DKMTUnlock2 function [Display Devices], d3dkmthk/D3DKMTUnlock2, display.d3dkmtunlock2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,9 +40,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTUnlock2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTUnlock2 function
@@ -52,16 +53,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTUnlock2</b> function unlocks a list of allocations.
-
-
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTUnlock2(
-  _In_ const D3DKMT_UNLOCK2 *pData
-);
-````
 
 
 ## -parameters
@@ -78,7 +69,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock2.md">D3DKMT_UNLOCK2</a> structure that describes a list of allocations to unlock.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914462">D3DKMT_UNLOCK2</a> structure that describes a list of allocations to unlock.
 
 
 ## -returns
@@ -122,12 +113,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_unlock2.md">D3DKMT_UNLOCK2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914462">D3DKMT_UNLOCK2</a>
  
 
  
-
 

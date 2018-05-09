@@ -7,7 +7,7 @@ old-location: stream\lamp_mode.htm
 old-project: stream
 ms.assetid: B379B6EF-C3AD-4E6F-B32D-F85228DB6A72
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: LAMP_MODE, LAMP_MODE enumeration [Streaming Media Devices], LAMP_MODE_COLOR, LAMP_MODE_WHITE, lamp/LAMP_MODE, lamp/LAMP_MODE_COLOR, lamp/LAMP_MODE_WHITE, stream.lamp_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	lamp.h
 api_name:
 -	LAMP_MODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LAMP_MODE
 ---
@@ -50,17 +51,6 @@ req.typenames: LAMP_MODE
 
 
 This enumeration contains the operating modes of a lamp device.
-
-
-## -syntax
-
-
-````
-typedef enum _LAMP_MODE { 
-  LAMP_MODE_WHITE  = 0,
-  LAMP_MODE_COLOR
-} LAMP_MODE;
-````
 
 
 ## -enum-fields
@@ -82,7 +72,7 @@ Optional. Color light.
 
 
 
-This is the I/O parameter type of <a href="..\lamp\ni-lamp-ioctl_lamp_get_mode.md">IOCTL_LAMP_GET_MODE</a> and <a href="..\lamp\ni-lamp-ioctl_lamp_set_mode.md">IOCTL_LAMP_SET_MODE</a>.
+This is the I/O parameter type of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925071">IOCTL_LAMP_GET_MODE</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn925081">IOCTL_LAMP_SET_MODE</a>.
 
 
 

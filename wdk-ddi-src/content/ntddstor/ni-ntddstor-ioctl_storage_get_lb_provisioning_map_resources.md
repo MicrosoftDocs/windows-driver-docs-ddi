@@ -7,8 +7,8 @@ old-location: storage\ioctl_storage_get_lb_provisioning_map_resources.htm
 old-project: storage
 ms.assetid: 117F6507-CA52-4EA7-9633-75ADB19F4DDA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, storage.ioctl_storage_get_lb_provisioning_map_resources
+ms.date: 3/29/2018
+ms.keywords: IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control, IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, storage.ioctl_storage_get_lb_provisioning_map_resources
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddstor.h
 api_name:
 -	IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES IOCTL
@@ -69,7 +70,7 @@ None.
 
 ### -output-buffer
 
-The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="..\ntddstor\ns-ntddstor-_storage_lb_provisioning_map_resources.md">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a> structure.
+The buffer at <i>Irp-&gt;AssociatedIrp.SystemBuffer</i> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451465">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a> structure.
 
 
 ### -output-buffer-length
@@ -111,12 +112,11 @@ If logical block provisioning is enabled on a LUN, resource mapping counts  may 
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_lb_provisioning_map_resources.md">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451465">STORAGE_LB_PROVISIONING_MAP_RESOURCES</a>
  
 
  
-
 

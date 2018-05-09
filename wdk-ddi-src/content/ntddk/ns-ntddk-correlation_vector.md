@@ -7,7 +7,7 @@ old-location: kernel\correlation_vector.htm
 old-project: kernel
 ms.assetid: 35c1799f-2012-42b0-95e6-6902c818a094
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCORRELATION_VECTOR, CORRELATION_VECTOR, CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], kernel.correlation_vector, ntddk/CORRELATION_VECTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	CORRELATION_VECTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CORRELATION_VECTOR
 ---
@@ -51,17 +52,6 @@ req.typenames: CORRELATION_VECTOR
 
 Store the correlation vector that is used to reference events and the generated logs
     for diagnostic purposes.
-
-
-## -syntax
-
-
-````
-typedef struct _CORRELATION_VECTOR {
-  CHAR  Version;
-  CHAR  Vector[RTL_CORRELATION_VECTOR_STRING_LENGTH];
-} CORRELATION_VECTOR;
-````
 
 
 ## -struct-fields

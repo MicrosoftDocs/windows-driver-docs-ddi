@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: 8907a99f-37b0-4c09-b92a-ac720328020e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: IOCTL_POINT_OF_SERVICE_SET_PROPERTY, IOCTL_POINT_OF_SERVICE_SET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_SET_PROPERTY, pos.ioctl_point_of_service_set_property
+ms.keywords: IOCTL_POINT_OF_SERVICE_SET_PROPERTY, IOCTL_POINT_OF_SERVICE_SET_PROPERTY control, IOCTL_POINT_OF_SERVICE_SET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_SET_PROPERTY, pos.ioctl_point_of_service_set_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	pointofservicedriverinterface.h
 api_name:
 -	IOCTL_POINT_OF_SERVICE_SET_PROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PosPropertyId
+req.typenames: 
 ---
 
 # IOCTL_POINT_OF_SERVICE_SET_PROPERTY IOCTL
@@ -60,7 +61,7 @@ This I/O control function sets the specified property on the device.
 ### -input-buffer
 
 
-<a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_pospropertyid.md">PosPropertyId</a> of the property to set followed by the value of the property. The encoding for the type follows the property ID in the byte stream.
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn772239">PosPropertyId</a> of the property to set followed by the value of the property. The encoding for the type follows the property ID in the byte stream.
 
 
 ### -input-buffer-length
@@ -117,7 +118,7 @@ The device is currently claimed by another client.
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
 
 
-The client must successfully call <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device.md">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a> before using this IOCTL.
+The client must successfully call <a href="https://msdn.microsoft.com/library/windows/hardware/dn772093">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a> before using this IOCTL.
 
 
 

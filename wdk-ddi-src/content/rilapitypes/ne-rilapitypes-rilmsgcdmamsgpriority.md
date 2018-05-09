@@ -7,7 +7,7 @@ old-location: netvista\rilmsgcdmamsgpriority.htm
 old-project: netvista
 ms.assetid: aec67cd5-9ac9-41da-b5e6-a4e416923afb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILMSGCDMAMSGPRIORITY, RILMSGCDMAMSGPRIORITY enumeration [Network Drivers Starting with Windows Vista], RIL_MSGPRIORITY_EMERGENCY, RIL_MSGPRIORITY_HIGH, RIL_MSGPRIORITY_MAX, RIL_MSGPRIORITY_URGENT, netvista.rilmsgcdmamsgpriority, ntddrilapitypes/RILMSGCDMAMSGPRIORITY, ntddrilapitypes/RIL_MSGPRIORITY_EMERGENCY, ntddrilapitypes/RIL_MSGPRIORITY_HIGH, ntddrilapitypes/RIL_MSGPRIORITY_MAX, ntddrilapitypes/RIL_MSGPRIORITY_URGENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILMSGCDMAMSGPRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILMSGCDMAMSGPRIORITY
-req.product: Windows 10 or later.
 ---
 
 # RILMSGCDMAMSGPRIORITY enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILMSGCDMAMSGPRIORITY { 
-  RIL_MSGPRIORITY_HIGH,
-  RIL_MSGPRIORITY_URGENT,
-  RIL_MSGPRIORITY_EMERGENCY,
-  RIL_MSGPRIORITY_MAX
-} RILMSGCDMAMSGPRIORITY;
-````
 
 
 ## -enum-fields

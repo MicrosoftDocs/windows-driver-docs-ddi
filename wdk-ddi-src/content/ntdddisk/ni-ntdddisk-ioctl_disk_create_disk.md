@@ -7,8 +7,8 @@ old-location: storage\ioctl_disk_create_disk.htm
 old-project: storage
 ms.assetid: 9ec6835c-43b8-4878-9ddf-1ca7c24435c2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DISK_CREATE_DISK, IOCTL_DISK_CREATE_DISK control code [Storage Devices], k307_1520ab81-e89f-4531-a6ac-0998e1b1b658.xml, ntdddisk/IOCTL_DISK_CREATE_DISK, storage.ioctl_disk_create_disk
+ms.date: 3/29/2018
+ms.keywords: IOCTL_DISK_CREATE_DISK, IOCTL_DISK_CREATE_DISK control, IOCTL_DISK_CREATE_DISK control code [Storage Devices], k307_1520ab81-e89f-4531-a6ac-0998e1b1b658.xml, ntdddisk/IOCTL_DISK_CREATE_DISK, storage.ioctl_disk_create_disk
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntdddisk.h
 api_name:
 -	IOCTL_DISK_CREATE_DISK
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DETECTION_TYPE
+req.typenames: 
 ---
 
 # IOCTL_DISK_CREATE_DISK IOCTL
@@ -50,7 +51,7 @@ req.typenames: DETECTION_TYPE
 
 
 
-Creates an empty partition for the device object. It can operate on either an EFI disk or an MBR disk. The parameters necessary to create an empty disk depend on the type of partition table that will be put onto the disk. For more information, see <a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>.
+Creates an empty partition for the device object. It can operate on either an EFI disk or an MBR disk. The parameters necessary to create an empty disk depend on the type of partition table that will be put onto the disk. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a>.
 
 Disk drivers enumerate partitions as though they were child devices. Thus, upon creating the new partition, the disk class driver notifies the PnP manager by means of a call to <b>IoInvalidateDeviceRelations</b> that the disk device has a new child device (partition).
 
@@ -108,12 +109,11 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_create_disk.md">CREATE_DISK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a>
  
 
  
-
 

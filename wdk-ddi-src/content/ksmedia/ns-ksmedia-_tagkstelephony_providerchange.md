@@ -7,7 +7,7 @@ old-location: audio\kstelephony_providerchange.htm
 old-project: audio
 ms.assetid: 07928837-321C-4501-BDFF-4611BF6912F6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE structure [Audio Devices], PKSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE structure pointer [Audio Devices], _tagKSTELEPHONY_PROVIDERCHANGE, audio.kstelephony_providerchange, ksmedia/KSTELEPHONY_PROVIDERCHANGE, ksmedia/PKSTELEPHONY_PROVIDERCHANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSTELEPHONY_PROVIDERCHANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSTELEPHONY_PROVIDERCHANGE, *PKSTELEPHONY_PROVIDERCHANGE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSTELEPHONY_PROVIDERCHANGE, *PKSTELEPHONY_PROVIDERCHANGE
 
 
 The <b>KSTELEPHONY_PROVIDERCHANGE</b> structure specifies the phone call type and provider change operation to use for the <a href="https://msdn.microsoft.com/library/windows/hardware/mt169876">KSPROPERTY_TELEPHONY_PROVIDERCHANGE</a> property.
-
-
-## -syntax
-
-
-````
-typedef struct _tagKSTELEPHONY_PROVIDERCHANGE {
-  TELEPHONY_CALLTYPE         CallType;
-  TELEPHONY_PROVIDERCHANGEOP ProviderChangeOp;
-} KSTELEPHONY_PROVIDERCHANGE, *PKSTELEPHONY_PROVIDERCHANGE;
-````
 
 
 ## -struct-fields

@@ -7,8 +7,8 @@ old-location: display\createoverlay.htm
 old-project: display
 ms.assetid: 761377ff-95a6-426b-8372-3f347870f9c4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CreateOverlay, CreateOverlay callback function [Display Devices], PFND3DDDI_CREATEOVERLAY, UserModeDisplayDriver_Functions_8418bf74-3398-4913-9002-2f0b2a0941fb.xml, d3dumddi/CreateOverlay, display.createoverlay
+ms.date: 4/16/2018
+ms.keywords: CreateOverlay, CreateOverlay callback function [Display Devices], PFND3DDDI_CREATEOVERLAY, PFND3DDDI_CREATEOVERLAY callback, UserModeDisplayDriver_Functions_8418bf74-3398-4913-9002-2f0b2a0941fb.xml, d3dumddi/CreateOverlay, display.createoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	CreateOverlay
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CREATEOVERLAY callback
+# PFND3DDDI_CREATEOVERLAY callback function
 
 
 ## -description
 
 
 The <b>CreateOverlay</b> function allocates overlay hardware and makes the overlay visible.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_CREATEOVERLAY CreateOverlay;
-
-__checkReturn HRESULT APIENTRY CreateOverlay(
-  _In_    HANDLE                  hDevice,
-  _Inout_ D3DDDIARG_CREATEOVERLAY *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY CreateOverlay(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createoverlay.md">D3DDDIARG_CREATEOVERLAY</a> structure that describes the overlay.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542948">D3DDDIARG_CREATEOVERLAY</a> structure that describes the overlay.
 
 
 ## -returns
@@ -120,7 +107,7 @@ The overlay is successfully created.
 </td>
 <td width="60%">
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlay.md">CreateOverlay</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/761377ff-95a6-426b-8372-3f347870f9c4">CreateOverlay</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -132,7 +119,7 @@ The overlay is successfully created.
 </td>
 <td width="60%">
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlay.md">CreateOverlay</a> could not complete because insufficient bandwidth was available or the requested overlay hardware was unavailable.
+<a href="https://msdn.microsoft.com/761377ff-95a6-426b-8372-3f347870f9c4">CreateOverlay</a> could not complete because insufficient bandwidth was available or the requested overlay hardware was unavailable.
 
 </td>
 </tr>
@@ -175,16 +162,15 @@ Overlays are independent from the resources that are displayed by using the over
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createoverlay.md">D3DDDIARG_CREATEOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542948">D3DDDIARG_CREATEOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

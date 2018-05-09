@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8ce3d316-3976-4af5-a0ae-af4e93f380a1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectGeneralRef_e784bb8d-f1f3-48ac-94c5-d88f2517efd1.xml, EVT_WDF_FILE_CLEANUP, EvtFileCleanup, EvtFileCleanup callback function, kmdf.evtfilecleanup, wdf.evtfilecleanup, wdfdevice/EvtFileCleanup
+ms.keywords: DFDeviceObjectGeneralRef_e784bb8d-f1f3-48ac-94c5-d88f2517efd1.xml, EVT_WDF_FILE_CLEANUP, EVT_WDF_FILE_CLEANUP callback, EvtFileCleanup, EvtFileCleanup callback function, kmdf.evtfilecleanup, wdf.evtfilecleanup, wdfdevice/EvtFileCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	Wdfdevice.h
 api_name:
 -	EvtFileCleanup
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_FILE_CLEANUP callback
+# EVT_WDF_FILE_CLEANUP callback function
 
 
 ## -description
@@ -55,19 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>EvtFileCleanup</i> callback function handles operations that must be performed when an application is closing all accesses to a device.
 
 
-## -prototype
-
-
-````
-EVT_WDF_FILE_CLEANUP EvtFileCleanup;
-
-VOID EvtFileCleanup(
-  _In_ WDFFILEOBJECT FileObject
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -75,7 +62,7 @@ VOID EvtFileCleanup(
 
 ### -param FileObject [in]
 
-A handle to a framework file object, which was previously received by the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_file_create.md">EvtDeviceFileCreate</a> callback function.
+A handle to a framework file object, which was previously received by the driver's <a href="https://msdn.microsoft.com/ee44c0bf-1fca-442d-8871-df6079e89ced">EvtDeviceFileCreate</a> callback function.
 
 
 ## -returns
@@ -93,11 +80,11 @@ None
 
 The framework calls a driver's <i>EvtFileCleanup</i> callback function when the last handle to the specified file object has been closed. (Because of outstanding I/O requests, this handle might not have been released.) 
 
-After the framework calls a driver's <i>EvtFileCleanup</i> callback function, it calls the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_close.md">EvtFileClose</a> callback function.
+After the framework calls a driver's <i>EvtFileCleanup</i> callback function, it calls the driver's <a href="https://msdn.microsoft.com/8ddcb9cb-d184-4ec8-a321-599394a8512e">EvtFileClose</a> callback function.
 
 The <i>EvtFileCleanup</i> callback function is called synchronously, in the context of the thread that closed the last file object handle. 
 
-To register an <i>EvtFileCleanup</i> callback function, the driver must call the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetfileobjectconfig.md">WdfDeviceInitSetFileObjectConfig</a> method.
+To register an <i>EvtFileCleanup</i> callback function, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546107">WdfDeviceInitSetFileObjectConfig</a> method.
 
 For more information about framework file objects and the <i>EvtFileCleanup</i> callback function, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.
 
@@ -142,12 +129,11 @@ The <b>EVT_WDF_FILE_CLEANUP</b> function type is defined in the Wdfdevice.h head
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551319">WDF_FILEOBJECT_CONFIG</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: print\xpsras_background_color.htm
 old-project: print
 ms.assetid: 0B4C1BAC-173E-42E9-8805-028FE165D49D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: XPSRAS_BACKGROUND_COLOR, XPSRAS_BACKGROUND_COLOR enumeration [Print Devices], XPSRAS_BACKGROUND_COLOR_OPAQUE, XPSRAS_BACKGROUND_COLOR_TRANSPARENT, __MIDL___MIDL_itf_xpsrassvc_0000_0004_0001, print.xpsras_background_color, xpsrassvc/XPSRAS_BACKGROUND_COLOR, xpsrassvc/XPSRAS_BACKGROUND_COLOR_OPAQUE, xpsrassvc/XPSRAS_BACKGROUND_COLOR_TRANSPARENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	XPSRAS_BACKGROUND_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: XPSRAS_BACKGROUND_COLOR
-req.product: Windows 10 or later.
 ---
 
 # __MIDL___MIDL_itf_xpsrassvc_0000_0004_0001 enumeration
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 <b>XPSRAS_BACKGROUND_COLOR</b> specifies the background clear color to be used by an XPS rasterizer:
-
-
-## -syntax
-
-
-````
-typedef enum _XPSRAS_BACKGROUND_COLOR { 
-  XPSRAS_BACKGROUND_COLOR_TRANSPARENT  = 0,
-  XPSRAS_BACKGROUND_COLOR_OPAQUE       = 1
-} XPSRAS_BACKGROUND_COLOR;
-````
 
 
 ## -enum-fields
@@ -81,12 +70,11 @@ Use opaque white as clear color.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/C31681A0-17C6-4255-9068-7486A2101AB7">IXpsRasterizationFactory2::CreateRasterizer</a>
-
-
-
  
 
  
-
 

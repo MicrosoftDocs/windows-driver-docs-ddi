@@ -7,7 +7,7 @@ old-location: stream\kswritefile.htm
 old-project: stream
 ms.assetid: ed66db40-d159-4660-96c0-da52f752a409
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsWriteFile, KsWriteFile function [Streaming Media Devices], ks/KsWriteFile, ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml, stream.kswritefile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsWriteFile
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,23 +52,6 @@ req.typenames:
 
 
 The <b>KsWriteFile</b> function performs a write against the specified file object. It is assumed that the caller is serializing access to the file for operations against a FO_SYNCHRONOUS_IO file object. The function attempts to use <b>FastIoDispatch</b> if possible, or it generates a write request against the device object. All relevant statistics are updated.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsWriteFile(
-  _In_     PFILE_OBJECT     FileObject,
-  _In_opt_ PKEVENT          Event,
-  _In_opt_ PVOID            PortContext,
-  _Out_    PIO_STATUS_BLOCK IoStatusBlock,
-  _In_     PVOID            Buffer,
-  _In_     ULONG            Length,
-  _In_opt_ ULONG            Key,
-  _In_     KPROCESSOR_MODE  RequestorMode
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: kernel\ioinitializeworkitem.htm
 old-project: kernel
 ms.assetid: b7f4370e-75db-4238-8e23-9e48028a03f5
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoInitializeWorkItem, IoInitializeWorkItem routine [Kernel-Mode Driver Architecture], k104_06024bfe-5558-4039-a9b1-327895ba9b74.xml, kernel.ioinitializeworkitem, wdm/IoInitializeWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoInitializeWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoInitializeWorkItem function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoInitializeWorkItem</b> routine initializes a work item that the caller has already allocated.
 
 
-## -syntax
-
-
-````
-VOID IoInitializeWorkItem(
-  _In_ PVOID        IoObject,
-  _In_ PIO_WORKITEM IoWorkItem
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ VOID IoInitializeWorkItem(
 
 ### -param IoObject [in]
 
-Pointer to the caller's driver object or to one of the caller's device objects. If the caller will later pass the work item to <a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>, <i>IoObject</i> must point to a device object.
+Pointer to the caller's driver object or to one of the caller's device objects. If the caller will later pass the work item to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a>, <i>IoObject</i> must point to a device object.
 
 
 ### -param IoWorkItem [in]
@@ -92,11 +81,11 @@ None
 
 
 
-The driver allocates its own storage for an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure, and then calls <b>IoInitializeWorkItem</b> to initialize it. Memory must be allocated from nonpaged pool. To determine the number of bytes that is necessary to hold an <b>IO_WORKITEM</b> structure, call <a href="..\wdm\nf-wdm-iosizeofworkitem.md">IoSizeofWorkItem</a>.
+The driver allocates its own storage for an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure, and then calls <b>IoInitializeWorkItem</b> to initialize it. Memory must be allocated from nonpaged pool. To determine the number of bytes that is necessary to hold an <b>IO_WORKITEM</b> structure, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550352">IoSizeofWorkItem</a>.
 
-An <b>IO_WORKITEM</b> structure that is initialized by <b>IoInitializeWorkItem</b><u>must</u> be uninitialized by <a href="..\wdm\nf-wdm-iouninitializeworkitem.md">IoUninitializeWorkItem</a> before it is freed.
+An <b>IO_WORKITEM</b> structure that is initialized by <b>IoInitializeWorkItem</b><u>must</u> be uninitialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550392">IoUninitializeWorkItem</a> before it is freed.
 
-A related routine, <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>, both allocates and initializes a work item. By combining allocation and initialization into a single call, <b>IoAllocateWorkItem</b> might be more convenient for some drivers to use than <b>IoInitializeWorkItem</b>, which does initialization only. However, <b>IoInitializeWorkItem</b> is required by drivers that must initialize work items in previously allocated storage.
+A related routine, <a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a>, both allocates and initializes a work item. By combining allocation and initialization into a single call, <b>IoAllocateWorkItem</b> might be more convenient for some drivers to use than <b>IoInitializeWorkItem</b>, which does initialization only. However, <b>IoInitializeWorkItem</b> is required by drivers that must initialize work items in previously allocated storage.
 
 For example, a driver might allocate a block of storage for a pool of work items. The driver can call <b>IoInitializeWorkItem</b> to initialize a work item when the work item is allocated from the pool. The driver can call <b>IoUninitializeWorkItem</b> to uninitialize the work item when it is returned to the pool. During the initial storage allocation for the pool, the driver can call <b>IoSizeofWorkitem</b> to determine how much storage to allocate for each work item.
 
@@ -107,7 +96,6 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
 
 
 
@@ -115,24 +103,24 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="..\wdm\nf-wdm-iosizeofworkitem.md">IoSizeofWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioqueueworkitemex.md">IoQueueWorkItemEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a>
 
 
 
-<a href="..\wdm\nf-wdm-iouninitializeworkitem.md">IoUninitializeWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549474">IoQueueWorkItemEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550352">IoSizeofWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550392">IoUninitializeWorkItem</a>
  
 
  
-
 

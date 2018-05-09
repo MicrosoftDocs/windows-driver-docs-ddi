@@ -7,7 +7,7 @@ old-location: display\dxapigetversion.htm
 old-project: display
 ms.assetid: f9d441a5-46b5-4da8-aa7e-f4f45eb733d4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DxApiGetVersion, DxApiGetVersion function [Display Devices], ddfncs_72fbedfa-d63f-462a-a6c4-862c6815f1c1.xml, display.dxapigetversion, dxapi/DxApiGetVersion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Dxapi.dll
 api_name:
 -	DxApiGetVersion
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DRMRIGHTS, *PDRMRIGHTS
+req.typenames: 
 ---
 
 # DxApiGetVersion function
@@ -50,17 +51,9 @@ req.typenames: DRMRIGHTS, *PDRMRIGHTS
 ## -description
 
 
-Do not use the <b>DxApiGetVersion</b> function; use the <a href="..\dxapi\nf-dxapi-dxapi.md">DxApi</a> function along with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a> function identifier instead.
+Do not use the <b>DxApiGetVersion</b> function; use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a> function along with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a> function identifier instead.
 
 The <b>DxApiGetVersion</b> function returns a Direct Sound version number of 4.02.
-
-
-## -syntax
-
-
-````
-ULONG DxApiGetVersion(void);
-````
 
 
 ## -parameters
@@ -81,7 +74,6 @@ Returns the major and minor version numbers of Direct Sound as 4 and 2 respectiv
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a>
 
 
 
@@ -89,12 +81,12 @@ Returns the major and minor version numbers of Direct Sound as 4 and 2 respectiv
 
 
 
-<a href="..\dxapi\nf-dxapi-dxapi.md">DxApi</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557364">DxApi</a>
  
 
  
-
 

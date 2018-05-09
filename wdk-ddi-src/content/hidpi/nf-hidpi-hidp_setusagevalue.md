@@ -7,7 +7,7 @@ old-location: hid\hidp_setusagevalue.htm
 old-project: hid
 ms.assetid: e59d7087-58eb-4bc3-a4e0-4597ee28dcd6
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidP_SetUsageValue, HidP_SetUsageValue routine [Human Input Devices], hid.hidp_setusagevalue, hidfunc_8e494117-11e2-42b8-96b0-6aaa2cb35d44.xml, hidpi/HidP_SetUsageValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Hidparse.dll
 api_name:
 -	HidP_SetUsageValue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_SetUsageValue function
@@ -53,23 +54,6 @@ req.typenames: HIDP_REPORT_TYPE
 The <b>HidP_SetUsageValue</b> routine sets a HID control value in a specified HID report.
 
 
-## -syntax
-
-
-````
-NTSTATUS __stdcall HidP_SetUsageValue(
-  _In_    HIDP_REPORT_TYPE     ReportType,
-  _In_    USAGE                UsagePage,
-  _In_    USHORT               LinkCollection,
-  _In_    USAGE                Usage,
-  _In_    ULONG                UsageValue,
-  _In_    PHIDP_PREPARSED_DATA PreparsedData,
-  _Inout_ PCHAR                Report,
-  _In_    ULONG                ReportLength
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +61,7 @@ NTSTATUS __stdcall HidP_SetUsageValue(
 
 ### -param ReportType [in]
 
-Specifies a <a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539774">HIDP_REPORT_TYPE</a> enumerator value that indicates the type of HID report located at <i>Report</i>.
 
 
 ### -param UsagePage [in]
@@ -112,7 +96,7 @@ Pointer to a HID report.
 
 ### -param ReportLength [in]
 
-Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a> returns in a collection's <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a> structure.
+Specifies the size, in bytes, of the HID report located at <i>Report</i>, which must be equal to the report length for the specified report type that <a href="https://msdn.microsoft.com/library/windows/hardware/ff539715">HidP_GetCaps</a> returns in a collection's <a href="https://msdn.microsoft.com/library/windows/hardware/ff539697">HIDP_CAPS</a> structure.
 
 
 ## -returns
@@ -213,7 +197,7 @@ The specified report type is not valid.
 
 
 
-<b>HidP_SetUsageValue</b> routine does not sign the value. A user-mode application or kernel-mode driver must either sign the value, at the position provided in the <a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a> structure for this value, or call <a href="..\hidpi\nf-hidpi-hidp_setscaledusagevalue.md">HidP_SetScaledUsageValue</a>.
+<b>HidP_SetUsageValue</b> routine does not sign the value. A user-mode application or kernel-mode driver must either sign the value, at the position provided in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539832">HIDP_VALUE_CAPS</a> structure for this value, or call <a href="https://msdn.microsoft.com/library/windows/hardware/ff539787">HidP_SetScaledUsageValue</a>.
 
 For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
 
@@ -222,20 +206,19 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_setscaledusagevalue.md">HidP_SetScaledUsageValue</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539832">HIDP_VALUE_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539787">HidP_SetScaledUsageValue</a>
 
 
 
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
-
-
-
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
-
-
-
  
 
  
-
 

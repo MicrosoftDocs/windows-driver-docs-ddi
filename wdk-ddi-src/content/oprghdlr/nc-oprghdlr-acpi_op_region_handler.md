@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: c3a5af59-c97c-42be-bc43-afa30ad710ec
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ACPI_OP_REGION_HANDLER, AcpiOpRegionHandler, AcpiOpRegionHandler callback function [ACPI Devices], acpi.pacpi_op_region_handler, opregref_be7bf2cd-0369-4efd-bbdb-5ad7dc28c33d.xml, oprghdlr/AcpiOpRegionHandler
+ms.keywords: ACPI_OP_REGION_HANDLER, ACPI_OP_REGION_HANDLER callback, AcpiOpRegionHandler, AcpiOpRegionHandler callback function [ACPI Devices], acpi.pacpi_op_region_handler, opregref_be7bf2cd-0369-4efd-bbdb-5ad7dc28c33d.xml, oprghdlr/AcpiOpRegionHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,38 +38,19 @@ api_location:
 -	oprghdlr.h
 api_name:
 -	AcpiOpRegionHandler
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: 
 ---
 
-# ACPI_OP_REGION_HANDLER callback
+# ACPI_OP_REGION_HANDLER callback function
 
 
 ## -description
 
 
 An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI device function driver to provide access by the <a href="https://msdn.microsoft.com/38ca54e0-defe-48b2-ab00-a5f688c2eb01">ACPI driver</a> to the device's operation region.
-
-
-## -prototype
-
-
-````
-ACPI_OP_REGION_HANDLER AcpiOpRegionHandler;
-
-NTSTATUS EXPORT AcpiOpRegionHandler(
-   ULONG                    AccessType,
-   PVOID                    OperationRegionObject,
-   ULONG                    Address,
-   ULONG                    Size,
-   PULONG                   Data,
-   ULONG_PTR                Context,
-   PACPI_OP_REGION_CALLBACK CompletionHandler,
-   PVOID                    CompletionContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -112,7 +93,7 @@ Read from the operation region memory buffer.
 
 ### -param OperationRegionObject
 
-Specifies the operation region object returned by <a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a> for the operation region handler.
+Specifies the operation region object returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff536158">RegisterOpRegionHandler</a> for the operation region handler.
 
 
 ### -param Address
@@ -212,16 +193,15 @@ For detailed information about constraints on operation regions, see the <a href
 
 ## -see-also
 
-<a href="..\oprghdlr\nf-oprghdlr-deregisteropregionhandler.md">DeRegisterOpRegionHandler</a>
 
 
 
-<a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536135">DeRegisterOpRegionHandler</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536158">RegisterOpRegionHandler</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.GetParentItem
-title: IWiaDrvItem::GetParentItem method
+title: IWiaDrvItem::GetParentItem
 author: windows-driver-content
 description: The IWiaDrvItem::GetParentItem gets the parent item of the current item.
 old-location: image\iwiadrvitem_getparentitem.htm
 old-project: image
 ms.assetid: e6197993-b998-424e-ab5d-a91a57c7398c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, GetParentItem method [Imaging Devices], GetParentItem method [Imaging Devices], IWiaDrvItem interface, GetParentItem,IWiaDrvItem.GetParentItem, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], GetParentItem method, IWiaDrvItem::GetParentItem, image.iwiadrvitem_getparentitem, wiamindr_lh/IWiaDrvItem::GetParentItem
+ms.date: 4/23/2018
+ms.keywords: DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, GetParentItem, GetParentItem method [Imaging Devices], GetParentItem method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetParentItem method, IWiaDrvItem.GetParentItem, IWiaDrvItem::GetParentItem, image.iwiadrvitem_getparentitem, wiamindr_lh/IWiaDrvItem::GetParentItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaDrvItem.GetParentItem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaDrvItem::GetParentItem method
+# IWiaDrvItem::GetParentItem
 
 
 ## -description
 
 
 The <b>IWiaDrvItem::GetParentItem</b> gets the parent item of the current item.
-
-
-## -syntax
-
-
-````
-HRESULT GetParentItem(
-  [out, optional] IWiaDrvItem **ppIParentItem
-);
-````
 
 
 ## -parameters
@@ -100,11 +90,10 @@ Minidrivers typically use this method to obtain a pointer to the nonroot parent 
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
+<a href="https://msdn.microsoft.com/0609e1b2-48df-413c-90bd-d7ddea26510a">IWiaDrvItem</a>
 
 
 
@@ -112,8 +101,8 @@ Minidrivers typically use this method to obtain a pointer to the nonroot parent 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
  
 
  
-
 

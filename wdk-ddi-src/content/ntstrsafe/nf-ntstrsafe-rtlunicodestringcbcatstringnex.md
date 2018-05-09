@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringcbcatstringnex.htm
 old-project: kernel
 ms.assetid: 20636a37-8cc5-4ee2-91b1-53edf4911b49
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringCbCatStringNEx, RtlUnicodeStringCbCatStringNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatstringnex, ntstrsafe/RtlUnicodeStringCbCatStringNEx, safestrings_e032e11b-4526-4f1f-9e1a-3ae387e8c49d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Ntstrsafe.dll
 api_name:
 -	RtlUnicodeStringCbCatStringNEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlUnicodeStringCbCatStringNEx function
@@ -50,21 +51,7 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ## -description
 
 
-The <b>RtlUnicodeStringCbCatStringNEx</b> function concatenates two strings when the destination string is contained in a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure, while limiting the size of the appended string.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUnicodeStringCbCatStringNEx(
-  _Inout_   PUNICODE_STRING  DestinationString,
-  _In_      NTSTRSAFE_PCWSTR pszSrc,
-  _In_      size_t           cbToAppend,
-  _Out_opt_ PUNICODE_STRING  RemainingString,
-  _In_      DWORD            dwFlags
-);
-````
+The <b>RtlUnicodeStringCbCatStringNEx</b> function concatenates two strings when the destination string is contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure, while limiting the size of the appended string.
 
 
 ## -parameters
@@ -204,7 +191,7 @@ For information about how to test NTSTATUS values, see <a href="https://msdn.mic
 
 The <b>RtlUnicodeStringCbCatStringNEx </b>function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. By default, the function does <u>not</u> terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
-<b>RtlUnicodeStringCbCatStringNEx </b>adds to the functionality of the <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatstringn.md">RtlUnicodeStringCbCatStringN</a> function by returning a <b>UNICODE_STRING</b> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to <b>RtlUnicodeStringCbCatStringNEx</b> for additional control.
+<b>RtlUnicodeStringCbCatStringNEx </b>adds to the functionality of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562908">RtlUnicodeStringCbCatStringN</a> function by returning a <b>UNICODE_STRING</b> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to <b>RtlUnicodeStringCbCatStringNEx</b> for additional control.
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
@@ -217,20 +204,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcbcatstringn.md">RtlUnicodeStringCbCatStringN</a>
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562908">RtlUnicodeStringCbCatStringN</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcatstringnex.md">RtlUnicodeStringCchCatStringNEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562927">RtlUnicodeStringCchCatStringNEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

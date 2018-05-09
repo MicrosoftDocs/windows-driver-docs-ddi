@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterQueue.get_Handle
-title: IPrinterQueue::get_Handle method
+title: IPrinterQueue::get_Handle
 author: windows-driver-content
 description: Gets the underlying native handle for this print queue.
 old-location: print\iprinterqueue_handle.htm
 old-project: print
 ms.assetid: FE8A8822-28C8-4255-86A4-A77F17C1C281
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Handle property [Print Devices], Handle property [Print Devices], IPrinterQueue interface, IPrinterQueue, IPrinterQueue interface [Print Devices], Handle property, IPrinterQueue.Handle, IPrinterQueue::get_Handle, get_Handle, get_Handle,IPrinterQueue.get_Handle, print.iprinterqueue_handle, printerextension/IPrinterQueue::Handle, printerextension/IPrinterQueue::get_Handle
+ms.date: 4/20/2018
+ms.keywords: Handle property [Print Devices], Handle property [Print Devices],IPrinterQueue interface, IPrinterQueue interface [Print Devices],Handle property, IPrinterQueue.Handle, IPrinterQueue.get_Handle, IPrinterQueue::Handle, IPrinterQueue::get_Handle, get_Handle, print.iprinterqueue_handle, printerextension/IPrinterQueue::Handle, printerextension/IPrinterQueue::get_Handle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,13 +39,13 @@ api_location:
 api_name:
 -	IPrinterQueue.Handle
 -	IPrinterQueue.get_Handle
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterQueue::get_Handle method
+# IPrinterQueue::get_Handle
 
 
 ## -description
@@ -56,27 +56,16 @@ Gets the underlying native handle for this print queue.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_Handle(
-  [out, retval] HANDLE *phPrinter
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439635">IPrinterQueue</a>
  
 
  
-
 

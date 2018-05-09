@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: 63c34784-6ea5-49e5-8ee7-79b70e5137f7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PCMCIA.pcmcia_set_vpp, PCMCIA_SET_VPP, SetVpp, SetVpp callback function [Buses], memcdref_fe05cf85-9e4b-4267-9214-b8809e42cd5a.xml, ntddpcm/SetVpp
+ms.keywords: PCMCIA.pcmcia_set_vpp, PCMCIA_SET_VPP, PCMCIA_SET_VPP callback, SetVpp, SetVpp callback function [Buses], memcdref_fe05cf85-9e4b-4267-9214-b8809e42cd5a.xml, ntddpcm/SetVpp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	ntddpcm.h
 api_name:
 -	SetVpp
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
+req.typenames: 
 ---
 
-# PCMCIA_SET_VPP callback
+# PCMCIA_SET_VPP callback function
 
 
 ## -description
 
 
 The <b>PCMCIA_SET_VPP</b> interface routine sets the power level of the Vpp PCMCIA pin (secondary power source).
-
-
-## -prototype
-
-
-````
-PCMCIA_SET_VPP SetVpp;
-
-BOOLEAN SetVpp(
-  _In_opt_ PVOID Context,
-  _In_     UCHAR VppLevel
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -125,16 +112,15 @@ Callers of this routine can run at IRQL &lt;= DISPATCH_LEVEL. To maintain overal
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537610">PCMCIA_MODIFY_MEMORY_WINDOW</a>
-
-
-
  
 
  
-
 

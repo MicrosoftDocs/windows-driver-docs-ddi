@@ -7,7 +7,7 @@ old-location: stream\kstrirplistcallback.htm
 old-project: stream
 ms.assetid: acddecb5-f3e9-413e-a68c-91d71119e0f6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrIrpListCallback, KStrIrpListCallback routine [Streaming Media Devices], PFNKSIRPLISTCALLBACK, ks/KStrIrpListCallback, ksfunc_90be2b49-883f-476a-9d01-d1e1296844ab.xml, stream.kstrirplistcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,32 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	KStrIrpListCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSIRPLISTCALLBACK callback
+# PFNKSIRPLISTCALLBACK callback function
 
 
 ## -description
 
 
 A streaming minidriver's <i>KStrIrpListCallback</i> routine is called to determine whether the passed in IRP should be moved from the source list to the destination list, or if IRP enumeration should be terminated.
-
-
-## -prototype
-
-
-````
-PFNKSIRPLISTCALLBACK KStrIrpListCallback;
-
-NTSTATUS KStrIrpListCallback(
-  _In_ PIRP  Irp,
-  _In_ PVOID Context
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ Pointer to the IRP to possibly move to the destination list from the source list
 
 ### -param Context [in]
 
-Passed from <a href="..\ks\nf-ks-ksmoveirpsoncancelablequeue.md">KsMoveIrpsOnCancelableQueue</a>.
+Passed from <a href="https://msdn.microsoft.com/library/windows/hardware/ff563434">KsMoveIrpsOnCancelableQueue</a>.
 
 
 ## -returns
@@ -103,12 +90,11 @@ Returns STATUS_SUCCESS to indicate the passed in IRP should be moved from the so
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmoveirpsoncancelablequeue.md">KsMoveIrpsOnCancelableQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563434">KsMoveIrpsOnCancelableQueue</a>
  
 
  
-
 

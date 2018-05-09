@@ -7,7 +7,7 @@ old-location: print\getinfo_memory.htm
 old-project: print
 ms.assetid: d6730599-a8f0-4bea-9ee4-47a60249271d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: GETINFO_MEMORY, GETINFO_MEMORY structure [Print Devices], PGETINFO_MEMORY, PGETINFO_MEMORY structure pointer [Print Devices], PGETINFO_MEMROY, _GETINFO_MEMORY, print.getinfo_memory, print_unidrv-pscript_rendering_d39a4f36-c521-4da4-8f63-5121b344d33a.xml, printoem/GETINFO_MEMORY, printoem/PGETINFO_MEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	GETINFO_MEMORY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GETINFO_MEMORY, PGETINFO_MEMROY
-req.product: Windows 10 or later.
 ---
 
 # _GETINFO_MEMORY structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The GETINFO_MEMORY structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
-
-
-## -syntax
-
-
-````
-typedef struct _GETINFO_MEMORY {
-  DWORD dwSize;
-  DWORD dwRemainingMemory;
-} GETINFO_MEMORY, *PGETINFO_MEMORY;
-````
 
 
 ## -struct-fields
@@ -90,12 +79,11 @@ To obtain Unidrv's calculation of the amount of printer memory currently availab
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-
-
-
  
 
  
-
 

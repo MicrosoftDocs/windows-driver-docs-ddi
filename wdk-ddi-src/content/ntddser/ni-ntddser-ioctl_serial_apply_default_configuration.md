@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_apply_default_configuration.htm
 old-project: serports
 ms.assetid: 59AA6029-906C-480F-8F18-82C271A2BE88
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code [Serial Ports], ntddser/IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, serports.ioctl_serial_apply_default_configuration
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code [Serial Ports], ntddser/IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, serports.ioctl_serial_apply_default_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION IOCTL
@@ -113,7 +114,7 @@ The client (application or peripheral device driver) sends this IOCTL to configu
 
 This IOCTL is supported by versions 1 and 2 of the serial framework extension (SerCx and SerCx2). Serial.sys, which manages the named serial ports (COM1, COM2, and so on) on a PC, does not support this IOCTL.
 
-If a serial port does not support this IOCTL, the client must explicitly specify the connection settings for the port. That is, the client must send an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a> request to set the baud rate, send an <a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a> request to set the time-out intervals, and so on.
+If a serial port does not support this IOCTL, the client must explicitly specify the connection settings for the port. That is, the client must send an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546672">IOCTL_SERIAL_SET_BAUD_RATE</a> request to set the baud rate, send an <a href="https://msdn.microsoft.com/library/windows/hardware/ff544126">IOCTL_SERIAL_SET_TIMEOUTS</a> request to set the time-out intervals, and so on.
 
 Immediately after a client opens a serial port, the client should assume that the port is configured in an unknown, uninitialized state rather than in some known, default state.
 
@@ -122,16 +123,15 @@ Immediately after a client opens a serial port, the client should assume that th
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_baud_rate.md">IOCTL_SERIAL_SET_BAUD_RATE</a>
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546672">IOCTL_SERIAL_SET_BAUD_RATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544126">IOCTL_SERIAL_SET_TIMEOUTS</a>
  
 
  
-
 

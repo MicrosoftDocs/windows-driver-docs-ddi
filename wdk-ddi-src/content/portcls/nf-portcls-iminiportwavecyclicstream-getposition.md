@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclicStream.GetPosition
-title: IMiniportWaveCyclicStream::GetPosition method
+title: IMiniportWaveCyclicStream::GetPosition
 author: windows-driver-content
 description: The GetPosition method gets the current position of the stream.
 old-location: audio\iminiportwavecyclicstream_getposition.htm
 old-project: audio
 ms.assetid: a0d59215-5201-4e1a-9cb2-d9ff6109c3bb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetPosition method [Audio Devices], GetPosition method [Audio Devices], IMiniportWaveCyclicStream interface, GetPosition,IMiniportWaveCyclicStream.GetPosition, IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], GetPosition method, IMiniportWaveCyclicStream::GetPosition, audio.iminiportwavecyclicstream_getposition, audmp-routines_016da0e2-bc56-4c06-9755-a13b75d6c5c9.xml, portcls/IMiniportWaveCyclicStream::GetPosition
+ms.date: 4/16/2018
+ms.keywords: GetPosition, GetPosition method [Audio Devices], GetPosition method [Audio Devices],IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream interface [Audio Devices],GetPosition method, IMiniportWaveCyclicStream.GetPosition, IMiniportWaveCyclicStream::GetPosition, audio.iminiportwavecyclicstream_getposition, audmp-routines_016da0e2-bc56-4c06-9755-a13b75d6c5c9.xml, portcls/IMiniportWaveCyclicStream::GetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportWaveCyclicStream.GetPosition
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWaveCyclicStream::GetPosition method
+# IMiniportWaveCyclicStream::GetPosition
 
 
 ## -description
 
 
 The <code>GetPosition</code> method gets the current position of the stream.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetPosition(
-  [out] PULONG Position
-);
-````
 
 
 ## -parameters
@@ -87,7 +78,7 @@ Output pointer for the position value. This parameter points to a caller-allocat
 
 <code>GetPosition</code> reports the stream's current play or record position. The position is expressed as a byte offset from the beginning of the DMA buffer and represents the miniport driver's best estimate of the byte position of the data currently in the DAC or ADC.
 
-The position is zero immediately following initialization of the stream. A transition to the KSSTATE_STOP state (see <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>) resets the position to zero. When the stream is halted by a transition from KSSTATE_RUN to KSSTATE_PAUSE or KSSTATE_ACQUIRE, the position freezes. It unfreezes when the stream transitions from KSSTATE_PAUSE or KSSTATE_ACQUIRE back to KSSTATE_RUN.
+The position is zero immediately following initialization of the stream. A transition to the KSSTATE_STOP state (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>) resets the position to zero. When the stream is halted by a transition from KSSTATE_RUN to KSSTATE_PAUSE or KSSTATE_ACQUIRE, the position freezes. It unfreezes when the stream transitions from KSSTATE_PAUSE or KSSTATE_ACQUIRE back to KSSTATE_RUN.
 
 <code>GetPosition</code> specifies the position as an offset into the cyclic buffer. When the position reaches the end of the cyclic buffer, it wraps around to the beginning of the buffer. Hence, the position never exceeds the buffer size.
 
@@ -116,20 +107,19 @@ The WaveCyclic port driver implements a property handler for <a href="https://ms
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536715">IMiniportWaveCyclicStream</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
 
 
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>
  
 
  
-
 

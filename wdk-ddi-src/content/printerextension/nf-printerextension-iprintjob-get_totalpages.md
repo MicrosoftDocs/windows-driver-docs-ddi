@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintJob.get_TotalPages
-title: IPrintJob::get_TotalPages method
+title: IPrintJob::get_TotalPages
 author: windows-driver-content
 description: Gets the total number of pages that the document contains.
 old-location: print\iprintjob_totalpages.htm
 old-project: print
 ms.assetid: 1035337F-2EDD-4538-AF39-3828B6DE424B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintJob, IPrintJob interface [Print Devices], TotalPages property, IPrintJob.TotalPages, IPrintJob::get_TotalPages, TotalPages property [Print Devices], TotalPages property [Print Devices], IPrintJob interface, get_TotalPages, get_TotalPages,IPrintJob.get_TotalPages, print.iprintjob_totalpages, printerextension/IPrintJob::TotalPages, printerextension/IPrintJob::get_TotalPages
+ms.date: 4/20/2018
+ms.keywords: IPrintJob interface [Print Devices],TotalPages property, IPrintJob.TotalPages, IPrintJob.get_TotalPages, IPrintJob::TotalPages, IPrintJob::get_TotalPages, TotalPages property [Print Devices], TotalPages property [Print Devices],IPrintJob interface, get_TotalPages, print.iprintjob_totalpages, printerextension/IPrintJob::TotalPages, printerextension/IPrintJob::get_TotalPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,13 +39,13 @@ api_location:
 api_name:
 -	IPrintJob.TotalPages
 -	IPrintJob.get_TotalPages
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintJob::get_TotalPages method
+# IPrintJob::get_TotalPages
 
 
 ## -description
@@ -56,27 +56,16 @@ Gets the total number of pages that the document contains.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_TotalPages(
-  [out, retval] ULONG *pulPages
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
  
 
  
-
 

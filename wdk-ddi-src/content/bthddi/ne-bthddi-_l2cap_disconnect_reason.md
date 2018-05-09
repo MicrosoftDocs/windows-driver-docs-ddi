@@ -7,7 +7,7 @@ old-location: bltooth\l2cap_disconnect_reason.htm
 old-project: bltooth
 ms.assetid: 34a37d29-c517-45dc-b94d-abffaa91cb31
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: HardwareRemoval, HciDisconnect, L2CAP_DISCONNECT_REASON, L2CAP_DISCONNECT_REASON enumeration [Bluetooth Devices], L2capDisconnectRequest, RadioPoweredDown, _L2CAP_DISCONNECT_REASON, bltooth.l2cap_disconnect_reason, bth_enums_b465d42e-515c-49b9-8d6c-0d576853a41b.xml, bthddi/HardwareRemoval, bthddi/HciDisconnect, bthddi/L2CAP_DISCONNECT_REASON, bthddi/L2capDisconnectRequest, bthddi/RadioPoweredDown
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	L2CAP_DISCONNECT_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: L2CAP_DISCONNECT_REASON
 ---
@@ -51,19 +52,6 @@ req.typenames: L2CAP_DISCONNECT_REASON
 
 The L2CAP_DISCONNECT_REASON enumeration type gives the reason an L2CAP channel has been
   disconnected.
-
-
-## -syntax
-
-
-````
-typedef enum _L2CAP_DISCONNECT_REASON { 
-  HciDisconnect           = 0,
-  L2capDisconnectRequest  = 1,
-  RadioPoweredDown        = 2,
-  HardwareRemoval         = 3
-} L2CAP_DISCONNECT_REASON;
-````
 
 
 ## -enum-fields
@@ -100,7 +88,7 @@ This value specifies for the profile driver that the local radio has been physic
 
 A value from this enumeration is used as the 
     <b>Reason</b> member of the 
-    <a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a> structure.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536680">INDICATION_PARAMETERS</a> structure.
 
 Hardware limitations may prevent the Bluetooth driver stack from distinguishing between 
     <b>RadioPoweredDown</b> and 
@@ -109,19 +97,18 @@ Hardware limitations may prevent the Bluetooth driver stack from distinguishing 
 Currently, 
     <i>HciDisconnect</i> and 
     <i>L2capDisconnectRequest</i> are the only values the Bluetooth driver stack passes to the 
-    <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>.
+    <a href="https://msdn.microsoft.com/d3ca900d-1dd6-49da-ae94-855de3fbd086">L2CAP Callback Function</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_indication_parameters.md">INDICATION_PARAMETERS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536680">INDICATION_PARAMETERS</a>
  
 
  
-
 

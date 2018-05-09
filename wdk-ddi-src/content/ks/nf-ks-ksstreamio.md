@@ -7,7 +7,7 @@ old-location: stream\ksstreamio.htm
 old-project: stream
 ms.assetid: 74c62a30-42b9-4ea7-b52a-014e263d886e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsStreamIo, KsStreamIo function [Streaming Media Devices], ks/KsStreamIo, ksfunc_c2f256a3-f01a-45e1-b7de-1eed5bacde7a.xml, stream.ksstreamio
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsStreamIo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,26 +52,6 @@ req.typenames:
 
 
 The <b>KsStreamIo</b> function performs a stream read or write against the specified file object. The function attempts to use <b>FastIoDispatch</b> if possible, or it generates a read or write request against the device object.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsStreamIo(
-  _In_     PFILE_OBJECT            FileObject ,
-  _In_opt_ PKEVENT                 Event ,
-  _In_opt_ PVOID                   PortContext ,
-  _In_opt_ PIO_COMPLETION_ROUTINE  CompletionRoutine ,
-  _In_opt_ PVOID                   CompletionContext ,
-  _In_opt_ KSCOMPLETION_INVOCATION CompletionInvocationFlags ,
-  _Out_    PIO_STATUS_BLOCK        IoStatusBlock ,
-  _Inout_  PVOID                   StreamHeaders ,
-  _In_     ULONG                   Length ,
-  _In_     ULONG                   Flags ,
-  _In_     KPROCESSOR_MODE         RequestorMode 
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: kernel\wdmlibioconnectinterruptex.htm
 old-project: kernel
 ms.assetid: 172598B1-C486-489F-98F0-382EB8139A08
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoConnectInterruptEx, WdmlibIoConnectInterruptEx, WdmlibIoConnectInterruptEx function [Kernel-Mode Driver Architecture], iointex/IoConnectInterruptEx, iointex/WdmlibIoConnectInterruptEx, kernel.wdmlibioconnectinterruptex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 api_name:
 -	WdmlibIoConnectInterruptEx
 -	IoConnectInterruptEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LUID
+req.typenames: 
 ---
 
 # WdmlibIoConnectInterruptEx function
@@ -53,16 +54,6 @@ req.typenames: LUID
 The <b>WdmlibIoConnectInterruptEx</b> function registers an interrupt-handling routine for a device's interrupts.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdmlibIoConnectInterruptEx(
-  _Inout_ PIO_CONNECT_INTERRUPT_PARAMETERS Parameters
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ NTSTATUS WdmlibIoConnectInterruptEx(
 
 ### -param Parameters [in, out]
 
-Pointer to an <a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a> structure that specifies the device and interrupt-handling routine. On return,  <b>WdmlibIoConnectInterruptEx</b> updates this structure to hold information about the device's interrupts.
+Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550541">IO_CONNECT_INTERRUPT_PARAMETERS</a> structure that specifies the device and interrupt-handling routine. On return,  <b>WdmlibIoConnectInterruptEx</b> updates this structure to hold information about the device's interrupts.
 
 
 ## -returns
@@ -152,11 +143,11 @@ One of the arguments was not found. For example, the specified device has no int
 <b>WdmlibIoConnectInterruptEx</b>
            can be used to register an interrupt-handling routine for both traditional line-based interrupts (such as that supported by the PCI bus), and the newer message-signaled interrupts (such as that supported by PCI versions 2.2 and 3.0). 
 
-Drivers register an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine for line-based interrupts, and an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a> routine for message-signaled interrupts. For more information about how to specify the members of <i>Parameters</i> in each case, see <a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>.
+Drivers register an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine for line-based interrupts, and an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a> routine for message-signaled interrupts. For more information about how to specify the members of <i>Parameters</i> in each case, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550541">IO_CONNECT_INTERRUPT_PARAMETERS</a>.
 
-<b>WdmlibIoConnectInterruptEx</b> updates the members of <i>Parameters</i> to provide information about the device's interrupts. For more information about the information provided by <b>WdmlibIoConnectInterruptEx</b>, see <a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>.
+<b>WdmlibIoConnectInterruptEx</b> updates the members of <i>Parameters</i> to provide information about the device's interrupts. For more information about the information provided by <b>WdmlibIoConnectInterruptEx</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550541">IO_CONNECT_INTERRUPT_PARAMETERS</a>.
 
-Use <a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a> to unregister a routine registered with <b>WdmlibIoConnectInterruptEx</b>.
+Use <a href="https://msdn.microsoft.com/B6F8663C-3A13-45DA-80FE-CC8B9194D083">WdmlibIoDisconnectInterruptEx</a> to unregister a routine registered with <b>WdmlibIoConnectInterruptEx</b>.
 
 The driver should not program its device to generate interrupts until it has connected its ISR. Thus, the ISR cannot fire before <b>WdmlibIoConnectInterruptEx</b> returns. However, there are certain devices, such as buttons, that are not programmable. For those devices, the driver should be prepared to handle the ISR as soon as it calls <b>WdmlibIoConnectInterruptEx</b>. The interrupt line may already be asserted when <b>WdmlibIoConnectInterruptEx</b> is called and can fire immediately after the line is enabled at the interrupt controller, before the <b>WdmlibIoConnectInterruptEx</b> call unwinds. 
 
@@ -167,11 +158,14 @@ For more information about registering an interrupt-handling routine, see <a hre
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550541">IO_CONNECT_INTERRUPT_PARAMETERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>
 
 
 
@@ -179,12 +173,8 @@ For more information about registering an interrupt-handling routine, see <a hre
 
 
 
-<a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a>
-
-
-
+<a href="https://msdn.microsoft.com/B6F8663C-3A13-45DA-80FE-CC8B9194D083">WdmlibIoDisconnectInterruptEx</a>
  
 
  
-
 

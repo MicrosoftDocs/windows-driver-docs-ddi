@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStillImageW.EnableHwNotifications
-title: IStillImageW::EnableHwNotifications method
+title: IStillImageW::EnableHwNotifications
 author: windows-driver-content
 description: The IStillImage::EnableHwNotifications method requests the still image event monitor to enable or disable the notification of applications when Still Image Device Events occur for a specified device.
 old-location: image\istillimage_enablehwnotifications.htm
 old-project: image
 ms.assetid: 54b4468a-7823-4afe-8845-696c4a534367
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EnableHwNotifications method [Imaging Devices], EnableHwNotifications method [Imaging Devices], IStillImageW interface, EnableHwNotifications,IStillImageW.EnableHwNotifications, IStillImageW, IStillImageW interface [Imaging Devices], EnableHwNotifications method, IStillImageW::EnableHwNotifications, image.istillimage_enablehwnotifications, sti/IStillImageW::EnableHwNotifications, stifnc_50df840a-7fa2-4235-864f-dee8ce5ce849.xml
+ms.date: 4/23/2018
+ms.keywords: EnableHwNotifications, EnableHwNotifications method [Imaging Devices], EnableHwNotifications method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],EnableHwNotifications method, IStillImageW.EnableHwNotifications, IStillImageW::EnableHwNotifications, image.istillimage_enablehwnotifications, sti/IStillImageW::EnableHwNotifications, stifnc_50df840a-7fa2-4235-864f-dee8ce5ce849.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	sti.h
 api_name:
 -	IStillImageW.EnableHwNotifications
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStillImageW::EnableHwNotifications method
+# IStillImageW::EnableHwNotifications
 
 
 ## -description
 
 
 The <b>IStillImage::EnableHwNotifications</b> method requests the still image event monitor to enable or disable the notification of applications when <a href="https://msdn.microsoft.com/5f9be89c-8442-4894-b2f6-a4d3558464bf">Still Image Device Events</a> occur for a specified device.
-
-
-## -syntax
-
-
-````
-HRESULT EnableHwNotifications(
-  [in] LPCWSTR pwszDeviceName,
-       BOOL    bNewState
-);
-````
 
 
 ## -parameters
@@ -101,16 +90,15 @@ Before calling <b>IStillImage::EnableHwNotifications</b>, clients of the <b>ISti
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543796">IStillImage::LaunchApplicationForDevice</a>
 
 
 
 <a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
-
-
-
  
 
  
-
 

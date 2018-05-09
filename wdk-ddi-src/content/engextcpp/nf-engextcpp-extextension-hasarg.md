@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.HasArg
-title: ExtExtension::HasArg method
+title: ExtExtension::HasArg
 author: windows-driver-content
 description: The HasArg method indicates whether a specified named argument is present in the command line used to invoke the current extension command.
 old-location: debugger\hasarg.htm
 old-project: debugger
 ms.assetid: c71aa196-a25a-4d5c-a464-426d14a6aa72
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_a4d457bf-6e64-46d7-892a-5ddda81c7f9d.xml, ExtExtension, ExtExtension class [Windows Debugging], HasArg method, ExtExtension::HasArg, HasArg method [Windows Debugging], HasArg method [Windows Debugging], ExtExtension class, HasArg,ExtExtension.HasArg, debugger.hasarg
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_a4d457bf-6e64-46d7-892a-5ddda81c7f9d.xml, ExtExtension class [Windows Debugging],HasArg method, ExtExtension.HasArg, ExtExtension::HasArg, HasArg, HasArg method [Windows Debugging], HasArg method [Windows Debugging],ExtExtension class, debugger.hasarg
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	Engextcpp.hpp
 api_name:
 -	ExtExtension.HasArg
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::HasArg method
+# ExtExtension::HasArg
 
 
 ## -description
 
 
 The <b>HasArg</b> method indicates whether a specified named argument is present in the command line used to invoke the current extension command.
-
-
-## -syntax
-
-
-````
-bool HasArg(
-  [in] PCSTR Name
-);
-````
 
 
 ## -parameters
@@ -87,7 +78,7 @@ Specifies the name of the argument.
 
 This method will work for all types of named arguments.  In particular, it can be used to detect the presence of a named argument of Boolean type.
 
-If the name of the argument is a single character, the convenience method <a href="..\engextcpp\nf-engextcpp-extextension-haschararg.md">HasCharArg</a> can be used instead.
+If the name of the argument is a single character, the convenience method <a href="https://msdn.microsoft.com/library/windows/hardware/ff549727">HasCharArg</a> can be used instead.
 
 For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
 
@@ -98,7 +89,6 @@ This method should only be called during the execution of an extension command p
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extextension-haschararg.md">HasCharArg</a>
 
 
 
@@ -106,8 +96,8 @@ This method should only be called during the execution of an extension command p
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549727">HasCharArg</a>
  
 
  
-
 

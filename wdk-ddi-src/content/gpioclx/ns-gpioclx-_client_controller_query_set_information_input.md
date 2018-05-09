@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, *PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
 ---
@@ -50,34 +51,6 @@ req.typenames: CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, *PCLIENT_CONTROLLE
 
 
 The <b>CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT</b> structure contains a request for the hardware attributes of the general-purpose I/O (GPIO) controller.
-
-
-## -syntax
-
-
-````
-typedef struct _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT {
-  CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE RequestType;
-  USHORT                                   Size;
-  ULONG                                    Flags;
-  union {
-    struct {
-      BANK_ID BankId;
-    } BankPowerInformation;
-    struct {
-      WDFCMRESLIST ResourcesTranslated;
-      WDFCMRESLIST ResourcesRaw;
-      USHORT       TotalBanks;
-    } BankInterruptBinding;
-    struct {
-      PVOID  InputBuffer;
-      SIZE_T InputBufferSize;
-      SIZE_T OutputBufferSize;
-      USHORT TotalBanks;
-    } ControllerFunctionBankMapping;
-  };
-} CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, *PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT;
-````
 
 
 ## -struct-fields
@@ -259,15 +232,6 @@ The <i>InputBuffer</i> parameter of the <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
 
 
 
@@ -275,8 +239,16 @@ The <i>InputBuffer</i> parameter of the <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698239">CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698241">CLIENT_QuerySetControllerInformation</a>
  
 
  
-
 

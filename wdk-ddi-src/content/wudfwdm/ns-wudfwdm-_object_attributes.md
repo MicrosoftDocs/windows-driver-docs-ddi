@@ -7,7 +7,7 @@ old-location: kernel\object_attributes.htm
 old-project: kernel
 ms.assetid: 08f5a141-abce-4890-867c-5fe8c4239905
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*POBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], _OBJECT_ATTRIBUTES, kernel.object_attributes, kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml, wudfwdm/OBJECT_ATTRIBUTES, wudfwdm/POBJECT_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wudfwdm.h
 api_name:
 -	OBJECT_ATTRIBUTES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OBJECT_ATTRIBUTES
-req.product: Windows 10 or later.
 ---
 
 # _OBJECT_ATTRIBUTES structure
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <b>OBJECT_ATTRIBUTES</b> structure specifies attributes that can be applied to objects or object handles by routines that create objects and/or return handles to objects.
 
 
-## -syntax
-
-
-````
-typedef struct _OBJECT_ATTRIBUTES {
-  ULONG           Length;
-  HANDLE          RootDirectory;
-  PUNICODE_STRING ObjectName;
-  ULONG           Attributes;
-  PVOID           SecurityDescriptor;
-  PVOID           SecurityQualityOfService;
-}  OBJECT_ATTRIBUTES, *POBJECT_ATTRIBUTES;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +60,7 @@ typedef struct _OBJECT_ATTRIBUTES {
 
 ### -field Length
 
-The number of bytes of data contained in this structure. The <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro sets this member to <b>sizeof</b>(<b>OBJECT_ATTRIBUTES</b>).
+The number of bytes of data contained in this structure. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro sets this member to <b>sizeof</b>(<b>OBJECT_ATTRIBUTES</b>).
 
 
 ### -field RootDirectory
@@ -85,7 +70,7 @@ Optional handle to the root object directory for the path name specified by the 
 
 ### -field ObjectName
 
-Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">Unicode string</a> that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the <b>RootDirectory</b> member.
+Pointer to a <a href="https://msdn.microsoft.com/b02f29a9-1049-4e29-aac3-72bf0c70a21e">Unicode string</a> that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the <b>RootDirectory</b> member.
 
 
 ### -field Attributes
@@ -113,7 +98,7 @@ OBJ_PERMANENT
 
 </td>
 <td>
-This flag only applies to objects that are named within the object manager. By default, such objects are deleted when all open handles to them are closed. If this flag is specified, the object is not deleted when all open handles are closed. Drivers can use the <a href="..\wdm\nf-wdm-zwmaketemporaryobject.md">ZwMakeTemporaryObject</a> routine to make a permanent object non-permanent.
+This flag only applies to objects that are named within the object manager. By default, such objects are deleted when all open handles to them are closed. If this flag is specified, the object is not deleted when all open handles are closed. Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566477">ZwMakeTemporaryObject</a> routine to make a permanent object non-permanent.
 
 </td>
 </tr>
@@ -195,21 +180,21 @@ Reserved.
 
 ### -field SecurityDescriptor
 
-Specifies a security descriptor (<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>) for the object when the object is created. If this member is <b>NULL</b>, the object will receive default security settings.
+Specifies a security descriptor (<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>) for the object when the object is created. If this member is <b>NULL</b>, the object will receive default security settings.
 
 
 ### -field SecurityQualityOfService
 
-Optional quality of service to be applied to the object when it is created. Used to indicate the security impersonation level and context tracking mode (dynamic or static). Currently, the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro sets this member to <b>NULL</b>.
+Optional quality of service to be applied to the object when it is created. Used to indicate the security impersonation level and context tracking mode (dynamic or static). Currently, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro sets this member to <b>NULL</b>.
 
 
 ## -remarks
 
 
 
-Use the <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a> macro to initialize the members of the <b>OBJECT_ATTRIBUTES</b> structure. Note that <b>InitializeObjectAttributes</b> initializes the <b>SecurityQualityOfService</b> member to <b>NULL</b>. If you must specify a non-<b>NULL</b> value, set the <b>SecurityQualityOfService</b> member after initialization.
+Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro to initialize the members of the <b>OBJECT_ATTRIBUTES</b> structure. Note that <b>InitializeObjectAttributes</b> initializes the <b>SecurityQualityOfService</b> member to <b>NULL</b>. If you must specify a non-<b>NULL</b> value, set the <b>SecurityQualityOfService</b> member after initialization.
 
-To apply the attributes contained in this structure to an object or object handle, pass a pointer to this structure to a routine that accesses objects or returns object handles, such as <a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a> or <a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>.
+To apply the attributes contained in this structure to an object or object handle, pass a pointer to this structure to a routine that accesses objects or returns object handles, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566421">ZwCreateDirectoryObject</a>.
 
 All members of this structure are read-only. If a member of this structure is a pointer, the object that this member points to is read-only as well. Read-only members and objects can be used to acquire relevant information but must not be modified. To set the members of this structure, use the <b>InitializeObjectAttributes</b> macro.
 
@@ -220,48 +205,49 @@ Driver routines that run in a process context other than that of the system proc
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541931">FltCreateCommunicationPort</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541935">FltCreateFile</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541937">FltCreateFileEx</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541939">FltCreateFileEx2</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548418">IoCreateFile</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548283">IoCreateFileEx</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548289">IoCreateFileSpecifyDeviceObjectHint</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566421">ZwCreateDirectoryObject</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
  
 
  
+
 
 

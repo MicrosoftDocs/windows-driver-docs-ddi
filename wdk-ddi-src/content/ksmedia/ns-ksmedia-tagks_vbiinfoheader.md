@@ -7,7 +7,7 @@ old-location: stream\ks_vbiinfoheader.htm
 old-project: stream
 ms.assetid: 4424be3a-6e73-449c-b5fb-5cbc1109490d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_VBIINFOHEADER, KS_VBIINFOHEADER, KS_VBIINFOHEADER structure [Streaming Media Devices], PKS_VBIINFOHEADER, PKS_VBIINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_VBIINFOHEADER, ksmedia/PKS_VBIINFOHEADER, stream.ks_vbiinfoheader, tagKS_VBIINFOHEADER, vidcapstruct_2a637c59-2852-4b59-9d92-f51c9892df85.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_VBIINFOHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_VBIINFOHEADER, *PKS_VBIINFOHEADER
 ---
@@ -50,26 +51,6 @@ req.typenames: KS_VBIINFOHEADER, *PKS_VBIINFOHEADER
 
 
 The KS_VBIINFOHEADER structure describes raw vertical blanking interval (VBI) streams.
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_VBIINFOHEADER {
-  ULONG StartLine;
-  ULONG EndLine;
-  ULONG SamplingFrequency;
-  ULONG MinLineStartTime;
-  ULONG MaxLineStartTime;
-  ULONG ActualLineStartTime;
-  ULONG ActualLineEndTime;
-  ULONG VideoStandard;
-  ULONG SamplesPerLine;
-  ULONG StrideInBytes;
-  ULONG BufferSize;
-} KS_VBIINFOHEADER, *PKS_VBIINFOHEADER;
-````
 
 
 ## -struct-fields
@@ -114,7 +95,7 @@ Specifies the actual ending point for VBI digitization from the leading edge of 
 
 ### -field VideoStandard
 
-Specifies one or more (logically ORed) values from the <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a> enumeration.
+Specifies one or more (logically ORed) values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a> enumeration.
 
 
 ### -field SamplesPerLine
@@ -143,12 +124,11 @@ VBI streams are usually converted to NABTS, CC, and WST streams by downstream fi
 
 ## -see-also
 
-<a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
  
 
  
-
 

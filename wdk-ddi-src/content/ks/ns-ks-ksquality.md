@@ -7,7 +7,7 @@ old-location: stream\ksquality.htm
 old-project: stream
 ms.assetid: 36caaea9-2354-4ed8-9649-5eb102def8d5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSQUALITY, KSQUALITY, KSQUALITY structure [Streaming Media Devices], PKSQUALITY, PKSQUALITY structure pointer [Streaming Media Devices], ks-struct_a2b63e1c-e5b4-437d-a5ba-0746f8388eef.xml, ks/KSQUALITY, ks/PKSQUALITY, stream.ksquality"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSQUALITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSQUALITY, *PKSQUALITY
 ---
@@ -50,18 +51,6 @@ req.typenames: KSQUALITY, *PKSQUALITY
 
 
 The KSQUALITY structure is used to report QM problems in both kernel and user mode to their respective quality managers.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  PVOID    Context;
-  ULONG    Proportion;
-  LONGLONG DeltaTime;
-} KSQUALITY, *PKSQUALITY;
-````
 
 
 ## -struct-fields

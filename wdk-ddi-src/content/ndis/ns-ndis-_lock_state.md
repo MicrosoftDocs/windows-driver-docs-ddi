@@ -7,7 +7,7 @@ old-location: netvista\lock_state.htm
 old-project: netvista
 ms.assetid: d23c7824-b2ab-4316-8d4c-474619a22223
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PLOCK_STATE, LOCK_STATE, LOCK_STATE structure [Network Drivers Starting with Windows Vista], PLOCK_STATE, PLOCK_STATE structure pointer [Network Drivers Starting with Windows Vista], _LOCK_STATE, ndis/LOCK_STATE, ndis/PLOCK_STATE, ndis_processor_group_ref_d04d3375-211e-4ef8-a30b-d2c6b98f9cc1.xml, netvista.lock_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	LOCK_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LOCK_STATE, *PLOCK_STATE
 ---
@@ -54,27 +55,16 @@ The <b>LOCK_STATE</b> structure tracks the state of a read/write lock. This stru
    
 
 
-## -syntax
-
-
-````
-typedef struct _LOCK_STATE {
-  ;      // Reserved for NDIS.
-} LOCK_STATE, *PLOCK_STATE;
-````
-
-
 ## -struct-fields
 
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557070">LOCK_STATE_EX</a>
  
 
  
-
 

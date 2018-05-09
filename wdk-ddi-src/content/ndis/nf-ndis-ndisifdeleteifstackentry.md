@@ -7,7 +7,7 @@ old-location: netvista\ndisifdeleteifstackentry.htm
 old-project: netvista
 ms.assetid: 02b4a485-d44b-458c-89f5-1807500b6db8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisIfDeleteIfStackEntry, NdisIfDeleteIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeleteIfStackEntry, net_if_functions_ref_dc4a2189-1dc6-43c5-8cef-baf5907d3d60.xml, netvista.ndisifdeleteifstackentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisIfDeleteIfStackEntry
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisIfDeleteIfStackEntry function
@@ -53,17 +54,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 The 
   <b>NdisIfDeleteIfStackEntry</b> function deletes information about the ordering of two network interfaces in
   the NDIS interface stack.
-
-
-## -syntax
-
-
-````
-VOID NdisIfDeleteIfStackEntry(
-  _In_ NET_IFINDEX HigherLayerIfIndex,
-  _In_ NET_IFINDEX LowerLayerIfIndex
-);
-````
 
 
 ## -parameters
@@ -96,7 +86,7 @@ None
 
 NDIS drivers call 
     <b>NdisIfDeleteIfStackEntry</b> to delete a stack entry that was previously added by calling the 
-    <a href="..\ndis\nf-ndis-ndisifaddifstackentry.md">NdisIfAddIfStackEntry</a> function. NDIS
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562693">NdisIfAddIfStackEntry</a> function. NDIS
     deletes the stack entry from its interface stack table if it finds a matching entry.
 
 NDIS maintains an interface stack table (<i>ifStackTable</i> from 
@@ -110,12 +100,11 @@ NDIS maintains an interface stack table (<i>ifStackTable</i> from
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifaddifstackentry.md">NdisIfAddIfStackEntry</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562693">NdisIfAddIfStackEntry</a>
  
 
  
-
 

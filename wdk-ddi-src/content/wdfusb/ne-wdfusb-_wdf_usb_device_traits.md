@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL  (See Remarks section.)"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdfusb.h
 api_name:
 -	WDF_USB_DEVICE_TRAITS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_USB_DEVICE_TRAITS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_USB_DEVICE_TRAITS enumeration
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_USB_DEVICE_TRAITS</b> enumeration identifies USB device traits.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_USB_DEVICE_TRAITS { 
-  WDF_USB_DEVICE_TRAIT_SELF_POWERED         = 0x00000001,
-  WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE  = 0x00000002,
-  WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED        = 0x00000004
-} WDF_USB_DEVICE_TRAITS;
-````
 
 
 ## -enum-fields
@@ -91,19 +79,18 @@ The device is operating at high speed or SuperSpeed.
 
 
 
-The <b>WDF_USB_DEVICE_TRAITS</b> enumeration is used in the <a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a> structure.
+The <b>WDF_USB_DEVICE_TRAITS</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552592">WDF_USB_DEVICE_INFORMATION</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_device_information.md">WDF_USB_DEVICE_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552592">WDF_USB_DEVICE_INFORMATION</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\ks_bitmapinfoheader.htm
 old-project: stream
 ms.assetid: 77101494-97bb-4049-8c6c-cdb4ee82f312
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER, KS_BITMAPINFOHEADER structure [Streaming Media Devices], PKS_BITMAPINFOHEADER, PKS_BITMAPINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_BITMAPINFOHEADER, ksmedia/PKS_BITMAPINFOHEADER, stream.ks_bitmapinfoheader, tagKS_BITMAPINFOHEADER, vidcapstruct_14e65a26-c943-4fad-949a-87aaf584e50c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_BITMAPINFOHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER
 ---
@@ -50,26 +51,6 @@ req.typenames: KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER
 
 
 The KS_BITMAPINFOHEADER structure describes details about the video stream, such as image dimensions and pixel depth. 
-
-
-## -syntax
-
-
-````
-typedef struct tagKS_BITMAPINFOHEADER {
-  DWORD biSize;
-  LONG  biWidth;
-  LONG  biHeight;
-  WORD  biPlanes;
-  WORD  biBitCount;
-  DWORD biCompression;
-  DWORD biSizeImage;
-  LONG  biXPelsPerMeter;
-  LONG  biYPelsPerMeter;
-  DWORD biClrUsed;
-  DWORD biClrImportant;
-} KS_BITMAPINFOHEADER, *PKS_BITMAPINFOHEADER;
-````
 
 
 ## -struct-fields

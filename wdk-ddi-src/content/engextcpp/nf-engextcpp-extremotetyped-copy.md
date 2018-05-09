@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Copy
-title: ExtRemoteTyped::Copy method
+title: ExtRemoteTyped::Copy
 author: windows-driver-content
 description: The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_copy_debug_typed_data.htm
 old-project: debugger
 ms.assetid: bfeafa09-49b7-45b3-84d8-afad5f43b78e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: Copy method [Windows Debugging], Copy method [Windows Debugging], ExtRemoteTyped class, Copy,ExtRemoteTyped.Copy, ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], Copy method, ExtRemoteTyped::Copy, debugger.extremotetyped_copy_debug_typed_data
+ms.date: 4/24/2018
+ms.keywords: Copy, Copy method [Windows Debugging], Copy method [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped class [Windows Debugging],Copy method, ExtRemoteTyped.Copy, ExtRemoteTyped.Copy(const DEBUG_TYPED_DATA*), ExtRemoteTyped::Copy, debugger.extremotetyped_copy_debug_typed_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteTyped.Copy
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTyped::Copy method
+# ExtRemoteTyped::Copy
 
 
 ## -description
 
 
-The <b>Copy</b> method sets the typed data represented by the <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a> object by copying the information from another object.
-
-
-## -syntax
-
-
-````
-void Copy(
-  [in] const DEBUG_TYPED_DATA *Typed
-);
-````
+The <b>Copy</b> method sets the typed data represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a> object by copying the information from another object.
 
 
 ## -parameters
@@ -85,27 +76,26 @@ This method does not return a value.
 
 
 
-The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">ExtRemoteTyped::Copy ExtRemoteTyped</a> method.
+The typed data can also be copied using the <a href="https://msdn.microsoft.com/7cc91411-3332-4a33-8873-832f71fd3281">ExtRemoteTyped::Copy ExtRemoteTyped</a> method.
 
 
 
 
 ## -see-also
 
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
 
 
 
 <a href="https://msdn.microsoft.com/f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8">ExtRemoteTyped::operator=</a>
-
-
-
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
  
 
  
-
 

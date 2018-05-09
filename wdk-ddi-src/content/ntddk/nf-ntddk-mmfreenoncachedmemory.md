@@ -7,7 +7,7 @@ old-location: kernel\mmfreenoncachedmemory.htm
 old-project: kernel
 ms.assetid: 284c7e69-50c6-4eef-bcf1-547bc7032a4a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: MmFreeNonCachedMemory, MmFreeNonCachedMemory routine [Kernel-Mode Driver Architecture], k106_29c317c1-955e-4d0c-9e65-e1aa511c7a8d.xml, kernel.mmfreenoncachedmemory, ntddk/MmFreeNonCachedMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	MmFreeNonCachedMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # MmFreeNonCachedMemory function
@@ -49,18 +50,7 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ## -description
 
 
-The <b>MmFreeNonCachedMemory</b> routine releases a range of noncached memory that was allocated by the <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a> routine. 
-
-
-## -syntax
-
-
-````
-VOID MmFreeNonCachedMemory(
-  _In_ PVOID  BaseAddress,
-  _In_ SIZE_T NumberOfBytes
-);
-````
+The <b>MmFreeNonCachedMemory</b> routine releases a range of noncached memory that was allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554479">MmAllocateNonCachedMemory</a> routine. 
 
 
 ## -parameters
@@ -91,19 +81,18 @@ None
 
 
 
-The <b>MmFreeNonCachedMemory</b> routine performs the opposite action of <a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>. 
+The <b>MmFreeNonCachedMemory</b> routine performs the opposite action of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554479">MmAllocateNonCachedMemory</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-mmallocatenoncachedmemory.md">MmAllocateNonCachedMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554479">MmAllocateNonCachedMemory</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\inserttaillist.htm
 old-project: kernel
 ms.assetid: 9eb470c8-ee37-497e-982e-d32b4b9b7348
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: InsertTailList, InsertTailList routine [Kernel-Mode Driver Architecture], k109_8f31d6a6-89a0-440c-9397-2bef61a5878f.xml, kernel.inserttaillist, wdm/InsertTailList
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	InsertTailList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # InsertTailList function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>InsertTailList</b> routine inserts an entry at the tail of a doubly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structures.
-
-
-## -syntax
-
-
-````
-VOID InsertTailList(
-  _Inout_ PLIST_ENTRY ListHead,
-  _Inout_ PLIST_ENTRY Entry
-);
-````
 
 
 ## -parameters
@@ -103,32 +92,33 @@ Callers of <b>InsertTailList</b> can be running at any IRQL. If <b>InsertTailLis
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-insertheadlist.md">InsertHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545402">ExInterlockedInsertTailList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removetaillist.md">RemoveTailList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547820">InsertHeadList</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551789">IsListEmpty</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561032">RemoveHeadList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561036">RemoveTailList</a>
  
 
  
+
 
 

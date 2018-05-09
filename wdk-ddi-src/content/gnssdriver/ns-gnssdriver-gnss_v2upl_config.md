@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_V2UPL_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_V2UPL_CONFIG, *PGNSS_V2UPL_CONFIG
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_V2UPL_CONFIG, *PGNSS_V2UPL_CONFIG
 
 
 This structure contains V2UPL configuration information.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Size;
-  ULONG Version;
-  CHAR  MPC[MAX_SERVER_URL_NAME];
-  CHAR  PDE[MAX_SERVER_URL_NAME];
-  BYTE  ApplicationTypeIndicator_MR;
-} GNSS_V2UPL_CONFIG, *PGNSS_V2UPL_CONFIG;
-````
 
 
 ## -struct-fields

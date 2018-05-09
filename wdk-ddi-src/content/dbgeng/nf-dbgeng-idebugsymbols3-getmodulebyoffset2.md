@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleByOffset2
-title: IDebugSymbols3::GetModuleByOffset2 method
+title: IDebugSymbols3::GetModuleByOffset2
 author: windows-driver-content
 description: The GetModuleByOffset2 method searches through the process's modules for one whose memory allocation includes the specified location.
 old-location: debugger\getmodulebyoffset2.htm
 old-project: debugger
 ms.assetid: 2bb23245-9d5c-4b9d-8f4a-ce5fe552efc2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetModuleByOffset2 method [Windows Debugging], GetModuleByOffset2 method [Windows Debugging], IDebugSymbols3 interface, GetModuleByOffset2,IDebugSymbols3.GetModuleByOffset2, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleByOffset2 method, IDebugSymbols3::GetModuleByOffset2, IDebugSymbols_0eead97d-6ca0-4682-bc06-71df2cf04c69.xml, dbgeng/IDebugSymbols3::GetModuleByOffset2, debugger.getmodulebyoffset2
+ms.date: 4/24/2018
+ms.keywords: GetModuleByOffset2, GetModuleByOffset2 method [Windows Debugging], GetModuleByOffset2 method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleByOffset2 method, IDebugSymbols3.GetModuleByOffset2, IDebugSymbols3::GetModuleByOffset2, IDebugSymbols_0eead97d-6ca0-4682-bc06-71df2cf04c69.xml, dbgeng/IDebugSymbols3::GetModuleByOffset2, debugger.getmodulebyoffset2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetModuleByOffset2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetModuleByOffset2 method
+# IDebugSymbols3::GetModuleByOffset2
 
 
 ## -description
 
 
 The <b>GetModuleByOffset2</b> method searches through the process's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">modules</a> for one whose memory allocation includes the specified location.
-
-
-## -syntax
-
-
-````
-HRESULT GetModuleByOffset2(
-  [in]            ULONG64  Offset,
-  [in]            ULONG    StartIndex,
-  [in]            ULONG    Flags,
-  [out, optional] PULONG   Index,
-  [out, optional] PULONG64 Base
-);
-````
 
 
 ## -parameters
@@ -165,11 +152,10 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547080">GetModuleByIndex</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -177,8 +163,8 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

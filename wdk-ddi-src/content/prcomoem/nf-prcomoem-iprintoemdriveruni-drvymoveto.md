@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemDriverUni.DrvYMoveTo
-title: IPrintOemDriverUni::DrvYMoveTo method
+title: IPrintOemDriverUni::DrvYMoveTo
 author: windows-driver-content
 description: The IPrintOemDriverUni::DrvYMoveTo method is provided by the Unidrv driver so that a rendering plug-in can notify the driver of cursor y-position changes.
 old-location: print\iprintoemdriveruni_drvymoveto.htm
 old-project: print
 ms.assetid: ce9b1622-4c02-4496-82ca-cefa49d531da
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvYMoveTo method [Print Devices], DrvYMoveTo method [Print Devices], IPrintOemDriverUni interface, DrvYMoveTo,IPrintOemDriverUni.DrvYMoveTo, IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], DrvYMoveTo method, IPrintOemDriverUni::DrvYMoveTo, prcomoem/IPrintOemDriverUni::DrvYMoveTo, print.iprintoemdriveruni_drvymoveto, print_unidrv-pscript_rendering_ebfa0991-ad14-4303-9702-2b19962da5e6.xml
+ms.date: 4/20/2018
+ms.keywords: DrvYMoveTo, DrvYMoveTo method [Print Devices], DrvYMoveTo method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvYMoveTo method, IPrintOemDriverUni.DrvYMoveTo, IPrintOemDriverUni::DrvYMoveTo, prcomoem/IPrintOemDriverUni::DrvYMoveTo, print.iprintoemdriveruni_drvymoveto, print_unidrv-pscript_rendering_ebfa0991-ad14-4303-9702-2b19962da5e6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemDriverUni.DrvYMoveTo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemDriverUni::DrvYMoveTo method
+# IPrintOemDriverUni::DrvYMoveTo
 
 
 ## -description
 
 
 The <code>IPrintOemDriverUni::DrvYMoveTo</code> method is provided by the Unidrv driver so that a <a href="https://msdn.microsoft.com/e55ca083-2790-4929-9e5b-6fce49eb0404">rendering plug-in</a> can notify the driver of cursor y-position changes.
-
-
-## -syntax
-
-
-````
-HRESULT DrvYMoveTo(
-        PDEVOBJ pdevobj,
-        INT     y,
-        DWORD   dwFlags,
-  [out] INT     *piResult
-);
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ HRESULT DrvYMoveTo(
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
 
 
 ### -param y

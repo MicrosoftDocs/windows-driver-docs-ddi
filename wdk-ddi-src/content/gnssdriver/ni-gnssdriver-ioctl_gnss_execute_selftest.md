@@ -8,7 +8,7 @@ old-project: gnss
 ms.assetid: EAD10523-FFA0-4B08-BCBD-A20C90A1B8F6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_GNSS_EXECUTE_SELFTEST, IOCTL_GNSS_EXECUTE_SELFTEST control code [Sensor Devices], gnss.ioctl_gnss_execute_selftest, gnssdriver/IOCTL_GNSS_EXECUTE_SELFTEST
+ms.keywords: IOCTL_GNSS_EXECUTE_SELFTEST, IOCTL_GNSS_EXECUTE_SELFTEST control, IOCTL_GNSS_EXECUTE_SELFTEST control code [Sensor Devices], gnss.ioctl_gnss_execute_selftest, gnssdriver/IOCTL_GNSS_EXECUTE_SELFTEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	IOCTL_GNSS_EXECUTE_SELFTEST
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_EXECUTE_SELFTEST IOCTL
@@ -123,7 +124,6 @@ Once the GNSS driver accepts the self test session parameters, validates them an
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -131,14 +131,15 @@ Once the GNSS driver accepts the self test session parameters, validates them an
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

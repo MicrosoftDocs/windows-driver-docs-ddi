@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient.GetRunningProcessSystemIds
-title: IDebugClient::GetRunningProcessSystemIds method
+title: IDebugClient::GetRunningProcessSystemIds
 author: windows-driver-content
 description: The GetRunningProcessSystemIds method returns the process IDs for each running process.
 old-location: debugger\getrunningprocesssystemids.htm
 old-project: debugger
 ms.assetid: 6e7b6d54-e53b-4861-b888-ea63e3859139
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetRunningProcessSystemIds method [Windows Debugging], GetRunningProcessSystemIds method [Windows Debugging], IDebugClient interface, GetRunningProcessSystemIds method [Windows Debugging], IDebugClient2 interface, GetRunningProcessSystemIds method [Windows Debugging], IDebugClient3 interface, GetRunningProcessSystemIds method [Windows Debugging], IDebugClient4 interface, GetRunningProcessSystemIds method [Windows Debugging], IDebugClient5 interface, GetRunningProcessSystemIds,IDebugClient.GetRunningProcessSystemIds, IDebugClient, IDebugClient interface [Windows Debugging], GetRunningProcessSystemIds method, IDebugClient2 interface [Windows Debugging], GetRunningProcessSystemIds method, IDebugClient2::GetRunningProcessSystemIds, IDebugClient3 interface [Windows Debugging], GetRunningProcessSystemIds method, IDebugClient3::GetRunningProcessSystemIds, IDebugClient4 interface [Windows Debugging], GetRunningProcessSystemIds method, IDebugClient4::GetRunningProcessSystemIds, IDebugClient5 interface [Windows Debugging], GetRunningProcessSystemIds method, IDebugClient5::GetRunningProcessSystemIds, IDebugClient::GetRunningProcessSystemIds, IDebugClient_f1eed41f-b746-4eb6-b6db-8eef7ac89d6a.xml, dbgeng/IDebugClient2::GetRunningProcessSystemIds, dbgeng/IDebugClient3::GetRunningProcessSystemIds, dbgeng/IDebugClient4::GetRunningProcessSystemIds, dbgeng/IDebugClient5::GetRunningProcessSystemIds, dbgeng/IDebugClient::GetRunningProcessSystemIds, debugger.getrunningprocesssystemids
+ms.date: 4/24/2018
+ms.keywords: GetRunningProcessSystemIds, GetRunningProcessSystemIds method [Windows Debugging], GetRunningProcessSystemIds method [Windows Debugging],IDebugClient interface, GetRunningProcessSystemIds method [Windows Debugging],IDebugClient2 interface, GetRunningProcessSystemIds method [Windows Debugging],IDebugClient3 interface, GetRunningProcessSystemIds method [Windows Debugging],IDebugClient4 interface, GetRunningProcessSystemIds method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetRunningProcessSystemIds method, IDebugClient.GetRunningProcessSystemIds, IDebugClient2 interface [Windows Debugging],GetRunningProcessSystemIds method, IDebugClient2::GetRunningProcessSystemIds, IDebugClient3 interface [Windows Debugging],GetRunningProcessSystemIds method, IDebugClient3::GetRunningProcessSystemIds, IDebugClient4 interface [Windows Debugging],GetRunningProcessSystemIds method, IDebugClient4::GetRunningProcessSystemIds, IDebugClient5 interface [Windows Debugging],GetRunningProcessSystemIds method, IDebugClient5::GetRunningProcessSystemIds, IDebugClient::GetRunningProcessSystemIds, IDebugClient_f1eed41f-b746-4eb6-b6db-8eef7ac89d6a.xml, dbgeng/IDebugClient2::GetRunningProcessSystemIds, dbgeng/IDebugClient3::GetRunningProcessSystemIds, dbgeng/IDebugClient4::GetRunningProcessSystemIds, dbgeng/IDebugClient5::GetRunningProcessSystemIds, dbgeng/IDebugClient::GetRunningProcessSystemIds, debugger.getrunningprocesssystemids
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,31 +42,19 @@ api_name:
 -	IDebugClient3.GetRunningProcessSystemIds
 -	IDebugClient4.GetRunningProcessSystemIds
 -	IDebugClient5.GetRunningProcessSystemIds
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient::GetRunningProcessSystemIds method
+# IDebugClient::GetRunningProcessSystemIds
 
 
 ## -description
 
 
 The <b>GetRunningProcessSystemIds</b> method returns the process IDs for each running process.
-
-
-## -syntax
-
-
-````
-HRESULT GetRunningProcessSystemIds(
-  [in]            ULONG64 Server,
-  [out, optional] PULONG  Ids,
-  [in]            ULONG   Count,
-  [out, optional] PULONG  ActualCount
-);
-````
 
 
 ## -parameters
@@ -135,6 +123,13 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 
@@ -143,11 +138,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
 
 
 
@@ -155,28 +146,24 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

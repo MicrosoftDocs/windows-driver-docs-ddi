@@ -7,7 +7,7 @@ old-location: storage\sm_getbindingcapability_in.htm
 old-project: storage
 ms.assetid: 9b2d471a-649e-4289-a27a-b78893d8477b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSM_GetBindingCapability_IN, PSM_GetBindingCapability_IN, PSM_GetBindingCapability_IN structure pointer [Storage Devices], SM_GetBindingCapability_IN, SM_GetBindingCapability_IN structure [Storage Devices], _SM_GetBindingCapability_IN, hbapiwmi/PSM_GetBindingCapability_IN, hbapiwmi/SM_GetBindingCapability_IN, storage.sm_getbindingcapability_in, structs-Fibre_0aed53e6-0683-4d6c-94c7-30ee531084ab.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	hbapiwmi.h
 api_name:
 -	SM_GetBindingCapability_IN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SM_GetBindingCapability_IN, *PSM_GetBindingCapability_IN
 ---
@@ -50,17 +51,6 @@ req.typenames: SM_GetBindingCapability_IN, *PSM_GetBindingCapability_IN
 
 
 The SM_GetBindingCapability_IN structure is used to provide input parameters to the SM_GetBindingCapability method.
-
-
-## -syntax
-
-
-````
-typedef struct _SM_GetBindingCapability_IN {
-  UCHAR HbaPortWWN[8];
-  UCHAR DomainPortWWN[8];
-} SM_GetBindingCapability_IN, *PSM_GetBindingCapability_IN;
-````
 
 
 ## -struct-fields

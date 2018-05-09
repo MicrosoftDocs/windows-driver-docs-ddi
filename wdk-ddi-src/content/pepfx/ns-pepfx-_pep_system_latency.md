@@ -7,7 +7,7 @@ old-location: kernel\pep_system_latency.htm
 old-project: kernel
 ms.assetid: 083ACFD8-A8AE-4205-9E25-497D6A3ADBCD
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture], PPEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_SYSTEM_LATENCY, kernel.pep_system_latency, pepfx/PEP_SYSTEM_LATENCY, pepfx/PPEP_SYSTEM_LATENCY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_SYSTEM_LATENCY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_SYSTEM_LATENCY, *PPEP_SYSTEM_LATENCY
 ---
@@ -50,16 +51,6 @@ req.typenames: PEP_SYSTEM_LATENCY, *PPEP_SYSTEM_LATENCY
 
 
 The <b>PEP_SYSTEM_LATENCY</b> structure specifies the new value for the system latency tolerance.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_SYSTEM_LATENCY {
-  ULONGLONG Latency;
-} PEP_SYSTEM_LATENCY, *PPEP_SYSTEM_LATENCY;
-````
 
 
 ## -struct-fields
@@ -83,12 +74,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186856">PEP_DPM_SYSTEM_LATENCY_UPDATE</a>
-
-
-
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSymbolEntriesByNameWide
-title: IDebugSymbols3::GetSymbolEntriesByNameWide method
+title: IDebugSymbols3::GetSymbolEntriesByNameWide
 author: windows-driver-content
 description: The GetSymbolEntriesByNameWide method returns the symbols whose names match a given pattern.
 old-location: debugger\getsymbolentriesbynamewide.htm
 old-project: debugger
 ms.assetid: 90f02bfa-58dc-4499-985f-a60336eee341
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetSymbolEntriesByNameWide method [Windows Debugging], GetSymbolEntriesByNameWide method [Windows Debugging], IDebugSymbols3 interface, GetSymbolEntriesByNameWide,IDebugSymbols3.GetSymbolEntriesByNameWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSymbolEntriesByNameWide method, IDebugSymbols3::GetSymbolEntriesByNameWide, dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, debugger.getsymbolentriesbynamewide
+ms.date: 4/24/2018
+ms.keywords: GetSymbolEntriesByNameWide, GetSymbolEntriesByNameWide method [Windows Debugging], GetSymbolEntriesByNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntriesByNameWide method, IDebugSymbols3.GetSymbolEntriesByNameWide, IDebugSymbols3::GetSymbolEntriesByNameWide, dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, debugger.getsymbolentriesbynamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.GetSymbolEntriesByNameWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSymbolEntriesByNameWide method
+# IDebugSymbols3::GetSymbolEntriesByNameWide
 
 
 ## -description
 
 
 The <b>GetSymbolEntriesByNameWide</b>  method returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558824">symbols</a> whose names match a given pattern.
-
-
-## -syntax
-
-
-````
-HRESULT GetSymbolEntriesByNameWide(
-  [in]            PCWSTR               Symbol,
-  [in]            ULONG                Flags,
-  [out, optional] PDEBUG_MODULE_AND_ID Ids,
-  [in]            ULONG                IdsCount,
-  [out, optional] PULONG               Entries
-);
-````
 
 
 ## -parameters
@@ -83,7 +70,7 @@ Set to zero.
 
 ### -param Ids [out, optional]
 
-Receives the symbols.  This is an array of <i>IdsCount</i> entries of type <a href="..\dbgeng\ns-dbgeng-_debug_module_and_id.md">DEBUG_MODULE_AND_ID</a>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
+Receives the symbols.  This is an array of <i>IdsCount</i> entries of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a>.  If <i>Ids</i> is <b>NULL</b>, this information is not returned.
 
 
 ### -param IdsCount [in]
@@ -135,7 +122,6 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -143,8 +129,8 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

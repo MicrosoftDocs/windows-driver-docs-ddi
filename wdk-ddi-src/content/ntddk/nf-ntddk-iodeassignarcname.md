@@ -7,7 +7,7 @@ old-location: kernel\iodeassignarcname.htm
 old-project: kernel
 ms.assetid: 978fbe0a-ac10-4c83-870d-35d98775c233
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoDeassignArcName, IoDeassignArcName routine [Kernel-Mode Driver Architecture], k104_859767ed-5969-41db-a454-b7808a1ef131.xml, kernel.iodeassignarcname, ntddk/IoDeassignArcName
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoDeassignArcName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoDeassignArcName macro
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoDeassignArcName</b> routine removes a symbolic link between the ARC name for a device and the named device object. 
-
-
-## -syntax
-
-
-````
-VOID IoDeassignArcName(
-  _In_ PUNICODE_STRING ArcName
-);
-````
 
 
 ## -parameters
@@ -83,12 +74,11 @@ Pointer to a buffered Unicode string that is the ARC name.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioassignarcname.md">IoAssignArcName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548282">IoAssignArcName</a>
  
 
  
-
 

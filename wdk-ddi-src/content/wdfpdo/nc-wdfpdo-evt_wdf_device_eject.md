@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc3f3a15-9a79-4275-9ba4-b01ab8851390
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_38feba70-59b4-4981-af2d-0fc0fa4ff68a.xml, EVT_WDF_DEVICE_EJECT, EvtDeviceEject, EvtDeviceEject callback function, kmdf.evtdeviceeject, wdf.evtdeviceeject, wdfpdo/EvtDeviceEject
+ms.keywords: DFDeviceObjectFdoPdoRef_38feba70-59b4-4981-af2d-0fc0fa4ff68a.xml, EVT_WDF_DEVICE_EJECT, EVT_WDF_DEVICE_EJECT callback, EvtDeviceEject, EvtDeviceEject callback function, kmdf.evtdeviceeject, wdf.evtdeviceeject, wdfpdo/EvtDeviceEject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	Wdfpdo.h
 api_name:
 -	EvtDeviceEject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DEVICE_EJECT callback
+# EVT_WDF_DEVICE_EJECT callback function
 
 
 ## -description
@@ -53,19 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 A driver's <i>EvtDeviceEject</i> event callback function handles operations that are necessary to eject a device from its docking station.
-
-
-## -prototype
-
-
-````
-EVT_WDF_DEVICE_EJECT EvtDeviceEject;
-
-NTSTATUS EvtDeviceEject(
-  _In_ WDFDEVICE Device
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -93,11 +80,11 @@ For more information about return values, see <a href="https://docs.microsoft.co
 
 
 
-Framework-based bus drivers can provide an <i>EvtDeviceEject</i> callback function. A bus driver must provide an <i>EvtDeviceEject</i> callback function if the driver must perform operations that physically eject one of its enumerated child devices from the device's docking station. To register this callback function, the bus driver must call <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>.
+Framework-based bus drivers can provide an <i>EvtDeviceEject</i> callback function. A bus driver must provide an <i>EvtDeviceEject</i> callback function if the driver must perform operations that physically eject one of its enumerated child devices from the device's docking station. To register this callback function, the bus driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548805">WdfPdoInitSetEventCallbacks</a>.
 
-Before calling the <i>EvtDeviceEject</i> callback function, the framework calls the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a> and <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_release_hardware.md">EvtDeviceReleaseHardware</a> callback functions.
+Before calling the <i>EvtDeviceEject</i> callback function, the framework calls the driver's <a href="https://msdn.microsoft.com/bc3af732-f9ab-43a4-bc6f-7fa0b4c05a66">EvtDeviceD0Exit</a> and <a href="https://msdn.microsoft.com/b4c17e57-688c-4c76-892c-5c8abbf83f20">EvtDeviceReleaseHardware</a> callback functions.
 
-If a driver's <i>EvtDeviceEject</i> callback function returns STATUS_SUCCESS, the framework updates the driver's child list to indicate that the ejected device is no longer available. Therefore the driver does not have to call <a href="..\wdfpdo\nf-wdfpdo-wdfpdomarkmissing.md">WdfPdoMarkMissing</a> or <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistupdatechilddescriptionasmissing.md">WdfChildListUpdateChildDescriptionAsMissing</a>.
+If a driver's <i>EvtDeviceEject</i> callback function returns STATUS_SUCCESS, the framework updates the driver's child list to indicate that the ejected device is no longer available. Therefore the driver does not have to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548809">WdfPdoMarkMissing</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545674">WdfChildListUpdateChildDescriptionAsMissing</a>.
 
 For more information about device ejection, see <a href="https://msdn.microsoft.com/7820bb71-7218-4c5f-af2b-f41e1b5f696d">Supporting Ejectable Devices</a>.
 
@@ -142,12 +129,11 @@ The <b>EVT_WDF_DEVICE_EJECT</b> function type is defined in the Wdfpdo.h header 
 
 ## -see-also
 
-<a href="..\wdfpdo\nc-wdfpdo-evt_wdf_device_set_lock.md">EvtDeviceSetLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/2ac42710-9f44-4982-a0d9-c49048870aeb">EvtDeviceSetLock</a>
  
 
  
-
 

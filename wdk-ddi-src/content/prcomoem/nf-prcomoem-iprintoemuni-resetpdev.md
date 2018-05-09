@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.ResetPDEV
-title: IPrintOemUni::ResetPDEV method
+title: IPrintOemUni::ResetPDEV
 author: windows-driver-content
 description: The IPrintOemUni::ResetPDEV method allows a rendering plug-in for Unidrv to reset its PDEV structure.
 old-location: print\iprintoemuni_resetpdev.htm
 old-project: print
 ms.assetid: 7398a265-56e0-4b40-bfbb-0d72e7309efc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], ResetPDEV method, IPrintOemUni::ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices], IPrintOemUni interface, ResetPDEV,IPrintOemUni.ResetPDEV, prcomoem/IPrintOemUni::ResetPDEV, print.iprintoemuni_resetpdev, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUni interface [Print Devices],ResetPDEV method, IPrintOemUni.ResetPDEV, IPrintOemUni::ResetPDEV, ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::ResetPDEV, print.iprintoemuni_resetpdev, print_unidrv-pscript_rendering_7b938048-0e07-4e06-8f74-ed13f188d210.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintOemUni.ResetPDEV
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::ResetPDEV method
+# IPrintOemUni::ResetPDEV
 
 
 ## -description
 
 
 The <code>IPrintOemUni::ResetPDEV</code> method allows a rendering plug-in for Unidrv to reset its PDEV structure.
-
-
-## -syntax
-
-
-````
-STDMETHOD ResetPDEV(
-   PDEVOBJ pdevobjOld,
-   PDEVOBJ pdevobjNew
-);
-````
 
 
 ## -parameters
@@ -71,7 +60,7 @@ STDMETHOD ResetPDEV(
 
 ### -param pdevobjOld
 
-Caller-supplied pointer to a <a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a> structure containing current PDEV information.
+Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure containing current PDEV information.
 
 
 ### -param pdevobjNew
@@ -135,7 +124,6 @@ The rendering plug-in's private PDEV structure's address is contained in the <b>
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
 
 
 
@@ -143,8 +131,8 @@ The rendering plug-in's private PDEV structure's address is contained in the <b>
 
 
 
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
  
 
  
-
 

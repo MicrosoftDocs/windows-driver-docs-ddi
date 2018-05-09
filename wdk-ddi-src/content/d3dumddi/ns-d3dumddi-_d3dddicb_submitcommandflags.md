@@ -7,7 +7,7 @@ old-location: display\d3dddicb_submitcommandflags.htm
 old-project: display
 ms.assetid: 415255A8-4D43-4677-B4B3-0425D6D57933
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], _D3DDDICB_SUBMITCOMMANDFLAGS, d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDICB_SUBMITCOMMANDFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDICB_SUBMITCOMMANDFLAGS
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DDDICB_SUBMITCOMMANDFLAGS
 
 
 <b>D3DDDICB_SUBMITCOMMANDFLAGS</b> is used to indicate how to process command buffers on contexts that support graphics processing unit (GPU) virtual addressing.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDICB_SUBMITCOMMANDFLAGS {
-  union {
-    struct {
-      UINT NullRendering  :1;
-      UINT Reserved  :31;
-    };
-    UINT   Value;
-  };
-} D3DDDICB_SUBMITCOMMANDFLAGS;
-````
 
 
 ## -struct-fields
@@ -90,7 +75,7 @@ This member is reserved and should be set to zero.
 Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 The consolidated value of the bit-field members in this structure.
 

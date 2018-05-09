@@ -7,7 +7,7 @@ old-location: kernel\zwlockfile.htm
 old-project: kernel
 ms.assetid: d5d4d13c-93d9-4531-85ff-d3fa0e52ecc1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: NtLockFile, ZwLockFile, ZwLockFile routine [Kernel-Mode Driver Architecture], k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml, kernel.zwlockfile, ntifs/NtLockFile, ntifs/ZwLockFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 api_name:
 -	ZwLockFile
 -	NtLockFile
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # NtLockFile function
@@ -51,25 +52,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>ZwLockFile</b> routine requests a byte-range lock for the specified file.
-
-
-## -syntax
-
-
-````
-NTSTATUS ZwLockFile(
-  _In_     HANDLE           FileHandle,
-  _In_opt_ HANDLE           Event,
-  _In_opt_ PIO_APC_ROUTINE  ApcRoutine,
-  _In_opt_ PVOID            ApcContext,
-  _Out_    PIO_STATUS_BLOCK IoStatusBlock,
-  _In_     PLARGE_INTEGER   ByteOffset,
-  _In_     PLARGE_INTEGER   Length,
-  _In_     ULONG            Key,
-  _In_     BOOLEAN          FailImmediately,
-  _In_     BOOLEAN          ExclusiveLock
-);
-````
 
 
 ## -parameters
@@ -99,7 +81,7 @@ A pointer to a caller-specified context for the APC routine. This value is passe
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that contains the final status.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that contains the final status.
 
 
 ### -param ByteOffset [in]
@@ -181,7 +163,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwunlockfile.md">ZwUnlockFile</a>
 
 
 
@@ -189,8 +170,8 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567118">ZwUnlockFile</a>
  
 
  
-
 

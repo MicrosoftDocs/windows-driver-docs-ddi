@@ -7,7 +7,7 @@ old-location: image\io_block_ex.htm
 old-project: image
 ms.assetid: 2474a49b-e275-4b4d-b762-c296b92bab4c
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PIO_BLOCK_EX, IO_BLOCK_EX, IO_BLOCK_EX structure [Imaging Devices], PIO_BLOCK_EX, PIO_BLOCK_EX structure pointer [Imaging Devices], _IO_BLOCK_EX, image.io_block_ex, stifnc_6b21356d-4f1a-4b8d-a54e-767f46e5b1b3.xml, usbscan/IO_BLOCK_EX, usbscan/PIO_BLOCK_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	usbscan.h
 api_name:
 -	IO_BLOCK_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_BLOCK_EX, *PIO_BLOCK_EX
-req.product: Windows 10 or later.
 ---
 
 # _IO_BLOCK_EX structure
@@ -50,23 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The IO_BLOCK_EX structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_send_usb_request.md">IOCTL_SEND_USB_REQUEST</a>. Values contained in structure members are used to create a USB Device Request (described in the <i>Universal Serial Bus Specification</i>).
-
-
-## -syntax
-
-
-````
-typedef struct _IO_BLOCK_EX {
-  unsigned uOffset;
-  unsigned uLength;
-  PUCHAR   pbyData;
-  unsigned uIndex;
-  UCHAR    bRequest;
-  UCHAR    bmRequestType;
-  UCHAR    fTransferDirectionIn;
-} IO_BLOCK_EX, *PIO_BLOCK_EX;
-````
+The IO_BLOCK_EX structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542900">IOCTL_SEND_USB_REQUEST</a>. Values contained in structure members are used to create a USB Device Request (described in the <i>Universal Serial Bus Specification</i>).
 
 
 ## -struct-fields

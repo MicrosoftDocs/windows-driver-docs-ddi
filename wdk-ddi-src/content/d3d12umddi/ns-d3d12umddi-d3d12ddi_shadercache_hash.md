@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_shadercache_hash.htm
 old-project: display
 ms.assetid: 30ACE58C-E10C-46D7-8ED5-5C693D6246CB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_SHADERCACHE_HASH, D3D12DDI_SHADERCACHE_HASH structure [Display Devices], d3d12umddi/D3D12DDI_SHADERCACHE_HASH, display.d3d12ddi_shadercache_hash
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_SHADERCACHE_HASH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_SHADERCACHE_HASH
 ---
@@ -50,16 +51,6 @@ req.typenames: D3D12DDI_SHADERCACHE_HASH
 
 
 Includes a hash value. 
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_SHADERCACHE_HASH {
-  BYTE Hash[16];
-} D3D12DDI_SHADERCACHE_HASH;
-````
 
 
 ## -struct-fields

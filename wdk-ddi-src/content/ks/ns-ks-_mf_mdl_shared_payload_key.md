@@ -7,7 +7,7 @@ old-location: stream\mf_mdl_shared_payload_key.htm
 old-project: stream
 ms.assetid: 3EA093AB-1D23-4744-997E-8C7072934628
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PMF_MDL_SHARED_PAYLOAD_KEY, MF_MDL_SHARED_PAYLOAD_KEY, MF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], PMF_MDL_SHARED_PAYLOAD_KEY, PMF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], _MF_MDL_SHARED_PAYLOAD_KEY, ks/MF_MDL_SHARED_PAYLOAD_KEY, ks/PMF_MDL_SHARED_PAYLOAD_KEY, stream.mf_mdl_shared_payload_key"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	MF_MDL_SHARED_PAYLOAD_KEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MF_MDL_SHARED_PAYLOAD_KEY, *PMF_MDL_SHARED_PAYLOAD_KEY
 ---
@@ -52,21 +53,6 @@ req.typenames: MF_MDL_SHARED_PAYLOAD_KEY, *PMF_MDL_SHARED_PAYLOAD_KEY
 This union is used internally by the operating system.
 
 
-## -syntax
-
-
-````
-typedef union _MF_MDL_SHARED_PAYLOAD_KEY {
-  struct {
-    ULONG   pHandle;
-    ULONG   fHandle;
-    ULONG64 uPayload;
-  } combined;
-  GUID   GMDLHandle;
-} MF_MDL_SHARED_PAYLOAD_KEY, PMF_MDL_SHARED_PAYLOAD_KEY;
-````
-
-
 ## -struct-fields
 
 
@@ -77,20 +63,17 @@ typedef union _MF_MDL_SHARED_PAYLOAD_KEY {
 This member is used internally by the operating system.
 
 
-
-#### pHandle
-
-This member is used internally by the operating system.
-
-
-
-#### fHandle
+### -field combined.pHandle
 
 This member is used internally by the operating system.
 
 
+### -field combined.fHandle
 
-#### uPayload
+This member is used internally by the operating system.
+
+
+### -field combined.uPayload
 
 This member is used internally by the operating system.
 

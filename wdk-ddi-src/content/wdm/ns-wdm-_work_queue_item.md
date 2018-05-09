@@ -7,7 +7,7 @@ old-location: ifsk\work_queue_item.htm
 old-project: ifsk
 ms.assetid: 068ac200-55bb-4d7b-bc69-ad57d466a36b
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PWORK_QUEUE_ITEM, PWORK_QUEUE_ITEM, PWORK_QUEUE_ITEM structure pointer [Installable File System Drivers], WORK_QUEUE_ITEM, WORK_QUEUE_ITEM structure [Installable File System Drivers], _WORK_QUEUE_ITEM, ifsk.work_queue_item, othersystemstructures_52486f79-e8f4-4fb3-9b41-564bbd78f5d5.xml, wdm/PWORK_QUEUE_ITEM, wdm/WORK_QUEUE_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	WORK_QUEUE_ITEM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
-req.product: Windows 10 or later.
 ---
 
 # _WORK_QUEUE_ITEM structure
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WORK_QUEUE_ITEM structure is used to post a work items to a system work queue. <i>Use this structure with extreme caution. (See the following </i><b>Remarks</b><i> section.)</i>
-
-
-## -syntax
-
-
-````
-typedef struct _WORK_QUEUE_ITEM {
-  LIST_ENTRY             List;
-  PWORKER_THREAD_ROUTINE WorkerRoutine;
-  volatile PVOID         Parameter;
-} WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM;
-````
 
 
 ## -struct-fields
@@ -110,39 +98,38 @@ Pointer to context information to be passed to the callback routine specified in
 
 
 
-To initialize a WORK_QUEUE_ITEM structure, call <a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>. 
+To initialize a WORK_QUEUE_ITEM structure, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545327">ExInitializeWorkItem</a>. 
 
-To post the initialized work item to a system work queue, call <a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>. 
+To post the initialized work item to a system work queue, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540216">ExQueueWorkItem</a>. 
 
-<b>ExInitializeWorkItem</b><i> and </i><b>ExQueueWorkItem</b><i> can only be used in cases where the specified work item is not associated with any device object or device stack. In all other cases, drivers should use </i><a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a><i>, </i><a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a><i>, and </i><a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a><i>, because only these routines ensure that the device object associated with the specified work item remains available until the work item has been processed. </i>
+<b>ExInitializeWorkItem</b><i> and </i><b>ExQueueWorkItem</b><i> can only be used in cases where the specified work item is not associated with any device object or device stack. In all other cases, drivers should use </i><a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a><i>, </i><a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a><i>, and </i><a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a><i>, because only these routines ensure that the device object associated with the specified work item remains available until the work item has been processed. </i>
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinitializeworkitem.md">ExInitializeWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545327">ExInitializeWorkItem</a>
 
 
 
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540216">ExQueueWorkItem</a>
 
 
 
-<a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a>
  
 
  
-
 

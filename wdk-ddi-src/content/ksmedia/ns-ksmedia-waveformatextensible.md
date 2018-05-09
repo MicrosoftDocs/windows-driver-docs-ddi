@@ -7,7 +7,7 @@ old-location: audio\waveformatextensible.htm
 old-project: audio
 ms.assetid: 54bcb18e-df4b-471c-b121-4db75ce5c49b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, audio.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	WAVEFORMATEXTENSIBLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
 ---
@@ -50,23 +51,6 @@ req.typenames: WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE
 
 
 The WAVEFORMATEXTENSIBLE structure specifies the format of an audio wave stream.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  WAVEFORMATEX Format;
-  union {
-    WORD wValidBitsPerSample;
-    WORD wSamplesPerBlock;
-    WORD wReserved;
-  } Samples;
-  DWORD        dwChannelMask;
-  GUID         SubFormat;
-} WAVEFORMATEXTENSIBLE, *PWAVEFORMATEXTENSIBLE;
-````
 
 
 ## -struct-fields
@@ -82,27 +66,24 @@ Specifies the stream's wave-data format. This member is a structure of type <a h
 ### -field Samples
 
 
-
-#### wValidBitsPerSample
+### -field Samples.wValidBitsPerSample
 
 Specifies the precision of the sample in bits. The value of this member should be less than or equal to the container size specified in the <b>Format</b>.<b>wBitsPerSample</b> member. For more information, see the following Remarks section.
 
 
-
-#### wSamplesPerBlock
+### -field Samples.wSamplesPerBlock
 
 Specifies the number of samples contained in one compressed block. This value is useful for estimating buffer requirements for compressed formats that have a fixed number of samples within each block. Set this member to zero if each block of compressed audio data contains a variable number of samples. In this case, buffer-estimation and buffer-position information must be obtained in other ways.
 
 
-
-#### wReserved
+### -field Samples.wReserved
 
 Reserved for internal use by operating system. Initialize to zero.
 
 
 ### -field dwChannelMask
 
-Specifies the assignment of channels in the multichannel stream to speaker positions. The encoding is the same as that used for the <b>ActiveSpeakerPositions</b> member of the <a href="..\ksmedia\ns-ksmedia-ksaudio_channel_config.md">KSAUDIO_CHANNEL_CONFIG</a> structure. For more information, see the following Remarks section.
+Specifies the assignment of channels in the multichannel stream to speaker positions. The encoding is the same as that used for the <b>ActiveSpeakerPositions</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537083">KSAUDIO_CHANNEL_CONFIG</a> structure. For more information, see the following Remarks section.
 
 
 ### -field SubFormat
@@ -334,7 +315,7 @@ KSAUDIO_SPEAKER_7POINT1
 
 KSAUDIO_SPEAKER_DIRECTOUT
 
-A hardware device can be set to one of these speaker configurations by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>set-property request. For more information about setting speaker configurations, see <a href="..\ksmedia\ns-ksmedia-ksaudio_channel_config.md">KSAUDIO_CHANNEL_CONFIG</a>.
+A hardware device can be set to one of these speaker configurations by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>set-property request. For more information about setting speaker configurations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537083">KSAUDIO_CHANNEL_CONFIG</a>.
 
 Typically, the count in <b>nChannels</b> equals the number of bits set in <b>dwChannelMask</b>, but this is not necessarily so. If <b>nChannels</b> is less than the number of bits set in <b>dwChannelMask</b>, the extra (most significant) bits in <b>dwChannelMask</b> are ignored. If <b>nChannels</b> exceeds the number of bits set in <b>dwChannelMask</b>, the channels that have no corresponding mask bits are not assigned to any physical speaker position. In any speaker configuration other than KSAUDIO_SPEAKER_DIRECTOUT, an audio sink like KMixer (see <a href="https://msdn.microsoft.com/827997e2-6f07-4635-ac35-4ad026b82eae">KMixer System Driver</a>) simply ignores these excess channels and mixes only the channels that have corresponding mask bits.
 
@@ -427,16 +408,15 @@ Because WAVEFORMATEXTENSIBLE is an extended version of WAVEFORMATEX, it can desc
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksaudio_channel_config.md">KSAUDIO_CHANNEL_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537083">KSAUDIO_CHANNEL_CONFIG</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
-
-
-
  
 
  
-
 

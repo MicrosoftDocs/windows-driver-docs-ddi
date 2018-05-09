@@ -7,7 +7,7 @@ old-location: display\dxvaddi_pvp_hw_iv.htm
 old-project: display
 ms.assetid: 8ba29a38-1bf9-47a9-8da6-1f92eb8e8733
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_c4bb4df0-ed9d-494e-84ff-fcd8e68aac36.xml, DXVADDI_PVP_HW_IV, DXVADDI_PVP_HW_IV structure [Display Devices], _DXVADDI_PVP_HW_IV, d3dumddi/DXVADDI_PVP_HW_IV, display.dxvaddi_pvp_hw_iv
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVADDI_PVP_HW_IV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVADDI_PVP_HW_IV
 ---
@@ -50,17 +51,6 @@ req.typenames: DXVADDI_PVP_HW_IV
 
 
 The DXVADDI_PVP_HW_IV structure contains two 64-bit values that combine to form a 128-bit protected video path (PVP) value.
-
-
-## -syntax
-
-
-````
-typedef struct _DXVADDI_PVP_HW_IV {
-  ULONGLONG IV;
-  ULONGLONG Count;
-} DXVADDI_PVP_HW_IV;
-````
 
 
 ## -struct-fields
@@ -80,16 +70,15 @@ typedef struct _DXVADDI_PVP_HW_IV {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_decodebufferdesc.md">DXVADDI_DECODEBUFFERDESC</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodeexecute.md">DecodeExecute</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562896">DXVADDI_DECODEBUFFERDESC</a>
 
 
 
+<a href="https://msdn.microsoft.com/e12496c0-e3e4-437e-9f84-a30ee99b4541">DecodeExecute</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\rtltestbit.htm
 old-project: kernel
 ms.assetid: 52f892a8-e82d-465d-aef5-630f5e971e8f
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlTestBit, RtlTestBit routine [Kernel-Mode Driver Architecture], k109_552764bc-c69d-4039-8284-8cc8f41dc16a.xml, kernel.rtltestbit, wdm/RtlTestBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlTestBit
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlTestBit function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>RtlTestBit</b> routine returns the value of a bit in a bitmap. 
 
 
-## -syntax
-
-
-````
-BOOLEAN RtlTestBit(
-  _In_ PRTL_BITMAP BitMapHeader,
-  _In_ ULONG       BitNumber
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ BOOLEAN RtlTestBit(
 
 ### -param BitMapHeader [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a> routine. 
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a> routine. 
 
 
 ### -param BitNumber [in]
@@ -99,16 +88,15 @@ Callers of <b>RtlTestBit</b> must be running at IRQL &lt;= APC_LEVEL if the memo
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a>
  
 
  
-
 

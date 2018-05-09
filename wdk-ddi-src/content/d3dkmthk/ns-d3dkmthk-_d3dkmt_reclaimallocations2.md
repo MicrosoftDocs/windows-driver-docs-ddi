@@ -7,7 +7,7 @@ old-location: display\d3dkmt_reclaimallocations2.htm
 old-project: display
 ms.assetid: 7980F1FD-D7C2-4C74-8652-89FD38BE4D1F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS2, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_RECLAIMALLOCATIONS2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_RECLAIMALLOCATIONS2
 ---
@@ -49,25 +50,7 @@ req.typenames: D3DKMT_RECLAIMALLOCATIONS2
 ## -description
 
 
-<b>D3DKMT_RECLAIMALLOCATIONS2</b> describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreclaimallocations2.md">D3DKMTReclaimAllocations2</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_RECLAIMALLOCATIONS2 {
-  D3DKMT_HANDLE       hPagingQueue;
-  UINT                NumAllocations;
-  D3DKMT_HANDLE       *pResources;
-  const D3DKMT_HANDLE *HandleList;
-  union {
-    BOOL                   *pDiscarded;
-    D3DDDI_RECLAIM_RESULT* pResults;
-  };
-  UINT64              PagingFenceValue;
-} D3DKMT_RECLAIMALLOCATIONS2;
-````
+<b>D3DKMT_RECLAIMALLOCATIONS2</b> describes video memory resources that are to be reclaimed and that the driver  previously offered  for reuse. Used with the  <a href="https://msdn.microsoft.com/library/windows/hardware/dn906780">D3DKMTReclaimAllocations2</a> function.
 
 
 ## -struct-fields
@@ -97,6 +80,11 @@ typedef struct _D3DKMT_RECLAIMALLOCATIONS2 {
 If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b>NULL</b>.
 
 
+### -field pResults
+
+[in] Required array of values specifying whether the surface is valid, discarded, or list commitment.
+
+
 ### -field pDiscarded
 
 [out] Optional array of boolean variables  specifying whether each resource or allocation was discarded.
@@ -105,9 +93,4 @@ If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b
 ### -field PagingFenceValue
 
 The paging fence to synchronize against before submitting work to the GPU which references any of the resources or allocations in the provided arrays.
-
-
-#### - pResults
-
-[in] Required array of values specifying whether the surface is valid, discarded, or list commitment.
 

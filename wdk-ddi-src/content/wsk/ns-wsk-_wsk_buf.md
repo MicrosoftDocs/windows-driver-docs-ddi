@@ -7,7 +7,7 @@ old-location: netvista\wsk_buf.htm
 old-project: netvista
 ms.assetid: bef653d3-5de3-4af3-8c1f-cff55619e2e9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWSK_BUF, PWSK_BUF, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], WSK_BUF, WSK_BUF structure [Network Drivers Starting with Windows Vista], _WSK_BUF, netvista.wsk_buf, wsk/PWSK_BUF, wsk/WSK_BUF, wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wsk.h
 api_name:
 -	WSK_BUF
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WSK_BUF, *PWSK_BUF
-req.product: Windows 10 or later.
 ---
 
 # _WSK_BUF structure
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 The WSK_BUF structure defines a data buffer that is used for sending and receiving data over a
   socket.
-
-
-## -syntax
-
-
-````
-typedef struct _WSK_BUF {
-  PMDL   Mdl;
-  ULONG  Offset;
-  SIZE_T Length;
-} WSK_BUF, *PWSK_BUF;
-````
 
 
 ## -struct-fields
@@ -97,8 +85,8 @@ When a WSK_BUF structure is used to describe a buffer for receiving data from a 
      specifies the maximum number of bytes to be received into the MDL (or MDL chain).
 
 When a WSK_BUF structure is contained within either a 
-     <a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a> structure or a 
-     <a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a> structure,
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571165">WSK_DATA_INDICATION</a> structure or a 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571164">WSK_DATAGRAM_INDICATION</a> structure,
      this member specifies the number of bytes of received data in the MDL (or MDL chain).
 
 
@@ -110,7 +98,7 @@ Each MDL in the MDL chain that is pointed to by the
     <b>Mdl</b> member describes memory that is either locked or from non-paged pool.
 
 When a WSK application passes a pointer to a WSK_BUF structure to the 
-    <a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a> function, the application can
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571139">WskReceive</a> function, the application can
     specify zero for the 
     <b>Length</b> member of the structure. In that situation, the 
     <b>Mdl</b> member can be <b>NULL</b> because no data will be copied into the buffer.
@@ -120,36 +108,35 @@ When a WSK application passes a pointer to a WSK_BUF structure to the
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_datagram_indication.md">WSK_DATAGRAM_INDICATION</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from.md">WskReceiveFrom</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571164">WSK_DATAGRAM_INDICATION</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571165">WSK_DATA_INDICATION</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571129">WskDisconnect</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571139">WskReceive</a>
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571141">WskReceiveFrom</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571146">WskSend</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571148">WskSendTo</a>
  
 
  
-
 

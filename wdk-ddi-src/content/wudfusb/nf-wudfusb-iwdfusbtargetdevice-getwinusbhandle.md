@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.GetWinUsbHandle
-title: IWDFUsbTargetDevice::GetWinUsbHandle method
+title: IWDFUsbTargetDevice::GetWinUsbHandle
 author: windows-driver-content
 description: The GetWinUsbHandle method retrieves the WinUsb interface handle that is associated with a I/O target device object.
 old-location: wdf\iwdfusbtargetdevice_getwinusbhandle.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 458cbe27-be75-49f4-9849-969d881e0cd2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetWinUsbHandle method, GetWinUsbHandle method, IWDFUsbTargetDevice interface, GetWinUsbHandle,IWDFUsbTargetDevice.GetWinUsbHandle, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, GetWinUsbHandle method, IWDFUsbTargetDevice::GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, umdf.iwdfusbtargetdevice_getwinusbhandle, wdf.iwdfusbtargetdevice_getwinusbhandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle
+ms.keywords: GetWinUsbHandle, GetWinUsbHandle method, GetWinUsbHandle method,IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface,GetWinUsbHandle method, IWDFUsbTargetDevice.GetWinUsbHandle, IWDFUsbTargetDevice::GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, umdf.iwdfusbtargetdevice_getwinusbhandle, wdf.iwdfusbtargetdevice_getwinusbhandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFUsbTargetDevice.GetWinUsbHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetDevice::GetWinUsbHandle method
+# IWDFUsbTargetDevice::GetWinUsbHandle
 
 
 ## -description
@@ -53,14 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetWinUsbHandle</b> method retrieves the WinUsb interface handle that is associated with a I/O target device object.
-
-
-## -syntax
-
-
-````
-WINUSB_INTERFACE_HANDLE GetWinUsbHandle();
-````
 
 
 ## -parameters
@@ -94,20 +86,19 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540233">WinUsb_Free</a>
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
-
-
-
  
 
  
-
 

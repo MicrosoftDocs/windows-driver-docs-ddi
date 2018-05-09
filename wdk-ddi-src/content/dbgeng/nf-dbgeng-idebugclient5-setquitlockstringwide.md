@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetQuitLockStringWide
-title: IDebugClient5::SetQuitLockStringWide method
+title: IDebugClient5::SetQuitLockStringWide
 author: windows-driver-content
 description: Sets a quit lock Unicode character string.
 old-location: debugger\idebugclient5_setquitlockstringwide.htm
 old-project: debugger
 ms.assetid: B9A2C636-BF18-4D1B-A013-8CAE65FCC56F
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], SetQuitLockStringWide method, IDebugClient5::SetQuitLockStringWide, SetQuitLockStringWide method [Windows Debugging], SetQuitLockStringWide method [Windows Debugging], IDebugClient5 interface, SetQuitLockStringWide,IDebugClient5.SetQuitLockStringWide, dbgeng/IDebugClient5::SetQuitLockStringWide, debugger.idebugclient5_setquitlockstringwide
+ms.date: 4/24/2018
+ms.keywords: IDebugClient5 interface [Windows Debugging],SetQuitLockStringWide method, IDebugClient5.SetQuitLockStringWide, IDebugClient5::SetQuitLockStringWide, SetQuitLockStringWide, SetQuitLockStringWide method [Windows Debugging], SetQuitLockStringWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetQuitLockStringWide, debugger.idebugclient5_setquitlockstringwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient5.SetQuitLockStringWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::SetQuitLockStringWide method
+# IDebugClient5::SetQuitLockStringWide
 
 
 ## -description
 
 
 Sets a quit lock Unicode character string. 
-
-
-## -syntax
-
-
-````
-HRESULT SetQuitLockStringWide(
-  [in] PCWSTR String
-);
-````
 
 
 ## -parameters
@@ -93,12 +84,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

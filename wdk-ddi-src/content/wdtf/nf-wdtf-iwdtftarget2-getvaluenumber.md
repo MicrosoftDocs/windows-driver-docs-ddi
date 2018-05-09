@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueNumber
-title: IWDTFTarget2::GetValueNumber method
+title: IWDTFTarget2::GetValueNumber
 author: windows-driver-content
 description: Returns a number value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluenumber.htm
 old-project: dtf
 ms.assetid: 16f0e9be-129a-4d7d-94c8-bd27ec010b26
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: GetValueNumber method [Windows Device Testing Framework], GetValueNumber method [Windows Device Testing Framework], IWDTFTarget2 interface, GetValueNumber,IWDTFTarget2.GetValueNumber, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueNumber method, IWDTFTarget2::GetValueNumber, Microsoft.WDTF.IWDTFTarget2.GetValueNumber, Microsoft::WDTF::IWDTFTarget2::GetValueNumber, dtf.iwdtftarget2_getvaluenumber, wdtf/IWDTFTarget2::GetValueNumber
+ms.date: 4/4/2018
+ms.keywords: GetValueNumber, GetValueNumber method [Windows Device Testing Framework], GetValueNumber method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueNumber method, IWDTFTarget2.GetValueNumber, IWDTFTarget2::GetValueNumber, Microsoft.WDTF.IWDTFTarget2.GetValueNumber, Microsoft::WDTF::IWDTFTarget2::GetValueNumber, dtf.iwdtftarget2_getvaluenumber, wdtf/IWDTFTarget2::GetValueNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFTarget2.GetValueNumber
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTarget2::GetValueNumber method
+# IWDTFTarget2::GetValueNumber
 
 
 ## -description
 
 
 Returns a number value from the target that is associated with a specified attribute.
-
-
-## -syntax
-
-
-````
-HRESULT GetValueNumber(
-  [in]          BSTR SDEL,
-  [out, retval] LONG *pValue
-);
-````
 
 
 ## -parameters
@@ -103,12 +92,11 @@ to work properly.
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
  
 
  
-
 

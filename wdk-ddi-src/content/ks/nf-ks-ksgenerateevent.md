@@ -7,7 +7,7 @@ old-location: stream\ksgenerateevent.htm
 old-project: stream
 ms.assetid: 4f142e5f-7d8a-47e0-8757-8c6e527a2472
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGenerateEvent, KsGenerateEvent function [Streaming Media Devices], ks/KsGenerateEvent, ksfunc_929fd3d4-2f02-4106-b8cd-25c3fb13ba05.xml, stream.ksgenerateevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGenerateEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The <b>KsGenerateEvent</b> function generates a standard event notification given an event entry structure.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsGenerateEvent(
-  _In_ PKSEVENT_ENTRY EventEntry
-);
-````
 
 
 ## -parameters
@@ -86,31 +77,30 @@ The <b>KsGenerateEvent</b> function returns STATUS_SUCCESS if successful, or if 
 
 
 
-A device determines when event notifications are generated using the <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> structure, then uses this function to perform the actual notification. <b>KsGenerateEvent</b> can be called at any IRQL. If called above DISPATCH_LEVEL, signaling of the event will be performed asynchronously in a DPC.
+A device determines when event notifications are generated using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a> structure, then uses this function to perform the actual notification. <b>KsGenerateEvent</b> can be called at any IRQL. If called above DISPATCH_LEVEL, signaling of the event will be performed asynchronously in a DPC.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562525">KsFilterAddEvent</a>
 
 
 
-<a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562541">KsFilterGenerateEvents</a>
 
 
 
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563490">KsPinAddEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563500">KsPinGenerateEvents</a>
  
 
  
-
 

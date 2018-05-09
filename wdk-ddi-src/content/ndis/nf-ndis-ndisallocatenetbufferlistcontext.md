@@ -7,7 +7,7 @@ old-location: netvista\ndisallocatenetbufferlistcontext.htm
 old-project: netvista
 ms.assetid: 3bbad723-86bf-4206-9e51-52a66efaec20
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisAllocateNetBufferListContext, NdisAllocateNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferListContext, ndis_netbuf_functions_ref_f421f804-e12d-43ba-81ed-d5322712faf5.xml, netvista.ndisallocatenetbufferlistcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisAllocateNetBufferListContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisAllocateNetBufferListContext function
@@ -52,22 +53,9 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Call the 
   <b>NdisAllocateNetBufferListContext</b> function to allocate more context space in the 
-  <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a> structure of a
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a> structure of a
   
-  <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> structure.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisAllocateNetBufferListContext(
-  _In_ PNET_BUFFER_LIST NetBufferList,
-  _In_ USHORT           ContextSize,
-  _In_ USHORT           ContextBackFill,
-  _In_ ULONG            PoolTag
-);
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
 
 
 ## -parameters
@@ -158,7 +146,7 @@ A kernel pool tag that NDIS uses to allocate the memory for the NET_BUFFER_LIST_
 
 
 If there is enough unused context space available in the 
-    <a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a> structure to
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a> structure to
     satisfy the request, 
     <b>NdisAllocateNetBufferListContext</b> simply reduces the value of the 
     <b>Offset</b> member in the NET_BUFFER_LIST_CONTEXT structure. Otherwise, NDIS allocates new memory for
@@ -167,7 +155,7 @@ If there is enough unused context space available in the
     <b>NdisAllocateNetBufferListContext</b> does not have to allocate memory.
 
 Call the 
-    <a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">
+    <a href="https://msdn.microsoft.com/e5554790-a7a2-4c0d-a6ae-585ea909cd3d">
     NdisFreeNetBufferListContext</a> function to release the context space in the NET_BUFFER_LIST_CONTEXT
     structure that was allocated with 
     <b>NdisAllocateNetBufferListContext</b>.
@@ -177,20 +165,19 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">NdisFreeNetBufferListContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562587">NdisFreeNetBufferListContext</a>
  
 
  
-
 

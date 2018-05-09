@@ -7,7 +7,7 @@ old-location: sensors\pedometer_step_type_count.htm
 old-project: sensors
 ms.assetid: BED8C7F8-AF7A-4C82-BDE2-51C4285FF510
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices], PedometerStepTypeCount, sensors.pedometer_step_type_count, sensorsdef/PEDOMETER_STEP_TYPE_COUNT, sensorsdef/PedometerStepTypeCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Sensorsdef.h
 api_name:
 -	PEDOMETER_STEP_TYPE_COUNT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEDOMETER_STEP_TYPE_COUNT
-req.product: Windows 10 or later.
 ---
 
 # PEDOMETER_STEP_TYPE_COUNT enumeration
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 This enumeration represents the number of step types that can be detected by the pedometer.
-
-
-## -syntax
-
-
-````
-typedef enum _PEDOMETER_STEP_TYPE_COUNT { 
-  PedometerStepTypeCount  = 3
-} PEDOMETER_STEP_TYPE_COUNT;
-````
 
 
 ## -enum-fields
@@ -75,12 +65,11 @@ The number of step types that can be detected.
 
 ## -see-also
 
-<a href="..\sensorsdef\ne-sensorsdef-pedometer_step_type.md">PEDOMETER_STEP_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957077">PEDOMETER_STEP_TYPE</a>
  
 
  
-
 

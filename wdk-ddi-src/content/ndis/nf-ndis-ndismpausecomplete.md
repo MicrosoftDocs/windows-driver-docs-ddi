@@ -7,7 +7,7 @@ old-location: netvista\ndismpausecomplete.htm
 old-project: netvista
 ms.assetid: 08a9dccf-53bc-4b96-a794-14ead08a7b0b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMPauseComplete, NdisMPauseComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_1e76f7bc-a042-4a7a-8dc6-0f4cc6f7617f.xml, ndis/NdisMPauseComplete, netvista.ndismpausecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMPauseComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMPauseComplete function
@@ -53,17 +54,7 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 A miniport driver must call the 
   <b>NdisMPauseComplete</b> function to complete a pause operation if the driver returned NDIS_STATUS_PENDING
   from its 
-  <a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisMPauseComplete(
-  _In_ NDIS_HANDLE MiniportAdapterHandle
-);
-````
+  <a href="https://msdn.microsoft.com/047241a5-6f52-4a82-a334-8508f0de5e1a">MiniportPause</a> function.
 
 
 ## -parameters
@@ -75,7 +66,7 @@ VOID NdisMPauseComplete(
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>.
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 
 ## -returns
@@ -92,7 +83,7 @@ None
 
 
 NDIS calls a miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a> function to initiate a
+    <a href="https://msdn.microsoft.com/047241a5-6f52-4a82-a334-8508f0de5e1a">MiniportPause</a> function to initiate a
     pause request for a miniport adapter. The miniport adapter remains in the 
     <i>Pausing</i> state until the pause operation is complete.
 
@@ -103,7 +94,7 @@ After a miniport driver completes all outstanding send requests and NDIS returns
     <i>Paused</i> state.
 
 NDIS calls the 
-    <a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a> function to initiate a
+    <a href="https://msdn.microsoft.com/31a18040-2c66-4074-9ace-dd604b4bfe22">MiniportRestart</a> function to initiate a
     restart request for a miniport adapter that is paused.
 
 
@@ -111,20 +102,19 @@ NDIS calls the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/047241a5-6f52-4a82-a334-8508f0de5e1a">MiniportPause</a>
 
 
 
+<a href="https://msdn.microsoft.com/31a18040-2c66-4074-9ace-dd604b4bfe22">MiniportRestart</a>
  
 
  
-
 

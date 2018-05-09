@@ -7,8 +7,8 @@ old-location: display\flush.htm
 old-project: display
 ms.assetid: 0c1a9a60-de17-41d1-b31d-c1d3c95d8121
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Flush, Flush callback function [Display Devices], PFND3DDDI_FLUSH, UserModeDisplayDriver_Functions_a39b804f-2f41-473f-8160-4c23655c24ec.xml, d3dumddi/Flush, display.flush
+ms.date: 4/16/2018
+ms.keywords: Flush, Flush callback function [Display Devices], PFND3DDDI_FLUSH, PFND3DDDI_FLUSH callback, UserModeDisplayDriver_Functions_a39b804f-2f41-473f-8160-4c23655c24ec.xml, d3dumddi/Flush, display.flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,31 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	Flush
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_FLUSH callback
+# PFND3DDDI_FLUSH callback function
 
 
 ## -description
 
 
 The <i>Flush</i> function submits outstanding hardware commands that are in the hardware command buffer to the display miniport driver.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_FLUSH Flush;
-
-__checkReturn HRESULT APIENTRY Flush(
-  _In_ HANDLE hDevice
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -120,23 +108,22 @@ Hardware commands were successfully flushed.
 
 The Microsoft Direct3D runtime can call the user-mode display driver's <i>Flush</i> function at any time to notify the user-mode display driver to submit any outstanding hardware commands that are in the hardware command buffer to the display miniport driver. However, a call to <i>Flush</i> should never cause the user-mode display driver to submit invalid commands to the display miniport driver. 
 
-To submit commands to the display miniport driver, the user-mode display driver's <i>Flush</i> function should typically call the runtime's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a> function.
+To submit commands to the display miniport driver, the user-mode display driver's <i>Flush</i> function should typically call the runtime's <a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>
  
 
  
-
 

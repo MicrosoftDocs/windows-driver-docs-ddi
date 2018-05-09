@@ -7,8 +7,8 @@ old-location: buses\evt_ufx_device_testhook.htm
 old-project: usbref
 ms.assetid: 132DC454-03AC-47F0-A093-3DAEB338B9C5
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: EVT_UFX_DEVICE_TESTHOOK, EvtUfxDeviceTesthook, EvtUfxDeviceTesthook callback function [Buses], buses.evt_ufx_device_testhook, ufxclient/EvtUfxDeviceTesthook
+ms.date: 4/25/2018
+ms.keywords: EVT_UFX_DEVICE_TESTHOOK, EVT_UFX_DEVICE_TESTHOOK callback, EvtUfxDeviceTesthook, EvtUfxDeviceTesthook callback function [Buses], buses.evt_ufx_device_testhook, ufxclient/EvtUfxDeviceTesthook
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -37,32 +37,19 @@ api_location:
 -
 api_name:
 -	EVT_UFX_DEVICE_TESTHOOK callback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UFX_DEVICE_TESTHOOK callback
+# EVT_UFX_DEVICE_TESTHOOK callback function
 
 
 ## -description
 
 
 This IOCTL code is not supported.
-
-
-## -prototype
-
-
-````
-EVT_UFX_DEVICE_TESTHOOK EvtUfxDeviceTesthook;
-
- EvtUfxDeviceTesthook(
-    
-)
-{ ... }
-````
 
 
 ## -parameters

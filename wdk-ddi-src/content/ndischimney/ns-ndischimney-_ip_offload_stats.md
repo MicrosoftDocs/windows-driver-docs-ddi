@@ -7,7 +7,7 @@ old-location: netvista\ip_offload_stats.htm
 old-project: netvista
 ms.assetid: f40c5734-2546-40c3-a6fb-58f728c3cc5e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PIP_OFFLOAD_STATS, IP_OFFLOAD_STATS, IP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], PIP_OFFLOAD_STATS, PIP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], _IP_OFFLOAD_STATS, ndischimney/IP_OFFLOAD_STATS, ndischimney/PIP_OFFLOAD_STATS, netvista.ip_offload_stats, tcp_chim_struct_292881aa-1c15-4b1a-abd9-927d3b3b8f7b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ndischimney.h
 api_name:
 -	IP_OFFLOAD_STATS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS
 ---
@@ -55,25 +56,6 @@ The IP_OFFLOAD_STATS structure contains statistics that an offload target suppli
   query of 
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a> or 
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff569759">OID_IP6_OFFLOAD_STATS</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _IP_OFFLOAD_STATS {
-  ULONG64 InReceives;
-  ULONG64 InOctets;
-  ULONG64 InDelivers;
-  ULONG64 OutRequests;
-  ULONG64 OutOctets;
-  ULONG   InHeaderErrors;
-  ULONG   InTruncatedPackets;
-  ULONG   InDiscards;
-  ULONG   OutDiscards;
-  ULONG   OutNoRoutes;
-} IP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS;
-````
 
 
 ## -struct-fields
@@ -182,7 +164,7 @@ If an offload target's TCP chimney capabilities are enabled (see
 <ul>
 <li>
 The offload target can indicate the packet through the non-offload interface by calling the 
-      <a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+      <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
       NdisMIndicateReceiveNetBufferLists</a> function. In this case, the offload target must not increment
       the InHeaderErrors counter. This is the recommended approach.
 
@@ -212,16 +194,6 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569759">OID_IP6_OFFLOAD_STATS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
 
 
 
@@ -229,8 +201,17 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 
 
+<a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
+   NdisMIndicateReceiveNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569759">OID_IP6_OFFLOAD_STATS</a>
  
 
  
-
 

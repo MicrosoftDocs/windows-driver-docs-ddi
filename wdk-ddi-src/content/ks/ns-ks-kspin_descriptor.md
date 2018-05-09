@@ -7,7 +7,7 @@ old-location: stream\kspin_descriptor.htm
 old-project: stream
 ms.assetid: 0e7fccd1-1ced-41e7-8e75-8f4fa496ea06
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPIN_DESCRIPTOR, KSPIN_DESCRIPTOR, KSPIN_DESCRIPTOR structure [Streaming Media Devices], PKSPIN_DESCRIPTOR, PKSPIN_DESCRIPTOR structure pointer [Streaming Media Devices], ks-struct_adeadb36-6cf2-4c36-a1b4-a7852e98303f.xml, ks/KSPIN_DESCRIPTOR, ks/PKSPIN_DESCRIPTOR, stream.kspin_descriptor"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPIN_DESCRIPTOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR
 ---
@@ -50,32 +51,6 @@ req.typenames: KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR
 
 
 The KSPIN_DESCRIPTOR structure describes the basic <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a> properties of a pin type.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                 InterfacesCount;
-  const KSPIN_INTERFACE *Interfaces;
-  ULONG                 MediumsCount;
-  const KSPIN_MEDIUM    *Mediums;
-  ULONG                 DataRangesCount;
-  const PKSDATARANGE    *DataRanges;
-  KSPIN_DATAFLOW        DataFlow;
-  KSPIN_COMMUNICATION   Communication;
-  const GUID            *Category;
-  const GUID            *Name;
-  union {
-    LONGLONG Reserved;
-    struct {
-      ULONG        ConstrainedDataRangesCount;
-      PKSDATARANGE *ConstrainedDataRanges;
-    };
-  };
-} KSPIN_DESCRIPTOR, *PKSPIN_DESCRIPTOR;
-````
 
 
 ## -struct-fields
@@ -133,6 +108,11 @@ Specifies a pointer to a KS pin category GUID. The KS pin category GUID identifi
 Specifies the GUID of the localized Unicode string name for the pin type, stored in the Registry.
 
 
+### -field Reserved
+
+Not used.  A member of an unnamed union used to force proper alignment on the unnamed structure.
+
+
 ### -field ConstrainedDataRangesCount
 
 Specifies the number of entries in the array pointed to by <b>ConstrainedDataRanges</b>.
@@ -141,11 +121,6 @@ Specifies the number of entries in the array pointed to by <b>ConstrainedDataRan
 ### -field ConstrainedDataRanges
 
 Points to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structures. Indicates the set of data ranges the pin type currently supports, based on the driver's internal state.
-
-
-#### - Reserved
-
-Not used.  A member of an unnamed union used to force proper alignment on the unnamed structure.
 
 
 ## -remarks
@@ -159,7 +134,18 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565194">KSPROPERTY_PIN_COMMUNICATION</a>
 
 
 
@@ -168,19 +154,7 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565194">KSPROPERTY_PIN_COMMUNICATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
-
-
-
  
 
  
-
 

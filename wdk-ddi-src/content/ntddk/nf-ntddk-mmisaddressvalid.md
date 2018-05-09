@@ -7,7 +7,7 @@ old-location: kernel\mmisaddressvalid.htm
 old-project: kernel
 ms.assetid: 328f9ffe-67ae-4ba5-98e4-b3b00068eb0e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: MmIsAddressValid, MmIsAddressValid routine [Kernel-Mode Driver Architecture], k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, kernel.mmisaddressvalid, ntddk/MmIsAddressValid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	MmIsAddressValid
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # MmIsAddressValid function
@@ -51,16 +52,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 The <b>MmIsAddressValid</b> routine checks whether a page fault will occur for a read or write operation at a given virtual address.
 <div class="alert"><b>Warning</b>  We do not recommend using this function.</div><div> </div>
-
-## -syntax
-
-
-````
-BOOLEAN MmIsAddressValid(
-  _In_ PVOID VirtualAddress
-);
-````
-
 
 ## -parameters
 
@@ -92,12 +83,11 @@ Even if <b>MmIsAddressValid</b> returns <b>TRUE</b>, accessing the address can c
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554664">MmProbeAndLockPages</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: image\wiaureggetdword.htm
 old-project: image
 ms.assetid: 936a3a49-ec36-421f-8554-c9ad37907a6d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaureggetdword, wiauFncs_a58ebb21-21ce-4815-9dd6-5a1906412a2f.xml, wiauRegGetDword, wiauRegGetDword function [Imaging Devices], wiauRegGetDwordA, wiauRegGetDwordW, wiautil/wiauRegGetDword
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauRegGetDword
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauRegGetDwordA function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauRegGetDword</b> function gets a <b>DWORD</b> value from the <b>DeviceData</b> section of the registry.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauRegGetDword(
-  _In_  HKEY   hkKey,
-  _In_  PCTSTR pwszValueName,
-  _Out_ DWORD  *pdwValue
-);
-````
 
 
 ## -parameters
@@ -101,16 +89,15 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550178">wiauRegGetStr</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550179">wiauRegOpenData</a>
-
-
-
  
 
  
-
 

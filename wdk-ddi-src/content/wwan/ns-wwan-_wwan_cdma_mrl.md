@@ -7,7 +7,7 @@ old-location: netvista\wwan_cdma_mrl.htm
 old-project: netvista
 ms.assetid: A19B98B5-F2E5-4AF9-9D2B-A7DD47441656
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_CDMA_MRL, PWWAN_CDMA_MRL, PWWAN_CDMA_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_CDMA_MRL, WWAN_CDMA_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_CDMA_MRL, netvista.wwan_cdma_mrl, wwan/PWWAN_CDMA_MRL, wwan/WWAN_CDMA_MRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_CDMA_MRL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_CDMA_MRL, *PWWAN_CDMA_MRL
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_CDMA_MRL structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WWAN_CDMA_MRL</b> structure represents the measured results list (MRL) of both serving and neighboring CDMA cells.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_CDMA_MRL {
-  ULONG ElementCount;
-  BYTE  CDMAMrl[ANYSIZE_ARRAY];
-} WWAN_CDMA_MRL, *PWWAN_CDMA_MRL;
-````
 
 
 ## -struct-fields
@@ -83,16 +72,11 @@ The count of MRL entries following this member.
 
 #### - CDMAMrl[ANYSIZE_ARRAY]
 
-The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_cdma_mrl_info.md">WWAN_CDMA_MRL_INFO</a> structure.
+The array of MRL records, each specified as a <a href="https://msdn.microsoft.com/D8633E80-C7A3-4050-8E8E-8AE459F905D5">WWAN_CDMA_MRL_INFO</a> structure.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_cdma_mrl_info.md">WWAN_CDMA_MRL_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
 
 
@@ -100,8 +84,12 @@ The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_cdm
 
 
 
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/D8633E80-C7A3-4050-8E8E-8AE459F905D5">WWAN_CDMA_MRL_INFO</a>
  
 
  
-
 

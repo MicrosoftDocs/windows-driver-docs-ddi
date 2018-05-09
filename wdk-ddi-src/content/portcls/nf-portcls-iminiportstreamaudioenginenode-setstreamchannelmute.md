@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportStreamAudioEngineNode.SetStreamChannelMute
-title: IMiniportStreamAudioEngineNode::SetStreamChannelMute method
+title: IMiniportStreamAudioEngineNode::SetStreamChannelMute
 author: windows-driver-content
 description: Sets the state of the Mute node in the path of the audio stream.
 old-location: audio\iminiportstreamaudioenginenode_setstreamchannelmute.htm
 old-project: audio
 ms.assetid: AAD0101E-13FB-48A2-8834-799472B93931
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], SetStreamChannelMute method, IMiniportStreamAudioEngineNode::SetStreamChannelMute, SetStreamChannelMute method [Audio Devices], SetStreamChannelMute method [Audio Devices], IMiniportStreamAudioEngineNode interface, SetStreamChannelMute,IMiniportStreamAudioEngineNode.SetStreamChannelMute, audio.iminiportstreamaudioenginenode_setstreamchannelmute, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelMute
+ms.date: 4/16/2018
+ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamChannelMute method, IMiniportStreamAudioEngineNode.SetStreamChannelMute, IMiniportStreamAudioEngineNode::SetStreamChannelMute, SetStreamChannelMute, SetStreamChannelMute method [Audio Devices], SetStreamChannelMute method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamchannelmute, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelMute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportStreamAudioEngineNode.SetStreamChannelMute
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportStreamAudioEngineNode::SetStreamChannelMute method
+# IMiniportStreamAudioEngineNode::SetStreamChannelMute
 
 
 ## -description
 
 
 Sets the state of the Mute node in the path of the audio stream.
-
-
-## -syntax
-
-
-````
-NTSTATUS SetStreamChannelMute(
-  [in] UINT32 ulChannel,
-  [in] BOOL   bMute
-);
-````
 
 
 ## -parameters
@@ -91,12 +81,11 @@ code.
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndis_rw_lock.htm
 old-project: netvista
 ms.assetid: b44e62ec-d36a-46df-846c-3f1cf6cef003
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_RW_LOCK, NDIS_RW_LOCK, NDIS_RW_LOCK structure [Network Drivers Starting with Windows Vista], PNDIS_RW_LOCK, PNDIS_RW_LOCK structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RW_LOCK, ndis/NDIS_RW_LOCK, ndis/PNDIS_RW_LOCK, ndis_processor_group_ref_4680aefb-5db5-4e48-aec2-a7c6769892aa.xml, netvista.ndis_rw_lock"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ndis.h
 api_name:
 -	NDIS_RW_LOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_RW_LOCK, *PNDIS_RW_LOCK
 ---
@@ -50,17 +51,7 @@ req.typenames: NDIS_RW_LOCK, *PNDIS_RW_LOCK
 
 
 The <b>NDIS_RW_LOCK</b> structure defines the attributes of a read/write lock. This structure is opaque to
-   NDIS drivers.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_RW_LOCK {
-  ;      // Reserved for NDIS.
-} NDIS_RW_LOCK, *PNDIS_RW_LOCK;
-````
+   NDIS drivers and is reserved for NDIS.
 
 
 ## -struct-fields
@@ -68,12 +59,11 @@ typedef struct _NDIS_RW_LOCK {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
-
-
-
  
 
  
-
 

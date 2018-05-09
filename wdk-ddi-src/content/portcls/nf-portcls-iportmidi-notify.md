@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortMidi.Notify
-title: IPortMidi::Notify method
+title: IPortMidi::Notify
 author: windows-driver-content
 description: The Notify method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred. It should be called from the miniport driver's interrupt service routine (ISR).
 old-location: audio\iportmidi_notify.htm
 old-project: audio
 ms.assetid: eeec5e45-4db2-4a81-b773-0f9cbf86f593
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IPortMidi, IPortMidi interface [Audio Devices], Notify method, IPortMidi::Notify, Notify method [Audio Devices], Notify method [Audio Devices], IPortMidi interface, Notify,IPortMidi.Notify, audio.iportmidi_notify, audmp-routines_33df6b8a-0ebf-4544-8ad4-17fb93edf0c9.xml, portcls/IPortMidi::Notify
+ms.date: 4/16/2018
+ms.keywords: IPortMidi interface [Audio Devices],Notify method, IPortMidi.Notify, IPortMidi::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortMidi interface, audio.iportmidi_notify, audmp-routines_33df6b8a-0ebf-4544-8ad4-17fb93edf0c9.xml, portcls/IPortMidi::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortMidi.Notify
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortMidi::Notify method
+# IPortMidi::Notify
 
 
 ## -description
 
 
 The <code>Notify</code> method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred. It should be called from the miniport driver's interrupt service routine (ISR).
-
-
-## -syntax
-
-
-````
-void Notify(
-  [in, optional] PSERVICEGROUP ServiceGroup
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ void Notify(
 
 ### -param ServiceGroup [in, optional]
 
-Pointer to the miniport driver's <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a> object.
+Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a> object.
 
 
 ## -returns
@@ -96,16 +87,15 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.Breakpoint
-title: IDebugEventCallbacksWide::Breakpoint method
+title: IDebugEventCallbacksWide::Breakpoint
 author: windows-driver-content
 description: The Breakpoint callback method is called by the engine when the target issues a breakpointexception.
 old-location: debugger\idebugeventcallbackswide_breakpoint.htm
 old-project: debugger
 ms.assetid: ee9b9b6c-c76e-4979-9f23-c411fe1b002a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: Breakpoint method [Windows Debugging], Breakpoint method [Windows Debugging], IDebugEventCallbacksWide interface, Breakpoint,IDebugEventCallbacksWide.Breakpoint, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], Breakpoint method, IDebugEventCallbacksWide::Breakpoint, dbgeng/IDebugEventCallbacksWide::Breakpoint, debugger.idebugeventcallbackswide_breakpoint
+ms.date: 4/24/2018
+ms.keywords: Breakpoint, Breakpoint method [Windows Debugging], Breakpoint method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],Breakpoint method, IDebugEventCallbacksWide.Breakpoint, IDebugEventCallbacksWide::Breakpoint, dbgeng/IDebugEventCallbacksWide::Breakpoint, debugger.idebugeventcallbackswide_breakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugEventCallbacksWide.Breakpoint
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugEventCallbacksWide::Breakpoint method
+# IDebugEventCallbacksWide::Breakpoint
 
 
 ## -description
 
 
 The <b>Breakpoint</b> callback method is called by the engine when the target issues a breakpoint<a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">exception</a>.
-
-
-## -syntax
-
-
-````
-HRESULT Breakpoint(
-  [in] PDEBUG_BREAKPOINT2 Bp
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ HRESULT Breakpoint(
 
 ### -param Bp [in]
 
-Specifies a pointer to the <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a> object corresponding to the breakpoint that was triggered.
+Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549812">IDebugBreakpoint</a> object corresponding to the breakpoint that was triggered.
 
 
 ## -returns
@@ -87,7 +78,7 @@ This method returns a <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 If the breakpoint has an associated command, the engine executes that command before calling this method.
 
-The engine will only call this method if an <a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a> object corresponding to the breakpoint exists in the engine, and--if the breakpoint is a private breakpoint--this <a href="..\dbgeng\nn-dbgeng-idebugeventcallbackswide.md">IDebugEventCallbacksWide</a> object was registered with the client that added the breakpoint.
+The engine will only call this method if an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549812">IDebugBreakpoint</a> object corresponding to the breakpoint exists in the engine, and--if the breakpoint is a private breakpoint--this <a href="https://msdn.microsoft.com/library/windows/hardware/ff550563">IDebugEventCallbacksWide</a> object was registered with the client that added the breakpoint.
 
 The engine calls this method only if the DEBUG_EVENT_BREAKPOINT flag is set in the mask returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550625">IDebugEventCallbacksWide::GetInterestMask</a>.
 

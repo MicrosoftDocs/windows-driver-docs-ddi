@@ -7,7 +7,7 @@ old-location: kernel\obunregistercallbacks.htm
 old-project: kernel
 ms.assetid: 01121323-da0c-4ae9-b0c0-f6302583237c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ObUnRegisterCallbacks, ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, kernel.obunregistercallbacks, wdm/ObUnRegisterCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ObUnRegisterCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ObUnRegisterCallbacks function
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>ObUnRegisterCallbacks</b> routine unregisters a set of callback routines that were registered with the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a> routine.
-
-
-## -syntax
-
-
-````
-VOID ObUnRegisterCallbacks(
-  _In_ PVOID RegistrationHandle
-);
-````
+The <b>ObUnRegisterCallbacks</b> routine unregisters a set of callback routines that were registered with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558692">ObRegisterCallbacks</a> routine.
 
 
 ## -parameters
@@ -70,7 +60,7 @@ VOID ObUnRegisterCallbacks(
 
 ### -param RegistrationHandle [in]
 
-A value that identifies the set of callback routines to unregister. The <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a> routine provides this value when it originally registered the callback routines.
+A value that identifies the set of callback routines to unregister. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff558692">ObRegisterCallbacks</a> routine provides this value when it originally registered the callback routines.
 
 
 ## -returns
@@ -93,12 +83,11 @@ A driver that calls the <b>ObRegisterCallbacks</b> routine must call the <b>ObUn
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558692">ObRegisterCallbacks</a>
  
 
  
-
 

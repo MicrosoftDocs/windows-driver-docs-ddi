@@ -7,7 +7,7 @@ old-location: ifsk\rtlinsertasleftchild.htm
 old-project: ifsk
 ms.assetid: cbb027f2-be7d-4de4-abbe-a37b7430153f
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlInsertAsLeftChild, RtlInsertAsLeftChild routine [Installable File System Drivers], ifsk.rtlinsertasleftchild, ntddk/RtlInsertAsLeftChild, rtlref_228b3b79-ee0c-4361-ac36-223991ed3615.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntddk.h
 api_name:
 -	RtlInsertAsLeftChild
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlInsertAsLeftChild function
@@ -50,17 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>RtlInsertAsLeftChild</b> routine inserts a splay link node into the tree as the left child of the specified node. 
-
-
-## -syntax
-
-
-````
-VOID RtlInsertAsLeftChild(
-  _In_ PRTL_SPLAY_LINKS ParentLinks,
-  _In_ PRTL_SPLAY_LINKS ChildLinks
-);
-````
 
 
 ## -parameters
@@ -116,32 +106,31 @@ Callers of <b>RtlInsertAsLeftChild</b> must be running at IRQL &lt;= DISPATCH_LE
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553010">RtlInitializeSplayLinks</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553022">RtlInsertAsRightChild</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553072">RtlIsRoot</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553080">RtlLeftChild</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553165">RtlParent</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553226">RtlSplay</a>
  
 
  
-
 

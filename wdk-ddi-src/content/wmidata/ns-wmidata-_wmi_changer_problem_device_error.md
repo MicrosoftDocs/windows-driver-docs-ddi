@@ -38,7 +38,8 @@ api_location:
 -	wmidata.h
 api_name:
 -	WMI_CHANGER_PROBLEM_DEVICE_ERROR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
 req.product: Windows 10 or later.
@@ -75,11 +76,11 @@ Contains one of the enumeration values defined for the <a href="..\ntddchgr\ne-n
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
-
-
-
 <a href="..\ntddchgr\ne-ntddchgr-_changer_device_problem_type.md">CHANGER_DEVICE_PROBLEM_TYPE</a>
+
+
+
+<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
 
 
 

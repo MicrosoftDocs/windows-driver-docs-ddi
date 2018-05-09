@@ -7,7 +7,7 @@ old-location: netvista\rilcallmediadirection.htm
 old-project: netvista
 ms.assetid: 8c6b2329-9956-43c1-8a4d-ef9587cf0980
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILCALLMEDIADIRECTION, RILCALLMEDIADIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIADIRECTION_MAX, RIL_CALLMEDIADIRECTION_RX, RIL_CALLMEDIADIRECTION_RXTX, RIL_CALLMEDIADIRECTION_TX, netvista.rilcallmediadirection, ntddrilapitypes/RILCALLMEDIADIRECTION, ntddrilapitypes/RIL_CALLMEDIADIRECTION_MAX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RXTX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_TX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLMEDIADIRECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLMEDIADIRECTION
-req.product: Windows 10 or later.
 ---
 
 # RILCALLMEDIADIRECTION enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLMEDIADIRECTION { 
-  RIL_CALLMEDIADIRECTION_RX,
-  RIL_CALLMEDIADIRECTION_TX,
-  RIL_CALLMEDIADIRECTION_RXTX,
-  RIL_CALLMEDIADIRECTION_MAX
-} RILCALLMEDIADIRECTION;
-````
 
 
 ## -enum-fields

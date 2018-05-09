@@ -7,7 +7,7 @@ old-location: netvista\wdi_tx_pause_reason.htm
 old-project: netvista
 ms.assetid: 2585d243-e3b0-414d-a932-28d91b69f1f4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_TX_PAUSE_REASON, WDI_TX_PAUSE_REASON enumeration [Network Drivers Starting with Windows Vista], WDI_TX_PAUSE_REASON_CREDIT, WDI_TX_PAUSE_REASON_IHV_END, WDI_TX_PAUSE_REASON_IHV_START, WDI_TX_PAUSE_REASON_NULL, WDI_TX_PAUSE_REASON_PEER_CREATE, WDI_TX_PAUSE_REASON_PS, _WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON, dot11wdi/WDI_TX_PAUSE_REASON_CREDIT, dot11wdi/WDI_TX_PAUSE_REASON_IHV_END, dot11wdi/WDI_TX_PAUSE_REASON_IHV_START, dot11wdi/WDI_TX_PAUSE_REASON_NULL, dot11wdi/WDI_TX_PAUSE_REASON_PEER_CREATE, dot11wdi/WDI_TX_PAUSE_REASON_PS, netvista.wdi_tx_pause_reason, netvista.wifi_tx_pause_reason
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	dot11wdi.h
 api_name:
 -	WDI_TX_PAUSE_REASON
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDI_TX_PAUSE_REASON
 ---
@@ -50,21 +51,6 @@ req.typenames: WDI_TX_PAUSE_REASON
 
 
 The WDI_TX_PAUSE_REASON enumeration defines the reasons for a TX pause.
-
-
-## -syntax
-
-
-````
-typedef enum _WDI_TX_PAUSE_REASON { 
-  WDI_TX_PAUSE_REASON_NULL         = 0x00000000,
-  WDI_TX_PAUSE_REASON_CREDIT       = 0x00000001,
-  WDI_TX_PAUSE_REASON_PEER_CREATE  = 0x00000002,
-  WDI_TX_PAUSE_REASON_PS           = 0x00000004,
-  WDI_TX_PAUSE_REASON_IHV_START    = 0x01000000,
-  WDI_TX_PAUSE_REASON_IHV_END      = 0x80000000
-} WDI_TX_PAUSE_REASON;
-````
 
 
 ## -enum-fields
@@ -104,12 +90,11 @@ Inclusive end of range of valid pause reasons for IHV use.
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn898187">WDI_TXRX_CAPABILITIES</a>
  
 
  
-
 

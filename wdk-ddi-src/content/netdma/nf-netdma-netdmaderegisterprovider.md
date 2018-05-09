@@ -7,7 +7,7 @@ old-location: netvista\netdmaderegisterprovider.htm
 old-project: netvista
 ms.assetid: 8832adbc-c2ab-4742-94a0-4e33d03eaaf1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NetDmaDeregisterProvider, NetDmaDeregisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaDeregisterProvider, netdma_ref_0fac8a7e-7721-4854-8d0e-6926243ff2ea.xml, netvista.netdmaderegisterprovider
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	netdma.h
 api_name:
 -	NetDmaDeregisterProvider
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NET_DMA_PNP_NOTIFICATION_CODE, *PNET_DMA_PNP_NOTIFICATION_CODE
+req.typenames: 
 ---
 
 # NetDmaDeregisterProvider function
@@ -55,16 +56,6 @@ in Windows 8 and later.</div><div> </div>The
   <b>NetDmaDeregisterProvider</b> function deregisters a DMA provider.
 
 
-## -syntax
-
-
-````
-VOID NetDmaDeregisterProvider(
-  _In_ PVOID NetDmaProviderHandle
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +65,7 @@ VOID NetDmaDeregisterProvider(
 
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+     <a href="https://msdn.microsoft.com/35d70d0b-c1b9-433f-941d-6cb61ddf0b62">
      NetDmaRegisterProvider</a> function.
 
 
@@ -94,11 +85,11 @@ None
 DMA provider drivers call the 
     <b>NetDmaDeregisterProvider</b> function to deregister a DMA provider that was previously registered by
     calling the 
-    <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">
+    <a href="https://msdn.microsoft.com/35d70d0b-c1b9-433f-941d-6cb61ddf0b62">
     NetDmaRegisterProvider</a> function.
 
 The DMA provider driver must call the 
-    <a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a> function before it
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568335">NetDmaProviderStop</a> function before it
     deregisters a DMA provider. The DMA provider driver calls 
     <b>NetDmaProviderStop</b> to notify the NetDMA interface that a previously started DMA provider is no
     longer available.
@@ -116,7 +107,6 @@ Call
 
 ## -see-also
 
-<a href="..\netdma\nf-netdma-netdmaproviderstop.md">NetDmaProviderStop</a>
 
 
 
@@ -124,12 +114,12 @@ Call
 
 
 
-<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568335">NetDmaProviderStop</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568336">NetDmaRegisterProvider</a>
  
 
  
-
 

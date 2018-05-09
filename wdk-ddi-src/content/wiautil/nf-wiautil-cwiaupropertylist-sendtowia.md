@@ -1,14 +1,14 @@
 ---
 UID: NF:wiautil.CWiauPropertyList.SendToWia
-title: CWiauPropertyList::SendToWia method
+title: CWiauPropertyList::SendToWia
 author: windows-driver-content
 description: The CWiauPropertyList::SendToWia method calls the WIA service to define all of the properties currently contained in the property list object.
 old-location: image\cwiaupropertylist_sendtowia.htm
 old-project: image
 ms.assetid: 2f7d6975-4c90-4351-bf68-89786bafcc8e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CWiauPropertyList, CWiauPropertyList interface [Imaging Devices], SendToWia method, CWiauPropertyList::SendToWia, SendToWia method [Imaging Devices], SendToWia method [Imaging Devices], CWiauPropertyList interface, SendToWia,CWiauPropertyList.SendToWia, image.cwiaupropertylist_sendtowia, wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, wiautil/CWiauPropertyList::SendToWia
+ms.date: 4/23/2018
+ms.keywords: CWiauPropertyList interface [Imaging Devices],SendToWia method, CWiauPropertyList.SendToWia, CWiauPropertyList::SendToWia, SendToWia, SendToWia method [Imaging Devices], SendToWia method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_sendtowia, wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, wiautil/CWiauPropertyList::SendToWia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauPropertyList.SendToWia
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# CWiauPropertyList::SendToWia method
+# CWiauPropertyList::SendToWia
 
 
 ## -description
 
 
 The <b>CWiauPropertyList::SendToWia</b> method calls the WIA service to define all of the properties currently contained in the property list object. 
-
-
-## -syntax
-
-
-````
-HRESULT SendToWia(
-       BYTE   *pWiasContext
-);
-````
 
 
 ## -parameters
@@ -93,16 +83,15 @@ The <b>CWiauPropertyList::SendToWia</b> method should be called only after all p
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/4f11bec0-8ff4-4fa0-824c-71ce9774d5d1">CWiauPropertyList</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544989">IWiaMiniDrv::drvInitItemProperties</a>
-
-
-
-<a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
-
-
-
  
 
  
-
 

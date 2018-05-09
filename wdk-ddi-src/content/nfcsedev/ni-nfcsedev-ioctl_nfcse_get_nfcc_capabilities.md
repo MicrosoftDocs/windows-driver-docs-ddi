@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 4323FEDF-A7D0-4B67-BC3D-ECAA7AD1CC08
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFCSE_GET_NFCC_CAPABILITIES, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfcsedev/IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfpdrivers.ioctl_nfcse_get_nfcc_capabilities
+ms.keywords: IOCTL_NFCSE_GET_NFCC_CAPABILITIES, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control, IOCTL_NFCSE_GET_NFCC_CAPABILITIES control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfcsedev/IOCTL_NFCSE_GET_NFCC_CAPABILITIES, nfpdrivers.ioctl_nfcse_get_nfcc_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	nfcsedev.h
 api_name:
 -	IOCTL_NFCSE_GET_NFCC_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_NFCSE_GET_NFCC_CAPABILITIES IOCTL
@@ -71,7 +72,7 @@ None
 ### -output-buffer
 
 
-<a href="..\nfcsedev\ns-nfcsedev-_secure_element_nfcc_capabilities.md"> SECURE_ELEMENT_NFCC_CAPABILITIES</a> containing NFC controller capabilities.
+<a href="https://msdn.microsoft.com/D1F9588B-02D9-49B0-B45F-AF5C140D74E4"> SECURE_ELEMENT_NFCC_CAPABILITIES</a> containing NFC controller capabilities.
 
 
 ### -output-buffer-length

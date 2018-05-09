@@ -7,7 +7,7 @@ old-location: stream\ksstream_header.htm
 old-project: stream
 ms.assetid: c1057dcf-2988-460d-b006-f6cf16ec969e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSSTREAM_HEADER, KSSTREAM_HEADER, KSSTREAM_HEADER structure [Streaming Media Devices], PKSSTREAM_HEADER, PKSSTREAM_HEADER structure pointer [Streaming Media Devices], ks-struct_6f951af2-bee6-49ee-9df5-5291b5d00045.xml, ks/KSSTREAM_HEADER, ks/PKSSTREAM_HEADER, stream.ksstream_header"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSSTREAM_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSSTREAM_HEADER, *PKSSTREAM_HEADER
 ---
@@ -50,24 +51,6 @@ req.typenames: KSSTREAM_HEADER, *PKSSTREAM_HEADER
 
 
 The KSSTREAM_HEADER structure is a variable-length structure that describes a packet of data to be read from or written to a streaming driver pin.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG    Size;
-  ULONG    TypeSpecificFlags;
-  KSTIME   PresentationTime;
-  LONGLONG Duration;
-  ULONG    FrameExtent;
-  ULONG    DataUsed;
-  PVOID    Data;
-  ULONG    OptionsFlags;
-  ULONG    Reserved;
-} KSSTREAM_HEADER, *PKSSTREAM_HEADER;
-````
 
 
 ## -struct-fields
@@ -87,7 +70,7 @@ Specifies flags that are specific to a data format. The only flag currently supp
 
 ### -field PresentationTime
 
-A <a href="..\ks\ns-ks-kstime.md">KSTIME</a> structure that specifies the presentation time for the related stream buffer in 100-nanosecond units. For more information, see the <b>Remarks</b> section.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff567145">KSTIME</a> structure that specifies the presentation time for the related stream buffer in 100-nanosecond units. For more information, see the <b>Remarks</b> section.
 
 
 ### -field Duration
@@ -102,7 +85,7 @@ Specifies the size of the entire frame. The region within the frame extent is av
 
 ### -field DataUsed
 
-For a write operation, this member specifies the number of bytes within the frame that are valid when submitting a frame to a lower-level driver. The headers are not modified on a write operation; however, the <b>Information</b> member of the IO_STATUS_BLOCK structure contains the total number of bytes actually written. For a read operation, this member is not used when submitting a frame to a lower-level driver and must be set to zero. On return, this member contains the number of bytes actually filled in this frame and the <b>Information</b> member of the IO_STATUS_BLOCK structure contains the size of the list of headers actually used. Note that if the minidriver specifies KSPIN_FLAG_GENERATE_MAPPINGS in <a href="..\ks\ns-ks-_kspin_descriptor_ex.md">KSPIN_DESCRIPTOR_EX</a>, when a stream pointer is advanced past a frame, <b>DataUsed</b> is set to <b>Count</b> minus <b>Remaining</b> (members of <a href="..\ks\ns-ks-_ksstream_pointer_offset.md">KSSTREAM_POINTER_OFFSET</a>). If the driver does not specify this flag, the minidriver is responsible for setting <b>DataUsed</b>.
+For a write operation, this member specifies the number of bytes within the frame that are valid when submitting a frame to a lower-level driver. The headers are not modified on a write operation; however, the <b>Information</b> member of the IO_STATUS_BLOCK structure contains the total number of bytes actually written. For a read operation, this member is not used when submitting a frame to a lower-level driver and must be set to zero. On return, this member contains the number of bytes actually filled in this frame and the <b>Information</b> member of the IO_STATUS_BLOCK structure contains the size of the list of headers actually used. Note that if the minidriver specifies KSPIN_FLAG_GENERATE_MAPPINGS in <a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a>, when a stream pointer is advanced past a frame, <b>DataUsed</b> is set to <b>Count</b> minus <b>Remaining</b> (members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567140">KSSTREAM_POINTER_OFFSET</a>). If the driver does not specify this flag, the minidriver is responsible for setting <b>DataUsed</b>.
 
 
 ### -field Data
@@ -252,7 +235,7 @@ KSSTREAM_HEADER_OPTIONSF_TYPECHANGED
 </td>
 <td>
 
-          Signifies that the data format for this stream has changed. If this flag is set, the <b>Data</b> member contains a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure that contains the new format. This flag is valid only for streams that have previously negotiated dynamic type changing. For a write operation, include the new data format in place of a media sample. If the media-specific extension size is modified, this header must be the last header in a list of headers for the given stream request. During a read request, any further I/O remains pending until the new format is retrieved through KSPROPERTY_CONNECTION_DATAFORMAT. For a write operation, the header must not be extended, and must be the only header in the write operation.
+          Signifies that the data format for this stream has changed. If this flag is set, the <b>Data</b> member contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure that contains the new format. This flag is valid only for streams that have previously negotiated dynamic type changing. For a write operation, include the new data format in place of a media sample. If the media-specific extension size is modified, this header must be the last header in a list of headers for the given stream request. During a read request, any further I/O remains pending until the new format is retrieved through KSPROPERTY_CONNECTION_DATAFORMAT. For a write operation, the header must not be extended, and must be the only header in the write operation.
         
 
 </td>
@@ -264,7 +247,7 @@ KSSTREAM_HEADER_OPTIONSF_VRAM_DATA_TRANSFER
 </td>
 <td>
 
-          Specifies that the stream header's <i>Data</i> member points to a structure of type <a href="..\ksmedia\ns-ksmedia-vram_surface_info.md">VRAM_SURFACE_INFO</a>. The system-supplied KS proxy module sets this flag to indicate that it is <a href="https://msdn.microsoft.com/e3ab3a10-42af-488f-9b13-d2c6d5aac615">capturing directly to VRAM</a>.
+          Specifies that the stream header's <i>Data</i> member points to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff568783">VRAM_SURFACE_INFO</a>. The system-supplied KS proxy module sets this flag to indicate that it is <a href="https://msdn.microsoft.com/e3ab3a10-42af-488f-9b13-d2c6d5aac615">capturing directly to VRAM</a>.
         
 
 </td>
@@ -320,19 +303,18 @@ On an IOCTL_KS_READ_STREAM, portions of the stream header are filled in by the c
 
 On an IOCTL_KS_WRITE_STREAM, the member elements must be initialized, and each KSSTREAM_HEADER.DataUsed element contains the number of bytes to write. The actual number of total bytes written is returned in pIrp-&gt;IoStatus.Information. This is less than or equal to the total of all KSSTREAM_HEADER.DataUsed elements in the headers.
 
-If you are using the <a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a> interface to obtain timestamps to place in the <b>PresentationTime</b> member of KSSTREAM_HEADER, see <a href="https://msdn.microsoft.com/fc1d5bca-72e3-48e2-b46f-09a13bba83b4">AVStream Clocks</a> for more information.
+If you are using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560725">IKsReferenceClock</a> interface to obtain timestamps to place in the <b>PresentationTime</b> member of KSSTREAM_HEADER, see <a href="https://msdn.microsoft.com/fc1d5bca-72e3-48e2-b46f-09a13bba83b4">AVStream Clocks</a> for more information.
 
 
 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
  
 
  
-
 

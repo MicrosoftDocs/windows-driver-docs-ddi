@@ -7,7 +7,7 @@ old-location: netvista\ndisifgetinterfaceindexfromnetluid.htm
 old-project: netvista
 ms.assetid: 6aaa4ae9-fd3c-4cdd-ac37-0533c45143af
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisIfGetInterfaceIndexFromNetLuid, NdisIfGetInterfaceIndexFromNetLuid function [Network Drivers Starting with Windows Vista], ndis/NdisIfGetInterfaceIndexFromNetLuid, net_if_functions_ref_d375ff1d-3f7f-4f11-8fd3-c41340276d30.xml, netvista.ndisifgetinterfaceindexfromnetluid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisIfGetInterfaceIndexFromNetLuid
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisIfGetInterfaceIndexFromNetLuid function
@@ -54,17 +55,6 @@ The
   <b>NdisIfGetInterfaceIndexFromNetLuid</b> function gets the network interface index that is associated with
   a 
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisIfGetInterfaceIndexFromNetLuid(
-  _In_  NET_LUID     NetLuid,
-  _Out_ PNET_IFINDEX pIfIndex
-);
-````
 
 
 ## -parameters
@@ -141,25 +131,25 @@ For the interfaces that the NDIS proxy provider service manages, NDIS provides t
 <ul>
 <li>
 Miniport drivers can obtain the interface index and NET_LUID for a miniport adapter in the 
-      <a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">
+      <a href="https://msdn.microsoft.com/945d921b-3024-4c4f-a50d-e996c6183db7">
       NDIS_MINIPORT_INIT_PARAMETERS</a> structure.
 
 </li>
 <li>
 Filter drivers can obtain the interface index and NET_LUID for a filter module in the 
-      <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">
+      <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
       NDIS_FILTER_ATTACH_PARAMETERS</a> structure.
 
 </li>
 <li>
 Protocol drivers can obtain the interface index and NET_LUID of the highest and the lowest
       interfaces on a driver stack in the 
-      <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a> structure.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure.
 
 </li>
 </ul>
 NDIS assigns an interface index to a network interface when the interface provider calls the 
-    <a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a> function.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a> function.
     An interface provider calls the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a> macro to create the
     NET_LUID value before it registers an interface.
@@ -169,7 +159,7 @@ The interface index value can change without a computer restart. Deregistering a
     not confuse the interface index with the NET_LUID index that persists after a computer restarts.
 
 NDIS provides the 
-    <a href="..\ndis\nf-ndis-ndisifgetnetluidfrominterfaceindex.md">
+    <a href="https://msdn.microsoft.com/3cfb7f31-93ae-47a2-8da8-becfbe045f5e">
     NdisIfGetNetLuidFromInterfaceIndex</a> function to get the NET_LUID value that is associated with a
     specified interface index.
 
@@ -178,24 +168,14 @@ NDIS provides the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_init_parameters.md">NDIS_MINIPORT_INIT_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisifgetnetluidfrominterfaceindex.md">
-   NdisIfGetNetLuidFromInterfaceIndex</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
@@ -203,12 +183,21 @@ NDIS provides the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565972">NDIS_MINIPORT_INIT_PARAMETERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 
+<a href="https://msdn.microsoft.com/3cfb7f31-93ae-47a2-8da8-becfbe045f5e">
+   NdisIfGetNetLuidFromInterfaceIndex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a>
  
 
  
-
 

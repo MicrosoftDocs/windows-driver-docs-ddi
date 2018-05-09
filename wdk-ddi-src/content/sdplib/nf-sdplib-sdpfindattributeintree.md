@@ -7,7 +7,7 @@ old-location: bltooth\sdpfindattributeintree.htm
 old-project: bltooth
 ms.assetid: 26c71c08-3b9a-474f-a232-d7f675582d27
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: SdpFindAttributeInTree, SdpFindAttributeInTree function [Bluetooth Devices], bltooth.sdpfindattributeintree, bth_funcs_8daefa96-6201-462a-9c91-485c5f9eaa98.xml, sdplib/SdpFindAttributeInTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpFindAttributeInTree
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SdpFindAttributeInTree function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 The Bluetooth 
   <b>SdpFindAttributeInTree</b> function is used to locate the specified attribute node in the tree-based
   representation of an SDP record.
-
-
-## -syntax
-
-
-````
-NTSTATUS SdpFindAttributeInTree(
-  _In_  PSDP_TREE_ROOT_NODE Tree,
-  _In_  USHORT              AttribId,
-  _Out_ PSDP_NODE           *AttribValue
-);
-````
 
 
 ## -parameters
@@ -112,7 +100,7 @@ The
     perform a copy. This node pointer is valid until the SDP tree that it references is freed.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    <a href="https://msdn.microsoft.com/bb8a1dd5-8207-4034-993e-eed49dc0f9c4">
     BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
 
@@ -120,12 +108,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
  
 
  
-
 

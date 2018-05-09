@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.Purge
-title: IWDFIoQueue::Purge method
+title: IWDFIoQueue::Purge
 author: windows-driver-content
 description: The Purge method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests.
 old-location: wdf\iwdfioqueue_purge.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c7863713-850f-4516-aec5-9e851c36cf52
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoQueue, IWDFIoQueue interface, Purge method, IWDFIoQueue::Purge, Purge method, Purge method, IWDFIoQueue interface, Purge,IWDFIoQueue.Purge, UMDFQueueObjectRef_5d2113b9-d2e3-4a27-af75-60f4bf7bddbf.xml, umdf.iwdfioqueue_purge, wdf.iwdfioqueue_purge, wudfddi/IWDFIoQueue::Purge
+ms.keywords: IWDFIoQueue interface,Purge method, IWDFIoQueue.Purge, IWDFIoQueue::Purge, Purge, Purge method, Purge method,IWDFIoQueue interface, UMDFQueueObjectRef_5d2113b9-d2e3-4a27-af75-60f4bf7bddbf.xml, umdf.iwdfioqueue_purge, wdf.iwdfioqueue_purge, wudfddi/IWDFIoQueue::Purge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoQueue.Purge
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoQueue::Purge method
+# IWDFIoQueue::Purge
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>Purge</b> method directs the framework to reject new incoming I/O requests and to cancel all outstanding requests. 
 
 
-## -syntax
-
-
-````
-void Purge(
-  [in, optional] IQueueCallbackStateChange *pPurgeComplete
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void Purge(
 
 ### -param pPurgeComplete [in, optional]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a> interface whose method the framework calls to deliver queue state to the driver. The framework calls the method after all requests are canceled. This parameter is optional and can be <b>NULL</b>.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556877">IQueueCallbackStateChange</a> interface whose method the framework calls to deliver queue state to the driver. The framework calls the method after all requests are canceled. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
@@ -148,11 +138,18 @@ CUmdfHidFile::OnCleanupFile(
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556877">IQueueCallbackStateChange</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
 
 
 
@@ -160,16 +157,8 @@ CUmdfHidFile::OnCleanupFile(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\kscamera_profile_info.htm
 old-project: stream
 ms.assetid: 566052ED-2FD8-46A9-8C4E-9FED660D93BF
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_PROFILE_INFO, KSCAMERA_PROFILE_INFO, KSCAMERA_PROFILE_INFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_INFO, PKSCAMERA_PROFILE_INFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_INFO, ksmedia/KSCAMERA_PROFILE_INFO, ksmedia/PKSCAMERA_PROFILE_INFO, stream.kscamera_profile_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSCAMERA_PROFILE_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_PROFILE_INFO, *PKSCAMERA_PROFILE_INFO
 ---
@@ -50,19 +51,6 @@ req.typenames: KSCAMERA_PROFILE_INFO, *PKSCAMERA_PROFILE_INFO
 
 
 The <b>KSCAMERA_PROFILE_INFO</b> structure is used to uniquely identify a given profile.
-
-
-## -syntax
-
-
-````
-typedef struct _KSCAMERA_PROFILE_INFO {
-  GUID                      ProfileId;
-  UINT32                    Index;
-  UINT32                    PinCount;
-  PKSCAMERA_PROFILE_PININFO Pins;
-} KSCAMERA_PROFILE_INFO, *PKSCAMERA_PROFILE_INFO;
-````
 
 
 ## -struct-fields
@@ -84,7 +72,7 @@ Each profile within a given <b>ProfileId</b> group must have a unique <b>Index</
 
 ### -field PinCount
 
-The number of <a href="..\ksmedia\ns-ksmedia-_kscamera_profile_pininfo.md">KSCAMERA_PROFILE_PININFO</a> structures pointed to by <b>Pins</b>.  This value must be greater than 0.
+The number of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925220">KSCAMERA_PROFILE_PININFO</a> structures pointed to by <b>Pins</b>.  This value must be greater than 0.
 
 
 ### -field Pins

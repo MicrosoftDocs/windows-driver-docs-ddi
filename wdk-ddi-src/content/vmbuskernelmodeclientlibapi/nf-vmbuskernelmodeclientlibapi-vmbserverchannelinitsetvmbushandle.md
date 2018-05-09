@@ -7,7 +7,7 @@ old-location: netvista\vmbserverchannelinitsetvmbushandle.htm
 old-project: netvista
 ms.assetid: 0ECF76C7-9475-439E-8E59-B2B7CD350D24
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: VmbServerChannelInitSetVmbusHandle, VmbServerChannelInitSetVmbusHandle function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetvmbushandle, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetVmbusHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	VmbusKernelModeClientLibApi.h
 api_name:
 -	VmbServerChannelInitSetVmbusHandle
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbServerChannelInitSetVmbusHandle function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbServerChannelInitSetVmbusHandle</b> function associates an instance of VMBus with this channel.  
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbServerChannelInitSetVmbusHandle(
-  _In_ VMBCHANNEL Channel,
-  _In_ HANDLE     VmbusHandle
-);
-````
 
 
 ## -parameters
@@ -88,7 +77,7 @@ A kernel mode handle to the VMBus vdev of the partition.
 The VMBus
 instance was previously initialized for the specific guest virtual machine. Therefore, invoking this function identifies the child virtual machine to which this channel is offered.
 
- Obtain a value for the <i>VmbusHandle</i> parameter by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbconvertvmbushandletokernelhandle.md">VmbConvertVmbusHandleToKernelHandle</a> function.
+ Obtain a value for the <i>VmbusHandle</i> parameter by using the <a href="https://msdn.microsoft.com/C549B9C7-221D-4DD8-9D8D-24BC729099C7">VmbConvertVmbusHandleToKernelHandle</a> function.
 
 
 This function can be called while running in any thread context.
@@ -98,12 +87,11 @@ This function can be called while running in any thread context.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbconvertvmbushandletokernelhandle.md">VmbConvertVmbusHandleToKernelHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/C549B9C7-221D-4DD8-9D8D-24BC729099C7">VmbConvertVmbusHandleToKernelHandle</a>
  
 
  
-
 

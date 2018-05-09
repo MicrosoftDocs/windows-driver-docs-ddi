@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.CompleteWithInformation
-title: IWDFIoRequest::CompleteWithInformation method
+title: IWDFIoRequest::CompleteWithInformation
 author: windows-driver-content
 description: The CompleteWithInformation method completes a request with the supplied information.
 old-location: wdf\iwdfiorequest_completewithinformation.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 43089473-3255-4016-8d51-f5ad4261bd8d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CompleteWithInformation method, CompleteWithInformation method, IWDFIoRequest interface, CompleteWithInformation,IWDFIoRequest.CompleteWithInformation, IWDFIoRequest, IWDFIoRequest interface, CompleteWithInformation method, IWDFIoRequest::CompleteWithInformation, UMDFRequestObjectRef_c01f0d7b-3b4d-442c-8425-a99c064609ee.xml, umdf.iwdfiorequest_completewithinformation, wdf.iwdfiorequest_completewithinformation, wudfddi/IWDFIoRequest::CompleteWithInformation
+ms.keywords: CompleteWithInformation, CompleteWithInformation method, CompleteWithInformation method,IWDFIoRequest interface, IWDFIoRequest interface,CompleteWithInformation method, IWDFIoRequest.CompleteWithInformation, IWDFIoRequest::CompleteWithInformation, UMDFRequestObjectRef_c01f0d7b-3b4d-442c-8425-a99c064609ee.xml, umdf.iwdfiorequest_completewithinformation, wdf.iwdfiorequest_completewithinformation, wudfddi/IWDFIoRequest::CompleteWithInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest.CompleteWithInformation
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::CompleteWithInformation method
+# IWDFIoRequest::CompleteWithInformation
 
 
 ## -description
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CompleteWithInformation</b> method completes a request with the supplied information.
-
-
-## -syntax
-
-
-````
-void CompleteWithInformation(
-  [in] HRESULT CompletionStatus,
-  [in] SIZE_T  Information
-);
-````
 
 
 ## -parameters
@@ -105,7 +94,10 @@ For a code example of how to use the <b>CompleteWithInformation</b> method, see 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
 
 
 
@@ -114,11 +106,7 @@ For a code example of how to use the <b>CompleteWithInformation</b> method, see 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
  
 
  
-
 

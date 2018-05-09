@@ -38,10 +38,10 @@ api_location:
 -	Wpprecorder.h
 api_name:
 -	RECORDER_LOG_CREATE_PARAMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RECORDER_LOG_CREATE_PARAMS, *PRECORDER_LOG_CREATE_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _RECORDER_LOG_CREATE_PARAMS structure
@@ -50,24 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>RECORDER_LOG_CREATE_PARAMS</b> structure is an input parameter to the <a href="..\wpprecorder\nf-wpprecorder-imp_wpprecorderlogcreate.md">WppRecorderLogCreate</a> method. 
-
-
-## -syntax
-
-
-````
-typedef struct _RECORDER_LOG_CREATE_PARAMS {
-  ULONG     Size;
-  ULONG     LogTag;
-  ULONG     TotalBufferSize;
-  ULONG     ErrorPartitionSize;
-  ULONG_PTR LogIdentifierAppendValue;
-  BOOLEAN   LogIdentifierAppendValueSet;
-  ULONG     LogIdentifierSize;
-            LogIdentifier[RECORDER_LOG_IDENTIFIER_MAX_CHARS];
-} RECORDER_LOG_CREATE_PARAMS, *PRECORDER_LOG_CREATE_PARAMS;
-````
+The <b>RECORDER_LOG_CREATE_PARAMS</b> structure is an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn914615">WppRecorderLogCreate</a> method. 
 
 
 ## -struct-fields
@@ -117,12 +100,11 @@ Identifier to print when debug messages are merged. Lives at end of structure so
 
 ## -see-also
 
-<a href="..\wpprecorder\nf-wpprecorder-recorder_log_create_params_init.md">RECORDER_LOG_CREATE_PARAMS_INIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn914609">RECORDER_LOG_CREATE_PARAMS_INIT</a>
  
 
  
-
 

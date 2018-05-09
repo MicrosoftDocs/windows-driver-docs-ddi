@@ -7,7 +7,7 @@ old-location: kernel\_image_policy_entry.htm
 old-project: kernel
 ms.assetid: ea400bef-5c69-4f75-b96e-aae12292fd5a
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IMAGE_POLICY_ENTRY, IMAGE_POLICY_ENTRY structure [Kernel-Mode Driver Architecture], _IMAGE_POLICY_ENTRY, kernel._image_policy_entry, wdm/IMAGE_POLICY_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	IMAGE_POLICY_ENTRY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IMAGE_POLICY_ENTRY
-req.product: Windows 10 or later.
 ---
 
 # _IMAGE_POLICY_ENTRY structure

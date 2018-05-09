@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpntopology_interface_pfngetnumpaths.htm
 old-project: display
 ms.assetid: 60960774-3f90-4eeb-a408-fa37122f22ea
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS, VidPnFunctions_c330d233-9a8e-4c53-a73e-b789fb2cb7b0.xml, d3dkmddi/pfnGetNumPaths, display.dxgk_vidpntopology_interface_pfngetnumpaths, pfnGetNumPaths, pfnGetNumPaths callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS, DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS callback, VidPnFunctions_c330d233-9a8e-4c53-a73e-b789fb2cb7b0.xml, d3dkmddi/pfnGetNumPaths, display.dxgk_vidpntopology_interface_pfngetnumpaths, pfnGetNumPaths, pfnGetNumPaths callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	pfnGetNumPaths
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS callback
+# DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS callback function
 
 
 ## -description
 
 
 The <b>pfnGetNumPaths</b> function returns the number of video present paths in a specified VidPN topology.
-
-
-## -prototype
-
-
-````
-DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHS pfnGetNumPaths;
-
-NTSTATUS APIENTRY pfnGetNumPaths(
-  _In_  const D3DKMDT_HVIDPNTOPOLOGY hVidPnTopology,
-  _Out_       SIZE_T                 *pNumPaths
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ NTSTATUS APIENTRY pfnGetNumPaths(
 
 ### -param hVidPnTopology [in]
 
-[in] A handle to a VidPN topology object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_gettopology.md">pfnGetTopology</a> function of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> interface.
+[in] A handle to a VidPN topology object. The display miniport driver previously obtained this handle by calling the <a href="https://msdn.microsoft.com/2bc43cd0-97a2-4120-8e6f-425664d3d28c">pfnGetTopology</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562108">DXGK_VIDPN_INTERFACE</a> interface.
 
 
 ### -param pNumPaths [out]
@@ -131,12 +118,11 @@ The D3DKMDT_HVIDPNTOPOLOGY data type is defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntopology_getnumpathsfromsource.md">pfnGetNumPathsFromSource</a>
 
 
 
+<a href="https://msdn.microsoft.com/6c5ee84d-e106-47fc-88bd-b184e9cdd561">pfnGetNumPathsFromSource</a>
  
 
  
-
 

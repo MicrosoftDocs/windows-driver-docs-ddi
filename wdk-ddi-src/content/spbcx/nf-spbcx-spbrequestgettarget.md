@@ -7,7 +7,7 @@ old-location: spb\spbrequestgettarget.htm
 old-project: SPB
 ms.assetid: 2F89C886-99FF-4D6C-B52F-6422DB9E76AE
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbrequestgettarget, SpbRequestGetTarget, SpbRequestGetTarget method [Buses], spbcx/SpbRequestGetTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	spbcxstubs.dll
 api_name:
 -	SpbRequestGetTarget
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpbRequestGetTarget function
@@ -52,16 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SpbRequestGetTarget</b> method retrieves the SPBTARGET handle from the specified I/O request.
-
-
-## -syntax
-
-
-````
-SPBTARGET SpbRequestGetTarget(
-  _In_ SPBREQUEST SpbRequest
-);
-````
 
 
 ## -parameters
@@ -94,7 +84,6 @@ The returned SPBTARGET handle is guaranteed to remain valid until the correspond
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
 
 
 
@@ -102,8 +91,8 @@ The returned SPBTARGET handle is guaranteed to remain valid until the correspond
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
  
 
  
-
 

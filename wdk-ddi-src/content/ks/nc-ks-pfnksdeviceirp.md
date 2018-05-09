@@ -7,7 +7,7 @@ old-location: stream\avstrminidevicequeryremove.htm
 old-project: stream
 ms.assetid: c31d7e52-46f7-46b9-9fa2-1778f2301b4d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniDeviceQueryInterface, AVStrMiniDeviceQueryRemove, AVStrMiniDeviceQueryRemove routine [Streaming Media Devices], PFNKSDEVICEIRP, avstclbk_e4e3e23a-c4e7-47fb-ad10-6a0a630669ed.xml, ks/AVStrMiniDeviceQueryRemove, stream.avstrminidevicequeryremove
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,12 +38,13 @@ api_location:
 -	ks.h
 api_name:
 -	AVStrMiniDeviceQueryRemove
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSDEVICEIRP callback
+# PFNKSDEVICEIRP callback function
 
 
 ## -description
@@ -64,20 +65,6 @@ An AVStream minidriver's IRP handler routine is called when these IRPs is dispat
 
 
 
-## -prototype
-
-
-````
-PFNKSDEVICEIRP AVStrMiniDeviceQueryRemove;
-
-NTSTATUS AVStrMiniDeviceQueryRemove(
-  _In_ PKSDEVICE Device,
-  _In_ PIRP      Irp
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -85,7 +72,7 @@ NTSTATUS AVStrMiniDeviceQueryRemove(
 
 ### -param Device [in]
 
-Pointer to the <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> that dispatched the IRP.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> that dispatched the IRP.
 
 
 ### -param Irp [in]
@@ -116,7 +103,7 @@ Should return STATUS_SUCCESS or the error code that was returned from the attemp
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
 </td>
 <td>
-The minidriver specifies this routine's address in the <b>QueryRemove</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>QueryRemove</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> structure.
 
 This routine is called when an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a> is dispatched by the device. It will usually be provided by minidrivers that want to prevent removal of the device or by minidrivers that must disallow activity that would otherwise prevent them from committing to a device removal operation. If this routine is not provided, AVStream will assume that the device can commit to a removal.
 
@@ -133,7 +120,7 @@ This routine is optional.
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551725">IRP_MN_QUERY_STOP_DEVICE</a>
 </td>
 <td>
-The minidriver specifies a pointer to this routine in the <b>QueryStop</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
+The minidriver specifies a pointer to this routine in the <b>QueryStop</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> structure.
 
 Use <i>AVStrMiniQueryStop</i> to prevent the stopping of the device or to disallow activity that would prevent the minidriver from committing to a stop operation. If this routine is not specified, AVStream assumes that the minidriver can commit to a stop operation.
 
@@ -150,7 +137,7 @@ Success indicates that the device can commit to a stop and an error code indicat
 <td>
 A driver or system component sends this IRP to get information about an interface exported by your driver. For more information about the IRP, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>.
 
-The minidriver specifies this routine's address in the <b>QueryInterface</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>QueryInterface</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> structure.
 
 This routine is optional.
 
@@ -164,16 +151,15 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>
  
 
  
-
 

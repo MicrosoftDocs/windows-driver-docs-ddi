@@ -7,7 +7,7 @@ old-location: bltooth\l2cap_config_value_range.htm
 old-project: bltooth
 ms.assetid: 12d9b0c1-6dce-4dc6-a8df-706408e1fbe1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PL2CAP_CONFIG_VALUE_RANGE, L2CAP_CONFIG_VALUE_RANGE, L2CAP_CONFIG_VALUE_RANGE structure [Bluetooth Devices], PL2CAP_CONFIG_VALUE_RANGE, PL2CAP_CONFIG_VALUE_RANGE structure pointer [Bluetooth Devices], _L2CAP_CONFIG_VALUE_RANGE, bltooth.l2cap_config_value_range, bth_structs_3af526a5-d36e-432f-9d2e-fa31bee0effe.xml, bthddi/L2CAP_CONFIG_VALUE_RANGE, bthddi/PL2CAP_CONFIG_VALUE_RANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bthddi.h
 api_name:
 -	L2CAP_CONFIG_VALUE_RANGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: L2CAP_CONFIG_VALUE_RANGE, *PL2CAP_CONFIG_VALUE_RANGE
 ---
@@ -52,19 +53,7 @@ req.typenames: L2CAP_CONFIG_VALUE_RANGE, *PL2CAP_CONFIG_VALUE_RANGE
 The L2CAP_CONFIG_VALUE_RANGE structure is used to specify values for the 
   <b>Mtu</b> and 
   <b>FlushTO</b> members of the 
-  <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a> structure.
-
-
-## -syntax
-
-
-````
-typedef struct _L2CAP_CONFIG_VALUE_RANGE {
-  USHORT Min;
-  USHORT Preferred;
-  USHORT Max;
-} L2CAP_CONFIG_VALUE_RANGE, *PL2CAP_CONFIG_VALUE_RANGE;
-````
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a> structure.
 
 
 ## -struct-fields
@@ -121,7 +110,7 @@ If the remote device rejects the profile driver's
 The profile driver negotiates these values separately from the flush timeout settings that it sends to
     the Bluetooth driver stack when a remote device attempts to create an inbound L2CAP channel to the
     profile driver. For more information about L2CAP configuration ranges, see 
-    <a href="..\bthddi\ns-bthddi-_l2cap_config_range.md">L2CAP_CONFIG_RANGE</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536760">L2CAP_CONFIG_RANGE</a>.
 
 For 
     <b>Mtu</b> members settings, this structure provides 
@@ -134,12 +123,11 @@ For
 
 ## -see-also
 
-<a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\bda_pid_map.htm
 old-project: stream
 ms.assetid: a5ad0f35-8413-4828-92f8-47544a6e802e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_PID_MAP, BDA_PID_MAP, BDA_PID_MAP structure [Streaming Media Devices], PBDA_PID_MAP, PBDA_PID_MAP structure pointer [Streaming Media Devices], _BDA_PID_MAP, bdaref_a0793356-2192-4a72-9605-3d0d6d981ad2.xml, bdatypes/BDA_PID_MAP, bdatypes/PBDA_PID_MAP, stream.bda_pid_map"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	bdatypes.h
 api_name:
 -	BDA_PID_MAP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_PID_MAP, *PBDA_PID_MAP
 ---
@@ -50,18 +51,6 @@ req.typenames: BDA_PID_MAP, *PBDA_PID_MAP
 
 
 The BDA_PID_MAP structure describes a type of data to filter out of the input stream of a packet identifier (PID) filter and then pass to a downstream filter. This output consists of packets that are identified with PIDs and contain particular media content. 
-
-
-## -syntax
-
-
-````
-typedef struct _BDA_PID_MAP {
-  MEDIA_SAMPLE_CONTENT MediaSampleContent;
-  ULONG                ulcPIDs;
-  ULONG                aulPIDs[MIN_DIMENSION];
-} BDA_PID_MAP, *PBDA_PID_MAP;
-````
 
 
 ## -struct-fields
@@ -86,15 +75,10 @@ Array of PIDs that identify packets to map to the output of a PID filter.
 
 ## -see-also
 
-<a href="..\bdatypes\ns-bdatypes-pid_map.md">PID_MAP</a>
 
 
 
-<a href="..\bdatypes\ns-bdatypes-_bda_pid_unmap.md">BDA_PID_UNMAP</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556540">BDA_PID_UNMAP</a>
 
 
 
@@ -102,8 +86,12 @@ Array of PIDs that identify packets to map to the output of a PID filter.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567763">PID_MAP</a>
  
 
  
-
 

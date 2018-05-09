@@ -7,7 +7,7 @@ old-location: stream\ksvalidateallocatorframingex.htm
 old-project: stream
 ms.assetid: c30e1bae-08fc-496e-8781-2f47398a7b82
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsValidateAllocatorFramingEx, KsValidateAllocatorFramingEx function [Streaming Media Devices], ks/KsValidateAllocatorFramingEx, ksfunc_11744207-4d37-4b6c-a0bf-c454d7502b38.xml, stream.ksvalidateallocatorframingex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsValidateAllocatorFramingEx
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,16 +51,6 @@ req.typenames:
 
 
 For system use only.
-
-
-## -syntax
-
-
-````
-  KsValidateAllocatorFramingEx(
-    
-);
-````
 
 
 ## -parameters

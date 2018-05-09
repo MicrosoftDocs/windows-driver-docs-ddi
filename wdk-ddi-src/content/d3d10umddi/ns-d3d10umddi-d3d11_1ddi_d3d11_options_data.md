@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_d3d11_options_data.htm
 old-project: display
 ms.assetid: de5fa80e-d3bd-40ef-8e4d-07a0a336f25c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_D3D11_OPTIONS_DATA, D3D11_1DDI_D3D11_OPTIONS_DATA structure [Display Devices], d3d10umddi/D3D11_1DDI_D3D11_OPTIONS_DATA, display.d3d11_1ddi_d3d11_options_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_D3D11_OPTIONS_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_D3D11_OPTIONS_DATA
 ---
@@ -50,17 +51,6 @@ req.typenames: D3D11_1DDI_D3D11_OPTIONS_DATA
 
 
 Specifies options to provide data to the user-mode display driver.
-
-
-## -syntax
-
-
-````
-typedef struct D3D11_1DDI_D3D11_OPTIONS_DATA {
-  BOOL OutputMergerLogicOp;
-  BOOL AssignDebugBinarySupport;
-} D3D11_1DDI_D3D11_OPTIONS_DATA;
-````
 
 
 ## -struct-fields
@@ -75,17 +65,16 @@ Specifies whether logic operations are available in the blend state. The user-mo
 
 ### -field AssignDebugBinarySupport
 
-Specifies whether the driver supports the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_assigndebugbinary.md">AssignDebugBinary</a> function, which provides the full shader binary that is available after shader creation.
+Specifies whether the driver supports the <a href="https://msdn.microsoft.com/eb1e3c27-71c1-4920-9aa4-3253306fa3f4">AssignDebugBinary</a> function, which provides the full shader binary that is available after shader creation.
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_assigndebugbinary.md">AssignDebugBinary</a>
 
 
 
+<a href="https://msdn.microsoft.com/eb1e3c27-71c1-4920-9aa4-3253306fa3f4">AssignDebugBinary</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dddidevinfo_vcache.htm
 old-project: display
 ms.assetid: 06635207-39fd-4ef9-b388-25513f8194fe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIDEVINFO_VCACHE, D3DDDIDEVINFO_VCACHE structure [Display Devices], D3D_other_Structs_e212d960-07ba-4887-8b31-76ad54a7ae03.xml, _D3DDDIDEVINFO_VCACHE, d3dumddi/D3DDDIDEVINFO_VCACHE, display.d3dddidevinfo_vcache
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIDEVINFO_VCACHE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIDEVINFO_VCACHE
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DDDIDEVINFO_VCACHE
 
 
 The D3DDDIDEVINFO_VCACHE structure describes the vertex-cache information of a device.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIDEVINFO_VCACHE {
-  UINT Pattern;
-  UINT OptMethod;
-  UINT CacheSize;
-  UINT MagicNumber;
-} D3DDDIDEVINFO_VCACHE;
-````
 
 
 ## -struct-fields
@@ -132,41 +120,40 @@ Vertex-cache-based optimization
 
 
 
-<b>Direct3D runtime version 9.0 and later.</b> The Microsoft Direct3D runtime calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a> function to create driver-side resources for the vertex-cache query. In this <b>CreateQuery</b> call, the runtime specifies the D3DDDIQUERYTYPE_VCACHE query type in the <b>QueryType</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIARG_CREATEQUERY</a> structure. The driver should allocate a D3DDDIDEVINFO_VCACHE structure. The runtime then calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a> function to process the vertex-cache query. The driver should insert a graphics processing unit (GPU) instruction to write the vertex-cache data to an allocation. To retrieve the vertex-cache information from the driver, the runtime calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a> function. In this <b>GetQueryData</b> call, the driver should lock the allocation and return the vertex-cache data at the <b>pData</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getquerydata.md">D3DDDIARG_GETQUERYDATA</a> structure that is pointed to by the <i>pData</i> parameter.
+<b>Direct3D runtime version 9.0 and later.</b> The Microsoft Direct3D runtime calls the driver's <a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a> function to create driver-side resources for the vertex-cache query. In this <b>CreateQuery</b> call, the runtime specifies the D3DDDIQUERYTYPE_VCACHE query type in the <b>QueryType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542958">D3DDDIARG_CREATEQUERY</a> structure. The driver should allocate a D3DDDIDEVINFO_VCACHE structure. The runtime then calls the driver's <a href="https://msdn.microsoft.com/e31b2b6a-3721-472a-8044-6516a8419ad3">IssueQuery</a> function to process the vertex-cache query. The driver should insert a graphics processing unit (GPU) instruction to write the vertex-cache data to an allocation. To retrieve the vertex-cache information from the driver, the runtime calls the driver's <a href="https://msdn.microsoft.com/64daec14-8e16-4df3-bb0c-27760223b86c">GetQueryData</a> function. In this <b>GetQueryData</b> call, the driver should lock the allocation and return the vertex-cache data at the <b>pData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543182">D3DDDIARG_GETQUERYDATA</a> structure that is pointed to by the <i>pData</i> parameter.
 
-<b>Direct3D runtime version 8.1 only.</b> The Direct3D runtime calls the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getinfo.md">GetInfo</a> function to obtain vertex-cache information from the driver. In this <b>GetInfo</b> call, the runtime passes the D3DDDIDEVINFOID_VCACHE flag in the <i>DevInfoID</i> parameter. The driver specifies vertex-cache information in a D3DDDIDEVINFO_VCACHE structure and returns it at the <i>pDevInfoStruct</i> parameter.
+<b>Direct3D runtime version 8.1 only.</b> The Direct3D runtime calls the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a> function to obtain vertex-cache information from the driver. In this <b>GetInfo</b> call, the runtime passes the D3DDDIDEVINFOID_VCACHE flag in the <i>DevInfoID</i> parameter. The driver specifies vertex-cache information in a D3DDDIDEVINFO_VCACHE structure and returns it at the <i>pDevInfoStruct</i> parameter.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getquerydata.md">D3DDDIARG_GETQUERYDATA</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_issuequery.md">IssueQuery</a>
+<a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIARG_CREATEQUERY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542958">D3DDDIARG_CREATEQUERY</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createquery.md">CreateQuery</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543182">D3DDDIARG_GETQUERYDATA</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getquerydata.md">GetQueryData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getinfo.md">GetInfo</a>
+<a href="https://msdn.microsoft.com/64daec14-8e16-4df3-bb0c-27760223b86c">GetQueryData</a>
 
 
 
+<a href="https://msdn.microsoft.com/e31b2b6a-3721-472a-8044-6516a8419ad3">IssueQuery</a>
  
 
  
-
 

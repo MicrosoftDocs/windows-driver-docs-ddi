@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsPrepareIoOperation
-title: IKsDataTypeHandler::KsPrepareIoOperation method
+title: IKsDataTypeHandler::KsPrepareIoOperation
 author: windows-driver-content
 description: The KsPrepareIoOperation method initializes the extended header and prepares the media sample for an I/O operation.
 old-location: stream\iksdatatypehandler_ksprepareiooperation.htm
 old-project: stream
 ms.assetid: 16411d58-5fff-430f-b96d-78eed1dbb01c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], KsPrepareIoOperation method, IKsDataTypeHandler::KsPrepareIoOperation, KsPrepareIoOperation method [Streaming Media Devices], KsPrepareIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface, KsPrepareIoOperation,IKsDataTypeHandler.KsPrepareIoOperation, ksproxy/IKsDataTypeHandler::KsPrepareIoOperation, ksproxy_24b2f3a8-8870-434e-9f15-71fa363d3215.xml, stream.iksdatatypehandler_ksprepareiooperation
+ms.date: 4/23/2018
+ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsPrepareIoOperation method, IKsDataTypeHandler.KsPrepareIoOperation, IKsDataTypeHandler::KsPrepareIoOperation, KsPrepareIoOperation, KsPrepareIoOperation method [Streaming Media Devices], KsPrepareIoOperation method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsPrepareIoOperation, ksproxy_24b2f3a8-8870-434e-9f15-71fa363d3215.xml, stream.iksdatatypehandler_ksprepareiooperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	ksproxy.h
 api_name:
 -	IKsDataTypeHandler.KsPrepareIoOperation
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsDataTypeHandler::KsPrepareIoOperation method
+# IKsDataTypeHandler::KsPrepareIoOperation
 
 
 ## -description
 
 
 The <b>KsPrepareIoOperation</b> method initializes the extended header and prepares the media sample for an I/O operation.
-
-
-## -syntax
-
-
-````
-HRESULT KsPrepareIoOperation(
-  [in, out] IMediaSample  *Sample,
-  [in, out] PVOID         StreamHeader,
-  [in]      KSIOOPERATION IoOperation
-);
-````
 
 
 ## -parameters
@@ -134,12 +123,11 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559836">IKsDataTypeHandler::KsQueryExtendedSize</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\pd_buffer.htm
 old-project: netvista
 ms.assetid: 91555FBA-30F5-4CED-BA0D-2F0BE40BFF9E
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: PD_BUFFER, PD_BUFFER structure [Network Drivers Starting with Windows Vista], PPD_BUFFER, PPD_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER, ndis/PD_BUFFER, ndis/PPD_BUFFER, netvista.pd_buffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ndis.h
 api_name:
 -	PD_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PD_BUFFER
 ---
@@ -50,81 +51,6 @@ req.typenames: PD_BUFFER
 
 
 This structure represents a PacketDirect (PD) packet, or a portion of a PD packet in a queue.
-
-
-## -syntax
-
-
-````
-typedef struct _PD_BUFFER {
-  PD_BUFFER                                                       *NextPDBuffer;
-  PD_BUFFER                                                       *NextPartialPDBuffer;
-  PVOID                                                           PDClientReserved;
-  _Field_size_bytes_(PDClientContextSize)  PVOID                  PDClientContext;
-  _Field_size_bytes_(DataBufferSize)  
- PUCHAR                    DataBufferVirtualAddress;
-   _Field_size_bytes_(DataBufferSize)  
-      DMA_LOGICAL_ADDRESS DataBufferDmaLogicalAddress;
-  ULONG                                                           DataBufferSize;
-  USHORT                                                          PDClientContextSize;
-  USHORT                                                          Attributes;
-  USHORT                                                          Flags;
-  USHORT                                                          DataStart;
-  ULONG                                                           DataLength;
-  union {
-    struct {
-      union {
-        ULONG64 RxFilterContext;
-        ULONG64 GftFlowEntryId;
-      };
-      ULONG                         RxHashValue;
-      union {
-        struct {
-          ULONG RxIPHeaderChecksumSucceeded  :1;
-          ULONG RxTCPChecksumSucceeded  :1;
-          ULONG RxUDPChecksumSucceeded  :1;
-          ULONG RxIPHeaderChecksumFailed  :1;
-          ULONG RxTCPChecksumFailed  :1;
-          ULONG RxUDPChecksumFailed  :1;
-          ULONG RxHashComputed  :1;
-          ULONG RxHashWithL4PortNumbers  :1;
-          ULONG RxGftExceptionPacket  :1;
-          ULONG RxGftCopyPacket  :1;
-          ULONG RxGftSamplePacket  :1;
-          ULONG RxReserved1  :5;
-          ULONG RxCoalescedSegCount  :16;
-          ULONG RxRscTcpTimestampDelta  :1;
-        };
-        ULONG  RxOffloads[2];
-      };
-      union {
-        struct {
-          ULONG TxIsIPv4  :1;
-          ULONG TxIsIPv6  :1;
-          ULONG TxTransportHeaderOffset  :10;
-          ULONG TxMSS  :20;
-          ULONG TxComputeIPHeaderChecksum  :1;
-          ULONG TxComputeTCPChecksum  :1;
-          ULONG TxComputeUDPChecksum  :1;
-          ULONG TxIsEncapsulatedPacket  :1;
-          ULONG TxInnerPacketOffsetsValid  :1;
-          ULONG TxReserved1  :11;
-          ULONG TxInnerFrameOffset  :8;
-          ULONG TxInnerIpHeaderRelativeOffset  :6;
-          ULONG TxInnerIsIPv6  :1;
-          ULONG TxInnerTcpOptionsPresent  :1;
-        };
-        ULONG  TxOffloads[2];
-      };
-      PD_BUFFER_VIRTUAL_SUBNET_INFO VirtualSubnetInfo;
-      PD_BUFFER_8021Q_INFO          Ieee8021qInfo;
-      USHORT                        GftSourceVPortId;
-      ULONG                         Reserved;
-      UINT64                        ProviderScratch;
-    } MetaDataV0;
-  };
-} PD_BUFFER, *PPD_BUFFER;
-````
 
 
 ## -struct-fields
@@ -233,8 +159,7 @@ The length of the this packet or partial packet data.
 ### -field MetaDataV0
 
 
-
-#### RxFilterContext
+### -field MetaDataV0.RxFilterContext
 
 The provider sets this to the filter context value obtained
                 from the matched filter that steered the packet to the receive
@@ -242,23 +167,10 @@ The provider sets this to the filter context value obtained
                 when configuring filters.
 
 
-
-#### GftFlowEntryId
+### -field MetaDataV0.GftFlowEntryId
 
 If one of the RxGftExceptionPacket or RxGftCopyPacket or RxGftSamplePacket bits are set, the RxFilterContext value is
                 overwritten with a GFT flow entry Id value.
-
-
-
-#### RxOffloads
-
-RX offloads for this buffer.
-
-
-
-#### TxOffloads
-
-TX offloads for this buffer.
 
 
 ### -field MetaDataV0.RxHashValue
@@ -342,6 +254,11 @@ A common RX offload field that contains the amount of coalesced segments.
 A common RX offload field that contains RSC and TCP timestamp difference.
 
 
+### -field MetaDataV0.RxOffloads
+
+RX offloads for this buffer.
+
+
 ### -field MetaDataV0.TxIsIPv4
 
 A common TX offload field that indicates this packet is IPv4.
@@ -412,6 +329,11 @@ A common TX offload field that indicates the inner packet is IPv6.
 A common TX offload field that indicates the inner TCP options are present.
 
 
+### -field MetaDataV0.TxOffloads
+
+TX offloads for this buffer.
+
+
 ### -field MetaDataV0.VirtualSubnetInfo
 
 The virtual subnet information.
@@ -453,7 +375,7 @@ length of the L2 packet is the sum of DataLength fields from each partial
 the inner-most IP transport header must be contained in the head <b>PD_BUFFER</b>.
 
 When posting <b>PD_BUFFER</b> structures to receive queues, DataLength is ignored by
-    the provider (For more information see the ReceiveDataLength description in the <a href="..\ndis\ns-ndis-_ndis_pd_queue_parameters.md">NDIS_PD_QUEUE_PARAMETERS</a> structure).
+    the provider (For more information see the ReceiveDataLength description in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931846">NDIS_PD_QUEUE_PARAMETERS</a> structure).
     When draining completed <b>PD_BUFFER</b>  structures from receive queues,
     the provider stores the length of the received packet in the  DataLength field. The length does not include FCS or any stripped 801Q
     headers.

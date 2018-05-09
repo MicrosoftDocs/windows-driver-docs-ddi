@@ -7,7 +7,7 @@ old-location: storage\hba_scsireportlunsv2.htm
 old-project: storage
 ms.assetid: 6a4dfb93-4044-4a7a-a993-38c91f84cae2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_ScsiReportLUNsV2, HBA_ScsiReportLUNsV2 routine [Storage Devices], fibreHBA_rtns_ca5de2ac-67e1-49e0-9397-c5e987854154.xml, hbaapi/HBA_ScsiReportLUNsV2, storage.hba_scsireportlunsv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_ScsiReportLUNsV2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_ScsiReportLUNsV2 function
@@ -50,23 +51,6 @@ req.typenames: HBA_WWNTYPE
 
 
 The <b>HBA_ScsiReportLUNsV2</b> routine sends a SCSI report LUNs command to the indicated remote port. 
-
-
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_ScsiReportLUNsV2(
-  _In_    HBA_HANDLE HbaHandle,
-  _In_    HBA_WWN    HbaPortWWN,
-  _In_    HBA_WWN    discoveredPortWWN,
-  _Out_   void       *pRespBuffer,
-  _Inout_ HBA_UINT32 *pRespBufferSize,
-  _Out_   HBA_UINT8  *pScsiStatus,
-  _Out_   void       *pSenseBuffer,
-  _Inout_ HBA_UINT32 *pSenseBufferSize
-);
-````
 
 
 ## -parameters
@@ -116,7 +100,7 @@ On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On
 
 #### - HbaHandle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI report LUNs command is sent.
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI report LUNs command is sent.
 
 
 #### - discoveredPortWWN [in]
@@ -209,16 +193,15 @@ Returned if an unspecified error occurred that prevented the execution of the SC
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
-
-
-
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_clear_stats.htm
 old-project: serports
 ms.assetid: b5549ab2-8978-4fe2-ac08-56e28179714e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_CLEAR_STATS, IOCTL_SERIAL_CLEAR_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_CLEAR_STATS, serports.ioctl_serial_clear_stats, serref_c6feaf5c-cde0-4ee9-8db7-fd96fa41ef9e.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_CLEAR_STATS, IOCTL_SERIAL_CLEAR_STATS control, IOCTL_SERIAL_CLEAR_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_CLEAR_STATS, serports.ioctl_serial_clear_stats, serref_c6feaf5c-cde0-4ee9-8db7-fd96fa41ef9e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_CLEAR_STATS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_CLEAR_STATS IOCTL
@@ -51,7 +52,7 @@ req.typenames: SD_REQUEST_FUNCTION
 
 The <b>IOCTL_SERIAL_CLEAR_STATS</b> request clears the performance statistics for a serial device.
 
-To obtain the performance statistics, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a> request.
+To obtain the performance statistics, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546600">IOCTL_SERIAL_GET_STATS</a> request.
 
 
 ## -ioctlparameters
@@ -106,12 +107,11 @@ The <b>Status</b> field is set to one of the <a href="https://docs.microsoft.com
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_stats.md">IOCTL_SERIAL_GET_STATS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546600">IOCTL_SERIAL_GET_STATS</a>
  
 
  
-
 

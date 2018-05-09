@@ -7,7 +7,7 @@ old-location: kernel\iogetdeviceinterfacepropertydata.htm
 old-project: kernel
 ms.assetid: 01113C73-2C79-40F2-9B13-B864148D2C9A
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoGetDeviceInterfacePropertyData, IoGetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceinterfacepropertydata, wdm/IoGetDeviceInterfacePropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoGetDeviceInterfacePropertyData
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoGetDeviceInterfacePropertyData function
@@ -53,23 +53,6 @@ req.product: Windows 10 or later.
 The <b>IoGetDeviceInterfacePropertyData</b> routine retrieves the current value of a <a href="https://msdn.microsoft.com/43aa0ce6-a06b-43e4-a213-300554391ae0">device interface property</a>.
 
 
-## -syntax
-
-
-````
-NTSTATUS IoGetDeviceInterfacePropertyData(
-  _In_       PUNICODE_STRING  SymbolicLinkName,
-  _In_       CONST DEVPROPKEY *PropertyKey,
-  _In_       LCID             Lcid,
-  _Reserved_ ULONG            Flags,
-  _In_       ULONG            Size,
-  _Out_      PVOID            Data,
-  _Out_      PULONG           RequiredSize,
-  _Out_      PDEVPROPTYPE     Type
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +60,7 @@ NTSTATUS IoGetDeviceInterfacePropertyData(
 
 ### -param SymbolicLinkName [in]
 
-A pointer to a string that identifies the device interface instance. This string was obtained from a previous call to the <a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>, <a href="..\wdm\nf-wdm-iogetdeviceinterfacealias.md">IoGetDeviceInterfaceAlias</a>, or <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a> routine.
+A pointer to a string that identifies the device interface instance. This string was obtained from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549186">IoGetDeviceInterfaces</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549180">IoGetDeviceInterfaceAlias</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a> routine.
 
 
 ### -param PropertyKey [in]
@@ -171,7 +154,7 @@ The specified property is not supported.
 
 Kernel-mode drivers use the <b>IoGetDeviceInterfacePropertyData</b> routine to retrieve device interface properties that are defined as part of the <a href="https://msdn.microsoft.com/51105f84-38d8-4005-a3fd-4beccc0a2a39">unified device property model</a>. For more information about device interface properties, see <a href="https://msdn.microsoft.com/f41040c5-0eac-450d-b532-9165c543cc1a">Device Properties</a>.
 
-Drivers can use the <a href="..\wdm\nf-wdm-iosetdeviceinterfacepropertydata.md">IoSetDeviceInterfacePropertyData</a> routine to modify a device interface property.
+Drivers can use the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439388">IoSetDeviceInterfacePropertyData</a> routine to modify a device interface property.
 
 Callers of <b>IoGetDeviceInterfacePropertyData</b> must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
@@ -180,11 +163,6 @@ Callers of <b>IoGetDeviceInterfacePropertyData</b> must be running at IRQL = PAS
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetdeviceinterfacepropertydata.md">IoSetDeviceInterfacePropertyData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
 
 
 
@@ -192,8 +170,12 @@ Callers of <b>IoGetDeviceInterfacePropertyData</b> must be running at IRQL = PAS
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439388">IoSetDeviceInterfacePropertyData</a>
  
 
  
-
 

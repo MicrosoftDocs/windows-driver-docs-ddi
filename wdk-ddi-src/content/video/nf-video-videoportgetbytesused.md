@@ -7,7 +7,7 @@ old-location: display\videoportgetbytesused.htm
 old-project: display
 ms.assetid: 67fe089d-4cde-4caa-a4ad-8e879a30b516
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortGetBytesUsed, VideoPortGetBytesUsed function [Display Devices], VideoPort_Functions_315c6ad1-757d-44d3-8059-d94ab407ea69.xml, display.videoportgetbytesused, video/VideoPortGetBytesUsed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Videoprt.sys
 api_name:
 -	VideoPortGetBytesUsed
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortGetBytesUsed function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>VideoPortGetBytesUsed</b> function is <b>obsolete</b> in Windows 2000 and later.
 
 <b>VideoPortGetBytesUsed</b> determines the size, in bytes, of the buffer associated with a DMA handle.
-
-
-## -syntax
-
-
-````
-ULONG VideoPortGetBytesUsed(
-  _In_ PVOID HwDeviceExtension,
-  _In_ PDMA  pDma
-);
-````
 
 
 ## -parameters
@@ -78,7 +67,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pDma [in]
 
-Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="..\video\nf-video-videoportlockpages.md">VideoPortLockPages</a> returns. 
+Pointer to a DMA handle. To obtain the appropriate DMA handle, use the value in the <b>OutputBuffer</b> member of the <i>pVrp</i> parameter after <a href="https://msdn.microsoft.com/library/windows/hardware/ff570327">VideoPortLockPages</a> returns. 
 
 
 ## -returns

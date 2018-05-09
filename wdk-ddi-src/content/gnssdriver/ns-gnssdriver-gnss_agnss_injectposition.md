@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_AGNSS_INJECTPOSITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_INJECTPOSITION, *PGNSS_AGNSS_INJECTPOSITION
 ---
@@ -50,20 +51,6 @@ req.typenames: GNSS_AGNSS_INJECTPOSITION, *PGNSS_AGNSS_INJECTPOSITION
 
 
 This structure defines the format for AGNSS position injection.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG                 Size;
-  ULONG                 Version;
-  ULONG                 Age;
-  GNSS_FIXDATA_BASIC    BasicData;
-  GNSS_FIXDATA_ACCURACY AccuracyData;
-} GNSS_AGNSS_INJECTPOSITION, *PGNSS_AGNSS_INJECTPOSITION;
-````
 
 
 ## -struct-fields

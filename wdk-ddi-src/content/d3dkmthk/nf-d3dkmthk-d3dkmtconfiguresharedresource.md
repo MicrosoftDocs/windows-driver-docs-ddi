@@ -7,8 +7,8 @@ old-location: display\d3dkmtconfiguresharedresource.htm
 old-project: display
 ms.assetid: 3664ef23-f7bc-4a94-8085-aa5a3d0ba550
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3DKMTConfigureSharedResource, D3DKMTConfigureSharedResource callback function [Display Devices], OpenGL_Functions_f95f6a64-49a7-4a93-a544-6d4315f12212.xml, PFND3DKMT_CONFIGURESHAREDRESOURCE, d3dkmthk/D3DKMTConfigureSharedResource, display.d3dkmtconfiguresharedresource
+ms.date: 4/16/2018
+ms.keywords: D3DKMTConfigureSharedResource, D3DKMTConfigureSharedResource callback function [Display Devices], OpenGL_Functions_f95f6a64-49a7-4a93-a544-6d4315f12212.xml, PFND3DKMT_CONFIGURESHAREDRESOURCE, PFND3DKMT_CONFIGURESHAREDRESOURCE callback, d3dkmthk/D3DKMTConfigureSharedResource, display.d3dkmtconfiguresharedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -38,9 +38,10 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTConfigureSharedResource
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTConfigureSharedResource function
@@ -50,16 +51,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTConfigureSharedResource</b> function configures a shared resource. 
-
-
-## -syntax
-
-
-````
-NTSTATUS D3DKMTConfigureSharedResource(
-  _In_ const D3DKMT_CONFIGURESHAREDRESOURCE *pData
-);
-````
 
 
 ## -parameters
@@ -76,7 +67,7 @@ TBD
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_configuresharedresource.md">D3DKMT_CONFIGURESHAREDRESOURCE</a> structure that specifies parameters to configure the shared resource. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547793">D3DKMT_CONFIGURESHAREDRESOURCE</a> structure that specifies parameters to configure the shared resource. 
 
 
 ## -returns
@@ -131,7 +122,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtconfiguresharedresource.md">D3DKMTConfigureSharedResource</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546798">D3DKMTConfigureSharedResource</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -145,12 +136,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_configuresharedresource.md">D3DKMT_CONFIGURESHAREDRESOURCE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547793">D3DKMT_CONFIGURESHAREDRESOURCE</a>
  
 
  
-
 

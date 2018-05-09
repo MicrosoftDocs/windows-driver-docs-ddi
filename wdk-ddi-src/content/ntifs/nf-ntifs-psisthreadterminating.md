@@ -7,7 +7,7 @@ old-location: ifsk\psisthreadterminating.htm
 old-project: ifsk
 ms.assetid: 2b82b060-79ea-4add-b559-af37c954537e
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: PsIsThreadTerminating, PsIsThreadTerminating routine [Installable File System Drivers], ifsk.psisthreadterminating, ntifs/PsIsThreadTerminating, psref_55824a18-3df1-4d43-bc9c-77da8ee6cf6c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsIsThreadTerminating
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # PsIsThreadTerminating function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>PsIsThreadTerminating</b> routine checks whether a thread is terminating.
-
-
-## -syntax
-
-
-````
-BOOLEAN PsIsThreadTerminating(
-  _In_ PETHREAD Thread
-);
-````
 
 
 ## -parameters
@@ -92,12 +83,11 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psgetprocessexittime.md">PsGetProcessExitTime</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551902">PsGetProcessExitTime</a>
  
 
  
-
 

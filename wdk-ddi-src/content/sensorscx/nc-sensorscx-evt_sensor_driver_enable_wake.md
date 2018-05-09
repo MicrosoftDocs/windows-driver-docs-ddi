@@ -7,8 +7,8 @@ old-location: sensors\evt_sensor_driver_enable_wake.htm
 old-project: sensors
 ms.assetid: 969E08D1-0D4A-4FED-9722-4EDA067C522C
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_ENABLE_WAKE, EVT_SENSOR_DRIVER_ENABLE_WAKE callback function [Sensor Devices], sensors.evt_sensor_driver_enable_wake, sensorscx/EVT_SENSOR_DRIVER_ENABLE_WAKE
+ms.date: 4/30/2018
+ms.keywords: EVT_SENSOR_DRIVER_ENABLE_WAKE, EVT_SENSOR_DRIVER_ENABLE_WAKE callback, EVT_SENSOR_DRIVER_ENABLE_WAKE callback function [Sensor Devices], sensors.evt_sensor_driver_enable_wake, sensorscx/EVT_SENSOR_DRIVER_ENABLE_WAKE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EVT_SENSOR_DRIVER_ENABLE_WAKE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_ENABLE_WAKE callback
+# EVT_SENSOR_DRIVER_ENABLE_WAKE callback function
 
 
 ## -description
 
 
 Callback to enable wake for the sensor. 
-
-
-## -prototype
-
-
-````
-NTSTATUS CALLBACK EVT_SENSOR_DRIVER_ENABLE_WAKE(
-  _In_ SENSOROBJECT Sensor
-);
-````
 
 
 ## -parameters

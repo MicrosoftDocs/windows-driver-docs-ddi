@@ -8,7 +8,7 @@ old-project: PCMCIA
 ms.assetid: d270f39a-d8e8-4ec6-987e-e755da767495
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IsWriteProtected, IsWriteProtected callback function [Buses], PCMCIA.pcmcia_is_write_protected, PCMCIA_IS_WRITE_PROTECTED, memcdref_e7dab6ad-c94a-42c9-a969-f102c58e4d3c.xml, ntddpcm/IsWriteProtected
+ms.keywords: IsWriteProtected, IsWriteProtected callback function [Buses], PCMCIA.pcmcia_is_write_protected, PCMCIA_IS_WRITE_PROTECTED, PCMCIA_IS_WRITE_PROTECTED callback, memcdref_e7dab6ad-c94a-42c9-a969-f102c58e4d3c.xml, ntddpcm/IsWriteProtected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,31 +38,19 @@ api_location:
 -	ntddpcm.h
 api_name:
 -	IsWriteProtected
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
+req.typenames: 
 ---
 
-# PCMCIA_IS_WRITE_PROTECTED callback
+# PCMCIA_IS_WRITE_PROTECTED callback function
 
 
 ## -description
 
 
 The <b>PCMCIA_IS_WRITE_PROTECTED</b> interface routine returns the write-protect condition of a PCMCIA memory card.
-
-
-## -prototype
-
-
-````
-PCMCIA_IS_WRITE_PROTECTED IsWriteProtected;
-
-BOOLEAN IsWriteProtected(
-  _In_opt_ PVOID Context
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -97,7 +85,6 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
 
 
 
@@ -105,8 +92,8 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	wlanihv.h
 api_name:
 -	DOT11_EAP_RESULT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_EAP_RESULT, *PDOT11_EAP_RESULT
 req.product: Windows 10 or later.

@@ -7,7 +7,7 @@ old-location: display\d3dkmtsetvidpnsourceowner2.htm
 old-project: display
 ms.assetid: 14ba3307-753f-4dca-8d4d-c87b3fee00a5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTSetVidPnSourceOwner2, D3DKMTSetVidPnSourceOwner2 method [Display Devices], d3dkmthk/D3DKMTSetVidPnSourceOwner2, display.d3dkmtsetvidpnsourceowner2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTSetVidPnSourceOwner2
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTSetVidPnSourceOwner2 function
@@ -52,16 +53,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 			
             Used to set the VidPN source owner.
-
-
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTSetVidPnSourceOwner2(
-  _In_ const D3DKMT_SETVIDPNSOURCEOWNER2   D3dkmt_setvidpnsourceowner2
-);
-````
 
 
 ## -parameters

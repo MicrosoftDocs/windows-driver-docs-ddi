@@ -7,7 +7,7 @@ old-location: kernel\tmrecoverresourcemanager.htm
 old-project: kernel
 ms.assetid: d327ea40-ce4d-4218-a367-919240a5a60c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: TmRecoverResourceManager, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], kernel.tmrecoverresourcemanager, ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml, wdm/TmRecoverResourceManager
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,10 +40,10 @@ api_location:
 -	tm.sys
 api_name:
 -	TmRecoverResourceManager
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # TmRecoverResourceManager function
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>TmRecoverResourceManager</b> routine tries to recover the transaction that is associated with each enlistment of a specified <a href="https://msdn.microsoft.com/b44f2035-ee9f-453b-b12d-89ca36a8b280">resource manager object</a>.
 
 
-## -syntax
-
-
-````
-NTSTATUS TmRecoverResourceManager(
-  _In_ PKRESOURCEMANAGER ResourceManager
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ NTSTATUS TmRecoverResourceManager(
 
 ### -param ResourceManager [in]
 
-A pointer to a resource manager object. To obtain this pointer, your component must call <a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a> or <a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a> provided.
+A pointer to a resource manager object. To obtain this pointer, your component must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a> and supply the object handle that a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566427">ZwCreateResourceManager</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567026">ZwOpenResourceManager</a> provided.
 
 
 ## -returns
@@ -109,7 +99,7 @@ The routine might return other <a href="https://msdn.microsoft.com/library/windo
 
 
 
-The <b>TmRecoverResourceManager</b> routine is a pointer-based version of the <a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a> routine.
+The <b>TmRecoverResourceManager</b> routine is a pointer-based version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567078">ZwRecoverResourceManager</a> routine.
 
 For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of <b>Zw<i>Xxx</i></b> routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565567">Using TmXxx Routines</a>.
 
@@ -118,24 +108,23 @@ For information about when to use KTM's <b>Tm<i>Xxx</i></b> routines instead of 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwrecoverresourcemanager.md">ZwRecoverResourceManager</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopenresourcemanager.md">ZwOpenResourceManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566427">ZwCreateResourceManager</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreateresourcemanager.md">ZwCreateResourceManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567026">ZwOpenResourceManager</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567078">ZwRecoverResourceManager</a>
  
 
  
-
 

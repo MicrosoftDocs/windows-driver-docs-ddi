@@ -7,7 +7,7 @@ old-location: stream\ksproperty_videocontrol_caps_s.htm
 old-project: stream
 ms.assetid: e651202a-d0da-4147-9439-6cf0731c4886
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_VIDEOCONTROL_CAPS_S, KSPROPERTY_VIDEOCONTROL_CAPS_S, KSPROPERTY_VIDEOCONTROL_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCONTROL_CAPS_S, PKSPROPERTY_VIDEOCONTROL_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOCONTROL_CAPS_S, ksmedia/PKSPROPERTY_VIDEOCONTROL_CAPS_S, stream.ksproperty_videocontrol_caps_s, vidcapstruct_5b6a48da-ae8f-488c-8c9d-73de960df710.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_VIDEOCONTROL_CAPS_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_VIDEOCONTROL_CAPS_S, *PKSPROPERTY_VIDEOCONTROL_CAPS_S
 ---
@@ -50,18 +51,6 @@ req.typenames: KSPROPERTY_VIDEOCONTROL_CAPS_S, *PKSPROPERTY_VIDEOCONTROL_CAPS_S
 
 
 The KSPROPERTY_VIDEOCONTROL_CAPS_S structure describes the video-control capabilities of a minidriver, such as image flipping or event triggering abilities.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  ULONG      StreamIndex;
-  ULONG      VideoControlCaps;
-} KSPROPERTY_VIDEOCONTROL_CAPS_S, *PKSPROPERTY_VIDEOCONTROL_CAPS_S;
-````
 
 
 ## -struct-fields
@@ -81,16 +70,11 @@ Contains the zero-based index of the stream.
 
 ### -field VideoControlCaps
 
-Indicates the video control capabilities for the specified stream. This member must be set to one or more (logically ORed) values from the <a href="..\ksmedia\ne-ksmedia-ks_videocontrolflags.md">KS_VideoControlFlags</a> enumeration.
+Indicates the video control capabilities for the specified stream. This member must be set to one or more (logically ORed) values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567696">KS_VideoControlFlags</a> enumeration.
 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videocontrol_mode_s.md">KSPROPERTY_VIDEOCONTROL_MODE_S</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566035">KSPROPERTY_VIDEOCONTROL_CAPS</a>
 
 
 
@@ -98,16 +82,20 @@ Indicates the video control capabilities for the specified stream. This member m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566035">KSPROPERTY_VIDEOCONTROL_CAPS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566043">KSPROPERTY_VIDEOCONTROL_MODE_S</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567696">KS_VideoControlFlags</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568120">PROPSETID_VIDCAP_VIDEOCONTROL</a>
-
-
-
-<a href="..\ksmedia\ne-ksmedia-ks_videocontrolflags.md">KS_VideoControlFlags</a>
-
-
-
  
 
  
-
 

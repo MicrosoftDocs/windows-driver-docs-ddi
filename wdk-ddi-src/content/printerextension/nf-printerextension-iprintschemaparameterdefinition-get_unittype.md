@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_UnitType
-title: IPrintSchemaParameterDefinition::get_UnitType method
+title: IPrintSchemaParameterDefinition::get_UnitType
 author: windows-driver-content
 description: The UnitType property gets the unit type.
 old-location: print\_iprintschemaparameterdefinition_unittype.htm
 old-project: print
 ms.assetid: 7ED1D02B-07DB-409B-AABF-4ED1D28B3C43
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], UnitType property, IPrintSchemaParameterDefinition.UnitType, IPrintSchemaParameterDefinition::get_UnitType, UnitType property [Print Devices], UnitType property [Print Devices], IPrintSchemaParameterDefinition interface, get_UnitType, get_UnitType,IPrintSchemaParameterDefinition.get_UnitType, print._iprintschemaparameterdefinition_unittype, printerextension/IPrintSchemaParameterDefinition::UnitType, printerextension/IPrintSchemaParameterDefinition::get_UnitType
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UnitType property, IPrintSchemaParameterDefinition.UnitType, IPrintSchemaParameterDefinition.get_UnitType, IPrintSchemaParameterDefinition::UnitType, IPrintSchemaParameterDefinition::get_UnitType, UnitType property [Print Devices], UnitType property [Print Devices],IPrintSchemaParameterDefinition interface, get_UnitType, print._iprintschemaparameterdefinition_unittype, printerextension/IPrintSchemaParameterDefinition::UnitType, printerextension/IPrintSchemaParameterDefinition::get_UnitType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,13 +39,13 @@ api_location:
 api_name:
 -	IPrintSchemaParameterDefinition.UnitType
 -	IPrintSchemaParameterDefinition.get_UnitType
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaParameterDefinition::get_UnitType method
+# IPrintSchemaParameterDefinition::get_UnitType
 
 
 ## -description
@@ -56,27 +56,16 @@ The <b>UnitType</b> property gets the unit type.
 This property is read-only.
 
 
-## -syntax
-
-
-````
-HRESULT get_UnitType(
-  [out, retval] BSTR *pbstrUnitType
-);
-````
-
-
 ## -parameters
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
  
 
  
-
 

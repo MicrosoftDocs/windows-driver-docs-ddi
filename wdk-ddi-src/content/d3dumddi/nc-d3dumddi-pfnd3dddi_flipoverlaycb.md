@@ -7,8 +7,8 @@ old-location: display\pfnflipoverlaycb.htm
 old-project: display
 ms.assetid: 91e4876a-82c0-4e74-84c8-4b7a6abe0756
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3Druntime_Functions_68f39dc6-3dd7-4742-81c9-f23874c6c38f.xml, PFND3DDDI_FLIPOVERLAYCB, d3dumddi/pfnFlipOverlayCb, display.pfnflipoverlaycb, pfnFlipOverlayCb, pfnFlipOverlayCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: D3Druntime_Functions_68f39dc6-3dd7-4742-81c9-f23874c6c38f.xml, PFND3DDDI_FLIPOVERLAYCB, PFND3DDDI_FLIPOVERLAYCB callback, d3dumddi/pfnFlipOverlayCb, display.pfnflipoverlaycb, pfnFlipOverlayCb, pfnFlipOverlayCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	pfnFlipOverlayCb
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_FLIPOVERLAYCB callback
+# PFND3DDDI_FLIPOVERLAYCB callback function
 
 
 ## -description
 
 
 The <b>pfnFlipOverlayCb</b> function changes the allocation to display on the overlay or indicates to display the other field of the currently displaying allocation, when deinterlacing an interleaved resource.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_FLIPOVERLAYCB pfnFlipOverlayCb;
-
-__checkReturn HRESULT APIENTRY CALLBACK pfnFlipOverlayCb(
-  _In_       HANDLE               hDevice,
-  _In_ const D3DDDICB_FLIPOVERLAY *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ A handle to the display device (graphics context).
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_flipoverlay.md">D3DDDICB_FLIPOVERLAY</a> structure that describes how to change the display on the overlay.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544198">D3DDDICB_FLIPOVERLAY</a> structure that describes how to change the display on the overlay.
 
 
 ## -returns
@@ -144,16 +131,15 @@ This function might also return other HRESULT values.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_flipoverlay.md">D3DDDICB_FLIPOVERLAY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544198">D3DDDICB_FLIPOVERLAY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: buses\usbd_querybustime.htm
 old-project: usbref
 ms.assetid: ae59daf6-da7b-4b04-bb5c-dfd353b937a0
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: USBD_QueryBusTime, USBD_QueryBusTime routine [Buses], buses.usbd_querybustime, usbdlib/USBD_QueryBusTime, usbfunc_2911ce15-3106-4c66-95c8-52ff57318131.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Usbd.dll
 api_name:
 -	USBD_QueryBusTime
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBD_QueryBusTime function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 The <b>USBD_QueryBusTime</b> routine has been deprecated in Windows XP and later operating systems. Do not use. 
 
 See URB_FUNCTION_GET_CURRENT_FRAME_NUMBER for equivalent functionality that is supported on all versions of Windows.
-
-
-## -syntax
-
-
-````
-void USBD_QueryBusTime(
-  _In_  PDEVICE_OBJECT RootHubPdo,
-  _Out_ PULONG         CurrentFrame
-);
-````
 
 
 ## -parameters
@@ -97,16 +86,15 @@ This routine does not return a value.
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_get_current_frame_number.md">URB_GET_CURRENT_FRAME_NUMBER</a>
+
+
+
+<a href="https://msdn.microsoft.com/4c6e5064-83b4-4d3c-ab08-041070128f3c">URB_GET_CURRENT_FRAME_NUMBER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
-
-
-
  
 
  
-
 

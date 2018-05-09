@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.GetProperties
-title: IDebugFAEntryTags::GetProperties method
+title: IDebugFAEntryTags::GetProperties
 author: windows-driver-content
 description: The GetProperties method gets the name or description (or both) of a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_getproperties.htm
 old-project: debugger
 ms.assetid: 140EAE7D-E349-4096-8578-6CF011C1FBA7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetProperties method [Windows Debugging], GetProperties method [Windows Debugging], IDebugFAEntryTags interface, GetProperties,IDebugFAEntryTags.GetProperties, IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], GetProperties method, IDebugFAEntryTags::GetProperties, debugger.idebugfaentrytags_getproperties, extsfns/IDebugFAEntryTags::GetProperties
+ms.date: 4/24/2018
+ms.keywords: GetProperties, GetProperties method [Windows Debugging], GetProperties method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetProperties method, IDebugFAEntryTags.GetProperties, IDebugFAEntryTags::GetProperties, debugger.idebugfaentrytags_getproperties, extsfns/IDebugFAEntryTags::GetProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,33 +38,19 @@ api_location:
 -	extsfns.h
 api_name:
 -	IDebugFAEntryTags.GetProperties
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFAEntryTags::GetProperties method
+# IDebugFAEntryTags::GetProperties
 
 
 ## -description
 
 
-The <b>GetProperties</b> method gets the name or description (or both) of a tag in a <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">DebugFailureAnalysisTags</a> object.
-
-
-## -syntax
-
-
-````
-HRESULT GetProperties(
-            FA_TAG  Tag,
-  [out]     PSTR    Name,
-  [in, out] PULONG  NameSize,
-  [out]     PSTR    Description,
-  [in, out] PULONG  DescSize,
-  [out]     PULONG  Flags
-);
-````
+The <b>GetProperties</b> method gets the name or description (or both) of a tag in a <a href="https://msdn.microsoft.com/B52DFB0E-0035-40C2-B2F5-5E16B16931C2">DebugFailureAnalysisTags</a> object.
 
 
 ## -parameters
@@ -158,15 +144,14 @@ The caller passed at least one invalid parameter.
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDebugFAEntryTags</a>
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983404">IDebugFAEntryTags</a>
 
 
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
 
 
 
@@ -174,12 +159,12 @@ The caller passed at least one invalid parameter.
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
  
 
  
-
 

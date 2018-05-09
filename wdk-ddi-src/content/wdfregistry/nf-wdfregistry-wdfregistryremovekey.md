@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRegistryRemoveKey
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRegistryRemoveKey function
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRegistryRemoveKey</b> method removes the registry key that is associated with a specified framework registry-key object and then deletes the registry-key object.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfRegistryRemoveKey(
-  _In_ WDFKEY Key
-);
-````
 
 
 ## -parameters
@@ -97,7 +87,7 @@ A handle to a registry-key object that represents an opened registry key.
 </td>
 <td width="60%">
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryremovekey.md">WdfRegistryRemoveKey</a> was not called at IRQL = PASSIVE_LEVEL. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549930">WdfRegistryRemoveKey</a> was not called at IRQL = PASSIVE_LEVEL. 
 
 </td>
 </tr>
@@ -139,11 +129,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-<div class="alert"><b>Note</b>  <p class="note">From a KMDF driver, do not call <b>WdfRegistryRemoveKey</b> and then <a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a> on the same key. The WDFKEY is no longer valid after <b>WdfRegistryRemoveKey</b> returns.
+<div class="alert"><b>Note</b>  <p class="note">From a KMDF driver, do not call <b>WdfRegistryRemoveKey</b> and then <a href="https://msdn.microsoft.com/library/windows/hardware/ff549914">WdfRegistryClose</a> on the same key. The WDFKEY is no longer valid after <b>WdfRegistryRemoveKey</b> returns.
 
 </div>
 <div> </div>
-While it is legal for a UMDF driver to call <b>WdfRegistryRemoveKey</b>, the call always returns <b>STATUS_NOT_IMPLEMENTED</b>.   To delete the WDFKEY object, a UMDF driver should instead call <a href="..\wdfregistry\nf-wdfregistry-wdfregistryclose.md">WdfRegistryClose</a>.
+While it is legal for a UMDF driver to call <b>WdfRegistryRemoveKey</b>, the call always returns <b>STATUS_NOT_IMPLEMENTED</b>.   To delete the WDFKEY object, a UMDF driver should instead call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549914">WdfRegistryClose</a>.
 
 <b>WdfRegistryRemoveKey</b> does not return STATUS_SUCCESS if the specified key object represents a registry key that has subkeys. In other words, the driver must remove the subkeys first.
 

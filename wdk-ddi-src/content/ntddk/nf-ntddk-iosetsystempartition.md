@@ -7,7 +7,7 @@ old-location: kernel\iosetsystempartition.htm
 old-project: kernel
 ms.assetid: f1606881-da8b-4034-bbdf-53c75e594032
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IoSetSystemPartition, IoSetSystemPartition routine [Kernel-Mode Driver Architecture], k104_b0beef8e-9d45-4125-a722-0a7189876308.xml, kernel.iosetsystempartition, ntddk/IoSetSystemPartition
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	IoSetSystemPartition
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoSetSystemPartition function
@@ -50,16 +51,6 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 
 
 The <b>IoSetSystemPartition</b> routine sets the boot partition for the system.
-
-
-## -syntax
-
-
-````
-NTSTATUS IoSetSystemPartition(
-  _In_ PUNICODE_STRING VolumeNameString
-);
-````
 
 
 ## -parameters

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 48B5F00C-1DDD-488C-8269-E52DF366D552
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_SMARTCARD_SET_ATTRIBUTE, IOCTL_SMARTCARD_SET_ATTRIBUTE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_set_attribute, winsmcrd/IOCTL_SMARTCARD_SET_ATTRIBUTE
+ms.keywords: IOCTL_SMARTCARD_SET_ATTRIBUTE, IOCTL_SMARTCARD_SET_ATTRIBUTE control, IOCTL_SMARTCARD_SET_ATTRIBUTE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_set_attribute, winsmcrd/IOCTL_SMARTCARD_SET_ATTRIBUTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	winsmcrd.h
 api_name:
 -	IOCTL_SMARTCARD_SET_ATTRIBUTE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_SMARTCARD_SET_ATTRIBUTE IOCTL
@@ -129,7 +129,6 @@ None.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
 
 
@@ -137,8 +136,8 @@ None.
 
 
 
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
  
 
  
-
 

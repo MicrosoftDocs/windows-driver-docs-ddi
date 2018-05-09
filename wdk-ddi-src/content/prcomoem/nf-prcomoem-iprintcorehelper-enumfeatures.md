@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.EnumFeatures
-title: IPrintCoreHelper::EnumFeatures method
+title: IPrintCoreHelper::EnumFeatures
 author: windows-driver-content
 description: The IPrintCoreHelper::EnumFeatures method gets a list of all available features, including synthesized and core driver-implement features.
 old-location: print\iprintcorehelper_enumfeatures.htm
 old-project: print
 ms.assetid: 21eddcfe-fe86-4135-a91c-42ec6e8e428a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCoreHelper interface, EnumFeatures,IPrintCoreHelper.EnumFeatures, IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], EnumFeatures method, IPrintCoreHelper::EnumFeatures, prcomoem/IPrintCoreHelper::EnumFeatures, print.iprintcorehelper_enumfeatures, print_unidrv-pscript_allplugins_322210f8-379e-4b8a-973b-ed44a7245965.xml
+ms.date: 4/20/2018
+ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],EnumFeatures method, IPrintCoreHelper.EnumFeatures, IPrintCoreHelper::EnumFeatures, prcomoem/IPrintCoreHelper::EnumFeatures, print.iprintcorehelper_enumfeatures, print_unidrv-pscript_allplugins_322210f8-379e-4b8a-973b-ed44a7245965.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreHelper.EnumFeatures
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelper::EnumFeatures method
+# IPrintCoreHelper::EnumFeatures
 
 
 ## -description
 
 
 The <b>IPrintCoreHelper::EnumFeatures</b> method gets a list of all available features, including synthesized and core driver-implement features.
-
-
-## -syntax
-
-
-````
-STDMETHOD EnumFeatures(
-  [out] PCSTR *pFeatureList[],
-  [out] DWORD *pdwNumFeatures
-);
-````
 
 
 ## -parameters
@@ -104,16 +93,15 @@ For Unidrv features, the feature list is based on the GPD view of the configurat
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelper.md">IPrintCoreHelper</a>
+
+
+
+<a href="https://msdn.microsoft.com/db13410f-e4cb-4077-bb4b-7963e97b435c">IPrintCoreHelper</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552955">IPrintCoreHelper::EnumOptions</a>
-
-
-
  
 
  
-
 

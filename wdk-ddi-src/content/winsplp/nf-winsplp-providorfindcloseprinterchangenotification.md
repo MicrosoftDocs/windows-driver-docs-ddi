@@ -7,7 +7,7 @@ old-location: print\providorfindcloseprinterchangenotification.htm
 old-project: print
 ms.assetid: D7360F7B-394D-480A-B2AB-B4461B057E43
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: ProvidorFindClosePrinterChangeNotification, ProvidorFindClosePrinterChangeNotification function [Print Devices], print.providorfindcloseprinterchangenotification, winsplp/ProvidorFindClosePrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Winsplp.h
 api_name:
 -	ProvidorFindClosePrinterChangeNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ProvidorFindClosePrinterChangeNotification function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-BOOL WINAPI ProvidorFindClosePrinterChangeNotification(
-  _In_ HANDLE hPrinter
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_graphics_rendering_format.htm
 old-project: display
 ms.assetid: 954cc3f6-731f-4c55-bf61-63b5d48248c0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_GRAPHICS_RENDERING_FORMAT, D3DKMDT_GRAPHICS_RENDERING_FORMAT structure [Display Devices], DmStructs_c51e5886-bbd0-48a2-8be7-98d10b13fc2d.xml, _D3DKMDT_GRAPHICS_RENDERING_FORMAT, d3dkmdt/D3DKMDT_GRAPHICS_RENDERING_FORMAT, display.d3dkmdt_graphics_rendering_format
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmdt.h
 api_name:
 -	D3DKMDT_GRAPHICS_RENDERING_FORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMDT_GRAPHICS_RENDERING_FORMAT
 ---
@@ -50,21 +51,6 @@ req.typenames: D3DKMDT_GRAPHICS_RENDERING_FORMAT
 
 
 The D3DKMDT_GRAPHICS_RENDERING_FORMAT structure contains information about a primary rendering surface.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMDT_GRAPHICS_RENDERING_FORMAT {
-  D3DKMDT_2DREGION                PrimSurfSize;
-  D3DKMDT_2DREGION                VisibleRegionSize;
-  DWORD                           Stride;
-  D3DDDIFORMAT                    PixelFormat;
-  D3DKMDT_COLOR_BASIS             ColorBasis;
-  D3DKMDT_PIXEL_VALUE_ACCESS_MODE PixelValueAccessMode;
-} D3DKMDT_GRAPHICS_RENDERING_FORMAT;
-````
 
 
 ## -struct-fields
@@ -104,12 +90,11 @@ A value from the D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration that indicates the 
 
 ## -see-also
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
  
 
  
-
 

@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDeviceAssignProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceAssignProperty function
@@ -56,20 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfDeviceAssignProperty</b> method modifies the current setting of a device property.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceAssignProperty(
-  _In_     WDFDEVICE                 Device,
-  _In_     PWDF_DEVICE_PROPERTY_DATA DeviceProperty,
-  _In_     DEVPROPTYPE               Type,
-  _In_     ULONG                     Size,
-  _In_opt_ PVOID                     Data
-);
-````
 
 
 ## -parameters
@@ -84,7 +70,7 @@ A handle to a framework device object.
 
 ### -param DeviceProperty [in]
 
-A pointer to a <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_property_data.md">WDF_DEVICE_PROPERTY_DATA</a> structure that identifies the device property to modify.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265632">WDF_DEVICE_PROPERTY_DATA</a> structure that identifies the device property to modify.
 
 
 ### -param Type [in]
@@ -147,12 +133,11 @@ For information about related methods, see <a href="https://msdn.microsoft.com/C
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigninterfaceproperty.md">WdfDeviceAssignInterfaceProperty</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265600">WdfDeviceAssignInterfaceProperty</a>
  
 
  
-
 

@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceIndicateWakeStatus
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceIndicateWakeStatus function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceIndicateWakeStatus</b> method informs the framework that the calling bus driver has stopped waiting for a specified device to trigger a wake signal on the bus.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceIndicateWakeStatus(
-  _In_ WDFDEVICE Device,
-  _In_ NTSTATUS  WaitWakeStatus 
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: stream\ksgateterminateor.htm
 old-project: stream
 ms.assetid: 6d73ce17-1fbc-4d12-87f0-ac10889b85be
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGateTerminateOr, KsGateTerminateOr function [Streaming Media Devices], avfunc_b2bf57c5-4f08-456a-bbac-217531cf5bc3.xml, ks/KsGateTerminateOr, stream.ksgateterminateor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsGateTerminateOr
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,16 +53,6 @@ req.typenames:
 The<b> KsGateTerminateOr</b> function deletes an existing OR gate and removes an input from any attached AND gate.
 
 
-## -syntax
-
-
-````
-void __inline KsGateTerminateOr(
-  _In_ PKSGATE OrGate
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ void __inline KsGateTerminateOr(
 
 ### -param OrGate [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure that is the OR gate to delete. This gate must be at the beginning of a gate chain.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> structure that is the OR gate to delete. This gate must be at the beginning of a gate chain.
 
 
 ## -returns
@@ -92,20 +83,19 @@ Logical gates should be deleted in a front to back manner. <b>KsGateTerminateOr<
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562574">KsGateInitializeAnd</a>
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562576">KsGateInitializeOr</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562586">KsGateTerminateAnd</a>
  
 
  
-
 

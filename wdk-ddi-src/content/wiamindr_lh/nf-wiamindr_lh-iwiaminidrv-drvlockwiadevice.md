@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvLockWiaDevice
-title: IWiaMiniDrv::drvLockWiaDevice method
+title: IWiaMiniDrv::drvLockWiaDevice
 author: windows-driver-content
 description: The IWiaMiniDrv::drvLockWiaDevice method locks the WIA hardware device so that only the current minidriver can access it.
 old-location: image\iwiaminidrv_drvlockwiadevice.htm
 old-project: image
 ms.assetid: 674e0a65-1763-41b0-896b-2ef9debc32a5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvLockWiaDevice method, IWiaMiniDrv::drvLockWiaDevice, MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml, drvLockWiaDevice method [Imaging Devices], drvLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, drvLockWiaDevice,IWiaMiniDrv.drvLockWiaDevice, image.iwiaminidrv_drvlockwiadevice, wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvLockWiaDevice method, IWiaMiniDrv.drvLockWiaDevice, IWiaMiniDrv::drvLockWiaDevice, MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml, drvLockWiaDevice, drvLockWiaDevice method [Imaging Devices], drvLockWiaDevice method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvlockwiadevice, wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	wiamindr_lh.h
 api_name:
 -	IWiaMiniDrv.drvLockWiaDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvLockWiaDevice method
+# IWiaMiniDrv::drvLockWiaDevice
 
 
 ## -description
 
 
 The <b>IWiaMiniDrv::drvLockWiaDevice</b> method locks the WIA hardware device so that only the current minidriver can access it.
-
-
-## -syntax
-
-
-````
-HRESULT drvLockWiaDevice(
-  [in]  BYTE *pWiasContext,
-  [in]  LONG lFlags,
-  [out] LONG *plDevErrVal
-);
-````
 
 
 ## -parameters
@@ -124,11 +112,10 @@ The <b>IWiaMiniDrv::drvLockWiaDevice</b> method is used to lock access to the de
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545012">IWiaMiniDrv::drvUnLockWiaDevice</a>
+<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
 
 
 
@@ -136,8 +123,8 @@ The <b>IWiaMiniDrv::drvLockWiaDevice</b> method is used to lock access to the de
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545012">IWiaMiniDrv::drvUnLockWiaDevice</a>
  
 
  
-
 

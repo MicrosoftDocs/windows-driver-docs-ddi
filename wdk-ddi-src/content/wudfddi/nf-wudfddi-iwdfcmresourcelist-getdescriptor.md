@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFCmResourceList.GetDescriptor
-title: IWDFCmResourceList::GetDescriptor method
+title: IWDFCmResourceList::GetDescriptor
 author: windows-driver-content
 description: The GetDescriptor method returns a pointer to a resource descriptor that is contained in this interface's resource list.
 old-location: wdf\iwdfcmresourcelist_getdescriptor.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5E870D10-A03B-4CD8-A2DD-54A6AB527DB2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetDescriptor method, GetDescriptor method, IWDFCmResourceList interface, GetDescriptor,IWDFCmResourceList.GetDescriptor, IWDFCmResourceList, IWDFCmResourceList interface, GetDescriptor method, IWDFCmResourceList::GetDescriptor, umdf.iwdfcmresourcelist_getdescriptor, wdf.iwdfcmresourcelist_getdescriptor, wudfddi/IWDFCmResourceList::GetDescriptor
+ms.keywords: GetDescriptor, GetDescriptor method, GetDescriptor method,IWDFCmResourceList interface, IWDFCmResourceList interface,GetDescriptor method, IWDFCmResourceList.GetDescriptor, IWDFCmResourceList::GetDescriptor, umdf.iwdfcmresourcelist_getdescriptor, wdf.iwdfcmresourcelist_getdescriptor, wudfddi/IWDFCmResourceList::GetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFCmResourceList.GetDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFCmResourceList::GetDescriptor method
+# IWDFCmResourceList::GetDescriptor
 
 
 ## -description
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>GetDescriptor</b> method returns a pointer to a resource descriptor that is contained in this interface's resource list.
 
 
-
-
-## -syntax
-
-
-````
-PCM_PARTIAL_RESOURCE_DESCRIPTOR GetDescriptor(
-   ULONG Index
-);
-````
 
 
 ## -parameters
@@ -82,7 +72,7 @@ A zero-based index into the logical configuration that is contained in this inte
 
 
 
-<b>GetDescriptor</b> returns a pointer to a <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
+<b>GetDescriptor</b> returns a pointer to a <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure.
 
 
 
@@ -93,7 +83,7 @@ A zero-based index into the logical configuration that is contained in this inte
 
 Drivers typically call <b>GetDescriptor</b> from within <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>, before calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451225">MapIoSpace</a>.
 
-The <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure  is defined in Wudfwdm.h.
+The <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure  is defined in Wudfwdm.h.
 
 For more information about parsing hardware resources, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/finding-and-mapping-hardware-resources-in-umdf-1-x-drivers">Finding and Mapping Hardware Resources in a UMDF Driver</a>.
 
@@ -108,12 +98,11 @@ See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmResourceList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439762">IWDFCmResourceList</a>
  
 
  
-
 

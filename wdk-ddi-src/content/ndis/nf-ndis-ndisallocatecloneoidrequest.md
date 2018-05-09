@@ -7,7 +7,7 @@ old-location: netvista\ndisallocatecloneoidrequest.htm
 old-project: netvista
 ms.assetid: 426ff4f4-7924-4115-9f66-b4152e2ba5bb
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisAllocateCloneOidRequest, NdisAllocateCloneOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateCloneOidRequest, ndis_request_ref_323c05f2-8b33-40c1-a4d8-385a8b0d0015.xml, netvista.ndisallocatecloneoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisAllocateCloneOidRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisAllocateCloneOidRequest function
@@ -52,21 +53,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 The 
   <b>NdisAllocateCloneOidRequest</b> function allocates memory for a new 
-  <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure and copies all the
+  <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure and copies all the
   information from an existing NDIS_OID_REQUEST structure to the newly allocated structure.
-
-
-## -syntax
-
-
-````
-NDIS_STATUS NdisAllocateCloneOidRequest(
-  _In_  NDIS_HANDLE       SourceHandle,
-  _In_  PNDIS_OID_REQUEST Request,
-  _In_  UINT              PoolTag,
-  _Out_ PNDIS_OID_REQUEST *CloneRequest
-);
-````
 
 
 ## -parameters
@@ -108,7 +96,7 @@ A pointer to a pointer to an NDIS_OID_REQUEST structure. If NDIS returns NDIS_ST
 #### - Request [in]
 
 A pointer to an existing 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure from which NDIS
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure from which NDIS
      copies the information to the newly allocated structure.
 
 
@@ -184,7 +172,7 @@ The driver failed to allocate the cloned structure for reasons other than those 
 To forward a request down to the underlying drivers, an NDIS intermediate driver or filter driver must
     call 
     <b>NdisAllocateCloneOidRequest</b> to allocate a cloned 
-    <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure. A filter driver
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure. A filter driver
     or intermediate driver should not forward the original NDIS_OID_REQUEST structure to underlying
     drivers.
 
@@ -192,7 +180,7 @@ To forward a request down to the underlying drivers, an NDIS intermediate driver
     NDIS_OID_REQUEST structure to the new structure.
 
 The driver must subsequently call the 
-    <a href="..\ndis\nf-ndis-ndisfreecloneoidrequest.md">NdisFreeCloneOidRequest</a> function
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561845">NdisFreeCloneOidRequest</a> function
     to free the NDIS_OID_REQUEST structure.
 
 
@@ -200,16 +188,15 @@ The driver must subsequently call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreecloneoidrequest.md">NdisFreeCloneOidRequest</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561845">NdisFreeCloneOidRequest</a>
  
 
  
-
 

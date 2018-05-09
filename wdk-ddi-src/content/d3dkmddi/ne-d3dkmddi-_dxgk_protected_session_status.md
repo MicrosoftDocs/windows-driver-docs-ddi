@@ -7,7 +7,7 @@ old-location: display\dxgk_protected_session_status.htm
 old-project: display
 ms.assetid: B6FCA052-FFAE-4F7D-8BDE-CDB84772B5E5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS enumeration [Display Devices], DXGK_PROTECTED_SESSION_STATUS_INVALID, DXGK_PROTECTED_SESSION_STATUS_OK, _DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_INVALID, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_OK, display.dxgk_protected_session_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_PROTECTED_SESSION_STATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_PROTECTED_SESSION_STATUS
 ---
@@ -52,17 +53,6 @@ req.typenames: DXGK_PROTECTED_SESSION_STATUS
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Used to indicate the status of the current session.
-
-
-## -syntax
-
-
-````
-typedef enum _DXGK_PROTECTED_SESSION_STATUS { 
-  DXGK_PROTECTED_SESSION_STATUS_OK       = 0,
-  DXGK_PROTECTED_SESSION_STATUS_INVALID  = 1
-} DXGK_PROTECTED_SESSION_STATUS;
-````
 
 
 ## -enum-fields

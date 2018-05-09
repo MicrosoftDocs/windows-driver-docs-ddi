@@ -7,7 +7,7 @@ old-location: netvista\ndissetphysicaladdresslow.htm
 old-project: netvista
 ms.assetid: 2454f923-15c5-43c8-8d62-eee000d89a10
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisSetPhysicalAddressLow, NdisSetPhysicalAddressLow macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_b21e2206-bd6c-47b6-b518-31bcad459bbb.xml, ndis/NdisSetPhysicalAddressLow, netvista.ndissetphysicaladdresslow
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisSetPhysicalAddressLow
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisSetPhysicalAddressLow macro
@@ -51,17 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 <b>NdisSetPhysicalAddressLow</b> sets the low-order part of a given physical address to a given
   value.
-
-
-## -syntax
-
-
-````
-VOID NdisSetPhysicalAddressLow(
-  [in] NDIS_PHYSICAL_ADDRESS PhysicalAddress,
-  [in] ULONG                 Value
-);
-````
 
 
 ## -parameters
@@ -81,20 +71,19 @@ Specifies the value to be written into the low-order part of the address.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557129">NDIS_PHYSICAL_ADDRESS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndissetphysicaladdresshigh.md">NdisSetPhysicalAddressHigh</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562654">NdisGetPhysicalAddressLow</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetphysicaladdresslow.md">NdisGetPhysicalAddressLow</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564551">NdisSetPhysicalAddressHigh</a>
  
 
  
-
 

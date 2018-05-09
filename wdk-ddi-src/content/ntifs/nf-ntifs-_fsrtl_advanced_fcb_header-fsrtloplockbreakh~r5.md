@@ -7,7 +7,7 @@ old-location: ifsk\fsrtloplockbreakh.htm
 old-project: ifsk
 ms.assetid: c533fb15-ca3a-44b2-8a1b-03b2b9c93fc6
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 3/29/2018
 ms.keywords: FsRtlOplockBreakH, FsRtlOplockBreakH routine [Installable File System Drivers], fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml, ifsk.fsrtloplockbreakh, ntifs/FsRtlOplockBreakH
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	FsRtlOplockBreakH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TOKEN_TYPE
 ---
@@ -52,21 +53,6 @@ req.typenames: TOKEN_TYPE
 The <b>FsRtlOplockBreakH</b> routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks). 
 
 
-## -syntax
-
-
-````
-NTSTATUS FsRtlOplockBreakH(
-  _In_     POPLOCK                       Oplock,
-  _In_     PIRP                          Irp,
-  _In_     ULONG                         Flags,
-  _In_opt_ PVOID                         Context,
-  _In_opt_ POPLOCK_WAIT_COMPLETE_ROUTINE CompletionRoutine,
-  _In_opt_ POPLOCK_FS_PREPOST_IRP        PostIrpRoutine
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +60,7 @@ NTSTATUS FsRtlOplockBreakH(
 
 ### -param Oplock [in]
 
-An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>. 
+An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
 
 
 ### -param Irp [in]
@@ -238,23 +224,22 @@ When an operation must break CACHE_HANDLE_LEVEL oplocks, the operation calls <b>
 
 If the caller specifies the OPLOCK_FLAG_IGNORE_OPLOCK_KEYS flag in the <i>Flags</i> parameter, <b>FsRtlOplockBreakH</b> breaks all CACHE_HANDLE_LEVEL oplocks, regardless of the oplock key. The default behavior of <b>FsRtlOplockBreakH</b> is to break oplocks whose keys do not match the key on the caller's file object.
 
-Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockbreakh.md">FltOplockBreakH</a> instead of <b>FsRtlOplockBreakH</b>. 
+Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543386">FltOplockBreakH</a> instead of <b>FsRtlOplockBreakH</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltoplockbreakh.md">FltOplockBreakH</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543386">FltOplockBreakH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>
  
 
  
-
 

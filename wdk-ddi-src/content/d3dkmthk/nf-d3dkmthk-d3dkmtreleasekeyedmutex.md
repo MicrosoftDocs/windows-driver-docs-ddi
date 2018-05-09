@@ -7,7 +7,7 @@ old-location: display\d3dkmtreleasekeyedmutex.htm
 old-project: display
 ms.assetid: c2a50621-fa84-4525-86f7-845e886203fe
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTReleaseKeyedMutex, D3DKMTReleaseKeyedMutex function [Display Devices], OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml, d3dkmthk/D3DKMTReleaseKeyedMutex, display.d3dkmtreleasekeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTReleaseKeyedMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTReleaseKeyedMutex function
@@ -55,26 +56,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTReleaseKeyedMutex</b> function releases a keyed mutex object.
 
 
-## -syntax
-
-
-````
-NTSTATUS APIENTRY D3DKMTReleaseKeyedMutex(
-  _Inout_ D3DKMT_RELEASEKEYEDMUTEX *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_releasekeyedmutex.md">D3DKMT_RELEASEKEYEDMUTEX</a> structure that specifies the keyed mutex object to release. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548234">D3DKMT_RELEASEKEYEDMUTEX</a> structure that specifies the keyed mutex object to release. 
 
 
 ## -returns
@@ -129,7 +125,7 @@ Parameters were validated and determined to be incorrect.
 </td>
 <td width="60%">
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtreleasekeyedmutex.md">D3DKMTReleaseKeyedMutex</a> could not complete because of insufficient memory.
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547129">D3DKMTReleaseKeyedMutex</a> could not complete because of insufficient memory.
 
 </td>
 </tr>
@@ -143,12 +139,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_releasekeyedmutex.md">D3DKMT_RELEASEKEYEDMUTEX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548234">D3DKMT_RELEASEKEYEDMUTEX</a>
  
 
  
-
 

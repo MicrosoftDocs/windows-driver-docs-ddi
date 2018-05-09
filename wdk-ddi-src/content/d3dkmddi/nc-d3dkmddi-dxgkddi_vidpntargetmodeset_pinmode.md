@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpntargetmodeset_interface_pfnpinmode.htm
 old-project: display
 ms.assetid: 91ea3105-2fdf-4533-a2d4-d27f1e660056
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_VIDPNTARGETMODESET_PINMODE, VidPnFunctions_2b6f869f-bd7d-4699-8934-04cbe56bf0af.xml, d3dkmddi/pfnPinMode, display.dxgk_vidpntargetmodeset_interface_pfnpinmode, pfnPinMode, pfnPinMode callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_VIDPNTARGETMODESET_PINMODE, DXGKDDI_VIDPNTARGETMODESET_PINMODE callback, VidPnFunctions_2b6f869f-bd7d-4699-8934-04cbe56bf0af.xml, d3dkmddi/pfnPinMode, display.dxgk_vidpntargetmodeset_interface_pfnpinmode, pfnPinMode, pfnPinMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	pfnPinMode
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_VIDPNTARGETMODESET_PINMODE callback
+# DXGKDDI_VIDPNTARGETMODESET_PINMODE callback function
 
 
 ## -description
 
 
 The <b>pfnPinMode</b> function pins a specified mode in a VidPN target mode set.
-
-
-## -prototype
-
-
-````
-DXGKDDI_VIDPNTARGETMODESET_PINMODE pfnPinMode;
-
-NTSTATUS APIENTRY pfnPinMode(
-  _In_       D3DKMDT_HVIDPNSOURCEMODESET          hVidPnTargetModeSet,
-  _In_ const D3DKMDT_VIDEO_PRESENT_TARGET_MODE_ID VidPnTargetModeId
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ NTSTATUS APIENTRY pfnPinMode(
 
 ### -param hVidPnTargetModeSet [in]
 
-[in] A handle to a VidPN target mode set object. The display miniport driver previously obtained this handle by calling the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset.md">pfnAcquireTargetModeSet</a> function of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_vidpn_interface.md">DXGK_VIDPN_INTERFACE</a> interface.
+[in] A handle to a VidPN target mode set object. The display miniport driver previously obtained this handle by calling the <a href="https://msdn.microsoft.com/1b91c472-21eb-4aa8-91e3-c9eb70556d9f">pfnAcquireTargetModeSet</a> function of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562108">DXGK_VIDPN_INTERFACE</a> interface.
 
 
 ### -param VidPnTargetModeId [in]
@@ -135,7 +122,7 @@ The mode identified by <i>VidPnTargetModeId</i> does not belong to the source mo
 
 
 
-VidPN target mode identifiers are assigned by the operating system. The <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_vidpntargetmodeset_createnewmodeinfo.md">pfnCreateNewModeInfo</a> function generates a mode identifier, assigns the identifier to the <b>Id</b> member of a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_target_mode.md">D3DKMDT_VIDPN_TARGET_MODE</a> structure, and returns the structure to the display miniport driver.
+VidPN target mode identifiers are assigned by the operating system. The <a href="https://msdn.microsoft.com/ebb37681-fa03-49f5-968b-87c9ff4ebae9">pfnCreateNewModeInfo</a> function generates a mode identifier, assigns the identifier to the <b>Id</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546729">D3DKMDT_VIDPN_TARGET_MODE</a> structure, and returns the structure to the display miniport driver.
 
 The D3DKMDT_HVIDPNTARGETMODESET data type is defined in <i>D3dkmdt.h</i>. 
 

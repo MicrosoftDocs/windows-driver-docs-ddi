@@ -7,7 +7,7 @@ old-location: storage\hba_getbindingsupport.htm
 old-project: storage
 ms.assetid: 60542ed9-fbb0-48a3-bc97-ce3db7b4ae10
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: HBA_GetBindingSupport, HBA_GetBindingSupport routine [Storage Devices], fibreHBA_rtns_98be4752-e595-4f33-b688-a373588c16f0.xml, hbaapi/HBA_GetBindingSupport, storage.hba_getbindingsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hbaapi.dll
 api_name:
 -	HBA_GetBindingSupport
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HBA_WWNTYPE
+req.typenames: 
 ---
 
 # HBA_GetBindingSupport function
@@ -52,18 +53,6 @@ req.typenames: HBA_WWNTYPE
 The <b>HBA_GetBindingSupport</b> routine retrieves the binding capabilities currently enabled for the specified port.
 
 
-## -syntax
-
-
-````
-HBA_STATUS HBA_API HBA_GetBindingSupport(
-  _In_  HBA_HANDLE          Handle,
-  _In_  HBA_WWN             HbaPortWWN,
-  _Out_ HBA_BIND_CAPABILITY *Flags
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ HBA_STATUS HBA_API HBA_GetBindingSupport(
 
 ### -param Handle [in]
 
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
+Contains a value returned by the routine <a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a> that identifies the HBA on which the port is located. 
 
 
 ### -param HbaPortWWN [in]
@@ -136,11 +125,6 @@ Returned if an unspecified error occurred that prevented the retrieval of the po
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
-
-
-
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 
@@ -148,8 +132,12 @@ Returned if an unspecified error occurred that prevented the retrieval of the po
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557097">HBA_OpenAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
  
 
  
-
 

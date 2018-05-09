@@ -7,7 +7,7 @@ old-location: netvista\vmbpacketinitialize.htm
 old-project: netvista
 ms.assetid: D5D8D994-0BB6-44FC-A696-F2E0264445C1
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: VmbPacketInitialize, VmbPacketInitialize function [Network Drivers Starting with Windows Vista], netvista.vmbpacketinitialize, vmbuskernelmodeclientlibapi/VmbPacketInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbPacketInitialize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbPacketInitialize function
@@ -54,19 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbPacketInitialize</b> function initializes a buffer to contain a VMBus packet. 
-
-
-## -syntax
-
-
-````
-NTSTATUS
- VmbPacketInitialize(
-  _In_  VMBCHANNEL                         Channel,
-  _Out_ writes_bytes_(ByteCount) VMBPACKET VmbPacket,
-  _In_  UINT32                             ByteCount
-);
-````
 
 
 ## -parameters
@@ -136,10 +123,10 @@ The value of  <i>ByteCount</i> is not valid. It needs to be greater than the max
 
 
 The size of the buffer must be at
-least the size calculated by using the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket.md">VmbChannelSizeofPacket</a> function.  
+least the size calculated by using the <a href="https://msdn.microsoft.com/3E7EE060-4B1F-4B28-A617-5B1393CEE936">VmbChannelSizeofPacket</a> function.  
 
 <b>VmbPacketInitialize</b> is  an alternative
-to the <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a> function. Use the current function if the caller supplies the
+to the <a href="https://msdn.microsoft.com/F121A7BC-5504-4CF5-8C8A-0568D6C4F77F">VmbPacketAllocate</a> function. Use the current function if the caller supplies the
 memory for the packet object. 
 
 The packet's initial completion routine is invalid and must be set before
@@ -150,16 +137,15 @@ sending the packet.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket.md">VmbChannelSizeofPacket</a>
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md">VmbPacketAllocate</a>
+<a href="https://msdn.microsoft.com/3E7EE060-4B1F-4B28-A617-5B1393CEE936">VmbChannelSizeofPacket</a>
 
 
 
+<a href="https://msdn.microsoft.com/F121A7BC-5504-4CF5-8C8A-0568D6C4F77F">VmbPacketAllocate</a>
  
 
  
-
 

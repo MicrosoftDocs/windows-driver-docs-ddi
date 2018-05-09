@@ -7,7 +7,7 @@ old-location: netvista\ril_writemsg.htm
 old-project: netvista
 ms.assetid: 6d8e934a-9f1e-4b65-9491-02cf7f5f9255
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_WriteMsg, RIL_WriteMsg method [Network Drivers Starting with Windows Vista], netvista.ril_writemsg, rilapi/RIL_WriteMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_WriteMsg
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_WriteMsg function
@@ -53,20 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_WriteMsg(
-   HRIL              hRil,
-   LPVOID            lpContext,
-   HUICCAPP          hUiccApp,
-   const RILMESSAGE  lpMessage,
-   RILMESSAGESTATUS  dwStatus
-);
-````
 
 
 ## -parameters

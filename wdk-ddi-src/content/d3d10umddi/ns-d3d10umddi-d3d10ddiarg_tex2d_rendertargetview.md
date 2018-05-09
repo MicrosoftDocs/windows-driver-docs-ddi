@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_tex2d_rendertargetview.htm
 old-project: display
 ms.assetid: 9537801f-568a-4fb6-b4f8-e901cf9146f6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10DDIARG_TEX2D_RENDERTARGETVIEW, D3D10DDIARG_TEX2D_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_542468b2-b74d-4146-b745-65727ecd9510.xml, d3d10umddi/D3D10DDIARG_TEX2D_RENDERTARGETVIEW, display.d3d10ddiarg_tex2d_rendertargetview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10DDIARG_TEX2D_RENDERTARGETVIEW
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D10DDIARG_TEX2D_RENDERTARGETVIEW
 ---
@@ -49,19 +50,7 @@ req.typenames: D3D10DDIARG_TEX2D_RENDERTARGETVIEW
 ## -description
 
 
-The D3D10DDIARG_TEX2D_RENDERTARGETVIEW structure describes a two-dimensional (2-D) texture that is used to create a render target view in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a> function. 
-
-
-## -syntax
-
-
-````
-typedef struct D3D10DDIARG_TEX2D_RENDERTARGETVIEW {
-  UINT MipSlice;
-  UINT FirstArraySlice;
-  UINT ArraySize;
-} D3D10DDIARG_TEX2D_RENDERTARGETVIEW;
-````
+The D3D10DDIARG_TEX2D_RENDERTARGETVIEW structure describes a two-dimensional (2-D) texture that is used to create a render target view in a call to the <a href="https://msdn.microsoft.com/bf9fc732-5f9a-4fee-8ea0-19b140789463">CreateRenderTargetView</a> function. 
 
 
 ## -struct-fields
@@ -86,20 +75,19 @@ typedef struct D3D10DDIARG_TEX2D_RENDERTARGETVIEW {
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createrendertargetview.md">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
+<a href="https://msdn.microsoft.com/14d85e4a-960c-4438-9360-a4f2677603b8">CalcPrivateRenderTargetViewSize</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
+<a href="https://msdn.microsoft.com/bf9fc732-5f9a-4fee-8ea0-19b140789463">CreateRenderTargetView</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541689">D3D10DDIARG_CREATERENDERTARGETVIEW</a>
  
 
  
-
 

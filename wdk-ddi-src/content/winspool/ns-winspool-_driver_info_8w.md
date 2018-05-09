@@ -7,7 +7,7 @@ old-location: print\driver_info_8.htm
 old-project: print
 ms.assetid: 95f62d57-300a-4179-868b-f14f29c58b4d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*LPDRIVER_INFO_8W, *PDRIVER_INFO_8W, DRIVER_INFO_8, DRIVER_INFO_8 structure [Print Devices], DRIVER_INFO_8W, LPDRIVER_INFO_8, LPDRIVER_INFO_8 structure pointer [Print Devices], PDRIVER_INFO_8, PDRIVER_INFO_8 structure pointer [Print Devices], _DRIVER_INFO_8W, print.driver_info_8, print_ticket-package_dba844e8-6e97-4eaf-8de4-1003562e01d5.xml, winspool/DRIVER_INFO_8, winspool/LPDRIVER_INFO_8, winspool/PDRIVER_INFO_8"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winspool.h
 api_name:
 -	DRIVER_INFO_8
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
-req.product: Windows 10 or later.
 ---
 
 # _DRIVER_INFO_8W structure
@@ -51,40 +51,6 @@ req.product: Windows 10 or later.
 
 
 The DRIVER_INFO_8 structure contains printer driver information. 
-
-
-## -syntax
-
-
-````
-typedef struct _DRIVER_INFO_8 {
-  DWORD     cVersion;
-  LPTSTR    pName;
-  LPTSTR    pEnvironment;
-  LPTSTR    pDriverPath;
-  LPTSTR    pDataFile;
-  LPTSTR    pConfigFile;
-  LPTSTR    pHelpFile;
-  LPTSTR    pDependentFiles;
-  LPTSTR    pMonitorName;
-  LPTSTR    pDefaultDataType;
-  LPTSTR    pszzPreviousNames;
-  FILETIME  ftDriverDate;
-  DWORDLONG dwlDriverVersion;
-  LPTSTR    pszMfgName;
-  LPTSTR    pszOEMUrl;
-  LPTSTR    pszHardwareID;
-  LPTSTR    pszProvider;
-  LPTSTR    pszPrintProcessor;
-  LPTSTR    pszVendorSetup;
-  LPTSTR    pszzColorProfiles;
-  LPTSTR    pszInfPath;
-  DWORD     dwPrinterDriverAttributes;
-  LPTSTR    pszzCoreDriverDependencies;
-  FILETIME  ftMinInboxDriverVerDate;
-  DWORDLONG dwlMinInboxDriverVerVersion;
-} DRIVER_INFO_8, *PDRIVER_INFO_8, *LPDRIVER_INFO_8;
-````
 
 
 ## -struct-fields

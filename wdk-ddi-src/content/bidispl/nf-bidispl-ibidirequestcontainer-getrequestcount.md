@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiRequestContainer.GetRequestCount
-title: IBidiRequestContainer::GetRequestCount method
+title: IBidiRequestContainer::GetRequestCount
 author: windows-driver-content
 description: The GetRequestCount method gets the number of requests in the request list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__getrequestcount.htm
 old-project: print
 ms.assetid: 4215ca86-9ceb-451d-8e67-992a8a3f9bab
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetRequestCount method [Print Devices], GetRequestCount method [Print Devices], IBidiRequestContainer interface, GetRequestCount,IBidiRequestContainer.GetRequestCount, IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], GetRequestCount method, IBidiRequestContainer::GetRequestCount, _win32_IBidiRequestContainer_GetRequestCount, bidispl/IBidiRequestContainer::GetRequestCount, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount
+ms.date: 4/20/2018
+ms.keywords: GetRequestCount, GetRequestCount method [Print Devices], GetRequestCount method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],GetRequestCount method, IBidiRequestContainer.GetRequestCount, IBidiRequestContainer::GetRequestCount, _win32_IBidiRequestContainer_GetRequestCount, bidispl/IBidiRequestContainer::GetRequestCount, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiRequestContainer.GetRequestCount
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiRequestContainer::GetRequestCount method
+# IBidiRequestContainer::GetRequestCount
 
 
 ## -description
 
 
 The <b>GetRequestCount</b> method gets the number of requests in the request list.
-
-
-## -syntax
-
-
-````
-HRESULT GetRequestCount(
-  [out] ULONG *puCount
-);
-````
 
 
 ## -parameters
@@ -124,11 +115,10 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-
-
-<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
 
 
 
@@ -136,8 +126,8 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144970">IBidiRequestContainer</a>
  
 
  
-
 

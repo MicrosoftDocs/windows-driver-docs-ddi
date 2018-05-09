@@ -7,7 +7,7 @@ old-location: image\drv_version.htm
 old-project: image
 ms.assetid: 61b6dbd3-7565-4d63-bcc0-007df9793398
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PDRV_VERSION, DRV_VERSION, DRV_VERSION structure [Imaging Devices], PDRV_VERSION, PDRV_VERSION structure pointer [Imaging Devices], _DRV_VERSION, image.drv_version, stifnc_99059efa-8e64-49f6-bebe-560d33fca145.xml, usbscan/DRV_VERSION, usbscan/PDRV_VERSION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	usbscan.h
 api_name:
 -	DRV_VERSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DRV_VERSION, *PDRV_VERSION
-req.product: Windows 10 or later.
 ---
 
 # _DRV_VERSION structure
@@ -50,19 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The DRV_VERSION structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="..\usbscan\ni-usbscan-ioctl_get_version.md">IOCTL_GET_VERSION</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _DRV_VERSION {
-  unsigned major;
-  unsigned minor;
-  unsigned internal;
-} DRV_VERSION, *PDRV_VERSION;
-````
+The DRV_VERSION structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542866">IOCTL_GET_VERSION</a>.
 
 
 ## -struct-fields

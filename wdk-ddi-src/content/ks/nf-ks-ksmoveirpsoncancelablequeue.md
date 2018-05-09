@@ -7,7 +7,7 @@ old-location: stream\ksmoveirpsoncancelablequeue.htm
 old-project: stream
 ms.assetid: 1f6b4d93-fca8-40da-b87e-c95169f142ea
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsMoveIrpsOnCancelableQueue, KsMoveIrpsOnCancelableQueue function [Streaming Media Devices], ks/KsMoveIrpsOnCancelableQueue, ksfunc_e01b21f7-96b7-4a6c-b6cb-3667d7b6b4dc.xml, stream.ksmoveirpsoncancelablequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsMoveIrpsOnCancelableQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,22 +52,6 @@ req.typenames:
 
 
 The <b>KsMoveIrpsOnCancelableQueue</b> function moves the specified IRPs from the <i>SourceList</i> parameter to the <i>DestinationList </i>parameter depending on the value returned from the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567187">KStrIrpListCallback</a> function.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsMoveIrpsOnCancelableQueue(
-  _Inout_  PLIST_ENTRY           SourceList,
-  _In_     PKSPIN_LOCK           SourceLock,
-  _Inout_  PLIST_ENTRY           DestinationList,
-  _In_opt_ PKSPIN_LOCK           DestinationLock,
-  _In_     KSLIST_ENTRY_LOCATION ListLocation,
-  _In_     PFNKSIRPLISTCALLBACK  ListCallback ,
-  _In_     PVOID                 Context 
-);
-````
 
 
 ## -parameters
@@ -133,12 +118,11 @@ The function can be called at DISPATCH_LEVEL or lower.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567187">KStrIrpListCallback</a>
-
-
-
  
 
  
-
 

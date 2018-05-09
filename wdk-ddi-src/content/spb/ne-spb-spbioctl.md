@@ -7,7 +7,7 @@ old-location: spb\spbioctl.htm
 old-project: SPB
 ms.assetid: 83260550-B364-4790-BDB5-5C6E5AD76A72
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSpbIoctl, *PSpbIoctl enumeration [Buses], IOCTL_SPB_EXECUTE_SEQUENCE, IOCTL_SPB_FULL_DUPLEX, IOCTL_SPB_LOCK_CONNECTION, IOCTL_SPB_LOCK_CONTROLLER, IOCTL_SPB_UNLOCK_CONNECTION, IOCTL_SPB_UNLOCK_CONTROLLER, SPB.spbioctl, SpbIoctl, SpbIoctl enumeration [Buses], spb/*PSpbIoctl, spb/IOCTL_SPB_EXECUTE_SEQUENCE, spb/IOCTL_SPB_FULL_DUPLEX, spb/IOCTL_SPB_LOCK_CONNECTION, spb/IOCTL_SPB_LOCK_CONTROLLER, spb/IOCTL_SPB_UNLOCK_CONNECTION, spb/IOCTL_SPB_UNLOCK_CONTROLLER, spb/SpbIoctl"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Spb.h
 api_name:
 -	SpbIoctl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SpbIoctl, *PSpbIoctl
-req.product: Windows 10 or later.
 ---
 
 # SpbIoctl enumeration
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Defines values to indicate the type I/O control request.
-
-
-## -syntax
-
-
-````
-typedef enum _SpbIoctl { 
-  IOCTL_SPB_LOCK_CONTROLLER,
-  IOCTL_SPB_UNLOCK_CONTROLLER,
-  IOCTL_SPB_EXECUTE_SEQUENCE,
-  IOCTL_SPB_LOCK_CONNECTION,
-  IOCTL_SPB_UNLOCK_CONNECTION,
-  IOCTL_SPB_FULL_DUPLEX
-} SpbIoctl, *PSpbIoctl;
-````
 
 
 ## -enum-fields

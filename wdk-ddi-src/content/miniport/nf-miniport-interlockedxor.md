@@ -7,7 +7,7 @@ old-location: kernel\interlockedxor.htm
 old-project: kernel
 ms.assetid: 3ddf62f1-ce5d-4d55-9964-8d1786ac2997
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: InterlockedXor, InterlockedXor routine [Kernel-Mode Driver Architecture], k102_7b4b6df0-2179-4a6a-941d-5aaa95609cd8.xml, kernel.interlockedxor, wdm/InterlockedXor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	InterlockedXor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MEMORY_CACHING_TYPE
+req.typenames: 
 ---
 
 # InterlockedXor function
@@ -50,17 +51,6 @@ req.typenames: MEMORY_CACHING_TYPE
 
 
 The <b>InterlockedOr</b> routine atomically computes a bitwise exclusive OR operation.
-
-
-## -syntax
-
-
-````
-LONG InterlockedXor(
-  _Inout_ LONG volatile *Destination,
-  _In_    LONG          Value
-);
-````
 
 
 ## -parameters
@@ -100,16 +90,15 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedand.md">InterlockedAnd</a>
 
 
 
-<a href="..\wdm\nf-wdm-interlockedor.md">InterlockedOr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547844">InterlockedAnd</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547928">InterlockedOr</a>
  
 
  
-
 

@@ -38,7 +38,8 @@ api_location:
 -	Acpiioct.h
 api_name:
 -	ACPI_METHOD_ARGUMENT_V1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT
 ---
@@ -50,21 +51,6 @@ req.typenames: ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT
 
 
 The ACPI_METHOD_ARGUMENT structure contains the value of an input or output argument of an ACPI control method.
-
-
-## -syntax
-
-
-````
-typedef struct _ACPI_METHOD_ARGUMENT_V1 {
-  USHORT Type;
-  USHORT DataLength;
-  union {
-    ULONG Argument;
-    UCHAR Data[ANYSIZE_ARRAY];
-  };
-} ACPI_METHOD_ARGUMENT_V1;
-````
 
 
 ## -struct-fields
@@ -113,14 +99,12 @@ The number of UCHAR elements in the <b>Data</b> array that contains the argument
  
 
 
-
-
-#### - Argument
+### -field DUMMYUNIONNAME.Argument
 
 An argument value of type ULONG.
 
 
-#### - Data
+### -field DUMMYUNIONNAME.Data
 
 An array of values of type UCHAR that contains argument data.
 
@@ -129,25 +113,25 @@ An array of values of type UCHAR that contains argument data.
 
 
 
-An ACPI_EVAL_OUTPUT_BUFFER structure includes an <b>Argument</b> array of ACPI_METHOD_ARGUMENT structures. The following IOCTLs evaluate control methods and return output arguments in an <a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a> structure:
+An ACPI_EVAL_OUTPUT_BUFFER structure includes an <b>Argument</b> array of ACPI_METHOD_ARGUMENT structures. The following IOCTLs evaluate control methods and return output arguments in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536123">ACPI_EVAL_OUTPUT_BUFFER</a> structure:
 
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method.md">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
-
-
-
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536145">IOCTL_ACPI_ASYNC_EVAL_METHOD</a>
 
 
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method.md">IOCTL_ACPI_EVAL_METHOD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536146">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
 
 
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536148">IOCTL_ACPI_EVAL_METHOD</a>
 
 
-The ACPI_METHOD_ARGUMENT structure is also used to supply an array of complex input arguments to a control method. The <a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a> and <a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX</a> structures includes an <b>Argument</b> array of type ACPI_METHOD_ARGUMENT.
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536149">IOCTL_ACPI_EVAL_METHOD_EX</a>
+
+
+The ACPI_METHOD_ARGUMENT structure is also used to supply an array of complex input arguments to a control method. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536116">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536117">ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX</a> structures includes an <b>Argument</b> array of type ACPI_METHOD_ARGUMENT.
 
 For more information about how to use ACPI_METHOD_ARGUMENT structures to supply and retrieve argument data to an ACPI control method, see <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/acpi/evaluating-acpi-control-methods">Evaluating ACPI Control Methods</a>.
 
@@ -156,20 +140,19 @@ For more information about how to use ACPI_METHOD_ARGUMENT structures to supply 
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1_ex.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536116">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536117">ACPI_EVAL_INPUT_BUFFER_COMPLEX_EX</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536123">ACPI_EVAL_OUTPUT_BUFFER</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.ProcessIoControl
-title: ISensorClassExtension::ProcessIoControl method
+title: ISensorClassExtension::ProcessIoControl
 author: windows-driver-content
 description: The ISensorClassExtension::ProcessControl method sends Windows Portable Devices (WPD) I/O control requests to the sensor class extension for processing.
 old-location: sensors\isensorclassextension_processiocontrol.htm
 old-project: sensors
 ms.assetid: bd886086-4e23-47c0-ae58-9234399e5a79
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorClassExtension, ISensorClassExtension::ProcessIoControl, ProcessIoControl method [Sensor Devices], ProcessIoControl,ISensorClassExtension.ProcessIoControl, sensors.isensorclassextension_processiocontrol
+ms.date: 4/30/2018
+ms.keywords: ISensorClassExtension interface [Sensor Devices],ProcessIoControl method, ISensorClassExtension.ProcessIoControl, ISensorClassExtension::ProcessIoControl, ProcessIoControl, ProcessIoControl method [Sensor Devices], ProcessIoControl method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_processiocontrol, sensorsclassextension/ISensorClassExtension::ProcessIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,29 +39,19 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	ProcessIoControl
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorClassExtension::ProcessIoControl method
+# ISensorClassExtension::ProcessIoControl
 
 
 ## -description
 
 
 The <a href="https://msdn.microsoft.com/bd886086-4e23-47c0-ae58-9234399e5a79">ISensorClassExtension::ProcessControl</a> method sends Windows Portable Devices (WPD) I/O control requests to the sensor class extension for processing.
-
-
-## -syntax
-
-
-````
-HRESULT ProcessIoControl(
-   IWDFIoRequest * pRequest
-);
-````
 
 
 ## -parameters
@@ -141,9 +131,20 @@ The request did not contain a WPD IOCTL.
 
 UMDF sends I/O control requests to sensor drivers through <a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>. We recommend that you call ProcessIoControl to forward all WPD requests to the sensor class extension for processing. You can use the WPD macro IS_WPD_IOCTL to determine whether a given control code is specific to WPD. Clients of the Sensor API and Location API send only WPD IOCTLs, which can always be process by the sensor class extension.
 
-After processing an I/O control request, the sensor class extension uses the driver's callback interface, <a href="..\sensorsclassextension\nn-sensorsclassextension-isensordriver.md">ISensorDriver</a>, to provide notifications, as appropriate. WPD requests that the sensor class extension does not handle by default are sent to the driver through <a href="https://msdn.microsoft.com/library/windows/hardware/ff545644">ISensorDriver::OnProcessWpdMessage</a>.
+After processing an I/O control request, the sensor class extension uses the driver's callback interface, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>, to provide notifications, as appropriate. WPD requests that the sensor class extension does not handle by default are sent to the driver through <a href="https://msdn.microsoft.com/library/windows/hardware/ff545644">ISensorDriver::OnProcessWpdMessage</a>.
 
 The driver must not complete I/O control requests that it forwards to the sensor class extension.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545503">ISensorClassExtension</a>
+ 
+
+ 
 

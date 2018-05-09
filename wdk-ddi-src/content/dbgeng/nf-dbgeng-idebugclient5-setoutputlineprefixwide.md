@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.SetOutputLinePrefixWide
-title: IDebugClient5::SetOutputLinePrefixWide method
+title: IDebugClient5::SetOutputLinePrefixWide
 author: windows-driver-content
 description: Sets a wide string prefix for output lines.
 old-location: debugger\idebugclient5_setoutputlineprefixwide.htm
 old-project: debugger
 ms.assetid: B847EE03-65C0-4046-BD0A-0441C487056F
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], SetOutputLinePrefixWide method, IDebugClient5::SetOutputLinePrefixWide, SetOutputLinePrefixWide method [Windows Debugging], SetOutputLinePrefixWide method [Windows Debugging], IDebugClient5 interface, SetOutputLinePrefixWide,IDebugClient5.SetOutputLinePrefixWide, dbgeng/IDebugClient5::SetOutputLinePrefixWide, debugger.idebugclient5_setoutputlineprefixwide
+ms.date: 4/24/2018
+ms.keywords: IDebugClient5 interface [Windows Debugging],SetOutputLinePrefixWide method, IDebugClient5.SetOutputLinePrefixWide, IDebugClient5::SetOutputLinePrefixWide, SetOutputLinePrefixWide, SetOutputLinePrefixWide method [Windows Debugging], SetOutputLinePrefixWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetOutputLinePrefixWide, debugger.idebugclient5_setoutputlineprefixwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugClient5.SetOutputLinePrefixWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::SetOutputLinePrefixWide method
+# IDebugClient5::SetOutputLinePrefixWide
 
 
 ## -description
 
 
 Sets a wide string prefix for output lines.
-
-
-## -syntax
-
-
-````
-HRESULT SetOutputLinePrefixWide(
-  [in, optional] PCWSTR Prefix
-);
-````
 
 
 ## -parameters
@@ -83,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
  
 
  
-
 

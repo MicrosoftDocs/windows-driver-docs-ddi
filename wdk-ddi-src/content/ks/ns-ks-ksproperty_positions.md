@@ -7,7 +7,7 @@ old-location: stream\ksproperty_positions.htm
 old-project: stream
 ms.assetid: 869d3a3f-e2f8-4c23-864b-d40f3e67a9ec
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS structure [Streaming Media Devices], PKSPROPERTY_POSITIONS, PKSPROPERTY_POSITIONS structure pointer [Streaming Media Devices], ks-struct_97829290-4c01-4a03-b56b-3e5915941094.xml, ks/KSPROPERTY_POSITIONS, ks/PKSPROPERTY_POSITIONS, stream.ksproperty_positions"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_POSITIONS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_POSITIONS, *PKSPROPERTY_POSITIONS
 ---
@@ -50,19 +51,6 @@ req.typenames: KSPROPERTY_POSITIONS, *PKSPROPERTY_POSITIONS
 
 
 The KSPROPERTY_POSITIONS structure specifies the current position and stop position, relative to the total duration of the stream.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG         Current;
-  LONGLONG         Stop;
-  KS_SEEKING_FLAGS CurrentFlags;
-  KS_SEEKING_FLAGS StopFlags;
-} KSPROPERTY_POSITIONS, *PKSPROPERTY_POSITIONS;
-````
 
 
 ## -struct-fields
@@ -82,12 +70,12 @@ Specifies the stop position as a 64-bit value.
 
 ### -field CurrentFlags
 
-A structure of type <a href="..\ks\ne-ks-ks_seeking_flags.md">KS_SEEKING_FLAGS</a> containing flags pertaining to the <b>Current</b> parameter.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567677">KS_SEEKING_FLAGS</a> containing flags pertaining to the <b>Current</b> parameter.
 
 
 ### -field StopFlags
 
-A structure of type <a href="..\ks\ne-ks-ks_seeking_flags.md">KS_SEEKING_FLAGS</a> containing flags pertaining to the <b>Stop</b> parameter.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567677">KS_SEEKING_FLAGS</a> containing flags pertaining to the <b>Stop</b> parameter.
 
 
 ## -remarks
@@ -101,12 +89,11 @@ The KSPROPERTY_POSITIONS structure is used with positioning properties in the KS
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565185">KSPROPERTY_MEDIASEEKING_POSITIONS</a>
-
-
-
  
 
  
-
 

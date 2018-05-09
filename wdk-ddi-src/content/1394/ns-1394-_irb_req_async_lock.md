@@ -38,7 +38,8 @@ api_location:
 -	1394.h
 api_name:
 -	IRB_REQ_ASYNC_LOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IRB_REQ_ASYNC_LOCK
 ---
@@ -50,28 +51,6 @@ req.typenames: IRB_REQ_ASYNC_LOCK
 
 
 This structure contains the fields necessary for the 1394 stack to carry out an asychronous lock request.
-
-
-## -syntax
-
-
-````
-typedef struct _IRB_REQ_ASYNC_LOCK {
-  IO_ADDRESS DestinationAddress;
-  ULONG      nNumberOfArgBytes;
-  ULONG      nNumberOfDataBytes;
-  ULONG      fulTransactionType;
-  ULONG      fulFlags;
-  ULONG      Arguments[2];
-  ULONG      DataValues[2];
-  PVOID      pBuffer;
-  ULONG      ulGeneration;
-  UCHAR      chPriority;
-  UCHAR      nSpeed;
-  UCHAR      tCode;
-  UCHAR      Reserved;
-} IRB_REQ_ASYNC_LOCK;
-````
 
 
 ## -struct-fields

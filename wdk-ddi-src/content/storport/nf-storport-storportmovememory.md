@@ -7,7 +7,7 @@ old-location: storage\storportmovememory.htm
 old-project: storage
 ms.assetid: 5481ae5e-c28a-478e-96be-c6ec8d7f163e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortMoveMemory, StorPortMoveMemory routine [Storage Devices], storage.storportmovememory, storport/StorPortMoveMemory, storprt_7af1ec0d-f1c4-4335-9b80-1aaef26afa35.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Storport.dll
 api_name:
 -	StorPortMoveMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortMoveMemory function
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortMoveMemory</b> routine copies memory from one buffer to another.
-
-
-## -syntax
-
-
-````
-STORPORT_API VOID StorPortMoveMemory(
-  _In_ PVOID WriteBuffer,
-  _In_ PVOID ReadBuffer,
-  _In_ ULONG Length
-);
-````
 
 
 ## -parameters
@@ -97,12 +85,11 @@ None
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportmovememory.md">ScsiPortMoveMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564654">ScsiPortMoveMemory</a>
  
 
  
-
 

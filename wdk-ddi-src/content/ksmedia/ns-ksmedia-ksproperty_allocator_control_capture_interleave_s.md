@@ -7,7 +7,7 @@ old-location: stream\ksproperty_allocator_control_capture_interleave_s.htm
 old-project: stream
 ms.assetid: e3885241-c6a4-417f-a7cf-38d221307f8e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S structure [Streaming Media Devices], PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, ksmedia/PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, stream.ksproperty_allocator_control_capture_interleave_s, vidcapstruct_d012cbc9-457f-4689-943a-5dcf5eb33c46.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, *PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S
 ---
@@ -50,16 +51,6 @@ req.typenames: KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, *PKSPROPERTY_A
 
 
 The KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S structure specifies if interleaved capture is possible.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG InterleavedCapPossible;
-} KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, *PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S;
-````
 
 
 ## -struct-fields
@@ -74,16 +65,15 @@ Indicates whether interleaved capture is possible. Any nonzero value indicates t
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564271">KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567792">PROPSETID_ALLOCATOR_CONTROL</a>
-
-
-
  
 
  
-
 

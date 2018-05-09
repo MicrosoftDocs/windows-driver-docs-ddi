@@ -38,10 +38,10 @@ api_location:
 -	wdfrequest.h
 api_name:
 -	WDF_REQUEST_REUSE_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_REQUEST_REUSE_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_REQUEST_REUSE_FLAGS enumeration
@@ -52,18 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_REQUEST_REUSE_FLAGS</b> enumeration type defines flags that are used in a driver's <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_REQUEST_REUSE_FLAGS { 
-  WDF_REQUEST_REUSE_NO_FLAGS     = 0x00000000,
-  WDF_REQUEST_REUSE_SET_NEW_IRP  = 0x00000001
-} WDF_REQUEST_REUSE_FLAGS;
-````
+The <b>WDF_REQUEST_REUSE_FLAGS</b> enumeration type defines flags that are used in a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552480">WDF_REQUEST_REUSE_PARAMS</a> structure.
 
 
 ## -enum-fields
@@ -78,17 +67,16 @@ No flags are set.
 
 ### -field WDF_REQUEST_REUSE_SET_NEW_IRP
 
-The <b>NewIrp</b> member of the <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a> structure is valid.
+The <b>NewIrp</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552480">WDF_REQUEST_REUSE_PARAMS</a> structure is valid.
 
 
 ## -see-also
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552480">WDF_REQUEST_REUSE_PARAMS</a>
  
 
  
-
 

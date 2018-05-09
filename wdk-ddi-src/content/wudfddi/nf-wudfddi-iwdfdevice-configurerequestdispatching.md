@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.ConfigureRequestDispatching
-title: IWDFDevice::ConfigureRequestDispatching method
+title: IWDFDevice::ConfigureRequestDispatching
 author: windows-driver-content
 description: The ConfigureRequestDispatching method configures the queuing of I/O requests of the specified type to the specified I/O queue.
 old-location: wdf\iwdfdevice_configurerequestdispatching.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b3318695-e9f2-480a-9133-9008ef0002b7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: ConfigureRequestDispatching method, ConfigureRequestDispatching method, IWDFDevice interface, ConfigureRequestDispatching,IWDFDevice.ConfigureRequestDispatching, IWDFDevice, IWDFDevice interface, ConfigureRequestDispatching method, IWDFDevice::ConfigureRequestDispatching, UMDFDeviceObjectRef_1fbf31c6-856c-45d2-aa86-3b36372821c8.xml, umdf.iwdfdevice_configurerequestdispatching, wdf.iwdfdevice_configurerequestdispatching, wudfddi/IWDFDevice::ConfigureRequestDispatching
+ms.keywords: ConfigureRequestDispatching, ConfigureRequestDispatching method, ConfigureRequestDispatching method,IWDFDevice interface, IWDFDevice interface,ConfigureRequestDispatching method, IWDFDevice.ConfigureRequestDispatching, IWDFDevice::ConfigureRequestDispatching, UMDFDeviceObjectRef_1fbf31c6-856c-45d2-aa86-3b36372821c8.xml, umdf.iwdfdevice_configurerequestdispatching, wdf.iwdfdevice_configurerequestdispatching, wudfddi/IWDFDevice::ConfigureRequestDispatching
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice.ConfigureRequestDispatching
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::ConfigureRequestDispatching method
+# IWDFDevice::ConfigureRequestDispatching
 
 
 ## -description
@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 The <b>ConfigureRequestDispatching</b> method configures the queuing of I/O requests of the specified type to the specified I/O queue.
 
 
-## -syntax
-
-
-````
-HRESULT ConfigureRequestDispatching(
-  [in] IWDFIoQueue      *pQueue,
-  [in] WDF_REQUEST_TYPE RequestType,
-  [in] BOOL             Forward
-);
-````
-
-
 ## -parameters
 
 
@@ -74,12 +62,12 @@ HRESULT ConfigureRequestDispatching(
 
 ### -param pQueue [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a> interface for the I/O queue to configure. 
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a> interface for the I/O queue to configure. 
 
 
 ### -param RequestType [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the request type to be queued. The only valid <b>WDF_REQUEST_TYPE</b> values are <b>WdfRequestCreate</b>, <b>WdfRequestRead</b>, <b>WdfRequestWrite</b>, and <b>WdfRequestDeviceIoControl</b>.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552503">WDF_REQUEST_TYPE</a>-typed value that identifies the request type to be queued. The only valid <b>WDF_REQUEST_TYPE</b> values are <b>WdfRequestCreate</b>, <b>WdfRequestRead</b>, <b>WdfRequestWrite</b>, and <b>WdfRequestDeviceIoControl</b>.
 
 
 ### -param Forward [in]
@@ -98,20 +86,19 @@ A BOOL value that specifies whether requests of the specified type are queued. <
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552503">WDF_REQUEST_TYPE</a>
  
 
  
-
 

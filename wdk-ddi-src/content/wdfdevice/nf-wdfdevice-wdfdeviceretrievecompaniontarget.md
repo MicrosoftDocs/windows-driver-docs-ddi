@@ -38,10 +38,10 @@ api_location:
 -	wdfdevice.h
 api_name:
 -	WdfDeviceRetrieveCompanionTarget
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceRetrieveCompanionTarget function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 For internal use only.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfDeviceRetrieveCompanionTarget(
-  _In_  WDFDEVICE          Device,
-  _Out_ WDFCOMPANIONTARGET *CompanionTarget
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: stream\transport_state.htm
 old-project: stream
 ms.assetid: 373fb91d-e469-4136-b2e3-bf57016c0fd6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PTRANSPORT_STATE, PTRANSPORT_STATE, PTRANSPORT_STATE structure pointer [Streaming Media Devices], TRANSPORT_STATE, TRANSPORT_STATE structure [Streaming Media Devices], ksmedia/PTRANSPORT_STATE, ksmedia/TRANSPORT_STATE, stream.transport_state, vidcapstruct_5caaba9f-8a5c-4896-b181-c432a9678f58.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	TRANSPORT_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSPORT_STATE, *PTRANSPORT_STATE
 ---
@@ -50,17 +51,6 @@ req.typenames: TRANSPORT_STATE, *PTRANSPORT_STATE
 
 
 The TRANSPORT_STATE structure 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG Mode;
-  ULONG State;
-} TRANSPORT_STATE, *PTRANSPORT_STATE;
-````
 
 
 ## -struct-fields

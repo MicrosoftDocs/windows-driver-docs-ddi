@@ -38,10 +38,10 @@ api_location:
 -	Wdfchildlist.h
 api_name:
 -	WDF_CHILD_RETRIEVE_INFO_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_RETRIEVE_CHILD_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_CHILD_RETRIEVE_INFO_INIT function
@@ -52,18 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF only]
 
-The <b>WDF_CHILD_RETRIEVE_INFO_INIT</b> function initializes a <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_CHILD_RETRIEVE_INFO_INIT(
-  _Out_ PWDF_CHILD_RETRIEVE_INFO                     Info,
-  _In_  PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER IdentificationDescription
-);
-````
+The <b>WDF_CHILD_RETRIEVE_INFO_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551234">WDF_CHILD_RETRIEVE_INFO</a> structure.
 
 
 ## -parameters
@@ -73,12 +62,12 @@ VOID WDF_CHILD_RETRIEVE_INFO_INIT(
 
 ### -param Info [out]
 
-A pointer to a driver-supplied <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a> structure.
+A pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff551234">WDF_CHILD_RETRIEVE_INFO</a> structure.
 
 
 ### -param IdentificationDescription [in]
 
-A pointer to a driver-supplied <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
+A pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure.
 
 
 ## -returns
@@ -92,16 +81,15 @@ None
 
 ## -see-also
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551223">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551234">WDF_CHILD_RETRIEVE_INFO</a>
  
 
  
-
 

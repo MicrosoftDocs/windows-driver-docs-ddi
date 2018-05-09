@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient.LaunchPlmPackageForDebugWide
-title: IDebugPlmClient::LaunchPlmPackageForDebugWide method
+title: IDebugPlmClient::LaunchPlmPackageForDebugWide
 author: windows-driver-content
 description: Launches a suspended Process Lifecycle Management (PLM) application.
 old-location: debugger\idebugplmclient_launchplmpackagefordebugwide.htm
 old-project: debugger
 ms.assetid: DE11B4A5-5AE3-4369-AF6D-6CE34B9AAFAB
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugPlmClient, IDebugPlmClient interface [Windows Debugging], LaunchPlmPackageForDebugWide method, IDebugPlmClient::LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide method [Windows Debugging], LaunchPlmPackageForDebugWide method [Windows Debugging], IDebugPlmClient interface, LaunchPlmPackageForDebugWide,IDebugPlmClient.LaunchPlmPackageForDebugWide, dbgeng/IDebugPlmClient::LaunchPlmPackageForDebugWide, debugger.idebugplmclient_launchplmpackagefordebugwide
+ms.date: 4/24/2018
+ms.keywords: IDebugPlmClient interface [Windows Debugging],LaunchPlmPackageForDebugWide method, IDebugPlmClient.LaunchPlmPackageForDebugWide, IDebugPlmClient::LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide method [Windows Debugging], LaunchPlmPackageForDebugWide method [Windows Debugging],IDebugPlmClient interface, dbgeng/IDebugPlmClient::LaunchPlmPackageForDebugWide, debugger.idebugplmclient_launchplmpackagefordebugwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,34 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugPlmClient.LaunchPlmPackageForDebugWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugPlmClient::LaunchPlmPackageForDebugWide method
+# IDebugPlmClient::LaunchPlmPackageForDebugWide
 
 
 ## -description
 
 
 Launches a suspended Process Lifecycle Management (PLM) application.
-
-
-## -syntax
-
-
-````
-HRESULT LaunchPlmPackageForDebugWide(
-  [in]           ULONG64 Server,
-  [in]           ULONG   Timeout,
-  [in]           PCWSTR  PackageFullName,
-  [in]           PCWSTR  AppName,
-  [in, optional] PCWSTR  Arguments,
-  [out]          PULONG  ProcessId,
-  [out]          PULONG  ThreadId
-);
-````
 
 
 ## -parameters
@@ -119,12 +104,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugplmclient.md">IDebugPlmClient</a>
 
 
 
+<a href="https://msdn.microsoft.com/2D713354-4C93-4DC1-A3E9-7E6BC991FD08">IDebugPlmClient</a>
  
 
  
-
 

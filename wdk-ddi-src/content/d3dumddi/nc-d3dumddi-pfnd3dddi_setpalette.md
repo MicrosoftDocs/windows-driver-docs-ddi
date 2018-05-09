@@ -7,8 +7,8 @@ old-location: display\setpalette.htm
 old-project: display
 ms.assetid: 5d1c8c2d-7886-4876-b48e-1e6b252ae8f7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_SETPALETTE, SetPalette, SetPalette callback function [Display Devices], UserModeDisplayDriver_Functions_9366fa90-a9d7-4c03-9c96-a8bc4eba6abb.xml, d3dumddi/SetPalette, display.setpalette
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETPALETTE, PFND3DDDI_SETPALETTE callback, SetPalette, SetPalette callback function [Display Devices], UserModeDisplayDriver_Functions_9366fa90-a9d7-4c03-9c96-a8bc4eba6abb.xml, d3dumddi/SetPalette, display.setpalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetPalette
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETPALETTE callback
+# PFND3DDDI_SETPALETTE callback function
 
 
 ## -description
 
 
 The <i>SetPalette</i> function associates a palette with a texture.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETPALETTE SetPalette;
-
-__checkReturn HRESULT APIENTRY SetPalette(
-  _In_       HANDLE               hDevice,
-  _In_ const D3DDDIARG_SETPALETTE *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY SetPalette(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpalette.md">D3DDDIARG_SETPALETTE</a> structure that describes the parameters for the set-palette operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543327">D3DDDIARG_SETPALETTE</a> structure that describes the parameters for the set-palette operation.
 
 
 ## -returns
@@ -103,23 +90,22 @@ __checkReturn HRESULT APIENTRY SetPalette(
 
 
 
-The user-mode display driver uses the members in the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpalette.md">D3DDDIARG_SETPALETTE</a> structure that is pointed to by <i>pData</i> to map an association between a palette handle and a surface handle and to specify the characteristics of the palette.
+The user-mode display driver uses the members in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543327">D3DDDIARG_SETPALETTE</a> structure that is pointed to by <i>pData</i> to map an association between a palette handle and a surface handle and to specify the characteristics of the palette.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_setpalette.md">D3DDDIARG_SETPALETTE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543327">D3DDDIARG_SETPALETTE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

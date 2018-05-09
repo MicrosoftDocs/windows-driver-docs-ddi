@@ -7,7 +7,7 @@ old-location: kernel\pep_soc_subsystem_metadata.htm
 old-project: kernel
 ms.assetid: 4FAE15C7-7B2F-47A5-B429-B7FF7D3D018C
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_SOC_SUBSYSTEM_METADATA, PEP_SOC_SUBSYSTEM_METADATA, PEP_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_SOC_SUBSYSTEM_METADATA, PPEP_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], _PEP_SOC_SUBSYSTEM_METADATA, kernel.pep_soc_subsystem_metadata, pepfx/PEP_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_SOC_SUBSYSTEM_METADATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_SOC_SUBSYSTEM_METADATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_SOC_SUBSYSTEM_METADATA, *PPEP_SOC_SUBSYSTEM_METADATA
 ---
@@ -50,17 +51,6 @@ req.typenames: PEP_SOC_SUBSYSTEM_METADATA, *PPEP_SOC_SUBSYSTEM_METADATA
 
 
 The <b>PEP_SOC_SUBSYSTEM_METADATA</b> structure contains key-value pairs that contain metadata for a system on a chip (SoC) subsystem. It is used in the context of a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186854">PEP_DPM_QUERY_SOC_SUBSYSTEM_METADATA</a> notification sent to a platform extension plug-in (PEP).
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_SOC_SUBSYSTEM_METADATA {
-  UNICODE_STRING Key;
-  UNICODE_STRING Value;
-} PEP_SOC_SUBSYSTEM_METADATA, *PPEP_SOC_SUBSYSTEM_METADATA;
-````
 
 
 ## -struct-fields
@@ -108,7 +98,6 @@ Since this memory is pre-allocated, its size cannot be changed. The PEP is respo
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_query_soc_subsystem_metadata.md">PEP_QUERY_SOC_SUBSYSTEM_METADATA</a>
 
 
 
@@ -116,8 +105,8 @@ Since this memory is pre-allocated, its size cannot be changed. The PEP is respo
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186847">PEP_QUERY_SOC_SUBSYSTEM_METADATA</a>
  
 
  
-
 

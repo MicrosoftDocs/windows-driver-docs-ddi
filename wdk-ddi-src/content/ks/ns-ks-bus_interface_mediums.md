@@ -7,7 +7,7 @@ old-location: stream\bus_interface_mediums.htm
 old-project: stream
 ms.assetid: 0A2D1D8F-8C82-4335-9FBF-4515A8DC20C1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBUS_INTERFACE_MEDIUMS, BUS_INTERFACE_MEDIUMS, BUS_INTERFACE_MEDIUMS structure [Streaming Media Devices], PBUS_INTERFACE_MEDIUMS, PBUS_INTERFACE_MEDIUMS structure pointer [Streaming Media Devices], ks/BUS_INTERFACE_MEDIUMS, ks/PBUS_INTERFACE_MEDIUMS, stream.bus_interface_mediums"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ks.h
 api_name:
 -	BUS_INTERFACE_MEDIUMS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BUS_INTERFACE_MEDIUMS, *PBUS_INTERFACE_MEDIUMS
 ---
@@ -50,17 +51,6 @@ req.typenames: BUS_INTERFACE_MEDIUMS, *PBUS_INTERFACE_MEDIUMS
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct {
-  INTERFACE           Interface;
-  PFNQUERYMEDIUMSLIST QueryMediumsList;
-} BUS_INTERFACE_MEDIUMS, *PBUS_INTERFACE_MEDIUMS;
-````
 
 
 ## -struct-fields

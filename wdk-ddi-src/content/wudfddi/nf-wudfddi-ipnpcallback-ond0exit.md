@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallback.OnD0Exit
-title: IPnpCallback::OnD0Exit method
+title: IPnpCallback::OnD0Exit
 author: windows-driver-content
 description: The OnD0Exit method notifies a driver when a device exits the D0 power state so that the driver can perform necessary operations, such as disabling the device.
 old-location: wdf\ipnpcallback_ond0exit.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 39eedeca-269d-4966-be1f-7cc5c9228a5c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallback, IPnpCallback interface, OnD0Exit method, IPnpCallback::OnD0Exit, OnD0Exit method, OnD0Exit method, IPnpCallback interface, OnD0Exit,IPnpCallback.OnD0Exit, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, umdf.ipnpcallback_ond0exit, wdf.ipnpcallback_ond0exit, wudfddi/IPnpCallback::OnD0Exit
+ms.keywords: IPnpCallback interface,OnD0Exit method, IPnpCallback.OnD0Exit, IPnpCallback::OnD0Exit, OnD0Exit, OnD0Exit method, OnD0Exit method,IPnpCallback interface, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, umdf.ipnpcallback_ond0exit, wdf.ipnpcallback_ond0exit, wudfddi/IPnpCallback::OnD0Exit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IPnpCallback.OnD0Exit
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallback::OnD0Exit method
+# IPnpCallback::OnD0Exit
 
 
 ## -description
@@ -55,17 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnD0Exit</b> method notifies a driver when a device exits the D0 power state so that the driver can perform necessary operations,  such as disabling the device. 
 
 
-## -syntax
-
-
-````
-HRESULT OnD0Exit(
-  [in] IWDFDevice             *pWdfDevice,
-  [in] WDF_POWER_DEVICE_STATE newState
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +62,12 @@ HRESULT OnD0Exit(
 
 ### -param pWdfDevice [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that exits the D0 power state.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface for the device object of the device that exits the D0 power state.
 
 
 ### -param newState [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>-typed value that identifies the new power state that the device is set to after it exits the D0 power state.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552421">WDF_POWER_DEVICE_STATE</a>-typed value that identifies the new power state that the device is set to after it exits the D0 power state.
 
 
 ## -returns
@@ -95,31 +84,30 @@ If the
 
 
 
-A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556762">IPnpCallback</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
 
 
 
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556762">IPnpCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552421">WDF_POWER_DEVICE_STATE</a>
  
 
  
-
 

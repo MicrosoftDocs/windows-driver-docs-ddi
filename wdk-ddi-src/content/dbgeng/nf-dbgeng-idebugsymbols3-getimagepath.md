@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetImagePath
-title: IDebugSymbols3::GetImagePath method
+title: IDebugSymbols3::GetImagePath
 author: windows-driver-content
 description: The GetImagePath method returns the executable image path.
 old-location: debugger\getimagepath.htm
 old-project: debugger
 ms.assetid: 9310dc82-b80f-45bb-9d8a-1239330bc799
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetImagePath method [Windows Debugging], GetImagePath method [Windows Debugging], IDebugSymbols interface, GetImagePath method [Windows Debugging], IDebugSymbols2 interface, GetImagePath method [Windows Debugging], IDebugSymbols3 interface, GetImagePath,IDebugSymbols3.GetImagePath, IDebugSymbols interface [Windows Debugging], GetImagePath method, IDebugSymbols2 interface [Windows Debugging], GetImagePath method, IDebugSymbols2::GetImagePath, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetImagePath method, IDebugSymbols3::GetImagePath, IDebugSymbols::GetImagePath, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, dbgeng/IDebugSymbols2::GetImagePath, dbgeng/IDebugSymbols3::GetImagePath, dbgeng/IDebugSymbols::GetImagePath, debugger.getimagepath
+ms.date: 4/24/2018
+ms.keywords: GetImagePath, GetImagePath method [Windows Debugging], GetImagePath method [Windows Debugging],IDebugSymbols interface, GetImagePath method [Windows Debugging],IDebugSymbols2 interface, GetImagePath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetImagePath method, IDebugSymbols2 interface [Windows Debugging],GetImagePath method, IDebugSymbols2::GetImagePath, IDebugSymbols3 interface [Windows Debugging],GetImagePath method, IDebugSymbols3.GetImagePath, IDebugSymbols3::GetImagePath, IDebugSymbols::GetImagePath, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, dbgeng/IDebugSymbols2::GetImagePath, dbgeng/IDebugSymbols3::GetImagePath, dbgeng/IDebugSymbols::GetImagePath, debugger.getimagepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,30 +40,19 @@ api_name:
 -	IDebugSymbols.GetImagePath
 -	IDebugSymbols2.GetImagePath
 -	IDebugSymbols3.GetImagePath
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetImagePath method
+# IDebugSymbols3::GetImagePath
 
 
 ## -description
 
 
 The <b>GetImagePath</b>  method returns the executable image path.
-
-
-## -syntax
-
-
-````
-HRESULT GetImagePath(
-  [out, optional] PSTR   Buffer,
-  [in]            ULONG  BufferSize,
-  [out, optional] PULONG PathSize
-);
-````
 
 
 ## -parameters
@@ -138,11 +127,6 @@ The executable image path can consist of several directories separated by semico
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
 
 
 
@@ -150,16 +134,20 @@ The executable image path can consist of several directories separated by semico
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
  
 
  
-
 

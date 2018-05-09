@@ -7,7 +7,7 @@ old-location: kernel\pep_ppm_cst_states.htm
 old-project: kernel
 ms.assetid: 4E620796-3065-469E-8E91-8F698F672CAE
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_PPM_CST_STATES, PEP_PPM_CST_STATES, PEP_PPM_CST_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_CST_STATES, PPEP_PPM_CST_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_CST_STATES, kernel.pep_ppm_cst_states, pepfx/PEP_PPM_CST_STATES, pepfx/PPEP_PPM_CST_STATES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_PPM_CST_STATES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_PPM_CST_STATES, *PPEP_PPM_CST_STATES
 ---
@@ -50,17 +51,6 @@ req.typenames: PEP_PPM_CST_STATES, *PPEP_PPM_CST_STATES
 
 
 The <b>PEP_PPM_CST_STATES</b> structure specifies the properties of the C states (ACPI processor power states) that are supported for a processor.
-
-
-## -syntax
-
-
-````
-typedef struct _PEP_PPM_CST_STATES {
-  ULONG              Count;
-  PPEP_PPM_CST_STATE IdleStates;
-} PEP_PPM_CST_STATES, *PPEP_PPM_CST_STATES;
-````
 
 
 ## -struct-fields
@@ -75,7 +65,7 @@ The number of elements in the <b>IdleStates</b> array.
 
 ### -field IdleStates
 
-A pointer to an array of <a href="..\pepfx\ns-pepfx-_pep_ppm_cst_state.md">PEP_PPM_CST_STATE</a> structures.
+A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt186799">PEP_PPM_CST_STATE</a> structures.
 
 
 ## -remarks
@@ -89,7 +79,6 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_ppm_cst_state.md">PEP_PPM_CST_STATE</a>
 
 
 
@@ -97,8 +86,8 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186799">PEP_PPM_CST_STATE</a>
  
 
  
-
 

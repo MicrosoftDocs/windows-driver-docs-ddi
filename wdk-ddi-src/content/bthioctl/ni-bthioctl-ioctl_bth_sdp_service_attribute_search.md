@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bth_sdp_service_attribute_search.htm
 old-project: bltooth
 ms.assetid: f0955e88-df80-4f53-bc5f-5a38a840aab4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH, IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_attribute_search, bth_ioctls_73db8572-0986-4ac7-a76c-4cb3777c0660.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
+ms.date: 4/27/2018
+ms.keywords: IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH, IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH control, IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_attribute_search, bth_ioctls_73db8572-0986-4ac7-a76c-4cb3777c0660.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Bthioctl.h
 api_name:
 -	IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
+req.typenames: 
 ---
 
 # IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH IOCTL
@@ -81,14 +82,14 @@ The length of an
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a> structure
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536653">BTH_SDP_STREAM_RESPONSE</a> structure
       followed by a raw SDP record stream.
 
 
 ### -output-buffer-length
 
 The length of a 
-      <a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a> structure.
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536653">BTH_SDP_STREAM_RESPONSE</a> structure.
 
 
 ### -in-out-buffer
@@ -204,7 +205,7 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 After a profile driver obtains an SDP record, it can use SDP functions to parse them. Pointers to
     these functions are provided by the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">
+    <a href="https://msdn.microsoft.com/bb8a1dd5-8207-4034-993e-eed49dc0f9c4">
     BTHDDI_SDP_PARSE_INTERFACE</a> interface.
 
 
@@ -212,21 +213,20 @@ After a profile driver obtains an SDP record, it can use SDP functions to parse 
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_stream_response.md">BTH_SDP_STREAM_RESPONSE</a>
 
 
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536653">BTH_SDP_STREAM_RESPONSE</a>
+
+
+
+<a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
-
-
-
  
 
  
-
 

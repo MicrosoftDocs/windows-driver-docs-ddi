@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket
-title: IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket method
+title: IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket method converts a DEVMODEW structure into a print ticket.
 old-location: print\iprintoemprintticketprovider_convertdevmodetoprintticket.htm
 old-project: print
 ms.assetid: b2e029b7-32c0-4cef-8388-9d30aa5610d3
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ",  , ,, ., :, C, ConvertDevModeToPrintTicket, ConvertDevModeToPrintTicket method [Print Devices], ConvertDevModeToPrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, ConvertDevModeToPrintTicket,IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket, D, I, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], ConvertDevModeToPrintTicket method, IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, M, O, P, T, c, d, e, i, k, m, n, o, prcomoem/IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, print.iprintoemprintticketprovider_convertdevmodetoprintticket, print_ticket-package_4605321f-640a-438b-a4cc-6e34ef5521b1.xml, r, t, v"
+ms.date: 4/20/2018
+ms.keywords: ConvertDevModeToPrintTicket, ConvertDevModeToPrintTicket method [Print Devices], ConvertDevModeToPrintTicket method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],ConvertDevModeToPrintTicket method, IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket, IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, prcomoem/IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket, print.iprintoemprintticketprovider_convertdevmodetoprintticket, print_ticket-package_4605321f-640a-438b-a4cc-6e34ef5521b1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -26,45 +26,31 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: prcomoem.h
+req.lib: 
 req.dll: 
 req.irql: 
-topictype:
+topic_type:
 -	APIRef
 -	kbSyntax
-apitype:
+api_type:
 -	COM
-apilocation:
+api_location:
 -	prcomoem.h
-apiname:
+api_name:
 -	IPrintOemPrintTicketProvider.ConvertDevModeToPrintTicket
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket method
+# IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket
 
 
 ## -description
 
 
 The <code>IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</code> method converts a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure into a print ticket. 
-
-
-## -syntax
-
-
-````
-HRESULT ConvertDevModeToPrintTicket(
-  [in]      ULONG            cbDevmode,
-  [in]      PDEVMODE         pDevmode,
-  [in]      ULONG            cbDrvPrivateSize,
-  [in]      PVOID            pPrivateDevmode,
-  [in, out] IXMLDOMDocument2 *pPrintTicket
-);
-````
 
 
 ## -parameters
@@ -119,14 +105,14 @@ The DEVMODEW structure fields that correlate with the part of the DEVMODEW struc
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemprintticketprovider.md">IPrintOemPrintTicketProvider</a>
+
+
+
+<a href="https://msdn.microsoft.com/a32b5ec9-b4f2-4f33-879d-252806bd34ed">IPrintOemPrintTicketProvider</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553167">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
-
-
-
  
 
  

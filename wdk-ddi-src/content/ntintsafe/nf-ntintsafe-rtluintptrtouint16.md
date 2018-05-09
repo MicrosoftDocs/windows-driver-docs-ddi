@@ -7,7 +7,7 @@ old-location: kernel\rtluintptrtouint16.htm
 old-project: kernel
 ms.assetid: 405FB676-64FD-43DE-BCD9-233C8B43D851
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUIntPtrToUInt16, RtlUIntPtrToUInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouint16, ntintsafe/RtlUIntPtrToUInt16
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlUIntPtrToUInt16
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlUIntPtrToUInt16 function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>UINT_PTR</b> to a value of type <b>UINT16</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUIntPtrToUInt16(
-  _In_  UINT_PTR uOperand,
-  _Out_ UINT16   *pu16Result
-);
-````
 
 
 ## -parameters

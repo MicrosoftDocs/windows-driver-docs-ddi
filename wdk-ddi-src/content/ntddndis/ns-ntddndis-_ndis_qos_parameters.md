@@ -7,7 +7,7 @@ old-location: netvista\ndis_qos_parameters.htm
 old-project: netvista
 ms.assetid: 83eb72a8-d35b-445d-a207-c14a3bedd308
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_PARAMETERS, netvista.ndis_qos_parameters, ntddndis/NDIS_QOS_PARAMETERS, ntddndis/PNDIS_QOS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_QOS_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS
 ---
@@ -55,25 +56,6 @@ The <b>NDIS_QOS_PARAMETERS</b> structure specifies the NDIS Quality of Service (
 
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_QOS_PARAMETERS {
-  NDIS_OBJECT_HEADER Header;
-  ULONG              Flags;
-  ULONG              NumTrafficClasses;
-  UCHAR              PriorityAssignmentTable[NDIS_QOS_MAXIMUM_PRIORITIES];
-  UCHAR              TcBandwidthAssignmentTable[NDIS_QOS_MAXIMUM_TRAFFIC_CLASSES];
-  UCHAR              TsaAssignmentTable[NDIS_QOS_MAXIMUM_TRAFFIC_CLASSES];
-  ULONG              PfcEnable;
-  ULONG              NumClassificationElements;
-  ULONG              ClassificationElementSize;
-  ULONG              FirstClassificationElementOffset;
-} NDIS_QOS_PARAMETERS, *PNDIS_QOS_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -81,7 +63,7 @@ typedef struct _NDIS_QOS_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_QOS_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_QOS_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_QOS_PARAMETERS. To specify the version of the <b>NDIS_QOS_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -105,14 +87,14 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the
 
 A <b>ULONG</b> value that specifies the number of NDIS QoS traffic classes that are enabled on the network adapter.  Each traffic class is referenced through an identifier in the range from zero to (<b>NumTrafficClasses</b>–1).
 
-<div class="alert"><b>Note</b>  The value of the <b>NumTrafficClasses</b> member must be less than or equal to <b>min</b>(<b>NDIS_QOS_MAXIMUM_TRAFFIC_CLASSES</b>, <i>MaxNumTrafficClasses</i>), where <i>MaxNumTrafficClasses</i> is the value of the <b>MaxNumTrafficClasses</b> member that was specified  in the <a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a> structure.</div>
+<div class="alert"><b>Note</b>  The value of the <b>NumTrafficClasses</b> member must be less than or equal to <b>min</b>(<b>NDIS_QOS_MAXIMUM_TRAFFIC_CLASSES</b>, <i>MaxNumTrafficClasses</i>), where <i>MaxNumTrafficClasses</i> is the value of the <b>MaxNumTrafficClasses</b> member that was specified  in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451629">NDIS_QOS_CAPABILITIES</a> structure.</div>
 <div> </div>
 
 ### -field PriorityAssignmentTable
 
 An array of <b>UCHAR</b> elements that specifies an IEEE 802.1p priority level for each traffic class. The <b>PriorityAssignmentTable</b> array is indexed  by the  802.1p priority level (0–7). 
 
-Each element contains the traffic class identifier. This identifier is the index of the <a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure for the traffic class within the classification array.
+Each element contains the traffic class identifier. This identifier is the index of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451631">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure for the traffic class within the classification array.
 
 <div class="alert"><b>Note</b>  Each element in the <b>PriorityAssignmentTable</b> array must be assigned a valid traffic class identifier. A traffic class identifier can be assigned to more than one element in the <b>PriorityAssignmentTable</b> array.</div>
 <div> </div>
@@ -204,7 +186,7 @@ is enabled on the IEEE 802.1p priority level. If the bit is set to one, PFC is e
 </table>
  
 
-<div class="alert"><b>Note</b>  The total number of 802.1p priority levels that have PFC enabled must be less than or equal to the value of the <b>MaxNumPfcEnabledTrafficClasses</b> member in the <a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a> structure.</div>
+<div class="alert"><b>Note</b>  The total number of 802.1p priority levels that have PFC enabled must be less than or equal to the value of the <b>MaxNumPfcEnabledTrafficClasses</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451629">NDIS_QOS_CAPABILITIES</a> structure.</div>
 <div> </div>
 For more information about priority levels, see <a href="https://msdn.microsoft.com/C7EB3D85-544E-4898-A456-843621F6488D">IEEE 802.1p Priority Levels</a>.
 
@@ -213,7 +195,7 @@ For more information about priority levels, see <a href="https://msdn.microsoft.
 
 A <b>ULONG</b> value that specifies the number of elements in the traffic classification array. The offset to the first element in this array is specified  by the <b>FirstClassificationElementOffset</b> member.
 
-<div class="alert"><b>Note</b>  Each element in the array is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure.</div>
+<div class="alert"><b>Note</b>  Each element in the array is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451631">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure.</div>
 <div> </div>
 
 ### -field ClassificationElementSize
@@ -225,7 +207,7 @@ A <b>ULONG</b> value that specifies the size, in bytes, of each element in the t
 
 ### -field FirstClassificationElementOffset
 
-A <b>ULONG</b> value that specifies the offset, in bytes, to the first element in an array of traffic classification elements that follow this structure. The offset is measured from the start of the <b>NDIS_QOS_PARAMETERS</b> structure up to the beginning of the first element. Each element in the array is an <a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure.
+A <b>ULONG</b> value that specifies the offset, in bytes, to the first element in an array of traffic classification elements that follow this structure. The offset is measured from the start of the <b>NDIS_QOS_PARAMETERS</b> structure up to the beginning of the first element. Each element in the array is an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451631">NDIS_QOS_CLASSIFICATION_ELEMENT</a> structure.
 
 
 
@@ -307,40 +289,6 @@ The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whet
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_qos_classification_element.md">NDIS_QOS_CLASSIFICATION_ELEMENT</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451828">OID_QOS_HARDWARE_CAPABILITIES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439810">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
-    NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 
@@ -348,8 +296,41 @@ The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whet
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565924">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451629">NDIS_QOS_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451631">NDIS_QOS_CLASSIFICATION_ELEMENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439810">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
+    NdisMSetMiniportAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451828">OID_QOS_HARDWARE_CAPABILITIES</a>
  
 
  
-
 

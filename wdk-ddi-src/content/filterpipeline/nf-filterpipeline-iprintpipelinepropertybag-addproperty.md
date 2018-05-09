@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IPrintPipelinePropertyBag.AddProperty
-title: IPrintPipelinePropertyBag::AddProperty method
+title: IPrintPipelinePropertyBag::AddProperty
 author: windows-driver-content
 description: The AddProperty method adds a property to a property bag.
 old-location: print\iprintpipelinepropertybag_addproperty.htm
 old-project: print
 ms.assetid: ba994342-c203-443e-a9fd-60fd29721dae
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: AddProperty method [Print Devices], AddProperty method [Print Devices], IPrintPipelinePropertyBag interface, AddProperty,IPrintPipelinePropertyBag.AddProperty, IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], AddProperty method, IPrintPipelinePropertyBag::AddProperty, filterpipeline/IPrintPipelinePropertyBag::AddProperty, filterpipeline_03ee8efb-3b2b-460a-9b95-e806dad5bb96.xml, print.iprintpipelinepropertybag_addproperty
+ms.date: 4/20/2018
+ms.keywords: AddProperty, AddProperty method [Print Devices], AddProperty method [Print Devices],IPrintPipelinePropertyBag interface, IPrintPipelinePropertyBag interface [Print Devices],AddProperty method, IPrintPipelinePropertyBag.AddProperty, IPrintPipelinePropertyBag::AddProperty, filterpipeline/IPrintPipelinePropertyBag::AddProperty, filterpipeline_03ee8efb-3b2b-460a-9b95-e806dad5bb96.xml, print.iprintpipelinepropertybag_addproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	filterpipeline.h
 api_name:
 -	IPrintPipelinePropertyBag.AddProperty
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IPrintPipelinePropertyBag::AddProperty method
+# IPrintPipelinePropertyBag::AddProperty
 
 
 ## -description
 
 
 The <code>AddProperty</code> method adds a property to a property bag.
-
-
-## -syntax
-
-
-````
-HRESULT AddProperty(
-  [in] const wchar_t *pszName,
-  [in] const VARIANT *pVar
-);
-````
 
 
 ## -parameters

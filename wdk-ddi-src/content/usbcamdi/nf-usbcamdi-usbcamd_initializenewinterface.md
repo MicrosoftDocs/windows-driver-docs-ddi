@@ -7,7 +7,7 @@ old-location: stream\usbcamd_initializenewinterface.htm
 old-project: stream
 ms.assetid: d0796a9b-9823-4f13-b2df-1fc8ca74cbd1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: USBCAMD_InitializeNewInterface, USBCAMD_InitializeNewInterface function [Streaming Media Devices], stream.usbcamd_initializenewinterface, usbcamdi/USBCAMD_InitializeNewInterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	usbcamd2.dll
 api_name:
 -	USBCAMD_InitializeNewInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBCAMD_InitializeNewInterface function
@@ -52,19 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USBCAMD_InitializeNewInterface</b> function provides USBCAMD with all the necessary information to configure the camera minidriver to work correctly with the stream class driver and the USB bus driver.
-
-
-## -syntax
-
-
-````
-ULONG USBCAMD_InitializeNewInterface(
-  _In_ PVOID DeviceContext,
-  _In_ PVOID DeviceData,
-  _In_ ULONG Version,
-  _In_ ULONG CamControlFlag
-);
-````
 
 
 ## -parameters
@@ -79,7 +66,7 @@ Pointer to device-specific context.
 
 ### -param DeviceData [in]
 
-Pointer to a <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a> structure.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568590">USBCAMD_DEVICE_DATA2</a> structure.
 
 
 ### -param Version [in]
@@ -162,16 +149,15 @@ The <b>USBCAMD_InitializeNewInterface</b> function must be called by the camera 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568185">SRB_INITIALIZE_DEVICE</a>
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data2.md">USBCAMD_DEVICE_DATA2</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568590">USBCAMD_DEVICE_DATA2</a>
  
 
  
-
 

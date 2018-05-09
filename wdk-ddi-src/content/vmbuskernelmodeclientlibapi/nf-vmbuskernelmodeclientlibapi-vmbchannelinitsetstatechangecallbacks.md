@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelinitsetstatechangecallbacks.htm
 old-project: netvista
 ms.assetid: 4E6088EA-7081-4B80-8F83-15B39A0F30AB
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelInitSetStateChangeCallbacks, VmbChannelInitSetStateChangeCallbacks function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetstatechangecallbacks, vmbuskernelmodeclientlibapi/VmbChannelInitSetStateChangeCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	vmbkmcl.dll
 api_name:
 -	VmbChannelInitSetStateChangeCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelInitSetStateChangeCallbacks function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelInitSetStateChangeCallbacks</b>  function sets optional callback functions for state changes.
-
-
-## -syntax
-
-
-````
-NTSTATUS VmbChannelInitSetStateChangeCallbacks(
-  _In_ VMBCHANNEL                          Channel,
-  _In_ PVMB_CHANNEL_STATE_CHANGE_CALLBACKS StateChangeCallbacks
-);
-````
 
 
 ## -parameters

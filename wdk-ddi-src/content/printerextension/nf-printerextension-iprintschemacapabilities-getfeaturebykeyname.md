@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetFeatureByKeyName
-title: IPrintSchemaCapabilities::GetFeatureByKeyName method
+title: IPrintSchemaCapabilities::GetFeatureByKeyName
 author: windows-driver-content
 description: Gets a feature from the PrintCapabilities based on a given key name.
 old-location: print\iprintschemacapabilities_getfeaturebykeyname.htm
 old-project: print
 ms.assetid: 053BFE59-FDC6-42F3-BE14-CE63D5637D62
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices], IPrintSchemaCapabilities interface, GetFeatureByKeyName,IPrintSchemaCapabilities.GetFeatureByKeyName, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], GetFeatureByKeyName method, IPrintSchemaCapabilities::GetFeatureByKeyName, print.iprintschemacapabilities_getfeaturebykeyname, printerextension/IPrintSchemaCapabilities::GetFeatureByKeyName
+ms.date: 4/20/2018
+ms.keywords: GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetFeatureByKeyName method, IPrintSchemaCapabilities.GetFeatureByKeyName, IPrintSchemaCapabilities::GetFeatureByKeyName, print.iprintschemacapabilities_getfeaturebykeyname, printerextension/IPrintSchemaCapabilities::GetFeatureByKeyName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintSchemaCapabilities.GetFeatureByKeyName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaCapabilities::GetFeatureByKeyName method
+# IPrintSchemaCapabilities::GetFeatureByKeyName
 
 
 ## -description
 
 
 Gets a feature from the PrintCapabilities based on a given key name.
-
-
-## -syntax
-
-
-````
-HRESULT GetFeatureByKeyName(
-  [in]          BSTR                bstrKeyName,
-  [out, retval] IPrintSchemaFeature **ppFeature
-);
-````
 
 
 ## -parameters
@@ -92,7 +81,7 @@ This method returns an <b>HRESULT</b> value.
 
 
 
-Only the following feature key names are recognized. The key names are equivalent to public Print Schema feature names as shown in the following table. The table also shows the features that have specialized option types (by default the option type is <a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>).
+Only the following feature key names are recognized. The key names are equivalent to public Print Schema feature names as shown in the following table. The table also shows the features that have specialized option types (by default the option type is <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a>).
 
 <table>
 <tr>
@@ -129,7 +118,7 @@ Only the following feature key names are recognized. The key names are equivalen
 <td>DocumentNUp</td>
 <td>JobNUpAllDocumentsContiguously</td>
 <td>
-<a href="..\printerextension\nn-printerextension-iprintschemanupoption.md">IPrintSchemaNUpOption</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451302">IPrintSchemaNUpOption</a>
 </td>
 </tr>
 <tr>
@@ -141,7 +130,7 @@ Only the following feature key names are recognized. The key names are equivalen
 <td>PageMediaSize</td>
 <td>PageMediaSize</td>
 <td>
-<a href="..\printerextension\nn-printerextension-iprintschemapagemediasizeoption.md">IPrintSchemaPageMediaSizeOption</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451378">IPrintSchemaPageMediaSizeOption</a>
 </td>
 </tr>
 <tr>
@@ -169,31 +158,30 @@ Only the following feature key names are recognized. The key names are equivalen
 
 When the requested feature, option or property is not found, this method returns S_FALSE and sets a NULL pointer on the output object of the feature, option or property.
 
-So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a> object does not contain the specified feature, option or property, the app must obtain an <a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a> object and query it via <b>IPrintSchemaCapabilities::GetFeatureByKeyName</b> or via <a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>.
+So if the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a> object does not contain the specified feature, option or property, the app must obtain an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a> object and query it via <b>IPrintSchemaCapabilities::GetFeatureByKeyName</b> or via <a href="https://msdn.microsoft.com/AC6434F5-0892-4426-98BB-BC02AD17917B">IPrintSchemaCapabilities::GetFeature</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemanupoption.md">IPrintSchemaNUpOption</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemapagemediasizeoption.md">IPrintSchemaPageMediaSizeOption</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451256">IPrintSchemaCapabilities</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451302">IPrintSchemaNUpOption</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451378">IPrintSchemaPageMediaSizeOption</a>
  
 
  
-
 

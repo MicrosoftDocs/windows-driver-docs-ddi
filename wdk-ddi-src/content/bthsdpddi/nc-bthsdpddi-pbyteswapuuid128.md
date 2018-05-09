@@ -7,8 +7,8 @@ old-location: bltooth\sdpbyteswapuuid128.htm
 old-project: bltooth
 ms.assetid: 2598ebb3-1c9c-4ec1-b172-8c6d53415c9d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PBYTESWAPUUID128, SdpByteSwapUuid128, SdpByteSwapUuid128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuuid128, bth_funcs_b14ffa6d-3cad-4683-94fe-367272b9afb1.xml, sdplib/SdpByteSwapUuid128
+ms.date: 4/27/2018
+ms.keywords: PBYTESWAPUUID128, PBYTESWAPUUID128 callback, SdpByteSwapUuid128, SdpByteSwapUuid128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuuid128, bth_funcs_b14ffa6d-3cad-4683-94fe-367272b9afb1.xml, sdplib/SdpByteSwapUuid128
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	sdplib.h
 api_name:
 -	SdpByteSwapUuid128
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: 
 ---
 
-# PBYTESWAPUUID128 callback
+# PBYTESWAPUUID128 callback function
 
 
 ## -description
@@ -52,20 +53,6 @@ req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
 The Bluetooth 
   <b>SdpByteSwapUuid128</b> function is used to reverse the byte order of a 128-bit universally unique
   identifier (UUID).
-
-
-## -prototype
-
-
-````
-PBYTESWAPUUID128 SdpByteSwapUuid128;
-
-void SdpByteSwapUuid128(
-   GUID *pUuidFrom,
-   GUID *pUuidTo
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -112,19 +99,18 @@ The
     is connected to.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
  
 
  
-
 

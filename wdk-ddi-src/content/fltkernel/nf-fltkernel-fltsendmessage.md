@@ -7,7 +7,7 @@ old-location: ifsk\fltsendmessage.htm
 old-project: ifsk
 ms.assetid: 83e8389f-1960-4fe0-9a33-526311ecba82
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, FltSendMessage, FltSendMessage function [Installable File System Drivers], fltkernel/FltSendMessage, ifsk.fltsendmessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltSendMessage
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltSendMessage function
@@ -50,22 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltSendMessage</b> sends a message to a waiting user-mode application on behalf of a minifilter driver or a minifilter driver instance. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltSendMessage(
-  _In_      PFLT_FILTER    Filter,
-  _In_      PFLT_PORT      *ClientPort,
-  _In_      PVOID          SenderBuffer,
-  _In_      ULONG          SenderBufferLength,
-  _Out_opt_ PVOID          ReplyBuffer,
-  _Inout_   PULONG         ReplyLength,
-  _In_opt_  PLARGE_INTEGER Timeout
-);
-````
 
 
 ## -parameters
@@ -80,7 +65,7 @@ Opaque filter pointer for the caller. This parameter is required and cannot be <
 
 ### -param ClientPort [in]
 
-A pointer to a variable that contains the opaque client port pointer for the connection port between the user-mode application and the kernel-mode minifilter driver. For more information about the client port pointer, see the description of the <i>ConnectNotifyCallback</i> parameter in the reference entry for <a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>. 
+A pointer to a variable that contains the opaque client port pointer for the connection port between the user-mode application and the kernel-mode minifilter driver. For more information about the client port pointer, see the description of the <i>ConnectNotifyCallback</i> parameter in the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff541931">FltCreateCommunicationPort</a>. 
 
 
 ### -param SenderBuffer [in]
@@ -221,11 +206,10 @@ If <i>Timeout</i> is zero when the minifilter driver is waiting for the reply, t
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
 
 
 
@@ -233,12 +217,12 @@ If <i>Timeout</i> is zero when the minifilter driver is waiting for the reply, t
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541513">FilterSendMessage</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541931">FltCreateCommunicationPort</a>
  
 
  
-
 

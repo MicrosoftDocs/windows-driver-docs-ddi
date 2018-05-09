@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetNumberTextReplacements
-title: IDebugControl3::GetNumberTextReplacements method
+title: IDebugControl3::GetNumberTextReplacements
 author: windows-driver-content
 description: The GetNumberTextReplacements method returns the number of currently defined user-named and automatic aliases.
 old-location: debugger\getnumbertextreplacements.htm
 old-project: debugger
 ms.assetid: d15400a8-3d8d-48dd-86f0-4e53f8b04add
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetNumberTextReplacements method [Windows Debugging], GetNumberTextReplacements method [Windows Debugging], IDebugControl2 interface, GetNumberTextReplacements method [Windows Debugging], IDebugControl3 interface, GetNumberTextReplacements,IDebugControl3.GetNumberTextReplacements, IDebugControl2 interface [Windows Debugging], GetNumberTextReplacements method, IDebugControl2::GetNumberTextReplacements, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetNumberTextReplacements method, IDebugControl3::GetNumberTextReplacements, IDebugControl_34139b78-b8a1-4096-a54c-7fdfac7024ce.xml, dbgeng/IDebugControl2::GetNumberTextReplacements, dbgeng/IDebugControl3::GetNumberTextReplacements, debugger.getnumbertextreplacements
+ms.date: 4/24/2018
+ms.keywords: GetNumberTextReplacements, GetNumberTextReplacements method [Windows Debugging], GetNumberTextReplacements method [Windows Debugging],IDebugControl2 interface, GetNumberTextReplacements method [Windows Debugging],IDebugControl3 interface, IDebugControl2 interface [Windows Debugging],GetNumberTextReplacements method, IDebugControl2::GetNumberTextReplacements, IDebugControl3 interface [Windows Debugging],GetNumberTextReplacements method, IDebugControl3.GetNumberTextReplacements, IDebugControl3::GetNumberTextReplacements, IDebugControl_34139b78-b8a1-4096-a54c-7fdfac7024ce.xml, dbgeng/IDebugControl2::GetNumberTextReplacements, dbgeng/IDebugControl3::GetNumberTextReplacements, debugger.getnumbertextreplacements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,28 +39,19 @@ api_location:
 api_name:
 -	IDebugControl2.GetNumberTextReplacements
 -	IDebugControl3.GetNumberTextReplacements
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetNumberTextReplacements method
+# IDebugControl3::GetNumberTextReplacements
 
 
 ## -description
 
 
 The <b>GetNumberTextReplacements</b> method returns the number of currently defined user-named and automatic aliases.  
-
-
-## -syntax
-
-
-````
-HRESULT GetNumberTextReplacements(
-  [out] PULONG NumRepl
-);
-````
 
 
 ## -parameters
@@ -112,19 +103,6 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -132,12 +110,24 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlcomparememory.htm
 old-project: kernel
 ms.assetid: 1801fc27-53bf-4ac5-be41-072dfd8b0696
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlCompareMemory, RtlCompareMemory routine [Kernel-Mode Driver Architecture], k109_3deee1b7-0b3a-4d24-8c0f-5e428d051a02.xml, kernel.rtlcomparememory, wdm/RtlCompareMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,10 +42,10 @@ api_location:
 -	API-MS-Win-Core-rtlsupport-l1-2-0.dll
 api_name:
 -	RtlCompareMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlCompareMemory function
@@ -55,18 +55,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlCompareMemory</b> routine compares two blocks of memory and returns the number of bytes that match.
-
-
-## -syntax
-
-
-````
-SIZE_T RtlCompareMemory(
-  _In_ const VOID   *Source1,
-  _In_ const VOID   *Source2,
-  _In_       SIZE_T Length
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: ifsk\rtlupcaseunicodetomultibyten.htm
 old-project: ifsk
 ms.assetid: a79a5d3b-ed1c-42fa-b491-0ad0b3dfc921
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: RtlUpcaseUnicodeToMultiByteN, RtlUpcaseUnicodeToMultiByteN routine [Installable File System Drivers], ifsk.rtlupcaseunicodetomultibyten, ntifs/RtlUpcaseUnicodeToMultiByteN, rtlref_a6ac52da-a3c7-4c16-8b8c-3086868fe4e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlUpcaseUnicodeToMultiByteN
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlUpcaseUnicodeToMultiByteN function
@@ -50,20 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>RtlUpcaseUnicodeToMultiByteN</b> routine translates the specified Unicode string into a new uppercase character string, using the current system ANSI code page (ACP). The translated string is not necessarily from a multibyte character set. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUpcaseUnicodeToMultiByteN(
-  _Out_     PCHAR  MultiByteString,
-  _In_      ULONG  MaxBytesInMultiByteString,
-  _Out_opt_ PULONG BytesInMultiByteString,
-  _In_      PCWCH  UnicodeString,
-  _In_      ULONG  BytesInUnicodeString
-);
-````
 
 
 ## -parameters
@@ -120,20 +107,19 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtlunicodetomultibyten.md">RtlUnicodeToMultiByteN</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553113">RtlMultiByteToUnicodeN</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlunicodetomultibytesize.md">RtlUnicodeToMultiByteSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553261">RtlUnicodeToMultiByteN</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553266">RtlUnicodeToMultiByteSize</a>
  
 
  
-
 

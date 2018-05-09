@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUI.PrinterEvent
-title: IPrintOemUI::PrinterEvent method
+title: IPrintOemUI::PrinterEvent
 author: windows-driver-content
 description: The IPrintOemUI::PrinterEvent method allows a user interface plug-in to process printer events.
 old-location: print\iprintoemui_printerevent.htm
 old-project: print
 ms.assetid: 214ea4d8-3bf9-4248-8bfa-7180635769be
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], PrinterEvent method, IPrintOemUI::PrinterEvent, PrinterEvent method [Print Devices], PrinterEvent method [Print Devices], IPrintOemUI interface, PrinterEvent,IPrintOemUI.PrinterEvent, prcomoem/IPrintOemUI::PrinterEvent, print.iprintoemui_printerevent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUI interface [Print Devices],PrinterEvent method, IPrintOemUI.PrinterEvent, IPrintOemUI::PrinterEvent, PrinterEvent, PrinterEvent method [Print Devices], PrinterEvent method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::PrinterEvent, print.iprintoemui_printerevent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUI.PrinterEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUI::PrinterEvent method
+# IPrintOemUI::PrinterEvent
 
 
 ## -description
 
 
 The <code>IPrintOemUI::PrinterEvent</code> method allows a user interface plug-in to process printer events.
-
-
-## -syntax
-
-
-````
-HRESULT PrinterEvent(
-   PWSTR  pPrinterName,
-   INT    iDriverEvent,
-   DWORD  dwFlags,
-   LPARAM lParam
-);
-````
 
 
 ## -parameters
@@ -78,7 +65,7 @@ Caller-supplied pointer to a NULL-terminated printer name string. The string can
 
 ### -param iDriverEvent
 
-Caller-supplied value identifying the event that has occurred. For a list of valid values, see <a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>.
+Caller-supplied value identifying the event that has occurred. For a list of valid values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548564">DrvPrinterEvent</a>.
 
 
 ### -param dwFlags
@@ -145,7 +132,7 @@ The method is not implemented.
 
 
 
-A user interface plug-in's <code>IPrintOemUI::PrinterEvent</code> method performs the same types of operations as the <b>DrvPrinterEvent</b> function that is exported by user-mode printer interface DLLs. For information about printer events and how they should be processed, see the description of the <a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a> function.
+A user interface plug-in's <code>IPrintOemUI::PrinterEvent</code> method performs the same types of operations as the <b>DrvPrinterEvent</b> function that is exported by user-mode printer interface DLLs. For information about printer events and how they should be processed, see the description of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548564">DrvPrinterEvent</a> function.
 
 If you provide a user interface plug-in, the printer driver's <b>DrvPrinterEvent</b> function calls the <code>IPrintOemUI::PrinterEvent</code> method. The <b>DrvPrinterEvent</b> function performs its own processing for the specified event, and then calls the <code>IPrintOemUI::PrinterEvent</code> method to handle additional processing of the event.
 
@@ -158,16 +145,15 @@ For more information about creating and installing user interface plug-ins, see 
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemui.md">IPrintOemUI</a>
 
 
 
-<a href="..\winddiui\nf-winddiui-drvprinterevent.md">DrvPrinterEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548564">DrvPrinterEvent</a>
 
 
 
+<a href="https://msdn.microsoft.com/0ef635dd-9598-4356-94fc-7e5237df9bd9">IPrintOemUI</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\rtldwordptrsub.htm
 old-project: kernel
 ms.assetid: B3268640-F256-4B64-AE95-8D30A6A7BF6C
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlDWordPtrSub, RtlDWordPtrSub function [Kernel-Mode Driver Architecture], kernel.rtldwordptrsub, ntintsafe/RtlDWordPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlDWordPtrSub
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlDWordPtrSub function
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Subtracts one value of type <b>DWORD_PTR</b> from another.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlDWordPtrSub(
-  _In_  DWORD_PTR dwMinuend,
-  _In_  DWORD_PTR dwSubtrahend,
-  _Out_ DWORD_PTR *pdwResult
-);
-````
 
 
 ## -parameters

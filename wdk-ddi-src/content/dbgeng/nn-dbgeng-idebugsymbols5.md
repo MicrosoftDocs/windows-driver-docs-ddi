@@ -7,8 +7,8 @@ old-location: debugger\idebugsymbols5.htm
 old-project: debugger
 ms.assetid: 0D239C0E-96C8-49F9-BDFD-182F3F7C3976
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSymbols5, IDebugSymbols5 interface [Windows Debugging], IDebugSymbols5 interface [Windows Debugging], described, dbgeng/IDebugSymbols5, debugger.idebugsymbols5
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols5, IDebugSymbols5 interface [Windows Debugging], IDebugSymbols5 interface [Windows Debugging],described, dbgeng/IDebugSymbols5, debugger.idebugsymbols5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugSymbols5
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugSymbols5 interface

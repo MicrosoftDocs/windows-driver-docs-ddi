@@ -7,7 +7,7 @@ old-location: netvista\rilunsolicitedssinfo_v2.htm
 old-project: netvista
 ms.assetid: f4b93f1e-8559-4145-a122-74d62b146afa
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILUNSOLICITEDSSINFO, *LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilunsolicitedssinfo_v2, ntddrilapitypes/RILUNSOLICITEDSSINFO_V2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILUNSOLICITEDSSINFO_V2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO, *LPRILUNSOLICITEDSSINFO
 ---
@@ -50,25 +51,6 @@ req.typenames: RILUNSOLICITEDSSINFO_V2, *LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICIT
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILUNSOLICITEDSSINFO_V2 {
-  DWORD                                 cbSize;
-  DWORD                                 dwParams;
-  DWORD                                 dwExecutor;
-  DWORD                                 dwID;
-  RILUNSOLICITEDSSINFONOTIFICATIONCODE  dwNotificationCode;
-  RILADDRESS                            raAddress;
-  RILSUBADDRESS                         rsaSubAddress;
-  DWORD                                 dwCUGIndex;
-  DWORD                                 dwHistorynfoLength;
-  WCHAR [1]                             wszHistoryInfo;
-} RILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO_V2;
-````
 
 
 ## -struct-fields

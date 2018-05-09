@@ -7,7 +7,7 @@ old-location: netvista\rilcallwaitinginfoparammask.htm
 old-project: netvista
 ms.assetid: 18fa3b00-8da7-4c83-a340-1515caffda01
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RILCALLWAITINGINFOPARAMMASK, RILCALLWAITINGINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CWI_ALL, RIL_PARAM_CWI_CALLERINFO, RIL_PARAM_CWI_CALLTYPE, netvista.rilcallwaitinginfoparammask, ntddrilapitypes/RILCALLWAITINGINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_CWI_ALL, ntddrilapitypes/RIL_PARAM_CWI_CALLERINFO, ntddrilapitypes/RIL_PARAM_CWI_CALLTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILCALLWAITINGINFOPARAMMASK
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILCALLWAITINGINFOPARAMMASK
-req.product: Windows 10 or later.
 ---
 
 # RILCALLWAITINGINFOPARAMMASK enumeration
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef enum _RILCALLWAITINGINFOPARAMMASK { 
-  RIL_PARAM_CWI_CALLTYPE,
-  RIL_PARAM_CWI_CALLERINFO,
-  RIL_PARAM_CWI_ALL
-} RILCALLWAITINGINFOPARAMMASK;
-````
 
 
 ## -enum-fields

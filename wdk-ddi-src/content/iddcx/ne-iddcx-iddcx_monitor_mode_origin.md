@@ -7,7 +7,7 @@ old-location: display\iddcx_monitor_mode_origin.htm
 old-project: display
 ms.assetid: 96aac09b-c6fc-43a7-a6d8-36f642e0f5d7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IDDCX_MONITOR_MODE_ORIGIN, IDDCX_MONITOR_MODE_ORIGIN enumeration [Display Devices], IDDCX_MONITOR_MODE_ORIGIN_DRIVER, IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR, IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED, display.iddcx_monitor_mode_origin, iddcx/IDDCX_MONITOR_MODE_ORIGIN, iddcx/IDDCX_MONITOR_MODE_ORIGIN_DRIVER, iddcx/IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR, iddcx/IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "_requires_same_"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IDDCX_MONITOR_MODE_ORIGIN
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,18 +53,6 @@ req.typenames:
 
                      Used to describe a mode the monitor supports based on the monitor description.
                 
-
-
-## -syntax
-
-
-````
-typedef enum _IDDCX_MONITOR_MODE_ORIGIN { 
-  IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED      = 0,
-  IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR  = 1,
-  IDDCX_MONITOR_MODE_ORIGIN_DRIVER             = 2
-} IDDCX_MONITOR_MODE_ORIGIN;
-````
 
 
 ## -enum-fields

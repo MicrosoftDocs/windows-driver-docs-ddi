@@ -7,7 +7,7 @@ old-location: netvista\wwan_sms_filter.htm
 old-project: netvista
 ms.assetid: 798101da-51be-416d-ac56-2f55a21e8ea8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_SMS_FILTER, PWWAN_SMS_FILTER, PWWAN_SMS_FILTER structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_FILTER, WWAN_SMS_FILTER structure [Network Drivers Starting with Windows Vista], WwanRef_1bec8893-7ce8-4d8c-aea1-d1c76b0013fc.xml, _WWAN_SMS_FILTER, netvista.wwan_sms_filter, wwan/PWWAN_SMS_FILTER, wwan/WWAN_SMS_FILTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_SMS_FILTER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_SMS_FILTER, *PWWAN_SMS_FILTER
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_SMS_FILTER structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_SMS_FILTER structure represents the filter to apply to SMS messages on the MB device.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_SMS_FILTER {
-  WWAN_SMS_FLAG Flag;
-  ULONG         MessageIndex;
-} WWAN_SMS_FILTER, *PWWAN_SMS_FILTER;
-````
 
 
 ## -struct-fields
@@ -103,20 +92,19 @@ When
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_sms_delete.md">NDIS_WWAN_SMS_DELETE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_read.md">WWAN_SMS_READ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567938">NDIS_WWAN_SMS_DELETE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_sms_flag.md">WWAN_SMS_FLAG</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571246">WWAN_SMS_FLAG</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571249">WWAN_SMS_READ</a>
  
 
  
-
 

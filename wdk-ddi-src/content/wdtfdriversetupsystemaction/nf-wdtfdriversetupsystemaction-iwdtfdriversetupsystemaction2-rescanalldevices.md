@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.RescanAllDevices
-title: IWDTFDriverSetupSystemAction2::RescanAllDevices method
+title: IWDTFDriverSetupSystemAction2::RescanAllDevices
 author: windows-driver-content
 description: Re-enumerates all devices in the system.
 old-location: dtf\iwdtfdriversetupsystemaction2_rescanalldevices.htm
 old-project: dtf
 ms.assetid: 8577428f-aefa-46f5-831e-98f6514177a1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], RescanAllDevices method, IWDTFDriverSetupSystemAction2::RescanAllDevices, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RescanAllDevices, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RescanAllDevices, RescanAllDevices method [Windows Device Testing Framework], RescanAllDevices method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, RescanAllDevices,IWDTFDriverSetupSystemAction2.RescanAllDevices, dtf.iwdtfdriversetupsystemaction2_rescanalldevices, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RescanAllDevices
+ms.date: 4/4/2018
+ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],RescanAllDevices method, IWDTFDriverSetupSystemAction2.RescanAllDevices, IWDTFDriverSetupSystemAction2::RescanAllDevices, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RescanAllDevices, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RescanAllDevices, RescanAllDevices, RescanAllDevices method [Windows Device Testing Framework], RescanAllDevices method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_rescanalldevices, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RescanAllDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 -	IWDTFDriverSetupSystemAction2.RescanAllDevices
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFDriverSetupSystemAction2::RescanAllDevices method
+# IWDTFDriverSetupSystemAction2::RescanAllDevices
 
 
 ## -description
 
 
 Re-enumerates all devices in the system.
-
-
-## -syntax
-
-
-````
-HRESULT RescanAllDevices(
-  [out, retval] VARIANT_BOOL *bRet
-);
-````
 
 
 ## -parameters
@@ -84,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450948">IWDTFDriverSetupSystemAction2</a>
  
 
  
-
 

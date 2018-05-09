@@ -7,8 +7,8 @@ old-location: print\ixpsrasterizer_interface.htm
 old-project: print
 ms.assetid: 1ef99120-2b3b-45aa-bcf7-16bcb9656089
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IXpsRasterizer, IXpsRasterizer interface [Print Devices], IXpsRasterizer interface [Print Devices], described, print.ixpsrasterizer_interface, print_xpsrast_e8c45bd1-2f79-4e4f-b6c4-034c703ff173.xml, xpsrassvc/IXpsRasterizer
+ms.date: 4/20/2018
+ms.keywords: IXpsRasterizer, IXpsRasterizer interface [Print Devices], IXpsRasterizer interface [Print Devices],described, print.ixpsrasterizer_interface, print_xpsrast_e8c45bd1-2f79-4e4f-b6c4-034c703ff173.xml, xpsrassvc/IXpsRasterizer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,10 +38,10 @@ api_location:
 -	xpsrassvc.h
 api_name:
 -	IXpsRasterizer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: XPSRAS_BACKGROUND_COLOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IXpsRasterizer interface

@@ -7,8 +7,8 @@ old-location: stream\ioctl_avc_bus_reset.htm
 old-project: stream
 ms.assetid: 8f87ee5f-74bb-446f-8be3-214cc2c01c1b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_AVC_BUS_RESET, IOCTL_AVC_BUS_RESET control code [Streaming Media Devices], avc/IOCTL_AVC_BUS_RESET, avcref_4be76d4b-17fe-4ae6-a078-ebb079499d55.xml, stream.ioctl_avc_bus_reset
+ms.date: 4/23/2018
+ms.keywords: IOCTL_AVC_BUS_RESET, IOCTL_AVC_BUS_RESET control, IOCTL_AVC_BUS_RESET control code [Streaming Media Devices], avc/IOCTL_AVC_BUS_RESET, avcref_4be76d4b-17fe-4ae6-a078-ebb079499d55.xml, stream.ioctl_avc_bus_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	avc.h
 api_name:
 -	IOCTL_AVC_BUS_RESET
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: AVC_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_AVC_BUS_RESET IOCTL
@@ -142,22 +143,22 @@ Must be called at IRQL = PASSIVE_LEVEL
 
 ## -see-also
 
-<a href="..\avc\ni-avc-ioctl_avc_remove_virtual_subunit_info.md">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_subunit_addr_spec.md">AVC_SUBUNIT_ADDR_SPEC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554198">AVC_SUBUNIT_ADDR_SPEC</a>
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_class.md">IOCTL_AVC_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560789">IOCTL_AVC_CLASS</a>
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_update_virtual_subunit_info.md">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560793">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560798">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>
  
 
  

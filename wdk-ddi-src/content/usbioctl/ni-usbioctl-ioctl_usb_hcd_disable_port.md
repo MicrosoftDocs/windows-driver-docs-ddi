@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_hcd_disable_port.htm
 old-project: usbref
 ms.assetid: c0ae41be-1b37-4410-8e7a-611a66c599c1
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_USB_HCD_DISABLE_PORT, IOCTL_USB_HCD_DISABLE_PORT control code [Buses], buses.ioctl_usb_hcd_disable_port, usbioctl/IOCTL_USB_HCD_DISABLE_PORT, usbirp_558a0a61-e35f-4015-9f72-df33e85c8c59.xml
+ms.date: 4/25/2018
+ms.keywords: IOCTL_USB_HCD_DISABLE_PORT, IOCTL_USB_HCD_DISABLE_PORT control, IOCTL_USB_HCD_DISABLE_PORT control code [Buses], buses.ioctl_usb_hcd_disable_port, usbioctl/IOCTL_USB_HCD_DISABLE_PORT, usbirp_558a0a61-e35f-4015-9f72-df33e85c8c59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	Usbioctl.h
 api_name:
 -	IOCTL_USB_HCD_DISABLE_PORT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USB_HCD_DISABLE_PORT IOCTL

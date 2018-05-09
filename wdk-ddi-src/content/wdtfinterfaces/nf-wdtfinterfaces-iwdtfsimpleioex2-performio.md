@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOEx2.PerformIO
-title: IWDTFSimpleIOEx2::PerformIO method
+title: IWDTFSimpleIOEx2::PerformIO
 author: windows-driver-content
 description: Performs a small amount of simple I/O to the device.
 old-location: dtf\iwdtfsimpleioex2_performio.htm
 old-project: dtf
 ms.assetid: 795dcbed-e0ce-444d-a6a8-95d0bc658f5b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFSimpleIOEx2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], PerformIO method, IWDTFSimpleIOEx2::PerformIO, Microsoft.WDTF.IWDTFSimpleIOEx2.PerformIO, Microsoft::WDTF::IWDTFSimpleIOEx2::PerformIO, PerformIO method [Windows Device Testing Framework], PerformIO method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, PerformIO,IWDTFSimpleIOEx2.PerformIO, dtf.iwdtfsimpleioex2_performio, wdtfinterfaces/IWDTFSimpleIOEx2::PerformIO
+ms.date: 4/4/2018
+ms.keywords: IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],PerformIO method, IWDTFSimpleIOEx2.PerformIO, IWDTFSimpleIOEx2::PerformIO, Microsoft.WDTF.IWDTFSimpleIOEx2.PerformIO, Microsoft::WDTF::IWDTFSimpleIOEx2::PerformIO, PerformIO, PerformIO method [Windows Device Testing Framework], PerformIO method [Windows Device Testing Framework],IWDTFSimpleIOEx2 interface, dtf.iwdtfsimpleioex2_performio, wdtfinterfaces/IWDTFSimpleIOEx2::PerformIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	WDTFInterfaces.Interop.dll
 api_name:
 -	IWDTFSimpleIOEx2.PerformIO
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSimpleIOEx2::PerformIO method
+# IWDTFSimpleIOEx2::PerformIO
 
 
 ## -description
 
 
 Performs a small amount of simple I/O to the device.
-
-
-## -syntax
-
-
-````
-HRESULT PerformIO(
-  [out, retval] VARIANT_BOOL *pResult
-);
-````
 
 
 ## -parameters
@@ -98,12 +88,11 @@ the <a href="https://msdn.microsoft.com/991a60a0-8d82-4f41-8cfe-bf633338bdda">IW
 
 ## -see-also
 
-<a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleioex2.md">IWDTFSimpleIOEx2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451149">IWDTFSimpleIOEx2</a>
  
 
  
-
 

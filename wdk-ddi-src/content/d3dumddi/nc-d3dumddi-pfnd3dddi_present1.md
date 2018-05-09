@@ -7,8 +7,8 @@ old-location: display\pfnpresent1_d3d_.htm
 old-project: display
 ms.assetid: 8BB8E85F-B081-422E-ACE1-C2312BA28B9F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_PRESENT1, d3dumddi/pfnPresent1, display.pfnpresent1_d3d_, pfnPresent1, pfnPresent1 callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_PRESENT1, PFND3DDDI_PRESENT1 callback, d3dumddi/pfnPresent1, display.pfnpresent1_d3d_, pfnPresent1, pfnPresent1 callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	pfnPresent1
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_PRESENT1 callback
+# PFND3DDDI_PRESENT1 callback function
 
 
 ## -description
 
 
 Notifies the user-mode display driver that an application finished rendering and that all ownership of the shared resource is released, and requests that the driver display to the destination surface.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_PRESENT1 pfnPresent1;
-
-__checkReturn HRESULT* pfnPresent1(
-  _In_       HANDLE             *hDevice,
-  _In_ const D3DDDIARG_PRESENT1 *pPresentData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ A handle to the display device (graphics context).
 
 #### - pPresentData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present1.md">D3DDDIARG_PRESENT1</a> structure that describes how to display to the destination surface. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn457997">D3DDDIARG_PRESENT1</a> structure that describes how to display to the destination surface. 
 
 
 ## -returns
@@ -104,23 +91,22 @@ A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present1.md">D3DDDIAR
 
 
 
-The user-mode display driver must submit all partially built render data (command buffers) by calling the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>  function. The driver must make only  a single call to <b>pfnRenderCb</b>.
+The user-mode display driver must submit all partially built render data (command buffers) by calling the <a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>  function. The driver must make only  a single call to <b>pfnRenderCb</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present1.md">D3DDDIARG_PRESENT1</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn457997">D3DDDIARG_PRESENT1</a>
 
 
 
+<a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>
  
 
  
-
 

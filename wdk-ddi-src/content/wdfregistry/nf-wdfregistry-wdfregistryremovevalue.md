@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRegistryRemoveValue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRegistryRemoveValue function
@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRegistryRemoveValue</b> method removes a specified value and its data from a specified registry key.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfRegistryRemoveValue(
-  _In_ WDFKEY           Key,
-  _In_ PCUNICODE_STRING ValueName
-);
-````
 
 
 ## -parameters
@@ -81,7 +70,7 @@ A handle to a registry-key object that represents an opened registry key.
 
 ### -param ValueName [in]
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains a value name. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that contains a value name. 
 
 
 ## -returns
@@ -103,7 +92,7 @@ A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING
 </td>
 <td width="60%">
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryremovevalue.md">WdfRegistryRemoveValue</a> was not called at IRQL = PASSIVE_LEVEL. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549932">WdfRegistryRemoveValue</a> was not called at IRQL = PASSIVE_LEVEL. 
 
 </td>
 </tr>
@@ -172,12 +161,11 @@ status = WdfRegistryRemoveValue(
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

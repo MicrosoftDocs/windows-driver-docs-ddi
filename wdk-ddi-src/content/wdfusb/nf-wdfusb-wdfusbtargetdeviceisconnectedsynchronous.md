@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfUsbTargetDeviceIsConnectedSynchronous
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfUsbTargetDeviceIsConnectedSynchronous function
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbTargetDeviceIsConnectedSynchronous</b> method determines if the specified USB device is connected.
 
 
-## -syntax
-
-
-````
-NTSTATUS WdfUsbTargetDeviceIsConnectedSynchronous(
-  _In_ WDFUSBDEVICE UsbDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -73,7 +63,7 @@ NTSTATUS WdfUsbTargetDeviceIsConnectedSynchronous(
 
 ### -param UsbDevice [in]
 
-A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
+A handle to a USB device object that was obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
 ## -returns
@@ -160,12 +150,11 @@ status = WdfUsbTargetDeviceIsConnectedSynchronous(UsbDevice);</pre>
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>
  
 
  
-
 

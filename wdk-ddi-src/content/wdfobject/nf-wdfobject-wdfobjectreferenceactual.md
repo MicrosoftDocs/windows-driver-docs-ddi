@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfObjectReferenceActual
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_SYNCHRONIZATION_SCOPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfObjectReferenceActual function
@@ -56,19 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfObjectReferenceActual</b> method increments the reference count for a specified framework object and assigns a tag value, line number, and file name to the reference.
-
-
-## -syntax
-
-
-````
-VOID WdfObjectReferenceActual(
-  _In_     WDFOBJECT Handle,
-  _In_opt_ PVOID     Tag,
-  _In_     LONG      Line,
-  _In_     PCCH      File
-);
-````
 
 
 ## -parameters
@@ -111,7 +98,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-If your driver calls <b>WdfObjectReferenceActual</b> to increment a reference count, the driver must call <a href="..\wdfobject\nf-wdfobject-wdfobjectdereferenceactual.md">WdfObjectDereferenceActual</a> to decrement the count.
+If your driver calls <b>WdfObjectReferenceActual</b> to increment a reference count, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548743">WdfObjectDereferenceActual</a> to decrement the count.
 
 Calling <b>WdfObjectReferenceActual</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548763">WdfObjectReferenceWithTag</a> instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a> provides additional information (tag value, line number, and file name) to Microsoft debuggers. <b>WdfObjectReferenceActual</b> allows your driver to specify the line number and file name, while <b>WdfObjectReferenceWithTag</b> uses the driver's current line number and file name.
 
@@ -144,12 +131,11 @@ The following code example increments an object's reference count and assigns a 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
-
-
-
  
 
  
-
 

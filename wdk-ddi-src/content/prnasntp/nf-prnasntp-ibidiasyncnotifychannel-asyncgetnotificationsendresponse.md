@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse
-title: IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse method
+title: IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
 author: windows-driver-content
 description: "."
 old-location: print\ibidiasyncnotifychannel_asyncgetnotificationsendresponse.htm
 old-project: print
 ms.assetid: F30A1DEA-2B54-417A-AFE7-289655C815E2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: AsyncGetNotificationSendResponse method [Print Devices], AsyncGetNotificationSendResponse method [Print Devices], IBidiAsyncNotifyChannel interface, AsyncGetNotificationSendResponse,IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse, IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], AsyncGetNotificationSendResponse method, IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse, print.ibidiasyncnotifychannel_asyncgetnotificationsendresponse, prnasntp/IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
+ms.date: 4/20/2018
+ms.keywords: AsyncGetNotificationSendResponse, AsyncGetNotificationSendResponse method [Print Devices], AsyncGetNotificationSendResponse method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],AsyncGetNotificationSendResponse method, IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse, IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse, print.ibidiasyncnotifychannel_asyncgetnotificationsendresponse, prnasntp/IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse method
+# IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
 
 
 ## -description
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT AsyncGetNotificationSendResponse(
-  [in] IPrintAsyncNotifyDataObject     *pObject,
-  [in] IAsyncGetSendNotificationCookie *pCookie
-);
-````
 
 
 ## -parameters
@@ -98,12 +87,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-ibidiasyncnotifychannel.md">IBidiAsyncNotifyChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/5038BCFA-6E18-4BF8-9442-4F12D77418B0">IBidiAsyncNotifyChannel</a>
  
 
  
-
 

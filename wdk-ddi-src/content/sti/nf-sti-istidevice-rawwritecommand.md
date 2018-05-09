@@ -1,14 +1,14 @@
 ---
 UID: NF:sti.IStiDevice.RawWriteCommand
-title: IStiDevice::RawWriteCommand method
+title: IStiDevice::RawWriteCommand
 author: windows-driver-content
 description: The IStiDevice::RawWriteCommand method sends command information to a still image device.
 old-location: image\istidevice_rawwritecommand.htm
 old-project: image
 ms.assetid: 6260fd33-96b3-43d7-a7eb-35322247076b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], RawWriteCommand method, IStiDevice::RawWriteCommand, RawWriteCommand method [Imaging Devices], RawWriteCommand method [Imaging Devices], IStiDevice interface, RawWriteCommand,IStiDevice.RawWriteCommand, image.istidevice_rawwritecommand, sti/IStiDevice::RawWriteCommand, stifnc_07c4667c-956f-4396-bc59-0bcbf21103a8.xml
+ms.date: 4/23/2018
+ms.keywords: IStiDevice interface [Imaging Devices],RawWriteCommand method, IStiDevice.RawWriteCommand, IStiDevice::RawWriteCommand, RawWriteCommand, RawWriteCommand method [Imaging Devices], RawWriteCommand method [Imaging Devices],IStiDevice interface, image.istidevice_rawwritecommand, sti/IStiDevice::RawWriteCommand, stifnc_07c4667c-956f-4396-bc59-0bcbf21103a8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,31 +38,19 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice.RawWriteCommand
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiDevice::RawWriteCommand method
+# IStiDevice::RawWriteCommand
 
 
 ## -description
 
 
 The <b>IStiDevice::RawWriteCommand</b> method sends command information to a still image device.
-
-
-## -syntax
-
-
-````
-HRESULT RawWriteCommand(
-  [in]           LPVOID       lpBuffer,
-                 DWORD        nNumberOfBytes,
-  [in, optional] LPOVERLAPPED lpOverlapped
-);
-````
 
 
 ## -parameters

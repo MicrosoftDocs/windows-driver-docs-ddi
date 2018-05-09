@@ -7,7 +7,7 @@ old-location: display\dxgi_ddi_arg_present1.htm
 old-project: display
 ms.assetid: F8575652-CA6D-472E-A314-91B07C48558B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGI_DDI_ARG_PRESENT1, DXGI_DDI_ARG_PRESENT1 structure [Display Devices], display.dxgi_ddi_arg_present1, dxgiddi/DXGI_DDI_ARG_PRESENT1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Dxgiddi.h
 api_name:
 -	DXGI_DDI_ARG_PRESENT1
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGI_DDI_ARG_PRESENT1
 ---
@@ -51,26 +52,6 @@ req.typenames: DXGI_DDI_ARG_PRESENT1
 
 Describes a resource to display. Used with the <a href="https://msdn.microsoft.com/library/windows/hardware/dn469267">pfnPresent1(DXGI)</a> function by Windows Display Driver Model (WDDM) 1.3 and later user-mode display drivers.
 
-
-
-## -syntax
-
-
-````
-typedef struct DXGI_DDI_ARG_PRESENT1 {
-  DXGI_DDI_HRESOURCE                hSurface;
-  const DXGI_DDI_ARG_PRESENTSURFACE *phSurfacesToPresent;
-  UINT                              SurfacesToPresent;
-  DXGI_DDI_HRESOURCE                hDstResource;
-  UINT                              DstSubResourceIndex;
-  void                              *pDXGIContext;
-  DXGI_DDI_PRESENT_FLAGS            Flags;
-  DXGI_DDI_FLIP_INTERVAL_TYPE       FlipInterval;
-  UINT                              Reserved;
-  const RECT                        *pDirtyRects;
-  UINT                              DirtyRects;
-} DXGI_DDI_ARG_PRESENT1;
-````
 
 
 ## -struct-fields
@@ -97,7 +78,7 @@ typedef struct DXGI_DDI_ARG_PRESENT1 {
 
 [in] A handle to the destination resource to display to. <b>hDstResource</b> can be <b>NULL</b> if the destination is unknown; kernel mode will determine the destination just before sending the hardware command stream through DMA to the graphics processor.
 
-When many resource are being presented, <b>hDstResource</b> will be <b>NULL</b>, and the driver must only translate the last source resource handle for use with the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md">pfnPresentCb</a> function.
+When many resource are being presented, <b>hDstResource</b> will be <b>NULL</b>, and the driver must only translate the last source resource handle for use with the <a href="https://msdn.microsoft.com/460b9be5-5817-4225-9089-f86ad64f4554">pfnPresentCb</a> function.
 
 
 ### -field DstSubResourceIndex
@@ -108,17 +89,17 @@ When many resource are being presented, <b>hDstResource</b> will be <b>NULL</b>,
 
 ### -field pDXGIContext
 
-[in] A handle to the DXGI context. This handle is opaque to the driver. The driver must pass the handle in this member as the <b>pDXGIContext</b> member of the <a href="..\dxgiddi\ns-dxgiddi-dxgiddicb_present.md">DXGIDDICB_PRESENT</a> structure when the driver calls the <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_presentcb.md">pfnPresentCbDXGI</a> function. 
+[in] A handle to the DXGI context. This handle is opaque to the driver. The driver must pass the handle in this member as the <b>pDXGIContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557440">DXGIDDICB_PRESENT</a> structure when the driver calls the <a href="https://msdn.microsoft.com/eefb8f2c-e460-4f9c-851d-9a97dbcd728f">pfnPresentCbDXGI</a> function. 
 
 
 ### -field Flags
 
-[in] A <a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_present_flags.md">DXGI_DDI_PRESENT_FLAGS</a> structure that identifies, in bit-field flags, how to perform the present operation. 
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff557509">DXGI_DDI_PRESENT_FLAGS</a> structure that identifies, in bit-field flags, how to perform the present operation. 
 
 
 ### -field FlipInterval
 
-[in] A <a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_flip_interval_type.md">DXGI_DDI_FLIP_INTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
+[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff557495">DXGI_DDI_FLIP_INTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
 
 
 ### -field Reserved
@@ -147,36 +128,27 @@ The driver can use this member to perform optimizations, though it's not require
 
 #### - hSurface
 
-[in] A handle to the display device (graphics context) on which the driver performs the presentation. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function to create the display device. 
+[in] A handle to the display device (graphics context) on which the driver performs the presentation. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function to create the display device. 
 
 
 ## -see-also
 
-<a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_presentcb.md">pfnPresentCbDXGI</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn469267">pfnPresent1(DXGI)</a>
+<a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a>
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_present_flags.md">DXGI_DDI_PRESENT_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557440">DXGIDDICB_PRESENT</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557495">DXGI_DDI_FLIP_INTERVAL_TYPE</a>
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgiddicb_present.md">DXGIDDICB_PRESENT</a>
-
-
-
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_flip_interval_type.md">DXGI_DDI_FLIP_INTERVAL_TYPE</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md">pfnPresentCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557509">DXGI_DDI_PRESENT_FLAGS</a>
 
 
 
@@ -184,8 +156,16 @@ The driver can use this member to perform optimizations, though it's not require
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn469267">pfnPresent1(DXGI)</a>
+
+
+
+<a href="https://msdn.microsoft.com/460b9be5-5817-4225-9089-f86ad64f4554">pfnPresentCb</a>
+
+
+
+<a href="https://msdn.microsoft.com/eefb8f2c-e460-4f9c-851d-9a97dbcd728f">pfnPresentCbDXGI</a>
  
 
  
-
 

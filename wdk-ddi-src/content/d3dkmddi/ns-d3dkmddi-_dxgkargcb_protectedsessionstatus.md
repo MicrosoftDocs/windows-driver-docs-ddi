@@ -7,7 +7,7 @@ old-location: display\dxgkargcb_protectedsessionstatus.htm
 old-project: display
 ms.assetid: 417480C5-8B24-4504-8B2D-DB9D38E4C11B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARGCB_PROTECTEDSESSIONSTATUS, DXGKARGCB_PROTECTEDSESSIONSTATUS structure [Display Devices], _DXGKARGCB_PROTECTEDSESSIONSTATUS, d3dkmddi/DXGKARGCB_PROTECTEDSESSIONSTATUS, display.dxgkargcb_protectedsessionstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARGCB_PROTECTEDSESSIONSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARGCB_PROTECTEDSESSIONSTATUS
 ---
@@ -50,17 +51,6 @@ req.typenames: DXGKARGCB_PROTECTEDSESSIONSTATUS
 
 
 Used for information on the status of the protected session.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARGCB_PROTECTEDSESSIONSTATUS {
-  HANDLE                        hProtectedSession;
-  DXGK_PROTECTED_SESSION_STATUS Status;
-} DXGKARGCB_PROTECTEDSESSIONSTATUS;
-````
 
 
 ## -struct-fields

@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_get_stats.htm
 old-project: serports
 ms.assetid: 264b8460-acda-46ba-b070-e2956f7cfc50
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_GET_STATS, IOCTL_SERIAL_GET_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_STATS, serports.ioctl_serial_get_stats, serref_c5deddd3-8649-4628-a62e-810d4693052e.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_GET_STATS, IOCTL_SERIAL_GET_STATS control, IOCTL_SERIAL_GET_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_STATS, serports.ioctl_serial_get_stats, serref_c5deddd3-8649-4628-a62e-810d4693052e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddser.h
 api_name:
 -	IOCTL_SERIAL_GET_STATS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_GET_STATS IOCTL
@@ -51,7 +52,7 @@ req.typenames: SD_REQUEST_FUNCTION
 
 The <b>IOCTL_SERIAL_GET_STATS</b> request returns information about the performance of a serial controller. The statistics include the number of characters transmitted, the number of characters received, and useful error statistics. The driver continuously increments performance values.
 
-To reset the accumulated performance values to zero, a client can use an <a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a> request.
+To reset the accumulated performance values to zero, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546538">IOCTL_SERIAL_CLEAR_STATS</a> request.
 
 
 ## -ioctlparameters
@@ -76,7 +77,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated <b>SER
 
 ### -output-buffer-length
 
-The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a <a href="..\ntddser\ns-ntddser-_serialperf_stats.md">SERIALPERF_STATS</a> structure.
+The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the size, in bytes, of a <a href="https://msdn.microsoft.com/library/windows/hardware/jj680683">SERIALPERF_STATS</a> structure.
 
 
 ### -in-out-buffer
@@ -104,16 +105,15 @@ The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is set to the si
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serialperf_stats.md">SERIALPERF_STATS</a>
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_clear_stats.md">IOCTL_SERIAL_CLEAR_STATS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546538">IOCTL_SERIAL_CLEAR_STATS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj680683">SERIALPERF_STATS</a>
  
 
  
-
 

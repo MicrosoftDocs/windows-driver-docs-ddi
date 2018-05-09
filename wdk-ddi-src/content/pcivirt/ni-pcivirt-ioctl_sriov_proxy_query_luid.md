@@ -38,13 +38,19 @@ api_location:
 -	Pcivirt.h
 api_name:
 -	IOCTL_SRIOV_PROXY_QUERY_LUID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---
 
 # IOCTL_SRIOV_PROXY_QUERY_LUID IOCTL
 
+
+##  Major Code: 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
 
 ## -description
 

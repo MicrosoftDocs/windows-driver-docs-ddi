@@ -7,7 +7,7 @@ old-location: spb\spb_request_sequence_position.htm
 old-project: SPB
 ms.assetid: B2D1BC45-E932-4EBC-9B7E-C45E7439E551
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSPB_REQUEST_SEQUENCE_POSITION, SPB.spb_request_sequence_position, SPB_REQUEST_SEQUENCE_POSITION, SPB_REQUEST_SEQUENCE_POSITION enumeration [Buses], SpbRequestSequencePositionContinue, SpbRequestSequencePositionFirst, SpbRequestSequencePositionInvalid, SpbRequestSequencePositionLast, SpbRequestSequencePositionMax, SpbRequestSequencePositionSingle, _SPB_REQUEST_SEQUENCE_POSITION, spbcx/SPB_REQUEST_SEQUENCE_POSITION, spbcx/SpbRequestSequencePositionContinue, spbcx/SpbRequestSequencePositionFirst, spbcx/SpbRequestSequencePositionInvalid, spbcx/SpbRequestSequencePositionLast, spbcx/SpbRequestSequencePositionMax, spbcx/SpbRequestSequencePositionSingle"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	spbcx.h
 api_name:
 -	SPB_REQUEST_SEQUENCE_POSITION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPB_REQUEST_SEQUENCE_POSITION, *PSPB_REQUEST_SEQUENCE_POSITION
-req.product: Windows 10 or later.
 ---
 
 # _SPB_REQUEST_SEQUENCE_POSITION enumeration
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_REQUEST_SEQUENCE_POSITION</b> enumeration indicates the position of an I/O request in the list of transfers for an <a href="https://msdn.microsoft.com/7415DB28-5E93-4F47-B169-7C652969D4C7">I/O transfer sequence</a>.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  SpbRequestSequencePositionInvalid   = 0,
-  SpbRequestSequencePositionSingle,
-  SpbRequestSequencePositionFirst,
-  SpbRequestSequencePositionContinue,
-  SpbRequestSequencePositionLast,
-  SpbRequestSequencePositionMax
-} SPB_REQUEST_SEQUENCE_POSITION;
-````
 
 
 ## -enum-fields
@@ -144,19 +129,6 @@ For position values of <b>SpbRequestSequencePositionContinue</b> and <b>SpbReque
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
-
-
-
-<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
 
 
 
@@ -164,11 +136,11 @@ For position values of <b>SpbRequestSequencePositionContinue</b> and <b>SpbReque
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
 
 
 
@@ -176,8 +148,20 @@ For position values of <b>SpbRequestSequencePositionContinue</b> and <b>SpbReque
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406220">SPB_TRANSFER_DIRECTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
  
 
  
-
 

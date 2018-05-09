@@ -7,8 +7,8 @@ old-location: display\ioctl_video_query_cursor_attr.htm
 old-project: display
 ms.assetid: c4ec2813-3e5f-401d-8ad4-cd0682e15e5b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_VIDEO_QUERY_CURSOR_ATTR, IOCTL_VIDEO_QUERY_CURSOR_ATTR control code [Display Devices], Video_IOCTLs_5c88c1de-006e-4141-9dcd-59d03d51755f.xml, display.ioctl_video_query_cursor_attr, ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_ATTR
+ms.date: 4/16/2018
+ms.keywords: IOCTL_VIDEO_QUERY_CURSOR_ATTR, IOCTL_VIDEO_QUERY_CURSOR_ATTR control, IOCTL_VIDEO_QUERY_CURSOR_ATTR control code [Display Devices], Video_IOCTLs_5c88c1de-006e-4141-9dcd-59d03d51755f.xml, display.ioctl_video_query_cursor_attr, ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_ATTR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_QUERY_CURSOR_ATTR
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: 
 ---
 
 # IOCTL_VIDEO_QUERY_CURSOR_ATTR IOCTL
@@ -108,17 +109,16 @@ The miniport driver returns a VIDEO_CURSOR_ATTRIBUTES structure in the VRP <b>Ou
 
 ### -status-block
 
-If the miniport driver successfully returns the cursor-attribute data, it sets the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_CURSOR_ATTRIBUTES); otherwise, the miniport driver sets this member to zero.
+If the miniport driver successfully returns the cursor-attribute data, it sets the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_CURSOR_ATTRIBUTES); otherwise, the miniport driver sets this member to zero.
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
  
 
  
-
 

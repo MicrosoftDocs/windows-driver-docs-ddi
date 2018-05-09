@@ -7,7 +7,7 @@ old-location: kernel\interlockedor.htm
 old-project: kernel
 ms.assetid: 1f66d3ed-7215-4fb5-87df-4489c3cd03c6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: InterlockedOr, InterlockedOr routine [Kernel-Mode Driver Architecture], k102_05d8ca48-ab6f-46ae-b026-cb2aaf6f37aa.xml, kernel.interlockedor, wdm/InterlockedOr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	InterlockedOr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # InterlockedOr function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>InterlockedOr</b> routine atomically computes a bitwise OR operation.
-
-
-## -syntax
-
-
-````
-LONG InterlockedOr(
-  _Inout_ LONG volatile *Destination,
-  _In_    LONG          Value
-);
-````
 
 
 ## -parameters
@@ -101,16 +90,15 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-interlockedxor.md">InterlockedXor</a>
 
 
 
-<a href="..\wdm\nf-wdm-interlockedand.md">InterlockedAnd</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547844">InterlockedAnd</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547933">InterlockedXor</a>
  
 
  
-
 

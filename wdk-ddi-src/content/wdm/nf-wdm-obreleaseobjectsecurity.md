@@ -7,7 +7,7 @@ old-location: kernel\obreleaseobjectsecurity.htm
 old-project: kernel
 ms.assetid: d4f9d02a-2541-445a-95f1-e08ebb0c8a39
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ObReleaseObjectSecurity, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], k107_b43166d5-3dac-420a-803e-053b272d3405.xml, kernel.obreleaseobjectsecurity, wdm/ObReleaseObjectSecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ObReleaseObjectSecurity
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ObReleaseObjectSecurity function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>ObReleaseObjectSecurity</b> routine is the reciprocal to <b>ObGetObjectSecurity</b>. 
 
 
-## -syntax
-
-
-````
-VOID ObReleaseObjectSecurity(
-  _In_ PSECURITY_DESCRIPTOR SecurityDescriptor,
-  _In_ BOOLEAN              MemoryAllocated
-);
-````
-
-
 ## -parameters
 
 
@@ -71,7 +60,7 @@ VOID ObReleaseObjectSecurity(
 
 ### -param SecurityDescriptor [in]
 
-Pointer to the buffered <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a> to be released. The caller obtained this parameter from <b>ObGetObjectSecurity</b>
+Pointer to the buffered <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> to be released. The caller obtained this parameter from <b>ObGetObjectSecurity</b>
 
 
 ### -param MemoryAllocated [in]
@@ -92,7 +81,7 @@ None
 
 
 
-After a successful call to <a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetObjectSecurity</a>, a driver must call <b>ObReleaseObjectSecurity</b> eventually. 
+After a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557738">ObGetObjectSecurity</a>, a driver must call <b>ObReleaseObjectSecurity</b> eventually. 
 
 <b>ObReleaseObjectSecurity</b> releases any resources that were allocated by <b>ObGetObjectSecurity</b>. It also decrements the reference count on the given security descriptor. 
 
@@ -101,16 +90,15 @@ After a successful call to <a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetO
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obgetobjectsecurity.md">ObGetObjectSecurity</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557738">ObGetObjectSecurity</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
  
 
  
-
 

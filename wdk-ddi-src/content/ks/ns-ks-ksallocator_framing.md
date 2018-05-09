@@ -7,7 +7,7 @@ old-location: stream\ksallocator_framing.htm
 old-project: stream
 ms.assetid: db96eccd-6747-458b-9a9e-ec909146f3fa
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING structure [Streaming Media Devices], PKSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml, ks/KSALLOCATOR_FRAMING, ks/PKSALLOCATOR_FRAMING, stream.ksallocator_framing"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSALLOCATOR_FRAMING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING
 ---
@@ -52,113 +53,12 @@ req.typenames: KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING
 The KSALLOCATOR_FRAMING structure is used to query framing requirements and submit allocator creation requests.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  union {
-    ULONG OptionsFlags;
-    ULONG RequirementsFlags;
-  };
-  ULONG PoolType;
-  ULONG Frames;
-  ULONG FrameSize;
-  ULONG FileAlignment;
-  ULONG Reserved;
-} KSALLOCATOR_FRAMING, *PKSALLOCATOR_FRAMING;
-````
-
-
 ## -struct-fields
 
 
 
 
-### -field PoolType
-
-A structure of type <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
-
-
-### -field Frames
-
-Specifies the total number of allowable outstanding frames. Zero indicates that the filter has no requirement for this member.
-
-
-### -field FrameSize
-
-Specifies the total size of the frame, including prefix and postfix. Zero indicates that the filter has no requirement for this member.
-
-
-### -field Reserved
-
-Reserved for system use. Set to zero.
-
-
-#### - FileAlignment
-
-A value of type ULONG that describes the byte alignment to use when allocating frames. The following table describes several possible alignment values.
-
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-FILE_BYTE_ALIGNMENT
-
-</td>
-<td>
-1-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_WORD_ALIGNMENT
-
-</td>
-<td>
-2-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_LONG_ALIGNMENT
-
-</td>
-<td>
-4-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_32_BYTE_ALIGNMENT
-
-</td>
-<td>
-32-byte alignment
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_64_BYTE_ALIGNMENT
-
-</td>
-<td>
-64-byte alignment
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - OptionsFlags
+### -field OptionsFlags
 
 Specifies the allocator option flags specified during allocator creation for the connection point. The <b>OptionsFlags</b> member can contain one of the following values.
 
@@ -191,7 +91,7 @@ Indicates that system memory should be used for allocations. When specified, the
  
 
 
-#### - RequirementsFlags
+### -field RequirementsFlags
 
 A value of type ULONG that describes the allocator requirements for this connection point for query operations. The <b>RequirementsFlags</b> member can contain the following values.
 
@@ -254,6 +154,94 @@ Indicates that the Requirements flags are preferences only and the connection po
  
 
 
+### -field PoolType
+
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
+
+
+### -field Frames
+
+Specifies the total number of allowable outstanding frames. Zero indicates that the filter has no requirement for this member.
+
+
+### -field FrameSize
+
+Specifies the total size of the frame, including prefix and postfix. Zero indicates that the filter has no requirement for this member.
+
+
+### -field FileAlignment
+
+A value of type ULONG that describes the byte alignment to use when allocating frames. The following table describes several possible alignment values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>
+FILE_BYTE_ALIGNMENT
+
+</td>
+<td>
+1-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_WORD_ALIGNMENT
+
+</td>
+<td>
+2-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_LONG_ALIGNMENT
+
+</td>
+<td>
+4-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_32_BYTE_ALIGNMENT
+
+</td>
+<td>
+32-byte alignment
+
+</td>
+</tr>
+<tr>
+<td>
+FILE_64_BYTE_ALIGNMENT
+
+</td>
+<td>
+64-byte alignment
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field FramePitch
+
+ 
+
+
+### -field Reserved
+
+Reserved for system use. Set to zero.
+
+
 ## -remarks
 
 
@@ -267,12 +255,11 @@ When you specify a value for the <b>FileAlignment</b> member, the smallest alloc
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kscreateallocator.md">KsCreateAllocator</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561633">KsCreateAllocator</a>
  
 
  
-
 

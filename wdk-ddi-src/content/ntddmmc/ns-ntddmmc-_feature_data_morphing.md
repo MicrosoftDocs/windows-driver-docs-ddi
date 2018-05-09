@@ -7,7 +7,7 @@ old-location: storage\feature_data_morphing.htm
 old-project: storage
 ms.assetid: b3eaabdf-0163-4679-9b22-d8ec53abed59
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING structure [Storage Devices], PFEATURE_DATA_MORPHING, PFEATURE_DATA_MORPHING structure pointer [Storage Devices], _FEATURE_DATA_MORPHING, ntddmmc/FEATURE_DATA_MORPHING, ntddmmc/PFEATURE_DATA_MORPHING, storage.feature_data_morphing, structs-CD-ROM_f159fbd8-73db-440b-a4f3-2429181c6836.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_MORPHING
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_MORPHING, *PFEATURE_DATA_MORPHING
 ---
@@ -52,20 +53,6 @@ req.typenames: FEATURE_DATA_MORPHING, *PFEATURE_DATA_MORPHING
 The FEATURE_DATA_MORPHING structure contains information about the morphing feature.
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_MORPHING {
-  FEATURE_HEADER Header;
-  UCHAR          Asynchronous  :1;
-  UCHAR          OCEvent  :1;
-  UCHAR          Reserved01  :6;
-  UCHAR          Reserved2[3];
-} FEATURE_DATA_MORPHING, *PFEATURE_DATA_MORPHING;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +60,7 @@ typedef struct _FEATURE_DATA_MORPHING {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Asynchronous
@@ -103,16 +90,15 @@ This structure holds data for the feature named "Morphing" by the <i>MMC-3 </i>s
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  
-
 

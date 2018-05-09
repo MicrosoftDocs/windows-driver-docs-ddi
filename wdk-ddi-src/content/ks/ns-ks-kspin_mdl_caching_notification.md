@@ -7,7 +7,7 @@ old-location: stream\kspin_mdl_caching_notification.htm
 old-project: stream
 ms.assetid: 93BAAF88-3F82-4E32-B403-4028ECF21F9A
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPIN_MDL_CACHING_NOTIFICATION, KSPIN_MDL_CACHING_NOTIFICATION, KSPIN_MDL_CACHING_NOTIFICATION structure [Streaming Media Devices], PKSPIN_MDL_CACHING_NOTIFICATION, PKSPIN_MDL_CACHING_NOTIFICATION structure pointer [Streaming Media Devices], ks/KSPIN_MDL_CACHING_NOTIFICATION, ks/PKSPIN_MDL_CACHING_NOTIFICATION, stream.kspin_mdl_caching_notification"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPIN_MDL_CACHING_NOTIFICATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPIN_MDL_CACHING_NOTIFICATION, *PKSPIN_MDL_CACHING_NOTIFICATION
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPIN_MDL_CACHING_NOTIFICATION, *PKSPIN_MDL_CACHING_NOTIFICATION
 
 
 This structure is used internally by the operating system.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPIN_MDL_CACHING_EVENT Event;
-  PVOID                   Buffer;
-} KSPIN_MDL_CACHING_NOTIFICATION, *PKSPIN_MDL_CACHING_NOTIFICATION;
-````
 
 
 ## -struct-fields

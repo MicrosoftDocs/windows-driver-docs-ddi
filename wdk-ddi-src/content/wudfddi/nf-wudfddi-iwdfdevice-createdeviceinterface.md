@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.CreateDeviceInterface
-title: IWDFDevice::CreateDeviceInterface method
+title: IWDFDevice::CreateDeviceInterface
 author: windows-driver-content
 description: The CreateDeviceInterface method creates an instance of a device interface class.
 old-location: wdf\iwdfdevice_createdeviceinterface.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0a88cbb6-66be-4ef7-93da-27d7ce169779
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreateDeviceInterface method, CreateDeviceInterface method, IWDFDevice interface, CreateDeviceInterface,IWDFDevice.CreateDeviceInterface, IWDFDevice, IWDFDevice interface, CreateDeviceInterface method, IWDFDevice::CreateDeviceInterface, UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, umdf.iwdfdevice_createdeviceinterface, wdf.iwdfdevice_createdeviceinterface, wudfddi/IWDFDevice::CreateDeviceInterface
+ms.keywords: CreateDeviceInterface, CreateDeviceInterface method, CreateDeviceInterface method,IWDFDevice interface, IWDFDevice interface,CreateDeviceInterface method, IWDFDevice.CreateDeviceInterface, IWDFDevice::CreateDeviceInterface, UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, umdf.iwdfdevice_createdeviceinterface, wdf.iwdfdevice_createdeviceinterface, wudfddi/IWDFDevice::CreateDeviceInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice.CreateDeviceInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::CreateDeviceInterface method
+# IWDFDevice::CreateDeviceInterface
 
 
 ## -description
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CreateDeviceInterface</b> method creates an instance of a device interface class.
-
-
-## -syntax
-
-
-````
-HRESULT CreateDeviceInterface(
-  [in]           LPCGUID pDeviceInterfaceGuid,
-  [in, optional] PCWSTR  pReferenceString
-);
-````
 
 
 ## -parameters
@@ -134,16 +123,15 @@ The following code example shows how to create a device interface instance. In t
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557006">IWDFDevice::AssignDeviceInterfaceState</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
  
 
  
-
 

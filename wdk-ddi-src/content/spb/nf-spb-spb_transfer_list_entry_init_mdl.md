@@ -7,7 +7,7 @@ old-location: spb\spb_transfer_list_entry_init_mdl.htm
 old-project: SPB
 ms.assetid: FFE8761B-5769-48E5-ACE9-50009C490714
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spb_transfer_list_entry_init_mdl, SPB_TRANSFER_LIST_ENTRY_INIT_MDL, SPB_TRANSFER_LIST_ENTRY_INIT_MDL function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_MDL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Spb.h
 api_name:
 -	SPB_TRANSFER_LIST_ENTRY_INIT_MDL
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SPB_TRANSFER_LIST_ENTRY_INIT_MDL function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SPB_TRANSFER_LIST_ENTRY_INIT_MDL</b> function returns an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a> structure that is initialized to use an MDL to describe a data buffer.
-
-
-## -syntax
-
-
-````
-SPB_TRANSFER_LIST_ENTRY SPB_TRANSFER_LIST_ENTRY_INIT_MDL(
-  _In_ SPB_TRANSFER_DIRECTION Direction,
-  _In_ ULONG                  DelayInUs,
-  _In_ PMDL                   Mdl
-);
-````
 
 
 ## -parameters
@@ -107,6 +95,9 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406215">SPB_TRANSFER_BUFFER</a>
 
 
@@ -116,11 +107,7 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
-
-
-
  
 
  
-
 

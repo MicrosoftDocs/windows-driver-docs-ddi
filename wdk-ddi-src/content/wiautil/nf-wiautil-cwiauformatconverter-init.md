@@ -1,14 +1,14 @@
 ---
 UID: NF:wiautil.CWiauFormatConverter.Init
-title: CWiauFormatConverter::Init method
+title: CWiauFormatConverter::Init
 author: windows-driver-content
 description: The CWiauFormatConverter::Init method initializes the CWiauFormatConverter class and GDI+ for converting images. This method should be called only once.
 old-location: image\cwiauformatconverter_init.htm
 old-project: image
 ms.assetid: 342ea1ae-ff8c-429d-bee8-08559fe75b40
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], Init method, CWiauFormatConverter::Init, Init method [Imaging Devices], Init method [Imaging Devices], CWiauFormatConverter interface, Init,CWiauFormatConverter.Init, image.cwiauformatconverter_init, wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, wiautil/CWiauFormatConverter::Init
+ms.date: 4/23/2018
+ms.keywords: CWiauFormatConverter interface [Imaging Devices],Init method, CWiauFormatConverter.Init, CWiauFormatConverter::Init, Init, Init method [Imaging Devices], Init method [Imaging Devices],CWiauFormatConverter interface, image.cwiauformatconverter_init, wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, wiautil/CWiauFormatConverter::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,27 +38,19 @@ api_location:
 -	Wiautil.h
 api_name:
 -	CWiauFormatConverter.Init
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# CWiauFormatConverter::Init method
+# CWiauFormatConverter::Init
 
 
 ## -description
 
 
 The <b>CWiauFormatConverter::Init</b> method initializes the <b>CWiauFormatConverter</b> class and GDI+ for converting images. This method should be called only once.
-
-
-## -syntax
-
-
-````
-HRESULT Init();
-````
 
 
 ## -parameters

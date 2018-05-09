@@ -7,7 +7,7 @@ old-location: print\freeprintpropertyvalue.htm
 old-project: print
 ms.assetid: 38B760D9-CB6E-45AD-A83F-3C26D1B31A30
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices], print.freeprintpropertyvalue, winspool/FreePrintPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	WinSpool.drv
 api_name:
 -	FreePrintPropertyValue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: BIDI_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # FreePrintPropertyValue function
@@ -51,18 +51,8 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Frees the value that is retrieved using <a href="..\winspool\nf-winspool-getjobnamedpropertyvalue.md">GetJobNamedPropertyValue</a> function. 
+Frees the value that is retrieved using <a href="https://msdn.microsoft.com/library/windows/hardware/mt299059">GetJobNamedPropertyValue</a> function. 
 
-
-
-## -syntax
-
-
-````
-DWORD WINAPI FreePrintPropertyValue(
-  _Inout_ PrintPropertyValue *pValue
-);
-````
 
 
 ## -parameters
@@ -72,7 +62,7 @@ DWORD WINAPI FreePrintPropertyValue(
 
 ### -param pValue [in, out]
 
-Pointer to <b>PrintPropertyValue</b> structure that is returned from <a href="..\winspool\nf-winspool-getjobnamedpropertyvalue.md">GetJobNamedPropertyValue</a>. 
+Pointer to <b>PrintPropertyValue</b> structure that is returned from <a href="https://msdn.microsoft.com/library/windows/hardware/mt299059">GetJobNamedPropertyValue</a>. 
 
 
 

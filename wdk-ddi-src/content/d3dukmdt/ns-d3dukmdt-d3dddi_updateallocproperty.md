@@ -7,7 +7,7 @@ old-location: display\d3dddi_updateallocproperty.htm
 old-project: display
 ms.assetid: 4A8EBF10-23A3-4D91-BCF7-8FD4D0708949
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_UPDATEALLOCPROPERTY, D3DDDI_UPDATEALLOCPROPERTY structure [Display Devices], d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY, display.d3dddi_updateallocproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dukmdt.h
 api_name:
 -	D3DDDI_UPDATEALLOCPROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_UPDATEALLOCPROPERTY
 ---
@@ -50,30 +51,6 @@ req.typenames: D3DDDI_UPDATEALLOCPROPERTY
 
 
 D3DDDI_UPDATEALLOCPROPERTY describes the parameters needed to update an allocation.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDI_UPDATEALLOCPROPERTY {
-  D3DKMT_HANDLE                        hPagingQueue;
-  D3DKMT_HANDLE                        hAllocation;
-  UINT                                 SupportedSegmentSet;
-  DXGK_SEGMENTPREFERENCE               PreferredSegment;
-  D3DDDI_UPDATEALLOCPROPERTY_FLAGS     Flags;
-  UINT64                               PagingFenceValue;
-  union {
-    struct {
-      UINT SetAccessedPhysically   :1;
-      UINT SetSupportedSegmentSet   :1;
-      UINT SetPreferredSegment   :1;
-      UINT Reserved  :29;
-    };
-    UINT   PropertyMaskValue;
-  };
-} D3DDDI_UPDATEALLOCPROPERTY;
-````
 
 
 ## -struct-fields
@@ -137,7 +114,7 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Prop
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFFE) of the 32-bit <b>PropertyMaskValue</b> member to zeros.
 
 
-#### - PropertyMaskValue
+### -field PropertyMaskValue
 
 A member in the union that is contained in D3DDDI_UPDATEALLOCPROPERTY that can hold one 32-bit value that identifies how to update an allocation.
 

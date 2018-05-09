@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest3.RetrieveActivityId
-title: IWDFIoRequest3::RetrieveActivityId method
+title: IWDFIoRequest3::RetrieveActivityId
 author: windows-driver-content
 description: The RetrieveActivityId method retrieves the current activity identifier associated with an I/O request.
 old-location: wdf\iwdfiorequest3_retrieveactivityid.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A90FCF3C-B648-4E97-887E-FCE58D7FA13A
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest3, IWDFIoRequest3 interface, RetrieveActivityId method, IWDFIoRequest3::RetrieveActivityId, RetrieveActivityId method, RetrieveActivityId method, IWDFIoRequest3 interface, RetrieveActivityId,IWDFIoRequest3.RetrieveActivityId, umdf.iwdfiorequest3_retrieveactivityid, wdf.iwdfiorequest3_retrieveactivityid, wudfddi/IWDFIoRequest3::RetrieveActivityId
+ms.keywords: IWDFIoRequest3 interface,RetrieveActivityId method, IWDFIoRequest3.RetrieveActivityId, IWDFIoRequest3::RetrieveActivityId, RetrieveActivityId, RetrieveActivityId method, RetrieveActivityId method,IWDFIoRequest3 interface, umdf.iwdfiorequest3_retrieveactivityid, wdf.iwdfiorequest3_retrieveactivityid, wudfddi/IWDFIoRequest3::RetrieveActivityId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFIoRequest3.RetrieveActivityId
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest3::RetrieveActivityId method
+# IWDFIoRequest3::RetrieveActivityId
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 
    The 
   <b>RetrieveActivityId</b> method retrieves the current activity identifier associated with an I/O request.
-
-
-## -syntax
-
-
-````
-HRESULT RetrieveActivityId(
-  [out] LPGUID ActivityId
-);
-````
 
 
 ## -parameters
@@ -117,7 +107,7 @@ The framework does not clear a request's activity identifier when the driver cal
 
 For more information about activity identifiers, see <a href="https://msdn.microsoft.com/2B70953F-5192-4654-9506-6A84373D20B4">Using Activity Identifiers</a>.
 
-The UMDF 2 equivalent of this method is <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveactivityid.md">WdfRequestRetrieveActivityId</a>.
+The UMDF 2 equivalent of this method is <a href="https://msdn.microsoft.com/library/windows/hardware/dn265621">WdfRequestRetrieveActivityId</a>.
 
 
 #### Examples
@@ -155,16 +145,15 @@ pNewRequest3-&gt;Release();
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest3.md">IWDFIoRequest3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451337">IWDFIoRequest3</a>
 
 
 
 <a href="https://msdn.microsoft.com/57CB3CED-FE46-4A74-9E23-82640B7EF1DC">IWDFIoRequest3::SetActivityId</a>
-
-
-
  
 
  
-
 

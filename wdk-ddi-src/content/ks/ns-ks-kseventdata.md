@@ -7,7 +7,7 @@ old-location: stream\kseventdata.htm
 old-project: stream
 ms.assetid: 83503353-e4f7-47ba-9a0c-71264798e983
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSEVENTDATA, KSEVENTDATA, KSEVENTDATA structure [Streaming Media Devices], PKSEVENTDATA, PKSEVENTDATA structure pointer [Streaming Media Devices], ks-struct_e9669775-4fb9-465a-bd2b-fd02f718d7a3.xml, ks/KSEVENTDATA, ks/PKSEVENTDATA, stream.kseventdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSEVENTDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSEVENTDATA, *PKSEVENTDATA
 ---
@@ -50,31 +51,6 @@ req.typenames: KSEVENTDATA, *PKSEVENTDATA
 
 
 Kernel streaming clients send the KSEVENTDATA structure to the class driver to specify a notification method.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG NotificationType;
-  union {
-    struct {
-      HANDLE    Event;
-      ULONG_PTR Reserved[2];
-    } EventHandle;
-    struct {
-      HANDLE Semaphore;
-      ULONG  Reserved;
-      LONG   Adjustment;
-    } SemaphoreHandle;
-    struct {
-      PVOID    Unused;
-      LONG_PTR Alignment[2];
-    } Alignment;
-  };
-} KSEVENTDATA, *PKSEVENTDATA;
-````
 
 
 ## -struct-fields
@@ -320,23 +296,6 @@ For more information, see <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_work_queue_type.md">WORK_QUEUE_TYPE</a>
-
-
-
-<a href="..\ks\nf-ks-ksincrementcountedworker.md">KsIncrementCountedWorker</a>
-
-
-
-<a href="..\ks\nf-ks-ksregisterworker.md">KsRegisterWorker</a>
-
-
-
-<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
 
 
 
@@ -344,8 +303,24 @@ For more information, see <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562678">KsIncrementCountedWorker</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566775">KsRegisterWorker</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557304">WORK_QUEUE_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566382">WORK_QUEUE_TYPE</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\rtl_init_string_ex.htm
 old-project: kernel
 ms.assetid: D59E6B78-2B51-4A5D-A9EA-E6D8DD90C374
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture], RtlInitStringEx, kernel.rtl_init_string_ex, wdm/RtlInitString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlInitString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlInitStringEx function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlInitStringEx</b> routine initializes a counted string of 8-bit characters.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlInitString(
-  _Out_    PSTRING DestinationString,
-  _In_opt_ PCSZ    SourceString
-);
-````
 
 
 ## -parameters
@@ -105,12 +94,11 @@ Callers of <b>RtlInitStringEx</b> can be running at IRQL &lt;= DISPATCH_LEVEL if
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-
-
  
 
  
-
 

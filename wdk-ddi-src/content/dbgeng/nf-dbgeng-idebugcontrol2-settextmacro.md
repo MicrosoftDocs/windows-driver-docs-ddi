@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetTextMacro
-title: IDebugControl2::SetTextMacro method
+title: IDebugControl2::SetTextMacro
 author: windows-driver-content
 description: The SetTextMacro method sets the value of a fixed-name alias.
 old-location: debugger\settextmacro.htm
 old-project: debugger
 ms.assetid: 8319ab12-bb23-4de4-b3dc-afd3cd13d03e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl interface [Windows Debugging], SetTextMacro method, IDebugControl2, IDebugControl2 interface [Windows Debugging], SetTextMacro method, IDebugControl2::SetTextMacro, IDebugControl3 interface [Windows Debugging], SetTextMacro method, IDebugControl3::SetTextMacro, IDebugControl::SetTextMacro, IDebugControl_5eac09ea-004d-4231-b865-d191790880fc.xml, SetTextMacro method [Windows Debugging], SetTextMacro method [Windows Debugging], IDebugControl interface, SetTextMacro method [Windows Debugging], IDebugControl2 interface, SetTextMacro method [Windows Debugging], IDebugControl3 interface, SetTextMacro,IDebugControl2.SetTextMacro, dbgeng/IDebugControl2::SetTextMacro, dbgeng/IDebugControl3::SetTextMacro, dbgeng/IDebugControl::SetTextMacro, debugger.settextmacro
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],SetTextMacro method, IDebugControl2 interface [Windows Debugging],SetTextMacro method, IDebugControl2.SetTextMacro, IDebugControl2::SetTextMacro, IDebugControl3 interface [Windows Debugging],SetTextMacro method, IDebugControl3::SetTextMacro, IDebugControl::SetTextMacro, IDebugControl_5eac09ea-004d-4231-b865-d191790880fc.xml, SetTextMacro, SetTextMacro method [Windows Debugging], SetTextMacro method [Windows Debugging],IDebugControl interface, SetTextMacro method [Windows Debugging],IDebugControl2 interface, SetTextMacro method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetTextMacro, dbgeng/IDebugControl3::SetTextMacro, dbgeng/IDebugControl::SetTextMacro, debugger.settextmacro
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,29 +40,19 @@ api_name:
 -	IDebugControl.SetTextMacro
 -	IDebugControl2.SetTextMacro
 -	IDebugControl3.SetTextMacro
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::SetTextMacro method
+# IDebugControl2::SetTextMacro
 
 
 ## -description
 
 
 The <b>SetTextMacro</b>  method sets the value of a fixed-name alias.
-
-
-## -syntax
-
-
-````
-HRESULT SetTextMacro(
-  [in] ULONG Slot,
-  [in] PCSTR Macro
-);
-````
 
 
 ## -parameters
@@ -121,11 +111,6 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -133,15 +118,15 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
 
 
 
@@ -149,8 +134,12 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
  
 
  
-
 

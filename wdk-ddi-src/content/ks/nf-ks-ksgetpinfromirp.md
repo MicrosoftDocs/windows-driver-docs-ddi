@@ -7,7 +7,7 @@ old-location: stream\ksgetpinfromirp.htm
 old-project: stream
 ms.assetid: 96176a33-0721-4a4d-ba1b-131e25fc2306
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGetPinFromIrp, KsGetPinFromIrp function [Streaming Media Devices], avfunc_fa403f21-cccb-4a57-b40a-e7531feac721.xml, ks/KsGetPinFromIrp, stream.ksgetpinfromirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGetPinFromIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsGetPinFromIrp</b> function returns the AVStream pin object associated with the given IRP. 
 
 
-## -syntax
-
-
-````
-PKSPIN KsGetPinFromIrp(
-  _In_ PIRP Irp
-);
-````
-
-
 ## -parameters
 
 
@@ -70,14 +61,14 @@ PKSPIN KsGetPinFromIrp(
 
 ### -param Irp [in]
 
-A pointer to an <a href="..\wdm\ns-wdm-_irp.md">IRP</a> for which to return the associated pin.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> for which to return the associated pin.
 
 
 ## -returns
 
 
 
-<b>KsGetPinFromIrp</b> returns a pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure associated with the given IRP or <b>NULL</b>. <b>NULL</b> indicates that either the IRP is not associated with an AVStream object or that it is associated with a filter or a topology node.
+<b>KsGetPinFromIrp</b> returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure associated with the given IRP or <b>NULL</b>. <b>NULL</b> indicates that either the IRP is not associated with an AVStream object or that it is associated with a filter or a topology node.
 
 
 
@@ -93,32 +84,31 @@ Currently, IRPs associated with topology nodes cannot be queried for associated 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilteracquirecontrol.md">KsFilterAcquireControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560908">KsAcquireControl</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilterreleasecontrol.md">KsFilterReleaseControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562523">KsFilterAcquireControl</a>
 
 
 
-<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562551">KsFilterReleaseControl</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetnodeidfromirp.md">KsGetNodeIdFromIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562622">KsGetFilterFromIrp</a>
 
 
 
-<a href="..\ks\nf-ks-ksgetfilterfromirp.md">KsGetFilterFromIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562644">KsGetNodeIdFromIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566780">KsReleaseControl</a>
  
 
  
-
 

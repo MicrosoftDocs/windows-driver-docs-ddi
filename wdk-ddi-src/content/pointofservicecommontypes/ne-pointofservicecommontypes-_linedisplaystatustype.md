@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pointofservicecommontypes.h
 api_name:
 -	LineDisplayStatusType
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: LineDisplayStatusType
 ---
@@ -50,16 +51,6 @@ req.typenames: LineDisplayStatusType
 
 
 This enumeration is not implemented.
-
-
-## -syntax
-
-
-````
-typedef enum _LineDisplayStatusType { 
-    = 
-} LineDisplayStatusType, *PLineDisplayStatusType;
-````
 
 
 ## -enum-fields

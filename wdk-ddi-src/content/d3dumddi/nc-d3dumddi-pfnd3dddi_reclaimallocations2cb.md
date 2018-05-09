@@ -7,8 +7,8 @@ old-location: display\pfnreclaimallocations2cb.htm
 old-project: display
 ms.assetid: 1D3439BA-AB3D-4D94-B4C8-91BE9B3349A1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_RECLAIMALLOCATIONS2CB, d3dumddi/pfnReclaimAllocations2Cb, display.pfnreclaimallocations2cb, pfnReclaimAllocations2Cb, pfnReclaimAllocations2Cb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_RECLAIMALLOCATIONS2CB, d3dumddi/pfnReclaimAllocations2Cb, display.pfnreclaimallocations2cb, pfnReclaimAllocations2Cb, pfnReclaimAllocations2Cb callback, pfnReclaimAllocations2Cb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	pfnReclaimAllocations2Cb
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_RECLAIMALLOCATIONS2CB callback
+# PFND3DDDI_RECLAIMALLOCATIONS2CB callback function
 
 
 ## -description
 
 
 <b>pfnReclaimAllocations2Cb</b> is called by the user mode driver   to reclaim video memory allocations that were previously offered  for reuse.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_RECLAIMALLOCATIONS2CB pfnReclaimAllocations2Cb;
-
-_Check_return_ HRESULT APIENTRY CALLBACK* pfnReclaimAllocations2Cb(
-  _In_    HANDLE                       hDevice,
-  _Inout_ D3DDDICB_RECLAIMALLOCATIONS2 *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ _Check_return_ HRESULT APIENTRY CALLBACK* pfnReclaimAllocations2Cb(
 
 #### - pData [in, out]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_reclaimallocations2.md">D3DDDICB_RECLAIMALLOCATIONS2</a> structure that defines the allocations to reclaim.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906764">D3DDDICB_RECLAIMALLOCATIONS2</a> structure that defines the allocations to reclaim.
 
 
 ## -returns
@@ -145,20 +132,19 @@ The video memory manager or display miniport driver could not complete the opera
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_reclaimallocations.md">D3DDDICB_RECLAIMALLOCATIONS2</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn906764">D3DDDICB_RECLAIMALLOCATIONS2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
 
 
 
 <a href="https://msdn.microsoft.com/AF3DCD16-9F8C-442A-A9A5-9EA2BD1C3B84">pfnReclaimResources</a>
-
-
-
  
 
  
-
 

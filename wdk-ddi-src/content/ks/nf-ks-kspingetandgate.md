@@ -7,7 +7,7 @@ old-location: stream\kspingetandgate.htm
 old-project: stream
 ms.assetid: abd4da69-c0c3-442f-af58-e77362c637da
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinGetAndGate, KsPinGetAndGate function [Streaming Media Devices], avfunc_a4159ef9-1a69-4716-96ce-4fabd1ee6218.xml, ks/KsPinGetAndGate, stream.kspingetandgate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsPinGetAndGate
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsPinGetAndGate</b> function returns the processing control gate for <i>Pin</i>.
 
 
-## -syntax
-
-
-````
-PKSGATE KsPinGetAndGate(
-  _In_ PKSPIN Pin
-);
-````
-
-
 ## -parameters
 
 
@@ -70,14 +61,14 @@ PKSGATE KsPinGetAndGate(
 
 ### -param Pin [in]
 
-A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> for which to return the processing control gate.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> for which to return the processing control gate.
 
 
 ## -returns
 
 
 
-Returns a pointer to the <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> representing the processing control gate for <i>Pin</i>.
+Returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> representing the processing control gate for <i>Pin</i>.
 
 
 
@@ -93,16 +84,15 @@ For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfiltergetandgate.md">KsFilterGetAndGate</a>
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562542">KsFilterGetAndGate</a>
  
 
  
-
 

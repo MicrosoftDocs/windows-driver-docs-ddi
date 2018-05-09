@@ -7,7 +7,7 @@ old-location: image\wiasqueueevent.htm
 old-project: image
 ms.assetid: 1ea82b64-e0e0-445b-8200-70cd6920d29b
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasqueueevent, wiamdef/wiasQueueEvent, wiasFncs_a853cdf1-8d80-4bb6-9c41-c7190e9e9202.xml, wiasQueueEvent, wiasQueueEvent function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasQueueEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasQueueEvent function
@@ -51,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasQueueEvent</b> function informs the service that the device generated an event. 
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasQueueEvent(
-  _In_           BSTR bstrDeviceId,
-  _In_     const GUID *pEventGUID,
-  _In_opt_       BSTR bstrFullItemName
-);
-````
 
 
 ## -parameters
@@ -119,12 +107,11 @@ See the Windows SDK documentation for a complete list of WIA event identifiers.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544986">IWiaMiniDrv::drvInitializeWia</a>
-
-
-
  
 
  
-
 

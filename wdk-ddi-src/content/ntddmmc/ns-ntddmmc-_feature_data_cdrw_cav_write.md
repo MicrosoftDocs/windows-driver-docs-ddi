@@ -7,7 +7,7 @@ old-location: storage\feature_data_cdrw_cav_write.htm
 old-project: storage
 ms.assetid: bdd76553-d551-4451-8a34-122bc0639665
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PFEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE structure [Storage Devices], PFEATURE_DATA_CDRW_CAV_WRITE, PFEATURE_DATA_CDRW_CAV_WRITE structure pointer [Storage Devices], _FEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/PFEATURE_DATA_CDRW_CAV_WRITE, storage.feature_data_cdrw_cav_write, structs-CD-ROM_2ebe5ae8-15be-47a8-9bb8-d638f6033e6b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddmmc.h
 api_name:
 -	FEATURE_DATA_CDRW_CAV_WRITE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: FEATURE_DATA_CDRW_CAV_WRITE, *PFEATURE_DATA_CDRW_CAV_WRITE
 ---
@@ -52,17 +53,6 @@ req.typenames: FEATURE_DATA_CDRW_CAV_WRITE, *PFEATURE_DATA_CDRW_CAV_WRITE
 The FEATURE_DATA_CDRW_CAV_WRITE structure contains information about the CD-RW CAV Write feature. 
 
 
-## -syntax
-
-
-````
-typedef struct _FEATURE_DATA_CDRW_CAV_WRITE {
-  FEATURE_HEADER Header;
-  UCHAR          Reserved1[4];
-} FEATURE_DATA_CDRW_CAV_WRITE, *PFEATURE_DATA_CDRW_CAV_WRITE;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +60,7 @@ typedef struct _FEATURE_DATA_CDRW_CAV_WRITE {
 
 ### -field Header
 
-Contains a <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field Reserved1
@@ -89,16 +79,15 @@ This structure holds data for the feature named "CD-RW CAV Write" by the <i>SCSI
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
 
 
 
-<a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmtdestroydcfrommemory.htm
 old-project: display
 ms.assetid: 1c34db7b-6153-40ec-9a9f-72b9c04c9f12
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTDestroyDCFromMemory, D3DKMTDestroyDCFromMemory function [Display Devices], OpenGL_Functions_2c70707b-7052-4f5f-8715-e2e61a7ab267.xml, d3dkmthk/D3DKMTDestroyDCFromMemory, display.d3dkmtdestroydcfrommemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTDestroyDCFromMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTDestroyDCFromMemory function
@@ -53,16 +54,6 @@ req.typenames: D3DKMT_DRIVERVERSION
 
 
 The <b>D3DKMTDestroyDCFromMemory</b> function releases the display context.
-
-
-## -syntax
-
-
-````
-NTSTATUS D3DKMTDestroyDCFromMemory(
-  _In_ const D3DKMT_DESTROYDCFROMMEMORY *pData
-);
-````
 
 
 ## -parameters
@@ -79,7 +70,7 @@ TBD
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydcfrommemory.md">D3DKMT_DESTROYDCFROMMEMORY</a> structure that contains handles to the display context and bitmap.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547878">D3DKMT_DESTROYDCFROMMEMORY</a> structure that contains handles to the display context and bitmap.
 
 
 ## -returns
@@ -125,12 +116,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_destroydcfrommemory.md">D3DKMT_DESTROYDCFROMMEMORY</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547878">D3DKMT_DESTROYDCFROMMEMORY</a>
  
 
  
-
 

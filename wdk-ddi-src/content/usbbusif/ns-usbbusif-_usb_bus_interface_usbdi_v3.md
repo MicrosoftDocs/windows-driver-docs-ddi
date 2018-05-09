@@ -7,7 +7,7 @@ old-location: buses\usb_bus_interface_usbdi_v3.htm
 old-project: usbref
 ms.assetid: 1183f584-8dfa-4eea-b494-3a2e23ec0294
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3 structure [Buses], _USB_BUS_INTERFACE_USBDI_V3, buses.usb_bus_interface_usbdi_v3, usbbusif/PUSB_BUS_INTERFACE_USBDI_V3, usbbusif/USB_BUS_INTERFACE_USBDI_V3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	usbbusif.h
 api_name:
 -	USB_BUS_INTERFACE_USBDI_V3
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
 ---
 
 # _USB_BUS_INTERFACE_USBDI_V3 structure
@@ -51,28 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>USB_BUS_INTERFACE_USBDI_V3</b> structure is provided by the USB hub driver to allow USB clients to make direct calls to the hub driver without allocating IRPs. 
-
-
-## -syntax
-
-
-````
-typedef struct _USB_BUS_INTERFACE_USBDI_V3 {
-  USHORT                             Size;
-  USHORT                             Version;
-  PVOID                              BusContext;
-  PINTERFACE_REFERENCE               InterfaceReference;
-  PINTERFACE_DEREFERENCE             InterfaceDereference;
-  PUSB_BUSIFFN_GETUSBDI_VERSION      GetUSBDIVersion;
-  PUSB_BUSIFFN_QUERY_BUS_TIME        QueryBusTime;
-  PUSB_BUSIFFN_SUBMIT_ISO_OUT_URB    SubmitIsoOutUrb;
-  PUSB_BUSIFFN_QUERY_BUS_INFORMATION QueryBusInformation;
-  PUSB_BUSIFFN_IS_DEVICE_HIGH_SPEED  IsDeviceHighSpeed;
-  PUSB_BUSIFFN_ENUM_LOG_ENTRY        EnumLogEntry;
-  PUSB_BUSIFFN_QUERY_BUS_TIME_EX     QueryBusTimeEx;
-  PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE QueryControllerType;
-} USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3;
-````
 
 
 ## -struct-fields
@@ -145,12 +123,12 @@ Contains information that describes the USB bus and the USB bus driver that expo
 
 ### -field InterfaceReference
 
-Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>. 
+Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a>. 
 
 
 ### -field InterfaceDereference
 
-Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>. 
+Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a>. 
 
 
 ### -field GetUSBDIVersion
@@ -160,7 +138,7 @@ Pointer to a routine that returns the USB interface version number, the version 
 
 ### -field QueryBusTime
 
-Pointer to a routine that returns the current 32-bit USB frame number. This routine replaces the <a href="..\usbdlib\nf-usbdlib-usbd_querybustime.md">USBD_QueryBusTime</a> function provided by usbd.sys. For more information about this routine, see <a href="https://msdn.microsoft.com/6a0a1953-070d-4335-a906-4ca3fe8a04e1">QueryBusTime</a>.
+Pointer to a routine that returns the current 32-bit USB frame number. This routine replaces the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539128">USBD_QueryBusTime</a> function provided by usbd.sys. For more information about this routine, see <a href="https://msdn.microsoft.com/6a0a1953-070d-4335-a906-4ca3fe8a04e1">QueryBusTime</a>.
 
 
 ### -field SubmitIsoOutUrb
@@ -206,16 +184,15 @@ The routines in this structure must be callable at IRQL &gt;= DISPATCH_LEVEL.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">Bus Driver Interface Routines for USB Client Drivers</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_device_service_supported_commands.htm
 old-project: netvista
 ms.assetid: 5F619FBF-4152-447E-B228-D4147687E929
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, netvista.ndis_wwan_device_service_supported_commands"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, *PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS
 ---
@@ -50,18 +51,6 @@ req.typenames: NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, *PNDIS_WWAN_DEVICE_S
 
 
 The NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS structure represents a list of commands supported by a device service.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS {
-  NDIS_OBJECT_HEADER                     Header;
-  WWAN_STATUS                            uStatus;
-  WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS SupportedCommands;
-} NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS, *PNDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS;
-````
 
 
 ## -struct-fields
@@ -117,7 +106,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SUPPORTED_COMMANDS)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus

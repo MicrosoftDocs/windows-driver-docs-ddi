@@ -7,7 +7,7 @@ old-location: stream\kscamera_extendedprop_roi_ispcontrolheader.htm
 old-project: stream
 ms.assetid: F57B0E44-A6A1-4C43-83EE-8DF4A605C0D0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, stream.kscamera_extendedprop_roi_ispcontrolheader, tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, *PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER
 ---
@@ -52,18 +53,6 @@ req.typenames: KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, *PKSCAMERA_EXTENDEDPR
 This structure contains the header information for ROI ISP controls.
 
 
-## -syntax
-
-
-````
-typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER {
-  ULONG     Size;
-  ULONG     ControlCount;
-  ULONGLONG Reserved;
-} KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER, *PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER;
-````
-
-
 ## -struct-fields
 
 
@@ -71,7 +60,7 @@ typedef struct tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROLHEADER {
 
 ### -field Size
 
-The sum of this structure size, all <a href="..\ksmedia\ns-ksmedia-tagkscamera_extendedprop_roi_ispcontrol.md">KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL</a> structures, and all KSCAMERA_EXTENDEDPROP_ROI_RECTINFO structures that follow
+The sum of this structure size, all <a href="https://msdn.microsoft.com/library/windows/hardware/dn925171">KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL</a> structures, and all KSCAMERA_EXTENDEDPROP_ROI_RECTINFO structures that follow
 
 
 ### -field ControlCount

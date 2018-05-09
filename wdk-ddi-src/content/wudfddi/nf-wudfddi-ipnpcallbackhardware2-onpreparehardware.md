@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackHardware2.OnPrepareHardware
-title: IPnpCallbackHardware2::OnPrepareHardware method
+title: IPnpCallbackHardware2::OnPrepareHardware
 author: windows-driver-content
 description: The OnPrepareHardware method performs any operations that are needed to make a device accessible to the driver.
 old-location: wdf\ipnpcallbackhardware2_onpreparehardware.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 830D706A-016C-4637-829F-2014AD1A1309
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackHardware2, IPnpCallbackHardware2 interface, OnPrepareHardware method, IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware method, OnPrepareHardware method, IPnpCallbackHardware2 interface, OnPrepareHardware,IPnpCallbackHardware2.OnPrepareHardware, umdf.ipnpcallbackhardware2_onpreparehardware, wdf.ipnpcallbackhardware2_onpreparehardware, wudfddi/IPnpCallbackHardware2::OnPrepareHardware
+ms.keywords: IPnpCallbackHardware2 interface,OnPrepareHardware method, IPnpCallbackHardware2.OnPrepareHardware, IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware, OnPrepareHardware method, OnPrepareHardware method,IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onpreparehardware, wdf.ipnpcallbackhardware2_onpreparehardware, wudfddi/IPnpCallbackHardware2::OnPrepareHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IPnpCallbackHardware2.OnPrepareHardware
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallbackHardware2::OnPrepareHardware method
+# IPnpCallbackHardware2::OnPrepareHardware
 
 
 ## -description
@@ -57,18 +57,6 @@ req.product: Windows 10 or later.
   
 
 
-## -syntax
-
-
-````
-HRESULT OnPrepareHardware(
-  [in] IWDFDevice3        *pWdfDevice,
-  [in] IWDFCmResourceList *pWdfResourcesRaw,
-  [in] IWDFCmResourceList *pWdfResourcesTranslated
-);
-````
-
-
 ## -parameters
 
 
@@ -76,17 +64,17 @@ HRESULT OnPrepareHardware(
 
 ### -param pWdfDevice [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the framework device object.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the framework device object.
 
 
 ### -param pWdfResourcesRaw [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the raw hardware resources that the Plug and Play manager has assigned to the device.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439762">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the raw hardware resources that the Plug and Play manager has assigned to the device.
 
 
 ### -param pWdfResourcesTranslated [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439762">IWDFCmResourceList</a> interface for the framework resource-list object that identifies the translated hardware resources that the Plug and Play manager has assigned to the device.
 
 
 ## -returns
@@ -120,16 +108,15 @@ See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439727">IPnpCallbackHardware2</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnReleaseHardware</a>
-
-
-
  
 
  
-
 

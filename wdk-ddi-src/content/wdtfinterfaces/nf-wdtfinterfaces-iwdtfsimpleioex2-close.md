@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfinterfaces.IWDTFSimpleIOEx2.Close
-title: IWDTFSimpleIOEx2::Close method
+title: IWDTFSimpleIOEx2::Close
 author: windows-driver-content
 description: Closes the device.
 old-location: dtf\iwdtfsimpleioex2_close.htm
 old-project: dtf
 ms.assetid: e8061408-2efe-4620-bc57-4cf0c3e41874
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: Close method [Windows Device Testing Framework], Close method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, Close,IWDTFSimpleIOEx2.Close, IWDTFSimpleIOEx2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], Close method, IWDTFSimpleIOEx2::Close, Microsoft.WDTF.IWDTFSimpleIOEx2.Close, Microsoft::WDTF::IWDTFSimpleIOEx2::Close, dtf.iwdtfsimpleioex2_close, wdtfinterfaces/IWDTFSimpleIOEx2::Close
+ms.date: 4/4/2018
+ms.keywords: Close, Close method [Windows Device Testing Framework], Close method [Windows Device Testing Framework],IWDTFSimpleIOEx2 interface, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],Close method, IWDTFSimpleIOEx2.Close, IWDTFSimpleIOEx2::Close, Microsoft.WDTF.IWDTFSimpleIOEx2.Close, Microsoft::WDTF::IWDTFSimpleIOEx2::Close, dtf.iwdtfsimpleioex2_close, wdtfinterfaces/IWDTFSimpleIOEx2::Close
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	WDTFInterfaces.Interop.dll
 api_name:
 -	IWDTFSimpleIOEx2.Close
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSimpleIOEx2::Close method
+# IWDTFSimpleIOEx2::Close
 
 
 ## -description
 
 
 Closes the device.
-
-
-## -syntax
-
-
-````
-HRESULT Close(
-  [out, retval] VARIANT_BOOL *pResult
-);
-````
 
 
 ## -parameters
@@ -94,12 +84,11 @@ the <a href="https://msdn.microsoft.com/991a60a0-8d82-4f41-8cfe-bf633338bdda">IW
 
 ## -see-also
 
-<a href="..\wdtfinterfaces\nn-wdtfinterfaces-iwdtfsimpleioex2.md">IWDTFSimpleIOEx2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451149">IWDTFSimpleIOEx2</a>
  
 
  
-
 

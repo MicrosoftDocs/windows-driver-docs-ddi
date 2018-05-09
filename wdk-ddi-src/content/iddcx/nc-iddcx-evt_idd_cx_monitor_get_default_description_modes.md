@@ -7,8 +7,8 @@ old-location: display\evt_idd_cx_monitor_get_default_description_modes.htm
 old-project: display
 ms.assetid: 2ad45cfe-f65c-41bc-8c64-5334dbf7c755
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, EvtIddCxMonitorGetDefaultDescriptionModes, EvtIddCxMonitorGetDefaultDescriptionModes callback function [Display Devices], PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback function pointer [Display Devices], display.evt_idd_cx_monitor_get_default_description_modes, iddcx/EvtIddCxMonitorGetDefaultDescriptionModes
+ms.date: 4/16/2018
+ms.keywords: EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback, EvtIddCxMonitorGetDefaultDescriptionModes, EvtIddCxMonitorGetDefaultDescriptionModes callback function [Display Devices], PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback function pointer [Display Devices], display.evt_idd_cx_monitor_get_default_description_modes, iddcx/EvtIddCxMonitorGetDefaultDescriptionModes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,35 +38,19 @@ api_location:
 -	iddcx.h
 api_name:
 -	PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
-# EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback
+# EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback function
 
 
 ## -description
 
 
 <b>EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES</b> is called by the OS to request the default monitor mode list from the driver for the specified monitor when a monitor without a description is connected.
-
-
-## -prototype
-
-
-````
-EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES EvtIddCxMonitorGetDefaultDescriptionModes;
-
-NTSTATUS EvtIddCxMonitorGetDefaultDescriptionModes(
-  _In_        IDDCX_MONITOR                         MonitorObject,
-  _In_  const IDARG_IN_GETDEFAULTDESCRIPTIONMODES*  pInArgs,
-  _Out_       IDARG_OUT_GETDEFAULTDESCRIPTIONMODES* pOutArgs
-)
-{ ... }
-
-typedef EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES;
-````
 
 
 ## -parameters

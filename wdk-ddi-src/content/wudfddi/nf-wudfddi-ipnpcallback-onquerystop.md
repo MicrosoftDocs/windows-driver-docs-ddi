@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallback.OnQueryStop
-title: IPnpCallback::OnQueryStop method
+title: IPnpCallback::OnQueryStop
 author: windows-driver-content
 description: The OnQueryStop method notifies a driver before a device is stopped.
 old-location: wdf\ipnpcallback_onquerystop.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0cb14fa-82d0-4ce3-8672-801e7f04d522
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallback, IPnpCallback interface, OnQueryStop method, IPnpCallback::OnQueryStop, OnQueryStop method, OnQueryStop method, IPnpCallback interface, OnQueryStop,IPnpCallback.OnQueryStop, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, umdf.ipnpcallback_onquerystop, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop
+ms.keywords: IPnpCallback interface,OnQueryStop method, IPnpCallback.OnQueryStop, IPnpCallback::OnQueryStop, OnQueryStop, OnQueryStop method, OnQueryStop method,IPnpCallback interface, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, umdf.ipnpcallback_onquerystop, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IPnpCallback.OnQueryStop
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallback::OnQueryStop method
+# IPnpCallback::OnQueryStop
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 The <b>OnQueryStop</b> method notifies a driver before a device is stopped. 
 
 
-## -syntax
-
-
-````
-HRESULT OnQueryStop(
-  [in] IWDFDevice *pWdfDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ HRESULT OnQueryStop(
 
 ### -param pWdfDevice [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface for the device object of the device that will be stopped.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface for the device object of the device that will be stopped.
 
 
 ## -returns
@@ -90,7 +80,7 @@ This method must use the HRESULT_FROM_NT macro to return a specific HRESULT valu
 
 
 
-A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556762">IPnpCallback</a> interface when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
 
 The framework does not synchronize the <b>OnQueryStop</b> callback function with other PnP and power management callback functions.  
 
@@ -103,20 +93,19 @@ For more information about the <b>OnQueryStop</b> callback method, see <a href="
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556762">IPnpCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
-
-
-
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\ioctl_video_query_pointer_position.htm
 old-project: display
 ms.assetid: 0dbca53e-5fe0-4435-9f94-45601fbbf950
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_VIDEO_QUERY_POINTER_POSITION, IOCTL_VIDEO_QUERY_POINTER_POSITION control code [Display Devices], Video_IOCTLs_ebaaecc3-ace3-4252-8f01-d80bb1c2472f.xml, display.ioctl_video_query_pointer_position, ntddvdeo/IOCTL_VIDEO_QUERY_POINTER_POSITION
+ms.date: 4/16/2018
+ms.keywords: IOCTL_VIDEO_QUERY_POINTER_POSITION, IOCTL_VIDEO_QUERY_POINTER_POSITION control, IOCTL_VIDEO_QUERY_POINTER_POSITION control code [Display Devices], Video_IOCTLs_ebaaecc3-ace3-4252-8f01-d80bb1c2472f.xml, display.ioctl_video_query_pointer_position, ntddvdeo/IOCTL_VIDEO_QUERY_POINTER_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddvdeo.h
 api_name:
 -	IOCTL_VIDEO_QUERY_POINTER_POSITION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: 
 ---
 
 # IOCTL_VIDEO_QUERY_POINTER_POSITION IOCTL
@@ -108,17 +109,16 @@ The miniport driver returns a VIDEO_POINTER_POSITION structure in the VRP <b>Out
 
 ### -status-block
 
-If the miniport driver successfully returns the pointer position, it sets the <b>Information</b> member of the <a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_POINTER_POSITION); otherwise, the miniport driver sets this member to zero.
+If the miniport driver successfully returns the pointer position, it sets the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_POINTER_POSITION); otherwise, the miniport driver sets this member to zero.
 
 
 ## -see-also
 
-<a href="..\video\ns-video-_status_block.md">STATUS_BLOCK</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
  
 
  
-
 

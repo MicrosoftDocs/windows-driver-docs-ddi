@@ -7,7 +7,7 @@ old-location: stream\ksdevicesetbusdata.htm
 old-project: stream
 ms.assetid: b319f2a4-dbbe-4324-8f8d-a42bb40d7939
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsDeviceSetBusData, KsDeviceSetBusData function [Streaming Media Devices], avfunc_5b7ad4e8-d651-4b80-99db-260fba83ce15.xml, ks/KsDeviceSetBusData, stream.ksdevicesetbusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsDeviceSetBusData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,20 +54,6 @@ req.typenames:
 The<b> KsDeviceSetBusData </b>function writes data to the bus on which the specified AVStream device resides.
 
 
-## -syntax
-
-
-````
-ULONG KsDeviceSetBusData(
-  _In_ PKSDEVICE Device,
-  _In_ ULONG     DataType,
-  _In_ PVOID     Buffer,
-  _In_ ULONG     Offset,
-  _In_ ULONG     Length
-);
-````
-
-
 ## -parameters
 
 
@@ -74,7 +61,7 @@ ULONG KsDeviceSetBusData(
 
 ### -param Device [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure. This routine attempts to write data to the bus on which this device resides.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure. This routine attempts to write data to the bus on which this device resides.
 
 
 ### -param DataType [in]
@@ -112,7 +99,7 @@ This parameter specifies the number of bytes of data to write to the bus from <i
 
 This function performs differently depending on the driver for the bus on which the specified device resides. If the bus driver supports the bus interface standard (usually PCI), call this function at either IRQL = PASSIVE_LEVEL or DISPATCH_LEVEL. After such a call, <b>KsDeviceSetBusData</b> returns the actual number of bytes written to the requested space.
 
-If the bus driver does not support the bus interface standard, AVStream communicates with the bus driver using <a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>. In this case, call <b>KsDeviceSetBusData</b> at IRQL = PASSIVE_LEVEL. The return value is either zero, in the case of failure, or equal to <i>Length</i> if the data was written successfully.
+If the bus driver does not support the bus interface standard, AVStream communicates with the bus driver using <a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>. In this case, call <b>KsDeviceSetBusData</b> at IRQL = PASSIVE_LEVEL. The return value is either zero, in the case of failure, or equal to <i>Length</i> if the data was written successfully.
 
 Drivers running on Windows 2000 and later can make this call at IRQL = DISPATCH_LEVEL. However, to ensure compatibility, minidriver writers may want to restrict use of <b>KsDeviceSetBusData</b> to IRQL = PASSIVE_LEVEL.
 
@@ -121,16 +108,15 @@ Drivers running on Windows 2000 and later can make this call at IRQL = DISPATCH_
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdevicegetbusdata.md">KsDeviceGetBusData</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561683">KsDeviceGetBusData</a>
  
 
  
-
 

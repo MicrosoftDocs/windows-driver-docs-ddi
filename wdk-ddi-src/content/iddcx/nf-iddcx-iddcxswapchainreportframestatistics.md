@@ -7,7 +7,7 @@ old-location: display\iddcxswapchainreportframestatistics.htm
 old-project: display
 ms.assetid: 0dd32160-93d4-4fb8-aed1-9267f38e9909
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: IddCxSwapChainReportFrameStatistics, IddCxSwapChainReportFrameStatistics method [Display Devices], display.iddcxswapchainreportframestatistics, iddcx/IddCxSwapChainReportFrameStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iddcx.h
 api_name:
 -	IddCxSwapChainReportFrameStatistics
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,17 +53,6 @@ req.typenames:
 
 
                 An OS callback function the driver calls to report the frame statistics after it has processed a frame completely
-
-
-## -syntax
-
-
-````
-NTSTATUS IddCxSwapChainReportFrameStatistics(
-  _In_       IDDCX_SWAPCHAIN                 SwapChainObject,
-  _In_ const IDARG_IN_REPORTFRAMESTATISTICS* pInArgs
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: stream\usbcamd_setvideoformat.htm
 old-project: stream
 ms.assetid: 84a63c69-0f27-42e4-ae10-e394dd8b715d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: PFNUSBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat routine [Streaming Media Devices], stream.usbcamd_setvideoformat, usbcamdi/USBCAMD_SetVideoFormat, usbcmdpr_c4209df8-d0e2-4727-b9f8-4b9b734be34c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,33 +38,19 @@ api_location:
 -	usbcamdi.h
 api_name:
 -	USBCAMD_SetVideoFormat
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFNUSBCAMD_SetVideoFormat callback
+# PFNUSBCAMD_SetVideoFormat callback function
 
 
 ## -description
 
 
 The <b>USBCAMD_SetVideoFormat</b> service is used to notify USBCAMD that the video format has changed.
-
-
-## -prototype
-
-
-````
-PFNUSBCAMD_SetVideoFormat USBCAMD_SetVideoFormat;
-
-NTSTATUS APIENTRY USBCAMD_SetVideoFormat(
-  _In_ PVOID                    DeviceContext,
-  _In_ PHW_STREAM_REQUEST_BLOCK pSrb
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -140,16 +126,15 @@ Camera minidrivers must handle all SRBs related to video format. Camera minidriv
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568201">SRB_SET_DATA_FORMAT</a>
 
 
 
-<a href="..\usbcamdi\ns-usbcamdi-usbcamd_interface.md">USBCAMD_INTERFACE</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568605">USBCAMD_INTERFACE</a>
  
 
  
-
 

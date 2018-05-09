@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetImagePathWide
-title: IDebugSymbols3::SetImagePathWide method
+title: IDebugSymbols3::SetImagePathWide
 author: windows-driver-content
 description: The SetImagePathWide method sets the executable image path.
 old-location: debugger\setimagepathwide.htm
 old-project: debugger
 ms.assetid: 0675dce8-4724-4880-b311-204fbb6fe194
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetImagePathWide method, IDebugSymbols3::SetImagePathWide, SetImagePathWide method [Windows Debugging], SetImagePathWide method [Windows Debugging], IDebugSymbols3 interface, SetImagePathWide,IDebugSymbols3.SetImagePathWide, dbgeng/IDebugSymbols3::SetImagePathWide, debugger.setimagepathwide
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetImagePathWide method, IDebugSymbols3.SetImagePathWide, IDebugSymbols3::SetImagePathWide, SetImagePathWide, SetImagePathWide method [Windows Debugging], SetImagePathWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetImagePathWide, debugger.setimagepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.SetImagePathWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::SetImagePathWide method
+# IDebugSymbols3::SetImagePathWide
 
 
 ## -description
 
 
 The <b>SetImagePathWide</b>  method sets the executable image path.
-
-
-## -syntax
-
-
-````
-HRESULT SetImagePathWide(
-  [in] PCWSTR Path
-);
-````
 
 
 ## -parameters
@@ -113,11 +104,10 @@ The executable image path can consist of several directories separated by semico
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538092">AppendImagePath</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -125,8 +115,8 @@ The executable image path can consist of several directories separated by semico
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

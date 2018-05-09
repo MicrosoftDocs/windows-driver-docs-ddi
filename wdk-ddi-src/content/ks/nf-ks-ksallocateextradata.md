@@ -7,7 +7,7 @@ old-location: stream\ksallocateextradata.htm
 old-project: stream
 ms.assetid: dfeaca74-d34d-4128-bd76-3a1bf1b3f5d6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAllocateExtraData, KsAllocateExtraData function [Streaming Media Devices], ks/KsAllocateExtraData, ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml, stream.ksallocateextradata
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAllocateExtraData
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,18 +52,6 @@ req.typenames:
 
 
 The <b>KsAllocateExtraData</b> function is used with streaming IRPs to allocate a buffer to contain additional header data. A pointer to the allocated buffer is returned, and the buffer must eventually be freed by the caller. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsAllocateExtraData(
-  _Inout_ PIRP  Irp ,
-  _In_    ULONG ExtraSize ,
-  _Out_   PVOID *ExtraBuffer 
-);
-````
 
 
 ## -parameters

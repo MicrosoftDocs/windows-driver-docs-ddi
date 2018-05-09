@@ -7,7 +7,7 @@ old-location: kernel\io_container_notification_class.htm
 old-project: kernel
 ms.assetid: cc2ce023-ebb1-4a8e-a06a-e2f11a89d258
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IO_CONTAINER_NOTIFICATION_CLASS, IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture], IoMaxContainerNotificationClass, IoSessionStateNotification, _IO_CONTAINER_NOTIFICATION_CLASS, kernel.io_container_notification_class, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, wdm/IO_CONTAINER_NOTIFICATION_CLASS, wdm/IoMaxContainerNotificationClass, wdm/IoSessionStateNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	IO_CONTAINER_NOTIFICATION_CLASS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IO_CONTAINER_NOTIFICATION_CLASS
-req.product: Windows 10 or later.
 ---
 
 # _IO_CONTAINER_NOTIFICATION_CLASS enumeration
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>IO_CONTAINER_NOTIFICATION_CLASS</b> enumeration contains constants that indicate the classes of events for which a kernel-mode driver can register to receive notifications.
-
-
-## -syntax
-
-
-````
-typedef enum _IO_CONTAINER_NOTIFICATION_CLASS { 
-  IoSessionStateNotification       = 0,
-  IoMaxContainerNotificationClass  = 1
-} IO_CONTAINER_NOTIFICATION_CLASS;
-````
 
 
 ## -enum-fields
@@ -83,19 +72,18 @@ Specifies the maximum value in this enumeration type.
 
 
 
-To register for notifications, a driver calls the <a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a> routine and sets this routine's <i>NotificationClass</i> parameter to an <b>IO_CONTAINER_NOTIFICATION_CLASS</b> constant (other than <b>IoMaxContainerNotificationClass</b>). Currently, <b>IoRegisterContainerNotification</b> supports only <i>NotificationClass</i> = <b>IoSessionStateNotification</b>. 
+To register for notifications, a driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549501">IoRegisterContainerNotification</a> routine and sets this routine's <i>NotificationClass</i> parameter to an <b>IO_CONTAINER_NOTIFICATION_CLASS</b> constant (other than <b>IoMaxContainerNotificationClass</b>). Currently, <b>IoRegisterContainerNotification</b> supports only <i>NotificationClass</i> = <b>IoSessionStateNotification</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregistercontainernotification.md">IoRegisterContainerNotification</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549501">IoRegisterContainerNotification</a>
  
 
  
-
 

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_X86_REGISTER_STATE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_X86_REGISTER_STATE, *PWHEA_X86_REGISTER_STATE
 ---
@@ -50,40 +51,6 @@ req.typenames: WHEA_X86_REGISTER_STATE, *PWHEA_X86_REGISTER_STATE
 
 
 The WHEA_X86_REGISTER_STATE structure describes the state of an x86 processor's registers.
-
-
-## -syntax
-
-
-````
-typedef struct _WHEA_X86_REGISTER_STATE {
-  ULONG     Eax;
-  ULONG     Ebx;
-  ULONG     Ecx;
-  ULONG     Edx;
-  ULONG     Esi;
-  ULONG     Edi;
-  ULONG     Ebp;
-  ULONG     Esp;
-  USHORT    Cs;
-  USHORT    Ds;
-  USHORT    Ss;
-  USHORT    Es;
-  USHORT    Fs;
-  USHORT    Gs;
-  ULONG     Eflags;
-  ULONG     Eip;
-  ULONG     Cr0;
-  ULONG     Cr1;
-  ULONG     Cr2;
-  ULONG     Cr3;
-  ULONG     Cr4;
-  ULONGLONG Gdtr;
-  ULONGLONG Idtr;
-  USHORT    Ldtr;
-  USHORT    Tr;
-} WHEA_X86_REGISTER_STATE, *PWHEA_X86_REGISTER_STATE;
-````
 
 
 ## -struct-fields
@@ -220,19 +187,18 @@ The task register.
 
 
 
-If the <b>RegisterContextType</b> member of a <a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_32BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X86_REGISTER_STATE structure.
+If the <b>RegisterContextType</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560647">WHEA_XPF_CONTEXT_INFO</a> structure is set to XPF_CONTEXT_INFO_32BITCONTEXT, the <b>RegisterData</b> member of that structure contains a WHEA_X86_REGISTER_STATE structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_context_info.md">WHEA_XPF_CONTEXT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560647">WHEA_XPF_CONTEXT_INFO</a>
  
 
  
-
 

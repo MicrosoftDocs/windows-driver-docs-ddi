@@ -7,7 +7,7 @@ old-location: debugger\gettebaddress.htm
 old-project: debugger
 ms.assetid: 6dbe7da6-31f6-43f2-aa25-be6f13c8d8d8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/24/2018
 ms.keywords: GetTebAddress, GetTebAddress function [Windows Debugging], WdbgExts_Ref_69ad127f-7df4-4c57-9475-55040aa02f78.xml, debugger.gettebaddress, wdbgexts/GetTebAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	GetTebAddress
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # GetTebAddress function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>GetTebAddress</b> function returns the address of the thread environment block (TEB) for the current operating system thread.
-
-
-## -syntax
-
-
-````
-__inline VOID GetTebAddress(
-   PULONGLONG Address
-);
-````
 
 
 ## -parameters
@@ -93,12 +83,11 @@ In user-mode debugging, the TEB for the current thread is returned.  In kernel-m
 
 ## -see-also
 
-<a href="..\wdbgexts\nf-wdbgexts-getpebaddress.md">GetPebAddress</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548122">GetPebAddress</a>
  
 
  
-
 

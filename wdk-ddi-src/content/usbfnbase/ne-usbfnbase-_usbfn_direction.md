@@ -7,7 +7,7 @@ old-location: buses\usbfn_direction.htm
 old-project: usbref
 ms.assetid: C6E1FA5A-993C-4212-9428-0B759C09F5DE
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBFN_DIRECTION, USBFN_DIRECTION, USBFN_DIRECTION enumeration [Buses], UsbfnDirectionIn, UsbfnDirectionMaximum, UsbfnDirectionMinimum, UsbfnDirectionOut, UsbfnDirectionRx, UsbfnDirectionTx, _USBFN_DIRECTION, buses.usbfn_direction, usbfnbase/USBFN_DIRECTION, usbfnbase/UsbfnDirectionIn, usbfnbase/UsbfnDirectionMaximum, usbfnbase/UsbfnDirectionMinimum, usbfnbase/UsbfnDirectionOut, usbfnbase/UsbfnDirectionRx, usbfnbase/UsbfnDirectionTx"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	usbfnbase.h
 api_name:
 -	USBFN_DIRECTION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: USBFN_DIRECTION, *PUSBFN_DIRECTION
-req.product: Windows 10 or later.
 ---
 
 # _USBFN_DIRECTION enumeration
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 Defines the USB data transfer direction types.
-
-
-## -syntax
-
-
-````
-typedef enum _USBFN_DIRECTION { 
-  UsbfnDirectionMinimum  = 0x0,
-  UsbfnDirectionIn,
-  UsbfnDirectionOut,
-  UsbfnDirectionTx       = UsbfnDirectionIn,
-  UsbfnDirectionRx       = UsbfnDirectionOut,
-  UsbfnDirectionMaximum
-} USBFN_DIRECTION;
-````
 
 
 ## -enum-fields

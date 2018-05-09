@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiRequestContainer.AddRequest
-title: IBidiRequestContainer::AddRequest method
+title: IBidiRequestContainer::AddRequest
 author: windows-driver-content
 description: The AddRequest method adds a request to the request list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__addrequest.htm
 old-project: print
 ms.assetid: 69a97816-2994-4eec-b2ab-a545195e3776
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: AddRequest method [Print Devices], AddRequest method [Print Devices], IBidiRequestContainer interface, AddRequest,IBidiRequestContainer.AddRequest, IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], AddRequest method, IBidiRequestContainer::AddRequest, _win32_IBidiRequestContainer_AddRequest, bidispl/IBidiRequestContainer::AddRequest, gdi.ibidirequestcontainer_ibidirequestcontainer__addrequest, print.ibidirequestcontainer_ibidirequestcontainer__addrequest
+ms.date: 4/20/2018
+ms.keywords: AddRequest, AddRequest method [Print Devices], AddRequest method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],AddRequest method, IBidiRequestContainer.AddRequest, IBidiRequestContainer::AddRequest, _win32_IBidiRequestContainer_AddRequest, bidispl/IBidiRequestContainer::AddRequest, gdi.ibidirequestcontainer_ibidirequestcontainer__addrequest, print.ibidirequestcontainer_ibidirequestcontainer__addrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiRequestContainer.AddRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiRequestContainer::AddRequest method
+# IBidiRequestContainer::AddRequest
 
 
 ## -description
 
 
 The <b>AddRequest</b> method adds a request to the request list.
-
-
-## -syntax
-
-
-````
-HRESULT AddRequest(
-  [in] IBidiRequest *pRequest
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ HRESULT AddRequest(
 
 ### -param pRequest [in]
 
-A pointer to the <a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a> interface.
 
 
 ## -returns
@@ -126,18 +117,17 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-This is similar to adding an item in a link list. In this case, <a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a> will hold a reference to <i>pRequest</i> by calling pRequest-&gt;AddRef.
+This is similar to adding an item in a link list. In this case, <a href="https://msdn.microsoft.com/library/windows/hardware/dd144970">IBidiRequestContainer</a> will hold a reference to <i>pRequest</i> by calling pRequest-&gt;AddRef.
 
 
 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-
-
-<a href="..\bidispl\nn-bidispl-ibidirequestcontainer.md">IBidiRequestContainer</a>
 
 
 
@@ -145,12 +135,12 @@ This is similar to adding an item in a link list. In this case, <a href="..\bidi
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144970">IBidiRequestContainer</a>
  
 
  
-
 

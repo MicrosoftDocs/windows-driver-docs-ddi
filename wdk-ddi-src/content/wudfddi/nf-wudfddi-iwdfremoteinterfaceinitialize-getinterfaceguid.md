@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteInterfaceInitialize.GetInterfaceGuid
-title: IWDFRemoteInterfaceInitialize::GetInterfaceGuid method
+title: IWDFRemoteInterfaceInitialize::GetInterfaceGuid
 author: windows-driver-content
 description: The GetInterfaceGuid method retrieves the GUID that identifies a device interface.
 old-location: wdf\iwdfremoteinterfaceinitialize_getinterfaceguid.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c68d458-9b34-4e45-993a-67f915347637
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetInterfaceGuid method, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid,IWDFRemoteInterfaceInitialize.GetInterfaceGuid, IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid
+ms.keywords: GetInterfaceGuid, GetInterfaceGuid method, GetInterfaceGuid method,IWDFRemoteInterfaceInitialize interface, IWDFRemoteInterfaceInitialize interface,GetInterfaceGuid method, IWDFRemoteInterfaceInitialize.GetInterfaceGuid, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFRemoteInterfaceInitialize.GetInterfaceGuid
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRemoteInterfaceInitialize::GetInterfaceGuid method
+# IWDFRemoteInterfaceInitialize::GetInterfaceGuid
 
 
 ## -description
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetInterfaceGuid</b> method retrieves the GUID that identifies a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>. 
-
-
-## -syntax
-
-
-````
-void GetInterfaceGuid(
-  [out] LPGUID pDeviceInterfaceGuid
-);
-````
 
 
 ## -parameters
@@ -119,16 +109,15 @@ CMyDevice::OnRemoteInterfaceArrival(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremoteinterfaceinitialize.md">IWDFRemoteInterfaceInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560232">IWDFRemoteInterfaceInitialize</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560242">IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink</a>
-
-
-
  
 
  
-
 

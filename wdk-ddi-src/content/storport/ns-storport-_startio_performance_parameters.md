@@ -7,7 +7,7 @@ old-location: storage\startio_performance_parameters.htm
 old-project: storage
 ms.assetid: 984a8584-ebdd-4e93-868b-1537a3615c1b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PSTARTIO_PERFORMANCE_PARAMETERS, PSTARTIO_PERFORMANCE_PARAMETERS, PSTARTIO_PERFORMANCE_PARAMETERS structure pointer [Storage Devices], STARTIO_PERFORMANCE_PARAMETERS, STARTIO_PERFORMANCE_PARAMETERS structure [Storage Devices], _STARTIO_PERFORMANCE_PARAMETERS, storage.startio_performance_parameters, storport/PSTARTIO_PERFORMANCE_PARAMETERS, storport/STARTIO_PERFORMANCE_PARAMETERS, structs-storport_6f0f3ae8-51e3-4c3e-91e1-4603b04b6f08.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	STARTIO_PERFORMANCE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STARTIO_PERFORMANCE_PARAMETERS, *PSTARTIO_PERFORMANCE_PARAMETERS
-req.product: Windows 10 or later.
 ---
 
 # _STARTIO_PERFORMANCE_PARAMETERS structure
@@ -50,20 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>STARTIO_PERFORMANCE_PARAMETERS</b> structure describes the performance parameters that are returned to the miniport driver by the <a href="..\storport\nf-storport-storportgetstartioperfparams.md">StorPortGetStartIoPerfParams</a> routine.
-
-
-## -syntax
-
-
-````
-typedef struct _STARTIO_PERFORMANCE_PARAMETERS {
-  ULONG Version;
-  ULONG Size;
-  ULONG MessageNumber;
-  ULONG ChannelNumber;
-} STARTIO_PERFORMANCE_PARAMETERS, *PSTARTIO_PERFORMANCE_PARAMETERS;
-````
+The <b>STARTIO_PERFORMANCE_PARAMETERS</b> structure describes the performance parameters that are returned to the miniport driver by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567099">StorPortGetStartIoPerfParams</a> routine.
 
 
 ## -struct-fields
@@ -93,12 +80,11 @@ Denotes the concurrent channel in which Storport is passing the I/O. If the mini
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetstartioperfparams.md">StorPortGetStartIoPerfParams</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567099">StorPortGetStartIoPerfParams</a>
  
 
  
-
 

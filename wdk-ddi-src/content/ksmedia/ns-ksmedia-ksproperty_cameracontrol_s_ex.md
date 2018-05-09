@@ -7,7 +7,7 @@ old-location: stream\ksproperty_cameracontrol_s_ex.htm
 old-project: stream
 ms.assetid: fa015adf-93b6-472f-8a78-a627a59c032e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_S_EX, KSPROPERTY_CAMERACONTROL_FLAGS_ASYNCHRONOUS, KSPROPERTY_CAMERACONTROL_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_FLAGS_MANUAL, KSPROPERTY_CAMERACONTROL_S_EX, KSPROPERTY_CAMERACONTROL_S_EX structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S_EX, PKSPROPERTY_CAMERACONTROL_S_EX structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S_EX, ksmedia/PKSPROPERTY_CAMERACONTROL_S_EX, stream.ksproperty_cameracontrol_s_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_S_EX
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_S_EX, *PKSPROPERTY_CAMERACONTROL_S_EX
 ---
@@ -52,20 +53,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_S_EX, *PKSPROPERTY_CAMERACONTROL_S_EX
 Specifies a camera control operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization. This structure describes filter-based properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a> property set.
 
 Supported starting with Windows 8.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  KSPROPERTY Property;
-  LONG       Value;
-  ULONG      Flags;
-  ULONG      Capabilities;
-  RECT       FocusRect;
-} KSPROPERTY_CAMERACONTROL_S_EX, *PKSPROPERTY_CAMERACONTROL_S_EX;
-````
 
 
 ## -struct-fields
@@ -137,16 +124,16 @@ If set, indicates that when the application submits a query, the driver should r
 
 <ul>
 <li>
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_flash_s.md">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151590">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
 </li>
 <li>
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_image_pin_capability_s.md">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj553707">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S</a>
 </li>
 <li>
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_region_of_interest_s.md">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151592">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S</a>
 </li>
 <li>
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_videostabilization_mode_s.md">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151594">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
 </li>
 </ul>
 
@@ -166,11 +153,10 @@ When a requested camera focus operation is completed or is canceled, the driver 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_videostabilization_mode_s.md">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
 
 
 
-<a href="..\ksmedia\ne-ksmedia-ksevent_cameracontrol.md">KSEVENT_CAMERACONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151587">KSEVENT_CAMERACONTROL</a>
 
 
 
@@ -178,20 +164,20 @@ When a requested camera focus operation is completed or is canceled, the driver 
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_region_of_interest_s.md">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151590">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_flash_s.md">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151592">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj151594">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

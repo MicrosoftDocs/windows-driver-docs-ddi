@@ -7,7 +7,7 @@ old-location: kernel\memory_basic_information.htm
 old-project: kernel
 ms.assetid: AFDDB789-E412-4EF7-8C77-2020EF81DF39
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, PAGE_EXECUTE, PAGE_GUARD, PAGE_NOACCESS, PAGE_NOCACHE, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOMBINE, PMEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _MEMORY_BASIC_INFORMATION, kernel.memory_basic_information, ntifs/MEMORY_BASIC_INFORMATION, ntifs/PMEMORY_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	MEMORY_BASIC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
 ---
@@ -50,23 +51,7 @@ req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
 
 
 Contains information about a range of pages in the virtual address space of a process. The 
-<a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a> routine uses this structure.
-
-
-## -syntax
-
-
-````
-typedef struct _MEMORY_BASIC_INFORMATION {
-  PVOID  BaseAddress;
-  PVOID  AllocationBase;
-  DWORD  AllocationProtect;
-  SIZE_T RegionSize;
-  DWORD  State;
-  DWORD  Protect;
-  DWORD  Type;
-} MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION;
-````
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957455">ZwQueryVirtualMemory</a> routine uses this structure.
 
 
 ## -struct-fields
@@ -301,12 +286,11 @@ Indicates that the memory pages within the region are private (that is, not shar
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwqueryvirtualmemory.md">ZwQueryVirtualMemory</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn957455">ZwQueryVirtualMemory</a>
  
 
  
-
 

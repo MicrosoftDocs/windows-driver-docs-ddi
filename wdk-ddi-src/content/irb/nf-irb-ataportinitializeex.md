@@ -7,7 +7,7 @@ old-location: storage\ataportinitializeex.htm
 old-project: storage
 ms.assetid: 578992cf-63eb-4b8e-b0cb-9caee5c534e1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: AtaPortInitializeEx, AtaPortInitializeEx routine [Storage Devices], atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, irb/AtaPortInitializeEx, storage.ataportinitializeex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	Pciidex.dll
 api_name:
 -	AtaPortInitializeEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: IDE_POWER_STATE
+req.typenames: 
 ---
 
 # AtaPortInitializeEx function
@@ -52,18 +53,6 @@ req.typenames: IDE_POWER_STATE
 
 The <b>AtaPortInitializeEx</b> ATA port driver library routine initializes the port and miniport drivers.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
-
-## -syntax
-
-
-````
-ULONG AtaPortInitializeEx(
-  _In_ PVOID                     DriverObject,
-  _In_ PVOID                     RegistryPath,
-  _In_ PIDE_CONTROLLER_INTERFACE ControllerInterface
-);
-````
-
 
 ## -parameters
 
@@ -101,7 +90,7 @@ Contains the entry points for the <b><i>AtaAdapterControl</i></b>, <b><i>AtaChan
 The <b>AtaPortInitializeEx</b> routine initializes key data structures that are used by the port and miniport drivers. It also starts the initialization of the controller's channels. The following sequence describes the principal actions taken by this routine:
 
 <ol>
-<li>While in its <a href="..\mcd\nf-mcd-driverentry.md">DriverEntry</a> routine, the miniport driver calls the port driver's <b>AtaPortInitializeEx</b> library routine and passes it the following key parameters: <ul>
+<li>While in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine, the miniport driver calls the port driver's <b>AtaPortInitializeEx</b> library routine and passes it the following key parameters: <ul>
 <li><i>ControllerInterface</i>: Contains the entry points for the <b><i>AtaAdapterControl</i></b>, <b><i>AtaChannelInitRoutine</i></b>, <b><i>AtaControllerChannelEnabled</i></b>, and <b><i>AtaControllerTransferModeSelect</i></b> routines.</li>
 </ul>
 </li>
@@ -130,15 +119,6 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550142">AtaControllerChannelEnabled</a>
-
-
-
-<a href="..\irb\ns-irb-_ide_controller_configuration.md">IDE_CONTROLLER_CONFIGURATION</a>
-
-
-
-<a href="..\mcd\nf-mcd-driverentry.md">DriverEntry</a>
 
 
 
@@ -146,8 +126,16 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550142">AtaControllerChannelEnabled</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559036">IDE_CONTROLLER_CONFIGURATION</a>
  
 
  
-
 

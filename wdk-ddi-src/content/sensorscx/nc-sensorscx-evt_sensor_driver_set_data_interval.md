@@ -7,8 +7,8 @@ old-location: sensors\evtsensorsetdatainterval.htm
 old-project: sensors
 ms.assetid: 56A1D005-C060-4C6E-8CA4-0BAC4FBADABE
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_INTERVAL, EvtSensorSetDataInterval, EvtSensorSetDataInterval callback function [Sensor Devices], sensors.evtsensorsetdatainterval, sensorscx/EvtSensorSetDataInterval
+ms.date: 4/30/2018
+ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_INTERVAL, EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback, EvtSensorSetDataInterval, EvtSensorSetDataInterval callback function [Sensor Devices], sensors.evtsensorsetdatainterval, sensorscx/EvtSensorSetDataInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,30 +38,19 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	EvtSensorSetDataInterval
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback
+# EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback function
 
 
 ## -description
 
 
 This callback function sets the data interval for a specified sensor.
-
-
-## -prototype
-
-
-````
-NTSTATUS EvtSensorSetDataInterval(
-  _In_ SENSOROBJECT Sensor,
-  _In_ PULONG       pDataRateMs
-);
-````
 
 
 ## -parameters

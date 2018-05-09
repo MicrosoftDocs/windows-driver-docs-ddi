@@ -7,8 +7,8 @@ old-location: display\dxgkcbmapmemory.htm
 old-project: display
 ms.assetid: 916a4d1d-0c40-4125-89ae-488251b04810
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKCB_MAP_MEMORY, DpFunctions_51d99a74-2fae-40b7-9e04-8afe0fc38805.xml, DxgkCbMapMemory, DxgkCbMapMemory callback function [Display Devices], display.dxgkcbmapmemory, dispmprt/DxgkCbMapMemory
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_MAP_MEMORY, DXGKCB_MAP_MEMORY callback, DpFunctions_51d99a74-2fae-40b7-9e04-8afe0fc38805.xml, DxgkCbMapMemory, DxgkCbMapMemory callback function [Display Devices], display.dxgkcbmapmemory, dispmprt/DxgkCbMapMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,37 +38,19 @@ api_location:
 -	dispmprt.h
 api_name:
 -	DxgkCbMapMemory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKCB_MAP_MEMORY callback
+# DXGKCB_MAP_MEMORY callback function
 
 
 ## -description
 
 
 The <b>DxgkCbMapMemory</b> function maps a range of translated physical addresses (associated with a memory resource assigned to a display adapter) into system space or the virtual address space of a user-mode process.
-
-
-## -prototype
-
-
-````
-DXGKCB_MAP_MEMORY DxgkCbMapMemory;
-
-NTSTATUS DxgkCbMapMemory(
-  _In_  HANDLE              DeviceHandle,
-  _In_  PHYSICAL_ADDRESS    TranslatedAddress,
-  _In_  ULONG               Length,
-  _In_  BOOLEAN             InIoSpace,
-  _In_  BOOLEAN             MapToUserMode,
-  _In_  MEMORY_CACHING_TYPE CacheType,
-  _Out_ PVOID               *VirtualAddress
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -78,12 +60,12 @@ NTSTATUS DxgkCbMapMemory(
 
 ### -param DeviceHandle [in]
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_device.md">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
 
 
 ### -param TranslatedAddress [in]
 
-The base translated physical address of the memory range to be mapped. The display miniport driver previously obtained this address by calling <a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>.
+The base translated physical address of the memory range to be mapped. The display miniport driver previously obtained this address by calling <a href="https://msdn.microsoft.com/cb627eab-93b9-49c5-bd35-4a57220366e7">DxgkCbGetDeviceInformation</a>.
 
 
 ### -param Length [in]
@@ -103,7 +85,7 @@ A Boolean value that specifies whether the range is mapped into user-mode space 
 
 ### -param CacheType [in]
 
-A <a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> enumerator that specifies the caching behavior of the mapped range.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_CACHING_TYPE</a> enumerator that specifies the caching behavior of the mapped range.
 
 
 ### -param *VirtualAddress [out]
@@ -150,12 +132,11 @@ The PHYSICAL_ADDRESS data type is defined in <i>Ntdef.h</i>.
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_CACHING_TYPE</a>
  
 
  
-
 

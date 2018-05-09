@@ -7,8 +7,8 @@ old-location: display\setpixelshader.htm
 old-project: display
 ms.assetid: b7ffd96d-086e-445a-89cf-6f34a5b8a5d4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_SETPIXELSHADER, SetPixelShader, SetPixelShader callback function [Display Devices], UserModeDisplayDriver_Functions_dd7fa75c-0753-4786-b04a-2fdd0d0e7071.xml, d3dumddi/SetPixelShader, display.setpixelshader
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETPIXELSHADER, PFND3DDDI_SETPIXELSHADER callback, SetPixelShader, SetPixelShader callback function [Display Devices], UserModeDisplayDriver_Functions_dd7fa75c-0753-4786-b04a-2fdd0d0e7071.xml, d3dumddi/SetPixelShader, display.setpixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	SetPixelShader
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETPIXELSHADER callback
+# PFND3DDDI_SETPIXELSHADER callback function
 
 
 ## -description
 
 
 The <i>SetPixelShader</i> function sets a pixel shader to be used in all drawing operations. 
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETPIXELSHADER SetPixelShader;
-
-__checkReturn HRESULT APIENTRY SetPixelShader(
-  _In_ HANDLE hDevice,
-  _In_ HANDLE hShaderHandle
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -76,7 +63,7 @@ __checkReturn HRESULT APIENTRY SetPixelShader(
  A handle to the display device (graphics context).
 
 
-### -param HANDLE
+### -param Arg1
 
 
 
@@ -112,12 +99,11 @@ For user-mode display drivers that support pixel shaders before version 2.0, the
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

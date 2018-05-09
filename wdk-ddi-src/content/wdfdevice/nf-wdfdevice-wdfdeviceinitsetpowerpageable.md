@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceInitSetPowerPageable
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceInitSetPowerPageable function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceInitSetPowerPageable</b> method informs the power manager that the driver must be able to access <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-pageable-code-in-a-kmdf-driver">pageable</a> data while the system is transitioning between a sleeping state and the working (S0) state. 
-
-
-## -syntax
-
-
-````
-VOID WdfDeviceInitSetPowerPageable(
-  _In_ PWDFDEVICE_INIT DeviceInit
-);
-````
 
 
 ## -parameters
@@ -91,17 +81,17 @@ None
 
 If your function driver or bus driver calls <b>WdfDeviceInitSetPowerPageable</b>, the system ensures that the paging file's device is in its working (D0) state when your driver's device <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/a-device-enters-a-low-power-state">enters a low-power state</a> or <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/a-device-returns-to-its-working-state">returns to its working state</a>. This allows your driver to access files, the registry, and paged pool during your device's power transitions. 
 
-By default, the framework enables access to pageable data for function drivers. The framework uses the parent device's setting for each child device that a bus driver enumerates, unless the bus driver calls either <b>WdfDeviceInitSetPowerPageable</b> or <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md">WdfDeviceInitSetPowerNotPageable</a> for the child device. If you write a bus driver that calls <b>WdfDeviceInitSetPowerPageable</b> for a child device, no drivers in the child device's stack can call <b>WdfDeviceInitSetPowerNotPageable</b>. 
+By default, the framework enables access to pageable data for function drivers. The framework uses the parent device's setting for each child device that a bus driver enumerates, unless the bus driver calls either <b>WdfDeviceInitSetPowerPageable</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546147">WdfDeviceInitSetPowerNotPageable</a> for the child device. If you write a bus driver that calls <b>WdfDeviceInitSetPowerPageable</b> for a child device, no drivers in the child device's stack can call <b>WdfDeviceInitSetPowerNotPageable</b>. 
 
-Calling <b>WdfDeviceInitSetPowerPageable</b> or <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md">WdfDeviceInitSetPowerNotPageable</a> from a filter driver has no effect. The framework uses the setting that the next-lower driver specifies.
+Calling <b>WdfDeviceInitSetPowerPageable</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546147">WdfDeviceInitSetPowerNotPageable</a> from a filter driver has no effect. The framework uses the setting that the next-lower driver specifies.
 
-Most drivers do not need to call <b>WdfDeviceInitSetPowerPageable</b> or <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md">WdfDeviceInitSetPowerNotPageable</a>. Instead, you should let the framework use the default setting that is appropriate for your driver. However, your driver should call <b>WdfDeviceInitSetPowerNotPageable</b> if the driver is part of a driver stack that must not access pageable data during power transitions (such as the storage stack or the video stack), or if the driver is a bus driver that enumerates devices that might be storage or video devices. 
+Most drivers do not need to call <b>WdfDeviceInitSetPowerPageable</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546147">WdfDeviceInitSetPowerNotPageable</a>. Instead, you should let the framework use the default setting that is appropriate for your driver. However, your driver should call <b>WdfDeviceInitSetPowerNotPageable</b> if the driver is part of a driver stack that must not access pageable data during power transitions (such as the storage stack or the video stack), or if the driver is a bus driver that enumerates devices that might be storage or video devices. 
 
-If your driver calls <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowerinrush.md">WdfDeviceInitSetPowerInrush</a>, it must not call <b>WdfDeviceInitSetPowerPageable</b>. 
+If your driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff546142">WdfDeviceInitSetPowerInrush</a>, it must not call <b>WdfDeviceInitSetPowerPageable</b>. 
 
-Your driver must call <b>WdfDeviceInitSetPowerPageable</b> before it calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>.
+Your driver must call <b>WdfDeviceInitSetPowerPageable</b> before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>.
 
-For more information about calling <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+For more information about calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
 #### Examples
@@ -123,12 +113,11 @@ The following code example informs the power manager that a driver must be able 
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetpowernotpageable.md">WdfDeviceInitSetPowerNotPageable</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546147">WdfDeviceInitSetPowerNotPageable</a>
  
 
  
-
 

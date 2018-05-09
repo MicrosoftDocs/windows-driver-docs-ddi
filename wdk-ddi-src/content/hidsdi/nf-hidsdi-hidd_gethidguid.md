@@ -7,7 +7,7 @@ old-location: hid\hidd_gethidguid.htm
 old-project: hid
 ms.assetid: 552b607e-65c7-4595-9adb-b9c2f4301afd
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidD_GetHidGuid, HidD_GetHidGuid routine [Human Input Devices], hid.hidd_gethidguid, hidfunc_61242b6f-b794-48c7-84b8-ef8d0d4e69af.xml, hidsdi/HidD_GetHidGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Hid.dll
 api_name:
 -	HidD_GetHidGuid
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
+req.typenames: 
 ---
 
 # HidD_GetHidGuid function
@@ -50,16 +51,6 @@ req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
 
 
 The <b>HidD_GetHidGuid</b> routine returns the <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device interface</a><a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a> for HIDClass devices.
-
-
-## -syntax
-
-
-````
-void __stdcall HidD_GetHidGuid(
-  _Out_ LPGUID HidGuid
-);
-````
 
 
 ## -parameters
@@ -94,12 +85,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549186">IoGetDeviceInterfaces</a>
  
 
  
-
 

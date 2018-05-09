@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.OutputSymbolByOffset
-title: IDebugSymbols3::OutputSymbolByOffset method
+title: IDebugSymbols3::OutputSymbolByOffset
 author: windows-driver-content
 description: The OutputSymbolByOffset method looks up a symbol by address and prints the symbol name and other symbol information to the debugger console.
 old-location: debugger\outputsymbolbyoffset.htm
 old-project: debugger
 ms.assetid: a9b3ac31-2001-45cc-a917-de687419b561
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], OutputSymbolByOffset method, IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, OutputSymbolByOffset method [Windows Debugging], OutputSymbolByOffset method [Windows Debugging], IDebugSymbols3 interface, OutputSymbolByOffset,IDebugSymbols3.OutputSymbolByOffset, dbgeng/IDebugSymbols3::OutputSymbolByOffset, debugger.outputsymbolbyoffset
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols3 interface [Windows Debugging],OutputSymbolByOffset method, IDebugSymbols3.OutputSymbolByOffset, IDebugSymbols3::OutputSymbolByOffset, IDebugSymbols_45f0a841-85cf-4be8-82bc-e962b5af2f5d.xml, OutputSymbolByOffset, OutputSymbolByOffset method [Windows Debugging], OutputSymbolByOffset method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::OutputSymbolByOffset, debugger.outputsymbolbyoffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.OutputSymbolByOffset
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::OutputSymbolByOffset method
+# IDebugSymbols3::OutputSymbolByOffset
 
 
 ## -description
 
 
 The <b>OutputSymbolByOffset</b> method looks up a symbol by address and prints the symbol name and other symbol information to the debugger console.
-
-
-## -syntax
-
-
-````
-HRESULT OutputSymbolByOffset(
-  [in] ULONG   OutputControl,
-  [in] ULONG   Flags,
-  [in] ULONG64 Offset
-);
-````
 
 
 ## -parameters
@@ -176,7 +165,6 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -184,8 +172,8 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

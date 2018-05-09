@@ -7,7 +7,7 @@ old-location: ifsk\open_reparse_list.htm
 old-project: ifsk
 ms.assetid: 2477F904-A470-4FB0-83D8-0264A4838C12
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*POPEN_REPARSE_LIST, OPEN_REPARSE_LIST, OPEN_REPARSE_LIST structure [Installable File System Drivers], POPEN_REPARSE_LIST, POPEN_REPARSE_LIST structure pointer [Installable File System Drivers], _OPEN_REPARSE_LIST, ifsk.open_reparse_list, ntifs/OPEN_REPARSE_LIST, ntifs/POPEN_REPARSE_LIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntifs.h
 api_name:
 -	OPEN_REPARSE_LIST
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OPEN_REPARSE_LIST, *POPEN_REPARSE_LIST
 ---
@@ -51,16 +52,6 @@ req.typenames: OPEN_REPARSE_LIST, *POPEN_REPARSE_LIST
 
  Points to a list of <b>OPEN_REPARSE_LIST_ENTRY</b>
   structures that specify the tag and possibly GUID that should be  opened directly without returning <b>STATUS_REPARSE</b>.
-
-
-## -syntax
-
-
-````
-typedef struct _OPEN_REPARSE_LIST {
-  LIST_ENTRY OpenReparseList;
-} OPEN_REPARSE_LIST, *POPEN_REPARSE_LIST;
-````
 
 
 ## -struct-fields

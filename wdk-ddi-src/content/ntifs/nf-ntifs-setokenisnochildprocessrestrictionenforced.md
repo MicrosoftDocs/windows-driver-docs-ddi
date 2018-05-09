@@ -7,7 +7,7 @@ old-location: ifsk\setokenisnochildprocessrestrictionenforced.htm
 old-project: ifsk
 ms.assetid: 6D214346-8CE6-4E9C-B054-1C72B928ED2B
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: SeTokenIsNoChildProcessRestrictionEnforced, SeTokenIsNoChildProcessRestrictionEnforced function [Installable File System Drivers], ifsk.setokenisnochildprocessrestrictionenforced, ntifs/SeTokenIsNoChildProcessRestrictionEnforced
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	SeTokenIsNoChildProcessRestrictionEnforced
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # SeTokenIsNoChildProcessRestrictionEnforced function
@@ -50,17 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>SeTokenIsNoChildProcessRestrictionEnforced</b> routine determines if the token carries the no child process restriction.
-
-
-## -syntax
-
-
-````
-BOOLEAN NTKERNELAPI SeTokenIsNoChildProcessRestrictionEnforced(
-  _In_      PACCESS_TOKEN Token,
-  _Out_opt_ PBOOLEAN      UnlessSecure
-);
-````
 
 
 ## -parameters

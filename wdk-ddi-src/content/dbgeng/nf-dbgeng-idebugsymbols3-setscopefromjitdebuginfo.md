@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetScopeFromJitDebugInfo
-title: IDebugSymbols3::SetScopeFromJitDebugInfo method
+title: IDebugSymbols3::SetScopeFromJitDebugInfo
 author: windows-driver-content
 description: Recovers just-in-time (JIT) debugging information and sets current debugger scope context based on that information.
 old-location: debugger\idebugsymbols3_setscopefromjitdebuginfo.htm
 old-project: debugger
 ms.assetid: 75417373-AA1B-4297-863A-00EA97069573
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetScopeFromJitDebugInfo method, IDebugSymbols3::SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo method [Windows Debugging], SetScopeFromJitDebugInfo method [Windows Debugging], IDebugSymbols3 interface, SetScopeFromJitDebugInfo,IDebugSymbols3.SetScopeFromJitDebugInfo, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, debugger.idebugsymbols3_setscopefromjitdebuginfo
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetScopeFromJitDebugInfo method, IDebugSymbols3.SetScopeFromJitDebugInfo, IDebugSymbols3::SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo method [Windows Debugging], SetScopeFromJitDebugInfo method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, debugger.idebugsymbols3_setscopefromjitdebuginfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,12 +38,13 @@ api_location:
 -	Dbgeng.h
 api_name:
 -	IDebugSymbols3.SetScopeFromJitDebugInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::SetScopeFromJitDebugInfo method
+# IDebugSymbols3::SetScopeFromJitDebugInfo
 
 
 ## -description
@@ -51,17 +52,6 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 Recovers just-in-time (JIT) debugging information and sets current
     debugger scope context based on that information.
-
-
-## -syntax
-
-
-````
-HRESULT SetScopeFromJitDebugInfo(
-  [in] ULONG   OutputControl,
-  [in] ULONG64 InfoOffset
-);
-````
 
 
 ## -parameters
@@ -95,12 +85,11 @@ This method is equivalent to '.jdinfo' command.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

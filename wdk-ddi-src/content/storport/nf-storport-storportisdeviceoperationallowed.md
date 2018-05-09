@@ -7,7 +7,7 @@ old-location: storage\storportisdeviceoperationallowed.htm
 old-project: storage
 ms.assetid: 2FA71DC1-8068-42E3-A5C0-903858E496FA
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID, StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], storage.storportisdeviceoperationallowed, storport/StorPortIsDeviceOperationAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortIsDeviceOperationAllowed
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortIsDeviceOperationAllowed function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 A miniport driver can call the <b>StorPortIsDeviceOperationAllowedminiport</b> routine to determine if operations for a certain device management      class are allowed. A status value is set in the return parameter to indicate whether such operations are allowed or not allowed for the device in its current operating environment.
-
-
-## -syntax
-
-
-````
-ULONG StorPortIsDeviceOperationAllowed(
-  _In_  PVOID         HwDeviceExtension,
-  _In_  PSTOR_ADDRESS Address,
-  _In_  LPCGUID       DeviceOperation,
-  _Out_ ULONG         *AllowedFlag
-);
-````
 
 
 ## -parameters

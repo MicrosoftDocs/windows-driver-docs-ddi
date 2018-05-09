@@ -7,7 +7,7 @@ old-location: stream\ksadditemtoobjectbag.htm
 old-project: stream
 ms.assetid: 4c8b6252-8438-4cd1-81e0-02c260da0daf
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsAddItemToObjectBag, KsAddItemToObjectBag function [Streaming Media Devices], avfunc_c7496331-05a5-4336-9c62-144e2db6e218.xml, ks/KsAddItemToObjectBag, stream.ksadditemtoobjectbag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsAddItemToObjectBag
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,18 +54,6 @@ req.typenames:
 The<b> KsAddItemToObjectBag</b> function adds an object or block of memory to the given object bag. 
 
 
-## -syntax
-
-
-````
-NTSTATUS KsAddItemToObjectBag(
-  _In_     KSOBJECT_BAG ObjectBag,
-  _In_     PVOID        Item,
-  _In_opt_ PFNKSFREE    Free
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +61,7 @@ NTSTATUS KsAddItemToObjectBag(
 
 ### -param ObjectBag [in]
 
-The KSOBJECT_BAG (equivalent to type PVOID) to which to add the requested item. Every AVStream object (for example, <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a> and <a href="..\ks\ns-ks-_kspin.md">KSPIN</a>) contains a member called <i>Bag</i>. Pass that member in this parameter.
+The KSOBJECT_BAG (equivalent to type PVOID) to which to add the requested item. Every AVStream object (for example, <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>) contains a member called <i>Bag</i>. Pass that member in this parameter.
 
 
 ### -param Item [in]
@@ -94,7 +83,7 @@ A function that is called when the item is removed from the object bag or when t
 </td>
 </tr>
 </table></span></div>
-If the caller does not specify this optional parameter, <i>Item</i> is freed with <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> when removed from the object bag or when the object bag is deleted.
+If the caller does not specify this optional parameter, <i>Item</i> is freed with <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a> when removed from the object bag or when the object bag is deleted.
 
 
 ## -returns
@@ -110,7 +99,7 @@ Either returns STATUS_SUCCESS indicating that the addition went normally or STAT
 
 
 
-Before calling <b>KsAddItemToObjectBag</b>, the minidriver must acquire the mutex associated with the specific object bag. If <i>ObjectBag</i> is a member of a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> or <a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>, acquire the device mutex. If the bag is a member of a <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>, acquire the filter control mutex. If the bag is a member of a <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> object, acquire the parent KSFILTER's filter control mutex.
+Before calling <b>KsAddItemToObjectBag</b>, the minidriver must acquire the mutex associated with the specific object bag. If <i>ObjectBag</i> is a member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>, acquire the device mutex. If the bag is a member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>, acquire the filter control mutex. If the bag is a member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> object, acquire the parent KSFILTER's filter control mutex.
 
 For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a> and <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
 
@@ -119,36 +108,35 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksallocateobjectbag.md">KsAllocateObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksfreeobjectbag.md">KsFreeObjectBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560965">KsAllocateObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-_ksedit.md">_KsEdit</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561031">KsCopyObjectBagItems</a>
 
 
 
-<a href="..\ks\nf-ks-kscopyobjectbagitems.md">KsCopyObjectBagItems</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561695">KsDiscard</a>
 
 
 
-<a href="..\ks\nf-ks-ksremoveitemfromobjectbag.md">KsRemoveItemFromObjectBag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562562">KsFreeObjectBag</a>
 
 
 
-<a href="..\ks\nf-ks-ksdiscard.md">KsDiscard</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566798">KsRemoveItemFromObjectBag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568796">_KsEdit</a>
  
 
  
-
 

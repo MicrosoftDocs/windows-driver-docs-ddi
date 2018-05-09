@@ -7,7 +7,7 @@ old-location: kernel\process_readwritevm_logging_information.htm
 old-project: kernel
 ms.assetid: F1C769FD-D05F-4C23-A91E-FAEE8EA029EC
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION, PPROCESS_READWRITEVM_LOGGING_INFORMATION union pointer [Kernel-Mode Driver Architecture], PROCESS_READWRITEVM_LOGGING_INFORMATION, PROCESS_READWRITEVM_LOGGING_INFORMATION union [Kernel-Mode Driver Architecture], _PROCESS_READWRITEVM_LOGGING_INFORMATION, kernel.process_readwritevm_logging_information, ntddk/PPROCESS_READWRITEVM_LOGGING_INFORMATION, ntddk/PROCESS_READWRITEVM_LOGGING_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	PROCESS_READWRITEVM_LOGGING_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PROCESS_READWRITEVM_LOGGING_INFORMATION, *PPROCESS_READWRITEVM_LOGGING_INFORMATION
 ---
@@ -52,21 +53,6 @@ req.typenames: PROCESS_READWRITEVM_LOGGING_INFORMATION, *PPROCESS_READWRITEVM_LO
 Stores options for read/write access for  telemetry per process. 
 
 
-## -syntax
-
-
-````
-typedef union _PROCESS_READWRITEVM_LOGGING_INFORMATION {
-  UCHAR Flags;
-  struct {
-    UCHAR EnableReadVmLogging  :1;
-    UCHAR EnableWriteVmLogging  :1;
-    UCHAR Unused  :6;
-  };
-} PROCESS_READWRITEVM_LOGGING_INFORMATION, *PPROCESS_READWRITEVM_LOGGING_INFORMATION;
-````
-
-
 ## -struct-fields
 
 
@@ -77,17 +63,17 @@ typedef union _PROCESS_READWRITEVM_LOGGING_INFORMATION {
 Reserved.
 
 
-#### - EnableReadVmLogging
+### -field EnableReadVmLogging
 
 Enables or disables read access. Non-zero values enables telemetry, zero disables it.
 
 
-#### - EnableWriteVmLogging
+### -field EnableWriteVmLogging
 
 Enables or disables write access. Non-zero values enables telemetry, zero disables it.
 
 
-#### - Unused
+### -field Unused
 
 Do not use.
 

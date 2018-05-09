@@ -7,7 +7,7 @@ old-location: spb\spbcontrollersetioothercallback.htm
 old-project: SPB
 ms.assetid: 605E2353-8C82-4005-BB72-4CB44146A253
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbcontrollersetioothercallback, SpbControllerSetIoOtherCallback, SpbControllerSetIoOtherCallback method [Buses], spbcx/SpbControllerSetIoOtherCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	spbcxstubs.dll
 api_name:
 -	SpbControllerSetIoOtherCallback
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpbControllerSetIoOtherCallback function
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>SpbControllerSetIoOtherCallback</b> method registers an SPB controller driver's <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a> callback function.
-
-
-## -syntax
-
-
-````
-VOID SpbControllerSetIoOtherCallback(
-  _In_     WDFDEVICE                    FxDevice,
-  _In_     PFN_SPB_CONTROLLER_IO_OTHER  EvtSpbControllerIoOther,
-  _In_opt_ PFN_WDF_IO_IN_CALLER_CONTEXT EvtIoInCallerContext
-);
-````
 
 
 ## -parameters
@@ -83,7 +71,7 @@ A pointer to an <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891
 
 ### -param EvtIoInCallerContext [in, optional]
 
-A pointer to an <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> callback function that is called when an I/O control request first arrives at the controller's I/O queue, and the request contains an IOCTL code that the SPB framework extension (SpbCx) does not recognize. This callback runs in the process context of the request originator, and can preprocess requests that will later be processed by the <i>EvtSpbControllerIoOther</i> callback. This parameter is optional and can be specified as NULL if no such preprocessing is required. For more information, see the following Remarks section.
+A pointer to an <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> callback function that is called when an I/O control request first arrives at the controller's I/O queue, and the request contains an IOCTL code that the SPB framework extension (SpbCx) does not recognize. This callback runs in the process context of the request originator, and can preprocess requests that will later be processed by the <i>EvtSpbControllerIoOther</i> callback. This parameter is optional and can be specified as NULL if no such preprocessing is required. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -107,7 +95,7 @@ However, by calling <b>SpbControllerSetIoOtherCallback</b>, the SPB controller d
 
 For a list of the IOCTLs that SpbCx supports, see <a href="https://msdn.microsoft.com/EED1CBA4-8691-4BEA-89CB-F93DD7E1874F">SpbCx I/O Control Codes</a>.
 
-The optional <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a> callback function runs in the process context of the request originator, and can preprocess context-dependent request parameters, such as buffer pointers, before the request is passed to the <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a> callback function.  When the <i>EvtIoInCallerContext</i> function is called, any per-request context that the SPB controller driver requested in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh450908">SpbControllerSetRequestAttributes</a> will already be allocated and assigned to the request.
+The optional <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> callback function runs in the process context of the request originator, and can preprocess context-dependent request parameters, such as buffer pointers, before the request is passed to the <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a> callback function.  When the <i>EvtIoInCallerContext</i> function is called, any per-request context that the SPB controller driver requested in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh450908">SpbControllerSetRequestAttributes</a> will already be allocated and assigned to the request.
 
 The SPB controller driver must call this method before it <i>commits</i> the device object—that is, before it returns from the <i>EvtDriverDeviceAdd</i> callback or adds the PDO to the controller's child list. The child list represents the devices that are attached to the bus. For more information, see <a href="https://msdn.microsoft.com/5731db82-2bc8-4a8d-98f1-3977845f572c">Enumerating the Devices on a Bus</a>.
 
@@ -116,7 +104,10 @@ The SPB controller driver must call this method before it <i>commits</i> the dev
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450908">SpbControllerSetRequestAttributes</a>
+
+
+
+<a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a>
 
 
 
@@ -124,12 +115,8 @@ The SPB controller driver must call this method before it <i>commits</i> the dev
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450908">SpbControllerSetRequestAttributes</a>
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: storage\ioctl_changer_set_access.htm
 old-project: storage
 ms.assetid: 8927e862-94e4-45ce-9245-5c6f5629fc01
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_CHANGER_SET_ACCESS, IOCTL_CHANGER_SET_ACCESS control code [Storage Devices], k307_08d52a8e-d7a0-42c6-92f9-c5099670473c.xml, ntddchgr/IOCTL_CHANGER_SET_ACCESS, storage.ioctl_changer_set_access
+ms.date: 3/29/2018
+ms.keywords: IOCTL_CHANGER_SET_ACCESS, IOCTL_CHANGER_SET_ACCESS control, IOCTL_CHANGER_SET_ACCESS control code [Storage Devices], k307_08d52a8e-d7a0-42c6-92f9-c5099670473c.xml, ntddchgr/IOCTL_CHANGER_SET_ACCESS, storage.ioctl_changer_set_access
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddchgr.h
 api_name:
 -	IOCTL_CHANGER_SET_ACCESS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_CHANGER_SET_ACCESS IOCTL
@@ -63,7 +64,7 @@ Sets the state of the device's import/export port (IEport), door, or keypad.
 ### -input-buffer
 
 
-       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="..\ntddchgr\ns-ntddchgr-_changer_set_access.md">CHANGER_SET_ACCESS</a> structure indicating the element and the operation to perform.
+       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551481">CHANGER_SET_ACCESS</a> structure indicating the element and the operation to perform.
 
 
 ### -input-buffer-length
@@ -106,16 +107,15 @@ The <b>Information</b> field is set to the number of bytes set. The <b>Status</b
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_set_access.md">CHANGER_SET_ACCESS</a>
 
 
 
-<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551481">CHANGER_SET_ACCESS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551447">ChangerSetAccess</a>
  
 
  
-
 

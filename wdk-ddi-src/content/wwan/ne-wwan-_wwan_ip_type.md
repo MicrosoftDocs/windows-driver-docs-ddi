@@ -7,7 +7,7 @@ old-location: netvista\wwan_ip_type.htm
 old-project: netvista
 ms.assetid: E4CE7BE7-021A-4C9A-B467-B63AACEC1266
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_IP_TYPE, WWAN_IP_TYPE, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanIPTypeDefault, WwanIPTypeIPv4, WwanIPTypeIPv6, WwanIPTypeIpv4v6, _WWAN_IP_TYPE, netvista.wwan_ip_type, wwan/WWAN_IP_TYPE, wwan/WwanIPTypeDefault, wwan/WwanIPTypeIPv4, wwan/WwanIPTypeIPv6, wwan/WwanIPTypeIpv4v6"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_IP_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_IP_TYPE, *PWWAN_IP_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_IP_TYPE enumeration
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_IP_TYPE enumeration lists the different levels of supported IP.
-
-
-## -syntax
-
-
-````
-typedef enum _WWAN_IP_TYPE { 
-  WwanIPTypeDefault  = 0,
-  WwanIPTypeIPv4     = ,
-  WwanIPTypeIPv6     = ,
-  WwanIPTypeIpv4v6   = 
-} WWAN_IP_TYPE;
-````
 
 
 ## -enum-fields
@@ -98,16 +85,15 @@ IPv4 with IPv6
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_context_state.md">WWAN_CONTEXT_STATE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571202">WWAN_CONTEXT_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571235">WWAN_SET_CONTEXT_STATE</a>
  
 
  
-
 

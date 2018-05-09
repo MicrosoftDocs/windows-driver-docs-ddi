@@ -7,7 +7,7 @@ old-location: stream\ksproperty_cameracontrol_node_focal_length_s.htm
 old-project: stream
 ms.assetid: 7562f84d-aac2-48b6-bae2-518d1f58f71f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, ksmedia/PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, stream.ksproperty_cameracontrol_node_focal_length_s, vidcapstruct_0eb477eb-b320-4055-b4aa-1e378ae202b1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, *PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S
 ---
@@ -52,19 +53,6 @@ req.typenames: KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, *PKSPROPERTY_CAMERA
 The KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure returns node-specific data requested using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564406">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH</a> property.
 
 
-## -syntax
-
-
-````
-typedef struct {
-  KSNODEPROPERTY NodeProperty;
-  LONG           lOcularFocalLength;
-  LONG           lObjectiveFocalLengthMin;
-  LONG           lObjectiveFocalLengthMax;
-} KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S, *PKSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct {
 
 ### -field NodeProperty
 
-Specifies both the target node and the property to <i>get</i>. This member is an initialized structure of type <a href="..\ksmedia\ns-ksmedia-ksnodeproperty.md">KSNODEPROPERTY</a>.
+Specifies both the target node and the property to <i>get</i>. This member is an initialized structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537143">KSNODEPROPERTY</a>.
 
 
 ### -field lOcularFocalLength
@@ -101,6 +89,9 @@ If the camera has only one lens, these values can be used to represent zoom rati
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
@@ -109,16 +100,12 @@ If the camera has only one lens, these values can be used to represent zoom rati
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564408">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_focal_length_s.md">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S</a>
-
-
-
  
 
  
-
 

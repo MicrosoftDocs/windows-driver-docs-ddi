@@ -7,7 +7,7 @@ old-location: stream\ksgetimagenameandresourceid.htm
 old-project: stream
 ms.assetid: e73c885c-94e2-42cf-ace6-1b7b62aa33f5
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGetImageNameAndResourceId, KsGetImageNameAndResourceId function [Streaming Media Devices], ks/KsGetImageNameAndResourceId, ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml, stream.ksgetimagenameandresourceid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsGetImageNameAndResourceId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,19 +52,6 @@ req.typenames:
 
 
 The <b>KsGetImageNameAndResourceId</b> function returns the image name and resource identifier that corresponds to the <i>RegKey </i>handle. 
-
-
-## -syntax
-
-
-````
-NTSTATUS KsGetImageNameAndResourceId(
-  _In_  HANDLE          RegKey,
-  _Out_ PUNICODE_STRING ImageName,
-  _Out_ PULONG_PTR      ResourceId,
-  _Out_ PULONG          ValueType
-);
-````
 
 
 ## -parameters
@@ -102,12 +90,11 @@ Pointer to a location into which the function returns the value type of the spec
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksmapmodulename.md">KsMapModuleName</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563391">KsMapModuleName</a>
  
 
  
-
 

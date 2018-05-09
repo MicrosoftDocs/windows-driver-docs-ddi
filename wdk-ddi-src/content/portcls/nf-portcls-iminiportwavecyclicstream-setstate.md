@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWaveCyclicStream.SetState
-title: IMiniportWaveCyclicStream::SetState method
+title: IMiniportWaveCyclicStream::SetState
 author: windows-driver-content
 description: The SetState method sets the new state of playback or recording for the stream.
 old-location: audio\iminiportwavecyclicstream_setstate.htm
 old-project: audio
 ms.assetid: 61d7252e-04af-46f1-a885-4720698ae930
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IMiniportWaveCyclicStream, IMiniportWaveCyclicStream interface [Audio Devices], SetState method, IMiniportWaveCyclicStream::SetState, SetState method [Audio Devices], SetState method [Audio Devices], IMiniportWaveCyclicStream interface, SetState,IMiniportWaveCyclicStream.SetState, audio.iminiportwavecyclicstream_setstate, audmp-routines_46474aab-87da-4121-9cb8-ee8b280c7852.xml, portcls/IMiniportWaveCyclicStream::SetState
+ms.date: 4/16/2018
+ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],SetState method, IMiniportWaveCyclicStream.SetState, IMiniportWaveCyclicStream::SetState, SetState, SetState method [Audio Devices], SetState method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_setstate, audmp-routines_46474aab-87da-4121-9cb8-ee8b280c7852.xml, portcls/IMiniportWaveCyclicStream::SetState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	portcls.h
 api_name:
 -	IMiniportWaveCyclicStream.SetState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWaveCyclicStream::SetState method
+# IMiniportWaveCyclicStream::SetState
 
 
 ## -description
 
 
 The <code>SetState</code> method sets the new state of playback or recording for the stream.
-
-
-## -syntax
-
-
-````
-NTSTATUS SetState(
-  [in] KSSTATE State
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ NTSTATUS SetState(
 
 ### -param State [in]
 
-Specifies the new state for the stream. This parameter is a <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
+Specifies the new state for the stream. This parameter is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -85,7 +76,7 @@ Specifies the new state for the stream. This parameter is a <a href="..\ks\ne-ks
 
 
 
-For an audio filter graph, the four <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumeration values are interpreted as follows:
+For an audio filter graph, the four <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a> enumeration values are interpreted as follows:
 
 <ul>
 <li>
@@ -134,15 +125,14 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMini
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
 
 
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-
-
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536715">IMiniportWaveCyclicStream</a>
 
 
 
@@ -150,8 +140,8 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMini
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>
  
 
  
-
 

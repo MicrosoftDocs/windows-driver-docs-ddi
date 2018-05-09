@@ -7,7 +7,7 @@ old-location: display\d3dddi_executionstateescape.htm
 old-project: display
 ms.assetid: 9BA78743-91AA-4AAC-9FB3-CF8B30FC15AE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], _D3DDDI_EXECUTIONSTATEESCAPE, d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE, display.d3dddi_executionstateescape
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dumddi.h
 api_name:
 -	D3DDDI_EXECUTIONSTATEESCAPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_EXECUTIONSTATEESCAPE
 ---
@@ -52,16 +53,6 @@ req.typenames: D3DDDI_EXECUTIONSTATEESCAPE
 Specifies the state of the device.
 
 
-## -syntax
-
-
-````
-typedef struct _D3DDDI_EXECUTIONSTATEESCAPE {
-  D3DDDI_DEVICEEXECUTION_STATE State;
-} D3DDDI_EXECUTIONSTATEESCAPE;
-````
-
-
 ## -struct-fields
 
 
@@ -69,17 +60,16 @@ typedef struct _D3DDDI_EXECUTIONSTATEESCAPE {
 
 ### -field State
 
-[Out] A value of type <a href="..\d3dumddi\ne-d3dumddi-_d3dddi_deviceexecution_state.md">D3DDDI_DEVICEEXECUTION_STATE</a> that indicates the state of the device.
+[Out] A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn482416">D3DDDI_DEVICEEXECUTION_STATE</a> that indicates the state of the device.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ne-d3dumddi-_d3dddi_deviceexecution_state.md">D3DDDI_DEVICEEXECUTION_STATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn482416">D3DDDI_DEVICEEXECUTION_STATE</a>
  
 
  
-
 

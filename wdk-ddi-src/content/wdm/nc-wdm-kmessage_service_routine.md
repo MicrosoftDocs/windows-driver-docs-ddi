@@ -7,7 +7,7 @@ old-location: kernel\interruptmessageservice.htm
 old-project: kernel
 ms.assetid: f84e1835-33a4-4300-8701-ed73249f8119
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: DrvrRtns_1f39517a-fa8b-44a4-9e6c-2ecc428cd416.xml, InterruptMessageService, InterruptMessageService routine [Kernel-Mode Driver Architecture], KMESSAGE_SERVICE_ROUTINE, kernel.interruptmessageservice, wdm/InterruptMessageService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,34 +38,19 @@ api_location:
 -	Wdm.h
 api_name:
 -	InterruptMessageService
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# KMESSAGE_SERVICE_ROUTINE callback
+# KMESSAGE_SERVICE_ROUTINE callback function
 
 
 ## -description
 
 
 An <i>InterruptMessageService</i> routine services a message-signaled interrupt.
-
-
-## -prototype
-
-
-````
-KMESSAGE_SERVICE_ROUTINE InterruptMessageService;
-
-BOOLEAN InterruptMessageService(
-  _In_ struct _KINTERRUPT *Interrupt,
-  _In_ PVOID              ServiceContext,
-  _In_ ULONG              MessageId
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -75,12 +60,12 @@ BOOLEAN InterruptMessageService(
 
 ### -param Interrupt [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> structure for the interrupt. The driver received this pointer in the call to the <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> routine that registered the driver's <i>InterruptMessageService</i> routine.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> structure for the interrupt. The driver received this pointer in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> routine that registered the driver's <i>InterruptMessageService</i> routine.
 
 
 ### -param ServiceContext [in]
 
-The <i>ServiceContext</i> value that the driver passed to <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> when the <i>InterruptMessageService</i> routine was registered.
+The <i>ServiceContext</i> value that the driver passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> when the <i>InterruptMessageService</i> routine was registered.
 
 
 ### -param MessageID
@@ -94,7 +79,7 @@ The <i>ServiceContext</i> value that the driver passed to <a href="..\wdm\nf-wdm
 
 #### - MessageId [in]
 
-The message ID for the interrupt. This value is the index for the interrupt's entry in the <b>MessageInfo</b> member array in the <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a> structure that describes the driver's message-signaled interrupts.
+The message ID for the interrupt. This value is the index for the interrupt's entry in the <b>MessageInfo</b> member array in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a> structure that describes the driver's message-signaled interrupts.
 
 
 ## -returns
@@ -110,7 +95,7 @@ The <i>InterruptMessageService</i> routine returns <b>TRUE</b> if the interrupt 
 
 
 
-Drivers use <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a> to register an <i>InterruptMessageService</i> routine to handle their message-signaled interrupts. A driver can subsequently unregister the routine by calling <a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>. Message-signaled interrupts are supported starting with Windows Vista.
+Drivers use <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> to register an <i>InterruptMessageService</i> routine to handle their message-signaled interrupts. A driver can subsequently unregister the routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549093">IoDisconnectInterruptEx</a>. Message-signaled interrupts are supported starting with Windows Vista.
 
 The system can call an <i>InterruptMessageService</i> routine even when the routine's interrupt has not occurred. For example, if a message-signaled interrupt is shared, <i>InterruptMessageService</i> can be called for interrupts belonging to other devices. The routine must check whether the value for the <i>ServiceContext</i> parameter matches the value passed to <b>IoConnectInterruptEx</b>. If the value does match, <i>InterruptMessageService</i> handles the interrupt and returns <b>TRUE</b>. Otherwise, <i>InterruptMessageService</i> does not handle the interrupt and returns <b>FALSE</b>.
 
@@ -166,20 +151,19 @@ The KMESSAGE_SERVICE_ROUTINE function type is defined in the Wdm.h header file. 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549093">IoDisconnectInterruptEx</a>
  
 
  
-
 

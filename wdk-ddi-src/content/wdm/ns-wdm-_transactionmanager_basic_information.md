@@ -7,7 +7,7 @@ old-location: kernel\transactionmanager_basic_information.htm
 old-project: kernel
 ms.assetid: bffa1bd2-143c-4d32-a886-0a2e82320dc8
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PTRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_BASIC_INFORMATION, TRANSACTIONMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTIONMANAGER_BASIC_INFORMATION, kernel.transactionmanager_basic_information, ktm_ref_0b404d6e-efa9-4f37-a14f-4e8fcdc2c6e5.xml, wdm/PTRANSACTIONMANAGER_BASIC_INFORMATION, wdm/TRANSACTIONMANAGER_BASIC_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	TRANSACTIONMANAGER_BASIC_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: TRANSACTIONMANAGER_BASIC_INFORMATION, *PTRANSACTIONMANAGER_BASIC_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _TRANSACTIONMANAGER_BASIC_INFORMATION structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>TRANSACTIONMANAGER_BASIC_INFORMATION</b> structure contains information about a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a>.
-
-
-## -syntax
-
-
-````
-typedef struct _TRANSACTIONMANAGER_BASIC_INFORMATION {
-  GUID          TmIdentity;
-  LARGE_INTEGER VirtualClock;
-} TRANSACTIONMANAGER_BASIC_INFORMATION, *PTRANSACTIONMANAGER_BASIC_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -83,23 +72,22 @@ The <a href="https://msdn.microsoft.com/de01b0f1-86b1-4e7d-af22-84dbbe3a3f83">vi
 
 
 
-The <b>TRANSACTIONMANAGER_BASIC_INFORMATION</b> structure is used with the <a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a> routine.
+The <b>TRANSACTIONMANAGER_BASIC_INFORMATION</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567058">ZwQueryInformationTransactionManager</a> routine.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_transactionmanager_information_class.md">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564762">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567058">ZwQueryInformationTransactionManager</a>
  
 
  
-
 

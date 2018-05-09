@@ -7,8 +7,8 @@ old-location: display\volblt1.htm
 old-project: display
 ms.assetid: 81B9AB74-9CD1-4181-BE13-32D519069FD4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DDDI_VOLBLT1, VolBlt1, VolBlt1 callback function [Display Devices], d3dumddi/VolBlt1, display.volblt1
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_VOLBLT1, PFND3DDDI_VOLBLT1 callback, VolBlt1, VolBlt1 callback function [Display Devices], d3dumddi/VolBlt1, display.volblt1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	VolBlt1
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_VOLBLT1 callback
+# PFND3DDDI_VOLBLT1 callback function
 
 
 ## -description
 
 
 Performs a bit-block transfer (bitblt) operation from a source volume texture to a destination volume texture. Implemented by Windows Display Driver Model (WDDM) 1.2 or later user-mode display drivers.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_VOLBLT1 VolBlt1;
-
-__checkReturn HRESULT APIENTRY* VolBlt1(
-  _In_       HANDLE               hDevice,
-  _In_ const D3DDDIARG_VOLUMEBLT1 *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ __checkReturn HRESULT APIENTRY* VolBlt1(
 
 #### - pData [in]
 
- A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_volumeblt1.md">D3DDDIARG_VOLUMEBLT1</a> structure that defines the parameters for the volume bitblt operation.
+ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451145">D3DDDIARG_VOLUMEBLT1</a> structure that defines the parameters for the volume bitblt operation.
 
 
 ## -returns
@@ -102,16 +89,15 @@ __checkReturn HRESULT APIENTRY* VolBlt1(
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_volumeblt1.md">D3DDDIARG_VOLUMEBLT1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451145">D3DDDIARG_VOLUMEBLT1</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
  
 
  
-
 

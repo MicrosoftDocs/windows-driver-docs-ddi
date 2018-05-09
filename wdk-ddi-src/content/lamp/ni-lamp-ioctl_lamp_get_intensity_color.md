@@ -7,8 +7,8 @@ old-location: stream\ioctl_lamp_get_intensity_color.htm
 old-project: stream
 ms.assetid: 8BAAB861-677D-4945-92B7-BDBE7A29695E
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_LAMP_GET_INTENSITY_COLOR, IOCTL_LAMP_GET_INTENSITY_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_INTENSITY_COLOR, stream.ioctl_lamp_get_intensity_color
+ms.date: 4/23/2018
+ms.keywords: IOCTL_LAMP_GET_INTENSITY_COLOR, IOCTL_LAMP_GET_INTENSITY_COLOR control, IOCTL_LAMP_GET_INTENSITY_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_INTENSITY_COLOR, stream.ioctl_lamp_get_intensity_color
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	lamp.h
 api_name:
 -	IOCTL_LAMP_GET_INTENSITY_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LAMP_MODE
+req.typenames: 
 ---
 
 # IOCTL_LAMP_GET_INTENSITY_COLOR IOCTL
@@ -70,12 +71,12 @@ The <b>IOCTL_LAMP_GET_INTENSITY_COLOR</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a <a href="..\lamp\ns-lamp-lamp_intensity_color.md">LAMP_INTENSITY_COLOR</a> structure.
+<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937004">LAMP_INTENSITY_COLOR</a> structure.
 
 
 ### -input-buffer-length
 
-Length of a <a href="..\lamp\ns-lamp-lamp_intensity_color.md">LAMP_INTENSITY_COLOR</a> structure.
+Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937004">LAMP_INTENSITY_COLOR</a> structure.
 
 
 ### -output-buffer
@@ -117,7 +118,7 @@ If the device has been acquired by a camera driver, the lamp driver should retur
 
 
 
-The payload type of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_intensity_color.md">LAMP_INTENSITY_COLOR</a> structure.
+The payload type of this IOCTL is a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937004">LAMP_INTENSITY_COLOR</a> structure.
 
 
 

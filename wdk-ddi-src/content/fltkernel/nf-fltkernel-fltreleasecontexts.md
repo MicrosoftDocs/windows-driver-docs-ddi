@@ -7,7 +7,7 @@ old-location: ifsk\fltreleasecontexts.htm
 old-project: ifsk
 ms.assetid: 9b6a28ad-f86c-475b-adee-8d2d8b2d6d61
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_697bebdc-a3c6-4d95-a97d-0de7b819d56f.xml, FltReleaseContexts, FltReleaseContexts function [Installable File System Drivers], fltkernel/FltReleaseContexts, ifsk.fltreleasecontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltReleaseContexts
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltReleaseContexts function
@@ -49,17 +50,7 @@ req.typenames: EXpsFontRestriction
 ## -description
 
 
-<b>FltReleaseContexts</b> releases each context in a given <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts.md">FLT_RELATED_CONTEXTS</a> structure. 
-
-
-## -syntax
-
-
-````
-VOID FltReleaseContexts(
-  _In_ PFLT_RELATED_CONTEXTS Contexts
-);
-````
+<b>FltReleaseContexts</b> releases each context in a given <a href="https://msdn.microsoft.com/library/windows/hardware/ff544812">FLT_RELATED_CONTEXTS</a> structure. 
 
 
 ## -parameters
@@ -69,7 +60,7 @@ VOID FltReleaseContexts(
 
 ### -param Contexts [in]
 
-Pointer to the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts.md">FLT_RELATED_CONTEXTS</a> structure. 
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544812">FLT_RELATED_CONTEXTS</a> structure. 
 
 
 ## -returns
@@ -85,9 +76,9 @@ None
 
 
 
-<b>FltReleaseContexts</b> decrements the reference count on all contexts in the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts.md">FLT_RELATED_CONTEXTS</a> structure and sets all members of the structure to NULL_CONTEXT. 
+<b>FltReleaseContexts</b> decrements the reference count on all contexts in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544812">FLT_RELATED_CONTEXTS</a> structure and sets all members of the structure to NULL_CONTEXT. 
 
-To get the <a href="..\fltkernel\ns-fltkernel-_flt_related_contexts.md">FLT_RELATED_CONTEXTS</a> structure for a given minifilter driver for a given I/O request, call <a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>. 
+To get the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544812">FLT_RELATED_CONTEXTS</a> structure for a given minifilter driver for a given I/O request, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff542997">FltGetContexts</a>. 
 
 For more information about context reference counting, see <a href="https://msdn.microsoft.com/9ac3aedb-e057-4e19-9de5-709311072b09">Referencing Contexts</a>. 
 
@@ -100,28 +91,27 @@ When each context's reference count reaches zero, the context is freed immediate
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetcontexts.md">FltGetContexts</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544629">FLT_CONTEXT_REGISTRATION</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544812">FLT_RELATED_CONTEXTS</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts.md">FLT_RELATED_CONTEXTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541710">FltAllocateContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542997">FltGetContexts</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544314">FltReleaseContext</a>
  
 
  
-
 

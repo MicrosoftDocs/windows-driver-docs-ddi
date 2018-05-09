@@ -7,7 +7,7 @@ old-location: sensors\sensor_controller_config.htm
 old-project: sensors
 ms.assetid: EEAC4D16-D0B8-4147-AD2D-7EE60853EBDD
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSENSOR_CONTROLLER_CONFIG, PSENSOR_CONTROLLER_CONFIG, PSENSOR_CONTROLLER_CONFIG structure pointer [Sensor Devices], SENSOR_CONTROLLER_CONFIG, SENSOR_CONTROLLER_CONFIG structure [Sensor Devices], _SENSOR_CONTROLLER_CONFIG, sensors.sensor_controller_config, sensorscx/PSENSOR_CONTROLLER_CONFIG, sensorscx/SENSOR_CONTROLLER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	SensorsCx.h
 api_name:
 -	SENSOR_CONTROLLER_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SENSOR_CONTROLLER_CONFIG, *PSENSOR_CONTROLLER_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _SENSOR_CONTROLLER_CONFIG structure
@@ -51,28 +51,6 @@ req.product: Windows 10 or later.
 
 
 This structure contains pointers to callback functions that must be implemented by the driver, and passed on to the class extension to call.
-
-
-## -syntax
-
-
-````
-typedef struct _SENSOR_CONTROLLER_CONFIG {
-  ULONG                                       Size;
-  WDF_TRI_STATE                               DriverIsPowerPolicyOwner;
-  PFN_SENSOR_DRIVER_START_SENSOR              EvtSensorStart;
-  PFN_SENSOR_DRIVER_STOP_SENSOR               EvtSensorStop;
-  PFN_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS EvtSensorGetSupportedDataFields;
-  PFN_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES EvtSensorGetDataFieldProperties;
-  PFN_SENSOR_DRIVER_GET_DATA_INTERVAL         EvtSensorGetDataInterval;
-  PFN_SENSOR_DRIVER_SET_DATA_INTERVAL         EvtSensorSetDataInterval;
-  PFN_SENSOR_DRIVER_GET_DATA_THRESHOLDS       EvtSensorGetDataThresholds;
-  PFN_SENSOR_DRIVER_SET_DATA_THRESHOLDS       EvtSensorSetDataThresholds;
-  PFN_SENSOR_DRIVER_GET_PROPERTIES            EvtSensorGetProperties;
-  PFN_SENSOR_DRIVER_DEVICE_IO_CONTROL         EvtSensorDeviceIoControl;
-  void                                        (*EvtSensorSetBatchLatency)();
-} SENSOR_CONTROLLER_CONFIG, *PSENSOR_CONTROLLER_CONFIG;
-````
 
 
 ## -struct-fields
@@ -198,7 +176,7 @@ This callback function sets the batch latency for a specified sensor.
 
 
 
-This structure is given to the class extension using the <a href="..\sensorscx\nf-sensorscx-sensorscxdeviceinitialize.md">SensorsCxDeviceInitialize</a> function. If any of the following function pointers are not set, the driver will fail to load:
+This structure is given to the class extension using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957086">SensorsCxDeviceInitialize</a> function. If any of the following function pointers are not set, the driver will fail to load:
 
 <ul>
 <li>EvtSensorStart</li>

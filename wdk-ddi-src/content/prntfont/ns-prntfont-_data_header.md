@@ -7,7 +7,7 @@ old-location: print\data_header.htm
 old-project: print
 ms.assetid: 8c7b6d2f-d2d9-49a5-8137-13d71dfd2611
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDATA_HEADER, DATA_HEADER, DATA_HEADER structure [Print Devices], PDATA_HEADER, PDATA_HEADER structure pointer [Print Devices], _DATA_HEADER, print.data_header, print_unidrv-pscript_fonts_7b54b761-a2d8-419d-9726-628cfd33dae6.xml, prntfont/DATA_HEADER, prntfont/PDATA_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	prntfont.h
 api_name:
 -	DATA_HEADER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DATA_HEADER, *PDATA_HEADER
-req.product: Windows 10 or later.
 ---
 
 # _DATA_HEADER structure
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The DATA_HEADER structure is used to specify a data section within a Unidrv font format file (.uff file).
-
-
-## -syntax
-
-
-````
-typedef struct _DATA_HEADER {
-  DWORD dwSignature;
-  WORD  wSize;
-  WORD  wDataID;
-  DWORD dwDataSize;
-  DWORD dwReserved;
-} DATA_HEADER, *PDATA_HEADER;
-````
 
 
 ## -struct-fields
@@ -151,7 +137,7 @@ If the data section contains variable data, this value must be zero.
 
 ### -field dwDataSize
 
-Specifies the size, in bytes, of all the information represented by this DATA_HEADER structure. For example, if <b>dwSignature</b> is DATA_UFM_SIG, this value represents the size, in bytes, of the font's <a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a> structure and all associated structures. The size value does not include any byte padding required to align the next DATA_HEADER structure to a DWORD.
+Specifies the size, in bytes, of all the information represented by this DATA_HEADER structure. For example, if <b>dwSignature</b> is DATA_UFM_SIG, this value represents the size, in bytes, of the font's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a> structure and all associated structures. The size value does not include any byte padding required to align the next DATA_HEADER structure to a DWORD.
 
 
 ### -field dwReserved
@@ -172,12 +158,11 @@ Each DATA_HEADER structure must be DWORD-aligned.
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_unifm_hdr.md">UNIFM_HDR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a>
  
 
  
-
 

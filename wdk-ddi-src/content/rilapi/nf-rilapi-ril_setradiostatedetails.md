@@ -7,7 +7,7 @@ old-location: netvista\ril_setradiostatedetails.htm
 old-project: netvista
 ms.assetid: 5936bbbe-452c-4d68-ad22-e65671351f78
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SetRadioStateDetails, RIL_SetRadioStateDetails method [Network Drivers Starting with Windows Vista], netvista.ril_setradiostatedetails, rilapi/RIL_SetRadioStateDetails
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	rilapi.h
 api_name:
 -	RIL_SetRadioStateDetails
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SetRadioStateDetails function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code. 
 
             
-
-
-## -syntax
-
-
-````
-HRESULT  RIL_SetRadioStateDetails(
-   HRIL                      hRil,
-   LPVOID                    lpContext,
-   const RILRADIOSTATEITEMS  pItems
-);
-````
 
 
 ## -parameters

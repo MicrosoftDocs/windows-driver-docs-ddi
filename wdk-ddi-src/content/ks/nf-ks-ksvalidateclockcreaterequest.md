@@ -7,7 +7,7 @@ old-location: stream\ksvalidateclockcreaterequest.htm
 old-project: stream
 ms.assetid: ec10c10e-4604-47fc-a2e7-4df9d90acf0b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsValidateClockCreateRequest, KsValidateClockCreateRequest function [Streaming Media Devices], ks/KsValidateClockCreateRequest, ksfunc_e681d03e-44fb-43fb-b317-dc7e63fe6cb2.xml, stream.ksvalidateclockcreaterequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsValidateClockCreateRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,17 +54,6 @@ req.typenames:
 The <b>KsValidateClockCreateRequest</b> function validates the clock creation request and returns the create structure associated with the request.
 
 This can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsValidateClockCreateRequest(
-  _In_  PIRP            lrp,
-  _Out_ PKSCLOCK_CREATE *ClockCreate
-);
-````
 
 
 ## -parameters

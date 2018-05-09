@@ -7,7 +7,7 @@ old-location: stream\kssetdefaultclockstate.htm
 old-project: stream
 ms.assetid: 5893f4ff-0eb5-4cdc-8f58-f7654c1ce9fc
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsSetDefaultClockState, KsSetDefaultClockState function [Streaming Media Devices], ks/KsSetDefaultClockState, ksfunc_a57f26f0-cd4a-4d80-a090-788aef1ccf4b.xml, stream.kssetdefaultclockstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsSetDefaultClockState
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -50,20 +51,9 @@ req.typenames:
 ## -description
 
 
-The <b>KsSetDefaultClockState</b> function sets the current state of the clock that is used to reflect the current state of the underlying filter pin. The owner of the default clock is expected to serialize access to this function and to call <a href="..\ks\nf-ks-kssetdefaultclocktime.md">KsSetDefaultClockTime</a>.
+The <b>KsSetDefaultClockState</b> function sets the current state of the clock that is used to reflect the current state of the underlying filter pin. The owner of the default clock is expected to serialize access to this function and to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566827">KsSetDefaultClockTime</a>.
 
 The function can be called at DISPATCH_LEVEL.
-
-
-## -syntax
-
-
-````
-VOID KsSetDefaultClockState(
-  _In_ PKSDEFAULTCLOCK DefaultClock,
-  _In_ KSSTATE         State
-);
-````
 
 
 ## -parameters
@@ -92,12 +82,11 @@ None
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgetdefaultclockstate.md">KsGetDefaultClockState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562612">KsGetDefaultClockState</a>
  
 
  
-
 

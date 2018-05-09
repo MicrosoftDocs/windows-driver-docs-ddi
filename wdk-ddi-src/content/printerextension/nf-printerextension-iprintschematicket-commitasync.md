@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.CommitAsync
-title: IPrintSchemaTicket::CommitAsync method
+title: IPrintSchemaTicket::CommitAsync
 author: windows-driver-content
 description: Gets an asynchronous PrintTicket commit operation context.
 old-location: print\iprintschematicket_commitasync.htm
 old-project: print
 ms.assetid: CFEDCABF-A875-4A69-954D-267765350E9D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CommitAsync method [Print Devices], CommitAsync method [Print Devices], IPrintSchemaTicket interface, CommitAsync,IPrintSchemaTicket.CommitAsync, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], CommitAsync method, IPrintSchemaTicket::CommitAsync, print.iprintschematicket_commitasync, printerextension/IPrintSchemaTicket::CommitAsync
+ms.date: 4/20/2018
+ms.keywords: CommitAsync, CommitAsync method [Print Devices], CommitAsync method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],CommitAsync method, IPrintSchemaTicket.CommitAsync, IPrintSchemaTicket::CommitAsync, print.iprintschematicket_commitasync, printerextension/IPrintSchemaTicket::CommitAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	printerextension.h
 api_name:
 -	IPrintSchemaTicket.CommitAsync
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaTicket::CommitAsync method
+# IPrintSchemaTicket::CommitAsync
 
 
 ## -description
 
 
 Gets an  asynchronous PrintTicket commit operation context.
-
-
-## -syntax
-
-
-````
-HRESULT CommitAsync(
-  [in]  IPrintSchemaTicket         *pPrintTicketCommit,
-  [out] IPrintSchemaAsyncOperation **ppAsyncOperation
-);
-````
 
 
 ## -parameters
@@ -99,7 +88,6 @@ To perform the commit operation, call the <a href="https://msdn.microsoft.com/8A
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
 
 
 
@@ -111,8 +99,8 @@ To perform the commit operation, call the <a href="https://msdn.microsoft.com/8A
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451398">IPrintSchemaTicket</a>
  
 
  
-
 

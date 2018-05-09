@@ -1,14 +1,14 @@
 ---
 UID: NF:ks.IKsReferenceClock.GetResolution
-title: IKsReferenceClock::GetResolution method
+title: IKsReferenceClock::GetResolution
 author: windows-driver-content
 description: The IKsReferenceClock::GetResolution method queries the associated reference clock for its resolution.
 old-location: stream\iksreferenceclock_getresolution.htm
 old-project: stream
 ms.assetid: 7fb70431-db09-470b-b795-826aba3a8b77
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: GetResolution method [Streaming Media Devices], GetResolution method [Streaming Media Devices], IKsReferenceClock interface, GetResolution,IKsReferenceClock.GetResolution, IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], GetResolution method, IKsReferenceClock::GetResolution, avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, ks/IKsReferenceClock::GetResolution, stream.iksreferenceclock_getresolution
+ms.date: 4/23/2018
+ms.keywords: GetResolution, GetResolution method [Streaming Media Devices], GetResolution method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetResolution method, IKsReferenceClock.GetResolution, IKsReferenceClock::GetResolution, avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, ks/IKsReferenceClock::GetResolution, stream.iksreferenceclock_getresolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	IKsReferenceClock.GetResolution
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
 
-# IKsReferenceClock::GetResolution method
+# IKsReferenceClock::GetResolution
 
 
 ## -description
 
 
 The <b>IKsReferenceClock::GetResolution</b> method queries the associated reference clock for its resolution.
-
-
-## -syntax
-
-
-````
-NTSTATUS GetResolution(
-  [out] PKSRESOLUTION Resolution
-);
-````
 
 
 ## -parameters
@@ -69,7 +60,7 @@ NTSTATUS GetResolution(
 
 ### -param Resolution [out]
 
-Specifies granularity and notification error of the clock in a <a href="..\ks\ns-ks-ksresolution.md">KSRESOLUTION</a> structure.
+Specifies granularity and notification error of the clock in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566806">KSRESOLUTION</a> structure.
 
 
 ## -returns
@@ -98,12 +89,11 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563517">KsPinGetReferenceClockInterface</a>
  
 
  
-
 

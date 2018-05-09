@@ -7,7 +7,7 @@ old-location: display\d3dkmt_setdisplayprivatedriverformat.htm
 old-project: display
 ms.assetid: a99a3b15-8c91-4aef-a82c-665c8494fa57
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], OpenGL_Structs_c5440fbe-47f2-43eb-ae09-e9295bfa4bad.xml, _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, d3dkmthk/D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT, display.d3dkmt_setdisplayprivatedriverformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT
 
 
 The D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT structure describes the private-format attribute to set for a video present source. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT {
-  D3DKMT_HANDLE                  hDevice;
-  D3DDDI_VIDEO_PRESENT_SOURCE_ID VidPnSourceId;
-  UINT                           PrivateDriverFormatAttribute;
-} D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT;
-````
 
 
 ## -struct-fields
@@ -86,12 +75,11 @@ typedef struct _D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetdisplayprivatedriverformat.md">D3DKMTSetDisplayPrivateDriverFormat</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547171">D3DKMTSetDisplayPrivateDriverFormat</a>
  
 
  
-
 

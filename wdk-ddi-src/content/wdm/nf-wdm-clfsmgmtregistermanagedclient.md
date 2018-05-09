@@ -7,7 +7,7 @@ old-location: kernel\clfsmgmtregistermanagedclient.htm
 old-project: kernel
 ms.assetid: 6f450117-9bd2-4021-b8f1-393db5784136
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml, kernel.clfsmgmtregistermanagedclient, wdm/ClfsMgmtRegisterManagedClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsMgmtRegisterManagedClient
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsMgmtRegisterManagedClient function
@@ -52,18 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ClfsMgmtRegisterManagedClient</b> routine creates a client that will manage a CLFS log.
-
-
-## -syntax
-
-
-````
-NTSTATUS ClfsMgmtRegisterManagedClient(
-  _In_  PLOG_FILE_OBJECT               LogFile,
-  _In_  PCLFS_MGMT_CLIENT_REGISTRATION RegistrationData,
-  _Out_ PCLFS_MGMT_CLIENT              Client
-);
-````
 
 
 ## -parameters
@@ -78,7 +66,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 ### -param RegistrationData [in]
 
-An instance of the <a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a> structure that contains the functions that will be used to manage the log.
+An instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541841">CLFS_MGMT_CLIENT_REGISTRATION</a> structure that contains the functions that will be used to manage the log.
 
 
 ### -param ClientCookie
@@ -171,16 +159,15 @@ More than one client can register with a log stream.
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541841">CLFS_MGMT_CLIENT_REGISTRATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
-
-
-
-<a href="..\wdm\ns-wdm-_clfs_mgmt_client_registration.md">CLFS_MGMT_CLIENT_REGISTRATION</a>
-
-
-
  
 
  
-
 

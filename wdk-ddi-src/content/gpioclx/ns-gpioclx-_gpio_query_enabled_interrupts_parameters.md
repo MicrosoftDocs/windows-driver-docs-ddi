@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Gpioclx.h
 api_name:
 -	GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, *PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS
 ---
@@ -50,17 +51,6 @@ req.typenames: GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, *PGPIO_QUERY_ENABLED_IN
 
 
 The <b>GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS</b> structure indicates which interrupt pins in a bank of general-purpose I/O (GPIO) pins are enabled.
-
-
-## -syntax
-
-
-````
-typedef struct _GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS {
-  BANK_ID BankId;
-  ULONG64 EnabledMask;
-} GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, *PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS;
-````
 
 
 ## -struct-fields
@@ -89,11 +79,6 @@ The <i>QueryEnabledParameters</i> parameter of the <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265184">CLIENT_QueryEnabledInterrupts</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
 
 
 
@@ -101,8 +86,12 @@ The <i>QueryEnabledParameters</i> parameter of the <a href="https://msdn.microso
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265184">CLIENT_QueryEnabledInterrupts</a>
  
 
  
-
 

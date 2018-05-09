@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintJobCollection.GetAt
-title: IPrintJobCollection::GetAt method
+title: IPrintJobCollection::GetAt
 author: windows-driver-content
 description: Gets a pointer to an IPrintJob object.
 old-location: print\iprintjobcollection_getat.htm
 old-project: print
 ms.assetid: B920E5D1-D565-4626-A15E-8500DFFBC9FF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetAt method [Print Devices], GetAt method [Print Devices], IPrintJobCollection interface, GetAt,IPrintJobCollection.GetAt, IPrintJobCollection, IPrintJobCollection interface [Print Devices], GetAt method, IPrintJobCollection::GetAt, print.iprintjobcollection_getat, printerextension/IPrintJobCollection::GetAt
+ms.date: 4/20/2018
+ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],GetAt method, IPrintJobCollection.GetAt, IPrintJobCollection::GetAt, print.iprintjobcollection_getat, printerextension/IPrintJobCollection::GetAt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrintJobCollection.GetAt
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintJobCollection::GetAt method
+# IPrintJobCollection::GetAt
 
 
 ## -description
 
 
-Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a> object.
-
-
-## -syntax
-
-
-````
-HRESULT GetAt(
-  [in]          ULONG     ulIndex,
-  [out, retval] IPrintJob **ppJob
-);
-````
+Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a> object.
 
 
 ## -parameters
@@ -90,16 +79,15 @@ Returns an <b>HRESULT</b> value. If the method call was not successful, it retur
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a>
  
 
  
-
 

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl2.SetCodeLevel
-title: IDebugControl2::SetCodeLevel method
+title: IDebugControl2::SetCodeLevel
 author: windows-driver-content
 description: The SetCodeLevel method sets the current code level and is mainly used when stepping through code.
 old-location: debugger\setcodelevel.htm
 old-project: debugger
 ms.assetid: b2f318d2-9ee2-4b4b-86ff-4561f1bbe084
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugControl interface [Windows Debugging], SetCodeLevel method, IDebugControl2, IDebugControl2 interface [Windows Debugging], SetCodeLevel method, IDebugControl2::SetCodeLevel, IDebugControl3 interface [Windows Debugging], SetCodeLevel method, IDebugControl3::SetCodeLevel, IDebugControl::SetCodeLevel, IDebugControl_40aa5eed-ef3f-4ec4-84eb-0cfec638bc4a.xml, SetCodeLevel method [Windows Debugging], SetCodeLevel method [Windows Debugging], IDebugControl interface, SetCodeLevel method [Windows Debugging], IDebugControl2 interface, SetCodeLevel method [Windows Debugging], IDebugControl3 interface, SetCodeLevel,IDebugControl2.SetCodeLevel, dbgeng/IDebugControl2::SetCodeLevel, dbgeng/IDebugControl3::SetCodeLevel, dbgeng/IDebugControl::SetCodeLevel, debugger.setcodelevel
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],SetCodeLevel method, IDebugControl2 interface [Windows Debugging],SetCodeLevel method, IDebugControl2.SetCodeLevel, IDebugControl2::SetCodeLevel, IDebugControl3 interface [Windows Debugging],SetCodeLevel method, IDebugControl3::SetCodeLevel, IDebugControl::SetCodeLevel, IDebugControl_40aa5eed-ef3f-4ec4-84eb-0cfec638bc4a.xml, SetCodeLevel, SetCodeLevel method [Windows Debugging], SetCodeLevel method [Windows Debugging],IDebugControl interface, SetCodeLevel method [Windows Debugging],IDebugControl2 interface, SetCodeLevel method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetCodeLevel, dbgeng/IDebugControl3::SetCodeLevel, dbgeng/IDebugControl::SetCodeLevel, debugger.setcodelevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,28 +40,19 @@ api_name:
 -	IDebugControl.SetCodeLevel
 -	IDebugControl2.SetCodeLevel
 -	IDebugControl3.SetCodeLevel
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl2::SetCodeLevel method
+# IDebugControl2::SetCodeLevel
 
 
 ## -description
 
 
 The <b>SetCodeLevel</b> method sets the current code level and is mainly used when stepping through code.
-
-
-## -syntax
-
-
-````
-HRESULT SetCodeLevel(
-  [in] ULONG Level
-);
-````
 
 
 ## -parameters
@@ -141,7 +132,6 @@ For more information about the code level, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
@@ -149,16 +139,16 @@ For more information about the code level, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

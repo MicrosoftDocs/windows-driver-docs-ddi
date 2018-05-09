@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRequestRetrieveOutputBuffer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRequestRetrieveOutputBuffer function
@@ -56,19 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRequestRetrieveOutputBuffer</b> method retrieves an I/O request's output buffer.
-
-
-## -syntax
-
-
-````
-NTSTATUS WdfRequestRetrieveOutputBuffer(
-  _In_      WDFREQUEST Request,
-  _In_      size_t     MinimumRequiredSize,
-  _Out_     PVOID      *Buffer,
-  _Out_opt_ size_t     *Length
-);
-````
 
 
 ## -parameters
@@ -187,14 +174,14 @@ If <b>WdfRequestRetrieveOutputBuffer</b> returns STATUS_SUCCESS, the driver rece
 
 The driver can access the retrieved buffer until it <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/completing-i-o-requests">completes the I/O request</a> that the <i>Request</i> parameter represents.
 
-Instead of calling <b>WdfRequestRetrieveOutputBuffer</b>, the driver can call <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>, which creates a framework memory object that represents the buffer.
+Instead of calling <b>WdfRequestRetrieveOutputBuffer</b>, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550019">WdfRequestRetrieveOutputMemory</a>, which creates a framework memory object that represents the buffer.
 
 For more information about <b>WdfRequestRetrieveOutputBuffer</b>, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
 #### Examples
 
-The following code example is part of an <a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a> callback function. This example obtains a USB device's configuration descriptor and places the descriptor in the I/O request's output buffer.
+The following code example is part of an <a href="https://msdn.microsoft.com/3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce">EvtIoDeviceControl</a> callback function. This example obtains a USB device's configuration descriptor and places the descriptor in the I/O request's output buffer.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -295,16 +282,15 @@ MyEvtIoDeviceControl(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputmemory.md">WdfRequestRetrieveOutputMemory</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputbuffer.md">WdfRequestRetrieveInputBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550014">WdfRequestRetrieveInputBuffer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550019">WdfRequestRetrieveOutputMemory</a>
  
 
  
-
 

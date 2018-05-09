@@ -7,7 +7,7 @@ old-location: kernel\rtlxunicodestringtoansisize.htm
 old-project: kernel
 ms.assetid: dff228e5-14ea-4ec0-a7f1-247137f9e70d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlxUnicodeStringToAnsiSize, RtlxUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], k109_f7d1f632-4350-4fb9-ac05-3c36c0d0446e.xml, kernel.rtlxunicodestringtoansisize, wdm/RtlxUnicodeStringToAnsiSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlxUnicodeStringToAnsiSize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlxUnicodeStringToAnsiSize function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlxUnicodeStringToAnsiSize</b> routine returns the number of bytes required for a null-terminated ANSI string that is equivalent to a specified Unicode string.
-
-
-## -syntax
-
-
-````
-ULONG RtlxUnicodeStringToAnsiSize(
-  _In_ PCUNICODE_STRING UnicodeString
-);
-````
 
 
 ## -parameters
@@ -93,12 +83,11 @@ The Unicode string is interpreted for the current system locale.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansisize.md">RtlUnicodeStringToAnsiSize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553248">RtlUnicodeStringToAnsiSize</a>
  
 
  
-
 

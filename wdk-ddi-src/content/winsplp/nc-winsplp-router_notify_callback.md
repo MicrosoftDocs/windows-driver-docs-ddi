@@ -7,8 +7,8 @@ old-location: print\router_notify_callback.htm
 old-project: print
 ms.assetid: 97D8FEEA-B6D7-4AD7-A067-B503AF8F23FF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: ROUTER_NOTIFY_CALLBACK, ROUTER_NOTIFY_CALLBACK callback function [Print Devices], print.router_notify_callback, winsplp/ROUTER_NOTIFY_CALLBACK
+ms.date: 4/20/2018
+ms.keywords: ROUTER_NOTIFY_CALLBACK, ROUTER_NOTIFY_CALLBACK callback, ROUTER_NOTIFY_CALLBACK callback function [Print Devices], print.router_notify_callback, winsplp/ROUTER_NOTIFY_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,37 +38,19 @@ api_location:
 -	Winsplp.h
 api_name:
 -	ROUTER_NOTIFY_CALLBACK
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ROUTER_NOTIFY_CALLBACK callback
+# ROUTER_NOTIFY_CALLBACK callback function
 
 
 ## -description
 
 
 
-
-
-## -prototype
-
-
-````
-ROUTER_NOTIFY_CALLBACK ROUTER_NOTIFY_CALLBACK;
-
- ROUTER_NOTIFY_CALLBACK(
-  _In_  DWORD                    dwCommand,
-  _In_  PVOID                    pContext,
-  _In_  DWORD                    dwColor,
-  _In_  PPRINTER_NOTIFY_INFO     pNofityInfo,
-  _In_  DWORD                    fdwFlags,
-  _Out_ PDWORD                   pdwResult
-)
-{ ... }
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: stream\ksallocatormode.htm
 old-project: stream
 ms.assetid: 2D02D43F-495E-45EE-B932-C8924ADF05DC
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSALLOCATORMODE, KSALLOCATORMODE enumeration [Streaming Media Devices], KsAllocatorMode_Kernel, KsAllocatorMode_User, ksproxy/KSALLOCATORMODE, ksproxy/KsAllocatorMode_Kernel, ksproxy/KsAllocatorMode_User, stream.ksallocatormode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksproxy.h
 api_name:
 -	KSALLOCATORMODE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSALLOCATORMODE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSALLOCATORMODE
 
 
 
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  KsAllocatorMode_User,
-  KsAllocatorMode_Kernel
-} KSALLOCATORMODE;
-````
 
 
 ## -enum-fields

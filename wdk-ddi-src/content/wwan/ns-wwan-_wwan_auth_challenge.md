@@ -7,7 +7,7 @@ old-location: netvista\wwan_auth_challenge.htm
 old-project: netvista
 ms.assetid: A31B9E91-B5F9-4EF3-AD9E-A5E26CBD4B35
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_AUTH_CHALLENGE, PWWAN_AUTH_CHALLENGE, PWWAN_AUTH_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_CHALLENGE, WWAN_AUTH_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_CHALLENGE, netvista.wwan_auth_challenge, wwan/PWWAN_AUTH_CHALLENGE, wwan/WWAN_AUTH_CHALLENGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_AUTH_CHALLENGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_AUTH_CHALLENGE, *PWWAN_AUTH_CHALLENGE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_AUTH_CHALLENGE structure
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_AUTH_CHALLENGE structure represents an authentication challenge for a specific method.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_AUTH_CHALLENGE {
-  WWAN_AUTH_METHOD AuthMethod;
-  union {
-    WWAN_AUTH_SIM_CHALLENGE  AuthSim;
-    WWAN_AUTH_AKA_CHALLENGE  AuthAka;
-    WWAN_AUTH_AKAP_CHALLENGE AuthAkap;
-  } u;
-} WWAN_AUTH_CHALLENGE, *PWWAN_AUTH_CHALLENGE;
-````
 
 
 ## -struct-fields
@@ -83,44 +68,40 @@ The authentication challenge method.
 The container union for the different authentication challenge methods.
 
 
-
-#### AuthSim
+### -field u.AuthSim
 
 The challenge that uses the SIM authentication method. If <b>AuthMethod</b> is set to <i>WwanAuthSim</i>, use this member.
 
 
-
-#### AuthAka
+### -field u.AuthAka
 
 The challenge that uses the AKA authentication method.  If <b>AuthMethod</b> is set to <i>WwanAuthAka</i>, use this member.
 
 
-
-#### AuthAkap
+### -field u.AuthAkap
 
 The challenge that uses the AKA' authentication method. If <b>AuthMethod</b> is set to <i>WwanAuthAkap,</i> use this member.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_akap_challenge.md">WWAN_AUTH_AKAP_CHALLENGE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_auth_aka_challenge.md">WWAN_AUTH_AKA_CHALLENGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh440302">WWAN_AUTH_AKAP_CHALLENGE</a>
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_auth_method.md">WWAN_AUTH_METHOD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh440304">WWAN_AUTH_AKA_CHALLENGE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_auth_sim_challenge.md">WWAN_AUTH_SIM_CHALLENGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464128">WWAN_AUTH_METHOD</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464130">WWAN_AUTH_SIM_CHALLENGE</a>
  
 
  
-
 

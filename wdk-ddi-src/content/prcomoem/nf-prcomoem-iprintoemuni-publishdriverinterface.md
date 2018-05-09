@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.PublishDriverInterface
-title: IPrintOemUni::PublishDriverInterface method
+title: IPrintOemUni::PublishDriverInterface
 author: windows-driver-content
 description: The IPrintOemUni::PublishDriverInterface method allows a rendering plug-in for Unidrv to obtain the Unidrv driver's IPrintOemDriverUni or IPrintCoreHelperUni interface.
 old-location: print\iprintoemuni_publishdriverinterface.htm
 old-project: print
 ms.assetid: 72bfa383-a7f2-4aa6-a45c-564928705e42
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], PublishDriverInterface method, IPrintOemUni::PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices], IPrintOemUni interface, PublishDriverInterface,IPrintOemUni.PublishDriverInterface, prcomoem/IPrintOemUni::PublishDriverInterface, print.iprintoemuni_publishdriverinterface, print_unidrv-pscript_rendering_c9525b65-4bc0-42cb-b416-7b2034581b0e.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUni interface [Print Devices],PublishDriverInterface method, IPrintOemUni.PublishDriverInterface, IPrintOemUni::PublishDriverInterface, PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::PublishDriverInterface, print.iprintoemuni_publishdriverinterface, print_unidrv-pscript_rendering_c9525b65-4bc0-42cb-b416-7b2034581b0e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.PublishDriverInterface
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::PublishDriverInterface method
+# IPrintOemUni::PublishDriverInterface
 
 
 ## -description
 
 
 The <code>IPrintOemUni::PublishDriverInterface</code> method allows a rendering plug-in for Unidrv to obtain the Unidrv driver's <b>IPrintOemDriverUni</b> or <b>IPrintCoreHelperUni</b> interface.
-
-
-## -syntax
-
-
-````
-HRESULT PublishDriverInterface(
-   IUnknown *pIUnknown
-);
-````
 
 
 ## -parameters
@@ -70,7 +60,7 @@ HRESULT PublishDriverInterface(
 
 ### -param pIUnknown
 
-Caller-supplied pointer to the <b>IUnknown</b> interface of the driver's <a href="https://msdn.microsoft.com/84b3f43c-039a-4e9d-b596-41c08f1e0284">IPrintOemDriverUni COM Interface</a> or <a href="..\prcomoem\nn-prcomoem-iprintcorehelperuni.md">IPrintCoreHelperUni interface</a>.
+Caller-supplied pointer to the <b>IUnknown</b> interface of the driver's <a href="https://msdn.microsoft.com/84b3f43c-039a-4e9d-b596-41c08f1e0284">IPrintOemDriverUni COM Interface</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552940">IPrintCoreHelperUni interface</a>.
 
 
 ## -returns
@@ -135,16 +125,15 @@ If the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554256">IPrintOemUni::GetInfo</a>
-
-
-
  
 
  
-
 

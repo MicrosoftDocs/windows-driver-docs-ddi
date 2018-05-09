@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: F6D60B8C-488A-4A3F-85AE-40A10BF2DC9F
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RELEASE, EvtPosCxDeviceRemoteRelease, EvtPosCxDeviceRemoteRelease callback function, pos.evt_pos_cx_device_remote_release, poscx/EvtPosCxDeviceRemoteRelease
+ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RELEASE, EVT_POS_CX_DEVICE_REMOTE_RELEASE callback, EvtPosCxDeviceRemoteRelease, EvtPosCxDeviceRemoteRelease callback function, pos.evt_pos_cx_device_remote_release, poscx/EvtPosCxDeviceRemoteRelease
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,14 @@ api_location:
 -	poscx.h
 api_name:
 -	EvtPosCxDeviceRemoteRelease
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
+req.typenames: 
 req.product: Windows 10 or later.
 ---
 
-# EVT_POS_CX_DEVICE_REMOTE_RELEASE callback
+# EVT_POS_CX_DEVICE_REMOTE_RELEASE callback function
 
 
 ## -description
@@ -55,22 +56,8 @@ The
 with no owner and allows the driver to do additional work. This callback is typically only used with network connected devices that require additional logic for handling ownership transitions.
 
 
-<a href="..\poscx\nc-poscx-evt_pos_cx_device_remote_claim.md">EVT_POS_CX_DEVICE_REMOTE_CLAIM</a> and <i>EVT_POS_CX_DEVICE_REMOTE_RELEASE</i> add support for remote devices that handle their own claim
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593116">EVT_POS_CX_DEVICE_REMOTE_CLAIM</a> and <i>EVT_POS_CX_DEVICE_REMOTE_RELEASE</i> add support for remote devices that handle their own claim
 semantics.
-
-
-## -prototype
-
-
-````
-EVT_POS_CX_DEVICE_REMOTE_RELEASE EvtPosCxDeviceRemoteRelease;
-
-NTSTATUS EvtPosCxDeviceRemoteRelease(
-  _In_ WDFDEVICE device,
-  _In_ ULONG     deviceInterfaceTag
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -101,12 +88,11 @@ If the driver is unable to complete the remote release transaction, it should re
 
 ## -see-also
 
-<a href="..\poscx\nc-poscx-evt_pos_cx_device_remote_claim.md">EVT_POS_CX_DEVICE_REMOTE_CLAIM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt593116">EVT_POS_CX_DEVICE_REMOTE_CLAIM</a>
  
 
  
-
 

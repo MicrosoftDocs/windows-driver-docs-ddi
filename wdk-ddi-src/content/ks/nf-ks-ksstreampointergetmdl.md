@@ -7,7 +7,7 @@ old-location: stream\ksstreampointergetmdl.htm
 old-project: stream
 ms.assetid: 05d37fbd-9bdc-478a-8772-6f63d1363c1c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsStreamPointerGetMdl, KsStreamPointerGetMdl function [Streaming Media Devices], avfunc_94dcd1e0-4882-4703-b69a-9ca8b21d30a0.xml, ks/KsStreamPointerGetMdl, stream.ksstreampointergetmdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsStreamPointerGetMdl
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsStreamPointerGetMdl </b>function returns the MDL associated with the frame referenced by <i>StreamPointer</i>.
 
 
-## -syntax
-
-
-````
-PMDL KsStreamPointerGetMdl(
-  _In_ PKSSTREAM_POINTER StreamPointer
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ PMDL KsStreamPointerGetMdl(
 
 ### -param StreamPointer [in]
 
-A pointer to the <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure that references the frame for which to return the associated MDL.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> structure that references the frame for which to return the associated MDL.
 
 
 ## -returns
@@ -95,16 +86,15 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointergetirp.md">KsStreamPointerGetIrp</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567131">KsStreamPointerGetIrp</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn892390">KsStreamPointerLock</a>
  
 
  
-
 

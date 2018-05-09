@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_connect_with_shared_endpoint.htm
 old-project: netvista
 ms.assetid: E97C0B87-C031-4C91-8FFF-86B5E8324FB8
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_CONNECT_WITH_SHARED_ENDPOINT, NdkConnectWithSharedEndpoint, NdkConnectWithSharedEndpoint callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectWithSharedEndpoint, netvista.ndk_fn_connect_with_shared_endpoint
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CONNECT_WITH_SHARED_ENDPOINT, NDK_FN_CONNECT_WITH_SHARED_ENDPOINT callback, NdkConnectWithSharedEndpoint, NdkConnectWithSharedEndpoint callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectWithSharedEndpoint, netvista.ndk_fn_connect_with_shared_endpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,41 +38,19 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkConnectWithSharedEndpoint
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CONNECT_WITH_SHARED_ENDPOINT callback
+# NDK_FN_CONNECT_WITH_SHARED_ENDPOINT callback function
 
 
 ## -description
 
 
 The <i>NdkConnectWithSharedEndpoint</i> (<i>NDK_FN_CONNECT_WITH_SHARED_ENDPOINT</i>) function initiates an NDK connect request from a shared local address to a remote address. 
-
-
-## -prototype
-
-
-````
-NDK_FN_CONNECT_WITH_SHARED_ENDPOINT NdkConnectWithSharedEndpoint;
-
-NTSTATUS NdkConnectWithSharedEndpoint(
-  _In_     NDK_CONNECTOR                                        *pNdkConnector,
-  _In_     NDK_QP                                               *pNdkQp,
-  _In_     NDK_SHARED_ENDPOINT                                  *pNdkSharedEndpoint,
-            _In_reads_bytes_(DestAddressLength) CONST PSOCKADDR pDestAddress,
-  _In_     ULONG                                                DestAddressLength,
-  _In_     ULONG                                                InboundReadLimit,
-  _In_     ULONG                                                OutboundReadLimit,
-           _In_reads_bytes_opt_(PrivateDataLength) CONST PVOID  pPrivateData,
-  _In_     ULONG                                                PrivateDataLength,
-  _In_     NDK_FN_REQUEST_COMPLETION                            RequestCompletion,
-  _In_opt_ PVOID                                                RequestContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -82,17 +60,17 @@ NTSTATUS NdkConnectWithSharedEndpoint(
 
 ### -param *pNdkConnector [in]
 
-A pointer to an NDK connector object (<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
+A pointer to an NDK connector object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>).
 
 
 ### -param *pNdkQp [in]
 
-A pointer to an NDK queue pair (QP) object (<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>) to be associated with the connection.
+A pointer to an NDK queue pair (QP) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>) to be associated with the connection.
 
 
 ### -param *pNdkSharedEndpoint [in]
 
-A pointer to an NDK shared endpoint object (<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>) that determines the local address for the connection.
+A pointer to an NDK shared endpoint object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439937">NDK_SHARED_ENDPOINT</a>) that determines the local address for the connection.
 
 
 ### -param PSOCKADDR
@@ -105,12 +83,12 @@ The size, in bytes,  of destination address data at the <i>pDestAddress.</i> par
 
 ### -param InboundReadLimit [in]
 
-The consumer-supplied maximum number of incoming in-progress read operations to allow on the QP. If the underlying provider has a lower <b>MaxInboundReadLimit</b> value in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure, then the provider will cap the consumer-supplied value to the provider maximum. If the peer has a lower <i>OutboundReadLimit</i> value, then the provider will use that value as the effective <i>InboundReadLimit</i>. The consumer can retrieve the effective <i>InboundReadLimit</i> by calling the <i>NdkGetConnectionData</i> function (<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>).
+The consumer-supplied maximum number of incoming in-progress read operations to allow on the QP. If the underlying provider has a lower <b>MaxInboundReadLimit</b> value in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure, then the provider will cap the consumer-supplied value to the provider maximum. If the peer has a lower <i>OutboundReadLimit</i> value, then the provider will use that value as the effective <i>InboundReadLimit</i>. The consumer can retrieve the effective <i>InboundReadLimit</i> by calling the <i>NdkGetConnectionData</i> function (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439890">NDK_FN_GET_CONNECTION_DATA</a>).
 
 
 ### -param OutboundReadLimit [in]
 
-The consumer-supplied maximum number of outgoing in-progress read operations to allow on the QP. If the underlying provider has a lower <b>MaxOutboundReadLimit</b> value  in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure, then the provider will cap the consumer supplied value to the provider maximum. If the peer has a lower <i>InboundReadLimit</i>, then the provider will use that value as the effective <i>OutboundReadLimit</i>. The     consumer can retrieve the effective <i>OutboundReadLimit</i> by calling the <i>NdkGetConnectionData</i> function (<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>).
+The consumer-supplied maximum number of outgoing in-progress read operations to allow on the QP. If the underlying provider has a lower <b>MaxOutboundReadLimit</b> value  in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure, then the provider will cap the consumer supplied value to the provider maximum. If the peer has a lower <i>InboundReadLimit</i>, then the provider will use that value as the effective <i>OutboundReadLimit</i>. The     consumer can retrieve the effective <i>OutboundReadLimit</i> by calling the <i>NdkGetConnectionData</i> function (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439890">NDK_FN_GET_CONNECTION_DATA</a>).
 
 
 ### -param PVOID
@@ -123,7 +101,7 @@ The length, in bytes, of the private data that is provided in the <i>pPrivateDat
 
 ### -param RequestCompletion [in]
 
-A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>).
+A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>).
 
 
 ### -param RequestContext [in, optional]
@@ -171,7 +149,7 @@ The connect request was completed successfully.
 </dl>
 </td>
 <td width="60%">
- The operation is pending and will be completed later. The driver will call the specified <i>RequestCompletion</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>) function to complete the pending operation.
+ The operation is pending and will be completed later. The driver will call the specified <i>RequestCompletion</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>) function to complete the pending operation.
  
 
 </td>
@@ -282,19 +260,6 @@ An error occurred.
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 
@@ -302,20 +267,32 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439853">NDK_CONNECTOR_DISPATCH</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439890">NDK_FN_GET_CONNECTION_DATA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439912">NDK_FN_REQUEST_COMPLETION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439937">NDK_SHARED_ENDPOINT</a>
  
 
  
-
 

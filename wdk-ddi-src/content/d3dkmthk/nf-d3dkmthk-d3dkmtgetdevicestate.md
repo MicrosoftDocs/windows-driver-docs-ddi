@@ -7,7 +7,7 @@ old-location: display\d3dkmtgetdevicestate.htm
 old-project: display
 ms.assetid: 8ea84934-63a7-40bf-8523-ccd2b9e5aceb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTGetDeviceState, D3DKMTGetDeviceState function [Display Devices], OpenGL_Functions_396da637-bbc6-478c-8ec9-534d82691c45.xml, d3dkmthk/D3DKMTGetDeviceState, display.d3dkmtgetdevicestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_location:
 -	API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
 -	D3DKMTGetDeviceState
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTGetDeviceState function
@@ -55,26 +56,21 @@ req.typenames: D3DKMT_DRIVERVERSION
 The <b>D3DKMTGetDeviceState</b> function retrieves the state of a device.
 
 
-## -syntax
-
-
-````
-NTSTATUS D3DKMTGetDeviceState(
-  _Inout_ D3DKMT_GETDEVICESTATE *pData
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 
 
 #### - pData [in, out]
 
-[in/out] A pointer to a <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a> structure that describes parameters for retrieving the state of a device.
+[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a> structure that describes parameters for retrieving the state of a device.
 
 
 ## -returns
@@ -131,12 +127,11 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdevicestate.md">D3DKMT_GETDEVICESTATE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a>
  
 
  
-
 

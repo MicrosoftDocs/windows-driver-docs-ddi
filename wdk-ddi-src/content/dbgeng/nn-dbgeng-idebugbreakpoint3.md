@@ -7,8 +7,8 @@ old-location: debugger\idebugbreakpoint3.htm
 old-project: debugger
 ms.assetid: 42A31C23-9C02-48F6-83CC-CA017F76DE18
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging], described, dbgeng/IDebugBreakpoint3, debugger.idebugbreakpoint3
+ms.date: 4/24/2018
+ms.keywords: IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging],described, dbgeng/IDebugBreakpoint3, debugger.idebugbreakpoint3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -38,9 +38,10 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugBreakpoint3
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugBreakpoint3 interface

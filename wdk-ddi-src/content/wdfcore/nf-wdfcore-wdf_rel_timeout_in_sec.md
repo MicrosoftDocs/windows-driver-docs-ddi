@@ -39,10 +39,10 @@ api_location:
 -	None.dll
 api_name:
 -	WDF_REL_TIMEOUT_IN_SEC
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_REL_TIMEOUT_IN_SEC function
@@ -54,16 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_REL_TIMEOUT_IN_SEC</b> function converts a specified number of seconds to a relative time value.
-
-
-## -syntax
-
-
-````
-LONGLONG WDF_REL_TIMEOUT_IN_SEC(
-  _In_ ULONGLONG Time
-);
-````
 
 
 ## -parameters
@@ -114,16 +104,15 @@ requestSendOptions.Timeout = WDF_REL_TIMEOUT_IN_SEC(5);
 
 ## -see-also
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
 
 
 
-<a href="..\wdfcore\nf-wdfcore-wdf_abs_timeout_in_sec.md">WDF_ABS_TIMEOUT_IN_SEC</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551211">WDF_ABS_TIMEOUT_IN_SEC</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552491">WDF_REQUEST_SEND_OPTIONS</a>
  
 
  
-
 

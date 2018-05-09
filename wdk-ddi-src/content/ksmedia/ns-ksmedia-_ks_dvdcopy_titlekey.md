@@ -7,7 +7,7 @@ old-location: stream\ks_dvdcopy_titlekey.htm
 old-project: stream
 ms.assetid: 8f85bc55-d05b-4075-9ae5-ba5a5516eeb4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY structure [Streaming Media Devices], PKS_DVDCOPY_TITLEKEY, PKS_DVDCOPY_TITLEKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_TITLEKEY, dvdref_58692699-8652-436a-92d5-2284c4d30265.xml, ksmedia/KS_DVDCOPY_TITLEKEY, ksmedia/PKS_DVDCOPY_TITLEKEY, stream.ks_dvdcopy_titlekey"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DVDCOPY_TITLEKEY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY
 ---
@@ -50,19 +51,6 @@ req.typenames: KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY
 
 
 The KS_DVDCOPY_TITLEKEY structure is used to describe the title key information for the DVD copyright protection authentication process.
-
-
-## -syntax
-
-
-````
-typedef struct _KS_DVDCOPY_TITLEKEY {
-  ULONG KeyFlags;
-  ULONG ReservedNT[2];
-  UCHAR TitleKey[6];
-  UCHAR Reserved[2];
-} KS_DVDCOPY_TITLEKEY, *PKS_DVDCOPY_TITLEKEY;
-````
 
 
 ## -struct-fields
@@ -221,12 +209,11 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565148">KSPROPERTY_DVDCOPY_TITLE_KEY</a>
-
-
-
  
 
  
-
 

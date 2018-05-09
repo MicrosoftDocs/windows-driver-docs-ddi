@@ -7,7 +7,7 @@ old-location: display\d3dwddm2_2ddi_corelayer_devicecallbacks.htm
 old-project: display
 ms.assetid: B42DA194-690F-41A6-AC11-71224887A2E4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], d3d10umddi/D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, display.d3dwddm2_2ddi_corelayer_devicecallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS
 ---
@@ -50,19 +51,6 @@ req.typenames: D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS
 
 
 Specifies core layer device callback functions. 
-
-
-## -syntax
-
-
-````
-typedef struct D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS {
-  PFND3DWDDM2_2DDI_SHADERCACHE_GET_VALUE         pfnShaderCacheGetValue;
-  PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE       pfnShaderCacheStoreValue;
-  PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB pfnShaderCacheAddRefCb;
-  PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB pfnShaderCacheReleaseCb;
-} D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS;
-````
 
 
 ## -struct-fields

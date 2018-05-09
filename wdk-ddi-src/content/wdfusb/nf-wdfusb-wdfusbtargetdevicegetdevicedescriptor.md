@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfUsbTargetDeviceGetDeviceDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfUsbTargetDeviceGetDeviceDescriptor function
@@ -58,17 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbTargetDeviceGetDeviceDescriptor</b> method retrieves the USB device descriptor for the USB device that is associated with a specified framework USB device object.
 
 
-## -syntax
-
-
-````
-VOID WdfUsbTargetDeviceGetDeviceDescriptor(
-  _In_  WDFUSBDEVICE           UsbDevice,
-  _Out_ PUSB_DEVICE_DESCRIPTOR UsbDeviceDescriptor
-);
-````
-
-
 ## -parameters
 
 
@@ -76,12 +65,12 @@ VOID WdfUsbTargetDeviceGetDeviceDescriptor(
 
 ### -param UsbDevice [in]
 
-A handle to a USB device object that was obtained from a previous call to <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>.
+A handle to a USB device object that was obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 
 ### -param UsbDeviceDescriptor [out]
 
-A pointer to a caller-allocated <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a> structure that receives the USB device descriptor.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a> structure that receives the USB device descriptor.
 
 
 ## -returns
@@ -128,16 +117,15 @@ WdfUsbTargetDeviceGetDeviceDescriptor(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a>
  
 
  
-
 

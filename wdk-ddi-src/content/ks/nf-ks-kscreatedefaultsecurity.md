@@ -7,7 +7,7 @@ old-location: stream\kscreatedefaultsecurity.htm
 old-project: stream
 ms.assetid: 2992a62b-7c3c-4bf5-ba3a-26c26c419f98
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsCreateDefaultSecurity, KsCreateDefaultSecurity function [Streaming Media Devices], ks/KsCreateDefaultSecurity, ksfunc_ab036f47-0a15-4983-98b0-7277782f29e6.xml, stream.kscreatedefaultsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsCreateDefaultSecurity
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,17 +52,6 @@ req.typenames:
 
 
 The <b>KsCreateDefaultSecurity </b>function creates a security descriptor with default security, optionally inheriting parameters from a parent security descriptor.
-
-
-## -syntax
-
-
-````
-NTSTATUS KsCreateDefaultSecurity(
-  _In_opt_ PSECURITY_DESCRIPTOR ParentSecurity,
-  _Out_    PSECURITY_DESCRIPTOR *DefaultSecurity
-);
-````
 
 
 ## -parameters

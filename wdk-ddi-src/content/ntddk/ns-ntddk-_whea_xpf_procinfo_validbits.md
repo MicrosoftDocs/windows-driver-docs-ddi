@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_XPF_PROCINFO_VALIDBITS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_XPF_PROCINFO_VALIDBITS, *PWHEA_XPF_PROCINFO_VALIDBITS
 ---
@@ -49,25 +50,7 @@ req.typenames: WHEA_XPF_PROCINFO_VALIDBITS, *PWHEA_XPF_PROCINFO_VALIDBITS
 ## -description
 
 
-The WHEA_XPF_PROCINFO_VALIDBITS union describes which members of a <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure contain valid data.
-
-
-## -syntax
-
-
-````
-typedef union _WHEA_XPF_PROCINFO_VALIDBITS {
-  struct {
-    ULONGLONG CheckInfo  :1;
-    ULONGLONG TargetId  :1;
-    ULONGLONG RequesterId  :1;
-    ULONGLONG ResponderId  :1;
-    ULONGLONG InstructionPointer  :1;
-    ULONGLONG Reserved  :59;
-  };
-  ULONGLONG ValidBits;
-} WHEA_XPF_PROCINFO_VALIDBITS, *PWHEA_XPF_PROCINFO_VALIDBITS;
-````
+The WHEA_XPF_PROCINFO_VALIDBITS union describes which members of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a> structure contain valid data.
 
 
 ## -struct-fields
@@ -80,58 +63,57 @@ typedef union _WHEA_XPF_PROCINFO_VALIDBITS {
  
 
 
-### -field ValidBits
-
-A ULONGLONG representation of the contents of the WHEA_XPF_PROCINFO_VALIDBITS union.
-
-
-#### - CheckInfo
+### -field DUMMYSTRUCTNAME.CheckInfo
 
 A single bit that indicates that the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
-#### - InstructionPointer
+### -field DUMMYSTRUCTNAME.TargetId
 
-A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+A single bit that indicates that the <b>TargetId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
-#### - RequesterId
+### -field DUMMYSTRUCTNAME.RequesterId
 
 A single bit that indicates that the <b>RequesterId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
-#### - Reserved
-
-Reserved for system use.
-
-
-#### - ResponderId
+### -field DUMMYSTRUCTNAME.ResponderId
 
 A single bit that indicates that the <b>ResponderId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
-#### - TargetId
+### -field DUMMYSTRUCTNAME.InstructionPointer
 
-A single bit that indicates that the <b>TargetId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+Reserved for system use.
+
+
+### -field ValidBits
+
+A ULONGLONG representation of the contents of the WHEA_XPF_PROCINFO_VALIDBITS union.
 
 
 ## -remarks
 
 
 
-A WHEA_XPF_PROCINFO_VALIDBITS union is contained within the <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a> structure.
+A WHEA_XPF_PROCINFO_VALIDBITS union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo.md">WHEA_XPF_PROCINFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a>
  
 
  
-
 

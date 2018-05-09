@@ -7,8 +7,8 @@ old-location: display\pfnsetdisplayprivatedriverformatcb.htm
 old-project: display
 ms.assetid: 499e6de7-67cc-4834-bcec-4f3907b180f7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: D3Druntime_Functions_36bd86e3-96bb-4c68-85a1-a678a54daed4.xml, PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB, d3dumddi/pfnSetDisplayPrivateDriverFormatCb, display.pfnsetdisplayprivatedriverformatcb, pfnSetDisplayPrivateDriverFormatCb, pfnSetDisplayPrivateDriverFormatCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: D3Druntime_Functions_36bd86e3-96bb-4c68-85a1-a678a54daed4.xml, PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB, PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB callback, d3dumddi/pfnSetDisplayPrivateDriverFormatCb, display.pfnsetdisplayprivatedriverformatcb, pfnSetDisplayPrivateDriverFormatCb, pfnSetDisplayPrivateDriverFormatCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	pfnSetDisplayPrivateDriverFormatCb
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB callback
+# PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB callback function
 
 
 ## -description
 
 
 The <b>pfnSetDisplayPrivateDriverFormatCb</b> function changes the private-format attribute of a video present source.
-
-
-## -prototype
-
-
-````
-PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB pfnSetDisplayPrivateDriverFormatCb;
-
-__checkReturn HRESULT APIENTRY CALLBACK pfnSetDisplayPrivateDriverFormatCb(
-  _In_       HANDLE                                 hDevice,
-  _In_ const D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT *pData
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -87,7 +74,7 @@ A handle to the display device (graphics context).
 
 #### - pData [in]
 
-A pointer to a <a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setdisplayprivatedriverformat.md">D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT</a> structure that describes how to format a video present source. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544261">D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT</a> structure that describes how to format a video present source. 
 
 
 ## -returns
@@ -152,7 +139,7 @@ Changing the private-format attribute of a video present source is useful to acc
 
 If the call to <b>pfnSetDisplayPrivateDriverFormatCb</b> fails, the user-mode display driver should continue without changing the private-format attribute of the video present source. In the preceding example, the driver can either leave the shared primary as un-swizzled and have the back buffers swizzled or the driver can change the back buffers to the un-swizzled format.
 
-If the user-mode display driver receives the D3DDDIERR_INCOMPATIBLEPRIVATEFORMAT error from a call to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a> function, the driver can do one of the following:
+If the user-mode display driver receives the D3DDDIERR_INCOMPATIBLEPRIVATEFORMAT error from a call to the <a href="https://msdn.microsoft.com/a1f58757-809d-4351-8b1a-fd4420981c24">pfnSetDisplayModeCb</a> function, the driver can do one of the following:
 
 <ul>
 <li>
@@ -164,35 +151,34 @@ Call <b>pfnSetDisplayPrivateDriverFormatCb</b> and attempt to change the private
 
 </li>
 </ul>
-The user-mode display driver can call <b>pfnSetDisplayPrivateDriverFormatCb</b> only if the <b>Version</b> member of the <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a> structure was set to greater than seven when the display device (specified by the <i>hDevice</i> parameter) was created in a call to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a> function. 
+The user-mode display driver can call <b>pfnSetDisplayPrivateDriverFormatCb</b> only if the <b>Version</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure was set to greater than seven when the display device (specified by the <i>hDevice</i> parameter) was created in a call to the driver's <a href="https://msdn.microsoft.com/ce35bdac-af90-471f-af93-0e665be6c7f6">CreateDevice</a> function. 
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_setdisplayprivatedriverformat.md">D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+<a href="https://msdn.microsoft.com/ce35bdac-af90-471f-af93-0e665be6c7f6">CreateDevice</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544261">D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT</a>
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
 
 
 
+<a href="https://msdn.microsoft.com/a1f58757-809d-4351-8b1a-fd4420981c24">pfnSetDisplayModeCb</a>
  
 
  
-
 

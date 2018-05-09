@@ -7,7 +7,7 @@ old-location: kernel\exisresourceacquiredexclusivelite.htm
 old-project: kernel
 ms.assetid: 81c07809-1c66-4b68-b2d9-05992c778ae6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExIsResourceAcquiredExclusiveLite, ExIsResourceAcquiredExclusiveLite routine [Kernel-Mode Driver Architecture], k102_ef023047-60ff-42aa-8224-37e2cfbe9f7b.xml, kernel.exisresourceacquiredexclusivelite, wdm/ExIsResourceAcquiredExclusiveLite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExIsResourceAcquiredExclusiveLite
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExIsResourceAcquiredExclusiveLite function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ExIsResourceAcquiredExclusiveLite</b> routine returns whether the current thread has exclusive access to a given resource.
-
-
-## -syntax
-
-
-````
-BOOLEAN ExIsResourceAcquiredExclusiveLite(
-  _In_ PERESOURCE Resource
-);
-````
 
 
 ## -parameters
@@ -84,16 +74,15 @@ A pointer to the resource to be queried.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exacquireresourceexclusivelite.md">ExAcquireResourceExclusiveLite</a>
 
 
 
-<a href="..\wdm\nf-wdm-exisresourceacquiredsharedlite.md">ExIsResourceAcquiredSharedLite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544351">ExAcquireResourceExclusiveLite</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545477">ExIsResourceAcquiredSharedLite</a>
  
 
  
-
 

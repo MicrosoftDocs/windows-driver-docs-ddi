@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: OnWorkItem, OnWorkItem callback function, PFN_WUDF_WORKITEM, PFN_WUDF_WORKITEM callback function pointer, WUDF_WORKITEM_FUNCTION, umdf.onworkitem, wdf.onworkitem, wudfworkitem/OnWorkItem, wudfworkitem/PFN_WUDF_WORKITEM
+ms.keywords: OnWorkItem, OnWorkItem callback function, PFN_WUDF_WORKITEM, PFN_WUDF_WORKITEM callback function pointer, WUDF_WORKITEM_FUNCTION, WUDF_WORKITEM_FUNCTION callback, umdf.onworkitem, wdf.onworkitem, wudfworkitem/OnWorkItem, wudfworkitem/PFN_WUDF_WORKITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	Wudfworkitem.h
 api_name:
 -	WUDF_WORKITEM_FUNCTION
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UNICODE_STRING
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# WUDF_WORKITEM_FUNCTION callback
+# WUDF_WORKITEM_FUNCTION callback function
 
 
 ## -description
@@ -55,21 +55,6 @@ req.product: Windows 10 or later.
 A driver's <i>OnWorkItem</i> event callback function performs the work that is associated with a specified work item.
 
 
-## -prototype
-
-
-````
-WUDF_WORKITEM_FUNCTION OnWorkItem;
-
-void OnWorkItem(
-  _In_ IWDFWorkItem *pWorkItem
-)
-{ ... }
-
-typedef void WUDF_WORKITEM_FUNCTION;
-````
-
-
 ## -parameters
 
 
@@ -77,7 +62,7 @@ typedef void WUDF_WORKITEM_FUNCTION;
 
 ### -param *pWorkItem [in]
 
-A pointer to an  <a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a> interface.
+A pointer to an  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406734">IWDFWorkItem</a> interface.
 
 
 ## -returns
@@ -93,7 +78,7 @@ This callback function does not return a value.
 
 
 
-To register an <i>OnWorkItem</i> callback function, your driver must place the callback function's address in a <a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>.
+To register an <i>OnWorkItem</i> callback function, your driver must place the callback function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464094">WUDF_WORKITEM_CONFIG</a> structure before calling <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>.
 
 Typically, a driver's <i>OnWorkItem</i> callback function performs tasks that are specified by information that the driver stored in the context memory of a work-item object.
 
@@ -158,11 +143,6 @@ Then, implement your callback function as follows:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
-
-
-
-<a href="..\wudfworkitem\ns-wudfworkitem-_wudf_workitem_config.md">WUDF_WORKITEM_CONFIG</a>
 
 
 
@@ -170,8 +150,12 @@ Then, implement your callback function as follows:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560210">IWDFObject::DeleteWdfObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464094">WUDF_WORKITEM_CONFIG</a>
  
 
  
-
 

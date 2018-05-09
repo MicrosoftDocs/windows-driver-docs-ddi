@@ -7,7 +7,7 @@ old-location: storage\iscsi_redirectportalinfo.htm
 old-project: storage
 ms.assetid: 90d9c5e9-4bdf-4c7a-b5ac-54e1f94818bf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: "*PISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo structure [Storage Devices], PISCSI_RedirectPortalInfo, PISCSI_RedirectPortalInfo structure pointer [Storage Devices], _ISCSI_RedirectPortalInfo, iscsimgt/ISCSI_RedirectPortalInfo, iscsimgt/PISCSI_RedirectPortalInfo, storage.iscsi_redirectportalinfo, structs-iSCSI_6b7dc6ac-b421-4454-aa8f-48f52c9b4350.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	iscsimgt.h
 api_name:
 -	ISCSI_RedirectPortalInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: ISCSI_RedirectPortalInfo, *PISCSI_RedirectPortalInfo
 ---
@@ -50,22 +51,6 @@ req.typenames: ISCSI_RedirectPortalInfo, *PISCSI_RedirectPortalInfo
 
 
 This ISCSI_RedirectPortalInfo structure contains information about a collection of iSCSI portals that can be used during portal hopping or portal redirect operations. If a target portal is not available for login, the initiator can "hop" through the list of target portals that it discovered and that can be used for login operations. That is, the initiator will continue to try the list of portals that are available until it finds one that can be used for login, so it can then log in to the available target portal.
-
-
-## -syntax
-
-
-````
-typedef struct _ISCSI_RedirectPortalInfo {
-  ULONGLONG        UniqueConnectionId;
-  ISCSI_IP_Address OriginalIPAddr;
-  ULONG            OriginalPort;
-  ISCSI_IP_Address RedirectedIPAddr;
-  ULONG            RedirectedPort;
-  UCHAR            Redirected;
-  UCHAR            TemporaryRedirect;
-} ISCSI_RedirectPortalInfo, *PISCSI_RedirectPortalInfo;
-````
 
 
 ## -struct-fields
@@ -110,7 +95,6 @@ This value is <b>true</b> if redirection is temporary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
@@ -118,8 +102,8 @@ This value is <b>true</b> if redirection is temporary.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
  
 
  
-
 

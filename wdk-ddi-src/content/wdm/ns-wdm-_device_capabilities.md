@@ -7,7 +7,7 @@ old-location: kernel\device_capabilities.htm
 old-project: kernel
 ms.assetid: 1edae050-8e72-42e7-9dc9-8f449699969c
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: DEVICE_CAPABILITIES, DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], PDEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _DEVICE_CAPABILITIES, kernel.device_capabilities, kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, wdm/DEVICE_CAPABILITIES, wdm/PDEVICE_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	DEVICE_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DEVICE_CAPABILITIES, PDEVICE_CAPABILITIES
-req.product: Windows 10 or later.
 ---
 
 # _DEVICE_CAPABILITIES structure
@@ -51,45 +51,6 @@ req.product: Windows 10 or later.
 
 
 A <b>DEVICE_CAPABILITIES</b> structure describes PnP and power capabilities of a device. This structure is returned in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a> IRP.
-
-
-## -syntax
-
-
-````
-typedef struct _DEVICE_CAPABILITIES {
-  USHORT             Size;
-  USHORT             Version;
-  ULONG              DeviceD1  :1;
-  ULONG              DeviceD2  :1;
-  ULONG              LockSupported  :1;
-  ULONG              EjectSupported  :1;
-  ULONG              Removable  :1;
-  ULONG              DockDevice  :1;
-  ULONG              UniqueID  :1;
-  ULONG              SilentInstall  :1;
-  ULONG              RawDeviceOK  :1;
-  ULONG              SurpriseRemovalOK  :1;
-  ULONG              WakeFromD0  :1;
-  ULONG              WakeFromD1  :1;
-  ULONG              WakeFromD2  :1;
-  ULONG              WakeFromD3  :1;
-  ULONG              HardwareDisabled  :1;
-  ULONG              NonDynamic  :1;
-  ULONG              WarmEjectSupported  :1;
-  ULONG              NoDisplayInUI  :1;
-  ULONG              Reserved1  :1;
-  ULONG              Reserved  :13;
-  ULONG              Address;
-  ULONG              UINumber;
-  DEVICE_POWER_STATE DeviceState[POWER_SYSTEM_MAXIMUM];
-  SYSTEM_POWER_STATE SystemWake;
-  DEVICE_POWER_STATE DeviceWake;
-  ULONG              D1Latency;
-  ULONG              D2Latency;
-  ULONG              D3Latency;
-} DEVICE_CAPABILITIES, *PDEVICE_CAPABILITIES;
-````
 
 
 ## -struct-fields
@@ -212,17 +173,20 @@ Do not display the device in the user interface. If this bit is set, the device 
 
 
 ### -field Reserved1
-
+Reserved for system use.
 
 ### -field WakeFromInterrupt
-
- 
-
+Indicates whether the driver or ACPI is responsible for handling the wake event. If set, the driver is responsible for handling the wake event. ACPI arms the device when it receives an IRP_MN_WAIT_WAKE IRP, but does not connect the interrupt, complete the IRP to notify the device stack of a wake event.
 
 ### -field SecureDevice
-
+Indicates whether the device is a secure device.
  
+### -field ChildOfVgaEnabledBridge
+For a VGA device, indicates whether the parent bridge has the VGA decoding bit set.
+ 
+### -field DecodeIoOnBoot
 
+Indictates whether the device has IO decode enabled on boot. 
 
 ### -field Reserved
 
@@ -348,7 +312,6 @@ For more information about using the <b>DEVICE_CAPABILITIES</b> structure to des
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>
 
 
 
@@ -356,8 +319,8 @@ For more information about using the <b>DEVICE_CAPABILITIES</b> structure to des
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559618">PNP_DEVICE_STATE</a>
  
 
  
-
 

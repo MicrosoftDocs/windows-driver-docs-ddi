@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_device_config.htm
 old-project: usbref
 ms.assetid: 74de7f2a-8738-472b-8a22-983a82e29fcb
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG structure pointer [Buses], UCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG structure [Buses], _UCMTCPCI_DEVICE_CONFIG, buses.ucmtcpci_device_config, ucmtcpcidevice/PUCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	ucmtcpcidevice.h
 api_name:
 -	UCMTCPCI_DEVICE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: UCMTCPCI_DEVICE_CONFIG, *PUCMTCPCI_DEVICE_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _UCMTCPCI_DEVICE_CONFIG structure
@@ -51,19 +51,9 @@ req.product: Windows 10 or later.
 
 
 
-                 Used in the client driver's call to <a href="..\ucmtcpcidevice\nf-ucmtcpcidevice-ucmtcpcideviceinitialize.md">UcmTcpciDeviceInitialize</a>. 
-             Call <a href="..\ucmtcpcidevice\nf-ucmtcpcidevice-ucmtcpci_device_config_init.md">UCMTCPCI_DEVICE_CONFIG_INIT</a> to initialize this structure.
+                 Used in the client driver's call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt805841">UcmTcpciDeviceInitialize</a>. 
+             Call <a href="https://msdn.microsoft.com/library/windows/hardware/mt805848">UCMTCPCI_DEVICE_CONFIG_INIT</a> to initialize this structure.
              
-
-
-## -syntax
-
-
-````
-typedef struct _UCMTCPCI_DEVICE_CONFIG {
-  ULONG Size;
-} UCMTCPCI_DEVICE_CONFIG, *PUCMTCPCI_DEVICE_CONFIG;
-````
 
 
 ## -struct-fields
@@ -79,12 +69,11 @@ Size of this structure.
 
 ## -see-also
 
-<a href="..\ucmtcpcidevice\nf-ucmtcpcidevice-ucmtcpcideviceinitialize.md">UcmTcpciDeviceInitialize</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt805841">UcmTcpciDeviceInitialize</a>
  
 
  
-
 

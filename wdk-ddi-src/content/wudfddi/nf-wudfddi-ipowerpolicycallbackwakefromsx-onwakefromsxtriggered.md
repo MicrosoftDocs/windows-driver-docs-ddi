@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered
-title: IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered method
+title: IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
 author: windows-driver-content
 description: A driver's OnWakeFromSxTriggered event callback function informs the driver that its device, which had previously entered a low-power device state because system power was reduced, might have triggered a wake signal.
 old-location: wdf\ipowerpolicycallbackwakefromsx_onwakefromsxtriggered.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b2379f2d-61a0-4741-a375-c17b95b0faf6
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPowerPolicyCallbackWakeFromSx, IPowerPolicyCallbackWakeFromSx interface, OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, OnWakeFromSxTriggered method, OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx interface, OnWakeFromSxTriggered,IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered, UMDFDeviceObjectRef_a92e7dc1-2f1e-4da5-ae71-f57160aa22a0.xml, umdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
+ms.keywords: IPowerPolicyCallbackWakeFromSx interface,OnWakeFromSxTriggered method, IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered, IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered, OnWakeFromSxTriggered, OnWakeFromSxTriggered method, OnWakeFromSxTriggered method,IPowerPolicyCallbackWakeFromSx interface, UMDFDeviceObjectRef_a92e7dc1-2f1e-4da5-ae71-f57160aa22a0.xml, umdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wdf.ipowerpolicycallbackwakefromsx_onwakefromsxtriggered, wudfddi/IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	Wudfddi.h
 api_name:
 -	IPowerPolicyCallbackWakeFromSx.OnWakeFromSxTriggered
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered method
+# IPowerPolicyCallbackWakeFromSx::OnWakeFromSxTriggered
 
 
 ## -description
@@ -55,16 +55,6 @@ req.product: Windows 10 or later.
 A driver's <b>OnWakeFromSxTriggered</b> event callback function informs the driver that its device, which had previously entered a low-power device state because system power was reduced, might have triggered a wake signal.
 
 
-## -syntax
-
-
-````
-void OnWakeFromSxTriggered(
-  [in] IWDFDevice *pWdfDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +62,7 @@ void OnWakeFromSxTriggered(
 
 ### -param pWdfDevice [in]
 
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
+A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
 
 
 ## -returns
@@ -88,7 +78,7 @@ None.
 
 
 
-Your driver must provide an <b>OnWakeFromSxTriggered</b> callback function if the driver supports the <a href="..\wudfddi\nn-wudfddi-ipowerpolicycallbackwakefromsx.md">IPowerPolicyCallbackWakeFromSx</a> interface. 
+Your driver must provide an <b>OnWakeFromSxTriggered</b> callback function if the driver supports the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556825">IPowerPolicyCallbackWakeFromSx</a> interface. 
 
 If the driver has registered this callback, the framework calls it after calling the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a> callback function and before calling the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556828">IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx</a> callback function.
 
@@ -101,7 +91,10 @@ For more information about this callback function, see <a href="https://docs.mic
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipowerpolicycallbackwakefromsx.md">IPowerPolicyCallbackWakeFromSx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556825">IPowerPolicyCallbackWakeFromSx</a>
 
 
 
@@ -110,11 +103,7 @@ For more information about this callback function, see <a href="https://docs.mic
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556828">IPowerPolicyCallbackWakeFromSx::OnDisarmWakeFromSx</a>
-
-
-
  
 
  
-
 

@@ -7,8 +7,8 @@ old-location: display\iasetvertexbuffers.htm
 old-project: display
 ms.assetid: 3d5a7ea1-08c2-4594-93bc-97b985cd16dc
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IaSetVertexBuffers, IaSetVertexBuffers callback function [Display Devices], PFND3D10DDI_IA_SETVERTEXBUFFERS, UserModeDisplayDriverDx10_Functions_12104a04-1497-42c6-a5e1-6573b33a43d3.xml, d3d10umddi/IaSetVertexBuffers, display.iasetvertexbuffers
+ms.date: 4/16/2018
+ms.keywords: IaSetVertexBuffers, IaSetVertexBuffers callback function [Display Devices], PFND3D10DDI_IA_SETVERTEXBUFFERS, PFND3D10DDI_IA_SETVERTEXBUFFERS callback, UserModeDisplayDriverDx10_Functions_12104a04-1497-42c6-a5e1-6573b33a43d3.xml, d3d10umddi/IaSetVertexBuffers, display.iasetvertexbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	IaSetVertexBuffers
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_IA_SETVERTEXBUFFERS callback
+# PFND3D10DDI_IA_SETVERTEXBUFFERS callback function
 
 
 ## -description
@@ -52,30 +53,12 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 The <i>IaSetVertexBuffers</i> function sets vertex buffers for an input assembler.
 
 
-## -prototype
-
-
-````
-PFND3D10DDI_IA_SETVERTEXBUFFERS IaSetVertexBuffers;
-
-VOID APIENTRY IaSetVertexBuffers(
-  _In_       D3D10DDI_HDEVICE   hDevice,
-  _In_       UINT               StartBuffer,
-  _In_       UINT               NumBuffers,
-  _In_ const D3D10DDI_HRESOURCE *phBuffers,
-  _In_ const UINT               *pStrides,
-  _In_ const UINT               *pOffsets
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
 ### -param StartSlot
@@ -126,7 +109,7 @@ VOID APIENTRY IaSetVertexBuffers(
 
 None
 
-The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
+The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 
 
@@ -135,23 +118,22 @@ The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror
 
 
 
-The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <i>IaSetVertexBuffers</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
+The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> function, the Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <i>IaSetVertexBuffers</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
 
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541833">D3D10DDI_DEVICEFUNCS</a>
 
 
 
+<a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a>
  
 
  
-
 

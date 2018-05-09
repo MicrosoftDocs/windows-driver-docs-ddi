@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.RebootRestart
-title: IWDTFSystemAction2::RebootRestart method
+title: IWDTFSystemAction2::RebootRestart
 author: windows-driver-content
 description: Restart the system and the current test.
 old-location: dtf\iwdtfsystemaction2_rebootrestart.htm
 old-project: dtf
 ms.assetid: E03A617F-BC5E-41D6-B22F-CFE9FE11D7E1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], RebootRestart method, IWDTFSystemAction2::RebootRestart, Microsoft.WDTF.IWDTFSystemAction2.RebootRestart, Microsoft::WDTF::IWDTFSystemAction2::RebootRestart, RebootRestart method [Windows Device Testing Framework], RebootRestart method [Windows Device Testing Framework], IWDTFSystemAction2 interface, RebootRestart,IWDTFSystemAction2.RebootRestart, dtf.iwdtfsystemaction2_rebootrestart, wdtfsystemaction/IWDTFSystemAction2::RebootRestart
+ms.date: 4/4/2018
+ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],RebootRestart method, IWDTFSystemAction2.RebootRestart, IWDTFSystemAction2::RebootRestart, Microsoft.WDTF.IWDTFSystemAction2.RebootRestart, Microsoft::WDTF::IWDTFSystemAction2::RebootRestart, RebootRestart, RebootRestart method [Windows Device Testing Framework], RebootRestart method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_rebootrestart, wdtfsystemaction/IWDTFSystemAction2::RebootRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,27 +38,19 @@ api_location:
 -	WDTFSystemAction.Interop.dll
 api_name:
 -	IWDTFSystemAction2.RebootRestart
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSystemAction2::RebootRestart method
+# IWDTFSystemAction2::RebootRestart
 
 
 ## -description
 
 
 Restart the system and the current test.
-
-
-## -syntax
-
-
-````
-HRESULT RebootRestart();
-````
 
 
 ## -parameters
@@ -79,12 +71,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439302">IWDTFSystemAction2</a>
  
 
  
-
 

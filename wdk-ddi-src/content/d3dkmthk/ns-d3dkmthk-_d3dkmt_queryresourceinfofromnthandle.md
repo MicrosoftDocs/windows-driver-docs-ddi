@@ -7,7 +7,7 @@ old-location: display\d3dkmt_queryresourceinfofromnthandle.htm
 old-project: display
 ms.assetid: 098fe3b9-1169-4ff6-8822-0eb277cb73f9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure [Display Devices], _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, display.d3dkmt_queryresourceinfofromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 ---
@@ -50,22 +51,6 @@ req.typenames: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 
 
 Describes information that is required to map a global NT handle to resource information.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE {
-  D3DKMT_HANDLE hDevice;
-  HANDLE        hNtHandle;
-  VOID          *pPrivateRuntimeData;
-  UINT          PrivateRuntimeDataSize;
-  UINT          TotalPrivateDriverDataSize;
-  UINT          ResourcePrivateDriverDataSize;
-  UINT          NumAllocations;
-} D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE;
-````
 
 
 ## -struct-fields
@@ -112,12 +97,11 @@ typedef struct _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtqueryresourceinfofromnthandle.md">D3DKMTQueryResourceInfoFromNtHandle</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439446">D3DKMTQueryResourceInfoFromNtHandle</a>
  
 
  
-
 

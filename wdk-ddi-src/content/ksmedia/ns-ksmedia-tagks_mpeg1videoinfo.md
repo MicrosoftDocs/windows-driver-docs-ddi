@@ -7,7 +7,7 @@ old-location: stream\ks_mpeg1videoinfo.htm
 old-project: stream
 ms.assetid: 301b954a-4e50-4a04-a575-17d7d54fa691
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_MPEG1VIDEOINFO, KS_MPEG1VIDEOINFO, KS_MPEG1VIDEOINFO structure [Streaming Media Devices], PKS_MPEG1VIDEOINFO, PKS_MPEG1VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_MPEG1VIDEOINFO, ksmedia/PKS_MPEG1VIDEOINFO, stream.ks_mpeg1videoinfo, tagKS_MPEG1VIDEOINFO, vidcapstruct_5c9e7f76-f279-49fb-9ad8-f23b7741d685.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_MPEG1VIDEOINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_MPEG1VIDEOINFO, *PKS_MPEG1VIDEOINFO
 ---
@@ -52,19 +53,6 @@ req.typenames: KS_MPEG1VIDEOINFO, *PKS_MPEG1VIDEOINFO
 The KS_MPEG1VIDEOINFO structure describes an MPEG-1 video stream.
 
 
-## -syntax
-
-
-````
-typedef struct tagKS_MPEG1VIDEOINFO {
-  KS_VIDEOINFOHEADER hdr;
-  DWORD              dwStartTimeCode;
-  DWORD              cbSequenceHeader;
-  BYTE               bSequenceHeader[1];
-} KS_MPEG1VIDEOINFO, *PKS_MPEG1VIDEOINFO;
-````
-
-
 ## -struct-fields
 
 
@@ -72,7 +60,7 @@ typedef struct tagKS_MPEG1VIDEOINFO {
 
 ### -field hdr
 
-Specifies a <a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a> structure that describes the details of the video stream.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567700">KS_VIDEOINFOHEADER</a> structure that describes the details of the video stream.
 
 
 ### -field dwStartTimeCode
@@ -92,12 +80,11 @@ The length of the <b>bSequenceHeader</b> member, in bytes.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfoheader.md">KS_VIDEOINFOHEADER</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567700">KS_VIDEOINFOHEADER</a>
  
 
  
-
 

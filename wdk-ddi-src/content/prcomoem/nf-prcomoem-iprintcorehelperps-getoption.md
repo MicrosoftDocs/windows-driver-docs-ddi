@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelperPS.GetOption
-title: IPrintCoreHelperPS::GetOption method
+title: IPrintCoreHelperPS::GetOption
 author: windows-driver-content
 description: The IPrintCoreHelperPS::GetOption method gets a specified option for a given feature.
 old-location: print\iprintcorehelperps_getoption.htm
 old-project: print
 ms.assetid: fa212b86-89ae-4d22-a3ff-ebcc6100874b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetOption method [Print Devices], GetOption method [Print Devices], IPrintCoreHelperPS interface, GetOption,IPrintCoreHelperPS.GetOption, IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], GetOption method, IPrintCoreHelperPS::GetOption, prcomoem/IPrintCoreHelperPS::GetOption, print.iprintcorehelperps_getoption, print_unidrv-pscript_allplugins_86ad53d5-280d-4aa5-9780-dd2b946f9880.xml
+ms.date: 4/20/2018
+ms.keywords: GetOption, GetOption method [Print Devices], GetOption method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetOption method, IPrintCoreHelperPS.GetOption, IPrintCoreHelperPS::GetOption, prcomoem/IPrintCoreHelperPS::GetOption, print.iprintcorehelperps_getoption, print_unidrv-pscript_allplugins_86ad53d5-280d-4aa5-9780-dd2b946f9880.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,32 +38,19 @@ api_location:
 -	Prcomoem.h
 api_name:
 -	IPrintCoreHelperPS.GetOption
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelperPS::GetOption method
+# IPrintCoreHelperPS::GetOption
 
 
 ## -description
 
 
 The <b>IPrintCoreHelperPS::GetOption</b> method gets a specified option for a given feature.
-
-
-## -syntax
-
-
-````
-STDMETHOD GetOption(
-  [in, optional] CONST DEVMODE *pDevmode,
-  [in]           DWORD         cbSize,
-  [in]           PCSTR         pszFeatureRequested,
-  [out]          PCSTR         *ppszOption
-);
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ STDMETHOD GetOption(
 
 ### -param pDevmode [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>structure. If this pointer is provided, <b>IPrintCoreHelperPS::GetOption</b> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="..\winddiui\nf-winddiui-drvdocumentpropertysheets.md">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>structure. If this pointer is provided, <b>IPrintCoreHelperPS::GetOption</b> should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider or from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>, this parameter is required. In most other situations, the parameter should be <b>NULL</b>. When the core driver sets <i>pDevmode</i> to <b>NULL</b>, it modifies its internal state rather than that of the passed-in DEVMODEW structure. This is required during operations such as full UI replacement, where the DEVMODEW structure returned by a DDI, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff548548">DrvDocumentPropertySheets</a>, is being serviced by the core driver's UI module.
 
 
 ### -param cbSize [in]
@@ -178,20 +165,19 @@ The caller should not free the string that is pointed to by <i>ppszOption</i> an
 
 ## -see-also
 
+
+
+
+<a href="https://msdn.microsoft.com/2be594f1-1eb1-42e0-a345-ee7edf4d96dd">IPrintCoreHelperPS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551987">IPrintCoreHelperPS::EnumOptions</a>
 
 
 
-<a href="..\prcomoem\nn-prcomoem-iprintcorehelperps.md">IPrintCoreHelperPS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552912">IPrintCoreHelperPS::SetOptions</a>
-
-
-
  
 
  
-
 

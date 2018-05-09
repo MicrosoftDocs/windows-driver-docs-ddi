@@ -7,7 +7,7 @@ old-location: netvista\ndismderegisterinterruptex.htm
 old-project: netvista
 ms.assetid: bc0718b6-4c71-41a8-bab6-a52991b284d9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMDeregisterInterruptEx, NdisMDeregisterInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterInterruptEx, ndis_interrupts_functions_ref_51574ad2-1b99-4238-b6a3-e427c321cd16.xml, netvista.ndismderegisterinterruptex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisMDeregisterInterruptEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMDeregisterInterruptEx function
@@ -52,18 +53,8 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 Miniport drivers call 
   <b>NdisMDeregisterInterruptEx</b> to release resources that were previously allocated with the 
-  <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">
+  <a href="https://msdn.microsoft.com/db0b3d51-5bbb-45fb-8c45-dda8c2212b5f">
   NdisMRegisterInterruptEx</a> function.
-
-
-## -syntax
-
-
-````
-VOID NdisMDeregisterInterruptEx(
-  _In_ NDIS_HANDLE NdisInterruptHandle
-);
-````
 
 
 ## -parameters
@@ -93,20 +84,20 @@ None
 <b>NdisMDeregisterInterruptEx</b> releases the resources that were allocated in 
     <b>NdisMRegisterInterruptEx</b>. After 
     <b>NdisMDeregisterInterruptEx</b> returns, NDIS will not call the miniport driver's 
-    <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a> function or 
-    <a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a> function.
+    <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function or 
+    <a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a> function.
 
 A miniport driver can call 
     <b>NdisMDeregisterInterruptEx</b> from its 
-    <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> or 
-    <a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a> function only if 
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> or 
+    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function only if 
     <i>MiniportInitializeEx</i> previously made a successful call to 
     <b>NdisMRegisterInterruptEx</b>.
 
 The miniport driver should disable its NIC from generating interrupts before it calls 
     <b>NdisMDeregisterInterruptEx</b>. After 
     <b>NdisMDeregisterInterruptEx</b> returns control, the miniport driver cannot call the 
-    <a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+    <a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
     NdisMSynchronizeWithInterruptEx</a> function.
 
 
@@ -114,33 +105,32 @@ The miniport driver should disable its NIC from generating interrupts before it 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismsynchronizewithinterruptex.md">
+<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInetrrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563649">NdisMRegisterInterruptEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
    NdisMSynchronizeWithInterruptEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
-
-
-
  
 
  
-
 

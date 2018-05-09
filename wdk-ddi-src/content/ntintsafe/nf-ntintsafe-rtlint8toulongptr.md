@@ -7,7 +7,7 @@ old-location: kernel\rtlint8toulongptr.htm
 old-project: kernel
 ms.assetid: C406C404-1A6D-4D83-9D71-BC2980C1A84D
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlInt8ToULongPtr, RtlInt8ToULongPtr function [Kernel-Mode Driver Architecture], kernel.rtlint8toulongptr, ntintsafe/RtlInt8ToULongPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlInt8ToULongPtr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlInt8ToULongPtr function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>INT8</b> to a value of type <b>ULONG_PTR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlInt8ToULongPtr(
-  _In_  INT8      i8Operand,
-  _Out_ ULONG_PTR *pulResult
-);
-````
 
 
 ## -parameters

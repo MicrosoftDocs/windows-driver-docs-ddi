@@ -7,7 +7,7 @@ old-location: storage\storportinitializespinlock.htm
 old-project: storage
 ms.assetid: 150B1ED3-572A-4986-BED6-628ED6C54CCF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortInitializeSpinlock, StorPortInitializeSpinlock routine [Storage Devices], storage.storportinitializespinlock, storport/StorPortInitializeSpinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortInitializeSpinlock
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortInitializeSpinlock function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>StorPortInitializeSpinLock </b>routine initializes a variable of type <b>STOR_KSPIN_LOCK</b>.
-
-
-## -syntax
-
-
-````
-ULONG StorPortInitializeSpinlock(
-  _In_  PVOID            HwDeviceExtension,
-  _Out_ PSTOR_KSPIN_LOCK Lock
-);
-````
 
 
 ## -parameters
@@ -135,7 +124,7 @@ A pointer in <i>ListHead</i> or <i>Result</i> is <b>NULL</b>.
 
 
 
-This routine must be called before an initial call to <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>, to any other support routine that requires a spin lock as an argument.
+This routine must be called before an initial call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>, to any other support routine that requires a spin lock as an argument.
 
 For more information about spin locks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563830">Spin Locks</a>.
 
@@ -144,15 +133,10 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportreleasespinlock.md">StorPortReleaseSpinLock</a>
 
 
 
-<a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567494">StorPortReleaseMSISpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567023">StorPortAcquireMSISpinLock</a>
 
 
 
@@ -160,8 +144,12 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567494">StorPortReleaseMSISpinLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567496">StorPortReleaseSpinLock</a>
  
 
  
-
 

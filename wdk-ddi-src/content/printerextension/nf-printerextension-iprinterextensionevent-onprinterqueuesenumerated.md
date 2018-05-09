@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterExtensionEvent.OnPrinterQueuesEnumerated
-title: IPrinterExtensionEvent::OnPrinterQueuesEnumerated method
+title: IPrinterExtensionEvent::OnPrinterQueuesEnumerated
 author: windows-driver-content
 description: Called when printer queues are enumerated.
 old-location: print\iprinterextensionevent_onprinterqueuesenumerated.htm
 old-project: print
 ms.assetid: 947063C6-563A-4BB7-918E-479941B4583F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], OnPrinterQueuesEnumerated method, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated method [Print Devices], OnPrinterQueuesEnumerated method [Print Devices], IPrinterExtensionEvent interface, OnPrinterQueuesEnumerated,IPrinterExtensionEvent.OnPrinterQueuesEnumerated, print.iprinterextensionevent_onprinterqueuesenumerated, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated
+ms.date: 4/20/2018
+ms.keywords: IPrinterExtensionEvent interface [Print Devices],OnPrinterQueuesEnumerated method, IPrinterExtensionEvent.OnPrinterQueuesEnumerated, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated method [Print Devices], OnPrinterQueuesEnumerated method [Print Devices],IPrinterExtensionEvent interface, print.iprinterextensionevent_onprinterqueuesenumerated, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Printerextension.h
 api_name:
 -	IPrinterExtensionEvent.OnPrinterQueuesEnumerated
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterExtensionEvent::OnPrinterQueuesEnumerated method
+# IPrinterExtensionEvent::OnPrinterQueuesEnumerated
 
 
 ## -description
 
 
 Called when printer queues are enumerated.
-
-
-## -syntax
-
-
-````
-HRESULT OnPrinterQueuesEnumerated(
-  [in] IPrinterExtensionContextCollection *pContextCollection
-);
-````
 
 
 ## -parameters
@@ -70,7 +60,7 @@ HRESULT OnPrinterQueuesEnumerated(
 
 ### -param pContextCollection [in]
 
-Pointer to <a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a> object.
+Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/hh846191">IPrinterExtensionContextCollection</a> object.
 
 
 ## -returns
@@ -93,20 +83,19 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontextcollection.md">IPrinterExtensionContextCollection</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterextensionevent.md">IPrinterExtensionEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh846191">IPrinterExtensionContextCollection</a>
 
 
 
+<a href="https://msdn.microsoft.com/A0F4DB51-D68E-4516-833A-7E984247796B">IPrinterExtensionEvent</a>
  
 
  
-
 

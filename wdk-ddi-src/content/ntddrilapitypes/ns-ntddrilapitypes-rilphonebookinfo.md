@@ -7,7 +7,7 @@ old-location: netvista\rilphonebookinfo.htm
 old-project: netvista
 ms.assetid: 626bfc9b-6d84-4b8c-89eb-c635d0cb61f0
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILPHONEBOOKINFO, RILPHONEBOOKINFO, RILPHONEBOOKINFO structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookinfo, ntddrilapitypes/RILPHONEBOOKINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ntddrilapitypes.h
 api_name:
 -	RILPHONEBOOKINFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: RILPHONEBOOKINFO, *LPRILPHONEBOOKINFO
 ---
@@ -50,33 +51,6 @@ req.typenames: RILPHONEBOOKINFO, *LPRILPHONEBOOKINFO
 
 
 This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
-
-
-## -syntax
-
-
-````
-typedef struct _RILPHONEBOOKINFO {
-  DWORD  cbSize;
-  DWORD  dwParams;
-  DWORD  dwUsed;
-  DWORD  dwTotal;
-  DWORD  dwMaxAddressLength;
-  DWORD  dwMaxTextLength;
-  DWORD  dwMaxAdditionalNumbers;
-  DWORD  dwMaxAdditionalNumberLength;
-  DWORD  dwMaxAdditionalNumberTextLength;
-  DWORD  dwUsedAdditionalNumberStrings;
-  DWORD  dwTotalAdditionalNumberStrings;
-  DWORD  dwMaxEmails;
-  DWORD  dwMaxEmailAddressLength;
-  DWORD  dwMaxGroups;
-  DWORD  dwMaxGroupStringLength;
-  DWORD  dwUsedGroupStrings;
-  DWORD  dwTotalGroupStrings;
-  DWORD  dwMaxSecondNameStringLength;
-} RILPHONEBOOKINFO, RILPHONEBOOKINFO;
-````
 
 
 ## -struct-fields

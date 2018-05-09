@@ -7,7 +7,7 @@ old-location: stream\ks_dvd_yuv.htm
 old-project: stream
 ms.assetid: 9b155d09-6fb2-4c6c-bde6-7eadeb09bc40
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_DVD_YUV, KS_DVD_YUV, KS_DVD_YUV structure [Streaming Media Devices], PKS_DVD_YUV, PKS_DVD_YUV structure pointer [Streaming Media Devices], _KS_DVD_YUV, dvdref_ea41e501-8a59-4d54-8dde-792ce2673b8c.xml, ksmedia/KS_DVD_YUV, ksmedia/PKS_DVD_YUV, stream.ks_dvd_yuv"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KS_DVD_YUV
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_DVD_YUV, *PKS_DVD_YUV
 ---
@@ -50,19 +51,6 @@ req.typenames: KS_DVD_YUV, *PKS_DVD_YUV
 
 
 The KS_DVD_YUV structure is used to describe a color in the YUV colorspace.
-
-
-## -syntax
-
-
-````
-typedef struct _KS_DVD_YUV {
-  UCHAR Reserved;
-  UCHAR Y;
-  UCHAR V;
-  UCHAR U;
-} KS_DVD_YUV, *PKS_DVD_YUV;
-````
 
 
 ## -struct-fields
@@ -101,12 +89,11 @@ The KS_DVD_YUV structure is used
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_dvd_ycrcb.md">KS_DVD_YCrCb</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567641">KS_DVD_YCrCb</a>
  
 
  
-
 

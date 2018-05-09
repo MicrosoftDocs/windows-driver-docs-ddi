@@ -7,7 +7,7 @@ old-location: kernel\rtlansistringtounicodestring.htm
 old-project: kernel
 ms.assetid: 926d8919-42de-4e24-a223-ffbf412edf6d
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString function [Kernel-Mode Driver Architecture], k109_d27ee285-6d32-4ecb-994b-ba8a47f1e588.xml, kernel.rtlansistringtounicodestring, wdm/RtlAnsiStringToUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	RtlAnsiStringToUnicodeString
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlAnsiStringToUnicodeString function
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <b>RtlAnsiStringToUnicodeString</b> converts the given ANSI source string into a Unicode string.
 
 
-## -syntax
-
-
-````
-NTSTATUS RtlAnsiStringToUnicodeString(
-  _Inout_ PUNICODE_STRING DestinationString,
-  _In_    PCANSI_STRING   SourceString,
-  _In_    BOOLEAN         AllocateDestinationString
-);
-````
-
-
 ## -parameters
 
 
@@ -72,7 +60,7 @@ NTSTATUS RtlAnsiStringToUnicodeString(
 
 ### -param DestinationString [in, out]
 
-Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure to hold the converted Unicode string. If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently-specified buffer to hold the string.
+Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure to hold the converted Unicode string. If <i>AllocateDestinationString</i> is <b>TRUE</b>, the routine allocates a new buffer to hold the string data, and updates the <b>Buffer</b> member of <i>DestinationString</i> to point to the new buffer. Otherwise, the routine uses the currently-specified buffer to hold the string.
 
 
 ### -param SourceString [in]
@@ -82,7 +70,7 @@ Pointer to the ANSI string to be converted to Unicode.
 
 ### -param AllocateDestinationString [in]
 
-Specifies if this routine should allocate the buffer space for the destination string. If it does, the caller must deallocate the buffer by calling <a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>.
+Specifies if this routine should allocate the buffer space for the destination string. If it does, the caller must deallocate the buffer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff561903">RtlFreeUnicodeString</a>.
 
 
 ## -returns
@@ -122,17 +110,17 @@ RtlAnsiCharToUnicodeChar(
 You can use the following routines to convert single-byte and double-byte characters to Unicode characters:
 
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodesize.md">RtlAnsiStringToUnicodeSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561725">RtlAnsiStringToUnicodeSize</a>
 
 
 <b>RtlAnsiStringToUnicodeString</b>
 
 
-<a href="..\ntifs\nf-ntifs-rtlmultibytetounicodesize.md">RtlMultiByteToUnicodeSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553121">RtlMultiByteToUnicodeSize</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlmultibytetounicoden.md">RtlMultiByteToUnicodeN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553113">RtlMultiByteToUnicodeN</a>
 
 
 For more information about these and other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>.
@@ -164,15 +152,6 @@ The second byte of a two-byte character code is a value that is valid only as th
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlinitansistring.md">RtlInitAnsiString</a>
 
 
 
@@ -180,16 +159,24 @@ The second byte of a two-byte character code is a value that is valid only as th
 
 
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodesize.md">RtlAnsiStringToUnicodeSize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561725">RtlAnsiStringToUnicodeSize</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561903">RtlFreeUnicodeString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561918">RtlInitAnsiString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562969">RtlUnicodeStringToAnsiString</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

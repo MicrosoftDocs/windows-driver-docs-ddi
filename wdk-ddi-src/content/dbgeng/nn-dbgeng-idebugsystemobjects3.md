@@ -7,8 +7,8 @@ old-location: debugger\idebugsystemobjects3.htm
 old-project: debugger
 ms.assetid: 8924c46b-e2b5-473f-aa0c-e755cd9cbbc6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging], described, dbgeng/IDebugSystemObjects3, debugger.idebugsystemobjects3
+ms.date: 4/24/2018
+ms.keywords: IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging],described, dbgeng/IDebugSystemObjects3, debugger.idebugsystemobjects3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,9 +41,10 @@ api_name:
 -	IDebugSystemObjects3.GetCurrentSystemServer
 -	IDebugSystemObjects3.GetSystemByServer
 -	IDebugSystemObjects3.GetCurrentSystemServerName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugSystemObjects3 interface
@@ -56,7 +57,7 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects3</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects2.md">IDebugSystemObjects2</a>. <b>IDebugSystemObjects3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects3</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550885">IDebugSystemObjects2</a>. <b>IDebugSystemObjects3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -149,20 +150,19 @@ Makes the specified target the current target.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects.md">IDebugSystemObjects</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects2.md">IDebugSystemObjects2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550875">IDebugSystemObjects</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550885">IDebugSystemObjects2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550893">IDebugSystemObjects4</a>
  
 
  
-
 

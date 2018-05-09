@@ -7,7 +7,7 @@ old-location: audio\ksaudio_microphone_coordinates.htm
 old-project: audio
 ms.assetid: 443fb3c0-0e75-4abc-b44f-047752b3cab7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES structure [Audio Devices], PKSAUDIO_MICROPHONE_COORDINATES, PKSAUDIO_MICROPHONE_COORDINATES structure pointer [Audio Devices], aud-prop_85a5f68f-13f2-4465-bb16-4d30e9c9d731.xml, audio.ksaudio_microphone_coordinates, ksmedia/KSAUDIO_MICROPHONE_COORDINATES, ksmedia/PKSAUDIO_MICROPHONE_COORDINATES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSAUDIO_MICROPHONE_COORDINATES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSAUDIO_MICROPHONE_COORDINATES, *PKSAUDIO_MICROPHONE_COORDINATES
 ---
@@ -50,21 +51,6 @@ req.typenames: KSAUDIO_MICROPHONE_COORDINATES, *PKSAUDIO_MICROPHONE_COORDINATES
 
 
 The KSAUDIO_MICROPHONE_COORDINATES structure specifies the type and the coordinates of a single microphone in the microphone array.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  USHORT usType;
-  SHORT  wXCoord;
-  SHORT  wYCoord;
-  SHORT  wZCoord;
-  SHORT  wVerticalAngle;
-  SHORT  wHorizontalAngle;
-} KSAUDIO_MICROPHONE_COORDINATES, *PKSAUDIO_MICROPHONE_COORDINATES;
-````
 
 
 ## -struct-fields
@@ -194,7 +180,8 @@ Specifies a value between -31416 and +31416.  When divided by 10,000, it gives a
 
 To better understand the descriptions for <i>wHorizontalAngle</i>  and <i>wVericalAngle</i>, consider the following diagram:
 
-<img alt="Diagram showing three microphones (Mic 1, Mic 2 and Mic 3) in an array. Mic 2 and Mic 3 are parallel to each other with their center lines parallel to the x axis, and with no vertical angle to their orientation. Mic 1  has a center line that is not parallel to the x axis and it also has a vertical angle to its orientation." src="images/MicArrayAngles.png"/>
+<img alt="Diagram showing three microphones (Mic 1, Mic 2 and Mic 3) in an array. Mic 2 and Mic 3 are parallel to each other with their center lines parallel to the x axis, and with no vertical angle to their orientation. Mic 1  has a center line that is not parallel to the x axis and it also has a vertical angle to its orientation." src="images/micarrayangles.png"/>
+
 Let <b>x</b> be the axis which points from the center of the microphone array toward the most probable location of the user - that is, perpendicular to the screen.  Positive is toward the user, negative is behind the screen. Let <b>y</b> by the horizontal axis perpendicular to the x-axis - that is, from the left of the screen to the right.  Positive is to the user's right; negative is to the user's left. Let <b>z</b> be the vertical axis.
 
 Now assume that there are three microphones in the array, as shown in the preceding diagram. And assume also, that one of the microphones (<b>Mic 1</b>) is pointed in a horizontal direction that is not parallel to the x-axis, as indicated by the blue center line through <b>Mic 1</b>. Now when you imagine a line that runs through the origin (0,0,0) of the (x,y,z) coordinate system and is parallel to the center line of <b>Mic 1</b>, you will find that there is a horizontal angle between the positive x-axis and the projection of the mic’s center line onto the x-y plane. This angle is represented by <i>wHorizontalAngle</i>.

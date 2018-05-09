@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfdriversetupsystemaction.IWDTFDriverSetupSystemAction2.ImportDriverPackage
-title: IWDTFDriverSetupSystemAction2::ImportDriverPackage method
+title: IWDTFDriverSetupSystemAction2::ImportDriverPackage
 author: windows-driver-content
 description: Imports a driver packge to the system driver store.
 old-location: dtf\iwdtfdriversetupsystemaction2_importdriverpackage.htm
 old-project: dtf
 ms.assetid: dc10fd33-e330-4c74-934b-2d178b17c51b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], ImportDriverPackage method, IWDTFDriverSetupSystemAction2::ImportDriverPackage, ImportDriverPackage method [Windows Device Testing Framework], ImportDriverPackage method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, ImportDriverPackage,IWDTFDriverSetupSystemAction2.ImportDriverPackage, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ImportDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ImportDriverPackage, dtf.iwdtfdriversetupsystemaction2_importdriverpackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ImportDriverPackage
+ms.date: 4/4/2018
+ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],ImportDriverPackage method, IWDTFDriverSetupSystemAction2.ImportDriverPackage, IWDTFDriverSetupSystemAction2::ImportDriverPackage, ImportDriverPackage, ImportDriverPackage method [Windows Device Testing Framework], ImportDriverPackage method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ImportDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ImportDriverPackage, dtf.iwdtfdriversetupsystemaction2_importdriverpackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ImportDriverPackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	WDTFDriverSetupSystemAction.Interop.dll
 api_name:
 -	IWDTFDriverSetupSystemAction2.ImportDriverPackage
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFDriverSetupSystemAction2::ImportDriverPackage method
+# IWDTFDriverSetupSystemAction2::ImportDriverPackage
 
 
 ## -description
 
 
 Imports a driver packge to the system driver store.
-
-
-## -syntax
-
-
-````
-HRESULT ImportDriverPackage(
-  [in] IWDTFDriverPackageAction2 *pDp
-);
-````
 
 
 ## -parameters
@@ -84,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfdriversetupsystemaction\nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md">IWDTFDriverSetupSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450948">IWDTFDriverSetupSystemAction2</a>
  
 
  
-
 

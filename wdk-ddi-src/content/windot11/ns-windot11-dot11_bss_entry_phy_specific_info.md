@@ -38,7 +38,8 @@ api_location:
 -	windot11.h
 api_name:
 -	DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, *PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
 req.product: Windows 10 or later.
@@ -49,13 +50,12 @@ req.product: Windows 10 or later.
 
 ## -description
 
+> [!IMPORTANT]
+> The [Native 802.11 Wireless LAN](https://msdn.microsoft.com/library/windows/hardware/ff560689) interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see [WLAN Universal Windows driver model](https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18).
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union specifies the attributes of the PHY which received an
-  IEEE 802.11 Beacon or Response Frame during the Native 802.11 miniport driver's last scan operation.
-
+The DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union specifies the attributes of the PHY which received an IEEE 802.11 Beacon or Response Frame during the Native 802.11 miniport driver's last scan operation.
 
 ## -syntax
-
 
 ````
 typedef union DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO {
@@ -68,79 +68,44 @@ typedef union DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO {
 } DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO, *PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO;
 ````
 
-
 ## -struct-fields
-
-
-
 
 ### -field uChCenterFrequency
 
-The channel center frequency of the band on which the 802.11 Probe-Response or Beacon frame was
-     received. The value of 
-     <b>uChCenterFrequency</b> is in units of megahertz (MHz). 
-     
+The channel center frequency of the band on which the 802.11 Probe-Response or Beacon frame was received. The value of **uChCenterFrequency** is in units of megahertz (MHz).      
 
-<div class="alert"><b>Note</b>  This member is only valid for PHY types that are not frequency-hopping spread
-     spectrum (FHSS).</div>
-<div> </div>
+> [!NOTE] 
+> This member is only valid for PHY types that are not frequency-hopping spread spectrum (FHSS).
 
 ### -field FHSS
 
 The FHSS parameters, as specified by the following members:
 
-
-
 #### uHopPattern
 
-The current hopping pattern used by the layer management entity (LME) of the PHY to determine the
-      hopping sequence. For more information about how the hopping sequence is determined, refer to Clause
-      14.9.2.20 of the IEEE 802.11-2012 standard.
+The current hopping pattern used by the layer management entity (LME) of the PHY to determine the hopping sequence. For more information about how the hopping sequence is determined, refer to Clause 14.9.2.20 of the IEEE 802.11-2012 standard.
       
-
-<div class="alert"><b>Note</b>  This member is only valid for FHSS PHY types.</div>
-<div> </div>
-
+> [!NOTE]
+> This member is only valid for FHSS PHY types.
 
 #### uHopSet
 
-The current set of patterns used by the LME of the PHY to determine the hopping sequence. For
-      more information about the hopping pattern sets, refer to Clause 14.9.2.19 of the IEEE 802.11-2012
-      standard.
-      
+The current set of patterns used by the LME of the PHY to determine the hopping sequence. For more information about the hopping pattern sets, refer to Clause 14.9.2.19 of the IEEE 802.11-2012 standard.
 
-<div class="alert"><b>Note</b>  This member is only valid for FHSS PHY types.</div>
-<div> </div>
-
+> [!NOTE]
+> This member is only valid for FHSS PHY types.
 
 #### uDwellTime
 
-The maximum amount of time that the PHY can use when transmitting on a single channel. The value
-      of 
-      <b>uDwellTime</b> is in units of 802.11 time units (TU). One TU is 1024 microseconds.
-      
+The maximum amount of time that the PHY can use when transmitting on a single channel. The value of **uDwellTime** is in units of 802.11 time units (TU). One TU is 1024 microseconds.      
 
-<div class="alert"><b>Note</b>  This member is only valid for FHSS PHY types.</div>
-<div> </div>
+> [!NOTE]
+> This member is only valid for FHSS PHY types.
 
 ## -remarks
 
-
-
-The DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union is a member of the 
-    <a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a> structure.
-
-
-
+The DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO union is a member of the [DOT11_BSS_ENTRY](..\windot11\ns-windot11-dot11_bss_entry.md) structure.
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-dot11_bss_entry.md">DOT11_BSS_ENTRY</a>
-
-
-
- 
-
- 
-
-
+[DOT11_BSS_ENTRY](..\windot11\ns-windot11-dot11_bss_entry.md)

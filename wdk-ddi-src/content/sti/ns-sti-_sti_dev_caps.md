@@ -7,7 +7,7 @@ old-location: image\sti_dev_caps.htm
 old-project: image
 ms.assetid: 99e0f896-19d2-4895-8b01-deaf30ec5fe9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSTI_DEV_CAPS, PSTI_DEV_CAPS, PSTI_DEV_CAPS structure pointer [Imaging Devices], STI_DEV_CAPS, STI_DEV_CAPS structure [Imaging Devices], _STI_DEV_CAPS, image.sti_dev_caps, sti/PSTI_DEV_CAPS, sti/STI_DEV_CAPS, stifnc_34efd7cf-944e-474e-8ed5-5ba24be9bf2e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	sti.h
 api_name:
 -	STI_DEV_CAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STI_DEV_CAPS, *PSTI_DEV_CAPS
-req.product: Windows 10 or later.
 ---
 
 # _STI_DEV_CAPS structure
@@ -50,17 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The STI_DEV_CAPS structure is used as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543745">IStiDevice::GetCapabilities</a> method. It is also a member of the <a href="..\sti\ns-sti-_sti_device_informationw.md">STI_DEVICE_INFORMATION</a> and <a href="..\sti\ns-sti-_sti_wia_device_informationw.md">STI_WIA_DEVICE_INFORMATION</a> structures.
-
-
-## -syntax
-
-
-````
-typedef struct _STI_DEV_CAPS {
-  DWORD dwGeneric;
-} STI_DEV_CAPS, *PSTI_DEV_CAPS;
-````
+The STI_DEV_CAPS structure is used as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543745">IStiDevice::GetCapabilities</a> method. It is also a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548361">STI_DEVICE_INFORMATION</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548408">STI_WIA_DEVICE_INFORMATION</a> structures.
 
 
 ## -struct-fields

@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfRequestIsFrom32BitProcess
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRequestIsFrom32BitProcess function
@@ -56,16 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfRequestIsFrom32BitProcess</b> method checks whether the originator of a specified I/O request is a 32-bit user-mode application.
-
-
-## -syntax
-
-
-````
-BOOLEAN WdfRequestIsFrom32BitProcess(
-  _In_ WDFREQUEST Request
-);
-````
 
 
 ## -parameters
@@ -95,7 +85,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 Drivers can call <b>WdfRequestIsFrom32BitProcess</b> to determine whether an I/O request is likely to contain data elements that need to be converted, or "thunked," before they can be used in a 64-bit driver.
 
-The specified request handle must have been obtained from one of the driver's I/O queues and not from a call to <a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>.
+The specified request handle must have been obtained from one of the driver's I/O queues and not from a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549951">WdfRequestCreate</a>.
 
 
 #### Examples
@@ -133,12 +123,11 @@ MyEvtIoRead(
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcreate.md">WdfRequestCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549951">WdfRequestCreate</a>
  
 
  
-
 

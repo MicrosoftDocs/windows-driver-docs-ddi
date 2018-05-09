@@ -7,7 +7,7 @@ old-location: stream\ks_compression.htm
 old-project: stream
 ms.assetid: 065f51c3-f476-4f04-880a-5c42e493d458
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKS_COMPRESSION, KS_COMPRESSION, KS_COMPRESSION structure [Streaming Media Devices], PKS_COMPRESSION, PKS_COMPRESSION structure pointer [Streaming Media Devices], ks-struct_e554d828-61e3-45cd-8ddf-fe1c0b96e02d.xml, ks/KS_COMPRESSION, ks/PKS_COMPRESSION, stream.ks_compression"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KS_COMPRESSION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KS_COMPRESSION, *PKS_COMPRESSION
 ---
@@ -50,18 +51,6 @@ req.typenames: KS_COMPRESSION, *PKS_COMPRESSION
 
 
 The KS_COMPRESSION structure defines the compression of frames on an output pin.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  ULONG RatioNumerator;
-  ULONG RatioDenominator;
-  ULONG RatioConstantMargin;
-} KS_COMPRESSION, *PKS_COMPRESSION;
-````
 
 
 ## -struct-fields

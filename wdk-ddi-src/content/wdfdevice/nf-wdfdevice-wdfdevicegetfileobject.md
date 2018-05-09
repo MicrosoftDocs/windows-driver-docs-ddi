@@ -39,10 +39,10 @@ api_location:
 -	Wdf01000.sys.dll
 api_name:
 -	WdfDeviceGetFileObject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceGetFileObject function
@@ -54,17 +54,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF only]
 
 The <b>WdfDeviceGetFileObject</b> method returns a handle to the framework file object that is associated with a specified WDM file object.
-
-
-## -syntax
-
-
-````
-WDFFILEOBJECT WdfDeviceGetFileObject(
-  _In_ WDFDEVICE    Device,
-  _In_ PFILE_OBJECT FileObject
-);
-````
 
 
 ## -parameters
@@ -79,7 +68,7 @@ A handle to a framework device object.
 
 ### -param FileObject [in]
 
-A pointer to a WDM <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a> structure.
+A pointer to a WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> structure.
 
 
 ## -returns
@@ -143,12 +132,11 @@ if(fileObject == NULL){
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549198">IoGetDeviceObjectPointer</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\ndismcmdispatchincomingdropparty.htm
 old-project: netvista
 ms.assetid: 4549b6f4-5138-4724-959c-a36b38c319fd
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml, ndis/NdisMCmDispatchIncomingDropParty, netvista.ndismcmdispatchincomingdropparty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ndis.h
 api_name:
 -	NdisMCmDispatchIncomingDropParty
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMCmDispatchIncomingDropParty macro
@@ -51,19 +52,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 <b>NdisMCmDispatchIncomingDropParty</b> notifies a client that it should remove a particular party on a
   multipoint VC.
-
-
-## -syntax
-
-
-````
-VOID NdisMCmDispatchIncomingDropParty(
-  [in]           NDIS_STATUS DropStatus,
-  [in]           NDIS_HANDLE NdisPartyHandle,
-  [in, optional] PVOID       Buffer,
-  [in]           UINT        Size
-);
-````
 
 
 ## -parameters
@@ -113,7 +101,7 @@ Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if
 Specifies the handle that identifies the party to be dropped from the multipoint VC, which must
      have other parties that are still connected. The MCM driver originally obtained this handle as an input
      parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
+     <a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a> function.
 
 
 #### - Size [in]
@@ -130,7 +118,7 @@ In the course of normal network operations, an MCM driver calls
     <b>NdisMCmDispatchIncomingDropParty</b> with the 
     <i>CloseStatus</i> set to NDIS_STATUS_SUCCESS because a remote client on a multipoint connection has
     called 
-    <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>.
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>.
 
 However, an MCM driver also can call 
     <b>NdisMCmDispatchIncomingDropParty</b> with a driver-determined 
@@ -140,12 +128,12 @@ However, an MCM driver also can call
 
 A call to 
     <b>NdisMCmDispatchIncomingDropParty</b> causes NDIS to call the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">
+    <a href="https://msdn.microsoft.com/3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8">
     ProtocolClIncomingDropParty</a> function.
 
 If the 
     <i>NdisPartyHandle</i> identifies the last remaining party on the given VC, the MCM driver calls 
-    <a href="..\ndis\nf-ndis-ndismcmdispatchincomingclosecall.md">
+    <a href="https://msdn.microsoft.com/843050e1-a1ec-4313-b527-529c4ff6ca07">
     NdisMCmDispatchIncomingCloseCall</a>, rather than 
     <b>NdisMCmDispatchIncomingDropParty</b>.
 
@@ -159,30 +147,29 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingdropparty.md">
+
+
+
+<a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
+
+
+
+<a href="https://msdn.microsoft.com/9dce2b0a-1d0c-4c87-a32f-8bf72bb91cfe">
    NdisCmDispatchIncomingDropParty</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_drop_party.md">ProtocolClIncomingDropParty</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingclosecall.md">
+<a href="https://msdn.microsoft.com/843050e1-a1ec-4313-b527-529c4ff6ca07">
    NdisMCmDispatchIncomingCloseCall</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscldropparty.md">NdisClDropParty</a>
-
-
-
+<a href="https://msdn.microsoft.com/3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8">ProtocolClIncomingDropParty</a>
  
 
  
-
 

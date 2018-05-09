@@ -7,7 +7,7 @@ old-location: print\oemgetinfo.htm
 old-project: print
 ms.assetid: 69df63ac-2468-49d3-87ac-1930b718dddf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMGetInfo, OEMGetInfo function [Print Devices], print.oemgetinfo, print_obsoletefunctions_d9641912-6a33-4d32-979c-be21eb0e42cf.xml, printoem/OEMGetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	printoem.h
 api_name:
 -	OEMGetInfo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMGetInfo function
@@ -50,19 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-BOOL APIENTRY OEMGetInfo(
-        DWORD                        dwMode,
-  _Out_ _writes_bytes_(cbSize) PVOID pBuffer,
-        DWORD                        cbSize,
-  _Out_ DWORD                        pcbNeeded
-);
-````
 
 
 ## -parameters

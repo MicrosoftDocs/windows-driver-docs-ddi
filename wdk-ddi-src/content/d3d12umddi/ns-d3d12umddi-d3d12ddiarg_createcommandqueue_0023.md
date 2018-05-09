@@ -7,7 +7,7 @@ old-location: display\d3d12ddiarg_createcommandqueue_0023.htm
 old-project: display
 ms.assetid: F8194BA0-325F-48B8-994F-FA2EA80C70D9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDIARG_CREATECOMMANDQUEUE_0023, D3D12DDIARG_CREATECOMMANDQUEUE_0023 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATECOMMANDQUEUE_0023, display.d3d12ddiarg_createcommandqueue_0023
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDIARG_CREATECOMMANDQUEUE_0023
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDIARG_CREATECOMMANDQUEUE_0023
 ---
@@ -50,18 +51,6 @@ req.typenames: D3D12DDIARG_CREATECOMMANDQUEUE_0023
 
 
 Contains arguments used to create a command queue.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDIARG_CREATECOMMANDQUEUE_0023 {
-  D3D12DDI_COMMAND_QUEUE_FLAGS          QueueFlags;
-  UINT                                  NodeMask;
-  D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS QueueCreationFlags;
-} D3D12DDIARG_CREATECOMMANDQUEUE_0023;
-````
 
 
 ## -struct-fields
@@ -81,5 +70,5 @@ A mask for a node.
 
 ### -field QueueCreationFlags
 
-Command queue creation flag, as a <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_command_queue_creation_flags.md">D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS</a> value. 
+Command queue creation flag, as a <a href="https://msdn.microsoft.com/6BA4B1B4-07D6-4498-BDA4-C559FB3E8843">D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS</a> value. 
 

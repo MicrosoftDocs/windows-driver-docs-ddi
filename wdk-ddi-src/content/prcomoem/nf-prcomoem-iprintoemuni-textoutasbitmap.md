@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.TextOutAsBitmap
-title: IPrintOemUni::TextOutAsBitmap method
+title: IPrintOemUni::TextOutAsBitmap
 author: windows-driver-content
 description: The IPrintOemUni::TextOutAsBitmap method allows a rendering plug-in to create a bitmap image of a text string, in case a downloadable font is not available.
 old-location: print\iprintoemuni_textoutasbitmap.htm
 old-project: print
 ms.assetid: 2c144eb7-6279-490a-813c-6c0ae995c6ad
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], TextOutAsBitmap method, IPrintOemUni::TextOutAsBitmap, TextOutAsBitmap method [Print Devices], TextOutAsBitmap method [Print Devices], IPrintOemUni interface, TextOutAsBitmap,IPrintOemUni.TextOutAsBitmap, prcomoem/IPrintOemUni::TextOutAsBitmap, print.iprintoemuni_textoutasbitmap, print_unidrv-pscript_rendering_41d6e02a-2a7b-4d78-95d6-fff6ae39b333.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUni interface [Print Devices],TextOutAsBitmap method, IPrintOemUni.TextOutAsBitmap, IPrintOemUni::TextOutAsBitmap, TextOutAsBitmap, TextOutAsBitmap method [Print Devices], TextOutAsBitmap method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::TextOutAsBitmap, print.iprintoemuni_textoutasbitmap, print_unidrv-pscript_rendering_41d6e02a-2a7b-4d78-95d6-fff6ae39b333.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,38 +38,19 @@ api_location:
 -	prcomoem.h
 api_name:
 -	IPrintOemUni.TextOutAsBitmap
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::TextOutAsBitmap method
+# IPrintOemUni::TextOutAsBitmap
 
 
 ## -description
 
 
 The <code>IPrintOemUni::TextOutAsBitmap</code> method allows a rendering plug-in to create a bitmap image of a text string, in case a downloadable font is not available.
-
-
-## -syntax
-
-
-````
-HRESULT TextOutAsBitmap(
-   SURFOBJ  *pso,
-   STROBJ   *pstro,
-   FONTOBJ  *pfo,
-   CLIPOBJ  *pco,
-   RECTL    *prclExtra,
-   RECTL    *prclOpaque,
-   BRUSHOBJ *pboFore,
-   BRUSHOBJ *pboOpaque,
-   POINTL   *pptlOrg,
-   MIX      mix
-);
-````
 
 
 ## -parameters
@@ -190,11 +171,6 @@ The <code>IPrintOemUni::TextOutAsBitmap</code> method is optional. If a renderin
 
 ## -see-also
 
-<a href="..\prcomoem\nn-prcomoem-iprintoemuni.md">IPrintOemUni</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
 
 
@@ -202,8 +178,12 @@ The <code>IPrintOemUni::TextOutAsBitmap</code> method is optional. If a renderin
 
 
 
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
  
 
  
-
 

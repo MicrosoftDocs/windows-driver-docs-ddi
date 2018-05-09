@@ -7,8 +7,8 @@ old-location: image\istidevice_interface_methods.htm
 old-project: image
 ms.assetid: 86ce412e-007b-4ea9-9c09-766eee543852
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], IStiDevice interface [Imaging Devices], described, image.istidevice_interface_methods, sti/IStiDevice, stifnc_ef9e9c06-e918-462c-92c0-f4b1605a0847.xml
+ms.date: 4/23/2018
+ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], IStiDevice interface [Imaging Devices],described, image.istidevice_interface_methods, sti/IStiDevice, stifnc_ef9e9c06-e918-462c-92c0-f4b1605a0847.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: sti.h
+req.lib: 
 req.dll: 
 req.irql: 
 topic_type:
@@ -38,10 +38,10 @@ api_location:
 -	sti.h
 api_name:
 -	IStiDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IStiDevice interface

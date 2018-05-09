@@ -7,8 +7,8 @@ old-location: debugger\extremotelist.htm
 old-project: debugger
 ms.assetid: d35d5186-a5ee-4a64-88e7-d3e95de32d07
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: EngExtCpp_Ref_83df4aa3-cb9c-4921-a588-ef473a57f0e2.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], ExtRemoteList class [Windows Debugging], described, debugger.extremotelist, engextcpp/ExtRemoteList
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_83df4aa3-cb9c-4921-a588-ef473a57f0e2.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], ExtRemoteList class [Windows Debugging],described, debugger.extremotelist, engextcpp/ExtRemoteList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: class
@@ -38,9 +38,10 @@ api_location:
 -	engextcpp.hpp
 api_name:
 -	ExtRemoteList
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
 # ExtRemoteList class
@@ -77,13 +78,13 @@ The <b>ExtRemoteList</b> class includes the following methods:
 <dl>
 <dd>
 
-<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
+<a href="https://msdn.microsoft.com/db670175-ad3b-4bed-b9ad-625494319256">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
 
 
 </dd>
 <dd>
 
-<a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList::ExtRemoteList (ULONG64)</a>
+<a href="https://msdn.microsoft.com/c23487bb-c385-4633-b27c-12a49492f339">ExtRemoteList::ExtRemoteList (ULONG64)</a>
 
 
 </dd>
@@ -156,7 +157,7 @@ The maximum number of nodes that can be returned when iterating over the list.  
 </dd>
 <dt><a id="m_Node"></a><a id="m_node"></a><a id="M_NODE"></a><b>m_Node</b></dt>
 <dd>
-The pointer to the current item in the list.  <b>m_Node</b> is not set until an iteration is initialized using <a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a> or <a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>.  <b>m_Node</b> is of type <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>, which describes the pointer.
+The pointer to the current item in the list.  <b>m_Node</b> is not set until an iteration is initialized using <a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a> or <a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>.  <b>m_Node</b> is of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>, which describes the pointer.
 
 </dd>
 <dt><a id="m_CurIter"></a><a id="m_curiter"></a><a id="M_CURITER"></a><b>m_CurIter</b></dt>
@@ -168,7 +169,10 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
 
 
 
@@ -177,11 +181,7 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 
 <a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>
-
-
-
  
 
  
-
 

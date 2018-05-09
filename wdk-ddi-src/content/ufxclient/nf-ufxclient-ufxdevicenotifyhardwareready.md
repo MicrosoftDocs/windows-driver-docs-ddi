@@ -7,7 +7,7 @@ old-location: buses\ufxdevicenotifyhardwareready.htm
 old-project: usbref
 ms.assetid: B4BE0BDC-C1A3-4230-8F4B-78DE34F5554D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/25/2018
 ms.keywords: UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], buses.ufxdevicenotifyhardwareready, ufxclient/UfxDeviceNotifyHardwareReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -38,10 +38,10 @@ api_location:
 -	ufxclient.h
 api_name:
 -	UfxDeviceNotifyHardwareReady
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UfxDeviceNotifyHardwareReady function
@@ -53,16 +53,6 @@ req.product: Windows 10 or later.
 Notifies UFX that the hardware is ready.
 
 
-## -syntax
-
-
-````
-VOID UfxDeviceNotifyHardwareReady(
-  [in] UFXDEVICE UfxDevice
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +60,7 @@ VOID UfxDeviceNotifyHardwareReady(
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
 
 
 ## -returns
@@ -86,7 +76,7 @@ This method does not return a value.
 
 
 
-The client driver typically calls <b>UfxDeviceNotifyHardwareReady</b> from its <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a> callback function, as shown in the following example.
+The client driver typically calls <b>UfxDeviceNotifyHardwareReady</b> from its <a href="https://msdn.microsoft.com/0cfabb0f-2d5e-4445-8683-d2916de5b549">EvtDeviceD0Entry</a> callback function, as shown in the following example.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

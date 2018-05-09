@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_drawrectpatch.htm
 old-project: display
 ms.assetid: 9e850fc5-a46a-4bd1-97a0-7ecc86102480
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_DRAWRECTPATCH, D3DDDIARG_DRAWRECTPATCH structure [Display Devices], UMDisplayDriver_param_Structs_fc791424-dcfb-470b-a0d0-04534452707a.xml, _D3DDDIARG_DRAWRECTPATCH, d3dumddi/D3DDDIARG_DRAWRECTPATCH, display.d3dddiarg_drawrectpatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_DRAWRECTPATCH
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_DRAWRECTPATCH
 ---
@@ -50,16 +51,6 @@ req.typenames: D3DDDIARG_DRAWRECTPATCH
 
 
 The D3DDDIARG_DRAWRECTPATCH structure describes a rectangular patch to draw. 
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDIARG_DRAWRECTPATCH {
-  UINT Handle;
-} D3DDDIARG_DRAWRECTPATCH;
-````
 
 
 ## -struct-fields
@@ -76,19 +67,18 @@ typedef struct _D3DDDIARG_DRAWRECTPATCH {
 
 
 
-The <b>Handle</b> member refers to the patch surface, so that the next time the patch surface is drawn, the Microsoft Direct3D runtime is not required to re-specify the D3DRECTPATCH_INFO data structure for the patch surface. The user-mode display driver can precompute and cache forward-difference coefficients and any other information, which allows subsequent calls to the driver's <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawrectpatch.md">DrawRectPatch</a> function that use the same handle to run more efficiently.
+The <b>Handle</b> member refers to the patch surface, so that the next time the patch surface is drawn, the Microsoft Direct3D runtime is not required to re-specify the D3DRECTPATCH_INFO data structure for the patch surface. The user-mode display driver can precompute and cache forward-difference coefficients and any other information, which allows subsequent calls to the driver's <a href="https://msdn.microsoft.com/c0e3046c-f2af-4406-ac5a-c3e44f40b1fd">DrawRectPatch</a> function that use the same handle to run more efficiently.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_drawrectpatch.md">DrawRectPatch</a>
 
 
 
+<a href="https://msdn.microsoft.com/c0e3046c-f2af-4406-ac5a-c3e44f40b1fd">DrawRectPatch</a>
  
 
  
-
 

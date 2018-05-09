@@ -7,7 +7,7 @@ old-location: kernel\rtllongtouchar.htm
 old-project: kernel
 ms.assetid: 22440E1D-8DF5-4391-90F4-6080AAAC65D1
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongToUChar, RtlLongToUChar function [Kernel-Mode Driver Architecture], kernel.rtllongtouchar, ntintsafe/RtlLongToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlLongToUChar
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlLongToUChar function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>LONG</b> to a value of type <b>UCHAR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlLongToUChar(
-  _In_  LONG  lOperand,
-  _Out_ UCHAR *pch
-);
-````
 
 
 ## -parameters

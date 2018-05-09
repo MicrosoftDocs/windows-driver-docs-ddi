@@ -7,7 +7,7 @@ old-location: display\dxgkarg_validateupdateallocproperty.htm
 old-project: display
 ms.assetid: EC9654B8-06AA-43C8-A159-F176BDE4E015
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_VALIDATEUPDATEALLOCPROPERTY, DXGKARG_VALIDATEUPDATEALLOCPROPERTY structure [Display Devices], _DXGKARG_VALIDATEUPDATEALLOCPROPERTY, d3dkmddi/DXGKARG_VALIDATEUPDATEALLOCPROPERTY, display.dxgkarg_validateupdateallocproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKARG_VALIDATEUPDATEALLOCPROPERTY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGKARG_VALIDATEUPDATEALLOCPROPERTY
 ---
@@ -50,28 +51,6 @@ req.typenames: DXGKARG_VALIDATEUPDATEALLOCPROPERTY
 
 
 The DXGARG_VALIDATEUPDATEALLOCPROPERTY structure holds the information needed to validate the parameters to update the properties of an allocation.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGKARG_VALIDATEUPDATEALLOCPROPERTY {
-  HANDLE                               hAllocation;
-  UINT                                 SupportedSegmentSet;
-  D3DDI_SEGMENTPREFERENCE              PreferredSegment;
-  D3DDDI_UPDATEALLOCPROPERTY_FLAGS     Flags;
-  union {
-    struct {
-      UINT SetAccessedPhysically   :1;
-      UINT SetSupportedSegmentSet   :1;
-      UINT SetPreferredSegment   :1;
-      UINT Reserved  :29;
-    };
-    UINT   PropertyMaskValue;
-  };
-} DXGKARG_VALIDATEUPDATEALLOCPROPERTY;
-````
 
 
 ## -struct-fields
@@ -125,7 +104,7 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Prop
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFFE) of the 32-bit <b>PropertyMaskValue</b> member to zeros.
 
 
-#### - PropertyMaskValue
+### -field PropertyMaskValue
 
 A member in the union that is contained in D3DDDI_UPDATEALLOCPROPERTY that can hold one 32-bit value that identifies how to update an allocation.
 

@@ -7,7 +7,7 @@ old-location: stream\ksproperty_sphli.htm
 old-project: stream
 ms.assetid: e1ee8d13-7f83-4020-9f34-4b2c3626685b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI, KSPROPERTY_SPHLI structure [Streaming Media Devices], PKSPROPERTY_SPHLI, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], _KSPROPERTY_SPHLI, dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml, ksmedia/KSPROPERTY_SPHLI, ksmedia/PKSPROPERTY_SPHLI, stream.ksproperty_sphli"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ksmedia.h
 api_name:
 -	KSPROPERTY_SPHLI
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_SPHLI, *PKSPROPERTY_SPHLI
 ---
@@ -50,24 +51,6 @@ req.typenames: KSPROPERTY_SPHLI, *PKSPROPERTY_SPHLI
 
 
 The KSPROPERTY_SPHLI structure is used to describe a rectangle of subpicture or screen whose color or contrast is to be changed.
-
-
-## -syntax
-
-
-````
-typedef struct _KSPROPERTY_SPHLI {
-  USHORT    HLISS;
-  USHORT    Reserved;
-  ULONG     StartPTM;
-  ULONG     EndPTM;
-  USHORT    StartX;
-  USHORT    StartY;
-  USHORT    StopX;
-  USHORT    StopY;
-  KS_COLCON ColCon;
-} KSPROPERTY_SPHLI, *PKSPROPERTY_SPHLI;
-````
 
 
 ## -struct-fields
@@ -131,12 +114,11 @@ The KSPROPERTY_SPHLI structure is used by the <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565150">KSPROPERTY_DVDSUBPIC_HLI</a>
-
-
-
  
 
  
-
 

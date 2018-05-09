@@ -7,7 +7,7 @@ old-location: netvista\ndis_sriov_read_vf_config_space_parameters.htm
 old-project: netvista
 ms.assetid: aa127aa2-8002-4e96-8822-ed66291edf6e
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, netvista.ndis_sriov_read_vf_config_space_parameters, ntddndis/NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, ntddndis/PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddndis.h
 api_name:
 -	NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, *PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS
 ---
@@ -52,20 +53,6 @@ req.typenames: NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, *PNDIS_SRIOV_READ_VF_
 The <b>NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS</b> structure specifies the parameters for a read operation on the PCI Express (PCIe) configuration space  of a network adapter's Virtual Function (VF).
 
 
-## -syntax
-
-
-````
-typedef struct _NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS {
-  NDIS_OBJECT_HEADER     Header;
-  NDIS_SRIOV_FUNCTION_ID VFId;
-  ULONG                  Offset;
-  ULONG                  Length;
-  ULONG                  BufferOffset;
-} NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS, *PNDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS;
-````
-
-
 ## -struct-fields
 
 
@@ -73,7 +60,7 @@ typedef struct _NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS</b> structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SRIOV_READ_VF_CONFIG_SPACE_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -123,11 +110,6 @@ A ULONG value that specifies the offset, in units of bytes, from the beginning o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -135,8 +117,12 @@ A ULONG value that specifies the offset, in units of bytes, from the beginning o
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451879">OID_SRIOV_READ_VF_CONFIG_SPACE</a>
  
 
  
-
 

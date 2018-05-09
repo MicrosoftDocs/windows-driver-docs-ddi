@@ -7,7 +7,7 @@ old-location: kernel\psgetparentsilo.htm
 old-project: kernel
 ms.assetid: 57fa5563-3a02-449a-a934-85c75f450500
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: PsGetParentSilo, PsGetParentSilo function [Kernel-Mode Driver Architecture], kernel.psgetparentsilo, ntddk/PsGetParentSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	PsGetParentSilo
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # PsGetParentSilo function
@@ -53,16 +54,6 @@ Retrieves the most immediate parent silo in the hierarchy
     for a given job object.
 			
             
-
-
-## -syntax
-
-
-````
-PESILO  PsGetParentSilo(
-  _In_opt_ PEJOB Job
-);
-````
 
 
 ## -parameters

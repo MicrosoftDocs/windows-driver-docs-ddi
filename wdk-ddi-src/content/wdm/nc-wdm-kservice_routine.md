@@ -7,7 +7,7 @@ old-location: kernel\interruptservice.htm
 old-project: kernel
 ms.assetid: ad104d4d-5e7f-4730-b898-71ab467f9379
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: DrvrRtns_ee9bfb68-3d4c-4abf-9d2b-81037c2572d5.xml, InterruptService, InterruptService routine [Kernel-Mode Driver Architecture], KSERVICE_ROUTINE, kernel.interruptservice, wdm/InterruptService
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,33 +38,19 @@ api_location:
 -	Wdm.h
 api_name:
 -	InterruptService
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# KSERVICE_ROUTINE callback
+# KSERVICE_ROUTINE callback function
 
 
 ## -description
 
 
 The <i>InterruptService</i> routine (ISR) quickly services a device interrupt and schedules post-interrupt processing of received data, if necessary.
-
-
-## -prototype
-
-
-````
-KSERVICE_ROUTINE InterruptService;
-
-BOOLEAN InterruptService(
-  _In_ struct _KINTERRUPT *Interrupt,
-  _In_ PVOID              ServiceContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -79,7 +65,7 @@ Caller-supplied pointer to the <a href="https://msdn.microsoft.com/library/windo
 
 ### -param ServiceContext [in]
 
-Caller-supplied pointer to context information, specified in a previous call to <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a> or <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>.
+Caller-supplied pointer to context information, specified in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a>.
 
 
 ## -returns
@@ -95,7 +81,7 @@ If the routine determines that the interrupt did not come from one of the driver
 
 
 
-To register an ISR for a specific interrupt vector and processor affinity, a driver must call <a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a> or <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>.
+To register an ISR for a specific interrupt vector and processor affinity, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a>.
 
 A driver's <i>InterruptService</i> routine (ISR) executes in an interrupt context, at some system-assigned <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">DIRQL</a>, as specified by the <i>SynchronizeIrql</i> parameter to <b>IoConnectInterrupt</b>. (Other devices, with higher DIRQL values, can interrupt the ISR.)
 

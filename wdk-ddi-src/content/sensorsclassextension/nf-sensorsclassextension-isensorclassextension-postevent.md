@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorClassExtension.PostEvent
-title: ISensorClassExtension::PostEvent method
+title: ISensorClassExtension::PostEvent
 author: windows-driver-content
 description: The ISensorClassExtension::PostEvent method raises one or more driver events in the sensor class extension.
 old-location: sensors\isensorclassextension_postevent.htm
 old-project: sensors
 ms.assetid: 201a4558-8755-4a28-9982-c02ce5b5d8e7
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorClassExtension, ISensorClassExtension::PostEvent, PostEvent method [Sensor Devices], PostEvent,ISensorClassExtension.PostEvent, sensors.isensorclassextension_postevent
+ms.date: 4/30/2018
+ms.keywords: ISensorClassExtension interface [Sensor Devices],PostEvent method, ISensorClassExtension.PostEvent, ISensorClassExtension::PostEvent, PostEvent, PostEvent method [Sensor Devices], PostEvent method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_postevent, sensorsclassextension/ISensorClassExtension::PostEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -39,30 +39,19 @@ api_location:
 -	SensorsClassExtension.dll
 api_name:
 -	PostEvent
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorClassExtension::PostEvent method
+# ISensorClassExtension::PostEvent
 
 
 ## -description
 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545519">ISensorClassExtension::PostEvent</a> method raises one or more driver events in the sensor class extension.
-
-
-## -syntax
-
-
-````
-HRESULT PostEvent(
-   LPWSTR                            pwszSensorID,
-   IPortableDeviceValuesCollection * pEventCollection
-);
-````
 
 
 ## -parameters
@@ -198,4 +187,15 @@ For an example of a class that creates an event thread, see <a href="https://msd
 Raise state change events by calling <a href="https://msdn.microsoft.com/ae3bc846-df63-4186-9554-f4600e1f2066">ISensorClassExtension::PostStateChange</a>.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545503">ISensorClassExtension</a>
+ 
+
+ 
 

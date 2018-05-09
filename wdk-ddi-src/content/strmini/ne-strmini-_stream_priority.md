@@ -7,7 +7,7 @@ old-location: stream\stream_priority.htm
 old-project: stream
 ms.assetid: 790A00A5-1107-4686-B690-80D07B69AF62
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSTREAM_PRIORITY, Dispatch, High, Low, LowToHigh, PSTREAM_PRIORITY, PSTREAM_PRIORITY enumeration pointer [Streaming Media Devices], STREAM_PRIORITY, STREAM_PRIORITY enumeration [Streaming Media Devices], _STREAM_PRIORITY, stream.stream_priority, strmini/Dispatch, strmini/High, strmini/Low, strmini/LowToHigh, strmini/PSTREAM_PRIORITY, strmini/STREAM_PRIORITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Strmini.h
 api_name:
 -	STREAM_PRIORITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
-req.product: Windows 10 or later.
 ---
 
 # _STREAM_PRIORITY enumeration
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 TD
-
-
-## -syntax
-
-
-````
-typedef enum _STREAM_PRIORITY { 
-  High,
-  Dispatch,
-  Low,
-  LowToHigh                   
-} STREAM_PRIORITY, *PSTREAM_PRIORITY
-;
-````
 
 
 ## -enum-fields

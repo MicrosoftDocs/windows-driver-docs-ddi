@@ -7,8 +7,8 @@ old-location: netvista\ndispdallocatequeue.htm
 old-project: netvista
 ms.assetid: E9091C69-0E21-40CC-B3D3-1F770ABA0D47
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDIS_PD_ALLOCATE_QUEUE, NdisPDAllocateQueue, NdisPDAllocateQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDAllocateQueue, netvista.ndispdallocatequeue
+ms.date: 4/25/2018
+ms.keywords: NDIS_PD_ALLOCATE_QUEUE, NDIS_PD_ALLOCATE_QUEUE callback, NdisPDAllocateQueue, NdisPDAllocateQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDAllocateQueue, netvista.ndispdallocatequeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	Ndis.h
 api_name:
 -	NdisPDAllocateQueue
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_PD_ALLOCATE_QUEUE callback
+# NDIS_PD_ALLOCATE_QUEUE callback function
 
 
 ## -description
@@ -54,21 +55,6 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
    information, see the following Examples section.</div>
 <div> </div>
 
-
-
-## -prototype
-
-
-````
-NDIS_PD_ALLOCATE_QUEUE NdisPDAllocateQueue;
-
-NTSTATUS NdisPDAllocateQueue(
-  _In_       NDIS_PD_PROVIDER_HANDLE  ProviderHandle,
-  _In_ const NDIS_PD_QUEUE_PARAMETERS *QueueParameters,
-             _Outptr_ NDIS_PD_QUEUE   **NdisPDQueue
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -83,12 +69,12 @@ A provider handle that identifies the PD-capable miniport driver's provider obje
 
 ### -param QueueParameters [in]
 
-All the parameters that are associated with the Queue. For more information see the <a href="..\ndis\ns-ndis-_ndis_pd_queue_parameters.md">NDIS_PD_QUEUE_PARAMETERS</a> structure.
+All the parameters that are associated with the Queue. For more information see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931846">NDIS_PD_QUEUE_PARAMETERS</a> structure.
 
 
 ### -param NdisPDQueue
 
-A pointer to the Queue that is to be allocated. For more information, see the <a href="..\ndis\ne-ndis-ndis_pd_queue_type.md">NDIS_PD_QUEUE</a> structure.
+A pointer to the Queue that is to be allocated. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931844">NDIS_PD_QUEUE</a> structure.
 
 
 ## -returns

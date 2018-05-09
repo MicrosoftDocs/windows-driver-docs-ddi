@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ntddk.h
 api_name:
 -	WHEA_GENERIC_ERROR_BLOCKSTATUS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WHEA_GENERIC_ERROR_BLOCKSTATUS, *PWHEA_GENERIC_ERROR_BLOCKSTATUS
 ---
@@ -52,24 +53,6 @@ req.typenames: WHEA_GENERIC_ERROR_BLOCKSTATUS, *PWHEA_GENERIC_ERROR_BLOCKSTATUS
 The WHEA_GENERIC_ERROR_BLOCKSTATUS union indicates what kind of error data is reported in a generic error status block.
 
 
-## -syntax
-
-
-````
-typedef union _WHEA_GENERIC_ERROR_BLOCKSTATUS {
-  struct {
-    ULONG UncorrectableError  :1;
-    ULONG CorrectableError  :1;
-    ULONG MultipleUncorrectableErrors  :1;
-    ULONG MultipleCorrectableErrors  :1;
-    ULONG ErrorDataEntryCount  :10;
-    ULONG Reserved  :18;
-  };
-  ULONG  AsULONG;
-} WHEA_GENERIC_ERROR_BLOCKSTATUS, *PWHEA_GENERIC_ERROR_BLOCKSTATUS;
-````
-
-
 ## -struct-fields
 
 
@@ -80,62 +63,61 @@ typedef union _WHEA_GENERIC_ERROR_BLOCKSTATUS {
  
 
 
-### -field AsULONG
+### -field DUMMYSTRUCTNAME.UncorrectableError
 
-A ULONG representation of the contents of the WHEA_GENERIC_ERROR_BLOCKSTATUS union.
+The generic error status block is reporting uncorrectable error data.
 
 
-#### - CorrectableError
+### -field DUMMYSTRUCTNAME.CorrectableError
 
 The generic error status block is reporting correctable error data.
 
 
-#### - ErrorDataEntryCount
-
-The number of <a href="..\ntddk\ns-ntddk-_whea_generic_error_data_entry_v2.md">WHEA_GENERIC_ERROR_DATA_ENTRY</a> structures that are contained in the generic error status block.
-
-
-#### - MultipleCorrectableErrors
-
-The generic error status block is reporting multiple correctable errors.
-
-
-#### - MultipleUncorrectableErrors
+### -field DUMMYSTRUCTNAME.MultipleUncorrectableErrors
 
 The generic error status block is reporting multiple uncorrectable errors.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.MultipleCorrectableErrors
+
+The generic error status block is reporting multiple correctable errors.
+
+
+### -field DUMMYSTRUCTNAME.ErrorDataEntryCount
+
+The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560529">WHEA_GENERIC_ERROR_DATA_ENTRY</a> structures that are contained in the generic error status block.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
 
-#### - UncorrectableError
+### -field AsULONG
 
-The generic error status block is reporting uncorrectable error data.
+A ULONG representation of the contents of the WHEA_GENERIC_ERROR_BLOCKSTATUS union.
 
 
 ## -remarks
 
 
 
-A WHEA_GENERIC_ERROR_BLOCKSTATUS union is contained within the <a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a> structure.
+A WHEA_GENERIC_ERROR_BLOCKSTATUS union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error.md">WHEA_GENERIC_ERROR</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error_data_entry_v2.md">WHEA_GENERIC_ERROR_DATA_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560529">WHEA_GENERIC_ERROR_DATA_ENTRY</a>
  
 
  
-
 

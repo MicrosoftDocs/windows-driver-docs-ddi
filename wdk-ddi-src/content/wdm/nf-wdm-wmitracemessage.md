@@ -7,7 +7,7 @@ old-location: kernel\wmitracemessage.htm
 old-project: kernel
 ms.assetid: 045c45fe-c971-4d41-a43d-415c2a4d464b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: WmiTraceMessage, WmiTraceMessage routine [Kernel-Mode Driver Architecture], k902_114717ae-d439-4ddd-b939-913795610dee.xml, kernel.wmitracemessage, wdm/WmiTraceMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	WmiTraceMessage
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WmiTraceMessage function
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WmiTraceMessage</b> routine adds a message to the output log of a <a href="https://msdn.microsoft.com/dab776b3-bac9-4157-a530-6e48868ba900">WPP software tracing</a> session.
-
-
-## -syntax
-
-
-````
-NTSTATUS WmiTraceMessage(
-  _In_ TRACEHANDLE LoggerHandle,
-  _In_ ULONG       MessageFlags,
-  _In_ LPCGUID     MessageGuid,
-  _In_ USHORT      MessageNumber,
-  _In_             ...
-);
-````
 
 
 ## -parameters
@@ -169,7 +155,7 @@ An internal error occurred.
 
 
 
-A caller can use <b>WmiTraceMessage</b> or <a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a> to add a message to the output log of a WPP software tracing session. <b>WmiTraceMessage</b> simplifies a caller's code by handling the variable list mechanism before calling <b>WmiTraceMessageVa</b>.
+A caller can use <b>WmiTraceMessage</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566340">WmiTraceMessageVa</a> to add a message to the output log of a WPP software tracing session. <b>WmiTraceMessage</b> simplifies a caller's code by handling the variable list mechanism before calling <b>WmiTraceMessageVa</b>.
 
 A caller can set the following message flags:
 
@@ -250,28 +236,27 @@ All message buffers allocated to software tracing session are full.
 
 ## -see-also
 
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
 
 
-<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550520">IoWmiWriteEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564750">TRACE_INFORMATION_CLASS</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWmiWriteEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565807">WmiFireEvent</a>
 
 
 
-<a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565820">WmiQueryTraceInformation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566340">WmiTraceMessageVa</a>
  
 
  
-
 

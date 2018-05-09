@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFNumbers2.Add
-title: IWDTFNumbers2::Add method
+title: IWDTFNumbers2::Add
 author: windows-driver-content
 description: Adds a single number to the collection.
 old-location: dtf\iwdtfnumbers2_add.htm
 old-project: dtf
 ms.assetid: 162f8fce-c944-4ed2-82f1-332e986b9f77
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework], IWDTFNumbers2 interface, Add,IWDTFNumbers2.Add, IWDTFNumbers2, IWDTFNumbers2 interface [Windows Device Testing Framework], Add method, IWDTFNumbers2::Add, Microsoft.WDTF.IWDTFNumbers2.Add, Microsoft::WDTF::IWDTFNumbers2::Add, dtf.iwdtfnumbers2_add, wdtf/IWDTFNumbers2::Add
+ms.date: 4/4/2018
+ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFNumbers2 interface, IWDTFNumbers2 interface [Windows Device Testing Framework],Add method, IWDTFNumbers2.Add, IWDTFNumbers2::Add, Microsoft.WDTF.IWDTFNumbers2.Add, Microsoft::WDTF::IWDTFNumbers2::Add, dtf.iwdtfnumbers2_add, wdtf/IWDTFNumbers2::Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	WDTF.Interop.metadata_dll.dll
 api_name:
 -	IWDTFNumbers2.Add
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFNumbers2::Add method
+# IWDTFNumbers2::Add
 
 
 ## -description
 
 
 Adds a single number to the collection.
-
-
-## -syntax
-
-
-````
-HRESULT Add(
-  [in] LONG Number
-);
-````
 
 
 ## -parameters
@@ -84,12 +74,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-iwdtfnumbers2.md">IWDTFNumbers2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451048">IWDTFNumbers2</a>
  
 
  
-
 

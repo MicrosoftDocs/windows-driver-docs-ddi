@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Requires same
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	nfccx.h
 api_name:
 -	NFC_CX_NFCIP_TGT_MODE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NFC_CX_NFCIP_TGT_MODE_CONFIG, *PNFC_CX_NFCIP_TGT_MODE_CONFIG
 ---
@@ -50,23 +51,6 @@ req.typenames: NFC_CX_NFCIP_TGT_MODE_CONFIG, *PNFC_CX_NFCIP_TGT_MODE_CONFIG
 
 
 The NFC_CX_NFCIP_TGT_MODE_CONFIG enumeration specifies NFC-IP target mode.
-
-
-## -syntax
-
-
-````
-typedef enum _NFC_CX_NFCIP_TGT_MODE_CONFIG { 
-  NFC_CX_NFCIP_NFC_A             = 0x01,
-  NFC_CX_NFCIP_NFC_F_212         = 0x02,
-  NFC_CX_NFCIP_NFC_F_424         = 0x04,
-  NFC_CX_NFCIP_NFC_ACTIVE        = 0x08,
-  NFC_CX_NFCIP_NFC_ACTIVE_A      = 0x10,
-  NFC_CX_NFCIP_NFC_ACTIVE_F_212  = 0x20,
-  NFC_CX_NFCIP_NFC_ACTIVE_F_424  = 0x40,
-  NFC_CX_NFCIP_DEFAULT           = NFC_CX_NFCIP_NFC_A | NFC_CX_NFCIP_NFC_F_212 | NFC_CX_NFCIP_NFC_F_424
-} NFC_CX_NFCIP_TGT_MODE_CONFIG;
-````
 
 
 ## -enum-fields
@@ -117,16 +101,15 @@ typedef enum _NFC_CX_NFCIP_TGT_MODE_CONFIG {
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 
 <a href="http://go.microsoft.com/fwlink/p/?LinkID=785320">Near field communication (NFC) design guide</a>
-
-
-
  
 
  
-
 

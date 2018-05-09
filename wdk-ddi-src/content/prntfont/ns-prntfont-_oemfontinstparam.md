@@ -7,7 +7,7 @@ old-location: print\oemfontinstparam.htm
 old-project: print
 ms.assetid: cdd3ed28-a077-4b89-9222-ba282b9c7205
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*POEMFONTINSTPARAM, OEMFONTINSTPARAM, OEMFONTINSTPARAM structure [Print Devices], POEMFONTINSTPARAM, POEMFONTINSTPARAM structure pointer [Print Devices], _OEMFONTINSTPARAM, print.oemfontinstparam, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml, prntfont/OEMFONTINSTPARAM, prntfont/POEMFONTINSTPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	prntfont.h
 api_name:
 -	OEMFONTINSTPARAM
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: OEMFONTINSTPARAM, *POEMFONTINSTPARAM
-req.product: Windows 10 or later.
 ---
 
 # _OEMFONTINSTPARAM structure
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The OEMFONTINSTPARAM structure is used as an input parameter to a user interface plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554176">IPrintOemUI::FontInstallerDlgProc</a> method.
-
-
-## -syntax
-
-
-````
-typedef struct _OEMFONTINSTPARAM {
-  DWORD  cbSize;
-  HANDLE hPrinter;
-  HANDLE hModule;
-  HANDLE hHeap;
-  DWORD  dwFlags;
-  PWSTR  pFontInstallerName;
-} OEMFONTINSTPARAM, *POEMFONTINSTPARAM;
-````
 
 
 ## -struct-fields

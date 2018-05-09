@@ -38,9 +38,10 @@ api_location:
 -	poscx.h
 api_name:
 -	PosCxCleanPendingRequests
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POS_CX_EVENT_PRIORITY
+req.typenames: 
 req.product: Windows 10 or later.
 ---
 
@@ -53,18 +54,6 @@ req.product: Windows 10 or later.
       PosCxCleanPendingRequests is called to cancel all pending requests for a given  
 
       caller, identified by the open instance.
-
-
-## -syntax
-
-
-````
-VOID PosCxCleanPendingRequests(
-  _In_     WDFDEVICE     device,
-  _In_opt_ WDFFILEOBJECT callerFileObj,
-  _In_     NTSTATUS      completionStatus
-);
-````
 
 
 ## -parameters

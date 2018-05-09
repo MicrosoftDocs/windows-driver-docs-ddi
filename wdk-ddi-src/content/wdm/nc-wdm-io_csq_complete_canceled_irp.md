@@ -7,7 +7,7 @@ old-location: kernel\csqcompletecanceledirp.htm
 old-project: kernel
 ms.assetid: ed2f8529-dfc7-4db5-b90c-c0bf8840dc70
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: CsqCompleteCanceledIrp, CsqCompleteCanceledIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_07239a13-c445-4f75-8765-ff5806515ecb.xml, IO_CSQ_COMPLETE_CANCELED_IRP, kernel.csqcompletecanceledirp, wdm/CsqCompleteCanceledIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,33 +38,19 @@ api_location:
 -	Wdm.h
 api_name:
 -	CsqCompleteCanceledIrp
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IO_CSQ_COMPLETE_CANCELED_IRP callback
+# IO_CSQ_COMPLETE_CANCELED_IRP callback function
 
 
 ## -description
 
 
 The <i>CsqCompleteCanceledIrp</i> routine is used by the system to signal to the driver that it can complete a canceled IRP.
-
-
-## -prototype
-
-
-````
-IO_CSQ_COMPLETE_CANCELED_IRP CsqCompleteCanceledIrp;
-
-VOID CsqCompleteCanceledIrp(
-  _In_ PIO_CSQ Csq,
-  _In_ PIRP    Irp
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -95,11 +81,11 @@ None
 
 
 
-The driver specifies the <i>CsqCompleteCanceledIrp</i> routine for a cancel-safe IRP queue when it initializes the queue's <b>IO_CSQ</b> structure. The driver specifies the routine as the <i>CsqCompleteCanceledIrp</i> parameter of <a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a> or <a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a> when it initializes <b>IO_CSQ</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540755">Cancel-Safe IRP Queues</a>.
+The driver specifies the <i>CsqCompleteCanceledIrp</i> routine for a cancel-safe IRP queue when it initializes the queue's <b>IO_CSQ</b> structure. The driver specifies the routine as the <i>CsqCompleteCanceledIrp</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff549054">IoCsqInitialize</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549060">IoCsqInitializeEx</a> when it initializes <b>IO_CSQ</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540755">Cancel-Safe IRP Queues</a>.
 
-The system calls this routine to complete a canceled IRP that has been removed from the driver's queue. Normally, drivers just call <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a> for the IRP with a status of STATUS_CANCELLED.
+The system calls this routine to complete a canceled IRP that has been removed from the driver's queue. Normally, drivers just call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a> for the IRP with a status of STATUS_CANCELLED.
 
-Drivers are not required to remove the IRP from the queue before completing it as canceled: the system always calls the queue's <a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a> routine to remove the IRP from the queue before calling <i>CsqCompleteCanceledIrp</i>. 
+Drivers are not required to remove the IRP from the queue before completing it as canceled: the system always calls the queue's <a href="https://msdn.microsoft.com/library/windows/hardware/ff542968">CsqRemoveIrp</a> routine to remove the IRP from the queue before calling <i>CsqCompleteCanceledIrp</i>. 
 
 
 #### Examples
@@ -146,11 +132,30 @@ The IO_CSQ_COMPLETE_CANCELED_IRP function type is defined in the Wdm.h header fi
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542940">CsqCompleteCanceledIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542947">CsqInsertIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542956">CsqInsertIrpEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542959">CsqPeekNextIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542965">CsqReleaseLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542968">CsqRemoveIrp</a>
 
 
 
@@ -158,52 +163,32 @@ The IO_CSQ_COMPLETE_CANCELED_IRP function type is defined in the Wdm.h header fi
 
 
 
-<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549054">IoCsqInitialize</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549060">IoCsqInitializeEx</a>
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549066">IoCsqInsertIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549067">IoCsqInsertIrpEx</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549070">IoCsqRemoveIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549072">IoCsqRemoveNextIrp</a>
  
 
  
-
 

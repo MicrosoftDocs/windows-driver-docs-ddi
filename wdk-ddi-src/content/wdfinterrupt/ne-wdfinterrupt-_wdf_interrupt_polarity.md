@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdfinterrupt.h
 api_name:
 -	WDF_INTERRUPT_POLARITY
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY
-req.product: Windows 10 or later.
 ---
 
 # _WDF_INTERRUPT_POLARITY enumeration
@@ -53,18 +53,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify an interrupt signal's polarity.
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_INTERRUPT_POLARITY { 
-  WdfInterruptPolarityUnknown  = 0,
-  WdfInterruptActiveHigh       = 1,
-  WdfInterruptActiveLow        = 2
-} WDF_INTERRUPT_POLARITY, *PWDF_INTERRUPT_POLARITY;
-````
 
 
 ## -enum-fields
@@ -91,19 +79,18 @@ The interrupt signal is active when it is low.
 
 
 
-The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify a member of the <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure.
+The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_INTERRUPT_INFO</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_INTERRUPT_INFO</a>
  
 
  
-
 

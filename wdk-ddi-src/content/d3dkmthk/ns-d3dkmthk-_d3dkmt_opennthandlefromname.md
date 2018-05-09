@@ -7,7 +7,7 @@ old-location: display\d3dkmt_opennthandlefromname.htm
 old-project: display
 ms.assetid: 34f70519-7905-4a16-bd07-db3592b05890
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_OPENNTHANDLEFROMNAME, D3DKMT_OPENNTHANDLEFROMNAME structure [Display Devices], _D3DKMT_OPENNTHANDLEFROMNAME, d3dkmthk/D3DKMT_OPENNTHANDLEFROMNAME, display.d3dkmt_opennthandlefromname
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_OPENNTHANDLEFROMNAME
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_OPENNTHANDLEFROMNAME
 ---
@@ -50,18 +51,6 @@ req.typenames: D3DKMT_OPENNTHANDLEFROMNAME
 
 
 Describes information that is required to open an NT handle to the process from a graphics adapter name.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OPENNTHANDLEFROMNAME {
-  DWORD             dwDesiredAccess;
-  OBJECT_ATTRIBUTES *pObjAttrib;
-  HANDLE            hNtHandle;
-} D3DKMT_OPENNTHANDLEFROMNAME;
-````
 
 
 ## -struct-fields
@@ -76,7 +65,7 @@ typedef struct _D3DKMT_OPENNTHANDLEFROMNAME {
 
 ### -field pObjAttrib
 
-[in] A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the adapter, including its name.
+[in] A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure that specifies attributes of the adapter, including its name.
 
 
 ### -field hNtHandle

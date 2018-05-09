@@ -7,7 +7,7 @@ old-location: stream\avstrminipinsetdataformat.htm
 old-project: stream
 ms.assetid: f38222e8-f432-4a28-ba2f-2e4f60edd762
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniPinSetDataFormat, AVStrMiniPinSetDataFormat routine [Streaming Media Devices], PFNKSPINSETDATAFORMAT, avstclbk_c72cee40-d3d3-45df-8ece-2eb0a8b52e38.xml, ks/AVStrMiniPinSetDataFormat, stream.avstrminipinsetdataformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,35 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	AVStrMiniPinSetDataFormat
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSPINSETDATAFORMAT callback
+# PFNKSPINSETDATAFORMAT callback function
 
 
 ## -description
 
 
-An AVStream minidriver's <i>AVStrMiniPinSetDataFormat</i> routine is called at pin creation time to verify that the previously agreed upon data format is acceptable for this <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure and a match for this <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structure. This routine is also called due to certain types of dynamic format changes, for example the acceptance of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565107">KSPROPERTY_CONNECTION_PROPOSEDATAFORMAT</a> property request.
-
-
-## -prototype
-
-
-````
-PFNKSPINSETDATAFORMAT AVStrMiniPinSetDataFormat;
-
-NTSTATUS AVStrMiniPinSetDataFormat(
-  _In_           PKSPIN           Pin,
-  _In_opt_       PKSDATAFORMAT    OldFormat,
-  _In_opt_       PKSMULTIPLE_ITEM OldAttributeList,
-  _In_     const KSDATARANGE      *DataRange,
-  _In_opt_ const KSATTRIBUTE_LIST *AttributeRange
-)
-{ ... }
-````
+An AVStream minidriver's <i>AVStrMiniPinSetDataFormat</i> routine is called at pin creation time to verify that the previously agreed upon data format is acceptable for this <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure and a match for this <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structure. This routine is also called due to certain types of dynamic format changes, for example the acceptance of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565107">KSPROPERTY_CONNECTION_PROPOSEDATAFORMAT</a> property request.
 
 
 ## -parameters
@@ -76,17 +60,17 @@ NTSTATUS AVStrMiniPinSetDataFormat(
 
 ### -param Pin [in]
 
-Pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which the data format is changing.
+Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure for which the data format is changing.
 
 
 ### -param OldFormat [in, optional]
 
-Optional. Pointer to a <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a> structure. Minidrivers can use this field to determine the data format that the pin was using before this call. If <b>NULL</b>, indicates that no data format has been set for the pin and that <i>Pin's</i> create dispatch has not yet been made. A <b>NULL</b> value here indicates that this routine was called at initialization time for format verification.
+Optional. Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure. Minidrivers can use this field to determine the data format that the pin was using before this call. If <b>NULL</b>, indicates that no data format has been set for the pin and that <i>Pin's</i> create dispatch has not yet been made. A <b>NULL</b> value here indicates that this routine was called at initialization time for format verification.
 
 
 ### -param OldAttributeList [in, optional]
 
-Optional. Pointer to a <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a> structure that stores attributes for the previous format.
+Optional. Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a> structure that stores attributes for the previous format.
 
 
 ### -param *DataRange [in]
@@ -114,7 +98,7 @@ Return STATUS_SUCCESS if <i>Pin</i>'s <b>ConnectionFormat</b> member matches the
 
 In a ring 3 graph, the Kernel Streaming Proxy module (KsProxy) sets the data format based on the agreed upon connection format or a dynamic format change. KsProxy issues a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565103">KSPROPERTY_CONNECTION_DATAFORMAT</a> request which, after some initial validation, is translated into this dispatch call to the minidriver. See <a href="https://msdn.microsoft.com/94ca96ae-d6de-4764-b95f-d3784af40e4d">Kernel Streaming Proxy</a>. For more information, see <a href="https://msdn.microsoft.com/44b55a5a-ec58-4c1e-b780-e20829fe3edf">KS Data Formats and Data Ranges</a> and <a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>.
 
-The minidriver specifies the address for <i>AVStrMiniPinSetDataFormat</i> in the <b>SetDataFormat</b> member of its <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a> structure.
+The minidriver specifies the address for <i>AVStrMiniPinSetDataFormat</i> in the <b>SetDataFormat</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a> structure.
 
 This routine can be called before the pin receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>, and minidrivers should be prepared to deal with this situation.
 
@@ -127,23 +111,6 @@ This routine is optional.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-
-
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
-<a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
-
-
-
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
 
 
 
@@ -151,8 +118,24 @@ This routine is optional.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>
  
 
  
-
 

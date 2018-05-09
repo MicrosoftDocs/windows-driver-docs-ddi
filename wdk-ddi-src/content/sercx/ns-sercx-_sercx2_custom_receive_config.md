@@ -7,7 +7,7 @@ old-location: serports\sercx2_custom_receive_config.htm
 old-project: serports
 ms.assetid: 815DB069-4AB5-4C00-BB7A-BAAA4050C8CF
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSERCX2_CUSTOM_RECEIVE_CONFIG, 2/PSERCX2_CUSTOM_RECEIVE_CONFIG, 2/SERCX2_CUSTOM_RECEIVE_CONFIG, PSERCX2_CUSTOM_RECEIVE_CONFIG, PSERCX2_CUSTOM_RECEIVE_CONFIG structure pointer [Serial Ports], SERCX2_CUSTOM_RECEIVE_CONFIG, SERCX2_CUSTOM_RECEIVE_CONFIG structure [Serial Ports], _SERCX2_CUSTOM_RECEIVE_CONFIG, serports.sercx2_custom_receive_config"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any IRQL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	SERCX2_CUSTOM_RECEIVE_CONFIG
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SERCX2_CUSTOM_RECEIVE_CONFIG, *PSERCX2_CUSTOM_RECEIVE_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _SERCX2_CUSTOM_RECEIVE_CONFIG structure
@@ -53,21 +53,6 @@ req.product: Windows 10 or later.
 The <b>SERCX2_CUSTOM_RECEIVE_CONFIG</b> structure contains information that version 2 of the serial framework extension (SerCx2) uses to configure a new custom-receive object.
 
 
-## -syntax
-
-
-````
-typedef struct _SERCX2_CUSTOM_RECEIVE_CONFIG {
-  ULONG   Size;
-  ULONG   Alignment;
-  ULONG   MinimumTransactionLength;
-  ULONG   MaximumTransactionLength;
-  ULONG   MinimumTransferUnit;
-  BOOLEAN Exclusive;
-} SERCX2_CUSTOM_RECEIVE_CONFIG, *PSERCX2_CUSTOM_RECEIVE_CONFIG;
-````
-
-
 ## -struct-fields
 
 
@@ -75,7 +60,7 @@ typedef struct _SERCX2_CUSTOM_RECEIVE_CONFIG {
 
 ### -field Size
 
-The size, in bytes, of this structure. The <a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
+The size, in bytes, of this structure. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265248">SerCx2CustomReceiveCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
 ### -field Alignment
@@ -95,7 +80,7 @@ The maximum length, in bytes, of a data transfer in a custom-receive transaction
 
 ### -field MinimumTransferUnit
 
-The minimum transfer unit. The number of bytes specified by an element in a scatter/gather list must be an integer multiple of the minimum transfer unit. To indicate that the default minimum transfer unit should be used, set this member to zero. For more information about the default minimum transfer unit, see <a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>.
+The minimum transfer unit. The number of bytes specified by an element in a scatter/gather list must be an integer multiple of the minimum transfer unit. To indicate that the default minimum transfer unit should be used, set this member to zero. For more information about the default minimum transfer unit, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450995">DMA_ADAPTER_INFO_V1</a>.
 
 
 ### -field Exclusive
@@ -113,22 +98,17 @@ Regardless of the value of this member, PIO-receive transactions are used to sav
 
 
 
-The <a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a> method accepts a pointer to a <b>SERCX2_CUSTOM_RECEIVE_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2CustomReceiveCreate</b>, call the <a href="..\sercx\nf-sercx-sercx2_custom_receive_config_init.md">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a> function to initialize this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265248">SerCx2CustomReceiveCreate</a> method accepts a pointer to a <b>SERCX2_CUSTOM_RECEIVE_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2CustomReceiveCreate</b>, call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265313">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a> function to initialize this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2_custom_receive_config_init.md">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceiveCreate</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_adapter_info_v1.md">DMA_ADAPTER_INFO_V1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450995">DMA_ADAPTER_INFO_V1</a>
 
 
 
@@ -136,8 +116,12 @@ The <a href="..\sercx\nf-sercx-sercx2customreceivecreate.md">SerCx2CustomReceive
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265313">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265248">SerCx2CustomReceiveCreate</a>
  
 
  
-
 

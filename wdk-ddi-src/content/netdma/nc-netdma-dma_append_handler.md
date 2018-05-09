@@ -7,8 +7,8 @@ old-location: netvista\providerappenddma.htm
 old-project: netvista
 ms.assetid: 51de8ddf-cbfc-4e49-b44a-207307a937e7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DMA_APPEND_HANDLER, ProviderAppendDma, ProviderAppendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAppendDma, netdma_ref_ce5895a2-ac0c-4b98-98be-9f95edf091d3.xml, netvista.providerappenddma
+ms.date: 4/25/2018
+ms.keywords: DMA_APPEND_HANDLER, DMA_APPEND_HANDLER callback, ProviderAppendDma, ProviderAppendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAppendDma, netdma_ref_ce5895a2-ac0c-4b98-98be-9f95edf091d3.xml, netvista.providerappenddma
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	netdma.h
 api_name:
 -	ProviderAppendDma
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
+req.typenames: 
 ---
 
-# DMA_APPEND_HANDLER callback
+# DMA_APPEND_HANDLER callback function
 
 
 ## -description
@@ -56,22 +57,6 @@ in Windows 8 and later.</div><div> </div>The
   channel.
 
 
-## -prototype
-
-
-````
-DMA_APPEND_HANDLER ProviderAppendDma;
-
-NTSTATUS ProviderAppendDma(
-  _In_ PVOID               ProviderChannelContext,
-  _In_ PNET_DMA_DESCRIPTOR DescriptorVirtualAddress,
-  _In_ PHYSICAL_ADDRESS    DescriptorPhysicalAddress,
-  _In_ ULONG               DescriptorCount
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
@@ -82,14 +67,14 @@ NTSTATUS ProviderAppendDma(
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">
+     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">
      ProviderAllocateDmaChannel</a> function.
 
 
 ### -param DescriptorVirtualAddress [in]
 
 A pointer to the virtual address of the first 
-     <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a> structure in a linked
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568734">NET_DMA_DESCRIPTOR</a> structure in a linked
      list of DMA descriptors. The corresponding physical address is specified at the 
      <i>DescriptorPhysicalAddress</i> parameter.
 
@@ -160,14 +145,14 @@ The NetDMA interface calls a DMA provider driver's
     a DMA channel. The NetDMA interface can call 
     <i>ProviderAppendDma</i> any number of times after a DMA transfer is started. However, the NetDMA
     interface must call the 
-    <a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a> function after a channel
+    <a href="https://msdn.microsoft.com/0926e8c4-f2ca-401f-abe8-76aec359a1e2">ProviderStartDma</a> function after a channel
     reset or abort, or after the DMA channel is first allocated.
 
 <div class="alert"><b>Note</b>  In NetDMA 2.0 and later versions, the linked list of descriptors is not
     NULL-terminated. The 
     <b>NextDescriptor</b> member in the last descriptor in the linked list specifies the physical address of
     the 
-    <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a> structure that will be
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568734">NET_DMA_DESCRIPTOR</a> structure that will be
     used in the subsequent call to the 
     <b>ProviderAppendDma</b> function. A NetDMA 2.0
     provider driver can cache the address in 
@@ -182,7 +167,7 @@ The NetDMA interface sets the
 If the current descriptor in an active transfer is the last descriptor, the DMA engine must reread the
     last descriptor. The 
     <b>NextDescriptor</b> member in the last 
-    <a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a> structure should have
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568734">NET_DMA_DESCRIPTOR</a> structure should have
     a new address, and the DMA engine should continue with the next descriptor. If the current descriptor is
     not the last descriptor, the DMA engine can continue processing DMA descriptors with no additional
     tasks.
@@ -195,20 +180,19 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 
 
-<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568734">NET_DMA_DESCRIPTOR</a>
 
 
 
-<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a>
 
 
 
+<a href="https://msdn.microsoft.com/0926e8c4-f2ca-401f-abe8-76aec359a1e2">ProviderStartDma</a>
  
 
  
-
 

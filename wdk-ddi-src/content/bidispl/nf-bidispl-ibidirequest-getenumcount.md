@@ -1,14 +1,14 @@
 ---
 UID: NF:bidispl.IBidiRequest.GetEnumCount
-title: IBidiRequest::GetEnumCount method
+title: IBidiRequest::GetEnumCount
 author: windows-driver-content
 description: The GetEnumCount method gets the number of output results from the bidi request.
 old-location: print\ibidirequest_ibidirequest__getenumcount.htm
 old-project: print
 ms.assetid: 4c857ff4-02c1-487b-bdb0-44d62a4cf4a1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetEnumCount method [Print Devices], GetEnumCount method [Print Devices], IBidiRequest interface, GetEnumCount,IBidiRequest.GetEnumCount, IBidiRequest, IBidiRequest interface [Print Devices], GetEnumCount method, IBidiRequest::GetEnumCount, _win32_IBidiRequest_GetEnumCount, bidispl/IBidiRequest::GetEnumCount, gdi.ibidirequest_ibidirequest__getenumcount, print.ibidirequest_ibidirequest__getenumcount
+ms.date: 4/20/2018
+ms.keywords: GetEnumCount, GetEnumCount method [Print Devices], GetEnumCount method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetEnumCount method, IBidiRequest.GetEnumCount, IBidiRequest::GetEnumCount, _win32_IBidiRequest_GetEnumCount, bidispl/IBidiRequest::GetEnumCount, gdi.ibidirequest_ibidirequest__getenumcount, print.ibidirequest_ibidirequest__getenumcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	bidispl.dll
 api_name:
 -	IBidiRequest.GetEnumCount
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: 
 ---
 
-# IBidiRequest::GetEnumCount method
+# IBidiRequest::GetEnumCount
 
 
 ## -description
 
 
 The <b>GetEnumCount</b> method gets the number of output results from the bidi request.
-
-
-## -syntax
-
-
-````
-HRESULT GetEnumCount(
-  [out] DWORD *pdwTotal
-);
-````
 
 
 ## -parameters
@@ -144,7 +135,6 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0757dbc2-850b-4267-9339-b87591f85767">GetOutputData</a>
 
 
 
@@ -156,12 +146,12 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 
 
-<a href="..\bidispl\nn-bidispl-ibidirequest.md">IBidiRequest</a>
+<a href="https://msdn.microsoft.com/0757dbc2-850b-4267-9339-b87591f85767">GetOutputData</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a>
  
 
  
-
 

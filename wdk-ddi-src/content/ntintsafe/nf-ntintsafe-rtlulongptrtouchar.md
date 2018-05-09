@@ -7,7 +7,7 @@ old-location: kernel\rtlulongptrtouchar.htm
 old-project: kernel
 ms.assetid: 074159BD-EF74-45F9-B7A5-47F9E01E32C6
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlULongPtrToUChar, RtlULongPtrToUChar function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtouchar, ntintsafe/RtlULongPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlULongPtrToUChar
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlULongPtrToUChar function
@@ -50,17 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Converts a value of type <b>ULONG_PTR</b> to a value of type <b>UCHAR</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlULongPtrToUChar(
-  _In_  ULONG_PTR ulOperand,
-  _Out_ UCHAR     *pch
-);
-````
 
 
 ## -parameters

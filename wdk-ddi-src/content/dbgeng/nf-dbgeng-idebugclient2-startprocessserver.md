@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient2.StartProcessServer
-title: IDebugClient2::StartProcessServer method
+title: IDebugClient2::StartProcessServer
 author: windows-driver-content
 description: The StartProcessServer method starts a process server.
 old-location: debugger\startprocessserver.htm
 old-project: debugger
 ms.assetid: dc0bade2-7781-4c08-aea5-0ff4809d3321
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugClient interface [Windows Debugging], StartProcessServer method, IDebugClient2, IDebugClient2 interface [Windows Debugging], StartProcessServer method, IDebugClient2::StartProcessServer, IDebugClient3 interface [Windows Debugging], StartProcessServer method, IDebugClient3::StartProcessServer, IDebugClient4 interface [Windows Debugging], StartProcessServer method, IDebugClient4::StartProcessServer, IDebugClient5 interface [Windows Debugging], StartProcessServer method, IDebugClient5::StartProcessServer, IDebugClient::StartProcessServer, IDebugClient_de137b80-ffd7-4399-85a3-50b3c870c28c.xml, StartProcessServer method [Windows Debugging], StartProcessServer method [Windows Debugging], IDebugClient interface, StartProcessServer method [Windows Debugging], IDebugClient2 interface, StartProcessServer method [Windows Debugging], IDebugClient3 interface, StartProcessServer method [Windows Debugging], IDebugClient4 interface, StartProcessServer method [Windows Debugging], IDebugClient5 interface, StartProcessServer,IDebugClient2.StartProcessServer, dbgeng/IDebugClient2::StartProcessServer, dbgeng/IDebugClient3::StartProcessServer, dbgeng/IDebugClient4::StartProcessServer, dbgeng/IDebugClient5::StartProcessServer, dbgeng/IDebugClient::StartProcessServer, debugger.startprocessserver
+ms.date: 4/24/2018
+ms.keywords: IDebugClient interface [Windows Debugging],StartProcessServer method, IDebugClient2 interface [Windows Debugging],StartProcessServer method, IDebugClient2.StartProcessServer, IDebugClient2::StartProcessServer, IDebugClient3 interface [Windows Debugging],StartProcessServer method, IDebugClient3::StartProcessServer, IDebugClient4 interface [Windows Debugging],StartProcessServer method, IDebugClient4::StartProcessServer, IDebugClient5 interface [Windows Debugging],StartProcessServer method, IDebugClient5::StartProcessServer, IDebugClient::StartProcessServer, IDebugClient_de137b80-ffd7-4399-85a3-50b3c870c28c.xml, StartProcessServer, StartProcessServer method [Windows Debugging], StartProcessServer method [Windows Debugging],IDebugClient interface, StartProcessServer method [Windows Debugging],IDebugClient2 interface, StartProcessServer method [Windows Debugging],IDebugClient3 interface, StartProcessServer method [Windows Debugging],IDebugClient4 interface, StartProcessServer method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::StartProcessServer, dbgeng/IDebugClient3::StartProcessServer, dbgeng/IDebugClient4::StartProcessServer, dbgeng/IDebugClient5::StartProcessServer, dbgeng/IDebugClient::StartProcessServer, debugger.startprocessserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,30 +42,19 @@ api_name:
 -	IDebugClient3.StartProcessServer
 -	IDebugClient4.StartProcessServer
 -	IDebugClient5.StartProcessServer
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient2::StartProcessServer method
+# IDebugClient2::StartProcessServer
 
 
 ## -description
 
 
 The <b>StartProcessServer</b> method starts a process server.
-
-
-## -syntax
-
-
-````
-HRESULT StartProcessServer(
-  [in]           ULONG Flags,
-  [in]           PCSTR Options,
-  [in, optional] PVOID Reserved
-);
-````
 
 
 ## -parameters
@@ -131,11 +120,10 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
 
 
 
@@ -143,32 +131,32 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
  
 
  
-
 

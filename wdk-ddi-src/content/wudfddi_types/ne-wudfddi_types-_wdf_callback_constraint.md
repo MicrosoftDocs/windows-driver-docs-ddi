@@ -38,10 +38,10 @@ api_location:
 -	wudfddi_types.h
 api_name:
 -	WDF_CALLBACK_CONSTRAINT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WDF_CALLBACK_CONSTRAINT
-req.product: Windows 10 or later.
 ---
 
 # _WDF_CALLBACK_CONSTRAINT enumeration
@@ -50,18 +50,6 @@ req.product: Windows 10 or later.
 ## -description
 
 
-
-
-## -syntax
-
-
-````
-typedef enum _WDF_CALLBACK_CONSTRAINT { 
-  None              = 0,
-  WdfDeviceLevel    = 1,
-  WdfLevelReserved  = 2
-} WDF_CALLBACK_CONSTRAINT;
-````
 
 
 ## -enum-fields

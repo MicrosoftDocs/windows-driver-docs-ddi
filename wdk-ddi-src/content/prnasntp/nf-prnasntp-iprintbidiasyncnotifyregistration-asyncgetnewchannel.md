@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel
-title: IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel method
+title: IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 author: windows-driver-content
 description: "."
 old-location: print\iprintbidiasyncnotifyregistration_asyncgetnewchannel.htm
 old-project: print
 ms.assetid: A5E2FA41-0871-4416-B501-051BD67A60AF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: AsyncGetNewChannel method [Print Devices], AsyncGetNewChannel method [Print Devices], IPrintBidiAsyncNotifyRegistration interface, AsyncGetNewChannel,IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel, IPrintBidiAsyncNotifyRegistration, IPrintBidiAsyncNotifyRegistration interface [Print Devices], AsyncGetNewChannel method, IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel, print.iprintbidiasyncnotifyregistration_asyncgetnewchannel, prnasntp/IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
+ms.date: 4/20/2018
+ms.keywords: AsyncGetNewChannel, AsyncGetNewChannel method [Print Devices], AsyncGetNewChannel method [Print Devices],IPrintBidiAsyncNotifyRegistration interface, IPrintBidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNewChannel method, IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel, IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel, print.iprintbidiasyncnotifyregistration_asyncgetnewchannel, prnasntp/IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Prnasntp.h
 api_name:
 -	IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel method
+# IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 
 
 ## -description
 
 
 
-
-
-## -syntax
-
-
-````
-HRESULT AsyncGetNewChannel(
-  [in] IPrintAsyncNewChannelCookie *pCookie
-);
-````
 
 
 ## -parameters
@@ -89,12 +79,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\prnasntp\nn-prnasntp-iprintbidiasyncnotifyregistration.md">IPrintBidiAsyncNotifyRegistration</a>
 
 
 
+<a href="https://msdn.microsoft.com/A187FD9F-8A2E-4B98-8CC4-C0AC66D6FB08">IPrintBidiAsyncNotifyRegistration</a>
  
 
  
-
 

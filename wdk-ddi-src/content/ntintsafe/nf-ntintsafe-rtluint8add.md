@@ -7,7 +7,7 @@ old-location: kernel\rtluint8add.htm
 old-project: kernel
 ms.assetid: E93C8C7A-13E5-4089-931C-C56055FA3C90
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUInt8Add, RtlUInt8Add function [Kernel-Mode Driver Architecture], kernel.rtluint8add, ntintsafe/RtlUInt8Add
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	Ntintsafe.h
 api_name:
 -	RtlUInt8Add
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlUInt8Add function
@@ -50,18 +51,6 @@ req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
 
 
 Adds two values of type <b>UINT8</b>.
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlUInt8Add(
-  _In_  UINT8 u8Augend,
-  _In_  UINT8 u8Addend,
-  _Out_ UINT8 *pu8Result
-);
-````
 
 
 ## -parameters

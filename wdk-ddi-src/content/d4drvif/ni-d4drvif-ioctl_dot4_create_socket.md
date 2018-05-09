@@ -7,8 +7,8 @@ old-location: print\ioctl_ioctl_dot4_create_socket.htm
 old-project: print
 ms.assetid: CF5BF5D1-FF78-4461-AC0D-A7A7529FB59E
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DOT4_CREATE_SOCKET, IOCTL_DOT4_CREATE_SOCKET control code [Print Devices], d4drvif/IOCTL_DOT4_CREATE_SOCKET, print.ioctl_ioctl_dot4_create_socket
+ms.date: 4/20/2018
+ms.keywords: IOCTL_DOT4_CREATE_SOCKET, IOCTL_DOT4_CREATE_SOCKET control, IOCTL_DOT4_CREATE_SOCKET control code [Print Devices], d4drvif/IOCTL_DOT4_CREATE_SOCKET, print.ioctl_ioctl_dot4_create_socket
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	D4drvif.h
 api_name:
 -	IOCTL_DOT4_CREATE_SOCKET
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: 
 ---
 
 # IOCTL_DOT4_CREATE_SOCKET IOCTL
@@ -94,7 +95,6 @@ This topic describes <b>IOCTL_DOT4_CREATE_SOCKET</b>.
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -102,16 +102,16 @@ This topic describes <b>IOCTL_DOT4_CREATE_SOCKET</b>.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
  
 
  
-
 

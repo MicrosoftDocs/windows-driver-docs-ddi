@@ -7,7 +7,7 @@ old-location: display\dxgk_setvidpnsourceaddress_output_flags.htm
 old-project: display
 ms.assetid: CFEEB41D-050F-4372-AB54-39ABC696C89D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, display.dxgk_setvidpnsourceaddress_output_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
 ---
@@ -50,22 +51,6 @@ req.typenames: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS
 
 
 A structure containing the flags used to set the VidPN source address.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS {
-  union {
-    struct {
-      UINT PrePresentNeeded  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS;
-````
 
 
 ## -struct-fields
@@ -83,5 +68,5 @@ Indicates that the driver must be called again at the PASSIVE_LEVEL to perform t
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 

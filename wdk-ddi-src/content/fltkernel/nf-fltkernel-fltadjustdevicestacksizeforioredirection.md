@@ -7,7 +7,7 @@ old-location: ifsk\fltadjustdevicestacksizeforioredirection.htm
 old-project: ifsk
 ms.assetid: 48ca0f39-e870-4f9b-92d5-1226972bf2d5
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltAdjustDeviceStackSizeForIoRedirection, FltAdjustDeviceStackSizeForIoRedirection routine [Installable File System Drivers], fltkernel/FltAdjustDeviceStackSizeForIoRedirection, ifsk.fltadjustdevicestacksizeforioredirection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	FltMgr.dll
 api_name:
 -	FltAdjustDeviceStackSizeForIoRedirection
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltAdjustDeviceStackSizeForIoRedirection function
@@ -51,18 +52,6 @@ req.typenames: EXpsFontRestriction
 
 
 The <b>FltAdjustDeviceStackSizeForIoRedirection</b> routine increases the size of the source device stack to allow a minifilter to redirect I/O from a specified source instance to a specified target instance when the target stack is deeper than the source stack.
-
-
-## -syntax
-
-
-````
-NTSTATUS FltAdjustDeviceStackSizeForIoRedirection(
-  _In_      PFLT_INSTANCE SourceInstance,
-  _In_      PFLT_INSTANCE TargetInstance,
-  _Out_opt_ PBOOLEAN      SourceDeviceStackSizeModified
-);
-````
 
 
 ## -parameters
@@ -141,39 +130,38 @@ Using <b>FltAdjustDeviceStackSizeForIoRedirection</b> does not guarantee that ev
 
 A minifilter can adjust the stack size during instance setup if the filter knows which stack the I/O will be redirected to. 
 
-The filter can issue its own create operation down the new stack using <a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>. Before completing the create operation, the filter can adjust the stack size to account for the target stack. Doing that adjustment ensures that the stack size will be adjusted before the create action is completed. All IRPs allocated for that file object will have a large enough stack to support redirection.
+The filter can issue its own create operation down the new stack using <a href="https://msdn.microsoft.com/library/windows/hardware/ff541935">FltCreateFile</a>. Before completing the create operation, the filter can adjust the stack size to account for the target stack. Doing that adjustment ensures that the stack size will be adjusted before the create action is completed. All IRPs allocated for that file object will have a large enough stack to support redirection.
 
-During instance-setup or during post-create callback for a redirected file object, use <a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowed.md">FltIsIoRedirectionAllowed</a> to determine if redirection is possible without modifying the source stack. If necessary, use <b>FltAdjustDeviceStackSizeForIoRedirection</b> to adjust the source stack.
+During instance-setup or during post-create callback for a redirected file object, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff625874">FltIsIoRedirectionAllowed</a> to determine if redirection is possible without modifying the source stack. If necessary, use <b>FltAdjustDeviceStackSizeForIoRedirection</b> to adjust the source stack.
 
-In the pre-operation callback for every operation that needs redirection, use <a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowedforoperation.md">FltIsIoRedirectionAllowedForOperation</a> to determine if redirection is possible without modifying the source stack. If necessary, use <b>FltAdjustDeviceStackSizeForIoRedirection</b> to adjust the source stack.
+In the pre-operation callback for every operation that needs redirection, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff625875">FltIsIoRedirectionAllowedForOperation</a> to determine if redirection is possible without modifying the source stack. If necessary, use <b>FltAdjustDeviceStackSizeForIoRedirection</b> to adjust the source stack.
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowedforoperation.md">FltIsIoRedirectionAllowedForOperation</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544638">FLT_IO_PARAMETER_BLOCK</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff625874">FltIsIoRedirectionAllowed</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltisioredirectionallowed.md">FltIsIoRedirectionAllowed</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff625875">FltIsIoRedirectionAllowedForOperation</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dhal_dp2command.htm
 old-project: display
 ms.assetid: 3fa32e5c-32d5-4e26-82b5-45dbf5389f2b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPD3DHAL_DP2COMMAND, D3DHAL_DP2COMMAND, D3DHAL_DP2COMMAND structure [Display Devices], LPD3DHAL_DP2COMMAND, LPD3DHAL_DP2COMMAND structure pointer [Display Devices], _D3DHAL_DP2COMMAND, d3dhal/D3DHAL_DP2COMMAND, d3dhal/LPD3DHAL_DP2COMMAND, d3dstrct_9497e802-c325-4d08-ba6c-f482d17da6c5.xml, display.d3dhal_dp2command"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dhal.h
 api_name:
 -	D3DHAL_DP2COMMAND
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DHAL_DP2COMMAND, *LPD3DHAL_DP2COMMAND
 ---
@@ -49,22 +50,7 @@ req.typenames: D3DHAL_DP2COMMAND, *LPD3DHAL_DP2COMMAND
 ## -description
 
 
-One or more D3DHAL_DP2COMMAND structures are parsed from the command buffer by the <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a> callback, which uses the information it receives to draw one or more primitives. Each structure specifies either a primitive to draw or a state change to process.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DHAL_DP2COMMAND {
-  BYTE  bCommand;
-  BYTE  bReserved;
-  union {
-    WORD wPrimitiveCount;
-    WORD wStateCount;
-  };
-} D3DHAL_DP2COMMAND, *LPD3DHAL_DP2COMMAND;
-````
+One or more D3DHAL_DP2COMMAND structures are parsed from the command buffer by the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback, which uses the information it receives to draw one or more primitives. Each structure specifies either a primitive to draw or a state change to process.
 
 
 ## -struct-fields
@@ -74,7 +60,7 @@ typedef struct _D3DHAL_DP2COMMAND {
 
 ### -field bCommand
 
-Specifies a primitive to draw or a state change to process. This member can be one of the <a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a> enumerated values. 
+Specifies a primitive to draw or a state change to process. This member can be one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545678">D3DHAL_DP2OPERATION</a> enumerated values. 
 
 
 ### -field bReserved
@@ -82,23 +68,18 @@ Specifies a primitive to draw or a state change to process. This member can be o
 Reserved for system use and should be ignored by the driver.
 
 
-#### - wPrimitiveCount
+### -field wPrimitiveCount
 
 Specifies the number of primitives to process. This member is valid when <b>bCommand</b> is not either of D3DDP2OP_RENDERSTATE or D3DDP2OP_TEXTURESTAGESTATE.
 
 
-#### - wStateCount
+### -field wStateCount
 
 Specifies the number of state changes to process. This member is valid when <b>bCommand</b> is one of D3DDP2OP_RENDERSTATE or D3DDP2OP_TEXTURESTAGESTATE.
 
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
-<a href="..\d3dhal\ne-d3dhal-_d3dhal_dp2operation.md">D3DHAL_DP2OPERATION</a>
 
 
 
@@ -110,8 +91,12 @@ D3DDP2OP_TEXTURESTAGESTATE
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545678">D3DHAL_DP2OPERATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
  
 
  
-
 

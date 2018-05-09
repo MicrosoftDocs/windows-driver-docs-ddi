@@ -7,7 +7,7 @@ old-location: storage\storportiscurrentosinstallationupgrade.htm
 old-project: storage
 ms.assetid: 68D944D9-1A52-4FB0-B2D7-9680AB1EDABB
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], storage.storportiscurrentosinstallationupgrade, storport/StorPortIsCurrentOsInstallationUpgrade
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortIsCurrentOsInstallationUpgrade
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortIsCurrentOsInstallationUpgrade function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortIsCurrentOsInstallationUpgrade</b>  routine checks if the current installation of Windows is an upgrade from a previous version or not.
-
-
-## -syntax
-
-
-````
-ULONG StorPortIsCurrentOsInstallationUpgrade(
-  _In_  PVOID   HwDeviceExtension,
-  _Out_ BOOLEAN *Upgraded
-);
-````
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: ifsk\query_file_layout_output.htm
 old-project: ifsk
 ms.assetid: 204893BE-8B89-4BE4-BEDB-BF28DBAAACE9
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: "*PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_SINGLE_INSTANCED, _QUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output, ntifs/PQUERY_FILE_LAYOUT_OUTPUT, ntifs/QUERY_FILE_LAYOUT_OUTPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ntifs.h
 api_name:
 -	QUERY_FILE_LAYOUT_OUTPUT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: QUERY_FILE_LAYOUT_OUTPUT, *PQUERY_FILE_LAYOUT_OUTPUT
 ---
@@ -50,19 +51,6 @@ req.typenames: QUERY_FILE_LAYOUT_OUTPUT, *PQUERY_FILE_LAYOUT_OUTPUT
 
 
 The <b>QUERY_FILE_LAYOUT_OUTPUT</b> structure serves as a header for the file layout entries that are returned from a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451133">FSCTL_QUERY_FILE_LAYOUT</a> request.
-
-
-## -syntax
-
-
-````
-typedef struct _QUERY_FILE_LAYOUT_OUTPUT {
-  ULONG FileEntryCount;
-  ULONG FirstFileOffset;
-  ULONG Flags;
-  ULONG Reserved;
-} QUERY_FILE_LAYOUT_OUTPUT, *PQUERY_FILE_LAYOUT_OUTPUT;
-````
 
 
 ## -struct-fields
@@ -112,9 +100,9 @@ Reserved.
 
 
 
-The file layout entries that follow the <b>QUERY_FILE_LAYOUT_OUTPUT</b> structure are determined by the flags set in the <b>Flags</b> member of <a href="..\ntifs\ns-ntifs-_query_file_layout_input.md">QUERY_FILE_LAYOUT_INPUT</a> provided as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451133">FSCTL_QUERY_FILE_LAYOUT</a> request. A number of <b>FILE_LAYOUT_ENTRY</b> structures follow <b>QUERY_FILE_LAYOUT_OUTPUT</b>. Depending on the entries selected to return from a query, offsets in <b>FILE_LAYOUT_ENTRY</b> indicate where the additional informational entries are located in the user buffer. 
+The file layout entries that follow the <b>QUERY_FILE_LAYOUT_OUTPUT</b> structure are determined by the flags set in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439457">QUERY_FILE_LAYOUT_INPUT</a> provided as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451133">FSCTL_QUERY_FILE_LAYOUT</a> request. A number of <b>FILE_LAYOUT_ENTRY</b> structures follow <b>QUERY_FILE_LAYOUT_OUTPUT</b>. Depending on the entries selected to return from a query, offsets in <b>FILE_LAYOUT_ENTRY</b> indicate where the additional informational entries are located in the user buffer. 
 
-The following entry structures are returned when their corresponding inclusion flag is set in the <b>Flags</b> member of <a href="..\ntifs\ns-ntifs-_query_file_layout_input.md">QUERY_FILE_LAYOUT_INPUT</a>.<table>
+The following entry structures are returned when their corresponding inclusion flag is set in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439457">QUERY_FILE_LAYOUT_INPUT</a>.<table>
 <tr>
 <th>Entry</th>
 <th>Inclusion flag</th>
@@ -147,7 +135,6 @@ When multiple entries of the same type exist for a single <b>FILE_LAYOUT_ENTRY</
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_query_file_layout_input.md">QUERY_FILE_LAYOUT_INPUT</a>
 
 
 
@@ -155,8 +142,8 @@ When multiple entries of the same type exist for a single <b>FILE_LAYOUT_ENTRY</
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439457">QUERY_FILE_LAYOUT_INPUT</a>
  
 
  
-
 

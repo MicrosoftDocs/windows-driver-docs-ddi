@@ -7,7 +7,7 @@ old-location: ifsk\mrxcompletebufferingstatechangerequest.htm
 old-project: ifsk
 ms.assetid: 1484dcca-e29c-495d-917c-1debefc91409
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: MRxCompleteBufferingStateChangeRequest, MRxCompleteBufferingStateChangeRequest routine [Installable File System Drivers], PMRX_CHANGE_BUFFERING_STATE_CALLDOWN, ifsk.mrxcompletebufferingstatechangerequest, mrx/MRxCompleteBufferingStateChangeRequest, mrxref_5ac31893-1998-454a-a0c9-07d32e60d8db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,33 +38,19 @@ api_location:
 -	mrx.h
 api_name:
 -	MRxCompleteBufferingStateChangeRequest
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_CHANGE_BUFFERING_STATE_CALLDOWN callback
+# PMRX_CHANGE_BUFFERING_STATE_CALLDOWN callback function
 
 
 ## -description
 
 
 The<i>MRxCompleteBufferingStateChangeRequest</i> routine is called by <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify the network mini-redirector that a buffering state change request has been completed. 
-
-
-## -prototype
-
-
-````
-PMRX_CHANGE_BUFFERING_STATE_CALLDOWN MRxCompleteBufferingStateChangeRequest;
-
-NTSTATUS MRxCompleteBufferingStateChangeRequest(
-  _Inout_ PRX_CONTEXT   RxContext,
-  _Inout_ PMRX_SRV_OPEN  SrvOpen,
-  _In_    PVOID          MRxContext
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -160,16 +146,15 @@ RDBSS ignores the return value from <i>MRxCompleteBufferingStateChangeRequest</i
 
 ## -see-also
 
-<a href="..\mrx\nc-mrx-pmrx_get_connection_id.md">MRxGetConnectionId</a>
 
 
 
-<a href="..\mrx\nc-mrx-pmrx_compute_new_buffering_state.md">MRxComputeNewBufferingState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549856">MRxComputeNewBufferingState</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550687">MRxGetConnectionId</a>
  
 
  
-
 

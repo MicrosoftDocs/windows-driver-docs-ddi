@@ -7,7 +7,7 @@ old-location: kernel\psregistersilomonitor.htm
 old-project: kernel
 ms.assetid: C04F29FF-972C-44CC-8557-28C23827ADF0
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: PsRegisterSiloMonitor, PsRegisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psregistersilomonitor, ntddk/PsRegisterSiloMonitor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	ntddk.h
 api_name:
 -	PsRegisterSiloMonitor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # PsRegisterSiloMonitor function
@@ -52,20 +53,9 @@ req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 This routine registers a server silo monitor that can receive notifications about server silo events.
 
 
-<div class="alert"><b>Note</b>  To start receiving notifications, call the <a href="..\ntddk\nf-ntddk-psstartsilomonitor.md">PsStartSiloMonitor</a> routine.</div>
+<div class="alert"><b>Note</b>  To start receiving notifications, call the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735082">PsStartSiloMonitor</a> routine.</div>
 <div> </div>
 
-
-
-## -syntax
-
-
-````
-NTSTATUS PsRegisterSiloMonitor(
-  _In_  PSILO_MONITOR_REGISTRATION Registration,
-  _Out_ PSILO_MONITOR              *ReturnedMonitor
-);
-````
 
 
 ## -parameters
@@ -75,7 +65,7 @@ NTSTATUS PsRegisterSiloMonitor(
 
 ### -param Registration [in]
 
-Specifies the server silo monitor to be registered, of type <a href="..\ntddk\ns-ntddk-_silo_monitor_registration.md">SILO_MONITOR_REGISTRATION</a>. 
+Specifies the server silo monitor to be registered, of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt735088">SILO_MONITOR_REGISTRATION</a>. 
 
 
 ### -param ReturnedMonitor [out]

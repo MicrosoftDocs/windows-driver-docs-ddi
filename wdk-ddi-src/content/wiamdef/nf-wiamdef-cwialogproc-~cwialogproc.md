@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamdef.CWiaLogProc.~CWiaLogProc
-title: CWiaLogProc::~CWiaLogProc method
+title: CWiaLogProc::~CWiaLogProc
 author: windows-driver-content
 description: The ~CWiaLogProc destructor is called when the function or method being logged is exited.
 old-location: image\cwialogproc__cwialogproc.htm
 old-project: image
 ms.assetid: 5DD3EC13-5DDD-4640-A841-00576F74429A
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: CWiaLogProc, CWiaLogProc interface [Imaging Devices], ~CWiaLogProc method, CWiaLogProc::~CWiaLogProc, image.cwialogproc__cwialogproc, wiamdef/CWiaLogProc::~CWiaLogProc, ~CWiaLogProc method [Imaging Devices], ~CWiaLogProc method [Imaging Devices], CWiaLogProc interface, ~CWiaLogProc,CWiaLogProc.~CWiaLogProc
+ms.date: 4/23/2018
+ms.keywords: CWiaLogProc interface [Imaging Devices],~CWiaLogProc method, CWiaLogProc.~CWiaLogProc, CWiaLogProc::~CWiaLogProc, image.cwialogproc__cwialogproc, wiamdef/CWiaLogProc::~CWiaLogProc, ~CWiaLogProc, ~CWiaLogProc method [Imaging Devices], ~CWiaLogProc method [Imaging Devices],CWiaLogProc interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,29 +38,19 @@ api_location:
 -	Wiamdef.h
 api_name:
 -	CWiaLogProc.~CWiaLogProc
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# CWiaLogProc::~CWiaLogProc method
+# CWiaLogProc::~CWiaLogProc
 
 
 ## -description
 
 
 The <b>~CWiaLogProc</b> destructor is called when the function or method being logged is exited.
-
-
-## -syntax
-
-
-````
-void ~CWiaLogProc(
-    
-);
-````
 
 
 ## -parameters
@@ -83,12 +73,11 @@ This method does not return a value.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt844724">CWiaLogProc</a>
-
-
-
  
 
  
-
 

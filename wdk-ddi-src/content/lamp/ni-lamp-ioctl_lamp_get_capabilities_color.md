@@ -7,8 +7,8 @@ old-location: stream\ioctl_lamp_get_capabilities_color.htm
 old-project: stream
 ms.assetid: CC7B1824-E397-414A-8EB6-130AEC031304
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_LAMP_GET_CAPABILITIES_COLOR, IOCTL_LAMP_GET_CAPABILITIES_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_CAPABILITIES_COLOR, stream.ioctl_lamp_get_capabilities_color
+ms.date: 4/23/2018
+ms.keywords: IOCTL_LAMP_GET_CAPABILITIES_COLOR, IOCTL_LAMP_GET_CAPABILITIES_COLOR control, IOCTL_LAMP_GET_CAPABILITIES_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_CAPABILITIES_COLOR, stream.ioctl_lamp_get_capabilities_color
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	lamp.h
 api_name:
 -	IOCTL_LAMP_GET_CAPABILITIES_COLOR
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: LAMP_MODE
+req.typenames: 
 ---
 
 # IOCTL_LAMP_GET_CAPABILITIES_COLOR IOCTL
@@ -70,7 +71,7 @@ The <b>IOCTL_LAMP_GET_CAPABILITIES_COLOR</b>
 
 ### -input-buffer
 
-<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="..\lamp\ns-lamp-lamp_capabilities_color.md">LAMP_CAPABILITIES_COLOR</a>.
+<code>Irp-&gt;AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn936998">LAMP_CAPABILITIES_COLOR</a>.
 
 
 ### -input-buffer-length
@@ -117,7 +118,7 @@ The driver sets <code>Irp-&gt;IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or
 
 
 
-The payload of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_capabilities_color.md">LAMP_CAPABILITIES_COLOR</a> structure.
+The payload of this IOCTL is a <a href="https://msdn.microsoft.com/library/windows/hardware/dn936998">LAMP_CAPABILITIES_COLOR</a> structure.
 
 The <b>IsSupported</b> field indicates whether the lamp can emit color light. If the hardware does not support color light, the driver should set this field to <b>FALSE</b>.
 

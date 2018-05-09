@@ -7,7 +7,7 @@ old-location: debugger\writeiospaceex.htm
 old-project: debugger
 ms.assetid: fb0ae4bb-6d6b-4772-9dbd-ae43f7728313
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/24/2018
 ms.keywords: WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, WriteIoSpaceEx, WriteIoSpaceEx function [Windows Debugging], debugger.writeiospaceex, wdbgexts/WriteIoSpaceEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wdbgexts.h
 api_name:
 -	WriteIoSpaceEx
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WriteIoSpaceEx function
@@ -50,22 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>WriteIoSpaceEx</b> function is an extended version of <a href="..\wdbgexts\nf-wdbgexts-writeiospace.md">WriteIoSpace</a>. It can write to either a system I/O location or an I/O location on a bus. <b>WriteIoSpace</b> works like <b>WriteIoSpaceEx</b>, except that it defaults <i>interfacetype</i> to ISA, <i>busnumber</i> to zero, and <i>addressspace</i> to 1.
-
-
-## -syntax
-
-
-````
-VOID  WriteIoSpaceEx(
-   ULONG  address,
-   ULONG  data,
-   PULONG size,
-   ULONG  interfacetype,
-   ULONG  busnumber,
-   ULONG  addressspace
-);
-````
+The <b>WriteIoSpaceEx</b> function is an extended version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561406">WriteIoSpace</a>. It can write to either a system I/O location or an I/O location on a bus. <b>WriteIoSpace</b> works like <b>WriteIoSpaceEx</b>, except that it defaults <i>interfacetype</i> to ISA, <i>busnumber</i> to zero, and <i>addressspace</i> to 1.
 
 
 ## -parameters
@@ -116,7 +101,7 @@ None
 
 
 
-If you are writing 64-bit code, you should use <a href="..\wdbgexts\nf-wdbgexts-writeiospaceex64.md">WriteIoSpaceEx64</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
+If you are writing 64-bit code, you should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561414">WriteIoSpaceEx64</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
 For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
 

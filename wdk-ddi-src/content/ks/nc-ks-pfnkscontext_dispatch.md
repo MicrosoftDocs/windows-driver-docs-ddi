@@ -7,7 +7,7 @@ old-location: stream\kstrcontextdispatch.htm
 old-project: stream
 ms.assetid: be96eb59-6128-41bd-ad31-38f0d1a4e656
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrContextDispatch, KStrContextDispatch routine [Streaming Media Devices], PFNKSCONTEXT_DISPATCH, ks/KStrContextDispatch, ksfunc_b607dd80-6da6-4364-9452-4c2e53c54343.xml, stream.kstrcontextdispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,32 +38,19 @@ api_location:
 -	ks.h
 api_name:
 -	KStrContextDispatch
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSCONTEXT_DISPATCH callback
+# PFNKSCONTEXT_DISPATCH callback function
 
 
 ## -description
 
 
 A streaming minidriver's <i>KStrContextDispatch</i> routine is called to process IRP_MJ_POWER IRPs.
-
-
-## -prototype
-
-
-````
-PFNKSCONTEXT_DISPATCH KStrContextDispatch;
-
-NTSTATUS KStrContextDispatch(
-  _In_ PVOID Context,
-  _In_ PIRP  Irp
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ NTSTATUS KStrContextDispatch(
 
 ### -param Context [in]
 
-Specifies the user-supplied memory context to be passed as the <i>PowerContext</i> argument to the <a href="..\ks\nf-ks-kssetpowerdispatch.md">KsSetPowerDispatch</a> function.
+Specifies the user-supplied memory context to be passed as the <i>PowerContext</i> argument to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566843">KsSetPowerDispatch</a> function.
 
 
 ### -param Irp [in]
@@ -103,12 +90,11 @@ To manipulate the list entry only, <i>KStrContextDispatch</i> can call<b> KsSetP
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kssetpowerdispatch.md">KsSetPowerDispatch</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566843">KsSetPowerDispatch</a>
  
 
  
-
 

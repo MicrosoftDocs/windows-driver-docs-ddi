@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	gnssdriver.h
 api_name:
 -	GNSS_AGNSS_REQUEST_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: GNSS_AGNSS_REQUEST_TYPE
 ---
@@ -49,19 +50,7 @@ req.typenames: GNSS_AGNSS_REQUEST_TYPE
 ## -description
 
 
-This enumeration indicates the type of AGNSS injection request represented by the <a href="..\gnssdriver\ns-gnssdriver-gnss_agnss_request_param.md">GNSS_AGNSS_REQUEST_PARAM</a> structure.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  GNSS_AGNSS_TimeInjection      = 0x01,
-  GNSS_AGNSS_PositionInjection  = 0x02,
-  GNSS_AGNSS_BlobInjection      = 0x03
-} GNSS_AGNSS_REQUEST_TYPE;
-````
+This enumeration indicates the type of AGNSS injection request represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925096">GNSS_AGNSS_REQUEST_PARAM</a> structure.
 
 
 ## -enum-fields

@@ -7,8 +7,8 @@ old-location: print\iprintticketprovider_querydevicenamespace.htm
 old-project: print
 ms.assetid: d4a36a33-f8b8-4b8c-8ff7-918cb8ba79cb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintTicketProvider interface [Print Devices], QueryDeviceNamespace method, IPrintTicketProvider::QueryDeviceNamespace, QueryDeviceNamespace, QueryDeviceNamespace method [Print Devices], QueryDeviceNamespace method [Print Devices], IPrintTicketProvider interface, prdrvcom/IPrintTicketProvider::QueryDeviceNamespace, print.iprintticketprovider_querydevicenamespace, print_ticket-package_af00ca31-6882-4a84-8bc4-c8267b49ce30.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintTicketProvider interface [Print Devices],QueryDeviceNamespace method, IPrintTicketProvider::QueryDeviceNamespace, QueryDeviceNamespace, QueryDeviceNamespace method [Print Devices], QueryDeviceNamespace method [Print Devices],IPrintTicketProvider interface, prdrvcom/IPrintTicketProvider::QueryDeviceNamespace, print.iprintticketprovider_querydevicenamespace, print_ticket-package_af00ca31-6882-4a84-8bc4-c8267b49ce30.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -38,10 +38,10 @@ api_location:
 -	prdrvcom.h
 api_name:
 -	IPrintTicketProvider.QueryDeviceNamespace
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SHIMOPTS, *PSHIMOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # QueryDeviceNamespace function
@@ -51,16 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <code>IPrintTicketProvider::QueryDeviceNamespace</code> method queries the device for its default namespace uniform resource identifier (URI).
-
-
-## -syntax
-
-
-````
-HRESULT QueryDeviceNamespace(
-  [out] BSTR *pDefaultNamespace
-);
-````
 
 
 ## -parameters

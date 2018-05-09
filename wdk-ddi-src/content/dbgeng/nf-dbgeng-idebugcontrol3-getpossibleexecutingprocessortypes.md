@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetPossibleExecutingProcessorTypes
-title: IDebugControl3::GetPossibleExecutingProcessorTypes method
+title: IDebugControl3::GetPossibleExecutingProcessorTypes
 author: windows-driver-content
 description: The GetPossibleExecutingProcessorTypes method returns the processor types that are supported by the computer running the current target.
 old-location: debugger\getpossibleexecutingprocessortypes.htm
 old-project: debugger
 ms.assetid: fb11b655-2528-447f-9f5e-3c9e4e040156
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetPossibleExecutingProcessorTypes method [Windows Debugging], GetPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl interface, GetPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl2 interface, GetPossibleExecutingProcessorTypes method [Windows Debugging], IDebugControl3 interface, GetPossibleExecutingProcessorTypes,IDebugControl3.GetPossibleExecutingProcessorTypes, IDebugControl interface [Windows Debugging], GetPossibleExecutingProcessorTypes method, IDebugControl2 interface [Windows Debugging], GetPossibleExecutingProcessorTypes method, IDebugControl2::GetPossibleExecutingProcessorTypes, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetPossibleExecutingProcessorTypes method, IDebugControl3::GetPossibleExecutingProcessorTypes, IDebugControl::GetPossibleExecutingProcessorTypes, IDebugControl_582811e7-4eb0-4b94-a5d0-8c903ea8c2fe.xml, dbgeng/IDebugControl2::GetPossibleExecutingProcessorTypes, dbgeng/IDebugControl3::GetPossibleExecutingProcessorTypes, dbgeng/IDebugControl::GetPossibleExecutingProcessorTypes, debugger.getpossibleexecutingprocessortypes
+ms.date: 4/24/2018
+ms.keywords: GetPossibleExecutingProcessorTypes, GetPossibleExecutingProcessorTypes method [Windows Debugging], GetPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl interface, GetPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl2 interface, GetPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetPossibleExecutingProcessorTypes method, IDebugControl2 interface [Windows Debugging],GetPossibleExecutingProcessorTypes method, IDebugControl2::GetPossibleExecutingProcessorTypes, IDebugControl3 interface [Windows Debugging],GetPossibleExecutingProcessorTypes method, IDebugControl3.GetPossibleExecutingProcessorTypes, IDebugControl3::GetPossibleExecutingProcessorTypes, IDebugControl::GetPossibleExecutingProcessorTypes, IDebugControl_582811e7-4eb0-4b94-a5d0-8c903ea8c2fe.xml, dbgeng/IDebugControl2::GetPossibleExecutingProcessorTypes, dbgeng/IDebugControl3::GetPossibleExecutingProcessorTypes, dbgeng/IDebugControl::GetPossibleExecutingProcessorTypes, debugger.getpossibleexecutingprocessortypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,30 +40,19 @@ api_name:
 -	IDebugControl.GetPossibleExecutingProcessorTypes
 -	IDebugControl2.GetPossibleExecutingProcessorTypes
 -	IDebugControl3.GetPossibleExecutingProcessorTypes
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetPossibleExecutingProcessorTypes method
+# IDebugControl3::GetPossibleExecutingProcessorTypes
 
 
 ## -description
 
 
 The <b>GetPossibleExecutingProcessorTypes</b> method returns the processor types that are supported by the computer running the current target.
-
-
-## -syntax
-
-
-````
-HRESULT GetPossibleExecutingProcessorTypes(
-  [in]  ULONG  Start,
-  [in]  ULONG  Count,
-  [out] PULONG Types
-);
-````
 
 
 ## -parameters
@@ -125,11 +114,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547939">GetNumberPossibleExecutingProcessorTypes</a>
 
 
 
@@ -137,16 +121,20 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547939">GetNumberPossibleExecutingProcessorTypes</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
  
 
  
-
 

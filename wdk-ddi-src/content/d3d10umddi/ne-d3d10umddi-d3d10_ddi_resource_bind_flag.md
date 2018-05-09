@@ -7,7 +7,7 @@ old-location: display\d3d10_ddi_resource_bind_flag.htm
 old-project: display
 ms.assetid: 1c911435-5a55-4b92-9c65-3116d98f8ecf
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10_DDI_BIND_CONSTANT_BUFFER, D3D10_DDI_BIND_DEPTH_STENCIL, D3D10_DDI_BIND_INDEX_BUFFER, D3D10_DDI_BIND_MASK, D3D10_DDI_BIND_PIPELINE_MASK, D3D10_DDI_BIND_PRESENT, D3D10_DDI_BIND_RENDER_TARGET, D3D10_DDI_BIND_SHADER_RESOURCE, D3D10_DDI_BIND_STREAM_OUTPUT, D3D10_DDI_BIND_VERTEX_BUFFER, D3D10_DDI_RESOURCE_BIND_FLAG, D3D10_DDI_RESOURCE_BIND_FLAG enumeration [Display Devices], D3D11_DDI_BIND_CAPTURE, D3D11_DDI_BIND_DECODER, D3D11_DDI_BIND_MASK, D3D11_DDI_BIND_PIPELINE_MASK, D3D11_DDI_BIND_UNORDERED_ACCESS, D3D11_DDI_BIND_VIDEO_ENCODER, UMDisplayDriver_Dx10param_Structs_bb674d0e-4e3d-42ce-9216-2937f466b1f5.xml, d3d10umddi/D3D10_DDI_BIND_CONSTANT_BUFFER, d3d10umddi/D3D10_DDI_BIND_DEPTH_STENCIL, d3d10umddi/D3D10_DDI_BIND_INDEX_BUFFER, d3d10umddi/D3D10_DDI_BIND_MASK, d3d10umddi/D3D10_DDI_BIND_PIPELINE_MASK, d3d10umddi/D3D10_DDI_BIND_PRESENT, d3d10umddi/D3D10_DDI_BIND_RENDER_TARGET, d3d10umddi/D3D10_DDI_BIND_SHADER_RESOURCE, d3d10umddi/D3D10_DDI_BIND_STREAM_OUTPUT, d3d10umddi/D3D10_DDI_BIND_VERTEX_BUFFER, d3d10umddi/D3D10_DDI_RESOURCE_BIND_FLAG, d3d10umddi/D3D11_DDI_BIND_CAPTURE, d3d10umddi/D3D11_DDI_BIND_DECODER, d3d10umddi/D3D11_DDI_BIND_MASK, d3d10umddi/D3D11_DDI_BIND_PIPELINE_MASK, d3d10umddi/D3D11_DDI_BIND_UNORDERED_ACCESS, d3d10umddi/D3D11_DDI_BIND_VIDEO_ENCODER, display.d3d10_ddi_resource_bind_flag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	d3d10umddi.h
 api_name:
 -	D3D10_DDI_RESOURCE_BIND_FLAG
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3D10_DDI_RESOURCE_BIND_FLAG, D3D10_DDI_RESOURCE_BIND_FLAG
+req.typenames: D3D10_DDI_RESOURCE_BIND_FLAG
 ---
 
 # D3D10_DDI_RESOURCE_BIND_FLAG enumeration
@@ -52,39 +53,6 @@ req.typenames: D3D10_DDI_RESOURCE_BIND_FLAG, D3D10_DDI_RESOURCE_BIND_FLAG
 Identifies how a resource is bound.
 
 
-## -syntax
-
-
-````
-typedef enum D3D10_DDI_RESOURCE_BIND_FLAG { 
-  D3D10_DDI_BIND_VERTEX_BUFFER     = 0x00000001L,
-  D3D10_DDI_BIND_INDEX_BUFFER      = 0x00000002L,
-  D3D10_DDI_BIND_CONSTANT_BUFFER   = 0x00000004L,
-  D3D10_DDI_BIND_SHADER_RESOURCE   = 0x00000008L,
-  D3D10_DDI_BIND_STREAM_OUTPUT     = 0x00000010L,
-  D3D10_DDI_BIND_RENDER_TARGET     = 0x00000020L,
-  D3D10_DDI_BIND_DEPTH_STENCIL     = 0x00000040L,
-  D3D10_DDI_BIND_PIPELINE_MASK     = 0x0000007FL,
-  D3D10_DDI_BIND_PRESENT           = 0x00000080L,
-  D3D10_DDI_BIND_MASK              = 0x000000FFL,
-#if D3D11DDI_MINOR_HEADER_VERSION >= 3
-  D3D11_DDI_BIND_UNORDERED_ACCESS  = 0x00000100L,
-  D3D11_DDI_BIND_DECODER           = 0x00000200L,
-  D3D11_DDI_BIND_VIDEO_ENCODER     = 0x00000400L,
-  D3D11_DDI_BIND_CAPTURE           = 0x00000800L,
-  D3D11_DDI_BIND_PIPELINE_MASK     = 0x00000F7FL,
-  D3D11_DDI_BIND_MASK              = 0x00000FFFL,
-#else 
-#if D3D11DDI_MINOR_HEADER_VERSION >= 1
-  D3D11_DDI_BIND_UNORDERED_ACCESS  = 0x00000100L,
-  D3D11_DDI_BIND_PIPELINE_MASK     = 0x0000017FL,
-  D3D11_DDI_BIND_MASK              = 0x000001FFL
-#endif 
-
-#endif } D3D10_DDI_RESOURCE_BIND_FLAG;
-````
-
-
 ## -enum-fields
 
 
@@ -92,12 +60,12 @@ typedef enum D3D10_DDI_RESOURCE_BIND_FLAG {
 
 ### -field D3D10_DDI_BIND_VERTEX_BUFFER
 
-The resource can be bound as a vertex buffer in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_ia_setvertexbuffers.md">IaSetVertexBuffers</a> function. 
+The resource can be bound as a vertex buffer in a call to the driver's <a href="https://msdn.microsoft.com/3d5a7ea1-08c2-4594-93bc-97b985cd16dc">IaSetVertexBuffers</a> function. 
 
 
 ### -field D3D10_DDI_BIND_INDEX_BUFFER
 
-The resource can be bound as an index buffer in a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_ia_setindexbuffer.md">IaSetIndexBuffer</a> function. 
+The resource can be bound as an index buffer in a call to the driver's <a href="https://msdn.microsoft.com/042ebb72-b794-4cb8-9d81-bd52a785f1e0">IaSetIndexBuffer</a> function. 
 
 
 ### -field D3D10_DDI_BIND_CONSTANT_BUFFER
@@ -109,7 +77,7 @@ The resource can be bound as an index buffer in a call to the driver's <a href="
 
 ### -field D3D10_DDI_BIND_SHADER_RESOURCE
 
-The resource can be bound as a shader resource in a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">GsSetShaderResources</a>, <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">PsSetShaderResources</a>, or <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">VsSetShaderResources</a> function.
+The resource can be bound as a shader resource in a call to the <a href="https://msdn.microsoft.com/b5cd87bb-7a08-444c-9120-d7ab79e512c5">GsSetShaderResources</a>, <a href="https://msdn.microsoft.com/e30aabdd-52b7-40c0-bb92-50cbabdc5e1f">PsSetShaderResources</a>, or <a href="https://msdn.microsoft.com/4d432517-97f0-441f-ac49-0416ac19b319">VsSetShaderResources</a> function.
 
 
 ### -field D3D10_DDI_BIND_STREAM_OUTPUT
@@ -222,7 +190,22 @@ Supported starting with Windows 7.
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">GsSetShaderResources</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a>
+
+
+
+<a href="https://msdn.microsoft.com/b5cd87bb-7a08-444c-9120-d7ab79e512c5">GsSetShaderResources</a>
+
+
+
+<a href="https://msdn.microsoft.com/042ebb72-b794-4cb8-9d81-bd52a785f1e0">IaSetIndexBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/3d5a7ea1-08c2-4594-93bc-97b985cd16dc">IaSetVertexBuffers</a>
 
 
 
@@ -230,28 +213,12 @@ Supported starting with Windows 7.
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">VsSetShaderResources</a>
+<a href="https://msdn.microsoft.com/e30aabdd-52b7-40c0-bb92-50cbabdc5e1f">PsSetShaderResources</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">PsSetShaderResources</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_ia_setindexbuffer.md">IaSetIndexBuffer</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_ia_setvertexbuffers.md">IaSetVertexBuffers</a>
-
-
-
+<a href="https://msdn.microsoft.com/4d432517-97f0-441f-ac49-0416ac19b319">VsSetShaderResources</a>
  
 
  
-
 

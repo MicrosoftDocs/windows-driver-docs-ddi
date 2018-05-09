@@ -7,7 +7,7 @@ old-location: ifsk\fltisdirectory.htm
 old-project: ifsk
 ms.assetid: a9343e09-0b7b-4ed8-9b30-63ee0b38d13d
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_cdcea60b-c299-4445-9c96-126210f2a43e.xml, FltIsDirectory, FltIsDirectory routine [Installable File System Drivers], fltkernel/FltIsDirectory, ifsk.fltisdirectory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltIsDirectory
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltIsDirectory function
@@ -50,18 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 A minifilter driver calls the <b>FltIsDirectory</b> routine to determine whether a given file object represents a directory. 
-
-
-## -syntax
-
-
-````
-NTSTATUS FltIsDirectory(
-  _In_  PFILE_OBJECT  FileObject,
-  _In_  PFLT_INSTANCE Instance,
-  _Out_ PBOOLEAN      IsDirectory
-);
-````
 
 
 ## -parameters
@@ -102,7 +91,7 @@ Pointer to a caller-supplied Boolean variable. On return, this variable receives
 </dl>
 </td>
 <td width="60%">
-This error code is returned if the file system does not support stream contexts.  Note that starting with Windows Vista, <a href="..\fltkernel\nf-fltkernel-fltisdirectory.md">FltIsDirectory</a> will return directory information even for file systems that do not support stream contexts.  
+This error code is returned if the file system does not support stream contexts.  Note that starting with Windows Vista, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543318">FltIsDirectory</a> will return directory information even for file systems that do not support stream contexts.  
 
 </td>
 </tr>
@@ -125,12 +114,11 @@ This error code is returned if the file system does not support stream contexts.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
-
-
-
  
 
  
-
 

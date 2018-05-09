@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_home_provider2.htm
 old-project: netvista
 ms.assetid: B01039CF-F4AC-4374-BBB8-ACB204BC40E2
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_HOME_PROVIDER2, NDIS_WWAN_HOME_PROVIDER2, NDIS_WWAN_HOME_PROVIDER2 structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_HOME_PROVIDER2, PNDIS_WWAN_HOME_PROVIDER2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_HOME_PROVIDER2, ndiswwan/NDIS_WWAN_HOME_PROVIDER2, ndiswwan/PNDIS_WWAN_HOME_PROVIDER2, netvista.ndis_wwan_home_provider2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	ndiswwan.h
 api_name:
 -	NDIS_WWAN_HOME_PROVIDER2
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: NDIS_WWAN_HOME_PROVIDER2, *PNDIS_WWAN_HOME_PROVIDER2
 ---
@@ -50,18 +51,6 @@ req.typenames: NDIS_WWAN_HOME_PROVIDER2, *PNDIS_WWAN_HOME_PROVIDER2
 
 
 The NDIS_WWAN_HOME_PROVIDER2 structure describes details of a home network provider.
-
-
-## -syntax
-
-
-````
-typedef struct _NDIS_WWAN_HOME_PROVIDER2 {
-  NDIS_OBJECT_HEADER Header;
-  WWAN_STATUS        uStatus;
-  WWAN_PROVIDER2     Provider;
-} NDIS_WWAN_HOME_PROVIDER2, *PNDIS_WWAN_HOME_PROVIDER2;
-````
 
 
 ## -struct-fields
@@ -117,7 +106,7 @@ sizeof(NDIS_WWAN_HOME_PROVIDER2)
  
 
 For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -127,17 +116,16 @@ The status of the home provider operation.
 
 ### -field Provider
 
-A formatted <a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a> object that describes the details of a home network provider.
+A formatted <a href="https://msdn.microsoft.com/library/windows/hardware/hh464135">WWAN_PROVIDER2</a> object that describes the details of a home network provider.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_provider2.md">WWAN_PROVIDER2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464135">WWAN_PROVIDER2</a>
  
 
  
-
 

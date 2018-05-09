@@ -72,7 +72,7 @@ typedef EVT_RXQUEUE_CANCEL *PFN_RXQUEUE_CANCEL;
 
 ## -parameters
 
-### -param RxQueue: 
+### -param RxQueue 
 A handle to a net receive queue.
 
 ## -returns

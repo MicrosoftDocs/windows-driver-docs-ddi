@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.IsRestartedWithContext
-title: IWDTFSystemAction2::IsRestartedWithContext method
+title: IWDTFSystemAction2::IsRestartedWithContext
 author: windows-driver-content
 description: Gets a value that indicates whether the test script was restarted for a specific context.
 old-location: dtf\iwdtfsystemaction2_isrestartedwithcontext.htm
 old-project: dtf
 ms.assetid: 4a7038e6-4c56-48cb-ae8b-34acc363a9a9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], IsRestartedWithContext method, IWDTFSystemAction2::IsRestartedWithContext, IsRestartedWithContext method [Windows Device Testing Framework], IsRestartedWithContext method [Windows Device Testing Framework], IWDTFSystemAction2 interface, IsRestartedWithContext,IWDTFSystemAction2.IsRestartedWithContext, Microsoft.WDTF.IWDTFSystemAction2.IsRestartedWithContext, Microsoft::WDTF::IWDTFSystemAction2::IsRestartedWithContext, dtf.iwdtfsystemaction2_isrestartedwithcontext, wdtfsystemaction/IWDTFSystemAction2::IsRestartedWithContext
+ms.date: 4/4/2018
+ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],IsRestartedWithContext method, IWDTFSystemAction2.IsRestartedWithContext, IWDTFSystemAction2::IsRestartedWithContext, IsRestartedWithContext, IsRestartedWithContext method [Windows Device Testing Framework], IsRestartedWithContext method [Windows Device Testing Framework],IWDTFSystemAction2 interface, Microsoft.WDTF.IWDTFSystemAction2.IsRestartedWithContext, Microsoft::WDTF::IWDTFSystemAction2::IsRestartedWithContext, dtf.iwdtfsystemaction2_isrestartedwithcontext, wdtfsystemaction/IWDTFSystemAction2::IsRestartedWithContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,30 +38,19 @@ api_location:
 -	WDTFSystemAction.Interop.dll
 api_name:
 -	IWDTFSystemAction2.IsRestartedWithContext
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSystemAction2::IsRestartedWithContext method
+# IWDTFSystemAction2::IsRestartedWithContext
 
 
 ## -description
 
 
 Gets a value that indicates whether the test script was restarted for a specific context.
-
-
-## -syntax
-
-
-````
-HRESULT IsRestartedWithContext(
-  [in]          BSTR         psContext,
-  [out, retval] VARIANT_BOOL *pbIsRestarted
-);
-````
 
 
 ## -parameters
@@ -95,12 +84,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -see-also
 
-<a href="..\wdtfsystemaction\nn-wdtfsystemaction-iwdtfsystemaction2.md">IWDTFSystemAction2</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439302">IWDTFSystemAction2</a>
  
 
  
-
 

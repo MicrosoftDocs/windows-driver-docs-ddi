@@ -7,7 +7,7 @@ old-location: image\wiasgetcontextfromname.htm
 old-project: image
 ms.assetid: d15bf48e-132d-4f89-8f19-64f57deed500
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasgetcontextfromname, wiamdef/wiasGetContextFromName, wiasFncs_ba1c88a2-aadc-4c2f-bb5f-88433d1e1760.xml, wiasGetContextFromName, wiasGetContextFromName function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Wiaservc.dll
 api_name:
 -	wiasGetContextFromName
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasGetContextFromName function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiasGetContextFromName</b> function retrieves the item context for an item name.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiasGetContextFromName(
-  _In_  BYTE *pWiasContext,
-        LONG lFlags,
-  _In_  BSTR bstrName,
-  _Out_ BYTE **ppWiasContext
-);
-````
 
 
 ## -parameters
@@ -113,12 +100,11 @@ This function should be used by minidrivers when they need to move from one appl
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetrootitem.md">wiasGetRootItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549264">wiasGetRootItem</a>
  
 
  
-
 

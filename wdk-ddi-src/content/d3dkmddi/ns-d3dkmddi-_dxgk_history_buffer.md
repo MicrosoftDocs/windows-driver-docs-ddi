@@ -7,7 +7,7 @@ old-location: display\dxgk_history_buffer.htm
 old-project: display
 ms.assetid: 66088355-A110-4295-81D9-542491E2D6E4
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_HISTORY_BUFFER, DXGK_HISTORY_BUFFER structure [Display Devices], _DXGK_HISTORY_BUFFER, d3dkmddi/DXGK_HISTORY_BUFFER, display.dxgk_history_buffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmddi.h
 api_name:
 -	DXGK_HISTORY_BUFFER
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_HISTORY_BUFFER
 ---
@@ -52,17 +53,6 @@ req.typenames: DXGK_HISTORY_BUFFER
 Specifies a history buffer that stores time stamps that record GPU activity throughout the execution lifetime of a direct memory access (DMA) buffer.
 
 
-## -syntax
-
-
-````
-typedef struct _DXGK_HISTORY_BUFFER {
-  DXGK_HISTORY_BUFFER_HEADER Header;
-  UINT8                      DriverPrivateData[1];
-} DXGK_HISTORY_BUFFER;
-````
-
-
 ## -struct-fields
 
 
@@ -70,7 +60,7 @@ typedef struct _DXGK_HISTORY_BUFFER {
 
 ### -field Header
 
-A pointer to  a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a> structure that contains history buffer header info.
+A pointer to  a <a href="https://msdn.microsoft.com/library/windows/hardware/dn439362">DXGK_HISTORY_BUFFER_HEADER</a> structure that contains history buffer header info.
 
 
 ### -field DriverPrivateData
@@ -82,29 +72,28 @@ An array that marks the beginning of the optional driver data and timestamp entr
 
 
 
-You can calculate the address of the first time stamp in the history buffer by adding the value of <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>.<b>PrivateDataSize</b> to the address of <b>DriverPrivateData</b>.
+You can calculate the address of the first time stamp in the history buffer by adding the value of <a href="https://msdn.microsoft.com/library/windows/hardware/dn439362">DXGK_HISTORY_BUFFER_HEADER</a>.<b>PrivateDataSize</b> to the address of <b>DriverPrivateData</b>.
 
 The beginnings of the time stamps should be aligned to a 64-bit boundary.
 
 The first and last time stamps in the <b>DriverPrivateData</b> array must be respectively the start and end times of the DMA buffer. Time stamps that are used to log marker times begin after this end time. This is the case for both formatted and unformatted buffers.
 
-The driver specifies the precision of time stamps with the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a> structure.
+The driver specifies the precision of time stamps with the <a href="https://msdn.microsoft.com/library/windows/hardware/dn439359">DXGKARG_HISTORYBUFFERPRECISION</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_history_buffer_header.md">DXGK_HISTORY_BUFFER_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn439359">DXGKARG_HISTORYBUFFERPRECISION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn439362">DXGK_HISTORY_BUFFER_HEADER</a>
  
 
  
-
 

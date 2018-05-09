@@ -7,7 +7,7 @@ old-location: bltooth\_brb_l2ca_open_enhanced_channel.htm
 old-project: bltooth
 ms.assetid: 34CA2A3E-871F-46D4-962A-8EE8D7B8DA15
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], _BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_enhanced_channel, bltooth.brb_l2ca_open_enhanced_channel, bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Bthddi.h
 api_name:
 -	BRB_L2CA_OPEN_ENHANCED_CHANNEL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,59 +53,6 @@ req.typenames:
 The _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure is used to open an enhanced L2CAP channel to a remote device, or send a response for accepting/rejecting an incoming enhanced L2CAP connection request that was initiated by a remote device.
 
 
-## -syntax
-
-
-````
-typedef struct _BRB_L2CA_OPEN_ENHANCED_CHANNEL {
-  BRB_HEADER                              Hdr;
-  L2CAP_CHANNEL_HANDLE                    ChannelHandle;
-  union {
-    struct {
-      USHORT Response;
-      USHORT ResponseStatus;
-    };
-    USHORT Psm;
-  };
-  ULONG                                   ChannelFlags;
-  BTH_ADDR                                BtAddress;
-  struct {
-    ULONG                    Flags;
-    L2CAP_CONFIG_VALUE_RANGE Mtu;
-    L2CAP_CONFIG_VALUE_RANGE FlushTO;
-    L2CAP_FLOWSPEC           Flow;
-    USHORT                   LinkTO;
-    ULONG                    NumExtraOptions;
-    PL2CAP_CONFIG_OPTION     ExtraOptions;
-    struct {
-      UCHAR ServiceType;
-      ULONG Latency;
-    } LocalQos;
-    struct {
-      ULONG                                 Flags;
-      L2CAP_RETRANSMISSION_AND_FLOW_CONTROL RetransmissionAndFlow;
-    } ModeConfig;
-    USHORT                   Fcs;
-    L2CAP_EXTENDED_FLOW_SPEC ExtendedFlowSpec;
-    USHORT                   ExtendedWindowSize;
-  } ConfigOut;
-  struct {
-    ULONG                    Flags;
-    L2CAP_CONFIG_VALUE_RANGE Mtu;
-    L2CAP_CONFIG_RANGE       FlushTO;
-  } ConfigIn;
-  ULONG                                   CallbackFlags;
-  PFNBTHPORT_INDICATION_CALLBACK_ENHANCED Callback;
-  PVOID                                   CallbackContext;
-  PVOID                                   ReferenceObject;
-  CHANNEL_CONFIG_RESULTS_ENHANCED         OutResults;
-  CHANNEL_CONFIG_RESULTS_ENHANCED         InResults;
-  UCHAR                                   IncomingQueueDepth;
-  PVOID                                   Reserved;
-} BRB_L2CA_OPEN_ENHANCED_CHANNEL, *PBRB_L2CA_OPEN_ENHANCED_CHANNEL;
-````
-
-
 ## -struct-fields
 
 
@@ -113,7 +61,7 @@ typedef struct _BRB_L2CA_OPEN_ENHANCED_CHANNEL {
 ### -field Hdr
 
 A 
-     <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -136,6 +84,13 @@ A
 ### -field ResponseStatus
 
  
+
+
+### -field Psm
+
+The Protocol/Service Multiplexer (PSM) that the channel uses to connect to the remote device.
+      When used with a <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> request, this member is set as an input field. When used with a
+      <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE</b> request, this member is used as an output field.
 
 
 ### -field ChannelFlags
@@ -200,8 +155,7 @@ The substructure that contains parameter settings for a <b>BRB_L2CA_OPEN_ENHANCE
      device.
 
 
-
-#### Flags
+### -field ConfigOut.Flags
 
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
       the following table:
@@ -272,61 +226,37 @@ Specifies that the Fcs value is valid.
  
 
 
-
-#### Mtu
+### -field ConfigOut.Mtu
 
 The range of message transfer units (MTUs) that is used to negotiate the size of the outbound
       half of channel.
 
 
-
-#### FlushTO
+### -field ConfigOut.FlushTO
 
 The range of possible values to be used for the flush timeout for the outbound half of the
       channel.
 
 
-
-#### Flow
+### -field ConfigOut.Flow
 
 Reserved for future use. Do not use.
 
 
-
-#### LinkTO
+### -field ConfigOut.LinkTO
 
 The Link Manager link timeout.
 
 
-
-#### NumExtraOptions
+### -field ConfigOut.NumExtraOptions
 
 The number of array items that are contained in the 
       <b>ExtraOptions</b> member. This value should be zero for most clients.
 
 
-
-#### ExtraOptions
+### -field ConfigOut.ExtraOptions
 
 Extra options. This value should be zero for most clients.
-
-
-
-#### Fcs
-
-Specifies whether FCS should be used for the enhanced L2CAP channel. This value is valid only if CM_RETRANSMISSION_AND_FLOW or CM_STREAMING flag is specified in the <b>Flags</b> member.
-
-
-
-#### ExtendedFlowSpec
-
-Not supported.
-
-
-
-#### ExtendedWindowSize
-
-Not supported.
 
 
 ### -field ConfigOut.LocalQos
@@ -406,14 +336,28 @@ CM_RETRANSMISSION_AND_FLOW and CM_STREAMING modes. This structure must be zero i
 The <b>Mode</b> submember of <b>RetransmissionAndFlow</b> should be set to 0. Use the <b>ModeConfig</b> submember of <b>RetransmissionAndFlow</b> to specify the type of channel to open.
 
 
+### -field ConfigOut.Fcs
+
+Specifies whether FCS should be used for the enhanced L2CAP channel. This value is valid only if CM_RETRANSMISSION_AND_FLOW or CM_STREAMING flag is specified in the <b>Flags</b> member.
+
+
+### -field ConfigOut.ExtendedFlowSpec
+
+Not supported.
+
+
+### -field ConfigOut.ExtendedWindowSize
+
+Not supported.
+
+
 ### -field ConfigIn
 
 The substructure that contains parameter settings to validate incoming
      <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE</b> BRBs that are sent from a remote device.
 
 
-
-#### Flags
+### -field ConfigIn.Flags
 
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
       the following table:
@@ -464,15 +408,13 @@ The profile driver indicates its preference that users not be prompted for a PIN
  
 
 
-
-#### Mtu
+### -field ConfigIn.Mtu
 
 The range of message transfer units (MTUs) that is used to negotiate the size of the inbound
       half of channel.
 
 
-
-#### FlushTO
+### -field ConfigIn.FlushTO
 
 The range of possible values to be used for the flush timeout for the inbound half of the
       channel.
@@ -555,7 +497,7 @@ If set, the callback routine will be called when the profile driver receives an 
 ### -field Callback
 
 The 
-     <a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback_enhanced.md">Enhanced L2CAP Callback
+     <a href="https://msdn.microsoft.com/1C08937A-2B0C-4A6C-ACDF-1A751BF0D6F6">Enhanced L2CAP Callback
      Function</a> implemented by the profile driver, that the Bluetooth driver stack should call to notify
      the profile driver about any changes to the enhanced L2CAP connection.
 
@@ -569,15 +511,15 @@ The context to pass to the callback function specified in the
 ### -field ReferenceObject
 
 A pointer to an object to pass to 
-     <a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a> and 
-     <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a> for which to
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a> and 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a> for which to
      maintain a reference count of.
 
 
 ### -field OutResults
 
 A 
-     <a href="..\bthddi\ns-bthddi-_channel_config_results_enhanced.md">CHANNEL_CONFIG_RESULTS_ENHANCED</a> structure that
+     <a href="https://msdn.microsoft.com/library/windows/hardware/hh450871">CHANNEL_CONFIG_RESULTS_ENHANCED</a> structure that
      contains configuration parameters negotiated for the outbound request.
 
 
@@ -600,7 +542,7 @@ Reserved member. Do not use.
 #### - ( unnamed struct )
 
 A 
-      <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a> structure that contains information
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
       about the current BRB.
 
 
@@ -745,13 +687,6 @@ The remote device accepted the connection.
 
 
 ##### CONNECT_RSP_STATUS_NO_INFORMATION
-
-
-#### - Psm
-
-The Protocol/Service Multiplexer (PSM) that the channel uses to connect to the remote device.
-      When used with a <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> request, this member is set as an input field. When used with a
-      <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE</b> request, this member is used as an output field.
 
 
 ## -remarks

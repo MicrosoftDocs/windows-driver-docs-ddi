@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_scale_support.htm
 old-project: display
 ms.assetid: 70FFDE9E-2029-4C84-9DEE-C2E81FEE5590
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_SCALE_SUPPORT_0022, D3D12DDI_VIDEO_SCALE_SUPPORT_0022 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_0022, display.d3d12ddi_video_scale_support
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	D3D12DDI_VIDEO_SCALE_SUPPORT_0022
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D12DDI_VIDEO_SCALE_SUPPORT_0022
 ---
@@ -50,20 +51,6 @@ req.typenames: D3D12DDI_VIDEO_SCALE_SUPPORT_0022
 
 
 Describes a supported range of output sizes for a scaler.
-
-
-## -syntax
-
-
-````
-typedef struct D3D12DDI_VIDEO_SCALE_SUPPORT_0022 {
-  UINT                                    MaxOutputWidth;
-  UINT                                    MaxOutputHeight;
-  UINT                                    MinOutputWidth;
-  UINT                                    MinOutputHeight;
-  D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS_0022 ScaleSupportFlags;
-} D3D12DDI_VIDEO_SCALE_SUPPORT_0022;
-````
 
 
 ## -struct-fields
@@ -93,14 +80,14 @@ The smallest output height that can be scaled to.  The smallest allowed value is
 
 ### -field Flags
 
- 
+
 
 
 
 
 #### - ScaleSupportFlags
 
-Flags that indicated level of scale support. For more information, see the <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_scale_support_flags_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS</a> enumeration. 
+Flags that indicated level of scale support. For more information, see the <a href="https://msdn.microsoft.com/A0E1AA43-FE1A-4754-B8E6-BFE87CA810E2">D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS</a> enumeration. 
 
 
 ## -remarks
@@ -118,12 +105,11 @@ When scaling is not supported, the maximum and maximum sizes should both be set 
 
 ## -see-also
 
-<a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_scale_support_flags_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS</a>
 
 
 
+<a href="https://msdn.microsoft.com/A0E1AA43-FE1A-4754-B8E6-BFE87CA810E2">D3D12DDI_VIDEO_SCALE_SUPPORT_FLAGS</a>
  
 
  
-
 

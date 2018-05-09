@@ -7,8 +7,8 @@ old-location: audio\iportclspnp.htm
 old-project: audio
 ms.assetid: AC04051E-8412-4B61-B452-C05A9D8D5CD9
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IPortClsPnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices], described, audio.iportclspnp, portcls/IPortClsPnp
+ms.date: 4/16/2018
+ms.keywords: IPortClsPnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices],described, audio.iportclspnp, portcls/IPortClsPnp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortClsPnp
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IPortClsPnp interface

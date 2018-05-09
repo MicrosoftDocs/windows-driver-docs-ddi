@@ -7,7 +7,7 @@ old-location: ifsk\semarklogonsessionforterminationnotification.htm
 old-project: ifsk
 ms.assetid: ca259e03-4770-48ce-a4c0-a26159a172aa
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: SeMarkLogonSessionForTerminationNotification, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], ifsk.semarklogonsessionforterminationnotification, ntifs/SeMarkLogonSessionForTerminationNotification, seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	SeMarkLogonSessionForTerminationNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # SeMarkLogonSessionForTerminationNotification function
@@ -50,16 +51,6 @@ req.typenames: TOKEN_TYPE
 
 
 The <b>SeMarkLogonSessionForTerminationNotification</b> routine marks a logon session so that the caller's registered callback routine is called when the logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.
-
-
-## -syntax
-
-
-````
-NTSTATUS SeMarkLogonSessionForTerminationNotification(
-  _In_ PLUID LogonId
-);
-````
 
 
 ## -parameters
@@ -113,7 +104,7 @@ The logon session was not found.
 
 
 
-To register the callback routine, use <a href="..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md">SeRegisterLogonSessionTerminatedRoutine</a>.
+To register the callback routine, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff556702">SeRegisterLogonSessionTerminatedRoutine</a>.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK.
 
@@ -122,20 +113,19 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seunregisterlogonsessionterminatedroutine.md">SeUnregisterLogonSessionTerminatedRoutine</a>
 
 
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-seregisterlogonsessionterminatedroutine.md">SeRegisterLogonSessionTerminatedRoutine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556702">SeRegisterLogonSessionTerminatedRoutine</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556738">SeUnregisterLogonSessionTerminatedRoutine</a>
  
 
  
-
 

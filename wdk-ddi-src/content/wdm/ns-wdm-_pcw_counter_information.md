@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	PCW_COUNTER_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PCW_COUNTER_INFORMATION, *PPCW_COUNTER_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _PCW_COUNTER_INFORMATION structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The PCW_COUNTER_INFORMATION structure describes attributes that identify a specific instance of a counter set. 
-
-
-## -syntax
-
-
-````
-typedef struct _PCW_COUNTER_INFORMATION {
-  ULONG64          CounterMask;
-  PCUNICODE_STRING InstanceMask;
-} PCW_COUNTER_INFORMATION, *PPCW_COUNTER_INFORMATION;
-````
 
 
 ## -struct-fields

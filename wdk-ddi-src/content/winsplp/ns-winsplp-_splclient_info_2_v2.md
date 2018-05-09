@@ -7,7 +7,7 @@ old-location: print\splclient_info_2_winxp.htm
 old-project: print
 ms.assetid: 48BD760E-6017-49B2-854F-7F48671974F3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*LPSPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_WINXP, SPLCLIENT_INFO_2_WINXP structure [Print Devices], _SPLCLIENT_INFO_2_V2, print.splclient_info_2_winxp, winsplp/SPLCLIENT_INFO_2_WINXP"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	Winsplp.h
 api_name:
 -	SPLCLIENT_INFO_2_WINXP
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SPLCLIENT_INFO_2_WINXP
-req.product: Windows 10 or later.
 ---
 
 # _SPLCLIENT_INFO_2_V2 structure
@@ -51,20 +51,6 @@ req.product: Windows 10 or later.
 
 
 
-
-
-## -syntax
-
-
-````
-typedef struct _SPLCLIENT_INFO_2_V2 {
-#ifdef _WIN64
-  DWORD64  hSplPrinter;
-#else 
-  DWORD32  hSplPrinter;
-#endif 
-} SPLCLIENT_INFO_2_WINXP;
-````
 
 
 ## -struct-fields

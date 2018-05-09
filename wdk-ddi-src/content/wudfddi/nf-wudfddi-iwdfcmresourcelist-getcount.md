@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFCmResourceList.GetCount
-title: IWDFCmResourceList::GetCount method
+title: IWDFCmResourceList::GetCount
 author: windows-driver-content
 description: The GetCount method returns the number of resource descriptors that are contained in this interface's resource list.
 old-location: wdf\iwdfcmresourcelist_getcount.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91F88EC2-C0BD-42E1-8C57-437909E2CCA2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetCount method, GetCount method, IWDFCmResourceList interface, GetCount,IWDFCmResourceList.GetCount, IWDFCmResourceList, IWDFCmResourceList interface, GetCount method, IWDFCmResourceList::GetCount, umdf.iwdfcmresourcelist_getcount, wdf.iwdfcmresourcelist_getcount, wudfddi/IWDFCmResourceList::GetCount
+ms.keywords: GetCount, GetCount method, GetCount method,IWDFCmResourceList interface, IWDFCmResourceList interface,GetCount method, IWDFCmResourceList.GetCount, IWDFCmResourceList::GetCount, umdf.iwdfcmresourcelist_getcount, wdf.iwdfcmresourcelist_getcount, wudfddi/IWDFCmResourceList::GetCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFCmResourceList.GetCount
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFCmResourceList::GetCount method
+# IWDFCmResourceList::GetCount
 
 
 ## -description
@@ -56,14 +56,6 @@ req.product: Windows 10 or later.
 The <b>GetCount</b> method returns the number of resource descriptors that are contained in this interface's resource list.
 
 
-
-
-## -syntax
-
-
-````
-ULONG GetCount();
-````
 
 
 ## -parameters
@@ -99,12 +91,11 @@ See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfcmresourcelist.md">IWDFCmResourceList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439762">IWDFCmResourceList</a>
  
 
  
-
 

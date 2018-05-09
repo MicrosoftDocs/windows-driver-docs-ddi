@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_reject.htm
 old-project: netvista
 ms.assetid: BBD02954-C907-4EA4-8605-EC90CC62ECB7
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: NDK_FN_REJECT, NdkReject, NdkReject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReject, netvista.ndk_fn_reject
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_REJECT, NDK_FN_REJECT callback, NdkReject, NdkReject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReject, netvista.ndk_fn_reject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,33 +38,19 @@ api_location:
 -	ndkpi.h
 api_name:
 -	NdkReject
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_REJECT callback
+# NDK_FN_REJECT callback function
 
 
 ## -description
 
 
 The <i>NdkReject</i> (<i>NDK_FN_REJECT</i>) function rejects an incoming NDK connection request.
-
-
-## -prototype
-
-
-````
-NDK_FN_REJECT NdkReject;
-
-NTSTATUS NdkReject(
-  _In_ NDK_CONNECTOR                                       *pNdkConnector,
-       _In_reads_bytes_opt_(PrivateDataLength) CONST PVOID pPrivateData,
-  _In_ ULONG                                               PrivateDataLength
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -75,7 +61,7 @@ NTSTATUS NdkReject(
 ### -param *pNdkConnector [in]
 
 A pointer to an NDK connector object
-(<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>).
+(<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>).
 
 
 ### -param PVOID
@@ -153,35 +139,34 @@ An error occurred.
 
 
 
-<i>NdkReject</i> rejects an incoming connection request over a listener. A connection request can also be rejected for a connection request where the  <i>NdkConnect</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect.md">NDK_FN_CONNECT</a>) function  has been completed and the consumer rejects the connection. For example, the consumer rejects the connection because of the  values in the  <i>pInboundReadLimit</i>, <i>pOutboundReadLimit</i>, or <i>pPrivateData</i> parameters available with the <i>NdkGetConnectionData</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>) function.
+<i>NdkReject</i> rejects an incoming connection request over a listener. A connection request can also be rejected for a connection request where the  <i>NdkConnect</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439865">NDK_FN_CONNECT</a>) function  has been completed and the consumer rejects the connection. For example, the consumer rejects the connection because of the  values in the  <i>pInboundReadLimit</i>, <i>pOutboundReadLimit</i>, or <i>pPrivateData</i> parameters available with the <i>NdkGetConnectionData</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439890">NDK_FN_GET_CONNECTION_DATA</a>) function.
 
 
 
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect.md">NDK_FN_CONNECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439853">NDK_CONNECTOR_DISPATCH</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439857">NDK_FN_ACCEPT</a>
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439865">NDK_FN_CONNECT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439890">NDK_FN_GET_CONNECTION_DATA</a>
  
 
  
-
 

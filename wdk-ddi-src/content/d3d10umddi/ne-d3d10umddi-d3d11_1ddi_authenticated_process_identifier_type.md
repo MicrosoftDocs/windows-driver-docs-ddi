@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_authenticated_process_identifier_type.htm
 old-project: display
 ms.assetid: 7a8e7641-c946-4feb-b6d7-54ef63de9e76
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration [Display Devices], D3D11_1DDI_PROCESSIDTYPE_DWM, D3D11_1DDI_PROCESSIDTYPE_HANDLE, D3D11_1DDI_PROCESSIDTYPE_UNKNOWN, d3d10umddi/D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_DWM, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_HANDLE, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_UNKNOWN, display.d3d11_1ddi_authenticated_process_identifier_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 ---
@@ -49,19 +50,7 @@ req.typenames: D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 ## -description
 
 
-Specifies the type of process that is identified in the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_restricted_shared_resource_process_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT</a>  structure.
-
-
-## -syntax
-
-
-````
-typedef enum D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE { 
-  D3D11_1DDI_PROCESSIDTYPE_UNKNOWN  = 0,
-  D3D11_1DDI_PROCESSIDTYPE_DWM      = 1,
-  D3D11_1DDI_PROCESSIDTYPE_HANDLE   = 2
-} D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE;
-````
+Specifies the type of process that is identified in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406429">D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT</a>  structure.
 
 
 ## -enum-fields
@@ -86,12 +75,11 @@ Handle to a process.
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_authenticated_query_restricted_shared_resource_process_output.md">D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406429">D3D11_1DDI_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT</a>
  
 
  
-
 

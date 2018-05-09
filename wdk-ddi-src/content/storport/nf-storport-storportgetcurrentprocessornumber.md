@@ -7,7 +7,7 @@ old-location: storage\storportgetcurrentprocessornumber.htm
 old-project: storage
 ms.assetid: 10d77823-fcaa-43c3-b55e-74f2da97ecf0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortGetCurrentProcessorNumber, StorPortGetCurrentProcessorNumber routine [Storage Devices], storage.storportgetcurrentprocessornumber, storport/StorPortGetCurrentProcessorNumber, storprt_ac4d7e8b-eeb7-4b10-9c9e-cfe9acfddb24.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortGetCurrentProcessorNumber
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortGetCurrentProcessorNumber function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>StorPortGetCurrentProcessorNumber</b> routine retrieves the current processor number from the kernel.
-
-
-## -syntax
-
-
-````
-ULONG StorPortGetCurrentProcessorNumber(
-  _In_  PVOID             HwDeviceExtension,
-  _Out_ PPROCESSOR_NUMBER ProcNumber
-);
-````
 
 
 ## -parameters

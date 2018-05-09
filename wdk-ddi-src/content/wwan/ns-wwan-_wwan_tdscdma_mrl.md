@@ -7,7 +7,7 @@ old-location: netvista\wwan_tdscdma_mrl.htm
 old-project: netvista
 ms.assetid: D919EF5E-502C-4983-AFC5-F3F6E6CC8C3B
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_TDSCDMA_MRL, PWWAN_TDSCDMA_MRL, PWWAN_TDSCDMA_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_MRL, WWAN_TDSCDMA_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_TDSCDMA_MRL, netvista.wwan_tdscdma_mrl, wwan/PWWAN_TDSCDMA_MRL, wwan/WWAN_TDSCDMA_MRL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_TDSCDMA_MRL
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_TDSCDMA_MRL, *PWWAN_TDSCDMA_MRL
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_TDSCDMA_MRL structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>WWAN_TDSCDMA_MRL</b> structure represents the measured results list (MRL) of neighboring TDSCDMA cells.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_TDSCDMA_MRL {
-  ULONG ElementCount;
-  BYTE  TDSCDMAMrl[ANYSIZE_ARRAY];
-} WWAN_TDSCDMA_MRL, *PWWAN_TDSCDMA_MRL;
-````
 
 
 ## -struct-fields
@@ -83,16 +72,11 @@ The count of MRL entries following this member.
 
 #### - TDSCDMAMrl[ANYSIZE_ARRAY]
 
-The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl_info.md">WWAN_TDSCDMA_MRL_INFO</a> structure.
+The array of MRL records, each specified as a <a href="https://msdn.microsoft.com/4EA0AE24-E4B0-49E0-8C50-44F6890C5C52">WWAN_TDSCDMA_MRL_INFO</a> structure.
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_tdscdma_serving_cell_info.md">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
 
 
@@ -100,12 +84,16 @@ The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_tds
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl_info.md">WWAN_TDSCDMA_MRL_INFO</a>
+<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/4EA0AE24-E4B0-49E0-8C50-44F6890C5C52">WWAN_TDSCDMA_MRL_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/5D0DD219-8D81-4F72-B327-119A45CC35B4">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
  
 
  
-
 

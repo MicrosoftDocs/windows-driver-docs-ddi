@@ -7,7 +7,7 @@ old-location: stream\ksgategetstateunsafe.htm
 old-project: stream
 ms.assetid: f5976125-4ff4-48c2-a5c7-8e9fb2f8a0c9
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGateGetStateUnsafe, KsGateGetStateUnsafe function [Streaming Media Devices], avfunc_1f18b601-daaf-4df2-98c2-a91646f84c0d.xml, ks/KsGateGetStateUnsafe, stream.ksgategetstateunsafe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KsGateGetStateUnsafe
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -52,16 +53,6 @@ req.typenames:
 The<b> KsGateGetStateUnsafe</b> function returns the state of the given gate (open or closed)  in an unsafe manner, that is <i>without regard to synchronization</i>.
 
 
-## -syntax
-
-
-````
-BOOLEAN __inline KsGateGetStateUnsafe(
-  _In_ PKSGATE Gate
-);
-````
-
-
 ## -parameters
 
 
@@ -69,7 +60,7 @@ BOOLEAN __inline KsGateGetStateUnsafe(
 
 ### -param Gate [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksgate.md">KSGATE</a> structure representing the gate for which to return the state.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> structure representing the gate for which to return the state.
 
 
 ## -returns

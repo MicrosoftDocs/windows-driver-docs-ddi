@@ -7,8 +7,8 @@ old-location: print\drvwritespoolbuf.htm
 old-project: print
 ms.assetid: a0de6757-3be8-4c8f-bc6f-93c2e097fec7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf callback function [Print Devices], PFN_DrvWriteSpoolBuf, print.drvwritespoolbuf, print_obsoletefunctions_06e6fe98-5851-4c2e-863a-5afe735321fb.xml, printoem/DrvWriteSpoolBuf
+ms.date: 4/20/2018
+ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf callback function [Print Devices], PFN_DrvWriteSpoolBuf, PFN_DrvWriteSpoolBuf callback, print.drvwritespoolbuf, print_obsoletefunctions_06e6fe98-5851-4c2e-863a-5afe735321fb.xml, printoem/DrvWriteSpoolBuf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,13 +38,13 @@ api_location:
 -	printoem.h
 api_name:
 -	DrvWriteSpoolBuf
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_DrvWriteSpoolBuf callback
+# PFN_DrvWriteSpoolBuf callback function
 
 
 ## -description
@@ -54,22 +54,7 @@ The <b>DrvWriteSpoolBuf</b> function pointed to by this function pointer is obso
 
  Windows 2000 and later render plug-ins should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a> (Unidrv plug-ins), <a href="https://msdn.microsoft.com/library/windows/hardware/ff553103">IPrintOemDriverPS::DrvWriteSpoolBuf</a> (Pscript plug-ins), or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552978">IPrintCorePS2::DrvWriteSpoolBuf</a> (Pscript plug-ins). 
 
-This function pointer prototype defines the <b>DrvWriteSpoolBuf</b> member of the <a href="..\printoem\ns-printoem-_drvprocs.md">DRVPROCS</a> structure.
-
-
-## -prototype
-
-
-````
-PFN_DrvWriteSpoolBuf DrvWriteSpoolBuf;
-
-DWORD APIENTRY* DrvWriteSpoolBuf(
-   PDEVOBJ                        pdevobj,
-   _In_reads_bytes_(cbSize) PVOID pBuffer,
-   DWORD                          cbSize
-)
-{ ... }
-````
+This function pointer prototype defines the <b>DrvWriteSpoolBuf</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548571">DRVPROCS</a> structure.
 
 
 ## -parameters

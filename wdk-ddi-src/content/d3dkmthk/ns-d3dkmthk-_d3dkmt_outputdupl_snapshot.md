@@ -7,7 +7,7 @@ old-location: display\d3dkmt_outputdupl_snapshot.htm
 old-project: display
 ms.assetid: bec6a398-34e8-4c03-ac15-c3f00645eac7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_OUTPUTDUPL_SNAPSHOT, D3DKMT_OUTPUTDUPL_SNAPSHOT structure [Display Devices], _D3DKMT_OUTPUTDUPL_SNAPSHOT, d3dkmthk/D3DKMT_OUTPUTDUPL_SNAPSHOT, display.d3dkmt_outputdupl_snapshot
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	D3dkmthk.h
 api_name:
 -	D3DKMT_OUTPUTDUPL_SNAPSHOT
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DKMT_OUTPUTDUPL_SNAPSHOT
 ---
@@ -50,21 +51,6 @@ req.typenames: D3DKMT_OUTPUTDUPL_SNAPSHOT
 
 
 Provides information on the current processes in which output duplication is occurring.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DKMT_OUTPUTDUPL_SNAPSHOT {
-  UINT                          Size;
-  UINT                          SessionProcessCount;
-  UINT                          SessionActiveConnectionsCount;
-  UINT                          NumVidPnSources;
-  UINT                          NumOutputDuplContexts;
-  OUTPUTDUPL_CONTEXT_DEBUG_INFO OutputDuplDebugInfos[];
-} D3DKMT_OUTPUTDUPL_SNAPSHOT;
-````
 
 
 ## -struct-fields

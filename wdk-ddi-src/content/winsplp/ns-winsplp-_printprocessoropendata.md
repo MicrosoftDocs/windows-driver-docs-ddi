@@ -7,7 +7,7 @@ old-location: print\printprocessoropendata.htm
 old-project: print
 ms.assetid: d7160747-d81c-407a-bbf0-7ec5b3210c13
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*LPPRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA structure pointer [Print Devices], PPRINTPROCESSOROPENDATA, PPRINTPROCESSOROPENDATA structure pointer [Print Devices], PRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA structure [Print Devices], _PRINTPROCESSOROPENDATA, print.printprocessoropendata, spoolfnc_d24c3eae-da3e-473a-bd25-5ec09d23fe89.xml, winsplp/LPPRINTPROCESSOROPENDATA, winsplp/PPRINTPROCESSOROPENDATA, winsplp/PRINTPROCESSOROPENDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	winsplp.h
 api_name:
 -	PRINTPROCESSOROPENDATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA
-req.product: Windows 10 or later.
 ---
 
 # _PRINTPROCESSOROPENDATA structure
@@ -50,23 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processor's <a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a> function.
-
-
-## -syntax
-
-
-````
-typedef struct _PRINTPROCESSOROPENDATA {
-  PDEVMODE pDevMode;
-  LPWSTR   pDatatype;
-  LPWSTR   pParameters;
-  LPWSTR   pDocumentName;
-  DWORD    JobId;
-  LPWSTR   pOutputFile;
-  LPWSTR   pPrinterName;
-} PRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, *LPPRINTPROCESSOROPENDATA;
-````
+The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a> function.
 
 
 ## -struct-fields
@@ -111,16 +95,15 @@ Spooler-supplied pointer to a string representing the name of the printer to be 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
 
 
 
-<a href="..\winsplp\nf-winsplp-openprintprocessor.md">OpenPrintProcessor</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559604">OpenPrintProcessor</a>
  
 
  
-
 

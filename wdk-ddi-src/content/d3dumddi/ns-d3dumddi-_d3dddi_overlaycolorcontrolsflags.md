@@ -7,7 +7,7 @@ old-location: display\d3dddi_overlaycolorcontrolsflags.htm
 old-project: display
 ms.assetid: 12907aee-7c67-48f9-bf0f-84428f2d4fa7
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_OVERLAYCOLORCONTROLSFLAGS, D3DDDI_OVERLAYCOLORCONTROLSFLAGS structure [Display Devices], D3D_other_Structs_ada675f2-18ed-4597-bcc4-803d8598ae66.xml, _D3DDDI_OVERLAYCOLORCONTROLSFLAGS, d3dumddi/D3DDDI_OVERLAYCOLORCONTROLSFLAGS, display.d3dddi_overlaycolorcontrolsflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDI_OVERLAYCOLORCONTROLSFLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDI_OVERLAYCOLORCONTROLSFLAGS
 ---
@@ -50,28 +51,6 @@ req.typenames: D3DDDI_OVERLAYCOLORCONTROLSFLAGS
 
 
 The D3DDDI_OVERLAYCOLORCONTROLSFLAGS structure identifies color-control settings that the overlay hardware supports.
-
-
-## -syntax
-
-
-````
-typedef struct _D3DDDI_OVERLAYCOLORCONTROLSFLAGS {
-  union {
-    struct {
-      UINT Brightness  :1;
-      UINT Contrast  :1;
-      UINT Hue  :1;
-      UINT Saturation  :1;
-      UINT Sharpness  :1;
-      UINT Gamma  :1;
-      UINT ColorEnable  :1;
-      UINT Reserved  :25;
-    };
-    UINT   Value;
-  };
-} D3DDDI_OVERLAYCOLORCONTROLSFLAGS;
-````
 
 
 ## -struct-fields
@@ -133,19 +112,18 @@ Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Va
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 25 bits (0xFFFFFF80) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDI_OVERLAYCOLORCONTROLSFLAGS that can hold one 32-bit value that identifies color-control settings that the overlay hardware supports.
 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_overlaycolorcontrols.md">D3DDDI_OVERLAYCOLORCONTROLS</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544612">D3DDDI_OVERLAYCOLORCONTROLS</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\dxgk_set_timing_results.htm
 old-project: display
 ms.assetid: EA5C845B-76FD-40AD-B4E8-78601CA847CE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS structure [Display Devices], PDXGK_SET_TIMING_RESULTS, PDXGK_SET_TIMING_RESULTS structure pointer [Display Devices], _DXGK_SET_TIMING_RESULTS, d3dkmddi/DXGK_SET_TIMING_RESULTS, d3dkmddi/PDXGK_SET_TIMING_RESULTS, display.dxgk_set_timing_results"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGK_SET_TIMING_RESULTS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXGK_SET_TIMING_RESULTS, *PDXGK_SET_TIMING_RESULTS
 ---
@@ -50,22 +51,6 @@ req.typenames: DXGK_SET_TIMING_RESULTS, *PDXGK_SET_TIMING_RESULTS
 
 
 Structure to report result flags from the SetTiming call which apply to the complete call rather than individual paths.
-
-
-## -syntax
-
-
-````
-typedef struct _DXGK_SET_TIMING_RESULTS {
-  union {
-    struct {
-      UINT ConnectionStatusChanges  :1;
-      UINT Reserved  :31;
-    };
-    UINT Value;
-  };
-} DXGK_SET_TIMING_RESULTS, *PDXGK_SET_TIMING_RESULTS;
-````
 
 
 ## -struct-fields
@@ -85,7 +70,7 @@ If set, indicates that one or more connector status changes were detected in the
 This value is reserved for system use.
 
 
-#### - Value
+### -field Value
 
 UINT used to operate on the combined bit-fields.
 

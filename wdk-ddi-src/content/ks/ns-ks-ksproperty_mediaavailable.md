@@ -7,7 +7,7 @@ old-location: stream\ksproperty_mediaavailable.htm
 old-project: stream
 ms.assetid: b6818fd5-e351-4eac-a802-af8229b82fb3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE structure [Streaming Media Devices], PKSPROPERTY_MEDIAAVAILABLE, PKSPROPERTY_MEDIAAVAILABLE structure pointer [Streaming Media Devices], ks-struct_bb14a2ee-bf9b-4a73-ae35-967aea3d7086.xml, ks/KSPROPERTY_MEDIAAVAILABLE, ks/PKSPROPERTY_MEDIAAVAILABLE, stream.ksproperty_mediaavailable"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSPROPERTY_MEDIAAVAILABLE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSPROPERTY_MEDIAAVAILABLE, *PKSPROPERTY_MEDIAAVAILABLE
 ---
@@ -50,17 +51,6 @@ req.typenames: KSPROPERTY_MEDIAAVAILABLE, *PKSPROPERTY_MEDIAAVAILABLE
 
 
 The KSPROPERTY_MEDIAAVAILABLE structure specifies the media time span (the time span that a client can seek within) that is currently available on a filter. KSPROPERTY_MEDIAAVAILABLE is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565179">KSPROPERTY_MEDIASEEKING_AVAILABLE</a> property request.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  LONGLONG Earliest;
-  LONGLONG Latest;
-} KSPROPERTY_MEDIAAVAILABLE, *PKSPROPERTY_MEDIAAVAILABLE;
-````
 
 
 ## -struct-fields
@@ -89,12 +79,11 @@ This structure corresponds with DirectShow's <b>IMediaSeeking::GetAvailable</b>.
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565179">KSPROPERTY_MEDIASEEKING_AVAILABLE</a>
-
-
-
  
 
  
-
 

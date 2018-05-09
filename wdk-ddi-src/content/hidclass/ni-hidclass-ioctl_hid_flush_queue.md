@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_flush_queue.htm
 old-project: hid
 ms.assetid: 97914eb2-18fd-4b7b-8dcd-475c4d98927c
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_FLUSH_QUEUE, IOCTL_HID_FLUSH_QUEUE control code [Human Input Devices], hid.ioctl_hid_flush_queue, hidclass/IOCTL_HID_FLUSH_QUEUE, hidioreq_d7b2ccb0-76c8-4aa7-9d05-b8226106baa6.xml
+ms.date: 4/30/2018
+ms.keywords: IOCTL_HID_FLUSH_QUEUE, IOCTL_HID_FLUSH_QUEUE control, IOCTL_HID_FLUSH_QUEUE control code [Human Input Devices], hid.ioctl_hid_flush_queue, hidclass/IOCTL_HID_FLUSH_QUEUE, hidioreq_d7b2ccb0-76c8-4aa7-9d05-b8226106baa6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	hidclass.h
 api_name:
 -	IOCTL_HID_FLUSH_QUEUE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_HID_FLUSH_QUEUE IOCTL
@@ -105,12 +106,11 @@ The HID class driver sets the <b>Status</b> member of <b>Irp-&gt;IoStatus</b> to
 
 ## -see-also
 
-<a href="..\hidsdi\nf-hidsdi-hidd_flushqueue.md">HidD_FlushQueue</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538876">HidD_FlushQueue</a>
  
 
  
-
 

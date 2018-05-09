@@ -7,7 +7,7 @@ old-location: kernel\ps_create_notify_info.htm
 old-project: kernel
 ms.assetid: 66fade6b-b1c1-477c-bd44-2809d02271f2
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO structure pointer [Kernel-Mode Driver Architecture], PS_CREATE_NOTIFY_INFO, PS_CREATE_NOTIFY_INFO structure [Kernel-Mode Driver Architecture], _PS_CREATE_NOTIFY_INFO, kernel.ps_create_notify_info, kstruct_c_489ee208-518d-41f1-af90-a8873f3e7fb0.xml, ntddk/PPS_CREATE_NOTIFY_INFO, ntddk/PS_CREATE_NOTIFY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	Ntddk.h
 api_name:
 -	PS_CREATE_NOTIFY_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PS_CREATE_NOTIFY_INFO, *PPS_CREATE_NOTIFY_INFO
 ---
@@ -52,30 +53,6 @@ req.typenames: PS_CREATE_NOTIFY_INFO, *PPS_CREATE_NOTIFY_INFO
 The <b>PS_CREATE_NOTIFY_INFO</b> structure provides information about a newly created process.
 
 
-## -syntax
-
-
-````
-typedef struct _PS_CREATE_NOTIFY_INFO {
-  SIZE_T              Size;
-  union {
-    ULONG  Flags;
-    struct {
-      ULONG FileOpenNameAvailable  :1;
-      ULONG IsSubsystemProcess   :1;
-      ULONG Reserved  :30;
-    };
-  };
-  HANDLE              ParentProcessId;
-  CLIENT_ID           CreatingThreadId;
-  struct _FILE_OBJECT  *FileObject;
-  PCUNICODE_STRING    ImageFileName;
-  PCUNICODE_STRING    CommandLine;
-  NTSTATUS            CreationStatus;
-} PS_CREATE_NOTIFY_INFO, *PPS_CREATE_NOTIFY_INFO;
-````
-
-
 ## -struct-fields
 
 
@@ -84,6 +61,11 @@ typedef struct _PS_CREATE_NOTIFY_INFO {
 ### -field Size
 
 The size, in bytes, of this structure. The operating system uses this size to indicate the type of structure that it passes to <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>. Currently, this member is always <b>sizeof</b>(<b>PS_CREATE_NOTIFY_INFO</b>).
+
+
+### -field Flags
+
+Reserved. Use the <b>FileOpenNameAvailable</b> member instead. 
 
 
 ### -field FileOpenNameAvailable
@@ -95,7 +77,7 @@ A Boolean value that specifies whether the <b>ImageFileName</b> member contains 
 
 A Boolean value that indicates the type of process subsystem is a subsystem other than Win32. 
 
-<div class="alert"><b>Note</b>  <p class="note"><b>IsSubsystemProcess</b> is only populated for subsystem processes other than Win32 when a driver has registered through <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex2.md">PsSetCreateProcessNotifyRoutineEx2</a> with a type that allows for notifications from subsystem processes.  When <b>IsSubsystemProcess</b> is set, the <b>FileObject</b>, <b>ImageFileName</b>, and <b>CommandLine</b> may be NULL.  Drivers should use <b>ProcessSubsystemInformation</b> to query the subsystem type if needed. 
+<div class="alert"><b>Note</b>  <p class="note"><b>IsSubsystemProcess</b> is only populated for subsystem processes other than Win32 when a driver has registered through <a href="https://msdn.microsoft.com/library/windows/hardware/mt805891">PsSetCreateProcessNotifyRoutineEx2</a> with a type that allows for notifications from subsystem processes.  When <b>IsSubsystemProcess</b> is set, the <b>FileObject</b>, <b>ImageFileName</b>, and <b>CommandLine</b> may be NULL.  Drivers should use <b>ProcessSubsystemInformation</b> to query the subsystem type if needed. 
 For more information, see <a href="https://msdn.microsoft.com/0eae7899-c40b-4a5f-9e9c-adae021885e7">NtQueryInformationProcess</a>.
 
 </div>
@@ -127,7 +109,7 @@ A pointer to the file object for the process executable file.
 
 ### -field ImageFileName
 
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> string that holds the file name of the executable. If the <b>FileOpenNameAvailable</b> member is <b>TRUE</b>, the string specifies the exact file name that is used to open the executable file. If <b>FileOpenNameAvailable</b> is <b>FALSE</b>, the operating system might provide only a partial name.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> string that holds the file name of the executable. If the <b>FileOpenNameAvailable</b> member is <b>TRUE</b>, the string specifies the exact file name that is used to open the executable file. If <b>FileOpenNameAvailable</b> is <b>FALSE</b>, the operating system might provide only a partial name.
 
 <div class="alert"><b>Note</b>  <p class="note">If <b>IsSubsystemProcess</b> is TRUE, this value maybe NULL. 
 
@@ -148,18 +130,8 @@ A pointer to a <b>UNICODE_STRING</b> string that holds the command that is used 
 The NTSTATUS value to return for the process-creation operation. Drivers can change this value to an error code to prevent the process from being created.
 
 
-#### - Flags
-
-Reserved. Use the <b>FileOpenNameAvailable</b> member instead. 
-
-
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutineex.md">PsSetCreateProcessNotifyRoutineEx</a>
 
 
 
@@ -167,8 +139,12 @@ Reserved. Use the <b>FileOpenNameAvailable</b> member instead.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559953">PsSetCreateProcessNotifyRoutineEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\exfreepoolwithtag.htm
 old-project: kernel
 ms.assetid: ebf404dd-479a-4573-9372-4b777c3cd5e7
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ExFreePoolWithTag, ExFreePoolWithTag routine [Kernel-Mode Driver Architecture], k102_03ac2997-acff-40b6-a110-718261627130.xml, kernel.exfreepoolwithtag, wdm/ExFreePoolWithTag
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	ExFreePoolWithTag
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExFreePoolWithTag function
@@ -53,17 +53,6 @@ req.product: Windows 10 or later.
 The <b>ExFreePoolWithTag</b> routine deallocates a block of pool memory allocated with the specified tag.
 
 
-## -syntax
-
-
-````
-VOID ExFreePoolWithTag(
-  _In_ PVOID P,
-  _In_ ULONG Tag
-);
-````
-
-
 ## -parameters
 
 
@@ -71,12 +60,12 @@ VOID ExFreePoolWithTag(
 
 ### -param P [in]
 
-Specifies the beginning address of a block of pool memory allocated by either <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> or <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>.
+Specifies the beginning address of a block of pool memory allocated by either <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff544513">ExAllocatePoolWithQuotaTag</a>.
 
 
 ### -param Tag [in]
 
-Specifies the tag value passed to <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a> or <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a> when the block of memory was originally allocated. 
+Specifies the tag value passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff544513">ExAllocatePoolWithQuotaTag</a> when the block of memory was originally allocated.
 
 **NOTE**
 
@@ -102,20 +91,19 @@ Callers of <b>ExFreePoolWithTag</b> must be running at IRQL &lt;= DISPATCH_LEVEL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544513">ExAllocatePoolWithQuotaTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
  
 
  
-
 

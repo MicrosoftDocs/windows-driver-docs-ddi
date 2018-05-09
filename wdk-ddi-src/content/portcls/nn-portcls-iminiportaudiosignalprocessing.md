@@ -7,8 +7,8 @@ old-location: audio\iminiportaudiosignalprocessing.htm
 old-project: audio
 ms.assetid: 6C520509-347F-4E01-95C4-0D3306031E51
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IMiniportAudioSignalProcessing, IMiniportAudioSignalProcessing interface [Audio Devices], IMiniportAudioSignalProcessing interface [Audio Devices], described, audio.iminiportaudiosignalprocessing, portcls/IMiniportAudioSignalProcessing
+ms.date: 4/16/2018
+ms.keywords: IMiniportAudioSignalProcessing, IMiniportAudioSignalProcessing interface [Audio Devices], IMiniportAudioSignalProcessing interface [Audio Devices],described, audio.iminiportaudiosignalprocessing, portcls/IMiniportAudioSignalProcessing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	Portcls.h
 api_name:
 -	IMiniportAudioSignalProcessing
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IMiniportAudioSignalProcessing interface

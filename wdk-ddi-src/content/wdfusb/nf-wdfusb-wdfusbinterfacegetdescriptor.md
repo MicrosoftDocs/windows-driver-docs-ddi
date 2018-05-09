@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfUsbInterfaceGetDescriptor
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfUsbInterfaceGetDescriptor function
@@ -58,18 +58,6 @@ req.product: Windows 10 or later.
 The <b>WdfUsbInterfaceGetDescriptor</b> method retrieves the USB interface descriptor that is associated with a specified alternate setting of a specified USB interface.
 
 
-## -syntax
-
-
-````
-VOID WdfUsbInterfaceGetDescriptor(
-  _In_  WDFUSBINTERFACE           UsbInterface,
-  _In_  UCHAR                     SettingIndex,
-  _Out_ PUSB_INTERFACE_DESCRIPTOR InterfaceDescriptor
-);
-````
-
-
 ## -parameters
 
 
@@ -77,7 +65,7 @@ VOID WdfUsbInterfaceGetDescriptor(
 
 ### -param UsbInterface [in]
 
-A handle to a USB interface object that was obtained by calling <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>. 
+A handle to a USB interface object that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550092">WdfUsbTargetDeviceGetInterface</a>. 
 
 
 ### -param SettingIndex [in]
@@ -87,7 +75,7 @@ An index value that identifies an alternate setting for the interface. For more 
 
 ### -param InterfaceDescriptor [out]
 
-A pointer to a caller-allocated <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure that the framework fills in.
+A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a> structure that the framework fills in.
 
 
 ## -returns
@@ -96,7 +84,7 @@ A pointer to a caller-allocated <a href="..\usbspec\ns-usbspec-_usb_interface_de
 
 None. 
 
-If the <i>SettingIndex</i> value is invalid, the <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a> structure can receive invalid data. 
+If the <i>SettingIndex</i> value is invalid, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a> structure can receive invalid data. 
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -142,16 +130,15 @@ WdfUsbInterfaceGetDescriptor(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetinterface.md">WdfUsbTargetDeviceGetInterface</a>
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540065">USB_INTERFACE_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550092">WdfUsbTargetDeviceGetInterface</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: stream\kserror.htm
 old-project: stream
 ms.assetid: c475810c-505e-446a-9b98-d512e745b6ce
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSERROR, KSERROR, KSERROR structure [Streaming Media Devices], PKSERROR, PKSERROR structure pointer [Streaming Media Devices], ks-struct_86211cee-a711-4a84-b8ea-6de2d9ef81f6.xml, ks/KSERROR, ks/PKSERROR, stream.kserror"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	ks.h
 api_name:
 -	KSERROR
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSERROR, *PKSERROR
 ---
@@ -50,17 +51,6 @@ req.typenames: KSERROR, *PKSERROR
 
 
 The KSERROR structure is used to report streaming errors in both kernel and user mode to their respective quality managers.
-
-
-## -syntax
-
-
-````
-typedef struct {
-  PVOID Context;
-  ULONG Status;
-} KSERROR, *PKSERROR;
-````
 
 
 ## -struct-fields
@@ -89,20 +79,19 @@ Streaming error notifications can be generated against the Quality Management si
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561671">KSDEGRADE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561673">KSDEGRADE_STANDARD</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565211">KSPROPERTY_QUALITY_ERROR</a>
-
-
-
-<a href="..\ks\ne-ks-ksdegrade_standard.md">KSDEGRADE_STANDARD</a>
-
-
-
  
 
  
-
 

@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: FE6CB06D-C418-4B9E-B5F6-8579B1ED5974
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_SMARTCARD_TRANSMIT, IOCTL_SMARTCARD_TRANSMIT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_transmit, winsmcrd/IOCTL_SMARTCARD_TRANSMIT
+ms.keywords: IOCTL_SMARTCARD_TRANSMIT, IOCTL_SMARTCARD_TRANSMIT control, IOCTL_SMARTCARD_TRANSMIT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_transmit, winsmcrd/IOCTL_SMARTCARD_TRANSMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,10 +38,10 @@ api_location:
 -	winsmcrd.h
 api_name:
 -	IOCTL_SMARTCARD_TRANSMIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PRINTER_EVENT_ATTRIBUTES_INFO, *PPRINTER_EVENT_ATTRIBUTES_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_SMARTCARD_TRANSMIT IOCTL
@@ -143,7 +143,6 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
 
 
 
@@ -151,8 +150,8 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 
 
 
+<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
  
 
  
-
 

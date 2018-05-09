@@ -7,8 +7,8 @@ old-location: serports\evtsercx2piotransmitenablereadynotification.htm
 old-project: serports
 ms.assetid: 05E5F48B-4E82-4BC3-B6D1-7E9E3435BDB3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2PioTransmitEnableReadyNotification, EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION, EvtSerCx2PioTransmitEnableReadyNotification, EvtSerCx2PioTransmitEnableReadyNotification callback function [Serial Ports], serports.evtsercx2piotransmitenablereadynotification
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2PioTransmitEnableReadyNotification, EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION, EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION callback, EvtSerCx2PioTransmitEnableReadyNotification, EvtSerCx2PioTransmitEnableReadyNotification callback function [Serial Ports], serports.evtsercx2piotransmitenablereadynotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,32 +38,19 @@ api_location:
 -	2.0\Sercx.h
 api_name:
 -	EvtSerCx2PioTransmitEnableReadyNotification
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION callback
+# EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION callback function
 
 
 ## -description
 
 
 The <i>EvtSerCx2PioTransmitEnableReadyNotification</i> event callback function is called by version 2 of the serial framework extension (SerCx2) to enable the serial controller driver to notify SerCx2 when the transmit FIFO in the serial controller is ready to accept more data.
-
-
-## -prototype
-
-
-````
-EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION EvtSerCx2PioTransmitEnableReadyNotification;
-
-VOID EvtSerCx2PioTransmitEnableReadyNotification(
-  _In_ SERCX2PIOTRANSMIT PioTransmit
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -73,7 +60,7 @@ VOID EvtSerCx2PioTransmitEnableReadyNotification(
 
 ### -param PioTransmit [in]
 
-A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a> method to create this object.
+A <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> method to create this object.
 
 
 ## -returns
@@ -89,13 +76,13 @@ None.
 
 
 
-Your serial controller driver must implement this function. The driver registers the function in the <a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a> call that creates the PIO-transmit object.
+Your serial controller driver must implement this function. The driver registers the function in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a> call that creates the PIO-transmit object.
 
-If the ready notification for PIO-transmit transactions is enabled, the serial controller driver must call the <a href="..\sercx\nf-sercx-sercx2piotransmitready.md">SerCx2PioTransmitReady</a> method to notify SerCx2 when the driver detects that the transmit FIFO in the serial controller hardware is ready to accept more data. If the transmit FIFO is ready to accept data when the ready notification is enabled, the driver immediately calls this method to notify SerCx2.
+If the ready notification for PIO-transmit transactions is enabled, the serial controller driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265273">SerCx2PioTransmitReady</a> method to notify SerCx2 when the driver detects that the transmit FIFO in the serial controller hardware is ready to accept more data. If the transmit FIFO is ready to accept data when the ready notification is enabled, the driver immediately calls this method to notify SerCx2.
 
 The ready notification for a PIO-transmit transaction is a one-shot notification. After sending a ready notification to SerCx2, the serial controller driver sends no further notifications until SerCx2 calls the <i>EvtSerCx2PioTransmitEnableReadyNotification</i> function to enable another notification.
 
-An <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_write_buffer.md">EvtSerCx2PioTransmitWriteBuffer</a> function call might only partially complete a PIO-transmit transaction because no more room is immediately available in the transmit FIFO to write more data. In this case, SerCx2 calls the <i>EvtSerCx2PioTransmitEnableReadyNotification</i> function to enable a ready notification, in which case the serial controller driver must notify SerCx2 when the transmit FIFO has room for more data. In response to this notification, SerCx2 resumes the partially completed transmit transaction by calling the <i>EvtSerCx2PioTransmitWriteBuffer</i> function again.
+An <a href="https://msdn.microsoft.com/28DD175B-9869-4CFC-9BDD-172DA7E015DE">EvtSerCx2PioTransmitWriteBuffer</a> function call might only partially complete a PIO-transmit transaction because no more room is immediately available in the transmit FIFO to write more data. In this case, SerCx2 calls the <i>EvtSerCx2PioTransmitEnableReadyNotification</i> function to enable a ready notification, in which case the serial controller driver must notify SerCx2 when the transmit FIFO has room for more data. In response to this notification, SerCx2 resumes the partially completed transmit transaction by calling the <i>EvtSerCx2PioTransmitWriteBuffer</i> function again.
 
 Typically, an <i>EvtSerCx2PioTransmitEnableReadyNotification</i> function enables an interrupt that occurs when the transmit FIFO in the serial controller is ready to accept more data. In response to this interrupt, the serial controller driver calls <b>SerCx2PioTransmitReady</b>.
 
@@ -103,7 +90,7 @@ No more than one ready notification can be pending at a time. SerCx2 never calls
 
 SerCx2 never calls the <i>EvtSerCx2PioTransmitWriteBuffer</i> function when the ready notification is enabled.
 
-A pending ready notification can be canceled if the associated write request times out or is canceled. To cancel a ready notification for a PIO-transmit transaction, SerCx2 calls the <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_cancel_ready_notification.md">EvtSerCx2PioTransmitCancelReadyNotification</a> event callback function.
+A pending ready notification can be canceled if the associated write request times out or is canceled. To cancel a ready notification for a PIO-transmit transaction, SerCx2 calls the <a href="https://msdn.microsoft.com/2483F6A6-67FE-4C75-9872-53F66B4BD658">EvtSerCx2PioTransmitCancelReadyNotification</a> event callback function.
 
 For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626-B07F-1670359062AF">SerCx2 PIO-Transmit Transactions</a>.
 
@@ -149,15 +136,10 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION</b> function type is de
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
 
 
 
-<a href="..\sercx\nf-sercx-sercx2piotransmitready.md">SerCx2PioTransmitReady</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2piotransmitcreate.md">SerCx2PioTransmitCreate</a>
+<a href="https://msdn.microsoft.com/28DD175B-9869-4CFC-9BDD-172DA7E015DE">EvtSerCx2PioTransmitWriteBuffer</a>
 
 
 
@@ -165,12 +147,16 @@ The <b>EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION</b> function type is de
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_write_buffer.md">EvtSerCx2PioTransmitWriteBuffer</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265269">SerCx2PioTransmitCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265273">SerCx2PioTransmitReady</a>
  
 
  
-
 

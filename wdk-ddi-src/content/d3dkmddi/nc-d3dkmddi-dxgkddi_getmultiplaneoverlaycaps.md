@@ -7,8 +7,8 @@ old-location: display\dxgkddi_getmultiplaneoverlaycaps.htm
 old-project: display
 ms.assetid: 17A9B769-D280-491D-844E-A9B2C66D2207
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DXGKDDI_GETMULTIPLANEOVERLAYCAPS, DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback function [Display Devices], d3dkmddi/DXGKDDI_GETMULTIPLANEOVERLAYCAPS, display.dxgkddi_getmultiplaneoverlaycaps
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_GETMULTIPLANEOVERLAYCAPS, DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback, DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback function [Display Devices], d3dkmddi/DXGKDDI_GETMULTIPLANEOVERLAYCAPS, display.dxgkddi_getmultiplaneoverlaycaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,29 +38,19 @@ api_location:
 -	d3dkmddi.h
 api_name:
 -	DXGKDDI_GETMULTIPLANEOVERLAYCAPS
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback
+# DXGKDDI_GETMULTIPLANEOVERLAYCAPS callback function
 
 
 ## -description
 
 
 Called to retrieve multiplane overlay capabilities. Support for this DDI is required for any WDDM 2.2 driver that wants to support multiple planes. 
-
-
-## -prototype
-
-
-````
-NTSTATUS APIENTRY DXGKDDI_GETMULTIPLANEOVERLAYCAPS(
-  _In_ const HANDLE                            hAdapter,
-  _In_ const PDXGKARG_GETMULTIPLANEOVERLAYCAPS pGetMultiPlaneOverlayCaps
-);
-````
 
 
 ## -parameters

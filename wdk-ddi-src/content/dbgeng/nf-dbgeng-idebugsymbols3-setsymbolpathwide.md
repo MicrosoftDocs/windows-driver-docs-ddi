@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.SetSymbolPathWide
-title: IDebugSymbols3::SetSymbolPathWide method
+title: IDebugSymbols3::SetSymbolPathWide
 author: windows-driver-content
 description: The SetSymbolPathWide method sets the symbol path.
 old-location: debugger\setsymbolpathwide.htm
 old-project: debugger
 ms.assetid: 44ee3342-3677-4eee-8ddf-d0a01e9bb309
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], SetSymbolPathWide method, IDebugSymbols3::SetSymbolPathWide, SetSymbolPathWide method [Windows Debugging], SetSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, SetSymbolPathWide,IDebugSymbols3.SetSymbolPathWide, dbgeng/IDebugSymbols3::SetSymbolPathWide, debugger.setsymbolpathwide
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetSymbolPathWide method, IDebugSymbols3.SetSymbolPathWide, IDebugSymbols3::SetSymbolPathWide, SetSymbolPathWide, SetSymbolPathWide method [Windows Debugging], SetSymbolPathWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetSymbolPathWide, debugger.setsymbolpathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,28 +38,19 @@ api_location:
 -	dbgeng.h
 api_name:
 -	IDebugSymbols3.SetSymbolPathWide
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::SetSymbolPathWide method
+# IDebugSymbols3::SetSymbolPathWide
 
 
 ## -description
 
 
 The <b>SetSymbolPathWide</b>  method sets the symbol path.
-
-
-## -syntax
-
-
-````
-HRESULT SetSymbolPathWide(
-  [in] PCWSTR Path
-);
-````
 
 
 ## -parameters
@@ -111,6 +102,9 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
 
 
@@ -119,12 +113,8 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
  
 
  
-
 

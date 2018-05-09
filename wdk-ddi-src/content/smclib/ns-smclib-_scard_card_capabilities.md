@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level (See Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	smclib.h
 api_name:
 -	SCARD_CARD_CAPABILITIES
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES
-req.product: Windows 10 or later.
 ---
 
 # _SCARD_CARD_CAPABILITIES structure
@@ -51,52 +51,6 @@ req.product: Windows 10 or later.
 
 
 The SCARD_CARD_CAPABILITIES structure declaration defines the data that is stored in the CardCapabilites member of the SMARTCARD_EXTENSION structure and holds all information that is specific to the particular smart card that is currently used. 
-
-
-## -syntax
-
-
-````
-typedef struct _SCARD_CARD_CAPABILITIES {
-  BOOLEAN                InversConvention;
-  ULONG                  etu;
-  struct {
-     Buffer[64];
-     Length;
-  } ATR;
-  struct {
-    UCHAR Buffer[16];
-    UCHAR Length;
-  } HistoricalChars;
-  PCLOCK_RATE_CONVERSION ClockRateConversion;
-  PBIT_RATE_ADJUSTMENT   BitRateAdjustment;
-  UCHAR                  Fl;
-  UCHAR                  Dl;
-  UCHAR                  II;
-  UCHAR                  P;
-  UCHAR                  N;
-  ULONG                  GT;
-  struct {
-    ULONG Supported;
-    ULONG Selected;
-  } Protocol;
-  struct {
-    UCHAR WI;
-    ULONG WT;
-  } T0;
-  struct {
-    UCHAR IFSC;
-    UCHAR CWI;
-    UCHAR BWI;
-    UCHAR EDC;
-    ULONG CWT;
-    ULONG BWT;
-    ULONG BGT;
-  } T1;
-  PTS_DATA               PtsData;
-  UCHAR                  Reserved[100 - sizeof(PTS_DATA)];
-} SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES;
-````
 
 
 ## -struct-fields
@@ -120,14 +74,12 @@ Contains the elementary time unit (ETU). The ETU indicates the space of transmis
       A structure with the following members:
 
 
-
-#### Buffer
+### -field ATR.Buffer
 
 A pointer to the buffer that receives the answer-to-reset (ATR) information that the smart card provides to the smart card reader after a warm or cold reset. 
 
 
-
-#### Length
+### -field ATR.Length
 
 Contains the length, in bytes, of the ATR. 
 
@@ -140,16 +92,14 @@ Contains the length, in bytes, of the ATR.
      
 
 
-
-#### Buffer
+### -field HistoricalChars.Buffer
 
 Contains the historical characters. Historical characters designate general information, such as the smart card manufacturer, the chip inserted in the smart card, the masked ROM in the chip, and the life cycle of the smart card. For more information about historical characters, see the <i>ISO 7816-3 Specification</i> and part 4 of the <i>ISO 7816 Specification</i>. (This resource may not be available in some languages 
 
 and countries.)
 
 
-
-#### Length
+### -field HistoricalChars.Length
 
 Indicates the length, in bytes, of the historical character information. 
 
@@ -206,14 +156,12 @@ Contains the guard time, in units of microseconds (including the extra guard tim
      
 
 
-
-#### Supported
+### -field Protocol.Supported
 
 Contains a bitmask of the supported protocols. 
 
 
-
-#### Selected
+### -field Protocol.Selected
 
 Contains the protocol that is selected. 
 
@@ -226,14 +174,12 @@ Contains the protocol that is selected.
      
 
 
-
-#### WI
+### -field T0.WI
 
 Contains the work-waiting integer for the T=0 protocol. 
 
 
-
-#### WT
+### -field T0.WT
 
 Contains the work-waiting time, in microseconds, for the T=0 protocol, which is the maximum delay allowed between two consecutive characters. 
 
@@ -246,44 +192,37 @@ Contains the work-waiting time, in microseconds, for the T=0 protocol, which is 
      
 
 
-
-#### IFSC
+### -field T1.IFSC
 
 Contains the size, in bytes, of the card's information field.
 
 
-
-#### CWI
+### -field T1.CWI
 
 Contains the character-waiting integer. 
 
 
-
-#### BWI
+### -field T1.BWI
 
 Contains the block-waiting integer. 
 
 
-
-#### EDC
+### -field T1.EDC
 
 Contains the error detection code. 
 
 
-
-#### CWT
+### -field T1.CWT
 
 Contains the character-waiting time, in microseconds, for the T=1 protocol, which is the maximum delay that is allowed between two consecutive characters.s. 
 
 
-
-#### BWT
+### -field T1.BWT
 
 Contains the block-waiting time, in microseconds, for the T=1 protocol. This is the maximum delay between the end of a block and the start of the next block that is sent in the opposite direction. 
 
 
-
-#### BGT
+### -field T1.BGT
 
 Contains the block-guarding time, in microseconds, for the T=1 protocol. This is the minimum delay between the end of a block and the start of the next block that is sent in the opposite direction. 
 
@@ -302,7 +241,7 @@ Reserved.
 
 
 
-The SCARD_CARD_CAPABILITIES structure describes the capabilities of the inserted smart card. If the reader driver uses the smart card driver library, <b>ATR</b> is the only member that the reader driver should populate. The driver library will automatically update all other fields when it receives an <a href="..\winsmcrd\ni-winsmcrd-ioctl_smartcard_set_protocol.md">IOCTL_SMARTCARD_SET_PROTOCOL</a> request. 
+The SCARD_CARD_CAPABILITIES structure describes the capabilities of the inserted smart card. If the reader driver uses the smart card driver library, <b>ATR</b> is the only member that the reader driver should populate. The driver library will automatically update all other fields when it receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548909">IOCTL_SMARTCARD_SET_PROTOCOL</a> request. 
 
 
 

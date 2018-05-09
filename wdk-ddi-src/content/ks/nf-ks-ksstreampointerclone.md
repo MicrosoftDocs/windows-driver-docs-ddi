@@ -7,7 +7,7 @@ old-location: stream\ksstreampointerclone.htm
 old-project: stream
 ms.assetid: b51e1c17-e6b5-4108-bfbc-29f1ee06d9f4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsStreamPointerClone, KsStreamPointerClone function [Streaming Media Devices], avfunc_29a7da58-5321-4c19-83df-c9deab062e78.xml, ks/KsStreamPointerClone, stream.ksstreampointerclone
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsStreamPointerClone
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,19 +54,6 @@ req.typenames:
 The<b> KsStreamPointerClone </b>function creates a clone of a given stream pointer.
 
 
-## -syntax
-
-
-````
-NTSTATUS KsStreamPointerClone(
-  _In_     PKSSTREAM_POINTER  StreamPointer,
-  _In_opt_ PFNKSSTREAMPOINTER CancelCallback,
-  _In_     ULONG              ContextSize,
-  _Out_    PKSSTREAM_POINTER  *CloneStreamPointer
-);
-````
-
-
 ## -parameters
 
 
@@ -73,12 +61,12 @@ NTSTATUS KsStreamPointerClone(
 
 ### -param StreamPointer [in]
 
-A pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure representing the stream pointer that is to be cloned.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> structure representing the stream pointer that is to be cloned.
 
 
 ### -param CancelCallback [in, optional]
 
-Optional. A pointer to a minidriver-supplied <a href="..\ks\nc-ks-pfnksstreampointer.md">AVStrMiniCancelCallback</a> routine. AVStream calls this routine if the IRP associated with <i>CloneStreamPointer</i> is canceled.
+Optional. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554271">AVStrMiniCancelCallback</a> routine. AVStream calls this routine if the IRP associated with <i>CloneStreamPointer</i> is canceled.
 
 
 ### -param ContextSize [in]
@@ -88,7 +76,7 @@ This parameter indicates how many bytes of minidriver context information the re
 
 ### -param CloneStreamPointer [out]
 
-A pointer to a pointer to a <a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a> structure. Upon successful completion of the cloning operation, <i>CloneStreamPointer</i> contains a pointer to the address of the cloned stream pointer.
+A pointer to a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> structure. Upon successful completion of the cloning operation, <i>CloneStreamPointer</i> contains a pointer to the address of the cloned stream pointer.
 
 
 ## -returns
@@ -115,32 +103,31 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsets.md">KsStreamPointerAdvanceOffsets</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567125">KsStreamPointerAdvance</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567126">KsStreamPointerAdvanceOffsets</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567127">KsStreamPointerAdvanceOffsetsAndUnlock</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567130">KsStreamPointerDelete</a>
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn892390">KsStreamPointerLock</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567137">KsStreamPointerUnlock</a>
  
 
  
-
 

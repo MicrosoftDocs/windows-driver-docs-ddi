@@ -38,10 +38,10 @@ api_location:
 -	wdfrequest.h
 api_name:
 -	WDF_REQUEST_REUSE_PARAMS_INIT
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_REQUEST_REUSE_PARAMS_INIT function
@@ -52,19 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_REQUEST_REUSE_PARAMS_INIT</b> function initializes a driver's <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a> structure.
-
-
-## -syntax
-
-
-````
-VOID WDF_REQUEST_REUSE_PARAMS_INIT(
-  _Out_ PWDF_REQUEST_REUSE_PARAMS Params,
-  _In_  ULONG                     Flags,
-  _In_  NTSTATUS                  Status
-);
-````
+The <b>WDF_REQUEST_REUSE_PARAMS_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552480">WDF_REQUEST_REUSE_PARAMS</a> structure.
 
 
 ## -parameters
@@ -74,13 +62,13 @@ VOID WDF_REQUEST_REUSE_PARAMS_INIT(
 
 ### -param Params [out]
 
-A pointer to a caller-supplied <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a> structure.
+A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff552480">WDF_REQUEST_REUSE_PARAMS</a> structure.
 
 
 ### -param Flags [in]
 
 
-<a href="..\wdfrequest\ne-wdfrequest-_wdf_request_reuse_flags.md">WDF_REQUEST_REUSE_FLAGS</a>-typed flags. 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552477">WDF_REQUEST_REUSE_FLAGS</a>-typed flags. 
 
 
 ### -param Status [in]
@@ -101,31 +89,30 @@ None
 
 
 
-Before a driver calls the <a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a> method, it must call <b>WDF_REQUEST_REUSE_PARAMS_INIT</b> to initialize a <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a> structure.
+Before a driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550026">WdfRequestReuse</a> method, it must call <b>WDF_REQUEST_REUSE_PARAMS_INIT</b> to initialize a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552480">WDF_REQUEST_REUSE_PARAMS</a> structure.
 
-The <b>WDF_REQUEST_REUSE_PARAMS_INIT</b> function zeros the specified <a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a> structure and sets the structures <b>Size</b> member. It also sets the structure's <b>Flags</b> and <b>Status</b> members to the specified values.
+The <b>WDF_REQUEST_REUSE_PARAMS_INIT</b> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff552480">WDF_REQUEST_REUSE_PARAMS</a> structure and sets the structures <b>Size</b> member. It also sets the structure's <b>Flags</b> and <b>Status</b> members to the specified values.
 
-For a code example that uses <b>WDF_REQUEST_REUSE_PARAMS_INIT</b>, see <a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>.
+For a code example that uses <b>WDF_REQUEST_REUSE_PARAMS_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550026">WdfRequestReuse</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_reuse_params_set_new_irp.md">WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP</a>
 
 
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_reuse_params.md">WDF_REQUEST_REUSE_PARAMS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552480">WDF_REQUEST_REUSE_PARAMS</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestreuse.md">WdfRequestReuse</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552487">WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550026">WdfRequestReuse</a>
  
 
  
-
 

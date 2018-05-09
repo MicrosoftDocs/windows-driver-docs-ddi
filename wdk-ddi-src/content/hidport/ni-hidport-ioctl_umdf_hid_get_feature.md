@@ -7,8 +7,8 @@ old-location: hid\ioctl_umdf_hid_get_feature.htm
 old-project: hid
 ms.assetid: F22C5B0D-2E8B-4837-AC10-B3CEE56A336D
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_UMDF_HID_GET_FEATURE, IOCTL_UMDF_HID_GET_FEATURE control code, hid.ioctl_umdf_hid_get_feature, hidport/IOCTL_UMDF_HID_GET_FEATURE, umdf.ioctl_umdf_hid_get_feature
+ms.date: 4/30/2018
+ms.keywords: IOCTL_UMDF_HID_GET_FEATURE, IOCTL_UMDF_HID_GET_FEATURE control, IOCTL_UMDF_HID_GET_FEATURE control code, hid.ioctl_umdf_hid_get_feature, hidport/IOCTL_UMDF_HID_GET_FEATURE, umdf.ioctl_umdf_hid_get_feature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Hidport.h
 api_name:
 -	IOCTL_UMDF_HID_GET_FEATURE
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
+req.typenames: 
 ---
 
 # IOCTL_UMDF_HID_GET_FEATURE IOCTL
@@ -107,16 +108,15 @@ HID minidrivers that carry out the I/O to the device must also:
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541100">IOCTL_HID_GET_FEATURE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439667">IOCTL_UMDF_HID_SET_FEATURE</a>
-
-
-
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: netvista\wwan_auth_aka_challenge.htm
 old-project: netvista
 ms.assetid: A0513766-7D58-4F85-8105-93D7A0D9036B
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKA_CHALLENGE, WWAN_AUTH_AKA_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKA_CHALLENGE, netvista.wwan_auth_aka_challenge, wwan/PWWAN_AUTH_AKA_CHALLENGE, wwan/WWAN_AUTH_AKA_CHALLENGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wwan.h
 api_name:
 -	WWAN_AUTH_AKA_CHALLENGE
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: WWAN_AUTH_AKA_CHALLENGE, *PWWAN_AUTH_AKA_CHALLENGE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_AUTH_AKA_CHALLENGE structure
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The WWAN_AUTH_AKA_CHALLENGE structure represents an authentication challenge using the AKA method.
-
-
-## -syntax
-
-
-````
-typedef struct _WWAN_AUTH_AKA_CHALLENGE {
-  BYTE Rand[WWAN_AUTH_RAND_LEN];
-  BYTE Autn[WWAN_AUTH_AUTN_LEN];
-} WWAN_AUTH_AKA_CHALLENGE, *PWWAN_AUTH_AKA_CHALLENGE;
-````
 
 
 ## -struct-fields
@@ -95,19 +84,18 @@ typedef struct _WWAN_AUTH_AKA_CHALLENGE {
 
 
 
-The <a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_auth_challenge.md">WWAN_AUTH_CHALLENGE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a>
  
 
  
-
 

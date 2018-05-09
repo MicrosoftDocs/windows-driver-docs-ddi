@@ -41,10 +41,10 @@ api_location:
 -	WUDFx02000.dll.dll
 api_name:
 -	WdfDeviceSetFailed
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceSetFailed function
@@ -56,17 +56,6 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
 The <b>WdfDeviceSetFailed</b> method informs the framework that the driver encountered a hardware or software error that is associated with a specified device.
-
-
-## -syntax
-
-
-````
-VOID WdfDeviceSetFailed(
-  _In_ WDFDEVICE                Device,
-  _In_ WDF_DEVICE_FAILED_ACTION FailedAction
-);
-````
 
 
 ## -parameters
@@ -81,7 +70,7 @@ A handle to a framework device object.
 
 ### -param FailedAction [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_device_failed_action.md">WDF_DEVICE_FAILED_ACTION</a>-typed enumerator that indicates whether the framework should attempt to reload the specified device's drivers.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551253">WDF_DEVICE_FAILED_ACTION</a>-typed enumerator that indicates whether the framework should attempt to reload the specified device's drivers.
 
 
 ## -returns

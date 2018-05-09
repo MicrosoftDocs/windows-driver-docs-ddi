@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_trimresidencyset.htm
 old-project: display
 ms.assetid: DEF219B9-115A-4B61-8014-266730CEBD30
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_TRIMRESIDENCYSET, D3DDDIARG_TRIMRESIDENCYSET structure [Display Devices], d3dumddi/D3DDDIARG_TRIMRESIDENCYSET, display.d3dddiarg_trimresidencyset
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	D3DDDIARG_TRIMRESIDENCYSET
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: D3DDDIARG_TRIMRESIDENCYSET
 ---
@@ -49,18 +50,7 @@ req.typenames: D3DDDIARG_TRIMRESIDENCYSET
 ## -description
 
 
-<b>D3DDDIARG_TRIMRESIDENCYSET</b> is used with <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a> by a user mode driver to trim the residency list for a given device.
-
-
-## -syntax
-
-
-````
-typedef struct D3DDDIARG_TRIMRESIDENCYSET {
-  D3DDDI_TRIMRESIDENCYSET_FLAGS TrimFlags;
-  UINT64                        NumBytesToTrim;
-} D3DDDIARG_TRIMRESIDENCYSET;
-````
+<b>D3DDDIARG_TRIMRESIDENCYSET</b> is used with <a href="https://msdn.microsoft.com/192F419C-F38F-4B42-8111-86D58D6781DA">pfnTrimResidencySet</a> by a user mode driver to trim the residency list for a given device.
 
 
 ## -struct-fields
@@ -80,12 +70,11 @@ When <b>TrimToBudget</b> is set, this value specifies how much the application s
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_trimresidencyset.md">pfnTrimResidencySet</a>
 
 
 
+<a href="https://msdn.microsoft.com/192F419C-F38F-4B42-8111-86D58D6781DA">pfnTrimResidencySet</a>
  
 
  
-
 

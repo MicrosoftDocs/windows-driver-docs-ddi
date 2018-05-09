@@ -7,7 +7,7 @@ old-location: stream\ksunregisterworker.htm
 old-project: stream
 ms.assetid: 789b12db-7f51-426f-8f43-d3a3e43d85b3
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsUnregisterWorker, KsUnregisterWorker function [Streaming Media Devices], ks/KsUnregisterWorker, ksfunc_9b3f2185-8ab0-484d-91d7-3b822ce1c4aa.xml, stream.ksunregisterworker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsUnregisterWorker
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -51,16 +52,6 @@ req.typenames:
 
 
 The <b>KsUnregisterWorker</b> function allows clients to unregister a worker. The function can destroy threads, depending on the number of threads in use. This must only be used after successful execution of <b>KsRegisterWorker</b>. The function can only be called at PASSIVE_LEVEL.
-
-
-## -syntax
-
-
-````
-VOID KsUnregisterWorker(
-  _In_ PKSWORKER Worker
-);
-````
 
 
 ## -parameters

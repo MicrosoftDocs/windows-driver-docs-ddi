@@ -7,7 +7,7 @@ old-location: stream\ksterminatedevice.htm
 old-project: stream
 ms.assetid: 3d6ad381-0bd9-47d8-a4dd-e434b62bf5a1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsTerminateDevice, KsTerminateDevice function [Streaming Media Devices], avfunc_42f55ca4-ed73-4ea2-9f33-462d9d13e3e3.xml, ks/KsTerminateDevice, stream.ksterminatedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,7 +39,8 @@ api_location:
 -	Ks.dll
 api_name:
 -	KsTerminateDevice
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: 
 ---
@@ -53,16 +54,6 @@ req.typenames:
 The<b> KsTerminateDevice </b>function removes an AVStream device.
 
 
-## -syntax
-
-
-````
-void KsTerminateDevice(
-  _In_ PDEVICE_OBJECT DeviceObject
-);
-````
-
-
 ## -parameters
 
 
@@ -70,7 +61,7 @@ void KsTerminateDevice(
 
 ### -param DeviceObject [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a> structure corresponding to the device for which to remove AVStream support.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure corresponding to the device for which to remove AVStream support.
 
 
 ## -returns
@@ -93,36 +84,35 @@ Normally, AVStream calls <b>KsTerminateDevice</b> upon receipt of a PnP remove d
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
-<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
 
 
 
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
 
 
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
 
 
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560927">KsAddDevice</a>
 
 
 
-<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561647">KsCreateDevice</a>
 
 
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562682">KsInitializeDevice</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562683">KsInitializeDriver</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: display\d3dkmtdestroyprotectedsession.htm
 old-project: display
 ms.assetid: e27ab1db-647d-447c-b79d-2553aa088398
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTDestroyProtectedSession, D3DKMTDestroyProtectedSession method [Display Devices], d3dkmthk/D3DKMTDestroyProtectedSession, display.d3dkmtdestroyprotectedsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	d3dkmthk.h
 api_name:
 -	D3DKMTDestroyProtectedSession
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTDestroyProtectedSession function
@@ -54,19 +55,14 @@ req.typenames: D3DKMT_DRIVERVERSION
             Used to destroy a protected session.
 
 
-## -syntax
-
-
-````
-NTSTATUS  D3DKMTDestroyProtectedSession(
-  _Inout_ D3DKMT_DESTROYPROTECTEDSESSION  *D3dkmt_destroyprotectedsession
-);
-````
-
-
 ## -parameters
 
 
+
+
+### -param Arg1
+
+TBD
 
 
 

@@ -7,7 +7,7 @@ old-location: stream\kscamera_metadataid.htm
 old-project: stream
 ms.assetid: 1CD1D065-9A96-42D5-807E-B439B4273920
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSCAMERA_MetadataId, KSCAMERA_MetadataId enumeration [Streaming Media Devices], MetadataId_Custom_Start, MetadataId_PhotoConfirmation, MetadataId_Standard_End, MetadataId_Standard_Start, ksmedia/KSCAMERA_MetadataId, ksmedia/MetadataId_Custom_Start, ksmedia/MetadataId_PhotoConfirmation, ksmedia/MetadataId_Standard_End, ksmedia/MetadataId_Standard_Start, stream.kscamera_metadataid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	Ksmedia.h
 api_name:
 -	KSCAMERA_MetadataId
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: KSCAMERA_MetadataId
 ---
@@ -50,19 +51,6 @@ req.typenames: KSCAMERA_MetadataId
 
 
 This enumeration contains identifiers for a metadata item.
-
-
-## -syntax
-
-
-````
-typedef enum  { 
-  MetadataId_Standard_Start     = 1,
-  MetadataId_PhotoConfirmation  = MetadataId_Standard_Start,
-  MetadataId_Standard_End       = MetadataId_PhotoConfirmation,
-  MetadataId_Custom_Start       = 0x80000000
-} KSCAMERA_MetadataId;
-````
 
 
 ## -enum-fields

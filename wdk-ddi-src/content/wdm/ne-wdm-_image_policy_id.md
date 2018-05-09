@@ -7,7 +7,7 @@ old-location: kernel\_image_policy_id.htm
 old-project: kernel
 ms.assetid: e2984ef0-6648-41d3-89da-4f57cce66cfb
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: IMAGE_POLICY_ID, IMAGE_POLICY_ID enumeration [Kernel-Mode Driver Architecture], ImagePolicyIdCapability, ImagePolicyIdCrashDump, ImagePolicyIdCrashDumpKey, ImagePolicyIdCrashDumpKeyGuid, ImagePolicyIdDebug, ImagePolicyIdDeviceId, ImagePolicyIdEtw, ImagePolicyIdMaximum, ImagePolicyIdParentSd, ImagePolicyIdParentSdRev, ImagePolicyIdScenarioId, ImagePolicyIdSvn, _IMAGE_POLICY_ID, kernel._image_policy_id, wdm/IMAGE_POLICY_ID, wdm/ImagePolicyIdCapability, wdm/ImagePolicyIdCrashDump, wdm/ImagePolicyIdCrashDumpKey, wdm/ImagePolicyIdCrashDumpKeyGuid, wdm/ImagePolicyIdDebug, wdm/ImagePolicyIdDeviceId, wdm/ImagePolicyIdEtw, wdm/ImagePolicyIdMaximum, wdm/ImagePolicyIdParentSd, wdm/ImagePolicyIdParentSdRev, wdm/ImagePolicyIdScenarioId, wdm/ImagePolicyIdSvn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	wdm.h
 api_name:
 -	IMAGE_POLICY_ID
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: IMAGE_POLICY_ID
-req.product: Windows 10 or later.
 ---
 
 # _IMAGE_POLICY_ID enumeration
@@ -51,27 +51,6 @@ req.product: Windows 10 or later.
 
 
 This enumeration is not supported.
-
-
-## -syntax
-
-
-````
-typedef enum _IMAGE_POLICY_ID { 
-  ImagePolicyIdEtw,
-  ImagePolicyIdDebug,
-  ImagePolicyIdCrashDump,
-  ImagePolicyIdCrashDumpKey,
-  ImagePolicyIdCrashDumpKeyGuid,
-  ImagePolicyIdParentSd,
-  ImagePolicyIdParentSdRev,
-  ImagePolicyIdSvn,
-  ImagePolicyIdDeviceId,
-  ImagePolicyIdCapability,
-  ImagePolicyIdScenarioId,
-  ImagePolicyIdMaximum
-} IMAGE_POLICY_ID;
-````
 
 
 ## -enum-fields

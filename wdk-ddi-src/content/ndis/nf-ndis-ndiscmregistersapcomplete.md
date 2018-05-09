@@ -7,7 +7,7 @@ old-location: netvista\ndiscmregistersapcomplete.htm
 old-project: netvista
 ms.assetid: 0419bbf5-02aa-482f-9e2c-a435302751c4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCmRegisterSapComplete, NdisCmRegisterSapComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_1f862b68-070b-40d3-8edd-3830195af73c.xml, ndis/NdisCmRegisterSapComplete, netvista.ndiscmregistersapcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,9 +39,10 @@ api_location:
 -	ndis.dll
 api_name:
 -	NdisCmRegisterSapComplete
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCmRegisterSapComplete function
@@ -52,18 +53,6 @@ req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 
 <b>NdisCmRegisterSapComplete</b> returns the final status of a client's request, for which the CM previously
   returned NDIS_STATUS_PENDING, to register a SAP.
-
-
-## -syntax
-
-
-````
-VOID NdisCmRegisterSapComplete(
-  _In_ NDIS_STATUS Status,
-  _In_ NDIS_HANDLE NdisSapHandle,
-  _In_ NDIS_HANDLE CallMgrSapContext
-);
-````
 
 
 ## -parameters
@@ -81,7 +70,7 @@ Specifies the final status of the client's original request to register the SAP,
 
 Specifies the NDIS-supplied handle to the SAP if the registration is successful. The call manager
      obtained this handle as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">
+     <a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">
      ProtocolCmRegisterSap</a> function.
 
 
@@ -108,11 +97,11 @@ None
 
 A stand-alone call manager must call 
     <b>NdisCmRegisterSapComplete</b> if its 
-    <a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a> function
+    <a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a> function
     returned NDIS_STATUS_PENDING when it was called with the given 
     <i>NdisSapHandle</i> . The call to 
     <b>NdisCmRegisterSapComplete</b> causes NDIS to call the client's 
-    <a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
+    <a href="https://msdn.microsoft.com/b0a2a224-3353-4f20-b14f-ed5d633a6ead">
     ProtocolClRegisterSapComplete</a> function.
 
 If the call manager sets 
@@ -133,30 +122,29 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmregistersapcomplete.md">NdisMCmRegisterSapComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
+<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563557">NdisMCmRegisterSapComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/b0a2a224-3353-4f20-b14f-ed5d633a6ead">
    ProtocolClRegisterSapComplete</a>
 
 
 
+<a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a>
  
 
  
-
 

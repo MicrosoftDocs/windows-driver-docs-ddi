@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.AssignS0IdleSettings
-title: IWDFDevice2::AssignS0IdleSettings method
+title: IWDFDevice2::AssignS0IdleSettings
 author: windows-driver-content
 description: The AssignS0IdleSettings method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 old-location: wdf\iwdfdevice2_assigns0idlesettings.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ffe91b9a-3b74-4dd9-b23d-096f1992485e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: AssignS0IdleSettings method, AssignS0IdleSettings method, IWDFDevice2 interface, AssignS0IdleSettings,IWDFDevice2.AssignS0IdleSettings, IWDFDevice2, IWDFDevice2 interface, AssignS0IdleSettings method, IWDFDevice2::AssignS0IdleSettings, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, umdf.iwdfdevice2_assigns0idlesettings, wdf.iwdfdevice2_assigns0idlesettings, wudfddi/IWDFDevice2::AssignS0IdleSettings
+ms.keywords: AssignS0IdleSettings, AssignS0IdleSettings method, AssignS0IdleSettings method,IWDFDevice2 interface, IWDFDevice2 interface,AssignS0IdleSettings method, IWDFDevice2.AssignS0IdleSettings, IWDFDevice2::AssignS0IdleSettings, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, umdf.iwdfdevice2_assigns0idlesettings, wdf.iwdfdevice2_assigns0idlesettings, wudfddi/IWDFDevice2::AssignS0IdleSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -38,13 +38,13 @@ api_location:
 -	WUDFx.dll
 api_name:
 -	IWDFDevice2.AssignS0IdleSettings
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice2::AssignS0IdleSettings method
+# IWDFDevice2::AssignS0IdleSettings
 
 
 ## -description
@@ -55,20 +55,6 @@ req.product: Windows 10 or later.
 The <b>AssignS0IdleSettings</b> method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 
 
-## -syntax
-
-
-````
-HRESULT AssignS0IdleSettings(
-  [in] WDF_POWER_POLICY_S0_IDLE_CAPABILITIES IdleCaps,
-  [in] DEVICE_POWER_STATE                    DxState,
-  [in] ULONG                                 IdleTimeout,
-  [in] WDF_POWER_POLICY_S0_IDLE_USER_CONTROL UserControlOfIdleSettings,
-  [in] WDF_TRI_STATE                         Enabled
-);
-````
-
-
 ## -parameters
 
 
@@ -76,12 +62,12 @@ HRESULT AssignS0IdleSettings(
 
 ### -param IdleCaps [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator that identifies the device's ability to wake itself after it is set to a low-power state, while the system remains in its working (S0) state.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552429">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator that identifies the device's ability to wake itself after it is set to a low-power state, while the system remains in its working (S0) state.
 
 
 ### -param DxState [in]
 
-A <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>-typed enumerator that identifies the low <a href="https://msdn.microsoft.com/2229f34c-9b88-4e3e-802e-f7be2c7ef168">device power state</a> that the device will enter after the idle timeout period ends. DEVICE_POWER_STATE values are defined in wdm.h.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a>-typed enumerator that identifies the low <a href="https://msdn.microsoft.com/2229f34c-9b88-4e3e-802e-f7be2c7ef168">device power state</a> that the device will enter after the idle timeout period ends. DEVICE_POWER_STATE values are defined in wdm.h.
 
 
 ### -param IdleTimeout [in]
@@ -91,12 +77,12 @@ The amount of time, in milliseconds, that the device will remain idle before the
 
 ### -param UserControlOfIdleSettings [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_user_control.md">WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's idle settings.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552432">WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's idle settings.
 
 
 ### -param Enabled [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device will be powered down if it remains idle and while the system power is at S0. This member can have one of the following values:
+A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device will be powered down if it remains idle and while the system power is at S0. This member can have one of the following values:
 
 <b>WdfTrue</b> - Powering down is enabled.
 
@@ -202,11 +188,11 @@ For USB devices, the value cannot be <b>PowerDeviceD0</b> or <b>PowerDeviceD3</b
 
 </li>
 <li>
-If you specify <b>DevicePowerMaximum</b>, the framework uses the value that the kernel-mode driver for the device's bus supplied in the <b>DeviceWake</b> member of its <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a> structure. 
+If you specify <b>DevicePowerMaximum</b>, the framework uses the value that the kernel-mode driver for the device's bus supplied in the <b>DeviceWake</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff551264">WDF_DEVICE_POWER_CAPABILITIES</a> structure. 
 
 </li>
 <li>
-If the value of the <i>IdleCaps</i> parameter is <b>IdleCanWakeFromS0</b> or <b>IdleUsbSelectiveSuspend</b>, you cannot specify a device power state that is lower than the device power state in the <b>DeviceWake</b> member of the kernel-mode bus driver's <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_capabilities.md">WDF_DEVICE_POWER_CAPABILITIES</a> structure. (In other words, if the bus driver's <b>DeviceWake</b> value is <b>PowerDeviceD2</b>, your function driver's <i>DxState</i> value cannot be <b>PowerDeviceD3</b>.) 
+If the value of the <i>IdleCaps</i> parameter is <b>IdleCanWakeFromS0</b> or <b>IdleUsbSelectiveSuspend</b>, you cannot specify a device power state that is lower than the device power state in the <b>DeviceWake</b> member of the kernel-mode bus driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551264">WDF_DEVICE_POWER_CAPABILITIES</a> structure. (In other words, if the bus driver's <b>DeviceWake</b> value is <b>PowerDeviceD2</b>, your function driver's <i>DxState</i> value cannot be <b>PowerDeviceD3</b>.) 
 
 </li>
 </ul>
@@ -219,7 +205,7 @@ For more information about supporting a device's idle capabilities, see <a href=
 
 #### Examples
 
-The following code example is based on the UMDF version of the toaster sample. The example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a> interface and then calls <b>AssignS0IdleSettings</b>.
+The following code example is based on the UMDF version of the toaster sample. The example obtains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a> interface and then calls <b>AssignS0IdleSettings</b>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -258,7 +244,10 @@ The following code example is based on the UMDF version of the toaster sample. T
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a>
 
 
 
@@ -266,12 +255,8 @@ The following code example is based on the UMDF version of the toaster sample. T
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
-
-
-
+<a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
  
 
  
-
 

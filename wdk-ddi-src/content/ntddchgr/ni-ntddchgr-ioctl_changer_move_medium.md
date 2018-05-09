@@ -7,8 +7,8 @@ old-location: storage\ioctl_changer_move_medium.htm
 old-project: storage
 ms.assetid: 4a410f56-cdc1-4cb0-801c-62402caec4ee
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_CHANGER_MOVE_MEDIUM, IOCTL_CHANGER_MOVE_MEDIUM control code [Storage Devices], k307_4d55c834-2f72-433b-8e75-015908324d87.xml, ntddchgr/IOCTL_CHANGER_MOVE_MEDIUM, storage.ioctl_changer_move_medium
+ms.date: 3/29/2018
+ms.keywords: IOCTL_CHANGER_MOVE_MEDIUM, IOCTL_CHANGER_MOVE_MEDIUM control, IOCTL_CHANGER_MOVE_MEDIUM control code [Storage Devices], k307_4d55c834-2f72-433b-8e75-015908324d87.xml, ntddchgr/IOCTL_CHANGER_MOVE_MEDIUM, storage.ioctl_changer_move_medium
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -38,9 +38,10 @@ api_location:
 -	Ntddchgr.h
 api_name:
 -	IOCTL_CHANGER_MOVE_MEDIUM
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_CHANGER_MOVE_MEDIUM IOCTL
@@ -63,7 +64,7 @@ Moves a piece of media from a source element to a destination.
 ### -input-buffer
 
 
-       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="..\ntddchgr\ns-ntddchgr-_changer_move_medium.md">CHANGER_MOVE_MEDIUM</a> data, which indicates the transport to use for the operation, the source, the destination, and whether the medium should be flipped, assuming the device supports two-sided media. 
+       The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551474">CHANGER_MOVE_MEDIUM</a> data, which indicates the transport to use for the operation, the source, the destination, and whether the medium should be flipped, assuming the device supports two-sided media. 
 
 
 ### -input-buffer-length
@@ -106,16 +107,15 @@ The <b>Information</b> field is set to <b>sizeof</b>(CHANGER_MOVE_MEDIUM). The <
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_move_medium.md">CHANGER_MOVE_MEDIUM</a>
 
 
 
-<a href="..\mcd\nf-mcd-changermovemedium.md">ChangerMoveMedium</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551474">CHANGER_MOVE_MEDIUM</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551436">ChangerMoveMedium</a>
  
 
  
-
 

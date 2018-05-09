@@ -7,7 +7,7 @@ old-location: image\wiaureggetstr.htm
 old-project: image
 ms.assetid: ff06737b-c37d-4f37-adfc-bbd51974c9e4
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaureggetstr, wiauFncs_b9145502-734d-40de-8086-c1f193966269.xml, wiauRegGetStr, wiauRegGetStr function [Imaging Devices], wiauRegGetStrA, wiauRegGetStrW, wiautil/wiauRegGetStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	wiautil.h
 api_name:
 -	wiauRegGetStr
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauRegGetStrA function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>wiauRegGetStr</b> function gets a string value from the <b>DeviceData</b> section of the registry.
-
-
-## -syntax
-
-
-````
-HRESULT _stdcall wiauRegGetStr(
-  _In_    HKEY   hkKey,
-  _In_    PCTSTR pwszValueName,
-  _Out_   PWSTR  pwszValue,
-  _Inout_ DWORD  *pdwLength
-);
-````
 
 
 ## -parameters
@@ -112,7 +99,6 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550179">wiauRegOpenData</a>
 
 
 
@@ -120,8 +106,8 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550179">wiauRegOpenData</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\io_status_block.htm
 old-project: kernel
 ms.assetid: 1ce2b1d0-a8b2-4a05-8895-e13802690a7b
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PIO_STATUS_BLOCK, IO_STATUS_BLOCK, IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], PIO_STATUS_BLOCK, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], _IO_STATUS_BLOCK, kernel.io_status_block, kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, wdm/IO_STATUS_BLOCK, wdm/PIO_STATUS_BLOCK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any level (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	IO_STATUS_BLOCK
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: "*PIO_STATUS_BLOCK, IO_STATUS_BLOCK, *PIO_STATUS_BLOCK"
-req.product: Windows 10 or later.
+req.typenames: "*PIO_STATUS_BLOCK, IO_STATUS_BLOCK"
 ---
 
 # _IO_STATUS_BLOCK structure
@@ -50,21 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-A driver sets an IRP's I/O status block to indicate the final status of an I/O request, before calling <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a> for the IRP.
-
-
-## -syntax
-
-
-````
-typedef struct _IO_STATUS_BLOCK {
-  union {
-    NTSTATUS Status;
-    PVOID    Pointer;
-  };
-  ULONG_PTR Information;
-} IO_STATUS_BLOCK, *PIO_STATUS_BLOCK;
-````
+A driver sets an IRP's I/O status block to indicate the final status of an I/O request, before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a> for the IRP.
 
 
 ## -struct-fields
@@ -77,19 +63,19 @@ typedef struct _IO_STATUS_BLOCK {
  
 
 
-### -field Information
+### -field DUMMYUNIONNAME.Status
 
-This is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. If a transfer request is completed with another STATUS_<i>XXX</i>, this member is set to zero. 
+This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>.
 
 
-#### - Pointer
+### -field DUMMYUNIONNAME.Pointer
 
 Reserved. For internal use only.
 
 
-#### - Status
+### -field Information
 
-This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>.
+This is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. If a transfer request is completed with another STATUS_<i>XXX</i>, this member is set to zero. 
 
 
 ## -remarks
@@ -98,9 +84,9 @@ This is the completion status, either STATUS_SUCCESS if the requested operation 
 
 Unless a driver's dispatch routine completes an IRP with an error status value, the lowest-level driver in the chain frequently sets the IRP's I/O status block to the values that will be returned to the original requester of the I/O operation.
 
-The <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routines of higher-level drivers usually check the I/O status block in IRPs completed by lower drivers. By design, the I/O status block in an IRP is the only information passed back from the underlying device driver to all higher-level drivers' <i>IoCompletion</i> routines.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548354">IoCompletion</a> routines of higher-level drivers usually check the I/O status block in IRPs completed by lower drivers. By design, the I/O status block in an IRP is the only information passed back from the underlying device driver to all higher-level drivers' <i>IoCompletion</i> routines.
 
-The operating system implements <a href="https://msdn.microsoft.com/c0b21ead-875f-4b7a-a760-ec5b9ead184a">support routines</a> that write <b>IO_STATUS_BLOCK</b> values to caller-supplied output buffers. For example, see <a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a> or <a href="http://go.microsoft.com/fwlink/p/?linkid=155044">NtOpenFile</a>. These routines return status codes that might not match the status codes in the <b>IO_STATUS_BLOCK</b> structures. If one of these routines returns STATUS_PENDING, the caller should wait for the I/O operation to complete, and then check the status code in the <b>IO_STATUS_BLOCK</b> structure to determine the final status of the operation. If the routine returns a status code other than STATUS_PENDING, the caller should rely on this status code instead of the status code in the <b>IO_STATUS_BLOCK</b> structure.
+The operating system implements <a href="https://msdn.microsoft.com/c0b21ead-875f-4b7a-a760-ec5b9ead184a">support routines</a> that write <b>IO_STATUS_BLOCK</b> values to caller-supplied output buffers. For example, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a> or <a href="http://go.microsoft.com/fwlink/p/?linkid=155044">NtOpenFile</a>. These routines return status codes that might not match the status codes in the <b>IO_STATUS_BLOCK</b> structures. If one of these routines returns STATUS_PENDING, the caller should wait for the I/O operation to complete, and then check the status code in the <b>IO_STATUS_BLOCK</b> structure to determine the final status of the operation. If the routine returns a status code other than STATUS_PENDING, the caller should rely on this status code instead of the status code in the <b>IO_STATUS_BLOCK</b> structure.
 
 For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551825">I/O Status Blocks</a>.
 
@@ -109,24 +95,25 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549679">IoSetCompletionRoutine</a>
  
 
  
+
 
 

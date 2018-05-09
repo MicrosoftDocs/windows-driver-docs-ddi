@@ -7,8 +7,8 @@ old-location: audio\iportwavepcistream.htm
 old-project: audio
 ms.assetid: c59ea7d7-17f1-4751-a948-387d7568b832
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IPortWavePciStream, IPortWavePciStream interface [Audio Devices], IPortWavePciStream interface [Audio Devices], described, audio.iportwavepcistream, audmp-routines_2ccb79d5-48b9-4b7b-8656-0d427ae99c22.xml, portcls/IPortWavePciStream
+ms.date: 4/16/2018
+ms.keywords: IPortWavePciStream, IPortWavePciStream interface [Audio Devices], IPortWavePciStream interface [Audio Devices],described, audio.iportwavepcistream, audmp-routines_2ccb79d5-48b9-4b7b-8656-0d427ae99c22.xml, portcls/IPortWavePciStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,9 +38,10 @@ api_location:
 -	portcls.h
 api_name:
 -	IPortWavePciStream
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IPortWavePciStream interface

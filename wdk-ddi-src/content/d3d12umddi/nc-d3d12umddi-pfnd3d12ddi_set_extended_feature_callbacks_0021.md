@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_set_extended_feature_callbacks_0021.htm
 old-project: display
 ms.assetid: 8380C972-D5A0-46D5-B32B-C31D5113BB95
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021, d3d12umddi/pfnSetExtendedFeatureCallbacks, display.pfnd3d12ddi_set_extended_feature_callbacks_0021, pfnSetExtendedFeatureCallbacks, pfnSetExtendedFeatureCallbacks callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021, PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021 callback, d3d12umddi/pfnSetExtendedFeatureCallbacks, display.pfnd3d12ddi_set_extended_feature_callbacks_0021, pfnSetExtendedFeatureCallbacks, pfnSetExtendedFeatureCallbacks callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,34 +38,19 @@ api_location:
 -	D3d12umddi.h
 api_name:
 -	pfnSetExtendedFeatureCallbacks
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021 callback
+# PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021 callback function
 
 
 ## -description
 
 
 The <i>pfnSetExtendedFeatureCallbacks</i> callback function sets extended feature callbacks.
-
-
-## -prototype
-
-
-````
-PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021 pfnSetExtendedFeatureCallbacks;
-
-VOID APIENTRY* pfnSetExtendedFeatureCallbacks(
-       D3D12DDI_HDEVICE              hDevice,
-       D3D12DDI_TABLE_TYPE           Table,
-  _In_ _reads_(TableSize) const void *pTable,
-       SIZE_T                        TableSize
-)
-{ ... }
-````
 
 
 ## -parameters

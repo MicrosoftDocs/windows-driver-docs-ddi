@@ -7,7 +7,7 @@ old-location: kernel\reg_replace_key_information.htm
 old-project: kernel
 ms.assetid: bbe60db6-85ae-480c-8852-80935a52697e
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PREG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_REPLACE_KEY_INFORMATION, REG_REPLACE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_REPLACE_KEY_INFORMATION, kernel.reg_replace_key_information, kstruct_d_29e33c32-67fc-48e0-a976-9830278009bc.xml, wdm/PREG_REPLACE_KEY_INFORMATION, wdm/REG_REPLACE_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,10 +38,10 @@ api_location:
 -	Wdm.h
 api_name:
 -	REG_REPLACE_KEY_INFORMATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: REG_REPLACE_KEY_INFORMATION, *PREG_REPLACE_KEY_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _REG_REPLACE_KEY_INFORMATION structure
@@ -51,21 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>REG_REPLACE_KEY_INFORMATION</b> structure describes the metadata that is about to be replaced for a key.
-
-
-## -syntax
-
-
-````
-typedef struct _REG_REPLACE_KEY_INFORMATION {
-  PVOID           Object;
-  PUNICODE_STRING OldFileName;
-  PUNICODE_STRING NewFileName;
-  PVOID           CallContext;
-  PVOID           ObjectContext;
-  PVOID           Reserved;
-} REG_REPLACE_KEY_INFORMATION, *PREG_REPLACE_KEY_INFORMATION;
-````
 
 
 ## -struct-fields
@@ -95,7 +80,7 @@ Optional driver-defined context information that the driver's <a href="https://m
 
 ### -field ObjectContext
 
-A pointer to driver-defined context information, which the driver has associated with a registry object by calling <a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>. This member is defined for Windows Vista and later versions of the Windows operating system.
+A pointer to driver-defined context information, which the driver has associated with a registry object by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>. This member is defined for Windows Vista and later versions of the Windows operating system.
 
 
 ### -field Reserved
@@ -116,16 +101,15 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541924">CmSetCallbackObjectContext</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
-
-
-
  
 
  
-
 

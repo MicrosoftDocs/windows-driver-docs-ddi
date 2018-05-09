@@ -7,7 +7,7 @@ old-location: kernel\pep_unmasked_interrupt_flags.htm
 old-project: kernel
 ms.assetid: A385FBF9-2222-49E0-A708-1638C0D2FF7A
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS union [Kernel-Mode Driver Architecture], _PEP_UNMASKED_INTERRUPT_FLAGS, kernel.pep_unmasked_interrupt_flags, pepfx/PEP_UNMASKED_INTERRUPT_FLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -38,7 +38,8 @@ api_location:
 -	pepfx.h
 api_name:
 -	PEP_UNMASKED_INTERRUPT_FLAGS
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: PEP_UNMASKED_INTERRUPT_FLAGS, *PPEP_UNMASKED_INTERRUPT_FLAGS
 ---
@@ -52,23 +53,19 @@ req.typenames: PEP_UNMASKED_INTERRUPT_FLAGS, *PPEP_UNMASKED_INTERRUPT_FLAGS
 The <b>PEP_UNMASKED_INTERRUPT_FLAGS</b> union indicates whether an unmasked interrupt source is a primary interrupt or a secondary interrupt.
 
 
-## -syntax
-
-
-````
-typedef union _PEP_UNMASKED_INTERRUPT_FLAGS {
-  struct {
-    USHORT SecondaryInterrupt  :1;
-    USHORT Reserved  :15;
-  };
-  USHORT AsUSHORT;
-} PEP_UNMASKED_INTERRUPT_FLAGS;
-````
-
-
 ## -struct-fields
 
 
+
+
+### -field SecondaryInterrupt
+
+ 
+
+
+### -field Reserved
+
+ 
 
 
 ### -field AsUSHORT
@@ -97,19 +94,18 @@ Reserved for future use.
 
 
 
-The <b>Flags</b> member of the <a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a> structure is a <b>PEP_UNMASKED_INTERRUPT_FLAGS</b> union.
+The <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186857">PEP_UNMASKED_INTERRUPT_INFORMATION</a> structure is a <b>PEP_UNMASKED_INTERRUPT_FLAGS</b> union.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186857">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
  
 
  
-
 

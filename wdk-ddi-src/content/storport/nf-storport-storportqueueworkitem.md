@@ -7,7 +7,7 @@ old-location: storage\storportqueueworkitem.htm
 old-project: storage
 ms.assetid: 7B5DD97C-2E3D-4FF7-BF04-36F016B0C6B3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 3/29/2018
 ms.keywords: StorPortQueueWorkItem, StorPortQueueWorkItem routine [Storage Devices], storage.storportqueueworkitem, storport/StorPortQueueWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	storport.h
 api_name:
 -	StorPortQueueWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # StorPortQueueWorkItem function
@@ -51,19 +51,6 @@ req.product: Windows 10 or later.
 
 
 Schedules a Storport work item to execute within the context of  a system worker thread.
-
-
-## -syntax
-
-
-````
-ULONG StorPortQueueWorkItem(
-  _In_     PVOID        HwDeviceExtension,
-  _In_     PHW_WORKITEM WorkItemCallback,
-  _In_     PVOID        Worker,
-  _In_opt_ PVOID        Context
-);
-````
 
 
 ## -parameters
@@ -83,7 +70,7 @@ A pointer to a work item callback routine supplied by the miniport. This routine
 
 ### -param Worker [in]
 
-A pointer to an opaque buffer for the worker returned by <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>.
+A pointer to an opaque buffer for the worker returned by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451486">StorPortInitializeWorker</a>.
 
 
 ### -param Context [in, optional]
@@ -154,20 +141,19 @@ The work item was successfully queued.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
 
 
 
-<a href="..\storport\nc-storport-hw_workitem.md">HwStorWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451320">HwStorWorkItem</a>
 
 
 
-<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451478">StorPortFreeWorker</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451486">StorPortInitializeWorker</a>
  
 
  
-
 

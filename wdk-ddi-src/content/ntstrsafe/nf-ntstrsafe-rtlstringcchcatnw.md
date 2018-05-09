@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcchcatn.htm
 old-project: kernel
 ms.assetid: 2cd45c9e-b9dd-47fb-a480-63258b2fccd4
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCchCatN, RtlStringCchCatNA, RtlStringCchCatNW, RtlStringCchCatNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcatn, ntstrsafe/RtlStringCchCatNA, ntstrsafe/RtlStringCchCatNW, safestrings_499b4858-de9a-4be2-a82d-de2da48d37f5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,9 +41,10 @@ api_name:
 -	RtlStringCchCatNW
 -	RtlStringCchCatNA
 -	RtlStringCchCatNW
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlStringCchCatNW function
@@ -53,19 +54,6 @@ req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 
 
 The <b>RtlStringCchCatNW</b> and <b>RtlStringCchCatNA</b> functions concatenate two character-counted strings while limiting the size of the appended string. 
-
-
-## -syntax
-
-
-````
-NTSTATUS RtlStringCchCatNW(
-  _Inout_ LPTSTR  pszDest,
-  _In_    size_t  cchDest,
-  _In_    LPCTSTR pszSrc,
-  _In_    size_t  cchMaxAppend
-);
-````
 
 
 ## -parameters
@@ -218,7 +206,7 @@ L"string"
 
 If  <i>pszSrc</i> and <i>pszDest</i> point to overlapping strings, the behavior of the function is undefined.
 
-Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>.
+Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b>. If you need to handle <b>NULL</b> string pointer values, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562837">RtlStringCchCatNEx</a>.
 
 For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
 
@@ -227,20 +215,19 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnw.md">RtlStringCbCatN</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatw.md">RtlStringCchCat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562801">RtlStringCbCatN</a>
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnexw.md">RtlStringCchCatNEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562834">RtlStringCchCat</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562837">RtlStringCchCatNEx</a>
  
 
  
-
 

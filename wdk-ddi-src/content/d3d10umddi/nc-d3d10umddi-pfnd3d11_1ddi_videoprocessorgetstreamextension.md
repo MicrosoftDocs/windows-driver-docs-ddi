@@ -7,8 +7,8 @@ old-location: display\videoprocessorgetstreamextension.htm
 old-project: display
 ms.assetid: e2c91e9c-f8ab-48ba-b98a-332cb0ac7077
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION, d3d10umddi/pfnVideoProcessorGetStreamExtension, display.videoprocessorgetstreamextension, pfnVideoProcessorGetStreamExtension, pfnVideoProcessorGetStreamExtension callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION callback, d3d10umddi/pfnVideoProcessorGetStreamExtension, display.videoprocessorgetstreamextension, pfnVideoProcessorGetStreamExtension, pfnVideoProcessorGetStreamExtension callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	pfnVideoProcessorGetStreamExtension
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION callback
+# PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION callback function
 
 
 ## -description
@@ -52,36 +53,18 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Returns the private state data for a video processor stream to an application.
 
 
-## -prototype
-
-
-````
-PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION pfnVideoProcessorGetStreamExtension;
-
-HRESULT APIENTRY* pfnVideoProcessorGetStreamExtension(
-  _In_          D3D10DDI_HDEVICE           hDevice,
-  _In_          D3D11_1DDI_HVIDEOPROCESSOR hVideoProcessor,
-  _In_          UINT                       StreamIndex,
-  _In_    const GUID                       *pGuid,
-  _In_          UINT                       DataSize,
-  _Inout_       void                       *pData
-)
-{ ... }
-````
-
-
 ## -parameters
 
 
 
 
-### -param D3D10DDI_HDEVICE
+### -param Arg1
 
 
-### -param D3D11_1DDI_HVIDEOPROCESSOR
+### -param Arg2
 
 
-### -param UINT
+### -param Arg3
 
 
 ### -param *
@@ -91,6 +74,9 @@ HRESULT APIENTRY* pfnVideoProcessorGetStreamExtension(
 
 
 
+
+
+### -param Arg4
 
 
 #### - DataSize [in]
@@ -112,7 +98,7 @@ A handle to the display device (graphics context).
 
 #### - hVideoProcessor [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function. 
 
 
 
@@ -206,12 +192,11 @@ The Microsoft Direct3D runtime does not validate any parameter data before it ca
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
 
 
 
+<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
  
 
  
-
 

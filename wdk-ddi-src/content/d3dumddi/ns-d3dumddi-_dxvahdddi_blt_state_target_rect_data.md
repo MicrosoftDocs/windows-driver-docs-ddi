@@ -7,7 +7,7 @@ old-location: display\dxvahdddi_blt_state_target_rect_data.htm
 old-project: display
 ms.assetid: d6b76b6b-59d9-441f-846e-fe89d26f631d
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_bb978cee-d80a-429b-ac2c-1704539c55f7.xml, DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, display.dxvahdddi_blt_state_target_rect_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	d3dumddi.h
 api_name:
 -	DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
 ---
@@ -50,17 +51,6 @@ req.typenames: DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
 
 
 The DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure describes data that specifies the target rectangle of the output. 
-
-
-## -syntax
-
-
-````
-typedef struct _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA {
-  BOOL Enable;
-  RECT TargetRect;
-} DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA;
-````
 
 
 ## -struct-fields
@@ -89,12 +79,11 @@ If the <b>Enable</b> member is set to <b>TRUE</b> and the target rectangle that 
 
 ## -see-also
 
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
  
 
  
-
 

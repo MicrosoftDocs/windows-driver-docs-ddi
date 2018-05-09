@@ -7,8 +7,8 @@ old-location: display\resizetilepool.htm
 old-project: display
 ms.assetid: 184EF418-1B1E-4A10-8F10-1331DF99DCBD
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: PFND3DWDDM1_3DDI_RESIZETILEPOOL, ResizeTilePool, ResizeTilePool callback function [Display Devices], d3d10umddi/ResizeTilePool, display.resizetilepool
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM1_3DDI_RESIZETILEPOOL, PFND3DWDDM1_3DDI_RESIZETILEPOOL callback, ResizeTilePool, ResizeTilePool callback function [Display Devices], d3d10umddi/ResizeTilePool, display.resizetilepool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -38,12 +38,13 @@ api_location:
 -	D3d10umddi.h
 api_name:
 -	ResizeTilePool
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM1_3DDI_RESIZETILEPOOL callback
+# PFND3DWDDM1_3DDI_RESIZETILEPOOL callback function
 
 
 ## -description
@@ -52,21 +53,6 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 Resizes a tile pool.
 
 
-
-
-## -prototype
-
-
-````
-PFND3DWDDM1_3DDI_RESIZETILEPOOL ResizeTilePool;
-
-VOID APIENTRY* ResizeTilePool(
-   D3D10DDI_HDEVICE   hDevice,
-   D3D10DDI_HRESOURCE hTilePool,
-   UINT64             NewSizeInBytes
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -95,7 +81,7 @@ The new size, in bytes, of the tile pool. The size must be a multiple of 64 KB o
 
 None
 
-The driver can use the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a> callback function to set an error code. Returns <b>S_OK</b> if successful; otherwise, returns one of the following:
+The driver can use the <a href="https://msdn.microsoft.com/968b04a7-8869-410c-a6fc-83d57726858f">pfnSetErrorCb</a> callback function to set an error code. Returns <b>S_OK</b> if successful; otherwise, returns one of the following:
 
 <table>
 <tr>

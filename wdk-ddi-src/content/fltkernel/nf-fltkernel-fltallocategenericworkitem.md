@@ -7,7 +7,7 @@ old-location: ifsk\fltallocategenericworkitem.htm
 old-project: ifsk
 ms.assetid: 1be555a5-9fa7-4179-8a36-803b8792db86
 ms.author: windowsdriverdev
-ms.date: 2/16/2018
+ms.date: 4/16/2018
 ms.keywords: FltAllocateGenericWorkItem, FltAllocateGenericWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_06bae00e-f41d-4cc9-8664-94e06d004458.xml, fltkernel/FltAllocateGenericWorkItem, ifsk.fltallocategenericworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,9 +38,10 @@ api_location:
 -	fltmgr.sys
 api_name:
 -	FltAllocateGenericWorkItem
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltAllocateGenericWorkItem function
@@ -50,14 +51,6 @@ req.typenames: EXpsFontRestriction
 
 
 <b>FltAllocateGenericWorkItem</b> allocates a generic work item. 
-
-
-## -syntax
-
-
-````
-PFLT_GENERIC_WORKITEM FltAllocateGenericWorkItem(void);
-````
 
 
 ## -parameters
@@ -82,25 +75,24 @@ PFLT_GENERIC_WORKITEM FltAllocateGenericWorkItem(void);
 
 <b>FltAllocateGenericWorkItem</b> allocates a generic work item from nonpaged pool. 
 
-To insert this work item into a work queue, call <a href="..\fltkernel\nf-fltkernel-fltqueuegenericworkitem.md">FltQueueGenericWorkItem</a>. 
+To insert this work item into a work queue, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543452">FltQueueGenericWorkItem</a>. 
 
-To free the work item, a minifilter driver typically calls <a href="..\fltkernel\nf-fltkernel-fltfreegenericworkitem.md">FltFreeGenericWorkItem</a> from the worker routine that was specified in <a href="..\fltkernel\nf-fltkernel-fltqueuegenericworkitem.md">FltQueueGenericWorkItem</a>. 
+To free the work item, a minifilter driver typically calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff542971">FltFreeGenericWorkItem</a> from the worker routine that was specified in <a href="https://msdn.microsoft.com/library/windows/hardware/ff543452">FltQueueGenericWorkItem</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltqueuegenericworkitem.md">FltQueueGenericWorkItem</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfreegenericworkitem.md">FltFreeGenericWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542971">FltFreeGenericWorkItem</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543452">FltQueueGenericWorkItem</a>
  
 
  
-
 

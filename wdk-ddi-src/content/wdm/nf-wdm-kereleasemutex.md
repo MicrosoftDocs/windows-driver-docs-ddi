@@ -7,7 +7,7 @@ old-location: kernel\kereleasemutex.htm
 old-project: kernel
 ms.assetid: d220f913-6111-435d-b617-257edf2a9c68
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: KeReleaseMutex, KeReleaseMutex routine [Kernel-Mode Driver Architecture], k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml, kernel.kereleasemutex, wdm/KeReleaseMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,10 +38,10 @@ api_location:
 -	NtosKrnl.exe
 api_name:
 -	KeReleaseMutex
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeReleaseMutex function
@@ -51,17 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>KeReleaseMutex</b> routine releases a mutex object, and specifies whether the caller is to call one of the <b>KeWait<i>Xxx</i></b> routines as soon as <b>KeReleaseMutex</b> returns control. 
-
-
-## -syntax
-
-
-````
-LONG KeReleaseMutex(
-  _Inout_ PRKMUTEX Mutex,
-  _In_    BOOLEAN  Wait
-);
-````
 
 
 ## -parameters
@@ -76,7 +65,7 @@ A pointer to an initialized mutex object for which the caller provides the stora
 
 ### -param Wait [in]
 
-Specifies whether the call to <b>KeReleaseMutex</b> is to be immediately followed by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeReleaseMutex</b> call must be followed by a call to <a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>. For more information, see the following Remarks section. 
+Specifies whether the call to <b>KeReleaseMutex</b> is to be immediately followed by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeReleaseMutex</b> call must be followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>. For more information, see the following Remarks section. 
 
 
 ## -returns
@@ -115,27 +104,6 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereadstatemutex.md">KeReadStateMutex</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
 
 
@@ -143,8 +111,28 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552147">KeInitializeMutex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553094">KeReadStateMutex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
  
 
  
-
 

@@ -7,7 +7,7 @@ old-location: kernel\clfsmgmtsetlogfilesize.htm
 old-project: kernel
 ms.assetid: 76588bdd-ceb8-4c8b-bcd7-23184feacf86
 ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsMgmtSetLogFileSize, ClfsMgmtSetLogFileSize routine [Kernel-Mode Driver Architecture], Clfs_management_a4f0865a-5c4b-411b-a8a5-349b49c1528b.xml, kernel.clfsmgmtsetlogfilesize, wdm/ClfsMgmtSetLogFileSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,10 +39,10 @@ api_location:
 -	Ext-MS-Win-fs-clfs-l1-1-0.dll
 api_name:
 -	ClfsMgmtSetLogFileSize
-product: Windows
+product:
+- Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsMgmtSetLogFileSize function
@@ -52,20 +52,6 @@ req.product: Windows 10 or later.
 
 
 The <b>ClfsMgmtSetLogFileSize</b> routine adds containers to a log or deletes containers from a log.
-
-
-## -syntax
-
-
-````
-NTSTATUS ClfsMgmtSetLogFileSize(
-  _In_     PLOG_FILE_OBJECT                     LogFile,
-  _In_     PULONGLONG                           NewSizeInContainers,
-  _Out_    PULONGLONG                           ResultingSizeInContainers,
-  _In_opt_ PCLFS_SET_LOG_SIZE_COMPLETE_CALLBACK CompletionRoutine,
-  _In_opt_ PVOID                                CompletionRoutineData
-);
-````
 
 
 ## -parameters
@@ -90,7 +76,7 @@ A pointer to the requested log size. The caller sets this parameter to one of th
 <tr>
 <td>0</td>
 <td>
-Enforce the minimum size policy. For more information about this policy, see <a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>.
+Enforce the minimum size policy. For more information about this policy, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541634">ClfsMgmtInstallPolicy</a>.
 
 If a minimum size policy is not installed, one of the following occurs:
 
@@ -251,23 +237,22 @@ This routine might also return other <a href="https://msdn.microsoft.com/library
 
 
 
-The <b>ClfsMgmtSetLogFileSize</b> routine is typically used only when a client starts or stops. Do not call the <b>ClfsMgmtSetLogFileSize</b> routine from within your <a href="..\wdm\nc-wdm-pclfs_client_advance_tail_callback.md">ClfsAdvanceTailCallback</a> function.
+The <b>ClfsMgmtSetLogFileSize</b> routine is typically used only when a client starts or stops. Do not call the <b>ClfsMgmtSetLogFileSize</b> routine from within your <a href="https://msdn.microsoft.com/library/windows/hardware/ff540776">ClfsAdvanceTailCallback</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_clfs_mgmt_policy_type.md">CLFS_MGMT_POLICY_TYPE</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsmgmtinstallpolicy.md">ClfsMgmtInstallPolicy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541849">CLFS_MGMT_POLICY_TYPE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541634">ClfsMgmtInstallPolicy</a>
  
 
  
-
 

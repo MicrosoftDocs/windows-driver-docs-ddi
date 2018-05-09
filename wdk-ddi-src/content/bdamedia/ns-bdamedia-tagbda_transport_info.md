@@ -7,7 +7,7 @@ old-location: stream\bda_transport_info.htm
 old-project: stream
 ms.assetid: 995a1d2f-8e2b-426e-a08c-283124ce905e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PBDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO structure [Streaming Media Devices], PBDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO structure pointer [Streaming Media Devices], bdamedia/BDA_TRANSPORT_INFO, bdamedia/PBDA_TRANSPORT_INFO, bdaref_3ee17c26-da8b-4d04-87fc-6c9912de349d.xml, stream.bda_transport_info, tagBDA_TRANSPORT_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,8 @@ api_location:
 -	bdamedia.h
 api_name:
 -	BDA_TRANSPORT_INFO
-product: Windows
+product:
+- Windows
 targetos: Windows
 req.typenames: BDA_TRANSPORT_INFO, *PBDA_TRANSPORT_INFO
 ---
@@ -50,19 +51,6 @@ req.typenames: BDA_TRANSPORT_INFO, *PBDA_TRANSPORT_INFO
 
 
 The BDA_TRANSPORT_INFO structure describes formatting for a stream connection. 
-
-
-## -syntax
-
-
-````
-typedef struct tagBDA_TRANSPORT_INFO {
-  ULONG          ulcbPhyiscalPacket;
-  ULONG          ulcbPhyiscalFrame;
-  ULONG          ulcbPhyiscalFrameAlignment;
-  REFERENCE_TIME AvgTimePerFrame;
-} BDA_TRANSPORT_INFO, *PBDA_TRANSPORT_INFO;
-````
 
 
 ## -struct-fields
@@ -103,7 +91,6 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
 
 
@@ -111,12 +98,12 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 
 
-<a href="..\bdamedia\ns-bdamedia-tagks_datarange_bda_transport.md">KS_DATARANGE_BDA_TRANSPORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567346">KS_DATARANGE_BDA_TRANSPORT</a>
  
 
  
-
 
