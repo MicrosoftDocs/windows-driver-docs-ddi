@@ -2,7 +2,7 @@
 UID: TP:stream
 ms.assetid: 955ea1c2-d8bc-36d6-8195-eadc9d53b016
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Streaming media devices
 
-
+## -description
 
 Overview of the Streaming media devices technology.
 
@@ -346,7 +346,7 @@ For the programming guide, see [Streaming media devices](https://docs.microsoft.
 | [StreamClassQueryMasterClockSync function](..\strmini\nf-strmini-streamclassquerymasterclocksync.md) | The minidriver may call the StreamClassQueryMasterClockSync routine to synchronously query a stream's master clock. |
 | [StreamClassReadWriteConfig function](..\strmini\nf-strmini-streamclassreadwriteconfig.md) | The StreamClassReadWriteConfig routine reads or writes configuration data for the minidriver's parent bus driver. |
 | [StreamClassReenumerateStreams function](..\strmini\nf-strmini-streamclassreenumeratestreams.md) | Obsolete. Do not use. |
-| [StreamClassRegisterAdapter function](..\strmini\nf-strmini-streamclassregisteradapter.md) | The StreamClassRegisterAdapter routine registers a stream class minidriver. |
+| [StreamClassRegisterAdapter function](..\strmini\nf-strmini-streamclassregisteradapter.md) | The StreamClassRegisterAdapter routine registers a stream class minidriver.The name StreamClassRegisterAdapter is supported for backward compatibility only.Instead, Microsoft recommends the use of StreamClassRegisterMinidriver, an alias of StreamClassRegisterAdapter. The name StreamClassRegisterMinidriver more accurately indicates that the routine registers a stream class minidriver. Once registered, a minidriver can drive any number of adapter instances in a system.The StreamClassRegisterMinidriver routine registers a stream minidriver with the stream class driver. |
 | [StreamClassRegisterFilterWithNoKSPins function](..\strmini\nf-strmini-streamclassregisterfilterwithnokspins.md) | The StreamClassRegisterFilterWithNoKSPins routine is used to register filter drivers with Microsoft DirectShow that have no kernel streaming pins and, therefore, do not stream in kernel mode. |
 | [StreamClassScheduleTimer function](..\strmini\nf-strmini-streamclassscheduletimer.md) | The minidriver calls the StreamClassScheduleTimer routine to schedule a timer, and to specify a routine that is called when the timer expires. |
 | [StreamClassStreamNotification function](..\strmini\nf-strmini-streamclassstreamnotification.md) | Streams use the StreamClassStreamNotification routine to notify the class driver that it has completed a stream request, or that an event has occurred. |
@@ -363,86 +363,86 @@ For the programming guide, see [Streaming media devices](https://docs.microsoft.
 
 | Title   | Description   |
 | ---- |:---- |
-| [PADAPTER_RECEIVE_PACKET_ROUTINE callback](..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md) | A camera minidriver's AdapterReceivePacket callback function processes adapter-based stream request blocks (SRBs) passed to it by the stream class driver. |
-| [PCAM_ALLOCATE_BW_ROUTINE callback](..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine.md) | A camera minidriver's CamAllocateBandwidth callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream. |
-| [PCAM_ALLOCATE_BW_ROUTINE_EX callback](..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine_ex.md) | A camera minidriver's CamAllocateBandwidthEx callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream. |
-| [PCAM_CONFIGURE_ROUTINE callback](..\usbcamdi\nc-usbcamdi-pcam_configure_routine.md) | A camera minidriver's CamConfigure callback function configures the isochronous streaming interface. |
-| [PCAM_CONFIGURE_ROUTINE_EX callback](..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md) | A camera minidriver's CamConfigureEx callback function configures the isochronous streaming interface. |
-| [PCAM_FREE_BW_ROUTINE callback](..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine.md) | A camera minidriver's CamFreeBandwidth callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth. |
-| [PCAM_FREE_BW_ROUTINE_EX callback](..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine_ex.md) | A camera minidriver's CamFreeBandwidthEx callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth. |
-| [PCAM_INITIALIZE_ROUTINE callback](..\usbcamdi\nc-usbcamdi-pcam_initialize_routine.md) | A camera minidriver's callback function initializes the device or performs any minidriver-specific clean-up that is required. |
-| [PCAM_NEW_FRAME_ROUTINE callback](..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md) | A camera minidriver's CamNewVideoFrame callback function initializes a new video frame context structure. |
-| [PCAM_NEW_FRAME_ROUTINE_EX callback](..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine_ex.md) | A camera minidriver's CamNewVideoFrameEx callback function initializes a new video frame context structure. |
-| [PCAM_PROCESS_PACKET_ROUTINE callback](..\usbcamdi\nc-usbcamdi-pcam_process_packet_routine.md) | A camera minidriver's CamProcessUSBPacket callback function processes a USB packet. |
-| [PCAM_PROCESS_PACKET_ROUTINE_EX callback](..\usbcamdi\nc-usbcamdi-pcam_process_packet_routine_ex.md) | A camera minidriver's CamProcessUSBPacketEx callback function processes a USB packet. |
-| [PCAM_PROCESS_RAW_FRAME_ROUTINE callback](..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md) | A camera minidriver's CamProcessRawVideoFrame callback function decodes a raw video frame. |
-| [PCAM_PROCESS_RAW_FRAME_ROUTINE_EX callback](..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md) | A camera minidriver's CamProcessRawVideoFrameEx callback function decodes a raw video frame. |
-| [PCAM_START_CAPTURE_ROUTINE callback](..\usbcamdi\nc-usbcamdi-pcam_start_capture_routine.md) | A camera minidriver's CamStartCapture callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream. |
-| [PCAM_START_CAPTURE_ROUTINE_EX callback](..\usbcamdi\nc-usbcamdi-pcam_start_capture_routine_ex.md) | A camera minidriver's CamStartCaptureEx callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream. |
-| [PCAM_STATE_ROUTINE callback](..\usbcamdi\nc-usbcamdi-pcam_state_routine.md) | A camera minidriver's state callback function restores a previously saved device context state or saves the current device context state. |
-| [PCAM_STOP_CAPTURE_ROUTINE callback](..\usbcamdi\nc-usbcamdi-pcam_stop_capture_routine.md) | A camera minidriver's CamStopCapture callback function performs any processing after the stream is stopped. |
-| [PCAM_STOP_CAPTURE_ROUTINE_EX callback](..\usbcamdi\nc-usbcamdi-pcam_stop_capture_routine_ex.md) | A camera minidriver's CamStopCaptureEx callback function performs any processing after the stream is stopped. |
-| [PCOMMAND_COMPLETE_FUNCTION callback](..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md) | A camera minidriver's CommandCompleteFunction callback function allows the camera minidriver to perform any additional tasks necessary to complete certain USBCAMD services |
-| [PFNALLOCATOR_ALLOCATEFRAME callback](..\ks\nc-ks-pfnallocator_allocateframe.md) | The KStrAllocateFrame routine describes a vendor-supplied frame allocation function. |
-| [PFNALLOCATOR_FREEFRAME callback](..\ks\nc-ks-pfnallocator_freeframe.md) | The KStrFreeFrame routine describes a vendor-supplied frame deallocation function. |
-| [PFNDEREFERENCEDEVICEOBJECT callback](..\ks\nc-ks-pfndereferencedeviceobject.md) | The driver can use this routine to decrement the reference count of the PDO. |
-| [PFNDEREFERENCEDEVICEOBJECT callback](..\swenum\nc-swenum-pfndereferencedeviceobject.md) | The driver can use this routine to decrement the reference count of the PDO. |
-| [PFNKSADDEVENT callback](..\ks\nc-ks-pfnksaddevent.md) | An AVStream minidriver's AVStrMiniAddEvent routine is called when a client registers to be notified of an event. This routine is optional. |
-| [PFNKSALLOCATOR callback](..\ks\nc-ks-pfnksallocator.md) | Minidrivers can optionally supply a callback function of type PFNKSALLOCATOR as a parameter in calls to KsEnableEventWithAllocator, KsPropertyHandlerWithAllocator, and KsMethodHandlerWithAllocator. |
-| [PFNKSCANCELTIMER callback](..\ks\nc-ks-pfnkscanceltimer.md) | A streaming minidriver's KStrCancelTimer routine is called to cancel a custom timer object that was previously specified in the SetTimer parameter in a call to KsAllocateDefaultClockEx. |
-| [PFNKSCLOCK_CORRELATEDTIME callback](..\ks\nc-ks-pfnksclock_correlatedtime.md) | The routine is a system-supplied routine that retrieves and the following |
-| [PFNKSCLOCK_GETTIME callback](..\ks\nc-ks-pfnksclock_gettime.md) | The routine gets system time.KStrClockGetTime is a system-supplied routine that retrieves the current system time.KStrClockGetPhysicalTime is a system-supplied routine that retrieves the current system time minus any suspended delta. |
-| [PFNKSCONTEXT_DISPATCH callback](..\ks\nc-ks-pfnkscontext_dispatch.md) | A streaming minidriver's KStrContextDispatch routine is called to process IRP_MJ_POWER IRPs. |
-| [PFNKSCORRELATEDTIME callback](..\ks\nc-ks-pfnkscorrelatedtime.md) | A streaming minidriver's KStrCorrelatedTime routine is called to retrieve both the presentation time and physical time in a correlated manner. This allows the clock owner to completely determine the current time. |
-| [PFNKSDEFAULTALLOCATE callback](..\ks\nc-ks-pfnksdefaultallocate.md) | An AVStream minidriver's AVStrMiniAllocate routine allocates a frame using the allocator specified in the Context parameter. |
-| [PFNKSDEFAULTFREE callback](..\ks\nc-ks-pfnksdefaultfree.md) | An AVStream minidriver's AVStrMiniAllocatorFreeFrame routine frees the specified frame. |
-| [PFNKSDELETEALLOCATOR callback](..\ks\nc-ks-pfnksdeleteallocator.md) | An AVStream minidriver's AVStrMiniDeleteAllocator routine deletes the allocator that is associated with a pin. |
-| [PFNKSDEVICE callback](..\ks\nc-ks-pfnksdevice.md) | An AVStream minidriver's AVStrMiniDevicePostStart routine is called when AVStream performs post-PnP-start processing. Use it to load drivers at start time, for example. Such events then will occur in the context of a worker thread after PnP start. |
-| [PFNKSDEVICECREATE callback](..\ks\nc-ks-pfnksdevicecreate.md) | An AVStream minidriver's AVStrMiniDeviceAdd routine notifies the minidriver that AVStream's PnP AddDevice routine has completed. |
-| [PFNKSDEVICEIRP callback](..\ks\nc-ks-pfnksdeviceirp.md) | An AVStream minidriver's IRP handler routine is called when these IRPs is dispatched by the device.IRP_MN_QUERY_REMOVE_DEVICEIRP_MN_QUERY_STOP_DEVICEIRP_MN_QUERY_INTERFACE |
-| [PFNKSDEVICEIRPVOID callback](..\ks\nc-ks-pfnksdeviceirpvoid.md) | An AVStream minidriver's IRP handling routine is called when these IRPs are dispatched by the device.IRP_MN_CANCEL_STOP_DEVICEIRP_MN_CANCEL_REMOVE_DEVICEIRP_MN_REMOVE_DEVICEIRP_MN_STOP_DEVICEIRP_MN_SURPRISE_REMOVAL |
-| [PFNKSDEVICEPNPSTART callback](..\ks\nc-ks-pfnksdevicepnpstart.md) | An AVStream minidriver's AVStrMiniDeviceStart routine is called when an IRP_MN_START_DEVICE request is sent for a specified device. |
-| [PFNKSDEVICEQUERYCAPABILITIES callback](..\ks\nc-ks-pfnksdevicequerycapabilities.md) | An AVStream minidriver's AVStrMiniDeviceQueryCapabilities routine is called when an IRP_MN_QUERY_CAPABILITIES is dispatched by the device. |
-| [PFNKSDEVICEQUERYPOWER callback](..\ks\nc-ks-pfnksdevicequerypower.md) | AVStream calls a minidriver's AVStrMiniDeviceQueryPower routine when it receives an IRP_MN_QUERY_POWER request. |
-| [PFNKSDEVICESETPOWER callback](..\ks\nc-ks-pfnksdevicesetpower.md) | AVStream calls a minidriver's AVStrMiniDeviceSetPower routine when it receives an IRP_MN_SET_POWER. |
-| [PFNKSFASTHANDLER callback](..\ks\nc-ks-pfnksfasthandler.md) | KStrFastHandler is a driver-supplied routine that handles a property or method request without the creation of an IRP. |
-| [PFNKSFILTERIRP callback](..\ks\nc-ks-pfnksfilterirp.md) | An AVStream minidriver's AVStrMiniFilterCreate routine is called when a filter receives an IRP. |
-| [PFNKSFILTERPROCESS callback](..\ks\nc-ks-pfnksfilterprocess.md) | An AVStream minidriver's AVStrMiniFilterProcess routine is called when the filter is meant to process frames. It is used to perform Filter-Centric Processing. |
-| [PFNKSFILTERVOID callback](..\ks\nc-ks-pfnksfiltervoid.md) | An AVStream minidriver's AVStrMiniFilterReset routine is called when AVStream receives an IOCTL_KS_RESET_STATE to return the filter to the state it was in at Acquire-time. |
-| [PFNKSHANDLER callback](..\ks\nc-ks-pfnkshandler.md) | The minidriver-provided routine is called when Kernel Streaming receives an IOCTL_KS_METHOD, get/set property request. Provide a pointer to this handler in the relevant KSMETHOD_ITEM, KSPROPERTY_ITEM structure. |
-| [PFNKSINTERSECTHANDLER callback](..\ks\nc-ks-pfnksintersecthandler.md) | A streaming minidriver's KStrIntersectHandler routine is called to compare a data range to determine if there is an intersection, and if so, the data format of the intersection. |
-| [PFNKSINTERSECTHANDLEREX callback](..\ks\nc-ks-pfnksintersecthandlerex.md) | AVStream calls a minidriver's AVStrMiniIntersectHandlerEx routine to determine the highest quality intersection of two data ranges. |
-| [PFNKSIRPLISTCALLBACK callback](..\ks\nc-ks-pfnksirplistcallback.md) | A streaming minidriver's KStrIrpListCallback routine is called to determine whether the passed in IRP should be moved from the source list to the destination list, or if IRP enumeration should be terminated. |
-| [PFNKSITEMFREECALLBACK callback](..\ks\nc-ks-pfnksitemfreecallback.md) | A streaming minidriver's KStrItemFreeCallback routine is called to free a previously allocated create item. KStrItemFreeCallback allows the minidriver to perform any cleanup, including flushing security descriptor changes, if necessary. |
-| [PFNKSPIN callback](..\ks\nc-ks-pfnkspin.md) | An AVStream minidriver's callback routine is called when |
-| [PFNKSPINFRAMERETURN callback](..\ks\nc-ks-pfnkspinframereturn.md) | An AVStream minidriver's AVStrMiniFrameReturn routine is called when an injected frame has completed its trip around the circuit and is ready to be recycled or freed. |
-| [PFNKSPINHANDSHAKE callback](..\ks\nc-ks-pfnkspinhandshake.md) | An AVStream minidriver's AVStrMiniPinHandshake routine is called when AVStream receives a protocol handshake request that it does not handle. |
-| [PFNKSPININITIALIZEALLOCATOR callback](..\ks\nc-ks-pfnkspininitializeallocator.md) | An AVStream minidriver's AVStrMiniInitializeAllocator routine initializes an allocator that will be associated with a pin. |
-| [PFNKSPINIRP callback](..\ks\nc-ks-pfnkspinirp.md) | An AVStream minidriver's routine is called when an activity on the pin is performed and it receives these IRPs |
-| [PFNKSPINIRPCOMPLETION callback](..\ks\nc-ks-pfnkspinirpcompletion.md) | An AVStream minidriver's AVStrMiniPinIrpCompletion routine is called when an IRP completes a pass around the circuit and the frame that is associated with the IRP is about to be recycled or retired. |
-| [PFNKSPINPOWER callback](..\ks\nc-ks-pfnkspinpower.md) | An AVStream minidriver's AVStrMiniPinPower routine is called for pin-centric pins when the device is waking or entering a sleep state. |
-| [PFNKSPINSETDATAFORMAT callback](..\ks\nc-ks-pfnkspinsetdataformat.md) | An AVStream minidriver's AVStrMiniPinSetDataFormat routine is called at pin creation time to verify that the previously agreed upon data format is acceptable for this KSPIN structure and a match for this KSDATARANGE structure. |
-| [PFNKSPINSETDEVICESTATE callback](..\ks\nc-ks-pfnkspinsetdevicestate.md) | An AVStream minidriver's AVStrMiniPinSetDeviceState routine is called when the state of a KSPIN structure is changed due to the arrival of a connection state property 'set' IOCTL. |
-| [PFNKSPINVOID callback](..\ks\nc-ks-pfnkspinvoid.md) | An AVStream minidriver's callback routine is called when |
-| [PFNKSREMOVEEVENT callback](..\ks\nc-ks-pfnksremoveevent.md) | An AVStream minidriver's AVStrMiniRemoveEvent routine is called when a client requests to be removed from the notification queue for an event. This routine is optional. |
-| [PFNKSSETTIMER callback](..\ks\nc-ks-pfnkssettimer.md) | A streaming minidriver's KStrSetTimer routine is called to generate DPC timer callbacks based on presentation time. |
-| [PFNKSSTREAMPOINTER callback](..\ks\nc-ks-pfnksstreampointer.md) | AVStream calls a minidriver's AVStrMiniCancelCallback routine when the IRP that is associated with a cloned stream pointer is canceled. This routine is optional. |
-| [PFNQUERYREFERENCESTRING callback](..\ks\nc-ks-pfnqueryreferencestring.md) | This routine creates a buffer from the paged pool and copies the reference string associated with the PDO into this buffer. It is the caller's responsibility to free the buffer using ExFreePool. |
-| [PFNQUERYREFERENCESTRING callback](..\swenum\nc-swenum-pfnqueryreferencestring.md) | This routine creates a buffer from the paged pool and copies the reference string associated with the PDO into this buffer. It is the caller's responsibility to free the buffer using ExFreePool. |
-| [PFNREFERENCEDEVICEOBJECT callback](..\ks\nc-ks-pfnreferencedeviceobject.md) | The driver can use this routine to increment the reference count of the PDO. |
-| [PFNREFERENCEDEVICEOBJECT callback](..\swenum\nc-swenum-pfnreferencedeviceobject.md) | The driver can use this routine to increment the reference count of the PDO. |
-| [PFNUSBCAMD_BulkReadWrite callback](..\usbcamdi\nc-usbcamdi-pfnusbcamd_bulkreadwrite.md) | The USBCAMD_BulkReadWrite service performs a read or write operation on the specified bulk pipe. |
-| [PFNUSBCAMD_CancelBulkReadWrite callback](..\usbcamdi\nc-usbcamdi-pfnusbcamd_cancelbulkreadwrite.md) | The USBCAMD_CancelBulkReadWrite service cancels a pending bulk read or write request. |
-| [PFNUSBCAMD_SetIsoPipeState callback](..\usbcamdi\nc-usbcamdi-pfnusbcamd_setisopipestate.md) | The USBCAMD_SetIsoPipeState service permits the camera minidriver to control the streaming state on the isochronous pipe. |
-| [PFNUSBCAMD_SetVideoFormat callback](..\usbcamdi\nc-usbcamdi-pfnusbcamd_setvideoformat.md) | The USBCAMD_SetVideoFormat service is used to notify USBCAMD that the video format has changed. |
-| [PFNUSBCAMD_WaitOnDeviceEvent callback](..\usbcamdi\nc-usbcamdi-pfnusbcamd_waitondeviceevent.md) | The USBCAMD_WaitOnDeviceEvent service is used to perform a read from the interrupt pipe if the camera has an interrupt pipe for external event notifications. |
-| [PHW_CANCEL_SRB callback](..\strmini\nc-strmini-phw_cancel_srb.md) | The class driver calls the minidriver's StrMiniCancelPacket routine to signal that a stream request has been canceled. |
-| [PHW_EVENT_ROUTINE callback](..\strmini\nc-strmini-phw_event_routine.md) | The class driver calls the stream minidriver's StrMiniEvent routine to signal to a minidriver an event should be enabled or disabled. |
-| [PHW_INTERRUPT callback](..\strmini\nc-strmini-phw_interrupt.md) | StrMiniInterrupt is the minidriver's interrupt service routine. |
-| [PHW_PRIORITY_ROUTINE callback](..\strmini\nc-strmini-phw_priority_routine.md) | StrMiniPriorityRoutine is a minidriver-supplied callback routine to be executed at a specified priority level. |
-| [PHW_QUERY_CLOCK_ROUTINE callback](..\strmini\nc-strmini-phw_query_clock_routine.md) | Each stream may have a clock associated to it. The class driver queries the clock by calling the stream minidriver-supplied StrMiniClock function, provided in each stream's HW_STREAM_OBJECT. |
-| [PHW_RECEIVE_DEVICE_SRB callback](..\strmini\nc-strmini-phw_receive_device_srb.md) | The minidriver-supplied routine handles class driver requests that apply to the driver as a whole, such as initializing the device, or opening a stream within the device. |
-| [PHW_REQUEST_TIMEOUT_HANDLER callback](..\strmini\nc-strmini-phw_request_timeout_handler.md) | The stream class driver calls the minidriver's StrMiniRequestTimeout routine to signal to the minidriver that a request has timed out. |
+| [PADAPTER_RECEIVE_PACKET_ROUTINE callback function](..\usbcamdi\nc-usbcamdi-padapter_receive_packet_routine.md) | A camera minidriver's AdapterReceivePacket callback function processes adapter-based stream request blocks (SRBs) passed to it by the stream class driver. |
+| [PCAM_ALLOCATE_BW_ROUTINE callback function](..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine.md) | A camera minidriver's CamAllocateBandwidth callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream. |
+| [PCAM_ALLOCATE_BW_ROUTINE_EX callback function](..\usbcamdi\nc-usbcamdi-pcam_allocate_bw_routine_ex.md) | A camera minidriver's CamAllocateBandwidthEx callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream. |
+| [PCAM_CONFIGURE_ROUTINE callback function](..\usbcamdi\nc-usbcamdi-pcam_configure_routine.md) | A camera minidriver's CamConfigure callback function configures the isochronous streaming interface. |
+| [PCAM_CONFIGURE_ROUTINE_EX callback function](..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md) | A camera minidriver's CamConfigureEx callback function configures the isochronous streaming interface. |
+| [PCAM_FREE_BW_ROUTINE callback function](..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine.md) | A camera minidriver's CamFreeBandwidth callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth. |
+| [PCAM_FREE_BW_ROUTINE_EX callback function](..\usbcamdi\nc-usbcamdi-pcam_free_bw_routine_ex.md) | A camera minidriver's CamFreeBandwidthEx callback function selects an alternate setting within the USB video streaming interface that uses no bandwidth. |
+| [PCAM_INITIALIZE_ROUTINE callback function](..\usbcamdi\nc-usbcamdi-pcam_initialize_routine.md) | A camera minidriver's callback function initializes the device or performs any minidriver-specific clean-up that is required. |
+| [PCAM_NEW_FRAME_ROUTINE callback function](..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine.md) | A camera minidriver's CamNewVideoFrame callback function initializes a new video frame context structure. |
+| [PCAM_NEW_FRAME_ROUTINE_EX callback function](..\usbcamdi\nc-usbcamdi-pcam_new_frame_routine_ex.md) | A camera minidriver's CamNewVideoFrameEx callback function initializes a new video frame context structure. |
+| [PCAM_PROCESS_PACKET_ROUTINE callback function](..\usbcamdi\nc-usbcamdi-pcam_process_packet_routine.md) | A camera minidriver's CamProcessUSBPacket callback function processes a USB packet. |
+| [PCAM_PROCESS_PACKET_ROUTINE_EX callback function](..\usbcamdi\nc-usbcamdi-pcam_process_packet_routine_ex.md) | A camera minidriver's CamProcessUSBPacketEx callback function processes a USB packet. |
+| [PCAM_PROCESS_RAW_FRAME_ROUTINE callback function](..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine.md) | A camera minidriver's CamProcessRawVideoFrame callback function decodes a raw video frame. |
+| [PCAM_PROCESS_RAW_FRAME_ROUTINE_EX callback function](..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md) | A camera minidriver's CamProcessRawVideoFrameEx callback function decodes a raw video frame. |
+| [PCAM_START_CAPTURE_ROUTINE callback function](..\usbcamdi\nc-usbcamdi-pcam_start_capture_routine.md) | A camera minidriver's CamStartCapture callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream. |
+| [PCAM_START_CAPTURE_ROUTINE_EX callback function](..\usbcamdi\nc-usbcamdi-pcam_start_capture_routine_ex.md) | A camera minidriver's CamStartCaptureEx callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream. |
+| [PCAM_STATE_ROUTINE callback function](..\usbcamdi\nc-usbcamdi-pcam_state_routine.md) | A camera minidriver's state callback function restores a previously saved device context state or saves the current device context state. |
+| [PCAM_STOP_CAPTURE_ROUTINE callback function](..\usbcamdi\nc-usbcamdi-pcam_stop_capture_routine.md) | A camera minidriver's CamStopCapture callback function performs any processing after the stream is stopped. |
+| [PCAM_STOP_CAPTURE_ROUTINE_EX callback function](..\usbcamdi\nc-usbcamdi-pcam_stop_capture_routine_ex.md) | A camera minidriver's CamStopCaptureEx callback function performs any processing after the stream is stopped. |
+| [PCOMMAND_COMPLETE_FUNCTION callback function](..\usbcamdi\nc-usbcamdi-pcommand_complete_function.md) | A camera minidriver's CommandCompleteFunction callback function allows the camera minidriver to perform any additional tasks necessary to complete certain USBCAMD services |
+| [PFNALLOCATOR_ALLOCATEFRAME callback function](..\ks\nc-ks-pfnallocator_allocateframe.md) | The KStrAllocateFrame routine describes a vendor-supplied frame allocation function. |
+| [PFNALLOCATOR_FREEFRAME callback function](..\ks\nc-ks-pfnallocator_freeframe.md) | The KStrFreeFrame routine describes a vendor-supplied frame deallocation function. |
+| [PFNDEREFERENCEDEVICEOBJECT callback function](..\ks\nc-ks-pfndereferencedeviceobject.md) | The driver can use this routine to decrement the reference count of the PDO. |
+| [PFNDEREFERENCEDEVICEOBJECT callback function](..\swenum\nc-swenum-pfndereferencedeviceobject.md) | The driver can use this routine to decrement the reference count of the PDO. |
+| [PFNKSADDEVENT callback function](..\ks\nc-ks-pfnksaddevent.md) | An AVStream minidriver's AVStrMiniAddEvent routine is called when a client registers to be notified of an event. This routine is optional. |
+| [PFNKSALLOCATOR callback function](..\ks\nc-ks-pfnksallocator.md) | Minidrivers can optionally supply a callback function of type PFNKSALLOCATOR as a parameter in calls to KsEnableEventWithAllocator, KsPropertyHandlerWithAllocator, and KsMethodHandlerWithAllocator. |
+| [PFNKSCANCELTIMER callback function](..\ks\nc-ks-pfnkscanceltimer.md) | A streaming minidriver's KStrCancelTimer routine is called to cancel a custom timer object that was previously specified in the SetTimer parameter in a call to KsAllocateDefaultClockEx. |
+| [PFNKSCLOCK_CORRELATEDTIME callback function](..\ks\nc-ks-pfnksclock_correlatedtime.md) | The routine is a system-supplied routine that retrieves and the following |
+| [PFNKSCLOCK_GETTIME callback function](..\ks\nc-ks-pfnksclock_gettime.md) | The routine gets system time.KStrClockGetTime is a system-supplied routine that retrieves the current system time.KStrClockGetPhysicalTime is a system-supplied routine that retrieves the current system time minus any suspended delta. |
+| [PFNKSCONTEXT_DISPATCH callback function](..\ks\nc-ks-pfnkscontext_dispatch.md) | A streaming minidriver's KStrContextDispatch routine is called to process IRP_MJ_POWER IRPs. |
+| [PFNKSCORRELATEDTIME callback function](..\ks\nc-ks-pfnkscorrelatedtime.md) | A streaming minidriver's KStrCorrelatedTime routine is called to retrieve both the presentation time and physical time in a correlated manner. This allows the clock owner to completely determine the current time. |
+| [PFNKSDEFAULTALLOCATE callback function](..\ks\nc-ks-pfnksdefaultallocate.md) | An AVStream minidriver's AVStrMiniAllocate routine allocates a frame using the allocator specified in the Context parameter. |
+| [PFNKSDEFAULTFREE callback function](..\ks\nc-ks-pfnksdefaultfree.md) | An AVStream minidriver's AVStrMiniAllocatorFreeFrame routine frees the specified frame. |
+| [PFNKSDELETEALLOCATOR callback function](..\ks\nc-ks-pfnksdeleteallocator.md) | An AVStream minidriver's AVStrMiniDeleteAllocator routine deletes the allocator that is associated with a pin. |
+| [PFNKSDEVICE callback function](..\ks\nc-ks-pfnksdevice.md) | An AVStream minidriver's AVStrMiniDevicePostStart routine is called when AVStream performs post-PnP-start processing. Use it to load drivers at start time, for example. Such events then will occur in the context of a worker thread after PnP start. |
+| [PFNKSDEVICECREATE callback function](..\ks\nc-ks-pfnksdevicecreate.md) | An AVStream minidriver's AVStrMiniDeviceAdd routine notifies the minidriver that AVStream's PnP AddDevice routine has completed. |
+| [PFNKSDEVICEIRP callback function](..\ks\nc-ks-pfnksdeviceirp.md) | An AVStream minidriver's IRP handler routine is called when these IRPs is dispatched by the device.IRP_MN_QUERY_REMOVE_DEVICEIRP_MN_QUERY_STOP_DEVICEIRP_MN_QUERY_INTERFACE |
+| [PFNKSDEVICEIRPVOID callback function](..\ks\nc-ks-pfnksdeviceirpvoid.md) | An AVStream minidriver's IRP handling routine is called when these IRPs are dispatched by the device.IRP_MN_CANCEL_STOP_DEVICEIRP_MN_CANCEL_REMOVE_DEVICEIRP_MN_REMOVE_DEVICEIRP_MN_STOP_DEVICEIRP_MN_SURPRISE_REMOVAL |
+| [PFNKSDEVICEPNPSTART callback function](..\ks\nc-ks-pfnksdevicepnpstart.md) | An AVStream minidriver's AVStrMiniDeviceStart routine is called when an IRP_MN_START_DEVICE request is sent for a specified device. |
+| [PFNKSDEVICEQUERYCAPABILITIES callback function](..\ks\nc-ks-pfnksdevicequerycapabilities.md) | An AVStream minidriver's AVStrMiniDeviceQueryCapabilities routine is called when an IRP_MN_QUERY_CAPABILITIES is dispatched by the device. |
+| [PFNKSDEVICEQUERYPOWER callback function](..\ks\nc-ks-pfnksdevicequerypower.md) | AVStream calls a minidriver's AVStrMiniDeviceQueryPower routine when it receives an IRP_MN_QUERY_POWER request. |
+| [PFNKSDEVICESETPOWER callback function](..\ks\nc-ks-pfnksdevicesetpower.md) | AVStream calls a minidriver's AVStrMiniDeviceSetPower routine when it receives an IRP_MN_SET_POWER. |
+| [PFNKSFASTHANDLER callback function](..\ks\nc-ks-pfnksfasthandler.md) | KStrFastHandler is a driver-supplied routine that handles a property or method request without the creation of an IRP. |
+| [PFNKSFILTERIRP callback function](..\ks\nc-ks-pfnksfilterirp.md) | An AVStream minidriver's AVStrMiniFilterCreate routine is called when a filter receives an IRP. |
+| [PFNKSFILTERPROCESS callback function](..\ks\nc-ks-pfnksfilterprocess.md) | An AVStream minidriver's AVStrMiniFilterProcess routine is called when the filter is meant to process frames. It is used to perform Filter-Centric Processing. |
+| [PFNKSFILTERVOID callback function](..\ks\nc-ks-pfnksfiltervoid.md) | An AVStream minidriver's AVStrMiniFilterReset routine is called when AVStream receives an IOCTL_KS_RESET_STATE to return the filter to the state it was in at Acquire-time. |
+| [PFNKSHANDLER callback function](..\ks\nc-ks-pfnkshandler.md) | The minidriver-provided routine is called when Kernel Streaming receives an IOCTL_KS_METHOD, get/set property request. Provide a pointer to this handler in the relevant KSMETHOD_ITEM, KSPROPERTY_ITEM structure. |
+| [PFNKSINTERSECTHANDLER callback function](..\ks\nc-ks-pfnksintersecthandler.md) | A streaming minidriver's KStrIntersectHandler routine is called to compare a data range to determine if there is an intersection, and if so, the data format of the intersection. |
+| [PFNKSINTERSECTHANDLEREX callback function](..\ks\nc-ks-pfnksintersecthandlerex.md) | AVStream calls a minidriver's AVStrMiniIntersectHandlerEx routine to determine the highest quality intersection of two data ranges. |
+| [PFNKSIRPLISTCALLBACK callback function](..\ks\nc-ks-pfnksirplistcallback.md) | A streaming minidriver's KStrIrpListCallback routine is called to determine whether the passed in IRP should be moved from the source list to the destination list, or if IRP enumeration should be terminated. |
+| [PFNKSITEMFREECALLBACK callback function](..\ks\nc-ks-pfnksitemfreecallback.md) | A streaming minidriver's KStrItemFreeCallback routine is called to free a previously allocated create item. KStrItemFreeCallback allows the minidriver to perform any cleanup, including flushing security descriptor changes, if necessary. |
+| [PFNKSPIN callback function](..\ks\nc-ks-pfnkspin.md) | An AVStream minidriver's callback routine is called when |
+| [PFNKSPINFRAMERETURN callback function](..\ks\nc-ks-pfnkspinframereturn.md) | An AVStream minidriver's AVStrMiniFrameReturn routine is called when an injected frame has completed its trip around the circuit and is ready to be recycled or freed. |
+| [PFNKSPINHANDSHAKE callback function](..\ks\nc-ks-pfnkspinhandshake.md) | An AVStream minidriver's AVStrMiniPinHandshake routine is called when AVStream receives a protocol handshake request that it does not handle. |
+| [PFNKSPININITIALIZEALLOCATOR callback function](..\ks\nc-ks-pfnkspininitializeallocator.md) | An AVStream minidriver's AVStrMiniInitializeAllocator routine initializes an allocator that will be associated with a pin. |
+| [PFNKSPINIRP callback function](..\ks\nc-ks-pfnkspinirp.md) | An AVStream minidriver's routine is called when an activity on the pin is performed and it receives these IRPs |
+| [PFNKSPINIRPCOMPLETION callback function](..\ks\nc-ks-pfnkspinirpcompletion.md) | An AVStream minidriver's AVStrMiniPinIrpCompletion routine is called when an IRP completes a pass around the circuit and the frame that is associated with the IRP is about to be recycled or retired. |
+| [PFNKSPINPOWER callback function](..\ks\nc-ks-pfnkspinpower.md) | An AVStream minidriver's AVStrMiniPinPower routine is called for pin-centric pins when the device is waking or entering a sleep state. |
+| [PFNKSPINSETDATAFORMAT callback function](..\ks\nc-ks-pfnkspinsetdataformat.md) | An AVStream minidriver's AVStrMiniPinSetDataFormat routine is called at pin creation time to verify that the previously agreed upon data format is acceptable for this KSPIN structure and a match for this KSDATARANGE structure. |
+| [PFNKSPINSETDEVICESTATE callback function](..\ks\nc-ks-pfnkspinsetdevicestate.md) | An AVStream minidriver's AVStrMiniPinSetDeviceState routine is called when the state of a KSPIN structure is changed due to the arrival of a connection state property 'set' IOCTL. |
+| [PFNKSPINVOID callback function](..\ks\nc-ks-pfnkspinvoid.md) | An AVStream minidriver's callback routine is called when |
+| [PFNKSREMOVEEVENT callback function](..\ks\nc-ks-pfnksremoveevent.md) | An AVStream minidriver's AVStrMiniRemoveEvent routine is called when a client requests to be removed from the notification queue for an event. This routine is optional. |
+| [PFNKSSETTIMER callback function](..\ks\nc-ks-pfnkssettimer.md) | A streaming minidriver's KStrSetTimer routine is called to generate DPC timer callbacks based on presentation time. |
+| [PFNKSSTREAMPOINTER callback function](..\ks\nc-ks-pfnksstreampointer.md) | AVStream calls a minidriver's AVStrMiniCancelCallback routine when the IRP that is associated with a cloned stream pointer is canceled. This routine is optional. |
+| [PFNQUERYREFERENCESTRING callback function](..\ks\nc-ks-pfnqueryreferencestring.md) | This routine creates a buffer from the paged pool and copies the reference string associated with the PDO into this buffer. It is the caller's responsibility to free the buffer using ExFreePool. |
+| [PFNQUERYREFERENCESTRING callback function](..\swenum\nc-swenum-pfnqueryreferencestring.md) | This routine creates a buffer from the paged pool and copies the reference string associated with the PDO into this buffer. It is the caller's responsibility to free the buffer using ExFreePool. |
+| [PFNREFERENCEDEVICEOBJECT callback function](..\ks\nc-ks-pfnreferencedeviceobject.md) | The driver can use this routine to increment the reference count of the PDO. |
+| [PFNREFERENCEDEVICEOBJECT callback function](..\swenum\nc-swenum-pfnreferencedeviceobject.md) | The driver can use this routine to increment the reference count of the PDO. |
+| [PFNUSBCAMD_BulkReadWrite callback function](..\usbcamdi\nc-usbcamdi-pfnusbcamd_bulkreadwrite.md) | The USBCAMD_BulkReadWrite service performs a read or write operation on the specified bulk pipe. |
+| [PFNUSBCAMD_CancelBulkReadWrite callback function](..\usbcamdi\nc-usbcamdi-pfnusbcamd_cancelbulkreadwrite.md) | The USBCAMD_CancelBulkReadWrite service cancels a pending bulk read or write request. |
+| [PFNUSBCAMD_SetIsoPipeState callback function](..\usbcamdi\nc-usbcamdi-pfnusbcamd_setisopipestate.md) | The USBCAMD_SetIsoPipeState service permits the camera minidriver to control the streaming state on the isochronous pipe. |
+| [PFNUSBCAMD_SetVideoFormat callback function](..\usbcamdi\nc-usbcamdi-pfnusbcamd_setvideoformat.md) | The USBCAMD_SetVideoFormat service is used to notify USBCAMD that the video format has changed. |
+| [PFNUSBCAMD_WaitOnDeviceEvent callback function](..\usbcamdi\nc-usbcamdi-pfnusbcamd_waitondeviceevent.md) | The USBCAMD_WaitOnDeviceEvent service is used to perform a read from the interrupt pipe if the camera has an interrupt pipe for external event notifications. |
+| [PHW_CANCEL_SRB callback function](..\strmini\nc-strmini-phw_cancel_srb.md) | The class driver calls the minidriver's StrMiniCancelPacket routine to signal that a stream request has been canceled. |
+| [PHW_EVENT_ROUTINE callback function](..\strmini\nc-strmini-phw_event_routine.md) | The class driver calls the stream minidriver's StrMiniEvent routine to signal to a minidriver an event should be enabled or disabled. |
+| [PHW_INTERRUPT callback function](..\strmini\nc-strmini-phw_interrupt.md) | StrMiniInterrupt is the minidriver's interrupt service routine. |
+| [PHW_PRIORITY_ROUTINE callback function](..\strmini\nc-strmini-phw_priority_routine.md) | StrMiniPriorityRoutine is a minidriver-supplied callback routine to be executed at a specified priority level. |
+| [PHW_QUERY_CLOCK_ROUTINE callback function](..\strmini\nc-strmini-phw_query_clock_routine.md) | Each stream may have a clock associated to it. The class driver queries the clock by calling the stream minidriver-supplied StrMiniClock function, provided in each stream's HW_STREAM_OBJECT. |
+| [PHW_RECEIVE_DEVICE_SRB callback function](..\strmini\nc-strmini-phw_receive_device_srb.md) | The minidriver-supplied routine handles class driver requests that apply to the driver as a whole, such as initializing the device, or opening a stream within the device. |
+| [PHW_REQUEST_TIMEOUT_HANDLER callback function](..\strmini\nc-strmini-phw_request_timeout_handler.md) | The stream class driver calls the minidriver's StrMiniRequestTimeout routine to signal to the minidriver that a request has timed out. |
 
 ## Structures
 
@@ -801,76 +801,76 @@ For the programming guide, see [Streaming media devices](https://docs.microsoft.
 
 | Title   | Description   |
 | ---- |:---- |
-| [IKsAggregateControl::KsAddAggregate method](..\ksproxy\nf-ksproxy-iksaggregatecontrol-ksaddaggregate.md) | The KsAddAggregate method adds a COM server as an aggregate provider to the list of interface providers for the KS object that exposes the IKsAggregateControl interface. |
-| [IKsAggregateControl::KsRemoveAggregate method](..\ksproxy\nf-ksproxy-iksaggregatecontrol-ksremoveaggregate.md) | The KsRemoveAggregate method removes a previously added COM server aggregate provider from the list of interface providers for the KS object that exposes the IKsAggregateControl interface. |
-| [IKsAllocator::KsGetAllocatorHandle method](..\ksproxy\nf-ksproxy-iksallocator-ksgetallocatorhandle.md) | Retrieves a file handle to an allocator. |
-| [IKsAllocator::KsGetAllocatorMode method](..\ksproxy\nf-ksproxy-iksallocator-ksgetallocatormode.md) | Returns the mode in which an allocator allocates memory. |
-| [IKsAllocator::KsGetAllocatorStatus method](..\ksproxy\nf-ksproxy-iksallocator-ksgetallocatorstatus.md) | Retrieves the status of an allocator. |
-| [IKsAllocator::KsSetAllocatorMode method](..\ksproxy\nf-ksproxy-iksallocator-kssetallocatormode.md) | Sets the mode in which an allocator allocates memory. |
-| [IKsAllocatorEx::KsGetProperties method](..\ksproxy\nf-ksproxy-iksallocatorex-ksgetproperties.md) | Returns the properties for an allocator. |
-| [IKsAllocatorEx::KsSetAllocatorHandle method](..\ksproxy\nf-ksproxy-iksallocatorex-kssetallocatorhandle.md) | Sets the handle for an allocator. |
-| [IKsAllocatorEx::KsSetProperties method](..\ksproxy\nf-ksproxy-iksallocatorex-kssetproperties.md) | Sets the properties for an allocator. |
-| [IKsClockPropertySet::KsGetCorrelatedPhysicalTime method](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgetcorrelatedphysicaltime.md) | The KsGetCorrelatedPhysicalTime method retrieves the physical time and the correlated system time from the underlying clock. |
-| [IKsClockPropertySet::KsGetCorrelatedTime method](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgetcorrelatedtime.md) | The KsGetCorrelatedTime method retrieves the current time and the correlated system time from the underlying clock. |
-| [IKsClockPropertySet::KsGetPhysicalTime method](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgetphysicaltime.md) | The KsGetPhysicalTime method retrieves the physical time from the underlying clock. |
-| [IKsClockPropertySet::KsGetResolution method](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgetresolution.md) | The KsGetResolution method retrieves the clock resolution from the underlying clock. |
-| [IKsClockPropertySet::KsGetState method](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgetstate.md) | The KsGetState method retrieves the streaming state of a pin from the underlying clock. |
-| [IKsClockPropertySet::KsGetTime method](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgettime.md) | The KsGetTime method retrieves the time of the underlying clock. |
-| [IKsClockPropertySet::KsSetCorrelatedPhysicalTime method](..\ksproxy\nf-ksproxy-iksclockpropertyset-kssetcorrelatedphysicaltime.md) | The KsSetCorrelatedPhysicalTime method sets the physical time with the correlated system time on the underlying clock. |
-| [IKsClockPropertySet::KsSetCorrelatedTime method](..\ksproxy\nf-ksproxy-iksclockpropertyset-kssetcorrelatedtime.md) | The KsSetCorrelatedTime method sets the current time with the correlated system time on the underlying clock. |
-| [IKsClockPropertySet::KsSetPhysicalTime method](..\ksproxy\nf-ksproxy-iksclockpropertyset-kssetphysicaltime.md) | The KsSetPhysicalTime method sets the physical time on the underlying clock. |
-| [IKsClockPropertySet::KsSetTime method](..\ksproxy\nf-ksproxy-iksclockpropertyset-kssettime.md) | The KsSetTime method sets the current time on the underlying clock. |
-| [IKsControl::KsEvent method](..\ks\nf-ks-ikscontrol-ksevent.md) | The IKsControl |
-| [IKsControl::KsEvent method](..\ksproxy\nf-ksproxy-ikscontrol-ksevent.md) | The KsEvent method enables or disables an event, along with any other defined support operations available on an event set. |
-| [IKsControl::KsMethod method](..\ks\nf-ks-ikscontrol-ksmethod.md) | The IKsControl |
-| [IKsControl::KsMethod method](..\ksproxy\nf-ksproxy-ikscontrol-ksmethod.md) | The KsMethod method sends a method to a KS object, along with any other defined support operations available on a method set. |
-| [IKsControl::KsProperty method](..\ks\nf-ks-ikscontrol-ksproperty.md) | The IKsControl |
-| [IKsControl::KsProperty method](..\ksproxy\nf-ksproxy-ikscontrol-ksproperty.md) | The KsProperty method sets a property or retrieves property information, along with any other defined support operations available on a property set. |
-| [IKsDataTypeCompletion::KsCompleteMediaType method](..\ksproxy\nf-ksproxy-iksdatatypecompletion-kscompletemediatype.md) | The KsCompleteMediaType method completes a partially-specified media type that was first presented to the IAMStreamConfig |
-| [IKsDataTypeHandler::KsCompleteIoOperation method](..\ksproxy\nf-ksproxy-iksdatatypehandler-kscompleteiooperation.md) | The KsCompleteIoOperation method cleans up the extended header and completes the input and output (I/O) operation. |
-| [IKsDataTypeHandler::KsIsMediaTypeInRanges method](..\ksproxy\nf-ksproxy-iksdatatypehandler-ksismediatypeinranges.md) | The KsIsMediaTypeInRanges method validates that a media type is within the provided data ranges. |
-| [IKsDataTypeHandler::KsPrepareIoOperation method](..\ksproxy\nf-ksproxy-iksdatatypehandler-ksprepareiooperation.md) | The KsPrepareIoOperation method initializes the extended header and prepares the media sample for an I/O operation. |
-| [IKsDataTypeHandler::KsQueryExtendedSize method](..\ksproxy\nf-ksproxy-iksdatatypehandler-ksqueryextendedsize.md) | The KsQueryExtendedSize method retrieves extended header information required for input and output (I/O) operations. |
-| [IKsDataTypeHandler::KsSetMediaType method](..\ksproxy\nf-ksproxy-iksdatatypehandler-kssetmediatype.md) | The KsSetMediaType method sets the media type for a data type handler. |
-| [IKsDeviceFunctions::RegisterAdapterObjectEx method](..\ks\nf-ks-iksdevicefunctions-registeradapterobjectex.md) | The IKsDeviceFunctions |
-| [IKsInterfaceHandler::KsCompleteIo method](..\ksproxy\nf-ksproxy-iksinterfacehandler-kscompleteio.md) | The KsCompleteIo method cleans up extended headers and releases media samples after input and output (I/O) complete. |
-| [IKsInterfaceHandler::KsProcessMediaSamples method](..\ksproxy\nf-ksproxy-iksinterfacehandler-ksprocessmediasamples.md) | The KsProcessMediaSamples method processes media samples. |
-| [IKsInterfaceHandler::KsSetPin method](..\ksproxy\nf-ksproxy-iksinterfacehandler-kssetpin.md) | The KsSetPin method informs the streaming interface handler about the pin with which to communicate when passing data. |
-| [IKsNotifyEvent::KsNotifyEvent method](..\ksproxy\nf-ksproxy-iksnotifyevent-ksnotifyevent.md) | The KsNotifyEvent method requests that the KS object that owns the given DirectShow event notify the calling application with the given parameters whenever action related to the event occurs. |
-| [IKsObject::KsGetObjectHandle method](..\ksproxy\nf-ksproxy-iksobject-ksgetobjecthandle.md) | The KsGetObjectHandle method retrieves a file handle to a KS object. |
-| [IKsPin::KsCreateSinkPinHandle method](..\ksproxy\nf-ksproxy-ikspin-kscreatesinkpinhandle.md) | The KsCreateSinkPinHandle method creates a pin handle and stores it in the KS pin object. |
-| [IKsPin::KsDecrementPendingIoCount method](..\ksproxy\nf-ksproxy-ikspin-ksdecrementpendingiocount.md) | The KsDecrementPendingIoCount method decrements the number of input/output (I/O) operations that are in progress on a pin. |
-| [IKsPin::KsDeliver method](..\ksproxy\nf-ksproxy-ikspin-ksdeliver.md) | The KsDeliver method delivers a media sample from an output pin to an input pin, continues an I/O operation by retrieving the next buffer from an allocator, and submits the buffer to the associated device. |
-| [IKsPin::KsGetCurrentCommunication method](..\ksproxy\nf-ksproxy-ikspin-ksgetcurrentcommunication.md) | The KsGetCurrentCommunication method retrieves the current communication direction, interface, and medium of a pin. |
-| [IKsPin::KsIncrementPendingIoCount method](..\ksproxy\nf-ksproxy-ikspin-ksincrementpendingiocount.md) | The KsIncrementPendingIoCount method increments the number of input/output (I/O) operations that are in progress on a pin. |
-| [IKsPin::KsMediaSamplesCompleted method](..\ksproxy\nf-ksproxy-ikspin-ksmediasamplescompleted.md) | The KsMediaSamplesCompleted method informs a pin that a stream segment completed. |
-| [IKsPin::KsPeekAllocator method](..\ksproxy\nf-ksproxy-ikspin-kspeekallocator.md) | The KsPeekAllocator method returns a pointer to an IMemAllocator interface for a pin's assigned allocator. |
-| [IKsPin::KsPropagateAcquire method](..\ksproxy\nf-ksproxy-ikspin-kspropagateacquire.md) | The KsPropagateAcquire method directs all the pins on the filter to attain the Acquire state. |
-| [IKsPin::KsQueryInterfaces method](..\ksproxy\nf-ksproxy-ikspin-ksqueryinterfaces.md) | The KsQueryInterfaces method retrieves interfaces that a pin supports. |
-| [IKsPin::KsQueryMediums method](..\ksproxy\nf-ksproxy-ikspin-ksquerymediums.md) | The KsQueryMediums method retrieves mediums that a pin supports. |
-| [IKsPinEx::KsNotifyError method](..\ksproxy\nf-ksproxy-ikspinex-ksnotifyerror.md) | The KsNotifyError method notifies the filter graph of an error to give the filter graph an opportunity to halt. |
-| [IKsPinFactory::KsPinFactory method](..\ksproxy\nf-ksproxy-ikspinfactory-kspinfactory.md) | The KsPinFactory method retrieves the identifier of a pin factory. |
-| [IKsPinPipe::KsGetConnectedPin method](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetconnectedpin.md) | Not recommended for application use. |
-| [IKsPinPipe::KsGetFilterName method](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetfiltername.md) | Returns the name of a filter. |
-| [IKsPinPipe::KsGetPinBusCache method](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetpinbuscache.md) | Not recommended for application use. |
-| [IKsPinPipe::KsGetPinFramingCache method](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetpinframingcache.md) | Not recommended for application use. |
-| [IKsPinPipe::KsGetPinName method](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetpinname.md) | Returns the name of a pin. |
-| [IKsPinPipe::KsGetPipe method](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetpipe.md) | Not recommended for application use. |
-| [IKsPinPipe::KsGetPipeAllocatorFlag method](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetpipeallocatorflag.md) | Not recommended for application use. |
-| [IKsPinPipe::KsSetPinBusCache method](..\ksproxy\nf-ksproxy-ikspinpipe-kssetpinbuscache.md) | Not recommended for application use. |
-| [IKsPinPipe::KsSetPinFramingCache method](..\ksproxy\nf-ksproxy-ikspinpipe-kssetpinframingcache.md) | Not recommended for application use. |
-| [IKsPinPipe::KsSetPipe method](..\ksproxy\nf-ksproxy-ikspinpipe-kssetpipe.md) | Not recommended for application use. |
-| [IKsPinPipe::KsSetPipeAllocatorFlag method](..\ksproxy\nf-ksproxy-ikspinpipe-kssetpipeallocatorflag.md) | Not recommended for application use. |
-| [IKsPropertySet::Get method](..\dsound\nf-dsound-ikspropertyset-get.md) | The Get method retrieves a property identified by a property-set GUID and a property identifier. |
-| [IKsPropertySet::Get method](..\ksproxy\nf-ksproxy-ikspropertyset-get.md) | The Get method retrieves a property identified by a property-set GUID and a property identifier. |
-| [IKsPropertySet::QuerySupported method](..\ksproxy\nf-ksproxy-ikspropertyset-querysupported.md) | The QuerySupported method determines whether a KS object supports a property set and the type of that support. |
-| [IKsPropertySet::Set method](..\dsound\nf-dsound-ikspropertyset-set.md) | The Set method sets a property identified by a property-set GUID and a property identifier. |
-| [IKsPropertySet::Set method](..\ksproxy\nf-ksproxy-ikspropertyset-set.md) | The Set method sets a property identified by a property-set GUID and a property identifier. |
-| [IKsQualityForwarder::KsFlushClient method](..\ksproxy\nf-ksproxy-iksqualityforwarder-ksflushclient.md) | The KsFlushClient method flushes information from a pin. |
-| [IKsReferenceClock::GetCorrelatedPhysicalTime method](..\ks\nf-ks-iksreferenceclock-getcorrelatedphysicaltime.md) | The IKsReferenceClock |
-| [IKsReferenceClock::GetCorrelatedTime method](..\ks\nf-ks-iksreferenceclock-getcorrelatedtime.md) | The IKsReferenceClock |
-| [IKsReferenceClock::GetPhysicalTime method](..\ks\nf-ks-iksreferenceclock-getphysicaltime.md) | The IKsReferenceClock |
-| [IKsReferenceClock::GetResolution method](..\ks\nf-ks-iksreferenceclock-getresolution.md) | The IKsReferenceClock |
-| [IKsReferenceClock::GetState method](..\ks\nf-ks-iksreferenceclock-getstate.md) | The IKsReferenceClock |
-| [IKsReferenceClock::GetTime method](..\ks\nf-ks-iksreferenceclock-gettime.md) | The IKsReferenceClock |
-| [IKsTopology::CreateNodeInstance method](..\ksproxy\nf-ksproxy-ikstopology-createnodeinstance.md) | The CreateNodeInstance method requests a KS filter object to open a topology node object. |
+| [IKsAggregateControl::KsAddAggregate](..\ksproxy\nf-ksproxy-iksaggregatecontrol-ksaddaggregate.md) | The KsAddAggregate method adds a COM server as an aggregate provider to the list of interface providers for the KS object that exposes the IKsAggregateControl interface. |
+| [IKsAggregateControl::KsRemoveAggregate](..\ksproxy\nf-ksproxy-iksaggregatecontrol-ksremoveaggregate.md) | The KsRemoveAggregate method removes a previously added COM server aggregate provider from the list of interface providers for the KS object that exposes the IKsAggregateControl interface. |
+| [IKsAllocator::KsGetAllocatorHandle](..\ksproxy\nf-ksproxy-iksallocator-ksgetallocatorhandle.md) | Retrieves a file handle to an allocator. |
+| [IKsAllocator::KsGetAllocatorMode](..\ksproxy\nf-ksproxy-iksallocator-ksgetallocatormode.md) | Returns the mode in which an allocator allocates memory. |
+| [IKsAllocator::KsGetAllocatorStatus](..\ksproxy\nf-ksproxy-iksallocator-ksgetallocatorstatus.md) | Retrieves the status of an allocator. |
+| [IKsAllocator::KsSetAllocatorMode](..\ksproxy\nf-ksproxy-iksallocator-kssetallocatormode.md) | Sets the mode in which an allocator allocates memory. |
+| [IKsAllocatorEx::KsGetProperties](..\ksproxy\nf-ksproxy-iksallocatorex-ksgetproperties.md) | Returns the properties for an allocator. |
+| [IKsAllocatorEx::KsSetAllocatorHandle](..\ksproxy\nf-ksproxy-iksallocatorex-kssetallocatorhandle.md) | Sets the handle for an allocator. |
+| [IKsAllocatorEx::KsSetProperties](..\ksproxy\nf-ksproxy-iksallocatorex-kssetproperties.md) | Sets the properties for an allocator. |
+| [IKsClockPropertySet::KsGetCorrelatedPhysicalTime](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgetcorrelatedphysicaltime.md) | The KsGetCorrelatedPhysicalTime method retrieves the physical time and the correlated system time from the underlying clock. |
+| [IKsClockPropertySet::KsGetCorrelatedTime](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgetcorrelatedtime.md) | The KsGetCorrelatedTime method retrieves the current time and the correlated system time from the underlying clock. |
+| [IKsClockPropertySet::KsGetPhysicalTime](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgetphysicaltime.md) | The KsGetPhysicalTime method retrieves the physical time from the underlying clock. |
+| [IKsClockPropertySet::KsGetResolution](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgetresolution.md) | The KsGetResolution method retrieves the clock resolution from the underlying clock. |
+| [IKsClockPropertySet::KsGetState](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgetstate.md) | The KsGetState method retrieves the streaming state of a pin from the underlying clock. |
+| [IKsClockPropertySet::KsGetTime](..\ksproxy\nf-ksproxy-iksclockpropertyset-ksgettime.md) | The KsGetTime method retrieves the time of the underlying clock. |
+| [IKsClockPropertySet::KsSetCorrelatedPhysicalTime](..\ksproxy\nf-ksproxy-iksclockpropertyset-kssetcorrelatedphysicaltime.md) | The KsSetCorrelatedPhysicalTime method sets the physical time with the correlated system time on the underlying clock. |
+| [IKsClockPropertySet::KsSetCorrelatedTime](..\ksproxy\nf-ksproxy-iksclockpropertyset-kssetcorrelatedtime.md) | The KsSetCorrelatedTime method sets the current time with the correlated system time on the underlying clock. |
+| [IKsClockPropertySet::KsSetPhysicalTime](..\ksproxy\nf-ksproxy-iksclockpropertyset-kssetphysicaltime.md) | The KsSetPhysicalTime method sets the physical time on the underlying clock. |
+| [IKsClockPropertySet::KsSetTime](..\ksproxy\nf-ksproxy-iksclockpropertyset-kssettime.md) | The KsSetTime method sets the current time on the underlying clock. |
+| [IKsControl::KsEvent](..\ks\nf-ks-ikscontrol-ksevent.md) | The IKsControl |
+| [IKsControl::KsEvent](..\ksproxy\nf-ksproxy-ikscontrol-ksevent.md) | The KsEvent method enables or disables an event, along with any other defined support operations available on an event set. |
+| [IKsControl::KsMethod](..\ks\nf-ks-ikscontrol-ksmethod.md) | The IKsControl |
+| [IKsControl::KsMethod](..\ksproxy\nf-ksproxy-ikscontrol-ksmethod.md) | The KsMethod method sends a method to a KS object, along with any other defined support operations available on a method set. |
+| [IKsControl::KsProperty](..\ks\nf-ks-ikscontrol-ksproperty.md) | The IKsControl |
+| [IKsControl::KsProperty](..\ksproxy\nf-ksproxy-ikscontrol-ksproperty.md) | The KsProperty method sets a property or retrieves property information, along with any other defined support operations available on a property set. |
+| [IKsDataTypeCompletion::KsCompleteMediaType](..\ksproxy\nf-ksproxy-iksdatatypecompletion-kscompletemediatype.md) | The KsCompleteMediaType method completes a partially-specified media type that was first presented to the IAMStreamConfig |
+| [IKsDataTypeHandler::KsCompleteIoOperation](..\ksproxy\nf-ksproxy-iksdatatypehandler-kscompleteiooperation.md) | The KsCompleteIoOperation method cleans up the extended header and completes the input and output (I/O) operation. |
+| [IKsDataTypeHandler::KsIsMediaTypeInRanges](..\ksproxy\nf-ksproxy-iksdatatypehandler-ksismediatypeinranges.md) | The KsIsMediaTypeInRanges method validates that a media type is within the provided data ranges. |
+| [IKsDataTypeHandler::KsPrepareIoOperation](..\ksproxy\nf-ksproxy-iksdatatypehandler-ksprepareiooperation.md) | The KsPrepareIoOperation method initializes the extended header and prepares the media sample for an I/O operation. |
+| [IKsDataTypeHandler::KsQueryExtendedSize](..\ksproxy\nf-ksproxy-iksdatatypehandler-ksqueryextendedsize.md) | The KsQueryExtendedSize method retrieves extended header information required for input and output (I/O) operations. |
+| [IKsDataTypeHandler::KsSetMediaType](..\ksproxy\nf-ksproxy-iksdatatypehandler-kssetmediatype.md) | The KsSetMediaType method sets the media type for a data type handler. |
+| [IKsDeviceFunctions::RegisterAdapterObjectEx](..\ks\nf-ks-iksdevicefunctions-registeradapterobjectex.md) | The IKsDeviceFunctions |
+| [IKsInterfaceHandler::KsCompleteIo](..\ksproxy\nf-ksproxy-iksinterfacehandler-kscompleteio.md) | The KsCompleteIo method cleans up extended headers and releases media samples after input and output (I/O) complete. |
+| [IKsInterfaceHandler::KsProcessMediaSamples](..\ksproxy\nf-ksproxy-iksinterfacehandler-ksprocessmediasamples.md) | The KsProcessMediaSamples method processes media samples. |
+| [IKsInterfaceHandler::KsSetPin](..\ksproxy\nf-ksproxy-iksinterfacehandler-kssetpin.md) | The KsSetPin method informs the streaming interface handler about the pin with which to communicate when passing data. |
+| [IKsNotifyEvent::KsNotifyEvent](..\ksproxy\nf-ksproxy-iksnotifyevent-ksnotifyevent.md) | The KsNotifyEvent method requests that the KS object that owns the given DirectShow event notify the calling application with the given parameters whenever action related to the event occurs. |
+| [IKsObject::KsGetObjectHandle](..\ksproxy\nf-ksproxy-iksobject-ksgetobjecthandle.md) | The KsGetObjectHandle method retrieves a file handle to a KS object. |
+| [IKsPin::KsCreateSinkPinHandle](..\ksproxy\nf-ksproxy-ikspin-kscreatesinkpinhandle.md) | The KsCreateSinkPinHandle method creates a pin handle and stores it in the KS pin object. |
+| [IKsPin::KsDecrementPendingIoCount](..\ksproxy\nf-ksproxy-ikspin-ksdecrementpendingiocount.md) | The KsDecrementPendingIoCount method decrements the number of input/output (I/O) operations that are in progress on a pin. |
+| [IKsPin::KsDeliver](..\ksproxy\nf-ksproxy-ikspin-ksdeliver.md) | The KsDeliver method delivers a media sample from an output pin to an input pin, continues an I/O operation by retrieving the next buffer from an allocator, and submits the buffer to the associated device. |
+| [IKsPin::KsGetCurrentCommunication](..\ksproxy\nf-ksproxy-ikspin-ksgetcurrentcommunication.md) | The KsGetCurrentCommunication method retrieves the current communication direction, interface, and medium of a pin. |
+| [IKsPin::KsIncrementPendingIoCount](..\ksproxy\nf-ksproxy-ikspin-ksincrementpendingiocount.md) | The KsIncrementPendingIoCount method increments the number of input/output (I/O) operations that are in progress on a pin. |
+| [IKsPin::KsMediaSamplesCompleted](..\ksproxy\nf-ksproxy-ikspin-ksmediasamplescompleted.md) | The KsMediaSamplesCompleted method informs a pin that a stream segment completed. |
+| [IKsPin::KsPeekAllocator](..\ksproxy\nf-ksproxy-ikspin-kspeekallocator.md) | The KsPeekAllocator method returns a pointer to an IMemAllocator interface for a pin's assigned allocator. |
+| [IKsPin::KsPropagateAcquire](..\ksproxy\nf-ksproxy-ikspin-kspropagateacquire.md) | The KsPropagateAcquire method directs all the pins on the filter to attain the Acquire state. |
+| [IKsPin::KsQueryInterfaces](..\ksproxy\nf-ksproxy-ikspin-ksqueryinterfaces.md) | The KsQueryInterfaces method retrieves interfaces that a pin supports. |
+| [IKsPin::KsQueryMediums](..\ksproxy\nf-ksproxy-ikspin-ksquerymediums.md) | The KsQueryMediums method retrieves mediums that a pin supports. |
+| [IKsPinEx::KsNotifyError](..\ksproxy\nf-ksproxy-ikspinex-ksnotifyerror.md) | The KsNotifyError method notifies the filter graph of an error to give the filter graph an opportunity to halt. |
+| [IKsPinFactory::KsPinFactory](..\ksproxy\nf-ksproxy-ikspinfactory-kspinfactory.md) | The KsPinFactory method retrieves the identifier of a pin factory. |
+| [IKsPinPipe::KsGetConnectedPin](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetconnectedpin.md) | Not recommended for application use. |
+| [IKsPinPipe::KsGetFilterName](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetfiltername.md) | Returns the name of a filter. |
+| [IKsPinPipe::KsGetPinBusCache](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetpinbuscache.md) | Not recommended for application use. |
+| [IKsPinPipe::KsGetPinFramingCache](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetpinframingcache.md) | Not recommended for application use. |
+| [IKsPinPipe::KsGetPinName](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetpinname.md) | Returns the name of a pin. |
+| [IKsPinPipe::KsGetPipeAllocatorFlag](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetpipeallocatorflag.md) | Not recommended for application use. |
+| [IKsPinPipe::KsGetPipe](..\ksproxy\nf-ksproxy-ikspinpipe-ksgetpipe.md) | Not recommended for application use. |
+| [IKsPinPipe::KsSetPinBusCache](..\ksproxy\nf-ksproxy-ikspinpipe-kssetpinbuscache.md) | Not recommended for application use. |
+| [IKsPinPipe::KsSetPinFramingCache](..\ksproxy\nf-ksproxy-ikspinpipe-kssetpinframingcache.md) | Not recommended for application use. |
+| [IKsPinPipe::KsSetPipeAllocatorFlag](..\ksproxy\nf-ksproxy-ikspinpipe-kssetpipeallocatorflag.md) | Not recommended for application use. |
+| [IKsPinPipe::KsSetPipe](..\ksproxy\nf-ksproxy-ikspinpipe-kssetpipe.md) | Not recommended for application use. |
+| [IKsPropertySet::Get](..\dsound\nf-dsound-ikspropertyset-get.md) | The Get method retrieves a property identified by a property-set GUID and a property identifier. |
+| [IKsPropertySet::Get](..\ksproxy\nf-ksproxy-ikspropertyset-get.md) | The Get method retrieves a property identified by a property-set GUID and a property identifier. |
+| [IKsPropertySet::QuerySupported](..\ksproxy\nf-ksproxy-ikspropertyset-querysupported.md) | The QuerySupported method determines whether a KS object supports a property set and the type of that support. |
+| [IKsPropertySet::Set](..\dsound\nf-dsound-ikspropertyset-set.md) | The Set method sets a property identified by a property-set GUID and a property identifier. |
+| [IKsPropertySet::Set](..\ksproxy\nf-ksproxy-ikspropertyset-set.md) | The Set method sets a property identified by a property-set GUID and a property identifier. |
+| [IKsQualityForwarder::KsFlushClient](..\ksproxy\nf-ksproxy-iksqualityforwarder-ksflushclient.md) | The KsFlushClient method flushes information from a pin. |
+| [IKsReferenceClock::GetCorrelatedPhysicalTime](..\ks\nf-ks-iksreferenceclock-getcorrelatedphysicaltime.md) | The IKsReferenceClock |
+| [IKsReferenceClock::GetCorrelatedTime](..\ks\nf-ks-iksreferenceclock-getcorrelatedtime.md) | The IKsReferenceClock |
+| [IKsReferenceClock::GetPhysicalTime](..\ks\nf-ks-iksreferenceclock-getphysicaltime.md) | The IKsReferenceClock |
+| [IKsReferenceClock::GetResolution](..\ks\nf-ks-iksreferenceclock-getresolution.md) | The IKsReferenceClock |
+| [IKsReferenceClock::GetState](..\ks\nf-ks-iksreferenceclock-getstate.md) | The IKsReferenceClock |
+| [IKsReferenceClock::GetTime](..\ks\nf-ks-iksreferenceclock-gettime.md) | The IKsReferenceClock |
+| [IKsTopology::CreateNodeInstance](..\ksproxy\nf-ksproxy-ikstopology-createnodeinstance.md) | The CreateNodeInstance method requests a KS filter object to open a topology node object. |

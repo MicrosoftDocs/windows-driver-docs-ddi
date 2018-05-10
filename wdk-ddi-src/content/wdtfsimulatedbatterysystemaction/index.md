@@ -2,11 +2,12 @@
 UID: NA:wdtfsimulatedbatterysystemaction
 ms.assetid: 53e24a20-d940-346a-8073-94ca335eb2fc
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: dtf
 ---
 
 # Wdtfsimulatedbatterysystemaction.h header

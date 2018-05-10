@@ -2,11 +2,12 @@
 UID: NA:pointofservicecommontypes
 ms.assetid: b4acf337-75d5-37f2-8097-812ec2347de2
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: pos
 ---
 
 # Pointofservicecommontypes.h header

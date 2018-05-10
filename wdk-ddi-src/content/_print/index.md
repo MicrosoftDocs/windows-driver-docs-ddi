@@ -2,7 +2,7 @@
 UID: TP:print
 ms.assetid: fc0e0b85-603b-35c9-9d94-fc5cb18ea7c1
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Print devices
 
-
+## -description
 
 Overview of the Print devices technology.
 
@@ -249,21 +249,21 @@ For the programming guide, see [Print devices](https://docs.microsoft.com/en-us/
 
 | Title   | Description   |
 | ---- |:---- |
-| [OEMCUIPCALLBACK callback](..\printoem\nc-printoem-oemcuipcallback.md) | The OEMCUIPCALLBACK function type is used for defining callback functions that are specified by a user interface plug-in's IPrintOemUI |
-| [PFNCOMPROPSHEET callback](..\compstui\nc-compstui-pfncompropsheet.md) | The ComPropSheet function is supplied by CPSUI and can be called by CPSUI applications (including printer interface DLLs) to build property sheet pages. |
-| [PFNGETINFO callback](..\printoem\nc-printoem-pfngetinfo.md) | The UNIFONTOBJ_GetInfo callback function is provided by the Unidrv driver so that rendering plug-ins can obtain font or glyph information. |
-| [PFNPROPSHEETUI callback](..\compstui\nc-compstui-pfnpropsheetui.md) | The PFNPROPSHEETUI function type is used by CPSUI applications (including printer interface DLLs) for defining page creation callbacks, which specify property sheet pages for creation. |
-| [PFN_DrvGetDriverSetting callback](..\printoem\nc-printoem-pfn_drvgetdriversetting.md) | The DrvGetDriverSetting function is obsolete. |
-| [PFN_DrvGetStandardVariable callback](..\printoem\nc-printoem-pfn_drvgetstandardvariable.md) | This DrvGetStandardVariable function is obsolete. |
-| [PFN_DrvUnidriverTextOut callback](..\printoem\nc-printoem-pfn_drvunidrivertextout.md) | The DrvUnidriverTextOut function is obsolete. |
-| [PFN_DrvUpdateUISetting callback](..\printoem\nc-printoem-pfn_drvupdateuisetting.md) | The DrvUpdateUISetting function is obsolete. |
-| [PFN_DrvUpgradeRegistrySetting callback](..\printoem\nc-printoem-pfn_drvupgraderegistrysetting.md) | The DrvUpgradeRegistrySetting function is obsolete. |
-| [PFN_DrvWriteAbortBuf callback](..\printoem\nc-printoem-pfn_drvwriteabortbuf.md) | The DrvWriteAbortBuf function is obsolete. |
-| [PFN_DrvWriteSpoolBuf callback](..\printoem\nc-printoem-pfn_drvwritespoolbuf.md) | The DrvWriteSpoolBuf function pointed to by this function pointer is obsolete. |
-| [PFN_DrvXMoveTo callback](..\printoem\nc-printoem-pfn_drvxmoveto.md) | The DrvXMoveTo function is obsolete. |
-| [PFN_DrvYMoveTo callback](..\printoem\nc-printoem-pfn_drvymoveto.md) | The DrvYMoveTo function is obsolete. |
-| [ROUTER_NOTIFY_CALLBACK callback](..\winsplp\nc-winsplp-router_notify_callback.md) | "." |
-| [_CPSUICALLBACK callback](..\compstui\nc-compstui-_cpsuicallback.md) | The _CPSUICALLBACK function type is used by CPSUI applications (including printer interface DLLs) for defining a callback function intended for use as a CPSUI message handler. |
+| [OEMCUIPCALLBACK callback function](..\printoem\nc-printoem-oemcuipcallback.md) | The OEMCUIPCALLBACK function type is used for defining callback functions that are specified by a user interface plug-in's IPrintOemUI |
+| [PFNCOMPROPSHEET callback function](..\compstui\nc-compstui-pfncompropsheet.md) | The ComPropSheet function is supplied by CPSUI and can be called by CPSUI applications (including printer interface DLLs) to build property sheet pages. |
+| [PFNGETINFO callback function](..\printoem\nc-printoem-pfngetinfo.md) | The UNIFONTOBJ_GetInfo callback function is provided by the Unidrv driver so that rendering plug-ins can obtain font or glyph information. |
+| [PFNPROPSHEETUI callback function](..\compstui\nc-compstui-pfnpropsheetui.md) | The PFNPROPSHEETUI function type is used by CPSUI applications (including printer interface DLLs) for defining page creation callbacks, which specify property sheet pages for creation. |
+| [PFN_DrvGetDriverSetting callback function](..\printoem\nc-printoem-pfn_drvgetdriversetting.md) | The DrvGetDriverSetting function is obsolete. |
+| [PFN_DrvGetStandardVariable callback function](..\printoem\nc-printoem-pfn_drvgetstandardvariable.md) | This DrvGetStandardVariable function is obsolete. |
+| [PFN_DrvUnidriverTextOut callback function](..\printoem\nc-printoem-pfn_drvunidrivertextout.md) | The DrvUnidriverTextOut function is obsolete. |
+| [PFN_DrvUpdateUISetting callback function](..\printoem\nc-printoem-pfn_drvupdateuisetting.md) | The DrvUpdateUISetting function is obsolete. |
+| [PFN_DrvUpgradeRegistrySetting callback function](..\printoem\nc-printoem-pfn_drvupgraderegistrysetting.md) | The DrvUpgradeRegistrySetting function is obsolete. |
+| [PFN_DrvWriteAbortBuf callback function](..\printoem\nc-printoem-pfn_drvwriteabortbuf.md) | The DrvWriteAbortBuf function is obsolete. |
+| [PFN_DrvWriteSpoolBuf callback function](..\printoem\nc-printoem-pfn_drvwritespoolbuf.md) | The DrvWriteSpoolBuf function pointed to by this function pointer is obsolete. |
+| [PFN_DrvXMoveTo callback function](..\printoem\nc-printoem-pfn_drvxmoveto.md) | The DrvXMoveTo function is obsolete. |
+| [PFN_DrvYMoveTo callback function](..\printoem\nc-printoem-pfn_drvymoveto.md) | The DrvYMoveTo function is obsolete. |
+| [ROUTER_NOTIFY_CALLBACK callback function](..\winsplp\nc-winsplp-router_notify_callback.md) | "." |
+| [_CPSUICALLBACK callback function](..\compstui\nc-compstui-_cpsuicallback.md) | The _CPSUICALLBACK function type is used by CPSUI applications (including printer interface DLLs) for defining a callback function intended for use as a CPSUI message handler. |
 
 ## Structures
 
@@ -554,360 +554,362 @@ For the programming guide, see [Print devices](https://docs.microsoft.com/en-us/
 
 | Title   | Description   |
 | ---- |:---- |
-| [IBidiAsyncNotifyChannel::AsyncCloseChannel method](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-asyncclosechannel.md) | "." |
-| [IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse method](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-asyncgetnotificationsendresponse.md) | "." |
-| [IBidiAsyncNotifyChannel::CloseChannel method](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-closechannel.md) | "." |
-| [IBidiAsyncNotifyChannel::CreateNotificationChannel method](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-createnotificationchannel.md) | "." |
-| [IBidiAsyncNotifyChannel::GetChannelNotificationType method](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-getchannelnotificationtype.md) | "." |
-| [IBidiAsyncNotifyChannel::GetPrintName method](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-getprintname.md) | "." |
-| [IBidiAsyncNotifyChannel::SendNotification method](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-sendnotification.md) | "." |
-| [IBidiRequest::GetEnumCount method](..\bidispl\nf-bidispl-ibidirequest-getenumcount.md) | The GetEnumCount method gets the number of output results from the bidi request. |
-| [IBidiRequest::GetOutputData method](..\bidispl\nf-bidispl-ibidirequest-getoutputdata.md) | The GetOutputData method gets the specified output data coming back from the printer. |
-| [IBidiRequest::GetResult method](..\bidispl\nf-bidispl-ibidirequest-getresult.md) | The GetResult method tells whether the bidi request was successful. |
-| [IBidiRequest::SetInputData method](..\bidispl\nf-bidispl-ibidirequest-setinputdata.md) | The SetInputData method sets the data to send to the printer. |
-| [IBidiRequest::SetSchema method](..\bidispl\nf-bidispl-ibidirequest-setschema.md) | The SetSchema method sets the bidi schema string. |
-| [IBidiRequestContainer::AddRequest method](..\bidispl\nf-bidispl-ibidirequestcontainer-addrequest.md) | The AddRequest method adds a request to the request list. |
-| [IBidiRequestContainer::GetEnumObject method](..\bidispl\nf-bidispl-ibidirequestcontainer-getenumobject.md) | The GetEnumObject method enumerates the bidi requests in a list. |
-| [IBidiRequestContainer::GetRequestCount method](..\bidispl\nf-bidispl-ibidirequestcontainer-getrequestcount.md) | The GetRequestCount method gets the number of requests in the request list. |
-| [IBidiSpl2::BindDevice method](..\bidispl\nf-bidispl-ibidispl2-binddevice.md) | The BindDevice method binds a printer to a bidirectional printer communication (bidi communication) request. This method is similar to the OpenPrinter function. |
-| [IBidiSpl2::SendRecvXMLStream method](..\bidispl\nf-bidispl-ibidispl2-sendrecvxmlstream.md) | The SendRecvXMLStream method sends a bidirectional printer communication request and receives the response as IStream objects formatted in accordance with the Bidirectional Communication Schemas. |
-| [IBidiSpl2::SendRecvXMLString method](..\bidispl\nf-bidispl-ibidispl2-sendrecvxmlstring.md) | The SendRecvXMLString method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the Bidirectional Communication Schemas. |
-| [IBidiSpl2::UnbindDevice method](..\bidispl\nf-bidispl-ibidispl2-unbinddevice.md) | The UnbindDevice method releases a printer from a bidirectional printer communication (bidi communication) request. |
-| [IBidiSpl::BindDevice method](..\bidispl\nf-bidispl-ibidispl-binddevice.md) | The BindDevice method binds a printer to a bidi request. This method is similar to the OpenPrinter function. |
-| [IBidiSpl::MultiSendRecv method](..\bidispl\nf-bidispl-ibidispl-multisendrecv.md) | The MultiSendRecv method sends a list of bidi requests. |
-| [IBidiSpl::SendRecv method](..\bidispl\nf-bidispl-ibidispl-sendrecv.md) | The SendRecv method sends a bidi request to the printer. |
-| [IBidiSpl::UnbindDevice method](..\bidispl\nf-bidispl-ibidispl-unbinddevice.md) | The UnbindDevice method unbinds a printer from a bidi request. |
-| [IFixedDocument::GetPrintTicket method](..\filterpipeline\nf-filterpipeline-ifixeddocument-getprintticket.md) | The GetPrintTicket method gets the print ticket object for the fixed document. |
-| [IFixedDocument::GetUri method](..\filterpipeline\nf-filterpipeline-ifixeddocument-geturi.md) | The GetUri method gets the URI of the fixed document. |
-| [IFixedDocument::SetPrintTicket method](..\filterpipeline\nf-filterpipeline-ifixeddocument-setprintticket.md) | The SetPrintTicket method inserts a print ticket into the fixed document. |
-| [IFixedDocumentSequence::GetPrintTicket method](..\filterpipeline\nf-filterpipeline-ifixeddocumentsequence-getprintticket.md) | The GetPrintTicket method gets the print ticket object for the fixed document sequence. |
-| [IFixedDocumentSequence::GetUri method](..\filterpipeline\nf-filterpipeline-ifixeddocumentsequence-geturi.md) | The GetUri method gets the URI of the fixed document sequence. |
-| [IFixedDocumentSequence::SetPrintTicket method](..\filterpipeline\nf-filterpipeline-ifixeddocumentsequence-setprintticket.md) | The SetPrintTicket method inserts a print ticket into the fixed document sequence. |
-| [IFixedPage::DeleteResource method](..\filterpipeline\nf-filterpipeline-ifixedpage-deleteresource.md) | The DeleteResource method deletes a resource that is associated with the page. |
-| [IFixedPage::GetPagePart method](..\filterpipeline\nf-filterpipeline-ifixedpage-getpagepart.md) | The GetPagePart method gets the images, thumbnails, fonts, and so on in a page by using the URI. |
-| [IFixedPage::GetPrintTicket method](..\filterpipeline\nf-filterpipeline-ifixedpage-getprintticket.md) | The GetPrintTicket method gets the print ticket object for the fixed page. |
-| [IFixedPage::GetWriteStream method](..\filterpipeline\nf-filterpipeline-ifixedpage-getwritestream.md) | The GetWriteStream method retrieves the stream object to write page markup to read . You can use this stream to change page markup. |
-| [IFixedPage::GetXpsPartIterator method](..\filterpipeline\nf-filterpipeline-ifixedpage-getxpspartiterator.md) | The GetXpsPartIterator method gets an iterator to enumerate all of the parts that are associated with the page. |
-| [IFixedPage::SetPagePart method](..\filterpipeline\nf-filterpipeline-ifixedpage-setpagepart.md) | The SetPagePart method associates a new part with the page. |
-| [IFixedPage::SetPrintTicket method](..\filterpipeline\nf-filterpipeline-ifixedpage-setprintticket.md) | The SetPrintTicket method associates a print ticket with the page. |
-| [IInterFilterCommunicator::RequestReader method](..\filterpipeline\nf-filterpipeline-iinterfiltercommunicator-requestreader.md) | The RequestReader method retrieves the reader interface for an IInterFilterCommunicator object. |
-| [IInterFilterCommunicator::RequestWriter method](..\filterpipeline\nf-filterpipeline-iinterfiltercommunicator-requestwriter.md) | The RequestWriter method retrieves the writer interface for an IInterFilterCommunicator object. |
-| [IPartBase::GetPartCompression method](..\filterpipeline\nf-filterpipeline-ipartbase-getpartcompression.md) | The GetPartCompression method gets the compression of the part. |
-| [IPartBase::GetStream method](..\filterpipeline\nf-filterpipeline-ipartbase-getstream.md) | The GetStream method gets the stream object that contains the part data. Each part has part-specific data that is associated with it (for example, a font, image, and page markup). |
-| [IPartBase::GetUri method](..\filterpipeline\nf-filterpipeline-ipartbase-geturi.md) | The GetUri method gets the URI of the part. |
-| [IPartBase::SetPartCompression method](..\filterpipeline\nf-filterpipeline-ipartbase-setpartcompression.md) | The SetPartCompression method sets the compression of the part. |
-| [IPartDiscardControl::GetDiscardProperties method](..\filterpipeline\nf-filterpipeline-ipartdiscardcontrol-getdiscardproperties.md) | The GetDiscardProperties method gets the properties of the discard control. |
-| [IPartFont2::GetFontRestriction method](..\filterpipeline\nf-filterpipeline-ipartfont2-getfontrestriction.md) | "." |
-| [IPartFont::GetFontProperties method](..\filterpipeline\nf-filterpipeline-ipartfont-getfontproperties.md) | The GetFontProperties method gets the font properties. |
-| [IPartFont::SetFontContent method](..\filterpipeline\nf-filterpipeline-ipartfont-setfontcontent.md) | The SetFontContent method sets the content of the font. |
-| [IPartFont::SetFontOptions method](..\filterpipeline\nf-filterpipeline-ipartfont-setfontoptions.md) | The SetFontOptions method sets the options for the font. |
-| [IPartImage::GetImageProperties method](..\filterpipeline\nf-filterpipeline-ipartimage-getimageproperties.md) | The GetImageProperties method gets an image property that is based on the content type. |
-| [IPartImage::SetImageContent method](..\filterpipeline\nf-filterpipeline-ipartimage-setimagecontent.md) | The SetImageContent method sets an image property that is based on the content type. |
-| [IPartThumbnail::GetThumbnailProperties method](..\filterpipeline\nf-filterpipeline-ipartthumbnail-getthumbnailproperties.md) | The GetThumbnailProperties method gets the thumbnail properties. |
-| [IPartThumbnail::SetThumbnailContent method](..\filterpipeline\nf-filterpipeline-ipartthumbnail-setthumbnailcontent.md) | The SetThumbnailContent method sets the thumbnail content for the part. |
-| [IPrintAsyncCookie::CancelAsyncCall method](..\prnasntp\nf-prnasntp-iprintasynccookie-cancelasynccall.md) | "." |
-| [IPrintAsyncCookie::FinishAsyncCall method](..\prnasntp\nf-prnasntp-iprintasynccookie-finishasynccall.md) | "." |
-| [IPrintAsyncNewChannelCookie::FinishAsyncCallWithData method](..\prnasntp\nf-prnasntp-iprintasyncnewchannelcookie-finishasynccallwithdata.md) | "." |
-| [IPrintAsyncNotify::CreatePrintAsyncNotifyChannel method](..\prnasntp\nf-prnasntp-iprintasyncnotify-createprintasyncnotifychannel.md) | "." |
-| [IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration method](..\prnasntp\nf-prnasntp-iprintasyncnotify-createprintasyncnotifyregistration.md) | "." |
-| [IPrintAsyncNotifyRegistration::RegisterForNotifications method](..\prnasntp\nf-prnasntp-iprintasyncnotifyregistration-registerfornotifications.md) | "." |
-| [IPrintAsyncNotifyRegistration::UnregisterForNotifications method](..\prnasntp\nf-prnasntp-iprintasyncnotifyregistration-unregisterfornotifications.md) | "." |
-| [IPrintAsyncNotifyServerReferral::AsyncGetServerReferral method](..\prnasntp\nf-prnasntp-iprintasyncnotifyserverreferral-asyncgetserverreferral.md) | "." |
-| [IPrintAsyncNotifyServerReferral::GetServerReferral method](..\prnasntp\nf-prnasntp-iprintasyncnotifyserverreferral-getserverreferral.md) | "." |
-| [IPrintAsyncNotifyServerReferral::SetServerReferral method](..\prnasntp\nf-prnasntp-iprintasyncnotifyserverreferral-setserverreferral.md) | "." |
-| [IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel method](..\prnasntp\nf-prnasntp-iprintbidiasyncnotifyregistration-asyncgetnewchannel.md) | "." |
-| [IPrintClassObjectFactory::GetPrintClassObject method](..\filterpipeline\nf-filterpipeline-iprintclassobjectfactory-getprintclassobject.md) | The GetPrintClassObject method creates a print filter-related object for a specified printer by using the IID of the interface object to create. |
-| [IPrintCoreHelper::CreateInstanceOfMSXMLObject method](..\prcomoem\nf-prcomoem-iprintcorehelper-createinstanceofmsxmlobject.md) | The IPrintCoreHelper |
-| [IPrintCoreHelper::EnumConstrainedOptions method](..\prcomoem\nf-prcomoem-iprintcorehelper-enumconstrainedoptions.md) | The IPrintCoreHelper |
-| [IPrintCoreHelper::EnumFeatures method](..\prcomoem\nf-prcomoem-iprintcorehelper-enumfeatures.md) | The IPrintCoreHelper |
-| [IPrintCoreHelper::EnumOptions method](..\prcomoem\nf-prcomoem-iprintcorehelper-enumoptions.md) | The IPrintCoreHelper |
-| [IPrintCoreHelper::GetFontSubstitution method](..\prcomoem\nf-prcomoem-iprintcorehelper-getfontsubstitution.md) | The IPrintCoreHelper |
-| [IPrintCoreHelper::GetOption method](..\prcomoem\nf-prcomoem-iprintcorehelper-getoption.md) | The IPrintCoreHelper |
-| [IPrintCoreHelper::SetFontSubstitution method](..\prcomoem\nf-prcomoem-iprintcorehelper-setfontsubstitution.md) | The IPrintCoreHelper |
-| [IPrintCoreHelper::SetOptions method](..\prcomoem\nf-prcomoem-iprintcorehelper-setoptions.md) | The IPrintCoreHelper |
-| [IPrintCoreHelper::WhyConstrained method](..\prcomoem\nf-prcomoem-iprintcorehelper-whyconstrained.md) | The IPrintCoreHelper |
-| [IPrintCoreHelperPS::CreateInstanceOfMSXMLObject method](..\prcomoem\nf-prcomoem-iprintcorehelperps-createinstanceofmsxmlobject.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperPS::EnumConstrainedOptions method](..\prcomoem\nf-prcomoem-iprintcorehelperps-enumconstrainedoptions.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperPS::EnumFeatures method](..\prcomoem\nf-prcomoem-iprintcorehelperps-enumfeatures.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperPS::EnumOptions method](..\prcomoem\nf-prcomoem-iprintcorehelperps-enumoptions.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperPS::GetFeatureAttribute method](..\prcomoem\nf-prcomoem-iprintcorehelperps-getfeatureattribute.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperPS::GetFontSubstitution method](..\prcomoem\nf-prcomoem-iprintcorehelperps-getfontsubstitution.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperPS::GetGlobalAttribute method](..\prcomoem\nf-prcomoem-iprintcorehelperps-getglobalattribute.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperPS::GetOption method](..\prcomoem\nf-prcomoem-iprintcorehelperps-getoption.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperPS::GetOptionAttribute method](..\prcomoem\nf-prcomoem-iprintcorehelperps-getoptionattribute.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperPS::SetFontSubstitution method](..\prcomoem\nf-prcomoem-iprintcorehelperps-setfontsubstitution.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperPS::SetOptions method](..\prcomoem\nf-prcomoem-iprintcorehelperps-setoptions.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperPS::WhyConstrained method](..\prcomoem\nf-prcomoem-iprintcorehelperps-whyconstrained.md) | The IPrintCoreHelperPS |
-| [IPrintCoreHelperUni2::GetNamedCommand method](..\prcomoem\nf-prcomoem-iprintcorehelperuni2-getnamedcommand.md) | The GetNamedCommand method returns the specified command. |
-| [IPrintCoreHelperUni::CreateDefaultGDLSnapshot method](..\prcomoem\nf-prcomoem-iprintcorehelperuni-createdefaultgdlsnapshot.md) | The IPrintCoreHelperUni |
-| [IPrintCoreHelperUni::CreateGDLSnapshot method](..\prcomoem\nf-prcomoem-iprintcorehelperuni-creategdlsnapshot.md) | The IPrintCoreHelperUni |
-| [IPrintCoreHelperUni::CreateInstanceOfMSXMLObject method](..\prcomoem\nf-prcomoem-iprintcorehelperuni-createinstanceofmsxmlobject.md) | The IPrintCoreHelperUni |
-| [IPrintCoreHelperUni::EnumConstrainedOptions method](..\prcomoem\nf-prcomoem-iprintcorehelperuni-enumconstrainedoptions.md) | The IPrintCoreHelperUni |
-| [IPrintCoreHelperUni::EnumFeatures method](..\prcomoem\nf-prcomoem-iprintcorehelperuni-enumfeatures.md) | The IPrintCoreHelperUni |
-| [IPrintCoreHelperUni::EnumOptions method](..\prcomoem\nf-prcomoem-iprintcorehelperuni-enumoptions.md) | The IPrintCoreHelperUni |
-| [IPrintCoreHelperUni::GetFontSubstitution method](..\prcomoem\nf-prcomoem-iprintcorehelperuni-getfontsubstitution.md) | The IPrintCoreHelperUni |
-| [IPrintCoreHelperUni::GetOption method](..\prcomoem\nf-prcomoem-iprintcorehelperuni-getoption.md) | The IPrintCoreHelperUni |
-| [IPrintCoreHelperUni::SetFontSubstitution method](..\prcomoem\nf-prcomoem-iprintcorehelperuni-setfontsubstitution.md) | The IPrintCoreHelperUni |
-| [IPrintCoreHelperUni::SetOptions method](..\prcomoem\nf-prcomoem-iprintcorehelperuni-setoptions.md) | The IPrintCoreHelperUni |
-| [IPrintCoreHelperUni::WhyConstrained method](..\prcomoem\nf-prcomoem-iprintcorehelperuni-whyconstrained.md) | The IPrintCoreHelperUni |
-| [IPrintCorePS2::DrvWriteSpoolBuf method](..\prcomoem\nf-prcomoem-iprintcoreps2-drvwritespoolbuf.md) | The IPrintCorePS2 |
-| [IPrintCorePS2::EnumFeatures method](..\prcomoem\nf-prcomoem-iprintcoreps2-enumfeatures.md) | The IPrintCorePS2 |
-| [IPrintCorePS2::EnumOptions method](..\prcomoem\nf-prcomoem-iprintcoreps2-enumoptions.md) | The IPrintCorePS2 |
-| [IPrintCorePS2::GetFeatureAttribute method](..\prcomoem\nf-prcomoem-iprintcoreps2-getfeatureattribute.md) | The IPrintCorePS2 |
-| [IPrintCorePS2::GetGlobalAttribute method](..\prcomoem\nf-prcomoem-iprintcoreps2-getglobalattribute.md) | The IPrintCorePS2 |
-| [IPrintCorePS2::GetOptionAttribute method](..\prcomoem\nf-prcomoem-iprintcoreps2-getoptionattribute.md) | The IPrintCorePS2 |
-| [IPrintCorePS2::GetOptions method](..\prcomoem\nf-prcomoem-iprintcoreps2-getoptions.md) | The IPrintCorePS2 |
-| [IPrintCoreUI2::DrvGetDriverSetting method](..\prcomoem\nf-prcomoem-iprintcoreui2-drvgetdriversetting.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::DrvUpdateUISetting method](..\prcomoem\nf-prcomoem-iprintcoreui2-drvupdateuisetting.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::DrvUpgradeRegistrySetting method](..\prcomoem\nf-prcomoem-iprintcoreui2-drvupgraderegistrysetting.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::EnumConstrainedOptions method](..\prcomoem\nf-prcomoem-iprintcoreui2-enumconstrainedoptions.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::EnumFeatures method](..\prcomoem\nf-prcomoem-iprintcoreui2-enumfeatures.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::EnumOptions method](..\prcomoem\nf-prcomoem-iprintcoreui2-enumoptions.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::GetFeatureAttribute method](..\prcomoem\nf-prcomoem-iprintcoreui2-getfeatureattribute.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::GetGlobalAttribute method](..\prcomoem\nf-prcomoem-iprintcoreui2-getglobalattribute.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::GetOptionAttribute method](..\prcomoem\nf-prcomoem-iprintcoreui2-getoptionattribute.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::GetOptions method](..\prcomoem\nf-prcomoem-iprintcoreui2-getoptions.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::QuerySimulationSupport method](..\prcomoem\nf-prcomoem-iprintcoreui2-querysimulationsupport.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::SetOptions method](..\prcomoem\nf-prcomoem-iprintcoreui2-setoptions.md) | The IPrintCoreUI2 |
-| [IPrintCoreUI2::WhyConstrained method](..\prcomoem\nf-prcomoem-iprintcoreui2-whyconstrained.md) | The IPrintCoreUI2 |
-| [IPrintJob::RequestCancel method](..\printerextension\nf-printerextension-iprintjob-requestcancel.md) | Requests the cancellation of a print job. |
-| [IPrintJob::get_Id method](..\printerextension\nf-printerextension-iprintjob-get_id.md) | Gets the print job identifier (ID). |
-| [IPrintJob::get_Name method](..\printerextension\nf-printerextension-iprintjob-get_name.md) | Gets the name of the print job. |
-| [IPrintJob::get_PrintedPages method](..\printerextension\nf-printerextension-iprintjob-get_printedpages.md) | Gets the number of pages that have been printed. |
+| [IBidiAsyncNotifyChannel::AsyncCloseChannel](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-asyncclosechannel.md) | "." |
+| [IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-asyncgetnotificationsendresponse.md) | "." |
+| [IBidiAsyncNotifyChannel::CloseChannel](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-closechannel.md) | "." |
+| [IBidiAsyncNotifyChannel::CreateNotificationChannel](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-createnotificationchannel.md) | "." |
+| [IBidiAsyncNotifyChannel::GetChannelNotificationType](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-getchannelnotificationtype.md) | "." |
+| [IBidiAsyncNotifyChannel::GetPrintName](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-getprintname.md) | "." |
+| [IBidiAsyncNotifyChannel::SendNotification](..\prnasntp\nf-prnasntp-ibidiasyncnotifychannel-sendnotification.md) | "." |
+| [IBidiRequest::GetEnumCount](..\bidispl\nf-bidispl-ibidirequest-getenumcount.md) | The GetEnumCount method gets the number of output results from the bidi request. |
+| [IBidiRequest::GetOutputData](..\bidispl\nf-bidispl-ibidirequest-getoutputdata.md) | The GetOutputData method gets the specified output data coming back from the printer. |
+| [IBidiRequest::GetResult](..\bidispl\nf-bidispl-ibidirequest-getresult.md) | The GetResult method tells whether the bidi request was successful. |
+| [IBidiRequest::SetInputData](..\bidispl\nf-bidispl-ibidirequest-setinputdata.md) | The SetInputData method sets the data to send to the printer. |
+| [IBidiRequest::SetSchema](..\bidispl\nf-bidispl-ibidirequest-setschema.md) | The SetSchema method sets the bidi schema string. |
+| [IBidiRequestContainer::AddRequest](..\bidispl\nf-bidispl-ibidirequestcontainer-addrequest.md) | The AddRequest method adds a request to the request list. |
+| [IBidiRequestContainer::GetEnumObject](..\bidispl\nf-bidispl-ibidirequestcontainer-getenumobject.md) | The GetEnumObject method enumerates the bidi requests in a list. |
+| [IBidiRequestContainer::GetRequestCount](..\bidispl\nf-bidispl-ibidirequestcontainer-getrequestcount.md) | The GetRequestCount method gets the number of requests in the request list. |
+| [IBidiSpl2::BindDevice](..\bidispl\nf-bidispl-ibidispl2-binddevice.md) | The BindDevice method binds a printer to a bidirectional printer communication (bidi communication) request. This method is similar to the OpenPrinter function. |
+| [IBidiSpl2::SendRecvXMLStream](..\bidispl\nf-bidispl-ibidispl2-sendrecvxmlstream.md) | The SendRecvXMLStream method sends a bidirectional printer communication request and receives the response as IStream objects formatted in accordance with the Bidirectional Communication Schemas. |
+| [IBidiSpl2::SendRecvXMLString](..\bidispl\nf-bidispl-ibidispl2-sendrecvxmlstring.md) | The SendRecvXMLString method sends a bidirectional printer communication request and receives the response as Unicode strings formatted in accordance with the Bidirectional Communication Schemas. |
+| [IBidiSpl2::UnbindDevice](..\bidispl\nf-bidispl-ibidispl2-unbinddevice.md) | The UnbindDevice method releases a printer from a bidirectional printer communication (bidi communication) request. |
+| [IBidiSpl::BindDevice](..\bidispl\nf-bidispl-ibidispl-binddevice.md) | The BindDevice method binds a printer to a bidi request. This method is similar to the OpenPrinter function. |
+| [IBidiSpl::MultiSendRecv](..\bidispl\nf-bidispl-ibidispl-multisendrecv.md) | The MultiSendRecv method sends a list of bidi requests. |
+| [IBidiSpl::SendRecv](..\bidispl\nf-bidispl-ibidispl-sendrecv.md) | The SendRecv method sends a bidi request to the printer. |
+| [IBidiSpl::UnbindDevice](..\bidispl\nf-bidispl-ibidispl-unbinddevice.md) | The UnbindDevice method unbinds a printer from a bidi request. |
+| [IFixedDocument::GetPrintTicket](..\filterpipeline\nf-filterpipeline-ifixeddocument-getprintticket.md) | The GetPrintTicket method gets the print ticket object for the fixed document. |
+| [IFixedDocument::GetUri](..\filterpipeline\nf-filterpipeline-ifixeddocument-geturi.md) | The GetUri method gets the URI of the fixed document. |
+| [IFixedDocument::SetPrintTicket](..\filterpipeline\nf-filterpipeline-ifixeddocument-setprintticket.md) | The SetPrintTicket method inserts a print ticket into the fixed document. |
+| [IFixedDocumentSequence::GetPrintTicket](..\filterpipeline\nf-filterpipeline-ifixeddocumentsequence-getprintticket.md) | The GetPrintTicket method gets the print ticket object for the fixed document sequence. |
+| [IFixedDocumentSequence::GetUri](..\filterpipeline\nf-filterpipeline-ifixeddocumentsequence-geturi.md) | The GetUri method gets the URI of the fixed document sequence. |
+| [IFixedDocumentSequence::SetPrintTicket](..\filterpipeline\nf-filterpipeline-ifixeddocumentsequence-setprintticket.md) | The SetPrintTicket method inserts a print ticket into the fixed document sequence. |
+| [IFixedPage::DeleteResource](..\filterpipeline\nf-filterpipeline-ifixedpage-deleteresource.md) | The DeleteResource method deletes a resource that is associated with the page. |
+| [IFixedPage::GetPagePart](..\filterpipeline\nf-filterpipeline-ifixedpage-getpagepart.md) | The GetPagePart method gets the images, thumbnails, fonts, and so on in a page by using the URI. |
+| [IFixedPage::GetPrintTicket](..\filterpipeline\nf-filterpipeline-ifixedpage-getprintticket.md) | The GetPrintTicket method gets the print ticket object for the fixed page. |
+| [IFixedPage::GetWriteStream](..\filterpipeline\nf-filterpipeline-ifixedpage-getwritestream.md) | The GetWriteStream method retrieves the stream object to write page markup to read . You can use this stream to change page markup. |
+| [IFixedPage::GetXpsPartIterator](..\filterpipeline\nf-filterpipeline-ifixedpage-getxpspartiterator.md) | The GetXpsPartIterator method gets an iterator to enumerate all of the parts that are associated with the page. |
+| [IFixedPage::SetPagePart](..\filterpipeline\nf-filterpipeline-ifixedpage-setpagepart.md) | The SetPagePart method associates a new part with the page. |
+| [IFixedPage::SetPrintTicket](..\filterpipeline\nf-filterpipeline-ifixedpage-setprintticket.md) | The SetPrintTicket method associates a print ticket with the page. |
+| [IInterFilterCommunicator::RequestReader](..\filterpipeline\nf-filterpipeline-iinterfiltercommunicator-requestreader.md) | The RequestReader method retrieves the reader interface for an IInterFilterCommunicator object. |
+| [IInterFilterCommunicator::RequestWriter](..\filterpipeline\nf-filterpipeline-iinterfiltercommunicator-requestwriter.md) | The RequestWriter method retrieves the writer interface for an IInterFilterCommunicator object. |
+| [IPartBase::GetPartCompression](..\filterpipeline\nf-filterpipeline-ipartbase-getpartcompression.md) | The GetPartCompression method gets the compression of the part. |
+| [IPartBase::GetStream](..\filterpipeline\nf-filterpipeline-ipartbase-getstream.md) | The GetStream method gets the stream object that contains the part data. Each part has part-specific data that is associated with it (for example, a font, image, and page markup). |
+| [IPartBase::GetUri](..\filterpipeline\nf-filterpipeline-ipartbase-geturi.md) | The GetUri method gets the URI of the part. |
+| [IPartBase::SetPartCompression](..\filterpipeline\nf-filterpipeline-ipartbase-setpartcompression.md) | The SetPartCompression method sets the compression of the part. |
+| [IPartDiscardControl::GetDiscardProperties](..\filterpipeline\nf-filterpipeline-ipartdiscardcontrol-getdiscardproperties.md) | The GetDiscardProperties method gets the properties of the discard control. |
+| [IPartFont2::GetFontRestriction](..\filterpipeline\nf-filterpipeline-ipartfont2-getfontrestriction.md) | "." |
+| [IPartFont::GetFontProperties](..\filterpipeline\nf-filterpipeline-ipartfont-getfontproperties.md) | The GetFontProperties method gets the font properties. |
+| [IPartFont::SetFontContent](..\filterpipeline\nf-filterpipeline-ipartfont-setfontcontent.md) | The SetFontContent method sets the content of the font. |
+| [IPartFont::SetFontOptions](..\filterpipeline\nf-filterpipeline-ipartfont-setfontoptions.md) | The SetFontOptions method sets the options for the font. |
+| [IPartImage::GetImageProperties](..\filterpipeline\nf-filterpipeline-ipartimage-getimageproperties.md) | The GetImageProperties method gets an image property that is based on the content type. |
+| [IPartImage::SetImageContent](..\filterpipeline\nf-filterpipeline-ipartimage-setimagecontent.md) | The SetImageContent method sets an image property that is based on the content type. |
+| [IPartThumbnail::GetThumbnailProperties](..\filterpipeline\nf-filterpipeline-ipartthumbnail-getthumbnailproperties.md) | The GetThumbnailProperties method gets the thumbnail properties. |
+| [IPartThumbnail::SetThumbnailContent](..\filterpipeline\nf-filterpipeline-ipartthumbnail-setthumbnailcontent.md) | The SetThumbnailContent method sets the thumbnail content for the part. |
+| [IPrintAsyncCookie::CancelAsyncCall](..\prnasntp\nf-prnasntp-iprintasynccookie-cancelasynccall.md) | "." |
+| [IPrintAsyncCookie::FinishAsyncCall](..\prnasntp\nf-prnasntp-iprintasynccookie-finishasynccall.md) | "." |
+| [IPrintAsyncNewChannelCookie::FinishAsyncCallWithData](..\prnasntp\nf-prnasntp-iprintasyncnewchannelcookie-finishasynccallwithdata.md) | "." |
+| [IPrintAsyncNotify::CreatePrintAsyncNotifyChannel](..\prnasntp\nf-prnasntp-iprintasyncnotify-createprintasyncnotifychannel.md) | "." |
+| [IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration](..\prnasntp\nf-prnasntp-iprintasyncnotify-createprintasyncnotifyregistration.md) | "." |
+| [IPrintAsyncNotifyRegistration::RegisterForNotifications](..\prnasntp\nf-prnasntp-iprintasyncnotifyregistration-registerfornotifications.md) | "." |
+| [IPrintAsyncNotifyRegistration::UnregisterForNotifications](..\prnasntp\nf-prnasntp-iprintasyncnotifyregistration-unregisterfornotifications.md) | "." |
+| [IPrintAsyncNotifyServerReferral::AsyncGetServerReferral](..\prnasntp\nf-prnasntp-iprintasyncnotifyserverreferral-asyncgetserverreferral.md) | "." |
+| [IPrintAsyncNotifyServerReferral::GetServerReferral](..\prnasntp\nf-prnasntp-iprintasyncnotifyserverreferral-getserverreferral.md) | "." |
+| [IPrintAsyncNotifyServerReferral::SetServerReferral](..\prnasntp\nf-prnasntp-iprintasyncnotifyserverreferral-setserverreferral.md) | "." |
+| [IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel](..\prnasntp\nf-prnasntp-iprintbidiasyncnotifyregistration-asyncgetnewchannel.md) | "." |
+| [IPrintClassObjectFactory::GetPrintClassObject](..\filterpipeline\nf-filterpipeline-iprintclassobjectfactory-getprintclassobject.md) | The GetPrintClassObject method creates a print filter-related object for a specified printer by using the IID of the interface object to create. |
+| [IPrintCoreHelper::CreateInstanceOfMSXMLObject](..\prcomoem\nf-prcomoem-iprintcorehelper-createinstanceofmsxmlobject.md) | The IPrintCoreHelper |
+| [IPrintCoreHelper::EnumConstrainedOptions](..\prcomoem\nf-prcomoem-iprintcorehelper-enumconstrainedoptions.md) | The IPrintCoreHelper |
+| [IPrintCoreHelper::EnumFeatures](..\prcomoem\nf-prcomoem-iprintcorehelper-enumfeatures.md) | The IPrintCoreHelper |
+| [IPrintCoreHelper::EnumOptions](..\prcomoem\nf-prcomoem-iprintcorehelper-enumoptions.md) | The IPrintCoreHelper |
+| [IPrintCoreHelper::GetFontSubstitution](..\prcomoem\nf-prcomoem-iprintcorehelper-getfontsubstitution.md) | The IPrintCoreHelper |
+| [IPrintCoreHelper::GetOption](..\prcomoem\nf-prcomoem-iprintcorehelper-getoption.md) | The IPrintCoreHelper |
+| [IPrintCoreHelper::SetFontSubstitution](..\prcomoem\nf-prcomoem-iprintcorehelper-setfontsubstitution.md) | The IPrintCoreHelper |
+| [IPrintCoreHelper::SetOptions](..\prcomoem\nf-prcomoem-iprintcorehelper-setoptions.md) | The IPrintCoreHelper |
+| [IPrintCoreHelper::WhyConstrained](..\prcomoem\nf-prcomoem-iprintcorehelper-whyconstrained.md) | The IPrintCoreHelper |
+| [IPrintCoreHelperPS::CreateInstanceOfMSXMLObject](..\prcomoem\nf-prcomoem-iprintcorehelperps-createinstanceofmsxmlobject.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperPS::EnumConstrainedOptions](..\prcomoem\nf-prcomoem-iprintcorehelperps-enumconstrainedoptions.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperPS::EnumFeatures](..\prcomoem\nf-prcomoem-iprintcorehelperps-enumfeatures.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperPS::EnumOptions](..\prcomoem\nf-prcomoem-iprintcorehelperps-enumoptions.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperPS::GetFeatureAttribute](..\prcomoem\nf-prcomoem-iprintcorehelperps-getfeatureattribute.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperPS::GetFontSubstitution](..\prcomoem\nf-prcomoem-iprintcorehelperps-getfontsubstitution.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperPS::GetGlobalAttribute](..\prcomoem\nf-prcomoem-iprintcorehelperps-getglobalattribute.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperPS::GetOptionAttribute](..\prcomoem\nf-prcomoem-iprintcorehelperps-getoptionattribute.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperPS::GetOption](..\prcomoem\nf-prcomoem-iprintcorehelperps-getoption.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperPS::SetFontSubstitution](..\prcomoem\nf-prcomoem-iprintcorehelperps-setfontsubstitution.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperPS::SetOptions](..\prcomoem\nf-prcomoem-iprintcorehelperps-setoptions.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperPS::WhyConstrained](..\prcomoem\nf-prcomoem-iprintcorehelperps-whyconstrained.md) | The IPrintCoreHelperPS |
+| [IPrintCoreHelperUni2::GetNamedCommand](..\prcomoem\nf-prcomoem-iprintcorehelperuni2-getnamedcommand.md) | The GetNamedCommand method returns the specified command. |
+| [IPrintCoreHelperUni::CreateDefaultGDLSnapshot](..\prcomoem\nf-prcomoem-iprintcorehelperuni-createdefaultgdlsnapshot.md) | The IPrintCoreHelperUni |
+| [IPrintCoreHelperUni::CreateGDLSnapshot](..\prcomoem\nf-prcomoem-iprintcorehelperuni-creategdlsnapshot.md) | The IPrintCoreHelperUni |
+| [IPrintCoreHelperUni::CreateInstanceOfMSXMLObject](..\prcomoem\nf-prcomoem-iprintcorehelperuni-createinstanceofmsxmlobject.md) | The IPrintCoreHelperUni |
+| [IPrintCoreHelperUni::EnumConstrainedOptions](..\prcomoem\nf-prcomoem-iprintcorehelperuni-enumconstrainedoptions.md) | The IPrintCoreHelperUni |
+| [IPrintCoreHelperUni::EnumFeatures](..\prcomoem\nf-prcomoem-iprintcorehelperuni-enumfeatures.md) | The IPrintCoreHelperUni |
+| [IPrintCoreHelperUni::EnumOptions](..\prcomoem\nf-prcomoem-iprintcorehelperuni-enumoptions.md) | The IPrintCoreHelperUni |
+| [IPrintCoreHelperUni::GetFontSubstitution](..\prcomoem\nf-prcomoem-iprintcorehelperuni-getfontsubstitution.md) | The IPrintCoreHelperUni |
+| [IPrintCoreHelperUni::GetOption](..\prcomoem\nf-prcomoem-iprintcorehelperuni-getoption.md) | The IPrintCoreHelperUni |
+| [IPrintCoreHelperUni::SetFontSubstitution](..\prcomoem\nf-prcomoem-iprintcorehelperuni-setfontsubstitution.md) | The IPrintCoreHelperUni |
+| [IPrintCoreHelperUni::SetOptions](..\prcomoem\nf-prcomoem-iprintcorehelperuni-setoptions.md) | The IPrintCoreHelperUni |
+| [IPrintCoreHelperUni::WhyConstrained](..\prcomoem\nf-prcomoem-iprintcorehelperuni-whyconstrained.md) | The IPrintCoreHelperUni |
+| [IPrintCorePS2::DrvWriteSpoolBuf](..\prcomoem\nf-prcomoem-iprintcoreps2-drvwritespoolbuf.md) | The IPrintCorePS2 |
+| [IPrintCorePS2::EnumFeatures](..\prcomoem\nf-prcomoem-iprintcoreps2-enumfeatures.md) | The IPrintCorePS2 |
+| [IPrintCorePS2::EnumOptions](..\prcomoem\nf-prcomoem-iprintcoreps2-enumoptions.md) | The IPrintCorePS2 |
+| [IPrintCorePS2::GetFeatureAttribute](..\prcomoem\nf-prcomoem-iprintcoreps2-getfeatureattribute.md) | The IPrintCorePS2 |
+| [IPrintCorePS2::GetGlobalAttribute](..\prcomoem\nf-prcomoem-iprintcoreps2-getglobalattribute.md) | The IPrintCorePS2 |
+| [IPrintCorePS2::GetOptionAttribute](..\prcomoem\nf-prcomoem-iprintcoreps2-getoptionattribute.md) | The IPrintCorePS2 |
+| [IPrintCorePS2::GetOptions](..\prcomoem\nf-prcomoem-iprintcoreps2-getoptions.md) | The IPrintCorePS2 |
+| [IPrintCoreUI2::DrvGetDriverSetting](..\prcomoem\nf-prcomoem-iprintcoreui2-drvgetdriversetting.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::DrvUpdateUISetting](..\prcomoem\nf-prcomoem-iprintcoreui2-drvupdateuisetting.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::DrvUpgradeRegistrySetting](..\prcomoem\nf-prcomoem-iprintcoreui2-drvupgraderegistrysetting.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::EnumConstrainedOptions](..\prcomoem\nf-prcomoem-iprintcoreui2-enumconstrainedoptions.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::EnumFeatures](..\prcomoem\nf-prcomoem-iprintcoreui2-enumfeatures.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::EnumOptions](..\prcomoem\nf-prcomoem-iprintcoreui2-enumoptions.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::GetFeatureAttribute](..\prcomoem\nf-prcomoem-iprintcoreui2-getfeatureattribute.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::GetGlobalAttribute](..\prcomoem\nf-prcomoem-iprintcoreui2-getglobalattribute.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::GetOptionAttribute](..\prcomoem\nf-prcomoem-iprintcoreui2-getoptionattribute.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::GetOptions](..\prcomoem\nf-prcomoem-iprintcoreui2-getoptions.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::QuerySimulationSupport](..\prcomoem\nf-prcomoem-iprintcoreui2-querysimulationsupport.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::SetOptions](..\prcomoem\nf-prcomoem-iprintcoreui2-setoptions.md) | The IPrintCoreUI2 |
+| [IPrintCoreUI2::WhyConstrained](..\prcomoem\nf-prcomoem-iprintcoreui2-whyconstrained.md) | The IPrintCoreUI2 |
+| [IPrintJob::RequestCancel](..\printerextension\nf-printerextension-iprintjob-requestcancel.md) | Requests the cancellation of a print job. |
+| [IPrintJob::get_Id](..\printerextension\nf-printerextension-iprintjob-get_id.md) | Gets the print job identifier (ID). |
+| [IPrintJob::get_Name](..\printerextension\nf-printerextension-iprintjob-get_name.md) | Gets the name of the print job. |
+| [IPrintJob::get_PrintedPages](..\printerextension\nf-printerextension-iprintjob-get_printedpages.md) | Gets the number of pages that have been printed. |
 | [IPrintJob::get_Status method](..\printerextension\nf-printerextension-iprintjob-get_status.md) | Gets the current status of the print job. |
-| [IPrintJob::get_SubmissionTime method](..\printerextension\nf-printerextension-iprintjob-get_submissiontime.md) | Gets the submission time, in the “DATE” format, provided in the user’s local time (not in the UTC format that is provided by the spooler). |
-| [IPrintJob::get_TotalPages method](..\printerextension\nf-printerextension-iprintjob-get_totalpages.md) | Gets the total number of pages that the document contains. |
-| [IPrintJobCollection::GetAt method](..\printerextension\nf-printerextension-iprintjobcollection-getat.md) | Gets a pointer to an IPrintJob object. |
-| [IPrintJobCollection::get_Count method](..\printerextension\nf-printerextension-iprintjobcollection-get_count.md) | Gets the number of jobs in the print queue. |
-| [IPrintOemDriverPS::DrvGetDriverSetting method](..\prcomoem\nf-prcomoem-iprintoemdriverps-drvgetdriversetting.md) | The IPrintOemDriverPS |
-| [IPrintOemDriverPS::DrvWriteSpoolBuf method](..\prcomoem\nf-prcomoem-iprintoemdriverps-drvwritespoolbuf.md) | The IPrintOemDriverPS |
-| [IPrintOemDriverUI::DrvGetDriverSetting method](..\prcomoem\nf-prcomoem-iprintoemdriverui-drvgetdriversetting.md) | The IPrintOemDriverUI |
-| [IPrintOemDriverUI::DrvUpdateUISetting method](..\prcomoem\nf-prcomoem-iprintoemdriverui-drvupdateuisetting.md) | The IPrintOemDriverUI |
-| [IPrintOemDriverUI::DrvUpgradeRegistrySetting method](..\prcomoem\nf-prcomoem-iprintoemdriverui-drvupgraderegistrysetting.md) | The IPrintOemDriverUI |
-| [IPrintOemDriverUni::DrvGetDriverSetting method](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvgetdriversetting.md) | The IPrintOemDriverUni |
-| [IPrintOemDriverUni::DrvGetGPDData method](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvgetgpddata.md) | The IPrintOemDriverUni |
-| [IPrintOemDriverUni::DrvGetStandardVariable method](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvgetstandardvariable.md) | The IPrintOemDriverUni |
-| [IPrintOemDriverUni::DrvUniTextOut method](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvunitextout.md) | The IPrintOemDriverUni |
-| [IPrintOemDriverUni::DrvWriteAbortBuf method](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvwriteabortbuf.md) | The IPrintOemDriverUni |
-| [IPrintOemDriverUni::DrvWriteSpoolBuf method](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf.md) | The IPrintOemDriverUni |
-| [IPrintOemDriverUni::DrvXMoveTo method](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvxmoveto.md) | The IPrintOemDriverUni |
-| [IPrintOemDriverUni::DrvYMoveTo method](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvymoveto.md) | The IPrintOemDriverUni |
-| [IPrintOemEngine::DisableDriver method](..\prcomoem\nf-prcomoem-iprintoemengine-disabledriver.md) | "." |
-| [IPrintOemEngine::DisablePDEV method](..\prcomoem\nf-prcomoem-iprintoemengine-disablepdev.md) | "." |
-| [IPrintOemEngine::EnableDriver method](..\prcomoem\nf-prcomoem-iprintoemengine-enabledriver.md) | "." |
-| [IPrintOemEngine::EnablePDEV method](..\prcomoem\nf-prcomoem-iprintoemengine-enablepdev.md) | "." |
-| [IPrintOemEngine::ResetPDEV method](..\prcomoem\nf-prcomoem-iprintoemengine-resetpdev.md) | "." |
-| [IPrintOemPS2::GetPDEVAdjustment method](..\prcomoem\nf-prcomoem-iprintoemps2-getpdevadjustment.md) | The IPrintOemPS2 |
-| [IPrintOemPS2::WritePrinter method](..\prcomoem\nf-prcomoem-iprintoemps2-writeprinter.md) | The IPrintOemPS2 |
-| [IPrintOemPS::Command method](..\prcomoem\nf-prcomoem-iprintoemps-command.md) | The IPrintOemPS |
-| [IPrintOemPS::DevMode method](..\prcomoem\nf-prcomoem-iprintoemps-devmode.md) | The IPrintOemPS |
-| [IPrintOemPS::DisableDriver method](..\prcomoem\nf-prcomoem-iprintoemps-disabledriver.md) | The IPrintOemPS |
-| [IPrintOemPS::DisablePDEV method](..\prcomoem\nf-prcomoem-iprintoemps-disablepdev.md) | The IPrintOemPS |
-| [IPrintOemPS::EnableDriver method](..\prcomoem\nf-prcomoem-iprintoemps-enabledriver.md) | The IPrintOemPS |
-| [IPrintOemPS::EnablePDEV method](..\prcomoem\nf-prcomoem-iprintoemps-enablepdev.md) | The IPrintOemPS |
-| [IPrintOemPS::GetInfo method](..\prcomoem\nf-prcomoem-iprintoemps-getinfo.md) | A rendering plug-in's IPrintOemPS |
-| [IPrintOemPS::PublishDriverInterface method](..\prcomoem\nf-prcomoem-iprintoemps-publishdriverinterface.md) | The IPrintOemPS |
-| [IPrintOemPS::ResetPDEV method](..\prcomoem\nf-prcomoem-iprintoemps-resetpdev.md) | The IPrintOemPS |
-| [IPrintOemPrintTicketProvider::BindPrinter method](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-bindprinter.md) | The IPrintOemPrintTicketProvider |
-| [IPrintOemPrintTicketProvider::CompletePrintCapabilities method](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-completeprintcapabilities.md) | The IPrintOemPrintTicketProvider |
-| [IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket method](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-convertdevmodetoprintticket.md) | The IPrintOemPrintTicketProvider |
-| [IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode method](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-convertprinttickettodevmode.md) | The IPrintOemPrintTicketProvider |
-| [IPrintOemPrintTicketProvider::ExpandIntentOptions method](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-expandintentoptions.md) | The IPrintOemPrintTicketProvider |
-| [IPrintOemPrintTicketProvider::GetSupportedVersions method](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-getsupportedversions.md) | The IPrintOemPrintTicketProvider |
-| [IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface method](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-publishprinttickethelperinterface.md) | The IPrintOemPrintTicketProvider |
-| [IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace method](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-querydevicedefaultnamespace.md) | The IPrintOemPrintTicketProvider |
-| [IPrintOemPrintTicketProvider::ValidatePrintTicket method](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-validateprintticket.md) | The IPrintOemPrintTicketProvider |
-| [IPrintOemUI2::DocumentEvent method](..\prcomoem\nf-prcomoem-iprintoemui2-documentevent.md) | The IPrintOemUI2 |
-| [IPrintOemUI2::HideStandardUI method](..\prcomoem\nf-prcomoem-iprintoemui2-hidestandardui.md) | The IPrintOemUI2 |
-| [IPrintOemUI2::QueryJobAttributes method](..\prcomoem\nf-prcomoem-iprintoemui2-queryjobattributes.md) | The IPrintOemUI2 |
-| [IPrintOemUI::CommonUIProp method](..\prcomoem\nf-prcomoem-iprintoemui-commonuiprop.md) | The IPrintOemUI |
-| [IPrintOemUI::DevMode method](..\prcomoem\nf-prcomoem-iprintoemui-devmode.md) | The IPrintOemUI |
-| [IPrintOemUI::DevQueryPrintEx method](..\prcomoem\nf-prcomoem-iprintoemui-devqueryprintex.md) | The IPrintOemUI |
-| [IPrintOemUI::DeviceCapabilities method](..\prcomoem\nf-prcomoem-iprintoemui-devicecapabilities.md) | The IPrintOemUI |
-| [IPrintOemUI::DevicePropertySheets method](..\prcomoem\nf-prcomoem-iprintoemui-devicepropertysheets.md) | The IPrintOemUI |
-| [IPrintOemUI::DocumentPropertySheets method](..\prcomoem\nf-prcomoem-iprintoemui-documentpropertysheets.md) | The IPrintOemUI |
-| [IPrintOemUI::DriverEvent method](..\prcomoem\nf-prcomoem-iprintoemui-driverevent.md) | The printer driver's DrvDriverEvent function calls a user interface plug-in's IPrintOemUI |
-| [IPrintOemUI::FontInstallerDlgProc method](..\prcomoem\nf-prcomoem-iprintoemui-fontinstallerdlgproc.md) | A user interface plug-in's IPrintOemUI |
-| [IPrintOemUI::GetInfo method](..\prcomoem\nf-prcomoem-iprintoemui-getinfo.md) | A user interface plug-in's IPrintOemUI |
-| [IPrintOemUI::PrinterEvent method](..\prcomoem\nf-prcomoem-iprintoemui-printerevent.md) | The IPrintOemUI |
-| [IPrintOemUI::PublishDriverInterface method](..\prcomoem\nf-prcomoem-iprintoemui-publishdriverinterface.md) | The IPrintOemUI |
-| [IPrintOemUI::QueryColorProfile method](..\prcomoem\nf-prcomoem-iprintoemui-querycolorprofile.md) | The IPrintOemUI |
-| [IPrintOemUI::UpdateExternalFonts method](..\prcomoem\nf-prcomoem-iprintoemui-updateexternalfonts.md) | The IPrintOemUI |
-| [IPrintOemUI::UpgradePrinter method](..\prcomoem\nf-prcomoem-iprintoemui-upgradeprinter.md) | The IPrintOemUI |
-| [IPrintOemUIMXDC::AdjustDPI method](..\prcomoem\nf-prcomoem-iprintoemuimxdc-adjustdpi.md) | The IPrintOemUIMXDC |
-| [IPrintOemUIMXDC::AdjustImageCompression method](..\prcomoem\nf-prcomoem-iprintoemuimxdc-adjustimagecompression.md) | The IPrintOemUIMXDC |
-| [IPrintOemUIMXDC::AdjustImageableArea method](..\prcomoem\nf-prcomoem-iprintoemuimxdc-adjustimageablearea.md) | The IPrintOemUIMXDC |
-| [IPrintOemUni2::GetImplementedMethod method](..\prcomoem\nf-prcomoem-iprintoemuni2-getimplementedmethod.md) | The IPrintOemUni2 |
-| [IPrintOemUni2::WritePrinter method](..\prcomoem\nf-prcomoem-iprintoemuni2-writeprinter.md) | The IPrintOemUni2 |
-| [IPrintOemUni3::DownloadPattern method](..\prcomoem\nf-prcomoem-iprintoemuni3-downloadpattern.md) | The IPrintOemUni3 |
-| [IPrintOemUni3::GetImplementedMethod method](..\prcomoem\nf-prcomoem-iprintoemuni3-getimplementedmethod.md) | The IPrintOemUni3 |
-| [IPrintOemUni3::GetPDEVAdjustment method](..\prcomoem\nf-prcomoem-iprintoemuni3-getpdevadjustment.md) | The IPrintOemUni3 |
-| [IPrintOemUni3::SetBandSize method](..\prcomoem\nf-prcomoem-iprintoemuni3-setbandsize.md) | The IPrintOemUni3 |
-| [IPrintOemUni::CommandCallback method](..\prcomoem\nf-prcomoem-iprintoemuni-commandcallback.md) | The IPrintOemUni |
-| [IPrintOemUni::Compression method](..\prcomoem\nf-prcomoem-iprintoemuni-compression.md) | The IPrintOemUni |
-| [IPrintOemUni::DevMode method](..\prcomoem\nf-prcomoem-iprintoemuni-devmode.md) | The IPrintOemUni |
-| [IPrintOemUni::DisableDriver method](..\prcomoem\nf-prcomoem-iprintoemuni-disabledriver.md) | The IPrintOemuNI |
-| [IPrintOemUni::DisablePDEV method](..\prcomoem\nf-prcomoem-iprintoemuni-disablepdev.md) | The IPrintOemUni |
-| [IPrintOemUni::DownloadCharGlyph method](..\prcomoem\nf-prcomoem-iprintoemuni-downloadcharglyph.md) | The IPrintOemUni |
-| [IPrintOemUni::DownloadFontHeader method](..\prcomoem\nf-prcomoem-iprintoemuni-downloadfontheader.md) | The IPrintOemUni |
-| [IPrintOemUni::DriverDMS method](..\prcomoem\nf-prcomoem-iprintoemuni-driverdms.md) | The IPrintOemUni |
-| [IPrintOemUni::EnableDriver method](..\prcomoem\nf-prcomoem-iprintoemuni-enabledriver.md) | The IPrintOemUni |
-| [IPrintOemUni::EnablePDEV method](..\prcomoem\nf-prcomoem-iprintoemuni-enablepdev.md) | The IPrintOemUni |
-| [IPrintOemUni::FilterGraphics method](..\prcomoem\nf-prcomoem-iprintoemuni-filtergraphics.md) | The IPrintOemUni |
-| [IPrintOemUni::GetImplementedMethod method](..\prcomoem\nf-prcomoem-iprintoemuni-getimplementedmethod.md) | The IPrintOemUni |
-| [IPrintOemUni::GetInfo method](..\prcomoem\nf-prcomoem-iprintoemuni-getinfo.md) | A rendering plug-in's IPrintOemUni |
-| [IPrintOemUni::HalftonePattern method](..\prcomoem\nf-prcomoem-iprintoemuni-halftonepattern.md) | The IPrintOemUni |
-| [IPrintOemUni::ImageProcessing method](..\prcomoem\nf-prcomoem-iprintoemuni-imageprocessing.md) | The IPrintOemUni |
-| [IPrintOemUni::MemoryUsage method](..\prcomoem\nf-prcomoem-iprintoemuni-memoryusage.md) | The IPrintOemUni |
-| [IPrintOemUni::OutputCharStr method](..\prcomoem\nf-prcomoem-iprintoemuni-outputcharstr.md) | The IPrintOemUni |
-| [IPrintOemUni::PublishDriverInterface method](..\prcomoem\nf-prcomoem-iprintoemuni-publishdriverinterface.md) | The IPrintOemUni |
-| [IPrintOemUni::ResetPDEV method](..\prcomoem\nf-prcomoem-iprintoemuni-resetpdev.md) | The IPrintOemUni |
-| [IPrintOemUni::SendFontCmd method](..\prcomoem\nf-prcomoem-iprintoemuni-sendfontcmd.md) | The IPrintOemUni |
-| [IPrintOemUni::TTDownloadMethod method](..\prcomoem\nf-prcomoem-iprintoemuni-ttdownloadmethod.md) | The IPrintOemUni |
-| [IPrintOemUni::TTYGetInfo method](..\prcomoem\nf-prcomoem-iprintoemuni-ttygetinfo.md) | The IPrintOemUni |
-| [IPrintOemUni::TextOutAsBitmap method](..\prcomoem\nf-prcomoem-iprintoemuni-textoutasbitmap.md) | The IPrintOemUni |
-| [IPrintPipelineFilter::InitializeFilter method](..\filterpipeline\nf-filterpipeline-iprintpipelinefilter-initializefilter.md) | The InitializeFilter method initializes a filter. |
-| [IPrintPipelineFilter::ShutdownOperation method](..\filterpipeline\nf-filterpipeline-iprintpipelinefilter-shutdownoperation.md) | The Pipeline Manager uses the ShutdownOperation method to shut down a filter if the print job is canceled or an error occurs. |
-| [IPrintPipelineFilter::StartOperation method](..\filterpipeline\nf-filterpipeline-iprintpipelinefilter-startoperation.md) | The StartOperation method starts the operation of a filter. The filter reads, processes, and writes data in this method. |
-| [IPrintPipelineManagerControl::FilterFinished method](..\filterpipeline\nf-filterpipeline-iprintpipelinemanagercontrol-filterfinished.md) | The FilterFinished method reports that a filter is finished processing. |
-| [IPrintPipelineManagerControl::RequestShutdown method](..\filterpipeline\nf-filterpipeline-iprintpipelinemanagercontrol-requestshutdown.md) | The RequestShutdown method requests that a pipeline be shut down. |
-| [IPrintPipelineProgressReport::ReportProgress method](..\filterpipeline\nf-filterpipeline-iprintpipelineprogressreport-reportprogress.md) | The ReportProgress method reports the progress of the XPS job consumption to the pipeline manager. |
-| [IPrintPipelinePropertyBag::AddProperty method](..\filterpipeline\nf-filterpipeline-iprintpipelinepropertybag-addproperty.md) | The AddProperty method adds a property to a property bag. |
-| [IPrintPipelinePropertyBag::DeleteProperty method](..\filterpipeline\nf-filterpipeline-iprintpipelinepropertybag-deleteproperty.md) | The DeleteProperty method deletes a property from a property bag. |
-| [IPrintPipelinePropertyBag::GetProperty method](..\filterpipeline\nf-filterpipeline-iprintpipelinepropertybag-getproperty.md) | The GetProperty method gets a property from a property bag. |
-| [IPrintReadStream::ReadBytes method](..\filterpipeline\nf-filterpipeline-iprintreadstream-readbytes.md) | The ReadBytes method reads a number of bytes into a buffer. |
-| [IPrintReadStream::Seek method](..\filterpipeline\nf-filterpipeline-iprintreadstream-seek.md) | The Seek method changes the seek pointer to a new location in the stream. |
-| [IPrintReadStreamFactory::GetStream method](..\filterpipeline\nf-filterpipeline-iprintreadstreamfactory-getstream.md) | The GetStream method gets the stream interface. |
-| [IPrintSchemaAsyncOperation::Cancel method](..\printerextension\nf-printerextension-iprintschemaasyncoperation-cancel.md) | Cancels the asynchronous PrintSchema operation. |
-| [IPrintSchemaAsyncOperation::Start method](..\printerextension\nf-printerextension-iprintschemaasyncoperation-start.md) | Starts the asynchronous PrintSchema operation. |
-| [IPrintSchemaAsyncOperationEvent::Completed method](..\printerextension\nf-printerextension-iprintschemaasyncoperationevent-completed.md) | Is called when asynchronous PrintSchema operation that is represented by an IPrintSchemaAsyncOperation context is completed. |
-| [IPrintSchemaCapabilities2::GetParameterDefinition method](..\printerextension\nf-printerextension-iprintschemacapabilities2-getparameterdefinition.md) | The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the &lt;psf |
-| [IPrintSchemaCapabilities::GetFeature method](..\printerextension\nf-printerextension-iprintschemacapabilities-getfeature.md) | Gets a named feature from the PrintCapabilities, by name and full namespace URI. |
-| [IPrintSchemaCapabilities::GetFeatureByKeyName method](..\printerextension\nf-printerextension-iprintschemacapabilities-getfeaturebykeyname.md) | Gets a feature from the PrintCapabilities based on a given key name. |
-| [IPrintSchemaCapabilities::GetOptions method](..\printerextension\nf-printerextension-iprintschemacapabilities-getoptions.md) | Gets all the options of a feature. |
-| [IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket method](..\printerextension\nf-printerextension-iprintschemacapabilities-getselectedoptioninprintticket.md) | Gets the selected option for a feature in IPrintSchemaTicket. |
-| [IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue method](..\printerextension\nf-printerextension-iprintschemacapabilities-get_jobcopiesalldocumentsmaxvalue.md) | Gets the JobCopiesAllDocuments parameter maximum value. |
-| [IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue method](..\printerextension\nf-printerextension-iprintschemacapabilities-get_jobcopiesalldocumentsminvalue.md) | Gets the JobCopiesAllDocuments parameter minimum value. |
-| [IPrintSchemaCapabilities::get_PageImageableSize method](..\printerextension\nf-printerextension-iprintschemacapabilities-get_pageimageablesize.md) | Gets the imageable area information of the printer. |
-| [IPrintSchemaDisplayableElement::get_DisplayName method](..\printerextension\nf-printerextension-iprintschemadisplayableelement-get_displayname.md) | Gets a displayable string for this item. |
-| [IPrintSchemaElement::get_Name method](..\printerextension\nf-printerextension-iprintschemaelement-get_name.md) | Gets the base value of the &#0034;name&#0034; attribute of this node. |
-| [IPrintSchemaElement::get_NamespaceUri method](..\printerextension\nf-printerextension-iprintschemaelement-get_namespaceuri.md) | Gets the namespace URI value of the &#0034;name&#0034; attribute of this node. |
-| [IPrintSchemaElement::get_XmlNode method](..\printerextension\nf-printerextension-iprintschemaelement-get_xmlnode.md) | Gets the IXMLDOMNode object associated with this item. |
-| [IPrintSchemaFeature::GetOption method](..\printerextension\nf-printerextension-iprintschemafeature-getoption.md) | Gets the option with the given name. |
-| [IPrintSchemaFeature::get_DisplayUI method](..\printerextension\nf-printerextension-iprintschemafeature-get_displayui.md) | Gets the setting that indicates whether or not to show the print UI. |
-| [IPrintSchemaFeature::get_SelectedOption method](..\printerextension\nf-printerextension-iprintschemafeature-get_selectedoption.md) | Gets an IPrintSchemaOption representing the selected option. |
-| [IPrintSchemaFeature::get_SelectionType method](..\printerextension\nf-printerextension-iprintschemafeature-get_selectiontype.md) | Gets the selection type of the Feature. |
-| [IPrintSchemaFeature::put_SelectedOption method](..\printerextension\nf-printerextension-iprintschemafeature-put_selectedoption.md) | Changes the selected option of the Print Schema Feature element to the specified IPrintSchemaOption element. |
-| [IPrintSchemaNUpOption::get_PagesPerSheet method](..\printerextension\nf-printerextension-iprintschemanupoption-get_pagespersheet.md) | Gets the number of pages per sheet. |
-| [IPrintSchemaOption::GetPropertyValue method](..\printerextension\nf-printerextension-iprintschemaoption-getpropertyvalue.md) | Gets the XML node for the &#0034;value&#0034; child element of a &#0034;Property&#0034; or a &#0034;ScoredProperty&#0034; element with the given name. |
-| [IPrintSchemaOption::get_Constrained method](..\printerextension\nf-printerextension-iprintschemaoption-get_constrained.md) | Gets the constraint setting type for the schema option. |
-| [IPrintSchemaOption::get_Selected method](..\printerextension\nf-printerextension-iprintschemaoption-get_selected.md) | Indicates whether this option is selected. |
-| [IPrintSchemaOptionCollection::GetAt method](..\printerextension\nf-printerextension-iprintschemaoptioncollection-getat.md) | Gets a pointer to an IPrintSchemaOption object. |
-| [IPrintSchemaOptionCollection::get_Count method](..\printerextension\nf-printerextension-iprintschemaoptioncollection-get_count.md) | Gets a count of the number of IPrintSchemaOption objects in the collection. |
-| [IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons method](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_extentheightinmicrons.md) | Gets the vertical distance between the origin and the bounding limit of the canvas application media size. |
-| [IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons method](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_extentwidthinmicrons.md) | Gets the horizontal distance between the origin and the bounding limit of the application media size. |
-| [IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons method](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_imageablesizeheightinmicrons.md) | Gets the vertical dimension of the application media size relative to the page orientation. |
-| [IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons method](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_imageablesizewidthinmicrons.md) | Gets the horizontal dimension of the application media size relative to the page orientation. |
-| [IPrintSchemaPageImageableSize::get_OriginHeightInMicrons method](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_originheightinmicrons.md) | Gets the vertical origin of the imageable area relative to the application media size. |
-| [IPrintSchemaPageImageableSize::get_OriginWidthInMicrons method](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_originwidthinmicrons.md) | Gets the horizontal origin of the imageable area relative to the application media size. |
-| [IPrintSchemaPageMediaSizeOption::get_HeightInMicrons method](..\printerextension\nf-printerextension-iprintschemapagemediasizeoption-get_heightinmicrons.md) | Gets the height of the page in microns. |
-| [IPrintSchemaPageMediaSizeOption::get_WidthInMicrons method](..\printerextension\nf-printerextension-iprintschemapagemediasizeoption-get_widthinmicrons.md) | Gets the width of the page in microns. |
-| [IPrintSchemaParameterDefinition::get_DataType method](..\printerextension\nf-printerextension-iprintschemaparameterdefinition-get_datatype.md) | The DataType property gets the PrintSchemaParameterDataType enumerated value that indicates the expected data type for the Print Schema parameter. |
-| [IPrintSchemaParameterDefinition::get_RangeMax method](..\printerextension\nf-printerextension-iprintschemaparameterdefinition-get_rangemax.md) | The RangeMax property gets the maximum value of the allowed data range. |
-| [IPrintSchemaParameterDefinition::get_RangeMin method](..\printerextension\nf-printerextension-iprintschemaparameterdefinition-get_rangemin.md) | The RangeMin property gets the minimum value of the allowed data range. |
-| [IPrintSchemaParameterDefinition::get_UnitType method](..\printerextension\nf-printerextension-iprintschemaparameterdefinition-get_unittype.md) | The UnitType property gets the unit type. |
-| [IPrintSchemaParameterDefinition::get_UserInputRequired method](..\printerextension\nf-printerextension-iprintschemaparameterdefinition-get_userinputrequired.md) | The UserInputRequired property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter. |
-| [IPrintSchemaParameterInitializer::get_Value method](..\printerextension\nf-printerextension-iprintschemaparameterinitializer-get_value.md) | The Value (get_Value) property gets the current value of the IPrintSchemaParameterInitializer object. |
-| [IPrintSchemaParameterInitializer::put_Value method](..\printerextension\nf-printerextension-iprintschemaparameterinitializer-put_value.md) | The Value (put_Value) property modifies the value of the IPrintSchemaParameterInitializer object. |
-| [IPrintSchemaTicket2::GetParameterInitializer method](..\printerextension\nf-printerextension-iprintschematicket2-getparameterinitializer.md) | The GetParameterInitializer method retrieves the IPrintSchemaParameterInitializer object, and it represents the &lt;psf |
-| [IPrintSchemaTicket::CommitAsync method](..\printerextension\nf-printerextension-iprintschematicket-commitasync.md) | Gets an asynchronous PrintTicket commit operation context. |
-| [IPrintSchemaTicket::GetCapabilities method](..\printerextension\nf-printerextension-iprintschematicket-getcapabilities.md) | Gets an IPrintSchemaCapabilities object that represents the printer capabilities based on the current settings of this IPrintSchemaTicket object. |
-| [IPrintSchemaTicket::GetFeature method](..\printerextension\nf-printerextension-iprintschematicket-getfeature.md) | Gets a named feature from the PrintTicket, by name and full namespace URI. |
-| [IPrintSchemaTicket::GetFeatureByKeyName method](..\printerextension\nf-printerextension-iprintschematicket-getfeaturebykeyname.md) | Gets a feature from the PrintTicket based on the specified key name. |
-| [IPrintSchemaTicket::NotifyXmlChanged method](..\printerextension\nf-printerextension-iprintschematicket-notifyxmlchanged.md) | Notifies the print system that the XML DOM object has changed. |
-| [IPrintSchemaTicket::ValidateAsync method](..\printerextension\nf-printerextension-iprintschematicket-validateasync.md) | Gets an asynchronous PrintTicket validation operation context. |
-| [IPrintSchemaTicket::get_JobCopiesAllDocuments method](..\printerextension\nf-printerextension-iprintschematicket-get_jobcopiesalldocuments.md) | Gets the copy count. |
-| [IPrintSchemaTicket::put_JobCopiesAllDocuments method](..\printerextension\nf-printerextension-iprintschematicket-put_jobcopiesalldocuments.md) | Sets the copy count. |
-| [IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification method](..\prnasntp\nf-prnasntp-iprintunidiasyncnotifyregistration-asyncgetnotification.md) | "." |
-| [IPrintWriteStream::Close method](..\filterpipeline\nf-filterpipeline-iprintwritestream-close.md) | The Close method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing. |
-| [IPrintWriteStream::WriteBytes method](..\filterpipeline\nf-filterpipeline-iprintwritestream-writebytes.md) | The WriteBytes method writes a specified number of bytes to a stream. |
-| [IPrintWriteStreamFlush::FlushData method](..\filterpipeline\nf-filterpipeline-iprintwritestreamflush-flushdata.md) | The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream. |
-| [IPrinterBidiSetRequestCallback::Completed method](..\printerextension\nf-printerextension-iprinterbidisetrequestcallback-completed.md) | Invoked when the Bidi “Set”” operation is completed. |
-| [IPrinterExtensionAsyncOperation::Cancel method](..\printerextension\nf-printerextension-iprinterextensionasyncoperation-cancel.md) | Cancels the asynchronous operation. |
-| [IPrinterExtensionContext::get_DriverProperties method](..\printerextension\nf-printerextension-iprinterextensioncontext-get_driverproperties.md) | Gets the driver property bag. |
-| [IPrinterExtensionContext::get_PrintSchemaTicket method](..\printerextension\nf-printerextension-iprinterextensioncontext-get_printschematicket.md) | Gets the print ticket that is appropriate for the queue and the activation. |
-| [IPrinterExtensionContext::get_PrinterQueue method](..\printerextension\nf-printerextension-iprinterextensioncontext-get_printerqueue.md) | Gets the queue for the printer. |
-| [IPrinterExtensionContext::get_UserProperties method](..\printerextension\nf-printerextension-iprinterextensioncontext-get_userproperties.md) | Gets the user property bag for this app. |
-| [IPrinterExtensionContextCollection::GetAt method](..\printerextension\nf-printerextension-iprinterextensioncontextcollection-getat.md) | Gets a pointer to an IPrinterExtensionContext object. |
-| [IPrinterExtensionContextCollection::get_Count method](..\printerextension\nf-printerextension-iprinterextensioncontextcollection-get_count.md) | Gets a count of the number of IPrinterExtensionContext objects in the collection. |
+| [IPrintJob::get_SubmissionTime](..\printerextension\nf-printerextension-iprintjob-get_submissiontime.md) | Gets the submission time, in the “DATE” format, provided in the user’s local time (not in the UTC format that is provided by the spooler). |
+| [IPrintJob::get_TotalPages](..\printerextension\nf-printerextension-iprintjob-get_totalpages.md) | Gets the total number of pages that the document contains. |
+| [IPrintJobCollection::GetAt](..\printerextension\nf-printerextension-iprintjobcollection-getat.md) | Gets a pointer to an IPrintJob object. |
+| [IPrintJobCollection::get_Count](..\printerextension\nf-printerextension-iprintjobcollection-get_count.md) | Gets the number of jobs in the print queue. |
+| [IPrintJobCollection::get__NewEnum](..\printerextension\nf-printerextension-iprintjobcollection-get__newenum.md) | Gets a pointer to the enumerants of IPrintJobCollection objects. |
+| [IPrintOemDriverPS::DrvGetDriverSetting](..\prcomoem\nf-prcomoem-iprintoemdriverps-drvgetdriversetting.md) | The IPrintOemDriverPS |
+| [IPrintOemDriverPS::DrvWriteSpoolBuf](..\prcomoem\nf-prcomoem-iprintoemdriverps-drvwritespoolbuf.md) | The IPrintOemDriverPS |
+| [IPrintOemDriverUI::DrvGetDriverSetting](..\prcomoem\nf-prcomoem-iprintoemdriverui-drvgetdriversetting.md) | The IPrintOemDriverUI |
+| [IPrintOemDriverUI::DrvUpdateUISetting](..\prcomoem\nf-prcomoem-iprintoemdriverui-drvupdateuisetting.md) | The IPrintOemDriverUI |
+| [IPrintOemDriverUI::DrvUpgradeRegistrySetting](..\prcomoem\nf-prcomoem-iprintoemdriverui-drvupgraderegistrysetting.md) | The IPrintOemDriverUI |
+| [IPrintOemDriverUni::DrvGetDriverSetting](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvgetdriversetting.md) | The IPrintOemDriverUni |
+| [IPrintOemDriverUni::DrvGetGPDData](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvgetgpddata.md) | The IPrintOemDriverUni |
+| [IPrintOemDriverUni::DrvGetStandardVariable](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvgetstandardvariable.md) | The IPrintOemDriverUni |
+| [IPrintOemDriverUni::DrvUniTextOut](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvunitextout.md) | The IPrintOemDriverUni |
+| [IPrintOemDriverUni::DrvWriteAbortBuf](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvwriteabortbuf.md) | The IPrintOemDriverUni |
+| [IPrintOemDriverUni::DrvWriteSpoolBuf](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf.md) | The IPrintOemDriverUni |
+| [IPrintOemDriverUni::DrvXMoveTo](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvxmoveto.md) | The IPrintOemDriverUni |
+| [IPrintOemDriverUni::DrvYMoveTo](..\prcomoem\nf-prcomoem-iprintoemdriveruni-drvymoveto.md) | The IPrintOemDriverUni |
+| [IPrintOemEngine::DisableDriver](..\prcomoem\nf-prcomoem-iprintoemengine-disabledriver.md) | "." |
+| [IPrintOemEngine::DisablePDEV](..\prcomoem\nf-prcomoem-iprintoemengine-disablepdev.md) | "." |
+| [IPrintOemEngine::EnableDriver](..\prcomoem\nf-prcomoem-iprintoemengine-enabledriver.md) | "." |
+| [IPrintOemEngine::EnablePDEV](..\prcomoem\nf-prcomoem-iprintoemengine-enablepdev.md) | "." |
+| [IPrintOemEngine::ResetPDEV](..\prcomoem\nf-prcomoem-iprintoemengine-resetpdev.md) | "." |
+| [IPrintOemPS2::GetPDEVAdjustment](..\prcomoem\nf-prcomoem-iprintoemps2-getpdevadjustment.md) | The IPrintOemPS2 |
+| [IPrintOemPS2::WritePrinter](..\prcomoem\nf-prcomoem-iprintoemps2-writeprinter.md) | The IPrintOemPS2 |
+| [IPrintOemPS::Command](..\prcomoem\nf-prcomoem-iprintoemps-command.md) | The IPrintOemPS |
+| [IPrintOemPS::DevMode](..\prcomoem\nf-prcomoem-iprintoemps-devmode.md) | The IPrintOemPS |
+| [IPrintOemPS::DisableDriver](..\prcomoem\nf-prcomoem-iprintoemps-disabledriver.md) | The IPrintOemPS |
+| [IPrintOemPS::DisablePDEV](..\prcomoem\nf-prcomoem-iprintoemps-disablepdev.md) | The IPrintOemPS |
+| [IPrintOemPS::EnableDriver](..\prcomoem\nf-prcomoem-iprintoemps-enabledriver.md) | The IPrintOemPS |
+| [IPrintOemPS::EnablePDEV](..\prcomoem\nf-prcomoem-iprintoemps-enablepdev.md) | The IPrintOemPS |
+| [IPrintOemPS::GetInfo](..\prcomoem\nf-prcomoem-iprintoemps-getinfo.md) | A rendering plug-in's IPrintOemPS |
+| [IPrintOemPS::PublishDriverInterface](..\prcomoem\nf-prcomoem-iprintoemps-publishdriverinterface.md) | The IPrintOemPS |
+| [IPrintOemPS::ResetPDEV](..\prcomoem\nf-prcomoem-iprintoemps-resetpdev.md) | The IPrintOemPS |
+| [IPrintOemPrintTicketProvider::BindPrinter](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-bindprinter.md) | The IPrintOemPrintTicketProvider |
+| [IPrintOemPrintTicketProvider::CompletePrintCapabilities](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-completeprintcapabilities.md) | The IPrintOemPrintTicketProvider |
+| [IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-convertdevmodetoprintticket.md) | The IPrintOemPrintTicketProvider |
+| [IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-convertprinttickettodevmode.md) | The IPrintOemPrintTicketProvider |
+| [IPrintOemPrintTicketProvider::ExpandIntentOptions](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-expandintentoptions.md) | The IPrintOemPrintTicketProvider |
+| [IPrintOemPrintTicketProvider::GetSupportedVersions](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-getsupportedversions.md) | The IPrintOemPrintTicketProvider |
+| [IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-publishprinttickethelperinterface.md) | The IPrintOemPrintTicketProvider |
+| [IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-querydevicedefaultnamespace.md) | The IPrintOemPrintTicketProvider |
+| [IPrintOemPrintTicketProvider::ValidatePrintTicket](..\prcomoem\nf-prcomoem-iprintoemprintticketprovider-validateprintticket.md) | The IPrintOemPrintTicketProvider |
+| [IPrintOemUI2::DocumentEvent](..\prcomoem\nf-prcomoem-iprintoemui2-documentevent.md) | The IPrintOemUI2 |
+| [IPrintOemUI2::HideStandardUI](..\prcomoem\nf-prcomoem-iprintoemui2-hidestandardui.md) | The IPrintOemUI2 |
+| [IPrintOemUI2::QueryJobAttributes](..\prcomoem\nf-prcomoem-iprintoemui2-queryjobattributes.md) | The IPrintOemUI2 |
+| [IPrintOemUI::CommonUIProp](..\prcomoem\nf-prcomoem-iprintoemui-commonuiprop.md) | The IPrintOemUI |
+| [IPrintOemUI::DevMode](..\prcomoem\nf-prcomoem-iprintoemui-devmode.md) | The IPrintOemUI |
+| [IPrintOemUI::DevQueryPrintEx](..\prcomoem\nf-prcomoem-iprintoemui-devqueryprintex.md) | The IPrintOemUI |
+| [IPrintOemUI::DeviceCapabilities](..\prcomoem\nf-prcomoem-iprintoemui-devicecapabilities.md) | The IPrintOemUI |
+| [IPrintOemUI::DevicePropertySheets](..\prcomoem\nf-prcomoem-iprintoemui-devicepropertysheets.md) | The IPrintOemUI |
+| [IPrintOemUI::DocumentPropertySheets](..\prcomoem\nf-prcomoem-iprintoemui-documentpropertysheets.md) | The IPrintOemUI |
+| [IPrintOemUI::DriverEvent](..\prcomoem\nf-prcomoem-iprintoemui-driverevent.md) | The printer driver's DrvDriverEvent function calls a user interface plug-in's IPrintOemUI |
+| [IPrintOemUI::FontInstallerDlgProc](..\prcomoem\nf-prcomoem-iprintoemui-fontinstallerdlgproc.md) | A user interface plug-in's IPrintOemUI |
+| [IPrintOemUI::GetInfo](..\prcomoem\nf-prcomoem-iprintoemui-getinfo.md) | A user interface plug-in's IPrintOemUI |
+| [IPrintOemUI::PrinterEvent](..\prcomoem\nf-prcomoem-iprintoemui-printerevent.md) | The IPrintOemUI |
+| [IPrintOemUI::PublishDriverInterface](..\prcomoem\nf-prcomoem-iprintoemui-publishdriverinterface.md) | The IPrintOemUI |
+| [IPrintOemUI::QueryColorProfile](..\prcomoem\nf-prcomoem-iprintoemui-querycolorprofile.md) | The IPrintOemUI |
+| [IPrintOemUI::UpdateExternalFonts](..\prcomoem\nf-prcomoem-iprintoemui-updateexternalfonts.md) | The IPrintOemUI |
+| [IPrintOemUI::UpgradePrinter](..\prcomoem\nf-prcomoem-iprintoemui-upgradeprinter.md) | The IPrintOemUI |
+| [IPrintOemUIMXDC::AdjustDPI](..\prcomoem\nf-prcomoem-iprintoemuimxdc-adjustdpi.md) | The IPrintOemUIMXDC |
+| [IPrintOemUIMXDC::AdjustImageCompression](..\prcomoem\nf-prcomoem-iprintoemuimxdc-adjustimagecompression.md) | The IPrintOemUIMXDC |
+| [IPrintOemUIMXDC::AdjustImageableArea](..\prcomoem\nf-prcomoem-iprintoemuimxdc-adjustimageablearea.md) | The IPrintOemUIMXDC |
+| [IPrintOemUni2::GetImplementedMethod](..\prcomoem\nf-prcomoem-iprintoemuni2-getimplementedmethod.md) | The IPrintOemUni2 |
+| [IPrintOemUni2::WritePrinter](..\prcomoem\nf-prcomoem-iprintoemuni2-writeprinter.md) | The IPrintOemUni2 |
+| [IPrintOemUni3::DownloadPattern](..\prcomoem\nf-prcomoem-iprintoemuni3-downloadpattern.md) | The IPrintOemUni3 |
+| [IPrintOemUni3::GetImplementedMethod](..\prcomoem\nf-prcomoem-iprintoemuni3-getimplementedmethod.md) | The IPrintOemUni3 |
+| [IPrintOemUni3::GetPDEVAdjustment](..\prcomoem\nf-prcomoem-iprintoemuni3-getpdevadjustment.md) | The IPrintOemUni3 |
+| [IPrintOemUni3::SetBandSize](..\prcomoem\nf-prcomoem-iprintoemuni3-setbandsize.md) | The IPrintOemUni3 |
+| [IPrintOemUni::CommandCallback](..\prcomoem\nf-prcomoem-iprintoemuni-commandcallback.md) | The IPrintOemUni |
+| [IPrintOemUni::Compression](..\prcomoem\nf-prcomoem-iprintoemuni-compression.md) | The IPrintOemUni |
+| [IPrintOemUni::DevMode](..\prcomoem\nf-prcomoem-iprintoemuni-devmode.md) | The IPrintOemUni |
+| [IPrintOemUni::DisableDriver](..\prcomoem\nf-prcomoem-iprintoemuni-disabledriver.md) | The IPrintOemuNI |
+| [IPrintOemUni::DisablePDEV](..\prcomoem\nf-prcomoem-iprintoemuni-disablepdev.md) | The IPrintOemUni |
+| [IPrintOemUni::DownloadCharGlyph](..\prcomoem\nf-prcomoem-iprintoemuni-downloadcharglyph.md) | The IPrintOemUni |
+| [IPrintOemUni::DownloadFontHeader](..\prcomoem\nf-prcomoem-iprintoemuni-downloadfontheader.md) | The IPrintOemUni |
+| [IPrintOemUni::DriverDMS](..\prcomoem\nf-prcomoem-iprintoemuni-driverdms.md) | The IPrintOemUni |
+| [IPrintOemUni::EnableDriver](..\prcomoem\nf-prcomoem-iprintoemuni-enabledriver.md) | The IPrintOemUni |
+| [IPrintOemUni::EnablePDEV](..\prcomoem\nf-prcomoem-iprintoemuni-enablepdev.md) | The IPrintOemUni |
+| [IPrintOemUni::FilterGraphics](..\prcomoem\nf-prcomoem-iprintoemuni-filtergraphics.md) | The IPrintOemUni |
+| [IPrintOemUni::GetImplementedMethod](..\prcomoem\nf-prcomoem-iprintoemuni-getimplementedmethod.md) | The IPrintOemUni |
+| [IPrintOemUni::GetInfo](..\prcomoem\nf-prcomoem-iprintoemuni-getinfo.md) | A rendering plug-in's IPrintOemUni |
+| [IPrintOemUni::HalftonePattern](..\prcomoem\nf-prcomoem-iprintoemuni-halftonepattern.md) | The IPrintOemUni |
+| [IPrintOemUni::ImageProcessing](..\prcomoem\nf-prcomoem-iprintoemuni-imageprocessing.md) | The IPrintOemUni |
+| [IPrintOemUni::MemoryUsage](..\prcomoem\nf-prcomoem-iprintoemuni-memoryusage.md) | The IPrintOemUni |
+| [IPrintOemUni::OutputCharStr](..\prcomoem\nf-prcomoem-iprintoemuni-outputcharstr.md) | The IPrintOemUni |
+| [IPrintOemUni::PublishDriverInterface](..\prcomoem\nf-prcomoem-iprintoemuni-publishdriverinterface.md) | The IPrintOemUni |
+| [IPrintOemUni::ResetPDEV](..\prcomoem\nf-prcomoem-iprintoemuni-resetpdev.md) | The IPrintOemUni |
+| [IPrintOemUni::SendFontCmd](..\prcomoem\nf-prcomoem-iprintoemuni-sendfontcmd.md) | The IPrintOemUni |
+| [IPrintOemUni::TTDownloadMethod](..\prcomoem\nf-prcomoem-iprintoemuni-ttdownloadmethod.md) | The IPrintOemUni |
+| [IPrintOemUni::TTYGetInfo](..\prcomoem\nf-prcomoem-iprintoemuni-ttygetinfo.md) | The IPrintOemUni |
+| [IPrintOemUni::TextOutAsBitmap](..\prcomoem\nf-prcomoem-iprintoemuni-textoutasbitmap.md) | The IPrintOemUni |
+| [IPrintPipelineFilter::InitializeFilter](..\filterpipeline\nf-filterpipeline-iprintpipelinefilter-initializefilter.md) | The InitializeFilter method initializes a filter. |
+| [IPrintPipelineFilter::ShutdownOperation](..\filterpipeline\nf-filterpipeline-iprintpipelinefilter-shutdownoperation.md) | The Pipeline Manager uses the ShutdownOperation method to shut down a filter if the print job is canceled or an error occurs. |
+| [IPrintPipelineFilter::StartOperation](..\filterpipeline\nf-filterpipeline-iprintpipelinefilter-startoperation.md) | The StartOperation method starts the operation of a filter. The filter reads, processes, and writes data in this method. |
+| [IPrintPipelineManagerControl::FilterFinished](..\filterpipeline\nf-filterpipeline-iprintpipelinemanagercontrol-filterfinished.md) | The FilterFinished method reports that a filter is finished processing. |
+| [IPrintPipelineManagerControl::RequestShutdown](..\filterpipeline\nf-filterpipeline-iprintpipelinemanagercontrol-requestshutdown.md) | The RequestShutdown method requests that a pipeline be shut down. |
+| [IPrintPipelineProgressReport::ReportProgress](..\filterpipeline\nf-filterpipeline-iprintpipelineprogressreport-reportprogress.md) | The ReportProgress method reports the progress of the XPS job consumption to the pipeline manager. |
+| [IPrintPipelinePropertyBag::AddProperty](..\filterpipeline\nf-filterpipeline-iprintpipelinepropertybag-addproperty.md) | The AddProperty method adds a property to a property bag. |
+| [IPrintPipelinePropertyBag::DeleteProperty](..\filterpipeline\nf-filterpipeline-iprintpipelinepropertybag-deleteproperty.md) | The DeleteProperty method deletes a property from a property bag. |
+| [IPrintPipelinePropertyBag::GetProperty](..\filterpipeline\nf-filterpipeline-iprintpipelinepropertybag-getproperty.md) | The GetProperty method gets a property from a property bag. |
+| [IPrintReadStream::ReadBytes](..\filterpipeline\nf-filterpipeline-iprintreadstream-readbytes.md) | The ReadBytes method reads a number of bytes into a buffer. |
+| [IPrintReadStream::Seek](..\filterpipeline\nf-filterpipeline-iprintreadstream-seek.md) | The Seek method changes the seek pointer to a new location in the stream. |
+| [IPrintReadStreamFactory::GetStream](..\filterpipeline\nf-filterpipeline-iprintreadstreamfactory-getstream.md) | The GetStream method gets the stream interface. |
+| [IPrintSchemaAsyncOperation::Cancel](..\printerextension\nf-printerextension-iprintschemaasyncoperation-cancel.md) | Cancels the asynchronous PrintSchema operation. |
+| [IPrintSchemaAsyncOperation::Start](..\printerextension\nf-printerextension-iprintschemaasyncoperation-start.md) | Starts the asynchronous PrintSchema operation. |
+| [IPrintSchemaAsyncOperationEvent::Completed](..\printerextension\nf-printerextension-iprintschemaasyncoperationevent-completed.md) | Is called when asynchronous PrintSchema operation that is represented by an IPrintSchemaAsyncOperation context is completed. |
+| [IPrintSchemaCapabilities2::GetParameterDefinition](..\printerextension\nf-printerextension-iprintschemacapabilities2-getparameterdefinition.md) | The GetParameterDefinition method retrieves the IPrintSchemaParameterDefinition object, and it represents the &lt;psf |
+| [IPrintSchemaCapabilities::GetFeatureByKeyName](..\printerextension\nf-printerextension-iprintschemacapabilities-getfeaturebykeyname.md) | Gets a feature from the PrintCapabilities based on a given key name. |
+| [IPrintSchemaCapabilities::GetFeature](..\printerextension\nf-printerextension-iprintschemacapabilities-getfeature.md) | Gets a named feature from the PrintCapabilities, by name and full namespace URI. |
+| [IPrintSchemaCapabilities::GetOptions](..\printerextension\nf-printerextension-iprintschemacapabilities-getoptions.md) | Gets all the options of a feature. |
+| [IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket](..\printerextension\nf-printerextension-iprintschemacapabilities-getselectedoptioninprintticket.md) | Gets the selected option for a feature in IPrintSchemaTicket. |
+| [IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue](..\printerextension\nf-printerextension-iprintschemacapabilities-get_jobcopiesalldocumentsmaxvalue.md) | Gets the JobCopiesAllDocuments parameter maximum value. |
+| [IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue](..\printerextension\nf-printerextension-iprintschemacapabilities-get_jobcopiesalldocumentsminvalue.md) | Gets the JobCopiesAllDocuments parameter minimum value. |
+| [IPrintSchemaCapabilities::get_PageImageableSize](..\printerextension\nf-printerextension-iprintschemacapabilities-get_pageimageablesize.md) | Gets the imageable area information of the printer. |
+| [IPrintSchemaDisplayableElement::get_DisplayName](..\printerextension\nf-printerextension-iprintschemadisplayableelement-get_displayname.md) | Gets a displayable string for this item. |
+| [IPrintSchemaElement::get_Name](..\printerextension\nf-printerextension-iprintschemaelement-get_name.md) | Gets the base value of the &#0034;name&#0034; attribute of this node. |
+| [IPrintSchemaElement::get_NamespaceUri](..\printerextension\nf-printerextension-iprintschemaelement-get_namespaceuri.md) | Gets the namespace URI value of the &#0034;name&#0034; attribute of this node. |
+| [IPrintSchemaElement::get_XmlNode](..\printerextension\nf-printerextension-iprintschemaelement-get_xmlnode.md) | Gets the IXMLDOMNode object associated with this item. |
+| [IPrintSchemaFeature::GetOption](..\printerextension\nf-printerextension-iprintschemafeature-getoption.md) | Gets the option with the given name. |
+| [IPrintSchemaFeature::get_DisplayUI](..\printerextension\nf-printerextension-iprintschemafeature-get_displayui.md) | Gets the setting that indicates whether or not to show the print UI. |
+| [IPrintSchemaFeature::get_SelectedOption](..\printerextension\nf-printerextension-iprintschemafeature-get_selectedoption.md) | Gets an IPrintSchemaOption representing the selected option. |
+| [IPrintSchemaFeature::get_SelectionType](..\printerextension\nf-printerextension-iprintschemafeature-get_selectiontype.md) | Gets the selection type of the Feature. |
+| [IPrintSchemaFeature::put_SelectedOption](..\printerextension\nf-printerextension-iprintschemafeature-put_selectedoption.md) | Changes the selected option of the Print Schema Feature element to the specified IPrintSchemaOption element. |
+| [IPrintSchemaNUpOption::get_PagesPerSheet](..\printerextension\nf-printerextension-iprintschemanupoption-get_pagespersheet.md) | Gets the number of pages per sheet. |
+| [IPrintSchemaOption::GetPropertyValue](..\printerextension\nf-printerextension-iprintschemaoption-getpropertyvalue.md) | Gets the XML node for the &#0034;value&#0034; child element of a &#0034;Property&#0034; or a &#0034;ScoredProperty&#0034; element with the given name. |
+| [IPrintSchemaOption::get_Constrained](..\printerextension\nf-printerextension-iprintschemaoption-get_constrained.md) | Gets the constraint setting type for the schema option. |
+| [IPrintSchemaOption::get_Selected](..\printerextension\nf-printerextension-iprintschemaoption-get_selected.md) | Indicates whether this option is selected. |
+| [IPrintSchemaOptionCollection::GetAt](..\printerextension\nf-printerextension-iprintschemaoptioncollection-getat.md) | Gets a pointer to an IPrintSchemaOption object. |
+| [IPrintSchemaOptionCollection::get_Count](..\printerextension\nf-printerextension-iprintschemaoptioncollection-get_count.md) | Gets a count of the number of IPrintSchemaOption objects in the collection. |
+| [IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_extentheightinmicrons.md) | Gets the vertical distance between the origin and the bounding limit of the canvas application media size. |
+| [IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_extentwidthinmicrons.md) | Gets the horizontal distance between the origin and the bounding limit of the application media size. |
+| [IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_imageablesizeheightinmicrons.md) | Gets the vertical dimension of the application media size relative to the page orientation. |
+| [IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_imageablesizewidthinmicrons.md) | Gets the horizontal dimension of the application media size relative to the page orientation. |
+| [IPrintSchemaPageImageableSize::get_OriginHeightInMicrons](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_originheightinmicrons.md) | Gets the vertical origin of the imageable area relative to the application media size. |
+| [IPrintSchemaPageImageableSize::get_OriginWidthInMicrons](..\printerextension\nf-printerextension-iprintschemapageimageablesize-get_originwidthinmicrons.md) | Gets the horizontal origin of the imageable area relative to the application media size. |
+| [IPrintSchemaPageMediaSizeOption::get_HeightInMicrons](..\printerextension\nf-printerextension-iprintschemapagemediasizeoption-get_heightinmicrons.md) | Gets the height of the page in microns. |
+| [IPrintSchemaPageMediaSizeOption::get_WidthInMicrons](..\printerextension\nf-printerextension-iprintschemapagemediasizeoption-get_widthinmicrons.md) | Gets the width of the page in microns. |
+| [IPrintSchemaParameterDefinition::get_DataType](..\printerextension\nf-printerextension-iprintschemaparameterdefinition-get_datatype.md) | The DataType property gets the PrintSchemaParameterDataType enumerated value that indicates the expected data type for the Print Schema parameter. |
+| [IPrintSchemaParameterDefinition::get_RangeMax](..\printerextension\nf-printerextension-iprintschemaparameterdefinition-get_rangemax.md) | The RangeMax property gets the maximum value of the allowed data range. |
+| [IPrintSchemaParameterDefinition::get_RangeMin](..\printerextension\nf-printerextension-iprintschemaparameterdefinition-get_rangemin.md) | The RangeMin property gets the minimum value of the allowed data range. |
+| [IPrintSchemaParameterDefinition::get_UnitType](..\printerextension\nf-printerextension-iprintschemaparameterdefinition-get_unittype.md) | The UnitType property gets the unit type. |
+| [IPrintSchemaParameterDefinition::get_UserInputRequired](..\printerextension\nf-printerextension-iprintschemaparameterdefinition-get_userinputrequired.md) | The UserInputRequired property gets the Boolean value that indicates whether or not a user input value is required for the Print Schema parameter. |
+| [IPrintSchemaParameterInitializer::get_Value](..\printerextension\nf-printerextension-iprintschemaparameterinitializer-get_value.md) | The Value (get_Value) property gets the current value of the IPrintSchemaParameterInitializer object. |
+| [IPrintSchemaParameterInitializer::put_Value](..\printerextension\nf-printerextension-iprintschemaparameterinitializer-put_value.md) | The Value (put_Value) property modifies the value of the IPrintSchemaParameterInitializer object. |
+| [IPrintSchemaTicket2::GetParameterInitializer](..\printerextension\nf-printerextension-iprintschematicket2-getparameterinitializer.md) | The GetParameterInitializer method retrieves the IPrintSchemaParameterInitializer object, and it represents the &lt;psf |
+| [IPrintSchemaTicket::CommitAsync](..\printerextension\nf-printerextension-iprintschematicket-commitasync.md) | Gets an asynchronous PrintTicket commit operation context. |
+| [IPrintSchemaTicket::GetCapabilities](..\printerextension\nf-printerextension-iprintschematicket-getcapabilities.md) | Gets an IPrintSchemaCapabilities object that represents the printer capabilities based on the current settings of this IPrintSchemaTicket object. |
+| [IPrintSchemaTicket::GetFeatureByKeyName](..\printerextension\nf-printerextension-iprintschematicket-getfeaturebykeyname.md) | Gets a feature from the PrintTicket based on the specified key name. |
+| [IPrintSchemaTicket::GetFeature](..\printerextension\nf-printerextension-iprintschematicket-getfeature.md) | Gets a named feature from the PrintTicket, by name and full namespace URI. |
+| [IPrintSchemaTicket::NotifyXmlChanged](..\printerextension\nf-printerextension-iprintschematicket-notifyxmlchanged.md) | Notifies the print system that the XML DOM object has changed. |
+| [IPrintSchemaTicket::ValidateAsync](..\printerextension\nf-printerextension-iprintschematicket-validateasync.md) | Gets an asynchronous PrintTicket validation operation context. |
+| [IPrintSchemaTicket::get_JobCopiesAllDocuments](..\printerextension\nf-printerextension-iprintschematicket-get_jobcopiesalldocuments.md) | Gets the copy count. |
+| [IPrintSchemaTicket::put_JobCopiesAllDocuments](..\printerextension\nf-printerextension-iprintschematicket-put_jobcopiesalldocuments.md) | Sets the copy count. |
+| [IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification](..\prnasntp\nf-prnasntp-iprintunidiasyncnotifyregistration-asyncgetnotification.md) | "." |
+| [IPrintWriteStream::Close](..\filterpipeline\nf-filterpipeline-iprintwritestream-close.md) | The Close method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing. |
+| [IPrintWriteStream::WriteBytes](..\filterpipeline\nf-filterpipeline-iprintwritestream-writebytes.md) | The WriteBytes method writes a specified number of bytes to a stream. |
+| [IPrintWriteStreamFlush::FlushData](..\filterpipeline\nf-filterpipeline-iprintwritestreamflush-flushdata.md) | The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream. |
+| [IPrinterBidiSetRequestCallback::Completed](..\printerextension\nf-printerextension-iprinterbidisetrequestcallback-completed.md) | Invoked when the Bidi “Set”” operation is completed. |
+| [IPrinterExtensionAsyncOperation::Cancel](..\printerextension\nf-printerextension-iprinterextensionasyncoperation-cancel.md) | Cancels the asynchronous operation. |
+| [IPrinterExtensionContext::get_DriverProperties](..\printerextension\nf-printerextension-iprinterextensioncontext-get_driverproperties.md) | Gets the driver property bag. |
+| [IPrinterExtensionContext::get_PrintSchemaTicket](..\printerextension\nf-printerextension-iprinterextensioncontext-get_printschematicket.md) | Gets the print ticket that is appropriate for the queue and the activation. |
+| [IPrinterExtensionContext::get_PrinterQueue](..\printerextension\nf-printerextension-iprinterextensioncontext-get_printerqueue.md) | Gets the queue for the printer. |
+| [IPrinterExtensionContext::get_UserProperties](..\printerextension\nf-printerextension-iprinterextensioncontext-get_userproperties.md) | Gets the user property bag for this app. |
+| [IPrinterExtensionContextCollection::GetAt](..\printerextension\nf-printerextension-iprinterextensioncontextcollection-getat.md) | Gets a pointer to an IPrinterExtensionContext object. |
+| [IPrinterExtensionContextCollection::get_Count](..\printerextension\nf-printerextension-iprinterextensioncontextcollection-get_count.md) | Gets a count of the number of IPrinterExtensionContext objects in the collection. |
 | [IPrinterExtensionContextCollection::get__NewEnum method](..\printerextension\nf-printerextension-iprinterextensioncontextcollection-get__newenum.md) | Gets a pointer to the enumerants of IPrinterExtensionContextCollection objects. |
-| [IPrinterExtensionEvent::OnDriverEvent method](..\printerextension\nf-printerextension-iprinterextensionevent-ondriverevent.md) | Called when a driver event occurs. |
-| [IPrinterExtensionEvent::OnPrinterQueuesEnumerated method](..\printerextension\nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated.md) | Called when printer queues are enumerated. |
-| [IPrinterExtensionEventArgs::get_BidiNotification method](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_bidinotification.md) | Gets the text of the bidirectional communication (Bidi) notification, if applicable. |
-| [IPrinterExtensionEventArgs::get_DetailedReasonId method](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_detailedreasonid.md) | Gets a more detailed activation reason than what can be retrieved from ReasonId. |
-| [IPrinterExtensionEventArgs::get_ReasonId method](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_reasonid.md) | Gets the reason why the printer extension was activated. |
-| [IPrinterExtensionEventArgs::get_Request method](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_request.md) | Gets the IPrinterExtensionRequest object for the current event. |
-| [IPrinterExtensionEventArgs::get_SourceApplication method](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_sourceapplication.md) | Gets the name of the application that invoked the printer extension. |
-| [IPrinterExtensionEventArgs::get_WindowModal method](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_windowmodal.md) | Gets the run mode parameter that determines whether or not the printer extension should be run as modal. |
-| [IPrinterExtensionEventArgs::get_WindowParent method](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_windowparent.md) | Gets the handle of the parent window. |
-| [IPrinterExtensionManager::DisableEvents method](..\printerextension\nf-printerextension-iprinterextensionmanager-disableevents.md) | Disallows events to be generated. |
-| [IPrinterExtensionManager::EnableEvents method](..\printerextension\nf-printerextension-iprinterextensionmanager-enableevents.md) | The EnableEvents method allows events to be generated for the specified printer driver until DisableEvents is called. |
-| [IPrinterExtensionRequest::Cancel method](..\printerextension\nf-printerextension-iprinterextensionrequest-cancel.md) | Completes the extension event with a cancellation. |
-| [IPrinterExtensionRequest::Complete method](..\printerextension\nf-printerextension-iprinterextensionrequest-complete.md) | Completes the extension event. |
-| [IPrinterPropertyBag::GetBool method](..\printerextension\nf-printerextension-iprinterpropertybag-getbool.md) | Reads a specified boolean property. |
-| [IPrinterPropertyBag::GetBytes method](..\printerextension\nf-printerextension-iprinterpropertybag-getbytes.md) | Reads a byte array property. |
-| [IPrinterPropertyBag::GetInt32 method](..\printerextension\nf-printerextension-iprinterpropertybag-getint32.md) | Reads an integer property. |
-| [IPrinterPropertyBag::GetReadStream method](..\printerextension\nf-printerextension-iprinterpropertybag-getreadstream.md) | Gets a stream in order to read from a stream property. |
-| [IPrinterPropertyBag::GetString method](..\printerextension\nf-printerextension-iprinterpropertybag-getstring.md) | Reads a string property. |
-| [IPrinterPropertyBag::GetWriteStream method](..\printerextension\nf-printerextension-iprinterpropertybag-getwritestream.md) | Gets a stream in order to write a stream property. |
-| [IPrinterPropertyBag::SetBool method](..\printerextension\nf-printerextension-iprinterpropertybag-setbool.md) | Writes a specified boolean property value. |
-| [IPrinterPropertyBag::SetBytes method](..\printerextension\nf-printerextension-iprinterpropertybag-setbytes.md) | Writes a byte array property. |
-| [IPrinterPropertyBag::SetInt32 method](..\printerextension\nf-printerextension-iprinterpropertybag-setint32.md) | Writes an integer property. |
-| [IPrinterPropertyBag::SetString method](..\printerextension\nf-printerextension-iprinterpropertybag-setstring.md) | Writes a string property. |
-| [IPrinterQueue2::GetPrinterQueueView method](..\printerextension\nf-printerextension-iprinterqueue2-getprinterqueueview.md) | Retrieves an IPrinterQueueView object, and initializes the object with the range of jobs to be monitored. |
-| [IPrinterQueue2::SendBidiSetRequestAsync method](..\printerextension\nf-printerextension-iprinterqueue2-sendbidisetrequestasync.md) | Uses an XML string value to send a Bidi Set request as an asynchronous operation. |
-| [IPrinterQueue::GetProperties method](..\printerextension\nf-printerextension-iprinterqueue-getproperties.md) | Gets the properties in the property bag for the queue. |
-| [IPrinterQueue::SendBidiQuery method](..\printerextension\nf-printerextension-iprinterqueue-sendbidiquery.md) | Performs an asynchronous refresh operation with the specified query, and invokes the IPrinterQueueEvent |
-| [IPrinterQueue::get_Handle method](..\printerextension\nf-printerextension-iprinterqueue-get_handle.md) | Gets the underlying native handle for this print queue. |
-| [IPrinterQueue::get_Name method](..\printerextension\nf-printerextension-iprinterqueue-get_name.md) | Gets the name of the printer for this print queue. |
-| [IPrinterQueueEvent::OnBidiResponseReceived method](..\printerextension\nf-printerextension-iprinterqueueevent-onbidiresponsereceived.md) | Called when a bidi response is received. |
-| [IPrinterQueueView::SetViewRange method](..\printerextension\nf-printerextension-iprinterqueueview-setviewrange.md) | Sets the range of print jobs being monitored. |
-| [IPrinterQueueViewEvent::OnChanged method](..\printerextension\nf-printerextension-iprinterqueueviewevent-onchanged.md) | Provides an IPrintJobCollection object that provides a snapshot of a range of print jobs in the queue. |
-| [IPrinterScriptContext::get_DriverProperties method](..\printerextension\nf-printerextension-iprinterscriptcontext-get_driverproperties.md) | Provides access to the driver property bag, if the property bag is present. |
-| [IPrinterScriptContext::get_QueueProperties method](..\printerextension\nf-printerextension-iprinterscriptcontext-get_queueproperties.md) | Provides access to the queue property bag, if the property bag is present. |
-| [IPrinterScriptContext::get_UserProperties method](..\printerextension\nf-printerextension-iprinterscriptcontext-get_userproperties.md) | Provides access to the user property bag, if the property bag is present. |
-| [IPrinterScriptablePropertyBag2::GetReadStreamAsXML method](..\printerextension\nf-printerextension-iprinterscriptablepropertybag2-getreadstreamasxml.md) | "." |
-| [IPrinterScriptablePropertyBag::GetBool method](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getbool.md) | Gets a specified boolean property. |
-| [IPrinterScriptablePropertyBag::GetBytes method](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getbytes.md) | Gets a byte array property. |
-| [IPrinterScriptablePropertyBag::GetInt32 method](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getint32.md) | Gets an integer property. |
-| [IPrinterScriptablePropertyBag::GetReadStream method](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getreadstream.md) | Gets a read stream and uses it to read from a property. |
-| [IPrinterScriptablePropertyBag::GetString method](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getstring.md) | Gets a string property. |
-| [IPrinterScriptablePropertyBag::GetWriteStream method](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getwritestream.md) | Gets a stream and uses it to write to a stream property. |
-| [IPrinterScriptablePropertyBag::SetBool method](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-setbool.md) | Writes a specified boolean property value. |
-| [IPrinterScriptablePropertyBag::SetBytes method](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-setbytes.md) | Writes a byte array property. |
-| [IPrinterScriptablePropertyBag::SetInt32 method](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-setint32.md) | Writes an integer property. |
-| [IPrinterScriptablePropertyBag::SetString method](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-setstring.md) | Writes a string property. |
-| [IPrinterScriptableSequentialStream::Read method](..\printerextension\nf-printerextension-iprinterscriptablesequentialstream-read.md) | The Read method reads bytes from the stream and returns them as a JavaScript array. |
-| [IPrinterScriptableSequentialStream::Write method](..\printerextension\nf-printerextension-iprinterscriptablesequentialstream-write.md) | The Write method writes the provided JavaScript array to the stream and returns the number of bytes written. |
-| [IPrinterScriptableStream::Commit method](..\printerextension\nf-printerextension-iprinterscriptablestream-commit.md) | Commits the operation. |
-| [IPrinterScriptableStream::Seek method](..\printerextension\nf-printerextension-iprinterscriptablestream-seek.md) | Sets the seek pointer. |
-| [IPrinterScriptableStream::SetSize method](..\printerextension\nf-printerextension-iprinterscriptablestream-setsize.md) | Sets the size of the scriptable stream, in bytes. |
-| [IXpsDocument::GetThumbnail method](..\filterpipeline\nf-filterpipeline-ixpsdocument-getthumbnail.md) | The GetThumbnail method gets the document thumbnail object. |
-| [IXpsDocument::SetThumbnail method](..\filterpipeline\nf-filterpipeline-ixpsdocument-setthumbnail.md) | The SetThumbnail method removes the current thumbnail object from the document and inserts a new one. |
-| [IXpsDocumentConsumer::CloseSender method](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-closesender.md) | The CloseSender method tells the Pipeline Manager that the filter is done sending XPS parts. |
-| [IXpsDocumentConsumer::GetNewEmptyPart method](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-getnewemptypart.md) | The GetNewEmptyPart method creates a new XPS part. |
-| [IXpsDocumentConsumer::SendFixedDocument method](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-sendfixeddocument.md) | The SendFixedDocument method sends a fixed document object to the pipeline. |
-| [IXpsDocumentConsumer::SendFixedDocumentSequence method](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-sendfixeddocumentsequence.md) | The SendFixedDocumentSequence method sends a fixed document sequence to the pipeline. |
-| [IXpsDocumentConsumer::SendFixedPage method](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-sendfixedpage.md) | The SendFixedPage method sends a fixed page of an XPS document to the pipeline. |
-| [IXpsDocumentConsumer::SendXpsDocument method](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-sendxpsdocument.md) | The SendXpsDocument method sends an XPS document to the pipeline. |
-| [IXpsDocumentConsumer::SendXpsUnknown method](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-sendxpsunknown.md) | The SendXpsUnknown method sends an XPS document part that cannot be identified to the filter pipeline. |
-| [IXpsDocumentProvider::GetXpsPart method](..\filterpipeline\nf-filterpipeline-ixpsdocumentprovider-getxpspart.md) | The GetXpsPart method retrieves several objects that make up an XPS document. |
-| [IXpsPartIterator::Current method](..\filterpipeline\nf-filterpipeline-ixpspartiterator-current.md) | The Current method provides the current URI and part. |
-| [IXpsPartIterator::IsDone method](..\filterpipeline\nf-filterpipeline-ixpspartiterator-isdone.md) | The IsDone method determines whether the iterator has finished the iteration. |
-| [IXpsPartIterator::Next method](..\filterpipeline\nf-filterpipeline-ixpspartiterator-next.md) | The Next method advances the iterator to the next part. |
-| [IXpsPartIterator::Reset method](..\filterpipeline\nf-filterpipeline-ixpspartiterator-reset.md) | The Reset method sets the iterator to the first element. |
-| [IXpsRasterizationFactory2::CreateRasterizer method](..\xpsrassvc\nf-xpsrassvc-ixpsrasterizationfactory2-createrasterizer.md) | The CreateRasterizer method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the XPS Rasterization Service. PWG Raster supports non-square DPIs. |
-| [IXpsRasterizationFactory::CreateRasterizer method](..\xpsrassvc\nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer.md) | The CreateRasterize method creates an XPS rasterizer object. |
-| [IXpsRasterizer::RasterizeRect method](..\xpsrassvc\nf-xpsrassvc-ixpsrasterizer-rasterizerect.md) | The RasterizeRect method rasterizes an axis-aligned, rectangular region of an XPS fixed page. |
-| [IXpsRasterizer::SetMinimalLineWidth method](..\xpsrassvc\nf-xpsrassvc-ixpsrasterizer-setminimallinewidth.md) | The SetMinimalLineWidth method allows the caller to set the minimum thickness (in pixels) of the lines that the device can render. |
-| [IXpsRasterizerNotificationCallback::Continue method](..\xpsrassvc\nf-xpsrassvc-ixpsrasterizernotificationcallback-continue.md) | The Continue method tells the caller (the XPS rasterization service) whether to continue rasterizing the current XPS fixed page. |
+| [IPrinterExtensionEvent::OnDriverEvent](..\printerextension\nf-printerextension-iprinterextensionevent-ondriverevent.md) | Called when a driver event occurs. |
+| [IPrinterExtensionEvent::OnPrinterQueuesEnumerated](..\printerextension\nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated.md) | Called when printer queues are enumerated. |
+| [IPrinterExtensionEventArgs::get_BidiNotification](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_bidinotification.md) | Gets the text of the bidirectional communication (Bidi) notification, if applicable. |
+| [IPrinterExtensionEventArgs::get_DetailedReasonId](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_detailedreasonid.md) | Gets a more detailed activation reason than what can be retrieved from ReasonId. |
+| [IPrinterExtensionEventArgs::get_ReasonId](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_reasonid.md) | Gets the reason why the printer extension was activated. |
+| [IPrinterExtensionEventArgs::get_Request](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_request.md) | Gets the IPrinterExtensionRequest object for the current event. |
+| [IPrinterExtensionEventArgs::get_SourceApplication](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_sourceapplication.md) | Gets the name of the application that invoked the printer extension. |
+| [IPrinterExtensionEventArgs::get_WindowModal](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_windowmodal.md) | Gets the run mode parameter that determines whether or not the printer extension should be run as modal. |
+| [IPrinterExtensionEventArgs::get_WindowParent](..\printerextension\nf-printerextension-iprinterextensioneventargs-get_windowparent.md) | Gets the handle of the parent window. |
+| [IPrinterExtensionManager::DisableEvents](..\printerextension\nf-printerextension-iprinterextensionmanager-disableevents.md) | Disallows events to be generated. |
+| [IPrinterExtensionManager::EnableEvents](..\printerextension\nf-printerextension-iprinterextensionmanager-enableevents.md) | The EnableEvents method allows events to be generated for the specified printer driver until DisableEvents is called. |
+| [IPrinterExtensionRequest::Cancel](..\printerextension\nf-printerextension-iprinterextensionrequest-cancel.md) | Completes the extension event with a cancellation. |
+| [IPrinterExtensionRequest::Complete](..\printerextension\nf-printerextension-iprinterextensionrequest-complete.md) | Completes the extension event. |
+| [IPrinterPropertyBag::GetBool](..\printerextension\nf-printerextension-iprinterpropertybag-getbool.md) | Reads a specified boolean property. |
+| [IPrinterPropertyBag::GetBytes](..\printerextension\nf-printerextension-iprinterpropertybag-getbytes.md) | Reads a byte array property. |
+| [IPrinterPropertyBag::GetInt32](..\printerextension\nf-printerextension-iprinterpropertybag-getint32.md) | Reads an integer property. |
+| [IPrinterPropertyBag::GetReadStream](..\printerextension\nf-printerextension-iprinterpropertybag-getreadstream.md) | Gets a stream in order to read from a stream property. |
+| [IPrinterPropertyBag::GetString](..\printerextension\nf-printerextension-iprinterpropertybag-getstring.md) | Reads a string property. |
+| [IPrinterPropertyBag::GetWriteStream](..\printerextension\nf-printerextension-iprinterpropertybag-getwritestream.md) | Gets a stream in order to write a stream property. |
+| [IPrinterPropertyBag::SetBool](..\printerextension\nf-printerextension-iprinterpropertybag-setbool.md) | Writes a specified boolean property value. |
+| [IPrinterPropertyBag::SetBytes](..\printerextension\nf-printerextension-iprinterpropertybag-setbytes.md) | Writes a byte array property. |
+| [IPrinterPropertyBag::SetInt32](..\printerextension\nf-printerextension-iprinterpropertybag-setint32.md) | Writes an integer property. |
+| [IPrinterPropertyBag::SetString](..\printerextension\nf-printerextension-iprinterpropertybag-setstring.md) | Writes a string property. |
+| [IPrinterQueue2::GetPrinterQueueView](..\printerextension\nf-printerextension-iprinterqueue2-getprinterqueueview.md) | Retrieves an IPrinterQueueView object, and initializes the object with the range of jobs to be monitored. |
+| [IPrinterQueue2::SendBidiSetRequestAsync](..\printerextension\nf-printerextension-iprinterqueue2-sendbidisetrequestasync.md) | Uses an XML string value to send a Bidi Set request as an asynchronous operation. |
+| [IPrinterQueue::GetProperties](..\printerextension\nf-printerextension-iprinterqueue-getproperties.md) | Gets the properties in the property bag for the queue. |
+| [IPrinterQueue::SendBidiQuery](..\printerextension\nf-printerextension-iprinterqueue-sendbidiquery.md) | Performs an asynchronous refresh operation with the specified query, and invokes the IPrinterQueueEvent |
+| [IPrinterQueue::get_Handle](..\printerextension\nf-printerextension-iprinterqueue-get_handle.md) | Gets the underlying native handle for this print queue. |
+| [IPrinterQueue::get_Name](..\printerextension\nf-printerextension-iprinterqueue-get_name.md) | Gets the name of the printer for this print queue. |
+| [IPrinterQueueEvent::OnBidiResponseReceived](..\printerextension\nf-printerextension-iprinterqueueevent-onbidiresponsereceived.md) | Called when a bidi response is received. |
+| [IPrinterQueueView::SetViewRange](..\printerextension\nf-printerextension-iprinterqueueview-setviewrange.md) | Sets the range of print jobs being monitored. |
+| [IPrinterQueueViewEvent::OnChanged](..\printerextension\nf-printerextension-iprinterqueueviewevent-onchanged.md) | Provides an IPrintJobCollection object that provides a snapshot of a range of print jobs in the queue. |
+| [IPrinterScriptContext::get_DriverProperties](..\printerextension\nf-printerextension-iprinterscriptcontext-get_driverproperties.md) | Provides access to the driver property bag, if the property bag is present. |
+| [IPrinterScriptContext::get_QueueProperties](..\printerextension\nf-printerextension-iprinterscriptcontext-get_queueproperties.md) | Provides access to the queue property bag, if the property bag is present. |
+| [IPrinterScriptContext::get_UserProperties](..\printerextension\nf-printerextension-iprinterscriptcontext-get_userproperties.md) | Provides access to the user property bag, if the property bag is present. |
+| [IPrinterScriptablePropertyBag2::GetReadStreamAsXML](..\printerextension\nf-printerextension-iprinterscriptablepropertybag2-getreadstreamasxml.md) | "." |
+| [IPrinterScriptablePropertyBag::GetBool](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getbool.md) | Gets a specified boolean property. |
+| [IPrinterScriptablePropertyBag::GetBytes](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getbytes.md) | Gets a byte array property. |
+| [IPrinterScriptablePropertyBag::GetInt32](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getint32.md) | Gets an integer property. |
+| [IPrinterScriptablePropertyBag::GetReadStream](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getreadstream.md) | Gets a read stream and uses it to read from a property. |
+| [IPrinterScriptablePropertyBag::GetString](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getstring.md) | Gets a string property. |
+| [IPrinterScriptablePropertyBag::GetWriteStream](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-getwritestream.md) | Gets a stream and uses it to write to a stream property. |
+| [IPrinterScriptablePropertyBag::SetBool](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-setbool.md) | Writes a specified boolean property value. |
+| [IPrinterScriptablePropertyBag::SetBytes](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-setbytes.md) | Writes a byte array property. |
+| [IPrinterScriptablePropertyBag::SetInt32](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-setint32.md) | Writes an integer property. |
+| [IPrinterScriptablePropertyBag::SetString](..\printerextension\nf-printerextension-iprinterscriptablepropertybag-setstring.md) | Writes a string property. |
+| [IPrinterScriptableSequentialStream::Read](..\printerextension\nf-printerextension-iprinterscriptablesequentialstream-read.md) | The Read method reads bytes from the stream and returns them as a JavaScript array. |
+| [IPrinterScriptableSequentialStream::Write](..\printerextension\nf-printerextension-iprinterscriptablesequentialstream-write.md) | The Write method writes the provided JavaScript array to the stream and returns the number of bytes written. |
+| [IPrinterScriptableStream::Commit](..\printerextension\nf-printerextension-iprinterscriptablestream-commit.md) | Commits the operation. |
+| [IPrinterScriptableStream::Seek](..\printerextension\nf-printerextension-iprinterscriptablestream-seek.md) | Sets the seek pointer. |
+| [IPrinterScriptableStream::SetSize](..\printerextension\nf-printerextension-iprinterscriptablestream-setsize.md) | Sets the size of the scriptable stream, in bytes. |
+| [IXpsDocument::GetThumbnail](..\filterpipeline\nf-filterpipeline-ixpsdocument-getthumbnail.md) | The GetThumbnail method gets the document thumbnail object. |
+| [IXpsDocument::SetThumbnail](..\filterpipeline\nf-filterpipeline-ixpsdocument-setthumbnail.md) | The SetThumbnail method removes the current thumbnail object from the document and inserts a new one. |
+| [IXpsDocumentConsumer::CloseSender](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-closesender.md) | The CloseSender method tells the Pipeline Manager that the filter is done sending XPS parts. |
+| [IXpsDocumentConsumer::GetNewEmptyPart](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-getnewemptypart.md) | The GetNewEmptyPart method creates a new XPS part. |
+| [IXpsDocumentConsumer::SendFixedDocumentSequence](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-sendfixeddocumentsequence.md) | The SendFixedDocumentSequence method sends a fixed document sequence to the pipeline. |
+| [IXpsDocumentConsumer::SendFixedDocument](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-sendfixeddocument.md) | The SendFixedDocument method sends a fixed document object to the pipeline. |
+| [IXpsDocumentConsumer::SendFixedPage](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-sendfixedpage.md) | The SendFixedPage method sends a fixed page of an XPS document to the pipeline. |
+| [IXpsDocumentConsumer::SendXpsDocument](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-sendxpsdocument.md) | The SendXpsDocument method sends an XPS document to the pipeline. |
+| [IXpsDocumentConsumer::SendXpsUnknown](..\filterpipeline\nf-filterpipeline-ixpsdocumentconsumer-sendxpsunknown.md) | The SendXpsUnknown method sends an XPS document part that cannot be identified to the filter pipeline. |
+| [IXpsDocumentProvider::GetXpsPart](..\filterpipeline\nf-filterpipeline-ixpsdocumentprovider-getxpspart.md) | The GetXpsPart method retrieves several objects that make up an XPS document. |
+| [IXpsPartIterator::Current](..\filterpipeline\nf-filterpipeline-ixpspartiterator-current.md) | The Current method provides the current URI and part. |
+| [IXpsPartIterator::IsDone](..\filterpipeline\nf-filterpipeline-ixpspartiterator-isdone.md) | The IsDone method determines whether the iterator has finished the iteration. |
+| [IXpsPartIterator::Next](..\filterpipeline\nf-filterpipeline-ixpspartiterator-next.md) | The Next method advances the iterator to the next part. |
+| [IXpsPartIterator::Reset](..\filterpipeline\nf-filterpipeline-ixpspartiterator-reset.md) | The Reset method sets the iterator to the first element. |
+| [IXpsRasterizationFactory1::CreateRasterizer](..\xpsrassvc\nf-xpsrassvc-ixpsrasterizationfactory1-createrasterizer.md) | The CreateRasterize method creates an XPS rasterizer object that can handle high precision colors. |
+| [IXpsRasterizationFactory2::CreateRasterizer](..\xpsrassvc\nf-xpsrassvc-ixpsrasterizationfactory2-createrasterizer.md) | The CreateRasterizer method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the XPS Rasterization Service. PWG Raster supports non-square DPIs. |
+| [IXpsRasterizationFactory::CreateRasterizer](..\xpsrassvc\nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer.md) | The CreateRasterize method creates an XPS rasterizer object. |
+| [IXpsRasterizer::RasterizeRect](..\xpsrassvc\nf-xpsrassvc-ixpsrasterizer-rasterizerect.md) | The RasterizeRect method rasterizes an axis-aligned, rectangular region of an XPS fixed page. |
+| [IXpsRasterizer::SetMinimalLineWidth](..\xpsrassvc\nf-xpsrassvc-ixpsrasterizer-setminimallinewidth.md) | The SetMinimalLineWidth method allows the caller to set the minimum thickness (in pixels) of the lines that the device can render. |
+| [IXpsRasterizerNotificationCallback::Continue](..\xpsrassvc\nf-xpsrassvc-ixpsrasterizernotificationcallback-continue.md) | The Continue method tells the caller (the XPS rasterization service) whether to continue rasterizing the current XPS fixed page. |

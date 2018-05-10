@@ -1,5 +1,5 @@
 # [Windows Driver Framework](../_wdf/index.md)
 ## [Wudfworkitem.h](index.md)
-### [WUDF_WORKITEM_FUNCTION callback](../wudfworkitem/nc-wudfworkitem-wudf_workitem_function.md)
+### [WUDF_WORKITEM_FUNCTION callback function](../wudfworkitem/nc-wudfworkitem-wudf_workitem_function.md)
 ### [WUDF_WORKITEM_CONFIG_INIT function](../wudfworkitem/nf-wudfworkitem-wudf_workitem_config_init.md)
 ### [_WUDF_WORKITEM_CONFIG structure](../wudfworkitem/ns-wudfworkitem-_wudf_workitem_config.md)

@@ -2,11 +2,12 @@
 UID: NA:iddcx
 ms.assetid: 520b5c9a-8579-38f3-8a64-3694aada76a9
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: display
 ---
 
 # Iddcx.h header

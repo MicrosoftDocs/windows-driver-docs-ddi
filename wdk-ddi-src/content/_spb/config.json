@@ -1,0 +1,10 @@
+{
+  "tech": "spb",
+  "headers": [
+    "spb.h",
+    "spbcx.h",
+    "spbfuncenum.h",
+    "spbtraceenums.h"
+  ],
+  "displayName": "Simple Peripheral Bus (SPB)"
+}
