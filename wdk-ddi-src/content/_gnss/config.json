@@ -3,5 +3,5 @@
   "headers": [
     "gnssdriver.h"
   ],
-  "displayName": ""
+  "displayName": "Global Navigation Satellite System (GNSS)"
 }
