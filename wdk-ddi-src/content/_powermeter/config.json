@@ -1,0 +1,7 @@
+{
+  "tech": "powermeter",
+  "headers": [
+    "pmi.h"
+  ],
+  "displayName": "Power metering"
+}

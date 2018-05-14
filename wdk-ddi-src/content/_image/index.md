@@ -2,7 +2,7 @@
 UID: TP:image
 ms.assetid: 7b3b278b-3cff-355c-a263-9be80b8afde3
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Imaging devices
 
-
+## -description
 
 Overview of the Imaging devices technology.
 
@@ -258,123 +258,137 @@ For the programming guide, see [Imaging devices](https://docs.microsoft.com/en-u
 
 | Title   | Description   |
 | ---- |:---- |
-| [CWiaLogProc::CWiaLogProc method](..\wiamdef\nf-wiamdef-cwialogproc-cwialogproc.md) | The CWiaLogProc constructor is called when the function or method being logged is entered. |
-| [CWiaLogProc::~CWiaLogProc method](..\wiamdef\nf-wiamdef-cwialogproc-~cwialogproc.md) | The ~CWiaLogProc destructor is called when the function or method being logged is exited. |
-| [CWiaLogProcEx::CWiaLogProcEx method](..\wiamdef\nf-wiamdef-cwialogprocex-cwialogprocex.md) | The CWiaLogProcEx constructor is called when the function or method being logged is entered. |
-| [CWiaLogProcEx::~CWiaLogProcEx method](..\wiamdef\nf-wiamdef-cwialogprocex-~cwialogprocex.md) | The~CWiaLogProcEx destructor is called when the function or method being logged is exited. |
-| [CWiauDbgFn::CWiauDbgFn method](..\wiautil\nf-wiautil-cwiaudbgfn-cwiaudbgfn.md) | The CWiauDbgFn |
-| [CWiauDbgFn::~CWiauDbgFn method](..\wiautil\nf-wiautil-cwiaudbgfn-~cwiaudbgfn.md) | The CWiauDbgFn |
-| [CWiauFormatConverter::CWiauFormatConverter method](..\wiautil\nf-wiautil-cwiauformatconverter-cwiauformatconverter.md) | The CWiauFormatConverter |
-| [CWiauFormatConverter::ConvertToBmp method](..\wiautil\nf-wiautil-cwiauformatconverter-converttobmp.md) | The CWiauFormatConverter |
-| [CWiauFormatConverter::Init method](..\wiautil\nf-wiautil-cwiauformatconverter-init.md) | The CWiauFormatConverter |
-| [CWiauFormatConverter::IsFormatSupported method](..\wiautil\nf-wiautil-cwiauformatconverter-isformatsupported.md) | The CWiauFormatConverter |
-| [CWiauFormatConverter::~CWiauFormatConverter method](..\wiautil\nf-wiautil-cwiauformatconverter-~cwiauformatconverter.md) | The CWiauFormatConverter |
-| [CWiauPropertyList::CWiauPropertyList method](..\wiautil\nf-wiautil-cwiaupropertylist-cwiaupropertylist.md) | The CWiauPropertyList |
-| [CWiauPropertyList::DefineProperty method](..\wiautil\nf-wiautil-cwiaupropertylist-defineproperty.md) | The CWiauPropertyList |
-| [CWiauPropertyList::GetPropId method](..\wiautil\nf-wiautil-cwiaupropertylist-getpropid.md) | The CWiauPropertyList |
-| [CWiauPropertyList::Init method](..\wiautil\nf-wiautil-cwiaupropertylist-init.md) | The CWiauPropertyList |
-| [CWiauPropertyList::LookupPropId method](..\wiautil\nf-wiautil-cwiaupropertylist-lookuppropid.md) | The CWiauPropertyList |
-| [CWiauPropertyList::SendToWia method](..\wiautil\nf-wiautil-cwiaupropertylist-sendtowia.md) | The CWiauPropertyList |
+| [CWiaLogProc::CWiaLogProc](..\wiamdef\nf-wiamdef-cwialogproc-cwialogproc.md) | The CWiaLogProc constructor is called when the function or method being logged is entered. |
+| [CWiaLogProc::~CWiaLogProc](..\wiamdef\nf-wiamdef-cwialogproc-~cwialogproc.md) | The ~CWiaLogProc destructor is called when the function or method being logged is exited. |
+| [CWiaLogProcEx::CWiaLogProcEx](..\wiamdef\nf-wiamdef-cwialogprocex-cwialogprocex.md) | The CWiaLogProcEx constructor is called when the function or method being logged is entered. |
+| [CWiaLogProcEx::~CWiaLogProcEx](..\wiamdef\nf-wiamdef-cwialogprocex-~cwialogprocex.md) | The~CWiaLogProcEx destructor is called when the function or method being logged is exited. |
+| [CWiauDbgFn::CWiauDbgFn](..\wiautil\nf-wiautil-cwiaudbgfn-cwiaudbgfn.md) | The CWiauDbgFn |
+| [CWiauDbgFn::~CWiauDbgFn](..\wiautil\nf-wiautil-cwiaudbgfn-~cwiaudbgfn.md) | The CWiauDbgFn |
+| [CWiauFormatConverter::CWiauFormatConverter](..\wiautil\nf-wiautil-cwiauformatconverter-cwiauformatconverter.md) | The CWiauFormatConverter |
+| [CWiauFormatConverter::ConvertToBmp](..\wiautil\nf-wiautil-cwiauformatconverter-converttobmp.md) | The CWiauFormatConverter |
+| [CWiauFormatConverter::Init](..\wiautil\nf-wiautil-cwiauformatconverter-init.md) | The CWiauFormatConverter |
+| [CWiauFormatConverter::IsFormatSupported](..\wiautil\nf-wiautil-cwiauformatconverter-isformatsupported.md) | The CWiauFormatConverter |
+| [CWiauFormatConverter::~CWiauFormatConverter](..\wiautil\nf-wiautil-cwiauformatconverter-~cwiauformatconverter.md) | The CWiauFormatConverter |
+| [CWiauPropertyList::CWiauPropertyList](..\wiautil\nf-wiautil-cwiaupropertylist-cwiaupropertylist.md) | The CWiauPropertyList |
+| [CWiauPropertyList::DefineProperty](..\wiautil\nf-wiautil-cwiaupropertylist-defineproperty.md) | The CWiauPropertyList |
+| [CWiauPropertyList::GetPropId](..\wiautil\nf-wiautil-cwiaupropertylist-getpropid.md) | The CWiauPropertyList |
+| [CWiauPropertyList::Init](..\wiautil\nf-wiautil-cwiaupropertylist-init.md) | The CWiauPropertyList |
+| [CWiauPropertyList::LookupPropId](..\wiautil\nf-wiautil-cwiaupropertylist-lookuppropid.md) | The CWiauPropertyList |
+| [CWiauPropertyList::SendToWia](..\wiautil\nf-wiautil-cwiaupropertylist-sendtowia.md) | The CWiauPropertyList |
 | [CWiauPropertyList::SetAccessSubType method](..\wiautil\nf-wiautil-cwiaupropertylist-setaccesssubtype.md) | The CWiauPropertyList |
-| [CWiauPropertyList::SetCurrentValue method](..\wiautil\nf-wiautil-cwiaupropertylist-setcurrentvalue.md) | The CWiauPropertyList |
-| [CWiauPropertyList::SetValidValues method](..\wiautil\nf-wiautil-cwiaupropertylist-setvalidvalues.md) | The CWiauPropertyList |
-| [CWiauPropertyList::~CWiauPropertyList method](..\wiautil\nf-wiautil-cwiaupropertylist-~cwiaupropertylist.md) | The CWiauPropertyList |
-| [IStiDevice::DeviceReset method](..\sti\nf-sti-istidevice-devicereset.md) | The IStiDevice |
-| [IStiDevice::Diagnostic method](..\sti\nf-sti-istidevice-diagnostic.md) | The IStiDevice |
-| [IStiDevice::Escape method](..\sti\nf-sti-istidevice-escape.md) | The IStiDevice |
-| [IStiDevice::GetCapabilities method](..\sti\nf-sti-istidevice-getcapabilities.md) | The IStiDevice |
-| [IStiDevice::GetLastError method](..\sti\nf-sti-istidevice-getlasterror.md) | The IStiDevice |
-| [IStiDevice::GetLastErrorInfo method](..\sti\nf-sti-istidevice-getlasterrorinfo.md) | The IStiDevice |
-| [IStiDevice::GetLastNotificationData method](..\sti\nf-sti-istidevice-getlastnotificationdata.md) | The IStiDevice |
-| [IStiDevice::GetStatus method](..\sti\nf-sti-istidevice-getstatus.md) | The IStiDevice |
-| [IStiDevice::Initialize method](..\sti\nf-sti-istidevice-initialize.md) | The IStiDevice |
-| [IStiDevice::LockDevice method](..\sti\nf-sti-istidevice-lockdevice.md) | The IStiDevice |
-| [IStiDevice::RawReadCommand method](..\sti\nf-sti-istidevice-rawreadcommand.md) | The IStiDevice |
-| [IStiDevice::RawReadData method](..\sti\nf-sti-istidevice-rawreaddata.md) | The IStiDevice |
-| [IStiDevice::RawWriteCommand method](..\sti\nf-sti-istidevice-rawwritecommand.md) | The IStiDevice |
-| [IStiDevice::RawWriteData method](..\sti\nf-sti-istidevice-rawwritedata.md) | The IStiDevice |
-| [IStiDevice::Release method](..\sti\nf-sti-istidevice-release.md) | The IStiDevice |
-| [IStiDevice::Subscribe method](..\sti\nf-sti-istidevice-subscribe.md) | The IStiDevice |
-| [IStiDevice::UnLockDevice method](..\sti\nf-sti-istidevice-unlockdevice.md) | The IStiDevice |
-| [IStiDevice::UnSubscribe method](..\sti\nf-sti-istidevice-unsubscribe.md) | The IStiDevice |
-| [IStiDeviceControl::AddRef method](..\stiusd\nf-stiusd-istidevicecontrol-addref.md) | The IStiDeviceControl |
-| [IStiDeviceControl::GetMyDeviceHandle method](..\stiusd\nf-stiusd-istidevicecontrol-getmydevicehandle.md) | This topic describes the GetMyDeviceHandle method. |
-| [IStiDeviceControl::GetMyDeviceOpenMode method](..\stiusd\nf-stiusd-istidevicecontrol-getmydeviceopenmode.md) | The IStiDeviceControl |
-| [IStiDeviceControl::GetMyDevicePortName method](..\stiusd\nf-stiusd-istidevicecontrol-getmydeviceportname.md) | The IStiDeviceControl |
-| [IStiDeviceControl::RawDeviceControl method](..\stiusd\nf-stiusd-istidevicecontrol-rawdevicecontrol.md) | This topic describes the RawDeviceControl method. |
-| [IStiDeviceControl::Release method](..\stiusd\nf-stiusd-istidevicecontrol-release.md) | The IStiDeviceControl |
-| [IStiDeviceControl::WriteToErrorLog method](..\stiusd\nf-stiusd-istidevicecontrol-writetoerrorlog.md) | The IStiDeviceControl |
-| [IStiUSD::DeviceReset method](..\stiusd\nf-stiusd-istiusd-devicereset.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::Diagnostic method](..\stiusd\nf-stiusd-istiusd-diagnostic.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::Escape method](..\stiusd\nf-stiusd-istiusd-escape.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::GetCapabilities method](..\stiusd\nf-stiusd-istiusd-getcapabilities.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::GetLastError method](..\stiusd\nf-stiusd-istiusd-getlasterror.md) | The IStiUSD |
-| [IStiUSD::GetLastErrorInfo method](..\stiusd\nf-stiusd-istiusd-getlasterrorinfo.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::GetNotificationData method](..\stiusd\nf-stiusd-istiusd-getnotificationdata.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::GetStatus method](..\stiusd\nf-stiusd-istiusd-getstatus.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::Initialize method](..\stiusd\nf-stiusd-istiusd-initialize.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::LockDevice method](..\stiusd\nf-stiusd-istiusd-lockdevice.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::RawReadCommand method](..\stiusd\nf-stiusd-istiusd-rawreadcommand.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::RawReadData method](..\stiusd\nf-stiusd-istiusd-rawreaddata.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::RawWriteCommand method](..\stiusd\nf-stiusd-istiusd-rawwritecommand.md) | A still image minidriver's IStiDevice |
-| [IStiUSD::RawWriteData method](..\stiusd\nf-stiusd-istiusd-rawwritedata.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::SetNotificationHandle method](..\stiusd\nf-stiusd-istiusd-setnotificationhandle.md) | A still image minidriver's IStiUSD |
-| [IStiUSD::UnLockDevice method](..\stiusd\nf-stiusd-istiusd-unlockdevice.md) | A still image minidriver's IStiUSD |
-| [IStillImageW::CreateDevice method](..\sti\nf-sti-istillimagew-createdevice.md) | The IStillImage |
-| [IStillImageW::EnableHwNotifications method](..\sti\nf-sti-istillimagew-enablehwnotifications.md) | The IStillImage |
-| [IStillImageW::GetDeviceInfo method](..\sti\nf-sti-istillimagew-getdeviceinfo.md) | The IStillImage |
-| [IStillImageW::GetDeviceList method](..\sti\nf-sti-istillimagew-getdevicelist.md) | The IStillImage |
-| [IStillImageW::GetDeviceValue method](..\sti\nf-sti-istillimagew-getdevicevalue.md) | The IStillImage |
-| [IStillImageW::GetHwNotificationState method](..\sti\nf-sti-istillimagew-gethwnotificationstate.md) | The IStillImage |
-| [IStillImageW::GetSTILaunchInformation method](..\sti\nf-sti-istillimagew-getstilaunchinformation.md) | The IStillImage |
-| [IStillImageW::Initialize method](..\sti\nf-sti-istillimagew-initialize.md) | The IStillImage |
-| [IStillImageW::LaunchApplicationForDevice method](..\sti\nf-sti-istillimagew-launchapplicationfordevice.md) | The IStillImage |
-| [IStillImageW::RegisterLaunchApplication method](..\sti\nf-sti-istillimagew-registerlaunchapplication.md) | The IStillImage |
-| [IStillImageW::Release method](..\sti\nf-sti-istillimagew-release.md) | The IStillImage |
-| [IStillImageW::SetDeviceValue method](..\sti\nf-sti-istillimagew-setdevicevalue.md) | The IStillImage |
-| [IStillImageW::SetupDeviceParameters method](..\sti\nf-sti-istillimagew-setupdeviceparameters.md) | The IStillImage |
-| [IStillImageW::UnregisterLaunchApplication method](..\sti\nf-sti-istillimagew-unregisterlaunchapplication.md) | The IStillImage |
-| [IStillImageW::WriteToErrorLog method](..\sti\nf-sti-istillimagew-writetoerrorlog.md) | The IStillImage |
-| [IWiaDrvItem::AddItemToFolder method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-additemtofolder.md) | The AddItemToFolder method adds an IWiaDrvItem item to a folder in a driver item tree. |
-| [IWiaDrvItem::DumpItemData method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-dumpitemdata.md) | The IWiaDrvItem |
-| [IWiaDrvItem::FindChildItemByName method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-findchilditembyname.md) | The IWiaDrvItem |
-| [IWiaDrvItem::FindItemByName method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-finditembyname.md) | The IWiaDrvItem |
-| [IWiaDrvItem::GetDeviceSpecContext method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getdevicespeccontext.md) | The IWiaDrvItem |
-| [IWiaDrvItem::GetFirstChildItem method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getfirstchilditem.md) | The IWiaDrvItem |
-| [IWiaDrvItem::GetFullItemName method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getfullitemname.md) | The IWiaDrvItem |
-| [IWiaDrvItem::GetItemFlags method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getitemflags.md) | The IWiaDrvItem |
-| [IWiaDrvItem::GetItemName method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getitemname.md) | The IWiaDrvItem |
-| [IWiaDrvItem::GetNextSiblingItem method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getnextsiblingitem.md) | The IWiaDrvItem |
-| [IWiaDrvItem::GetParentItem method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getparentitem.md) | The IWiaDrvItem |
-| [IWiaDrvItem::RemoveItemFromFolder method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-removeitemfromfolder.md) | The IWiaDrvItem |
-| [IWiaDrvItem::UnlinkItemTree method](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-unlinkitemtree.md) | The IWiaDrvItem |
-| [IWiaErrorHandler::GetStatusDescription method](..\wia_lh\nf-wia_lh-iwiaerrorhandler-getstatusdescription.md) | The system UI calls the GetStatusDescription method to provide the user with extra information about an error, if the user requests this information. This method is implemented by a driver's UI extension. |
-| [IWiaErrorHandler::ReportStatus method](..\wia_lh\nf-wia_lh-iwiaerrorhandler-reportstatus.md) | The ReportStatus method displays information about an error or status during a transfer. In some cases this method allows the user to recover from an error. |
-| [IWiaImageFilter::FilterPreviewImage method](..\wia_lh\nf-wia_lh-iwiaimagefilter-filterpreviewimage.md) | The IWiaImageFilter |
-| [IWiaImageFilter::InitializeFilter method](..\wia_lh\nf-wia_lh-iwiaimagefilter-initializefilter.md) | The IWiaImageFilter |
-| [IWiaLog::InitializeLog method](..\wia_lh\nf-wia_lh-iwialog-initializelog.md) | Note that the IWiaLog interface is obsolete for Microsoft Windows XP and later, and is no longer supported. Instead, use the Diagnostic Log Macros.The IWiaLog |
-| [IWiaLog::Log method](..\wia_lh\nf-wia_lh-iwialog-log.md) | The IWiaLog interface is obsolete for Windows XP and later, and is no longer supported. Use the Diagnostic Log Macros instead.The IWiaLog |
-| [IWiaLog::hResult method](..\wia_lh\nf-wia_lh-iwialog-hresult.md) | Note that the IWiaLog interface is obsolete for Microsoft Windows XP and later, and is no longer supported. |
-| [IWiaMiniDrv::drvAcquireItemData method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvAnalyzeItem method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvanalyzeitem.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvDeleteItem method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvdeleteitem.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvDeviceCommand method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvdevicecommand.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvFreeDrvItemContext method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvfreedrvitemcontext.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvGetCapabilities method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvGetDeviceErrorStr method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvGetWiaFormatInfo method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvgetwiaformatinfo.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvInitItemProperties method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvinititemproperties.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvInitializeWia method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvinitializewia.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvLockWiaDevice method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvlockwiadevice.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvNotifyPnpEvent method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvnotifypnpevent.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvReadItemProperties method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvreaditemproperties.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvUnInitializeWia method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvuninitializewia.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvUnLockWiaDevice method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvunlockwiadevice.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvValidateItemProperties method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvvalidateitemproperties.md) | The IWiaMiniDrv |
-| [IWiaMiniDrv::drvWriteItemProperties method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvwriteitemproperties.md) | The IWiaMiniDrv |
-| [IWiaMiniDrvCallBack::MiniDrvCallback method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback.md) | The MiniDrvCallback method provides a callback method for WIA minidrivers to use during a callback data transfer. |
-| [IWiaMiniDrvTransferCallback::GetNextStream method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrvtransfercallback-getnextstream.md) | Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload). |
-| [IWiaMiniDrvTransferCallback::SendMessage method](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrvtransfercallback-sendmessage.md) | Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer. |
-| [IWiaSegmentationFilter::DetectRegions method](..\wia_lh\nf-wia_lh-iwiasegmentationfilter-detectregions.md) | The IWiaSegmentationFilter |
-| [IWiaTransferCallback::GetNextStream method](..\wia_lh\nf-wia_lh-iwiatransfercallback-getnextstream.md) | The IWiaTransferCallback |
-| [IWiaTransferCallback::TransferCallback method](..\wia_lh\nf-wia_lh-iwiatransfercallback-transfercallback.md) | The IWiaTransferCallback |
+| [CWiauPropertyList::SetAccessSubType(INT,ULONG,ULONG)](..\wiautil\nf-wiautil-cwiaupropertylist-setaccesssubtype(int,ulong,ulong).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetCurrentValue(INT,BSTR)](..\wiautil\nf-wiautil-cwiaupropertylist-setcurrentvalue(int,bstr).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetCurrentValue(INT,BYTE,INT)](..\wiautil\nf-wiautil-cwiaupropertylist-setcurrentvalue(int,byte,int).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetCurrentValue(INT,CLSID)](..\wiautil\nf-wiautil-cwiaupropertylist-setcurrentvalue(int,clsid).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetCurrentValue(INT,FLOAT)](..\wiautil\nf-wiautil-cwiaupropertylist-setcurrentvalue(int,float).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetCurrentValue(INT,LONG)](..\wiautil\nf-wiautil-cwiaupropertylist-setcurrentvalue(int,long).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME)](..\wiautil\nf-wiautil-cwiaupropertylist-setcurrentvalue(int,psystemtime).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetCurrentValue](..\wiautil\nf-wiautil-cwiaupropertylist-setcurrentvalue.md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetValidValues(INT,BSTR,BSTR,INT,BSTR)](..\wiautil\nf-wiautil-cwiaupropertylist-setvalidvalues(int,bstr,bstr,int,bstr).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetValidValues(INT,CLSID,CLSID,INT,CLSID)](..\wiautil\nf-wiautil-cwiaupropertylist-setvalidvalues(int,clsid,clsid,int,clsid).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)](..\wiautil\nf-wiautil-cwiaupropertylist-setvalidvalues(int,float,float,float,float,float).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)](..\wiautil\nf-wiautil-cwiaupropertylist-setvalidvalues(int,float,float,int,pfloat).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)](..\wiautil\nf-wiautil-cwiaupropertylist-setvalidvalues(int,long,long,int,plong).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG)](..\wiautil\nf-wiautil-cwiaupropertylist-setvalidvalues(int,long,long,long).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG)](..\wiautil\nf-wiautil-cwiaupropertylist-setvalidvalues(int,long,long,long,long,long).md) | The CWiauPropertyList |
+| [CWiauPropertyList::SetValidValues](..\wiautil\nf-wiautil-cwiaupropertylist-setvalidvalues.md) | The CWiauPropertyList |
+| [CWiauPropertyList::~CWiauPropertyList](..\wiautil\nf-wiautil-cwiaupropertylist-~cwiaupropertylist.md) | The CWiauPropertyList |
+| [IStiDevice::DeviceReset](..\sti\nf-sti-istidevice-devicereset.md) | The IStiDevice |
+| [IStiDevice::Diagnostic](..\sti\nf-sti-istidevice-diagnostic.md) | The IStiDevice |
+| [IStiDevice::Escape](..\sti\nf-sti-istidevice-escape.md) | The IStiDevice |
+| [IStiDevice::GetCapabilities](..\sti\nf-sti-istidevice-getcapabilities.md) | The IStiDevice |
+| [IStiDevice::GetLastErrorInfo](..\sti\nf-sti-istidevice-getlasterrorinfo.md) | The IStiDevice |
+| [IStiDevice::GetLastError](..\sti\nf-sti-istidevice-getlasterror.md) | The IStiDevice |
+| [IStiDevice::GetLastNotificationData](..\sti\nf-sti-istidevice-getlastnotificationdata.md) | The IStiDevice |
+| [IStiDevice::GetStatus](..\sti\nf-sti-istidevice-getstatus.md) | The IStiDevice |
+| [IStiDevice::Initialize](..\sti\nf-sti-istidevice-initialize.md) | The IStiDevice |
+| [IStiDevice::LockDevice](..\sti\nf-sti-istidevice-lockdevice.md) | The IStiDevice |
+| [IStiDevice::RawReadCommand](..\sti\nf-sti-istidevice-rawreadcommand.md) | The IStiDevice |
+| [IStiDevice::RawReadData](..\sti\nf-sti-istidevice-rawreaddata.md) | The IStiDevice |
+| [IStiDevice::RawWriteCommand](..\sti\nf-sti-istidevice-rawwritecommand.md) | The IStiDevice |
+| [IStiDevice::RawWriteData](..\sti\nf-sti-istidevice-rawwritedata.md) | The IStiDevice |
+| [IStiDevice::Release](..\sti\nf-sti-istidevice-release.md) | The IStiDevice |
+| [IStiDevice::Subscribe](..\sti\nf-sti-istidevice-subscribe.md) | The IStiDevice |
+| [IStiDevice::UnLockDevice](..\sti\nf-sti-istidevice-unlockdevice.md) | The IStiDevice |
+| [IStiDevice::UnSubscribe](..\sti\nf-sti-istidevice-unsubscribe.md) | The IStiDevice |
+| [IStiDeviceControl::AddRef](..\stiusd\nf-stiusd-istidevicecontrol-addref.md) | The IStiDeviceControl |
+| [IStiDeviceControl::GetMyDeviceHandle](..\stiusd\nf-stiusd-istidevicecontrol-getmydevicehandle.md) | This topic describes the GetMyDeviceHandle method. |
+| [IStiDeviceControl::GetMyDeviceOpenMode](..\stiusd\nf-stiusd-istidevicecontrol-getmydeviceopenmode.md) | The IStiDeviceControl |
+| [IStiDeviceControl::GetMyDevicePortName](..\stiusd\nf-stiusd-istidevicecontrol-getmydeviceportname.md) | The IStiDeviceControl |
+| [IStiDeviceControl::RawDeviceControl](..\stiusd\nf-stiusd-istidevicecontrol-rawdevicecontrol.md) | This topic describes the RawDeviceControl method. |
+| [IStiDeviceControl::Release](..\stiusd\nf-stiusd-istidevicecontrol-release.md) | The IStiDeviceControl |
+| [IStiDeviceControl::WriteToErrorLog](..\stiusd\nf-stiusd-istidevicecontrol-writetoerrorlog.md) | The IStiDeviceControl |
+| [IStiUSD::DeviceReset](..\stiusd\nf-stiusd-istiusd-devicereset.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::Diagnostic](..\stiusd\nf-stiusd-istiusd-diagnostic.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::Escape](..\stiusd\nf-stiusd-istiusd-escape.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::GetCapabilities](..\stiusd\nf-stiusd-istiusd-getcapabilities.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::GetLastErrorInfo](..\stiusd\nf-stiusd-istiusd-getlasterrorinfo.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::GetLastError](..\stiusd\nf-stiusd-istiusd-getlasterror.md) | The IStiUSD |
+| [IStiUSD::GetNotificationData](..\stiusd\nf-stiusd-istiusd-getnotificationdata.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::GetStatus](..\stiusd\nf-stiusd-istiusd-getstatus.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::Initialize](..\stiusd\nf-stiusd-istiusd-initialize.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::LockDevice](..\stiusd\nf-stiusd-istiusd-lockdevice.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::RawReadCommand](..\stiusd\nf-stiusd-istiusd-rawreadcommand.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::RawReadData](..\stiusd\nf-stiusd-istiusd-rawreaddata.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::RawWriteCommand](..\stiusd\nf-stiusd-istiusd-rawwritecommand.md) | A still image minidriver's IStiDevice |
+| [IStiUSD::RawWriteData](..\stiusd\nf-stiusd-istiusd-rawwritedata.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::SetNotificationHandle](..\stiusd\nf-stiusd-istiusd-setnotificationhandle.md) | A still image minidriver's IStiUSD |
+| [IStiUSD::UnLockDevice](..\stiusd\nf-stiusd-istiusd-unlockdevice.md) | A still image minidriver's IStiUSD |
+| [IStillImageW::CreateDevice](..\sti\nf-sti-istillimagew-createdevice.md) | The IStillImage |
+| [IStillImageW::EnableHwNotifications](..\sti\nf-sti-istillimagew-enablehwnotifications.md) | The IStillImage |
+| [IStillImageW::GetDeviceInfo](..\sti\nf-sti-istillimagew-getdeviceinfo.md) | The IStillImage |
+| [IStillImageW::GetDeviceList](..\sti\nf-sti-istillimagew-getdevicelist.md) | The IStillImage |
+| [IStillImageW::GetDeviceValue](..\sti\nf-sti-istillimagew-getdevicevalue.md) | The IStillImage |
+| [IStillImageW::GetHwNotificationState](..\sti\nf-sti-istillimagew-gethwnotificationstate.md) | The IStillImage |
+| [IStillImageW::GetSTILaunchInformation](..\sti\nf-sti-istillimagew-getstilaunchinformation.md) | The IStillImage |
+| [IStillImageW::Initialize](..\sti\nf-sti-istillimagew-initialize.md) | The IStillImage |
+| [IStillImageW::LaunchApplicationForDevice](..\sti\nf-sti-istillimagew-launchapplicationfordevice.md) | The IStillImage |
+| [IStillImageW::RegisterLaunchApplication](..\sti\nf-sti-istillimagew-registerlaunchapplication.md) | The IStillImage |
+| [IStillImageW::Release](..\sti\nf-sti-istillimagew-release.md) | The IStillImage |
+| [IStillImageW::SetDeviceValue](..\sti\nf-sti-istillimagew-setdevicevalue.md) | The IStillImage |
+| [IStillImageW::SetupDeviceParameters](..\sti\nf-sti-istillimagew-setupdeviceparameters.md) | The IStillImage |
+| [IStillImageW::UnregisterLaunchApplication](..\sti\nf-sti-istillimagew-unregisterlaunchapplication.md) | The IStillImage |
+| [IStillImageW::WriteToErrorLog](..\sti\nf-sti-istillimagew-writetoerrorlog.md) | The IStillImage |
+| [IWiaDrvItem::AddItemToFolder](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-additemtofolder.md) | The AddItemToFolder method adds an IWiaDrvItem item to a folder in a driver item tree. |
+| [IWiaDrvItem::DumpItemData](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-dumpitemdata.md) | The IWiaDrvItem |
+| [IWiaDrvItem::FindChildItemByName](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-findchilditembyname.md) | The IWiaDrvItem |
+| [IWiaDrvItem::FindItemByName](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-finditembyname.md) | The IWiaDrvItem |
+| [IWiaDrvItem::GetDeviceSpecContext](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getdevicespeccontext.md) | The IWiaDrvItem |
+| [IWiaDrvItem::GetFirstChildItem](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getfirstchilditem.md) | The IWiaDrvItem |
+| [IWiaDrvItem::GetFullItemName](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getfullitemname.md) | The IWiaDrvItem |
+| [IWiaDrvItem::GetItemFlags](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getitemflags.md) | The IWiaDrvItem |
+| [IWiaDrvItem::GetItemName](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getitemname.md) | The IWiaDrvItem |
+| [IWiaDrvItem::GetNextSiblingItem](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getnextsiblingitem.md) | The IWiaDrvItem |
+| [IWiaDrvItem::GetParentItem](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-getparentitem.md) | The IWiaDrvItem |
+| [IWiaDrvItem::RemoveItemFromFolder](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-removeitemfromfolder.md) | The IWiaDrvItem |
+| [IWiaDrvItem::UnlinkItemTree](..\wiamindr_lh\nf-wiamindr_lh-iwiadrvitem-unlinkitemtree.md) | The IWiaDrvItem |
+| [IWiaErrorHandler::GetStatusDescription](..\wia_lh\nf-wia_lh-iwiaerrorhandler-getstatusdescription.md) | The system UI calls the GetStatusDescription method to provide the user with extra information about an error, if the user requests this information. This method is implemented by a driver's UI extension. |
+| [IWiaErrorHandler::ReportStatus](..\wia_lh\nf-wia_lh-iwiaerrorhandler-reportstatus.md) | The ReportStatus method displays information about an error or status during a transfer. In some cases this method allows the user to recover from an error. |
+| [IWiaImageFilter::FilterPreviewImage](..\wia_lh\nf-wia_lh-iwiaimagefilter-filterpreviewimage.md) | The IWiaImageFilter |
+| [IWiaImageFilter::InitializeFilter](..\wia_lh\nf-wia_lh-iwiaimagefilter-initializefilter.md) | The IWiaImageFilter |
+| [IWiaLog::InitializeLog](..\wia_lh\nf-wia_lh-iwialog-initializelog.md) | Note that the IWiaLog interface is obsolete for Microsoft Windows XP and later, and is no longer supported. Instead, use the Diagnostic Log Macros.The IWiaLog |
+| [IWiaLog::Log](..\wia_lh\nf-wia_lh-iwialog-log.md) | The IWiaLog interface is obsolete for Windows XP and later, and is no longer supported. Use the Diagnostic Log Macros instead.The IWiaLog |
+| [IWiaLog::hResult](..\wia_lh\nf-wia_lh-iwialog-hresult.md) | Note that the IWiaLog interface is obsolete for Microsoft Windows XP and later, and is no longer supported. |
+| [IWiaMiniDrv::drvAcquireItemData](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvAnalyzeItem](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvanalyzeitem.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvDeleteItem](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvdeleteitem.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvDeviceCommand](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvdevicecommand.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvFreeDrvItemContext](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvfreedrvitemcontext.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvGetCapabilities](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvGetDeviceErrorStr](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvGetWiaFormatInfo](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvgetwiaformatinfo.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvInitItemProperties](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvinititemproperties.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvInitializeWia](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvinitializewia.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvLockWiaDevice](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvlockwiadevice.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvNotifyPnpEvent](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvnotifypnpevent.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvReadItemProperties](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvreaditemproperties.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvUnInitializeWia](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvuninitializewia.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvUnLockWiaDevice](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvunlockwiadevice.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvValidateItemProperties](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvvalidateitemproperties.md) | The IWiaMiniDrv |
+| [IWiaMiniDrv::drvWriteItemProperties](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrv-drvwriteitemproperties.md) | The IWiaMiniDrv |
+| [IWiaMiniDrvCallBack::MiniDrvCallback](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback.md) | The MiniDrvCallback method provides a callback method for WIA minidrivers to use during a callback data transfer. |
+| [IWiaMiniDrvTransferCallback::GetNextStream](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrvtransfercallback-getnextstream.md) | Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload). |
+| [IWiaMiniDrvTransferCallback::SendMessage](..\wiamindr_lh\nf-wiamindr_lh-iwiaminidrvtransfercallback-sendmessage.md) | Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer. |
+| [IWiaSegmentationFilter::DetectRegions](..\wia_lh\nf-wia_lh-iwiasegmentationfilter-detectregions.md) | The IWiaSegmentationFilter |
+| [IWiaTransferCallback::GetNextStream](..\wia_lh\nf-wia_lh-iwiatransfercallback-getnextstream.md) | The IWiaTransferCallback |
+| [IWiaTransferCallback::TransferCallback](..\wia_lh\nf-wia_lh-iwiatransfercallback-transfercallback.md) | The IWiaTransferCallback |

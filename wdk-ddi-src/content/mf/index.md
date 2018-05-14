@@ -2,11 +2,12 @@
 UID: NA:mf
 ms.assetid: 6727ec3e-dbdf-3cd2-8861-1f9310adc481
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: netvista
 ---
 
 # Mf.h header

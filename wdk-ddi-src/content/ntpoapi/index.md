@@ -2,11 +2,12 @@
 UID: NA:ntpoapi
 ms.assetid: 05cffe50-bcb4-3779-8086-d9ec44f199f9
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: battery
 ---
 
 # Ntpoapi.h header

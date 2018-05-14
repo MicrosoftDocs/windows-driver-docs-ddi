@@ -2,11 +2,12 @@
 UID: NA:ata
 ms.assetid: b28a1ad9-b3f3-3628-ba9c-b13b462c512c
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: storage
 ---
 
 # Ata.h header

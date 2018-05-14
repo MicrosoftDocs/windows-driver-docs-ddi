@@ -1,0 +1,33 @@
+{
+  "tech": "print",
+  "headers": [
+    "bidispl.h",
+    "compstui.h",
+    "d4drvif.h",
+    "d4iface.h",
+    "documenttarget.h",
+    "filterpipeline.h",
+    "icm.h",
+    "mxdc.h",
+    "olesnmp.h",
+    "prcomoem.h",
+    "prdrvcom.h",
+    "printerextension.h",
+    "printoem.h",
+    "prnasntp.h",
+    "prntfont.h",
+    "tcpxcv.h",
+    "usbprint.h",
+    "winddiui.h",
+    "winppi.h",
+    "winsplp.h",
+    "winspool.h",
+    "xpsdigitalsignature.h",
+    "xpsobjectmodel.h",
+    "xpsobjectmodel_1.h",
+    "xpsobjectmodel_2.h",
+    "xpsprint.h",
+    "xpsrassvc.h"
+  ],
+  "displayName": "Print devices"
+}

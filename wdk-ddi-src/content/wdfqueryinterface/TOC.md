@@ -1,6 +1,6 @@
 # [Windows Driver Framework](../_wdf/index.md)
 ## [Wdfqueryinterface.h](index.md)
-### [EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback](../wdfqueryinterface/nc-wdfqueryinterface-evt_wdf_device_process_query_interface_request.md)
+### [EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback function](../wdfqueryinterface/nc-wdfqueryinterface-evt_wdf_device_process_query_interface_request.md)
 ### [WdfDeviceAddQueryInterface function](../wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md)
 ### [WdfDeviceInterfaceDereferenceNoOp function](../wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop.md)
 ### [WdfDeviceInterfaceReferenceNoOp function](../wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop.md)

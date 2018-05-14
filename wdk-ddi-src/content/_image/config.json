@@ -1,0 +1,22 @@
+{
+  "tech": "image",
+  "headers": [
+    "devmgrpb.h",
+    "ptpusd.h",
+    "scsiscan.h",
+    "sti.h",
+    "stiusd.h",
+    "usbscan.h",
+    "wia.h",
+    "wia_lh.h",
+    "wiadef.h",
+    "wiadevd.h",
+    "wiamdef.h",
+    "wiamicro.h",
+    "wiamindr.h",
+    "wiamindr_lh.h",
+    "wiatwcmp.h",
+    "wiautil.h"
+  ],
+  "displayName": "Imaging devices"
+}

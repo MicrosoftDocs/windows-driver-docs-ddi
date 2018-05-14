@@ -2,11 +2,12 @@
 UID: NA:sffdisk
 ms.assetid: 0ffe1314-78d0-3840-8dbe-bec79732f0dd
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: sd
 ---
 
 # Sffdisk.h header

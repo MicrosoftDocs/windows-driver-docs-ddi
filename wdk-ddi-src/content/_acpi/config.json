@@ -1,0 +1,9 @@
+{
+  "tech": "acpi",
+  "headers": [
+    "acpiioct.h",
+    "acpitabl.h",
+    "oprghdlr.h"
+  ],
+  "displayName": "ACPI"
+}

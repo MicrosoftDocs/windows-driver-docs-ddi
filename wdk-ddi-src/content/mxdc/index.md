@@ -2,11 +2,12 @@
 UID: NA:mxdc
 ms.assetid: c814db66-97e8-3874-b493-8fdcf95ba04b
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: print
 ---
 
 # Mxdc.h header

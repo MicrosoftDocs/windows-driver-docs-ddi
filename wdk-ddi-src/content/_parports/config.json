@@ -1,0 +1,11 @@
+{
+  "tech": "parports",
+  "headers": [
+    "gpio.h",
+    "gpioclx.h",
+    "ntddpar.h",
+    "ntddser.h",
+    "parallel.h"
+  ],
+  "displayName": "Parallel Ports"
+}

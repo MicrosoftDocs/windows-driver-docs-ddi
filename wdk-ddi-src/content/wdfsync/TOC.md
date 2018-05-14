@@ -5,3 +5,4 @@
 ### [WdfSpinLockCreate function](../wdfsync/nf-wdfsync-wdfspinlockcreate.md)
 ### [WdfWaitLockAcquire function](../wdfsync/nf-wdfsync-wdfwaitlockacquire.md)
 ### [WdfWaitLockCreate function](../wdfsync/nf-wdfsync-wdfwaitlockcreate.md)
+### [WdfWaitLockRelease function](../wdfsync/nf-wdfsync-wdfwaitlockrelease.md)

@@ -1,0 +1,8 @@
+{
+  "tech": "sideshow",
+  "headers": [
+    "windowssideshow.h",
+    "windowssideshowclassextension.h",
+    "windowssideshowdriverevents.h"
+  ]
+}

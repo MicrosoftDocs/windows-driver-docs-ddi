@@ -1,0 +1,8 @@
+{
+  "tech": "biometric",
+  "headers": [
+    "winbio_ioctl.h",
+    "winbio_types.h"
+  ],
+  "displayName": "Biometric"
+}

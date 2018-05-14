@@ -1,0 +1,23 @@
+{
+  "tech": "hid",
+  "headers": [
+    "dicpl.h",
+    "hidclass.h",
+    "hidpddi.h",
+    "hidpi.h",
+    "hidport.h",
+    "hidsdi.h",
+    "i8042prt.h",
+    "inhidport.h",
+    "kbdclass.h",
+    "kbdmou.h",
+    "kbfiltr.h",
+    "kdbmou.h",
+    "mouclass.h",
+    "moufiltr.h",
+    "ntdd8042.h",
+    "sffprtcl.h",
+    "vhf.h"
+  ],
+  "displayName": "Human Interface Devices (HID)"
+}
