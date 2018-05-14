@@ -19,10 +19,6 @@ tech.root: wdf
 This header is used by wdf. For more information, see:
 
 - [Windows Driver Framework](../_wdf/index.md)
-
-This header is used by wdf. For more information, see:
-
-- [Windows Driver Framework](../_wdf/index.md)
 - [wdfdevice.h header](../wdfdevice/index.md)
 - [wdfpdo.h header](../wdfpdo/index.md)
 
