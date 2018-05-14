@@ -1,0 +1,18 @@
+{
+  "tech": "audio",
+  "headers": [
+    "bthhfpddi.h",
+    "dmusicks.h",
+    "dmusprop.h",
+    "drmk.h",
+    "hdaudio.h",
+    "keyworddetectoroemadapter.h",
+    "keyworddetectoroemadapter.idl",
+    "ksmedia.h",
+    "portcls.h",
+    "punknown.h",
+    "unknown.h",
+    "usbsidebandaudio.h"
+  ],
+  "displayName": "Audio"
+}

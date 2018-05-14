@@ -2,11 +2,12 @@
 UID: NA:charging
 ms.assetid: ea5ea45e-3345-3551-94ef-8fd0f279aa6b
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: buses
 ---
 
 # Charging.h header

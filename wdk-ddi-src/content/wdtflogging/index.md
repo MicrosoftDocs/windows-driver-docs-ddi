@@ -2,11 +2,12 @@
 UID: NA:wdtflogging
 ms.assetid: cd01c998-01a9-3b3a-a839-bff667e8f463
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: dtf
 ---
 
 # Wdtflogging.h header

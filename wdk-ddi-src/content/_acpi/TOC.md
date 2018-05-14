@@ -67,6 +67,6 @@
 ### [_NFIT_STRUCTURE_TYPE enumeration](../acpitabl/ne-acpitabl-_nfit_structure_type.md)
 ### [_SDEV_SECURE_ACPI_INFO_ENTRY structure](../acpitabl/ns-acpitabl-_sdev_secure_acpi_info_entry.md)
 ## [Oprghdlr.h](../oprghdlr/index.md)
-### [ACPI_OP_REGION_HANDLER callback](../oprghdlr/nc-oprghdlr-acpi_op_region_handler.md)
+### [ACPI_OP_REGION_HANDLER callback function](../oprghdlr/nc-oprghdlr-acpi_op_region_handler.md)
 ### [DeRegisterOpRegionHandler function](../oprghdlr/nf-oprghdlr-deregisteropregionhandler.md)
 ### [RegisterOpRegionHandler function](../oprghdlr/nf-oprghdlr-registeropregionhandler.md)

@@ -2,11 +2,12 @@
 UID: NA:wsk
 ms.assetid: 299d7385-fc5c-3b4d-91f8-ca12894ed875
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: netvista
 ---
 
 # Wsk.h header

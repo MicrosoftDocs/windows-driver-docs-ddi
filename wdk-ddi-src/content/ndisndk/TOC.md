@@ -1,6 +1,6 @@
 # [Networking drivers for Windows Vista and later](../_netvista/index.md)
 ## [Ndisndk.h](index.md)
-### [CLOSE_NDK_ADAPTER_HANDLER callback](../ndisndk/nc-ndisndk-close_ndk_adapter_handler.md)
-### [OPEN_NDK_ADAPTER_HANDLER callback](../ndisndk/nc-ndisndk-open_ndk_adapter_handler.md)
+### [CLOSE_NDK_ADAPTER_HANDLER callback function](../ndisndk/nc-ndisndk-close_ndk_adapter_handler.md)
+### [OPEN_NDK_ADAPTER_HANDLER callback function](../ndisndk/nc-ndisndk-open_ndk_adapter_handler.md)
 ### [_NDIS_NDK_PROVIDER_CHARACTERISTICS structure](../ndisndk/ns-ndisndk-_ndis_ndk_provider_characteristics.md)
 ### [_NDIS_OPEN_NDK_ADAPTER_PARAMETERS structure](../ndisndk/ns-ndisndk-_ndis_open_ndk_adapter_parameters.md)

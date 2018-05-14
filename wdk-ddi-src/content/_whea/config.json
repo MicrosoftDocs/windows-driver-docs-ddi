@@ -1,0 +1,7 @@
+{
+  "tech": "whea",
+  "headers": [
+    "ntddk.h",
+    "wheaevents.h"
+  ]
+}

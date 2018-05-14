@@ -1,0 +1,7 @@
+{
+  "tech": "gnss",
+  "headers": [
+    "gnssdriver.h"
+  ],
+  "displayName": "Global Navigation Satellite System (GNSS)"
+}

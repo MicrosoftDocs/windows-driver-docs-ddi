@@ -1,0 +1,10 @@
+{
+  "tech": "battery",
+  "headers": [
+    "charging.h",
+    "hpmi.h",
+    "ntpoapi.h",
+    "upssvc.h"
+  ],
+  "displayName": "Battery"
+}

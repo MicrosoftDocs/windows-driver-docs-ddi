@@ -2,11 +2,12 @@
 UID: NA:gnssdriver
 ms.assetid: fbc6c86b-073e-3c33-b4cc-a132e4143deb
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: sensors
 ---
 
 # Gnssdriver.h header

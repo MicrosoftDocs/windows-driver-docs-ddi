@@ -1,0 +1,10 @@
+{
+  "tech": "pos",
+  "headers": [
+    "pointofservicecommontypes.h",
+    "pointofservicedriverinterface.h",
+    "poscx.h",
+    "poscxfuncenum.h"
+  ],
+  "displayName": "Point of Service (POS)"
+}

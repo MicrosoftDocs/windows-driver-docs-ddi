@@ -1,0 +1,6 @@
+{
+  "tech": "infrared",
+  "headers": [
+    "irclass_ioctl.h"
+  ]
+}

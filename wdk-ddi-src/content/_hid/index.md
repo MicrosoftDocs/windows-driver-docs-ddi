@@ -2,7 +2,7 @@
 UID: TP:hid
 ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Human Interface Devices (HID)
 
-
+## -description
 
 Overview of the Human Interface Devices (HID) technology.
 
@@ -523,18 +523,18 @@ Declared in Hidpi.h.
 
 | Title   | Description   |
 | ---- |:---- |
-| [EVT_VHF_ASYNC_OPERATION callback](..\vhf\nc-vhf-evt_vhf_async_operation.md) | The HID source driver implements this event callback if it wants to support one of the four asynchronous operation to get and set HID reports. |
-| [EVT_VHF_CLEANUP callback](..\vhf\nc-vhf-evt_vhf_cleanup.md) | The HID source driver implements this event callback to free resources that might the driver allocated to the virtual HID device. |
-| [EVT_VHF_READY_FOR_NEXT_READ_REPORT callback](..\vhf\nc-vhf-evt_vhf_ready_for_next_read_report.md) | The HID source driver implements this event call back function to use its buffering scheme for HID Input Reports, and wants to get notified when the next report can be submitted to VHF. |
-| [PHIDP_GETCAPS callback](..\hidclass\nc-hidclass-phidp_getcaps.md) | The HidP_GetCaps routine returns a top-level collection's HIDP_CAPS structure. |
-| [PI8042_ISR_WRITE_PORT callback](..\ntdd8042\nc-ntdd8042-pi8042_isr_write_port.md) | The PI8042_ISR_WRITE_PORT-typed callback routine writes data to an i8042 port. I8042prt provides this callback. |
-| [PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback](..\ntdd8042\nc-ntdd8042-pi8042_keyboard_initialization_routine.md) | A PI8042_KEYBOARD_INITIALIZATION_ROUTINE-typed callback routine supplements the default initialization of a keyboard device by I8042prt. |
-| [PI8042_KEYBOARD_ISR callback](..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md) | A PI8042_KEYBOARD_ISR-typed callback routine customizes the operation of the I8042prt keyboard ISR. |
-| [PI8042_MOUSE_ISR callback](..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md) | A PI8042_MOUSE_ISR-typed callback routine customizes the operation of the I8042prt mouse ISR. |
-| [PI8042_QUEUE_PACKET callback](..\ntdd8042\nc-ntdd8042-pi8042_queue_packet.md) | The PI8042_QUEUE_PACKET-typed callback routine queues an input data packet for processing by the ISR DPC of a keyboard or mouse device. I8042prt provides this callback. |
-| [PI8042_SYNCH_READ_PORT callback](..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md) | The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized read from an i8042 port. I8042prt supplies this callback. |
-| [PI8042_SYNCH_WRITE_PORT callback](..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md) | The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized write to an i8042 port. I8042prt supplies this routine. |
-| [PSERVICE_CALLBACK_ROUTINE callback](..\kbdmou\nc-kbdmou-pservice_callback_routine.md) | A function driver calls the class service callback in its ISR dispatch completion routine. The class service callback transfers input data from the input data buffer of a device to the class data queue. |
+| [EVT_VHF_ASYNC_OPERATION callback function](..\vhf\nc-vhf-evt_vhf_async_operation.md) | The HID source driver implements this event callback if it wants to support one of the four asynchronous operation to get and set HID reports. |
+| [EVT_VHF_CLEANUP callback function](..\vhf\nc-vhf-evt_vhf_cleanup.md) | The HID source driver implements this event callback to free resources that might the driver allocated to the virtual HID device. |
+| [EVT_VHF_READY_FOR_NEXT_READ_REPORT callback function](..\vhf\nc-vhf-evt_vhf_ready_for_next_read_report.md) | The HID source driver implements this event call back function to use its buffering scheme for HID Input Reports, and wants to get notified when the next report can be submitted to VHF. |
+| [PHIDP_GETCAPS callback function](..\hidclass\nc-hidclass-phidp_getcaps.md) | The HidP_GetCaps routine returns a top-level collection's HIDP_CAPS structure. |
+| [PI8042_ISR_WRITE_PORT callback function](..\ntdd8042\nc-ntdd8042-pi8042_isr_write_port.md) | The PI8042_ISR_WRITE_PORT-typed callback routine writes data to an i8042 port. I8042prt provides this callback. |
+| [PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback function](..\ntdd8042\nc-ntdd8042-pi8042_keyboard_initialization_routine.md) | A PI8042_KEYBOARD_INITIALIZATION_ROUTINE-typed callback routine supplements the default initialization of a keyboard device by I8042prt. |
+| [PI8042_KEYBOARD_ISR callback function](..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md) | A PI8042_KEYBOARD_ISR-typed callback routine customizes the operation of the I8042prt keyboard ISR. |
+| [PI8042_MOUSE_ISR callback function](..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md) | A PI8042_MOUSE_ISR-typed callback routine customizes the operation of the I8042prt mouse ISR. |
+| [PI8042_QUEUE_PACKET callback function](..\ntdd8042\nc-ntdd8042-pi8042_queue_packet.md) | The PI8042_QUEUE_PACKET-typed callback routine queues an input data packet for processing by the ISR DPC of a keyboard or mouse device. I8042prt provides this callback. |
+| [PI8042_SYNCH_READ_PORT callback function](..\ntdd8042\nc-ntdd8042-pi8042_synch_read_port.md) | The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized read from an i8042 port. I8042prt supplies this callback. |
+| [PI8042_SYNCH_WRITE_PORT callback function](..\ntdd8042\nc-ntdd8042-pi8042_synch_write_port.md) | The PI8042_SYNCH_READ_PORT-typed callback routine does a synchronized write to an i8042 port. I8042prt supplies this routine. |
+| [PSERVICE_CALLBACK_ROUTINE callback function](..\kbdmou\nc-kbdmou-pservice_callback_routine.md) | A function driver calls the class service callback in its ISR dispatch completion routine. The class service callback transfers input data from the input data buffer of a device to the class data queue. |
 
 ## Structures
 
@@ -580,7 +580,7 @@ Declared in Hidpi.h.
 | Title   | Description   |
 | ---- |:---- |
 | [IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS IOCTL](..\hidclass\ni-hidclass-ioctl_get_num_device_input_buffers.md) | The IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS request obtains the size of the input report queue for a top-level collection. |
-| [IOCTL_GET_PHYSICAL_DESCRIPTOR IOCTL](..\hidclass\ni-hidclass-ioctl_get_physical_descriptor.md) | The IOCTL_GET_PHYSICAL_DESCRIPTOR request obtains the physical descriptor of a top-level collection. |
+| [IOCTL_GET_PHYSICAL_DESCRIPTOR IOCTL](..\hidclass\ni-hidclass-ioctl_get_physical_descriptor.md) | The IOCTL_GET_PHYSICAL_DESCRIPTOR request obtains the physical descriptor of a top-level collection. For a minidriver, this descriptor is the descriptor of the HIDClass device. |
 | [IOCTL_HID_ACTIVATE_DEVICE IOCTL](..\hidport\ni-hidport-ioctl_hid_activate_device.md) | The IOCTL_HID_ACTIVATE_DEVICE request activates a HIDClass device, which makes it ready for I/O operations. |
 | [IOCTL_HID_DEACTIVATE_DEVICE IOCTL](..\hidport\ni-hidport-ioctl_hid_deactivate_device.md) | The IOCTL_HID_DEACTIVATE_DEVICE request deactivates a HIDClass device, which causes it to stop operations and terminate all outstanding I/O requests. |
 | [IOCTL_HID_DEVICERESET_NOTIFICATION IOCTL](..\hidclass\ni-hidclass-ioctl_hid_devicereset_notification.md) | The IOCTL_HID_DEVICERESET_NOTIFICATION request is sent by the HID client driver to HID class driver to wait for a device-initiated reset event. |
@@ -593,10 +593,10 @@ Declared in Hidpi.h.
 | [IOCTL_HID_GET_DEVICE_ATTRIBUTES IOCTL](..\hidport\ni-hidport-ioctl_hid_get_device_attributes.md) | The IOCTL_HID_GET_DEVICE_ATTRIBUTES request obtains a HIDClass device's attributes in a HID_DEVICE_ATTRIBUTES structure. |
 | [IOCTL_HID_GET_DEVICE_DESCRIPTOR IOCTL](..\hidport\ni-hidport-ioctl_hid_get_device_descriptor.md) | The IOCTL_HID_GET_DEVICE_DESCRIPTOR request obtains a HIDClass device's HID descriptor. |
 | [IOCTL_HID_GET_DRIVER_CONFIG IOCTL](..\hidclass\ni-hidclass-ioctl_hid_get_driver_config.md) | The IOCTL_HID_GET_DRIVER_CONFIG request retrieves the driver configuration. |
-| [IOCTL_HID_GET_FEATURE IOCTL](..\hidclass\ni-hidclass-ioctl_hid_get_feature.md) | The IOCTL_HID_GET_FEATURE request obtains a feature report from a HIDClass device. |
+| [IOCTL_HID_GET_FEATURE IOCTL](..\hidclass\ni-hidclass-ioctl_hid_get_feature.md) | The IOCTL_HID_GET_FEATURE request returns a feature report associated with a top-level collection. |
 | [IOCTL_HID_GET_HARDWARE_ID IOCTL](..\hidclass\ni-hidclass-ioctl_hid_get_hardware_id.md) | The IOCTL_HID_GET_HARDWARE_ID request obtains the Plug and Play hardware ID of a top-level collection. |
-| [IOCTL_HID_GET_INDEXED_STRING IOCTL](..\hidclass\ni-hidclass-ioctl_hid_get_indexed_string.md) | The IOCTL_HID_GET_INDEXED_STRING request obtains a specified embedded string for a top-level collection. |
-| [IOCTL_HID_GET_INPUT_REPORT IOCTL](..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md) | IOCTL_HID_GET_INPUT_REPORT returns an input report from a HID Class device. |
+| [IOCTL_HID_GET_INDEXED_STRING IOCTL](..\hidclass\ni-hidclass-ioctl_hid_get_indexed_string.md) | The IOCTL_HID_GET_INDEXED_STRING request obtains a specified embedded string from a top-level collection. |
+| [IOCTL_HID_GET_INPUT_REPORT IOCTL](..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md) | The IOCTL_HID_GET_INPUT_REPORT request obtains an input report from a top-level collection. |
 | [IOCTL_HID_GET_MANUFACTURER_STRING IOCTL](..\hidclass\ni-hidclass-ioctl_hid_get_manufacturer_string.md) | The IOCTL_HID_GET_MANUFACTURER_STRING request obtains a top-level collection's embedded string that identifies the manufacturer of the device. |
 | [IOCTL_HID_GET_MS_GENRE_DESCRIPTOR IOCTL](..\hidclass\ni-hidclass-ioctl_hid_get_ms_genre_descriptor.md) | The IOCTL_HID_GET_MS_GENRE_DESCRIPTOR request is used for retrieving the genre descriptor for the device. |
 | [IOCTL_HID_GET_POLL_FREQUENCY_MSEC IOCTL](..\hidclass\ni-hidclass-ioctl_hid_get_poll_frequency_msec.md) | The IOCTL_HID_GET_POLL_FREQUENCY_MSEC request obtains the current polling frequency, in milliseconds, of a top-level collection. |
@@ -607,7 +607,7 @@ Declared in Hidpi.h.
 | [IOCTL_HID_READ_REPORT IOCTL](..\hidport\ni-hidport-ioctl_hid_read_report.md) | The IOCTL_HID_READ_REPORT request transfers an input report from a HIDClass device into the HID class driver's buffer. |
 | [IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST IOCTL](..\hidport\ni-hidport-ioctl_hid_send_idle_notification_request.md) | The IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST control code is the IOCTL of the idle notification request IRP that HIDClass sends to HID mini drivers, such as HIDUSB, to inform the bus driver that the device is now idle. |
 | [IOCTL_HID_SET_DRIVER_CONFIG IOCTL](..\hidclass\ni-hidclass-ioctl_hid_set_driver_config.md) | The IOCTL_HID_SET_DRIVER_CONFIG request sets the driver configuration. |
-| [IOCTL_HID_SET_FEATURE IOCTL](..\hidclass\ni-hidclass-ioctl_hid_set_feature.md) | IOCTL_HID_SET_FEATURE sends a feature report to a HIDClass device. |
+| [IOCTL_HID_SET_FEATURE IOCTL](..\hidclass\ni-hidclass-ioctl_hid_set_feature.md) | The IOCTL_HID_SET_FEATURE request sends a feature report to a top-level collection. |
 | [IOCTL_HID_SET_OUTPUT_REPORT IOCTL](..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md) | The IOCTL_HID_SET_OUTPUT_REPORT request sends an output report to a top-level collection. |
 | [IOCTL_HID_SET_POLL_FREQUENCY_MSEC IOCTL](..\hidclass\ni-hidclass-ioctl_hid_set_poll_frequency_msec.md) | The IOCTL_HID_SET_POLL_FREQUENCY_MSEC request sets the polling frequency, in milliseconds, for a top-level collection. |
 | [IOCTL_HID_SET_S0_IDLE_TIMEOUT IOCTL](..\hidclass\ni-hidclass-ioctl_hid_set_s0_idle_timeout.md) | The IOCTL_HID_SET_S0_IDLE_TIMEOUT request is used by a client to inform the HID class driver about the client's preferred idle timeout value. |

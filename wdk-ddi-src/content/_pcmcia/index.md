@@ -2,7 +2,7 @@
 UID: TP:pcmcia
 ms.assetid: be0dbb4f-1fa6-3700-9bd4-462e8bb27384
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # PCMCIA bus drivers
 
-
+## -description
 
 Overview of the PCMCIA bus drivers technology.
 

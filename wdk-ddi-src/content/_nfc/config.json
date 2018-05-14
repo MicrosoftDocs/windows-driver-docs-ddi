@@ -1,0 +1,6 @@
+{
+  "tech": "nfc",
+  "headers": [
+    "ncidef.h"
+  ]
+}

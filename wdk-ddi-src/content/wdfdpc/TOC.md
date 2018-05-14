@@ -1,6 +1,6 @@
 # [Windows Driver Framework](../_wdf/index.md)
 ## [Wdfdpc.h](index.md)
-### [EVT_WDF_DPC callback](../wdfdpc/nc-wdfdpc-evt_wdf_dpc.md)
+### [EVT_WDF_DPC callback function](../wdfdpc/nc-wdfdpc-evt_wdf_dpc.md)
 ### [WdfDpcCancel function](../wdfdpc/nf-wdfdpc-wdfdpccancel.md)
 ### [WdfDpcCreate function](../wdfdpc/nf-wdfdpc-wdfdpccreate.md)
 ### [WdfDpcEnqueue function](../wdfdpc/nf-wdfdpc-wdfdpcenqueue.md)

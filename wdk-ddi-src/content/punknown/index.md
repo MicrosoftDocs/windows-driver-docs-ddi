@@ -2,11 +2,12 @@
 UID: NA:punknown
 ms.assetid: 066f1a97-df88-38c1-b75a-f25fc46a68ca
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: audio
 ---
 
 # Punknown.h header

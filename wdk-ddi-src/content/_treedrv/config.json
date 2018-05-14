@@ -1,0 +1,13 @@
+{
+  "tech": "treedrv",
+  "headers": [
+    "systemrng.h",
+    "treeinlinecryptoservice.h",
+    "treepaymentservice.h",
+    "treerpmbservice.h",
+    "treetpmservice.h",
+    "treevariableservice.h",
+    "trustedrt.h",
+    "trustedruntimeclx.h"
+  ]
+}
