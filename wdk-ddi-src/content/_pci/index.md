@@ -9,7 +9,7 @@ ms.technology: windows-devices
 ms.topic: portal
 ---
 
-# Pci
+# PCI
 
 ## -description
 
