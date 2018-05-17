@@ -65,7 +65,7 @@ Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows
 | Error code               | Description                                                                                        |
 | ------------------------ | -------------------------------------------------------------------------------------------------- |
 | STATUS_SUCCESS           | The call successfully opened a handle to the requested driver directory.                           |
-| STATUS_INVALID_PARAMETER | An input value to this function is invalid. _DriverObject_ or DriverDirectoryHandle is NULL;  _Flags_ is not 0. |
+| STATUS_INVALID_PARAMETER | An input value to this function is invalid. For example, _DriverObject_ or _DriverDirectoryHandle_ is NULL;  _Flags_ is not 0. |
 
 ## -remarks
 If **IoGetDriverDirectory** is called before the required disks and volumes have been started, the function does not open a handle and returns an error. 
