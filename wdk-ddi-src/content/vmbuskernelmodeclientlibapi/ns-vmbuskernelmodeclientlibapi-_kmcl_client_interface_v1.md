@@ -43,18 +43,9 @@ test
 
 ## -syntax
 
-```C++
-#ifdef __cplusplus
-
-typedef struct _KMCL_CLIENT_INTERFACE_V1 : INTERFACE {
-
-#else
-
+```
 typedef struct _KMCL_CLIENT_INTERFACE_V1 {
     INTERFACE;
-
-#endif
-
     PFN_VMB_CHANNEL_ALLOCATE                                         VmbChannelAllocate;
     PFN_VMB_CHANNEL_CLEANUP                                          VmbChannelCleanup;
     PFN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER                         VmbChannelCreateGpadlFromBuffer;

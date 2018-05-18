@@ -44,8 +44,6 @@ targetos: Windows
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-[!include[KMCL interface note](kmcl-interface-note.md)]
-
 The <b>VmbChannelAllocate</b> function allocates a new VMBus channel that has default parameters and callbacks. 
 
 ## -prototype
@@ -85,6 +83,8 @@ A pointer to an allocated channel.
 Returns STATUS_SUCCESS if the operation succeeds, or an appropriate NTSTATUS error code otherwise.
 
 ## -remarks
+
+[!include[KMCL interface note](kmcl-interface-note.md)]
 
 The
 channel may be further initialized using the VMBus channel initialization routines before
