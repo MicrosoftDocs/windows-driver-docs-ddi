@@ -106,167 +106,167 @@ typedef struct _KMCL_CLIENT_INTERFACE_V1 {
 
 test
  
-### -field VmbChannelAllocate
+#### VmbChannelAllocate
 
 test
  
-### -field VmbChannelCleanup
+#### VmbChannelCleanup
 
 test
  
-### -field VmbChannelCreateGpadlFromBuffer
+#### VmbChannelCreateGpadlFromBuffer
 
 test
  
-### -field VmbChannelCreateGpadlFromMdl
+#### VmbChannelCreateGpadlFromMdl
 
 test
  
-### -field VmbChannelDeleteGpadl
+#### VmbChannelDeleteGpadl
 
 test
  
-### -field VmbChannelDisable
+#### VmbChannelDisable
 
 test
  
-### -field VmbChannelEnable
+#### VmbChannelEnable
 
 test
  
-### -field VmbChannelGetInterfaceInstance
+#### VmbChannelGetInterfaceInstance
 
 test
  
-### -field VmbChannelGetMmioSpace
+#### VmbChannelGetMmioSpace
 
 test
  
-### -field VmbChannelGetPointer
+#### VmbChannelGetPointer
 
 test
  
-### -field VmbChannelInitSetClientContextSize
+#### VmbChannelInitSetClientContextSize
 
 test
  
-### -field VmbChannelInitSetFlags
+#### VmbChannelInitSetFlags
 
 test
  
-### -field VmbChannelInitSetFriendlyName
+#### VmbChannelInitSetFriendlyName
 
 test
  
-### -field VmbChannelInitSetMaximumExternalData
+#### VmbChannelInitSetMaximumExternalData
 
 test
  
-### -field VmbChannelInitSetMaximumPacketSize
+#### VmbChannelInitSetMaximumPacketSize
 
 test
  
-### -field VmbChannelInitSetProcessPacketCallbacks
+#### VmbChannelInitSetProcessPacketCallbacks
 
 test
  
-### -field VmbChannelInitSetStateChangeCallbacks
+#### VmbChannelInitSetStateChangeCallbacks
 
 test
  
-### -field VmbChannelPacketComplete
+#### VmbChannelPacketComplete
 
 test
  
-### -field VmbChannelPacketDeferToPassive
+#### VmbChannelPacketDeferToPassive
 
 test
  
-### -field VmbChannelPacketFail
+#### VmbChannelPacketFail
 
 test
  
-### -field VmbChannelPacketGetExternalData
+#### VmbChannelPacketGetExternalData
 
 test
  
-### -field VmbChannelPause
+#### VmbChannelPause
 
 test
  
-### -field VmbChannelSendSynchronousRequest
+#### VmbChannelSendSynchronousRequest
 
 test
  
-### -field VmbChannelSetIncomingProcessingAtPassive
+#### VmbChannelSetIncomingProcessingAtPassive
 
 test
  
-### -field VmbChannelSetInterruptLatency
+#### VmbChannelSetInterruptLatency
 
 test
  
-### -field VmbChannelSetPointer
+#### VmbChannelSetPointer
 
 test
  
-### -field VmbChannelSetTransactionQuota
+#### VmbChannelSetTransactionQuota
 
 test
  
-### -field VmbChannelSizeofPacket
+#### VmbChannelSizeofPacket
 
 test
  
-### -field VmbChannelStart
+#### VmbChannelStart
 
 test
  
-### -field VmbClientChannelInitSetRingBufferPageCount
+#### VmbClientChannelInitSetRingBufferPageCount
 
 test
  
-### -field VmbClientChannelInitSetTargetPnp
+#### VmbClientChannelInitSetTargetPnp
 
 test
  
-### -field VmbPacketAllocate
+#### VmbPacketAllocate
 
 test
  
-### -field VmbPacketFree
+#### VmbPacketFree
 
 test
  
-### -field VmbPacketGetChannel
+#### VmbPacketGetChannel
 
 test
  
-### -field VmbPacketGetPointer
+#### VmbPacketGetPointer
 
 test
  
-### -field VmbPacketInitialize
+#### VmbPacketInitialize
 
 test
  
-### -field VmbPacketSend
+#### VmbPacketSend
 
 test
  
-### -field VmbPacketSendWithExternalMdl
+#### VmbPacketSendWithExternalMdl
 
 test
  
-### -field VmbPacketSendWithExternalPfns
+#### VmbPacketSendWithExternalPfns
 
 test
  
-### -field VmbPacketSetCompletionRoutine
+#### VmbPacketSetCompletionRoutine
 
 test
  
-### -field VmbPacketSetPointer
+#### VmbPacketSetPointer
 
 test
  
