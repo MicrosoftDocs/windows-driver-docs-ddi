@@ -105,6 +105,10 @@ typedef struct _KMCL_CLIENT_INTERFACE_V1 {
 ### -field INTERFACE
 
 test
+
+### -field _KMCL_CLIENT_INTERFACE_V1
+
+test
  
 ### -field _KMCL_CLIENT_INTERFACE_V1.VmbChannelAllocate
 
