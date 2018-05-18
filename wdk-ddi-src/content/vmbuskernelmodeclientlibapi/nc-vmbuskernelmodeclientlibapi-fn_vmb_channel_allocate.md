@@ -44,12 +44,7 @@ targetos: Windows
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-> [!IMPORTANT]
-> This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. 
->
-> To access the KMCL, allocate a **KMCL_CLIENT_INTERFACE_V1** structure to receive the interface, then call either [**WdfFdoQueryForInterface**](../wdffdo/nf-wdffdo-wdffdoqueryforinterface.md) or [**WdfIoTargetQueryForInterface**](../wdfiotarget/nf-wdfiotarget-wdfiotargetqueryforinterface.md) with the *InterfaceType* parameter set to **KMCL_CLIENT_INTERFACE_TYPE**, the *Size* parameter set to `sizeof(KMCL_CLIENT_INTERFACE_V1)`, and the *Version* parameter set to **KMCL_CLIENT_INTERFACE_VERSION_LATEST**.
->
-> For more information about calling driver-defined interfaces, see [Using Driver-Defined Interfaces](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+[!include[KMCL interface note](kmcl-interface-note.md)]
 
 The <b>VmbChannelAllocate</b> function allocates a new VMBus channel that has default parameters and callbacks. 
 
