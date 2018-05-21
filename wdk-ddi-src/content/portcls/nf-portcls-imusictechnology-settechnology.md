@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMusicTechnology.SetTechnology
-title: IMusicTechnology::SetTechnology method
+title: IMusicTechnology::SetTechnology
 author: windows-driver-content
 description: The SetTechnology method changes the Technology member of each KSDATARANGE_MUSIC structure in the data ranges for the miniport driver's pins.
 old-location: audio\imusictechnology_settechnology.htm
 old-project: audio
 ms.assetid: 7e32b408-930d-4ef4-960e-1a0da5ef6803
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMusicTechnology, IMusicTechnology interface [Audio Devices], SetTechnology method, IMusicTechnology::SetTechnology, SetTechnology method [Audio Devices], SetTechnology method [Audio Devices], IMusicTechnology interface, SetTechnology,IMusicTechnology.SetTechnology, audio.imusictechnology_settechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, portcls/IMusicTechnology::SetTechnology
+ms.date: 4/16/2018
+ms.keywords: IMusicTechnology interface [Audio Devices],SetTechnology method, IMusicTechnology.SetTechnology, IMusicTechnology::SetTechnology, SetTechnology, SetTechnology method [Audio Devices], SetTechnology method [Audio Devices],IMusicTechnology interface, audio.imusictechnology_settechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, portcls/IMusicTechnology::SetTechnology
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMusicTechnology::SetTechnology method
+# IMusicTechnology::SetTechnology
 
 
 ## -description

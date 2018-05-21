@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusicks.IMiniportDMus.NewStream
-title: IMiniportDMus::NewStream method
+title: IMiniportDMus::NewStream
 author: windows-driver-content
 description: The NewStream method creates a new instance of a logical stream associated with a specified physical channel.
 old-location: audio\iminiportdmus_newstream.htm
 old-project: audio
 ms.assetid: aa221279-8d59-4f6f-8fc6-ad09e36a12a9
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportDMus, IMiniportDMus interface [Audio Devices], NewStream method, IMiniportDMus::NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices], IMiniportDMus interface, NewStream,IMiniportDMus.NewStream, audio.iminiportdmus_newstream, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, dmusicks/IMiniportDMus::NewStream
+ms.date: 4/16/2018
+ms.keywords: IMiniportDMus interface [Audio Devices],NewStream method, IMiniportDMus.NewStream, IMiniportDMus::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_newstream, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, dmusicks/IMiniportDMus::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DMUS_STREAM_TYPE
+req.typenames: 
 ---
 
-# IMiniportDMus::NewStream method
+# IMiniportDMus::NewStream
 
 
 ## -description

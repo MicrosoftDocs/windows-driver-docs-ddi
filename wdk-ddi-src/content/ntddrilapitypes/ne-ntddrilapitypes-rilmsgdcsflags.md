@@ -7,7 +7,7 @@ old-location: netvista\rilmsgdcsflags.htm
 old-project: netvista
 ms.assetid: 9c69d290-0cc6-4444-b9cb-a9555526e9ed
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILMSGDCSFLAGS, RILMSGDCSFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_DCSFLAG_ALL, RIL_DCSFLAG_COMPRESSED, RIL_DCSFLAG_DISCARD, RIL_DCSFLAG_INDICATIONACTIVE, netvista.rilmsgdcsflags, ntddrilapitypes/RILMSGDCSFLAGS, ntddrilapitypes/RIL_DCSFLAG_ALL, ntddrilapitypes/RIL_DCSFLAG_COMPRESSED, ntddrilapitypes/RIL_DCSFLAG_DISCARD, ntddrilapitypes/RIL_DCSFLAG_INDICATIONACTIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices

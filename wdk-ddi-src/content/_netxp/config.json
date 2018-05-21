@@ -1,0 +1,15 @@
+{
+  "tech": "netxp",
+  "headers": [
+    "ip6firewall.h",
+    "ipfirewall.h",
+    "ipinfo.h",
+    "ndistapi.h",
+    "ndiswan.h",
+    "pfhook.h",
+    "tdikrnl.h",
+    "tdistat.h",
+    "ws2san.h",
+    "wsahelp.h"
+  ]
+}

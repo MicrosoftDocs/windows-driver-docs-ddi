@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: 27551BE5-1260-4F05-9847-97C90ADF7968
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_ControllerSpecificFunction, CLIENT_ControllerSpecificFunction callback function [Parallel Ports], GPIO.client_controllerspecificfunction, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, gpioclx/CLIENT_ControllerSpecificFunction
+ms.keywords: CLIENT_ControllerSpecificFunction, CLIENT_ControllerSpecificFunction callback, CLIENT_ControllerSpecificFunction callback function [Parallel Ports], GPIO.client_controllerspecificfunction, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, gpioclx/CLIENT_ControllerSpecificFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION callback
+# GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION callback function
 
 
 ## -description

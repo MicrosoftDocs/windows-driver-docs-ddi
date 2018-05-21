@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 398AFAEF-D0A9-4BBE-8884-1854C95AA878
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_NFCSE_HCE_REMOTE_RECV, IOCTL_NFCSE_HCE_REMOTE_RECV control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_HCE_REMOTE_RECV, nfpdrivers.ioctl_nfcse_hce_remote_recv
+ms.keywords: IOCTL_NFCSE_HCE_REMOTE_RECV, IOCTL_NFCSE_HCE_REMOTE_RECV control, IOCTL_NFCSE_HCE_REMOTE_RECV control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_HCE_REMOTE_RECV, nfpdrivers.ioctl_nfcse_hce_remote_recv
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_NFCSE_HCE_REMOTE_RECV IOCTL

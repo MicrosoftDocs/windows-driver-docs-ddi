@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_WMI_INSTANCE_CONFIG, *PWDF_WMI_INSTANCE_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WDF_WMI_INSTANCE_CONFIG structure

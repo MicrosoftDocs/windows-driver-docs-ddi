@@ -7,8 +7,8 @@ old-location: netvista\netprocesssglist.htm
 old-project: netvista
 ms.assetid: 5b99e0ec-7c82-46d6-b32a-246b368cf4f1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_PROCESS_SG_LIST, NetProcessSGList, NetProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/NetProcessSGList, ndis_shared_memory_ref_0c3e2851-6897-4997-a974-2a108e1e5ee9.xml, netvista.netprocesssglist
+ms.date: 4/25/2018
+ms.keywords: NDIS_PROCESS_SG_LIST, NDIS_PROCESS_SG_LIST callback, NetProcessSGList, NetProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/NetProcessSGList, ndis_shared_memory_ref_0c3e2851-6897-4997-a974-2a108e1e5ee9.xml, netvista.netprocesssglist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_PROCESS_SG_LIST callback
+# NDIS_PROCESS_SG_LIST callback function
 
 
 ## -description

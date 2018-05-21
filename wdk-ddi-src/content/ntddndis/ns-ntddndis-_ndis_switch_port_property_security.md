@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_property_security.htm
 old-project: netvista
 ms.assetid: 632ce2d0-4dff-422e-a968-436bd17dd6d8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_SECURITY, NDIS_SWITCH_PORT_PROPERTY_SECURITY, NDIS_SWITCH_PORT_PROPERTY_SECURITY structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_SECURITY, PNDIS_SWITCH_PORT_PROPERTY_SECURITY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_SECURITY, netvista.ndis_switch_port_property_security, ntddndis/NDIS_SWITCH_PORT_PROPERTY_SECURITY, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_SECURITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

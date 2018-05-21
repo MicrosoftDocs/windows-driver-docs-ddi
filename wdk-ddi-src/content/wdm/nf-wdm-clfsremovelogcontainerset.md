@@ -7,7 +7,7 @@ old-location: kernel\clfsremovelogcontainerset.htm
 old-project: kernel
 ms.assetid: b73a125f-3ab9-4ec6-a154-7b32334e95eb
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ClfsRemoveLogContainerSet, ClfsRemoveLogContainerSet routine [Kernel-Mode Driver Architecture], Clfs_8455da3b-79fb-4511-8682-e9167620a369.xml, kernel.clfsremovelogcontainerset, wdm/ClfsRemoveLogContainerSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ClfsRemoveLogContainerSet function

@@ -7,7 +7,7 @@ old-location: ifsk\fltreleasecontext.htm
 old-project: ifsk
 ms.assetid: b0585443-b8e9-41bc-81af-5707fda2465d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_1040d19b-2ecb-4229-adda-b73f5c2bc828.xml, FltReleaseContext, FltReleaseContext function [Installable File System Drivers], fltkernel/FltReleaseContext, ifsk.fltreleasecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltReleaseContext function

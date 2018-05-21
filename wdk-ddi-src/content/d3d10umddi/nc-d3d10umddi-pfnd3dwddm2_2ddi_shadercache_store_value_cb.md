@@ -7,8 +7,8 @@ old-location: display\pfnd3dwddm2_2ddi_shadercache_store_value.htm
 old-project: display
 ms.assetid: 715D4C28-029F-463E-9A6D-D8155B570538
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB, d3d12umddi/pfnShaderCacheStoreValue, display.pfnd3dwddm2_2ddi_shadercache_store_value, pfnShaderCacheStoreValue, pfnShaderCacheStoreValue callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB, PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback, d3d12umddi/pfnShaderCacheStoreValue, display.pfnd3dwddm2_2ddi_shadercache_store_value, pfnShaderCacheStoreValue, pfnShaderCacheStoreValue callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback
+# PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback function
 
 
 ## -description

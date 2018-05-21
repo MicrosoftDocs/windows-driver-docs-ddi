@@ -7,7 +7,7 @@ old-location: netvista\ndismcoactivatevccomplete.htm
 old-project: netvista
 ms.assetid: db5ff69f-dcae-4016-a078-c8edb2390c6c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMCoActivateVcComplete, NdisMCoActivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_3a81c66b-8e97-4194-bf90-988ac2fd05b5.xml, ndis/NdisMCoActivateVcComplete, netvista.ndismcoactivatevccomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMCoActivateVcComplete function

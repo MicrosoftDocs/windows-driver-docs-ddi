@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_get_slot_info_status.htm
 old-project: netvista
 ms.assetid: 214AFAD3-B211-4D66-8CFC-58F8EB407B83
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_GET_SLOT_INFO, NDIS_WWAN_GET_SLOT_INFO, NDIS_WWAN_GET_SLOT_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_GET_SLOT_INFO, PNDIS_WWAN_GET_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_GET_SLOT_INFO, ndiswwan/NDIS_WWAN_GET_SLOT_INFO, ndiswwan/PNDIS_WWAN_GET_SLOT_INFO, netvista.ndis_wwan_get_slot_info_status"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

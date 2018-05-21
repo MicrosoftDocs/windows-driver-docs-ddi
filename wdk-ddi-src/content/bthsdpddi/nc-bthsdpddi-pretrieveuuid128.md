@@ -7,8 +7,8 @@ old-location: bltooth\sdpretrieveuuid128.htm
 old-project: bltooth
 ms.assetid: 0e317aea-3625-4511-94e1-355c476c0da6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PRETRIEVEUUID128, SdpRetrieveUuid128, SdpRetrieveUuid128 callback function [Bluetooth Devices], bltooth.sdpretrieveuuid128, bth_funcs_a4149063-722b-45c0-a86b-ffce73b94b0d.xml, sdplib/SdpRetrieveUuid128
+ms.date: 4/27/2018
+ms.keywords: PRETRIEVEUUID128, PRETRIEVEUUID128 callback, SdpRetrieveUuid128, SdpRetrieveUuid128 callback function [Bluetooth Devices], bltooth.sdpretrieveuuid128, bth_funcs_a4149063-722b-45c0-a86b-ffce73b94b0d.xml, sdplib/SdpRetrieveUuid128
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: BTH_VENDOR_SPECIFIC_COMMAND, *PBTH_VENDOR_SPECIFIC_COMMAND
+req.typenames: 
 ---
 
-# PRETRIEVEUUID128 callback
+# PRETRIEVEUUID128 callback function
 
 
 ## -description

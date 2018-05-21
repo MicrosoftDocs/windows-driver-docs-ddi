@@ -7,7 +7,7 @@ old-location: kernel\rtllonglongtoulong.htm
 old-project: kernel
 ms.assetid: EA5C57D3-E4EF-49B2-9B0E-DB99CD32C888
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlLongLongToULong, RtlLongLongToULong function [Kernel-Mode Driver Architecture], kernel.rtllonglongtoulong, ntintsafe/RtlLongLongToULong
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlLongLongToULong function

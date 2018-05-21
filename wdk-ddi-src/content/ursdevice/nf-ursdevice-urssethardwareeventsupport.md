@@ -7,7 +7,7 @@ old-location: buses\urssethardwareeventsupport.htm
 old-project: usbref
 ms.assetid: 905BA306-29A5-4AAB-BA30-6B459E0062F6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UrsSetHardwareEventSupport, UrsSetHardwareEventSupport function [Buses], buses.urssethardwareeventsupport, ursdevice/UrsSetHardwareEventSupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UMDETW_ALLOCATION_USAGE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UrsSetHardwareEventSupport function

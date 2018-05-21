@@ -7,8 +7,8 @@ old-location: display\checkpresentdurationsupport.htm
 old-project: display
 ms.assetid: 4D3FC503-A502-41D3-AB76-5A2BEBE4C551
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CheckPresentDurationSupport, CheckPresentDurationSupport callback function [Display Devices], PFND3DDDI_CHECKPRESENTDURATIONSUPPORT, d3dumddi/CheckPresentDurationSupport, display.checkpresentdurationsupport
+ms.date: 4/16/2018
+ms.keywords: CheckPresentDurationSupport, CheckPresentDurationSupport callback function [Display Devices], PFND3DDDI_CHECKPRESENTDURATIONSUPPORT, PFND3DDDI_CHECKPRESENTDURATIONSUPPORT callback, d3dumddi/CheckPresentDurationSupport, display.checkpresentdurationsupport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CHECKPRESENTDURATIONSUPPORT callback
+# PFND3DDDI_CHECKPRESENTDURATIONSUPPORT callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\reg_create_key_information_v1.htm
 old-project: kernel
 ms.assetid: d81dd8db-9074-43ea-a7bd-e83bd205c564
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PREG_CREATE_KEY_INFORMATION_V1, *PREG_OPEN_KEY_INFORMATION_V1, PREG_CREATE_KEY_INFORMATION_V1, PREG_CREATE_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], PREG_OPEN_KEY_INFORMATION_V1, PREG_OPEN_KEY_INFORMATION_V1 structure pointer [Kernel-Mode Driver Architecture], REG_CREATE_KEY_INFORMATION_V1, REG_CREATE_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], REG_OPEN_KEY_INFORMATION_V1, REG_OPEN_KEY_INFORMATION_V1 structure [Kernel-Mode Driver Architecture], _REG_CREATE_KEY_INFORMATION_V1, kernel.reg_create_key_information_v1, kstruct_d_79809cef-3593-4774-8407-c26c281735eb.xml, wdm/PREG_CREATE_KEY_INFORMATION_V1, wdm/PREG_OPEN_KEY_INFORMATION_V1, wdm/REG_CREATE_KEY_INFORMATION_V1, wdm/REG_OPEN_KEY_INFORMATION_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: REG_CREATE_KEY_INFORMATION_V1, REG_OPEN_KEY_INFORMATION_V1, *PREG_CREATE_KEY_INFORMATION_V1, *PREG_OPEN_KEY_INFORMATION_V1
-req.product: Windows 10 or later.
 ---
 
 # _REG_CREATE_KEY_INFORMATION_V1 structure

@@ -7,7 +7,7 @@ old-location: ifsk\rxpacquireprefixtablelockexclusive.htm
 old-project: ifsk
 ms.assetid: 62f0bfd3-b8d9-4b29-a811-91a6c66dc24f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxpAcquirePrefixTableLockExclusive, RxpAcquirePrefixTableLockExclusive function [Installable File System Drivers], ifsk.rxpacquireprefixtablelockexclusive, prefix/RxpAcquirePrefixTableLockExclusive, rxref_3e3f34a4-ccc4-434b-9df0-b320923178d3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SHIMOPTS, *PSHIMOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxpAcquirePrefixTableLockExclusive function

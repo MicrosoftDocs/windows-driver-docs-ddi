@@ -7,8 +7,8 @@ old-location: netvista\GetNetBufferListDestinations.htm
 old-project: netvista
 ms.assetid: 55B5C0B4-5359-410B-9110-79EDDBA3010C
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetNetBufferListDestinations, GetNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS, ndis/GetNetBufferListDestinations, netvista.GetNetBufferListDestinations
+ms.date: 4/25/2018
+ms.keywords: GetNetBufferListDestinations, GetNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS, NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS callback, ndis/GetNetBufferListDestinations, netvista.GetNetBufferListDestinations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS callback
+# NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\pfnstateiainputlayoutcb.htm
 old-project: display
 ms.assetid: fce49c60-8573-4a28-9d1c-5cf33d260db3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB, d3d10state_functions_7b16723d-2341-4413-9a3c-e1755e34b55e.xml, d3d10umddi/pfnStateIaInputLayoutCb, display.pfnstateiainputlayoutcb, pfnStateIaInputLayoutCb, pfnStateIaInputLayoutCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB, PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB callback, d3d10state_functions_7b16723d-2341-4413-9a3c-e1755e34b55e.xml, d3d10umddi/pfnStateIaInputLayoutCb, display.pfnstateiainputlayoutcb, pfnStateIaInputLayoutCb, pfnStateIaInputLayoutCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB callback
+# PFND3D10DDI_STATE_IA_INPUTLAYOUT_CB callback function
 
 
 ## -description

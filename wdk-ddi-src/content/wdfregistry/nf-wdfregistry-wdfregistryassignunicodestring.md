@@ -44,8 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRegistryAssignUnicodeString function
@@ -157,7 +156,7 @@ If the value name that the <i>ValueName</i> parameter specifies already exists, 
 
 The framework sets the value's data type to REG_SZ.
 
-For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

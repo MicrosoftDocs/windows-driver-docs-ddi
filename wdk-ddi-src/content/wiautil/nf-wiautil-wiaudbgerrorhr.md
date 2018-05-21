@@ -7,7 +7,7 @@ old-location: image\wiaudbgerrorhr.htm
 old-project: image
 ms.assetid: 18d248d9-d447-4d3e-9eaa-f6befb4bef58
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaudbgerrorhr, wiauDbgErrorHr, wiauDbgErrorHr function [Imaging Devices], wiauFncs_1400188e-53d1-481c-a470-8a2247b7f34f.xml, wiautil/wiauDbgErrorHr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauDbgErrorHr function

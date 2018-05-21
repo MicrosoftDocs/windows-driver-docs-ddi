@@ -7,7 +7,7 @@ old-location: kernel\rtlintptrtouintptr.htm
 old-project: kernel
 ms.assetid: A4677F86-C98A-4F8B-98CA-86082A7D77FD
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlIntPtrToUIntPtr, RtlIntPtrToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlintptrtouintptr, ntintsafe/RtlIntPtrToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlIntPtrToUIntPtr function

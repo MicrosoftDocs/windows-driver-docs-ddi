@@ -7,8 +7,8 @@ old-location: display\cryptosessionkeyexchange.htm
 old-project: display
 ms.assetid: f8055bb3-b8f1-47f5-9ae0-8e7a26989871
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CryptoSessionKeyExchange, CryptoSessionKeyExchange callback function [Display Devices], PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE, UserModeDisplayDriver_Functions_36eab785-562d-4f2d-bcf2-2da53708f98d.xml, d3dumddi/CryptoSessionKeyExchange, display.cryptosessionkeyexchange
+ms.date: 4/16/2018
+ms.keywords: CryptoSessionKeyExchange, CryptoSessionKeyExchange callback function [Display Devices], PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE, PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE callback, UserModeDisplayDriver_Functions_36eab785-562d-4f2d-bcf2-2da53708f98d.xml, d3dumddi/CryptoSessionKeyExchange, display.cryptosessionkeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE callback
+# PFND3DDDI_CRYPTOSESSIONKEYEXCHANGE callback function
 
 
 ## -description

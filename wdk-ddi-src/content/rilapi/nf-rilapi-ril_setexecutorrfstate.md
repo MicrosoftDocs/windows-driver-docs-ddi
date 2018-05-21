@@ -7,7 +7,7 @@ old-location: netvista\ril_setexecutorrfstate.htm
 old-project: netvista
 ms.assetid: 4543671c-222f-4913-9f88-682af3e54273
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SetExecutorRFState, RIL_SetExecutorRFState method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorrfstate, rilapi/RIL_SetExecutorRFState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SetExecutorRFState function

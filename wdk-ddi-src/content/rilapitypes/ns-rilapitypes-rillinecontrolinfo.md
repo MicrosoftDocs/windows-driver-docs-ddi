@@ -7,7 +7,7 @@ old-location: netvista\rillinecontrolinfo.htm
 old-project: netvista
 ms.assetid: 4a3bcbda-58e8-4b40-bcc2-fe7b1e624973
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILLINECONTROLINFO, RILLINECONTROLINFO, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], netvista.rillinecontrolinfo, ntddrilapitypes/RILLINECONTROLINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILLINECONTROLINFO, *LPRILLINECONTROLINFO
-req.product: Windows 10 or later.
 ---
 
 # RILLINECONTROLINFO structure

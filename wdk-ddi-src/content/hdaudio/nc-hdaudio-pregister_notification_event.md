@@ -7,8 +7,8 @@ old-location: audio\registernotificationevent.htm
 old-project: audio
 ms.assetid: 44702d79-80ac-411f-ae47-bf60b9cb541d
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: PREGISTER_NOTIFICATION_EVENT, RegisterNotificationEvent, RegisterNotificationEvent callback function [Audio Devices], aud-prop2_fa7a1f01-c553-40df-971b-932f8da48353.xml, audio.registernotificationevent, hdaudio/RegisterNotificationEvent
+ms.date: 4/16/2018
+ms.keywords: PREGISTER_NOTIFICATION_EVENT, PREGISTER_NOTIFICATION_EVENT callback, RegisterNotificationEvent, RegisterNotificationEvent callback function [Audio Devices], aud-prop2_fa7a1f01-c553-40df-971b-932f8da48353.xml, audio.registernotificationevent, hdaudio/RegisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: 
 ---
 
-# PREGISTER_NOTIFICATION_EVENT callback
+# PREGISTER_NOTIFICATION_EVENT callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: serports\evtsercx2piotransmitcancelreadynotification.htm
 old-project: serports
 ms.assetid: 2483F6A6-67FE-4C75-9872-53F66B4BD658
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2PioTransmitCancelReadyNotification, EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION, EvtSerCx2PioTransmitCancelReadyNotification, EvtSerCx2PioTransmitCancelReadyNotification callback function [Serial Ports], serports.evtsercx2piotransmitcancelreadynotification
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2PioTransmitCancelReadyNotification, EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION, EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION callback, EvtSerCx2PioTransmitCancelReadyNotification, EvtSerCx2PioTransmitCancelReadyNotification callback function [Serial Ports], serports.evtsercx2piotransmitcancelreadynotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION callback
+# EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\ndismallocatesharedmemoryasyncex.htm
 old-project: netvista
 ms.assetid: ccbe98ca-7da9-4159-ac1a-c25ec6745ff4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMAllocateSharedMemoryAsyncEx, NdisMAllocateSharedMemoryAsyncEx function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocateSharedMemoryAsyncEx, ndis_sgdma_ref_73efae25-05b5-496f-8c7a-83a6d9f091cc.xml, netvista.ndismallocatesharedmemoryasyncex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMAllocateSharedMemoryAsyncEx function

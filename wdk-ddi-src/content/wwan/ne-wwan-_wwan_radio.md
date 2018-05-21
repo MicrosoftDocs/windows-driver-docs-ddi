@@ -7,7 +7,7 @@ old-location: netvista\wwan_radio.htm
 old-project: netvista
 ms.assetid: f589180c-5379-4f50-876e-48d142b44be4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_RADIO, PWWAN_RADIO, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_RADIO, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], WwanRadioOff, WwanRadioOn, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, _WWAN_RADIO, netvista.wwan_radio, wwan/PWWAN_RADIO, wwan/WWAN_RADIO, wwan/WwanRadioOff, wwan/WwanRadioOn"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_RADIO, *PWWAN_RADIO
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_RADIO enumeration

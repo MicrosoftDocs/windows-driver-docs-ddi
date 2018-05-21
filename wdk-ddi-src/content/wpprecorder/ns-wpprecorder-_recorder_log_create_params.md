@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RECORDER_LOG_CREATE_PARAMS, *PRECORDER_LOG_CREATE_PARAMS
-req.product: Windows 10 or later.
 ---
 
 # _RECORDER_LOG_CREATE_PARAMS structure

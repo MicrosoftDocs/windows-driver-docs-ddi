@@ -7,8 +7,8 @@ old-location: display\relocatedevicefuncs_d3d11_1_.htm
 old-project: display
 ms.assetid: 5d9f964e-5d7a-4b6c-977e-c718e3424f84
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D11_1DDI_RELOCATEDEVICEFUNCS, RelocateDeviceFuncs(D3D11_1), RelocateDeviceFuncs(D3D11_1) callback function [Display Devices], d3d10umddi/RelocateDeviceFuncs(D3D11_1), display.pfnrelocatedevicefuncs, display.relocatedevicefuncs_d3d11_1_
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_RELOCATEDEVICEFUNCS, PFND3D11_1DDI_RELOCATEDEVICEFUNCS callback, RelocateDeviceFuncs(D3D11_1), RelocateDeviceFuncs(D3D11_1) callback function [Display Devices], d3d10umddi/RelocateDeviceFuncs(D3D11_1), display.pfnrelocatedevicefuncs, display.relocatedevicefuncs_d3d11_1_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_RELOCATEDEVICEFUNCS callback
+# PFND3D11_1DDI_RELOCATEDEVICEFUNCS callback function
 
 
 ## -description

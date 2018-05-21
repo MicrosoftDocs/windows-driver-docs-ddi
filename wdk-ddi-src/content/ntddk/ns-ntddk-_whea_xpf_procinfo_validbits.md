@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,39 +63,39 @@ The WHEA_XPF_PROCINFO_VALIDBITS union describes which members of a <a href="http
  
 
 
-### -field ValidBits
-
-A ULONGLONG representation of the contents of the WHEA_XPF_PROCINFO_VALIDBITS union.
-
-
-#### - CheckInfo
+### -field DUMMYSTRUCTNAME.CheckInfo
 
 A single bit that indicates that the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
-#### - InstructionPointer
+### -field DUMMYSTRUCTNAME.TargetId
 
-A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+A single bit that indicates that the <b>TargetId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
-#### - RequesterId
+### -field DUMMYSTRUCTNAME.RequesterId
 
 A single bit that indicates that the <b>RequesterId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
-#### - Reserved
-
-Reserved for system use.
-
-
-#### - ResponderId
+### -field DUMMYSTRUCTNAME.ResponderId
 
 A single bit that indicates that the <b>ResponderId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
 
 
-#### - TargetId
+### -field DUMMYSTRUCTNAME.InstructionPointer
 
-A single bit that indicates that the <b>TargetId</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+A single bit that indicates that the <b>InstructionPointer</b> member of the WHEA_XPF_PROCINFO structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
+
+Reserved for system use.
+
+
+### -field ValidBits
+
+A ULONGLONG representation of the contents of the WHEA_XPF_PROCINFO_VALIDBITS union.
 
 
 ## -remarks

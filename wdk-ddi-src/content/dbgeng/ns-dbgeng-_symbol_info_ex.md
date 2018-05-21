@@ -7,7 +7,7 @@ old-location: debugger\symbol_info_ex.htm
 old-project: debugger
 ms.assetid: BDB8179A-4A97-4E83-B4A4-7B8358B3510C
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: "*PSYMBOL_INFO_EX, PSYMBOL_INFO_EX, PSYMBOL_INFO_EX structure pointer [Windows Debugging], SYMBOL_INFO_EX, SYMBOL_INFO_EX structure [Windows Debugging], _SYMBOL_INFO_EX, dbgeng/PSYMBOL_INFO_EX, dbgeng/SYMBOL_INFO_EX, debugger.symbol_info_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices

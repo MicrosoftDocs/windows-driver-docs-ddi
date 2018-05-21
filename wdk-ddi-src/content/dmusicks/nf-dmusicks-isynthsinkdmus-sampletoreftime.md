@@ -1,14 +1,14 @@
 ---
 UID: NF:dmusicks.ISynthSinkDMus.SampleToRefTime
-title: ISynthSinkDMus::SampleToRefTime method
+title: ISynthSinkDMus::SampleToRefTime
 author: windows-driver-content
 description: The SampleToRefTime method converts a sample time to a reference time.
 old-location: audio\isynthsinkdmus_sampletoreftime.htm
 old-project: audio
 ms.assetid: b2d54ee9-78aa-4799-a06d-6c79000d3e32
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], SampleToRefTime method, ISynthSinkDMus::SampleToRefTime, SampleToRefTime method [Audio Devices], SampleToRefTime method [Audio Devices], ISynthSinkDMus interface, SampleToRefTime,ISynthSinkDMus.SampleToRefTime, audio.isynthsinkdmus_sampletoreftime, audmp-routines_acfbec43-3c33-4d78-9d25-57e44afe0033.xml, dmusicks/ISynthSinkDMus::SampleToRefTime
+ms.date: 4/16/2018
+ms.keywords: ISynthSinkDMus interface [Audio Devices],SampleToRefTime method, ISynthSinkDMus.SampleToRefTime, ISynthSinkDMus::SampleToRefTime, SampleToRefTime, SampleToRefTime method [Audio Devices], SampleToRefTime method [Audio Devices],ISynthSinkDMus interface, audio.isynthsinkdmus_sampletoreftime, audmp-routines_acfbec43-3c33-4d78-9d25-57e44afe0033.xml, dmusicks/ISynthSinkDMus::SampleToRefTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DMUS_STREAM_TYPE
+req.typenames: 
 ---
 
-# ISynthSinkDMus::SampleToRefTime method
+# ISynthSinkDMus::SampleToRefTime
 
 
 ## -description

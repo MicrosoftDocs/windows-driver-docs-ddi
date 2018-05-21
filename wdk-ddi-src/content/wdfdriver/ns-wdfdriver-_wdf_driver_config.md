@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_DRIVER_CONFIG, *PWDF_DRIVER_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WDF_DRIVER_CONFIG structure

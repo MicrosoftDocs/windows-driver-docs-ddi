@@ -7,8 +7,8 @@ old-location: display\d3dkmtcreateallocation.htm
 old-project: display
 ms.assetid: 1374ad6f-3a79-4db1-acc9-28c8bd9aa93d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3DKMTCreateAllocation, D3DKMTCreateAllocation callback function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation
+ms.date: 4/16/2018
+ms.keywords: D3DKMTCreateAllocation, D3DKMTCreateAllocation callback function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, PFND3DKMT_CREATEALLOCATION callback, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_TARGETMODE_DETAIL_TIMING
+req.typenames: 
 ---
 
-# PFND3DKMT_CREATEALLOCATION callback
+# PFND3DKMT_CREATEALLOCATION callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ifsk\rxcequerytransportinformation.htm
 old-project: ifsk
 ms.assetid: 94744af6-0c62-4942-a8a8-3a45a0ab98da
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers], ifsk.rxcequerytransportinformation, rxce/RxCeQueryTransportInformation, rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxCeQueryTransportInformation function

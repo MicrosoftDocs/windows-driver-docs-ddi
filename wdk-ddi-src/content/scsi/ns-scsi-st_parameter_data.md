@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: ST_PARAMETER_DATA, *PST_PARAMETER_DATA
-req.product: Windows 10 or later.
 ---
 
 # ST_PARAMETER_DATA structure

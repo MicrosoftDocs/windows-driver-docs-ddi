@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_POFX_DEVICE, *PSTOR_POFX_DEVICE
-req.product: Windows 10 or later.
 ---
 
 # _STOR_POFX_DEVICE structure

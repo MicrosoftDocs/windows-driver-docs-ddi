@@ -7,8 +7,8 @@ old-location: print\iprintwritestreamflush.htm
 old-project: print
 ms.assetid: DB3E1127-B3B1-4C48-9819-EEF705B9985A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintWriteStreamFlush, IPrintWriteStreamFlush interface [Print Devices], IPrintWriteStreamFlush interface [Print Devices], described, filterpipeline/IPrintWriteStreamFlush, print.iprintwritestreamflush
+ms.date: 4/20/2018
+ms.keywords: IPrintWriteStreamFlush, IPrintWriteStreamFlush interface [Print Devices], IPrintWriteStreamFlush interface [Print Devices],described, filterpipeline/IPrintWriteStreamFlush, print.iprintwritestreamflush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # IPrintWriteStreamFlush interface

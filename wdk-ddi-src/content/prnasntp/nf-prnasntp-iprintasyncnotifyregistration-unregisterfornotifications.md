@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintAsyncNotifyRegistration.UnregisterForNotifications
-title: IPrintAsyncNotifyRegistration::UnregisterForNotifications method
+title: IPrintAsyncNotifyRegistration::UnregisterForNotifications
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnotifyregistration_unregisterfornotifications.htm
 old-project: print
 ms.assetid: C1B7EE25-B95B-4EAA-8826-269099352FDF
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintAsyncNotifyRegistration, IPrintAsyncNotifyRegistration interface [Print Devices], UnregisterForNotifications method, IPrintAsyncNotifyRegistration::UnregisterForNotifications, UnregisterForNotifications method [Print Devices], UnregisterForNotifications method [Print Devices], IPrintAsyncNotifyRegistration interface, UnregisterForNotifications,IPrintAsyncNotifyRegistration.UnregisterForNotifications, print.iprintasyncnotifyregistration_unregisterfornotifications, prnasntp/IPrintAsyncNotifyRegistration::UnregisterForNotifications
+ms.date: 4/20/2018
+ms.keywords: IPrintAsyncNotifyRegistration interface [Print Devices],UnregisterForNotifications method, IPrintAsyncNotifyRegistration.UnregisterForNotifications, IPrintAsyncNotifyRegistration::UnregisterForNotifications, UnregisterForNotifications, UnregisterForNotifications method [Print Devices], UnregisterForNotifications method [Print Devices],IPrintAsyncNotifyRegistration interface, print.iprintasyncnotifyregistration_unregisterfornotifications, prnasntp/IPrintAsyncNotifyRegistration::UnregisterForNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintAsyncNotifyRegistration::UnregisterForNotifications method
+# IPrintAsyncNotifyRegistration::UnregisterForNotifications
 
 
 ## -description

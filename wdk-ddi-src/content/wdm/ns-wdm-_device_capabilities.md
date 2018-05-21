@@ -7,7 +7,7 @@ old-location: kernel\device_capabilities.htm
 old-project: kernel
 ms.assetid: 1edae050-8e72-42e7-9dc9-8f449699969c
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: DEVICE_CAPABILITIES, DEVICE_CAPABILITIES structure [Kernel-Mode Driver Architecture], PDEVICE_CAPABILITIES, PDEVICE_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _DEVICE_CAPABILITIES, kernel.device_capabilities, kstruct_a_53ec6d40-84a0-45f6-a78c-73fcc3c12e11.xml, wdm/DEVICE_CAPABILITIES, wdm/PDEVICE_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DEVICE_CAPABILITIES, PDEVICE_CAPABILITIES
-req.product: Windows 10 or later.
 ---
 
 # _DEVICE_CAPABILITIES structure
@@ -174,17 +173,20 @@ Do not display the device in the user interface. If this bit is set, the device 
 
 
 ### -field Reserved1
-
+Reserved for system use.
 
 ### -field WakeFromInterrupt
-
- 
-
+Indicates whether the driver or ACPI is responsible for handling the wake event. If set, the driver is responsible for handling the wake event. ACPI arms the device when it receives an IRP_MN_WAIT_WAKE IRP, but does not connect the interrupt, complete the IRP to notify the device stack of a wake event.
 
 ### -field SecureDevice
-
+Indicates whether the device is a secure device.
  
+### -field ChildOfVgaEnabledBridge
+For a VGA device, indicates whether the parent bridge has the VGA decoding bit set.
+ 
+### -field DecodeIoOnBoot
 
+Indictates whether the device has IO decode enabled on boot. 
 
 ### -field Reserved
 

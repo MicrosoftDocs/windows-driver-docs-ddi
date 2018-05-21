@@ -7,7 +7,7 @@ old-location: display\d3d10ddiarg_createdepthstencilview.htm
 old-project: display
 ms.assetid: 03851dee-4ed8-484f-8a00-68aca1da19ce
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D10DDIARG_CREATEDEPTHSTENCILVIEW, D3D10DDIARG_CREATEDEPTHSTENCILVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_7460e9f5-4a7b-469a-8019-cc634f00d4c1.xml, d3d10umddi/D3D10DDIARG_CREATEDEPTHSTENCILVIEW, display.d3d10ddiarg_createdepthstencilview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,17 +73,17 @@ The D3D10DDIARG_CREATEDEPTHSTENCILVIEW structure describes the depth stencil vie
 [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>-typed value that indicates the resource type and dimensionality of the base resource. 
 
 
-#### - Tex1D
+### -field Tex1D
 
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE1D, a member in the union that is contained in D3D10DDIARG_CREATEDEPTHSTENCILVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541754">D3D10DDIARG_TEX1D_DEPTHSTENCILVIEW</a> structure for a one-dimensional texture. 
 
 
-#### - Tex2D
+### -field Tex2D
 
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURE2D, a member in the union that is contained in D3D10DDIARG_CREATEDEPTHSTENCILVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541763">D3D10DDIARG_TEX2D_DEPTHSTENCILVIEW</a> structure for a two-dimensional texture. 
 
 
-#### - TexCube
+### -field TexCube
 
 [in] If the value in the <b>ResourceDimension</b> member is set to D3D10DDIRESOURCE_TEXTURECUBE, a member in the union that is contained in D3D10DDIARG_CREATEDEPTHSTENCILVIEW that can hold a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541797">D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW</a> structure for a cube texture. 
 

@@ -7,7 +7,7 @@ old-location: kernel\rtlvalidsecuritydescriptor.htm
 old-project: kernel
 ms.assetid: 50d07154-a6d2-4b95-822f-33c0f37ece2f
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlValidSecurityDescriptor, RtlValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_59b52650-028b-4e7a-8a00-234f40e354f2.xml, kernel.rtlvalidsecuritydescriptor, wdm/RtlValidSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlValidSecurityDescriptor function

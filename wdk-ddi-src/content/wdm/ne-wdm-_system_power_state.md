@@ -7,7 +7,7 @@ old-location: kernel\system_power_state.htm
 old-project: kernel
 ms.assetid: aa027f03-7d74-4c0e-8f62-d53f41ae86ae
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerSystemHibernate, PowerSystemMaximum, PowerSystemShutdown, PowerSystemSleeping1, PowerSystemSleeping2, PowerSystemSleeping3, PowerSystemUnspecified, PowerSystemWorking, SYSTEM_POWER_STATE, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], _SYSTEM_POWER_STATE, kernel.system_power_state, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, wdm/PSYSTEM_POWER_STATE, wdm/PowerSystemHibernate, wdm/PowerSystemMaximum, wdm/PowerSystemShutdown, wdm/PowerSystemSleeping1, wdm/PowerSystemSleeping2, wdm/PowerSystemSleeping3, wdm/PowerSystemUnspecified, wdm/PowerSystemWorking, wdm/SYSTEM_POWER_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
-req.product: Windows 10 or later.
 ---
 
 # _SYSTEM_POWER_STATE enumeration

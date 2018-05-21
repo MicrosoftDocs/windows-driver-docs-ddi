@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IPrintAsyncCookie.CancelAsyncCall
-title: IPrintAsyncCookie::CancelAsyncCall method
+title: IPrintAsyncCookie::CancelAsyncCall
 author: windows-driver-content
 description: "."
 old-location: print\iprintasyncnotify_cancelasynccall.htm
 old-project: print
 ms.assetid: F5228B4C-B5CC-4F7F-91E6-B5BCED76BF7A
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CancelAsyncCall method [Print Devices], CancelAsyncCall method [Print Devices], IPrintAsyncCookie interface, CancelAsyncCall,IPrintAsyncCookie.CancelAsyncCall, IPrintAsyncCookie, IPrintAsyncCookie interface [Print Devices], CancelAsyncCall method, IPrintAsyncCookie::CancelAsyncCall, print.iprintasyncnotify_cancelasynccall, prnasntp/IPrintAsyncCookie::CancelAsyncCall
+ms.date: 4/20/2018
+ms.keywords: CancelAsyncCall, CancelAsyncCall method [Print Devices], CancelAsyncCall method [Print Devices],IPrintAsyncCookie interface, IPrintAsyncCookie interface [Print Devices],CancelAsyncCall method, IPrintAsyncCookie.CancelAsyncCall, IPrintAsyncCookie::CancelAsyncCall, print.iprintasyncnotify_cancelasynccall, prnasntp/IPrintAsyncCookie::CancelAsyncCall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintAsyncCookie::CancelAsyncCall method
+# IPrintAsyncCookie::CancelAsyncCall
 
 
 ## -description

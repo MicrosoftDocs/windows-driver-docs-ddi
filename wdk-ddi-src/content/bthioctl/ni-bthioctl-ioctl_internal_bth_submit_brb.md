@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_internal_bth_submit_brb.htm
 old-project: bltooth
 ms.assetid: 60e4ee90-81d4-47a1-aed4-ee39b9fe3174
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_INTERNAL_BTH_SUBMIT_BRB, IOCTL_INTERNAL_BTH_SUBMIT_BRB control code [Bluetooth Devices], bltooth.ioctl_internal_bth_submit_brb, bth_ioctls_4b5e6ea0-3c6d-4453-9822-df845ebc2038.xml, bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB
+ms.date: 4/27/2018
+ms.keywords: IOCTL_INTERNAL_BTH_SUBMIT_BRB, IOCTL_INTERNAL_BTH_SUBMIT_BRB control, IOCTL_INTERNAL_BTH_SUBMIT_BRB control code [Bluetooth Devices], bltooth.ioctl_internal_bth_submit_brb, bth_ioctls_4b5e6ea0-3c6d-4453-9822-df845ebc2038.xml, bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_BTH_SUBMIT_BRB IOCTL

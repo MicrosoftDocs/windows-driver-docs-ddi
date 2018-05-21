@@ -7,7 +7,7 @@ old-location: stream\ksstreampointeradvance.htm
 old-project: stream
 ms.assetid: 98d0b8ce-5485-4584-b164-a1bc698b08ba
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsStreamPointerAdvance, KsStreamPointerAdvance function [Streaming Media Devices], avfunc_1c66466d-2144-4d67-ac1f-31156bc3b07d.xml, ks/KsStreamPointerAdvance, stream.ksstreampointeradvance
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: buses\usbd_urbfree.htm
 old-project: usbref
 ms.assetid: DD80BAA0-EC01-4231-827A-962580D1E201
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: USBD_UrbFree, USBD_UrbFree routine [Buses], buses.usbd_urbfree, usbdlib/USBD_UrbFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBD_UrbFree function

@@ -7,8 +7,8 @@ old-location: netvista\miniportcancelsend.htm
 old-project: netvista
 ms.assetid: 17111aa3-c02f-494a-af97-5ab34c152451
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_CANCEL_SEND, MiniportCancelSend, MiniportCancelSend callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelSend, ndis_sendrcv_ref_86f1ff8c-c68b-49e3-8d77-883d7e055961.xml, netvista.miniportcancelsend
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_CANCEL_SEND, MINIPORT_CANCEL_SEND callback, MiniportCancelSend, MiniportCancelSend callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelSend, ndis_sendrcv_ref_86f1ff8c-c68b-49e3-8d77-883d7e055961.xml, netvista.miniportcancelsend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_CANCEL_SEND callback
+# MINIPORT_CANCEL_SEND callback function
 
 
 ## -description

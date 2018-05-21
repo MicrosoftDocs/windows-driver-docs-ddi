@@ -7,7 +7,7 @@ old-location: ifsk\fltisiocanceled.htm
 old-project: ifsk
 ms.assetid: a27ec86b-85b3-4d65-a77a-fb6292b935d0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_00dccf3a-3f69-4c6c-b5c6-1d7371e4afbc.xml, FltIsIoCanceled, FltIsIoCanceled routine [Installable File System Drivers], fltkernel/FltIsIoCanceled, ifsk.fltisiocanceled
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltIsIoCanceled function

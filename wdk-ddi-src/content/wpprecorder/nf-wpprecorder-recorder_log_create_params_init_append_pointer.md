@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WNODE_HEADER, *PWNODE_HEADER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function

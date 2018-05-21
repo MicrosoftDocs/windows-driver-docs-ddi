@@ -7,8 +7,8 @@ old-location: display\pfnd3dwddm2_2ddi_set_shadercache_session.htm
 old-project: display
 ms.assetid: 18BA159D-5E78-41AC-8CB8-97AEC2AE9592
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION, d3d10umddi/pfnSetShaderCacheSession, display.pfnd3dwddm2_2ddi_set_shadercache_session, pfnSetShaderCacheSession, pfnSetShaderCacheSession callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION, PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION callback, d3d10umddi/pfnSetShaderCacheSession, display.pfnd3dwddm2_2ddi_set_shadercache_session, pfnSetShaderCacheSession, pfnSetShaderCacheSession callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION callback
+# PFND3DWDDM2_2DDI_SET_SHADERCACHE_SESSION callback function
 
 
 ## -description

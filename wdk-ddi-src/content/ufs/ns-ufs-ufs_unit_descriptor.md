@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UFS_UNIT_DESCRIPTOR, *PUFS_UNIT_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # UFS_UNIT_DESCRIPTOR structure

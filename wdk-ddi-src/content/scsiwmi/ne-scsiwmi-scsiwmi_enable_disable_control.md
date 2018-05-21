@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SCSIWMI_ENABLE_DISABLE_CONTROL
-req.product: Windows 10 or later.
 ---
 
 # SCSIWMI_ENABLE_DISABLE_CONTROL enumeration

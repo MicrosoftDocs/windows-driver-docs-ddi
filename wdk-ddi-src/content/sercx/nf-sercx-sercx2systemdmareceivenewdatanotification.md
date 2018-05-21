@@ -7,7 +7,7 @@ old-location: serports\sercx2systemdmareceivenewdatanotification.htm
 old-project: serports
 ms.assetid: 9ECC15F2-9D08-4EEF-ADBD-612D8D1B5B72
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 2/SerCx2SystemDmaReceiveNewDataNotification, SerCx2SystemDmaReceiveNewDataNotification, SerCx2SystemDmaReceiveNewDataNotification method [Serial Ports], serports.sercx2systemdmareceivenewdatanotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCx2SystemDmaReceiveNewDataNotification function

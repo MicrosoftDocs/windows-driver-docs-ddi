@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleVersionInformationWide
-title: IDebugSymbols3::GetModuleVersionInformationWide method
+title: IDebugSymbols3::GetModuleVersionInformationWide
 author: windows-driver-content
 description: The GetModuleVersionInformationWide method returns version information for the specified module.
 old-location: debugger\getmoduleversioninformationwide.htm
 old-project: debugger
 ms.assetid: 60bb493c-81a2-45d7-8c2c-939afeda8a14
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetModuleVersionInformationWide method [Windows Debugging], GetModuleVersionInformationWide method [Windows Debugging], IDebugSymbols3 interface, GetModuleVersionInformationWide,IDebugSymbols3.GetModuleVersionInformationWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformationWide method, IDebugSymbols3::GetModuleVersionInformationWide, dbgeng/IDebugSymbols3::GetModuleVersionInformationWide, debugger.getmoduleversioninformationwide
+ms.date: 4/24/2018
+ms.keywords: GetModuleVersionInformationWide, GetModuleVersionInformationWide method [Windows Debugging], GetModuleVersionInformationWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleVersionInformationWide method, IDebugSymbols3.GetModuleVersionInformationWide, IDebugSymbols3::GetModuleVersionInformationWide, dbgeng/IDebugSymbols3::GetModuleVersionInformationWide, debugger.getmoduleversioninformationwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetModuleVersionInformationWide method
+# IDebugSymbols3::GetModuleVersionInformationWide
 
 
 ## -description

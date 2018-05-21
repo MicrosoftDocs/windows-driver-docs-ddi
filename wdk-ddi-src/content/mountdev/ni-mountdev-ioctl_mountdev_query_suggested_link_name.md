@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4afd8c7a-b7b4-4a02-a270-d4e29f5329f9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME control code [Storage Devices], k307_90b74e7c-57f6-4738-8a5e-d947c29c5aab.xml, mountdev/IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, storage.ioctl_mountdev_query_suggested_link_name
+ms.keywords: IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME control, IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME control code [Storage Devices], k307_90b74e7c-57f6-4738-8a5e-d947c29c5aab.xml, mountdev/IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, storage.ioctl_mountdev_query_suggested_link_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
+req.typenames: 
 ---
 
 # IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME IOCTL

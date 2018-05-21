@@ -7,7 +7,7 @@ old-location: ifsk\ecp_open_parameters.htm
 old-project: ifsk
 ms.assetid: 1223C77A-EAEC-4FCF-B2CC-F1E2935AF5CB
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS structure [Installable File System Drivers], PECP_OPEN_PARAMETERS, PECP_OPEN_PARAMETERS structure pointer [Installable File System Drivers], _ECP_OPEN_PARAMETERS, ifsk.ecp_open_parameters, ntifs/ECP_OPEN_PARAMETERS, ntifs/PECP_OPEN_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

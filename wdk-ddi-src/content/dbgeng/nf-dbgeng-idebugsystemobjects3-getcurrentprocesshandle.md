@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentProcessHandle
-title: IDebugSystemObjects3::GetCurrentProcessHandle method
+title: IDebugSystemObjects3::GetCurrentProcessHandle
 author: windows-driver-content
 description: The GetCurrentProcessHandle method returns the system handle for the current process.
 old-location: debugger\getcurrentprocesshandle2.htm
 old-project: debugger
 ms.assetid: 87f60064-5722-4b4e-af9b-f1d9009a7551
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetCurrentProcessHandle method [Windows Debugging], GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects interface, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentProcessHandle method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentProcessHandle,IDebugSystemObjects3.GetCurrentProcessHandle, IDebugSystemObjects interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects3::GetCurrentProcessHandle, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessHandle method, IDebugSystemObjects4::GetCurrentProcessHandle, IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects_480199cd-20d9-467c-a5c3-42d221f44509.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects3::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects4::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects::GetCurrentProcessHandle, debugger.getcurrentprocesshandle2
+ms.date: 4/24/2018
+ms.keywords: GetCurrentProcessHandle, GetCurrentProcessHandle method [Windows Debugging], GetCurrentProcessHandle method [Windows Debugging],IDebugSystemObjects interface, GetCurrentProcessHandle method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentProcessHandle method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentProcessHandle method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentProcessHandle method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentProcessHandle method, IDebugSystemObjects2::GetCurrentProcessHandle, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentProcessHandle method, IDebugSystemObjects3.GetCurrentProcessHandle, IDebugSystemObjects3::GetCurrentProcessHandle, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessHandle method, IDebugSystemObjects4::GetCurrentProcessHandle, IDebugSystemObjects::GetCurrentProcessHandle, IDebugSystemObjects_480199cd-20d9-467c-a5c3-42d221f44509.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects3::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects4::GetCurrentProcessHandle, dbgeng/IDebugSystemObjects::GetCurrentProcessHandle, debugger.getcurrentprocesshandle2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects3::GetCurrentProcessHandle method
+# IDebugSystemObjects3::GetCurrentProcessHandle
 
 
 ## -description

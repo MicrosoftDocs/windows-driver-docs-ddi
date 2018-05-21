@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfpnpaction.IWDTFPNPActions2.EDTCancelStopDevice
-title: IWDTFPNPActions2::EDTCancelStopDevice method
+title: IWDTFPNPActions2::EDTCancelStopDevice
 author: windows-driver-content
 description: Sends an IRP_MN_CANCEL_STOP_DEVICE event to the target device.
 old-location: dtf\iwdtfpnpactions2_edtcancelstopdevice.htm
 old-project: dtf
 ms.assetid: b0616c88-1304-4d39-b7bd-e7d1355a9de6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EDTCancelStopDevice method [Windows Device Testing Framework], EDTCancelStopDevice method [Windows Device Testing Framework], IWDTFPNPActions2 interface, EDTCancelStopDevice,IWDTFPNPActions2.EDTCancelStopDevice, IWDTFPNPActions2, IWDTFPNPActions2 interface [Windows Device Testing Framework], EDTCancelStopDevice method, IWDTFPNPActions2::EDTCancelStopDevice, dtf.iwdtfpnpactions2_edtcancelstopdevice, wdtfpnpaction/IWDTFPNPActions2::EDTCancelStopDevice
+ms.date: 4/4/2018
+ms.keywords: EDTCancelStopDevice, EDTCancelStopDevice method [Windows Device Testing Framework], EDTCancelStopDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTCancelStopDevice method, IWDTFPNPActions2.EDTCancelStopDevice, IWDTFPNPActions2::EDTCancelStopDevice, dtf.iwdtfpnpactions2_edtcancelstopdevice, wdtfpnpaction/IWDTFPNPActions2::EDTCancelStopDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFPNPActions2::EDTCancelStopDevice method
+# IWDTFPNPActions2::EDTCancelStopDevice
 
 
 ## -description

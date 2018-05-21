@@ -1,0 +1,51 @@
+---
+UID: NE:wdm._DOMAIN_CONFIGURATION_ARCH
+title: _DOMAIN_CONFIGURATION_ARCH
+author: windows-driver-content
+description: Defines values for type of system architecture specified.
+ms.assetid: 5ca1f77c-21fe-4a4f-80dc-42cb26c51bbc
+ms.author: windowsdriverdev
+ms.date: 
+ms.topic: enum
+ms.keywords: _DOMAIN_CONFIGURATION_ARCH, *PDOMAIN_CONFIGURATION_ARCH, DOMAIN_CONFIGURATION_ARCH, 
+ms.prod: windows-hardware
+ms.technology: windows-devices
+req.header: wdm.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.max-support:
+req.typenames: DOMAIN_CONFIGURATION_ARCH, *PDOMAIN_CONFIGURATION_ARCH
+topictype: 
+-	apiref
+apitype: 
+-	HeaderDef
+apilocation: 
+-	wdm.h
+apiname: 
+-	_DOMAIN_CONFIGURATION_ARCH
+product: Windows
+targetos: Windows
+---
+
+# _DOMAIN_CONFIGURATION_ARCH enumeration
+
+## -description
+
+Defines values for type of system architecture specified in the [_IOMMU_DOMAIN_CONFIGURE_](nc-wdm-iommu_domain_configure.md) callback function.
+
+## -enum-fields
+
+### -field DomainConfigurationArm64
+ARM64 architecture.
+
+### -field DomainConfigurationInvalid
+The architecture type is not valid. 
+
+## -remarks
+
+## -see-also

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2a2ed215-1b62-4ff1-bea6-e38fafbcf7d0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDriverObjectRef_4c29e844-1ad7-4d45-b01d-e03f841bb9dd.xml, EVT_WDF_DRIVER_UNLOAD, EvtDriverUnload, EvtDriverUnload callback function, kmdf.evtdriverunload, wdf.evtdriverunload, wdfdriver/EvtDriverUnload
+ms.keywords: DFDriverObjectRef_4c29e844-1ad7-4d45-b01d-e03f841bb9dd.xml, EVT_WDF_DRIVER_UNLOAD, EVT_WDF_DRIVER_UNLOAD callback, EvtDriverUnload, EvtDriverUnload callback function, kmdf.evtdriverunload, wdf.evtdriverunload, wdfdriver/EvtDriverUnload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_DPC_CONFIG, *PWDF_DPC_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DRIVER_UNLOAD callback
+# EVT_WDF_DRIVER_UNLOAD callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\rtlulongptrtointptr.htm
 old-project: kernel
 ms.assetid: 41687454-5468-4351-BEAF-2FB6BD80BEFC
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlULongPtrToIntPtr, RtlULongPtrToIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtointptr, ntintsafe/RtlULongPtrToIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlULongPtrToIntPtr function

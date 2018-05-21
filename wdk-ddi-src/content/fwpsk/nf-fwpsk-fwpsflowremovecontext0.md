@@ -7,7 +7,7 @@ old-location: netvista\fwpsflowremovecontext0.htm
 old-project: netvista
 ms.assetid: edc257bc-2805-47d8-827a-536e5d74793b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsFlowRemoveContext0, FwpsFlowRemoveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowRemoveContext0, netvista.fwpsflowremovecontext0, wfp_ref_2_funct_3_fwps_D-H_97a48a00-87f5-414f-9a6c-fb15873454e1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsFlowRemoveContext0 function

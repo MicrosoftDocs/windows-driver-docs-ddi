@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d6fbb153-1355-4e94-b5d3-a218bd8c565d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFQueueObjectRef_d5f59efc-e7db-4c3e-9845-5ba0c4949cd5.xml, EVT_WDF_IO_QUEUE_IO_READ, EvtIoRead, EvtIoRead callback function, kmdf.evtioread, wdf.evtioread, wdfio/EvtIoRead
+ms.keywords: DFQueueObjectRef_d5f59efc-e7db-4c3e-9845-5ba0c4949cd5.xml, EVT_WDF_IO_QUEUE_IO_READ, EVT_WDF_IO_QUEUE_IO_READ callback, EvtIoRead, EvtIoRead callback function, kmdf.evtioread, wdf.evtioread, wdfio/EvtIoRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_IO_QUEUE_IO_READ callback
+# EVT_WDF_IO_QUEUE_IO_READ callback function
 
 
 ## -description

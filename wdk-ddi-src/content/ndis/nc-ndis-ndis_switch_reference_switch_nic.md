@@ -7,8 +7,8 @@ old-location: netvista\ReferenceSwitchNic.htm
 old-project: netvista
 ms.assetid: 8F4C76FA-A386-4A3D-8C9F-3CFF69382702
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_SWITCH_REFERENCE_SWITCH_NIC, ReferenceSwitchNic, ReferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], ndis/ReferenceSwitchNic, netvista.ReferenceSwitchNic
+ms.date: 4/25/2018
+ms.keywords: NDIS_SWITCH_REFERENCE_SWITCH_NIC, NDIS_SWITCH_REFERENCE_SWITCH_NIC callback, ReferenceSwitchNic, ReferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], ndis/ReferenceSwitchNic, netvista.ReferenceSwitchNic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_SWITCH_REFERENCE_SWITCH_NIC callback
+# NDIS_SWITCH_REFERENCE_SWITCH_NIC callback function
 
 
 ## -description

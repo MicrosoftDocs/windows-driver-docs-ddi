@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageImageableSize.get_ImageableSizeWidthInMicrons
-title: IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons method
+title: IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons
 author: windows-driver-content
 description: Gets the horizontal dimension of the application media size relative to the page orientation.
 old-location: print\iprintschemapageimageablesize_imageablesizewidthinmicrons.htm
 old-project: print
 ms.assetid: 46556C6E-B231-400D-8F0A-86FC1CD5D4B6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], ImageableSizeWidthInMicrons property, IPrintSchemaPageImageableSize.ImageableSizeWidthInMicrons, IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons, ImageableSizeWidthInMicrons property [Print Devices], ImageableSizeWidthInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, get_ImageableSizeWidthInMicrons, get_ImageableSizeWidthInMicrons,IPrintSchemaPageImageableSize.get_ImageableSizeWidthInMicrons, print.iprintschemapageimageablesize_imageablesizewidthinmicrons, printerextension/IPrintSchemaPageImageableSize::ImageableSizeWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaPageImageableSize interface [Print Devices],ImageableSizeWidthInMicrons property, IPrintSchemaPageImageableSize.ImageableSizeWidthInMicrons, IPrintSchemaPageImageableSize.get_ImageableSizeWidthInMicrons, IPrintSchemaPageImageableSize::ImageableSizeWidthInMicrons, IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons, ImageableSizeWidthInMicrons property [Print Devices], ImageableSizeWidthInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, get_ImageableSizeWidthInMicrons, print.iprintschemapageimageablesize_imageablesizewidthinmicrons, printerextension/IPrintSchemaPageImageableSize::ImageableSizeWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons method
+# IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons
 
 
 ## -description

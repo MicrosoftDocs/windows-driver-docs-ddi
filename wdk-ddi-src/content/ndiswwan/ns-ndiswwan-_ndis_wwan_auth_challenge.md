@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_auth_challenge.htm
 old-project: netvista
 ms.assetid: 7C5CE666-D8C9-4A01-A38E-612B69E3A5FB
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_AUTH_CHALLENGE, NDIS_WWAN_AUTH_CHALLENGE, NDIS_WWAN_AUTH_CHALLENGE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_AUTH_CHALLENGE, PNDIS_WWAN_AUTH_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_AUTH_CHALLENGE, ndiswwan/NDIS_WWAN_AUTH_CHALLENGE, ndiswwan/PNDIS_WWAN_AUTH_CHALLENGE, netvista.ndis_wwan_auth_challenge"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: netvista\rilemergencynumberslist.htm
 old-project: netvista
 ms.assetid: bfeaff04-6dd2-4889-9ab3-f20361dc2f5c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumberslist, ntddrilapitypes/RILEMERGENCYNUMBERSLIST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILEMERGENCYNUMBERSLIST, *LPRILEMERGENCYNUMBERSLIST
-req.product: Windows 10 or later.
 ---
 
 # RILEMERGENCYNUMBERSLIST structure

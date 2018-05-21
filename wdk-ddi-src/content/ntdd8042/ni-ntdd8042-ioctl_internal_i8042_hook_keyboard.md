@@ -7,8 +7,8 @@ old-location: hid\ioctl_internal_i8042_hook_keyboard.htm
 old-project: hid
 ms.assetid: 74580730-1cbb-40fb-a4a3-20523f933171
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_INTERNAL_I8042_HOOK_KEYBOARD, IOCTL_INTERNAL_I8042_HOOK_KEYBOARD control code [Human Input Devices], hid.ioctl_internal_i8042_hook_keyboard, kfilref_d213e6a4-db1b-4fed-8cd9-503703ee59dd.xml, ntdd8042/IOCTL_INTERNAL_I8042_HOOK_KEYBOARD
+ms.date: 4/30/2018
+ms.keywords: IOCTL_INTERNAL_I8042_HOOK_KEYBOARD, IOCTL_INTERNAL_I8042_HOOK_KEYBOARD control, IOCTL_INTERNAL_I8042_HOOK_KEYBOARD control code [Human Input Devices], hid.ioctl_internal_i8042_hook_keyboard, kfilref_d213e6a4-db1b-4fed-8cd9-503703ee59dd.xml, ntdd8042/IOCTL_INTERNAL_I8042_HOOK_KEYBOARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MOUSE_STATE, *PMOUSE_STATE
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_I8042_HOOK_KEYBOARD IOCTL

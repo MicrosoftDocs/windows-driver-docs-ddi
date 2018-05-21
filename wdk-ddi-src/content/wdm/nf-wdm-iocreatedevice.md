@@ -7,7 +7,7 @@ old-location: kernel\iocreatedevice.htm
 old-project: kernel
 ms.assetid: 54ca9dc8-8095-4b62-9ebc-f297abb429ca
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoCreateDevice, IoCreateDevice routine [Kernel-Mode Driver Architecture], k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml, kernel.iocreatedevice, wdm/IoCreateDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoCreateDevice function

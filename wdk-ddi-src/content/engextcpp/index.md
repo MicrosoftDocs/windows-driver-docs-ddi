@@ -2,17 +2,18 @@
 UID: NA:engextcpp
 ms.assetid: 4849a6b1-830f-3826-8f7f-f7451944fa5f
 ms.author: windowsdriverdev
-ms.date: 04/20/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: debugger
 ---
 
 # Engextcpp.h header
 
 
-
+## -description
 
 
 This header is used by debugger. For more information, see:

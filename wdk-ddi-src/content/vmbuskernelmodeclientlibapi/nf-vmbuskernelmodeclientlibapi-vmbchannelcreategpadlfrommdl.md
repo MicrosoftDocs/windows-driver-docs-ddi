@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelcreategpadlfrommdl.htm
 old-project: netvista
 ms.assetid: 6C63E250-1A11-45E8-B535-263806DA4A33
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VMBUS_CHANNEL_GPADL_READ_ONLY, VmbChannelCreateGpadlFromMdl, VmbChannelCreateGpadlFromMdl function [Network Drivers Starting with Windows Vista], netvista.vmbchannelcreategpadlfrommdl, vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelCreateGpadlFromMdl function

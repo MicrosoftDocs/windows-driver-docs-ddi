@@ -7,7 +7,7 @@ old-location: netvista\ndis_sriov_reset_vf_parameters.htm
 old-project: netvista
 ms.assetid: 0f3c1da5-7e1d-4e13-9942-bedb9ddaf541
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SRIOV_RESET_VF_PARAMETERS, NDIS_SRIOV_RESET_VF_PARAMETERS, NDIS_SRIOV_RESET_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_RESET_VF_PARAMETERS, PNDIS_SRIOV_RESET_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_RESET_VF_PARAMETERS, netvista.ndis_sriov_reset_vf_parameters, ntddndis/NDIS_SRIOV_RESET_VF_PARAMETERS, ntddndis/PNDIS_SRIOV_RESET_VF_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

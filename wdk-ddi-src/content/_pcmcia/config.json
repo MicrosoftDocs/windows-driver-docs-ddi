@@ -1,0 +1,7 @@
+{
+  "tech": "pcmcia",
+  "headers": [
+    "ntddpcm.h"
+  ],
+  "displayName": "PCMCIA bus drivers"
+}

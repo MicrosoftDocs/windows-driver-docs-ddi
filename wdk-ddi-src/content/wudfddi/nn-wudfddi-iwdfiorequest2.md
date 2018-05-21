@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6a6285c9-8366-4487-a1c5-38aa24d172a9
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, IWDFIoRequest2 interface, described, UMDFRequestObjectRef_0aa42362-60ac-4be7-8101-6395a709f420.xml, umdf.iwdfiorequest2, wdf.iwdfiorequest2, wudfddi/IWDFIoRequest2
+ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, IWDFIoRequest2 interface,described, UMDFRequestObjectRef_0aa42362-60ac-4be7-8101-6395a709f420.xml, umdf.iwdfiorequest2, wdf.iwdfiorequest2, wudfddi/IWDFIoRequest2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWDFIoRequest2 interface

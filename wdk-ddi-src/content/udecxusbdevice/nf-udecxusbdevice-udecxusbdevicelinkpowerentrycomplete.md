@@ -7,7 +7,7 @@ old-location: buses\udecxusbdevicelinkpowerentrycomplete.htm
 old-project: usbref
 ms.assetid: 0B8FF9EB-63E5-4532-B13C-CF0FF04D9A53
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UdecxUsbDeviceLinkPowerEntryComplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses], buses.udecxusbdevicelinkpowerentrycomplete, udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UdecxUsbDeviceLinkPowerEntryComplete function

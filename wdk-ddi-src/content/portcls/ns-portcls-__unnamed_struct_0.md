@@ -7,7 +7,7 @@ old-location: audio\pcproperty_item.htm
 old-project: audio
 ms.assetid: aec5b9df-22cc-4ef8-8d09-103124ab357c
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PPCPROPERTY_ITEM, PCPROPERTY_ITEM, PCPROPERTY_ITEM structure [Audio Devices], PPCPROPERTY_ITEM, PPCPROPERTY_ITEM structure pointer [Audio Devices], audio.pcproperty_item, audpc-struct_6d95504b-3ecc-47dc-b98f-b6ebfa40d749.xml, portcls/PCPROPERTY_ITEM, portcls/PPCPROPERTY_ITEM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: buses\usb_port_properties.htm
 old-project: usbref
 ms.assetid: BCADC907-3770-4FBE-AEB3-96F93502E899
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses], USB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], _USB_PORT_PROPERTIES, buses.usb_port_properties, usbioctl/PUSB_PORT_PROPERTIES, usbioctl/USB_PORT_PROPERTIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USB_PORT_PROPERTIES, *PUSB_PORT_PROPERTIES
-req.product: Windows 10 or later.
 ---
 
 # _USB_PORT_PROPERTIES structure
@@ -66,17 +65,27 @@ The  port capabilities are retrieved in the <a href="https://msdn.microsoft.com/
 A bitmask that indicates the properties and capabilities of the port.
 
 
-#### - PortIsDebugCapable
-
-If <b>TRUE</b>, the port supports debugging over a USB connection.
-
-
-#### - PortIsUserConnectable
+### -field PortIsUserConnectable
 
 If <b>TRUE</b>, the port is visible to the user and a USB device can be attached to or detached from the port.
 
 
-#### - ReservedMBZ
+### -field PortIsDebugCapable
+
+If <b>TRUE</b>, the port supports debugging over a USB connection.
+
+
+### -field PortHasMultipleCompanions
+
+ 
+
+
+### -field PortConnectorIsTypeC
+
+ 
+
+
+### -field ReservedMBZ
 
 Reserved. Do not use.
 

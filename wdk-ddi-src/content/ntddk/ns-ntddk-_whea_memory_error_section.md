@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -165,88 +165,43 @@ This member contains valid data only if the <b>Validbits.TargetId</b> bit is set
 
 The type of memory error that occurred. Possible values are:
 
+| Possible Values                   | Description                                                                                                                                                                      |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| WHEA_MEMERRTYPE_UNKNOWN           | An unknown error.                                                                                                                                                                |
+| WHEA_MEMERRTYPE_NOERROR           | No error occurred.                                                                                                                                                               |
+| WHEA_MEMERRTYPE_SINGLEBITECC      | A single bit [ECC](https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab) error.                                                                            |
+| WHEA_MEMERRTYPE_MULTIBITECC       | multibit ECC error.                                                                                                                                                              |
+| WHEA_MEMERRTYPE_SINGLESYMCHIPKILL | A single symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.   |
+| WHEA_MEMERRTYPE_MULTISYMCHIPKILL  | A multiple symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error. |
+| WHEA_MEMERRTYPE_MASTERABORT       | A master abort.                                                                                                                                                                  |
+| WHEA_MEMERRTYPE_TARGETABORT       | A target abort.                                                                                                                                                                  |
+| WHEA_MEMERRTYPE_PARITYERROR       | A parity error.                                                                                                                                                                  |
+| WHEA_MEMERRTYPE_WATCHDOGTIMEOUT   | A watchdog timeout.                                                                                                                                                              |
+| WHEA_MEMERRTYPE_INVALIDADDRESS    | An invalid memory address.                                                                                                                                                       |
+| WHEA_MEMERRTYPE_MIRRORBROKEN      | A broken memory mirror.                                                                                                                                                          |
+| WHEA_MEMERRTYPE_MEMORYSPARING     | A memory sparing error.                                                                                                                                                          | This member contains valid data only if the <b>Validbits.ErrorType</b> bit is set. |
 
 
+### -field Extended
 
+Contains valid data only if the **ValidBits.ExtendedRow** bits is set.
 
-#### WHEA_MEMERRTYPE_UNKNOWN
+If **ValidBits.Row** is not set, the **Row** member contains row number bits (15:0) and Extended contains row number bits (17:16). Bit 0 is the 16th bit of the **Row**.  Bit 1 is the 17th bit of the **Row**.
 
-An unknown error.
+If **ValidBits.ChipIdentification** is set, Bits 7:5 contain Chip Identification.
 
+This value is available starting Windows 10, version 1803.
 
+### -field RankNumber
 
-#### WHEA_MEMERRTYPE_NOERROR
+The Rank number of the memory error location. This member contains valid data only if the **ValidBits.RankNumber** bit is set. This value is available starting Windows 10, version 1803.
+ 
+### -field CardHandle
+Contains the SMBIOS handle for the Memory Array Structure that represents the Memory Card.  This member contains valid data only if the **ValidBits.CardHandle** is set. This value is available starting Windows 10, version 1803.
 
-No error occurred.
-
-
-
-#### WHEA_MEMERRTYPE_SINGLEBITECC
-
-A single bit <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
-
-
-
-#### WHEA_MEMERRTYPE_MULTIBITECC
-
-A multibit ECC error.
-
-
-
-#### WHEA_MEMERRTYPE_SINGLESYMCHIPKILL
-
-A single symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
-
-
-
-#### WHEA_MEMERRTYPE_MULTISYMCHIPKILL
-
-A multiple symbol <a href="http://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.
-
-
-
-#### WHEA_MEMERRTYPE_MASTERABORT
-
-A master abort.
-
-
-
-#### WHEA_MEMERRTYPE_TARGETABORT
-
-A target abort.
-
-
-
-#### WHEA_MEMERRTYPE_PARITYERROR
-
-A parity error.
-
-
-
-#### WHEA_MEMERRTYPE_WATCHDOGTIMEOUT
-
-A watchdog timeout.
-
-
-
-#### WHEA_MEMERRTYPE_INVALIDADDRESS
-
-An invalid memory address.
-
-
-
-#### WHEA_MEMERRTYPE_MIRRORBROKEN
-
-A broken memory mirror.
-
-
-
-#### WHEA_MEMERRTYPE_MEMORYSPARING
-
-A memory sparing error.
-
-This member contains valid data only if the <b>Validbits.ErrorType</b> bit is set.
-
+ 
+### -field ModuleHandle
+Contains the SMBIOS handle for the Memory Device Structure that represents the Memory Module.  This member contains valid data only if the **ValidBits.ModuleHandle** is set. This value is available starting Windows 10, version 1803.
 
 ## -remarks
 

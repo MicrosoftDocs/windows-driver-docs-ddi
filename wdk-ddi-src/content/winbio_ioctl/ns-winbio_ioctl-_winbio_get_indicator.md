@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WINBIO_GET_INDICATOR, *PWINBIO_GET_INDICATOR
-req.product: Windows 10 or later.
 ---
 
 # _WINBIO_GET_INDICATOR structure

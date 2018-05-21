@@ -7,8 +7,8 @@ old-location: display\videoprocessorsetoutputstereomode.htm
 old-project: display
 ms.assetid: 3e3eaaa6-2725-49de-bca6-df2da1b4324b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE, d3d10umddi/pfnVideoProcessorSetOutputStereoMode, display.videoprocessorsetoutputstereomode, pfnVideoProcessorSetOutputStereoMode, pfnVideoProcessorSetOutputStereoMode callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback, d3d10umddi/pfnVideoProcessorSetOutputStereoMode, display.videoprocessorsetoutputstereomode, pfnVideoProcessorSetOutputStereoMode, pfnVideoProcessorSetOutputStereoMode callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback
+# PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback function
 
 
 ## -description

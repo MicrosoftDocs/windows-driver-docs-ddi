@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: D4B8182A-67A5-4D64-A95C-5EB6A1C1E4F0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: OnInterruptIsr, OnInterruptIsr callback function, WUDF_INTERRUPT_ISR, umdf.oninterruptisr, wdf.oninterruptisr, wudfinterrupt/OnInterruptIsr
+ms.keywords: OnInterruptIsr, OnInterruptIsr callback function, WUDF_INTERRUPT_ISR, WUDF_INTERRUPT_ISR callback, umdf.oninterruptisr, wdf.oninterruptisr, wudfinterrupt/OnInterruptIsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, *PWUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# WUDF_INTERRUPT_ISR callback
+# WUDF_INTERRUPT_ISR callback function
 
 
 ## -description

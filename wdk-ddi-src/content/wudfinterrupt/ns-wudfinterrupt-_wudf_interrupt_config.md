@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WUDF_INTERRUPT_CONFIG, *PWUDF_INTERRUPT_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WUDF_INTERRUPT_CONFIG structure

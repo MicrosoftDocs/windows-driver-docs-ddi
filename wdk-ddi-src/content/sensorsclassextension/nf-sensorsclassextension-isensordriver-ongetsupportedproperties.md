@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnGetSupportedProperties
-title: ISensorDriver::OnGetSupportedProperties method
+title: ISensorDriver::OnGetSupportedProperties
 author: windows-driver-content
 description: The ISensorDriver::OnGetSupportedProperties method retrieves the list of properties that the specified sensor provides.
 old-location: sensors\isensordriver_ongetsupportedproperties.htm
 old-project: sensors
 ms.assetid: 8712fe85-0af1-4552-9351-aca4fe5430d1
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorDriver, ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties method [Sensor Devices], OnGetSupportedProperties,ISensorDriver.OnGetSupportedProperties, sensors.isensordriver_ongetsupportedproperties
+ms.date: 4/30/2018
+ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedProperties method, ISensorDriver.OnGetSupportedProperties, ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties, OnGetSupportedProperties method [Sensor Devices], OnGetSupportedProperties method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedproperties, sensorsclassextension/ISensorDriver::OnGetSupportedProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorDriver::OnGetSupportedProperties method
+# ISensorDriver::OnGetSupportedProperties
 
 
 ## -description
@@ -90,4 +89,15 @@ Each <a href="http://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKe
 <a href="http://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceKeyCollection</a> is documented in Windows Portable Devices.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+ 
+
+ 
 

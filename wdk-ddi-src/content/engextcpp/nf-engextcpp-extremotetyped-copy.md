@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteTyped.Copy
-title: ExtRemoteTyped::Copy method
+title: ExtRemoteTyped::Copy
 author: windows-driver-content
 description: The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_copy_debug_typed_data.htm
 old-project: debugger
 ms.assetid: bfeafa09-49b7-45b3-84d8-afad5f43b78e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: Copy method [Windows Debugging], Copy method [Windows Debugging], ExtRemoteTyped class, Copy,ExtRemoteTyped.Copy, ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], Copy method, ExtRemoteTyped::Copy, debugger.extremotetyped_copy_debug_typed_data
+ms.date: 4/24/2018
+ms.keywords: Copy, Copy method [Windows Debugging], Copy method [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped class [Windows Debugging],Copy method, ExtRemoteTyped.Copy, ExtRemoteTyped.Copy(const DEBUG_TYPED_DATA*), ExtRemoteTyped::Copy, debugger.extremotetyped_copy_debug_typed_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteTyped::Copy method
+# ExtRemoteTyped::Copy
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_usbdevice_hub_info.htm
 old-project: usbref
 ms.assetid: 5bf8000d-63d8-4901-b3fc-d3c43cefe37e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCX_USBDEVICE_HUB_INFO, EvtUcxUsbDeviceHubInfo, EvtUcxUsbDeviceHubInfo callback function [Buses], PEVT_UCX_USBDEVICE_HUB_INFO, PEVT_UCX_USBDEVICE_HUB_INFO callback function pointer [Buses], buses.evt_ucx_usbdevice_hub_info, ucxusbdevice/EvtUcxUsbDeviceHubInfo
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_USBDEVICE_HUB_INFO, EVT_UCX_USBDEVICE_HUB_INFO callback, EvtUcxUsbDeviceHubInfo, EvtUcxUsbDeviceHubInfo callback function [Buses], PEVT_UCX_USBDEVICE_HUB_INFO, PEVT_UCX_USBDEVICE_HUB_INFO callback function pointer [Buses], buses.evt_ucx_usbdevice_hub_info, ucxusbdevice/EvtUcxUsbDeviceHubInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_USBDEVICE_HUB_INFO callback
+# EVT_UCX_USBDEVICE_HUB_INFO callback function
 
 
 ## -description

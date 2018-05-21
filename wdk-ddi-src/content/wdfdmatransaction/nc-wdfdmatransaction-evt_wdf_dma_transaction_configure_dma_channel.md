@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 405D1D3F-FC01-4223-8E28-B3FD3F0516F7
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL, EvtDmaTransactionConfigureDmaChannel, EvtDmaTransactionConfigureDmaChannel callback function, kmdf.evtdmatransactionconfiguredmachannel, wdf.evtdmatransactionconfiguredmachannel, wdfdmatransaction/EvtDmaTransactionConfigureDmaChannel
+ms.keywords: EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL, EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL callback, EvtDmaTransactionConfigureDmaChannel, EvtDmaTransactionConfigureDmaChannel callback function, kmdf.evtdmatransactionconfiguredmachannel, wdf.evtdmatransactionconfiguredmachannel, wdfdmatransaction/EvtDmaTransactionConfigureDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL callback
+# EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL callback function
 
 
 ## -description

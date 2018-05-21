@@ -7,8 +7,8 @@ old-location: display\ioctl_video_query_cursor_position.htm
 old-project: display
 ms.assetid: 0ca9aa92-7b9f-4fd4-a41e-663ac1aa5799
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_VIDEO_QUERY_CURSOR_POSITION, IOCTL_VIDEO_QUERY_CURSOR_POSITION control code [Display Devices], Video_IOCTLs_f9790f8c-b853-4231-b058-a09bd42e15de.xml, display.ioctl_video_query_cursor_position, ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_POSITION
+ms.date: 4/16/2018
+ms.keywords: IOCTL_VIDEO_QUERY_CURSOR_POSITION, IOCTL_VIDEO_QUERY_CURSOR_POSITION control, IOCTL_VIDEO_QUERY_CURSOR_POSITION control code [Display Devices], Video_IOCTLs_f9790f8c-b853-4231-b058-a09bd42e15de.xml, display.ioctl_video_query_cursor_position, ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TAPE_WRITE_MARKS, *PTAPE_WRITE_MARKS
+req.typenames: 
 ---
 
 # IOCTL_VIDEO_QUERY_CURSOR_POSITION IOCTL

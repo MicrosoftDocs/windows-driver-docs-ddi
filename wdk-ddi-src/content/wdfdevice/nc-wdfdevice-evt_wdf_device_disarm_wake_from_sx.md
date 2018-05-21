@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 79bf7a42-5053-428a-a78b-dd8bdff93a69
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectGeneralRef_ea30bcf7-25ce-493a-a8e0-310657a98c60.xml, EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX, EvtDeviceDisarmWakeFromSx, EvtDeviceDisarmWakeFromSx callback function, kmdf.evtdevicedisarmwakefromsx, wdf.evtdevicedisarmwakefromsx, wdfdevice/EvtDeviceDisarmWakeFromSx
+ms.keywords: DFDeviceObjectGeneralRef_ea30bcf7-25ce-493a-a8e0-310657a98c60.xml, EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX, EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX callback, EvtDeviceDisarmWakeFromSx, EvtDeviceDisarmWakeFromSx callback function, kmdf.evtdevicedisarmwakefromsx, wdf.evtdevicedisarmwakefromsx, wdfdevice/EvtDeviceDisarmWakeFromSx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX callback
+# EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX callback function
 
 
 ## -description

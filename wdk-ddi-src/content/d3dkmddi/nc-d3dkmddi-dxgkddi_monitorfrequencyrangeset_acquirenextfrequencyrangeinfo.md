@@ -7,8 +7,8 @@ old-location: display\dxgk_monitorfrequencyrangeset_interface_pfnacquirenextfreq
 old-project: display
 ms.assetid: b5490af8-ef25-4d5c-9154-08660e3d8780
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: "(*pfnAcquireNextFrequencyRangeInfo), (*pfnAcquireNextFrequencyRangeInfo) callback function [Display Devices], DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO, VidPnFunctions_13c43302-1e13-4844-8c04-3755f89af477.xml, d3dkmddi/(*pfnAcquireNextFrequencyRangeInfo), display.dxgk_monitorfrequencyrangeset_interface_pfnacquirenextfrequencyrangein"
+ms.date: 4/16/2018
+ms.keywords: "(*pfnAcquireNextFrequencyRangeInfo), (*pfnAcquireNextFrequencyRangeInfo) callback function [Display Devices], DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO, DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO callback, VidPnFunctions_13c43302-1e13-4844-8c04-3755f89af477.xml, d3dkmddi/(*pfnAcquireNextFrequencyRangeInfo), display.dxgk_monitorfrequencyrangeset_interface_pfnacquirenextfrequencyrangein"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO callback
+# DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO callback function
 
 
 ## -description

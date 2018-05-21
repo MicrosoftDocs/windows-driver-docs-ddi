@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlisansicharacterlegal.htm
 old-project: ifsk
 ms.assetid: e270e4a9-90dc-4e9b-abdf-079c331ad71c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlIsAnsiCharacterLegal, FsRtlIsAnsiCharacterLegal function [Installable File System Drivers], fsrtlref_dad0349c-b705-4a0a-a1ea-359517e65eae.xml, ifsk.fsrtlisansicharacterlegal, ntifs/FsRtlIsAnsiCharacterLegal
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlIsAnsiCharacterLegal macro

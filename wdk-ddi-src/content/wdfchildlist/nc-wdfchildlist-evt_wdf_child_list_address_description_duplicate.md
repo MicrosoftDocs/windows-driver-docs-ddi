@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3b99401c-5a36-4ccd-b3a4-c5687310c29b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectChildListRef_5ade5582-8a35-49cb-a291-e6d972822138.xml, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE, EvtChildListAddressDescriptionDuplicate, EvtChildListAddressDescriptionDuplicate callback function, kmdf.evtchildlistaddressdescriptionduplicate, wdf.evtchildlistaddressdescriptionduplicate, wdfchildlist/EvtChildListAddressDescriptionDuplicate
+ms.keywords: DFDeviceObjectChildListRef_5ade5582-8a35-49cb-a291-e6d972822138.xml, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE callback, EvtChildListAddressDescriptionDuplicate, EvtChildListAddressDescriptionDuplicate callback function, kmdf.evtchildlistaddressdescriptionduplicate, wdf.evtchildlistaddressdescriptionduplicate, wdfchildlist/EvtChildListAddressDescriptionDuplicate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDBGEXTS_THREAD_OS_INFO, *PWDBGEXTS_THREAD_OS_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE callback
+# EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_DUPLICATE callback function
 
 
 ## -description

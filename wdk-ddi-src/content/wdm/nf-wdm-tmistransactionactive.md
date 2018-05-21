@@ -7,7 +7,7 @@ old-location: kernel\tmistransactionactive.htm
 old-project: kernel
 ms.assetid: 0c9bf43d-9342-4d60-86d2-7388a4a80160
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: TmIsTransactionActive, TmIsTransactionActive routine [Kernel-Mode Driver Architecture], kernel.tmistransactionactive, ktm_ref_f2dfbc14-24c0-494b-bf54-506c9d2c1af4.xml, wdm/TmIsTransactionActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,8 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # TmIsTransactionActive function

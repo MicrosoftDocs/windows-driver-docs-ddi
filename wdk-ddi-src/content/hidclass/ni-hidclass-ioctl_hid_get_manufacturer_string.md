@@ -7,8 +7,8 @@ old-location: hid\ioctl_hid_get_manufacturer_string.htm
 old-project: hid
 ms.assetid: 1a402deb-132c-4cda-a019-e044318e1910
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_HID_GET_MANUFACTURER_STRING, IOCTL_HID_GET_MANUFACTURER_STRING control code [Human Input Devices], hid.ioctl_hid_get_manufacturer_string, hidclass/IOCTL_HID_GET_MANUFACTURER_STRING, hidioreq_05724f70-c708-4f9a-ba51-fa2edabf56ed.xml
+ms.date: 4/30/2018
+ms.keywords: IOCTL_HID_GET_MANUFACTURER_STRING, IOCTL_HID_GET_MANUFACTURER_STRING control, IOCTL_HID_GET_MANUFACTURER_STRING control code [Human Input Devices], hid.ioctl_hid_get_manufacturer_string, hidclass/IOCTL_HID_GET_MANUFACTURER_STRING, hidioreq_05724f70-c708-4f9a-ba51-fa2edabf56ed.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HDAUDIO_STREAM_FORMAT, *PHDAUDIO_STREAM_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_HID_GET_MANUFACTURER_STRING IOCTL

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCorePS2.EnumFeatures
-title: IPrintCorePS2::EnumFeatures method
+title: IPrintCorePS2::EnumFeatures
 author: windows-driver-content
 description: The IPrintCorePS2::EnumFeatures method enumerates a printer's available features.
 old-location: print\iprintcoreps2_enumfeatures.htm
 old-project: print
 ms.assetid: 0a8d1b25-da39-4bdc-a7d7-0d472e94e165
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnumFeatures method [Print Devices], EnumFeatures method [Print Devices], IPrintCorePS2 interface, EnumFeatures,IPrintCorePS2.EnumFeatures, IPrintCorePS2, IPrintCorePS2 interface [Print Devices], EnumFeatures method, IPrintCorePS2::EnumFeatures, prcomoem/IPrintCorePS2::EnumFeatures, print.iprintcoreps2_enumfeatures, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml
+ms.date: 4/20/2018
+ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],EnumFeatures method, IPrintCorePS2.EnumFeatures, IPrintCorePS2::EnumFeatures, prcomoem/IPrintCorePS2::EnumFeatures, print.iprintcoreps2_enumfeatures, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCorePS2::EnumFeatures method
+# IPrintCorePS2::EnumFeatures
 
 
 ## -description

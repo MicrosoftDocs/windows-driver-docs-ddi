@@ -7,7 +7,7 @@ old-location: netvista\ndisinterlockeddecrement.htm
 old-project: netvista
 ms.assetid: cf425cd6-88e6-479f-a5c7-364ae896145d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisInterlockedDecrement, NdisInterlockedDecrement macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedDecrement, ndis_interlocked_ref_bbf1ad9d-0f18-4746-9fa3-b2b2c4101a41.xml, netvista.ndisinterlockeddecrement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisInterlockedDecrement macro
@@ -65,17 +65,18 @@ The
 
 A pointer to the variable to be decremented.
 
+## -returns
+
+**NdisInterlockedDecrement** returns the decremented value.
 
 ## -remarks
-
-
 
 <b>NdisInterlockedDecrement</b> can safely be used on variables in pageable memory.
 
 <b>NdisInterlockedDecrement</b> is atomic only with respect to other 
     <b>NdisInterlocked<i>Xxx</i></b> calls.
 
-
+This macro is a wrapper around the [**InterlockedDecrement**](../wdm/nf-wdm-interlockeddecrement.md) macro.
 
 
 ## -see-also

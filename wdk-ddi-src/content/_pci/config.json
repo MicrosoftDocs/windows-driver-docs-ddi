@@ -1,0 +1,7 @@
+{
+  "tech": "pci",
+  "headers": [
+    "ntddk.h",
+    "wdm.h"
+  ]
+}

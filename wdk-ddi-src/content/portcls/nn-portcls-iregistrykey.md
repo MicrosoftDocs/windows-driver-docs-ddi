@@ -7,8 +7,8 @@ old-location: audio\iregistrykey.htm
 old-project: audio
 ms.assetid: 41601234-7b8e-4d53-9455-626a5a3c4ff3
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], IRegistryKey interface [Audio Devices], described, audio.iregistrykey, audmp-routines_40bea095-17f2-4b5f-96e8-ab2fed6d82d4.xml, portcls/IRegistryKey
+ms.date: 4/16/2018
+ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], IRegistryKey interface [Audio Devices],described, audio.iregistrykey, audmp-routines_40bea095-17f2-4b5f-96e8-ab2fed6d82d4.xml, portcls/IRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IRegistryKey interface

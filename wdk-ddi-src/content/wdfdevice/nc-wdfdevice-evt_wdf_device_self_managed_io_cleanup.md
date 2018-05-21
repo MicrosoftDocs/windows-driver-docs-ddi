@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 639ff3fd-ce38-417e-8fc4-a03ad259a5c8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectGeneralRef_73e3f47e-1f3d-4dee-9fb2-62acbb5aaea2.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP, EvtDeviceSelfManagedIoCleanup, EvtDeviceSelfManagedIoCleanup callback function, kmdf.evtdeviceselfmanagediocleanup, wdf.evtdeviceselfmanagediocleanup, wdfdevice/EvtDeviceSelfManagedIoCleanup
+ms.keywords: DFDeviceObjectGeneralRef_73e3f47e-1f3d-4dee-9fb2-62acbb5aaea2.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP, EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP callback, EvtDeviceSelfManagedIoCleanup, EvtDeviceSelfManagedIoCleanup callback function, kmdf.evtdeviceselfmanagediocleanup, wdf.evtdeviceselfmanagediocleanup, wdfdevice/EvtDeviceSelfManagedIoCleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_DEVICE_SHUTDOWN_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP callback
+# EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP callback function
 
 
 ## -description

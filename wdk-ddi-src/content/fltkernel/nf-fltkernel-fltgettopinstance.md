@@ -7,7 +7,7 @@ old-location: ifsk\fltgettopinstance.htm
 old-project: ifsk
 ms.assetid: 5c805b9d-0b9a-4fbb-8b96-3ac11a6e4898
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_3f4205c4-12aa-43d4-b67f-258665d81164.xml, FltGetTopInstance, FltGetTopInstance routine [Installable File System Drivers], fltkernel/FltGetTopInstance, ifsk.fltgettopinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltGetTopInstance function

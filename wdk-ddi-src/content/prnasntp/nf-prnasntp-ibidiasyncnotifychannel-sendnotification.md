@@ -1,14 +1,14 @@
 ---
 UID: NF:prnasntp.IBidiAsyncNotifyChannel.SendNotification
-title: IBidiAsyncNotifyChannel::SendNotification method
+title: IBidiAsyncNotifyChannel::SendNotification
 author: windows-driver-content
 description: "."
 old-location: print\ibidiasyncnotifychannel_sendnotification.htm
 old-project: print
 ms.assetid: FADB79BD-0404-4116-9EE8-AE7C063DBF26
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IBidiAsyncNotifyChannel, IBidiAsyncNotifyChannel interface [Print Devices], SendNotification method, IBidiAsyncNotifyChannel::SendNotification, SendNotification method [Print Devices], SendNotification method [Print Devices], IBidiAsyncNotifyChannel interface, SendNotification,IBidiAsyncNotifyChannel.SendNotification, print.ibidiasyncnotifychannel_sendnotification, prnasntp/IBidiAsyncNotifyChannel::SendNotification
+ms.date: 4/20/2018
+ms.keywords: IBidiAsyncNotifyChannel interface [Print Devices],SendNotification method, IBidiAsyncNotifyChannel.SendNotification, IBidiAsyncNotifyChannel::SendNotification, SendNotification, SendNotification method [Print Devices], SendNotification method [Print Devices],IBidiAsyncNotifyChannel interface, print.ibidiasyncnotifychannel_sendnotification, prnasntp/IBidiAsyncNotifyChannel::SendNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USERDATA, *PUSERDATA
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IBidiAsyncNotifyChannel::SendNotification method
+# IBidiAsyncNotifyChannel::SendNotification
 
 
 ## -description

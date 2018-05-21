@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: VIRTUAL_HW_INITIALIZATION_DATA, *PVIRTUAL_HW_INITIALIZATION_DATA
-req.product: Windows 10 or later.
 ---
 
 # _VIRTUAL_HW_INITIALIZATION_DATA structure
@@ -169,6 +168,16 @@ The length, in bytes, of the vendor identifier.
 The vendor identifier.
 
 
+### -field ReservedUshort
+
+Reserved.
+
+
+### -field PortVersionFlags
+
+A bitmap of flags that indicate the features that the port driver supports. Currently, the only flag available is SP_VER_TRACE_SUPPORT, which indicates that the port driver supports tracing.
+
+
 ### -field DeviceIdLength
 
 The length, in bytes, of the device identifier.
@@ -213,16 +222,6 @@ A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/l
 ### -field HwCleanupTracing
 
 A pointer to the virtual miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a> routine.
-
-
-#### - PortVersionFlags
-
-A bitmap of flags that indicate the features that the port driver supports. Currently, the only flag available is SP_VER_TRACE_SUPPORT, which indicates that the port driver supports tracing.
-
-
-#### - ReservedUshort
-
-Reserved.
 
 
 ## -remarks

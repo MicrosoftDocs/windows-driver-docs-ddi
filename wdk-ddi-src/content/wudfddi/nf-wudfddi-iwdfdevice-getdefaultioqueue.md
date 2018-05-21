@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.GetDefaultIoQueue
-title: IWDFDevice::GetDefaultIoQueue method
+title: IWDFDevice::GetDefaultIoQueue
 author: windows-driver-content
 description: The GetDefaultIoQueue method retrieves the interface of the default I/O queue for a device.
 old-location: wdf\iwdfdevice_getdefaultioqueue.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9e998e54-b4c9-41ed-bba8-6f11c013f681
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetDefaultIoQueue method, GetDefaultIoQueue method, IWDFDevice interface, GetDefaultIoQueue,IWDFDevice.GetDefaultIoQueue, IWDFDevice, IWDFDevice interface, GetDefaultIoQueue method, IWDFDevice::GetDefaultIoQueue, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, umdf.iwdfdevice_getdefaultioqueue, wdf.iwdfdevice_getdefaultioqueue, wudfddi/IWDFDevice::GetDefaultIoQueue
+ms.keywords: GetDefaultIoQueue, GetDefaultIoQueue method, GetDefaultIoQueue method,IWDFDevice interface, IWDFDevice interface,GetDefaultIoQueue method, IWDFDevice.GetDefaultIoQueue, IWDFDevice::GetDefaultIoQueue, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, umdf.iwdfdevice_getdefaultioqueue, wdf.iwdfdevice_getdefaultioqueue, wudfddi/IWDFDevice::GetDefaultIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::GetDefaultIoQueue method
+# IWDFDevice::GetDefaultIoQueue
 
 
 ## -description

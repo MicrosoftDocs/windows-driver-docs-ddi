@@ -7,8 +7,8 @@ old-location: netvista\miniportwdicloseadapter.htm
 old-project: netvista
 ms.assetid: E6A96765-3D95-431B-B29A-5BD7641325A8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_CLOSE_ADAPTER, MiniportWdiCloseAdapter, MiniportWdiCloseAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCloseAdapter, netvista.miniportwdicloseadapter
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_CLOSE_ADAPTER, MINIPORT_WDI_CLOSE_ADAPTER callback, MiniportWdiCloseAdapter, MiniportWdiCloseAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCloseAdapter, netvista.miniportwdicloseadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_CLOSE_ADAPTER callback
+# MINIPORT_WDI_CLOSE_ADAPTER callback function
 
 
 ## -description

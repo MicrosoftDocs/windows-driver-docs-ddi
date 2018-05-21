@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.QuerySimulationSupport
-title: IPrintCoreUI2::QuerySimulationSupport method
+title: IPrintCoreUI2::QuerySimulationSupport
 author: windows-driver-content
 description: The IPrintCoreUI2::QuerySimulationSupport method retrieves a spooler simulation capability structure, which indicates the kinds of simulation the spooler supports.
 old-location: print\iprintcoreui2_querysimulationsupport.htm
 old-project: print
 ms.assetid: 0136df19-9491-47ea-9a8f-c9a932646686
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], QuerySimulationSupport method, IPrintCoreUI2::QuerySimulationSupport, QuerySimulationSupport method [Print Devices], QuerySimulationSupport method [Print Devices], IPrintCoreUI2 interface, QuerySimulationSupport,IPrintCoreUI2.QuerySimulationSupport, prcomoem/IPrintCoreUI2::QuerySimulationSupport, print.iprintcoreui2_querysimulationsupport, print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintCoreUI2 interface [Print Devices],QuerySimulationSupport method, IPrintCoreUI2.QuerySimulationSupport, IPrintCoreUI2::QuerySimulationSupport, QuerySimulationSupport, QuerySimulationSupport method [Print Devices], QuerySimulationSupport method [Print Devices],IPrintCoreUI2 interface, prcomoem/IPrintCoreUI2::QuerySimulationSupport, print.iprintcoreui2_querysimulationsupport, print_unidrv-pscript_ui_96f40d94-5dfc-4707-ac4d-0f043a829dd2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreUI2::QuerySimulationSupport method
+# IPrintCoreUI2::QuerySimulationSupport
 
 
 ## -description

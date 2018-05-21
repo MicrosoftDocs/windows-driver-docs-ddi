@@ -2,7 +2,7 @@
 UID: TP:storage
 ms.assetid: 2c8add25-915b-3bb1-957b-a04df40081fc
 ms.author: windowsdriverdev
-ms.date: 04/20/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +11,7 @@ ms.topic: portal
 
 # Storage
 
-
+## -description
 
 Overview of the Storage technology.
 
@@ -387,41 +387,41 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 
 | Title   | Description   |
 | ---- |:---- |
-| [DUMP_FINISH callback](..\ntdddump\nc-ntdddump-dump_finish.md) | The Dump_Finish callback routine is called after writing all the dump data. The dump port driver generally flushes the cache to ensure the data is stored on the storage media before the system powers down. |
-| [DUMP_READ callback](..\ntdddump\nc-ntdddump-dump_read.md) | The Dump_Read callback routine is called after the read from the dump port driver. The filter driver can access the dump data during the call to this routine. |
-| [DUMP_START callback](..\ntdddump\nc-ntdddump-dump_start.md) | The Dump_Start callback routine is called after initializing the dump driver and just before starting the dump write process. |
-| [DUMP_UNLOAD callback](..\ntdddump\nc-ntdddump-dump_unload.md) | The Dump_Unload callback routine is called when the dump stack is unloaded. |
-| [DUMP_WRITE callback](..\ntdddump\nc-ntdddump-dump_write.md) | The Dump_Write callback routine is called before the write to the dump port driver. The filter driver can access the dump data at this time. |
-| [HW_ADAPTER_CONTROL callback](..\storport\nc-storport-hw_adapter_control.md) | A miniport driver's HwStorAdapterControl routine is called to perform synchronous operations to control the state or behavior of an adapter, such as stopping or restarting the HBA for power management. |
-| [HW_BUILDIO callback](..\storport\nc-storport-hw_buildio.md) | The HwStorBuildIo routine processes the SRB with unsynchronized access to shared system data structures before passing it to HwStorStartIo. |
-| [HW_CLEANUP_TRACING callback](..\storport\nc-storport-hw_cleanup_tracing.md) | The HwStorCleanupTracing callback routine allows the Storport virtual miniport driver to stop tracing and to free any related resources. |
-| [HW_COMPLETE_SERVICE_IRP callback](..\storport\nc-storport-hw_complete_service_irp.md) | The HwStorCompleteServiceIrp routine is called when the virtual adapter is being removed. When this happens, the Storport virtual miniport can complete any reverse-callback IRPs received in HwStorCompleteServiceIrp. |
-| [HW_DPC_ROUTINE callback](..\storport\nc-storport-hw_dpc_routine.md) | The HwStorDpcRoutine routine is a routine that is deferred for execution at DISPATCH IRQL by means of the deferred procedure call (DPC) mechanism. |
-| [HW_FIND_ADAPTER callback](..\storport\nc-storport-hw_find_adapter.md) | The HwStorFindAdapter routine uses the supplied configuration to determine whether a specific HBA is supported and, if it is, to return configuration information about that adapter. |
-| [HW_FREE_ADAPTER_RESOURCES callback](..\storport\nc-storport-hw_free_adapter_resources.md) | The HwStorFreeAdapterResources callback routine allows the Storport virtual miniport driver to free resources when the virtual adapter is being removed. This is the last callback routine for the adapter. |
-| [HW_INITIALIZE callback](..\storport\nc-storport-hw_initialize.md) | The HwStorInitialize routine initializes the miniport driver after a system reboot or power failure occurs. |
-| [HW_INITIALIZE_TRACING callback](..\storport\nc-storport-hw_initialize_tracing.md) | The HwStorInitializeTracing callback routine allows the Storport virtual miniport driver to set up tracing and any related resources. |
-| [HW_INTERRUPT callback](..\storport\nc-storport-hw_interrupt.md) | The Storport driver calls the HwStorInterrupt routine after the HBA generates an interrupt request. |
-| [HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE callback](..\storport\nc-storport-hw_message_signaled_interrupt_routine.md) | The HwMSInterruptRoutine routine handles a message signaled interrupt (MSI). |
-| [HW_PASSIVE_INITIALIZE_ROUTINE callback](..\storport\nc-storport-hw_passive_initialize_routine.md) | The HwStorPassiveInitializeRoutine callback routine is called after the HwStorInitialize routine when the current IRQL is at PASSIVE_LEVEL. |
-| [HW_PROCESS_SERVICE_REQUEST callback](..\storport\nc-storport-hw_process_service_request.md) | The HwStorProcessServiceRequest callback routine receives the device control IRP that contains the IOCTL_MINIPORT_PROCESS_SERVICE_IRP request when a caller, such as a user-mode application or kernel-mode driver, requires a &#0034;reverse callback&#0034; operation. |
-| [HW_RESET_BUS callback](..\storport\nc-storport-hw_reset_bus.md) | The HwStorResetBus routine is called by the port driver to clear error conditions. |
-| [HW_STARTIO callback](..\storport\nc-storport-hw_startio.md) | The Storport driver calls the HwStorStartIo routine one time for each incoming I/O request. |
-| [HW_STATE_CHANGE callback](..\storport\nc-storport-hw_state_change.md) | A miniport-provided callback that is called after a notification from StorPortStateChangeDetected is processed. |
-| [HW_TIMER callback](..\storport\nc-storport-hw_timer.md) | The HwStorTimer routine is called after the interval that is specified when the miniport driver called StorPortNotification with the RequestTimerCall NotificationType value. |
-| [HW_TRACING_ENABLED callback](..\storport\nc-storport-hw_tracing_enabled.md) | The HwStorTracingEnabled callback routine enables the Storport to notify a miniport that event tracing is enabled. |
-| [HW_UNIT_CONTROL callback](..\storport\nc-storport-hw_unit_control.md) | A miniport driver's HwStorUnitControl routine is called to perform synchronous operations to control the state of storage unit device. The miniport driver is notified to start a unit or handle a power state transition for a unit device. |
-| [HW_WORKITEM callback](..\storport\nc-storport-hw_workitem.md) | A miniport-provided callback function for processing a Storport work item request. |
-| [IDE_ADAPTER_CONTROL callback](..\irb\nc-irb-ide_adapter_control.md) | The AtaAdapterControl miniport driver routine is called to perform Plug and Play (PnP) and Power Management operations on the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
-| [IDE_CHANNEL_ENABLED callback](..\irb\nc-irb-ide_channel_enabled.md) | The AtaControllerChannelEnabled miniport driver routine indicates whether the specified channel is enabled.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
-| [IDE_CHANNEL_INIT callback](..\irb\nc-irb-ide_channel_init.md) | The AtaChannelInitRoutine miniport driver routine initializes the miniport driver's channel interface.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
-| [IDE_HW_BUILDIO callback](..\irb\nc-irb-ide_hw_buildio.md) | The IdeHwBuildIo miniport driver routine is called one time for every incoming I/O request.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
-| [IDE_HW_CONTROL callback](..\irb\nc-irb-ide_hw_control.md) | The IdeHwControl miniport driver routine notifies the miniport driver about Plug and Play (PnP) and power events.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
-| [IDE_HW_INITIALIZE callback](..\irb\nc-irb-ide_hw_initialize.md) | The IdeHwInitialize miniport driver routine configures the indicated device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
-| [IDE_HW_INTERRUPT callback](..\irb\nc-irb-ide_hw_interrupt.md) | The IdeHwInterrupt miniport driver routine handles interrupts from the host bus adapter (HBA) to which the controller for the miniport driver is connected. |
-| [IDE_HW_RESET callback](..\irb\nc-irb-ide_hw_reset.md) | The IdeHwReset miniport driver routine resets the channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
-| [IDE_HW_STARTIO callback](..\irb\nc-irb-ide_hw_startio.md) | The IdeHwStartIo miniport driver routine processes the synchronized aspects of an I/O request.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
-| [IDE_TRANSFER_MODE_SELECT callback](..\irb\nc-irb-ide_transfer_mode_select.md) | The AtaControllerTransferModeSelect miniport driver routine selects the transfer mode for all devices on the indicated ATA channel and programs the controller for the selected transfer mode.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. |
+| [DUMP_FINISH callback function](..\ntdddump\nc-ntdddump-dump_finish.md) | The Dump_Finish callback routine is called after writing all the dump data. The dump port driver generally flushes the cache to ensure the data is stored on the storage media before the system powers down. |
+| [DUMP_READ callback function](..\ntdddump\nc-ntdddump-dump_read.md) | The Dump_Read callback routine is called after the read from the dump port driver. The filter driver can access the dump data during the call to this routine. |
+| [DUMP_START callback function](..\ntdddump\nc-ntdddump-dump_start.md) | The Dump_Start callback routine is called after initializing the dump driver and just before starting the dump write process. |
+| [DUMP_UNLOAD callback function](..\ntdddump\nc-ntdddump-dump_unload.md) | The Dump_Unload callback routine is called when the dump stack is unloaded. |
+| [DUMP_WRITE callback function](..\ntdddump\nc-ntdddump-dump_write.md) | The Dump_Write callback routine is called before the write to the dump port driver. The filter driver can access the dump data at this time. |
+| [HW_ADAPTER_CONTROL callback function](..\storport\nc-storport-hw_adapter_control.md) | A miniport driver's HwStorAdapterControl routine is called to perform synchronous operations to control the state or behavior of an adapter, such as stopping or restarting the HBA for power management. |
+| [HW_BUILDIO callback function](..\storport\nc-storport-hw_buildio.md) | The HwStorBuildIo routine processes the SRB with unsynchronized access to shared system data structures before passing it to HwStorStartIo. |
+| [HW_CLEANUP_TRACING callback function](..\storport\nc-storport-hw_cleanup_tracing.md) | The HwStorCleanupTracing callback routine allows the Storport virtual miniport driver to stop tracing and to free any related resources. |
+| [HW_COMPLETE_SERVICE_IRP callback function](..\storport\nc-storport-hw_complete_service_irp.md) | The HwStorCompleteServiceIrp routine is called when the virtual adapter is being removed. When this happens, the Storport virtual miniport can complete any reverse-callback IRPs received in HwStorCompleteServiceIrp. |
+| [HW_DPC_ROUTINE callback function](..\storport\nc-storport-hw_dpc_routine.md) | The HwStorDpcRoutine routine is a routine that is deferred for execution at DISPATCH IRQL by means of the deferred procedure call (DPC) mechanism. |
+| [HW_FIND_ADAPTER callback function](..\storport\nc-storport-hw_find_adapter.md) | The HwStorFindAdapter routine uses the supplied configuration to determine whether a specific HBA is supported and, if it is, to return configuration information about that adapter. |
+| [HW_FREE_ADAPTER_RESOURCES callback function](..\storport\nc-storport-hw_free_adapter_resources.md) | The HwStorFreeAdapterResources callback routine allows the Storport virtual miniport driver to free resources when the virtual adapter is being removed. This is the last callback routine for the adapter. |
+| [HW_INITIALIZE callback function](..\storport\nc-storport-hw_initialize.md) | The HwStorInitialize routine initializes the miniport driver after a system reboot or power failure occurs. |
+| [HW_INITIALIZE_TRACING callback function](..\storport\nc-storport-hw_initialize_tracing.md) | The HwStorInitializeTracing callback routine allows the Storport virtual miniport driver to set up tracing and any related resources. |
+| [HW_INTERRUPT callback function](..\storport\nc-storport-hw_interrupt.md) | The Storport driver calls the HwStorInterrupt routine after the HBA generates an interrupt request. |
+| [HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE callback function](..\storport\nc-storport-hw_message_signaled_interrupt_routine.md) | The HwMSInterruptRoutine routine handles a message signaled interrupt (MSI). |
+| [HW_PASSIVE_INITIALIZE_ROUTINE callback function](..\storport\nc-storport-hw_passive_initialize_routine.md) | The HwStorPassiveInitializeRoutine callback routine is called after the HwStorInitialize routine when the current IRQL is at PASSIVE_LEVEL. |
+| [HW_PROCESS_SERVICE_REQUEST callback function](..\storport\nc-storport-hw_process_service_request.md) | The HwStorProcessServiceRequest callback routine receives the device control IRP that contains the IOCTL_MINIPORT_PROCESS_SERVICE_IRP request when a caller, such as a user-mode application or kernel-mode driver, requires a &#0034;reverse callback&#0034; operation. |
+| [HW_RESET_BUS callback function](..\storport\nc-storport-hw_reset_bus.md) | The HwStorResetBus routine is called by the port driver to clear error conditions. |
+| [HW_STARTIO callback function](..\storport\nc-storport-hw_startio.md) | The Storport driver calls the HwStorStartIo routine one time for each incoming I/O request. |
+| [HW_STATE_CHANGE callback function](..\storport\nc-storport-hw_state_change.md) | A miniport-provided callback that is called after a notification from StorPortStateChangeDetected is processed. |
+| [HW_TIMER callback function](..\storport\nc-storport-hw_timer.md) | The HwStorTimer routine is called after the interval that is specified when the miniport driver called StorPortNotification with the RequestTimerCall NotificationType value. |
+| [HW_TRACING_ENABLED callback function](..\storport\nc-storport-hw_tracing_enabled.md) | The HwStorTracingEnabled callback routine enables the Storport to notify a miniport that event tracing is enabled. |
+| [HW_UNIT_CONTROL callback function](..\storport\nc-storport-hw_unit_control.md) | A miniport driver's HwStorUnitControl routine is called to perform synchronous operations to control the state of storage unit device. The miniport driver is notified to start a unit or handle a power state transition for a unit device. |
+| [HW_WORKITEM callback function](..\storport\nc-storport-hw_workitem.md) | A miniport-provided callback function for processing a Storport work item request. |
+| [IDE_ADAPTER_CONTROL callback function](..\irb\nc-irb-ide_adapter_control.md) | The AtaAdapterControl miniport driver routine is called to perform Plug and Play (PnP) and Power Management operations on the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
+| [IDE_CHANNEL_ENABLED callback function](..\irb\nc-irb-ide_channel_enabled.md) | The AtaControllerChannelEnabled miniport driver routine indicates whether the specified channel is enabled.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
+| [IDE_CHANNEL_INIT callback function](..\irb\nc-irb-ide_channel_init.md) | The AtaChannelInitRoutine miniport driver routine initializes the miniport driver's channel interface.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
+| [IDE_HW_BUILDIO callback function](..\irb\nc-irb-ide_hw_buildio.md) | The IdeHwBuildIo miniport driver routine is called one time for every incoming I/O request.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
+| [IDE_HW_CONTROL callback function](..\irb\nc-irb-ide_hw_control.md) | The IdeHwControl miniport driver routine notifies the miniport driver about Plug and Play (PnP) and power events.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
+| [IDE_HW_INITIALIZE callback function](..\irb\nc-irb-ide_hw_initialize.md) | The IdeHwInitialize miniport driver routine configures the indicated device.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
+| [IDE_HW_INTERRUPT callback function](..\irb\nc-irb-ide_hw_interrupt.md) | The IdeHwInterrupt miniport driver routine handles interrupts from the host bus adapter (HBA) to which the controller for the miniport driver is connected. |
+| [IDE_HW_RESET callback function](..\irb\nc-irb-ide_hw_reset.md) | The IdeHwReset miniport driver routine resets the channel.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
+| [IDE_HW_STARTIO callback function](..\irb\nc-irb-ide_hw_startio.md) | The IdeHwStartIo miniport driver routine processes the synchronized aspects of an I/O request.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. |
+| [IDE_TRANSFER_MODE_SELECT callback function](..\irb\nc-irb-ide_transfer_mode_select.md) | The AtaControllerTransferModeSelect miniport driver routine selects the transfer mode for all devices on the indicated ATA channel and programs the controller for the selected transfer mode.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the Storport driver and Storport miniport driver models. |
 | [PHW_ADAPTER_CONTROL callback](..\srb\nc-srb-phw_adapter_control.md) | The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs. |
 | [PHW_ADAPTER_STATE callback](..\srb\nc-srb-phw_adapter_state.md) | The PHW_INITIALIZE routine prototype declares a routine that saves or restores the state of the miniport driver's HBA. |
 | [PHW_DMA_STARTED callback](..\srb\nc-srb-phw_dma_started.md) | The PHW_DMA_STARTED routine prototype declares a SCSI miniport driver routine that starts DMA for subordinate DMA device. |
@@ -431,17 +431,17 @@ For the programming guide, see [Storage](https://docs.microsoft.com/en-us/window
 | [PHW_RESET_BUS callback](..\srb\nc-srb-phw_reset_bus.md) | The PHW_RESET_BUS prototype declares a routine that resets the indicated SCSI bus. |
 | [PHW_STARTIO callback](..\srb\nc-srb-phw_startio.md) | The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs. |
 | [PHW_TIMER callback](..\srb\nc-srb-phw_timer.md) | The PHW_TIMER routine prototype declares a SCSI miniport driver's timer routine. |
-| [PSCSIWMI_EXECUTE_METHOD callback](..\scsiwmi\nc-scsiwmi-pscsiwmi_execute_method.md) | A miniport driver's HwScsiWmiExecuteMethod routine is called to execute a method associated with a data block. |
-| [PSCSIWMI_FUNCTION_CONTROL callback](..\scsiwmi\nc-scsiwmi-pscsiwmi_function_control.md) | A miniport driver's HwScsiWmiFunctionControl routine is called to enable or disable notification of events. |
-| [PSCSIWMI_QUERY_DATABLOCK callback](..\scsiwmi\nc-scsiwmi-pscsiwmi_query_datablock.md) | A miniport driver's HwScsiWmiQueryDataBlock routine is called to obtain either a single instance or all instances of a data block. |
-| [PSCSIWMI_QUERY_REGINFO callback](..\scsiwmi\nc-scsiwmi-pscsiwmi_query_reginfo.md) | A miniport driver's HwScsiWmiQueryReginfo routine is called to obtain information about the data and event blocks to be registered on behalf of the miniport driver by the SCSI port driver. |
-| [PSCSIWMI_SET_DATABLOCK callback](..\scsiwmi\nc-scsiwmi-pscsiwmi_set_datablock.md) | A miniport driver's HwScsiWmiSetDataBlock routine is called to change all data items in a single instance of a data block. |
-| [PSCSIWMI_SET_DATAITEM callback](..\scsiwmi\nc-scsiwmi-pscsiwmi_set_dataitem.md) | A miniport driver's HwScsiWmiSetDataItem routine is called to change a single data item in an instance of a data block. |
-| [TAPE_ERROR_ROUTINE callback](..\minitape\nc-minitape-tape_error_routine.md) | TAPE_ERROR_ROUTINE provides device-specific error handling when an SRB is completed with an error status. This routine is optional. |
-| [TAPE_EXTENSION_INIT_ROUTINE callback](..\minitape\nc-minitape-tape_extension_init_routine.md) | ExtensionInit initializes an optional, driver-specific context area. This routine is called by TapeClassInitialize when the tape miniclass driver is loaded. This routine is optional. |
-| [TAPE_PROCESS_COMMAND_ROUTINE callback](..\minitape\nc-minitape-tape_process_command_routine.md) | TAPE_PROCESS_COMMAND_ROUTINE handles the device-specific aspects of an IOCTL request. |
-| [TAPE_VERIFY_INQUIRY_ROUTINE callback](..\minitape\nc-minitape-tape_verify_inquiry_routine.md) | TAPE_VERIFY_INQUIRY_ROUTINE determines whether the tape miniclass driver recognizes and supports a given device. This routine is required. |
-| [VIRTUAL_HW_FIND_ADAPTER callback](..\storport\nc-storport-virtual_hw_find_adapter.md) | The Storport virtual miniport uses configuration information supplied to the VirtualHwStorFindAdapter routine to further initialize itself. |
+| [PSCSIWMI_EXECUTE_METHOD callback function](..\scsiwmi\nc-scsiwmi-pscsiwmi_execute_method.md) | A miniport driver's HwScsiWmiExecuteMethod routine is called to execute a method associated with a data block. |
+| [PSCSIWMI_FUNCTION_CONTROL callback function](..\scsiwmi\nc-scsiwmi-pscsiwmi_function_control.md) | A miniport driver's HwScsiWmiFunctionControl routine is called to enable or disable notification of events. |
+| [PSCSIWMI_QUERY_DATABLOCK callback function](..\scsiwmi\nc-scsiwmi-pscsiwmi_query_datablock.md) | A miniport driver's HwScsiWmiQueryDataBlock routine is called to obtain either a single instance or all instances of a data block. |
+| [PSCSIWMI_QUERY_REGINFO callback function](..\scsiwmi\nc-scsiwmi-pscsiwmi_query_reginfo.md) | A miniport driver's HwScsiWmiQueryReginfo routine is called to obtain information about the data and event blocks to be registered on behalf of the miniport driver by the SCSI port driver. |
+| [PSCSIWMI_SET_DATABLOCK callback function](..\scsiwmi\nc-scsiwmi-pscsiwmi_set_datablock.md) | A miniport driver's HwScsiWmiSetDataBlock routine is called to change all data items in a single instance of a data block. |
+| [PSCSIWMI_SET_DATAITEM callback function](..\scsiwmi\nc-scsiwmi-pscsiwmi_set_dataitem.md) | A miniport driver's HwScsiWmiSetDataItem routine is called to change a single data item in an instance of a data block. |
+| [TAPE_ERROR_ROUTINE callback function](..\minitape\nc-minitape-tape_error_routine.md) | TAPE_ERROR_ROUTINE provides device-specific error handling when an SRB is completed with an error status. This routine is optional. |
+| [TAPE_EXTENSION_INIT_ROUTINE callback function](..\minitape\nc-minitape-tape_extension_init_routine.md) | ExtensionInit initializes an optional, driver-specific context area. This routine is called by TapeClassInitialize when the tape miniclass driver is loaded. This routine is optional. |
+| [TAPE_PROCESS_COMMAND_ROUTINE callback function](..\minitape\nc-minitape-tape_process_command_routine.md) | TAPE_PROCESS_COMMAND_ROUTINE handles the device-specific aspects of an IOCTL request. |
+| [TAPE_VERIFY_INQUIRY_ROUTINE callback function](..\minitape\nc-minitape-tape_verify_inquiry_routine.md) | TAPE_VERIFY_INQUIRY_ROUTINE determines whether the tape miniclass driver recognizes and supports a given device. This routine is required. |
+| [VIRTUAL_HW_FIND_ADAPTER callback function](..\storport\nc-storport-virtual_hw_find_adapter.md) | The Storport virtual miniport uses configuration information supplied to the VirtualHwStorFindAdapter routine to further initialize itself. |
 
 ## Structures
 

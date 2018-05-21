@@ -7,7 +7,7 @@ old-location: hid\vhfstart.htm
 old-project: hid
 ms.assetid: F3DA4CBB-5749-4E7D-828F-398714575173
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: VhfStart, VhfStart method [Human Input Devices], hid.vhfstart, vhf/VhfStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR, *PUSB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VhfStart function

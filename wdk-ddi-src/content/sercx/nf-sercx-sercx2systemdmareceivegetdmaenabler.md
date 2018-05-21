@@ -7,7 +7,7 @@ old-location: serports\sercx2systemdmareceivegetdmaenabler.htm
 old-project: serports
 ms.assetid: 0C1CEDD8-EA78-4188-AD05-99608B400C84
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 2/SerCx2SystemDmaReceiveGetDmaEnabler, SerCx2SystemDmaReceiveGetDmaEnabler, SerCx2SystemDmaReceiveGetDmaEnabler method [Serial Ports], serports.sercx2systemdmareceivegetdmaenabler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCx2SystemDmaReceiveGetDmaEnabler function

@@ -7,28 +7,28 @@ old-location: display\pfnd3d12ddi_calcprivatevideoprocessorsize.htm
 old-project: display
 ms.assetid: F1ED5176-4F50-44DA-96B3-5E133A236461
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021, d3d12umddi/pfnCalcPrivateVideoProcessorSize, display.pfnd3d12ddi_calcprivatevideoprocessorsize, pfnCalcPrivateVideoProcessorSize, pfnCalcPrivateVideoProcessorSize callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021, PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021 callback, d3d12umddi/pfnCalcPrivateVideoProcessorSize, display.pfnd3d12ddi_calcprivatevideoprocessorsize, pfnCalcPrivateVideoProcessorSize, pfnCalcPrivateVideoProcessorSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021 callback
+# PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021 callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: debugger\debug_processor_identification_x86.htm
 old-project: debugger
 ms.assetid: B5AD9CE8-B0F0-49BC-984E-4372FD3BF93B
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_X86, DEBUG_PROCESSOR_IDENTIFICATION_X86, DEBUG_PROCESSOR_IDENTIFICATION_X86 structure [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_X86, PDEBUG_PROCESSOR_IDENTIFICATION_X86 structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_X86, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_X86, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_X86, debugger.debug_processor_identification_x86"
 ms.prod: windows-hardware
 ms.technology: windows-devices

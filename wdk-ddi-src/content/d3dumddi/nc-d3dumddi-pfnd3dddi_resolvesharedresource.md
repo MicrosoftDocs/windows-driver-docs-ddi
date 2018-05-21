@@ -7,8 +7,8 @@ old-location: display\resolvesharedresource.htm
 old-project: display
 ms.assetid: 8ad9130e-bade-4fd2-b345-b6361fd001ef
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_RESOLVESHAREDRESOURCE, ResolveSharedResource, ResolveSharedResource callback function [Display Devices], UserModeDisplayDriver_Functions_d1818521-a7ef-4daf-8bd7-47103bba2755.xml, d3dumddi/ResolveSharedResource, display.resolvesharedresource
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_RESOLVESHAREDRESOURCE, PFND3DDDI_RESOLVESHAREDRESOURCE callback, ResolveSharedResource, ResolveSharedResource callback function [Display Devices], UserModeDisplayDriver_Functions_d1818521-a7ef-4daf-8bd7-47103bba2755.xml, d3dumddi/ResolveSharedResource, display.resolvesharedresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_RESOLVESHAREDRESOURCE callback
+# PFND3DDDI_RESOLVESHAREDRESOURCE callback function
 
 
 ## -description

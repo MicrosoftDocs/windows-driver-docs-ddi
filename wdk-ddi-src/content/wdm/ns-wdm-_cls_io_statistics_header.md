@@ -7,7 +7,7 @@ old-location: kernel\clfs_io_statistics_header.htm
 old-project: kernel
 ms.assetid: ac0da755-ea2f-4b68-947c-c314d114f273
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PCLFS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER structure [Kernel-Mode Driver Architecture], CLS_IO_STATISTICS_HEADER, CLS_IO_STATISTICS_HEADER structure [Kernel-Mode Driver Architecture], PCLFS_IO_STATISTICS_HEADER, PCLFS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], PCLS_IO_STATISTICS_HEADER, PCLS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], PPCLFS_IO_STATISTICS_HEADER, PPCLFS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], PPCLS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER structure pointer [Kernel-Mode Driver Architecture], _CLS_IO_STATISTICS_HEADER, kernel.clfs_io_statistics_header, kstruct_a_4b54b209-c331-4bbd-b217-d77594bd6e46.xml, wdm/CLFS_IO_STATISTICS_HEADER, wdm/CLS_IO_STATISTICS_HEADER, wdm/PCLFS_IO_STATISTICS_HEADER, wdm/PCLS_IO_STATISTICS_HEADER, wdm/PPCLFS_IO_STATISTICS_HEADER, wdm/PPCLS_IO_STATISTICS_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: CLS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER
-req.product: Windows 10 or later.
 ---
 
 # _CLS_IO_STATISTICS_HEADER structure

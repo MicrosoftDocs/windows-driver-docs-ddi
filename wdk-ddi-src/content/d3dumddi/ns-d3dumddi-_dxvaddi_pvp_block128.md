@@ -7,7 +7,7 @@ old-location: display\dxvaddi_pvp_key128.htm
 old-project: display
 ms.assetid: c4c65d1f-2531-4804-8a86-160b1ddfd692
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_1384e44e-aa25-470a-93bb-3e20b5885bdb.xml, DXVADDI_PVP_BLOCK128, DXVADDI_PVP_BLOCK128 structure [Display Devices], DXVADDI_PVP_KEY128, DXVADDI_PVP_KEY128 structure [Display Devices], _DXVADDI_PVP_BLOCK128, d3dumddi/DXVADDI_PVP_KEY128, display.dxvaddi_pvp_key128
 ms.prod: windows-hardware
 ms.technology: windows-devices

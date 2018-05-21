@@ -7,7 +7,7 @@ old-location: netvista\ndisallocatecloneoidrequest.htm
 old-project: netvista
 ms.assetid: 426ff4f4-7924-4115-9f66-b4152e2ba5bb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisAllocateCloneOidRequest, NdisAllocateCloneOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateCloneOidRequest, ndis_request_ref_323c05f2-8b33-40c1-a4d8-385a8b0d0015.xml, netvista.ndisallocatecloneoidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisAllocateCloneOidRequest function

@@ -7,8 +7,8 @@ old-location: display\dxgkddidpcroutine.htm
 old-project: display
 ms.assetid: 2767906a-f084-4ccc-b24f-ba7d66c96477
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_DPC_ROUTINE, DmFunctions_12213354-74a5-40a5-a061-fa47d5a8cb03.xml, DxgkDdiDpcRoutine, DxgkDdiDpcRoutine callback function [Display Devices], display.dxgkddidpcroutine, dispmprt/DxgkDdiDpcRoutine
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_DPC_ROUTINE, DXGKDDI_DPC_ROUTINE callback, DmFunctions_12213354-74a5-40a5-a061-fa47d5a8cb03.xml, DxgkDdiDpcRoutine, DxgkDdiDpcRoutine callback function [Display Devices], display.dxgkddidpcroutine, dispmprt/DxgkDdiDpcRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_DPC_ROUTINE callback
+# DXGKDDI_DPC_ROUTINE callback function
 
 
 ## -description

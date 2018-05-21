@@ -7,7 +7,7 @@ old-location: stream\usbcamd_device_data2.htm
 old-project: stream
 ms.assetid: 51339fd1-a962-4e3c-b9c9-5fe54ff53aa0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PUSBCAMD_DEVICE_DATA2, PUSBCAMD_DEVICE_DATA2, PUSBCAMD_DEVICE_DATA2 structure pointer [Streaming Media Devices], USBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2 structure [Streaming Media Devices], _USBCAMD_DEVICE_DATA2, stream.usbcamd_device_data2, usbcamdi/PUSBCAMD_DEVICE_DATA2, usbcamdi/USBCAMD_DEVICE_DATA2, usbcmdpr_01305731-bde1-4718-8ff9-d0f102d6cc34.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
-req.product: Windows 10 or later.
 ---
 
 # _USBCAMD_DEVICE_DATA2 structure

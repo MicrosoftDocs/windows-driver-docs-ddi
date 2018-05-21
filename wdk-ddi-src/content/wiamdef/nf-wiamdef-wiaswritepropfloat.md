@@ -7,7 +7,7 @@ old-location: image\wiaswritepropfloat.htm
 old-project: image
 ms.assetid: 097cd455-018e-46ef-8b8f-8eae7ea3eaff
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaswritepropfloat, wiamdef/wiasWritePropFloat, wiasFncs_49539474-675e-420d-b7a4-67f147017975.xml, wiasWritePropFloat, wiasWritePropFloat function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasWritePropFloat function

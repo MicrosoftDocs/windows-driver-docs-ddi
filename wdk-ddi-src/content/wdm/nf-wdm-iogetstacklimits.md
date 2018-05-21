@@ -7,7 +7,7 @@ old-location: kernel\iogetstacklimits.htm
 old-project: kernel
 ms.assetid: aaa10cb2-16cb-40a8-ad72-9715da311957
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoGetStackLimits, IoGetStackLimits routine [Kernel-Mode Driver Architecture], k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, kernel.iogetstacklimits, wdm/IoGetStackLimits
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoGetStackLimits function

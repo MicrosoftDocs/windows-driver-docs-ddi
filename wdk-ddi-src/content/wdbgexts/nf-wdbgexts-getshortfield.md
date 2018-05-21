@@ -7,7 +7,7 @@ old-location: debugger\getshortfield.htm
 old-project: debugger
 ms.assetid: f5f00e88-b758-4f37-9fe5-5db8f20835b1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/24/2018
 ms.keywords: GetShortField, GetShortField function [Windows Debugging], WdbgExts_Ref_ef67af78-e72f-440c-9ef3-d84b8cca12dc.xml, debugger.getshortfield, wdbgexts/GetShortField
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXT_TDOP
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # GetShortField function

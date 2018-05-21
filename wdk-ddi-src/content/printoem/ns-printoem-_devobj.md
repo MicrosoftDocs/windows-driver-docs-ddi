@@ -7,7 +7,7 @@ old-location: print\devobj.htm
 old-project: print
 ms.assetid: cdcd0437-e4fc-4041-827f-caa3c435325c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDEVOBJ, DEVOBJ, DEVOBJ structure [Print Devices], _DEVOBJ, print.devobj, print_unidrv-pscript_rendering_defda1bb-3862-4b55-a7bf-38b040667c97.xml, printoem/DEVOBJ"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: "*PDEVOBJ, DEVOBJ"
-req.product: Windows 10 or later.
 ---
 
 # _DEVOBJ structure

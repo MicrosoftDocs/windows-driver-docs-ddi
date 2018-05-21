@@ -7,8 +7,8 @@ old-location: display\pfngetmultisamplemethodlistcb.htm
 old-project: display
 ms.assetid: 2e3f9ee9-83a0-4b81-a22b-594e5bd4d046
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3Druntime_Functions_301eb3f8-0145-40dc-8aa4-6b29a6876eee.xml, PFND3DDDI_GETMULTISAMPLEMETHODLISTCB, d3dumddi/pfnGetMultisampleMethodListCb, display.pfngetmultisamplemethodlistcb, pfnGetMultisampleMethodListCb, pfnGetMultisampleMethodListCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: D3Druntime_Functions_301eb3f8-0145-40dc-8aa4-6b29a6876eee.xml, PFND3DDDI_GETMULTISAMPLEMETHODLISTCB, PFND3DDDI_GETMULTISAMPLEMETHODLISTCB callback, d3dumddi/pfnGetMultisampleMethodListCb, display.pfngetmultisamplemethodlistcb, pfnGetMultisampleMethodListCb, pfnGetMultisampleMethodListCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_GETMULTISAMPLEMETHODLISTCB callback
+# PFND3DDDI_GETMULTISAMPLEMETHODLISTCB callback function
 
 
 ## -description

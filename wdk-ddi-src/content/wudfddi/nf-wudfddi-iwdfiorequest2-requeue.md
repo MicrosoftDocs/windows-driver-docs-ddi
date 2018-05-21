@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.Requeue
-title: IWDFIoRequest2::Requeue method
+title: IWDFIoRequest2::Requeue
 author: windows-driver-content
 description: The Requeue method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
 old-location: wdf\iwdfiorequest2_requeue.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1e33f284-6cb9-426f-a900-76b827341927
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, Requeue method, IWDFIoRequest2::Requeue, Requeue method, Requeue method, IWDFIoRequest2 interface, Requeue,IWDFIoRequest2.Requeue, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, umdf.iwdfiorequest2_requeue, wdf.iwdfiorequest2_requeue, wudfddi/IWDFIoRequest2::Requeue
+ms.keywords: IWDFIoRequest2 interface,Requeue method, IWDFIoRequest2.Requeue, IWDFIoRequest2::Requeue, Requeue, Requeue method, Requeue method,IWDFIoRequest2 interface, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, umdf.iwdfiorequest2_requeue, wdf.iwdfiorequest2_requeue, wudfddi/IWDFIoRequest2::Requeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::Requeue method
+# IWDFIoRequest2::Requeue
 
 
 ## -description

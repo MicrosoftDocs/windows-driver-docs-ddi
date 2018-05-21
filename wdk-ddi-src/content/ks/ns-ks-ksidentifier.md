@@ -7,7 +7,7 @@ old-location: stream\ksidentifier.htm
 old-project: stream
 ms.assetid: b89977da-d3ac-4f1f-867e-b3b7912b955d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSDEGRADE, *PKSEVENT, *PKSIDENTIFIER, *PKSMETHOD, *PKSPIN_INTERFACE, *PKSPIN_MEDIUM, *PKSPROPERTY, KSDEGRADE, KSEVENT, KSIDENTIFIER, KSIDENTIFIER structure [Streaming Media Devices], KSMETHOD, KSPIN_INTERFACE, KSPIN_MEDIUM, KSPROPERTY, PKSIDENTIFIER, PKSIDENTIFIER structure pointer [Streaming Media Devices], ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, ks/KSIDENTIFIER, ks/PKSIDENTIFIER, stream.ksidentifier"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -353,7 +353,7 @@ Indicates that the specified method is of type KSM_NODE, where the <b>NodeId</b>
 For KSDEGRADE, specifies either the current percentage of degradation, expressed in parts per thousand (where a value of 1000 represents no degradation), or specifies the amount of time in native units as specified by the interface.
 
 
-#### - Alignment
+### -field Alignment
 
 Not used.  A member of an unnamed union used to force proper alignment on the unnamed structure.
 

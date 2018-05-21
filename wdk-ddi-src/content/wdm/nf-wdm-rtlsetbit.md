@@ -7,7 +7,7 @@ old-location: kernel\rtlsetbit.htm
 old-project: kernel
 ms.assetid: 6e78da3d-7a37-41f9-bfa6-db2e83581769
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlSetBit, RtlSetBit routine [Kernel-Mode Driver Architecture], k109_44d68cd0-b91e-4a4e-8f4f-c40e25b768b9.xml, kernel.rtlsetbit, wdm/RtlSetBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlSetBit function

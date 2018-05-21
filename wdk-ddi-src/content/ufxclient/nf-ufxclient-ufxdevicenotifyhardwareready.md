@@ -7,7 +7,7 @@ old-location: buses\ufxdevicenotifyhardwareready.htm
 old-project: usbref
 ms.assetid: B4BE0BDC-C1A3-4230-8F4B-78DE34F5554D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], buses.ufxdevicenotifyhardwareready, ufxclient/UfxDeviceNotifyHardwareReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UfxDeviceNotifyHardwareReady function

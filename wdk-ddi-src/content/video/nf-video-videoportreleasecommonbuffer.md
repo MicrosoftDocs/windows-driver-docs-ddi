@@ -7,7 +7,7 @@ old-location: display\videoportreleasecommonbuffer.htm
 old-project: display
 ms.assetid: b3733de1-63ef-43b8-b669-dbe7e573b499
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortReleaseCommonBuffer, VideoPortReleaseCommonBuffer function [Display Devices], VideoPort_Functions_78edd589-bea5-43e3-8658-8c6c95a1f0f7.xml, display.videoportreleasecommonbuffer, video/VideoPortReleaseCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortReleaseCommonBuffer function

@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.ExtRemoteData
-title: ExtRemoteData::ExtRemoteData method
+title: ExtRemoteData::ExtRemoteData
 author: windows-driver-content
 description: The ExtRemoteData constructor creates a new instance of the ExtRemoteData class.
 old-location: debugger\extremotedata_extremotedata.htm
 old-project: debugger
 ms.assetid: c463169e-5e18-44bb-b954-8a99d24edd0c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_8e376094-9e23-4ea4-81e3-c47e6695a687.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], ExtRemoteData constructor, ExtRemoteData constructor [Windows Debugging], ExtRemoteData constructor [Windows Debugging], ExtRemoteData class, ExtRemoteData,ExtRemoteData.ExtRemoteData, ExtRemoteData::ExtRemoteData, debugger.extremotedata_extremotedata
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_8e376094-9e23-4ea4-81e3-c47e6695a687.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging],ExtRemoteData constructor, ExtRemoteData constructor [Windows Debugging], ExtRemoteData constructor [Windows Debugging],ExtRemoteData class, ExtRemoteData.ExtRemoteData, ExtRemoteData.ExtRemoteData(), ExtRemoteData::ExtRemoteData, debugger.extremotedata_extremotedata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::ExtRemoteData method
+# ExtRemoteData::ExtRemoteData
 
 
 ## -description

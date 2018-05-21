@@ -7,7 +7,7 @@ old-location: display\dxgkarg_commitvidpn.htm
 old-project: display
 ms.assetid: d297d917-fc49-454a-aacd-4db0ac7a09c2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKARG_COMMITVIDPN, DXGKARG_COMMITVIDPN structure [Display Devices], DmStructs_c5fd5803-c93b-4000-94b3-3adcb37dd6c1.xml, _DXGKARG_COMMITVIDPN, d3dkmddi/DXGKARG_COMMITVIDPN, display.dxgkarg_commitvidpn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

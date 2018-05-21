@@ -7,7 +7,7 @@ old-location: kernel\kesetsystemaffinitythread.htm
 old-project: kernel
 ms.assetid: eb66ed06-356d-4550-8ccf-10854e4ca259
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeSetSystemAffinityThread, KeSetSystemAffinityThread routine [Kernel-Mode Driver Architecture], k105_86ff0d26-a53d-4da4-b776-35ed30b950ad.xml, kernel.kesetsystemaffinitythread, wdm/KeSetSystemAffinityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeSetSystemAffinityThread function

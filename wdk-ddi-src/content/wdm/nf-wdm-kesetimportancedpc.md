@@ -7,7 +7,7 @@ old-location: kernel\kesetimportancedpc.htm
 old-project: kernel
 ms.assetid: 0feb053b-6b58-4b26-8549-a6cf3996a3e6
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeSetImportanceDpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, kernel.kesetimportancedpc, wdm/KeSetImportanceDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeSetImportanceDpc function

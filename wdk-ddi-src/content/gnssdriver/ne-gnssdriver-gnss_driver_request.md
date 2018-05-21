@@ -3,12 +3,12 @@ UID: NE:gnssdriver.GNSS_DRIVER_REQUEST
 title: GNSS_DRIVER_REQUEST
 author: windows-driver-content
 description: GNSS_DRIVER_REQUEST enumerates the GNSS driver data request types.
-old-location: sensors\gnss_driver_request.htm
-old-project: sensors
+old-location: gnss\gnss_driver_request.htm
+old-project: gnss
 ms.assetid: 923774E0-4F4E-470A-9793-8AD4261AEB64
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: GNSS_DRIVER_REQUEST, GNSS_DRIVER_REQUEST enumeration [Sensor Devices], SUPL_CONFIG_DATA, gnssdriver/GNSS_DRIVER_REQUEST, gnssdriver/SUPL_CONFIG_DATA, sensors.gnss_driver_request
+ms.date: 2/15/2018
+ms.keywords: GNSS_DRIVER_REQUEST, GNSS_DRIVER_REQUEST enumeration [Sensor Devices], SUPL_CONFIG_DATA, gnss.gnss_driver_request, gnssdriver/GNSS_DRIVER_REQUEST, gnssdriver/SUPL_CONFIG_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

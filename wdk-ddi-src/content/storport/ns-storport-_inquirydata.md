@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: INQUIRYDATA, *PINQUIRYDATA, INQUIRYDATA, *PINQUIRYDATA
-req.product: Windows 10 or later.
+req.typenames: INQUIRYDATA, *PINQUIRYDATA
 ---
 
 # _INQUIRYDATA structure
@@ -117,7 +116,7 @@ Specifies the device type modifier, if any, as defined by SCSI. If no device typ
 Indicates, when <b>TRUE</b>, that the media is removable, and when <b>FALSE</b> that the media is not removable.
 
 
-#### - Versions
+### -field Versions
 
 Indicates the version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
@@ -152,7 +151,7 @@ Indicates, when set to one, that the target device supports the asynchronous eve
 Specifies the length in bytes of the parameters of the command descriptor block (CDB). 
 
 
-#### - Reserved
+### -field Reserved
 
 Reserved. 
 

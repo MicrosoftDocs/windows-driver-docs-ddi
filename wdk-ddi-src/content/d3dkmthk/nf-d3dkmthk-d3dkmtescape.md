@@ -7,7 +7,7 @@ old-location: display\d3dkmtescape.htm
 old-project: display
 ms.assetid: 60b105df-2085-40bc-9d95-0f6b317a565e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTEscape, D3DKMTEscape function [Display Devices], OpenGL_Functions_ad391641-4fb5-425a-839f-7b257f26849a.xml, d3dkmthk/D3DKMTEscape, display.d3dkmtescape
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTEscape function

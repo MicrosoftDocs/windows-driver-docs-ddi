@@ -7,8 +7,8 @@ old-location: kernel\dpwmiexecutemethod.htm
 old-project: kernel
 ms.assetid: 3e671484-8f8d-4ba0-a763-37c3178487ca
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: DpWmiExecuteMethod, DpWmiExecuteMethod callback function [Kernel-Mode Driver Architecture], WMI_EXECUTE_METHOD_CALLBACK, k903_b641484a-8f32-440d-8efc-76293ddeec2c.xml, kernel.dpwmiexecutemethod, wmilib/DpWmiExecuteMethod
+ms.date: 4/30/2018
+ms.keywords: DpWmiExecuteMethod, DpWmiExecuteMethod callback function [Kernel-Mode Driver Architecture], WMI_EXECUTE_METHOD_CALLBACK, WMI_EXECUTE_METHOD_CALLBACK callback, k903_b641484a-8f32-440d-8efc-76293ddeec2c.xml, kernel.dpwmiexecutemethod, wmilib/DpWmiExecuteMethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# WMI_EXECUTE_METHOD_CALLBACK callback
+# WMI_EXECUTE_METHOD_CALLBACK callback function
 
 
 ## -description

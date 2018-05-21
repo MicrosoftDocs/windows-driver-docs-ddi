@@ -7,8 +7,8 @@ old-location: netvista\setnetbufferlistswitchcontext.htm
 old-project: netvista
 ms.assetid: BFA54990-E1BB-4E86-B806-F3021FB0075B
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_SWITCH_SET_NET_BUFFER_LIST_SWITCH_CONTEXT, SetNetBufferListSwitchContext, SetNetBufferListSwitchContext callback function [Network Drivers Starting with Windows Vista], ndis/SetNetBufferListSwitchContext, netvista.setnetbufferlistswitchcontext
+ms.date: 4/25/2018
+ms.keywords: NDIS_SWITCH_SET_NET_BUFFER_LIST_SWITCH_CONTEXT, NDIS_SWITCH_SET_NET_BUFFER_LIST_SWITCH_CONTEXT callback, SetNetBufferListSwitchContext, SetNetBufferListSwitchContext callback function [Network Drivers Starting with Windows Vista], ndis/SetNetBufferListSwitchContext, netvista.setnetbufferlistswitchcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# NDIS_SWITCH_SET_NET_BUFFER_LIST_SWITCH_CONTEXT callback
+# NDIS_SWITCH_SET_NET_BUFFER_LIST_SWITCH_CONTEXT callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsAggregateControl.KsRemoveAggregate
-title: IKsAggregateControl::KsRemoveAggregate method
+title: IKsAggregateControl::KsRemoveAggregate
 author: windows-driver-content
 description: The KsRemoveAggregate method removes a previously added COM server aggregate provider from the list of interface providers for the KS object that exposes the IKsAggregateControl interface.
 old-location: stream\iksaggregatecontrol_ksremoveaggregate.htm
 old-project: stream
 ms.assetid: f625b1ed-ccab-4072-9eb9-c4ebbddb1199
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsAggregateControl, IKsAggregateControl interface [Streaming Media Devices], KsRemoveAggregate method, IKsAggregateControl::KsRemoveAggregate, KsRemoveAggregate method [Streaming Media Devices], KsRemoveAggregate method [Streaming Media Devices], IKsAggregateControl interface, KsRemoveAggregate,IKsAggregateControl.KsRemoveAggregate, ksproxy/IKsAggregateControl::KsRemoveAggregate, ksproxy_8498ef2d-5e1e-4f04-b311-2552bd713032.xml, stream.iksaggregatecontrol_ksremoveaggregate
+ms.date: 4/23/2018
+ms.keywords: IKsAggregateControl interface [Streaming Media Devices],KsRemoveAggregate method, IKsAggregateControl.KsRemoveAggregate, IKsAggregateControl::KsRemoveAggregate, KsRemoveAggregate, KsRemoveAggregate method [Streaming Media Devices], KsRemoveAggregate method [Streaming Media Devices],IKsAggregateControl interface, ksproxy/IKsAggregateControl::KsRemoveAggregate, ksproxy_8498ef2d-5e1e-4f04-b311-2552bd713032.xml, stream.iksaggregatecontrol_ksremoveaggregate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsAggregateControl::KsRemoveAggregate method
+# IKsAggregateControl::KsRemoveAggregate
 
 
 ## -description

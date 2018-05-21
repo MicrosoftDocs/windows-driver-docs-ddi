@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugRegisters2.GetDescriptionWide
-title: IDebugRegisters2::GetDescriptionWide method
+title: IDebugRegisters2::GetDescriptionWide
 author: windows-driver-content
 description: The GetDescriptionWide method returns the description of a register.
 old-location: debugger\getdescriptionwide.htm
 old-project: debugger
 ms.assetid: e599d960-aefb-4b68-8149-7e93150d90d5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetDescriptionWide method [Windows Debugging], GetDescriptionWide method [Windows Debugging], IDebugRegisters2 interface, GetDescriptionWide,IDebugRegisters2.GetDescriptionWide, IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetDescriptionWide method, IDebugRegisters2::GetDescriptionWide, dbgeng/IDebugRegisters2::GetDescriptionWide, debugger.getdescriptionwide
+ms.date: 4/24/2018
+ms.keywords: GetDescriptionWide, GetDescriptionWide method [Windows Debugging], GetDescriptionWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetDescriptionWide method, IDebugRegisters2.GetDescriptionWide, IDebugRegisters2::GetDescriptionWide, dbgeng/IDebugRegisters2::GetDescriptionWide, debugger.getdescriptionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugRegisters2::GetDescriptionWide method
+# IDebugRegisters2::GetDescriptionWide
 
 
 ## -description

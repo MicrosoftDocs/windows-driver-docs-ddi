@@ -7,7 +7,7 @@ old-location: print\expsfontoptions.htm
 old-project: print
 ms.assetid: 3a92b219-91ee-4c11-b5c1-8e2e0cbff406
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: EXpsFontOptions, EXpsFontOptions enumeration [Print Devices], Font_Normal, Font_Obfusticate, __MIDL___MIDL_itf_filterpipeline_0000_0000_0002, filterpipeline/EXpsFontOptions, filterpipeline/Font_Normal, filterpipeline/Font_Obfusticate, filterpipeline_252cd44a-7a00-40fb-9245-364c1453e2ef.xml, print.expsfontoptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= APC_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

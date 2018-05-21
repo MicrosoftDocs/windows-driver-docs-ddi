@@ -7,8 +7,8 @@ old-location: display\setdisplaymode.htm
 old-project: display
 ms.assetid: d0e409fe-1c64-4468-b52e-b0ede39f6601
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_SETDISPLAYMODE, SetDisplayMode, SetDisplayMode callback function [Display Devices], UserModeDisplayDriver_Functions_939f1113-54d3-4e0e-b065-24226d9948c0.xml, d3dumddi/SetDisplayMode, display.setdisplaymode
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_SETDISPLAYMODE, PFND3DDDI_SETDISPLAYMODE callback, SetDisplayMode, SetDisplayMode callback function [Display Devices], UserModeDisplayDriver_Functions_939f1113-54d3-4e0e-b065-24226d9948c0.xml, d3dumddi/SetDisplayMode, display.setdisplaymode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_SETDISPLAYMODE callback
+# PFND3DDDI_SETDISPLAYMODE callback function
 
 
 ## -description

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 8cb19677-11b8-4594-b4dd-ebd00fae07d4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetInjectionCapabilities, GetInjectionCapabilities callback function [WHEA Drivers and Applications], PSHED_PI_GET_INJECTION_CAPABILITIES, ntddk/GetInjectionCapabilities, whea.getinjectioncapabilities, whearef_0c5e00c7-c5d7-4e28-a351-7831d883c70f.xml
+ms.keywords: GetInjectionCapabilities, GetInjectionCapabilities callback function [WHEA Drivers and Applications], PSHED_PI_GET_INJECTION_CAPABILITIES, PSHED_PI_GET_INJECTION_CAPABILITIES callback, ntddk/GetInjectionCapabilities, whea.getinjectioncapabilities, whearef_0c5e00c7-c5d7-4e28-a351-7831d883c70f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
+req.typenames: 
 ---
 
-# PSHED_PI_GET_INJECTION_CAPABILITIES callback
+# PSHED_PI_GET_INJECTION_CAPABILITIES callback function
 
 
 ## -description

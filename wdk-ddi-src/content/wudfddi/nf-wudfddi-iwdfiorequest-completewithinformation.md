@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.CompleteWithInformation
-title: IWDFIoRequest::CompleteWithInformation method
+title: IWDFIoRequest::CompleteWithInformation
 author: windows-driver-content
 description: The CompleteWithInformation method completes a request with the supplied information.
 old-location: wdf\iwdfiorequest_completewithinformation.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 43089473-3255-4016-8d51-f5ad4261bd8d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CompleteWithInformation method, CompleteWithInformation method, IWDFIoRequest interface, CompleteWithInformation,IWDFIoRequest.CompleteWithInformation, IWDFIoRequest, IWDFIoRequest interface, CompleteWithInformation method, IWDFIoRequest::CompleteWithInformation, UMDFRequestObjectRef_c01f0d7b-3b4d-442c-8425-a99c064609ee.xml, umdf.iwdfiorequest_completewithinformation, wdf.iwdfiorequest_completewithinformation, wudfddi/IWDFIoRequest::CompleteWithInformation
+ms.keywords: CompleteWithInformation, CompleteWithInformation method, CompleteWithInformation method,IWDFIoRequest interface, IWDFIoRequest interface,CompleteWithInformation method, IWDFIoRequest.CompleteWithInformation, IWDFIoRequest::CompleteWithInformation, UMDFRequestObjectRef_c01f0d7b-3b4d-442c-8425-a99c064609ee.xml, umdf.iwdfiorequest_completewithinformation, wdf.iwdfiorequest_completewithinformation, wudfddi/IWDFIoRequest::CompleteWithInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::CompleteWithInformation method
+# IWDFIoRequest::CompleteWithInformation
 
 
 ## -description

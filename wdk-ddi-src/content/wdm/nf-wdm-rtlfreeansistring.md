@@ -7,7 +7,7 @@ old-location: kernel\rtlfreeansistring.htm
 old-project: kernel
 ms.assetid: ca46be9e-31f6-4118-8958-4eb2c8450e8c
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlFreeAnsiString, RtlFreeAnsiString routine [Kernel-Mode Driver Architecture], k109_0213924f-caca-4411-b5cc-d93282f01948.xml, kernel.rtlfreeansistring, wdm/RtlFreeAnsiString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlFreeAnsiString function

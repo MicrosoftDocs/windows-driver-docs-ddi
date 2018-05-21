@@ -7,8 +7,8 @@ old-location: netvista\fwps_vswitch_port_event_callback0.htm
 old-project: netvista
 ms.assetid: CE4B14BE-5ECA-4C2F-809C-B0DC27EC2FF2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FWPS_VSWITCH_PORT_EVENT_CALLBACK0, fwpsk/vSwitchPortEventNotifyFn, netvista.fwps_vswitch_port_event_callback0, vSwitchPortEventNotifyFn, vSwitchPortEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
+ms.date: 4/25/2018
+ms.keywords: FWPS_VSWITCH_PORT_EVENT_CALLBACK0, FWPS_VSWITCH_PORT_EVENT_CALLBACK0 callback, fwpsk/vSwitchPortEventNotifyFn, netvista.fwps_vswitch_port_event_callback0, vSwitchPortEventNotifyFn, vSwitchPortEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: 
 ---
 
-# FWPS_VSWITCH_PORT_EVENT_CALLBACK0 callback
+# FWPS_VSWITCH_PORT_EVENT_CALLBACK0 callback function
 
 
 ## -description

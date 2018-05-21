@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFAEntryTags.SetType
-title: IDebugFAEntryTags::SetType method
+title: IDebugFAEntryTags::SetType
 author: windows-driver-content
 description: The SetType method sets the data type that is associated with a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_settype.htm
 old-project: debugger
 ms.assetid: F507864B-B20C-4F71-B068-802780243106
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], SetType method, IDebugFAEntryTags::SetType, SetType method [Windows Debugging], SetType method [Windows Debugging], IDebugFAEntryTags interface, SetType,IDebugFAEntryTags.SetType, debugger.idebugfaentrytags_settype, extsfns/IDebugFAEntryTags::SetType
+ms.date: 4/24/2018
+ms.keywords: IDebugFAEntryTags interface [Windows Debugging],SetType method, IDebugFAEntryTags.SetType, IDebugFAEntryTags::SetType, SetType, SetType method [Windows Debugging], SetType method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_settype, extsfns/IDebugFAEntryTags::SetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFAEntryTags::SetType method
+# IDebugFAEntryTags::SetType
 
 
 ## -description

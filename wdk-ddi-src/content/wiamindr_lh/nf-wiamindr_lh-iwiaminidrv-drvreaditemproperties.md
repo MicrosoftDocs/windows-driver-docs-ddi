@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvReadItemProperties
-title: IWiaMiniDrv::drvReadItemProperties method
+title: IWiaMiniDrv::drvReadItemProperties
 author: windows-driver-content
 description: The IWiaMiniDrv::drvReadItemProperties method reads the driver item properties that need to be updated.
 old-location: image\iwiaminidrv_drvreaditemproperties.htm
 old-project: image
 ms.assetid: 015c2e02-62aa-4037-9974-c8e4b8784fe5
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvReadItemProperties method, IWiaMiniDrv::drvReadItemProperties, MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, drvReadItemProperties method [Imaging Devices], drvReadItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvReadItemProperties,IWiaMiniDrv.drvReadItemProperties, image.iwiaminidrv_drvreaditemproperties, wiamindr_lh/IWiaMiniDrv::drvReadItemProperties
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvReadItemProperties method, IWiaMiniDrv.drvReadItemProperties, IWiaMiniDrv::drvReadItemProperties, MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, drvReadItemProperties, drvReadItemProperties method [Imaging Devices], drvReadItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvreaditemproperties, wiamindr_lh/IWiaMiniDrv::drvReadItemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvReadItemProperties method
+# IWiaMiniDrv::drvReadItemProperties
 
 
 ## -description

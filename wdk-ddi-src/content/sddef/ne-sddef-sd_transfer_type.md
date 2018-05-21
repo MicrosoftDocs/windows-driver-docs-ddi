@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SD_TRANSFER_TYPE
-req.product: Windows 10 or later.
 ---
 
 # SD_TRANSFER_TYPE enumeration

@@ -7,7 +7,7 @@ old-location: kernel\iosetactivityidirp.htm
 old-project: kernel
 ms.assetid: 81D3BE8C-D6E0-47E2-959C-3834988E4C61
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoSetActivityIdIrp, IoSetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidirp, ntddk/IoSetActivityIdIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoSetActivityIdIrp function

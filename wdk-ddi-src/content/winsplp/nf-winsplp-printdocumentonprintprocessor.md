@@ -7,7 +7,7 @@ old-location: print\printdocumentonprintprocessor.htm
 old-project: print
 ms.assetid: 1360a699-e312-40be-bf2f-b73b1419cfc5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: PrintDocumentOnPrintProcessor, PrintDocumentOnPrintProcessor function [Print Devices], print.printdocumentonprintprocessor, spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml, winsplp/PrintDocumentOnPrintProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # PrintDocumentOnPrintProcessor function

@@ -7,7 +7,7 @@ old-location: kernel\exallocatetimer.htm
 old-project: kernel
 ms.assetid: 4FCFC48A-97BC-48E0-BBA7-F9E8B8A7588A
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ExAllocateTimer, ExAllocateTimer routine [Kernel-Mode Driver Architecture], kernel.exallocatetimer, wdm/ExAllocateTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExAllocateTimer function

@@ -7,7 +7,7 @@ old-location: kernel\poclearpowerrequest.htm
 old-project: kernel
 ms.assetid: d3754cca-81a4-42d2-a728-9f7e3270a4ee
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: PoClearPowerRequest, PoClearPowerRequest routine [Kernel-Mode Driver Architecture], kernel.poclearpowerrequest, portn_683a4a08-b6e3-4d6c-adfa-00d075db06f9.xml, wdm/PoClearPowerRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # PoClearPowerRequest function

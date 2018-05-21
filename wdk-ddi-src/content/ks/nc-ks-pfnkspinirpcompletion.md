@@ -7,7 +7,7 @@ old-location: stream\avstrminipinirpcompletion.htm
 old-project: stream
 ms.assetid: 46b29026-b3a9-49cc-8f3d-0318516526d2
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniPinIrpCompletion, AVStrMiniPinIrpCompletion routine [Streaming Media Devices], PFNKSPINIRPCOMPLETION, avstclbk_fabf9c16-a37b-4101-9468-dc247545aea0.xml, ks/AVStrMiniPinIrpCompletion, stream.avstrminipinirpcompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSPINIRPCOMPLETION callback
+# PFNKSPINIRPCOMPLETION callback function
 
 
 ## -description

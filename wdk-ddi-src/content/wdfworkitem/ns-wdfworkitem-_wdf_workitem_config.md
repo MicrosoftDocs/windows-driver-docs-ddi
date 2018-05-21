@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_WORKITEM_CONFIG, *PWDF_WORKITEM_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WDF_WORKITEM_CONFIG structure

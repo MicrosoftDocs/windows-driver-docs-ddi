@@ -7,8 +7,8 @@ old-location: print\ioctl_ioctl_dot4_close_channel.htm
 old-project: print
 ms.assetid: 66832FC2-D958-480F-84FB-B910B760444D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IOCTL_DOT4_CLOSE_CHANNEL, IOCTL_DOT4_CLOSE_CHANNEL control code [Print Devices], d4drvif/IOCTL_DOT4_CLOSE_CHANNEL, print.ioctl_ioctl_dot4_close_channel
+ms.date: 4/20/2018
+ms.keywords: IOCTL_DOT4_CLOSE_CHANNEL, IOCTL_DOT4_CLOSE_CHANNEL control, IOCTL_DOT4_CLOSE_CHANNEL control code [Print Devices], d4drvif/IOCTL_DOT4_CLOSE_CHANNEL, print.ioctl_ioctl_dot4_close_channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
+req.typenames: 
 ---
 
 # IOCTL_DOT4_CLOSE_CHANNEL IOCTL

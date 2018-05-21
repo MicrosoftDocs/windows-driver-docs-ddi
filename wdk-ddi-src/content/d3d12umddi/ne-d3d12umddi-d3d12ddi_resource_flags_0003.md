@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_resource_flags_0003.htm
 old-project: display
 ms.assetid: 595A4177-4A18-48D6-8B5C-D7D2FBD9FE9B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_RESOURCE_FLAGS_0003, D3D12DDI_RESOURCE_FLAGS_0003 enumeration [Display Devices], D3D12DDI_RESOURCE_FLAG_0003_CROSS_ADAPTER, D3D12DDI_RESOURCE_FLAG_0003_DEPTH_STENCIL, D3D12DDI_RESOURCE_FLAG_0003_NONE, D3D12DDI_RESOURCE_FLAG_0003_RENDER_TARGET, D3D12DDI_RESOURCE_FLAG_0003_SHADER_RESOURCE, D3D12DDI_RESOURCE_FLAG_0003_SIMULTANEOUS_ACCESS, D3D12DDI_RESOURCE_FLAG_0020_CONTENT_PROTECTION, D3D12DDI_RESOURCE_FLAG_0020_VIDEO_DECODE_REFERENCE_ONLY, D3D12DDI_RESOURCE_FLAG_0022_UNORDERED_ACCESS, d3d12umddi/D3D12DDI_RESOURCE_FLAGS_0003, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_CROSS_ADAPTER, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_DEPTH_STENCIL, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_NONE, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_RENDER_TARGET, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_SHADER_RESOURCE, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0003_SIMULTANEOUS_ACCESS, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0020_CONTENT_PROTECTION, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0020_VIDEO_DECODE_REFERENCE_ONLY, d3d12umddi/D3D12DDI_RESOURCE_FLAG_0022_UNORDERED_ACCESS, display.d3d12ddi_resource_flags_0003
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -102,3 +102,14 @@ Content protection.
 
 Unordered access. This value is available as a resource flag for the fallback plans.
 
+### -field D3D12DDI_RESOURCE_FLAG_0041_ONLY_NON_RT_DS_TEXTURE_PLACEMENT
+
+Not currently used.
+
+### -field D3D12DDI_RESOURCE_FLAG_0041_ONLY_RT_DS_TEXTURE_PLACEMENT
+
+Not currently used.
+
+### -field D3D12DDI_RESOURCE_FLAG_0041_4MB_ALIGNED
+
+Not currently used.

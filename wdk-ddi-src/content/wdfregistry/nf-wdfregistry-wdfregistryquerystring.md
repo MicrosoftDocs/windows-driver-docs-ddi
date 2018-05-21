@@ -44,8 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRegistryQueryString function
@@ -190,7 +189,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 To obtain a string from a string object, your driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550049">WdfStringGetUnicodeString</a>. 
 
-For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

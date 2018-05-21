@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_property_type.htm
 old-project: netvista
 ms.assetid: c70137b2-1926-4d45-a473-8eb7195ba23d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_TYPE, NDIS_SWITCH_PORT_PROPERTY_TYPE, NDIS_SWITCH_PORT_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortPropertyTypeCustom, NdisSwitchPortPropertyTypeIsolation, NdisSwitchPortPropertyTypeMaximum, NdisSwitchPortPropertyTypeProfile, NdisSwitchPortPropertyTypeRoutingDomain, NdisSwitchPortPropertyTypeSecurity, NdisSwitchPortPropertyTypeUndefined, NdisSwitchPortPropertyTypeVlan, PNDIS_SWITCH_PORT_PROPERTY_TYPE, PNDIS_SWITCH_PORT_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_TYPE, netvista.ndis_switch_port_property_type, ntddndis/NDIS_SWITCH_PORT_PROPERTY_TYPE, ntddndis/NdisSwitchPortPropertyTypeCustom, ntddndis/NdisSwitchPortPropertyTypeIsolation, ntddndis/NdisSwitchPortPropertyTypeMaximum, ntddndis/NdisSwitchPortPropertyTypeProfile, ntddndis/NdisSwitchPortPropertyTypeRoutingDomain, ntddndis/NdisSwitchPortPropertyTypeSecurity, ntddndis/NdisSwitchPortPropertyTypeUndefined, ntddndis/NdisSwitchPortPropertyTypeVlan, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

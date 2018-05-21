@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetCompletionParams
-title: IWDFIoRequest::GetCompletionParams method
+title: IWDFIoRequest::GetCompletionParams
 author: windows-driver-content
 description: The GetCompletionParams method retrieves the parameters object for the completion of an I/O request object.
 old-location: wdf\iwdfiorequest_getcompletionparams.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aaca14ff-9ea2-43f4-bfa9-9151d855c3af
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetCompletionParams method, GetCompletionParams method, IWDFIoRequest interface, GetCompletionParams,IWDFIoRequest.GetCompletionParams, IWDFIoRequest, IWDFIoRequest interface, GetCompletionParams method, IWDFIoRequest::GetCompletionParams, UMDFRequestObjectRef_dbfb5f9c-c1ad-425d-9bcb-627cc961d00d.xml, umdf.iwdfiorequest_getcompletionparams, wdf.iwdfiorequest_getcompletionparams, wudfddi/IWDFIoRequest::GetCompletionParams
+ms.keywords: GetCompletionParams, GetCompletionParams method, GetCompletionParams method,IWDFIoRequest interface, IWDFIoRequest interface,GetCompletionParams method, IWDFIoRequest.GetCompletionParams, IWDFIoRequest::GetCompletionParams, UMDFRequestObjectRef_dbfb5f9c-c1ad-425d-9bcb-627cc961d00d.xml, umdf.iwdfiorequest_getcompletionparams, wdf.iwdfiorequest_getcompletionparams, wudfddi/IWDFIoRequest::GetCompletionParams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::GetCompletionParams method
+# IWDFIoRequest::GetCompletionParams
 
 
 ## -description

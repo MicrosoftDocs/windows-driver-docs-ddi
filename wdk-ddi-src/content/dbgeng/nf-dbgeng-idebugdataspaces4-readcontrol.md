@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadControl
-title: IDebugDataSpaces4::ReadControl method
+title: IDebugDataSpaces4::ReadControl
 author: windows-driver-content
 description: The ReadControl method reads implementation-specific system data.
 old-location: debugger\readcontrol.htm
 old-project: debugger
 ms.assetid: 52f65e2a-97a7-4c1c-a021-208bc2520b7d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces interface [Windows Debugging], ReadControl method, IDebugDataSpaces2 interface [Windows Debugging], ReadControl method, IDebugDataSpaces2::ReadControl, IDebugDataSpaces3 interface [Windows Debugging], ReadControl method, IDebugDataSpaces3::ReadControl, IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadControl method, IDebugDataSpaces4::ReadControl, IDebugDataSpaces::ReadControl, IDebugDataSpaces_bca10b0c-a1bb-49bf-aa76-4e790a907a9f.xml, ReadControl method [Windows Debugging], ReadControl method [Windows Debugging], IDebugDataSpaces interface, ReadControl method [Windows Debugging], IDebugDataSpaces2 interface, ReadControl method [Windows Debugging], IDebugDataSpaces3 interface, ReadControl method [Windows Debugging], IDebugDataSpaces4 interface, ReadControl,IDebugDataSpaces4.ReadControl, dbgeng/IDebugDataSpaces2::ReadControl, dbgeng/IDebugDataSpaces3::ReadControl, dbgeng/IDebugDataSpaces4::ReadControl, dbgeng/IDebugDataSpaces::ReadControl, debugger.readcontrol
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadControl method, IDebugDataSpaces2 interface [Windows Debugging],ReadControl method, IDebugDataSpaces2::ReadControl, IDebugDataSpaces3 interface [Windows Debugging],ReadControl method, IDebugDataSpaces3::ReadControl, IDebugDataSpaces4 interface [Windows Debugging],ReadControl method, IDebugDataSpaces4.ReadControl, IDebugDataSpaces4::ReadControl, IDebugDataSpaces::ReadControl, IDebugDataSpaces_bca10b0c-a1bb-49bf-aa76-4e790a907a9f.xml, ReadControl, ReadControl method [Windows Debugging], ReadControl method [Windows Debugging],IDebugDataSpaces interface, ReadControl method [Windows Debugging],IDebugDataSpaces2 interface, ReadControl method [Windows Debugging],IDebugDataSpaces3 interface, ReadControl method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadControl, dbgeng/IDebugDataSpaces3::ReadControl, dbgeng/IDebugDataSpaces4::ReadControl, dbgeng/IDebugDataSpaces::ReadControl, debugger.readcontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,10 +44,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::ReadControl method
+# IDebugDataSpaces4::ReadControl
 
 
 ## -description

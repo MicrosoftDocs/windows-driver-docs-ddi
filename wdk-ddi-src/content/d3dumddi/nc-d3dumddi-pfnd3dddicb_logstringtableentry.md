@@ -7,8 +7,8 @@ old-location: display\logmarkerstringtableentry.htm
 old-project: display
 ms.assetid: 54D1F822-2D82-498D-A50F-A917FA127496
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: LogMarkerStringTableEntry, LogMarkerStringTableEntry callback function [Display Devices], PFND3DDDICB_LOGSTRINGTABLEENTRY, d3dumddi/LogMarkerStringTableEntry, display.logmarkerstringtableentry
+ms.date: 4/16/2018
+ms.keywords: LogMarkerStringTableEntry, LogMarkerStringTableEntry callback function [Display Devices], PFND3DDDICB_LOGSTRINGTABLEENTRY, PFND3DDDICB_LOGSTRINGTABLEENTRY callback, d3dumddi/LogMarkerStringTableEntry, display.logmarkerstringtableentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDICB_LOGSTRINGTABLEENTRY callback
+# PFND3DDDICB_LOGSTRINGTABLEENTRY callback function
 
 
 ## -description

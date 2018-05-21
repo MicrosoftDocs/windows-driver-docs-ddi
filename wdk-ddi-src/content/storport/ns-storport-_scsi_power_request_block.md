@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK
-req.product: Windows 10 or later.
 ---
 
 # _SCSI_POWER_REQUEST_BLOCK structure

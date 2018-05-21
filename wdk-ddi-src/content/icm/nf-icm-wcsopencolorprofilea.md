@@ -7,42 +7,42 @@ old-location: print\wcsopencolorprofile.htm
 old-project: print
 ms.assetid: ecc573e6-c83c-4cf2-9dad-c3c75d9578eb
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileA, WcsOpenColorProfileW, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, icm/WcsOpenColorProfile, print.wcsopencolorprofile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: icm.h
-req.include-header: 
+req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt: Included in Windows Vista and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Mscms.lib
-req.dll: 
-req.irql: 
+req.dll:
+req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+-   APIRef
+-   kbSyntax
 api_type:
--	LibDef
+-   LibDef
 api_location:
--	Mscms.lib
--	Mscms.dll
+-   Mscms.lib
+-   Mscms.dll
 api_name:
--	WcsOpenColorProfile
+-   WcsOpenColorProfile
 product:
 - Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
 # WcsOpenColorProfileA function
@@ -61,7 +61,7 @@ The <code>WcsOpenColorProfile</code> function creates a handle to a specified co
 
 ### -param pCDMPProfile
 
-TBD
+
 
 
 ### -param pCAMPProfile [in, optional]
@@ -76,7 +76,7 @@ A pointer to a profile structure that specifies a WCS gamut map model profile (G
 
 ### -param dwDesireAccess
 
-TBD
+
 
 
 ### -param dwShareMode [in]
@@ -149,7 +149,7 @@ A flag value that specifies whether to use the embedded WCS profile. This parame
 <td>Specifies that the ICC profile specified by pCDMPProfile will be used and the embedded WCS profile will be ignored.</td>
 </tr>
 </table>
-Â 
+Â
 
 
 #### - dwDesiredAccess [in]
@@ -203,7 +203,7 @@ Use the <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfi
 
 
 <a href="http://go.microsoft.com/fwlink/p/?linkid=52323">CloseColorProfile</a>
-Â 
+Â
 
-Â 
+Â
 

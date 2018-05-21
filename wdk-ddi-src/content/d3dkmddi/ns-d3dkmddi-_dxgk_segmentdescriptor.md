@@ -7,7 +7,7 @@ old-location: display\dxgk_segmentdescriptor.htm
 old-project: display
 ms.assetid: d9d79c58-6ef6-4917-b499-fd5a70dc8829
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_SEGMENTDESCRIPTOR, DXGK_SEGMENTDESCRIPTOR structure [Display Devices], DmStructs_129432bb-660c-4779-9860-dcc97f3a6ee4.xml, _DXGK_SEGMENTDESCRIPTOR, d3dkmddi/DXGK_SEGMENTDESCRIPTOR, display.dxgk_segmentdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

@@ -7,7 +7,7 @@ old-location: netvista\ndisinitializereadwritelock.htm
 old-project: netvista
 ms.assetid: 458d8a08-7212-4888-9bb3-07a470541c8d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisInitializeReadWriteLock, NdisInitializeReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeReadWriteLock, ndis_read_write_lock_ref_a74c25e4-58af-4fb0-9c5a-0fc29bad9aa7.xml, netvista.ndisinitializereadwritelock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisInitializeReadWriteLock function

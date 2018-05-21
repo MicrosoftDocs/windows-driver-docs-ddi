@@ -7,8 +7,8 @@ old-location: display\pfnofferallocationscb.htm
 old-project: display
 ms.assetid: D711C545-BDEE-4EE5-B80A-75F01FAA0C33
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_OFFERALLOCATIONSCB, d3dumddi/pfnOfferAllocationsCb, display.pfnofferallocationscb, pfnOfferAllocationsCb, pfnOfferAllocationsCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_OFFERALLOCATIONSCB, d3dumddi/pfnOfferAllocationsCb, display.pfnofferallocationscb, pfnOfferAllocationsCb, pfnOfferAllocationsCb callback, pfnOfferAllocationsCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_OFFERALLOCATIONSCB callback
+# PFND3DDDI_OFFERALLOCATIONSCB callback function
 
 
 ## -description

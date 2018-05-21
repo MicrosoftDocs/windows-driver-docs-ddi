@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: deadee81-4a6d-4c8b-80fd-46c29becc2cf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, IOCTL_VOLUME_LOGICAL_TO_PHYSICAL control code [Storage Devices], k307_a96f1e34-902f-4d5f-8935-96a963cfa041.xml, ntddvol/IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, storage.ioctl_volume_logical_to_physical
+ms.keywords: IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, IOCTL_VOLUME_LOGICAL_TO_PHYSICAL control, IOCTL_VOLUME_LOGICAL_TO_PHYSICAL control code [Storage Devices], k307_a96f1e34-902f-4d5f-8935-96a963cfa041.xml, ntddvol/IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, storage.ioctl_volume_logical_to_physical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_WIN32K_CALLBACKS_PARAMS, *PVIDEO_WIN32K_CALLBACKS_PARAMS
+req.typenames: 
 ---
 
 # IOCTL_VOLUME_LOGICAL_TO_PHYSICAL IOCTL

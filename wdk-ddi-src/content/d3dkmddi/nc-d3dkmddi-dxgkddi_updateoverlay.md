@@ -7,8 +7,8 @@ old-location: display\dxgkddiupdateoverlay.htm
 old-project: display
 ms.assetid: b131dbb9-1e11-4d04-97cb-e15ec2b025c7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_UPDATEOVERLAY, DmFunctions_cc73fb5c-c4b9-476a-9227-fe2d15e288ea.xml, DxgkDdiUpdateOverlay, DxgkDdiUpdateOverlay callback function [Display Devices], d3dkmddi/DxgkDdiUpdateOverlay, display.dxgkddiupdateoverlay
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_UPDATEOVERLAY, DXGKDDI_UPDATEOVERLAY callback, DmFunctions_cc73fb5c-c4b9-476a-9227-fe2d15e288ea.xml, DxgkDdiUpdateOverlay, DxgkDdiUpdateOverlay callback function [Display Devices], d3dkmddi/DxgkDdiUpdateOverlay, display.dxgkddiupdateoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_UPDATEOVERLAY callback
+# DXGKDDI_UPDATEOVERLAY callback function
 
 
 ## -description

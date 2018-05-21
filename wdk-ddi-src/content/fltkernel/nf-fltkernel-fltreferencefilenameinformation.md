@@ -7,7 +7,7 @@ old-location: ifsk\fltreferencefilenameinformation.htm
 old-project: ifsk
 ms.assetid: d2df37f3-78f7-4e44-9139-2c2e569bb48d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_c6cfa7ad-ac72-45ad-9750-c466dd6ede6e.xml, FltReferenceFileNameInformation, FltReferenceFileNameInformation function [Installable File System Drivers], fltkernel/FltReferenceFileNameInformation, ifsk.fltreferencefilenameinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltReferenceFileNameInformation function

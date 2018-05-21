@@ -7,8 +7,8 @@ old-location: image\iwiasegmentationfilter_interface.htm
 old-project: image
 ms.assetid: 93f2942b-3c01-43e7-9b8a-9542ab7bfd74
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaSegmentationFilter, IWiaSegmentationFilter interface [Imaging Devices], IWiaSegmentationFilter interface [Imaging Devices], described, image.iwiasegmentationfilter_interface, iwiasegmentationfilter_24576c71-3e48-4152-bbd2-d3722d07a283.xml, wia_lh/IWiaSegmentationFilter
+ms.date: 4/23/2018
+ms.keywords: IWiaSegmentationFilter, IWiaSegmentationFilter interface [Imaging Devices], IWiaSegmentationFilter interface [Imaging Devices],described, image.iwiasegmentationfilter_interface, iwiasegmentationfilter_24576c71-3e48-4152-bbd2-d3722d07a283.xml, wia_lh/IWiaSegmentationFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWiaSegmentationFilter interface

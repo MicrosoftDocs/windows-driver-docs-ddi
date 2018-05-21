@@ -7,7 +7,7 @@ old-location: print\routerallocprinternotifyinfo.htm
 old-project: print
 ms.assetid: 319bee1b-c319-4c95-8343-edb9b08e6d6c
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: RouterAllocPrinterNotifyInfo, RouterAllocPrinterNotifyInfo function [Print Devices], print.routerallocprinternotifyinfo, spoolfnc_036587a9-424d-4169-8c90-7de6165a003d.xml, winsplp/RouterAllocPrinterNotifyInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RouterAllocPrinterNotifyInfo function

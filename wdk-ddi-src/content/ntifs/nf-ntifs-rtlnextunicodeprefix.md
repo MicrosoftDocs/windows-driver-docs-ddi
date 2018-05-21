@@ -7,7 +7,7 @@ old-location: ifsk\rtlnextunicodeprefix.htm
 old-project: ifsk
 ms.assetid: c4f43f4c-a598-4bda-9325-21440f56ab17
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlNextUnicodePrefix, RtlNextUnicodePrefix routine [Installable File System Drivers], ifsk.rtlnextunicodeprefix, ntifs/RtlNextUnicodePrefix, rtlref_75c728f8-96b0-4e46-b47a-7d30ac61872c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlNextUnicodePrefix function

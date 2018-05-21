@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetPipe.IsInEndPoint
-title: IWDFUsbTargetPipe::IsInEndPoint method
+title: IWDFUsbTargetPipe::IsInEndPoint
 author: windows-driver-content
 description: The IsInEndPoint method determines whether a USB pipe (endpoint) is an IN pipe.
 old-location: wdf\iwdfusbtargetpipe_isinendpoint.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c1cba1fa-3952-4f2f-829f-2f5983349df8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, IsInEndPoint method, IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint method, IsInEndPoint method, IWDFUsbTargetPipe interface, IsInEndPoint,IWDFUsbTargetPipe.IsInEndPoint, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, umdf.iwdfusbtargetpipe_isinendpoint, wdf.iwdfusbtargetpipe_isinendpoint, wudfusb/IWDFUsbTargetPipe::IsInEndPoint
+ms.keywords: IWDFUsbTargetPipe interface,IsInEndPoint method, IWDFUsbTargetPipe.IsInEndPoint, IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint, IsInEndPoint method, IsInEndPoint method,IWDFUsbTargetPipe interface, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, umdf.iwdfusbtargetpipe_isinendpoint, wdf.iwdfusbtargetpipe_isinendpoint, wudfusb/IWDFUsbTargetPipe::IsInEndPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetPipe::IsInEndPoint method
+# IWDFUsbTargetPipe::IsInEndPoint
 
 
 ## -description

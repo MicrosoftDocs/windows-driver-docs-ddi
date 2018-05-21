@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY
-req.product: Windows 10 or later.
 ---
 
 # _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY enumeration

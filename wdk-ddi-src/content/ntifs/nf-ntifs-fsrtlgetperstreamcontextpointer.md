@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlgetperstreamcontextpointer.htm
 old-project: ifsk
 ms.assetid: f3f9294a-23c0-450a-ae29-22add8176540
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlGetPerStreamContextPointer, FsRtlGetPerStreamContextPointer function [Installable File System Drivers], fsrtlref_c7e152d7-1815-435e-852a-975962e355a6.xml, ifsk.fsrtlgetperstreamcontextpointer, ntifs/FsRtlGetPerStreamContextPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlGetPerStreamContextPointer macro

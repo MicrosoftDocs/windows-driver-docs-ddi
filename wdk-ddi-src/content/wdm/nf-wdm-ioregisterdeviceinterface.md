@@ -7,7 +7,7 @@ old-location: kernel\ioregisterdeviceinterface.htm
 old-project: kernel
 ms.assetid: 4d0782c7-0516-4326-9994-7820446f2af6
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoRegisterDeviceInterface, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, kernel.ioregisterdeviceinterface, wdm/IoRegisterDeviceInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoRegisterDeviceInterface function

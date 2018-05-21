@@ -7,7 +7,7 @@ old-location: ifsk\rtlequalprefixsid.htm
 old-project: ifsk
 ms.assetid: 6db96d3b-721f-40d5-8f8d-54cdd33f85c8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlEqualPrefixSid, RtlEqualPrefixSid routine [Installable File System Drivers], ifsk.rtlequalprefixsid, ntifs/RtlEqualPrefixSid, rtlref_67b0c7e1-647f-426a-8d9d-dde2d98b0cc3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlEqualPrefixSid function

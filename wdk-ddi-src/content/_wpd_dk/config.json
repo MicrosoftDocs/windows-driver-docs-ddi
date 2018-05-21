@@ -1,0 +1,8 @@
+{
+  "tech": "wpd_dk",
+  "headers": [
+    "portabledevice.h",
+    "portabledeviceclassextension.h",
+    "portabledevicetypes.h"
+  ]
+}

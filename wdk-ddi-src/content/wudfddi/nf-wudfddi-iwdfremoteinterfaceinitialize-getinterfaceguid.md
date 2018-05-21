@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteInterfaceInitialize.GetInterfaceGuid
-title: IWDFRemoteInterfaceInitialize::GetInterfaceGuid method
+title: IWDFRemoteInterfaceInitialize::GetInterfaceGuid
 author: windows-driver-content
 description: The GetInterfaceGuid method retrieves the GUID that identifies a device interface.
 old-location: wdf\iwdfremoteinterfaceinitialize_getinterfaceguid.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c68d458-9b34-4e45-993a-67f915347637
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetInterfaceGuid method, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid,IWDFRemoteInterfaceInitialize.GetInterfaceGuid, IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid
+ms.keywords: GetInterfaceGuid, GetInterfaceGuid method, GetInterfaceGuid method,IWDFRemoteInterfaceInitialize interface, IWDFRemoteInterfaceInitialize interface,GetInterfaceGuid method, IWDFRemoteInterfaceInitialize.GetInterfaceGuid, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRemoteInterfaceInitialize::GetInterfaceGuid method
+# IWDFRemoteInterfaceInitialize::GetInterfaceGuid
 
 
 ## -description

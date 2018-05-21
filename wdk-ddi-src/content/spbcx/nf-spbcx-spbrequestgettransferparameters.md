@@ -7,7 +7,7 @@ old-location: spb\spbrequestgettransferparameters.htm
 old-project: SPB
 ms.assetid: 33B0C9EF-B40A-4BE7-A5AB-81FFF4698F3F
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbrequestgettransferparameters, SpbRequestGetTransferParameters, SpbRequestGetTransferParameters method [Buses], spbcx/SpbRequestGetTransferParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpbRequestGetTransferParameters function

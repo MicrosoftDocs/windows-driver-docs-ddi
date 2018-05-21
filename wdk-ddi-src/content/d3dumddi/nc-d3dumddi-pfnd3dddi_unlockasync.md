@@ -7,8 +7,8 @@ old-location: display\unlockasync.htm
 old-project: display
 ms.assetid: 6af04c22-e559-4328-a20a-034b443fddc6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_UNLOCKASYNC, UnlockAsync, UnlockAsync callback function [Display Devices], UserModeDisplayDriver_Functions_f2270e47-4bf2-4486-8e6b-919daabd7c48.xml, d3dumddi/UnlockAsync, display.unlockasync
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_UNLOCKASYNC, PFND3DDDI_UNLOCKASYNC callback, UnlockAsync, UnlockAsync callback function [Display Devices], UserModeDisplayDriver_Functions_f2270e47-4bf2-4486-8e6b-919daabd7c48.xml, d3dumddi/UnlockAsync, display.unlockasync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_UNLOCKASYNC callback
+# PFND3DDDI_UNLOCKASYNC callback function
 
 
 ## -description

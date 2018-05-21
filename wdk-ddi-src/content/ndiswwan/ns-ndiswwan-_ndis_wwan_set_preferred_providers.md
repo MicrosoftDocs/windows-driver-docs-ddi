@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_set_preferred_providers.htm
 old-project: netvista
 ms.assetid: 6741d440-0e17-4b2d-a642-0335d1f936cf
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_SET_PREFERRED_PROVIDERS, NDIS_WWAN_SET_PREFERRED_PROVIDERS, NDIS_WWAN_SET_PREFERRED_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PREFERRED_PROVIDERS, PNDIS_WWAN_SET_PREFERRED_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_9e9b42a9-813f-4440-a112-9af4bc172d4e.xml, _NDIS_WWAN_SET_PREFERRED_PROVIDERS, ndiswwan/NDIS_WWAN_SET_PREFERRED_PROVIDERS, ndiswwan/PNDIS_WWAN_SET_PREFERRED_PROVIDERS, netvista.ndis_wwan_set_preferred_providers"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

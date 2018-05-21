@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,19 +63,19 @@ The WHEA_REVISION union describes the revision of the error record data structur
  
 
 
-### -field AsUSHORT
+### -field DUMMYSTRUCTNAME.MinorRevision
 
-A USHORT representation of the contents of the WHEA_REVISION union.
+The minor revision number.
 
 
-#### - MajorRevision
+### -field DUMMYSTRUCTNAME.MajorRevision
 
 The major revision number.
 
 
-#### - MinorRevision
+### -field AsUSHORT
 
-The minor revision number.
+A USHORT representation of the contents of the WHEA_REVISION union.
 
 
 ## -remarks

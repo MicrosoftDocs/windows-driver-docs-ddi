@@ -7,7 +7,7 @@ old-location: buses\_ucmtcpci_port_controller_displayport_display_out_status.htm
 old-project: usbref
 ms.assetid: c57da7f2-d484-479c-9d8a-626789d8b23e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS enumeration [Buses], UcmTcpciPortControllerDisplayOutStatusOff, UcmTcpciPortControllerDisplayOutStatusOn, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, buses._ucmtcpci_port_controller_displayport_display_out_status, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOff, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS
-req.product: Windows 10 or later.
 ---
 
 # _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS enumeration

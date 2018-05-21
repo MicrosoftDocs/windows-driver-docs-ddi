@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.RetrieveInputBuffer
-title: IWDFIoRequest2::RetrieveInputBuffer method
+title: IWDFIoRequest2::RetrieveInputBuffer
 author: windows-driver-content
 description: The RequestRetrieveInputBuffer method retrieves an I/O request's input buffer.
 old-location: wdf\iwdfiorequest2_retrieveinputbuffer.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f727d9b7-d7ea-4551-bc5a-7829f9807e02
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, RetrieveInputBuffer method, IWDFIoRequest2::RetrieveInputBuffer, RetrieveInputBuffer method, RetrieveInputBuffer method, IWDFIoRequest2 interface, RetrieveInputBuffer,IWDFIoRequest2.RetrieveInputBuffer, UMDFRequestObjectRef_d4e2aa27-329a-4438-8010-579f8a3a3363.xml, umdf.iwdfiorequest2_retrieveinputbuffer, wdf.iwdfiorequest2_retrieveinputbuffer, wudfddi/IWDFIoRequest2::RetrieveInputBuffer
+ms.keywords: IWDFIoRequest2 interface,RetrieveInputBuffer method, IWDFIoRequest2.RetrieveInputBuffer, IWDFIoRequest2::RetrieveInputBuffer, RetrieveInputBuffer, RetrieveInputBuffer method, RetrieveInputBuffer method,IWDFIoRequest2 interface, UMDFRequestObjectRef_d4e2aa27-329a-4438-8010-579f8a3a3363.xml, umdf.iwdfiorequest2_retrieveinputbuffer, wdf.iwdfiorequest2_retrieveinputbuffer, wudfddi/IWDFIoRequest2::RetrieveInputBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::RetrieveInputBuffer method
+# IWDFIoRequest2::RetrieveInputBuffer
 
 
 ## -description

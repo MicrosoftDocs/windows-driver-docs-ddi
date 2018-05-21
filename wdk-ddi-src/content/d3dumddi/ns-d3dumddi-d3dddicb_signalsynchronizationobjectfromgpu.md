@@ -7,7 +7,7 @@ old-location: display\d3dddicb_signalsynchronizationobjectfromgpu.htm
 old-project: display
 ms.assetid: FF098E63-842F-4D88-A184-BE886E0ED507
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, display.d3dddicb_signalsynchronizationobjectfromgpu
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -73,12 +73,12 @@ req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 [in] An array of kernel-mode handles to the synchronization events that the <b>hContext</b> member signals.
 
 
-#### - MonitoredFenceValueArray
+### -field MonitoredFenceValueArray
 
 [in] An array of 64-bit monitored fence values to signal, each of which correspond to a synchronization object in <b>ObjectHandleArray</b>.
 
 
-#### - Reserved
+### -field Reserved
 
 This member is reserved and should be set to zero.
 

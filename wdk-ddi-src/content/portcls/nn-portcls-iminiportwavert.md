@@ -7,8 +7,8 @@ old-location: audio\iminiportwavert.htm
 old-project: audio
 ms.assetid: 5b98802e-c1a8-4613-85fe-f734ecc4670a
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], IMiniportWaveRT interface [Audio Devices], described, audio.iminiportwavert, audmp-routines_8d8d9bf9-09f1-4c1f-9113-c03e506e4edb.xml, portcls/IMiniportWaveRT
+ms.date: 4/16/2018
+ms.keywords: IMiniportWaveRT, IMiniportWaveRT interface [Audio Devices], IMiniportWaveRT interface [Audio Devices],described, audio.iminiportwavert, audmp-routines_8d8d9bf9-09f1-4c1f-9113-c03e506e4edb.xml, portcls/IMiniportWaveRT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IMiniportWaveRT interface

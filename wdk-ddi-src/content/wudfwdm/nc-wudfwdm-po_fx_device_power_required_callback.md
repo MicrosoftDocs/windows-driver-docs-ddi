@@ -7,7 +7,7 @@ old-location: kernel\devicepowerrequiredcallback.htm
 old-project: kernel
 ms.assetid: AC2110EA-A124-4C01-8270-8D6650F80E0A
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: DevicePowerRequiredCallback, DevicePowerRequiredCallback routine [Kernel-Mode Driver Architecture], PO_FX_DEVICE_POWER_REQUIRED_CALLBACK, kernel.devicepowerrequiredcallback, wdm/DevicePowerRequiredCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,30 +41,16 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PO_FX_DEVICE_POWER_REQUIRED_CALLBACK callback
+# PO_FX_DEVICE_POWER_REQUIRED_CALLBACK callback function
 
 
 ## -description
 
 
 The <i>DevicePowerRequiredCallback</i> callback routine notifies the device driver that the device must enter and remain in the D0 power state.
-
-
-## -prototype
-
-
-````
-PO_FX_DEVICE_POWER_REQUIRED_CALLBACK DevicePowerRequiredCallback;
-
-VOID DevicePowerRequiredCallback(
-  _In_ PVOID Context
-)
-{ ... }
-````
 
 
 ## -parameters
@@ -74,7 +60,7 @@ VOID DevicePowerRequiredCallback(
 
 ### -param Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439585">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
 
 ## -returns
@@ -90,13 +76,13 @@ None.
 
 
 
-After PoFx calls the driver's <i>DevicePowerRequiredCallback</i> routine, the driver must initiate a transition to the D0 state by sending a D0 IRP (an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a> request) down the device stack, if the device is not already in the D0 state. After the driver completes (and all lower drivers complete) handling of this request, the driver must call the <a href="..\wdm\nf-wdm-pofxreportdevicepoweredon.md">PoFxReportDevicePoweredOn</a> routine. The <b>PoFxReportDevicePoweredOn</b> call notifies PoFx that the device completed its response to the <i>DevicePowerRequiredCallback</i> call. The driver can call <b>PoFxReportDevicePoweredOn</b> during or after the <i>DevicePowerRequiredCallback</i> call.
+After PoFx calls the driver's <i>DevicePowerRequiredCallback</i> routine, the driver must initiate a transition to the D0 state by sending a D0 IRP (an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a> request) down the device stack, if the device is not already in the D0 state. After the driver completes (and all lower drivers complete) handling of this request, the driver must call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439526">PoFxReportDevicePoweredOn</a> routine. The <b>PoFxReportDevicePoweredOn</b> call notifies PoFx that the device completed its response to the <i>DevicePowerRequiredCallback</i> call. The driver can call <b>PoFxReportDevicePoweredOn</b> during or after the <i>DevicePowerRequiredCallback</i> call.
 
 Each time the <i>DevicePowerRequiredCallback</i> routine is called, the driver must respond by calling <b>PoFxReportDevicePoweredOn</b>. The <b>PoFxReportDevicePoweredOn</b> call can occur either during or after the <i>DevicePowerRequiredCallback</i> call. The driver must call <b>PoFxReportDevicePoweredOn</b> regardless of whether no D0 IRP is required, the D0 IRP request fails, or the dispatched D0 IRP succeeds or fails.
 
 PoFx calls the <i>DevicePowerRequiredCallback</i> routine only if PoFx previously called the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a> routine to notify the driver that the device was not required to stay in the D0 state.
 
-The call to the <i>DevicePowerRequiredCallback</i> routine can occur at any time after the driver calls <a href="..\wdm\nf-wdm-pofxcompletedevicepowernotrequired.md">PoFxCompleteDevicePowerNotRequired</a> to complete a <i>DevicePowerNotRequiredCallback</i> callback. The <i>DevicePowerRequiredCallback</i> call does not necessarily occur as a result of an action taken by the driver, such as requesting that a component change to the active condition.
+The call to the <i>DevicePowerRequiredCallback</i> routine can occur at any time after the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh406654">PoFxCompleteDevicePowerNotRequired</a> to complete a <i>DevicePowerNotRequiredCallback</i> callback. The <i>DevicePowerRequiredCallback</i> call does not necessarily occur as a result of an action taken by the driver, such as requesting that a component change to the active condition.
 
 
 #### Examples
@@ -142,15 +128,6 @@ The PO_FX_DEVICE_POWER_REQUIRED_CALLBACK function type is defined in the Wdm.h h
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxcompletedevicepowernotrequired.md">PoFxCompleteDevicePowerNotRequired</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 
@@ -158,10 +135,19 @@ The PO_FX_DEVICE_POWER_REQUIRED_CALLBACK function type is defined in the Wdm.h h
 
 
 
-<a href="..\wdm\nf-wdm-pofxreportdevicepoweredon.md">PoFxReportDevicePoweredOn</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439585">PO_FX_DEVICE</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406654">PoFxCompleteDevicePowerNotRequired</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439526">PoFxReportDevicePoweredOn</a>
  
 
  

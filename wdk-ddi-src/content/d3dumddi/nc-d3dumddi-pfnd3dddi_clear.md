@@ -7,8 +7,8 @@ old-location: display\clear.htm
 old-project: display
 ms.assetid: 1cfb5f5b-8d46-4a38-8f16-b1cecaac948a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Clear, Clear callback function [Display Devices], PFND3DDDI_CLEAR, UserModeDisplayDriver_Functions_fc47f935-b69f-4e51-be36-73f0b89f44cf.xml, d3dumddi/Clear, display.clear
+ms.date: 4/16/2018
+ms.keywords: Clear, Clear callback function [Display Devices], PFND3DDDI_CLEAR, PFND3DDDI_CLEAR callback, UserModeDisplayDriver_Functions_fc47f935-b69f-4e51-be36-73f0b89f44cf.xml, d3dumddi/Clear, display.clear
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CLEAR callback
+# PFND3DDDI_CLEAR callback function
 
 
 ## -description

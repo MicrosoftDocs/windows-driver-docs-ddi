@@ -7,8 +7,8 @@ old-location: display\dxgkcbmapcontextallocation.htm
 old-project: display
 ms.assetid: 8EAC322D-B666-428A-99A3-96E489611832
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_MAPCONTEXTALLOCATION, DxgkCbMapContextAllocation, DxgkCbMapContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbMapContextAllocation, display.dxgkcbmapcontextallocation
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_MAPCONTEXTALLOCATION, DXGKCB_MAPCONTEXTALLOCATION callback, DxgkCbMapContextAllocation, DxgkCbMapContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbMapContextAllocation, display.dxgkcbmapcontextallocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKCB_MAPCONTEXTALLOCATION callback
+# DXGKCB_MAPCONTEXTALLOCATION callback function
 
 
 ## -description

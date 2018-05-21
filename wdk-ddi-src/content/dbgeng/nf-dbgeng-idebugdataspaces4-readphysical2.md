@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces4.ReadPhysical2
-title: IDebugDataSpaces4::ReadPhysical2 method
+title: IDebugDataSpaces4::ReadPhysical2
 author: windows-driver-content
 description: The ReadPhysical2 method reads the target's memory from the specified physical address.
 old-location: debugger\readphysical2.htm
 old-project: debugger
 ms.assetid: ad376a6f-b8e3-40ba-9b00-df1410c1293c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], ReadPhysical2 method, IDebugDataSpaces4::ReadPhysical2, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, ReadPhysical2 method [Windows Debugging], ReadPhysical2 method [Windows Debugging], IDebugDataSpaces4 interface, ReadPhysical2,IDebugDataSpaces4.ReadPhysical2, dbgeng/IDebugDataSpaces4::ReadPhysical2, debugger.readphysical2
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadPhysical2 method, IDebugDataSpaces4.ReadPhysical2, IDebugDataSpaces4::ReadPhysical2, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, ReadPhysical2, ReadPhysical2 method [Windows Debugging], ReadPhysical2 method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadPhysical2, debugger.readphysical2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugDataSpaces4::ReadPhysical2 method
+# IDebugDataSpaces4::ReadPhysical2
 
 
 ## -description

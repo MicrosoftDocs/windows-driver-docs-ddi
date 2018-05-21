@@ -7,7 +7,7 @@ old-location: display\d3d11_1ddi_video_decoderr_buffer_desc.htm
 old-project: display
 ms.assetid: aff44ad9-7ade-4b01-8e41-11d686728faa
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC structure [Display Devices], D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC, display.d3d11_1ddi_video_decoderr_buffer_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -17,18 +17,18 @@ req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

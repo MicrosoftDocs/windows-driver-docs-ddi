@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_POFX_COMPONENT_V2, *PSTOR_POFX_COMPONENT_V2
-req.product: Windows 10 or later.
 ---
 
 # _STOR_POFX_COMPONENT_V2 structure

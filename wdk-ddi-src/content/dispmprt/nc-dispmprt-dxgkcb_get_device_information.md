@@ -7,8 +7,8 @@ old-location: display\dxgkcbgetdeviceinformation.htm
 old-project: display
 ms.assetid: cb627eab-93b9-49c5-bd35-4a57220366e7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_GET_DEVICE_INFORMATION, DpFunctions_e2d65bd6-c28f-46db-acf1-b88ececedb08.xml, DxgkCbGetDeviceInformation, DxgkCbGetDeviceInformation callback function [Display Devices], display.dxgkcbgetdeviceinformation, dispmprt/DxgkCbGetDeviceInformation
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_GET_DEVICE_INFORMATION, DXGKCB_GET_DEVICE_INFORMATION callback, DpFunctions_e2d65bd6-c28f-46db-acf1-b88ececedb08.xml, DxgkCbGetDeviceInformation, DxgkCbGetDeviceInformation callback function [Display Devices], display.dxgkcbgetdeviceinformation, dispmprt/DxgkCbGetDeviceInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKCB_GET_DEVICE_INFORMATION callback
+# DXGKCB_GET_DEVICE_INFORMATION callback function
 
 
 ## -description

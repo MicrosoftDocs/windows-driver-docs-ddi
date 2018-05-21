@@ -7,8 +7,8 @@ old-location: audio\ioctl_bthhfp_speaker_set_volume.htm
 old-project: audio
 ms.assetid: D08D9CEB-8A5C-41E6-AF05-2AE8719DD462
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IOCTL_BTHHFP_SPEAKER_SET_VOLUME, IOCTL_BTHHFP_SPEAKER_SET_VOLUME control code [Audio Devices], audio.ioctl_bthhfp_speaker_set_volume, bthhfpddi/IOCTL_BTHHFP_SPEAKER_SET_VOLUME
+ms.date: 4/16/2018
+ms.keywords: IOCTL_BTHHFP_SPEAKER_SET_VOLUME, IOCTL_BTHHFP_SPEAKER_SET_VOLUME control, IOCTL_BTHHFP_SPEAKER_SET_VOLUME control code [Audio Devices], audio.ioctl_bthhfp_speaker_set_volume, bthhfpddi/IOCTL_BTHHFP_SPEAKER_SET_VOLUME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_VERSION, *PHFP_BYPASS_CODEC_ID_VERSION
+req.typenames: 
 ---
 
 # IOCTL_BTHHFP_SPEAKER_SET_VOLUME IOCTL

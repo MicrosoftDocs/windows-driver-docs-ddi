@@ -7,8 +7,8 @@ old-location: netvista\filternetpnpevent.htm
 old-project: netvista
 ms.assetid: 5c52b2d2-3fba-4d28-8172-7b6854386061
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FILTER_NET_PNP_EVENT, FilterNetPnPEvent, FilterNetPnPEvent callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4d98cb8b-3f25-4e2c-abca-ac9c714f4a1a.xml, ndis/FilterNetPnPEvent, netvista.filternetpnpevent
+ms.date: 4/25/2018
+ms.keywords: FILTER_NET_PNP_EVENT, FILTER_NET_PNP_EVENT callback, FilterNetPnPEvent, FilterNetPnPEvent callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4d98cb8b-3f25-4e2c-abca-ac9c714f4a1a.xml, ndis/FilterNetPnPEvent, netvista.filternetpnpevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_NET_PNP_EVENT callback
+# FILTER_NET_PNP_EVENT callback function
 
 
 ## -description

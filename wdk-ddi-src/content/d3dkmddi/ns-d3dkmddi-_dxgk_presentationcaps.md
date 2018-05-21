@@ -7,7 +7,7 @@ old-location: display\dxgk_presentationcaps.htm
 old-project: display
 ms.assetid: 38de4631-535f-4950-b361-d70f8c638c36
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_PRESENTATIONCAPS, DXGK_PRESENTATIONCAPS structure [Display Devices], DmStructs_67f7af73-6eaa-4ac8-ad04-1633bc1504af.xml, _DXGK_PRESENTATIONCAPS, d3dkmddi/DXGK_PRESENTATIONCAPS, display.dxgk_presentationcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -297,7 +297,7 @@ Setting this member is equivalent to setting the twenty-fifth bit of the 32-bit 
 Supported starting with Windows 8.
 
 
-#### - Value
+### -field Value
 
 A 32-bit value that identifies the driver's presentation capabilities.
 

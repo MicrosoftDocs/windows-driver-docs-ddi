@@ -7,7 +7,7 @@ old-location: kernel\ioallocatemdl.htm
 old-project: kernel
 ms.assetid: c06cb000-837d-4ee9-baa1-0217ad8b14cb
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoAllocateMdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture], k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, kernel.ioallocatemdl, wdm/IoAllocateMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoAllocateMdl function

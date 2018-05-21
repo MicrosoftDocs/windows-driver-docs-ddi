@@ -7,7 +7,7 @@ old-location: stream\kscamera_extendedprop_fieldofview.htm
 old-project: stream
 ms.assetid: CC3FFC63-8404-4EA6-9738-F0A3C52585B8
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, KSCAMERA_EXTENDEDPROP_FIELDOFVIEW structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, ksmedia/PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, stream.kscamera_extendedprop_fieldofview, tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW"
 ms.prod: windows-hardware
 ms.technology: windows-devices

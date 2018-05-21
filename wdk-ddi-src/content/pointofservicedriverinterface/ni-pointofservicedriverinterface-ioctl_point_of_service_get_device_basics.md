@@ -8,7 +8,7 @@ old-project: pos
 ms.assetid: dca09bfc-97cc-43b8-bf57-3d7c2b0321a9
 ms.author: windowsdriverdev
 ms.date: 2/23/2018
-ms.keywords: IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, pos.ioctl_point_of_service_get_device_basics
+ms.keywords: IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS control, IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, pos.ioctl_point_of_service_get_device_basics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PosPropertyId
+req.typenames: 
 ---
 
 # IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS IOCTL

@@ -7,41 +7,41 @@ old-location: print\wcsenumcolorprofiles.htm
 old-project: print
 ms.assetid: 54cb2647-5685-4856-9b70-97733758aac2
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: WcsEnumColorProfiles, WcsEnumColorProfiles function [Print Devices], colorfnc_06eda9f3-b5d8-4d57-b9e4-1a939bc0ea70.xml, icm/WcsEnumColorProfiles, print.wcsenumcolorprofiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: icm.h
-req.include-header: 
+req.include-header:
 req.target-type: Universal
 req.target-min-winverclnt: Included in Windows Vista and later.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Mscms.lib
 req.dll: Mscms.dll
-req.irql: 
+req.irql:
 topic_type:
--	APIRef
--	kbSyntax
+-   APIRef
+-   kbSyntax
 api_type:
--	DllExport
+-   DllExport
 api_location:
--	Mscms.dll
+-   Mscms.dll
 api_name:
--	WcsEnumColorProfiles
+-   WcsEnumColorProfiles
 product:
 - Windows
 targetos: Windows
-req.typenames: WCS_PROFILE_MANAGEMENT_SCOPE
+req.typenames: 
 ---
 
 # WcsEnumColorProfiles function
@@ -60,7 +60,7 @@ The <code>WcsEnumColorProfiles</code> function enumerates all color profiles tha
 
 ### -param scope
 
-TBD
+
 
 
 ### -param pEnumRecord [in]
@@ -113,7 +113,7 @@ This function is executable in Least-Privileged User Account (LUA) context.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563722">WcsEnumColorProfilesSize</a>
-Â 
+Â
 
-Â 
+Â
 

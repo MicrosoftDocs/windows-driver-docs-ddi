@@ -7,7 +7,7 @@ old-location: kernel\file_full_ea_information.htm
 old-project: kernel
 ms.assetid: 1b9bbb6a-2dfb-4f3f-8083-62b51a62dec6
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PFILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_FULL_EA_INFORMATION, PFILE_FULL_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_FULL_EA_INFORMATION, kernel.file_full_ea_information, kstruct_b_3640566d-def9-44eb-a205-a6361d46e246.xml, wdm/FILE_FULL_EA_INFORMATION, wdm/PFILE_FULL_EA_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: FILE_FULL_EA_INFORMATION, *PFILE_FULL_EA_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _FILE_FULL_EA_INFORMATION structure

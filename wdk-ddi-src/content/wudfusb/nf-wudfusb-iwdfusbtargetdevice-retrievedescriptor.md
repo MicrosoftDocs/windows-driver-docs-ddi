@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.RetrieveDescriptor
-title: IWDFUsbTargetDevice::RetrieveDescriptor method
+title: IWDFUsbTargetDevice::RetrieveDescriptor
 author: windows-driver-content
 description: The RetrieveDescriptor method retrieves a USB descriptor, which can describe a device, configuration, or string.
 old-location: wdf\iwdfusbtargetdevice_retrievedescriptor.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c97b399e-fb25-475a-a2a0-0cf4fb24433c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, RetrieveDescriptor method, IWDFUsbTargetDevice::RetrieveDescriptor, RetrieveDescriptor method, RetrieveDescriptor method, IWDFUsbTargetDevice interface, RetrieveDescriptor,IWDFUsbTargetDevice.RetrieveDescriptor, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, umdf.iwdfusbtargetdevice_retrievedescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor
+ms.keywords: IWDFUsbTargetDevice interface,RetrieveDescriptor method, IWDFUsbTargetDevice.RetrieveDescriptor, IWDFUsbTargetDevice::RetrieveDescriptor, RetrieveDescriptor, RetrieveDescriptor method, RetrieveDescriptor method,IWDFUsbTargetDevice interface, UMDFUSBref_8b9eb5fc-8bd6-4eee-9f54-f1e4d37e5b9e.xml, umdf.iwdfusbtargetdevice_retrievedescriptor, wdf.iwdfusbtargetdevice_retrievedescriptor, wudfusb/IWDFUsbTargetDevice::RetrieveDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetDevice::RetrieveDescriptor method
+# IWDFUsbTargetDevice::RetrieveDescriptor
 
 
 ## -description

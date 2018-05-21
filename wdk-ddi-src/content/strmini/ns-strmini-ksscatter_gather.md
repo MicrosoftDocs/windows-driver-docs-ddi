@@ -7,7 +7,7 @@ old-location: stream\ksscatter_gather.htm
 old-project: stream
 ms.assetid: 10AFDC4B-75E5-4E88-A614-60043848C570
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSSCATTER_GATHER, KSSCATTER_GATHER, KSSCATTER_GATHER structure [Streaming Media Devices], PKSSCATTER_GATHER, PKSSCATTER_GATHER structure pointer [Streaming Media Devices], stream.ksscatter_gather, strmini/KSSCATTER_GATHER, strmini/PKSSCATTER_GATHER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: KSSCATTER_GATHER, *PKSSCATTER_GATHER
-req.product: Windows 10 or later.
 ---
 
 # KSSCATTER_GATHER structure

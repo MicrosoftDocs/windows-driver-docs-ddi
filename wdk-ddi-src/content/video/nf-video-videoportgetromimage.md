@@ -7,7 +7,7 @@ old-location: display\videoportgetromimage.htm
 old-project: display
 ms.assetid: e4930661-fb88-458b-9460-129ab057e0f4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortGetRomImage, VideoPortGetRomImage function [Display Devices], VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, display.videoportgetromimage, video/VideoPortGetRomImage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortGetRomImage function

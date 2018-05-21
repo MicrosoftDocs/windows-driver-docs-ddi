@@ -7,7 +7,7 @@ old-location: display\d3dkmt_destroyallocation2.htm
 old-project: display
 ms.assetid: A51C5F98-5979-436A-9E7E-EA54A1469940
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_DESTROYALLOCATION2, D3DKMT_DESTROYALLOCATION2 structure [Display Devices], _D3DKMT_DESTROYALLOCATION2, d3dkmthk/D3DKMT_DESTROYALLOCATION2, display.d3dkmt_destroyallocation2
 ms.prod: windows-hardware
 ms.technology: windows-devices

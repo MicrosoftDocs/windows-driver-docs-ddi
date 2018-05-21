@@ -7,7 +7,7 @@ old-location: print\drvprocs.htm
 old-project: print
 ms.assetid: fcdfb7ba-cbb4-454b-b366-82d0c95b4afd
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PDRVPROCS, DRVPROCS, DRVPROCS structure [Print Devices], PDRVPROCS, PDRVPROCS structure pointer [Print Devices], _DRVPROCS, print.drvprocs, print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, printoem/DRVPROCS, printoem/PDRVPROCS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DRVPROCS, *PDRVPROCS
-req.product: Windows 10 or later.
 ---
 
 # _DRVPROCS structure

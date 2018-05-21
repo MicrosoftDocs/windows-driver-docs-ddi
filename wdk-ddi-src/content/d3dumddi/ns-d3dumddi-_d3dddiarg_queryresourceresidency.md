@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_queryresourceresidency.htm
 old-project: display
 ms.assetid: 14c0cb12-3ed0-4c78-befa-6da9e8cd7dbc
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_QUERYRESOURCERESIDENCY, D3DDDIARG_QUERYRESOURCERESIDENCY structure [Display Devices], UMDisplayDriver_param_Structs_46a460d2-e511-43fd-9906-b9a47762f9a7.xml, _D3DDDIARG_QUERYRESOURCERESIDENCY, d3dumddi/D3DDDIARG_QUERYRESOURCERESIDENCY, display.d3dddiarg_queryresourceresidency
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: image\wias_endorser_value.htm
 old-project: image
 ms.assetid: 54395899-c35d-4251-9e9d-ec2128b28c67
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*PWIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE structure pointer [Imaging Devices], WIAS_ENDORSER_VALUE, WIAS_ENDORSER_VALUE structure [Imaging Devices], _WIAS_ENDORSER_VALUE, image.wias_endorser_value, wiamindr_lh/PWIAS_ENDORSER_VALUE, wiamindr_lh/WIAS_ENDORSER_VALUE, wiastrct_b6e376e1-ecfd-4988-b752-3d81755cf990.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WIAS_ENDORSER_VALUE, *PWIAS_ENDORSER_VALUE
-req.product: Windows 10 or later.
 ---
 
 # _WIAS_ENDORSER_VALUE structure

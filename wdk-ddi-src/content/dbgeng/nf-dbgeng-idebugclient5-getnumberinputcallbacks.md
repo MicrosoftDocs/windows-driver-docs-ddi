@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetNumberInputCallbacks
-title: IDebugClient5::GetNumberInputCallbacks method
+title: IDebugClient5::GetNumberInputCallbacks
 author: windows-driver-content
 description: The GetNumberInputCallbacks method returns the number of input callbacks registered over all clients.
 old-location: debugger\getnumberinputcallbacks.htm
 old-project: debugger
 ms.assetid: 25188616-ac1a-4699-9343-0fa88e27d9b8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetNumberInputCallbacks method [Windows Debugging], GetNumberInputCallbacks method [Windows Debugging], IDebugClient5 interface, GetNumberInputCallbacks,IDebugClient5.GetNumberInputCallbacks, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetNumberInputCallbacks method, IDebugClient5::GetNumberInputCallbacks, IDebugClient_ccf5fe3e-20d9-4415-bcfd-4823960acd05.xml, dbgeng/IDebugClient5::GetNumberInputCallbacks, debugger.getnumberinputcallbacks
+ms.date: 4/24/2018
+ms.keywords: GetNumberInputCallbacks, GetNumberInputCallbacks method [Windows Debugging], GetNumberInputCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetNumberInputCallbacks method, IDebugClient5.GetNumberInputCallbacks, IDebugClient5::GetNumberInputCallbacks, IDebugClient_ccf5fe3e-20d9-4415-bcfd-4823960acd05.xml, dbgeng/IDebugClient5::GetNumberInputCallbacks, debugger.getnumberinputcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::GetNumberInputCallbacks method
+# IDebugClient5::GetNumberInputCallbacks
 
 
 ## -description

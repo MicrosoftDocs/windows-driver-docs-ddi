@@ -7,7 +7,7 @@ old-location: stream\kscreatetopologynode2.htm
 old-project: stream
 ms.assetid: 71a45396-0b23-4a20-a4f4-25355a1f6271
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsCreateTopologyNode2, KsCreateTopologyNode2 function [Streaming Media Devices], ks/KsCreateTopologyNode2, stream.kscreatetopologynode2
 ms.prod: windows-hardware
 ms.technology: windows-devices

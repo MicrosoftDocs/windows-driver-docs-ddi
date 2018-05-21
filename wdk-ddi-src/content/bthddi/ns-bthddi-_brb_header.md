@@ -7,7 +7,7 @@ old-location: bltooth\brb_header.htm
 old-project: bltooth
 ms.assetid: c6da4cc9-294b-4cb7-80c8-8adee8d4c40b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: BRB_HEADER, BRB_HEADER structure [Bluetooth Devices], _BRB_HEADER, bltooth.brb_header, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, bthddi/BRB_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

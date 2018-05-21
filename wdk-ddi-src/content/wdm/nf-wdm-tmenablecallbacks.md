@@ -7,7 +7,7 @@ old-location: kernel\tmenablecallbacks.htm
 old-project: kernel
 ms.assetid: d3f79cda-349a-4a42-a2a9-d9be3a695c1c
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: TmEnableCallbacks, TmEnableCallbacks routine [Kernel-Mode Driver Architecture], kernel.tmenablecallbacks, ktm_ref_0d901be3-7a5f-4296-b0fc-b8bdf84c43ec.xml, wdm/TmEnableCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,8 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # TmEnableCallbacks function

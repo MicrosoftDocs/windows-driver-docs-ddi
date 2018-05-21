@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_usbdevice_get_characteristic.htm
 old-project: usbref
 ms.assetid: EE8568F6-3D88-477E-9F0D-044D014EBCF3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: "*PFN_UCX_USBDEVICE_GET_CHARACTERISTIC, *PFN_UCX_USBDEVICE_GET_CHARACTERISTIC callback function pointer [Buses], EVT_UCX_USBDEVICE_GET_CHARACTERISTIC, EvtUcxDeviceGetCharacteristic, EvtUcxDeviceGetCharacteristic callback function [Buses], buses.evt_ucx_usbdevice_get_characteristic, ucxusbdevice/EvtUcxDeviceGetCharacteristic"
+ms.date: 4/25/2018
+ms.keywords: "*PFN_UCX_USBDEVICE_GET_CHARACTERISTIC, *PFN_UCX_USBDEVICE_GET_CHARACTERISTIC callback function pointer [Buses], EVT_UCX_USBDEVICE_GET_CHARACTERISTIC, EVT_UCX_USBDEVICE_GET_CHARACTERISTIC callback, EvtUcxDeviceGetCharacteristic, EvtUcxDeviceGetCharacteristic callback function [Buses], buses.evt_ucx_usbdevice_get_characteristic, ucxusbdevice/EvtUcxDeviceGetCharacteristic"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_USBDEVICE_GET_CHARACTERISTIC callback
+# EVT_UCX_USBDEVICE_GET_CHARACTERISTIC callback function
 
 
 ## -description

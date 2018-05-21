@@ -7,8 +7,8 @@ old-location: netvista\wskbind.htm
 old-project: netvista
 ms.assetid: 520b02d0-a078-4af9-93a3-4fee5bbfee99
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_BIND, WskBind, WskBind callback function [Network Drivers Starting with Windows Vista], netvista.wskbind, wsk/WskBind, wskref_5d411257-ce57-4331-913a-c195e71a1138.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_BIND, PFN_WSK_BIND callback, WskBind, WskBind callback function [Network Drivers Starting with Windows Vista], netvista.wskbind, wsk/WskBind, wskref_5d411257-ce57-4331-913a-c195e71a1138.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_BIND callback
+# PFN_WSK_BIND callback function
 
 
 ## -description

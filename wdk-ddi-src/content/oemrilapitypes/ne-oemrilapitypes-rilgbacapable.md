@@ -7,7 +7,7 @@ old-location: netvista\rilgbacapable.htm
 old-project: netvista
 ms.assetid: c1acc574-6e9e-40a1-8892-00572fcc545c
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RILGBACAPABLE, RILGBACAPABLE enumeration [Network Drivers Starting with Windows Vista], RIL_GBA_ME_SUPPORTED, RIL_GBA_NOT_SUPPORTED, RIL_GBA_UNKNOWN, RIL_GBA_U_SUPPORTED, netvista.rilgbacapable, oemrilapitypes/RILGBACAPABLE, oemrilapitypes/RIL_GBA_ME_SUPPORTED, oemrilapitypes/RIL_GBA_NOT_SUPPORTED, oemrilapitypes/RIL_GBA_UNKNOWN, oemrilapitypes/RIL_GBA_U_SUPPORTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Ntstrsafe.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

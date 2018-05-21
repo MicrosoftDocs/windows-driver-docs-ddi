@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetFailureCode
-title: IDebugFailureAnalysis2::GetFailureCode method
+title: IDebugFailureAnalysis2::GetFailureCode
 author: windows-driver-content
 description: The GetFailureCode method gets the bug check code or exception code of a DebugFailureAnalysis object.
 old-location: debugger\idebugfailureanalysis2_getfailurecode.htm
 old-project: debugger
 ms.assetid: E407482E-26DD-40C6-9405-DF5CA8996B91
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetFailureCode method [Windows Debugging], GetFailureCode method [Windows Debugging], IDebugFailureAnalysis2 interface, GetFailureCode,IDebugFailureAnalysis2.GetFailureCode, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetFailureCode method, IDebugFailureAnalysis2::GetFailureCode, debugger.idebugfailureanalysis2_getfailurecode, extsfns/IDebugFailureAnalysis2::GetFailureCode
+ms.date: 4/24/2018
+ms.keywords: GetFailureCode, GetFailureCode method [Windows Debugging], GetFailureCode method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureCode method, IDebugFailureAnalysis2.GetFailureCode, IDebugFailureAnalysis2::GetFailureCode, debugger.idebugfailureanalysis2_getfailurecode, extsfns/IDebugFailureAnalysis2::GetFailureCode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::GetFailureCode method
+# IDebugFailureAnalysis2::GetFailureCode
 
 
 ## -description

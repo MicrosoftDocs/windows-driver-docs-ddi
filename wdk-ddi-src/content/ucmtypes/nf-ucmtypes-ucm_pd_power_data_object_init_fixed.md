@@ -7,7 +7,7 @@ old-location: buses\ucm_pd_power_data_object_init_fixed.htm
 old-project: usbref
 ms.assetid: AC51EA77-7F5B-42DE-B366-7BCE46AA5097
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_FIXED, UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function [Buses], buses.ucm_pd_power_data_object_init_fixed, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UCM_TYPEC_PARTNER
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function

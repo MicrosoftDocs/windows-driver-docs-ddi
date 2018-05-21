@@ -7,8 +7,8 @@ old-location: display\setscissorrects.htm
 old-project: display
 ms.assetid: ef61f50b-a82b-43df-865f-2f9d9ca906d4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D10DDI_SETSCISSORRECTS, SetScissorRects, SetScissorRects callback function [Display Devices], UserModeDisplayDriverDx10_Functions_c1eec8b9-134e-4066-9f31-d1693e0c4b66.xml, d3d10umddi/SetScissorRects, display.setscissorrects
+ms.date: 4/16/2018
+ms.keywords: PFND3D10DDI_SETSCISSORRECTS, PFND3D10DDI_SETSCISSORRECTS callback, SetScissorRects, SetScissorRects callback function [Display Devices], UserModeDisplayDriverDx10_Functions_c1eec8b9-134e-4066-9f31-d1693e0c4b66.xml, d3d10umddi/SetScissorRects, display.setscissorrects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_SETSCISSORRECTS callback
+# PFND3D10DDI_SETSCISSORRECTS callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ifsk\rtldescribechunk.htm
 old-project: ifsk
 ms.assetid: a59899e7-baa0-476b-b65e-1d464a14b811
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlDescribeChunk, RtlDescribeChunk function [Installable File System Drivers], ifsk.rtldescribechunk, ntifs/RtlDescribeChunk, rtlref_03ffe48d-5d72-4f8b-ac88-e79909151d2f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlDescribeChunk function

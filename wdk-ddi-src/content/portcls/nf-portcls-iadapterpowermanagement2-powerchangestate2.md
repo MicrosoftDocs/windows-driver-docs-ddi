@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IAdapterPowerManagement2.PowerChangeState2
-title: IAdapterPowerManagement2::PowerChangeState2 method
+title: IAdapterPowerManagement2::PowerChangeState2
 author: windows-driver-content
 description: Portcls calls the IAdapterPowerManagement2::PowerChangeState2 method to request a change to the new power state. This request is passed on to the adapter driver.
 old-location: audio\iadapterpowermanagement2_powerchangestate2.htm
 old-project: audio
 ms.assetid: 72068476-5821-4646-88b3-06f3a1917fca
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IAdapterPowerManagement2, IAdapterPowerManagement2 interface [Audio Devices], PowerChangeState2 method, IAdapterPowerManagement2::PowerChangeState2, PowerChangeState2 method [Audio Devices], PowerChangeState2 method [Audio Devices], IAdapterPowerManagement2 interface, PowerChangeState2,IAdapterPowerManagement2.PowerChangeState2, audio.iadapterpowermanagement2_powerchangestate2, audmp-routines_d145e24a-5ef1-44a3-b51b-9ee2c8a89772.xml, portcls/IAdapterPowerManagement2::PowerChangeState2
+ms.date: 4/16/2018
+ms.keywords: IAdapterPowerManagement2 interface [Audio Devices],PowerChangeState2 method, IAdapterPowerManagement2.PowerChangeState2, IAdapterPowerManagement2::PowerChangeState2, PowerChangeState2, PowerChangeState2 method [Audio Devices], PowerChangeState2 method [Audio Devices],IAdapterPowerManagement2 interface, audio.iadapterpowermanagement2_powerchangestate2, audmp-routines_d145e24a-5ef1-44a3-b51b-9ee2c8a89772.xml, portcls/IAdapterPowerManagement2::PowerChangeState2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IAdapterPowerManagement2::PowerChangeState2 method
+# IAdapterPowerManagement2::PowerChangeState2
 
 
 ## -description

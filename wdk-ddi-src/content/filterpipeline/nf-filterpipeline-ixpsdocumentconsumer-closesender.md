@@ -1,14 +1,14 @@
 ---
 UID: NF:filterpipeline.IXpsDocumentConsumer.CloseSender
-title: IXpsDocumentConsumer::CloseSender method
+title: IXpsDocumentConsumer::CloseSender
 author: windows-driver-content
 description: The CloseSender method tells the Pipeline Manager that the filter is done sending XPS parts.
 old-location: print\ixpsdocumentconsumer_closesender.htm
 old-project: print
 ms.assetid: b9a860b1-d169-44b6-8dbd-0d26b050b7b0
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: CloseSender method [Print Devices], CloseSender method [Print Devices], IXpsDocumentConsumer interface, CloseSender,IXpsDocumentConsumer.CloseSender, IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], CloseSender method, IXpsDocumentConsumer::CloseSender, filterpipeline/IXpsDocumentConsumer::CloseSender, filterpipeline_64223953-a027-45c8-b296-a07ef3340a41.xml, print.ixpsdocumentconsumer_closesender
+ms.date: 4/20/2018
+ms.keywords: CloseSender, CloseSender method [Print Devices], CloseSender method [Print Devices],IXpsDocumentConsumer interface, IXpsDocumentConsumer interface [Print Devices],CloseSender method, IXpsDocumentConsumer.CloseSender, IXpsDocumentConsumer::CloseSender, filterpipeline/IXpsDocumentConsumer::CloseSender, filterpipeline_64223953-a027-45c8-b296-a07ef3340a41.xml, print.ixpsdocumentconsumer_closesender
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
-# IXpsDocumentConsumer::CloseSender method
+# IXpsDocumentConsumer::CloseSender
 
 
 ## -description

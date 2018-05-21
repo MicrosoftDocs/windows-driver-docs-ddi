@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 2b8fb604-944d-40fc-be5b-a287ca7e3ea1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_PMI_GET_CAPABILITIES, IOCTL_PMI_GET_CAPABILITIES control code [Power Metering and Budgeting Devices], PowerMeterRef_4328d6ef-f85e-4375-9505-ff9134969d60.xml, pmi/IOCTL_PMI_GET_CAPABILITIES, powermeter.ioctl_pmi_get_capabilities
+ms.keywords: IOCTL_PMI_GET_CAPABILITIES, IOCTL_PMI_GET_CAPABILITIES control, IOCTL_PMI_GET_CAPABILITIES control code [Power Metering and Budgeting Devices], PowerMeterRef_4328d6ef-f85e-4375-9505-ff9134969d60.xml, pmi/IOCTL_PMI_GET_CAPABILITIES, powermeter.ioctl_pmi_get_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PMI_MEASUREMENT_UNIT
+req.typenames: 
 ---
 
 # IOCTL_PMI_GET_CAPABILITIES IOCTL

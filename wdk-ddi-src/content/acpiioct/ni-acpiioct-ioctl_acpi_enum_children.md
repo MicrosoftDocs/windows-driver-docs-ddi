@@ -8,7 +8,7 @@ old-project: acpi
 ms.assetid: 86d713e0-ec1e-4417-9ff7-8574bd040a6e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_ACPI_ENUM_CHILDREN, IOCTL_ACPI_ENUM_CHILDREN control code [ACPI Devices], acpi-meth-eval-ref_243e3f53-71b8-4090-bcf1-48b0c5634b5e.xml, acpi.ioctl_acpi_enum_children, acpiioct/IOCTL_ACPI_ENUM_CHILDREN
+ms.keywords: IOCTL_ACPI_ENUM_CHILDREN, IOCTL_ACPI_ENUM_CHILDREN control, IOCTL_ACPI_ENUM_CHILDREN control code [ACPI Devices], acpi-meth-eval-ref_243e3f53-71b8-4090-bcf1-48b0c5634b5e.xml, acpi.ioctl_acpi_enum_children, acpiioct/IOCTL_ACPI_ENUM_CHILDREN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
+req.typenames: 
 ---
 
 # IOCTL_ACPI_ENUM_CHILDREN IOCTL

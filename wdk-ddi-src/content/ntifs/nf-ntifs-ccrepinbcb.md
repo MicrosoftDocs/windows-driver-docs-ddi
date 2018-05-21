@@ -7,7 +7,7 @@ old-location: ifsk\ccrepinbcb.htm
 old-project: ifsk
 ms.assetid: 81c2446e-8f11-4146-8da5-17fc451c2729
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CcRepinBcb, CcRepinBcb routine [Installable File System Drivers], ccref_5aacfd67-3d6c-4be6-9bfa-5b85772ce32f.xml, ifsk.ccrepinbcb, ntifs/CcRepinBcb
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcRepinBcb function

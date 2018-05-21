@@ -7,8 +7,8 @@ old-location: netvista\miniportwditxtalqueueinorder.htm
 old-project: netvista
 ms.assetid: E82E19EA-4336-49DE-9CE4-DFBA0A347DFE
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER, MiniportWdiTxTalQueueInOrder, MiniportWdiTxTalQueueInOrder callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalQueueInOrder, netvista.miniportwditxtalqueueinorder
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER, MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER callback, MiniportWdiTxTalQueueInOrder, MiniportWdiTxTalQueueInOrder callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalQueueInOrder, netvista.miniportwditxtalqueueinorder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER callback
+# MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_create_mr.htm
 old-project: netvista
 ms.assetid: AD0F1FA1-0CE5-40BE-86B8-537C9C8C0B8F
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_CREATE_MR, NdkCreateMr, NdkCreateMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateMr, netvista.ndk_fn_create_mr
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CREATE_MR, NDK_FN_CREATE_MR callback, NdkCreateMr, NdkCreateMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateMr, netvista.ndk_fn_create_mr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CREATE_MR callback
+# NDK_FN_CREATE_MR callback function
 
 
 ## -description

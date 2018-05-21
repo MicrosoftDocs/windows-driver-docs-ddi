@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_bufferblt.htm
 old-project: display
 ms.assetid: 1d638aeb-299a-4707-be5d-99291a1605e0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_BUFFERBLT, D3DDDIARG_BUFFERBLT structure [Display Devices], UMDisplayDriver_param_Structs_08885ff3-963c-4067-bddc-696b9cc96e1b.xml, _D3DDDIARG_BUFFERBLT, d3dumddi/D3DDDIARG_BUFFERBLT, display.d3dddiarg_bufferblt
 ms.prod: windows-hardware
 ms.technology: windows-devices

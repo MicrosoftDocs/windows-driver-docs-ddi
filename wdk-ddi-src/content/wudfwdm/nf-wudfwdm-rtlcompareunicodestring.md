@@ -7,7 +7,7 @@ old-location: kernel\rtlcompareunicodestring.htm
 old-project: kernel
 ms.assetid: 82567434-be54-4436-a26e-9a89a532addf
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: RtlCompareUnicodeString, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, kernel.rtlcompareunicodestring, wdm/RtlCompareUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RtlCompareUnicodeString function
@@ -52,18 +51,6 @@ req.product: Windows 10 or later.
 
 
 The <b>RtlCompareUnicodeString</b> routine compares two Unicode strings.
-
-
-## -syntax
-
-
-````
-LONG RtlCompareUnicodeString(
-  _In_ PCUNICODE_STRING String1,
-  _In_ PCUNICODE_STRING String2,
-  _In_ BOOLEAN          CaseInSensitive
-);
-````
 
 
 ## -parameters
@@ -138,14 +125,14 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlcomparestring.md">RtlCompareString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561781">RtlCompareString</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561852">RtlEqualString</a>
  
 
  

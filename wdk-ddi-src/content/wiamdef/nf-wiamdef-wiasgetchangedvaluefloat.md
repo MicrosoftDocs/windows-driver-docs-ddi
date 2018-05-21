@@ -7,7 +7,7 @@ old-location: image\wiasgetchangedvaluefloat.htm
 old-project: image
 ms.assetid: 934ea038-e8fb-446d-8ba8-1cde56d3af87
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiasgetchangedvaluefloat, wiamdef/wiasGetChangedValueFloat, wiasFncs_d7b124d9-d108-4293-946c-a5d6bb43996f.xml, wiasGetChangedValueFloat, wiasGetChangedValueFloat function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasGetChangedValueFloat function

@@ -7,7 +7,7 @@ old-location: image\wiaswritemultiple.htm
 old-project: image
 ms.assetid: 7cd8ebb2-fc5a-49f5-8708-4b562d826278
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiaswritemultiple, wiamdef/wiasWriteMultiple, wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiasWriteMultiple, wiasWriteMultiple function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasWriteMultiple function

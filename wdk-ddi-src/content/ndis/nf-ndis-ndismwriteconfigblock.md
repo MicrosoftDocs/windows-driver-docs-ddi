@@ -7,7 +7,7 @@ old-location: netvista\ndismwriteconfigblock.htm
 old-project: netvista
 ms.assetid: de7f651b-9847-41e9-9f52-71c2365bac44
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMWriteConfigBlock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMWriteConfigBlock, netvista.ndismwriteconfigblock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMWriteConfigBlock function

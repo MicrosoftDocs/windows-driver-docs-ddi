@@ -7,7 +7,7 @@ old-location: display\dxgk_gpummucaps.htm
 old-project: display
 ms.assetid: 999820D0-FDEB-49FD-920A-75FD9886492A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS structure [Display Devices], _DXGK_GPUMMUCAPS, d3dkmddi/DXGK_GPUMMUCAPS, display.dxgk_gpummucaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -116,6 +116,11 @@ When set to 1, the Operating System is able to set the <b>LargePage</b> flag whe
 This member is reserved and should not be used.
 
 
+### -field Value
+
+The value of the structure expressed as an integer.
+
+
 ### -field PageTableUpdateMode
 
 Defines the type of addresses which are used in <a href="https://msdn.microsoft.com/08328e82-d1cc-4c50-bc96-7382232676ab">DxgkDdiUpdatePageTable</a> operations. When <b>DXGK_PAGETABLEUPDATE_GPU_VIRTUAL</b> is set, all paging operation will occur in the virtual address space of the system context. When page directories are located in a local GPU memory segment, the update mode cannot be set to <b>DXGK_PAGETABLEUPDATE_CPU_VIRTUAL</b>.
@@ -141,13 +146,14 @@ When <b>PageTableLevelCount</b> is 2, the root page table is dynamically resizab
 ### -field LegacyBehaviors
 
 
-
-#### SourcePageTableVaInTransfer
+### -field LegacyBehaviors.SourcePageTableVaInTransfer
 
 When set to 1, video memory manager sets <b>SourcePageTable</b> address in <b>TransferVirtual</b> during allocation eviction.
 
 
-#### - Value
+### -field LegacyBehaviors.Reserved
 
-The value of the structure expressed as an integer.
+ 
+
+
 

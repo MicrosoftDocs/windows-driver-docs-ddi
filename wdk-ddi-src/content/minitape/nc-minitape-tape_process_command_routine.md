@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
+req.typenames: 
 ---
 
-# TAPE_PROCESS_COMMAND_ROUTINE callback
+# TAPE_PROCESS_COMMAND_ROUTINE callback function
 
 
 ## -description

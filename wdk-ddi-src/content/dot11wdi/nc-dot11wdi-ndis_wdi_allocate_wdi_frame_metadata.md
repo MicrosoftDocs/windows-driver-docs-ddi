@@ -7,8 +7,8 @@ old-location: netvista\ndiswdiallocatewdiframemetadata.htm
 old-project: netvista
 ms.assetid: 6C565DAF-3363-466F-AC4A-9DB534E581FC
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA, NdisWdiAllocateWiFiFrameMetaData, NdisWdiAllocateWiFiFrameMetaData callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiAllocateWiFiFrameMetaData, netvista.ndiswdiallocatewdiframemetadata
+ms.date: 4/25/2018
+ms.keywords: NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA, NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback, NdisWdiAllocateWiFiFrameMetaData, NdisWdiAllocateWiFiFrameMetaData callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiAllocateWiFiFrameMetaData, netvista.ndiswdiallocatewdiframemetadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback
+# NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback function
 
 
 ## -description

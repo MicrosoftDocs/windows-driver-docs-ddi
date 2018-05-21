@@ -7,7 +7,7 @@ old-location: print\oembitblt.htm
 old-project: print
 ms.assetid: d47e1bdb-2c91-4f73-b742-5312d989781a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMBitBlt, OEMBitBlt function [Print Devices], print.oembitblt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, printoem/OEMBitBlt
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMBitBlt function

@@ -7,7 +7,7 @@ old-location: sensors\sensor_config.htm
 old-project: sensors
 ms.assetid: E21E2FEC-8733-4A8A-A0C4-899F10824F9B
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSENSOR_CONFIG, PSENSOR_CONFIG, PSENSOR_CONFIG structure pointer [Sensor Devices], SENSOR_CONFIG, SENSOR_CONFIG structure [Sensor Devices], _SENSOR_CONFIG, sensors.sensor_config, sensorscx/PSENSOR_CONFIG, sensorscx/SENSOR_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SENSOR_CONFIG, *PSENSOR_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _SENSOR_CONFIG structure

@@ -7,7 +7,7 @@ old-location: hid\hidd_getphysicaldescriptor.htm
 old-project: hid
 ms.assetid: 05f853a9-395a-4b2b-b681-0010dd019bbc
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidD_GetPhysicalDescriptor, HidD_GetPhysicalDescriptor routine [Human Input Devices], hid.hidd_getphysicaldescriptor, hidfunc_e9532fa2-49f8-41ec-9e23-19416b889b47.xml, hidsdi/HidD_GetPhysicalDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
+req.typenames: 
 ---
 
 # HidD_GetPhysicalDescriptor function

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl5.GetStackTraceEx
-title: IDebugControl5::GetStackTraceEx method
+title: IDebugControl5::GetStackTraceEx
 author: windows-driver-content
 description: The GetStackTraceEx method returns the frames at the top of the specified call stack. The GetStackTraceEx method provides inline frame support. For more information about working with inline functions, see Debugging Optimized Code and Inline Functions.
 old-location: debugger\idebugcontrol5_getstacktraceex.htm
 old-project: debugger
 ms.assetid: 6DFCA3CB-D5DE-4EF5-892B-776B932E6CE6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetStackTraceEx method [Windows Debugging], GetStackTraceEx method [Windows Debugging], IDebugControl5 interface, GetStackTraceEx,IDebugControl5.GetStackTraceEx, IDebugControl5, IDebugControl5 interface [Windows Debugging], GetStackTraceEx method, IDebugControl5::GetStackTraceEx, dbgeng/IDebugControl5::GetStackTraceEx, debugger.idebugcontrol5_getstacktraceex
+ms.date: 4/24/2018
+ms.keywords: GetStackTraceEx, GetStackTraceEx method [Windows Debugging], GetStackTraceEx method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetStackTraceEx method, IDebugControl5.GetStackTraceEx, IDebugControl5::GetStackTraceEx, dbgeng/IDebugControl5::GetStackTraceEx, debugger.idebugcontrol5_getstacktraceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl5::GetStackTraceEx method
+# IDebugControl5::GetStackTraceEx
 
 
 ## -description

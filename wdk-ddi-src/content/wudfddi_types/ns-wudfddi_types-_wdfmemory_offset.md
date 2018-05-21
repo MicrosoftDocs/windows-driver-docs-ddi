@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDFMEMORY_OFFSET, *PWDFMEMORY_OFFSET
-req.product: Windows 10 or later.
 ---
 
 # _WDFMEMORY_OFFSET structure

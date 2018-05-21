@@ -7,8 +7,8 @@ old-location: serports\evtsercxtransmitcancel.htm
 old-project: serports
 ms.assetid: 7922A3BD-8829-42A3-9F94-3C26F1262626
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 1/EvtSerCxTransmitCancel, EVT_SERCX_TRANSMIT_CANCEL, EvtSerCxTransmitCancel, EvtSerCxTransmitCancel callback function [Serial Ports], serports.evtsercxtransmitcancel
+ms.date: 4/23/2018
+ms.keywords: 1/EvtSerCxTransmitCancel, EVT_SERCX_TRANSMIT_CANCEL, EVT_SERCX_TRANSMIT_CANCEL callback, EvtSerCxTransmitCancel, EvtSerCxTransmitCancel callback function [Serial Ports], serports.evtsercxtransmitcancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX_TRANSMIT_CANCEL callback
+# EVT_SERCX_TRANSMIT_CANCEL callback function
 
 
 ## -description

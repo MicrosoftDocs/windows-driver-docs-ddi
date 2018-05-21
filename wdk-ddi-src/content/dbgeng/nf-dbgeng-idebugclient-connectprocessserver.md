@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient.ConnectProcessServer
-title: IDebugClient::ConnectProcessServer method
+title: IDebugClient::ConnectProcessServer
 author: windows-driver-content
 description: The ConnectProcessServer methods connect to a process server.
 old-location: debugger\connectprocessserver.htm
 old-project: debugger
 ms.assetid: c5fd12eb-0779-400f-a271-84b7b379529f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ConnectProcessServer method [Windows Debugging], ConnectProcessServer method [Windows Debugging], IDebugClient interface, ConnectProcessServer method [Windows Debugging], IDebugClient2 interface, ConnectProcessServer method [Windows Debugging], IDebugClient3 interface, ConnectProcessServer method [Windows Debugging], IDebugClient4 interface, ConnectProcessServer method [Windows Debugging], IDebugClient5 interface, ConnectProcessServer,IDebugClient.ConnectProcessServer, IDebugClient, IDebugClient interface [Windows Debugging], ConnectProcessServer method, IDebugClient2 interface [Windows Debugging], ConnectProcessServer method, IDebugClient2::ConnectProcessServer, IDebugClient3 interface [Windows Debugging], ConnectProcessServer method, IDebugClient3::ConnectProcessServer, IDebugClient4 interface [Windows Debugging], ConnectProcessServer method, IDebugClient4::ConnectProcessServer, IDebugClient5 interface [Windows Debugging], ConnectProcessServer method, IDebugClient5::ConnectProcessServer, IDebugClient::ConnectProcessServer, IDebugClient_519f5e11-6f3b-4469-8352-e6cd7c1ed384.xml, dbgeng/IDebugClient2::ConnectProcessServer, dbgeng/IDebugClient3::ConnectProcessServer, dbgeng/IDebugClient4::ConnectProcessServer, dbgeng/IDebugClient5::ConnectProcessServer, dbgeng/IDebugClient::ConnectProcessServer, debugger.connectprocessserver
+ms.date: 4/24/2018
+ms.keywords: ConnectProcessServer, ConnectProcessServer method [Windows Debugging], ConnectProcessServer method [Windows Debugging],IDebugClient interface, ConnectProcessServer method [Windows Debugging],IDebugClient2 interface, ConnectProcessServer method [Windows Debugging],IDebugClient3 interface, ConnectProcessServer method [Windows Debugging],IDebugClient4 interface, ConnectProcessServer method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],ConnectProcessServer method, IDebugClient.ConnectProcessServer, IDebugClient2 interface [Windows Debugging],ConnectProcessServer method, IDebugClient2::ConnectProcessServer, IDebugClient3 interface [Windows Debugging],ConnectProcessServer method, IDebugClient3::ConnectProcessServer, IDebugClient4 interface [Windows Debugging],ConnectProcessServer method, IDebugClient4::ConnectProcessServer, IDebugClient5 interface [Windows Debugging],ConnectProcessServer method, IDebugClient5::ConnectProcessServer, IDebugClient::ConnectProcessServer, IDebugClient_519f5e11-6f3b-4469-8352-e6cd7c1ed384.xml, dbgeng/IDebugClient2::ConnectProcessServer, dbgeng/IDebugClient3::ConnectProcessServer, dbgeng/IDebugClient4::ConnectProcessServer, dbgeng/IDebugClient5::ConnectProcessServer, dbgeng/IDebugClient::ConnectProcessServer, debugger.connectprocessserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -45,10 +45,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient::ConnectProcessServer method
+# IDebugClient::ConnectProcessServer
 
 
 ## -description

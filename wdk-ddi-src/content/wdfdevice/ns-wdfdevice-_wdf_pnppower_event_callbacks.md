@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_PNPPOWER_EVENT_CALLBACKS, *PWDF_PNPPOWER_EVENT_CALLBACKS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_PNPPOWER_EVENT_CALLBACKS structure

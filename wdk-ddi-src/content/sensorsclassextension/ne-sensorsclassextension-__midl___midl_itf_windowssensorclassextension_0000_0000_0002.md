@@ -7,7 +7,7 @@ old-location: sensors\sensorconnectiontype.htm
 old-project: sensors
 ms.assetid: 63df4f99-ddc2-4a0b-b19b-63390771d529
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
+ms.date: 4/30/2018
 ms.keywords: SENSOR_CONNECTION_TYPE_PC_ATTACHED, SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SENSOR_CONNECTION_TYPE_PC_INTEGRATED, SensorConnectionType, SensorConnectionType enumeration [Sensor Devices], Sensor_Enums_bca4556b-94f3-4213-9daa-3571f403d556.xml, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002, sensors.sensorconnectiontype, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_ATTACHED, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_EXTERNAL, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsclassextension/SensorConnectionType
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= PASSIVE_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
 ---
 
 # __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002 enumeration

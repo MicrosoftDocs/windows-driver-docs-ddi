@@ -7,8 +7,8 @@ old-location: audio\iportclsetwhelper.htm
 old-project: audio
 ms.assetid: 7BF9E3AB-D508-4FB8-8C47-C0B338933A56
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortClsEtwHelper, IPortClsEtwHelper interface [Audio Devices], IPortClsEtwHelper interface [Audio Devices], described, audio.iportclsetwhelper, portcls/IPortClsEtwHelper
+ms.date: 4/16/2018
+ms.keywords: IPortClsEtwHelper, IPortClsEtwHelper interface [Audio Devices], IPortClsEtwHelper interface [Audio Devices],described, audio.iportclsetwhelper, portcls/IPortClsEtwHelper
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IPortClsEtwHelper interface

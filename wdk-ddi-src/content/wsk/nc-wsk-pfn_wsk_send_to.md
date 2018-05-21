@@ -7,8 +7,8 @@ old-location: netvista\wsksendto.htm
 old-project: netvista
 ms.assetid: 34257ef2-947a-463a-b234-04fbaffa9344
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_SEND_TO, WskSendTo, WskSendTo callback function [Network Drivers Starting with Windows Vista], netvista.wsksendto, wsk/WskSendTo, wskref_9e00d25c-f00b-4656-8e67-37a22bd36a16.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_SEND_TO, PFN_WSK_SEND_TO callback, WskSendTo, WskSendTo callback function [Network Drivers Starting with Windows Vista], netvista.wsksendto, wsk/WskSendTo, wskref_9e00d25c-f00b-4656-8e67-37a22bd36a16.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_SEND_TO callback
+# PFN_WSK_SEND_TO callback function
 
 
 ## -description

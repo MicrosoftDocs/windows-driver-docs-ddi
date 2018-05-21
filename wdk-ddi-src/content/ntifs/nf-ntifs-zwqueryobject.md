@@ -7,7 +7,7 @@ old-location: kernel\zwqueryobject.htm
 old-project: kernel
 ms.assetid: 439658a5-d2db-4a31-a1eb-b8943c40cc96
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: NtQueryObject, ZwQueryObject, ZwQueryObject routine [Kernel-Mode Driver Architecture], k111_54a1efe7-3cf8-46b3-bbb5-9e7520ba459d.xml, kernel.zwqueryobject, ntifs/NtQueryObject, ntifs/ZwQueryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # ZwQueryObject function

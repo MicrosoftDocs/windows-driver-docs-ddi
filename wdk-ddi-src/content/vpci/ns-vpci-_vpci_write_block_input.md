@@ -7,7 +7,7 @@ old-location: kernel\vpci_write_block_input.htm
 old-project: kernel
 ms.assetid: 57519a7c-7710-4482-82f2-32067b1af22f
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], _VPCI_WRITE_BLOCK_INPUT, kernel.vpci_write_block_input, vpci/PVPCI_WRITE_BLOCK_INPUT, vpci/VPCI_WRITE_BLOCK_INPUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
-req.product: Windows 10 or later.
 ---
 
 # _VPCI_WRITE_BLOCK_INPUT structure

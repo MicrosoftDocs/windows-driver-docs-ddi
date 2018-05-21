@@ -7,7 +7,7 @@ old-location: kernel\pep_acpi_resource.htm
 old-project: kernel
 ms.assetid: 534F736D-906C-48B5-9CEE-0E37459DA03F
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_ACPI_RESOURCE, PEP_ACPI_RESOURCE, PEP_ACPI_RESOURCE union [Kernel-Mode Driver Architecture], PPEP_ACPI_RESOURCE, PPEP_ACPI_RESOURCE union pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_RESOURCE, kernel.pep_acpi_resource, pepfx/PEP_ACPI_RESOURCE, pepfx/PPEP_ACPI_RESOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PEP_ACPI_RESOURCE, *PPEP_ACPI_RESOURCE, PEP_ACPI_RESOURCE, *PPEP_ACPI_RESOURCE
+req.typenames: PEP_ACPI_RESOURCE, *PPEP_ACPI_RESOURCE
 ---
 
 # _PEP_ACPI_RESOURCE structure

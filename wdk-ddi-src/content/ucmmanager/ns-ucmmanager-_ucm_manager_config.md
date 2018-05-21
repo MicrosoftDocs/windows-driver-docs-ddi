@@ -7,7 +7,7 @@ old-location: buses\ucm_manager_config.htm
 old-project: usbref
 ms.assetid: 2B9539D7-6125-4912-9572-13FA7CA671D9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG structure pointer [Buses], UCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG structure [Buses], _UCM_MANAGER_CONFIG, buses.ucm_manager_config, ucmmanager/PUCM_MANAGER_CONFIG, ucmmanager/UCM_MANAGER_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _UCM_MANAGER_CONFIG structure

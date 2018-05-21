@@ -7,7 +7,7 @@ old-location: ifsk\rtlcreateacl.htm
 old-project: ifsk
 ms.assetid: d7bf1fa0-81e0-4b44-adcd-d8f629453ac8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlCreateAcl, RtlCreateAcl routine [Installable File System Drivers], ifsk.rtlcreateacl, ntifs/RtlCreateAcl, rtlref_0b8e6b6c-308f-4acd-b109-d6042964ea7f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlCreateAcl function

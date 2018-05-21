@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_ADDRESS, *PSTOR_ADDRESS
-req.product: Windows 10 or later.
 ---
 
 # _STOR_ADDRESS structure

@@ -7,7 +7,7 @@ old-location: kernel\reg_query_value_key_information.htm
 old-project: kernel
 ms.assetid: 235942ee-374e-4071-a761-793a96beab36
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PREG_QUERY_VALUE_KEY_INFORMATION, PREG_QUERY_VALUE_KEY_INFORMATION, PREG_QUERY_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_VALUE_KEY_INFORMATION, REG_QUERY_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_QUERY_VALUE_KEY_INFORMATION, kernel.reg_query_value_key_information, kstruct_d_e4edde7e-2b83-4e18-b652-d29f2a37d921.xml, wdm/PREG_QUERY_VALUE_KEY_INFORMATION, wdm/REG_QUERY_VALUE_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: REG_QUERY_VALUE_KEY_INFORMATION, *PREG_QUERY_VALUE_KEY_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _REG_QUERY_VALUE_KEY_INFORMATION structure

@@ -7,7 +7,7 @@ old-location: kernel\pep_abandon_device.htm
 old-project: kernel
 ms.assetid: 15F54054-F20B-43A6-8BCD-3A1C47433B12
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ABANDON_DEVICE, PPEP_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_ABANDON_DEVICE, kernel.pep_abandon_device, pepfx/PEP_ABANDON_DEVICE, pepfx/PPEP_ABANDON_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PEP_ABANDON_DEVICE, *PPEP_ABANDON_DEVICE, PEP_ABANDON_DEVICE, *PPEP_ABANDON_DEVICE
+req.typenames: PEP_ABANDON_DEVICE, *PPEP_ABANDON_DEVICE
 ---
 
 # _PEP_ABANDON_DEVICE structure

@@ -7,7 +7,7 @@ old-location: print\oemupdateexternalfonts.htm
 old-project: print
 ms.assetid: 04b0a34f-0aec-4f42-8a2e-a29168a699e3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMUpdateExternalFonts, OEMUpdateExternalFonts function [Print Devices], print.oemupdateexternalfonts, print_obsoletefunctions_f42779e4-8a2d-45eb-801c-67e7e69cb96a.xml, printoem/OEMUpdateExternalFonts
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMUpdateExternalFonts function

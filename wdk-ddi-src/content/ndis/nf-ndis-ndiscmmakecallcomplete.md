@@ -7,7 +7,7 @@ old-location: netvista\ndiscmmakecallcomplete.htm
 old-project: netvista
 ms.assetid: e2c1f849-daf0-479c-9f1d-906149ac550e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCmMakeCallComplete, NdisCmMakeCallComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_15c2bbda-e3f5-41dd-96a1-4466852ed244.xml, ndis/NdisCmMakeCallComplete, netvista.ndiscmmakecallcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCmMakeCallComplete function

@@ -7,7 +7,7 @@ old-location: netvista\ril_senduicctoolkitcmdresponse.htm
 old-project: netvista
 ms.assetid: 400e2172-803c-4b6c-a41e-3c322077ffa4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_SendUiccToolkitCmdResponse, RIL_SendUiccToolkitCmdResponse method [Network Drivers Starting with Windows Vista], netvista.ril_senduicctoolkitcmdresponse, rilapi/RIL_SendUiccToolkitCmdResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_SendUiccToolkitCmdResponse function

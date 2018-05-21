@@ -7,7 +7,7 @@ old-location: kernel\privilege_set.htm
 old-project: kernel
 ms.assetid: 4d5c8c4f-78f4-4e98-9e76-a9896b5c9124
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPRIVILEGE_SET, PPRIVILEGE_SET, PPRIVILEGE_SET structure pointer [Kernel-Mode Driver Architecture], PRIVILEGE_SET, PRIVILEGE_SET structure [Kernel-Mode Driver Architecture], _PRIVILEGE_SET, kernel.privilege_set, kstruct_c_c599935e-9092-4ee4-a982-a105835eb6bd.xml, wdm/PNP_BUS_INFORMATION, wdm/PPRIVILEGE_SET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: PRIVILEGE_SET, *PPRIVILEGE_SET
-req.product: Windows 10 or later.
 ---
 
 # _PRIVILEGE_SET structure

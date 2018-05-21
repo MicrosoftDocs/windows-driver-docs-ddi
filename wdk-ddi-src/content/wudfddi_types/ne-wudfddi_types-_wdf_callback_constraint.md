@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_CALLBACK_CONSTRAINT
-req.product: Windows 10 or later.
 ---
 
 # _WDF_CALLBACK_CONSTRAINT enumeration

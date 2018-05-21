@@ -7,8 +7,8 @@ old-location: display\dxgkddiopmgetcertificate.htm
 old-project: display
 ms.assetid: 3c055598-5f07-46e1-830d-1df9a459f742
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE, Dm_Opm_functions_80d478db-b192-4d86-8938-c105bcc8a677.xml, DxgkDdiOPMGetCertificate, DxgkDdiOPMGetCertificate callback function [Display Devices], display.dxgkddiopmgetcertificate, dispmprt/DxgkDdiOPMGetCertificate
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_OPM_GET_CERTIFICATE, DXGKDDI_OPM_GET_CERTIFICATE callback, Dm_Opm_functions_80d478db-b192-4d86-8938-c105bcc8a677.xml, DxgkDdiOPMGetCertificate, DxgkDdiOPMGetCertificate callback function [Display Devices], display.dxgkddiopmgetcertificate, dispmprt/DxgkDdiOPMGetCertificate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_OPM_GET_CERTIFICATE callback
+# DXGKDDI_OPM_GET_CERTIFICATE callback function
 
 
 ## -description

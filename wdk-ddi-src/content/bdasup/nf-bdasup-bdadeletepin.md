@@ -7,7 +7,7 @@ old-location: stream\bdadeletepin.htm
 old-project: stream
 ms.assetid: 32ff70d7-980c-4c80-8ebc-af2121bc64df
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: BdaDeletePin, BdaDeletePin function [Streaming Media Devices], bdaref_36a08eca-6cfb-4647-8252-05b6c8e0b8e1.xml, bdasup/BdaDeletePin, stream.bdadeletepin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
+req.typenames: 
 ---
 
 # BdaDeletePin function

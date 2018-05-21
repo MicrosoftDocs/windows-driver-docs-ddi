@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: BLOCK_DEVICE_RANGE_DESCRIPTOR, *PBLOCK_DEVICE_RANGE_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # BLOCK_DEVICE_RANGE_DESCRIPTOR structure

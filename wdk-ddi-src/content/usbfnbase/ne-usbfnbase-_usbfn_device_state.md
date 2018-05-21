@@ -7,7 +7,7 @@ old-location: buses\usbfn_device_state.htm
 old-project: usbref
 ms.assetid: B367D0F7-5026-4C88-B88A-69068F76B675
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSBFN_DEVICE_STATE, USBFN_DEVICE_STATE, USBFN_DEVICE_STATE enumeration [Buses], UsbfnDeviceStateAddressed, UsbfnDeviceStateAttached, UsbfnDeviceStateConfigured, UsbfnDeviceStateDefault, UsbfnDeviceStateDetached, UsbfnDeviceStateMinimum, UsbfnDeviceStateStateMaximum, UsbfnDeviceStateSuspended, _USBFN_DEVICE_STATE, buses.usbfn_device_state, usbfnbase/USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateAttached, usbfnbase/UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateDefault, usbfnbase/UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateMinimum, usbfnbase/UsbfnDeviceStateStateMaximum, usbfnbase/UsbfnDeviceStateSuspended"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USBFN_DEVICE_STATE, *PUSBFN_DEVICE_STATE
-req.product: Windows 10 or later.
 ---
 
 # _USBFN_DEVICE_STATE enumeration

@@ -7,7 +7,7 @@ old-location: netvista\fwps_callout2.htm
 old-project: netvista
 ms.assetid: 88d5a5ad-b71a-49b3-a1cf-b0dff1a85745
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FWPS_CALLOUT2, FWPS_CALLOUT2 structure [Network Drivers Starting with Windows Vista], FWPS_CALLOUT2_, FWP_CALLOUT_FLAG_ALLOW_L2_BATCH_CLASSIFY, FWP_CALLOUT_FLAG_ALLOW_MID_STREAM_INSPECTION, FWP_CALLOUT_FLAG_ALLOW_OFFLOAD, FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY, FWP_CALLOUT_FLAG_ALLOW_RSC, FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW, FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY, FWP_CALLOUT_FLAG_RESERVED1, fwpsk/FWPS_CALLOUT2, netvista.fwps_callout2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

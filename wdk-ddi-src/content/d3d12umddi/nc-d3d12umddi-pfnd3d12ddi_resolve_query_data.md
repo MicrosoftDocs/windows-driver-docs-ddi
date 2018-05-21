@@ -7,28 +7,28 @@ old-location: display\pfnd3d12ddi_resolve_query_data.htm
 old-project: display
 ms.assetid: 981053FF-9928-442F-B3B3-3B89AC61EEE4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D12DDI_RESOLVE_QUERY_DATA, d3d12umddi/pfnResolveQueryData, display.pfnd3d12ddi_resolve_query_data, pfnResolveQueryData, pfnResolveQueryData callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_RESOLVE_QUERY_DATA, PFND3D12DDI_RESOLVE_QUERY_DATA callback, d3d12umddi/pfnResolveQueryData, display.pfnd3d12ddi_resolve_query_data, pfnResolveQueryData, pfnResolveQueryData callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_RESOLVE_QUERY_DATA callback
+# PFND3D12DDI_RESOLVE_QUERY_DATA callback function
 
 
 ## -description
@@ -60,6 +60,7 @@ The <i>pfnResolveQueryData</i> callback function transforms a previously stored 
 
 ### -param Arg1
 
+A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param Arg2
 

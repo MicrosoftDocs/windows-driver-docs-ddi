@@ -7,7 +7,7 @@ old-location: ifsk\fltoplockfsctrlex.htm
 old-project: ifsk
 ms.assetid: 02adb7a7-0c1d-4dd4-bde2-f2e700a7ee76
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_fbf1fd08-c50d-41f9-8d13-5bd8f1265625.xml, FltOplockFsctrlEx, FltOplockFsctrlEx routine [Installable File System Drivers], fltkernel/FltOplockFsctrlEx, ifsk.fltoplockfsctrlex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltOplockFsctrlEx function

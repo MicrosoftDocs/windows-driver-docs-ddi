@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_USB_CONTROL_SETUP_PACKET, *PWDF_USB_CONTROL_SETUP_PACKET
-req.product: Windows 10 or later.
 ---
 
 # _WDF_USB_CONTROL_SETUP_PACKET structure
@@ -64,44 +63,28 @@ The <b>WDF_USB_CONTROL_SETUP_PACKET</b> structure describes a setup packet for a
 ### -field Packet
 
 
-
-#### bRequest
-
-A request type. Request type constants are defined in <i>Usb100.h</i>. For more information about request types, see the USB specification.
-
-
-
-#### wLength
-
-The number of bytes to transfer, if applicable. For more information about this value, see the USB specification. The framework sets this value.
-
-
 ### -field Packet.bm
 
 
 ### -field Packet.bm.Request
 
 
-
-###### bm.Request.Recipient
+### -field Packet.bm.Request.Recipient
 
 A bit field that is specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552554">WDF_USB_BMREQUEST_RECIPIENT</a>-typed value.
 
 
-
-###### bm.Request.Reserved
+### -field Packet.bm.Request.Reserved
 
 A reserved bit field. Do not use this member.
 
 
-
-###### bm.Request.Type
+### -field Packet.bm.Request.Type
 
 A bit field that is specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552557">WDF_USB_BMREQUEST_TYPE</a>-typed value.
 
 
-
-###### bm.Request.Dir
+### -field Packet.bm.Request.Dir
 
 A bit field that is specified by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552545">WDF_USB_BMREQUEST_DIRECTION</a>-typed value.
 
@@ -111,20 +94,23 @@ A bit field that is specified by a <a href="https://msdn.microsoft.com/library/w
 A byte-sized bitmap that contains the <b>Request.Recipient</b>, <b>Request.Reserved</b>, <b>Request.Type</b>, and <b>Request.Dir</b> bit fields. Use this member as an alternative to specifying the individual bit fields.
 
 
+### -field Packet.bRequest
+
+A request type. Request type constants are defined in <i>Usb100.h</i>. For more information about request types, see the USB specification.
+
+
 ### -field Packet.wValue
 
 
 ### -field Packet.wValue.Bytes
 
 
-
-###### wValue.Bytes.LowByte
+### -field Packet.wValue.Bytes.LowByte
 
 The low byte of a 2-byte, request-specific value. For more information about specifying <b>wValue</b>, see the USB specification.
 
 
-
-###### wValue.Bytes.HiByte
+### -field Packet.wValue.Bytes.HiByte
 
 The high byte of a 2-byte, request-specific value. 
 
@@ -140,14 +126,12 @@ A 2-byte value that contains the <b>Bytes.LowByte</b> and <b>Bytes.HiByte</b> va
 ### -field Packet.wIndex.Bytes
 
 
-
-###### wIndex.Bytes.LowByte
+### -field Packet.wIndex.Bytes.LowByte
 
 The low byte of a 2-byte, request-specific value. For more information about specifying <b>wValue</b>, see the USB specification.
 
 
-
-###### wIndex.Bytes.HiByte
+### -field Packet.wIndex.Bytes.HiByte
 
 The high byte of a 2-byte, request-specific value. 
 
@@ -157,11 +141,15 @@ The high byte of a 2-byte, request-specific value.
 A 2-byte value that contains the <b>Bytes.LowByte</b> and <b>Bytes.HiByte</b> values. Use this member as an alternative to specifying individual low-byte and high-byte values.
 
 
+### -field Packet.wLength
+
+The number of bytes to transfer, if applicable. For more information about this value, see the USB specification. The framework sets this value.
+
+
 ### -field Generic
 
 
-
-#### Bytes
+### -field Generic.Bytes
 
 An 8-byte value that represents the entire setup packet. You can use this member as an alternative to specifying individual structure members.
 

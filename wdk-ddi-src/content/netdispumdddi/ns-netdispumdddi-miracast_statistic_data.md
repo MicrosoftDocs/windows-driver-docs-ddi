@@ -7,7 +7,7 @@ old-location: display\miracast_statistic_data.htm
 old-project: display
 ms.assetid: 94D5C260-4076-4DB7-8ED3-E0549A872FEE
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MIRACAST_STATISTIC_DATA, MIRACAST_STATISTIC_DATA structure [Display Devices], display.miracast_statistic_data, netdispumdddi/MIRACAST_STATISTIC_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices

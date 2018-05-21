@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.ReleaseInterruptLock
-title: IWDFInterrupt::ReleaseInterruptLock method
+title: IWDFInterrupt::ReleaseInterruptLock
 author: windows-driver-content
 description: The ReleaseInterruptLock method ends a code sequence that executes while holding an interrupt object's lock.
 old-location: wdf\iwdfinterrupt_releaseinterruptlock.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55ED21D9-D704-4E38-AFCF-B1D1FDB67DB3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFInterrupt, IWDFInterrupt interface, ReleaseInterruptLock method, IWDFInterrupt::ReleaseInterruptLock, ReleaseInterruptLock method, ReleaseInterruptLock method, IWDFInterrupt interface, ReleaseInterruptLock,IWDFInterrupt.ReleaseInterruptLock, umdf.iwdfinterrupt_releaseinterruptlock, wdf.iwdfinterrupt_releaseinterruptlock, wudfddi/IWDFInterrupt::ReleaseInterruptLock
+ms.keywords: IWDFInterrupt interface,ReleaseInterruptLock method, IWDFInterrupt.ReleaseInterruptLock, IWDFInterrupt::ReleaseInterruptLock, ReleaseInterruptLock, ReleaseInterruptLock method, ReleaseInterruptLock method,IWDFInterrupt interface, umdf.iwdfinterrupt_releaseinterruptlock, wdf.iwdfinterrupt_releaseinterruptlock, wudfddi/IWDFInterrupt::ReleaseInterruptLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFInterrupt::ReleaseInterruptLock method
+# IWDFInterrupt::ReleaseInterruptLock
 
 
 ## -description

@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG
-req.product: Windows 10 or later.
 ---
 
 # _WDF_FILEOBJECT_CONFIG structure

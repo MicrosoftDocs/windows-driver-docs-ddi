@@ -7,7 +7,7 @@ old-location: kernel\device_description.htm
 old-project: kernel
 ms.assetid: 7f0c7d72-9fe6-4cc1-8028-fd64cdee5d85
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION, DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], DEVICE_DESCRIPTION_VERSION, DEVICE_DESCRIPTION_VERSION1, DEVICE_DESCRIPTION_VERSION2, DEVICE_DESCRIPTION_VERSION3, PDEVICE_DESCRIPTION, PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], _DEVICE_DESCRIPTION, kernel.device_description, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, wdm/DEVICE_DESCRIPTION, wdm/PDEVICE_DESCRIPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DEVICE_DESCRIPTION, *PDEVICE_DESCRIPTION
-req.product: Windows 10 or later.
 ---
 
 # _DEVICE_DESCRIPTION structure

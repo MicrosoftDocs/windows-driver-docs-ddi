@@ -7,7 +7,7 @@ old-location: stream\ksfilteracquireprocessingmutex.htm
 old-project: stream
 ms.assetid: d4a2fe1a-9a16-45b8-b061-9d1b1398e801
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFilterAcquireProcessingMutex, KsFilterAcquireProcessingMutex function [Streaming Media Devices], avfunc_9c0c5db4-4bac-45a6-a61f-94bdcce07fd8.xml, ks/KsFilterAcquireProcessingMutex, stream.ksfilteracquireprocessingmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices

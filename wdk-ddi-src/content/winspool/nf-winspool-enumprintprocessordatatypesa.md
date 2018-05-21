@@ -7,7 +7,7 @@ old-location: print\enumprintprocessordatatypes.htm
 old-project: print
 ms.assetid: 018880d0-0b0b-4130-bd8f-93814e40fe1e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: EnumPrintProcessorDatatypes, EnumPrintProcessorDatatypes function [Print Devices], EnumPrintProcessorDatatypesA, print.enumprintprocessordatatypes, spoolfnc_f0686e8e-e1bc-448a-8dd1-eeccfb66dd9e.xml, winspool/EnumPrintProcessorDatatypes
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: BIDI_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # EnumPrintProcessorDatatypesA function

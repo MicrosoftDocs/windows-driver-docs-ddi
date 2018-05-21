@@ -7,7 +7,7 @@ old-location: buses\usb_hub_cap_flags.htm
 old-project: usbref
 ms.assetid: 4f3f01f2-d5ef-4b41-8733-ac44952dc9a9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS, PUSB_HUB_CAP_FLAGS union pointer [Buses], USB_HUB_CAP_FLAGS, USB_HUB_CAP_FLAGS union [Buses], _USB_HUB_CAP_FLAGS, buses.usb_hub_cap_flags, usbioctl/PUSB_HUB_CAP_FLAGS, usbioctl/USB_HUB_CAP_FLAGS, usbstrct_0c0ca119-db83-4486-9b65-f16c70716c14.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USB_HUB_CAP_FLAGS, *PUSB_HUB_CAP_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # _USB_HUB_CAP_FLAGS structure
@@ -64,42 +63,42 @@ The <b>USB_HUB_CAP_FLAGS</b> structure is used to report the capabilities of a h
 A bitmask that represents the hub capabilities.
 
 
-#### - HubIsArmedWakeOnConnect
-
-If <b>TRUE</b>, the hub is armed to wake when a device is connected to the hub.
-
-
-#### - HubIsBusPowered
-
-A boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the hub is bus-powered; <b>FALSE</b>, the hub is self-powered.
-
-
-#### - HubIsHighSpeed
-
-If <b>TRUE</b>, the hub is high speed.
-
-
-#### - HubIsHighSpeedCapable
+### -field HubIsHighSpeedCapable
 
 If <b>TRUE</b>, the hub is high speed-capable. This capability does not necessarily mean that the hub is operating at high speed
 
 
-#### - HubIsMultiTt
+### -field HubIsHighSpeed
 
-If <b>TRUE</b>, the hub is configured to perform multiple transaction translations simultaneously.
+If <b>TRUE</b>, the hub is high speed.
 
 
-#### - HubIsMultiTtCapable
+### -field HubIsMultiTtCapable
 
 If <b>TRUE</b>, the hub is capable of doing multiple transaction translations simultaneously.
 
 
-#### - HubIsRoot
+### -field HubIsMultiTt
+
+If <b>TRUE</b>, the hub is configured to perform multiple transaction translations simultaneously.
+
+
+### -field HubIsRoot
 
 If <b>TRUE</b>, the hub is the root hub.
 
 
-#### - ReservedMBZ
+### -field HubIsArmedWakeOnConnect
+
+If <b>TRUE</b>, the hub is armed to wake when a device is connected to the hub.
+
+
+### -field HubIsBusPowered
+
+A boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the hub is bus-powered; <b>FALSE</b>, the hub is self-powered.
+
+
+### -field ReservedMBZ
 
 Reserved. Do not use.
 

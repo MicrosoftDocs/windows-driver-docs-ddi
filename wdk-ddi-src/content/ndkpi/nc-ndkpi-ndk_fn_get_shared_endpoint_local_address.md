@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_get_shared_endpoint_local_address.htm
 old-project: netvista
 ms.assetid: C7B6B7DC-359D-44C2-8348-EC1EE5965800
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS, NdkGetSharedEndpointLocalAddress, NdkGetSharedEndpointLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetSharedEndpointLocalAddress, netvista.ndk_fn_get_shared_endpoint_local_address
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS, NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS callback, NdkGetSharedEndpointLocalAddress, NdkGetSharedEndpointLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetSharedEndpointLocalAddress, netvista.ndk_fn_get_shared_endpoint_local_address
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS callback
+# NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS callback function
 
 
 ## -description

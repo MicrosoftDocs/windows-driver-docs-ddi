@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfusb.IWDFUsbTargetDevice.GetWinUsbHandle
-title: IWDFUsbTargetDevice::GetWinUsbHandle method
+title: IWDFUsbTargetDevice::GetWinUsbHandle
 author: windows-driver-content
 description: The GetWinUsbHandle method retrieves the WinUsb interface handle that is associated with a I/O target device object.
 old-location: wdf\iwdfusbtargetdevice_getwinusbhandle.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 458cbe27-be75-49f4-9849-969d881e0cd2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetWinUsbHandle method, GetWinUsbHandle method, IWDFUsbTargetDevice interface, GetWinUsbHandle,IWDFUsbTargetDevice.GetWinUsbHandle, IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, GetWinUsbHandle method, IWDFUsbTargetDevice::GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, umdf.iwdfusbtargetdevice_getwinusbhandle, wdf.iwdfusbtargetdevice_getwinusbhandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle
+ms.keywords: GetWinUsbHandle, GetWinUsbHandle method, GetWinUsbHandle method,IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface,GetWinUsbHandle method, IWDFUsbTargetDevice.GetWinUsbHandle, IWDFUsbTargetDevice::GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, umdf.iwdfusbtargetdevice_getwinusbhandle, wdf.iwdfusbtargetdevice_getwinusbhandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUsbTargetDevice::GetWinUsbHandle method
+# IWDFUsbTargetDevice::GetWinUsbHandle
 
 
 ## -description

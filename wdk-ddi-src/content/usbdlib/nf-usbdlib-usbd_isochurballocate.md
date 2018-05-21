@@ -7,7 +7,7 @@ old-location: buses\usbd_isochurballocate.htm
 old-project: usbref
 ms.assetid: 357FB967-C9D8-468C-AA14-4EF071D55D7B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: USBD_IsochUrbAllocate, USBD_IsochUrbAllocate routine [Buses], buses.usbd_isochurballocate, usbdlib/USBD_IsochUrbAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBD_IsochUrbAllocate function

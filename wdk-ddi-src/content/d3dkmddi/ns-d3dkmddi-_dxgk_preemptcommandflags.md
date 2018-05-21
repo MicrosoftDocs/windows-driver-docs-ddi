@@ -7,7 +7,7 @@ old-location: display\dxgk_preemptcommandflags.htm
 old-project: display
 ms.assetid: 24444451-7323-4e1a-9981-cf5caa00c4e3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_PREEMPTCOMMANDFLAGS, DXGK_PREEMPTCOMMANDFLAGS structure [Display Devices], DmStructs_7163ce37-49c8-4b17-aadc-cd36ad5cac9d.xml, _DXGK_PREEMPTCOMMANDFLAGS, d3dkmddi/DXGK_PREEMPTCOMMANDFLAGS, display.dxgk_preemptcommandflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,7 +63,7 @@ The DXGK_PREEMPTCOMMANDFLAGS structure specifies a union that contains either a 
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting all 32 bits (0xFFFFFFFF) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that DXGK_PREEMPTCOMMANDFLAGS contains that can hold a 32-bit value.
 

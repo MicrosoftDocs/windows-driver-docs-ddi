@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.OnSessionActive
-title: ExtExtension::OnSessionActive method
+title: ExtExtension::OnSessionActive
 author: windows-driver-content
 description: The OnSessionActive method is called by the engine to inform the EngExtCpp extension library when the debugging session becomes active.
 old-location: debugger\onsessionactive.htm
 old-project: debugger
 ms.assetid: 356675af-cc2e-4295-bb44-dc0a9377f701
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, ExtExtension, ExtExtension class [Windows Debugging], OnSessionActive method, ExtExtension::OnSessionActive, OnSessionActive method [Windows Debugging], OnSessionActive method [Windows Debugging], ExtExtension class, OnSessionActive,ExtExtension.OnSessionActive, debugger.onsessionactive
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, ExtExtension class [Windows Debugging],OnSessionActive method, ExtExtension.OnSessionActive, ExtExtension::OnSessionActive, OnSessionActive, OnSessionActive method [Windows Debugging], OnSessionActive method [Windows Debugging],ExtExtension class, debugger.onsessionactive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::OnSessionActive method
+# ExtExtension::OnSessionActive
 
 
 ## -description

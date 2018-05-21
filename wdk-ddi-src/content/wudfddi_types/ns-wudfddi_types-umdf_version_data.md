@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UMDF_VERSION_DATA, *PUMDF_VERSION_DATA
-req.product: Windows 10 or later.
 ---
 
 # UMDF_VERSION_DATA structure

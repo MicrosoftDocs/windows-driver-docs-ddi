@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFUnifiedPropertyStore.GetPropertyData
-title: IWDFUnifiedPropertyStore::GetPropertyData method
+title: IWDFUnifiedPropertyStore::GetPropertyData
 author: windows-driver-content
 description: The GetPropertyData method retrieves the current setting for a device property.
 old-location: wdf\iwdfunifiedpropertystore_getpropertydata.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0AAEB2F1-0449-4F0E-807A-1D2420CF6858
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetPropertyData method, GetPropertyData method, IWDFUnifiedPropertyStore interface, GetPropertyData,IWDFUnifiedPropertyStore.GetPropertyData, IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, GetPropertyData method, IWDFUnifiedPropertyStore::GetPropertyData, umdf.iwdfunifiedpropertystore_getpropertydata, wdf.iwdfunifiedpropertystore_getpropertydata, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
+ms.keywords: GetPropertyData, GetPropertyData method, GetPropertyData method,IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface,GetPropertyData method, IWDFUnifiedPropertyStore.GetPropertyData, IWDFUnifiedPropertyStore::GetPropertyData, umdf.iwdfunifiedpropertystore_getpropertydata, wdf.iwdfunifiedpropertystore_getpropertydata, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFUnifiedPropertyStore::GetPropertyData method
+# IWDFUnifiedPropertyStore::GetPropertyData
 
 
 ## -description

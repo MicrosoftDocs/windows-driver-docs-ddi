@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 365e669b-b4a1-432a-ab0c-9292a910256e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFDeviceObjectControllerDevObjRef_d7dab025-aa6d-4f66-a0cb-3784b3bc7b1c.xml, EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION, EvtDeviceShutdownNotification, EvtDeviceShutdownNotification callback function, kmdf.evtdeviceshutdownnotification, wdf.evtdeviceshutdownnotification, wdfcontrol/EvtDeviceShutdownNotification
+ms.keywords: DFDeviceObjectControllerDevObjRef_d7dab025-aa6d-4f66-a0cb-3784b3bc7b1c.xml, EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION, EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION callback, EvtDeviceShutdownNotification, EvtDeviceShutdownNotification callback function, kmdf.evtdeviceshutdownnotification, wdf.evtdeviceshutdownnotification, wdfcontrol/EvtDeviceShutdownNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_TASK_SEND_OPTIONS, *PWDF_TASK_SEND_OPTIONS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION callback
+# EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: print\branchofficejobdataprinted.htm
 old-project: print
 ms.assetid: 77737A33-9592-43A3-B12A-5BFDCA0209BE
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PBranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted structure [Print Devices], PBranchOfficeJobDataPrinted, PBranchOfficeJobDataPrinted structure pointer [Print Devices], print.branchofficejobdataprinted, winsplp/BranchOfficeJobDataPrinted, winsplp/PBranchOfficeJobDataPrinted"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted
-req.product: Windows 10 or later.
 ---
 
 # BranchOfficeJobDataPrinted structure

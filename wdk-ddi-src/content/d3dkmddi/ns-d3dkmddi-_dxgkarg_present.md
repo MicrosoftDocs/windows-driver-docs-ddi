@@ -7,7 +7,7 @@ old-location: display\dxgkarg_present.htm
 old-project: display
 ms.assetid: 1bf91677-fa9e-4738-b8ea-efce90a52859
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*INOUT_PDXGKARG_PRESENT, DXGKARG_PRESENT, DXGKARG_PRESENT structure [Display Devices], DmStructs_cbe9fbba-047c-468e-bb52-0f90c4e2b75c.xml, _DXGKARG_PRESENT, d3dkmddi/DXGKARG_PRESENT, display.dxgkarg_present"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -76,6 +76,20 @@ The DXGKARG_PRESENT structure describes a source-to-primary copy operation.
 ### -field DmaBufferPrivateDataSize
 
 [in] The number of bytes that remain in the private data structure that <b>pDmaBufferPrivateData</b> points to for the current operation.
+
+
+### -field pAllocationInfo
+
+[in] Reserved for system use. The display miniport driver should ignore this member.
+
+This member is available beginning with Windows 7.
+
+
+### -field pPresentMultiPlaneOverlayInfo
+
+[in] A pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh780311">DXGK_PRESENTMULTIPLANEOVERLAYINFO</a> that specifies info on a VidPN input and an overlay plane to display.
+
+Supported starting with Windows 8.
 
 
 ### -field pAllocationList
@@ -179,20 +193,6 @@ If the primary format is palettized RGB, <b>Color</b> contains the palette index
 
 
 ### -field pPrivateDriverData
-
-
-#### - pAllocationInfo
-
-[in] Reserved for system use. The display miniport driver should ignore this member.
-
-This member is available beginning with Windows 7.
-
-
-#### - pPresentMultiPlaneOverlayInfo
-
-[in] A pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh780311">DXGK_PRESENTMULTIPLANEOVERLAYINFO</a> that specifies info on a VidPN input and an overlay plane to display.
-
-Supported starting with Windows 8.
 
 
 ## -remarks

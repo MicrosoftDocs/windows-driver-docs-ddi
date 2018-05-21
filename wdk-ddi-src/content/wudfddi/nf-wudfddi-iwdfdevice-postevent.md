@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.PostEvent
-title: IWDFDevice::PostEvent method
+title: IWDFDevice::PostEvent
 author: windows-driver-content
 description: The PostEvent method asynchronously notifies applications that are waiting for the specified event from a driver.
 old-location: wdf\iwdfdevice_postevent.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3df25c91-d421-48fe-958c-48bce3bc78b8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice, IWDFDevice interface, PostEvent method, IWDFDevice::PostEvent, PostEvent method, PostEvent method, IWDFDevice interface, PostEvent,IWDFDevice.PostEvent, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, umdf.iwdfdevice_postevent, wdf.iwdfdevice_postevent, wudfddi/IWDFDevice::PostEvent
+ms.keywords: IWDFDevice interface,PostEvent method, IWDFDevice.PostEvent, IWDFDevice::PostEvent, PostEvent, PostEvent method, PostEvent method,IWDFDevice interface, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, umdf.iwdfdevice_postevent, wdf.iwdfdevice_postevent, wudfddi/IWDFDevice::PostEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::PostEvent method
+# IWDFDevice::PostEvent
 
 
 ## -description

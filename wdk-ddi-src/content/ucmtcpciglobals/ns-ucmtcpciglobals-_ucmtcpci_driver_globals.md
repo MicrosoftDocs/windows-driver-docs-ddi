@@ -7,7 +7,7 @@ old-location: buses\ucmtcpci_driver_globals.htm
 old-project: usbref
 ms.assetid: 75a0e9ef-0791-4465-b671-36c86dc9116a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS structure [Buses], _UCMTCPCI_DRIVER_GLOBALS, buses.ucmtcpci_driver_globals, ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UCMTCPCI_DRIVER_GLOBALS, *PUCMTCPCI_DRIVER_GLOBALS
-req.product: Windows 10 or later.
 ---
 
 # _UCMTCPCI_DRIVER_GLOBALS structure

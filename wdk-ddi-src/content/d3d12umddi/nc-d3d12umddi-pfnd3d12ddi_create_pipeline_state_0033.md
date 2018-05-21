@@ -7,28 +7,28 @@ old-location: display\pfnd3d12ddi_create_pipeline_state_0033.htm
 old-project: display
 ms.assetid: F8255544-D5B6-4692-BDC0-EF5A2B856153
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D12DDI_CREATE_PIPELINE_STATE_0033, PFND3D12DDI_CREATE_PIPELINE_STATE_0033 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0033, display.pfnd3d12ddi_create_pipeline_state_0033
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_CREATE_PIPELINE_STATE_0033, PFND3D12DDI_CREATE_PIPELINE_STATE_0033 entry, PFND3D12DDI_CREATE_PIPELINE_STATE_0033 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0033, display.pfnd3d12ddi_create_pipeline_state_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_CREATE_PIPELINE_STATE_0033 callback
+# PFND3D12DDI_CREATE_PIPELINE_STATE_0033 callback function
 
 
 ## -description
@@ -60,6 +60,7 @@ Used to create a pipeline state.
 
 ### -param Arg1
 
+A handle to the display device (graphics context).
 
 ### -param *
 
@@ -85,8 +86,7 @@ The hardware device being processed.
 
 Used to create a pipeline state.
 
-
-#### - d3d12ddi_hrtpipelinestate
+### -param D3D12DDI_HRTPIPELINESTATE
 
 Used to create a pipeline state.
 

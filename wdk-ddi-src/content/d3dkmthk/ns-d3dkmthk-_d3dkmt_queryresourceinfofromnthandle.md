@@ -7,7 +7,7 @@ old-location: display\d3dkmt_queryresourceinfofromnthandle.htm
 old-project: display
 ms.assetid: 098fe3b9-1169-4ff6-8822-0eb277cb73f9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure [Display Devices], _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, display.d3dkmt_queryresourceinfofromnthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices

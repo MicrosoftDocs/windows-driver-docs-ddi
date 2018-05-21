@@ -7,8 +7,8 @@ old-location: audio\iadapterpowermanagement3.htm
 old-project: audio
 ms.assetid: 5F0729DB-C991-4745-9550-9D25D6836A1F
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], IAdapterPowerManagement3 interface [Audio Devices], described, audio.iadapterpowermanagement3, portcls/IAdapterPowerManagement3
+ms.date: 4/16/2018
+ms.keywords: IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], IAdapterPowerManagement3 interface [Audio Devices],described, audio.iadapterpowermanagement3, portcls/IAdapterPowerManagement3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IAdapterPowerManagement3 interface

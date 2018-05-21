@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usbfn_get_interface_descriptor_set_.htm
 old-project: usbref
 ms.assetid: AF5E2559-151B-4176-A25E-6A1955747F1A
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET, IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET control code [Buses], buses.ioctl_internal_usbfn_get_interface_descriptor_set_, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET
+ms.date: 4/25/2018
+ms.keywords: IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET, IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET control, IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET control code [Buses], buses.ioctl_internal_usbfn_get_interface_descriptor_set_, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET IOCTL

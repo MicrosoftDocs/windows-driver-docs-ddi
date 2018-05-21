@@ -7,7 +7,7 @@ old-location: ifsk\fltqueryinformationfile.htm
 old-project: ifsk
 ms.assetid: f80750fb-4561-4617-bc54-1360b2e93a68
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_f6c70c3b-4b99-4ae9-ba01-789c4d3ab1c3.xml, FltQueryInformationFile, FltQueryInformationFile function [Installable File System Drivers], fltkernel/FltQueryInformationFile, ifsk.fltqueryinformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltQueryInformationFile function

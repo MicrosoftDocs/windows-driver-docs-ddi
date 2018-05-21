@@ -7,8 +7,8 @@ old-location: display\copytiles.htm
 old-project: display
 ms.assetid: 8DA0FF6C-CA2C-4943-93C3-BFC3773617CC
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CopyTiles, CopyTiles callback function [Display Devices], PFND3DWDDM1_3DDI_COPYTILES, d3d10umddi/CopyTiles, display.copytiles
+ms.date: 4/16/2018
+ms.keywords: CopyTiles, CopyTiles callback function [Display Devices], PFND3DWDDM1_3DDI_COPYTILES, PFND3DWDDM1_3DDI_COPYTILES callback, d3d10umddi/CopyTiles, display.copytiles
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM1_3DDI_COPYTILES callback
+# PFND3DWDDM1_3DDI_COPYTILES callback function
 
 
 ## -description

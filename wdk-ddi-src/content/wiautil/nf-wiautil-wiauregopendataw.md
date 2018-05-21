@@ -7,7 +7,7 @@ old-location: image\wiauregopendata.htm
 old-project: image
 ms.assetid: f289dfa8-26e4-426b-8058-8c2464e47e2a
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiauregopendata, wiauFncs_1718e270-b13c-4325-bb4a-a872becaa8bb.xml, wiauRegOpenData, wiauRegOpenData function [Imaging Devices], wiauRegOpenDataA, wiauRegOpenDataW, wiautil/wiauRegOpenData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SKIP_AMOUNT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiauRegOpenDataW function

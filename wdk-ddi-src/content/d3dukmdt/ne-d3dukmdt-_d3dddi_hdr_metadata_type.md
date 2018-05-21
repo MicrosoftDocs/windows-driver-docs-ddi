@@ -7,28 +7,28 @@ old-location: display\d3dddi_hdr_metadata_type.htm
 old-project: display
 ms.assetid: C30C34BF-F67D-4838-B337-9EF0D85B27DA
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_HDR_METADATA_TYPE, D3DDDI_HDR_METADATA_TYPE enumeration [Display Devices], D3DDDI_HDR_METADATA_TYPE_HDR10, D3DDDI_HDR_METADATA_TYPE_NONE, _D3DDDI_HDR_METADATA_TYPE, d3dukmdt/D3DDDI_HDR_METADATA_TYPE, d3dukmdt/D3DDDI_HDR_METADATA_TYPE_HDR10, d3dukmdt/D3DDDI_HDR_METADATA_TYPE_NONE, display.d3dddi_hdr_metadata_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: d3dukmdt.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -53,6 +53,17 @@ req.typenames: D3DDDI_HDR_METADATA_TYPE
 Defines the format of HDR metadata.
 
 
+## -syntax
+
+
+````
+typedef enum _D3DDDI_HDR_METADATA_TYPE {
+  D3DDDI_HDR_METADATA_TYPE_NONE                 = 0,
+  D3DDDI_HDR_METADATA_TYPE_HDR10                = 1
+} D3DDDI_HDR_METADATA_TYPE;
+````
+
+
 ## -enum-fields
 
 
@@ -67,3 +78,4 @@ No HDR metadata is present.
 
 The HDR metadata is defined using the D3DDDI_HDR_METADATA_HDR10 structure.
 
+### -field D3DDDI_HDR_METADATA_TYPE_HDR10PLUS

@@ -7,7 +7,7 @@ old-location: kernel\rtlulongsub.htm
 old-project: kernel
 ms.assetid: 54776F17-C7EE-46DB-BA3F-2F545240FC61
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlULongSub, RtlULongSub function [Kernel-Mode Driver Architecture], kernel.rtlulongsub, ntintsafe/RtlULongSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlULongSub function

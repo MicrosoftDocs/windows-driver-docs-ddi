@@ -7,7 +7,7 @@ old-location: audio\ksaudio_channel_config.htm
 old-project: audio
 ms.assetid: 64e46fd5-f6bf-425d-b2a5-c938f8e565b9
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: "*PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], PKSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, audio.ksaudio_channel_config, ksmedia/KSAUDIO_CHANNEL_CONFIG, ksmedia/PKSAUDIO_CHANNEL_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices

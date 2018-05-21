@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoQueue.RetrieveNextRequest
-title: IWDFIoQueue::RetrieveNextRequest method
+title: IWDFIoQueue::RetrieveNextRequest
 author: windows-driver-content
 description: The RetrieveNextRequest method retrieves the next I/O request from an I/O queue.
 old-location: wdf\iwdfioqueue_retrievenextrequest.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2d9dbfc8-7563-4c47-9b34-27cce2b847b2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoQueue, IWDFIoQueue interface, RetrieveNextRequest method, IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest method, RetrieveNextRequest method, IWDFIoQueue interface, RetrieveNextRequest,IWDFIoQueue.RetrieveNextRequest, UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, umdf.iwdfioqueue_retrievenextrequest, wdf.iwdfioqueue_retrievenextrequest, wudfddi/IWDFIoQueue::RetrieveNextRequest
+ms.keywords: IWDFIoQueue interface,RetrieveNextRequest method, IWDFIoQueue.RetrieveNextRequest, IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest, RetrieveNextRequest method, RetrieveNextRequest method,IWDFIoQueue interface, UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, umdf.iwdfioqueue_retrievenextrequest, wdf.iwdfioqueue_retrievenextrequest, wudfddi/IWDFIoQueue::RetrieveNextRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoQueue::RetrieveNextRequest method
+# IWDFIoQueue::RetrieveNextRequest
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\bugcheckcallback.htm
 old-project: kernel
 ms.assetid: ecd777f0-bba2-4f14-9fa6-8f47ac83fe7f
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: BugCheckCallback, BugCheckCallback routine [Kernel-Mode Driver Architecture], DrvrRtns_e968f3db-9875-4f94-8781-074029354e2c.xml, KBUGCHECK_CALLBACK_ROUTINE, kernel.bugcheckcallback, wdm/BugCheckCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# KBUGCHECK_CALLBACK_ROUTINE callback
+# KBUGCHECK_CALLBACK_ROUTINE callback function
 
 
 ## -description

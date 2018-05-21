@@ -7,8 +7,8 @@ old-location: hid\pi8042_synch_read_port.htm
 old-project: hid
 ms.assetid: 970bb5ed-2ddd-4d91-a90f-3df3bb7fa3f9
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: PI8042_SYNCH_READ_PORT, SynchReadPort, SynchReadPort callback function [Human Input Devices], hid.pi8042_synch_read_port, i8042ref_be606020-f80b-4347-883d-71378e5fa59d.xml, ntdd8042/SynchReadPort
+ms.date: 4/30/2018
+ms.keywords: PI8042_SYNCH_READ_PORT, PI8042_SYNCH_READ_PORT callback, SynchReadPort, SynchReadPort callback function [Human Input Devices], hid.pi8042_synch_read_port, i8042ref_be606020-f80b-4347-883d-71378e5fa59d.xml, ntdd8042/SynchReadPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
+req.typenames: 
 ---
 
-# PI8042_SYNCH_READ_PORT callback
+# PI8042_SYNCH_READ_PORT callback function
 
 
 ## -description

@@ -78,24 +78,21 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543869">PMI_CON
 A union of the supported Power Meter Interface (PMI) configuration structures. Based on the value of the <b>ConfigurationType</b> member, one of the following <b>Configuration</b> submembers is used to reference the following PMI configuration structures:
 
 
-
-#### MeasurementConfiguration
+### -field Configuration.MeasurementConfiguration
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543858">PMI_BUDGETING_CONFIGURATION</a> structure that contains information about the budgeting configuration of the power meter.
 
 The <b>Configuration</b> member contains this structure if the <b>ConfigurationType</b> member is set to <b>PmiBudgetingConfiguration</b>.
 
 
-
-#### BudgetingConfiguration
+### -field Configuration.BudgetingConfiguration
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543887">PMI_MEASUREMENT_CONFIGURATION</a> structure that contains information about the measurement configuration of the power meter.
 
 The <b>Configuration</b> member contains this structure if the <b>ConfigurationType</b> member is set to <b>PmiMeasurementConfiguration</b>.
 
 
-
-#### ThresholdConfiguration
+### -field Configuration.ThresholdConfiguration
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543908">PMI_THRESHOLD_CONFIGURATION</a> structure that contains information about the threshold configuration of the power meter.
 

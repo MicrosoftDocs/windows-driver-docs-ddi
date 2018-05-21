@@ -7,7 +7,7 @@ old-location: buses\ufxdevicenotifydetach.htm
 old-project: usbref
 ms.assetid: 890C7451-D9BF-4019-ABBE-D97446728E6B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UfxDeviceNotifyDetach, UfxDeviceNotifyDetach method [Buses], buses.ufxdevicenotifydetach, ufxclient/UfxDeviceNotifyDetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ufxstub.lib
 req.dll: 
 req.irql: DISPATCH_LEVEL
 topic_type:
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UfxDeviceNotifyDetach function

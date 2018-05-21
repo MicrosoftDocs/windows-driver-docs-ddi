@@ -7,8 +7,8 @@ old-location: buses\evt_ufx_device_port_detect.htm
 old-project: usbref
 ms.assetid: EC32BFE8-6E93-4CEF-8EA8-856B0E431FCF
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UFX_DEVICE_PORT_DETECT, EvtUfxDevicePortDetect, EvtUfxDevicePortDetect callback function [Buses], PFN_UFX_DEVICE_PORT_DETECT, PFN_UFX_DEVICE_PORT_DETECT callback function pointer [Buses], buses.evt_ufx_device_port_detect, ufxclient/EvtUfxDevicePortDetect
+ms.date: 4/25/2018
+ms.keywords: EVT_UFX_DEVICE_PORT_DETECT, EVT_UFX_DEVICE_PORT_DETECT callback, EvtUfxDevicePortDetect, EvtUfxDevicePortDetect callback function [Buses], PFN_UFX_DEVICE_PORT_DETECT, PFN_UFX_DEVICE_PORT_DETECT callback function pointer [Buses], buses.evt_ufx_device_port_detect, ufxclient/EvtUfxDevicePortDetect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UFX_DEVICE_PORT_DETECT callback
+# EVT_UFX_DEVICE_PORT_DETECT callback function
 
 
 ## -description

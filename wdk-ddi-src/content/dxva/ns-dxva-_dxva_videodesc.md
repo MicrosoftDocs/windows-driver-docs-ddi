@@ -7,7 +7,7 @@ old-location: display\dxva_videodesc.htm
 old-project: display
 ms.assetid: 5623ed85-e78a-48f2-ab21-e6364da86b2a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPDXVA_VideoDesc, DXVA_VideoDesc, DXVA_VideoDesc structure [Display Devices], LPDXVA_VideoDesc, LPDXVA_VideoDesc structure pointer [Display Devices], _DXVA_VideoDesc, display.dxva_videodesc, dxva/DXVA_VideoDesc, dxva/LPDXVA_VideoDesc, dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

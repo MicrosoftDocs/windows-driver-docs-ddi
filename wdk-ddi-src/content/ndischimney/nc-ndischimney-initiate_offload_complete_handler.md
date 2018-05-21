@@ -7,8 +7,8 @@ old-location: netvista\protocolinitiateoffloadcomplete.htm
 old-project: netvista
 ms.assetid: 0300d841-b211-42f8-b60d-d7d37201e778
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: INITIATE_OFFLOAD_COMPLETE_HANDLER, ProtocolInitiateOffloadComplete, ProtocolInitiateOffloadComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolInitiateOffloadComplete, netvista.protocolinitiateoffloadcomplete, tcp_chim_protocol_func_24008ba0-91ac-43de-a1b7-ba82e15057ad.xml
+ms.date: 4/25/2018
+ms.keywords: INITIATE_OFFLOAD_COMPLETE_HANDLER, INITIATE_OFFLOAD_COMPLETE_HANDLER callback, ProtocolInitiateOffloadComplete, ProtocolInitiateOffloadComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolInitiateOffloadComplete, netvista.protocolinitiateoffloadcomplete, tcp_chim_protocol_func_24008ba0-91ac-43de-a1b7-ba82e15057ad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# INITIATE_OFFLOAD_COMPLETE_HANDLER callback
+# INITIATE_OFFLOAD_COMPLETE_HANDLER callback function
 
 
 ## -description

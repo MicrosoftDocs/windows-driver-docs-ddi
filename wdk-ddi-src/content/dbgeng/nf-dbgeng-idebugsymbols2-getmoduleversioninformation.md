@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.GetModuleVersionInformation
-title: IDebugSymbols2::GetModuleVersionInformation method
+title: IDebugSymbols2::GetModuleVersionInformation
 author: windows-driver-content
 description: The GetModuleVersionInformation method returns version information for the specified module.
 old-location: debugger\getmoduleversioninformation.htm
 old-project: debugger
 ms.assetid: af655cd2-2e1f-4d78-aff3-3875106b50bc
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetModuleVersionInformation method [Windows Debugging], GetModuleVersionInformation method [Windows Debugging], IDebugSymbols2 interface, GetModuleVersionInformation method [Windows Debugging], IDebugSymbols3 interface, GetModuleVersionInformation,IDebugSymbols2.GetModuleVersionInformation, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetModuleVersionInformation method, IDebugSymbols2::GetModuleVersionInformation, IDebugSymbols3 interface [Windows Debugging], GetModuleVersionInformation method, IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, dbgeng/IDebugSymbols2::GetModuleVersionInformation, dbgeng/IDebugSymbols3::GetModuleVersionInformation, debugger.getmoduleversioninformation
+ms.date: 4/24/2018
+ms.keywords: GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], GetModuleVersionInformation method [Windows Debugging],IDebugSymbols2 interface, GetModuleVersionInformation method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetModuleVersionInformation method, IDebugSymbols2.GetModuleVersionInformation, IDebugSymbols2::GetModuleVersionInformation, IDebugSymbols3 interface [Windows Debugging],GetModuleVersionInformation method, IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, dbgeng/IDebugSymbols2::GetModuleVersionInformation, dbgeng/IDebugSymbols3::GetModuleVersionInformation, debugger.getmoduleversioninformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::GetModuleVersionInformation method
+# IDebugSymbols2::GetModuleVersionInformation
 
 
 ## -description

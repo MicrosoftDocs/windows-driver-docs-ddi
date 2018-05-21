@@ -7,8 +7,8 @@ old-location: netvista\wskreceivefrom.htm
 old-project: netvista
 ms.assetid: 769fea0d-e35a-4385-8027-f1518c25b637
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_RECEIVE_FROM, WskReceiveFrom, WskReceiveFrom callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefrom, wsk/WskReceiveFrom, wskref_5c6ab859-3010-468f-8cb2-820cbb641a19.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_RECEIVE_FROM, PFN_WSK_RECEIVE_FROM callback, WskReceiveFrom, WskReceiveFrom callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefrom, wsk/WskReceiveFrom, wskref_5c6ab859-3010-468f-8cb2-820cbb641a19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_RECEIVE_FROM callback
+# PFN_WSK_RECEIVE_FROM callback function
 
 
 ## -description

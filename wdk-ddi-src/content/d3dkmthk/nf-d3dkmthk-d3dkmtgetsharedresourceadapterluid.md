@@ -7,7 +7,7 @@ old-location: display\d3dkmtgetsharedresourceadapterluid.htm
 old-project: display
 ms.assetid: 880bf5bd-eadc-480f-a10c-f6d57f670857
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTGetSharedResourceAdapterLuid, D3DKMTGetSharedResourceAdapterLuid function [Display Devices], d3dkmthk/D3DKMTGetSharedResourceAdapterLuid, display.d3dkmtgetsharedresourceadapterluid
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTGetSharedResourceAdapterLuid function

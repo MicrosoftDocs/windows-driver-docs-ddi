@@ -7,7 +7,7 @@ old-location: display\d3dddiarg_destroycryptosession.htm
 old-project: display
 ms.assetid: 7ae8bfd7-da94-41b0-8995-34194b2ad8a7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDIARG_DESTROYCRYPTOSESSION, D3DDDIARG_DESTROYCRYPTOSESSION structure [Display Devices], UMDisplayDriver_param_Structs_75cddfac-f1d8-4378-bb94-441fff43e224.xml, _D3DDDIARG_DESTROYCRYPTOSESSION, d3dumddi/D3DDDIARG_DESTROYCRYPTOSESSION, display.d3dddiarg_destroycryptosession
 ms.prod: windows-hardware
 ms.technology: windows-devices

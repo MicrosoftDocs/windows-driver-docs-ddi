@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.EnableDriver
-title: IPrintOemUni::EnableDriver method
+title: IPrintOemUni::EnableDriver
 author: windows-driver-content
 description: The IPrintOemUni::EnableDriver method allows a rendering plug-in for Unidrv to hook out some graphics DDI functions.
 old-location: print\iprintoemuni_enabledriver.htm
 old-project: print
 ms.assetid: 7d7cd1de-569a-4083-8d4c-e073645941e6
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnableDriver method [Print Devices], EnableDriver method [Print Devices], IPrintOemUni interface, EnableDriver,IPrintOemUni.EnableDriver, IPrintOemUni, IPrintOemUni interface [Print Devices], EnableDriver method, IPrintOemUni::EnableDriver, prcomoem/IPrintOemUni::EnableDriver, print.iprintoemuni_enabledriver, print_unidrv-pscript_rendering_804d9469-6ac6-4220-b123-25a2d226b609.xml
+ms.date: 4/20/2018
+ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],EnableDriver method, IPrintOemUni.EnableDriver, IPrintOemUni::EnableDriver, prcomoem/IPrintOemUni::EnableDriver, print.iprintoemuni_enabledriver, print_unidrv-pscript_rendering_804d9469-6ac6-4220-b123-25a2d226b609.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::EnableDriver method
+# IPrintOemUni::EnableDriver
 
 
 ## -description

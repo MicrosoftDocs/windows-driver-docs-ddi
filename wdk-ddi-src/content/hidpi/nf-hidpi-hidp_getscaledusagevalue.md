@@ -7,7 +7,7 @@ old-location: hid\hidp_getscaledusagevalue.htm
 old-project: hid
 ms.assetid: 0af1a3f2-b933-4232-865c-cccca53fd32e
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidP_GetScaledUsageValue, HidP_GetScaledUsageValue routine [Human Input Devices], hid.hidp_getscaledusagevalue, hidfunc_7fa22086-ab66-4c6b-a7de-65adce226b10.xml, hidpi/HidP_GetScaledUsageValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_GetScaledUsageValue function

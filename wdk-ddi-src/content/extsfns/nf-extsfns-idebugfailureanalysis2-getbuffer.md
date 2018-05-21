@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.GetBuffer
-title: IDebugFailureAnalysis2::GetBuffer method
+title: IDebugFailureAnalysis2::GetBuffer
 author: windows-driver-content
 description: The GetBuffer method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it gets the entry's data block.
 old-location: debugger\idebugfailureanalysis2_getbuffer.htm
 old-project: debugger
 ms.assetid: 262B5237-86BF-43D6-A29A-A868663EA5D9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetBuffer method [Windows Debugging], GetBuffer method [Windows Debugging], IDebugFailureAnalysis2 interface, GetBuffer,IDebugFailureAnalysis2.GetBuffer, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], GetBuffer method, IDebugFailureAnalysis2::GetBuffer, debugger.idebugfailureanalysis2_getbuffer, extsfns/IDebugFailureAnalysis2::GetBuffer
+ms.date: 4/24/2018
+ms.keywords: GetBuffer, GetBuffer method [Windows Debugging], GetBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetBuffer method, IDebugFailureAnalysis2.GetBuffer, IDebugFailureAnalysis2::GetBuffer, debugger.idebugfailureanalysis2_getbuffer, extsfns/IDebugFailureAnalysis2::GetBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::GetBuffer method
+# IDebugFailureAnalysis2::GetBuffer
 
 
 ## -description

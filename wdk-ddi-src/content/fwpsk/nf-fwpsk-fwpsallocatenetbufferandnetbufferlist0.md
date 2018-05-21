@@ -7,7 +7,7 @@ old-location: netvista\fwpsallocatenetbufferandnetbufferlist0.htm
 old-project: netvista
 ms.assetid: d7f2d3c0-f2c9-4624-b3e1-9fbbf64c7186
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsAllocateNetBufferAndNetBufferList0, FwpsAllocateNetBufferAndNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateNetBufferAndNetBufferList0, netvista.fwpsallocatenetbufferandnetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_9a88a8c9-a5fb-48a9-bc42-ae30de234468.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsAllocateNetBufferAndNetBufferList0 function

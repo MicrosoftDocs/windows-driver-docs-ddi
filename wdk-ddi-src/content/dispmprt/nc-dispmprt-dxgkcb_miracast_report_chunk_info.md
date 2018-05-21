@@ -7,8 +7,8 @@ old-location: display\dxgkcbreportchunkinfo.htm
 old-project: display
 ms.assetid: 94A99749-EF80-4593-B03C-54A7AA2BDFC8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_MIRACAST_REPORT_CHUNK_INFO, DxgkCbReportChunkInfo, DxgkCbReportChunkInfo callback function [Display Devices], display.dxgkcbreportchunkinfo, dispmprt/DxgkCbReportChunkInfo
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_MIRACAST_REPORT_CHUNK_INFO, DXGKCB_MIRACAST_REPORT_CHUNK_INFO callback, DxgkCbReportChunkInfo, DxgkCbReportChunkInfo callback function [Display Devices], display.dxgkcbreportchunkinfo, dispmprt/DxgkCbReportChunkInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKCB_MIRACAST_REPORT_CHUNK_INFO callback
+# DXGKCB_MIRACAST_REPORT_CHUNK_INFO callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\ndisfsendnetbufferlists.htm
 old-project: netvista
 ms.assetid: fe0896ab-2d20-465f-a8bc-bfc0033701d6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisFSendNetBufferLists, NdisFSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_333e9ef3-6858-4b5b-bca1-4f06da775906.xml, ndis/NdisFSendNetBufferLists, netvista.ndisfsendnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisFSendNetBufferLists function

@@ -7,7 +7,7 @@ old-location: ifsk\rxscavengefobxsfornetroot.htm
 old-project: ifsk
 ms.assetid: 2a2320e6-b114-4ea7-9f2f-27fd47fef770
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxScavengeFobxsForNetRoot, RxScavengeFobxsForNetRoot function [Installable File System Drivers], ifsk.rxscavengefobxsfornetroot, rxref_9fac9a87-f068-4ee4-909c-85a41c9884d6.xml, scavengr/RxScavengeFobxsForNetRoot
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxScavengeFobxsForNetRoot function

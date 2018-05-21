@@ -7,7 +7,7 @@ old-location: ifsk\fsrtl_advanced_fcb_header.htm
 old-project: ifsk
 ms.assetid: 7816c937-109c-40a8-8b67-04413b00e5fd
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PFSRTL_ADVANCED_FCB_HEADER, *PFSRTL_UNC_PROVIDER_REGISTRATION, FSRTL_ADVANCED_FCB_HEADER, FSRTL_ADVANCED_FCB_HEADER structure [Installable File System Drivers], FSRTL_UNC_PROVIDER_REGISTRATION, PFSRTL_ADVANCED_FCB_HEADER, PFSRTL_ADVANCED_FCB_HEADER structure pointer [Installable File System Drivers], _FSRTL_ADVANCED_FCB_HEADER, contextstructures_cede2315-2c72-496f-a192-3ef25a8b0516.xml, ifsk.fsrtl_advanced_fcb_header, ntifs/FSRTL_ADVANCED_FCB_HEADER, ntifs/PFSRTL_ADVANCED_FCB_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,6 +63,31 @@ The <b>FSRTL_ADVANCED_FCB_HEADER</b> structure contains context information that
  
 
 
+### -field _FSRTL_ADVANCED_FCB_HEADER.DUMMYSTRUCTNAME
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.FastMutex
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.FilterContexts
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.PushLock
+
+ 
+
+
+### -field _FSRTL_ADVANCED_FCB_HEADER.FileContextSupportPointer
+
+ 
+
+
 ### -field _FSRTL_ADVANCED_FCB_HEADER.Oplock
 
  
@@ -73,7 +98,22 @@ The <b>FSRTL_ADVANCED_FCB_HEADER</b> structure contains context information that
  
 
 
+### -field _FSRTL_ADVANCED_FCB_HEADER.ReservedContext
+
+ 
+
+
 ### -field _EOF_WAIT_BLOCK
+
+ 
+
+
+### -field _EOF_WAIT_BLOCK.EofWaitLinks
+
+ 
+
+
+### -field _EOF_WAIT_BLOCK.Event
 
  
 
@@ -83,12 +123,127 @@ The <b>FSRTL_ADVANCED_FCB_HEADER</b> structure contains context information that
  
 
 
+### -field _FSRTL_AUXILIARY_BUFFER.Buffer
+
+ 
+
+
+### -field _FSRTL_AUXILIARY_BUFFER.Length
+
+ 
+
+
+### -field _FSRTL_AUXILIARY_BUFFER.Flags
+
+ 
+
+
+### -field _FSRTL_AUXILIARY_BUFFER.Mdl
+
+ 
+
+
 ### -field _FILE_LOCK_INFO
 
  
 
 
+### -field _FILE_LOCK_INFO.StartingByte
+
+ 
+
+
+### -field _FILE_LOCK_INFO.Length
+
+ 
+
+
+### -field _FILE_LOCK_INFO.ExclusiveLock
+
+ 
+
+
+### -field _FILE_LOCK_INFO.Key
+
+ 
+
+
+### -field _FILE_LOCK_INFO.FileObject
+
+ 
+
+
+### -field _FILE_LOCK_INFO.ProcessId
+
+ 
+
+
+### -field _FILE_LOCK_INFO.EndingByte
+
+ 
+
+
 ### -field _FILE_LOCK
+
+ 
+
+
+### -field _FILE_LOCK.CompleteLockIrpRoutine
+
+ 
+
+
+### -field _FILE_LOCK.UnlockRoutine
+
+ 
+
+
+### -field _FILE_LOCK.FastIoIsQuestionable
+
+ 
+
+
+### -field _FILE_LOCK.SpareC
+
+ 
+
+
+### -field _FILE_LOCK.LockInformation
+
+ 
+
+
+### -field _FILE_LOCK.LastReturnedLockInfo
+
+ 
+
+
+### -field _FILE_LOCK.LastReturnedLock
+
+ 
+
+
+### -field _FILE_LOCK.LockRequestsInProgress
+
+ 
+
+
+### -field Mutex
+
+ 
+
+
+### -field Cache
+
+ 
+
+
+### -field TimerQueue
+
+ 
+
+
+### -field NumEntries
 
  
 
@@ -108,7 +263,42 @@ The <b>FSRTL_ADVANCED_FCB_HEADER</b> structure contains context information that
  
 
 
+### -field _BASE_MCB.MaximumPairCount
+
+ 
+
+
+### -field _BASE_MCB.PairCount
+
+ 
+
+
+### -field _BASE_MCB.PoolType
+
+ 
+
+
+### -field _BASE_MCB.Flags
+
+ 
+
+
+### -field _BASE_MCB.Mapping
+
+ 
+
+
 ### -field _LARGE_MCB
+
+ 
+
+
+### -field _LARGE_MCB.GuardedMutex
+
+ 
+
+
+### -field _LARGE_MCB.BaseMcb
 
  
 
@@ -118,7 +308,22 @@ The <b>FSRTL_ADVANCED_FCB_HEADER</b> structure contains context information that
  
 
 
+### -field _MCB.DummyFieldThatSizesThisStructureCorrectly
+
+ 
+
+
 ### -field _OPLOCK_KEY_ECP_CONTEXT
+
+ 
+
+
+### -field _OPLOCK_KEY_ECP_CONTEXT.OplockKey
+
+ 
+
+
+### -field _OPLOCK_KEY_ECP_CONTEXT.Reserved
 
  
 
@@ -129,6 +334,26 @@ The <b>FSRTL_ADVANCED_FCB_HEADER</b> structure contains context information that
 
 
 ### -field _DUAL_OPLOCK_KEY_ECP_CONTEXT
+
+ 
+
+
+### -field _DUAL_OPLOCK_KEY_ECP_CONTEXT.ParentOplockKey
+
+ 
+
+
+### -field _DUAL_OPLOCK_KEY_ECP_CONTEXT.TargetOplockKey
+
+ 
+
+
+### -field _DUAL_OPLOCK_KEY_ECP_CONTEXT.ParentOplockKeySet
+
+ 
+
+
+### -field _DUAL_OPLOCK_KEY_ECP_CONTEXT.TargetOplockKeySet
 
  
 
@@ -149,6 +374,11 @@ The <b>FSRTL_ADVANCED_FCB_HEADER</b> structure contains context information that
 
 
 ### -field DUMMYUNIONNAME
+
+ 
+
+
+### -field DUMMYUNIONNAME.ProviderFlags
 
  
 
@@ -179,6 +409,11 @@ An unnamed member that contains a structure of type <a href="https://msdn.micros
 
 
 ### -field DUMMYUNIONNAME2
+
+ 
+
+
+### -field DUMMYUNIONNAME2.HardeningCapabilities
 
  
 

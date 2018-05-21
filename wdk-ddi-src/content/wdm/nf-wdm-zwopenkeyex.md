@@ -7,7 +7,7 @@ old-location: kernel\zwopenkeyex.htm
 old-project: kernel
 ms.assetid: 05057ae7-0f91-4f5a-8c72-652ec04ee3ab
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ZwOpenKeyEx, ZwOpenKeyEx routine [Kernel-Mode Driver Architecture], k111_4e01a648-6ffc-418f-821c-9a4ef821dc3b.xml, kernel.zwopenkeyex, wdm/ZwOpenKeyEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwOpenKeyEx function

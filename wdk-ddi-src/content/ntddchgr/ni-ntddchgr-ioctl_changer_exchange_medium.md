@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 76f17ee0-5b81-4325-a295-4a6982b49b73
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control code [Storage Devices], k307_c132f9e2-bb9c-43b7-85c2-644f2b24acea.xml, ntddchgr/IOCTL_CHANGER_EXCHANGE_MEDIUM, storage.ioctl_changer_exchange_medium
+ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control, IOCTL_CHANGER_EXCHANGE_MEDIUM control code [Storage Devices], k307_c132f9e2-bb9c-43b7-85c2-644f2b24acea.xml, ntddchgr/IOCTL_CHANGER_EXCHANGE_MEDIUM, storage.ioctl_changer_exchange_medium
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.typenames: 
 ---
 
 # IOCTL_CHANGER_EXCHANGE_MEDIUM IOCTL

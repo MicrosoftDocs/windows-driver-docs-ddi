@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IDriverEntry.OnDeviceAdd
-title: IDriverEntry::OnDeviceAdd method
+title: IDriverEntry::OnDeviceAdd
 author: windows-driver-content
 description: The OnDeviceAdd method adds a new device to a system.
 old-location: wdf\idriverentry_ondeviceadd.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f2953b0d-6745-4804-bcda-47c7ddfb901f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IDriverEntry, IDriverEntry interface, OnDeviceAdd method, IDriverEntry::OnDeviceAdd, OnDeviceAdd method, OnDeviceAdd method, IDriverEntry interface, OnDeviceAdd,IDriverEntry.OnDeviceAdd, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, umdf.idriverentry_ondeviceadd, wdf.idriverentry_ondeviceadd, wudfddi/IDriverEntry::OnDeviceAdd
+ms.keywords: IDriverEntry interface,OnDeviceAdd method, IDriverEntry.OnDeviceAdd, IDriverEntry::OnDeviceAdd, OnDeviceAdd, OnDeviceAdd method, OnDeviceAdd method,IDriverEntry interface, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, umdf.idriverentry_ondeviceadd, wdf.idriverentry_ondeviceadd, wudfddi/IDriverEntry::OnDeviceAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IDriverEntry::OnDeviceAdd method
+# IDriverEntry::OnDeviceAdd
 
 
 ## -description

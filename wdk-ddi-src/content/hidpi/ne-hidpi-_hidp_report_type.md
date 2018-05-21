@@ -7,7 +7,7 @@ old-location: hid\hidp_report_type.htm
 old-project: hid
 ms.assetid: adb2f0cc-f261-41d2-b30f-58286b351e4f
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HIDP_REPORT_TYPE, HIDP_REPORT_TYPE enumeration [Human Input Devices], HidP_Feature, HidP_Input, HidP_Output, _HIDP_REPORT_TYPE, hid.hidp_report_type, hidpi/HIDP_REPORT_TYPE, hidpi/HidP_Feature, hidpi/HidP_Input, hidpi/HidP_Output, hidstrct_d25e996c-d904-410c-bacb-a79f17fad916.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

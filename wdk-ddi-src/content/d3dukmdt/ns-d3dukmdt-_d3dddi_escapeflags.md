@@ -7,7 +7,7 @@ old-location: display\d3dddi_escapeflags.htm
 old-project: display
 ms.assetid: 40648f6a-3393-4374-beff-e097c299f9e9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_ESCAPEFLAGS, D3DDDI_ESCAPEFLAGS structure [Display Devices], D3D_other_Structs_5ff9ad07-6a44-4a53-a70c-5abdbe84065a.xml, _D3DDDI_ESCAPEFLAGS, d3dukmdt/D3DDDI_ESCAPEFLAGS, display.d3dddi_escapeflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,19 +16,19 @@ req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -99,18 +99,17 @@ Setting this member is equivalent to setting the third bit of the 32-bit <b>Valu
 
 ### -field NoAdapterSynchronization
 
- 
+
 
 
 ### -field VirtualMachineData
 
- 
+Indicates that [DxgkDdiEscape](..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md) is called from a virtual machine.
 
 
 ### -field Reserved2
 
- 
-
+This member is reserved and should be set to zero.
 
 ### -field Reserved
 
@@ -119,7 +118,7 @@ This member is reserved and should be set to zero. Setting this member to zero i
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDI_ESCAPEFLAGS that can hold one 32-bit value that identifies how to share information.
 

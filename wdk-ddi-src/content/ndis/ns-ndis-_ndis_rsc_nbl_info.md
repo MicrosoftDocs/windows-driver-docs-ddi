@@ -7,7 +7,7 @@ old-location: netvista\ndis_rsc_nbl_info.htm
 old-project: netvista
 ms.assetid: ba9c18ba-8940-4aef-9d58-3105ee1420ce
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO, NDIS_RSC_NBL_INFO union [Network Drivers Starting with Windows Vista], PNDIS_RSC_NBL_INFO, PNDIS_RSC_NBL_INFO union pointer [Network Drivers Starting with Windows Vista], _NDIS_RSC_NBL_INFO, ndis/NDIS_RSC_NBL_INFO, ndis/PNDIS_RSC_NBL_INFO, netvista.ndis_rsc_nbl_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -68,8 +68,7 @@ A member in the union that is contained in <b>NDIS_RSC_NBL_INFO</b>.  Drivers us
 
 
 
-
-#### CoalescedSegCount
+### -field Info.CoalescedSegCount
 
 The number of coalesced segments in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. For non-RSC packets this member must be set to zero.
 Drivers can access this member with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439944">NET_BUFFER_LIST_COALESCED_SEG_COUNT</a>
@@ -79,8 +78,7 @@ macro.
 See the remarks section for more information about <b>RscTcpTimestampDelta</b>.</div>
 <div> </div>
 
-
-#### DupAckCount
+### -field Info.DupAckCount
 
 The number of duplicate ACKs that were encountered while forming the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. <b>DupAckCount</b> should be non-zero only if <b>CoalescedSegCount</b> is not zero.
 Drivers can access this member with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439945">NET_BUFFER_LIST_DUP_ACK_COUNT</a>

@@ -7,7 +7,7 @@ old-location: netvista\ril_deletemsg.htm
 old-project: netvista
 ms.assetid: bda4663b-0aae-481a-8bd6-f242c6e6b1de
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_DeleteMsg, RIL_DeleteMsg method [Network Drivers Starting with Windows Vista], netvista.ril_deletemsg, rilapi/RIL_DeleteMsg
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_DeleteMsg function

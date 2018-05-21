@@ -7,8 +7,8 @@ old-location: stream\ioctl_avc_class.htm
 old-project: stream
 ms.assetid: 033069b8-98e5-4302-ae4e-71f9249533ff
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_AVC_CLASS, IOCTL_AVC_CLASS control code [Streaming Media Devices], avc/IOCTL_AVC_CLASS, avcref_720c03f6-d568-4ebe-8bd8-295fd8a6c222.xml, stream.ioctl_avc_class
+ms.date: 4/23/2018
+ms.keywords: IOCTL_AVC_CLASS, IOCTL_AVC_CLASS control, IOCTL_AVC_CLASS control code [Streaming Media Devices], avc/IOCTL_AVC_CLASS, avcref_720c03f6-d568-4ebe-8bd8-295fd8a6c222.xml, stream.ioctl_avc_class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,16 +41,11 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: AVC_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_AVC_CLASS IOCTL
 
-
-##  Major Code: 
-
-
-[IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -198,34 +193,34 @@ Most AV/C functions must be called IRQL = PASSIVE_LEVEL. A few may be called at 
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_remove_virtual_subunit_info.md">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554140">AVC_COMMAND_IRB</a>
 
 
 
-<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554145">AVC_FUNCTION</a>
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554174">AVC_IRB</a>
 
 
 
-<a href="..\avc\ni-avc-ioctl_avc_update_virtual_subunit_info.md">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554177">AVC_MULTIFUNC_IRB</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_irb.md">AVC_IRB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560783">IOCTL_AVC_BUS_RESET</a>
 
 
 
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560793">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560798">IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO</a>
  
 
  

@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SD_RESPONSE_TYPE
-req.product: Windows 10 or later.
 ---
 
 # SD_RESPONSE_TYPE enumeration

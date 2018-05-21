@@ -7,7 +7,7 @@ old-location: netvista\ndisgethypervisorinfo.htm
 old-project: netvista
 ms.assetid: 5469c6aa-90df-4379-b670-23aaa6919055
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista], ndis/NdisGetHypervisorInfo, netvista.ndisgethypervisorinfo, virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisGetHypervisorInfo function

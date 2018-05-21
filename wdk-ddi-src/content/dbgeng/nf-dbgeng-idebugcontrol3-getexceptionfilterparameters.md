@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetExceptionFilterParameters
-title: IDebugControl3::GetExceptionFilterParameters method
+title: IDebugControl3::GetExceptionFilterParameters
 author: windows-driver-content
 description: The GetExceptionFilterParameters method returns the parameters for exception filters specified by exception codes or by index.
 old-location: debugger\getexceptionfilterparameters.htm
 old-project: debugger
 ms.assetid: 6c3db06a-0305-480f-ab7f-38e4295ebe9b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetExceptionFilterParameters method [Windows Debugging], GetExceptionFilterParameters method [Windows Debugging], IDebugControl interface, GetExceptionFilterParameters method [Windows Debugging], IDebugControl2 interface, GetExceptionFilterParameters method [Windows Debugging], IDebugControl3 interface, GetExceptionFilterParameters,IDebugControl3.GetExceptionFilterParameters, IDebugControl interface [Windows Debugging], GetExceptionFilterParameters method, IDebugControl2 interface [Windows Debugging], GetExceptionFilterParameters method, IDebugControl2::GetExceptionFilterParameters, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetExceptionFilterParameters method, IDebugControl3::GetExceptionFilterParameters, IDebugControl::GetExceptionFilterParameters, IDebugControl_012d902c-ff4c-4ac8-9a35-b6cdcd1e2894.xml, dbgeng/IDebugControl2::GetExceptionFilterParameters, dbgeng/IDebugControl3::GetExceptionFilterParameters, dbgeng/IDebugControl::GetExceptionFilterParameters, debugger.getexceptionfilterparameters
+ms.date: 4/24/2018
+ms.keywords: GetExceptionFilterParameters, GetExceptionFilterParameters method [Windows Debugging], GetExceptionFilterParameters method [Windows Debugging],IDebugControl interface, GetExceptionFilterParameters method [Windows Debugging],IDebugControl2 interface, GetExceptionFilterParameters method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExceptionFilterParameters method, IDebugControl2 interface [Windows Debugging],GetExceptionFilterParameters method, IDebugControl2::GetExceptionFilterParameters, IDebugControl3 interface [Windows Debugging],GetExceptionFilterParameters method, IDebugControl3.GetExceptionFilterParameters, IDebugControl3::GetExceptionFilterParameters, IDebugControl::GetExceptionFilterParameters, IDebugControl_012d902c-ff4c-4ac8-9a35-b6cdcd1e2894.xml, dbgeng/IDebugControl2::GetExceptionFilterParameters, dbgeng/IDebugControl3::GetExceptionFilterParameters, dbgeng/IDebugControl::GetExceptionFilterParameters, debugger.getexceptionfilterparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetExceptionFilterParameters method
+# IDebugControl3::GetExceptionFilterParameters
 
 
 ## -description

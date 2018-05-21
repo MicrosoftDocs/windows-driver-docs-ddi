@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaMiniDrv.drvFreeDrvItemContext
-title: IWiaMiniDrv::drvFreeDrvItemContext method
+title: IWiaMiniDrv::drvFreeDrvItemContext
 author: windows-driver-content
 description: The IWiaMiniDrv::drvFreeDrvItemContext method frees a device-specific context.
 old-location: image\iwiaminidrv_drvfreedrvitemcontext.htm
 old-project: image
 ms.assetid: bc4f751f-d92a-47e6-8cbe-0a587292b160
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvFreeDrvItemContext method, IWiaMiniDrv::drvFreeDrvItemContext, MiniDrv_59a7d220-cd1d-4cc2-870a-3260feaba7e9.xml, drvFreeDrvItemContext method [Imaging Devices], drvFreeDrvItemContext method [Imaging Devices], IWiaMiniDrv interface, drvFreeDrvItemContext,IWiaMiniDrv.drvFreeDrvItemContext, image.iwiaminidrv_drvfreedrvitemcontext, wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvFreeDrvItemContext method, IWiaMiniDrv.drvFreeDrvItemContext, IWiaMiniDrv::drvFreeDrvItemContext, MiniDrv_59a7d220-cd1d-4cc2-870a-3260feaba7e9.xml, drvFreeDrvItemContext, drvFreeDrvItemContext method [Imaging Devices], drvFreeDrvItemContext method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvfreedrvitemcontext, wiamindr_lh/IWiaMiniDrv::drvFreeDrvItemContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaMiniDrv::drvFreeDrvItemContext method
+# IWiaMiniDrv::drvFreeDrvItemContext
 
 
 ## -description

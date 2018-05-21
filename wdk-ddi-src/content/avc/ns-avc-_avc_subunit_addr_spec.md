@@ -7,7 +7,7 @@ old-location: stream\avc_subunit_addr_spec.htm
 old-project: stream
 ms.assetid: fa9fedc5-cacc-409a-99f5-7103b5424b3c
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PAVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC structure [Streaming Media Devices], PAVC_SUBUNIT_ADDR_SPEC, PAVC_SUBUNIT_ADDR_SPEC structure pointer [Streaming Media Devices], _AVC_SUBUNIT_ADDR_SPEC, avc/AVC_SUBUNIT_ADDR_SPEC, avc/PAVC_SUBUNIT_ADDR_SPEC, avcref_56141f06-dd51-40cb-874a-ec136ec7683f.xml, stream.avc_subunit_addr_spec"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,17 +51,6 @@ req.typenames: AVC_SUBUNIT_ADDR_SPEC, *PAVC_SUBUNIT_ADDR_SPEC
 
 
 The AVC_SUBUNIT_ADDR_SPEC structure is used with virtual instances of <i>avc.sys</i> to describe virtual subunit addresses.
-
-
-## -syntax
-
-
-````
-typedef struct _AVC_SUBUNIT_ADDR_SPEC {
-  ULONG Flags;
-  UCHAR SubunitAddress[1];
-} AVC_SUBUNIT_ADDR_SPEC, *PAVC_SUBUNIT_ADDR_SPEC;
-````
 
 
 ## -struct-fields
@@ -109,10 +98,10 @@ A Subunit Address encoded according to Section 5.3.3 of the AV/C Digital Interfa
 
 ## -see-also
 
-<a href="..\avc\ni-avc-ioctl_avc_bus_reset.md">IOCTL_AVC_BUS_RESET</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560783">IOCTL_AVC_BUS_RESET</a>
  
 
  

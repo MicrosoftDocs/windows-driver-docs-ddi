@@ -7,8 +7,8 @@ old-location: netvista\miniportwdipostadapterrestart.htm
 old-project: netvista
 ms.assetid: 1686A3CA-AD4A-4560-8665-9AFBE920CDDA
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_POST_ADAPTER_RESTART, MiniportWdiPostAdapterRestart, MiniportWdiPostAdapterRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterRestart, netvista.miniportwdipostadapterrestart
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_POST_ADAPTER_RESTART, MINIPORT_WDI_POST_ADAPTER_RESTART callback, MiniportWdiPostAdapterRestart, MiniportWdiPostAdapterRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiPostAdapterRestart, netvista.miniportwdipostadapterrestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_POST_ADAPTER_RESTART callback
+# MINIPORT_WDI_POST_ADAPTER_RESTART callback function
 
 
 ## -description

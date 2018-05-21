@@ -7,7 +7,7 @@ old-location: netvista\lock_state_ex.htm
 old-project: netvista
 ms.assetid: 558b6fba-a1d8-4255-bca6-e2d83afe9e46
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PLOCK_STATE_EX, LOCK_STATE_EX, LOCK_STATE_EX structure [Network Drivers Starting with Windows Vista], PLOCK_STATE_EX, PLOCK_STATE_EX structure pointer [Network Drivers Starting with Windows Vista], _LOCK_STATE_EX, ndis/LOCK_STATE_EX, ndis/PLOCK_STATE_EX, ndis_processor_group_ref_0b6d70d3-0671-49df-977a-c435eb599667.xml, netvista.lock_state_ex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

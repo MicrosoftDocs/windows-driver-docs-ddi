@@ -1,6 +1,6 @@
 # [Print devices](../_print/index.md)
 ## [Winsplp.h](index.md)
-### [ROUTER_NOTIFY_CALLBACK callback](../winsplp/nc-winsplp-router_notify_callback.md)
+### [ROUTER_NOTIFY_CALLBACK callback function](../winsplp/nc-winsplp-router_notify_callback.md)
 ### [UI_TYPE enumeration](../winsplp/ne-winsplp-ui_type.md)
 ### [_NOTIFICATION_CALLBACK_COMMANDS enumeration](../winsplp/ne-winsplp-_notification_callback_commands.md)
 ### [_NOTIFICATION_CONFIG_FLAGS enumeration](../winsplp/ne-winsplp-_notification_config_flags.md)

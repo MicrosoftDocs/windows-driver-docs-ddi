@@ -7,7 +7,7 @@ old-location: kernel\io_report_interrupt_active_state_parameters.htm
 old-project: kernel
 ms.assetid: 430B8951-37F0-4173-ACC6-89DB542B4081
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, kernel.io_report_interrupt_active_state_parameters, wdm/IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, wdm/PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, *PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
-req.product: Windows 10 or later.
 ---
 
 # _IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure
@@ -79,22 +78,19 @@ A union that contains the connection context associated with the interrupt. Each
 For more information, see Remarks.
 
 
-
-#### Generic
+### -field ConnectionContext.Generic
 
 A PVOID pointer to a connection context.
 
 
-
-#### InterruptMessageTable
-
-A pointer to a connection context of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a>.
-
-
-
-#### InterruptObject
+### -field ConnectionContext.InterruptObject
 
 A pointer to a connection context of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>.
+
+
+### -field ConnectionContext.InterruptMessageTable
+
+A pointer to a connection context of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a>.
 
 
 ## -remarks

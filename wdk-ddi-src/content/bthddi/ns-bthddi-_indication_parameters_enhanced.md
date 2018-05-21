@@ -7,7 +7,7 @@ old-location: bltooth\indication_parameters_enhanced.htm
 old-project: bltooth
 ms.assetid: D0FBA555-B61F-4D6F-B93F-C77D395F2BCD
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices], PINDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS_ENHANCED, bltooth.indication_parameters_enhanced, bthddi/INDICATION_PARAMETERS_ENHANCED, bthddi/PINDICATION_PARAMETERS_ENHANCED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, *PINDICATION_PARAMETERS_ENHANCED"
+req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED"
 ---
 
 # _INDICATION_PARAMETERS_ENHANCED structure
@@ -73,12 +73,6 @@ The Bluetooth address of the remote device.
 ### -field Parameters
 
 
-
-#### Reserved
-
-Reserved member. Do not use.
-
-
 ### -field Parameters.Connect
 
 The structure that contains parameters for the 
@@ -90,8 +84,7 @@ The structure that contains parameters for the
 The structure that contains the parameters for a connection request.
 
 
-
-###### Connect.Request.PSM
+### -field Parameters.Connect.Request.PSM
 
 The Protocol/Service Multiplexer (PSM) that is passed to the calling function when the 
         <i>IndicationRemoteConnect</i> INDICATION_CODE value is specified in the enhanced callback function's 
@@ -357,4 +350,9 @@ The size, in bytes, of the packet that the callback function sent over the L2CAP
 ### -field Parameters.RecvPacket.TotalQueueLength
 
 The number of packets to be processed over the L2CAP connection.
+
+
+### -field Parameters.Reserved
+
+Reserved member. Do not use.
 

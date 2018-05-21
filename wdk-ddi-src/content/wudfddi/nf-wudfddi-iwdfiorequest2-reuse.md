@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest2.Reuse
-title: IWDFIoRequest2::Reuse method
+title: IWDFIoRequest2::Reuse
 author: windows-driver-content
 description: The Reuse method reinitializes a framework request object so that it can be reused.
 old-location: wdf\iwdfiorequest2_reuse.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 21d04633-3b68-4c89-a0b9-81507a1bb6d3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoRequest2, IWDFIoRequest2 interface, Reuse method, IWDFIoRequest2::Reuse, Reuse method, Reuse method, IWDFIoRequest2 interface, Reuse,IWDFIoRequest2.Reuse, UMDFRequestObjectRef_887853e7-3603-4793-b1b2-0b72e63b0d5a.xml, umdf.iwdfiorequest2_reuse, wdf.iwdfiorequest2_reuse, wudfddi/IWDFIoRequest2::Reuse
+ms.keywords: IWDFIoRequest2 interface,Reuse method, IWDFIoRequest2.Reuse, IWDFIoRequest2::Reuse, Reuse, Reuse method, Reuse method,IWDFIoRequest2 interface, UMDFRequestObjectRef_887853e7-3603-4793-b1b2-0b72e63b0d5a.xml, umdf.iwdfiorequest2_reuse, wdf.iwdfiorequest2_reuse, wudfddi/IWDFIoRequest2::Reuse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest2::Reuse method
+# IWDFIoRequest2::Reuse
 
 
 ## -description

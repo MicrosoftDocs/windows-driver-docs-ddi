@@ -1,14 +1,14 @@
 ---
 UID: NF:xpsrassvc.IXpsRasterizerNotificationCallback.Continue
-title: IXpsRasterizerNotificationCallback::Continue method
+title: IXpsRasterizerNotificationCallback::Continue
 author: windows-driver-content
 description: The Continue method tells the caller (the XPS rasterization service) whether to continue rasterizing the current XPS fixed page.
 old-location: print\ixpsrasterizernotificationcallback_continue.htm
 old-project: print
 ms.assetid: 8136eec2-1d4b-4233-bb93-7203d932816b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Continue method [Print Devices], Continue method [Print Devices], IXpsRasterizerNotificationCallback interface, Continue,IXpsRasterizerNotificationCallback.Continue, IXpsRasterizerNotificationCallback, IXpsRasterizerNotificationCallback interface [Print Devices], Continue method, IXpsRasterizerNotificationCallback::Continue, print.ixpsrasterizernotificationcallback_continue, print_xpsrast_f107f6a3-c35f-4ec1-b50f-062852852af6.xml, xpsrassvc/IXpsRasterizerNotificationCallback::Continue
+ms.date: 4/20/2018
+ms.keywords: Continue, Continue method [Print Devices], Continue method [Print Devices],IXpsRasterizerNotificationCallback interface, IXpsRasterizerNotificationCallback interface [Print Devices],Continue method, IXpsRasterizerNotificationCallback.Continue, IXpsRasterizerNotificationCallback::Continue, print.ixpsrasterizernotificationcallback_continue, print_xpsrast_f107f6a3-c35f-4ec1-b50f-062852852af6.xml, xpsrassvc/IXpsRasterizerNotificationCallback::Continue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: XPSRAS_BACKGROUND_COLOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IXpsRasterizerNotificationCallback::Continue method
+# IXpsRasterizerNotificationCallback::Continue
 
 
 ## -description

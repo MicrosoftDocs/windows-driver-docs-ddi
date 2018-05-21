@@ -7,7 +7,7 @@ old-location: netvista\wwan_ussd_string.htm
 old-project: netvista
 ms.assetid: 9DE6CE5D-9570-4728-ACED-D6863812A3F4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_USSD_STRING, PWWAN_USSD_STRING, PWWAN_USSD_STRING structure pointer [Network Drivers Starting with Windows Vista], WWAN_USSD_STRING, WWAN_USSD_STRING structure [Network Drivers Starting with Windows Vista], _WWAN_USSD_STRING, netvista.wwan_ussd_string, wwan/PWWAN_USSD_STRING, wwan/WWAN_USSD_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_USSD_STRING, *PWWAN_USSD_STRING
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_USSD_STRING structure

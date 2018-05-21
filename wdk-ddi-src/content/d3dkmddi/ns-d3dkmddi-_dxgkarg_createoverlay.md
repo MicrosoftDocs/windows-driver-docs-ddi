@@ -7,7 +7,7 @@ old-location: display\dxgkarg_createoverlay.htm
 old-project: display
 ms.assetid: f95ef083-2b2f-4e13-ad60-6bc7da0fec33
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY structure [Display Devices], DmStructs_935ab2cb-070a-4700-8ace-62c4c44c42b5.xml, _DXGKARG_CREATEOVERLAY, d3dkmddi/DXGKARG_CREATEOVERLAY, display.dxgkarg_createoverlay"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

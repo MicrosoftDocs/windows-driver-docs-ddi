@@ -7,8 +7,8 @@ old-location: display\hwvidgetpowerstate.htm
 old-project: display
 ms.assetid: 747cfbfb-2a38-4a0d-b8c6-662d0c3967ba
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: HwVidGetPowerState, HwVidGetPowerState callback function [Display Devices], PVIDEO_HW_POWER_GET, VideoMiniport_Functions_b47b2224-5e0b-44af-9d04-107ff1299381.xml, display.hwvidgetpowerstate, video/HwVidGetPowerState
+ms.date: 4/16/2018
+ms.keywords: HwVidGetPowerState, HwVidGetPowerState callback function [Display Devices], PVIDEO_HW_POWER_GET, PVIDEO_HW_POWER_GET callback, VideoMiniport_Functions_b47b2224-5e0b-44af-9d04-107ff1299381.xml, display.hwvidgetpowerstate, video/HwVidGetPowerState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PVIDEO_HW_POWER_GET callback
+# PVIDEO_HW_POWER_GET callback function
 
 
 ## -description

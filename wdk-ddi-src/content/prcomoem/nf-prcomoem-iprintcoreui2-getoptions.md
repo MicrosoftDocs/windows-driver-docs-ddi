@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.GetOptions
-title: IPrintCoreUI2::GetOptions method
+title: IPrintCoreUI2::GetOptions
 author: windows-driver-content
 description: The IPrintCoreUI2::GetOptions method retrieves the driver's current feature settings in the format of a list of feature/option keyword pairs.
 old-location: print\iprintcoreui2_getoptions.htm
 old-project: print
 ms.assetid: d83b8520-6f31-403c-ac58-6d6a20cf8750
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetOptions method [Print Devices], GetOptions method [Print Devices], IPrintCoreUI2 interface, GetOptions,IPrintCoreUI2.GetOptions, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], GetOptions method, IPrintCoreUI2::GetOptions, prcomoem/IPrintCoreUI2::GetOptions, print.iprintcoreui2_getoptions, print_unidrv-pscript_ui_9d2ad553-1fd3-4420-9b30-c73a41c28c8d.xml
+ms.date: 4/20/2018
+ms.keywords: GetOptions, GetOptions method [Print Devices], GetOptions method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetOptions method, IPrintCoreUI2.GetOptions, IPrintCoreUI2::GetOptions, prcomoem/IPrintCoreUI2::GetOptions, print.iprintcoreui2_getoptions, print_unidrv-pscript_ui_9d2ad553-1fd3-4420-9b30-c73a41c28c8d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreUI2::GetOptions method
+# IPrintCoreUI2::GetOptions
 
 
 ## -description

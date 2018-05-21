@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 449936d8-9257-4044-a38f-e68d8e8d5c68
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_CDROM_EXCLUSIVE_ACCESS, IOCTL_CDROM_EXCLUSIVE_ACCESS control code [Storage Devices], k307_d22cebb2-93c2-4eb8-9c2f-6c6c559ee020.xml, ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS, storage.ioctl_cdrom_exclusive_access
+ms.keywords: IOCTL_CDROM_EXCLUSIVE_ACCESS, IOCTL_CDROM_EXCLUSIVE_ACCESS control, IOCTL_CDROM_EXCLUSIVE_ACCESS control code [Storage Devices], k307_d22cebb2-93c2-4eb8-9c2f-6c6c559ee020.xml, ntddcdrm/IOCTL_CDROM_EXCLUSIVE_ACCESS, storage.ioctl_cdrom_exclusive_access
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: 
 ---
 
 # IOCTL_CDROM_EXCLUSIVE_ACCESS IOCTL

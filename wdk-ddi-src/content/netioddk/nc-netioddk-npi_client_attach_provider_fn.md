@@ -7,8 +7,8 @@ old-location: netvista\clientattachprovider.htm
 old-project: netvista
 ms.assetid: 8f8abdb1-d018-4404-a80a-74017c324a0f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ClientAttachProvider, ClientAttachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_ATTACH_PROVIDER_FN, PNPI_CLIENT_ATTACH_PROVIDER_FN, PNPI_CLIENT_ATTACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientAttachProvider, netvista.clientattachprovider, nmrref_36b8ce1f-6570-40a1-b6f9-5d6782aac61d.xml
+ms.date: 4/25/2018
+ms.keywords: ClientAttachProvider, ClientAttachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_ATTACH_PROVIDER_FN, NPI_CLIENT_ATTACH_PROVIDER_FN callback, PNPI_CLIENT_ATTACH_PROVIDER_FN, PNPI_CLIENT_ATTACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientAttachProvider, netvista.clientattachprovider, nmrref_36b8ce1f-6570-40a1-b6f9-5d6782aac61d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
+req.typenames: 
 ---
 
-# NPI_CLIENT_ATTACH_PROVIDER_FN callback
+# NPI_CLIENT_ATTACH_PROVIDER_FN callback function
 
 
 ## -description

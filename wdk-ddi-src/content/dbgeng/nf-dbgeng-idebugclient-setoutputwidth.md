@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient.SetOutputWidth
-title: IDebugClient::SetOutputWidth method
+title: IDebugClient::SetOutputWidth
 author: windows-driver-content
 description: Controls the width of an output line for commands that produce formatted output.
 old-location: debugger\idebugclient_setoutputwidth.htm
 old-project: debugger
 ms.assetid: E2FAEBDD-336D-4E11-933B-88A6EA3BBDF9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient, IDebugClient interface [Windows Debugging], SetOutputWidth method, IDebugClient::SetOutputWidth, SetOutputWidth method [Windows Debugging], SetOutputWidth method [Windows Debugging], IDebugClient interface, SetOutputWidth,IDebugClient.SetOutputWidth, dbgeng/IDebugClient::SetOutputWidth, debugger.idebugclient_setoutputwidth
+ms.date: 4/24/2018
+ms.keywords: IDebugClient interface [Windows Debugging],SetOutputWidth method, IDebugClient.SetOutputWidth, IDebugClient::SetOutputWidth, SetOutputWidth, SetOutputWidth method [Windows Debugging], SetOutputWidth method [Windows Debugging],IDebugClient interface, dbgeng/IDebugClient::SetOutputWidth, debugger.idebugclient_setoutputwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient::SetOutputWidth method
+# IDebugClient::SetOutputWidth
 
 
 ## -description

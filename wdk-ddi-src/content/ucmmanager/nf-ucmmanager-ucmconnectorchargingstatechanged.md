@@ -7,7 +7,7 @@ old-location: buses\ucmconnectorchargingstatechanged.htm
 old-project: usbref
 ms.assetid: A645BFE0-4B7F-416F-9096-596ADAA37951
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], buses.ucmconnectorchargingstatechanged, ucmmanager/UcmConnectorChargingStateChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PORT_DATA_1, *PPORT_DATA_1
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcmConnectorChargingStateChanged function

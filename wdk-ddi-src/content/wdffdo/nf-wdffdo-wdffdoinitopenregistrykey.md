@@ -44,8 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfFdoInitOpenRegistryKey function
@@ -281,7 +280,7 @@ The driver must call <b>WdfFdoInitOpenRegistryKey</b> before calling <a href="ht
 
 For more information about the <b>WdfFdoInitOpenRegistryKey</b> method, see <a href="https://msdn.microsoft.com/3b988f6d-c50e-412d-85cb-031746535ff4">Creating Device Objects in a Function Driver</a>.
 
-or more information about the registry, hardware and software keys, and registry objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
+or more information about the registry, hardware and software keys, and registry objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

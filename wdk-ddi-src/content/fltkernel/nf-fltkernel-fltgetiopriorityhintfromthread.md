@@ -7,7 +7,7 @@ old-location: ifsk\fltgetiopriorityhintfromthread.htm
 old-project: ifsk
 ms.assetid: e79f7cf2-8d3e-42b9-810b-068afa60fb6e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_edc8f8c5-8be8-45a7-9936-c2146e5fd4b6.xml, FltGetIoPriorityHintFromThread, FltGetIoPriorityHintFromThread routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHintFromThread, ifsk.fltgetiopriorityhintfromthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltGetIoPriorityHintFromThread function

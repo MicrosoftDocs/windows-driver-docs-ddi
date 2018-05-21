@@ -7,7 +7,7 @@ old-location: netvista\wwan_pin_action.htm
 old-project: netvista
 ms.assetid: 4edd0bc1-cd50-460b-92e1-7b2440ae3861
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_PIN_ACTION, PWWAN_PIN_ACTION, PWWAN_PIN_ACTION structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_ACTION, WWAN_PIN_ACTION structure [Network Drivers Starting with Windows Vista], WwanRef_831c483c-8839-43a4-870d-f63ea3f78b61.xml, _WWAN_PIN_ACTION, netvista.wwan_pin_action, wwan/PWWAN_PIN_ACTION, wwan/WWAN_PIN_ACTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_PIN_ACTION, *PWWAN_PIN_ACTION
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_PIN_ACTION structure
@@ -67,7 +66,7 @@ The type of the PIN on which to perform the action.
 
 ### -field PinOperation
 
-The action to perform with the PIN.
+The action to perform with the PIN. For more information, see [WWAN_PIN_OPERATION](ne-wwan-_wwan_pin_operation.md).
 
 
 ### -field Pin
@@ -85,6 +84,11 @@ A NULL-terminated string that represents the new PIN value to set when
      <b>WwanPinOperationEnter</b>, for 
      <b>PinType</b><b>WwanPinTypePuk1</b> or 
      <b>WwanPinTypePuk2</b>. This member is a numeric value.
+
+
+### -field RequestPinOperationPrompt
+
+A BOOLEAN value that indicates whether to display a prompt to request the PIN operation.
 
 
 ## -remarks

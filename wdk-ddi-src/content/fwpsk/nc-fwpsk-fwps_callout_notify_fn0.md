@@ -7,8 +7,8 @@ old-location: netvista\notifyfn0.htm
 old-project: netvista
 ms.assetid: c0f94079-7398-4998-b2b2-471aa8c538a1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FWPS_CALLOUT_NOTIFY_FN0, fwpsk/notifyFn0, netvista.notifyfn0, notifyFn0, notifyFn0 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_67d79632-69ad-41a2-8a0e-21f4020b0550.xml
+ms.date: 4/25/2018
+ms.keywords: FWPS_CALLOUT_NOTIFY_FN0, FWPS_CALLOUT_NOTIFY_FN0 callback, fwpsk/notifyFn0, netvista.notifyfn0, notifyFn0, notifyFn0 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_67d79632-69ad-41a2-8a0e-21f4020b0550.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
+req.typenames: 
 ---
 
-# FWPS_CALLOUT_NOTIFY_FN0 callback
+# FWPS_CALLOUT_NOTIFY_FN0 callback function
 
 
 ## -description

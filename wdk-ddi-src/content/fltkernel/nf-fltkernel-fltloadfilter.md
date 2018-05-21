@@ -7,7 +7,7 @@ old-location: ifsk\fltloadfilter.htm
 old-project: ifsk
 ms.assetid: aecf5f5f-c0b7-487a-9db0-d01212aef094
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, FltLoadFilter, FltLoadFilter routine [Installable File System Drivers], fltkernel/FltLoadFilter, ifsk.fltloadfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltLoadFilter function

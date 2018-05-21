@@ -7,8 +7,8 @@ old-location: netvista\miniportwdiallocateadapter.htm
 old-project: netvista
 ms.assetid: 4CBC7230-6480-40C9-90B7-A286FCEB1FA8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_ALLOCATE_ADAPTER, MiniportWdiAllocateAdapter, MiniportWdiAllocateAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiAllocateAdapter, netvista.miniportwdiallocateadapter
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_ALLOCATE_ADAPTER, MINIPORT_WDI_ALLOCATE_ADAPTER callback, MiniportWdiAllocateAdapter, MiniportWdiAllocateAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiAllocateAdapter, netvista.miniportwdiallocateadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_ALLOCATE_ADAPTER callback
+# MINIPORT_WDI_ALLOCATE_ADAPTER callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\createmiracastcontext.htm
 old-project: display
 ms.assetid: 3b10ddd9-a48d-4f96-b35e-db017d1f9583
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateMiracastContext, CreateMiracastContext callback function [Display Devices], PFN_CREATE_MIRACAST_CONTEXT, display.createmiracastcontext, netdispumdddi/CreateMiracastContext
+ms.date: 4/16/2018
+ms.keywords: CreateMiracastContext, CreateMiracastContext callback function [Display Devices], PFN_CREATE_MIRACAST_CONTEXT, PFN_CREATE_MIRACAST_CONTEXT callback, display.createmiracastcontext, netdispumdddi/CreateMiracastContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: 
 ---
 
-# PFN_CREATE_MIRACAST_CONTEXT callback
+# PFN_CREATE_MIRACAST_CONTEXT callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\deletevertexshaderdecl.htm
 old-project: display
 ms.assetid: 8c16cd27-83f9-4474-9031-edfea0ba665b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DeleteVertexShaderDecl, DeleteVertexShaderDecl callback function [Display Devices], PFND3DDDI_DELETEVERTEXSHADERDECL, UserModeDisplayDriver_Functions_b62ed121-1403-4a6e-8854-6f2dfba6fac6.xml, d3dumddi/DeleteVertexShaderDecl, display.deletevertexshaderdecl
+ms.date: 4/16/2018
+ms.keywords: DeleteVertexShaderDecl, DeleteVertexShaderDecl callback function [Display Devices], PFND3DDDI_DELETEVERTEXSHADERDECL, PFND3DDDI_DELETEVERTEXSHADERDECL callback, UserModeDisplayDriver_Functions_b62ed121-1403-4a6e-8854-6f2dfba6fac6.xml, d3dumddi/DeleteVertexShaderDecl, display.deletevertexshaderdecl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DELETEVERTEXSHADERDECL callback
+# PFND3DDDI_DELETEVERTEXSHADERDECL callback function
 
 
 ## -description

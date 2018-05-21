@@ -7,7 +7,7 @@ old-location: ifsk\rtlunicodetooemn.htm
 old-project: ifsk
 ms.assetid: bb9ec3d9-89cd-4c56-8020-f8f97c2ce69b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlUnicodeToOemN, RtlUnicodeToOemN routine [Installable File System Drivers], ifsk.rtlunicodetooemn, ntifs/RtlUnicodeToOemN, rtlref_f78dd2e1-13f7-4622-ac13-9207c040b782.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlUnicodeToOemN function

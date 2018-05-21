@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.SetExpressionSyntaxByName
-title: IDebugControl3::SetExpressionSyntaxByName method
+title: IDebugControl3::SetExpressionSyntaxByName
 author: windows-driver-content
 description: The SetExpressionSyntaxByName method sets the syntax that the engine will use to evaluate expressions.
 old-location: debugger\setexpressionsyntaxbyname.htm
 old-project: debugger
 ms.assetid: b9f1618a-e4f7-4eb1-952f-0f565a068dab
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], SetExpressionSyntaxByName method, IDebugControl3::SetExpressionSyntaxByName, IDebugControl_88ebbf3c-a6f7-41d1-84e8-291a8db101c2.xml, SetExpressionSyntaxByName method [Windows Debugging], SetExpressionSyntaxByName method [Windows Debugging], IDebugControl3 interface, SetExpressionSyntaxByName,IDebugControl3.SetExpressionSyntaxByName, dbgeng/IDebugControl3::SetExpressionSyntaxByName, debugger.setexpressionsyntaxbyname
+ms.date: 4/24/2018
+ms.keywords: IDebugControl3 interface [Windows Debugging],SetExpressionSyntaxByName method, IDebugControl3.SetExpressionSyntaxByName, IDebugControl3::SetExpressionSyntaxByName, IDebugControl_88ebbf3c-a6f7-41d1-84e8-291a8db101c2.xml, SetExpressionSyntaxByName, SetExpressionSyntaxByName method [Windows Debugging], SetExpressionSyntaxByName method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::SetExpressionSyntaxByName, debugger.setexpressionsyntaxbyname
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::SetExpressionSyntaxByName method
+# IDebugControl3::SetExpressionSyntaxByName
 
 
 ## -description

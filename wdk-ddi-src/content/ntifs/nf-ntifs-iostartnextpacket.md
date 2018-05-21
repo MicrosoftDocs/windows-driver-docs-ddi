@@ -7,7 +7,7 @@ old-location: kernel\iostartnextpacket.htm
 old-project: kernel
 ms.assetid: f1197dfd-03d7-4ac2-8f11-60da413e32b2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoStartNextPacket, IoStartNextPacket routine [Kernel-Mode Driver Architecture], k104_5a02a1fa-cf0e-43b0-a4e8-db1da8ad110c.xml, kernel.iostartnextpacket, wdm/IoStartNextPacket
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # IoStartNextPacket function

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.DisassembleWide
-title: IDebugControl4::DisassembleWide method
+title: IDebugControl4::DisassembleWide
 author: windows-driver-content
 description: The DisassembleWide method disassembles a processor instruction in the target's memory.
 old-location: debugger\disassemblewide.htm
 old-project: debugger
 ms.assetid: 7df1f9e5-dac2-490b-9eed-28f8bc4e677a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DisassembleWide method [Windows Debugging], DisassembleWide method [Windows Debugging], IDebugControl4 interface, DisassembleWide,IDebugControl4.DisassembleWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], DisassembleWide method, IDebugControl4::DisassembleWide, dbgeng/IDebugControl4::DisassembleWide, debugger.disassemblewide
+ms.date: 4/24/2018
+ms.keywords: DisassembleWide, DisassembleWide method [Windows Debugging], DisassembleWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],DisassembleWide method, IDebugControl4.DisassembleWide, IDebugControl4::DisassembleWide, dbgeng/IDebugControl4::DisassembleWide, debugger.disassemblewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::DisassembleWide method
+# IDebugControl4::DisassembleWide
 
 
 ## -description

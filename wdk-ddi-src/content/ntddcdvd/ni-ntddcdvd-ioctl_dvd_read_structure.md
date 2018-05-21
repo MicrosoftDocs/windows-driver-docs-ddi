@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 64cf4d53-5d03-43bc-b295-37ecf67b4d2a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_DVD_READ_STRUCTURE, IOCTL_DVD_READ_STRUCTURE control code [Storage Devices], k307_eafb209e-3aed-4471-a4e0-a0e52ce4c462.xml, ntddcdvd/IOCTL_DVD_READ_STRUCTURE, storage.ioctl_dvd_read_structure
+ms.keywords: IOCTL_DVD_READ_STRUCTURE, IOCTL_DVD_READ_STRUCTURE control, IOCTL_DVD_READ_STRUCTURE control code [Storage Devices], k307_eafb209e-3aed-4471-a4e0-a0e52ce4c462.xml, ntddcdvd/IOCTL_DVD_READ_STRUCTURE, storage.ioctl_dvd_read_structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_DVD_READ_STRUCTURE IOCTL

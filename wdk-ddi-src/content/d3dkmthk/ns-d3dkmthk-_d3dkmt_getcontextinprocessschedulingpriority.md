@@ -7,7 +7,7 @@ old-location: display\d3dkmt_getcontextinprocessschedulingpriority.htm
 old-project: display
 ms.assetid: a72dd755-efd9-4950-8400-179eb1d63e9a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY structure [Display Devices], _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, display.d3dkmt_getcontextinprocessschedulingpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

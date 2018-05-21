@@ -7,7 +7,7 @@ old-location: netvista\vmbserverchannelinitsetvmbushandle.htm
 old-project: netvista
 ms.assetid: 0ECF76C7-9475-439E-8E59-B2B7CD350D24
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbServerChannelInitSetVmbusHandle, VmbServerChannelInitSetVmbusHandle function [Network Drivers Starting with Windows Vista], netvista.vmbserverchannelinitsetvmbushandle, vmbuskernelmodeclientlibapi/VmbServerChannelInitSetVmbusHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbServerChannelInitSetVmbusHandle function

@@ -7,7 +7,7 @@ old-location: display\videoportstartdma.htm
 old-project: display
 ms.assetid: cb78e871-6177-4141-b713-25a39c928701
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortStartDma, VideoPortStartDma function [Display Devices], VideoPort_Functions_b568d7ff-2e88-4afe-827b-4e54e075718c.xml, display.videoportstartdma, video/VideoPortStartDma
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortStartDma function

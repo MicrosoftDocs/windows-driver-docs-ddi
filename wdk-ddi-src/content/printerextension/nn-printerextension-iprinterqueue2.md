@@ -7,8 +7,8 @@ old-location: print\iprinterqueue2.htm
 old-project: print
 ms.assetid: 06459A1F-A14B-43BA-9771-47205CC3F388
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrinterQueue2, IPrinterQueue2 interface [Print Devices], IPrinterQueue2 interface [Print Devices], described, print.iprinterqueue2, printerextension/IPrinterQueue2
+ms.date: 4/20/2018
+ms.keywords: IPrinterQueue2, IPrinterQueue2 interface [Print Devices], IPrinterQueue2 interface [Print Devices],described, print.iprinterqueue2, printerextension/IPrinterQueue2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IPrinterQueue2 interface

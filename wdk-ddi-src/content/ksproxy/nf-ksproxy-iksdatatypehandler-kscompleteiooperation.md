@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsDataTypeHandler.KsCompleteIoOperation
-title: IKsDataTypeHandler::KsCompleteIoOperation method
+title: IKsDataTypeHandler::KsCompleteIoOperation
 author: windows-driver-content
 description: The KsCompleteIoOperation method cleans up the extended header and completes the input and output (I/O) operation.
 old-location: stream\iksdatatypehandler_kscompleteiooperation.htm
 old-project: stream
 ms.assetid: 46a58007-16bf-422b-8408-30a7b65dbee6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], KsCompleteIoOperation method, IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], KsCompleteIoOperation method [Streaming Media Devices], IKsDataTypeHandler interface, KsCompleteIoOperation,IKsDataTypeHandler.KsCompleteIoOperation, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, stream.iksdatatypehandler_kscompleteiooperation
+ms.date: 4/23/2018
+ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsCompleteIoOperation method, IKsDataTypeHandler.KsCompleteIoOperation, IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], KsCompleteIoOperation method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, stream.iksdatatypehandler_kscompleteiooperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsDataTypeHandler::KsCompleteIoOperation method
+# IKsDataTypeHandler::KsCompleteIoOperation
 
 
 ## -description

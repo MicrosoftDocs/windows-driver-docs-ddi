@@ -7,7 +7,7 @@ old-location: netvista\fwpspendclassify0.htm
 old-project: netvista
 ms.assetid: 8abf967f-776e-4438-b20a-d7c278793633
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsPendClassify0, FwpsPendClassify0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendClassify0, netvista.fwpspendclassify0, wfp_ref_2_funct_3_fwps_J-Q_b0a2ba71-91f1-460c-9b67-d8ddbe25cb44.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsPendClassify0 function

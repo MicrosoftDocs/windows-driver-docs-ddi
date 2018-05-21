@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TAPE_STATUS, *PTAPE_STATUS
+req.typenames: 
 ---
 
 # TapeClassPhysicalBlockToLogicalBlock function

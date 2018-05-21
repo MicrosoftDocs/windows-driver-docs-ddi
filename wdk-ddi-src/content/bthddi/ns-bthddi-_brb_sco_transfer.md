@@ -7,7 +7,7 @@ old-location: bltooth\_brb_sco_transfer.htm
 old-project: bltooth
 ms.assetid: f0aeb4ad-17a6-43bb-87bf-0c6766a6ad39
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_SCO_TRANSFER, _BRB_SCO_TRANSFER structure [Bluetooth Devices], bltooth._brb_sco_transfer, bth_structs_2e4ed482-af73-4ca6-997c-53005c4fafc2.xml, bthddi/_BRB_SCO_TRANSFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

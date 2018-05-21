@@ -7,8 +7,8 @@ old-location: display\videoprocessblt.htm
 old-project: display
 ms.assetid: 719465dd-4547-491c-ab30-ae63bba1b72c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_VIDEOPROCESSBLT, UserModeDisplayDriver_Functions_23e47fd3-a838-4b56-82c3-7894d2b173a1.xml, VideoProcessBlt, VideoProcessBlt callback function [Display Devices], d3dumddi/VideoProcessBlt, display.videoprocessblt
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_VIDEOPROCESSBLT, PFND3DDDI_VIDEOPROCESSBLT callback, UserModeDisplayDriver_Functions_23e47fd3-a838-4b56-82c3-7894d2b173a1.xml, VideoProcessBlt, VideoProcessBlt callback function [Display Devices], d3dumddi/VideoProcessBlt, display.videoprocessblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_VIDEOPROCESSBLT callback
+# PFND3DDDI_VIDEOPROCESSBLT callback function
 
 
 ## -description

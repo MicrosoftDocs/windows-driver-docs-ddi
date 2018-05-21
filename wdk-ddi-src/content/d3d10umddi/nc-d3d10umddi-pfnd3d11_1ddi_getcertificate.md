@@ -7,8 +7,8 @@ old-location: display\getcertificate.htm
 old-project: display
 ms.assetid: b2ceaa6e-a952-4c2f-9594-289ebe24c62d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D11_1DDI_GETCERTIFICATE, d3d10umddi/pfnGetCertificate, display.getcertificate, pfnGetCertificate, pfnGetCertificate callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D11_1DDI_GETCERTIFICATE, PFND3D11_1DDI_GETCERTIFICATE callback, d3d10umddi/pfnGetCertificate, display.getcertificate, pfnGetCertificate, pfnGetCertificate callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_GETCERTIFICATE callback
+# PFND3D11_1DDI_GETCERTIFICATE callback function
 
 
 ## -description

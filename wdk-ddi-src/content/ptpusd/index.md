@@ -2,17 +2,18 @@
 UID: NA:ptpusd
 ms.assetid: cc9e1f1e-798a-329b-b235-9673f8a25153
 ms.author: windowsdriverdev
-ms.date: 04/20/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: image
 ---
 
 # Ptpusd.h header
 
 
-
+## -description
 
 
 This header is used by image. For more information, see:

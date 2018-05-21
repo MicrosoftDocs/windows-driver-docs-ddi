@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetSourceFileLineOffsetsWide
-title: IDebugSymbols3::GetSourceFileLineOffsetsWide method
+title: IDebugSymbols3::GetSourceFileLineOffsetsWide
 author: windows-driver-content
 description: The GetSourceFileLineOffsetsWide method maps each line in a source file to a location in the target's memory.
 old-location: debugger\getsourcefilelineoffsetswide.htm
 old-project: debugger
 ms.assetid: f774dde1-3498-423b-bf09-239d3d3421b4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSourceFileLineOffsetsWide method [Windows Debugging], GetSourceFileLineOffsetsWide method [Windows Debugging], IDebugSymbols3 interface, GetSourceFileLineOffsetsWide,IDebugSymbols3.GetSourceFileLineOffsetsWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetSourceFileLineOffsetsWide method, IDebugSymbols3::GetSourceFileLineOffsetsWide, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, debugger.getsourcefilelineoffsetswide
+ms.date: 4/24/2018
+ms.keywords: GetSourceFileLineOffsetsWide, GetSourceFileLineOffsetsWide method [Windows Debugging], GetSourceFileLineOffsetsWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceFileLineOffsetsWide method, IDebugSymbols3.GetSourceFileLineOffsetsWide, IDebugSymbols3::GetSourceFileLineOffsetsWide, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, debugger.getsourcefilelineoffsetswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetSourceFileLineOffsetsWide method
+# IDebugSymbols3::GetSourceFileLineOffsetsWide
 
 
 ## -description

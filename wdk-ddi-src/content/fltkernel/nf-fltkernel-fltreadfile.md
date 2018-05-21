@@ -7,7 +7,7 @@ old-location: ifsk\fltreadfile.htm
 old-project: ifsk
 ms.assetid: 3ceacb96-1c60-4310-b96f-6fb396c1d6ce
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_83c0167c-78df-4692-980b-7a55f531a9db.xml, FltReadFile, FltReadFile function [Installable File System Drivers], fltkernel/FltReadFile, ifsk.fltreadfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltReadFile function

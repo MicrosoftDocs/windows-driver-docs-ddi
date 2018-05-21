@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient4.GetDumpFileWide
-title: IDebugClient4::GetDumpFileWide method
+title: IDebugClient4::GetDumpFileWide
 author: windows-driver-content
 description: The GetDumpFileWide method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfilewide.htm
 old-project: debugger
 ms.assetid: 42acd24e-5952-46b3-bb0b-1eb43125fccd
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetDumpFileWide method [Windows Debugging], GetDumpFileWide method [Windows Debugging], IDebugClient4 interface, GetDumpFileWide method [Windows Debugging], IDebugClient5 interface, GetDumpFileWide,IDebugClient4.GetDumpFileWide, IDebugClient4, IDebugClient4 interface [Windows Debugging], GetDumpFileWide method, IDebugClient4::GetDumpFileWide, IDebugClient5 interface [Windows Debugging], GetDumpFileWide method, IDebugClient5::GetDumpFileWide, dbgeng/IDebugClient4::GetDumpFileWide, dbgeng/IDebugClient5::GetDumpFileWide, debugger.getdumpfilewide
+ms.date: 4/24/2018
+ms.keywords: GetDumpFileWide, GetDumpFileWide method [Windows Debugging], GetDumpFileWide method [Windows Debugging],IDebugClient4 interface, GetDumpFileWide method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],GetDumpFileWide method, IDebugClient4.GetDumpFileWide, IDebugClient4::GetDumpFileWide, IDebugClient5 interface [Windows Debugging],GetDumpFileWide method, IDebugClient5::GetDumpFileWide, dbgeng/IDebugClient4::GetDumpFileWide, dbgeng/IDebugClient5::GetDumpFileWide, debugger.getdumpfilewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient4::GetDumpFileWide method
+# IDebugClient4::GetDumpFileWide
 
 
 ## -description

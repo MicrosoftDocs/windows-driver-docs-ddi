@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses
-title: IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses method
+title: IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses
 author: windows-driver-content
 description: The GetTotalNumberThreadsAndProcesses method returns the total number of threads and processes in all the targets the engine is attached to, in addition to the largest number of threads and processes in a target.
 old-location: debugger\gettotalnumberthreadsandprocesses.htm
 old-project: debugger
 ms.assetid: 452dc67b-1938-4757-99bd-507a32d9a71a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetTotalNumberThreadsAndProcesses method [Windows Debugging], GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects3 interface, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4 interface, GetTotalNumberThreadsAndProcesses,IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, debugger.gettotalnumberthreadsandprocesses
+ms.date: 4/24/2018
+ms.keywords: GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses method [Windows Debugging], GetTotalNumberThreadsAndProcesses method [Windows Debugging],IDebugSystemObjects3 interface, GetTotalNumberThreadsAndProcesses method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects3.GetTotalNumberThreadsAndProcesses, IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4 interface [Windows Debugging],GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, debugger.gettotalnumberthreadsandprocesses
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses method
+# IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses
 
 
 ## -description

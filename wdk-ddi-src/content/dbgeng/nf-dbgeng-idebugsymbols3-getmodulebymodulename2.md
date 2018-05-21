@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleByModuleName2
-title: IDebugSymbols3::GetModuleByModuleName2 method
+title: IDebugSymbols3::GetModuleByModuleName2
 author: windows-driver-content
 description: The GetModuleByModuleName2 method searches through the process's modules for one with the specified name.
 old-location: debugger\getmodulebymodulename2.htm
 old-project: debugger
 ms.assetid: 25ebb316-e801-44fa-bb80-dffe9051db7e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetModuleByModuleName2 method [Windows Debugging], GetModuleByModuleName2 method [Windows Debugging], IDebugSymbols3 interface, GetModuleByModuleName2,IDebugSymbols3.GetModuleByModuleName2, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName2 method, IDebugSymbols3::GetModuleByModuleName2, IDebugSymbols_f5630cfb-3af4-4722-8851-0a12523fbf82.xml, dbgeng/IDebugSymbols3::GetModuleByModuleName2, debugger.getmodulebymodulename2
+ms.date: 4/24/2018
+ms.keywords: GetModuleByModuleName2, GetModuleByModuleName2 method [Windows Debugging], GetModuleByModuleName2 method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleByModuleName2 method, IDebugSymbols3.GetModuleByModuleName2, IDebugSymbols3::GetModuleByModuleName2, IDebugSymbols_f5630cfb-3af4-4722-8851-0a12523fbf82.xml, dbgeng/IDebugSymbols3::GetModuleByModuleName2, debugger.getmodulebymodulename2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetModuleByModuleName2 method
+# IDebugSymbols3::GetModuleByModuleName2
 
 
 ## -description

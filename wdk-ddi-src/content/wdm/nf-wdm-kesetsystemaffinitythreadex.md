@@ -7,7 +7,7 @@ old-location: kernel\kesetsystemaffinitythreadex.htm
 old-project: kernel
 ms.assetid: db7980c1-3da6-408e-a3a4-509bc9c0ef2e
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeSetSystemAffinityThreadEx, KeSetSystemAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_7718d4aa-a4f5-44ff-9663-c5f91810644f.xml, kernel.kesetsystemaffinitythreadex, wdm/KeSetSystemAffinityThreadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeSetSystemAffinityThreadEx function

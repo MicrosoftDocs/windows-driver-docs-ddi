@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_wait_on_mask.htm
 old-project: serports
 ms.assetid: b813bd59-249d-4cd1-bf56-4525c7f1fa1d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_WAIT_ON_MASK, IOCTL_SERIAL_WAIT_ON_MASK control code [Serial Ports], ntddser/IOCTL_SERIAL_WAIT_ON_MASK, serports.ioctl_serial_wait_on_mask, serref_4879eda6-26ca-48a6-9176-4aa20d46aa47.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_WAIT_ON_MASK, IOCTL_SERIAL_WAIT_ON_MASK control, IOCTL_SERIAL_WAIT_ON_MASK control code [Serial Ports], ntddser/IOCTL_SERIAL_WAIT_ON_MASK, serports.ioctl_serial_wait_on_mask, serref_4879eda6-26ca-48a6-9176-4aa20d46aa47.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_WAIT_ON_MASK IOCTL

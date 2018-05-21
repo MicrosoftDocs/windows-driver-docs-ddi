@@ -7,7 +7,7 @@ old-location: display\dxgk_transfervirtualflags.htm
 old-project: display
 ms.assetid: E5323A30-5BBE-4084-9F99-91FBDD680C12
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_TRANSFERVIRTUALFLAGS, DXGK_TRANSFERVIRTUALFLAGS structure [Display Devices], _DXGK_TRANSFERVIRTUALFLAGS, d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS, display.dxgk_transfervirtualflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -73,7 +73,7 @@ When set, the destination page tables are mapped to  64KB pages.
 This member is reserved and should be set to zero.
 
 
-#### - Flags
+### -field Flags
 
 The consolidated value of the structure flags.
 

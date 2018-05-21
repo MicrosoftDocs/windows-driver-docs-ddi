@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bb0fec4e-e6be-46e1-b6be-253dd0579ca6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_AACS_GENERATE_BINDING_NONCE, IOCTL_AACS_GENERATE_BINDING_NONCE control code [Storage Devices], k307_ff2a829d-24b6-4d74-92e4-18c342689db7.xml, ntddcdvd/IOCTL_AACS_GENERATE_BINDING_NONCE, storage.ioctl_aacs_generate_binding_nonce
+ms.keywords: IOCTL_AACS_GENERATE_BINDING_NONCE, IOCTL_AACS_GENERATE_BINDING_NONCE control, IOCTL_AACS_GENERATE_BINDING_NONCE control code [Storage Devices], k307_ff2a829d-24b6-4d74-92e4-18c342689db7.xml, ntddcdvd/IOCTL_AACS_GENERATE_BINDING_NONCE, storage.ioctl_aacs_generate_binding_nonce
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
+req.typenames: 
 ---
 
 # IOCTL_AACS_GENERATE_BINDING_NONCE IOCTL

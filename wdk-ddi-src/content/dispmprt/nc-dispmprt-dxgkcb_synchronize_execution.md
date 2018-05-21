@@ -7,8 +7,8 @@ old-location: display\dxgkcbsynchronizeexecution.htm
 old-project: display
 ms.assetid: 9c659319-d0a5-43a7-b9a9-9fad18397a09
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKCB_SYNCHRONIZE_EXECUTION, DpFunctions_3d9aecd7-8082-4869-a0d1-4a6cdadc4839.xml, DxgkCbSynchronizeExecution, DxgkCbSynchronizeExecution callback function [Display Devices], display.dxgkcbsynchronizeexecution, dispmprt/DxgkCbSynchronizeExecution
+ms.date: 4/16/2018
+ms.keywords: DXGKCB_SYNCHRONIZE_EXECUTION, DXGKCB_SYNCHRONIZE_EXECUTION callback, DpFunctions_3d9aecd7-8082-4869-a0d1-4a6cdadc4839.xml, DxgkCbSynchronizeExecution, DxgkCbSynchronizeExecution callback function [Display Devices], display.dxgkcbsynchronizeexecution, dispmprt/DxgkCbSynchronizeExecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKCB_SYNCHRONIZE_EXECUTION callback
+# DXGKCB_SYNCHRONIZE_EXECUTION callback function
 
 
 ## -description

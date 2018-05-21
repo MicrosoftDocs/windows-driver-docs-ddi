@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: ACCESS_RANGE, *PACCESS_RANGE
-req.product: Windows 10 or later.
 ---
 
 # _ACCESS_RANGE structure

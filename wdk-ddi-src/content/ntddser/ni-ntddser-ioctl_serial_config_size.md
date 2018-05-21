@@ -7,8 +7,8 @@ old-location: serports\ioctl_serial_config_size.htm
 old-project: serports
 ms.assetid: 13229dcc-e698-4743-9ca2-303bef69304c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_SERIAL_CONFIG_SIZE, IOCTL_SERIAL_CONFIG_SIZE control code [Serial Ports], ntddser/IOCTL_SERIAL_CONFIG_SIZE, serports.ioctl_serial_config_size, serref_c851a6c5-27c1-4690-bb2f-36bd458b6629.xml
+ms.date: 4/23/2018
+ms.keywords: IOCTL_SERIAL_CONFIG_SIZE, IOCTL_SERIAL_CONFIG_SIZE control, IOCTL_SERIAL_CONFIG_SIZE control code [Serial Ports], ntddser/IOCTL_SERIAL_CONFIG_SIZE, serports.ioctl_serial_config_size, serref_c851a6c5-27c1-4690-bb2f-36bd458b6629.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SD_REQUEST_FUNCTION
+req.typenames: 
 ---
 
 # IOCTL_SERIAL_CONFIG_SIZE IOCTL

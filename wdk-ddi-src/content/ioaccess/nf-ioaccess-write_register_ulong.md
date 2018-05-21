@@ -7,7 +7,7 @@ old-location: kernel\write_register_ulong.htm
 old-project: kernel
 ms.assetid: d1f3d510-5b2c-4956-b9e0-cd26b2d818a9
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: WRITE_REGISTER_ULONG, WRITE_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], k103_af58a3ec-4102-4a89-9c58-e56f99d793d0.xml, kernel.write_register_ulong, wdm/WRITE_REGISTER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
+req.typenames: 
 ---
 
 # WRITE_REGISTER_ULONG macro

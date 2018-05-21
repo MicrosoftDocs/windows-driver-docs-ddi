@@ -7,28 +7,28 @@ old-location: display\pfnd3d12ddi_video_get_decode_format_count.htm
 old-project: display
 ms.assetid: 84503E38-E141-4DAC-B305-6C7E6157A3E9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020, d3d12umddi/pfnGetDecodeFormatCount, display.pfnd3d12ddi_video_get_decode_format_count, pfnGetDecodeFormatCount, pfnGetDecodeFormatCount callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020, PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020 callback, d3d12umddi/pfnGetDecodeFormatCount, display.pfnd3d12ddi_video_get_decode_format_count, pfnGetDecodeFormatCount, pfnGetDecodeFormatCount callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020 callback
+# PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020 callback function
 
 
 ## -description
@@ -60,6 +60,7 @@ The <i>pfnGetDecodeFormatCount</i> callback function retrieves the number of for
 
 ### -param Arg1
 
+A handle to the display device (graphics context).
 
 ### -param NodeIndex
 
@@ -70,14 +71,6 @@ The physical adapter of the device to which this operation applies.
 
 
 
-
-
-
-
-
-#### - hDrvDevice
-
-The handle of the device.
 
 
 #### - pConfiguration

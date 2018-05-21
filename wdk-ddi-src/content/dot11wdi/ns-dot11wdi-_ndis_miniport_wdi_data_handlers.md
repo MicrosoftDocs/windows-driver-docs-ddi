@@ -7,7 +7,7 @@ old-location: netvista\ndis_miniport_wdi_data_handlers.htm
 old-project: netvista
 ms.assetid: DBDB5F08-9988-4D9B-A731-DA65BBA67813
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_WDI_DATA_HANDLERS, PNDIS_MINIPORT_WDI_DATA_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/PNDIS_MINIPORT_WDI_DATA_HANDLERS, netvista.ndis_miniport_wdi_data_handlers"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -202,7 +202,4 @@ The entry point of the <a href="https://msdn.microsoft.com/993C600F-E2FA-46D7-AE
 
 ### -field TxSuspectFrameAbortHandler
 
- 
-
-
-
+The entry point of the [MiniportWdiTxSuspectFrameAbort](nc-dot11wdi-miniport_wdi_tx_suspect_frame_list_abort.md) handler function.

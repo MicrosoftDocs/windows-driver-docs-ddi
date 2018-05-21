@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.GetBoolean
-title: ExtRemoteData::GetBoolean method
+title: ExtRemoteData::GetBoolean
 author: windows-driver-content
 description: The GetBoolean method returns a Boolean version of the ExtRemoteData object, which represents the contents of the target's memory.
 old-location: debugger\extremotedata_getboolean.htm
 old-project: debugger
 ms.assetid: 7a580683-ae56-4566-95b4-b4d42ae0e1ab
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_791b0934-9cb7-430a-8b80-d7fe4f458f49.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging], GetBoolean method, ExtRemoteData::GetBoolean, GetBoolean method [Windows Debugging], GetBoolean method [Windows Debugging], ExtRemoteData class, GetBoolean,ExtRemoteData.GetBoolean, debugger.extremotedata_getboolean
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_791b0934-9cb7-430a-8b80-d7fe4f458f49.xml, ExtRemoteData class [Windows Debugging],GetBoolean method, ExtRemoteData.GetBoolean, ExtRemoteData::GetBoolean, GetBoolean, GetBoolean method [Windows Debugging], GetBoolean method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getboolean
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::GetBoolean method
+# ExtRemoteData::GetBoolean
 
 
 ## -description

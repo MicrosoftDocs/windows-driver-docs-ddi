@@ -44,8 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_QUERY_INTERFACE_CONFIG, *PWDF_QUERY_INTERFACE_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfRegistryOpenKey function
@@ -200,7 +199,7 @@ Your driver might use this conditional logic:
 </table></span></div>
 When the driver has finished using a registry key that it opens with <b>WdfRegistryOpenKey</b>, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549914">WdfRegistryClose</a>.
 
-For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about registry-key objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

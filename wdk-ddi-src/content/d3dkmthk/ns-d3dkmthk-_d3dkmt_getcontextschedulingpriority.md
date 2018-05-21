@@ -7,7 +7,7 @@ old-location: display\d3dkmt_getcontextschedulingpriority.htm
 old-project: display
 ms.assetid: ef60ba1c-6fff-4553-ba1c-97abbe48fed9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMT_GETCONTEXTSCHEDULINGPRIORITY, D3DKMT_GETCONTEXTSCHEDULINGPRIORITY structure [Display Devices], OpenGL_Structs_076cf4c2-d805-473f-a035-1e0ec357ca1e.xml, _D3DKMT_GETCONTEXTSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_GETCONTEXTSCHEDULINGPRIORITY, display.d3dkmt_getcontextschedulingpriority
 ms.prod: windows-hardware
 ms.technology: windows-devices

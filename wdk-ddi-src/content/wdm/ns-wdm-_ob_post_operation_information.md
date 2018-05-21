@@ -7,7 +7,7 @@ old-location: kernel\ob_post_operation_information.htm
 old-project: kernel
 ms.assetid: fc52e06d-c826-43c2-ac61-4f56fd808d43
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*POB_POST_OPERATION_INFORMATION, OB_POST_OPERATION_INFORMATION, OB_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], POB_POST_OPERATION_INFORMATION, POB_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_POST_OPERATION_INFORMATION, kernel.ob_post_operation_information, kstruct_c_6ef8c6e1-d537-47e0-875f-08f884362459.xml, wdm/OB_POST_OPERATION_INFORMATION, wdm/POB_POST_OPERATION_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: OB_POST_OPERATION_INFORMATION, *POB_POST_OPERATION_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _OB_POST_OPERATION_INFORMATION structure
@@ -78,6 +77,11 @@ A new handle to a process or thread was created. Use <b>Parameters-&gt;CreateHan
 A process or thread handle was duplicated. Use <b>Parameters-&gt;DuplicateHandleInformation</b> for duplicate-specific information.
 
 
+### -field Flags
+
+Reserved. Use the <b>KernelHandle</b> member instead. 
+
+
 ### -field KernelHandle
 
 A ULONG value that specifies whether the handle is a kernel handle. If this value is <b>TRUE</b>, the handle is a kernel handle. Otherwise, the handle is not a kernel handle.
@@ -111,11 +115,6 @@ The NTSTATUS value for the handle operation.
 ### -field Parameters
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558724">OB_POST_OPERATION_PARAMETERS</a> union that contains operation-specific information. The <b>Operation</b> member determines which member of the union is valid. The pointer is valid only when <b>ReturnStatus</b> is a success code.
-
-
-#### - Flags
-
-Reserved. Use the <b>KernelHandle</b> member instead. 
 
 
 ## -remarks

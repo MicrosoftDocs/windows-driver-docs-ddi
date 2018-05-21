@@ -44,8 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_STATE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceOpenRegistryKey function
@@ -283,7 +282,7 @@ If your driver must open a hardware or software key before it has called <a href
 
 When the driver has finished using the registry key that it opened with <b>WdfDeviceOpenRegistryKey</b>, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549914">WdfRegistryClose</a>.
 
-For more information about the registry, hardware and software keys, and registry objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about the registry, hardware and software keys, and registry objects, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

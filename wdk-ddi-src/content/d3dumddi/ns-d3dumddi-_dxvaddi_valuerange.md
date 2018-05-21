@@ -7,7 +7,7 @@ old-location: display\dxvaddi_valuerange.htm
 old-project: display
 ms.assetid: c3013da9-8db4-4346-9be8-77b2c6de3f59
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA2_Structs_37c2cd52-30c3-4e99-918f-6a538547bdd2.xml, DXVADDI_VALUERANGE, DXVADDI_VALUERANGE structure [Display Devices], _DXVADDI_VALUERANGE, d3dumddi/DXVADDI_VALUERANGE, display.dxvaddi_valuerange
 ms.prod: windows-hardware
 ms.technology: windows-devices

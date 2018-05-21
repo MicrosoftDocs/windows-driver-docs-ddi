@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterPropertyBag.GetBytes
-title: IPrinterPropertyBag::GetBytes method
+title: IPrinterPropertyBag::GetBytes
 author: windows-driver-content
 description: Reads a byte array property.
 old-location: print\iprinterpropertybag_getbytes.htm
 old-project: print
 ms.assetid: F75E182D-90FA-4597-95E0-60A6326CF68D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetBytes method [Print Devices], GetBytes method [Print Devices], IPrinterPropertyBag interface, GetBytes,IPrinterPropertyBag.GetBytes, IPrinterPropertyBag, IPrinterPropertyBag interface [Print Devices], GetBytes method, IPrinterPropertyBag::GetBytes, print.iprinterpropertybag_getbytes, printerextension/IPrinterPropertyBag::GetBytes
+ms.date: 4/20/2018
+ms.keywords: GetBytes, GetBytes method [Print Devices], GetBytes method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetBytes method, IPrinterPropertyBag.GetBytes, IPrinterPropertyBag::GetBytes, print.iprinterpropertybag_getbytes, printerextension/IPrinterPropertyBag::GetBytes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterPropertyBag::GetBytes method
+# IPrinterPropertyBag::GetBytes
 
 
 ## -description

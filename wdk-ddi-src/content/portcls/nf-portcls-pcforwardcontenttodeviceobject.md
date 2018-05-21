@@ -7,7 +7,7 @@ old-location: audio\pcforwardcontenttodeviceobject.htm
 old-project: audio
 ms.assetid: 24891f90-422f-4104-97f4-395205e2b862
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: PcForwardContentToDeviceObject, PcForwardContentToDeviceObject function [Audio Devices], audio.pcforwardcontenttodeviceobject, audpc-routines_1dec7e58-07b2-41ce-82d3-5f0670bbc273.xml, portcls/PcForwardContentToDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcForwardContentToDeviceObject function

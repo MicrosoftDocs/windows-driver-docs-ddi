@@ -7,7 +7,7 @@ old-location: buses\_urb_get_isoch_pipe_transfer_path_delays.htm
 old-project: usbref
 ms.assetid: 70B74088-C537-4104-A535-F41A24BB72A5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure [Buses], buses._urb_get_isoch_pipe_transfer_path_delays, usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: 
-req.product: Windows 10 or later.
 ---
 
 # _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure

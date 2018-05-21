@@ -7,8 +7,8 @@ old-location: netvista\protocolupdateoffloadcomplete.htm
 old-project: netvista
 ms.assetid: 3cd7a32a-d560-429b-b191-aeabb87433f3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ProtocolUpdateOffloadComplete, ProtocolUpdateOffloadComplete callback function [Network Drivers Starting with Windows Vista], UPDATE_OFFLOAD_COMPLETE_HANDLER, ndischimney/ProtocolUpdateOffloadComplete, netvista.protocolupdateoffloadcomplete, tcp_chim_protocol_func_dd66a468-9cad-4763-8eea-f7502811368e.xml
+ms.date: 4/25/2018
+ms.keywords: ProtocolUpdateOffloadComplete, ProtocolUpdateOffloadComplete callback function [Network Drivers Starting with Windows Vista], UPDATE_OFFLOAD_COMPLETE_HANDLER, UPDATE_OFFLOAD_COMPLETE_HANDLER callback, ndischimney/ProtocolUpdateOffloadComplete, netvista.protocolupdateoffloadcomplete, tcp_chim_protocol_func_dd66a468-9cad-4763-8eea-f7502811368e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
-# UPDATE_OFFLOAD_COMPLETE_HANDLER callback
+# UPDATE_OFFLOAD_COMPLETE_HANDLER callback function
 
 
 ## -description

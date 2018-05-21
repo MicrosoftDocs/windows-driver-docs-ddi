@@ -7,7 +7,7 @@ old-location: spb\spb_transfer_descriptor.htm
 old-project: SPB
 ms.assetid: 3D370646-3879-4415-8D80-04D0B23839B0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: "*PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR structure pointer [Buses], SPB.spb_transfer_descriptor, SPB_TRANSFER_DESCRIPTOR, SPB_TRANSFER_DESCRIPTOR structure [Buses], spbcx/PSPB_TRANSFER_DESCRIPTOR, spbcx/SPB_TRANSFER_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Any IRQL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: SPB_TRANSFER_DESCRIPTOR, *PSPB_TRANSFER_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # SPB_TRANSFER_DESCRIPTOR structure

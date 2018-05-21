@@ -7,7 +7,7 @@ old-location: buses\_urb_get_current_frame_number.htm
 old-project: usbref
 ms.assetid: 4c6e5064-83b4-4d3c-ab08-041070128f3c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "_URB_GET_CURRENT_FRAME_NUMBER, _URB_GET_CURRENT_FRAME_NUMBER structure [Buses], buses._urb_get_current_frame_number, usb/_URB_GET_CURRENT_FRAME_NUMBER, usbstrct_b767de1b-63fd-4ac4-b696-78e4d0d83661.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: 
-req.product: Windows 10 or later.
 ---
 
 # _URB_GET_CURRENT_FRAME_NUMBER structure

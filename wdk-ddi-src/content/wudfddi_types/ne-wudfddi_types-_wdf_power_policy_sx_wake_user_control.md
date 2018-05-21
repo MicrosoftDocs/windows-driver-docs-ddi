@@ -43,7 +43,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_POWER_POLICY_SX_WAKE_USER_CONTROL
-req.product: Windows 10 or later.
 ---
 
 # _WDF_POWER_POLICY_SX_WAKE_USER_CONTROL enumeration

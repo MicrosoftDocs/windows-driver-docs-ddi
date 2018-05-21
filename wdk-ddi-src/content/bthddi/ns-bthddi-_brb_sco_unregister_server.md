@@ -7,7 +7,7 @@ old-location: bltooth\_brb_sco_unregister_server.htm
 old-project: bltooth
 ms.assetid: a0624d6e-d3e9-45b1-b704-4a05532926f9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "_BRB_SCO_UNREGISTER_SERVER, _BRB_SCO_UNREGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_sco_unregister_server, bth_structs_36fae461-b66e-42e0-8e66-a890e45abbbb.xml, bthddi/_BRB_SCO_UNREGISTER_SERVER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

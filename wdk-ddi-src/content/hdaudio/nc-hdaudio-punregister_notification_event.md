@@ -7,8 +7,8 @@ old-location: audio\unregisternotificationevent.htm
 old-project: audio
 ms.assetid: 525e2dd9-68e1-468d-895e-d9f57372d619
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: PUNREGISTER_NOTIFICATION_EVENT, UnregisterNotificationEvent, UnregisterNotificationEvent callback function [Audio Devices], aud-prop2_3f7488ae-5744-422e-871f-54dc2fd63bc2.xml, audio.unregisternotificationevent, hdaudio/UnregisterNotificationEvent
+ms.date: 4/16/2018
+ms.keywords: PUNREGISTER_NOTIFICATION_EVENT, PUNREGISTER_NOTIFICATION_EVENT callback, UnregisterNotificationEvent, UnregisterNotificationEvent callback function [Audio Devices], aud-prop2_3f7488ae-5744-422e-871f-54dc2fd63bc2.xml, audio.unregisternotificationevent, hdaudio/UnregisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: 
 ---
 
-# PUNREGISTER_NOTIFICATION_EVENT callback
+# PUNREGISTER_NOTIFICATION_EVENT callback function
 
 
 ## -description

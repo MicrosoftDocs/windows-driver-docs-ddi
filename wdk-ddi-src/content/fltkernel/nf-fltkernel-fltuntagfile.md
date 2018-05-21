@@ -7,7 +7,7 @@ old-location: ifsk\fltuntagfile.htm
 old-project: ifsk
 ms.assetid: 728a9879-681b-4244-b931-7945a05e3d40
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_c1e51b69-c780-46bd-b3f0-b78cdc9c3b3f.xml, FltUntagFile, FltUntagFile function [Installable File System Drivers], fltkernel/FltUntagFile, ifsk.fltuntagfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltUntagFile function

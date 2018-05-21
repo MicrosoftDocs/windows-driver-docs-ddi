@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
+req.typenames: 
 ---
 
-# IDE_HW_RESET callback
+# IDE_HW_RESET callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\ndisadvancenetbufferdatastart.htm
 old-project: netvista
 ms.assetid: 49b69282-137d-4bb5-92f5-4d27cedbb6d4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisAdvanceNetBufferDataStart, NdisAdvanceNetBufferDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisAdvanceNetBufferDataStart, ndis_netbuf_functions_ref_b03aee2c-859d-425f-9b07-91b324505ff4.xml, netvista.ndisadvancenetbufferdatastart
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisAdvanceNetBufferDataStart function

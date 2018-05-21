@@ -7,7 +7,7 @@ old-location: stream\kscreatepin2.htm
 old-project: stream
 ms.assetid: 43408247-0c34-46bd-a36b-b11540a10c55
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsCreatePin2, KsCreatePin2 function [Streaming Media Devices], ks/KsCreatePin2, stream.kscreatepin2
 ms.prod: windows-hardware
 ms.technology: windows-devices

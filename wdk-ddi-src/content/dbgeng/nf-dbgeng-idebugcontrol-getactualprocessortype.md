@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.GetActualProcessorType
-title: IDebugControl::GetActualProcessorType method
+title: IDebugControl::GetActualProcessorType
 author: windows-driver-content
 description: The GetActualProcessorType method returns the processor type of the physical processor of the computer that is running the target.
 old-location: debugger\getactualprocessortype.htm
 old-project: debugger
 ms.assetid: c02be0a4-f82a-4895-bbae-21f6ffdc5466
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetActualProcessorType method [Windows Debugging], GetActualProcessorType method [Windows Debugging], IDebugControl interface, GetActualProcessorType method [Windows Debugging], IDebugControl2 interface, GetActualProcessorType method [Windows Debugging], IDebugControl3 interface, GetActualProcessorType,IDebugControl.GetActualProcessorType, IDebugControl, IDebugControl interface [Windows Debugging], GetActualProcessorType method, IDebugControl2 interface [Windows Debugging], GetActualProcessorType method, IDebugControl2::GetActualProcessorType, IDebugControl3 interface [Windows Debugging], GetActualProcessorType method, IDebugControl3::GetActualProcessorType, IDebugControl::GetActualProcessorType, IDebugControl_5511971f-2155-4ba3-b0f3-9bcd91b29555.xml, dbgeng/IDebugControl2::GetActualProcessorType, dbgeng/IDebugControl3::GetActualProcessorType, dbgeng/IDebugControl::GetActualProcessorType, debugger.getactualprocessortype
+ms.date: 4/24/2018
+ms.keywords: GetActualProcessorType, GetActualProcessorType method [Windows Debugging], GetActualProcessorType method [Windows Debugging],IDebugControl interface, GetActualProcessorType method [Windows Debugging],IDebugControl2 interface, GetActualProcessorType method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetActualProcessorType method, IDebugControl.GetActualProcessorType, IDebugControl2 interface [Windows Debugging],GetActualProcessorType method, IDebugControl2::GetActualProcessorType, IDebugControl3 interface [Windows Debugging],GetActualProcessorType method, IDebugControl3::GetActualProcessorType, IDebugControl::GetActualProcessorType, IDebugControl_5511971f-2155-4ba3-b0f3-9bcd91b29555.xml, dbgeng/IDebugControl2::GetActualProcessorType, dbgeng/IDebugControl3::GetActualProcessorType, dbgeng/IDebugControl::GetActualProcessorType, debugger.getactualprocessortype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::GetActualProcessorType method
+# IDebugControl::GetActualProcessorType
 
 
 ## -description

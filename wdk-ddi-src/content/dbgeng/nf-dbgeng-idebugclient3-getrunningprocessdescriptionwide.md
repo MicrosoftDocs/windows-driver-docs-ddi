@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient3.GetRunningProcessDescriptionWide
-title: IDebugClient3::GetRunningProcessDescriptionWide method
+title: IDebugClient3::GetRunningProcessDescriptionWide
 author: windows-driver-content
 description: The GetRunningProcessDescriptionWide method returns a description of the process that includes the executable image name, the service names, the MTS package names, and the command line.
 old-location: debugger\getrunningprocessdescriptionwide.htm
 old-project: debugger
 ms.assetid: 1af85bbe-19e8-4e16-a598-f9822fd6f766
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetRunningProcessDescriptionWide method [Windows Debugging], GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient3 interface, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient4 interface, GetRunningProcessDescriptionWide method [Windows Debugging], IDebugClient5 interface, GetRunningProcessDescriptionWide,IDebugClient3.GetRunningProcessDescriptionWide, IDebugClient3, IDebugClient3 interface [Windows Debugging], GetRunningProcessDescriptionWide method, IDebugClient3::GetRunningProcessDescriptionWide, IDebugClient4 interface [Windows Debugging], GetRunningProcessDescriptionWide method, IDebugClient4::GetRunningProcessDescriptionWide, IDebugClient5 interface [Windows Debugging], GetRunningProcessDescriptionWide method, IDebugClient5::GetRunningProcessDescriptionWide, dbgeng/IDebugClient3::GetRunningProcessDescriptionWide, dbgeng/IDebugClient4::GetRunningProcessDescriptionWide, dbgeng/IDebugClient5::GetRunningProcessDescriptionWide, debugger.getrunningprocessdescriptionwide
+ms.date: 4/24/2018
+ms.keywords: GetRunningProcessDescriptionWide, GetRunningProcessDescriptionWide method [Windows Debugging], GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient3 interface, GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient4 interface, GetRunningProcessDescriptionWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient3.GetRunningProcessDescriptionWide, IDebugClient3::GetRunningProcessDescriptionWide, IDebugClient4 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient4::GetRunningProcessDescriptionWide, IDebugClient5 interface [Windows Debugging],GetRunningProcessDescriptionWide method, IDebugClient5::GetRunningProcessDescriptionWide, dbgeng/IDebugClient3::GetRunningProcessDescriptionWide, dbgeng/IDebugClient4::GetRunningProcessDescriptionWide, dbgeng/IDebugClient5::GetRunningProcessDescriptionWide, debugger.getrunningprocessdescriptionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient3::GetRunningProcessDescriptionWide method
+# IDebugClient3::GetRunningProcessDescriptionWide
 
 
 ## -description

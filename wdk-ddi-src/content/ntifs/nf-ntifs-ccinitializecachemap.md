@@ -7,7 +7,7 @@ old-location: ifsk\ccinitializecachemap.htm
 old-project: ifsk
 ms.assetid: a76027d9-b486-4596-bbe4-0a801ed73256
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CcInitializeCacheMap, CcInitializeCacheMap routine [Installable File System Drivers], ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, ifsk.ccinitializecachemap, ntifs/CcInitializeCacheMap
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcInitializeCacheMap function

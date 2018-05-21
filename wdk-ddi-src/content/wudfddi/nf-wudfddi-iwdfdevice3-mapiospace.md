@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.MapIoSpace
-title: IWDFDevice3::MapIoSpace method
+title: IWDFDevice3::MapIoSpace
 author: windows-driver-content
 description: The MapIoSpace method maps the given physical address range to system address space and returns a pseudo base address.
 old-location: wdf\iwdfdevice3_mapiospace.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 243C7299-7C74-408A-8FB9-32FB3315251F
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFDevice3, IWDFDevice3 interface, MapIoSpace method, IWDFDevice3::\_MapIoSpace, IWDFDevice3::MapIoSpace, MapIoSpace method, MapIoSpace method, IWDFDevice3 interface, MapIoSpace,IWDFDevice3.MapIoSpace, umdf.iwdfdevice3_mapiospace, wdf.iwdfdevice3_mapiospace, wudfddi/IWDFDevice3::\_MapIoSpace
+ms.keywords: IWDFDevice3 interface,MapIoSpace method, IWDFDevice3.MapIoSpace, IWDFDevice3::\_MapIoSpace, IWDFDevice3::MapIoSpace, MapIoSpace, MapIoSpace method, MapIoSpace method,IWDFDevice3 interface, umdf.iwdfdevice3_mapiospace, wdf.iwdfdevice3_mapiospace, wudfddi/IWDFDevice3::\_MapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice3::MapIoSpace method
+# IWDFDevice3::MapIoSpace
 
 
 ## -description

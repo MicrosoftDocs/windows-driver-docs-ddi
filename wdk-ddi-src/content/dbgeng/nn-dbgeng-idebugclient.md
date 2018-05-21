@@ -7,8 +7,8 @@ old-location: debugger\idebugclient.htm
 old-project: debugger
 ms.assetid: 2e47f7ae-2017-4f05-9a06-6c09bb401e21
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient, IDebugClient interface [Windows Debugging], IDebugClient interface [Windows Debugging], described, IDebugClient_3f5f6372-0e7d-4050-b09a-b7776ff8bf7c.xml, dbgeng/IDebugClient, debugger.idebugclient
+ms.date: 4/24/2018
+ms.keywords: IDebugClient, IDebugClient interface [Windows Debugging], IDebugClient interface [Windows Debugging],described, IDebugClient_3f5f6372-0e7d-4050-b09a-b7776ff8bf7c.xml, dbgeng/IDebugClient, debugger.idebugclient
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -45,7 +45,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugClient interface

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons
-title: IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons method
+title: IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
 author: windows-driver-content
 description: Gets the vertical distance between the origin and the bounding limit of the canvas application media size.
 old-location: print\iprintschemapageimageablesize_extentheightinmicrons.htm
 old-project: print
 ms.assetid: AA305230-B194-465F-936E-24FDE9929EAC
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: ExtentHeightInMicrons property [Print Devices], ExtentHeightInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], ExtentHeightInMicrons property, IPrintSchemaPageImageableSize.ExtentHeightInMicrons, IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons, get_ExtentHeightInMicrons, get_ExtentHeightInMicrons,IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons, print.iprintschemapageimageablesize_extentheightinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
+ms.date: 4/20/2018
+ms.keywords: ExtentHeightInMicrons property [Print Devices], ExtentHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices],ExtentHeightInMicrons property, IPrintSchemaPageImageableSize.ExtentHeightInMicrons, IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons, IPrintSchemaPageImageableSize::ExtentHeightInMicrons, IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons, get_ExtentHeightInMicrons, print.iprintschemapageimageablesize_extentheightinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons method
+# IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
 
 
 ## -description

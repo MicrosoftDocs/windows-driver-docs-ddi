@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_connect_with_shared_endpoint.htm
 old-project: netvista
 ms.assetid: E97C0B87-C031-4C91-8FFF-86B5E8324FB8
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_CONNECT_WITH_SHARED_ENDPOINT, NdkConnectWithSharedEndpoint, NdkConnectWithSharedEndpoint callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectWithSharedEndpoint, netvista.ndk_fn_connect_with_shared_endpoint
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CONNECT_WITH_SHARED_ENDPOINT, NDK_FN_CONNECT_WITH_SHARED_ENDPOINT callback, NdkConnectWithSharedEndpoint, NdkConnectWithSharedEndpoint callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectWithSharedEndpoint, netvista.ndk_fn_connect_with_shared_endpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CONNECT_WITH_SHARED_ENDPOINT callback
+# NDK_FN_CONNECT_WITH_SHARED_ENDPOINT callback function
 
 
 ## -description

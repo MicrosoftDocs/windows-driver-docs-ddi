@@ -7,8 +7,8 @@ old-location: debugger\idebugadvanced4.htm
 old-project: debugger
 ms.assetid: 1AB058ED-F0FC-47AC-9C0B-152CFE612F03
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugAdvanced4, IDebugAdvanced4 interface [Windows Debugging], IDebugAdvanced4 interface [Windows Debugging], described, dbgeng/IDebugAdvanced4, debugger.idebugadvanced4
+ms.date: 4/24/2018
+ms.keywords: IDebugAdvanced4, IDebugAdvanced4 interface [Windows Debugging], IDebugAdvanced4 interface [Windows Debugging],described, dbgeng/IDebugAdvanced4, debugger.idebugadvanced4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugAdvanced4 interface

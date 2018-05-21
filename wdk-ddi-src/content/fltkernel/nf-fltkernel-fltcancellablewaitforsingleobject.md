@@ -7,7 +7,7 @@ old-location: ifsk\fltcancellablewaitforsingleobject.htm
 old-project: ifsk
 ms.assetid: bf872769-c084-44c9-97e8-58eb54f943b2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_e71d2b38-ae04-4026-bb99-d0d99ea4ec05.xml, FltCancellableWaitForSingleObject, FltCancellableWaitForSingleObject routine [Installable File System Drivers], fltkernel/FltCancellableWaitForSingleObject, ifsk.fltcancellablewaitforsingleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltCancellableWaitForSingleObject function

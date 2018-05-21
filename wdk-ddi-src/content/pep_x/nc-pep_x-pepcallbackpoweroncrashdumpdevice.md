@@ -7,7 +7,7 @@ old-location: kernel\powerondumpdevicecallback.htm
 old-project: kernel
 ms.assetid: 83E5D362-BC3C-4480-9904-6ABBB26DAFF2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: PEPCALLBACKPOWERONCRASHDUMPDEVICE, PowerOnDumpDeviceCallback, PowerOnDumpDeviceCallback routine [Kernel-Mode Driver Architecture], kernel.powerondumpdevicecallback, pepfx/PowerOnDumpDeviceCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
+req.typenames: 
 ---
 
-# PEPCALLBACKPOWERONCRASHDUMPDEVICE callback
+# PEPCALLBACKPOWERONCRASHDUMPDEVICE callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\miniportwditaltxrxstart.htm
 old-project: netvista
 ms.assetid: 6F88F4B1-8D2A-41CC-8D60-C1CF91ED072A
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_TAL_TXRX_START, MiniportWdiTalTxRxStart, MiniportWdiTalTxRxStart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxStart, netvista.miniportwditaltxrxstart
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_TAL_TXRX_START, MINIPORT_WDI_TAL_TXRX_START callback, MiniportWdiTalTxRxStart, MiniportWdiTalTxRxStart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxStart, netvista.miniportwditaltxrxstart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_TAL_TXRX_START callback
+# MINIPORT_WDI_TAL_TXRX_START callback function
 
 
 ## -description

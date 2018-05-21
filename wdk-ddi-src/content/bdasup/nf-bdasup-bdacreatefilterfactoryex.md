@@ -7,7 +7,7 @@ old-location: stream\bdacreatefilterfactoryex.htm
 old-project: stream
 ms.assetid: 105b6a66-5800-4079-af88-f44d01134ff0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: BdaCreateFilterFactoryEx, BdaCreateFilterFactoryEx function [Streaming Media Devices], bdaref_9a145859-e899-4180-ac91-63479e4e04c0.xml, bdasup/BdaCreateFilterFactoryEx, stream.bdacreatefilterfactoryex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
+req.typenames: 
 ---
 
 # BdaCreateFilterFactoryEx function

@@ -7,8 +7,8 @@ old-location: display\pfncreatesynchronizationobjectcb.htm
 old-project: display
 ms.assetid: 1b87d3cc-685a-4768-b4fd-dbe0a0cbec37
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: D3Druntime_Functions_6c4f40ee-12b2-47a8-bbec-8591b730bef5.xml, PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB, d3dumddi/pfnCreateSynchronizationObjectCb, display.pfncreatesynchronizationobjectcb, pfnCreateSynchronizationObjectCb, pfnCreateSynchronizationObjectCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: D3Druntime_Functions_6c4f40ee-12b2-47a8-bbec-8591b730bef5.xml, PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB, PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB callback, d3dumddi/pfnCreateSynchronizationObjectCb, display.pfncreatesynchronizationobjectcb, pfnCreateSynchronizationObjectCb, pfnCreateSynchronizationObjectCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB callback
+# PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\zwqueryeafile.htm
 old-project: kernel
 ms.assetid: c4261a83-3c91-4bc1-93bf-d2d04c324e94
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ZwQueryEaFile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture], kernel.zwqueryeafile, ntifs/ZwQueryEaFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # ZwQueryEaFile function

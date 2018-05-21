@@ -7,7 +7,7 @@ old-location: buses\_ucxusbdeviceinitseteventcallbacks.htm
 old-project: usbref
 ms.assetid: 913F96FD-9C51-4A45-86A9-8830E1A395EE
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcxUsbDeviceInitSetEventCallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses], buses._ucxusbdeviceinitseteventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UCX_USBDEVICE_CHARACTERISTIC_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcxUsbDeviceInitSetEventCallbacks function

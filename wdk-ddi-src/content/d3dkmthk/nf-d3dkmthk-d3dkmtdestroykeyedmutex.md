@@ -7,7 +7,7 @@ old-location: display\d3dkmtdestroykeyedmutex.htm
 old-project: display
 ms.assetid: 5905035f-25e1-49df-bf59-bef81e724c49
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTDestroyKeyedMutex, D3DKMTDestroyKeyedMutex function [Display Devices], OpenGL_Functions_de5400f1-6ef8-431c-a838-8c82cb03d7f1.xml, d3dkmthk/D3DKMTDestroyKeyedMutex, display.d3dkmtdestroykeyedmutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTDestroyKeyedMutex function

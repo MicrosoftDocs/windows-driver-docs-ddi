@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_DMA_PROFILE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function

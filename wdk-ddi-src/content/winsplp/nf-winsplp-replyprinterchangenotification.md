@@ -7,7 +7,7 @@ old-location: print\replyprinterchangenotification.htm
 old-project: print
 ms.assetid: 0b5378fa-ab1d-453f-b976-f6cd0d4247de
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: ReplyPrinterChangeNotification, ReplyPrinterChangeNotification function [Print Devices], print.replyprinterchangenotification, spoolfnc_524073df-9320-46d6-b4fe-6d3b73ccbe5b.xml, winsplp/ReplyPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ReplyPrinterChangeNotification function

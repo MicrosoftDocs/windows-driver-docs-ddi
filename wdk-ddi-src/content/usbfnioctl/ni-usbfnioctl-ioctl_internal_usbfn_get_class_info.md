@@ -7,8 +7,8 @@ old-location: buses\ioctl_internal_usbfn_get_class_info.htm
 old-project: usbref
 ms.assetid: 870D7D8C-B2FE-487A-9098-C004E6C7E159
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_INTERNAL_USBFN_GET_CLASS_INFO, IOCTL_INTERNAL_USBFN_GET_CLASS_INFO control code [Buses], buses.ioctl_internal_usbfn_get_class_info, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_CLASS_INFO
+ms.date: 4/25/2018
+ms.keywords: IOCTL_INTERNAL_USBFN_GET_CLASS_INFO, IOCTL_INTERNAL_USBFN_GET_CLASS_INFO control, IOCTL_INTERNAL_USBFN_GET_CLASS_INFO control code [Buses], buses.ioctl_internal_usbfn_get_class_info, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_CLASS_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USBFN_USB_STRING, *PUSBFN_USB_STRING
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_USBFN_GET_CLASS_INFO IOCTL

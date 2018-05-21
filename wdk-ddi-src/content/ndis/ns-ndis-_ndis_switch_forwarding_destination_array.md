@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_forwarding_destination_array.htm
 old-project: netvista
 ms.assetid: f48b3b5f-000e-4e57-87b7-52ce542773f7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, ndis/NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, ndis/PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, netvista.ndis_switch_forwarding_destination_array"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

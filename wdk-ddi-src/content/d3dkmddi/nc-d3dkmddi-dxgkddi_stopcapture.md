@@ -7,8 +7,8 @@ old-location: display\dxgkddistopcapture.htm
 old-project: display
 ms.assetid: e5d622cc-c550-44cf-8923-5092226066d9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_STOPCAPTURE, DmFunctions_108ab359-fe5b-46f2-bc1b-f1f91bd5b327.xml, DxgkDdiStopCapture, DxgkDdiStopCapture callback function [Display Devices], d3dkmddi/DxgkDdiStopCapture, display.dxgkddistopcapture
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_STOPCAPTURE, DXGKDDI_STOPCAPTURE callback, DmFunctions_108ab359-fe5b-46f2-bc1b-f1f91bd5b327.xml, DxgkDdiStopCapture, DxgkDdiStopCapture callback function [Display Devices], d3dkmddi/DxgkDdiStopCapture, display.dxgkddistopcapture
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_STOPCAPTURE callback
+# DXGKDDI_STOPCAPTURE callback function
 
 
 ## -description

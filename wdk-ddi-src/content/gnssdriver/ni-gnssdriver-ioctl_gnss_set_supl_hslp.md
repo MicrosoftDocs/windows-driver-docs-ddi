@@ -3,12 +3,12 @@ UID: NI:gnssdriver.IOCTL_GNSS_SET_SUPL_HSLP
 title: IOCTL_GNSS_SET_SUPL_HSLP
 author: windows-driver-content
 description: The IOCTL_GNSS_SET_SUPL_HSLP control code is used by the GNSS adapter to set the SUPL H-SLP address.
-old-location: sensors\ioctl_gnss_set_supl_hslp.htm
-old-project: sensors
+old-location: gnss\ioctl_gnss_set_supl_hslp.htm
+old-project: gnss
 ms.assetid: A6056EB4-4CEA-4C80-A3CA-1B6B81F47889
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: IOCTL_GNSS_SET_SUPL_HSLP, IOCTL_GNSS_SET_SUPL_HSLP control code [Sensor Devices], gnssdriver/IOCTL_GNSS_SET_SUPL_HSLP, sensors.ioctl_gnss_set_supl_hslp
+ms.date: 2/15/2018
+ms.keywords: IOCTL_GNSS_SET_SUPL_HSLP, IOCTL_GNSS_SET_SUPL_HSLP control, IOCTL_GNSS_SET_SUPL_HSLP control code [Sensor Devices], gnss.ioctl_gnss_set_supl_hslp, gnssdriver/IOCTL_GNSS_SET_SUPL_HSLP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: GNSS_SUPL_CERT_ACTION
+req.typenames: 
 ---
 
 # IOCTL_GNSS_SET_SUPL_HSLP IOCTL

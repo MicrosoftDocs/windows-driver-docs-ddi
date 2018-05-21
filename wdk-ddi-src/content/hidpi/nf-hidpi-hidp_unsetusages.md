@@ -7,7 +7,7 @@ old-location: hid\hidp_unsetusages.htm
 old-project: hid
 ms.assetid: 55dcd9f3-6903-4718-98c2-ee42ee1026e3
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: HidP_UnsetUsages, HidP_UnsetUsages routine [Human Input Devices], hid.hidp_unsetusages, hidfunc_7ffa6677-1a45-4e19-8001-116fbeacf097.xml, hidpi/HidP_UnsetUsages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HIDP_REPORT_TYPE
+req.typenames: 
 ---
 
 # HidP_UnsetUsages function

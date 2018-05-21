@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,34 +63,34 @@ The WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union describes which members of 
  
 
 
-### -field ValidBits
-
-A ULONGLONG representation of the contents of the WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union.
-
-
-#### - ContextInfoCount
-
-The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560647">WHEA_XPF_CONTEXT_INFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
-
-
-#### - CpuId
-
-A single bit that indicates that the <b>CpuId</b> member of the WHEA_XPF_PROCESSOR_ERROR_SECTION structure contains valid data.
-
-
-#### - LocalAPICId
+### -field DUMMYSTRUCTNAME.LocalAPICId
 
 A single bit that indicates that the <b>LocalAPICId</b> member of the WHEA_XPF_PROCESSOR_ERROR_SECTION structure contains valid data.
 
 
-#### - ProcInfoCount
+### -field DUMMYSTRUCTNAME.CpuId
+
+A single bit that indicates that the <b>CpuId</b> member of the WHEA_XPF_PROCESSOR_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.ProcInfoCount
 
 The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.ContextInfoCount
+
+The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560647">WHEA_XPF_CONTEXT_INFO</a> structures that are contained in the WHEA_XPF_PROCESSOR_ERROR_SECTION structure's <b>VariableInfo</b> member.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
+
+
+### -field ValidBits
+
+A ULONGLONG representation of the contents of the WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union.
 
 
 ## -remarks

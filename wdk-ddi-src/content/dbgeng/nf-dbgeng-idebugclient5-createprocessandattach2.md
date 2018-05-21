@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.CreateProcessAndAttach2
-title: IDebugClient5::CreateProcessAndAttach2 method
+title: IDebugClient5::CreateProcessAndAttach2
 author: windows-driver-content
 description: The CreateProcessAndAttach2 method creates a process from a specified command line, then attaches to that process or another user-mode process.
 old-location: debugger\createprocessandattach2.htm
 old-project: debugger
 ms.assetid: 2e479563-8ffd-40cd-a584-d34de2530e1d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CreateProcessAndAttach2 method [Windows Debugging], CreateProcessAndAttach2 method [Windows Debugging], IDebugClient5 interface, CreateProcessAndAttach2,IDebugClient5.CreateProcessAndAttach2, IDebugClient5, IDebugClient5 interface [Windows Debugging], CreateProcessAndAttach2 method, IDebugClient5::CreateProcessAndAttach2, IDebugClient_898e4cd4-45bf-43b8-80be-f761743e7f5c.xml, dbgeng/IDebugClient5::CreateProcessAndAttach2, debugger.createprocessandattach2
+ms.date: 4/24/2018
+ms.keywords: CreateProcessAndAttach2, CreateProcessAndAttach2 method [Windows Debugging], CreateProcessAndAttach2 method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],CreateProcessAndAttach2 method, IDebugClient5.CreateProcessAndAttach2, IDebugClient5::CreateProcessAndAttach2, IDebugClient_898e4cd4-45bf-43b8-80be-f761743e7f5c.xml, dbgeng/IDebugClient5::CreateProcessAndAttach2, debugger.createprocessandattach2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::CreateProcessAndAttach2 method
+# IDebugClient5::CreateProcessAndAttach2
 
 
 ## -description

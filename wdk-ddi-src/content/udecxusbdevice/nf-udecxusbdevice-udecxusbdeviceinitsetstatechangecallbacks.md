@@ -7,7 +7,7 @@ old-location: buses\udecxusbdeviceinitsetstatechangecallbacks.htm
 old-project: usbref
 ms.assetid: A4D0B6BC-56FD-4378-A8F9-0A306D3FF22F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UdecxUsbDeviceInitSetStateChangeCallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses], buses.udecxusbdeviceinitsetstatechangecallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UdecxUsbDeviceInitSetStateChangeCallbacks function

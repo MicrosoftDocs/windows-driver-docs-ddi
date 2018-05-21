@@ -7,8 +7,8 @@ old-location: display\pfnd3d12ddi_createvideodecoderheap_0033_.htm
 old-project: display
 ms.assetid: BCCDBC42-FE6B-49C6-9E95-F0CF7F5CCB2E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D12DDI_CREATEVIDEODECODERHEAP_0033, PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEVIDEODECODERHEAP_0033, display.pfnd3d12ddi_createvideodecoderheap_0033_
+ms.date: 4/16/2018
+ms.keywords: PFND3D12DDI_CREATEVIDEODECODERHEAP_0033, PFND3D12DDI_CREATEVIDEODECODERHEAP_0033  callback, PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEVIDEODECODERHEAP_0033, display.pfnd3d12ddi_createvideodecoderheap_0033_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3D11_1DDI_GETCAPTUREHANDLEDATA
+req.typenames: 
 ---
 
-# PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 callback
+# PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\ps_create_notify_info.htm
 old-project: kernel
 ms.assetid: 66fade6b-b1c1-477c-bd44-2809d02271f2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO structure pointer [Kernel-Mode Driver Architecture], PS_CREATE_NOTIFY_INFO, PS_CREATE_NOTIFY_INFO structure [Kernel-Mode Driver Architecture], _PS_CREATE_NOTIFY_INFO, kernel.ps_create_notify_info, kstruct_c_489ee208-518d-41f1-af90-a8873f3e7fb0.xml, ntddk/PPS_CREATE_NOTIFY_INFO, ntddk/PS_CREATE_NOTIFY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -61,6 +61,11 @@ The <b>PS_CREATE_NOTIFY_INFO</b> structure provides information about a newly cr
 ### -field Size
 
 The size, in bytes, of this structure. The operating system uses this size to indicate the type of structure that it passes to <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff559951">CreateProcessNotifyEx</a>. Currently, this member is always <b>sizeof</b>(<b>PS_CREATE_NOTIFY_INFO</b>).
+
+
+### -field Flags
+
+Reserved. Use the <b>FileOpenNameAvailable</b> member instead. 
 
 
 ### -field FileOpenNameAvailable
@@ -123,11 +128,6 @@ A pointer to a <b>UNICODE_STRING</b> string that holds the command that is used 
 ### -field CreationStatus
 
 The NTSTATUS value to return for the process-creation operation. Drivers can change this value to an error code to prevent the process from being created.
-
-
-#### - Flags
-
-Reserved. Use the <b>FileOpenNameAvailable</b> member instead. 
 
 
 ## -see-also

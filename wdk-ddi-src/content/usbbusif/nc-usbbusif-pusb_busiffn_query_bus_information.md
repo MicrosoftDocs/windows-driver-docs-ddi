@@ -7,8 +7,8 @@ old-location: buses\querybusinformation.htm
 old-project: usbref
 ms.assetid: cc03ae88-89ba-44ff-bfe7-6255f2a2ec5c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PUSB_BUSIFFN_QUERY_BUS_INFORMATION, QueryBusInformation, QueryBusInformation callback function [Buses], USB_BUSIFFN_QUERY_BUS_INFORMATION, buses.querybusinformation, usbbusif/QueryBusInformation, usbinterKR_91d1f7ee-5cd2-4f87-bc4c-16972039f5e3.xml
+ms.date: 4/25/2018
+ms.keywords: PUSB_BUSIFFN_QUERY_BUS_INFORMATION, QueryBusInformation, QueryBusInformation callback function [Buses], USB_BUSIFFN_QUERY_BUS_INFORMATION, USB_BUSIFFN_QUERY_BUS_INFORMATION callback, buses.querybusinformation, usbbusif/QueryBusInformation, usbinterKR_91d1f7ee-5cd2-4f87-bc4c-16972039f5e3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PUSB_BUSIFFN_QUERY_BUS_INFORMATION callback
+# PUSB_BUSIFFN_QUERY_BUS_INFORMATION callback function
 
 
 ## -description

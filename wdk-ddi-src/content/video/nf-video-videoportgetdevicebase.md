@@ -7,7 +7,7 @@ old-location: display\videoportgetdevicebase.htm
 old-project: display
 ms.assetid: 53665c1d-8c0b-45c7-8d23-13c0964eda39
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortGetDeviceBase, VideoPortGetDeviceBase function [Display Devices], VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, display.videoportgetdevicebase, video/VideoPortGetDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortGetDeviceBase function

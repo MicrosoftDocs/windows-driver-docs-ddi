@@ -7,7 +7,7 @@ old-location: buses\_urb_control_descriptor_request.htm
 old-project: usbref
 ms.assetid: 770659f4-701f-47dc-b20f-e51c85cdee4b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "_URB_CONTROL_DESCRIPTOR_REQUEST, _URB_CONTROL_DESCRIPTOR_REQUEST structure [Buses], buses._urb_control_descriptor_request, usb/_URB_CONTROL_DESCRIPTOR_REQUEST, usbstrct_f28020e9-3fa4-466c-8cc5-5630d3b06d9c.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: 
-req.product: Windows 10 or later.
 ---
 
 # _URB_CONTROL_DESCRIPTOR_REQUEST structure

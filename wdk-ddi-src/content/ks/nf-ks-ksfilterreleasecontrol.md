@@ -7,7 +7,7 @@ old-location: stream\ksfilterreleasecontrol.htm
 old-project: stream
 ms.assetid: 4f868e88-ef5c-4fad-be53-2b5116a6385b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFilterReleaseControl, KsFilterReleaseControl function [Streaming Media Devices], avfunc_ca99338c-1cae-4ef4-8ef5-76ee368ae1d6.xml, ks/KsFilterReleaseControl, stream.ksfilterreleasecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: ifsk\fltgetfilenameinformationunsafe.htm
 old-project: ifsk
 ms.assetid: 3c5ec515-d332-4fef-8b78-b2f04a672fd7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_b6504bfd-52eb-4563-a581-ccb0b6a9afc1.xml, FltGetFileNameInformationUnsafe, FltGetFileNameInformationUnsafe routine [Installable File System Drivers], fltkernel/FltGetFileNameInformationUnsafe, ifsk.fltgetfilenameinformationunsafe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltGetFileNameInformationUnsafe function

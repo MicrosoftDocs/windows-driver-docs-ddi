@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.get_PageImageableSize
-title: IPrintSchemaCapabilities::get_PageImageableSize method
+title: IPrintSchemaCapabilities::get_PageImageableSize
 author: windows-driver-content
 description: Gets the imageable area information of the printer.
 old-location: print\iprintschemacapabilities_pageimageablesize.htm
 old-project: print
 ms.assetid: 5FA7613C-8714-481D-8439-9F3334D2E9E5
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], PageImageableSize property, IPrintSchemaCapabilities.PageImageableSize, IPrintSchemaCapabilities::get_PageImageableSize, PageImageableSize property [Print Devices], PageImageableSize property [Print Devices], IPrintSchemaCapabilities interface, get_PageImageableSize, get_PageImageableSize,IPrintSchemaCapabilities.get_PageImageableSize, print.iprintschemacapabilities_pageimageablesize, printerextension/IPrintSchemaCapabilities::PageImageableSize, printerextension/IPrintSchemaCapabilities::get_PageImageableSize
+ms.date: 4/20/2018
+ms.keywords: IPrintSchemaCapabilities interface [Print Devices],PageImageableSize property, IPrintSchemaCapabilities.PageImageableSize, IPrintSchemaCapabilities.get_PageImageableSize, IPrintSchemaCapabilities::PageImageableSize, IPrintSchemaCapabilities::get_PageImageableSize, PageImageableSize property [Print Devices], PageImageableSize property [Print Devices],IPrintSchemaCapabilities interface, get_PageImageableSize, print.iprintschemacapabilities_pageimageablesize, printerextension/IPrintSchemaCapabilities::PageImageableSize, printerextension/IPrintSchemaCapabilities::get_PageImageableSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaCapabilities::get_PageImageableSize method
+# IPrintSchemaCapabilities::get_PageImageableSize
 
 
 ## -description

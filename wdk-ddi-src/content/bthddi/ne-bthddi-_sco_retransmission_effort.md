@@ -7,7 +7,7 @@ old-location: bltooth\sco_retransmission_effort.htm
 old-project: bltooth
 ms.assetid: bf466384-bf13-42cc-a02d-ef880cac4c02
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: "*PSCO_RETRANSMISSION_EFFORT, PSCO_RETRANSMISSION_EFFORT, PSCO_RETRANSMISSION_EFFORT enumeration pointer [Bluetooth Devices], SCO_RETRANSMISSION_DONT_CARE, SCO_RETRANSMISSION_EFFORT, SCO_RETRANSMISSION_EFFORT enumeration [Bluetooth Devices], SCO_RETRANSMISSION_MIN1_POWER, SCO_RETRANSMISSION_MIN1_QUALITY, SCO_RETRANSMISSION_NONE, _SCO_RETRANSMISSION_EFFORT, bltooth.sco_retransmission_effort, bth_enums_00709c56-9596-40d6-a789-840c5c1c7d33.xml, bthddi/PSCO_RETRANSMISSION_EFFORT, bthddi/SCO_RETRANSMISSION_DONT_CARE, bthddi/SCO_RETRANSMISSION_EFFORT, bthddi/SCO_RETRANSMISSION_MIN1_POWER, bthddi/SCO_RETRANSMISSION_MIN1_QUALITY, bthddi/SCO_RETRANSMISSION_NONE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Developers should code this function to operate at either IRQL = DISPATCH_LEVEL (if the callback   function does not access paged memory), or IRQL = PASSIVE_LEVEL (if the callback function must access   paged memory)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

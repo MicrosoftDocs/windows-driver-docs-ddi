@@ -7,7 +7,7 @@ old-location: ifsk\rtlgetnonvolatiletoken.htm
 old-project: ifsk
 ms.assetid: A9E866D4-C47F-4926-A838-EDB739CF1185
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlGetNonVolatileToken, RtlGetNonVolatileToken routine [Installable File System Drivers], ifsk.rtlgetnonvolatiletoken, ntddk/RtlGetNonVolatileToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlGetNonVolatileToken function

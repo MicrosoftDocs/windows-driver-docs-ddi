@@ -7,7 +7,7 @@ old-location: netvista\rilopenuicclogicalchannelparams.htm
 old-project: netvista
 ms.assetid: 4bc3a16b-dc9e-4c15-9083-75ac4608def5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS, RILOPENUICCLOGICALCHANNELPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelparams, ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILOPENUICCLOGICALCHANNELPARAMS, *LPRILOPENUICCLOGICALCHANNELPARAMS
-req.product: Windows 10 or later.
 ---
 
 # RILOPENUICCLOGICALCHANNELPARAMS structure

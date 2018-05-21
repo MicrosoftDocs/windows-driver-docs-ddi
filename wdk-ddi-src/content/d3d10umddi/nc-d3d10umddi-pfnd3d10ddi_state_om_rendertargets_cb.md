@@ -7,8 +7,8 @@ old-location: display\pfnstateomrendertargetscb.htm
 old-project: display
 ms.assetid: d17cd31d-44a1-4f7d-82be-1201c0d5769f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D10DDI_STATE_OM_RENDERTARGETS_CB, d3d10state_functions_d1d161af-c985-4d8d-b734-7acda03b13ce.xml, d3d10umddi/pfnStateOmRenderTargetsCb, display.pfnstateomrendertargetscb, pfnStateOmRenderTargetsCb, pfnStateOmRenderTargetsCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D10DDI_STATE_OM_RENDERTARGETS_CB, PFND3D10DDI_STATE_OM_RENDERTARGETS_CB callback, d3d10state_functions_d1d161af-c985-4d8d-b734-7acda03b13ce.xml, d3d10umddi/pfnStateOmRenderTargetsCb, display.pfnstateomrendertargetscb, pfnStateOmRenderTargetsCb, pfnStateOmRenderTargetsCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_STATE_OM_RENDERTARGETS_CB callback
+# PFND3D10DDI_STATE_OM_RENDERTARGETS_CB callback function
 
 
 ## -description

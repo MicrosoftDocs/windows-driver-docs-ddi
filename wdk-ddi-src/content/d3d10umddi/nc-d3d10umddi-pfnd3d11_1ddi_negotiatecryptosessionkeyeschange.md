@@ -7,8 +7,8 @@ old-location: display\negotiatecryptosessionkeyexchange.htm
 old-project: display
 ms.assetid: a48dcbae-3236-4523-bc14-4be694da9a7b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: NegotiateCryptoSessionKeyExchange, NegotiateCryptoSessionKeyExchange callback function [Display Devices], PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE, d3d10umddi/NegotiateCryptoSessionKeyExchange, display.negotiatecryptosessionkeyexchange
+ms.date: 4/16/2018
+ms.keywords: NegotiateCryptoSessionKeyExchange, NegotiateCryptoSessionKeyExchange callback function [Display Devices], PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE, PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback, d3d10umddi/NegotiateCryptoSessionKeyExchange, display.negotiatecryptosessionkeyexchange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback
+# PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback function
 
 
 ## -description

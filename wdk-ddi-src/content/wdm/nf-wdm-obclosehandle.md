@@ -7,7 +7,7 @@ old-location: kernel\obclosehandle.htm
 old-project: kernel
 ms.assetid: 15D6A09F-2AEC-431F-91F4-D1571DB56E81
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ObCloseHandle, ObCloseHandle routine [Kernel-Mode Driver Architecture], kernel.obclosehandle, wdm/ObCloseHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ObCloseHandle function

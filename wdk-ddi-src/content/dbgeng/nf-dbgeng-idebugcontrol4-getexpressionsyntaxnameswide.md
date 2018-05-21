@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetExpressionSyntaxNamesWide
-title: IDebugControl4::GetExpressionSyntaxNamesWide method
+title: IDebugControl4::GetExpressionSyntaxNamesWide
 author: windows-driver-content
 description: The GetExpressionSyntaxNamesWide method returns the full and abbreviated names of an expression syntax.
 old-location: debugger\getexpressionsyntaxnameswide.htm
 old-project: debugger
 ms.assetid: 4d381718-366b-483b-804d-b12b31832b35
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetExpressionSyntaxNamesWide method [Windows Debugging], GetExpressionSyntaxNamesWide method [Windows Debugging], IDebugControl4 interface, GetExpressionSyntaxNamesWide,IDebugControl4.GetExpressionSyntaxNamesWide, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetExpressionSyntaxNamesWide method, IDebugControl4::GetExpressionSyntaxNamesWide, dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide, debugger.getexpressionsyntaxnameswide
+ms.date: 4/24/2018
+ms.keywords: GetExpressionSyntaxNamesWide, GetExpressionSyntaxNamesWide method [Windows Debugging], GetExpressionSyntaxNamesWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExpressionSyntaxNamesWide method, IDebugControl4.GetExpressionSyntaxNamesWide, IDebugControl4::GetExpressionSyntaxNamesWide, dbgeng/IDebugControl4::GetExpressionSyntaxNamesWide, debugger.getexpressionsyntaxnameswide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetExpressionSyntaxNamesWide method
+# IDebugControl4::GetExpressionSyntaxNamesWide
 
 
 ## -description

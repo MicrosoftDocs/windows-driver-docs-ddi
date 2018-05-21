@@ -7,8 +7,8 @@ old-location: serports\evtsercx2customtransmittransactioncleanup.htm
 old-project: serports
 ms.assetid: CEADF06B-FD60-4B4C-AB59-1ED6B1226204
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2CustomTransmitTransactionCleanup, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP, EvtSerCx2CustomTransmitTransactionCleanup, EvtSerCx2CustomTransmitTransactionCleanup callback function [Serial Ports], serports.evtsercx2customtransmittransactioncleanup
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2CustomTransmitTransactionCleanup, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP callback, EvtSerCx2CustomTransmitTransactionCleanup, EvtSerCx2CustomTransmitTransactionCleanup callback function [Serial Ports], serports.evtsercx2customtransmittransactioncleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP callback
+# EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP callback function
 
 
 ## -description

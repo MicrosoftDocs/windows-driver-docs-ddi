@@ -88,16 +88,14 @@ Indicates, when <b>TRUE</b>, that the partition information has changed. When <b
  
 
 
-
-
-#### - Gpt
-
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563763">PARTITION_INFORMATION_GPT</a> containing information specific to a partition with a <b>PartitionStyle</b> member of PARTITION_STYLE_GPT.
-
-
-#### - Mbr
+### -field DUMMYUNIONNAME.Mbr
 
 Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563767">PARTITION_INFORMATION_MBR</a> containing information specific to a partition with a <b>PartitionStyle</b> member of PARTITION_STYLE_MBR.
+
+
+### -field DUMMYUNIONNAME.Gpt
+
+Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563763">PARTITION_INFORMATION_GPT</a> containing information specific to a partition with a <b>PartitionStyle</b> member of PARTITION_STYLE_GPT.
 
 
 ## -remarks

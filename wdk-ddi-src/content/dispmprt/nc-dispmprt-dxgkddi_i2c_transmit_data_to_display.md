@@ -7,8 +7,8 @@ old-location: display\dxgkddii2ctransmitdatatodisplay.htm
 old-project: display
 ms.assetid: 67a08982-5d2f-4cd8-be14-76977fde0aac
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml, DxgkDdiI2CTransmitDataToDisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], display.dxgkddii2ctransmitdatatodisplay, dispmprt/DxgkDdiI2CTransmitDataToDisplay
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY, DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback, DmFunctions_6152910a-6f9c-4686-b025-2508bbfdf257.xml, DxgkDdiI2CTransmitDataToDisplay, DxgkDdiI2CTransmitDataToDisplay callback function [Display Devices], display.dxgkddii2ctransmitdatatodisplay, dispmprt/DxgkDdiI2CTransmitDataToDisplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -16,18 +16,18 @@ req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback
+# DXGKDDI_I2C_TRANSMIT_DATA_TO_DISPLAY callback function
 
 
 ## -description
@@ -79,11 +79,6 @@ The length, in bytes, of the data to be transmitted. This parameter must be betw
 
 
 ### -param PVOID
-
-
-
-
-
 
 
 
@@ -157,9 +152,9 @@ The I2C address was successfully transmitted, but there was an error transmittin
 
 
 
-The video present target identified by <i>VidPnTargetId</i> is associated with one of the video outputs on the display adapter. The data is transmitted to an I2C device in the monitor that is connected to that video output. 
+The video present target identified by <i>VidPnTargetId</i> is associated with one of the video outputs on the display adapter. The data is transmitted to an I2C device in the monitor that is connected to that video output.
 
-<i>DxgkDdiI2CTransmitDataToDisplay</i> is responsible for signaling the I2C start condition, sending the I2C address, sending the data in the buffer, checking for acknowledgments from the receiver, and signaling the stop condition. For details about the I2C bus, see the <i>I2C Bus Specification</i>, published by Philips Semiconductors. The specification defines a protocol for initiating I2C communication, reading and writing bytes over the I2C data line, and terminating I2C communication. 
+<i>DxgkDdiI2CTransmitDataToDisplay</i> is responsible for signaling the I2C start condition, sending the I2C address, sending the data in the buffer, checking for acknowledgments from the receiver, and signaling the stop condition. For details about the I2C bus, see the <i>I2C Bus Specification</i>, published by Philips Semiconductors. The specification defines a protocol for initiating I2C communication, reading and writing bytes over the I2C data line, and terminating I2C communication.
 
 <i>DxgkDdiI2CTransmitDataToDisplay</i> is required to transmit data to an I2C device that has address 0x6E but is permitted to refuse to transmit data to any I2C device that has a different address.
 

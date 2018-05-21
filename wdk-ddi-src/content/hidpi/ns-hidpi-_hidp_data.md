@@ -7,7 +7,7 @@ old-location: hid\hidp_data.htm
 old-project: hid
 ms.assetid: f48bbf84-027f-4579-b83c-7dfb1cbe6b65
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
+ms.date: 4/30/2018
 ms.keywords: "*PHIDP_DATA, HIDP_DATA, HIDP_DATA structure [Human Input Devices], PHIDP_DATA, PHIDP_DATA structure pointer [Human Input Devices], _HIDP_DATA, hid.hidp_data, hidpi/HIDP_DATA, hidpi/PHIDP_DATA, hidstrct_690e0e92-9de7-44e0-8550-4f84d7bb768e.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -68,14 +68,14 @@ Specifies the data index of a control.
 Reserved for internal system use only.
 
 
-#### - On
-
-Specifies, if <b>TRUE</b> and the control is a button, that the button is set to ON (1). Otherwise, if <b>On</b> is <b>FALSE</b> and the control is a button, the button is set to OFF (zero).
-
-
-#### - RawValue
+### -field RawValue
 
 Contains the binary data extracted from a report if the control is a value.
+
+
+### -field On
+
+Specifies, if <b>TRUE</b> and the control is a button, that the button is set to ON (1). Otherwise, if <b>On</b> is <b>FALSE</b> and the control is a button, the button is set to OFF (zero).
 
 
 ## -remarks

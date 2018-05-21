@@ -7,7 +7,7 @@ old-location: kernel\ob_operation_registration.htm
 old-project: kernel
 ms.assetid: 06da3ec0-b8d3-4bd8-8270-ead38b7deada
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*POB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION structure [Kernel-Mode Driver Architecture], POB_OPERATION_REGISTRATION, POB_OPERATION_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], PsProcessType, PsThreadType, _OB_OPERATION_REGISTRATION, kernel.ob_operation_registration, kstruct_c_257b9aaa-a8cc-49b2-b51e-16fcf5eb8084.xml, wdm/OB_OPERATION_REGISTRATION, wdm/POB_OPERATION_REGISTRATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -44,7 +44,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: OB_OPERATION_REGISTRATION, *POB_OPERATION_REGISTRATION
-req.product: Windows 10 or later.
 ---
 
 # _OB_OPERATION_REGISTRATION structure

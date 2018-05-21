@@ -7,7 +7,7 @@ old-location: ifsk\rtlinsertelementgenerictablefullavl.htm
 old-project: ifsk
 ms.assetid: c7d346ab-6990-4636-bafd-2e448a937f3b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlInsertElementGenericTableFullAvl, RtlInsertElementGenericTableFullAvl routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictablefullavl, ntddk/RtlInsertElementGenericTableFullAvl, rtlref_425ca8ff-1fa8-4bdf-84ea-a8935cf0df59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlInsertElementGenericTableFullAvl function

@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_control_cq_interrupt_moderation.htm
 old-project: netvista
 ms.assetid: 44EB6C92-1ADA-4675-9E19-BAB79097FF5B
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION, NdkControlCqInterruptModeration, NdkControlCqInterruptModeration callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkControlCqInterruptModeration, netvista.ndk_fn_control_cq_interrupt_moderation
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION, NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION callback, NdkControlCqInterruptModeration, NdkControlCqInterruptModeration callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkControlCqInterruptModeration, netvista.ndk_fn_control_cq_interrupt_moderation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION callback
+# NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION callback function
 
 
 ## -description

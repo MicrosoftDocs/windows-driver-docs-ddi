@@ -7,7 +7,7 @@ old-location: ifsk\rtldecompressbufferex.htm
 old-project: ifsk
 ms.assetid: 5AB55689-66F4-41BD-97B6-1E01899AFE23
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_XPRESS_HUFF, RtlDecompressBufferEx, RtlDecompressBufferEx function [Installable File System Drivers], ifsk.rtldecompressbufferex, ntifs/RtlDecompressBufferEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlDecompressBufferEx function

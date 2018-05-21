@@ -7,7 +7,7 @@ old-location: print\getinfo_glyphstring.htm
 old-project: print
 ms.assetid: ebcc1ada-af6f-46c3-a025-97079eb08816
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PGETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING structure [Print Devices], PGETINFO_GLYPHSTRING, PGETINFO_GLYPHSTRING structure pointer [Print Devices], _GETINFO_GLYPHSTRING, print.getinfo_glyphstring, print_unidrv-pscript_rendering_5b2786d4-2633-4abe-8eaf-23e7100f7ba3.xml, printoem/GETINFO_GLYPHSTRING, printoem/PGETINFO_GLYPHSTRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: GETINFO_GLYPHSTRING, *PGETINFO_GLYPHSTRING
-req.product: Windows 10 or later.
 ---
 
 # _GETINFO_GLYPHSTRING structure

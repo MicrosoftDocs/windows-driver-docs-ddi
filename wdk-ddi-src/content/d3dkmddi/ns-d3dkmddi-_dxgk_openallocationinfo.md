@@ -7,7 +7,7 @@ old-location: display\dxgk_openallocationinfo.htm
 old-project: display
 ms.assetid: e23b7e4e-e670-4421-aa2f-4389a74a7d6d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_OPENALLOCATIONINFO, DXGK_OPENALLOCATIONINFO structure [Display Devices], DmStructs_e03247bd-d6b8-42df-ac22-79d906d7c852.xml, _DXGK_OPENALLOCATIONINFO, d3dkmddi/DXGK_OPENALLOCATIONINFO, display.dxgk_openallocationinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

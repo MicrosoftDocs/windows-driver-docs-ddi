@@ -7,7 +7,7 @@ old-location: kernel\seassignsecurityex.htm
 old-project: kernel
 ms.assetid: 94f6d3a3-7f0d-4f57-8240-3c4a10cf4488
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, kernel.seassignsecurityex, wdm/SeAssignSecurityEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SeAssignSecurityEx function

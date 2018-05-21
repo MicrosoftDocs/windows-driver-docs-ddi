@@ -7,7 +7,7 @@ old-location: netvista\fwpscalloutregister2.htm
 old-project: netvista
 ms.assetid: 7e60d536-607f-469f-8de4-5f6b77443b3e
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsCalloutRegister2, FwpsCalloutRegister2 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutRegister2, netvista.fwpscalloutregister2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsCalloutRegister2 function

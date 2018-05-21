@@ -7,7 +7,7 @@ old-location: kernel\psgetprocessid.htm
 old-project: kernel
 ms.assetid: 9e1f6a57-bc48-41c6-815c-6a44e8d01699
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: PsGetProcessId, PsGetProcessId routine [Kernel-Mode Driver Architecture], k108_b0733011-4102-4e10-83e3-e7e9d7172d08.xml, kernel.psgetprocessid, ntddk/PsGetProcessId
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # PsGetProcessId function

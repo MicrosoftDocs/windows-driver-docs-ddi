@@ -7,8 +7,8 @@ old-location: display\dxgkddigetstandardallocationdriverdata.htm
 old-project: display
 ms.assetid: 38a9859f-ed9f-41a5-9bf1-c734480499ea
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA, DmFunctions_e28fa3aa-909e-4dd0-8ae7-1355e0aa69cf.xml, DxgkDdiGetStandardAllocationDriverData, DxgkDdiGetStandardAllocationDriverData callback function [Display Devices], d3dkmddi/DxgkDdiGetStandardAllocationDriverData, display.dxgkddigetstandardallocationdriverdata
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA, DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA callback, DmFunctions_e28fa3aa-909e-4dd0-8ae7-1355e0aa69cf.xml, DxgkDdiGetStandardAllocationDriverData, DxgkDdiGetStandardAllocationDriverData callback function [Display Devices], d3dkmddi/DxgkDdiGetStandardAllocationDriverData, display.dxgkddigetstandardallocationdriverdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA callback
+# DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_flush.htm
 old-project: netvista
 ms.assetid: 8C5F62DD-36CB-4EBC-9113-BB5BF19C0D45
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_FLUSH, NdkFlush, NdkFlush callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkFlush, netvista.ndk_fn_flush
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_FLUSH, NDK_FN_FLUSH callback, NdkFlush, NdkFlush callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkFlush, netvista.ndk_fn_flush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_FLUSH callback
+# NDK_FN_FLUSH callback function
 
 
 ## -description

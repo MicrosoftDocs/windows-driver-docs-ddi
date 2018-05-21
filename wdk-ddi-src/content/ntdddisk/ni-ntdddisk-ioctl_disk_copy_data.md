@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1434ee49-4c3d-4104-bca4-c0ea4299c9aa
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_DISK_COPY_DATA, IOCTL_DISK_COPY_DATA control code [Storage Devices], k307_d7859abc-a32a-4930-b612-6bea53331e3a.xml, ntdddisk/IOCTL_DISK_COPY_DATA, storage.ioctl_disk_copy_data
+ms.keywords: IOCTL_DISK_COPY_DATA, IOCTL_DISK_COPY_DATA control, IOCTL_DISK_COPY_DATA control code [Storage Devices], k307_d7859abc-a32a-4930-b612-6bea53331e3a.xml, ntdddisk/IOCTL_DISK_COPY_DATA, storage.ioctl_disk_copy_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DETECTION_TYPE
+req.typenames: 
 ---
 
 # IOCTL_DISK_COPY_DATA IOCTL

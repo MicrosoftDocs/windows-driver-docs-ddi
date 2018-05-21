@@ -7,7 +7,7 @@ old-location: netvista\wwan_ip_configuration_flags.htm
 old-project: netvista
 ms.assetid: 5157F48F-E1D3-4B22-BBB0-0FC7965C794B
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], netvista.wwan_ip_configuration_flags, wwan/WWAN_IP_CONFIGURATION_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_IP_CONFIGURATION_FLAGS
-req.product: Windows 10 or later.
 ---
 
 # WWAN_IP_CONFIGURATION_FLAGS structure
@@ -62,6 +61,28 @@ The WWAN_IP_CONFIGURATION_FLAGS structure represents flags that describe the ava
 ### -field Value
 
 Reserved. Do not use.
+
+
+### -field AddressAvailable
+
+ 
+
+
+### -field GatewayAvailable
+
+ 
+
+
+### -field DnsServerAvailable
+
+ 
+
+
+### -field MTUAvailable
+
+ 
+
+
 
 
 #### - ( unnamed struct )

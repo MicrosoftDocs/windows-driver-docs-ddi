@@ -7,7 +7,7 @@ old-location: buses\ufx_device_capabilities.htm
 old-project: usbref
 ms.assetid: 896919C9-E72E-4C0F-9E3E-9BEE9F55D27D
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES structure [Buses], _UFX_DEVICE_CAPABILITIES, buses.ufx_device_capabilities, ufxbase/PUFX_DEVICE_CAPABILITIES, ufxbase/UFX_DEVICE_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UFX_DEVICE_CAPABILITIES, *PUFX_DEVICE_CAPABILITIES
-req.product: Windows 10 or later.
 ---
 
 # _UFX_DEVICE_CAPABILITIES structure
@@ -88,3 +87,8 @@ A bitmap that defines which endpoint numbers can support an IN endpoint.  Bit 0 
 
 A bitmap that defines which endpoint numbers can support an OUT endpoint.  Bit 0 indicates endpoint address 0, bit 1 indicates endpoint address 1, etc.   Bit 0 (the default control endpoint) is required to be set to 1.
 
+### -field SharesConnectors
+A boolean value that indicates the connector supports multiple connectors.
+ 
+### -field GroupId
+ The group identifier the shared connector group to which a  controller will be added.

@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_controller_start_tracking_for_time_sync.htm
 old-project: usbref
 ms.assetid: 8465B255-E36E-481D-B063-597B9C861DCD
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC, EvUcxControllerStartTrackingForTimeSync, EvUcxControllerStartTrackingForTimeSync callback function [Buses], buses.evt_ucx_controller_start_tracking_for_time_sync, ucxcontroller/EvUcxControllerStartTrackingForTimeSync
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC callback, EvUcxControllerStartTrackingForTimeSync, EvUcxControllerStartTrackingForTimeSync callback function [Buses], buses.evt_ucx_controller_start_tracking_for_time_sync, ucxcontroller/EvUcxControllerStartTrackingForTimeSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC callback
+# EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC callback function
 
 
 ## -description

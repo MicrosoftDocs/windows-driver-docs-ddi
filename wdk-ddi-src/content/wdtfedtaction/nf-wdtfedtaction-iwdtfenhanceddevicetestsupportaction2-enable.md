@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfedtaction.IWDTFEnhancedDeviceTestSupportAction2.Enable
-title: IWDTFEnhancedDeviceTestSupportAction2::Enable method
+title: IWDTFEnhancedDeviceTestSupportAction2::Enable
 author: windows-driver-content
 description: Enables the Enhanced Device Test (EDT) filter driver on the target device.
 old-location: dtf\iwdtfenhanceddevicetestsupportaction2_enable.htm
 old-project: dtf
 ms.assetid: 8fc225af-09d4-42a0-a862-4af89addd5f8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Enable method [Windows Device Testing Framework], Enable method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, Enable,IWDTFEnhancedDeviceTestSupportAction2.Enable, IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], Enable method, IWDTFEnhancedDeviceTestSupportAction2::Enable, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.Enable, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::Enable, dtf.iwdtfenhanceddevicetestsupportaction2_enable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::Enable
+ms.date: 4/4/2018
+ms.keywords: Enable, Enable method [Windows Device Testing Framework], Enable method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportAction2 interface, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],Enable method, IWDTFEnhancedDeviceTestSupportAction2.Enable, IWDTFEnhancedDeviceTestSupportAction2::Enable, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.Enable, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::Enable, dtf.iwdtfenhanceddevicetestsupportaction2_enable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFEnhancedDeviceTestSupportAction2::Enable method
+# IWDTFEnhancedDeviceTestSupportAction2::Enable
 
 
 ## -description

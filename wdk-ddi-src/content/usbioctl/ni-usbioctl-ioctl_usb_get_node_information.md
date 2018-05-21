@@ -7,8 +7,8 @@ old-location: buses\ioctl_usb_get_node_information.htm
 old-project: usbref
 ms.assetid: b779cbf9-3021-4310-ae2e-e716bcc7b4c4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IOCTL_USB_GET_NODE_INFORMATION, IOCTL_USB_GET_NODE_INFORMATION control code [Buses], buses.ioctl_usb_get_node_information, usbioctl/IOCTL_USB_GET_NODE_INFORMATION, usbirp_123647fe-f02f-4961-aef8-1036be8727b8.xml
+ms.date: 4/25/2018
+ms.keywords: IOCTL_USB_GET_NODE_INFORMATION, IOCTL_USB_GET_NODE_INFORMATION control, IOCTL_USB_GET_NODE_INFORMATION control code [Buses], buses.ioctl_usb_get_node_information, usbioctl/IOCTL_USB_GET_NODE_INFORMATION, usbirp_123647fe-f02f-4961-aef8-1036be8727b8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_HUB_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_USB_GET_NODE_INFORMATION IOCTL

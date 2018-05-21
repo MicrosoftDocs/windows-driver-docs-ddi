@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreUI2.EnumConstrainedOptions
-title: IPrintCoreUI2::EnumConstrainedOptions method
+title: IPrintCoreUI2::EnumConstrainedOptions
 author: windows-driver-content
 description: The IPrintCoreUI2::EnumConstrainedOptions method determines which options of a feature are constrained.
 old-location: print\iprintcoreui2_enumconstrainedoptions.htm
 old-project: print
 ms.assetid: 815a20f4-9bd7-4f8d-8444-545097d1c4b3
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices], IPrintCoreUI2 interface, EnumConstrainedOptions,IPrintCoreUI2.EnumConstrainedOptions, IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], EnumConstrainedOptions method, IPrintCoreUI2::EnumConstrainedOptions, prcomoem/IPrintCoreUI2::EnumConstrainedOptions, print.iprintcoreui2_enumconstrainedoptions, print_unidrv-pscript_ui_43a11382-d457-4845-aaa0-4eb87a11929a.xml
+ms.date: 4/20/2018
+ms.keywords: EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],EnumConstrainedOptions method, IPrintCoreUI2.EnumConstrainedOptions, IPrintCoreUI2::EnumConstrainedOptions, prcomoem/IPrintCoreUI2::EnumConstrainedOptions, print.iprintcoreui2_enumconstrainedoptions, print_unidrv-pscript_ui_43a11382-d457-4845-aaa0-4eb87a11929a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreUI2::EnumConstrainedOptions method
+# IPrintCoreUI2::EnumConstrainedOptions
 
 
 ## -description

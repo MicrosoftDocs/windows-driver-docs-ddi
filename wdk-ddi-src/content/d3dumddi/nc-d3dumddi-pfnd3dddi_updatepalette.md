@@ -7,8 +7,8 @@ old-location: display\updatepalette.htm
 old-project: display
 ms.assetid: 7c22e0c9-cc24-4398-88b7-c91855cbc731
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DDDI_UPDATEPALETTE, UpdatePalette, UpdatePalette callback function [Display Devices], UserModeDisplayDriver_Functions_d3b21e65-68dc-44d9-b5b3-96f37588965e.xml, d3dumddi/UpdatePalette, display.updatepalette
+ms.date: 4/16/2018
+ms.keywords: PFND3DDDI_UPDATEPALETTE, PFND3DDDI_UPDATEPALETTE callback, UpdatePalette, UpdatePalette callback function [Display Devices], UserModeDisplayDriver_Functions_d3b21e65-68dc-44d9-b5b3-96f37588965e.xml, d3dumddi/UpdatePalette, display.updatepalette
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_UPDATEPALETTE callback
+# PFND3DDDI_UPDATEPALETTE callback function
 
 
 ## -description

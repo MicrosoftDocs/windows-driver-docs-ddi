@@ -7,7 +7,7 @@ old-location: kernel\requestworker.htm
 old-project: kernel
 ms.assetid: A77277D2-B644-469D-A668-78C23BF41367
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: POFXCALLBACKREQUESTWORKER, RequestWorker, RequestWorker routine [Kernel-Mode Driver Architecture], kernel.requestworker, pepfx/RequestWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RILGBATOKEN, *LPRILGBATOKEN
+req.typenames: 
 ---
 
-# POFXCALLBACKREQUESTWORKER callback
+# POFXCALLBACKREQUESTWORKER callback function
 
 
 ## -description

@@ -7,8 +7,8 @@ old-location: display\pfnstategsshadercb.htm
 old-project: display
 ms.assetid: 2bcdc7bd-4327-4258-ad89-5e028cffd06b
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3D10DDI_STATE_GS_SHADER_CB, d3d10state_functions_b6a723d5-84d5-4e7c-aeea-2d2bb2ada5eb.xml, d3d10umddi/pfnStateGsShaderCb, display.pfnstategsshadercb, pfnStateGsShaderCb, pfnStateGsShaderCb callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3D10DDI_STATE_GS_SHADER_CB, PFND3D10DDI_STATE_GS_SHADER_CB callback, d3d10state_functions_b6a723d5-84d5-4e7c-aeea-2d2bb2ada5eb.xml, d3d10umddi/pfnStateGsShaderCb, display.pfnstategsshadercb, pfnStateGsShaderCb, pfnStateGsShaderCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_STATE_GS_SHADER_CB callback
+# PFND3D10DDI_STATE_GS_SHADER_CB callback function
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaOptionCollection.get_Count
-title: IPrintSchemaOptionCollection::get_Count method
+title: IPrintSchemaOptionCollection::get_Count
 author: windows-driver-content
 description: Gets a count of the number of IPrintSchemaOption objects in the collection.
 old-location: print\iprintschemaoptioncollection_count.htm
 old-project: print
 ms.assetid: E849E14D-7F64-48C3-A0B1-408D848B2083
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: Count property [Print Devices], Count property [Print Devices], IPrintSchemaOptionCollection interface, IPrintSchemaOptionCollection, IPrintSchemaOptionCollection interface [Print Devices], Count property, IPrintSchemaOptionCollection.Count, IPrintSchemaOptionCollection::get_Count, get_Count,IPrintSchemaOptionCollection.get_Count, print.iprintschemaoptioncollection_count, printerextension/IPrintSchemaOptionCollection::Count, printerextension/IPrintSchemaOptionCollection::get_Count
+ms.date: 4/20/2018
+ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrintSchemaOptionCollection interface, IPrintSchemaOptionCollection interface [Print Devices],Count property, IPrintSchemaOptionCollection.Count, IPrintSchemaOptionCollection.get_Count, IPrintSchemaOptionCollection::Count, IPrintSchemaOptionCollection::get_Count, get_Count, print.iprintschemaoptioncollection_count, printerextension/IPrintSchemaOptionCollection::Count, printerextension/IPrintSchemaOptionCollection::get_Count
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaOptionCollection::get_Count method
+# IPrintSchemaOptionCollection::get_Count
 
 
 ## -description

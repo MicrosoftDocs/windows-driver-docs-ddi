@@ -1,0 +1,10 @@
+{
+  "tech": "gpio",
+  "headers": [
+    "gpio.h",
+    "gpioclx.h",
+    "i2cgpio.h",
+    "ntddpar.h",
+    "parallel.h"
+  ]
+}

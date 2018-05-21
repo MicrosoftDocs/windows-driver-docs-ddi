@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 430ee7fd-cffb-452d-b2e8-0dc252987487
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IQueueCallbackIoStop, IQueueCallbackIoStop interface, IQueueCallbackIoStop interface, described, UMDFQueueObjectRef_cf62ed54-43d3-4a9e-8e82-85695bf30527.xml, umdf.iqueuecallbackiostop, wdf.iqueuecallbackiostop, wudfddi/IQueueCallbackIoStop
+ms.keywords: IQueueCallbackIoStop, IQueueCallbackIoStop interface, IQueueCallbackIoStop interface,described, UMDFQueueObjectRef_cf62ed54-43d3-4a9e-8e82-85695bf30527.xml, umdf.iqueuecallbackiostop, wdf.iqueuecallbackiostop, wudfddi/IQueueCallbackIoStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: WUDFx.dll
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IQueueCallbackIoStop interface

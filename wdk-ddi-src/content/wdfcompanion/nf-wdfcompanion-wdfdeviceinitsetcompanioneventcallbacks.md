@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_TASK_QUEUE_DISPATCH_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDeviceInitSetCompanionEventCallbacks function

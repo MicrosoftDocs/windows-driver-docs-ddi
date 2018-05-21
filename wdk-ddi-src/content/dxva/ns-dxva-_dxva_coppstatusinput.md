@@ -7,7 +7,7 @@ old-location: display\dxva_coppstatusinput.htm
 old-project: display
 ms.assetid: 693411e9-16d1-42eb-9848-d28876a91b38
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*LPDXVA_COPPStatusInput, DXVA_COPPStatusInput, DXVA_COPPStatusInput structure [Display Devices], LPDXVA_COPPStatusInput, LPDXVA_COPPStatusInput structure pointer [Display Devices], _DXVA_COPPStatusInput, display.dxva_coppstatusinput, dxva/DXVA_COPPStatusInput, dxva/LPDXVA_COPPStatusInput, dxvaref_d6441478-0fb0-4643-97ec-dbd1ecd90e92.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

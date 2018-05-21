@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 72b68ed0-d14c-44b1-b848-40c427fe6c9a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IRemoteInterfaceCallbackEvent, IRemoteInterfaceCallbackEvent interface, IRemoteInterfaceCallbackEvent interface, described, UMDFIoTargetObjectRef_9ce0aebc-e132-4d0e-b575-7ef1e19d9c30.xml, umdf.iremoteinterfacecallbackevent, wdf.iremoteinterfacecallbackevent, wudfddi/IRemoteInterfaceCallbackEvent
+ms.keywords: IRemoteInterfaceCallbackEvent, IRemoteInterfaceCallbackEvent interface, IRemoteInterfaceCallbackEvent interface,described, UMDFIoTargetObjectRef_9ce0aebc-e132-4d0e-b575-7ef1e19d9c30.xml, umdf.iremoteinterfacecallbackevent, wdf.iremoteinterfacecallbackevent, wudfddi/IRemoteInterfaceCallbackEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: 
-req.dll: WUDFx.dll
+req.dll: 
 req.irql: 
 topic_type:
 -	APIRef
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IRemoteInterfaceCallbackEvent interface

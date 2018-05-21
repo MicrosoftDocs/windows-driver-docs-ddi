@@ -7,7 +7,7 @@ old-location: ifsk\fltgetupperinstance.htm
 old-project: ifsk
 ms.assetid: 01e7760c-b10c-497e-9cab-4d839c2ce5ff
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_7629f1a6-0a5e-46a2-8423-bd7466548a2f.xml, FltGetUpperInstance, FltGetUpperInstance routine [Installable File System Drivers], fltkernel/FltGetUpperInstance, ifsk.fltgetupperinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltGetUpperInstance function

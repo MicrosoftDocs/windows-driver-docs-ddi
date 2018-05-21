@@ -2,17 +2,18 @@
 UID: NA:prdrvcom
 ms.assetid: 6d969209-8a48-364c-a65e-9376eb7fc29c
 ms.author: windowsdriverdev
-ms.date: 04/20/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: print
 ---
 
 # Prdrvcom.h header
 
 
-
+## -description
 
 
 This header is used by print. For more information, see:

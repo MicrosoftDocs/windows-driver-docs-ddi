@@ -7,8 +7,8 @@ old-location: stream\ioctl_ks_property.htm
 old-project: stream
 ms.assetid: 66f29543-9677-4bae-baa4-6be8ebc52b66
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IOCTL_KS_PROPERTY, IOCTL_KS_PROPERTY control code [Streaming Media Devices], ks-ioctl_58152402-30ed-4938-af47-9e6a1838fec1.xml, ks/IOCTL_KS_PROPERTY, stream.ioctl_ks_property
+ms.date: 4/23/2018
+ms.keywords: IOCTL_KS_PROPERTY, IOCTL_KS_PROPERTY control, IOCTL_KS_PROPERTY control code [Streaming Media Devices], ks-ioctl_58152402-30ed-4938-af47-9e6a1838fec1.xml, ks/IOCTL_KS_PROPERTY, stream.ioctl_ks_property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl

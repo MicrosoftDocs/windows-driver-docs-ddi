@@ -7,8 +7,8 @@ old-location: kernel\allocatecommonbuffer.htm
 old-project: kernel
 ms.assetid: 4edaae35-8ac4-4a7a-949b-8a86b45ff391
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: AllocateCommonBuffer, AllocateCommonBuffer callback function [Kernel-Mode Driver Architecture], PALLOCATE_COMMON_BUFFER, kdma_0e4a27db-db3e-48db-81c2-d83a342a0cbc.xml, kernel.allocatecommonbuffer, wdm/AllocateCommonBuffer
+ms.date: 4/30/2018
+ms.keywords: AllocateCommonBuffer, AllocateCommonBuffer callback function [Kernel-Mode Driver Architecture], PALLOCATE_COMMON_BUFFER, PALLOCATE_COMMON_BUFFER callback, kdma_0e4a27db-db3e-48db-81c2-d83a342a0cbc.xml, kernel.allocatecommonbuffer, wdm/AllocateCommonBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PALLOCATE_COMMON_BUFFER callback
+# PALLOCATE_COMMON_BUFFER callback function
 
 
 ## -description

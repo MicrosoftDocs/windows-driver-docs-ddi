@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoTargetStateManagement.Start
-title: IWDFIoTargetStateManagement::Start method
+title: IWDFIoTargetStateManagement::Start
 author: windows-driver-content
 description: The Start method starts sending queued requests to a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_start.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e242b62a-7a4f-491b-b1a7-3388cf9c5a40
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFIoTargetStateManagement, IWDFIoTargetStateManagement interface, Start method, IWDFIoTargetStateManagement::Start, Start method, Start method, IWDFIoTargetStateManagement interface, Start,IWDFIoTargetStateManagement.Start, UMDFIoTargetObjectRef_931a0267-704f-44f7-8f52-0344afb86f81.xml, umdf.iwdfiotargetstatemanagement_start, wdf.iwdfiotargetstatemanagement_start, wudfddi/IWDFIoTargetStateManagement::Start
+ms.keywords: IWDFIoTargetStateManagement interface,Start method, IWDFIoTargetStateManagement.Start, IWDFIoTargetStateManagement::Start, Start, Start method, Start method,IWDFIoTargetStateManagement interface, UMDFIoTargetObjectRef_931a0267-704f-44f7-8f52-0344afb86f81.xml, umdf.iwdfiotargetstatemanagement_start, wdf.iwdfiotargetstatemanagement_start, wudfddi/IWDFIoTargetStateManagement::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoTargetStateManagement::Start method
+# IWDFIoTargetStateManagement::Start
 
 
 ## -description

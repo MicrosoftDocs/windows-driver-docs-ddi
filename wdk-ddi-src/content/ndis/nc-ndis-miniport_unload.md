@@ -7,8 +7,8 @@ old-location: netvista\miniportdriverunload.htm
 old-project: netvista
 ms.assetid: 25c803cf-f8a6-4e41-a731-c3ae7f1db211
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_UNLOAD, MiniportDriverUnload, MiniportDriverUnload callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_8f9795d0-00aa-4059-8dbf-8f7eed303cae.xml, ndis/MiniportDriverUnload, netvista.miniportdriverunload
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_UNLOAD, MINIPORT_UNLOAD callback, MiniportDriverUnload, MiniportDriverUnload callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_8f9795d0-00aa-4059-8dbf-8f7eed303cae.xml, ndis/MiniportDriverUnload, netvista.miniportdriverunload
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# MINIPORT_UNLOAD callback
+# MINIPORT_UNLOAD callback function
 
 
 ## -description

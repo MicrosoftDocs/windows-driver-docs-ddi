@@ -7,7 +7,7 @@ old-location: netvista\ndis_generic_object.htm
 old-project: netvista
 ms.assetid: 1e7af434-a6ad-44c8-a33d-adebb53b8e1d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_GENERIC_OBJECT, NDIS_GENERIC_OBJECT, NDIS_GENERIC_OBJECT structure [Network Drivers Starting with Windows Vista], PNDIS_GENERIC_OBJECT, PNDIS_GENERIC_OBJECT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_GENERIC_OBJECT, ndis/NDIS_GENERIC_OBJECT, ndis/PNDIS_GENERIC_OBJECT, ndis_object_ref_19f8706c-633c-4c32-9d86-17edc4e2ad12.xml, netvista.ndis_generic_object"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

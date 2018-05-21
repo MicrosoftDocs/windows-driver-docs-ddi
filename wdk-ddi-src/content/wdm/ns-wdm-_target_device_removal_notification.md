@@ -7,7 +7,7 @@ old-location: kernel\target_device_removal_notification.htm
 old-project: kernel
 ms.assetid: a14656ca-131a-4722-aae7-041eddc8517a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PTARGET_DEVICE_REMOVAL_NOTIFICATION, PTARGET_DEVICE_REMOVAL_NOTIFICATION, PTARGET_DEVICE_REMOVAL_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], TARGET_DEVICE_REMOVAL_NOTIFICATION, TARGET_DEVICE_REMOVAL_NOTIFICATION structure [Kernel-Mode Driver Architecture], _TARGET_DEVICE_REMOVAL_NOTIFICATION, kernel.target_device_removal_notification, kstruct_d_9b46ee83-c40a-435c-a544-456672ebca33.xml, wdm/PTARGET_DEVICE_REMOVAL_NOTIFICATION, wdm/TARGET_DEVICE_REMOVAL_NOTIFICATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: TARGET_DEVICE_REMOVAL_NOTIFICATION, *PTARGET_DEVICE_REMOVAL_NOTIFICATION
-req.product: Windows 10 or later.
 ---
 
 # _TARGET_DEVICE_REMOVAL_NOTIFICATION structure

@@ -7,7 +7,7 @@ old-location: buses\_ucxendpointneedtocanceltransfers.htm
 old-project: usbref
 ms.assetid: 4DA3FB63-D2D3-43E1-9420-29303176B837
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcxEndpointNeedToCancelTransfers, UcxEndpointNeedToCancelTransfers method [Buses], buses._ucxendpointneedtocanceltransfers, ucxendpoint/UcxEndpointNeedToCancelTransfers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcxEndpointNeedToCancelTransfers function

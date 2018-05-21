@@ -7,7 +7,7 @@ old-location: kernel\iosetdeviceinterfacestate.htm
 old-project: kernel
 ms.assetid: 071b5f2a-7129-4de5-9577-f2aa22f23765
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoSetDeviceInterfaceState, IoSetDeviceInterfaceState routine [Kernel-Mode Driver Architecture], k104_da5493d0-6dd5-4404-a647-6c23825df29c.xml, kernel.iosetdeviceinterfacestate, wdm/IoSetDeviceInterfaceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoSetDeviceInterfaceState function

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugPlmClient3.QueryPlmPackageWide
-title: IDebugPlmClient3::QueryPlmPackageWide method
+title: IDebugPlmClient3::QueryPlmPackageWide
 author: windows-driver-content
 description: Query a Process Lifecycle Management (PLM) package.
 old-location: debugger\idebugplmclient3_queryplmpackagewide.htm
 old-project: debugger
 ms.assetid: 29BAAEF9-5B69-4723-BC23-A8B668E2A867
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugPlmClient3, IDebugPlmClient3 interface [Windows Debugging], QueryPlmPackageWide method, IDebugPlmClient3::QueryPlmPackageWide, QueryPlmPackageWide method [Windows Debugging], QueryPlmPackageWide method [Windows Debugging], IDebugPlmClient3 interface, QueryPlmPackageWide,IDebugPlmClient3.QueryPlmPackageWide, dbgeng/IDebugPlmClient3::QueryPlmPackageWide, debugger.idebugplmclient3_queryplmpackagewide
+ms.date: 4/24/2018
+ms.keywords: IDebugPlmClient3 interface [Windows Debugging],QueryPlmPackageWide method, IDebugPlmClient3.QueryPlmPackageWide, IDebugPlmClient3::QueryPlmPackageWide, QueryPlmPackageWide, QueryPlmPackageWide method [Windows Debugging], QueryPlmPackageWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::QueryPlmPackageWide, debugger.idebugplmclient3_queryplmpackagewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugPlmClient3::QueryPlmPackageWide method
+# IDebugPlmClient3::QueryPlmPackageWide
 
 
 ## -description

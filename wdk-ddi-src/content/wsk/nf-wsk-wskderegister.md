@@ -7,7 +7,7 @@ old-location: netvista\wskderegister.htm
 old-project: netvista
 ms.assetid: b2ff3d7b-319d-4256-a574-cb32595fd02f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WskDeregister, WskDeregister function [Network Drivers Starting with Windows Vista], netvista.wskderegister, wsk/WskDeregister, wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WskDeregister function

@@ -7,7 +7,7 @@ old-location: ifsk\fltreleasepushlock.htm
 old-project: ifsk
 ms.assetid: 34d1b945-329c-47ff-913d-5576eef665b8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_p_to_z_31e736a4-7790-443f-a6bf-e43d3823ad27.xml, FltReleasePushLock, FltReleasePushLock routine [Installable File System Drivers], fltkernel/FltReleasePushLock, ifsk.fltreleasepushlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltReleasePushLock macro
@@ -58,16 +58,7 @@ The <b>FltReleasePushLock</b> routine releases a specified push lock owned by th
 
 
 
-### -param Lock
-
-TBD
-
-
-
-
-
-
-#### - PushLock [in, out]
+### -param Lock [in, out]
 
 Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
 

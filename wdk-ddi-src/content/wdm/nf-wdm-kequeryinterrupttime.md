@@ -7,7 +7,7 @@ old-location: kernel\kequeryinterrupttime.htm
 old-project: kernel
 ms.assetid: 88c87b11-b34f-43b3-b08e-940abaa23a27
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeQueryInterruptTime, KeQueryInterruptTime routine [Kernel-Mode Driver Architecture], k105_a87c40d1-b9be-42f1-ada4-6e0fb3d33220.xml, kernel.kequeryinterrupttime, wdm/KeQueryInterruptTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeQueryInterruptTime function

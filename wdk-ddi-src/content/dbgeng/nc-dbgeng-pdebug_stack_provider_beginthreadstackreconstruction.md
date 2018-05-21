@@ -7,8 +7,8 @@ old-location: debugger\beginthreadstackreconstruction.htm
 old-project: debugger
 ms.assetid: 50CBBBED-EF1B-485F-90D3-0056AF8984E7
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, dbgeng/BeginThreadStackReconstruction, debugger.beginthreadstackreconstruction
+ms.date: 4/24/2018
+ms.keywords: BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback, dbgeng/BeginThreadStackReconstruction, debugger.beginthreadstackreconstruction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback
+# PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback function
 
 
 ## -description

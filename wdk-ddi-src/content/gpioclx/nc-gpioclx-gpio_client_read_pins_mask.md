@@ -8,7 +8,7 @@ old-project: GPIO
 ms.assetid: EFF7C3D8-9E52-446A-BF55-0308A0D2835E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CLIENT_ReadGpioPinsUsingMask, CLIENT_ReadGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_readgpiopinsusingmask, GPIO_CLIENT_READ_PINS_MASK, gpioclx/CLIENT_ReadGpioPinsUsingMask
+ms.keywords: CLIENT_ReadGpioPinsUsingMask, CLIENT_ReadGpioPinsUsingMask callback, CLIENT_ReadGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_readgpiopinsusingmask, GPIO_CLIENT_READ_PINS_MASK, gpioclx/CLIENT_ReadGpioPinsUsingMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: GNSS_V2UPL_NI_INFO, *PGNSS_V2UPL_NI_INFO
+req.typenames: 
 ---
 
-# GPIO_CLIENT_READ_PINS_MASK callback
+# GPIO_CLIENT_READ_PINS_MASK callback function
 
 
 ## -description

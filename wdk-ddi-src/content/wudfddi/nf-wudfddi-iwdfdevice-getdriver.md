@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.GetDriver
-title: IWDFDevice::GetDriver method
+title: IWDFDevice::GetDriver
 author: windows-driver-content
 description: The GetDriver method retrieves the interface to the parent driver object of a device instance.
 old-location: wdf\iwdfdevice_getdriver.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d17d970-56b7-494a-aa7b-d60065ff06d8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetDriver method, GetDriver method, IWDFDevice interface, GetDriver,IWDFDevice.GetDriver, IWDFDevice, IWDFDevice interface, GetDriver method, IWDFDevice::GetDriver, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, umdf.iwdfdevice_getdriver, wdf.iwdfdevice_getdriver, wudfddi/IWDFDevice::GetDriver
+ms.keywords: GetDriver, GetDriver method, GetDriver method,IWDFDevice interface, IWDFDevice interface,GetDriver method, IWDFDevice.GetDriver, IWDFDevice::GetDriver, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, umdf.iwdfdevice_getdriver, wdf.iwdfdevice_getdriver, wudfddi/IWDFDevice::GetDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::GetDriver method
+# IWDFDevice::GetDriver
 
 
 ## -description

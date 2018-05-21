@@ -7,7 +7,7 @@ old-location: stream\stream_minidriver_device_notification_type.htm
 old-project: stream
 ms.assetid: 34DAA236-ACD0-4C25-BB45-00A81D2F131D
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, DeleteDeviceEvent, DeviceNotificationMaximum, DeviceRequestComplete, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration pointer [Streaming Media Devices], ReadyForNextDeviceRequest, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration [Streaming Media Devices], SignalDeviceEvent, SignalMultipleDeviceEvents, SignalMultipleDeviceInstanceEvents, _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, stream.stream_minidriver_device_notification_type, strmini/DeleteDeviceEvent, strmini/DeviceNotificationMaximum, strmini/DeviceRequestComplete, strmini/PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/ReadyForNextDeviceRequest, strmini/STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/SignalDeviceEvent, strmini/SignalMultipleDeviceEvents, strmini/SignalMultipleDeviceInstanceEvents"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, *PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration

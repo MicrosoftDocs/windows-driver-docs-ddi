@@ -7,7 +7,7 @@ old-location: display\d3d11ddiarg_bufferex_shaderresourceview.htm
 old-project: display
 ms.assetid: b3585a06-fdb0-4fe9-8d5c-63680039a789
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_49ef78b9-8a6f-4b67-bf2f-bae79086b6c7.xml, d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, display.d3d11ddiarg_bufferex_shaderresourceview
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,29 +58,29 @@ The D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure describes a buffer that is
 
 
 
-### -field Flags
-
-[in] A valid bitwise OR of flag values that describe the buffer. Currently, the Direct3D runtime supports only the D3D11_DDI_BUFFEREX_SRV_FLAG_RAW (0x00000001) flag. If this flag is set, the buffer is in raw format. 
-
-
-#### - ElementOffset
+### -field FirstElement
 
 [in] The offset, in bytes, to the first element in the buffer. 
 
 
-#### - ElementWidth
+### -field ElementOffset
+
+[in] The offset, in bytes, to the first element in the buffer. 
+
+
+### -field NumElements
+
+[in] The number of elements in the buffer. 
+
+
+### -field ElementWidth
 
 [in] The width, in elements, in the buffer. 
 
 
-#### - FirstElement
+### -field Flags
 
-[in] The offset, in bytes, to the first element in the buffer. 
-
-
-#### - NumElements
-
-[in] The number of elements in the buffer. 
+[in] A valid bitwise OR of flag values that describe the buffer. Currently, the Direct3D runtime supports only the D3D11_DDI_BUFFEREX_SRV_FLAG_RAW (0x00000001) flag. If this flag is set, the buffer is in raw format. 
 
 
 ## -see-also

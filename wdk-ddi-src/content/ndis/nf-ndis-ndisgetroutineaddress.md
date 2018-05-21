@@ -7,7 +7,7 @@ old-location: netvista\ndisgetroutineaddress.htm
 old-project: netvista
 ms.assetid: 98257b56-e586-41e7-80c3-f9f96d471125
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisGetRoutineAddress, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista], ndis/NdisGetRoutineAddress, ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml, netvista.ndisgetroutineaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisGetRoutineAddress function

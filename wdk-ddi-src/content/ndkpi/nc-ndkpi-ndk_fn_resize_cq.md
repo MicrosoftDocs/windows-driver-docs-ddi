@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_resize_cq.htm
 old-project: netvista
 ms.assetid: DFAEAA42-B1B5-43AA-A573-8434FAF3B446
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_RESIZE_CQ, NdkResizeCq, NdkResizeCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkResizeCq, netvista.ndk_fn_resize_cq
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_RESIZE_CQ, NDK_FN_RESIZE_CQ callback, NdkResizeCq, NdkResizeCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkResizeCq, netvista.ndk_fn_resize_cq
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_RESIZE_CQ callback
+# NDK_FN_RESIZE_CQ callback function
 
 
 ## -description

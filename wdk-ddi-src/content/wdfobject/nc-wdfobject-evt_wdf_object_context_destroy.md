@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: DFGenObjectRef_a9194b33-b67b-43bb-8d50-d918576769c0.xml, EVT_WDF_OBJECT_CONTEXT_DESTROY, EvtDestroyCallback, EvtDestroyCallback callback function, kmdf.evtdestroycallback, wdf.evtdestroycallback, wdfobject/EvtDestroyCallback
+ms.keywords: DFGenObjectRef_a9194b33-b67b-43bb-8d50-d918576769c0.xml, EVT_WDF_OBJECT_CONTEXT_DESTROY, EVT_WDF_OBJECT_CONTEXT_DESTROY callback, EvtDestroyCallback, EvtDestroyCallback callback function, kmdf.evtdestroycallback, wdf.evtdestroycallback, wdfobject/EvtDestroyCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_WDF_OBJECT_CONTEXT_DESTROY callback
+# EVT_WDF_OBJECT_CONTEXT_DESTROY callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: print\addportui.htm
 old-project: print
 ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: AddPortUI, pfnAddPortUI, pfnAddPortUI function [Print Devices], print.addportui, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, winsplp/pfnAddPortUI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # AddPortUI function

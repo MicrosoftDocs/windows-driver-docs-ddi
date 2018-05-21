@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 137ebbec-53f7-4bf6-b43b-2c736d66eb97
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_STORAGE_LOAD_MEDIA, IOCTL_STORAGE_LOAD_MEDIA control code [Storage Devices], k307_730c4c03-9d36-406b-8965-270aa539d0ca.xml, ntddstor/IOCTL_STORAGE_LOAD_MEDIA, storage.ioctl_storage_load_media
+ms.keywords: IOCTL_STORAGE_LOAD_MEDIA, IOCTL_STORAGE_LOAD_MEDIA control, IOCTL_STORAGE_LOAD_MEDIA control code [Storage Devices], k307_730c4c03-9d36-406b-8965-270aa539d0ca.xml, ntddstor/IOCTL_STORAGE_LOAD_MEDIA, storage.ioctl_storage_load_media
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
+req.typenames: 
 ---
 
 # IOCTL_STORAGE_LOAD_MEDIA IOCTL

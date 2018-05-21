@@ -7,8 +7,8 @@ old-location: display\registerfordataratenotifications.htm
 old-project: display
 ms.assetid: 81500bb9-27f1-4688-b244-37dfd766f3c8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFN_REGISTER_DATARATE_NOTIFICATIONS, RegisterForDataRateNotifications, RegisterForDataRateNotifications callback function [Display Devices], display.registerfordataratenotifications, netdispumdddi/RegisterForDataRateNotifications
+ms.date: 4/16/2018
+ms.keywords: PFN_REGISTER_DATARATE_NOTIFICATIONS, PFN_REGISTER_DATARATE_NOTIFICATIONS callback, RegisterForDataRateNotifications, RegisterForDataRateNotifications callback function [Display Devices], display.registerfordataratenotifications, netdispumdddi/RegisterForDataRateNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: 
 ---
 
-# PFN_REGISTER_DATARATE_NOTIFICATIONS callback
+# PFN_REGISTER_DATARATE_NOTIFICATIONS callback function
 
 
 ## -description

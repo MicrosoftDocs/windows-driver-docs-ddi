@@ -7,7 +7,7 @@ old-location: kernel\io_disconnect_interrupt_parameters.htm
 old-project: kernel
 ms.assetid: 646b5442-aff1-4216-bb1b-6988218933be
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PIO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_DISCONNECT_INTERRUPT_PARAMETERS, PIO_DISCONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_DISCONNECT_INTERRUPT_PARAMETERS, kernel.io_disconnect_interrupt_parameters, kstruct_b_f8b627a3-a9ce-4a6c-8e3a-c0354ecdff7f.xml, wdm/IO_DISCONNECT_INTERRUPT_PARAMETERS, wdm/PIO_DISCONNECT_INTERRUPT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: IO_DISCONNECT_INTERRUPT_PARAMETERS, *PIO_DISCONNECT_INTERRUPT_PARAMETERS
-req.product: Windows 10 or later.
 ---
 
 # _IO_DISCONNECT_INTERRUPT_PARAMETERS structure
@@ -147,20 +146,17 @@ The value stored in <b>FullySpecified.InterruptObject</b>.
 To minimize casting, <b>ConnectionContext</b> is defined as a union. Use <b>ConnectionContext.Generic</b> to specify the value as a PVOID. Use <b>ConnectionContext.InterruptObject</b> and <b>ConnectionContext.InterruptMessageTable</b> to specify the value as a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a> structure.
 
 
-
-#### Generic
+### -field ConnectionContext.Generic
 
 A pointer to a data structure of unspecified type.
 
 
-
-#### InterruptObject
+### -field ConnectionContext.InterruptObject
 
 A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a> structure.
 
 
-
-#### InterruptMessageTable
+### -field ConnectionContext.InterruptMessageTable
 
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a> structure.
 

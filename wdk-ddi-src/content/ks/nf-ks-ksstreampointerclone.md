@@ -7,7 +7,7 @@ old-location: stream\ksstreampointerclone.htm
 old-project: stream
 ms.assetid: b51e1c17-e6b5-4108-bfbc-29f1ee06d9f4
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsStreamPointerClone, KsStreamPointerClone function [Streaming Media Devices], avfunc_29a7da58-5321-4c19-83df-c9deab062e78.xml, ks/KsStreamPointerClone, stream.ksstreampointerclone
 ms.prod: windows-hardware
 ms.technology: windows-devices

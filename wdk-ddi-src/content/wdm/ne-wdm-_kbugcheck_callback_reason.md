@@ -7,7 +7,7 @@ old-location: kernel\kbugcheck_callback_reason.htm
 old-project: kernel
 ms.assetid: 08246843-9b6e-4694-8475-acb02fbdd82b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KBUGCHECK_CALLBACK_REASON, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], KbCallbackAddPages, KbCallbackDumpIo, KbCallbackInvalid, KbCallbackReserved1, KbCallbackSecondaryDumpData, _KBUGCHECK_CALLBACK_REASON, kernel.kbugcheck_callback_reason, sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml, wdm/KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackAddPages, wdm/KbCallbackDumpIo, wdm/KbCallbackInvalid, wdm/KbCallbackReserved1, wdm/KbCallbackSecondaryDumpData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: KBUGCHECK_CALLBACK_REASON
-req.product: Windows 10 or later.
 ---
 
 # _KBUGCHECK_CALLBACK_REASON enumeration
@@ -85,11 +84,12 @@ Specifies that the callback is executed to provide one or more pages of data tha
 
 
 ### -field KbCallbackSecondaryMultiPartDumpData
-
+Specifies that the callback is executed to get the amount of data the driver wants to store in the dump file. For more information about this type of callback, see <a href="..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md">BugCheckAddPagesCallback</a>. This enumeration value is supported in Windows Server 2008 and later versions of Windows.
 
 ### -field KbCallbackRemovePages
 
 
+### -field KbCallbackTriageDumpData
 
 
 ## -see-also

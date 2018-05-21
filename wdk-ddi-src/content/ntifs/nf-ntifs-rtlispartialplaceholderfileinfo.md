@@ -7,7 +7,7 @@ old-location: ifsk\rtlispartialplaceholderfileinfo.htm
 old-project: ifsk
 ms.assetid: B84CC8C1-639D-45B4-A2A4-03BA2F1FF04B
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlIsPartialPlaceholderFileInfo, RtlIsPartialPlaceholderFileInfo routine [Installable File System Drivers], ifsk.rtlispartialplaceholderfileinfo, ntifs/RtlIsPartialPlaceholderFileInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlIsPartialPlaceholderFileInfo function

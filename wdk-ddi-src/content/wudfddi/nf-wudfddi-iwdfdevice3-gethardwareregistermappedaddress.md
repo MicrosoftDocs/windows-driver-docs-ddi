@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice3.GetHardwareRegisterMappedAddress
-title: IWDFDevice3::GetHardwareRegisterMappedAddress method
+title: IWDFDevice3::GetHardwareRegisterMappedAddress
 author: windows-driver-content
 description: A driver calls GetHardwareRegisterMappedAddress to get the user-mode mapped address of the memory resource it earlier mapped using MapIoSpace.
 old-location: wdf\iwdfdevice3_gethardwareregistermappedaddress.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 94852404-301F-4C09-81D2-CEDEECFCD6BD
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetHardwareRegisterMappedAddress method, GetHardwareRegisterMappedAddress method, IWDFDevice3 interface, GetHardwareRegisterMappedAddress,IWDFDevice3.GetHardwareRegisterMappedAddress, IWDFDevice3, IWDFDevice3 interface, GetHardwareRegisterMappedAddress method, IWDFDevice3::GetHardwareRegisterMappedAddress, umdf.iwdfdevice3_gethardwareregistermappedaddress, wdf.iwdfdevice3_gethardwareregistermappedaddress, wudfddi/IWDFDevice3::GetHardwareRegisterMappedAddress
+ms.keywords: GetHardwareRegisterMappedAddress, GetHardwareRegisterMappedAddress method, GetHardwareRegisterMappedAddress method,IWDFDevice3 interface, IWDFDevice3 interface,GetHardwareRegisterMappedAddress method, IWDFDevice3.GetHardwareRegisterMappedAddress, IWDFDevice3::GetHardwareRegisterMappedAddress, umdf.iwdfdevice3_gethardwareregistermappedaddress, wdf.iwdfdevice3_gethardwareregistermappedaddress, wudfddi/IWDFDevice3::GetHardwareRegisterMappedAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice3::GetHardwareRegisterMappedAddress method
+# IWDFDevice3::GetHardwareRegisterMappedAddress
 
 
 ## -description

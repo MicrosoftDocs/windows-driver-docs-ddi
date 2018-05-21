@@ -7,28 +7,28 @@ old-location: display\pfnd3dwddm2_2ddi_create_shadercache_session.htm
 old-project: display
 ms.assetid: 14B3AB7A-DB27-412F-9578-5BA44628ECE7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION, d3d10umddi/pfnCreateShaderCacheSession, display.pfnd3dwddm2_2ddi_create_shadercache_session, pfnCreateShaderCacheSession, pfnCreateShaderCacheSession callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION, PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION callback, d3d10umddi/pfnCreateShaderCacheSession, display.pfnd3dwddm2_2ddi_create_shadercache_session, pfnCreateShaderCacheSession, pfnCreateShaderCacheSession callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION callback
+# PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION callback function
 
 
 ## -description
@@ -55,7 +55,9 @@ The <i>pfnCreateShaderCacheSession</i> callback function creates a shader cache 
 
 ## -parameters
 
+### -param hDevice
 
+The handle of a device.
 
 
 ### -param Arg1
@@ -77,15 +79,10 @@ The <i>pfnCreateShaderCacheSession</i> callback function creates a shader cache 
 
 The handle of a cache session.
 
-
-#### - hDevice
-
-The handle of a device.
-
-
-#### - hRTCacheSession
+### -param hRTCacheSession
 
 The handle of the cache session for the driver to use when it calls back into the runtime.
+
 
 
 ## -returns

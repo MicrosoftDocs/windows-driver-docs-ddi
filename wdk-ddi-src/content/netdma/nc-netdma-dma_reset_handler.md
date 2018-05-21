@@ -7,8 +7,8 @@ old-location: netvista\providerresetchannel.htm
 old-project: netvista
 ms.assetid: ee882897-fbc6-4017-8c30-2a54f6c49491
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: DMA_RESET_HANDLER, ProviderResetChannel, ProviderResetChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderResetChannel, netdma_ref_b8d39a6d-73fa-4d8b-b7c7-3f5eb47a4fc4.xml, netvista.providerresetchannel
+ms.date: 4/25/2018
+ms.keywords: DMA_RESET_HANDLER, DMA_RESET_HANDLER callback, ProviderResetChannel, ProviderResetChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderResetChannel, netdma_ref_b8d39a6d-73fa-4d8b-b7c7-3f5eb47a4fc4.xml, netvista.providerresetchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MIRACAST_DRIVER_INTERFACE, *PMIRACAST_DRIVER_INTERFACE
+req.typenames: 
 ---
 
-# DMA_RESET_HANDLER callback
+# DMA_RESET_HANDLER callback function
 
 
 ## -description

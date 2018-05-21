@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DUID_MATCH_STATUS
-req.product: Windows 10 or later.
 ---
 
 # _DUID_MATCH_STATUS enumeration

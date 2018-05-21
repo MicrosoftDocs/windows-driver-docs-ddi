@@ -7,7 +7,7 @@ old-location: print\oemmemoryusage.htm
 old-project: print
 ms.assetid: a7a522b8-7aa2-45b6-9200-407471dca82f
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*POEMMEMORYUSAGE, OEMMEMORYUSAGE, OEMMEMORYUSAGE structure [Print Devices], POEMMEMORYUSAGE, POEMMEMORYUSAGE structure pointer [Print Devices], print.oemmemoryusage, print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, printoem/OEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: OEMMEMORYUSAGE, *POEMMEMORYUSAGE
-req.product: Windows 10 or later.
 ---
 
 # OEMMEMORYUSAGE structure

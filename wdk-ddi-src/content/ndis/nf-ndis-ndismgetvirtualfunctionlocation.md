@@ -7,7 +7,7 @@ old-location: netvista\ndismgetvirtualfunctionlocation.htm
 old-project: netvista
 ms.assetid: 772A7763-67C0-4218-8C5F-23972475D2C9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMGetVirtualFunctionLocation, NdisMGetVirtualFunctionLocation function [Network Drivers Starting with Windows Vista], ndis/NdisMGetVirtualFunctionLocation, netvista.ndismgetvirtualfunctionlocation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMGetVirtualFunctionLocation function

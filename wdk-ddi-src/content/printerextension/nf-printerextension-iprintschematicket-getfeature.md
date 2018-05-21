@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaTicket.GetFeature
-title: IPrintSchemaTicket::GetFeature method
+title: IPrintSchemaTicket::GetFeature
 author: windows-driver-content
 description: Gets a named feature from the PrintTicket, by name and full namespace URI.
 old-location: print\iprintschematicket_getfeature.htm
 old-project: print
 ms.assetid: 2E65BDF2-9539-402B-AF19-8CBC84F9C018
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFeature method [Print Devices], GetFeature method [Print Devices], IPrintSchemaTicket interface, GetFeature,IPrintSchemaTicket.GetFeature, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], GetFeature method, IPrintSchemaTicket::GetFeature, print.iprintschematicket_getfeature, printerextension/IPrintSchemaTicket::GetFeature
+ms.date: 4/20/2018
+ms.keywords: GetFeature, GetFeature method [Print Devices], GetFeature method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetFeature method, IPrintSchemaTicket.GetFeature, IPrintSchemaTicket::GetFeature, print.iprintschematicket_getfeature, printerextension/IPrintSchemaTicket::GetFeature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaTicket::GetFeature method
+# IPrintSchemaTicket::GetFeature
 
 
 ## -description

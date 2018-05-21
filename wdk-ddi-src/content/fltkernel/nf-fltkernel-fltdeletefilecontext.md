@@ -7,7 +7,7 @@ old-location: ifsk\fltdeletefilecontext.htm
 old-project: ifsk
 ms.assetid: faffa053-0382-415c-8f61-ee9121839598
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_a_to_d_53ae4cfc-b70a-405d-b947-cb0f04d4663b.xml, FltDeleteFileContext, FltDeleteFileContext routine [Installable File System Drivers], fltkernel/FltDeleteFileContext, ifsk.fltdeletefilecontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltDeleteFileContext function

@@ -7,7 +7,7 @@ old-location: ifsk\rxlogeventwithbufferdirect.htm
 old-project: ifsk
 ms.assetid: 09a7d452-efa1-4846-8077-1f6ce60515e7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxLogEventWithBufferDirect, RxLogEventWithBufferDirect function [Installable File System Drivers], ifsk.rxlogeventwithbufferdirect, rxprocs/RxLogEventWithBufferDirect, rxref_95cd6139-10e2-4cf1-bfd9-51b3d6dd1119.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxLogEventWithBufferDirect function

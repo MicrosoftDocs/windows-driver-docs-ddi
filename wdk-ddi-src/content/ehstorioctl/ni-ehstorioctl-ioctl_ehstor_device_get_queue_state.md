@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1BF7E7B3-26CF-41BB-B2E9-8EDC6872CF34
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE, IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE, storage.ioctl_ehstor_device_get_queue_state
+ms.keywords: IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE, IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE control, IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE, storage.ioctl_ehstor_device_get_queue_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PDO_TYPE
+req.typenames: 
 ---
 
 # IOCTL_EHSTOR_DEVICE_GET_QUEUE_STATE IOCTL

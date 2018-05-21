@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPinPipe.KsGetFilterName
-title: IKsPinPipe::KsGetFilterName method
+title: IKsPinPipe::KsGetFilterName
 author: windows-driver-content
 description: Returns the name of a filter.
 old-location: stream\ikspinpipe_ksgetfiltername.htm
 old-project: stream
 ms.assetid: A009B276-AF91-4FDD-AB81-6992311B3744
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPinPipe, IKsPinPipe interface [Streaming Media Devices], KsGetFilterName method, IKsPinPipe::KsGetFilterName, KsGetFilterName method [Streaming Media Devices], KsGetFilterName method [Streaming Media Devices], IKsPinPipe interface, KsGetFilterName,IKsPinPipe.KsGetFilterName, ksproxy/IKsPinPipe::KsGetFilterName, stream.ikspinpipe_ksgetfiltername
+ms.date: 4/23/2018
+ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetFilterName method, IKsPinPipe.KsGetFilterName, IKsPinPipe::KsGetFilterName, KsGetFilterName, KsGetFilterName method [Streaming Media Devices], KsGetFilterName method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetFilterName, stream.ikspinpipe_ksgetfiltername
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPinPipe::KsGetFilterName method
+# IKsPinPipe::KsGetFilterName
 
 
 ## -description

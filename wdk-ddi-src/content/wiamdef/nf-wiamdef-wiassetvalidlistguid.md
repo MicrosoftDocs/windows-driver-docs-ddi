@@ -7,7 +7,7 @@ old-location: image\wiassetvalidlistguid.htm
 old-project: image
 ms.assetid: ab8276d4-4838-4bfc-8952-8712435eab41
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiassetvalidlistguid, wiamdef/wiasSetValidListGuid, wiasFncs_eade05c7-20bd-480d-aa50-0216575ce856.xml, wiasSetValidListGuid, wiasSetValidListGuid function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasSetValidListGuid function

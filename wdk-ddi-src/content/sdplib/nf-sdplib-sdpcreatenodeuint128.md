@@ -7,7 +7,7 @@ old-location: bltooth\sdpcreatenodeuint128.htm
 old-project: bltooth
 ms.assetid: 92ddc186-7b4c-410e-a82b-7309559364c1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: SdpCreateNodeUInt128, SdpCreateNodeUInt128 function [Bluetooth Devices], bltooth.sdpcreatenodeuint128, bth_funcs_c03666c1-b1d7-4361-9133-f0525300e546.xml, sdplib/SdpCreateNodeUInt128
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SdpCreateNodeUInt128 function

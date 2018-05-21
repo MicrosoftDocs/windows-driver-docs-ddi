@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl6.GetSynchronizationStatus
-title: IDebugControl6::GetSynchronizationStatus method
+title: IDebugControl6::GetSynchronizationStatus
 author: windows-driver-content
 description: The GetSynchronizationStatus method returns information about the synchronization status of the debugger engine.
 old-location: debugger\idebugcontrol6_getsynchronizationstatus.htm
 old-project: debugger
 ms.assetid: 94DD7FBF-2D4F-4DD9-A49E-A9FA494BF995
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSynchronizationStatus method [Windows Debugging], GetSynchronizationStatus method [Windows Debugging], IDebugControl6 interface, GetSynchronizationStatus,IDebugControl6.GetSynchronizationStatus, IDebugControl6, IDebugControl6 interface [Windows Debugging], GetSynchronizationStatus method, IDebugControl6::GetSynchronizationStatus, dbgeng/IDebugControl6::GetSynchronizationStatus, debugger.idebugcontrol6_getsynchronizationstatus
+ms.date: 4/24/2018
+ms.keywords: GetSynchronizationStatus, GetSynchronizationStatus method [Windows Debugging], GetSynchronizationStatus method [Windows Debugging],IDebugControl6 interface, IDebugControl6 interface [Windows Debugging],GetSynchronizationStatus method, IDebugControl6.GetSynchronizationStatus, IDebugControl6::GetSynchronizationStatus, dbgeng/IDebugControl6::GetSynchronizationStatus, debugger.idebugcontrol6_getsynchronizationstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl6::GetSynchronizationStatus method
+# IDebugControl6::GetSynchronizationStatus
 
 
 ## -description

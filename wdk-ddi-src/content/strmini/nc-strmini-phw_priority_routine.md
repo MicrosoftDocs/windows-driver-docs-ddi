@@ -7,7 +7,7 @@ old-location: stream\strminipriorityroutine.htm
 old-project: stream
 ms.assetid: 775ab6aa-eda7-4774-8fe8-8b1838b3972f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: PHW_PRIORITY_ROUTINE, StrMiniPriorityRoutine, StrMiniPriorityRoutine routine [Streaming Media Devices], stream.strminipriorityroutine, strmini-routines_718339c9-e072-4d3e-a9ec-a0ce2cce4f90.xml, strmini/StrMiniPriorityRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PHW_PRIORITY_ROUTINE callback
+# PHW_PRIORITY_ROUTINE callback function
 
 
 ## -description

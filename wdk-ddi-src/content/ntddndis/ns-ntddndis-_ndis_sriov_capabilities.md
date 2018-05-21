@@ -7,7 +7,7 @@ old-location: netvista\ndis_sriov_capabilities.htm
 old-project: netvista
 ms.assetid: 57cf980c-4477-4c12-8d82-7a8df8b2922f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_CAPABILITIES, PNDIS_SRIOV_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_CAPABILITIES, netvista.ndis_sriov_capabilities, ntddndis/NDIS_SRIOV_CAPABILITIES, ntddndis/PNDIS_SRIOV_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

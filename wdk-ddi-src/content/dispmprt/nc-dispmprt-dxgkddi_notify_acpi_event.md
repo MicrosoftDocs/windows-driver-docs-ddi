@@ -7,8 +7,8 @@ old-location: display\dxgkddinotifyacpievent.htm
 old-project: display
 ms.assetid: fdefde51-0e90-4324-9c14-e8259fc872b3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_NOTIFY_ACPI_EVENT, DmFunctions_de0d32a9-a592-4fe2-86e1-66a436be5874.xml, DxgkDdiNotifyAcpiEvent, DxgkDdiNotifyAcpiEvent callback function [Display Devices], display.dxgkddinotifyacpievent, dispmprt/DxgkDdiNotifyAcpiEvent
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_NOTIFY_ACPI_EVENT, DXGKDDI_NOTIFY_ACPI_EVENT callback, DmFunctions_de0d32a9-a592-4fe2-86e1-66a436be5874.xml, DxgkDdiNotifyAcpiEvent, DxgkDdiNotifyAcpiEvent callback function [Display Devices], display.dxgkddinotifyacpievent, dispmprt/DxgkDdiNotifyAcpiEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_NOTIFY_ACPI_EVENT callback
+# DXGKDDI_NOTIFY_ACPI_EVENT callback function
 
 
 ## -description

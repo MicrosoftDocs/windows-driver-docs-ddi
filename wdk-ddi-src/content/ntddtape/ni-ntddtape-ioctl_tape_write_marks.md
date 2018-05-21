@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cc4dabe3-4e14-4495-89b4-37f1a31ea62d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_TAPE_WRITE_MARKS, IOCTL_TAPE_WRITE_MARKS control code [Storage Devices], k307_f1ba7d65-28cf-4a26-b385-462ca5018d88.xml, ntddtape/IOCTL_TAPE_WRITE_MARKS, storage.ioctl_tape_write_marks
+ms.keywords: IOCTL_TAPE_WRITE_MARKS, IOCTL_TAPE_WRITE_MARKS control, IOCTL_TAPE_WRITE_MARKS control code [Storage Devices], k307_f1ba7d65-28cf-4a26-b385-462ca5018d88.xml, ntddtape/IOCTL_TAPE_WRITE_MARKS, storage.ioctl_tape_write_marks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TAPE_DRIVE_PROBLEM_TYPE
+req.typenames: 
 ---
 
 # IOCTL_TAPE_WRITE_MARKS IOCTL

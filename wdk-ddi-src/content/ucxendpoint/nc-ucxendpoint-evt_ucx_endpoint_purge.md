@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_endpoint_purge.htm
 old-project: usbref
 ms.assetid: e4ceb597-ebfe-4016-ba83-e5246a70f566
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCX_ENDPOINT_PURGE, EvtUcxEndpointPurge, EvtUcxEndpointPurge callback function [Buses], PEVT_UCX_ENDPOINT_PURGE, PEVT_UCX_ENDPOINT_PURGE callback function pointer [Buses], buses.evt_ucx_endpoint_purge, ucxendpoint/EvtUcxEndpointPurge
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_ENDPOINT_PURGE, EVT_UCX_ENDPOINT_PURGE callback, EvtUcxEndpointPurge, EvtUcxEndpointPurge callback function [Buses], PEVT_UCX_ENDPOINT_PURGE, PEVT_UCX_ENDPOINT_PURGE callback function pointer [Buses], buses.evt_ucx_endpoint_purge, ucxendpoint/EvtUcxEndpointPurge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_ENDPOINT_PURGE callback
+# EVT_UCX_ENDPOINT_PURGE callback function
 
 
 ## -description

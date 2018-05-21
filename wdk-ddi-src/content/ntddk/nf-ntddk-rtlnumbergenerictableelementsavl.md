@@ -7,7 +7,7 @@ old-location: ifsk\rtlnumbergenerictableelementsavl.htm
 old-project: ifsk
 ms.assetid: CC67993A-99B1-41DC-9278-7A475EF87089
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlNumberGenericTableElementsAvl, RtlNumberGenericTableElementsAvl routine [Installable File System Drivers], ifsk.rtlnumbergenerictableelementsavl, ntddk/RtlNumberGenericTableElementsAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlNumberGenericTableElementsAvl function

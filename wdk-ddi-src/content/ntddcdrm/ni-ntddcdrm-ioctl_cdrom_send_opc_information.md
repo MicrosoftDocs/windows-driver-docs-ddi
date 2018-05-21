@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 77289AB6-7733-4DA1-B4E9-585AA73D137C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_CDROM_SEND_OPC_INFORMATION, IOCTL_CDROM_SEND_OPC_INFORMATION control code [Storage Devices], ntddcdrm/IOCTL_CDROM_SEND_OPC_INFORMATION, storage.ioctl_cdrom_send_opc_information
+ms.keywords: IOCTL_CDROM_SEND_OPC_INFORMATION, IOCTL_CDROM_SEND_OPC_INFORMATION control, IOCTL_CDROM_SEND_OPC_INFORMATION control code [Storage Devices], ntddcdrm/IOCTL_CDROM_SEND_OPC_INFORMATION, storage.ioctl_cdrom_send_opc_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WRITE_ROTATION, *PWRITE_ROTATION
+req.typenames: 
 ---
 
 # IOCTL_CDROM_SEND_OPC_INFORMATION IOCTL

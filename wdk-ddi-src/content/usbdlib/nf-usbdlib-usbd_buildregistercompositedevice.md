@@ -7,7 +7,7 @@ old-location: buses\usbd_buildregistercompositedriver.htm
 old-project: usbref
 ms.assetid: 6683C688-CCDD-498B-AA60-81430DC3BCA4
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], buses.usbd_buildregistercompositedriver, usbdlib/ USBD_BuildRegisterCompositeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBD_BuildRegisterCompositeDevice function

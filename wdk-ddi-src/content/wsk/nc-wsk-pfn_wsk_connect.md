@@ -7,8 +7,8 @@ old-location: netvista\wskconnect.htm
 old-project: netvista
 ms.assetid: 66942ba4-40f9-4fdc-97f3-859309cd870d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_CONNECT, WskConnect, WskConnect callback function [Network Drivers Starting with Windows Vista], netvista.wskconnect, wsk/WskConnect, wskref_16a15402-b34a-40b7-87a7-881d422e0d1c.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_CONNECT, PFN_WSK_CONNECT callback, WskConnect, WskConnect callback function [Network Drivers Starting with Windows Vista], netvista.wskconnect, wsk/WskConnect, wskref_16a15402-b34a-40b7-87a7-881d422e0d1c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_CONNECT callback
+# PFN_WSK_CONNECT callback function
 
 
 ## -description

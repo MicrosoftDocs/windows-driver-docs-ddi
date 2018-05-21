@@ -7,8 +7,8 @@ old-location: display\dxgk_vidpn_interface_pfngettopology.htm
 old-project: display
 ms.assetid: 2bc43cd0-97a2-4120-8e6f-425664d3d28c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_VIDPN_GETTOPOLOGY, VidPnFunctions_2818281e-102f-4c76-a57d-3b133b0692e6.xml, d3dkmddi/pfnGetTopology, display.dxgk_vidpn_interface_pfngettopology, pfnGetTopology, pfnGetTopology callback function [Display Devices]
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_VIDPN_GETTOPOLOGY, DXGKDDI_VIDPN_GETTOPOLOGY callback, VidPnFunctions_2818281e-102f-4c76-a57d-3b133b0692e6.xml, d3dkmddi/pfnGetTopology, display.dxgk_vidpn_interface_pfngettopology, pfnGetTopology, pfnGetTopology callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_VIDPN_GETTOPOLOGY callback
+# DXGKDDI_VIDPN_GETTOPOLOGY callback function
 
 
 ## -description

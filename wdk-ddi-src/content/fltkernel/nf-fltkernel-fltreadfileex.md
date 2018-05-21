@@ -7,7 +7,7 @@ old-location: ifsk\fltreadfileex.htm
 old-project: ifsk
 ms.assetid: 356D4CFD-E256-4920-AAB7-D6399F357591
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltReadFileEx, FltReadFileEx function [Installable File System Drivers], fltkernel/FltReadFileEx, ifsk.fltreadfileex
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltReadFileEx function

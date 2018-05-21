@@ -7,8 +7,8 @@ old-location: netvista\miniportwditxtalsendcomplete.htm
 old-project: netvista
 ms.assetid: 347B069F-76B6-42D5-9613-7D0214C2FEDB
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_TX_TAL_SEND_COMPLETE, MiniportWdiTxTalSendComplete, MiniportWdiTxTalSendComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalSendComplete, netvista.miniportwditxtalsendcomplete
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_TX_TAL_SEND_COMPLETE, MINIPORT_WDI_TX_TAL_SEND_COMPLETE callback, MiniportWdiTxTalSendComplete, MiniportWdiTxTalSendComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalSendComplete, netvista.miniportwditxtalsendcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_TX_TAL_SEND_COMPLETE callback
+# MINIPORT_WDI_TX_TAL_SEND_COMPLETE callback function
 
 
 ## -description

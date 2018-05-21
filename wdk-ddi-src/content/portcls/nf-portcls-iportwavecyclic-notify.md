@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IPortWaveCyclic.Notify
-title: IPortWaveCyclic::Notify method
+title: IPortWaveCyclic::Notify
 author: windows-driver-content
 description: The Notify method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred. It should be called from the miniport driver's interrupt service routine (ISR).
 old-location: audio\iportwavecyclic_notify.htm
 old-project: audio
 ms.assetid: 318ba587-e34f-4f9f-bdf9-3e7c402456c5
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IPortWaveCyclic, IPortWaveCyclic interface [Audio Devices], Notify method, IPortWaveCyclic::Notify, Notify method [Audio Devices], Notify method [Audio Devices], IPortWaveCyclic interface, Notify,IPortWaveCyclic.Notify, audio.iportwavecyclic_notify, audmp-routines_8b2252d3-100f-4e4a-b5ca-cdaf0c12834e.xml, portcls/IPortWaveCyclic::Notify
+ms.date: 4/16/2018
+ms.keywords: IPortWaveCyclic interface [Audio Devices],Notify method, IPortWaveCyclic.Notify, IPortWaveCyclic::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortWaveCyclic interface, audio.iportwavecyclic_notify, audmp-routines_8b2252d3-100f-4e4a-b5ca-cdaf0c12834e.xml, portcls/IPortWaveCyclic::Notify
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IPortWaveCyclic::Notify method
+# IPortWaveCyclic::Notify
 
 
 ## -description

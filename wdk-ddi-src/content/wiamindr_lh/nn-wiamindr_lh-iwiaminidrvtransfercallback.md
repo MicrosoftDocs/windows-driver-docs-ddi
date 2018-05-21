@@ -7,8 +7,8 @@ old-location: image\iwiaminidrvtransfercallback.htm
 old-project: image
 ms.assetid: A3D874CB-1F43-4AA0-975B-35C0C5F7A13C
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], IWiaMiniDrvTransferCallback interface [Imaging Devices], described, image.iwiaminidrvtransfercallback, wiamindr_lh/IWiaMiniDrvTransferCallback
+ms.date: 4/23/2018
+ms.keywords: IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], IWiaMiniDrvTransferCallback interface [Imaging Devices],described, image.iwiaminidrvtransfercallback, wiamindr_lh/IWiaMiniDrvTransferCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IWiaMiniDrvTransferCallback interface

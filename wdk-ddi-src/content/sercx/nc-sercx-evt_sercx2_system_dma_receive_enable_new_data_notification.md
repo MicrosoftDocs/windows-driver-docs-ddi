@@ -7,8 +7,8 @@ old-location: serports\evtsercx2systemdmareceiveenablenewdatanotification.htm
 old-project: serports
 ms.assetid: E2B7FE14-1D06-48E7-95FB-C103358340EA
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 2/EvtSerCx2SystemDmaReceiveEnableNewDataNotification, EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION, EvtSerCx2SystemDmaReceiveEnableNewDataNotification, EvtSerCx2SystemDmaReceiveEnableNewDataNotification callback function [Serial Ports], serports.evtsercx2systemdmareceiveenablenewdatanotification
+ms.date: 4/23/2018
+ms.keywords: 2/EvtSerCx2SystemDmaReceiveEnableNewDataNotification, EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION callback, EvtSerCx2SystemDmaReceiveEnableNewDataNotification, EvtSerCx2SystemDmaReceiveEnableNewDataNotification callback function [Serial Ports], serports.evtsercx2systemdmareceiveenablenewdatanotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION callback
+# EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION callback function
 
 
 ## -description

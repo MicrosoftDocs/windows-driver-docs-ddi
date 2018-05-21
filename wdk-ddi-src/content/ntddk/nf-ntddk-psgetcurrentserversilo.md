@@ -7,7 +7,7 @@ old-location: kernel\psgetcurrentserversilo.htm
 old-project: kernel
 ms.assetid: 4E30CD53-C078-40D7-BEF8-A39F57D71D42
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: PsGetCurrentServerSilo, PsGetCurrentServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentserversilo, ntddk/PsGetCurrentServerSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # PsGetCurrentServerSilo function

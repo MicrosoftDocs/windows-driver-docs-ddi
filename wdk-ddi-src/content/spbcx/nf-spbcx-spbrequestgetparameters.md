@@ -7,7 +7,7 @@ old-location: spb\spbrequestgetparameters.htm
 old-project: SPB
 ms.assetid: 676C28C4-E6F3-4190-927B-67D5618F5645
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/30/2018
 ms.keywords: SPB.spbrequestgetparameters, SpbRequestGetParameters, SpbRequestGetParameters method [Buses], spbcx/SpbRequestGetParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SpbRequestGetParameters function

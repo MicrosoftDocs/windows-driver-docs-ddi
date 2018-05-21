@@ -7,28 +7,28 @@ old-location: display\dxgkvgpu_escape_initialize.htm
 old-project: display
 ms.assetid: 697F4A4C-349E-46E5-B891-215C4AFFC4B6
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGKVGPU_ESCAPE_INITIALIZE, DXGKVGPU_ESCAPE_INITIALIZE structure [Display Devices], _DXGKVGPU_ESCAPE_INITIALIZE, d3dukmdt/DXGKVGPU_ESCAPE_INITIALIZE, display.dxgkvgpu_escape_initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dukmdt.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -62,3 +62,6 @@ Used to initialize an escape.
 
 The header that is being operated over.
 
+### -field VmGuid
+
+VM GUID.

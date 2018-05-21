@@ -7,7 +7,7 @@ old-location: kernel\rtlintptrtochar.htm
 old-project: kernel
 ms.assetid: 96FC52D7-E383-451A-BB30-9C677F254DE2
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlIntPtrToChar, RtlIntPtrToChar function [Kernel-Mode Driver Architecture], kernel.rtlintptrtochar, ntintsafe/RtlIntPtrToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PUBLIC_OBJECT_TYPE_INFORMATION, *PPUBLIC_OBJECT_TYPE_INFORMATION
+req.typenames: 
 ---
 
 # RtlIntPtrToChar function

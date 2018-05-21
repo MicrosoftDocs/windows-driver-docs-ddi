@@ -7,8 +7,8 @@ old-location: debugger\idebugcontrol7.htm
 old-project: debugger
 ms.assetid: 44B8C5DF-D25F-4688-8EDB-135B63802BB6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl7, IDebugControl7 interface [Windows Debugging], IDebugControl7 interface [Windows Debugging], described, dbgeng/IDebugControl7, debugger.idebugcontrol7
+ms.date: 4/24/2018
+ms.keywords: IDebugControl7, IDebugControl7 interface [Windows Debugging], IDebugControl7 interface [Windows Debugging],described, dbgeng/IDebugControl7, debugger.idebugcontrol7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugControl7 interface

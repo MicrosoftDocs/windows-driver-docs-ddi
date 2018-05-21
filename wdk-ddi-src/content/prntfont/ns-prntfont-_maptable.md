@@ -7,7 +7,7 @@ old-location: print\maptable.htm
 old-project: print
 ms.assetid: d3dcf7b0-4244-41c1-801e-cf41b20f2d54
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PMAPTABLE, MAPTABLE, MAPTABLE structure [Print Devices], PMAPTABLE, PMAPTABLE structure pointer [Print Devices], _MAPTABLE, print.maptable, print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, prntfont/MAPTABLE, prntfont/PMAPTABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: MAPTABLE, *PMAPTABLE
-req.product: Windows 10 or later.
 ---
 
 # _MAPTABLE structure

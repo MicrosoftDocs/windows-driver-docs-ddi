@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemEngine.EnablePDEV
-title: IPrintOemEngine::EnablePDEV method
+title: IPrintOemEngine::EnablePDEV
 author: windows-driver-content
 description: "."
 old-location: print\iprintoemengine_enablepdev.htm
 old-project: print
 ms.assetid: F84B7A8F-5B75-4E2F-93EB-AFFE24637647
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: EnablePDEV method [Print Devices], EnablePDEV method [Print Devices], IPrintOemEngine interface, EnablePDEV,IPrintOemEngine.EnablePDEV, IPrintOemEngine, IPrintOemEngine interface [Print Devices], EnablePDEV method, IPrintOemEngine::EnablePDEV, prcomoem/IPrintOemEngine::EnablePDEV, print.iprintoemengine_enablepdev
+ms.date: 4/20/2018
+ms.keywords: EnablePDEV, EnablePDEV method [Print Devices], EnablePDEV method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],EnablePDEV method, IPrintOemEngine.EnablePDEV, IPrintOemEngine::EnablePDEV, prcomoem/IPrintOemEngine::EnablePDEV, print.iprintoemengine_enablepdev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemEngine::EnablePDEV method
+# IPrintOemEngine::EnablePDEV
 
 
 ## -description

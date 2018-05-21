@@ -7,7 +7,7 @@ old-location: netvista\rilprovisionstatus.htm
 old-project: netvista
 ms.assetid: 5295f07d-9800-47f0-a827-515fcdad04eb
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILPROVISIONSTATUS, RILPROVISIONSTATUS, RILPROVISIONSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilprovisionstatus, ntddrilapitypes/RILPROVISIONSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

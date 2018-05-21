@@ -7,7 +7,7 @@ old-location: kernel\zwcreatesection.htm
 old-project: kernel
 ms.assetid: 805d7eff-19be-47a1-acc9-1b97e5493031
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: NtCreateSection, ZwCreateSection, ZwCreateSection routine [Kernel-Mode Driver Architecture], k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, kernel.zwcreatesection, wdm/NtCreateSection, wdm/ZwCreateSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwCreateSection function
@@ -243,7 +242,7 @@ Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driv
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557758">Object Handles</a>. 
 
-For more information about setting up mapped sections and views of memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563682">Sections and Views</a>. 
+For more information about setting up mapped sections and views of memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/section-objects-and-views">Sections and Views</a>. 
 
 <div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateSection</b>" instead of "<b>ZwCreateSection</b>".</div>
 <div> </div>

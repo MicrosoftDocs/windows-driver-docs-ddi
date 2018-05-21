@@ -7,7 +7,7 @@ old-location: serports\sercxgetringbufferutilization.htm
 old-project: serports
 ms.assetid: 8D4B8682-5713-47D6-A18E-F2EE44614DFB
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/23/2018
 ms.keywords: 1/SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization method [Serial Ports], serports.sercxgetringbufferutilization
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SerCxGetRingBufferUtilization function

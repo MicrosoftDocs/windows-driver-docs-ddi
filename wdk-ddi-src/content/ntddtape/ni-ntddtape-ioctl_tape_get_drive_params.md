@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 05e45364-3544-477e-a06d-3aae93518b00
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_TAPE_GET_DRIVE_PARAMS, IOCTL_TAPE_GET_DRIVE_PARAMS control code [Storage Devices], k307_c6390200-5ccf-4a13-9b96-9f5aa5adee32.xml, ntddtape/IOCTL_TAPE_GET_DRIVE_PARAMS, storage.ioctl_tape_get_drive_params
+ms.keywords: IOCTL_TAPE_GET_DRIVE_PARAMS, IOCTL_TAPE_GET_DRIVE_PARAMS control, IOCTL_TAPE_GET_DRIVE_PARAMS control code [Storage Devices], k307_c6390200-5ccf-4a13-9b96-9f5aa5adee32.xml, ntddtape/IOCTL_TAPE_GET_DRIVE_PARAMS, storage.ioctl_tape_get_drive_params
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TAPE_DRIVE_PROBLEM_TYPE
+req.typenames: 
 ---
 
 # IOCTL_TAPE_GET_DRIVE_PARAMS IOCTL

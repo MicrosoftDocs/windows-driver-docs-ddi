@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaCapabilities.GetFeature
-title: IPrintSchemaCapabilities::GetFeature method
+title: IPrintSchemaCapabilities::GetFeature
 author: windows-driver-content
 description: Gets a named feature from the PrintCapabilities, by name and full namespace URI.
 old-location: print\iprintschemacapabilities_getfeature.htm
 old-project: print
 ms.assetid: AC6434F5-0892-4426-98BB-BC02AD17917B
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetFeature method [Print Devices], GetFeature method [Print Devices], IPrintSchemaCapabilities interface, GetFeature,IPrintSchemaCapabilities.GetFeature, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], GetFeature method, IPrintSchemaCapabilities::GetFeature, print.iprintschemacapabilities_getfeature, printerextension/IPrintSchemaCapabilities::GetFeature
+ms.date: 4/20/2018
+ms.keywords: GetFeature, GetFeature method [Print Devices], GetFeature method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetFeature method, IPrintSchemaCapabilities.GetFeature, IPrintSchemaCapabilities::GetFeature, print.iprintschemacapabilities_getfeature, printerextension/IPrintSchemaCapabilities::GetFeature
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaCapabilities::GetFeature method
+# IPrintSchemaCapabilities::GetFeature
 
 
 ## -description

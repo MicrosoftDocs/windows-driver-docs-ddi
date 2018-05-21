@@ -7,8 +7,8 @@ old-location: buses\evt_udecx_usb_device_d0_exit.htm
 old-project: usbref
 ms.assetid: CC2878DC-66EC-4493-8188-3B6BAEA928DF
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UDECX_USB_DEVICE_D0_EXIT, EvtUsbDeviceLinkPowerExit, EvtUsbDeviceLinkPowerExit callback function [Buses], buses.evt_udecx_usb_device_d0_exit, udecxusbdevice/EvtUsbDeviceLinkPowerExit
+ms.date: 4/25/2018
+ms.keywords: EVT_UDECX_USB_DEVICE_D0_EXIT, EVT_UDECX_USB_DEVICE_D0_EXIT callback, EvtUsbDeviceLinkPowerExit, EvtUsbDeviceLinkPowerExit callback function [Buses], buses.evt_udecx_usb_device_d0_exit, udecxusbdevice/EvtUsbDeviceLinkPowerExit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_DEVICE_PORT_PATH, *PUSB_DEVICE_PORT_PATH
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UDECX_USB_DEVICE_D0_EXIT callback
+# EVT_UDECX_USB_DEVICE_D0_EXIT callback function
 
 
 ## -description

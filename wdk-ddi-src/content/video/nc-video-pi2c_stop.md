@@ -7,8 +7,8 @@ old-location: display\i2cstop.htm
 old-project: display
 ms.assetid: 535e1603-08e3-4ad1-b4e5-f0368b7d3e71
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: I2CStop, I2CStop callback function [Display Devices], PI2C_STOP, VideoPort_Functions_736a5ce6-846f-4c8c-b851-b65c365bba71.xml, display.i2cstop, video/I2CStop
+ms.date: 4/16/2018
+ms.keywords: I2CStop, I2CStop callback function [Display Devices], PI2C_STOP, PI2C_STOP callback, VideoPort_Functions_736a5ce6-846f-4c8c-b851-b65c365bba71.xml, display.i2cstop, video/I2CStop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PI2C_STOP callback
+# PI2C_STOP callback function
 
 
 ## -description

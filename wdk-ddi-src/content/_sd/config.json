@@ -1,0 +1,11 @@
+{
+  "tech": "sd",
+  "headers": [
+    "ntddsd.h",
+    "reshub.h",
+    "sddef.h",
+    "sdport.h",
+    "sffdisk.h"
+  ],
+  "displayName": "Secure Digital (SD) card"
+}

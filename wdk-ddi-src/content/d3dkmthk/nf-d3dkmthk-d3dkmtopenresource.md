@@ -7,7 +7,7 @@ old-location: display\d3dkmtopenresource.htm
 old-project: display
 ms.assetid: 787ace79-c9ba-4e3e-9cee-0d07ef50ba35
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMTOpenResource, D3DKMTOpenResource function [Display Devices], OpenGL_Functions_ba035fe1-7970-45fc-a1c3-adddf285abd1.xml, d3dkmthk/D3DKMTOpenResource, display.d3dkmtopenresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: D3DKMT_DRIVERVERSION
+req.typenames: 
 ---
 
 # D3DKMTOpenResource function

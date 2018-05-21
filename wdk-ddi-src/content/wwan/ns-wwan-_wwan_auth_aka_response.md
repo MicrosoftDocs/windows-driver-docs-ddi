@@ -7,7 +7,7 @@ old-location: netvista\wwan_auth_aka_response.htm
 old-project: netvista
 ms.assetid: 16F20188-AFAC-46BF-9D90-26376DEF1595
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_AUTH_AKA_RESPONSE, PWWAN_AUTH_AKA_RESPONSE, PWWAN_AUTH_AKA_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKA_RESPONSE, WWAN_AUTH_AKA_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKA_RESPONSE, netvista.wwan_auth_aka_response, wwan/PWWAN_AUTH_AKA_RESPONSE, wwan/WWAN_AUTH_AKA_RESPONSE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_AUTH_AKA_RESPONSE, *PWWAN_AUTH_AKA_RESPONSE
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_AUTH_AKA_RESPONSE structure

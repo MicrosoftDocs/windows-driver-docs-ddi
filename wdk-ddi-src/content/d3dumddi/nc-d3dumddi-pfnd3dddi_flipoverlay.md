@@ -7,8 +7,8 @@ old-location: display\flipoverlay.htm
 old-project: display
 ms.assetid: 8490ebdd-f993-4c77-b6da-d57ef5e5d05f
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: FlipOverlay, FlipOverlay callback function [Display Devices], PFND3DDDI_FLIPOVERLAY, UserModeDisplayDriver_Functions_4a2c5f7b-8d52-465f-84ea-a1fc4f53381b.xml, d3dumddi/FlipOverlay, display.flipoverlay
+ms.date: 4/16/2018
+ms.keywords: FlipOverlay, FlipOverlay callback function [Display Devices], PFND3DDDI_FLIPOVERLAY, PFND3DDDI_FLIPOVERLAY callback, UserModeDisplayDriver_Functions_4a2c5f7b-8d52-465f-84ea-a1fc4f53381b.xml, d3dumddi/FlipOverlay, display.flipoverlay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_FLIPOVERLAY callback
+# PFND3DDDI_FLIPOVERLAY callback function
 
 
 ## -description

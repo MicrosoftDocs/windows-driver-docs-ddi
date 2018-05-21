@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient5.GetDumpFile
-title: IDebugClient5::GetDumpFile method
+title: IDebugClient5::GetDumpFile
 author: windows-driver-content
 description: The GetDumpFile method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfile.htm
 old-project: debugger
 ms.assetid: 06317b65-4853-40da-9131-9983918b7157
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetDumpFile method [Windows Debugging], GetDumpFile method [Windows Debugging], IDebugClient4 interface, GetDumpFile method [Windows Debugging], IDebugClient5 interface, GetDumpFile,IDebugClient5.GetDumpFile, IDebugClient4 interface [Windows Debugging], GetDumpFile method, IDebugClient4::GetDumpFile, IDebugClient5, IDebugClient5 interface [Windows Debugging], GetDumpFile method, IDebugClient5::GetDumpFile, IDebugClient_f4f1540c-116c-4e74-ad19-10beb0ac2739.xml, dbgeng/IDebugClient4::GetDumpFile, dbgeng/IDebugClient5::GetDumpFile, debugger.getdumpfile
+ms.date: 4/24/2018
+ms.keywords: GetDumpFile, GetDumpFile method [Windows Debugging], GetDumpFile method [Windows Debugging],IDebugClient4 interface, GetDumpFile method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],GetDumpFile method, IDebugClient4::GetDumpFile, IDebugClient5 interface [Windows Debugging],GetDumpFile method, IDebugClient5.GetDumpFile, IDebugClient5::GetDumpFile, IDebugClient_f4f1540c-116c-4e74-ad19-10beb0ac2739.xml, dbgeng/IDebugClient4::GetDumpFile, dbgeng/IDebugClient5::GetDumpFile, debugger.getdumpfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,10 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient5::GetDumpFile method
+# IDebugClient5::GetDumpFile
 
 
 ## -description

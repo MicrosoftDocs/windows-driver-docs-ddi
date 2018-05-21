@@ -7,7 +7,7 @@ old-location: stream\kspingettrailingedgestreampointer.htm
 old-project: stream
 ms.assetid: 763f1f66-4d83-44aa-9db5-206cf6b6f9b1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinGetTrailingEdgeStreamPointer, KsPinGetTrailingEdgeStreamPointer function [Streaming Media Devices], avfunc_3fd3182e-6e4d-4654-9de7-e9cea1086e3e.xml, ks/KsPinGetTrailingEdgeStreamPointer, stream.kspingettrailingedgestreampointer
 ms.prod: windows-hardware
 ms.technology: windows-devices

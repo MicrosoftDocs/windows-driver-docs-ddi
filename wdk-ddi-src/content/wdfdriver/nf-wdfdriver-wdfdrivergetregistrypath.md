@@ -44,8 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_INIT_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDriverGetRegistryPath function
@@ -84,7 +83,7 @@ A handle to the driver's framework driver object, obtained by a previous call to
 
 The registry path string that <b>WdfDriverGetRegistryPath</b> returns is obtained from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that the driver received as input to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. 
 
-For more information about the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-umdf-1-x-drivers">Using the Registry in Framework-Based Drivers</a>.
+For more information about the registry, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
 
 
 #### Examples

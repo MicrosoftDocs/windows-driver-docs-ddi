@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons
-title: IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons method
+title: IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
 author: windows-driver-content
 description: Gets the horizontal distance between the origin and the bounding limit of the application media size.
 old-location: print\iprintschemapageimageablesize_extentwidthinmicrons.htm
 old-project: print
 ms.assetid: B30CD277-ADE2-45F7-BE73-CF738843D9B9
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: ExtentWidthInMicrons property [Print Devices], ExtentWidthInMicrons property [Print Devices], IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], ExtentWidthInMicrons property, IPrintSchemaPageImageableSize.ExtentWidthInMicrons, IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons, get_ExtentWidthInMicrons, get_ExtentWidthInMicrons,IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons, print.iprintschemapageimageablesize_extentwidthinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
+ms.date: 4/20/2018
+ms.keywords: ExtentWidthInMicrons property [Print Devices], ExtentWidthInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices],ExtentWidthInMicrons property, IPrintSchemaPageImageableSize.ExtentWidthInMicrons, IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons, IPrintSchemaPageImageableSize::ExtentWidthInMicrons, IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons, get_ExtentWidthInMicrons, print.iprintschemapageimageablesize_extentwidthinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons method
+# IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
 
 
 ## -description

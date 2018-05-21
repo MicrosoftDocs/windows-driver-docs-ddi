@@ -7,7 +7,7 @@ old-location: kernel\kereadstatesemaphore.htm
 old-project: kernel
 ms.assetid: e88c89fb-c308-4c6d-a67d-c8f98d539a43
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeReadStateSemaphore, KeReadStateSemaphore routine [Kernel-Mode Driver Architecture], k105_cc608a62-f747-4d8c-a4f8-b6df51a4d5dd.xml, kernel.kereadstatesemaphore, wdm/KeReadStateSemaphore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeReadStateSemaphore function

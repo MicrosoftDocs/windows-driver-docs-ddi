@@ -7,7 +7,7 @@ old-location: kernel\auxklibgetsystemfirmwaretable.htm
 old-project: kernel
 ms.assetid: 548C850F-87AF-43E0-BD87-5531D9874D4D
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: AuxKlibGetSystemFirmwareTable, AuxKlibGetSystemFirmwareTable routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetSystemFirmwareTable, kernel.auxklibgetsystemfirmwaretable
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
+req.typenames: 
 ---
 
 # AuxKlibGetSystemFirmwareTable function

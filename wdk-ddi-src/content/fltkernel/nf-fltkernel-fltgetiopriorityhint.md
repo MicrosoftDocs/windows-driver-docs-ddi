@@ -7,7 +7,7 @@ old-location: ifsk\fltgetiopriorityhint.htm
 old-project: ifsk
 ms.assetid: 51c2068b-3dde-4e63-985c-51b8f7020948
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltApiRef_e_to_o_55aba7ac-700d-4cca-9ad1-abf80293041d.xml, FltGetIoPriorityHint, FltGetIoPriorityHint routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHint, ifsk.fltgetiopriorityhint
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltGetIoPriorityHint function

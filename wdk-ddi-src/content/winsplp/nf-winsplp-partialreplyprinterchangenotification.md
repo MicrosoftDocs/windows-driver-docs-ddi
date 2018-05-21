@@ -7,7 +7,7 @@ old-location: print\partialreplyprinterchangenotification.htm
 old-project: print
 ms.assetid: a884920c-1824-418f-90c8-0edf1381678b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: PartialReplyPrinterChangeNotification, PartialReplyPrinterChangeNotification function [Print Devices], print.partialreplyprinterchangenotification, spoolfnc_95f9f0ac-2340-463b-9c8d-6c27130020d9.xml, winsplp/PartialReplyPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NOTIFICATION_CONFIG_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # PartialReplyPrinterChangeNotification function

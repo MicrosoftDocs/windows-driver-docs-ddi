@@ -7,8 +7,8 @@ old-location: display\tiledresourcebarrier.htm
 old-project: display
 ms.assetid: 9A2E9B3F-13E4-48D7-A3F3-E7CDCDD1E0CC
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER, TiledResourceBarrier, TiledResourceBarrier callback function [Display Devices], d3d10umddi/TiledResourceBarrier, display.tiledresourcebarrier
+ms.date: 4/16/2018
+ms.keywords: PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER, PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER callback, TiledResourceBarrier, TiledResourceBarrier callback function [Display Devices], d3d10umddi/TiledResourceBarrier, display.tiledresourcebarrier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER callback
+# PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER callback function
 
 
 ## -description

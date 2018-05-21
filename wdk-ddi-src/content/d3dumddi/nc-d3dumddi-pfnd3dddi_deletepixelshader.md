@@ -7,8 +7,8 @@ old-location: display\deletepixelshader.htm
 old-project: display
 ms.assetid: bc987531-d402-4f3b-a4e2-d71fe97f5400
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DeletePixelShader, DeletePixelShader callback function [Display Devices], PFND3DDDI_DELETEPIXELSHADER, UserModeDisplayDriver_Functions_2994cbd5-2661-40e3-bdcd-3b2bfc209c24.xml, d3dumddi/DeletePixelShader, display.deletepixelshader
+ms.date: 4/16/2018
+ms.keywords: DeletePixelShader, DeletePixelShader callback function [Display Devices], PFND3DDDI_DELETEPIXELSHADER, PFND3DDDI_DELETEPIXELSHADER callback, UserModeDisplayDriver_Functions_2994cbd5-2661-40e3-bdcd-3b2bfc209c24.xml, d3dumddi/DeletePixelShader, display.deletepixelshader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_DELETEPIXELSHADER callback
+# PFND3DDDI_DELETEPIXELSHADER callback function
 
 
 ## -description

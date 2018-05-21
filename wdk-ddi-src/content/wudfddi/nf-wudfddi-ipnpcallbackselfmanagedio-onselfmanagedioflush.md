@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush
-title: IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush method
+title: IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
 author: windows-driver-content
 description: The OnSelfManagedIoFlush method flushes the device for a device's self-managed I/O operations.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagedioflush.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dee0e30b-ad03-43e4-8a0c-07d3782d7857
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, OnSelfManagedIoFlush method, OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoFlush,IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush, UMDFDeviceObjectRef_ddf0d0a2-a913-4e15-b482-16cae945c4a2.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
+ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoFlush method, IPnpCallbackSelfManagedIo.OnSelfManagedIoFlush, IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush, OnSelfManagedIoFlush, OnSelfManagedIoFlush method, OnSelfManagedIoFlush method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_ddf0d0a2-a913-4e15-b482-16cae945c4a2.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wdf.ipnpcallbackselfmanagedio_onselfmanagedioflush, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush method
+# IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: stream\kstrallocateframe.htm
 old-project: stream
 ms.assetid: 1b6eec23-82b4-4e8f-89d0-e76d6449906e
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrAllocateFrame, KStrAllocateFrame routine [Streaming Media Devices], PFNALLOCATOR_ALLOCATEFRAME, ks/KStrAllocateFrame, ksfunc_a90af96e-53df-43f5-b847-ba1876b788fd.xml, stream.kstrallocateframe
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNALLOCATOR_ALLOCATEFRAME callback
+# PFNALLOCATOR_ALLOCATEFRAME callback function
 
 
 ## -description

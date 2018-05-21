@@ -7,7 +7,7 @@ old-location: print\oemstartpage.htm
 old-project: print
 ms.assetid: 86cee994-2dfe-4eaf-906b-ce6d9051399e
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: OEMStartPage, OEMStartPage function [Print Devices], print.oemstartpage, print_unidrv-pscript_rendering_df5731ee-40be-45e1-8dbb-b7893ec27622.xml, printoem/OEMStartPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STDVARIABLEINDEX
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # OEMStartPage function

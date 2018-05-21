@@ -7,7 +7,7 @@ old-location: kernel\zwdeletefile.htm
 old-project: kernel
 ms.assetid: e6ad3bc5-9e19-4d32-bc08-b894ac802f41
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: NtDeleteFile, ZwDeleteFile, ZwDeleteFile routine [Kernel-Mode Driver Architecture], k111_4f0117b0-323a-46b6-a1c0-74de4db2ca4d.xml, kernel.zwdeletefile, ntifs/NtDeleteFile, ntifs/ZwDeleteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # ZwDeleteFile function

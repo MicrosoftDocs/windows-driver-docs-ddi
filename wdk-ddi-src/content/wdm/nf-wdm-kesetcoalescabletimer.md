@@ -7,7 +7,7 @@ old-location: kernel\kesetcoalescabletimer.htm
 old-project: kernel
 ms.assetid: e053c120-8c43-4714-acf1-0648958eabb8
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeSetCoalescableTimer, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture], k105_3e45ae54-682d-47f6-a577-28277cee4829.xml, kernel.kesetcoalescabletimer, wdm/KeSetCoalescableTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeSetCoalescableTimer function

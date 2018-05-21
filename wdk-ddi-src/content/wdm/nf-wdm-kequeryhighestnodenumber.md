@@ -7,7 +7,7 @@ old-location: kernel\kequeryhighestnodenumber.htm
 old-project: kernel
 ms.assetid: e92387db-0c35-40c8-8342-4b1bf498aa1a
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeQueryHighestNodeNumber, KeQueryHighestNodeNumber routine [Kernel-Mode Driver Architecture], k105_3d91d159-3bbb-445b-874b-a6d1a8b078df.xml, kernel.kequeryhighestnodenumber, wdm/KeQueryHighestNodeNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeQueryHighestNodeNumber function

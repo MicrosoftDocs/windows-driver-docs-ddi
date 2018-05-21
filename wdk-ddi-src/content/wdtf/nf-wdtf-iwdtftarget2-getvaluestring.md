@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.GetValueString
-title: IWDTFTarget2::GetValueString method
+title: IWDTFTarget2::GetValueString
 author: windows-driver-content
 description: Returns a string value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluestring.htm
 old-project: dtf
 ms.assetid: 430de835-6301-40db-b4fe-4eabff0c9b58
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: GetValueString method [Windows Device Testing Framework], GetValueString method [Windows Device Testing Framework], IWDTFTarget2 interface, GetValueString,IWDTFTarget2.GetValueString, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueString method, IWDTFTarget2::GetValueString, Microsoft.WDTF.IWDTFTarget2.GetValueString, Microsoft::WDTF::IWDTFTarget2::GetValueString, dtf.iwdtftarget2_getvaluestring, wdtf/IWDTFTarget2::GetValueString
+ms.date: 4/4/2018
+ms.keywords: GetValueString, GetValueString method [Windows Device Testing Framework], GetValueString method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueString method, IWDTFTarget2.GetValueString, IWDTFTarget2::GetValueString, Microsoft.WDTF.IWDTFTarget2.GetValueString, Microsoft::WDTF::IWDTFTarget2::GetValueString, dtf.iwdtftarget2_getvaluestring, wdtf/IWDTFTarget2::GetValueString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTarget2::GetValueString method
+# IWDTFTarget2::GetValueString
 
 
 ## -description

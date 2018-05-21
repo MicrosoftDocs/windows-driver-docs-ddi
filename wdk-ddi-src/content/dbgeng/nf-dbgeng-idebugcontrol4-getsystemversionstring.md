@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl4.GetSystemVersionString
-title: IDebugControl4::GetSystemVersionString method
+title: IDebugControl4::GetSystemVersionString
 author: windows-driver-content
 description: The GetSystemVersionString method returns a string that describes the target's operating system version.
 old-location: debugger\getsystemversionstring.htm
 old-project: debugger
 ms.assetid: a32226bf-4be9-4d0b-8fe9-3ff48a43ca07
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetSystemVersionString method [Windows Debugging], GetSystemVersionString method [Windows Debugging], IDebugControl4 interface, GetSystemVersionString,IDebugControl4.GetSystemVersionString, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetSystemVersionString method, IDebugControl4::GetSystemVersionString, IDebugControl_4adaed37-7034-4c64-9064-466706a2951e.xml, dbgeng/IDebugControl4::GetSystemVersionString, debugger.getsystemversionstring
+ms.date: 4/24/2018
+ms.keywords: GetSystemVersionString, GetSystemVersionString method [Windows Debugging], GetSystemVersionString method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetSystemVersionString method, IDebugControl4.GetSystemVersionString, IDebugControl4::GetSystemVersionString, IDebugControl_4adaed37-7034-4c64-9064-466706a2951e.xml, dbgeng/IDebugControl4::GetSystemVersionString, debugger.getsystemversionstring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl4::GetSystemVersionString method
+# IDebugControl4::GetSystemVersionString
 
 
 ## -description

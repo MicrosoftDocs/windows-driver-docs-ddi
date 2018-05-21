@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval
-title: IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval method
+title: IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
 author: windows-driver-content
 description: A UMDF-based driver's OnRemoteInterfaceRemoval event callback function notifies the driver that it cannot use a device interface because the interface has been removed.
 old-location: wdf\iremoteinterfacecallbackremoval_onremoteinterfaceremoval.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0dfa2eb8-a7f6-46d9-9599-5e2aaf583f78
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IRemoteInterfaceCallbackRemoval, IRemoteInterfaceCallbackRemoval interface, OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, OnRemoteInterfaceRemoval method, OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval interface, OnRemoteInterfaceRemoval,IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval, UMDFIoTargetObjectRef_17c1557c-2046-4bea-8b7f-88fea7103155.xml, umdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wudfddi/IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
+ms.keywords: IRemoteInterfaceCallbackRemoval interface,OnRemoteInterfaceRemoval method, IRemoteInterfaceCallbackRemoval.OnRemoteInterfaceRemoval, IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval, OnRemoteInterfaceRemoval, OnRemoteInterfaceRemoval method, OnRemoteInterfaceRemoval method,IRemoteInterfaceCallbackRemoval interface, UMDFIoTargetObjectRef_17c1557c-2046-4bea-8b7f-88fea7103155.xml, umdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wdf.iremoteinterfacecallbackremoval_onremoteinterfaceremoval, wudfddi/IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval method
+# IRemoteInterfaceCallbackRemoval::OnRemoteInterfaceRemoval
 
 
 ## -description

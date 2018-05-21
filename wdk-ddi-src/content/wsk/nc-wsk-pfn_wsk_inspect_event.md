@@ -7,8 +7,8 @@ old-location: netvista\wskinspectevent.htm
 old-project: netvista
 ms.assetid: 40f184ac-4ef3-485a-a529-71c1f2716427
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_INSPECT_EVENT, WskInspectEvent, WskInspectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectevent, wsk/WskInspectEvent, wskref_096ba538-90c2-454b-9334-d6241425945e.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_INSPECT_EVENT, PFN_WSK_INSPECT_EVENT callback, WskInspectEvent, WskInspectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectevent, wsk/WskInspectEvent, wskref_096ba538-90c2-454b-9334-d6241425945e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_INSPECT_EVENT callback
+# PFN_WSK_INSPECT_EVENT callback function
 
 
 ## -description

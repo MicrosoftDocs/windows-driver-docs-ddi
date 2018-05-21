@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugClient.SetOutputLinePrefix
-title: IDebugClient::SetOutputLinePrefix method
+title: IDebugClient::SetOutputLinePrefix
 author: windows-driver-content
 description: Sets a prefix for multiple lines of output.
 old-location: debugger\idebugclient_setoutputlineprefix.htm
 old-project: debugger
 ms.assetid: 59A3FD7D-153D-4580-84C1-2408A485F684
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugClient, IDebugClient interface [Windows Debugging], SetOutputLinePrefix method, IDebugClient::SetOutputLinePrefix, SetOutputLinePrefix method [Windows Debugging], SetOutputLinePrefix method [Windows Debugging], IDebugClient interface, SetOutputLinePrefix,IDebugClient.SetOutputLinePrefix, dbgeng/IDebugClient::SetOutputLinePrefix, debugger.idebugclient_setoutputlineprefix
+ms.date: 4/24/2018
+ms.keywords: IDebugClient interface [Windows Debugging],SetOutputLinePrefix method, IDebugClient.SetOutputLinePrefix, IDebugClient::SetOutputLinePrefix, SetOutputLinePrefix, SetOutputLinePrefix method [Windows Debugging], SetOutputLinePrefix method [Windows Debugging],IDebugClient interface, dbgeng/IDebugClient::SetOutputLinePrefix, debugger.idebugclient_setoutputlineprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugClient::SetOutputLinePrefix method
+# IDebugClient::SetOutputLinePrefix
 
 
 ## -description

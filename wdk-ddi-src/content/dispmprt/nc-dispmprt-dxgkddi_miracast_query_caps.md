@@ -7,8 +7,8 @@ old-location: display\dxgkddimiracastquerycaps.htm
 old-project: display
 ms.assetid: C10CAA33-C407-4183-9090-B9D78B07CD12
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_MIRACAST_QUERY_CAPS, DxgkDdiMiracastQueryCaps, DxgkDdiMiracastQueryCaps callback function [Display Devices], display.dxgkddimiracastquerycaps, dispmprt/DxgkDdiMiracastQueryCaps
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_MIRACAST_QUERY_CAPS, DXGKDDI_MIRACAST_QUERY_CAPS callback, DxgkDdiMiracastQueryCaps, DxgkDdiMiracastQueryCaps callback function [Display Devices], display.dxgkddimiracastquerycaps, dispmprt/DxgkDdiMiracastQueryCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_MIRACAST_QUERY_CAPS callback
+# DXGKDDI_MIRACAST_QUERY_CAPS callback function
 
 
 ## -description

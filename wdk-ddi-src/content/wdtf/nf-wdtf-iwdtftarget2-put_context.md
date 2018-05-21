@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTarget2.put_Context
-title: IWDTFTarget2::put_Context method
+title: IWDTFTarget2::put_Context
 author: windows-driver-content
 description: Gets and sets a name-value pair that represents user data for the target.
 old-location: dtf\iwdtftarget2_context.htm
 old-project: dtf
 ms.assetid: e7a19b73-3393-4ab4-a967-c00b46f81a9e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: Context property [Windows Device Testing Framework], Context property [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], Context property, IWDTFTarget2.Context, IWDTFTarget2::get_Context, IWDTFTarget2::put_Context, Microsoft.WDTF.IWDTFTarget2.Context, Microsoft::WDTF::IWDTFTarget2::Context, dtf.iwdtftarget2_context, ntddk/IWDTFTarget2::Context, ntddk/IWDTFTarget2::get_Context, ntddk/IWDTFTarget2::put_Context, put_Context,IWDTFTarget2.put_Context
+ms.date: 4/4/2018
+ms.keywords: Context property [Windows Device Testing Framework], Context property [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],Context property, IWDTFTarget2.Context, IWDTFTarget2.put_Context, IWDTFTarget2::Context, IWDTFTarget2::get_Context, IWDTFTarget2::put_Context, Microsoft.WDTF.IWDTFTarget2.Context, Microsoft::WDTF::IWDTFTarget2::Context, dtf.iwdtftarget2_context, ntddk/IWDTFTarget2::Context, ntddk/IWDTFTarget2::get_Context, ntddk/IWDTFTarget2::put_Context, put_Context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,11 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTarget2::put_Context method
+# IWDTFTarget2::put_Context
 
 
 ## -description

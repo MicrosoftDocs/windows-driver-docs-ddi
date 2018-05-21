@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFInterrupt.GetInfo
-title: IWDFInterrupt::GetInfo method
+title: IWDFInterrupt::GetInfo
 author: windows-driver-content
 description: The GetInfo method retrieves information about a specified interrupt.
 old-location: wdf\iwdfinterrupt_getinfo.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetInfo method, GetInfo method, IWDFInterrupt interface, GetInfo,IWDFInterrupt.GetInfo, IWDFInterrupt, IWDFInterrupt interface, GetInfo method, IWDFInterrupt::GetInfo, umdf.iwdfinterrupt_getinfo, wdf.iwdfinterrupt_getinfo, wudfddi/IWDFInterrupt::GetInfo
+ms.keywords: GetInfo, GetInfo method, GetInfo method,IWDFInterrupt interface, IWDFInterrupt interface,GetInfo method, IWDFInterrupt.GetInfo, IWDFInterrupt::GetInfo, umdf.iwdfinterrupt_getinfo, wdf.iwdfinterrupt_getinfo, wudfddi/IWDFInterrupt::GetInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFInterrupt::GetInfo method
+# IWDFInterrupt::GetInfo
 
 
 ## -description

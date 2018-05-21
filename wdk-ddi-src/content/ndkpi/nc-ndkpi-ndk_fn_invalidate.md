@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_invalidate.htm
 old-project: netvista
 ms.assetid: 79A39FEE-173F-4106-9759-97CF6BE5DA65
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_INVALIDATE, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkInvalidate, NdkInvalidate callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkInvalidate, netvista.ndk_fn_invalidate
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_INVALIDATE, NDK_FN_INVALIDATE callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkInvalidate, NdkInvalidate callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkInvalidate, netvista.ndk_fn_invalidate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_INVALIDATE callback
+# NDK_FN_INVALIDATE callback function
 
 
 ## -description

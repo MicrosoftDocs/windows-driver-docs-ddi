@@ -7,8 +7,8 @@ old-location: display\createvideoprocessorenum.htm
 old-project: display
 ms.assetid: 38c27502-7e8a-45a1-8a7c-315300502480
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateVideoProcessorEnum, CreateVideoProcessorEnum callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM, d3d10umddi/CreateVideoProcessorEnum, display.createvideoprocessorenum
+ms.date: 4/16/2018
+ms.keywords: CreateVideoProcessorEnum, CreateVideoProcessorEnum callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM, PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback, d3d10umddi/CreateVideoProcessorEnum, display.createvideoprocessorenum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback
+# PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback function
 
 
 ## -description

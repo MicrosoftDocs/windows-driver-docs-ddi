@@ -7,7 +7,7 @@ old-location: netvista\rilgetradiostatedetailsparams.htm
 old-project: netvista
 ms.assetid: faee1991-a183-4285-af14-402094dc6694
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*LPRILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetradiostatedetailsparams, ntddrilapitypes/RILGETRADIOSTATEDETAILSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: RILGETRADIOSTATEDETAILSPARAMS, *LPRILGETRADIOSTATEDETAILSPARAMS
-req.product: Windows 10 or later.
 ---
 
 # RILGETRADIOSTATEDETAILSPARAMS structure

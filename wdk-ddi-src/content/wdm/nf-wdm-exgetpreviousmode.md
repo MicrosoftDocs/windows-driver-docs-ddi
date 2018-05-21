@@ -7,7 +7,7 @@ old-location: kernel\exgetpreviousmode.htm
 old-project: kernel
 ms.assetid: 0f4c7bc2-a29d-4b0c-81c3-01cdfefa1322
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ExGetPreviousMode, ExGetPreviousMode routine [Kernel-Mode Driver Architecture], k102_080fbfa6-6261-453d-a2c7-e08818d34b6f.xml, kernel.exgetpreviousmode, wdm/ExGetPreviousMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExGetPreviousMode function

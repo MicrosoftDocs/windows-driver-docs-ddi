@@ -7,7 +7,7 @@ old-location: kernel\iobuilddeviceiocontrolrequest.htm
 old-project: kernel
 ms.assetid: dde2a45d-9257-4d94-928a-e25f112b2773
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoBuildDeviceIoControlRequest, IoBuildDeviceIoControlRequest routine [Kernel-Mode Driver Architecture], k104_dca88c92-682a-437e-963b-6fac4e9c39bf.xml, kernel.iobuilddeviceiocontrolrequest, wdm/IoBuildDeviceIoControlRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoBuildDeviceIoControlRequest function

@@ -7,7 +7,7 @@ old-location: netvista\ndismoidrequestcomplete.htm
 old-project: netvista
 ms.assetid: 30d060d0-05a3-42b5-b5ff-2f2b12873ca9
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMOidRequestComplete, NdisMOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMOidRequestComplete, ndis_request_ref_b5524732-acaf-4d0d-a261-3f8a8b739ecc.xml, netvista.ndismoidrequestcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMOidRequestComplete function

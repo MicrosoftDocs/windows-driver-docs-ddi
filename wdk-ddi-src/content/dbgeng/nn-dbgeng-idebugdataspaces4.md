@@ -7,8 +7,8 @@ old-location: debugger\idebugdataspaces4.htm
 old-project: debugger
 ms.assetid: e03202a5-2e4a-43f8-8183-fdd26df6ff8f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging], described, dbgeng/IDebugDataSpaces4, debugger.idebugdataspaces4
+ms.date: 4/24/2018
+ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging],described, dbgeng/IDebugDataSpaces4, debugger.idebugdataspaces4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
 # IDebugDataSpaces4 interface

@@ -7,7 +7,7 @@ old-location: stream\usbcamd_debug_logentry.htm
 old-project: stream
 ms.assetid: a718cf3e-8359-4560-a88e-dd7789b61be6
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: USBCAMD_Debug_LogEntry, USBCAMD_Debug_LogEntry function [Streaming Media Devices], stream.usbcamd_debug_logentry, usbcamdi/USBCAMD_Debug_LogEntry, usbcmdpr_6f6f6419-d845-4488-bd8d-70efa67357fa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBCAMD_Debug_LogEntry function

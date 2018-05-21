@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_default_endpoint_update.htm
 old-project: usbref
 ms.assetid: 0a67ef0a-07ec-43d3-9a25-b28192677b35
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EVT_UCX_DEFAULT_ENDPOINT_UPDATE, EvtUcxDefaultEndpointUpdate, EvtUcxDefaultEndpointUpdate callback function [Buses], PEVT_UCX_DEFAULT_ENDPOINT_UPDATE, PEVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function pointer [Buses], buses.evt_ucx_default_endpoint_update, ucxendpoint/EvtUcxDefaultEndpointUpdate
+ms.date: 4/25/2018
+ms.keywords: EVT_UCX_DEFAULT_ENDPOINT_UPDATE, EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback, EvtUcxDefaultEndpointUpdate, EvtUcxDefaultEndpointUpdate callback function [Buses], PEVT_UCX_DEFAULT_ENDPOINT_UPDATE, PEVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function pointer [Buses], buses.evt_ucx_default_endpoint_update, ucxendpoint/EvtUcxDefaultEndpointUpdate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback
+# EVT_UCX_DEFAULT_ENDPOINT_UPDATE callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: netvista\wwan_provider2.htm
 old-project: netvista
 ms.assetid: 0B9352EE-C7CE-4F9D-9373-0096222295A4
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_PROVIDER2, PWWAN_PROVIDER2, PWWAN_PROVIDER2 structure pointer [Network Drivers Starting with Windows Vista], WWAN_PROVIDER2, WWAN_PROVIDER2 structure [Network Drivers Starting with Windows Vista], _WWAN_PROVIDER2, netvista.wwan_provider2, wwan/PWWAN_PROVIDER2, wwan/WWAN_PROVIDER2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_PROVIDER2, *PWWAN_PROVIDER2
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_PROVIDER2 structure

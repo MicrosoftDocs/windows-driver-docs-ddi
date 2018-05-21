@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFRemoteTarget.Stop
-title: IWDFRemoteTarget::Stop method
+title: IWDFRemoteTarget::Stop
 author: windows-driver-content
 description: The Stop method temporarily stops a remote I/O target.
 old-location: wdf\iwdfremotetarget_stop.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4aaef251-7387-4e42-a7ae-e08120fc95ff
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IWDFRemoteTarget, IWDFRemoteTarget interface, Stop method, IWDFRemoteTarget::Stop, Stop method, Stop method, IWDFRemoteTarget interface, Stop,IWDFRemoteTarget.Stop, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, umdf.iwdfremotetarget_stop, wdf.iwdfremotetarget_stop, wudfddi/IWDFRemoteTarget::Stop
+ms.keywords: IWDFRemoteTarget interface,Stop method, IWDFRemoteTarget.Stop, IWDFRemoteTarget::Stop, Stop, Stop method, Stop method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, umdf.iwdfremotetarget_stop, wdf.iwdfremotetarget_stop, wudfddi/IWDFRemoteTarget::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFRemoteTarget::Stop method
+# IWDFRemoteTarget::Stop
 
 
 ## -description

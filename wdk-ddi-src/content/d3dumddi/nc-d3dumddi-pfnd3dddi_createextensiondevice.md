@@ -7,8 +7,8 @@ old-location: display\createextensiondevice.htm
 old-project: display
 ms.assetid: 7e6dbb70-2e74-4ddb-a504-2c8145af99d9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateExtensionDevice, CreateExtensionDevice callback function [Display Devices], PFND3DDDI_CREATEEXTENSIONDEVICE, UserModeDisplayDriver_Functions_342ee084-e24a-43a8-99a9-c83c2670e2e4.xml, d3dumddi/CreateExtensionDevice, display.createextensiondevice
+ms.date: 4/16/2018
+ms.keywords: CreateExtensionDevice, CreateExtensionDevice callback function [Display Devices], PFND3DDDI_CREATEEXTENSIONDEVICE, PFND3DDDI_CREATEEXTENSIONDEVICE callback, UserModeDisplayDriver_Functions_342ee084-e24a-43a8-99a9-c83c2670e2e4.xml, d3dumddi/CreateExtensionDevice, display.createextensiondevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_CREATEEXTENSIONDEVICE callback
+# PFND3DDDI_CREATEEXTENSIONDEVICE callback function
 
 
 ## -description

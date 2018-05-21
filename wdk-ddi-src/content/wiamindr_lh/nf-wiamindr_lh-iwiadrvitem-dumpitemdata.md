@@ -1,14 +1,14 @@
 ---
 UID: NF:wiamindr_lh.IWiaDrvItem.DumpItemData
-title: IWiaDrvItem::DumpItemData method
+title: IWiaDrvItem::DumpItemData
 author: windows-driver-content
 description: The IWiaDrvItem::DumpItemData method dumps private data associated with an IWiaDrvItem item into an allocated private buffer.
 old-location: image\iwiadrvitem_dumpitemdata.htm
 old-project: image
 ms.assetid: e17da654-60a7-4942-99f9-f55df87a1ca3
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: DrvItem_fae1b45f-719d-4bce-92fd-d43844178800.xml, DumpItemData method [Imaging Devices], DumpItemData method [Imaging Devices], IWiaDrvItem interface, DumpItemData,IWiaDrvItem.DumpItemData, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], DumpItemData method, IWiaDrvItem::DumpItemData, image.iwiadrvitem_dumpitemdata, wiamindr_lh/IWiaDrvItem::DumpItemData
+ms.date: 4/23/2018
+ms.keywords: DrvItem_fae1b45f-719d-4bce-92fd-d43844178800.xml, DumpItemData, DumpItemData method [Imaging Devices], DumpItemData method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],DumpItemData method, IWiaDrvItem.DumpItemData, IWiaDrvItem::DumpItemData, image.iwiadrvitem_dumpitemdata, wiamindr_lh/IWiaDrvItem::DumpItemData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SCANWINDOW, *PSCANWINDOW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWiaDrvItem::DumpItemData method
+# IWiaDrvItem::DumpItemData
 
 
 ## -description

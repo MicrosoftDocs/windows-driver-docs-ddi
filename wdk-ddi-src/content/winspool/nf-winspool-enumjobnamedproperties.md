@@ -7,7 +7,7 @@ old-location: print\enumjobnamedproperties.htm
 old-project: print
 ms.assetid: 0C5E2279-79D0-40A2-BA5B-66994A22E963
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: EnumJobNamedProperties, EnumJobNamedProperties function [Print Devices], print.enumjobnamedproperties, winspool/EnumJobNamedProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: BIDI_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # EnumJobNamedProperties function

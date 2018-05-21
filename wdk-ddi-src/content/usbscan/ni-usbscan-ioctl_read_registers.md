@@ -7,8 +7,8 @@ old-location: image\ioctl_read_registers.htm
 old-project: image
 ms.assetid: b54c9a15-0d48-4aff-98e5-1f0dfc070ed6
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: IOCTL_READ_REGISTERS, IOCTL_READ_REGISTERS control code [Imaging Devices], image.ioctl_read_registers, stifnc_68af86d1-7d3b-4d2c-a5af-983f0339d71f.xml, usbscan/IOCTL_READ_REGISTERS
+ms.date: 4/23/2018
+ms.keywords: IOCTL_READ_REGISTERS, IOCTL_READ_REGISTERS control, IOCTL_READ_REGISTERS control code [Imaging Devices], image.ioctl_read_registers, stifnc_68af86d1-7d3b-4d2c-a5af-983f0339d71f.xml, usbscan/IOCTL_READ_REGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RAW_PIPE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IOCTL_READ_REGISTERS IOCTL

@@ -7,7 +7,7 @@ old-location: display\dxgkinitializedisplayonlydriver.htm
 old-project: display
 ms.assetid: d80d2d6a-758f-4b11-b33c-4b176a458bd2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DxgkInitializeDisplayOnlyDriver, DxgkInitializeDisplayOnlyDriver function [Display Devices], display.dxgkinitializedisplayonlydriver, dispmprt/DxgkInitializeDisplayOnlyDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_SURPRISE_REMOVAL_TYPE
+req.typenames: 
 ---
 
 # DxgkInitializeDisplayOnlyDriver function

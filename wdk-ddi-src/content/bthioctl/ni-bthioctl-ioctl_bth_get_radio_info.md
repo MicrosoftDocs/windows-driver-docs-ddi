@@ -7,8 +7,8 @@ old-location: bltooth\ioctl_bth_get_radio_info.htm
 old-project: bltooth
 ms.assetid: 45803e80-6090-4b64-8c92-6b5efebd1cfc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IOCTL_BTH_GET_RADIO_INFO, IOCTL_BTH_GET_RADIO_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_radio_info, bth_ioctls_ed6699c7-3a05-46bd-ba8b-d138ce1ad751.xml, bthioctl/IOCTL_BTH_GET_RADIO_INFO
+ms.date: 4/27/2018
+ms.keywords: IOCTL_BTH_GET_RADIO_INFO, IOCTL_BTH_GET_RADIO_INFO control, IOCTL_BTH_GET_RADIO_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_radio_info, bth_ioctls_ed6699c7-3a05-46bd-ba8b-d138ce1ad751.xml, bthioctl/IOCTL_BTH_GET_RADIO_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
+req.typenames: 
 ---
 
 # IOCTL_BTH_GET_RADIO_INFO IOCTL

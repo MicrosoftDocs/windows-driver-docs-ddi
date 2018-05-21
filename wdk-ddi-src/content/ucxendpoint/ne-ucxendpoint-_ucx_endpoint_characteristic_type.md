@@ -7,7 +7,7 @@ old-location: buses\ucx_endpoint_characteristic_type.htm
 old-project: usbref
 ms.assetid: 1F49C8CA-51CE-49B2-AC37-C114A688B1DB
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UCX_ENDPOINT_CHARACTERISTIC_TYPE, UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration [Buses], UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, _UCX_ENDPOINT_CHARACTERISTIC_TYPE, buses.ucx_endpoint_characteristic_type, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: DISPATCH_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
-req.product: Windows 10 or later.
 ---
 
 # _UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration

@@ -7,7 +7,7 @@ old-location: kernel\zwlockfile.htm
 old-project: kernel
 ms.assetid: d5d4d13c-93d9-4531-85ff-d3fa0e52ecc1
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: NtLockFile, ZwLockFile, ZwLockFile routine [Kernel-Mode Driver Architecture], k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml, kernel.zwlockfile, ntifs/NtLockFile, ntifs/ZwLockFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # NtLockFile function

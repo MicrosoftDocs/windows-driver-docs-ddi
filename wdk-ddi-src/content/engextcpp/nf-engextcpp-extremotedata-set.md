@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtRemoteData.Set
-title: ExtRemoteData::Set method
+title: ExtRemoteData::Set
 author: windows-driver-content
 description: The Set method sets the region of the target's memory represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_set_offset_bytes.htm
 old-project: debugger
 ms.assetid: 50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: ExtRemoteData, ExtRemoteData interface [Windows Debugging], Set method, ExtRemoteData::Set, Set method [Windows Debugging], Set method [Windows Debugging], ExtRemoteData interface, Set,ExtRemoteData.Set, debugger.extremotedata_set_offset_bytes, engextcpp/ExtRemoteData::Set
+ms.date: 4/24/2018
+ms.keywords: ExtRemoteData interface [Windows Debugging],Set method, ExtRemoteData.Set, ExtRemoteData::Set, ExtRemoteData::Set(ULONG64,ULONG), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteData interface, debugger.extremotedata_set_offset_bytes, engextcpp/ExtRemoteData::Set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtRemoteData::Set method
+# ExtRemoteData::Set
 
 
 ## -description
@@ -58,12 +58,12 @@ The <b>Set</b> method sets the region of the target's memory represented by the 
 
 
 
-### -param Offset [in]
+#### - Offset [in]
 
 Location of the beginning of the memory region in the target's virtual address space.
 
 
-### -param Bytes [in]
+#### - Bytes [in]
 
 Number of bytes in the memory region.
 

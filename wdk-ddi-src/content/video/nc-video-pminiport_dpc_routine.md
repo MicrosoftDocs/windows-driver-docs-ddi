@@ -7,8 +7,8 @@ old-location: display\hwviddpcroutine.htm
 old-project: display
 ms.assetid: d4b443a2-3665-4e7c-b84a-5388a8fe8681
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: HwVidDpcRoutine, HwVidDpcRoutine callback function [Display Devices], PMINIPORT_DPC_ROUTINE, VideoMiniport_Functions_5d605867-89d7-44a9-b08b-c49ffaa90244.xml, display.hwviddpcroutine, video/HwVidDpcRoutine
+ms.date: 4/16/2018
+ms.keywords: HwVidDpcRoutine, HwVidDpcRoutine callback function [Display Devices], PMINIPORT_DPC_ROUTINE, PMINIPORT_DPC_ROUTINE callback, VideoMiniport_Functions_5d605867-89d7-44a9-b08b-c49ffaa90244.xml, display.hwviddpcroutine, video/HwVidDpcRoutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PMINIPORT_DPC_ROUTINE callback
+# PMINIPORT_DPC_ROUTINE callback function
 
 
 ## -description

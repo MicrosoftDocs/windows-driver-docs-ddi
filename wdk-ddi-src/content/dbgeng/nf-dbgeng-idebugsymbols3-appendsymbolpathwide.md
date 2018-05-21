@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.AppendSymbolPathWide
-title: IDebugSymbols3::AppendSymbolPathWide method
+title: IDebugSymbols3::AppendSymbolPathWide
 author: windows-driver-content
 description: The AppendSymbolPathWide method appends directories to the symbol path.
 old-location: debugger\appendsymbolpathwide.htm
 old-project: debugger
 ms.assetid: 184f40ff-be43-482c-8620-382f11f95548
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AppendSymbolPathWide method [Windows Debugging], AppendSymbolPathWide method [Windows Debugging], IDebugSymbols3 interface, AppendSymbolPathWide,IDebugSymbols3.AppendSymbolPathWide, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPathWide method, IDebugSymbols3::AppendSymbolPathWide, dbgeng/IDebugSymbols3::AppendSymbolPathWide, debugger.appendsymbolpathwide
+ms.date: 4/24/2018
+ms.keywords: AppendSymbolPathWide, AppendSymbolPathWide method [Windows Debugging], AppendSymbolPathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AppendSymbolPathWide method, IDebugSymbols3.AppendSymbolPathWide, IDebugSymbols3::AppendSymbolPathWide, dbgeng/IDebugSymbols3::AppendSymbolPathWide, debugger.appendsymbolpathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::AppendSymbolPathWide method
+# IDebugSymbols3::AppendSymbolPathWide
 
 
 ## -description

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleNames
-title: IDebugSymbols3::GetModuleNames method
+title: IDebugSymbols3::GetModuleNames
 author: windows-driver-content
 description: The GetModuleNames method returns the names of the specified module.
 old-location: debugger\getmodulenames.htm
 old-project: debugger
 ms.assetid: dd33f88a-91f6-4ea4-bb6b-6fb505676684
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetModuleNames method [Windows Debugging], GetModuleNames method [Windows Debugging], IDebugSymbols interface, GetModuleNames method [Windows Debugging], IDebugSymbols2 interface, GetModuleNames method [Windows Debugging], IDebugSymbols3 interface, GetModuleNames,IDebugSymbols3.GetModuleNames, IDebugSymbols interface [Windows Debugging], GetModuleNames method, IDebugSymbols2 interface [Windows Debugging], GetModuleNames method, IDebugSymbols2::GetModuleNames, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleNames method, IDebugSymbols3::GetModuleNames, IDebugSymbols::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, dbgeng/IDebugSymbols2::GetModuleNames, dbgeng/IDebugSymbols3::GetModuleNames, dbgeng/IDebugSymbols::GetModuleNames, debugger.getmodulenames
+ms.date: 4/24/2018
+ms.keywords: GetModuleNames, GetModuleNames method [Windows Debugging], GetModuleNames method [Windows Debugging],IDebugSymbols interface, GetModuleNames method [Windows Debugging],IDebugSymbols2 interface, GetModuleNames method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleNames method, IDebugSymbols2 interface [Windows Debugging],GetModuleNames method, IDebugSymbols2::GetModuleNames, IDebugSymbols3 interface [Windows Debugging],GetModuleNames method, IDebugSymbols3.GetModuleNames, IDebugSymbols3::GetModuleNames, IDebugSymbols::GetModuleNames, IDebugSymbols_b200104b-e0e6-4470-80f9-d6904c346737.xml, dbgeng/IDebugSymbols2::GetModuleNames, dbgeng/IDebugSymbols3::GetModuleNames, dbgeng/IDebugSymbols::GetModuleNames, debugger.getmodulenames
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetModuleNames method
+# IDebugSymbols3::GetModuleNames
 
 
 ## -description

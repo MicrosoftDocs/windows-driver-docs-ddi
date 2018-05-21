@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_port_feature_status_custom.htm
 old-project: netvista
 ms.assetid: B3655B3C-4E9E-4FAC-9AAB-B7D4BFB2B91E
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, netvista.ndis_switch_port_feature_status_custom, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

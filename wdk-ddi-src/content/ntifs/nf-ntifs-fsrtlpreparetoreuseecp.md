@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlpreparetoreuseecp.htm
 old-project: ifsk
 ms.assetid: 88967BD6-C633-40D0-BE4F-2B08494EA5B0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlPrepareToReuseEcp, FsRtlPrepareToReuseEcp routine [Installable File System Drivers], ifsk.fsrtlpreparetoreuseecp, ntifs/FsRtlPrepareToReuseEcp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlPrepareToReuseEcp function

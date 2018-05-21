@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveComplete
-title: IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete method
+title: IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete
 author: windows-driver-content
 description: A UMDF-based driver's OnRemoteTargetRemoveComplete event callback function performs operations that are necessary after the operating system completes the removal of a remote I/O target's device.
 old-location: wdf\iremotetargetcallbackremoval_onremotetargetremovecomplete.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bfac8f91-2367-4194-8e98-e274025c049a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IRemoteTargetCallbackRemoval, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveComplete method, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete, OnRemoteTargetRemoveComplete method, OnRemoteTargetRemoveComplete method, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveComplete,IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveComplete, UMDFIoTargetObjectRef_bec0246d-a3e9-41b2-b577-fef78c8e4668.xml, umdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, wdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete
+ms.keywords: IRemoteTargetCallbackRemoval interface,OnRemoteTargetRemoveComplete method, IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveComplete, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete, OnRemoteTargetRemoveComplete, OnRemoteTargetRemoveComplete method, OnRemoteTargetRemoveComplete method,IRemoteTargetCallbackRemoval interface, UMDFIoTargetObjectRef_bec0246d-a3e9-41b2-b577-fef78c8e4668.xml, umdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, wdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete method
+# IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete
 
 
 ## -description

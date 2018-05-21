@@ -7,8 +7,8 @@ old-location: display\reportstatistic.htm
 old-project: display
 ms.assetid: 13e1afa2-5552-468f-ac6b-3458dedd9b76
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PFN_REPORT_STATISTIC, ReportStatistic, ReportStatistic callback function [Display Devices], display.reportstatistic, netdispumdddi/ReportStatistic
+ms.date: 4/16/2018
+ms.keywords: PFN_REPORT_STATISTIC, PFN_REPORT_STATISTIC callback, ReportStatistic, ReportStatistic callback function [Display Devices], display.reportstatistic, netdispumdddi/ReportStatistic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDK_SRQ_DISPATCH
+req.typenames: 
 ---
 
-# PFN_REPORT_STATISTIC callback
+# PFN_REPORT_STATISTIC callback function
 
 
 ## -description

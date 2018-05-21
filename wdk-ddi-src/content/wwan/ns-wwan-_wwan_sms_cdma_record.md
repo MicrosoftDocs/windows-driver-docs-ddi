@@ -7,7 +7,7 @@ old-location: netvista\wwan_sms_cdma_record.htm
 old-project: netvista
 ms.assetid: 4138be92-1f54-4478-8fbb-951f1d06cb66
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PWWAN_SMS_CDMA_RECORD, PWWAN_SMS_CDMA_RECORD, PWWAN_SMS_CDMA_RECORD structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CDMA_RECORD, WWAN_SMS_CDMA_RECORD structure [Network Drivers Starting with Windows Vista], WwanRef_3356fcf9-99f2-4c07-89d5-fa73019f9a27.xml, _WWAN_SMS_CDMA_RECORD, netvista.wwan_sms_cdma_record, wwan/PWWAN_SMS_CDMA_RECORD, wwan/WWAN_SMS_CDMA_RECORD"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WWAN_SMS_CDMA_RECORD, *PWWAN_SMS_CDMA_RECORD
-req.product: Windows 10 or later.
 ---
 
 # _WWAN_SMS_CDMA_RECORD structure

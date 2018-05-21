@@ -7,7 +7,7 @@ old-location: image\devicedialogdata.htm
 old-project: image
 ms.assetid: 8ddd3ad7-fa97-45a4-a124-ceccdfb93f7f
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: "*LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA, DEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA structure pointer [Imaging Devices], PDEVICEDIALOGDATA, PDEVICEDIALOGDATA structure pointer [Imaging Devices], UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, image.devicedialogdata, tagDEVICEDIALOGDATA, wiadevd/DEVICEDIALOGDATA, wiadevd/LPDEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WDTFSystemAction.idl
+req.idl: 
 req.max-support: 
-req.namespace: Microsoft.WDTF
-req.assembly: WDTFSystemAction.Interop.dll
+req.namespace: 
+req.assembly: 
 req.type-library: 
 req.lib: 
 req.dll: 
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA
-req.product: Windows 10 or later.
 ---
 
 # tagDEVICEDIALOGDATA structure

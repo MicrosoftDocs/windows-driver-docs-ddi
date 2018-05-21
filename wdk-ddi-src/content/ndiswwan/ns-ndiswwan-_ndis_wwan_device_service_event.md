@@ -7,7 +7,7 @@ old-location: netvista\ndis_wwan_device_service_event.htm
 old-project: netvista
 ms.assetid: 43205AA6-2B1A-4D04-9AF8-E0EB53253F5B
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_EVENT, NDIS_WWAN_DEVICE_SERVICE_EVENT, NDIS_WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_EVENT, PNDIS_WWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_EVENT, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_EVENT, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_EVENT, netvista.ndis_wwan_device_service_event"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

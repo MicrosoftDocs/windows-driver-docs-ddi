@@ -7,8 +7,8 @@ old-location: netvista\ndk_fn_disconnect_event_callback.htm
 old-project: netvista
 ms.assetid: AC6A7CD4-D553-4E6D-B6BF-C30CDA541EB5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: NDK_FN_DISCONNECT_EVENT_CALLBACK, NdkDisconnectEventCallback, NdkDisconnectEventCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkDisconnectEventCallback, netvista.ndk_fn_disconnect_event_callback
+ms.date: 4/25/2018
+ms.keywords: NDK_FN_DISCONNECT_EVENT_CALLBACK, NDK_FN_DISCONNECT_EVENT_CALLBACK callback, NdkDisconnectEventCallback, NdkDisconnectEventCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkDisconnectEventCallback, netvista.ndk_fn_disconnect_event_callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
+req.typenames: 
 ---
 
-# NDK_FN_DISCONNECT_EVENT_CALLBACK callback
+# NDK_FN_DISCONNECT_EVENT_CALLBACK callback function
 
 
 ## -description

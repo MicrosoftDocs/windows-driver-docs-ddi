@@ -7,7 +7,7 @@ old-location: kernel\ob_pre_create_handle_information.htm
 old-project: kernel
 ms.assetid: 50fd7666-cdec-4bdb-b350-2c2222124020
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*POB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_CREATE_HANDLE_INFORMATION, POB_PRE_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_PRE_CREATE_HANDLE_INFORMATION, kernel.ob_pre_create_handle_information, kstruct_c_e7efa519-bfcd-4f16-9723-294f061bea51.xml, wdm/OB_PRE_CREATE_HANDLE_INFORMATION, wdm/POB_PRE_CREATE_HANDLE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: OB_PRE_CREATE_HANDLE_INFORMATION, *POB_PRE_CREATE_HANDLE_INFORMATION
-req.product: Windows 10 or later.
 ---
 
 # _OB_PRE_CREATE_HANDLE_INFORMATION structure
@@ -142,7 +141,7 @@ Terminate the process, such as by calling the user-mode <b>TerminateProcess</b> 
 </tr>
 <tr>
 <td>
-PROCESS_VM_OPERATIONS
+PROCESS_VM_OPERATION
 
 </td>
 <td>

@@ -7,7 +7,7 @@ old-location: kernel\iocsqinsertirpex.htm
 old-project: kernel
 ms.assetid: b1eb237d-ad4d-428c-beee-5f24677bd0d3
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoCsqInsertIrpEx, IoCsqInsertIrpEx routine [Kernel-Mode Driver Architecture], k104_5a30f95f-f46d-4f45-a261-a740f33c5327.xml, kernel.iocsqinsertirpex, wdm/IoCsqInsertIrpEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoCsqInsertIrpEx function

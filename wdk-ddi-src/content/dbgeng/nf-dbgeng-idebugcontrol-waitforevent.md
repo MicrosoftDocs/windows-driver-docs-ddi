@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl.WaitForEvent
-title: IDebugControl::WaitForEvent method
+title: IDebugControl::WaitForEvent
 author: windows-driver-content
 description: The WaitForEvent method waits for an event that breaks into the debugger engine application.
 old-location: debugger\waitforevent.htm
 old-project: debugger
 ms.assetid: b7038bcf-2469-4d5f-ac73-0c7835da23c3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], WaitForEvent method, IDebugControl2 interface [Windows Debugging], WaitForEvent method, IDebugControl2::WaitForEvent, IDebugControl3 interface [Windows Debugging], WaitForEvent method, IDebugControl3::WaitForEvent, IDebugControl::WaitForEvent, IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, WaitForEvent method [Windows Debugging], WaitForEvent method [Windows Debugging], IDebugControl interface, WaitForEvent method [Windows Debugging], IDebugControl2 interface, WaitForEvent method [Windows Debugging], IDebugControl3 interface, WaitForEvent,IDebugControl.WaitForEvent, dbgeng/IDebugControl2::WaitForEvent, dbgeng/IDebugControl3::WaitForEvent, dbgeng/IDebugControl::WaitForEvent, debugger.waitforevent
+ms.date: 4/24/2018
+ms.keywords: IDebugControl interface [Windows Debugging],WaitForEvent method, IDebugControl.WaitForEvent, IDebugControl2 interface [Windows Debugging],WaitForEvent method, IDebugControl2::WaitForEvent, IDebugControl3 interface [Windows Debugging],WaitForEvent method, IDebugControl3::WaitForEvent, IDebugControl::WaitForEvent, IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, WaitForEvent, WaitForEvent method [Windows Debugging], WaitForEvent method [Windows Debugging],IDebugControl interface, WaitForEvent method [Windows Debugging],IDebugControl2 interface, WaitForEvent method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::WaitForEvent, dbgeng/IDebugControl3::WaitForEvent, dbgeng/IDebugControl::WaitForEvent, debugger.waitforevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl::WaitForEvent method
+# IDebugControl::WaitForEvent
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\kederegisternmicallback.htm
 old-project: kernel
 ms.assetid: 45022490-8130-449c-8ec9-380be0a3a03d
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeDeregisterNmiCallback, KeDeregisterNmiCallback routine [Kernel-Mode Driver Architecture], k105_407e4af5-fb93-4a7e-bacd-cc1d08935815.xml, kernel.kederegisternmicallback, wdm/KeDeregisterNmiCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeDeregisterNmiCallback function

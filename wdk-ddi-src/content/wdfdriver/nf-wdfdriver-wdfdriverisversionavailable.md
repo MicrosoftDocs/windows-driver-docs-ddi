@@ -44,8 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_DRIVER_INIT_FLAGS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfDriverIsVersionAvailable function

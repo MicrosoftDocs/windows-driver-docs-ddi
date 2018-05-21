@@ -68,19 +68,19 @@ The signature of an integer input buffer, which must be set to ACPI_EVAL_INPUT_B
  
 
 
-### -field IntegerArgument
-
-An argument value of type ULONG that is passed as input to the control method.
-
-
-#### - MethodName
+### -field DUMMYUNIONNAME.MethodName
 
 A four-element ASCII character array that contains the name of a control method, for example, 'ABCD.'
 
 
-#### - MethodNameAsUlong
+### -field DUMMYUNIONNAME.MethodNameAsUlong
 
 A value of type ULONG that contains the name of the method in the format (ULONG) ('DCBA'), where the method name is the four-element ASCII character array 'ABCD.'
+
+
+### -field IntegerArgument
+
+An argument value of type ULONG that is passed as input to the control method.
 
 
 ## -remarks

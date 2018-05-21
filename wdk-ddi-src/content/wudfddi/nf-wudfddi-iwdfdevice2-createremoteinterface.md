@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice2.CreateRemoteInterface
-title: IWDFDevice2::CreateRemoteInterface method
+title: IWDFDevice2::CreateRemoteInterface
 author: windows-driver-content
 description: The CreateRemoteInterface method creates a remote interface object that represents a device interface.
 old-location: wdf\iwdfdevice2_createremoteinterface.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fb2def4b-c027-465d-b734-20b4b83a6308
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: CreateRemoteInterface method, CreateRemoteInterface method, IWDFDevice2 interface, CreateRemoteInterface,IWDFDevice2.CreateRemoteInterface, IWDFDevice2, IWDFDevice2 interface, CreateRemoteInterface method, IWDFDevice2::CreateRemoteInterface, UMDFDeviceObjectRef_772989d9-ec18-4672-abea-ee4abd00b6ee.xml, umdf.iwdfdevice2_createremoteinterface, wdf.iwdfdevice2_createremoteinterface, wudfddi/IWDFDevice2::CreateRemoteInterface
+ms.keywords: CreateRemoteInterface, CreateRemoteInterface method, CreateRemoteInterface method,IWDFDevice2 interface, IWDFDevice2 interface,CreateRemoteInterface method, IWDFDevice2.CreateRemoteInterface, IWDFDevice2::CreateRemoteInterface, UMDFDeviceObjectRef_772989d9-ec18-4672-abea-ee4abd00b6ee.xml, umdf.iwdfdevice2_createremoteinterface, wdf.iwdfdevice2_createremoteinterface, wudfddi/IWDFDevice2::CreateRemoteInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice2::CreateRemoteInterface method
+# IWDFDevice2::CreateRemoteInterface
 
 
 ## -description

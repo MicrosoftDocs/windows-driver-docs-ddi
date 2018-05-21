@@ -7,8 +7,8 @@ old-location: kernel\getscattergatherlist.htm
 old-project: kernel
 ms.assetid: 44c597ed-a41e-4170-b75b-dcd61aa70350
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
-ms.keywords: GetScatterGatherList, GetScatterGatherList callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST, kdma_b451cb34-7181-4272-a1ef-0c8fc233a7fd.xml, kernel.getscattergatherlist, ntddk/GetScatterGatherList
+ms.date: 4/30/2018
+ms.keywords: GetScatterGatherList, GetScatterGatherList callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST, PGET_SCATTER_GATHER_LIST callback, kdma_b451cb34-7181-4272-a1ef-0c8fc233a7fd.xml, kernel.getscattergatherlist, ntddk/GetScatterGatherList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PGET_SCATTER_GATHER_LIST callback
+# PGET_SCATTER_GATHER_LIST callback function
 
 
 ## -description

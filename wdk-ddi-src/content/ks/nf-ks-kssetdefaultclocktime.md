@@ -7,7 +7,7 @@ old-location: stream\kssetdefaultclocktime.htm
 old-project: stream
 ms.assetid: c8b4fef4-cfbb-4cdd-b762-062b8ae4a423
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsSetDefaultClockTime, KsSetDefaultClockTime function [Streaming Media Devices], ks/KsSetDefaultClockTime, ksfunc_737648d0-8fc4-405c-96c8-61778e6758e9.xml, stream.kssetdefaultclocktime
 ms.prod: windows-hardware
 ms.technology: windows-devices

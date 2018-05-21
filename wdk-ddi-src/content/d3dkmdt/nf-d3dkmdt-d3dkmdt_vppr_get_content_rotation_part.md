@@ -7,7 +7,7 @@ old-location: display\d3dkmdt_vppr_get_content_rotation_part.htm
 old-project: display
 ms.assetid: B533B0DD-B72C-4294-8E88-4C15EA1BB16E
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function [Display Devices], d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, display.d3dkmdt_vppr_get_content_rotation_part
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_RENDER_PIPELINE_STAGE
+req.typenames: 
 ---
 
 # D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function

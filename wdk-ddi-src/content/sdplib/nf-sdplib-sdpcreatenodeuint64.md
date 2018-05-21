@@ -7,7 +7,7 @@ old-location: bltooth\sdpcreatenodeuint64.htm
 old-project: bltooth
 ms.assetid: 17ec2944-084b-4c10-b4d2-7d291e6307bb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 4/27/2018
 ms.keywords: SdpCreateNodeUInt64, SdpCreateNodeUInt64 function [Bluetooth Devices], bltooth.sdpcreatenodeuint64, bth_funcs_400a6371-a0cf-4930-800b-adaf373b34e5.xml, sdplib/SdpCreateNodeUInt64
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # SdpCreateNodeUInt64 function

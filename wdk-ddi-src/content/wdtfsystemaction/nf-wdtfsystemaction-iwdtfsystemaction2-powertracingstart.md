@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtfsystemaction.IWDTFSystemAction2.PowerTracingStart
-title: IWDTFSystemAction2::PowerTracingStart method
+title: IWDTFSystemAction2::PowerTracingStart
 author: windows-driver-content
 description: Starts a trace session for power state transitions and saves the trace message file (Wdtfpwr.etl) in the current working directory. This method is available starting with Windows 8.
 old-location: dtf\iwdtfsystemaction2_powertracingstart.htm
 old-project: dtf
 ms.assetid: b82ebd99-289e-4761-9717-ce09cf5c40f0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerTracingStart method, IWDTFSystemAction2::PowerTracingStart, Microsoft.WDTF.IWDTFSystemAction2.PowerTracingStart, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingStart, PowerTracingStart method [Windows Device Testing Framework], PowerTracingStart method [Windows Device Testing Framework], IWDTFSystemAction2 interface, PowerTracingStart,IWDTFSystemAction2.PowerTracingStart, dtf.iwdtfsystemaction2_powertracingstart, wdtfsystemaction/IWDTFSystemAction2::PowerTracingStart
+ms.date: 4/4/2018
+ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],PowerTracingStart method, IWDTFSystemAction2.PowerTracingStart, IWDTFSystemAction2::PowerTracingStart, Microsoft.WDTF.IWDTFSystemAction2.PowerTracingStart, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingStart, PowerTracingStart, PowerTracingStart method [Windows Device Testing Framework], PowerTracingStart method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_powertracingstart, wdtfsystemaction/IWDTFSystemAction2::PowerTracingStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFSystemAction2::PowerTracingStart method
+# IWDTFSystemAction2::PowerTracingStart
 
 
 ## -description

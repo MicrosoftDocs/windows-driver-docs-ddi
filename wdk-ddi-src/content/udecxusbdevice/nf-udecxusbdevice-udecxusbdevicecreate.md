@@ -7,7 +7,7 @@ old-location: buses\udecxusbdevicecreate.htm
 old-project: usbref
 ms.assetid: 2AA67B06-F87F-47E3-A80F-154993BAF0E8
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UdecxUsbDeviceCreate, UdecxUsbDeviceCreate function [Buses], buses.udecxusbdevicecreate, udecxusbdevice/UdecxUsbDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UdecxUsbDeviceCreate function

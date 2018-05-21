@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWavePciStream.GetPosition
-title: IMiniportWavePciStream::GetPosition method
+title: IMiniportWavePciStream::GetPosition
 author: windows-driver-content
 description: The GetPosition method gets the current position of the stream.
 old-location: audio\iminiportwavepcistream_getposition.htm
 old-project: audio
 ms.assetid: 61575632-62f8-47d3-9249-5f5416191dfa
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: GetPosition method [Audio Devices], GetPosition method [Audio Devices], IMiniportWavePciStream interface, GetPosition,IMiniportWavePciStream.GetPosition, IMiniportWavePciStream, IMiniportWavePciStream interface [Audio Devices], GetPosition method, IMiniportWavePciStream::GetPosition, audio.iminiportwavepcistream_getposition, audmp-routines_32855554-86ce-4549-af40-700b7b8fcaad.xml, portcls/IMiniportWavePciStream::GetPosition
+ms.date: 4/16/2018
+ms.keywords: GetPosition, GetPosition method [Audio Devices], GetPosition method [Audio Devices],IMiniportWavePciStream interface, IMiniportWavePciStream interface [Audio Devices],GetPosition method, IMiniportWavePciStream.GetPosition, IMiniportWavePciStream::GetPosition, audio.iminiportwavepcistream_getposition, audmp-routines_32855554-86ce-4549-af40-700b7b8fcaad.xml, portcls/IMiniportWavePciStream::GetPosition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWavePciStream::GetPosition method
+# IMiniportWavePciStream::GetPosition
 
 
 ## -description

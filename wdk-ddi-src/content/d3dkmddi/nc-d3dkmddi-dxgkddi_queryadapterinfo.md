@@ -7,8 +7,8 @@ old-location: display\dxgkddiqueryadapterinfo.htm
 old-project: display
 ms.assetid: f2f4c54c-7413-48e5-a165-d71f35642b6c
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_QUERYADAPTERINFO, DmFunctions_700dcca1-79a6-4d31-953c-00e33c8a404d.xml, DxgkDdiQueryAdapterInfo, DxgkDdiQueryAdapterInfo callback function [Display Devices], d3dkmddi/DxgkDdiQueryAdapterInfo, display.dxgkddiqueryadapterinfo
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_QUERYADAPTERINFO, DXGKDDI_QUERYADAPTERINFO callback, DmFunctions_700dcca1-79a6-4d31-953c-00e33c8a404d.xml, DxgkDdiQueryAdapterInfo, DxgkDdiQueryAdapterInfo callback function [Display Devices], d3dkmddi/DxgkDdiQueryAdapterInfo, display.dxgkddiqueryadapterinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
+req.typenames: 
 ---
 
-# DXGKDDI_QUERYADAPTERINFO callback
+# DXGKDDI_QUERYADAPTERINFO callback function
 
 
 ## -description

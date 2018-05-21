@@ -7,7 +7,7 @@ old-location: netvista\ril_emergencymodecontrol.htm
 old-project: netvista
 ms.assetid: 011b8b11-5e75-4db9-ba3d-6483a90788ac
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_EmergencyModeControl, RIL_EmergencyModeControl method [Network Drivers Starting with Windows Vista], netvista.ril_emergencymodecontrol, rilapi/RIL_EmergencyModeControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_EmergencyModeControl function

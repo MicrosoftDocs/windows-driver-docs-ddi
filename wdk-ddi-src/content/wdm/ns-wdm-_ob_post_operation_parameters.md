@@ -7,7 +7,7 @@ old-location: kernel\ob_post_operation_parameters.htm
 old-project: kernel
 ms.assetid: cd0551fc-c276-45c3-a560-bded300a4535
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*POB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], POB_POST_OPERATION_PARAMETERS, POB_POST_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], _OB_POST_OPERATION_PARAMETERS, kernel.ob_post_operation_parameters, kstruct_c_2395a938-5759-44aa-b854-0df3c04d97ec.xml, wdm/OB_POST_OPERATION_PARAMETERS, wdm/POB_POST_OPERATION_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: OB_POST_OPERATION_PARAMETERS, *POB_POST_OPERATION_PARAMETERS
-req.product: Windows 10 or later.
 ---
 
 # _OB_POST_OPERATION_PARAMETERS structure

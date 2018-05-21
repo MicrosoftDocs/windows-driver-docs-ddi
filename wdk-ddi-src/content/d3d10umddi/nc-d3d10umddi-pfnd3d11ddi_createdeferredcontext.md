@@ -7,8 +7,8 @@ old-location: display\createdeferredcontext.htm
 old-project: display
 ms.assetid: 464a2291-55c8-4e51-ba08-219ce426d038
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: CreateDeferredContext, CreateDeferredContext callback function [Display Devices], PFND3D11DDI_CREATEDEFERREDCONTEXT, UserModeDisplayDriverDx11_Functions_8de581fa-3b85-4827-bf32-f0b96d011202.xml, d3d10umddi/CreateDeferredContext, display.createdeferredcontext
+ms.date: 4/16/2018
+ms.keywords: CreateDeferredContext, CreateDeferredContext callback function [Display Devices], PFND3D11DDI_CREATEDEFERREDCONTEXT, PFND3D11DDI_CREATEDEFERREDCONTEXT callback, UserModeDisplayDriverDx11_Functions_8de581fa-3b85-4827-bf32-f0b96d011202.xml, d3d10umddi/CreateDeferredContext, display.createdeferredcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D11DDI_CREATEDEFERREDCONTEXT callback
+# PFND3D11DDI_CREATEDEFERREDCONTEXT callback function
 
 
 ## -description

@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,59 +63,59 @@ The WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union describes which members of a <a h
  
 
 
-### -field ValidBits
-
-A ULONGLONG representation of the contents of the WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union.
-
-
-#### - BusAddress
-
-A single bit that indicates that the <b>BusAddress</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - BusCommand
-
-A single bit that indicates that the <b>BusCommand</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - BusData
-
-A single bit that indicates that the <b>BusData</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - BusId
-
-A single bit that indicates that the <b>BusId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - CompleterId
-
-A single bit that indicates that the <b>CompleterId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
-
-
-#### - ErrorStatus
+### -field DUMMYSTRUCTNAME.ErrorStatus
 
 A single bit that indicates that the <b>ErrorStatus</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
-#### - ErrorType
+### -field DUMMYSTRUCTNAME.ErrorType
 
 A single bit that indicates that the <b>ErrorType</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
-#### - RequesterId
+### -field DUMMYSTRUCTNAME.BusId
+
+A single bit that indicates that the <b>BusId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.BusAddress
+
+A single bit that indicates that the <b>BusAddress</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.BusData
+
+A single bit that indicates that the <b>BusData</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.BusCommand
+
+A single bit that indicates that the <b>BusCommand</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.RequesterId
 
 A single bit that indicates that the <b>RequesterId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.CompleterId
+
+A single bit that indicates that the <b>CompleterId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.TargetId
+
+A single bit that indicates that the <b>TargetId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
+
+
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
 
-#### - TargetId
+### -field ValidBits
 
-A single bit that indicates that the <b>TargetId</b> member of the WHEA_PCIXBUS_ERROR_SECTION structure contains valid data.
+A ULONGLONG representation of the contents of the WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union.
 
 
 ## -remarks

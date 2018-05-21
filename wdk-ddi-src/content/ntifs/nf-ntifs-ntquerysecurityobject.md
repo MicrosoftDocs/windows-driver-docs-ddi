@@ -7,7 +7,7 @@ old-location: kernel\zwquerysecurityobject.htm
 old-project: kernel
 ms.assetid: bc3c494d-890c-4699-a272-62cbcc234cdd
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: NtQuerySecurityObject, ZwQuerySecurityObject, ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture], k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml, kernel.zwquerysecurityobject, ntifs/NtQuerySecurityObject, ntifs/ZwQuerySecurityObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # NtQuerySecurityObject function

@@ -7,8 +7,8 @@ old-location: buses\evt_ucx_usbdevice_resume.htm
 old-project: usbref
 ms.assetid: 876D9754-B3AA-42C5-8BDD-60CFD4F78951
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: "*PFN_UCX_USBDEVICE_RESUME, *PFN_UCX_USBDEVICE_RESUME callback function [Buses], EVT_UCX_USBDEVICE_RESUME, EvtUcxDeviceResume, EvtUcxDeviceResume callback function [Buses], buses.evt_ucx_usbdevice_resume, ucxusbdevice/EvtUcxDeviceResume"
+ms.date: 4/25/2018
+ms.keywords: "*PFN_UCX_USBDEVICE_RESUME, *PFN_UCX_USBDEVICE_RESUME callback function [Buses], EVT_UCX_USBDEVICE_RESUME, EVT_UCX_USBDEVICE_RESUME callback, EvtUcxDeviceResume, EvtUcxDeviceResume callback function [Buses], buses.evt_ucx_usbdevice_resume, ucxusbdevice/EvtUcxDeviceResume"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STREAM_INFO, *PSTREAM_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_UCX_USBDEVICE_RESUME callback
+# EVT_UCX_USBDEVICE_RESUME callback function
 
 
 ## -description

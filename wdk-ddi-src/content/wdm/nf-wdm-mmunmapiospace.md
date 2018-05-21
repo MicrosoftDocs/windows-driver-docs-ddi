@@ -7,7 +7,7 @@ old-location: kernel\mmunmapiospace.htm
 old-project: kernel
 ms.assetid: 5963f34a-4315-46c3-9802-0b6a1b229e3f
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: MmUnmapIoSpace, MmUnmapIoSpace routine [Kernel-Mode Driver Architecture], k106_a56f91b1-7187-4836-a3d8-4b7d2918227a.xml, kernel.mmunmapiospace, wdm/MmUnmapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # MmUnmapIoSpace function

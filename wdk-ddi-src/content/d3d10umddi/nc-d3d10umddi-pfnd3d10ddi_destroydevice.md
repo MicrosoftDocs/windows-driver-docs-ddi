@@ -7,8 +7,8 @@ old-location: display\destroydevice_d3d10_.htm
 old-project: display
 ms.assetid: 90ada8c8-8ad8-4992-aac1-6eb7fdf3f249
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DestroyDevice, DestroyDevice callback function [Display Devices], PFND3D10DDI_DESTROYDEVICE, UserModeDisplayDriverDx10_Functions_4f2918da-90e0-4e85-b019-f9481555e524.xml, d3d10umddi/DestroyDevice, display.destroydevice_d3d10_
+ms.date: 4/16/2018
+ms.keywords: DestroyDevice, DestroyDevice callback function [Display Devices], PFND3D10DDI_DESTROYDEVICE, PFND3D10DDI_DESTROYDEVICE callback, UserModeDisplayDriverDx10_Functions_4f2918da-90e0-4e85-b019-f9481555e524.xml, d3d10umddi/DestroyDevice, display.destroydevice_d3d10_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: 
 ---
 
-# PFND3D10DDI_DESTROYDEVICE callback
+# PFND3D10DDI_DESTROYDEVICE callback function
 
 
 ## -description

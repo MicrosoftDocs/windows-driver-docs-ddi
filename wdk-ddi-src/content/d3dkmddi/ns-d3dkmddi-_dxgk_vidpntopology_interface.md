@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpntopology_interface.htm
 old-project: display
 ms.assetid: 293103cc-217c-4dcb-82c1-971adba564a0
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXGK_VIDPNTOPOLOGY_INTERFACE, DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices], DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml, _DXGK_VIDPNTOPOLOGY_INTERFACE, d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE, display.dxgk_vidpntopology_interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

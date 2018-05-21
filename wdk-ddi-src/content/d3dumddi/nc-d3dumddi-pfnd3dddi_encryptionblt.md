@@ -7,8 +7,8 @@ old-location: display\encryptionblt.htm
 old-project: display
 ms.assetid: a92bfff7-8af6-48c3-9e7f-95b9426aaaf2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3DDDI_ENCRYPTIONBLT, UserModeDisplayDriver_Functions_49cc68db-1210-44e5-80f1-347210dc6cf3.xml, d3dumddi/EncryptionBlt, display.encryptionblt
+ms.date: 4/16/2018
+ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3DDDI_ENCRYPTIONBLT, PFND3DDDI_ENCRYPTIONBLT callback, UserModeDisplayDriver_Functions_49cc68db-1210-44e5-80f1-347210dc6cf3.xml, d3dumddi/EncryptionBlt, display.encryptionblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_ENCRYPTIONBLT callback
+# PFND3DDDI_ENCRYPTIONBLT callback function
 
 
 ## -description

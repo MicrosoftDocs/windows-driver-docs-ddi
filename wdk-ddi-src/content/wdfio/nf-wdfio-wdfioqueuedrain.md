@@ -44,8 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_IO_QUEUE_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfIoQueueDrain function

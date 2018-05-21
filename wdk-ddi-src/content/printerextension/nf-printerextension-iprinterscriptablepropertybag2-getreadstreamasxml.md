@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrinterScriptablePropertyBag2.GetReadStreamAsXML
-title: IPrinterScriptablePropertyBag2::GetReadStreamAsXML method
+title: IPrinterScriptablePropertyBag2::GetReadStreamAsXML
 author: windows-driver-content
 description: "."
 old-location: print\iprinterscriptablepropertybag2_getreadstreamasxml.htm
 old-project: print
 ms.assetid: 1C6477C4-3038-4F8A-871F-7F336E631C8F
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: GetReadStreamAsXML method [Print Devices], GetReadStreamAsXML method [Print Devices], IPrinterScriptablePropertyBag2 interface, GetReadStreamAsXML,IPrinterScriptablePropertyBag2.GetReadStreamAsXML, IPrinterScriptablePropertyBag2, IPrinterScriptablePropertyBag2 interface [Print Devices], GetReadStreamAsXML method, IPrinterScriptablePropertyBag2::GetReadStreamAsXML, print.iprinterscriptablepropertybag2_getreadstreamasxml, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML
+ms.date: 4/20/2018
+ms.keywords: GetReadStreamAsXML, GetReadStreamAsXML method [Print Devices], GetReadStreamAsXML method [Print Devices],IPrinterScriptablePropertyBag2 interface, IPrinterScriptablePropertyBag2 interface [Print Devices],GetReadStreamAsXML method, IPrinterScriptablePropertyBag2.GetReadStreamAsXML, IPrinterScriptablePropertyBag2::GetReadStreamAsXML, print.iprinterscriptablepropertybag2_getreadstreamasxml, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrinterScriptablePropertyBag2::GetReadStreamAsXML method
+# IPrinterScriptablePropertyBag2::GetReadStreamAsXML
 
 
 ## -description

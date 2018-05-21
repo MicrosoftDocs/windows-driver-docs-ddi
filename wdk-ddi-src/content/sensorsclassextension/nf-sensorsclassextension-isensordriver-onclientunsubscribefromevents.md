@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnClientUnsubscribeFromEvents
-title: ISensorDriver::OnClientUnsubscribeFromEvents method
+title: ISensorDriver::OnClientUnsubscribeFromEvents
 author: windows-driver-content
 description: The ISensorDriver::OnClientUnsubscribeFromEvents method notifies the sensor driver that a client application no longer requests event notifications.
 old-location: sensors\isensordriver_onclientunsubscribefromevents.htm
 old-project: sensors
 ms.assetid: f51f1091-232f-4e41-9cc2-9938870aeef8
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorDriver, ISensorDriver::OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents method [Sensor Devices], OnClientUnsubscribeFromEvents,ISensorDriver.OnClientUnsubscribeFromEvents, sensors.isensordriver_onclientunsubscribefromevents
+ms.date: 4/30/2018
+ms.keywords: ISensorDriver interface [Sensor Devices],OnClientUnsubscribeFromEvents method, ISensorDriver.OnClientUnsubscribeFromEvents, ISensorDriver::OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents method [Sensor Devices], OnClientUnsubscribeFromEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientunsubscribefromevents, sensorsclassextension/ISensorDriver::OnClientUnsubscribeFromEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorDriver::OnClientUnsubscribeFromEvents method
+# ISensorDriver::OnClientUnsubscribeFromEvents
 
 
 ## -description
@@ -114,4 +113,15 @@ For more information about how to use this method, see <a href="https://msdn.mic
 The ClientData structure is defined as follows.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+ 
+
+ 
 

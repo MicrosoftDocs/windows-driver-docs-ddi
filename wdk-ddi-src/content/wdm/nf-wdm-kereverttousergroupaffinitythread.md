@@ -7,7 +7,7 @@ old-location: kernel\kereverttousergroupaffinitythread.htm
 old-project: kernel
 ms.assetid: 13a1a106-0c5c-4c0e-964d-27e549e1c699
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: KeRevertToUserGroupAffinityThread, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture], k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, kernel.kereverttousergroupaffinitythread, wdm/KeRevertToUserGroupAffinityThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KeRevertToUserGroupAffinityThread function

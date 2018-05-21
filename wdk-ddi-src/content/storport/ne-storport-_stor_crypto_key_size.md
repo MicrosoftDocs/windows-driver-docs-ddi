@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: STOR_CRYPTO_KEY_SIZE, *PSTOR_CRYPTO_KEY_SIZE
-req.product: Windows 10 or later.
 ---
 
 # _STOR_CRYPTO_KEY_SIZE enumeration

@@ -7,7 +7,7 @@ old-location: ifsk\rxcompleterequest_real.htm
 old-project: ifsk
 ms.assetid: 54d8fab2-bde3-4b8a-8542-075c5e30afbb
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxCompleteRequest_Real, RxCompleteRequest_Real function [Installable File System Drivers], ifsk.rxcompleterequest_real, rxprocs/RxCompleteRequest_Real, rxref_9d779281-7e95-45b7-a633-62a4280a6bea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxCompleteRequest_Real function

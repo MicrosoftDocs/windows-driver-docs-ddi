@@ -7,7 +7,7 @@ old-location: kernel\tmrollbacktransaction.htm
 old-project: kernel
 ms.assetid: 5626a92e-bd26-41a3-8475-916efb2292ff
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: TmRollbackTransaction, TmRollbackTransaction routine [Kernel-Mode Driver Architecture], kernel.tmrollbacktransaction, ktm_ref_5ea93853-7ca0-4db2-b5ca-3329b5c7f0f0.xml, wdm/TmRollbackTransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,8 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # TmRollbackTransaction function

@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSystemObjects3.GetCurrentSystemServer
-title: IDebugSystemObjects3::GetCurrentSystemServer method
+title: IDebugSystemObjects3::GetCurrentSystemServer
 author: windows-driver-content
 description: Gets the server for the current process.
 old-location: debugger\idebugsystemobjects3_getcurrentsystemserver.htm
 old-project: debugger
 ms.assetid: 7956E4F6-7FB5-4349-81D2-4953108557D2
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetCurrentSystemServer method [Windows Debugging], GetCurrentSystemServer method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentSystemServer,IDebugSystemObjects3.GetCurrentSystemServer, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemServer method, IDebugSystemObjects3::GetCurrentSystemServer, dbgeng/IDebugSystemObjects3::GetCurrentSystemServer, debugger.idebugsystemobjects3_getcurrentsystemserver
+ms.date: 4/24/2018
+ms.keywords: GetCurrentSystemServer, GetCurrentSystemServer method [Windows Debugging], GetCurrentSystemServer method [Windows Debugging],IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentSystemServer method, IDebugSystemObjects3.GetCurrentSystemServer, IDebugSystemObjects3::GetCurrentSystemServer, dbgeng/IDebugSystemObjects3::GetCurrentSystemServer, debugger.idebugsystemobjects3_getcurrentsystemserver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSystemObjects3::GetCurrentSystemServer method
+# IDebugSystemObjects3::GetCurrentSystemServer
 
 
 ## -description

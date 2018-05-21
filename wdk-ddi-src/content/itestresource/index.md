@@ -2,17 +2,18 @@
 UID: NA:itestresource
 ms.assetid: b0234b9f-eb9f-3e71-9094-5db01b4443fa
 ms.author: windowsdriverdev
-ms.date: 04/20/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: dtf
 ---
 
 # Itestresource.h header
 
 
-
+## -description
 
 
 This header is used by dtf. For more information, see:

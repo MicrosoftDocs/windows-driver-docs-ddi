@@ -7,7 +7,7 @@ old-location: ifsk\fsrtlincrementccfastreadnowait.htm
 old-project: ifsk
 ms.assetid: 14a1b22a-5d1b-4da6-9610-396fa128ce01
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FsRtlIncrementCcFastReadNoWait, FsRtlIncrementCcFastReadNoWait routine [Installable File System Drivers], fsrtlref_f72704ce-84b6-4201-a727-b97fd70accfd.xml, ifsk.fsrtlincrementccfastreadnowait, ntifs/FsRtlIncrementCcFastReadNoWait
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # FsRtlIncrementCcFastReadNoWait function

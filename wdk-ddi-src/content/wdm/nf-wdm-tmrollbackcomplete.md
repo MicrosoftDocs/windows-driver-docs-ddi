@@ -7,7 +7,7 @@ old-location: kernel\tmrollbackcomplete.htm
 old-project: kernel
 ms.assetid: 626bae87-8e5c-4d2a-8942-bddb2f6baa6b
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: TmRollbackComplete, TmRollbackComplete routine [Kernel-Mode Driver Architecture], kernel.tmrollbackcomplete, ktm_ref_57ef03c4-5d49-4871-a1ef-c6083c9680a8.xml, wdm/TmRollbackComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -43,8 +43,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # TmRollbackComplete function

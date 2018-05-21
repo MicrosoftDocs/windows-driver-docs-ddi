@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetRadix
-title: IDebugControl3::GetRadix method
+title: IDebugControl3::GetRadix
 author: windows-driver-content
 description: The GetRadix method returns the default radix (number base) used by the debugger engine when it evaluates and displays MASM expressions, and when it displays symbol information.
 old-location: debugger\getradix.htm
 old-project: debugger
 ms.assetid: eae478e1-f70c-4344-a6e0-982a668c1f5d
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetRadix method [Windows Debugging], GetRadix method [Windows Debugging], IDebugControl interface, GetRadix method [Windows Debugging], IDebugControl2 interface, GetRadix method [Windows Debugging], IDebugControl3 interface, GetRadix,IDebugControl3.GetRadix, IDebugControl interface [Windows Debugging], GetRadix method, IDebugControl2 interface [Windows Debugging], GetRadix method, IDebugControl2::GetRadix, IDebugControl3, IDebugControl3 interface [Windows Debugging], GetRadix method, IDebugControl3::GetRadix, IDebugControl::GetRadix, IDebugControl_3f4cb732-868a-4944-bcd9-dd1f221824df.xml, dbgeng/IDebugControl2::GetRadix, dbgeng/IDebugControl3::GetRadix, dbgeng/IDebugControl::GetRadix, debugger.getradix
+ms.date: 4/24/2018
+ms.keywords: GetRadix, GetRadix method [Windows Debugging], GetRadix method [Windows Debugging],IDebugControl interface, GetRadix method [Windows Debugging],IDebugControl2 interface, GetRadix method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetRadix method, IDebugControl2 interface [Windows Debugging],GetRadix method, IDebugControl2::GetRadix, IDebugControl3 interface [Windows Debugging],GetRadix method, IDebugControl3.GetRadix, IDebugControl3::GetRadix, IDebugControl::GetRadix, IDebugControl_3f4cb732-868a-4944-bcd9-dd1f221824df.xml, dbgeng/IDebugControl2::GetRadix, dbgeng/IDebugControl3::GetRadix, dbgeng/IDebugControl::GetRadix, debugger.getradix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::GetRadix method
+# IDebugControl3::GetRadix
 
 
 ## -description

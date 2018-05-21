@@ -7,8 +7,8 @@ old-location: stream\iksreferenceclock.htm
 old-project: stream
 ms.assetid: 92a84bf3-34bf-4ee7-97c0-f5e6427c0464
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices], described, avintfc_7146002a-d8ab-4789-b752-863f8b2d94d2.xml, ks/IKsReferenceClock, stream.iksreferenceclock
+ms.date: 4/23/2018
+ms.keywords: IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices],described, avintfc_7146002a-d8ab-4789-b752-863f8b2d94d2.xml, ks/IKsReferenceClock, stream.iksreferenceclock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface

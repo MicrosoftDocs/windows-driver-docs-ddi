@@ -7,7 +7,7 @@ old-location: audio\pcgettimeinterval.htm
 old-project: audio
 ms.assetid: 22afd9b9-9bed-45b0-afd8-1a5a34b9e6ad
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: PcGetTimeInterval, PcGetTimeInterval function [Audio Devices], audio.pcgettimeinterval, audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, portcls/PcGetTimeInterval
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcGetTimeInterval function

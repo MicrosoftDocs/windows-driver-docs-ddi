@@ -7,7 +7,7 @@ old-location: kernel\exflushlookasidelistex.htm
 old-project: kernel
 ms.assetid: 38601573-750f-46fc-ae04-cef0d90d9ea9
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: ExFlushLookasideListEx, ExFlushLookasideListEx routine [Kernel-Mode Driver Architecture], k102_bb02a725-bc22-4c22-91f2-0232c1cb0f1f.xml, kernel.exflushlookasidelistex, wdm/ExFlushLookasideListEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ExFlushLookasideListEx function

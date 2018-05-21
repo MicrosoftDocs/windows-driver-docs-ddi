@@ -7,7 +7,7 @@ old-location: netvista\wdi_qos_protocol.htm
 old-project: netvista
 ms.assetid: 39466BF7-0517-4113-9C94-26D8691CCCC1
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: WDI_QOS_PROTOCOL, WDI_QOS_PROTOCOL enumeration [Device and Driver Installation], WDI_QOS_PROTOCOL_11E, WDI_QOS_PROTOCOL_NONE, WDI_QOS_PROTOCOL_WMM, _WDI_QOS_PROTOCOL, netvista.wdi_qos_protocol, netvista.wifi_qos_protocol, wditypes/WDI_QOS_PROTOCOL, wditypes/WDI_QOS_PROTOCOL_11E, wditypes/WDI_QOS_PROTOCOL_NONE, wditypes/WDI_QOS_PROTOCOL_WMM
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDI_QOS_PROTOCOL
-req.product: Windows 10 or later.
 ---
 
 # _WDI_QOS_PROTOCOL enumeration

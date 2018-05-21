@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.SetImagePath
-title: IDebugSymbols2::SetImagePath method
+title: IDebugSymbols2::SetImagePath
 author: windows-driver-content
 description: The SetImagePath method sets the executable image path.
 old-location: debugger\setimagepath.htm
 old-project: debugger
 ms.assetid: 4f6de771-c54f-4f27-900a-98e94b94f957
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], SetImagePath method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], SetImagePath method, IDebugSymbols2::SetImagePath, IDebugSymbols3 interface [Windows Debugging], SetImagePath method, IDebugSymbols3::SetImagePath, IDebugSymbols::SetImagePath, IDebugSymbols_062aa9c4-33c9-4a73-a11f-7d5e6b94e96c.xml, SetImagePath method [Windows Debugging], SetImagePath method [Windows Debugging], IDebugSymbols interface, SetImagePath method [Windows Debugging], IDebugSymbols2 interface, SetImagePath method [Windows Debugging], IDebugSymbols3 interface, SetImagePath,IDebugSymbols2.SetImagePath, dbgeng/IDebugSymbols2::SetImagePath, dbgeng/IDebugSymbols3::SetImagePath, dbgeng/IDebugSymbols::SetImagePath, debugger.setimagepath
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging],SetImagePath method, IDebugSymbols2 interface [Windows Debugging],SetImagePath method, IDebugSymbols2.SetImagePath, IDebugSymbols2::SetImagePath, IDebugSymbols3 interface [Windows Debugging],SetImagePath method, IDebugSymbols3::SetImagePath, IDebugSymbols::SetImagePath, IDebugSymbols_062aa9c4-33c9-4a73-a11f-7d5e6b94e96c.xml, SetImagePath, SetImagePath method [Windows Debugging], SetImagePath method [Windows Debugging],IDebugSymbols interface, SetImagePath method [Windows Debugging],IDebugSymbols2 interface, SetImagePath method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::SetImagePath, dbgeng/IDebugSymbols3::SetImagePath, dbgeng/IDebugSymbols::SetImagePath, debugger.setimagepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::SetImagePath method
+# IDebugSymbols2::SetImagePath
 
 
 ## -description

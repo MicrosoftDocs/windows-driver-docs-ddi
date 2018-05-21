@@ -7,8 +7,8 @@ old-location: serports\evtsercxfileclose.htm
 old-project: serports
 ms.assetid: C72CA6D0-DD85-46AC-9CE3-BE11233475C0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: 1/EvtSerCxFileClose, EVT_SERCX_FILECLOSE, EvtSerCxFileClose, EvtSerCxFileClose callback function [Serial Ports], serports.evtsercxfileclose
+ms.date: 4/23/2018
+ms.keywords: 1/EvtSerCxFileClose, EVT_SERCX_FILECLOSE, EVT_SERCX_FILECLOSE callback, EvtSerCxFileClose, EvtSerCxFileClose callback function [Serial Ports], serports.evtsercxfileclose
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SERCX_FILECLOSE callback
+# EVT_SERCX_FILECLOSE callback function
 
 
 ## -description

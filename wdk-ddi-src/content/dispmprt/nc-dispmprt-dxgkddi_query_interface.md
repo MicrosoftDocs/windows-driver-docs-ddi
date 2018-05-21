@@ -7,8 +7,8 @@ old-location: display\dxgkddiqueryinterface.htm
 old-project: display
 ms.assetid: d8255f36-be3a-4b19-ac8d-8748ac9b6a24
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: DXGKDDI_QUERY_INTERFACE, DmFunctions_1c8cdcd5-60e2-4d76-ba70-6af3f96f1740.xml, DxgkDdiQueryInterface, DxgkDdiQueryInterface callback function [Display Devices], display.dxgkddiqueryinterface, dispmprt/DxgkDdiQueryInterface
+ms.date: 4/16/2018
+ms.keywords: DXGKDDI_QUERY_INTERFACE, DXGKDDI_QUERY_INTERFACE callback, DmFunctions_1c8cdcd5-60e2-4d76-ba70-6af3f96f1740.xml, DxgkDdiQueryInterface, DxgkDdiQueryInterface callback function [Display Devices], display.dxgkddiqueryinterface, dispmprt/DxgkDdiQueryInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
+req.typenames: 
 ---
 
-# DXGKDDI_QUERY_INTERFACE callback
+# DXGKDDI_QUERY_INTERFACE callback function
 
 
 ## -description

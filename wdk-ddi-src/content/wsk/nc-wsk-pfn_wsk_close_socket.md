@@ -7,8 +7,8 @@ old-location: netvista\wskclosesocket.htm
 old-project: netvista
 ms.assetid: 4d4e4a40-db76-4746-8049-3af8c4541283
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: PFN_WSK_CLOSE_SOCKET, WskCloseSocket, WskCloseSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskclosesocket, wsk/WskCloseSocket, wskref_c8c37dfe-294f-4a40-9b3a-f4ca609ad4d8.xml
+ms.date: 4/25/2018
+ms.keywords: PFN_WSK_CLOSE_SOCKET, PFN_WSK_CLOSE_SOCKET callback, WskCloseSocket, WskCloseSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskclosesocket, wsk/WskCloseSocket, wskref_c8c37dfe-294f-4a40-9b3a-f4ca609ad4d8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PFN_WSK_CLOSE_SOCKET callback
+# PFN_WSK_CLOSE_SOCKET callback function
 
 
 ## -description

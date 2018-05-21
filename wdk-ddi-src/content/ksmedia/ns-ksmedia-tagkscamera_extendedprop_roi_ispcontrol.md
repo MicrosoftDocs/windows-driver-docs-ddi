@@ -7,7 +7,7 @@ old-location: stream\kscamera_extendedprop_roi_ispcontrol.htm
 old-project: stream
 ms.assetid: 49EAB8F3-35B9-4F99-A7B8-66B582B228B1
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, stream.kscamera_extendedprop_roi_ispcontrol, tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL"
 ms.prod: windows-hardware
 ms.technology: windows-devices

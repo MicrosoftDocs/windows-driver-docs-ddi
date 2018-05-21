@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugControl3.CloseLogFile
-title: IDebugControl3::CloseLogFile method
+title: IDebugControl3::CloseLogFile
 author: windows-driver-content
 description: The CloseLogFile method closes the currently-open log file.
 old-location: debugger\closelogfile.htm
 old-project: debugger
 ms.assetid: 86ae188b-379c-474e-9f21-60286af19656
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: CloseLogFile method [Windows Debugging], CloseLogFile method [Windows Debugging], IDebugControl interface, CloseLogFile method [Windows Debugging], IDebugControl2 interface, CloseLogFile method [Windows Debugging], IDebugControl3 interface, CloseLogFile,IDebugControl3.CloseLogFile, IDebugControl interface [Windows Debugging], CloseLogFile method, IDebugControl2 interface [Windows Debugging], CloseLogFile method, IDebugControl2::CloseLogFile, IDebugControl3, IDebugControl3 interface [Windows Debugging], CloseLogFile method, IDebugControl3::CloseLogFile, IDebugControl::CloseLogFile, IDebugControl_988fe3ac-a51d-4757-995d-40fe9d66aa02.xml, dbgeng/IDebugControl2::CloseLogFile, dbgeng/IDebugControl3::CloseLogFile, dbgeng/IDebugControl::CloseLogFile, debugger.closelogfile
+ms.date: 4/24/2018
+ms.keywords: CloseLogFile, CloseLogFile method [Windows Debugging], CloseLogFile method [Windows Debugging],IDebugControl interface, CloseLogFile method [Windows Debugging],IDebugControl2 interface, CloseLogFile method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],CloseLogFile method, IDebugControl2 interface [Windows Debugging],CloseLogFile method, IDebugControl2::CloseLogFile, IDebugControl3 interface [Windows Debugging],CloseLogFile method, IDebugControl3.CloseLogFile, IDebugControl3::CloseLogFile, IDebugControl::CloseLogFile, IDebugControl_988fe3ac-a51d-4757-995d-40fe9d66aa02.xml, dbgeng/IDebugControl2::CloseLogFile, dbgeng/IDebugControl3::CloseLogFile, dbgeng/IDebugControl::CloseLogFile, debugger.closelogfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugControl3::CloseLogFile method
+# IDebugControl3::CloseLogFile
 
 
 ## -description

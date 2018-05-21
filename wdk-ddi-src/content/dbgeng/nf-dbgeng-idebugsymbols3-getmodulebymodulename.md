@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols3.GetModuleByModuleName
-title: IDebugSymbols3::GetModuleByModuleName method
+title: IDebugSymbols3::GetModuleByModuleName
 author: windows-driver-content
 description: The GetModuleByModuleName method searches through the target's modules for one with the specified name.
 old-location: debugger\getmodulebymodulename.htm
 old-project: debugger
 ms.assetid: 243b79fe-b1b2-48b4-bb0b-c56b787e7b83
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: GetModuleByModuleName method [Windows Debugging], GetModuleByModuleName method [Windows Debugging], IDebugSymbols interface, GetModuleByModuleName method [Windows Debugging], IDebugSymbols2 interface, GetModuleByModuleName method [Windows Debugging], IDebugSymbols3 interface, GetModuleByModuleName,IDebugSymbols3.GetModuleByModuleName, IDebugSymbols interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols2 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols2::GetModuleByModuleName, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleName method, IDebugSymbols3::GetModuleByModuleName, IDebugSymbols::GetModuleByModuleName, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, dbgeng/IDebugSymbols2::GetModuleByModuleName, dbgeng/IDebugSymbols3::GetModuleByModuleName, dbgeng/IDebugSymbols::GetModuleByModuleName, debugger.getmodulebymodulename
+ms.date: 4/24/2018
+ms.keywords: GetModuleByModuleName, GetModuleByModuleName method [Windows Debugging], GetModuleByModuleName method [Windows Debugging],IDebugSymbols interface, GetModuleByModuleName method [Windows Debugging],IDebugSymbols2 interface, GetModuleByModuleName method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetModuleByModuleName method, IDebugSymbols2 interface [Windows Debugging],GetModuleByModuleName method, IDebugSymbols2::GetModuleByModuleName, IDebugSymbols3 interface [Windows Debugging],GetModuleByModuleName method, IDebugSymbols3.GetModuleByModuleName, IDebugSymbols3::GetModuleByModuleName, IDebugSymbols::GetModuleByModuleName, IDebugSymbols_1a407f12-64e8-43a3-b831-ef8c9b701537.xml, dbgeng/IDebugSymbols2::GetModuleByModuleName, dbgeng/IDebugSymbols3::GetModuleByModuleName, dbgeng/IDebugSymbols::GetModuleByModuleName, debugger.getmodulebymodulename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols3::GetModuleByModuleName method
+# IDebugSymbols3::GetModuleByModuleName
 
 
 ## -description

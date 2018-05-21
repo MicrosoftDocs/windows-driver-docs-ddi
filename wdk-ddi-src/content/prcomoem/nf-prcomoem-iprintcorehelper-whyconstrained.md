@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintCoreHelper.WhyConstrained
-title: IPrintCoreHelper::WhyConstrained method
+title: IPrintCoreHelper::WhyConstrained
 author: windows-driver-content
 description: The IPrintCoreHelper::WhyConstrained method provides a list of options that are constraining the specified feature-option pair in the current configuration.
 old-location: print\iprintcorehelper_whyconstrained.htm
 old-project: print
 ms.assetid: de3fdbd4-9647-4369-9c23-4779aa768b1b
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], WhyConstrained method, IPrintCoreHelper::WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices], IPrintCoreHelper interface, WhyConstrained,IPrintCoreHelper.WhyConstrained, prcomoem/IPrintCoreHelper::WhyConstrained, print.iprintcorehelper_whyconstrained, print_unidrv-pscript_allplugins_256e3fde-bcef-4883-99bc-803a3de99841.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintCoreHelper interface [Print Devices],WhyConstrained method, IPrintCoreHelper.WhyConstrained, IPrintCoreHelper::WhyConstrained, WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices],IPrintCoreHelper interface, prcomoem/IPrintCoreHelper::WhyConstrained, print.iprintcorehelper_whyconstrained, print_unidrv-pscript_allplugins_256e3fde-bcef-4883-99bc-803a3de99841.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintCoreHelper::WhyConstrained method
+# IPrintCoreHelper::WhyConstrained
 
 
 ## -description

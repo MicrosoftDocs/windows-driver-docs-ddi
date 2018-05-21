@@ -7,7 +7,7 @@ old-location: stream\ksmethod_item_irp_storage.htm
 old-project: stream
 ms.assetid: 8c06da38-6f3b-4cd6-8331-c88758a7f00b
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSMETHOD_ITEM_IRP_STORAGE, KSMETHOD_ITEM_IRP_STORAGE macro [Streaming Media Devices], ks/KSMETHOD_ITEM_IRP_STORAGE, ksfunc_f9a51af4-aa4e-432d-99e3-03052e99b902.xml, stream.ksmethod_item_irp_storage
 ms.prod: windows-hardware
 ms.technology: windows-devices

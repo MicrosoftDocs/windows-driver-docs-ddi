@@ -7,7 +7,7 @@ old-location: kernel\rtlunicodestringvprintfex.htm
 old-project: kernel
 ms.assetid: da14f93d-c3db-4c54-8378-7492b79a5e18
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlUnicodeStringVPrintfEx, RtlUnicodeStringVPrintfEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvprintfex, ntstrsafe/RtlUnicodeStringVPrintfEx, safestrings_293f1ca7-b9e4-4502-9d04-e656bac17288.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlUnicodeStringVPrintfEx function

@@ -1,14 +1,14 @@
 ---
 UID: NF:prcomoem.IPrintOemUni.PublishDriverInterface
-title: IPrintOemUni::PublishDriverInterface method
+title: IPrintOemUni::PublishDriverInterface
 author: windows-driver-content
 description: The IPrintOemUni::PublishDriverInterface method allows a rendering plug-in for Unidrv to obtain the Unidrv driver's IPrintOemDriverUni or IPrintCoreHelperUni interface.
 old-location: print\iprintoemuni_publishdriverinterface.htm
 old-project: print
 ms.assetid: 72bfa383-a7f2-4aa6-a45c-564928705e42
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: IPrintOemUni, IPrintOemUni interface [Print Devices], PublishDriverInterface method, IPrintOemUni::PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices], IPrintOemUni interface, PublishDriverInterface,IPrintOemUni.PublishDriverInterface, prcomoem/IPrintOemUni::PublishDriverInterface, print.iprintoemuni_publishdriverinterface, print_unidrv-pscript_rendering_c9525b65-4bc0-42cb-b416-7b2034581b0e.xml
+ms.date: 4/20/2018
+ms.keywords: IPrintOemUni interface [Print Devices],PublishDriverInterface method, IPrintOemUni.PublishDriverInterface, IPrintOemUni::PublishDriverInterface, PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::PublishDriverInterface, print.iprintoemuni_publishdriverinterface, print_unidrv-pscript_rendering_c9525b65-4bc0-42cb-b416-7b2034581b0e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintOemUni::PublishDriverInterface method
+# IPrintOemUni::PublishDriverInterface
 
 
 ## -description

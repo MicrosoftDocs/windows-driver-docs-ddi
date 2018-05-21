@@ -7,7 +7,7 @@ old-location: ifsk\rxstopminirdr.htm
 old-project: ifsk
 ms.assetid: 059d2a99-f4da-45f1-8d91-0e57930595d2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxStopMinirdr, RxStopMinirdr function [Installable File System Drivers], ifsk.rxstopminirdr, mrx/RxStopMinirdr, rxref_3ec6b643-e13c-4aa6-879b-fdb2076e549d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
 # RxStopMinirdr function

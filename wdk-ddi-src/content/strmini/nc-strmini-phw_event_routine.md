@@ -7,7 +7,7 @@ old-location: stream\strminievent.htm
 old-project: stream
 ms.assetid: 17f96498-3973-41f8-926d-85aa5f72de47
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: PHW_EVENT_ROUTINE, StrMiniEvent, StrMiniEvent routine [Streaming Media Devices], stream.strminievent, strmini-routines_048c6591-7f69-44c2-8aa1-db42b5d718e0.xml, strmini/StrMiniEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: ZONE_DESCRIPTIOR, *PZONE_DESCRIPTIOR
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PHW_EVENT_ROUTINE callback
+# PHW_EVENT_ROUTINE callback function
 
 
 ## -description

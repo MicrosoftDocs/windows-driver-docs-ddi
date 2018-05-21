@@ -7,7 +7,7 @@ old-location: stream\ksfreeobjectheader.htm
 old-project: stream
 ms.assetid: 59ca5035-f4d8-4a9c-a298-c8dca604f4db
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsFreeObjectHeader, KsFreeObjectHeader function [Streaming Media Devices], ks/KsFreeObjectHeader, ksfunc_11097907-6879-43bb-879b-b74eb13d6109.xml, stream.ksfreeobjectheader
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,14 +1,14 @@
 ---
 UID: NF:wdtf.IWDTFTargets2.Query
-title: IWDTFTargets2::Query method
+title: IWDTFTargets2::Query
 author: windows-driver-content
 description: Returns a subset of the items in the collection.
 old-location: dtf\iwdtftargets2_query.htm
 old-project: dtf
 ms.assetid: 0f3537f0-903d-405a-bbe4-5cfbe7817ea1
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], Query method, IWDTFTargets2::Query, Microsoft.WDTF.IWDTFTargets2.Query, Microsoft::WDTF::IWDTFTargets2::Query, Query method [Windows Device Testing Framework], Query method [Windows Device Testing Framework], IWDTFTargets2 interface, Query,IWDTFTargets2.Query, dtf.iwdtftargets2_query, wdtf/IWDTFTargets2::Query
+ms.date: 4/4/2018
+ms.keywords: IWDTFTargets2 interface [Windows Device Testing Framework],Query method, IWDTFTargets2.Query, IWDTFTargets2::Query, Microsoft.WDTF.IWDTFTargets2.Query, Microsoft::WDTF::IWDTFTargets2::Query, Query, Query method [Windows Device Testing Framework], Query method [Windows Device Testing Framework],IWDTFTargets2 interface, dtf.iwdtftargets2_query, wdtf/IWDTFTargets2::Query
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TTraceLevel
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDTFTargets2::Query method
+# IWDTFTargets2::Query
 
 
 ## -description

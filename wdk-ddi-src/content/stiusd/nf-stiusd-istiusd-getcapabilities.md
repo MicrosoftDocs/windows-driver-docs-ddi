@@ -1,14 +1,14 @@
 ---
 UID: NF:stiusd.IStiUSD.GetCapabilities
-title: IStiUSD::GetCapabilities method
+title: IStiUSD::GetCapabilities
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::GetCapabilities method returns a still image device's capabilities.
 old-location: image\istiusd_getcapabilities.htm
 old-project: image
 ms.assetid: baec1e38-360e-4f4f-82bd-bc89e3f8483d
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
-ms.keywords: GetCapabilities method [Imaging Devices], GetCapabilities method [Imaging Devices], IStiUSD interface, GetCapabilities,IStiUSD.GetCapabilities, IStiUSD, IStiUSD interface [Imaging Devices], GetCapabilities method, IStiUSD::GetCapabilities, image.istiusd_getcapabilities, stifnc_e0343c50-7695-417f-9742-1acd66f2791f.xml, stiusd/IStiUSD::GetCapabilities
+ms.date: 4/23/2018
+ms.keywords: GetCapabilities, GetCapabilities method [Imaging Devices], GetCapabilities method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetCapabilities method, IStiUSD.GetCapabilities, IStiUSD::GetCapabilities, image.istiusd_getcapabilities, stifnc_e0343c50-7695-417f-9742-1acd66f2791f.xml, stiusd/IStiUSD::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IStiUSD::GetCapabilities method
+# IStiUSD::GetCapabilities
 
 
 ## -description

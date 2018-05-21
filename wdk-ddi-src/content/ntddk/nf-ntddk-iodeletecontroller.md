@@ -7,7 +7,7 @@ old-location: kernel\iodeletecontroller.htm
 old-project: kernel
 ms.assetid: bfab32ea-05fd-44c7-b264-221e4e3a7830
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoDeleteController, IoDeleteController routine [Kernel-Mode Driver Architecture], k104_c4d57e2c-d596-4c3d-a912-48792010837e.xml, kernel.iodeletecontroller, ntddk/IoDeleteController
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # IoDeleteController function

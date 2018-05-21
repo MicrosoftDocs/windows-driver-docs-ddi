@@ -7,7 +7,7 @@ old-location: buses\usb_device_descriptor.htm
 old-project: usbref
 ms.assetid: 124184ef-7410-4e04-abb2-e07db4ae2cbf
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: "*PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR structure pointer [Buses], USB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR structure [Buses], _USB_DEVICE_DESCRIPTOR, buses.usb_device_descriptor, usbspec/PUSB_DEVICE_DESCRIPTOR, usbspec/USB_DEVICE_DESCRIPTOR, usbstrct_40e68471-a1e1-4e2e-8bea-77c8f7085589.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: USB_DEVICE_DESCRIPTOR, *PUSB_DEVICE_DESCRIPTOR
-req.product: Windows 10 or later.
 ---
 
 # _USB_DEVICE_DESCRIPTOR structure

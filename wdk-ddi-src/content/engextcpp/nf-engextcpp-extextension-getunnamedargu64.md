@@ -1,14 +1,14 @@
 ---
 UID: NF:engextcpp.ExtExtension.GetUnnamedArgU64
-title: ExtExtension::GetUnnamedArgU64 method
+title: ExtExtension::GetUnnamedArgU64
 author: windows-driver-content
 description: The GetUnnamedArgU64 method returns the value of an unnamed expression argument from the command line used to invoke the current extension command.
 old-location: debugger\getunnamedargu64.htm
 old-project: debugger
 ms.assetid: 43cda226-1c55-4b55-a9c9-819fb1ea9265
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: EngExtCpp_Ref_94c8c0d8-bc72-4357-bcba-f2e8598aabff.xml, ExtExtension, ExtExtension class [Windows Debugging], GetUnnamedArgU64 method, ExtExtension::GetUnnamedArgU64, GetUnnamedArgU64 method [Windows Debugging], GetUnnamedArgU64 method [Windows Debugging], ExtExtension class, GetUnnamedArgU64,ExtExtension.GetUnnamedArgU64, debugger.getunnamedargu64
+ms.date: 4/24/2018
+ms.keywords: EngExtCpp_Ref_94c8c0d8-bc72-4357-bcba-f2e8598aabff.xml, ExtExtension class [Windows Debugging],GetUnnamedArgU64 method, ExtExtension.GetUnnamedArgU64, ExtExtension::GetUnnamedArgU64, GetUnnamedArgU64, GetUnnamedArgU64 method [Windows Debugging], GetUnnamedArgU64 method [Windows Debugging],ExtExtension class, debugger.getunnamedargu64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
+req.typenames: 
 ---
 
-# ExtExtension::GetUnnamedArgU64 method
+# ExtExtension::GetUnnamedArgU64
 
 
 ## -description

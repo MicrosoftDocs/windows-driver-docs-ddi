@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WDF_IO_TARGET_STATE, *PWDF_IO_TARGET_STATE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # WdfIoTargetSendInternalIoctlSynchronously function

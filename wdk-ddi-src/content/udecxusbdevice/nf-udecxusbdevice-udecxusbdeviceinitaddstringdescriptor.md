@@ -7,7 +7,7 @@ old-location: buses\udecxusbdeviceinitaddstringdescriptor.htm
 old-project: usbref
 ms.assetid: 05971A19-4B66-41F6-9043-DA9C81FA92E5
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UdecxUsbDeviceInitAddStringDescriptor, UdecxUsbDeviceInitAddStringDescriptor function [Buses], buses.udecxusbdeviceinitaddstringdescriptor, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UdecxUsbDeviceInitAddStringDescriptor function

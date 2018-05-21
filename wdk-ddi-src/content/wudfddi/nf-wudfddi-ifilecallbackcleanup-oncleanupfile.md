@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IFileCallbackCleanup.OnCleanupFile
-title: IFileCallbackCleanup::OnCleanupFile method
+title: IFileCallbackCleanup::OnCleanupFile
 author: windows-driver-content
 description: The OnCleanupFile method cancels all I/O requests that a driver has pending in the framework queue.
 old-location: wdf\ifilecallbackcleanup_oncleanupfile.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e6dd18f4-725f-4611-ad70-029654cf4375
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: IFileCallbackCleanup, IFileCallbackCleanup interface, OnCleanupFile method, IFileCallbackCleanup::OnCleanupFile, OnCleanupFile method, OnCleanupFile method, IFileCallbackCleanup interface, OnCleanupFile,IFileCallbackCleanup.OnCleanupFile, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, umdf.ifilecallbackcleanup_oncleanupfile, wdf.ifilecallbackcleanup_oncleanupfile, wudfddi/IFileCallbackCleanup::OnCleanupFile
+ms.keywords: IFileCallbackCleanup interface,OnCleanupFile method, IFileCallbackCleanup.OnCleanupFile, IFileCallbackCleanup::OnCleanupFile, OnCleanupFile, OnCleanupFile method, OnCleanupFile method,IFileCallbackCleanup interface, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, umdf.ifilecallbackcleanup_oncleanupfile, wdf.ifilecallbackcleanup_oncleanupfile, wudfddi/IFileCallbackCleanup::OnCleanupFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IFileCallbackCleanup::OnCleanupFile method
+# IFileCallbackCleanup::OnCleanupFile
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: ifsk\mrxstart.htm
 old-project: ifsk
 ms.assetid: b5985fc4-dd1a-455d-b2ad-3dc2dfec2e6e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MRxStart, MRxStart routine [Installable File System Drivers], PMRX_CALLDOWN_CTX, ifsk.mrxstart, mrx/MRxStart, mrxref_e76b85d0-b290-4206-a16c-5d5ed9a5cfff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SetDSMCounters_IN, *PSetDSMCounters_IN
+req.typenames: 
 ---
 
-# PMRX_CALLDOWN_CTX callback
+# PMRX_CALLDOWN_CTX callback function
 
 
 ## -description

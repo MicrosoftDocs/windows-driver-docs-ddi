@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFIoRequest.GetWriteParameters
-title: IWDFIoRequest::GetWriteParameters method
+title: IWDFIoRequest::GetWriteParameters
 author: windows-driver-content
 description: The GetWriteParameters method retrieves the request parameters for a write-type request.
 old-location: wdf\iwdfiorequest_getwriteparameters.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0627b278-2fd5-4185-8ec9-8b306c6d85a8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetWriteParameters method, GetWriteParameters method, IWDFIoRequest interface, GetWriteParameters,IWDFIoRequest.GetWriteParameters, IWDFIoRequest, IWDFIoRequest interface, GetWriteParameters method, IWDFIoRequest::GetWriteParameters, UMDFRequestObjectRef_1aa8b098-4652-435b-beb7-5b7be69fd5d0.xml, umdf.iwdfiorequest_getwriteparameters, wdf.iwdfiorequest_getwriteparameters, wudfddi/IWDFIoRequest::GetWriteParameters
+ms.keywords: GetWriteParameters, GetWriteParameters method, GetWriteParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetWriteParameters method, IWDFIoRequest.GetWriteParameters, IWDFIoRequest::GetWriteParameters, UMDFRequestObjectRef_1aa8b098-4652-435b-beb7-5b7be69fd5d0.xml, umdf.iwdfiorequest_getwriteparameters, wdf.iwdfiorequest_getwriteparameters, wudfddi/IWDFIoRequest::GetWriteParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFIoRequest::GetWriteParameters method
+# IWDFIoRequest::GetWriteParameters
 
 
 ## -description

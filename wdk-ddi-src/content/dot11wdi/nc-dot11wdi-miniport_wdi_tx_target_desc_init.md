@@ -7,8 +7,8 @@ old-location: netvista\miniportwditxtargetdescinit.htm
 old-project: netvista
 ms.assetid: EAFE6F7D-6820-4626-863D-C28FBFFCE6A0
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: MINIPORT_WDI_TX_TARGET_DESC_INIT, MiniportWdiTxTargetDescInit, MiniportWdiTxTargetDescInit callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTargetDescInit, netvista.miniportwditxtargetdescinit
+ms.date: 4/25/2018
+ms.keywords: MINIPORT_WDI_TX_TARGET_DESC_INIT, MINIPORT_WDI_TX_TARGET_DESC_INIT callback, MiniportWdiTxTargetDescInit, MiniportWdiTxTargetDescInit callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTargetDescInit, netvista.miniportwditxtargetdescinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYNTH_STATS, *PSYNTH_STATS
+req.typenames: 
 ---
 
-# MINIPORT_WDI_TX_TARGET_DESC_INIT callback
+# MINIPORT_WDI_TX_TARGET_DESC_INIT callback function
 
 
 ## -description

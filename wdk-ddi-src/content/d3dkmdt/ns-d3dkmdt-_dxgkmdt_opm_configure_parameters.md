@@ -7,7 +7,7 @@ old-location: display\dxgkmdt_opm_configure_parameters.htm
 old-project: display
 ms.assetid: 7f9a4770-c30d-41ae-bd46-dce106b1811d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PDXGKMDT_OPM_CONFIGURE_PARAMETERS, DXGKMDT_OPM_CONFIGURE_PARAMETERS, DXGKMDT_OPM_CONFIGURE_PARAMETERS structure [Display Devices], DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING, DXGKMDT_OPM_SET_HDCP_SRM, DXGKMDT_OPM_SET_PROTECTION_LEVEL or DXGKMDT_OPM_SET_PROTECTION_LEVEL_ACCORDING_TO_CSS_DVD, DmStructs_98db66f6-39e1-4e08-83c5-ead1c527302f.xml, PDXGKMDT_OPM_CONFIGURE_PARAMETERS, PDXGKMDT_OPM_CONFIGURE_PARAMETERS structure pointer [Display Devices], _DXGKMDT_OPM_CONFIGURE_PARAMETERS, d3dkmdt/DXGKMDT_OPM_CONFIGURE_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_CONFIGURE_PARAMETERS, display.dxgkmdt_opm_configure_parameters"
 ms.prod: windows-hardware
 ms.technology: windows-devices

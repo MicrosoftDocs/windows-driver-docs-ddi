@@ -7,7 +7,7 @@ old-location: netvista\ril_getuiccservicestate.htm
 old-project: netvista
 ms.assetid: 8ce53e64-791d-4e52-a383-b9e407b5b332
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: RIL_GetUiccServiceState, RIL_GetUiccServiceState method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccservicestate, rilapi/RIL_GetUiccServiceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RIL_GetUiccServiceState function

@@ -7,7 +7,7 @@ old-location: netvista\vmbclientchannelinitsetringbufferpagecount.htm
 old-project: netvista
 ms.assetid: 560A7CD9-5D9D-434B-ACEE-5852CC9A2CC3
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbClientChannelInitSetRingBufferPageCount, VmbClientChannelInitSetRingBufferPageCount function [Network Drivers Starting with Windows Vista], netvista.vmbclientchannelinitsetringbufferpagecount, vmbuskernelmodeclientlibapi/VmbClientChannelInitSetRingBufferPageCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbClientChannelInitSetRingBufferPageCount function

@@ -7,7 +7,7 @@ old-location: ifsk\ccsetadditionalcacheattributesex.htm
 old-project: ifsk
 ms.assetid: 187719CD-5F0C-4AFD-BC00-ECD3C29A118F
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: CcSetAdditionalCacheAttributesEx, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers], ifsk.ccsetadditionalcacheattributesex, ntifs/CcSetAdditionalCacheAttributesEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # CcSetAdditionalCacheAttributesEx function

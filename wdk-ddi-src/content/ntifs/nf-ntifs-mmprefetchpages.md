@@ -7,7 +7,7 @@ old-location: ifsk\mmprefetchpages.htm
 old-project: ifsk
 ms.assetid: fd76dfed-2c47-4289-a672-1db8129f5a9e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: MmPrefetchPages, MmPrefetchPages routine [Installable File System Drivers], ifsk.mmprefetchpages, mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml, ntifs/MmPrefetchPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # MmPrefetchPages function

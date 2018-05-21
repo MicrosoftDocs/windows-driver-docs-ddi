@@ -1,14 +1,14 @@
 ---
 UID: NF:sensorsclassextension.ISensorDriver.OnClientSubscribeToEvents
-title: ISensorDriver::OnClientSubscribeToEvents method
+title: ISensorDriver::OnClientSubscribeToEvents
 author: windows-driver-content
 description: The ISensorDriver::OnClientSubscribeToEvents method notifies the sensor driver that an authorized client application is requesting event notifications.
 old-location: sensors\isensordriver_onclientsubscribetoevents.htm
 old-project: sensors
 ms.assetid: b0528932-d7a8-46d7-bd94-6fd729a9d7f2
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: ISensorDriver, ISensorDriver::OnClientSubscribeToEvents, OnClientSubscribeToEvents method [Sensor Devices], OnClientSubscribeToEvents,ISensorDriver.OnClientSubscribeToEvents, sensors.isensordriver_onclientsubscribetoevents
+ms.date: 4/30/2018
+ms.keywords: ISensorDriver interface [Sensor Devices],OnClientSubscribeToEvents method, ISensorDriver.OnClientSubscribeToEvents, ISensorDriver::OnClientSubscribeToEvents, OnClientSubscribeToEvents, OnClientSubscribeToEvents method [Sensor Devices], OnClientSubscribeToEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientsubscribetoevents, sensorsclassextension/ISensorDriver::OnClientSubscribeToEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# ISensorDriver::OnClientSubscribeToEvents method
+# ISensorDriver::OnClientSubscribeToEvents
 
 
 ## -description
@@ -92,4 +91,15 @@ Platform-defined events are defined in sensors.h.
 For more information about how to use this method, see <a href="https://msdn.microsoft.com/1895EC5C-08C1-4976-83F2-CD5A2B55338D">Filtering data</a>.
 
 
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+ 
+
+ 
 

@@ -7,7 +7,7 @@ old-location: ifsk\rtlinitializesplaylinks.htm
 old-project: ifsk
 ms.assetid: 34818dc0-d241-4f5f-a202-08200fbc23a3
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlInitializeSplayLinks, RtlInitializeSplayLinks routine [Installable File System Drivers], ifsk.rtlinitializesplaylinks, ntddk/RtlInitializeSplayLinks, rtlref_20e818cf-6afb-4699-b760-bbd7964b576c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
+req.typenames: 
 ---
 
 # RtlInitializeSplayLinks function

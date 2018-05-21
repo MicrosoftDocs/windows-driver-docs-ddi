@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsPin.KsDeliver
-title: IKsPin::KsDeliver method
+title: IKsPin::KsDeliver
 author: windows-driver-content
 description: The KsDeliver method delivers a media sample from an output pin to an input pin, continues an I/O operation by retrieving the next buffer from an allocator, and submits the buffer to the associated device.
 old-location: stream\ikspin_ksdeliver.htm
 old-project: stream
 ms.assetid: e527a659-7ed5-4262-bed2-3bab58919401
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], KsDeliver method, IKsPin::KsDeliver, KsDeliver method [Streaming Media Devices], KsDeliver method [Streaming Media Devices], IKsPin interface, KsDeliver,IKsPin.KsDeliver, ksproxy/IKsPin::KsDeliver, ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml, stream.ikspin_ksdeliver
+ms.date: 4/23/2018
+ms.keywords: IKsPin interface [Streaming Media Devices],KsDeliver method, IKsPin.KsDeliver, IKsPin::KsDeliver, KsDeliver, KsDeliver method [Streaming Media Devices], KsDeliver method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsDeliver, ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml, stream.ikspin_ksdeliver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsPin::KsDeliver method
+# IKsPin::KsDeliver
 
 
 ## -description

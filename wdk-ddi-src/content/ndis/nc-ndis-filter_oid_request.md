@@ -7,8 +7,8 @@ old-location: netvista\filteroidrequest.htm
 old-project: netvista
 ms.assetid: 238bfa21-a971-4fe4-a774-6ba834efc3c5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: FILTER_OID_REQUEST, FilterOidRequest, FilterOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterOidRequest, ndis_request_ref_51917752-44c8-4065-a26c-fc466de932bf.xml, netvista.filteroidrequest
+ms.date: 4/25/2018
+ms.keywords: FILTER_OID_REQUEST, FILTER_OID_REQUEST callback, FilterOidRequest, FilterOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterOidRequest, ndis_request_ref_51917752-44c8-4065-a26c-fc466de932bf.xml, netvista.filteroidrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: 
 ---
 
-# FILTER_OID_REQUEST callback
+# FILTER_OID_REQUEST callback function
 
 
 ## -description

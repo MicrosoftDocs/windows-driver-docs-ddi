@@ -1,14 +1,14 @@
 ---
 UID: NF:extsfns.IDebugFailureAnalysis2.AddUlong
-title: IDebugFailureAnalysis2::AddUlong method
+title: IDebugFailureAnalysis2::AddUlong
 author: windows-driver-content
 description: The AddUlong method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified ULONG value.
 old-location: debugger\idebugfailureanalysis2_addulong.htm
 old-project: debugger
 ms.assetid: 22F56E3F-9ED4-464D-B97C-1B322E1F8D66
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: AddUlong method [Windows Debugging], AddUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, AddUlong,IDebugFailureAnalysis2.AddUlong, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddUlong method, IDebugFailureAnalysis2::AddUlong, debugger.idebugfailureanalysis2_addulong, extsfns/IDebugFailureAnalysis2::AddUlong
+ms.date: 4/24/2018
+ms.keywords: AddUlong, AddUlong method [Windows Debugging], AddUlong method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddUlong method, IDebugFailureAnalysis2.AddUlong, IDebugFailureAnalysis2::AddUlong, debugger.idebugfailureanalysis2_addulong, extsfns/IDebugFailureAnalysis2::AddUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FA_EXTENSION_PLUGIN_PHASE
+req.typenames: 
 ---
 
-# IDebugFailureAnalysis2::AddUlong method
+# IDebugFailureAnalysis2::AddUlong
 
 
 ## -description

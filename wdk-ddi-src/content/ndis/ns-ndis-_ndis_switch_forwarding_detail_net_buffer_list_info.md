@@ -7,7 +7,7 @@ old-location: netvista\ndis_switch_forwarding_detail_net_buffer_list_info.htm
 old-project: netvista
 ms.assetid: 6377CC08-A261-465A-AA04-0BE31EEACF01
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO union pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, ndis/NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, ndis/PNDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO, netvista.ndis_switch_forwarding_detail_net_buffer_list_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -70,14 +70,24 @@ The complete 64-bit <b>NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</b> va
 
 
 
-#### - IsPacketDataSafe
+### -field NumAvailableDestinations
 
-If this member is set to <b>TRUE</b>, all of the packet data comes from trusted
-    host memory. 
-
+A value that specifies the number of unused extensible switch destination ports elements within an <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. For more information, see the Remarks section.
 
 
-#### - NativeForwardingRequired
+### -field SourcePortId
+
+The identifier of the source extensible switch port from which the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> originated. 
+
+
+### -field SourceNicIndex
+
+A UINT32 value that specifies the index of the source network adapter that is connected to the extensible switch port specified by the <b>SourcePortId</b> member.
+
+For more information on this index value, see <a href="https://msdn.microsoft.com/969333DA-0282-474B-8D56-72CD623C5329">Network Adapter Index Values</a>.
+
+
+### -field NativeForwardingRequired
 
 If this member is set to <b>TRUE</b>, packet is an NVGRE packet, and the Hyper-V Network Virtualization (HNV) component of the Hyper-V extensible switch will forward this packet. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/hybrid-forwarding">Hybrid Forwarding</a>.
 
@@ -86,24 +96,21 @@ This flag must not be written to by any extension.<div class="alert"><b>Note</b>
 
 
 
-#### - NumAvailableDestinations
-
-A value that specifies the number of unused extensible switch destination ports elements within an <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. For more information, see the Remarks section.
-
-
-#### - Reserved1
+### -field Reserved1
 
 This member is reserved for future use by NDIS.
 
 This member is reserved for future use by NDIS.
 
 
-#### - Reserved2
+### -field IsPacketDataSafe
 
-This member is reserved for future use by NDIS.
+If this member is set to <b>TRUE</b>, all of the packet data comes from trusted
+    host memory. 
 
 
-#### - SafePacketDataSize
+
+### -field SafePacketDataSize
 
 A value that specifies the number of consecutive bytes in the packet data that is located in  trusted host memory. This value is in units of bytes from the start of the packet data. The rest of the packet data (if any) after the <b>SafePacketDataSize</b> value is located in untrusted
     shared memory that is accessed by the Hyper-V child and parent partitions.
@@ -114,16 +121,9 @@ For more information, see the Remarks section.
 <div class="alert"><b>Note</b>  This member is valid only if the <b>IsPacketDataSafe</b> member is set to <b>FALSE</b>.</div>
 <div> </div>
 
-#### - SourceNicIndex
+### -field Reserved2
 
-A UINT32 value that specifies the index of the source network adapter that is connected to the extensible switch port specified by the <b>SourcePortId</b> member.
-
-For more information on this index value, see <a href="https://msdn.microsoft.com/969333DA-0282-474B-8D56-72CD623C5329">Network Adapter Index Values</a>.
-
-
-#### - SourcePortId
-
-The identifier of the source extensible switch port from which the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> originated. 
+This member is reserved for future use by NDIS.
 
 
 ## -remarks

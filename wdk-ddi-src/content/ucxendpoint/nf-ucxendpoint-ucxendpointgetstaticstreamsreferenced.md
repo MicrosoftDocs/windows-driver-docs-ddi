@@ -7,7 +7,7 @@ old-location: buses\_ucxendpointgetstaticstreamsreferenced.htm
 old-project: usbref
 ms.assetid: A9AB43A9-1409-4AA4-99DE-66D558F2303C
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced method [Buses], buses._ucxendpointgetstaticstreamsreferenced, ucxendpoint/UcxEndpointGetStaticStreamsReferenced
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UCX_ENDPOINT_CHARACTERISTIC_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UcxEndpointGetStaticStreamsReferenced function

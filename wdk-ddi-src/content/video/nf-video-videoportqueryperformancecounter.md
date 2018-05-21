@@ -7,7 +7,7 @@ old-location: display\videoportqueryperformancecounter.htm
 old-project: display
 ms.assetid: 44e9fca2-54b1-427c-864d-f170a8a26f5e
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: VideoPortQueryPerformanceCounter, VideoPortQueryPerformanceCounter function [Display Devices], VideoPort_Functions_cd442a17-45fb-493b-b725-8bfbd12ed398.xml, display.videoportqueryperformancecounter, video/VideoPortQueryPerformanceCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VideoPortQueryPerformanceCounter function

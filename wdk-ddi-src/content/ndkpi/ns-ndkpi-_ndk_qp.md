@@ -7,7 +7,7 @@ old-location: netvista\ndk_qp.htm
 old-project: netvista
 ms.assetid: 43491796-35CA-4E0C-90EF-7148651C68A6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NDK_QP, NDK_QP structure [Network Drivers Starting with Windows Vista], _NDK_QP, ndkpi/NDK_QP, netvista.ndk_qp
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDK_QP, NDK_QP
+req.typenames: NDK_QP
 ---
 
 # _NDK_QP structure

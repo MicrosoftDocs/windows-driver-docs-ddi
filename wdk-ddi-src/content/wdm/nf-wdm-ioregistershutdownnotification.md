@@ -7,7 +7,7 @@ old-location: kernel\ioregistershutdownnotification.htm
 old-project: kernel
 ms.assetid: fd9a612b-b0a7-4bef-9fab-8212a3b594b6
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: IoRegisterShutdownNotification, IoRegisterShutdownNotification routine [Kernel-Mode Driver Architecture], k104_dd357e39-68b4-4cc2-b7c7-34f16c74a4a0.xml, kernel.ioregistershutdownnotification, wdm/IoRegisterShutdownNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # IoRegisterShutdownNotification function

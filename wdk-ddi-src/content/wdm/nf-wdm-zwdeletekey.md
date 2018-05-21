@@ -7,7 +7,7 @@ old-location: kernel\zwdeletekey.htm
 old-project: kernel
 ms.assetid: 16bde6b6-6e05-4a4d-a0c3-79bb811305d1
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: NtDeleteKey, ZwDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, kernel.zwdeletekey, wdm/NtDeleteKey, wdm/ZwDeleteKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # ZwDeleteKey function

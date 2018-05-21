@@ -1,14 +1,14 @@
 ---
 UID: NF:printerextension.IPrintSchemaParameterDefinition.get_DataType
-title: IPrintSchemaParameterDefinition::get_DataType method
+title: IPrintSchemaParameterDefinition::get_DataType
 author: windows-driver-content
 description: The DataType property gets the PrintSchemaParameterDataType enumerated value that indicates the expected data type for the Print Schema parameter.
 old-location: print\_iprintschemaparameterdefinition_datatype.htm
 old-project: print
 ms.assetid: 82CC79A8-0281-4100-B3FB-1FFFB2454B8D
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
-ms.keywords: DataType property [Print Devices], DataType property [Print Devices], IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], DataType property, IPrintSchemaParameterDefinition.DataType, IPrintSchemaParameterDefinition::get_DataType, get_DataType, get_DataType,IPrintSchemaParameterDefinition.get_DataType, print._iprintschemaparameterdefinition_datatype, printerextension/IPrintSchemaParameterDefinition::DataType, printerextension/IPrintSchemaParameterDefinition::get_DataType
+ms.date: 4/20/2018
+ms.keywords: DataType property [Print Devices], DataType property [Print Devices],IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition interface [Print Devices],DataType property, IPrintSchemaParameterDefinition.DataType, IPrintSchemaParameterDefinition.get_DataType, IPrintSchemaParameterDefinition::DataType, IPrintSchemaParameterDefinition::get_DataType, get_DataType, print._iprintschemaparameterdefinition_datatype, printerextension/IPrintSchemaParameterDefinition::DataType, printerextension/IPrintSchemaParameterDefinition::get_DataType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,11 +42,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IPrintSchemaParameterDefinition::get_DataType method
+# IPrintSchemaParameterDefinition::get_DataType
 
 
 ## -description

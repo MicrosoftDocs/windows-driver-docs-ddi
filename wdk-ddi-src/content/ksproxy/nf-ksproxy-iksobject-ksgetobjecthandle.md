@@ -1,14 +1,14 @@
 ---
 UID: NF:ksproxy.IKsObject.KsGetObjectHandle
-title: IKsObject::KsGetObjectHandle method
+title: IKsObject::KsGetObjectHandle
 author: windows-driver-content
 description: The KsGetObjectHandle method retrieves a file handle to a KS object.
 old-location: stream\iksobject_ksgetobjecthandle.htm
 old-project: stream
 ms.assetid: 55c4f362-eb3c-4c4f-a048-7abdd270f67f
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
-ms.keywords: IKsObject, IKsObject interface [Streaming Media Devices], KsGetObjectHandle method, IKsObject::KsGetObjectHandle, KsGetObjectHandle method [Streaming Media Devices], KsGetObjectHandle method [Streaming Media Devices], IKsObject interface, KsGetObjectHandle,IKsObject.KsGetObjectHandle, ksproxy/IKsObject::KsGetObjectHandle, ksproxy_37998df5-a529-4f73-95a3-88ff3fdfcf2a.xml, stream.iksobject_ksgetobjecthandle
+ms.date: 4/23/2018
+ms.keywords: IKsObject interface [Streaming Media Devices],KsGetObjectHandle method, IKsObject.KsGetObjectHandle, IKsObject::KsGetObjectHandle, KsGetObjectHandle, KsGetObjectHandle method [Streaming Media Devices], KsGetObjectHandle method [Streaming Media Devices],IKsObject interface, ksproxy/IKsObject::KsGetObjectHandle, ksproxy_37998df5-a529-4f73-95a3-88ff3fdfcf2a.xml, stream.iksobject_ksgetobjecthandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PIPE_STATE
+req.typenames: 
 ---
 
-# IKsObject::KsGetObjectHandle method
+# IKsObject::KsGetObjectHandle
 
 
 ## -description

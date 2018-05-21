@@ -7,8 +7,8 @@ old-location: sensors\evt_sensor_driver_start_state_change_notification.htm
 old-project: sensors
 ms.assetid: 93C2ABCE-15C9-4EE4-A9B5-A81788DB608C
 ms.author: windowsdriverdev
-ms.date: 2/22/2018
-ms.keywords: EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION, EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function [Sensor Devices], sensors.evt_sensor_driver_start_state_change_notification, sensorscx/EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
+ms.date: 4/30/2018
+ms.keywords: EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION, EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback, EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function [Sensor Devices], sensors.evt_sensor_driver_start_state_change_notification, sensorscx/EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SensorConnectionType
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback
+# EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function
 
 
 ## -description

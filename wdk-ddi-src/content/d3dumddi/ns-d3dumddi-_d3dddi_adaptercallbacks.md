@@ -7,7 +7,7 @@ old-location: display\d3dddi_adaptercallbacks.htm
 old-project: display
 ms.assetid: b912449b-45d1-473d-aa14-b3f3ffbfefff
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_ADAPTERCALLBACKS, D3DDDI_ADAPTERCALLBACKS structure [Display Devices], D3D_other_Structs_6919397d-68ab-4ada-9f39-bf08bc0ac9ae.xml, _D3DDDI_ADAPTERCALLBACKS, d3dumddi/D3DDDI_ADAPTERCALLBACKS, display.d3dddi_adaptercallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -16,19 +16,19 @@ req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -67,6 +67,7 @@ A pointer to the <a href="https://msdn.microsoft.com/8008574f-a89e-4fed-b745-7cf
 
 A pointer to the <a href="https://msdn.microsoft.com/2e3f9ee9-83a0-4b81-a22b-594e5bd4d046">pfnGetMultisampleMethodListCb</a> function, which the user-mode display driver uses to retrieve the list of multiple-sampling methods that are used for an allocation.
 
+### -field pfnQueryAdapterInfoCb2
 
 ## -remarks
 

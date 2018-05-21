@@ -7,7 +7,7 @@ old-location: print\attribute_info_2.htm
 old-project: print
 ms.assetid: c5bb9943-ee5b-4128-9e5f-438971119e3a
 ms.author: windowsdriverdev
-ms.date: 2/26/2018
+ms.date: 4/20/2018
 ms.keywords: "*PATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2, ATTRIBUTE_INFO_2 structure [Print Devices], PATTRIBUTE_INFO_2, PATTRIBUTE_INFO_2 structure pointer [Print Devices], _ATTRIBUTE_INFO_2, print.attribute_info_2, print_interface-graphics_681158ae-a9ad-40f6-a3de-c82cda7156e0.xml, winddiui/ATTRIBUTE_INFO_2, winddiui/PATTRIBUTE_INFO_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: ATTRIBUTE_INFO_2, *PATTRIBUTE_INFO_2
-req.product: Windows 10 or later.
 ---
 
 # _ATTRIBUTE_INFO_2 structure

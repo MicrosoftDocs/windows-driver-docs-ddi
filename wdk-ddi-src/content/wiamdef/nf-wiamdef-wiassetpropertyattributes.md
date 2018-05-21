@@ -7,7 +7,7 @@ old-location: image\wiassetpropertyattributes.htm
 old-project: image
 ms.assetid: 210e69e7-b3b8-43b5-a0d3-f023c7256438
 ms.author: windowsdriverdev
-ms.date: 2/27/2018
+ms.date: 4/23/2018
 ms.keywords: image.wiassetpropertyattributes, wiamdef/wiasSetPropertyAttributes, wiasFncs_630b9e1f-49f8-433e-b0f0-19e7e6c32460.xml, wiasSetPropertyAttributes, wiasSetPropertyAttributes function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # wiasSetPropertyAttributes function

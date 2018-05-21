@@ -7,8 +7,8 @@ old-location: hid\ioctl_internal_i8042_mouse_start_information.htm
 old-project: hid
 ms.assetid: aa7d5802-d1d0-4c7c-bf55-0f0b5b664113
 ms.author: windowsdriverdev
-ms.date: 2/24/2018
-ms.keywords: IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION, IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION control code [Human Input Devices], hid.ioctl_internal_i8042_mouse_start_information, i8042ref_c4c81870-f104-4979-86e3-03bd376e34ce.xml, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION
+ms.date: 4/30/2018
+ms.keywords: IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION, IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION control, IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION control code [Human Input Devices], hid.ioctl_internal_i8042_mouse_start_information, i8042ref_c4c81870-f104-4979-86e3-03bd376e34ce.xml, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: MOUSE_STATE, *PMOUSE_STATE
+req.typenames: 
 ---
 
 # IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION IOCTL

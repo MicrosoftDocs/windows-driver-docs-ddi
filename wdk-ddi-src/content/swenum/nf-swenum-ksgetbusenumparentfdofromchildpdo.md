@@ -7,7 +7,7 @@ old-location: stream\ksgetbusenumparentfdofromchildpdo.htm
 old-project: stream
 ms.assetid: 5d860c5c-e29e-4ea2-b6f7-bcaab0d4584d
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsGetBusEnumParentFDOFromChildPDO, KsGetBusEnumParentFDOFromChildPDO function [Streaming Media Devices], ksfunc_592bfe23-7135-4118-9acf-6783691c55ea.xml, stream.ksgetbusenumparentfdofromchildpdo, swenum/KsGetBusEnumParentFDOFromChildPDO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # KsGetBusEnumParentFDOFromChildPDO function

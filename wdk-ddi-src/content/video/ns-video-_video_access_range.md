@@ -7,7 +7,7 @@ old-location: display\video_access_range.htm
 old-project: display
 ms.assetid: 200c957d-2ba4-488b-afd7-609c13543a7a
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: "*PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE, PVIDEO_ACCESS_RANGE structure pointer [Display Devices], VIDEO_ACCESS_RANGE, VIDEO_ACCESS_RANGE structure [Display Devices], Video_Structs_b5c6bb55-a4a4-41be-879c-de6f71abe988.xml, _VIDEO_ACCESS_RANGE, display.video_access_range, video/PVIDEO_ACCESS_RANGE, video/VIDEO_ACCESS_RANGE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: VIDEO_ACCESS_RANGE, *PVIDEO_ACCESS_RANGE
-req.product: Windows 10 or later.
 ---
 
 # _VIDEO_ACCESS_RANGE structure

@@ -7,7 +7,7 @@ old-location: kernel\rtlstringcchcopyex.htm
 old-project: kernel
 ms.assetid: c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: RtlStringCchCopyEx, RtlStringCchCopyExA, RtlStringCchCopyExW, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopyex, ntstrsafe/RtlStringCchCopyExA, ntstrsafe/RtlStringCchCopyExW, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -44,7 +44,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
+req.typenames: 
 ---
 
 # RtlStringCchCopyExW function

@@ -7,7 +7,7 @@ old-location: stream\avstrminidevicequerypower.htm
 old-project: stream
 ms.assetid: db839cde-cb3e-47f2-9a06-54e37ac7ac67
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: AVStrMiniDeviceQueryPower, AVStrMiniDeviceQueryPower routine [Streaming Media Devices], PFNKSDEVICEQUERYPOWER, avstclbk_47f0fecd-9906-4582-9f1d-bb80a469ffa6.xml, ks/AVStrMiniDeviceQueryPower, stream.avstrminidevicequerypower
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSDEVICEQUERYPOWER callback
+# PFNKSDEVICEQUERYPOWER callback function
 
 
 ## -description

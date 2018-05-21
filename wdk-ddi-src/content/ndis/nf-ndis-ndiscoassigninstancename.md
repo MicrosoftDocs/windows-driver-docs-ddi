@@ -7,7 +7,7 @@ old-location: netvista\ndiscoassigninstancename.htm
 old-project: netvista
 ms.assetid: 78a1808e-d244-4f23-bba1-c48a7b2e051b
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisCoAssignInstanceName, NdisCoAssignInstanceName function [Network Drivers Starting with Windows Vista], condis_protocol_ref_48515a9c-790b-4122-8a29-2a35cf560af9.xml, ndis/NdisCoAssignInstanceName, netvista.ndiscoassigninstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisCoAssignInstanceName function

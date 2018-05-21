@@ -7,7 +7,7 @@ old-location: netvista\fwpscopystreamdatatobuffer0.htm
 old-project: netvista
 ms.assetid: 758733a4-9657-48a4-bbcc-f266c72c1d6a
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FwpsCopyStreamDataToBuffer0, FwpsCopyStreamDataToBuffer0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCopyStreamDataToBuffer0, netvista.fwpscopystreamdatatobuffer0, wfp_ref_2_funct_3_fwps_C_dc46f99c-31e7-4e45-8f0b-fc3d0a96989e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: FWPS_VSWITCH_EVENT_TYPE
+req.typenames: 
 ---
 
 # FwpsCopyStreamDataToBuffer0 function

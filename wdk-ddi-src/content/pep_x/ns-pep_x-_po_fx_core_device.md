@@ -7,7 +7,7 @@ old-location: kernel\po_fx_core_device.htm
 old-project: kernel
 ms.assetid: 46C16795-412B-48E7-A7E8-E474CEC51849
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE structure [Kernel-Mode Driver Architecture], PPO_FX_CORE_DEVICE, PPO_FX_CORE_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_CORE_DEVICE, kernel.po_fx_core_device, pepfx/PO_FX_CORE_DEVICE, pepfx/PPO_FX_CORE_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
+req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 ---
 
 # _PO_FX_CORE_DEVICE structure

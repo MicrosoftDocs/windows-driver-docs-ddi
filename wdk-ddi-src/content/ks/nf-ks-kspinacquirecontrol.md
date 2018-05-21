@@ -7,7 +7,7 @@ old-location: stream\kspinacquirecontrol.htm
 old-project: stream
 ms.assetid: 05ff1829-8305-4bc4-be22-233d391a5dc0
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KsPinAcquireControl, KsPinAcquireControl function [Streaming Media Devices], avfunc_fd5d1466-6403-42cf-aab7-d044014c4abf.xml, ks/KsPinAcquireControl, stream.kspinacquirecontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices

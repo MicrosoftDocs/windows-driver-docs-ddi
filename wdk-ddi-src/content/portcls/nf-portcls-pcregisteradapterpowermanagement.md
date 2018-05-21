@@ -7,7 +7,7 @@ old-location: audio\pcregisteradapterpowermanagement.htm
 old-project: audio
 ms.assetid: a9e2537d-4d67-4495-b391-55f885b7041a
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.date: 4/16/2018
 ms.keywords: PcRegisterAdapterPowerManagement, PcRegisterAdapterPowerManagement function [Audio Devices], audio.pcregisteradapterpowermanagement, audpc-routines_524bed01-a6ba-492c-9e18-7495de15be46.xml, portcls/PcRegisterAdapterPowerManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # PcRegisterAdapterPowerManagement function

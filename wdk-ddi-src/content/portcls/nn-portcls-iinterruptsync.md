@@ -7,8 +7,8 @@ old-location: audio\iinterruptsync.htm
 old-project: audio
 ms.assetid: fffdee8e-6298-45b9-94ee-23426598fbee
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: IInterruptSync, IInterruptSync interface [Audio Devices], IInterruptSync interface [Audio Devices], described, audio.iinterruptsync, audmp-routines_5b5b2127-b0d5-48de-9840-2cdffa0bea6a.xml, portcls/IInterruptSync
+ms.date: 4/16/2018
+ms.keywords: IInterruptSync, IInterruptSync interface [Audio Devices], IInterruptSync interface [Audio Devices],described, audio.iinterruptsync, audmp-routines_5b5b2127-b0d5-48de-9840-2cdffa0bea6a.xml, portcls/IInterruptSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
@@ -26,9 +26,9 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: Portcls.lib
+req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
 # IInterruptSync interface

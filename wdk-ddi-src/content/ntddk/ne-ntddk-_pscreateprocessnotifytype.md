@@ -7,7 +7,7 @@ old-location: kernel\pscreateprocessnotifytype.htm
 old-project: kernel
 ms.assetid: 5DD02CF1-50E8-45F2-9035-E0AA48F1470C
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: PSCREATEPROCESSNOTIFYTYPE, PSCREATEPROCESSNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateProcessNotifySubsystems, _PSCREATEPROCESSNOTIFYTYPE, kernel.pscreateprocessnotifytype, ntddk/PSCREATEPROCESSNOTIFYTYPE, ntddk/PsCreateProcessNotifySubsystems
 ms.prod: windows-hardware
 ms.technology: windows-devices

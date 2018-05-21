@@ -7,8 +7,8 @@ old-location: display\writedataline.htm
 old-project: display
 ms.assetid: 3f860619-a479-4291-b3f3-ea4d309beee7
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: PVIDEO_WRITE_DATA_LINE, VideoMiniport_Functions_35effeac-fbe1-44b9-905f-111460800d86.xml, WriteDataLine, WriteDataLine callback function [Display Devices], display.writedataline, video/WriteDataLine
+ms.date: 4/16/2018
+ms.keywords: PVIDEO_WRITE_DATA_LINE, PVIDEO_WRITE_DATA_LINE callback, VideoMiniport_Functions_35effeac-fbe1-44b9-905f-111460800d86.xml, WriteDataLine, WriteDataLine callback function [Display Devices], display.writedataline, video/WriteDataLine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VHF_CONFIG, *PVHF_CONFIG
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# PVIDEO_WRITE_DATA_LINE callback
+# PVIDEO_WRITE_DATA_LINE callback function
 
 
 ## -description

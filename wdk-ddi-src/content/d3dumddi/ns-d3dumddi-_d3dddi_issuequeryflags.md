@@ -7,7 +7,7 @@ old-location: display\d3dddi_issuequeryflags.htm
 old-project: display
 ms.assetid: 68360c2e-4b03-40a3-a313-bdb9ef26a298
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_ISSUEQUERYFLAGS, D3DDDI_ISSUEQUERYFLAGS structure [Display Devices], D3D_other_Structs_794dd0b0-f24c-4e9e-befe-d79dd4efbaef.xml, _D3DDDI_ISSUEQUERYFLAGS, d3dumddi/D3DDDI_ISSUEQUERYFLAGS, display.d3dddi_issuequeryflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,7 @@ Setting this member is equivalent to setting the second bit of the 32-bit <b>Val
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDI_ISSUEQUERYFLAGS that can hold one 32-bit value that identifies the state of the query.
 

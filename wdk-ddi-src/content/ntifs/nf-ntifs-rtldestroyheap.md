@@ -7,7 +7,7 @@ old-location: ifsk\rtldestroyheap.htm
 old-project: ifsk
 ms.assetid: e62855a0-284b-434b-88a4-1f21f1b77cf2
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RtlDestroyHeap, RtlDestroyHeap routine [Installable File System Drivers], ifsk.rtldestroyheap, ntifs/RtlDestroyHeap, rtlref_c1cb90f1-932d-46ab-badc-d960503def9c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: TOKEN_TYPE
+req.typenames: 
 ---
 
 # RtlDestroyHeap function

@@ -7,7 +7,7 @@ old-location: netvista\fwps_vswitch_event_dispatch_table0.htm
 old-project: netvista
 ms.assetid: 7e949e6d-7448-4f76-b8a1-6d050261fb21
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: FWPS_VSWITCH_EVENT_DISPATCH_TABLE0, FWPS_VSWITCH_EVENT_DISPATCH_TABLE0 structure [Network Drivers Starting with Windows Vista], FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_, fwpsk/FWPS_VSWITCH_EVENT_DISPATCH_TABLE0, netvista.fwps_vswitch_event_dispatch_table0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

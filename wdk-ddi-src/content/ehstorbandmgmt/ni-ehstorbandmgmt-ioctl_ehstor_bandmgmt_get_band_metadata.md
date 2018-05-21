@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 543EB710-9BF5-428E-B5CE-7088B98586EA
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
-ms.keywords: IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA, IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA, storage.ioctl_ehstor_bandmgmt_get_band_metadata
+ms.keywords: IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA, IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA control, IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA, storage.ioctl_ehstor_bandmgmt_get_band_metadata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXVA_VideoSample32
+req.typenames: 
 ---
 
 # IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA IOCTL

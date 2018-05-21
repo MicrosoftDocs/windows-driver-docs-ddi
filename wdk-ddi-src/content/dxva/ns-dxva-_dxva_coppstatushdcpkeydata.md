@@ -7,7 +7,7 @@ old-location: display\dxva_coppstatushdcpkeydata.htm
 old-project: display
 ms.assetid: 2e8024b4-69db-4f10-b33f-a6b817aa0aa9
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData structure [Display Devices], _DXVA_COPPStatusHDCPKeyData, display.dxva_coppstatushdcpkeydata, dxva/DXVA_COPPStatusHDCPKeyData, dxvaref_6aca4a16-16df-46ab-be65-b6033258f781.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

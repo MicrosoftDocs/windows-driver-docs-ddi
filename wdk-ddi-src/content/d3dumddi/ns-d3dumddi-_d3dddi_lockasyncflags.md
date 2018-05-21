@@ -7,7 +7,7 @@ old-location: display\d3dddi_lockasyncflags.htm
 old-project: display
 ms.assetid: 0e6dd14c-5192-4c4b-9dcb-716989d24588
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3DDDI_LOCKASYNCFLAGS, D3DDDI_LOCKASYNCFLAGS structure [Display Devices], D3D_other_Structs_765c2b3d-14e2-4eaf-978f-764263aa2a99.xml, _D3DDDI_LOCKASYNCFLAGS, d3dumddi/D3DDDI_LOCKASYNCFLAGS, display.d3dddi_lockasyncflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -112,7 +112,7 @@ Setting this member is equivalent to setting the seventh bit of the 32-bit <b>Va
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 25 bits (0xFFFFFF80) of the 32-bit <b>Value</b> member to zeros.
 
 
-#### - Value
+### -field Value
 
 A member in the union that is contained in D3DDDI_LOCKASYNCFLAGS that can hold one 32-bit value that identifies how to lock a resource.
 

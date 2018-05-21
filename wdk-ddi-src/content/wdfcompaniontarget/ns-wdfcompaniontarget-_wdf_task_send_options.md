@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: WDF_TASK_SEND_OPTIONS, *PWDF_TASK_SEND_OPTIONS
-req.product: Windows 10 or later.
 ---
 
 # _WDF_TASK_SEND_OPTIONS structure

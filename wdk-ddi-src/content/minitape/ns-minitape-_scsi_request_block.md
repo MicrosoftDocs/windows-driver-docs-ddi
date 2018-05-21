@@ -506,22 +506,17 @@ Points to the IRP for this request. This member is irrelevant to miniport driver
 Points to the Srb extension. A miniport driver must not use this member if it set <b>SrbExtensionSize</b> to zero in the SCSI_HW_INITIALIZATION_DATA. The memory at <b>SrbExtension</b> is not initialized by the OS-specific port driver, and the miniport driver-determined data can be accessed directly by the HBA. The corresponding physical address can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff564636">ScsiPortGetPhysicalAddress</a> with the <b>SrbExtension</b> pointer.
 
 
-### -field Reserved
-
-Reserved.
-
-
-### -field Cdb
-
-Specifies the SCSI-2 or later command descriptor block to be sent to the target device. 
-
-
-#### - InternalStatus
+### -field InternalStatus
 
 Used by the SCSI Port driver, instead of <b>SrbStatus</b>, to report the status of the completed request whenever the request cannot be delivered to the miniport driver. In such cases, <b>SrbStatus</b> is set to SRB_STATUS_INTERNAL_ERROR. This member is used exclusively for communication between the SCSI Port and the class driver and should not be used by miniport drivers.
 
 
-#### - LinkTimeoutValue
+### -field QueueSortKey
+
+Specifies the offset from the start of the media or zero, depending on the type of the target device. 
+
+
+### -field LinkTimeoutValue
 
 
 
@@ -532,9 +527,14 @@ Used by the SCSI Port driver, instead of <b>SrbStatus</b>, to report the status 
 #### 
 
 
-#### - QueueSortKey
+### -field Reserved
 
-Specifies the offset from the start of the media or zero, depending on the type of the target device. 
+Reserved.
+
+
+### -field Cdb
+
+Specifies the SCSI-2 or later command descriptor block to be sent to the target device. 
 
 
 ## -remarks

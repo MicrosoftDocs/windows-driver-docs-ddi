@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFObject.AcquireLock
-title: IWDFObject::AcquireLock method
+title: IWDFObject::AcquireLock
 author: windows-driver-content
 description: The AcquireLock method prevents the framework from calling methods of interfaces that a driver registered.
 old-location: wdf\iwdfobject_acquirelock.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f69328fb-356b-4381-ae6e-df39ac60e032
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: AcquireLock method, AcquireLock method, IWDFObject interface, AcquireLock,IWDFObject.AcquireLock, IWDFObject, IWDFObject interface, AcquireLock method, IWDFObject::AcquireLock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, umdf.iwdfobject_acquirelock, wdf.iwdfobject_acquirelock, wudfddi/IWDFObject::AcquireLock
+ms.keywords: AcquireLock, AcquireLock method, AcquireLock method,IWDFObject interface, IWDFObject interface,AcquireLock method, IWDFObject.AcquireLock, IWDFObject::AcquireLock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, umdf.iwdfobject_acquirelock, wdf.iwdfobject_acquirelock, wudfddi/IWDFObject::AcquireLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFObject::AcquireLock method
+# IWDFObject::AcquireLock
 
 
 ## -description

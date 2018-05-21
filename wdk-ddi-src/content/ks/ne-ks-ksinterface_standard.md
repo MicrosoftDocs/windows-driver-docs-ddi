@@ -7,7 +7,7 @@ old-location: stream\ksinterface_standard.htm
 old-project: stream
 ms.assetid: B000E3BD-28FA-454E-A598-3670B5FCD3DD
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KSINTERFACE_STANDARD, KSINTERFACE_STANDARD enumeration [Streaming Media Devices], KSINTERFACE_STANDARD_CONTROL, KSINTERFACE_STANDARD_LOOPED_STREAMING, KSINTERFACE_STANDARD_STREAMING, ks/KSINTERFACE_STANDARD, ks/KSINTERFACE_STANDARD_CONTROL, ks/KSINTERFACE_STANDARD_LOOPED_STREAMING, ks/KSINTERFACE_STANDARD_STREAMING, stream.ksinterface_standard
 ms.prod: windows-hardware
 ms.technology: windows-devices

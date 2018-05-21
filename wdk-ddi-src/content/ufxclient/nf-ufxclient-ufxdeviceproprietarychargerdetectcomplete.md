@@ -7,7 +7,7 @@ old-location: buses\ufxdeviceproprietarychargerdetectcomplete.htm
 old-project: usbref
 ms.assetid: 5E85D80B-4C0F-4C91-A1B5-565E09FD3743
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: UfxDeviceProprietaryChargerDetectComplete, UfxDeviceProprietaryChargerDetectComplete method [Buses], buses.ufxdeviceproprietarychargerdetectcomplete, ufxclient/UfxDeviceProprietaryChargerDetectComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -26,7 +26,7 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
+req.lib: ufxstub.lib
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # UfxDeviceProprietaryChargerDetectComplete function

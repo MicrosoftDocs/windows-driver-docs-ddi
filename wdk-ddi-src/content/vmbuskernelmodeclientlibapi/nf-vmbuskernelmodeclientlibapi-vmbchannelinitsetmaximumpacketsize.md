@@ -7,7 +7,7 @@ old-location: netvista\vmbchannelinitsetmaximumpacketsize.htm
 old-project: netvista
 ms.assetid: E1CD6911-A54F-4B24-B9BE-59EF9F2C30E5
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: VmbChannelInitSetMaximumPacketSize, VmbChannelInitSetMaximumPacketSize function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetmaximumpacketsize, vmbuskernelmodeclientlibapi/VmbChannelInitSetMaximumPacketSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: VIDEO_PORT_AGP_SERVICES, *PVIDEO_PORT_AGP_SERVICES
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # VmbChannelInitSetMaximumPacketSize function

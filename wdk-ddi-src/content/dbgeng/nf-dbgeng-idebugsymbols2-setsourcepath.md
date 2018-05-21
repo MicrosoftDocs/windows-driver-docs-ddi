@@ -1,14 +1,14 @@
 ---
 UID: NF:dbgeng.IDebugSymbols2.SetSourcePath
-title: IDebugSymbols2::SetSourcePath method
+title: IDebugSymbols2::SetSourcePath
 author: windows-driver-content
 description: The SetSourcePath method sets the source path.
 old-location: debugger\setsourcepath.htm
 old-project: debugger
 ms.assetid: 00b5927e-4b95-4528-bc09-da90db8a7716
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], SetSourcePath method, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], SetSourcePath method, IDebugSymbols2::SetSourcePath, IDebugSymbols3 interface [Windows Debugging], SetSourcePath method, IDebugSymbols3::SetSourcePath, IDebugSymbols::SetSourcePath, IDebugSymbols_d592ec7c-56f9-46b2-9627-d79e8fdba5c4.xml, SetSourcePath method [Windows Debugging], SetSourcePath method [Windows Debugging], IDebugSymbols interface, SetSourcePath method [Windows Debugging], IDebugSymbols2 interface, SetSourcePath method [Windows Debugging], IDebugSymbols3 interface, SetSourcePath,IDebugSymbols2.SetSourcePath, dbgeng/IDebugSymbols2::SetSourcePath, dbgeng/IDebugSymbols3::SetSourcePath, dbgeng/IDebugSymbols::SetSourcePath, debugger.setsourcepath
+ms.date: 4/24/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging],SetSourcePath method, IDebugSymbols2 interface [Windows Debugging],SetSourcePath method, IDebugSymbols2.SetSourcePath, IDebugSymbols2::SetSourcePath, IDebugSymbols3 interface [Windows Debugging],SetSourcePath method, IDebugSymbols3::SetSourcePath, IDebugSymbols::SetSourcePath, IDebugSymbols_d592ec7c-56f9-46b2-9627-d79e8fdba5c4.xml, SetSourcePath, SetSourcePath method [Windows Debugging], SetSourcePath method [Windows Debugging],IDebugSymbols interface, SetSourcePath method [Windows Debugging],IDebugSymbols2 interface, SetSourcePath method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::SetSourcePath, dbgeng/IDebugSymbols3::SetSourcePath, dbgeng/IDebugSymbols::SetSourcePath, debugger.setsourcepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,10 +43,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
+req.typenames: 
 ---
 
-# IDebugSymbols2::SetSourcePath method
+# IDebugSymbols2::SetSourcePath
 
 
 ## -description

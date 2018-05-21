@@ -7,7 +7,7 @@ old-location: stream\kstrintersecthandler.htm
 old-project: stream
 ms.assetid: ec4ca8b0-5386-4a03-8cf8-46852c168732
 ms.author: windowsdriverdev
-ms.date: 2/23/2018
+ms.date: 4/23/2018
 ms.keywords: KStrIntersectHandler, KStrIntersectHandler routine [Streaming Media Devices], PFNKSINTERSECTHANDLER, ks/KStrIntersectHandler, ksfunc_25fa087e-9d66-4479-aa4c-632a63ee6779.xml, stream.kstrintersecthandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: SOUNDDETECTOR_PATTERNHEADER
+req.typenames: 
 ---
 
-# PFNKSINTERSECTHANDLER callback
+# PFNKSINTERSECTHANDLER callback function
 
 
 ## -description

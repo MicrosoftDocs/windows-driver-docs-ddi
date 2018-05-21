@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,56 +63,56 @@ The WHEA_TIMESTAMP union describes the time that an error was reported to the op
  
 
 
-### -field AsLARGE_INTEGER
+### -field DUMMYSTRUCTNAME.Seconds
 
-A LARGE_INTEGER representation of the contents of the WHEA_TIMESTAMP union.
-
-
-#### - Century
-
-The century.
+The number of seconds past the minute.
 
 
-#### - Day
-
-The day of the month.
-
-
-#### - Hours
-
-The hour in the day.
-
-
-#### - Minutes
+### -field DUMMYSTRUCTNAME.Minutes
 
 The number of minutes past the hour.
 
 
-#### - Month
+### -field DUMMYSTRUCTNAME.Hours
 
-The month of the year.
+The hour in the day.
 
 
-#### - Precise
+### -field DUMMYSTRUCTNAME.Precise
 
 If this member is set to 1, the timestamp correlates precisely to the time of the error event.
 
 <div class="alert"><b>Note</b>  This member is supported in Windows 7 and later versions of Windows.</div>
 <div> </div>
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
 
 
-#### - Seconds
+### -field DUMMYSTRUCTNAME.Day
 
-The number of seconds past the minute.
+The day of the month.
 
 
-#### - Year
+### -field DUMMYSTRUCTNAME.Month
+
+The month of the year.
+
+
+### -field DUMMYSTRUCTNAME.Year
 
 The year within the century.
+
+
+### -field DUMMYSTRUCTNAME.Century
+
+The century.
+
+
+### -field AsLARGE_INTEGER
+
+A LARGE_INTEGER representation of the contents of the WHEA_TIMESTAMP union.
 
 
 ## -remarks

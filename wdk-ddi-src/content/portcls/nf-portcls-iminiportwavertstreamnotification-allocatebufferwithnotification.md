@@ -1,14 +1,14 @@
 ---
 UID: NF:portcls.IMiniportWaveRTStreamNotification.AllocateBufferWithNotification
-title: IMiniportWaveRTStreamNotification::AllocateBufferWithNotification method
+title: IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
 author: windows-driver-content
 description: The AllocateAudioBufferWithNotification method allocates a cyclic buffer for audio data when you want to implement DMA-driven event notification. If you do not want event notification, you must use IMiniportWaveRTStream::AllocateAudioBuffer.
 old-location: audio\iminiportwavertstreamnotification_allocatebufferwithnotification.htm
 old-project: audio
 ms.assetid: df1da549-1677-42ef-9644-3d9c5df66894
 ms.author: windowsdriverdev
-ms.date: 3/19/2018
-ms.keywords: AllocateBufferWithNotification method [Audio Devices], AllocateBufferWithNotification method [Audio Devices], IMiniportWaveRTStreamNotification interface, AllocateBufferWithNotification,IMiniportWaveRTStreamNotification.AllocateBufferWithNotification, IMiniportWaveRTStreamNotification, IMiniportWaveRTStreamNotification interface [Audio Devices], AllocateBufferWithNotification method, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, audio.iminiportwavertstreamnotification_allocatebufferwithnotification, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
+ms.date: 4/16/2018
+ms.keywords: AllocateBufferWithNotification, AllocateBufferWithNotification method [Audio Devices], AllocateBufferWithNotification method [Audio Devices],IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification interface [Audio Devices],AllocateBufferWithNotification method, IMiniportWaveRTStreamNotification.AllocateBufferWithNotification, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, audio.iminiportwavertstreamnotification_allocatebufferwithnotification, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
+req.typenames: 
 ---
 
-# IMiniportWaveRTStreamNotification::AllocateBufferWithNotification method
+# IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
 
 
 ## -description

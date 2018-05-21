@@ -7,7 +7,7 @@ old-location: display\d3d12ddi_video_scale_support.htm
 old-project: display
 ms.assetid: 70FFDE9E-2029-4C84-9DEE-C2E81FEE5590
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: D3D12DDI_VIDEO_SCALE_SUPPORT_0022, D3D12DDI_VIDEO_SCALE_SUPPORT_0022 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_0022, display.d3d12ddi_video_scale_support
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support: Windows 10, version 1709
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -80,7 +80,7 @@ The smallest output height that can be scaled to.  The smallest allowed value is
 
 ### -field Flags
 
- 
+
 
 
 

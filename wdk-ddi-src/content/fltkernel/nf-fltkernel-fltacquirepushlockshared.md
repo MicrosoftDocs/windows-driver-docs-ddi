@@ -7,7 +7,7 @@ old-location: ifsk\fltacquirepushlockshared.htm
 old-project: ifsk
 ms.assetid: ee85e9fb-2112-4b36-af7f-7d142159bd2d
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: FltAcquirePushLockShared, FltAcquirePushLockShared routine [Installable File System Drivers], FltApiRef_a_to_d_329cb1e6-2fb5-45fa-a533-71a60ce341cf.xml, fltkernel/FltAcquirePushLockShared, ifsk.fltacquirepushlockshared
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: EXpsFontRestriction
+req.typenames: 
 ---
 
 # FltAcquirePushLockShared macro
@@ -59,16 +59,7 @@ The <b>FltAcquirePushLockShared</b> routine acquires the given push lock for sha
 
 
 
-### -param Lock
-
-TBD
-
-
-
-
-
-
-#### - PushLock [in, out]
+### -param Lock [in, out]
 
 Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
 

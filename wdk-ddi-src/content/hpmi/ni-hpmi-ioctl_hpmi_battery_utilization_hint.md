@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: CE326F69-64A4-466E-8A02-5C08AFF8490C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IOCTL_HPMI_BATTERY_UTILIZATION_HINT, IOCTL_HPMI_BATTERY_UTILIZATION_HINT control code [Power Metering and Budgeting Devices], hpmi/IOCTL_HPMI_BATTERY_UTILIZATION_HINT, powermeter.ioctl_hpmi_battery_utilization_hint
+ms.keywords: IOCTL_HPMI_BATTERY_UTILIZATION_HINT, IOCTL_HPMI_BATTERY_UTILIZATION_HINT control, IOCTL_HPMI_BATTERY_UTILIZATION_HINT control code [Power Metering and Budgeting Devices], hpmi/IOCTL_HPMI_BATTERY_UTILIZATION_HINT, powermeter.ioctl_hpmi_battery_utilization_hint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: ioctl
@@ -41,16 +41,11 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: HPMI_HINT_BOOL, *PHPMI_HINT_BOOL
+req.typenames: 
 ---
 
 # IOCTL_HPMI_BATTERY_UTILIZATION_HINT IOCTL
 
-
-##  Major Code: 
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
 
 ## -description
 
@@ -68,12 +63,12 @@ Set command sent to HPMI to provide battery utilization hints.
 
 ### -input-buffer
 
-The AssociatedIrp.SystemBuffer member of the I/O request packet (IRP) points to an initiator-allocated buffer that is used both as the input buffer and the output buffer for the request. On input, this buffer contains a <a href="..\hpmi\ns-hpmi-_hpmi_battery_utilization_hint.md">HPMI_BATTERY_UTILIZATION_HINT</a> structure  in which the version is set to a valid value. 
+The AssociatedIrp.SystemBuffer member of the I/O request packet (IRP) points to an initiator-allocated buffer that is used both as the input buffer and the output buffer for the request. On input, this buffer contains a <a href="https://msdn.microsoft.com/A974998F-C9AF-496E-88B1-510413C17C4A">HPMI_BATTERY_UTILIZATION_HINT</a> structure  in which the version is set to a valid value. 
 
 
 ### -input-buffer-length
 
-The Parameters.DeviceIoControl.InputBufferLength member of the IRP's current I/O stack location (IO_STACK_LOCATION) is set to the size in bytes of the buffer that is pointed to by the AssociatedIrp.SystemBuffer member. This size must be greater than or equal to sizeof <a href="..\hpmi\ns-hpmi-_hpmi_battery_utilization_hint.md">HPMI_BATTERY_UTILIZATION_HINT</a>  structure  or the request will fail with an error status of STATUS_INVALID_PARAMETER.
+The Parameters.DeviceIoControl.InputBufferLength member of the IRP's current I/O stack location (IO_STACK_LOCATION) is set to the size in bytes of the buffer that is pointed to by the AssociatedIrp.SystemBuffer member. This size must be greater than or equal to sizeof <a href="https://msdn.microsoft.com/A974998F-C9AF-496E-88B1-510413C17C4A">HPMI_BATTERY_UTILIZATION_HINT</a>  structure  or the request will fail with an error status of STATUS_INVALID_PARAMETER.
 
 
 ### -output-buffer
@@ -112,19 +107,6 @@ TBD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
-
-
-
-<a href="..\hpmi\ni-hpmi-ioctl_hpmi_battery_utilization_hint.md">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -132,18 +114,31 @@ TBD
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/E056400C-A0FE-4740-945D-C529C8804DF3">HPMI_HINT_BOOL</a>
 
 
 
-<a href="..\hpmi\ne-hpmi-_hpmi_hint_bool.md">HPMI_HINT_BOOL</a>
+<a href="https://msdn.microsoft.com/CE326F69-64A4-466E-8A02-5C08AFF8490C">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
+
+
+
+<a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
  
 
  

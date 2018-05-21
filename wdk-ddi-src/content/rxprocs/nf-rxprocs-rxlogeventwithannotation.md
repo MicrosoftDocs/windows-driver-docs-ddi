@@ -7,7 +7,7 @@ old-location: ifsk\rxlogeventwithannotation.htm
 old-project: ifsk
 ms.assetid: cb8b757a-cff5-41cf-8155-2c45a8a35f00
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/16/2018
 ms.keywords: RxLogEventWithAnnotation, RxLogEventWithAnnotation function [Installable File System Drivers], ifsk.rxlogeventwithannotation, rxprocs/RxLogEventWithAnnotation, rxref_9c7d3613-cf3b-4de9-bfcb-a1dbe9213834.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,8 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: RX_CONTEXT, *PRX_CONTEXT
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # RxLogEventWithAnnotation function

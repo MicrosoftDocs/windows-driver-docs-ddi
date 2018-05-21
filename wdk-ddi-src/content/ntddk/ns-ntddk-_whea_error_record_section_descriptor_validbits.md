@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -63,24 +63,24 @@ The WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union describes which members
  
 
 
-### -field AsUCHAR
-
-A UCHAR representation of the contents of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union.
-
-
-#### - FRUId
+### -field DUMMYSTRUCTNAME.FRUId
 
 A single bit that indicates that the <b>FRUId</b> member of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure contains valid data.
 
 
-#### - FRUText
+### -field DUMMYSTRUCTNAME.FRUText
 
 A single bit that indicates that the <b>FRUText</b> member of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR structure contains valid data.
 
 
-#### - Reserved
+### -field DUMMYSTRUCTNAME.Reserved
 
 Reserved for system use.
+
+
+### -field AsUCHAR
+
+A UCHAR representation of the contents of the WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union.
 
 
 ## -remarks

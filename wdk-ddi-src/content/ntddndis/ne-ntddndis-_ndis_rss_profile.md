@@ -7,7 +7,7 @@ old-location: netvista\ndis_rss_profile.htm
 old-project: netvista
 ms.assetid: 41A58C2C-8A25-41AC-9CBE-59AB38603A73
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: "*PNDIS_RSS_PROFILE, NDIS_RSS_PROFILE, NDIS_RSS_PROFILE enumeration [Network Drivers Starting with Windows Vista], NdisRssProfileClosest, NdisRssProfileClosestStatic, NdisRssProfileConservative, NdisRssProfileMaximum, NdisRssProfileNuma, NdisRssProfileNumaStatic, _NDIS_RSS_PROFILE, netvista.ndis_rss_profile, ntddndis/NDIS_RSS_PROFILE, ntddndis/NdisRssProfileClosest, ntddndis/NdisRssProfileClosestStatic, ntddndis/NdisRssProfileConservative, ntddndis/NdisRssProfileMaximum, ntddndis/NdisRssProfileNuma, ntddndis/NdisRssProfileNumaStatic"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax

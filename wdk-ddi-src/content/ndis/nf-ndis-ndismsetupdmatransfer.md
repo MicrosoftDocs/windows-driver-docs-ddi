@@ -7,7 +7,7 @@ old-location: netvista\ndismsetupdmatransfer.htm
 old-project: netvista
 ms.assetid: 2a7ebedd-0042-4624-9c9b-721cccfb0c4f
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisMSetupDmaTransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, ndis/NdisMSetupDmaTransfer, netvista.ndismsetupdmatransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
+req.typenames: 
 ---
 
 # NdisMSetupDmaTransfer macro

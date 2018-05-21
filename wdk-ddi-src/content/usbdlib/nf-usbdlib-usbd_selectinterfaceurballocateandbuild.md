@@ -7,7 +7,7 @@ old-location: buses\usbd_selectinterfaceurballocateandbuild.htm
 old-project: usbref
 ms.assetid: D0B2E7EA-3D1F-4FD1-AB8D-EAB8406B9127
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.date: 4/25/2018
 ms.keywords: USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses], buses.usbd_selectinterfaceurballocateandbuild, usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,8 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
 # USBD_SelectInterfaceUrbAllocateAndBuild function

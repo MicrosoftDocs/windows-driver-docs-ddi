@@ -7,8 +7,8 @@ old-location: display\openresource.htm
 old-project: display
 ms.assetid: e3f5cec2-391b-40f9-8a4b-afe6b8de2954
 ms.author: windowsdriverdev
-ms.date: 3/29/2018
-ms.keywords: OpenResource, OpenResource callback function [Display Devices], PFND3DDDI_OPENRESOURCE, UserModeDisplayDriver_Functions_57f3d196-70e6-475e-86ca-bb6d20aca568.xml, d3dumddi/OpenResource, display.openresource
+ms.date: 4/16/2018
+ms.keywords: OpenResource, OpenResource callback function [Display Devices], PFND3DDDI_OPENRESOURCE, PFND3DDDI_OPENRESOURCE callback, UserModeDisplayDriver_Functions_57f3d196-70e6-475e-86ca-bb6d20aca568.xml, d3dumddi/OpenResource, display.openresource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -41,10 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: DXGK_PTE
+req.typenames: 
 ---
 
-# PFND3DDDI_OPENRESOURCE callback
+# PFND3DDDI_OPENRESOURCE callback function
 
 
 ## -description

@@ -7,7 +7,7 @@ old-location: kernel\io_stack_location.htm
 old-project: kernel
 ms.assetid: b339d6aa-71e1-4835-8ef2-a84594166bb1
 ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.date: 4/30/2018
 ms.keywords: "*PIO_STACK_LOCATION, IO_STACK_LOCATION, IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], _IO_STACK_LOCATION, kernel.io_stack_location, kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml, wdm/IO_STACK_LOCATION, wdm/PIO_STACK_LOCATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (see Remarks section)
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -42,7 +42,6 @@ product:
 - Windows
 targetos: Windows
 req.typenames: IO_STACK_LOCATION, *PIO_STACK_LOCATION
-req.product: Windows 10 or later.
 ---
 
 # _IO_STACK_LOCATION structure
@@ -500,14 +499,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 ### -field Parameters.SetFile
 
 
-
-##### SetFile.ClusterCount
-
-
-
-##### SetFile.DeleteHandle
-
-
 ### -field Parameters.SetFile.Length
 
  
@@ -527,6 +518,12 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 ### -field Parameters.SetFile.AdvanceOnly
+
+
+### -field Parameters.SetFile.ClusterCount
+
+
+### -field Parameters.SetFile.DeleteHandle
 
 
 ### -field Parameters.QueryEa
@@ -879,11 +876,10 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
  
 
 
+### -field Parameters.Power.SystemPowerStateContext
+
+
 ### -field Parameters.Power
-
-
-
-##### Power.SystemPowerStateContext
 
 
 ### -field Parameters.Power.SystemContext

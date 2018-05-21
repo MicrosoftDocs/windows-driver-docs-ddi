@@ -7,7 +7,7 @@ old-location: netvista\ndisoffloadtcpdisconnect.htm
 old-project: netvista
 ms.assetid: f8abff30-b641-4581-8532-8292993ca9f6
 ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.date: 4/25/2018
 ms.keywords: NdisOffloadTcpDisconnect, NdisOffloadTcpDisconnect function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpDisconnect, netvista.ndisoffloadtcpdisconnect, tcp_chim_ndis_func_7b795689-321d-4d4f-992f-668d53bcf11b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: PD_BUFFER_VIRTUAL_SUBNET_INFO
+req.typenames: 
 ---
 
 # NdisOffloadTcpDisconnect function

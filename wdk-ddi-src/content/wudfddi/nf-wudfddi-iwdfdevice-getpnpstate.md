@@ -1,6 +1,6 @@
 ---
 UID: NF:wudfddi.IWDFDevice.GetPnpState
-title: IWDFDevice::GetPnpState method
+title: IWDFDevice::GetPnpState
 author: windows-driver-content
 description: The GetPnpState method determines whether the given Plug and Play (PnP) property of a device is on or off (or set to the default state).
 old-location: wdf\iwdfdevice_getpnpstate.htm
@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7214a0e9-5519-4daa-bd2f-cc3c697dd867
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
-ms.keywords: GetPnpState method, GetPnpState method, IWDFDevice interface, GetPnpState,IWDFDevice.GetPnpState, IWDFDevice, IWDFDevice interface, GetPnpState method, IWDFDevice::GetPnpState, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, umdf.iwdfdevice_getpnpstate, wdf.iwdfdevice_getpnpstate, wudfddi/IWDFDevice::GetPnpState
+ms.keywords: GetPnpState, GetPnpState method, GetPnpState method,IWDFDevice interface, IWDFDevice interface,GetPnpState method, IWDFDevice.GetPnpState, IWDFDevice::GetPnpState, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, umdf.iwdfdevice_getpnpstate, wdf.iwdfdevice_getpnpstate, wudfddi/IWDFDevice::GetPnpState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,11 +41,10 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
+req.typenames: 
 ---
 
-# IWDFDevice::GetPnpState method
+# IWDFDevice::GetPnpState
 
 
 ## -description
