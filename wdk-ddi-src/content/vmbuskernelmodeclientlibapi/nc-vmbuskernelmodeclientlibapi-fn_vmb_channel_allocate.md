@@ -46,6 +46,8 @@ targetos: Windows
 
 The <b>VmbChannelAllocate</b> function allocates a new VMBus channel that has default parameters and callbacks. 
 
+[!include[KMCL interface note](kmcl-interface-note.md)]
+
 ## -prototype
 
 ```
@@ -83,8 +85,6 @@ A pointer to an allocated channel.
 Returns STATUS_SUCCESS if the operation succeeds, or an appropriate NTSTATUS error code otherwise.
 
 ## -remarks
-
-[!include[KMCL interface note](kmcl-interface-note.md)]
 
 The
 channel may be further initialized using the VMBus channel initialization routines before
