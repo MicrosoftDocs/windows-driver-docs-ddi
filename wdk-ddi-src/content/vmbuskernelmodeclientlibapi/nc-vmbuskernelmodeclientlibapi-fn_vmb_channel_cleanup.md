@@ -1,11 +1,11 @@
 ---
-UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_ALLOCATE
-title: FN_VMB_CHANNEL_ALLOCATE
+UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_CLEANUP
+title: FN_VMB_CHANNEL_CLEANUP
 author: windows-driver-content
-description:  The VmbChannelAllocate function allocates a new VMBus channel that has default parameters and callbacks. 
-ms.assetid: b7d23f6f-cc08-4e0b-aca9-9e8234465acb
+description: The VmbChannelCleanup function disposes of a channel that was allocated by using the VmbChannelAllocate function or initialized by using a VMBus channel initialization function.
+ms.assetid: 08ed4d5b-5a84-43ac-b8b4-1bce6ece7f67
 ms.author: windowsdriverdev
-ms.date: 05/17/2018
+ms.date: 05/21/2018
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: PASSIVE_LEVEL
+req.irql: 
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -33,33 +33,31 @@ api_type:
 api_location: 
 -	vmbuskernelmodeclientlibapi.h
 api_name: 
--	FN_VMB_CHANNEL_ALLOCATE
+-	FN_VMB_CHANNEL_CLEANUP
 product: Windows
 targetos: Windows
 ---
 
-# FN_VMB_CHANNEL_ALLOCATE callback function
+# FN_VMB_CHANNEL_CLEANUP callback function
 
 ## -description
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>VmbChannelAllocate</b> function allocates a new VMBus channel that has default parameters and callbacks. 
+The <b>VmbChannelCleanup</b> function disposes of a channel that was allocated by using the <a href="https://msdn.microsoft.com/97169CF5-566E-4EF6-88AD-7B68E9FE46EC">VmbChannelAllocate</a> function  or initialized by using a  VMBus channel initialization function. 
 
 ## -prototype
 
 ```
 //Declaration
 
-FN_VMB_CHANNEL_ALLOCATE FnVmbChannelAllocate; 
+FN_VMB_CHANNEL_CLEANUP FnVmbChannelCleanup; 
 
 // Definition
 
-NTSTATUS FnVmbChannelAllocate 
+VOID FnVmbChannelCleanup 
 (
-	PDEVICE_OBJECT ParentDeviceObject
-	BOOLEAN IsServer
-	VMBCHANNEL * Channel
+	__drv_freesMem(Mem)VMBCHANNEL Channel
 )
 {...}
 
@@ -67,27 +65,19 @@ NTSTATUS FnVmbChannelAllocate
 
 ## -parameters
 
-### -param ParentDeviceObject
-
-A pointer to the parent device.
-
-### -param IsServer
-
-Whether the new channel is a server endpoint.
-
 ### -param Channel
 
-A pointer to an allocated channel.
+The channel to clean up.
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds, or an appropriate NTSTATUS error code otherwise.
+This function does not return a value.
 
 ## -remarks
 
-The
-channel may be further initialized using the VMBus channel initialization routines before
-it is enabled by using the  <a href="https://msdn.microsoft.com/A0256B3F-C35C-45AB-A825-0A82189F08DC">VmbChannelEnable</a> function. The channel must be freed by using the <a href="https://msdn.microsoft.com/E079527D-1687-4A12-B86E-96C89CE458CE">VmbChannelCleanup</a> function.
+If the channel was allocated by <a href="https://msdn.microsoft.com/97169CF5-566E-4EF6-88AD-7B68E9FE46EC">VmbChannelAllocate</a>, <b>VmbChannelCleanup</b> also releases the channel. 
+
+Before you call this function, the channel must be disabled.
 
 > [!IMPORTANT]
 > This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. 
@@ -104,8 +94,4 @@ it is enabled by using the  <a href="https://msdn.microsoft.com/A0256B3F-C35C-45
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/E079527D-1687-4A12-B86E-96C89CE458CE">VmbChannelCleanup</a>
-
-
-
-<a href="https://msdn.microsoft.com/A0256B3F-C35C-45AB-A825-0A82189F08DC">VmbChannelEnable</a>
+<a href="https://msdn.microsoft.com/97169CF5-566E-4EF6-88AD-7B68E9FE46EC">VmbChannelAllocate</a>
