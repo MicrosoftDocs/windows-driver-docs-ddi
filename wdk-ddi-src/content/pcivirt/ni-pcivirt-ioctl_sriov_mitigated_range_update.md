@@ -65,64 +65,21 @@ The  <b>IOCTL_SRIOV_MITIGATED_RANGE_UPDATE</b> request indicates that the virtua
 
 ### -input-buffer
 
-A pointer to a <a href="https://msdn.microsoft.com/ae4936ac-9794-4854-81ec-2139b3ce4c3c">SRIOV_MITIGATED_RANGE_UPDATE_INPUT</a> structure
+A pointer to a <a href="https://msdn.microsoft.com/ae4936ac-9794-4854-81ec-2139b3ce4c3c">SRIOV_MITIGATED_RANGE_UPDATE_INPUT</a> structure.
 
 
 ### -input-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -output-buffer
-
-
-
-<text></text>
-
-
-
-
-### -output-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -in-out-buffer
-
-
-
-<text></text>
-
-
-
-
-### -inout-buffer-length
-
-
-
-<text></text>
-
-
+Size of the <a href="https://msdn.microsoft.com/ae4936ac-9794-4854-81ec-2139b3ce4c3c">SRIOV_MITIGATED_RANGE_UPDATE_INPUT</a> structure.
 
 
 ### -status-block
 
-<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
 
 
 ## -remarks
 
-
-
-This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
+This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes MITIGABLE_DEVICE_INTERFACE.
 
 The stack uses an I/O MMU to differentiate traffic coming from the various interfaces that the device exposes, enforcing policy about which regions of memory a device can access and which interrupts it can generate. When that range of memory is updated, the stack sends this request.
 
