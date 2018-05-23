@@ -74,42 +74,6 @@ A pointer to an <a href="https://msdn.microsoft.com/3b40d780-8084-4c19-bb8e-9d1a
 The size of the <a href="https://msdn.microsoft.com/3b40d780-8084-4c19-bb8e-9d1ab3dadc95">SRIOV_PNP_EVENT_COMPLETE</a> structure.
 
 
-### -output-buffer
-
-
-
-<text></text>
-
-
-
-
-### -output-buffer-length
-
-
-
-<text></text>
-
-
-
-
-### -in-out-buffer
-
-
-
-<text></text>
-
-
-
-
-### -inout-buffer-length
-
-
-
-<text></text>
-
-
-
-
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
@@ -124,112 +88,34 @@ This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IO
 The virtualization stack sends the <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request when the physical function (PF) driver completes the previously sent <a href="https://msdn.microsoft.com/3f2d67e0-abab-40a1-b4a9-cb65e81884e9">IOCTL_SRIOV_NOTIFICATION</a> request. The <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request can be completed
 synchronously.  The stack provides the NTSTATUS code to set for the <a href="https://msdn.microsoft.com/3b40d780-8084-4c19-bb8e-9d1ab3dadc95">SRIOV_PNP_EVENT_COMPLETE</a> is the input buffer. The code indicates the status code o use for completion of the event.
 
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    case IOCTL_SRIOV_NOTIFICATION:
-        TraceEvents(TRACE_LEVEL_VERBOSE, DBG_IOCTL, 
-            "IOCTL_SRIOV_NOTIFICATION:\n");
-
-        status = WdfRequestForwardToIoQueue(Request,
-                                            fdoContext-&gt;NotificationQueue);
-        if (!NT_SUCCESS(status))
-        {
-            // not able to push it into manual queue, too bad.
-            TraceEvents(TRACE_LEVEL_ERROR, DBG_PNP,
-                        "WdfRequestForwardToIoQueue failed status=%!STATUS!\n",
-                        status);
-            break;
-        }
-
-        //
-        // Pnp might arrived before SRIOV_NOTIFICATION. Serve the new
-        // outstanding pnp if there is one.
-        //
-        CheckPendingNotifications(fdoContext);
-        status = STATUS_PENDING;
-        break;
+```
+    case IOCTL_SRIOV_NOTIFICATION:
+        PSRIOV_PNP_EVENT_COMPLETE input;
+        NTSTATUS                  status;
 
 
-
-</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
-CheckPendingNotifications(
-    __in PDEVICE_CONTEXT DeviceContext
-    )
-/*++
-
-Routine Description:
-
-    This routine checks if there is a pending event and a pending request
-    for notification and if so completes the request.
-
-Arguments:
-
-    DeviceContext - Pointer to the device context
-
-Return Value:
-
-    None.
-
---*/
-{
-    PSRIOV_PF_EVENT notification;
-    WDFQUEUE        queue;
-    WDFREQUEST      request;
-    NTSTATUS        status;
-
-    PAGED_CODE();
-
-    WdfWaitLockAcquire(DeviceContext-&gt;PnpStateLock, NULL);
-
-    queue = DeviceContext-&gt;NotificationQueue;
-    if (DeviceContext-&gt;PnpEventNew
-        &amp;&amp; NT_SUCCESS(WdfIoQueueRetrieveNextRequest(queue, &amp;request)))
+    status = WdfRequestRetrieveInputBuffer(Request,
+                                           sizeof(*input),
+                                           &input,
+                                           NULL);
+    if (!NT_SUCCESS(status))
     {
-        NT_ASSERT(DeviceContext-&gt;PnpEventPending != FALSE);
-        DeviceContext-&gt;PnpEventNew = FALSE;
-
-        status = WdfRequestRetrieveOutputBuffer(request,
-                                                sizeof(*notification),
-                                                &amp;notification,
-                                                NULL);
-        if (!NT_SUCCESS(status))
-        {
-            TraceEvents(TRACE_LEVEL_ERROR, DBG_PNP,
-                "WdfRequestRetrieveOutputBuffer[SRIOV_NOTIFICATION] fail: %!STATUS!", status);
-            WdfRequestComplete(request, status);
-        }
-        else
-        {
-            TraceEvents(TRACE_LEVEL_VERBOSE, DBG_IOCTL, "Retrieved IoQueue request buffer (notification)\n");
-
-            *notification = DeviceContext-&gt;PnpEventCode;
-            WdfRequestCompleteWithInformation(request,
-                                              STATUS_SUCCESS,
-                                              sizeof(*notification));
-        }
+        TraceEvents(TRACE_LEVEL_ERROR, DBG_PNP,
+                    "WdfRequestRetrieveInputBuffer[IOCTL_SRIOV_EVENT_COMPLETE] failed status=%!STATUS!\n",
+                    status);
+        WdfRequestComplete(Request, status);
+        return;
     }
+    
+    ...
 
-    WdfWaitLockRelease(DeviceContext-&gt;PnpStateLock);
+    KeSetEvent(&DeviceContext->PnpUnblockEvent, IO_NO_INCREMENT, FALSE);
 
+    WdfRequestComplete(Request, STATUS_SUCCESS);
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+```
+
+
+
 
 

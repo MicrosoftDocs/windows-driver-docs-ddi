@@ -83,24 +83,6 @@ A pointer to a <a href="https://msdn.microsoft.com/f33f602e-0bce-4ac2-8bd8-8640b
 The size of the <a href="https://msdn.microsoft.com/f33f602e-0bce-4ac2-8bd8-8640b2376278">SRIOV_MITIGATED_RANGES_OUTPUT</a> structure.
 
 
-### -in-out-buffer
-
-
-
-<text></text>
-
-
-
-
-### -inout-buffer-length
-
-
-
-<text></text>
-
-
-
-
 ### -status-block
 
 <b>Irp-&gt;IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
@@ -110,7 +92,7 @@ The size of the <a href="https://msdn.microsoft.com/f33f602e-0bce-4ac2-8bd8-8640
 
 
 
-This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
+This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_MITIGABLE_DEVICE_INTERFACE.
 
 The virtualization stack uses an I/O MMU to differentiate traffic coming from the various interfaces that the device exposes, enforcing policy about which regions of memory a device can access and which interrupts it can generate. 
 
