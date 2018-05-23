@@ -95,9 +95,7 @@ The IP protocol number, as specified in RFC 1700.
 
 The possible values are:
 
-- SIO_RCVALL
-- SIO_RCVALL_IGMPMCAST
-- SIO_RCVALL_MCAST
+<ul><li>SIO_RCVALL</li><li>SIO_RCVALL_IGMPMCAST</li><li>SIO_RCVALL_MCAST</li></ul>
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V4_IP_LOCAL_INTERFACE
 

@@ -119,8 +119,7 @@ NDIS sets the
 A pointer to a Unicode string that contains a registry path. The path starts from the protocol
      driver's service key and continues down the registry hierarchy to the miniport adapter name (for
      example, 
-     <b>Tcpip\Parameters\Adapters\</b>&lt;
-     <i>miniport adapter name</i>&gt;). The miniport adapter name is the name of the
+     <b>Tcpip\Parameters\Adapters\\</b>\<<i>miniport adapter name</i>\>). The miniport adapter name is the name of the
      bottom-most miniport adapter in the driver stack. If there is a MUX intermediate driver in the stack,
      the bottom-most miniport adapter is a virtual miniport. Otherwise, the bottom-most miniport adapter is a
      miniport adapter for a physical device.

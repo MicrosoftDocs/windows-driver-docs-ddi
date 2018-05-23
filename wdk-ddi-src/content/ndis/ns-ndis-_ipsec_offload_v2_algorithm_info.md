@@ -208,8 +208,7 @@ The offset, in bytes, into in the array at the
 
 ### -field AdditionalInfo
 
-Additional information that should be interpreted differently based on the algorithm. For AES-GCM,
-     
+Additional information that should be interpreted differently based on the algorithm. For AES-GCM,     
      <b>AdditionalInfo</b> contains the ICV length.
 
 

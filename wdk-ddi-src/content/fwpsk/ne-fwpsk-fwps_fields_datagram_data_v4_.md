@@ -111,8 +111,7 @@ The index of the logical network interface, as enumerated by the network stack.
 
 The possible values are:
 
-- FWP_DIRECTION_INBOUND
-- FWP_DIRECTION_OUTBOUND
+<ul><li>FWP_DIRECTION_INBOUND</li><li>FWP_DIRECTION_OUTBOUND</li></ul>
 
 ### -field FWPS_FIELD_DATAGRAM_DATA_V4_FLAGS
 
