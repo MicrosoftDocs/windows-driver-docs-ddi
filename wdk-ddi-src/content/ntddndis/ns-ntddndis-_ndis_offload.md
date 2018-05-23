@@ -68,6 +68,14 @@ The
      
 
 Set the <b>Revision</b> and <b>Size</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure as follows:<ul>
+<li>For NDIS 6.70 and later drivers:<ul>
+<li>Set <b>Revision</b> to NDIS_OFFLOAD_REVISION_5 (NDIS 6.70).</li>
+<li>Set <b>Size</b> to NDIS_SIZEOF_NDIS_OFFLOAD_REVISION_5.</li>
+</ul>
+<li>For NDIS 6.50 and later drivers:<ul>
+<li>Set <b>Revision</b> to NDIS_OFFLOAD_REVISION_4 (NDIS 6.50).</li>
+<li>Set <b>Size</b> to NDIS_SIZEOF_NDIS_OFFLOAD_REVISION_4.</li>
+</ul>
 <li>For NDIS 6.30 and later drivers:<ul>
 <li>Set <b>Revision</b> to NDIS_OFFLOAD_REVISION_3 (NDIS 6.30).</li>
 <li>Set <b>Size</b> to NDIS_SIZEOF_NDIS_OFFLOAD_REVISION_3.</li>
@@ -165,27 +173,31 @@ Internet protocol security (IPsec) offload version 2 information in an
 ### -field EncapsulatedPacketTaskOffloadGre
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a> information in an <a href="https://msdn.microsoft.com/library/windows/hardware/jj991956">NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD</a> structure. This member should only be set by miniport drivers that support task offloads for NVGRE-formatted packets.<div class="alert"><b>Note</b>  This member is available only in NDIS 6.30 and later. </div>
+[Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload](https://docs.microsoft.com/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload) information in an <a href="https://msdn.microsoft.com/library/windows/hardware/jj991956">NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD</a> structure. This member should only be set by miniport drivers that support task offloads for NVGRE-formatted packets.<div class="alert"><b>Note</b>  This member is available only in NDIS 6.30 and later. </div>
 <div> </div>
 
 
 
 ### -field EncapsulatedPacketTaskOffloadVxlan
 
- 
+VXLAN encapsulated packet task offload information in an [**NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2**](ns-ntddndis-_ndis_encapsulated_packet_task_offload_v2.md) structure. This member should only be set by miniport drivers that support task offloads for VXLAN-formatted packets. VXLAN is the same as NVGRE, but with a different protocol.
 
+<div class="alert"><b>Note</b>  This member is available only in NDIS 6.50 and later. </div>
+<div> </div>
 
 ### -field EncapsulationTypes
 
+The enabled encapsulation types for encapsulated packet task offload.
  
-
+<div class="alert"><b>Note</b>  This member is available only in NDIS 6.50 and later. </div>
+<div> </div>
 
 ### -field Rfc6877Xlat
 
- 
+464XLAT hardware offload information in an [**NDIS_RFC6877_464XLAT_OFFLOAD**](ns-ntddndis-_ndis_rfc6877_464xlat_offload.md) structure.
 
-
-
+<div class="alert"><b>Note</b>  This member is available only in NDIS 6.70 and later. </div>
+<div> </div>
 
 ## -remarks
 
