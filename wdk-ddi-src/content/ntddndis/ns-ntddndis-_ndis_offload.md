@@ -180,7 +180,7 @@ Internet protocol security (IPsec) offload version 2 information in an
 
 ### -field EncapsulatedPacketTaskOffloadVxlan
 
-VXLAN encapsulated packet task offload information in an [**NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2**](ns-ntddndis-_ndis_encapsulated_packet_task_offload_v2.md) structure. This member should only be set by miniport drivers that support task offloads for VXLAN-formatted packets. VXLAN is the same as NVGRE, but with a different protocol.
+VXLAN encapsulated packet task offload information in an [**NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2**](ns-ntddndis-_ndis_encapsulated_packet_task_offload_v2.md) structure. This member should only be set by miniport drivers that support task offloads for VXLAN-formatted packets. VXLAN is similar to NVGRE, but with a different protocol.
 
 <div class="alert"><b>Note</b>  This member is available only in NDIS 6.50 and later. </div>
 <div> </div>
