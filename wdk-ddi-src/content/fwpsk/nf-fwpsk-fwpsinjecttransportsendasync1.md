@@ -264,8 +264,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
     <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF</b>.
 
 The 
-    <i>endpointHandle</i> parameter and members declared in the 
-    
+    <i>endpointHandle</i> parameter and members declared in the     
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552423">FWPS_TRANSPORT_SEND_PARAMS1</a> structure pointed to by the 
     <i>sendArgs</i> parameter are provided to callouts from the following network layers:
 

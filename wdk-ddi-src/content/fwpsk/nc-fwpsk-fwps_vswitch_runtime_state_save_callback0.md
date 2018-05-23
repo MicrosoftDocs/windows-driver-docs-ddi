@@ -162,11 +162,7 @@ An error occurred.
 
 
 
-A callout driver registers a 
-  
-  <i>vSwitchRuntimeStateSaveNotifyFn</i> function  by calling  
-    
-    the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439687">FwpsvSwitchEventsSubscribe0</a>
+A callout driver registers a <i>vSwitchRuntimeStateSaveNotifyFn</i> function  by calling  the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439687">FwpsvSwitchEventsSubscribe0</a>
  function.
 
 If the <i>vSwitchRuntimeStateSaveNotifyFn</i> callback is registered, the callout will be notified to retrieve a source VM’s run-time state and to restore a target VM’s run-time state during live migration or a local save and restore operation. In the save case, the <i>eventType</i> parameter of <i>vSwitchRuntimeStateSaveNotifyFn</i> is set to    FWPS_VSWITCH_EVENT_RUNTIME_STATE_SAVE.

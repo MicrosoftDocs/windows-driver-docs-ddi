@@ -92,21 +92,11 @@ The name of the application.
 
 ### -field FWPS_FIELD_RPC_UM_PROTOCOL
 
+The possible condition values are:
 
-
-#####  The possible condition values are:
-
-
-
-#### RPC_PROTSEQ_TCP
-
-
-
-#### RPC_PROTSEQ_HTTP
-
-
-
-#### RPC_PROTSEQ_NMP
+- RPC_PROTSEQ_TCP
+- RPC_PROTSEQ_HTTP
+- RPC_PROTSEQ_NMP
 
 
 ### -field FWPS_FIELD_RPC_UM_AUTH_TYPE

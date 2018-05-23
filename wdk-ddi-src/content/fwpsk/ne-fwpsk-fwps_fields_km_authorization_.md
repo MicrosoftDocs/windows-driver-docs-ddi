@@ -78,17 +78,10 @@ The type of Keying Module (KM) used.
 
 ### -field FWPS_FIELD_KM_AUTHORIZATION_DIRECTION
 
+The possible values are:
 
-
-#####  The possible values are:
-
-
-
-#### FWP_DIRECTION_INBOUND
-
-
-
-#### FWP_DIRECTION_OUTBOUND
+- FWP_DIRECTION_INBOUND
+- FWP_DIRECTION_OUTBOUND
 
 
 ### -field FWPS_FIELD_KM_AUTHORIZATION_KM_MODE

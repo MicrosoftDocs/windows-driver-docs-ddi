@@ -109,18 +109,10 @@ The index of the logical network interface, as enumerated by the network stack.
 
 ### -field FWPS_FIELD_DATAGRAM_DATA_V4_DIRECTION
 
+The possible values are:
 
-
-#####  The possible values are:
-
-
-
-#### FWP_DIRECTION_INBOUND
-
-
-
-#### FWP_DIRECTION_OUTBOUND
-
+- FWP_DIRECTION_INBOUND
+- FWP_DIRECTION_OUTBOUND
 
 ### -field FWPS_FIELD_DATAGRAM_DATA_V4_FLAGS
 

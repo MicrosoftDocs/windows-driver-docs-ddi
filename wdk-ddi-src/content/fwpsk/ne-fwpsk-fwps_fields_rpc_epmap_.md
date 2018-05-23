@@ -77,21 +77,11 @@ The version of the RPC interface.
 
 ### -field FWPS_FIELD_RPC_EPMAP_PROTOCOL
 
+The possible condition values are:
 
-
-#####  The possible condition values are:
-
-
-
-#### RPC_PROTSEQ_TCP
-
-
-
-#### RPC_PROTSEQ_HTTP
-
-
-
-#### RPC_PROTSEQ_NMP
+- RPC_PROTSEQ_TCP
+- RPC_PROTSEQ_HTTP
+- RPC_PROTSEQ_NMP
 
 
 ### -field FWPS_FIELD_RPC_EPMAP_AUTH_TYPE
