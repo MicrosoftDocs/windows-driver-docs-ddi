@@ -82,7 +82,7 @@ A pointer to a location that receives the number of I/O requests that have been 
 
 
 
-<b>WdfIoQueueGetState</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561417">WDF_IO_QUEUE_STATE</a>-typed value, which can contain the bitwise OR of several <b>WDF_IO_QUEUE_STATE</b> enumerators. 
+<b>WdfIoQueueGetState</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/Ff552373">WDF_IO_QUEUE_STATE</a>-typed value, which can contain the bitwise OR of several <b>WDF_IO_QUEUE_STATE</b> enumerators. 
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -167,7 +167,7 @@ IsQueueIdle(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561417">WDF_IO_QUEUE_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/Ff552373">WDF_IO_QUEUE_STATE</a>
  
 
  

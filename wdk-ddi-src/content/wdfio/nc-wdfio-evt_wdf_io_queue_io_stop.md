@@ -72,7 +72,7 @@ A handle to a framework request object.
 
 ### -param ActionFlags [in]
 
-A bitwise OR of one or more <a href="https://msdn.microsoft.com/library/windows/hardware/ff561465">WDF_REQUEST_STOP_ACTION_FLAGS</a>-typed flags that identify the reason that the callback function is being called and whether the request is cancelable.
+A bitwise OR of one or more <a href="https://msdn.microsoft.com/library/windows/hardware/Ff552501">WDF_REQUEST_STOP_ACTION_FLAGS</a>-typed flags that identify the reason that the callback function is being called and whether the request is cancelable.
 
 
 ## -returns
@@ -187,7 +187,7 @@ The <b>EVT_WDF_IO_QUEUE_IO_STOP</b> function type is defined in the Wdfio.h head
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561465">WDF_REQUEST_STOP_ACTION_FLAGS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/Ff552501">WDF_REQUEST_STOP_ACTION_FLAGS</a>
 
 
 
