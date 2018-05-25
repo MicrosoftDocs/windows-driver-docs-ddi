@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeGetCurrentIrql</b> routine returns the current IRQL.
+The <b>KeGetCurrentIrql</b> routine returns the current IRQL. For information about IRQLs, see [Managing Hardware Priorities](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/managing-hardware-priorities).
 
 
 ## -parameters
@@ -84,7 +84,9 @@ The <b>KeGetCurrentIrql</b> routine returns the current IRQL.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553079">KeRaiseIrql</a>
- 
 
+
+ 
+[Managing Hardware Priorities](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/managing-hardware-priorities)
  
 
