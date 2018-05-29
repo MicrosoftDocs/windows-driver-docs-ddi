@@ -75,7 +75,7 @@ A pointer to a GUID that identifies the device interface class.
 
 ### -param ReferenceString [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that describes a reference string for the device interface. The string must not contain any path separator characters ("/" or "\").  This parameter is optional and can be <b>NULL</b>.   For more information, see the following Remarks section.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> structure that describes a reference string for the device interface. The string must not contain any path separator characters ("/" or "\\").  This parameter is optional and can be <b>NULL</b>.   For more information, see the following Remarks section.
 
 
 ## -returns
