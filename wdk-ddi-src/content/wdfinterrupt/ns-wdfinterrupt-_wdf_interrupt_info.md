@@ -102,7 +102,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERR
 
 ### -field Polarity
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/hh464028">WDF_INTERRUPT_POLARITY</a>-typed enumerator that identifies the interrupt signal's polarity.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/Ff552353">WDF_INTERRUPT_POLARITY</a>-typed enumerator that identifies the interrupt signal's polarity.
 
 
 ### -field MessageSignaled
@@ -124,7 +124,7 @@ A value that identifies the processor group that the <b>TargetProcessorSet</b> m
 
 
 
-The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547367">WdfInterruptGetInfo</a> method. To initialize a <b>WDF_INTERRUPT_INFO</b> structure, your driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/hh464024">WDF_INTERRUPT_INFO_INIT</a> before calling <b>WdfInterruptGetInfo</b>.
+The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547367">WdfInterruptGetInfo</a> method. To initialize a <b>WDF_INTERRUPT_INFO</b> structure, your driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/Ff552352">WDF_INTERRUPT_INFO_INIT</a> before calling <b>WdfInterruptGetInfo</b>.
 
 
 
@@ -142,11 +142,11 @@ The <b>WDF_INTERRUPT_INFO</b> structure is used as input to the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464024">WDF_INTERRUPT_INFO_INIT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/Ff552352">WDF_INTERRUPT_INFO_INIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464028">WDF_INTERRUPT_POLARITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/Ff552353">WDF_INTERRUPT_POLARITY</a>
 
 
 

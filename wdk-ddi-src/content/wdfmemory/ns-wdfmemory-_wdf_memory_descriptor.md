@@ -112,7 +112,7 @@ A handle to a framework memory object.
 
 ### -field u.HandleType.Offsets
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561398">WDFMEMORY_OFFSET</a> structure that describes a subsection of the buffer that is represented by the memory object. 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/Ff548718">WDFMEMORY_OFFSET</a> structure that describes a subsection of the buffer that is represented by the memory object. 
 
 
 ## -remarks
@@ -131,7 +131,7 @@ To initialize a <b>WDF_MEMORY_DESCRIPTOR</b> structure, your driver should call 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561398">WDFMEMORY_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/Ff548718">WDFMEMORY_OFFSET</a>
 
 
 
