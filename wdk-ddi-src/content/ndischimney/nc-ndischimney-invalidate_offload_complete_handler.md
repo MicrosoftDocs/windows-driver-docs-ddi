@@ -95,8 +95,7 @@ None
 
 In response to an underlying offload target's or intermediate driver's call to the 
     <a href="https://msdn.microsoft.com/fd14e983-ea4b-41f2-973d-88b114306e75">
-    NdisMInvalidateOffloadComplete</a> function, NDIS calls the overlying protocol or intermediate driver's
-    
+    NdisMInvalidateOffloadComplete</a> function, NDIS calls the overlying protocol or intermediate driver's    
     <i>ProtocolInvalidateOffloadComplete</i> function.
 
 An intermediate driver must propagate the completion of the initiate offload operation to the driver
