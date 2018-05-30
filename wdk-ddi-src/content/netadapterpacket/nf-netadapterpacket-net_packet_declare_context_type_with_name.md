@@ -107,8 +107,6 @@ for (UINT i = 0; i < ringBuffer->NumberOfElements; i++) {
 }
 ```
 
-In NetAdapterCx 1.1, the ability to add more than one packet context was introduced.
-
 For queues with one packet context, use the first accessor method created by NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME to get to your context for a packet.
 
 ```c++
