@@ -61,15 +61,6 @@ The
 
 ### -param _L
 
-TBD
-
-
-
-
-
-
-#### - Lookaside [in]
-
 A pointer to the head of the lookaside list to be deleted.
 
 

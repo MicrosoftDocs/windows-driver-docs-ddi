@@ -62,51 +62,21 @@ The
 
 ### -param _S
 
-TBD
+A pointer to a caller-supplied variable in which this function returns the final status of the DMA
+     transfer, which can be one of the following:
+
+#### NDIS_STATUS_SUCCESS
+
+The data has been transferred and flushed to host memory or to the device to maintain data
+       integrity.
+
+
+#### NDIS_STATUS_RESOURCES
+
+The DMA controller was released but the data transfer might be incoherent.
 
 
 ### -param _H
-
-TBD
-
-
-### -param _B
-
-TBD
-
-
-### -param _O
-
-TBD
-
-
-### -param _L
-
-TBD
-
-
-### -param _M_
-
-TBD
-
-
-
-
-
-
-#### - Buffer [in]
-
-A pointer to the buffer descriptor previously passed to 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563675">NdisMSetupDmaTransfer</a>.
-
-
-#### - Length [in]
-
-The length in bytes of the transfer. This value also was passed to 
-     <b>NdisMSetupDmaTransfer</b>.
-
-
-#### - MiniportDmaHandle [in]
 
 The handle returned when the 
      <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
@@ -115,38 +85,27 @@ The handle returned when the
      NdisMRegisterDmaChannel</a> function.
 
 
-#### - Offset [in]
+### -param _B
+
+A pointer to the buffer descriptor previously passed to 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563675">NdisMSetupDmaTransfer</a>.
+
+
+### -param _O
 
 The byte offset at which the transfer began. This value also was passed to 
      <b>NdisMSetupDmaTransfer</b>.
 
 
-#### - Status [out]
+### -param _L
 
-A pointer to a caller-supplied variable in which this function returns the final status of the DMA
-     transfer, which can be one of the following:
-     
-
+The length in bytes of the transfer. This value also was passed to 
+     <b>NdisMSetupDmaTransfer</b>.
 
 
-
-
-#### NDIS_STATUS_SUCCESS
-
-The data has been transferred and flushed to host memory or to the device to maintain data
-       integrity.
-
-
-
-#### NDIS_STATUS_RESOURCES
-
-The DMA controller was released but the data transfer might be incoherent.
-
-
-#### - WriteToDevice [in]
+### -param _M_
 
 <b>TRUE</b> if the transfer was from the host to the NIC, as, for example, a send operation.
-
 
 ## -remarks
 

@@ -76,17 +76,9 @@ A handle to a caller-provided context area for this network interface provider. 
 
 ### -param pNdisIfProviderHandle
 
-TBD
-
-
-
-
-#### - pNdisProviderHandle [out]
-
 A pointer to a caller-provided handle variable. If the registration operation succeeds, NDIS
      writes a handle to this variable that identifies the network interface provider. The interface provider
      should retain this handle for use in subsequent calls that require an interface provider handle.
-
 
 ## -returns
 

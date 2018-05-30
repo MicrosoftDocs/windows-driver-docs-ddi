@@ -115,8 +115,7 @@ If it passes NDIS_STATUS_SUCCESS as the
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a> with the same 
     <i>NdisVcHandle</i> that it just passed to 
     <b>NdisCmCloseCallComplete</b>. If the client created this VC, the call manager can expect a call to its 
-    <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function with the
-    
+    <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function with the    
     <i>ProtocolVcContext</i>, where it has the same 
     <i>NdisVcHandle</i>, as an input parameter.
 

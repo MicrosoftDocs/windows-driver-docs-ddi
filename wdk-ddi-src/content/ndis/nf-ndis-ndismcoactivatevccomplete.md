@@ -63,11 +63,9 @@ req.typenames:
 
 ### -param Status [in]
 
-
-
-
-
-##### 
+Specifies the final status of the activate-VC operation, which can be NDIS_STATUS_SUCCESS or any
+     NDIS_STATUS_
+     <i>XXX except</i> NDIS_STATUS_PENDING.
 
 
 ### -param NdisVcHandle [in]

@@ -72,8 +72,7 @@ The
 
 ### -field PortNumber
 
-The source port of the PnP event notification. If the status indication is not specific to a port,
-     
+The source port of the PnP event notification. If the status indication is not specific to a port,     
      <b>PortNumber</b> is zero.
 
 

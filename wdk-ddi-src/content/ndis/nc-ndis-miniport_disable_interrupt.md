@@ -93,8 +93,7 @@ Miniport drivers should disable and enable interrupts as explained in the
     pages.
 
 NDIS calls the 
-    <a href="https://msdn.microsoft.com/61edeb80-a686-4b8c-ae19-4757616151ef">MiniportEnableInterruptEx</a> and
-    
+    <a href="https://msdn.microsoft.com/61edeb80-a686-4b8c-ae19-4757616151ef">MiniportEnableInterruptEx</a> and    
     <i>MiniportDisableInterruptEx</i> functions to enable and disable interrupts for diagnostic and
     troubleshooting purposes. Typically, 
     <i>MiniportEnableInterruptEx</i> and 

@@ -64,8 +64,10 @@ The
 
 ### -param ifType
 
-TBD
-
+The Internet Assigned Numbers Authority (IANA) interface type for an index. For example,
+     IF_TYPE_ETHERNET_CSMACD (6) is the value for 
+     <i>IfType</i> that is assigned to any Ethernet-like interface. For a list of interface types, see 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565767">NDIS Interface Types</a>.
 
 ### -param pNetLuidIndex [out]
 
@@ -73,14 +75,6 @@ A pointer to a caller-supplied
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> index variable. If allocation is
      successful, 
      <b>NdisIfAllocateNetLuidIndex</b> sets this variable to the allocated 24-bit NET_LUID index value.
-
-
-#### - IfType [in]
-
-The Internet Assigned Numbers Authority (IANA) interface type for an index. For example,
-     IF_TYPE_ETHERNET_CSMACD (6) is the value for 
-     <i>IfType</i> that is assigned to any Ethernet-like interface. For a list of interface types, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565767">NDIS Interface Types</a>.
 
 
 ## -returns

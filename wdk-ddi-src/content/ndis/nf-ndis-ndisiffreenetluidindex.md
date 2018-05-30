@@ -66,22 +66,17 @@ The
 
 ### -param ifType
 
-TBD
-
+The interface type that the index was allocated for. The caller must provide the same value that
+     it used when it allocated the NET_LUID index with 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562695">NdisIfAllocateNetLuidIndex</a>.
+     For a list of interface types, see 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565767">NDIS Interface Types</a>.
 
 ### -param NetLuidIndex [in]
 
 The NET_LUID index value that NDIS should free. This index was allocated in a previous call to 
      <b>NdisIfAllocateNetLuidIndex</b>.
 
-
-#### - IfType [in]
-
-The interface type that the index was allocated for. The caller must provide the same value that
-     it used when it allocated the NET_LUID index with 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562695">NdisIfAllocateNetLuidIndex</a>.
-     For a list of interface types, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565767">NDIS Interface Types</a>.
 
 
 ## -returns

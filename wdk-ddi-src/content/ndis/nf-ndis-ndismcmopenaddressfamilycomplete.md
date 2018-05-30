@@ -63,42 +63,20 @@ req.typenames:
 
 ### -param _S_
 
-TBD
-
-
-### -param _H_
-
-TBD
-
-
-### -param _C_
-
-TBD
-
-
-
-
-
-
-#### - CallMgrAfContext [in]
-
-Specifies the handle to a caller-allocated resident context area, in which the MCM driver
-     maintains state about this client's open of the address family, including the 
-     <i>NdisAfHandle</i>, if the open succeeded. Otherwise, NDIS ignores this parameter.
-
-
-#### - NdisAfHandle [in]
-
-Specifies the NDIS-supplied handle that was input to the MCM driver's 
-     <i>ProtocolCmOpenAf</i> function, which returned NDIS_STATUS_PENDING.
-
-
-#### - Status [in]
-
 Specifies the final status of the client's request to open the AF, either NDIS_STATUS_SUCCESS or
      any caller-determined NDIS_STATUS_
      <i>XXX</i> except NDIS_STATUS_PENDING.
 
+### -param _H_
+
+Specifies the NDIS-supplied handle that was input to the MCM driver's 
+     <i>ProtocolCmOpenAf</i> function, which returned NDIS_STATUS_PENDING.
+
+### -param _C_
+
+Specifies the handle to a caller-allocated resident context area, in which the MCM driver
+     maintains state about this client's open of the address family, including the 
+     <i>NdisAfHandle</i>, if the open succeeded. Otherwise, NDIS ignores this parameter.
 
 ## -remarks
 

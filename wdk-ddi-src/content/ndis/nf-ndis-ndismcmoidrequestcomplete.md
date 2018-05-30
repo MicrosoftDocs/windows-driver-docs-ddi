@@ -64,49 +64,11 @@ The
 
 ### -param _AH_
 
-TBD
-
-
-### -param _VH_
-
-TBD
-
-
-### -param _PH_
-
-TBD
-
-
-### -param _R_
-
-TBD
-
-
-### -param _S_
-
-TBD
-
-
-
-
-
-
-#### - NdisAfHandle [in]
-
 An address family (AF) handle that NDIS passed to the MCM's 
      <a href="https://msdn.microsoft.com/8247396f-8781-45da-aba1-a31a2a26a46f">
      ProtocolCoOidRequest</a> function.
 
-
-#### - NdisPartyHandle [in, optional]
-
-A party handle that NDIS passed to the MCM's 
-     <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
-     party-specific. This parameter is <b>NULL</b> if the caller of the 
-     <b>NdisCoOidRequest</b> function specified a <b>NULL</b> party handle.
-
-
-#### - NdisVcHandle [in, optional]
+### -param _VH_
 
 A virtual connection (VC) handle that NDIS passed to the MCM's 
      <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
@@ -114,22 +76,26 @@ A virtual connection (VC) handle that NDIS passed to the MCM's
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561711">NdisCoOidRequest</a> function specified a
      <b>NULL</b> VC handle.
 
+### -param _PH_
 
-#### - OidRequest [in]
+A party handle that NDIS passed to the MCM's 
+     <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
+     party-specific. This parameter is <b>NULL</b> if the caller of the 
+     <b>NdisCoOidRequest</b> function specified a <b>NULL</b> party handle.
+
+### -param _R_
 
 A pointer to an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that the caller
      of the 
      <b>NdisCoOidRequest</b> function supplied.
 
-
-#### - Status [in]
+### -param _S_
 
 The final status of the request operation. This parameter can be NDIS_STATUS_SUCCESS,
      NDIS_STATUS_REQUEST_ABORTED, or any driver-determined NDIS_STATUS_<i>XXX</i> status value
      <u>except</u> NDIS_STATUS_PENDING.
-
-
+     
 ## -remarks
 
 

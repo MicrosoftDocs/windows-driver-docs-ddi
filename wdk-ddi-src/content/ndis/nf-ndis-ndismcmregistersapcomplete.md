@@ -63,42 +63,22 @@ req.typenames:
 
 ### -param _S_
 
-TBD
-
+Specifies the final status for the client's original request to register the SAP, either
+     NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
 
 ### -param _H_
-
-TBD
-
-
-### -param _C_
-
-TBD
-
-
-
-
-
-
-#### - CallMgrSapContext [in]
-
-Specifies the handle to a caller-supplied resident context area in which the MCM driver maintains
-     state for this SAP if the registration is successful. If so, NDIS passes this handle back to the to the
-     MCM driver in all subsequent calls concerning this SAP. If 
-     <i>Status</i> is set to something other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
-
-
-#### - NdisSapHandle [in]
 
 Specifies the NDIS-supplied handle to the SAP if the registration is successful. The call manager
      obtained this handle as an input parameter to its 
      <i>ProtocolCmRegisterSap</i> function.
 
 
-#### - Status [in]
+### -param _C_
 
-Specifies the final status for the client's original request to register the SAP, either
-     NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
+Specifies the handle to a caller-supplied resident context area in which the MCM driver maintains
+     state for this SAP if the registration is successful. If so, NDIS passes this handle back to the to the
+     MCM driver in all subsequent calls concerning this SAP. If 
+     <i>Status</i> is set to something other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
 
 
 ## -remarks

@@ -61,59 +61,11 @@ req.typenames:
 
 ### -param _S_
 
-TBD
-
+Specifies the final status of the attempt to make the connection, either NDIS_STATUS_SUCCESS or
+     any caller-determined NDIS_STATUS_
+     <i>XXX</i> except NDIS_STATUS_PENDING.
 
 ### -param _VH_
-
-TBD
-
-
-### -param _PH_
-
-TBD
-
-
-### -param _CC_
-
-TBD
-
-
-### -param _CP_
-
-TBD
-
-
-
-
-
-
-#### - CallMgrPartyContext [in, optional]
-
-Specifies the handle to a caller-allocated resident context area, in which the MCM driver will
-     maintain per-party state information, or this parameter is <b>NULL</b> if 
-     <i>NdisPartyHandle</i> is <b>NULL</b>. For a multipoint VC, NDIS passes this MCM-driver-supplied 
-     <i>CallManagerPartyContext</i> handle in all subsequent calls to the ProtocolCm<i>Xxx</i> functions that concern this party. If 
-     <i>Status</i> is anything other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
-
-
-#### - CallParameters [in]
-
-Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
-     parameters set up for this connection if 
-     <i>Status</i> is NDIS_STATUS_SUCCESS.
-
-
-#### - NdisPartyHandle [in, optional]
-
-Specifies the handle to the initial party on the client-created multipoint VC, which the MCM
-     driver obtained as an input parameter to its 
-     <i>ProtocolCmMakeCall</i> function. If the given 
-     <i>NdisVcHandle</i> represented a point-to-point VC, this parameter was <b>NULL</b>.
-
-
-#### - NdisVcHandle [in]
 
 Specifies the handle to the client-created VC, which the MCM driver obtained as an input parameter
      to its 
@@ -122,13 +74,28 @@ Specifies the handle to the client-created VC, which the MCM driver obtained as 
      <i>CallMgrVcContext</i> passed to its 
      <a href="https://msdn.microsoft.com/ede0a18a-cd3b-4fbb-a16b-e7493940d633">ProtocolCmMakeCall</a> function.
 
+### -param _PH_
 
-#### - Status [in]
+Specifies the handle to the initial party on the client-created multipoint VC, which the MCM
+     driver obtained as an input parameter to its 
+     <i>ProtocolCmMakeCall</i> function. If the given 
+     <i>NdisVcHandle</i> represented a point-to-point VC, this parameter was <b>NULL</b>.
 
-Specifies the final status of the attempt to make the connection, either NDIS_STATUS_SUCCESS or
-     any caller-determined NDIS_STATUS_
-     <i>XXX</i> except NDIS_STATUS_PENDING.
+### -param _CC_
 
+Specifies the handle to a caller-allocated resident context area, in which the MCM driver will
+     maintain per-party state information, or this parameter is <b>NULL</b> if 
+     <i>NdisPartyHandle</i> is <b>NULL</b>. For a multipoint VC, NDIS passes this MCM-driver-supplied 
+     <i>CallManagerPartyContext</i> handle in all subsequent calls to the ProtocolCm<i>Xxx</i> functions that concern this party. If 
+     <i>Status</i> is anything other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
+
+
+### -param _CP_
+
+Pointer to a structure of type 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
+     parameters set up for this connection if 
+     <i>Status</i> is NDIS_STATUS_SUCCESS.
 
 ## -remarks
 

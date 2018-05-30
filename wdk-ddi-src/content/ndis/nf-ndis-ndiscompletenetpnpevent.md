@@ -73,23 +73,17 @@ The handle that NDIS provided at the
 
 ### -param NetPnPEventNotification
 
-TBD
-
+A pointer to a 
+     <a href="https://msdn.microsoft.com/58d3baf3-a1fa-42ae-b795-2774a148aeda">
+     NET_PNP_EVENT_NOTIFICATION</a> structure that NDIS passed to the caller's 
+     <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">
+     ProtocolNetPnPEvent</a> function.
 
 ### -param Status [in]
 
 The protocol driver's response to the pending Plug and Play or Power Management event
      notification. To succeed such an event, specify NDIS_STATUS_SUCCESS. For information about other status
      values, see the return values of the 
-     <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">
-     ProtocolNetPnPEvent</a> function.
-
-
-#### - NetPnPEvent [in]
-
-A pointer to a 
-     <a href="https://msdn.microsoft.com/58d3baf3-a1fa-42ae-b795-2774a148aeda">
-     NET_PNP_EVENT_NOTIFICATION</a> structure that NDIS passed to the caller's 
      <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">
      ProtocolNetPnPEvent</a> function.
 

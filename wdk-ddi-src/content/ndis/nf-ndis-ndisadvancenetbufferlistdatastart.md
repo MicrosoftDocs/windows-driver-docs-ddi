@@ -84,19 +84,11 @@ If <b>TRUE</b> and NDIS allocated memory to satisfy the corresponding
 
 ### -param FreeMdlMdlHandler
 
-TBD
-
-
-
-
-#### - FreeMdlHandler [in, optional]
-
 An optional entry point for an 
      <a href="https://msdn.microsoft.com/a92b2de9-231d-4dcc-8220-857063a35eb1">NetFreeMdl</a> function. If the caller
      specifies an entry point for the 
      <i>NetFreeMdl</i> function, NDIS calls 
      <i>NetFreeMdl</i> to free an MDL and memory.
-
 
 ## -returns
 
@@ -117,8 +109,7 @@ None
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. If 
     <i>FreeMdl</i> is <b>TRUE</b> and 
     <a href="https://msdn.microsoft.com/76a1294f-d098-4751-9b59-923993379c6e">
-    NdisRetreatNetBufferListDataStart</a> allocated memory to satisfy the corresponding allocation request,
-    
+    NdisRetreatNetBufferListDataStart</a> allocated memory to satisfy the corresponding allocation request,    
     <b>NdisAdvanceNetBufferListDataStart</b> frees the allocated memory. Calling this function is equivalent
     to calling 
     <a href="https://msdn.microsoft.com/49b69282-137d-4bb5-92f5-4d27cedbb6d4">

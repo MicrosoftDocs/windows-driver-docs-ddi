@@ -61,75 +61,8 @@ The
 
 ### -param _S
 
-TBD
-
-
-### -param _H
-
-TBD
-
-
-### -param _B
-
-TBD
-
-
-### -param _O
-
-TBD
-
-
-### -param _L
-
-TBD
-
-
-### -param _M_
-
-TBD
-
-
-
-
-
-
-#### - Buffer [in]
-
-A pointer to the buffer descriptor mapping the range of host memory from which or into which the
-     data will be transferred.
-
-
-#### - Length [in]
-
-The number of bytes of data to be transferred. The range specified by 
-     <i>Offset</i> and 
-     <i>Length</i> must be a proper subrange of that specified at 
-     <i>Buffer</i> .
-
-
-#### - MiniportDmaHandle [in]
-
-The DMA handle returned by the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a> function
-     during initialization.
-
-
-#### - Offset [in]
-
-The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
-     transfer should begin at the initial byte of the range specified at 
-     <i>Buffer</i> .
-
-
-#### - Status [out]
-
 A pointer to a caller-supplied variable in which this function returns the status of the request,
      which can be one of the following:
-     
-
-
-
-
 
 #### NDIS_STATUS_SUCCESS
 
@@ -146,7 +79,34 @@ An attempt to set up the DMA controller for the transfer has failed, either beca
        <i>Length</i> is invalid.
 
 
-#### - WriteToDevice [in]
+### -param _H
+
+The DMA handle returned by the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a> function
+     during initialization.
+
+### -param _B
+
+A pointer to the buffer descriptor mapping the range of host memory from which or into which the
+     data will be transferred.
+
+
+### -param _O
+
+The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
+     transfer should begin at the initial byte of the range specified at 
+     <i>Buffer</i> .
+
+
+### -param _L
+
+The number of bytes of data to be transferred. The range specified by 
+     <i>Offset</i> and 
+     <i>Length</i> must be a proper subrange of that specified at 
+     <i>Buffer</i> .
+
+
+### -param _M_
 
 A boolean value that is <b>TRUE</b> for an outbound transfer from the system through the NIC. Otherwise,
      it is <b>FALSE</b>.

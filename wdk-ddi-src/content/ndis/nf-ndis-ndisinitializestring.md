@@ -63,26 +63,13 @@ The
 
 ### -param Destination
 
-TBD
-
-
-### -param Source
-
-TBD
-
-
-
-
-#### - DestinationString [out]
-
 A pointer that is <b>NULL</b> when 
      <b>NdisInitializeString</b> is called; on return from this function, this parameter points to an
      NDIS_STRING type that describes an initialized counted string. For Windows 2000 and later, NDIS defines
      the NDIS_STRING type as a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
-
-#### - SourceString [in]
+### -param Source
 
 A pointer to a null-terminated string with which to initialize the counted string. 
      <i>SourceString</i> must not be <b>NULL</b>.

@@ -61,33 +61,17 @@ req.typenames:
 
 ### -param _S_
 
-TBD
-
+Specifies the final status of the requested operation, either NDIS_STATUS_SUCCESS or any
+     caller-determined NDIS_STATUS_
+     <i>XXX</i> except NDIS_STATUS_PENDING.
 
 ### -param _H_
-
-TBD
-
-
-
-
-
-
-#### - NdisPartyHandle [in]
 
 Specifies the handle to the party that the client requested be dropped. The MCM driver obtained
      this handle from its per-party state area designated by 
      <i>CallMgrPartyContext</i> that was passed as an input parameter to its 
      <a href="https://msdn.microsoft.com/be0fce3e-7308-42fa-b63a-4d5cfec7ea6c">
      ProtocolCmDropParty</a> function.
-
-
-#### - Status [in]
-
-Specifies the final status of the requested operation, either NDIS_STATUS_SUCCESS or any
-     caller-determined NDIS_STATUS_
-     <i>XXX</i> except NDIS_STATUS_PENDING.
-
 
 ## -remarks
 

@@ -69,13 +69,15 @@ A pointer to an existing NET_BUFFER_LIST structure.
 
 ### -param NetBufferListPool
 
-TBD
-
+A handle that was obtained from a call to the 
+     <a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
+     NdisAllocateNetBufferListPool</a> function.
 
 ### -param NetBufferPool
 
-TBD
-
+A NET_BUFFER structure pool handle that was previously returned from a call to 
+     <a href="https://msdn.microsoft.com/bc27758a-a793-48a1-a6ab-bd193aa9c61a">
+     NdisAllocateNetBufferPool</a>.
 
 ### -param StartOffset [in]
 
@@ -110,21 +112,6 @@ The amount of data space in addition to the value of the
 
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
-
-
-#### - NetBufferListPoolHandle [in, optional]
-
-A handle that was obtained from a call to the 
-     <a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
-     NdisAllocateNetBufferListPool</a> function.
-
-
-#### - NetBufferPoolHandle [in, optional]
-
-A NET_BUFFER structure pool handle that was previously returned from a call to 
-     <a href="https://msdn.microsoft.com/bc27758a-a793-48a1-a6ab-bd193aa9c61a">
-     NdisAllocateNetBufferPool</a>.
-
 
 ## -returns
 

@@ -73,23 +73,6 @@ A miniport adapter handle that NDIS passed to the
 
 ### -param NdisMiniportVcHandle
 
-TBD
-
-
-### -param Request
-
-TBD
-
-
-### -param Status [in]
-
-The final status of the request operation, either NDIS_STATUS_SUCCESS,
-     NDIS_STATUS_REQUEST_ABORTED, or any driver-determined NDIS_STATUS_<i>XXX</i> value 
-     <u>except</u> NDIS_STATUS_PENDING.
-
-
-#### - NdisVcHandle [in]
-
 A handle that identifies the virtual connection (VC). The miniport driver obtained this handle as
      an input parameter to its 
      <a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a> function, either
@@ -98,14 +81,20 @@ A handle that identifies the virtual connection (VC). The miniport driver obtain
      If the request is 
      <u>not</u> VC-specific, this parameter is <b>NULL</b>.
 
-
-#### - OidRequest [in]
+### -param Request
 
 A pointer to a buffer that is formatted as an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure. The miniport
      driver obtained this pointer as an input parameter to its 
      <a href="https://msdn.microsoft.com/903bcdc5-9d42-4067-a054-057edc95ccf7">
      MiniportCoOidRequest</a> function.
+
+
+### -param Status [in]
+
+The final status of the request operation, either NDIS_STATUS_SUCCESS,
+     NDIS_STATUS_REQUEST_ABORTED, or any driver-determined NDIS_STATUS_<i>XXX</i> value 
+     <u>except</u> NDIS_STATUS_PENDING.
 
 
 ## -returns

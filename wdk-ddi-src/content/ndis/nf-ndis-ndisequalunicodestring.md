@@ -72,18 +72,8 @@ A pointer to an NDIS_STRING type that describes the second Unicode string.
 
 ### -param _CaseInsensitive
 
-TBD
-
-
-
-
-
-
-#### - CaseInSensitive [in]
-
 A Boolean value that is <b>TRUE</b>, if case should be ignored when doing the comparison. Otherwise, it
      is <b>FALSE</b>.
-
 
 ## -remarks
 
