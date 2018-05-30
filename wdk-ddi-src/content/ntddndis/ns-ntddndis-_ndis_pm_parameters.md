@@ -186,7 +186,6 @@ A value from the incoming packet in the location specified by the WOL pattern is
 
 <div class="alert"><b>Note</b>  Wildcard values that are enabled by this flag can include unspecified IPv6
          source and destination addresses, as well as unspecified source and destination ports.</div>
-<div> </div>
 
 
 
