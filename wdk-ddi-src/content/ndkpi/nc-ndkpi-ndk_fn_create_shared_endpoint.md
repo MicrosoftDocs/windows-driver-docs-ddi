@@ -65,6 +65,7 @@ A pointer to an NDK adapter object (<a href="https://msdn.microsoft.com/library/
 
 ### -param PSOCKADDR
 
+A local address to use for initiating outgoing connections. For AF_INET or AF_INET6 <i>pAddress</i> contains the local IP address and local ND port.
 
 ### -param AddressLength [in]
 
@@ -83,21 +84,10 @@ A pointer to an <i>NdkCreateCompletion</i> (<a href="https://msdn.microsoft.com/
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
 
-#### - **ppNdkSharedEndpoint
+#### -param **ppNdkSharedEndpoint
 
 A pointer to a created shared endpoint object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439937">NDK_SHARED_ENDPOINT</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
-
-#### - pAddress
-
-A local address to use for initiating outgoing connections. For AF_INET or AF_INET6 <i>pAddress</i> contains the local IP address and local ND port.
-
-
-
-
-#### - ppNdkSharedEndpoint
-
-A pointer to a created shared endpoint object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439937">NDK_SHARED_ENDPOINT</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 
 
 ## -returns

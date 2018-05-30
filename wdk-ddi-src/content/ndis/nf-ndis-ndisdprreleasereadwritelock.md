@@ -66,7 +66,7 @@ The
 A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567277">NDIS_RW_LOCK</a> variable for the acquired lock to be released.
 
 
-### -param param
+### -param LockState
 
 A pointer to an opaque <a href="https://msdn.microsoft.com/library/windows/hardware/ff557067">LOCK_STATE</a> variable that tracks the state of the lock. This variable exists
      in the interval between the time the caller acquires and releases the lock.

@@ -72,6 +72,8 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 
 ### -param NDK_SGE
 
+An array of SGE (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439936">NDK_SGE</a>)  structures that represent the buffers holding the data to send.
+
 
 ### -param nSge [in]
 
@@ -152,11 +154,6 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 ### -param RemoteToken [in]
 
 The remote token to be invalidated at the peer upon receive completion. The NDK provider at the receiving peer must abort the connection, as specified by lower layer transport rules, if an invalid token was specified by the sending peer.
-
-
-#### - pSgl
-
-An array of SGE (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439936">NDK_SGE</a>)  structures that represent the buffers holding the data to send.
 
 
 ## -returns
