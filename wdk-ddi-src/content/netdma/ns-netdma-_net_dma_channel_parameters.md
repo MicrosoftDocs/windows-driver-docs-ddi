@@ -85,8 +85,7 @@ A set of bits for flags that define DMA channel attributes. Set this member to z
 ### -field CompletionVirtualAddress
 
 The virtual address of the memory location where the DMA engine can write the DMA transfer
-     completion status. This virtual address is associated with the physical address that is specified in the
-     
+     completion status. This virtual address is associated with the physical address that is specified in the     
      <b>CompletionPhysicalAddress</b> member.
 
 
@@ -191,8 +190,7 @@ A DMA channel priority value that represents the priority for the DMA channel re
 ### -field CpuNumber
 
 The CPU number that is associated with the DMA channel. The DMA provider driver sets the value
-     before it returns from the 
-     
+     before it returns from the      
      <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a> function. The DMA engine uses this CPU for interrupt DPCs that are
      associated with the DMA channel. If the DMA engine and computer configuration support MSI-X, the
      interrupt should also be associated with the indicated CPU number, unless there was no MSI-X interrupt
@@ -208,8 +206,7 @@ The group number and a bitmap of the CPUs that this DMA channel could be associa
 
 
 
-Before using a DMA channel, the NetDMA interface calls the 
-    
+Before using a DMA channel, the NetDMA interface calls the     
     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a> function of the DMA provider driver to allocate and initialize the DMA
     channel.
 
