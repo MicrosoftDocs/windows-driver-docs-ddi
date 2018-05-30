@@ -73,6 +73,6 @@ The required minimum output length for the request.
 This method does not return a value.
 
 ## -remarks
-The minimum NetAdapterCx version for **NET_REQUEST_QUEUE_METHOD_HANDLER_INIT** is 1.0.
+
 
 ## -see-also

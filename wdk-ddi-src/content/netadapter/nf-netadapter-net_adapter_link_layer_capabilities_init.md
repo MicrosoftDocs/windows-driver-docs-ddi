@@ -81,7 +81,7 @@ This method does not return a value.
 
 **NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT** zeroes out the [NET_ADAPTER_LINK_LAYER_CAPABILITIES](ns-netadapter-_net_adapter_link_layer_capabilities.md) structure and then sets all of its members.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT** is 1.1.
+
 
 ### Example
 

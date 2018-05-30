@@ -73,7 +73,7 @@ The client driver must call **NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DM
 
 Before calling **NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA**, the driver must have allocated a [NET_ADAPTER_DMA_CAPABILITIES](ns-netadapter-_net_adapter_dma_capabilities.md) structure and initialized it with [NET_ADAPTER_DMA_CAPABILITIES_INIT](nf-netadapter-net_adapter_dma_capabilities_init.md). This DMA capabilities structure is then assigned to the **DmaCapabilities** member of the **NET_ADAPTER_RX_CAPABILITIES** structure.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA** is 1.2.
+
 
 ## -see-also
 [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md)

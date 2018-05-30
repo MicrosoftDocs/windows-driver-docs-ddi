@@ -67,6 +67,10 @@ The length, in bytes, of the string stored in <b>Buffer</b>.
 
 The length, in bytes, of <b>Buffer</b>.
 
+### -field Buffer
+
+Pointer to a buffer used to contain a string of wide characters.
+
 
 ### -field Buffer.size_is
 
@@ -84,14 +88,6 @@ The length, in bytes, of <b>Buffer</b>.
 
 
 ### -field Buffer.length_is.(Length)/2
-
- 
-
-
-### -field Buffer
-
-Pointer to a buffer used to contain a string of wide characters.
-
 
 ## -remarks
 

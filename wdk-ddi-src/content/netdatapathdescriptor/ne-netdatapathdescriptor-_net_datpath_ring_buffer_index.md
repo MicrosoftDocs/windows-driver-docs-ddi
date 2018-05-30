@@ -56,9 +56,11 @@ NIC client drivers should not use this enumeration directly. Instead, they shoul
 - [NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER](nf-netdatapathdescriptor-net_datapath_descriptor_get_packet_ring_buffer.md)
 - [NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER](nf-netdatapathdescriptor-net_datapath_descriptor_get_fragment_ring_buffer.md)
 
-The minimum NetAdapterCx version for **NET_DATAPATH_RING_BUFFER_INDEX** is 1.2.
+
 
 ## -see-also
+
+[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [NET_DATAPATH_DESCRIPTOR](ns-netdatapathdescriptor-_net_datapath_descriptor.md)
 

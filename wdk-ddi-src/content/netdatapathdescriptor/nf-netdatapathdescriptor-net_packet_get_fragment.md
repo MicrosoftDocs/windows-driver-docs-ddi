@@ -93,6 +93,8 @@ for(UINT32 i = 0; i < fragmentCount; i++)
 
 ```
 
-The minimum NetAdapterCx version for **NET_PACKET_GET_FRAGMENT** is 1.2.
+
 
 ## -see-also
+
+[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

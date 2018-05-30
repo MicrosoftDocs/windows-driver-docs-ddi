@@ -61,7 +61,7 @@ A handle to a network request object.
 Returns an NDIS_NIC_SWITCH_VPORT_ID value that specifies the identifier associated with the net request object. 
 
 ## -remarks
-The minimum NetAdapterCx version for **NetRequestGetVPortId** is 1.0.
+
 
 ## -see-also
 

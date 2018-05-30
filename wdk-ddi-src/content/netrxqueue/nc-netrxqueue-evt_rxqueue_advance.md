@@ -86,7 +86,7 @@ NetAdapterCx serializes this callback function along with the receive queue's *[
 
 For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
 
-The minimum NetAdapterCx version for *EVT_RXQUEUE_ADVANCE* is 1.0.
+
 
 ### Example
 

@@ -60,7 +60,7 @@ Returns a [NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE](ne-netreceivescaling-_net_
 ## -remarks
 Client drivers typically call this method from their *[EvtNetAdapterReceiveScalingEnable](nc-netreceivescaling-evt_net_adapter_receive_scaling_enable.md)* callback function when enabling RSS on the NIC.
 
-The minimum NetAdapterCx version for **NetAdapterGetReceiveScalingProtocolTypes** is 1.2.
+
 
 ## -see-also
 *[EvtNetAdapterReceiveScalingEnable](nc-netreceivescaling-evt_net_adapter_receive_scaling_enable.md)*

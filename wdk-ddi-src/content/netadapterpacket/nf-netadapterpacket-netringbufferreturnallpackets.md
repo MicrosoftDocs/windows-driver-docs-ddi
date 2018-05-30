@@ -62,6 +62,6 @@ Call **NetTx(Rx)QueueGetDatapathDescriptor** to obtain the datapath descriptor s
 
 This method is a convenience function to return all outstanding packets. Typically, you would call this method from your *[EvtRxQueueCancel](../netrxqueue/nc-netrxqueue-evt_rxqueue_cancel.md)* callback function.
 
-The minimum NetAdapterCx version for **NetRingBufferReturnAllPackets** is 1.2.
+
 
 ## -see-also

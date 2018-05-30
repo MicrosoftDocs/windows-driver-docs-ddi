@@ -61,6 +61,6 @@ A handle to a network request object.
 Returns the object identifier for the network request object. The value is an OID\_*XXX* code. 
 
 ## -remarks
-The minimum NetAdapterCx version for **NetRequestGetId** is 1.0.
+
 
 ## -see-also

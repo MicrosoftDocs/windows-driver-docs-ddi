@@ -67,6 +67,6 @@ A [NET_REQUEST_QUEUE_TYPE](ne-netrequestqueue-_net_request_queue_type.md) enumer
 This method does not return a value.
 
 ## -remarks
-The minimum NetAdapterCx version for **NET_REQUEST_QUEUE_CONFIG_INIT** is 1.0.
+
 
 ## -see-also

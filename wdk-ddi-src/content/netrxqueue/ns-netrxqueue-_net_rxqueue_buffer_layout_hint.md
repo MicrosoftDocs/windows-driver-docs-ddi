@@ -60,6 +60,6 @@ The ideal alignment for the start of the L3 header. This member's value is in th
 ## -remarks
 The information in this structure is set by the upper layer.
 
-The minimum NetAdapterCx version for **NET_RXQUEUE_BUFFER_LAYOUT_HINT** is 1.1.
+
 
 ## -see-also

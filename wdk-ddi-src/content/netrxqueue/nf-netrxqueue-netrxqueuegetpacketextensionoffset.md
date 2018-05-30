@@ -63,7 +63,7 @@ Returns the offset to the desired extension from the beginning of the packet des
 ## -remarks
 Client drivers typically call this method from their *[EvtNetAdapterCreateRxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* callback function after queue creation. To prevent frequent offset queries, store the offset returned by this method in your queue context space.
 
-The minimum NetAdapterCx version for **NetRxQueueGetPacketExtensionOffset** is 1.2.
+
 
 ## -see-also
 

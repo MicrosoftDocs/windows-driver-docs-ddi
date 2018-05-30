@@ -77,7 +77,7 @@ Typically, the client driver calls **NetRequestSetDataComplete** from one of its
 
 After this method returns, the request handle is no longer valid. NetAdapterCx removes it from the NETQUEUE and deletes the NETREQUEST object.
 
-The minimum NetAdapterCx version for **NetRequestSetDataComplete** is 1.0.
+
 
 ## -see-also
 

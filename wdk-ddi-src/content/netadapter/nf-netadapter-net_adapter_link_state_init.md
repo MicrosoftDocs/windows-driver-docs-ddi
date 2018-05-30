@@ -83,7 +83,7 @@ Call **NET_ADAPTER_LINK_STATE_INIT** or [NET_ADAPTER_LINK_STATE_INIT_DISCONNECTE
 
 An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value to [NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md).
 
-The minimum NetAdapterCx version for ****NET_ADAPTER_LINK_STATE_INIT**** is 1.1.
+
 
 ## -see-also
 

@@ -65,7 +65,7 @@ After NetAdapterCx calls a client driver's *[EVT_RXQUEUE_SET_NOTIFICATION_ENABLE
 
 The client should only call **NetRxQueueNotifyMoreReceivedPacketsAvailable** once per enabling of the notification. Do not call **NetRxQueueNotifyMoreReceivedPacketsAvailable** if NetAdapterCx calls *[EVT_RXQUEUE_SET_NOTIFICATION_ENABLED](nc-netrxqueue-evt_rxqueue_set_notification_enabled.md)* with *NotificationEnabled* set to **FALSE**.
 
-The minimum NetAdapterCx version for **NetRxQueueNotifyMoreReceivedPacketsAvailable** is 1.0.
+
 
 ## -see-also
 

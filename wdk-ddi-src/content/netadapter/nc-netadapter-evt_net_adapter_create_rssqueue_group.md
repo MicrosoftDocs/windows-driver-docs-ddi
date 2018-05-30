@@ -79,7 +79,6 @@ Reserved.
 Reserved for system use.
 
 ## -remarks
-The minimum NetAdapterCx version for *EvtNetAdapterCreateRssqueueGroup* is 1.2.
 
 ## -see-also
 

@@ -82,6 +82,6 @@ This function has the same effect as the following call sequence:
    1. [NET_REQUEST_QUEUE_METHOD_HANDLER_INIT](nf-netrequestqueue-net_request_queue_method_handler_init.md)
    2. [NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_METHOD_HANDLER](nf-netrequestqueue-net_request_queue_config_add_initialized_method_handler.md)
 
-The minimum NetAdapterCx version for **NET_REQUEST_QUEUE_CONFIG_ADD_METHOD_HANDLER** is 1.0.
+
 
 ## -see-also

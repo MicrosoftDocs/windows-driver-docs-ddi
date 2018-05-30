@@ -69,6 +69,6 @@ The **NET_ADAPTER_AUTO_NEGOTIATION_FLAGS** enumeration is used to specify auto-n
 
 An initialized [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure is an input to [NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md).
 
-The minimum NetAdapterCx version for **NET_ADAPTER_AUTO_NEGOTIATION_FLAGS** is 1.0.
+
 
 ## -see-also

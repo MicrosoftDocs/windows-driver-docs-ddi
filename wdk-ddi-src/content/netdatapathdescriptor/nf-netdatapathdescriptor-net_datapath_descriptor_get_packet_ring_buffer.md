@@ -57,6 +57,8 @@ A pointer to the queue's [NET_DATAPATH_DESCRIPTOR](ns-netdatapathdescriptor-_net
 ## -remarks
 To retrieve a queue's ring buffer of [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md)s, first call **NetRx(Tx)QueueGetDatapathDescriptor** to get the queue's datapath descriptor, then call this macro with the descriptor.
 
-The minimum NetAdapterCx version for **NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER** is 1.2.
+
 
 ## -see-also
+
+[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

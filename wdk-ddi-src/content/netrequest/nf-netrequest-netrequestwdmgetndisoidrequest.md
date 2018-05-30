@@ -61,6 +61,6 @@ A handle to a network request object.
 A pointer to the [NDIS_OID_REQUEST](../ndis/ns-ndis-_ndis_oid_request.md) structure.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetRequestWdmGetNdisOidRequest** is 1.0.
+
 
 ## -see-also

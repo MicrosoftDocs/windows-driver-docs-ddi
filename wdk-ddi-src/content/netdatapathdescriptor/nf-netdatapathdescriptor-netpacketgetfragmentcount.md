@@ -63,6 +63,8 @@ Returns the total number of [NET_PACKET_FRAGMENT](../netpacket/ns-netpacket-_net
 ## -remarks
 This method can be called to first obtain the number of fragments in a packet before looping over all the fragments. For a code example that uses this method, see [NET_PACKET_GET_FRAGMENT](nf-netdatapathdescriptor-net_packet_get_fragment.md).
 
-The minimum NetAdapterCx version for **NetPacketGetFragmentCount** is 1.2.
+
 
 ## -see-also
+
+[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

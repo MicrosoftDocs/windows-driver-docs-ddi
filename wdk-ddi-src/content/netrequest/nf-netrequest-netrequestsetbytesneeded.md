@@ -81,6 +81,6 @@ After calling **NetRequestSetBytesNeeded**, the client calls one of the followin
 
 For general info about control requests, see [Handling Control Requests](https://docs.microsoft.com/windows-hardware/drivers/netcx/handling-control-requests).
 
-The minimum NetAdapterCx version for **NetRequestSetBytesNeeded** is 1.0.
+
 
 ## -see-also

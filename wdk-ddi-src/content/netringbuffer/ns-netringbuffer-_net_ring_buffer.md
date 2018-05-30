@@ -86,6 +86,6 @@ The **NET_RING_BUFFER** structure is a generic ring buffer, optimized for effici
 
 For more info about the ring buffer, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data#using-the-ring-buffer).
 
-The minimum NetAdapterCx version for **NET_RING_BUFFER** is 1.0.
+
 
 ## -see-also

@@ -64,6 +64,6 @@ The net adapter object that the client created in a prior call to [NetAdapterCre
 This method does not return a value.
 
 ## -remarks
-The minimum NetAdapterCx version for **NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_PARALLEL** is 1.0.
+
 
 ## -see-also

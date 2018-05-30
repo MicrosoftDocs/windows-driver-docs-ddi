@@ -68,6 +68,6 @@ Call [NET_TXQUEUE_CONFIG_INIT](nf-nettxqueue-net_txqueue_config_init.md) to init
 
 The **NET_TXQUEUE_CONFIG** structure is an input parameter to [NetTxQueueCreate](nf-nettxqueue-nettxqueuecreate.md). The client must use [NET_TXQUEUE_CONFIG_INIT](nf-nettxqueue-net_txqueue_config_init.md) to initialize this structure before calling **NetTxQueueCreate**.
 
-The minimum NetAdapterCx version for **NET_TXQUEUE_CONFIG** is 1.1.
+
 
 ## -see-also

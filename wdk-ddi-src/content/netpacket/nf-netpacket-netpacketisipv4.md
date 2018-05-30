@@ -61,6 +61,6 @@ A pointer to the [NET_PACKET](ns-netpacket-_net_packet.md).
 Returns **TRUE** if the packet is an IPv4 packet; false otherwise.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetPacketIsIpv4** is 1.2.
+
 
 ## -see-also

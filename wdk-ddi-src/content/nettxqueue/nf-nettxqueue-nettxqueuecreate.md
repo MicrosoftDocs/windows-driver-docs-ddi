@@ -74,6 +74,6 @@ The client calls **NetTxQueueCreate** from within its *[EVT_NET_ADAPTER_CREATE_T
 
 The NETTXQUEUE object is a standard WDF object. The framework manages its deletion, which occurs when the parent WDFDEVICE is deleted.
 
-The minimum NetAdapterCx version for **NetTxQueueCreate** is 1.0.
+
 
 ## -see-also

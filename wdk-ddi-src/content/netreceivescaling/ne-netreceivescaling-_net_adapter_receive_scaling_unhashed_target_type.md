@@ -54,7 +54,7 @@ Indicates that unhashed frames are delivered to the queue at the specified hash 
 Indicates that unhashed frames are delivered to the specified queue. This requires the caller to specify the **UnhashedTarget** member of the [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure with the queue ID if the hash index is non-zero.
 
 ## -remarks
-The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE** is 1.2.
+
 
 ## -see-also
 

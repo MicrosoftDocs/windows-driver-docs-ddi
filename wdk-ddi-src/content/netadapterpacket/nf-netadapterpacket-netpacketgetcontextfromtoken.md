@@ -70,6 +70,6 @@ Reserved.
 This function returns a pointer to a NET_PACKET context.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetPacketGetContextFromToken** is 1.2.
+
 
 ## -see-also

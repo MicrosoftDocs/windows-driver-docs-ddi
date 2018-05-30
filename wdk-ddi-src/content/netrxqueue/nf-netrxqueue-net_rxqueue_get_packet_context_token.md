@@ -65,6 +65,6 @@ In NetAdapterCx 1.1, the ability to add more than one packet context was introdu
 
 For an example of how to use this macro to retrieve a packet context token, see [NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME](../netadapterpacket/nf-netadapterpacket-net_packet_declare_context_type_with_name.md).
 
-The minimum NetAdapterCx version for **NET_RXQUEUE_GET_PACKET_CONTEXT_TOKEN** is 1.1.
+
 
 ## -see-also

@@ -62,7 +62,7 @@ If the **NETADAPTER** object is already stopped, this method does nothing.
 
 The system will bugcheck if supplied an invalid handle, such as if the **NETADAPTER** object has not been initialized and created yet.
 
-The minimum NetAdapterCx version for **NetAdapterStop** is 1.2.
+
 
 ## -see-also
 

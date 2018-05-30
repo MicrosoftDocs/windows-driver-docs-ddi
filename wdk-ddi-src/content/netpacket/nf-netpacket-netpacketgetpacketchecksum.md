@@ -65,7 +65,7 @@ NIC client drivers typically query offsets for packet extensions during datapath
 
 This method is a wrapper method around [NetPacketGetExtension](nf-netpacket-netpacketgetextension.md). 
 
-The minimum NetAdapterCx version for **NetPacketGetPacketChecksum** is 1.2.
+
 
 ## -see-also
 

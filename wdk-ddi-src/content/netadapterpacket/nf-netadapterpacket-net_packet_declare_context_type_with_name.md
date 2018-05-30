@@ -68,7 +68,7 @@ You may find it helpful to store hardware-specific or bus-specific data in each 
 
 NetAdapterCx automatically zeros the context area when the packet is created. The context area is not zeroed out if a packet is reused. If you need to initialize the context areas before the data path starts, initialize them in your *[EvtNetAdapterCreateTxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* handler after calling [NetTxQueueCreate](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md); or in the *[EvtNetAdapterCreateRxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue)* handler after calling [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md).
 
-The minimum NetAdapterCx version for **NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME** is 1.1.
+
 
 ### Example
 
