@@ -159,8 +159,6 @@ A value from the incoming packet in the location specified by the WOL pattern is
 </ul>
 <div class="alert"><b>Note</b>  Wildcard values that are enabled by this flag can include unspecified IPv4
         source and destination addresses, as well as unspecified source and destination ports.</div>
-<div> </div>
-
 
 #### NDIS_PM_WOL_IPV6_DEST_ADDR_WILDCARD_ENABLED
 
