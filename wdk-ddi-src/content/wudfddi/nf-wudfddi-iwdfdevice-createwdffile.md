@@ -62,7 +62,7 @@ The <b>CreateWdfFile</b> method creates a file object for a driver to use.
 
 ### -param pcwszFileName [in, optional]
 
-A pointer to a <b>NULL</b>-terminated string that contains the name of the file to create a file object from. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not have to create the file object from a file name. If the driver must supply a name, the string that the driver passes must not contain any path separator characters ("/" or "\"). 
+A pointer to a <b>NULL</b>-terminated string that contains the name of the file to create a file object from. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not have to create the file object from a file name. If the driver must supply a name, the string that the driver passes must not contain any path separator characters ("/" or "\\"). 
 
 
 ### -param ppFile [out]

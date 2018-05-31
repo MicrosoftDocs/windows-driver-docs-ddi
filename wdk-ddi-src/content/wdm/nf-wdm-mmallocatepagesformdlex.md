@@ -89,79 +89,15 @@ Specifies flags for this operation. Set this parameter to zero or to the bitwise
 
 The last four items in the preceding list are supported only in Windows 7 and later versions of Windows.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="MM_DONT_ZERO_ALLOCATION"></a><a id="mm_dont_zero_allocation"></a><dl>
-<dt><b>MM_DONT_ZERO_ALLOCATION</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-Do not fill the allocated pages with zeros. By default, <b>MmAllocatePagesForMdlEx</b> zeros the pages that it allocates. By skipping this operation, you can potentially improve the performance of the <b>MmAllocatePagesForMdlEx</b> call. However, you must not use this flag unless either you never expose the allocated pages to user-mode programs, or you always overwrite the original contents of the pages before you expose the allocated pages to user-mode programs.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MM_ALLOCATE_FROM_LOCAL_NODE_ONLY"></a><a id="mm_allocate_from_local_node_only"></a><dl>
-<dt><b>MM_ALLOCATE_FROM_LOCAL_NODE_ONLY</b></dt>
-<dt>0x00000002</dt>
-</dl>
-</td>
-<td width="60%">
-Allocate pages only from the ideal node. This flag applies only to multiprocessor systems that have non-uniform memory access (NUMA) architectures. Starting with Windows Vista, this flag indicates that all pages must be allocated from the ideal node of the current thread. No pages are to be allocated from other nodes. In versions of Windows earlier than Windows Vista, this flag indicates that all pages must be allocated from the local node; that is, from the node that the current processor belongs to. For more information about NUMA multiprocessor systems, see <a href="http://go.microsoft.com/fwlink/p/?linkid=155041">NUMA Support</a>.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MM_ALLOCATE_FULLY_REQUIRED"></a><a id="mm_allocate_fully_required"></a><dl>
-<dt><b>MM_ALLOCATE_FULLY_REQUIRED</b></dt>
-<dt>0x00000004</dt>
-</dl>
-</td>
-<td width="60%">
-A full allocation is required. Starting with Windows 7, this flag requires <b>MmAllocatePagesForMdlEx</b> to return <b>NULL</b> if it cannot allocate all the requested pages. The routine returns a non-<b>NULL</b> value only if it successfully obtains the entire requested allocation. This flag enables the memory manager to perform the allocation more efficiently in cases in which the caller requires a full allocation.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MM_ALLOCATE_NO_WAIT"></a><a id="mm_allocate_no_wait"></a><dl>
-<dt><b>MM_ALLOCATE_NO_WAIT</b></dt>
-<dt>0x00000008</dt>
-</dl>
-</td>
-<td width="60%">
-Do not wait. Starting with Windows 7, this flag indicates that the <b>MmAllocatePagesForMdlEx</b> call must not block the calling thread. Typically, the caller is a kernel-mode driver that is running at IRQL &lt; DISPATCH_LEVEL but cannot allow its execution to be blocked. For example, the driver might be assisting with paging or power-management operations. Regardless of whether this flag is set, <b>MmAllocatePagesForMdlEx</b> never blocks callers that are running at IRQL = DISPATCH_LEVEL.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MM_ALLOCATE_PREFER_CONTIGUOUS"></a><a id="mm_allocate_prefer_contiguous"></a><dl>
-<dt><b>MM_ALLOCATE_PREFER_CONTIGUOUS</b></dt>
-<dt>0x00000010</dt>
-</dl>
-</td>
-<td width="60%">
-Allocation is performed in a way that minimizes system memory fragmentation. Starting with Windows 7, this flag indicates that the caller wants to avoid fragmenting physical memory to make more contiguous memory available to other callers. The allocated pages are not guaranteed to be (and usually are not) physically contiguous, even if plenty of contiguous memory is available. Callers that require contiguous memory should specify MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS instead of MM_ALLOCATE_PREFER_CONTIGUOUS.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS"></a><a id="mm_allocate_require_contiguous_chunks"></a><dl>
-<dt><b>MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS</b></dt>
-<dt>0x00000020</dt>
-</dl>
-</td>
-<td width="60%">
-Contiguous memory is required. Starting with Windows 7, this flag indicates that the requested pages must be allocated as contiguous blocks of physical memory. If the <i>SkipBytes</i> parameter is zero, <b>MmAllocatePagesForMdlEx</b> either succeeds and returns a single, contiguous block, or it fails and returns <b>NULL</b>. It never returns a partial allocation. For <i>SkipBytes</i> = 0, the allocated pages satisfy the address range requirements that are specified by the <i>LowAddress</i> and <i>HighAddress</i> parameters, but the pages are subject to no special alignment restrictions. If <i>SkipBytes</i> is nonzero, <i>SkipBytes</i> must be a power of two and must be greater than or equal to PAGE_SIZE, and the <i>TotalBytes</i> parameter value must be a multiple of <i>SkipBytes</i>. In this case, the returned MDL can contain multiple blocks of contiguous pages. That is, each block is internally contiguous but the blocks are not necessarily contiguous with each other. Each block of contiguous pages is guaranteed to be exactly <i>SkipBytes</i> long and to be aligned on a <i>SkipBytes</i> boundary. Partial allocations can occur if <i>SkipBytes</i> is nonzero, but each contiguous block in a partial allocation is guaranteed to be <i>SkipBytes</i> long.
-
-</td>
-</tr>
-</table>
- 
+| **Value** | **Meaning** | 
+|:--|:--|
+| **MM_DONT_ZERO_ALLOCATION** 0x00000001|Do not fill the allocated pages with zeros. By default, MmAllocatePagesForMdlEx zeros the pages that it allocates. By skipping this operation, you can potentially improve the performance of the MmAllocatePagesForMdlEx call. However, you must not use this flag unless either you never expose the allocated pages to user-mode programs, or you always overwrite the original contents of the pages before you expose the allocated pages to user-mode programs. |
+| **MM_ALLOCATE_FROM_LOCAL_NODE_ONLY** 0x00000002|Allocate pages only from the ideal node. This flag applies only to multiprocessor systems that have non-uniform memory access (NUMA) architectures. Starting with Windows Vista, this flag indicates that all pages must be allocated from the ideal node of the current thread. No pages are to be allocated from other nodes. In versions of Windows earlier than Windows Vista, this flag indicates that all pages must be allocated from the local node; that is, from the node that the current processor belongs to. For more information about NUMA multiprocessor systems, see [NUMA Support](http://go.microsoft.com/fwlink/p/?linkid=155041) . | 
+| **MM_ALLOCATE_FULLY_REQUIRED** 0x00000004 |A full allocation is required. Starting with Windows 7, this flag requires MmAllocatePagesForMdlEx to return NULL if it cannot allocate all the requested pages. The routine returns a non-NULL value only if it successfully obtains the entire requested allocation. This flag enables the memory manager to perform the allocation more efficiently in cases in which the caller requires a full allocation. | 
+| **MM_ALLOCATE_NO_WAIT** 0x00000008|Do not wait. Starting with Windows 7, this flag indicates that the MmAllocatePagesForMdlEx call must not block the calling thread. Typically, the caller is a kernel-mode driver that is running at IRQL < DISPATCH_LEVEL but cannot allow its execution to be blocked. For example, the driver might be assisting with paging or power-management operations. Regardless of whether this flag is set, MmAllocatePagesForMdlEx never blocks callers that are running at IRQL = DISPATCH_LEVEL. | 
+| **MM_ALLOCATE_PREFER_CONTIGUOUS** 0x00000010 |Allocation is performed in a way that minimizes system memory fragmentation. Starting with Windows 7, this flag indicates that the caller wants to avoid fragmenting physical memory to make more contiguous memory available to other callers. The allocated pages are not guaranteed to be (and usually are not) physically contiguous, even if plenty of contiguous memory is available. Callers that require contiguous memory should specify MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS instead of MM_ALLOCATE_PREFER_CONTIGUOUS. |
+| **MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS** 0x00000020 |Contiguous memory is required. Starting with Windows 7, this flag indicates that the requested pages must be allocated as contiguous blocks of physical memory. If the SkipBytes parameter is zero, MmAllocatePagesForMdlEx either succeeds and returns a single, contiguous block, or it fails and returns NULL. It never returns a partial allocation. For SkipBytes = 0, the allocated pages satisfy the address range requirements that are specified by the LowAddress and HighAddress parameters, but the pages are subject to no special alignment restrictions. If SkipBytes is nonzero, SkipBytes must be a power of two and must be greater than or equal to PAGE_SIZE, and the TotalBytes parameter value must be a multiple of SkipBytes. In this case, the returned MDL can contain multiple blocks of contiguous pages. That is, each block is internally contiguous but the blocks are not necessarily contiguous with each other. Each block of contiguous pages is guaranteed to be exactly SkipBytes long and to be aligned on a SkipBytes boundary. Partial allocations can occur if SkipBytes is nonzero, but each contiguous block in a partial allocation is guaranteed to be SkipBytes long. |
+|**MM_ALLOCATE_FAST_LARGE_PAGES** 0x00000040| Starting in with Windows 8, this flag specifies that the allocation must be satisfied from the operating system's large page cache. If the cache is empty, the allocation fails.  If MM_ALLOCATE_FAST_LARGE_PAGES is not specified, **MmAllocatePagesForMdlEx** uses cached large pages if they are available. If the cache is exhausted, **MmAllocatePagesForMdlEx** attempts to construct additional large pages, which may take a long time. MM_ALLOCATE_FAST_LARGE_PAGES must be used  with the MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS flag. The _SkipBytes_ parameter must be set to a multiple of large page size.|
 
 
 ## -returns

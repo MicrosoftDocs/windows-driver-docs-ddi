@@ -72,391 +72,79 @@ A <a href="https://msdn.microsoft.com/2ec47d47-1de3-43af-9a71-7fa366ba2d1a">REG_
 
 A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the REG_NOTIFY_CLASS-typed value for <i>Argument1</i>, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see <a href="https://msdn.microsoft.com/2ec47d47-1de3-43af-9a71-7fa366ba2d1a">REG_NOTIFY_CLASS</a>.
 
-<table>
-<tr>
-<th>REG_NOTIFY_CLASS Value</th>
-<th>Structure Type</th>
-</tr>
-<tr>
-<td><b>RegNtDeleteKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560926">REG_DELETE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreDeleteKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560926">REG_DELETE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostDeleteKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtSetValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561016">REG_SET_VALUE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreSetValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561016">REG_SET_VALUE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostSetValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtDeleteValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560929">REG_DELETE_VALUE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreDeleteValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560929">REG_DELETE_VALUE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostDeleteValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtSetInformationKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561009">REG_SET_INFORMATION_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreSetInformationKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561009">REG_SET_INFORMATION_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostSetInformationKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtRenameKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560994">REG_RENAME_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreRenameKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560994">REG_RENAME_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostRenameKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtEnumerateKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560932">REG_ENUMERATE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreEnumerateKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560932">REG_ENUMERATE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostEnumerateKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtEnumerateValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560936">REG_ENUMERATE_VALUE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreEnumerateValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560936">REG_ENUMERATE_VALUE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostEnumerateValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtQueryKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560980">REG_QUERY_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreQueryKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560980">REG_QUERY_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostQueryKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtQueryValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560991">REG_QUERY_VALUE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreQueryValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560991">REG_QUERY_VALUE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostQueryValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtQueryMultipleValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560985">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreQueryMultipleValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560985">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostQueryMultipleValueKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreCreateKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560973">REG_PRE_CREATE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreCreateKeyEx</b></td>
-<td>
-<a href="https://msdn.microsoft.com/5609a2c4-71db-432a-8a39-e407130a6e4c">REG_CREATE_KEY_INFORMATION**</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostCreateKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560962">REG_POST_CREATE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostCreateKeyEx</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreOpenKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/9b7240b5-429b-4bf2-aa7b-373b63bb79ae">REG_PRE_OPEN_KEY_INFORMATION**</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreOpenKeyEx</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560957">REG_OPEN_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostOpenKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560967">REG_POST_OPEN_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostOpenKeyEx</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtKeyHandleClose</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560943">REG_KEY_HANDLE_CLOSE_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreKeyHandleClose</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560943">REG_KEY_HANDLE_CLOSE_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostKeyHandleClose</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreFlushKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560938">REG_FLUSH_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostFlushKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreLoadKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560948">REG_LOAD_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostLoadKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreUnLoadKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561018">REG_UNLOAD_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostUnLoadKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreQueryKeySecurity</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560983">REG_QUERY_KEY_SECURITY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostQueryKeySecurity</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreSetKeySecurity</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561012">REG_SET_KEY_SECURITY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostSetKeySecurity</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtCallbackObjectContextCleanup</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560919">REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreRestoreKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561002">REG_RESTORE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostRestoreKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561002">REG_RESTORE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreSaveKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561005">REG_SAVE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostSaveKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561005">REG_SAVE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreReplaceKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560998">REG_REPLACE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostReplaceKey</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560998">REG_REPLACE_KEY_INFORMATION</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPreQueryKeyName</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt661826">REG_QUERY_KEY_NAME</a>
-</td>
-</tr>
-<tr>
-<td><b>RegNtPostQueryKeyName</b></td>
-<td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560971">REG_POST_OPERATION_INFORMATION</a>
-</td>
-</tr>
-</table>
- 
+| **REG_NOTIFY_CLASS Value** | **Structure Type** | 
+|:--|:--|
+| **RegNtDeleteKey** | [REG_DELETE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560926)  | 
+| **RegNtPreDeleteKey** | [REG_DELETE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560926)  | 
+| **RegNtPostDeleteKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtSetValueKey** | [REG_SET_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff561016)  | 
+| **RegNtPreSetValueKey** | [REG_SET_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff561016)  | 
+| **RegNtPostSetValueKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtDeleteValueKey** | [REG_DELETE_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560929)  | 
+| **RegNtPreDeleteValueKey** | [REG_DELETE_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560929)  | 
+| **RegNtPostDeleteValueKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtSetInformationKey** | [REG_SET_INFORMATION_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff561009)  | 
+| **RegNtPreSetInformationKey** | [REG_SET_INFORMATION_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff561009)  | 
+| **RegNtPostSetInformationKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtRenameKey** | [REG_RENAME_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560994)  | 
+| **RegNtPreRenameKey** | [REG_RENAME_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560994)  | 
+| **RegNtPostRenameKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtEnumerateKey** | [REG_ENUMERATE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560932)  | 
+| **RegNtPreEnumerateKey** | [REG_ENUMERATE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560932)  | 
+| **RegNtPostEnumerateKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtEnumerateValueKey** | [REG_ENUMERATE_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560936)  | 
+| **RegNtPreEnumerateValueKey** | [REG_ENUMERATE_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560936)  | 
+| **RegNtPostEnumerateValueKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtQueryKey** | [REG_QUERY_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560980)  | 
+| **RegNtPreQueryKey** | [REG_QUERY_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560980)  | 
+| **RegNtPostQueryKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtQueryValueKey** | [REG_QUERY_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560991)  | 
+| **RegNtPreQueryValueKey** | [REG_QUERY_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560991)  | 
+| **RegNtPostQueryValueKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtQueryMultipleValueKey** | [REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560985)  | 
+| **RegNtPreQueryMultipleValueKey** | [REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560985)  | 
+| **RegNtPostQueryMultipleValueKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtPreCreateKey** | [REG_PRE_CREATE_KEY_INFORMATION](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_pre_create_key_information)  | 
+| **RegNtPreCreateKeyEx** | [REG_CREATE_KEY_INFORMATION**](https://msdn.microsoft.com/5609a2c4-71db-432a-8a39-e407130a6e4c)  | 
+| **RegNtPostCreateKey** | [REG_POST_CREATE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560962)  | 
+| **RegNtPostCreateKeyEx** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtPreOpenKey** | [REG_PRE_OPEN_KEY_INFORMATION**](https://msdn.microsoft.com/9b7240b5-429b-4bf2-aa7b-373b63bb79ae)  | 
+| **RegNtPreOpenKeyEx** | [REG_OPEN_KEY_INFORMATION](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_create_key_information)  | 
+| **RegNtPostOpenKey** | [REG_POST_OPEN_KEY_INFORMATION](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_create_key_information)  | 
+| **RegNtPostOpenKeyEx** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtKeyHandleClose** | [REG_KEY_HANDLE_CLOSE_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560943)  | 
+| **RegNtPreKeyHandleClose** | [REG_KEY_HANDLE_CLOSE_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560943)  | 
+| **RegNtPostKeyHandleClose** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtPreFlushKey** | [REG_FLUSH_KEY_INFORMATION](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_delete_key_information)  | 
+| **RegNtPostFlushKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtPreLoadKey** | [REG_LOAD_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560948)  | 
+| **RegNtPostLoadKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtPreUnLoadKey** | [REG_UNLOAD_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff561018)  | 
+| **RegNtPostUnLoadKey** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtPreQueryKeySecurity** | [REG_QUERY_KEY_SECURITY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560983)  | 
+| **RegNtPostQueryKeySecurity** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtPreSetKeySecurity** | [REG_SET_KEY_SECURITY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff561012)  | 
+| **RegNtPostSetKeySecurity** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+| **RegNtCallbackObjectContextCleanup** | [REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560919)  | 
+| **RegNtPreRestoreKey** | [REG_RESTORE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff561002)  | 
+| **RegNtPostRestoreKey** | [REG_RESTORE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff561002)  | 
+| **RegNtPreSaveKey** | [REG_SAVE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff561005)  | 
+| **RegNtPostSaveKey** | [REG_SAVE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff561005)  | 
+| **RegNtPreReplaceKey** | [REG_REPLACE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560998)  | 
+| **RegNtPostReplaceKey** | [REG_REPLACE_KEY_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560998)  | 
+| **RegNtPreQueryKeyName** | [REG_QUERY_KEY_NAME](https://msdn.microsoft.com/library/windows/hardware/mt661826)  | 
+| **RegNtPostQueryKeyName** | [REG_POST_OPERATION_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/ff560971)  | 
+ 
 
-** Starting with Windows 7, the actual data structure passed in when the notify class is <b>RegNtPreCreateKeyEx</b> or <b>RegNtPreOpenKeyEx</b> is the V1 version of this structure, <a href="https://msdn.microsoft.com/library/windows/hardware/ff560922">REG_CREATE_KEY_INFORMATION_V1</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560959">REG_OPEN_KEY_INFORMATION_V1</a>, respectively. Check the <b>Reserved</b> member to determine the version of the structure.
+** Starting with Windows 7, the actual data structure passed in when the notify class is RegNtPreCreateKeyEx or RegNtPreOpenKeyEx is the V1 version of this structure, [REG_CREATE_KEY_INFORMATION_V1](https://msdn.microsoft.com/library/windows/hardware/ff560922)  or [REG_OPEN_KEY_INFORMATION_V1](https://msdn.microsoft.com/library/windows/hardware/ff560959) , respectively. Check the Reserved member to determine the version of the structure.
 
-<table>
-<tr>
-<th>Version number</th>
-<th>Structure name</th>
-</tr>
-<tr>
-<td>0</td>
-<td><b>REG_CREATE_KEY_INFORMATION</b> and <b>REG_OPEN_KEY_INFORMATION</b></td>
-</tr>
-<tr>
-<td>1</td>
-<td><b>REG_CREATE_KEY_INFORMATION_V1</b> and <b>REG_OPEN_KEY_INFORMATION_V1</b></td>
-</tr>
-</table>
- 
+| **Version number** | **Structure name** | 
+|:--|:--|
+| 0 | REG_CREATE_KEY_INFORMATION and REG_OPEN_KEY_INFORMATION | 
+| 1 | REG_CREATE_KEY_INFORMATION_V1 and REG_OPEN_KEY_INFORMATION_V1 | 
+
+
+
 
 
 ## -returns
