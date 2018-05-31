@@ -65,10 +65,6 @@ The type, revision, and size of the <b>NDIS_PM_PARAMETERS</b> structure. This me
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_PM_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
-
-
-
-
 #### NDIS_PM_PARAMETERS_REVISION_2
 
 Added various changes for NDIS 6.30.
@@ -92,13 +88,9 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that correspond 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566748">NDIS_PM_CAPABILITIES</a> structure. NDIS
      uses these flags to enable the wake-on-LAN (WOL) patterns that a network adapter uses to wake the local
      computer from a low power state. For more information about WOL patterns, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566768">NDIS_PM_WOL_PATTERN</a>.
-     
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566768">NDIS_PM_WOL_PATTERN</a>.     
 
 The following flags are used:
-
-
-
 
 
 #### NDIS_PM_WOL_BITMAP_PATTERN_ENABLED
@@ -157,8 +149,9 @@ A value from the incoming packet in the location specified by the WOL pattern is
 
 </li>
 </ul>
-<div class="alert"><b>Note</b>  Wildcard values that are enabled by this flag can include unspecified IPv4
-        source and destination addresses, as well as unspecified source and destination ports.</div>
+
+> [!NOTE]
+> Wildcard values that are enabled by this flag can include unspecified IPv4 source and destination addresses, as well as unspecified source and destination ports.
 
 #### NDIS_PM_WOL_IPV6_DEST_ADDR_WILDCARD_ENABLED
 
@@ -184,8 +177,8 @@ A value from the incoming packet in the location specified by the WOL pattern is
 </li>
 </ul>
 
-<div class="alert"><b>Note</b>  Wildcard values that are enabled by this flag can include unspecified IPv6
-         source and destination addresses, as well as unspecified source and destination ports.</div>
+> [!NOTE]
+> Wildcard values that are enabled by this flag can include unspecified IPv6 source and destination addresses, as well as unspecified source and destination ports.
 
 
 
@@ -277,14 +270,15 @@ The network adapter detects other external events that require processing by the
 
 </li>
 </ul>
-<div class="alert"><b>Note</b>  The <b>NDIS_PM_SELECTIVE_SUSPEND_ENABLED</b>  flag is available in NDIS 6.30 and later.</div>
-<div> </div>
-<div class="alert"><b>Note</b>  If this flag is set, no other power management flags can be set in the <b>WakeUpFlags</b> member and the <b>EnabledWoLPacketPatterns</b> member must be set to zero.</div>
-<div> </div>
+
+> [!NOTE]
+> The <b>NDIS_PM_SELECTIVE_SUSPEND_ENABLED</b>  flag is available in NDIS 6.30 and later.
+>
+> If this flag is set, no other power management flags can be set in the <b>WakeUpFlags</b> member and the <b>EnabledWoLPacketPatterns</b> member must be set to zero.
+
 If NDIS sets the <b>NDIS_PM_SELECTIVE_SUSPEND_ENABLED</b> flag, it issues the OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569768">OID_PM_PARAMETERS</a> directly to the miniport driver. This allows NDIS to bypass the processing by filter drivers in the networking driver stack.
 
 For more information about the selective suspend power management capability, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451659">NDIS Selective Suspend</a>.
-
 
 ### -field MediaSpecificWakeUpEvents
 
@@ -292,10 +286,6 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. These flags spe
      
 
 Starting with NDIS 6.30, the following flags are defined:
-
-
-
-
 
 #### NDIS_WLAN_WAKE_ON_NLO_DISCOVERY_ENABLED
 
@@ -369,15 +359,8 @@ An overlying driver should not try to enable capabilities that a network adapter
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure.
 
 
-<div class="alert"><b>Note</b>  NDIS 6.20 and later drivers must use the 
-     <b>PowerManagementCapabilitiesEx</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure instead of the 
-     <b>PowerManagementCapabilities</b> member.</div>
-<div> </div>
-
-
-
-
+> [!NOTE]
+> NDIS 6.20 and later drivers must use the **PowerManagementCapabilitiesEx** member of the [NDIS_BIND_PARAMETERS](https://msdn.microsoft.com/library/windows/hardware/ff564832) structure instead of the **PowerManagementCapabilities** member.
 
 ## -see-also
 
