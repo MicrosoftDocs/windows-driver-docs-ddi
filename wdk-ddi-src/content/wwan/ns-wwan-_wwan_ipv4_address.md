@@ -65,12 +65,4 @@ The length of the prefix or network part of the IP address of the PDP context.
 
 ### -field IPV4Address
 
- 
-
-
-
-
-#### - IPV4Address[4]
-
 The IPV4 address of the PDP context.
-

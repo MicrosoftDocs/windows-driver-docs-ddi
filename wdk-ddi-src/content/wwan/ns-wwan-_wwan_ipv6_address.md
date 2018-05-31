@@ -65,12 +65,5 @@ The length of the prefix or network part of the IP address.
 
 ### -field IPV6Address
 
- 
-
-
-
-
-#### - IPV6Address[16]
-
 The IPV6 address of the PDP context.
 
