@@ -88,7 +88,7 @@ Callers of **IoGetDriverDirectory** must be running at IRQL = PASSIVE_LEVEL in t
 
 [**ZwCreateFile**](nf-wdm-zwcreatefile.md)
 
-[**ZwClose**](..\ntifs\nf-ntifs-ntclose.md)
+[**ZwClose**](nf-wdm-zwclose.md)
 
 [OBJECT_ATTRIBUTES](../wudfwdm/ns-wudfwdm-_object_attributes.md)
 

@@ -77,7 +77,7 @@ Drivers typically use [**ZwOpenFile**](nf-wdm-zwopenfile.md) and [**ZwCreateFile
 After the **IoGetDeviceDirectory** call succeeds, use the received HANDLE as a root directory in the [OBJECT_ATTRIBUTES](../wudfwdm/ns-wudfwdm-_object_attributes.md) that you are passing to a [**ZwOpenFile**](nf-wdm-zwopenfile.md) and [**ZwCreateFile**](nf-wdm-zwcreatefile.md).
 
 
-The driver must call [**ZwClose**](..\ntifs\nf-ntifs-ntclose.md) to close the received handle when access is no longer required.
+The driver must call [**ZwClose**](nf-wdm-zwclose.md) to close the received handle when access is no longer required.
 
 Callers of **IoGetDeviceDirectory** must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
@@ -86,7 +86,7 @@ Callers of **IoGetDeviceDirectory** must be running at IRQL = PASSIVE_LEVEL in t
 
 [**ZwCreateFile**](nf-wdm-zwcreatefile.md)
 
-[**ZwClose**](..\ntifs\nf-ntifs-ntclose.md)
+[**ZwClose**](nf-wdm-zwclose.md)
 
 [**_DEVICE_DIRECTORY_TYPE**](ne-wdm-_device_directory_type.md)
 
