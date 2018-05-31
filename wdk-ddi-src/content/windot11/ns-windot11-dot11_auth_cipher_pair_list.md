@@ -186,8 +186,7 @@ For the
         <i>OidRequest</i> parameter, set the 
         <b>BytesNeeded</b> member to zero and the 
         <b>BytesWritten</b> member to the length, in bytes, of the entire DOT11_AUTH_CIPHER_PAIR_LIST
-        structure. The miniport driver must also copy the entire DOT11_AUTH_CIPHER_PAIR_LIST structure to the
-        
+        structure. The miniport driver must also copy the entire DOT11_AUTH_CIPHER_PAIR_LIST structure to the        
         <b>InformationBuffer</b> member.
 
 </li>

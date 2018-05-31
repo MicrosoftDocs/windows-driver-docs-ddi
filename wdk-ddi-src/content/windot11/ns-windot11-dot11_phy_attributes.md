@@ -51,7 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_PHY_ATTRIBUTES structure defines the physical and operating attributes of a PHY on the
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>. 
+
+The DOT11_PHY_ATTRIBUTES structure defines the physical and operating attributes of a PHY on the
   802.11 station.
 
 
@@ -95,10 +97,6 @@ The type, revision, and size of the DOT11_PHY_ATTRIBUTES structure. This member 
 The miniport driver must set the members of 
       <b>Header</b> to the following values:
 
-
-
-
-
 #### Type
 
 This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
@@ -137,8 +135,7 @@ For more information about the PHY's hardware power state, see
 
 <div class="alert"><b>Note</b>  Whenever the PHY's hardware power state changes, the miniport driver must make an 
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
-      NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.</div>
-<div> </div>
+      NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.
 
 ### -field bSoftwarePhyState
 
@@ -150,8 +147,7 @@ For more information about the PHY's software power state, see
 
 <div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an 
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
-      NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.</div>
-<div> </div>
+      NDIS_STATUS_DOT11_PHY_STATE_CHANGED</a> media-specific status indication.
 
 ### -field bCFPollable
 
@@ -169,8 +165,7 @@ The maximum length, in bytes, of a media access control (MAC) protocol data unit
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569387">OID_DOT11_MPDU_MAX_LENGTH</a>.
 
 <div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an
-      NDIS_STATUS_DOT11_MPDU_MAX_LENGTH_CHANGED media-specific status indication.</div>
-<div> </div>
+      NDIS_STATUS_DOT11_MPDU_MAX_LENGTH_CHANGED media-specific status indication.
 
 ### -field TempType
 
@@ -184,43 +179,35 @@ The PHY's type of antenna diversity, defined through a
       <a href="..\windot11\ne-windot11-_dot11_diversity_support.md">DOT11_DIVERSITY_SUPPORT</a> enumeration
       value.
 
-
-### -field PhySpecificAttributes
-
- 
-
-
-
-
-#### - DataRateMappingEntries
+#### -field DataRateMappingEntries
 
 An array of the data rates supported by the PHY. Each entry is formatted as a 
       <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">
       DOT11_DATA_RATE_MAPPING_ENTRY</a> structure.
 
 
-#### - ERPAttributes
+#### -field ERPAttributes
 
 The PHY-specific attributes of an extended-rate PHY (ERP) type. The miniport driver must use this
        member only if the 
        <b>PhyType</b> member is set to dot11_phy_type_erp.
 
 
-#### - HRDSSSAttributes
+#### -field HRDSSSAttributes
 
 The PHY-specific attributes of a high-rate direct-sequence spread spectrum (HRDSS) PHY type. The
        miniport driver must use this member only if the 
        <b>PhyType</b> member is set to dot11_phy_type_hrdsss.
 
 
-#### - OFDMAttributes
+#### -field OFDMAttributes
 
 The PHY-specific attributes of an orthogonal frequency division multiplexing (OFDM) PHY type. The
        miniport driver must use this member only if the 
        <b>PhyType</b> member is set to dot11_phy_type_ofdm.
 
 
-#### - SupportedDataRatesValue
+### -field SupportedDataRatesValue
 
 An array of the following data rates supported by the PHY:
 
@@ -235,22 +222,22 @@ The receive data rates supported by the PLCP and PMD of the PHY.
 
 </li>
 </ul>
+
 Each entry in the array is formatted as a DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure.
 
-
-#### - TxPowerLevels
+### -field TxPowerLevels
 
 An array of the supported transmit power levels in units of milliwatts (mWs). Each power level must
       be a value from 0 through 1000.
 
 
-#### - uNumDataRateMappingEntries
+### -field uNumDataRateMappingEntries
 
 The number of data rates within the 
       <b>DataRateMappingEntries</b> array.
 
 
-#### - uNumberSupportedPowerLevels
+### -field uNumberSupportedPowerLevels
 
 The number of power levels within the 
       <b>TxPowerLevels</b> array. 

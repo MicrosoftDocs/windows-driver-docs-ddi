@@ -51,7 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure specifies the results of the association
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.
+
+The DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure specifies the results of the association
   operation that is performed by the 802.11 station after it receives an association request from a peer
   station on an infrastructure BSS.
 
@@ -216,7 +218,6 @@ The authentication algorithm that the 802.11 station resolved with the peer stat
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
       <b>uStatus</b> is not set to zero.</div>
-<div> </div>
 
 ### -field UnicastCipher
 
@@ -227,7 +228,6 @@ The unicast cipher algorithm that the 802.11 station resolved with the peer stat
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
       <b>uStatus</b> is not set to zero.</div>
-<div> </div>
 
 ### -field MulticastCipher
 
@@ -238,7 +238,6 @@ The multicast cipher algorithm that the 802.11 station resolved with the AP or p
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
       <b>uStatus</b> is not set to zero.</div>
-<div> </div>
 
 ### -field uActivePhyListOffset
 
@@ -267,7 +266,6 @@ A PHY ID of DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value
 
 <div class="alert"><b>Note</b>  An entry with the value of DOT11_PHY_ID_ANY must be the only entry in the
         active PHY list.</div>
-<div> </div>
 </li>
 </ul>
 The offset of the active PHY list is relative to the start of the buffer that contains the
@@ -275,7 +273,6 @@ The offset of the active PHY list is relative to the start of the buffer that co
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
       <b>uStatus</b> is not set to zero.</div>
-<div> </div>
 
 ### -field uActivePhyListSize
 
@@ -286,7 +283,6 @@ The length, in bytes, of the active PHY list. The
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
      <b>uStatus</b> is not set to zero.</div>
-<div> </div>
 
 ### -field uBeaconOffset
 
@@ -302,7 +298,6 @@ The Beacon frame should be the latest frame used by the driver, except that real
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
      <b>uStatus</b> is not set to zero.</div>
-<div> </div>
 
 ### -field uBeaconSize
 
@@ -318,7 +313,7 @@ The Beacon frame should be the latest frame used by the driver, except that real
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
      <b>uStatus</b> is not set to zero.</div>
-<div> </div>
+
 
 ## -remarks
 
