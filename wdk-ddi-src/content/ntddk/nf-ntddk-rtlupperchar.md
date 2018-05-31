@@ -78,7 +78,7 @@ Specifies the character to convert.
 
 <b>RtlUpperChar</b> returns the input <i>Character</i> unconverted if it is the lead byte of a multibyte character or if the uppercase equivalent of <i>Character</i> is a double-byte character. To convert such characters, use <b>RtlUpcaseUnicodeChar</b>. 
 
-
+**RtlUpperChar** is not recommended because the function is designed to work for ASCII range A-Z letters. Instead, use [**RtlUpcaseUnicodeChar**](../wdm/nf-wdm-rtlupcaseunicodechar.md).
 
 
 ## -see-also

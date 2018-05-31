@@ -79,7 +79,7 @@ The interrupt signal is active when it is low.
 
 
 
-The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_INTERRUPT_INFO</a> structure.
+The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/Ff552351">WDF_INTERRUPT_INFO</a> structure.
 
 
 
@@ -89,7 +89,7 @@ The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify a member o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_INTERRUPT_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/Ff552351">WDF_INTERRUPT_INFO</a>
  
 
  

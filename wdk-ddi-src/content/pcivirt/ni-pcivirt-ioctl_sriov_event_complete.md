@@ -86,36 +86,4 @@ The size of the <a href="https://msdn.microsoft.com/3b40d780-8084-4c19-bb8e-9d1a
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
 
 The virtualization stack sends the <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request when the physical function (PF) driver completes the previously sent <a href="https://msdn.microsoft.com/3f2d67e0-abab-40a1-b4a9-cb65e81884e9">IOCTL_SRIOV_NOTIFICATION</a> request. The <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request can be completed
-synchronously.  The stack provides the NTSTATUS code to set for the <a href="https://msdn.microsoft.com/3b40d780-8084-4c19-bb8e-9d1ab3dadc95">SRIOV_PNP_EVENT_COMPLETE</a> is the input buffer. The code indicates the status code o use for completion of the event.
-
-```
-    case IOCTL_SRIOV_NOTIFICATION:
-        PSRIOV_PNP_EVENT_COMPLETE input;
-        NTSTATUS                  status;
-
-
-    status = WdfRequestRetrieveInputBuffer(Request,
-                                           sizeof(*input),
-                                           &input,
-                                           NULL);
-    if (!NT_SUCCESS(status))
-    {
-        TraceEvents(TRACE_LEVEL_ERROR, DBG_PNP,
-                    "WdfRequestRetrieveInputBuffer[IOCTL_SRIOV_EVENT_COMPLETE] failed status=%!STATUS!\n",
-                    status);
-        WdfRequestComplete(Request, status);
-        return;
-    }
-    
-    ...
-
-    KeSetEvent(&DeviceContext->PnpUnblockEvent, IO_NO_INCREMENT, FALSE);
-
-    WdfRequestComplete(Request, STATUS_SUCCESS);
-    return;
-```
-
-
-
-
-
+synchronously.  The stack provides the NTSTATUS code to set for the <a href="https://msdn.microsoft.com/3b40d780-8084-4c19-bb8e-9d1ab3dadc95">SRIOV_PNP_EVENT_COMPLETE</a> is the input buffer.
