@@ -78,7 +78,11 @@ Specifies the character to convert.
 
 <b>RtlUpperChar</b> returns the input <i>Character</i> unconverted if it is the lead byte of a multibyte character or if the uppercase equivalent of <i>Character</i> is a double-byte character. To convert such characters, use <b>RtlUpcaseUnicodeChar</b>. 
 
+**RtlUpperChar** is not recommended because the function is designed to work for ASCII range A-Z letters. Instead, use [**RtlUpcaseUnicodeChar**](../wdm/nf-wdm-rtlupcaseunicodechar.md).
 
+Which, in short, means that anyone using this for anything other than ASCII casing is going to have world-readiness problems, which may not be obvious until someone from Japan or wherever tries to use it - or for the new UTF-8 ACP feature machines.
+
+So this needs to be more strongly discouraged and people should be using the Unicode capable RtlUpcaseUnicodeChar instead - Even if then need to convert strings to Unicode to call it. (Apps should "Use Unicode" anyway.
 
 
 ## -see-also
