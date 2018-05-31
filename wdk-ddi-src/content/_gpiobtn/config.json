@@ -1,0 +1,7 @@
+{
+  "tech": "gpiobtn",
+  "headers": [
+    "hwnclx.h"
+  ],
+  "displayName": "Hardware Notifications"
+}
