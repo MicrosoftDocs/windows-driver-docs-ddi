@@ -51,8 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11EXT_IHV_HANDLERS structure specifies a list of pointers to the IHV handler functions
-  supported by the IHV Extensions DLL.
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.
+
+The DOT11EXT_IHV_HANDLERS structure specifies a list of pointers to the IHV handler functions supported by the IHV Extensions DLL.
 
 
 ## -syntax
@@ -232,13 +233,12 @@ The IHV handler functions are a set of callback functions supported by the IHV E
     <i>pDot11IHVHandlers</i> parameter.
 
 <div class="alert"><b>Note</b>  The operating system resolves the addresses of the 
-    <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a> and
-    
+    <a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a> and    
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a> IHV
     handler functions through 
     <b>GetProcAddress</b>. For more information about 
     <b>GetProcAddress</b>, refer to the Microsoft Windows SDK documentation.</div>
-<div> </div>
+
 All of the function pointers are required and must not be set to <b>NULL</b>.
 
 
@@ -348,11 +348,3 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
    Dot11ExtIhvSendPacketCompletion</a>
-
-
-
- 
-
- 
-
-
