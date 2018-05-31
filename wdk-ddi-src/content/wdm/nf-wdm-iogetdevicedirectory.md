@@ -72,11 +72,24 @@ Returns an appropriate [NTSTATUS value](https://docs.microsoft.com/en-us/windows
 ## -remarks
 If **IoGetDeviceDirectory** is called before the required disks and volumes have been started, the function does not open a handle and returns an error. 
 
+Drivers typically use [**ZwOpenFile**](nf-wdm-zwopenfile.md) and [**ZwCreateFile**](nf-wdm-zwcreatefile.md) to access/create files. One of the parameters for those functions is an [OBJECT_ATTRIBUTES](../wudfwdm/ns-wudfwdm-_object_attributes.md) structure, which contains the object name and a root directory. If the root directory is NULL, then the object name must be a fully qualified path. However, if you provide a handle for the root directory, then the object name must be relative to the object (in the case of files, the directory), that the handle represents. 
+
+After the **IoGetDeviceDirectory** call succeeds, use the received HANDLE as a root directory in the [OBJECT_ATTRIBUTES](../wudfwdm/ns-wudfwdm-_object_attributes.md) that you are passing to a [**ZwOpenFile**](nf-wdm-zwopenfile.md) and [**ZwCreateFile**](nf-wdm-zwcreatefile.md).
+
+
 The driver must call [**ZwClose**](..\ntifs\nf-ntifs-ntclose.md) to close the received handle when access is no longer required.
 
 Callers of **IoGetDeviceDirectory** must be running at IRQL = PASSIVE_LEVEL in the context of a system thread.
 
 ## -see-also
+[**ZwOpenFile**](nf-wdm-zwopenfile.md)
+
+[**ZwCreateFile**](nf-wdm-zwcreatefile.md)
+
 [**ZwClose**](..\ntifs\nf-ntifs-ntclose.md)
 
 [**_DEVICE_DIRECTORY_TYPE**](ne-wdm-_device_directory_type.md)
+
+[OBJECT_ATTRIBUTES](../wudfwdm/ns-wudfwdm-_object_attributes.md)
+
+[**InitializeObjectAttributes**](../wudfwdm/nf-wudfwdm-initializeobjectattributes.md) 
