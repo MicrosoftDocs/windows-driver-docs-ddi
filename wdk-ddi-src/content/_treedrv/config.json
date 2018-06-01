@@ -9,5 +9,6 @@
     "treevariableservice.h",
     "trustedrt.h",
     "trustedruntimeclx.h"
-  ]
+  ],
+  "displayName": "Trusted Execution Environment (TrEE)"  
 }

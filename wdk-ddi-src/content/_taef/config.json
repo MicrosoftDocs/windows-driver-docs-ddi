@@ -10,5 +10,6 @@
     "wexstring.h",
     "wextestclass.h",
     "wextypes.h"
-  ]
+  ],
+  "displayName": "Test Authoring and Execution Framework (TAEF)"  
 }
