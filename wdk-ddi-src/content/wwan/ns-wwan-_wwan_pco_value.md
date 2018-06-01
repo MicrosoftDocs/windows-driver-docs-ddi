@@ -70,7 +70,7 @@ Indicates whether the PCO value being passed up is the original structure that w
 
 ### -field PcoData
 
-The payload of the PCO structure that is received from the operator. The modem should surface the PCO with the complete structure as specified by the 3G TS24.008 spec. <i>WWAN_PCO_HEX_BUF_LEN</i> is defined as <i>256</i>, given that the longest a PCO structure could be is 253 octets.
+The payload of the PCO structure that is received from the operator. The modem should surface the PCO with the complete structure as specified by the 3G TS24.008 spec. <i>WWAN_PCO_OCT_BUF_LEN</i> is defined as <i>256</i>, given that the longest a PCO structure could be is 253 octets.
 
 
 ## -remarks
@@ -83,7 +83,7 @@ For example, if the modem received a PCO with 3 protocols and 3 containers, and 
 
 The following figure shows a full PCO structure as defined in the 3G TS24.008 spec.
 
-![Full PCO structure](images/pco_structure_small.png)
+![Full PCO structure](../images/pco_structure_small.png)
 
 ## -see-also
 
