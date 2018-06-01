@@ -1,5 +1,6 @@
 ---
 UID: NA:dxva
+author: windows-driver-content
 ms.assetid: 250929b4-1810-3b6a-a9b5-69d10f2643a0
 ms.author: windowsdriverdev
 ms.date: 05/09/18

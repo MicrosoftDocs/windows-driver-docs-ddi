@@ -1,5 +1,6 @@
 ---
 UID: TP:sensors
+author: windows-driver-content
 ms.assetid: 8a7a095d-53d4-30a8-a1d2-4ef29c8a344d
 ms.author: windowsdriverdev
 ms.date: 05/09/18

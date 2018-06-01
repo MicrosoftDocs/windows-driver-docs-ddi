@@ -1,5 +1,6 @@
 ---
 UID: NA:d3d11tokenizedprogramformat
+author: windows-driver-content
 ms.assetid: e2cf71a2-6ab7-39c5-a98d-46c210a9a028
 ms.author: windowsdriverdev
 ms.date: 05/09/18

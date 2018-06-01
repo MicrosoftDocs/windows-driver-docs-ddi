@@ -1,5 +1,6 @@
 ---
 UID: NA:d4iface
+author: windows-driver-content
 ms.assetid: 2f0a7093-3d26-3bc3-9fb3-f2806adf417f
 ms.author: windowsdriverdev
 ms.date: 05/09/18

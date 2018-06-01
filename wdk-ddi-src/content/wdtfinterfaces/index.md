@@ -1,5 +1,6 @@
 ---
 UID: NA:wdtfinterfaces
+author: windows-driver-content
 ms.assetid: e172752b-c698-3669-8615-778188cafdb6
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -1,5 +1,6 @@
 ---
 UID: NA:dsm
+author: windows-driver-content
 ms.assetid: bfb25ad5-3d81-3fde-a632-701210e3fa87
 ms.author: windowsdriverdev
 ms.date: 05/09/18

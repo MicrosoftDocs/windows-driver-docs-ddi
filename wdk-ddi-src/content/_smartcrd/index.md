@@ -1,5 +1,6 @@
 ---
 UID: TP:smartcrd
+author: windows-driver-content
 ms.assetid: 1f409c41-e10c-39aa-8408-18629cc1c604
 ms.author: windowsdriverdev
 ms.date: 05/09/18

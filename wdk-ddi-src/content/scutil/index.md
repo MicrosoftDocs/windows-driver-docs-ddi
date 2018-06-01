@@ -1,5 +1,6 @@
 ---
 UID: NA:scutil
+author: windows-driver-content
 ms.assetid: 25d987e9-9307-3767-9897-f6a049aa17cf
 ms.author: windowsdriverdev
 ms.date: 05/09/18

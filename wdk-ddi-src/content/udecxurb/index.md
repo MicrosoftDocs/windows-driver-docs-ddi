@@ -1,5 +1,6 @@
 ---
 UID: NA:udecxurb
+author: windows-driver-content
 ms.assetid: 6cb5d20a-c66a-3e85-8ef2-8930ca44e63a
 ms.author: windowsdriverdev
 ms.date: 05/09/18

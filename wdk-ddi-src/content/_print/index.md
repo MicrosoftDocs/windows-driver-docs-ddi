@@ -1,5 +1,6 @@
 ---
 UID: TP:print
+author: windows-driver-content
 ms.assetid: fc0e0b85-603b-35c9-9d94-fc5cb18ea7c1
 ms.author: windowsdriverdev
 ms.date: 05/09/18

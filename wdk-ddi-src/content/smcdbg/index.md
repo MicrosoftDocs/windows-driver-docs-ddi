@@ -1,5 +1,6 @@
 ---
 UID: NA:smcdbg
+author: windows-driver-content
 ms.assetid: e6ab1c7a-7f8a-3375-9bb9-087208066362
 ms.author: windowsdriverdev
 ms.date: 05/09/18

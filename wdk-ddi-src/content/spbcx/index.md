@@ -1,5 +1,6 @@
 ---
 UID: NA:spbcx
+author: windows-driver-content
 ms.assetid: 6b009b60-06dc-3225-88b1-4c355dadc70e
 ms.author: windowsdriverdev
 ms.date: 05/09/18

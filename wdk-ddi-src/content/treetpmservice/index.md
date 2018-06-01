@@ -1,5 +1,6 @@
 ---
 UID: NA:treetpmservice
+author: windows-driver-content
 ms.assetid: fb540f73-7545-30e7-9383-3f20425030d2
 ms.author: windowsdriverdev
 ms.date: 05/09/18

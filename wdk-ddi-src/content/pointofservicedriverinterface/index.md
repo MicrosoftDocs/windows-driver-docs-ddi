@@ -1,5 +1,6 @@
 ---
 UID: NA:pointofservicedriverinterface
+author: windows-driver-content
 ms.assetid: d8f3ae77-dab5-34d2-a88f-30aa2fd8701d
 ms.author: windowsdriverdev
 ms.date: 05/09/18

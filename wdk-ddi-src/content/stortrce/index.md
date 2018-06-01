@@ -1,5 +1,6 @@
 ---
 UID: NA:stortrce
+author: windows-driver-content
 ms.assetid: d263a869-b781-3f45-bf46-68872b9005b1
 ms.author: windowsdriverdev
 ms.date: 05/09/18

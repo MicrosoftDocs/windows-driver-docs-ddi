@@ -1,5 +1,6 @@
 ---
 UID: TP:buses
+author: windows-driver-content
 ms.assetid: 7759b99f-4c43-36f8-a7e6-b99866828c68
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -1,5 +1,6 @@
 ---
 UID: NA:pcivirt
+author: windows-driver-content
 ms.assetid: bc773e64-8435-30c4-b21e-3a5a58d3b29e
 ms.author: windowsdriverdev
 ms.date: 05/09/18

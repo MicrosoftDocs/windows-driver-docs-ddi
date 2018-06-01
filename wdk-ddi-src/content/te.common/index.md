@@ -1,5 +1,6 @@
 ---
 UID: NA:te.common
+author: windows-driver-content
 ms.assetid: ee34926c-6509-3ac0-8354-3a6a867a4315
 ms.author: windowsdriverdev
 ms.date: 05/09/18

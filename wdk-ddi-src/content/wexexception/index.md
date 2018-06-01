@@ -1,5 +1,6 @@
 ---
 UID: NA:wexexception
+author: windows-driver-content
 ms.assetid: a204976e-1c46-3c96-9ea5-c565ac753a04
 ms.author: windowsdriverdev
 ms.date: 05/09/18

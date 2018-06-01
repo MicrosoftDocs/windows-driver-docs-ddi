@@ -1,5 +1,6 @@
 ---
 UID: NA:treeinlinecryptoservice
+author: windows-driver-content
 ms.assetid: 706ce4d6-553e-33e5-ada1-07b5ce29405e
 ms.author: windowsdriverdev
 ms.date: 05/09/18

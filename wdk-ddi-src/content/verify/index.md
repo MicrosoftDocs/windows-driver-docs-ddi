@@ -1,5 +1,6 @@
 ---
 UID: NA:verify
+author: windows-driver-content
 ms.assetid: d78fab56-c6b0-30a8-a418-935fac6bafaf
 ms.author: windowsdriverdev
 ms.date: 05/09/18

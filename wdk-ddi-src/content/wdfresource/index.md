@@ -1,5 +1,6 @@
 ---
 UID: NA:wdfresource
+author: windows-driver-content
 ms.assetid: ae262a83-02ac-307d-bec4-a4655f8a7524
 ms.author: windowsdriverdev
 ms.date: 05/09/18

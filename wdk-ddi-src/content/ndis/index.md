@@ -1,5 +1,6 @@
 ---
 UID: NA:ndis
+author: windows-driver-content
 ms.assetid: e28f0b17-202f-367c-9cdd-eb5880617eca
 ms.author: windowsdriverdev
 ms.date: 05/09/18
