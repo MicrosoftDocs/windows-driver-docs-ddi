@@ -76,8 +76,7 @@ typedef struct _DOT11_PEER_INFO_LIST {
 
 ### -field Header
 
-The type, revision, and size of the DOT11_PEER_INFO_LIST structure. This member is formatted as an     
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the DOT11_PEER_INFO_LIST structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
      
 
 The miniport driver must set the members of 

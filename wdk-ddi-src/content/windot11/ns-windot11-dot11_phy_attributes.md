@@ -53,8 +53,8 @@ req.product: Windows 10 or later.
 
 <div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
 
-The DOT11_PHY_ATTRIBUTES structure defines the physical and operating attributes of a PHY on the
-  802.11 station.
+<p>The DOT11_PHY_ATTRIBUTES structure defines the physical and operating attributes of a PHY on the
+  802.11 station.</p>
 
 
 ## -syntax
