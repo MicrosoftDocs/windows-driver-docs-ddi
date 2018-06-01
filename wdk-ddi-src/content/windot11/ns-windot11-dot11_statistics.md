@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
 
 The DOT11_STATISTICS structure records statistical counters for the 802.11 interface.
 
@@ -146,7 +146,7 @@ The MAC layer counters based on unicast packets sent or received by the 802.11 s
 
 <div class="alert"><b>Note</b>  <p class="note"> Counters for received unicast packets must only be incremented for those packets with a
      destination MAC address in the 802.11 MAC header that matches the 802.11 station's MAC
-     address.
+     address.</div>
 
 ### -field MacMcastCounters
 
@@ -159,7 +159,7 @@ The MAC layer counters based on multicast or broadcast packets sent or received 
 <div class="alert"><b>Note</b>  <p class="note"> Counters for received multicast or broadcast packets must only be incremented for those
      packets with a destination MAC address in the 802.11 MAC header that matches an entry in the multicast
      address list of the 802.11 station. For more information about the multicast address list, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569388">OID_DOT11_MULTICAST_LIST</a>.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569388">OID_DOT11_MULTICAST_LIST</a>.</div>
 
 ### -field PhyCounters
 

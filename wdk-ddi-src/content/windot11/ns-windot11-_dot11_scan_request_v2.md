@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
 
 The DOT11_SCAN_REQUEST_V2 structure defines the parameters for the explicit scan operation performed
   by the 802.11 station. The station performs the explicit scan operation following an OID set request of 
@@ -149,7 +149,7 @@ If the
      <b>dot11_scan_type_forced</b> bit is only supported when the miniport driver is operating in Extensible
      Station (ExtSTA) mode. The 
      <b>dot11_scan_type_forced</b> bit must be set through a bitwise OR with a DOT11_SCAN_TYPE
-     value.
+     value.</div>
 
 ### -field bRestrictedScan
 
