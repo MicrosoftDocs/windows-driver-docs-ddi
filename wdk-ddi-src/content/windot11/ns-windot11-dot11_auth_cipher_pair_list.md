@@ -147,17 +147,10 @@ When these OIDs are queried, the miniport driver must verify that the
 
 <ul>
 <li>
-If the value of the 
-      <b>InformationBufferLength</b> member is less than the length, in bytes, of the entire
-      DOT11_AUTH_CIPHER_PAIR_LIST structure, the miniport driver must do the following:
-
+If the value of the <b>InformationBufferLength</b> member is less than the length, in bytes, of the entire DOT11_AUTH_CIPHER_PAIR_LIST structure, the miniport driver must do the following:
 <ul>
 <li>
-For the 
-        <i>OidRequest</i> parameter, set the 
-        <b>BytesWritten</b> member to zero and the 
-        <b>BytesNeeded</b> member to the length, in bytes, of the entire DOT11_AUTH_CIPHER_PAIR_LIST
-        structure.
+For the <i>OidRequest</i> parameter, set the <b>BytesWritten</b> member to zero and the <b>BytesNeeded</b> member to the length, in bytes, of the entire DOT11_AUTH_CIPHER_PAIR_LIST structure.
 
 </li>
 <li>
@@ -168,31 +161,16 @@ Fail the query request by returning NDIS_STATUS_BUFFER_OVERFLOW from its
 </ul>
 </li>
 <li>
-If the value of the 
-      <b>InformationBufferLength</b> member is greater than or equal to the length, in bytes, of the entire
-      DOT11_AUTH_CIPHER_PAIR_LIST structure, the miniport driver must do the following to complete a
-      successful query request:
-
+If the value of the <b>InformationBufferLength</b> member is greater than or equal to the length, in bytes, of the entire DOT11_AUTH_CIPHER_PAIR_LIST structure, the miniport driver must do the following to complete a successful query request:
 <ul>
 <li>
-For the DOT11_AUTH_CIPHER_PAIR_LIST structure, set the 
-        <b>uNumOfEntries</b> and 
-        <b>uTotalNumOfEntries</b> members to the total number of entries in the 
-        <b>AuthCipherPairs</b> array.
-
+For the DOT11_AUTH_CIPHER_PAIR_LIST structure, set the <b>uNumOfEntries</b> and <b>uTotalNumOfEntries</b> members to the total number of entries in the <b>AuthCipherPairs</b> array.
 </li>
 <li>
-For the 
-        <i>OidRequest</i> parameter, set the 
-        <b>BytesNeeded</b> member to zero and the 
-        <b>BytesWritten</b> member to the length, in bytes, of the entire DOT11_AUTH_CIPHER_PAIR_LIST
-        structure. The miniport driver must also copy the entire DOT11_AUTH_CIPHER_PAIR_LIST structure to the <b>InformationBuffer</b> member.
-
+For the <i>OidRequest</i> parameter, set the <b>BytesNeeded</b> member to zero and the <b>BytesWritten</b> member to the length, in bytes, of the entire DOT11_AUTH_CIPHER_PAIR_LIST structure. The miniport driver must also copy the entire DOT11_AUTH_CIPHER_PAIR_LIST structure to the <b>InformationBuffer</b> member.
 </li>
 <li>
-Return NDIS_STATUS_SUCCESS from its 
-        <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function.
-
+Return NDIS_STATUS_SUCCESS from its <a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a> function.
 </li>
 </ul>
 </li>
