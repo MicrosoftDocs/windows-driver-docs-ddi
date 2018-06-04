@@ -85,7 +85,7 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="ht
 
 
 
-<text></text>
+
 
 
 
@@ -94,7 +94,7 @@ The buffer at <b>Irp-&gt;AssociatedIrp.SystemBuffer</b> contains the <a href="ht
 
 
 
-<text></text>
+
 
 
 

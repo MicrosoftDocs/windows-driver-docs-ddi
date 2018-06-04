@@ -96,7 +96,7 @@ The length of a BOOLEAN.
 
 
 
-<text></text>
+
 
 
 
@@ -105,7 +105,7 @@ The length of a BOOLEAN.
 
 
 
-<text></text>
+
 
 
 

@@ -62,7 +62,7 @@ This request registers for notifications about the changes in transport characte
 
 
 
-<text></text>
+
 
 
 
@@ -71,7 +71,7 @@ This request registers for notifications about the changes in transport characte
 
 
 
-<text></text>
+
 
 
 
@@ -80,7 +80,7 @@ This request registers for notifications about the changes in transport characte
 
 
 
-<text></text>
+
 
 
 
@@ -89,7 +89,7 @@ This request registers for notifications about the changes in transport characte
 
 
 
-<text></text>
+
 
 
 

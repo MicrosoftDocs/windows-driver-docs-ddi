@@ -87,7 +87,7 @@ The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540
 
 
 
-<text></text>
+
 
 
 
@@ -96,7 +96,7 @@ The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540
 
 
 
-<text></text>
+
 
 
 

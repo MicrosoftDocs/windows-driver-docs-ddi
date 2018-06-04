@@ -157,7 +157,7 @@ A non-NULL terminated Unicode string of the form \&lt;server&gt;\&lt;share&gt;\&
 
 
 
-<text></text>
+
 
 
 
@@ -201,7 +201,7 @@ The length, in bytes, of the prefix claimed by the provider from the Unicode str
 
 
 
-<text></text>
+
 
 
 
@@ -210,7 +210,7 @@ The length, in bytes, of the prefix claimed by the provider from the Unicode str
 
 
 
-<text></text>
+
 
 
 
@@ -219,7 +219,7 @@ The length, in bytes, of the prefix claimed by the provider from the Unicode str
 
 
 
-<text></text>
+
 
 
 

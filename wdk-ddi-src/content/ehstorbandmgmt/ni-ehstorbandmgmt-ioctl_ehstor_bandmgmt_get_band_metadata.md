@@ -82,7 +82,7 @@ The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/hh4
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/hh4
 
 
 
-<text></text>
+
 
 
 

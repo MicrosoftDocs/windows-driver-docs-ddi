@@ -91,7 +91,7 @@ The length of the buffer is the size of the <b>BTHX_VERSION</b> structure.
 
 
 
-<text></text>
+
 
 
 
@@ -100,7 +100,7 @@ The length of the buffer is the size of the <b>BTHX_VERSION</b> structure.
 
 
 
-<text></text>
+
 
 
 

@@ -87,7 +87,7 @@ The <b>UrbHeader.Length</b> member specifies the size in bytes of the URB.
 
 
 
-<text></text>
+
 
 
 
@@ -96,7 +96,7 @@ The <b>UrbHeader.Length</b> member specifies the size in bytes of the URB.
 
 
 
-<text></text>
+
 
 
 

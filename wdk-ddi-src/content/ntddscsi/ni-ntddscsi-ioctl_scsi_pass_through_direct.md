@@ -114,7 +114,7 @@ The port driver returns any request-sense data and the <a href="https://msdn.mic
 
 
 
-<text></text>
+
 
 
 
@@ -123,7 +123,7 @@ The port driver returns any request-sense data and the <a href="https://msdn.mic
 
 
 
-<text></text>
+
 
 
 

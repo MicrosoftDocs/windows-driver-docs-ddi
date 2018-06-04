@@ -74,7 +74,7 @@ The VRP <b>InputBuffer</b> contains a <a href="https://msdn.microsoft.com/librar
 
 
 
-<text></text>
+
 
 
 
@@ -88,7 +88,7 @@ The miniport driver returns the <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<text></text>
+
 
 
 
@@ -97,7 +97,7 @@ The miniport driver returns the <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<text></text>
+
 
 
 
@@ -106,7 +106,7 @@ The miniport driver returns the <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<text></text>
+
 
 
 

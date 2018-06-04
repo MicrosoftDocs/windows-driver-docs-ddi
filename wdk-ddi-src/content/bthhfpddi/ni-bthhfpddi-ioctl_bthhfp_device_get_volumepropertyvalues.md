@@ -83,7 +83,7 @@ The size of a <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/
 
 
 
-<text></text>
+
 
 
 
@@ -92,7 +92,7 @@ The size of a <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/
 
 
 
-<text></text>
+
 
 
 

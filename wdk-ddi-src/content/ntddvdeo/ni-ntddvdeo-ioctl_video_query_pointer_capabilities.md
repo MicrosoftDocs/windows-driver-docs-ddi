@@ -70,7 +70,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -84,7 +84,7 @@ The miniport driver returns a <a href="https://msdn.microsoft.com/library/window
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ The miniport driver returns a <a href="https://msdn.microsoft.com/library/window
 
 
 
-<text></text>
+
 
 
 
@@ -102,7 +102,7 @@ The miniport driver returns a <a href="https://msdn.microsoft.com/library/window
 
 
 
-<text></text>
+
 
 
 

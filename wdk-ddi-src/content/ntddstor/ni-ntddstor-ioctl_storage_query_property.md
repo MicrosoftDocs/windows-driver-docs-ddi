@@ -93,7 +93,7 @@ Cast the structure returned to a <a href="https://msdn.microsoft.com/library/win
 
 
 
-<text></text>
+
 
 
 
@@ -102,7 +102,7 @@ Cast the structure returned to a <a href="https://msdn.microsoft.com/library/win
 
 
 
-<text></text>
+
 
 
 

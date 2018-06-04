@@ -87,7 +87,7 @@ To determine the size of output buffer that is required, caller should send this
 
 
 
-<text></text>
+
 
 
 
@@ -96,7 +96,7 @@ To determine the size of output buffer that is required, caller should send this
 
 
 
-<text></text>
+
 
 
 

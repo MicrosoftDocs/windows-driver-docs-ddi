@@ -82,7 +82,7 @@ The output buffer must be large enough to contain a two-byte quantity holding th
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ The output buffer must be large enough to contain a two-byte quantity holding th
 
 
 
-<text></text>
+
 
 
 

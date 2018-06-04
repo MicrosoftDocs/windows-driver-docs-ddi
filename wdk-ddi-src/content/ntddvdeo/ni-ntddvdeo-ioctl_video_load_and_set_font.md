@@ -70,7 +70,7 @@ The VRP <b>InputBuffer</b> contains a VIDEO_LOAD_FONT_INFORMATION structure desc
 
 
 
-<text></text>
+
 
 
 
@@ -84,7 +84,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -102,7 +102,7 @@ None
 
 
 
-<text></text>
+
 
 
 

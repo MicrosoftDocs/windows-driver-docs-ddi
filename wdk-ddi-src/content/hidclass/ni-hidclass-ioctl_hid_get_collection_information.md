@@ -84,7 +84,7 @@ The size of a HID_COLLECTION_INFORMATION structure.
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ The size of a HID_COLLECTION_INFORMATION structure.
 
 
 
-<text></text>
+
 
 
 

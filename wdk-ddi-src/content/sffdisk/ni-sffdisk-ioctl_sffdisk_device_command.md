@@ -139,7 +139,7 @@ If the caller opened opened the device without specifying the FILE_FLAG_OVERLAPP
 
 
 
-<text></text>
+
 
 
 
@@ -148,7 +148,7 @@ If the caller opened opened the device without specifying the FILE_FLAG_OVERLAPP
 
 
 
-<text></text>
+
 
 
 
@@ -157,7 +157,7 @@ If the caller opened opened the device without specifying the FILE_FLAG_OVERLAPP
 
 
 
-<text></text>
+
 
 
 
@@ -166,7 +166,7 @@ If the caller opened opened the device without specifying the FILE_FLAG_OVERLAPP
 
 
 
-<text></text>
+
 
 
 
@@ -175,7 +175,7 @@ If the caller opened opened the device without specifying the FILE_FLAG_OVERLAPP
 
 
 
-<text></text>
+
 
 
 
@@ -184,7 +184,7 @@ If the caller opened opened the device without specifying the FILE_FLAG_OVERLAPP
 
 
 
-<text></text>
+
 
 
 

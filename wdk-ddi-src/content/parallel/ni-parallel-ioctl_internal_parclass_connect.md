@@ -89,7 +89,7 @@ The size of a <a href="..\parallel\ns-parallel-_parclass_information.md">PARCLAS
 
 
 
-<text></text>
+
 
 
 
@@ -98,7 +98,7 @@ The size of a <a href="..\parallel\ns-parallel-_parclass_information.md">PARCLAS
 
 
 
-<text></text>
+
 
 
 

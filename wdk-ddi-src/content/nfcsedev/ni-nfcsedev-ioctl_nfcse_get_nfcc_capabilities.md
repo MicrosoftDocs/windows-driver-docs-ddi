@@ -84,7 +84,7 @@ sizeof(SECURE_ELEMENT_NFCC_CAPABILITIES)
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ sizeof(SECURE_ELEMENT_NFCC_CAPABILITIES)
 
 
 
-<text></text>
+
 
 
 

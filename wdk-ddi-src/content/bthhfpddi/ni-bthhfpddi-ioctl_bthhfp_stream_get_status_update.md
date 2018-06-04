@@ -83,7 +83,7 @@ The size of an NT_STATUS object.
 
 
 
-<text></text>
+
 
 
 
@@ -92,7 +92,7 @@ The size of an NT_STATUS object.
 
 
 
-<text></text>
+
 
 
 

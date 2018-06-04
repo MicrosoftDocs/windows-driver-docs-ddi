@@ -83,7 +83,7 @@ Set to sizeof(GNSS_CHIPSETINFO).
 
 
 
-<text></text>
+
 
 
 
@@ -92,7 +92,7 @@ Set to sizeof(GNSS_CHIPSETINFO).
 
 
 
-<text></text>
+
 
 
 

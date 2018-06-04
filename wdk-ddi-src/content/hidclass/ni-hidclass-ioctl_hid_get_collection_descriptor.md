@@ -69,7 +69,7 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 
 
-<text></text>
+
 
 
 
@@ -88,7 +88,7 @@ The size, in bytes, of the preparsed data structure is obtained using <a href="h
 
 
 
-<text></text>
+
 
 
 
@@ -97,7 +97,7 @@ The size, in bytes, of the preparsed data structure is obtained using <a href="h
 
 
 
-<text></text>
+
 
 
 
