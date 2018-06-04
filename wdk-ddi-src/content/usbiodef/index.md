@@ -1,5 +1,6 @@
 ---
 UID: NA:usbiodef
+author: windows-driver-content
 ms.assetid: 0ee5b2ad-8bbd-33b9-a85c-a5b46329f478
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -1,5 +1,6 @@
 ---
 UID: NA:ucxcontroller
+author: windows-driver-content
 ms.assetid: d18ef805-5f96-362a-9074-e90dea9d6c26
 ms.author: windowsdriverdev
 ms.date: 05/09/18

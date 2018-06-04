@@ -1,5 +1,6 @@
 ---
 UID: NA:rx
+author: windows-driver-content
 ms.assetid: 22d59328-4d0a-31bc-b0cd-e6fc10024ad3
 ms.author: windowsdriverdev
 ms.date: 05/09/18

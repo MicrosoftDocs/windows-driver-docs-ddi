@@ -1,5 +1,6 @@
 ---
 UID: NA:scsiwmi
+author: windows-driver-content
 ms.assetid: 8125c9c7-4a80-3e65-a139-2e373be8fab5
 ms.author: windowsdriverdev
 ms.date: 05/09/18

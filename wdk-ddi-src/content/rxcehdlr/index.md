@@ -1,5 +1,6 @@
 ---
 UID: NA:rxcehdlr
+author: windows-driver-content
 ms.assetid: ec8804aa-94d3-317b-a99a-1aaa6e86e54b
 ms.author: windowsdriverdev
 ms.date: 05/09/18

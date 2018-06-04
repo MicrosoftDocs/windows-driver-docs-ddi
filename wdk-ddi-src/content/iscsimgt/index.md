@@ -1,5 +1,6 @@
 ---
 UID: NA:iscsimgt
+author: windows-driver-content
 ms.assetid: 0b754abf-ab99-3c3d-989c-a58cb88854c3
 ms.author: windowsdriverdev
 ms.date: 05/09/18

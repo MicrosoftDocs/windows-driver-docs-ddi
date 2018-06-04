@@ -1,5 +1,6 @@
 ---
 UID: NA:ksdebug
+author: windows-driver-content
 ms.assetid: a681444f-2f78-34bc-b524-06627e87700a
 ms.author: windowsdriverdev
 ms.date: 05/09/18

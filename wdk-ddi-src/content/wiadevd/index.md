@@ -1,5 +1,6 @@
 ---
 UID: NA:wiadevd
+author: windows-driver-content
 ms.assetid: 2bace84f-1c46-33b2-a258-f34f3778f8fb
 ms.author: windowsdriverdev
 ms.date: 05/09/18

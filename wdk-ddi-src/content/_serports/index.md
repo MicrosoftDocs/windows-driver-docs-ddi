@@ -1,5 +1,6 @@
 ---
 UID: TP:serports
+author: windows-driver-content
 ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4
 ms.author: windowsdriverdev
 ms.date: 05/09/18

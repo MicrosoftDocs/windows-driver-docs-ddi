@@ -1,5 +1,6 @@
 ---
 UID: NA:vhf
+author: windows-driver-content
 ms.assetid: 6241ba6a-2367-3ead-8146-3f3598ed3ab0
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -1,5 +1,6 @@
 ---
 UID: NA:wdftypes
+author: windows-driver-content
 ms.assetid: 18c58a19-7488-3896-94dd-5655afc9cda3
 ms.author: windowsdriverdev
 ms.date: 05/09/18

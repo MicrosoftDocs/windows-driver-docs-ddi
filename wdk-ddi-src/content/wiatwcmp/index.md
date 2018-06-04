@@ -1,5 +1,6 @@
 ---
 UID: NA:wiatwcmp
+author: windows-driver-content
 ms.assetid: 9758efe1-bd32-33a6-8e02-a9c21e726bfe
 ms.author: windowsdriverdev
 ms.date: 05/09/18

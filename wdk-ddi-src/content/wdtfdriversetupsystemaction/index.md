@@ -1,5 +1,6 @@
 ---
 UID: NA:wdtfdriversetupsystemaction
+author: windows-driver-content
 ms.assetid: e463b19f-90ca-388e-8742-9094e47bef38
 ms.author: windowsdriverdev
 ms.date: 05/09/18

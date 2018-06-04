@@ -1,5 +1,6 @@
 ---
 UID: NA:hubbusif
+author: windows-driver-content
 ms.assetid: 4aba15e2-375a-3475-aaeb-8abaf33edf89
 ms.author: windowsdriverdev
 ms.date: 05/09/18

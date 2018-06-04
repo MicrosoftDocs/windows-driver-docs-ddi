@@ -1,5 +1,6 @@
 ---
 UID: NA:nfccxfuncenum
+author: windows-driver-content
 ms.assetid: 4d67df28-5dc6-36c4-a50f-ccd779cebaea
 ms.author: windowsdriverdev
 ms.date: 05/09/18

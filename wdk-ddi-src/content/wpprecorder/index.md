@@ -1,5 +1,6 @@
 ---
 UID: NA:wpprecorder
+author: windows-driver-content
 ms.assetid: 74bb9220-3cf1-3af5-b8d6-e760a095df4a
 ms.author: windowsdriverdev
 ms.date: 05/09/18

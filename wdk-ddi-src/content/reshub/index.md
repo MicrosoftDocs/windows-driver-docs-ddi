@@ -1,5 +1,6 @@
 ---
 UID: NA:reshub
+author: windows-driver-content
 ms.assetid: 9a7ab989-5fce-3d9d-8e4e-202e0218e137
 ms.author: windowsdriverdev
 ms.date: 05/09/18

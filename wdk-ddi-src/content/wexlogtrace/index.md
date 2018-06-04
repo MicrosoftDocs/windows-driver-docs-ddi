@@ -1,5 +1,6 @@
 ---
 UID: NA:wexlogtrace
+author: windows-driver-content
 ms.assetid: 3aa40561-30b1-310a-b289-97b5253ecbc6
 ms.author: windowsdriverdev
 ms.date: 05/09/18

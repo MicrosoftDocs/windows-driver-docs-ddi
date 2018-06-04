@@ -1,5 +1,6 @@
 ---
 UID: NA:netadapter
+author: windows-driver-content
 ms.assetid: a8daa0fe-db44-3a6f-a53f-7c78c290341e
 ms.author: windowsdriverdev
 ms.date: 05/09/18

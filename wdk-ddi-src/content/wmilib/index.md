@@ -1,5 +1,6 @@
 ---
 UID: NA:wmilib
+author: windows-driver-content
 ms.assetid: bca56998-667b-3fd4-9561-ba760c2275b6
 ms.author: windowsdriverdev
 ms.date: 05/09/18

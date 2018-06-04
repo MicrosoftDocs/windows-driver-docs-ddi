@@ -1,5 +1,6 @@
 ---
 UID: NA:netringbuffer
+author: windows-driver-content
 ms.assetid: ff6dffd6-f19c-3c42-902d-befaf5da009d
 ms.author: windowsdriverdev
 ms.date: 05/09/18

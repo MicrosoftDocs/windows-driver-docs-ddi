@@ -1,5 +1,6 @@
 ---
 UID: NA:nettxqueue
+author: windows-driver-content
 ms.assetid: 6871a8e7-5bb5-3075-975a-1364c3509ae7
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -1,5 +1,6 @@
 ---
 UID: NA:bdasup
+author: windows-driver-content
 ms.assetid: 501c4a0b-90dc-39ca-905e-a662bbbfe6be
 ms.author: windowsdriverdev
 ms.date: 05/09/18

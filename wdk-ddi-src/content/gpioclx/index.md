@@ -1,5 +1,6 @@
 ---
 UID: NA:gpioclx
+author: windows-driver-content
 ms.assetid: 3adddb79-a9ea-349e-8ec7-150a8cd8b0e0
 ms.author: windowsdriverdev
 ms.date: 05/09/18

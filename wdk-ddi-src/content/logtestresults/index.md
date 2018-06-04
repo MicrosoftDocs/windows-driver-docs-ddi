@@ -1,5 +1,6 @@
 ---
 UID: NA:logtestresults
+author: windows-driver-content
 ms.assetid: 7e772f4b-ce8e-3c79-b28a-9dd7f657bb79
 ms.author: windowsdriverdev
 ms.date: 05/09/18
