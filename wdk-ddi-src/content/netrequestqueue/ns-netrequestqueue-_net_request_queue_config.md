@@ -98,6 +98,6 @@ The client driver must call [NET_REQUEST_QUEUE_CONFIG_INIT](nf-netrequestqueue-n
 
 The client driver passes an initialized **NET_REQUEST_QUEUE_CONFIG** structure as an input parameter value to [NetRequestQueueCreate](nf-netrequestqueue-netrequestqueuecreate.md).
 
-The minimum NetAdapterCx version for **NET_REQUEST_QUEUE_CONFIG** is 1.0.
+
 
 ## -see-also

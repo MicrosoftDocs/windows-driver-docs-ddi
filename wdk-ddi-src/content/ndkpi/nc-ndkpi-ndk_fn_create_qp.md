@@ -113,12 +113,7 @@ A pointer to an <i>NdkCreateCompletion</i> (<a href="https://msdn.microsoft.com/
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
 
-#### - **ppNdkQp
-
-A pointer to a created QP object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
-
-
-#### - ppNdkQp
+#### -param **ppNdkQp
 
 A pointer to a created QP object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 

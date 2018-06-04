@@ -58,7 +58,7 @@ The **NetConfigurationAssignMultiString** method assigns a set of strings to a s
 A handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
-A pointer to a **UNICODE_STRING** structure that contains a value name. 
+A pointer to a [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structure that contains a value name. 
 
 ### -param Collection
 A handle to a framework collection object that represents a collection of framework string objects. 
@@ -71,6 +71,6 @@ The client driver obtains a handle to a NETCONFIGURATION object by calling [NetA
 
 If an entry of the same name as ValueName already exists under the opened registry key, **NetConfigurationAssignMultiString** replaces its current value with the caller-supplied value. Otherwise, **NetConfigurationAssignMultiString** adds a new value entry with the given name and supplied value to the registry.
 
-The minimum NetAdapterCx version for **NetConfigurationAssignMultiString** is 1.0.
+
 
 ## -see-also

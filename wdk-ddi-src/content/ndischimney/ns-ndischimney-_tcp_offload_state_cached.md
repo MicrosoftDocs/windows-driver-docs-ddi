@@ -131,8 +131,7 @@ When non-<b>NULL</b>, the optimum number of data bytes that the offload target s
      <a href="https://msdn.microsoft.com/a45dede9-6559-4207-a49f-d9627054433a">
      NdisTcpOffloadReceiveHandler</a> function. This number, which is typically between tens and hundreds
      of bytes, is a suggestion--not a requirement. The offload target can indicate more or less than 
-     <b>RcvIndicationSize</b> data bytes. However, for optimum performance, the offload target should indicate
-     
+     <b>RcvIndicationSize</b> data bytes. However, for optimum performance, the offload target should indicate     
      <b>RcvIndicationSize</b> data bytes. For more information, see 
      <b>
      NdisTcpOffloadReceiveHandler</b>.

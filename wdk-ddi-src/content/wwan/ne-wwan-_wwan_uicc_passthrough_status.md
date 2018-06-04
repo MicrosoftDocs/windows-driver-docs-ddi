@@ -70,11 +70,6 @@ Indicates that passthrough to the UICC is enabled. When UICC passthrough is enab
 
 ### -field WwanUiccPassThroughStatusMaximum
 
-
-
-
-#### - WwanUiccPassThroughMaximum
-
 The maximum value for this enumeration. This value might change in future versions of the NDIS
      header files and binaries.
 

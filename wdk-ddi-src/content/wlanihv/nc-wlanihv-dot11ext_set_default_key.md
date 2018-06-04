@@ -51,7 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
+
+The IHV Extensions DLL calls the 
   <b>Dot11ExtSetDefaultKey</b> function to add or delete a cipher key from the
   default key or per-station default key tables of the wireless LAN (WLAN) adapter. For more information
   about these key types, see 
@@ -101,7 +103,6 @@ A
 
 <div class="alert"><b>Note</b>  The IHV Extensions DLL must not pass a value of 
       <b>DOT11_DIR_OUTBOUND</b> to this parameter.</div>
-<div> </div>
 
 
 

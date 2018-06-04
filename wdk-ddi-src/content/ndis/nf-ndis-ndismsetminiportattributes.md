@@ -65,8 +65,9 @@ A miniport driver must call the
 
 ### -param NdisMiniportHandle
 
-TBD
-
+The miniport adapter handle that NDIS passed to the 
+     <i>MiniportAdapterHandle</i> parameter of 
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
 
 ### -param MiniportAttributes [in]
 
@@ -75,14 +76,6 @@ A pointer to an
      NDIS_MINIPORT_ADAPTER_ATTRIBUTES</a> union which contains a driver-allocated attributes structure. The
      structure defines the attributes of the miniport adapter instance that 
      <i>MiniportAdapterHandle</i> specifies.
-
-
-#### - NdisMiniportAdapterHandle [in]
-
-The miniport adapter handle that NDIS passed to the 
-     <i>MiniportAdapterHandle</i> parameter of 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
-
 
 ## -returns
 

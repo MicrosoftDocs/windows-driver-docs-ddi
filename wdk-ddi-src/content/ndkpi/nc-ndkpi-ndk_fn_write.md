@@ -71,6 +71,7 @@ A context value to be returned in the <b>RequestContext</b> member of the <a hre
 
 ### -param NDK_SGE
 
+An array of SGE structures (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439936">NDK_SGE</a>) that represent the buffers holding the data to write.
 
 ### -param nSge [in]
 
@@ -133,13 +134,6 @@ Indicates to the NDK provider that it may defer indicating the request to hardwa
 </td>
 </tr>
 </table>
- 
-
-
-#### - pSgl
-
-An array of SGE structures (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439936">NDK_SGE</a>) that represent the buffers holding the data to write.
-
 
 ## -returns
 

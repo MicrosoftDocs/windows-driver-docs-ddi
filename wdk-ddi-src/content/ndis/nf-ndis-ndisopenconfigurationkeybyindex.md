@@ -134,8 +134,7 @@ Note that the
     <i>ConfigurationHandle</i> passed in to 
     <b>NdisOpenConfigurationKeyByIndex</b> can be any valid handle to a registry key already opened by the
     caller. 
-    <b>NdisOpenConfigurationKeyByIndex</b> returns configuration information for subkeys relative to any valid
-    
+    <b>NdisOpenConfigurationKeyByIndex</b> returns configuration information for subkeys relative to any valid    
     <i>ConfigurationHandle</i> .
 
 Since 

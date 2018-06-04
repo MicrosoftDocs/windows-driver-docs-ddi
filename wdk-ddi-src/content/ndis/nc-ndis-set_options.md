@@ -218,16 +218,15 @@ NDIS can call the driver's other
     <i>MiniportXxx</i>,  <i>ProtocolXxx</i>, or <i>FilterXxx</i> functions at any time after 
     <i>XxxSetOptions</i> returns. The driver should be prepared to be called back at its initialization function:(<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> for miniport drivers, <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> for protocol drivers, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> for filter drivers).
 
-
-    For miniport drivers, the
-    miniport adapters are in the 
-    <i>Halted</i> state before the NDIS calls 
-    <i>MiniportInitializeEx</i>. For protocol drivers, the protocol bindings are in the 
-    <i>Unbound</i> state before the NDIS calls 
-    <i>ProtocolBindAdapterEx</i>. For filter drivers, the filter modules
-    are in the 
-    <i>Detached</i> state before the NDIS calls 
-    <i>FilterAttach</i>.
+For miniport drivers, the
+miniport adapters are in the 
+<i>Halted</i> state before the NDIS calls 
+<i>MiniportInitializeEx</i>. For protocol drivers, the protocol bindings are in the 
+<i>Unbound</i> state before the NDIS calls 
+<i>ProtocolBindAdapterEx</i>. For filter drivers, the filter modules
+are in the 
+<i>Detached</i> state before the NDIS calls 
+<i>FilterAttach</i>.
 
 If an attempt to allocate resources or services fails, 
     <i>XxxSetOptions</i> should undo all the allocations that succeeded before it returns control with a

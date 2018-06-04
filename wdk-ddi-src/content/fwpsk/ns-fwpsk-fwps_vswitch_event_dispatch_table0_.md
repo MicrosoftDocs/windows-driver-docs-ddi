@@ -103,8 +103,7 @@ The callback driver passes a pointer to an initialized  FWPS_VSWITCH_EVENT_DISPA
 
 The following definition is in fwpvi.h: 
 
-
-#define FWPS_VSWITCH_EVENT_DISPATCH_TABLE FWPS_VSWITCH_EVENT_DISPATCH_TABLE0 
+`#define FWPS_VSWITCH_EVENT_DISPATCH_TABLE FWPS_VSWITCH_EVENT_DISPATCH_TABLE0`
 
 
 

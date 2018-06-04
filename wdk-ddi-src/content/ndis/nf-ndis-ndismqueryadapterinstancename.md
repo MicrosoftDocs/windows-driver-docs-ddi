@@ -62,30 +62,16 @@ The
 
 ### -param pAdapterInstanceName
 
-TBD
-
-
-### -param MiniportHandle
-
-TBD
-
-
-
-
-#### - AdapterInstanceName [out]
-
 A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode string. This
      string specifies the friendly name of the interface for the given miniport adapter. For Windows Vista
      and later versions of the Windows operating system, NDIS defines the NDIS_STRING type as a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
-
-#### - MiniportAdapterHandle [in]
+### -param MiniportHandle
 
 The handle to the miniport adapter that was previously input to the 
      <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
      MiniportInitializeEx</a> function.
-
 
 ## -returns
 

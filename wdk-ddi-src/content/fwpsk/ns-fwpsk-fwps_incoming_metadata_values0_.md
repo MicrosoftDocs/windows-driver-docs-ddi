@@ -265,8 +265,7 @@ The length, in bytes, of the
 
 ### -field packetDirection
 
-The direction of network traffic (inbound or outbound) as specified by one of the constant values of
-      
+The direction of network traffic (inbound or outbound) as specified by one of the constant values of      
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff552433">FWP_DIRECTION</a>. This member is set at the
       application layer enforcement (ALE) connect or receive/accept layers during a reauthorization classify
       operation. For more information, see the Remarks section.

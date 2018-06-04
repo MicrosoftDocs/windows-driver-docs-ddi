@@ -55,6 +55,6 @@ Call NET_DRIVER_GLOBALS_INIT to initialize this structure.
 This member is unused.
 
 ## -remarks
-The minimum NetAdapterCx version for **NET_DRIVER_GLOBALS** is 1.0.
+
 
 ## -see-also

@@ -72,6 +72,6 @@ You'll need to cast the returned element to whatever data type your ring buffer 
 
 For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
 
-The minimum NetAdapterCx version for **NetRingBufferGetElementAtIndex** is 1.0.
+
 
 ## -see-also

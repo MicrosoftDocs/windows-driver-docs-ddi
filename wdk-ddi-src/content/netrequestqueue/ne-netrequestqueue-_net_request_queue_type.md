@@ -62,6 +62,6 @@ The **NET_REQUEST_QUEUE_TYPE** enumeration is used to specify queue type in the 
 
 The client driver passes an initialized **NET_REQUEST_QUEUE_CONFIG** structure as an input parameter value to [NetRequestQueueCreate](nf-netrequestqueue-netrequestqueuecreate.md).
 
-The minimum NetAdapterCx version for **NET_REQUEST_QUEUE_TYPE** is 1.0.
+
 
 ## -see-also

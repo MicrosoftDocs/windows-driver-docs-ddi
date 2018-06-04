@@ -158,8 +158,7 @@ If this flag is set, the miniport driver should enable header-data split in the 
 
 ### -field BackfillSize
 
-The backfill size, in bytes, for the data portion of a split frame. The miniport driver should set
-     
+The backfill size, in bytes, for the data portion of a split frame. The miniport driver should set     
      <b>BackfillSize</b> to zero before calling 
      <b>NdisMSetMiniportAttributes</b>. NDIS sets this member if the miniport driver must pre-allocate
      backfill storage in the data portion for split frames. After 

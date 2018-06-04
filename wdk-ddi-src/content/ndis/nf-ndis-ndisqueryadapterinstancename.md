@@ -63,7 +63,11 @@ The
 
 ### -param pAdapterInstanceName
 
-TBD
+A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode string. This
+     string specifies the friendly name of the interface to which the binding refers. This interface is
+     either a physical NIC or a virtual adapter. For Windows 2000 and later, NDIS defines the NDIS_STRING
+     type as a 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
 ### -param NdisBindingHandle [in]
@@ -72,15 +76,6 @@ A handle that identifies the binding to the target physical NIC or virtual adapt
      next-lower driver to which the caller is bound. Typically, 
      <i>NdisBindingHandle</i> was returned by the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function.
-
-
-#### - AdapterInstanceName [out]
-
-A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode string. This
-     string specifies the friendly name of the interface to which the binding refers. This interface is
-     either a physical NIC or a virtual adapter. For Windows 2000 and later, NDIS defines the NDIS_STRING
-     type as a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
 ## -returns

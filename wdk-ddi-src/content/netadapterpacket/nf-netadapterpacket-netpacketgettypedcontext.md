@@ -69,7 +69,7 @@ Returns a pointer to the packet's context space.
 
 ## -remarks
 
-The minimum NetAdapterCx version for **NetPacketGetTypedContext** is 1.2.
+
 
 ## -see-also
 

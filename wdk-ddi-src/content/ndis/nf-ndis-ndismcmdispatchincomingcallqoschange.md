@@ -61,32 +61,17 @@ req.typenames:
 
 ### -param _H_
 
-TBD
-
-
-### -param _P_
-
-TBD
-
-
-
-
-
-
-#### - CallParameters [in]
-
-Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the new
-     QoS, requested by the client on the remote node, for this connection.
-
-
-#### - NdisVcHandle [in]
-
 Specifies the handle to the VC for which the change in QoS is being requested. The MCM driver
      obtained this handle either when it called 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a> to set up this connection
      for an incoming call or as an input parameter to its 
      <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
+
+### -param _P_
+
+Pointer to a structure of type 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the new
+     QoS, requested by the client on the remote node, for this connection.
 
 
 ## -remarks

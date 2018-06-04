@@ -74,17 +74,12 @@ A Boolean value. If the value is <b>TRUE</b>, this function is provided with wri
 
 ### -param _Requires_lock_not_held_
 
-TBD
-
-
-
-
-#### - LockState [out]
-
-A pointer to an opaque variable that tracks the state of the lock. This variable exists in the
+**LockState**. A pointer to an opaque variable that tracks the state of the lock. This variable exists in the
      interval between the time the caller acquires and releases the lock. The caller must use a different
      variable of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff557067">LOCK_STATE</a> for each attempt that it makes to acquire the lock from the same non-ISR
      driver thread.
+
+
 
 
 ## -returns
@@ -108,8 +103,7 @@ The driver must initialize a variable of type <a href="https://msdn.microsoft.co
 After acquiring a lock by using 
     <b>NdisAcquireReadWriteLock</b>, the caller must release that lock by calling the 
     <a href="https://msdn.microsoft.com/a910ae2d-8a3b-451c-b1f2-a19f7f9f14a2">
-    NdisReleaseReadWriteLock</a> function. To decrement the reference count of the lock, a driver must call
-    
+    NdisReleaseReadWriteLock</a> function. To decrement the reference count of the lock, a driver must call    
     <b>NdisReleaseReadWriteLock</b> once for each call to 
     <b>NdisAcquireReadWriteLock</b>.
 
@@ -129,8 +123,7 @@ The driver cannot use a lock to protect resources from read or write access that
     <a href="https://msdn.microsoft.com/5dca9258-a3ae-43f4-a5aa-d591165d72ed">
     NdisMSynchronizeWithInterruptEx</a> so that its 
     <a href="https://msdn.microsoft.com/aac1ff91-76aa-46a0-8e8a-85b9f8c3323c">
-    MiniportSynchronizeInterrupt</a> function accesses such shared resources at the same DIRQL at which its
-    
+    MiniportSynchronizeInterrupt</a> function accesses such shared resources at the same DIRQL at which its    
     <i>MiniportInterrupt</i> and/or 
     <i>
     MiniportDisableInterruptEx</i> functions do.

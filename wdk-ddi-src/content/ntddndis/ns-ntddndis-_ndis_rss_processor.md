@@ -71,8 +71,7 @@ The preference rating of the processor, which is based on Non-Uniform Memory Acc
       <b>PreferenceIndex</b> indicates a smaller NUMA distance to the miniport
       driver.
 
-When choosing between multiple processors, miniport drivers should select the processor with a lower
-      
+When choosing between multiple processors, miniport drivers should select the processor with a lower      
       <b>PreferenceIndex</b> value. This results in less overhead for the driver.
 
 

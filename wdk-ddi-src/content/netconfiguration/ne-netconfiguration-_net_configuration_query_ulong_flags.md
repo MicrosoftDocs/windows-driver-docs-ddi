@@ -55,7 +55,7 @@ No flags are set.
 Specifies that the ULONG may be stored in the configuration database as a string in hex format.
 
 ## -remarks
-The minimum NetAdapterCx version for **NET_CONFIGURATION_QUERY_ULONG_FLAGS** is 1.0.
+
 
 ## -see-also
 

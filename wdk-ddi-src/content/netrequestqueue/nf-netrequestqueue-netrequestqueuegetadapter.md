@@ -61,6 +61,6 @@ A handle to the NETREQUESTQUEUE object.
 Returns the net adapter object that the client created in a prior call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ## -remarks
-The minimum NetAdapterCx version for **NetRequestQueueGetAdapter** is 1.0.
+
 
 ## -see-also

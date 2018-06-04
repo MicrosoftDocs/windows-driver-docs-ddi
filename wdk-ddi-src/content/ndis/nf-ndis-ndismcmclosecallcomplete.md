@@ -61,34 +61,10 @@ req.typenames:
 
 ### -param _S_
 
-TBD
-
+Specifies the final status of the client's request that the MCM driver close the connection,
+     either NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
 
 ### -param _VH_
-
-TBD
-
-
-### -param _PH_
-
-TBD
-
-
-
-
-
-
-#### - NdisPartyHandle [in, optional]
-
-Specifies either <b>NULL</b> if the 
-     <i>NdisVcHandle</i> represents a point-to-point VC or the handle to the last remaining party on a
-     multipoint connection, which the MCM driver obtained from its per-party state designated by the 
-     <i>CallMgrPartyContext</i> passed as an input parameter to its 
-     <a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">
-     ProtocolCmCloseCall</a> function.
-
-
-#### - NdisVcHandle [in]
 
 Specifies the handle to the VC for the call. This handle was supplied by NDIS when the VC was
      originally created, whether by the MCM driver with 
@@ -96,11 +72,14 @@ Specifies the handle to the VC for the call. This handle was supplied by NDIS wh
      to its 
      <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
+### -param _PH_
 
-#### - Status [in]
-
-Specifies the final status of the client's request that the MCM driver close the connection,
-     either NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
+Specifies either <b>NULL</b> if the 
+     <i>NdisVcHandle</i> represents a point-to-point VC or the handle to the last remaining party on a
+     multipoint connection, which the MCM driver obtained from its per-party state designated by the 
+     <i>CallMgrPartyContext</i> passed as an input parameter to its 
+     <a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">
+     ProtocolCmCloseCall</a> function.
 
 
 ## -remarks
@@ -122,8 +101,7 @@ If it passes NDIS_STATUS_SUCCESS as the
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562819">NdisMCmDeleteVc</a> with the same 
     <i>NdisVcHandle</i> that it just passed to 
     <b>NdisMCmCloseCallComplete</b>. If the client created this VC, the MCM driver can expect a call to its 
-    <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function with the
-    
+    <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function with the    
     <i>ProtocolVcContext</i>, designating its per-VC state in which it has stored the same 
     <i>NdisVcHandle</i>, as an input parameter.
 

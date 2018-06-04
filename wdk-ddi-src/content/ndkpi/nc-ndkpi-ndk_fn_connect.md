@@ -68,12 +68,17 @@ A pointer to an NDK connector object (<a href="https://msdn.microsoft.com/librar
 A pointer to an NDK queue pair (QP) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>) to associate with the connection.
 
 
-### -param PSOCKADDR
+### -param PSOCKADDR pSrcAddress
 
+A source address.  For AF_INET or AF_INET6 <i>pSrcAddress</i>  is the source IP address and the source ND port.
 
 ### -param SrcAddressLength [in]
 
 The size, in bytes,  of source address data at the <i>pSrcAddress</i> parameter.
+
+### -param pDestAddress [in]
+
+A destination address.  For AF_INET or AF_INET6 <i>pDestAddress</i>  is the destination IP address and the source ND port .
 
 
 ### -param DestAddressLength [in]
@@ -93,6 +98,7 @@ The consumer-supplied maximum number of outgoing in-progress read operations to 
 
 ### -param PVOID
 
+A pointer to private data that is sent with the connect request.
 
 ### -param PrivateDataLength [in]
 
@@ -109,19 +115,15 @@ A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
 
 
-#### - pDestAddress
-
-A destination address.  For AF_INET or AF_INET6 <i>pDestAddress</i>  is the destination IP address and the source ND port .
 
 
-#### - pPrivateData
 
-A pointer to private data that is sent with the connect request.
+
 
 
 #### - pSrcAddress
 
-A source address.  For AF_INET or AF_INET6 <i>pSrcAddress</i>  is the source IP address and the source ND port.
+
 
 
 ## -returns

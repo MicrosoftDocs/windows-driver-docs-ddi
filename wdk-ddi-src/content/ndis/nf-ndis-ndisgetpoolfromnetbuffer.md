@@ -83,8 +83,7 @@ A pointer to a previously allocated
 
 
 The handle that 
-    <b>NdisGetPoolFromNetBuffer</b> returns is a required parameter in calls to NDIS functions that manipulate
-    
+    <b>NdisGetPoolFromNetBuffer</b> returns is a required parameter in calls to NDIS functions that manipulate    
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures that are from the
     associated NET_BUFFER structure pool.
 

@@ -62,27 +62,13 @@ The
 
 ### -param Destination
 
-TBD
+A pointer to a ULONG-aligned memory location in which to store the value.
+
 
 
 ### -param Source
 
-TBD
-
-
-
-
-
-
-#### - DestinationAddress [in]
-
-A pointer to a ULONG-aligned memory location in which to store the value.
-
-
-#### - SourceAddress [in]
-
 A pointer to a memory location from which to retrieve the ULONG value.
-
 
 ## -remarks
 

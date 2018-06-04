@@ -65,66 +65,17 @@ Reserved. Do not use.
 
 ### -field AddressAvailable
 
- 
-
+An address is available.
 
 ### -field GatewayAvailable
 
- 
-
+A gateway is available.
 
 ### -field DnsServerAvailable
 
- 
-
-
-### -field MTUAvailable
-
- 
-
-
-
-
-#### - ( unnamed struct )
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-struct
-{
-    ULONG    AddressAvailable:1;
-    ULONG    GatewayAvailable:1;
-    ULONG    DnsServerAvailable:1;
-    ULONG    MTUAvailable:1;
-};</pre>
-</td>
-</tr>
-</table></span></div>
-
-
-#### AddressAvailable:1
-
-An address is available.
-
-
-
-#### GatewayAvailable:1
-
-A gateway is available.
-
-
-
-#### DnsServerAvailable:1
-
 A DNS server is available.
 
-
-
-#### MTUAvailable:1
+### -field MTUAvailable
 
 An MTU is available.
 

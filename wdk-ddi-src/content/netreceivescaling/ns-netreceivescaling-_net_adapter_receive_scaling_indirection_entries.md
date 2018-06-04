@@ -56,7 +56,7 @@ An array of [NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY](ns-netreceivescaling
 ## -remarks
 NetAdapterCx passes this structure as input to a NIC client driver's *[EvtNetAdapterReceiveScalingSetIndirectionEntries](nc-netreceivescaling-evt_net_adapter_receive_scaling_set_indirection_entries.md)* event callback function.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES** is 1.2.
+
 
 ## -see-also
 *[EvtNetAdapterReceiveScalingSetIndirectionEntries](nc-netreceivescaling-evt_net_adapter_receive_scaling_set_indirection_entries.md)*

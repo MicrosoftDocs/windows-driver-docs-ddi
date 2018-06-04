@@ -103,6 +103,6 @@ Register your implementation of this callback function by setting the appropriat
 
 NetAdapterCx calls the client driver's *EVT_NET_REQUEST_DEFAULT_METHOD* handler when it receives an OID method request for which the client driver has not provided a specialized *[EVT_NET_REQUEST_METHOD](nc-netrequestqueue-evt_net_request_method.md)* handler.
 
-The minimum NetAdapterCx version for *EVT_NET_REQUEST_DEFAULT_METHOD* is 1.0.
+
 
 ## -see-also

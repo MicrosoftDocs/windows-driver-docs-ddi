@@ -58,10 +58,10 @@ The **NetConfigurationAssignUnicodeString** method assigns a specified Unicode s
 A handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
-A pointer to a **UNICODE_STRING** structure that contains a value name. 
+A pointer to a [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structure that contains a value name. 
 
 ### -param Value
-A pointer to a **UNICODE_STRING** structure that contains the string to be assigned to the value name that *ValueName* specifies.
+A pointer to a [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structure that contains the string to be assigned to the value name that *ValueName* specifies.
 
 ## -returns
 This method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
@@ -71,6 +71,6 @@ The client driver obtains a handle to a NETCONFIGURATION object by calling [NetA
 
 If an entry of the same name as *ValueName* already exists under the opened registry key, **NetConfigurationAssignUnicodeString** replaces its current value with the caller-supplied value. Otherwise, **NetConfigurationAssignUnicodeString** adds a new value entry with the given name and supplied value to the registry.
 
-The minimum NetAdapterCx version for **NetConfigurationAssignUnicodeString** is 1.0.
+
 
 ## -see-also

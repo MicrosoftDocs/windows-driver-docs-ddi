@@ -61,15 +61,6 @@ The
 
 ### -param MicroSecondsToStall
 
-TBD
-
-
-
-
-
-
-#### - MicrosecondsToStall [in]
-
 The number of microseconds to delay. A driver should specify no more than 50 microseconds.
 
 

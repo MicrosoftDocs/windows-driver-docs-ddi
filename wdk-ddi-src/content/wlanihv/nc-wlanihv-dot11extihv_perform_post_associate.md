@@ -152,8 +152,7 @@ For more information about the association operation, see
     <a href="https://msdn.microsoft.com/04e97ea1-fe4b-471e-a7be-b5aa3ee88edc">Association Operations</a>.
 
 The post-association operation must be completed asynchronously from the call to 
-    <i>Dot11ExtIhvPerformPostAssociate</i>. After the post-association operation completes, the DLL must call
-    
+    <i>Dot11ExtIhvPerformPostAssociate</i>. After the post-association operation completes, the DLL must call    
     <a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
     Dot11ExtPostAssociateCompletion</a>.
 

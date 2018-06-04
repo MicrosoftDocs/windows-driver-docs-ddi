@@ -104,8 +104,7 @@ If
 
 
 A client commonly calls 
-    <b>NdisClCloseAddressFamily</b> from its
-    
+    <b>NdisClCloseAddressFamily</b> from its    
     <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
     ProtocolUnbindAdapterEx</a> function, after it closes all the client's open VCs on the binding with
     calls to 

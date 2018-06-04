@@ -159,8 +159,7 @@ None
 
 
 To propagate the indication to the overlying driver or host stack, the intermediate driver calls the 
-    <b>NdisTcpOffloadEventHandler</b> function. The intermediate driver passes the following parameters to the
-    
+    <b>NdisTcpOffloadEventHandler</b> function. The intermediate driver passes the following parameters to the    
     <b>NdisTcpOffloadEventHandler</b> function:
 
 <ul>

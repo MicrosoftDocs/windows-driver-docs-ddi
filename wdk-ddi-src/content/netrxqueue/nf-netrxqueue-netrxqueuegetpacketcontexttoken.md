@@ -67,6 +67,6 @@ Reserved.
 Returns a pointer to the **NET_PACKET_CONTEXT_TOKEN**.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetRxQueueGetPacketContextToken** is 1.1.
+
 
 ## -see-also

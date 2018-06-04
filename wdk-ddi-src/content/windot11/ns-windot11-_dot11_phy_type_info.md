@@ -51,14 +51,11 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_PHY_TYPE_INFO structure defines parameters that the 802.11 station uses to configure a PHY
-  when performing an explicit scan operation. The station performs the explicit scan operation following a
-  set request of 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>.
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
 
+The DOT11_PHY_TYPE_INFO structure defines parameters that the 802.11 station uses to configure a PHY when performing an explicit scan operation. The station performs the explicit scan operation following a set request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>.
 
 ## -syntax
-
 
 ````
 typedef struct _DOT11_PHY_TYPE_INFO {
@@ -84,13 +81,9 @@ typedef struct _DOT11_PHY_TYPE_INFO {
 
 ### -field dot11PhyType
 
-The type of PHY that the 802.11 station will use for the scan. The PHY type is defined by the 
-       <a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a> enumeration. 
-       <div class="alert"><b>Note</b>  The miniport driver must ignore this member if it is operating in Extensible
-       Station (ExtSTA) mode.</div>
-<div> </div>
+The type of PHY that the 802.11 station will use for the scan. The PHY type is defined by the <a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a> enumeration. 
 
-
+<div class="alert"><b>Note</b>  The miniport driver must ignore this member if it is operating in Extensible Station (ExtSTA) mode.</div>
 
 ### -field bUseParameters
 
@@ -104,8 +97,6 @@ If this member is <b>FALSE</b>, the 802.11 station configures the PHY using its 
 
 <div class="alert"><b>Note</b>  If the miniport driver is operating in ExtSTA mode, the operating system will
       always set this member to <b>FALSE</b>.</div>
-<div> </div>
-
 
 
 ### -field uProbeDelay
@@ -178,7 +169,6 @@ The identifier (ID) of the PHY that the 802.11 station will use for the scan. Th
 
 <div class="alert"><b>Note</b>  The miniport driver must ignore this member if it is operating in ExtSTA
        mode.</div>
-<div> </div>
 
 ## -remarks
 

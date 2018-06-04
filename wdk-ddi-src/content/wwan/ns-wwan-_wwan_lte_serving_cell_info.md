@@ -105,13 +105,6 @@ The Timing Advance (0-255). Use 0xFFFFFFFF when this information is not availabl
 
 ### -field Data
 
- 
-
-
-
-
-#### - Data[ANYSIZE_ARRAY]
-
 The data buffer containing <i>ProviderId</i>.
 
 

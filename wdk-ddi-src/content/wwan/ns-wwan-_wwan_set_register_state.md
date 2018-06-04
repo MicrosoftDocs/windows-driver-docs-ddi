@@ -78,8 +78,7 @@ For CDMA-based networks, this string is a five-digit System ID (SID). Generally,
 
 ### -field RegisterAction
 
-The registration action that the miniport driver is requested to perform. If this member is set to
-     
+The registration action that the miniport driver is requested to perform. If this member is set to     
      <b>WwanRegisterActionAutomatic</b>, the 
      <b>ProviderId</b> member should be ignored.
 

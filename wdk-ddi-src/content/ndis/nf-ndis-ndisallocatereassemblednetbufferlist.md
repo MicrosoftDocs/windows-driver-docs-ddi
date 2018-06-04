@@ -63,8 +63,7 @@ Call the
 
 ### -param FragmentNetBufferList
 
-TBD
-
+A pointer to the NET_BUFFER_LIST structure to reassemble.
 
 ### -param NetBufferAndNetBufferListPoolHandle [in, optional]
 
@@ -103,11 +102,6 @@ If allocation of
 
 NDIS flags that can be combined with an OR operation. Set this parameter to zero. There are
      currently no flags defined for this function.
-
-
-#### - FragmentedNetBufferList [in]
-
-A pointer to the NET_BUFFER_LIST structure to reassemble.
 
 
 ## -returns

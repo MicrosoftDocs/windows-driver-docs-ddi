@@ -61,32 +61,6 @@ req.typenames:
 
 ### -param _SH_
 
-TBD
-
-
-### -param _VH_
-
-TBD
-
-
-### -param _CP_
-
-TBD
-
-
-
-
-
-
-#### - CallParameters [in]
-
-Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
-     and media parameters for the VC.
-
-
-#### - NdisSapHandle [in]
-
 Specifies the handle identifying the SAP. NDIS set up this handle when the client originally
      called 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>, and the MCM driver
@@ -94,13 +68,17 @@ Specifies the handle identifying the SAP. NDIS set up this handle when the clien
      <a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">
      ProtocolCmRegisterSap</a> function.
 
-
-#### - NdisVcHandle [in]
+### -param _VH_
 
 Specifies the handle identifying the VC, created with 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a> when the MCM driver
      processes the incoming call offer directed to this registered SAP.
 
+### -param _CP_
+
+Pointer to a structure of type 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
+     and media parameters for the VC.
 
 ## -remarks
 
@@ -139,8 +117,7 @@ The MCM driver's call to
     connection. After deciding whether to accept the connection, the client calls 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561632">NdisClIncomingCallComplete</a>,
     which, in turn, calls the MCM driver's 
-    <i>ProtocolCmIncomingCallComplete</i> function. If the client accepted the call, the MCM driver next calls
-    
+    <i>ProtocolCmIncomingCallComplete</i> function. If the client accepted the call, the MCM driver next calls    
     <a href="https://msdn.microsoft.com/b47976ad-fdde-48cb-bb30-4eaf25489143">
     NdisMCmDispatchCallConnected</a>. Otherwise, it deactivates (and possibly deletes) the VC it created,
     after notifying the remote node that the offered call was rejected.

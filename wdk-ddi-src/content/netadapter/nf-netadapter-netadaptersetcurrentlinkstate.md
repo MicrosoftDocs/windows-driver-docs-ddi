@@ -67,7 +67,7 @@ This method does not return a value.
 ## -remarks
 The client driver calls **NetAdapterSetCurrentLinkState** from its *[EVT_NET_ADAPTER_SET_CAPABILITIES](nc-netadapter-evt_net_adapter_set_capabilities.md)* implementation, or later when it needs to change the current link state.
 
-The minimum NetAdapterCx version for **NetAdapterSetCurrentLinkState** is 1.0.
+
 
 ## -see-also
 

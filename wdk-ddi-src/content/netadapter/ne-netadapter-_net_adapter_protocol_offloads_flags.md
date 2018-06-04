@@ -63,7 +63,7 @@ The **NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS** enumeration is used to specify proto
 
 The client driver passes an initialized **NET_ADAPTER_POWER_CAPABILITIES** structure as an input parameter value to [NetAdapterSetPowerCapabilities](nf-netadapter-netadaptersetpowercapabilities.md).
 
-The minimum NetAdapterCx version for **NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS** is 1.0.
+
 
 ## -see-also
 

@@ -73,7 +73,7 @@ If you always complete packets in order, it is more efficient to write to **Begi
 
 When you use **NetRingBufferReturnCompletedPackets**, it is most efficient to flag all finished packets and call the routine just once.
 
-The minimum NetAdapterCx version for **NetRingBufferReturnCompletedPackets** is 1.2.
+
 
 ### Example
 This example shows how a simple data path can complete packets if the hardware completes I/O requests in the order in which they were issued. Note that this data path just writes to **BeginIndex** directly.

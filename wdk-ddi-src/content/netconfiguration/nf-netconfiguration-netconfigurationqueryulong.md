@@ -61,7 +61,7 @@ Handle to a NETCONFIGURATION object that represents an opened registry key.
 A valid bitwise OR of [NET_CONFIGURATION_QUERY_ULONG_FLAGS](ne-netconfiguration-_net_configuration_query_ulong_flags.md)-typed flags.
 
 ### -param ValueName
-A pointer to a **UNICODE_STRING** structure that contains a name for the ULONG value.
+A pointer to a [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structure that contains a name for the ULONG value.
 
 ### -param Value
 A pointer to a location that receives the data that is assigned to the value that *ValueName* specifies.
@@ -72,6 +72,6 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 ## -remarks
 The client driver obtains a handle to a NETCONFIGURATION object by calling [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).
 
-The minimum NetAdapterCx version for **NetConfigurationQueryUlong** is 1.0.
+
 
 ## -see-also

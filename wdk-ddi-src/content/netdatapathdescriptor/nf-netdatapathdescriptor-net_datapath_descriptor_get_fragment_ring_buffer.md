@@ -57,6 +57,8 @@ A pointer to the queue's [NET_DATAPATH_DESCRIPTOR](ns-netdatapathdescriptor-_net
 ## -remarks
 Client drivers do not call this macro to access the fragment ring buffer directly. Instead, they can either access a fragment with a call to [NET_PACKET_GET_FRAGMENT](nf-netdatapathdescriptor-net_packet_get_fragment.md), or they can call [NetPacketGetFragmentCount](nf-netdatapathdescriptor-netpacketgetfragmentcount.md) to get the number of fragments in a packet, then call [NET_PACKET_GET_FRAGMENT](nf-netdatapathdescriptor-net_packet_get_fragment.md) to access each fragment in a `for` loop.
 
-The minimum NetAdapterCx version for **NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER** is 1.2.
+
 
 ## -see-also
+
+[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

@@ -72,6 +72,6 @@ This method does not return a value.
 
 **NET_ADAPTER_LINK_LAYER_ADDRESS_INIT** is used to initialize either a permanent or current link layer address, stored in a **NET_ADAPTER_LINK_LAYER_ADDRESS** allocated by the driver. This **NET_ADAPTER_LINK_LAYER_ADDRESS** is then passed as a parameter to either the [NetAdapterSetPermanentLinkLayerAddress](nf-netadapter-netadaptersetpermanentlinklayeraddress.md) method or the [NetAdapterSetCurrentLinkLayerAddress](nf-netadapter-netadaptersetcurrentlinklayeraddress.md) method, depending on the type of address that was initialized and is being set.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_LINK_LAYER_ADDRESS_INIT** is 1.1.
+
 
 ## -see-also

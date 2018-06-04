@@ -80,8 +80,7 @@ A pointer to an array of
 
 
 A WSK application passes a pointer to a WSK_TDI_MAP_INFO structure to the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a> function when specifying
-    
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a> function when specifying    
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571190">WSK_TDI_DEVICENAME_MAPPING</a> for
     the control code.
 

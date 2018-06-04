@@ -122,9 +122,7 @@ The mobile broadband (MB) network adapter generated the wake-up event because it
 
 
 
-The  
-    <b>WakeReason</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh451605">NDIS_PM_WAKE_REASON</a> structure contains an <b>NDIS_PM_WAKE_REASON_TYPE</b> enumeration value.
+The  <b>WakeReason</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451605">NDIS_PM_WAKE_REASON</a> structure contains an <b>NDIS_PM_WAKE_REASON_TYPE</b> enumeration value.
 
 
 

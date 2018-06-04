@@ -129,8 +129,7 @@ The IHV Extensions DLL initiates these requests for user interaction through cal
     <b>Dot11ExtSendUIRequest</b> function.
 
 After receiving this data from the IHV Extensions DLL, the operating system calls the 
-    <i>Dot11ExtIhvProcessUIResponse</i> function to process the user response, which is referenced through the
-    
+    <i>Dot11ExtIhvProcessUIResponse</i> function to process the user response, which is referenced through the    
     <i>pvResponseBuffer</i> parameter. The response data is in a format defined by the IHV and has been validated by the IHV UI
     Extensions DLL.
 

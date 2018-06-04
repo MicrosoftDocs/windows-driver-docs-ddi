@@ -70,6 +70,11 @@ A handle to the context area for the filter module. The filter driver created an
 
 ### -param NetBufferList
 
+A pointer to a linked list of 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that specify
+     lists of 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures. Each <b>NET_BUFFER</b> in the
+     list maps a chain of MDLs that contain the transmit data.
 
 ### -param PortNumber [in]
 
@@ -127,15 +132,6 @@ For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964
 <div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div>
 <div> </div>
 
-#### - NetBufferLists [in]
-
-A pointer to a linked list of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that specify
-     lists of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures. Each <b>NET_BUFFER</b> in the
-     list maps a chain of MDLs that contain the transmit data.
-
-
 ## -returns
 
 
@@ -188,8 +184,7 @@ The filter driver can filter the data and send the filtered data to underlying d
 <ul>
 <li>
 Pass the buffer on to the next underlying driver by calling the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff562616">NdisFSendNetBufferLists</a> function. The filter driver can modify the buffer contents before calling
-      
+      <a href="https://msdn.microsoft.com/library/windows/hardware/ff562616">NdisFSendNetBufferLists</a> function. The filter driver can modify the buffer contents before calling      
       <b>NdisFSendNetBufferLists</b>. In this case NDIS calls the 
       <a href="https://msdn.microsoft.com/1a3a1e80-29f1-4f19-b3c7-9a8b189f18c4">
       FilterSendNetBufferListsComplete</a> function after the underlying drivers complete the send

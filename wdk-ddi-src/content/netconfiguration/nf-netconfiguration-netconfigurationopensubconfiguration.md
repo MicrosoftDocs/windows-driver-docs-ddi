@@ -74,7 +74,7 @@ If the client provides a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_
 
 The client driver closes the sub configuration by calling [NetConfigurationClose](nf-netconfiguration-netconfigurationclose.md) with either the sub configuration object or the parent adapter configuration object.
 
-The minimum NetAdapterCx version for **NetConfigurationOpenSubConfiguration** is 1.0.
+
 
 ## -see-also
 
