@@ -65,6 +65,6 @@ Reserved.
 
 ## -remarks
 
-The minimum NetAdapterCx version for **NET_PACKET_DECLARE_CASTING_FUNCTION** is 1.0.
+
 
 ## -see-also

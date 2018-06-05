@@ -65,13 +65,6 @@ The count of NMR entries following this member.
 
 ### -field GSMNmr
 
- 
-
-
-
-
-#### - GSMNmr[ANYSIZE_ARRAY]
-
 The array of NMR records, each specified as a <a href="https://msdn.microsoft.com/EF22D5C3-7A3B-4A96-A050-FCB71CA2C149">WWAN_GSM_NMR_INFO</a> structure.
 
 

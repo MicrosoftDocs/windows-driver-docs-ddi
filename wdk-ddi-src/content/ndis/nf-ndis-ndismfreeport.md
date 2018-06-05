@@ -63,8 +63,10 @@ The
 
 ### -param NdisMiniportHandle
 
-TBD
-
+The miniport adapter handle that NDIS passed to the 
+     <i>MiniportAdapterHandle</i> parameter of the 
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
+     MiniportInitializeEx</a> function.
 
 ### -param PortNumber [in]
 
@@ -79,15 +81,6 @@ The number of the NDIS port that NDIS should free. The
 
 The port number can be a number from 1 through 0xffffff. You cannot set 
      <i>PortNumber</i> to zero, which indicates the default port.
-
-
-#### - MiniportAdapterHandle [in]
-
-The miniport adapter handle that NDIS passed to the 
-     <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
-     MiniportInitializeEx</a> function.
-
 
 ## -returns
 

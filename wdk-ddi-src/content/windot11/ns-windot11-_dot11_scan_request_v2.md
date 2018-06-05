@@ -51,13 +51,13 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_SCAN_REQUEST_V2 structure defines the parameters for the explicit scan operation performed
-  by the 802.11 station. The station performs the explicit scan operation following an OID set request of 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>.
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
+
+The DOT11_SCAN_REQUEST_V2 structure defines the parameters for the explicit scan operation performed by the 802.11 station. The station performs the explicit scan operation following an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>.
+
 
 
 ## -syntax
-
 
 ````
 typedef struct _DOT11_SCAN_REQUEST_V2 {
@@ -81,14 +81,9 @@ typedef struct _DOT11_SCAN_REQUEST_V2 {
 
 ## -struct-fields
 
-
-
-
 ### -field dot11BSSType
 
-The type of basic service set (BSS) networks for which the 802.11 station scans. The data type for
-     this member is the 
-     <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a> enumeration.
+The type of basic service set (BSS) networks for which the 802.11 station scans. The data type for this member is the <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a> enumeration.
 
 
 ### -field dot11BSSID
@@ -101,11 +96,6 @@ The BSS identifier (BSSID) of a BSS network for which the 802.11 station scans. 
 
 The type of scan that the 802.11 station performs. The data type for this member is the
      DOT11_SCAN_TYPE enumeration, which declares the following values:
-     
-
-
-
-
 
 #### dot11_scan_type_active
 
@@ -120,21 +110,13 @@ The station transmits an 802.11 Probe Request frame on each channel that it scan
 The station does not transmit an 802.11 Probe Request frame on each channel that it scans.
        Instead, it receives 802.11 Beacon or Probe Request frames sent on the channel.
 
-
-
 #### dot11_scan_type_auto
 
 The station can perform active or passive scans, or it can use a combination of both scan
        types.
 
-Regardless of the value of 
-     <b>dot11ScanType</b>, the 802.11 station must perform a scan type of 
-     <b>dot11_scan_type_passive</b> whenever it scans on channels that are not valid in the current regulatory
-     domain. Also, the 802.11 station must perform a scan type of 
-     <b>dot11_scan_type_passive</b> if it does not have a default regulatory domain. For more information
-     about regulatory domains, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-current-reg-domain">
-     OID_DOT11_CURRENT_REG_DOMAIN</a>.
+Regardless of the value of <b>dot11ScanType</b>, the 802.11 station must perform a scan type of <b>dot11_scan_type_passive</b> whenever it scans on channels that are not valid in the current regulatory domain. Also, the 802.11 station must perform a scan type of <b>dot11_scan_type_passive</b> if it does not have a default regulatory domain. For more information about regulatory domains, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-current-reg-domain">
+OID_DOT11_CURRENT_REG_DOMAIN</a>.
 
 If the 
      <b>dot11_scan_type_forced</b> bit is set in the 
@@ -148,7 +130,6 @@ If the
      Station (ExtSTA) mode. The 
      <b>dot11_scan_type_forced</b> bit must be set through a bitwise OR with a DOT11_SCAN_TYPE
      value.</div>
-<div> </div>
 
 ### -field bRestrictedScan
 

@@ -1,5 +1,6 @@
 ---
 UID: NA:hidclass
+author: windows-driver-content
 ms.assetid: de170db5-5638-39ba-ba11-68718e93aef6
 ms.author: windowsdriverdev
 ms.date: 05/09/18

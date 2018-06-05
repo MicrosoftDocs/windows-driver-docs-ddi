@@ -86,7 +86,7 @@ sizeof(SECURE_ELEMENT_ROUTING_TABLE)
 
 
 
-<text></text>
+
 
 
 
@@ -95,7 +95,7 @@ sizeof(SECURE_ELEMENT_ROUTING_TABLE)
 
 
 
-<text></text>
+
 
 
 

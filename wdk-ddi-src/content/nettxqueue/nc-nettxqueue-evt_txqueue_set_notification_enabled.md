@@ -88,7 +88,7 @@ Register this callback function in by setting the appropriate member of [NET_TX_
 
 NetAdapterCx serializes this callback function along with the receive queue's *[EVT_TXQUEUE_ADVANCE](nc-nettxqueue-evt_txqueue_advance.md)* and *[EVT_TXQUEUE_SET_CANCEL](nc-nettxqueue-evt_txqueue_cancel.md)* callback functions.
 
-The minimum NetAdapterCx version for *EVT_TXQUEUE_SET_NOTIFICATION_ENABLED* is 1.1.
+
 
 ### Example
 For a PCI NIC, enabling transmit queue notification typically means enabling the transmit queue's hardware interrupt. When the hardware interrupt fires, the client calls [NetTxQueueNotifyMoreCompletedPacketsAvailable](nf-nettxqueue-nettxqueuenotifymorecompletedpacketsavailable.md) from its DPC.

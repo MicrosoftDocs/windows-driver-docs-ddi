@@ -52,7 +52,7 @@ The adapter does not require memory mapping.
 The adapter requires DMA mapping for mapping receive or transmit buffers.
 
 ## -remarks
-The minimum NetAdapterCx version for **NET_MEMORY_MAPPING_REQUIREMENT** is 1.2.
+
 
 ## -see-also
 

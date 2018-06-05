@@ -65,14 +65,9 @@ The count of MRL entries following this member.
 
 ### -field UMTSMrl
 
- 
+The array of MRL records, each specified as a <a href="https://msdn.microsoft.com/C1129291-D0E7-48F6-B317-1A0BCB6D25DC">WWAN_UMTS_MRL_INFO</a> structure. 
 
 
-
-
-#### - UMTSMrl[ANYSIZE_ARRAY]
-
-The array of MRL records, each specified as a <a href="https://msdn.microsoft.com/C1129291-D0E7-48F6-B317-1A0BCB6D25DC">WWAN_UMTS_MRL_INFO</a> structure.
 
 
 ## -see-also

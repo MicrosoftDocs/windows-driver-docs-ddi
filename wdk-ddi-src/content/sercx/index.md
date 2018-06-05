@@ -1,5 +1,6 @@
 ---
 UID: NA:sercx
+author: windows-driver-content
 ms.assetid: 742ea1bd-45ef-3fce-abc3-5de9640cf02d
 ms.author: windowsdriverdev
 ms.date: 05/09/18

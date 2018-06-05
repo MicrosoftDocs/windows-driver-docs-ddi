@@ -1,5 +1,6 @@
 ---
 UID: NA:strmini
+author: windows-driver-content
 ms.assetid: 5ad00d3a-f0d1-3a8a-b3a7-7b92cf31e96c
 ms.author: windowsdriverdev
 ms.date: 05/09/18

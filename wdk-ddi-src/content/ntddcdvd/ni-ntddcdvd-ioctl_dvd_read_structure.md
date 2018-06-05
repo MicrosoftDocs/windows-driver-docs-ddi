@@ -85,7 +85,7 @@ The driver returns the disc information in the buffer at <b>Irp-&gt;AssociatedIr
 
 
 
-<text></text>
+
 
 
 
@@ -94,7 +94,7 @@ The driver returns the disc information in the buffer at <b>Irp-&gt;AssociatedIr
 
 
 
-<text></text>
+
 
 
 

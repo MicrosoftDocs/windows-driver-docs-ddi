@@ -60,74 +60,47 @@ The <b>WWAN_UICCSLOT_STATE</b> enumeration lists the different states of a UICC 
 
 ### -field WwanUiccSlotStateUnknown
 
+The modem is still in the process of initializing so the SIM slot state is not deterministic.
 
 ### -field WwanUiccSlotStateOffEmpty
 
+The card slot is powered off and empty. An implementation that is unable to determine the presence of a card in a slot that is powered off reports its state as <i>Off</i>.
 
 ### -field WwanUiccSlotStateOff
 
+The card slot is powered off and a card is present.
 
 ### -field WwanUiccSlotStateEmpty
 
+The card slot is powered on but no card is present.
 
 ### -field WwanUiccSlotStateNotReady
 
+The card in the slot is not ready. In other words, it has been reset but has not finished initializing. It cannot be used at this time.
 
 ### -field WwanUiccSlotStateActive
 
+The card in the slot is available and ready to accept commands. This has no association with the SIM PIN locked state.
 
 ### -field WwanUiccSlotStateError
 
+The card in the slot is in an error state and cannot be used.
 
 ### -field WwanUiccSlotStateActiveEsim
 
+The card in the slot is an eSIM with an active profile, and it is ready to accept commands.
 
 ### -field WwanUiccSlotStateActiveEsimNoProfile
 
+The card in the slot is an eSIM with no profiles or active profiles, and it is ready to accept commands.
 
 ### -field WwanUiccSlotStateMax
 
+The maximum value for this enumeration.
 
-
-
-#### - UICCSlotStateActive
-
-The card in the slot is available and ready to accept commands. This has no association with the SIM PIN locked state.
-
-
-#### - UICCSlotStateEmpty
-
-The card slot is powered on but no card is present.
-
-
-#### - UICCSlotStateError
-
-The card in the slot is in an error state and cannot be used.
-
-
-#### - UICCSlotStateNotReady
-
-The card in the slot is not ready; i.e., it has been reset but has not finished initializing. It cannot be used at this time.
-
-
-#### - UICCSlotStateOff
-
-The card slot is powered off and a card is present.
-
-
-#### - UICCSlotStateOffEmpty
-
-The card slot is powered off and empty. An implementation that is unable to determine the presence of a card in a slot that is powered off reports its state as <i>Off</i>.
-
-
-#### - UICCSlotStateUnknown
-
-The modem is still in the process of initializing so the SIM slot state is not deterministic.
 
 
 ## -remarks
-
-
 
 The set of reported states is constrained by the capability of the slot hardware. In the most restrictive case, the slot hardware may only be able to determine that a card is present when it is powered on and active; in such a case the <b>OffEmpty</b> and <b>Off</b> states will not be reported.
 

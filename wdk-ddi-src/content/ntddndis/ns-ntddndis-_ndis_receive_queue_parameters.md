@@ -112,14 +112,10 @@ The network adapter must split a received packet at an offset equal to or greate
        separate shared memory segments.
 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. Miniport drivers that support NDIS 6.30 or later versions must ignore this flag.</div>
-<div> </div>
+
 The following flags are valid for the 
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-parameters">
      OID_RECEIVE_FILTER_QUEUE_PARAMETERS</a> set OID and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439820">NDIS_STATUS_RECEIVE_FILTER_QUEUE_PARAMETERS</a> status indication:
-
-
-
-
 
 #### NDIS_RECEIVE_QUEUE_PARAMETERS_FLAGS_CHANGED
 
@@ -148,12 +144,10 @@ The setting in the
        <b>QueueName</b> member changed.
 
 <div class="alert"><b>Note</b>  A driver determines which receive queue parameters have been changed by executing a bitwise <b>AND</b> operation between the <b>NDIS_RECEIVE_QUEUE_PARAMETERS_CHANGE_MASK</b> definition and the value in the <b>Flags</b> member. If the result is zero, no receive queue parameters have been changed.</div>
-<div> </div>
 
 ### -field QueueType
 
-An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567217">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff567217">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
      value that specifies the type of the receive queue.
 
 
@@ -202,7 +196,6 @@ A <b>ULONG</b> value for the size, in bytes, of the lookahead size requirement f
      <b>LookaheadSize</b> is invalid.
 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. The value of this member must be zero.</div>
-<div> </div>
 
 ### -field VmName
 

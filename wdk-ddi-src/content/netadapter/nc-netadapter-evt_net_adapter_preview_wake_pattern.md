@@ -74,16 +74,20 @@ typedef EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN *PFN_NET_ADAPTER_PREVIEW_WAKE_PATTE
 
 ## -parameters
 
-### -param Adapter: 
+### -param Adapter
+
 The network adapter object that the client created in a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
 ### -param ExistingPowerSettings 
+
 A handle to the net power settings object.
 
 ### -param WakePatternType 
+
 An [NDIS_PM_WOL_PACKET](../ntddndis/ne-ntddndis-_ndis_pm_wol_packet.md) enumeration value that specifies the type of the WOL packet.
 
 ### -param PatternToBeAdded 
+
 A pointer to an [NDIS_PM_WOL_PATTERN](../ntddndis/ns-ntddndis-_ndis_pm_wol_pattern.md) structure that specifies the wake-on-LAN (WOL) pattern to accept or reject. The client driver can use this pointer to examine the **NDIS_PM_WOL_PATTERN** structure but should not retain it. NetAdapterCx will destroy the wake pattern structure once the driver's *EvtNetAdapterPreviewWakePattern* returns.
 
 ## -returns
@@ -103,8 +107,6 @@ The client driver can use the pointer to examine the **NDIS_PM_WOL_PATTERN** str
 In this callback, the driver typically uses the NETPOWERSETTINGS handle it receives in the *ExistingPowerSettings* parameter to iterate through the enabled wake patterns to determine whether to accept or reject *PatternToBeAdded*. For an example, see [Configuring Power Management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management).
 
 In its [EvtDeviceArmWakeFromS0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md) and [EvtDeviceArmWakeFromSx](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md) callback functions, the driver can iterate through the enabled wake patterns and protocol offloads to program them into the hardware.
-
-The minimum NetAdapterCx version for **EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN** is 1.0.
 
 ## -see-also
 

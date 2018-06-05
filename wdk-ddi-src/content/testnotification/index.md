@@ -1,5 +1,6 @@
 ---
 UID: NA:testnotification
+author: windows-driver-content
 ms.assetid: 8f863a97-bdd4-32b4-abeb-ca4bac18985c
 ms.author: windowsdriverdev
 ms.date: 05/09/18

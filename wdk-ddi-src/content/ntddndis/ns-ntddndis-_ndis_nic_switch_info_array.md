@@ -111,8 +111,7 @@ function, NDIS passes a pointer to an <a href="https://msdn.microsoft.com/librar
 function, NDIS passes a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a> structure in the <i>AttachParameters</i> parameter. NDIS sets the  <b>NicSwitchArray</b> member of the <b>NDIS_FILTER_ATTACH_PARAMETERS</b> structure to a pointer to an <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure.</li>
 </ul>
 Each
-    element in the array that follows the <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure is an 
-    
+    element in the array that follows the <b>NDIS_NIC_SWITCH_INFO_ARRAY</b> structure is an     
     <a href="https://msdn.microsoft.com/library/windows/hardware/hh451582">NDIS_NIC_SWITCH_INFO</a> structure.
 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, only the <b>NDIS_NIC_SWITCH_INFO</b> that describes the information about the default network adapter switch is returned through an OID query request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>.</div>

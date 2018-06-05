@@ -93,26 +93,9 @@ The IP protocol number, as specified in RFC 1700.
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_ALE_PROMISCUOUS_MODE
 
+The possible values are:
 
-
-#####  The possible values are:
-
-
-
-#### SIO_RCVALL
-
-
-
-#### SIO_RCVALL_IGMPMCAST
-
-
-
-#### SIO_RCVALL_MCAST
-
-
-
-##### 
-
+<ul><li>SIO_RCVALL</li><li>SIO_RCVALL_IGMPMCAST</li><li>SIO_RCVALL_MCAST</li></ul>
 
 ### -field FWPS_FIELD_ALE_RESOURCE_ASSIGNMENT_V6_IP_LOCAL_INTERFACE
 

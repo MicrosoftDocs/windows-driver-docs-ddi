@@ -82,7 +82,7 @@ Size, in bytes, of the buffer pointed to by <i>lpOutBuffer</i>.
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ Size, in bytes, of the buffer pointed to by <i>lpOutBuffer</i>.
 
 
 
-<text></text>
+
 
 
 

@@ -90,6 +90,6 @@ For more info about ring buffer usage, see *[EVT_TXQUEUE_ADVANCE](nc-nettxqueue-
 
 NetAdapterCx serializes this callback function along with the receive queue's *[EVT_TXQUEUE_ADVANCE](nc-nettxqueue-evt_txqueue_advance.md)* and *[EVT_TXQUEUE_SET_NOTIFICATION_ENABLED](nc-nettxqueue-evt_txqueue_set_notification_enabled.md)* callback functions.
 
-The minimum NetAdapterCx version for *EVT_TXQUEUE_CANCEL* is 1.0.
+
 
 ## -see-also

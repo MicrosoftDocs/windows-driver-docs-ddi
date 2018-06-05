@@ -1,5 +1,6 @@
 ---
 UID: NA:screencapture
+author: windows-driver-content
 ms.assetid: cf555117-86c5-3158-b7f9-ad31dd048904
 ms.author: windowsdriverdev
 ms.date: 05/09/18

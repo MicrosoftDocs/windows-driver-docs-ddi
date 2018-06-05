@@ -67,7 +67,7 @@ Bytes buffer contains a pointer to SCARD_IO_REQUEST structure followed by the da
 
 
 
-<text></text>
+
 
 
 
@@ -81,7 +81,7 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 
 
 
-<text></text>
+
 
 
 
@@ -90,7 +90,7 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 
 
 
-<text></text>
+
 
 
 
@@ -99,7 +99,7 @@ Bytes buffer contains the result of the transmission. The buffer points to the S
 
 
 
-<text></text>
+
 
 
 

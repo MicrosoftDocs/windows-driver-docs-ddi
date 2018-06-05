@@ -54,7 +54,7 @@ The operating system never allocates [NET_PACKET_FRAGMENT](../netpacket/ns-netpa
 ## -remarks
 This enumeration is a value of the [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure. Together with [NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE](ne-netadapter-_net_rx_fragment_buffer_attachment_mode.md), it specifies how a net adapter client driver would like to configure its receive queue fragment buffers. For more information, see [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md).
 
-The minimum NetAdapterCx version for **NET_RX_FRAGMENT_BUFFER_ALLOCATION_MODE** is 1.2.
+
 
 ## -see-also
 

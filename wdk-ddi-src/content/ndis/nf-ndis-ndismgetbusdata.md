@@ -62,8 +62,10 @@ NDIS drivers call the
 
 ### -param NdisMiniportHandle
 
-TBD
-
+The miniport adapter handle that NDIS passed to the 
+     <i>MiniportAdapterHandle</i> parameter of the 
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
+     MiniportInitializeEx</a> function.
 
 ### -param WhichSpace [in]
 
@@ -87,14 +89,6 @@ A pointer to a buffer that receives the data read from the bus. Must be at least
 ### -param Length [in]
 
 The length, in bytes, of the data to read.
-
-
-#### - MiniportAdapterHandle [in]
-
-The miniport adapter handle that NDIS passed to the 
-     <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
-     MiniportInitializeEx</a> function.
 
 
 ## -returns

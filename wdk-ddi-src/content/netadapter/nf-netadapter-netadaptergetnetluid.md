@@ -62,7 +62,7 @@ The network adapter object that the client created in a prior call to [NetAdapte
 Returns the NET_LUID for the specified NETADAPTER object.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetAdapterGetNetLuid** is 1.0.
+
 
 ## -see-also
 

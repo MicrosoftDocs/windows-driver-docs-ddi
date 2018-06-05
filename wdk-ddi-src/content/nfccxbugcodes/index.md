@@ -1,5 +1,6 @@
 ---
 UID: NA:nfccxbugcodes
+author: windows-driver-content
 ms.assetid: 36d00c14-c653-3deb-af94-a36239ee48de
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -70,6 +70,6 @@ A pointer to the driver's *[EVT_TXQUEUE_CANCEL](nc-nettxqueue-evt_txqueue_cancel
 This method does not return a value.
 
 ## -remarks
-The minimum NetAdapterCx version for **NET_TXQUEUE_CONFIG_INIT** is 1.0.
+
 
 ## -see-also

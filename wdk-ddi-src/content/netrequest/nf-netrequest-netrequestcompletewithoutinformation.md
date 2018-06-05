@@ -74,7 +74,7 @@ Typically, the client driver calls **NetRequestCompleteWithoutInformation** from
 
 After this method returns, the request handle is no longer valid. NetAdapterCx removes it from the NETQUEUE and deletes the NETREQUEST object.
 
-The minimum NetAdapterCx version for **NetRequestCompleteWithoutInformation** is 1.0.
+
 
 ## -see-also
 

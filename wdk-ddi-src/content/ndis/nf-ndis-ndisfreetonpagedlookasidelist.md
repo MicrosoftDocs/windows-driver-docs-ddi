@@ -61,27 +61,11 @@ The
 
 ### -param _L
 
-TBD
-
+A pointer to the head of the lookaside list to which the entry will be returned.
 
 ### -param _E
 
-TBD
-
-
-
-
-
-
-#### - Entry [in]
-
 A pointer to the entry to be freed.
-
-
-#### - Lookaside [in]
-
-A pointer to the head of the lookaside list to which the entry will be returned.
-
 
 ## -remarks
 

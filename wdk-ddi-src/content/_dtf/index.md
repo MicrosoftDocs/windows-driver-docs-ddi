@@ -1,5 +1,6 @@
 ---
 UID: TP:dtf
+author: windows-driver-content
 ms.assetid: d5452dd2-c8e3-30e9-8760-2f451dbe92d2
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -70,7 +70,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -84,7 +84,7 @@ The miniport driver returns a VIDEO_CURSOR_POSITION structure in the VRP <b>Outp
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ The miniport driver returns a VIDEO_CURSOR_POSITION structure in the VRP <b>Outp
 
 
 
-<text></text>
+
 
 
 
@@ -102,7 +102,7 @@ The miniport driver returns a VIDEO_CURSOR_POSITION structure in the VRP <b>Outp
 
 
 
-<text></text>
+
 
 
 

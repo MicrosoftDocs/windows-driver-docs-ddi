@@ -87,7 +87,7 @@ In this callback, client drivers move each entry in their NIC's indirection tabl
 
 The method of assigning index entries to hardware receive queues depends on the design of each NIC. For example, some NIC client drivers might assign their own IDs to each receive queue that are different from the NetAdapterCx-assigned IDs, so they would have to first translate the provided queue IDs to their own queue IDs before reassigning indirection table entries. Other NICs might have a compressed indirection table that differs in size from the system-maintained indirection table, so client drivers of those NICs would need to calculate the correct index into their hardware's indirection table when assigning entries. For a code sample of this second example, see the [Realtek Github sample driver](https://github.com/Microsoft/NetAdapter-Cx-Driver-Samples/tree/master/RtEthSample).
 
-The minimum NetAdapterCx version for *EvtNetAdapterReceiveScalingSetIndirectionEntries* is 1.2.
+
 
 ### Example
 

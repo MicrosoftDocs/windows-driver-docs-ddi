@@ -1,5 +1,6 @@
 ---
 UID: NA:usbfnioctl
+author: windows-driver-content
 ms.assetid: 346c06db-ae00-3b42-a05a-d786904c5f0f
 ms.author: windowsdriverdev
 ms.date: 05/09/18

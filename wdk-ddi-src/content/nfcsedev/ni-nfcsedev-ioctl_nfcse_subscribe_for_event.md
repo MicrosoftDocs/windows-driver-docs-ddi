@@ -70,7 +70,7 @@ The <b>IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT</b>
 
 
 
-<text></text>
+
 
 
 
@@ -84,7 +84,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -102,7 +102,7 @@ None
 
 
 
-<text></text>
+
 
 
 

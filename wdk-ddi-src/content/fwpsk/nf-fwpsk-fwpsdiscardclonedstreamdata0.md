@@ -72,21 +72,14 @@ A pointer to the
 
 ### -param allocateCloneFlags
 
-TBD
-
+There are currently no flags defined for this function. Callout drivers should set this parameter
+     to zero.
 
 ### -param dispatchLevel [in]
 
 A value that indicates the current IRQL = DISPATCH_LEVEL. A callout driver should set this
      parameter to <b>TRUE</b> only if it is running at IRQL = DISPATCH_LEVEL. Otherwise, a callout driver should set
      this parameter to <b>FALSE</b>.
-
-
-#### - flags [in]
-
-There are currently no flags defined for this function. Callout drivers should set this parameter
-     to zero.
-
 
 ## -returns
 

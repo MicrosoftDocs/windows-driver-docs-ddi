@@ -70,7 +70,7 @@ The VRP <b>InputBuffer</b> contains an array of <a href="https://msdn.microsoft.
 
 
 
-<text></text>
+
 
 
 
@@ -84,7 +84,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -102,7 +102,7 @@ None
 
 
 
-<text></text>
+
 
 
 

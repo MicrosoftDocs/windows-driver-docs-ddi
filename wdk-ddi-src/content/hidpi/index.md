@@ -1,5 +1,6 @@
 ---
 UID: NA:hidpi
+author: windows-driver-content
 ms.assetid: 755e703a-2165-39e7-a3dc-27fc70f42714
 ms.author: windowsdriverdev
 ms.date: 05/09/18

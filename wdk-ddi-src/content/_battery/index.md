@@ -1,5 +1,6 @@
 ---
 UID: TP:battery
+author: windows-driver-content
 ms.assetid: 7433fa8b-bcff-3cc7-a61e-27c29a2f632b
 ms.author: windowsdriverdev
 ms.date: 05/09/18

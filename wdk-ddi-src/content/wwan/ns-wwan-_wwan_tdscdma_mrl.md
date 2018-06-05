@@ -65,13 +65,6 @@ The count of MRL entries following this member.
 
 ### -field TDSCDMAMrl
 
- 
-
-
-
-
-#### - TDSCDMAMrl[ANYSIZE_ARRAY]
-
 The array of MRL records, each specified as a <a href="https://msdn.microsoft.com/4EA0AE24-E4B0-49E0-8C50-44F6890C5C52">WWAN_TDSCDMA_MRL_INFO</a> structure.
 
 

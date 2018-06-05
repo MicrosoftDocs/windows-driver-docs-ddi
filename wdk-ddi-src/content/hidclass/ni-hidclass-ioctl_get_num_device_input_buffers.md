@@ -86,7 +86,7 @@ The size of the buffer is <b>sizeof</b>(ULONG).
 
 
 
-<text></text>
+
 
 
 
@@ -95,7 +95,7 @@ The size of the buffer is <b>sizeof</b>(ULONG).
 
 
 
-<text></text>
+
 
 
 

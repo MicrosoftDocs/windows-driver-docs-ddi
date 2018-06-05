@@ -100,6 +100,6 @@ Register your implementation of this callback function by setting the appropriat
 
 NetAdapterCx calls the client driver's *EVT_NET_REQUEST_DEFAULT_QUERY_DATA* handler when it receives an OID query data request for which the client driver has not provided a specialized *[EVT_NET_REQUEST_QUERY_DATA](nc-netrequestqueue-evt_net_request_query_data.md)* handler.
 
-The minimum NetAdapterCx version for *EVT_NET_REQUEST_DEFAULT_QUERY_DATA* is 1.0.
+
 
 ## -see-also

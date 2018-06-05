@@ -58,7 +58,7 @@ Retrieves the specified string value from the adapter configuration object and a
 Handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
-A pointer to a **UNICODE_STRING** structure that contains a name for string value.
+A pointer to a [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structure that contains a name for string value.
 
 ### -param StringAttributes
 A pointer to a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that contains driver-supplied attributes for the new WDFSTRING object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
@@ -74,6 +74,6 @@ The client driver obtains a handle to a NETCONFIGURATION object by calling [NetA
 
 By default, the framework string object is parented to the collection object. The client driver can change this by setting the **ParentObject** member of the [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure.
 
-The minimum NetAdapterCx version for **NetConfigurationQueryString** is 1.0.
+
 
 ## -see-also

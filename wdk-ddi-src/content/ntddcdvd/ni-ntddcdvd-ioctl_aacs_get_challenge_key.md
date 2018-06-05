@@ -82,7 +82,7 @@ Length of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5501
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ Length of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5501
 
 
 
-<text></text>
+
 
 
 

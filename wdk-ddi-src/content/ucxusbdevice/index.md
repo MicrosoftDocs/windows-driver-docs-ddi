@@ -1,5 +1,6 @@
 ---
 UID: NA:ucxusbdevice
+author: windows-driver-content
 ms.assetid: 2cf71389-08f1-3c73-b478-7efa6045e05e
 ms.author: windowsdriverdev
 ms.date: 05/09/18

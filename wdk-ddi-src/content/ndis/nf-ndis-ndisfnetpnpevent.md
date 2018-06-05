@@ -63,30 +63,16 @@ A filter driver can call the
 
 ### -param NdisFilterHandle
 
-TBD
-
-
-### -param NetPnPEventNotification
-
-TBD
-
-
-
-
-#### - FilterModuleContext [in]
-
 A handle to the context area for the filter module. The filter driver created and initialized this
      context area in the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff540442">FilterAttach</a> function.
 
-
-#### - NetPnPEvent [in]
+### -param NetPnPEventNotification
 
 A pointer to a 
      <a href="https://msdn.microsoft.com/58d3baf3-a1fa-42ae-b795-2774a148aeda">
      NET_PNP_EVENT_NOTIFICATION</a> structure, which describes the network PnP event or Power Management
      event being forwarded by the filter driver.
-
 
 ## -returns
 

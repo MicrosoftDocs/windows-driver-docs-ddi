@@ -378,7 +378,7 @@ The length of the structure
 
 
 
-<text></text>
+
 
 
 
@@ -387,7 +387,7 @@ The length of the structure
 
 
 
-<text></text>
+
 
 
 

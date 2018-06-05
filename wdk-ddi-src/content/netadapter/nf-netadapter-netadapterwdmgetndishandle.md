@@ -64,6 +64,6 @@ Retrieves the NDIS_HANDLE for a specified NETADAPTER.
 ## -remarks
 Client drivers that bypass NetAdapterCx and call NDIS DDIs directly call this method to retrieve the NDIS handle required by these DDIs.
 
-The minimum NetAdapterCx version for **NetAdapterWdmGetNdisHandle** is 1.0.
+
 
 ## -see-also

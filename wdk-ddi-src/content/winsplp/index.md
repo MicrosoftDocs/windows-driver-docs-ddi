@@ -1,5 +1,6 @@
 ---
 UID: NA:winsplp
+author: windows-driver-content
 ms.assetid: e65d4581-0840-38bd-9afe-5a9d19c9769b
 ms.author: windowsdriverdev
 ms.date: 05/09/18

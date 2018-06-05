@@ -69,7 +69,7 @@ The client driver calls this method from its *[EVT_NET_ADAPTER_SET_CAPABILITIES]
 
 This method, along with a few other set capability methods (see below), is the replacement for the [NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md) union that a (non-WDF) client of Ndis.sys sets by calling [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md).
 
-The minimum NetAdapterCx version for **NetAdapterSetLinkLayerCapabilities** is 1.0.
+
 
 ## -see-also
 

@@ -96,6 +96,6 @@ To register an *EVT_NET_REQUEST_QUERY_DATA* callback function, the client driver
 
 Your client driver can provide one or more specialized handlers for specific OID query requests. In addition, it can also provide a generic *[EVT_NET_REQUEST_DEFAULT_QUERY_DATA](nc-netrequestqueue-evt_net_request_default_query_data.md)* callback function.
 
-The minimum NetAdapterCx version for *EVT_NET_REQUEST_QUERY_DATA* is 1.0.
+
 
 ## -see-also

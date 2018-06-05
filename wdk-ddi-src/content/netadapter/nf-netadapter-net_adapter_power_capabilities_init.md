@@ -66,7 +66,7 @@ This method does not return a value.
 
 The **NET_ADAPTER_POWER_CAPABILITIES_INIT** function zeros the specified **NET_ADAPTER_POWER_CAPABILITIES** structure and sets the structure's **Size** member. It also sets the structure's **ManageS0IdlePowerReferences** member to **WdfUseDefault**.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_POWER_CAPABILITIES_INIT** is 1.1.
+
 
 ## -see-also
 

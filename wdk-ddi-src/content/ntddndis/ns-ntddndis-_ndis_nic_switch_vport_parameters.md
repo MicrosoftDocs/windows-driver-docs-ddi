@@ -95,9 +95,7 @@ Miniport drivers must ignore this flag.
 
 #### NDIS_NIC_SWITCH_VPORT_PARAMS_FLAGS_CHANGED
 
-
-	                                 
-	This flag specifies that the <b>Flags</b> member has been updated after the VPort has been created. These flags can be enabled or disabled after the VPort has been created by using an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>. 
+This flag specifies that the <b>Flags</b> member has been updated after the VPort has been created. These flags can be enabled or disabled after the VPort has been created by using an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>. 
 
 
 <div class="alert"><b>Note</b>  This flag is valid only when this structure is used in OID set requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>. </div>
@@ -107,7 +105,7 @@ Miniport drivers must ignore this flag.
 #### NDIS_NIC_SWITCH_VPORT_PARAMS_NAME_CHANGED
 
                                   
- This flag specifies that the <b>VPortName</b> member has been updated after the VPort has been created. This member can be updated by using an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>. 
+This flag specifies that the <b>VPortName</b> member has been updated after the VPort has been created. This member can be updated by using an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>. 
 
 
 <div class="alert"><b>Note</b>  This flag is valid only when this structure is used in OID set requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451825">OID_NIC_SWITCH_VPORT_PARAMETERS</a>. </div>

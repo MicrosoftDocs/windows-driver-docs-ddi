@@ -1,5 +1,6 @@
 ---
 UID: NA:wdfsync
+author: windows-driver-content
 ms.assetid: 48b6478c-096f-337a-8dda-9d38136431bc
 ms.author: windowsdriverdev
 ms.date: 05/09/18

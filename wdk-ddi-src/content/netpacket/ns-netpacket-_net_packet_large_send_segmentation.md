@@ -62,7 +62,7 @@ Reserved for system use. Clients must not read or write this member.
 ## -remarks
 Client drivers can obtain this structure for a packet by calling [NetPacketGetPacketLargeSendSegmentation](nf-netpacket-netpacketgetpacketlargesendsegmentation.md).
 
-The minimum NetAdapterCx version for **NET_PACKET_LARGE_SEND_SEGMENTATION** is 1.2.
+
 
 ## -see-also
 

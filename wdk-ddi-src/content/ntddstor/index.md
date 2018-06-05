@@ -1,5 +1,6 @@
 ---
 UID: NA:ntddstor
+author: windows-driver-content
 ms.assetid: 10772569-e4d6-31f4-93aa-6bf1fcf4cb77
 ms.author: windowsdriverdev
 ms.date: 05/09/18

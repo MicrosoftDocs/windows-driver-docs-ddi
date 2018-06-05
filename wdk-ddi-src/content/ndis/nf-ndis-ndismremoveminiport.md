@@ -63,13 +63,6 @@ The
 
 ### -param MiniportHandle
 
-TBD
-
-
-
-
-#### - MiniportAdapterHandle [in]
-
 The handle to the initialized miniport adapter that the miniport driver has determined is
      unrecoverable.
 

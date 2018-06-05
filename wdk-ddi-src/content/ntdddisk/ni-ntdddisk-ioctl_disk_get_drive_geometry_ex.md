@@ -87,7 +87,7 @@ The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<text></text>
+
 
 
 
@@ -96,7 +96,7 @@ The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<text></text>
+
 
 
 

@@ -1,5 +1,6 @@
 ---
 UID: NA:extsfns
+author: windows-driver-content
 ms.assetid: 65a44f62-6646-38b2-b962-e5ad09608ad4
 ms.author: windowsdriverdev
 ms.date: 05/09/18

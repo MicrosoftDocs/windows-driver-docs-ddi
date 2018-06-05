@@ -89,7 +89,7 @@ The size of a PARALLEL_PNP_INFORMATION structure.
 
 
 
-<text></text>
+
 
 
 
@@ -98,7 +98,7 @@ The size of a PARALLEL_PNP_INFORMATION structure.
 
 
 
-<text></text>
+
 
 
 

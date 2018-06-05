@@ -64,7 +64,7 @@ Drive letter names must include the full path of the symbolic link in object nam
 
 
 
-<text></text>
+
 
 
 
@@ -73,7 +73,7 @@ Drive letter names must include the full path of the symbolic link in object nam
 
 
 
-<text></text>
+
 
 
 
@@ -92,7 +92,7 @@ The client driver must place a variable-length structure of type <a href="https:
 
 
 
-<text></text>
+
 
 
 
@@ -101,7 +101,7 @@ The client driver must place a variable-length structure of type <a href="https:
 
 
 
-<text></text>
+
 
 
 

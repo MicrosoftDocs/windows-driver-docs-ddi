@@ -1,5 +1,6 @@
 ---
 UID: NA:pep_x
+author: windows-driver-content
 ms.assetid: 58bb1f9b-0265-3590-af11-186f988fd807
 ms.author: windowsdriverdev
 ms.date: 05/09/18

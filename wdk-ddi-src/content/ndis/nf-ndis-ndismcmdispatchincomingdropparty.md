@@ -61,55 +61,27 @@ req.typenames:
 
 ### -param _S_
 
-TBD
-
-
-### -param _H_
-
-TBD
-
-
-### -param _B_
-
-TBD
-
-
-### -param _Z_
-
-TBD
-
-
-
-
-
-
-#### - Buffer [in, optional]
-
-Pointer to a caller-allocated resident buffer containing additional protocol-specific data
-     received from the remote party, if any. Depending on the underlying medium, this pointer can be
-     <b>NULL</b>.
-
-
-#### - DropStatus [in]
-
 Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if the remote party
      simply requested that its connection be closed.
 
-
-#### - NdisPartyHandle [in]
+### -param _H_
 
 Specifies the handle that identifies the party to be dropped from the multipoint VC, which must
      have other parties that are still connected. The MCM driver originally obtained this handle as an input
      parameter to its 
      <a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a> function.
 
+### -param _B_
 
-#### - Size [in]
+Pointer to a caller-allocated resident buffer containing additional protocol-specific data
+     received from the remote party, if any. Depending on the underlying medium, this pointer can be
+     <b>NULL</b>.
+
+### -param _Z_
 
 Specifies the size in bytes of the buffer, zero if 
      <i>Buffer</i> is <b>NULL</b>.
-
-
+     
 ## -remarks
 
 

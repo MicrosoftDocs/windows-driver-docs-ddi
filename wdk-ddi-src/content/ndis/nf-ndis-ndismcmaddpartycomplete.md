@@ -61,55 +61,27 @@ req.typenames:
 
 ### -param _S_
 
-TBD
-
+Specifies the final status of the MCM driver's add-party operation, either NDIS_STATUS_SUCCESS or
+     any NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
 
 ### -param _H_
 
-TBD
-
+Specifies the handle identifying the party. The MCM driver obtained this handle as input parameter
+     to its 
+     <a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a> function.
 
 ### -param _C_
-
-TBD
-
-
-### -param _P_
-
-TBD
-
-
-
-
-
-
-#### - CallMgrPartyContext [in, optional]
 
 Specifies the handle to a caller-allocated resident context area in which the MCM driver will
      maintain party-specific state information if the add-party operation succeeded. Otherwise, this
      parameter can be <b>NULL</b> because it is ignored by NDIS if 
      <i>Status</i> is anything other than NDIS_STATUS_SUCCESS.
 
-
-#### - CallParameters [in]
+### -param _P_
 
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that contains the call
      parameters, originally supplied by the client, for the party to be added.
-
-
-#### - NdisPartyHandle [in]
-
-Specifies the handle identifying the party. The MCM driver obtained this handle as input parameter
-     to its 
-     <a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a> function.
-
-
-#### - Status [in]
-
-Specifies the final status of the MCM driver's add-party operation, either NDIS_STATUS_SUCCESS or
-     any NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
-
 
 ## -remarks
 

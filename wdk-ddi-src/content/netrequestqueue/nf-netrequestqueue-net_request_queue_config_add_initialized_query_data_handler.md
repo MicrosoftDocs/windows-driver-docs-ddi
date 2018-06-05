@@ -68,7 +68,7 @@ When the client driver has finished adding custom handlers, it registers them wi
 
 If the memory allocation for this method fails, the subsequent call to **NetRequestQueueCreate** returns a failure code.
 
-The minimum NetAdapterCx version for **NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_QUERY_DATA_HANDLER** is 1.0.
+
 
 ## -see-also
 

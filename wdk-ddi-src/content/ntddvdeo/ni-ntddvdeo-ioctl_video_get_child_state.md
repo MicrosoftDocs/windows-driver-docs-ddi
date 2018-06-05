@@ -70,7 +70,7 @@ The VRP <b>InputBuffer</b> contains a pointer to a ULONG, containing the index o
 
 
 
-<text></text>
+
 
 
 
@@ -136,7 +136,7 @@ This flag is used for mode pruning. By default, Windows 2000 and later perform m
 
 
 
-<text></text>
+
 
 
 
@@ -145,7 +145,7 @@ This flag is used for mode pruning. By default, Windows 2000 and later perform m
 
 
 
-<text></text>
+
 
 
 
@@ -154,7 +154,7 @@ This flag is used for mode pruning. By default, Windows 2000 and later perform m
 
 
 
-<text></text>
+
 
 
 

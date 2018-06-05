@@ -1,5 +1,6 @@
 ---
 UID: NA:ksmedia
+author: windows-driver-content
 ms.assetid: 8877c4ae-aa0c-3131-b21b-33fa24797743
 ms.author: windowsdriverdev
 ms.date: 05/09/18

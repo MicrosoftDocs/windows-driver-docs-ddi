@@ -68,7 +68,7 @@ The <b>IOCTL_SMARTCARD_SET_ATTRIBUTE</b>
 
 
 
-<text></text>
+
 
 
 
@@ -82,7 +82,7 @@ None.
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ None.
 
 
 
-<text></text>
+
 
 
 
@@ -100,7 +100,7 @@ None.
 
 
 
-<text></text>
+
 
 
 

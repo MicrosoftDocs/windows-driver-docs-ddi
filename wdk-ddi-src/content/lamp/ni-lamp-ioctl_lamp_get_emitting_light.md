@@ -93,7 +93,7 @@ Length of a <b>BOOLEAN</b>.
 
 
 
-<text></text>
+
 
 
 
@@ -102,7 +102,7 @@ Length of a <b>BOOLEAN</b>.
 
 
 
-<text></text>
+
 
 
 

@@ -1,5 +1,6 @@
 ---
 UID: NA:bthhfpddi
+author: windows-driver-content
 ms.assetid: 3204c1dc-a7d6-343c-8591-e2175352866a
 ms.author: windowsdriverdev
 ms.date: 05/09/18

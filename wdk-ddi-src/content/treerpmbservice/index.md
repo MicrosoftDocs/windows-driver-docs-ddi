@@ -1,5 +1,6 @@
 ---
 UID: NA:treerpmbservice
+author: windows-driver-content
 ms.assetid: d533804f-f73d-32e6-aad0-ff62f2f926b7
 ms.author: windowsdriverdev
 ms.date: 05/09/18

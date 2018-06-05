@@ -157,11 +157,7 @@ An error occurred.
 
 
 
-A callout driver registers a 
-  
-  <i>vSwitchRuntimeStateRestoreNotifyFn</i> function  by calling  
-    
-    the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439687">FwpsvSwitchEventsSubscribe0</a>
+A callout driver registers a <i>vSwitchRuntimeStateRestoreNotifyFn</i> function  by calling  the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439687">FwpsvSwitchEventsSubscribe0</a>
  function.
 
 See the <i>vSwitchRuntimeStateSaveNotifyFn</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/hh451286">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>) function for information about saving the run-time state.

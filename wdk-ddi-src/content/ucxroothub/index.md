@@ -1,5 +1,6 @@
 ---
 UID: NA:ucxroothub
+author: windows-driver-content
 ms.assetid: f414bbf8-87c3-3f54-a115-be4e34efc66d
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -1,5 +1,6 @@
 ---
 UID: NA:rxstruc
+author: windows-driver-content
 ms.assetid: 65762d53-73cb-3de7-a883-98912cb2a1da
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -1,5 +1,6 @@
 ---
 UID: NA:ntpoapi
+author: windows-driver-content
 ms.assetid: 05cffe50-bcb4-3779-8086-d9ec44f199f9
 ms.author: windowsdriverdev
 ms.date: 05/09/18

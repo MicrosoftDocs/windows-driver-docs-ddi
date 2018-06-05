@@ -1,5 +1,6 @@
 ---
 UID: NA:nfcsedev
+author: windows-driver-content
 ms.assetid: 71f179ce-e2f5-3602-a35a-5134da7d7128
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -68,7 +68,7 @@ identifier of the SR_IOV device implementing the interface.
 
 
 
-<text></text>
+
 
 
 
@@ -77,7 +77,7 @@ identifier of the SR_IOV device implementing the interface.
 
 
 
-<text></text>
+
 
 
 

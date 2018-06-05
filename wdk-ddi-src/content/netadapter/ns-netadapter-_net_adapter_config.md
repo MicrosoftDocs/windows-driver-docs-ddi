@@ -75,6 +75,6 @@ Optional WDF object attributes associated with the NETPOWERSETTINGS object, or N
 ## -remarks
 Call [NET_ADAPTER_CONFIG_INIT](nf-netadapter-net_adapter_config_init.md) to initialize this structure.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_CONFIG** is 1.2.
+
 
 ## -see-also

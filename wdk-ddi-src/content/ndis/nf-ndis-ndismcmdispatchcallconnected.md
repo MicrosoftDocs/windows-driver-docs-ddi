@@ -62,19 +62,9 @@ req.typenames:
 
 ### -param _H_
 
-TBD
-
-
-
-
-
-
-#### - NdisVcHandle [in]
-
 Specifies the handle to the VC that represents the connection, created with 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff562812">NdisMCmCreateVc</a> when the MCM driver set
      up the VC for the incoming call.
-
 
 ## -remarks
 

@@ -67,7 +67,7 @@ The **NET_ADAPTER_POWER_FLAGS** enumeration is used to specify power capabilitie
 
 The client driver passes an initialized [NET_ADAPTER_POWER_CAPABILITIES](ns-netadapter-_net_adapter_power_capabilities.md) structure as an input parameter value to [NetAdapterSetPowerCapabilities](nf-netadapter-netadaptersetpowercapabilities.md).
 
-The minimum NetAdapterCx version for **NET_ADAPTER_POWER_FLAGS** is 1.0.
+
 
 ## -see-also
 

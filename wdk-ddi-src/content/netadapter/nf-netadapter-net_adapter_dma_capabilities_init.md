@@ -63,6 +63,6 @@ This method does not return a value.
 ## -remarks
 The client driver typically calls this method from its *[EVT_NET_ADAPTER_SET_CAPABILITIES](nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function when setting capabilities for its data path.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_DMA_CAPABILITIES_INIT** is 1.2.
+
 
 ## -see-also

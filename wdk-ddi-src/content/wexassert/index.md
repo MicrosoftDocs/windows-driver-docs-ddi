@@ -1,5 +1,6 @@
 ---
 UID: NA:wexassert
+author: windows-driver-content
 ms.assetid: 2ce48b1d-340a-3b16-913e-fd56277b1141
 ms.author: windowsdriverdev
 ms.date: 05/09/18

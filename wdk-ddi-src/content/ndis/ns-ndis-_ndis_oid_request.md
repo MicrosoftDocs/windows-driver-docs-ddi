@@ -407,20 +407,28 @@ Reserved for future use.
 
 ### -field SwitchId
 
- 
+An NDIS_NIC_SWITCH_ID value that identifies the switch on which the target VPort, specified by **VPortId**, is running.
 
+> [!NOTE]
+> This field is supported in NDIS 6.50 and later.
 
 ### -field VPortId
 
- 
+An NDIS_NIC_SWITCH_VPORT_ID value that identifies the VPort that this OID request is targeting. This field is considered valid only if the **NDIS_OID_REQUEST_FLAGS_VPORT_ID_VALID** flag is set.
 
+> [!NOTE]
+> This field is supported in NDIS 6.50 and later.
 
 ### -field Flags
 
- 
+A ULONG value that contains a bitwise OR of flags for this OID request. Currently, these flags are supported:
 
+| Flag | Value | Description |
+| --- | --- | --- |
+| NDIS_OID_REQUEST_FLAGS_VPORT_ID_VALID | 0x0001 | When this flag is set, the **VportId** member is considered valid and identifies the VPort to which the OID is targeted. If this flag is not set, then the OID is for Native RSS. |
 
-
+> [!NOTE]
+> This field is supported in NDIS 6.50 and later.
 
 ## -remarks
 

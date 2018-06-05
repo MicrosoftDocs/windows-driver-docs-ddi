@@ -50,7 +50,7 @@ req.typenames: BUS_INTERFACE_STANDARD, *PBUS_INTERFACE_STANDARD
 ## -description
 
 
-The <b>BUS_INTERFACE_STANDARD</b> interface structure enables device drivers to make direct calls to parent bus driver routines. This structure defines the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a> interface.
+The <b>BUS_INTERFACE_STANDARD</b> interface structure enables device drivers to make direct calls to parent bus driver routines. This structure defines the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/obtaining-device-configuration-information-at-irql---dispatch-level">GUID_BUS_INTERFACE_STANDARD</a> interface.
 
 
 ## -struct-fields

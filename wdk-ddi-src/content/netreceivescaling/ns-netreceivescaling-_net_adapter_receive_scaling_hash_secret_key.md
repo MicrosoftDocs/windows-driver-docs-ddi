@@ -56,7 +56,7 @@ The secret key. This member is 40 bytes (320 bits) for the **NetAdapterReceiveSc
 ## -remarks
 NetAdapterCx provides the secret key to NIC client drivers when it invokes the *[EvtNetAdapterReceiveScalingSetHashSecretKey](nc-netreceivescaling-evt_net_adapter_receive_scaling_set_hash_secret_key.md)* callback function. The NIC then uses this secret key to verify its calculations for the RSS hash function.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY** is 1.2.
+
 
 ## -see-also
 

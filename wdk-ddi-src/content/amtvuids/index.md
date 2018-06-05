@@ -1,5 +1,6 @@
 ---
 UID: NA:amtvuids
+author: windows-driver-content
 ms.assetid: 284842fd-1ee7-30f6-945d-13b223b9db60
 ms.author: windowsdriverdev
 ms.date: 05/09/18

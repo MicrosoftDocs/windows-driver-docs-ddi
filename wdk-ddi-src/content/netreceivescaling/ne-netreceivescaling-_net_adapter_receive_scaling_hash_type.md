@@ -53,7 +53,7 @@ Indicates support for the Toeplitz hashing function.
 ## -remarks
 Currently, **NetAdapterReceiveScalingHashTypeToeplitz** is the only hashing function available to NIC client drivers.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE** is 1.2.
+
 
 ## -see-also
 

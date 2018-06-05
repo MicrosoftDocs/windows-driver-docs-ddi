@@ -133,10 +133,8 @@ The block of memory pointed to by
     <i>WskRegistration</i> must be kept allocated (must not be freed or go out of scope) as long as there are
     outstanding calls to other 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571179">WSK registration functions</a>.
-
-
     
-    Using the 
+Using the 
     <b>WskRegister</b> and 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571128">WskDeregister</a> functions is the preferred
     method for registering and unregistering WSK applications. The 

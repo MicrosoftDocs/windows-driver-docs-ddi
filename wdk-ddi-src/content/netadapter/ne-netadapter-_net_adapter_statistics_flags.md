@@ -132,7 +132,7 @@ The client driver passes an initialized [NET_ADAPTER_LINK_LAYER_CAPABILITIES](ns
 
 The client returns an NDIS_STATISTICS_INFO structure when handling an [OID_GEN_STATISTICS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-statistics) query.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_STATISTICS_FLAGS** is 1.0.
+
 
 ## -see-also
 

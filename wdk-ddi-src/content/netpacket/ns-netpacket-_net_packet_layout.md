@@ -108,6 +108,6 @@ The length of the Layer 4 header, or zero if the Layer 4 length is unknown.
 ## -remarks
 For more info about using this structure, see the **Layout** member of [NET_PACKET](ns-netpacket-_net_packet.md).
 
-The minimum NetAdapterCx version for **NET_PACKET_LAYOUT** is 1.0.
+
 
 ## -see-also

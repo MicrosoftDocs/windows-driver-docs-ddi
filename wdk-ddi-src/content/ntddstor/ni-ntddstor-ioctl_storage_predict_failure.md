@@ -93,7 +93,7 @@ The driver returns a <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 
-<text></text>
+
 
 
 
@@ -102,7 +102,7 @@ The driver returns a <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 
-<text></text>
+
 
 
 

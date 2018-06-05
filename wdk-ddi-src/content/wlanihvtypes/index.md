@@ -1,5 +1,6 @@
 ---
 UID: NA:wlanihvtypes
+author: windows-driver-content
 ms.assetid: 6258c9ed-f5f4-3dff-9988-ec39b4d12226
 ms.author: windowsdriverdev
 ms.date: 05/09/18

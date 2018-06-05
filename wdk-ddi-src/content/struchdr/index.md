@@ -1,5 +1,6 @@
 ---
 UID: NA:struchdr
+author: windows-driver-content
 ms.assetid: a061d852-61ca-3101-a67d-11194d2c20f1
 ms.author: windowsdriverdev
 ms.date: 05/09/18

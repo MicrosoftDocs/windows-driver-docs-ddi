@@ -1,5 +1,6 @@
 ---
 UID: NA:bdamedia
+author: windows-driver-content
 ms.assetid: e5093c55-273b-3721-852a-4f94c45d88bf
 ms.author: windowsdriverdev
 ms.date: 05/09/18

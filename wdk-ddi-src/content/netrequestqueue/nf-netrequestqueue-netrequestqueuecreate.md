@@ -71,7 +71,7 @@ The client driver typically calls this method from its *[EvtDriverDeviceAdd](../
 
 The NETREQUESTQUEUE object represents an OID queue in the traditional NDIS model.
 
-The minimum NetAdapterCx version for **NetRequestQueueCreate** is 1.0.
+
 
 ### Example
 Typically, the client creates a queue for regular (sequential) OIDs, and may optionally also create a second queue for direct (parallel) OIDs. This example shows how to create a sequential queue. Error handling has been omitted for clarify.

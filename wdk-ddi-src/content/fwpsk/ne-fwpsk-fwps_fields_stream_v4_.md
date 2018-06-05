@@ -88,17 +88,9 @@ The remote transport protocol port number.
 
 ### -field FWPS_FIELD_STREAM_V4_DIRECTION
 
+The possible values are:
 
-
-#####  The possible values are:
-
-
-
-#### FWP_DIRECTION_INBOUND
-
-
-
-#### FWP_DIRECTION_OUTBOUND
+<ul><li>FWP_DIRECTION_INBOUND</li><li>FWP_DIRECTION_OUTBOUND</li></ul>
 
 
 ### -field FWPS_FIELD_STREAM_V4_FLAGS

@@ -88,7 +88,7 @@ The device driver returns the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<text></text>
+
 
 
 
@@ -97,7 +97,7 @@ The device driver returns the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<text></text>
+
 
 
 

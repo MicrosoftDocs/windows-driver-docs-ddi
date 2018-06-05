@@ -1,5 +1,6 @@
 ---
 UID: TP:parports
+author: windows-driver-content
 ms.assetid: 38f4cf0c-2fc1-3909-83b7-bf354cf904c1
 ms.author: windowsdriverdev
 ms.date: 05/09/18

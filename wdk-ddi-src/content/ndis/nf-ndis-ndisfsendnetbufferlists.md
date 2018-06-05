@@ -69,8 +69,10 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 
 ### -param NetBufferList
 
-TBD
-
+A pointer to a linked list of 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures. Each
+     <b>NET_BUFFER_LIST</b> structure describes a list of 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures.
 
 ### -param PortNumber [in]
 
@@ -128,13 +130,6 @@ For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964
 
 <div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div>
 <div> </div>
-
-#### - NetBufferLists [in]
-
-A pointer to a linked list of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures. Each
-     <b>NET_BUFFER_LIST</b> structure describes a list of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures.
 
 
 ## -returns

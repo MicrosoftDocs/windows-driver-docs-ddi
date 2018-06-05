@@ -72,6 +72,11 @@ A handle to the context area for the filter module. The filter driver created an
 
 ### -param NetBufferList
 
+A pointer to a linked list of 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that the filter
+     driver passed to 
+     <a href="https://msdn.microsoft.com/fe0896ab-2d20-465f-a8bc-bfc0033701d6">
+  NdisFSendNetBufferLists</a>.
 
 ### -param SendCompleteFlags [in]
 
@@ -98,15 +103,6 @@ For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964
 <div> </div>
 <div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div>
 <div> </div>
-
-#### - NetBufferLists [in]
-
-A pointer to a linked list of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that the filter
-     driver passed to 
-     <a href="https://msdn.microsoft.com/fe0896ab-2d20-465f-a8bc-bfc0033701d6">
-  NdisFSendNetBufferLists</a>.
-
 
 ## -returns
 

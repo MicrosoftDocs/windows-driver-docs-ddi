@@ -70,7 +70,7 @@ The VRP <b>InputBuffer</b> contains the VIDEO_POINTER_POSITION structure to be s
 
 
 
-<text></text>
+
 
 
 
@@ -84,7 +84,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -102,7 +102,7 @@ None
 
 
 
-<text></text>
+
 
 
 

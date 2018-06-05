@@ -1,5 +1,6 @@
 ---
 UID: NA:usbfnbase
+author: windows-driver-content
 ms.assetid: f54db437-6d89-377b-8e79-ed49a7490c17
 ms.author: windowsdriverdev
 ms.date: 05/09/18

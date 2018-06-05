@@ -1,5 +1,6 @@
 ---
 UID: TP:gpio
+author: windows-driver-content
 ms.assetid: 808f4f69-8260-3b04-a82f-08c14310daa7
 ms.author: windowsdriverdev
 ms.date: 05/09/18

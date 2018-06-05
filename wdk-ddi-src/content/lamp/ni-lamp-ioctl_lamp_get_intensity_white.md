@@ -94,7 +94,7 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn93700
 
 
 
-<text></text>
+
 
 
 
@@ -103,7 +103,7 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn93700
 
 
 
-<text></text>
+
 
 
 

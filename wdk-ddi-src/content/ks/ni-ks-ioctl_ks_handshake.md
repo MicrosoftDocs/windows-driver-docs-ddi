@@ -87,7 +87,7 @@ The client places a pointer to a structure of type <a href="https://msdn.microso
 
 
 
-<text></text>
+
 
 
 
@@ -96,7 +96,7 @@ The client places a pointer to a structure of type <a href="https://msdn.microso
 
 
 
-<text></text>
+
 
 
 

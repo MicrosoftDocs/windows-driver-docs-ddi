@@ -55,10 +55,9 @@ req.typenames:
 
 <p class="note">Drivers should instead follow a hypervisor's instructions to query hypervisor presence and capabilities. For example, Hyper-V's instructions are documented in the <a href="https://docs.microsoft.com/virtualization/hyper-v-on-windows/reference/tlfs">Top-Level Functional Specification</a>.
 
-</div><div> </div>The 
-  <b>NdisGetHypervisorInfo</b> function returns information about the 
-  hypervisor that is present on the
-  system.
+</div>
+
+The <b>NdisGetHypervisorInfo</b> function returns information about the hypervisor that is present on the system.
 
 
 ## -parameters

@@ -208,8 +208,7 @@ A miniport driver should not call the
 If 
     <i>MiniportResetEx</i> must wait for state changes in the miniport adapter during reset operations, it can
     call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564568">NdisStallExecution</a> function. However, a
-    
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564568">NdisStallExecution</a> function. However, a    
     <i>MiniportResetEx</i> function must not call 
     <b>NdisStallExecution</b> with a time interval larger than 50 microseconds. If the driver must wait longer
     than 50 microseconds (or if would poll), it should set a timer instead and return
@@ -233,8 +232,7 @@ NDIS calls the
     <a href="https://msdn.microsoft.com/ead0af85-0584-49de-82cc-8a059ebfdf4f">MiniportCheckForHangEx</a> function
     periodically to determine whether it should call 
     <i>MiniportResetEx</i>. The default time-out for calling 
-    <i>MiniportCheckForHangEx</i> is 2 seconds. If this default is too short, a miniport driver can set a larger <b>CheckForHangTimeInSeconds</b> value when calling the
-    
+    <i>MiniportCheckForHangEx</i> is 2 seconds. If this default is too short, a miniport driver can set a larger <b>CheckForHangTimeInSeconds</b> value when calling the    
     <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
     NdisMSetMiniportAttributes</a> function during initialization. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/miniport-adapter-check-for-hang-and-reset-operations">Miniport Adapter Check-for-Hang and Reset Operations</a>.
 

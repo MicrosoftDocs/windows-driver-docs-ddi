@@ -61,10 +61,10 @@ A handle to the NETRXQUEUE object.
 The structure type name of a driver-defined structure that describes the contents of the packet's context space.
 
 ## -remarks
-In NetAdapterCx 1.1, the ability to add more than one packet context was introduced, meaning queues with more than one packet per context now require a **NET_PACKET_CONTEXT_TOKEN** to identify and retrieve each context. Call **NET_RXQUEUE_GET_PACKET_CONTEXT_TOKEN** to retrieve the token for a context type if your receive queue uses more than one context per packet.
+Queues with more than one packet per context require a **NET_PACKET_CONTEXT_TOKEN** to identify and retrieve each context. Call **NET_RXQUEUE_GET_PACKET_CONTEXT_TOKEN** to retrieve the token for a context type if your receive queue uses more than one context per packet.
 
 For an example of how to use this macro to retrieve a packet context token, see [NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME](../netadapterpacket/nf-netadapterpacket-net_packet_declare_context_type_with_name.md).
 
-The minimum NetAdapterCx version for **NET_RXQUEUE_GET_PACKET_CONTEXT_TOKEN** is 1.1.
+
 
 ## -see-also

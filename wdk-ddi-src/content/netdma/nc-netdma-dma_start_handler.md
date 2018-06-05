@@ -52,8 +52,9 @@ req.typenames:
 
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
 
-in Windows 8 and later.</div><div> </div>The 
-  <i>ProviderStartDma</i> function starts a DMA transfer on the specified DMA channel.
+in Windows 8 and later.</div>
+
+The <i>ProviderStartDma</i> function starts a DMA transfer on the specified DMA channel.
 
 
 ## -parameters

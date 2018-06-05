@@ -74,6 +74,6 @@ The client driver passes an initialized **NET_ADAPTER_LINK_LAYER_CAPABILITIES** 
 
 Call [NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT](nf-netadapter-net_adapter_link_layer_capabilities_init.md) to initialize this structure.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_LINK_LAYER_CAPABILITIES** is 1.1.
+
 
 ## -see-also

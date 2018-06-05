@@ -62,28 +62,12 @@ The
 
 ### -param _as
 
-TBD
-
-
-### -param s
-
-TBD
-
-
-
-
-
-
-#### - DestinationString [in, out]
-
 A pointer to a caller-allocated buffer in which this function should store the counted ANSI
      string.
 
-
-#### - SourceString [in]
+### -param s
 
 A pointer to a null-terminated string with which to initialize the counted string.
-
 
 ## -remarks
 

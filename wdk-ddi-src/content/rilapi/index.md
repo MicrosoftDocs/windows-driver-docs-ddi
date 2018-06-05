@@ -1,5 +1,6 @@
 ---
 UID: NA:rilapi
+author: windows-driver-content
 ms.assetid: 116743fe-9c7e-3dc4-bcad-a68b4eba9491
 ms.author: windowsdriverdev
 ms.date: 05/09/18
