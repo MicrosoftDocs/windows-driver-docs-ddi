@@ -84,7 +84,7 @@ The length of a NULL-terminated wide character string.
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ The length of a NULL-terminated wide character string.
 
 
 
-<text></text>
+
 
 
 

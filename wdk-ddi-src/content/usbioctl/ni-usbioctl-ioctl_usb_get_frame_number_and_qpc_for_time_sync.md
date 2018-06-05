@@ -62,7 +62,7 @@ Retrieves the system query performance counter (QPC) value  synchronized with th
 
 
 
-<text></text>
+
 
 
 
@@ -71,7 +71,7 @@ Retrieves the system query performance counter (QPC) value  synchronized with th
 
 
 
-<text></text>
+
 
 
 
@@ -80,7 +80,7 @@ Retrieves the system query performance counter (QPC) value  synchronized with th
 
 
 
-<text></text>
+
 
 
 
@@ -89,7 +89,7 @@ Retrieves the system query performance counter (QPC) value  synchronized with th
 
 
 
-<text></text>
+
 
 
 

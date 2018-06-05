@@ -95,7 +95,7 @@ If the size of the passed output buffer is not exactly <code>sizeof(BTH_DEVICE_I
 
 
 
-<text></text>
+
 
 
 
@@ -104,7 +104,7 @@ If the size of the passed output buffer is not exactly <code>sizeof(BTH_DEVICE_I
 
 
 
-<text></text>
+
 
 
 

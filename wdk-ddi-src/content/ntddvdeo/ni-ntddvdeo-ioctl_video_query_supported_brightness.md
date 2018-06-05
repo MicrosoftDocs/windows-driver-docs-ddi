@@ -65,7 +65,7 @@ This IOCTL is not handled by video miniport drivers. It is handled entirely by t
 
 
 
-<text></text>
+
 
 
 
@@ -74,7 +74,7 @@ This IOCTL is not handled by video miniport drivers. It is handled entirely by t
 
 
 
-<text></text>
+
 
 
 
@@ -83,7 +83,7 @@ This IOCTL is not handled by video miniport drivers. It is handled entirely by t
 
 
 
-<text></text>
+
 
 
 
@@ -92,7 +92,7 @@ This IOCTL is not handled by video miniport drivers. It is handled entirely by t
 
 
 
-<text></text>
+
 
 
 
@@ -101,7 +101,7 @@ This IOCTL is not handled by video miniport drivers. It is handled entirely by t
 
 
 
-<text></text>
+
 
 
 
@@ -110,7 +110,7 @@ This IOCTL is not handled by video miniport drivers. It is handled entirely by t
 
 
 
-<text></text>
+
 
 
 

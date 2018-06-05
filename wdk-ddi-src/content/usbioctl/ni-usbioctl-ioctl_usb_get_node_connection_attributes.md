@@ -92,7 +92,7 @@ On output, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 
 
-<text></text>
+
 
 
 
@@ -101,7 +101,7 @@ On output, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 
 
-<text></text>
+
 
 
 

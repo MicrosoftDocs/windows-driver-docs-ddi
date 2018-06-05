@@ -84,7 +84,7 @@ sizeof(NFCRM_RADIO_STATE)
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ sizeof(NFCRM_RADIO_STATE)
 
 
 
-<text></text>
+
 
 
 

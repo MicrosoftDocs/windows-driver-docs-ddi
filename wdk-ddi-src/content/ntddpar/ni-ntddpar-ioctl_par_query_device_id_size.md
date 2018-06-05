@@ -90,7 +90,7 @@ The length of a <a href="..\ntddpar\ns-ntddpar-_par_device_id_size_information.m
 
 
 
-<text></text>
+
 
 
 
@@ -99,7 +99,7 @@ The length of a <a href="..\ntddpar\ns-ntddpar-_par_device_id_size_information.m
 
 
 
-<text></text>
+
 
 
 

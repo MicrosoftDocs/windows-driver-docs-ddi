@@ -87,7 +87,7 @@ The driver returns the query data in the buffer at <b>Irp-&gt;AssociatedIrp.Syst
 
 
 
-<text></text>
+
 
 
 
@@ -96,7 +96,7 @@ The driver returns the query data in the buffer at <b>Irp-&gt;AssociatedIrp.Syst
 
 
 
-<text></text>
+
 
 
 

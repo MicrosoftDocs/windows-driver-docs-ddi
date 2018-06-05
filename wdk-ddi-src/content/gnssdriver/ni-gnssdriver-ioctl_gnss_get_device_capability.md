@@ -82,7 +82,7 @@ Set to sizeof(GNSS_DEVICE_CAPABILITY).
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ Set to sizeof(GNSS_DEVICE_CAPABILITY).
 
 
 
-<text></text>
+
 
 
 

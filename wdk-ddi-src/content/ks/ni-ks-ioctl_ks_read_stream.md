@@ -82,7 +82,7 @@ Stream data is returned in the buffers pointed to by the stream headers.  Upon r
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ Stream data is returned in the buffers pointed to by the stream headers.  Upon r
 
 
 
-<text></text>
+
 
 
 

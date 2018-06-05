@@ -85,7 +85,7 @@ Size of the output buffer, or zero if a data transfer is not being requested.
 
 
 
-<text></text>
+
 
 
 
@@ -94,7 +94,7 @@ Size of the output buffer, or zero if a data transfer is not being requested.
 
 
 
-<text></text>
+
 
 
 

@@ -95,7 +95,7 @@ For an ACL Data packet, it is FIELD_OFFSET(BTHX_HCI_READ_WRITE_CONTEXT, Data) + 
 
 
 
-<text></text>
+
 
 
 
@@ -104,7 +104,7 @@ For an ACL Data packet, it is FIELD_OFFSET(BTHX_HCI_READ_WRITE_CONTEXT, Data) + 
 
 
 
-<text></text>
+
 
 
 

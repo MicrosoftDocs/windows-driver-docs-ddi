@@ -82,7 +82,7 @@ The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187
 
 
 
-<text></text>
+
 
 
 

@@ -69,7 +69,7 @@ The <b>IOCTL_NFCSE_SET_CARD_EMULATION_MODE</b>
 
 
 
-<text></text>
+
 
 
 
@@ -83,7 +83,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -92,7 +92,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -101,7 +101,7 @@ None
 
 
 
-<text></text>
+
 
 
 

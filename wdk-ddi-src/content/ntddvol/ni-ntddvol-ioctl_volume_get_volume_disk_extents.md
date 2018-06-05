@@ -85,7 +85,7 @@ The length of a VOLUME_DISK_EXTENTS structure.
 
 
 
-<text></text>
+
 
 
 
@@ -94,7 +94,7 @@ The length of a VOLUME_DISK_EXTENTS structure.
 
 
 
-<text></text>
+
 
 
 

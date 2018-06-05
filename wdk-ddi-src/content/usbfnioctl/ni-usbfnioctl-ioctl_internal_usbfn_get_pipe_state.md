@@ -83,7 +83,7 @@ The size of a <b>BOOLEAN</b>.
 
 
 
-<text></text>
+
 
 
 
@@ -92,7 +92,7 @@ The size of a <b>BOOLEAN</b>.
 
 
 
-<text></text>
+
 
 
 

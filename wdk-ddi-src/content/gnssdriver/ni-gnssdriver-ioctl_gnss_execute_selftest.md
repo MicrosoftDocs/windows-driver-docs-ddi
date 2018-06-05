@@ -88,7 +88,7 @@ Set to sizeof(GNSS_SELFTESTRESULT).
 
 
 
-<text></text>
+
 
 
 
@@ -97,7 +97,7 @@ Set to sizeof(GNSS_SELFTESTRESULT).
 
 
 
-<text></text>
+
 
 
 

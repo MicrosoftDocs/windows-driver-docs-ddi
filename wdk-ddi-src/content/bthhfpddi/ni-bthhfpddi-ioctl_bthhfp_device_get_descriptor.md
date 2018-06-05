@@ -83,7 +83,7 @@ The size of a <b>BTHHFP_DESCRIPTOR</b> structure and referenced data.
 
 
 
-<text></text>
+
 
 
 
@@ -92,7 +92,7 @@ The size of a <b>BTHHFP_DESCRIPTOR</b> structure and referenced data.
 
 
 
-<text></text>
+
 
 
 

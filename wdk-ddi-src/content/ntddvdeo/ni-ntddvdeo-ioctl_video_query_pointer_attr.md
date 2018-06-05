@@ -70,7 +70,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -84,7 +84,7 @@ The miniport driver returns a VIDEO_POINTER_ATTRIBUTES structure in the VRP <b>O
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ The miniport driver returns a VIDEO_POINTER_ATTRIBUTES structure in the VRP <b>O
 
 
 
-<text></text>
+
 
 
 
@@ -102,7 +102,7 @@ The miniport driver returns a VIDEO_POINTER_ATTRIBUTES structure in the VRP <b>O
 
 
 
-<text></text>
+
 
 
 

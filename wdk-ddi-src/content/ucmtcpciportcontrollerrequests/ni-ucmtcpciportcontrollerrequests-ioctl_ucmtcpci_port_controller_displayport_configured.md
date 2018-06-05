@@ -72,7 +72,7 @@ The size of <a href="https://msdn.microsoft.com/library/windows/hardware/mt80587
 
 
 
-<text></text>
+
 
 
 
@@ -81,7 +81,7 @@ The size of <a href="https://msdn.microsoft.com/library/windows/hardware/mt80587
 
 
 
-<text></text>
+
 
 
 
@@ -90,7 +90,7 @@ The size of <a href="https://msdn.microsoft.com/library/windows/hardware/mt80587
 
 
 
-<text></text>
+
 
 
 
@@ -99,7 +99,7 @@ The size of <a href="https://msdn.microsoft.com/library/windows/hardware/mt80587
 
 
 
-<text></text>
+
 
 
 

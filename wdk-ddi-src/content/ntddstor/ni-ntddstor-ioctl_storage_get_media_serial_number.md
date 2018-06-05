@@ -85,7 +85,7 @@ The driver returns the serial number of the indicated device in a structure of t
 
 
 
-<text></text>
+
 
 
 
@@ -94,7 +94,7 @@ The driver returns the serial number of the indicated device in a structure of t
 
 
 
-<text></text>
+
 
 
 
