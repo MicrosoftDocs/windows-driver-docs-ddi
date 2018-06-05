@@ -93,7 +93,7 @@ If this flag is set, the minifilter is not unloaded in response to service stop 
 </dl>
 </td>
 <td width="60%">
-If this flag is set,  the minifilter will support filtering of named pipe and mailslot requests.
+If this flag is set,  the minifilter will support filtering of named pipe and mailslot requests. This flag was introduced in Windows 8.
 
 </td>
 </tr>
