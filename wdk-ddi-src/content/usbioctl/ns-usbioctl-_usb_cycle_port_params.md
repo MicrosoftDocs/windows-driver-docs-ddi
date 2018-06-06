@@ -50,10 +50,7 @@ req.typenames: USB_CYCLE_PORT_PARAMS, *PUSB_CYCLE_PORT_PARAMS
 ## -description
 
 
-The <b>USB_CYCLE_PORT_PARAMS</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537340">IOCTL_USB_HUB_CYCLE_PORT</a> I/O control request to power cycle the port that is associated with the PDO that receives the request.<div class="alert"><b>Note</b>  <a href="https://msdn.microsoft.com/library/windows/hardware/ff537340">IOCTL_USB_HUB_CYCLE_PORT</a> has been deprecated in Windows Vista and later operating systems. Do not use. 
-</div>
-<div> </div>
-
+The <b>USB_CYCLE_PORT_PARAMS</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537340">IOCTL_USB_HUB_CYCLE_PORT</a> I/O control request to power cycle the port that is associated with the PDO that receives the request.
 
 
 ## -struct-fields
@@ -80,7 +77,6 @@ On return, contains the USBD status of the operation.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
  
 
  
