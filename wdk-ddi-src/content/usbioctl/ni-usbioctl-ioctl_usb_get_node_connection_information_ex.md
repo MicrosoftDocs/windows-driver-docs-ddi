@@ -67,38 +67,34 @@ Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure. On input, the <b>ConnectionIndex</b> member of this structure must contain a number greater than or equal to 1 that indicates the number of the port whose connection information is to be reported. The hub driver returns connection information in the remaining members of <b>USB_NODE_CONNECTION_INFORMATION_EX</b>.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure.
+
 
 
 ### -output-buffer
 
-The USB hub driver will return information about the indicated connection in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure that is pointed to by <b>AssociatedIrp.SystemBuffer</b>.
+
 
 
 ### -output-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure.
 
 
 ### -in-out-buffer
 
 
+On input, the <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure. The <b>ConnectionIndex</b> member of this structure must contain a number greater than or equal to 1 that indicates the number of the port whose connection information is to be reported. The hub driver returns connection information in the remaining members of <b>USB_NODE_CONNECTION_INFORMATION_EX</b>.
 
-
-
+On output, the USB hub driver returns information about the indicated connection in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure.
 
 
 
 ### -inout-buffer-length
 
-
-
-
+The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure.
 
 
 
@@ -106,6 +102,65 @@ The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540
 ### -status-block
 
 The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
+
+## remarks
+
+Here is an example that shows how to get the speed of the hub port by sending this request.
+
+The function specifies the symbolic link to hub device and port index to query. On return, pPortSpeed indicates:
+- Port speed
+- SPEED_PATHERROR: if unable to open path.
+- SPEED_IOCTLERROR: Hub IOCTL failed.
+
+void GetPortSpeed(const WCHAR *Path, ULONG PortIndex, UCHAR *pPortSpeed)
+
+{
+    if (Path == NULL) { return; }
+
+    HANDLE handle = CreateFile(
+                            Path,
+                            GENERIC_WRITE | GENERIC_READ,
+                            FILE_SHARE_WRITE | FILE_SHARE_READ,
+                            NULL,
+                            OPEN_EXISTING,
+                            NULL,
+                            NULL
+                        );
+
+    if (handle == INVALID_HANDLE_VALUE)
+    {
+      *pPortSpeed = SPEED_PATHERROR;
+      return;
+    }
+
+    PUSB_NODE_CONNECTION_INFORMATION_EX ConnectionInfo =
+                    (PUSB_NODE_CONNECTION_INFORMATION_EX)
+                    malloc(sizeof(USB_NODE_CONNECTION_INFORMATION_EX));
+
+    ConnectionInfo->ConnectionIndex = PortIndex;
+
+    ULONG bytes = 0;
+    BOOL success = DeviceIoControl(handle,
+                              IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX,
+                              ConnectionInfo,
+                              sizeof(USB_NODE_CONNECTION_INFORMATION_EX),
+                              ConnectionInfo,
+                              sizeof(USB_NODE_CONNECTION_INFORMATION_EX),
+                              &bytes,
+                              NULL);
+
+    CloseHandle(handle);
+
+    if (success == FALSE)
+    {
+      *pPortSpeed = SPEED_IOCTLERROR;
+      return;
+    }
+
+    *pPortSpeed = (UCHAR)ConnectionInfo->Speed;
+}
+
+```
 
 
 ## -see-also
