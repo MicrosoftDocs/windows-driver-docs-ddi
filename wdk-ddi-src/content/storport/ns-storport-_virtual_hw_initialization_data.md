@@ -65,7 +65,19 @@ Specifies the size of this structure in bytes, as returned by <b>sizeof</b>(). T
 
 ### -field AdapterInterfaceType
 
-The Storport driver does not support legacy buses. Therefore, most of the adapter interface types that are used with the SCSI port driver are invalid for Storport drivers. In particular, Storport does not support Isa, Eisa, MicroChannel, and TurboChannel. Furthermore, unlike the SCSI port case, a virtual miniport driver that works with the Storport driver is not required to supply values for the <b>VendorIdLength</b>, <b>VendorId</b>, <b>DeviceIdLength</b>, and <b>DeviceId</b> members.
+For storport virtual miniport drivers, the value for **AdapterInterfaceType** will almost always be **internal**. This is because the Storport driver does not support legacy buses. 
+
+Note that because of this, most of the adapter interface types that are used with the SCSI port driver are invalid for Storport drivers. In particular, Storport does not support:
+* Isa
+* Eisa
+* MicroChannel
+* TurboChannel
+
+Additionally, unlike the SCSI port case, a virtual miniport driver that works with the Storport driver is not required to supply values for the following members:
+* **VendorIdLength**
+* **VendorId**
+* **DeviceIdLength**
+* **DeviceId**
 
 
 ### -field HwInitialize
