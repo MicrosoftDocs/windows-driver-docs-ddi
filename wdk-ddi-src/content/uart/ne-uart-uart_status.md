@@ -3,6 +3,7 @@ UID: NE:uart.UART_STATUS
 title: UART_STATUS
 author: windows-driver-content
 description: Defines values for the status of a UART operation.
+old-project: serports
 ms.assetid: 96750920-c761-499b-8ee9-39465e031d07
 ms.author: windowsdriverdev
 ms.date: 
