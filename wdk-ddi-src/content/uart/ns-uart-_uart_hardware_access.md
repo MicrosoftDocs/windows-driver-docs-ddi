@@ -3,6 +3,7 @@ UID: NS:uart._UART_HARDWARE_ACCESS
 title: _UART_HARDWARE_ACCESS
 author: windows-driver-content
 description: Contains I/O functions and the function pointers used by the serial drivers to access the device hardware.
+old-project: serports
 ms.assetid: c666e70b-c456-4fb8-baa7-487936801181
 ms.author: windowsdriverdev
 ms.date: 
