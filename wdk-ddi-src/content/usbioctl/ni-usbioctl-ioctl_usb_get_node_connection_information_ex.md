@@ -85,10 +85,11 @@ Client drivers must send this IOCTL at an IRQL of PASSIVE_LEVEL.
 
 ### -in-out-buffer
 
+Both input and output buffers point to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure.
+On input, the <b>ConnectionIndex</b> member of this structure must contain a number greater than or equal to 1 that indicates the number of the port whose connection information is to be reported. The hub driver returns connection information in the remaining members of <b>USB_NODE_CONNECTION_INFORMATION_EX</b>. 
+The IRP, the <b>AssociatedIrp.SystemBuffer</b> member points to the **USB_NODE_CONNECTION_INFORMATION_EX** structure.
 
-On input, the <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure. The <b>ConnectionIndex</b> member of this structure must contain a number greater than or equal to 1 that indicates the number of the port whose connection information is to be reported. The hub driver returns connection information in the remaining members of <b>USB_NODE_CONNECTION_INFORMATION_EX</b>.
-
-On output, the USB hub driver returns information about the indicated connection in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure.
+On output, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540094">USB_NODE_CONNECTION_INFORMATION_EX</a> structure receives information about the indicated connection from the USB hub driver.
 
 
 
