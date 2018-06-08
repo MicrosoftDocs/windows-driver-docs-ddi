@@ -139,6 +139,63 @@ sendStatus = WdfRequestSend(
 </tr>
 </table></span></div>
 
+The following code example illustrates how to send a PnP IRP_MN_QUERY_CAPABILITIES IRP to an IO target.
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>target = WdfDeviceGetIoTarget(Device);
+status = WdfRequestCreate(WDF_NO_OBJECT_ATTRIBUTES,
+                          target,
+                          &amp;request);
+if (!NT_SUCCESS(status)) {
+    // Log failure and leave
+}
+//
+// PnP IRPs must be initialized with STATUS_NOT_SUPPORTED
+//
+WDF_REQUEST_REUSE_PARAMS_INIT(&amp;reuse,
+                              WDF_REQUEST_REUSE_NO_FLAGS,
+                              STATUS_NOT_SUPPORTED);
+WdfRequestReuse(request, &reuse);
+
+
+//
+// Initialize device capabilities
+//
+RtlZeroMemory(Capabilities, sizeof(DEVICE_CAPABILITIES));
+Capabilities->Size = sizeof(DEVICE_CAPABILITIES);
+Capabilities->Version  =  1;
+Capabilities->Address  = (ULONG) -1;
+Capabilities->UINumber = (ULONG) -1;
+RtlZeroMemory(&stack, sizeof(stack));
+stack.MajorFunction = IRP_MJ_PNP;
+stack.MinorFunction = IRP_MN_QUERY_CAPABILITIES;
+stack.Parameters.DeviceCapabilities.Capabilities = Capabilities;
+
+WdfRequestWdmFormatUsingStackLocation(request, &amp;stack);
+
+WDF_REQUEST_SEND_OPTIONS_INIT(&options,
+                              WDF_REQUEST_SEND_OPTION_SYNCHRONOUS);
+
+if (WdfRequestSend(request, target, &amp;options) == FALSE) {
+    // Log failure
+}
+
+status = WdfRequestGetStatus(request);
+if (!NT_SUCCESS(status)) {
+    // Log failure
+}
+
+// Remember to delete the WDFREQUEST after creating it
+if (request != NULL) {
+    WdfObjectDelete(request);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 ## -see-also
