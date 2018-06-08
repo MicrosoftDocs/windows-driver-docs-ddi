@@ -3289,8 +3289,8 @@ The Intsafe.h header file in the Windows SDK defines a similar set of safe integ
 | [_PEP_COMPONENT_PLATFORM_CONSTRAINTS structure](..\pepfx\ns-pepfx-_pep_component_platform_constraints.md) | The PEP_COMPONENT_PLATFORM_CONSTRAINTS structure describes the lowest-powered Fx state of that a component can be in when the platform is in a particular idle state. |
 | [_PEP_COMPONENT_V2 structure](..\pep_x\ns-pep_x-_pep_component_v2.md) | The PEP_COMPONENT_V2 structure specifies the power state attributes of a component in the device. |
 | [_PEP_COMPONENT_V2 structure](..\pepfx\ns-pepfx-_pep_component_v2.md) | The PEP_COMPONENT_V2 structure specifies the power state attributes of a component in the device. |
-| [_PEP_COORDINATED_DEPENDENCY_OPTION structure](..\pep_x\ns-pep_x-_pep_coordinated_dependency_option.md) | The PEP_COORIDNATED_DEPENDENCY_OPTION structure describes a coordinated idle stateâ€™s dependency to the OS. |
-| [_PEP_COORDINATED_DEPENDENCY_OPTION structure](..\pepfx\ns-pepfx-_pep_coordinated_dependency_option.md) | The PEP_COORIDNATED_DEPENDENCY_OPTION structure describes a coordinated idle stateâ€™s dependency to the OS. |
+| [_PEP_COORDINATED_DEPENDENCY_OPTION structure](..\pep_x\ns-pep_x-_pep_coordinated_dependency_option.md) | The PEP_COORIDNATED_DEPENDENCY_OPTION structure describes a coordinated idle state's dependency to the OS. |
+| [_PEP_COORDINATED_DEPENDENCY_OPTION structure](..\pepfx\ns-pepfx-_pep_coordinated_dependency_option.md) | The PEP_COORIDNATED_DEPENDENCY_OPTION structure describes a coordinated idle state's dependency to the OS. |
 | [_PEP_COORDINATED_IDLE_STATE structure](..\pep_x\ns-pep_x-_pep_coordinated_idle_state.md) | The PEP_COORIDNATED_IDLE_STATE structure describes a coordinated idle state to the OS. |
 | [_PEP_COORDINATED_IDLE_STATE structure](..\pepfx\ns-pepfx-_pep_coordinated_idle_state.md) | The PEP_COORIDNATED_IDLE_STATE structure describes a coordinated idle state to the OS. |
 | [_PEP_CRASHDUMP_INFORMATION structure](..\pep_x\ns-pep_x-_pep_crashdump_information.md) | The PEP_CRASHDUMP_INFORMATION structure contains information about a crash-dump device. |

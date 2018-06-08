@@ -84,8 +84,8 @@ A multiplier. Use the following formula to translate the filter setting into the
 
 The multiplier enables the filter range to have a fractional step value.
 
-For example, a hue filter might have an actual range of [â€“180.0 … +180.0] with a step size of 0.25. The device would report the following range and multiplier:<ul>
-<li>Minimum: â€“720</li>
+For example, a hue filter might have an actual range of [-180.0 … +180.0] with a step size of 0.25. The device would report the following range and multiplier:<ul>
+<li>Minimum: -720</li>
 <li>Maximum: +720</li>
 <li>Multiplier: 0.25</li>
 </ul>
