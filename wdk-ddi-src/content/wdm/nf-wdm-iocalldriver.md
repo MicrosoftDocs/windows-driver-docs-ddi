@@ -58,28 +58,15 @@ The <b>IoCallDriver</b> routine sends an IRP to the driver associated with a spe
 
 
 
-### -param a
+### -param a [in]
 
-TBD
+Pointer to a device object, representing the target device for the requested I/O operation.
 
+### -param b [in, out]
 
-### -param b
-
-TBD
-
+Pointer to the [**IRP**](ns-wdm-_irp.md). 
 
 
-
-
-
-#### - DeviceObject [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff597563">device object</a>, representing the target device for the requested I/O operation.
-
-
-#### - Irp [in, out]
-
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>. 
 
 
 ## -remarks
