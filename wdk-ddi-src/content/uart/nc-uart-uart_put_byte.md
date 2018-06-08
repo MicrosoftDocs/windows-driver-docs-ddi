@@ -3,6 +3,7 @@ UID: NC:uart.UART_PUT_BYTE
 title: UART_PUT_BYTE
 author: windows-driver-content
 description:  Writes a data byte to the UART device.
+old-project: serports
 ms.assetid: d4db9a6d-b9ef-4b88-9f12-b4fe437eaa4b
 ms.author: windowsdriverdev
 ms.date: 
