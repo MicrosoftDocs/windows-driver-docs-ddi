@@ -104,7 +104,7 @@ The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540
 
 The USB stack sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS if the request is successful. Otherwise, the USB stack sets <b>Status</b> to the appropriate error condition, such as STATUS_INVALID_PARAMETER or STATUS_INSUFFICIENT_RESOURCES.
 
-## remarks
+## -remarks
 
 Here is an example that shows how to get the speed of the hub port by sending this request.
 
