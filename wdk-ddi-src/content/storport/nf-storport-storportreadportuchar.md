@@ -56,29 +56,12 @@ The <b>StorPortReadPortUchar</b> routine reads a value from a specified port add
 
 ## -parameters
 
+### -param h [in]
+
+A pointer to the hardware device extension.
 
 
-
-### -param h
-
-TBD
-
-
-### -param p
-
-TBD
-
-
-
-
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Port [in]
+### -param p [in]
 
 Pointer to the address from which to read. 
 
