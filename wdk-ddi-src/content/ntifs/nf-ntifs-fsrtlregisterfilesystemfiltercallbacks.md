@@ -92,6 +92,8 @@ This structure is defined as follows.
     PFS_FILTER_COMPLETION_CALLBACK PostAcquireForModifiedPageWriter;
     PFS_FILTER_CALLBACK PreReleaseForModifiedPageWriter;
     PFS_FILTER_COMPLETION_CALLBACK PostReleaseForModifiedPageWriter;
+    PFS_FILTER_CALLBACK PreQueryOpen;
+    PFS_FILTER_COMPLETION_CALLBACK PostQueryOpen;
 } FS_FILTER_CALLBACKS, *PFS_FILTER_CALLBACKS;</pre>
 </td>
 </tr>
@@ -532,8 +534,6 @@ One of the parameters is invalid.
 
 ## -remarks
 
-
-
 File system and file system filter drivers should call <b>FsRtlRegisterFileSystemFilterCallbacks</b> from the driver's <b>DriverEntry</b> routine.  
 
 File systems call <b>FsRtlRegisterFileSystemFilterCallbacks</b> to set the <b>PreAcquireForSectionSynchronization</b> callback member of the FS_FILTER_CALLBACKS structure instead of using the obsolete <b>AcquireFileForNtCreateSection</b>.
@@ -682,6 +682,23 @@ The modified page writer releases a file after writing a portion of the file to 
 
 </td>
 </tr>
+
+<tr>
+<td>
+TBD
+
+</td>
+<td>
+
+<dl>
+<dt>PreQueryOpen</dt>
+<dt>PostQueryOpen</dt>
+</dl>
+
+
+</td>
+</tr>
+
 </table>
  
 
