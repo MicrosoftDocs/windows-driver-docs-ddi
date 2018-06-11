@@ -59,48 +59,27 @@ The <b>StorPortReadRegisterBufferUshort</b> routine reads a value from a specifi
 
 
 
-### -param h
+### -param h [in]
 
-TBD
-
-
-### -param r
-
-TBD
+A pointer to the hardware device extension.
 
 
-### -param b
+### -param r [in]
 
-TBD
-
-
-### -param c
-
-TBD
+A pointer to the register where the data is to be read. 
 
 
+### -param b [in]
+
+A pointer to the buffer that receives the data that is read.
 
 
+### -param c [in]
 
-
-#### - Buffer [in]
-
-Pointer to the buffer that receives the data that is read.
-
-
-#### - Count [in]
-
-Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
+The number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
 
 #### - Register [in]
 
-Pointer to the register where the data is to be read. 
 
 
 ## -remarks

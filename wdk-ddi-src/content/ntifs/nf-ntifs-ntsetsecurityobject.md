@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwSetSecurityObject</b> routine sets an object's security state.
+The <b>NtSetSecurityObject</b> routine sets an object's security state.
 
 
 ## -parameters
@@ -127,7 +127,7 @@ Pointer to the security descriptor to be set for the object.
 
 
 
-<b>ZwSetSecurityObject</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
+<b>NtSetSecurityObject</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
 
 <table>
 <tr>
@@ -249,9 +249,9 @@ For more information about security and access control, see the documentation on
 
 Minifilters should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544538">FltSetSecurityObject</a> instead of <b>ZwSetSecurityObject</b>. 
 
-Callers of <b>ZwSetSecurityObject</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
+Callers of <b>NtSetSecurityObject</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwSetSecurityObject</b> function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557685">NtSetSecurityObject</a>" instead of "<b>ZwSetSecurityObject</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtSetSecurityObject</b> function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557685">NtSetSecurityObject</a>" instead of "<b>ZwSetSecurityObject</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
@@ -279,7 +279,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567066">ZwQuerySecurityObject</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567066">NtQuerySecurityObject</a>
  
 
  
