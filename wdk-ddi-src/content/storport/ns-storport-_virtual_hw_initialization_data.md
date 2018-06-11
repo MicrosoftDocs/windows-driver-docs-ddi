@@ -142,8 +142,12 @@ Reserved for system use.
 
 ### -field MapBuffers
 
-Not valid for virtual miniport drivers. The virtual miniport driver must map all data buffers into virtual address space.
-
+| Name | Description |
+| -- | -- |
+| STOR_MAP_NO_BUFFERS | Only maps buffer for SRB_FUNCTION_IO_CONTROL and SRB_FUNCTION_WMI. |
+| STOR_MAP_ALL_BUFFERS | Obsolete, same behavior as STOR_MAP_NON_READ_WRITE_BUFFERS. |
+| STOR_MAP_NON_READ_WRITE_BUFFERS | Maps buffer for IO requests except READ and WRITE. |
+| STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE | Maps buffer for all IO requests including READ and WRITE. Miniport drivers will typically use this setting. |
 
 ### -field NeedPhysicalAddresses
 
