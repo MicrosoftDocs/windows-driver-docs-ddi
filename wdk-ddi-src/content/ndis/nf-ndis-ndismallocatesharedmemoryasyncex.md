@@ -49,6 +49,12 @@ req.typenames:
 
 ## -description
 
+> [!CAUTION]
+> For ARM and ARM64 processors, we strongly recommend that NDIS driver writers use WDF DMA or WDM DMA instead of NDIS Scatter/Gather DMA. 
+>
+> For more information about WDF DMA, see [Handling DMA Operations in KMDF Drivers](https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-dma-operations-in-kmdf-drivers).
+>
+> For more information about WDM DMA, see the DMA-related child topics of [Managing Input/Output for Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-input-output-for-drivers).
 
 Miniport drivers call the 
   <b>NdisMAllocateSharedMemoryAsyncEx</b> function to allocate additional memory shared between the driver and
