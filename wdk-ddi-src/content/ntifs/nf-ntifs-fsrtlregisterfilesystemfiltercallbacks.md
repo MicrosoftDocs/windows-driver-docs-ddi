@@ -310,6 +310,7 @@ The filter parameter union is defined as follows:
     struct {
  FS_FILTER_SECTION_SYNC_TYPE SyncType;
  ULONG PageProtection;
+ PFS_FILTER_SECTION_SYNC_OUTPUT  OutputInformation;
     } AcquireForSectionSynchronization;
     struct {
         PVOID Argument1;
@@ -374,6 +375,21 @@ Type of page protection requested for the section. Must be zero if <i>SyncType</
 </td>
 </tr>
 <tr>
+
+<tr>
+<td>
+<i>OutputInformation</i>
+
+</td>
+<td>
+The extended output information for the section.
+</ul>
+
+
+</td>
+</tr>
+<tr>
+
 <td>
 <i>Argument1</i>
 
