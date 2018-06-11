@@ -446,8 +446,8 @@ The <b>FsRtlRegisterFileSystemFilterCallbacks</b> routine can return one of the 
 </td>
 <td width="60%">
 The callback routines were successfully registered. 
-
 </td>
+
 </tr>
 <tr>
 <td width="40%">
@@ -460,6 +460,43 @@ The callback routines were successfully registered.
 
 </td>
 </tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_FSFILTER_OP_COMPLETED_SUCCESSFULLY</b></dt>
+</dl>
+</td>
+<td width="60%">
+<b>FsRtlRegisterFileSystemFilterCallbacks</b> successfully completed an FsFilter operation. 
+
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_FILE_LOCKED_WITH_ONLY_READERS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The file was locked and all users of the file can only read.
+
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_FILE_LOCKED_WITH_WRITERS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The file was locked and at least one user of the file can write 
+
+</td>
+</tr>
+
 <tr>
 <td width="40%">
 <dl>
