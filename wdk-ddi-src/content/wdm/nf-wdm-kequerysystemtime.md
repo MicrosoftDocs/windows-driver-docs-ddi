@@ -60,7 +60,7 @@ The <b>KeQuerySystemTime</b> routine obtains the current system time.
 
 ### -param CurrentCount
 
-TBD
+Pointer to the current time on return from KeQuerySystemTime.
 
 
 
