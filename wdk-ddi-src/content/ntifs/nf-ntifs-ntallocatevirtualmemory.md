@@ -225,16 +225,7 @@ Execute and read access to the committed region of pages are allowed. An attempt
 
 </td>
 </tr>
-<tr>
-<td>
-PAGE_EXECUTE_READWRITE
 
-</td>
-<td>
-The specified private region is to be used for write-watch purposes.
-
-</td>
-</tr>
 <tr>
 <td>
 PAGE_GUARD
