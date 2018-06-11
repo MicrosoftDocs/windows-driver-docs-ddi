@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwQueryInformationFile</b> routine returns various kinds of information about a file object.
+The <b>NtQueryInformationFile</b> routine returns various kinds of information about a file object.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>ZwQueryInformationFile</b> routine returns various kinds of information a
 
 ### -param FileHandle [in]
 
-Handle to a file object. The handle is created by a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a>.
+Handle to a file object. The handle is created by a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">NtCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">NtOpenFile</a>.
 
 
 ### -param IoStatusBlock [out]
@@ -238,7 +238,7 @@ A <a href="https://msdn.microsoft.com/E1A82D24-A981-414A-83D8-E71F97E0301A">FILE
 
 
 
-<b>ZwQueryInformationFile </b>returns STATUS_SUCCESS or an appropriate NTSTATUS error code.
+<b>NtQueryInformationFile </b>returns STATUS_SUCCESS or an appropriate NTSTATUS error code.
 
 
 
@@ -247,25 +247,25 @@ A <a href="https://msdn.microsoft.com/E1A82D24-A981-414A-83D8-E71F97E0301A">FILE
 
 
 
-<b>ZwQueryInformationFile</b> returns information about the specified file object. Note that it returns zero in any member of a <b>FILE_<i>XXX</i>_INFORMATION</b> structure that is not supported by a particular device or file system.
+<b>NtQueryInformationFile</b> returns information about the specified file object. Note that it returns zero in any member of a <b>FILE_<i>XXX</i>_INFORMATION</b> structure that is not supported by a particular device or file system.
 
 When <i>FileInformationClass</i> = <b>FileNameInformation</b>, the file name is returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a> structure. The precise syntax of the file name depends on a number of factors:
 
 <ul>
 <li>
-If you opened the file by submitting a full path to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>, <b>ZwQueryInformationFile</b> returns that full path.
+If you opened the file by submitting a full path to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">NtCreateFile</a>, <b>NtQueryInformationFile</b> returns that full path.
 
 </li>
 <li>
-If the <b>ObjectAttributes-&gt;RootDirectory</b> handle was opened by name in a call to <b>ZwCreateFile</b>, and subsequently the file was opened by <b>ZwCreateFile</b> relative to this root-directory handle, <b>ZwQueryInformationFile</b> returns the full path.
+If the <b>ObjectAttributes-&gt;RootDirectory</b> handle was opened by name in a call to <b>NtCreateFile</b>, and subsequently the file was opened by <b>NtCreateFile</b> relative to this root-directory handle, <b>NtQueryInformationFile</b> returns the full path.
 
 </li>
 <li>
-If the <b>ObjectAttributes-&gt;RootDirectory</b> handle was opened by file ID (using the FILE_OPEN_BY_FILE_ID flag) in a call to <b>ZwCreateFile</b>, and subsequently the file was opened by <b>ZwCreateFile</b> relative to this root-directory handle, <b>ZwQueryInformationFile</b> returns the relative path. 
+If the <b>ObjectAttributes-&gt;RootDirectory</b> handle was opened by file ID (using the FILE_OPEN_BY_FILE_ID flag) in a call to <b>NtCreateFile</b>, and subsequently the file was opened by <b>NtCreateFile</b> relative to this root-directory handle, <b>NtQueryInformationFile</b> returns the relative path. 
 
 </li>
 <li>
-However, if the user has <b>SeChangeNotifyPrivilege</b> (described in the Microsoft Windows SDK documentation), <b>ZwQueryInformationFile</b> returns the full path in all cases.
+However, if the user has <b>SeChangeNotifyPrivilege</b> (described in the Microsoft Windows SDK documentation), <b>NtQueryInformationFile</b> returns the full path in all cases.
 
 </li>
 <li>
@@ -277,9 +277,9 @@ If the full path and file name are returned, the string will begin with a single
 
 </li>
 </ul>
-If <b>ZwQueryInformationFile</b> fails because of a buffer overflow, drivers that implement <b>FileNameInformation</b> should return as many WCHAR characters of the file name as will fit in the buffer and specify the full length that is required in the <i>FileNameLength</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a> structure. You should reissue the query by using the file name length so that you can retrieve the full file name. Drivers that do not follow this pattern might require a gradual increase in length until they retrieve the full file name. For more information about working with files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565384">Using Files in a Driver</a>.
+If <b>NtQueryInformationFile</b> fails because of a buffer overflow, drivers that implement <b>FileNameInformation</b> should return as many WCHAR characters of the file name as will fit in the buffer and specify the full length that is required in the <i>FileNameLength</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545817">FILE_NAME_INFORMATION</a> structure. You should reissue the query by using the file name length so that you can retrieve the full file name. Drivers that do not follow this pattern might require a gradual increase in length until they retrieve the full file name. For more information about working with files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565384">Using Files in a Driver</a>.
 
-Callers of <b>ZwQueryInformationFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
+Callers of <b>NtQueryInformationFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
 
 <div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtQueryInformationFile</b>" instead of "<b>ZwQueryInformationFile</b>".</div>
 <div> </div>
@@ -353,11 +353,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">NtCreateFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">NtSetInformationFile</a>
  
 
  
