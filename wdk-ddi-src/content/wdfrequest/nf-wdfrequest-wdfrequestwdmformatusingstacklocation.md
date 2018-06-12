@@ -112,7 +112,7 @@ BOOLEAN sendStatus;
 //
 WdfRequestWdmFormatUsingStackLocation(
                                       request,
-                                      &amp;ioStackLocation
+                                      &ioStackLocation
                                       );
 //
 // Assign a CompletionRoutine callback function.
@@ -138,16 +138,19 @@ The following code example illustrates how to send a PnP [IRP_MN_QUERY_CAPABILIT
 target = WdfDeviceGetIoTarget(Device);
 status = WdfRequestCreate(WDF_NO_OBJECT_ATTRIBUTES,
                           target,
-                          &amp;request);
+                          &request);
+
 if (!NT_SUCCESS(status)) {
     // Log failure and leave
 }
+
 //
 // PnP IRPs must be initialized with STATUS_NOT_SUPPORTED
 //
-WDF_REQUEST_REUSE_PARAMS_INIT(&amp;reuse,
+WDF_REQUEST_REUSE_PARAMS_INIT(&reuse,
                               WDF_REQUEST_REUSE_NO_FLAGS,
                               STATUS_NOT_SUPPORTED);
+
 WdfRequestReuse(request, &reuse);
 
 
@@ -164,16 +167,17 @@ stack.MajorFunction = IRP_MJ_PNP;
 stack.MinorFunction = IRP_MN_QUERY_CAPABILITIES;
 stack.Parameters.DeviceCapabilities.Capabilities = Capabilities;
 
-WdfRequestWdmFormatUsingStackLocation(request, &amp;stack);
+WdfRequestWdmFormatUsingStackLocation(request, &stack);
 
 WDF_REQUEST_SEND_OPTIONS_INIT(&options,
                               WDF_REQUEST_SEND_OPTION_SYNCHRONOUS);
 
-if (WdfRequestSend(request, target, &amp;options) == FALSE) {
+if (WdfRequestSend(request, target, &options) == FALSE) {
     // Log failure
 }
 
 status = WdfRequestGetStatus(request);
+
 if (!NT_SUCCESS(status)) {
     // Log failure
 }
