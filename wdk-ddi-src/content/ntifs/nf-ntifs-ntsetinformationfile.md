@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwSetInformationFile</b> routine changes various kinds of information about a file object.
+The <b>NtSetInformationFile</b> routine changes various kinds of information about a file object.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>ZwSetInformationFile</b> routine changes various kinds of information abo
 
 ### -param FileHandle [in]
 
-Handle to the file object. This handle is created by a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a>.
+Handle to the file object. This handle is created by a successful call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">NtCreateFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">NtOpenFile</a>.
 
 
 ### -param IoStatusBlock [out]
@@ -71,7 +71,7 @@ Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550
 
 ### -param FileInformation [in]
 
-Pointer to a buffer that contains the information to set for the file. The particular structure in this buffer is determined by the <i>FileInformationClass</i> parameter. Setting any member of the structure to zero tells <b>ZwSetInformationFile</b> to leave the current information about the file for that member unchanged.
+Pointer to a buffer that contains the information to set for the file. The particular structure in this buffer is determined by the <i>FileInformationClass</i> parameter. Setting any member of the structure to zero tells <b>NtSetInformationFile</b> to leave the current information about the file for that member unchanged.
 
 
 ### -param Length [in]
@@ -104,7 +104,7 @@ Change the information that is supplied in a <a href="https://msdn.microsoft.com
 
 </td>
 <td>
-Usually, sets the <b>DeleteFile</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545765">FILE_DISPOSITION_INFORMATION</a> to <b>TRUE</b>, so the file can be deleted when <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> is called to release the last open handle to the file object. The caller must have opened the file with the DELETE flag set in the <i>DesiredAccess</i> parameter.
+Usually, sets the <b>DeleteFile</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545765">FILE_DISPOSITION_INFORMATION</a> to <b>TRUE</b>, so the file can be deleted when <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">NtClose</a> is called to release the last open handle to the file object. The caller must have opened the file with the DELETE flag set in the <i>DesiredAccess</i> parameter.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Change or remove the I/O completion port for the specified file handle. The call
 
 
 
-<b>ZwSetInformationFile</b> returns STATUS_SUCCESS or an appropriate error status.
+<b>NtSetInformationFile</b> returns STATUS_SUCCESS or an appropriate error status.
 
 
 
@@ -207,17 +207,17 @@ Change or remove the I/O completion port for the specified file handle. The call
 
 
 
-<b>ZwSetInformationFile</b> changes information about a file. It ignores any member of a <b>FILE_<i>XXX</i>_INFORMATION</b> structure that is not supported by a particular device or file system.
+<b>NtSetInformationFile</b> changes information about a file. It ignores any member of a <b>FILE_<i>XXX</i>_INFORMATION</b> structure that is not supported by a particular device or file system.
 
-If you set <i>FileInformationClass</i> to <b>FileDispositionInformation</b>, you can subsequently pass <i>FileHandle</i> to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> but not to any other <b>Zw<i>Xxx</i>File</b> routine. Because <b>FileDispositionInformation</b> causes the file to be marked for deletion, it is a programming error to attempt any subsequent operation on the handle other than closing it.
+If you set <i>FileInformationClass</i> to <b>FileDispositionInformation</b>, you can subsequently pass <i>FileHandle</i> to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">NtClose</a> but not to any other <b>Zw<i>Xxx</i>File</b> routine. Because <b>FileDispositionInformation</b> causes the file to be marked for deletion, it is a programming error to attempt any subsequent operation on the handle other than closing it.
 
-If you set <i>FileInformationClass</i> to <b>FilePositionInformation</b>, and the preceding call to <b>ZwCreateFile</b> included the FILE_NO_INTERMEDIATE_BUFFERING flag in the <i>CreateOptions</i> parameter, certain restrictions on the <b>CurrentByteOffset</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545848">FILE_POSITION_INFORMATION</a> structure are enforced. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>.
+If you set <i>FileInformationClass</i> to <b>FilePositionInformation</b>, and the preceding call to <b>NtCreateFile</b> included the FILE_NO_INTERMEDIATE_BUFFERING flag in the <i>CreateOptions</i> parameter, certain restrictions on the <b>CurrentByteOffset</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545848">FILE_POSITION_INFORMATION</a> structure are enforced. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">NtCreateFile</a>.
 
-If you set <i>FileInformationClass</i> to <b>FileEndOfFileInformation</b>, and the <b>EndOfFile</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545780">FILE_END_OF_FILE_INFORMATION</a> specifies an offset beyond the current end-of-file mark, <b>ZwSetInformationFile</b> extends the file and pads the extension with zeros.
+If you set <i>FileInformationClass</i> to <b>FileEndOfFileInformation</b>, and the <b>EndOfFile</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff545780">FILE_END_OF_FILE_INFORMATION</a> specifies an offset beyond the current end-of-file mark, <b>NtSetInformationFile</b> extends the file and pads the extension with zeros.
 
 For more information about working with files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565384">Using Files in a Driver</a>.
 
-Callers of <b>ZwSetInformationFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
+Callers of <b>NtSetInformationFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
 
 <div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtSetInformationFile</b>" instead of "<b>ZwSetInformationFile</b>".</div>
 <div> </div>

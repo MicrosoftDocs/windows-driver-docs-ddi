@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwDuplicateToken</b> function creates a handle to a new <a href="http://go.microsoft.com/fwlink/p/?linkid=96098">access token</a> that duplicates an existing token. This function can create either a primary token or an impersonation token. 
+The <b>NtDuplicateToken</b> function creates a handle to a new <a href="http://go.microsoft.com/fwlink/p/?linkid=96098">access token</a> that duplicates an existing token. This function can create either a primary token or an impersonation token. 
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A handle to an existing access token that was opened with the TOKEN_DUPLICATE ac
 
 ### -param DesiredAccess [in]
 
-Bitmask that specifies the requested access rights for the new token. <b>ZwDuplicateToken</b> compares the requested access rights with the existing token's discretionary access control list (DACL) to determine which rights are granted or denied to the new token. To request the same access rights as the existing token, specify zero. To request all access rights that are valid for the caller, specify MAXIMUM_ALLOWED. This parameter is optional and can either be zero, MAXIMUM_ALLOWED, or a bitwise OR combination of one or more of the following values:
+Bitmask that specifies the requested access rights for the new token. <b>NtDuplicateToken</b> compares the requested access rights with the existing token's discretionary access control list (DACL) to determine which rights are granted or denied to the new token. To request the same access rights as the existing token, specify zero. To request all access rights that are valid for the caller, specify MAXIMUM_ALLOWED. This parameter is optional and can either be zero, MAXIMUM_ALLOWED, or a bitwise OR combination of one or more of the following values:
 
 <table>
 <tr>
@@ -350,7 +350,7 @@ Specifies one of the following values from the <a href="https://msdn.microsoft.c
 
 </td>
 <td>
-The new token is a primary token. If the existing token is an impersonation token, the existing impersonation token must have an impersonation level (as provided by the <i>ObjectAttributes</i> parameter) of <b>SecurityImpersonation</b> or <b>SecurityDelegation</b>. Otherwise, <b>ZwDuplicateToken</b> returns STATUS_BAD_IMPERSONATION_LEVEL is returned.
+The new token is a primary token. If the existing token is an impersonation token, the existing impersonation token must have an impersonation level (as provided by the <i>ObjectAttributes</i> parameter) of <b>SecurityImpersonation</b> or <b>SecurityDelegation</b>. Otherwise, <b>NtDuplicateToken</b> returns STATUS_BAD_IMPERSONATION_LEVEL is returned.
 
 </td>
 </tr>
@@ -360,7 +360,7 @@ The new token is a primary token. If the existing token is an impersonation toke
 
 </td>
 <td>
-The new token is an impersonation token. If the existing token is an impersonation token, the requested impersonation level (as provided by the <i>ObjectAttributes</i> parameter) of the new token must not be greater than the impersonation level of the existing token. Otherwise, <b>ZwDuplicateToken </b>returns STATUS_BAD_IMPERSONATION_LEVEL.
+The new token is an impersonation token. If the existing token is an impersonation token, the requested impersonation level (as provided by the <i>ObjectAttributes</i> parameter) of the new token must not be greater than the impersonation level of the existing token. Otherwise, <b>NtDuplicateToken </b>returns STATUS_BAD_IMPERSONATION_LEVEL.
 
 </td>
 </tr>
@@ -379,7 +379,7 @@ A pointer to a caller-allocated variable, of type HANDLE, that receives a handle
 
 
 
-<b>ZwDuplicateToken</b> returns STATUS_SUCCESS if the call is successfull. Possible error return codes include the following:
+<b>NtDuplicateToken</b> returns STATUS_SUCCESS if the call is successfull. Possible error return codes include the following:
 
 <table>
 <tr>
@@ -393,7 +393,7 @@ A pointer to a caller-allocated variable, of type HANDLE, that receives a handle
 </dl>
 </td>
 <td width="60%">
-A memory access violation occurred. For example, if the previous mode was user-mode and invalid user-mode memory was provided, <b>ZwDuplicateToken</b> returns STATUS_ACCESS_VIOLATION. 
+A memory access violation occurred. For example, if the previous mode was user-mode and invalid user-mode memory was provided, <b>NtDuplicateToken</b> returns STATUS_ACCESS_VIOLATION. 
 
 </td>
 </tr>
@@ -437,7 +437,7 @@ The requested impersonation level for the new token is greater than the imperson
 </dl>
 </td>
 <td width="60%">
-<b>ZwDuplicateToken</b> returns STATUS_ACCESS_DENIED if it couldn't access <i>ExistingTokenHandle</i>. This would occur if the existing token does not have the TOKEN_DUPLICATE access right. 
+<b>NtDuplicateToken</b> returns STATUS_ACCESS_DENIED if it couldn't access <i>ExistingTokenHandle</i>. This would occur if the existing token does not have the TOKEN_DUPLICATE access right. 
 
 </td>
 </tr>
@@ -448,7 +448,7 @@ The requested impersonation level for the new token is greater than the imperson
 </dl>
 </td>
 <td width="60%">
-<b>ZwDuplicateToken</b> returns STATUS_INVALID_HANDLE if <i>ExistingTokenHandle</i> refers to an invalid handle. 
+<b>NtDuplicateToken</b> returns STATUS_INVALID_HANDLE if <i>ExistingTokenHandle</i> refers to an invalid handle. 
 
 </td>
 </tr>
@@ -468,11 +468,11 @@ With regard to the structure pointed to by the optional <i>ObjectAttributes</i> 
 
 <div class="alert"><b>Note</b>    The <b>SecurityQualityOfService</b> member must be set <u>after</u> calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547804">InitializeObjectAttributes</a> macro because <b>InitializeObjectAttributes</b> currently sets <b>SecurityQualityOfService</b> to <b>NULL</b>.</div>
 <div> </div>
-For information on the user-mode analog of <b>ZwDuplicateToken</b>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=91047">DuplicateTokenEx</a> in the Windows SDK documentation.
+For information on the user-mode analog of <b>NtDuplicateToken</b>, see <a href="http://go.microsoft.com/fwlink/p/?linkid=91047">DuplicateTokenEx</a> in the Windows SDK documentation.
 
-When you have finished using the new token, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> function to close the token handle.
+When you have finished using the new token, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">NtClose</a> function to close the token handle.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwDuplicateToken</b> function occurs in user mode, you should use the name "<b>NtDuplicateToken</b>" instead of "<b>ZwDuplicateToken</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtDuplicateToken</b> function occurs in user mode, you should use the name "<b>NtDuplicateToken</b>" instead of "<b>NtDuplicateToken</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 

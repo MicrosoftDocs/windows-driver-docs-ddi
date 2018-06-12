@@ -2,7 +2,7 @@
 UID: NS:ntifs._FILE_STAT_LX_INFORMATION
 title: _FILE_STAT_LX_INFORMATION
 author: windows-driver-content
-description: 
+description: The _FILE_STAT_LX_INFORMATION structure contains metadata about a file.
 ms.assetid: dc897c81-2268-44bc-943e-1f494eba4a68
 ms.author: windowsdriverdev
 ms.date: 

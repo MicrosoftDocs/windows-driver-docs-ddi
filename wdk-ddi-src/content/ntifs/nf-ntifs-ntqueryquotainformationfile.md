@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwQueryQuotaInformationFile</b> routine retrieves quota entries associated with the volume specified by the <i>FileHandle</i> parameter. 
+The <b>NtQueryQuotaInformationFile</b> routine retrieves quota entries associated with the volume specified by the <i>FileHandle</i> parameter. 
 
 
 ## -parameters
@@ -101,14 +101,14 @@ An optional pointer to the <b>SID</b> of the entry at which to begin scanning th
 
 ### -param RestartScan [in]
 
-A Boolean value that indicates whether the scan of the quota information is to be restarted from the beginning. Set this parameter to <b>TRUE</b> if the scan of the quota information is to start at the first entry in the volume's quota information list. Set to <b>FALSE</b> if resuming the scan from a previous call to <b>ZwQueryQuotaInformationFile</b>. The caller must set this parameter to <b>TRUE</b> when calling <b>ZwQueryQuotaInformationFile</b> for the first time.
+A Boolean value that indicates whether the scan of the quota information is to be restarted from the beginning. Set this parameter to <b>TRUE</b> if the scan of the quota information is to start at the first entry in the volume's quota information list. Set to <b>FALSE</b> if resuming the scan from a previous call to <b>NtQueryQuotaInformationFile</b>. The caller must set this parameter to <b>TRUE</b> when calling <b>NtQueryQuotaInformationFile</b> for the first time.
 
 
 ## -returns
 
 
 
-The <b>ZwQueryQuotaInformationFile</b> routine returns STATUS_SUCCESS if at least one <a href="https://msdn.microsoft.com/library/windows/hardware/ff540342">FILE_QUOTA_INFORMATION</a> structure is returned in the <i>Buffer</i> parameter or an appropriate NTSTATUS value such as one of the following:
+The <b>NtQueryQuotaInformationFile</b> routine returns STATUS_SUCCESS if at least one <a href="https://msdn.microsoft.com/library/windows/hardware/ff540342">FILE_QUOTA_INFORMATION</a> structure is returned in the <i>Buffer</i> parameter or an appropriate NTSTATUS value such as one of the following:
 
 <table>
 <tr>
@@ -169,13 +169,13 @@ The<i> SidList</i> parameter did not contain a valid, properly formed list. This
 
 
 
-The amount of information returned by <b>ZwQueryQuotaInformationFile</b> is based on the size of the quota information associated with the volume, the size of the buffer, and whether a specific set of entries has been requested.
+The amount of information returned by <b>NtQueryQuotaInformationFile</b> is based on the size of the quota information associated with the volume, the size of the buffer, and whether a specific set of entries has been requested.
 
-A call to <b>ZwQueryQuotaInformationFile</b> will result in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a> request being sent to the device object that is associated with the file object whose handle is stored in the <i>FileHandle</i> parameter.
+A call to <b>NtQueryQuotaInformationFile</b> will result in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a> request being sent to the device object that is associated with the file object whose handle is stored in the <i>FileHandle</i> parameter.
 
-If the underlying file system does not support quota information (FAT and CDFS file systems, for example), <b>ZwQueryQuotaInformationFile</b> will fail returning STATUS_INVALID_DEVICE_REQUEST.
+If the underlying file system does not support quota information (FAT and CDFS file systems, for example), <b>NtQueryQuotaInformationFile</b> will fail returning STATUS_INVALID_DEVICE_REQUEST.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwQueryQuotaInformationFile</b> function occurs in user mode, you should use the name "<b>NtQueryQuotaInformationFile</b>" instead of "<b>ZwQueryQuotaInformationFile</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtQueryQuotaInformationFile</b> function occurs in user mode, you should use the name "<b>NtQueryQuotaInformationFile</b>" instead of "<b>ZwQueryQuotaInformationFile</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 

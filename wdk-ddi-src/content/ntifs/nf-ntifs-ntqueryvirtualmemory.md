@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwQueryVirtualMemory</b> routine determines the state,
+The <b>NtQueryVirtualMemory</b> routine determines the state,
     protection, and type of a region of pages within the virtual address
     space of the subject process.
 
@@ -63,7 +63,7 @@ The <b>ZwQueryVirtualMemory</b> routine determines the state,
 
 ### -param ProcessHandle [in]
 
-A handle for the process in whose context the pages to be queried reside. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566431">ZwCurrentProcess</a> macro to specify the current process.
+A handle for the process in whose context the pages to be queried reside. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566431">NtCurrentProcess</a> macro to specify the current process.
 
 
 
