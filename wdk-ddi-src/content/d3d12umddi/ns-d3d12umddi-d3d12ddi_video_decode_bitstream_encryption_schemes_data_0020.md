@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -87,7 +87,7 @@ A pointer to a list of supported encryption schemes.  The calling application al
 
 
 
-<a href="https://msdn.microsoft.com/BD3DFB48-9470-45CC-93BC-A918FD43DC3F">pfnGetBitstreamEncryptionSchemeCount</a>
+[pfnGetBitstreamEncryptionSchemeCount](nc-d3d12umddi-pfnd3d12ddi_video_get_bitstream_encryption_scheme_count_0020.md)
  
 
  
