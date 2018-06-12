@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>MmSecureVirtualMemory</b> routine secures a user-space memory address range so that it cannot be freed and its page protection  cannot be made more restrictive.
+The <b>MmSecureVirtualMemory</b> routine secures a user-space memory address range so that it cannot be freed and its page protection cannot be made more restrictive.
 
 
 ## -parameters
@@ -91,11 +91,9 @@ On success, <b>MmSecureVirtualMemory</b> returns an opaque pointer value that th
 ## -remarks
 
 
-
-<b>MmSecureVirtualMemory</b> can be used to avoid certain race conditions on user-mode buffers. For example, if a driver checks to see if the buffer is writable, but then the originating user-mode process changes the buffer to be read-only before the driver can write to the buffer, then a race condition can result. The driver can use <b>MmSecureVirtualMemory</b> with PAGE_READWRITE probe mode to guarantee that the buffer will remain writable until the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556395">MmUnsecureVirtualMemory</a>. The routine also protects against the originating user-mode process freeing the buffer. Here are a few guidelines about calling those routines:<ul>
+<b>MmSecureVirtualMemory</b> can be used to avoid certain race conditions on user-mode buffers. For example, if a driver checks to see if the buffer is writable, but then the originating user-mode process changes the buffer to be read-only before the driver can write to the buffer, then a race condition can result. The driver can use <b>MmSecureVirtualMemory</b> with PAGE_READWRITE probe mode to guarantee that the buffer will remain writable until the driver calls <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff556395">MmUnsecureVirtualMemory</a></b>. The routine also protects against the originating user-mode process freeing the buffer. Here are a few guidelines about calling these routines:<ul>
 <li>
-<b>MmSecureVirtualMemory(PAGE_READONLY)</b> does not guarantee that the buffer will remain read-only. The read-only probe mode prevents the user from changing the protection of the buffer to PAGE_NOACCESS. It does <i>not</i> prevent changing the protection to PAGE_READWRITE (or PAGE_WRITECOPY, for mapped views).
-
+Calling <b>MmSecureVirtualMemory</b> with PAGE_READONLY does not guarantee that the buffer will remain read-only. The read-only probe mode prevents the user from changing the protection of the buffer to PAGE_NOACCESS. It does <i>not</i> prevent changing the protection to PAGE_READWRITE (or PAGE_WRITECOPY, for mapped views).
 </li>
 <li>
 If a driver calls <b>MmSecureVirtualMemory</b> and does not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff556395">MmUnsecureVirtualMemory</a>, the memory is automatically unsecured when the process terminates.
@@ -116,7 +114,7 @@ To detect process termination drivers can use <a href="https://msdn.microsoft.co
 </ul>
 
 
-While <b>MmSecureVirtualMemory</b> can be used to guarantee that reading or writing user memory will not raise an exception due to insufficient page permissions, it does not protect against other types of exceptions. For example, it does not protect against exceptions raised when the system finds a bad disk block in the page file. Therefore, drivers must still wrap all user memory accesses in a <b>try/except</b> block. Because of this, we recommend that drivers do not use this function. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546823">Handling Exceptions</a>. 
+While <b>MmSecureVirtualMemory</b> can be used to guarantee that reading or writing user memory will not raise an exception due to insufficient page permissions, it does not protect against other types of exceptions. For example, it does not protect against exceptions raised when the system finds a bad disk block in the page file. Therefore, drivers must still wrap all user memory accesses in a <b>try/except</b> block. Because of this, we recommend that drivers do not use this function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-exceptions">Handling Exceptions</a>. 
 
 
 
