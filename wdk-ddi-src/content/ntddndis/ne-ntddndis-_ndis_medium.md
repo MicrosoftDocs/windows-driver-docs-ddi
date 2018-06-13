@@ -176,6 +176,8 @@ Specifies an NDIS loopback network.
 
 ### -field NdisMediumWiMAX
 
+Specifies an IEEE 802.16 WiMAX network.
+
 
 ### -field NdisMediumIP
 
