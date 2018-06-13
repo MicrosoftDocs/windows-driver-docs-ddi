@@ -59,16 +59,7 @@ The <b>FltAcquirePushLockExclusive</b> routine acquires the given push lock for 
 
 
 
-### -param Lock
-
-TBD
-
-
-
-
-
-
-#### - PushLock [in, out]
+### -param PushLock [in, out]
 
 Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
 
