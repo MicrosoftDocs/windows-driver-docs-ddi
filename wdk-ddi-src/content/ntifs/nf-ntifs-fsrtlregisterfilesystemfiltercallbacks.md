@@ -368,10 +368,20 @@ Type of synchronization requested for the section: SyncTypeCreateSection if a se
 </td>
 <td>
 Type of page protection requested for the section. Must be zero if <i>SyncType</i> is SyncTypeOther. Otherwise, one of the following flags, possibly ORed with PAGE_NOCACHE: <ul>
+<li>PAGE_NOACCESS</li>
 <li>PAGE_READONLY</li>
 <li>PAGE_READWRITE</li>
 <li>PAGE_WRITECOPY</li>
+
+
 <li>PAGE_EXECUTE</li>
+<li>PAGE_EXECUTE_READ</li>
+<li>PAGE_EXECUTE_READWRITE</li>
+<li>PAGE_EXECUTE_WRITECOPY</li>
+
+<li>PAGE_GUARD</li>
+<li>PAGE_NOCACHE</li>
+<li>PAGE_WRITECOMBINE</li>
 </ul>
 
 
