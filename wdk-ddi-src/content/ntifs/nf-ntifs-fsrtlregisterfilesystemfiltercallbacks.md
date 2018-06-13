@@ -245,6 +245,7 @@ File system operation for which the callback routine is to be invoked. This oper
 <li>FS_FILTER_RELEASE_FOR_MOD_WRITE</li>
 <li>FS_FILTER_ACQUIRE_FOR_CC_FLUSH</li>
 <li>FS_FILTER_RELEASE_FOR_CC_FLUSH</li>
+<li>FS_FILTER_QUERY_OPEN</li>
 </ul>
 
 
