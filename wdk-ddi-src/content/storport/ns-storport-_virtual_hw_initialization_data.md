@@ -171,7 +171,7 @@ Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the virtual mi
 
 ### -field ReceiveEvent
 
-Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the virtual miniport driver supports receive events.
+This value is no longer used, and can be set to either **TRUE** or **FALSE**.
 
 
 ### -field VendorIdLength
