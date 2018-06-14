@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020
 ## -description
 
 
-Data structure for D3D12DDICAPS_VIDEO_PROCESS_REFERENCE_INFO capability check.  Retrieves the number of past and future frames required for a given deinterlace mode.
+Retrieves the number of past and future frames required for a given deinterlace mode. This structure is for the D3D12DDICAPS_VIDEO_PROCESS_REFERENCE_INFO capability check in [D3D12DDICAPS_TYPE_VIDEO_0020](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md).
 
 
 ## -struct-fields
@@ -65,37 +65,37 @@ In multi-adapter operation, this indicates which physical adapter of the device 
 
 ### -field DeinterlaceMode
 
-The deinterlacing mode for which to retrieve the number of past and future frames.  Only a single mode may be queried at once.  For more information, see the <a href="https://msdn.microsoft.com/7E34CCE5-A771-4EBE-A09B-79424405BFF3">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a> enumeration.
+The deinterlacing mode for which to retrieve the number of past and future frames. Only a single mode may be queried at once. See the [D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md) enumeration for a list of modes.
 
 
 ### -field Filters
 
-The filters for which to retrieve the number of past and future frames.  You can specify multiple filters may be specified.  For more information, see the <a href="https://msdn.microsoft.com/28662E87-F6A4-42B0-9BF0-49A6C65B245C">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.
+The filters for which to retrieve the number of past and future frames. Multiple filters may be specified. For more information, see the [D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md) enumeration.
 
 
 ### -field FeatureSupport
 
-The features for which to retrieve the number of past and future frames.  For more information, see the  <a href="https://msdn.microsoft.com/6DBF48B1-44C7-4C53-8488-F1217E6FAA1C">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a> enumeration. 
+The features for which to retrieve the number of past and future frames. For more information, see the [D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_feature_support_flags_0020.md) enumeration.
 
 
 ### -field InputFrameRate
 
- 
+The input rate of the stream.
 
 
 ### -field OutputFrameRate
 
- 
+The output rate of the stream.
 
 
 ### -field EnableAutoProcessing
 
-Whether automatic processing is used. 
+Whether automatic processing is used. TRUE if auto processing is used.
 
 
 ### -field PastFrames
 
-The number of past reference frames required to support this processing. 
+The number of past reference frames required to support this processing.
 
 
 ### -field FutureFrames
@@ -103,30 +103,21 @@ The number of past reference frames required to support this processing.
 The number of future reference frames required to support this processing.
 
 
-#### - InputRate
-
-The input rate of the stream. 
-
-
-#### - OutputRate
-
-The output rate of the stream.
-
 
 ## -see-also
 
 
 
 
-<a href="https://msdn.microsoft.com/7E34CCE5-A771-4EBE-A09B-79424405BFF3">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
+[D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020.md)
 
 
 
-<a href="https://msdn.microsoft.com/6DBF48B1-44C7-4C53-8488-F1217E6FAA1C">D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS</a>
+[D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_feature_support_flags_0020.md)
 
 
 
-<a href="https://msdn.microsoft.com/28662E87-F6A4-42B0-9BF0-49A6C65B245C">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
+[D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS](ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020.md)
  
 
  

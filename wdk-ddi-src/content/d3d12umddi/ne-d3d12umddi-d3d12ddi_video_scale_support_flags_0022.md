@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,18 +60,35 @@ Contains the options for video scale support.
 
 ### -field D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0022_NONE
 
+All possible output size width/height combinations that exist between the Max size and Min size for the extent, inclusive, are supported.
 
 ### -field D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0022_POW2_ONLY
 
-The scaler supports only output sizes at a pow2 scale factors within the range.  The x and y scale factors must be the same for both dimensions when this flag is set.
+The scaler supports only output sizes at a pow2 scale factors within the range. The x and y scale factors must be the same for both dimensions when this flag is set.
 
+The following is an example that iterates over the supported output sizes for one dimension when this flag is set:
+
+```c
+bool OutputSizeSupported(UINT Size, UINT Max, UINT Min)
+{
+    UINT CurrentSize = Max;
+    while (CurrentSize >= Min)
+    {
+        if (CurrentSize == Size)
+        {
+            return true;
+        }
+
+        CurrentSize = (CurrentSize + 1) / 2;
+    }
+
+    return false;
+}
+```
 
 ### -field D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0022_EVEN_DIMENSIONS_ONLY
 
 The scaler supports only output sizes that have even output dimensions.
 
 
-#### - D3D12DDI_VIDEO_SCALE_SUPPORT_FLAG_0020_NONE
-
-All possible output size width/height combinations that exist between the maximum size and minimum size for the extent, inclusive, are supported.  
 

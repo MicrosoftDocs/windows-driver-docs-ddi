@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033
 ## -description
 
 
-The video decoder heap size data.
+Retrieves the memory allocation size of a video decoder heap created with the given properties. This structure is for the D3D12DDICAPS_TYPE_VIDEO_0032_DECODER_HEAP_SIZE capability check in [D3D12DDICAPS_TYPE_VIDEO_0020](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md).
 
 
 ## -struct-fields
@@ -60,15 +60,15 @@ The video decoder heap size data.
 
 ### -field VideoDecoderHeapDesc
 
-The video decoder heap description.
+The creation properties for a video decoder heap.  Driver should map these creation properties to size.
 
 
 ### -field MemoryPoolL0Size
 
-The memory pool L0 size.
+The L0 size of the heap object. Memory Pool L0 is the memory pool “closest” to the GPU. In the case of UMA adapters, this is the amount of system memory used. For discrete adapters, this is the amount of discrete memory used.
 
 
 ### -field MemoryPoolL1Size
 
-The memory pool L1 size.
+The L1 size of the heap object. Memory Pool L1 is the memory pool “second closest” to the GPU. In the case of UMA adapters, this value is zero. In the case of discrete adapters, this is the amount of system memory used.
 
