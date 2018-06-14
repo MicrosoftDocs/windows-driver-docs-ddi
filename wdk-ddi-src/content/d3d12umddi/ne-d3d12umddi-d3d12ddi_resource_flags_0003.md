@@ -90,12 +90,12 @@ Shader resource.
 
 ### -field D3D12DDI_RESOURCE_FLAG_0020_VIDEO_DECODE_REFERENCE_ONLY
 
-Video decode reference only.
+This resource may only be used as a decode reference frame. It may only be written to or read by the video decode operation.
 
 
 ### -field D3D12DDI_RESOURCE_FLAG_0020_CONTENT_PROTECTION
 
-Content protection.
+The resource supports content protection.
 
 
 ### -field D3D12DDI_RESOURCE_FLAG_0022_UNORDERED_ACCESS

@@ -56,12 +56,9 @@ The <b>FltAcquirePushLockShared</b> routine acquires the given push lock for sha
 
 ## -parameters
 
-
-
-
 ### -param Lock [in, out]
 
-Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
+Opaque push lock pointer of type **PEX_PUSH_LOCK**. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
 
 
 ## -remarks

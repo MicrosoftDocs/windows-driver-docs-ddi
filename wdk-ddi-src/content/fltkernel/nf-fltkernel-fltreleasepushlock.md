@@ -60,7 +60,7 @@ The <b>FltReleasePushLock</b> routine releases a specified push lock owned by th
 
 ### -param Lock [in, out]
 
-Opaque push lock pointer. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
+Opaque push lock pointer of type **PEX_PUSH_LOCK**. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543297">FltInitializePushLock</a>. 
 
 
 ## -remarks

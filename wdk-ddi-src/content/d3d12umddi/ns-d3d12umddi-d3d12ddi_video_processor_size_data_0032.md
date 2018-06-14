@@ -49,7 +49,7 @@ req.typenames: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0032
 
 ## -description
 
-Data structure for the D3D12DDICAPS_TYPE_VIDEO_0032_PROCESSOR_SIZE capability check.  Retrieves the memory allocation size of a video processor created with the given properties.
+Retrieves the memory allocation size of a video processor created with the given properties. This structure is for the D3D12DDICAPS_TYPE_VIDEO_0032_PROCESSOR_SIZE capability check in [D3D12DDICAPS_TYPE_VIDEO_0020](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md).
 
 
 ## -struct-fields
