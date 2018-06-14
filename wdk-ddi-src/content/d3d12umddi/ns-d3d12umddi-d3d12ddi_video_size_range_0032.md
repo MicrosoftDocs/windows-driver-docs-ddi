@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,9 +50,7 @@ req.typenames: D3D12DDI_VIDEO_SIZE_RANGE_0032
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-Video size range.
+Describes a supported range of output sizes for a scaler.
 
 
 ## -struct-fields
@@ -62,20 +60,31 @@ Video size range.
 
 ### -field MaxWidth
 
-Maximum width.
+The largest output Width that can be scaled to. The largest value allowed is D3D12_REQ_TEXTURE2D_U_OR_V_DIMENSION (16384).
 
 
 ### -field MaxHeight
 
-Maximum height.
+The largest output Height that can be scaled to. The largest value allowed is D3D12_REQ_TEXTURE2D_U_OR_V_DIMENSION (16384).
 
 
 ### -field MinWidth
 
-Minimum width.
+The smallest output Width that can be scaled to. The smallest allowed value is 1.
 
 
 ### -field MinHeight
 
-Minimum height.
+The smallest output Height that can be scaled to. The smallest allowed value is 1.
 
+
+## -remarks
+
+By default, the supported range indicates all possible output size combinations that exist between the Max size and Min size for the extent, ScaleSupportFlags may add additional caveats.
+
+When scaling is not supported, the Min and Max sizes should both be set to the input size and no flags specified.
+
+
+## -see-also
+
+[D3D12DDI_VIDEO_SCALE_SUPPORT_0032 structure](ns-d3d12umddi-d3d12ddi_video_scale_support_0032.md)
