@@ -100,7 +100,7 @@ Retrieves the number of past and future frames required for a given deinterlace 
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0032_DECODER_HEAP_SIZE
 
-The video decoder heap size. Maps to the [D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033](ns-d3d12umddi-d3d12ddi_video_decoder_heap_size_data_0033.md) structure.
+The video decoder heap size. Maps to the [D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033](ns-d3d12umddi-d3d12ddi_video_decoder_heap_size_data_0033.md) structure. The size of the video decoder heap is static at compile time.
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0032_PROCESSOR_SIZE
 

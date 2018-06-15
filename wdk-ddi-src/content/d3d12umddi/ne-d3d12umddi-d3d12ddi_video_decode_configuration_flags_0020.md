@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS_0020
 ## -description
 
 
-Contains video decode configuration flags. 
+Contains video decode configuration flags.
 
 
 ## -enum-fields
@@ -70,7 +70,7 @@ Indicates that the height of the output decoded surfaces must be a multiple of 3
 
 ### -field D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAG_0020_POST_PROCESSING_SUPPORTED
 
-Indicates that the driver supports post processing. If this flag is set, the host decoder can set up post-processing by using the conversion flags in <a href="https://msdn.microsoft.com/01288B0F-4095-4642-9DA9-4E14B0BCBB18">D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS</a>. 
+Indicates that the driver supports post processing. If this flag is set, the host decoder can set up post-processing by using the conversion flags in <a href="https://msdn.microsoft.com/01288B0F-4095-4642-9DA9-4E14B0BCBB18">D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS</a>.
 
 
 ### -field D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAG_0020_REFERENCE_ONLY_ALLOCATIONS_REQUIRED
@@ -80,3 +80,4 @@ Indicates that reference resources must be allocated with the <b>D3D12DDI_RESOUR
 
 ### -field D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAG_0032_ALLOW_RESOLUTION_CHANGE_ON_NON_KEY_FRAME
 
+Indicates that the driver supports resolution change on non-key frames.
