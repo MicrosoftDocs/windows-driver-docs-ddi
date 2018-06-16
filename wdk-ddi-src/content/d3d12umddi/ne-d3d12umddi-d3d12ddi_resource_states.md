@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_RESOURCE_STATES
 ## -description
 
 
-Contains resource states. 
+Contains resource states. Resource barriers allow transitioning between hardware specific states for a corresponding operation and to synchronize read after write. Resource barriers are an existing concept in D3D12 that is extended to support video decode and video process by adding these usage flags.
 
 
 ## -enum-fields
@@ -60,7 +60,7 @@ Contains resource states.
 
 ### -field D3D12DDI_RESOURCE_STATE_COMMON
 
-Common. 
+Common.
 
 
 ### -field D3D12DDI_RESOURCE_STATE_VERTEX_AND_CONSTANT_BUFFER
@@ -85,7 +85,7 @@ Unordered access.
 
 ### -field D3D12DDI_RESOURCE_STATE_DEPTH_WRITE
 
-Depth write. 
+Depth write.
 
 
 ### -field D3D12DDI_RESOURCE_STATE_DEPTH_READ
@@ -125,7 +125,7 @@ Copy source.
 
 ### -field D3D12DDI_RESOURCE_STATE_RESOLVE_DEST
 
-Resolve destination. 
+Resolve destination.
 
 
 ### -field D3D12DDI_RESOURCE_STATE_RESOLVE_SOURCE
@@ -135,12 +135,12 @@ Resolve source.
 
 ### -field D3D12DDI_RESOURCE_STATE_0020_VIDEO_DECODE_READ
 
-Video decode read.
+Video decode read. The read state is used for reading references during decode and also used for inputs to process frame. This state is only valid in the decode and process command list.
 
 
 ### -field D3D12DDI_RESOURCE_STATE_0020_VIDEO_DECODE_WRITE
 
-Video decode write.
+Video decode write. The write state is used for the decode target, or destination surface of the process frame. The write state is also used when decode conversion is enabled for the non-converted reference. This state is only valid in the decode and process command list.
 
 
 ### -field D3D12DDI_RESOURCE_STATE_0020_VIDEO_PROCESS_READ
@@ -157,7 +157,7 @@ Video process write.
 
 
 
-Resource barriers allow transitioning between hardware specific states for a corresponding operation and to synchronize read after write.  
+Resource barriers allow transitioning between hardware specific states for a corresponding operation and to synchronize read after write.
 
 Resource barriers are an existing concept in D3D12 that is extended to support video decode by adding new usage flags.
 The write state is used for the decode target.  The write state is also used when decode conversion is enabled for the non-converted reference.
