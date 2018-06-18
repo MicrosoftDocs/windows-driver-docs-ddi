@@ -60,12 +60,12 @@ Video decode statistics for a query.
 
 ### -field Status
 
-Specifies the status of an operation as a <a href="https://msdn.microsoft.com/E7A3944D-142E-450C-B9EE-9190BF264C60">D3D12DDI_VIDEO_DECODE_STATUS</a> value.
+Specifies the status of an operation as a [D3D12DDI_VIDEO_DECODE_STATUS](ne-d3d12umddi-d3d12ddi_video_decode_status_0020.md) value. This value is extended to 64bits to accommodate predication.
 
 
 ### -field NumMacroblocksAffected
 
-The number of blocks affected. If the <b>Status</b> value  is not 0, this member contains an estimate from the accelerator of the number of super-blocks in the decoded frame that were adversely affected by the reported problem. If the accelerator does not provide an estimate, the value is 0xFFFFFFFFFFFFFFFF.
+The number of blocks affected. If the <b>Status</b> value is not 0, this member contains an estimate from the accelerator of the number of super-blocks in the decoded frame that were adversely affected by the reported problem. If the accelerator does not provide an estimate, the value is `0xFFFFFFFFFFFFFFFF`.
 
 
 ### -field FrameRate

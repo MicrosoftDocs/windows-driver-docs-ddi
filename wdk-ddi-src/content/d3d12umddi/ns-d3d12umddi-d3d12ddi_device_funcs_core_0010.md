@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,12 +60,12 @@ Contains core functions.
 
 ### -field pfnCheckFormatSupport
 
-A function that checks format support.
+A function that checks format support. See [pfnCheckFormatSupport](nc-d3d12umddi-pfnd3d12ddi_checkformatsupport.md).
 
 
 ### -field pfnCheckMultisampleQualityLevels
 
-A function that checks multi-sample quality levels. 
+A function that checks multi-sample quality levels. See [PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS](nc-d3d12umddi-pfnd3d12ddi_checkmultisamplequalitylevels.md)
 
 
 ### -field pfnGetMipPacking
@@ -75,12 +75,12 @@ A function that gets MIP packing.
 
 ### -field pfnCalcPrivateElementLayoutSize
 
-A function that calculates layout size for a private element. 
+A function that calculates layout size for a private element.
 
 
 ### -field pfnCreateElementLayout
 
-A function that creates an element layout. 
+A function that creates an element layout.
 
 
 ### -field pfnDestroyElementLayout
@@ -105,7 +105,7 @@ A function that destroys a blend state.
 
 ### -field pfnCalcPrivateDepthStencilStateSize
 
-A function that calculates the size of the state of a private depth stencil. 
+A function that calculates the size of the state of a private depth stencil.
 
 
 ### -field pfnCreateDepthStencilState
@@ -120,7 +120,7 @@ A function that destroys a depth stencil state.
 
 ### -field pfnCalcPrivateRasterizerStateSize
 
-A function that calculates the size of a private rasterizer state. 
+A function that calculates the size of a private rasterizer state.
 
 
 ### -field pfnCreateRasterizerState
@@ -135,12 +135,12 @@ A function that destroys a rasterizer state.
 
 ### -field pfnCalcPrivateShaderSize
 
-A function that calculates the size of a private shader. 
+A function that calculates the size of a private shader.
 
 
 ### -field pfnCreateVertexShader
 
-A function that creates a vertex shader. 
+A function that creates a vertex shader.
 
 
 ### -field pfnCreatePixelShader
@@ -155,22 +155,22 @@ A function that creates a geometry shader.
 
 ### -field pfnCreateComputeShader
 
-A function that creates a compute shader. 
+A function that creates a compute shader.
 
 
 ### -field pfnCalcPrivateGeometryShaderWithStreamOutput
 
-A function that calculates a private geometry shader with stream output. 
+A function that calculates a private geometry shader with stream output.
 
 
 ### -field pfnCreateGeometryShaderWithStreamOutput
 
-A function that creates a private geometry shader with stream output. 
+A function that creates a private geometry shader with stream output.
 
 
 ### -field pfnCalcPrivateTessellationShaderSize
 
-A function that creates private tessellation shader size. 
+A function that creates private tessellation shader size.
 
 
 ### -field pfnCreateHullShader
@@ -215,12 +215,12 @@ A function that creates a command allocator.
 
 ### -field pfnDestroyCommandAllocator
 
-A function that destroys a command allocator. 
+A function that destroys a command allocator.
 
 
 ### -field pfnResetCommandAllocator
 
-A function that resets a command allocator. 
+A function that resets a command allocator.
 
 
 ### -field pfnCalcPrivatePipelineStateSize
@@ -250,12 +250,12 @@ A function that creates a command list.
 
 ### -field pfnDestroyCommandList
 
-A function that destroys a command list. 
+A function that destroys a command list.
 
 
 ### -field pfnCalcPrivateFenceSize
 
-A function that calculates a private fence size. 
+A function that calculates a private fence size.
 
 
 ### -field pfnCreateFence
@@ -265,7 +265,7 @@ A function that creates a fence.
 
 ### -field pfnDestroyFence
 
-A function that destroys a fence. 
+A function that destroys a fence.
 
 
 ### -field pfnCalcPrivateDescriptorHeapSize
@@ -280,7 +280,7 @@ A function that creates a descriptor heap.
 
 ### -field pfnDestroyDescriptorHeap
 
-A function that destroys a descriptor heap. 
+A function that destroys a descriptor heap.
 
 
 ### -field pfnGetDescriptorSizeInBytes
@@ -290,7 +290,7 @@ A function that gets the descriptor size, in bytes.
 
 ### -field pfnGetCPUDescriptorHandleForHeapStart
 
-A function that gets a CPU descriptor handle. 
+A function that gets a CPU descriptor handle.
 
 
 ### -field pfnGetGPUDescriptorHandleForHeapStart
@@ -300,12 +300,12 @@ A function that gets a GPU descriptor handle.
 
 ### -field pfnCreateShaderResourceView
 
-A function that creates a shader resource view. 
+A function that creates a shader resource view.
 
 
 ### -field pfnCreateConstantBufferView
 
-A function that creates a constant buffer view. 
+A function that creates a constant buffer view.
 
 
 ### -field pfnCreateSampler
@@ -315,32 +315,32 @@ A function that creates a sampler.
 
 ### -field pfnCreateUnorderedAccessView
 
-A function that creates an unordered access view. 
+A function that creates an unordered access view.
 
 
 ### -field pfnCreateRenderTargetView
 
-A function that creates a render target view. 
+A function that creates a render target view.
 
 
 ### -field pfnCreateDepthStencilView
 
-A function that creates a depth stencil view. 
+A function that creates a depth stencil view.
 
 
 ### -field pfnCalcPrivateRootSignatureSize
 
-A function that calculates the size of a private root signature. 
+A function that calculates the size of a private root signature.
 
 
 ### -field pfnCreateRootSignature
 
-A function that creates a root signature. 
+A function that creates a root signature.
 
 
 ### -field pfnDestroyRootSignature
 
-A function that destroys a root signature. 
+A function that destroys a root signature.
 
 
 ### -field pfnMapHeap
@@ -355,47 +355,47 @@ A function that unmaps a heap.
 
 ### -field pfnCalcPrivateHeapAndResourceSizes
 
-A function that calculates sizes for private heap and resource. 
+A function that calculates sizes for private heap and resource.
 
 
 ### -field pfnCreateHeapAndResource
 
-A function that create a heap and resource. 
+A function that create a heap and resource.
 
 
 ### -field pfnDestroyHeapAndResource
 
-A function that destroys a heap and resource. 
+A function that destroys a heap and resource.
 
 
 ### -field pfnMakeResident
 
-A function that makes a resident. 
+A function that makes a resident.
 
 
 ### -field pfnEvict
 
-A function that evicts. 
+A function that evicts.
 
 
 ### -field pfnCalcPrivateOpenedHeapAndResourceSizes
 
-A function that calculates sizes for private opened heap and resources. 
+A function that calculates sizes for private opened heap and resources.
 
 
 ### -field pfnOpenHeapAndResource
 
-A function that opens a heap and resource. 
+A function that opens a heap and resource.
 
 
 ### -field pfnCopyDescriptors
 
-A function that copies descriptors. 
+A function that copies descriptors.
 
 
 ### -field pfnCopyDescriptorsSimple
 
-A function that does a simple copy of descriptors. 
+A function that does a simple copy of descriptors.
 
 
 ### -field pfnCalcPrivateQueryHeapSize
@@ -410,22 +410,22 @@ A function that creates a query heap.
 
 ### -field pfnDestroyQueryHeap
 
-A function that destroys a query heap. 
+A function that destroys a query heap.
 
 
 ### -field pfnCalcPrivateCommandSignatureSize
 
-A function that calculates the size of a private command signature. 
+A function that calculates the size of a private command signature.
 
 
 ### -field pfnCreateCommandSignature
 
-A function that creates a command signature. 
+A function that creates a command signature.
 
 
 ### -field pfnDestroyCommandSignature
 
-A function that destroys a command signature. 
+A function that destroys a command signature.
 
 
 ### -field pfnCheckResourceVirtualAddress
@@ -440,7 +440,7 @@ A function that checks allocation information of a resource.
 
 ### -field pfnCheckSubresourceInfo
 
-A function that checks information of a subresource. 
+A function that checks information of a subresource.
 
 
 ### -field pfnCheckExistingResourceAllocationInfo
@@ -455,7 +455,7 @@ A function that offers resources.
 
 ### -field pfnReclaimResources
 
-A function that reclaims resources. 
+A function that reclaims resources.
 
 
 ### -field pfnGetImplicitPhysicalAdapterMask
@@ -465,7 +465,7 @@ A function that gets an implicit physical adapter mask.
 
 ### -field pfnGetPresentPrivateDriverDataSize
 
-A function that gets the present size of private driver data. 
+A function that gets the present size of private driver data.
 
 
 ### -field pfnQueryNodeMap
@@ -475,12 +475,12 @@ A function that queries a node map.
 
 ### -field pfnRetrieveShaderComment
 
-A function that retrieves a shader comment. 
+A function that retrieves a shader comment.
 
 
 ### -field pfnCheckResourceAllocationHandle
 
-A function that checks a resource allocation handle. 
+A function that checks a resource allocation handle.
 
 
 ### -field pfnCalcPrivatePipelineLibrarySize
@@ -510,7 +510,7 @@ A function that calculates the size of a serialized library.
 
 ### -field pfnSerializeLibrary
 
-A function that serializes a library. 
+A function that serializes a library.
 
 
 ## -see-also
