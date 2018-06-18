@@ -133,6 +133,11 @@ Specifies a very high-throughput (VHT) 802.11ac PHY.
 
 ### -field dot11_phy_type_dmg
 
+Specifies an 802.11ad PHY.
+
+### -field dot11_phy_type_he 
+
+Specifies an 802.11ax PHY.
 
 ### -field dot11_phy_type_IHV_start
 
@@ -154,11 +159,6 @@ Specifies the end of the range that is used to define proprietary PHY types that
 The 
      <b>dot11_phy_type_IHV_end</b> enumerator value is valid only when the miniport driver is operating in
      ExtSTA mode.
-
-
-### -field v1_enum
-
-
 
 
 ## -remarks
