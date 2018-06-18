@@ -1,5 +1,6 @@
 ---
 UID: NA:prntfont
+author: windows-driver-content
 ms.assetid: f5e425fd-5595-35f2-a035-642b39d97e9f
 ms.author: windowsdriverdev
 ms.date: 05/09/18

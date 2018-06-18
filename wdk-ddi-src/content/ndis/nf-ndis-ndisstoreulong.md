@@ -62,17 +62,11 @@ The
 
 ### -param Destination
 
-TBD
-
+A pointer to a location in which to store a given ULONG value.
 
 ### -param Value [in]
 
 The value to be stored.
-
-
-#### - DestinationAddress [in]
-
-A pointer to a location in which to store a given ULONG value.
 
 
 ## -remarks

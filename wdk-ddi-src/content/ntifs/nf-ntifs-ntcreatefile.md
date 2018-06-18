@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwCreateFile</b> routine creates a new file or opens an existing file.
+The <b>NtCreateFile</b> routine creates a new file or opens an existing file.
 
 
 ## -parameters
@@ -547,7 +547,7 @@ FILE_NO_EA_KNOWLEDGE
 
 </td>
 <td>
-If the extended attributes (EAs) for an existing file being opened indicate that the caller must understand EAs to properly interpret the file, <b>ZwCreateFile</b> should return an error. This flag is irrelevant for device and intermediate drivers.
+If the extended attributes (EAs) for an existing file being opened indicate that the caller must understand EAs to properly interpret the file, <b>NtCreateFile</b> should return an error. This flag is irrelevant for device and intermediate drivers.
 
 </td>
 </tr>
@@ -567,7 +567,7 @@ FILE_DELETE_ON_CLOSE
 
 </td>
 <td>
-The system deletes the file when the last handle to the file is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>. If this flag is set, the DELETE flag must be set in the <i>DesiredAccess</i> parameter.
+The system deletes the file when the last handle to the file is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">NtClose</a>. If this flag is set, the DELETE flag must be set in the <i>DesiredAccess</i> parameter.
 
 </td>
 </tr>
@@ -666,9 +666,9 @@ For device and intermediate drivers, this parameter must be zero.
 
 
 
-<b>ZwCreateFile</b> returns STATUS_SUCCESS on success or an appropriate NTSTATUS error code on failure. In the latter case, the caller can determine the cause of the failure by checking the <i>IoStatusBlock</i> parameter.
+<b>NtCreateFile</b> returns STATUS_SUCCESS on success or an appropriate NTSTATUS error code on failure. In the latter case, the caller can determine the cause of the failure by checking the <i>IoStatusBlock</i> parameter.
 
-<div class="alert"><b>Note</b>  <b>ZwCreateFile</b> might return STATUS_FILE_LOCK_CONFLICT as the return value or in the <b>Status</b> member of the <b>IO_STATUS_BLOCK</b> structure that is pointed to by the <i>IoStatusBlock</i> parameter. This would occur only if the NTFS log file is full, and an error occurs while <b>ZwCreateFile</b> tries to handle this situation.</div>
+<div class="alert"><b>Note</b>  <b>NtCreateFile</b> might return STATUS_FILE_LOCK_CONFLICT as the return value or in the <b>Status</b> member of the <b>IO_STATUS_BLOCK</b> structure that is pointed to by the <i>IoStatusBlock</i> parameter. This would occur only if the NTFS log file is full, and an error occurs while <b>NtCreateFile</b> tries to handle this situation.</div>
 <div> </div>
 
 
@@ -677,13 +677,13 @@ For device and intermediate drivers, this parameter must be zero.
 
 
 
-<b>ZwCreateFile</b> supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565384">Using Files in a Driver</a>.
+<b>NtCreateFile</b> supplies a handle that the caller can use to manipulate a file's data, or the file object's state and attributes. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565384">Using Files in a Driver</a>.
 
-Once the handle pointed to by <i>FileHandle</i> is no longer in use, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a> to close it.
+Once the handle pointed to by <i>FileHandle</i> is no longer in use, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">NtClose</a> to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557758">Object Handles</a>.
 
-There are two alternate ways to specify the name of the file to be created or opened with <b>ZwCreateFile</b>:
+There are two alternate ways to specify the name of the file to be created or opened with <b>NtCreateFile</b>:
 
 <ol>
 <li>
@@ -715,13 +715,13 @@ If the caller sets only the FILE_EXECUTE and SYNCHRONIZE flags, it cannot direct
 
 </li>
 </ul>
-The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, possibly simultaneously. Provided that both callers have the appropriate access privileges, the file can be successfully opened and shared. If the original caller of <b>ZwCreateFile</b> does not specify FILE_SHARE_READ, FILE_SHARE_WRITE, or FILE_SHARE_DELETE, no other caller can open the file—that is, the original caller is granted exclusive access.
+The <i>ShareAccess</i> parameter determines whether separate threads can access the same file, possibly simultaneously. Provided that both callers have the appropriate access privileges, the file can be successfully opened and shared. If the original caller of <b>NtCreateFile</b> does not specify FILE_SHARE_READ, FILE_SHARE_WRITE, or FILE_SHARE_DELETE, no other caller can open the file—that is, the original caller is granted exclusive access.
 
-To successfully open a shared file, the <i>DesiredAccess</i> flags must be compatible with the <i>DesiredAccess</i> and <i>ShareAccess</i> flags of all the previous open operations that have not yet been released through . That is, the <i>DesiredAccess</i> specified to <b>ZwCreateFile</b> for a given file must not conflict with the accesses that other openers of the file have disallowed.
+To successfully open a shared file, the <i>DesiredAccess</i> flags must be compatible with the <i>DesiredAccess</i> and <i>ShareAccess</i> flags of all the previous open operations that have not yet been released through . That is, the <i>DesiredAccess</i> specified to <b>NtCreateFile</b> for a given file must not conflict with the accesses that other openers of the file have disallowed.
 
-The <i>CreateDisposition</i> value FILE_SUPERSEDE requires that the caller have DELETE access to a existing file object. If so, a successful call to <b>ZwCreateFile</b> with FILE_SUPERSEDE on an existing file effectively deletes that file, and then recreates it. This implies that, if the file has already been opened by another thread, it opened the file by specifying a <i>ShareAccess</i> parameter with the FILE_SHARE_DELETE flag set. Note that this type of disposition is consistent with the POSIX style of overwriting files.
+The <i>CreateDisposition</i> value FILE_SUPERSEDE requires that the caller have DELETE access to a existing file object. If so, a successful call to <b>NtCreateFile</b> with FILE_SUPERSEDE on an existing file effectively deletes that file, and then recreates it. This implies that, if the file has already been opened by another thread, it opened the file by specifying a <i>ShareAccess</i> parameter with the FILE_SHARE_DELETE flag set. Note that this type of disposition is consistent with the POSIX style of overwriting files.
 
-The <i>CreateDisposition</i> values FILE_OVERWRITE_IF and FILE_SUPERSEDE are similar. If <b>ZwCreateFile</b> is called with a existing file and either of these <i>CreateDisposition</i> values, the file will be replaced.
+The <i>CreateDisposition</i> values FILE_OVERWRITE_IF and FILE_SUPERSEDE are similar. If <b>NtCreateFile</b> is called with a existing file and either of these <i>CreateDisposition</i> values, the file will be replaced.
 
 Overwriting a file is semantically equivalent to a supersede operation, except for the following:
 
@@ -731,37 +731,37 @@ The caller must have write access to the file, rather than delete access. This i
 
 </li>
 <li>
-The specified file attributes are logically ORed with those already on the file. This implies that, if the file has already been opened by another thread, a subsequent caller of <b>ZwCreateFile</b> cannot disable existing <i>FileAttributes</i> flags but can enable additional flags for the same file. Note that this style of overwriting files is consistent with MS-DOS, Microsoft Windows 3.1, and OS/2.
+The specified file attributes are logically ORed with those already on the file. This implies that, if the file has already been opened by another thread, a subsequent caller of <b>NtCreateFile</b> cannot disable existing <i>FileAttributes</i> flags but can enable additional flags for the same file. Note that this style of overwriting files is consistent with MS-DOS, Microsoft Windows 3.1, and OS/2.
 
 </li>
 </ul>
-The FILE_DIRECTORY_FILE <i>CreateOptions</i> value specifies that the file to be created or opened is a directory. When a directory file is created, the file system creates an appropriate structure on the disk to represent an empty directory for that particular file system's on-disk structure. If this option was specified and the given file to be opened is not a directory file, or if the caller specified an inconsistent <i>CreateOptions</i> or <i>CreateDisposition</i> value, the call to <b>ZwCreateFile</b> will fail.
+The FILE_DIRECTORY_FILE <i>CreateOptions</i> value specifies that the file to be created or opened is a directory. When a directory file is created, the file system creates an appropriate structure on the disk to represent an empty directory for that particular file system's on-disk structure. If this option was specified and the given file to be opened is not a directory file, or if the caller specified an inconsistent <i>CreateOptions</i> or <i>CreateDisposition</i> value, the call to <b>NtCreateFile</b> will fail.
 
 The FILE_NO_INTERMEDIATE_BUFFERING <i>CreateOptions</i> flag prevents the file system from performing any intermediate buffering on behalf of the caller. Specifying this flag places the following restrictions on the caller's parameters to other <b>Zw<i>Xxx</i>File</b> routines.
 
 <ul>
 <li>
-Any optional <i>ByteOffset</i> passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a> must be a multiple of the sector size.
+Any optional <i>ByteOffset</i> passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">NtReadFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">NtWriteFile</a> must be a multiple of the sector size.
 
 </li>
 <li>
-The <i>Length</i> passed to <b>ZwReadFile</b> or <b>ZwWriteFile</b> must be an integral of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer.
+The <i>Length</i> passed to <b>NtReadFile</b> or <b>NtWriteFile</b> must be an integral of the sector size. Note that specifying a read operation to a buffer whose length is exactly the sector size might result in a lesser number of significant bytes being transferred to that buffer if the end of the file was reached during the transfer.
 
 </li>
 <li>
-Buffers must be aligned in accordance with the alignment requirement of the underlying device. To obtain this information, call <b>ZwCreateFile</b> to get a handle for the file object that represents the physical device, and pass that handle to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>. For a list of the system's FILE_<i>XXX</i>_ALIGNMENT values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+Buffers must be aligned in accordance with the alignment requirement of the underlying device. To obtain this information, call <b>NtCreateFile</b> to get a handle for the file object that represents the physical device, and pass that handle to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">NtQueryInformationFile</a>. For a list of the system's FILE_<i>XXX</i>_ALIGNMENT values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
 
 </li>
 <li>
-Calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is a multiple of the sector size.
+Calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">NtSetInformationFile</a> with the <i>FileInformationClass</i> parameter set to <b>FilePositionInformation</b> must specify an offset that is a multiple of the sector size.
 
 </li>
 </ul>
-The FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT <i>CreateOptions</i> flags, which are mutually exclusive as their names suggest, specify that all I/O operations on the file will be synchronous—as long as they occur through the file object referred to by the returned <i>FileHandle</i>. All I/O on such a file is serialized across all threads using the returned handle. If either of these <i>CreateOptions</i> flags is set, the SYNCHRONIZE <i>DesiredAccess</i> flag must also be set—to compel the I/O manager to use the file object as a synchronization object. In these cases, the I/O manager keeps track of the current file-position offset, which you can pass to <b>ZwReadFile</b> and <b>ZwWriteFile</b>. Call <b>ZwQueryInformationFile</b> or <b>ZwSetInformationFile</b> to get or set this position.
+The FILE_SYNCHRONOUS_IO_ALERT and FILE_SYNCHRONOUS_IO_NONALERT <i>CreateOptions</i> flags, which are mutually exclusive as their names suggest, specify that all I/O operations on the file will be synchronous—as long as they occur through the file object referred to by the returned <i>FileHandle</i>. All I/O on such a file is serialized across all threads using the returned handle. If either of these <i>CreateOptions</i> flags is set, the SYNCHRONIZE <i>DesiredAccess</i> flag must also be set—to compel the I/O manager to use the file object as a synchronization object. In these cases, the I/O manager keeps track of the current file-position offset, which you can pass to <b>NtReadFile</b> and <b>NtWriteFile</b>. Call <b>NtQueryInformationFile</b> or <b>NtSetInformationFile</b> to get or set this position.
 
-If the <i>CreateOptions</i> FILE_OPEN_REPARSE_POINT flag is <u>not</u> specified and <b>ZwCreateFile</b> attempts to open a file with a reparse point, normal reparse point processing occurs for the file. If, on the other hand, the FILE_OPEN_REPARSE_POINT flag is specified, normal reparse processing does <u>not</u> occur and <b>ZwCreateFile</b> attempts to directly open the reparse point file. In either case, if the open operation was successful, <b>ZwCreateFile</b> returns STATUS_SUCCESS; otherwise, the routine returns an NTSTATUS error code. <b>ZwCreateFile</b> never returns STATUS_REPARSE.
+If the <i>CreateOptions</i> FILE_OPEN_REPARSE_POINT flag is <u>not</u> specified and <b>NtCreateFile</b> attempts to open a file with a reparse point, normal reparse point processing occurs for the file. If, on the other hand, the FILE_OPEN_REPARSE_POINT flag is specified, normal reparse processing does <u>not</u> occur and <b>NtCreateFile</b> attempts to directly open the reparse point file. In either case, if the open operation was successful, <b>NtCreateFile</b> returns STATUS_SUCCESS; otherwise, the routine returns an NTSTATUS error code. <b>NtCreateFile</b> never returns STATUS_REPARSE.
 
-The <i>CreateOptions</i> FILE_OPEN_REQUIRING_OPLOCK flag eliminates the time between when you open the file and request an oplock that could potentially allow a third party to open the file and get a sharing violation. An application can use the FILE_OPEN_REQUIRING_OPLOCK flag on <b>ZwCreateFile</b> and then request any oplock. This ensures that an oplock owner will be notified of any subsequent open request that causes a sharing violation.
+The <i>CreateOptions</i> FILE_OPEN_REQUIRING_OPLOCK flag eliminates the time between when you open the file and request an oplock that could potentially allow a third party to open the file and get a sharing violation. An application can use the FILE_OPEN_REQUIRING_OPLOCK flag on <b>NtCreateFile</b> and then request any oplock. This ensures that an oplock owner will be notified of any subsequent open request that causes a sharing violation.
 
 In Windows 7, if other handles exist on the file when an application uses the FILE_OPEN_REQUIRING_OPLOCK flag, the create operation will fail with STATUS_OPLOCK_NOT_GRANTED. This restriction no longer exists starting with Windows 8.
 
@@ -801,9 +801,9 @@ Step three makes this practical only for Filter oplocks. The handle opened in st
 
 NTFS is the only Microsoft file system that implements FILE_RESERVE_OPFILTER.
 
-Callers of <b>ZwCreateFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
+Callers of <b>NtCreateFile</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://msdn.microsoft.com/0578df31-1467-4bad-ba62-081d61278deb">with special kernel APCs enabled</a>.
 
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateFile</b>" instead of "<b>ZwCreateFile</b>".</div>
+<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateFile</b>" instead of "<b>NtCreateFile</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
@@ -835,27 +835,27 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">NtClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">ZwOpenFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567011">NtOpenFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">NtQueryInformationFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">ZwReadFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567072">NtReadFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">NtSetInformationFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">NtWriteFile</a>
  
 
  

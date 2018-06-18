@@ -87,7 +87,7 @@ The size of a <b>USB_BUS_NOTIFICATION</b> structure.
 
 
 
-<text></text>
+
 
 
 
@@ -96,7 +96,7 @@ The size of a <b>USB_BUS_NOTIFICATION</b> structure.
 
 
 
-<text></text>
+
 
 
 

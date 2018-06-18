@@ -91,7 +91,7 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/gg44123
 
 
 
-<text></text>
+
 
 
 
@@ -100,7 +100,7 @@ Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/gg44123
 
 
 
-<text></text>
+
 
 
 

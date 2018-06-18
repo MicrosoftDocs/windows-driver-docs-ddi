@@ -219,6 +219,18 @@ NDIS 6.80
 
 </td>
 </tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt>81</dt>
+</dl>
+</td>
+<td width="60%">
+NDIS 6.81
+
+</td>
+</tr>
 </table>
  
 

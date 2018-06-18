@@ -73,6 +73,6 @@ This method does not return a value.
 ## -remarks
 The client typically calls this method from its *[EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md)* event callback function.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_CONFIG_INIT** is 1.0.
+
 
 ## -see-also

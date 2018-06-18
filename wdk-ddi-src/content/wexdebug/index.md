@@ -1,5 +1,6 @@
 ---
 UID: NA:wexdebug
+author: windows-driver-content
 ms.assetid: 9ceaed67-9a74-39cf-b6d6-1c159739a1cd
 ms.author: windowsdriverdev
 ms.date: 05/09/18

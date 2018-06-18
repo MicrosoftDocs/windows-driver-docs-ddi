@@ -155,8 +155,7 @@ If the attempt to add a party succeeded,
     remote party that it represents closes its connection first.
 
 The structure at 
-    <i>CallParameters</i> originally was allocated and initialized by the client, which passed this pointer to
-    
+    <i>CallParameters</i> originally was allocated and initialized by the client, which passed this pointer to    
     <b>NdisClAddParty</b>. However, the call manager might have modified the client-supplied values to
     reflect the results of the CM's negotiation with the network or with a signaling peer while processing
     the client's add-party request. To determine whether the call manager made any modifications, 

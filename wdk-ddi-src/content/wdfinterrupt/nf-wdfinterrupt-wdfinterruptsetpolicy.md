@@ -70,7 +70,7 @@ A handle to a framework interrupt object.
 
 ### -param Policy [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/hh464032">WDF_INTERRUPT_POLICY</a>-typed enumerator that specifies a processor affinity policy for the interrupt.
+A <a href="https://msdn.microsoft.com/library/windows/hardware/Ff552354">WDF_INTERRUPT_POLICY</a>-typed enumerator that specifies a processor affinity policy for the interrupt.
 
 
 ### -param Priority [in]

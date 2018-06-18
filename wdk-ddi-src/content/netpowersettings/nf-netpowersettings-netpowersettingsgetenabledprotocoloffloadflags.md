@@ -65,6 +65,6 @@ For more information, see [NDIS_PM_PARAMETERS](../ntddndis/ns-ntddndis-_ndis_pm_
 ## -remarks
 The client driver must only call **NetPowerSettingsGetEnabledProtocolOffloadFlags** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)* or *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)* callback function. Otherwise, the call results in a system bugcheck.
 
-The minimum NetAdapterCx version for **NetPowerSettingsGetEnabledProtocolOffloadFlags** is 1.1.
+
 
 ## -see-also

@@ -65,7 +65,7 @@ The <b>IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS</b>
 
 
 
-<text></text>
+
 
 
 
@@ -74,7 +74,7 @@ The <b>IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS</b>
 
 
 
-<text></text>
+
 
 
 
@@ -83,7 +83,7 @@ The <b>IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS</b>
 
 
 
-<text></text>
+
 
 
 
@@ -92,7 +92,7 @@ The <b>IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS</b>
 
 
 
-<text></text>
+
 
 
 
@@ -101,7 +101,7 @@ The <b>IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS</b>
 
 
 
-<text></text>
+
 
 
 
@@ -110,7 +110,7 @@ The <b>IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS</b>
 
 
 
-<text></text>
+
 
 
 

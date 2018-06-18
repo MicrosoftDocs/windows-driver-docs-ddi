@@ -55,17 +55,29 @@ The <b>WWAN_MODEM_CONFIG_INFO</b> structure represents the modem's configuration
 
 ## -struct-fields
 
-
-
-
-### -field ConfigStatus
-
-A formatted <a href="https://msdn.microsoft.com/3A13CFBC-DBB4-4BB1-ABA4-AB145AED07AA">WWAN_MODEM_CONFIG_STATUS</a> structure containing the modem's configuration (config) status.
-
-
 ### -field ConfigMode
 
 The modem's configuration mode. For a list of defined values, see <a href="https://msdn.microsoft.com/1AA3EDCC-EB6E-4118-8081-CA1914140683">WWAN_MODEM_CONFIG_MODE</a>.
+
+### -field ConfigState
+
+The modem's configuration state. For a list of defined values, see [**WWAN_MODEM_CONFIG_STATE**](ne-wwan-_wwan_modem_config_state.md).
+
+### -field ConfigReason
+
+The reason for the modem's configuration state change. For a list of defined values, see [**WWAN_MODEM_CONFIG_REASON**](ne-wwan-_wwan_modem_config_reason.md).
+
+### -field PreviousConfigID
+
+A formatted [**WWAN_MODEM_CONFIG_ID**](ns-wwan-_wwan_modem_config_id.md) structure that represents the modem's previous configuration ID.
+
+### -field CurrentConfigID
+
+A formatted [**WWAN_MODEM_CONFIG_ID**](ns-wwan-_wwan_modem_config_id.md) structure that represents the modem's current configuration ID.
+
+### -field IsCurrentConfigDefault
+
+A DWORD value that indicates if the current configuration is the default configuration.
 
 
 ## -see-also

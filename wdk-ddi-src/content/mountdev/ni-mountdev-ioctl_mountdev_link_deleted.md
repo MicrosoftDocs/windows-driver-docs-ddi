@@ -82,7 +82,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -90,8 +90,11 @@ None
 ### -inout-buffer-length
 
 
+## -remarks
 
-<text></text>
+The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls. 
+
+
 
 
 

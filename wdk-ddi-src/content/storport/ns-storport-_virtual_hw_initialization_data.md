@@ -65,7 +65,19 @@ Specifies the size of this structure in bytes, as returned by <b>sizeof</b>(). T
 
 ### -field AdapterInterfaceType
 
-The Storport driver does not support legacy buses. Therefore, most of the adapter interface types that are used with the SCSI port driver are invalid for Storport drivers. In particular, Storport does not support Isa, Eisa, MicroChannel, and TurboChannel. Furthermore, unlike the SCSI port case, a virtual miniport driver that works with the Storport driver is not required to supply values for the <b>VendorIdLength</b>, <b>VendorId</b>, <b>DeviceIdLength</b>, and <b>DeviceId</b> members.
+For storport virtual miniport drivers, the value for **AdapterInterfaceType** will almost always be **internal**. This is because the Storport driver does not support legacy buses. 
+
+Note that because of this, most of the adapter interface types that are used with the SCSI port driver are invalid for Storport drivers. In particular, Storport does not support:
+* Isa
+* Eisa
+* MicroChannel
+* TurboChannel
+
+Additionally, unlike the SCSI port case, a virtual miniport driver that works with the Storport driver is not required to supply values for the following members:
+* **VendorIdLength**
+* **VendorId**
+* **DeviceIdLength**
+* **DeviceId**
 
 
 ### -field HwInitialize
@@ -130,8 +142,12 @@ Reserved for system use.
 
 ### -field MapBuffers
 
-Not valid for virtual miniport drivers. The virtual miniport driver must map all data buffers into virtual address space.
-
+| Name | Description |
+| -- | -- |
+| STOR_MAP_NO_BUFFERS | Only maps buffer for SRB_FUNCTION_IO_CONTROL and SRB_FUNCTION_WMI. |
+| STOR_MAP_ALL_BUFFERS | Obsolete, same behavior as STOR_MAP_NON_READ_WRITE_BUFFERS. |
+| STOR_MAP_NON_READ_WRITE_BUFFERS | Maps buffer for IO requests except READ and WRITE. |
+| STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE | Maps buffer for all IO requests including READ and WRITE. Miniport drivers will typically use this setting. |
 
 ### -field NeedPhysicalAddresses
 
@@ -155,7 +171,7 @@ Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the virtual mi
 
 ### -field ReceiveEvent
 
-Must be set to <b>TRUE</b>. A value of <b>TRUE</b> indicates that the virtual miniport driver supports receive events.
+This value is no longer used, and can be set to either **TRUE** or **FALSE**.
 
 
 ### -field VendorIdLength

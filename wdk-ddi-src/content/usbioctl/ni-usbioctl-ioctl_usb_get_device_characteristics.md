@@ -62,7 +62,7 @@ The client driver sends this request to determine general characteristics about 
 
 
 
-<text></text>
+
 
 
 
@@ -71,7 +71,7 @@ The client driver sends this request to determine general characteristics about 
 
 
 
-<text></text>
+
 
 
 
@@ -80,7 +80,7 @@ The client driver sends this request to determine general characteristics about 
 
 
 
-<text></text>
+
 
 
 
@@ -89,7 +89,7 @@ The client driver sends this request to determine general characteristics about 
 
 
 
-<text></text>
+
 
 
 

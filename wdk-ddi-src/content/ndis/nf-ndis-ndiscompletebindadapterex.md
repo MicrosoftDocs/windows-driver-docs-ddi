@@ -64,7 +64,10 @@ A protocol driver calls the
 
 ### -param BindAdapterContext
 
-TBD
+The handle that NDIS passed to the 
+     <i>BindContext</i> parameter of the 
+     <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">
+     ProtocolBindAdapterEx</a> function.
 
 
 ### -param Status [in]
@@ -89,14 +92,6 @@ The protocol driver's attempt to set up a binding failed or the protocol driver 
        allocate the resources it needed to carry out network I/O operations. Usually, such an error status is
        propagated from an 
        <b>Ndis<i>Xxx</i></b> function or a kernel-mode support routine.
-
-
-#### - BindContext [in]
-
-The handle that NDIS passed to the 
-     <i>BindContext</i> parameter of the 
-     <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">
-     ProtocolBindAdapterEx</a> function.
 
 
 ## -returns

@@ -98,7 +98,7 @@ The length of the handle to the SDP record.
 
 
 
-<text></text>
+
 
 
 
@@ -107,7 +107,7 @@ The length of the handle to the SDP record.
 
 
 
-<text></text>
+
 
 
 

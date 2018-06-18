@@ -58,7 +58,7 @@ The **NetConfigurationAssignBinary** method writes caller-supplied binary data t
 A handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
-A pointer to a **UNICODE_STRING** structure that contains a value name.
+A pointer to a [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structure that contains a value name.
 
 ### -param Buffer
 A pointer to a buffer that contains driver-supplied data.
@@ -74,6 +74,6 @@ The client driver obtains a handle to a NETCONFIGURATION object by calling [NetA
 
 If an entry of the same name as *ValueName* already exists under the opened registry key, **NetConfigurationAssignBinary** replaces its current value with the caller-supplied value. Otherwise, **NetConfigurationAssignBinary** adds a new value entry with the given name and supplied value to the registry.
 
-The minimum NetAdapterCx version for **NetConfigurationAssignBinary** is 1.0.
+
 
 ## -see-also

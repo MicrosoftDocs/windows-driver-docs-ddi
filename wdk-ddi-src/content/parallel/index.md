@@ -1,5 +1,6 @@
 ---
 UID: NA:parallel
+author: windows-driver-content
 ms.assetid: e507d2c6-0d63-3a57-be51-7db3ba17a47f
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -93,7 +93,7 @@ If this flag is set, the minifilter is not unloaded in response to service stop 
 </dl>
 </td>
 <td width="60%">
-If this flag is set,  the minifilter will support filtering of named pipe and mailslot requests.
+If this flag is set,  the minifilter will support filtering of named pipe and mailslot requests. This flag was introduced in Windows 8.
 
 </td>
 </tr>
@@ -113,27 +113,27 @@ If this flag is set, the minifilter will support attaching to a direct access (D
 
 ### -field ContextRegistration
 
- A variable-length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544629">FLT_CONTEXT_REGISTRATION</a> structures, one for each context type that the minifilter uses. The last element in the array must be {FLT_CONTEXT_END}. 
+ A variable-length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544629">FLT_CONTEXT_REGISTRATION</a> structures, one for each context type that the minifilter uses. The last element in the array must be {FLT_CONTEXT_END}. This member is optional and can be **NULL**. 
 
 
 ### -field OperationRegistration
 
-A variable-length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544668">FLT_OPERATION_REGISTRATION</a> structures, one for each type of I/O for which the minifilter registers preoperation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>) and postoperation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551107">PFLT_POST_OPERATION_CALLBACK</a>) callback routines. The last element in the array must be {IRP_MJ_OPERATION_END}. 
+A variable-length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544668">FLT_OPERATION_REGISTRATION</a> structures, one for each type of I/O for which the minifilter registers preoperation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>) and postoperation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551107">PFLT_POST_OPERATION_CALLBACK</a>) callback routines. The last element in the array must be {IRP_MJ_OPERATION_END}. This member is optional and can be **NULL**
 
 
 ### -field FilterUnloadCallback
 
-A pointer to a routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551085">PFLT_FILTER_UNLOAD_CALLBACK</a> to be registered as the minifilter's <i>FilterUnloadCallback</i> routine. This member is optional and can be <b>NULL</b>. 
+A pointer to a routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551085">PFLT_FILTER_UNLOAD_CALLBACK</a> to be registered as the minifilter's <i>FilterUnloadCallback</i> routine. This member is optional and can be <b>NULL</b>. Note that if NULL is specified for this routine, then the filter can never be unloaded.
 
 
 ### -field InstanceSetupCallback
 
-A pointer to a routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551096">PFLT_INSTANCE_SETUP_CALLBACK</a> to be registered as the minifilter's <i>InstanceSetupCallback</i> routine. This member is optional and can be <b>NULL</b>. 
+A pointer to a routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551096">PFLT_INSTANCE_SETUP_CALLBACK</a> to be registered as the minifilter's <i>InstanceSetupCallback</i> routine. This member is optional and can be <b>NULL</b>. Note that if NULL is specified for this routine, the attachment is always made.
 
 
 ### -field InstanceQueryTeardownCallback
 
-A pointer to a routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551095">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a> to be registered as the minifilter's <i>InstanceQueryTeardownCallback</i> routine. This member is optional and can be <b>NULL</b>. 
+A pointer to a routine of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551095">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a> to be registered as the minifilter's <i>InstanceQueryTeardownCallback</i> routine. This member is optional and can be <b>NULL</b>. Note that if **NULL** is specified for this routine, then instances will never be manually detached.
 
 
 ### -field InstanceTeardownStartCallback
@@ -187,8 +187,6 @@ Pointer to a routine of type <a href="https://msdn.microsoft.com/library/windows
 
 
 The FLT_REGISTRATION structure is used to provide information about a file system minifilter, such as a <i>FilterUnloadCallback</i> (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551085">PFLT_FILTER_UNLOAD_CALLBACK</a>) routine and preoperation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>) and postoperation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551107">PFLT_POST_OPERATION_CALLBACK</a>) callback routines, to the filter manager. The minifilter passes a pointer to this structure as the <i>Registration</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544305">FltRegisterFilter</a>. 
-
-
 
 
 ## -see-also

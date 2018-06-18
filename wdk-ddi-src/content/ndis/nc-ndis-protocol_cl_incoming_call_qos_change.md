@@ -92,8 +92,7 @@ None
 A call to 
     <i>ProtocolClIncomingCallQoSChange</i> indicates to the client that a remote peer has requested a change
     in the quality of service on this call. The new quality of service is described at 
-    <i>CallParameters</i> . The client can accept the requested change by simply returning control. Otherwise,
-    
+    <i>CallParameters</i> . The client can accept the requested change by simply returning control. Otherwise,    
     <i>ProtocolClIncomingCallQoSChange</i> should tear down the call with 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>.
 

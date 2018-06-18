@@ -68,7 +68,7 @@ The <b>IOCTL_SMARTCARD_GET_ATTRIBUTE</b>
 
 
 
-<text></text>
+
 
 
 
@@ -82,7 +82,7 @@ The <b>IOCTL_SMARTCARD_GET_ATTRIBUTE</b>
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ The <b>IOCTL_SMARTCARD_GET_ATTRIBUTE</b>
 
 
 
-<text></text>
+
 
 
 
@@ -100,7 +100,7 @@ The <b>IOCTL_SMARTCARD_GET_ATTRIBUTE</b>
 
 
 
-<text></text>
+
 
 
 

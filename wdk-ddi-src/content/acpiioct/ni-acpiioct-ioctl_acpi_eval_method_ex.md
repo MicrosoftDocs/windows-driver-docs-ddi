@@ -122,7 +122,7 @@ Set the <i>IoBuildDeviceIoControlRequest</i> output parameters as follows:
 
 
 
-<text></text>
+
 
 
 
@@ -131,7 +131,7 @@ Set the <i>IoBuildDeviceIoControlRequest</i> output parameters as follows:
 
 
 
-<text></text>
+
 
 
 

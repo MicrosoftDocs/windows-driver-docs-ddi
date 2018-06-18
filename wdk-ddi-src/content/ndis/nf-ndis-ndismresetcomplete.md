@@ -63,24 +63,14 @@ The
 
 ### -param _M
 
-TBD
-
+The miniport adapter handle that NDIS originally passed to the 
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
 
 ### -param _S
 
-TBD
-
+The final status of the reset operation just completed.
 
 ### -param _A
-
-TBD
-
-
-
-
-
-
-#### - AddressingReset [in]
 
 A Boolean value that is <b>TRUE</b> if NDIS is responsible for restoring the settings for multicast
      addresses, packet filters, and task offload information. In this case, the miniport driver is
@@ -95,17 +85,6 @@ If
 
 For more information, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff546572">Hardware Reset</a>.
-
-
-#### - MiniportAdapterHandle [in]
-
-The miniport adapter handle that NDIS originally passed to the 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
-
-
-#### - Status [in]
-
-The final status of the reset operation just completed
 
 
 ## -remarks

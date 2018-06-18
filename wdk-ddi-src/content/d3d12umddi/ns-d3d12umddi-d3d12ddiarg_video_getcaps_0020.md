@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDIARG_VIDEO_GETCAPS_0020
 ## -description
 
 
-Specifies values used to get capabilities of a type. 
+Specifies values used to get capabilities of a type, in the call to [PFND3D12DDI_VIDEO_GETCAPS](nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md).
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ Specifies values used to get capabilities of a type.
 
 ### -field Type
 
-A type. 
+A type, specified by a pointer to [D3D12DDICAPS_TYPE_VIDEO_0020](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md).
 
 
 ### -field pInfo
@@ -70,10 +70,10 @@ A pointer to a memory block that contains data that specifies the condition on w
 
 ### -field pData
 
-A pointer to a memory block that contains capabilities of the type that is specified by the <b>Type</b> member and possibly determined by the condition specified by the <b>pInfo</b> member. 
+A pointer to a memory block that contains capabilities of the type that is specified by the <b>Type</b> member and possibly determined by the condition specified by the <b>pInfo</b> member.
 
 
 ### -field DataSize
 
-The size, in bytes, of the data at <b>pData</b>.
+The size, in bytes, of the memory block at <b>pData</b>.
 

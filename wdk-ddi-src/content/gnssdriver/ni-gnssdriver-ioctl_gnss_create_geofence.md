@@ -90,7 +90,7 @@ Set to sizeof(<b>GNSS_GEOFENCE_CREATE_RESPONSE</b>).
 
 
 
-<text></text>
+
 
 
 
@@ -99,7 +99,7 @@ Set to sizeof(<b>GNSS_GEOFENCE_CREATE_RESPONSE</b>).
 
 
 
-<text></text>
+
 
 
 

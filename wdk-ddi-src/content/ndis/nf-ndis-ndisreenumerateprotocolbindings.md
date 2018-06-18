@@ -93,8 +93,7 @@ Protocol drivers cannot call
     <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
     ProtocolUnbindAdapterEx</a> functions. Also, protocol drivers cannot call 
     <b>NdisReEnumerateProtocolBindings</b> from within the context of the 
-    <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> function if the
-    
+    <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> function if the    
     <i>ProtocolBindingContext</i> parameter of 
     <i>ProtocolNetPnPEvent</i> is not <b>NULL</b>. However, protocol drivers can call 
     <b>NdisReEnumerateProtocolBindings</b> from within the context of 

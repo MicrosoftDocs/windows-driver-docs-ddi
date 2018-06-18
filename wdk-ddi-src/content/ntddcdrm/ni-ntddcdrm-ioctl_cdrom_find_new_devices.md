@@ -62,7 +62,7 @@ In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by
 
 
 
-<text></text>
+
 
 
 
@@ -71,7 +71,7 @@ In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by
 
 
 
-<text></text>
+
 
 
 
@@ -80,7 +80,7 @@ In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by
 
 
 
-<text></text>
+
 
 
 
@@ -89,7 +89,7 @@ In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by
 
 
 
-<text></text>
+
 
 
 
@@ -98,7 +98,7 @@ In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by
 
 
 
-<text></text>
+
 
 
 
@@ -107,7 +107,7 @@ In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by
 
 
 
-<text></text>
+
 
 
 

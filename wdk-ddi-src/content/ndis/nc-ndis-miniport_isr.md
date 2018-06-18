@@ -208,8 +208,7 @@ The interrupt indicates received packets and the miniport driver can process rec
 </li>
 </ul>
 If a miniport driver processes received packets in separate DPCs, the driver sets the 
-    <i>QueueDefaultInterruptDpc</i> parameter to <b>FALSE</b>. The miniport driver should set the
-    
+    <i>QueueDefaultInterruptDpc</i> parameter to <b>FALSE</b>. The miniport driver should set the    
     <i>TargetProcessors</i> bit for the CPU that is associated with each nonempty receive
     queue. NDIS will schedule a DPC on each of the indicated CPUs.
 

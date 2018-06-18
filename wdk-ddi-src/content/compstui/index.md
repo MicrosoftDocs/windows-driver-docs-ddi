@@ -1,5 +1,6 @@
 ---
 UID: NA:compstui
+author: windows-driver-content
 ms.assetid: b7caed49-be56-3b9d-90b7-dce65c62402e
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -60,6 +60,6 @@ Returns a pointer to the queue's [NET_DATAPATH_DESCRIPTOR](../netdatapathdescrip
 ## -remarks
 Use the [NET_DATAPATH_DESCRIPTOR](../netdatapathdescriptor/ns-netdatapathdescriptor-_net_datapath_descriptor.md) structure returned by this method to access a receive queue's packet ring buffer.
 
-The minimum NetAdapterCx version for **NetRxQueueGetDatapathDescriptor** is 1.2.
+
 
 ## -see-also

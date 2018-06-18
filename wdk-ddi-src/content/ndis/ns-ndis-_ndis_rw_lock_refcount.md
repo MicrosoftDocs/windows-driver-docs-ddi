@@ -50,10 +50,16 @@ req.typenames: NDIS_RW_LOCK_REFCOUNT
 ## -description
 
 
-The <b>NDIS_RW_LOCK_REFCOUNT</b> union defines attributes of a read/write lock. This union is opaque to NDIS
+The <b>NDIS_RW_LOCK_REFCOUNT</b> union defines attributes of a read/write lock. This struct is opaque to NDIS
    drivers.
    
-
-
 ## -struct-fields
+
+### -field RefCount
+
+This struct is opaque to NDIS drivers.
+
+### -field cacheLine
+
+This struct is opaque to NDIS drivers.
 

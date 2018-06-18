@@ -120,15 +120,7 @@ The path loss of the serving cell (46-173). Use 0xFFFFFFFF when this information
 
 ### -field Data
 
- 
-
-
-
-
-#### - Data[ANYSIZE_ARRAY]
-
 The data buffer containing <i>ProviderId</i>.
-
 
 ## -see-also
 

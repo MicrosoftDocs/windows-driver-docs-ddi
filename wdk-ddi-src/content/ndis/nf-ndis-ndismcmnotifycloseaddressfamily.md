@@ -63,18 +63,8 @@ The
 
 ### -param _AH_
 
-TBD
-
-
-
-
-
-
-#### - NdisAfHandle [in]
-
 A handle that identifies the AF that NDIS should close. NDIS supplied this handle to the MCM's 
      <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function.
-
 
 ## -remarks
 

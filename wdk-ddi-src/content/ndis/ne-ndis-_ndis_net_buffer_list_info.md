@@ -176,29 +176,12 @@ Identifies a <b>USHORT</b> value that is the frame type of the received Ethernet
 ### -field NetBufferListProtocolId
 
 Identifies a <b>UCHAR</b> value that is a protocol identifier as one of the following values: 
-     
 
-
-
-
-
-#### NDIS_PROTOCOL_ID_DEFAULT
-
-A default protocol driver identifier.
-
-
-
-#### NDIS_PROTOCOL_ID_TCP_IP
-
-The TCP/IP protocol.
-
-
-
-#### NDIS_PROTOCOL_ID_IPX
-
-The IPX protocol.
-
-
+<ul>
+<li>NDIS_PROTOCOL_ID_DEFAULT</li><ul><li>A default protocol driver identifier.</li></ul>
+<li>NDIS_PROTOCOL_ID_TCP_IP</li><ul><li>The TCP/IP protocol.</li></ul>
+<li>NDIS_PROTOCOL_ID_IPX</li><ul><li>The IPX protocol.</li></ul>
+</ul>
 
 #### NDIS_PROTOCOL_ID_NBF
 
@@ -341,15 +324,19 @@ Identifies a pointer to a driver-allocated <a href="https://msdn.microsoft.com/l
 
 ### -field GftOffloadInformation
 
+Generic Flow Table (GFT) Offload information.
 
 ### -field GftFlowEntryId
 
+The flow entry ID for GFT.
 
 ### -field NetBufferListInfoReserved3
 
+Reserved.
 
 ### -field NetBufferListInfoReserved4
 
+Reserved.
 
 ### -field NetBufferListInfoReserved1
 

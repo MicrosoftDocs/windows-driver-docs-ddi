@@ -55,22 +55,9 @@ The <b>RtlUlonglongByteSwap</b> routine reverses the ordering of the eight bytes
 
 ## -parameters
 
-
-
-
 ### -param _x
 
-TBD
-
-
-
-
-
-
-#### - Source [in]
-
 A ULONGLONG value to convert to a byte-swapped version.
-
 
 ## -remarks
 

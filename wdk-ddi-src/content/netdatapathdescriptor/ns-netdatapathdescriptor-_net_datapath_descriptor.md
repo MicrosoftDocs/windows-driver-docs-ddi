@@ -73,6 +73,8 @@ The datapath descriptor is also used in other ring buffer manipulation methods d
 - [NetPacketGetContextFromToken](../netadapterpacket/nf-netadapterpacket-netpacketgetcontextfromtoken.md)
 - [NetPacketGetTypedContext](../netadapterpacket/nf-netadapterpacket-netpacketgettypedcontext.md)
 
-The minimum NetAdapterCx version for **NET_DATAPATH_DESCRIPTOR** is 1.2.
+
 
 ## -see-also
+
+[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

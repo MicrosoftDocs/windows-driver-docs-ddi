@@ -70,26 +70,13 @@ A handle to a context area that the miniport driver allocated in its
 
 ### -param OPTIONAL
 
-
-### -param NdisRequest
-
-
-
-
-
-
-
-
-#### - MiniportVcContext [in]
-
 A handle to a miniport driver-allocated context area in which the miniport driver maintains its
      per-virtual connection (VC) state. The miniport driver supplied this handle to NDIS from its 
      <a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a> function. If the
      request is 
      not VC-specific, this parameter is <b>NULL</b>.
 
-
-#### - OidRequest [in, out]
+### -param NdisRequest
 
 A pointer to an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure that contains

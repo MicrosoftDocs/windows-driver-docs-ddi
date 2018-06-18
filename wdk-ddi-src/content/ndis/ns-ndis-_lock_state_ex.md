@@ -56,6 +56,18 @@ The <b>LOCK_STATE_EX</b> structure tracks the state of a read/write lock. This s
 
 ## -struct-fields
 
+### -field OldIrql
+
+Reserved.
+
+### -field LockState
+
+Reserved.
+
+### -field Flags
+
+Reserved.
+
 
 ## -see-also
 

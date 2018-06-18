@@ -1,5 +1,6 @@
 ---
 UID: NA:wdfwmi
+author: windows-driver-content
 ms.assetid: f6142e9e-3851-3bdb-bd51-152563a407ff
 ms.author: windowsdriverdev
 ms.date: 05/09/18

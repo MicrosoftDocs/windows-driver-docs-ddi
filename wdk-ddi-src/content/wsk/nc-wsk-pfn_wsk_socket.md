@@ -101,8 +101,7 @@ Supports unreliable connectionless datagram communication.
 
 Supports raw access to the transport protocol.
 
-For more information about the socket types that are supported for each supported address family, see
-     
+For more information about the socket types that are supported for each supported address family, see     
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
 
 

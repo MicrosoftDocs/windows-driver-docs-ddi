@@ -69,7 +69,7 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 
 
-<text></text>
+
 
 
 
@@ -85,7 +85,7 @@ The HID minidriver copies the physical descriptor into the user buffer at <b>Irp
 
 
 
-<text></text>
+
 
 
 
@@ -94,7 +94,7 @@ The HID minidriver copies the physical descriptor into the user buffer at <b>Irp
 
 
 
-<text></text>
+
 
 
 
@@ -103,7 +103,7 @@ The HID minidriver copies the physical descriptor into the user buffer at <b>Irp
 
 
 
-<text></text>
+
 
 
 

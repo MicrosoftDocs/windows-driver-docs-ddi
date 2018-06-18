@@ -61,7 +61,7 @@ A handle to a network request object.
 Returns an NDIS_NIC_SWITCH_ID value that specifies a switch identifier. The switch identifier is an integer between zero and the number of switches that the network adapter supports. An NDIS_DEFAULT_SWITCH_ID value indicates the default network adapter switch. 
 
 ## -remarks
-The minimum NetAdapterCx version for **NetRequestGetSwitchId** is 1.0.
+
 
 ## -see-also
 

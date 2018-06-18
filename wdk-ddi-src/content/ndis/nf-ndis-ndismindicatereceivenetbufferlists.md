@@ -69,8 +69,9 @@ The miniport handle that NDIS passed to the
 
 ### -param NetBufferList
 
-TBD
-
+A linked list of 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that the
+     miniport driver allocated.
 
 ### -param PortNumber [in]
 
@@ -161,13 +162,6 @@ Specifies that all the <a href="https://msdn.microsoft.com/library/windows/hardw
 #### NDIS_RECEIVE_FLAGS_MORE_NBLS
 
 Reserved.
-
-
-#### - NetBufferLists [in]
-
-A linked list of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that the
-     miniport driver allocated.
 
 
 ## -returns

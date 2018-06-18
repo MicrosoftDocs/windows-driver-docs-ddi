@@ -1,5 +1,6 @@
 ---
 UID: NA:punknown
+author: windows-driver-content
 ms.assetid: 066f1a97-df88-38c1-b75a-f25fc46a68ca
 ms.author: windowsdriverdev
 ms.date: 05/09/18

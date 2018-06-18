@@ -125,8 +125,7 @@ A ULONG value that specifies the size, in bytes, of each element that follow the
 
 
 NDIS returns an <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure when it handles an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451820">OID_NIC_SWITCH_ENUM_VFS</a>.  Each
-    element in the array that follows the <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure is an 
-    
+    element in the array that follows the <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure is an     
     <a href="https://msdn.microsoft.com/library/windows/hardware/hh451591">NDIS_NIC_SWITCH_VF_INFO</a> structure.
 
 

@@ -1,5 +1,6 @@
 ---
 UID: NA:storduid
+author: windows-driver-content
 ms.assetid: 0bced197-dfad-33bf-a099-834128f75116
 ms.author: windowsdriverdev
 ms.date: 05/09/18

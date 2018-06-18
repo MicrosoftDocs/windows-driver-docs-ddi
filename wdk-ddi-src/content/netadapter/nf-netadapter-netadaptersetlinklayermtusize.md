@@ -69,7 +69,7 @@ The client driver first sets MTU size by calling **NetAdapterSetLinkLayerMtuSize
 
 The client driver can change the MTU size after returning from *[EVT_NET_ADAPTER_SET_CAPABILITIES](nc-netadapter-evt_net_adapter_set_capabilities.md)* by calling this method again. Doing so causes all of the adapter's transmit (Tx) and receive (Rx) queues to be recreated.
 
-The minimum NetAdapterCx version for **NetAdapterSetLinkLayerMtuSize** is 1.0.
+
 
 ## -see-also
 

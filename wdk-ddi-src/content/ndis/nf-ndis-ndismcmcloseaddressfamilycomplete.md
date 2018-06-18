@@ -61,29 +61,13 @@ req.typenames:
 
 ### -param _S_
 
-TBD
-
+The caller sets this to NDIS_STATUS_SUCCESS.
 
 ### -param _H_
-
-TBD
-
-
-
-
-
-
-#### - NdisAfHandle [in]
 
 Specifies the NDIS-supplied handle passed to the MCM driver's 
      <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function when this
      client originally opened the address family.
-
-
-#### - Status [in]
-
-The caller sets this to NDIS_STATUS_SUCCESS.
-
 
 ## -remarks
 

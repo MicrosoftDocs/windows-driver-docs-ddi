@@ -82,7 +82,7 @@ This IOCTL has no output structure.
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ This IOCTL has no output structure.
 
 
 
-<text></text>
+
 
 
 

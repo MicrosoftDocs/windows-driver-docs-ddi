@@ -61,7 +61,7 @@ A handle to a network request object.
 Returns the port number corresponding to the network request object. If the port is unknown or default, returns zero.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetRequestGetPortNumber** is 1.0.
+
 
 ## -see-also
 

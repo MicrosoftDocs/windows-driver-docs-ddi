@@ -103,8 +103,7 @@ A pointer to a variable that receives a pointer to the provider module's context
 
 ### -param ProviderDispatch [out]
 
-A pointer to a variable that receives a pointer to a structure that contains the dispatch table of
-     
+A pointer to a variable that receives a pointer to a structure that contains the dispatch table of     
      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/network-programming-interface">NPI</a> functions for the provider
      module. The contents of the structure are 
      NPI-specific.

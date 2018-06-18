@@ -1,5 +1,6 @@
 ---
 UID: NA:wdfbugcodes
+author: windows-driver-content
 ms.assetid: 04e9e797-b576-3fa0-a394-c856b016d919
 ms.author: windowsdriverdev
 ms.date: 05/09/18

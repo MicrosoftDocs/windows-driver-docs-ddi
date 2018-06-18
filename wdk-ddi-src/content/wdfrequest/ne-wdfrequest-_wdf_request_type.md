@@ -228,7 +228,7 @@ The <b>WDF_REQUEST_TYPE</b> enumeration type is used in the <a href="https://msd
 
 For information about how a framework-based driver can handle request types that the framework does not support, see <a href="https://msdn.microsoft.com/0481f335-f63b-4f93-8eb4-523a70082302">Handling an IRP that the Framework Does Not Support</a>.
 
-For the UMDF version of this enumeration, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561467">WDF_REQUEST_TYPE (UMDF)</a>.
+For the UMDF version of this enumeration, see <a href="https://msdn.microsoft.com/library/windows/hardware/Ff552503">WDF_REQUEST_TYPE (UMDF)</a>.
 
 
 

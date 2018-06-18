@@ -86,7 +86,7 @@ The smallest valid output buffer size is the size of DWORD.  If the driver recei
 
 
 
-<text></text>
+
 
 
 
@@ -95,7 +95,7 @@ The smallest valid output buffer size is the size of DWORD.  If the driver recei
 
 
 
-<text></text>
+
 
 
 

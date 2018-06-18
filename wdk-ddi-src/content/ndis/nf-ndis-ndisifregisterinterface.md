@@ -96,13 +96,6 @@ A pointer to a caller-allocated
 
 ### -param pfIndex
 
-TBD
-
-
-
-
-#### - pIfIndex [out]
-
 A pointer to a caller-supplied interface index variable. If NDIS successfully registers an
      interface, NDIS allocates an interface index for that interface and sets the value at 
      <i>pIfIndex</i> . The interface index is a 24-bit value that is unique on the local computer. NDIS might
@@ -184,8 +177,7 @@ NDIS interface providers call the
 
 Whenever a computer restarts, NDIS starts with an empty list of registered network interfaces. An
     interface provider calls the 
-    <b>NdisIfRegisterInterface</b> function whenever an interface is started (or detected) and the interface's
-    
+    <b>NdisIfRegisterInterface</b> function whenever an interface is started (or detected) and the interface's    
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> is known.
 
 The method for detecting or starting an interface is application dependent. For example, if an LBFO

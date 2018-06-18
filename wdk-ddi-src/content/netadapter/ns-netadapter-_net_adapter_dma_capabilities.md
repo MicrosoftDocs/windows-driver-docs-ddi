@@ -71,7 +71,7 @@ Call [NET_ADAPTER_DMA_CAPABILITIES_INIT](nf-netadapter-net_adapter_dma_capabilit
 
 This structure can be used either in Rx queues, as a member of the [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure, or in Tx queues, as a member of the [NET_ADAPTER_TX_CAPABILITIES](nf-netadapter-net_adapter_tx_capabilities_init_for_dma.md) structure.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_DMA_CAPABILITIES** is 1.2.
+
 
 ## -see-also
 

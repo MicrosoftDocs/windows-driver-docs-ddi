@@ -65,6 +65,6 @@ A NET_ADAPTER_LINK_LAYER_ADDRESS object that the driver initialized in a prior c
 This method does not return a value.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetAdapterSetCurrentLinkLayerAddress** is 1.1.
+
 
 ## -see-also

@@ -59,7 +59,7 @@ The hash index in the indirection table for this entry.
 ## -remarks
 Each **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY** structure is contained within a [NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES](ns-netreceivescaling-_net_adapter_receive_scaling_indirection_entries.md) structure.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY** is 1.2.
+
 
 ## -see-also
 *[EvtNetAdapterReceiveScalingSetIndirectionEntries](nc-netreceivescaling-evt_net_adapter_receive_scaling_set_indirection_entries.md)*

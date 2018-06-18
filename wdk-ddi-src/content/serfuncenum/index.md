@@ -1,5 +1,6 @@
 ---
 UID: NA:serfuncenum
+author: windows-driver-content
 ms.assetid: 20d8601e-c681-324e-869b-dea7c43f02dd
 ms.author: windowsdriverdev
 ms.date: 05/09/18

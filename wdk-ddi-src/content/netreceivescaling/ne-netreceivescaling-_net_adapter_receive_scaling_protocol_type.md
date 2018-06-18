@@ -68,7 +68,7 @@ Indicates that the hardware supports 4-tuple UDP header hash calculation.
 ## -remarks
 The **ReceiveScalingProtocolTypes** member of the [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure is a bitwise OR of **NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE** constants. NIC client drivers can OR multiple values together to indicate which protocol types they support for RSS.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE** is 1.2.
+
 
 ## -see-also
 

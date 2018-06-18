@@ -73,7 +73,17 @@ A pointer to a
 
 ### -param headerIncludeHeaderLength
 
-TBD
+If the NET_BUFFER_LIST structure pointed to by 
+     <i>NetBufferList</i> already contains an IP header, indicates the total size, in bytes, of the existing
+     IP header (if it exists). If 
+     <i>NetBufferList</i> does not contain an IP header, 
+     <i>headerIncludeHeaderSize</i> is zero. Otherwise, the value of this parameter is equal to the 
+     <b>ipHeaderSize</b> member of the 
+     <a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">
+     FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. Note that
+     extension headers for an existing IPv6 header will be removed when this function is called, although
+     IPv4 options will be preserved. For more information, see Remarks.
 
 
 ### -param addressFamily [in]
@@ -181,22 +191,6 @@ The index of the subinterface on which the original packet data was received. A 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function for this
      parameter if the packet is to be injected into the same subinterface where the original packet was
      indicated. This parameter is optional and can be zero.
-
-
-#### - headerIncludeHeaderSize [in]
-
-If the NET_BUFFER_LIST structure pointed to by 
-     <i>NetBufferList</i> already contains an IP header, indicates the total size, in bytes, of the existing
-     IP header (if it exists). If 
-     <i>NetBufferList</i> does not contain an IP header, 
-     <i>headerIncludeHeaderSize</i> is zero. Otherwise, the value of this parameter is equal to the 
-     <b>ipHeaderSize</b> member of the 
-     <a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">
-     FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. Note that
-     extension headers for an existing IPv6 header will be removed when this function is called, although
-     IPv4 options will be preserved. For more information, see Remarks.
-
 
 ## -returns
 

@@ -66,7 +66,7 @@ For more information about WOL patterns, see [NDIS_PM_WOL_PATTERN](../ntddndis/n
 ## -remarks
 The client driver must only call **NetPowerSettingsGetEnabledWakePatternFlags** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)* or *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)* callback function. Otherwise, the call results in a system bugcheck.
 
-The minimum NetAdapterCx version for **NetPowerSettingsGetEnabledWakePatternFlags** is 1.0.
+
 
 ## -see-also
 

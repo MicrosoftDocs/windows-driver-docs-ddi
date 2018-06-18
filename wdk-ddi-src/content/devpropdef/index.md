@@ -1,5 +1,6 @@
 ---
 UID: NA:devpropdef
+author: windows-driver-content
 ms.assetid: 903b120a-2f06-30ea-9a39-f6a975c051b3
 ms.author: windowsdriverdev
 ms.date: 05/09/18

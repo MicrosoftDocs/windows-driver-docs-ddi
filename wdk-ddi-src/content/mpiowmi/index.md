@@ -1,5 +1,6 @@
 ---
 UID: NA:mpiowmi
+author: windows-driver-content
 ms.assetid: d9d42961-f900-37a3-8d51-8325375dbe06
 ms.author: windowsdriverdev
 ms.date: 05/09/18

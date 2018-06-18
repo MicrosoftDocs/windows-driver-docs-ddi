@@ -100,7 +100,7 @@ The size of the buffer that is retrieved by calling <a href="https://msdn.micros
 
 
 
-<text></text>
+
 
 
 
@@ -109,7 +109,7 @@ The size of the buffer that is retrieved by calling <a href="https://msdn.micros
 
 
 
-<text></text>
+
 
 
 

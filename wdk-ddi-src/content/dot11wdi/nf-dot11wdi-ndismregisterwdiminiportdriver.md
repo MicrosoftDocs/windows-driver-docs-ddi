@@ -90,9 +90,7 @@ A pointer to an
 
 ### -param MiniportWdiCharacteristics [in]
 
-A pointer to an 
-     
-     <a href="https://msdn.microsoft.com/library/windows/hardware/mt297617">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a> structure that the caller initialized.
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt297617">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a> structure that the caller initialized.
 
 
 ### -param NdisMiniportDriverHandle [out]

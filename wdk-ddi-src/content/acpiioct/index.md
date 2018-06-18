@@ -1,5 +1,6 @@
 ---
 UID: NA:acpiioct
+author: windows-driver-content
 ms.assetid: 2ccdfa60-af1b-3b60-aaab-f9acba1872c6
 ms.author: windowsdriverdev
 ms.date: 05/09/18

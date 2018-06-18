@@ -74,7 +74,7 @@ If the client provides a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_
 
 As a result, WDF automatically deletes the configuration object when the adapter is deleted. However, the client can manually delete a configuration object by calling [WdfObjectDelete](../wdfobject/nf-wdfobject-wdfobjectdelete.md), typically from its *[EVT_WDF_OBJECT_CONTEXT_CLEANUP](../wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup.md)* callback function.
 
-The minimum NetAdapterCx version for **NetAdapterOpenConfiguration** is 1.0.
+
 
 ## -see-also
 

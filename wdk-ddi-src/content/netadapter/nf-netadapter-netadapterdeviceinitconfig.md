@@ -72,6 +72,6 @@ When a client driver calls **NetAdapterDeviceInitConfig**, the system-supplied N
 - [WdfDeviceInitSetIoType](../wdfdevice/nf-wdfdevice-wdfdeviceinitsetiotype.md)
 - [WdfDeviceInitSetPowerPageable](../wdfdevice/nf-wdfdevice-wdfdeviceinitsetpowerpageable.md)
 
-The minimum NetAdapterCx version for **NetAdapterDeviceInitConfig** is 1.0.
+
 
 ## -see-also

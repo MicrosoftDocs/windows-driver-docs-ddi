@@ -59,29 +59,15 @@ The <b>StorPortReadRegisterUshort</b> routine reads a value from a specified reg
 
 
 
-### -param h
+### -param h [in]
 
-TBD
-
-
-### -param r
-
-TBD
+A Pointer to the hardware device extension.
 
 
 
+### -param r [in]
 
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Register [in]
-
-Pointer to the register where the data is to be read. 
-
+A Pointer to the register where the data is to be read. 
 
 ## -remarks
 

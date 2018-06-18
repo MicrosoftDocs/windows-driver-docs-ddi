@@ -101,8 +101,7 @@ The driver must initialize a variable of type <a href="https://msdn.microsoft.co
 
 After acquiring a lock by using 
     <a href="https://msdn.microsoft.com/library/windows/hardware/hh205388">NdisDprAcquireReadWriteLock</a>, the caller must release that lock by calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh205389">NdisDprReleaseReadWriteLock</a> function. To decrement the reference count of the lock, a driver must call
-    
+    <a href="https://msdn.microsoft.com/library/windows/hardware/hh205389">NdisDprReleaseReadWriteLock</a> function. To decrement the reference count of the lock, a driver must call    
     <b>NdisDprReleaseReadWriteLock</b> once for each call to 
     <b>NdisDprAcquireReadWriteLock</b>.
 
@@ -125,8 +124,7 @@ The driver cannot use a lock to protect resources from read or write access that
     MiniportDisableInterruptEx</a> functions. Instead, the driver must call 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563681">NdisMSynchronizeWithInterruptEx</a> so that its 
     <a href="https://msdn.microsoft.com/aac1ff91-76aa-46a0-8e8a-85b9f8c3323c">
-    MiniportSynchronizeInterrupt</a> function accesses such shared resources at the same DIRQL at which its
-    
+    MiniportSynchronizeInterrupt</a> function accesses such shared resources at the same DIRQL at which its    
     <i>MiniportInterrupt</i> and/or 
     <i>
     MiniportDisableInterruptEx</i> functions do.

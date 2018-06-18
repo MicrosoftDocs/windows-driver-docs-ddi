@@ -182,8 +182,6 @@ Callers of <b>KeWaitForSingleObject</b> must be running at IRQL &lt;= DISPATCH_L
 
 For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540595">Alternatives to Mutex Objects</a>.
 
-For more information about how to use this routine, see <b>KeWaitForSingleObject</b>. 
-
 For more information about mutex objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556417">Mutex Objects</a>.
 
 A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.

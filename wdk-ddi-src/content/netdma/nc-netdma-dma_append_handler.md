@@ -51,10 +51,9 @@ req.typenames:
 
 
 <div class="alert"><b>Note</b>  The NetDMA interface is not supported 
+in Windows 8 and later.</div>
 
-in Windows 8 and later.</div><div> </div>The 
-  <i>ProviderAppendDma</i> function appends a linked list of DMA descriptors to the last descriptor on a DMA
-  channel.
+The <i>ProviderAppendDma</i> function appends a linked list of DMA descriptors to the last descriptor on a DMA channel.
 
 
 ## -parameters

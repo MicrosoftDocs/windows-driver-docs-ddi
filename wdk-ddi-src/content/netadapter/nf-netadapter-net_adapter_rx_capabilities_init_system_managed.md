@@ -69,7 +69,7 @@ This method is one of three possible methods to call in order to initialize a [N
 
 The client driver must call **NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED** to initialize its **NET_ADAPTER_RX_CAPABILITIES** structure if it would like the operating system to perform receive buffer allocation and attachment, but does not require DMA memory mapping. By calling this method, the Rx capabilities structure's **AllocationMode** member is set to **NetRxFragmentBufferAllocationModeSystem** and the **AttachmentMode** member is set to **NetRxFragmentBufferAttachmentModeSystem**. Because the driver does not specify DMA capabilities in this case, this method also sets the **MappingRequirement** member to **NetMemoryMappingRequirementNone**. 
 
-The minimum NetAdapterCx version for **NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED** is 1.2.
+
 
 ## -see-also
 [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md)

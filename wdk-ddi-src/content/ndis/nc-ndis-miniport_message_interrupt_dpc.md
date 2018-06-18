@@ -109,6 +109,7 @@ A pointer to an
 
 ### -param NdisReserved1
 
+Reserved for NDIS.
 
 ### -param NdisReserved2 [in]
 

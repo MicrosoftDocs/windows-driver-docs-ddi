@@ -100,8 +100,7 @@ A destination TCP or UDP port. If DestPort is set to zero, the SA applies to any
 
 ### -field SrcTunnelAddr
 
-The IP address for the source endpoint, such as a connector, of a tunnel. The miniport driver uses
-     
+The IP address for the source endpoint, such as a connector, of a tunnel. The miniport driver uses     
      <b>SrcTunnelAddr</b> as the source address for the tunnel IP header of packets
      sent on the SA. 
      <b>SrcTunnelAddr</b> is specified only for an SA that applies to the tunnel
@@ -168,8 +167,7 @@ The TCP/IP transport specifies one or two OFFLOAD_SECURITY_ASSOCIATION structure
 
 ### -field OffloadHandle
 
-The handle to the newly created SA. The miniport driver supplies this handle before completing the
-     
+The handle to the newly created SA. The miniport driver supplies this handle before completing the     
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a> request.
      The TCP/IP transport must specify this handle in the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a> structure before

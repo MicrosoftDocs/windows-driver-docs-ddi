@@ -3,5 +3,6 @@
   "headers": [
     "ntddk.h",
     "wdm.h"
-  ]
+  ],
+  "displayName": "PCI bus drivers"
 }

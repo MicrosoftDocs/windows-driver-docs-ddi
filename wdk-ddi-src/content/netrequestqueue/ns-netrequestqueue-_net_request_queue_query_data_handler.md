@@ -70,6 +70,6 @@ The minimum input length needed by the client for this request.
 The minimum output length needed by the client for this request.
 
 ## -remarks
-The minimum NetAdapterCx version for **NET_REQUEST_QUEUE_QUERY_DATA_HANDLER** is 1.0.
+
 
 ## -see-also

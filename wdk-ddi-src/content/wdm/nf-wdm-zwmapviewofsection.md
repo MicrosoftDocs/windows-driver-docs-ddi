@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwMapViewOfSection</b> routine maps a <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">view</a> of a section into the virtual address space of a subject process.
+The <b>ZwMapViewOfSection</b> routine maps a of a section into the virtual address space of a subject process.
 
 
 ## -parameters

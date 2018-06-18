@@ -88,6 +88,6 @@ The **NET_PACKET** structure can be an element in a [NET_RING_BUFFER](../netring
 
 You can optionally use [NetRingBufferGetPacketAtIndex](../netadapterpacket/nf-netadapterpacket-netringbuffergetpacketatindex.md) or [NetRingBufferGetNextPacket](../netadapterpacket/nf-netadapterpacket-netringbuffergetnextpacket.md) to obtain a **NET_PACKET** from a ring buffer.
 
-The minimum NetAdapterCx version for **NET_PACKET** is 1.2.
+
 
 ## -see-also

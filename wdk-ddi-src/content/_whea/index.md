@@ -1,5 +1,6 @@
 ---
 UID: TP:whea
+author: windows-driver-content
 ms.assetid: 069ae67e-570f-3fce-99d4-d889f7094ff1
 ms.author: windowsdriverdev
 ms.date: 05/09/18

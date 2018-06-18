@@ -7,7 +7,7 @@ old-location: audio\audio_curve_type.htm
 old-project: audio
 ms.assetid: E3CE3385-8744-4E3F-A5EF-41AC4E3E4375
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/21/2018
 ms.keywords: AUDIO_CURVE_TYPE, AUDIO_CURVE_TYPE enumeration [Audio Devices], AUDIO_CURVE_TYPE_NONE, AUDIO_CURVE_TYPE_WINDOWS_FADE, audio.audio_curve_type, ksmedia/AUDIO_CURVE_TYPE, ksmedia/AUDIO_CURVE_TYPE_NONE, ksmedia/AUDIO_CURVE_TYPE_WINDOWS_FADE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -106,9 +106,7 @@ for (UINT32 nFrame = 0; nFrame &lt; nFrames; nFrame++) {
 
 And the following diagram shows a graphical representation of the preceding pseudocode for setting the volume level.
 
-<img alt="Graphical representation of volume level curve" src="images/curve-type.png"/>
-
-
+![Graphical representation of volume level curve](../images/audio-curve-type.png)
 
 
 ## -see-also

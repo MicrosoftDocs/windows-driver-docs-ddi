@@ -68,7 +68,7 @@ The client driver must only call **NetPowerSettingsGetProtocolOffload** during a
 
 The client driver can use the pointer to examine the [NDIS_PM_PROTOCOL_OFFLOAD](../ntddndis/ns-ntddndis-_ndis_pm_protocol_offload.md) structure, but should not retain it. NetAdapterCx automatically releases the protocol offload structure during offload removal.
 
-The minimum NetAdapterCx version for **NetPowerSettingsGetProtocolOffload** is 1.1.
+
 
 ## -see-also
 

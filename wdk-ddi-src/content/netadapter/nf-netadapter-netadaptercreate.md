@@ -77,7 +77,7 @@ After it has called [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.
 
 The NETADAPTER object is a standard WDF object. The framework manages its deletion, which occurs when the parent WDFDEVICE is deleted.
 
-The minimum NetAdapterCx version for **NetAdapterCreate** is 1.0.
+
 
 ## -see-also
 

@@ -1,5 +1,6 @@
 ---
 UID: NA:wdftriage
+author: windows-driver-content
 ms.assetid: 586f61ca-e154-3e2b-a090-2a3d5b394663
 ms.author: windowsdriverdev
 ms.date: 05/09/18

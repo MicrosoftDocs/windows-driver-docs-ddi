@@ -1,5 +1,6 @@
 ---
 UID: NA:poscx
+author: windows-driver-content
 ms.assetid: 0484e206-0de1-3054-8ac2-1ef67c0f4f2d
 ms.author: windowsdriverdev
 ms.date: 05/09/18

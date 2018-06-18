@@ -112,10 +112,7 @@ Call managers must complete any processing required by their network media to en
     connection is ready for data transmission before returning control to NDIS.
 
 If the call manager specified either ROUND_UP_FLOW or ROUND_DOWN_FLOW in the 
-    <i>CallParameters</i> 
-    
-     -&gt;
-    
+    <i>CallParameters</i> -&gt;     
     <b>MediaParameters-&gt;Flags</b>, the call parameters returned in 
     <i>CallParameters</i> can have been changed by the miniport driver. Call managers should examine the call
     parameters that were returned to ensure proper operation. If the new call parameters are unsatisfactory,

@@ -92,6 +92,8 @@ This structure is defined as follows.
     PFS_FILTER_COMPLETION_CALLBACK PostAcquireForModifiedPageWriter;
     PFS_FILTER_CALLBACK PreReleaseForModifiedPageWriter;
     PFS_FILTER_COMPLETION_CALLBACK PostReleaseForModifiedPageWriter;
+    PFS_FILTER_CALLBACK PreQueryOpen;
+    PFS_FILTER_COMPLETION_CALLBACK PostQueryOpen;
 } FS_FILTER_CALLBACKS, *PFS_FILTER_CALLBACKS;</pre>
 </td>
 </tr>
@@ -243,6 +245,7 @@ File system operation for which the callback routine is to be invoked. This oper
 <li>FS_FILTER_RELEASE_FOR_MOD_WRITE</li>
 <li>FS_FILTER_ACQUIRE_FOR_CC_FLUSH</li>
 <li>FS_FILTER_RELEASE_FOR_CC_FLUSH</li>
+<li>FS_FILTER_QUERY_OPEN</li>
 </ul>
 
 
@@ -310,6 +313,7 @@ The filter parameter union is defined as follows:
     struct {
  FS_FILTER_SECTION_SYNC_TYPE SyncType;
  ULONG PageProtection;
+ PFS_FILTER_SECTION_SYNC_OUTPUT  OutputInformation;
     } AcquireForSectionSynchronization;
     struct {
         PVOID Argument1;
@@ -364,16 +368,41 @@ Type of synchronization requested for the section: SyncTypeCreateSection if a se
 </td>
 <td>
 Type of page protection requested for the section. Must be zero if <i>SyncType</i> is SyncTypeOther. Otherwise, one of the following flags, possibly ORed with PAGE_NOCACHE: <ul>
+<li>PAGE_NOACCESS</li>
 <li>PAGE_READONLY</li>
 <li>PAGE_READWRITE</li>
 <li>PAGE_WRITECOPY</li>
+
+
 <li>PAGE_EXECUTE</li>
+<li>PAGE_EXECUTE_READ</li>
+<li>PAGE_EXECUTE_READWRITE</li>
+<li>PAGE_EXECUTE_WRITECOPY</li>
+
+<li>PAGE_GUARD</li>
+<li>PAGE_NOCACHE</li>
+<li>PAGE_WRITECOMBINE</li>
 </ul>
 
 
 </td>
 </tr>
 <tr>
+
+<tr>
+<td>
+<i>OutputInformation</i>
+
+</td>
+<td>
+The extended output information for the section.
+</ul>
+
+
+</td>
+</tr>
+<tr>
+
 <td>
 <i>Argument1</i>
 
@@ -446,8 +475,8 @@ The <b>FsRtlRegisterFileSystemFilterCallbacks</b> routine can return one of the 
 </td>
 <td width="60%">
 The callback routines were successfully registered. 
-
 </td>
+
 </tr>
 <tr>
 <td width="40%">
@@ -460,6 +489,43 @@ The callback routines were successfully registered.
 
 </td>
 </tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_FSFILTER_OP_COMPLETED_SUCCESSFULLY</b></dt>
+</dl>
+</td>
+<td width="60%">
+<b>FsRtlRegisterFileSystemFilterCallbacks</b> successfully completed an FsFilter operation. 
+
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_FILE_LOCKED_WITH_ONLY_READERS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The file was locked and all users of the file can only read.
+
+</td>
+</tr>
+
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_FILE_LOCKED_WITH_WRITERS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The file was locked and at least one user of the file can write 
+
+</td>
+</tr>
+
 <tr>
 <td width="40%">
 <dl>
@@ -478,8 +544,6 @@ One of the parameters is invalid.
 
 
 ## -remarks
-
-
 
 File system and file system filter drivers should call <b>FsRtlRegisterFileSystemFilterCallbacks</b> from the driver's <b>DriverEntry</b> routine.  
 
@@ -629,6 +693,23 @@ The modified page writer releases a file after writing a portion of the file to 
 
 </td>
 </tr>
+
+<tr>
+<td>
+TBD
+
+</td>
+<td>
+
+<dl>
+<dt>PreQueryOpen</dt>
+<dt>PostQueryOpen</dt>
+</dl>
+
+
+</td>
+</tr>
+
 </table>
  
 

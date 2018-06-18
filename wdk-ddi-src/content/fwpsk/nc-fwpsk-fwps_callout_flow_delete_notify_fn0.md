@@ -114,8 +114,7 @@ The filter engine calls a callout's
     a filtering layer that supports data flows and the callout driver associates a context with the data
     flows that it processes. If a callout driver does not associate a context with the data flows that the
     callout processes, it should not implement a 
-    <i>flowDeleteFn</i> callout function for the callout. In this situation, the callout driver should set the
-    
+    <i>flowDeleteFn</i> callout function for the callout. In this situation, the callout driver should set the    
     <i>flowDeleteFn</i> member of the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551224">FWPS_CALLOUT0</a> structure to <b>NULL</b> when it
     registers the callout with the filter engine.

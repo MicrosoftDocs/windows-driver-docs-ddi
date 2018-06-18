@@ -62,15 +62,6 @@ The
 
 ### -param _L
 
-TBD
-
-
-
-
-
-
-#### - Lookaside [in]
-
 A pointer to the head of the lookaside list from which the entry will be allocated. The caller
      already initialized the list head with the 
      <a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">

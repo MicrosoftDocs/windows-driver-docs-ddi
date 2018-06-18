@@ -181,10 +181,8 @@ If a per-station default key table does not exist for the value of
 
 </li>
 </ul>
-For more information about the 
-     <b>dot11DesiredBSSType</b> MIB object, see 
-     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">
-     OID_DOT11_DESIRED_BSS_TYPE</a>.
+
+For more information about the <b>dot11DesiredBSSType</b> MIB object, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>.
 
 
 ### -field bDelete

@@ -70,15 +70,6 @@ A handle to a context area that the miniport driver allocated in its
 
 ### -param RestartParameters
 
-
-
-
-
-
-
-
-#### - MiniportRestartParameters [in]
-
 A pointer to an 
      <a href="https://msdn.microsoft.com/4e005245-ed98-47fd-aaae-421940edf2dc">
      NDIS_MINIPORT_RESTART_PARAMETERS</a> structure that defines the restart parameters for the miniport

@@ -78,12 +78,7 @@ A pointer to an <i>NdkCreateCompletion</i> (<a href="https://msdn.microsoft.com/
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
 
-#### - **ppNdkMr
-
-A pointer to the created MR object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a>) is returned in this location if request succeeds without returning <b>STATUS_PENDING</b>. If <i>NdkCreateMr</i> returns <b>STATUS_PENDING</b>, this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
-
-
-#### - ppNdkMr
+#### -param **ppNdkMr
 
 A pointer to the created MR object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a>) is returned in this location if request succeeds without returning <b>STATUS_PENDING</b>. If <i>NdkCreateMr</i> returns <b>STATUS_PENDING</b>, this parameter is ignored and the created object is returned  with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 

@@ -64,23 +64,16 @@ The
 
 ### -param ifIndex
 
-TBD
-
+A network interface index that NDIS assigned to a 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value in the 
+     <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
+     NdisIfRegisterInterface</a> function.
 
 ### -param pNetLuid [out]
 
 A pointer to a caller-supplied NET_LUID variable. If 
      <b>NdisIfGetNetLuidFromInterfaceIndex</b> succeeds, NDIS writes the NET_LUID value that is associated
      with the specified network interface index to this variable.
-
-
-#### - IfIndex [in]
-
-A network interface index that NDIS assigned to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value in the 
-     <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
-     NdisIfRegisterInterface</a> function.
-
 
 ## -returns
 

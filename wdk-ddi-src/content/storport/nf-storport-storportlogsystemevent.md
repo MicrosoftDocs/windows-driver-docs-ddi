@@ -65,7 +65,7 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 
 ### -param LogDetails [in, out]
 
-Information to appear in the system event log entry.
+A [STOR_LOG_EVENT_DETAILS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_log_event_details) structure that contains information to appear in the system event log entry.
 
 
 ### -param MaximumSize [in, out]

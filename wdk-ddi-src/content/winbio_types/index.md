@@ -1,5 +1,6 @@
 ---
 UID: NA:winbio_types
+author: windows-driver-content
 ms.assetid: 628c8ccb-7d9b-34de-a75a-7126646798ee
 ms.author: windowsdriverdev
 ms.date: 05/09/18

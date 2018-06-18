@@ -59,26 +59,12 @@ The <b>StorPortReadRegisterUlong</b> routine reads a value from a specified regi
 
 
 
-### -param h
+### -param h [in]
 
-TBD
-
-
-### -param r
-
-TBD
+A pointer to the hardware device extension.
 
 
-
-
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Register [in]
+### -param r [in]
 
 Pointer to the register where the data is to be read. 
 

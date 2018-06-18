@@ -66,8 +66,7 @@ The type of the parameter specified as one of the
      
 
 For successful calls to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a> function, the
-     
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564511">NdisReadConfiguration</a> function, the    
      <b>ParameterType</b> value matches the value at the 
      <i>ParameterType</i> parameter. However, when the 
      <i>ParameterType</i> parameter is 

@@ -1,5 +1,6 @@
 ---
 UID: NA:d3dkmddi
+author: windows-driver-content
 ms.assetid: a83eb75d-c795-391b-b806-21315243d434
 ms.author: windowsdriverdev
 ms.date: 05/09/18

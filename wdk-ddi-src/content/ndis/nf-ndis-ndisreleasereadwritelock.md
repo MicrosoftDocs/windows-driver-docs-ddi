@@ -67,16 +67,8 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 ### -param _Requires_lock_held_
 
-TBD
-
-
-
-
-#### - LockState [in]
-
 A pointer to an opaque <a href="https://msdn.microsoft.com/library/windows/hardware/ff557067">LOCK_STATE</a> variable that tracks the state of the lock. This variable exists
      in the interval between the time the caller acquires and releases the lock.
-
 
 ## -returns
 

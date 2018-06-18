@@ -69,6 +69,6 @@ The **NET_ADAPTER_PAUSE_FUNCTIONS** enumeration is used to specify pause frame s
 
 An initialized [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure is an input to [NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md).
 
-The minimum NetAdapterCx version for **NET_ADAPTER_PAUSE_FUNCTIONS** is 1.0.
+
 
 ## -see-also

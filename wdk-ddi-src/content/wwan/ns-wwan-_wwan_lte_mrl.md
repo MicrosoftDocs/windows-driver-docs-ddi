@@ -65,13 +65,6 @@ The count of MRL entries following this member.
 
 ### -field LTEMrl
 
- 
-
-
-
-
-#### - LTEMrl[ANYSIZE_ARRAY]
-
 The array of MRL records, each specified as a <a href="https://msdn.microsoft.com/49C3D862-EB78-4C44-A7B7-CE15E79EB021">WWAN_LTE_MRL_INFO</a> structure.
 
 

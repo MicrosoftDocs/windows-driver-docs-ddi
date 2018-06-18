@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwAllocateVirtualMemory</b> routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
+The **NtAllocateVirtualMemory** routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A pointer to a variable that will receive the base address of the allocated regi
 
 ### -param ZeroBits [in]
 
-The number of high-order address bits that must be zero in the base address of the section view. This value must be less than 21 and is used only when the operating system determines where to allocate the region, as when <i>BaseAddress</i> is <b>NULL</b>.
+The number of high-order address bits that must be zero in the base address of the section view. Used only when the operating system determines where to allocate the region, as when <i>BaseAddress</i> is <b>NULL</b>. Note that when ZeroBits is larger than 32, it becomes a bitmask. 
 
 
 ### -param RegionSize [in, out]
@@ -146,6 +146,18 @@ The specified region should be created at the highest virtual address possible b
 
 </td>
 </tr>
+
+<tr>
+<td>
+MEM_WRITE_WATCH
+
+</td>
+<td>
+The specified region should be created at the highest virtual address possible based on <i>ZeroBits</i>.
+
+</td>
+</tr>
+
 </table>
  
 
@@ -213,16 +225,7 @@ Execute and read access to the committed region of pages are allowed. An attempt
 
 </td>
 </tr>
-<tr>
-<td>
-PAGE_EXECUTE_READWRITE
 
-</td>
-<td>
-Execute, read, and write access to the committed region of pages are allowed.
-
-</td>
-</tr>
 <tr>
 <td>
 PAGE_GUARD

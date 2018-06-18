@@ -63,7 +63,7 @@ Returns the total number of enabled and disabled WoL patterns stored in the NETP
 ## -remarks
 The client driver must only call **NetPowerSettingsGetWakePatternCount** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_ADAPTER_PREVIEW_WAKE_PATTERN](../netadapter/nc-netadapter-evt_net_adapter_preview_wake_pattern.md)* callback function. Otherwise, the call results in a system bugcheck.
 
-The minimum NetAdapterCx version for **NetPowerSettingsGetWakePatternCount** is 1.1.
+
 
 ## -see-also
 

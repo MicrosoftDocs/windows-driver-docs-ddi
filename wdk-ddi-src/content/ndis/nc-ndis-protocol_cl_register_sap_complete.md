@@ -175,8 +175,7 @@ The format of a SAP is specific to the call manager. If the call manager does no
     that the client is attempting to register or if the specified SAP is already in use, the call manager can
     fail the SAP registration. 
     <i>ProtocolClRegisterSapComplete</i> should check the input 
-    <i>Status</i> for NDIS_STATUS_SUCCESS before proceding further. If the attempt to register the SAP failed,
-    
+    <i>Status</i> for NDIS_STATUS_SUCCESS before proceding further. If the attempt to register the SAP failed,    
     <i>ProtocolClRegisterSapComplete</i> can either release the per-SAP context area and buffer at 
     <i>Sap</i> that the client allocated or prepare them for reuse in another call to 
     <b>NdisClRegisterSap</b>.

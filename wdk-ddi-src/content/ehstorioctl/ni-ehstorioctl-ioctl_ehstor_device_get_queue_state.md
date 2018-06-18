@@ -102,7 +102,7 @@ The length of an <b> ACT_QUEUE_STATE</b>  structure.
 
 
 
-<text></text>
+
 
 
 
@@ -111,7 +111,7 @@ The length of an <b> ACT_QUEUE_STATE</b>  structure.
 
 
 
-<text></text>
+
 
 
 

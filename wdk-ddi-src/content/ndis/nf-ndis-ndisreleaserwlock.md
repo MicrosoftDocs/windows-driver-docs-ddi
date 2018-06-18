@@ -92,8 +92,7 @@ None
 
 
 NDIS drivers call the 
-    <b>NdisReleaseRWLock</b> function to release a read/write lock that was previously obtained by calling the
-    
+    <b>NdisReleaseRWLock</b> function to release a read/write lock that was previously obtained by calling the    
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff560697">NdisAcquireRWLockRead</a> or 
     <a href="https://msdn.microsoft.com/124302d7-0776-4025-b71f-ce6300f97f49">
     NdisAcquireRWLockWrite</a> function.

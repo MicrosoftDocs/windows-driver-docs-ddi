@@ -83,7 +83,7 @@ The **NET_ADAPTER_MEDIA_SPECIFIC_WAKEUP_EVENTS_FLAGS** enumeration is used to sp
 
 The [NET_ADAPTER_POWER_CAPABILITIES](ns-netadapter-_net_adapter_power_capabilities.md) structure is used as input to [NetAdapterSetPowerCapabilities](nf-netadapter-netadaptersetpowercapabilities.md).
 
-The minimum NetAdapterCx version for **NET_ADAPTER_MEDIA_SPECIFIC_WAKEUP_EVENTS_FLAGS** is 1.0.
+
 
 ## -see-also
 

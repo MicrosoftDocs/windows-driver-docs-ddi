@@ -1,5 +1,6 @@
 ---
 UID: NA:ucmtcpcifuncenum
+author: windows-driver-content
 ms.assetid: 2b1b386b-f456-3261-83d4-508148bde00a
 ms.author: windowsdriverdev
 ms.date: 05/09/18

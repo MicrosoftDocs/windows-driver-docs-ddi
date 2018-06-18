@@ -71,7 +71,10 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 
 ### -param NetBufferList
 
-TBD
+A pointer to a linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures. The filter driver received the
+     <b>NET_BUFFER_LIST</b> structures in previous calls to the 
+     <a href="https://msdn.microsoft.com/1b3fc0c8-95da-47e5-8ff1-b7967f5148e7">
+     FilterSendNetBufferLists</a> function.
 
 
 ### -param SendCompleteFlags [in]
@@ -99,14 +102,6 @@ For more information, see <a href="https://msdn.microsoft.com/FBA506EC-4E9F-4964
 <div> </div>
 <div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div>
 <div> </div>
-
-#### - NetBufferLists [in]
-
-A pointer to a linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures. The filter driver received the
-     <b>NET_BUFFER_LIST</b> structures in previous calls to the 
-     <a href="https://msdn.microsoft.com/1b3fc0c8-95da-47e5-8ff1-b7967f5148e7">
-     FilterSendNetBufferLists</a> function.
-
 
 ## -returns
 

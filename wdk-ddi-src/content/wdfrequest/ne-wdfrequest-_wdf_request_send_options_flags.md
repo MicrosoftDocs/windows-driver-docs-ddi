@@ -116,7 +116,7 @@ The request type is <a href="https://msdn.microsoft.com/91c036a0-7fce-4c7d-a217-
 
 </li>
 </ul>
-For the UMDF version of this enumeration, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561462">WDF_REQUEST_SEND_OPTIONS_FLAGS (UMDF)</a>.
+For the UMDF version of this enumeration, see <a href="https://msdn.microsoft.com/library/windows/hardware/Ff552493">WDF_REQUEST_SEND_OPTIONS_FLAGS (UMDF)</a>.
 
 
 

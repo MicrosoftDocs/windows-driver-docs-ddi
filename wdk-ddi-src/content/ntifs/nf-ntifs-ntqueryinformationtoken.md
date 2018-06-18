@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwQueryInformationToken</b> routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information. 
+The <b>NtQueryInformationToken</b> routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information. 
 
 
 ## -parameters
@@ -104,7 +104,7 @@ The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 </td>
 <td>
-The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> value indicating the impersonation level of the token. If the access token is not an impersonation token, the call to <b>ZwQueryInformationToken</b> fails. 
+The buffer receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a> value indicating the impersonation level of the token. If the access token is not an impersonation token, the call to <b>NtQueryInformationToken</b> fails. 
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ The value of <i>TokenInformationClass</i> is <b>TokenDefaultDacl</b>, and there 
 
 
 
-<b>ZwQueryInformationToken</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
+<b>NtQueryInformationToken</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
 
 <table>
 <tr>
@@ -288,11 +288,11 @@ The size of the requested token information structure is greater than <i>TokenIn
 
 
 
-The <b>ZwQueryInformationToken</b> routine can be used by a file system or file system filter driver to determine the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> of the caller that initiated the request during <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> processing. If <b>TokenUser</b> is specified for the <i>TokenInformationClass</i> parameter passed to <b>ZwQueryInformationToken</b>, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556855">TOKEN_USER</a> structure is returned in the buffer pointed to by the <i>TokenInformation</i> parameter. This returned buffer contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a> structure with the user <b>SID</b>.
+The <b>NtQueryInformationToken</b> routine can be used by a file system or file system filter driver to determine the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a> of the caller that initiated the request during <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a> processing. If <b>TokenUser</b> is specified for the <i>TokenInformationClass</i> parameter passed to <b>NtQueryInformationToken</b>, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556855">TOKEN_USER</a> structure is returned in the buffer pointed to by the <i>TokenInformation</i> parameter. This returned buffer contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a> structure with the user <b>SID</b>.
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK. 
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwQueryInformationToken</b> function occurs in user mode, you should use the name "<b>NtQueryInformationToken</b>" instead of "<b>ZwQueryInformationToken</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtQueryInformationToken</b> function occurs in user mode, you should use the name "<b>NtQueryInformationToken</b>" instead of "<b>ZwQueryInformationToken</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 

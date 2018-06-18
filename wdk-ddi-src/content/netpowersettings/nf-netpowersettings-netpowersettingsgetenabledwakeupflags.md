@@ -66,7 +66,7 @@ For more information, see the **WakeUpFlags** member of [NDIS_PM_PARAMETERS](../
 ## -remarks
 The client driver must only call **NetPowerSettingsGetEnabledWakeUpFlags** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)* or *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)* callback function. Otherwise, the call results in a system bugcheck.
 
-The minimum NetAdapterCx version for **NetPowerSettingsGetEnabledWakeUpFlags** is 1.1.
+
 
 ## -see-also
 

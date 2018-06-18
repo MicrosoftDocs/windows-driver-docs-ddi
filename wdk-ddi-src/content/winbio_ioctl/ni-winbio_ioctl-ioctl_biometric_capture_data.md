@@ -91,7 +91,7 @@ If the driver receives a DWORD-sized output buffer, the driver must immediately 
 
 
 
-<text></text>
+
 
 
 
@@ -100,7 +100,7 @@ If the driver receives a DWORD-sized output buffer, the driver must immediately 
 
 
 
-<text></text>
+
 
 
 

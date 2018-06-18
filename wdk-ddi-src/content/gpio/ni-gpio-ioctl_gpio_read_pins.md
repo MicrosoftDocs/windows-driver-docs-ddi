@@ -82,7 +82,7 @@ The output buffer should be large enough to contain readings from all of the GPI
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ The output buffer should be large enough to contain readings from all of the GPI
 
 
 
-<text></text>
+
 
 
 

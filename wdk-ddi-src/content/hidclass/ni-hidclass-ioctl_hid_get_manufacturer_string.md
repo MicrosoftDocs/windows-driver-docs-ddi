@@ -79,7 +79,7 @@ The maximum possible number of characters in an embedded string is device specif
 
 
 
-<text></text>
+
 
 
 
@@ -88,7 +88,7 @@ The maximum possible number of characters in an embedded string is device specif
 
 
 
-<text></text>
+
 
 
 
@@ -97,7 +97,7 @@ The maximum possible number of characters in an embedded string is device specif
 
 
 
-<text></text>
+
 
 
 

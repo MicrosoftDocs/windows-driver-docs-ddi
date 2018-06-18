@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwSetInformationThread</b> routine sets the priority of a thread.
+The <b>NtSetInformationThread</b> routine sets the priority of a thread.
 
 
 ## -parameters
@@ -154,7 +154,7 @@ The size, in bytes, of <b>ThreadInformation</b>.
 
 
 
-<b>ZwSetInformationThread</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error codes include STATUS_INFO_LENGTH_MISMATCH or STATUS_INVALID_PARAMETER.
+<b>NtSetInformationThread</b> returns STATUS_SUCCESS on success, or the appropriate NTSTATUS error code on failure. Possible error codes include STATUS_INFO_LENGTH_MISMATCH or STATUS_INVALID_PARAMETER.
 
 
 
@@ -163,13 +163,13 @@ The size, in bytes, of <b>ThreadInformation</b>.
 
 
 
-<b>ZwSetInformationThread</b> can be called by higher-level drivers to set the priority of a thread for which they have a handle.
+<b>NtSetInformationThread</b> can be called by higher-level drivers to set the priority of a thread for which they have a handle.
 
 The caller must have THREAD_SET_INFORMATION access rights for the given thread in order to call this routine.
 
-Usually, device and intermediate drivers that set up driver-created threads call <a href="https://msdn.microsoft.com/library/windows/hardware/ff553246">KeSetBasePriorityThread</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553265">KeSetPriorityThread</a> from their driver-created threads, rather than calling <b>ZwSetInformationThread</b>. However, a driver can call <b>ZwSetInformationThread</b> to raise the priority of a driver-created thread before that thread runs.
+Usually, device and intermediate drivers that set up driver-created threads call <a href="https://msdn.microsoft.com/library/windows/hardware/ff553246">KeSetBasePriorityThread</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553265">KeSetPriorityThread</a> from their driver-created threads, rather than calling <b>NtSetInformationThread</b>. However, a driver can call <b>NtSetInformationThread</b> to raise the priority of a driver-created thread before that thread runs.
 
-Kernel mode drivers can call the <b>ZwSetInformationThread</b> function with <b>ThreadPagePriority</b> to specify a thread's page priority.
+Kernel mode drivers can call the <b>NtSetInformationThread</b> function with <b>ThreadPagePriority</b> to specify a thread's page priority.
 
 To help improve system performance, drivers should use the  function with <b>ThreadPagePriority</b> to lower the page priority of threads that perform background operations or access files and data that are not expected to be accessed again soon. For example, an anti-malware application might lower the priority of threads involved in scanning files.
 

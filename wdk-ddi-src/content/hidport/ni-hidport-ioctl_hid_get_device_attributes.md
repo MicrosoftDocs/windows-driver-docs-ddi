@@ -84,7 +84,7 @@ The size of a HID_DEVICE_ATTRIBUTES structure.
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ The size of a HID_DEVICE_ATTRIBUTES structure.
 
 
 
-<text></text>
+
 
 
 

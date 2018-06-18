@@ -71,7 +71,7 @@ This method is one of three possible methods to call in order to initialize a [N
 
 The client driver must call **NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED** to initialize its **NET_ADAPTER_RX_CAPABILITIES** structure if it would like to perform manual receive buffer allocation and attachment. By calling this method, the Rx capabilities structure's **AllocationMode** member is set to **NetRxFragmentBufferAllocationModeDriver** and the **AttachmentMode** member is set to **NetRxFragmentBufferAttachmentModeDriver**. In this case, it must also provide a pointer to its *EVT_NET_ADAPTER_RETURN_RX_BUFFER* callback function in the structure for the operating system to invoke once the system has finished with the receive buffer.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED** is 1.2.
+
 
 ### EvtNetAdapterReturnRxBuffer
 

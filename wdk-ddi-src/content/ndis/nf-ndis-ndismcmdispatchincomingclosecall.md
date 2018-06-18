@@ -61,42 +61,11 @@ req.typenames:
 
 ### -param _S_
 
-TBD
-
-
-### -param _H_
-
-TBD
-
-
-### -param _B_
-
-TBD
-
-
-### -param _Z_
-
-TBD
-
-
-
-
-
-
-#### - Buffer [in, optional]
-
-Pointer to a caller-allocated resident buffer containing additional protocol-specific disconnect
-     data, if any. Depending on the underlying medium, this pointer can be <b>NULL</b>.
-
-
-#### - CloseStatus [in]
-
 Specifies a caller-determined NDIS_STATUS_<i>XXX</i>, indicating the reason for the disconnect request. During normal network operations, an MCM
      driver passes NDIS_STATUS_SUCCESS to indicate that it has received a request, initiated by the remote
      party, to close an active call.
 
-
-#### - NdisVcHandle [in]
+### -param _H_
 
 Specifies the handle to the VC of the call being disconnected. This handle was supplied by NDIS
      when the VC was originally created, whether by the MCM driver with 
@@ -104,12 +73,15 @@ Specifies the handle to the VC of the call being disconnected. This handle was s
      to its 
      <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
 
+### -param _B_
 
-#### - Size [in]
+Pointer to a caller-allocated resident buffer containing additional protocol-specific disconnect
+     data, if any. Depending on the underlying medium, this pointer can be <b>NULL</b>.
+
+### -param _Z_
 
 Specifies the size in bytes of the buffer, zero if 
      <i>Buffer</i> is <b>NULL</b>.
-
 
 ## -remarks
 

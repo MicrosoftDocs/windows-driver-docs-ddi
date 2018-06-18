@@ -89,8 +89,7 @@ A locally unique identifier obtained by calling the
 
 ### -param providerGuid
 
-TBD
-
+The provider GUID.
 
 ### -param deviceObject [in, out]
 
@@ -108,11 +107,6 @@ A pointer to the callout driver's
 ### -param flags [in]
 
 This parameter is reserved for future use and is set to zero.
-
-
-#### - providerGUID [in]
-
-The provider GUID.
 
 
 ## -returns

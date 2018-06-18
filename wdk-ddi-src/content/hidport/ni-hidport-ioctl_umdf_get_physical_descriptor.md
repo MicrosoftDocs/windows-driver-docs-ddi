@@ -68,7 +68,7 @@ A UMDF-based driver obtains the size, in bytes, of the buffer by calling <a href
 
 
 
-<text></text>
+
 
 
 
@@ -87,7 +87,7 @@ The size of the buffer that is retrieved by calling <a href="https://msdn.micros
 
 
 
-<text></text>
+
 
 
 
@@ -96,7 +96,7 @@ The size of the buffer that is retrieved by calling <a href="https://msdn.micros
 
 
 
-<text></text>
+
 
 
 

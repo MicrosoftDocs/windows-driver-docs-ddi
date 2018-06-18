@@ -86,7 +86,7 @@ The VRP <b>InputBuffer</b> contains a <a href="https://msdn.microsoft.com/librar
 
 
 
-<text></text>
+
 
 
 
@@ -100,7 +100,7 @@ The miniport driver returns 1 in the VRP <b>OutputBuffer</b> if the video port d
 
 
 
-<text></text>
+
 
 
 
@@ -109,7 +109,7 @@ The miniport driver returns 1 in the VRP <b>OutputBuffer</b> if the video port d
 
 
 
-<text></text>
+
 
 
 
@@ -118,7 +118,7 @@ The miniport driver returns 1 in the VRP <b>OutputBuffer</b> if the video port d
 
 
 
-<text></text>
+
 
 
 

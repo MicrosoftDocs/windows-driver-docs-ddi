@@ -100,7 +100,7 @@ The length of the retrieved string  (a NULL-terminated wide character string).
 
 
 
-<text></text>
+
 
 
 
@@ -109,7 +109,7 @@ The length of the retrieved string  (a NULL-terminated wide character string).
 
 
 
-<text></text>
+
 
 
 

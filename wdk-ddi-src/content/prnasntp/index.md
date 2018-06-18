@@ -1,5 +1,6 @@
 ---
 UID: NA:prnasntp
+author: windows-driver-content
 ms.assetid: 06a2babb-67c2-3b95-be24-a44b7eec0bcf
 ms.author: windowsdriverdev
 ms.date: 05/09/18

@@ -1,5 +1,6 @@
 ---
 UID: NA:tcpxcv
+author: windows-driver-content
 ms.assetid: e9797045-40ad-34c6-9ea6-6f97213a1dab
 ms.author: windowsdriverdev
 ms.date: 05/09/18

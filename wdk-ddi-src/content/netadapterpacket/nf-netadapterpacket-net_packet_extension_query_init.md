@@ -70,7 +70,7 @@ To prevent re-querying extension offsets too often, call this method and **NetTx
 
 For more information about packet extensions and available packet extension constants, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions). For a code sample, see *[EvtNetAdapterCreateTxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_txqueue.md)* or *[EvtNetAdapterCreateRxQueue](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)*.
 
-The minimum NetAdapterCx version for **NET_PACKET_EXTENSION_QUERY_INIT** is 1.2.
+
 
 ## -see-also
 

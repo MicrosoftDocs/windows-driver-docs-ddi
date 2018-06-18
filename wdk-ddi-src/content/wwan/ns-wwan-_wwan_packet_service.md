@@ -138,8 +138,7 @@ The following points provide guidelines on returning network specific error in d
 If the packet-attach operation fails because of network specific error, miniport drivers should
       return the network specific error in response to 
       <i>query</i> requests. In this case, miniport drivers should set the 
-      <b>uStatus</b> member of the NDIS_WWAN_PACKET_SERVICE_STATE structure to WWAN_STATUS_SUCCESS and set the
-      
+      <b>uStatus</b> member of the NDIS_WWAN_PACKET_SERVICE_STATE structure to WWAN_STATUS_SUCCESS and set the      
       <b>uNwError</b> member to the network specific error code.
 
 </li>
@@ -147,8 +146,7 @@ If the packet-attach operation fails because of network specific error, miniport
 If a 
       <i>set</i> request fails, miniport drivers should return the network specific error code. In this case,
       miniport drivers should set the 
-      <b>uStatus</b> member of the NDIS_WWAN_PACKET_SERVICE_STATE structure to WWAN_STATUS_FAILURE and set the
-      
+      <b>uStatus</b> member of the NDIS_WWAN_PACKET_SERVICE_STATE structure to WWAN_STATUS_FAILURE and set the      
       <b>uNwError</b> member to the network specific error code.
 
 </li>
@@ -156,8 +154,7 @@ If a
 Whenever the device registration state changes because the network packet-detaches the device then
       unsolicited status events should include the network specific error. In this case, the miniport driver
       should set the 
-      <b>uStatus</b> member of the NDIS_WWAN_PACKET_SERVICE_STATE structure to WWAN_STATUS_SUCCESS and set the
-      
+      <b>uStatus</b> member of the NDIS_WWAN_PACKET_SERVICE_STATE structure to WWAN_STATUS_SUCCESS and set the      
       <b>uNwError</b> member to the network specific error code.
 
 </li>

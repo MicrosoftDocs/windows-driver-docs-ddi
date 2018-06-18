@@ -82,7 +82,7 @@ Size of the output buffer, in bytes. Set to sizeof(<i>PosStringType</i>) + enoug
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ Size of the output buffer, in bytes. Set to sizeof(<i>PosStringType</i>) + enoug
 
 
 
-<text></text>
+
 
 
 

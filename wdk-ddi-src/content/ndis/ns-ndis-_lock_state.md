@@ -52,10 +52,16 @@ req.typenames: LOCK_STATE, *PLOCK_STATE
 
 The <b>LOCK_STATE</b> structure tracks the state of a read/write lock. This structure is opaque to NDIS
    drivers.
-   
-
 
 ## -struct-fields
+
+### -field LockState
+
+Reserved.
+
+### -field OldIrql
+
+Reserved.
 
 
 ## -see-also

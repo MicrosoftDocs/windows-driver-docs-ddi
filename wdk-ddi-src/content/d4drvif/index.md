@@ -1,5 +1,6 @@
 ---
 UID: NA:d4drvif
+author: windows-driver-content
 ms.assetid: caf37378-22f9-3683-8178-815716ae30bc
 ms.author: windowsdriverdev
 ms.date: 05/09/18

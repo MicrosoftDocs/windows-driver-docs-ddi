@@ -1,5 +1,6 @@
 ---
 UID: TP:storage
+author: windows-driver-content
 ms.assetid: 2c8add25-915b-3bb1-957b-a04df40081fc
 ms.author: windowsdriverdev
 ms.date: 05/09/18

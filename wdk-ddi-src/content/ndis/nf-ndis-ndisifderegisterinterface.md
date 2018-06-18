@@ -65,18 +65,10 @@ The
 
 ### -param ifIndex
 
-TBD
-
-
-
-
-#### - IfIndex [in]
-
 An index that identifies the network interface to deregister. The interface provider obtained this
      index from a previous call to the 
      <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
      NdisIfRegisterInterface</a> function.
-
 
 ## -returns
 

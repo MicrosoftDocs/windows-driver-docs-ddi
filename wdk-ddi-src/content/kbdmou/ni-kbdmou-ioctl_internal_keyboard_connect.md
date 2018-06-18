@@ -121,7 +121,7 @@ The size of a <b>CONNECT_DATA</b> structure.
 
 
 
-<text></text>
+
 
 
 
@@ -130,7 +130,7 @@ The size of a <b>CONNECT_DATA</b> structure.
 
 
 
-<text></text>
+
 
 
 

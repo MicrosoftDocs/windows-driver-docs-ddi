@@ -61,7 +61,7 @@ A handle to a network request object.
 Returns a [NDIS_REQUEST_TYPE](../ntddndis/ne-ntddndis-_ndis_request_type.md) value that specifies the request type of the OID request.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetRequestGetType** is 1.0.
+
 
 ## -see-also
 

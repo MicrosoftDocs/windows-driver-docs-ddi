@@ -85,7 +85,7 @@ The driver returns an array of <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<text></text>
+
 
 
 
@@ -94,7 +94,7 @@ The driver returns an array of <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<text></text>
+
 
 
 

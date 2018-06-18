@@ -91,7 +91,7 @@ The driver returns the feature and profile data in the buffer at <b>Irp-&gt;Asso
 
 
 
-<text></text>
+
 
 
 
@@ -100,7 +100,7 @@ The driver returns the feature and profile data in the buffer at <b>Irp-&gt;Asso
 
 
 
-<text></text>
+
 
 
 

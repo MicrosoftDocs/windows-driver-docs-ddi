@@ -110,7 +110,7 @@ If NDIS_REQUEST_TYPE is not query, set, or method, NetAdapterCx calls the client
 
 The contents of the *InputOutputBuffer*, *InputBufferLength*, and *OutputBufferLength* parameters are specific to NDIS_REQUEST_TYPE.
 
-The minimum NetAdapterCx version for *EVT_NET_REQUEST_DEFAULT* is 1.0.
+
 
 ## -see-also
 

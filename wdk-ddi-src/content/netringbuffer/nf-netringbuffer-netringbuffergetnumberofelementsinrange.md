@@ -73,6 +73,6 @@ Similarly, the range [4, 1) includes elements at index values 4, 5, 6, 7, and 0 
 
 Finally, note that an empty range like [2, 2) returns zero elements.
 
-The minimum NetAdapterCx version for **NetRingBufferGetNumberOfElementsInRange** is 1.0.
+
 
 ## -see-also

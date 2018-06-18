@@ -1,5 +1,6 @@
 ---
 UID: NA:systemrng
+author: windows-driver-content
 ms.assetid: ca8d34e6-cbab-375a-be2d-e46d053e0a33
 ms.author: windowsdriverdev
 ms.date: 05/09/18
