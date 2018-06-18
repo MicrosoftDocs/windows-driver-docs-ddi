@@ -102,15 +102,14 @@ Specifies an extended-rate 802.11g PHY (ERP).
 
 Specifies a high-throughput (HT) 802.11n PHY. Each 802.11n PHY, whether dual-band or not, is specified as this PHY type.
 
-
-
-
 ### -field WDI_PHY_TYPE_VHT
 
 Specifies a very high-throughput (VHT) 802.11ac PHY.
 
 
 ### -field WDI_PHY_TYPE_DMG
+
+TBD
 
 Added in Windows 10, version 1607, WDI version 1.0.21.
 
@@ -128,11 +127,6 @@ Specifies an 802.11ax PHY.
 Specifies the start of the range that is used to define proprietary PHY types that are developed by an independent hardware vendor (IHV). 
 
 
-
-
 ### -field WDI_PHY_TYPE_IHV_END
 
 Specifies the end of the range that is used to define proprietary PHY types that are developed by an IHV. 
-
-
-
