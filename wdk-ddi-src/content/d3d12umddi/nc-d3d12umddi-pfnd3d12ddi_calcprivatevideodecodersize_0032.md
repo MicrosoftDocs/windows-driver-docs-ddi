@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: 
+req.typenames:
 ---
 
 # PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032 callback function
@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-Used to calculate the size of a video decoder.
+Used to calculate the size of a video decoder. The D3D runtime allocates memory for storing the drivers CPU object representing the video decoder.
 
 
 ## -parameters
@@ -63,9 +63,9 @@ Used to calculate the size of a video decoder.
 The hardware device being processed.
 
 
-### -param *pArgs [in]
+### -param *pArgs
 
-The arguments used to create a video decoder.
+[in] The arguments used to create a video decoder.
 
 
 ## -returns
