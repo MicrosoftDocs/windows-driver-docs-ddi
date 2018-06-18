@@ -109,8 +109,6 @@ Specifies a very high-throughput (VHT) 802.11ac PHY.
 
 ### -field WDI_PHY_TYPE_DMG
 
-TBD
-
 Added in Windows 10, version 1607, WDI version 1.0.21.
 
 Specifies an 802.11ad PHY.
