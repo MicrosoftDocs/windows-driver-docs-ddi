@@ -65,37 +65,37 @@ A function that checks format support. See [pfnCheckFormatSupport](nc-d3d12umddi
 
 ### -field pfnCheckMultisampleQualityLevels
 
-A function that checks multi-sample quality levels. See [PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS](nc-d3d12umddi-pfnd3d12ddi_checkmultisamplequalitylevels.md)
+A function that checks multi-sample quality levels. See [pfnCheckMultisampleQualityLevels](nc-d3d12umddi-pfnd3d12ddi_checkmultisamplequalitylevels.md).
 
 
 ### -field pfnGetMipPacking
 
-A function that gets MIP packing.
+A function that gets MIP packing. See [pfnGetMipPacking](nc-d3d12umddi-pfnd3d12ddi_getmippacking.md).
 
 
 ### -field pfnCalcPrivateElementLayoutSize
 
-A function that calculates layout size for a private element.
+A function that calculates layout size for a private element. [pfnCalcPrivateElementLayoutSize](nc-d3d12umddi-pfnd3d12ddi_calcprivateelementlayoutsize.md).
 
 
 ### -field pfnCreateElementLayout
 
-A function that creates an element layout.
+A function that creates an element layout. See [pfnCreateElementLayout](nc-d3d12umddi-pfnd3d12ddi_createelementlayout_0003.md).
 
 
 ### -field pfnDestroyElementLayout
 
-A function that destroys an element layout.
+A function that destroys an element layout. See [pfnDestroyElementLayout](nc-d3d12umddi-pfnd3d12ddi_destroyelementlayout.md).
 
 
 ### -field pfnCalcPrivateBlendStateSize
 
-A function that calculates the size of a private blend state.
+A function that calculates the size of a private blend state. See [pfnCalcPrivateBlendStateSize](nc-d3d12umddi-pfnd3d12ddi_calcprivateblendstatesize_0010.md).
 
 
 ### -field pfnCreateBlendState
 
-A function that creates a blend state.
+A function that creates a blend state. See []().
 
 
 ### -field pfnDestroyBlendState
