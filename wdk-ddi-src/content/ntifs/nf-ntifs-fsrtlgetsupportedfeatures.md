@@ -98,6 +98,20 @@ The volume supports offloaded read operations.
 The volume supports offloaded write operations.
 
 </td>
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="SUPPORTED_FS_FEATURES_OFFLOAD_WRITE"></a><a id="supported_fs_features_offload_write"></a><dl>
+<dt><b>SUPPORTED_FS_FEATURES_QUERY_OPEN</b></dt>
+<dt>0x00000002</dt>
+</dl>
+</td>
+<td width="60%">
+The volume supports query open operations.
+</td>
+
+
 </tr>
 </table>
  

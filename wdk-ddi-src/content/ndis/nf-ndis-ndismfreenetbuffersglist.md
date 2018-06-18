@@ -50,6 +50,12 @@ req.typenames:
 
 ## -description
 
+> [!CAUTION]
+> For ARM and ARM64 processors, we strongly recommend that NDIS driver writers use WDF DMA or WDM DMA instead of NDIS Scatter/Gather DMA. 
+>
+> For more information about WDF DMA, see [Handling DMA Operations in KMDF Drivers](https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-dma-operations-in-kmdf-drivers).
+>
+> For more information about WDM DMA, see the DMA-related child topics of [Managing Input/Output for Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-input-output-for-drivers).
 
 Bus-master miniport drivers call the 
   <b>NdisMFreeNetBufferSGList</b> function to free scatter/gather list resources that were allocated by
@@ -120,16 +126,6 @@ Before accessing received data, miniport drivers must call <b>NdisMFreeNetBuffer
 ## -see-also
 
 
-
-
-<a href="https://msdn.microsoft.com/95463617-65df-4c02-82f4-e3aba44d42fb">Allocating and Freeing Scatter/Gather Lists</a>
-
-
-
-<a href="https://msdn.microsoft.com/c7e702aa-494f-4b27-a7c3-d42ef8f42a6e">Miniport Driver Scatter/Gather DMA</a>
-
-
-
 <a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a>
 
 
@@ -148,11 +144,3 @@ Before accessing received data, miniport drivers must call <b>NdisMFreeNetBuffer
 
 <a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
    NdisMRegisterScatterGatherDma</a>
-
-
-
-<a href="https://msdn.microsoft.com/b24e0a56-1864-4f70-a646-c35e8eccd9e3">Registering and Deregistering DMA Channels</a>
- 
-
- 
-

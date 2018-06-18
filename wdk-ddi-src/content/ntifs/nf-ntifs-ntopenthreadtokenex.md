@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwOpenThreadTokenEx</b> routine opens the access token associated with a thread. 
+The <b>NtOpenThreadTokenEx</b> routine opens the access token associated with a thread. 
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Handle to the thread whose access token is to be opened. The handle must have TH
 
 ### -param OpenAsSelf [in]
 
-Boolean value specifying whether the access check is to be made against the security context of the thread calling <b>ZwOpenThreadTokenEx</b> or against the security context of the process for the calling thread. 
+Boolean value specifying whether the access check is to be made against the security context of the thread calling <b>NtOpenThreadTokenEx</b> or against the security context of the process for the calling thread. 
 
 If this parameter is <b>FALSE</b>, the access check is performed using the security context for the calling thread. If the thread is impersonating a client, this security context can be that of a client process. If this parameter is <b>TRUE</b>, the access check is made using the security context of the process for the calling thread. 
 
@@ -91,7 +91,7 @@ Pointer to a caller-allocated variable that receives a handle to the newly opene
 
 
 
-<b>ZwOpenThreadTokenEx</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following: 
+<b>NtOpenThreadTokenEx</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following: 
 
 <table>
 <tr>
@@ -174,17 +174,17 @@ An attempt has been made to open a token associated with a thread that is not cu
 
 
 
-<b>ZwOpenThreadTokenEx</b> opens the access token associated with a thread and returns a handle for that token. 
+<b>NtOpenThreadTokenEx</b> opens the access token associated with a thread and returns a handle for that token. 
 
 The <i>OpenAsSelf</i> parameter allows a server process to open the access token for a client process when the client process has specified the SecurityIdentification impersonation level for the <b>SECURITY_IMPERSONATION_LEVEL</b> enumerated type. Without this parameter, the calling process is not be able to open the client's access token using the client's security context because it is impossible to open executive-level objects using the SecurityIdentification impersonation level. 
 
-Any handle obtained by calling <b>ZwOpenThreadTokenEx</b> must eventually be released by calling <b>ZwClose</b>. 
+Any handle obtained by calling <b>NtOpenThreadTokenEx</b> must eventually be released by calling <b>NtClose</b>. 
 
-Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>HandleAttributes</i> parameter of <b>ZwOpenThreadTokenEx</b>. This restricts the use of the handle returned by <b>ZwOpenThreadTokenEx</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
+Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE attribute for the <i>HandleAttributes</i> parameter of <b>NtOpenThreadTokenEx</b>. This restricts the use of the handle returned by <b>NtOpenThreadTokenEx</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwOpenThreadTokenEx</b> function occurs in user mode, you should use the name "<b>NtOpenThreadTokenEx</b>" instead of "<b>ZwOpenThreadTokenEx</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtOpenThreadTokenEx</b> function occurs in user mode, you should use the name "<b>NtOpenThreadTokenEx</b>" instead of "<b>ZwOpenThreadTokenEx</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 

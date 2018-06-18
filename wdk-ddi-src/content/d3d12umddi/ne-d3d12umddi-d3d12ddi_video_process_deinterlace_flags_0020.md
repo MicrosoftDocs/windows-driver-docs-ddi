@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -70,5 +70,5 @@ The video processor can perform bob deinterlacing. In bob deinterlacing, missing
 
 ### -field D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAG_0020_CUSTOM
 
-The video processor can perform a custom high quality deinterlacing. This feature requires the number of reference frames indicated in <b>D3D12DDI_VIDEO_PROCESS_FRAME_REFERENCE_SUPPORT</b>. If the video processor does not have the necessary number of reference frames, it falls back to bob deinterlacing.
+The video processor can perform a custom high quality deinterlacing. This feature requires the number of reference frames indicated in [D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032](ns-d3d12umddi-d3d12ddi_video_decode_reference_frames_0032.md). If the video processor does not have the necessary number of reference frames, it falls back to bob deinterlacing.
 

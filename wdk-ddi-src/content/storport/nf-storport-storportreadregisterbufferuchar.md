@@ -59,48 +59,24 @@ The <b>StorPortReadRegisterBufferUchar</b> routine reads a value from a specifie
 
 
 
-### -param h
+### -param h [in]
 
-TBD
-
-
-### -param r
-
-TBD
+A Pointer to the hardware device extension.
 
 
-### -param b
-
-TBD
-
-
-### -param c
-
-TBD
-
-
-
-
-
-
-#### - Buffer [in]
-
-Pointer to the buffer that receives the data that is read.
-
-
-#### - Count [in]
-
-Number of data items to be read. Each data item has a size of <b>sizeof</b>(UCHAR). 
-
-
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Register [in]
+### -param r [in]
 
 Pointer to the register where the data is to be read. 
+
+
+### -param b [in]
+
+A pointer to the buffer that receives the data that is read.
+
+
+### -param c [in]
+
+Number of data items to be read. Each data item has a size of <b>sizeof</b>(UCHAR). 
 
 
 ## -remarks

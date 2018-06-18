@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS_0020
 ## -description
 
 
-Contains flags for support of video decode conversion. 
+Contains flags for support of video decode conversion.
 
 
 ## -enum-fields
@@ -60,10 +60,10 @@ Contains flags for support of video decode conversion.
 
 ### -field D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAG_0020_NONE
 
-No Flags set.  The conversion is not supported.
+No Flags set. The conversion is not supported.
 
 
 ### -field D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAG_0020_SUPPORTED
 
-The conversion is supported.  Callers must inspect the <b>ClosestWidth</b> and <b>ClosestHeight</b> members to understand scale support.
+The conversion is supported. Callers must inspect the <b>ClosestWidth</b> and <b>ClosestHeight</b> members to understand scale support.
 

@@ -45,7 +45,7 @@ Specifies the arguments for decode output conversion.
 
 ### -field Enable
 
-Enable field.
+Indicates whether decode conversion should be used.
 
 ### -field hDrvReferenceTexture2D
 
