@@ -59,18 +59,11 @@ The <b>KeLowerIrql</b> routine restores the IRQL on the current processor to its
 
 
 
-### -param a
-
-TBD
-
-
-
-
-
-
-#### - NewIrql [in]
+### -param a [in]
 
 Specifies the IRQL that was returned from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553079">KeRaiseIrql</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553084">KeRaiseIrqlToDpcLevel</a>.
+
+
 
 
 ## -remarks

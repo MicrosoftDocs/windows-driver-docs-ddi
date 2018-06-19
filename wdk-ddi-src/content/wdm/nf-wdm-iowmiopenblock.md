@@ -58,10 +58,9 @@ The <b>IoWMIOpenBlock</b> routine opens the WMI data block object for the specif
 
 
 
-### -param Guid
+### -param Guid[in]
 
-TBD
-
+Specifies the GUID for WMI class.
 
 ### -param DesiredAccess [in]
 
@@ -99,11 +98,6 @@ The data block object can be used to set WMI class properties. This flag must be
 ### -param DataBlockObject [out]
 
 Pointer to a memory location where the routine returns a pointer to the data block object.
-
-
-#### - DataBlockGuid [in]
-
-Specifies the GUID for WMI class.
 
 
 ## -returns

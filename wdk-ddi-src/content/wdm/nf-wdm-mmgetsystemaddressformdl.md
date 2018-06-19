@@ -60,18 +60,11 @@ The <b>MmGetSystemAddressForMdl</b> routine is <u>obsolete</u> for Windows 2000 
 
 
 
-### -param MDL
-
-TBD
-
-
-
-
-
-
-#### - Mdl [in]
+### -param MDL [in]
 
 Pointer to a buffer whose corresponding base virtual address is to be mapped. 
+
+
 
 
 ## -remarks

@@ -59,18 +59,12 @@ The <b>KeAcquireSpinLockAtDpcLevel</b> routine acquires a spin lock when the cal
 
 
 
-### -param a
-
-TBD
-
-
-
-
-
-
-#### - SpinLock [in, out]
+### -param a [in, out]
 
 Pointer to an initialized spin lock for which the caller must provide the storage.
+
+
+
 
 
 ## -remarks

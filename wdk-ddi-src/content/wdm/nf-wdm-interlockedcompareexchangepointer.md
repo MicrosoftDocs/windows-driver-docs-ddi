@@ -68,16 +68,10 @@ A pointer to a PVOID value. If (*<i>Destination</i>) = <i>Comparand</i>, then th
 Specifies the PVOID value to set (*<i>Destination</i>) to.
 
 
-### -param Comperand
-
-TBD
-
-
-
-
-#### - Comparand [in]
+### -param Comperand[in]
 
 Specifies the PVOID value to compare with (*<i>Destination</i>).
+
 
 
 ## -returns
