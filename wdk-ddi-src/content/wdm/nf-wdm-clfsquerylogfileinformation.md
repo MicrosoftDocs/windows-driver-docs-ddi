@@ -71,12 +71,12 @@ A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 ### -param pinfoInputBuffer
 
-TBD
+Optional input buffer which is required for some information classes.
 
 
 ### -param cbinfoInputBuffer
 
-TBD
+Length in bytes of pinfoInputBuffer.
 
 
 ### -param pinfoBuffer [out]
@@ -154,7 +154,7 @@ A pointer to a buffer that receives the log information. The structure of this b
 
 ### -param pcbInfoBuffer
 
-TBD
+Length in bytes of the incoming information buffer.
 
 
 

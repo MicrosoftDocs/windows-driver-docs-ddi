@@ -58,19 +58,15 @@ The <b>ObRegisterCallbacks</b> routine registers a list of callback routines for
 
 
 
-### -param CallbackRegistration
+### -param CallbackRegistration [in]
 
-TBD
+A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558714">OB_CALLBACK_REGISTRATION</a> structure that specifies the list of callback routines and other registration information.
 
 
 ### -param RegistrationHandle [out]
 
 A pointer to a variable that receives a value that identifies the set of registered callback routines. The caller passes this value to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558712">ObUnRegisterCallbacks</a> routine to unregister the set of callbacks. 
 
-
-#### - CallBackRegistration [in]
-
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558714">OB_CALLBACK_REGISTRATION</a> structure that specifies the list of callback routines and other registration information.
 
 
 ## -returns

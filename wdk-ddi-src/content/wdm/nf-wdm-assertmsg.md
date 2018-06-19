@@ -60,26 +60,14 @@ req.typenames:
 
 ### -param msg
 
-TBD
+Specifies the null-delimited string to be displayed by the debugger.
 
 
 ### -param exp
 
-TBD
-
-
-
-
-
-
-#### - Expression
-
 Specifies any logical expression.
 
 
-#### - Message
-
-Specifies the null-delimited string to be displayed by the debugger.
 
 
 ## -remarks
