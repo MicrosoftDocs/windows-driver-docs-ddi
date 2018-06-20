@@ -11,7 +11,7 @@ ms.keywords: RtlCopyMemoryNonTemporal
 req.header: wdm.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows XP
+req.target-min-winverclnt: 
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-This function copies from one buffer to another using non-temporal moves that do not pollute the cache. Note that the buffers shouldn’t overlap.
+This function copies the contents from one buffer to another using non-temporal moves that do not pollute the cache. Note that the buffers shouldn’t overlap.
 
 ## -parameters
 
@@ -58,11 +58,11 @@ A pointer to the source memory block to copy the bytes from.
 A pointer to the destination memory block to copy the bytes to.
 
 ## -returns
-This function returns NTSYSAPI VOID.
+None.
 
 ## -remarks
 
-**RtlCopyMemoryNonTemporal** only performs a non-temporal copy for AMD64, and only when length is 8 or greater. Otherwise, this function is equivalent to [RtlCopyMemory](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlcopymemory).
+**RtlCopyMemoryNonTemporal** only performs a non-temporal copy for x64-based systems, and only when the **Length** parameter is 8 bytes or greater. Otherwise, this function is equivalent to [RtlCopyMemory](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlcopymemory).
 
 Callers of RtlCopyMemoryNonTemporal can be running at any IRQL if the source and destination memory blocks are in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
 
