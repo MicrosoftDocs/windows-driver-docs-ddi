@@ -89,5 +89,5 @@ Copy queue timestamp.
 
 ## -remarks
 
-Queries are an existing D3D12 concept that are used to support retrieving status structures with D3D12DDI_QUERY_HEAP_TYPE_VIDEO_DECODE_STATISTICS and D3D12DDI_QUERY_TYPE_VIDEO_DECODE_STATISTICS.  The D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS structure defines the resolved data returned.  This status structure is used for all video decoders.
+Queries are an existing D3D12 concept that are used to support retrieving status structures with D3D12DDI_QUERY_HEAP_TYPE_VIDEO_DECODE_STATISTICS and D3D12DDI_QUERY_TYPE_VIDEO_DECODE_STATISTICS. The D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS structure defines the resolved data returned.  This status structure is used for all video decoders.
 
