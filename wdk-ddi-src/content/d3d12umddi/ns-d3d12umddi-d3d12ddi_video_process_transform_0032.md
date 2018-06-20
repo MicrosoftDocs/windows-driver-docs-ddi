@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0032
 ## -description
 
 
-Video process transform.
+Specifies flip, rotation, scale and destination translation for the video input.
 
 
 ## -struct-fields
@@ -60,15 +60,15 @@ Video process transform.
 
 ### -field SourceRectangle
 
-Source rectangle.
+The source rectangle is the portion of the input surface that is blitted to the destination surface. The source rectangle is given in pixel coordinates, relative to the input surface. Stereo Format after orientation is applied.
 
 
 ### -field DestinationRectangle
 
-Destination rectangle.
+The destination rectangle is the portion of the output surface that receives the blit for this stream. The destination rectangle is given in pixel coordinates, relative to the output surface.
 
 
 ### -field Orientation
 
-Orientation.
+The rotation and flip operation to apply to the source. Source and Destination rectangles are specified in post orientation coordinates.
 

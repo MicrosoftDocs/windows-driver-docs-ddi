@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,12 +60,12 @@ Contains values for alpha fill modes.
 
 ### -field D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_0020_OPAQUE
 
-Alpha values inside the target rectangle are set to opaque. 
+Alpha values inside the target rectangle are set to opaque.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_0020_BACKGROUND
 
-Alpha values inside the target rectangle are set to the alpha value specified in the background color. 
+Alpha values inside the target rectangle are set to the alpha value specified in the background color.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_0020_DESTINATION
@@ -75,7 +75,7 @@ Existing alpha values remain unchanged in the output surface.
 
 ### -field D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_0020_SOURCE_STREAM
 
-Alpha values are taken from an input stream, scaled, and copied to the corresponding destination rectangle for that stream. The input stream is specified in the <b>AlphaFillModeSourceStreamIndex</b> member of the <b>D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_PARAMETERS</b> structure. If the input stream does not have alpha data, the video processor sets the alpha values in the target rectangle to opaque. If the input stream is disabled or the source rectangle is empty, the alpha values in the target rectangle are not modified.
+Alpha values are taken from an input stream, scaled, and copied to the corresponding destination rectangle for that stream. The input stream is specified in the <b>AlphaFillModeSourceStreamIndex</b> member of the [D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC](ns-d3d12umddi-d3d12ddi_video_process_output_stream_desc_0032.md) structure. If the input stream does not have alpha data, the video processor sets the alpha values in the target rectangle to opaque. If the input stream is disabled or the source rectangle is empty, the alpha values in the target rectangle are not modified.
 
 
 
@@ -83,7 +83,7 @@ Alpha values are taken from an input stream, scaled, and copied to the correspon
 
 
 
-The alpha fill mode is used in <b>D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_PARAMETERS</b>.  The <b>D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_OPAQUE</b> flag is always supported.  The background, destination, and source stream modes are only supported when the driver reports <b>D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAG_ALPHA_FILL</b>.
+The alpha fill mode is used in [D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddiarg_video_process_output_stream_arguments_0032.md). The <b>D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_OPAQUE</b> flag is always supported. The background, destination, and source stream modes are only supported when the driver reports <b>D3D12DDI_VIDEO_PROCESS_FEATURE_SUPPORT_FLAG_ALPHA_FILL</b>.
 
 
 

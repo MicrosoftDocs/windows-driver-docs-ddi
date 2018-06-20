@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,7 +50,7 @@ req.typenames: D3D12DDI_QUERY_HEAP_TYPE
 ## -description
 
 
-Type of a query heap, which is an array of query results.
+Type of a query heap, which is an array of query results. Queries are used to capture information from the GPU, such as statistics and status codes which can later be consumed directly on the GPU or on CPU.
 
 
 ## -enum-fields
@@ -86,4 +86,8 @@ Video decode statistics.
 ### -field D3D12DDI_QUERY_HEAP_TYPE_0032_COPY_QUEUE_TIMESTAMP
 
 Copy queue timestamp.
+
+## -remarks
+
+Queries are an existing D3D12 concept that are used to support retrieving status structures with D3D12DDI_QUERY_HEAP_TYPE_VIDEO_DECODE_STATISTICS and D3D12DDI_QUERY_TYPE_VIDEO_DECODE_STATISTICS. The D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS structure defines the resolved data returned.  This status structure is used for all video decoders.
 
