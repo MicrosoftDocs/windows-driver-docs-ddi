@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-<b>FltCompletePendedPreOperation</b> resumes processing for an I/O operation that was pended in a minifilter driver's preoperation callback (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551109">PFLT_PRE_OPERATION_CALLBACK</a>) routine. 
+**FltCompletePendedPreOperation** resumes processing for an I/O operation that was pended in a minifilter driver's preoperation callback ([PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_pre_operation_callback) ) routine. 
 
 
 ## -parameters
