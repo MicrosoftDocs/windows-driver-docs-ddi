@@ -11,7 +11,7 @@ ms.keywords: RtlCopyMemoryNonTemporal
 req.header: wdm.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows XP
+req.target-min-winverclnt: Available in Windows 2003 and later.
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
