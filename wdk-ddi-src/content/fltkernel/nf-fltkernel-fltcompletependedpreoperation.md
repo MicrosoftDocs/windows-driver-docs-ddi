@@ -61,7 +61,7 @@ req.typenames:
 
 ### -param CallbackData
 
-TBD
+Pointer to the callback data (<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation. This parameter is required and cannot be NULL. 
 
 
 ### -param CallbackStatus [in]
