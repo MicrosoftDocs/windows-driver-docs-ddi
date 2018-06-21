@@ -99,6 +99,9 @@ The device class or volume driver returns the <a href="https://msdn.microsoft.co
 
 
 
+## -remarks
+
+The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls. 
 
 
 

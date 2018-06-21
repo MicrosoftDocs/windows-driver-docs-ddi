@@ -42,7 +42,7 @@ targetos: Windows
 
 ## -description
 
-Used to calculate the size of a video processor.
+This method is used to calculate the driver object size. The D3D runtime allocates memory for storing the drivers CPU object that represents the video processor.
 
 ## -prototype
 

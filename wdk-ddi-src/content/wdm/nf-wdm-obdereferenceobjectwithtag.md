@@ -58,28 +58,15 @@ The <b>ObDereferenceObjectWithTag</b> routine decrements the reference count of 
 
 
 
-### -param a
-
-TBD
-
-
-### -param t
-
-TBD
-
-
-
-
-
-
-#### - Object [in]
+### -param a [in]
 
 A pointer to the object. The caller obtains this pointer either when it creates the object, or from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558683">ObReferenceObjectByHandleWithTag</a> routine after it opens the object. 
 
 
-#### - Tag [in]
+### -param t [in]
 
 Specifies a four-byte, custom tag value. For more information, see the following Remarks section. 
+
 
 
 ## -remarks
