@@ -86,11 +86,11 @@ The index of the component. Generally, this will be the index used by the graphi
 
 ### -param IsBlockingType
 
-TRUE if the component is blocking (graphics driver has reported the component as ActiveInD3 = 0). Otherwise, FALSE.
+TRUE if the component is "blocking" (e.g. graphics driver has reported the component as ActiveInD3 = 0). Otherwise, FALSE.
 
 ### -param InitialFState
 
-The F-state of a component represented by *ComponentIndex* at the time of the call. If an F-state transition is currently in progress, a completion notification callback (PreNotification==FALSE) FStateNotificationCb will follow some time later when the transition completes. Depending on the timing, a PreNotification=TRUE callback may or may not occur. And if it does occur, it will precede the completion notification callback.
+The F-state of a component represented by *ComponentIndex* at the time of the call. If an F-state transition is currently in progress, a completion notification callback (PreNotification==FALSE) [FStateNotificationCb](../d3dkmthk/nc-d3dkmthk-pdxgk_fstate_notification.md) will follow some time later when the transition completes. Depending on the timing, a PreNotification=TRUE callback may or may not occur. And if it does occur, it will precede the completion notification callback.
 
 ### -param ComponentGuid
 
@@ -106,7 +106,6 @@ Does not return a value.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
 
 Upon shared power registration (IoCallDriver call), if InitialComponentStateCb was provided, it is called once for each shared power component that exists for the graphics driver has reported. The behavior of this callback is such that:
 

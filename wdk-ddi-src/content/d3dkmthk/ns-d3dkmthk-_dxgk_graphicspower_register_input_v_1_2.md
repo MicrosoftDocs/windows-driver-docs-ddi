@@ -45,25 +45,56 @@ Used to register the power state of a new input.
 
 ### -field Version
 
-The current version being used.
+The current version being used. This value must be set to one of the following DXGK_GRAPHICSPOWER_VERSIONs:
+
+```
+#define DXGK_GRAPHICSPOWER_VERSION_1_0 0x1000
+#define DXGK_GRAPHICSPOWER_VERSION_1_1 0x1001
+#define DXGK_GRAPHICSPOWER_VERSION_1_2 0x1002
+#define DXGK_GRAPHICSPOWER_VERSION DXGK_GRAPHICSPOWER_VERSION_1_2
+```
+By default, DXGK_GRAPHICSPOWER_VERSION represents the latest version.
+
+DXGK_GRAPHICSPOWER_VERSION_1_1 supports F-state change notifications.
+DXGK_GRAPHICSPOWER_VERSION_1_2 supports initial enumeration of shared power component data and state.
 
 ### -field PrivateHandle
 
-A private handle to the device.
+An opaque handle which will be provided in any callbacks. This handle must be globally unique, therefore, a pointer to the calling driver’s PDO or FDO should be used.
 
 ### -field PowerNotificationCb
 
-Issues a power notification.
+A callback providing notification that the graphics device will be undergoing a device power state transition.  This callback is required to be implemented. See [PDXGK_POWER_NOTIFICATION](../d3dkmthk/nc-d3dkmthk-pdxgk_power_notification.md).
 
 ### -field RemovalNotificationCb
 
-Issues a removal notification.
+A callback notifying that the graphics device is being removed. Any further callbacks into graphics for this DeviceHandle will return a failing NTSTATUS code and will be blocked until you return from the RemovalNotificationCb callback. This callback is required to be implemented. See [PDXGK_REMOVAL_NOTIFICATION](../d3dkmthk/nc-d3dkmthk-pdxgk_removal_notification.md)
 
 ### -field FStateNotificationCb
 
-Issues a state notification.
+Issues a state notification. This callback is optional, and is used by non-graphics drivers. See [PDXGK_FSTATE_NOTIFICATION](../d3dkmthk/nc-d3dkmthk-pdxgk_fstate_notification.md).
 
 ### -field InitialComponentStateCb
 
-Initializes the component state.
+Initializes the component state. See [PDXGK_INITIAL_COMPONENT_STATE](../d3dkmthk/nc-d3dkmthk-pdxgk_initial_component_state.md).
 
+## -remarks
+
+Graphics drivers indicate what power components exist by responding to the queries DXGKQAITYPE_NUMPOWERCOMPONENTS and DXGKQAITYPE_POWERCOMPONENTINFO in [_DXGK_QUERYADAPTERINFOTYPE](../d3dkmddi/ne-d3dkmddi-_dxgk_queryadapterinfotype.md).
+
+If a graphics driver registers at least one [DXGK_POWER_COMPONENT_SHARED](../d3dkmddi/ne-d3dkmddi-_dxgk_power_component_type.md) component, a GRAPHICSPOWER interface will be created for that adapter. The interface will not be registered for adapters that do not expose any of these components.
+
+Graphics drivers can register a “blocking” component by setting the [DXGK_POWER_RUNTIME_COMPONENT](ns-d3dkmddi-_dxgk_power_runtime_component.md) flag *ActiveInD3* to **0**, or a “nonblocking” component by setting this flag to **1**.
+
+A blocking power component will prevent the graphics device from powering down when in use while a non-blocking power component will not. Both allow the graphics driver to properly manage its power planes when in-use by the non-graphics driver.
+
+A graphics driver may expose both a blocking and non-blocking power component for a single physical/logical component, if it wishes to provide the ability for the non-graphics driver to selectively choose blocking or non-blocking usage.
+
+When the GRAPHICSPOWER driver interface is available and enabled, a non-graphics driver can make an IO call to the graphics driver to register itself with the graphics driver providing and obtaining callbacks which will be used to manage the shared power components. The IO call will use the ioctl code IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER, with input data **_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2** and output data [_DXGK_GRAPHICSPOWER_REGISTER_OUTPUT](../d3dkmthk/ns-d3dkmthk-_dxgk_graphicspower_register_output.md).
+
+The IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER code is defined as follows:
+
+```c
+#define IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER \
+    CTL_CODE(FILE_DEVICE_VIDEO, 0xa01, METHOD_NEITHER, FILE_ANY_ACCESS)
+```
