@@ -2,22 +2,22 @@
 UID: NF:ucmucsippm.UcmUcsiConnectorCollectionCreate
 title: UcmUcsiConnectorCollectionCreate function
 author: windows-driver-content
-description: TBD
+description: Creates a connector collection object with UcmUcsiCx.
 ms.assetid: 60a87133-87f2-4f4a-92b7-78c2562b88f5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/30/2018 
 ms.topic: function
 ms.keywords: UcmUcsiConnectorCollectionCreate
 req.header: ucmucsippm.h
-req.include-header:
+req.include-header: UcmucsiCx.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.kmdf-ver: 1.27
+req.umdf-ver: N/A
+req.lib: UcmUcsiCxStub.lib
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -28,9 +28,9 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	
+-	LibDef
 api_location: 
--	
+-	UcmUcsiCxStub.lib
 api_name: 
 -	UcmUcsiConnectorCollectionCreate
 product: Windows
@@ -43,20 +43,32 @@ targetos: Windows
 
 
 ## -description
-
-TBD
+Creates a connector collection object with UcmUcsiCx.
 
 ## -parameters
 
-### -param WdfDevice
-TBD
-### -param Attributes
-TBD
-### -param ConnectorCollection
-TBD
+### -param WdfDevice [in]
+A handle to a framework device object that the client driver received in the previous call to [**WdfDeviceCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545926).
+
+### -param Attributes  [in]
+A pointer to a caller-supplied [WDF_OBJECT_ATTRIBUTES](https://msdn.microsoft.com/library/windows/hardware/ff552400) structure that contains attributes for the new connector collection object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
+
+### -param ConnectorCollection [out]
+A pointer to a location that receives a handle to the new connector collection object.
 
 ## -returns
-This function returns NTSTATUS.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505) value.
+
 ## -remarks
+The collection object is required for creating a Platform Policy Manager (PPM) object. The client driver creates the object by calling [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md). The driver must not call [**UcmUcsiConnectorCollectionCreate**] after **UcmUcsiPpmCreate** because it would have no effect on the already existing PPM object.
+
+The connector collection object is parented to the WDFOBJECT even when UcmUcsiConnectorCollectionCreate is called by passing WDF_NO_ATTRIBUTES. The lifetime of the object is manager by the framework.
 
 ## -see-also
+[**WdfDeviceCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545926)
+
+[WDF_OBJECT_ATTRIBUTES](https://msdn.microsoft.com/library/windows/hardware/ff552400)
+
+[**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md)
+
+[**UcmUcsiConnectorCollectionAddConnector**](nf-ucmucsippm-ucmucsiconnectorcollectionaddconnector.md)
