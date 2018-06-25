@@ -63,7 +63,7 @@ See GET_CAPABILITY described in section 4.5.6 of the specification.
 See GET_CONNECTOR_CAPABILITY described in section 4.5.7 of the specification.
 
 ### -field UcsiCommandSetUom 
-See SET_UOM  described in section 4.5.8 of the specification.
+See SET_CCOM described in section 4.5.8 of the specification.
 
 ### -field UcsiCommandSetUor 
 See SET_UOR described in section 4.5.9 of the specification.
