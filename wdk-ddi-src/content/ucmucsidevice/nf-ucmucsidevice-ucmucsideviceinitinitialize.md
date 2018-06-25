@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Intializes the **WDFDEVICE_INIT** provided by the framework.
 ms.assetid: 83e766bc-b500-44d0-bc15-270d0cb3e31d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/30/2018 
 ms.topic: function
 ms.keywords: UcmUcsiDeviceInitInitialize
 req.header: ucmucsidevice.h

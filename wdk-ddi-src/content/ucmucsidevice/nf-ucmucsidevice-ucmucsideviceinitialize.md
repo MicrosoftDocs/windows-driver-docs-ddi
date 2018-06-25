@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Initializes the UCSI extension (UcmucsiCx).
 ms.assetid: 8ad48691-2cca-4aaf-b61d-3127001c3180
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/30/2018 
 ms.topic: function
 ms.keywords: UcmUcsiDeviceInitialize
 req.header: ucmucsidevice.h

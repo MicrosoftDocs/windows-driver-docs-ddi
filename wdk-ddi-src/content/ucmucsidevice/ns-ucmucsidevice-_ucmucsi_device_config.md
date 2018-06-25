@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Configuration structure for UcmUcsiDeviceInitialize.
 ms.assetid: e31e55aa-de96-4ea0-967e-ae12507ea643
 ms.author: windowsdriverdev
-ms.date: 07/30/2018
+ms.date: 09/30/2018 07/30/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -1,0 +1,58 @@
+---
+UID: NS:ucmucsispec._UCSI_SET_UOM_COMMAND
+title: _UCSI_SET_UOM_COMMAND
+author: windows-driver-content
+description: 
+ms.assetid: 45926fa9-c2ce-4949-a644-4b43b9763d73
+ms.author: windowsdriverdev
+ms.date: 09/30/2018 
+ms.topic: struct
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.keywords: _UCSI_SET_UOM_COMMAND, UCSI_SET_UOM_COMMAND, *PUCSI_SET_UOM_COMMAND, 
+req.header: ucmucsispec.h
+req.include-header: UcmucsiCx.h 
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver: 1.27
+req.umdf-ver: N/A
+req.lib:
+req.dll:
+req.ddi-compliance:
+req.unicode-ansi:
+req.max-support:
+req.typenames: UCSI_SET_UOM_COMMAND, *PUCSI_SET_UOM_COMMAND
+topic_type: 
+-	apiref
+api_type: 
+-	HeaderDef
+api_location: 
+-	ucmucsispec.h
+api_name: 
+-	_UCSI_SET_UOM_COMMAND
+product: Windows
+targetos: Windows
+---
+
+# _UCSI_SET_UOM_COMMAND structure
+
+## -description
+
+
+## -struct-fields
+
+### -field AsUInt64
+ 
+### -field Command
+ 
+### -field DataLength
+ 
+### -field ConnectorNumber
+ 
+### -field UsbOperationMode
+ 
+
+## -remarks
+
+## -see-also
