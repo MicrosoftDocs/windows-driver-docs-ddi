@@ -425,15 +425,15 @@ Asynchronous [OID_WWAN_BASE_STATIONS_INFO](https://docs.microsoft.com/en-us/wind
 
 ### -field WwanAsyncGetMPDP
 
-Asynchronous OID_WWAN_MPDP get request.
+Asynchronous [OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp) get request.
 
 ### -field WwanAsyncSetMPDP
 
-Asynchronous OID_WWAN_MPDP set request.
+Asynchronous [OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp) set request.
 
 ### -field WWAN_ASYNC_GETSET_TYPE_MAX
 
-The maximum number of entries in the WWAN_ASYNC_GETSET_TYPE enumeration.
+The maximum number of entries in the **WWAN_ASYNC_GETSET_TYPE** enumeration.
 
 
 ## -see-also
