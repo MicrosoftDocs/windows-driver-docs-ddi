@@ -2,7 +2,7 @@
 UID: NS:ucmucsispec._UCSI_SET_UOM_COMMAND
 title: _UCSI_SET_UOM_COMMAND
 author: windows-driver-content
-description: 
+description: Used in the SET_UOM command. See Table 4-18.
 ms.assetid: 45926fa9-c2ce-4949-a644-4b43b9763d73
 ms.author: windowsdriverdev
 ms.date: 09/30/2018 
@@ -38,6 +38,7 @@ targetos: Windows
 # _UCSI_SET_UOM_COMMAND structure
 
 ## -description
+Used in the SET_UOM command. See Table 4-18 in [UCSI spec version 1.1](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf).
 
 
 ## -struct-fields
