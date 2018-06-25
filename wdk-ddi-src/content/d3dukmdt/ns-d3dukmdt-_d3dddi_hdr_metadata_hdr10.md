@@ -60,7 +60,7 @@ Describes the metadata for HDR10.
 
 ### -field RedPrimary
 
-The chromaticity coordinates of the 1.0 red value. Index 0 contains the X coordinate and index 1 contains the Y coordinate. Values are normalized to 50,000.
+The chromaticity coordinates of the red color primary in the CIE xy color space. Index 0 contains the X coordinate and index 1 contains the Y coordinate. Values are normalized to 50,000.
 
 
 ### -field GreenPrimary
@@ -85,7 +85,7 @@ The maximum number of nits of the display used to master the content. Values are
 
 ### -field MinMasteringLuminance
 
-The minimum number of nits of the display used to master the content. Values are normalized to 10,000.
+The minimum number of nits of the display used to master the content. Values are in 1/10000th of a nit (0.0001 nits).
 
 
 ### -field MaxContentLightLevel
