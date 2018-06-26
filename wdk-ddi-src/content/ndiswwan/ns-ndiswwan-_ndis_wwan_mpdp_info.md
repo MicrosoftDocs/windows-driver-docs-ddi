@@ -39,13 +39,13 @@ targetos: Windows
 
 ## -description
 
-The **NDIS_WWAN_MPDP_INFO** structure contains information for a multiple Packet Data Protocol (MPDP) interface/NetAdapter object operation for a miniport driver.
+The **NDIS_WWAN_MPDP_INFO** structure contains information for an operation to perform on a multiple Packet Data Protocol (MPDP) interface/NetAdapter object.
 
 ## -struct-fields
 
 ### -field Operation
 
-An [**NDIS_WWAN_MPDP_OPERATION**](ne-ndiswwan-_wwan_mpdp_operation.md) value that specifies the operation the miniport driver should perform.
+An [**NDIS_WWAN_MPDP_OPERATION**](ne-ndiswwan-_wwan_mpdp_operation.md) value that specifies the operation to perform.
  
 ### -field ChildInterfaceGUID
 

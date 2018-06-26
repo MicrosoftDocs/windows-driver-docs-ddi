@@ -36,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-The **WWAN_MPDP_OPERATION** enumeration describes the operation for a mobile broadband miniport driver to perform for a multiple Packet Data Protocol (MPDP) interface.
+The **WWAN_MPDP_OPERATION** enumeration describes an operation to perform on a multiple Packet Data Protocol (MPDP) interface/NetAdapter object.
 
 ## -enum-fields
 

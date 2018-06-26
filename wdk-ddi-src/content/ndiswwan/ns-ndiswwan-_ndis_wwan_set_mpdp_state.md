@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-The **NDIS_WWAN_SET_MPDP_STATE** structure contains information for a miniport driver to perform an operation on a multiple Packet Data Protocol (MPDP) interface/NetAdapter object.
+The **NDIS_WWAN_SET_MPDP_STATE** structure contains information for performing an operation on a multiple Packet Data Protocol (MPDP) interface/NetAdapter object.
 
 ## -struct-fields
 
