@@ -2,7 +2,7 @@
 UID: NS:ndiswwan._NDIS_WWAN_MPDP_LIST
 title: _NDIS_WWAN_MPDP_LIST
 author: windows-driver-content
-description: The NDIS_WWAN_MPDP_LIST structure contains data for an NDIS_STATUS_WWAN_MPDP_LIST status indication, which is sent as an asynchronous response to an OID_WWAN_MPDP query request.
+description: The NDIS_WWAN_MPDP_LIST structure contains a list of existing multiple Packet Data Procol (MPDP) interfaces, or NetAdapter objects, on the MBB device receiving the primary NetAdapter.
 ms.assetid: 42de1468-e1ef-4391-a454-c7978987ded1
 ms.author: windowsdriverdev
 ms.date: 06/25/2018
@@ -39,13 +39,13 @@ targetos: Windows
 
 ## -description
 
-The **NDIS_WWAN_MPDP_LIST** structure contains data for an [NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-wwan-mpdp-list) status indication, which is sent as an asynchronous response to an [OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp) query request.
+The **NDIS_WWAN_MPDP_LIST** structure contains a list of existing multiple Packet Data Procol (MPDP) interfaces, or NetAdapter objects, for the MBB device representing the primary NetAdapter.
 
 ## -struct-fields
 
 ### -field Header
 
-The header with type, revision, and size information about the **NDIS_WWAN_MPDP_LIST** structure. The MBB Service sets the header with the values that are shown in the following table when it sends the data structure to the miniport driver for *set* operations. Miniport drivers must set the header with the same values when they send the data structure to the MBB service.
+The header with type, revision, and size information about the **NDIS_WWAN_MPDP_LIST** structure. The MB Service sets the header with the values that are shown in the following table when it sends the data structure to the miniport driver for *set* operations. Miniport drivers must set the header with the same values when they send the data structure to the MBB service.
 
 | Header submember | Value |
 | --- | --- |
@@ -59,9 +59,11 @@ A **WWAN_STATUS** value that indicates the result of the query request.
  
 ### -field ChildInterfaceList
  
-If **uStatus** == WWAN_STATUS_SUCCESS, this field contains a list of the existing MPDP interfaces/NetAdapters on the MBB device receiving primary NetAdapter. The **ElementType** member of this list header must be **WwanStructMPDPChildInterface**, and the **ElementCount** member of interface GUIDs must follow this header.
+If **uStatus** == WWAN_STATUS_SUCCESS, this field contains a list of the existing MPDP interfaces/NetAdapters on the MBB device representing the primary NetAdapter. The **ElementType** member of this list header must be **WwanStructMPDPChildInterface**, and the **ElementCount** member of interface GUIDs must follow this header.
 
 ## -remarks
+
+This structure is used in an [NDIS_STATUS_WWAN_MPDP_LIST](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-wwan-mpdp-list) status indication, which is sent as an asynchronous response to an [OID_WWAN_MPDP](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-mpdp) query request.
 
 ## -see-also
 

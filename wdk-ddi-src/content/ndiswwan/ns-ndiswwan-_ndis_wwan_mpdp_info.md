@@ -2,7 +2,7 @@
 UID: NS:ndiswwan._NDIS_WWAN_MPDP_INFO
 title: _NDIS_WWAN_MPDP_INFO
 author: windows-driver-content
-description: The NDIS_WWAN_MPDP_INFO structure contains information for a multiple packet data protocol (MPDP) interface operation for a miniport driver.
+description: The NDIS_WWAN_MPDP_INFO structure contains information for a multiple Packet Data Protocol (MPDP) interface operation for a miniport driver.
 ms.assetid: d55a038d-2f2e-45f4-b306-afe5703c5357
 ms.author: windowsdriverdev
 ms.date: 06/25/2018
@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-The **NDIS_WWAN_MPDP_INFO** structure contains information for a multiple packet data protocol (MPDP) interface operation for a miniport driver.
+The **NDIS_WWAN_MPDP_INFO** structure contains information for a multiple Packet Data Protocol (MPDP) interface/NetAdapter object operation for a miniport driver.
 
 ## -struct-fields
 
@@ -56,6 +56,8 @@ The GUID of the child interface to be deleted, if **Operation** is set to **Wwan
 Currently unused.
 
 ## -remarks
+
+This structure is a member of both the [**NDIS_WWAN_SET_MPDP_STATE**](ns-ndiswwan-_ndis_wwan_set_mpdp_state.md) structure and the [**NDIS_WWAN_MPDP_STATE**](ns-ndiswwan-_ndis_wwan_mpdp_state.md) structure.
 
 ## -see-also
 
