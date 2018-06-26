@@ -36,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-The **WWAN_MPDP_OPERATION** enumeration describes an operation to perform on a multiple Packet Data Protocol (MPDP) interface/NetAdapter object.
+The **WWAN_MPDP_OPERATION** enumeration describes an operation to perform on a Multiple Packet Data Protocol (MPDP) interface/NetAdapter object.
 
 ## -enum-fields
 

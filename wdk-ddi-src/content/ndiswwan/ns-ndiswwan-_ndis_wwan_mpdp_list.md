@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-The **NDIS_WWAN_MPDP_LIST** structure contains a list of existing multiple Packet Data Procol (MPDP) interfaces, or NetAdapter objects, for the MBB device representing the primary NetAdapter.
+The **NDIS_WWAN_MPDP_LIST** structure contains a list of existing Multiple Packet Data Protocol (MPDP) interfaces, or NetAdapter objects, for the MBB device representing the primary NetAdapter.
 
 ## -struct-fields
 

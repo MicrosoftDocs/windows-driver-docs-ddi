@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-The **NDIS_WWAN_MPDP_STATE** structure represents the state of a multiple Packet Data Protocol (MPDP) interface/NetAdapter object after a requested operation.
+The **NDIS_WWAN_MPDP_STATE** structure represents the state of a Multiple Packet Data Protocol (MPDP) interface/NetAdapter object after a requested operation.
 
 ## -struct-fields
 
@@ -55,7 +55,7 @@ The header with type, revision, and size information about the **NDIS_WWAN_MPDP_
 
 ### -field uStatus
 
-A **WWAN_STATUS** value that indicates the result of the requested multiple packet data protocol (MPDP) interface operation.
+A **WWAN_STATUS** value that indicates the result of the requested MPDP interface operation.
  
 ### -field Info
  

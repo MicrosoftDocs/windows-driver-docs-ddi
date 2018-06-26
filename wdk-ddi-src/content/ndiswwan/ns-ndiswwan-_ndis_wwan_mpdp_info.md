@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-The **NDIS_WWAN_MPDP_INFO** structure contains information for an operation to perform on a multiple Packet Data Protocol (MPDP) interface/NetAdapter object.
+The **NDIS_WWAN_MPDP_INFO** structure contains information for an operation to perform on a Multiple Packet Data Protocol (MPDP) interface/NetAdapter object.
 
 ## -struct-fields
 
