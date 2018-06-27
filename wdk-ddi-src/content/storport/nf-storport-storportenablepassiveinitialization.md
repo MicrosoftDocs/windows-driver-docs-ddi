@@ -58,26 +58,14 @@ The <b>StorPortEnablePassiveInitialization</b> routine enables  the miniport's <
 
 
 
-### -param DeviceExtension
-
-TBD
-
-
-### -param HwPassiveInitializeRoutine
-
-TBD
-
-
-
-
-#### - HwDeviceExtension [in]
+### -param DeviceExtension [in]
 
 Pointer to the per-adapter device extension. 
 
 
-#### - HwPassiveInitialization [in]
+### -param HwPassiveInitializeRoutine [in]
 
-Pointer to a callback routine that the port driver calls at PASSIVE_LEVEL to initialize the DPCs that the miniport driver will use. For a description of this callback routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557407">HwStorPassiveInitializeRoutine</a>. 
+Pointer to a callback routine that the port driver calls at PASSIVE_LEVEL to initialize the DPCs that the miniport driver will use. For a description of this callback routine, see [HwStorPassiveInitializeRoutine](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_passive_initialize_routine). 
 
 
 ## -returns
