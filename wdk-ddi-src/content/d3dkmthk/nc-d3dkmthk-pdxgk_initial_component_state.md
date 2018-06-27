@@ -111,7 +111,7 @@ Upon shared power registration (IoCallDriver call), if InitialComponentStateCb w
 
 * These calls are re-entrant calls, occurring prior to IoCallDriver returning
 * These calls occur at DISPATCH_LEVEL
-* As these callbacks occur prior to IoCallDriver returning, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT would not have been filled in yet
+* As these callbacks occur prior to IoCallDriver returning, [DXGK_GRAPHICSPOWER_REGISTER_OUTPUT](../d3dkmthk/ns-d3dkmthk-_dxgk_graphicspower_register_output.md) would not have been filled in yet
 * If any F-state transitions are currently in progress, a post-notification FStateNotificationCb will alert the driver of the final state. Such calls will be guaranteed to occur after the InitialComponentStateCb calls. However, it is possible that such callbacks could occur prior to IoCallDriver returning if synchronization is required. A spin lock should be around IoCallDriver and the FStateNotificationCb handler.
 
 ## -see-also

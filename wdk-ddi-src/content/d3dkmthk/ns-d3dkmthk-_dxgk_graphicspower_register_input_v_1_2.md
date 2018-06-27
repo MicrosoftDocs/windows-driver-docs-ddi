@@ -53,18 +53,18 @@ The current version being used. This value must be set to one of the following D
 #define DXGK_GRAPHICSPOWER_VERSION_1_2 0x1002
 #define DXGK_GRAPHICSPOWER_VERSION DXGK_GRAPHICSPOWER_VERSION_1_2
 ```
-By default, DXGK_GRAPHICSPOWER_VERSION represents the latest version.
+By default, DXGK_GRAPHICSPOWER_VERSION represents the latest version. Graphics will support the current version and all previous versions. If this value is a version that is not recognized, we will fail with STATUS_NOINTERFACE. This should only happen in the case the non-graphics driver was built for a newer OS than what is currently running, and in this case we expect the non-graphics driver to retry with a lower version number.
 
 DXGK_GRAPHICSPOWER_VERSION_1_1 supports F-state change notifications.
 DXGK_GRAPHICSPOWER_VERSION_1_2 supports initial enumeration of shared power component data and state.
 
 ### -field PrivateHandle
 
-An opaque handle which will be provided in any callbacks. This handle must be globally unique, therefore, a pointer to the calling driver’s PDO or FDO should be used.
+An opaque handle which will be provided in any callbacks. This handle must be globally unique, therefore, a pointer to the calling driver’s PDO or FDO should be used. This handle will be used as a key by graphics to track this specific registration, and will be associated with the non-graphics driver callbacks in order to handle their future removal.
 
 ### -field PowerNotificationCb
 
-A callback providing notification that the graphics device will be undergoing a device power state transition.  This callback is required to be implemented. See [PDXGK_POWER_NOTIFICATION](../d3dkmthk/nc-d3dkmthk-pdxgk_power_notification.md).
+A callback providing notification that the graphics device will be undergoing a device power state transition, and provide a new DEVICE_POWER_STATE. This callback is required to be implemented. See [PDXGK_POWER_NOTIFICATION](../d3dkmthk/nc-d3dkmthk-pdxgk_power_notification.md).
 
 ### -field RemovalNotificationCb
 
