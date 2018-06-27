@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,7 +60,7 @@ The orientation to be performed by the video processor.
 
 ### -field D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020_DEFAULT
 
-No change to the orientation.
+No change to the orientation. 0 degrees.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020_FLIP_HORIZONTAL
@@ -75,7 +75,7 @@ Rotate the image clockwise 90 degrees.
 
 ### -field D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020_CLOCKWISE_90_FLIP_HORIZONTAL
 
-Rotate the image clockwise 90 degrees and then flips it horizontally.
+Rotate the image clockwise 90 degrees and then flip it horizontally.
 
 
 ### -field D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020_CLOCKWISE_180
@@ -100,5 +100,5 @@ Rotate the image clockwise 270 degrees.
 
 ### -field D3D12DDI_VIDEO_PROCESS_ORIENTATION_0020_CLOCKWISE_270_FLIP_HORIZONTAL
 
-Rotate the image clockwise 270 degrees and then flips horizontally.
+Rotate the image clockwise 270 degrees and then flip horizontally.
 

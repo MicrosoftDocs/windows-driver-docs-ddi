@@ -59,28 +59,15 @@ The <b>KeRaiseIrql</b> routine raises the hardware priority to the specified IRQ
 
 
 
-### -param a
-
-TBD
-
-
-### -param b
-
-TBD
-
-
-
-
-
-
-#### - NewIrql [in]
+### -param a [in]
 
 Specifies the new IRQL to which the hardware priority is to be raised.
 
 
-#### - OldIrql [out]
+### -param b [out]
 
 Pointer to the storage for the original (unraised) IRQL value to be used in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a>.
+
 
 
 ## -remarks

@@ -48,15 +48,15 @@ Reserved. Do not use.
 ## -parameters
 
 ### -param DriverObject
-TBD
+Reserved.
 ### -param RegKeyType
-TBD
+Reserved.
 ### -param DesiredAccess
-TBD
+Reserved.
 ### -param Flags
-TBD
+Reserved.
 ### -param DriverRegKey
-TBD
+Reserved.
 
 ## -returns
 This function returns NTKERNELAPI NTSTATUS.

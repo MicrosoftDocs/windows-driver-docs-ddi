@@ -32,9 +32,9 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	UserDefined
 api_location:
--
+-	Wdm.h
 api_name:
 -	GET_SDEV_IDENTIFIER callback
 product:
@@ -61,5 +61,5 @@ req.typenames:
 
 ### -param InterfaceContext
 
-TBD
+
 

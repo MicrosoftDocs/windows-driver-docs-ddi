@@ -63,14 +63,7 @@ The <b>IoReuseIrp</b> routine reinitializes an IRP so that it can be reused.
 Pointer to the IRP to be reinitialized for reuse. 
 
 
-### -param Iostatus
-
-TBD
-
-
-
-
-#### - Status [in]
+### - Iostatus [in]
 
 Specifies the NTSTATUS value to be set in the IRP after it is reinitialized.
 

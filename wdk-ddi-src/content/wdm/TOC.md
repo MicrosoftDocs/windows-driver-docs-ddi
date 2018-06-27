@@ -839,6 +839,7 @@
 ### [RtlConvertLongToLargeInteger function](../wdm/nf-wdm-rtlconvertlongtolargeinteger.md)
 ### [RtlConvertUlongToLargeInteger function](../wdm/nf-wdm-rtlconvertulongtolargeinteger.md)
 ### [RtlCopyMemory macro](../wdm/nf-wdm-rtlcopymemory.md)
+### [RtlCopyMemoryNonTemporal function](../nf-wdm-rtlcopymemorycontemporal.md)
 ### [RtlCopyUnicodeString function](../wdm/nf-wdm-rtlcopyunicodestring.md)
 ### [RtlCreateRegistryKey function](../wdm/nf-wdm-rtlcreateregistrykey.md)
 ### [RtlCreateSecurityDescriptor function](../wdm/nf-wdm-rtlcreatesecuritydescriptor.md)

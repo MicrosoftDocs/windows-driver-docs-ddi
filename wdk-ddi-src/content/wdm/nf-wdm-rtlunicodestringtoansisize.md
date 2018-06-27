@@ -58,16 +58,7 @@ The <b>RtlUnicodeStringToAnsiSize</b> routine returns the number of bytes requir
 
 
 
-### -param STRING
-
-TBD
-
-
-
-
-
-
-#### - UnicodeString [in]
+### -param STRING [in]
 
 Pointer to the Unicode string for which to compute the number of bytes required for an equivalent null-terminated ANSI string.
 

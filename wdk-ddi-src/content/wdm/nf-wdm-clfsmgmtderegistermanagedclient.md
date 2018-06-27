@@ -61,7 +61,7 @@ The <b>ClfsMgmtDeregisterManagedClient</b> routine removes the connection betwee
 
 ### -param ClientCookie
 
-TBD
+The cookie we give back to the caller for future use of the API.
 
 
 
