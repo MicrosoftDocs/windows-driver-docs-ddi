@@ -115,6 +115,11 @@ If <b>OutputBufferLength</b> is less than <b>sizeof</b>(MOUNTDEV_SUGGESTED_LINK_
 If <b>OutputBufferLength</b> is less than the total length of output data, the <b>Status</b> field is set to STATUS_BUFFER_OVERFLOW and the <b>Information</b> field is set to <b>sizeof</b>(MOUNTDEV_SUGGESTED_LINK_NAME). 
 
 
+## -remarks
+
+The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls. 
+
+
 ## -see-also
 
 

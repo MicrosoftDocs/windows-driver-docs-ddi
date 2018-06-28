@@ -61,26 +61,14 @@ The <b>KeAcquireSpinLock</b> routine acquires a spin lock so the caller can sync
 
 ### -param a
 
-TBD
+Pointer to a variable that is set to the current IRQL when this call occurs.
 
 
 ### -param b
 
-TBD
-
-
-
-
-
-
-#### - OldIrql [out]
-
-Pointer to a variable that is set to the current IRQL when this call occurs.
-
-
-#### - SpinLock [in]
-
 Pointer to an initialized spin lock for which the caller provides the storage.
+
+
 
 
 ## -remarks

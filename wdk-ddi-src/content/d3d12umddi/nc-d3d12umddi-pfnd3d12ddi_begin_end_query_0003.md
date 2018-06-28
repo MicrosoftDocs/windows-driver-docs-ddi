@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: 
+req.typenames:
 ---
 
 # PFND3D12DDI_BEGIN_END_QUERY_0003 callback function
@@ -58,43 +58,23 @@ The <i>pfnBeginQuery</i> callback function defines the beginning of the portion 
 
 
 
-### -param Arg1
+### -param hCommandList
 
 A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
-### -param Arg2
+### -param hQueryHeap
 
+The handle of a query heap, which represents an array of query results. The underlying data representation of a query result is IHV dependent in query heaps and opaque to applications.  Query results are stored in a query heap until they are later “resolved” into the API defined format.
 
-### -param Arg3
+### -param QueryType
 
+The type of query. Resolve is used by applications to transform a query result previously stored in a query heap into the API defined format.  The resolved data is stored in a D3D12 buffer.  The results can then be consumed by a shader, predication, or mapped and read on the CPU.
 
-### -param Arg4
-
-
-
-
-
-
-
-
-#### - QueryType
-
-The type of query.
-
-
-#### - StartElement
+### -param StartElement
 
 The value of the start element.
 
 
-#### - hCommandList
-
-The handle of a command list for which to query.
-
-
-#### - hQueryHeap
-
-The handle of a query heap, which represents an array of query results.
 
 
 ## -returns
@@ -103,5 +83,11 @@ The handle of a query heap, which represents an array of query results.
 
 This callback function does not return a value.
 
+## -remarks
+
+Begin/End query and resolve query are scheduled commands that are processed on the GPU.  There is no defined entry point to allow CPU processing on the query results.
+
+Queries that don’t apply to multiple commands may be defined to only use EndQuery.
+For example, if the D3D12DDI_QUERY_TYPE_VIDEO_DECODE_STATISTICS query only applies to the previous DecodeFrame command in the same command list, only EndQuery is used for this query type.
 
 

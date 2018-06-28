@@ -84,6 +84,8 @@ None
 
 Callers of <b>RtlTimeToTimeFields</b> can be running at any IRQL if both input buffers are resident.
 
+For more info about the **TIME_FIELDS** structure, see [RtlTimeFieldsToTime function](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtltimefieldstotime).
+
 
 
 

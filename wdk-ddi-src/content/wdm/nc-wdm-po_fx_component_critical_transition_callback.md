@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: TBD
+req.irql: 
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -98,7 +98,7 @@ If <i>Active</i> = FALSE, PoFx has called this routine <i>before</i> the compone
 
 For more information about F<i>x</i> component power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450935">Component-Level Power Management</a>.
 
-A PEP can call this routine at IRQL TBD.
+
 
 
 

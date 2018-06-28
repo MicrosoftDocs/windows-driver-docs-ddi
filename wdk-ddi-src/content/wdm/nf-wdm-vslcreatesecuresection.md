@@ -32,9 +32,9 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	HeaderDef
 api_location:
--
+- Wdm.h
 api_name:
 -	VslCreateSecureSection
 product:
@@ -51,7 +51,7 @@ req.typenames:
 
 
 			
-            This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
+This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 
 
 ## -parameters
@@ -61,27 +61,27 @@ req.typenames:
 
 ### -param Handle
 
-TBD
+
 
 
 ### -param TargetProcess
 
-TBD
+
 
 
 ### -param Mdl
 
-TBD
+
 
 
 ### -param DevicePageProtection
 
-TBD
+
 
 
 ### -param Attributes
 
-TBD
+
 
 
 ## -returns

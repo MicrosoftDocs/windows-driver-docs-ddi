@@ -172,7 +172,7 @@ Both <i>InputStateInfo</i> and <i>OutputStateInfo</i> are NULL or both of these 
 
 ## -remarks
 
-
+Note that PoFx performs a deep-copy of the device's structures into its memory.
 
 Either the driver or the platform extension plug-in (PEP) may provide information about the performance states supported by each component:
 
