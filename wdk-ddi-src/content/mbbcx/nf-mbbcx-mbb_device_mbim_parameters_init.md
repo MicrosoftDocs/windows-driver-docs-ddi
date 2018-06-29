@@ -15,7 +15,7 @@ req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
 req.kmdf-ver: 1.27
 req.umdf-ver:
-req.lib:
+req.lib: mbbcxstub.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
