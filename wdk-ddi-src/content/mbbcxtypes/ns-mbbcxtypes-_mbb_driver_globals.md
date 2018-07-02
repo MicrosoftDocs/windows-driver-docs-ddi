@@ -2,10 +2,10 @@
 UID: NS:mbbcxtypes._MBB_DRIVER_GLOBALS
 title: _MBB_DRIVER_GLOBALS
 author: windows-driver-content
-description: 
+description: Call MBB_DRIVER_GLOBALS_INIT to initialize this structure.
 ms.assetid: 68caf662-edfa-4ede-b063-3b7589dc8d34
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/02/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ req.include-header:
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -39,11 +39,18 @@ targetos: Windows
 
 ## -description
 
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> 
+> MBBCx is preview only in Windows 10, version 1809.
+
+Call MBB_DRIVER_GLOBALS_INIT to initialize this structure.
 
 ## -struct-fields
 
 ### -field Unused
  
+This member is unused.
 
 ## -remarks
 
