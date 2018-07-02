@@ -48,7 +48,7 @@ req.product: Windows 10 or later.
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The **NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME** macro creates an accessor method with a specified name for a client driver's object-specific context space, as well as a second accessor method with the same name as the first, but with the string "FromToken" appended.
 

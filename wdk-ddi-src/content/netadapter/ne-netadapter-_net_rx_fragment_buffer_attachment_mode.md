@@ -39,7 +39,7 @@ targetos: Windows
 > [!WARNING]
 > Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 >
-> NetAdapterCx is preview only in Windows 10, version 1803.
+> NetAdapterCx is preview only in Windows 10, version 1809.
 
 The **NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE** enumeration identifies how the operating system should pre-attach [NET_PACKET_FRAGMENT](../netpacket/ns-netpacket-_net_packet_fragment.md) buffers to [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md)s for a net adapter client driver's receive queues.
 
