@@ -2,23 +2,23 @@
 UID: NC:mbbcx.EVT_MBB_DEVICE_CREATE_ADAPTER
 title: EVT_MBB_DEVICE_CREATE_ADAPTER
 author: windows-driver-content
-description: 
+description: The EvtMbbDeviceCreateAdapter callback function is implemented by the client driver to create a NETADAPTER object for a data session.
 ms.assetid: db841566-dd24-4687-b00c-1bf2a22f4243
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/02/2018
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: mbbcx.h
 req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.target-type: Universal
+req.target-min-winverclnt: Windows 10, version 1809
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL 
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -42,7 +42,12 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+> 
+> MBBCx is preview only in Windows 10, version 1809.
+
+The *EvtMbbDeviceCreateAdapter* callback function is implemented by the client driver to create a NETADAPTER object for a data session.
 
 ## -prototype
 
@@ -64,19 +69,24 @@ NTSTATUS EvtMbbDeviceCreateAdapter
 
 ## -parameters
 
-### -param Device: 
-### -param AdapterInit: 
+### -param Device
 
+A handle to a framework device object the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
+### -param AdapterInit
+
+A NETADAPTER_INIT object that describes the initialization information for the NETADAPTER.
 
 ## -returns
 
-Returns NTSTATUS that ...
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+This callback function returns STATUS_SUCCESS if the operation was successful. Otherwise, it returns an appropriate NTSTATUS error code.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+An MBBCx client driver must register an *EvtMbbDeviceCreateAdapter* callback function by calling [**MbbDeviceInitialize**](nf-mbbcx-mbbdeviceinitialize.md).
 
+In this callback, the client driver creates a NETADAPTER object that is used by MBBCx to represent the network interface for a data session. MBBCx invokes this callback function at least once to establish the primary PDP context/default EPS bearer, then it might invoke it more times, once for every data session to be established.
+
+For more information and a code example, see [Creating the NetAdapter interface for the PDP context/EPS bearer](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#creating-the-netadapter-interface-for-the-pdp-contexteps-bearer).
 
 ## -see-also
