@@ -2,7 +2,7 @@
 UID: NS:ndiswwan._NDIS_WWAN_MPDP_STATE
 title: _NDIS_WWAN_MPDP_STATE
 author: windows-driver-content
-description: The NDIS_WWAN_MPDP_STATE structure represents the state of a multiple Packet Data Protocol (MPDP) interface after a requested operation.
+description: The NDIS_WWAN_MPDP_STATE structure represents the state of a Multiple Packet Data Protocol (MPDP) interface after a requested operation.
 ms.assetid: 58bc3af3-8f33-41e3-9417-190da9be2b6c
 ms.author: windowsdriverdev
 ms.date: 06/25/2018
@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-The **NDIS_WWAN_MPDP_STATE** structure represents the state of a Multiple Packet Data Protocol (MPDP) interface/NetAdapter object after a requested operation.
+The **NDIS_WWAN_MPDP_STATE** structure represents the state of a Multiple Packet Data Protocol (MPDP) interface after a requested operation.
 
 ## -struct-fields
 

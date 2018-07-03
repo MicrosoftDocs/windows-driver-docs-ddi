@@ -2,7 +2,7 @@
 UID: NS:ndiswwan._NDIS_WWAN_MPDP_LIST
 title: _NDIS_WWAN_MPDP_LIST
 author: windows-driver-content
-description: The NDIS_WWAN_MPDP_LIST structure contains a list of existing multiple Packet Data Procol (MPDP) interfaces, or NetAdapter objects, on the MBB device receiving the primary NetAdapter.
+description: The NDIS_WWAN_MPDP_LIST structure contains a list of existing Multiple Packet Data Protocol (MPDP) interfaces for the mobile broadband device representing the primary PDP context/EPS bearer.
 ms.assetid: 42de1468-e1ef-4391-a454-c7978987ded1
 ms.author: windowsdriverdev
 ms.date: 06/25/2018
@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-The **NDIS_WWAN_MPDP_LIST** structure contains a list of existing Multiple Packet Data Protocol (MPDP) interfaces, or NetAdapter objects, for the MBB device representing the primary NetAdapter.
+The **NDIS_WWAN_MPDP_LIST** structure contains a list of existing Multiple Packet Data Protocol (MPDP) interfaces for the mobile broadband device representing the primary PDP context/EPS bearer.
 
 ## -struct-fields
 
@@ -59,7 +59,7 @@ A **WWAN_STATUS** value that indicates the result of the query request.
  
 ### -field ChildInterfaceList
  
-If **uStatus** == WWAN_STATUS_SUCCESS, this field contains a list of the existing MPDP interfaces/NetAdapters on the MBB device representing the primary NetAdapter. The **ElementType** member of this list header must be **WwanStructMPDPChildInterface**, and the **ElementCount** member of interface GUIDs must follow this header.
+If **uStatus** == WWAN_STATUS_SUCCESS, this field contains a list of the existing MPDP interfaces. The **ElementType** member of this list header must be **WwanStructMPDPChildInterface**, and the **ElementCount** member of interface GUIDs must follow this header.
 
 ## -remarks
 

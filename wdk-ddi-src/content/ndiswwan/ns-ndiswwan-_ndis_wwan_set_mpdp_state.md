@@ -2,7 +2,7 @@
 UID: NS:ndiswwan._NDIS_WWAN_SET_MPDP_STATE
 title: _NDIS_WWAN_SET_MPDP_STATE
 author: windows-driver-content
-description: The NDIS_WWAN_SET_MPDP_STATE structure contains information for a miniport driver to perform an operation on a multiple Packet Data Protocol (MPDP) interface.
+description: The NDIS_WWAN_SET_MPDP_STATE structure contains information for performing an operation on a Multiple Packet Data Protocol (MPDP) interface.
 ms.assetid: 2bacc2a8-0117-4f3c-8865-af8d1c5529ba
 ms.author: windowsdriverdev
 ms.date: 06/25/2018
@@ -39,7 +39,7 @@ targetos: Windows
 
 ## -description
 
-The **NDIS_WWAN_SET_MPDP_STATE** structure contains information for performing an operation on a Multiple Packet Data Protocol (MPDP) interface/NetAdapter object.
+The **NDIS_WWAN_SET_MPDP_STATE** structure contains information for performing an operation on a Multiple Packet Data Protocol (MPDP) interface.
 
 ## -struct-fields
 
@@ -57,7 +57,7 @@ For more information about these members, see [**NDIS_OBJECT_HEADER**](../ntddnd
  
 ### -field Info
  
-A formatted [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_wwan_mpdp_info.md) structure that contains the information for the miniport driver to use in the MPDP interface/NetAdapter object operation.
+A formatted [**NDIS_WWAN_MPDP_INFO**](ns-ndiswwan-_ndis_wwan_mpdp_info.md) structure that contains the information for the miniport driver to use in the MPDP interface operation.
 
 ## -remarks
 

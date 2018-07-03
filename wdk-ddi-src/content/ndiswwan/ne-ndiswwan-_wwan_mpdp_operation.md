@@ -2,7 +2,7 @@
 UID: NE:ndiswwan._WWAN_MPDP_OPERATION
 title: _WWAN_MPDP_OPERATION
 author: windows-driver-content
-description: The WWAN_MPDP_OPERATION enumeration describes the operation for a mobile broadband miniport driver to perform for a multiple Packet Data Protocol (MPDP) interface.
+description: The WWAN_MPDP_OPERATION enumeration describes an operation to perform on a Multiple Packet Data Protocol (MPDP) interface.
 ms.assetid: b8436268-3236-4c86-9aa6-f8b6ae65c121
 ms.author: windowsdriverdev
 ms.date: 06/25/2018
@@ -36,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-The **WWAN_MPDP_OPERATION** enumeration describes an operation to perform on a Multiple Packet Data Protocol (MPDP) interface/NetAdapter object.
+The **WWAN_MPDP_OPERATION** enumeration describes an operation to perform on a Multiple Packet Data Protocol (MPDP) interface.
 
 ## -enum-fields
 
