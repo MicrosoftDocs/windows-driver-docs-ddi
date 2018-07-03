@@ -111,13 +111,13 @@ Specifies a very high-throughput (VHT) 802.11ac PHY.
 
 Added in Windows 10, version 1607, WDI version 1.0.21.
 
-Specifies an 802.11ad PHY.
+Specifies a Directional Multi-Gigabit (DMG) 802.11ad PHY.
 
 ### -field WDI_PHY_TYPE_HE
 
 Added in Windows 10, version 1803. WDI version 1.1.7.
 
-Specifies an 802.11ax PHY.
+Specifies a High-Efficiency (HE) 802.11ax PHY.
 
 
 ### -field WDI_PHY_TYPE_IHV_START
