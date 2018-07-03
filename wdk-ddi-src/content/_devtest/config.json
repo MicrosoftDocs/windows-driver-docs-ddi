@@ -1,0 +1,11 @@
+{
+  "tech": "devtest",
+  "headers": [
+    "dderror.h",
+    "lkmdtel.h",
+    "ntddk.h",
+    "wdm.h",
+    "wpprecorder.h"
+  ],
+  "displayName": "Driver test tools"
+}

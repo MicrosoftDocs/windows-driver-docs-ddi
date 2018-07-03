@@ -1,6 +1,6 @@
 # [Windows Driver Framework](../_wdf/index.md)
 ## [Wdfworkitem.h](index.md)
-### [EVT_WDF_WORKITEM callback](../wdfworkitem/nc-wdfworkitem-evt_wdf_workitem.md)
+### [EVT_WDF_WORKITEM callback function](../wdfworkitem/nc-wdfworkitem-evt_wdf_workitem.md)
 ### [WdfWorkItemCreate function](../wdfworkitem/nf-wdfworkitem-wdfworkitemcreate.md)
 ### [WdfWorkItemEnqueue function](../wdfworkitem/nf-wdfworkitem-wdfworkitemenqueue.md)
 ### [WdfWorkItemFlush function](../wdfworkitem/nf-wdfworkitem-wdfworkitemflush.md)

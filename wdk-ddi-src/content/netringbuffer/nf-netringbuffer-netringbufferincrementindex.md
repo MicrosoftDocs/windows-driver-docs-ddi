@@ -73,6 +73,6 @@ NET_RING_BUFFER *ringBuffer = . . .;
 ringBuffer->BeginIndex = NetRingBufferIncrementIndex(ringBuffer, ringBuffer->BeginIndex);
 ```
 
-The minimum NetAdapterCx version for **NetRingBufferIncrementIndex** is 1.0.
+
 
 ## -see-also

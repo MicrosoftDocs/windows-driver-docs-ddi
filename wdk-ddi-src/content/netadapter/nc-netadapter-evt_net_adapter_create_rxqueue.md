@@ -96,7 +96,6 @@ Next, the client calls [NetRxQueueCreate](../netrxqueue/nf-netrxqueue-netrxqueue
 
 To retrieve the ring buffer associated with a given queue, call [NetRxQueueGetDatapathDescriptor](../netrxqueue/nf-netrxqueue-netrxqueuegetdatapathdescriptor.md), then use the [NET_DATAPATH_DESCRIPTOR](../netdatapathdescriptor/ns-netdatapathdescriptor-_net_datapath_descriptor.md) structure returned by that method to call [NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER](../netdatapathdescriptor/nf-netdatapathdescriptor-net_datapath_descriptor_get_packet_ring_buffer.md).
 
-The minimum NetAdapterCx version for *EvtNetAdapterCreateRxQueue* is 1.0.
 
 ### Example
 NetAdapterCx calls *EvtNetAdapterCreateRxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). During this callback, client drivers can add packet context attributes to the queue and query for packet extension offsets.

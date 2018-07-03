@@ -486,8 +486,7 @@ The protocol driver or intermediate driver can use this area for internal tracki
 This member is not significant for a protocol or intermediate driver. A protocol or intermediate
       driver must not modify this member.
 
-When propagating the completion of a state-manipulation operation, an intermediate driver copies the
-      
+When propagating the completion of a state-manipulation operation, an intermediate driver copies the      
       <b>SourceHandle</b> that it stored in its IM call entry to the 
       <b>SourceHandle</b> member of the 
       <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">

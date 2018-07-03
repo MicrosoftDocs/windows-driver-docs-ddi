@@ -1,0 +1,15 @@
+{
+  "tech": "taef",
+  "headers": [
+    "wex.common.h",
+    "wex.logger.h",
+    "wexassert.h",
+    "wexdebug.h",
+    "wexexception.h",
+    "wexlogtrace.h",
+    "wexstring.h",
+    "wextestclass.h",
+    "wextypes.h"
+  ],
+  "displayName": "Test Authoring and Execution Framework (TAEF)"  
+}

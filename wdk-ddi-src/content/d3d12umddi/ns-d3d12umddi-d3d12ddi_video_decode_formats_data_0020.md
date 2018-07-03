@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -70,20 +70,23 @@ Specifies the decode configuration for the list of formats.
 
 ### -field FormatCount
 
-The number of formats to retrieve.  The runtime ensures this value matches the value returned from PFND3D12DDI_VIDEO_GETCAPS with D3D12DDI_CAPSTYPE_VIDEO set to D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILE_FORMAT_COUNT.
+The number of formats to retrieve. The runtime ensures this value matches the value returned from [PFND3D12DDI_VIDEO_GETCAPS](nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md) with D3D12DDI_CAPSTYPE_VIDEO set to D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILE_FORMAT_COUNT.
 
 
 ### -field pOutputFormats
 
-A pointer to the returned supported formats.  The calling application allocates storage for the format list.
+A pointer to the returned supported formats. The calling application allocates storage for the format list.
 
+## -remarks
+
+These methods allow the list of supported decode formats supported by hardware. First, use PFND3D12DDDI_VIDEO_GETCAPS is called with D3D12DDICAPS_TYPE_VIDEO set to D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILE_FORMAT_COUNT to retrieve the number of supported formats. The caller uses this to allocate storage to retrieve the list of formats. The list is then retrieved through PFND3D12DDI_VIDEO_GETCAPS with the D3D12DDICAPS_TYPE set to D3D12DDICAPS_TYPE_VIDEO_DECODE_PROFILE_FORMATS.
 
 ## -see-also
 
 
 
 
-<a href="https://msdn.microsoft.com/84503E38-E141-4DAC-B305-6C7E6157A3E9">pfnGetDecodeFormatCount</a>
+[pfnGetDecodeFormatCount](nc-d3d12umddi-pfnd3d12ddi_video_get_decode_format_count_0020.md)
  
 
  

@@ -51,11 +51,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTSTA_RECV_CONTEXT structure defines the Native 802.11 attributes of a received packet by
-  the 802.11 station and indicated by the miniport driver operating in either Extensible Station (ExtSTA) or
-  Network Monitor (NetMon) modes. For more information about these operation modes, see 
-  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation
-  Modes</a>.
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
+
+The DOT11_EXTSTA_RECV_CONTEXT structure defines the Native 802.11 attributes of a received packet by the 802.11 station and indicated by the miniport driver operating in either Extensible Station (ExtSTA) or Network Monitor (NetMon) modes. For more information about these operation modes, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>.
 
 
 ## -syntax
@@ -85,16 +83,11 @@ typedef struct DOT11_EXTSTA_RECV_CONTEXT {
 ### -field Header
 
 The type, revision, and size of the DOT11_EXTSTA_RECV_CONTEXT structure. This member is formatted
-     as an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
+     as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
      
 
 The miniport driver must set the members of 
      <b>Header</b> to the following values:
-
-
-
-
 
 #### Type
 
@@ -110,11 +103,9 @@ This member must be set to DOT11_EXTSTA_RECV_CONTEXT_REVISION_1.
 
 #### Size
 
-This member must be set to 
-       sizeof(DOT11_EXTSTA_RECV_CONTEXT).
+This member must be set to `sizeof(DOT11_EXTSTA_RECV_CONTEXT)`.
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+For more information about these members, see <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uReceiveFlags
@@ -122,23 +113,13 @@ For more information about these members, see
 The attributes of the received packet data specified through a bitmask. 
      
 
-If the miniport driver is operating in ExtSTA mode, the driver must always set 
-     <b>uReceiveFlags</b> to zero.
+If the miniport driver is operating in ExtSTA mode, the driver must always set <b>uReceiveFlags</b> to zero.
 
 The following flag values are valid for the miniport driver if is operating in NetMon mode.
 
-
-
-
-
 #### DOT11_RECV_FLAG_RAW_PACKET
 
-If this bit is set, the packet contains the data as it was originally received by the 802.11
-       station. For more information about raw packets, see 
-       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11
-       Packets</a>.
-
-
+If this bit is set, the packet contains the data as it was originally received by the 802.11 station. For more information about raw packets, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/indicating-raw-802-11-packets">Indicating Raw 802.11 Packets</a>.
 
 #### DOT11_RECV_FLAG_RAW_PACKET_FCS_FAILURE
 
@@ -147,7 +128,6 @@ If this bit is set, the raw packet data was received with frame check sequence (
 
 <div class="alert"><b>Note</b>  The miniport driver must set DOT11_RECV_FLAG_RAW_PACKET when setting
        DOT11_RECV_FLAG_RAW_PACKET_FCS_FAILURE.</div>
-<div> </div>
 
 
 #### DOT11_RECV_FLAG_RAW_PACKET_TIMESTAMP
@@ -200,7 +180,6 @@ The size, in bytes, of the media specific information at the
 
 <div class="alert"><b>Note</b>  This member is currently reserved for future use and must contain
      zero.</div>
-<div> </div>
 
 ### -field pvMediaSpecificInfo
 
@@ -216,7 +195,6 @@ The native 802.11 framework copies this pointer to the
 
 <div class="alert"><b>Note</b>  IHV extensions are currently unable to receive the 
      <b>MediaSpecificInformation</b>.</div>
-<div> </div>
 
 ### -field ullTimestamp
 

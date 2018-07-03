@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3d12umddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,9 +50,7 @@ req.typenames: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033
 ## -description
 
 
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
-
-Create a video decoder heap.
+Used to create a decoder object for a decode session.
 
 
 ## -struct-fields
@@ -62,22 +60,22 @@ Create a video decoder heap.
 
 ### -field NodeMask
 
-The set of nodes.
+For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the device's physical adapter) to which the command queue applies. Each bit in the mask corresponds to a single node. Only 1 bit may be set.
 
 
 ### -field Configuration
 
-The video decode configuration.
+The decode profile and bitstream encryption.  See D3D12DDI_VIDEO_DECODE_CONFIGURATION.
 
 
 ### -field DecodeWidth
 
-Decode width.
+The decode width of the bitstream to be decoded.
 
 
 ### -field DecodeHeight
 
-Decode height.
+The decode height of the bitstream to be decoded.
 
 
 ### -field Format
@@ -87,15 +85,26 @@ The resource data format.
 
 ### -field FrameRate
 
-A rational number that specifies the frame rate.
+The frame rate of the input video stream.
 
 
 ### -field BitRate
 
-The number of bits per second.
+The bits per second data compression rate for the compressed video stream.
 
 
 ### -field MaxDecodePictureBufferCount
 
-Maximum decode picture buffer count.
+The maximum number of decode picture buffers this stream can have.
 
+## -remarks
+
+The decoder heap holds the allocations for a decode session, and may contain state including reference related data such as motion vectors. In the event of a resolution change or a MaxDecodePictureBufferCount change, a new instance of this object is created. It is codec specific when these properties can change.
+
+The decode width and height specify the native stream resolution before any scale. The maximum Decode Picture Buffer (DPB) count specifies the largest DPB count that can be used without recreating the video decode stream.
+
+The Bitrate and FrameRate parameters may be used by drivers to inform heuristics such as intermediate allocation sizes or performance optimizations.
+
+Decoding a frame can fail if the Bitrate and FrameRate values are insufficient for the video stream.  If decode fails for this reason, the query D3D12DDI_QUERY_TYPE_VIDEO_DECODE_STATISTICS must return Status D3D12DDI_VIDEO_DECODE_STATUS_RATE_EXCEEDED.
+
+The Bitrate and FrameRate parameters may also be set to zero.  When these values are used, drivers must make worst case assumptions and are not allowed to fail with D3D12DDI_VIDEO_DECODE_STATUS_RATE_EXCEEDED.

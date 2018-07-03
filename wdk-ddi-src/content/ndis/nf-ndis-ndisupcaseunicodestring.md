@@ -63,24 +63,10 @@ The
 
 ### -param _d
 
-TBD
-
-
-### -param _s
-
-TBD
-
-
-
-
-
-
-#### - DestinationString [out]
-
 A pointer to a caller-allocated buffer in which to return the converted string.
 
 
-#### - SourceString [in]
+### -param _s
 
 A pointer to the source Unicode string to be converted to upper case.
 

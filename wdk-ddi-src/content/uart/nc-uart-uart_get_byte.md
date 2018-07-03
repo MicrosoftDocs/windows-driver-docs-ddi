@@ -3,6 +3,7 @@ UID: NC:uart.UART_GET_BYTE
 title: UART_GET_BYTE
 author: windows-driver-content
 description: Reads a data byte from the UART device.
+old-project: serports
 ms.assetid: d0b97aa3-4e93-498d-8afc-44588fd21388
 ms.author: windowsdriverdev
 ms.date: 

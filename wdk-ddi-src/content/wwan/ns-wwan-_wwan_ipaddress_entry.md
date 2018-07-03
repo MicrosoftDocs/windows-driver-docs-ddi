@@ -60,62 +60,16 @@ The WWAN_IPADDRESS_ENTRY structure represents either the IPV4 or IPV6 address of
 
 ### -field IsIpv6
 
- 
-
+Set if the IP address of the PDP context is an IPV6 address.
 
 ### -field IsReported
 
- 
-
+Reserved. Do not use.
 
 ### -field Ipv4
 
- 
-
+The IPV4 address of the PDP context, if <b>IsIpv6</b> is not set.
 
 ### -field Ipv6
 
- 
-
-
-
-
-#### - ( unnamed union )
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-union
-{
-    WWAN_IPV4_ADDRESS    Ipv4;
-    WWAN_IPV6_ADDRESS    Ipv6;
-};</pre>
-</td>
-</tr>
-</table></span></div>
-
-
-#### Ipv4
-
-The IPV4 address of the PDP context, if <b>IsIpv6</b> is not set.
-
-
-
-#### Ipv6
-
 The IPV6 address of the PDP context, if <b>IsIpv6</b> is set.
-
-
-#### - IsIpv6:1
-
-Set if the IP address of the PDP context is an IPV6 address.
-
-
-#### - IsReported:1
-
-Reserved. Do not use.
-

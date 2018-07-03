@@ -63,25 +63,10 @@ The
 
 ### -param _as
 
-TBD
-
-
-### -param _us
-
-TBD
-
-
-
-
-
-
-#### - DestinationString [in, out]
-
 A pointer to a caller-allocated buffer in which this function should return the converted ANSI
      string.
 
-
-#### - SourceString [in]
+### -param _us
 
 A pointer to the Unicode string to be converted.
 

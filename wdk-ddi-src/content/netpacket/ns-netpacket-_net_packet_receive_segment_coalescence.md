@@ -62,7 +62,7 @@ The number of data segments that were coalesced.
 ## -remarks
 Client drivers can obtain this structure for a packet by calling [NetPacketGetPacketReceiveSegmentCoalescence](nf-netpacket-netpacketgetpacketreceivesegmentcoalescence.md).
 
-The minimum NetAdapterCx version for **NET_PACKET_RECEIVE_SEGMENT_COALESCENCE** is 1.2.
+
 
 ## -see-also
 

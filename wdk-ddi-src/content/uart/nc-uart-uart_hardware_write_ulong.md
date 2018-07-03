@@ -3,6 +3,7 @@ UID: NC:uart.UART_HARDWARE_WRITE_ULONG
 title: UART_HARDWARE_WRITE_ULONG
 author: windows-driver-content
 description: Writes a ULONG value to the specified port or register.
+old-project: serports
 ms.assetid: 6c4f3758-dec5-4466-968d-f4eec9eee6bf
 ms.author: windowsdriverdev
 ms.date: 

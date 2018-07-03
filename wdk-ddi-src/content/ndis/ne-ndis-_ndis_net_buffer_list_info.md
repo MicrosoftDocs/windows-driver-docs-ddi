@@ -176,33 +176,13 @@ Identifies a <b>USHORT</b> value that is the frame type of the received Ethernet
 ### -field NetBufferListProtocolId
 
 Identifies a <b>UCHAR</b> value that is a protocol identifier as one of the following values: 
-     
 
-
-
-
-
-#### NDIS_PROTOCOL_ID_DEFAULT
-
-A default protocol driver identifier.
-
-
-
-#### NDIS_PROTOCOL_ID_TCP_IP
-
-The TCP/IP protocol.
-
-
-
-#### NDIS_PROTOCOL_ID_IPX
-
-The IPX protocol.
-
-
-
-#### NDIS_PROTOCOL_ID_NBF
-
-The NetBEUI protocol.
+<ul>
+<li>NDIS_PROTOCOL_ID_DEFAULT</li><ul><li>A default protocol driver identifier.</li></ul>
+<li>NDIS_PROTOCOL_ID_TCP_IP</li><ul><li>The TCP/IP protocol.</li></ul>
+<li>NDIS_PROTOCOL_ID_IPX</li><ul><li>The IPX protocol.</li></ul>
+<li>NDIS_PROTOCOL_ID_NBF</li><ul><li>The NetBEUI protocol.</li></ul>
+</ul>
 
 
 ### -field NetBufferListHashValue
@@ -303,6 +283,7 @@ Identifies a <b>ULONG</b> value that is the number of data bytes that were recei
 
 ### -field NrtNameResolutionId
 
+Reserved.
 
 ### -field SwitchForwardingReserved
 
@@ -331,7 +312,7 @@ Identifies a pointer to a driver-allocated <a href="https://msdn.microsoft.com/l
 
 ### -field RscTcpTimestampDelta
 
-Identifies a pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh451655">NDIS_RSC_NBL_INFO</a> union containing RSC timestamp information. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451655">NDIS_RSC_NBL_INFO</a> documentation.
+Identifies a **ULONG** value containing RSC timestamp information. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451655">NDIS_RSC_NBL_INFO</a> documentation.
 
 
 ### -field TcpSendOffloadsSupplementalNetBufferListInfo
@@ -341,15 +322,19 @@ Identifies a pointer to a driver-allocated <a href="https://msdn.microsoft.com/l
 
 ### -field GftOffloadInformation
 
+Generic Flow Table (GFT) Offload information.
 
 ### -field GftFlowEntryId
 
+The flow entry ID for GFT.
 
 ### -field NetBufferListInfoReserved3
 
+Reserved.
 
 ### -field NetBufferListInfoReserved4
 
+Reserved.
 
 ### -field NetBufferListInfoReserved1
 

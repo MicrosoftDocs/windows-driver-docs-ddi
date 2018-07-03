@@ -64,7 +64,7 @@ The structure type name of a driver-defined structure that describes the content
 
 Before calling **NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE**, you must first declare a custom structure for this packet context, then call [NET_PACKET_DECLARE_CONTEXT_TYPE_WITH_NAME](nf-netadapterpacket-net_packet_declare_context_type_with_name.md) globally (not within a function).
 
-The minimum NetAdapterCx version for **NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE** is 1.1.
+
 
 ### Example
 

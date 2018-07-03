@@ -62,7 +62,7 @@ The network adapter object that the client created in a prior call to [NetAdapte
 Returns the NETPOWERSETTINGS for the specified net adapter object.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetAdapterGetPowerSettings** is 1.0.
+
 
 ## -see-also
 

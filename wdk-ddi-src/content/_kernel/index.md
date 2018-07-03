@@ -1,8 +1,9 @@
 ---
 UID: TP:kernel
+author: windows-driver-content
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +12,7 @@ ms.topic: portal
 
 # Windows kernel
 
-
+## -description
 
 Overview of the Windows kernel technology.
 
@@ -94,35 +95,37 @@ Used for obtaining and reporting hardware configuration information about a driv
 
 The following routines are reserved for system use. Do not use them in your driver.
 
-HalAcquireDisplayOwnership
-HalAllocateAdapterChannel. Use AllocateAdapterChannel instead.
-HalAllocateCrashDumpRegisters
-HalAllocateMapRegisters
-HalGetScatterGatherList. Use GetScatterGatherList instead.
-HalMakeBeep
-HalPutDmaAdapter. Use PutDmaAdapter instead.
-HalPutScatterGatherList. Use PutScatterGatherList instead.
+- HalAcquireDisplayOwnership
+- HalAllocateAdapterChannel. Use AllocateAdapterChannel instead.
+- HalAllocateCrashDumpRegisters
+- HalAllocateMapRegisters
+- HalGetScatterGatherList. Use GetScatterGatherList instead.
+- HalMakeBeep
+- HalPutDmaAdapter. Use PutDmaAdapter instead.
+- HalPutScatterGatherList. Use PutScatterGatherList instead.
 
 The following obsolete routines are exported only to support existing drivers:
 
-HalAllocateCommonBuffer See AllocateCommonBuffer instead.
-HalAssignSlotResources Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.
-HalFreeCommonBuffer See FreeCommonBuffer instead.
-HalGetAdapter See IoGetDmaAdapter instead.
-HalGetBusData Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device. 
-HalGetBusDataByOffset Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device.
-HalGetDmaAlignmentRequirement See GetDmaAlignment instead.
-HalGetInterruptVector Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.
-HalReadDmaCounter See ReadDmaCounter instead.
-HalSetBusData Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to SetBusData, which can be used to write to the configuration space of a given device. 
-HalSetBusDataByOffset Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to SetBusData, which can be used to write to the configuration space of a given device. 
-HalTranslateBusAddress The PnP manager passes lists of raw and translated resources in its IIRP_MN_START_DEVICE request for each device. Consequently, in most cases there is no need to translate bus addresses. However, if translation is required, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. The query request returns a function pointer to TranslateBusAddress, which can be used to translates addresses on the parent bus to logical addresses.
+|Obsolete routine|Replacement |
+|---|---|
+|HalAllocateCommonBuffer |See [AllocateCommonBuffer](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_common_buffer) instead.|
+|HalAssignSlotResources| Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.|
+|HalFreeCommonBuffer |See [FreeCommonBuffer](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_common_buffer) instead.|
+|HalGetAdapter |See [IoGetDmaAdapter](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter) instead.|
+|HalGetBusData| Instead, use [IRP_MN_QUERY_INTERFACE](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mn-query-interface) to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device. |
+|HalGetBusDataByOffset |Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device.|
+|HalGetDmaAlignmentRequirement| See GetDmaAlignment instead.|
+|HalGetInterruptVector| Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.|
+|HalReadDmaCounter| See ReadDmaCounter instead.|
+|HalSetBusData| Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to SetBusData, which can be used to write to the configuration space of a given device. |
+|HalSetBusDataByOffset| Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to SetBusData, which can be used to write to the configuration space of a given device.| 
+|HalTranslateBusAddress| The PnP manager passes lists of raw and translated resources in its IIRP_MN_START_DEVICE request for each device. Consequently, in most cases there is no need to translate bus addresses. However, if translation is required, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. The query request returns a function pointer to TranslateBusAddress, which can be used to translates addresses on the parent bus to logical addresses.|
  
 These obsolete routines are included in the Ntddk.h header file.
 
 The following routine is not supported and should not be used:
 
-HalReturnToFirmware 
+- HalReturnToFirmware 
 
 Windows performs resource balancing of PCI bus resources to open an address region for a plugged device. The rebalance operation causes the bus data for some driver's device to move dynamically (between IRP_MN_STOP_DEVICE and IRP_MN_START_DEVICE calls). Therefore, a driver must not access the bus data directly. Instead the driver must pass it down to the lower bus driver because it knows the location of the device. 
 
@@ -317,8 +320,8 @@ This section describes the routines that are implemented by the power management
 |PoFxStartDevicePowerManagement| The PoFxStartDevicePowerManagement routine completes the registration of a device with the power management framework (PoFx) and starts device power management.
 |PoFxUnregisterDevice| The PoFxUnregisterDevice routine removes the registration of a device from the power management framework (PoFx).
  
-Device Power Management Callbacks
-This section describes the callback routines that are required by the power management framework (PoFx) to enable device power management. The driver that is the power policy owner for the device implements these callback routines. PoFx calls these routines to query and configure the power states of the components in the device.
+### Device Power Management Callbacks
+Device power management callbacks are the callback routines that are required by the power management framework (PoFx) to enable device power management. The driver that is the power policy owner for the device implements these callback routines. PoFx calls these routines to query and configure the power states of the components in the device.
 
 |Callback|Description|
 |---|---|
@@ -333,10 +336,13 @@ This section describes the callback routines that are required by the power mana
 ### Platform extension plug-in (PEP) reference
 Platform extension plug-ins (PEPs) provide interfaces for platform power management including device power management (DPM), processor power management (PPM), and, starting with Windows 10, ACPI runtime methods. 
 
-The types of notifications described in this section are sent to platform extension plug-ins (PEPs):
+The types of notifications sent to platform extension plug-ins (PEPs) include:
 [ACPI notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/acpi-notifications)
+
 [Device power management (DPM) notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/dpm-notifications)
+
 [Processor power management (PPM) notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ppm-notifications)
+
 [PPM power control codes](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ppm-power-control-codes)
 
 |Initialization Function|Description|
@@ -354,7 +360,7 @@ The types of notifications described in this section are sent to platform extens
  
 
 PEP callback routines
-The callback routines described in this section are implemented by platform extension plug-ins, and are called by the Windows power management framework (PoFx).
+The callback routines are implemented by platform extension plug-ins, and are called by the Windows power management framework (PoFx).
 
 |Callback function|Description|
 |---|---|
@@ -366,7 +372,7 @@ The callback routines described in this section are implemented by platform exte
 |PowerOnDumpDeviceCallback| The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device.
  
 ### Power management framework (PoFx) routines
-This section contains miscellaneous PoFx routines and structures that will most likely end up in the power-management section of the Kernel-Mode Driver Architecture doc set.
+Some miscellaneous PoFx routines and structures will most likely end up in the power-management section of the Kernel-Mode Driver Architecture doc set.
 
 |Initialization Function|Description|
 |---|---|
@@ -392,17 +398,17 @@ This section contains miscellaneous PoFx routines and structures that will most 
  
 
 ## Configuration Manager Routines
-This section describes the configuration manager routines. These routines use the CmXxx naming convention and are listed in alphabetical order.
+The configuration manager routines use the CmXxx naming convention.
 
-CmCallbackGetKeyObjectID
-CmCallbackGetKeyObjectIDEx
-CmCallbackReleaseKeyObjectIDEx
-CmGetBoundTransaction
-CmGetCallbackVersion
-CmRegisterCallback
-CmRegisterCallbackEx
-CmSetCallbackObjectContext
-CmUnRegisterCallback
+- CmCallbackGetKeyObjectID
+- CmCallbackGetKeyObjectIDEx
+- CmCallbackReleaseKeyObjectIDEx
+- CmGetBoundTransaction
+- CmGetCallbackVersion
+- CmRegisterCallback
+- CmRegisterCallbackEx
+- CmSetCallbackObjectContext
+- CmUnRegisterCallback
 
 ## Kernel Transaction Manager (KTM) Routines
 This section describes the routines, structures, and enumerations that the Kernel Transaction Manager (KTM) provides.
@@ -410,86 +416,86 @@ This section describes the routines, structures, and enumerations that the Kerne
 ### Transaction Manager Object Routines
 This section includes the following topics:
 
-TmRecoverTransactionManager
-ZwCreateTransactionManager
-ZwOpenTransactionManager
-ZwQueryInformationTransactionManager
-ZwRecoverTransactionManager
-ZwRollforwardTransactionManager
+- TmRecoverTransactionManager
+- ZwCreateTransactionManager
+- ZwOpenTransactionManager
+- ZwQueryInformationTransactionManager
+- ZwRecoverTransactionManager
+- ZwRollforwardTransactionManager
 
 ### Transaction Object Routines
 This section includes the following topics:
 
-TmCommitTransaction
-TmGetTransactionId
-TmIsTransactionActive
-TmRollbackTransaction
-ZwCommitTransaction
-ZwCreateTransaction
-ZwEnumerateTransactionObject
-ZwOpenTransaction
-ZwQueryInformationTransaction
-ZwRollbackTransaction
-ZwSetInformationTransaction
+- TmCommitTransaction
+- TmGetTransactionId
+- TmIsTransactionActive
+- TmRollbackTransaction
+- ZwCommitTransaction
+- ZwCreateTransaction
+- ZwEnumerateTransactionObject
+- ZwOpenTransaction
+- ZwQueryInformationTransaction
+- ZwRollbackTransaction
+- ZwSetInformationTransaction
 
 ###  Enlistment Object Routines
 This section includes the following topics:
 
-TmCommitComplete
-TmCommitEnlistment
-TmCreateEnlistment
-TmDereferenceEnlistmentKey
-TmPrepareComplete
-TmPrePrepareComplete
-TmPrepareEnlistment
-TmPrePrepareEnlistment
-TmReadOnlyEnlistment
-TmRecoverEnlistment
-TmReferenceEnlistmentKey
-TmRequestOutcomeEnlistment
-TmRollbackComplete
-TmRollbackEnlistment
-TmSinglePhaseReject
-ZwCommitComplete
-ZwCommitEnlistment
-ZwCreateEnlistment
-ZwOpenEnlistment
-ZwPrepareComplete
-ZwPrePrepareComplete
-ZwPrepareEnlistment
-ZwPrePrepareEnlistment
-ZwQueryInformationEnlistment
-ZwReadOnlyEnlistment
-ZwRecoverEnlistment
-ZwRollbackComplete
-ZwRollbackEnlistment
-ZwSetInformationEnlistment
-ZwSinglePhaseReject
+- TmCommitComplete
+- TmCommitEnlistment
+- TmCreateEnlistment
+- TmDereferenceEnlistmentKey
+- TmPrepareComplete
+- TmPrePrepareComplete
+- TmPrepareEnlistment
+- TmPrePrepareEnlistment
+- TmReadOnlyEnlistment
+- TmRecoverEnlistment
+- TmReferenceEnlistmentKey
+- TmRequestOutcomeEnlistment
+- TmRollbackComplete
+- TmRollbackEnlistment
+- TmSinglePhaseReject
+- ZwCommitComplete
+- ZwCommitEnlistment
+- ZwCreateEnlistment
+- ZwOpenEnlistment
+- ZwPrepareComplete
+- ZwPrePrepareComplete
+- ZwPrepareEnlistment
+- ZwPrePrepareEnlistment
+- ZwQueryInformationEnlistment
+- ZwReadOnlyEnlistment
+- ZwRecoverEnlistment
+- ZwRollbackComplete
+- ZwRollbackEnlistment
+- ZwSetInformationEnlistment
+- ZwSinglePhaseReject
 
 ### Resource Manager Object Routines
 This section includes the following topics:
 
-ResourceManagerNotification
-TmEnableCallbacks
-TmRecoverResourceManager
-ZwCreateResourceManager
-ZwGetNotificationResourceManager
-ZwOpenResourceManager
-ZwQueryInformationResourceManager
-ZwRecoverResourceManager
-ZwSetInformationResourceManager
+- ResourceManagerNotification
+- TmEnableCallbacks
+- TmRecoverResourceManager
+- ZwCreateResourceManager
+- ZwGetNotificationResourceManager
+- ZwOpenResourceManager
+- ZwQueryInformationResourceManager
+- ZwRecoverResourceManager
+- ZwSetInformationResourceManager
 
 ## Security Reference Monitor Routines
 Generally, higher-level drivers, particularly network drivers, call these routines.
 
 References for the SeXxx routines are in alphabetical order.
 
-SeAccessCheck
-SeAssignSecurity
-SeAssignSecurityEx
-SeDeassignSecurity
-SeFreePrivileges
-SeSinglePrivilegeCheck
+- SeAccessCheck
+- SeAssignSecurity
+- SeAssignSecurityEx
+- SeDeassignSecurity
+- SeFreePrivileges
+- - SeSinglePrivilegeCheck
 SeValidSecurityDescriptor
 
 
@@ -502,30 +508,32 @@ For an overview of the functionality of these routines, see Summary of Kernel-Mo
 
 The following routines are reserved for system use:
 
-KeAcquireSpinLockRaiseToSynch
-KeBreakinBreakpoint
-KeEnterKernelDebugger
-KeFlushWriteBuffer
-KeGetBugMessageText
-KeRaiseIrqlToSynchLevel
-KeRemoveByKeyDeviceQueueIfBusy
-KeSetTimeUpdateNotifyRoutine
+- KeAcquireSpinLockRaiseToSynch
+- KeBreakinBreakpoint
+- KeEnterKernelDebugger
+- KeFlushWriteBuffer
+- KeGetBugMessageText
+- KeRaiseIrqlToSynchLevel
+- KeRemoveByKeyDeviceQueueIfBusy
+- KeSetTimeUpdateNotifyRoutine
 
 ## Executive Library Support Routines
 This section describes the executive library support routines. These routines use the ExXxx naming convention and are listed in alphabetical order.
 
 The following executive support routines are reserved for system use. Do not use them in your driver.
 
-ExAcquireSpinLock. Use KeAcquireSpinLock instead.
-ExAcquireSpinLockAtDpcLevel. Use KeAcquireSpinLockAtDpcLevel instead.
-ExfInterlockedDecrementLong. Use InterlockedDecrement instead.
-ExfInterlockedExchangeUlong. Use InterlockedExchange instead.
-ExfInterlockedIncrementLong. Use InterlockedIncrement instead.
-ExfInterlockedPopEntryList. Use ExInterlockedPopEntryList instead.
-ExfInterlockedPushEntryList. Use ExInterlockedPushEntryList instead.
-ExReleaseSpinLock. Use KeReleaseSpinLock instead.
-ExReleaseSpinLockFromDpcLevel. Use KeReleaseSpinLockFromDpcLevel instead.
-ExVerifySuite.
+|Routine|Replacement|
+|---|---|
+|ExAcquireSpinLock| Use KeAcquireSpinLock instead.|
+|ExAcquireSpinLockAtDpcLevel| Use KeAcquireSpinLockAtDpcLevel instead.|
+|ExfInterlockedDecrementLong| Use InterlockedDecrement instead.|
+|ExfInterlockedExchangeUlong| Use InterlockedExchange instead.|
+|ExfInterlockedIncrementLong| Use InterlockedIncrement instead.|
+|ExfInterlockedPopEntryList| Use ExInterlockedPopEntryList instead.|
+|ExfInterlockedPushEntryList| Use ExInterlockedPushEntryList instead.|
+|ExReleaseSpinLock| Use KeReleaseSpinLock instead.|
+|ExReleaseSpinLockFromDpcLevel| Use KeReleaseSpinLockFromDpcLevel instead.|
+|ExVerifySuite||
 
 
 ## CLFS Library Routines
@@ -681,51 +689,51 @@ This section describes kernel-mode support routines that drivers can call:
 This section describes the silo DDIs. These DDIs offer the ability for kernel components to learn about the server silos that are created and destroyed on a machine.  Components register to receive notifications for these events and optionally store state that is associated with each silo.
 
 
-Context management
+### Context management
 These DDIs provide the ability to assign and retrieve context structures on silo objects. This allows drivers to attach per-silo information for each silo.
 
-PsAllocSiloContextSlot 
-PsFreeSiloContextSlot 
-PsCreateSiloContext 
-PsInsertSiloContext 
-PsReplaceSiloContext 
-PsInsertPermanentSiloContext 
-PsGetPermanentSiloContext 
-PsMakeSiloContextPermanent 
-PsGetSiloContext 
-PsRemoveSiloContext 
-PsReferenceSiloContext 
-PsDereferenceSiloContext 
-SILO_CONTEXT_CLEANUP_CALLBACK 
+- PsAllocSiloContextSlot 
+- PsFreeSiloContextSlot 
+- PsCreateSiloContext 
+- PsInsertSiloContext 
+- PsReplaceSiloContext 
+- PsInsertPermanentSiloContext 
+- PsGetPermanentSiloContext 
+- PsMakeSiloContextPermanent 
+- PsGetSiloContext 
+- PsRemoveSiloContext 
+- PsReferenceSiloContext 
+- PsDereferenceSiloContext 
+- SILO_CONTEXT_CLEANUP_CALLBACK 
 
 
-Threading
+### Threading
 These DDIs provide the ability to set and retrieve the silo for the current thread.
 
-PsAttachSiloToCurrentThread 
-PsDetachSiloFromCurrentThread 
-PsGetCurrentSilo 
-PsGetCurrentServerSilo 
+- PsAttachSiloToCurrentThread 
+- PsDetachSiloFromCurrentThread 
+- PsGetCurrentSilo 
+- PsGetCurrentServerSilo 
 
-Monitoring
+### Monitoring
 These DDIs provide the ability for a driver to receive notifications about silo creation and termination events.
 
-PsRegisterSiloMonitor 
-PsUnregisterSiloMonitor 
-PsStartSiloMonitor 
-PsGetSiloMonitorContextSlot 
-SILO_MONITOR_CREATE_CALLBACK 
-SILO_MONITOR_TERMINATE_CALLBACK 
+- PsRegisterSiloMonitor 
+- PsUnregisterSiloMonitor 
+- PsStartSiloMonitor 
+- PsGetSiloMonitorContextSlot 
+- SILO_MONITOR_CREATE_CALLBACK 
+- SILO_MONITOR_TERMINATE_CALLBACK 
 
-Helpers
+### Helpers
 These DDIs are helpful for working with silo objects.
 
-PsGetJobSilo 
-PsGetJobServerSilo 
-PsGetEffectiveServerSilo 
-PsIsHostSilo 
-PsGetHostSilo 
-PsTerminateServerSilo 
+- PsGetJobSilo 
+- PsGetJobServerSilo 
+- PsGetEffectiveServerSilo 
+- PsIsHostSilo 
+- PsGetHostSilo 
+- PsTerminateServerSilo 
 
 
 ## Synchronization
@@ -902,29 +910,29 @@ For an overview of the functionality of these routines and macros, see Memory Al
 
 The following routines are reserved for system use. Do not use them in your driver.
 
-MmAddPhysicalMemory
-MmAddPhysicalMemoryEx
-MmAddVerifierThunks
-MmCreateMirror
-MmGetMdlBaseVa
-MmGetPhysicalMemoryRanges
-MmGetProcedureAddress
-MmGetVirtualForPhysical
-MmIsVerifierEnabled
-MmIsIoSpaceActive
-MmMapUserAddressesToPage
-MmMapVideoDisplay
-MmMapViewInSessionSpace
-MmMapViewInSystemSpace
-MmMarkPhysicalMemoryAsBad
-MmMarkPhysicalMemoryAsGood
-MmProbeAndLockProcessPages
-MmRemovePhysicalMemory
-MmRemovePhysicalMemoryEx
-MmRotatePhysicalView
-MmUnmapVideoDisplay
-MmUnmapViewInSessionSpace
-MmUnmapViewInSystemSpace
+- MmAddPhysicalMemory
+- MmAddPhysicalMemoryEx
+- MmAddVerifierThunks
+- MmCreateMirror
+- MmGetMdlBaseVa
+- MmGetPhysicalMemoryRanges
+- MmGetProcedureAddress
+- MmGetVirtualForPhysical
+- MmIsVerifierEnabled
+- MmIsIoSpaceActive
+- MmMapUserAddressesToPage
+- MmMapVideoDisplay
+- MmMapViewInSessionSpace
+- MmMapViewInSystemSpace
+- MmMarkPhysicalMemoryAsBad
+- MmMarkPhysicalMemoryAsGood
+- MmProbeAndLockProcessPages
+- MmRemovePhysicalMemory
+- MmRemovePhysicalMemoryEx
+- MmRotatePhysicalView
+- MmUnmapVideoDisplay
+- MmUnmapViewInSessionSpace
+- MmUnmapViewInSystemSpace
 
 For more information about memory allocation and buffer management, see Memory Management for Windows Drivers.
 
@@ -1192,17 +1200,15 @@ For more information about the relationship between NtXxx and ZwXxx routines, se
 
 The following routines are reserved for system use. Do not use them in your driver.
 
-ZwCancelTimer. Use KeCancelTimer instead.
+|Routine|Replacement|
+|ZwCancelTimer| Use KeCancelTimer instead.|
+|ZwCreateTimer| Use KeInitializeTimer or KeInitializeTimerEx instead.|
+|ZwOpenTimer.||
+|ZwSetTimer| Use KeSetTimer instead.|
+|NtRenameTransactionManager| Obsolete.|
 
-ZwCreateTimer. Use KeInitializeTimer or KeInitializeTimerEx instead.
-
-ZwOpenTimer.
-
-ZwSetTimer. Use KeSetTimer instead.
-
-NtRenameTransactionManager is obsolete.
-
-Note  NtRenameTransactionManager and TmRenameTransactionManager are two versions of the same routine. Kernel-mode drivers should not call NtRenameTransactionManager. They should instead call TmRenameTransactionManager. 
+> [!NOTE]
+> NtRenameTransactionManager and TmRenameTransactionManager are two versions of the same routine. Kernel-mode drivers should not call NtRenameTransactionManager. They should instead call TmRenameTransactionManager. 
  
 |Function|Description|
 |---|---|
@@ -1285,15 +1291,15 @@ The Auxiliary Kernel-Mode Library enables drivers to access some system capabili
 The AuxKlibInitialize routine initializes the Auxiliary Kernel-Mode Library. Drivers that use this library must call AuxKlibInitialize before calling any of the library's other routines.
 
 
-AuxKlibEnumerateSystemFirmwareTables
-AuxKlibGetBugCheckData
-AuxKlibGetImageExportDirectory
-AuxKlibGetSystemFirmwareTable
-AuxKlibInitialize
-AuxKlibQueryModuleInformation
-AUX_MODULE_BASIC_INFO
-AUX_MODULE_EXTENDED_INFO
-KBUGCHECK_DATA
+- AuxKlibEnumerateSystemFirmwareTables
+- AuxKlibGetBugCheckData
+- AuxKlibGetImageExportDirectory
+- AuxKlibGetSystemFirmwareTable
+- AuxKlibInitialize
+- AuxKlibQueryModuleInformation
+- AUX_MODULE_BASIC_INFO
+- AUX_MODULE_EXTENDED_INFO
+- KBUGCHECK_DATA
 
  
 ## Processor Group Compatibility Library
@@ -1301,32 +1307,32 @@ Support is available for kernel-mode drivers that use processor groups. The Proc
 
 The ProcGrp library is designed to meet the compatibility requirements of drivers that call the following KeXxx routines but must also run on versions of Windows that do not implement these routines:
 
-KeGetCurrentProcessorNumberEx
-KeGetProcessorIndexFromNumber
-KeGetProcessorNumberFromIndex
-KeQueryActiveGroupCount
-KeQueryActiveProcessorCountEx
-KeQueryGroupAffinity
-KeQueryMaximumProcessorCount
-KeQueryMaximumProcessorCountEx
-KeQueryMaximumGroupCount
-KeSetSystemAffinityThreadEx
-KeSetSystemGroupAffinityThread
-KeRevertToUserAffinityThreadEx
-KeRevertToUserGroupAffinityThread
-KeSetTargetProcessorDpcEx
+- KeGetCurrentProcessorNumberEx
+- KeGetProcessorIndexFromNumber
+- KeGetProcessorNumberFromIndex
+- KeQueryActiveGroupCount
+- KeQueryActiveProcessorCountEx
+- KeQueryGroupAffinity
+- KeQueryMaximumProcessorCount
+- KeQueryMaximumProcessorCountEx
+- KeQueryMaximumGroupCount
+- KeSetSystemAffinityThreadEx
+- KeSetSystemGroupAffinityThread
+- KeRevertToUserAffinityThreadEx
+- KeRevertToUserGroupAffinityThread
+- KeSetTargetProcessorDpcEx
 
 The ProcGrp library implements wrapper functions for the KeXxx routines in the preceding list. If the library runs on Windows 7 or Windows Server 2008 R2, the wrapper functions simply call the corresponding KeXxx routines. The wrapper functions have the same names as these KeXxx routines, and their behavior is identical to that of the KeXxx routines that they replace.
 
 Earlier versions of Windows do not support processor groups and do not implement the KeXxx routines in the preceding list. If the ProcGrp library is linked to a driver that runs on one of these earlier versions of Windows, the library initialization function, WdmlibProcgrpInitialize, detects that the operating system does not support processor groups. To deal with this case, each wrapper function contains a simplified implementation of the corresponding KeXxx routine. This implementation supports only one processor group, group number 0. For example, the wrapper function for the KeQueryMaximumGroupCount routine always returns a count of one. For another example, the wrapper function for the KeGetCurrentProcessorNumberEx routine emulates this routine by calling the KeGetCurrentProcessorNumber routine. KeGetCurrentProcessorNumber is similar to KeGetCurrentProcessorNumberEx, but lacks support for processor groups, which, in this case, has the same effect as supporting just one processor group.
 
-For more information about the support for processor groups in Windows 7, see the Supporting Systems That Have More Than 64 Processors white paper on the WHDC website.
+For more information about the support for processor groups in Windows 7, see the [Supporting Systems That Have More Than 64 Processors white paper](http://download.microsoft.com/download/a/d/f/adf1347d-08dc-41a4-9084-623b1194d4b2/MoreThan64proc.docx) on the WHDC website.
 
 The ProcGrp library is contained in the Windows 7 version of the WDK. The library functions are declared in the Procgrp.h header file and are implemented in the Procgrp.lib library file. 
 
 In addition to the KeXxx wrapper functions, the ProcGrp library implements the following function to initialize the library:
 
-WdmlibProcgrpInitialize
+- WdmlibProcgrpInitialize
 
 
 
@@ -1477,7 +1483,7 @@ Keep notify routines short and simple.
 
 
 ## Run-Time Library (RTL) Routines
-For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see Safe String Functions. Other string manipulation functions include the following:
+For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see [Safe String Functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/_kernel/#safe-string-functions-for-unicode-and-ansi-characters), below. Other string manipulation functions include the following:
 
 |Function|Description|
 |---|---|
@@ -1504,17 +1510,20 @@ For information about functions that copy, concatenate, and format strings in a 
 
 The following routines are reserved for system use. Do not use them in your driver.
 
-RtlAssert. Use ASSERT instead. 
-RtlGetCallersAddress. Use the intrinsic _ReturnAddress instead. 
-RtlInterlockedAndBits. Use InterlockedAnd instead.
-RtlInterlockedAndBitsDiscardReturn. Use InterlockedAnd instead.
-RtlInterlockedClearBits. Use InterlockedAnd instead.
-RtlInterlockedClearBitsDiscardReturn. Use InterlockedAnd instead.
-RtlInterlockedSetBits. Use InterlockedOr instead.
-RtlInterlockedSetBitsDiscardReturn. Use InterlockedOr instead.
-RtlInterlockedSetClearBits
-RtlInterlockedXorBits. Use InterlockedXor instead.
-RtlWalkFrameChain
+|Routine|Replacement|
+|---|---|
+|RtlAssert| Use ASSERT instead. |
+|RtlGetCallersAddress| Use the intrinsic _ReturnAddress instead. |
+|RtlInterlockedAndBits| Use InterlockedAnd instead.|
+|RtlInterlockedAndBitsDiscardReturn| Use InterlockedAnd instead.|
+|RtlInterlockedClearBits| Use InterlockedAnd instead.|
+|RtlInterlockedClearBitsDiscardReturn| Use InterlockedAnd instead.|
+|RtlInterlockedSetBits| Use InterlockedOr instead.|
+|RtlInterlockedSetBitsDiscardReturn| Use InterlockedOr instead.|
+|RtlInterlockedSetClearBits||
+|RtlInterlockedXorBits| Use InterlockedXor instead|
+|RtlWalkFrameChain||
+
 
 ### Safe String Functions for Unicode and ANSI Characters
 Use the functions in this section to manipulate Unicode and ANSI strings in kernel-mode drivers.
@@ -1525,7 +1534,8 @@ A W-suffixed version that supports two-byte Unicode characters.
 
 An A-suffixed version that supports one-byte ANSI characters.
 
-If you use the safe string functions instead of the string manipulation functions that are provided by C-language run-time libraries, you protect your code from buffer overrun errors that can make code untrustworthy. For more information, see Using Safe String Functions.
+If you use the safe string functions instead of the string manipulation functions that are provided by C-language run-time libraries, you protect your code from buffer overrun errors that can make code untrustworthy. For more information, see [Using Safe String Functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-safe-string-functions).
+
 |Function|Description|
 |---|---|
 |RtlStringCbCatW| The RtlStringCbCatW and RtlStringCbCatA functions concatenate two byte-counted strings.
@@ -1560,7 +1570,7 @@ If you use the safe string functions instead of the string manipulation function
 ### Safe String Functions for UNICODE_STRING Structures
 Use the functions in this section to manipulate strings within UNICODE_STRING structures in kernel-mode drivers.
 
-If you use the safe string functions instead of the string manipulation functions that C-language run-time libraries provide, you protect your code from buffer overrun errors that can make code untrustworthy. For more information about safe string functions, see Using Safe String Functions.
+If you use the safe string functions instead of the string manipulation functions that C-language run-time libraries provide, you protect your code from buffer overrun errors that can make code untrustworthy. For more information about safe string functions, see [Using Safe String Functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-safe-string-functions).
 
 |Function|Description|
 |---|---|
@@ -1670,15 +1680,6 @@ The Intsafe.h header file in the Windows SDK defines a similar set of safe integ
 |KeInitializeCallbackRecord |Initializes a bug-check callback record before a device driver calls KeRegisterBugCheckCallback. 
 |KeRegisterBugCheckCallback |Registers the device driver's bug-check callback routine, which is called if a system bug check occurs. Such a driver-supplied routine saves driver-determined state information, such as the contents of device registers, that would not otherwise be written into the system crash-dump file. 
 |KeDeregisterBugCheckCallback |Removes a device driver's callback routine from the set of registered bug-check callback routines. 
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1815,6 +1816,7 @@ The Intsafe.h header file in the Windows SDK defines a similar set of safe integ
 | [ExRegisterCallback function](..\wdm\nf-wdm-exregistercallback.md) | The ExRegisterCallback routine registers a given callback routine with a given callback object. |
 | [ExReinitializeResourceLite function](..\wdm\nf-wdm-exreinitializeresourcelite.md) | The ExReinitializeResourceLite routine reinitializes an existing resource variable. |
 | [ExReleaseResourceForThreadLite function](..\wdm\nf-wdm-exreleaseresourceforthreadlite.md) | The ExReleaseResourceForThreadLite routine releases the input resource of the indicated thread. |
+| [ExReleaseResourceLite function](..\wdm\nf-wdm-exreleaseresourcelite.md) | The ExReleaseResourceLite routine releases a specified executive resource owned by the current thread. |
 | [ExReleaseRundownProtection function](..\wdm\nf-wdm-exreleaserundownprotection.md) | The ExReleaseRundownProtection routine releases run-down protection that the caller previously acquired by calling the ExAcquireRundownProtection routine. |
 | [ExReleaseRundownProtectionEx function](..\wdm\nf-wdm-exreleaserundownprotectionex.md) | The ExReleaseRundownProtectionEx routine releases run-down protection that the caller previously acquired by calling the ExAcquireRundownProtectionEx routine. |
 | [ExReleaseSpinLockExclusive function](..\wdm\nf-wdm-exreleasespinlockexclusive.md) | The ExReleaseSpinLockExclusive routine releases a spin lock that the caller previously acquired for exclusive access, and restores the IRQL to its original value. |
@@ -2119,6 +2121,8 @@ The Intsafe.h header file in the Windows SDK defines a similar set of safe integ
 | [KeRegisterBugCheckReasonCallback function](..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md) | The KeRegisterBugCheckReasonCallback routine registers a BugCheckDumpIoCallback, BugCheckSecondaryDumpDataCallback, or BugCheckAddPagesCallback routine, which executes when the operating system issues a bug check. |
 | [KeRegisterNmiCallback function](..\wdm\nf-wdm-keregisternmicallback.md) | The KeRegisterNmiCallback routine registers a routine to be called whenever a nonmaskable interrupt (NMI) occurs. |
 | [KeRegisterProcessorChangeCallback function](..\wdm\nf-wdm-keregisterprocessorchangecallback.md) | The KeRegisterProcessorChangeCallback routine registers a callback function with the operating system so that the operating system will notify the driver when a new processor is added to the hardware partition. |
+| [KeReleaseGuardedMutex function](..\wdm\nf-wdm-kereleaseguardedmutex.md) | The KeReleaseGuardedMutex routine releases a guarded mutex acquired with KeAcquireGuardedMutex or KeTryToAcquireGuardedMutex. |
+| [KeReleaseGuardedMutexUnsafe function](..\wdm\nf-wdm-kereleaseguardedmutexunsafe.md) | The KeReleaseGuardedMutexUnsafe routine releases a guarded mutex acquired by KeAcquireGuardedMutexUnsafe. |
 | [KeReleaseInStackQueuedSpinLock function](..\wdm\nf-wdm-kereleaseinstackqueuedspinlock.md) | The KeReleaseInStackQueuedSpinLock routine releases a queued spin lock acquired by KeAcquireInStackQueuedSpinLock. |
 | [KeReleaseInStackQueuedSpinLockForDpc function](..\wdm\nf-wdm-kereleaseinstackqueuedspinlockfordpc.md) | The KeReleaseInStackQueuedSpinLockForDpc routine releases a queued spin lock that was acquired by calling KeAcquireInStackQueuedSpinLockForDpc. |
 | [KeReleaseInStackQueuedSpinLockFromDpcLevel function](..\wdm\nf-wdm-kereleaseinstackqueuedspinlockfromdpclevel.md) | The KeReleaseInStackQueuedSpinLockFromDpcLevel routine releases a queued spin lock acquired by KeAcquireInStackQueuedSpinLockAtDpcLevel. |
@@ -2159,6 +2163,7 @@ The Intsafe.h header file in the Windows SDK defines a similar set of safe integ
 | [KeTryToAcquireSpinLockAtDpcLevel function](..\wdm\nf-wdm-ketrytoacquirespinlockatdpclevel.md) | The KeTryToAcquireSpinLockAtDpcLevel routine attempts to acquire a spin lock at DISPATCH_LEVEL. |
 | [KeWaitForMultipleObjects function](..\wdm\nf-wdm-kewaitformultipleobjects.md) | The KeWaitForMultipleObjects routine puts the current thread into an alertable or nonalertable wait state until any or all of a number of dispatcher objects are set to a signaled state or (optionally) until the wait times out. |
 | [KeWaitForSingleObject function](..\wdm\nf-wdm-kewaitforsingleobject.md) | The KeWaitForSingleObject routine puts the current thread into a wait state until the given dispatcher object is set to a signaled state or (optionally) until the wait times out. |
+| [KefReleaseSpinLockFromDpcLevel function](..\wdm\nf-wdm-kefreleasespinlockfromdpclevel.md) | The KeReleaseSpinLockFromDpcLevel routine releases an executive spin lock without changing the IRQL. |
 | [MmAdvanceMdl function](..\wdm\nf-wdm-mmadvancemdl.md) | The MmAdvanceMdl routine advances the beginning of an MDL's virtual memory range by the specified number of bytes. |
 | [MmAllocateContiguousMemory function](..\ntddk\nf-ntddk-mmallocatecontiguousmemory.md) | The MmAllocateContiguousMemory routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space. |
 | [MmAllocateContiguousMemory function](..\wdm\nf-wdm-mmallocatecontiguousmemory.md) | The MmAllocateContiguousMemory routine allocates a range of contiguous, nonpaged physical memory and maps it to the system address space. |
@@ -2941,152 +2946,152 @@ The Intsafe.h header file in the Windows SDK defines a similar set of safe integ
 
 | Title   | Description   |
 | ---- |:---- |
-| [ALLOCATE_FUNCTION_EX callback](..\wdm\nc-wdm-allocate_function_ex.md) | The LookasideListAllocateEx routine allocates the storage for a new lookaside-list entry when a client requests an entry from a lookaside list that is empty. |
-| [BOUND_CALLBACK callback](..\wdm\nc-wdm-bound_callback.md) | The BoundCallback routine is executed whenever the system issues a bounds exception for a user-mode thread. |
-| [DEVICE_ACTIVE_COOLING callback](..\poclass\nc-poclass-device_active_cooling.md) | The ActiveCooling callback routine engages or disengages a device's active-cooling function. |
-| [DEVICE_PASSIVE_COOLING callback](..\poclass\nc-poclass-device_passive_cooling.md) | The PassiveCooling callback routine controls the degree to which the device must throttle its performance to meet cooling requirements. |
-| [DMA_COMPLETION_ROUTINE callback](..\wdm\nc-wdm-dma_completion_routine.md) | The DmaCompletionRoutine callback routine notifies the driver that previously requested a system DMA transfer that this transfer is complete. |
-| [DRIVER_ADD_DEVICE callback](..\wdm\nc-wdm-driver_add_device.md) | The AddDevice routine is responsible for creating functional device objects (FDO) or filter device objects (filter DO) for devices enumerated by the Plug and Play (PnP) manager. |
-| [DRIVER_CANCEL callback](..\wdm\nc-wdm-driver_cancel.md) | The Cancel routine cancels an I/O operation. |
-| [DRIVER_CONTROL callback](..\wdm\nc-wdm-driver_control.md) | This routine starts a DMA data-transfer or a data transfer operation. |
-| [DRIVER_DISPATCH callback](..\wdm\nc-wdm-driver_dispatch.md) | The callback routine services various IRPs. For a list of function codes, see Remarks. |
-| [DRIVER_INITIALIZE callback](..\wdm\nc-wdm-driver_initialize.md) | DriverEntry is the first routine called after a driver is loaded, and is responsible for initializing the driver. |
-| [DRIVER_LIST_CONTROL callback](..\wdm\nc-wdm-driver_list_control.md) | The AdapterListControl routine starts a direct memory access (DMA) scatter/gather operation. |
-| [DRIVER_REINITIALIZE callback](..\ntddk\nc-ntddk-driver_reinitialize.md) | The Reinitialize routine continues driver and device initialization after the driver's DriverEntry routine returns. |
-| [DRIVER_STARTIO callback](..\wdm\nc-wdm-driver_startio.md) | The StartIo routine starts the I/O operation described by an IRP. |
-| [DRIVER_UNLOAD callback](..\wdm\nc-wdm-driver_unload.md) | The Unload routine performs any operations that are necessary before the system unloads the driver. |
-| [EXPAND_STACK_CALLOUT callback](..\ntddk\nc-ntddk-expand_stack_callout.md) | The ExpandedStackCall routine executes with a guaranteed stack size. |
-| [EXT_CALLBACK callback](..\wdm\nc-wdm-ext_callback.md) | An ExTimerCallback callback routine runs after an EX_TIMER timer object's time interval expires. |
-| [EXT_DELETE_CALLBACK callback](..\wdm\nc-wdm-ext_delete_callback.md) | An ExTimerDeleteCallback callback routine runs when the operating system deletes an EX_TIMER timer object. |
-| [EX_CALLBACK_FUNCTION callback](..\wdm\nc-wdm-ex_callback_function.md) | A filter driver's RegistryCallback routine can monitor, block, or modify a registry operation. |
-| [FREE_FUNCTION_EX callback](..\wdm\nc-wdm-free_function_ex.md) | The LookasideListFreeEx routine frees the storage for a lookaside-list entry when a client tries to insert the entry into a lookaside list that is full. |
-| [GET_D3COLD_CAPABILITY callback](..\wdm\nc-wdm-get_d3cold_capability.md) | The GetBusDriverD3ColdSupport routine enables the driver for a device to query whether the enumerating bus driver supports the D3cold device power state. |
-| [GET_D3COLD_LAST_TRANSITION_STATUS callback](..\wdm\nc-wdm-get_d3cold_last_transition_status.md) | The GetLastTransitionStatus routine enables the driver for a device to query whether the most recent transition to the D3hot substate was followed by a transition to the D3cold substate. |
-| [GET_DMA_ADAPTER callback](..\wdm\nc-wdm-get_dma_adapter.md) | The GetDmaAdapter routine returns a DMA_ADAPTER structure for the target device. |
-| [GET_IDLE_WAKE_INFO callback](..\wdm\nc-wdm-get_idle_wake_info.md) | The GetIdleWakeInfo routine enables the driver for a device to discover the device power states from which the device can signal a wake event. |
-| [GET_SDEV_IDENTIFIER callback](..\wdm\nc-wdm-get_sdev_identifier.md) | This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release. |
-| [GET_SET_DEVICE_DATA callback](..\wdm\nc-wdm-get_set_device_data.md) | The GetBusData routine reads data from the device's configuration space. |
-| [IO_COMPLETION_ROUTINE callback](..\wdm\nc-wdm-io_completion_routine.md) | The IoCompletion routine completes the processing of I/O operations. |
-| [IO_CSQ_ACQUIRE_LOCK callback](..\wdm\nc-wdm-io_csq_acquire_lock.md) | The CsqAcquireLock routine is used by the system to acquire the lock for a driver-implemented, cancel-safe IRP queue. |
-| [IO_CSQ_COMPLETE_CANCELED_IRP callback](..\wdm\nc-wdm-io_csq_complete_canceled_irp.md) | The CsqCompleteCanceledIrp routine is used by the system to signal to the driver that it can complete a canceled IRP. |
-| [IO_CSQ_INSERT_IRP callback](..\wdm\nc-wdm-io_csq_insert_irp.md) | The CsqInsertIrp routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue. |
-| [IO_CSQ_INSERT_IRP_EX callback](..\wdm\nc-wdm-io_csq_insert_irp_ex.md) | The CsqInsertIrpEx routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue. |
-| [IO_CSQ_PEEK_NEXT_IRP callback](..\wdm\nc-wdm-io_csq_peek_next_irp.md) | The CsqPeekNextIrp routine is used by the system to find the next matching IRP in a driver-implemented, cancel-safe IRP queue. |
-| [IO_CSQ_RELEASE_LOCK callback](..\wdm\nc-wdm-io_csq_release_lock.md) | The CsqReleaseLock routine is used by the system to release the lock that was acquired using CsqAcquireLock. |
-| [IO_CSQ_REMOVE_IRP callback](..\wdm\nc-wdm-io_csq_remove_irp.md) | The CsqRemoveIrp routine is used by the system to remove the specified IRP from a driver-implemented, cancel-safe IRP queue. |
-| [IO_DPC_ROUTINE callback](..\wdm\nc-wdm-io_dpc_routine.md) | The DpcForIsr routine finishes the servicing of an I/O operation, after an InterruptService routine returns. |
-| [IO_SESSION_NOTIFICATION_FUNCTION callback](..\wdm\nc-wdm-io_session_notification_function.md) | The IO_SESSION_NOTIFICATION_FUNCTION function type defines a callback routine through which a driver receives notifications of changes in the state of user sessions that the driver is interested in. |
-| [IO_TIMER_ROUTINE callback](..\wdm\nc-wdm-io_timer_routine.md) | The IoTimer routine is a DPC that, if registered, is called once per second. |
-| [IO_WORKITEM_ROUTINE callback](..\wdm\nc-wdm-io_workitem_routine.md) | A WorkItem routine performs the processing for a work item that was queued by the IoQueueWorkItem routine. |
-| [IO_WORKITEM_ROUTINE_EX callback](..\wdm\nc-wdm-io_workitem_routine_ex.md) | A WorkItemEx routine performs the processing for a work item that was queued by the IoQueueWorkItemEx or IoTryQueueWorkItem routine. |
-| [KBUGCHECK_CALLBACK_ROUTINE callback](..\wdm\nc-wdm-kbugcheck_callback_routine.md) | The BugCheckCallback routine is executed whenever the system issues a bug check. |
-| [KBUGCHECK_REASON_CALLBACK_ROUTINE callback](..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md) | Driver-implemented callback functions that the system executes when it issues a bug check. |
-| [KDEFERRED_ROUTINE callback](..\wdm\nc-wdm-kdeferred_routine.md) | The callback routine performs actions, after an InterruptService returns, of a threaded DPC, The CustomDpc routine finishes the servicing of an I/O operation, after an InterruptService routine returns.The CustomThreadedDpc routine performs the action of a threaded DPC. The system executes this routine when the threaded DPC runs.The CustomTimerDpc routine executes after a timer object's time interval expires. |
-| [KIPI_BROADCAST_WORKER callback](..\wdm\nc-wdm-kipi_broadcast_worker.md) | The IpiGenericCall routine runs simultaneously on all processors. |
-| [KMESSAGE_SERVICE_ROUTINE callback](..\wdm\nc-wdm-kmessage_service_routine.md) | An InterruptMessageService routine services a message-signaled interrupt. |
-| [KSERVICE_ROUTINE callback](..\wdm\nc-wdm-kservice_routine.md) | The InterruptService routine (ISR) quickly services a device interrupt and schedules post-interrupt processing of received data, if necessary. |
-| [KSTART_ROUTINE callback](..\wdm\nc-wdm-kstart_routine.md) | The ThreadStart routine provides an entry point for a driver-created system thread. |
-| [KSYNCHRONIZE_ROUTINE callback](..\wdm\nc-wdm-ksynchronize_routine.md) | The SynchCritSection routine is used to access hardware resources or driver data that are shared with a driver's InterruptService routine. |
-| [MM_MDL_ROUTINE callback](..\wdm\nc-wdm-mm_mdl_routine.md) | A driver-supplied callback routine that is invoked after a memory descriptor list (MDL) is mapped by calling the MmMapMdl function. |
-| [PALLOCATE_ADAPTER_CHANNEL callback](..\wdm\nc-wdm-pallocate_adapter_channel.md) | The AllocateAdapterChannel routine prepares the system for a DMA operation on behalf of the target device object, and then calls the driver-supplied AdapterControl routine to carry out the DMA operation. |
-| [PALLOCATE_ADAPTER_CHANNEL_EX callback](..\wdm\nc-wdm-pallocate_adapter_channel_ex.md) | The AllocateAdapterChannelEx routine allocates the resources that are needed to perform a DMA transfer, and then calls the driver-supplied AdapterControl routine to initiate the DMA transfer. |
-| [PALLOCATE_COMMON_BUFFER callback](..\wdm\nc-wdm-pallocate_common_buffer.md) | The AllocateCommonBuffer routine allocates memory and maps it so that it is simultaneously accessible from both the processor and a device for DMA operations. |
-| [PALLOCATE_COMMON_BUFFER_EX callback](..\wdm\nc-wdm-pallocate_common_buffer_ex.md) | The AllocateCommonBufferEx routine allocates memory for a common buffer and maps this memory so that it can be accessed both by the processor and by a device that performs DMA operations. |
-| [PBUILD_MDL_FROM_SCATTER_GATHER_LIST callback](..\wdm\nc-wdm-pbuild_mdl_from_scatter_gather_list.md) | The BuildMdlFromScatterGatherList routine builds an MDL from a scatter/gather list allocated by the system.Note  This routine is reserved for system use. |
-| [PBUILD_SCATTER_GATHER_LIST callback](..\wdm\nc-wdm-pbuild_scatter_gather_list.md) | The BuildScatterGatherList routine prepares the system for a DMA operation, using a driver-supplied buffer to build the scatter/gather list. |
-| [PBUILD_SCATTER_GATHER_LIST_EX callback](..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md) | The BuildScatterGatherListEx routine allocates the resources that are required for a DMA transfer, builds a scatter/gather list, and calls the driver-supplied AdapterListControl routine to initiate the DMA transfer. |
-| [PCALCULATE_SCATTER_GATHER_LIST_SIZE callback](..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md) | The CalculateScatterGatherList routine calculates the size, in bytes, of scatter/gather list necessary to hold a given buffer. |
-| [PCANCEL_ADAPTER_CHANNEL callback](..\wdm\nc-wdm-pcancel_adapter_channel.md) | The CancelAdapterChannel routine tries to cancel a pending request to allocate a DMA channel. |
-| [PCANCEL_MAPPED_TRANSFER callback](..\wdm\nc-wdm-pcancel_mapped_transfer.md) | The CancelMappedTransfer routine cancels a system DMA transfer that is currently mapped to an adapter. |
-| [PCI_MSIX_MASKUNMASK_ENTRY callback](..\wdm\nc-wdm-pci_msix_maskunmask_entry.md) | The MaskTableEntry routine masks an interrupt in the MSI-X hardware interrupt table. |
-| [PCI_MSIX_SET_ENTRY callback](..\wdm\nc-wdm-pci_msix_set_entry.md) | The SetTableEntry routine sets the message ID for a table entry in the MSI-X hardware interrupt table. |
-| [PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK callback](..\wdm\nc-wdm-pclfs_client_advance_tail_callback.md) | The ClfsAdvanceTailCallback function advances the base log sequence number (LSN) of the client's log. |
-| [PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK callback](..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md) | The ClfsLogGrowthCompleteCallback function implements the actions that the client will take when space is freed in a log that had previously been full. |
-| [PCLFS_CLIENT_LOG_UNPINNED_CALLBACK callback](..\wdm\nc-wdm-pclfs_client_log_unpinned_callback.md) | The ClfsLogUnpinnedCallback function implements any actions that the client will take when a log that had previously been pinned becomes unpinned. |
-| [PCONFIGURE_ADAPTER_CHANNEL callback](..\wdm\nc-wdm-pconfigure_adapter_channel.md) | The ConfigureAdapterChannel routine invokes a custom function that is implemented by the DMA controller represented by an adapter object. |
-| [PCREATE_PROCESS_NOTIFY_ROUTINE callback](..\ntddk\nc-ntddk-pcreate_process_notify_routine.md) | Process-creation callback implemented by a driver to track the system-wide creation and deletion of processes against the driver's internal state. |
-| [PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback](..\ntddk\nc-ntddk-pcreate_process_notify_routine_ex.md) | A callback routine implemented by a driver to notify the caller when a process is created or exits. |
-| [PCREATE_THREAD_NOTIFY_ROUTINE callback](..\ntddk\nc-ntddk-pcreate_thread_notify_routine.md) | A callback routine implemented by a driver to notify the caller when a thread is created or deleted. |
-| [PDEVICE_RESET_HANDLER callback](..\wdm\nc-wdm-pdevice_reset_handler.md) | The DeviceReset routine is used to reset and recover a malfunctioning device. |
-| [PEPCALLBACKNOTIFYACPI callback](..\pep_x\nc-pep_x-pepcallbacknotifyacpi.md) | An AcceptAcpiNotification event callback routine handles ACPI notifications from the Windows power management framework (PoFx). |
-| [PEPCALLBACKNOTIFYACPI callback](..\pepfx\nc-pepfx-pepcallbacknotifyacpi.md) | An AcceptAcpiNotification event callback routine handles ACPI notifications from the Windows power management framework (PoFx). |
-| [PEPCALLBACKNOTIFYDPM callback](..\pep_x\nc-pep_x-pepcallbacknotifydpm.md) | An AcceptDeviceNotification event callback routine handles device power management (DPM) notifications from the Windows power management framework (PoFx). |
-| [PEPCALLBACKNOTIFYDPM callback](..\pepfx\nc-pepfx-pepcallbacknotifydpm.md) | An AcceptDeviceNotification event callback routine handles device power management (DPM) notifications from the Windows power management framework (PoFx). |
-| [PEPCALLBACKNOTIFYPPM callback](..\pep_x\nc-pep_x-pepcallbacknotifyppm.md) | An AcceptProcessorNotification event callback routine handles processor power management (PPM) notifications from the Windows power management framework (PoFx). |
-| [PEPCALLBACKNOTIFYPPM callback](..\pepfx\nc-pepfx-pepcallbacknotifyppm.md) | An AcceptProcessorNotification event callback routine handles processor power management (PPM) notifications from the Windows power management framework (PoFx). |
-| [PEPCALLBACKPOWERONCRASHDUMPDEVICE callback](..\pep_x\nc-pep_x-pepcallbackpoweroncrashdumpdevice.md) | The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device. |
-| [PEPCALLBACKPOWERONCRASHDUMPDEVICE callback](..\pepfx\nc-pepfx-pepcallbackpoweroncrashdumpdevice.md) | The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device. |
-| [PFLUSH_ADAPTER_BUFFERS callback](..\wdm\nc-wdm-pflush_adapter_buffers.md) | The FlushAdapterBuffers routine flushes any data remaining in the system DMA controller's internal cache or in a bus-master adapter's internal cache at the end of a DMA transfer operation. |
-| [PFLUSH_ADAPTER_BUFFERS_EX callback](..\wdm\nc-wdm-pflush_adapter_buffers_ex.md) | The FlushAdapterBuffersEx routine flushes any data that remains in the data cache at the end of a DMA transfer operation performed by a system DMA controller or bus-master device. |
-| [PFREE_ADAPTER_CHANNEL callback](..\wdm\nc-wdm-pfree_adapter_channel.md) | The FreeAdapterChannel routine releases the system DMA controller when a driver has completed all DMA operations necessary to satisfy the current IRP. |
-| [PFREE_ADAPTER_OBJECT callback](..\wdm\nc-wdm-pfree_adapter_object.md) | The FreeAdapterObject routine releases the specified adapter object after a driver has completed all DMA operations. |
-| [PFREE_COMMON_BUFFER callback](..\wdm\nc-wdm-pfree_common_buffer.md) | The FreeCommonBuffer routine frees a common buffer allocated by AllocateCommonBuffer, along with all resources the buffer uses. |
-| [PFREE_MAP_REGISTERS callback](..\wdm\nc-wdm-pfree_map_registers.md) | The FreeMapRegisters routine releases a set of map registers that were saved from a call to AllocateAdapterChannel. |
-| [PGET_DMA_ADAPTER_INFO callback](..\wdm\nc-wdm-pget_dma_adapter_info.md) | The GetDmaAdapterInfo routine retrieves information about the hardware capabilities of a system DMA channel. |
-| [PGET_DMA_ALIGNMENT callback](..\wdm\nc-wdm-pget_dma_alignment.md) | The GetDmaAlignment routine returns the alignment requirements of the DMA system. |
-| [PGET_DMA_TRANSFER_INFO callback](..\wdm\nc-wdm-pget_dma_transfer_info.md) | The GetDmaTransferInfo routine calculates the allocation requirements for a scatter/gather DMA transfer. |
-| [PGET_LOCATION_STRING callback](..\ntddk\nc-ntddk-pget_location_string.md) | The PnpGetLocationString routine provides the device-specific part of the device's SPDRP_LOCATION_PATHS property. |
-| [PGET_SCATTER_GATHER_LIST callback](..\wdm\nc-wdm-pget_scatter_gather_list.md) | The GetScatterGatherList routine prepares the system for a DMA scatter/gather operation on behalf of the target device object, through either the system DMA controller or a bus-master adapter. |
-| [PGET_SCATTER_GATHER_LIST_EX callback](..\wdm\nc-wdm-pget_scatter_gather_list_ex.md) | The GetScatterGatherListEx routine allocates the resources that are required for a DMA transfer, builds a scatter/gather list, and calls the driver-supplied AdapterListControl routine to initiate the DMA transfer. |
-| [PINITIALIZE_DMA_TRANSFER_CONTEXT callback](..\wdm\nc-wdm-pinitialize_dma_transfer_context.md) | The InitializeDmaTransferContext routine initializes an opaque DMA transfer context that is used to track pending allocations of DMA resources. |
-| [PINTERFACE_DEREFERENCE callback](..\wdm\nc-wdm-pinterface_dereference.md) | The InterfaceDereference routine decrements the reference count on a driver-defined interface. |
-| [PINTERFACE_REFERENCE callback](..\wdm\nc-wdm-pinterface_reference.md) | The InterfaceReference routine increments the reference count on a driver-defined interface. |
-| [PLOAD_IMAGE_NOTIFY_ROUTINE callback](..\ntddk\nc-ntddk-pload_image_notify_routine.md) | Called by the operating system to notify the driver when a driver image or a user image (for example, a DLL or EXE) is mapped into virtual memory. |
-| [PMAP_TRANSFER callback](..\wdm\nc-wdm-pmap_transfer.md) | The MapTransfer routine sets up map registers for an adapter object to map a DMA transfer from a locked-down buffer. |
-| [PMAP_TRANSFER_EX callback](..\wdm\nc-wdm-pmap_transfer_ex.md) | The MapTransferEx routine sets up map registers to map the physical addresses in a scatter/gather list to the logical addresses that are required to do a DMA transfer. |
-| [POB_POST_OPERATION_CALLBACK callback](..\wdm\nc-wdm-pob_post_operation_callback.md) | The ObjectPostCallback routine is called by the operating system after a process or thread handle operation occurs. |
-| [POB_PRE_OPERATION_CALLBACK callback](..\wdm\nc-wdm-pob_pre_operation_callback.md) | The ObjectPreCallback routine is called by the operating system when a process or thread handle operation occurs. |
-| [POFXCALLBACKCRITICALRESOURCE callback](..\pep_x\nc-pep_x-pofxcallbackcriticalresource.md) | The TransitionCriticalResource routine changes the active/inactive state of a core system component. |
-| [POFXCALLBACKCRITICALRESOURCE callback](..\pepfx\nc-pepfx-pofxcallbackcriticalresource.md) | The TransitionCriticalResource routine changes the active/inactive state of a core system component. |
-| [POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback](..\pep_x\nc-pep_x-pofxcallbackenumerateunmaskedinterrupts.md) | The EnumerateUnmaskedInterrupts routine enumerates interrupt sources whose interrupts are unmasked and enabled. |
-| [POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback](..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md) | The EnumerateUnmaskedInterrupts routine enumerates interrupt sources whose interrupts are unmasked and enabled. |
-| [POFXCALLBACKPLATFORMIDLEVETO callback](..\pep_x\nc-pep_x-pofxcallbackplatformidleveto.md) | The PlatformIdleVeto routine increments or decrements the veto count for a veto code for a platform idle state. |
-| [POFXCALLBACKPLATFORMIDLEVETO callback](..\pepfx\nc-pepfx-pofxcallbackplatformidleveto.md) | The PlatformIdleVeto routine increments or decrements the veto count for a veto code for a platform idle state. |
-| [POFXCALLBACKPROCESSORHALT callback](..\pep_x\nc-pep_x-pofxcallbackprocessorhalt.md) | The ProcessorHalt routine prepares the processor to be halted. |
-| [POFXCALLBACKPROCESSORHALT callback](..\pepfx\nc-pepfx-pofxcallbackprocessorhalt.md) | The ProcessorHalt routine prepares the processor to be halted. |
-| [POFXCALLBACKPROCESSORIDLEVETO callback](..\pep_x\nc-pep_x-pofxcallbackprocessoridleveto.md) | The ProcessorIdleVeto routine increments or decrements the veto count for a veto code for a processor idle state. |
-| [POFXCALLBACKPROCESSORIDLEVETO callback](..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md) | The ProcessorIdleVeto routine increments or decrements the veto count for a veto code for a processor idle state. |
-| [POFXCALLBACKREQUESTCOMMON callback](..\pep_x\nc-pep_x-pofxcallbackrequestcommon.md) | The RequestCommon routine is a generic request handler. |
-| [POFXCALLBACKREQUESTCOMMON callback](..\pepfx\nc-pepfx-pofxcallbackrequestcommon.md) | The RequestCommon routine is a generic request handler. |
-| [POFXCALLBACKREQUESTINTERRUPT callback](..\pep_x\nc-pep_x-pofxcallbackrequestinterrupt.md) | The RequestInterrupt routine requests that the operating system replay an edge-triggered interrupt that might have been lost while the hardware platform was in a low-power state. |
-| [POFXCALLBACKREQUESTINTERRUPT callback](..\pepfx\nc-pepfx-pofxcallbackrequestinterrupt.md) | The RequestInterrupt routine requests that the operating system replay an edge-triggered interrupt that might have been lost while the hardware platform was in a low-power state. |
-| [POFXCALLBACKREQUESTWORKER callback](..\pep_x\nc-pep_x-pofxcallbackrequestworker.md) | The RequestWorker routine is called by a platform extension plug-in (PEP) to inform the Windows power management framework (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device. |
-| [POFXCALLBACKREQUESTWORKER callback](..\pepfx\nc-pepfx-pofxcallbackrequestworker.md) | The RequestWorker routine is called by a platform extension plug-in (PEP) to inform the Windows power management framework (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device. |
-| [POFXCALLBACKUPDATEPLATFORMIDLESTATE callback](..\pep_x\nc-pep_x-pofxcallbackupdateplatformidlestate.md) | The UpdatePlatformIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified platform idle state. |
-| [POFXCALLBACKUPDATEPLATFORMIDLESTATE callback](..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md) | The UpdatePlatformIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified platform idle state. |
-| [POFXCALLBACKUPDATEPROCESSORIDLESTATE callback](..\pep_x\nc-pep_x-pofxcallbackupdateprocessoridlestate.md) | The UpdateProcessorIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified processor idle state. |
-| [POFXCALLBACKUPDATEPROCESSORIDLESTATE callback](..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md) | The UpdateProcessorIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified processor idle state. |
-| [PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK callback](..\wdm\nc-wdm-po_fx_component_active_condition_callback.md) | The ComponentActiveConditionCallback callback routine notifies the driver that the specified component completed a transition from the idle condition to the active condition. |
-| [PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK callback](..\wdm\nc-wdm-po_fx_component_critical_transition_callback.md) | The ComponentCriticalTransitionCallback callback routine handles a transition of the specified component between the F0 (fully on) and low-power Fx component power states. |
-| [PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK callback](..\wdm\nc-wdm-po_fx_component_idle_condition_callback.md) | The ComponentIdleConditionCallback callback routine notifies the driver that the specified component completed a transition from the active condition to the idle condition. |
-| [PO_FX_COMPONENT_IDLE_STATE_CALLBACK callback](..\wdm\nc-wdm-po_fx_component_idle_state_callback.md) | The ComponentIdleStateCallback callback routine notifies the driver of a pending change to the Fx power state of the specified component. |
-| [PO_FX_COMPONENT_PERF_STATE_CALLBACK callback](..\wdm\nc-wdm-po_fx_component_perf_state_callback.md) | The ComponentPerfStateCallback callback routine notifies the driver that its request to change the performance state of a component is complete. |
-| [PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK callback](..\wdm\nc-wdm-po_fx_device_power_not_required_callback.md) | The DevicePowerNotRequiredCallback callback routine notifies the device driver that the device is not required to stay in the D0 power state. |
-| [PO_FX_DEVICE_POWER_REQUIRED_CALLBACK callback](..\wdm\nc-wdm-po_fx_device_power_required_callback.md) | The DevicePowerRequiredCallback callback routine notifies the device driver that the device must enter and remain in the D0 power state. |
-| [PO_FX_POWER_CONTROL_CALLBACK callback](..\wdm\nc-wdm-po_fx_power_control_callback.md) | The PowerControlCallback callback routine performs a power control operation that is requested by the power management framework (PoFx). |
+| [ALLOCATE_FUNCTION_EX callback function](..\wdm\nc-wdm-allocate_function_ex.md) | The LookasideListAllocateEx routine allocates the storage for a new lookaside-list entry when a client requests an entry from a lookaside list that is empty. |
+| [BOUND_CALLBACK callback function](..\wdm\nc-wdm-bound_callback.md) | The BoundCallback routine is executed whenever the system issues a bounds exception for a user-mode thread. |
+| [DEVICE_ACTIVE_COOLING callback function](..\poclass\nc-poclass-device_active_cooling.md) | The ActiveCooling callback routine engages or disengages a device's active-cooling function. |
+| [DEVICE_PASSIVE_COOLING callback function](..\poclass\nc-poclass-device_passive_cooling.md) | The PassiveCooling callback routine controls the degree to which the device must throttle its performance to meet cooling requirements. |
+| [DMA_COMPLETION_ROUTINE callback function](..\wdm\nc-wdm-dma_completion_routine.md) | The DmaCompletionRoutine callback routine notifies the driver that previously requested a system DMA transfer that this transfer is complete. |
+| [DRIVER_ADD_DEVICE callback function](..\wdm\nc-wdm-driver_add_device.md) | The AddDevice routine is responsible for creating functional device objects (FDO) or filter device objects (filter DO) for devices enumerated by the Plug and Play (PnP) manager. |
+| [DRIVER_CANCEL callback function](..\wdm\nc-wdm-driver_cancel.md) | The Cancel routine cancels an I/O operation. |
+| [DRIVER_CONTROL callback function](..\wdm\nc-wdm-driver_control.md) | This routine starts a DMA data-transfer or a data transfer operation. |
+| [DRIVER_DISPATCH callback function](..\wdm\nc-wdm-driver_dispatch.md) | The callback routine services various IRPs. For a list of function codes, see Remarks. |
+| [DRIVER_INITIALIZE callback function](..\wdm\nc-wdm-driver_initialize.md) | DriverEntry is the first routine called after a driver is loaded, and is responsible for initializing the driver. |
+| [DRIVER_LIST_CONTROL callback function](..\wdm\nc-wdm-driver_list_control.md) | The AdapterListControl routine starts a direct memory access (DMA) scatter/gather operation. |
+| [DRIVER_REINITIALIZE callback function](..\ntddk\nc-ntddk-driver_reinitialize.md) | The Reinitialize routine continues driver and device initialization after the driver's DriverEntry routine returns. |
+| [DRIVER_STARTIO callback function](..\wdm\nc-wdm-driver_startio.md) | The StartIo routine starts the I/O operation described by an IRP. |
+| [DRIVER_UNLOAD callback function](..\wdm\nc-wdm-driver_unload.md) | The Unload routine performs any operations that are necessary before the system unloads the driver. |
+| [EXPAND_STACK_CALLOUT callback function](..\ntddk\nc-ntddk-expand_stack_callout.md) | The ExpandedStackCall routine executes with a guaranteed stack size. |
+| [EXT_CALLBACK callback function](..\wdm\nc-wdm-ext_callback.md) | An ExTimerCallback callback routine runs after an EX_TIMER timer object's time interval expires. |
+| [EXT_DELETE_CALLBACK callback function](..\wdm\nc-wdm-ext_delete_callback.md) | An ExTimerDeleteCallback callback routine runs when the operating system deletes an EX_TIMER timer object. |
+| [EX_CALLBACK_FUNCTION callback function](..\wdm\nc-wdm-ex_callback_function.md) | A filter driver's RegistryCallback routine can monitor, block, or modify a registry operation. |
+| [FREE_FUNCTION_EX callback function](..\wdm\nc-wdm-free_function_ex.md) | The LookasideListFreeEx routine frees the storage for a lookaside-list entry when a client tries to insert the entry into a lookaside list that is full. |
+| [GET_D3COLD_CAPABILITY callback function](..\wdm\nc-wdm-get_d3cold_capability.md) | The GetBusDriverD3ColdSupport routine enables the driver for a device to query whether the enumerating bus driver supports the D3cold device power state. |
+| [GET_D3COLD_LAST_TRANSITION_STATUS callback function](..\wdm\nc-wdm-get_d3cold_last_transition_status.md) | The GetLastTransitionStatus routine enables the driver for a device to query whether the most recent transition to the D3hot substate was followed by a transition to the D3cold substate. |
+| [GET_DMA_ADAPTER callback function](..\wdm\nc-wdm-get_dma_adapter.md) | The GetDmaAdapter routine returns a DMA_ADAPTER structure for the target device. |
+| [GET_IDLE_WAKE_INFO callback function](..\wdm\nc-wdm-get_idle_wake_info.md) | The GetIdleWakeInfo routine enables the driver for a device to discover the device power states from which the device can signal a wake event. |
+| [GET_SDEV_IDENTIFIER callback function](..\wdm\nc-wdm-get_sdev_identifier.md) | This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release. |
+| [GET_SET_DEVICE_DATA callback function](..\wdm\nc-wdm-get_set_device_data.md) | The GetBusData routine reads data from the device's configuration space. |
+| [IO_COMPLETION_ROUTINE callback function](..\wdm\nc-wdm-io_completion_routine.md) | The IoCompletion routine completes the processing of I/O operations. |
+| [IO_CSQ_ACQUIRE_LOCK callback function](..\wdm\nc-wdm-io_csq_acquire_lock.md) | The CsqAcquireLock routine is used by the system to acquire the lock for a driver-implemented, cancel-safe IRP queue. |
+| [IO_CSQ_COMPLETE_CANCELED_IRP callback function](..\wdm\nc-wdm-io_csq_complete_canceled_irp.md) | The CsqCompleteCanceledIrp routine is used by the system to signal to the driver that it can complete a canceled IRP. |
+| [IO_CSQ_INSERT_IRP callback function](..\wdm\nc-wdm-io_csq_insert_irp.md) | The CsqInsertIrp routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue. |
+| [IO_CSQ_INSERT_IRP_EX callback function](..\wdm\nc-wdm-io_csq_insert_irp_ex.md) | The CsqInsertIrpEx routine is used by the system to insert an IRP into a driver-implemented, cancel-safe IRP queue. |
+| [IO_CSQ_PEEK_NEXT_IRP callback function](..\wdm\nc-wdm-io_csq_peek_next_irp.md) | The CsqPeekNextIrp routine is used by the system to find the next matching IRP in a driver-implemented, cancel-safe IRP queue. |
+| [IO_CSQ_RELEASE_LOCK callback function](..\wdm\nc-wdm-io_csq_release_lock.md) | The CsqReleaseLock routine is used by the system to release the lock that was acquired using CsqAcquireLock. |
+| [IO_CSQ_REMOVE_IRP callback function](..\wdm\nc-wdm-io_csq_remove_irp.md) | The CsqRemoveIrp routine is used by the system to remove the specified IRP from a driver-implemented, cancel-safe IRP queue. |
+| [IO_DPC_ROUTINE callback function](..\wdm\nc-wdm-io_dpc_routine.md) | The DpcForIsr routine finishes the servicing of an I/O operation, after an InterruptService routine returns. |
+| [IO_SESSION_NOTIFICATION_FUNCTION callback function](..\wdm\nc-wdm-io_session_notification_function.md) | The IO_SESSION_NOTIFICATION_FUNCTION function type defines a callback routine through which a driver receives notifications of changes in the state of user sessions that the driver is interested in. |
+| [IO_TIMER_ROUTINE callback function](..\wdm\nc-wdm-io_timer_routine.md) | The IoTimer routine is a DPC that, if registered, is called once per second. |
+| [IO_WORKITEM_ROUTINE callback function](..\wdm\nc-wdm-io_workitem_routine.md) | A WorkItem routine performs the processing for a work item that was queued by the IoQueueWorkItem routine. |
+| [IO_WORKITEM_ROUTINE_EX callback function](..\wdm\nc-wdm-io_workitem_routine_ex.md) | A WorkItemEx routine performs the processing for a work item that was queued by the IoQueueWorkItemEx or IoTryQueueWorkItem routine. |
+| [KBUGCHECK_CALLBACK_ROUTINE callback function](..\wdm\nc-wdm-kbugcheck_callback_routine.md) | The BugCheckCallback routine is executed whenever the system issues a bug check. |
+| [KBUGCHECK_REASON_CALLBACK_ROUTINE callback function](..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md) | Driver-implemented callback functions that the system executes when it issues a bug check. |
+| [KDEFERRED_ROUTINE callback function](..\wdm\nc-wdm-kdeferred_routine.md) | The callback routine performs actions, after an InterruptService returns, of a threaded DPC, The CustomDpc routine finishes the servicing of an I/O operation, after an InterruptService routine returns.The CustomThreadedDpc routine performs the action of a threaded DPC. The system executes this routine when the threaded DPC runs.The CustomTimerDpc routine executes after a timer object's time interval expires. |
+| [KIPI_BROADCAST_WORKER callback function](..\wdm\nc-wdm-kipi_broadcast_worker.md) | The IpiGenericCall routine runs simultaneously on all processors. |
+| [KMESSAGE_SERVICE_ROUTINE callback function](..\wdm\nc-wdm-kmessage_service_routine.md) | An InterruptMessageService routine services a message-signaled interrupt. |
+| [KSERVICE_ROUTINE callback function](..\wdm\nc-wdm-kservice_routine.md) | The InterruptService routine (ISR) quickly services a device interrupt and schedules post-interrupt processing of received data, if necessary. |
+| [KSTART_ROUTINE callback function](..\wdm\nc-wdm-kstart_routine.md) | The ThreadStart routine provides an entry point for a driver-created system thread. |
+| [KSYNCHRONIZE_ROUTINE callback function](..\wdm\nc-wdm-ksynchronize_routine.md) | The SynchCritSection routine is used to access hardware resources or driver data that are shared with a driver's InterruptService routine. |
+| [MM_MDL_ROUTINE callback function](..\wdm\nc-wdm-mm_mdl_routine.md) | A driver-supplied callback routine that is invoked after a memory descriptor list (MDL) is mapped by calling the MmMapMdl function. |
+| [PALLOCATE_ADAPTER_CHANNEL callback function](..\wdm\nc-wdm-pallocate_adapter_channel.md) | The AllocateAdapterChannel routine prepares the system for a DMA operation on behalf of the target device object, and then calls the driver-supplied AdapterControl routine to carry out the DMA operation. |
+| [PALLOCATE_ADAPTER_CHANNEL_EX callback function](..\wdm\nc-wdm-pallocate_adapter_channel_ex.md) | The AllocateAdapterChannelEx routine allocates the resources that are needed to perform a DMA transfer, and then calls the driver-supplied AdapterControl routine to initiate the DMA transfer. |
+| [PALLOCATE_COMMON_BUFFER callback function](..\wdm\nc-wdm-pallocate_common_buffer.md) | The AllocateCommonBuffer routine allocates memory and maps it so that it is simultaneously accessible from both the processor and a device for DMA operations. |
+| [PALLOCATE_COMMON_BUFFER_EX callback function](..\wdm\nc-wdm-pallocate_common_buffer_ex.md) | The AllocateCommonBufferEx routine allocates memory for a common buffer and maps this memory so that it can be accessed both by the processor and by a device that performs DMA operations. |
+| [PBUILD_MDL_FROM_SCATTER_GATHER_LIST callback function](..\wdm\nc-wdm-pbuild_mdl_from_scatter_gather_list.md) | The BuildMdlFromScatterGatherList routine builds an MDL from a scatter/gather list allocated by the system.Note  This routine is reserved for system use. |
+| [PBUILD_SCATTER_GATHER_LIST callback function](..\wdm\nc-wdm-pbuild_scatter_gather_list.md) | The BuildScatterGatherList routine prepares the system for a DMA operation, using a driver-supplied buffer to build the scatter/gather list. |
+| [PBUILD_SCATTER_GATHER_LIST_EX callback function](..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md) | The BuildScatterGatherListEx routine allocates the resources that are required for a DMA transfer, builds a scatter/gather list, and calls the driver-supplied AdapterListControl routine to initiate the DMA transfer. |
+| [PCALCULATE_SCATTER_GATHER_LIST_SIZE callback function](..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md) | The CalculateScatterGatherList routine calculates the size, in bytes, of scatter/gather list necessary to hold a given buffer. |
+| [PCANCEL_ADAPTER_CHANNEL callback function](..\wdm\nc-wdm-pcancel_adapter_channel.md) | The CancelAdapterChannel routine tries to cancel a pending request to allocate a DMA channel. |
+| [PCANCEL_MAPPED_TRANSFER callback function](..\wdm\nc-wdm-pcancel_mapped_transfer.md) | The CancelMappedTransfer routine cancels a system DMA transfer that is currently mapped to an adapter. |
+| [PCI_MSIX_MASKUNMASK_ENTRY callback function](..\wdm\nc-wdm-pci_msix_maskunmask_entry.md) | The MaskTableEntry routine masks an interrupt in the MSI-X hardware interrupt table. |
+| [PCI_MSIX_SET_ENTRY callback function](..\wdm\nc-wdm-pci_msix_set_entry.md) | The SetTableEntry routine sets the message ID for a table entry in the MSI-X hardware interrupt table. |
+| [PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK callback function](..\wdm\nc-wdm-pclfs_client_advance_tail_callback.md) | The ClfsAdvanceTailCallback function advances the base log sequence number (LSN) of the client's log. |
+| [PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK callback function](..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md) | The ClfsLogGrowthCompleteCallback function implements the actions that the client will take when space is freed in a log that had previously been full. |
+| [PCLFS_CLIENT_LOG_UNPINNED_CALLBACK callback function](..\wdm\nc-wdm-pclfs_client_log_unpinned_callback.md) | The ClfsLogUnpinnedCallback function implements any actions that the client will take when a log that had previously been pinned becomes unpinned. |
+| [PCONFIGURE_ADAPTER_CHANNEL callback function](..\wdm\nc-wdm-pconfigure_adapter_channel.md) | The ConfigureAdapterChannel routine invokes a custom function that is implemented by the DMA controller represented by an adapter object. |
+| [PCREATE_PROCESS_NOTIFY_ROUTINE callback function](..\ntddk\nc-ntddk-pcreate_process_notify_routine.md) | Process-creation callback implemented by a driver to track the system-wide creation and deletion of processes against the driver's internal state. |
+| [PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback function](..\ntddk\nc-ntddk-pcreate_process_notify_routine_ex.md) | A callback routine implemented by a driver to notify the caller when a process is created or exits. |
+| [PCREATE_THREAD_NOTIFY_ROUTINE callback function](..\ntddk\nc-ntddk-pcreate_thread_notify_routine.md) | A callback routine implemented by a driver to notify the caller when a thread is created or deleted. |
+| [PDEVICE_RESET_HANDLER callback function](..\wdm\nc-wdm-pdevice_reset_handler.md) | The DeviceReset routine is used to reset and recover a malfunctioning device. |
+| [PEPCALLBACKNOTIFYACPI callback function](..\pep_x\nc-pep_x-pepcallbacknotifyacpi.md) | An AcceptAcpiNotification event callback routine handles ACPI notifications from the Windows power management framework (PoFx). |
+| [PEPCALLBACKNOTIFYACPI callback function](..\pepfx\nc-pepfx-pepcallbacknotifyacpi.md) | An AcceptAcpiNotification event callback routine handles ACPI notifications from the Windows power management framework (PoFx). |
+| [PEPCALLBACKNOTIFYDPM callback function](..\pep_x\nc-pep_x-pepcallbacknotifydpm.md) | An AcceptDeviceNotification event callback routine handles device power management (DPM) notifications from the Windows power management framework (PoFx). |
+| [PEPCALLBACKNOTIFYDPM callback function](..\pepfx\nc-pepfx-pepcallbacknotifydpm.md) | An AcceptDeviceNotification event callback routine handles device power management (DPM) notifications from the Windows power management framework (PoFx). |
+| [PEPCALLBACKNOTIFYPPM callback function](..\pep_x\nc-pep_x-pepcallbacknotifyppm.md) | An AcceptProcessorNotification event callback routine handles processor power management (PPM) notifications from the Windows power management framework (PoFx). |
+| [PEPCALLBACKNOTIFYPPM callback function](..\pepfx\nc-pepfx-pepcallbacknotifyppm.md) | An AcceptProcessorNotification event callback routine handles processor power management (PPM) notifications from the Windows power management framework (PoFx). |
+| [PEPCALLBACKPOWERONCRASHDUMPDEVICE callback function](..\pep_x\nc-pep_x-pepcallbackpoweroncrashdumpdevice.md) | The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device. |
+| [PEPCALLBACKPOWERONCRASHDUMPDEVICE callback function](..\pepfx\nc-pepfx-pepcallbackpoweroncrashdumpdevice.md) | The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device. |
+| [PFLUSH_ADAPTER_BUFFERS callback function](..\wdm\nc-wdm-pflush_adapter_buffers.md) | The FlushAdapterBuffers routine flushes any data remaining in the system DMA controller's internal cache or in a bus-master adapter's internal cache at the end of a DMA transfer operation. |
+| [PFLUSH_ADAPTER_BUFFERS_EX callback function](..\wdm\nc-wdm-pflush_adapter_buffers_ex.md) | The FlushAdapterBuffersEx routine flushes any data that remains in the data cache at the end of a DMA transfer operation performed by a system DMA controller or bus-master device. |
+| [PFREE_ADAPTER_CHANNEL callback function](..\wdm\nc-wdm-pfree_adapter_channel.md) | The FreeAdapterChannel routine releases the system DMA controller when a driver has completed all DMA operations necessary to satisfy the current IRP. |
+| [PFREE_ADAPTER_OBJECT callback function](..\wdm\nc-wdm-pfree_adapter_object.md) | The FreeAdapterObject routine releases the specified adapter object after a driver has completed all DMA operations. |
+| [PFREE_COMMON_BUFFER callback function](..\wdm\nc-wdm-pfree_common_buffer.md) | The FreeCommonBuffer routine frees a common buffer allocated by AllocateCommonBuffer, along with all resources the buffer uses. |
+| [PFREE_MAP_REGISTERS callback function](..\wdm\nc-wdm-pfree_map_registers.md) | The FreeMapRegisters routine releases a set of map registers that were saved from a call to AllocateAdapterChannel. |
+| [PGET_DMA_ADAPTER_INFO callback function](..\wdm\nc-wdm-pget_dma_adapter_info.md) | The GetDmaAdapterInfo routine retrieves information about the hardware capabilities of a system DMA channel. |
+| [PGET_DMA_ALIGNMENT callback function](..\wdm\nc-wdm-pget_dma_alignment.md) | The GetDmaAlignment routine returns the alignment requirements of the DMA system. |
+| [PGET_DMA_TRANSFER_INFO callback function](..\wdm\nc-wdm-pget_dma_transfer_info.md) | The GetDmaTransferInfo routine calculates the allocation requirements for a scatter/gather DMA transfer. |
+| [PGET_LOCATION_STRING callback function](..\ntddk\nc-ntddk-pget_location_string.md) | The PnpGetLocationString routine provides the device-specific part of the device's SPDRP_LOCATION_PATHS property. |
+| [PGET_SCATTER_GATHER_LIST callback function](..\wdm\nc-wdm-pget_scatter_gather_list.md) | The GetScatterGatherList routine prepares the system for a DMA scatter/gather operation on behalf of the target device object, through either the system DMA controller or a bus-master adapter. |
+| [PGET_SCATTER_GATHER_LIST_EX callback function](..\wdm\nc-wdm-pget_scatter_gather_list_ex.md) | The GetScatterGatherListEx routine allocates the resources that are required for a DMA transfer, builds a scatter/gather list, and calls the driver-supplied AdapterListControl routine to initiate the DMA transfer. |
+| [PINITIALIZE_DMA_TRANSFER_CONTEXT callback function](..\wdm\nc-wdm-pinitialize_dma_transfer_context.md) | The InitializeDmaTransferContext routine initializes an opaque DMA transfer context that is used to track pending allocations of DMA resources. |
+| [PINTERFACE_DEREFERENCE callback function](..\wdm\nc-wdm-pinterface_dereference.md) | The InterfaceDereference routine decrements the reference count on a driver-defined interface. |
+| [PINTERFACE_REFERENCE callback function](..\wdm\nc-wdm-pinterface_reference.md) | The InterfaceReference routine increments the reference count on a driver-defined interface. |
+| [PLOAD_IMAGE_NOTIFY_ROUTINE callback function](..\ntddk\nc-ntddk-pload_image_notify_routine.md) | Called by the operating system to notify the driver when a driver image or a user image (for example, a DLL or EXE) is mapped into virtual memory. |
+| [PMAP_TRANSFER callback function](..\wdm\nc-wdm-pmap_transfer.md) | The MapTransfer routine sets up map registers for an adapter object to map a DMA transfer from a locked-down buffer. |
+| [PMAP_TRANSFER_EX callback function](..\wdm\nc-wdm-pmap_transfer_ex.md) | The MapTransferEx routine sets up map registers to map the physical addresses in a scatter/gather list to the logical addresses that are required to do a DMA transfer. |
+| [POB_POST_OPERATION_CALLBACK callback function](..\wdm\nc-wdm-pob_post_operation_callback.md) | The ObjectPostCallback routine is called by the operating system after a process or thread handle operation occurs. |
+| [POB_PRE_OPERATION_CALLBACK callback function](..\wdm\nc-wdm-pob_pre_operation_callback.md) | The ObjectPreCallback routine is called by the operating system when a process or thread handle operation occurs. |
+| [POFXCALLBACKCRITICALRESOURCE callback function](..\pep_x\nc-pep_x-pofxcallbackcriticalresource.md) | The TransitionCriticalResource routine changes the active/inactive state of a core system component. |
+| [POFXCALLBACKCRITICALRESOURCE callback function](..\pepfx\nc-pepfx-pofxcallbackcriticalresource.md) | The TransitionCriticalResource routine changes the active/inactive state of a core system component. |
+| [POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback function](..\pep_x\nc-pep_x-pofxcallbackenumerateunmaskedinterrupts.md) | The EnumerateUnmaskedInterrupts routine enumerates interrupt sources whose interrupts are unmasked and enabled. |
+| [POFXCALLBACKENUMERATEUNMASKEDINTERRUPTS callback function](..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md) | The EnumerateUnmaskedInterrupts routine enumerates interrupt sources whose interrupts are unmasked and enabled. |
+| [POFXCALLBACKPLATFORMIDLEVETO callback function](..\pep_x\nc-pep_x-pofxcallbackplatformidleveto.md) | The PlatformIdleVeto routine increments or decrements the veto count for a veto code for a platform idle state. |
+| [POFXCALLBACKPLATFORMIDLEVETO callback function](..\pepfx\nc-pepfx-pofxcallbackplatformidleveto.md) | The PlatformIdleVeto routine increments or decrements the veto count for a veto code for a platform idle state. |
+| [POFXCALLBACKPROCESSORHALT callback function](..\pep_x\nc-pep_x-pofxcallbackprocessorhalt.md) | The ProcessorHalt routine prepares the processor to be halted. |
+| [POFXCALLBACKPROCESSORHALT callback function](..\pepfx\nc-pepfx-pofxcallbackprocessorhalt.md) | The ProcessorHalt routine prepares the processor to be halted. |
+| [POFXCALLBACKPROCESSORIDLEVETO callback function](..\pep_x\nc-pep_x-pofxcallbackprocessoridleveto.md) | The ProcessorIdleVeto routine increments or decrements the veto count for a veto code for a processor idle state. |
+| [POFXCALLBACKPROCESSORIDLEVETO callback function](..\pepfx\nc-pepfx-pofxcallbackprocessoridleveto.md) | The ProcessorIdleVeto routine increments or decrements the veto count for a veto code for a processor idle state. |
+| [POFXCALLBACKREQUESTCOMMON callback function](..\pep_x\nc-pep_x-pofxcallbackrequestcommon.md) | The RequestCommon routine is a generic request handler. |
+| [POFXCALLBACKREQUESTCOMMON callback function](..\pepfx\nc-pepfx-pofxcallbackrequestcommon.md) | The RequestCommon routine is a generic request handler. |
+| [POFXCALLBACKREQUESTINTERRUPT callback function](..\pep_x\nc-pep_x-pofxcallbackrequestinterrupt.md) | The RequestInterrupt routine requests that the operating system replay an edge-triggered interrupt that might have been lost while the hardware platform was in a low-power state. |
+| [POFXCALLBACKREQUESTINTERRUPT callback function](..\pepfx\nc-pepfx-pofxcallbackrequestinterrupt.md) | The RequestInterrupt routine requests that the operating system replay an edge-triggered interrupt that might have been lost while the hardware platform was in a low-power state. |
+| [POFXCALLBACKREQUESTWORKER callback function](..\pep_x\nc-pep_x-pofxcallbackrequestworker.md) | The RequestWorker routine is called by a platform extension plug-in (PEP) to inform the Windows power management framework (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device. |
+| [POFXCALLBACKREQUESTWORKER callback function](..\pepfx\nc-pepfx-pofxcallbackrequestworker.md) | The RequestWorker routine is called by a platform extension plug-in (PEP) to inform the Windows power management framework (PoFx) that the platform extension plug-in (PEP) has a work request to submit on behalf of the specified device. |
+| [POFXCALLBACKUPDATEPLATFORMIDLESTATE callback function](..\pep_x\nc-pep_x-pofxcallbackupdateplatformidlestate.md) | The UpdatePlatformIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified platform idle state. |
+| [POFXCALLBACKUPDATEPLATFORMIDLESTATE callback function](..\pepfx\nc-pepfx-pofxcallbackupdateplatformidlestate.md) | The UpdatePlatformIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified platform idle state. |
+| [POFXCALLBACKUPDATEPROCESSORIDLESTATE callback function](..\pep_x\nc-pep_x-pofxcallbackupdateprocessoridlestate.md) | The UpdateProcessorIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified processor idle state. |
+| [POFXCALLBACKUPDATEPROCESSORIDLESTATE callback function](..\pepfx\nc-pepfx-pofxcallbackupdateprocessoridlestate.md) | The UpdateProcessorIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified processor idle state. |
+| [PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK callback function](..\wdm\nc-wdm-po_fx_component_active_condition_callback.md) | The ComponentActiveConditionCallback callback routine notifies the driver that the specified component completed a transition from the idle condition to the active condition. |
+| [PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK callback function](..\wdm\nc-wdm-po_fx_component_critical_transition_callback.md) | The ComponentCriticalTransitionCallback callback routine handles a transition of the specified component between the F0 (fully on) and low-power Fx component power states. |
+| [PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK callback function](..\wdm\nc-wdm-po_fx_component_idle_condition_callback.md) | The ComponentIdleConditionCallback callback routine notifies the driver that the specified component completed a transition from the active condition to the idle condition. |
+| [PO_FX_COMPONENT_IDLE_STATE_CALLBACK callback function](..\wdm\nc-wdm-po_fx_component_idle_state_callback.md) | The ComponentIdleStateCallback callback routine notifies the driver of a pending change to the Fx power state of the specified component. |
+| [PO_FX_COMPONENT_PERF_STATE_CALLBACK callback function](..\wdm\nc-wdm-po_fx_component_perf_state_callback.md) | The ComponentPerfStateCallback callback routine notifies the driver that its request to change the performance state of a component is complete. |
+| [PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK callback function](..\wdm\nc-wdm-po_fx_device_power_not_required_callback.md) | The DevicePowerNotRequiredCallback callback routine notifies the device driver that the device is not required to stay in the D0 power state. |
+| [PO_FX_DEVICE_POWER_REQUIRED_CALLBACK callback function](..\wdm\nc-wdm-po_fx_device_power_required_callback.md) | The DevicePowerRequiredCallback callback routine notifies the device driver that the device must enter and remain in the D0 power state. |
+| [PO_FX_POWER_CONTROL_CALLBACK callback function](..\wdm\nc-wdm-po_fx_power_control_callback.md) | The PowerControlCallback callback routine performs a power control operation that is requested by the power management framework (PoFx). |
 | [PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback](..\pep_x\nc-pep_x-ppo_enumerate_interrupt_source_callback.md) | An EnumerateInterruptSource callback routine supplies a platform extension plug-in (PEP) with information about an interrupt source. |
 | [PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback](..\pepfx\nc-pepfx-ppo_enumerate_interrupt_source_callback.md) | An EnumerateInterruptSource callback routine supplies a platform extension plug-in (PEP) with information about an interrupt source. |
-| [PPUT_DMA_ADAPTER callback](..\wdm\nc-wdm-pput_dma_adapter.md) | The PutDmaAdapter routine frees a DMA_ADAPTER structure previously allocated by IoGetDmaAdapter. |
-| [PPUT_SCATTER_GATHER_LIST callback](..\wdm\nc-wdm-pput_scatter_gather_list.md) | The PutScatterGatherList routine frees the previously allocated map registers and scatter/gather list used in scatter/gather DMA. |
-| [PREAD_DMA_COUNTER callback](..\wdm\nc-wdm-pread_dma_counter.md) | The ReadDmaCounter routine returns the number of bytes remaining to be transferred during the current subordinate DMA operation. |
-| [PREENUMERATE_SELF callback](..\wdm\nc-wdm-preenumerate_self.md) | A ReenumerateSelf routine requests that a bus driver reenumerate a child device. |
-| [PROCESSOR_HALT_ROUTINE callback](..\wdm\nc-wdm-processor_halt_routine.md) | A Halt callback routine transitions the processor to an idle state. |
-| [PTM_RM_NOTIFICATION callback](..\wdm\nc-wdm-ptm_rm_notification.md) | A resource manager's ResourceManagerNotification callback routine receives and handles transaction notifications. |
-| [REQUEST_POWER_COMPLETE callback](..\wdm\nc-wdm-request_power_complete.md) | The PowerCompletion callback routine completes the processing of a power IRP. |
-| [RTL_QUERY_REGISTRY_ROUTINE callback](..\wdm\nc-wdm-rtl_query_registry_routine.md) | The QueryRoutine routine provides information about a registry value that was requested in a preceding call to the RtlQueryRegistryValues routine. |
-| [RTL_RUN_ONCE_INIT_FN callback](..\ntddk\nc-ntddk-rtl_run_once_init_fn.md) | The RunOnceInitialization routine performs a one-time initialization operation. |
-| [SET_D3COLD_SUPPORT callback](..\wdm\nc-wdm-set_d3cold_support.md) | The SetD3ColdSupport routine enables or disables transitions to the D3cold device power state. |
-| [SILO_CONTEXT_CLEANUP_CALLBACK callback](..\ntddk\nc-ntddk-silo_context_cleanup_callback.md) | This callback is invoked when the context object reaches a reference count of zero. |
-| [SILO_MONITOR_CREATE_CALLBACK callback](..\ntddk\nc-ntddk-silo_monitor_create_callback.md) | This is callback is invoked when a new silo is created. |
-| [SILO_MONITOR_TERMINATE_CALLBACK callback](..\ntddk\nc-ntddk-silo_monitor_terminate_callback.md) | This callback is invoked when a silo is terminated. |
-| [TRANSLATE_BUS_ADDRESS callback](..\wdm\nc-wdm-translate_bus_address.md) | The TranslateBusAddress routine translates addresses on the parent bus to logical addresses. |
-| [WMI_EXECUTE_METHOD_CALLBACK callback](..\wmilib\nc-wmilib-wmi_execute_method_callback.md) | The DpWmiExecuteMethod routine executes a method associated with a data block. This routine is optional. |
-| [WMI_FUNCTION_CONTROL_CALLBACK callback](..\wmilib\nc-wmilib-wmi_function_control_callback.md) | The DpWmiFunctionControl routine enables or disables notification of events, and enables or disables data collection for data blocks that the driver registered as expensive to collect. This routine is optional. |
-| [WMI_QUERY_DATABLOCK_CALLBACK callback](..\wmilib\nc-wmilib-wmi_query_datablock_callback.md) | The DpWmiQueryDataBlock routine returns either a single instance or all instances of a data block. This routine is required. |
-| [WMI_QUERY_REGINFO_CALLBACK callback](..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md) | The DpWmiQueryReginfo routine provides information about the data blocks and event blocks to be registered by a driver. This routine is required. |
-| [WMI_SET_DATABLOCK_CALLBACK callback](..\wmilib\nc-wmilib-wmi_set_datablock_callback.md) | The DpWmiSetDataBlock routine changes all data items in a single instance of a data block. This routine is optional. |
-| [WMI_SET_DATAITEM_CALLBACK callback](..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md) | The DpWmiSetDataItem routine changes a single data item in an instance of a data block. This routine is optional. |
-| [pHalExamineMBR callback](..\ntddk\nc-ntddk-phalexaminembr.md) | The HalExamineMBR routine reads the master boot record (MBR) of a disk and returns data from the MBR if the MBR is of the type specified by the caller. |
+| [PPUT_DMA_ADAPTER callback function](..\wdm\nc-wdm-pput_dma_adapter.md) | The PutDmaAdapter routine frees a DMA_ADAPTER structure previously allocated by IoGetDmaAdapter. |
+| [PPUT_SCATTER_GATHER_LIST callback function](..\wdm\nc-wdm-pput_scatter_gather_list.md) | The PutScatterGatherList routine frees the previously allocated map registers and scatter/gather list used in scatter/gather DMA. |
+| [PREAD_DMA_COUNTER callback function](..\wdm\nc-wdm-pread_dma_counter.md) | The ReadDmaCounter routine returns the number of bytes remaining to be transferred during the current subordinate DMA operation. |
+| [PREENUMERATE_SELF callback function](..\wdm\nc-wdm-preenumerate_self.md) | A ReenumerateSelf routine requests that a bus driver reenumerate a child device. |
+| [PROCESSOR_HALT_ROUTINE callback function](..\wdm\nc-wdm-processor_halt_routine.md) | A Halt callback routine transitions the processor to an idle state. |
+| [PTM_RM_NOTIFICATION callback function](..\wdm\nc-wdm-ptm_rm_notification.md) | A resource manager's ResourceManagerNotification callback routine receives and handles transaction notifications. |
+| [REQUEST_POWER_COMPLETE callback function](..\wdm\nc-wdm-request_power_complete.md) | The PowerCompletion callback routine completes the processing of a power IRP. |
+| [RTL_QUERY_REGISTRY_ROUTINE callback function](..\wdm\nc-wdm-rtl_query_registry_routine.md) | The QueryRoutine routine provides information about a registry value that was requested in a preceding call to the RtlQueryRegistryValues routine. |
+| [RTL_RUN_ONCE_INIT_FN callback function](..\ntddk\nc-ntddk-rtl_run_once_init_fn.md) | The RunOnceInitialization routine performs a one-time initialization operation. |
+| [SET_D3COLD_SUPPORT callback function](..\wdm\nc-wdm-set_d3cold_support.md) | The SetD3ColdSupport routine enables or disables transitions to the D3cold device power state. |
+| [SILO_CONTEXT_CLEANUP_CALLBACK callback function](..\ntddk\nc-ntddk-silo_context_cleanup_callback.md) | This callback is invoked when the context object reaches a reference count of zero. |
+| [SILO_MONITOR_CREATE_CALLBACK callback function](..\ntddk\nc-ntddk-silo_monitor_create_callback.md) | This is callback is invoked when a new silo is created. |
+| [SILO_MONITOR_TERMINATE_CALLBACK callback function](..\ntddk\nc-ntddk-silo_monitor_terminate_callback.md) | This callback is invoked when a silo is terminated. |
+| [TRANSLATE_BUS_ADDRESS callback function](..\wdm\nc-wdm-translate_bus_address.md) | The TranslateBusAddress routine translates addresses on the parent bus to logical addresses. |
+| [WMI_EXECUTE_METHOD_CALLBACK callback function](..\wmilib\nc-wmilib-wmi_execute_method_callback.md) | The DpWmiExecuteMethod routine executes a method associated with a data block. This routine is optional. |
+| [WMI_FUNCTION_CONTROL_CALLBACK callback function](..\wmilib\nc-wmilib-wmi_function_control_callback.md) | The DpWmiFunctionControl routine enables or disables notification of events, and enables or disables data collection for data blocks that the driver registered as expensive to collect. This routine is optional. |
+| [WMI_QUERY_DATABLOCK_CALLBACK callback function](..\wmilib\nc-wmilib-wmi_query_datablock_callback.md) | The DpWmiQueryDataBlock routine returns either a single instance or all instances of a data block. This routine is required. |
+| [WMI_QUERY_REGINFO_CALLBACK callback function](..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md) | The DpWmiQueryReginfo routine provides information about the data blocks and event blocks to be registered by a driver. This routine is required. |
+| [WMI_SET_DATABLOCK_CALLBACK callback function](..\wmilib\nc-wmilib-wmi_set_datablock_callback.md) | The DpWmiSetDataBlock routine changes all data items in a single instance of a data block. This routine is optional. |
+| [WMI_SET_DATAITEM_CALLBACK callback function](..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md) | The DpWmiSetDataItem routine changes a single data item in an instance of a data block. This routine is optional. |
+| [pHalExamineMBR callback function](..\ntddk\nc-ntddk-phalexaminembr.md) | The HalExamineMBR routine reads the master boot record (MBR) of a disk and returns data from the MBR if the MBR is of the type specified by the caller. |
 
 ## Structures
 

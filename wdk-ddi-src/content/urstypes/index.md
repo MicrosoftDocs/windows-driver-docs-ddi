@@ -1,12 +1,14 @@
 ---
 UID: NA:urstypes
+author: windows-driver-content
 ms.assetid: 15f371fd-cce0-3b44-b121-995ecf31a13e
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: usbref
 ---
 
 # Urstypes.h header

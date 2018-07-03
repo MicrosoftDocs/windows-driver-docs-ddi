@@ -67,14 +67,10 @@ The VENDOR_ATTR structure defines the data that is stored in the <b>VendorAttr</
 
 
 ### -field VendorName.Length
-
-Contains the ANSI-coded name of the vendor. Because a length field is provided, no terminating <b>NULL</b> character is necessary. This member is required. 
-
-
-### -field VendorName.Buffer
-
 Contains the length of the ANSI-coded name of the vendor. This member is required. 
 
+### -field VendorName.Buffer
+Contains the ANSI-coded name of the vendor. Because a length field is provided, no terminating NULL character is necessary. This member is required. 
 
 ### -field IfdType
 

@@ -82,7 +82,7 @@ The driver returns the results of the vendor-specific command to the buffer at <
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ The driver returns the results of the vendor-specific command to the buffer at <
 
 
 
-<text></text>
+
 
 
 

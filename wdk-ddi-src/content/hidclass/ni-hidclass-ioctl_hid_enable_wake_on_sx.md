@@ -85,7 +85,7 @@ This is a buffer of size Boolean.
 
 
 
-<text></text>
+
 
 
 
@@ -94,7 +94,7 @@ This is a buffer of size Boolean.
 
 
 
-<text></text>
+
 
 
 

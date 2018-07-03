@@ -82,7 +82,7 @@ The mount manager inserts either the current drive letter or the newly assigned 
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ The mount manager inserts either the current drive letter or the newly assigned 
 
 
 
-<text></text>
+
 
 
 

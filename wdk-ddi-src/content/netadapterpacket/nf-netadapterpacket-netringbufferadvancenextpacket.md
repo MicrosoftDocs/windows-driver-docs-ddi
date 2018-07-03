@@ -75,6 +75,6 @@ while (NULL != (nextPacket = NetRingBufferAdvanceNextPacket(descriptor))) {
 
 For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
 
-The minimum NetAdapterCx version for **NetRingBufferAdvanceNextPacket** is 1.2.
+
 
 ## -see-also

@@ -152,8 +152,7 @@ When
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564641">NdisUnmapFile</a> function to page out the file
     so it does not consume resources unnecessarily while the driver is not accessing the file data. When
     finished using the file, 
-    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> must call the
-    
+    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> must call the    
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561645">NdisCloseFile</a> function.
 
 

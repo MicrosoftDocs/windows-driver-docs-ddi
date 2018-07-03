@@ -73,10 +73,8 @@ The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJ
 Added additional members for NDIS 6.30.
 
 <div class="alert"><b>Note</b>  Revision 2 of this structure is  supported only on Windows Server 2012 and later versions of Windows Server.</div>
-<div> </div>
+
 Set the <b>Size</b> member to <b>NDIS_SIZEOF_RECEIVE_QUEUE_INFO_REVISION_2</b>.
-
-
 
 #### NDIS_RECEIVE_QUEUE_INFO_REVISION_1
 
@@ -92,8 +90,7 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is 
 
 ### -field QueueType
 
-An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567217">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
+An <a href="https://msdn.microsoft.com/library/windows/hardware/ff567217">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
      value that specifies the type of the receive queue.
 
 
@@ -111,8 +108,7 @@ This member is reserved for NDIS.
 
 ### -field QueueState
 
-An 
-     <a href="https://msdn.microsoft.com/a8ae7b19-9dc8-4ccc-b71e-62ec0be1fa99">
+An <a href="https://msdn.microsoft.com/a8ae7b19-9dc8-4ccc-b71e-62ec0be1fa99">
      NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a> enumeration value that specifies the operational state of the
      receive queue.
 
@@ -143,7 +139,6 @@ A <b>ULONG</b> value for the size, in bytes, of the lookahead size requirement f
      post-lookahead data to separate shared memory segments.
 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, splitting packet data into separate lookahead buffers is no longer supported. The value of this member must be set to zero.</div>
-<div> </div>
 
 ### -field VmName
 
@@ -160,7 +155,6 @@ An <b>NDIS_QUEUE_NAME</b> value that contains the user-friendly description of t
 A ULONG value that specifies the number of receive filters that have been configured on the network adapter.
 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, the miniport driver must maintain a counter for the current number of receive filters that are set on the network adapter. The driver must increment the counter each time a receive filter is set through an OID set request of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>.  The driver must also decrement the counter each time a receive filter is  cleared through an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>.</div>
-<div> </div>
 
 ### -field InterruptCoalescingDomainId
 

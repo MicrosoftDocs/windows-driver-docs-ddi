@@ -15,20 +15,20 @@ ms.topic: struct
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -70,12 +70,12 @@ The decode profile to retrieve bitstream encryption schemes for.
 
 ### -field EncryptionSchemeCount
 
-The number of schemes to retrieve.  The runtime ensures this value matches the value returned from PFND3D12DDI_VIDEO_GETCAPS with D3D12DDI_CAPSTYPE_VIDEO set to D3D12DDICAPS_TYPE_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT.
+The number of schemes to retrieve. The runtime ensures this value matches the value returned from PFND3D12DDI_VIDEO_GETCAPS with D3D12DDI_CAPSTYPE_VIDEO set to D3D12DDICAPS_TYPE_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT.
 
 
 ### -field pEncryptionSchemes
 
-A pointer to a list of supported encryption schemes.  The calling application allocates storage for the list before it calls the <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a> method.
+A pointer to a list of supported encryption schemes. The calling application allocates storage for the list before it calls the <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a> method.
 
 
 ## -see-also
@@ -87,7 +87,7 @@ A pointer to a list of supported encryption schemes.  The calling application al
 
 
 
-<a href="https://msdn.microsoft.com/BD3DFB48-9470-45CC-93BC-A918FD43DC3F">pfnGetBitstreamEncryptionSchemeCount</a>
+[pfnGetBitstreamEncryptionSchemeCount](nc-d3d12umddi-pfnd3d12ddi_video_get_bitstream_encryption_scheme_count_0020.md)
  
 
  

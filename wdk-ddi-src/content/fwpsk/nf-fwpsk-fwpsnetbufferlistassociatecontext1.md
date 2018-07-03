@@ -77,8 +77,7 @@ The identifier of the layer in which the context is being associated. When calli
 ### -param context [in]
 
 Arbitrary context information set by the callout driver. The filter engine will pass this context
-     to the callout driver's 
-     
+     to the callout driver's      
      <a href="https://msdn.microsoft.com/library/windows/hardware/hh451260">FWPS_NET_BUFFER_LIST_NOTIFY_FN1</a> function.
 
 
@@ -91,8 +90,7 @@ A locally unique identifier obtained by calling the
 
 ### -param providerGuid
 
-TBD
-
+The provider GUID.
 
 ### -param deviceObject [in, out]
 
@@ -109,11 +107,6 @@ A pointer to the callout driver's
 ### -param flags [in]
 
 This parameter is reserved for future use and is set to zero.
-
-
-#### - providerGUID [in]
-
-The provider GUID.
 
 
 ## -returns

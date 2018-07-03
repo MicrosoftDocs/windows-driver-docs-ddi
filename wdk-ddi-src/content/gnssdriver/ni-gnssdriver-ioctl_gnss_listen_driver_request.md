@@ -84,7 +84,7 @@ Set to sizeof(GNSS_EVENT).
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ Set to sizeof(GNSS_EVENT).
 
 
 
-<text></text>
+
 
 
 

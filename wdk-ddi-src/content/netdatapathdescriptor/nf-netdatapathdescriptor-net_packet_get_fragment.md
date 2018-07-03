@@ -61,7 +61,7 @@ A pointer to the datapath queue's [NET_DATAPATH_DESCRIPTOR](ns-netdatapathdescri
 The index of the fragment in the datapath queue's fragment ring buffer, relative to the parent packet.
 
 ## -remarks
-In NetAdapterCx 1.2 and later, [NET_PACKET_FRAGMENT](../netpacket/ns-netpacket-_net_packet_fragment.md)s are organized in a ring buffer just like [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md)s. Each packet in the packet ring buffer references the start of its fragments in the fragment ring buffer. Because fragments are contained within a packet, this means that the *index* parameter of this macro is the index of the fragment *within* the packet and not in the overall fragment ring buffer. 
+[NET_PACKET_FRAGMENT](../netpacket/ns-netpacket-_net_packet_fragment.md)s are organized in a ring buffer just like [NET_PACKET](../netpacket/ns-netpacket-_net_packet.md)s. Each packet in the packet ring buffer references the start of its fragments in the fragment ring buffer. Because fragments are contained within a packet, this means that the *index* parameter of this macro is the index of the fragment *within* the packet and not in the overall fragment ring buffer. 
 
 For example, consider a NIC driver that wants to check information about an Ethernet frame on its transmit queue. The driver can use the 0th index of the packet and call **NET_PACKET_GET_FRAGMENT** to check the first fragment and make sure the Ethernet header is there, then it can get the number of fragments with a call to [NetPacketGetFragmentCount](nf-netdatapathdescriptor-netpacketgetfragmentcount.md) and loop over the fragments, calling **NET_PACKET_GET_FRAGMENT** on each one, to find out the total data length. To obtain this information, the example first acquires the queue's datapath descriptor by calling [NetTxQueueGetDatapathDescriptor](../nettxqueue/nf-nettxqueue-nettxqueuegetdatapathdescriptor.md).
 
@@ -93,6 +93,8 @@ for(UINT32 i = 0; i < fragmentCount; i++)
 
 ```
 
-The minimum NetAdapterCx version for **NET_PACKET_GET_FRAGMENT** is 1.2.
+
 
 ## -see-also
+
+[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

@@ -90,16 +90,8 @@ A handle that identifies the party on a multipoint VC that the caller is request
 
 ### -param NdisOidRequest
 
-TBD
-
-
-
-
-#### - OidRequest [in, out]
-
 A pointer to a caller-allocated buffer that contains an 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure.
-
 
 ## -returns
 

@@ -62,30 +62,15 @@ The
 
 ### -param _us
 
-TBD
-
-
-### -param s
-
-TBD
-
-
-
-
-
-
-#### - DestinationString [in, out]
-
 A pointer to a caller-allocated NDIS_STRING type in which 
      <b>NdisInitUnicodeString</b> should store the counted Unicode string. For Windows 2000 and later, NDIS
      defines the NDIS_STRING type as a 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff564879">UNICODE_STRING</a> type.
 
 
-#### - SourceString [in]
+### -param s
 
 A pointer to a null-terminated string with which to initialize the counted string.
-
 
 ## -remarks
 

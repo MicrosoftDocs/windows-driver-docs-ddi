@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>FwpsInjectMacReceiveAsync0</b> function can  reinject a previously absorbed media access control (MAC) frame (or a clone of the frame) back to the layer 2 inbound data path it was intercepted from, or inject an invented MAC frame.<div class="alert"><b>Note</b>  <b>FwpsInjectMacReceiveAsync0</b> is a specific version of <b>FwpsInjectMacReceiveAsync</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
+The <b>FwpsInjectMacReceiveAsync0</b> function can  reinject a previously absorbed media access control (MAC) frame (or a clone of the frame) back to the layer 2 inbound data path from which it was intercepted, or inject an invented MAC frame.<div class="alert"><b>Note</b>  <b>FwpsInjectMacReceiveAsync0</b> is a specific version of <b>FwpsInjectMacReceiveAsync</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div>
 <div> </div>
 
 
@@ -104,9 +104,11 @@ A pointer to a
      the packet data that is being injected. A callout driver allocates a NET_BUFFER_LIST structure to use to
      inject packet data by calling either the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff551134">FwpsAllocateCloneNetBufferList0</a> function or the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551135">FwpsAllocateNetBufferAndNetBufferList0</a> function. The NET_BUFFER_LIST structure must begin with an
-     IP header.
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551135">FwpsAllocateNetBufferAndNetBufferList0</a> function. 
+     
+The NET_BUFFER_LIST structure must begin with an IP header if calling this function at the Ethernet layer where `(layerId == FWPS_LAYER_INBOUND_MAC_FRAME_ETHERNET)`.
 
+For receive injection in the native case, where `(layerId == FWPS_LAYER_INBOUND_MAC_FRAME_NATIVE)`, the NET_BUFFER_LIST must begin with a MAC header.
 
 ### -param completionFn [in]
 
@@ -208,7 +210,7 @@ An error occurred.
 
 
 
-A callback driver calls the <b>FwpsInjectMacReceiveAsync0</b>  function to reinject a previously absorbed MAC frame (or a clone of the frame) back to the layer 2 inbound data path it was intercepted from, or to inject an invented MAC frame.
+A callback driver calls the <b>FwpsInjectMacReceiveAsync0</b>  function to reinject a previously absorbed MAC frame (or a clone of the frame) back to the layer 2 inbound data path from which it was intercepted, or to inject an invented MAC frame.
 
 The <i>netBufferLists</i> parameter can be a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> chain. However the completion function could be invoked multiple times each, completing a segment (or single NET_BUFFER_LIST) of the chain.
 

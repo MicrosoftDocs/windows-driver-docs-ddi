@@ -65,7 +65,7 @@ After NetAdapterCx calls a client driver's *[EVT_TXQUEUE_SET_NOTIFICATION_ENABLE
 
 The client should only call **NetTxQueueNotifyMoreCompletedPacketsAvailable** once per enabling of the notification. Do not call **NetTxQueueNotifyMoreCompletedPacketsAvailable** if NetAdapterCx calls *[EVT_TXQUEUE_SET_NOTIFICATION_ENABLED](nc-nettxqueue-evt_txqueue_set_notification_enabled.md)* with *NotificationEnabled* set to **FALSE**.
 
-The minimum NetAdapterCx version for **NetTxQueueNotifyMoreCompletedPacketsAvailable** is 1.0.
+
 
 ## -see-also
 

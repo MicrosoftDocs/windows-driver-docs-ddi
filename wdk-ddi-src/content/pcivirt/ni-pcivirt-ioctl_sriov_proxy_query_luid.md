@@ -68,7 +68,7 @@ identifier of the SR_IOV device implementing the interface.
 
 
 
-<text></text>
+
 
 
 
@@ -77,7 +77,7 @@ identifier of the SR_IOV device implementing the interface.
 
 
 
-<text></text>
+
 
 
 
@@ -89,25 +89,7 @@ A pointer to a <a href="https://msdn.microsoft.com/8db09aa8-240d-40b6-a28c-77158
 
 ### -output-buffer-length
 
-The size of the <a href="https://msdn.microsoft.com/8db09aa8-240d-40b6-a28c-77158aff6c39">SRIOV_PROXY_QUERY_LUID_OUTPUT</a> structure.
-
-
-### -in-out-buffer
-
-
-
-<text></text>
-
-
-
-
-### -inout-buffer-length
-
-
-
-<text></text>
-
-
+The size of the <a href="https://msdn.microsoft.com/8db09aa8-240d-40b6-a28c-77158aff6c39">SRIOV_PROXY_QUERY_LUID_OUTPUT</a> structure
 
 
 ### -status-block

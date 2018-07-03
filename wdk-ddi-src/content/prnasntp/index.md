@@ -1,12 +1,14 @@
 ---
 UID: NA:prnasntp
+author: windows-driver-content
 ms.assetid: 06a2babb-67c2-3b95-be24-a44b7eec0bcf
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: print
 ---
 
 # Prnasntp.h header

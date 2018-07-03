@@ -79,8 +79,11 @@ A handle to a driver-allocated context area where the driver maintains state and
 
 ### -param FilterDriverCharacteristics
 
-TBD
-
+A pointer to an 
+     <a href="https://msdn.microsoft.com/1eb2bae0-70b9-4bc0-9d93-4fc9467f9532">
+     NDIS_FILTER_DRIVER_CHARACTERISTICS</a> structure that the filter driver created and initialized with
+     its 
+     <i>FilterXxx</i> function entry points.
 
 ### -param NdisFilterDriverHandle [out]
 
@@ -90,16 +93,6 @@ A pointer to a handle variable. If the call to
      filter driver saves this handle and later passes this handle to NDIS functions, such as 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff561800">NdisFDeregisterFilterDriver</a>,
      that require a filter driver handle as an input parameter.
-
-
-#### - FilterCharacteristics [in]
-
-A pointer to an 
-     <a href="https://msdn.microsoft.com/1eb2bae0-70b9-4bc0-9d93-4fc9467f9532">
-     NDIS_FILTER_DRIVER_CHARACTERISTICS</a> structure that the filter driver created and initialized with
-     its 
-     <i>FilterXxx</i> function entry points.
-
 
 ## -returns
 

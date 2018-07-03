@@ -77,7 +77,7 @@ Returns STATUS_SUCCESS if RSS was successfully enabled. Otherwise, returns an ap
 ## -remarks
 Register your implementation of this callback function by setting the appropriate member of the [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure and then calling [NetAdapterSetReceiveScalingCapabilities](nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md). Client drivers typically call **NetAdapterSetReceiveScalingCapabilities** from their *[EvtNetAdapterSetCapabilities](../netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function.
 
-The minimum NetAdapterCx version for *EvtNetAdapterReceiveScalingEnable* is 1.2.
+
 
 ### Example
 In this callback, NIC client drivers get what information they need to turn RSS on for their NIC, such as the protocol types, hash function type, and hash secret key. Clients can use any of these helper methods to get the information they need:

@@ -100,13 +100,6 @@ The Average Reference Signal Received Quality. The range is -20 to -3, in units 
 
 ### -field Data
 
- 
-
-
-
-
-#### - Data[ANYSIZE_ARRAY]
-
 The data buffer containing <i>ProviderId</i>.
 
 

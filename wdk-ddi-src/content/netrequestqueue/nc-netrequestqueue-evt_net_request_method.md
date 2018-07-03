@@ -100,6 +100,6 @@ To register an *EVT_NET_REQUEST_METHOD* callback function, the client driver cal
 
 Your client driver can provide one or more specialized handlers for specific OID method requests. In addition, it can also provide a generic *[EVT_NET_REQUEST_DEFAULT_METHOD](nc-netrequestqueue-evt_net_request_default_method.md)* callback function.
 
-The minimum NetAdapterCx version for *EVT_NET_REQUEST_METHOD* is 1.0.
+
 
 ## -see-also

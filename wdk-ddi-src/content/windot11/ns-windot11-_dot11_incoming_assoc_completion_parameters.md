@@ -50,14 +50,11 @@ req.product: Windows 10 or later.
 
 ## -description
 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure specifies the results of the association
-  operation that is performed by the 802.11 station after it receives an association request from a peer
-  station on an infrastructure BSS.
-
+The DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure specifies the results of the association operation that is performed by the 802.11 station after it receives an association request from a peer station on an infrastructure BSS.
 
 ## -syntax
-
 
 ````
 typedef struct _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS {
@@ -89,165 +86,104 @@ typedef struct _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure. This
-     member is formatted as an 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
+The type, revision, and size of the DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.     
 
-The miniport driver must set the members of 
-     <b>Header</b> to the following values:
-
-
-
-
+The miniport driver must set the members of <b>Header</b> to the following values:
 
 #### Type
 
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
-
-
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT. 
 
 #### Revision
 
-This member must be set to DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS_REVISION_1.
-
-
+This member must be set to DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS_REVISION_1. 
 
 #### Size
 
-This member must be set to 
-       <b>sizeof</b>(DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS).
+This member must be set to <b>sizeof</b>(DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS).
 
-For more information about these members, see 
-     <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
+For more information about these members, see <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field PeerMacAddr
 
-The media access control (MAC) address of the peer station that sent an association
-     request.
-
+The media access control (MAC) address of the peer station that sent an association request.
 
 ### -field uStatus
 
-The status of the association with the peer station. If zero, the association succeeds. If
-     nonzero, the association fails.
-
+The status of the association with the peer station. If zero, the association succeeds. If nonzero, the association fails.
 
 ### -field ucErrorSource
 
-For nonzero values of 
-     <b>uStatus</b>, this member indicates the source of the error that prevents association. The NIC must
-     set 
-     <b>ucErrorSource</b> to one of the following values:
-     
-
-
-
-
+For nonzero values of <b>uStatus</b>, this member indicates the source of the error that prevents association. The NIC must set <b>ucErrorSource</b> to one of the following values: 
 
 #### DOT11_ASSOC_ERROR_SOURCE_OS
 
-The miniport driver has rejected the association procedure because of system errors, such as
-       out-of-memory errors. In this case, 
-       <b>uStatus</b> should be set to the NDIS_STATUS_XXX or NTSTATUS_XXX code returned from the operating
-       system.
-
+The miniport driver has rejected the association procedure because of system errors, such as out-of-memory errors. In this case, <b>uStatus</b> should be set to the NDIS_STATUS_XXX or NTSTATUS_XXX code returned from the operating system.
 
 
 #### DOT11_ASSOC_ERROR_SOURCE_REMOTE
 
-The AP or the peer station has rejected the association procedure. In this case, 
-       <b>uStatus</b> should be set to the 802.11 status code form the 802.11 authentication frame,
-       association response frame, or re-association response frame. Table 19 in the 
-       <i>IEEE 802.11-2003 Specification</i> contains all the possible values. The miniport driver can also
-       return new values in this IEEE specification when it is amended.
-
-
+The AP or the peer station has rejected the association procedure. In this case, <b>uStatus</b> should be set to the 802.11 status code form the 802.11 authentication frame, association response frame, or re-association response frame. Table 19 in the <i>IEEE 802.11-2003 Specification</i> contains all the possible values. The miniport driver can also return new values in this IEEE specification when it is amended.
 
 #### DOT11_ASSOC_ERROR_SOURCE_OTHER
 
-The association failed for an IHV-specific reason. In this case, 
-       <b>uStatus</b> contains a nonzero value specified by the IHV.
-
+The association failed for an IHV-specific reason. In this case, <b>uStatus</b> contains a nonzero value specified by the IHV. 
 
 ### -field bReAssocReq
 
-A Boolean value that indicates whether the request from the peer station is a re-association
-     request.
+A Boolean value that indicates whether the request from the peer station is a re-association request.
 
 
 ### -field bReAssocResp
 
-A Boolean value that indicates whether the response from the NIC is a re-association
-     request.
+A Boolean value that indicates whether the response from the NIC is a re-association request.
 
 
 ### -field uAssocReqOffset
 
-The offset of the request frame that is used in the association operation. The frame includes
-     information elements (IEs) but does not include the 802.11 MAC header.
+The offset of the request frame that is used in the association operation. The frame includes information elements (IEs) but does not include the 802.11 MAC header.
 
 
 ### -field uAssocReqSize
 
-The length, in bytes, of the request frame that is used in the association operation. The frame
-     includes information elements (IEs) but does not include the 802.11 MAC header.
+The length, in bytes, of the request frame that is used in the association operation. The frame includes information elements (IEs) but does not include the 802.11 MAC header.
 
 
 ### -field uAssocRespOffset
 
-The offset of the response frame that is used in the association operation. The frame includes
-     information elements (IEs) but does not include the 802.11 MAC header.
+The offset of the response frame that is used in the association operation. The frame includes information elements (IEs) but does not include the 802.11 MAC header.
 
 
 ### -field uAssocRespSize
 
-The length of the response frame, in bytes, that is used in the association operation. The frame
-     includes information elements (IEs) but does not include the 802.11 MAC header.
+The length of the response frame, in bytes, that is used in the association operation. The frame includes information elements (IEs) but does not include the 802.11 MAC header.
 
 
 ### -field AuthAlgo
 
-The authentication algorithm that the 802.11 station resolved with the peer station during the
-      association operation. For more information about the data type for the 
-      <b>AuthAlgo</b> member, see 
-      <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>.
+The authentication algorithm that the 802.11 station resolved with the peer station during the association operation. For more information about the data type for the <b>AuthAlgo</b> member, see <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a>.
 
-<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
-      <b>uStatus</b> is not set to zero.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if <b>uStatus</b> is not set to zero.</div>
 
 ### -field UnicastCipher
 
-The unicast cipher algorithm that the 802.11 station resolved with the peer station during the
-      association operation. For more information about the data type for the 
-      <b>UnicastCipher</b> member, see 
-      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
+The unicast cipher algorithm that the 802.11 station resolved with the peer station during the association operation. For more information about the data type for the 
+      <b>UnicastCipher</b> member, see <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
 
-<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
-      <b>uStatus</b> is not set to zero.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if <b>uStatus</b> is not set to zero.</div>
 
 ### -field MulticastCipher
 
-The multicast cipher algorithm that the 802.11 station resolved with the AP or peer station during
-      the association operation. For more information about the data type for the 
-      <b>MulticastCipher</b> member, see 
-      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
+The multicast cipher algorithm that the 802.11 station resolved with the AP or peer station during the association operation. For more information about the data type for the <b>MulticastCipher</b> member, see <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
 
-<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
-      <b>uStatus</b> is not set to zero.</div>
-<div> </div>
+<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if <b>uStatus</b> is not set to zero.</div>
 
 ### -field uActivePhyListOffset
 
-The offset of the list of PHY identifiers (IDs) that the 802.11 station uses to send or receive
-      packets on the BSS network connection. Each entry is a ULONG value.
+The offset of the list of PHY identifiers (IDs) that the 802.11 station uses to send or receive packets on the BSS network connection. Each entry is a ULONG value.
 
-The Extensible Station (ExtSTA) 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">msDot11ActivePhyList</a> MIB object
-      also references the active PHY list.
+The Extensible Station (ExtSTA) <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">msDot11ActivePhyList</a> MIB objec also references the active PHY list.
 
 Entries in the active PHY list can be one of the following values:
 
@@ -267,7 +203,6 @@ A PHY ID of DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value
 
 <div class="alert"><b>Note</b>  An entry with the value of DOT11_PHY_ID_ANY must be the only entry in the
         active PHY list.</div>
-<div> </div>
 </li>
 </ul>
 The offset of the active PHY list is relative to the start of the buffer that contains the
@@ -275,7 +210,6 @@ The offset of the active PHY list is relative to the start of the buffer that co
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
       <b>uStatus</b> is not set to zero.</div>
-<div> </div>
 
 ### -field uActivePhyListSize
 
@@ -286,7 +220,6 @@ The length, in bytes, of the active PHY list. The
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
      <b>uStatus</b> is not set to zero.</div>
-<div> </div>
 
 ### -field uBeaconOffset
 
@@ -302,7 +235,6 @@ The Beacon frame should be the latest frame used by the driver, except that real
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
      <b>uStatus</b> is not set to zero.</div>
-<div> </div>
 
 ### -field uBeaconSize
 
@@ -318,7 +250,7 @@ The Beacon frame should be the latest frame used by the driver, except that real
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
      <b>uStatus</b> is not set to zero.</div>
-<div> </div>
+
 
 ## -remarks
 

@@ -1,8 +1,9 @@
 ---
 UID: TP:sensors
+author: windows-driver-content
 ms.assetid: 8a7a095d-53d4-30a8-a1d2-4ef29c8a344d
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +12,7 @@ ms.topic: portal
 
 # Sensors
 
-
+## -description
 
 Overview of the Sensors technology.
 
@@ -49,20 +50,20 @@ For the programming guide, see [Sensors](https://docs.microsoft.com/en-us/window
 
 | Title   | Description   |
 | ---- |:---- |
-| [EVT_SENSOR_DRIVER_DISABLE_WAKE callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_disable_wake.md) | Callback to disable wake for the sensor. |
-| [EVT_SENSOR_DRIVER_ENABLE_WAKE callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_enable_wake.md) | Callback to enable wake for the sensor. |
-| [EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_get_data_field_properties.md) | This callback function returns the properties of a given data field associated with a sensor. |
-| [EVT_SENSOR_DRIVER_GET_DATA_INTERVAL callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_get_data_interval.md) | This callback function returns the data interval for a specified sensor. |
-| [EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_get_data_thresholds.md) | This callback function returns the thresholds that are associated with a sensor. |
-| [EVT_SENSOR_DRIVER_GET_PROPERTIES callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_get_properties.md) | This callback function returns the properties for a given sensor. |
-| [EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_get_supported_data_fields.md) | This callback function returns a list of data fields supported by the specified sensor. |
-| [EVT_SENSOR_DRIVER_SET_BATCH_LATENCY callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_set_batch_latency.md) | This callback function sets the batch latency for a specified sensor. |
-| [EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_set_data_interval.md) | This callback function sets the data interval for a specified sensor. |
-| [EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_set_data_thresholds.md) | This callback function handles IOCTLs outside of the class extension. |
-| [EVT_SENSOR_DRIVER_START_SENSOR callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_start_sensor.md) | This callback function starts the sensor based on the default properties specified by the driver, or properties set by the class extension. |
-| [EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_start_state_change_notification.md) | Used to start a state change notification. |
-| [EVT_SENSOR_DRIVER_STOP_SENSOR callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_stop_sensor.md) | This callback function stops the sensor. |
-| [EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback](..\sensorscx\nc-sensorscx-evt_sensor_driver_stop_state_change_notification.md) | Used to stop a state change notification. |
+| [EVT_SENSOR_DRIVER_DISABLE_WAKE callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_disable_wake.md) | Callback to disable wake for the sensor. |
+| [EVT_SENSOR_DRIVER_ENABLE_WAKE callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_enable_wake.md) | Callback to enable wake for the sensor. |
+| [EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_get_data_field_properties.md) | This callback function returns the properties of a given data field associated with a sensor. |
+| [EVT_SENSOR_DRIVER_GET_DATA_INTERVAL callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_get_data_interval.md) | This callback function returns the data interval for a specified sensor. |
+| [EVT_SENSOR_DRIVER_GET_DATA_THRESHOLDS callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_get_data_thresholds.md) | This callback function returns the thresholds that are associated with a sensor. |
+| [EVT_SENSOR_DRIVER_GET_PROPERTIES callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_get_properties.md) | This callback function returns the properties for a given sensor. |
+| [EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_get_supported_data_fields.md) | This callback function returns a list of data fields supported by the specified sensor. |
+| [EVT_SENSOR_DRIVER_SET_BATCH_LATENCY callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_set_batch_latency.md) | This callback function sets the batch latency for a specified sensor. |
+| [EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_set_data_interval.md) | This callback function sets the data interval for a specified sensor. |
+| [EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_set_data_thresholds.md) | This callback function handles IOCTLs outside of the class extension. |
+| [EVT_SENSOR_DRIVER_START_SENSOR callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_start_sensor.md) | This callback function starts the sensor based on the default properties specified by the driver, or properties set by the class extension. |
+| [EVT_SENSOR_DRIVER_START_STATE_CHANGE_NOTIFICATION callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_start_state_change_notification.md) | Used to start a state change notification. |
+| [EVT_SENSOR_DRIVER_STOP_SENSOR callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_stop_sensor.md) | This callback function stops the sensor. |
+| [EVT_SENSOR_DRIVER_STOP_STATE_CHANGE_NOTIFICATION callback function](..\sensorscx\nc-sensorscx-evt_sensor_driver_stop_state_change_notification.md) | Used to stop a state change notification. |
 
 ## Structures
 
@@ -99,21 +100,21 @@ For the programming guide, see [Sensors](https://docs.microsoft.com/en-us/window
 
 | Title   | Description   |
 | ---- |:---- |
-| [ISensorClassExtension::CleanupFile method](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-cleanupfile.md) | The ISensorClassExtension |
-| [ISensorClassExtension::Initialize method](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-initialize.md) | The ISensorClassExtension |
-| [ISensorClassExtension::PostEvent method](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-postevent.md) | The ISensorClassExtension |
-| [ISensorClassExtension::PostStateChange method](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-poststatechange.md) | The ISensorClassExtension |
-| [ISensorClassExtension::ProcessIoControl method](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-processiocontrol.md) | The ISensorClassExtension |
-| [ISensorClassExtension::Uninitialize method](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-uninitialize.md) | The ISensorClassExtension |
-| [ISensorDriver::OnClientConnect method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onclientconnect.md) | The ISensorDriver |
-| [ISensorDriver::OnClientDisconnect method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onclientdisconnect.md) | The ISensorDriver |
-| [ISensorDriver::OnClientSubscribeToEvents method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onclientsubscribetoevents.md) | The ISensorDriver |
-| [ISensorDriver::OnClientUnsubscribeFromEvents method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onclientunsubscribefromevents.md) | The ISensorDriver |
-| [ISensorDriver::OnGetDataFields method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetdatafields.md) | The ISensorDriver |
-| [ISensorDriver::OnGetProperties method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetproperties.md) | The ISensorDriver |
-| [ISensorDriver::OnGetSupportedDataFields method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetsupporteddatafields.md) | The ISensorDriver |
-| [ISensorDriver::OnGetSupportedEvents method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetsupportedevents.md) | The ISensorDriver |
-| [ISensorDriver::OnGetSupportedProperties method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetsupportedproperties.md) | The ISensorDriver |
-| [ISensorDriver::OnGetSupportedSensorObjects method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetsupportedsensorobjects.md) | The ISensorDriver |
-| [ISensorDriver::OnProcessWpdMessage method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onprocesswpdmessage.md) | The ISensorDriver |
-| [ISensorDriver::OnSetProperties method](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onsetproperties.md) | The ISensorDriver |
+| [ISensorClassExtension::CleanupFile](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-cleanupfile.md) | The ISensorClassExtension |
+| [ISensorClassExtension::Initialize](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-initialize.md) | The ISensorClassExtension |
+| [ISensorClassExtension::PostEvent](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-postevent.md) | The ISensorClassExtension |
+| [ISensorClassExtension::PostStateChange](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-poststatechange.md) | The ISensorClassExtension |
+| [ISensorClassExtension::ProcessIoControl](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-processiocontrol.md) | The ISensorClassExtension |
+| [ISensorClassExtension::Uninitialize](..\sensorsclassextension\nf-sensorsclassextension-isensorclassextension-uninitialize.md) | The ISensorClassExtension |
+| [ISensorDriver::OnClientConnect](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onclientconnect.md) | The ISensorDriver |
+| [ISensorDriver::OnClientDisconnect](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onclientdisconnect.md) | The ISensorDriver |
+| [ISensorDriver::OnClientSubscribeToEvents](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onclientsubscribetoevents.md) | The ISensorDriver |
+| [ISensorDriver::OnClientUnsubscribeFromEvents](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onclientunsubscribefromevents.md) | The ISensorDriver |
+| [ISensorDriver::OnGetDataFields](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetdatafields.md) | The ISensorDriver |
+| [ISensorDriver::OnGetProperties](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetproperties.md) | The ISensorDriver |
+| [ISensorDriver::OnGetSupportedDataFields](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetsupporteddatafields.md) | The ISensorDriver |
+| [ISensorDriver::OnGetSupportedEvents](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetsupportedevents.md) | The ISensorDriver |
+| [ISensorDriver::OnGetSupportedProperties](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetsupportedproperties.md) | The ISensorDriver |
+| [ISensorDriver::OnGetSupportedSensorObjects](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-ongetsupportedsensorobjects.md) | The ISensorDriver |
+| [ISensorDriver::OnProcessWpdMessage](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onprocesswpdmessage.md) | The ISensorDriver |
+| [ISensorDriver::OnSetProperties](..\sensorsclassextension\nf-sensorsclassextension-isensordriver-onsetproperties.md) | The ISensorDriver |

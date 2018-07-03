@@ -80,8 +80,7 @@ The total number of segments sent on offloaded TCP connections, including those 
 
 ### -field CurrentlyEstablished
 
-The number of TCP connections for which the current state is either ESTABLISHED or CLOSE-WAIT. See
-     
+The number of TCP connections for which the current state is either ESTABLISHED or CLOSE-WAIT. See     
      <i>tcpCurrEstab</i> in RFC 1156.
 
 

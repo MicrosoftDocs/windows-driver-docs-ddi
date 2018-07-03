@@ -106,8 +106,7 @@ A miniport driver that returns NDIS_STATUS_PENDING from its
 A call to 
     <b>NdisMOidRequestComplete</b> causes a call to the request complete function (see 
     <a href="https://msdn.microsoft.com/2c383523-7d9c-4f1b-8df1-5cb4cc3562d6">ProtocolRequestComplete</a>, 
-    <a href="https://msdn.microsoft.com/2706577e-ba03-4347-9672-7303752ec0fe">ProtocolOidRequestComplete</a>,
-    
+    <a href="https://msdn.microsoft.com/2706577e-ba03-4347-9672-7303752ec0fe">ProtocolOidRequestComplete</a>,    
     <a href="https://msdn.microsoft.com/2dba21d8-512b-4a1a-9cf9-0240c94a69a0">FilterOidRequestComplete</a>) of
     the overlying driver that called the 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563710">NdisOidRequest</a> function.

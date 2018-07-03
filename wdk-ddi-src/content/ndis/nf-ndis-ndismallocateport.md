@@ -62,23 +62,16 @@ The
 
 ### -param NdisMiniportHandle
 
-TBD
-
+The miniport adapter handle that NDIS passed to the 
+     <i>MiniportAdapterHandle</i> parameter of the 
+     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
+     MiniportInitializeEx</a> function.
 
 ### -param PortCharacteristics [in, out]
 
 A pointer to an 
      <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
      NDIS_PORT_CHARACTERISTICS</a> structure that defines the characteristics of the port.
-
-
-#### - MiniportAdapterHandle [in]
-
-The miniport adapter handle that NDIS passed to the 
-     <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
-     MiniportInitializeEx</a> function.
-
 
 ## -returns
 

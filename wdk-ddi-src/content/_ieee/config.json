@@ -1,0 +1,9 @@
+{
+  "tech": "ieee",
+  "headers": [
+    "1394.h",
+    "1394api.h",
+    "61883.h"
+  ],
+  "displayName": "IEEE 1394 bus"
+}

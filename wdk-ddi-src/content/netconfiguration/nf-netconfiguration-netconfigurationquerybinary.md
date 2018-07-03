@@ -58,7 +58,7 @@ Retrieves the data that is currently assigned to a specified registry value, sto
 Handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
-A pointer to a **UNICODE_STRING** structure that contains a value name. 
+A pointer to a [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structure that contains a value name. 
 
 ### -param PoolType
 A **POOL_TYPE**-typed value that specifies the type of memory to be allocated for the data buffer. 
@@ -75,6 +75,6 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 ## -remarks
 The client driver obtains a handle to a NETCONFIGURATION object by calling [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).
 
-The minimum NetAdapterCx version for **NetConfigurationQueryBinary** is 1.0.
+
 
 ## -see-also

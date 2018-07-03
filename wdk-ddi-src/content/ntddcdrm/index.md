@@ -1,12 +1,14 @@
 ---
 UID: NA:ntddcdrm
+author: windows-driver-content
 ms.assetid: 21939472-b0b4-3c10-86e6-842cb8446575
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: storage
 ---
 
 # Ntddcdrm.h header

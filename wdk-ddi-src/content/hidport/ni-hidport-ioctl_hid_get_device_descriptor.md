@@ -84,7 +84,7 @@ The size of the device descriptor.
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ The size of the device descriptor.
 
 
 
-<text></text>
+
 
 
 

@@ -58,16 +58,11 @@ The <b>KeCancelTimer</b> routine dequeues a timer object before the timer interv
 
 
 
-### -param Arg1
-
-TBD
-
-
-
-
-#### - Timer [in, out]
+### -param Arg1 [in, out]
 
 Pointer to an initialized timer object, for which the caller provides the storage.
+
+
 
 
 ## -returns

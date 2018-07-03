@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwSetInformationToken</b> routine modifies information in a specified token. The calling process must have appropriate access rights to set the information. 
+The <b>NtSetInformationToken</b> routine modifies information in a specified token. The calling process must have appropriate access rights to set the information. 
 
 
 ## -parameters
@@ -209,7 +209,7 @@ Size, in bytes, of the structure passed in the <i>TokenInformation</i> buffer. M
 
 
 
-<b>ZwSetInformationToken</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
+<b>NtSetInformationToken</b> returns STATUS_SUCCESS or an appropriate error status. Possible error status codes include the following:
 
 <table>
 <tr>
@@ -338,7 +338,7 @@ The specified default owner's security information was not valid.
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwSetInformationToken</b> function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557678">NtSetInformationToken</a>" instead of "<b>ZwSetInformationToken</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>NtSetInformationToken</b> function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557678">NtSetInformationToken</a>" instead of "<b>ZwSetInformationToken</b>".</div>
 <div> </div>
 For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
@@ -426,7 +426,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">ZwQueryInformationToken</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567055">NtQueryInformationToken</a>
  
 
  

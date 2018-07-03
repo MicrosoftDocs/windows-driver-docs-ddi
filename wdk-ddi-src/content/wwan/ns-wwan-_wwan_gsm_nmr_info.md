@@ -100,15 +100,7 @@ Use 0xFFFFFFFF when this information is not available.
 
 ### -field Data
 
- 
-
-
-
-
-#### - Data[ANYSIZE_ARRAY]
-
 The data buffer containing <i>ProviderId</i>.
-
 
 ## -see-also
 

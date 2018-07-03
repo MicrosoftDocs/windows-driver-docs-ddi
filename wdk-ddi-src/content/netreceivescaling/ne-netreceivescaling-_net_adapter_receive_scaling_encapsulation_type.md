@@ -59,7 +59,7 @@ Indicates that the hardware understands how to bypass [VLan encapsulation](https
 ## -remarks
 The **ReceiveScalingEncapsulationTypes** member of the [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure contains information for both outer (transport) and inner (tunnel) encapsulation types that the NIC is capable of bypassing. These members each contain a bitwise OR of **NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE** constants.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE** is 1.2.
+
 
 ## -see-also
 [NetAdapterCx Receive Side Scaling](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-receive-side-scaling-rss-)

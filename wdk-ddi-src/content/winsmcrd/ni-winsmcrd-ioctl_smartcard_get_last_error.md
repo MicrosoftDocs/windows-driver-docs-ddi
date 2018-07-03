@@ -72,7 +72,7 @@ Contains the size of the output buffer. Must be at least <b>sizeof</b>(ULONG).
 
 
 
-<text></text>
+
 
 
 
@@ -92,7 +92,7 @@ Must be set to <b>sizeof</b>(ULONG).
 
 
 
-<text></text>
+
 
 
 
@@ -101,7 +101,7 @@ Must be set to <b>sizeof</b>(ULONG).
 
 
 
-<text></text>
+
 
 
 
@@ -110,7 +110,7 @@ Must be set to <b>sizeof</b>(ULONG).
 
 
 
-<text></text>
+
 
 
 

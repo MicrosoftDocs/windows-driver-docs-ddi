@@ -1,0 +1,6 @@
+{
+  "tech": "fileio",
+  "headers": [
+    "cifs.h"
+  ]
+}

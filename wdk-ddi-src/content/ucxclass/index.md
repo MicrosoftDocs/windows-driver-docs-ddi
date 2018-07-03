@@ -1,12 +1,14 @@
 ---
 UID: NA:ucxclass
+author: windows-driver-content
 ms.assetid: dbaa665f-bdcf-3bfc-946e-cfe851a0bcac
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: usbref
 ---
 
 # Ucxclass.h header

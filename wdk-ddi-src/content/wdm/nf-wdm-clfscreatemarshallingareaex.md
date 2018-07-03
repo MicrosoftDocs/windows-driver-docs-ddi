@@ -2,7 +2,7 @@
 UID: NF:wdm.ClfsCreateMarshallingAreaEx
 title: ClfsCreateMarshallingAreaEx function
 author: windows-driver-content
-description: TBD
+description: Initalizes a marshalling area for a physical or client log file stream.
 ms.assetid: 00a9624d-0cc9-4429-8050-74934176bbdd
 ms.author: windowsdriverdev
 ms.date: 

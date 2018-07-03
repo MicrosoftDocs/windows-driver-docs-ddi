@@ -1,0 +1,8 @@
+{
+  "tech": "parports",
+  "headers": [
+    "ntddpar.h",
+    "parallel.h"
+  ],
+  "displayName": "Parallel Ports"
+}

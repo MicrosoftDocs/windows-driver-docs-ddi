@@ -58,18 +58,11 @@ The <b>KeQuerySystemTime</b> routine obtains the current system time.
 
 
 
-### -param CurrentCount
-
-TBD
-
-
-
-
-
-
-#### - CurrentTime [out]
+### -param CurrentCount [out]
 
 Pointer to the current time on return from <b>KeQuerySystemTime</b>. 
+
+
 
 
 ## -remarks

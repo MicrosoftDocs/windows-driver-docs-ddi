@@ -59,7 +59,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 ## -remarks
 For this method to succeed, the **NETADAPTER** object must have been previously created by calling [NetAdapterCreate](nf-netadapter-netadaptercreate.md) and later stopped by calling [NetAdapterStop](nf-netadapter-netadapterstop.md).
 
-The minimum NetAdapterCx version for **NetAdapterStart** is 1.2.
+
 
 ## -see-also
 

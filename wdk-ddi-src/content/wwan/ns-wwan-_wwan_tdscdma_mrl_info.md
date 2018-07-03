@@ -85,8 +85,7 @@ The UTRA Absolute Radio Frequency Channel Number for the serving cell (0-16383).
 
 ### -field CellParameterId
 
- 
-
+The Cell Parameter ID (0-127). Use 0xFFFFFFFF when this information is not available.
 
 ### -field TimingAdvance
 
@@ -105,19 +104,8 @@ The path loss of the serving cell (46-158). Use 0xFFFFFFFF when this information
 
 ### -field Data
 
- 
-
-
-
-
-#### - CellParameterID
-
-The Cell Parameter ID (0-127). Use 0xFFFFFFFF when this information is not available.
-
-
-#### - Data[ANYSIZE_ARRAY]
-
 The data buffer containing <i>ProviderId</i>.
+
 
 
 ## -see-also

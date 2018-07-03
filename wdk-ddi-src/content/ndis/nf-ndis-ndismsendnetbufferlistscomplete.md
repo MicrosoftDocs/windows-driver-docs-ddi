@@ -71,8 +71,10 @@ The miniport handle that NDIS passed to the
 
 ### -param NetBufferList
 
-TBD
-
+A pointer to a linked list of NET_BUFFER_LIST structures. The miniport driver received the
+     NET_BUFFER_LIST structures in previous calls to its 
+     <a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">
+     MiniportSendNetBufferLists</a> function.
 
 ### -param SendCompleteFlags [in]
 
@@ -80,14 +82,6 @@ NDIS flags that can be combined with an OR operation. To clear all the flags, se
      zero. This function supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag which; if set, indicates
      that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
      <a href="https://msdn.microsoft.com/ac559f4f-0138-4b9a-8f1b-44a2973fd6a1">Dispatch IRQL Tracking</a>.
-
-
-#### - NetBufferLists [in]
-
-A pointer to a linked list of NET_BUFFER_LIST structures. The miniport driver received the
-     NET_BUFFER_LIST structures in previous calls to its 
-     <a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">
-     MiniportSendNetBufferLists</a> function.
 
 
 ## -returns

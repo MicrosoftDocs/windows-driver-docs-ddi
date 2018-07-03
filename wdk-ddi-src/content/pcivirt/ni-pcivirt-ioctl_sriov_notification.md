@@ -62,26 +62,6 @@ The  request indicates that the virtualization stack wants to be notified when o
 ## -ioctlparameters
 
 
-
-
-### -input-buffer
-
-
-
-<text></text>
-
-
-
-
-### -input-buffer-length
-
-
-
-<text></text>
-
-
-
-
 ### -output-buffer
 
 A buffer that contains an <a href="https://msdn.microsoft.com/e2b40a9d-57e6-49b1-839a-d34acb108807">SRIOV_PF_EVENT</a>-type value that is filled by the  physical function (PF) driver when it completes the request.
@@ -89,26 +69,7 @@ A buffer that contains an <a href="https://msdn.microsoft.com/e2b40a9d-57e6-49b1
 
 ### -output-buffer-length
 
-A pointer to the variable, which is assigned the number of
-    written bytes to the output buffer when the request is completed.
-
-
-### -in-out-buffer
-
-
-
-<text></text>
-
-
-
-
-### -inout-buffer-length
-
-
-
-<text></text>
-
-
+A pointer to the variable, which is assigned the number of written bytes to the output buffer when the request is completed.
 
 
 ### -status-block
@@ -126,24 +87,16 @@ The <b>IOCTL_SRIOV_NOTIFICATION</b> request is held in a queue by the PF driver 
 <a href="https://msdn.microsoft.com/e2b40a9d-57e6-49b1-839a-d34acb108807">SRIOV_PF_EVENT</a>. The driver then completes the pending request.
 
 
-If the PF driver receives this IOCTL request while processing a Plug and Play event  for which the driver has not 
-yet completed a notification, it should complete the IOCTL request immediately with the 
-event details in the output buffer.  Otherwise, the driver should queue the request until either it is cancelled
-or a Plug and Play event that requires notification occurs.
-
+If the PF driver receives this IOCTL request while processing a Plug and Play event  for which the driver has not yet completed a notification, it should complete the IOCTL request immediately with the event details in the output buffer.  Otherwise, the driver should queue the request until either it is cancelled or a Plug and Play event that requires notification occurs.
 
 The virtualization stack can send the <b>IOCTL_SRIOV_NOTIFICATION</b> request immediately after the previous <b>IOCTL_SRIOV_NOTIFICATION</b> request completes.   The PF driver must keep track of the fact 
 that an event notification has been delivered and must not complete two IOCTL requests for the same event twice.
 
   It is pended by the PF driver until it is canceled by the sender or until the PF driver experiences one of several PnP events, at which point it is completed. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    case IOCTL_SRIOV_NOTIFICATION:
+```
+
+case IOCTL_SRIOV_NOTIFICATION:
         TraceEvents(TRACE_LEVEL_VERBOSE, DBG_IOCTL, 
             "IOCTL_SRIOV_NOTIFICATION:\n");
 
@@ -168,17 +121,10 @@ that an event notification has been delivered and must not complete two IOCTL re
 
 
 
-</pre>
-</td>
-</tr>
-</table></span></div>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```
+
+```
+VOID
 CheckPendingNotifications(
     __in PDEVICE_CONTEXT DeviceContext
     )
@@ -239,9 +185,7 @@ Return Value:
     WdfWaitLockRelease(DeviceContext-&gt;PnpStateLock);
 
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 

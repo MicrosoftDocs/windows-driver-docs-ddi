@@ -64,17 +64,9 @@ Call the
 
 ### -param NdisObject
 
-TBD
-
-
-
-
-#### - NdisGenericObject [in]
-
 A pointer to the 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff565680">NDIS_GENERIC_OBJECT</a> structure to be
      freed.
-
 
 ## -returns
 

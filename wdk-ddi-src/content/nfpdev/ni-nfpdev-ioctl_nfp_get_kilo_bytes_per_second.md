@@ -67,7 +67,7 @@ None
 
 
 
-<text></text>
+
 
 
 
@@ -81,7 +81,7 @@ One <b>INT32</b> value that defines the approximate transmission speed supported
 
 
 
-<text></text>
+
 
 
 
@@ -90,7 +90,7 @@ One <b>INT32</b> value that defines the approximate transmission speed supported
 
 
 
-<text></text>
+
 
 
 
@@ -99,7 +99,7 @@ One <b>INT32</b> value that defines the approximate transmission speed supported
 
 
 
-<text></text>
+
 
 
 

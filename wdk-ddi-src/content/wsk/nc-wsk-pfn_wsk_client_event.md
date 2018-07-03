@@ -78,8 +78,7 @@ A pointer to a buffer that contains additional information that is associated wi
 
 ### -param InformationLength [in]
 
-The length of the additional information that is contained in the buffer that is pointed to by the
-     
+The length of the additional information that is contained in the buffer that is pointed to by the     
      <i>Information</i> parameter. If there is no additional information associated with the event, this value
      will be zero.
 

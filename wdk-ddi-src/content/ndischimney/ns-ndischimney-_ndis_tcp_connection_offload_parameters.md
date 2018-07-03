@@ -2,7 +2,7 @@
 UID: NS:ndischimney._NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
 title: "_NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS"
 author: windows-driver-content
-description: The NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure provides TCP chimney offload information in the OID_TCP_CONNECTION_OFFLOAD_PARAMETERS OIDs:
+description: The NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure provides TCP chimney offload information in the OID_TCP_CONNECTION_OFFLOAD_PARAMETERS OID.
 old-location: netvista\ndis_tcp_connection_offload_parameters.htm
 old-project: netvista
 ms.assetid: f8d3f971-2abc-425d-9929-518f093262a7
@@ -54,7 +54,7 @@ req.typenames: NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, *PNDIS_TCP_CONNECTION_OFF
 
 The NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure provides TCP chimney offload information in the 
   <a href="https://msdn.microsoft.com/en-us/library/gg158102.aspx">
-  OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</a> OIDs:
+  OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</a> OID.
 
 
 ## -struct-fields

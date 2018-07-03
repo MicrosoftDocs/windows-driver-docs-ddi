@@ -60,16 +60,9 @@ The <b>ExInterlockedFlushSList</b> routine atomically removes all entries from a
 
 ### -param Head
 
-TBD
-
-
-
-
-
-
-#### - ListHead [in, out]
-
 A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list.
+
+
 
 
 ## -remarks

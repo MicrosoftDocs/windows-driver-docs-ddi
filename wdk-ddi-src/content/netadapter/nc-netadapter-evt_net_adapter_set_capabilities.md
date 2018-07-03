@@ -104,7 +104,7 @@ Optionally, the client can also call:
 
 To set an attribute that does not have equivalent NetAdapter functionality, for example to report offload capabilities, call [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md) from *EvtNetAdapterSetCapabilities*. Use [NetAdapterWdmGetNdisHandle](nf-netadapter-netadapterwdmgetndishandle.md) to get the NDIS handle.
 
-The minimum NetAdapterCx version for *EVT_NET_ADAPTER_SET_CAPABILITIES* is 1.0.
+
 
 ### Example
 

@@ -1,0 +1,25 @@
+{
+  "tech": "stream",
+  "headers": [
+    "amtvuids.h",
+    "avc.h",
+    "avcstrm.h",
+    "bdamedia.h",
+    "bdasup.h",
+    "bdatypes.h",
+    "dsound.h",
+    "kcom.h",
+    "ks.h",
+    "ksi.h",
+    "ksmedia.h",
+    "ksproxy.h",
+    "lamp.h",
+    "msviddrv.h",
+    "playtodevice.h",
+    "stdunk.h",
+    "strmini.h",
+    "swenum.h",
+    "usbcamdi.h"
+  ],
+  "displayName": "Streaming media devices"
+}

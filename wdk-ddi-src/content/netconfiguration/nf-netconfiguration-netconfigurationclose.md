@@ -63,7 +63,7 @@ This method does not return a value.
 ## -remarks
 **NetConfigurationClose** is an alias of [WdfObjectDelete](../wdfobject/nf-wdfobject-wdfobjectdelete.md). Because the configuration object, like all NetAdapterCx objects, is a WDF object, you can use [WdfObjectDelete](../wdfobject/nf-wdfobject-wdfobjectdelete.md) interchangeably.
 
-The minimum NetAdapterCx version for **NetConfigurationClose** is 1.0.
+
 
 ## -see-also
 

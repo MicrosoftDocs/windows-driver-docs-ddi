@@ -109,8 +109,7 @@ A callout driver's
      filter is added to the filter engine. This context structure is opaque to the filter engine, and can be
      used by the callout driver's 
      <a href="https://msdn.microsoft.com/128fd929-6e83-46a0-9475-e459ede58f30">classifyFn1</a> callout function to preserve
-     any driver-specific data or state information between calls by the filter engine to the callout driver's
-     
+     any driver-specific data or state information between calls by the filter engine to the callout driver's     
      <i>classifyFn1</i> callout function.
 
 A callout driver's 

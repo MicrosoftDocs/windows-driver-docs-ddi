@@ -98,8 +98,7 @@ A miniport driver cannot use a spin lock to protect resources that its other fun
     MiniportDisableInterruptEx</a> functions. Instead, a miniport driver must call 
     <b>NdisMSynchronizeWithInterruptEx</b> so that its 
     <a href="https://msdn.microsoft.com/aac1ff91-76aa-46a0-8e8a-85b9f8c3323c">
-    MiniportSynchronizeInterrupt</a> function accesses such shared resources at the same DIRQL at which its
-    
+    MiniportSynchronizeInterrupt</a> function accesses such shared resources at the same DIRQL at which its    
     <i>MiniportInterrupt</i> and/or 
     <i>MiniportDisableInterruptEx</i> functions do.
 

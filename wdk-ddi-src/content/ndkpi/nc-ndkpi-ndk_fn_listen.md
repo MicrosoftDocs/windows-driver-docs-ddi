@@ -65,6 +65,8 @@ A pointer to an NDK listener object (<a href="https://msdn.microsoft.com/library
 
 ### -param PSOCKADDR
 
+A local address to listen on. For AF_INET or AF_INET6 <i>pAddress</i> contains the local IP address and local ND port.
+
 
 ### -param AddressLength [in]
 
@@ -81,13 +83,6 @@ A pointer to a request completion callback routine <i>NdkRequestCompletion</i> (
 ### -param RequestContext [in, optional]
 
 A context value to pass to the <i>Context</i> parameter of the  callback function that is specified in the <i>RequestCompletion</i> parameter.
-
-
-#### - pAddress
-
-A local address to listen on. For AF_INET or AF_INET6 <i>pAddress</i> contains the local IP address and local ND port.
-
-
 
 
 ## -returns

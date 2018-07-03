@@ -1,0 +1,9 @@
+{
+  "tech": "gpio",
+  "headers": [
+    "gpio.h",
+    "gpioclx.h",
+    "i2cgpio.h"
+  ],
+  "displayName": "General-purpose I/O (GPIO) controllers"
+}

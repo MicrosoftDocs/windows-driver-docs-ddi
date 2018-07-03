@@ -32,7 +32,7 @@ req.irql:
 topic_type:
 -	kbSyntax
 api_type:
--	<TBD>
+-	HeaderDef
 api_location:
 -
 api_name:
@@ -51,7 +51,7 @@ req.typenames:
 
 
 			
-            This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
+This material is not yet available. This placeholder topic is provided as an example of documentation that may be included in a later release.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ req.typenames:
 
 ### -param GlobalHandle
 
-TBD
+
 
 
 ## -returns
@@ -69,7 +69,7 @@ TBD
 
 
 
-}
+
                     
 
 

@@ -88,8 +88,6 @@ Register your implementation of this callback function by setting the appropriat
 
 This callback function is optional unless the net adapter client driver initializes its [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure using the [NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED](nf-netadapter-net_adapter_rx_capabilities_init_driver_managed.md) method. By using this initialization method, the driver tells the operating system that it is managing allocation and attachment of [NET_PACKET_FRAGMENT](../netpacket/ns-netpacket-_net_packet_fragment.md) receive bufffers manually, so it must provide this callback function in this case for the operating system to invoke once the system is finished with the buffer.
 
-The minimum NetAdapterCx version for **EVT_NET_ADAPTER_RETURN_RX_BUFFER** is 1.2.
-
 ### Example
 In this callback function, the client driver can perform whatever cleanup or follow-up actions it needs now that the operating system has finished with this receive buffer. In the following example, the return context contains a member to track the number of indicated packets, as well as a memory object used for a lookaside buffer during receive processing. Error handling has been left out for clarity.
 

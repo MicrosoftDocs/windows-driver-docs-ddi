@@ -1,12 +1,14 @@
 ---
 UID: NA:wexdebug
+author: windows-driver-content
 ms.assetid: 9ceaed67-9a74-39cf-b6d6-1c159739a1cd
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: taef
 ---
 
 # Wexdebug.h header

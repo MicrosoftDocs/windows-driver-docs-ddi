@@ -70,7 +70,7 @@ The VRP <b>InputBuffer</b> contains a <a href="https://msdn.microsoft.com/librar
 
 
 
-<text></text>
+
 
 
 
@@ -84,7 +84,7 @@ The miniport driver returns the VIDEOPARAMETERS structure in the VRP <b>OutputBu
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ The miniport driver returns the VIDEOPARAMETERS structure in the VRP <b>OutputBu
 
 
 
-<text></text>
+
 
 
 
@@ -102,7 +102,7 @@ The miniport driver returns the VIDEOPARAMETERS structure in the VRP <b>OutputBu
 
 
 
-<text></text>
+
 
 
 

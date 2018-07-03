@@ -84,7 +84,7 @@ The <b>IOCTL_SMARTCARD_POWER</b>
 
 
 
-<text></text>
+
 
 
 
@@ -98,7 +98,7 @@ None.
 
 
 
-<text></text>
+
 
 
 
@@ -107,7 +107,7 @@ None.
 
 
 
-<text></text>
+
 
 
 
@@ -116,7 +116,7 @@ None.
 
 
 
-<text></text>
+
 
 
 

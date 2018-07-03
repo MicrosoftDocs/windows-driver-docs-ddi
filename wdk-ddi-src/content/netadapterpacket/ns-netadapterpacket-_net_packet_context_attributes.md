@@ -63,6 +63,6 @@ A pointer to a [WDF_OBJECT_CONTEXT_TYPE_INFO](../wdfobject/ns-wdfobject-_wdf_obj
 ## -remarks
 Initialize this structure with a context type by calling [NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE](nf-netadapterpacket-net_packet_context_attributes_init_type.md).
 
-The minimum NetAdapterCx version for **NET_PACKET_CONTEXT_ATTRIBUTES** is 1.1.
+
 
 ## -see-also

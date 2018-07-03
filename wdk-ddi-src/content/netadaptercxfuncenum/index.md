@@ -1,12 +1,14 @@
 ---
 UID: NA:netadaptercxfuncenum
+author: windows-driver-content
 ms.assetid: 45f77219-e7e0-3bde-ae49-f590cc501716
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: netvista
 ---
 
 # Netadaptercxfuncenum.h header

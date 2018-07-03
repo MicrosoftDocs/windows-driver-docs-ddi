@@ -61,6 +61,6 @@ A pointer to the [NET_PACKET](ns-netpacket-_net_packet.md).
 Returns **TRUE** if the packet is an IPv6 packet; false otherwise.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetPacketIsIpv6** is 1.2.
+
 
 ## -see-also

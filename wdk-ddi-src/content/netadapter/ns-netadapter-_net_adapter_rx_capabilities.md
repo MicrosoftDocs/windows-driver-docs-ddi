@@ -98,7 +98,7 @@ If the client does specify driver-allocated and attached receive buffers, it mus
 
 For more information about *EvtNetAdapterReturnRxBuffer*, see the Remarks section of [**NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED**](nf-netadapter-net_adapter_rx_capabilities_init_driver_managed.md).
 
-The minimum NetAdapterCx version for **NET_ADAPTER_RX_CAPABILITIES** is 1.2.
+
 
 ## -see-also
 [NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED](nf-netadapter-net_adapter_rx_capabilities_init_driver_managed.md)

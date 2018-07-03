@@ -71,7 +71,7 @@ NetAdapterCx provides several convenient wrapper methods around **NetPacketGetEx
 | [NetPacketGetPacketLargeSendSegmentation](nf-netpacket-netpacketgetpacketlargesendsegmentation.md) | [NET_PACKET_LARGE_SEND_SEGMENTATION](ns-netpacket-_net_packet_large_send_segmentation.md)
 | [NetPacketGetPacketReceiveSegmentCoalescence](nf-netpacket-netpacketgetpacketreceivesegmentcoalescence.md) | [NET_PACKET_RECEIVE_SEGMENT_COALESCENCE](ns-netpacket-_net_packet_receive_segment_coalescence.md) |
 
-The minimum NetAdapterCx version for **NetPacketGetExtension** is 1.2.
+
 
 ## -see-also
 

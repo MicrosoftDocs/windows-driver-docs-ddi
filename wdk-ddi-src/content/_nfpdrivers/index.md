@@ -1,8 +1,9 @@
 ---
 UID: TP:nfpdrivers
+author: windows-driver-content
 ms.assetid: e2a2f925-0a75-3b74-b121-38dab2d236ad
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -11,7 +12,7 @@ ms.topic: portal
 
 # Near field communications (NFC)
 
-
+## -description
 
 Overview of the Near field communications (NFC) technology.
 
@@ -48,9 +49,9 @@ For the programming guide, see [Near field communications (NFC)](https://docs.mi
 
 | Title   | Description   |
 | ---- |:---- |
-| [EVT_NFC_CX_DEVICE_IO_CONTROL callback](..\nfccx\nc-nfccx-evt_nfc_cx_device_io_control.md) | Called by the NFC CX to send an unhandled IOCTL to the client driver. |
-| [EVT_NFC_CX_SEQUENCE_HANDLER callback](..\nfccx\nc-nfccx-evt_nfc_cx_sequence_handler.md) | Called by the NFC CX to notify the client driver to handle the specific registered sequence. |
-| [EVT_NFC_CX_WRITE_NCI_PACKET callback](..\nfccx\nc-nfccx-evt_nfc_cx_write_nci_packet.md) | Called by the NFC CX to send a write packet to the client driver. |
+| [EVT_NFC_CX_DEVICE_IO_CONTROL callback function](..\nfccx\nc-nfccx-evt_nfc_cx_device_io_control.md) | Called by the NFC CX to send an unhandled IOCTL to the client driver. |
+| [EVT_NFC_CX_SEQUENCE_HANDLER callback function](..\nfccx\nc-nfccx-evt_nfc_cx_sequence_handler.md) | Called by the NFC CX to notify the client driver to handle the specific registered sequence. |
+| [EVT_NFC_CX_WRITE_NCI_PACKET callback function](..\nfccx\nc-nfccx-evt_nfc_cx_write_nci_packet.md) | Called by the NFC CX to send a write packet to the client driver. |
 
 ## Structures
 

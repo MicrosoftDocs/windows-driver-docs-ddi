@@ -68,6 +68,10 @@ An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch m
 
 ### -param NetBufferList
 
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure for a single packet.  
+
+<div class="alert"><b>Note</b>  This structure must contain  an extensible switch forwarding context that was previously allocated by calling the <a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a> function. For more information about the extensible switch forwarding context, see <a href="https://msdn.microsoft.com/B2BF07B5-FA44-4994-9605-EFF4A0B9179F">Hyper-V Extensible Switch Forwarding Context</a>.</div>
+<div> </div>
 
 ### -param PortId [in]
 
@@ -85,12 +89,6 @@ For more information on NDIS_SWITCH_NIC_INDEX values, see <a href="https://msdn.
 <div class="alert"><b>Note</b>  This parameter must specify the index value of a network adapter that is in a connected state. Index values for network adapters that are in a created or disconnected state cannot be specified. For more information about network connection states, see <a href="https://msdn.microsoft.com/1E2075E3-D7CC-4364-ABB2-D5969DB361B5">Hyper-V Extensible Switch Port and Network Adapter States</a>.</div>
 <div> </div>
 
-#### - NetBufferLists [in, out]
-
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure for a single packet.  
-
-<div class="alert"><b>Note</b>  This structure must contain  an extensible switch forwarding context that was previously allocated by calling the <a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a> function. For more information about the extensible switch forwarding context, see <a href="https://msdn.microsoft.com/B2BF07B5-FA44-4994-9605-EFF4A0B9179F">Hyper-V Extensible Switch Forwarding Context</a>.</div>
-<div> </div>
 
 ## -returns
 

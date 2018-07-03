@@ -113,16 +113,13 @@ If the
     <i>FilterDirectOidRequestComplete</i> function to complete the OID request.
 
 If a filter driver forwarded a request that it received in the 
-    <a href="https://msdn.microsoft.com/a39f4b50-0183-4f92-82f2-3c8e2e2d0632">FilterDirectOidRequest</a> function,
-    
-    <i>FilterDirectOidRequestComplete</i> should pass the completion status up the driver stack by calling the
-    
+    <a href="https://msdn.microsoft.com/a39f4b50-0183-4f92-82f2-3c8e2e2d0632">FilterDirectOidRequest</a> function,    
+    <i>FilterDirectOidRequestComplete</i> should pass the completion status up the driver stack by calling the    
     <a href="https://msdn.microsoft.com/b6b4d4f4-63d5-496c-9082-f2e8d1a174ec">
     NdisFDirectOidRequestComplete</a> function. In this case, the filter driver must call 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561845">NdisFreeCloneOidRequest</a>, to free
     the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure, before it calls
-    
+    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure, before it calls    
     <b>NdisFDirectOidRequestComplete</b>.
 
 A filter driver should keep track of requests that it originates and ensure that it does not call 

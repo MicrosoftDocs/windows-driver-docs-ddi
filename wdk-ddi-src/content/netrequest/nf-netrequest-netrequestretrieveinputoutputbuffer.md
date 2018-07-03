@@ -76,6 +76,6 @@ Address to a location that receives the actual output length of *InputOutputBuff
 The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
 
 ## -remarks
-The minimum NetAdapterCx version for **NetRequestRetrieveInputOutputBuffer** is 1.0.
+
 
 ## -see-also

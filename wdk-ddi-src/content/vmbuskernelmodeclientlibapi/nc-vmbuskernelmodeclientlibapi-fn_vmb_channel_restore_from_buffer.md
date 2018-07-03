@@ -1,0 +1,145 @@
+---
+UID: NC:vmbuskernelmodeclientlibapi.FN_VMB_CHANNEL_RESTORE_FROM_BUFFER
+title: FN_VMB_CHANNEL_RESTORE_FROM_BUFFER
+author: windows-driver-content
+description: The VmbChannelRestoreFromBuffer function restores the client state from previously saved state. The driver must check the return value of the function.
+ms.assetid: f555fb01-73c9-449e-88f0-24480e44f86b
+ms.author: windowsdriverdev
+ms.date: 05/21/2018
+ms.topic: callback
+ms.prod: windows-hardware
+ms.technology: windows-devices
+req.header: vmbuskernelmodeclientlibapi.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt: Windows 10, version 1803
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.lib:
+req.dll:
+req.irql: 
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library: 
+topic_type: 
+-	apiref
+api_type: 
+-	UserDefined
+api_location: 
+-	vmbuskernelmodeclientlibapi.h
+api_name: 
+-	FN_VMB_CHANNEL_RESTORE_FROM_BUFFER
+product: Windows
+targetos: Windows
+---
+
+# FN_VMB_CHANNEL_RESTORE_FROM_BUFFER callback function
+
+## -description
+
+<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+The <b>VmbChannelRestoreFromBuffer</b>  function restores the client state from previously saved state.
+The driver must check the return value of the function.
+
+## -prototype
+
+```
+//Declaration
+
+FN_VMB_CHANNEL_RESTORE_FROM_BUFFER FnVmbChannelRestoreFromBuffer; 
+
+// Definition
+
+NTSTATUS FnVmbChannelRestoreFromBuffer 
+(
+	VMBCHANNEL Channel
+	PVOID Buffer
+	ULONG BufferSize
+)
+{...}
+
+```
+
+## -parameters
+
+### -param Channel
+
+ A handle for a channel.
+
+### -param Buffer
+
+A pointer to a buffer that contains previously saved state.
+
+### -param BufferSize 
+
+The size, in bytes, of the buffer.
+
+## -returns
+
+<b>VmbChannelRestoreFromBuffer</b> returns one of the following status values: 
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_SUCCESS</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function finished successfully.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>STATUS_MORE_PROCESSING_REQUIRED</b></dt>
+</dl>
+</td>
+<td width="60%">
+State was restored successfully,     but more chunks were saved.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>Other status code for which NT_SUCCESS is FALSE</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function failed.
+
+</td>
+</tr>
+</table>
+
+## -remarks
+
+The caller is expected to call this function with buffers that contain whole
+"chunks" of stored data.
+
+> [!IMPORTANT]
+> This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. 
+>
+> To access the KMCL interface, allocate a **KMCL_CLIENT_INTERFACE_V1** structure to receive the interface, then call either [**WdfFdoQueryForInterface**](../wdffdo/nf-wdffdo-wdffdoqueryforinterface.md) or [**WdfIoTargetQueryForInterface**](../wdfiotarget/nf-wdfiotarget-wdfiotargetqueryforinterface.md) with these parameters:
+> 
+> - *InterfaceType* parameter: **KMCL_CLIENT_INTERFACE_TYPE**
+> - *Size* parameter: `sizeof(KMCL_CLIENT_INTERFACE_V1)`
+> - *Version* parameter: **KMCL_CLIENT_INTERFACE_VERSION_LATEST** 
+>
+> If the interface query function succeeds, the **KMCL_CLIENT_INTERFACE_V1** structure contains function pointers for the VMBus KMCL functions that you can use to call them.
+>
+> For more information about driver-defined interfaces, see [Using Driver-Defined Interfaces](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-driver-defined-interfaces).
+
+## -see-also

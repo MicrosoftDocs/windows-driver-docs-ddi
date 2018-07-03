@@ -72,7 +72,7 @@ A handle to a framework memory object.
 
 ### -param Offsets [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561398">WDFMEMORY_OFFSET</a> structure. This parameter is optional and can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/Ff548718">WDFMEMORY_OFFSET</a> structure. This parameter is optional and can be <b>NULL</b>.
 
 
 ## -returns
@@ -147,7 +147,7 @@ status = WdfUsbTargetDeviceSendControlTransferSynchronously(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561398">WDFMEMORY_OFFSET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/Ff548718">WDFMEMORY_OFFSET</a>
 
 
 

@@ -60,61 +60,41 @@ The <b>FWPS_STREAM_DATA0</b> structure describes a portion of a data stream.
 
 ### -field flags
 
-A variable containing flags that specify the characteristics of the data stream.
-     
+<p>A variable containing flags that specify the characteristics of the data stream.</p>
 
-For inbound data streams, this can be one or more of the following flags:
-
-
-
-
+<p>For inbound data streams, this can be one or more of the following flags:</p>
 
 #### FWPS_STREAM_FLAG_RECEIVE
 
 Specifies that the stream is an inbound data stream. This flag is always set for inbound data
        streams.
 
-
-
 #### FWPS_STREAM_FLAG_RECEIVE_EXPEDITED
 
 Specifies that the inbound data stream contains high-priority out-of-band data.
-
-
 
 #### FWPS_STREAM_FLAG_RECEIVE_DISCONNECT
 
 Specifies that the inbound data has arrived with the FIN flag set in the TCP header. This
        indicates that the sender has disconnected the stream.
 
-
-
 #### FWPS_STREAM_FLAG_RECEIVE_ABORT
 
 Specifies that the inbound data has arrived with the RST flag set in the TCP header. This
-       indicates that the sender has reset the stream.
-       
+       indicates that the sender has reset the stream.       
 
 <div class="alert"><b>Note</b>  This flag is not implemented in Windows Vista.</div>
-<div> </div>
-For outbound data streams, this can be one or more of the following flags:
 
-
-
-
+<p>For outbound data streams, this can be one or more of the following flags:</p>
 
 #### FWPS_STREAM_FLAG_SEND
 
 Specifies that the stream is an outbound data stream. This flag is always set for outbound data
        streams.
 
-
-
 #### FWPS_STREAM_FLAG_SEND_EXPEDITED
 
 Specifies that the outbound data stream contains high-priority out-of-band data.
-
-
 
 #### FWPS_STREAM_FLAG_SEND_NODELAY
 
@@ -122,15 +102,11 @@ Specifies that the sending client requests that the outbound data stream is not 
        If this flag is set, a callout driver should not hold onto the stream buffer any longer than
        necessary.
 
-
-
 #### FWPS_STREAM_FLAG_SEND_DISCONNECT
 
 Specifies that the stream is to be disconnected after the data in the outbound data stream has
        been sent. The network stack will set the FIN flag in the TCP header of the last packet that is sent
        out.
-
-
 
 #### FWPS_STREAM_FLAG_SEND_ABORT
 
@@ -138,11 +114,9 @@ Specifies that the stream is to be reset after the data in the outbound data str
        sent. The network stack will set the RST flag in the TCP header of the last packet that is sent out.
        Callout drivers must not call the 
        <a href="https://msdn.microsoft.com/library/windows/hardware/ff551213">FwpsStreamInjectAsync0</a> function
-       to inject data into the stream if this flag is set.
-       
+       to inject data into the stream if this flag is set.       
 
 <div class="alert"><b>Note</b>  This flag is not implemented in Windows Vista.</div>
-<div> </div>
 
 ### -field dataOffset
 

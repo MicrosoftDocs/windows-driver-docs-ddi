@@ -60,100 +60,38 @@ The <b>InitializeObjectAttributes</b> macro initializes the opaque <a href="http
 
 ### -param p
 
-TBD
+Specifies the OBJECT_ATTRIBUTES structure to initialize.
 
 
 ### -param n
 
-TBD
+A pointer to a Unicode string that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the RootDirectory parameter.
 
 
 ### -param a
 
-TBD
+
+Specifies one or more of the following flags:
+
+|Flag|Description|
+|---|---|
+|OBJ_INHERIT |This handle can be inherited by child processes of the current process.|
+|OBJ_PERMANENT|This flag only applies to objects that are named within the object manager. By default, such objects are deleted when all open handles to them are closed. If this flag is specified, the object is not deleted when all open handles are closed. Drivers can use ZwMakeTemporaryObject to delete permanent objects.|
+|OBJ_EXCLUSIVE|Only a single handle can be open for this object.|
+|OBJ_CASE_INSENSITIVE|If this flag is specified, a case-insensitive comparison is used when matching the ObjectName parameter against the names of existing objects. Otherwise, object names are compared using the default system settings.|
+|OBJ_OPENIF|If this flag is specified to a routine that creates objects, and that object already exists then the routine should open that object. Otherwise, the routine creating the object returns an NTSTATUS code of STATUS_OBJECT_NAME_COLLISION.|
+|OBJ_KERNEL_HANDLE|Specifies that the handle can only be accessed in kernel mode.|
+|OBJ_FORCE_ACCESS_CHECK | The routine opening the handle should enforce all access checks for the object, even if the handle is being opened in kernel mode.|
 
 
 ### -param r
 
-TBD
+A handle to the root object directory for the path name specified in the ObjectName parameter. If ObjectName is a fully qualified object name, RootDirectory is NULL. Use [**ZwCreateDirectoryObject**](../wdm/nf-wdm-zwcreatedirectoryobject.md) to obtain a handle to an object directory.
 
 
 ### -param s
 
-TBD
-
-
-
-
-
-
-#### - Attributes [in]
-
-Specifies one or more of the following flags:
-
-
-
-
-
-#### OBJ_INHERIT
-
-This handle can be inherited by child processes of the current process.
-
-
-
-#### OBJ_PERMANENT
-
-This flag only applies to objects that are named within the object manager. By default, such objects are deleted when all open handles to them are closed. If this flag is specified, the object is not deleted when all open handles are closed. Drivers can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff566477">ZwMakeTemporaryObject</a> to delete permanent objects.
-
-
-
-#### OBJ_EXCLUSIVE
-
-Only a single handle can be open for this object.
-
-
-
-#### OBJ_CASE_INSENSITIVE
-
-If this flag is specified, a case-insensitive comparison is used when matching the <i>ObjectName</i> parameter against the names of existing objects. Otherwise, object names are compared using the default system settings.
-
-
-
-#### OBJ_OPENIF
-
-If this flag is specified to a routine that creates objects, and that object already exists then the routine should open that object. Otherwise, the routine creating the object returns an NTSTATUS code of STATUS_OBJECT_NAME_COLLISION.
-
-
-
-#### OBJ_KERNEL_HANDLE
-
-Specifies that the handle can only be accessed in kernel mode.
-
-
-
-#### OBJ_FORCE_ACCESS_CHECK
-
-The routine opening the handle should enforce all access checks for the object, even if the handle is being opened in kernel mode.
-
-
-#### - InitializedAttributes [out]
-
-Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557749">OBJECT_ATTRIBUTES</a> structure to initialize.
-
-
-#### - ObjectName [in]
-
-A pointer to a <a href="https://msdn.microsoft.com/b02f29a9-1049-4e29-aac3-72bf0c70a21e">Unicode string</a> that contains name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the <i>RootDirectory</i> parameter.
-
-
-#### - RootDirectory [in]
-
-A handle to the root object directory for the path name specified in the <i>ObjectName</i> parameter. If <i>ObjectName</i> is a fully qualified object name, <i>RootDirectory</i> is <b>NULL</b>. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff566421">ZwCreateDirectoryObject</a> to obtain a handle to an object directory.
-
-
-#### - SecurityDescriptor [in, optional]
-
-Specifies a security descriptor to apply to an object when it is created. This parameter is optional. Drivers can specify <b>NULL</b> to accept the default security for the object. For more information, see the following Remarks section.
+Specifies a security descriptor to apply to an object when it is created. This parameter is optional. Drivers can specify NULL to accept the default security for the object. For more information, see the following Remarks section.
 
 
 ## -remarks

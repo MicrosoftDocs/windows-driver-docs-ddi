@@ -1,12 +1,14 @@
 ---
 UID: NA:scavengr
+author: windows-driver-content
 ms.assetid: 773626f3-b745-3356-92cd-f15505c3683c
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: ifsk
 ---
 
 # Scavengr.h header

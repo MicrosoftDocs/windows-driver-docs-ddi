@@ -75,7 +75,7 @@ The heap supports resources allocated for buffers.
 
 ### -field D3D12DDI_HEAP_FLAG_COHERENT_SYSTEMWIDE
 
-The heap supports resources allocated for coherent systemwide.
+The heap supports resources allocated for coherent system wide.
 
 
 ### -field D3D12DDI_HEAP_FLAG_PRIMARY

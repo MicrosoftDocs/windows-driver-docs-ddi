@@ -62,7 +62,7 @@ This request notifies the caller of change in transport characteristics.
 
 
 
-<text></text>
+
 
 
 
@@ -71,7 +71,7 @@ This request notifies the caller of change in transport characteristics.
 
 
 
-<text></text>
+
 
 
 
@@ -80,7 +80,7 @@ This request notifies the caller of change in transport characteristics.
 
 
 
-<text></text>
+
 
 
 
@@ -89,7 +89,7 @@ This request notifies the caller of change in transport characteristics.
 
 
 
-<text></text>
+
 
 
 

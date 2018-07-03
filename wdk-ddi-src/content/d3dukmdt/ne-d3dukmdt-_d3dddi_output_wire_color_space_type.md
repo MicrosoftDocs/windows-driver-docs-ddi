@@ -42,16 +42,29 @@ Specifies the final wire signaling colorspace values.
 
 ### -field D3DDDI_OUTPUT_WIRE_COLOR_SPACE_G22_P709
 
+See [D3DDDI_COLOR_SPACE_TYPE](ne-d3dukmdt-d3dddi_color_space_type.md).
+
 ### -field D3DDDI_OUTPUT_WIRE_COLOR_SPACE_RESERVED
+
+Reserved.
 
 ### -field D3DDDI_OUTPUT_WIRE_COLOR_SPACE_G2084_P2020
 
+See [D3DDDI_COLOR_SPACE_TYPE](ne-d3dukmdt-d3dddi_color_space_type.md).
+
 ### -field D3DDDI_OUTPUT_WIRE_COLOR_SPACE_G22_P709_WCG
 
+This enum value starts at 30, so as not to be confused with the existing [D3DDDI_COLOR_SPACE_TYPE](ne-d3dukmdt-d3dddi_color_space_type.md).
 ### -field D3DDDI_OUTPUT_WIRE_COLOR_SPACE_G22_P2020
+
+Used by the OS only, graphics drivers should not expect this value.
 
 ### -field D3DDDI_OUTPUT_WIRE_COLOR_SPACE_G2084_P2020_HDR10PLUS
 
+Used by the OS only, graphics drivers should not expect this value.
+
 ## -remarks
 
-## -see-also
+>[!NOTE]
+> This enum is intended to specify the final wire signaling colorspace values. Do not mix it with the enum values defined in [D3DDDI_COLOR_SPACE_TYPE](ne-d3dukmdt-d3dddi_color_space_type.md), which are used to specify input colorspace for MPOs and other surfaces.
+

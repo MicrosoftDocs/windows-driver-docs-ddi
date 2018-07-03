@@ -59,19 +59,14 @@ The <b>ExReleaseResourceForThreadLite</b> routine releases the input resource of
 
 
 
-### -param param
+### -param param [in, out]
 
-TBD
+A pointer to the resource to release.
 
 
 ### -param ResourceThreadId [in]
 
 Identifies the thread that originally acquired the resource. If this is not the currently executing thread, the caller must have transferred ownership of the resource by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545606">ExSetResourceOwnerPointerEx</a> routine first on the thread that originally acquired the resource.
-
-
-#### - Resource [in, out]
-
-A pointer to the resource to release.
 
 
 ## -returns

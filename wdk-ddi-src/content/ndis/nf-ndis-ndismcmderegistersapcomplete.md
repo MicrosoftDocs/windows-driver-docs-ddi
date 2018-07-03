@@ -61,27 +61,12 @@ req.typenames:
 
 ### -param _S_
 
-TBD
+Specifies NDIS_STATUS_SUCCESS.
 
 
 ### -param _H_
 
-TBD
-
-
-
-
-
-
-#### - NdisSapHandle [in]
-
 Specifies the handle identifying the SAP.
-
-
-#### - Status [in]
-
-Specifies NDIS_STATUS_SUCCESS.
-
 
 ## -remarks
 

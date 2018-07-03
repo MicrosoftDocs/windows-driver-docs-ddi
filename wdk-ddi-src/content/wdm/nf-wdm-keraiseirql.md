@@ -51,7 +51,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeRaiseIrql</b> routine raises the hardware priority to the specified IRQL value, thereby masking off interrupts of equivalent or lower IRQL on the current processor.
+The <b>KeRaiseIrql</b> routine raises the hardware priority to the specified IRQL value, thereby masking off interrupts of equivalent or lower IRQL on the current processor. For information about IRQLs, see [Managing Hardware Priorities](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/managing-hardware-priorities).
 
 
 ## -parameters
@@ -59,28 +59,15 @@ The <b>KeRaiseIrql</b> routine raises the hardware priority to the specified IRQ
 
 
 
-### -param a
-
-TBD
-
-
-### -param b
-
-TBD
-
-
-
-
-
-
-#### - NewIrql [in]
+### -param a [in]
 
 Specifies the new IRQL to which the hardware priority is to be raised.
 
 
-#### - OldIrql [out]
+### -param b [out]
 
 Pointer to the storage for the original (unraised) IRQL value to be used in a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a>.
+
 
 
 ## -remarks

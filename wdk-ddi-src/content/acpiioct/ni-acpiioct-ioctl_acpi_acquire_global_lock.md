@@ -62,7 +62,7 @@ The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for intern
 
 
 
-<text></text>
+
 
 
 
@@ -71,7 +71,7 @@ The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for intern
 
 
 
-<text></text>
+
 
 
 
@@ -80,7 +80,7 @@ The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for intern
 
 
 
-<text></text>
+
 
 
 
@@ -89,7 +89,7 @@ The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for intern
 
 
 
-<text></text>
+
 
 
 
@@ -98,7 +98,7 @@ The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for intern
 
 
 
-<text></text>
+
 
 
 
@@ -107,7 +107,7 @@ The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for intern
 
 
 
-<text></text>
+
 
 
 

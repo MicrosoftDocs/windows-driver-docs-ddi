@@ -1,12 +1,14 @@
 ---
 UID: NA:gpioclx
+author: windows-driver-content
 ms.assetid: 3adddb79-a9ea-349e-8ec7-150a8cd8b0e0
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: gpio
 ---
 
 # Gpioclx.h header

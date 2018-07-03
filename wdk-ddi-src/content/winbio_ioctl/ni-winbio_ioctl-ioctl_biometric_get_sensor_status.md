@@ -84,7 +84,7 @@ The vendor-supplied driver can optionally return a DWORD-sized buffer that speci
 
 
 
-<text></text>
+
 
 
 
@@ -93,7 +93,7 @@ The vendor-supplied driver can optionally return a DWORD-sized buffer that speci
 
 
 
-<text></text>
+
 
 
 

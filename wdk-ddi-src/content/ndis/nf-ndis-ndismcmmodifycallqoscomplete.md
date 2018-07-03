@@ -61,32 +61,10 @@ req.typenames:
 
 ### -param _S_
 
-TBD
-
-
+Specifies the final status of the client's request to modify the QoS on this VC, either
+     NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
+     
 ### -param _H_
-
-TBD
-
-
-### -param _P_
-
-TBD
-
-
-
-
-
-
-#### - CallParameters [in]
-
-Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> specifying a QoS
-     acceptable to the MCM driver if 
-     <i>Status</i> is set to NDIS_STATUS_SUCCESS.
-
-
-#### - NdisVcHandle [in]
 
 Specifies the handle to the VC, obtained from the per-VC state designated by the 
      <i>CallMgrVcContext</i> passed in to the MCM driver's 
@@ -94,10 +72,12 @@ Specifies the handle to the VC, obtained from the per-VC state designated by the
      ProtocolCmModifyCallQoS</a> function for this request.
 
 
-#### - Status [in]
+### -param _P_
 
-Specifies the final status of the client's request to modify the QoS on this VC, either
-     NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
+Pointer to a structure of type 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> specifying a QoS
+     acceptable to the MCM driver if 
+     <i>Status</i> is set to NDIS_STATUS_SUCCESS.
 
 
 ## -remarks

@@ -1,12 +1,14 @@
 ---
 UID: NA:ursfuncenum
+author: windows-driver-content
 ms.assetid: 5e19e699-cac1-3a13-9484-6f3ffa8db2f1
 ms.author: windowsdriverdev
-ms.date: 05/01/18
+ms.date: 05/09/18
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+tech.root: usbref
 ---
 
 # Ursfuncenum.h header

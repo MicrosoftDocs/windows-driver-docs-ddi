@@ -72,7 +72,7 @@ Sets the procotol the driver communicates to the smart card with after the card 
 
 
 
-<text></text>
+
 
 
 
@@ -86,7 +86,7 @@ Sets the procotol the driver communicates to the smart card with after the card 
 
 
 
-<text></text>
+
 
 
 
@@ -95,7 +95,7 @@ Sets the procotol the driver communicates to the smart card with after the card 
 
 
 
-<text></text>
+
 
 
 
@@ -104,7 +104,7 @@ Sets the procotol the driver communicates to the smart card with after the card 
 
 
 
-<text></text>
+
 
 
 

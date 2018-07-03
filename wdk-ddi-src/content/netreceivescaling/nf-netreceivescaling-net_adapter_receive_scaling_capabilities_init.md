@@ -84,7 +84,7 @@ This method does not return a value.
 ## -remarks
 The [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure is an input parameter to [NetAdapterSetReceiveScalingCapabilities](nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md). The client must use **NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT** to initialize this structure before calling **NetAdapterSetReceiveScalingCapabilities**.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT** is 1.2.
+
 
 ## -see-also
 [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md)

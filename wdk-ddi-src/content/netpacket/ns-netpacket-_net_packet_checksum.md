@@ -93,6 +93,6 @@ In a receive queue, the client converts its hardware packet descriptors' receive
 
 The client driver must use NDIS functionality to enable checksum offloads. For more information, see [NDIS_TCP_IP_CHECKSUM_OFFLOAD](../ntddndis/ns-ntddndis-_ndis_tcp_ip_checksum_offload.md).
 
-The minimum NetAdapterCx version for **NET_PACKET_CHECKSUM** is 1.0.
+
 
 ## -see-also

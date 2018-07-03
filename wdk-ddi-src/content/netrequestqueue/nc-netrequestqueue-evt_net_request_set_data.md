@@ -96,6 +96,6 @@ To register an *EVT_NET_REQUEST_SET_DATA* callback function, the client driver c
 
 Your client driver can provide one or more specialized handlers for specific OID set requests. In addition, it can also provide a generic *[EVT_NET_REQUEST_DEFAULT_SET_DATA](nc-netrequestqueue-evt_net_request_default_set_data.md)* callback function.
 
-The minimum NetAdapterCx version for *EVT_NET_REQUEST_SET_DATA* is 1.0.
+
 
 ## -see-also

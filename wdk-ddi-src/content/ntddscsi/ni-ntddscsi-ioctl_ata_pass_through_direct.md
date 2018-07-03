@@ -105,7 +105,7 @@ The port driver updates the <b>DataTransferLength</b> member of the <a href="htt
 
 
 
-<text></text>
+
 
 
 
@@ -114,7 +114,7 @@ The port driver updates the <b>DataTransferLength</b> member of the <a href="htt
 
 
 
-<text></text>
+
 
 
 

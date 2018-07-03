@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>MmSecureVirtualMemory</b> routine secures a user-space memory address range so that it cannot be freed and its protection type cannot be made more restrictive.
+The <b>MmSecureVirtualMemory</b> routine secures a user-space memory address range so that it cannot be freed and its page protection cannot be made more restrictive.
 
 
 ## -parameters
@@ -70,7 +70,13 @@ The size, in bytes, of the virtual address range to secure.
 
 ### -param ProbeMode [in]
 
-The most restrictive protection type that is allowed. Use PAGE_READWRITE to specify that address range must remain both readable and writable, or use PAGE_READONLY to specify the address range must only remain readable.
+The most restrictive page protection that is allowed. Use PAGE_READWRITE to specify that the address range must remain both readable and writable, or use PAGE_READONLY to specify that the address range must only remain readable.
+
+<table>
+<tr><th>ProbeMode</th><th>Meaning</th></tr>
+<tr><td>PAGE_READWRITE</td><td>Protection cannot be changed to PAGE_NOACCESS or PAGE_READONLY. All other protection changes are allowed.</td></tr>
+<tr><td>PAGE_READONLY</td><td>Protection cannot be changed to PAGE_NOACCESS. All other protection changes are allowed.</td></tr>
+</table>
 
 
 ## -returns
@@ -85,8 +91,10 @@ On success, <b>MmSecureVirtualMemory</b> returns an opaque pointer value that th
 ## -remarks
 
 
-
-<b>MmSecureVirtualMemory</b> can be used to avoid certain race conditions on user-mode buffers. For example, if a driver checks to see if the buffer is writable, but then the originating user-mode process changes the buffer to be read-only before the driver can write to the buffer, then a race condition can result. A driver that uses <b>MmSecureVirtualMemory</b> is guaranteed that if the requested protection mode is available, it cannot be changed until the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556395">MmUnsecureVirtualMemory</a>. The routine also protects against the originating user-mode process freeing the buffer. Here are a few guidelines about calling those routines:<ul>
+<b>MmSecureVirtualMemory</b> can be used to avoid certain race conditions on user-mode buffers. For example, if a driver checks to see if the buffer is writable, but then the originating user-mode process changes the buffer to be read-only before the driver can write to the buffer, then a race condition can result. The driver can use <b>MmSecureVirtualMemory</b> with PAGE_READWRITE probe mode to guarantee that the buffer will remain writable until the driver calls <b><a href="https://msdn.microsoft.com/library/windows/hardware/ff556395">MmUnsecureVirtualMemory</a></b>. The routine also protects against the originating user-mode process freeing the buffer. Here are a few guidelines about calling these routines:<ul>
+<li>
+Calling <b>MmSecureVirtualMemory</b> with PAGE_READONLY does not guarantee that the buffer will remain read-only. The read-only probe mode prevents the user from changing the protection of the buffer to PAGE_NOACCESS. It does <i>not</i> prevent changing the protection to PAGE_READWRITE (or PAGE_WRITECOPY, for mapped views).
+</li>
 <li>
 If a driver calls <b>MmSecureVirtualMemory</b> and does not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff556395">MmUnsecureVirtualMemory</a>, the memory is automatically unsecured when the process terminates.
 
@@ -106,7 +114,7 @@ To detect process termination drivers can use <a href="https://msdn.microsoft.co
 </ul>
 
 
-While calling <b>MmSecureVirtualMemory</b> on an address range prevents the address range from being freed or from having its protection changed, it does not protect against other types of raised exceptions. (For example, it does not protect against an exception raised when the system finds a bad disk block in the page file.)  Therefore, drivers must still wrap any memory accesses in a <b>try/except</b> block. Therefore, we recommend that drivers do not use this function. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546823">Handling Exceptions</a>. 
+While <b>MmSecureVirtualMemory</b> can be used to guarantee that reading or writing user memory will not raise an exception due to insufficient page permissions, it does not protect against other types of exceptions. For example, it does not protect against exceptions raised when the system finds a bad disk block in the page file. Therefore, drivers must still wrap all user memory accesses in a <b>try/except</b> block. Because of this, we recommend that drivers do not use this function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-exceptions">Handling Exceptions</a>. 
 
 
 

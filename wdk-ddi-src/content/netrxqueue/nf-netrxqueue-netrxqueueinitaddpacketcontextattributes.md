@@ -67,6 +67,6 @@ If the operation is successful, this method returns STATUS_SUCCESS. Otherwise, a
 ## -remarks
 The **NETRXQUEUE_INIT** structure is an opaque structure that is defined and allocated by NetAdapterCx, similar to **WDFDEVICE_INIT**. The client driver receives a pointer to the **NETRXQUEUE_INIT** object in its  *[EVT_NET_ADAPTER_CREATE_RXQUEUE](../netadapter/nc-netadapter-evt_net_adapter_create_rxqueue.md)* callback function, where this method is called to add context attributes to the queue for each packet context context the driver has created.
 
-The minimum NetAdapterCx version for **NetRxQueueInitAddPacketContextAttributes** is 1.1.
+
 
 ## -see-also

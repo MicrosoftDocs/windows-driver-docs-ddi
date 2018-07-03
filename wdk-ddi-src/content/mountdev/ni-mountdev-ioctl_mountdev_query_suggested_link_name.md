@@ -64,7 +64,7 @@ Drive letter names must include the full path of the symbolic link in object nam
 
 
 
-<text></text>
+
 
 
 
@@ -73,7 +73,7 @@ Drive letter names must include the full path of the symbolic link in object nam
 
 
 
-<text></text>
+
 
 
 
@@ -92,7 +92,7 @@ The client driver must place a variable-length structure of type <a href="https:
 
 
 
-<text></text>
+
 
 
 
@@ -101,7 +101,7 @@ The client driver must place a variable-length structure of type <a href="https:
 
 
 
-<text></text>
+
 
 
 
@@ -113,6 +113,11 @@ If the operation is successful, the <b>Information</b> field is set to the total
 If <b>OutputBufferLength</b> is less than <b>sizeof</b>(MOUNTDEV_SUGGESTED_LINK_NAME), the <b>Status</b> field is set to STATUS_INVALID_PARAMETER.
 
 If <b>OutputBufferLength</b> is less than the total length of output data, the <b>Status</b> field is set to STATUS_BUFFER_OVERFLOW and the <b>Information</b> field is set to <b>sizeof</b>(MOUNTDEV_SUGGESTED_LINK_NAME). 
+
+
+## -remarks
+
+The implementer of this function must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls. 
 
 
 ## -see-also

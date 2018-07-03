@@ -83,7 +83,7 @@ The client driver passes an initialized **NET_ADAPTER_LINK_LAYER_CAPABILITIES** 
 
 For info about the data path, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).
 
-The minimum NetAdapterCx version for **NET_PACKET_FILTER_TYPES_FLAGS** is 1.0.
+
 
 ## -see-also
 

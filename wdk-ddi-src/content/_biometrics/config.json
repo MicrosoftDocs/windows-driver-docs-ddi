@@ -1,0 +1,7 @@
+{
+  "tech": "biometrics",
+  "headers": [
+    "winbio_ioctl.h",
+    "winbio_types.h"
+  ]
+}

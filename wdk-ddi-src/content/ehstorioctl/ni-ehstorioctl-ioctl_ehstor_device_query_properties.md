@@ -108,7 +108,7 @@ an  <b>EHSTOR_DEVICE_PROPERTIES</b>  structure.
 
 
 
-<text></text>
+
 
 
 
@@ -117,7 +117,7 @@ an  <b>EHSTOR_DEVICE_PROPERTIES</b>  structure.
 
 
 
-<text></text>
+
 
 
 

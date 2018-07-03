@@ -65,15 +65,11 @@ A pointer to an NDK completion queue (CQ) object  (<a href="https://msdn.microso
 
 ### -param Results[]
 
+An array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn265509">NDK_RESULT_EX</a> structures that will be filled with completion results that were removed from the CQ.
 
 ### -param nResults [in]
 
 The size, in elements, of the <i>Results</i> array. That is, the maximum number of completions to remove from the CQ.
-
-
-#### - Results
-
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn265509">NDK_RESULT_EX</a> structures that will be filled with completion results that were removed from the CQ.
 
 
 ## -returns

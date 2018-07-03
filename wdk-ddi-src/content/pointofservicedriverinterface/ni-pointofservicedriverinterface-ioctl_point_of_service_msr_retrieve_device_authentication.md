@@ -82,7 +82,7 @@ Size of the output buffer, in bytes. Set to sizeof(<b>MSR_RETRIEVE_DEVICE_AUTHEN
 
 
 
-<text></text>
+
 
 
 
@@ -91,7 +91,7 @@ Size of the output buffer, in bytes. Set to sizeof(<b>MSR_RETRIEVE_DEVICE_AUTHEN
 
 
 
-<text></text>
+
 
 
 

@@ -72,18 +72,10 @@ An NDIS handle which NDIS provided at the
 
 ### -param NetPnPEventNotification
 
-TBD
-
-
-
-
-#### - NetPnPEvent [in]
-
 A pointer to a 
      <a href="https://msdn.microsoft.com/58d3baf3-a1fa-42ae-b795-2774a148aeda">
      NET_PNP_EVENT_NOTIFICATION</a> structure, which describes the network Plug and Play event, NDIS PnP
      event, or Power Management event.
-
 
 ## -returns
 
