@@ -30,16 +30,16 @@ req.lib:
 req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+-	 HeaderDef
 api_location:
--	d3dkmddi.h
+-	 d3dkmddi.h
 api_name:
--	DXGK_QUERYADAPTERINFOTYPE
+-	 DXGK_QUERYADAPTERINFOTYPE
 product:
--Windows
+- Windows
 targetos: Windows
 req.typenames: DXGK_QUERYADAPTERINFOTYPE
 ---
