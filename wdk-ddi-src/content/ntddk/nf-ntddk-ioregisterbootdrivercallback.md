@@ -108,14 +108,10 @@ The boot-start callback parameters are as follows:
 
 <b>Return Value</b>
 
-If the <b>BOOT_DRIVER_CALLBACK_FUNCTION</b> routine returns STATUS_SUCCESS, the boot-start driver was able to perform all necessary actions in response to the specific callback.
-
-Any error returned from a status update callback is treated as fatal and leads to a system bug check.
-
-If an initialize image callback returns an error,  the driver's image is treated as unknown.
+None.
 
 <b>Remarks</b>
-
+Any error returned from a status update callback is treated as fatal and leads to a system bug check. Additionally, if an initialize image callback returns an error, the driver's image is treated as unknown.
 To be notified of boot-start driver initialization operations, an <i>early launch anti-malware</i> (ELAM) driver can call <b>IoRegisterBootDriverCallback</b> to register a <b>BOOT_DRIVER_CALLBACK_FUNCTION</b>  routine.
 
 
