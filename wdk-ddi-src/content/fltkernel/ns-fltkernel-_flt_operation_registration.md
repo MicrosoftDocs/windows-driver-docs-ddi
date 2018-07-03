@@ -102,9 +102,10 @@ FLTFL_OPERATION_REGISTRATION_SKIP_NON_DASD_IO
 A minifilter sets this flag so that all operations that are not issued on a DASD (volume) handle will be skipped:
 
 Note the following:
-
-    * The minifilter's callback for this operation will be bypassed.
-    * This flag is relevant for all operations.
+<ul>
+    <li> The minifilter's callback for this operation will be bypassed.</li>
+    <li> This flag is relevant for all operations.</li>
+</ul>
 </td>
 </tr>
 

@@ -15,7 +15,7 @@ ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
-req.target-min-winverclnt: This structure is available starting with Windows 8.
+req.target-min-winverclnt: This structure is available starting with Windows 7.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
