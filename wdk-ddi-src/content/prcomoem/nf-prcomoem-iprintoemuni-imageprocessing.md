@@ -7,7 +7,7 @@ old-location: print\iprintoemuni_imageprocessing.htm
 old-project: print
 ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.date: 07/03/2018
 ms.keywords: IPrintOemUni interface [Print Devices],ImageProcessing method, IPrintOemUni.ImageProcessing, IPrintOemUni::ImageProcessing, ImageProcessing, ImageProcessing method [Print Devices], ImageProcessing method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::ImageProcessing, print.iprintoemuni_imageprocessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -224,11 +224,12 @@ Color data is in PRIMARY_ORDER_CBA format, as explained in the description of th
 
 </li>
 </ul>
+<br>
 <img alt="PRIMARY_ORDER_CBA Format" src="images/bitmap.png"/>
+<br>
 The preceding figure depicts color data in PRIMARY_ORDER_CBA format for two pixels, with 24 bits of color data per pixel. Moving from low memory addresses to high memory addresses, there are eight bits of blue data, then eight bits of green data, and then eight bits of red data, after which the pattern repeats. This is also known as BGR device output order. 
-
+<br>
 For halftoning operations, in which a processed bitmap is returned to Unidrv, the returned bitmap must have the following characteristics:
-
 <ul>
 <li>
 DIB contents must be top-down ordered and uncompressed.
