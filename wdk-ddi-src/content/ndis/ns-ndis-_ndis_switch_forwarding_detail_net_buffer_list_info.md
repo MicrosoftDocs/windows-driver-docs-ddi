@@ -141,7 +141,9 @@ The <b>NumAvailableDestinations</b> member of the <b>NDIS_SWITCH_FORWARDING_DETA
 
 The <b>NativeForwardingRequired</b> member specifies whether the packet is an NVGRE packet or not. If it is <b>TRUE</b>, the packet is an NVGRE packet, and the forwarding extension doesn't determine the packet's forwarding destination port array, although it can add or exclude destination ports in the array. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/hybrid-forwarding">Hybrid Forwarding</a>.
 
-The <b>SafePacketDataSize</b> member specifies the size of the packet data that is located in local, or <i>trusted</i>, memory in the parent operating system of the Hyper-V parent partition. This memory is not accessible by the child partition. Therefore, it  is considered "safe" from unsynchronized updates by the guest operating system that runs in that partition. 
+The **IsPacketDataUncached** flag can help extensible switch extensions determine if part or all of the packet data is cached or not. If this flag is set, part or all of the data is not cached, and the **IsSafePacketDataUncached** flag tells the extension whether the SafePacketData part is cached. If **IsSafePacketDataUncached** flag is set, then the **SafePacketDataSize** member specifies how many bytes are cached.
+
+<b>SafePacketDataSize</b> specifies the size of the packet data that is located in local, or <i>trusted</i>, memory in the parent operating system of the Hyper-V parent partition. This memory is not accessible by the child partition. Therefore, it  is considered "safe" from unsynchronized updates by the guest operating system that runs in that partition. 
 
 If an extensible switch extension requires more trusted space in order to inspect the packet data, it must follow these steps:
 
