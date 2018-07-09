@@ -104,7 +104,7 @@ The volume supports offloaded write operations.
 <tr>
 <td width="40%"><a id="SUPPORTED_FS_FEATURES_OFFLOAD_WRITE"></a><a id="supported_fs_features_offload_write"></a><dl>
 <dt><b>SUPPORTED_FS_FEATURES_QUERY_OPEN</b></dt>
-<dt>0x00000002</dt>
+<dt>0x00000004</dt>
 </dl>
 </td>
 <td width="60%">
