@@ -92,8 +92,6 @@ For more information on this index value, see <a href="https://msdn.microsoft.co
 If this member is set to <b>TRUE</b>, packet is an NVGRE packet, and the Hyper-V Network Virtualization (HNV) component of the Hyper-V extensible switch will forward this packet. For more information, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/hybrid-forwarding">Hybrid Forwarding</a>.
 
 This flag must not be written to by any extension.<div class="alert"><b>Note</b>  This flag is available only in NDIS 6.40 and later.</div>
-<div> </div>
-
 
 
 ### -field Reserved1
@@ -119,7 +117,14 @@ A value that specifies the number of consecutive bytes in the packet data that i
 For more information, see the Remarks section.
 
 <div class="alert"><b>Note</b>  This member is valid only if the <b>IsPacketDataSafe</b> member is set to <b>FALSE</b>.</div>
-<div> </div>
+
+### -field IsPacketDataUncached
+
+If this flag is not set, the entire packet data is cached. If it is set, part or all of the data is *not* cached. When set, check the **IsSafePacketDataUncached** field to see if at least the SafePacketData portion is cached.
+
+### -field IsSafePacketDataUncached
+
+If the **IsPacketDataUncached** flag is set, this field indicates whether the SafePacketData part of the packet is cached. If so, see the **SafePacketDataSize** field for how many bytes are cached.
 
 ### -field Reserved2
 
