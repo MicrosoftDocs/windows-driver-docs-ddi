@@ -14,9 +14,9 @@ ms.topic: portal
 
 ## -description
 
-Overview of the Audio technology.
+These headers are used to create Microsoft Windows Driver Model (WDM) audio drivers. These drivers control audio hardware that render and capture streams containing audio data. 
 
-To develop Audio, you need these headers:
+To develop Audio drivers, you need these headers:
 
  * [bthhfpddi.h](..\bthhfpddi\index.md)
  * [dmusicks.h](..\dmusicks\index.md)
@@ -29,8 +29,8 @@ To develop Audio, you need these headers:
  * [punknown.h](..\punknown\index.md)
  * [unknown.h](..\unknown\index.md)
 
-For the programming guide, see [Audio](https://docs.microsoft.com/windows-hardware/drivers/audio).
-object. |
+For programming information, see [Audio Devices Design Guide](https://docs.microsoft.com/windows-hardware/drivers/audio).
+ 
 
 ## Callback functions
 
