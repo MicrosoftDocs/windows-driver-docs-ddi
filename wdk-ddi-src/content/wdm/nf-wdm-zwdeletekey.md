@@ -70,7 +70,11 @@ Handle to the registry key to be deleted. The handle is created by a successful 
 
 <b>ZwDeleteKey</b> returns an NTSTATUS value. Possible return values include:
 
+- **STATUS_SUCCESS**
 
+- **STATUS_ACCESS_DENIED**
+
+- **STATUS_INVALID_HANDLE**
 
 
 ## -remarks
