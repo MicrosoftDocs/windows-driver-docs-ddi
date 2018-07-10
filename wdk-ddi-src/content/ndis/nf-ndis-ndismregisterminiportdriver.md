@@ -214,7 +214,7 @@ After a driver calls
     <b>NdisMRegisterMiniportDriver</b>, the driver should be prepared to be called back at the 
     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function that
     is specified in the 
-    <i>MiniportDriverCharacteristics</i> parameter. (These calls will not take place until DriverEntry returns.)
+    <i>MiniportDriverCharacteristics</i> parameter any time after DriverEntry returns.
 
 If an error occurs in 
     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> after 
@@ -231,7 +231,7 @@ If an error occurs in
 
 ## -see-also
 
-
+[Initializing a Miniport Driver](https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-miniport-driver)
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
