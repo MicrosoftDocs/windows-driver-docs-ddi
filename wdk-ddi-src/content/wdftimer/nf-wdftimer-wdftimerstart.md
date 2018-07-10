@@ -83,7 +83,7 @@ If the value is negative, the time period is relative to the current system time
 
 Relative times are not affected by any changes to the system time that might occur within the specified time period. Absolute times do reflect system time changes.
 
-The framework provides [time conversion functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdftimer/) that convert time values into system time units.
+The framework provides [time conversion functions](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcore/) that convert time values into system time units.
 
 
 
