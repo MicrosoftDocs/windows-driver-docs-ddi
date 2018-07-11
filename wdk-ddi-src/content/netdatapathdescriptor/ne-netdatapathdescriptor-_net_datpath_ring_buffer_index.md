@@ -60,7 +60,7 @@ NIC client drivers should not use this enumeration directly. Instead, they shoul
 
 ## -see-also
 
-[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
 
 [NET_DATAPATH_DESCRIPTOR](ns-netdatapathdescriptor-_net_datapath_descriptor.md)
 

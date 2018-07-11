@@ -61,4 +61,4 @@ To retrieve a queue's ring buffer of [NET_PACKET](../netpacket/ns-netpacket-_net
 
 ## -see-also
 
-[Packet descriptors and extensiosn](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
