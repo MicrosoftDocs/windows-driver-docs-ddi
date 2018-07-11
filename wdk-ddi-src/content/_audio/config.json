@@ -12,6 +12,7 @@
     "portcls.h",
     "punknown.h",
     "unknown.h",
+    "sidebandaudio",
     "usbsidebandaudio.h"
   ],
   "displayName": "Audio"
