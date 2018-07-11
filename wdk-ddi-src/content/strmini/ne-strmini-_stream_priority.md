@@ -2,12 +2,12 @@
 UID: NE:strmini._STREAM_PRIORITY
 title: "_STREAM_PRIORITY"
 author: windows-driver-content
-description: TD.
+description: _STREAM_PRIORITY enumerates available priority levels for the stream.
 old-location: stream\stream_priority.htm
 old-project: stream
 ms.assetid: 790A00A5-1107-4686-B690-80D07B69AF62
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 07/11/2018
 ms.keywords: "*PSTREAM_PRIORITY, Dispatch, High, Low, LowToHigh, PSTREAM_PRIORITY, PSTREAM_PRIORITY enumeration pointer [Streaming Media Devices], STREAM_PRIORITY, STREAM_PRIORITY enumeration [Streaming Media Devices], _STREAM_PRIORITY, stream.stream_priority, strmini/Dispatch, strmini/High, strmini/Low, strmini/LowToHigh, strmini/PSTREAM_PRIORITY, strmini/STREAM_PRIORITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -50,7 +50,7 @@ req.typenames: STREAM_PRIORITY, *PSTREAM_PRIORITY
 ## -description
 
 
-TD
+_STREAM_PRIORITY enumerates available priority levels for the stream.
 
 
 ## -enum-fields
