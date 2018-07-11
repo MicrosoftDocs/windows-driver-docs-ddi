@@ -115,7 +115,7 @@ Specifies a Directional Multi-Gigabit (DMG) 802.11ad PHY.
 
 ### -field WDI_PHY_TYPE_HE
 
-Added in Windows 10, version 1803. WDI version 1.1.7.
+Added in Windows 10, version 1809. WDI version 1.1.7.
 
 Specifies a High-Efficiency (HE) 802.11ax PHY.
 
