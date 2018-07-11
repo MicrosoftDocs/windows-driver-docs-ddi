@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.Release
-title: IDataModelManager2::Release method
+title: IDataModelManager2::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 548dad5d-a6c3-4504-8ac7-f799709b266a
+ms.assetid: 86ec618d-0ec9-435d-94d2-6795c756ecd3
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::Release, Release,IDataModelManager2.Release
+ms.keywords: IDataModelManager2::Release, Release, IDataModelManager2.Release, IDataModelManager2::Release, IDataModelManager2.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::Release method
+# IDataModelManager2::Release
 
 
 ## -description

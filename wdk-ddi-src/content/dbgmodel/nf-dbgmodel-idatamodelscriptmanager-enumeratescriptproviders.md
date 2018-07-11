@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptManager.EnumerateScriptProviders
-title: IDataModelScriptManager::EnumerateScriptProviders method
+title: IDataModelScriptManager::EnumerateScriptProviders
 author: windows-driver-content
 description: TBD
-ms.assetid: 2a0f15be-f650-400e-9e38-f00bf599a457
+ms.assetid: c9712073-e247-45b5-be02-941ecb5fafce
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptManager, IDataModelScriptManager::EnumerateScriptProviders, EnumerateScriptProviders,IDataModelScriptManager.EnumerateScriptProviders
+ms.keywords: IDataModelScriptManager::EnumerateScriptProviders, EnumerateScriptProviders, IDataModelScriptManager.EnumerateScriptProviders, IDataModelScriptManager::EnumerateScriptProviders, IDataModelScriptManager.EnumerateScriptProviders
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptManager::EnumerateScriptProviders method
+# IDataModelScriptManager::EnumerateScriptProviders
 
 
 ## -description

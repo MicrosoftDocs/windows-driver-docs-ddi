@@ -3,7 +3,7 @@ UID: NF:dbgmodel.Location.Location(ULONG64)
 title: Location function
 author: windows-driver-content
 description: TBD
-ms.assetid: fae7a277-0c71-465f-9fa8-c9db38173dd0
+ms.assetid: 035868db-4cee-4c86-a842-33bb8f9cd3eb
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
@@ -28,13 +28,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	DllExport
+-	
 api_location: 
--	NtosKrnl.exe
+-	
 api_name: 
 -	Location
 product: Windows
 targetos: Windows
+
 
 ---
 

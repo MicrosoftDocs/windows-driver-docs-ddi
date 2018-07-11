@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IHostDataModelAccess.Release
-title: IHostDataModelAccess::Release method
+title: IHostDataModelAccess::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 212b2e14-a204-442e-be57-891c71a0510c
+ms.assetid: 5b5320b2-fee9-494f-b2ba-07f0a2b83ae2
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IHostDataModelAccess, IHostDataModelAccess::Release, Release,IHostDataModelAccess.Release
+ms.keywords: IHostDataModelAccess::Release, Release, IHostDataModelAccess.Release, IHostDataModelAccess::Release, IHostDataModelAccess.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IHostDataModelAccess::Release method
+# IHostDataModelAccess::Release
 
 
 ## -description

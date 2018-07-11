@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.SetConcept
-title: IModelObject::SetConcept method
+title: IModelObject::SetConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: bbdede6a-4c78-41a5-916c-6dde424b92da
+ms.assetid: 498fef63-ad2a-4021-9f48-b5441ae0d81f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::SetConcept, SetConcept,IModelObject.SetConcept
+ms.keywords: IModelObject::SetConcept, SetConcept, IModelObject.SetConcept, IModelObject::SetConcept, IModelObject.SetConcept
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::SetConcept method
+# IModelObject::SetConcept
 
 
 ## -description

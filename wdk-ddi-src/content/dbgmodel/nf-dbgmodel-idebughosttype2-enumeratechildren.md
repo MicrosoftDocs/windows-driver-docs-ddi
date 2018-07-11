@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.EnumerateChildren
-title: IDebugHostType2::EnumerateChildren method
+title: IDebugHostType2::EnumerateChildren
 author: windows-driver-content
 description: TBD
-ms.assetid: 750666b0-3756-49a8-8037-0a21711fd4ad
+ms.assetid: 842ab2c8-6e81-4214-8daa-c82767a6d1e5
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType2, IDebugHostType2::EnumerateChildren, EnumerateChildren,IDebugHostType2.EnumerateChildren
+ms.keywords: IDebugHostType2::EnumerateChildren, EnumerateChildren, IDebugHostType2.EnumerateChildren, IDebugHostType2::EnumerateChildren, IDebugHostType2.EnumerateChildren
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType2::EnumerateChildren method
+# IDebugHostType2::EnumerateChildren
 
 
 ## -description

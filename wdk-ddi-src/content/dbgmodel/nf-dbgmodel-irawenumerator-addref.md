@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IRawEnumerator.AddRef
-title: IRawEnumerator::AddRef method
+title: IRawEnumerator::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: e6a04a18-2cf6-4beb-a220-849deb321b35
+ms.assetid: 9fe59d32-e769-4b2e-8d6b-2069a6e0b884
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IRawEnumerator, IRawEnumerator::AddRef, AddRef,IRawEnumerator.AddRef
+ms.keywords: IRawEnumerator::AddRef, AddRef, IRawEnumerator.AddRef, IRawEnumerator::AddRef, IRawEnumerator.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IRawEnumerator::AddRef method
+# IRawEnumerator::AddRef
 
 
 ## -description

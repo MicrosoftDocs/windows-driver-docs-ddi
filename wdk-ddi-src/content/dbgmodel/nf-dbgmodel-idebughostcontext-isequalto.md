@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostContext.IsEqualTo
-title: IDebugHostContext::IsEqualTo method
+title: IDebugHostContext::IsEqualTo
 author: windows-driver-content
 description: TBD
-ms.assetid: b289d8d3-3285-4b8f-90fd-ea3adbffd65a
+ms.assetid: f0b782ca-f7b8-4521-9e2b-dd5afd5adeee
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostContext, IDebugHostContext::IsEqualTo, IsEqualTo,IDebugHostContext.IsEqualTo
+ms.keywords: IDebugHostContext::IsEqualTo, IsEqualTo, IDebugHostContext.IsEqualTo, IDebugHostContext::IsEqualTo, IDebugHostContext.IsEqualTo
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostContext::IsEqualTo method
+# IDebugHostContext::IsEqualTo
 
 
 ## -description

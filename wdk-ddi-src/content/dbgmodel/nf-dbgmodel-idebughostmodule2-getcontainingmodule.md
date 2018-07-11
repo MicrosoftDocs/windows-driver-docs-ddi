@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.GetContainingModule
-title: IDebugHostModule2::GetContainingModule method
+title: IDebugHostModule2::GetContainingModule
 author: windows-driver-content
 description: TBD
-ms.assetid: d9a333b5-4341-4a03-b654-a6a75c50a98d
+ms.assetid: 8fe7048a-b09d-49fa-ae9b-8f9e20dcc05f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostModule2, IDebugHostModule2::GetContainingModule, GetContainingModule,IDebugHostModule2.GetContainingModule
+ms.keywords: IDebugHostModule2::GetContainingModule, GetContainingModule, IDebugHostModule2.GetContainingModule, IDebugHostModule2::GetContainingModule, IDebugHostModule2.GetContainingModule
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostModule2::GetContainingModule method
+# IDebugHostModule2::GetContainingModule
 
 
 ## -description

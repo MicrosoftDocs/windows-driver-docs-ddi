@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IKeyStore.SetKeyValue
-title: IKeyStore::SetKeyValue method
+title: IKeyStore::SetKeyValue
 author: windows-driver-content
 description: TBD
-ms.assetid: 9a88fc4d-0993-40d9-9b7c-3c96f4aa7834
+ms.assetid: 335a6361-3c79-4eb7-96e0-ca54098ba607
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IKeyStore, IKeyStore::SetKeyValue, SetKeyValue,IKeyStore.SetKeyValue
+ms.keywords: IKeyStore::SetKeyValue, SetKeyValue, IKeyStore.SetKeyValue, IKeyStore::SetKeyValue, IKeyStore.SetKeyValue
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IKeyStore::SetKeyValue method
+# IKeyStore::SetKeyValue
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.QueryInterface
-title: IModelKeyReference::QueryInterface method
+title: IModelKeyReference::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: f6d75d82-8595-4e4c-850a-1c7e6ca80d65
+ms.assetid: d86a9de9-ca94-49d1-856e-74983957ed0d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelKeyReference, IModelKeyReference::QueryInterface, QueryInterface,IModelKeyReference.QueryInterface
+ms.keywords: IModelKeyReference::QueryInterface, QueryInterface, IModelKeyReference.QueryInterface, IModelKeyReference::QueryInterface, IModelKeyReference.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelKeyReference::QueryInterface method
+# IModelKeyReference::QueryInterface
 
 
 ## -description

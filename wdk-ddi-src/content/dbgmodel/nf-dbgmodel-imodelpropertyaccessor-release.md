@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelPropertyAccessor.Release
-title: IModelPropertyAccessor::Release method
+title: IModelPropertyAccessor::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: d319dee0-6745-4bce-a59a-14a68a768f76
+ms.assetid: 4633f51c-783c-4944-8f3c-56c9ed01ac68
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelPropertyAccessor, IModelPropertyAccessor::Release, Release,IModelPropertyAccessor.Release
+ms.keywords: IModelPropertyAccessor::Release, Release, IModelPropertyAccessor.Release, IModelPropertyAccessor::Release, IModelPropertyAccessor.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelPropertyAccessor::Release method
+# IModelPropertyAccessor::Release
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory2.WritePointers
-title: IDebugHostMemory2::WritePointers method
+title: IDebugHostMemory2::WritePointers
 author: windows-driver-content
 description: TBD
-ms.assetid: 630c0737-378d-41a5-992c-15799f2cf4db
+ms.assetid: ce3d732f-1245-4441-b880-e507dcbea189
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostMemory2, IDebugHostMemory2::WritePointers, WritePointers,IDebugHostMemory2.WritePointers
+ms.keywords: IDebugHostMemory2::WritePointers, WritePointers, IDebugHostMemory2.WritePointers, IDebugHostMemory2::WritePointers, IDebugHostMemory2.WritePointers
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostMemory2::WritePointers method
+# IDebugHostMemory2::WritePointers
 
 
 ## -description

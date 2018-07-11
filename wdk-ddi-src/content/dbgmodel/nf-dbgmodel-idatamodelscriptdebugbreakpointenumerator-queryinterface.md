@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpointEnumerator.QueryInterface
-title: IDataModelScriptDebugBreakpointEnumerator::QueryInterface method
+title: IDataModelScriptDebugBreakpointEnumerator::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: f054ac31-879e-4b11-ac4b-d09e3d022748
+ms.assetid: d44a0cdb-77d2-4208-b780-bd9662577dc5
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugBreakpointEnumerator, IDataModelScriptDebugBreakpointEnumerator::QueryInterface, QueryInterface,IDataModelScriptDebugBreakpointEnumerator.QueryInterface
+ms.keywords: IDataModelScriptDebugBreakpointEnumerator::QueryInterface, QueryInterface, IDataModelScriptDebugBreakpointEnumerator.QueryInterface, IDataModelScriptDebugBreakpointEnumerator::QueryInterface, IDataModelScriptDebugBreakpointEnumerator.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugBreakpointEnumerator::QueryInterface method
+# IDataModelScriptDebugBreakpointEnumerator::QueryInterface
 
 
 ## -description

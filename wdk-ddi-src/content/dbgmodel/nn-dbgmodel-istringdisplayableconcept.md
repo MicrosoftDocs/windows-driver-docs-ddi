@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IStringDisplayableConcept
 title: IStringDisplayableConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: fade8105-633d-493f-bbea-ae26e4a6daa9
+ms.assetid: 108b4841-40cd-4771-ac66-953c9910b143
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

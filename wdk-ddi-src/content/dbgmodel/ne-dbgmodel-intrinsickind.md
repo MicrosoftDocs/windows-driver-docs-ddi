@@ -3,7 +3,7 @@ UID: NE:dbgmodel.IntrinsicKind
 title: IntrinsicKind
 author: windows-driver-content
 description: 
-ms.assetid: 0a313ac2-7036-4872-b2fd-fcdc6bee5bdf
+ms.assetid: c1a4180d-3606-46d5-811c-ee0e7cd5a96c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

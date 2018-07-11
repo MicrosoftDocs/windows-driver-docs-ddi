@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptHostContext.AddRef
-title: IDataModelScriptHostContext::AddRef method
+title: IDataModelScriptHostContext::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 0ae803f2-affc-402a-b6a9-ceba752f068e
+ms.assetid: 90277397-a848-43fa-b11a-d82c6ba310cd
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptHostContext, IDataModelScriptHostContext::AddRef, AddRef,IDataModelScriptHostContext.AddRef
+ms.keywords: IDataModelScriptHostContext::AddRef, AddRef, IDataModelScriptHostContext.AddRef, IDataModelScriptHostContext::AddRef, IDataModelScriptHostContext.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptHostContext::AddRef method
+# IDataModelScriptHostContext::AddRef
 
 
 ## -description

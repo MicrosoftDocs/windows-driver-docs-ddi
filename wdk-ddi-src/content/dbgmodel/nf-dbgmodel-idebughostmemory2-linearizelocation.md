@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory2.LinearizeLocation
-title: IDebugHostMemory2::LinearizeLocation method
+title: IDebugHostMemory2::LinearizeLocation
 author: windows-driver-content
 description: TBD
-ms.assetid: 65c1781b-2fbd-496d-a8a7-dc8aa6ae6ee5
+ms.assetid: 2c835fe9-e18e-4847-a377-70cf5058f98c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostMemory2, IDebugHostMemory2::LinearizeLocation, LinearizeLocation,IDebugHostMemory2.LinearizeLocation
+ms.keywords: IDebugHostMemory2::LinearizeLocation, LinearizeLocation, IDebugHostMemory2.LinearizeLocation, IDebugHostMemory2::LinearizeLocation, IDebugHostMemory2.LinearizeLocation
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostMemory2::LinearizeLocation method
+# IDebugHostMemory2::LinearizeLocation
 
 
 ## -description

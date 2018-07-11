@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IPreferredRuntimeTypeConcept.CastToPreferredRuntimeType
-title: IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType method
+title: IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType
 author: windows-driver-content
 description: TBD
-ms.assetid: b36d86c7-8e0a-4e4c-b1b3-114a2e7a6336
+ms.assetid: cdb65537-36e9-4c2c-aa0f-1a9c2cf74164
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IPreferredRuntimeTypeConcept, IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType, CastToPreferredRuntimeType,IPreferredRuntimeTypeConcept.CastToPreferredRuntimeType
+ms.keywords: IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType, CastToPreferredRuntimeType, IPreferredRuntimeTypeConcept.CastToPreferredRuntimeType, IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType, IPreferredRuntimeTypeConcept.CastToPreferredRuntimeType
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType method
+# IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType
 
 
 ## -description

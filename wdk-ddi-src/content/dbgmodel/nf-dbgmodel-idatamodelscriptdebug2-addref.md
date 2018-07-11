@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.AddRef
-title: IDataModelScriptDebug2::AddRef method
+title: IDataModelScriptDebug2::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 9387b26f-1ff4-4258-bc99-d68dce76fa4a
+ms.assetid: c69d8e7c-af0b-42e8-be21-208298bd0213
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebug2, IDataModelScriptDebug2::AddRef, AddRef,IDataModelScriptDebug2.AddRef
+ms.keywords: IDataModelScriptDebug2::AddRef, AddRef, IDataModelScriptDebug2.AddRef, IDataModelScriptDebug2::AddRef, IDataModelScriptDebug2.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebug2::AddRef method
+# IDataModelScriptDebug2::AddRef
 
 
 ## -description

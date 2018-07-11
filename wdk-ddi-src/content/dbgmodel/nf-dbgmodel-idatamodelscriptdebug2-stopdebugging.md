@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.StopDebugging
-title: IDataModelScriptDebug2::StopDebugging method
+title: IDataModelScriptDebug2::StopDebugging
 author: windows-driver-content
 description: TBD
-ms.assetid: b7e06135-b659-4b95-9d5e-0e09f2e0c8d1
+ms.assetid: 30fb6af7-b5e6-41cc-ba27-ea9ed2182541
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebug2, IDataModelScriptDebug2::StopDebugging, StopDebugging,IDataModelScriptDebug2.StopDebugging
+ms.keywords: IDataModelScriptDebug2::StopDebugging, StopDebugging, IDataModelScriptDebug2.StopDebugging, IDataModelScriptDebug2::StopDebugging, IDataModelScriptDebug2.StopDebugging
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebug2::StopDebugging method
+# IDataModelScriptDebug2::StopDebugging
 
 
 ## -description

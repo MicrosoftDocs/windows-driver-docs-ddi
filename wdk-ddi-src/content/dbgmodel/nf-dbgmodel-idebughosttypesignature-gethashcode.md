@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostTypeSignature.GetHashCode
-title: IDebugHostTypeSignature::GetHashCode method
+title: IDebugHostTypeSignature::GetHashCode
 author: windows-driver-content
 description: TBD
-ms.assetid: 6436c755-f2fa-48de-9771-1a2e46bef831
+ms.assetid: ba7abda8-02c8-4487-b192-3e674679a278
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostTypeSignature, IDebugHostTypeSignature::GetHashCode, GetHashCode,IDebugHostTypeSignature.GetHashCode
+ms.keywords: IDebugHostTypeSignature::GetHashCode, GetHashCode, IDebugHostTypeSignature.GetHashCode, IDebugHostTypeSignature::GetHashCode, IDebugHostTypeSignature.GetHashCode
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostTypeSignature::GetHashCode method
+# IDebugHostTypeSignature::GetHashCode
 
 
 ## -description

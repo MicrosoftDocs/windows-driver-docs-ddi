@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostModuleSignature.IsMatch
-title: IDebugHostModuleSignature::IsMatch method
+title: IDebugHostModuleSignature::IsMatch
 author: windows-driver-content
 description: TBD
-ms.assetid: 35cf79c2-cd39-448e-8126-c2ac2e79ed8c
+ms.assetid: eaef18a0-1bbb-4248-a65d-e81ef486c2fa
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostModuleSignature, IDebugHostModuleSignature::IsMatch, IsMatch,IDebugHostModuleSignature.IsMatch
+ms.keywords: IDebugHostModuleSignature::IsMatch, IsMatch, IDebugHostModuleSignature.IsMatch, IDebugHostModuleSignature::IsMatch, IDebugHostModuleSignature.IsMatch
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostModuleSignature::IsMatch method
+# IDebugHostModuleSignature::IsMatch
 
 
 ## -description

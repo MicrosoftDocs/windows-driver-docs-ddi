@@ -3,7 +3,7 @@ UID: NS:dbgmodel.ScriptDebugEventInformation
 title: ScriptDebugEventInformation
 author: windows-driver-content
 description: 
-ms.assetid: a17108b3-da45-43ba-aaeb-803acfa778b3
+ms.assetid: 33b3830f-8257-4dde-970f-2e21d7b7a831
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct

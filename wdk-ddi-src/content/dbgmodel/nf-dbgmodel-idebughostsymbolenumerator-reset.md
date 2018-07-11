@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbolEnumerator.Reset
-title: IDebugHostSymbolEnumerator::Reset method
+title: IDebugHostSymbolEnumerator::Reset
 author: windows-driver-content
 description: TBD
-ms.assetid: 54e9df02-c28d-4807-ac40-113e9a6f8088
+ms.assetid: 2a2b6b49-694e-4da9-b046-f0ced9508ec4
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostSymbolEnumerator, IDebugHostSymbolEnumerator::Reset, Reset,IDebugHostSymbolEnumerator.Reset
+ms.keywords: IDebugHostSymbolEnumerator::Reset, Reset, IDebugHostSymbolEnumerator.Reset, IDebugHostSymbolEnumerator::Reset, IDebugHostSymbolEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostSymbolEnumerator::Reset method
+# IDebugHostSymbolEnumerator::Reset
 
 
 ## -description

@@ -3,7 +3,7 @@ UID: NE:dbgmodel.SymbolKind
 title: SymbolKind
 author: windows-driver-content
 description: 
-ms.assetid: 0fa817dd-5608-416a-9ff0-de28699cdcbc
+ms.assetid: 6c1562a7-d1fb-4418-99dd-a6391cb4163d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

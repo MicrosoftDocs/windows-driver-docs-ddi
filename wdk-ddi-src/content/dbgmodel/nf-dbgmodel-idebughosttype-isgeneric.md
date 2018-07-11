@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.IsGeneric
-title: IDebugHostType::IsGeneric method
+title: IDebugHostType::IsGeneric
 author: windows-driver-content
 description: TBD
-ms.assetid: e2958bd5-274a-42b6-8e7f-399507de0c77
+ms.assetid: 2bf3a854-e0e4-44cc-adca-61d8c07e47a0
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::IsGeneric, IsGeneric,IDebugHostType.IsGeneric
+ms.keywords: IDebugHostType::IsGeneric, IsGeneric, IDebugHostType.IsGeneric, IDebugHostType::IsGeneric, IDebugHostType.IsGeneric
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::IsGeneric method
+# IDebugHostType::IsGeneric
 
 
 ## -description

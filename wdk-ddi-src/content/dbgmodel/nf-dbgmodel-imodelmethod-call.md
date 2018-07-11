@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelMethod.Call
-title: IModelMethod::Call method
+title: IModelMethod::Call
 author: windows-driver-content
 description: TBD
-ms.assetid: 737b3bb9-472c-4019-8dd7-7c25b89b5644
+ms.assetid: 217feb09-ddbf-407c-a8a4-1144d7dd7c41
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelMethod, IModelMethod::Call, Call,IModelMethod.Call
+ms.keywords: IModelMethod::Call, Call, IModelMethod.Call, IModelMethod::Call, IModelMethod.Call
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelMethod::Call method
+# IModelMethod::Call
 
 
 ## -description

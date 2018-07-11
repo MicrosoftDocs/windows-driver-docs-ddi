@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelNameBinder.Release
-title: IDataModelNameBinder::Release method
+title: IDataModelNameBinder::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 430d63cf-c729-493c-aba9-2e2a6a1f24c9
+ms.assetid: 13f662d0-27ba-4760-b23e-c822a0b03c6f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelNameBinder, IDataModelNameBinder::Release, Release,IDataModelNameBinder.Release
+ms.keywords: IDataModelNameBinder::Release, Release, IDataModelNameBinder.Release, IDataModelNameBinder::Release, IDataModelNameBinder.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelNameBinder::Release method
+# IDataModelNameBinder::Release
 
 
 ## -description

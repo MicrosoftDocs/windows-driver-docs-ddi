@@ -3,7 +3,7 @@ UID: NS:dbgmodel.Location
 title: Location
 author: windows-driver-content
 description: 
-ms.assetid: ab7c1d86-acde-4e79-a01c-c45edade9a76
+ms.assetid: 9ab3c521-e5c9-48ad-977e-d95954f5064b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct

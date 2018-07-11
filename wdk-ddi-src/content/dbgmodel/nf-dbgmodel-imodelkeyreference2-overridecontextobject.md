@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.OverrideContextObject
-title: IModelKeyReference2::OverrideContextObject method
+title: IModelKeyReference2::OverrideContextObject
 author: windows-driver-content
 description: TBD
-ms.assetid: 57742a71-e15c-4b03-afb2-1b70380f9d4a
+ms.assetid: bb28b47c-7311-4572-9d87-0331a5cc728a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelKeyReference2, IModelKeyReference2::OverrideContextObject, OverrideContextObject,IModelKeyReference2.OverrideContextObject
+ms.keywords: IModelKeyReference2::OverrideContextObject, OverrideContextObject, IModelKeyReference2.OverrideContextObject, IModelKeyReference2::OverrideContextObject, IModelKeyReference2.OverrideContextObject
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelKeyReference2::OverrideContextObject method
+# IModelKeyReference2::OverrideContextObject
 
 
 ## -description

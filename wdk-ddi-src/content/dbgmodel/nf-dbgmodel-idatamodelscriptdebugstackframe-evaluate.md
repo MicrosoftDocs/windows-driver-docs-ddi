@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.Evaluate
-title: IDataModelScriptDebugStackFrame::Evaluate method
+title: IDataModelScriptDebugStackFrame::Evaluate
 author: windows-driver-content
 description: TBD
-ms.assetid: d5c4bb5d-cbd1-4e46-a7db-247fed19bdaf
+ms.assetid: ef36e451-1a5a-4ea0-a2cf-6af38fe6757c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugStackFrame, IDataModelScriptDebugStackFrame::Evaluate, Evaluate,IDataModelScriptDebugStackFrame.Evaluate
+ms.keywords: IDataModelScriptDebugStackFrame::Evaluate, Evaluate, IDataModelScriptDebugStackFrame.Evaluate, IDataModelScriptDebugStackFrame::Evaluate, IDataModelScriptDebugStackFrame.Evaluate
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugStackFrame::Evaluate method
+# IDataModelScriptDebugStackFrame::Evaluate
 
 
 ## -description

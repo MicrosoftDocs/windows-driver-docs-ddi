@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetContextForDataModel
-title: IModelObject::GetContextForDataModel method
+title: IModelObject::GetContextForDataModel
 author: windows-driver-content
 description: TBD
-ms.assetid: 8817ce3c-bddf-402a-a002-fd7eb6ca1cb3
+ms.assetid: ee97f69a-f378-47d6-9633-3b0e5bef6451
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetContextForDataModel, GetContextForDataModel,IModelObject.GetContextForDataModel
+ms.keywords: IModelObject::GetContextForDataModel, GetContextForDataModel, IModelObject.GetContextForDataModel, IModelObject::GetContextForDataModel, IModelObject.GetContextForDataModel
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetContextForDataModel method
+# IModelObject::GetContextForDataModel
 
 
 ## -description

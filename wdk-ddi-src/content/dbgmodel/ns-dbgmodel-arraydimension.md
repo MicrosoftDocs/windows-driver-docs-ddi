@@ -3,7 +3,7 @@ UID: NS:dbgmodel.ArrayDimension
 title: ArrayDimension
 author: windows-driver-content
 description: 
-ms.assetid: fffc5974-f963-45a7-9957-b871fdd89654
+ms.assetid: e99b1f99-d853-4159-9656-1a6b83f43ac1
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct

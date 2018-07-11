@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelConcept.AddRef
-title: IDataModelConcept::AddRef method
+title: IDataModelConcept::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: d7aea5ea-4973-4ed2-a0bc-f89fd90bb3b8
+ms.assetid: 62f5dc8e-319e-4243-b66c-c1a53bd9adf5
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelConcept, IDataModelConcept::AddRef, AddRef,IDataModelConcept.AddRef
+ms.keywords: IDataModelConcept::AddRef, AddRef, IDataModelConcept.AddRef, IDataModelConcept::AddRef, IDataModelConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelConcept::AddRef method
+# IDataModelConcept::AddRef
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateNoValue
-title: IDataModelManager2::CreateNoValue method
+title: IDataModelManager2::CreateNoValue
 author: windows-driver-content
 description: TBD
-ms.assetid: e1af413f-b912-4769-a3d0-1a71785c2afe
+ms.assetid: 2533e73e-a094-4e55-8c33-b52384037932
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::CreateNoValue, CreateNoValue,IDataModelManager2.CreateNoValue
+ms.keywords: IDataModelManager2::CreateNoValue, CreateNoValue, IDataModelManager2.CreateNoValue, IDataModelManager2::CreateNoValue, IDataModelManager2.CreateNoValue
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::CreateNoValue method
+# IDataModelManager2::CreateNoValue
 
 
 ## -description

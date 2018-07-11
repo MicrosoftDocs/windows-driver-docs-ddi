@@ -3,7 +3,7 @@ UID: NS:dbgmodel.TypeSearchInfo
 title: TypeSearchInfo
 author: windows-driver-content
 description: 
-ms.assetid: 0593efb2-a4f2-4fb8-92b6-76366eb11983
+ms.assetid: 351db58e-2652-4cc9-adeb-2905b21e58aa
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct

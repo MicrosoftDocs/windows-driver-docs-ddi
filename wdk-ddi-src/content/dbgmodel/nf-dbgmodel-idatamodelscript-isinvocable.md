@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScript.IsInvocable
-title: IDataModelScript::IsInvocable method
+title: IDataModelScript::IsInvocable
 author: windows-driver-content
 description: TBD
-ms.assetid: fc2640f1-d345-4c35-b142-45d7c33ade34
+ms.assetid: ff8dc281-89db-4ef5-afaa-f022015a6247
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScript, IDataModelScript::IsInvocable, IsInvocable,IDataModelScript.IsInvocable
+ms.keywords: IDataModelScript::IsInvocable, IsInvocable, IDataModelScript.IsInvocable, IDataModelScript::IsInvocable, IDataModelScript.IsInvocable
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScript::IsInvocable method
+# IDataModelScript::IsInvocable
 
 
 ## -description

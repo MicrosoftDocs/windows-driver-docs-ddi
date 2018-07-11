@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostExtensibility.AddRef
-title: IDebugHostExtensibility::AddRef method
+title: IDebugHostExtensibility::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 1ac9eb3a-742d-48d9-8d8b-477a20f54002
+ms.assetid: f60be701-5952-46ae-bdf8-361fdd76202a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostExtensibility, IDebugHostExtensibility::AddRef, AddRef,IDebugHostExtensibility.AddRef
+ms.keywords: IDebugHostExtensibility::AddRef, AddRef, IDebugHostExtensibility.AddRef, IDebugHostExtensibility::AddRef, IDebugHostExtensibility.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostExtensibility::AddRef method
+# IDebugHostExtensibility::AddRef
 
 
 ## -description

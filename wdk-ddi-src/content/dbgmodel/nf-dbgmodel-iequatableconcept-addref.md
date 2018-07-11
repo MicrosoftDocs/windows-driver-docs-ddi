@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IEquatableConcept.AddRef
-title: IEquatableConcept::AddRef method
+title: IEquatableConcept::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: ab0e8742-bb81-40c6-a583-48b9d85734fb
+ms.assetid: 604b2019-00c7-4ce6-8971-daaf0a564b92
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IEquatableConcept, IEquatableConcept::AddRef, AddRef,IEquatableConcept.AddRef
+ms.keywords: IEquatableConcept::AddRef, AddRef, IEquatableConcept.AddRef, IEquatableConcept::AddRef, IEquatableConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IEquatableConcept::AddRef method
+# IEquatableConcept::AddRef
 
 
 ## -description

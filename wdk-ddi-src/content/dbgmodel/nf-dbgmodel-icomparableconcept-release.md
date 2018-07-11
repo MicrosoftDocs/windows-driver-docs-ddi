@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IComparableConcept.Release
-title: IComparableConcept::Release method
+title: IComparableConcept::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 8fbc8380-c29e-4f32-abb4-c36e16a5495d
+ms.assetid: b3628482-1c1e-4a01-94d9-4e357b20b87a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IComparableConcept, IComparableConcept::Release, Release,IComparableConcept.Release
+ms.keywords: IComparableConcept::Release, Release, IComparableConcept.Release, IComparableConcept::Release, IComparableConcept.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IComparableConcept::Release method
+# IComparableConcept::Release
 
 
 ## -description

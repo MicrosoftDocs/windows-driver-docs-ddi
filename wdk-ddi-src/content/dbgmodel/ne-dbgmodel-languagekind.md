@@ -3,7 +3,7 @@ UID: NE:dbgmodel.LanguageKind
 title: LanguageKind
 author: windows-driver-content
 description: 
-ms.assetid: 4bc0fe8d-d228-4042-9ae0-9a6a06f9f557
+ms.assetid: f4f112e3-1a06-441f-92ef-dff2576274ff
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

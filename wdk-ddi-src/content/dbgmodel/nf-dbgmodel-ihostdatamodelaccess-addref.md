@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IHostDataModelAccess.AddRef
-title: IHostDataModelAccess::AddRef method
+title: IHostDataModelAccess::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: c4a94c8d-a11b-48d5-a38a-5b45963ae512
+ms.assetid: ded659de-3956-4532-bd8d-9a49074e5c6e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IHostDataModelAccess, IHostDataModelAccess::AddRef, AddRef,IHostDataModelAccess.AddRef
+ms.keywords: IHostDataModelAccess::AddRef, AddRef, IHostDataModelAccess.AddRef, IHostDataModelAccess::AddRef, IHostDataModelAccess.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IHostDataModelAccess::AddRef method
+# IHostDataModelAccess::AddRef
 
 
 ## -description

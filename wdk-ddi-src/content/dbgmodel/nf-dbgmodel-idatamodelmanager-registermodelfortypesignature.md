@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.RegisterModelForTypeSignature
-title: IDataModelManager::RegisterModelForTypeSignature method
+title: IDataModelManager::RegisterModelForTypeSignature
 author: windows-driver-content
 description: TBD
-ms.assetid: 3b239b3c-03f1-4fab-831b-e2cb7bcacc19
+ms.assetid: 1ebbdc8c-a2dd-4fce-85d1-62d5a571798c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager, IDataModelManager::RegisterModelForTypeSignature, RegisterModelForTypeSignature,IDataModelManager.RegisterModelForTypeSignature
+ms.keywords: IDataModelManager::RegisterModelForTypeSignature, RegisterModelForTypeSignature, IDataModelManager.RegisterModelForTypeSignature, IDataModelManager::RegisterModelForTypeSignature, IDataModelManager.RegisterModelForTypeSignature
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager::RegisterModelForTypeSignature method
+# IDataModelManager::RegisterModelForTypeSignature
 
 
 ## -description

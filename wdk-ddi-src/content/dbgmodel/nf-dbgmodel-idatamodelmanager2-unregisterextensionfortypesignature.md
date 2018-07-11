@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.UnregisterExtensionForTypeSignature
-title: IDataModelManager2::UnregisterExtensionForTypeSignature method
+title: IDataModelManager2::UnregisterExtensionForTypeSignature
 author: windows-driver-content
 description: TBD
-ms.assetid: e2308bf1-c3f7-4d8d-84f1-ff9bf7388a9f
+ms.assetid: a92a25e0-191c-40fb-a0bc-7d29afbbcaaa
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::UnregisterExtensionForTypeSignature, UnregisterExtensionForTypeSignature,IDataModelManager2.UnregisterExtensionForTypeSignature
+ms.keywords: IDataModelManager2::UnregisterExtensionForTypeSignature, UnregisterExtensionForTypeSignature, IDataModelManager2.UnregisterExtensionForTypeSignature, IDataModelManager2::UnregisterExtensionForTypeSignature, IDataModelManager2.UnregisterExtensionForTypeSignature
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::UnregisterExtensionForTypeSignature method
+# IDataModelManager2::UnregisterExtensionForTypeSignature
 
 
 ## -description

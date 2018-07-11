@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule.FindTypeByName
-title: IDebugHostModule::FindTypeByName method
+title: IDebugHostModule::FindTypeByName
 author: windows-driver-content
 description: TBD
-ms.assetid: a374132b-999b-48b6-8b98-a24ce4fc29db
+ms.assetid: 382868fc-8d1c-4278-8eb5-365622c57754
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostModule, IDebugHostModule::FindTypeByName, FindTypeByName,IDebugHostModule.FindTypeByName
+ms.keywords: IDebugHostModule::FindTypeByName, FindTypeByName, IDebugHostModule.FindTypeByName, IDebugHostModule::FindTypeByName, IDebugHostModule.FindTypeByName
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostModule::FindTypeByName method
+# IDebugHostModule::FindTypeByName
 
 
 ## -description

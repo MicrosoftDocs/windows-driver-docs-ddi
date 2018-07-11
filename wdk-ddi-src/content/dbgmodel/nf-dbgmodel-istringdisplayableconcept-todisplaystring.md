@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IStringDisplayableConcept.ToDisplayString
-title: IStringDisplayableConcept::ToDisplayString method
+title: IStringDisplayableConcept::ToDisplayString
 author: windows-driver-content
 description: TBD
-ms.assetid: d4b4e668-a905-42db-88e2-ccc7384240ee
+ms.assetid: e6823fca-e9c4-4e2a-8c0f-95bd9f7527e9
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IStringDisplayableConcept, IStringDisplayableConcept::ToDisplayString, ToDisplayString,IStringDisplayableConcept.ToDisplayString
+ms.keywords: IStringDisplayableConcept::ToDisplayString, ToDisplayString, IStringDisplayableConcept.ToDisplayString, IStringDisplayableConcept::ToDisplayString, IStringDisplayableConcept.ToDisplayString
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IStringDisplayableConcept::ToDisplayString method
+# IStringDisplayableConcept::ToDisplayString
 
 
 ## -description

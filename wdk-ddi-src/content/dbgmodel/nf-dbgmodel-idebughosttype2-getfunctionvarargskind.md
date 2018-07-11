@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetFunctionVarArgsKind
-title: IDebugHostType2::GetFunctionVarArgsKind method
+title: IDebugHostType2::GetFunctionVarArgsKind
 author: windows-driver-content
 description: TBD
-ms.assetid: 07dbc172-ab95-4d2e-bb0e-a05c5c0288a0
+ms.assetid: 321e50d4-8359-43e3-a593-18c2bb2cac87
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType2, IDebugHostType2::GetFunctionVarArgsKind, GetFunctionVarArgsKind,IDebugHostType2.GetFunctionVarArgsKind
+ms.keywords: IDebugHostType2::GetFunctionVarArgsKind, GetFunctionVarArgsKind, IDebugHostType2.GetFunctionVarArgsKind, IDebugHostType2::GetFunctionVarArgsKind, IDebugHostType2.GetFunctionVarArgsKind
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType2::GetFunctionVarArgsKind method
+# IDebugHostType2::GetFunctionVarArgsKind
 
 
 ## -description

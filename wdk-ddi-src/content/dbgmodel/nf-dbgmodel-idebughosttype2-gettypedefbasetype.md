@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetTypedefBaseType
-title: IDebugHostType2::GetTypedefBaseType method
+title: IDebugHostType2::GetTypedefBaseType
 author: windows-driver-content
 description: TBD
-ms.assetid: de69b7b7-4b71-44cd-a4c5-6f92951b4ddb
+ms.assetid: e0a0a7fb-6049-4e08-9e8b-c10629e4a5e9
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType2, IDebugHostType2::GetTypedefBaseType, GetTypedefBaseType,IDebugHostType2.GetTypedefBaseType
+ms.keywords: IDebugHostType2::GetTypedefBaseType, GetTypedefBaseType, IDebugHostType2.GetTypedefBaseType, IDebugHostType2::GetTypedefBaseType, IDebugHostType2.GetTypedefBaseType
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType2::GetTypedefBaseType method
+# IDebugHostType2::GetTypedefBaseType
 
 
 ## -description

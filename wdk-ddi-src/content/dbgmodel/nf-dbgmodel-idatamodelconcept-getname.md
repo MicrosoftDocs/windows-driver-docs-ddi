@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelConcept.GetName
-title: IDataModelConcept::GetName method
+title: IDataModelConcept::GetName
 author: windows-driver-content
 description: TBD
-ms.assetid: 1f18d481-3d73-42eb-88df-14f5b1d03845
+ms.assetid: 963ade84-243f-419e-979e-6f8aed2ff596
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelConcept, IDataModelConcept::GetName, GetName,IDataModelConcept.GetName
+ms.keywords: IDataModelConcept::GetName, GetName, IDataModelConcept.GetName, IDataModelConcept::GetName, IDataModelConcept.GetName
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelConcept::GetName method
+# IDataModelConcept::GetName
 
 
 ## -description

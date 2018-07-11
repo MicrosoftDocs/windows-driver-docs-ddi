@@ -3,7 +3,7 @@ UID: NE:dbgmodel.RawSearchFlags
 title: RawSearchFlags
 author: windows-driver-content
 description: 
-ms.assetid: c002dbb9-7870-4f87-b936-33f1ab60639d
+ms.assetid: 1f876ef9-9130-45f0-8c00-33f5f0e41344
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

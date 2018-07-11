@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDebugHostMemory2
 title: IDebugHostMemory2
 author: windows-driver-content
 description: TBD
-ms.assetid: 8fd9e695-debe-4f2b-9f5d-ce675e4ff0ee
+ms.assetid: f34471dc-175b-46e3-aeec-18841184e940
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

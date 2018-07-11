@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugClient.QueryInterface
-title: IDataModelScriptDebugClient::QueryInterface method
+title: IDataModelScriptDebugClient::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 6bdc078a-4720-4d8f-89d0-fc172d4b5376
+ms.assetid: 8d9569d1-fcd9-4bac-9e16-cf5fef74c414
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugClient, IDataModelScriptDebugClient::QueryInterface, QueryInterface,IDataModelScriptDebugClient.QueryInterface
+ms.keywords: IDataModelScriptDebugClient::QueryInterface, QueryInterface, IDataModelScriptDebugClient.QueryInterface, IDataModelScriptDebugClient::QueryInterface, IDataModelScriptDebugClient.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugClient::QueryInterface method
+# IDataModelScriptDebugClient::QueryInterface
 
 
 ## -description

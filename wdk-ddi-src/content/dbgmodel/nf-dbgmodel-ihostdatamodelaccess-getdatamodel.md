@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IHostDataModelAccess.GetDataModel
-title: IHostDataModelAccess::GetDataModel method
+title: IHostDataModelAccess::GetDataModel
 author: windows-driver-content
 description: TBD
-ms.assetid: 4221ae71-6818-43e0-9748-e983f0b03632
+ms.assetid: f1763b5e-b8e6-47d9-a8f9-12f564744769
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IHostDataModelAccess, IHostDataModelAccess::GetDataModel, GetDataModel,IHostDataModelAccess.GetDataModel
+ms.keywords: IHostDataModelAccess::GetDataModel, GetDataModel, IHostDataModelAccess.GetDataModel, IHostDataModelAccess::GetDataModel, IHostDataModelAccess.GetDataModel
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IHostDataModelAccess::GetDataModel method
+# IHostDataModelAccess::GetDataModel
 
 
 ## -description

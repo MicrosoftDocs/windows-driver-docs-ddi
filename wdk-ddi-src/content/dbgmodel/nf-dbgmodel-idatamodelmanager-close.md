@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.Close
-title: IDataModelManager::Close method
+title: IDataModelManager::Close
 author: windows-driver-content
 description: TBD
-ms.assetid: 1d7bf347-ac79-4c62-83e1-f58c52a9bc3d
+ms.assetid: 8c20af38-5915-4078-90ef-f6c1156cac1d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager, IDataModelManager::Close, Close,IDataModelManager.Close
+ms.keywords: IDataModelManager::Close, Close, IDataModelManager.Close, IDataModelManager::Close, IDataModelManager.Close
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager::Close method
+# IDataModelManager::Close
 
 
 ## -description

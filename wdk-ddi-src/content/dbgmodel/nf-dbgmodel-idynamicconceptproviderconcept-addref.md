@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.AddRef
-title: IDynamicConceptProviderConcept::AddRef method
+title: IDynamicConceptProviderConcept::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: c5b3e7a8-b055-4ae5-82ae-d2333fbc9c32
+ms.assetid: 4b183d83-6515-4dd5-b604-09c77beb74e2
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicConceptProviderConcept, IDynamicConceptProviderConcept::AddRef, AddRef,IDynamicConceptProviderConcept.AddRef
+ms.keywords: IDynamicConceptProviderConcept::AddRef, AddRef, IDynamicConceptProviderConcept.AddRef, IDynamicConceptProviderConcept::AddRef, IDynamicConceptProviderConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicConceptProviderConcept::AddRef method
+# IDynamicConceptProviderConcept::AddRef
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostConstant.AddRef
-title: IDebugHostConstant::AddRef method
+title: IDebugHostConstant::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 9505e549-aa59-4986-980b-15e80a05380e
+ms.assetid: 44c0dec2-be36-4863-8b09-f10b1a101855
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostConstant, IDebugHostConstant::AddRef, AddRef,IDebugHostConstant.AddRef
+ms.keywords: IDebugHostConstant::AddRef, AddRef, IDebugHostConstant.AddRef, IDebugHostConstant::AddRef, IDebugHostConstant.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostConstant::AddRef method
+# IDebugHostConstant::AddRef
 
 
 ## -description

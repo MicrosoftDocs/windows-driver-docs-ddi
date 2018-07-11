@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbols.CreateTypeSignature
-title: IDebugHostSymbols::CreateTypeSignature method
+title: IDebugHostSymbols::CreateTypeSignature
 author: windows-driver-content
 description: TBD
-ms.assetid: 8c6c9ecb-6108-419f-847e-a78516e09239
+ms.assetid: ead25214-26a0-4819-81ca-e47f5644b1f2
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostSymbols, IDebugHostSymbols::CreateTypeSignature, CreateTypeSignature,IDebugHostSymbols.CreateTypeSignature
+ms.keywords: IDebugHostSymbols::CreateTypeSignature, CreateTypeSignature, IDebugHostSymbols.CreateTypeSignature, IDebugHostSymbols::CreateTypeSignature, IDebugHostSymbols.CreateTypeSignature
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostSymbols::CreateTypeSignature method
+# IDebugHostSymbols::CreateTypeSignature
 
 
 ## -description

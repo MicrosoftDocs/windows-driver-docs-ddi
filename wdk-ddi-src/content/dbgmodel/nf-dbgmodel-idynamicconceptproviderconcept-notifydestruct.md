@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.NotifyDestruct
-title: IDynamicConceptProviderConcept::NotifyDestruct method
+title: IDynamicConceptProviderConcept::NotifyDestruct
 author: windows-driver-content
 description: TBD
-ms.assetid: 5a4a64d2-1c45-435e-97da-cfbf8c3a5fe2
+ms.assetid: b2e5af39-288c-45c5-b2de-0c5e8069a25a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicConceptProviderConcept, IDynamicConceptProviderConcept::NotifyDestruct, NotifyDestruct,IDynamicConceptProviderConcept.NotifyDestruct
+ms.keywords: IDynamicConceptProviderConcept::NotifyDestruct, NotifyDestruct, IDynamicConceptProviderConcept.NotifyDestruct, IDynamicConceptProviderConcept::NotifyDestruct, IDynamicConceptProviderConcept.NotifyDestruct
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicConceptProviderConcept::NotifyDestruct method
+# IDynamicConceptProviderConcept::NotifyDestruct
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbols.Release
-title: IDebugHostSymbols::Release method
+title: IDebugHostSymbols::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 4b56c67c-ff74-446b-a02a-17ff104c3cb4
+ms.assetid: 6afa5e22-58a6-459a-892e-802527a20f52
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostSymbols, IDebugHostSymbols::Release, Release,IDebugHostSymbols.Release
+ms.keywords: IDebugHostSymbols::Release, Release, IDebugHostSymbols.Release, IDebugHostSymbols::Release, IDebugHostSymbols.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostSymbols::Release method
+# IDebugHostSymbols::Release
 
 
 ## -description

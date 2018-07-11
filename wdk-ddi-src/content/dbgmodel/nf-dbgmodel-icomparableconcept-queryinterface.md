@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IComparableConcept.QueryInterface
-title: IComparableConcept::QueryInterface method
+title: IComparableConcept::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: f388b0ae-234a-4731-92ad-1bf8265929d1
+ms.assetid: 90f5872f-e5b4-4a61-ab92-be2a6bae2030
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IComparableConcept, IComparableConcept::QueryInterface, QueryInterface,IComparableConcept.QueryInterface
+ms.keywords: IComparableConcept::QueryInterface, QueryInterface, IComparableConcept.QueryInterface, IComparableConcept::QueryInterface, IComparableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IComparableConcept::QueryInterface method
+# IComparableConcept::QueryInterface
 
 
 ## -description

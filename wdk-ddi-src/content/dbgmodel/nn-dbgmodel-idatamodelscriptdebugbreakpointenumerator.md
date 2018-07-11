@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDataModelScriptDebugBreakpointEnumerator
 title: IDataModelScriptDebugBreakpointEnumerator
 author: windows-driver-content
 description: TBD
-ms.assetid: ac6362ca-8e1d-4238-bd83-5d1ba2a9d5bf
+ms.assetid: 98079ec9-c73a-4d88-8016-8fb53c461d91
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

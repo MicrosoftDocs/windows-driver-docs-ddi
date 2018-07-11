@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostStatus.Release
-title: IDebugHostStatus::Release method
+title: IDebugHostStatus::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 4a24fd83-6474-4787-a086-0be6e080755b
+ms.assetid: c847e8a2-0cfa-422d-b4e5-4479ed472410
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostStatus, IDebugHostStatus::Release, Release,IDebugHostStatus.Release
+ms.keywords: IDebugHostStatus::Release, Release, IDebugHostStatus.Release, IDebugHostStatus::Release, IDebugHostStatus.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostStatus::Release method
+# IDebugHostStatus::Release
 
 
 ## -description

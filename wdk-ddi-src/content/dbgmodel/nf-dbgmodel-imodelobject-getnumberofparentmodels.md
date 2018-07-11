@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetNumberOfParentModels
-title: IModelObject::GetNumberOfParentModels method
+title: IModelObject::GetNumberOfParentModels
 author: windows-driver-content
 description: TBD
-ms.assetid: 927ad97d-cee9-4142-80cf-eb475e1825fd
+ms.assetid: 3ef1b4c2-2f82-4455-a1de-c15d6fa6f0aa
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetNumberOfParentModels, GetNumberOfParentModels,IModelObject.GetNumberOfParentModels
+ms.keywords: IModelObject::GetNumberOfParentModels, GetNumberOfParentModels, IModelObject.GetNumberOfParentModels, IModelObject::GetNumberOfParentModels, IModelObject.GetNumberOfParentModels
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetNumberOfParentModels method
+# IModelObject::GetNumberOfParentModels
 
 
 ## -description

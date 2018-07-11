@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IRawEnumerator.Release
-title: IRawEnumerator::Release method
+title: IRawEnumerator::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: c7794002-6dcc-4dae-80e6-e5b94d946261
+ms.assetid: 72ad0098-17a6-40ab-a9c6-f994017f5957
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IRawEnumerator, IRawEnumerator::Release, Release,IRawEnumerator.Release
+ms.keywords: IRawEnumerator::Release, Release, IRawEnumerator.Release, IRawEnumerator::Release, IRawEnumerator.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IRawEnumerator::Release method
+# IRawEnumerator::Release
 
 
 ## -description

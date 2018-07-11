@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IIterableConcept.AddRef
-title: IIterableConcept::AddRef method
+title: IIterableConcept::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: ec06279b-b4ff-46f9-9dae-30bc8ef5a1f7
+ms.assetid: d20e7a6b-9fe5-4cc2-9003-147eba239209
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IIterableConcept, IIterableConcept::AddRef, AddRef,IIterableConcept.AddRef
+ms.keywords: IIterableConcept::AddRef, AddRef, IIterableConcept.AddRef, IIterableConcept::AddRef, IIterableConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IIterableConcept::AddRef method
+# IIterableConcept::AddRef
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.NotifyParent
-title: IDynamicConceptProviderConcept::NotifyParent method
+title: IDynamicConceptProviderConcept::NotifyParent
 author: windows-driver-content
 description: TBD
-ms.assetid: 1674c95c-c565-45fd-b090-2d3240f0dd59
+ms.assetid: 200f5925-57bf-4b7d-b187-39b5daab0992
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicConceptProviderConcept, IDynamicConceptProviderConcept::NotifyParent, NotifyParent,IDynamicConceptProviderConcept.NotifyParent
+ms.keywords: IDynamicConceptProviderConcept::NotifyParent, NotifyParent, IDynamicConceptProviderConcept.NotifyParent, IDynamicConceptProviderConcept::NotifyParent, IDynamicConceptProviderConcept.NotifyParent
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicConceptProviderConcept::NotifyParent method
+# IDynamicConceptProviderConcept::NotifyParent
 
 
 ## -description

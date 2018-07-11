@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.EnumerateArguments
-title: IDataModelScriptDebugStackFrame::EnumerateArguments method
+title: IDataModelScriptDebugStackFrame::EnumerateArguments
 author: windows-driver-content
 description: TBD
-ms.assetid: dbfa3a60-70af-497c-ba3d-2f22d406b102
+ms.assetid: 2e74264f-f0c4-4951-8cbd-dc63d5b32037
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugStackFrame, IDataModelScriptDebugStackFrame::EnumerateArguments, EnumerateArguments,IDataModelScriptDebugStackFrame.EnumerateArguments
+ms.keywords: IDataModelScriptDebugStackFrame::EnumerateArguments, EnumerateArguments, IDataModelScriptDebugStackFrame.EnumerateArguments, IDataModelScriptDebugStackFrame::EnumerateArguments, IDataModelScriptDebugStackFrame.EnumerateArguments
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugStackFrame::EnumerateArguments method
+# IDataModelScriptDebugStackFrame::EnumerateArguments
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IIterableConcept.QueryInterface
-title: IIterableConcept::QueryInterface method
+title: IIterableConcept::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 61fd9c33-6fde-4d56-b366-17b50704f6c3
+ms.assetid: 5840a32d-150e-4a69-b43f-3465e754f21c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IIterableConcept, IIterableConcept::QueryInterface, QueryInterface,IIterableConcept.QueryInterface
+ms.keywords: IIterableConcept::QueryInterface, QueryInterface, IIterableConcept.QueryInterface, IIterableConcept::QueryInterface, IIterableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IIterableConcept::QueryInterface method
+# IIterableConcept::QueryInterface
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.IsEqualTo
-title: IModelObject::IsEqualTo method
+title: IModelObject::IsEqualTo
 author: windows-driver-content
 description: TBD
-ms.assetid: 79800709-302e-440c-9ca2-703f711735a1
+ms.assetid: 06dd5b3c-8216-444b-82a7-dcfbf0361a30
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::IsEqualTo, IsEqualTo,IModelObject.IsEqualTo
+ms.keywords: IModelObject::IsEqualTo, IsEqualTo, IModelObject.IsEqualTo, IModelObject::IsEqualTo, IModelObject.IsEqualTo
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::IsEqualTo method
+# IModelObject::IsEqualTo
 
 
 ## -description

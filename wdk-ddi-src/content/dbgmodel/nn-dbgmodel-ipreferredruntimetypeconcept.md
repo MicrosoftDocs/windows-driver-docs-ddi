@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IPreferredRuntimeTypeConcept
 title: IPreferredRuntimeTypeConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: 30859453-126b-423b-9f3f-4b6280785856
+ms.assetid: db2befcc-f796-49d1-b875-532adf3bec5a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

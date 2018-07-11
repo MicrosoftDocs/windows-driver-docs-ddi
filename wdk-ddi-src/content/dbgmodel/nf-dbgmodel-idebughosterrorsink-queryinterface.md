@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostErrorSink.QueryInterface
-title: IDebugHostErrorSink::QueryInterface method
+title: IDebugHostErrorSink::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 9e224da4-58c4-457c-8c17-708b3278325c
+ms.assetid: 3166599e-94ec-4ca7-b883-b8353ced57f0
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostErrorSink, IDebugHostErrorSink::QueryInterface, QueryInterface,IDebugHostErrorSink.QueryInterface
+ms.keywords: IDebugHostErrorSink::QueryInterface, QueryInterface, IDebugHostErrorSink.QueryInterface, IDebugHostErrorSink::QueryInterface, IDebugHostErrorSink.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostErrorSink::QueryInterface method
+# IDebugHostErrorSink::QueryInterface
 
 
 ## -description

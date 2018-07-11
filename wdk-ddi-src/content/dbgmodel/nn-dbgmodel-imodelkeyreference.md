@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IModelKeyReference
 title: IModelKeyReference
 author: windows-driver-content
 description: TBD
-ms.assetid: 9c939276-f7aa-4229-acdf-7a19660fba87
+ms.assetid: f92f8963-479b-4f90-abef-5ad227e8781c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

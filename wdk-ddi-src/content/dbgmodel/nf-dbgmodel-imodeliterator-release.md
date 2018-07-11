@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelIterator.Release
-title: IModelIterator::Release method
+title: IModelIterator::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 97cbfd72-5a09-4956-b899-0d8b328929ec
+ms.assetid: a05761bf-cbb7-405a-9e8d-4bf096281488
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelIterator, IModelIterator::Release, Release,IModelIterator.Release
+ms.keywords: IModelIterator::Release, Release, IModelIterator.Release, IModelIterator::Release, IModelIterator.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelIterator::Release method
+# IModelIterator::Release
 
 
 ## -description

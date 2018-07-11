@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.UnregisterNamedModel
-title: IDataModelManager2::UnregisterNamedModel method
+title: IDataModelManager2::UnregisterNamedModel
 author: windows-driver-content
 description: TBD
-ms.assetid: 014d64df-0789-447b-9d77-28ccc55d9118
+ms.assetid: 0bdd2601-f489-4b9d-9b9f-41f058044dc8
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::UnregisterNamedModel, UnregisterNamedModel,IDataModelManager2.UnregisterNamedModel
+ms.keywords: IDataModelManager2::UnregisterNamedModel, UnregisterNamedModel, IDataModelManager2.UnregisterNamedModel, IDataModelManager2::UnregisterNamedModel, IDataModelManager2.UnregisterNamedModel
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::UnregisterNamedModel method
+# IDataModelManager2::UnregisterNamedModel
 
 
 ## -description

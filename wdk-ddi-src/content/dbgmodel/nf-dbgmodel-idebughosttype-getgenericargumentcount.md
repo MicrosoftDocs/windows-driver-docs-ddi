@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetGenericArgumentCount
-title: IDebugHostType::GetGenericArgumentCount method
+title: IDebugHostType::GetGenericArgumentCount
 author: windows-driver-content
 description: TBD
-ms.assetid: 12eaca65-0ff4-4e56-8fd4-26d2228979b6
+ms.assetid: 1451041e-41f1-47d2-a259-dbdfb46cf8b8
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::GetGenericArgumentCount, GetGenericArgumentCount,IDebugHostType.GetGenericArgumentCount
+ms.keywords: IDebugHostType::GetGenericArgumentCount, GetGenericArgumentCount, IDebugHostType.GetGenericArgumentCount, IDebugHostType::GetGenericArgumentCount, IDebugHostType.GetGenericArgumentCount
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::GetGenericArgumentCount method
+# IDebugHostType::GetGenericArgumentCount
 
 
 ## -description

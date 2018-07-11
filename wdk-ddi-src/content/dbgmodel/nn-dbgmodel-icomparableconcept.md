@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IComparableConcept
 title: IComparableConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: c9c52f29-1756-47e8-89e5-989086b944ec
+ms.assetid: ddbad055-aafe-4ba0-8265-1b9216610f20
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

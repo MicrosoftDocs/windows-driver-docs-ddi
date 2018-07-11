@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.RegisterNamedModel
-title: IDataModelManager::RegisterNamedModel method
+title: IDataModelManager::RegisterNamedModel
 author: windows-driver-content
 description: TBD
-ms.assetid: 6344b7d3-4197-4ef8-85bf-1aab69698fe0
+ms.assetid: 77495094-e485-4c10-b7b6-a53c18180610
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager, IDataModelManager::RegisterNamedModel, RegisterNamedModel,IDataModelManager.RegisterNamedModel
+ms.keywords: IDataModelManager::RegisterNamedModel, RegisterNamedModel, IDataModelManager.RegisterNamedModel, IDataModelManager::RegisterNamedModel, IDataModelManager.RegisterNamedModel
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager::RegisterNamedModel method
+# IDataModelManager::RegisterNamedModel
 
 
 ## -description

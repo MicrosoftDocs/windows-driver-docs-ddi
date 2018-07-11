@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IEquatableConcept.QueryInterface
-title: IEquatableConcept::QueryInterface method
+title: IEquatableConcept::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 9ded0bd4-a151-471b-9dae-8a677a2a9d03
+ms.assetid: f0a9e269-c78b-4425-8e6c-0a3cce39d219
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IEquatableConcept, IEquatableConcept::QueryInterface, QueryInterface,IEquatableConcept.QueryInterface
+ms.keywords: IEquatableConcept::QueryInterface, QueryInterface, IEquatableConcept.QueryInterface, IEquatableConcept::QueryInterface, IEquatableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IEquatableConcept::QueryInterface method
+# IEquatableConcept::QueryInterface
 
 
 ## -description

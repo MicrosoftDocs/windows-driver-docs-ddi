@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.GetPosition
-title: IDataModelScriptDebugStackFrame::GetPosition method
+title: IDataModelScriptDebugStackFrame::GetPosition
 author: windows-driver-content
 description: TBD
-ms.assetid: c529696c-49ba-4246-9680-00541b247577
+ms.assetid: b6f12839-5733-4d0f-8d6e-fa3cfbc58d6e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugStackFrame, IDataModelScriptDebugStackFrame::GetPosition, GetPosition,IDataModelScriptDebugStackFrame.GetPosition
+ms.keywords: IDataModelScriptDebugStackFrame::GetPosition, GetPosition, IDataModelScriptDebugStackFrame.GetPosition, IDataModelScriptDebugStackFrame::GetPosition, IDataModelScriptDebugStackFrame.GetPosition
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugStackFrame::GetPosition method
+# IDataModelScriptDebugStackFrame::GetPosition
 
 
 ## -description

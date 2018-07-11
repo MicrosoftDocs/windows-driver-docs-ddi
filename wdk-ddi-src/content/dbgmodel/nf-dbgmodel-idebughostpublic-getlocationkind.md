@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostPublic.GetLocationKind
-title: IDebugHostPublic::GetLocationKind method
+title: IDebugHostPublic::GetLocationKind
 author: windows-driver-content
 description: TBD
-ms.assetid: 362ece70-34f7-4d1a-9066-5bdeb1b18f5f
+ms.assetid: 9cff0b19-7c3f-4ea2-8cb6-44ca813eb452
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostPublic, IDebugHostPublic::GetLocationKind, GetLocationKind,IDebugHostPublic.GetLocationKind
+ms.keywords: IDebugHostPublic::GetLocationKind, GetLocationKind, IDebugHostPublic.GetLocationKind, IDebugHostPublic::GetLocationKind, IDebugHostPublic.GetLocationKind
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostPublic::GetLocationKind method
+# IDebugHostPublic::GetLocationKind
 
 
 ## -description

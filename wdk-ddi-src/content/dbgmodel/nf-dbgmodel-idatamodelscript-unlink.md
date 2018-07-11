@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScript.Unlink
-title: IDataModelScript::Unlink method
+title: IDataModelScript::Unlink
 author: windows-driver-content
 description: TBD
-ms.assetid: d4f8193e-cbf3-404f-a737-b5381180c7b0
+ms.assetid: 356a8c0b-5ece-4968-9117-fbb146264aa3
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScript, IDataModelScript::Unlink, Unlink,IDataModelScript.Unlink
+ms.keywords: IDataModelScript::Unlink, Unlink, IDataModelScript.Unlink, IDataModelScript::Unlink, IDataModelScript.Unlink
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScript::Unlink method
+# IDataModelScript::Unlink
 
 
 ## -description

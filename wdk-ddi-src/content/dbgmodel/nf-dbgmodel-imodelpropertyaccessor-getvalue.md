@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelPropertyAccessor.GetValue
-title: IModelPropertyAccessor::GetValue method
+title: IModelPropertyAccessor::GetValue
 author: windows-driver-content
 description: TBD
-ms.assetid: 6ef2583b-d779-462e-9946-a34d6b63e9d4
+ms.assetid: ac405c3d-b005-4173-8b29-dedc048db1b3
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelPropertyAccessor, IModelPropertyAccessor::GetValue, GetValue,IModelPropertyAccessor.GetValue
+ms.keywords: IModelPropertyAccessor::GetValue, GetValue, IModelPropertyAccessor.GetValue, IModelPropertyAccessor::GetValue, IModelPropertyAccessor.GetValue
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelPropertyAccessor::GetValue method
+# IModelPropertyAccessor::GetValue
 
 
 ## -description

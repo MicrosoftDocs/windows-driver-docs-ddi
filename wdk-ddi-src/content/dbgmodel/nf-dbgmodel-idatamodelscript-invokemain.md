@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScript.InvokeMain
-title: IDataModelScript::InvokeMain method
+title: IDataModelScript::InvokeMain
 author: windows-driver-content
 description: TBD
-ms.assetid: 18b70a7c-a9b2-45ae-8cc3-ac056f78689d
+ms.assetid: c2ade702-c9fb-478c-bca7-f92fdbd748e2
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScript, IDataModelScript::InvokeMain, InvokeMain,IDataModelScript.InvokeMain
+ms.keywords: IDataModelScript::InvokeMain, InvokeMain, IDataModelScript.InvokeMain, IDataModelScript::InvokeMain, IDataModelScript.InvokeMain
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScript::InvokeMain method
+# IDataModelScript::InvokeMain
 
 
 ## -description

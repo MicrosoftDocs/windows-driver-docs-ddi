@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory2.ReadPointers
-title: IDebugHostMemory2::ReadPointers method
+title: IDebugHostMemory2::ReadPointers
 author: windows-driver-content
 description: TBD
-ms.assetid: aa33512f-0d0b-4445-a75f-2da4456f100d
+ms.assetid: 69e56a93-2387-44fc-b127-94b165d2cb51
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostMemory2, IDebugHostMemory2::ReadPointers, ReadPointers,IDebugHostMemory2.ReadPointers
+ms.keywords: IDebugHostMemory2::ReadPointers, ReadPointers, IDebugHostMemory2.ReadPointers, IDebugHostMemory2::ReadPointers, IDebugHostMemory2.ReadPointers
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostMemory2::ReadPointers method
+# IDebugHostMemory2::ReadPointers
 
 
 ## -description

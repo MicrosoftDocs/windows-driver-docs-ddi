@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelIterator.AddRef
-title: IModelIterator::AddRef method
+title: IModelIterator::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: d3abf3da-94c8-4121-87b9-ca77c3eb949d
+ms.assetid: 2977582b-6724-4e46-9364-7aefbe8e4771
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelIterator, IModelIterator::AddRef, AddRef,IModelIterator.AddRef
+ms.keywords: IModelIterator::AddRef, AddRef, IModelIterator.AddRef, IModelIterator::AddRef, IModelIterator.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelIterator::AddRef method
+# IModelIterator::AddRef
 
 
 ## -description

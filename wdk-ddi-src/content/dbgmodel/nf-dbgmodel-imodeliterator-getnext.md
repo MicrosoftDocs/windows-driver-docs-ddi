@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelIterator.GetNext
-title: IModelIterator::GetNext method
+title: IModelIterator::GetNext
 author: windows-driver-content
 description: TBD
-ms.assetid: b9dc2345-d7b0-4365-84d9-7574292c951f
+ms.assetid: 27a21fcb-dc5e-4551-a48d-321db2715aec
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelIterator, IModelIterator::GetNext, GetNext,IModelIterator.GetNext
+ms.keywords: IModelIterator::GetNext, GetNext, IModelIterator.GetNext, IModelIterator::GetNext, IModelIterator.GetNext
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelIterator::GetNext method
+# IModelIterator::GetNext
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbol2.GetLanguage
-title: IDebugHostSymbol2::GetLanguage method
+title: IDebugHostSymbol2::GetLanguage
 author: windows-driver-content
 description: TBD
-ms.assetid: 0a2b8007-f00f-4ba8-be35-b960da66d62a
+ms.assetid: b97fb7f8-ccd2-4450-b1fb-a3ea218889ec
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostSymbol2, IDebugHostSymbol2::GetLanguage, GetLanguage,IDebugHostSymbol2.GetLanguage
+ms.keywords: IDebugHostSymbol2::GetLanguage, GetLanguage, IDebugHostSymbol2.GetLanguage, IDebugHostSymbol2::GetLanguage, IDebugHostSymbol2.GetLanguage
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostSymbol2::GetLanguage method
+# IDebugHostSymbol2::GetLanguage
 
 
 ## -description

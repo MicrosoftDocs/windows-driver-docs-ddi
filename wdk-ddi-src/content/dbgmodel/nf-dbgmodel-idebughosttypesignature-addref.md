@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostTypeSignature.AddRef
-title: IDebugHostTypeSignature::AddRef method
+title: IDebugHostTypeSignature::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 20d35aba-aebf-4715-924f-8502bb44756d
+ms.assetid: 906e0710-948f-470e-b5e5-ddbc825b6656
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostTypeSignature, IDebugHostTypeSignature::AddRef, AddRef,IDebugHostTypeSignature.AddRef
+ms.keywords: IDebugHostTypeSignature::AddRef, AddRef, IDebugHostTypeSignature.AddRef, IDebugHostTypeSignature::AddRef, IDebugHostTypeSignature.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostTypeSignature::AddRef method
+# IDebugHostTypeSignature::AddRef
 
 
 ## -description

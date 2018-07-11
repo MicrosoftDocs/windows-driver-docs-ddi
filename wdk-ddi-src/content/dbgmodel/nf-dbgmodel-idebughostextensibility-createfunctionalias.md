@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostExtensibility.CreateFunctionAlias
-title: IDebugHostExtensibility::CreateFunctionAlias method
+title: IDebugHostExtensibility::CreateFunctionAlias
 author: windows-driver-content
 description: TBD
-ms.assetid: 610f6759-f398-4ff8-9773-a149605157aa
+ms.assetid: 73d90254-12bd-478b-a80e-57d15ea88ca8
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostExtensibility, IDebugHostExtensibility::CreateFunctionAlias, CreateFunctionAlias,IDebugHostExtensibility.CreateFunctionAlias
+ms.keywords: IDebugHostExtensibility::CreateFunctionAlias, CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias, IDebugHostExtensibility::CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostExtensibility::CreateFunctionAlias method
+# IDebugHostExtensibility::CreateFunctionAlias
 
 
 ## -description

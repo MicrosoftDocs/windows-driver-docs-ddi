@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.AddParentModel
-title: IModelObject::AddParentModel method
+title: IModelObject::AddParentModel
 author: windows-driver-content
 description: TBD
-ms.assetid: f2deb9b9-aa1d-496d-8593-05d3062d9815
+ms.assetid: 9e84b804-6d72-41e1-a548-edf726c669fc
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::AddParentModel, AddParentModel,IModelObject.AddParentModel
+ms.keywords: IModelObject::AddParentModel, AddParentModel, IModelObject.AddParentModel, IModelObject::AddParentModel, IModelObject.AddParentModel
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::AddParentModel method
+# IModelObject::AddParentModel
 
 
 ## -description

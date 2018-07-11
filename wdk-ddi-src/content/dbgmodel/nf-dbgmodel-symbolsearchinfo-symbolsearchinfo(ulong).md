@@ -3,7 +3,7 @@ UID: NF:dbgmodel.SymbolSearchInfo.SymbolSearchInfo(ULONG)
 title: SymbolSearchInfo function
 author: windows-driver-content
 description: TBD
-ms.assetid: 974b9c1b-6125-41c6-947d-167e15461f8e
+ms.assetid: 46053e1a-fb8b-4ec0-8a5e-aa89849257d9
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
@@ -28,13 +28,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	DllExport
+-	
 api_location: 
--	NtosKrnl.exe
+-	
 api_name: 
 -	SymbolSearchInfo
 product: Windows
 targetos: Windows
+
 
 ---
 

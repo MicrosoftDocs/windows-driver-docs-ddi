@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProvider.Release
-title: IDataModelScriptProvider::Release method
+title: IDataModelScriptProvider::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: c957761d-15c1-445d-be9b-2aae60df89ef
+ms.assetid: 5c887407-997e-4b61-a201-7766bec0da1f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptProvider, IDataModelScriptProvider::Release, Release,IDataModelScriptProvider.Release
+ms.keywords: IDataModelScriptProvider::Release, Release, IDataModelScriptProvider.Release, IDataModelScriptProvider::Release, IDataModelScriptProvider.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptProvider::Release method
+# IDataModelScriptProvider::Release
 
 
 ## -description

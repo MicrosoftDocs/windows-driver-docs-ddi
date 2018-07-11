@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IModelIterator
 title: IModelIterator
 author: windows-driver-content
 description: TBD
-ms.assetid: 365b59e2-fa43-45b5-a53b-a01e6d2b4320
+ms.assetid: 29497013-68f8-4e35-9402-e13faf9e9483
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

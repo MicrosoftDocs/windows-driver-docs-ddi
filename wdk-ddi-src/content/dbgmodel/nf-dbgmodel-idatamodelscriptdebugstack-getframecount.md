@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugStack.GetFrameCount
-title: IDataModelScriptDebugStack::GetFrameCount method
+title: IDataModelScriptDebugStack::GetFrameCount
 author: windows-driver-content
 description: TBD
-ms.assetid: bd68c2ef-b3f9-42cf-93d4-950bc082fe93
+ms.assetid: 2ac5e85e-6f44-46a3-baab-8c677775833c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugStack, IDataModelScriptDebugStack::GetFrameCount, GetFrameCount,IDataModelScriptDebugStack.GetFrameCount
+ms.keywords: IDataModelScriptDebugStack::GetFrameCount, GetFrameCount, IDataModelScriptDebugStack.GetFrameCount, IDataModelScriptDebugStack::GetFrameCount, IDataModelScriptDebugStack.GetFrameCount
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugStack::GetFrameCount method
+# IDataModelScriptDebugStack::GetFrameCount
 
 
 ## -description

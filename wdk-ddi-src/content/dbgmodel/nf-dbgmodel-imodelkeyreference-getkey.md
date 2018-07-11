@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.GetKey
-title: IModelKeyReference::GetKey method
+title: IModelKeyReference::GetKey
 author: windows-driver-content
 description: TBD
-ms.assetid: ec7be00d-743c-42e8-923a-4522f4422695
+ms.assetid: b5aa7480-e169-4b85-b20f-f90711d39fa4
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelKeyReference, IModelKeyReference::GetKey, GetKey,IModelKeyReference.GetKey
+ms.keywords: IModelKeyReference::GetKey, GetKey, IModelKeyReference.GetKey, IModelKeyReference::GetKey, IModelKeyReference.GetKey
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelKeyReference::GetKey method
+# IModelKeyReference::GetKey
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.SetContextForDataModel
-title: IModelObject::SetContextForDataModel method
+title: IModelObject::SetContextForDataModel
 author: windows-driver-content
 description: TBD
-ms.assetid: b1ac848a-84c8-4451-aa74-24e2c5fd88b5
+ms.assetid: 717eb159-c61b-4061-9ccf-3a7b21f353e1
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::SetContextForDataModel, SetContextForDataModel,IModelObject.SetContextForDataModel
+ms.keywords: IModelObject::SetContextForDataModel, SetContextForDataModel, IModelObject.SetContextForDataModel, IModelObject::SetContextForDataModel, IModelObject.SetContextForDataModel
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::SetContextForDataModel method
+# IModelObject::SetContextForDataModel
 
 
 ## -description

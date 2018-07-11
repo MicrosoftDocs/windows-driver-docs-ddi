@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.SetKey
-title: IDynamicKeyProviderConcept::SetKey method
+title: IDynamicKeyProviderConcept::SetKey
 author: windows-driver-content
 description: TBD
-ms.assetid: cabc832d-0ca4-4f4d-b179-d4a31979ffed
+ms.assetid: 8ab2d7b7-8e07-45d8-9de1-e04de3c0f448
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicKeyProviderConcept, IDynamicKeyProviderConcept::SetKey, SetKey,IDynamicKeyProviderConcept.SetKey
+ms.keywords: IDynamicKeyProviderConcept::SetKey, SetKey, IDynamicKeyProviderConcept.SetKey, IDynamicKeyProviderConcept::SetKey, IDynamicKeyProviderConcept.SetKey
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicKeyProviderConcept::SetKey method
+# IDynamicKeyProviderConcept::SetKey
 
 
 ## -description

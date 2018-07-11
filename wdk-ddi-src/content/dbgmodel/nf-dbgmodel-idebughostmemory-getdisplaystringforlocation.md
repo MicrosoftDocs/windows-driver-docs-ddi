@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory.GetDisplayStringForLocation
-title: IDebugHostMemory::GetDisplayStringForLocation method
+title: IDebugHostMemory::GetDisplayStringForLocation
 author: windows-driver-content
 description: TBD
-ms.assetid: d98882df-ecf2-4f26-8476-a54d9fa6c240
+ms.assetid: c9b9c5d6-4c5f-49ea-949e-846ec4a8a874
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostMemory, IDebugHostMemory::GetDisplayStringForLocation, GetDisplayStringForLocation,IDebugHostMemory.GetDisplayStringForLocation
+ms.keywords: IDebugHostMemory::GetDisplayStringForLocation, GetDisplayStringForLocation, IDebugHostMemory.GetDisplayStringForLocation, IDebugHostMemory::GetDisplayStringForLocation, IDebugHostMemory.GetDisplayStringForLocation
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostMemory::GetDisplayStringForLocation method
+# IDebugHostMemory::GetDisplayStringForLocation
 
 
 ## -description

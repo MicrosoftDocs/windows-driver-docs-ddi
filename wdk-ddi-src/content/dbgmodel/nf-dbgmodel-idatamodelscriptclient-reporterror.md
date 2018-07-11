@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptClient.ReportError
-title: IDataModelScriptClient::ReportError method
+title: IDataModelScriptClient::ReportError
 author: windows-driver-content
 description: TBD
-ms.assetid: 014ace13-d059-4b78-8037-bdc67e349b30
+ms.assetid: c8cedcee-002c-4373-a518-31aad3cee313
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptClient, IDataModelScriptClient::ReportError, ReportError,IDataModelScriptClient.ReportError
+ms.keywords: IDataModelScriptClient::ReportError, ReportError, IDataModelScriptClient.ReportError, IDataModelScriptClient::ReportError, IDataModelScriptClient.ReportError
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptClient::ReportError method
+# IDataModelScriptClient::ReportError
 
 
 ## -description

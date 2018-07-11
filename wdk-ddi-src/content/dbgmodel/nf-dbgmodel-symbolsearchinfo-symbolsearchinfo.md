@@ -3,7 +3,7 @@ UID: NF:dbgmodel.SymbolSearchInfo.SymbolSearchInfo
 title: SymbolSearchInfo function
 author: windows-driver-content
 description: TBD
-ms.assetid: 6f7ab3d4-a5fb-43dd-81e2-8505e4e3ae8d
+ms.assetid: ba74703e-32e0-46eb-a219-b8804c21d8b2
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
@@ -28,13 +28,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	DllExport
+-	
 api_location: 
--	NtosKrnl.exe
+-	
 api_name: 
 -	SymbolSearchInfo
 product: Windows
 targetos: Windows
+
 
 ---
 
@@ -47,6 +48,8 @@ TBD
 
 ## -parameters
 
+### -param derivedSize
+TBD
 
 ## -returns
 This function returns .

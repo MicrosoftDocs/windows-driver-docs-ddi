@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.IsTypedef
-title: IDebugHostType2::IsTypedef method
+title: IDebugHostType2::IsTypedef
 author: windows-driver-content
 description: TBD
-ms.assetid: 8fd7b7b9-b15b-4353-a8d0-b9216cba25cc
+ms.assetid: ed83b2e9-318c-4f3f-ba23-b14d31ce057b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType2, IDebugHostType2::IsTypedef, IsTypedef,IDebugHostType2.IsTypedef
+ms.keywords: IDebugHostType2::IsTypedef, IsTypedef, IDebugHostType2.IsTypedef, IDebugHostType2::IsTypedef, IDebugHostType2.IsTypedef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType2::IsTypedef method
+# IDebugHostType2::IsTypedef
 
 
 ## -description

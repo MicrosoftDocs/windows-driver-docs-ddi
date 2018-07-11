@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory2.WriteBytes
-title: IDebugHostMemory2::WriteBytes method
+title: IDebugHostMemory2::WriteBytes
 author: windows-driver-content
 description: TBD
-ms.assetid: 036574a5-20b4-43dd-afbd-8fa14246f400
+ms.assetid: 63704020-5225-47dd-a388-151b5b02885f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostMemory2, IDebugHostMemory2::WriteBytes, WriteBytes,IDebugHostMemory2.WriteBytes
+ms.keywords: IDebugHostMemory2::WriteBytes, WriteBytes, IDebugHostMemory2.WriteBytes, IDebugHostMemory2::WriteBytes, IDebugHostMemory2.WriteBytes
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostMemory2::WriteBytes method
+# IDebugHostMemory2::WriteBytes
 
 
 ## -description

@@ -3,7 +3,7 @@ UID: NS:dbgmodel.ScriptDebugPosition
 title: ScriptDebugPosition
 author: windows-driver-content
 description: 
-ms.assetid: f99d3eac-1e6b-4f91-95bb-0ffa97afde55
+ms.assetid: 2a20c74b-7670-40c8-b0bc-048532bdf7ac
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct

@@ -3,7 +3,7 @@ UID: NE:dbgmodel.ScriptExecutionKind
 title: ScriptExecutionKind
 author: windows-driver-content
 description: 
-ms.assetid: 5ebce9bf-bbcd-47f0-ba3b-e6aac1e9f997
+ms.assetid: f39e999b-9d77-496b-841d-c89d13b776d3
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

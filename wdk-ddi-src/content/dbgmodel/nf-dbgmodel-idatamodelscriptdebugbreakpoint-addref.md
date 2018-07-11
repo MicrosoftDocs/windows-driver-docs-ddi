@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.AddRef
-title: IDataModelScriptDebugBreakpoint::AddRef method
+title: IDataModelScriptDebugBreakpoint::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: b2cfca51-931d-4959-9e5f-456925a035a1
+ms.assetid: 583d4bc4-0d65-4af0-a5f9-79cbddb4de4f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugBreakpoint, IDataModelScriptDebugBreakpoint::AddRef, AddRef,IDataModelScriptDebugBreakpoint.AddRef
+ms.keywords: IDataModelScriptDebugBreakpoint::AddRef, AddRef, IDataModelScriptDebugBreakpoint.AddRef, IDataModelScriptDebugBreakpoint::AddRef, IDataModelScriptDebugBreakpoint.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugBreakpoint::AddRef method
+# IDataModelScriptDebugBreakpoint::AddRef
 
 
 ## -description

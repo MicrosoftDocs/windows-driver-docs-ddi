@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IHostDataModelAccess
 title: IHostDataModelAccess
 author: windows-driver-content
 description: TBD
-ms.assetid: 74954643-30a3-4d4a-a897-f2fde23d2547
+ms.assetid: 00f72d8d-6a79-4000-b68d-05ba984585f6
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

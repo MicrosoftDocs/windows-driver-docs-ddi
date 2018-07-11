@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelConcept.Release
-title: IDataModelConcept::Release method
+title: IDataModelConcept::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 91c45f39-533f-4bb9-8a25-9477dea2ddd2
+ms.assetid: c200852b-61de-4ac3-a12b-ed3b705336f6
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelConcept, IDataModelConcept::Release, Release,IDataModelConcept.Release
+ms.keywords: IDataModelConcept::Release, Release, IDataModelConcept.Release, IDataModelConcept::Release, IDataModelConcept.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelConcept::Release method
+# IDataModelConcept::Release
 
 
 ## -description

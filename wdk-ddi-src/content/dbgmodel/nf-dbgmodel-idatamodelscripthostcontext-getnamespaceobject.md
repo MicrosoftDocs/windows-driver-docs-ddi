@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptHostContext.GetNamespaceObject
-title: IDataModelScriptHostContext::GetNamespaceObject method
+title: IDataModelScriptHostContext::GetNamespaceObject
 author: windows-driver-content
 description: TBD
-ms.assetid: ec13b84f-0386-43fa-87bd-1109c4736a22
+ms.assetid: 10b093f4-f047-4710-8bbe-aa9ce3973021
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptHostContext, IDataModelScriptHostContext::GetNamespaceObject, GetNamespaceObject,IDataModelScriptHostContext.GetNamespaceObject
+ms.keywords: IDataModelScriptHostContext::GetNamespaceObject, GetNamespaceObject, IDataModelScriptHostContext.GetNamespaceObject, IDataModelScriptHostContext::GetNamespaceObject, IDataModelScriptHostContext.GetNamespaceObject
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptHostContext::GetNamespaceObject method
+# IDataModelScriptHostContext::GetNamespaceObject
 
 
 ## -description

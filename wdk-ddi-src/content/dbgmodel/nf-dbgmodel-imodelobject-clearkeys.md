@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.ClearKeys
-title: IModelObject::ClearKeys method
+title: IModelObject::ClearKeys
 author: windows-driver-content
 description: TBD
-ms.assetid: 8e8a39b3-6414-450e-aefe-ec31daf708f9
+ms.assetid: 7922533c-4454-4300-943d-5a7c3cd68f22
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::ClearKeys, ClearKeys,IModelObject.ClearKeys
+ms.keywords: IModelObject::ClearKeys, ClearKeys, IModelObject.ClearKeys, IModelObject::ClearKeys, IModelObject.ClearKeys
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::ClearKeys method
+# IModelObject::ClearKeys
 
 
 ## -description

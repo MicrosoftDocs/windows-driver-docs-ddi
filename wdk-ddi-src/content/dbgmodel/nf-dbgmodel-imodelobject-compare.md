@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.Compare
-title: IModelObject::Compare method
+title: IModelObject::Compare
 author: windows-driver-content
 description: TBD
-ms.assetid: bd3e119e-7709-4cf2-8f09-c6fd8d1d9134
+ms.assetid: 18bf4d91-bbd6-4c5a-8b21-962fbd94c8fb
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::Compare, Compare,IModelObject.Compare
+ms.keywords: IModelObject::Compare, Compare, IModelObject.Compare, IModelObject::Compare, IModelObject.Compare
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::Compare method
+# IModelObject::Compare
 
 
 ## -description

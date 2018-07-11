@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostEvaluator2.AssignTo
-title: IDebugHostEvaluator2::AssignTo method
+title: IDebugHostEvaluator2::AssignTo
 author: windows-driver-content
 description: TBD
-ms.assetid: 281c6b97-91cb-4bf2-9262-27fb84e3db35
+ms.assetid: 945088b8-9914-4b46-8d08-1d48f97c8f23
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostEvaluator2, IDebugHostEvaluator2::AssignTo, AssignTo,IDebugHostEvaluator2.AssignTo
+ms.keywords: IDebugHostEvaluator2::AssignTo, AssignTo, IDebugHostEvaluator2.AssignTo, IDebugHostEvaluator2::AssignTo, IDebugHostEvaluator2.AssignTo
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostEvaluator2::AssignTo method
+# IDebugHostEvaluator2::AssignTo
 
 
 ## -description

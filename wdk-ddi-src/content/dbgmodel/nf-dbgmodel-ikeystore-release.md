@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IKeyStore.Release
-title: IKeyStore::Release method
+title: IKeyStore::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 9d933d56-5e85-482c-9d21-0d77cd8aaa67
+ms.assetid: aead1e27-6a4e-4e94-be63-73099198d4cf
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IKeyStore, IKeyStore::Release, Release,IKeyStore.Release
+ms.keywords: IKeyStore::Release, Release, IKeyStore.Release, IKeyStore::Release, IKeyStore.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IKeyStore::Release method
+# IKeyStore::Release
 
 
 ## -description

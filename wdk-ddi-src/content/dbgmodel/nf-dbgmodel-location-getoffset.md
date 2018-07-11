@@ -3,7 +3,7 @@ UID: NF:dbgmodel.Location.GetOffset
 title: GetOffset function
 author: windows-driver-content
 description: TBD
-ms.assetid: 1a157268-5aec-487e-9619-d9fcec4b3f7e
+ms.assetid: 27a75e72-a15f-4c7c-a995-4f68b6980c2b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
@@ -28,13 +28,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	DllExport
+-	
 api_location: 
--	NtosKrnl.exe
+-	
 api_name: 
 -	GetOffset
 product: Windows
 targetos: Windows
+
 
 ---
 

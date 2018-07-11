@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.Remove
-title: IDataModelScriptDebugBreakpoint::Remove method
+title: IDataModelScriptDebugBreakpoint::Remove
 author: windows-driver-content
 description: TBD
-ms.assetid: 76b942fe-9ad4-4ace-8f4f-2c6e7b9d789b
+ms.assetid: b5109158-3f5d-43fa-a2f3-53f7bf74026c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugBreakpoint, IDataModelScriptDebugBreakpoint::Remove, Remove,IDataModelScriptDebugBreakpoint.Remove
+ms.keywords: IDataModelScriptDebugBreakpoint::Remove, Remove, IDataModelScriptDebugBreakpoint.Remove, IDataModelScriptDebugBreakpoint::Remove, IDataModelScriptDebugBreakpoint.Remove
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugBreakpoint::Remove method
+# IDataModelScriptDebugBreakpoint::Remove
 
 
 ## -description

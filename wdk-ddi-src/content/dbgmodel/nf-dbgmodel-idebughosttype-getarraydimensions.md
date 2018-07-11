@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetArrayDimensions
-title: IDebugHostType::GetArrayDimensions method
+title: IDebugHostType::GetArrayDimensions
 author: windows-driver-content
 description: TBD
-ms.assetid: d573f564-191f-4f53-b584-753a32b24f79
+ms.assetid: a5950b75-3dea-4076-bcff-71d530899c98
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::GetArrayDimensions, GetArrayDimensions,IDebugHostType.GetArrayDimensions
+ms.keywords: IDebugHostType::GetArrayDimensions, GetArrayDimensions, IDebugHostType.GetArrayDimensions, IDebugHostType::GetArrayDimensions, IDebugHostType.GetArrayDimensions
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::GetArrayDimensions method
+# IDebugHostType::GetArrayDimensions
 
 
 ## -description

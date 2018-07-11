@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IKeyEnumerator.QueryInterface
-title: IKeyEnumerator::QueryInterface method
+title: IKeyEnumerator::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 509790e5-f1a5-4d27-bcb3-fe225bea8d6c
+ms.assetid: 4f870fe7-0c4f-4cf0-aa73-78802329d35d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IKeyEnumerator, IKeyEnumerator::QueryInterface, QueryInterface,IKeyEnumerator.QueryInterface
+ms.keywords: IKeyEnumerator::QueryInterface, QueryInterface, IKeyEnumerator.QueryInterface, IKeyEnumerator::QueryInterface, IKeyEnumerator.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IKeyEnumerator::QueryInterface method
+# IKeyEnumerator::QueryInterface
 
 
 ## -description

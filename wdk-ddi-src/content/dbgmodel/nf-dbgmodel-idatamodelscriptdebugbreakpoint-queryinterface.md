@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.QueryInterface
-title: IDataModelScriptDebugBreakpoint::QueryInterface method
+title: IDataModelScriptDebugBreakpoint::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 9227336c-c396-4cb7-8157-729a58a04e30
+ms.assetid: ac0b3d29-cf5f-482d-9cb1-0e74b6e9d999
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugBreakpoint, IDataModelScriptDebugBreakpoint::QueryInterface, QueryInterface,IDataModelScriptDebugBreakpoint.QueryInterface
+ms.keywords: IDataModelScriptDebugBreakpoint::QueryInterface, QueryInterface, IDataModelScriptDebugBreakpoint.QueryInterface, IDataModelScriptDebugBreakpoint::QueryInterface, IDataModelScriptDebugBreakpoint.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugBreakpoint::QueryInterface method
+# IDataModelScriptDebugBreakpoint::QueryInterface
 
 
 ## -description

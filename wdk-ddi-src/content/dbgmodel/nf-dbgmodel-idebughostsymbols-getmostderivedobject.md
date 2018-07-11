@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbols.GetMostDerivedObject
-title: IDebugHostSymbols::GetMostDerivedObject method
+title: IDebugHostSymbols::GetMostDerivedObject
 author: windows-driver-content
 description: TBD
-ms.assetid: e07bde65-26ed-4bd3-a192-58934a2b0389
+ms.assetid: 8fb7a3ae-b941-4332-9699-87b907f33c4a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostSymbols, IDebugHostSymbols::GetMostDerivedObject, GetMostDerivedObject,IDebugHostSymbols.GetMostDerivedObject
+ms.keywords: IDebugHostSymbols::GetMostDerivedObject, GetMostDerivedObject, IDebugHostSymbols.GetMostDerivedObject, IDebugHostSymbols::GetMostDerivedObject, IDebugHostSymbols.GetMostDerivedObject
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostSymbols::GetMostDerivedObject method
+# IDebugHostSymbols::GetMostDerivedObject
 
 
 ## -description

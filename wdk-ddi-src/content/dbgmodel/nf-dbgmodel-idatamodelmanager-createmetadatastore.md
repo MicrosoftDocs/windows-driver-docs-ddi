@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.CreateMetadataStore
-title: IDataModelManager::CreateMetadataStore method
+title: IDataModelManager::CreateMetadataStore
 author: windows-driver-content
 description: TBD
-ms.assetid: 80e4ba8b-4c5a-43e3-bb56-8382e8a02b33
+ms.assetid: e2b707f0-3901-4bf4-8f47-68ab79f6999b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager, IDataModelManager::CreateMetadataStore, CreateMetadataStore,IDataModelManager.CreateMetadataStore
+ms.keywords: IDataModelManager::CreateMetadataStore, CreateMetadataStore, IDataModelManager.CreateMetadataStore, IDataModelManager::CreateMetadataStore, IDataModelManager.CreateMetadataStore
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager::CreateMetadataStore method
+# IDataModelManager::CreateMetadataStore
 
 
 ## -description

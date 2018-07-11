@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelNameBinder.EnumerateReferences
-title: IDataModelNameBinder::EnumerateReferences method
+title: IDataModelNameBinder::EnumerateReferences
 author: windows-driver-content
 description: TBD
-ms.assetid: 6b379a8a-1ea8-4d74-b927-889d9b6dbacf
+ms.assetid: 7959dcc0-5da5-4952-bb98-d7c41950ba35
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelNameBinder, IDataModelNameBinder::EnumerateReferences, EnumerateReferences,IDataModelNameBinder.EnumerateReferences
+ms.keywords: IDataModelNameBinder::EnumerateReferences, EnumerateReferences, IDataModelNameBinder.EnumerateReferences, IDataModelNameBinder::EnumerateReferences, IDataModelNameBinder.EnumerateReferences
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelNameBinder::EnumerateReferences method
+# IDataModelNameBinder::EnumerateReferences
 
 
 ## -description

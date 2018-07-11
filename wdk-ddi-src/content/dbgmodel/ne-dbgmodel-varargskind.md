@@ -3,7 +3,7 @@ UID: NE:dbgmodel.VarArgsKind
 title: VarArgsKind
 author: windows-driver-content
 description: 
-ms.assetid: bcf50e03-1205-4ae9-aead-68a8b5d75765
+ms.assetid: a3779feb-72c5-443a-ba30-dabb7fcd2e5d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

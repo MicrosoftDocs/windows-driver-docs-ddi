@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptManager.UnregisterScriptProvider
-title: IDataModelScriptManager::UnregisterScriptProvider method
+title: IDataModelScriptManager::UnregisterScriptProvider
 author: windows-driver-content
 description: TBD
-ms.assetid: a95c2a86-7e14-4321-a5d7-61bc5e79affd
+ms.assetid: ab48f873-3651-41c6-9b7d-6fa720e052ee
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptManager, IDataModelScriptManager::UnregisterScriptProvider, UnregisterScriptProvider,IDataModelScriptManager.UnregisterScriptProvider
+ms.keywords: IDataModelScriptManager::UnregisterScriptProvider, UnregisterScriptProvider, IDataModelScriptManager.UnregisterScriptProvider, IDataModelScriptManager::UnregisterScriptProvider, IDataModelScriptManager.UnregisterScriptProvider
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptManager::UnregisterScriptProvider method
+# IDataModelScriptManager::UnregisterScriptProvider
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpointEnumerator.AddRef
-title: IDataModelScriptDebugBreakpointEnumerator::AddRef method
+title: IDataModelScriptDebugBreakpointEnumerator::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 6a64680e-2c82-4134-bc68-059f82410fb3
+ms.assetid: 7be844a4-a086-44a5-88d3-c96c02dd3271
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugBreakpointEnumerator, IDataModelScriptDebugBreakpointEnumerator::AddRef, AddRef,IDataModelScriptDebugBreakpointEnumerator.AddRef
+ms.keywords: IDataModelScriptDebugBreakpointEnumerator::AddRef, AddRef, IDataModelScriptDebugBreakpointEnumerator.AddRef, IDataModelScriptDebugBreakpointEnumerator::AddRef, IDataModelScriptDebugBreakpointEnumerator.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugBreakpointEnumerator::AddRef method
+# IDataModelScriptDebugBreakpointEnumerator::AddRef
 
 
 ## -description

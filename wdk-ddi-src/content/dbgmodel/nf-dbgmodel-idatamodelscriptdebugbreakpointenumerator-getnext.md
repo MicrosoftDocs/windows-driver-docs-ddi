@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpointEnumerator.GetNext
-title: IDataModelScriptDebugBreakpointEnumerator::GetNext method
+title: IDataModelScriptDebugBreakpointEnumerator::GetNext
 author: windows-driver-content
 description: TBD
-ms.assetid: 8e997912-fb66-4fc4-97d5-b2c58eda763b
+ms.assetid: 6b07b694-39dc-4114-9d18-1656680b512b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugBreakpointEnumerator, IDataModelScriptDebugBreakpointEnumerator::GetNext, GetNext,IDataModelScriptDebugBreakpointEnumerator.GetNext
+ms.keywords: IDataModelScriptDebugBreakpointEnumerator::GetNext, GetNext, IDataModelScriptDebugBreakpointEnumerator.GetNext, IDataModelScriptDebugBreakpointEnumerator::GetNext, IDataModelScriptDebugBreakpointEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugBreakpointEnumerator::GetNext method
+# IDataModelScriptDebugBreakpointEnumerator::GetNext
 
 
 ## -description

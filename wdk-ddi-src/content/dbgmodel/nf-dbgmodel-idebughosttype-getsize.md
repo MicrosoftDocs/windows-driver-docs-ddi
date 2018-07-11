@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetSize
-title: IDebugHostType::GetSize method
+title: IDebugHostType::GetSize
 author: windows-driver-content
 description: TBD
-ms.assetid: 33d8aece-ccbb-48ae-9f11-6ceb248b0c40
+ms.assetid: 22a802d1-119b-42d5-9163-f2db9dedbc5c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::GetSize, GetSize,IDebugHostType.GetSize
+ms.keywords: IDebugHostType::GetSize, GetSize, IDebugHostType.GetSize, IDebugHostType::GetSize, IDebugHostType.GetSize
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::GetSize method
+# IDebugHostType::GetSize
 
 
 ## -description

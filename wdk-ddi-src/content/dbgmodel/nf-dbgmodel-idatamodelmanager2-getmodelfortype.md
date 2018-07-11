@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.GetModelForType
-title: IDataModelManager2::GetModelForType method
+title: IDataModelManager2::GetModelForType
 author: windows-driver-content
 description: TBD
-ms.assetid: 4b5995d7-2947-458e-951b-d30bbf917727
+ms.assetid: feaec7e1-6dda-43c6-95c9-7ccbca6472fb
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::GetModelForType, GetModelForType,IDataModelManager2.GetModelForType
+ms.keywords: IDataModelManager2::GetModelForType, GetModelForType, IDataModelManager2.GetModelForType, IDataModelManager2::GetModelForType, IDataModelManager2.GetModelForType
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::GetModelForType method
+# IDataModelManager2::GetModelForType
 
 
 ## -description

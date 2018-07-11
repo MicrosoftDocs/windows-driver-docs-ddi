@@ -3,7 +3,7 @@ UID: NE:dbgmodel.ScriptChangeKind
 title: ScriptChangeKind
 author: windows-driver-content
 description: 
-ms.assetid: c65fb28b-e58e-4619-afe5-cedf88c093c2
+ms.assetid: 6aca4d1a-84d3-400e-8b00-131364737c9b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

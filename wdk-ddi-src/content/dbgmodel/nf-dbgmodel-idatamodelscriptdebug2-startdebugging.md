@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.StartDebugging
-title: IDataModelScriptDebug2::StartDebugging method
+title: IDataModelScriptDebug2::StartDebugging
 author: windows-driver-content
 description: TBD
-ms.assetid: e8cdf6a1-5ab4-4d71-9d66-573f84dbdd75
+ms.assetid: 2cebdd6c-9883-492a-881d-f3b9175804f2
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebug2, IDataModelScriptDebug2::StartDebugging, StartDebugging,IDataModelScriptDebug2.StartDebugging
+ms.keywords: IDataModelScriptDebug2::StartDebugging, StartDebugging, IDataModelScriptDebug2.StartDebugging, IDataModelScriptDebug2::StartDebugging, IDataModelScriptDebug2.StartDebugging
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebug2::StartDebugging method
+# IDataModelScriptDebug2::StartDebugging
 
 
 ## -description

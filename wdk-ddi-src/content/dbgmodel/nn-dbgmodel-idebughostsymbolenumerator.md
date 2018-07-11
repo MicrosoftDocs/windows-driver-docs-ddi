@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDebugHostSymbolEnumerator
 title: IDebugHostSymbolEnumerator
 author: windows-driver-content
 description: TBD
-ms.assetid: cb2ab43c-81b1-4511-81dc-83d789fa1d25
+ms.assetid: ea0851a6-952e-44c3-819a-ead0568bd22c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

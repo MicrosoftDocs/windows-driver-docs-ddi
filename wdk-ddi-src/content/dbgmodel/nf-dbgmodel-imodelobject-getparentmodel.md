@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetParentModel
-title: IModelObject::GetParentModel method
+title: IModelObject::GetParentModel
 author: windows-driver-content
 description: TBD
-ms.assetid: 3b3c0e03-4085-41ff-9b26-197c6ed8a1f3
+ms.assetid: 14e98994-5d68-40a2-9891-df34e3e6c93f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetParentModel, GetParentModel,IModelObject.GetParentModel
+ms.keywords: IModelObject::GetParentModel, GetParentModel, IModelObject.GetParentModel, IModelObject::GetParentModel, IModelObject.GetParentModel
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetParentModel method
+# IModelObject::GetParentModel
 
 
 ## -description

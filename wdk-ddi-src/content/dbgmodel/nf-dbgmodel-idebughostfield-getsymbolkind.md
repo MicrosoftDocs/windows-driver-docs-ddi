@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostField.GetSymbolKind
-title: IDebugHostField::GetSymbolKind method
+title: IDebugHostField::GetSymbolKind
 author: windows-driver-content
 description: TBD
-ms.assetid: 51dd4c4e-119c-4daf-998a-116824547cb6
+ms.assetid: b7737952-db0d-41e3-b137-232293b513d0
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostField, IDebugHostField::GetSymbolKind, GetSymbolKind,IDebugHostField.GetSymbolKind
+ms.keywords: IDebugHostField::GetSymbolKind, GetSymbolKind, IDebugHostField.GetSymbolKind, IDebugHostField::GetSymbolKind, IDebugHostField.GetSymbolKind
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostField::GetSymbolKind method
+# IDebugHostField::GetSymbolKind
 
 
 ## -description

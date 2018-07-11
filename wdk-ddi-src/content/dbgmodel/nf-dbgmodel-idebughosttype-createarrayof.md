@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.CreateArrayOf
-title: IDebugHostType::CreateArrayOf method
+title: IDebugHostType::CreateArrayOf
 author: windows-driver-content
 description: TBD
-ms.assetid: 20c6108f-469b-4d54-9a70-a13f0b0925ab
+ms.assetid: bb8de044-1e9d-4357-8419-44016942f386
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::CreateArrayOf, CreateArrayOf,IDebugHostType.CreateArrayOf
+ms.keywords: IDebugHostType::CreateArrayOf, CreateArrayOf, IDebugHostType.CreateArrayOf, IDebugHostType::CreateArrayOf, IDebugHostType.CreateArrayOf
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::CreateArrayOf method
+# IDebugHostType::CreateArrayOf
 
 
 ## -description

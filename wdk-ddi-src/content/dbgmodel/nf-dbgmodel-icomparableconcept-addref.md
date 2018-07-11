@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IComparableConcept.AddRef
-title: IComparableConcept::AddRef method
+title: IComparableConcept::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 24d0cebc-bb33-4b84-b001-96b9eeb0cb7d
+ms.assetid: 45a2d8e9-075e-4312-8d94-f5656c20cd1f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IComparableConcept, IComparableConcept::AddRef, AddRef,IComparableConcept.AddRef
+ms.keywords: IComparableConcept::AddRef, AddRef, IComparableConcept.AddRef, IComparableConcept::AddRef, IComparableConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IComparableConcept::AddRef method
+# IComparableConcept::AddRef
 
 
 ## -description

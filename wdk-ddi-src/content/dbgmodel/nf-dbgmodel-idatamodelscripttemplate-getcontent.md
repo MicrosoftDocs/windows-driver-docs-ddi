@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplate.GetContent
-title: IDataModelScriptTemplate::GetContent method
+title: IDataModelScriptTemplate::GetContent
 author: windows-driver-content
 description: TBD
-ms.assetid: 5d11e7fd-86af-4c86-8f22-0edaadcc87b6
+ms.assetid: 6c374069-2f98-4283-a01f-b65bcab8cd3a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptTemplate, IDataModelScriptTemplate::GetContent, GetContent,IDataModelScriptTemplate.GetContent
+ms.keywords: IDataModelScriptTemplate::GetContent, GetContent, IDataModelScriptTemplate.GetContent, IDataModelScriptTemplate::GetContent, IDataModelScriptTemplate.GetContent
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptTemplate::GetContent method
+# IDataModelScriptTemplate::GetContent
 
 
 ## -description

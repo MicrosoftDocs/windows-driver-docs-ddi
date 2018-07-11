@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IStringDisplayableConcept.AddRef
-title: IStringDisplayableConcept::AddRef method
+title: IStringDisplayableConcept::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 7e22b668-bb87-470a-a1f0-e32117bfaca6
+ms.assetid: 7e39ce98-cca8-4ae7-a887-0011fc9544fd
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IStringDisplayableConcept, IStringDisplayableConcept::AddRef, AddRef,IStringDisplayableConcept.AddRef
+ms.keywords: IStringDisplayableConcept::AddRef, AddRef, IStringDisplayableConcept.AddRef, IStringDisplayableConcept::AddRef, IStringDisplayableConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IStringDisplayableConcept::AddRef method
+# IStringDisplayableConcept::AddRef
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IIndexableConcept.GetAt
-title: IIndexableConcept::GetAt method
+title: IIndexableConcept::GetAt
 author: windows-driver-content
 description: TBD
-ms.assetid: fe123d72-162e-48eb-bc66-c0e5e2b871a0
+ms.assetid: a2ad86e3-55ea-49ad-88a5-745a69741e17
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IIndexableConcept, IIndexableConcept::GetAt, GetAt,IIndexableConcept.GetAt
+ms.keywords: IIndexableConcept::GetAt, GetAt, IIndexableConcept.GetAt, IIndexableConcept::GetAt, IIndexableConcept.GetAt
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IIndexableConcept::GetAt method
+# IIndexableConcept::GetAt
 
 
 ## -description

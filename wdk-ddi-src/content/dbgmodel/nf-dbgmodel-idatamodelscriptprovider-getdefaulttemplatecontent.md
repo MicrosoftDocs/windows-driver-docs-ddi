@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProvider.GetDefaultTemplateContent
-title: IDataModelScriptProvider::GetDefaultTemplateContent method
+title: IDataModelScriptProvider::GetDefaultTemplateContent
 author: windows-driver-content
 description: TBD
-ms.assetid: 6b3a107c-349e-4566-b457-7f1b43be6e6f
+ms.assetid: 62471d06-62bf-4dd7-a132-0305c629a6c6
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptProvider, IDataModelScriptProvider::GetDefaultTemplateContent, GetDefaultTemplateContent,IDataModelScriptProvider.GetDefaultTemplateContent
+ms.keywords: IDataModelScriptProvider::GetDefaultTemplateContent, GetDefaultTemplateContent, IDataModelScriptProvider.GetDefaultTemplateContent, IDataModelScriptProvider::GetDefaultTemplateContent, IDataModelScriptProvider.GetDefaultTemplateContent
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptProvider::GetDefaultTemplateContent method
+# IDataModelScriptProvider::GetDefaultTemplateContent
 
 
 ## -description

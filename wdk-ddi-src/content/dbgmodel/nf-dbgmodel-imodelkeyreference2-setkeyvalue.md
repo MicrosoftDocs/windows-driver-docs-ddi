@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.SetKeyValue
-title: IModelKeyReference2::SetKeyValue method
+title: IModelKeyReference2::SetKeyValue
 author: windows-driver-content
 description: TBD
-ms.assetid: 4b681b66-90c8-4713-a4fa-71669750ce50
+ms.assetid: 598b054d-e083-41c2-80c0-cd8c8a12c1b7
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelKeyReference2, IModelKeyReference2::SetKeyValue, SetKeyValue,IModelKeyReference2.SetKeyValue
+ms.keywords: IModelKeyReference2::SetKeyValue, SetKeyValue, IModelKeyReference2.SetKeyValue, IModelKeyReference2::SetKeyValue, IModelKeyReference2.SetKeyValue
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelKeyReference2::SetKeyValue method
+# IModelKeyReference2::SetKeyValue
 
 
 ## -description

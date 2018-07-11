@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostStatus.QueryInterface
-title: IDebugHostStatus::QueryInterface method
+title: IDebugHostStatus::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: f29a5db4-e6ef-47a4-b6aa-a684666553dc
+ms.assetid: 791f8965-797a-4bf3-af9d-5d809535b9a4
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostStatus, IDebugHostStatus::QueryInterface, QueryInterface,IDebugHostStatus.QueryInterface
+ms.keywords: IDebugHostStatus::QueryInterface, QueryInterface, IDebugHostStatus.QueryInterface, IDebugHostStatus::QueryInterface, IDebugHostStatus.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostStatus::QueryInterface method
+# IDebugHostStatus::QueryInterface
 
 
 ## -description

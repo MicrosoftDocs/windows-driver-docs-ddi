@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetRawValue
-title: IModelObject::GetRawValue method
+title: IModelObject::GetRawValue
 author: windows-driver-content
 description: TBD
-ms.assetid: 00091441-0981-4347-b759-e565bd3fcf5d
+ms.assetid: 2750984d-5639-40ce-aa42-c8624f9775ca
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetRawValue, GetRawValue,IModelObject.GetRawValue
+ms.keywords: IModelObject::GetRawValue, GetRawValue, IModelObject.GetRawValue, IModelObject::GetRawValue, IModelObject.GetRawValue
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetRawValue method
+# IModelObject::GetRawValue
 
 
 ## -description

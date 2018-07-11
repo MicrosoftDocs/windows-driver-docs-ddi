@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateTypedIntrinsicObjectEx
-title: IDataModelManager2::CreateTypedIntrinsicObjectEx method
+title: IDataModelManager2::CreateTypedIntrinsicObjectEx
 author: windows-driver-content
 description: TBD
-ms.assetid: eca28e17-5c7a-408d-bdc8-399f0bb5672d
+ms.assetid: 4a5450f4-d14d-41bb-b0ac-520fe1dc49f7
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::CreateTypedIntrinsicObjectEx, CreateTypedIntrinsicObjectEx,IDataModelManager2.CreateTypedIntrinsicObjectEx
+ms.keywords: IDataModelManager2::CreateTypedIntrinsicObjectEx, CreateTypedIntrinsicObjectEx, IDataModelManager2.CreateTypedIntrinsicObjectEx, IDataModelManager2::CreateTypedIntrinsicObjectEx, IDataModelManager2.CreateTypedIntrinsicObjectEx
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::CreateTypedIntrinsicObjectEx method
+# IDataModelManager2::CreateTypedIntrinsicObjectEx
 
 
 ## -description

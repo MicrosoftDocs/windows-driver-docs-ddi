@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProviderEnumerator.AddRef
-title: IDataModelScriptProviderEnumerator::AddRef method
+title: IDataModelScriptProviderEnumerator::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 1339e12c-b2bc-4716-8b72-f94c764c386b
+ms.assetid: 52ef3e23-8398-4043-a80d-2fceba1c73fb
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptProviderEnumerator, IDataModelScriptProviderEnumerator::AddRef, AddRef,IDataModelScriptProviderEnumerator.AddRef
+ms.keywords: IDataModelScriptProviderEnumerator::AddRef, AddRef, IDataModelScriptProviderEnumerator.AddRef, IDataModelScriptProviderEnumerator::AddRef, IDataModelScriptProviderEnumerator.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptProviderEnumerator::AddRef method
+# IDataModelScriptProviderEnumerator::AddRef
 
 
 ## -description

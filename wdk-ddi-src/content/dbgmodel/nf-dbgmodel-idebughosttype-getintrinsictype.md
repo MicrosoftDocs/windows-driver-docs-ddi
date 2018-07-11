@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetIntrinsicType
-title: IDebugHostType::GetIntrinsicType method
+title: IDebugHostType::GetIntrinsicType
 author: windows-driver-content
 description: TBD
-ms.assetid: 1144b2da-e649-4b7b-9d7d-dcdc767178c6
+ms.assetid: 8dc4ddeb-007b-4fe3-96b7-4f8278aec110
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::GetIntrinsicType, GetIntrinsicType,IDebugHostType.GetIntrinsicType
+ms.keywords: IDebugHostType::GetIntrinsicType, GetIntrinsicType, IDebugHostType.GetIntrinsicType, IDebugHostType::GetIntrinsicType, IDebugHostType.GetIntrinsicType
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::GetIntrinsicType method
+# IDebugHostType::GetIntrinsicType
 
 
 ## -description

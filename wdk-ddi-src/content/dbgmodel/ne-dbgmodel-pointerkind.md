@@ -3,7 +3,7 @@ UID: NE:dbgmodel.PointerKind
 title: PointerKind
 author: windows-driver-content
 description: 
-ms.assetid: f3f92645-035b-4dfd-9dae-a687cd1b96e3
+ms.assetid: 5601a992-ef28-42ee-99e9-c7e8b2ba08be
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

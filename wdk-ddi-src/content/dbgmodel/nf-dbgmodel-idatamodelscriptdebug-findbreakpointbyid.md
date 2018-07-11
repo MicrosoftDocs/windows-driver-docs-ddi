@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.FindBreakpointById
-title: IDataModelScriptDebug::FindBreakpointById method
+title: IDataModelScriptDebug::FindBreakpointById
 author: windows-driver-content
 description: TBD
-ms.assetid: 2ae73821-2a2d-42e9-9315-8c5e2bb5b678
+ms.assetid: 138bcb48-3c97-4633-9922-75d37e774027
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebug, IDataModelScriptDebug::FindBreakpointById, FindBreakpointById,IDataModelScriptDebug.FindBreakpointById
+ms.keywords: IDataModelScriptDebug::FindBreakpointById, FindBreakpointById, IDataModelScriptDebug.FindBreakpointById, IDataModelScriptDebug::FindBreakpointById, IDataModelScriptDebug.FindBreakpointById
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebug::FindBreakpointById method
+# IDataModelScriptDebug::FindBreakpointById
 
 
 ## -description

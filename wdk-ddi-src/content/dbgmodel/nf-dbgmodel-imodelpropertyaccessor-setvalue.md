@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelPropertyAccessor.SetValue
-title: IModelPropertyAccessor::SetValue method
+title: IModelPropertyAccessor::SetValue
 author: windows-driver-content
 description: TBD
-ms.assetid: 4c6c7f03-6823-400d-a968-b75c87dedda0
+ms.assetid: 9a9eea9b-4297-4a5a-aff1-fd658d79b9f8
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelPropertyAccessor, IModelPropertyAccessor::SetValue, SetValue,IModelPropertyAccessor.SetValue
+ms.keywords: IModelPropertyAccessor::SetValue, SetValue, IModelPropertyAccessor.SetValue, IModelPropertyAccessor::SetValue, IModelPropertyAccessor.SetValue
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelPropertyAccessor::SetValue method
+# IModelPropertyAccessor::SetValue
 
 
 ## -description

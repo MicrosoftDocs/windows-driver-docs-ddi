@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.Dereference
-title: IModelObject::Dereference method
+title: IModelObject::Dereference
 author: windows-driver-content
 description: TBD
-ms.assetid: c0da2341-6b97-4ef4-8072-66e8979296a6
+ms.assetid: c6eb77c2-b901-40c5-b558-f48d33a174de
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::Dereference, Dereference,IModelObject.Dereference
+ms.keywords: IModelObject::Dereference, Dereference, IModelObject.Dereference, IModelObject::Dereference, IModelObject.Dereference
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::Dereference method
+# IModelObject::Dereference
 
 
 ## -description

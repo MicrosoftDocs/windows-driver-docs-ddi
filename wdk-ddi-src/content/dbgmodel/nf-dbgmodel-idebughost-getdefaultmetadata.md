@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHost.GetDefaultMetadata
-title: IDebugHost::GetDefaultMetadata method
+title: IDebugHost::GetDefaultMetadata
 author: windows-driver-content
 description: TBD
-ms.assetid: 885064cd-1bcd-4ae9-93b7-643ad2854fd1
+ms.assetid: e624b7fe-b691-4e1a-93d5-f62747d929ac
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHost, IDebugHost::GetDefaultMetadata, GetDefaultMetadata,IDebugHost.GetDefaultMetadata
+ms.keywords: IDebugHost::GetDefaultMetadata, GetDefaultMetadata, IDebugHost.GetDefaultMetadata, IDebugHost::GetDefaultMetadata, IDebugHost.GetDefaultMetadata
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHost::GetDefaultMetadata method
+# IDebugHost::GetDefaultMetadata
 
 
 ## -description

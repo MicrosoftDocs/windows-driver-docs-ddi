@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbolEnumerator.AddRef
-title: IDebugHostSymbolEnumerator::AddRef method
+title: IDebugHostSymbolEnumerator::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: dc5c5e38-d769-4629-ade2-c463849c29b1
+ms.assetid: ecb389b7-66ca-49fa-bc98-587a3a3fd94b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostSymbolEnumerator, IDebugHostSymbolEnumerator::AddRef, AddRef,IDebugHostSymbolEnumerator.AddRef
+ms.keywords: IDebugHostSymbolEnumerator::AddRef, AddRef, IDebugHostSymbolEnumerator.AddRef, IDebugHostSymbolEnumerator::AddRef, IDebugHostSymbolEnumerator.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostSymbolEnumerator::AddRef method
+# IDebugHostSymbolEnumerator::AddRef
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.CreateTypedIntrinsicObject
-title: IDataModelManager::CreateTypedIntrinsicObject method
+title: IDataModelManager::CreateTypedIntrinsicObject
 author: windows-driver-content
 description: TBD
-ms.assetid: 388af701-9e49-4531-b82f-9ca2d0b106d5
+ms.assetid: 389a450e-6cea-408e-aeaa-ff90b572158c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager, IDataModelManager::CreateTypedIntrinsicObject, CreateTypedIntrinsicObject,IDataModelManager.CreateTypedIntrinsicObject
+ms.keywords: IDataModelManager::CreateTypedIntrinsicObject, CreateTypedIntrinsicObject, IDataModelManager.CreateTypedIntrinsicObject, IDataModelManager::CreateTypedIntrinsicObject, IDataModelManager.CreateTypedIntrinsicObject
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager::CreateTypedIntrinsicObject method
+# IDataModelManager::CreateTypedIntrinsicObject
 
 
 ## -description

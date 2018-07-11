@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IHostDataModelAccess.QueryInterface
-title: IHostDataModelAccess::QueryInterface method
+title: IHostDataModelAccess::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 2a48d122-e4ea-400a-8bcc-53f408d1829e
+ms.assetid: a0f894dc-1518-4994-af6d-746f75f1b6d9
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IHostDataModelAccess, IHostDataModelAccess::QueryInterface, QueryInterface,IHostDataModelAccess.QueryInterface
+ms.keywords: IHostDataModelAccess::QueryInterface, QueryInterface, IHostDataModelAccess.QueryInterface, IHostDataModelAccess::QueryInterface, IHostDataModelAccess.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IHostDataModelAccess::QueryInterface method
+# IHostDataModelAccess::QueryInterface
 
 
 ## -description

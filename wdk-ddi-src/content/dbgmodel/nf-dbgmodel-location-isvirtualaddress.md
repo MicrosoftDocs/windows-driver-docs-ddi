@@ -3,7 +3,7 @@ UID: NF:dbgmodel.Location.IsVirtualAddress
 title: IsVirtualAddress function
 author: windows-driver-content
 description: TBD
-ms.assetid: 6bd17ffe-380b-40b3-b06e-3918f4ec854e
+ms.assetid: 2e8cf4ae-ea75-4a66-add5-034c9d4ba454
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
@@ -28,13 +28,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	DllExport
+-	
 api_location: 
--	NtosKrnl.exe
+-	
 api_name: 
 -	IsVirtualAddress
 product: Windows
 targetos: Windows
+
 
 ---
 

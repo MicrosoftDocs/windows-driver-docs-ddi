@@ -3,7 +3,7 @@ UID: NF:dbgmodel.TypeSearchInfo.TypeSearchInfo(TypeKind)
 title: TypeSearchInfo function
 author: windows-driver-content
 description: TBD
-ms.assetid: 9606dc75-6571-4aa6-8c40-5d19ab4faa2d
+ms.assetid: 72b69d71-6871-408f-851e-36dd2612425c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
@@ -28,13 +28,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	DllExport
+-	
 api_location: 
--	NtosKrnl.exe
+-	
 api_name: 
 -	TypeSearchInfo
 product: Windows
 targetos: Windows
+
 
 ---
 

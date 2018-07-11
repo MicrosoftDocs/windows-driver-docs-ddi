@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbol.CompareAgainst
-title: IDebugHostSymbol::CompareAgainst method
+title: IDebugHostSymbol::CompareAgainst
 author: windows-driver-content
 description: TBD
-ms.assetid: 7ecdb224-373b-4239-bd19-d716213d41ae
+ms.assetid: 00afbd6a-9157-43b3-a449-fa9aa6f50fab
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostSymbol, IDebugHostSymbol::CompareAgainst, CompareAgainst,IDebugHostSymbol.CompareAgainst
+ms.keywords: IDebugHostSymbol::CompareAgainst, CompareAgainst, IDebugHostSymbol.CompareAgainst, IDebugHostSymbol::CompareAgainst, IDebugHostSymbol.CompareAgainst
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostSymbol::CompareAgainst method
+# IDebugHostSymbol::CompareAgainst
 
 
 ## -description

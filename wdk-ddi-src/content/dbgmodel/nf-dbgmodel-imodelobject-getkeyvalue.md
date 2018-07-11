@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetKeyValue
-title: IModelObject::GetKeyValue method
+title: IModelObject::GetKeyValue
 author: windows-driver-content
 description: TBD
-ms.assetid: 645e2f17-c3cb-438f-acd8-001cca1b1f54
+ms.assetid: 83daa8ab-3d90-4003-8ce9-7fe10acf2859
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetKeyValue, GetKeyValue,IModelObject.GetKeyValue
+ms.keywords: IModelObject::GetKeyValue, GetKeyValue, IModelObject.GetKeyValue, IModelObject::GetKeyValue, IModelObject.GetKeyValue
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetKeyValue method
+# IModelObject::GetKeyValue
 
 
 ## -description

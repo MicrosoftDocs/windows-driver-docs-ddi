@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelIterator.Reset
-title: IModelIterator::Reset method
+title: IModelIterator::Reset
 author: windows-driver-content
 description: TBD
-ms.assetid: a4a3f429-4846-4e6c-9087-10679bdc4fce
+ms.assetid: 53ee9efd-4581-4e1e-8fbe-385e7b137f64
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelIterator, IModelIterator::Reset, Reset,IModelIterator.Reset
+ms.keywords: IModelIterator::Reset, Reset, IModelIterator.Reset, IModelIterator::Reset, IModelIterator.Reset
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelIterator::Reset method
+# IModelIterator::Reset
 
 
 ## -description

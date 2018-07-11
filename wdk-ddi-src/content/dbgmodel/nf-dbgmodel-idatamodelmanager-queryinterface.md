@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.QueryInterface
-title: IDataModelManager::QueryInterface method
+title: IDataModelManager::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 1ffeb140-dfe7-4b86-a24e-18015375a429
+ms.assetid: 07450ab0-0974-4436-b438-c2b26d204cb9
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager, IDataModelManager::QueryInterface, QueryInterface,IDataModelManager.QueryInterface
+ms.keywords: IDataModelManager::QueryInterface, QueryInterface, IDataModelManager.QueryInterface, IDataModelManager::QueryInterface, IDataModelManager.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager::QueryInterface method
+# IDataModelManager::QueryInterface
 
 
 ## -description

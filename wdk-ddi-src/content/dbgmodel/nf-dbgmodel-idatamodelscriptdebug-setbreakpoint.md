@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.SetBreakpoint
-title: IDataModelScriptDebug::SetBreakpoint method
+title: IDataModelScriptDebug::SetBreakpoint
 author: windows-driver-content
 description: TBD
-ms.assetid: 8da35360-2cde-4571-b56c-1c27bfbd6a26
+ms.assetid: 2614e372-e4ec-44e6-8312-44fb5c0eaced
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebug, IDataModelScriptDebug::SetBreakpoint, SetBreakpoint,IDataModelScriptDebug.SetBreakpoint
+ms.keywords: IDataModelScriptDebug::SetBreakpoint, SetBreakpoint, IDataModelScriptDebug.SetBreakpoint, IDataModelScriptDebug::SetBreakpoint, IDataModelScriptDebug.SetBreakpoint
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebug::SetBreakpoint method
+# IDataModelScriptDebug::SetBreakpoint
 
 
 ## -description

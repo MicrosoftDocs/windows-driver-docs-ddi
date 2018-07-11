@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IKeyEnumerator.Reset
-title: IKeyEnumerator::Reset method
+title: IKeyEnumerator::Reset
 author: windows-driver-content
 description: TBD
-ms.assetid: 7da3cb05-d69a-4935-98ff-f6debad30736
+ms.assetid: e0015d19-19cc-4ffc-90cd-e4b690847cbb
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IKeyEnumerator, IKeyEnumerator::Reset, Reset,IKeyEnumerator.Reset
+ms.keywords: IKeyEnumerator::Reset, Reset, IKeyEnumerator.Reset, IKeyEnumerator::Reset, IKeyEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IKeyEnumerator::Reset method
+# IKeyEnumerator::Reset
 
 
 ## -description

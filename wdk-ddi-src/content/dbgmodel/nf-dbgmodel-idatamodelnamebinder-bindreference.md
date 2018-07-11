@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelNameBinder.BindReference
-title: IDataModelNameBinder::BindReference method
+title: IDataModelNameBinder::BindReference
 author: windows-driver-content
 description: TBD
-ms.assetid: d0afdb09-61d6-4673-9133-0716bf9f36d0
+ms.assetid: e1930647-984f-4aec-a07b-8c3dac9e9ae1
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelNameBinder, IDataModelNameBinder::BindReference, BindReference,IDataModelNameBinder.BindReference
+ms.keywords: IDataModelNameBinder::BindReference, BindReference, IDataModelNameBinder.BindReference, IDataModelNameBinder::BindReference, IDataModelNameBinder.BindReference
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelNameBinder::BindReference method
+# IDataModelNameBinder::BindReference
 
 
 ## -description

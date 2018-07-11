@@ -3,7 +3,7 @@ UID: NE:dbgmodel.ScriptDebugEventFilter
 title: ScriptDebugEventFilter
 author: windows-driver-content
 description: 
-ms.assetid: 37fb05f0-d390-4bb8-a5a4-f35ae4a61459
+ms.assetid: c1778753-7c0d-4bd3-b817-19ece139a0ea
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

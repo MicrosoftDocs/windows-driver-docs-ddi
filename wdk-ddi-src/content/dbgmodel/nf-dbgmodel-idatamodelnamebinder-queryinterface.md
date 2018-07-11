@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelNameBinder.QueryInterface
-title: IDataModelNameBinder::QueryInterface method
+title: IDataModelNameBinder::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 8c5d4f1d-d6a8-43f0-8e7c-e220d85b7453
+ms.assetid: 30c88578-1a85-4127-8e4b-446931a60e29
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelNameBinder, IDataModelNameBinder::QueryInterface, QueryInterface,IDataModelNameBinder.QueryInterface
+ms.keywords: IDataModelNameBinder::QueryInterface, QueryInterface, IDataModelNameBinder.QueryInterface, IDataModelNameBinder::QueryInterface, IDataModelNameBinder.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelNameBinder::QueryInterface method
+# IDataModelNameBinder::QueryInterface
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetTypedefFinalBaseType
-title: IDebugHostType2::GetTypedefFinalBaseType method
+title: IDebugHostType2::GetTypedefFinalBaseType
 author: windows-driver-content
 description: TBD
-ms.assetid: 87593d42-d69d-4dd5-91eb-35e12513c092
+ms.assetid: 20ba8d09-b4a6-4ede-aac3-8d95a5d079b2
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType2, IDebugHostType2::GetTypedefFinalBaseType, GetTypedefFinalBaseType,IDebugHostType2.GetTypedefFinalBaseType
+ms.keywords: IDebugHostType2::GetTypedefFinalBaseType, GetTypedefFinalBaseType, IDebugHostType2.GetTypedefFinalBaseType, IDebugHostType2::GetTypedefFinalBaseType, IDebugHostType2.GetTypedefFinalBaseType
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType2::GetTypedefFinalBaseType method
+# IDebugHostType2::GetTypedefFinalBaseType
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.EnumerateKeys
-title: IDynamicKeyProviderConcept::EnumerateKeys method
+title: IDynamicKeyProviderConcept::EnumerateKeys
 author: windows-driver-content
 description: TBD
-ms.assetid: 0c7135e7-e398-4e55-828e-097c623d9433
+ms.assetid: 26bf79c1-1069-4d9a-820a-ce00ec729e3d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicKeyProviderConcept, IDynamicKeyProviderConcept::EnumerateKeys, EnumerateKeys,IDynamicKeyProviderConcept.EnumerateKeys
+ms.keywords: IDynamicKeyProviderConcept::EnumerateKeys, EnumerateKeys, IDynamicKeyProviderConcept.EnumerateKeys, IDynamicKeyProviderConcept::EnumerateKeys, IDynamicKeyProviderConcept.EnumerateKeys
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicKeyProviderConcept::EnumerateKeys method
+# IDynamicKeyProviderConcept::EnumerateKeys
 
 
 ## -description

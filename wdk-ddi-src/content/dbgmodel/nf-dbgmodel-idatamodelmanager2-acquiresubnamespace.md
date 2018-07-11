@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.AcquireSubNamespace
-title: IDataModelManager2::AcquireSubNamespace method
+title: IDataModelManager2::AcquireSubNamespace
 author: windows-driver-content
 description: TBD
-ms.assetid: cbdb0d9a-44ac-406b-b39f-207c44f82674
+ms.assetid: 2cb6ec25-f9aa-419f-80f5-845a327ea7c2
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::AcquireSubNamespace, AcquireSubNamespace,IDataModelManager2.AcquireSubNamespace
+ms.keywords: IDataModelManager2::AcquireSubNamespace, AcquireSubNamespace, IDataModelManager2.AcquireSubNamespace, IDataModelManager2::AcquireSubNamespace, IDataModelManager2.AcquireSubNamespace
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::AcquireSubNamespace method
+# IDataModelManager2::AcquireSubNamespace
 
 
 ## -description

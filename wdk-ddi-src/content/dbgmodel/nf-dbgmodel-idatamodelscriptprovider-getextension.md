@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProvider.GetExtension
-title: IDataModelScriptProvider::GetExtension method
+title: IDataModelScriptProvider::GetExtension
 author: windows-driver-content
 description: TBD
-ms.assetid: b46f10d5-caac-449d-87c8-5db84b489946
+ms.assetid: e9f079fa-3ce1-4a05-a46e-f5b5268d2a6f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptProvider, IDataModelScriptProvider::GetExtension, GetExtension,IDataModelScriptProvider.GetExtension
+ms.keywords: IDataModelScriptProvider::GetExtension, GetExtension, IDataModelScriptProvider.GetExtension, IDataModelScriptProvider::GetExtension, IDataModelScriptProvider.GetExtension
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptProvider::GetExtension method
+# IDataModelScriptProvider::GetExtension
 
 
 ## -description

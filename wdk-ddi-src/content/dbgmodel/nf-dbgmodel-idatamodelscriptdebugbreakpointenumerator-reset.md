@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpointEnumerator.Reset
-title: IDataModelScriptDebugBreakpointEnumerator::Reset method
+title: IDataModelScriptDebugBreakpointEnumerator::Reset
 author: windows-driver-content
 description: TBD
-ms.assetid: 1dcfd723-634b-4d32-90c5-5440539d09a7
+ms.assetid: 5429efa0-1e6c-4323-aa31-f1460d3cd8de
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugBreakpointEnumerator, IDataModelScriptDebugBreakpointEnumerator::Reset, Reset,IDataModelScriptDebugBreakpointEnumerator.Reset
+ms.keywords: IDataModelScriptDebugBreakpointEnumerator::Reset, Reset, IDataModelScriptDebugBreakpointEnumerator.Reset, IDataModelScriptDebugBreakpointEnumerator::Reset, IDataModelScriptDebugBreakpointEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugBreakpointEnumerator::Reset method
+# IDataModelScriptDebugBreakpointEnumerator::Reset
 
 
 ## -description

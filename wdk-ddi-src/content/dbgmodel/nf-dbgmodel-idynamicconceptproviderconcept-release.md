@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.Release
-title: IDynamicConceptProviderConcept::Release method
+title: IDynamicConceptProviderConcept::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 4fd501f3-1700-4b85-b570-e2a9830a7b33
+ms.assetid: 8c206673-e9d0-4b06-82c5-d94901f3962f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicConceptProviderConcept, IDynamicConceptProviderConcept::Release, Release,IDynamicConceptProviderConcept.Release
+ms.keywords: IDynamicConceptProviderConcept::Release, Release, IDynamicConceptProviderConcept.Release, IDynamicConceptProviderConcept::Release, IDynamicConceptProviderConcept.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicConceptProviderConcept::Release method
+# IDynamicConceptProviderConcept::Release
 
 
 ## -description

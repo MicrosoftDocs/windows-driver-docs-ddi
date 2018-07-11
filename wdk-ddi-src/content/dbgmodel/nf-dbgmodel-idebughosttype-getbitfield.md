@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetBitField
-title: IDebugHostType::GetBitField method
+title: IDebugHostType::GetBitField
 author: windows-driver-content
 description: TBD
-ms.assetid: c1a7aadb-7013-4e04-b40a-ee63a7f4034f
+ms.assetid: 38c6d950-3d83-4748-a976-115dabad4000
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::GetBitField, GetBitField,IDebugHostType.GetBitField
+ms.keywords: IDebugHostType::GetBitField, GetBitField, IDebugHostType.GetBitField, IDebugHostType::GetBitField, IDebugHostType.GetBitField
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::GetBitField method
+# IDebugHostType::GetBitField
 
 
 ## -description

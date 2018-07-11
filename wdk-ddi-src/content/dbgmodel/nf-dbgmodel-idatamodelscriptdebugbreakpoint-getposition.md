@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.GetPosition
-title: IDataModelScriptDebugBreakpoint::GetPosition method
+title: IDataModelScriptDebugBreakpoint::GetPosition
 author: windows-driver-content
 description: TBD
-ms.assetid: b0761b3b-f662-4980-9b54-4d67a7ef7748
+ms.assetid: cdc328af-b80c-45cb-b4a1-5b31e878014e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugBreakpoint, IDataModelScriptDebugBreakpoint::GetPosition, GetPosition,IDataModelScriptDebugBreakpoint.GetPosition
+ms.keywords: IDataModelScriptDebugBreakpoint::GetPosition, GetPosition, IDataModelScriptDebugBreakpoint.GetPosition, IDataModelScriptDebugBreakpoint::GetPosition, IDataModelScriptDebugBreakpoint.GetPosition
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugBreakpoint::GetPosition method
+# IDataModelScriptDebugBreakpoint::GetPosition
 
 
 ## -description

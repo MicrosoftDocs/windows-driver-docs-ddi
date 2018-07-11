@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.TryCastToRuntimeType
-title: IModelObject::TryCastToRuntimeType method
+title: IModelObject::TryCastToRuntimeType
 author: windows-driver-content
 description: TBD
-ms.assetid: 7dea6b05-d5a3-42b6-9360-327c2c5e2f31
+ms.assetid: a65187dd-e6eb-4749-afa0-18ed308b416f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::TryCastToRuntimeType, TryCastToRuntimeType,IModelObject.TryCastToRuntimeType
+ms.keywords: IModelObject::TryCastToRuntimeType, TryCastToRuntimeType, IModelObject.TryCastToRuntimeType, IModelObject::TryCastToRuntimeType, IModelObject.TryCastToRuntimeType
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::TryCastToRuntimeType method
+# IModelObject::TryCastToRuntimeType
 
 
 ## -description

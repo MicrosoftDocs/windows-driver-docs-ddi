@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelNameBinder.BindValue
-title: IDataModelNameBinder::BindValue method
+title: IDataModelNameBinder::BindValue
 author: windows-driver-content
 description: TBD
-ms.assetid: 69774cc1-be13-489c-8191-5c3547275654
+ms.assetid: deaa874d-59a5-4deb-9ea6-426374c5666a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelNameBinder, IDataModelNameBinder::BindValue, BindValue,IDataModelNameBinder.BindValue
+ms.keywords: IDataModelNameBinder::BindValue, BindValue, IDataModelNameBinder.BindValue, IDataModelNameBinder::BindValue, IDataModelNameBinder.BindValue
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelNameBinder::BindValue method
+# IDataModelNameBinder::BindValue
 
 
 ## -description

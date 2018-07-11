@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelIterator.QueryInterface
-title: IModelIterator::QueryInterface method
+title: IModelIterator::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 0755f34a-7468-455f-8218-ca4470f42b5e
+ms.assetid: 7689b08e-7cfa-4e76-a303-721dd06b0223
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelIterator, IModelIterator::QueryInterface, QueryInterface,IModelIterator.QueryInterface
+ms.keywords: IModelIterator::QueryInterface, QueryInterface, IModelIterator.QueryInterface, IModelIterator::QueryInterface, IModelIterator.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelIterator::QueryInterface method
+# IModelIterator::QueryInterface
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.EnumerateKeyReferences
-title: IModelObject::EnumerateKeyReferences method
+title: IModelObject::EnumerateKeyReferences
 author: windows-driver-content
 description: TBD
-ms.assetid: 981eece6-f8c3-4679-bc54-cc8b291d0f22
+ms.assetid: 85aace53-f325-4f74-acea-9661aef591c1
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::EnumerateKeyReferences, EnumerateKeyReferences,IModelObject.EnumerateKeyReferences
+ms.keywords: IModelObject::EnumerateKeyReferences, EnumerateKeyReferences, IModelObject.EnumerateKeyReferences, IModelObject::EnumerateKeyReferences, IModelObject.EnumerateKeyReferences
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::EnumerateKeyReferences method
+# IModelObject::EnumerateKeyReferences
 
 
 ## -description

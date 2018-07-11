@@ -3,7 +3,7 @@ UID: NF:dbgmodel.CreateDataModelManager
 title: CreateDataModelManager function
 author: windows-driver-content
 description: TBD
-ms.assetid: d18a1eb6-86a7-4bed-bb46-7ed7af6777e1
+ms.assetid: 5694acc5-d39e-408a-8678-88207ca4707a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
@@ -28,13 +28,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	DllExport
+-	
 api_location: 
--	NtosKrnl.exe
+-	
 api_name: 
 -	CreateDataModelManager
 product: Windows
 targetos: Windows
+
 
 ---
 

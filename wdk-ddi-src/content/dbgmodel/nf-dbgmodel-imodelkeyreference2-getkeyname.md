@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.GetKeyName
-title: IModelKeyReference2::GetKeyName method
+title: IModelKeyReference2::GetKeyName
 author: windows-driver-content
 description: TBD
-ms.assetid: 19c6a0a6-66e0-4621-9fa8-7199d07b582f
+ms.assetid: bfb61278-8eac-47e5-9900-aed8b31370c5
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelKeyReference2, IModelKeyReference2::GetKeyName, GetKeyName,IModelKeyReference2.GetKeyName
+ms.keywords: IModelKeyReference2::GetKeyName, GetKeyName, IModelKeyReference2.GetKeyName, IModelKeyReference2::GetKeyName, IModelKeyReference2.GetKeyName
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelKeyReference2::GetKeyName method
+# IModelKeyReference2::GetKeyName
 
 
 ## -description

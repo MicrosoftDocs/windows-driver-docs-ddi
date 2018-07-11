@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IIndexableConcept.QueryInterface
-title: IIndexableConcept::QueryInterface method
+title: IIndexableConcept::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 3671839e-6a4c-4498-a11c-18cbfa69ed30
+ms.assetid: 34b15894-ae66-4d4e-9776-b10599c76cd8
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IIndexableConcept, IIndexableConcept::QueryInterface, QueryInterface,IIndexableConcept.QueryInterface
+ms.keywords: IIndexableConcept::QueryInterface, QueryInterface, IIndexableConcept.QueryInterface, IIndexableConcept::QueryInterface, IIndexableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IIndexableConcept::QueryInterface method
+# IIndexableConcept::QueryInterface
 
 
 ## -description

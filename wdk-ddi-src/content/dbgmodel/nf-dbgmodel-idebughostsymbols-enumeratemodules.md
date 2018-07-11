@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbols.EnumerateModules
-title: IDebugHostSymbols::EnumerateModules method
+title: IDebugHostSymbols::EnumerateModules
 author: windows-driver-content
 description: TBD
-ms.assetid: dd2f981f-54cd-4fb5-a5c7-a37f02cf3ff4
+ms.assetid: 1eb51e30-762b-4c52-9297-52a620fd8104
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostSymbols, IDebugHostSymbols::EnumerateModules, EnumerateModules,IDebugHostSymbols.EnumerateModules
+ms.keywords: IDebugHostSymbols::EnumerateModules, EnumerateModules, IDebugHostSymbols.EnumerateModules, IDebugHostSymbols::EnumerateModules, IDebugHostSymbols.EnumerateModules
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostSymbols::EnumerateModules method
+# IDebugHostSymbols::EnumerateModules
 
 
 ## -description

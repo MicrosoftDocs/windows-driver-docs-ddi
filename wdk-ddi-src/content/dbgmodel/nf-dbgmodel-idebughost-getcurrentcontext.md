@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHost.GetCurrentContext
-title: IDebugHost::GetCurrentContext method
+title: IDebugHost::GetCurrentContext
 author: windows-driver-content
 description: TBD
-ms.assetid: 1a062bc2-46e2-453a-9cd3-a82115d05fd3
+ms.assetid: 44829ee3-ae2f-4fed-9b80-6de77044a731
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHost, IDebugHost::GetCurrentContext, GetCurrentContext,IDebugHost.GetCurrentContext
+ms.keywords: IDebugHost::GetCurrentContext, GetCurrentContext, IDebugHost.GetCurrentContext, IDebugHost::GetCurrentContext, IDebugHost.GetCurrentContext
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHost::GetCurrentContext method
+# IDebugHost::GetCurrentContext
 
 
 ## -description

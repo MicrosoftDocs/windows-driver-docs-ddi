@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.ClearConcepts
-title: IModelObject::ClearConcepts method
+title: IModelObject::ClearConcepts
 author: windows-driver-content
 description: TBD
-ms.assetid: 56e2b682-57b6-4450-bc50-d7b6bc92c157
+ms.assetid: e9b09cff-5f1d-4bcb-bd73-efaeafd91206
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::ClearConcepts, ClearConcepts,IModelObject.ClearConcepts
+ms.keywords: IModelObject::ClearConcepts, ClearConcepts, IModelObject.ClearConcepts, IModelObject::ClearConcepts, IModelObject.ClearConcepts
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::ClearConcepts method
+# IModelObject::ClearConcepts
 
 
 ## -description

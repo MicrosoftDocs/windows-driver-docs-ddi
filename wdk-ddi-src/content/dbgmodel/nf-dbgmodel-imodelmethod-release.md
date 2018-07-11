@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelMethod.Release
-title: IModelMethod::Release method
+title: IModelMethod::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: fc09f9d9-893d-4647-8715-8da92ae45f08
+ms.assetid: 53bb081b-80ba-4481-b84c-546ed6a0520e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelMethod, IModelMethod::Release, Release,IModelMethod.Release
+ms.keywords: IModelMethod::Release, Release, IModelMethod.Release, IModelMethod::Release, IModelMethod.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelMethod::Release method
+# IModelMethod::Release
 
 
 ## -description

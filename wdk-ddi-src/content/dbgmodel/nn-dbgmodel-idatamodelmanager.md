@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDataModelManager
 title: IDataModelManager
 author: windows-driver-content
 description: TBD
-ms.assetid: e7619d38-09c7-436f-8329-8254f8848842
+ms.assetid: e40a78ba-6352-4c50-bfdf-e52686ac507b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

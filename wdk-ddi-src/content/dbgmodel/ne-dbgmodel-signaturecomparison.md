@@ -3,7 +3,7 @@ UID: NE:dbgmodel.SignatureComparison
 title: SignatureComparison
 author: windows-driver-content
 description: 
-ms.assetid: 61466a76-72c9-4538-af1a-ab500d828892
+ms.assetid: 7157f5fb-4bdc-4380-aaef-882cb4c79993
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IKeyEnumerator.AddRef
-title: IKeyEnumerator::AddRef method
+title: IKeyEnumerator::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 5fd5bedf-6bd3-4e23-8ca2-edf67db2a293
+ms.assetid: 70cde105-08c7-4fc5-8731-fe85bef95872
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IKeyEnumerator, IKeyEnumerator::AddRef, AddRef,IKeyEnumerator.AddRef
+ms.keywords: IKeyEnumerator::AddRef, AddRef, IKeyEnumerator.AddRef, IKeyEnumerator::AddRef, IKeyEnumerator.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IKeyEnumerator::AddRef method
+# IKeyEnumerator::AddRef
 
 
 ## -description

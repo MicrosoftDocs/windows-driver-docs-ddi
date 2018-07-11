@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostScriptHost.CreateContext
-title: IDebugHostScriptHost::CreateContext method
+title: IDebugHostScriptHost::CreateContext
 author: windows-driver-content
 description: TBD
-ms.assetid: ff83912e-999f-49a9-8869-669505388037
+ms.assetid: e7dbce17-bc44-4707-805e-2607263c8ce4
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostScriptHost, IDebugHostScriptHost::CreateContext, CreateContext,IDebugHostScriptHost.CreateContext
+ms.keywords: IDebugHostScriptHost::CreateContext, CreateContext, IDebugHostScriptHost.CreateContext, IDebugHostScriptHost::CreateContext, IDebugHostScriptHost.CreateContext
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostScriptHost::CreateContext method
+# IDebugHostScriptHost::CreateContext
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.RegisterExtensionForTypeSignature
-title: IDataModelManager2::RegisterExtensionForTypeSignature method
+title: IDataModelManager2::RegisterExtensionForTypeSignature
 author: windows-driver-content
 description: TBD
-ms.assetid: 5ed9bbd3-6a81-4703-9d9d-458db4ccb45b
+ms.assetid: db12fe6e-c98b-4c9b-be71-76a8c7cabcb8
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::RegisterExtensionForTypeSignature, RegisterExtensionForTypeSignature,IDataModelManager2.RegisterExtensionForTypeSignature
+ms.keywords: IDataModelManager2::RegisterExtensionForTypeSignature, RegisterExtensionForTypeSignature, IDataModelManager2.RegisterExtensionForTypeSignature, IDataModelManager2::RegisterExtensionForTypeSignature, IDataModelManager2.RegisterExtensionForTypeSignature
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::RegisterExtensionForTypeSignature method
+# IDataModelManager2::RegisterExtensionForTypeSignature
 
 
 ## -description

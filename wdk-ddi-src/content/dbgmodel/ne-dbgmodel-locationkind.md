@@ -3,7 +3,7 @@ UID: NE:dbgmodel.LocationKind
 title: LocationKind
 author: windows-driver-content
 description: 
-ms.assetid: 7b4a9b5f-5906-449e-aaa3-89aa28ce4aa0
+ms.assetid: 31b989a5-1029-48b4-b4e7-c7de24615bc4
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

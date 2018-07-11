@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.AddRef
-title: IDataModelManager2::AddRef method
+title: IDataModelManager2::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 558aae61-3967-4a7c-81bf-bcb970ff3c1c
+ms.assetid: 1e499fac-94bf-4850-9847-3d757b339930
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::AddRef, AddRef,IDataModelManager2.AddRef
+ms.keywords: IDataModelManager2::AddRef, AddRef, IDataModelManager2.AddRef, IDataModelManager2::AddRef, IDataModelManager2.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::AddRef method
+# IDataModelManager2::AddRef
 
 
 ## -description

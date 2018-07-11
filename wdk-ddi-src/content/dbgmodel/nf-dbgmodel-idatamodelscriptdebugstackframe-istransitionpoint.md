@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.IsTransitionPoint
-title: IDataModelScriptDebugStackFrame::IsTransitionPoint method
+title: IDataModelScriptDebugStackFrame::IsTransitionPoint
 author: windows-driver-content
 description: TBD
-ms.assetid: 4e6040b1-43e7-48a6-ad49-6e6961ca3b82
+ms.assetid: 1414b5f1-bd95-46aa-90c8-efd89b75504a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugStackFrame, IDataModelScriptDebugStackFrame::IsTransitionPoint, IsTransitionPoint,IDataModelScriptDebugStackFrame.IsTransitionPoint
+ms.keywords: IDataModelScriptDebugStackFrame::IsTransitionPoint, IsTransitionPoint, IDataModelScriptDebugStackFrame.IsTransitionPoint, IDataModelScriptDebugStackFrame::IsTransitionPoint, IDataModelScriptDebugStackFrame.IsTransitionPoint
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugStackFrame::IsTransitionPoint method
+# IDataModelScriptDebugStackFrame::IsTransitionPoint
 
 
 ## -description

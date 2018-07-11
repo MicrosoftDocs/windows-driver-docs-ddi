@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.GetCurrentPosition
-title: IDataModelScriptDebug::GetCurrentPosition method
+title: IDataModelScriptDebug::GetCurrentPosition
 author: windows-driver-content
 description: TBD
-ms.assetid: 11251875-54cf-49fc-a781-76387740697b
+ms.assetid: e6f5d524-a287-4cbb-bd65-28111f213518
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebug, IDataModelScriptDebug::GetCurrentPosition, GetCurrentPosition,IDataModelScriptDebug.GetCurrentPosition
+ms.keywords: IDataModelScriptDebug::GetCurrentPosition, GetCurrentPosition, IDataModelScriptDebug.GetCurrentPosition, IDataModelScriptDebug::GetCurrentPosition, IDataModelScriptDebug.GetCurrentPosition
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebug::GetCurrentPosition method
+# IDataModelScriptDebug::GetCurrentPosition
 
 
 ## -description

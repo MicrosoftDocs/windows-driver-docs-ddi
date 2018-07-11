@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IIterableConcept
 title: IIterableConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: c3a745ab-5032-4ae5-906f-10306d96811b
+ms.assetid: 35f78cad-3070-40af-aa8e-f7556609d019
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbolEnumerator.Release
-title: IDebugHostSymbolEnumerator::Release method
+title: IDebugHostSymbolEnumerator::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: e2b02210-405a-4b95-abd3-348d7c087ee8
+ms.assetid: 8de7fadd-4a77-43f4-8e12-2df0669a074b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostSymbolEnumerator, IDebugHostSymbolEnumerator::Release, Release,IDebugHostSymbolEnumerator.Release
+ms.keywords: IDebugHostSymbolEnumerator::Release, Release, IDebugHostSymbolEnumerator.Release, IDebugHostSymbolEnumerator::Release, IDebugHostSymbolEnumerator.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostSymbolEnumerator::Release method
+# IDebugHostSymbolEnumerator::Release
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IIndexableConcept.AddRef
-title: IIndexableConcept::AddRef method
+title: IIndexableConcept::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 328198be-98ed-4019-a271-7f45abc5aff5
+ms.assetid: 4373da2e-30b0-4729-8e97-9d9d01dd2671
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IIndexableConcept, IIndexableConcept::AddRef, AddRef,IIndexableConcept.AddRef
+ms.keywords: IIndexableConcept::AddRef, AddRef, IIndexableConcept.AddRef, IIndexableConcept::AddRef, IIndexableConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IIndexableConcept::AddRef method
+# IIndexableConcept::AddRef
 
 
 ## -description

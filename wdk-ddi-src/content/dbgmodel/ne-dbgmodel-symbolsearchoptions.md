@@ -3,7 +3,7 @@ UID: NE:dbgmodel.SymbolSearchOptions
 title: SymbolSearchOptions
 author: windows-driver-content
 description: 
-ms.assetid: 7d400c82-2163-4abe-abcc-c2b252864fee
+ms.assetid: b6a5df9d-42b8-4d3b-b9a7-84b89d8826be
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

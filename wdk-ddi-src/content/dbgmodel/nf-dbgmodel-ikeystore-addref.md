@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IKeyStore.AddRef
-title: IKeyStore::AddRef method
+title: IKeyStore::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: de009032-398e-446e-a112-ecc53f68e44a
+ms.assetid: 8811a6c4-3d71-499f-a5a0-c568eb8e5764
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IKeyStore, IKeyStore::AddRef, AddRef,IKeyStore.AddRef
+ms.keywords: IKeyStore::AddRef, AddRef, IKeyStore.AddRef, IKeyStore::AddRef, IKeyStore.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IKeyStore::AddRef method
+# IKeyStore::AddRef
 
 
 ## -description

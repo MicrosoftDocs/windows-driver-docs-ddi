@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.GetKey
-title: IDynamicKeyProviderConcept::GetKey method
+title: IDynamicKeyProviderConcept::GetKey
 author: windows-driver-content
 description: TBD
-ms.assetid: cb1b2b12-bdac-458b-9fb4-fd9e1446ed50
+ms.assetid: f4aaf952-3d3d-4d42-b6e9-bc716c93fdfb
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicKeyProviderConcept, IDynamicKeyProviderConcept::GetKey, GetKey,IDynamicKeyProviderConcept.GetKey
+ms.keywords: IDynamicKeyProviderConcept::GetKey, GetKey, IDynamicKeyProviderConcept.GetKey, IDynamicKeyProviderConcept::GetKey, IDynamicKeyProviderConcept.GetKey
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicKeyProviderConcept::GetKey method
+# IDynamicKeyProviderConcept::GetKey
 
 
 ## -description

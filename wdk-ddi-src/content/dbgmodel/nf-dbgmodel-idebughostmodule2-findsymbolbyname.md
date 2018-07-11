@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.FindSymbolByName
-title: IDebugHostModule2::FindSymbolByName method
+title: IDebugHostModule2::FindSymbolByName
 author: windows-driver-content
 description: TBD
-ms.assetid: dae3207e-e080-4672-a6ac-14a0bcc588d0
+ms.assetid: 74ce0a4b-7079-469d-b769-e47eae4123ed
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostModule2, IDebugHostModule2::FindSymbolByName, FindSymbolByName,IDebugHostModule2.FindSymbolByName
+ms.keywords: IDebugHostModule2::FindSymbolByName, FindSymbolByName, IDebugHostModule2.FindSymbolByName, IDebugHostModule2::FindSymbolByName, IDebugHostModule2.FindSymbolByName
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostModule2::FindSymbolByName method
+# IDebugHostModule2::FindSymbolByName
 
 
 ## -description

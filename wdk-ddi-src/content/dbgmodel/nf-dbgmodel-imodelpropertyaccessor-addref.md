@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelPropertyAccessor.AddRef
-title: IModelPropertyAccessor::AddRef method
+title: IModelPropertyAccessor::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: b159f0f8-c686-4c3c-b07e-60ba4293cedb
+ms.assetid: f0f7bd83-41dc-4683-9a67-8f37ca521881
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelPropertyAccessor, IModelPropertyAccessor::AddRef, AddRef,IModelPropertyAccessor.AddRef
+ms.keywords: IModelPropertyAccessor::AddRef, AddRef, IModelPropertyAccessor.AddRef, IModelPropertyAccessor::AddRef, IModelPropertyAccessor.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelPropertyAccessor::AddRef method
+# IModelPropertyAccessor::AddRef
 
 
 ## -description

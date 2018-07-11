@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IIndexableConcept.GetDimensionality
-title: IIndexableConcept::GetDimensionality method
+title: IIndexableConcept::GetDimensionality
 author: windows-driver-content
 description: TBD
-ms.assetid: 597003eb-f0fe-47dd-9407-2cb6e492444f
+ms.assetid: 6ae1e5d9-4b46-4129-a78a-aab2c60ba49c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IIndexableConcept, IIndexableConcept::GetDimensionality, GetDimensionality,IIndexableConcept.GetDimensionality
+ms.keywords: IIndexableConcept::GetDimensionality, GetDimensionality, IIndexableConcept.GetDimensionality, IIndexableConcept::GetDimensionality, IIndexableConcept.GetDimensionality
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IIndexableConcept::GetDimensionality method
+# IIndexableConcept::GetDimensionality
 
 
 ## -description

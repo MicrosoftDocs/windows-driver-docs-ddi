@@ -3,7 +3,7 @@ UID: NE:dbgmodel.ScriptDebugState
 title: ScriptDebugState
 author: windows-driver-content
 description: 
-ms.assetid: 2141ba08-91a0-4f90-86b1-27d035748162
+ms.assetid: 4e89a344-ef44-479e-a97a-ce78a89d3273
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

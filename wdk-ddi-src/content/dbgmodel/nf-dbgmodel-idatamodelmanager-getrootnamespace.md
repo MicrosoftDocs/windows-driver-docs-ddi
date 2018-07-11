@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.GetRootNamespace
-title: IDataModelManager::GetRootNamespace method
+title: IDataModelManager::GetRootNamespace
 author: windows-driver-content
 description: TBD
-ms.assetid: 7067da8d-2747-4280-bceb-30525a6691c4
+ms.assetid: d32bbeda-15ce-48b1-abaf-1ac21f497e98
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager, IDataModelManager::GetRootNamespace, GetRootNamespace,IDataModelManager.GetRootNamespace
+ms.keywords: IDataModelManager::GetRootNamespace, GetRootNamespace, IDataModelManager.GetRootNamespace, IDataModelManager::GetRootNamespace, IDataModelManager.GetRootNamespace
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager::GetRootNamespace method
+# IDataModelManager::GetRootNamespace
 
 
 ## -description

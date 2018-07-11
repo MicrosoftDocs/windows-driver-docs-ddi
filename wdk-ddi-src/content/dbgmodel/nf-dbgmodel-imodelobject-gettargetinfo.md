@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetTargetInfo
-title: IModelObject::GetTargetInfo method
+title: IModelObject::GetTargetInfo
 author: windows-driver-content
 description: TBD
-ms.assetid: e77382ee-36bd-4934-838f-76d1f32f64c7
+ms.assetid: 01e44c1d-a96d-4195-a767-d959cccb005c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetTargetInfo, GetTargetInfo,IModelObject.GetTargetInfo
+ms.keywords: IModelObject::GetTargetInfo, GetTargetInfo, IModelObject.GetTargetInfo, IModelObject::GetTargetInfo, IModelObject.GetTargetInfo
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetTargetInfo method
+# IModelObject::GetTargetInfo
 
 
 ## -description

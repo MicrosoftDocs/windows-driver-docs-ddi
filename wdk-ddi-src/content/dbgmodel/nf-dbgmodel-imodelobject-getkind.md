@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetKind
-title: IModelObject::GetKind method
+title: IModelObject::GetKind
 author: windows-driver-content
 description: TBD
-ms.assetid: 7e14cbdf-bfd2-4482-861d-6f6fdc355ced
+ms.assetid: 859277b5-e121-4f1c-a1aa-12c2aef4b673
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetKind, GetKind,IModelObject.GetKind
+ms.keywords: IModelObject::GetKind, GetKind, IModelObject.GetKind, IModelObject::GetKind, IModelObject.GetKind
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetKind method
+# IModelObject::GetKind
 
 
 ## -description

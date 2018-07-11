@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IIndexableConcept.Release
-title: IIndexableConcept::Release method
+title: IIndexableConcept::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 1db810b3-55a2-4166-9bb7-89d558fbdb71
+ms.assetid: 427e9fea-91d6-48ce-a9df-c8033ed86a23
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IIndexableConcept, IIndexableConcept::Release, Release,IIndexableConcept.Release
+ms.keywords: IIndexableConcept::Release, Release, IIndexableConcept.Release, IIndexableConcept::Release, IIndexableConcept.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IIndexableConcept::Release method
+# IIndexableConcept::Release
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.GetStack
-title: IDataModelScriptDebug::GetStack method
+title: IDataModelScriptDebug::GetStack
 author: windows-driver-content
 description: TBD
-ms.assetid: f1f6fc58-c85e-43f3-ba77-98c4e51f08b7
+ms.assetid: 7de93afc-3f25-45be-9733-e6cd3c87ed00
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebug, IDataModelScriptDebug::GetStack, GetStack,IDataModelScriptDebug.GetStack
+ms.keywords: IDataModelScriptDebug::GetStack, GetStack, IDataModelScriptDebug.GetStack, IDataModelScriptDebug::GetStack, IDataModelScriptDebug.GetStack
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebug::GetStack method
+# IDataModelScriptDebug::GetStack
 
 
 ## -description

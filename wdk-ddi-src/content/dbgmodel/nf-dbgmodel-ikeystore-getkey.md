@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IKeyStore.GetKey
-title: IKeyStore::GetKey method
+title: IKeyStore::GetKey
 author: windows-driver-content
 description: TBD
-ms.assetid: e142b683-f0d0-4d27-b069-18b966a663d7
+ms.assetid: 9a27d20b-76ff-4b7c-8782-95bd6288e592
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IKeyStore, IKeyStore::GetKey, GetKey,IKeyStore.GetKey
+ms.keywords: IKeyStore::GetKey, GetKey, IKeyStore.GetKey, IKeyStore::GetKey, IKeyStore.GetKey
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IKeyStore::GetKey method
+# IKeyStore::GetKey
 
 
 ## -description

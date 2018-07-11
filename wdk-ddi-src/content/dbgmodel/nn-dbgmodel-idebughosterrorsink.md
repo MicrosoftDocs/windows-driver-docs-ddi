@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDebugHostErrorSink
 title: IDebugHostErrorSink
 author: windows-driver-content
 description: TBD
-ms.assetid: 24c0dda7-607d-40d7-85ef-873b7420ec52
+ms.assetid: b82fbfe5-75c6-4c4c-8670-c2021dfa4c0d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

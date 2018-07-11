@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IKeyStore.ClearKeys
-title: IKeyStore::ClearKeys method
+title: IKeyStore::ClearKeys
 author: windows-driver-content
 description: TBD
-ms.assetid: fd15d03b-3cc3-442c-96cc-82f27b18b09d
+ms.assetid: 7fb81fa1-c09a-4995-9a28-34a2d5716625
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IKeyStore, IKeyStore::ClearKeys, ClearKeys,IKeyStore.ClearKeys
+ms.keywords: IKeyStore::ClearKeys, ClearKeys, IKeyStore.ClearKeys, IKeyStore::ClearKeys, IKeyStore.ClearKeys
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IKeyStore::ClearKeys method
+# IKeyStore::ClearKeys
 
 
 ## -description

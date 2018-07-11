@@ -3,7 +3,7 @@ UID: NF:dbgmodel.BindReadOnlyProperty~r1
 title: BindReadOnlyProperty function
 author: windows-driver-content
 description: TBD
-ms.assetid: 1d1add54-7813-476a-850f-5d5693de5c4f
+ms.assetid: c59ee365-d2da-4352-8311-a4a1d27fabdc
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
@@ -28,13 +28,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	DllExport
+-	
 api_location: 
--	NtosKrnl.exe
+-	
 api_name: 
 -	BindReadOnlyProperty
 product: Windows
 targetos: Windows
+
 
 ---
 

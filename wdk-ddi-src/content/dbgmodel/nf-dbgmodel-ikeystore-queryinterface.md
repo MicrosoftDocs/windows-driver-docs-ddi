@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IKeyStore.QueryInterface
-title: IKeyStore::QueryInterface method
+title: IKeyStore::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 7d42efa0-b447-474f-9fcc-7ae3005bd251
+ms.assetid: 59ec40a9-117e-4f05-a2df-8a44d0d1f556
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IKeyStore, IKeyStore::QueryInterface, QueryInterface,IKeyStore.QueryInterface
+ms.keywords: IKeyStore::QueryInterface, QueryInterface, IKeyStore.QueryInterface, IKeyStore::QueryInterface, IKeyStore.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IKeyStore::QueryInterface method
+# IKeyStore::QueryInterface
 
 
 ## -description

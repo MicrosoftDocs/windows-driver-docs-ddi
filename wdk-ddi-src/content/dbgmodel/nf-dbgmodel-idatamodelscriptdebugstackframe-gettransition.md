@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.GetTransition
-title: IDataModelScriptDebugStackFrame::GetTransition method
+title: IDataModelScriptDebugStackFrame::GetTransition
 author: windows-driver-content
 description: TBD
-ms.assetid: 95ab1e10-53a4-4706-a45c-fc8f344cc760
+ms.assetid: 8fbefa8a-9675-485e-8065-062ad7ad3a50
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugStackFrame, IDataModelScriptDebugStackFrame::GetTransition, GetTransition,IDataModelScriptDebugStackFrame.GetTransition
+ms.keywords: IDataModelScriptDebugStackFrame::GetTransition, GetTransition, IDataModelScriptDebugStackFrame.GetTransition, IDataModelScriptDebugStackFrame::GetTransition, IDataModelScriptDebugStackFrame.GetTransition
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugStackFrame::GetTransition method
+# IDataModelScriptDebugStackFrame::GetTransition
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetMemberType
-title: IDebugHostType2::GetMemberType method
+title: IDebugHostType2::GetMemberType
 author: windows-driver-content
 description: TBD
-ms.assetid: ef543f8e-f600-474f-957f-f9313516df4c
+ms.assetid: 7813d8e7-962b-41e3-8635-9a9961952d05
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType2, IDebugHostType2::GetMemberType, GetMemberType,IDebugHostType2.GetMemberType
+ms.keywords: IDebugHostType2::GetMemberType, GetMemberType, IDebugHostType2.GetMemberType, IDebugHostType2::GetMemberType, IDebugHostType2.GetMemberType
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType2::GetMemberType method
+# IDebugHostType2::GetMemberType
 
 
 ## -description

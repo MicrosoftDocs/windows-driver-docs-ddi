@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.GetConcept
-title: IDynamicConceptProviderConcept::GetConcept method
+title: IDynamicConceptProviderConcept::GetConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: 449c8346-9b3e-4ca8-99f8-15378d90bb9d
+ms.assetid: 40a661df-b934-4e3e-a4e0-6a2fbaceecbe
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicConceptProviderConcept, IDynamicConceptProviderConcept::GetConcept, GetConcept,IDynamicConceptProviderConcept.GetConcept
+ms.keywords: IDynamicConceptProviderConcept::GetConcept, GetConcept, IDynamicConceptProviderConcept.GetConcept, IDynamicConceptProviderConcept::GetConcept, IDynamicConceptProviderConcept.GetConcept
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicConceptProviderConcept::GetConcept method
+# IDynamicConceptProviderConcept::GetConcept
 
 
 ## -description

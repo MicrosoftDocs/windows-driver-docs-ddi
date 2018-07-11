@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.GetContextObject
-title: IModelKeyReference::GetContextObject method
+title: IModelKeyReference::GetContextObject
 author: windows-driver-content
 description: TBD
-ms.assetid: 55b8e74f-237c-446b-b430-f6bc85182570
+ms.assetid: a996ae1a-e8dc-43bb-ade4-729860072663
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelKeyReference, IModelKeyReference::GetContextObject, GetContextObject,IModelKeyReference.GetContextObject
+ms.keywords: IModelKeyReference::GetContextObject, GetContextObject, IModelKeyReference.GetContextObject, IModelKeyReference::GetContextObject, IModelKeyReference.GetContextObject
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelKeyReference::GetContextObject method
+# IModelKeyReference::GetContextObject
 
 
 ## -description

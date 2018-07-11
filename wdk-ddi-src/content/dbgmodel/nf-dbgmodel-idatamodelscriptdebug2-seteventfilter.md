@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug2.SetEventFilter
-title: IDataModelScriptDebug2::SetEventFilter method
+title: IDataModelScriptDebug2::SetEventFilter
 author: windows-driver-content
 description: TBD
-ms.assetid: f29722be-676a-4eb1-a0a7-6a6f6f4f9a33
+ms.assetid: cabb3bfa-e704-4209-82a3-7334f950fb34
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebug2, IDataModelScriptDebug2::SetEventFilter, SetEventFilter,IDataModelScriptDebug2.SetEventFilter
+ms.keywords: IDataModelScriptDebug2::SetEventFilter, SetEventFilter, IDataModelScriptDebug2.SetEventFilter, IDataModelScriptDebug2::SetEventFilter, IDataModelScriptDebug2.SetEventFilter
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebug2::SetEventFilter method
+# IDataModelScriptDebug2::SetEventFilter
 
 
 ## -description

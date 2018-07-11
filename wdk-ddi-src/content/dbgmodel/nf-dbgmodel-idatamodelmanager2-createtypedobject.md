@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateTypedObject
-title: IDataModelManager2::CreateTypedObject method
+title: IDataModelManager2::CreateTypedObject
 author: windows-driver-content
 description: TBD
-ms.assetid: 8e69c995-a03c-4d7d-8694-33235958e415
+ms.assetid: 91d1fc43-f4ce-424e-bbaf-9798b841e328
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::CreateTypedObject, CreateTypedObject,IDataModelManager2.CreateTypedObject
+ms.keywords: IDataModelManager2::CreateTypedObject, CreateTypedObject, IDataModelManager2.CreateTypedObject, IDataModelManager2::CreateTypedObject, IDataModelManager2.CreateTypedObject
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::CreateTypedObject method
+# IDataModelManager2::CreateTypedObject
 
 
 ## -description

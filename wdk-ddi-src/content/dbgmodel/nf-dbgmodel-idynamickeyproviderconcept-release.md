@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.Release
-title: IDynamicKeyProviderConcept::Release method
+title: IDynamicKeyProviderConcept::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 30d47a70-a729-42aa-8004-272ea416c33e
+ms.assetid: 104da76b-51a4-4b86-8255-9b395091e169
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicKeyProviderConcept, IDynamicKeyProviderConcept::Release, Release,IDynamicKeyProviderConcept.Release
+ms.keywords: IDynamicKeyProviderConcept::Release, Release, IDynamicKeyProviderConcept.Release, IDynamicKeyProviderConcept::Release, IDynamicKeyProviderConcept.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicKeyProviderConcept::Release method
+# IDynamicKeyProviderConcept::Release
 
 
 ## -description

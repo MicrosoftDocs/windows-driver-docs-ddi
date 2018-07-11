@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelNameBinder.EnumerateValues
-title: IDataModelNameBinder::EnumerateValues method
+title: IDataModelNameBinder::EnumerateValues
 author: windows-driver-content
 description: TBD
-ms.assetid: 77f7a79c-dfd0-4338-a341-0acc985ef45f
+ms.assetid: c704a73d-a6c1-4ff6-b2a1-4c5f683b0582
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelNameBinder, IDataModelNameBinder::EnumerateValues, EnumerateValues,IDataModelNameBinder.EnumerateValues
+ms.keywords: IDataModelNameBinder::EnumerateValues, EnumerateValues, IDataModelNameBinder.EnumerateValues, IDataModelNameBinder::EnumerateValues, IDataModelNameBinder.EnumerateValues
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelNameBinder::EnumerateValues method
+# IDataModelNameBinder::EnumerateValues
 
 
 ## -description

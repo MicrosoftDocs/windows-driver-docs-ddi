@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.CreatePointerTo
-title: IDebugHostType::CreatePointerTo method
+title: IDebugHostType::CreatePointerTo
 author: windows-driver-content
 description: TBD
-ms.assetid: 3081318f-7295-4088-831f-2b67a227e618
+ms.assetid: 7809e00f-93db-4ddd-80d0-6259cea77382
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::CreatePointerTo, CreatePointerTo,IDebugHostType.CreatePointerTo
+ms.keywords: IDebugHostType::CreatePointerTo, CreatePointerTo, IDebugHostType.CreatePointerTo, IDebugHostType::CreatePointerTo, IDebugHostType.CreatePointerTo
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::CreatePointerTo method
+# IDebugHostType::CreatePointerTo
 
 
 ## -description

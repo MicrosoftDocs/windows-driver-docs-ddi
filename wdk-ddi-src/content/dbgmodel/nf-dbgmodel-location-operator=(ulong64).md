@@ -3,7 +3,7 @@ UID: NF:dbgmodel.Location.operator=(ULONG64)
 title: operator= function
 author: windows-driver-content
 description: TBD
-ms.assetid: 21ffd174-057d-482a-aa12-6d0d92444a45
+ms.assetid: bb0ccc46-390f-4bab-b6fb-0050375e1fc4
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
@@ -28,13 +28,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	DllExport
+-	
 api_location: 
--	NtosKrnl.exe
+-	
 api_name: 
 -	operator=
 product: Windows
 targetos: Windows
+
 
 ---
 

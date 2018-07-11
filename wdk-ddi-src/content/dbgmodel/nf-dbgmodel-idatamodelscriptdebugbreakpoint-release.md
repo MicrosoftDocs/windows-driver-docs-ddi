@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugBreakpoint.Release
-title: IDataModelScriptDebugBreakpoint::Release method
+title: IDataModelScriptDebugBreakpoint::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 4b03bbb1-0b81-469a-918f-9942c304ba73
+ms.assetid: 533b1b9d-7061-4e53-882e-92ab7f8cb1f9
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugBreakpoint, IDataModelScriptDebugBreakpoint::Release, Release,IDataModelScriptDebugBreakpoint.Release
+ms.keywords: IDataModelScriptDebugBreakpoint::Release, Release, IDataModelScriptDebugBreakpoint.Release, IDataModelScriptDebugBreakpoint::Release, IDataModelScriptDebugBreakpoint.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugBreakpoint::Release method
+# IDataModelScriptDebugBreakpoint::Release
 
 
 ## -description

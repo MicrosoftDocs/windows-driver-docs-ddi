@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.AcquireNamedModel
-title: IDataModelManager::AcquireNamedModel method
+title: IDataModelManager::AcquireNamedModel
 author: windows-driver-content
 description: TBD
-ms.assetid: 1e909f10-c6be-49c7-8aa3-3ec5661bfcb8
+ms.assetid: 30319030-d888-4bc3-b522-d51377058a2c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager, IDataModelManager::AcquireNamedModel, AcquireNamedModel,IDataModelManager.AcquireNamedModel
+ms.keywords: IDataModelManager::AcquireNamedModel, AcquireNamedModel, IDataModelManager.AcquireNamedModel, IDataModelManager::AcquireNamedModel, IDataModelManager.AcquireNamedModel
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager::AcquireNamedModel method
+# IDataModelManager::AcquireNamedModel
 
 
 ## -description

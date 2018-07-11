@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelNameBinder.AddRef
-title: IDataModelNameBinder::AddRef method
+title: IDataModelNameBinder::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: cd2d3c2e-db00-40ac-92fb-918362e5c37c
+ms.assetid: ce08a583-95f5-49b0-aa01-e509e844a7c9
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelNameBinder, IDataModelNameBinder::AddRef, AddRef,IDataModelNameBinder.AddRef
+ms.keywords: IDataModelNameBinder::AddRef, AddRef, IDataModelNameBinder.AddRef, IDataModelNameBinder::AddRef, IDataModelNameBinder.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelNameBinder::AddRef method
+# IDataModelNameBinder::AddRef
 
 
 ## -description

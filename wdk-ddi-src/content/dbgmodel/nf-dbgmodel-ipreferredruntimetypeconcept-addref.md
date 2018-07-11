@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IPreferredRuntimeTypeConcept.AddRef
-title: IPreferredRuntimeTypeConcept::AddRef method
+title: IPreferredRuntimeTypeConcept::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: f9e1b2b4-4d15-4514-a12e-7e39fd35d20a
+ms.assetid: c6bb82b4-bc7a-441f-accb-b73caf305380
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IPreferredRuntimeTypeConcept, IPreferredRuntimeTypeConcept::AddRef, AddRef,IPreferredRuntimeTypeConcept.AddRef
+ms.keywords: IPreferredRuntimeTypeConcept::AddRef, AddRef, IPreferredRuntimeTypeConcept.AddRef, IPreferredRuntimeTypeConcept::AddRef, IPreferredRuntimeTypeConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IPreferredRuntimeTypeConcept::AddRef method
+# IPreferredRuntimeTypeConcept::AddRef
 
 
 ## -description

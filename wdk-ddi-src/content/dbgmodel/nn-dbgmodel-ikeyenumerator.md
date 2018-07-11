@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IKeyEnumerator
 title: IKeyEnumerator
 author: windows-driver-content
 description: TBD
-ms.assetid: 433785fe-0e33-4ddf-9237-7e5cc9ec4e6b
+ms.assetid: bfb7891a-c47b-4f04-b6f6-481fb99b996c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

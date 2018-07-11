@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDataModelScriptTemplateEnumerator
 title: IDataModelScriptTemplateEnumerator
 author: windows-driver-content
 description: TBD
-ms.assetid: 61a1212b-6b49-42a1-bd62-2a1979cd7403
+ms.assetid: 7d5f9983-35d8-4983-94af-3419f843b838
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

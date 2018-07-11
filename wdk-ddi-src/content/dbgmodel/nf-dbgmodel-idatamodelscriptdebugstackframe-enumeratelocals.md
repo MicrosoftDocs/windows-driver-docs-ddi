@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugStackFrame.EnumerateLocals
-title: IDataModelScriptDebugStackFrame::EnumerateLocals method
+title: IDataModelScriptDebugStackFrame::EnumerateLocals
 author: windows-driver-content
 description: TBD
-ms.assetid: 78d56b4d-755d-4125-a5d7-e52798742081
+ms.assetid: c538a07f-cd0c-44a5-897a-2e35920685d5
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugStackFrame, IDataModelScriptDebugStackFrame::EnumerateLocals, EnumerateLocals,IDataModelScriptDebugStackFrame.EnumerateLocals
+ms.keywords: IDataModelScriptDebugStackFrame::EnumerateLocals, EnumerateLocals, IDataModelScriptDebugStackFrame.EnumerateLocals, IDataModelScriptDebugStackFrame::EnumerateLocals, IDataModelScriptDebugStackFrame.EnumerateLocals
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugStackFrame::EnumerateLocals method
+# IDataModelScriptDebugStackFrame::EnumerateLocals
 
 
 ## -description

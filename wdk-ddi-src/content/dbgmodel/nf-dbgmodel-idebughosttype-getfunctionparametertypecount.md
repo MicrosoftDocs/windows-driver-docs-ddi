@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetFunctionParameterTypeCount
-title: IDebugHostType::GetFunctionParameterTypeCount method
+title: IDebugHostType::GetFunctionParameterTypeCount
 author: windows-driver-content
 description: TBD
-ms.assetid: 09b38413-eca9-4cbb-ae4c-a8b2493049e6
+ms.assetid: 394a5b18-fa42-42cd-b92a-200e99f5b6ca
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::GetFunctionParameterTypeCount, GetFunctionParameterTypeCount,IDebugHostType.GetFunctionParameterTypeCount
+ms.keywords: IDebugHostType::GetFunctionParameterTypeCount, GetFunctionParameterTypeCount, IDebugHostType.GetFunctionParameterTypeCount, IDebugHostType::GetFunctionParameterTypeCount, IDebugHostType.GetFunctionParameterTypeCount
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::GetFunctionParameterTypeCount method
+# IDebugHostType::GetFunctionParameterTypeCount
 
 
 ## -description

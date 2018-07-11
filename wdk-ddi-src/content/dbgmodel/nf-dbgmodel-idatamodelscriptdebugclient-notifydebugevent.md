@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugClient.NotifyDebugEvent
-title: IDataModelScriptDebugClient::NotifyDebugEvent method
+title: IDataModelScriptDebugClient::NotifyDebugEvent
 author: windows-driver-content
 description: TBD
-ms.assetid: 212d47b2-f448-4a41-adb8-0ab93e604294
+ms.assetid: 97e8fde7-949a-4e5d-bb84-49adb72b71af
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugClient, IDataModelScriptDebugClient::NotifyDebugEvent, NotifyDebugEvent,IDataModelScriptDebugClient.NotifyDebugEvent
+ms.keywords: IDataModelScriptDebugClient::NotifyDebugEvent, NotifyDebugEvent, IDataModelScriptDebugClient.NotifyDebugEvent, IDataModelScriptDebugClient::NotifyDebugEvent, IDataModelScriptDebugClient.NotifyDebugEvent
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugClient::NotifyDebugEvent method
+# IDataModelScriptDebugClient::NotifyDebugEvent
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.QueryInterface
-title: IDynamicKeyProviderConcept::QueryInterface method
+title: IDynamicKeyProviderConcept::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: f3cd66c7-19b8-4ed5-bbb4-4671248016d7
+ms.assetid: 792fda8f-9c28-409f-a0b3-150bba2a9a7c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicKeyProviderConcept, IDynamicKeyProviderConcept::QueryInterface, QueryInterface,IDynamicKeyProviderConcept.QueryInterface
+ms.keywords: IDynamicKeyProviderConcept::QueryInterface, QueryInterface, IDynamicKeyProviderConcept.QueryInterface, IDynamicKeyProviderConcept::QueryInterface, IDynamicKeyProviderConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicKeyProviderConcept::QueryInterface method
+# IDynamicKeyProviderConcept::QueryInterface
 
 
 ## -description

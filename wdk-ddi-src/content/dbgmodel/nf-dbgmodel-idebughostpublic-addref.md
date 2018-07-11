@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostPublic.AddRef
-title: IDebugHostPublic::AddRef method
+title: IDebugHostPublic::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 70cb3bd5-8852-4061-8b2f-877a189deac7
+ms.assetid: a2effe80-88fc-4b1f-8dc4-616d5d9f5a67
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostPublic, IDebugHostPublic::AddRef, AddRef,IDebugHostPublic.AddRef
+ms.keywords: IDebugHostPublic::AddRef, AddRef, IDebugHostPublic.AddRef, IDebugHostPublic::AddRef, IDebugHostPublic.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostPublic::AddRef method
+# IDebugHostPublic::AddRef
 
 
 ## -description

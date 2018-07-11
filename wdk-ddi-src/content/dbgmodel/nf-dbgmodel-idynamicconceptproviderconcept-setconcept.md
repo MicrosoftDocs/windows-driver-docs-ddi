@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicConceptProviderConcept.SetConcept
-title: IDynamicConceptProviderConcept::SetConcept method
+title: IDynamicConceptProviderConcept::SetConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: 188116a7-e583-480c-832a-02ab86ad5861
+ms.assetid: f65dace2-4cb8-4395-a16e-6467aa9c282e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicConceptProviderConcept, IDynamicConceptProviderConcept::SetConcept, SetConcept,IDynamicConceptProviderConcept.SetConcept
+ms.keywords: IDynamicConceptProviderConcept::SetConcept, SetConcept, IDynamicConceptProviderConcept.SetConcept, IDynamicConceptProviderConcept::SetConcept, IDynamicConceptProviderConcept.SetConcept
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicConceptProviderConcept::SetConcept method
+# IDynamicConceptProviderConcept::SetConcept
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IEquatableConcept.AreObjectsEqual
-title: IEquatableConcept::AreObjectsEqual method
+title: IEquatableConcept::AreObjectsEqual
 author: windows-driver-content
 description: TBD
-ms.assetid: a118fcb2-6bba-466a-a171-37149c5c5f15
+ms.assetid: 846d56f6-e5e2-411d-ae4b-5dc1e31e3221
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IEquatableConcept, IEquatableConcept::AreObjectsEqual, AreObjectsEqual,IEquatableConcept.AreObjectsEqual
+ms.keywords: IEquatableConcept::AreObjectsEqual, AreObjectsEqual, IEquatableConcept.AreObjectsEqual, IEquatableConcept::AreObjectsEqual, IEquatableConcept.AreObjectsEqual
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IEquatableConcept::AreObjectsEqual method
+# IEquatableConcept::AreObjectsEqual
 
 
 ## -description

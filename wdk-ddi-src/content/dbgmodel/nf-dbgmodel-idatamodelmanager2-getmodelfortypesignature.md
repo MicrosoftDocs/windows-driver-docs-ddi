@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.GetModelForTypeSignature
-title: IDataModelManager2::GetModelForTypeSignature method
+title: IDataModelManager2::GetModelForTypeSignature
 author: windows-driver-content
 description: TBD
-ms.assetid: a69c6a5a-ad84-4fb1-8a52-0feba94d6d85
+ms.assetid: 5985c645-52b4-4a40-a5c9-6f7495eb38ec
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::GetModelForTypeSignature, GetModelForTypeSignature,IDataModelManager2.GetModelForTypeSignature
+ms.keywords: IDataModelManager2::GetModelForTypeSignature, GetModelForTypeSignature, IDataModelManager2.GetModelForTypeSignature, IDataModelManager2::GetModelForTypeSignature, IDataModelManager2.GetModelForTypeSignature
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::GetModelForTypeSignature method
+# IDataModelManager2::GetModelForTypeSignature
 
 
 ## -description

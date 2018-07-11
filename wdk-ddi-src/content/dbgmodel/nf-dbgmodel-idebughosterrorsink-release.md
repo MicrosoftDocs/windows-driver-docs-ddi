@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostErrorSink.Release
-title: IDebugHostErrorSink::Release method
+title: IDebugHostErrorSink::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 9b480eec-9ecb-4252-9d03-d174c29cc945
+ms.assetid: 317caa7e-8cdd-4f57-8155-37d6638da2e8
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostErrorSink, IDebugHostErrorSink::Release, Release,IDebugHostErrorSink.Release
+ms.keywords: IDebugHostErrorSink::Release, Release, IDebugHostErrorSink.Release, IDebugHostErrorSink::Release, IDebugHostErrorSink.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostErrorSink::Release method
+# IDebugHostErrorSink::Release
 
 
 ## -description

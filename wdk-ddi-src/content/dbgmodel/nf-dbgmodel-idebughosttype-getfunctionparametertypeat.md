@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetFunctionParameterTypeAt
-title: IDebugHostType::GetFunctionParameterTypeAt method
+title: IDebugHostType::GetFunctionParameterTypeAt
 author: windows-driver-content
 description: TBD
-ms.assetid: 9928972e-53c9-4b01-8a2c-cbe1bd76d46e
+ms.assetid: 27151f01-f037-4fab-bbe5-909f753eddbe
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::GetFunctionParameterTypeAt, GetFunctionParameterTypeAt,IDebugHostType.GetFunctionParameterTypeAt
+ms.keywords: IDebugHostType::GetFunctionParameterTypeAt, GetFunctionParameterTypeAt, IDebugHostType.GetFunctionParameterTypeAt, IDebugHostType::GetFunctionParameterTypeAt, IDebugHostType.GetFunctionParameterTypeAt
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::GetFunctionParameterTypeAt method
+# IDebugHostType::GetFunctionParameterTypeAt
 
 
 ## -description

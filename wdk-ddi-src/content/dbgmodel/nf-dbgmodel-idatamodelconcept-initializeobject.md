@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelConcept.InitializeObject
-title: IDataModelConcept::InitializeObject method
+title: IDataModelConcept::InitializeObject
 author: windows-driver-content
 description: TBD
-ms.assetid: adb3d147-49cc-404f-8111-943f8d3cabc4
+ms.assetid: 39dd2497-1650-4bf4-9aa1-71ed154182ba
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelConcept, IDataModelConcept::InitializeObject, InitializeObject,IDataModelConcept.InitializeObject
+ms.keywords: IDataModelConcept::InitializeObject, InitializeObject, IDataModelConcept.InitializeObject, IDataModelConcept::InitializeObject, IDataModelConcept.InitializeObject
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelConcept::InitializeObject method
+# IDataModelConcept::InitializeObject
 
 
 ## -description

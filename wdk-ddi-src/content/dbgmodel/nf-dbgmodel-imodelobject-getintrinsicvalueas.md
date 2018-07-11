@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetIntrinsicValueAs
-title: IModelObject::GetIntrinsicValueAs method
+title: IModelObject::GetIntrinsicValueAs
 author: windows-driver-content
 description: TBD
-ms.assetid: 9cbaff3c-99cc-4013-8a80-8c21bd2a78fb
+ms.assetid: 5fa25457-b1fc-4f9c-b576-48c087aacff7
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetIntrinsicValueAs, GetIntrinsicValueAs,IModelObject.GetIntrinsicValueAs
+ms.keywords: IModelObject::GetIntrinsicValueAs, GetIntrinsicValueAs, IModelObject.GetIntrinsicValueAs, IModelObject::GetIntrinsicValueAs, IModelObject.GetIntrinsicValueAs
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetIntrinsicValueAs method
+# IModelObject::GetIntrinsicValueAs
 
 
 ## -description

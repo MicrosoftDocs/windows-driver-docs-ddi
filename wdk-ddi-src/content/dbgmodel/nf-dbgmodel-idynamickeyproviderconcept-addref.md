@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDynamicKeyProviderConcept.AddRef
-title: IDynamicKeyProviderConcept::AddRef method
+title: IDynamicKeyProviderConcept::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 1d6bdb82-d51e-4f73-bb94-494129a19a94
+ms.assetid: 2d12274d-75b0-4494-bec7-c962ec80e1aa
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDynamicKeyProviderConcept, IDynamicKeyProviderConcept::AddRef, AddRef,IDynamicKeyProviderConcept.AddRef
+ms.keywords: IDynamicKeyProviderConcept::AddRef, AddRef, IDynamicKeyProviderConcept.AddRef, IDynamicKeyProviderConcept::AddRef, IDynamicKeyProviderConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDynamicKeyProviderConcept::AddRef method
+# IDynamicKeyProviderConcept::AddRef
 
 
 ## -description

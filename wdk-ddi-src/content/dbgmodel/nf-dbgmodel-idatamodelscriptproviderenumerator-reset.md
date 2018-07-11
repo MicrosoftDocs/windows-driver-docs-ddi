@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProviderEnumerator.Reset
-title: IDataModelScriptProviderEnumerator::Reset method
+title: IDataModelScriptProviderEnumerator::Reset
 author: windows-driver-content
 description: TBD
-ms.assetid: 17b57041-56b6-4c20-8cb1-1220b85fb3fd
+ms.assetid: c424d21a-987d-4250-ae01-5e802e33b1f8
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptProviderEnumerator, IDataModelScriptProviderEnumerator::Reset, Reset,IDataModelScriptProviderEnumerator.Reset
+ms.keywords: IDataModelScriptProviderEnumerator::Reset, Reset, IDataModelScriptProviderEnumerator.Reset, IDataModelScriptProviderEnumerator::Reset, IDataModelScriptProviderEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptProviderEnumerator::Reset method
+# IDataModelScriptProviderEnumerator::Reset
 
 
 ## -description

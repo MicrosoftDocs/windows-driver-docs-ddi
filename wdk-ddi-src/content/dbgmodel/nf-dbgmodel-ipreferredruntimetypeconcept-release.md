@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IPreferredRuntimeTypeConcept.Release
-title: IPreferredRuntimeTypeConcept::Release method
+title: IPreferredRuntimeTypeConcept::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: f0ef1339-7120-4eda-b5cb-7f262f53f4a9
+ms.assetid: 0b78ff0e-e679-47e2-8e24-455437f54334
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IPreferredRuntimeTypeConcept, IPreferredRuntimeTypeConcept::Release, Release,IPreferredRuntimeTypeConcept.Release
+ms.keywords: IPreferredRuntimeTypeConcept::Release, Release, IPreferredRuntimeTypeConcept.Release, IPreferredRuntimeTypeConcept::Release, IPreferredRuntimeTypeConcept.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IPreferredRuntimeTypeConcept::Release method
+# IPreferredRuntimeTypeConcept::Release
 
 
 ## -description

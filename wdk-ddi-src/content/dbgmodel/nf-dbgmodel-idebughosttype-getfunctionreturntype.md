@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetFunctionReturnType
-title: IDebugHostType::GetFunctionReturnType method
+title: IDebugHostType::GetFunctionReturnType
 author: windows-driver-content
 description: TBD
-ms.assetid: fbcc2814-4a5d-44ac-a15f-42f9580a2b98
+ms.assetid: e3e96ca0-9fb4-41dd-81bf-206d813e9575
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::GetFunctionReturnType, GetFunctionReturnType,IDebugHostType.GetFunctionReturnType
+ms.keywords: IDebugHostType::GetFunctionReturnType, GetFunctionReturnType, IDebugHostType.GetFunctionReturnType, IDebugHostType::GetFunctionReturnType, IDebugHostType.GetFunctionReturnType
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::GetFunctionReturnType method
+# IDebugHostType::GetFunctionReturnType
 
 
 ## -description

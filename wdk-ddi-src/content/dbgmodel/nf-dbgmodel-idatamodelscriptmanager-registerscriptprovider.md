@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptManager.RegisterScriptProvider
-title: IDataModelScriptManager::RegisterScriptProvider method
+title: IDataModelScriptManager::RegisterScriptProvider
 author: windows-driver-content
 description: TBD
-ms.assetid: a3cf7f0f-2073-462d-9cb4-c25e2f024e3a
+ms.assetid: b1e9628f-51b0-41a6-a3c0-8b264f0ca490
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptManager, IDataModelScriptManager::RegisterScriptProvider, RegisterScriptProvider,IDataModelScriptManager.RegisterScriptProvider
+ms.keywords: IDataModelScriptManager::RegisterScriptProvider, RegisterScriptProvider, IDataModelScriptManager.RegisterScriptProvider, IDataModelScriptManager::RegisterScriptProvider, IDataModelScriptManager.RegisterScriptProvider
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptManager::RegisterScriptProvider method
+# IDataModelScriptManager::RegisterScriptProvider
 
 
 ## -description

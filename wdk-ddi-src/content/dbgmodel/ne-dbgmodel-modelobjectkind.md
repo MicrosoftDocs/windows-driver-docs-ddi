@@ -3,7 +3,7 @@ UID: NE:dbgmodel.ModelObjectKind
 title: ModelObjectKind
 author: windows-driver-content
 description: 
-ms.assetid: efc824dd-1b58-4beb-a58c-3d9a53baf6c2
+ms.assetid: a51f5f4b-faf4-4a52-ba02-65fde8fc8654
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

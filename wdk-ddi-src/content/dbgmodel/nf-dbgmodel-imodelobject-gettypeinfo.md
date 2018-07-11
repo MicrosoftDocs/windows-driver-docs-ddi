@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetTypeInfo
-title: IModelObject::GetTypeInfo method
+title: IModelObject::GetTypeInfo
 author: windows-driver-content
 description: TBD
-ms.assetid: 5bd8bb1c-2c30-4fff-9b8b-61eccf77b0c1
+ms.assetid: 15543aee-79aa-45e7-ad7a-017eab0e7d74
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetTypeInfo, GetTypeInfo,IModelObject.GetTypeInfo
+ms.keywords: IModelObject::GetTypeInfo, GetTypeInfo, IModelObject.GetTypeInfo, IModelObject::GetTypeInfo, IModelObject.GetTypeInfo
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetTypeInfo method
+# IModelObject::GetTypeInfo
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory2.AddRef
-title: IDebugHostMemory2::AddRef method
+title: IDebugHostMemory2::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 08c59ac6-82e1-47fe-938b-7c3a6b869634
+ms.assetid: 98e0285d-c45a-46ba-8eb6-2b41a4ae1937
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostMemory2, IDebugHostMemory2::AddRef, AddRef,IDebugHostMemory2.AddRef
+ms.keywords: IDebugHostMemory2::AddRef, AddRef, IDebugHostMemory2.AddRef, IDebugHostMemory2::AddRef, IDebugHostMemory2.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostMemory2::AddRef method
+# IDebugHostMemory2::AddRef
 
 
 ## -description

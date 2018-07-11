@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager.CreateTypedObjectReference
-title: IDataModelManager::CreateTypedObjectReference method
+title: IDataModelManager::CreateTypedObjectReference
 author: windows-driver-content
 description: TBD
-ms.assetid: 25edb1bc-f4cd-4a9b-89db-21db6511bcaf
+ms.assetid: a71dc31c-72e9-4633-a38b-6951336d759a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager, IDataModelManager::CreateTypedObjectReference, CreateTypedObjectReference,IDataModelManager.CreateTypedObjectReference
+ms.keywords: IDataModelManager::CreateTypedObjectReference, CreateTypedObjectReference, IDataModelManager.CreateTypedObjectReference, IDataModelManager::CreateTypedObjectReference, IDataModelManager.CreateTypedObjectReference
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager::CreateTypedObjectReference method
+# IDataModelManager::CreateTypedObjectReference
 
 
 ## -description

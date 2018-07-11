@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDataModelScriptDebugVariableSetEnumerator
 title: IDataModelScriptDebugVariableSetEnumerator
 author: windows-driver-content
 description: TBD
-ms.assetid: 1285812c-56be-473d-ba03-bd70a6b1a4d9
+ms.assetid: f6d5d98e-0550-4348-9777-072a802d68a1
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

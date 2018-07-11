@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IComparableConcept.CompareObjects
-title: IComparableConcept::CompareObjects method
+title: IComparableConcept::CompareObjects
 author: windows-driver-content
 description: TBD
-ms.assetid: 1cea1371-5da4-4295-95aa-03779697f788
+ms.assetid: c9736b52-f159-4468-af0a-94b409c89991
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IComparableConcept, IComparableConcept::CompareObjects, CompareObjects,IComparableConcept.CompareObjects
+ms.keywords: IComparableConcept::CompareObjects, CompareObjects, IComparableConcept.CompareObjects, IComparableConcept::CompareObjects, IComparableConcept.CompareObjects
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IComparableConcept::CompareObjects method
+# IComparableConcept::CompareObjects
 
 
 ## -description

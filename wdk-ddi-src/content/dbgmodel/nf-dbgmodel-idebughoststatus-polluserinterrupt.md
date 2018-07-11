@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostStatus.PollUserInterrupt
-title: IDebugHostStatus::PollUserInterrupt method
+title: IDebugHostStatus::PollUserInterrupt
 author: windows-driver-content
 description: TBD
-ms.assetid: f5d968a5-8bdc-4bba-bb1a-3d2fc703feb0
+ms.assetid: 47cffc73-e8d3-4aa4-b2d5-9c91db2eba80
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostStatus, IDebugHostStatus::PollUserInterrupt, PollUserInterrupt,IDebugHostStatus.PollUserInterrupt
+ms.keywords: IDebugHostStatus::PollUserInterrupt, PollUserInterrupt, IDebugHostStatus.PollUserInterrupt, IDebugHostStatus::PollUserInterrupt, IDebugHostStatus.PollUserInterrupt
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostStatus::PollUserInterrupt method
+# IDebugHostStatus::PollUserInterrupt
 
 
 ## -description

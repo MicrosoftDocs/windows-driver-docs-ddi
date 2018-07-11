@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostEvaluator2.EvaluateExtendedExpression
-title: IDebugHostEvaluator2::EvaluateExtendedExpression method
+title: IDebugHostEvaluator2::EvaluateExtendedExpression
 author: windows-driver-content
 description: TBD
-ms.assetid: a33cf203-ec8c-4354-b464-1834ebf53055
+ms.assetid: 6eb4c88b-1c63-4209-a876-6ed800681533
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostEvaluator2, IDebugHostEvaluator2::EvaluateExtendedExpression, EvaluateExtendedExpression,IDebugHostEvaluator2.EvaluateExtendedExpression
+ms.keywords: IDebugHostEvaluator2::EvaluateExtendedExpression, EvaluateExtendedExpression, IDebugHostEvaluator2.EvaluateExtendedExpression, IDebugHostEvaluator2::EvaluateExtendedExpression, IDebugHostEvaluator2.EvaluateExtendedExpression
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostEvaluator2::EvaluateExtendedExpression method
+# IDebugHostEvaluator2::EvaluateExtendedExpression
 
 
 ## -description

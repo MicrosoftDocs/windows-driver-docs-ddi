@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDebugHostExtensibility
 title: IDebugHostExtensibility
 author: windows-driver-content
 description: TBD
-ms.assetid: 245f9d22-a73b-4318-b210-7bbeae4a2ddd
+ms.assetid: ca0b53b7-9e3a-4dca-ab84-0e147006ac32
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

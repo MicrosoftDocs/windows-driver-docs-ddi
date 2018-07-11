@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugVariableSetEnumerator.Release
-title: IDataModelScriptDebugVariableSetEnumerator::Release method
+title: IDataModelScriptDebugVariableSetEnumerator::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 9eb2e65c-c75c-47a1-b315-93bc521ca333
+ms.assetid: 2a506a1d-be24-42d9-9a9e-e22452abbfa5
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugVariableSetEnumerator, IDataModelScriptDebugVariableSetEnumerator::Release, Release,IDataModelScriptDebugVariableSetEnumerator.Release
+ms.keywords: IDataModelScriptDebugVariableSetEnumerator::Release, Release, IDataModelScriptDebugVariableSetEnumerator.Release, IDataModelScriptDebugVariableSetEnumerator::Release, IDataModelScriptDebugVariableSetEnumerator.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugVariableSetEnumerator::Release method
+# IDataModelScriptDebugVariableSetEnumerator::Release
 
 
 ## -description

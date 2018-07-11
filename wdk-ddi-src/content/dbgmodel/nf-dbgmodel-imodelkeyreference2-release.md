@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.Release
-title: IModelKeyReference2::Release method
+title: IModelKeyReference2::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: f65b1a2b-cc80-4522-a255-9751bf33955d
+ms.assetid: 5ed42151-5fe3-461d-afca-90905752ad97
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelKeyReference2, IModelKeyReference2::Release, Release,IModelKeyReference2.Release
+ms.keywords: IModelKeyReference2::Release, Release, IModelKeyReference2.Release, IModelKeyReference2::Release, IModelKeyReference2.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelKeyReference2::Release method
+# IModelKeyReference2::Release
 
 
 ## -description

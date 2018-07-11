@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDynamicKeyProviderConcept
 title: IDynamicKeyProviderConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: 5f7f12e6-e8ff-4a82-bc77-d04a5a729954
+ms.assetid: f7a64209-5764-4a95-b099-0a0a04599ea4
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

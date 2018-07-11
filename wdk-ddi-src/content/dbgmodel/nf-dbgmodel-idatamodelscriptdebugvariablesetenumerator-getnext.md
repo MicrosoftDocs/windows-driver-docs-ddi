@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugVariableSetEnumerator.GetNext
-title: IDataModelScriptDebugVariableSetEnumerator::GetNext method
+title: IDataModelScriptDebugVariableSetEnumerator::GetNext
 author: windows-driver-content
 description: TBD
-ms.assetid: 3f6ae9fb-6a38-4cd3-b0cd-8facfbe51bda
+ms.assetid: 3e5b85ef-4766-42e5-a300-14f5271f1c2d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugVariableSetEnumerator, IDataModelScriptDebugVariableSetEnumerator::GetNext, GetNext,IDataModelScriptDebugVariableSetEnumerator.GetNext
+ms.keywords: IDataModelScriptDebugVariableSetEnumerator::GetNext, GetNext, IDataModelScriptDebugVariableSetEnumerator.GetNext, IDataModelScriptDebugVariableSetEnumerator::GetNext, IDataModelScriptDebugVariableSetEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugVariableSetEnumerator::GetNext method
+# IDataModelScriptDebugVariableSetEnumerator::GetNext
 
 
 ## -description

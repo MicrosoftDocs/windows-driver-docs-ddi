@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostConstant.GetContext
-title: IDebugHostConstant::GetContext method
+title: IDebugHostConstant::GetContext
 author: windows-driver-content
 description: TBD
-ms.assetid: f522387b-b0d4-49e6-a28e-ec25cd33cd6d
+ms.assetid: 97791b67-24ec-45e3-aa45-2c4eacd5ec89
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostConstant, IDebugHostConstant::GetContext, GetContext,IDebugHostConstant.GetContext
+ms.keywords: IDebugHostConstant::GetContext, GetContext, IDebugHostConstant.GetContext, IDebugHostConstant::GetContext, IDebugHostConstant.GetContext
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostConstant::GetContext method
+# IDebugHostConstant::GetContext
 
 
 ## -description

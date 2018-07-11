@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IRawEnumerator.GetNext
-title: IRawEnumerator::GetNext method
+title: IRawEnumerator::GetNext
 author: windows-driver-content
 description: TBD
-ms.assetid: 09a3aca5-a7dd-44dc-beca-438d32312e09
+ms.assetid: 64162d89-113d-4383-ba11-d984a16c801b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IRawEnumerator, IRawEnumerator::GetNext, GetNext,IRawEnumerator.GetNext
+ms.keywords: IRawEnumerator::GetNext, GetNext, IRawEnumerator.GetNext, IRawEnumerator::GetNext, IRawEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IRawEnumerator::GetNext method
+# IRawEnumerator::GetNext
 
 
 ## -description

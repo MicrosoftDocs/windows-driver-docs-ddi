@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetRawReference
-title: IModelObject::GetRawReference method
+title: IModelObject::GetRawReference
 author: windows-driver-content
 description: TBD
-ms.assetid: 11f7652b-4254-414f-8b1b-8feea105ab2f
+ms.assetid: 2a886a30-3403-4276-be7c-93348e2b9eea
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetRawReference, GetRawReference,IModelObject.GetRawReference
+ms.keywords: IModelObject::GetRawReference, GetRawReference, IModelObject.GetRawReference, IModelObject::GetRawReference, IModelObject.GetRawReference
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetRawReference method
+# IModelObject::GetRawReference
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostErrorSink.ReportError
-title: IDebugHostErrorSink::ReportError method
+title: IDebugHostErrorSink::ReportError
 author: windows-driver-content
 description: TBD
-ms.assetid: 9fa84402-3341-43ed-8f90-fa279467c666
+ms.assetid: c7a5bba3-dd86-4710-9da8-0e5f111ab45e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostErrorSink, IDebugHostErrorSink::ReportError, ReportError,IDebugHostErrorSink.ReportError
+ms.keywords: IDebugHostErrorSink::ReportError, ReportError, IDebugHostErrorSink.ReportError, IDebugHostErrorSink::ReportError, IDebugHostErrorSink.ReportError
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostErrorSink::ReportError method
+# IDebugHostErrorSink::ReportError
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IIndexableConcept.SetAt
-title: IIndexableConcept::SetAt method
+title: IIndexableConcept::SetAt
 author: windows-driver-content
 description: TBD
-ms.assetid: 4564bc17-1cdf-421d-be22-ec089a27885a
+ms.assetid: 732e17ad-60d2-4f42-a898-5fa81eb7005b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IIndexableConcept, IIndexableConcept::SetAt, SetAt,IIndexableConcept.SetAt
+ms.keywords: IIndexableConcept::SetAt, SetAt, IIndexableConcept.SetAt, IIndexableConcept::SetAt, IIndexableConcept.SetAt
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IIndexableConcept::SetAt method
+# IIndexableConcept::SetAt
 
 
 ## -description

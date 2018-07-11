@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptTemplateEnumerator.GetNext
-title: IDataModelScriptTemplateEnumerator::GetNext method
+title: IDataModelScriptTemplateEnumerator::GetNext
 author: windows-driver-content
 description: TBD
-ms.assetid: bb9e6c78-c9b5-4cef-8d74-6bd561e9acca
+ms.assetid: 0e713d20-12a1-457e-9638-03064773c19f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptTemplateEnumerator, IDataModelScriptTemplateEnumerator::GetNext, GetNext,IDataModelScriptTemplateEnumerator.GetNext
+ms.keywords: IDataModelScriptTemplateEnumerator::GetNext, GetNext, IDataModelScriptTemplateEnumerator.GetNext, IDataModelScriptTemplateEnumerator::GetNext, IDataModelScriptTemplateEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptTemplateEnumerator::GetNext method
+# IDataModelScriptTemplateEnumerator::GetNext
 
 
 ## -description

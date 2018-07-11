@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostExtensibility.DestroyFunctionAlias
-title: IDebugHostExtensibility::DestroyFunctionAlias method
+title: IDebugHostExtensibility::DestroyFunctionAlias
 author: windows-driver-content
 description: TBD
-ms.assetid: 9cbc5880-4862-43da-a848-248a8653ea6d
+ms.assetid: 804810be-bb3a-41e8-b239-919625eb6f0c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostExtensibility, IDebugHostExtensibility::DestroyFunctionAlias, DestroyFunctionAlias,IDebugHostExtensibility.DestroyFunctionAlias
+ms.keywords: IDebugHostExtensibility::DestroyFunctionAlias, DestroyFunctionAlias, IDebugHostExtensibility.DestroyFunctionAlias, IDebugHostExtensibility::DestroyFunctionAlias, IDebugHostExtensibility.DestroyFunctionAlias
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostExtensibility::DestroyFunctionAlias method
+# IDebugHostExtensibility::DestroyFunctionAlias
 
 
 ## -description

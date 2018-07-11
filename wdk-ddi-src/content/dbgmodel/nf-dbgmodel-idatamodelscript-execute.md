@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScript.Execute
-title: IDataModelScript::Execute method
+title: IDataModelScript::Execute
 author: windows-driver-content
 description: TBD
-ms.assetid: c1f20798-d45e-4615-9392-9cc6e883b46a
+ms.assetid: 6682b609-fd29-4878-b820-f7a582b7295d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScript, IDataModelScript::Execute, Execute,IDataModelScript.Execute
+ms.keywords: IDataModelScript::Execute, Execute, IDataModelScript.Execute, IDataModelScript::Execute, IDataModelScript.Execute
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScript::Execute method
+# IDataModelScript::Execute
 
 
 ## -description

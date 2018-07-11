@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetConcept
-title: IModelObject::GetConcept method
+title: IModelObject::GetConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: 45243eab-a296-4e08-9c89-8e464e2d0924
+ms.assetid: eab33f82-a73f-46d8-9c12-d06c28869290
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetConcept, GetConcept,IModelObject.GetConcept
+ms.keywords: IModelObject::GetConcept, GetConcept, IModelObject.GetConcept, IModelObject::GetConcept, IModelObject.GetConcept
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetConcept method
+# IModelObject::GetConcept
 
 
 ## -description

@@ -3,7 +3,7 @@ UID: NF:dbgmodel.BindProperty~r1
 title: BindProperty function
 author: windows-driver-content
 description: TBD
-ms.assetid: 89c10b78-fdb2-4910-a065-9f42e2281822
+ms.assetid: 5bb97697-3462-4fcc-9306-e8741fc6003e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
@@ -28,13 +28,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	DllExport
+-	
 api_location: 
--	NtosKrnl.exe
+-	
 api_name: 
 -	BindProperty
 product: Windows
 targetos: Windows
+
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.GetLocation
-title: IModelObject::GetLocation method
+title: IModelObject::GetLocation
 author: windows-driver-content
 description: TBD
-ms.assetid: d15c515e-036c-4be4-affd-06128ca2ad15
+ms.assetid: d66a6e6d-bd87-46fe-a09e-04b7d5632180
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::GetLocation, GetLocation,IModelObject.GetLocation
+ms.keywords: IModelObject::GetLocation, GetLocation, IModelObject.GetLocation, IModelObject::GetLocation, IModelObject.GetLocation
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::GetLocation method
+# IModelObject::GetLocation
 
 
 ## -description

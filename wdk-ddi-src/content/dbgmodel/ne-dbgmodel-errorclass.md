@@ -3,7 +3,7 @@ UID: NE:dbgmodel.ErrorClass
 title: ErrorClass
 author: windows-driver-content
 description: 
-ms.assetid: 49e656b2-bdf0-4db3-afee-990c4a96d1be
+ms.assetid: 38a84d5f-14a9-4b7e-b484-a90738241972
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

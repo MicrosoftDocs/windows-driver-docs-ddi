@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetFunctionCallingConvention
-title: IDebugHostType::GetFunctionCallingConvention method
+title: IDebugHostType::GetFunctionCallingConvention
 author: windows-driver-content
 description: TBD
-ms.assetid: 0c6d13d6-e4f7-44cc-a17d-d32463e2c154
+ms.assetid: 7c0b15e9-abd8-4b17-abc8-2212205875fa
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::GetFunctionCallingConvention, GetFunctionCallingConvention,IDebugHostType.GetFunctionCallingConvention
+ms.keywords: IDebugHostType::GetFunctionCallingConvention, GetFunctionCallingConvention, IDebugHostType.GetFunctionCallingConvention, IDebugHostType::GetFunctionCallingConvention, IDebugHostType.GetFunctionCallingConvention
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::GetFunctionCallingConvention method
+# IDebugHostType::GetFunctionCallingConvention
 
 
 ## -description

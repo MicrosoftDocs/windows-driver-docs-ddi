@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IPreferredRuntimeTypeConcept.QueryInterface
-title: IPreferredRuntimeTypeConcept::QueryInterface method
+title: IPreferredRuntimeTypeConcept::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 1891fc73-9a82-496f-af8a-e6432668de74
+ms.assetid: 4bb3fbdc-d1f0-4410-b289-3344d64cb051
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IPreferredRuntimeTypeConcept, IPreferredRuntimeTypeConcept::QueryInterface, QueryInterface,IPreferredRuntimeTypeConcept.QueryInterface
+ms.keywords: IPreferredRuntimeTypeConcept::QueryInterface, QueryInterface, IPreferredRuntimeTypeConcept.QueryInterface, IPreferredRuntimeTypeConcept::QueryInterface, IPreferredRuntimeTypeConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IPreferredRuntimeTypeConcept::QueryInterface method
+# IPreferredRuntimeTypeConcept::QueryInterface
 
 
 ## -description

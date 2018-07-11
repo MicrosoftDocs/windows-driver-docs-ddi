@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IRawEnumerator.QueryInterface
-title: IRawEnumerator::QueryInterface method
+title: IRawEnumerator::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 708e93e8-ccd0-46e7-9985-547688a73e1c
+ms.assetid: e98eeb95-89ff-4112-8562-8cf0d6f13050
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IRawEnumerator, IRawEnumerator::QueryInterface, QueryInterface,IRawEnumerator.QueryInterface
+ms.keywords: IRawEnumerator::QueryInterface, QueryInterface, IRawEnumerator.QueryInterface, IRawEnumerator::QueryInterface, IRawEnumerator.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IRawEnumerator::QueryInterface method
+# IRawEnumerator::QueryInterface
 
 
 ## -description

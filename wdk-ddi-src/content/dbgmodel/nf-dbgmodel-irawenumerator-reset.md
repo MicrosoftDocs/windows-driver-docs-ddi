@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IRawEnumerator.Reset
-title: IRawEnumerator::Reset method
+title: IRawEnumerator::Reset
 author: windows-driver-content
 description: TBD
-ms.assetid: ceb1b430-b53d-482d-ab84-ef4b726d1a81
+ms.assetid: 4cf9fdb7-d79e-437b-a5a3-8224e682e6b6
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IRawEnumerator, IRawEnumerator::Reset, Reset,IRawEnumerator.Reset
+ms.keywords: IRawEnumerator::Reset, Reset, IRawEnumerator.Reset, IRawEnumerator::Reset, IRawEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IRawEnumerator::Reset method
+# IRawEnumerator::Reset
 
 
 ## -description

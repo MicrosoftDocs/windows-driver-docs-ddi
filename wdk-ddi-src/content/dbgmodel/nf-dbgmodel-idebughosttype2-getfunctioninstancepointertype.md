@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetFunctionInstancePointerType
-title: IDebugHostType2::GetFunctionInstancePointerType method
+title: IDebugHostType2::GetFunctionInstancePointerType
 author: windows-driver-content
 description: TBD
-ms.assetid: eaf11584-ce02-4533-bbac-37fbcb777bbd
+ms.assetid: 1caa5327-25be-4a4a-aa23-c145b71b428e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType2, IDebugHostType2::GetFunctionInstancePointerType, GetFunctionInstancePointerType,IDebugHostType2.GetFunctionInstancePointerType
+ms.keywords: IDebugHostType2::GetFunctionInstancePointerType, GetFunctionInstancePointerType, IDebugHostType2.GetFunctionInstancePointerType, IDebugHostType2::GetFunctionInstancePointerType, IDebugHostType2.GetFunctionInstancePointerType
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType2::GetFunctionInstancePointerType method
+# IDebugHostType2::GetFunctionInstancePointerType
 
 
 ## -description

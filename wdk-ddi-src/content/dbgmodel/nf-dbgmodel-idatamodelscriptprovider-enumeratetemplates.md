@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProvider.EnumerateTemplates
-title: IDataModelScriptProvider::EnumerateTemplates method
+title: IDataModelScriptProvider::EnumerateTemplates
 author: windows-driver-content
 description: TBD
-ms.assetid: 33f4a7be-bc93-4188-8abb-929529cceca2
+ms.assetid: 9d814794-0a1a-4de8-8f2c-3cb2f3d48b76
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptProvider, IDataModelScriptProvider::EnumerateTemplates, EnumerateTemplates,IDataModelScriptProvider.EnumerateTemplates
+ms.keywords: IDataModelScriptProvider::EnumerateTemplates, EnumerateTemplates, IDataModelScriptProvider.EnumerateTemplates, IDataModelScriptProvider::EnumerateTemplates, IDataModelScriptProvider.EnumerateTemplates
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptProvider::EnumerateTemplates method
+# IDataModelScriptProvider::EnumerateTemplates
 
 
 ## -description

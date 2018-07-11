@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateSyntheticObject
-title: IDataModelManager2::CreateSyntheticObject method
+title: IDataModelManager2::CreateSyntheticObject
 author: windows-driver-content
 description: TBD
-ms.assetid: 7f29d276-f1fe-4d11-bcd6-c289a6c6e0b3
+ms.assetid: 039a1b6e-6b9d-47fd-9c18-c65640daca3a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::CreateSyntheticObject, CreateSyntheticObject,IDataModelManager2.CreateSyntheticObject
+ms.keywords: IDataModelManager2::CreateSyntheticObject, CreateSyntheticObject, IDataModelManager2.CreateSyntheticObject, IDataModelManager2::CreateSyntheticObject, IDataModelManager2.CreateSyntheticObject
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::CreateSyntheticObject method
+# IDataModelManager2::CreateSyntheticObject
 
 
 ## -description

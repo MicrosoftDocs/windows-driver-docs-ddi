@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostModuleSignature.Release
-title: IDebugHostModuleSignature::Release method
+title: IDebugHostModuleSignature::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 1ee62183-1110-444d-9aca-a2fa721a9d92
+ms.assetid: 559e4079-a1bb-4d53-abfb-4d35789bf5a9
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostModuleSignature, IDebugHostModuleSignature::Release, Release,IDebugHostModuleSignature.Release
+ms.keywords: IDebugHostModuleSignature::Release, Release, IDebugHostModuleSignature.Release, IDebugHostModuleSignature::Release, IDebugHostModuleSignature.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostModuleSignature::Release method
+# IDebugHostModuleSignature::Release
 
 
 ## -description

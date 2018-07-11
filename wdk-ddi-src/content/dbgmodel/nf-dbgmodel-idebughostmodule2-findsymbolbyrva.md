@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostModule2.FindSymbolByRVA
-title: IDebugHostModule2::FindSymbolByRVA method
+title: IDebugHostModule2::FindSymbolByRVA
 author: windows-driver-content
 description: TBD
-ms.assetid: 035dae61-dff7-4c5b-a74c-2ce4b25db3a6
+ms.assetid: 55e87b33-8392-4391-970c-690d5a1934e9
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostModule2, IDebugHostModule2::FindSymbolByRVA, FindSymbolByRVA,IDebugHostModule2.FindSymbolByRVA
+ms.keywords: IDebugHostModule2::FindSymbolByRVA, FindSymbolByRVA, IDebugHostModule2.FindSymbolByRVA, IDebugHostModule2::FindSymbolByRVA, IDebugHostModule2.FindSymbolByRVA
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostModule2::FindSymbolByRVA method
+# IDebugHostModule2::FindSymbolByRVA
 
 
 ## -description

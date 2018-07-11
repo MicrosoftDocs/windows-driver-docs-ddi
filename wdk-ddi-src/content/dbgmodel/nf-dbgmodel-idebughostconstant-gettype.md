@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostConstant.GetType
-title: IDebugHostConstant::GetType method
+title: IDebugHostConstant::GetType
 author: windows-driver-content
 description: TBD
-ms.assetid: 97557005-5ea5-4179-96b1-9b7c75d01156
+ms.assetid: 1cde171b-5adb-4447-b423-313874706cf3
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostConstant, IDebugHostConstant::GetType, GetType,IDebugHostConstant.GetType
+ms.keywords: IDebugHostConstant::GetType, GetType, IDebugHostConstant.GetType, IDebugHostConstant::GetType, IDebugHostConstant.GetType
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostConstant::GetType method
+# IDebugHostConstant::GetType
 
 
 ## -description

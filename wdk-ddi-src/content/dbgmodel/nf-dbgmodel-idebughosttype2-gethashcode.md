@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.GetHashCode
-title: IDebugHostType2::GetHashCode method
+title: IDebugHostType2::GetHashCode
 author: windows-driver-content
 description: TBD
-ms.assetid: 167532a9-f1ff-4466-bf4f-71b6829b2215
+ms.assetid: d51f86ff-bb28-4cbb-b829-265d04ae7772
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType2, IDebugHostType2::GetHashCode, GetHashCode,IDebugHostType2.GetHashCode
+ms.keywords: IDebugHostType2::GetHashCode, GetHashCode, IDebugHostType2.GetHashCode, IDebugHostType2::GetHashCode, IDebugHostType2.GetHashCode
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType2::GetHashCode method
+# IDebugHostType2::GetHashCode
 
 
 ## -description

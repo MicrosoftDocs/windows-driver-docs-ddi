@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebugVariableSetEnumerator.AddRef
-title: IDataModelScriptDebugVariableSetEnumerator::AddRef method
+title: IDataModelScriptDebugVariableSetEnumerator::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 764d69fa-e59f-4402-8225-04a897b17225
+ms.assetid: 06d03b66-e01f-437f-9550-6167d9e80ac6
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebugVariableSetEnumerator, IDataModelScriptDebugVariableSetEnumerator::AddRef, AddRef,IDataModelScriptDebugVariableSetEnumerator.AddRef
+ms.keywords: IDataModelScriptDebugVariableSetEnumerator::AddRef, AddRef, IDataModelScriptDebugVariableSetEnumerator.AddRef, IDataModelScriptDebugVariableSetEnumerator::AddRef, IDataModelScriptDebugVariableSetEnumerator.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebugVariableSetEnumerator::AddRef method
+# IDataModelScriptDebugVariableSetEnumerator::AddRef
 
 
 ## -description

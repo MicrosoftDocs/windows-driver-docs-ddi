@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelManager2.CreateErrorObject
-title: IDataModelManager2::CreateErrorObject method
+title: IDataModelManager2::CreateErrorObject
 author: windows-driver-content
 description: TBD
-ms.assetid: c0e12351-b462-4c56-95c5-0057221ab8bc
+ms.assetid: 78cbba35-8827-4e76-bcb3-97aeb0378d33
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelManager2, IDataModelManager2::CreateErrorObject, CreateErrorObject,IDataModelManager2.CreateErrorObject
+ms.keywords: IDataModelManager2::CreateErrorObject, CreateErrorObject, IDataModelManager2.CreateErrorObject, IDataModelManager2::CreateErrorObject, IDataModelManager2.CreateErrorObject
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelManager2::CreateErrorObject method
+# IDataModelManager2::CreateErrorObject
 
 
 ## -description

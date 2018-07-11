@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference2.GetOriginalObject
-title: IModelKeyReference2::GetOriginalObject method
+title: IModelKeyReference2::GetOriginalObject
 author: windows-driver-content
 description: TBD
-ms.assetid: d30b6f34-e2fa-4682-bd9b-9710b12d3b9f
+ms.assetid: ed57ca76-772c-48ee-b7d3-ab1107569859
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelKeyReference2, IModelKeyReference2::GetOriginalObject, GetOriginalObject,IModelKeyReference2.GetOriginalObject
+ms.keywords: IModelKeyReference2::GetOriginalObject, GetOriginalObject, IModelKeyReference2.GetOriginalObject, IModelKeyReference2::GetOriginalObject, IModelKeyReference2.GetOriginalObject
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelKeyReference2::GetOriginalObject method
+# IModelKeyReference2::GetOriginalObject
 
 
 ## -description

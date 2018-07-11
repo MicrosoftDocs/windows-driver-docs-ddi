@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbol.GetName
-title: IDebugHostSymbol::GetName method
+title: IDebugHostSymbol::GetName
 author: windows-driver-content
 description: TBD
-ms.assetid: a5c42822-13dd-44a6-ae9c-3509bfd3333b
+ms.assetid: a7f1c557-1c01-491a-afc9-3046e8db4cc0
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostSymbol, IDebugHostSymbol::GetName, GetName,IDebugHostSymbol.GetName
+ms.keywords: IDebugHostSymbol::GetName, GetName, IDebugHostSymbol.GetName, IDebugHostSymbol::GetName, IDebugHostSymbol.GetName
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostSymbol::GetName method
+# IDebugHostSymbol::GetName
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptHostContext.NotifyScriptChange
-title: IDataModelScriptHostContext::NotifyScriptChange method
+title: IDataModelScriptHostContext::NotifyScriptChange
 author: windows-driver-content
 description: TBD
-ms.assetid: 40d9d37f-b4b8-42c3-ba8c-f21a0febe43a
+ms.assetid: c30d734e-4360-4e87-82f9-cfda1b4b5476
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptHostContext, IDataModelScriptHostContext::NotifyScriptChange, NotifyScriptChange,IDataModelScriptHostContext.NotifyScriptChange
+ms.keywords: IDataModelScriptHostContext::NotifyScriptChange, NotifyScriptChange, IDataModelScriptHostContext.NotifyScriptChange, IDataModelScriptHostContext::NotifyScriptChange, IDataModelScriptHostContext.NotifyScriptChange
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptHostContext::NotifyScriptChange method
+# IDataModelScriptHostContext::NotifyScriptChange
 
 
 ## -description

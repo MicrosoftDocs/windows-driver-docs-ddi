@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDebugHostScriptHost
 title: IDebugHostScriptHost
 author: windows-driver-content
 description: TBD
-ms.assetid: 63d6d4cd-5ca9-465f-9201-6e560918c6fe
+ms.assetid: d0376d3b-d770-44e6-8b8f-5d8cc361bf14
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

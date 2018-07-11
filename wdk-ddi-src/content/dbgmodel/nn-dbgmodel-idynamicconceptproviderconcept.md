@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IDynamicConceptProviderConcept
 title: IDynamicConceptProviderConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: 204d707d-9510-4aa4-a934-b0af80f96aca
+ms.assetid: b3cb8b59-ea20-4db7-badc-25dac000bcaa
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostMemory2.ReadBytes
-title: IDebugHostMemory2::ReadBytes method
+title: IDebugHostMemory2::ReadBytes
 author: windows-driver-content
 description: TBD
-ms.assetid: 295fb561-6d9a-4248-a61c-7302fe67a3b0
+ms.assetid: db0ae688-692c-468f-aa1b-7dca69a53ee2
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostMemory2, IDebugHostMemory2::ReadBytes, ReadBytes,IDebugHostMemory2.ReadBytes
+ms.keywords: IDebugHostMemory2::ReadBytes, ReadBytes, IDebugHostMemory2.ReadBytes, IDebugHostMemory2::ReadBytes, IDebugHostMemory2.ReadBytes
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostMemory2::ReadBytes method
+# IDebugHostMemory2::ReadBytes
 
 
 ## -description

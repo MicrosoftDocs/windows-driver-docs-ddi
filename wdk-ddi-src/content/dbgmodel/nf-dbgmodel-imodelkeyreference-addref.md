@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelKeyReference.AddRef
-title: IModelKeyReference::AddRef method
+title: IModelKeyReference::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: f662871c-d3a3-4f2c-9f7d-ed54503b5b62
+ms.assetid: 4e8442a9-7b3d-4b23-9182-cfc3771ac05f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelKeyReference, IModelKeyReference::AddRef, AddRef,IModelKeyReference.AddRef
+ms.keywords: IModelKeyReference::AddRef, AddRef, IModelKeyReference.AddRef, IModelKeyReference::AddRef, IModelKeyReference.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelKeyReference::AddRef method
+# IModelKeyReference::AddRef
 
 
 ## -description

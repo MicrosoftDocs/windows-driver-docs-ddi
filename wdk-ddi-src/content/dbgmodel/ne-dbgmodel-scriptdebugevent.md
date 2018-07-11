@@ -3,7 +3,7 @@ UID: NE:dbgmodel.ScriptDebugEvent
 title: ScriptDebugEvent
 author: windows-driver-content
 description: 
-ms.assetid: fb7190f4-b7ef-4597-af13-2612f694b0b0
+ms.assetid: 79741ba7-a920-4f0e-a953-9ff6a0a8ee85
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IIterableConcept.Release
-title: IIterableConcept::Release method
+title: IIterableConcept::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: bd845bcd-7a37-4bd1-85c3-df9940e890f2
+ms.assetid: 82e6678e-82e1-43fa-965a-73877c476f83
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IIterableConcept, IIterableConcept::Release, Release,IIterableConcept.Release
+ms.keywords: IIterableConcept::Release, Release, IIterableConcept.Release, IIterableConcept::Release, IIterableConcept.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IIterableConcept::Release method
+# IIterableConcept::Release
 
 
 ## -description

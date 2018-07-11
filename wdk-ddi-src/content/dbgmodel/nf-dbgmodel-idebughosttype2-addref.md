@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType2.AddRef
-title: IDebugHostType2::AddRef method
+title: IDebugHostType2::AddRef
 author: windows-driver-content
 description: TBD
-ms.assetid: 95fb63ce-463c-455b-8f27-1b53403108ce
+ms.assetid: 02d46592-4529-4ef4-b5c2-7e713d4be5a3
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType2, IDebugHostType2::AddRef, AddRef,IDebugHostType2.AddRef
+ms.keywords: IDebugHostType2::AddRef, AddRef, IDebugHostType2.AddRef, IDebugHostType2::AddRef, IDebugHostType2.AddRef
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType2::AddRef method
+# IDebugHostType2::AddRef
 
 
 ## -description

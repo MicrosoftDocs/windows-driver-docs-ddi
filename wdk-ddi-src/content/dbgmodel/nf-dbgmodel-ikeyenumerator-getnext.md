@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IKeyEnumerator.GetNext
-title: IKeyEnumerator::GetNext method
+title: IKeyEnumerator::GetNext
 author: windows-driver-content
 description: TBD
-ms.assetid: 47c61f23-936f-4c6c-93aa-be6b6004a1c6
+ms.assetid: 0a6a1109-c97f-4335-ac2d-434e9bd57f40
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IKeyEnumerator, IKeyEnumerator::GetNext, GetNext,IKeyEnumerator.GetNext
+ms.keywords: IKeyEnumerator::GetNext, GetNext, IKeyEnumerator.GetNext, IKeyEnumerator::GetNext, IKeyEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IKeyEnumerator::GetNext method
+# IKeyEnumerator::GetNext
 
 
 ## -description

@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IKeyStore
 title: IKeyStore
 author: windows-driver-content
 description: TBD
-ms.assetid: e470ab09-8c56-46df-ae54-0aa025e9c1ff
+ms.assetid: 434182b4-c9ee-4ca0-b092-f60098df5d16
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

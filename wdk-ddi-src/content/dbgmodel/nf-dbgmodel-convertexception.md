@@ -3,7 +3,7 @@ UID: NF:dbgmodel.ConvertException
 title: ConvertException function
 author: windows-driver-content
 description: TBD
-ms.assetid: 77131e61-fa46-4255-9e5c-d9fc338b0adf
+ms.assetid: cd951fc0-c5a0-4e62-ad33-cfc6a834d849
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
@@ -28,13 +28,14 @@ req.type-library:
 topic_type: 
 -	apiref
 api_type: 
--	DllExport
+-	
 api_location: 
--	NtosKrnl.exe
+-	
 api_name: 
 -	ConvertException
 product: Windows
 targetos: Windows
+
 
 ---
 

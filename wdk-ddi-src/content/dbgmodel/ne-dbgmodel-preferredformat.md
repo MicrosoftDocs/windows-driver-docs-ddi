@@ -3,7 +3,7 @@ UID: NE:dbgmodel.PreferredFormat
 title: PreferredFormat
 author: windows-driver-content
 description: 
-ms.assetid: 40f00db2-1288-4f0a-8ff9-4e7c20ff7982
+ms.assetid: 13729758-f5f8-4f28-80b8-ed8c89d56db5
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

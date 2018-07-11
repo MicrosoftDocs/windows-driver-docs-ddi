@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostType.GetPointerKind
-title: IDebugHostType::GetPointerKind method
+title: IDebugHostType::GetPointerKind
 author: windows-driver-content
 description: TBD
-ms.assetid: 25164bc6-a671-4f5d-ba12-bd4133251a7e
+ms.assetid: cd03e7b1-769d-4316-a8f3-06467173ca70
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostType, IDebugHostType::GetPointerKind, GetPointerKind,IDebugHostType.GetPointerKind
+ms.keywords: IDebugHostType::GetPointerKind, GetPointerKind, IDebugHostType.GetPointerKind, IDebugHostType::GetPointerKind, IDebugHostType.GetPointerKind
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostType::GetPointerKind method
+# IDebugHostType::GetPointerKind
 
 
 ## -description

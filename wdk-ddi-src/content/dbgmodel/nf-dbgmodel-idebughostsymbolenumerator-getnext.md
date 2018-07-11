@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostSymbolEnumerator.GetNext
-title: IDebugHostSymbolEnumerator::GetNext method
+title: IDebugHostSymbolEnumerator::GetNext
 author: windows-driver-content
 description: TBD
-ms.assetid: 0a2efbf4-f35c-499e-8dd6-65df1f29a7ec
+ms.assetid: 906a53c9-af84-46c6-9b39-f55b85786641
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostSymbolEnumerator, IDebugHostSymbolEnumerator::GetNext, GetNext,IDebugHostSymbolEnumerator.GetNext
+ms.keywords: IDebugHostSymbolEnumerator::GetNext, GetNext, IDebugHostSymbolEnumerator.GetNext, IDebugHostSymbolEnumerator::GetNext, IDebugHostSymbolEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostSymbolEnumerator::GetNext method
+# IDebugHostSymbolEnumerator::GetNext
 
 
 ## -description

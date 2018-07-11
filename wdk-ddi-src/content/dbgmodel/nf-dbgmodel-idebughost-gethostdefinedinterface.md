@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHost.GetHostDefinedInterface
-title: IDebugHost::GetHostDefinedInterface method
+title: IDebugHost::GetHostDefinedInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 4d772308-fdcd-4fa2-a41b-b041ff2fa83d
+ms.assetid: 55ad88f7-ef21-40b8-a496-cb2d015080e5
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHost, IDebugHost::GetHostDefinedInterface, GetHostDefinedInterface,IDebugHost.GetHostDefinedInterface
+ms.keywords: IDebugHost::GetHostDefinedInterface, GetHostDefinedInterface, IDebugHost.GetHostDefinedInterface, IDebugHost::GetHostDefinedInterface, IDebugHost.GetHostDefinedInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHost::GetHostDefinedInterface method
+# IDebugHost::GetHostDefinedInterface
 
 
 ## -description

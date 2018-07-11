@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostData.GetValue
-title: IDebugHostData::GetValue method
+title: IDebugHostData::GetValue
 author: windows-driver-content
 description: TBD
-ms.assetid: a98d1212-dbb1-446c-afa9-e1ab9916f584
+ms.assetid: f36dd267-59f8-41aa-99ae-455ae6e98c1e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostData, IDebugHostData::GetValue, GetValue,IDebugHostData.GetValue
+ms.keywords: IDebugHostData::GetValue, GetValue, IDebugHostData.GetValue, IDebugHostData::GetValue, IDebugHostData.GetValue
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostData::GetValue method
+# IDebugHostData::GetValue
 
 
 ## -description

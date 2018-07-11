@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IIterableConcept.GetDefaultIndexDimensionality
-title: IIterableConcept::GetDefaultIndexDimensionality method
+title: IIterableConcept::GetDefaultIndexDimensionality
 author: windows-driver-content
 description: TBD
-ms.assetid: d0d99269-8c3a-4944-b68b-d45a43c8cd6f
+ms.assetid: 877b66bb-4b7a-4e4e-8199-d90a77eabda7
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IIterableConcept, IIterableConcept::GetDefaultIndexDimensionality, GetDefaultIndexDimensionality,IIterableConcept.GetDefaultIndexDimensionality
+ms.keywords: IIterableConcept::GetDefaultIndexDimensionality, GetDefaultIndexDimensionality, IIterableConcept.GetDefaultIndexDimensionality, IIterableConcept::GetDefaultIndexDimensionality, IIterableConcept.GetDefaultIndexDimensionality
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IIterableConcept::GetDefaultIndexDimensionality method
+# IIterableConcept::GetDefaultIndexDimensionality
 
 
 ## -description

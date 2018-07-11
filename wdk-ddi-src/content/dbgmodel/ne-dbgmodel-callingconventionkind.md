@@ -3,7 +3,7 @@ UID: NE:dbgmodel.CallingConventionKind
 title: CallingConventionKind
 author: windows-driver-content
 description: 
-ms.assetid: a03efddd-b4b7-4adc-a238-a8625638dd95
+ms.assetid: c25b87e4-c917-4feb-94c7-9cffe4f4193e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum

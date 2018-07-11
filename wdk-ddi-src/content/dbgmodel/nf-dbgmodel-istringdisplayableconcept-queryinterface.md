@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IStringDisplayableConcept.QueryInterface
-title: IStringDisplayableConcept::QueryInterface method
+title: IStringDisplayableConcept::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: 3f88d37d-00d6-49af-89f7-106906b1410d
+ms.assetid: edb82187-ddf5-4ebb-b8d5-ea191053533b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IStringDisplayableConcept, IStringDisplayableConcept::QueryInterface, QueryInterface,IStringDisplayableConcept.QueryInterface
+ms.keywords: IStringDisplayableConcept::QueryInterface, QueryInterface, IStringDisplayableConcept.QueryInterface, IStringDisplayableConcept::QueryInterface, IStringDisplayableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IStringDisplayableConcept::QueryInterface method
+# IStringDisplayableConcept::QueryInterface
 
 
 ## -description

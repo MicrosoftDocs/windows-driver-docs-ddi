@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptProvider.CreateScript
-title: IDataModelScriptProvider::CreateScript method
+title: IDataModelScriptProvider::CreateScript
 author: windows-driver-content
 description: TBD
-ms.assetid: 57a2b712-c8df-46c4-8072-75630645d678
+ms.assetid: 00318d22-c30d-4279-92a2-5df4b46a841a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptProvider, IDataModelScriptProvider::CreateScript, CreateScript,IDataModelScriptProvider.CreateScript
+ms.keywords: IDataModelScriptProvider::CreateScript, CreateScript, IDataModelScriptProvider.CreateScript, IDataModelScriptProvider::CreateScript, IDataModelScriptProvider.CreateScript
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptProvider::CreateScript method
+# IDataModelScriptProvider::CreateScript
 
 
 ## -description

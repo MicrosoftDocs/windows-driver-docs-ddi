@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.EnumerateRawValues
-title: IModelObject::EnumerateRawValues method
+title: IModelObject::EnumerateRawValues
 author: windows-driver-content
 description: TBD
-ms.assetid: c37c4eca-e700-4a51-b7a3-43f363c40ae1
+ms.assetid: 950019c9-1e39-46bd-be75-fa7fbf52d7da
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::EnumerateRawValues, EnumerateRawValues,IModelObject.EnumerateRawValues
+ms.keywords: IModelObject::EnumerateRawValues, EnumerateRawValues, IModelObject.EnumerateRawValues, IModelObject::EnumerateRawValues, IModelObject.EnumerateRawValues
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::EnumerateRawValues method
+# IModelObject::EnumerateRawValues
 
 
 ## -description

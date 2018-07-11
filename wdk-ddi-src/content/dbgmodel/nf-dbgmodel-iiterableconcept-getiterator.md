@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IIterableConcept.GetIterator
-title: IIterableConcept::GetIterator method
+title: IIterableConcept::GetIterator
 author: windows-driver-content
 description: TBD
-ms.assetid: c5e41517-62ab-4378-aaee-688f6f919055
+ms.assetid: 1060b1b8-8a7c-4548-8e87-0449275bd071
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IIterableConcept, IIterableConcept::GetIterator, GetIterator,IIterableConcept.GetIterator
+ms.keywords: IIterableConcept::GetIterator, GetIterator, IIterableConcept.GetIterator, IIterableConcept::GetIterator, IIterableConcept.GetIterator
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IIterableConcept::GetIterator method
+# IIterableConcept::GetIterator
 
 
 ## -description

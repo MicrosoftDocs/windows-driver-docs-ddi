@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IEquatableConcept.Release
-title: IEquatableConcept::Release method
+title: IEquatableConcept::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: 8f7e0cfe-d25f-4658-9e5b-1ff7f3e61c55
+ms.assetid: 1e78ef6c-0494-423e-81ee-c01691dc40be
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IEquatableConcept, IEquatableConcept::Release, Release,IEquatableConcept.Release
+ms.keywords: IEquatableConcept::Release, Release, IEquatableConcept.Release, IEquatableConcept::Release, IEquatableConcept.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IEquatableConcept::Release method
+# IEquatableConcept::Release
 
 
 ## -description

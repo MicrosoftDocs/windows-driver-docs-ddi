@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptManager.FindProviderForScriptType
-title: IDataModelScriptManager::FindProviderForScriptType method
+title: IDataModelScriptManager::FindProviderForScriptType
 author: windows-driver-content
 description: TBD
-ms.assetid: 64c0dbc3-905d-4565-b024-44683d603f48
+ms.assetid: e71aa49e-bb3d-4faf-a455-139888ff6e55
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptManager, IDataModelScriptManager::FindProviderForScriptType, FindProviderForScriptType,IDataModelScriptManager.FindProviderForScriptType
+ms.keywords: IDataModelScriptManager::FindProviderForScriptType, FindProviderForScriptType, IDataModelScriptManager.FindProviderForScriptType, IDataModelScriptManager::FindProviderForScriptType, IDataModelScriptManager.FindProviderForScriptType
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptManager::FindProviderForScriptType method
+# IDataModelScriptManager::FindProviderForScriptType
 
 
 ## -description

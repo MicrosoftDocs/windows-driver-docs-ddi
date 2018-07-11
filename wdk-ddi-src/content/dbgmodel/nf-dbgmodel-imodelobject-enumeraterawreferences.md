@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.EnumerateRawReferences
-title: IModelObject::EnumerateRawReferences method
+title: IModelObject::EnumerateRawReferences
 author: windows-driver-content
 description: TBD
-ms.assetid: 86e1bc60-6d9b-438e-9408-94fef2cd1bda
+ms.assetid: fe0e5bc3-e852-4755-81b5-e169365b3064
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::EnumerateRawReferences, EnumerateRawReferences,IModelObject.EnumerateRawReferences
+ms.keywords: IModelObject::EnumerateRawReferences, EnumerateRawReferences, IModelObject.EnumerateRawReferences, IModelObject::EnumerateRawReferences, IModelObject.EnumerateRawReferences
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::EnumerateRawReferences method
+# IModelObject::EnumerateRawReferences
 
 
 ## -description

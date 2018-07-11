@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IRawEnumerator
 title: IRawEnumerator
 author: windows-driver-content
 description: TBD
-ms.assetid: f5a91a89-5199-43ff-ac8c-a9c932300ebe
+ms.assetid: 9ffd4c68-726e-41a9-a5d7-523d039dc72f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

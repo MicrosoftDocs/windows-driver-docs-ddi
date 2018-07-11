@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelConcept.QueryInterface
-title: IDataModelConcept::QueryInterface method
+title: IDataModelConcept::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: daa00fda-2130-46dd-abe9-b6fbb4b0cd2f
+ms.assetid: 932cbd0c-97e5-4cf1-8f6c-2dc0f6893d4a
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelConcept, IDataModelConcept::QueryInterface, QueryInterface,IDataModelConcept.QueryInterface
+ms.keywords: IDataModelConcept::QueryInterface, QueryInterface, IDataModelConcept.QueryInterface, IDataModelConcept::QueryInterface, IDataModelConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelConcept::QueryInterface method
+# IDataModelConcept::QueryInterface
 
 
 ## -description

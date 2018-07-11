@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDebugHostBaseClass.GetOffset
-title: IDebugHostBaseClass::GetOffset method
+title: IDebugHostBaseClass::GetOffset
 author: windows-driver-content
 description: TBD
-ms.assetid: a759cf7c-2487-4607-9cf3-86b32dec9aed
+ms.assetid: 13e58ad4-e518-4861-ba38-666e27350160
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDebugHostBaseClass, IDebugHostBaseClass::GetOffset, GetOffset,IDebugHostBaseClass.GetOffset
+ms.keywords: IDebugHostBaseClass::GetOffset, GetOffset, IDebugHostBaseClass.GetOffset, IDebugHostBaseClass::GetOffset, IDebugHostBaseClass.GetOffset
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDebugHostBaseClass::GetOffset method
+# IDebugHostBaseClass::GetOffset
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScript.Rename
-title: IDataModelScript::Rename method
+title: IDataModelScript::Rename
 author: windows-driver-content
 description: TBD
-ms.assetid: 5faccbd7-d4b5-4708-a62b-8fcc901c6d0c
+ms.assetid: b6bb9297-1c8a-4f4c-a5c7-dfa62408be9d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScript, IDataModelScript::Rename, Rename,IDataModelScript.Rename
+ms.keywords: IDataModelScript::Rename, Rename, IDataModelScript.Rename, IDataModelScript::Rename, IDataModelScript.Rename
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScript::Rename method
+# IDataModelScript::Rename
 
 
 ## -description

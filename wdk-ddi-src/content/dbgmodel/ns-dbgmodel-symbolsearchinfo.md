@@ -3,7 +3,7 @@ UID: NS:dbgmodel.SymbolSearchInfo
 title: SymbolSearchInfo
 author: windows-driver-content
 description: 
-ms.assetid: a36b8144-c77e-4e38-848a-e9194dccb034
+ms.assetid: ebc50d46-6c19-436b-a0bb-eb1e2da38f7b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct

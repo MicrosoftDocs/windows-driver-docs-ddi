@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IEquatableConcept
 title: IEquatableConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: 1064b400-4ed7-49c7-8824-a84c768bfe53
+ms.assetid: 44daad07-fb11-4f91-859a-eae2230ac7f7
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

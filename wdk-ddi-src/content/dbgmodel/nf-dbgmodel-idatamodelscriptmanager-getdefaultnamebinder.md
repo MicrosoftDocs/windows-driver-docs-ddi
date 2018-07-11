@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptManager.GetDefaultNameBinder
-title: IDataModelScriptManager::GetDefaultNameBinder method
+title: IDataModelScriptManager::GetDefaultNameBinder
 author: windows-driver-content
 description: TBD
-ms.assetid: 54fc3a4f-e8a7-4c0b-af9b-26f336c92007
+ms.assetid: 737177da-1933-41fb-8b74-0a60a4306d2f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptManager, IDataModelScriptManager::GetDefaultNameBinder, GetDefaultNameBinder,IDataModelScriptManager.GetDefaultNameBinder
+ms.keywords: IDataModelScriptManager::GetDefaultNameBinder, GetDefaultNameBinder, IDataModelScriptManager.GetDefaultNameBinder, IDataModelScriptManager::GetDefaultNameBinder, IDataModelScriptManager.GetDefaultNameBinder
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptManager::GetDefaultNameBinder method
+# IDataModelScriptManager::GetDefaultNameBinder
 
 
 ## -description

@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IStringDisplayableConcept.Release
-title: IStringDisplayableConcept::Release method
+title: IStringDisplayableConcept::Release
 author: windows-driver-content
 description: TBD
-ms.assetid: dbb50722-c9e2-4f19-9eb4-59c1caf97b39
+ms.assetid: 9d3f6d73-6f6b-423a-8832-618cbf57e59c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IStringDisplayableConcept, IStringDisplayableConcept::Release, Release,IStringDisplayableConcept.Release
+ms.keywords: IStringDisplayableConcept::Release, Release, IStringDisplayableConcept.Release, IStringDisplayableConcept::Release, IStringDisplayableConcept.Release
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IStringDisplayableConcept::Release method
+# IStringDisplayableConcept::Release
 
 
 ## -description

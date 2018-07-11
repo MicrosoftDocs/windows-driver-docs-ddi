@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IModelObject.RemoveParentModel
-title: IModelObject::RemoveParentModel method
+title: IModelObject::RemoveParentModel
 author: windows-driver-content
 description: TBD
-ms.assetid: 1fd1c9d2-be95-4687-b01b-2012cf94bd5a
+ms.assetid: 2a3fb86c-b9f4-4275-82e6-c6ff24f2fc4c
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IModelObject, IModelObject::RemoveParentModel, RemoveParentModel,IModelObject.RemoveParentModel
+ms.keywords: IModelObject::RemoveParentModel, RemoveParentModel, IModelObject.RemoveParentModel, IModelObject::RemoveParentModel, IModelObject.RemoveParentModel
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IModelObject::RemoveParentModel method
+# IModelObject::RemoveParentModel
 
 
 ## -description

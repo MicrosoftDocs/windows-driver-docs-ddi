@@ -3,7 +3,7 @@ UID: NN:dbgmodel.IIndexableConcept
 title: IIndexableConcept
 author: windows-driver-content
 description: TBD
-ms.assetid: 66b3b51f-6f6d-4c45-b231-cc154f8c7007
+ms.assetid: 8d92fead-7ccb-40f5-9eb7-b7d6ef5cec45
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: interface

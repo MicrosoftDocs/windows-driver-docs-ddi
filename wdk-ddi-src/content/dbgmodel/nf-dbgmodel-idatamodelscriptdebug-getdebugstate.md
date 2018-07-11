@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptDebug.GetDebugState
-title: IDataModelScriptDebug::GetDebugState method
+title: IDataModelScriptDebug::GetDebugState
 author: windows-driver-content
 description: TBD
-ms.assetid: 19cf26bc-4ff7-41dc-99d1-55a2bd47b03c
+ms.assetid: 718209b9-68ab-43eb-a944-6aad95db4e3d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptDebug, IDataModelScriptDebug::GetDebugState, GetDebugState,IDataModelScriptDebug.GetDebugState
+ms.keywords: IDataModelScriptDebug::GetDebugState, GetDebugState, IDataModelScriptDebug.GetDebugState, IDataModelScriptDebug::GetDebugState, IDataModelScriptDebug.GetDebugState
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptDebug::GetDebugState method
+# IDataModelScriptDebug::GetDebugState
 
 
 ## -description

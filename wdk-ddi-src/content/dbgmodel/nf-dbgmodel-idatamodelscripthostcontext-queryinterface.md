@@ -1,13 +1,13 @@
 ---
 UID: NF:dbgmodel.IDataModelScriptHostContext.QueryInterface
-title: IDataModelScriptHostContext::QueryInterface method
+title: IDataModelScriptHostContext::QueryInterface
 author: windows-driver-content
 description: TBD
-ms.assetid: e819ac78-40b5-425b-a841-142b7db89375
+ms.assetid: 6fa06789-9671-44ec-95cc-f83b2e86fcd2
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: method
-ms.keywords: IDataModelScriptHostContext, IDataModelScriptHostContext::QueryInterface, QueryInterface,IDataModelScriptHostContext.QueryInterface
+ms.keywords: IDataModelScriptHostContext::QueryInterface, QueryInterface, IDataModelScriptHostContext.QueryInterface, IDataModelScriptHostContext::QueryInterface, IDataModelScriptHostContext.QueryInterface
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:
@@ -36,9 +36,10 @@ api_name:
 product: Windows
 targetos: Windows
 
+
 ---
 
-# IDataModelScriptHostContext::QueryInterface method
+# IDataModelScriptHostContext::QueryInterface
 
 
 ## -description
