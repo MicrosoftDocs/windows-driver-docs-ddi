@@ -3,7 +3,7 @@ UID: TP:treedrv
 author: windows-driver-content
 ms.assetid: c3c001ab-a544-3e0a-8295-8f229b100d1e
 ms.author: windowsdriverdev
-ms.date: 05/09/18
+ms.date: 07/11/2018
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -14,9 +14,9 @@ ms.topic: portal
 
 ## -description
 
-Overview of the Treedrv technology.
+Overview of Trusted Execution Environment (TrEE) driver technology.
 
-To develop Treedrv, you need these headers:
+To develop TrEE drivers, you need these headers:
 
  * [systemrng.h](..\systemrng\index.md)
  * [treeinlinecryptoservice.h](..\treeinlinecryptoservice\index.md)
