@@ -133,11 +133,11 @@ Specifies a very high-throughput (VHT) 802.11ac PHY.
 
 ### -field dot11_phy_type_dmg
 
-Specifies an 802.11ad PHY.
+Specifies a Directional Multi-Gigabit (DMG) 802.11ad PHY.
 
 ### -field dot11_phy_type_he 
 
-Specifies an 802.11ax PHY.
+Specifies a High Efficiency (HE) 802.11ax PHY.
 
 ### -field dot11_phy_type_IHV_start
 
