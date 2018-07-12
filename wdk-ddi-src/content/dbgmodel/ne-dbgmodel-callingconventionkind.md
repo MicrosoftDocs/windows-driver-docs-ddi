@@ -19,7 +19,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
-req.typenames: 
+req.typenames:
 topic_type: 
 -	apiref
 api_type: 
@@ -36,20 +36,37 @@ targetos: Windows
 
 ## -description
 
-Description pending.
+Defines the kind of calling convention of a function type.
 
 
 ## -enum-fields
 
 ### -field CallingConventionUnknown 
+
+The calling convention is not known
+
 ### -field CallingConventionCDecl 
+
+The calling convention is __cdecl
+
+
 ### -field CallingConventionFastCall 
+The calling convention is fastcall
+    
+
 ### -field CallingConventionStdCall 
+The calling convention is stdcall
+    
+
 ### -field CallingConventionSysCall 
+The calling convention is syscall
+    
+
 ### -field CallingConventionThisCall 
+The calling convention is thiscall
 
 ## -remarks
 
 ## -see-also
 
-Link Pending
+[Debugger Data Model C++ Interfaces Overview](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-interfaces-overview)
