@@ -4,7 +4,7 @@ author: windows-driver-content
 ms.assetid: 399eedeb-abab-3fb2-9a78-c323c5ecb8ef
 ms.author: windowsdriverdev
 ms.date: 05/09/18
-ms.keywords: 
+ms.keywords: USB specification data structures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
@@ -17,6 +17,8 @@ tech.root: usbref
 ## -description
 
 
-This header is used by usbref. For more information, see:
+This header contains declarations for data structures and enumerations used by a USB client driver. 
+
+For more information, see:
 
 - [Universal Serial Bus (USB)](../_usbref/index.md)
