@@ -1,15 +1,15 @@
 ---
-UID: NC:netdevice.PFN_NETDEVICEOPENCONFIGURATION
-title: PFN_NETDEVICEOPENCONFIGURATION
+UID: NC:netadapter.EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
+title: EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
 author: windows-driver-content
 description: 
-ms.assetid: fac43744-51e8-4ba5-be5e-34b46abcc2c8
+ms.assetid: 054d73bb-6832-41f6-b654-89d29bbc1892
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
-req.header: netdevice.h
+req.header: netadapter.h
 req.include-header:
 req.target-type:
 req.target-min-winverclnt:
@@ -31,14 +31,14 @@ topic_type:
 api_type: 
 -	UserDefined
 api_location: 
--	netdevice.h
+-	netadapter.h
 api_name: 
--	PFN_NETDEVICEOPENCONFIGURATION
+-	EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
 product: Windows
 targetos: Windows
 ---
 
-# PFN_NETDEVICEOPENCONFIGURATION callback function
+# EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM callback function
 
 ## -description
 
@@ -49,16 +49,14 @@ Implemented by the client driver to ...
 ```
 //Declaration
 
-PFN_NETDEVICEOPENCONFIGURATION PfnNetdeviceopenconfiguration; 
+EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM EvtNetAdapterOffloadSetChecksum; 
 
 // Definition
 
-WDFAPI PfnNetdeviceopenconfiguration 
+VOID EvtNetAdapterOffloadSetChecksum 
 (
-	PNET_DRIVER_GLOBALS DriverGlobals
-	WDFDEVICE Device
-	PWDF_OBJECT_ATTRIBUTES ConfigurationAttributes
-	NETCONFIGURATION *Configuration
+	NETADAPTER Adapter
+	PNET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES ActiveCapabilities
 )
 {...}
 
@@ -66,16 +64,14 @@ WDFAPI PfnNetdeviceopenconfiguration
 
 ## -parameters
 
-### -param DriverGlobals: 
-### -param Device: 
-### -param ConfigurationAttributes: 
-### -param *Configuration: 
+### -param Adapter: 
+### -param ActiveCapabilities: 
 
 
 
 ## -returns
 
-Returns WDFAPI that ...
+Returns VOID that ...
 
 ## -remarks
 
