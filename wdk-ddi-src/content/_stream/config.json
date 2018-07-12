@@ -2,6 +2,7 @@
   "tech": "stream",
   "headers": [
     "amtvuids.h",
+    "avc.h",
     "avcstrm.h",
     "bdamedia.h",
     "bdasup.h",
