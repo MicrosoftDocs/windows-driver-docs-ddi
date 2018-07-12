@@ -63,16 +63,16 @@
     "usbspec.h",
     "usbstorioctl.h",
     "usbpmapi.h",
-    "ucmucsicx",
-    "ucmucsidevice",
-    "ucmucsifuncenum",
-    "ucmucsiglobals",
-    "ucmucsippm",
-    "ucmucsippmrequests",
-    "ucmucsispec",
-    "ucmucsitraceenums",
-    "usbpmapi",
-    "usbctypes"
+    "ucmucsicx.h",
+    "ucmucsidevice.h",
+    "ucmucsifuncenum.h",
+    "ucmucsiglobals.h",
+    "ucmucsippm.h",
+    "ucmucsippmrequests.h",
+    "ucmucsispec.h",
+    "ucmucsitraceenums.h",
+    "usbpmapi.h",
+    "usbctypes.h"
   ],
   "displayName": "Universal Serial Bus (USB)"
 }
