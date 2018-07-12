@@ -19,7 +19,6 @@ Overview of streaming media device driver technology.
 To develop streaming media device drivers, you need these headers:
 
  * [amtvuids.h](..\amtvuids\index.md)
- * [avc.h](..\avc\index.md)
  * [avcstrm.h](..\avcstrm\index.md)
  * [bdamedia.h](..\bdamedia\index.md)
  * [bdasup.h](..\bdasup\index.md)
