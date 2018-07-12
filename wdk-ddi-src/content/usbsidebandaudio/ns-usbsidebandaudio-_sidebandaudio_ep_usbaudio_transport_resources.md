@@ -11,7 +11,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES, SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES, *PSIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES, 
 req.header: usbsidebandaudio.h
-req.include-header:
+req.include-header: usbsidebandaudio.h
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
