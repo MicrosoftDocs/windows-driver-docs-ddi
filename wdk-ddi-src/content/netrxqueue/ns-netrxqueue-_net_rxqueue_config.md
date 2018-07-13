@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Describes the configuration options for a NetAdapterCx client driver's receive queue.
 ms.assetid: 84d0ef9e-c23f-4040-9a7f-a373d69b5765
 ms.author: windowsdriverdev
-ms.date: 02/09/2018
+ms.date: 07/13/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -15,7 +15,7 @@ req.include-header:
 req.target-type:
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.23
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:

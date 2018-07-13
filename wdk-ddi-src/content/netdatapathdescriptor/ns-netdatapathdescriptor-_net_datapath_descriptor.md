@@ -46,12 +46,10 @@ targetos: Windows
 The **NET_DATAPATH_DESCRIPTOR** structure describes a datapath queue's ring buffers.
 
 ## -struct-fields
-
-### -field NumberOfRingBuffers
-The number of ring buffers associated with the queue.
  
 ### -field RingBuffer
-A pointer an array of [NET_RING_BUFFER](../netringbuffer/ns-netringbuffer-_net_ring_buffer.md) structures.
+
+A pointer an array of pointers to [**NET_RING_BUFFER**](../netringbuffer/ns-netringbuffer-_net_ring_buffer.md) structures.
 
 ## -remarks
 Call [NetRxQueueGetDatapathDescriptor](../netrxqueue/nf-netrxqueue-netrxqueuegetdatapathdescriptor.md) or [NetTxQueueGetDatapathDescriptor](../nettxqueue/nf-nettxqueue-nettxqueuegetdatapathdescriptor.md) to get a queue's datapath descriptor. You can then use the descriptor to access the queue's ring buffers of packets or fragments with these macros:

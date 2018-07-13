@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Creates a net adapter object.
 ms.assetid: cc03535e-1e57-483f-93af-950f5fc08d36
 ms.author: windowsdriverdev
-ms.date: 02/06/2018
+ms.date: 07/11/2018
 ms.topic: function
 ms.keywords: NetAdapterCreate
 req.header: netadapter.h
@@ -13,7 +13,7 @@ req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.21
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib: NetAdapterCxStub.lib
 req.dll:

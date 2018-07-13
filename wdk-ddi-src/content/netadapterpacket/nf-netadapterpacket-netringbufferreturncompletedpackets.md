@@ -5,7 +5,7 @@ author: windows-driver-content
 description: Returns all packets in a datapath queue's packet ring buffer that have the Completed flag set.
 ms.assetid: 3699e976-e007-42f8-9785-9f13d0d56c57
 ms.author: windowsdriverdev
-ms.date: 02/07/2018
+ms.date: 07/11/2018
 ms.topic: function
 ms.keywords: NetRingBufferReturnCompletedPackets
 req.header: netadapterpacket.h
@@ -13,7 +13,7 @@ req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.25
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:
@@ -55,12 +55,19 @@ Returns all packets in a datapath queue's packet ring buffer that have the **Com
 ## -parameters
 
 ### -param Descriptor
+
 A pointer to the datapath queue's [NET_DATAPATH_DESCRIPTOR](../netdatapathdescriptor/ns-netdatapathdescriptor-_net_datapath_descriptor.md) structure.
 
+### -param BatchSize
+
+The number of packets to return in this batch.
+
 ## -returns
+
 This method does not return a value.
 
 ## -remarks
+
 Call **NetTx(Rx)QueueGetDatapathDescriptor** to obtain the datapath descriptor structure for the queue with which you're working.
 
 The NetAdapter data path requires packets to be completed in the order that they are given to your driver. If your driver can complete some packets out of order, you can use **NetRingBufferReturnCompletedPackets** to simplify your completion path.
@@ -102,17 +109,21 @@ void MyPacketCompletionCallback(MY_IO_REQUEST *io, NETTXQUEUE txqueue)
   // Get the datapath descriptor for this queue
   PCNET_DATAPATH_DESCRIPTOR descriptor = NetTxQueueGetDatapathDescriptor(txqueue);
 
+  // Start a counter for how many packets to return in this batch
+  UINT32 batchSize = 0;
+
   while (io) {
     NET_PACKET* packet = io->Packet;
     NET_PACKET_FRAGMENT* fragment = NET_PACKET_GET_FRAGMENT(packet, descriptor, 0);
     fragment->Completed = TRUE;
+    batchSize++;
 
     // Walk the linked list
     io = io->Next;
   }
 
   // Complete any packets to the OS.  Updates BeginIndex for us.
-  NetRingBufferReturnCompletedPackets(descriptor);
+  NetRingBufferReturnCompletedPackets(descriptor, batchSize);
 }
 ```
 For more info, see [Transferring Network Data](https://docs.microsoft.com/windows-hardware/drivers/netcx/transferring-network-data).

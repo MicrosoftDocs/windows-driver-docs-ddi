@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The NetTxQueueGetPacketContextToken method retrieves a NET_PACKET_CONTEXT_TOKEN for a NET_PACKET context on a transmit queue.
 ms.assetid: 073d6da4-96ae-4dbd-8aa5-fe12e465af33
 ms.author: windowsdriverdev
-ms.date: 02/09/2018
+ms.date: 07/13/2018
 ms.topic: function
 ms.keywords: NetTxQueueGetPacketContextToken
 req.header: nettxqueue.h
@@ -13,7 +13,7 @@ req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver: 1.23
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:
