@@ -36,7 +36,7 @@ api_type:
 -	LibDef
 api_location:
 -	Fltmgr.lib
--	Fltmgr.dll
+-	Fltmgr.sys
 api_name:
 -	FltCreateFileEx2
 product:
