@@ -84,6 +84,11 @@ IDataModelNameBinder interits from IUnknown.
 
 ## -remarks
 
+The data model provides a standard way for script providers to determine the meaning of a given name in a given context (e.g.: determining what bar means for foo.bar) that will operate across a variety of script providers. This mechanism is known as a name binder and is represented by the IDataModelNameBinder interface. Such a binder encapsulates a set of rules about how the name resolves and how to deal with conflict resolution where a name is defined multiple times on an object. Part of these rules include things such as how a projected name (one added by a data model) resolves against a native name (one in the type system of the language being debugged). 
+
+In order to provide a degree of consistency across script providers, the data model's script manager provides a default name binder'. This default name binder can be acquired via a call to the GetDefaultNameBinder method on the IDataModelScriptManager interface. 
+
+
 ## -see-also
 
 [Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

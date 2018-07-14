@@ -38,8 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+The core interface that a script provider must provide in order to make a script debuggable. The implementation class of the IDataModelScript interface must QueryInterface for IDataModelScriptDebug if the script is debuggable.
 
+Any script which is debuggable indicates this capability via the presence of the IDataModelScriptDebug interface on the same component which implements IDataModelScript. The query for this interface by the debug host or the debugger application hosting the data model is what indicates the presence of the debug capability. 
 
 ## -inheritance
 IDataModelScriptDebug interits from IUnknown. 
@@ -107,4 +108,25 @@ IDataModelScriptDebug interits from IUnknown.
 
 ## -remarks
 
+The infrastructure for script providers in the data model also provides a concept around debugging scripts. Any script that wishes to expose debugging capabilities to the debug host and the debugger application hosting the data model can do so by having debuggable scripts implement the IDataModelScriptDebug interface in addition to the IDataModelScript interface. The presence of this interface on the script indicates to the infrastructure that it is debuggable. 
+
+While the IDataModelScriptDebug interface is the starting point to get access to the debug capabilities of a script provider, it is joined by a set of other interfaces in providing overall debug capabilities.
+
+IDataModelScriptDebug
+
+IDataModelScriptDebugClient
+
+IDataModelScriptDebugStack
+
+IDataModelScriptDebugStackFrame
+
+IDataModelScriptDebugVariableSetEnumerator
+
+IDataModelScriptDebugBreakpoint
+
+IDataModelScriptDebugBreakpointEnumerator
+
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

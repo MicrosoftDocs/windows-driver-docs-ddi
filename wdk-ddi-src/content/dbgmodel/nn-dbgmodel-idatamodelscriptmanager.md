@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 456082be-779f-4504-a068-4c625759cc54
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+The core interface to the script management capabilities of the data model manager.  Queried from the data model manager.
 
 
 ## -inheritance
@@ -91,4 +91,9 @@ IDataModelScriptManager interits from IUnknown.
 
 ## -remarks
 
+In addition to the Data Model Manager's role as the central authority on object creation and extensibility, it is also responsible for the management of an abstract concept of scripts. From the perspective of the Script Manager portion of the Data Model Manager, a script is something which can be dynamically loaded, unloaded, and potentially debugged by a provider in order to extend or provide new functionality to the data model. 
+A script provider is a component which bridges a language (e.g.: NatVis, JavaScript, etc...) to the data model. It registers one or more file extensions (e.g.: ".NatVis", ".js") which are handled by the provider allowing a debugger client or a user interface to allow for loading of script files with that particular extension by delegation to the provider. 
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

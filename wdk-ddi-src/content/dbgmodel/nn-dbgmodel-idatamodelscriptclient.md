@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Interface a component directly using debugger script must implement as a multi-way communication channel with the script.
 
 
 ## -inheritance
@@ -70,6 +70,8 @@ IDataModelScriptClient interits from IUnknown.
 </table>
 
 ## -remarks
+
+A client interface which is used by the script provider in order to communicate information to a user interface. Script providers do not implement this interface. The application hosting the data model which wishes to make use of script providers does. A script provider will call into methods of the script client to report status, errors, etc...
 
 ## -see-also
 

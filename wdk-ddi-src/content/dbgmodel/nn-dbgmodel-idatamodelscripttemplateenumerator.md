@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 7d5f9983-35d8-4983-94af-3419f843b838
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+An enumerator which enumerates an available set of script templates.
+
+An enumerator interface that the script provider implements in order to advertise all the various templates it supports.
 
 
 ## -inheritance
@@ -75,4 +77,7 @@ IDataModelScriptTemplateEnumerator interits from IUnknown.
 
 ## -remarks
 
+A script provider can provide one or more templates which pre-fill content into newly created scripts in some user interface. If any of these templates are provided, the script provider must implement an enumerator over them which is returned upon a call to the EnumerateTemplates method. 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

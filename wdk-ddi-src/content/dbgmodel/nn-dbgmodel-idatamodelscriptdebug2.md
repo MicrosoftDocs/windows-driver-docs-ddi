@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 29d61401-a385-4f5e-bda3-81ee79f5c5f8
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+ An optional interface on scripts (objects which implement IDataModelScript).  If this interface is supported, the script provider has a debug engine capable of some limited form of 'script debugging'.  This may include stepping, setting breakpoints, inspecting data, etc...
 
 
 ## -inheritance
@@ -111,4 +111,8 @@ IDataModelScriptDebug2 interits from IDataModelScriptDebug.
 
 ## -remarks
 
+The infrastructure for script providers in the data model also provides a concept around debugging scripts. Any script that wishes to expose debugging capabilities to the debug host and the debugger application hosting the data model can do so by having debuggable scripts implement the IDataModelScriptDebug interface in addition to the IDataModelScript interface. The presence of this interface on the script indicates to the infrastructure that it is debuggable. 
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

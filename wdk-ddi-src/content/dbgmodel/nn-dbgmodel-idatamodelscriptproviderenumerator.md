@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 4a1a5912-3247-426d-afb8-7bbec29e490b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+An enumerator which returns a set of known script providers.
 
 
 ## -inheritance
@@ -76,3 +76,5 @@ IDataModelScriptProviderEnumerator interits from IUnknown.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

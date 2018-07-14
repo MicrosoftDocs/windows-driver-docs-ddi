@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 68db1faf-dd0a-42a0-81dd-2ab633d9a3b2
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+An interface to a breakpoint on the script.
+
+The script provider implements this interface to expose the notion of and control of a particular breakpoint within the script.
 
 
 ## -inheritance
@@ -91,4 +93,8 @@ IDataModelScriptDebugBreakpoint interits from IUnknown.
 
 ## -remarks
 
+
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

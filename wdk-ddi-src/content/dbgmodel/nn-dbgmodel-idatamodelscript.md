@@ -38,7 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+An abstraction of a particular script which is being managed by the provider. Each script which is loaded or being edited has a separate IDataModelScript instance.
+
+Any script provider must implement this to represent a script managed by that provider.
 
 
 ## -inheritance
@@ -94,6 +96,11 @@ IDataModelScript interits from IUnknown.
 </table>
 
 ## -remarks
+
+The main interface which manages an individual script that is implemented by the provider is the IDataModelScript interface. A component implementing this interface is returned when the client wishes to create a new blank script and calls the CreateScript method on IDataModelScriptProvider. 
+
+Each script which is created by the provider should be in an independent silo. One script should not be able to impact another script except through explicit interaction with external objects via the data model. Two scripts, can for instance, both extend some type or concept (e.g.: the debugger's notion of what a process is). Either script can then access each other's fields via the external process object. 
+
 
 ## -see-also
 
