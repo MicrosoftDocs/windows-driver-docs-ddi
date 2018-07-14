@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: e99b1f99-d853-4159-9656-1a6b83f43ac1
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,4 +51,13 @@ targetos: Windows
 
 ## -remarks
 
+For C-style arrays, a single array dimension is returned here with values which are always: 
+LowerBound = 0
+
+Length = ARRAYSIZE(array)
+
+Stride = sizeof(elementType)
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

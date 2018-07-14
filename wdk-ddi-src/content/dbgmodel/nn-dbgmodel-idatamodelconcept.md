@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: f7e0a833-b878-454e-8741-816375c68110
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,11 +38,15 @@ targetos: Windows
 
 ## -description
 
-TBD
+Any object which represents a data model which is registered under a name or  is registered for a particular type signature must implement this concept and add it to the data model  object via IModelObject::SetConcept.
+
+Clients which create data models implement this interface.  It is most frequently consumed by the data model manager itself.
 
 
 ## -inheritance
+
 IDataModelConcept interits from IUnknown. 
+
 ## -members
 
 <p>IDataModelConcept has these methods.</p>
@@ -76,3 +80,5 @@ IDataModelConcept interits from IUnknown.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

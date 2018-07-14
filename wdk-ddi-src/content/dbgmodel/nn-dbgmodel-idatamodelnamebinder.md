@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 9dbef43d-3f97-47f2-a5a6-5d273407dd6f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+Interface to a name binder – a component which can associate names in a context with objects or symbols.
 
+The default name binder for script providers.
 
 ## -inheritance
 IDataModelNameBinder interits from IUnknown. 
@@ -84,3 +85,5 @@ IDataModelNameBinder interits from IUnknown.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

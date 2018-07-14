@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 38a84d5f-14a9-4b7e-b484-a90738241972
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: enum
 ms.keywords: ErrorClass, , 
 ms.prod: windows-hardware
@@ -36,13 +36,21 @@ targetos: Windows
 
 ## -description
 
+Defines the class of error which is being reported to the host.
 
 
 ## -enum-fields
 
 ### -field ErrorClassWarning 
+
+Warning
+
 ### -field ErrorClassError 
+
+Error
 
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

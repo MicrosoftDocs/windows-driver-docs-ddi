@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 2eb01e40-ef25-4593-bc4f-bf689ec73a6b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:  07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -72,3 +72,5 @@ IDataModelScriptClient interits from IUnknown.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

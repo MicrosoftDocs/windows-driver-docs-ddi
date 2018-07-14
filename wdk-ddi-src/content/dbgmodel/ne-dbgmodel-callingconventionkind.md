@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: c25b87e4-c917-4feb-94c7-9cffe4f4193e
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: enum
 ms.keywords: CallingConventionKind, , 
 ms.prod: windows-hardware

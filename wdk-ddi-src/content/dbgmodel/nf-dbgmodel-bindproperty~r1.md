@@ -44,19 +44,57 @@ targetos: Windows
 
 ## -description
 
-TBD
+ A binder which converts two lambdas to a read/write property accessor.  The lambdas must hold reference on outer objects they
+reference through a by value capture.
+
 
 ## -parameters
 
 ### -param getFunctor
 TBD
+
 ### -param setFunctor
 TBD
+
 ### -param 
 TBD
 
 ## -returns
 This function returns Microsoft::WRL::ComPtr<IModelPropertyAccessor>.
+
 ## -remarks
 
+This sample code shows usage.
+
+```
+// Define a native type that we wish to project into the data model
+struct MyNativeType
+{
+    std::wstring Name;
+    int Id;
+    int WriteableValue;
+};
+
+// Declare a type factory for the type
+class MyNativeTypeFactory : public TypedInstanceModel<MyNativeType>
+{
+public:
+    MyNativeTypeFactory()
+    {
+        BindReadOnlyProperty(L"Name", &MyNativeType::Name);
+        BindReadOnlyProperty(L"Id", &MyNativeType::Id);
+        BindProperty(L"WriteableValue", &MyNativeType::WriteableValue);
+    }
+};
+
+// Create the type factory and make an instance
+MyNativeTypeFactory factory;
+Object instance = factory.CreateInstance(MyNativeType { L"Foo", 42, 37 });
+
+// There are "Name/Id" read-only properties on instance and a "WriteableValue" property.
+```
+
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

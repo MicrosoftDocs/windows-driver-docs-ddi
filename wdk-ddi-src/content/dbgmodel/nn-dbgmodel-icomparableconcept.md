@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ddbad055-aafe-4ba0-8265-1b9216610f20
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Compares this object to another (of arbitrary type).  If the comparison cannot be performed, E_NOT_SET should be returned.
 
 
 ## -inheritance
@@ -71,4 +71,12 @@ IComparableConcept interits from IUnknown.
 
 ## -remarks
 
+The return value passed in comparison result has the following meaning:
+
+     < 0 : contextObject < otherObject
+     0 : contextObject == otherObject
+     > 0 : contextObject > otherObject
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

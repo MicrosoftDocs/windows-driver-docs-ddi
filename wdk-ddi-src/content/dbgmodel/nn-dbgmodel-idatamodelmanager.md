@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: e40a78ba-6352-4c50-bfdf-e52686ac507b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+The core interface for the data model manager.  This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types.
 
+This interface is never directly implemented by a client. 
 
 ## -inheritance
 IDataModelManager interits from IUnknown. 
@@ -148,3 +149,5 @@ IDataModelManager interits from IUnknown.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)
