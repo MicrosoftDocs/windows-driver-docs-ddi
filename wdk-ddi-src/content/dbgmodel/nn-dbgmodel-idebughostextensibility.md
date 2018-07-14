@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ca0b53b7-9e3a-4dca-ab84-0e147006ac32
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+The extensibility interface to the underlying debugger.
 
 
 ## -inheritance
@@ -75,4 +75,8 @@ IDebugHostExtensibility interits from IUnknown.
 
 ## -remarks
 
+Certain functionality of the debug host is optionally subject to extensibility. This may, for instance, include the expression evaluator. The IDebugHostExtensibility interface is the means by which these extensibility points are accessed. 
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

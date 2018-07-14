@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 18775b1d-4efc-422c-8920-21de383fb5b9
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+An (IDebugHostSymbol derived) interface to a public symbol (address/name only).
+
+Represents a symbol within the publics table of a PDB. This does not have type information associated with it. It is a name and address.
 
 
 ## -inheritance
@@ -99,4 +101,8 @@ IDebugHostPublic interits from IDebugHostSymbol.
 
 ## -remarks
 
+Public symbols represent things in the public table within a symbol file. They are, in effect, export addresses. There is no type information associated with a public symbol -- only an address. Unless a public symbol is explicitly requested by the caller, the debug host prefers to return private symbols for every inquiry. A public symbol is expressed by the IDebugHostPublic interface.
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 3240aa54-97b6-43e1-81e9-41f4eb5bd447
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+An (IDebugHostSymbol derived) interface to a base class.
 
 
 ## -inheritance
@@ -96,3 +96,6 @@ IDebugHostBaseClass interits from IDebugHostSymbol.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)
+

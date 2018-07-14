@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c8723b55-2e4b-4b4d-8910-c21ad40c6076
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+The expression evaluator interface to the underlying debugger.
 
 
 ## -inheritance
@@ -75,4 +75,8 @@ IDebugHostEvaluator interits from IUnknown.
 
 ## -remarks
 
+One of the most important pieces of functionality which the debug host provides to clients is access to its language based expression evaluator. The IDebugHostEvaluator and IDebugHostEvaluator2 interfaces are the means to access that functionality from the debug host. 
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

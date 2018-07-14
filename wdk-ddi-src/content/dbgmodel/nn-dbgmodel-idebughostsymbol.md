@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 9170580b-516a-49c6-ba3a-f5af85a20242
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+An interface to a particular symbol.
 
 
 ## -inheritance
@@ -95,4 +95,8 @@ IDebugHostSymbol interits from IUnknown.
 
 ## -remarks
 
+Every symbol that can be returned from the data model host will derive in some fashion from IDebugHostSymbol. This is the core interface that every symbol implements regardless of the kind of symbol. Depending on the kind of symbol, a given symbol may implement a set of other interfaces which return attributes more unique to the particular kind of symbol represented by this interface.
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

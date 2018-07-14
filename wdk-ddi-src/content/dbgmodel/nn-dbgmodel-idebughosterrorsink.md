@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: b82fbfe5-75c6-4c4c-8670-c2021dfa4c0d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+An interface to which errors will be sinked.
+
+An interface implemented by callers to receive errors from certain portions of the host and data model.
 
 
 ## -inheritance
@@ -71,4 +73,8 @@ IDebugHostErrorSink interits from IUnknown.
 
 ## -remarks
 
+The IDebugHostErrorSink is a means by which a client can receive notifications of errors which occur during certain operations and route those errors where needed. 
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

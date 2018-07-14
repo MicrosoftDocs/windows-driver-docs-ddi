@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ea0851a6-952e-44c3-819a-ead0568bd22c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+An enumerator which runs through children of a symbol.
 
 
 ## -inheritance
@@ -76,3 +76,5 @@ IDebugHostSymbolEnumerator interits from IUnknown.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

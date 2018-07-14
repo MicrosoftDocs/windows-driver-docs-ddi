@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 5203121c-1bb5-4c2a-8a3e-6379470e3c26
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+An (IDebugHostSymbol derived) interface to a particular module.
 
 
 ## -inheritance
@@ -115,4 +115,13 @@ IDebugHostModule interits from IDebugHostSymbol.
 
 ## -remarks
 
+The debugger's notion of a module that is loaded within some address space is represented in two distinct ways in the data model: 
+
+- At the type system level via the IDebugHostModule interface. Here, a module is a symbol and core attributes of the module are interface method calls
+
+- Projected at the data model level via the Debugger.Models.Module data model. This is an extensible encapsulation of the type system IDebugHostModule representation of a module.
+
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

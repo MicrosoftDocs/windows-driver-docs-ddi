@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 1eb195cc-10aa-4820-9e1b-a892f8d08e39
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+The core interface to the underlying debugger.
 
 
 ## -inheritance
@@ -79,4 +79,8 @@ IDebugHost interits from IUnknown.
 
 ## -remarks
 
+The IDebugHost interface is the core interface of any data model host. 
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

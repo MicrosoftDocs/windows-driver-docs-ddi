@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 6a713259-f5cf-4ca8-a68a-55dd44a748fe
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+The memory access interface to the underlying debugger.
 
 
 ## -inheritance
@@ -88,3 +88,5 @@ IDebugHostMemory interits from IUnknown.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

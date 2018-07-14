@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 87e25e99-ea64-4cda-8cae-fd38ec9c3343
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Represents a constant within symbolic information (e.g.: a non-type template argument in C++).
 
 
 ## -inheritance
@@ -95,4 +95,8 @@ IDebugHostConstant interits from IDebugHostSymbol.
 
 ## -remarks
 
+For locations where constant values are present in symbolic information (where a particular value is a symbol which may or may not be a constant value), the IDebugHostConstant interface expresses the notion of such a constant. This is typically used in places like template arguments where a given argument is typically a type but may instead be a non-type template argument (e.g.: a constant). 
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

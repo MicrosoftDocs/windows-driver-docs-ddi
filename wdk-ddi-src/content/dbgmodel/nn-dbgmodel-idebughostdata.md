@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: d5d3a8dd-885d-46c5-89ab-e3dc6b221654
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+An (IDebugHostSymbol derived) interface to data.
+
+Represents data within a module (were this within a structure or class it would be an IDebugHostField).
 
 
 ## -inheritance
@@ -103,4 +105,8 @@ IDebugHostData interits from IDebugHostSymbol.
 
 ## -remarks
 
+Data in modules which is not a member of another type is represented by the IDebugHostData interface. 
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

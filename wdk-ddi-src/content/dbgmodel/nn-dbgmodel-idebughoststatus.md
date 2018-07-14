@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: aff0759f-6583-437e-a68d-793566b83eed
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+An interface allowing a client to query for the status of the host.
 
+The IDebugHostStatus interface allows a client of the data model or the debug host to inquire about certain aspects of the debug host's status. 
 
 ## -inheritance
 IDebugHostStatus interits from IUnknown. 
@@ -72,3 +73,5 @@ IDebugHostStatus interits from IUnknown.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

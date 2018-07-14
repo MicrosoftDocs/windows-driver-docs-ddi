@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: e3b8dddc-1481-41ad-b162-4f5162aed653
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Represents a field within a structure or class.
 
 
 ## -inheritance
@@ -107,4 +107,8 @@ IDebugHostField interits from IDebugHostSymbol.
 
 ## -remarks
 
+The IDebugHostField class represents a symbol which is a data member of a class, structure, union, or other type construct. It does not represent free data (e.g.: global data). 
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)
