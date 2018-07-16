@@ -266,8 +266,48 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "wdk-ddi-src/content/netrxqueue/nf-netrxqueue-net_rxqueue_config_init.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netpacketqueue/nf-netpacketqueue-net_packet_queue_config_init",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netrxqueue/nc-netrxqueue-evt_rxqueue_advance.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "wdk-ddi-src/content/netrxqueue/nc-netrxqueue-evt_rxqueue_set_notification_enabled.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/netrxqueue/nc-netrxqueue-evt_rxqueue_cancel.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netpacketqueue/nc-netpacketqueue-evt_packet_queue_cancel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/nettxqueue/ns-nettxqueue-_net_txqueue_config.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netpacketqueue/ns-netpacketqueue-_net_packet_queue_config",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/nettxqueue/nf-nettxqueue-net_txqueue_config_init.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netpacketqueue/nf-netpacketqueue-net_packet_queue_config_init",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/nettxqueue/nc-nettxqueue-evt_txqueue_advance.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/nettxqueue/nc-nettxqueue-evt_txqueue_set_notification_enabled.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/nettxqueue/nc-nettxqueue-evt_txqueue_cancel.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netpacketqueue/nc-netpacketqueue-evt_packet_queue_cancel",
       "redirect_document_id": false
     }
   ]

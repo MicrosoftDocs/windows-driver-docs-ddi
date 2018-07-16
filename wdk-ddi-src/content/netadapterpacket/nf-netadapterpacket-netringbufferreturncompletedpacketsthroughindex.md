@@ -80,7 +80,7 @@ To use this convenience function, first set the **Completed** flag on the first 
 
 If you always complete packets in order, it is more efficient to write to **BeginIndex** directly, rather than using the **Completed** flag with **NetRingBufferReturnCompletedPacketsThroughIndex**.
 
-Typically, you would call **NetRingBufferReturnCompletedPacketsThroughIndex** once just before returning from [*EVT_RXQUEUE_ADVANCE*](../netrxqueue/nc-netrxqueue-evt_rxqueue_advance.md) or [*EVT_TXQUEUE_ADVANCE*](../nettxqueue/nc-nettxqueue-evt_txqueue_advance.md). There's no advantage to calling **NetRingBufferReturnCompletedPacketsThroughIndex** more than once per *Advance* call because the API is designed for batching.
+Typically, you would call **NetRingBufferReturnCompletedPacketsThroughIndex** once just before returning from [*EVT_PACKET_QUEUE_ADVANCE*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance.md). There's no advantage to calling **NetRingBufferReturnCompletedPacketsThroughIndex** more than once per *Advance* call because the API is designed for batching.
 
 The [**NetRingBufferReturnCompletedPackets**](nf-netadapterpacket-netringbufferreturncompletedpackets.md) routine is similar, but examines all packets owned by your driver. **NetRingBufferReturnCompletedPacketsThroughIndex** allows you to limit the search to a specific range of packets owned by your driver. If you don't need to control the exact range of packets that are completed, you can use the simpler method [**NetRingBufferReturnCompletedPackets**](nf-netadapterpacket-netringbufferreturncompletedpackets.md) instead of **NetRingBufferReturnCompletedPacketsThroughIndex**.
 
