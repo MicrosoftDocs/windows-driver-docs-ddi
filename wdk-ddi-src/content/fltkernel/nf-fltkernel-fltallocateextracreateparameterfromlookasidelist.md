@@ -35,8 +35,8 @@ topic_type:
 api_type:
 -	LibDef
 api_location:
--	FltMgr.lib
--	FltMgr.dll
+-	fltmgr.lib
+-	fltmgr.sys
 api_name:
 -	FltAllocateExtraCreateParameterFromLookasideList
 product:
