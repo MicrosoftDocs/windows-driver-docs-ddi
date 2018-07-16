@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 9ffd4c68-726e-41a9-a5d7-523d039dc72f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+An interface which enumerates the raw children (e.g.: base classes, fields, etc...) of an object (and their values and associated metadata).  A raw enumerator can be acquired through the EnumerateRawValues or EnumerateRawReferences methods on IModelObject.
 
 
 ## -inheritance
@@ -76,3 +76,5 @@ IRawEnumerator interits from IUnknown.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

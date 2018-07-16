@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 33b3830f-8257-4dde-970f-2e21d7b7a831
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -39,14 +39,17 @@ targetos: Windows
 
 ## -description
 
+A struct containing information about a particular debug event.
 
 ## -struct-fields
 
 ### -field DebugEvent
  
 ### -field EventPosition
+The line/column of script at which the debug event occurred (0 values : cannot determine)
  
 ### -field EventSpanEnd
+The ending line/column of script at which the debug event occurred (0 values : cannot determine)
  
 ### -field u
  
@@ -62,3 +65,5 @@ targetos: Windows
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

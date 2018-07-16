@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 108b4841-40cd-4771-ac66-953c9910b143
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,8 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+Interface which clients must implement on any object which is convertible to a display string.
 
+Clients should not rely on the form of this string conversion for programmatic purposes.  It is intended for display purposes only.
 
 ## -inheritance
 IStringDisplayableConcept interits from IUnknown. 
@@ -71,4 +72,8 @@ IStringDisplayableConcept interits from IUnknown.
 
 ## -remarks
 
+An object which wishes to provide a string conversion for display purposes can implement the string displayable concept through implementation of the IStringDisplayableConcept interface. 
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

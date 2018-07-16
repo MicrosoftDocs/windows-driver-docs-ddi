@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: f4fb5043-a364-45f6-9d87-43850ac0f140
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+An (IDebugHostSymbol derived) interface to a particular type.
+
+A given language/native type is described by the IDebugHostType2 or IDebugHostType interfaces. Note that some of the methods on these interfaces only apply for specific kinds of types.
 
 
 ## -inheritance
@@ -168,3 +170,5 @@ IDebugHostType interits from IDebugHostSymbol.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

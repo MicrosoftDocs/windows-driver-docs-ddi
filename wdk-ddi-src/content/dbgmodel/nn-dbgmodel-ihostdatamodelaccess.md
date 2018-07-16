@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 00f72d8d-6a79-4000-b68d-05ba984585f6
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:  07/16/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+When DebugExtensionInitialize is called, it creates a debug client and gets access to the data model. Such access is provided by a bridge interface between the legacy IDebug* interfaces of Debugging Tools for Windows and the data model. This bridge interface is IHostDataModelAccess. 
 
 
 ## -inheritance
@@ -71,4 +71,12 @@ IHostDataModelAccess interits from IUnknown.
 
 ## -remarks
 
+An interface *suggested* on the per-host extensibility mechanism to get from the host extensibility mechanism to the model based one.  Extensions which are written to a host-specific API set can query this mechanism to get to the data model and create host-agnostic extensions.
+
+As an example, DbgEng based extensions can query for this interface from any IDebug* (Client/Control/etc...) interface to get to the model and access model APIs.  Such extensions are hybrid (they are still specific to a particular host but contain portions that may be factored out later for a general model based extension).
+
+This is the **ONLY** interface in this set of APIs which is not intended to be host agnostic.
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

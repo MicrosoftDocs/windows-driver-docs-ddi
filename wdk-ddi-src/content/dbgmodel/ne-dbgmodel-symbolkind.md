@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 6c1562a7-d1fb-4418-99dd-a6391cb4163d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: SymbolKind, , 
 ms.prod: windows-hardware
@@ -36,20 +36,40 @@ targetos: Windows
 
 ## -description
 
+Defines the kind of a symbol.
 
 
 ## -enum-fields
 
 ### -field Symbol 
+Unspecified symbol type.
+
 ### -field SymbolModule 
+The symbol is a module and can be queried for IDebugHostModule.
+
 ### -field SymbolType 
+The symbol is a type and can be queried for IDebugHostType.
+
 ### -field SymbolField 
+The symbol is a field (a data member within a structure or class) and can be queried for IDebugHostField.
+
 ### -field SymbolConstant 
+The symbol is a constant value and can be queried for IDebugHostConstant.
+
 ### -field SymbolData 
+The symbol is data which is not a member of a structure or class and is queryable for IDebugHostData.
+
 ### -field SymbolBaseClass 
+The symbol is a base class and is queryable for IDebugHostBaseClass.
+
 ### -field SymbolPublic 
+The symbol is an entry in a module's publics table (having no type information) and is queryable for IDebugHostPublic.
+
 ### -field SymbolFunction 
+The symbol is a function and is queryable for IDebugHostData.
 
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

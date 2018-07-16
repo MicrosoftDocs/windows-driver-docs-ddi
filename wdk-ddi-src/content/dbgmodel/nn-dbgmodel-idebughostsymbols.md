@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 9a26c85b-fc46-4a01-864d-c9c2fe51f9b3
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+The symbols interface to the underlying debugger.
+
+The IDebugHostSymbols interface is the main starting point to access symbols in the debug target. This interface can be queried from an instance of IDebugHost. 
 
 
 ## -inheritance
@@ -96,3 +98,5 @@ IDebugHostSymbols interits from IUnknown.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

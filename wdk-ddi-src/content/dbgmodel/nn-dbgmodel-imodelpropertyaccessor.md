@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 719a97dc-26eb-4b5a-9f68-50c4a9069bae
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+The data model representation of a  property accessor (get/set).
 
 
 ## -inheritance
@@ -75,4 +75,11 @@ IModelPropertyAccessor interits from IUnknown.
 
 ## -remarks
 
+A property accessor in the data model is an implementation of the IModelPropertyAccessor interface which is boxed into an IModelObject. The model object will return a kind of ObjectPropertyAccessor when queried and the intrinsic value is a VT_UNKNOWN which is guaranteed to be queryable for IModelPropertyAccessor. In process, it is guaranteed to be statically castable to IModelPropertyAccessor. 
+
+A property accessor is an indirect way to get a method call for getting and setting a key value in the data model. If a given key's value is a property accessor, the GetKeyValue and SetKeyValue methods will automatically notice this and call the property accessor's underlying GetValue or SetValue methods as appropriate. 
+
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

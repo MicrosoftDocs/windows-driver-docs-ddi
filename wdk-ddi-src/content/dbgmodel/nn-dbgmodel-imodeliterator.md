@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 29497013-68f8-4e35-9402-e13faf9e9483
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+An iterator of contained objects (client implemented and returned by IIterableConcept).
 
 
 ## -inheritance
@@ -74,5 +74,9 @@ IModelIterator interits from IUnknown.
 </table>
 
 ## -remarks
+
+**Iterable Concept**
+
+An object which is a container of other objects and wishes to express the ability to iterate over those contained objects can support the iterable concept by an implementation of the IIterableConcept and IModelIterator interfaces. There is a very important relationship between support of the iterable concept and support of the indexable concept. An object which supports random access to the contained objects can support the indexable concept in addition to the iterable concept. In this case, the iterated elements must also produce a default index which, when passed to the indexable concept refer to the same object. A failure to satisfy this invariant will result in undefined behavior in the debug host. 
 
 ## -see-also

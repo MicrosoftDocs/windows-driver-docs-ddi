@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: d4a331e4-18cf-49f4-a7a3-4e3cde4adb05
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/13/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+Represents a type signature against which type instances can be matched.
+
+A definition which will match a set of types by module and/or name.
 
 
 ## -inheritance
@@ -80,3 +82,5 @@ IDebugHostTypeSignature interits from IUnknown.
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

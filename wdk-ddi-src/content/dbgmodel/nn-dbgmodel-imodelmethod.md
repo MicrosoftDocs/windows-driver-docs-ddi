@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 3483b979-a5a3-49ce-9036-3c021fa14b5b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -38,7 +38,9 @@ targetos: Windows
 
 ## -description
 
-TBD
+Represents a method which can be called.
+
+Extensions which implement methods would implement this interface one or more times for the methods which it provides.
 
 
 ## -inheritance
@@ -71,4 +73,11 @@ IModelMethod interits from IUnknown.
 
 ## -remarks
 
+A method in the data model is an implementation of the IModelMethod interface which is boxed into an IModelObject. The model object will return a kind of ObjectMethod when queried and the intrinsic value is a VT_UNKNOWN which is guaranteed to be queryable for IModelMethod. In process, it is guaranteed to be statically castable to IModelMethod. 
+
+All methods in the data model are dynamic in nature. They take as input a set of 0 or more arguments and return a single output value. There is no overload resolution and no metadata about parameter names, types, or expectations. 
+
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

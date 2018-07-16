@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: e99b1f99-d853-4159-9656-1a6b83f43ac1
 ms.author: windowsdriverdev
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
