@@ -94,38 +94,7 @@ typedef struct _DXGKARGCB_NOTIFY_INTERRUPT_DATA {
     } CrtcVsyncWithMultiPlaneOverlay;
     DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS DisplayOnlyPresentProgress;
 #endif
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3)
-    struct {
-      D3DDDI_VIDEO_PRESENT_TARGET_ID VidPnTargetId;
-      DXGK_MIRACAST_CHUNK_INFO       ChunkInfo;
-      PVOID                          pPrivateDriverData;
-      UINT                           PrivateDataDriverSize;
-      NTSTATUS                       Status;
-    } MiracastEncodeChunkCompleted;
-#endif
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_0)
-    struct {
-      UINT                       FaultedFenceId;
-      UINT64                     FaultedPrimitiveAPISequenceNumber;
-      DXGK_RENDER_PIPELINE_STAGE FaultedPipelineStage;
-      UINT                       FaultedBindTableEntry;
-      DXGK_PAGE_FAULT_FLAGS      PageFaultFlags;
-      D3DGPU_VIRTUAL_ADDRESS     FaultedVirtualAddress;
-      UINT                       NodeOrdinal;
-      UINT                       EngineOrdinal;
-      UINT                       PageTableLevel;
-      DXGK_FAULT_ERROR_CODE      FaultErrorCode;
-      HANDLE                     FaultedProcessHandle;
-    } DmaPageFaulted;
-#endif
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM2_2)
-    D3DDDI_VIDEO_PRESENT_TARGET_ID         VidPnTargetId;
-    UINT                                   PhysicalAdapterMask;
-    UINT                                   MultiPlaneOverlayVsyncInfoCount;
-    DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2    *pMultiPlaneOverlayVsyncInfo;
-    ULONGLONG                              GpuFrequency;
-    ULONGLONG                              GpuClockCounter;
-#endif
+
     struct {
       UINT Reserved[16];
     } Reserved;
@@ -539,17 +508,17 @@ Hardware queue page faulted.
 
 ### -field HwQueuePageFaulted.FaultedHwQueue
 
- 
+
 
 
 ### -field HwQueuePageFaulted.FaultedHwContext
 
- 
+
 
 
 ### -field HwQueuePageFaulted.FaultedProcessHandle
 
- 
+
 
 
 ### -field HwQueuePageFaulted.NodeOrdinal

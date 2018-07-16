@@ -16,19 +16,19 @@ req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -80,8 +80,9 @@ Indicates that the event is a docking event.
 
 ### -field DxgkChainedAcpiEvent
 
+Indicates that the ACPI event was sent to the integrated adapter but has been redirected to the driver for the discrete adapter.
 
-
+Supported by WDDM 2.1 and later drivers.
 
 ## -see-also
 

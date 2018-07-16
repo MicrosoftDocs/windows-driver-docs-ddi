@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -107,7 +107,7 @@ The number of contexts in the array that the Context member specifies.
 
 ### -field ppContextData
 
- 
+An array of handles to the contexts that contributed to a display operation.
 
 
 ### -field DriverPrivateDataSize
@@ -123,14 +123,4 @@ Private driver data.
 ### -field PlaneAttributes
 
 A structure of type DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 that specifies overlay plane attributes.
-
-
-#### - pContext
-
-An array of handles to the contexts that contributed to a display operation.
-
-
-#### - pPrimaryData
-
-An array of DXGK_PRIMARYDATA structures that contain information on each allocation contributing to the display operation.
 

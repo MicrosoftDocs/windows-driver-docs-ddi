@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: dispmprt.h
-req.include-header: 
+req.include-header:
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -41,7 +41,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: 
+req.typenames:
 ---
 
 # DXGKDDI_NOTIFY_ACPI_EVENT callback function
@@ -153,7 +153,7 @@ PO_CB_LID_SWITCH_STATE
 <td>
  0 - Indicates that the lid is being closed.
 
- 1 - Indicates that the lid is being opened. 
+ 1 - Indicates that the lid is being opened.
 
 </td>
 </tr>
@@ -182,6 +182,16 @@ The display miniport driver makes a request to the operating system to call the 
 </tr>
 <tr>
 <td>
+DXGK_ACPI_CHANGE_DISPLAY_TOPOLOGY
+
+</td>
+<td>
+
+
+</td>
+</tr>
+<tr>
+<td>
 DXGK_ACPI_POLL_DISPLAY_CHILDREN
 
 </td>
@@ -190,10 +200,19 @@ The display miniport driver makes a request to the operating system to poll the 
 
 </td>
 </tr>
+<tr>
+<td>
+DXGK_ACPI_CHAIN_NOT_HANDLED
+
+</td>
+<td>
+Indicates that an event with type DxgkChainedAcpiEvent was not handled by the hybrid discrete driver and should therefore be sent to the hybrid integrated driver.
+</td>
+</tr>
 </table>
  
 
-This parameter is ignored if this function returns an error or if the display adapter loses power. 
+This parameter is ignored if this function returns an error or if the display adapter loses power.
 
 
 ## -returns
