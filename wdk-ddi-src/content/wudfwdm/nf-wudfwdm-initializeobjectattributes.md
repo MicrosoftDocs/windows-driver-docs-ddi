@@ -60,7 +60,7 @@ The <b>InitializeObjectAttributes</b> macro initializes the opaque <a href="http
 
 ### -param p
 
-Specifies the OBJECT_ATTRIBUTES structure to initialize.
+A pointer to the [OBJECT_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_object_attributes) structure to initialize.
 
 
 ### -param n
