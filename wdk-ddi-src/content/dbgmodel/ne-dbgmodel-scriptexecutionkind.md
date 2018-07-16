@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: f39e999b-9d77-496b-841d-c89d13b776d3
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: ScriptExecutionKind, , 
 ms.prod: windows-hardware
@@ -36,15 +36,24 @@ targetos: Windows
 
 ## -description
 
-
+Defines the kind of execution to do.
 
 ## -enum-fields
 
 ### -field ScriptExecutionNormal 
+Indicates that you would like the script to execute normally
+
 ### -field ScriptExecutionStepIn 
+Indicates that you want to perform a "step in" operation
+
 ### -field ScriptExecutionStepOut 
+Indicates that you want to perform a "step out" operation
+
 ### -field ScriptExecutionStepOver 
+Indicates that you want to perform a "step over" operation
 
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

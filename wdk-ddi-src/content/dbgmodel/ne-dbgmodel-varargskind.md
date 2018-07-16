@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: a3779feb-72c5-443a-ba30-dabb7fcd2e5d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: VarArgsKind, , 
 ms.prod: windows-hardware
@@ -36,13 +36,18 @@ targetos: Windows
 
 ## -description
 
-
+Defines the style of variable arguments that a function definition takes.
 
 ## -enum-fields
 
 ### -field VarArgsNone 
+The function does not take any variable arguments.
+
 ### -field VarArgsCStyle 
+The function is a C-style varargs function (returnType(arg1, arg2, ...)). The number of arguments reported by the function does not include the ellipsis argument. Any variable argument passing occurs after the number of arguments returned by the GetFunctionParameterTypeCount method.
 
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

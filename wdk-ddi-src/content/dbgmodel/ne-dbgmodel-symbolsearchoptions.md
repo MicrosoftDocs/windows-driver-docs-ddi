@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: b6a5df9d-42b8-4d3b-b9a7-84b89d8826be
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: SymbolSearchOptions, , 
 ms.prod: windows-hardware
@@ -36,13 +36,23 @@ targetos: Windows
 
 ## -description
 
-
+Symbols search options.
 
 ## -enum-fields
 
 ### -field SymbolSearchNone 
+SymbolSearchNone: No options set
+
+SymbolSearchNone = 0x00000000,
+
+
 ### -field SymbolSearchCompletion 
+SymbolSearchCompletion: Search for symbols starting with the specified name rather than symbols of the exact specified name.
+
+SymbolSearchCompletion = 0x00000001
 
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

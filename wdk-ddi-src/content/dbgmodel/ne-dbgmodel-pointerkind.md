@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: 5601a992-ef28-42ee-99e9-c7e8b2ba08be
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: PointerKind, , 
 ms.prod: windows-hardware
@@ -36,15 +36,25 @@ targetos: Windows
 
 ## -description
 
+Defines the kind of a pointer type.
 
 
 ## -enum-fields
 
-### -field PointerStandard 
+### -field PointerStandard
+Indicates a standard C/C++ pointer -- a *
+
 ### -field PointerReference 
+Indicates a C/C++ reference (whether const or not) -- a &
+
 ### -field PointerRValueReference 
+Indicates a C/C++ rvalue reference (whether const or not) -- a &&
+
 ### -field PointerCXHat 
+Indicates a C++/CX hat managed pointer (whether const or not) -- a ^
 
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)

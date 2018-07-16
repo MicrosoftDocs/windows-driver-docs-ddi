@@ -5,7 +5,7 @@ author: windows-driver-content
 description: 
 ms.assetid: c1a4180d-3606-46d5-811c-ee0e7cd5a96c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/16/2018
 ms.topic: enum
 ms.keywords: IntrinsicKind, , 
 ms.prod: windows-hardware
@@ -36,23 +36,49 @@ targetos: Windows
 
 ## -description
 
+Defines the kind of an intrinsic (basic) type.  This is distinct from the variant type which carries the type.
 
 
 ## -enum-fields
 
 ### -field IntrinsicVoid 
+void
+
 ### -field IntrinsicBool 
+bool
+
 ### -field IntrinsicChar 
+char
+
 ### -field IntrinsicWChar 
+wchar_t
+
 ### -field IntrinsicInt 
+signed int (of some size -- not necessarily 4 bytes)
+
 ### -field IntrinsicUInt 
+unsigned int (of some size -- not necessarily 4 bytes)
+
 ### -field IntrinsicLong 
+long (of some size)
+
 ### -field IntrinsicULong 
+unsigned long (of some size)
+
 ### -field IntrinsicFloat 
+floating point (of some size -- not necessarily 4 bytes)
+
 ### -field IntrinsicHRESULT 
+HRESULT
+
 ### -field IntrinsicChar16 
+char16_t
+
 ### -field IntrinsicChar32 
+char32_t
 
 ## -remarks
 
 ## -see-also
+
+[Debugger Data Model C++ Overview](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/debugger/data-model-cpp-overview?branch=debugger-op-ref-docs)
