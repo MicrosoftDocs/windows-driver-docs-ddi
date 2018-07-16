@@ -537,7 +537,7 @@ FILE_COMPLETE_IF_OPLOCKED
 
 </td>
 <td>
-Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is oplocked, rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers.
+Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is opportunistic locked (oplock), rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. For information about oplock, see [Opportunistic Locks](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365433(v=vs.85).aspx).
 
 </td>
 </tr>
@@ -557,7 +557,7 @@ FILE_OPEN_REPARSE_POINT
 
 </td>
 <td>
-Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section.
+Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. For information about reparse point, see [Reparse Points](https://docs.microsoft.com/en-us/windows/desktop/FileIO/reparse-points).
 
 </td>
 </tr>
@@ -620,7 +620,7 @@ FILE_RESERVE_OPFILTER
 
 </td>
 <td>
-This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section.
+This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. For information about oplock, see [Opportunistic Locks](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365433(v=vs.85).aspx).
 
 </td>
 </tr>
@@ -630,7 +630,7 @@ FILE_OPEN_REQUIRING_OPLOCK
 
 </td>
 <td>
-The file is being opened and an opportunistic lock (oplock) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation, and will fail the create with a return code of STATUS_CANNOT_BREAK_OPLOCK if the result would be to break an existing oplock.
+The file is being opened and an opportunistic lock (oplock) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation, and will fail the create with a return code of STATUS_CANNOT_BREAK_OPLOCK if the result would be to break an existing oplock. 
 
 <div class="alert"><b>Note</b>    The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2 and later Windows operating systems.</div>
 <div> </div>
@@ -858,5 +858,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a>
  
 
- 
+ [Opportunistic Locks](https://msdn.microsoft.com/en-us/library/windows/desktop/aa365433(v=vs.85).aspx)
 
+[Reparse Points](https://docs.microsoft.com/en-us/windows/desktop/FileIO/reparse-points)
