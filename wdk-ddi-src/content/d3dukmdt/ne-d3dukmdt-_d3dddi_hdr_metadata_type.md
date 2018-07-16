@@ -76,6 +76,8 @@ No HDR metadata is present.
 
 ### -field D3DDDI_HDR_METADATA_TYPE_HDR10
 
-The HDR metadata is defined using the D3DDDI_HDR_METADATA_HDR10 structure.
+The HDR metadata is defined using the [D3DDDI_HDR_METADATA_HDR10](ns-d3dukmdt-_d3dddi_hdr_metadata_hdr10.md) structure.
 
 ### -field D3DDDI_HDR_METADATA_TYPE_HDR10PLUS
+
+The HDR metadata is defined using the [D3DDDI_HDR_METADATA_HDR10PLUS](../d3dukmdt/ns-d3dukmdt-d3dddi_hdr_metadata_hdr10plus.md) structure.

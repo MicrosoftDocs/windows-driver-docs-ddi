@@ -61,7 +61,7 @@ Flags which describe the capabilities for driving the monitor.
 ### -field Stereo
 
 
-Value.
+If TRUE and resources are not constrained by other paths, stereo display modes are supported.
 
 ### -field WideColorSpace
 
@@ -102,7 +102,7 @@ This value is reserved for system use.
 
 ### -field Value
 
- 
+
 
 
 

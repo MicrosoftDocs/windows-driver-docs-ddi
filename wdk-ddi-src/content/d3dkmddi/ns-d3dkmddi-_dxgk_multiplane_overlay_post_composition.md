@@ -13,22 +13,22 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: d3dkmddi.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -85,6 +85,22 @@ Indicates additional rotation that should occur on the final image.
 The source mode contains the virtual mode size and the destination rectangle indicates how the virtual mode maps to the physical mode.
 
 For example, if a 1024x768 virtual mode is used with 1920x1080 physical mode, the following configurations are possible:
+
+Stretch mode:
+
+* SrcRect = {0, 0, 1024, 768}
+* DstRect = {0, 0, 1920, 1080}
+
+Centered mode:
+
+* SrcRect = {0, 0, 1024, 768}
+* DstRect = {448, 156, 1472, 924}
+
+Aspect ratio stretched:
+
+* SrcRect = {0, 0, 1024, 768}
+* DstRect = {240, 0, 1680, 1080}   // 1080p monitor resolution
+
 
 
 
