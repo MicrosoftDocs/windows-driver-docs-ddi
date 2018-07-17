@@ -248,8 +248,7 @@ The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
 
 
-<a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a>
- 
+[**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)
 
  
 
