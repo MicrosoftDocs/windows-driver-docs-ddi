@@ -1,6 +1,6 @@
 ---
 UID: NF:wdm.KeQuerySystemTime
-title: KeQuerySystemTime macro
+title: KeQuerySystemTime function
 author: windows-driver-content
 description: The KeQuerySystemTime routine obtains the current system time.
 old-location: kernel\kequerysystemtime.htm
@@ -11,7 +11,7 @@ ms.date: 4/30/2018
 ms.keywords: KeQuerySystemTime, KeQuerySystemTime routine [Kernel-Mode Driver Architecture], k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, kernel.kequerysystemtime, wdm/KeQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
-ms.topic: macro
+ms.topic: function
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -60,7 +60,7 @@ The <b>KeQuerySystemTime</b> routine obtains the current system time.
 
 ### -param CurrentCount [out]
 
-Pointer to the current time on return from <b>KeQuerySystemTime</b>. 
+Pointer to LARGE_INTEGER variable that receives the current time. 
 
 
 
