@@ -44,7 +44,7 @@ targetos: Windows
 req.typenames: 
 ---
 
-# KeQuerySystemTime macro
+# KeQuerySystemTime function
 
 
 ## -description
