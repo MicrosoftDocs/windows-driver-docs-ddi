@@ -60,17 +60,12 @@ The <b>KeStackAttachProcess</b> routine attaches the current thread to the addre
 
 ### -param PROCESS
 
-TBD
+Pointer to the target process object. This parameter can be a PEPROCESS pointer returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549177">IoGetCurrentProcess</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>. 
 
 
 ### -param ApcState [out]
 
 An opaque pointer to a KAPC_STATE structure. The caller must allocate storage for this structure either from nonpaged pool or from the caller's own thread stack. 
-
-
-#### - Process [in, out]
-
-Pointer to the target process object. This parameter can be a PEPROCESS pointer returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549177">IoGetCurrentProcess</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>. 
 
 
 ## -returns
@@ -101,7 +96,7 @@ Every call to <b>KeStackAttachProcess</b> must be matched by a subsequent call t
 <div> </div>
 
 
-For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="https://msdn.microsoft.com/fbd8aadd-5a24-48c9-9865-80cc7dc97316">Driver Threads, Dispatcher Objects, and Resources</a>. 
+For more information about using system threads and managing synchronization within a nonarbitrary thread context, see [Windows Kernel-Mode Process and Thread Manager](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager). 
 
 
 
