@@ -148,7 +148,49 @@ IDataModelManager interits from IUnknown.
 
 ## -remarks
 
+**Object Creation / Boxing Methods**
 
+The following set of methods is used to create new objects or to box values into an IModelObject -- the core interface of the data model. 
+
+```
+STDMETHOD(CreateNoValue)(_Out_ IModelObject** object) PURE;
+
+STDMETHOD(CreateErrorObject)(_In_ HRESULT hrError, 
+                             _In_opt_ PCWSTR pwszMessage, 
+                             _COM_Outptr_ IModelObject** object) PURE;
+
+STDMETHOD(CreateTypedObject)(_In_opt_ IDebugHostContext* context, 
+                             _In_ Location objectLocation, 
+                             _In_ IDebugHostType* objectType, 
+                             _COM_Errorptr_ IModelObject** object) PURE;
+
+STDMETHOD(CreateTypedObjectReference)(_In_opt_ IDebugHostContext* context, 
+                                      _In_ Location objectLocation, 
+                                      _In_ IDebugHostType* objectType, 
+                                      _COM_Errorptr_ IModelObject** object) PURE;
+
+STDMETHOD(CreateSyntheticObject)(_In_opt_ IDebugHostContext* context, 
+                                 _COM_Outptr_ IModelObject** object) PURE;
+
+STDMETHOD(CreateDataModelObject)(_In_ IDataModelConcept* dataModel, 
+                                 _COM_Outptr_ IModelObject** object) PURE;
+
+STDMETHOD(CreateIntrinsicObject)(_In_ ModelObjectKind objectKind, 
+                                 _In_ VARIANT* intrinsicData, 
+                                 _COM_Outptr_ IModelObject** object) PURE;
+
+STDMETHOD(CreateTypedIntrinsicObject)(_In_ VARIANT* intrinsicData, 
+                                      _In_ IDebugHostType* type, 
+                                      _COM_Outptr_ IModelObject** object) PURE;
+
+STDMETHOD(CreateMetadataStore)(_In_opt_ IKeyStore* parentStore, 
+                               _COM_Outptr_ IKeyStore** metadataStore) PURE;
+
+STDMETHOD(CreateTypedIntrinsicObjectEx)(_In_opt_ IDebugHostContext* context, 
+                                        _In_ VARIANT* intrinsicData, 
+                                        _In_ IDebugHostType* type, 
+                                        _COM_Outptr_ IModelObject** object) PURE;
+```
 
 ## -see-also
 
