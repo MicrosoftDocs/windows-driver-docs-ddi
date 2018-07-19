@@ -47,6 +47,7 @@ targetos: Windows
  A binder which converts two lambdas to a read/write property accessor.  The lambdas must hold reference on outer objects they
 reference through a by value capture.
 
+Usage: BindProperty(get_lambda, set_lambda)
 
 ## -parameters
 

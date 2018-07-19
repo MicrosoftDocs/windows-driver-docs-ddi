@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 9d5d4b53-b65b-4e77-85d3-abd66b7e8180
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/19/2018
 ms.topic: method
 ms.keywords: IDataModelManager::Release, Release, IDataModelManager.Release, IDataModelManager::Release, IDataModelManager.Release
 req.header: dbgmodel.h
@@ -49,8 +49,18 @@ TBD
 ## -parameters
 
 
+
 ## -returns
-This method returns ULONG.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```
+
+```
+
 ## -see-also
+
+[IDataModelManager interface](nn-dbgmodel-idatamodelmanager.md)

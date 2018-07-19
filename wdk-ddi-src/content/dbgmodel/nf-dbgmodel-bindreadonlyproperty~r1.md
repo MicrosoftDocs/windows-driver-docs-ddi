@@ -44,12 +44,19 @@ targetos: Windows
 
 ## -description
 
-TBD
+A binder which converts one instance method on a class to a read-only property accessor.  The class must be IUnknown derived.
+
+The returned binder will hold reference on the class object.
+
+A binder which converts one lambda to a read-only property accessor.  The lambda must hold reference on outer objects through  a by value capture.
+
+Usage: BindProperty(get_lambda)
 
 ## -parameters
 
 ### -param getFunctor
 TBD
+
 ### -param 
 TBD
 

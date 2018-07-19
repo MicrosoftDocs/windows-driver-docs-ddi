@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: e2b707f0-3901-4bf4-8f47-68ab79f6999b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:  07/17/2018
 ms.topic: method
 ms.keywords: IDataModelManager::CreateMetadataStore, CreateMetadataStore, IDataModelManager.CreateMetadataStore, IDataModelManager::CreateMetadataStore, IDataModelManager.CreateMetadataStore
 req.header: dbgmodel.h
@@ -54,7 +54,19 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```
+
+```
+
+
+
 ## -see-also
+
+[IDataModelManager interface](nn-dbgmodel-idatamodelmanager.md)

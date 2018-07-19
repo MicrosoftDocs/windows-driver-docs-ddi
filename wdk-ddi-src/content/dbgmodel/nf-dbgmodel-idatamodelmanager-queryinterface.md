@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 07450ab0-0974-4436-b438-c2b26d204cb9
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:  07/19/2018
 ms.topic: method
 ms.keywords: IDataModelManager::QueryInterface, QueryInterface, IDataModelManager.QueryInterface, IDataModelManager::QueryInterface, IDataModelManager.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Retrieves pointers to the supported interfaces on an object.
 
 ## -parameters
 
@@ -54,7 +54,16 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```
+
+```
+
 ## -see-also
+
+[IDataModelManager interface](nn-dbgmodel-idatamodelmanager.md)

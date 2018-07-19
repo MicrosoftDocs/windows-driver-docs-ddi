@@ -44,12 +44,15 @@ targetos: Windows
 
 ## -description
 
-TBD
+Trap and convert all exceptions coming out of a functor to an appropriate HRESULT.
+
+C++ Specific API Helper.
 
 ## -parameters
 
 ### -param fn
 TBD
+
 ### -param 
 TBD
 

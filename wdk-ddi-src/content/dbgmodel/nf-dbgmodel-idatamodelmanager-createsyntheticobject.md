@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 28363265-b92e-4dc2-92b8-47a2840c762f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:  07/17/2018
 ms.topic: method
 ms.keywords: IDataModelManager::CreateSyntheticObject, CreateSyntheticObject, IDataModelManager.CreateSyntheticObject, IDataModelManager::CreateSyntheticObject, IDataModelManager.CreateSyntheticObject
 req.header: dbgmodel.h
@@ -44,17 +44,34 @@ targetos: Windows
 
 ## -description
 
-TBD
+The CreateSyntheticObject method creates an empty data model object -- a dictionary of key/value/metadata tuples and concepts. At the time of creation, there are no keys nor concepts on the object. It is a clean slate for the caller to utilize. 
 
 ## -parameters
 
 ### -param context
+The debug host context which be associated with the newly created synthetic object. Not every object requires a context. If the object refers to things such as processes, threads, or memory in the address space of the host, it may need one (unless it encapsulates other objects which contain such).
 
 ### -param object
+The newly created object will be returned here.
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```
+ComPtr<IDataModelManager> spManager; /* get the data model manager */
+
+ComPtr<IModelObject> spNewObject;
+if (SUCCEEDED(spManager->CreateSyntheticObject(nullptr, &spNewObject)))
+{
+     // spNewObject is an empty object (a dictionary of key/value/metadata tuples)
+}
+
+```
 ## -see-also
+
+[IDataModelManager interface](nn-dbgmodel-idatamodelmanager.md)

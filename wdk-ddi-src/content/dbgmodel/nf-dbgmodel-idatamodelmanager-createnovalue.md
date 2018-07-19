@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: efc55ed1-d0c7-4da7-86a8-9ebc88dd6d33
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:  07/17/2018
 ms.topic: method
 ms.keywords: IDataModelManager::CreateNoValue, CreateNoValue, IDataModelManager.CreateNoValue, IDataModelManager::CreateNoValue, IDataModelManager.CreateNoValue
 req.header: dbgmodel.h
@@ -52,7 +52,18 @@ TBD
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+**Sample Code**
+
+```
+
+```
+
+
+
 ## -see-also
+
+[IDataModelManager interface](nn-dbgmodel-idatamodelmanager.md)
