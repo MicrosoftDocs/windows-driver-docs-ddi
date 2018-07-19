@@ -68,9 +68,8 @@ After NetAdapterCx calls a client driver's [*EVT_PACKET_QUEUE_SET_NOTIFICATION_E
 The client should only call **NetTxQueueNotifyMoreCompletedPacketsAvailable** once per enabling of the notification. Do not call **NetTxQueueNotifyMoreCompletedPacketsAvailable** if NetAdapterCx calls [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md) with *NotificationEnabled* set to **FALSE**.
 
 
-
 ## -see-also
 
-*[EVT_TXQUEUE_ADVANCE](nc-nettxqueue-evt_txqueue_advance.md)*
+[*EVT_PACKET_QUEUE_ADVANCE*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_advance.md)
 
 [*EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_set_notification_enabled.md)

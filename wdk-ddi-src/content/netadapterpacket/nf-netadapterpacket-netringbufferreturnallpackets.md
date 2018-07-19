@@ -60,7 +60,7 @@ This method does not return a value.
 ## -remarks
 Call **NetTx(Rx)QueueGetDatapathDescriptor** to obtain the datapath descriptor structure for the queue with which you're working.
 
-This method is a convenience function to return all outstanding packets. Typically, you would call this method from your *[EvtRxQueueCancel](../netrxqueue/nc-netrxqueue-evt_rxqueue_cancel.md)* callback function.
+This method is a convenience function to return all outstanding packets. Typically, you would call this method from your [*EvtPacketQueueCancel*](../netpacketqueue/nc-netpacketqueue-evt_packet_queue_cancel.md) callback function for a receive queue.
 
 
 
