@@ -46,7 +46,7 @@ targetos: Windows
 >
 > NetAdapterCx is preview only in Windows 10, version 1809.
 
-The **NetAdapterStart** method starts a previously stopped NETADAPTER object.
+The **NetAdapterStart** method starts a NETADAPTER object.
 
 ## -parameters
 
@@ -57,9 +57,7 @@ The **NETADAPTER** object created by a prior call to [NetAdapterCreate](nf-netad
 The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate NTSTATUS error code.
 
 ## -remarks
-For this method to succeed, the **NETADAPTER** object must have been previously created by calling [NetAdapterCreate](nf-netadapter-netadaptercreate.md) and later stopped by calling [NetAdapterStop](nf-netadapter-netadapterstop.md).
-
-
+For this method to succeed, the **NETADAPTER** object must have been previously created by calling [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
 ## -see-also
 
