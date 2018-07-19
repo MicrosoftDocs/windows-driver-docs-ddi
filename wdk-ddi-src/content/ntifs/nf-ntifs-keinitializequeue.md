@@ -159,7 +159,7 @@ Usually the caller of <b>KeInitializeQueue</b> also creates a set of dedicated t
 
 <b>KeInitializeQueue</b> sets the queue object's initial signal state to Not Signaled.
 
-For more information about using driver-managed internal queues, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544165">Driver-Managed Queues</a>. 
+For more information about using driver-managed internal queues, see [Driver-Managed IRP Queues](https://docs.microsoft.com/windows-hardware/drivers/kernel/driver-managed-irp-queues). 
 
 
 
