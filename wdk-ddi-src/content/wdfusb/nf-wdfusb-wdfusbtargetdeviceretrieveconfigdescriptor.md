@@ -140,6 +140,8 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> method retrieves all of the specified USB device's configuration information (that is, the configuration descriptor plus any interface or endpoint descriptors that might be present). To learn about the format of this information, see the USB specification.
 
+To select a different USB configuration for a device (for example if the device is not in its first or default configuration), the driver can call [**WdfUsbTargetDeviceSelectConfig**](nf-wdfusb-wdfusbtargetdeviceselectconfig.md) before calling **WdfUsbTargetDeviceRetrieveConfigDescriptor**.
+
 Drivers should call <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> twice, as follows:
 
 <ol>
