@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: c200852b-61de-4ac3-a12b-ed3b705336f6
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:  07/20/2018
 ms.topic: method
 ms.keywords: IDataModelConcept::Release, Release, IDataModelConcept.Release, IDataModelConcept::Release, IDataModelConcept.Release
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
