@@ -4,7 +4,7 @@ title: "_PCI_EXPRESS_AER_CAPABILITIES"
 author: windows-driver-content
 description: The PCI_EXPRESS_AER_CAPABILITIES structure describes a PCI Express (PCIe) advanced error capabilities and control register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_aer_capabilities.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 7cb25991-4e82-4da2-9d1f-fadc035b25a3
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
 -	APIRef
@@ -78,7 +78,7 @@ typedef union _PCI_EXPRESS_AER_CAPABILITIES {
 
 ### -field DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field AsULONG

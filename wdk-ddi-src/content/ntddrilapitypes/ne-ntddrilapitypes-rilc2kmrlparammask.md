@@ -4,7 +4,7 @@ title: RILC2KMRLPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILC2KMRLPARAMMASK.
 old-location: netvista\rilc2kmrlparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 145300be-6db8-48fd-9b8a-3b6d8532a1b1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -58,16 +58,16 @@ req.typenames: RILC2KMRLPARAMMASK
 
 ````
 enum RILC2KMRLPARAMMASK {
-  RIL_PARAM_C2KMRL_SERVING        = 0x00000001, 
-  RIL_PARAM_C2KMRL_NID            = 0x00000002, 
-  RIL_PARAM_C2KMRL_SID            = 0x00000004, 
-  RIL_PARAM_C2KMRL_BSID           = 0x00000008, 
-  RIL_PARAM_C2KMRL_BASELAT        = 0x00000010 , 
-  RIL_PARAM_C2KMRL_BASELONG       = 0x00000020 , 
-  RIL_PARAM_C2KMRL_REFPN          = 0x00000040 , 
-  RIL_PARAM_C2KMRL_GPSSECONDS     = 0x00000080 , 
-  RIL_PARAM_C2KMRL_PILOTSTRENGTH  = 0x000000100, 
-  RIL_PARAM_C2KRML_ALL            = 0x000001ff  
+  RIL_PARAM_C2KMRL_SERVING        = 0x00000001,
+  RIL_PARAM_C2KMRL_NID            = 0x00000002,
+  RIL_PARAM_C2KMRL_SID            = 0x00000004,
+  RIL_PARAM_C2KMRL_BSID           = 0x00000008,
+  RIL_PARAM_C2KMRL_BASELAT        = 0x00000010 ,
+  RIL_PARAM_C2KMRL_BASELONG       = 0x00000020 ,
+  RIL_PARAM_C2KMRL_REFPN          = 0x00000040 ,
+  RIL_PARAM_C2KMRL_GPSSECONDS     = 0x00000080 ,
+  RIL_PARAM_C2KMRL_PILOTSTRENGTH  = 0x000000100,
+  RIL_PARAM_C2KRML_ALL            = 0x000001ff
 
 };
 ````

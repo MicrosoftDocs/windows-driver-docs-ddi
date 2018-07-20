@@ -4,7 +4,7 @@ title: "_PCI_EXPRESS_CORRECTABLE_ERROR_STATUS"
 author: windows-driver-content
 description: The PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure describes a PCI Express (PCIe) correctable error status register of a PCIe advanced error reporting capability structure.
 old-location: pci\pci_express_correctable_error_status.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 24d10f3a-5188-4dda-8e4e-1dc7ae2ddc88
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
 -	APIRef
@@ -82,7 +82,7 @@ typedef union _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS {
 
 ### -field DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field AsULONG

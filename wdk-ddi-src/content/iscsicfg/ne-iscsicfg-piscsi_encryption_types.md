@@ -4,7 +4,7 @@ title: "*PISCSI_ENCRYPTION_TYPES"
 author: windows-driver-content
 description: The ISCSI_ENCRYPTION_TYPES enumeration indicates the type of encryption that is supported.
 old-location: storage\iscsi_encryption_types.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f1c7a13b-511a-4e9d-a0e6-9fb27126b1d2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: iscsicfg.h
 req.include-header: Iscsicfg.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -50,14 +50,14 @@ req.typenames: ISCSI_ENCRYPTION_TYPES, *PISCSI_ENCRYPTION_TYPES
 ## -description
 
 
-The ISCSI_ENCRYPTION_TYPES enumeration indicates the type of encryption that is supported. 
+The ISCSI_ENCRYPTION_TYPES enumeration indicates the type of encryption that is supported.
 
 
 ## -syntax
 
 
 ````
-typedef enum  { 
+typedef enum  {
   ISCSI_ENCRYPT_NONE            = 0,
   ISCSI_ENCRYPT_3DES_HMAC_SHA1  = 1,
   ISCSI_ENCRYPT_AES_CTR         = 2
@@ -72,17 +72,17 @@ typedef enum  {
 
 ### -field ISCSI_ENCRYPT_NONE
 
-No type of encryption is supported. 
+No type of encryption is supported.
 
 
 ### -field ISCSI_ENCRYPT_3DES_HMAC_SHA1
 
-The initiator or target supports triple data encryption standard (DES), hashed message authentication code (HMAC), and the secure hash algorithm, version 1. 
+The initiator or target supports triple data encryption standard (DES), hashed message authentication code (HMAC), and the secure hash algorithm, version 1.
 
 
 ### -field ISCSI_ENCRYPT_AES_CTR
 
-The initiator or target supports advanced encryption standard (AES) counter mode (CTR). 
+The initiator or target supports advanced encryption standard (AES) counter mode (CTR).
 
 
 ## -remarks

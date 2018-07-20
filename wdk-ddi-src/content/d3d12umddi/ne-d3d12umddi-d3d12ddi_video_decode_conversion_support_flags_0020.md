@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS_0020
 author: windows-driver-content
 description: Contains flags for support of video decode conversion.
 old-location: display\d3d12ddi_video_decode_conversion_support_flags.htm
-old-project: display
+tech.root: display
 ms.assetid: 7E272786-ECD4-4DF0-A36A-B27454E3E896
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

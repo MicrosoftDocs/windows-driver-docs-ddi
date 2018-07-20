@@ -4,7 +4,7 @@ title: PDXGK_POWER_NOTIFICATION
 author: windows-driver-content
 description: A callback providing notification that the graphics device will be undergoing a device power state transition.
 old-location: display\pdxgk_power_notification.htm
-old-project: display
+tech.root: display
 ms.assetid: 11549B4E-7929-4957-9775-BF8AAF501D45
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

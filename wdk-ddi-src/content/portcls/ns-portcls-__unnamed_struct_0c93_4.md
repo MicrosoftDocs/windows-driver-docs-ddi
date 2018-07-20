@@ -4,7 +4,7 @@ title: "*PPCMETHOD_ITEM"
 author: windows-driver-content
 description: The PCMETHOD_ITEM structure describes a method supported by a filter, pin, or node.
 old-location: audio\pcmethod_item.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 588d2f0e-0f87-46c7-b2fa-f14f29f6a9f0
 ms.author: windowsdriverdev
 ms.date: 12/14/2017
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
@@ -73,22 +73,22 @@ typedef struct {
 
 ### -field portcls.Set
 
- 
+
 
 
 ### -field portcls.Id
 
- 
+
 
 
 ### -field portcls.Flags
 
- 
+
 
 
 ### -field portcls.Handler
 
- 
+
 
 
 

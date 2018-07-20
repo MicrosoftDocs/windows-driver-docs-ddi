@@ -4,7 +4,7 @@ title: "_DOT11EXT_IHV_PROFILE_PARAMS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11ext_ihv_profile_params.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9bf4b27c-3cf0-45a0-9e56-b01ad1ba6b19
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihvtypes.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -75,22 +75,22 @@ typedef struct _DOT11EXT_IHV_PROFILE_PARAMS {
 ### -field pSsidList
 
 A pointer to the list of service set identifiers (SSIDs) of the basic service set (BSS) network.
-     The 
-     <b>pSsidList</b> member is formatted as a pointer to a 
+     The
+     <b>pSsidList</b> member is formatted as a pointer to a
      <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_ssid_list.md">
      DOT11EXT_IHV_SSID_LIST</a> structure.
 
 
 ### -field BssType
 
-The type of the BSS network. The 
-     <b>BssType</b> member contains a value defined for the 
+The type of the BSS network. The
+     <b>BssType</b> member contains a value defined for the
      <a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a> enumeration.
 
 
 ### -field pMSSecuritySettings
 
-A pointer to a 
+A pointer to a
      <a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11_mssecurity_settings.md">
      DOT11_MSSECURITY_SETTINGS</a> structure that defines Microsoft security settings in the Microsoft
      802.1X implementation.
@@ -102,7 +102,7 @@ A pointer to a
 
 The operating system passes a pointer to a DOT11EXT_IHV_PROFILE_PARAMS structure as a parameter to any
     IHV handler function that processes the IHV-defined fragments of connectivity and security profiles. For
-    more information, see 
+    more information, see
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
     Functions</a>.
 

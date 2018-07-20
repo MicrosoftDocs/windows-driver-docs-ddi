@@ -4,7 +4,7 @@ title: "_PCI_DEVICE_PRESENT_INTERFACE"
 author: windows-driver-content
 description: The PCI_DEVICE_PRESENT_INTERFACE structure is reserved for system use.
 old-location: pci\pci_device_present_interface.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 1a166876-88b9-484d-bceb-0446875185cc
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 topic_type:
 -	APIRef

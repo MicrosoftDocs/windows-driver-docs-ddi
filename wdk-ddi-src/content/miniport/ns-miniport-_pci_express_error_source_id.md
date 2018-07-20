@@ -4,7 +4,7 @@ title: "_PCI_EXPRESS_ERROR_SOURCE_ID"
 author: windows-driver-content
 description: The PCI_EXPRESS_ERROR_SOURCE_ID structure describes the identifiers of the first correctable error and the first uncorrectable error that are reported in the PCI Express (PCIe) root error status register.
 old-location: pci\pci_express_error_source_id.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 53efddbc-0e65-487c-b406-c7d093ca5667
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: miniport.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: Any level (see Remarks section)
 topic_type:
 -	APIRef
@@ -78,7 +78,7 @@ typedef union _PCI_EXPRESS_ERROR_SOURCE_ID {
 
 ### -field DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field AsULONG

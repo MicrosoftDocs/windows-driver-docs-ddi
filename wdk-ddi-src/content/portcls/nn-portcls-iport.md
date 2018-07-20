@@ -4,7 +4,7 @@ title: IPort
 author: windows-driver-content
 description: The IPort interface is the generic interface for audio port drivers. All audio port drivers expose IPort as part of their lower edge. The adapter driver calls the initialization method on this interface. IPort inherits from the IUnknown interface.
 old-location: audio\iport.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 8aaadfd6-3aca-451b-a5e9-081b083ae51d
 ms.author: windowsdriverdev
 ms.date: 3/19/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: interface
 req.header: portcls.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Portcls.lib
-req.dll: 
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef

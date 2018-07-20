@@ -4,7 +4,7 @@ title: "_DXGK_EVENT_TYPE"
 author: windows-driver-content
 description: The DXGK_EVENT_TYPE enumeration indicates the event type in a call to the display miniport driver's DxgkDdiNotifyAcpiEvent function.
 old-location: display\dxgk_event_type.htm
-old-project: display
+tech.root: display
 ms.assetid: df28ae8f-01f7-42c5-99df-2a3fc7401173
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_PCI_EXPRESS_SLOT_CONTROL_REGISTER"
 author: windows-driver-content
 description: The PCI_EXPRESS_SLOT_CONTROL_REGISTER structure describes a PCI Express (PCIe) slot control register of a PCIe capability structure.
 old-location: pci\pci_express_slot_control_register.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: 4755f4c3-305e-41a5-afdf-eda8e8e81b74
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -15,19 +15,19 @@ ms.topic: struct
 req.header: ntddk.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -84,7 +84,7 @@ typedef union _PCI_EXPRESS_SLOT_CONTROL_REGISTER {
 
 ### -field DUMMYSTRUCTNAME
 
- 
+
 
 
 ### -field AsUSHORT

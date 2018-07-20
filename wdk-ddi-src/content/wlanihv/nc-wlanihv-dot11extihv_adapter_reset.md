@@ -4,7 +4,7 @@ title: DOT11EXTIHV_ADAPTER_RESET
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11extihvadapterreset.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c1e8cce7-6fa4-45d3-a8c8-9f2ef0a8e846
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the IHV Extensions DLL 
+<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the IHV Extensions DLL
   <i>Dot11ExtIhvAdapterReset</i> function to reset the wireless LAN (WLAN) adapter.
 
 
@@ -76,7 +76,7 @@ DWORD APIENTRY Dot11ExtIhvAdapterReset(
 ### -param hIhvExtAdapter [in, optional]
 
 The handle used by the IHV Extensions DLL to reference the WLAN adapter. This handle value was
-     specified through a previous call to the 
+     specified through a previous call to the
      <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
      Handler function.
 
@@ -86,7 +86,7 @@ The handle used by the IHV Extensions DLL to reference the WLAN adapter. This ha
 
 
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
-     defined in 
+     defined in
      Winerror.h.
 
 
@@ -96,28 +96,28 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 
 
-The operating system calls 
+The operating system calls
     <i>Dot11ExtIhvAdapterReset</i> whenever one of the following events occurs.
 
 <ul>
 <li>
-The WLAN adapter performs a disconnection operation. For more information about this operation, see 
+The WLAN adapter performs a disconnection operation. For more information about this operation, see
       <a href="https://msdn.microsoft.com/f0ccdd41-3470-4602-a26b-af166e7eac82">Disconnection Operations</a>.
 
 </li>
 <li>
 The operating system resets the Native 802.11 miniport driver, which manages the adapter, through a
-      set request of 
+      set request of
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569409">OID_DOT11_RESET_REQUEST</a>.
 
 </li>
 </ul>
-The 
-    <i>Dot11ExtIhvAdapterReset</i> function must restore the WLAN adapter to the same state as when the DLL's 
+The
+    <i>Dot11ExtIhvAdapterReset</i> function must restore the WLAN adapter to the same state as when the DLL's
     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> function
     was called.
 
-For more information about the reset operation for WLAN adapters, see 
+For more information about the reset operation for WLAN adapters, see
     <a href="https://msdn.microsoft.com/1f993977-b4a1-42ec-8de3-2f4855db93a7">802.11 WLAN Adapter Reset</a>.
 
 

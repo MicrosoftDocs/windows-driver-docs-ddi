@@ -4,7 +4,7 @@ title: ENABLE_VIRTUALIZATION
 author: windows-driver-content
 description: The EnableVirtualization routine enables or disables virtualization for a PCI Express (PCIe) device that supports the single root I/O virtualization (SR-IOV) interface.
 old-location: pci\enablevirtualization.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: BC833231-CA7B-4E68-9498-46F1D4B32B88
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -16,18 +16,18 @@ req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows Server 2012 and later versions of Windows.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
 -	APIRef
@@ -83,7 +83,7 @@ A pointer to interface-specific context information. The caller passes the value
 
 ### -param NumVFs [in]
 
-The number of PCIe virtual functions (VFs) that are to be enabled for the device. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">EnableVirtualization</a> routine sets the <b>NumVFs</b> member of the PCIe SR-IOV Extended Capability structure to the value of the <i>NumVFs</i> parameter. 
+The number of PCIe virtual functions (VFs) that are to be enabled for the device. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451005">EnableVirtualization</a> routine sets the <b>NumVFs</b> member of the PCIe SR-IOV Extended Capability structure to the value of the <i>NumVFs</i> parameter.
 
 
 

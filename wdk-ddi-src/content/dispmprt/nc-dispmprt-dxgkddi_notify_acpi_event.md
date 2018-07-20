@@ -4,7 +4,7 @@ title: DXGKDDI_NOTIFY_ACPI_EVENT
 author: windows-driver-content
 description: Notifies the display miniport driver about certain ACPI events.
 old-location: display\dxgkddinotifyacpievent.htm
-old-project: display
+tech.root: display
 ms.assetid: fdefde51-0e90-4324-9c14-e8259fc872b3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

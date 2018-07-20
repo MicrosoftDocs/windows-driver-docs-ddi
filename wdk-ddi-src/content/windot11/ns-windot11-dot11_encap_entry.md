@@ -4,7 +4,7 @@ title: DOT11_ENCAP_ENTRY
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_encap_entry.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: d17547c5-47a3-4d10-b27f-6a3bbf7aad03
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -73,22 +73,22 @@ typedef struct DOT11_ENCAP_ENTRY {
 
 ### -field usEtherType
 
-The value of the IEEE EtherType in big-endian byte order. 
-     
+The value of the IEEE EtherType in big-endian byte order.
 
-If the 
-     <b>usEtherType</b> member is zero, the encapsulation that is specified by the 
-     <b>usEncapType</b> member applies to all EtherType values. If the miniport driver sets 
+
+If the
+     <b>usEtherType</b> member is zero, the encapsulation that is specified by the
+     <b>usEncapType</b> member applies to all EtherType values. If the miniport driver sets
      <b>usEtherType</b> to zero for an entry, it must be the only entry in the EtherType encapsulation
      list.
 
 
 ### -field usEncapType
 
-The type of encapsulation that is performed on the EtherType specified by the 
-     <b>usEtherType</b> member. The 
-     <b>usEncapType</b> member can have one of the following values: 
-     
+The type of encapsulation that is performed on the EtherType specified by the
+     <b>usEtherType</b> member. The
+     <b>usEncapType</b> member can have one of the following values:
+
 
 
 
@@ -109,7 +109,7 @@ The encapsulation that is defined through the IEEE 802.1h-1997 standard.
 
 
 
-The miniport driver returns an encapsulation list when it makes an 
+The miniport driver returns an encapsulation list when it makes an
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
     NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a> indication. The encapsulation list specified in the
     indication applies to the association with an access point (AP) in an infrastructure basic service set
@@ -118,7 +118,7 @@ The miniport driver returns an encapsulation list when it makes an
 <div class="alert"><b>Note</b>  The miniport driver cannot return an encapsulation list when associating with peer
     stations within an independent BSS network.</div>
 <div> </div>
-For more information about 802.11 packet payload encapsulation, see 
+For more information about 802.11 packet payload encapsulation, see
     <a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 Payload Encapsulation</a>.
 
 

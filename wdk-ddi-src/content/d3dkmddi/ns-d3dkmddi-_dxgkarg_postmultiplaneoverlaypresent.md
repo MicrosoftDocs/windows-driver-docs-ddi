@@ -4,7 +4,7 @@ title: "_DXGKARG_POSTMULTIPLANEOVERLAYPRESENT"
 author: windows-driver-content
 description: Contains arguments for the DxgkDdiPostMultiPlaneOverlayPresent function.
 old-location: display\dxgkarg_postmultiplaneoverlaypresent.htm
-old-project: display
+tech.root: display
 ms.assetid: E257606A-66EE-4F53-B661-F5FFC63E1F54
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

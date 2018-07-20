@@ -4,7 +4,7 @@ title: "_DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_incoming_assoc_request_received_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: bd65cac6-ca53-46fc-943f-0f698c531554
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -78,11 +78,11 @@ typedef struct _DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS {
 ### -field Header
 
 The type, revision, and size of the DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS structure.
-     This member is formatted as an 
+     This member is formatted as an
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
-     
 
-The miniport driver must set the members of 
+
+The miniport driver must set the members of
      <b>Header</b> to the following values:
 
 
@@ -103,10 +103,10 @@ This member must be set to DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS_REVI
 
 #### Size
 
-This member must be set to 
+This member must be set to
        <b>sizeof</b>(DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS).
 
-For more information about these members, see 
+For more information about these members, see
      <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>.
 
 
@@ -118,14 +118,14 @@ The media access control (MAC) address of the peer station that sent an associat
 
 ### -field bReAssocReq
 
-For nonzero values of 
-     <b>uStatus</b>, 
+For nonzero values of
+     <b>uStatus</b>,
      <b>bReAssocReq</b> is <b>TRUE</b> if the request from the peer station is a re-association request.
 
 
 ### -field uAssocReqOffset
 
-For nonzero values of 
+For nonzero values of
      <b>uStatus</b>, this member specifies the offset of the request frame that is used in the association
      operation. The frame includes information elements (IEs) but does not include the 802.11 MAC
      header.
@@ -133,7 +133,7 @@ For nonzero values of
 
 ### -field uAssocReqSize
 
-For nonzero values of 
+For nonzero values of
      <b>uStatus</b>, this member specifies the length, in bytes, of the request frame that is used in the
      association operation. The frame includes information elements (IEs) but does not include the 802.11 MAC
      header.
@@ -144,7 +144,7 @@ For nonzero values of
 
 
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_REQUEST_RECEIVED_PARAMETERS
-    structure when the driver makes an 
+    structure when the driver makes an
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-incoming-assoc-request-received">
     NDIS_STATUS_DOT11_INCOMING_ASSOC_REQUEST_RECEIVED</a> status indication.
 

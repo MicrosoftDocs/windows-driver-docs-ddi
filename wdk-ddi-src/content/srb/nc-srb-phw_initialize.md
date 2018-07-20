@@ -4,7 +4,7 @@ title: PHW_INITIALIZE
 author: windows-driver-content
 description: The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs.
 old-location: storage\phw_initialize.htm
-old-project: storage
+tech.root: storage
 ms.assetid: dd678196-62f6-4c27-845f-a9b52c663e2a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018
@@ -15,20 +15,20 @@ ms.topic: callback
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -51,7 +51,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs. 
+The PHW_INITIALIZE routine prototype declares a routine that initializes the miniport driver after a reboot or power failure occurs.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ The PHW_INITIALIZE routine prototype declares a routine that initializes the min
 
 ### -param DeviceExtension [in]
 
-Pointer to the miniport driver's per-HBA storage area. 
+Pointer to the miniport driver's per-HBA storage area.
 
 
 ## -returns
 
 
 
-If the operation succeeds, the initialization routine returns <b>TRUE</b>. Otherwise, the initialize routine returns <b>FALSE</b>. 
+If the operation succeeds, the initialization routine returns <b>TRUE</b>. Otherwise, the initialize routine returns <b>FALSE</b>.
 
 
 
@@ -77,11 +77,11 @@ If the operation succeeds, the initialization routine returns <b>TRUE</b>. Other
 
 
 
-The initialization routine for both SCSI and StorPort miniport drivers are declared using this prototype. 
+The initialization routine for both SCSI and StorPort miniport drivers are declared using this prototype.
 
-For more information about the SCSI miniport driver initialization routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>. 
+For more information about the SCSI miniport driver initialization routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557302">HwScsiInitialize</a>.
 
-For more information about the miniport driver initialization routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a>. 
+For more information about the miniport driver initialization routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a>.
 
 
 

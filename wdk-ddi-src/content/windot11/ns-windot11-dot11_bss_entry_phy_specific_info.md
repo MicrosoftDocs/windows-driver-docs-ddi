@@ -4,7 +4,7 @@ title: DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_bss_entry_phy_specific_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 85bcd355-633b-4d3f-a387-1e3b2ac3a013
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Wlclient.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -72,9 +72,9 @@ typedef union DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO {
 
 ### -field uChCenterFrequency
 
-The channel center frequency of the band on which the 802.11 Probe-Response or Beacon frame was received. The value of **uChCenterFrequency** is in units of megahertz (MHz).      
+The channel center frequency of the band on which the 802.11 Probe-Response or Beacon frame was received. The value of **uChCenterFrequency** is in units of megahertz (MHz).
 
-> [!NOTE] 
+> [!NOTE]
 > This member is only valid for PHY types that are not frequency-hopping spread spectrum (FHSS).
 
 ### -field FHSS
@@ -84,7 +84,7 @@ The FHSS parameters, as specified by the following members:
 #### uHopPattern
 
 The current hopping pattern used by the layer management entity (LME) of the PHY to determine the hopping sequence. For more information about how the hopping sequence is determined, refer to Clause 14.9.2.20 of the IEEE 802.11-2012 standard.
-      
+
 > [!NOTE]
 > This member is only valid for FHSS PHY types.
 
@@ -97,7 +97,7 @@ The current set of patterns used by the LME of the PHY to determine the hopping 
 
 #### uDwellTime
 
-The maximum amount of time that the PHY can use when transmitting on a single channel. The value of **uDwellTime** is in units of 802.11 time units (TU). One TU is 1024 microseconds.      
+The maximum amount of time that the PHY can use when transmitting on a single channel. The value of **uDwellTime** is in units of 802.11 time units (TU). One TU is 1024 microseconds.
 
 > [!NOTE]
 > This member is only valid for FHSS PHY types.

@@ -4,7 +4,7 @@ title: RILPOSITIONINFOUMTSPARAMMASK
 author: windows-driver-content
 description: This enumeration describes the RILPOSITIONINFOUMTSPARAMMASK.
 old-location: netvista\rilpositioninfoumtsparammask.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: fde2eb3f-ea12-45e6-93d1-7bdb0ea8c6b2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -60,19 +60,19 @@ req.typenames: RILPOSITIONINFOUMTSPARAMMASK
 
 ````
 enum RILPOSITIONINFOUMTSPARAMMASK {
-  RIL_PARAM_POSITION_UMTS_MCC          = 0x00000001, 
-  RIL_PARAM_POSITION_UMTS_MNC          = 0x00000002, 
-  RIL_PARAM_POSITION_UMTS_LAC          = 0x00000004, 
-  RIL_PARAM_POSITION_UMTS_CELLID       = 0x00000008, 
-  RIL_PARAM_POSITION_UMTS_FREQINFO_UL  = 0x00000010, 
-  RIL_PARAM_POSITION_UMTS_FREQINFO_DL  = 0x00000020, 
-  RIL_PARAM_POSITION_UMTS_FREQINFO_NT  = 0x00000040, 
-   RIL_PARAM_POSITION_UMTS_UARFCN      = 0x00000080, 
-  RIL_PARAM_POSITION_UMTS_PRIMARY_SC   = 0x00000100, 
-  RIL_PARAM_POSITION_UMTS_RSCP         = 0x00000200, 
-  RIL_PARAM_POSITION_UMTS_ECNO         = 0x00000400, 
-  RIL_PARAM_POSITION_UMTS_PATHLOSS     = 0x00000800, 
-  RIL_PARAM_POSITION_UMTS_ALL          = 0x00000fff 
+  RIL_PARAM_POSITION_UMTS_MCC          = 0x00000001,
+  RIL_PARAM_POSITION_UMTS_MNC          = 0x00000002,
+  RIL_PARAM_POSITION_UMTS_LAC          = 0x00000004,
+  RIL_PARAM_POSITION_UMTS_CELLID       = 0x00000008,
+  RIL_PARAM_POSITION_UMTS_FREQINFO_UL  = 0x00000010,
+  RIL_PARAM_POSITION_UMTS_FREQINFO_DL  = 0x00000020,
+  RIL_PARAM_POSITION_UMTS_FREQINFO_NT  = 0x00000040,
+   RIL_PARAM_POSITION_UMTS_UARFCN      = 0x00000080,
+  RIL_PARAM_POSITION_UMTS_PRIMARY_SC   = 0x00000100,
+  RIL_PARAM_POSITION_UMTS_RSCP         = 0x00000200,
+  RIL_PARAM_POSITION_UMTS_ECNO         = 0x00000400,
+  RIL_PARAM_POSITION_UMTS_PATHLOSS     = 0x00000800,
+  RIL_PARAM_POSITION_UMTS_ALL          = 0x00000fff
 
 };
 ````
@@ -126,7 +126,7 @@ enum RILPOSITIONINFOUMTSPARAMMASK {
 
 
 
-Networks will vary, but the following table summarizes which items are returned for common UMTS networks. 
+Networks will vary, but the following table summarizes which items are returned for common UMTS networks.
 
 <b>Serving network</b>
 
@@ -331,7 +331,7 @@ Yes
 
 </td>
 <td>
- Measured in dB   
+ Measured in dB
 
 </td>
 </tr>
@@ -505,7 +505,7 @@ Yes
 
 </td>
 <td>
- Measured in dB   
+ Measured in dB
 
 </td>
 </tr>

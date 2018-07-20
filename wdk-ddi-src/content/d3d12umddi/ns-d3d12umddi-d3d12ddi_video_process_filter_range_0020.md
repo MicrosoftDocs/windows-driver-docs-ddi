@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020
 author: windows-driver-content
 description: Defines the range of supported values for an image filter.
 old-location: display\d3d12ddi_video_process_filter_range.htm
-old-project: display
+tech.root: display
 ms.assetid: D77D1542-2730-456A-BC99-3507C4377C77
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

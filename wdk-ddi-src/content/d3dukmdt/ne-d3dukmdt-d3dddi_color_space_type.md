@@ -4,7 +4,7 @@ title: D3DDDI_COLOR_SPACE_TYPE
 author: windows-driver-content
 description: Defines stream color space information.
 old-location: display\d3dddi_color_space_type.htm
-old-project: display
+tech.root: display
 ms.assetid: 0A26F0AC-2D00-4847-96ED-3232A067F7CC
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032
 author: windows-driver-content
 description: Video decode compressed bitstream.
 old-location: display\d3d12ddi-video-decode-compressed-bitstream-0032.htm
-old-project: display
+tech.root: display
 ms.assetid: 5ef654ff-9a1e-4e97-9087-34ff21e40e1d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

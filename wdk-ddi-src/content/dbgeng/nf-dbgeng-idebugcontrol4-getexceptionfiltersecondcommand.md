@@ -4,7 +4,7 @@ title: IDebugControl4::GetExceptionFilterSecondCommand method
 author: windows-driver-content
 description: The GetExceptionFilterSecondCommandWide method returns the command that will be executed by the debugger engine upon the second chance of a specified exception.
 old-location: debugger\getexceptionfiltersecondcommandwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 17a61847-78b7-45b8-b02b-3ba4cdba6bff
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
@@ -15,20 +15,20 @@ ms.topic: method
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax

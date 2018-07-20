@@ -4,7 +4,7 @@ title: SRIOV_GET_RESOURCE_FOR_BAR
 author: windows-driver-content
 description: Gets the translated resource for a specific Base Address Register (BAR).
 old-location: pci\sriov_get_resource_for_bar.htm
-old-project: PCI
+tech.root: PCI
 ms.assetid: b52bafee-d541-4396-be0a-06956d07fb2b
 ms.author: windowsdriverdev
 ms.date: 2/24/2018
@@ -13,21 +13,21 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: pcivirt.h
-req.include-header: 
+req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
 req.irql: PASSIVE_LEVEL
 topic_type:
 -	APIRef
@@ -79,13 +79,13 @@ typedef SRIOV_GET_RESOURCE_FOR_BAR *PSRIOV_GET_RESOURCE_FOR_BAR;
 ### -param Context [in]
 
 A pointer to a driver-defined context.
-                    
-                
+
+
 
 
 ### -param VfIndex [in]
 
-A zero-based index of the VF that is being queried. 
+A zero-based index of the VF that is being queried.
 
 
 ### -param BarIndex [in]
@@ -96,7 +96,7 @@ The index of the BAR (between 0 and 5).
 ### -param Resource [out]
 
 
-                    
+
                 A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that is filled with the translated hardware resources for the specified BAR.
 
 
@@ -118,7 +118,7 @@ This callback function is implemented by the physical function (PF) driver. It i
 
 The PF driver registers its implementation by setting the <b>GetResourceForBar</b> member of the SRIOV_DEVICE_INTERFACE_STANDARD, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
 
-Here is an example implementation of this callback function. 
+Here is an example implementation of this callback function.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -137,18 +137,18 @@ Virtualization_GetResourceForBar(
 
 {
     PDEVICE_CONTEXT  deviceContext;
-    
+
     PAGED_CODE();
 
     deviceContext = (PDEVICE_CONTEXT)Context;
-    
+
     TraceEvents(TRACE_LEVEL_VERBOSE, DBG_INTERFACE,
         "Virtualization_GetResourceForBar received with"
         "VFIndex = %d, BarIndex = %d\n",
         VfIndex, BarIndex);
 
     NT_ASSERT(BarIndex &lt; PCI_TYPE0_BAR_COUNT);
-    
+
     if(VfIndex &gt;= deviceContext-&gt;NumVFs)
     {
         NT_ASSERT(FALSE);
@@ -159,7 +159,7 @@ Virtualization_GetResourceForBar(
     // Copy the descriptor for all VFs at the given Bar index
     // to the output descriptor.
     //
-    
+
     *Resource = deviceContext-&gt;AssignedVfBarResources[BarIndex];
 
     if(Resource-&gt;Type == CmResourceTypeMemory ||

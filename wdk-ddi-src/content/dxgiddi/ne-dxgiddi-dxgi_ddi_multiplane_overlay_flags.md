@@ -4,7 +4,7 @@ title: DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS
 author: windows-driver-content
 description: Identifies a flip operation to be performed on an overlay plane.
 old-location: display\dxgi_ddi_multiplane_overlay_flags.htm
-old-project: display
+tech.root: display
 ms.assetid: 74245a8b-1b52-4336-a744-1aedaca0eef5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_D3DDDI_HDR_METADATA_TYPE"
 author: windows-driver-content
 description: Defines the format of HDR metadata.
 old-location: display\d3dddi_hdr_metadata_type.htm
-old-project: display
+tech.root: display
 ms.assetid: C30C34BF-F67D-4838-B337-9EF0D85B27DA
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

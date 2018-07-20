@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0032
 author: windows-driver-content
 description: Video process transform.
 old-location: display\d3d12ddi-video-process-transform-0032.htm
-old-project: display
+tech.root: display
 ms.assetid: 7c2393e6-3e1b-4b4a-b6ea-5848c38440b0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

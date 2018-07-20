@@ -4,7 +4,7 @@ title: DOT11_DIRECTION
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_direction.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 83a83af9-314a-49c1-b241-a0ef0716f83a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -59,7 +59,7 @@ req.product: Windows 10 or later.
 
 
 ````
-typedef enum DOT11_DIRECTION { 
+typedef enum DOT11_DIRECTION {
   DOT11_DIR_INBOUND   = 1,
   DOT11_DIR_OUTBOUND  = 2,
   DOT11_DIR_BOTH      = 3

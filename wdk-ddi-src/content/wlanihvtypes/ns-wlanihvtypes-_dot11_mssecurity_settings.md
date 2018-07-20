@@ -4,7 +4,7 @@ title: "_DOT11_MSSECURITY_SETTINGS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_mssecurity_settings.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: b80a06f0-7774-4bf1-9101-a466999246d6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: wlanihvtypes.h
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -77,14 +77,14 @@ typedef struct _DOT11_MSSECURITY_SETTINGS {
 
 ### -field dot11AuthAlgorithm
 
-A 
+A
      <a href="..\wlantypes\ne-wlantypes-_dot11_auth_algorithm.md">DOT11_AUTH_ALGORITHM</a> type that specifies
      the authentication algorithm.
 
 
 ### -field dot11CipherAlgorithm
 
-A 
+A
      <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a> type that
      specifies the cipher algorithm for data encryption and decryption.
 
@@ -103,7 +103,7 @@ An EAP_METHOD_TYPE type that specifies the extensible authentication protocol (E
 
 ### -field dwEapConnectionDataLen
 
-The size, in bytes, of the EAP connection data buffer pointed to by the 
+The size, in bytes, of the EAP connection data buffer pointed to by the
      <b>pEapConnectionData</b> member.
 
 

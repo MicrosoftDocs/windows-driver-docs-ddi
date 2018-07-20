@@ -4,7 +4,7 @@ title: "*PISCSI_NIC_LINKSTATE"
 author: windows-driver-content
 description: The ISCSI_NIC_LINKSTATE enumeration indicates whether a port is connected to the network or not.
 old-location: storage\iscsi_nic_linkstate.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e373b1dd-54bd-429c-a5b9-9f8df546c185
 ms.author: windowsdriverdev
 ms.date: 2/26/2018
@@ -15,20 +15,20 @@ ms.topic: enum
 req.header: iscsicfg.h
 req.include-header: Iscsicfg.h
 req.target-type: Windows
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -57,7 +57,7 @@ The ISCSI_NIC_LINKSTATE enumeration indicates whether a port is connected to the
 
 
 ````
-typedef enum  { 
+typedef enum  {
   ISCSI_NIC_LINKSTATE_DISCONNECTED  = 0,
   ISCSI_NIC_LINKSTATE_CONNECTED     = 1
 } ISCSI_NIC_LINKSTATE, *PISCSI_NIC_LINKSTATE;
@@ -71,12 +71,12 @@ typedef enum  {
 
 ### -field ISCSI_NIC_LINKSTATE_DISCONNECTED
 
-A network port is disconnected from the network. 
+A network port is disconnected from the network.
 
 
 ### -field ISCSI_NIC_LINKSTATE_CONNECTED
 
-A network port is connected to the network. 
+A network port is connected to the network.
 
 
 ## -remarks

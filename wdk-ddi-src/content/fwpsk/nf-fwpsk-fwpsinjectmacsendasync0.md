@@ -4,7 +4,7 @@ title: FwpsInjectMacSendAsync0 function
 author: windows-driver-content
 description: The FwpsInjectMacReceiveAsync0 function can reinject a previously absorbed media access control (MAC) frame (or a clone of the frame) back to the layer 2 inbound data path from which it was intercepted, or inject an invented MAC frame.
 old-location: netvista\fwpsinjectmacsendasync0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8B03835A-98EE-4157-BD05-C52D01EE5F5E
 ms.author: windowsdriverdev
 ms.date: 3/26/2018
@@ -16,18 +16,18 @@ req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
 req.lib: Fwpkclnt.lib
-req.dll: 
+req.dll:
 req.irql: "<= DISPATCH_LEVEL"
 topic_type:
 -	APIRef
@@ -42,7 +42,7 @@ api_name:
 product:
 - Windows
 targetos: Windows
-req.typenames: 
+req.typenames:
 ---
 
 # FwpsInjectMacSendAsync0 function
@@ -63,16 +63,16 @@ The <b>FwpsInjectMacReceiveAsync0</b> function can  reinject a previously absorb
 
 ### -param injectionHandle [in]
 
-An injection handle that was previously obtained by a call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551180">FwpsInjectionHandleCreate0</a> function with the <i>flags</i> parameter set to FWPS_INJECTION_TYPE_L2. 
+An injection handle that was previously obtained by a call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551180">FwpsInjectionHandleCreate0</a> function with the <i>flags</i> parameter set to FWPS_INJECTION_TYPE_L2.
 
 <div class="alert"><b>Note</b>  Set the <i>addressFamily</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551180">FwpsInjectionHandleCreate0</a> function to AF_UNSPEC.</div>
 <div> </div>
 
 ### -param injectionContext [in, optional]
 
-An optional handle to the injection context. If specified, it can be obtained by calling the 
+An optional handle to the injection context. If specified, it can be obtained by calling the
      <a href="https://msdn.microsoft.com/785d99a5-a8c9-4763-bdd4-e26f604f6be7">
-     FwpsQueryPacketInjectionState0</a> function when the packet injection state 
+     FwpsQueryPacketInjectionState0</a> function when the packet injection state
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff552408">FWPS_PACKET_INJECTION_STATE</a> is
      <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF</b>.
 
@@ -84,7 +84,7 @@ Reserved. Must be set to zero.
 
 ### -param layerId [in]
 
-The run-time identifier for the filtering layer at which the data stream is being processed. 
+The run-time identifier for the filtering layer at which the data stream is being processed.
 
 
 ### -param interfaceIndex [in]
@@ -99,26 +99,26 @@ The NDIS port number  that is passed to the callout driver's <a href="https://ms
 
 ### -param netBufferLists [in, out]
 
-A pointer to a 
+A pointer to a
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being injected. A callout driver allocates a NET_BUFFER_LIST structure to use to
-     inject packet data by calling either the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551134">FwpsAllocateCloneNetBufferList0</a> function or the 
+     inject packet data by calling either the
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551134">FwpsAllocateCloneNetBufferList0</a> function or the
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff551135">FwpsAllocateNetBufferAndNetBufferList0</a> function. The NET_BUFFER_LIST structure must begin with a MAC header.
 
 
 ### -param completionFn [in]
 
-A pointer to a 
+A pointer to a
      <a href="https://msdn.microsoft.com/c03656ec-f0fe-49f5-8a04-2d26ef23c50a">completionFn</a> callout function provided by
-     the callout driver. The filter engine calls this function after the packet data, described by the 
+     the callout driver. The filter engine calls this function after the packet data, described by the
      <i>netBufferLists</i> parameter, has been injected into the network stack. This pointer must be specified when injecting cloned or created NET_BUFFER_LIST structures. When injecting original  NET_BUFFER_LIST structures, this parameter can be NULL if the original structures  are not altered.
 
 
 ### -param completionContext [in, optional]
 
 A pointer to a callout driver–provided context that is passed to the callout function pointed to
-     by the 
+     by the
      <i>completionFn</i> parameter. This parameter is optional and can be <b>NULL</b>.
 
 
@@ -126,7 +126,7 @@ A pointer to a callout driver–provided context that is passed to the callout f
 
 
 
-The 
+The
      <b>FwpsInjectMacReceiveAsync0</b> function returns one of the following NTSTATUS codes.
 
 <table>
@@ -143,8 +143,8 @@ The
 <td width="60%">
 The MAC frame data injection was initiated successfully. The filter engine calls the completion
        function after the filter engine has completed injecting the MAC frame data, or
-       when an error occurred subsequently. In case of an error, the 
-       <b>Status</b> member of the completed 
+       when an error occurred subsequently. In case of an error, the
+       <b>Status</b> member of the completed
        <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure will indicate
        the reason for failure.
 
@@ -179,8 +179,8 @@ The injection handle is being closed.
 </dl>
 </td>
 <td width="60%">
-The injection handle was not created with the 
-       <i>flags</i> parameter of the 
+The injection handle was not created with the
+       <i>flags</i> parameter of the
        <a href="https://msdn.microsoft.com/61cee8ef-1070-46d4-a541-94a9f09b593b">
        FwpsInjectionHandleCreate0</a> function set to FWPS_INJECTION_TYPE_L2.
 

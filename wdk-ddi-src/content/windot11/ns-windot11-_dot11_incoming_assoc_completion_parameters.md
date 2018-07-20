@@ -4,7 +4,7 @@ title: "_DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS"
 author: windows-driver-content
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\dot11_incoming_assoc_completion_parameters.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8f3cfe07-5026-40fb-b832-da5ae048843e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 -	APIRef
 -	kbSyntax
@@ -86,17 +86,17 @@ typedef struct _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS {
 
 ### -field Header
 
-The type, revision, and size of the DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.     
+The type, revision, and size of the DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure. This member is formatted as an <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the members of <b>Header</b> to the following values:
 
 #### Type
 
-This member must be set to NDIS_OBJECT_TYPE_DEFAULT. 
+This member must be set to NDIS_OBJECT_TYPE_DEFAULT.
 
 #### Revision
 
-This member must be set to DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS_REVISION_1. 
+This member must be set to DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS_REVISION_1.
 
 #### Size
 
@@ -115,7 +115,7 @@ The status of the association with the peer station. If zero, the association su
 
 ### -field ucErrorSource
 
-For nonzero values of <b>uStatus</b>, this member indicates the source of the error that prevents association. The NIC must set <b>ucErrorSource</b> to one of the following values: 
+For nonzero values of <b>uStatus</b>, this member indicates the source of the error that prevents association. The NIC must set <b>ucErrorSource</b> to one of the following values:
 
 #### DOT11_ASSOC_ERROR_SOURCE_OS
 
@@ -128,7 +128,7 @@ The AP or the peer station has rejected the association procedure. In this case,
 
 #### DOT11_ASSOC_ERROR_SOURCE_OTHER
 
-The association failed for an IHV-specific reason. In this case, <b>uStatus</b> contains a nonzero value specified by the IHV. 
+The association failed for an IHV-specific reason. In this case, <b>uStatus</b> contains a nonzero value specified by the IHV.
 
 ### -field bReAssocReq
 
@@ -168,7 +168,7 @@ The authentication algorithm that the 802.11 station resolved with the peer stat
 
 ### -field UnicastCipher
 
-The unicast cipher algorithm that the 802.11 station resolved with the peer station during the association operation. For more information about the data type for the 
+The unicast cipher algorithm that the 802.11 station resolved with the peer station during the association operation. For more information about the data type for the
       <b>UnicastCipher</b> member, see <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>.
 
 <div class="alert"><b>Note</b>  The miniport driver must set this member to zero if <b>uStatus</b> is not set to zero.</div>
@@ -189,16 +189,16 @@ Entries in the active PHY list can be one of the following values:
 
 <ul>
 <li>
-A PHY ID that is specified by the Extensible Station (ExtSTA) 
+A PHY ID that is specified by the Extensible Station (ExtSTA)
         <b>msDot11DesiredPhyList</b> management information base (MIB) object. For more information about this
-        MIB object, see 
+        MIB object, see
         <a href="https://msdn.microsoft.com/library/windows/hardware/ff569144">OID_DOT11_DESIRED_PHY_LIST</a>.
 
 </li>
 <li>
-A PHY ID of DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value if the ExtSTA 
-        <b>msDot11ActivePhyList</b> MIB object specifies all of the PHY IDs that are specified by the 
-        <b>msDot11DesiredPhyList</b> MIB object. For more information about this MIB object, see 
+A PHY ID of DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value if the ExtSTA
+        <b>msDot11ActivePhyList</b> MIB object specifies all of the PHY IDs that are specified by the
+        <b>msDot11DesiredPhyList</b> MIB object. For more information about this MIB object, see
         <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-active-phy-list">OID_DOT11_ACTIVE_PHY_LIST</a>.
 
 <div class="alert"><b>Note</b>  An entry with the value of DOT11_PHY_ID_ANY must be the only entry in the
@@ -208,23 +208,23 @@ A PHY ID of DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value
 The offset of the active PHY list is relative to the start of the buffer that contains the
       DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure.
 
-<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
+<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if
       <b>uStatus</b> is not set to zero.</div>
 
 ### -field uActivePhyListSize
 
-The length, in bytes, of the active PHY list. The 
-     <b>uActivePhyListSize</b> member must be a multiple of 
+The length, in bytes, of the active PHY list. The
+     <b>uActivePhyListSize</b> member must be a multiple of
      <code>sizeof(ULONG)</code>.
-     
 
-<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
+
+<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if
      <b>uStatus</b> is not set to zero.</div>
 
 ### -field uBeaconOffset
 
 The offset, in bytes, of the last transmitted 802.11 Beacon frame.
-     
+
 
 The Beacon frame includes the Beacon frame header and all information elements (IEs), but it does not
      include the 802.11 MAC header. The Beacon frame format is defined in ISO/IEC 8802-11.
@@ -233,13 +233,13 @@ The Beacon frame should be the latest frame used by the driver, except that real
      IEs that vary with data frame flow control, or client association status such as timestamp, radio
      parameters, TIM, ERP, and HT IEs, do not need to be accurate,
 
-<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
+<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if
      <b>uStatus</b> is not set to zero.</div>
 
 ### -field uBeaconSize
 
 The length, in bytes, of the last transmitted 802.11 Beacon frame.
-     
+
 
 The Beacon frame includes the Beacon frame header and all information elements (IEs), but it does not
      include the 802.11 MAC header. The Beacon frame format is defined in ISO/IEC 8802-11.
@@ -248,7 +248,7 @@ The Beacon frame should be the latest frame used by the driver, except that real
      IEs that vary with data frame flow control, or client association status such as timestamp, radio
      parameters, TIM, ERP, and HT IEs, do not need to be accurate,
 
-<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if 
+<div class="alert"><b>Note</b>  The miniport driver must set this member to zero if
      <b>uStatus</b> is not set to zero.</div>
 
 
@@ -257,11 +257,11 @@ The Beacon frame should be the latest frame used by the driver, except that real
 
 
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure when
-    the driver makes an 
+    the driver makes an
     <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff547647">
     NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a> status indication.
 
-The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end of an 
+The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end of an
     <i>association indication block</i>. If the association is successful, the NIC must make the
     NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION indication after it successfully sends the corresponding
     association response frame to the station that originally requested the association. If the association

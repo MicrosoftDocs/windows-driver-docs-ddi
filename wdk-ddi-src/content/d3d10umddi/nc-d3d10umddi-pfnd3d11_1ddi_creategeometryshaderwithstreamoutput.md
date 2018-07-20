@@ -4,7 +4,7 @@ title: PFND3D11_1DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT
 author: windows-driver-content
 description: Creates a geometry shader with stream output.
 old-location: display\creategeometryshaderwithstreamoutput_d3d11_1_.htm
-old-project: display
+tech.root: display
 ms.assetid: 1d06ef38-4eb9-4129-b409-74bbd1951f92
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

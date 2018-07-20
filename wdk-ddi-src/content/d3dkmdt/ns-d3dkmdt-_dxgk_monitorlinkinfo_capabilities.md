@@ -4,7 +4,7 @@ title: "_DXGK_MONITORLINKINFO_CAPABILITIES"
 author: windows-driver-content
 description: Flags which describe the capabilities for driving the monitor.
 old-location: display\dxgk_monitorlinkinfo_capabilities.htm
-old-project: display
+tech.root: display
 ms.assetid: 9838DF74-6561-40DB-A745-A15005B97AAC
 ms.author: windowsdriverdev
 ms.date: 4/16/2018
