@@ -92,28 +92,34 @@ NetAdapterCx calls *EVT_NET_ADAPTER_SET_CAPABILITIES* once per device start.
 
 In this function, the client typically sets the adapter's link and MAC capabilities, power capabilities and MTU size. To do so, it uses the following methods:
 
-- [NetAdapterSetLinkLayerMtuSize](nf-netadapter-netadaptersetlinklayermtusize.md) 
-- [NetAdapterSetLinkLayerCapabilities](nf-netadapter-netadaptersetlinklayercapabilities.md)
-- [NetAdapterSetPowerCapabilities](nf-netadapter-netadaptersetpowercapabilities.md)
+- [**NetAdapterSetLinkLayerMtuSize**](nf-netadapter-netadaptersetlinklayermtusize.md) 
+- [**NetAdapterSetLinkLayerCapabilities**](nf-netadapter-netadaptersetlinklayercapabilities.md)
+- [**NetAdapterSetPowerCapabilities**](nf-netadapter-netadaptersetpowercapabilities.md)
 
 Optionally, the client can also call:
 
-- [NetAdapterSetCurrentLinkState](nf-netadapter-netadaptersetcurrentlinkstate.md)
-- [NetAdapterSetDataPathCapabilities](nf-netadapter-netadaptersetdatapathcapabilities.md)
-- [NetAdapterSetReceiveScalingCapabilities](../netreceivescaling/nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md)
+- [**NetAdapterSetCurrentLinkState**](nf-netadapter-netadaptersetcurrentlinkstate.md)
+- [**NetAdapterSetDataPathCapabilities**](nf-netadapter-netadaptersetdatapathcapabilities.md)
+- [**NetAdapterSetReceiveScalingCapabilities**](../netreceivescaling/nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md)
+- [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md)
+- [**NetAdapterOffloadSetLsoCapabilities**](nf-netadapter-netadapteroffloadsetlsocapabilities.md)
 
-To set an attribute that does not have equivalent NetAdapter functionality, for example to report offload capabilities, call [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md) from *EvtNetAdapterSetCapabilities*. Use [NetAdapterWdmGetNdisHandle](nf-netadapter-netadapterwdmgetndishandle.md) to get the NDIS handle.
-
-
-
-### Example
-
-
+To set an attribute that does not have equivalent NetAdapter functionality, call [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md) from *EvtNetAdapterSetCapabilities*. Use [NetAdapterWdmGetNdisHandle](nf-netadapter-netadapterwdmgetndishandle.md) to get the NDIS handle.
 
 ## -see-also
 
-[NetAdapterSetDataPathCapabilities](nf-netadapter-netadaptersetdatapathcapabilities.md)
+[**NetAdapterSetDataPathCapabilities**](nf-netadapter-netadaptersetdatapathcapabilities.md)
 
-[NetAdapterSetLinkLayerCapabilities](nf-netadapter-netadaptersetlinklayercapabilities.md)
+[**NetAdapterSetLinkLayerCapabilities**](nf-netadapter-netadaptersetlinklayercapabilities.md)
 
-[NetAdapterSetPowerCapabilities](nf-netadapter-netadaptersetpowercapabilities.md)
+[**NetAdapterSetPowerCapabilities**](nf-netadapter-netadaptersetpowercapabilities.md)
+
+[**NetAdapterSetCurrentLinkState**](nf-netadapter-netadaptersetcurrentlinkstate.md)
+
+[**NetAdapterSetDataPathCapabilities**](nf-netadapter-netadaptersetdatapathcapabilities.md)
+
+[**NetAdapterSetReceiveScalingCapabilities**](../netreceivescaling/nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md)
+
+[**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md)
+
+[**NetAdapterOffloadSetLsoCapabilities**](nf-netadapter-netadapteroffloadsetlsocapabilities.md)

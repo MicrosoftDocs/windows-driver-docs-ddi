@@ -2,23 +2,23 @@
 UID: NC:netadapter.EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
 title: EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
 author: windows-driver-content
-description: 
+description: The EvtNetAdapterOffloadSetChecksum callback function is implemented by the client driver to set changes in checksum offload capabilities when notified by the TCP/IP stack or an overlying protocol driver.
 ms.assetid: 054d73bb-6832-41f6-b654-89d29bbc1892
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/19/2018
 ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header:
-req.target-type:
+req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
-req.kmdf-ver:
+req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -42,11 +42,16 @@ targetos: Windows
 
 ## -description
 
-Implemented by the client driver to ... 
+> [!WARNING]
+> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
+>
+> NetAdapterCx is preview only in Windows 10, version 1809.
+
+The *EvtNetAdapterOffloadSetChecksum* callback function is implemented by the client driver to set changes in active checksum offload capabilities when notified by the TCP/IP stack or an overlying protocol driver.
 
 ## -prototype
 
-```
+```C++
 //Declaration
 
 EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM EvtNetAdapterOffloadSetChecksum; 
@@ -64,18 +69,51 @@ VOID EvtNetAdapterOffloadSetChecksum
 
 ## -parameters
 
-### -param Adapter: 
-### -param ActiveCapabilities: 
+### -param Adapter
 
+A handle to a NETADAPTER object the client driver previously created with a call to [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).
 
+### -param ActiveCapabilities
+
+A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure that describes the hardware's updated active checksum offload capabilities.
 
 ## -returns
 
-Returns VOID that ...
+This callback function does not return a value.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md) from within your [*EVT_NET_ADAPTER_SET_CAPABILITIES*](nc-netadapter-evt_net_adapter_set_capabilities.md) callback.
 
+### Example
+
+In this callback, client drivers update the active hardware checksum offload capabilities as provided in *ActiveCapabilities*.
+
+```C++
+VOID
+MyEvtAdapterOffloadSetChecksum(
+	NETADAPTER NetAdapter,
+	PNET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES ActiveCapabilities
+)
+{
+	PMY_NET_ADAPTER_CONTEXT adapterContext = MyGetNetAdapterContext(NetAdapter);
+
+	// Store the updated information in the context
+	adapterContext->HardwareIpChecksum = ActiveCapabilities->IPv4;
+	adapterContext->HardwareTcpChecksum = ActiveCapabilities->Tcp;
+	adapterContext->HardwareUdpChecksum = ActiveCapabilities->Udp;
+
+	// Update the new hardware checksum offload capabilities
+	MyUpdateHardwareChecksum(adapterContext);
+}
+```
 
 ## -see-also
+
+[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+
+[**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md)
+
+[**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md)
+
+[*EVT_NET_ADAPTER_SET_CAPABILITIES*](nc-netadapter-evt_net_adapter_set_capabilities.md)
