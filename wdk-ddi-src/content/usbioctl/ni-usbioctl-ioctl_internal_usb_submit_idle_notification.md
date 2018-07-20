@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION I/O request is used by drivers to inform the USB bus driver that a device is idle and can be suspended.
 old-location: buses\ioctl_internal_usb_submit_idle_notification.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: e7ce1448-223f-4aea-b5e7-70a3b2f58e77
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION, IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION control, IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION control code [Buses], buses.ioctl_internal_usb_submit_idle_notification, usbioctl/IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION, usbirp_4a27792b-b726-4741-9d59-5e2b70a3b1c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

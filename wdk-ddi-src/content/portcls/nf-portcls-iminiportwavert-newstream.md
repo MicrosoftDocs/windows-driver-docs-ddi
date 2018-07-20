@@ -4,10 +4,10 @@ title: IMiniportWaveRT::NewStream
 author: windows-driver-content
 description: The NewStream method creates a new instance of a WaveRT stream object.
 old-location: audio\iminiportwavert_newstream.htm
-old-project: audio
+tech.root: audio
 ms.assetid: efd2eea8-2b05-49a2-b136-a3e1e3e739c5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IMiniportWaveRT interface [Audio Devices],NewStream method, IMiniportWaveRT.NewStream, IMiniportWaveRT::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportWaveRT interface, audio.iminiportwavert_newstream, audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, portcls/IMiniportWaveRT::NewStream
 ms.prod: windows-hardware
 ms.technology: windows-devices

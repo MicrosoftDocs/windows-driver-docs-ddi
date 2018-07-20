@@ -4,7 +4,7 @@ title: GdiStartPageEMF function
 author: windows-driver-content
 description: The GdiStartPageEMF function performs initialization operations for a physical page of an EMF-formatted print job.
 old-location: print\gdistartpageemf.htm
-old-project: print
+tech.root: print
 ms.assetid: 963c809f-da89-4f27-ba8b-3de8cdcec179
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

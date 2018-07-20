@@ -4,7 +4,7 @@ title: IOCTL_AACS_SEND_CHALLENGE_KEY
 author: windows-driver-content
 description: Sends the host's challenge key to the logical unit. The host's challenge key consists of a point on an elliptic curve and its associated signature.
 old-location: storage\ioctl_aacs_send_challenge_key.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 762776f1-5423-4d02-8b59-de1e9ada8044
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

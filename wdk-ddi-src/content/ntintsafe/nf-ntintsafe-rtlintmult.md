@@ -4,7 +4,7 @@ title: RtlIntMult function
 author: windows-driver-content
 description: Multiplies one value of type INT by another.
 old-location: kernel\rtlintmult.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5417D6B1-0523-4C01-9C07-571D096E10F3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

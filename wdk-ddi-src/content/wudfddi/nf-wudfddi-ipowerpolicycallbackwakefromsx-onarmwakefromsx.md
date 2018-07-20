@@ -4,7 +4,7 @@ title: IPowerPolicyCallbackWakeFromSx::OnArmWakeFromSx
 author: windows-driver-content
 description: A driver's OnArmWakeFromSx event callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state.
 old-location: wdf\ipowerpolicycallbackwakefromsx_onarmwakefromsx.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 98350b75-aa25-4b3f-ad6c-3038111b8a48
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

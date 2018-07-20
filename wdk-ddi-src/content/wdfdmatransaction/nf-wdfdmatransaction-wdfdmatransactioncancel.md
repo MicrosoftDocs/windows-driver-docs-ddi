@@ -4,7 +4,7 @@ title: WdfDmaTransactionCancel function
 author: windows-driver-content
 description: The WdfDmaTransactionCancel method attempts to cancel a DMA transaction that is waiting for the allocation of map registers.
 old-location: wdf\wdfdmatransactioncancel.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: A0EB188E-D5C7-4C7B-A462-2C3792825FD8
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

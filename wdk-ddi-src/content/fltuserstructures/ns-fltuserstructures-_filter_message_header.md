@@ -4,7 +4,7 @@ title: "_FILTER_MESSAGE_HEADER"
 author: windows-driver-content
 description: The FILTER_MESSAGE_HEADER structure contains message header information.
 old-location: ifsk\filter_message_header.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 294e5475-3aca-4758-87ed-07892a910b4f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

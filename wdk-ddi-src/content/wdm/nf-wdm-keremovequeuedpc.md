@@ -4,7 +4,7 @@ title: KeRemoveQueueDpc function
 author: windows-driver-content
 description: The KeRemoveQueueDpc routine removes the specified DPC object from the system DPC queue.
 old-location: kernel\keremovequeuedpc.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9f4b076f-006b-47cd-b970-8beed8d7e804
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

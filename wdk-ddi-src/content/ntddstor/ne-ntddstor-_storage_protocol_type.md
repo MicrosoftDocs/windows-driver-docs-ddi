@@ -4,7 +4,7 @@ title: "_STORAGE_PROTOCOL_TYPE"
 author: windows-driver-content
 description: This enumeration is used to define the different storage command protocols that are used between software and hardware.
 old-location: storage\storage_protocol_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3CC4DF0A-26F1-4825-AD89-D56B0D5F4AC6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IOCTL_AVCSTRM_CLASS
 author: windows-driver-content
 description: An AV/C subunit driver uses the IRP_MJ_INTERNAL_DEVICE_CONTROL IRP, with the IoControlCode member set to IOCTL_AVCSTRM_CLASS, to communicate with avcstrm.sys.
 old-location: stream\ioctl_avcstrm_class.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 50a5cbe1-acae-461f-892b-c1a3b5b218b3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

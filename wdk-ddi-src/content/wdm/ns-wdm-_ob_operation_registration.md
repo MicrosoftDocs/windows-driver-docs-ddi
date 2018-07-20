@@ -4,7 +4,7 @@ title: "_OB_OPERATION_REGISTRATION"
 author: windows-driver-content
 description: The OB_OPERATION_REGISTRATION structure specifies ObjectPreCallback and ObjectPostCallback callback routines and the types of operations that the routines are called for.
 old-location: kernel\ob_operation_registration.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 06da3ec0-b8d3-4bd8-8270-ead38b7deada
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

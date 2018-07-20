@@ -4,7 +4,7 @@ title: "_SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS"
 author: windows-driver-content
 description: The SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS enumeration defines constants that indicate whether process is being made toward completing a custom-receive transaction.
 old-location: serports\sercx2_custom_receive_transaction_progress.htm
-old-project: serports
+tech.root: serports
 ms.assetid: B832554C-FB37-416F-9586-EFAB5A3633E5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_AVC_SUBUNIT_ADDR_SPEC"
 author: windows-driver-content
 description: The AVC_SUBUNIT_ADDR_SPEC structure is used with virtual instances of avc.sys to describe virtual subunit addresses.
 old-location: stream\avc_subunit_addr_spec.htm
-old-project: stream
+tech.root: stream
 ms.assetid: fa9fedc5-cacc-409a-99f5-7103b5424b3c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

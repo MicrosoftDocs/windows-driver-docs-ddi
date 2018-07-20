@@ -4,7 +4,7 @@ title: RtlInitializeGenericTable function
 author: windows-driver-content
 description: The RtlInitializeGenericTable routine initializes a generic table.
 old-location: ifsk\rtlinitializegenerictable.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 99a91bb4-4fcd-4b49-bd1e-4551027b5d1f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

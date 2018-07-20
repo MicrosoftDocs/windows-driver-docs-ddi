@@ -4,7 +4,7 @@ title: HidP_GetSpecificValueCaps function
 author: windows-driver-content
 description: The HidP_GetSpecificValueCaps routine returns a value capability array that describes all HID control values that meet a specified selection criteria.
 old-location: hid\hidp_getspecificvaluecaps.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 0860733c-d28c-4916-a743-d5f6256cfca0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

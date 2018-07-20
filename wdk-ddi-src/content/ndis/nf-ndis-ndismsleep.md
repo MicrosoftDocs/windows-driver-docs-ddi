@@ -4,10 +4,10 @@ title: NdisMSleep function
 author: windows-driver-content
 description: The NdisMSleep function delays execution of the caller for a given interval in microseconds.
 old-location: netvista\ndismsleep.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5b6c3fc5-4220-4a4b-9412-8bfc8141ea90
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMSleep, NdisMSleep function [Network Drivers Starting with Windows Vista], ndis/NdisMSleep, ndis_delay_ref_81af917a-626a-493f-97ed-c4ce48999b12.xml, netvista.ndismsleep
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IFileCallbackCleanup::OnCleanupFile
 author: windows-driver-content
 description: The OnCleanupFile method cancels all I/O requests that a driver has pending in the framework queue.
 old-location: wdf\ifilecallbackcleanup_oncleanupfile.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e6dd18f4-725f-4611-ad70-029654cf4375
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

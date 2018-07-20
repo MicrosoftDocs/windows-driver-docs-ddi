@@ -4,7 +4,7 @@ title: FltEnumerateInstanceInformationByFilter function
 author: windows-driver-content
 description: The FltEnumerateInstanceInformationByFilter routine provides information about instances of a given minifilter driver.
 old-location: ifsk\fltenumerateinstanceinformationbyfilter.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c5590897-45cf-4712-b980-b99aaacfba88
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

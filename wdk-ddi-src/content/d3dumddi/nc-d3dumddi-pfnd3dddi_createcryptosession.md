@@ -4,10 +4,10 @@ title: PFND3DDDI_CREATECRYPTOSESSION
 author: windows-driver-content
 description: The CreateCryptoSession function creates a crypto session that the Direct3D runtime uses to manage a session key and to perform crypto operations into and out of protected memory.
 old-location: display\createcryptosession.htm
-old-project: display
+tech.root: display
 ms.assetid: 85d4ae6c-059d-4256-bdda-18de3d20537a
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CreateCryptoSession, CreateCryptoSession callback function [Display Devices], PFND3DDDI_CREATECRYPTOSESSION, PFND3DDDI_CREATECRYPTOSESSION callback, UserModeDisplayDriver_Functions_057e3836-924b-4f64-84fb-53464e71d716.xml, d3dumddi/CreateCryptoSession, display.createcryptosession
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,10 +4,10 @@ title: VideoPortReadRegisterUshort function
 author: windows-driver-content
 description: The VideoPortReadRegisterUshort function reads a USHORT value from a mapped register range.
 old-location: display\videoportreadregisterushort.htm
-old-project: display
+tech.root: display
 ms.assetid: fdf5d153-74ca-437e-82ab-b85c89dc9fd1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortReadRegisterUshort, VideoPortReadRegisterUshort function [Display Devices], VideoPort_Functions_c6ee8be3-3b15-4f22-8008-63d132ec7379.xml, display.videoportreadregisterushort, video/VideoPortReadRegisterUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices

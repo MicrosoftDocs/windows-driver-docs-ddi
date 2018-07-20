@@ -4,7 +4,7 @@ title: "_SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE"
 author: windows-driver-content
 description: The SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure contains a vendor specific microcode (i.e., firmware) image for use by the enclosure services process.
 old-location: storage\ses_download_microcode_control_diagnostic_page.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 09c2746f-cfe4-41dc-82ce-0b7e0c348897
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: DrvDocumentEvent function
 author: windows-driver-content
 description: A printer interface DLL's DrvDocumentEvent function can handle certain events associated with printing a document.
 old-location: print\drvdocumentevent.htm
-old-project: print
+tech.root: print
 ms.assetid: 09229774-14db-448b-bd49-2d39a848c9a6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

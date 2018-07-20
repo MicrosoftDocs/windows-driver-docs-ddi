@@ -4,7 +4,7 @@ title: IWDFNamedPropertyStore2::DeleteNamedValue
 author: windows-driver-content
 description: The DeleteNamedValue method deletes a value name from the registry.
 old-location: wdf\iwdfnamedpropertystore2_deletenamedvalue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ce0953d3-054f-446b-9f69-58f4580740f3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

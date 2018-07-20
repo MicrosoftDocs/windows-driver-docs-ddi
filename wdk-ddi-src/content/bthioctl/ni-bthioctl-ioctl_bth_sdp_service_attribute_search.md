@@ -4,7 +4,7 @@ title: IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
 author: windows-driver-content
 description: The IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH request combines an SDP service and attribute search into a single operation. This allows a caller to directly obtain SDP records from a remote device.
 old-location: bltooth\ioctl_bth_sdp_service_attribute_search.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: f0955e88-df80-4f53-bc5f-5a38a840aab4
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: KSVPSURFACEPARAMS
 author: windows-driver-content
 description: The KSVPSURFACEPARAMS structure is used to describe the surface parameters of a video port surface.
 old-location: stream\ksvpsurfaceparams.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 8a1ce43d-ba2c-489c-b37f-d98b9cf1d6b0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

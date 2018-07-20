@@ -4,7 +4,7 @@ title: tagKS_MPEGVIDEOINFO2
 author: windows-driver-content
 description: The KS_MPEGVIDEOINFO2 structure describes an MPEG-2 video stream, including bob or weave settings.
 old-location: stream\ks_mpegvideoinfo2.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 735bff90-7406-4fe8-87d5-de3aa48fbcd0
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

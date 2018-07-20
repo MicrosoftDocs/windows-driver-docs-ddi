@@ -4,7 +4,7 @@ title: WcsEnumColorProfilesSize function
 author: windows-driver-content
 description: The WcsEnumColorProfilesSize function returns the size, in bytes, of the buffer required by the WcsEnumColorProfiles function to enumerate color profiles.
 old-location: print\wcsenumcolorprofilessize.htm
-old-project: print
+tech.root: print
 ms.assetid: bcd9c781-aa44-4e90-9290-c9f13b192cae
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

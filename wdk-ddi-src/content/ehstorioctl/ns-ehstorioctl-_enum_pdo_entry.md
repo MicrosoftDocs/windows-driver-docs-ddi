@@ -4,7 +4,7 @@ title: "_ENUM_PDO_ENTRY"
 author: windows-driver-content
 description: This structure describes a single entry in a result set of Physical Device Objects (PDOs) that are enumerated with IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS.
 old-location: storage\enum_pdo_entry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c3f5cc8e-a600-4ca1-8745-d74943feb2c7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: IDebugSymbols3::GetTypeIdWide
 author: windows-driver-content
 description: The GetTypeIdWide method looks up the specified type and return its type ID.
 old-location: debugger\gettypeidwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 4b0f4de6-b800-4bc0-ae1d-97d877e3b91e
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetTypeIdWide, GetTypeIdWide method [Windows Debugging], GetTypeIdWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetTypeIdWide method, IDebugSymbols3.GetTypeIdWide, IDebugSymbols3::GetTypeIdWide, dbgeng/IDebugSymbols3::GetTypeIdWide, debugger.gettypeidwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

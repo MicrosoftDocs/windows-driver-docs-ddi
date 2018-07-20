@@ -4,7 +4,7 @@ title: IOCTL_SCSI_GET_CAPABILITIES
 author: windows-driver-content
 description: Returns the capabilities and limitations of the underlying SCSI HBA.
 old-location: storage\ioctl_scsi_get_capabilities.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1917e0f0-47a3-4f95-97d6-c60d3f511a91
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_SM_RemoveTarget_IN"
 author: windows-driver-content
 description: The SM_RemoveTarget_IN structure is used to provide input parameters to the SM_RemoveTarget WMI method.
 old-location: storage\sm_removetarget_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a32e2442-a6a8-4c1a-ab70-40fdb525bafb
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

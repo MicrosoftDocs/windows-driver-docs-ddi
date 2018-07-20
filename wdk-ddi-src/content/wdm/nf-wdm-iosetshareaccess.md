@@ -4,7 +4,7 @@ title: IoSetShareAccess function
 author: windows-driver-content
 description: The IoSetShareAccess routine sets the access rights for sharing the given file object.
 old-location: kernel\iosetshareaccess.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a686ea04-8a6b-4c4b-be06-73a75c4fc87d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

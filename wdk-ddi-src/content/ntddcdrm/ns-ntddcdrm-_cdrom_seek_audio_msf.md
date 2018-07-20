@@ -4,7 +4,7 @@ title: "_CDROM_SEEK_AUDIO_MSF"
 author: windows-driver-content
 description: The CDROM_SEEK_AUDIO_MSF structure contains the minute, second, and frame that the device must seek to upon receipt of a device control IRP with a control code of IOCTL_CDROM_SEEK_AUDIO_MSF.
 old-location: storage\cdrom_seek_audio_msf.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8fd4e642-5ed4-409e-bcc2-94d309a1e04c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

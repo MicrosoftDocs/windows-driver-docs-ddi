@@ -4,7 +4,7 @@ title: "_CHANGER_READ_ELEMENT_STATUS"
 author: windows-driver-content
 description: The CHANGER_READ_ELEMENT_STATUS structure is used in conjunction with the IOCTL_CHANGER_GET_ELEMENT_STATUS request to retrieve the status of all elements or the status of a specified number of elements of a particular type.
 old-location: storage\changer_read_element_status.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3e80790c-72b9-4e26-a767-a25e6425118e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

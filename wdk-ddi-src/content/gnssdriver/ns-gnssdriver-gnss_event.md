@@ -4,7 +4,7 @@ title: GNSS_EVENT
 author: windows-driver-content
 description: This structure defines the information required for a GNSS event.
 old-location: gnss\gnss_event.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: FECF2444-CFF7-4B4D-AC3A-D3DD9B045AFD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: IPrintCoreHelper::SetFontSubstitution
 author: windows-driver-content
 description: The IPrintCoreHelper::SetFontSubstitution method specifies the device font to print in place of a given TrueType font.
 old-location: print\iprintcorehelper_setfontsubstitution.htm
-old-project: print
+tech.root: print
 ms.assetid: 2d0278b0-0011-4946-a095-5fef77a8b194
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

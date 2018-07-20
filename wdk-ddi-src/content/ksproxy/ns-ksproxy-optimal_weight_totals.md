@@ -4,7 +4,7 @@ title: OPTIMAL_WEIGHT_TOTALS
 author: windows-driver-content
 description: "."
 old-location: stream\optimal_weight_totals.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 56D97D0F-1934-4834-99A7-8A745A3E6757
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

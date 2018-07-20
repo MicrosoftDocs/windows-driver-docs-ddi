@@ -4,7 +4,7 @@ title: "_FSCTL_OFFLOAD_WRITE_OUTPUT"
 author: windows-driver-content
 description: The FSCTL_OFFLOAD_WRITE_OUTPUT structure contains the output for the FSCTL_OFFLOAD_WRITE control code request.
 old-location: ifsk\fsctl_offload_write_output.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7293940B-A316-43C5-A5E8-6ED70EC6FDF8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: ScsiPortWmiSetInstanceName function
 author: windows-driver-content
 description: The ScsiPortWmiSetInstanceName routine updates the WNODE_ALL_DATA structure within the request context to specify the position and length of an instance name.
 old-location: storage\scsiportwmisetinstancename.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f624959f-e232-4918-8f0b-f232471c2c67
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

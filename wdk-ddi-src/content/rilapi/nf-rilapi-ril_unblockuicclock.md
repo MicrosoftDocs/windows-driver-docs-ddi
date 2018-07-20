@@ -4,10 +4,10 @@ title: RIL_UnblockUiccLock function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_unblockuicclock.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: a8cddfa1-b15e-4832-8c9c-12d378bc682d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_UnblockUiccLock, RIL_UnblockUiccLock method [Network Drivers Starting with Windows Vista], netvista.ril_unblockuicclock, rilapi/RIL_UnblockUiccLock
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IPrinterScriptContext::get_QueueProperties
 author: windows-driver-content
 description: Provides access to the queue property bag, if the property bag is present.
 old-location: print\iprinterscriptcontext_queueproperties.htm
-old-project: print
+tech.root: print
 ms.assetid: EEC61313-5796-42BC-84BF-CF29F8BE0C96
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

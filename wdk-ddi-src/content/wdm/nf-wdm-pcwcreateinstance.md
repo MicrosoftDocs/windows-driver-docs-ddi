@@ -4,7 +4,7 @@ title: PcwCreateInstance function
 author: windows-driver-content
 description: The PcwCreateInstance function creates a new instance for the specified registered counter set.
 old-location: devtest\pcwcreateinstance.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: ed9bd8fa-a6e6-465a-8415-3e9c19233419
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

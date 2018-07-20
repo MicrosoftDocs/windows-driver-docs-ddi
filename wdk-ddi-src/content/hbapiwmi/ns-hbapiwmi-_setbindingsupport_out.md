@@ -4,7 +4,7 @@ title: "_SetBindingSupport_OUT"
 author: windows-driver-content
 description: The SetBindingSupport_OUT structure is used to report the output parameter data of the SetBindingSupport WMI method to the WMI client.
 old-location: storage\setbindingsupport_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f2b37780-0b33-4af9-9634-571b49be5791
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

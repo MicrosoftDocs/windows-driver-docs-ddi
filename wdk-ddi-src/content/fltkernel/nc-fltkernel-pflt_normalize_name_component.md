@@ -4,7 +4,7 @@ title: PFLT_NORMALIZE_NAME_COMPONENT
 author: windows-driver-content
 description: A minifilter driver that provides file names for the filter manager's name cache can register a routine of type PFLT_NORMALIZE_NAME_COMPONENT as the minifilter driver's NormalizeNameComponentCallback routine.
 old-location: ifsk\pflt_normalize_name_component.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7050e872-3976-4842-9d16-50caf415acbc
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

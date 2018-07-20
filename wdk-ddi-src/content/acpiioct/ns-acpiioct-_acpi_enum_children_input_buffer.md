@@ -4,7 +4,7 @@ title: "_ACPI_ENUM_CHILDREN_INPUT_BUFFER"
 author: windows-driver-content
 description: The ACPI_ENUM_CHILDREN_INPUT_BUFFER structure is used as input to an IOCTL_ACPI_ENUM_CHILDREN request. The structure specifies which child objects to enumerate in the namespace of the device to which the request is sent.
 old-location: acpi\acpi_enum_children_input_buffer.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: fba604bc-2fab-448c-bbc7-8ea30ff6de6b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

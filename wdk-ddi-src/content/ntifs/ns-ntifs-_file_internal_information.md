@@ -4,7 +4,7 @@ title: "_FILE_INTERNAL_INFORMATION"
 author: windows-driver-content
 description: The FILE_INTERNAL_INFORMATION structure is used to query for the file system's 8-byte file reference number for a file.
 old-location: ifsk\file_internal_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b82bc943-d9f0-451f-a8ac-f89936e866eb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,10 +4,10 @@ title: "_NDIS_SWITCH_PORT_PVLAN_MODE"
 author: windows-driver-content
 description: The NDIS_SWITCH_PORT_PVLAN_MODE enumeration specifies the operation mode of a private virtual local area network (PVLAN) policy property. This property is specified for a port on the Hyper-V extensible switch.
 old-location: netvista\ndis_switch_port_pvlan_mode.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8B07B225-D612-47D2-B93C-7F9E3A23ACE1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortPvlanModeCommunity, NdisSwitchPortPvlanModeIsolated, NdisSwitchPortPvlanModePromiscuous, NdisSwitchPortPvlanModeUndefined, PNDIS_SWITCH_PORT_PVLAN_MODE, PNDIS_SWITCH_PORT_PVLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PVLAN_MODE, netvista.ndis_switch_port_pvlan_mode, ntddndis/NDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeCommunity, ntddndis/NdisSwitchPortPvlanModeIsolated, ntddndis/NdisSwitchPortPvlanModePromiscuous, ntddndis/NdisSwitchPortPvlanModeUndefined, ntddndis/PNDIS_SWITCH_PORT_PVLAN_MODE"
 ms.prod: windows-hardware
 ms.technology: windows-devices

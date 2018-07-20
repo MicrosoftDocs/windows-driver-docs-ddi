@@ -4,7 +4,7 @@ title: "_NETWORK_OPEN_ECP_CONTEXT"
 author: windows-driver-content
 description: The NETWORK_OPEN_ECP_CONTEXT structure is used to interpret network ECP contexts on files.
 old-location: ifsk\network_open_ecp_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 583fe92d-ce81-47b4-bd75-5566a5379790
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_PEP_REGISTER_DEBUGGER"
 author: windows-driver-content
 description: The PEP_REGISTER_DEBUGGER structure identifies a registered device that is a core system resource that provides debugger transport.
 old-location: kernel\pep_register_debugger.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3B0240AB-4599-4F21-8CBB-14A4A60D3EFD
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

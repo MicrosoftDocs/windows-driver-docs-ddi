@@ -4,7 +4,7 @@ title: WcsTranslateColors function
 author: windows-driver-content
 description: The WcsTranslateColors function translates an array of colors from the source color space to the destination color space as defined by a color transform.
 old-location: print\wcstranslatecolors.htm
-old-project: print
+tech.root: print
 ms.assetid: 99843150-9e27-4f09-a3ba-5ff87d3f1c88
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

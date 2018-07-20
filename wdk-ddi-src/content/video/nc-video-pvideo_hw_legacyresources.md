@@ -4,10 +4,10 @@ title: PVIDEO_HW_LEGACYRESOURCES
 author: windows-driver-content
 description: HwVidLegacyResources returns a list of resources that are not listed in a device's PCI configuration space but that are decoded by the device.
 old-location: display\hwvidlegacyresources.htm
-old-project: display
+tech.root: display
 ms.assetid: 015086e9-70b4-4756-9945-c9da17829e90
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: HwVidLegacyResources, HwVidLegacyResources callback function [Display Devices], PVIDEO_HW_LEGACYRESOURCES, PVIDEO_HW_LEGACYRESOURCES callback, VideoMiniport_Functions_a629bf4d-8f16-4d71-ab88-c691160a5df7.xml, display.hwvidlegacyresources, video/HwVidLegacyResources
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IPrintCoreHelper::EnumOptions
 author: windows-driver-content
 description: The IPrintCoreHelper::EnumOptions method gets a list of available options for the given feature.
 old-location: print\iprintcorehelper_enumoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: 2e46e8cd-b5e5-4116-b42c-b7adcee9d520
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

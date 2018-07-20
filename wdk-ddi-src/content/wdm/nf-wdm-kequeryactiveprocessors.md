@@ -4,7 +4,7 @@ title: KeQueryActiveProcessors function
 author: windows-driver-content
 description: The KeQueryActiveProcessors routine returns a bitmask of the currently active processors.
 old-location: kernel\kequeryactiveprocessors.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3a7e50e9-0aeb-46e8-a1d2-7267df4921ad
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_PEP_DEVICE_STARTED"
 author: windows-driver-content
 description: The PEP_DEVICE_STARTED structure identifies a device whose driver has completed its registration with the Windows power management framework (PoFx).
 old-location: kernel\pep_device_started.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 02A30A9F-A27D-492E-8FB3-D8CB34D51D5A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

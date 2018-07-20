@@ -4,7 +4,7 @@ title: IKsControl
 author: windows-driver-content
 description: The IKsControl interface is a COM-style interface implemented on AVStream filters and pins.
 old-location: stream\ikscontrol8.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 33eb0244-e0f3-4db7-b6df-2668e826fbd8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_KSSTREAM_POINTER_OFFSET"
 author: windows-driver-content
 description: The KSSTREAM_POINTER_OFFSET structure indexes bytes or mappings within a frame.
 old-location: stream\ksstream_pointer_offset.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ccbe77ee-2377-45d9-b8bf-714680c1920a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

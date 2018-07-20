@@ -4,7 +4,7 @@ title: IKsInterfaceHandler::KsSetPin
 author: windows-driver-content
 description: The KsSetPin method informs the streaming interface handler about the pin with which to communicate when passing data.
 old-location: stream\iksinterfacehandler_kssetpin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 71e4be0a-a5a6-469a-948b-bc5277bc8cbe
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

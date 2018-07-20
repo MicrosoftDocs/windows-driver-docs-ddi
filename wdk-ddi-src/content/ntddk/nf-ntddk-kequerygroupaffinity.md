@@ -4,7 +4,7 @@ title: KeQueryGroupAffinity function
 author: windows-driver-content
 description: The KeQueryGroupAffinity routine returns an affinity mask that identifies the active logical processors in a specified group in a multiprocessor system.
 old-location: kernel\kequerygroupaffinity.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 235ec93e-5b3c-4a19-876f-f668271a56a5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

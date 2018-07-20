@@ -4,7 +4,7 @@ title: StorPortGetScatterGatherList function
 author: windows-driver-content
 description: The StorPortGetScatterGatherList routine retrieves the associated scatter/gather list for the specified SCSI request block (SRB).
 old-location: storage\storportgetscattergatherlist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ddb7052d-b9f3-40f6-b00a-6bf52f010cdc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

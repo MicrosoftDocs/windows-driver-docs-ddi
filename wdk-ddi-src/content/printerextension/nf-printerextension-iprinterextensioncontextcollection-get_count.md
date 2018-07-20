@@ -4,7 +4,7 @@ title: IPrinterExtensionContextCollection::get_Count
 author: windows-driver-content
 description: Gets a count of the number of IPrinterExtensionContext objects in the collection.
 old-location: print\iprinterextensioncontextcollection_count.htm
-old-project: print
+tech.root: print
 ms.assetid: F2279727-168D-451B-8EDB-8A4A36ACA08F
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

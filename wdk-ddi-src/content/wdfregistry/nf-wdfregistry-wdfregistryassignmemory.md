@@ -4,7 +4,7 @@ title: WdfRegistryAssignMemory function
 author: windows-driver-content
 description: The WdfRegistryAssignMemory method assigns data that is contained in a specified memory buffer to a specified value name in the registry.
 old-location: wdf\wdfregistryassignmemory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 692a9cdf-3cb7-41c1-96a8-28daed13aa60
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

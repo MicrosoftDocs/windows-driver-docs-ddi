@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_MORPHING"
 author: windows-driver-content
 description: The FEATURE_DATA_MORPHING structure contains information about the morphing feature.
 old-location: storage\feature_data_morphing.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b3eaabdf-0163-4679-9b22-d8ec53abed59
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

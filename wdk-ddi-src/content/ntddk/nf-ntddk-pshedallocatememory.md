@@ -4,7 +4,7 @@ title: PshedAllocateMemory function
 author: windows-driver-content
 description: The PshedAllocateMemory function allocates a block of memory from the nonpaged pool.
 old-location: whea\pshedallocatememory.htm
-old-project: whea
+tech.root: whea
 ms.assetid: e489601e-b016-4681-97a0-78f42004909f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

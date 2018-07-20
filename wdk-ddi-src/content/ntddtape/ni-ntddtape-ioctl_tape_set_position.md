@@ -4,7 +4,7 @@ title: IOCTL_TAPE_SET_POSITION
 author: windows-driver-content
 description: Moves the current position on the tape to the specified partition and offset, according to the given method.
 old-location: storage\ioctl_tape_set_position.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 93918e09-2742-47ca-94a5-043af2a3a338
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

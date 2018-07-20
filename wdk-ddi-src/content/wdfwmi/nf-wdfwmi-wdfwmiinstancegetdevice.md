@@ -4,7 +4,7 @@ title: WdfWmiInstanceGetDevice function
 author: windows-driver-content
 description: The WdfWmiInstanceGetDevice method returns a handle to the framework device object that is associated with a specified WMI instance object.
 old-location: wdf\wdfwmiinstancegetdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4ebc90e0-328b-4830-9942-027d3f19d186
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

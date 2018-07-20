@@ -4,7 +4,7 @@ title: IOCTL_CDROM_STOP_AUDIO
 author: windows-driver-content
 description: Ends audio play. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_stop_audio.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9d250950-7ecf-4433-9aaf-7696abb5b66c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

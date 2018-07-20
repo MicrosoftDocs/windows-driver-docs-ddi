@@ -4,7 +4,7 @@ title: "_KDPC_WATCHDOG_INFORMATION"
 author: windows-driver-content
 description: The KDPC_WATCHDOG_INFORMATION structure holds time-out information about the current deferred procedure call (DPC).
 old-location: kernel\dpc_watchdog_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8b0d3fd8-0952-4cfa-81e1-255145fd27dd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

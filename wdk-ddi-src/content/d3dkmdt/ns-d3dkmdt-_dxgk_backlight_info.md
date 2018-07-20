@@ -4,10 +4,10 @@ title: "_DXGK_BACKLIGHT_INFO"
 author: windows-driver-content
 description: Contains the current level of backlight reduction that is applied to the integrated display panel. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive brightness control.
 old-location: display\dxgk_backlight_info.htm
-old-project: display
+tech.root: display
 ms.assetid: 9008e5e6-e03c-4d34-99bd-3e6624327fcc
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_BACKLIGHT_INFO, DXGK_BACKLIGHT_INFO structure [Display Devices], _DXGK_BACKLIGHT_INFO, d3dkmdt/DXGK_BACKLIGHT_INFO, display.dxgk_backlight_info
 ms.prod: windows-hardware
 ms.technology: windows-devices

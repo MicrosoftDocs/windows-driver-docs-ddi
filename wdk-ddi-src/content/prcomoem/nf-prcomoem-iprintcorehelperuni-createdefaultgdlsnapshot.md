@@ -4,7 +4,7 @@ title: IPrintCoreHelperUni::CreateDefaultGDLSnapshot
 author: windows-driver-content
 description: The IPrintCoreHelperUni::CreateDefaultGDLSnapshot method gets a GDL snapshot based on the driver default configuration.
 old-location: print\iprintcorehelperuni_createdefaultgdlsnapshot.htm
-old-project: print
+tech.root: print
 ms.assetid: 987c3721-d8a8-4aac-8f42-6eac9b5ccdc5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_CDROM_TOC"
 author: windows-driver-content
 description: Device control IRPs with a control code of IOCTL_CDROM_READ_TOC_EX and a format of CDROM_READ_TOC_EX_FORMAT_TOC return their output data in this structure followed by a series of TRACK_DATA structures.
 old-location: storage\cdrom_toc.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 84312199-5055-41a1-9aa2-4ee91a15d5bf
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

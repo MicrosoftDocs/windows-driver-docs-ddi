@@ -4,7 +4,7 @@ title: WmiSystemControl function
 author: windows-driver-content
 description: The WmiSystemControl routine is a dispatch routine for drivers that use WMI library support routines to handle WMI IRPs.
 old-location: kernel\wmisystemcontrol.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6226e75e-b744-46cd-b14b-e93ece1c2f61
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

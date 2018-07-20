@@ -4,7 +4,7 @@ title: IPrintOemUni::TextOutAsBitmap
 author: windows-driver-content
 description: The IPrintOemUni::TextOutAsBitmap method allows a rendering plug-in to create a bitmap image of a text string, in case a downloadable font is not available.
 old-location: print\iprintoemuni_textoutasbitmap.htm
-old-project: print
+tech.root: print
 ms.assetid: 2c144eb7-6279-490a-813c-6c0ae995c6ad
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

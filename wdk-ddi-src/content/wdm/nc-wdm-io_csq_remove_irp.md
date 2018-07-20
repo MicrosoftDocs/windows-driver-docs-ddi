@@ -4,7 +4,7 @@ title: IO_CSQ_REMOVE_IRP
 author: windows-driver-content
 description: The CsqRemoveIrp routine is used by the system to remove the specified IRP from a driver-implemented, cancel-safe IRP queue.
 old-location: kernel\csqremoveirp.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9d99a20b-3a95-4e27-96bd-41f38a631573
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

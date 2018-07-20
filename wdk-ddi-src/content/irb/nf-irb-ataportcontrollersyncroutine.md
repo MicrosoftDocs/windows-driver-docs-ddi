@@ -4,7 +4,7 @@ title: AtaPortControllerSyncRoutine function
 author: windows-driver-content
 description: The AtaPortControllerSyncRoutine routine provides synchronized access to data structures that are shared across all channels on a controller.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportcontrollersyncroutine.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6b39e89e-21cc-404f-b9fc-6cad0b5c8d22
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

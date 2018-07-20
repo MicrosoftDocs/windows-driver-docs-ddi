@@ -4,7 +4,7 @@ title: IKsClockPropertySet::KsSetPhysicalTime
 author: windows-driver-content
 description: The KsSetPhysicalTime method sets the physical time on the underlying clock.
 old-location: stream\iksclockpropertyset_kssetphysicaltime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2f8eb011-1fe1-40f6-b833-50d3e853bffd
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

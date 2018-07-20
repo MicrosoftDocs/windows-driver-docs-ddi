@@ -4,7 +4,7 @@ title: KeQueryInterruptTimePrecise function
 author: windows-driver-content
 description: The KeQueryInterruptTimePrecise routine returns the current value of the system interrupt time count, with accuracy to within a microsecond.
 old-location: kernel\kequeryinterrupttimeprecise.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: CCA03E61-6FEF-42BC-9407-A02432C50542
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

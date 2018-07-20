@@ -4,10 +4,10 @@ title: IDebugControl2
 author: windows-driver-content
 description: IDebugControl2 interface
 old-location: debugger\idebugcontrol2.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: c8371bbc-cbd1-4ff4-a055-99cc6cd6f8c6
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugControl2, IDebugControl2 interface [Windows Debugging], IDebugControl2 interface [Windows Debugging],described, dbgeng/IDebugControl2, debugger.idebugcontrol2
 ms.prod: windows-hardware
 ms.technology: windows-devices

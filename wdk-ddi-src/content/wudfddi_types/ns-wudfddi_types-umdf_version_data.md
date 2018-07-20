@@ -4,7 +4,7 @@ title: UMDF_VERSION_DATA
 author: windows-driver-content
 description: The UMDF_VERSION_DATA structure describes a version of the framework.
 old-location: wdf\umdf_version_data.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b83a786d-0b17-4129-bdd4-86942ad9d3ec
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: "_PDO_CAPS"
 author: windows-driver-content
 description: This enumeration describes the capabilities of Physical Device Objects (PDOs).
 old-location: storage\pdo_caps.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 78b6f3c7-bb42-4e93-8128-28b6f8e11dda
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

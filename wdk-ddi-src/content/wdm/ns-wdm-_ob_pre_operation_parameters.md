@@ -4,7 +4,7 @@ title: "_OB_PRE_OPERATION_PARAMETERS"
 author: windows-driver-content
 description: The OB_PRE_OPERATION_PARAMETERS union describes the operation-specific parameters for an ObjectPreCallback routine.
 old-location: kernel\ob_pre_operation_parameters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 211bd3b1-34ca-414d-9167-0587c90cb56a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

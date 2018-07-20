@@ -4,7 +4,7 @@ title: PCREATE_THREAD_NOTIFY_ROUTINE
 author: windows-driver-content
 description: A callback routine implemented by a driver to notify the caller when a thread is created or deleted.
 old-location: kernel\pcreate_thread_notify_routine.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: AAA62659-D12C-4EEC-8D74-6138B34128CE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

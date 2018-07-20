@@ -4,7 +4,7 @@ title: TAPE_EXTENSION_INIT_ROUTINE
 author: windows-driver-content
 description: ExtensionInit initializes an optional, driver-specific context area. This routine is called by TapeClassInitialize when the tape miniclass driver is loaded. This routine is optional.
 old-location: storage\tapeminiextensioninit.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4837b9c2-a3c1-4574-8f5b-4bf7c7d037a0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

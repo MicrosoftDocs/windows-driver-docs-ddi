@@ -4,7 +4,7 @@ title: IPrintOemUni2::GetImplementedMethod
 author: windows-driver-content
 description: The IPrintOemUni2::GetImplementedMethod method is used by Unidrv to determine which IPrintOemUni2 interface methods a rendering plug-in has implemented.
 old-location: print\iprintoemuni2_getimplementedmethod.htm
-old-project: print
+tech.root: print
 ms.assetid: a26f7094-8530-4525-b94a-c94dc9ba9629
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

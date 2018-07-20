@@ -4,7 +4,7 @@ title: IOCTL_HID_SET_OUTPUT_REPORT
 author: windows-driver-content
 description: The IOCTL_HID_SET_OUTPUT_REPORT request sends an output report to a top-level collection.
 old-location: hid\ioctl_hid_set_output_report.htm
-old-project: hid
+tech.root: hid
 ms.assetid: f5c0f3a7-5d90-4a95-9ba0-01aea98d8c79
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

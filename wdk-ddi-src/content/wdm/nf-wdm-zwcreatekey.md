@@ -4,7 +4,7 @@ title: ZwCreateKey function
 author: windows-driver-content
 description: The ZwCreateKey routine creates a new registry key or opens an existing one.
 old-location: kernel\zwcreatekey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 333f54e8-738e-4d1f-8fd7-93f282d9b9d8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

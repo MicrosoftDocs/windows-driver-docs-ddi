@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT
 author: windows-driver-content
 description: A driver's EvtDeviceSelfManagedIoInit event callback function initializes and starts the device's self-managed I/O operations.
 old-location: wdf\evtdeviceselfmanagedioinit.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9dbc66db-ea94-4e6a-9618-00999a9dd641
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

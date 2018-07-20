@@ -4,7 +4,7 @@ title: OEMEndDoc function
 author: windows-driver-content
 description: The OEMEndDoc function is called by the GDI when it has finished sending a document to the driver for rendering.
 old-location: print\oemenddoc.htm
-old-project: print
+tech.root: print
 ms.assetid: 268a22ba-1dce-4326-bdf4-4d7e7e83257c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

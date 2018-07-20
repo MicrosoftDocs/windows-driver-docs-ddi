@@ -4,10 +4,10 @@ title: "_D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT"
 author: windows-driver-content
 description: The D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT structure is used to indicate the angles of rotation that are supported by a particular VidPN present path.
 old-location: display\d3dkmdt_vidpn_present_path_rotation_support.htm
-old-project: display
+tech.root: display
 ms.assetid: f60cd2cf-23b6-4fed-8548-d0483fb17fe1
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT structure [Display Devices], DmStructs_a078867c-e6a4-4bbf-afb6-244b210a5671.xml, _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT, display.d3dkmdt_vidpn_present_path_rotation_support
 ms.prod: windows-hardware
 ms.technology: windows-devices

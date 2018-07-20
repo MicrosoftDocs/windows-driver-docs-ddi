@@ -4,7 +4,7 @@ title: ObDereferenceObjectDeferDelete function
 author: windows-driver-content
 description: The ObDereferenceObjectDeferDelete routine decrements the reference count for the given object, checks for object retention, and avoids deadlocks.
 old-location: kernel\obdereferenceobjectdeferdelete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6b20db9e-807d-40f5-844f-f9726e3a854f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

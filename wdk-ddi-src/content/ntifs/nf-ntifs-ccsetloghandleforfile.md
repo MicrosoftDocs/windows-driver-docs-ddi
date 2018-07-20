@@ -4,7 +4,7 @@ title: CcSetLogHandleForFile function
 author: windows-driver-content
 description: The CcSetLogHandleForFile routine sets a log handle for a file.
 old-location: ifsk\ccsetloghandleforfile.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7bb56650-a75e-4b49-bfb3-83848ede29c0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

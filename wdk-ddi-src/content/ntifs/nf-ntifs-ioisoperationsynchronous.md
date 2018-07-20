@@ -4,7 +4,7 @@ title: IoIsOperationSynchronous function
 author: windows-driver-content
 description: The IoIsOperationSynchronous routine determines whether a given IRP represents a synchronous or asynchronous I/O request.
 old-location: ifsk\ioisoperationsynchronous.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b233dfab-6a99-4f2f-930e-cafd01dc4bb5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

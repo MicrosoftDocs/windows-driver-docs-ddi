@@ -4,7 +4,7 @@ title: IWDTFTargets2::get__NewEnum
 author: windows-driver-content
 description: Gets a new iteration variable that the For Each loop structure implicitly uses.
 old-location: dtf\iwdtftargets2__newenum.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 05fcf329-ad69-4066-b3d1-dab38d09d075
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

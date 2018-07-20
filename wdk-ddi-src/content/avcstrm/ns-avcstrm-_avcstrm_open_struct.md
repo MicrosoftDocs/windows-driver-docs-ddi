@@ -4,7 +4,7 @@ title: "_AVCSTRM_OPEN_STRUCT"
 author: windows-driver-content
 description: The AVCSTRM_OPEN_STRUCT structure describes a data stream to be opened.
 old-location: stream\avcstrm_open_struct.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c16a2f3c-a5be-4132-920a-b81f67c5ea02
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

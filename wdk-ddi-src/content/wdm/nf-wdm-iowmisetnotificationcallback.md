@@ -4,7 +4,7 @@ title: IoWMISetNotificationCallback function
 author: windows-driver-content
 description: The IoWMISetNotificationCallback routine registers a notification callback for a WMI event.
 old-location: kernel\iowmisetnotificationcallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c1bd12e0-0862-4e51-a9e8-71eb7b2549fd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

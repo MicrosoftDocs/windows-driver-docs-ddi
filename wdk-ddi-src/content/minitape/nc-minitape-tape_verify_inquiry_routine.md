@@ -4,7 +4,7 @@ title: TAPE_VERIFY_INQUIRY_ROUTINE
 author: windows-driver-content
 description: TAPE_VERIFY_INQUIRY_ROUTINE determines whether the tape miniclass driver recognizes and supports a given device. This routine is required.
 old-location: storage\tapeminiverifyinquiry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ed216b13-546a-4d0c-82db-79c175912556
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

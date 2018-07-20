@@ -4,7 +4,7 @@ title: WdfRequestRetrieveActivityId function
 author: windows-driver-content
 description: The WdfRequestRetrieveActivityId method retrieves the current activity identifier associated with an I/O request.
 old-location: wdf\wdfrequestretrieveactivityid.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 6E38514E-75BD-4F98-AD12-FA4E31654C3E
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

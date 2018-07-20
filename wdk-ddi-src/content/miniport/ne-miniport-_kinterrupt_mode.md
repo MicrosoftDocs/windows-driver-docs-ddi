@@ -4,7 +4,7 @@ title: "_KINTERRUPT_MODE"
 author: windows-driver-content
 description: The KINTERRUPT_MODE enumeration type indicates whether an interrupt is level-triggered or edge-triggered.
 old-location: kernel\kinterrupt_mode.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2f00fe3f-d73d-4f0f-a1dd-ae72fa57e55d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

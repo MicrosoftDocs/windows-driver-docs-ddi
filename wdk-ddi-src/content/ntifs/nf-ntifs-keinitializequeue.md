@@ -4,7 +4,7 @@ title: KeInitializeQueue function
 author: windows-driver-content
 description: The KeInitializeQueue routine initializes a queue object on which threads can wait for entries.
 old-location: ifsk\keinitializequeue.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8dd47333-679a-482b-bd45-1e73505b3fea
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

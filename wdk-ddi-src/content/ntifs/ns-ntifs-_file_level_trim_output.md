@@ -4,7 +4,7 @@ title: "_FILE_LEVEL_TRIM_OUTPUT"
 author: windows-driver-content
 description: The FILE_LEVEL_TRIM_OUTPUT structure contains the results of a trim operation performed by an FSCTL_FILE_LEVEL_TRIM request.
 old-location: ifsk\file_level_trim_output.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 28CCE967-E752-4E0E-94D9-3A4243266684
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

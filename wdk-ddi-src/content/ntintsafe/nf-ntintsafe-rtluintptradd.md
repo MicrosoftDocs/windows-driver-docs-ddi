@@ -4,7 +4,7 @@ title: RtlUIntPtrAdd function
 author: windows-driver-content
 description: Adds two values of type UINT_PTR.
 old-location: kernel\rtluintptradd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9106CE96-A26F-4358-9668-2C0E331BB793
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

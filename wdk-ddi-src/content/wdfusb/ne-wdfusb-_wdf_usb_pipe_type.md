@@ -4,7 +4,7 @@ title: "_WDF_USB_PIPE_TYPE"
 author: windows-driver-content
 description: The WDF_USB_PIPE_TYPE enumeration identifies the types of USB pipes.
 old-location: wdf\wdf_usb_pipe_type.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ae230ff0-4fd9-417b-8ee0-80e3ca5a30ff
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

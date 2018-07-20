@@ -4,7 +4,7 @@ title: "_HID_COLLECTION_INFORMATION"
 author: windows-driver-content
 description: The HID_COLLECTION_INFORMATION structure contains general information about a top-level collection.
 old-location: hid\hid_collection_information.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 47490858-3fe0-4a94-adae-6589cad6a842
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

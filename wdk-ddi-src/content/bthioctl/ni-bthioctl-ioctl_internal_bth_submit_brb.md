@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_BTH_SUBMIT_BRB
 author: windows-driver-content
 description: Profile drivers use IOCTL_INTERNAL_BTH_SUBMIT_BRB to submit a Bluetooth Request Block (BRB) to the Bluetooth driver stack.
 old-location: bltooth\ioctl_internal_bth_submit_brb.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 60e4ee90-81d4-47a1-aed4-ee39b9fe3174
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

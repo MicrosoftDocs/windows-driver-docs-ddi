@@ -4,7 +4,7 @@ title: ALLOCATE_FUNCTION_EX
 author: windows-driver-content
 description: The LookasideListAllocateEx routine allocates the storage for a new lookaside-list entry when a client requests an entry from a lookaside list that is empty.
 old-location: kernel\lookasidelistallocateex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4c9df63e-b0cb-4a49-9a01-9fc8f8c592f6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

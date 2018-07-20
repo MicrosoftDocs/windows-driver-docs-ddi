@@ -4,7 +4,7 @@ title: StorPortBuildScatterGatherList function
 author: windows-driver-content
 description: The StorPortBuildScatterGatherList routine creates a scatter/gather list for the specified data buffer.
 old-location: storage\storportbuildscattergatherlist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cdea67aa-14fa-45c1-8af0-8db48042b1b2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_WHEA_ERROR_STATUS"
 author: windows-driver-content
 description: The WHEA_ERROR_STATUS union describes generic error codes that are abstracted from the data contained in implementation-specific error registers.
 old-location: whea\whea_error_status.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 5b11112b-e900-4894-a9ce-6895a4fa1956
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

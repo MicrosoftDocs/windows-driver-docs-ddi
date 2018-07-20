@@ -4,7 +4,7 @@ title: CmCallbackGetKeyObjectID function
 author: windows-driver-content
 description: The CmCallbackGetKeyObjectID routine retrieves the unique identifier and object name that are associated with a specified registry key object.
 old-location: kernel\cmcallbackgetkeyobjectid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e8db3009-7941-4fcc-a888-22c887bf59d5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

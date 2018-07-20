@@ -4,7 +4,7 @@ title: IPrintSchemaPageMediaSizeOption
 author: windows-driver-content
 description: Exposes a Print Schema PageMediaSize Option element.
 old-location: print\iprintschemapagemediasizeoption_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 631F5ECF-EA1E-4483-99F8-67C9A8C42EDF
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

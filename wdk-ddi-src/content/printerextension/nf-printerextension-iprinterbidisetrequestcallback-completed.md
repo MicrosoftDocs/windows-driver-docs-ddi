@@ -4,7 +4,7 @@ title: IPrinterBidiSetRequestCallback::Completed
 author: windows-driver-content
 description: Invoked when the Bidi “Set”” operation is completed.
 old-location: print\iprinterbidisetrequestcallback_completed.htm
-old-project: print
+tech.root: print
 ms.assetid: F086903F-2FCA-4B9F-948B-0F40F114E11D
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

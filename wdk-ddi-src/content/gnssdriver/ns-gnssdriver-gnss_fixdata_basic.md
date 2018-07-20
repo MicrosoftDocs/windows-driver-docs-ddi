@@ -4,7 +4,7 @@ title: GNSS_FIXDATA_BASIC
 author: windows-driver-content
 description: This structure defines basic position information.
 old-location: gnss\gnss_fixdata_basic.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: D293366B-13FA-438E-BEBD-1F0EAA693400
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

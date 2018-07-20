@@ -4,7 +4,7 @@ title: KsFreeEventList function
 author: windows-driver-content
 description: The KsFreeEventList function handles freeing all events from a specified list, with the assumption that these events are composed of KSEVENT_ENTRY structures. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksfreeeventlist.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3ccbbf07-7d8d-423a-b50d-d202e1cb7ab2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

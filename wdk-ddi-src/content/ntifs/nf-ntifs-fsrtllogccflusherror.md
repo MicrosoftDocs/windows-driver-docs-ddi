@@ -4,7 +4,7 @@ title: FsRtlLogCcFlushError function
 author: windows-driver-content
 description: The FsRtlLogCcFlushError routine logs a lost delayed-write error and displays a dialog box to the user.
 old-location: ifsk\fsrtllogccflusherror.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e516758d-d1fe-4977-93bb-f427972fdd3c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

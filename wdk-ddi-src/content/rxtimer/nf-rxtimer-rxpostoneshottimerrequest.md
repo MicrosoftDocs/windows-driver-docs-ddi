@@ -4,7 +4,7 @@ title: RxPostOneShotTimerRequest function
 author: windows-driver-content
 description: RxPostOneShotTimerRequest initializes a one-shot timer entry. The passed-in pointer to a worker thread routine is called once when the timer expires.
 old-location: ifsk\rxpostoneshottimerrequest.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d3ae6401-6d1b-428f-ae74-e262682bcb10
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

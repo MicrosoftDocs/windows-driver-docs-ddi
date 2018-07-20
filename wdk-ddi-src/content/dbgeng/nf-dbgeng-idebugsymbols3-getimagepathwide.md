@@ -4,10 +4,10 @@ title: IDebugSymbols3::GetImagePathWide
 author: windows-driver-content
 description: The GetImagePathWide method returns the executable image path.
 old-location: debugger\getimagepathwide.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 884a5577-3ae8-4444-bf09-3fe4f72dc7d9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetImagePathWide, GetImagePathWide method [Windows Debugging], GetImagePathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetImagePathWide method, IDebugSymbols3.GetImagePathWide, IDebugSymbols3::GetImagePathWide, dbgeng/IDebugSymbols3::GetImagePathWide, debugger.getimagepathwide
 ms.prod: windows-hardware
 ms.technology: windows-devices

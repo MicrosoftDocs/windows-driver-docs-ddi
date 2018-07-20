@@ -4,7 +4,7 @@ title: IoInitializeDriverCreateContext function
 author: windows-driver-content
 description: The IoInitializeDriverCreateContext routine initializes a caller-allocated variable of type IO_DRIVER_CREATE_CONTEXT.
 old-location: ifsk\ioinitializedrivercreatecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1d35ed3e-d14f-43ad-9c11-38aa37e76492
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

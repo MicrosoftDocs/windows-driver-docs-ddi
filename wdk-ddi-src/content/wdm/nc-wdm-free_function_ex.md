@@ -4,7 +4,7 @@ title: FREE_FUNCTION_EX
 author: windows-driver-content
 description: The LookasideListFreeEx routine frees the storage for a lookaside-list entry when a client tries to insert the entry into a lookaside list that is full.
 old-location: kernel\lookasidelistfreeex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2cc2fc91-eb14-4f15-a8ad-c35b4667406f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

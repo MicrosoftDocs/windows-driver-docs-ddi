@@ -4,10 +4,10 @@ title: D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030
 author: windows-driver-content
 description: Opens a protected resource session.
 old-location: display\d3d12ddiarg-open-protected-resource-session-0030.htm
-old-project: display
+tech.root: display
 ms.assetid: d5f0a089-c6cb-444d-a959-ee8a5a024ea7
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030, D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030 structure [Display Devices], d3d12umddi/D3D12DDIARG_OPEN_PROTECTED_RESOURCE_SESSION_0030, display.d3d12ddiarg-open-protected-resource-session-0030
 ms.prod: windows-hardware
 ms.technology: windows-devices

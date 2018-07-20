@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceRetrieveConfigDescriptor function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceRetrieveConfigDescriptor method retrieves the USB configuration descriptor for the USB device that is associated with a specified framework USB device object.
 old-location: wdf\wdfusbtargetdeviceretrieveconfigdescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4d22384d-757a-499d-a82c-ae846a6372cc
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

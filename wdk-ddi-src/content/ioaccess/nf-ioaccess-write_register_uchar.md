@@ -4,7 +4,7 @@ title: WRITE_REGISTER_UCHAR macro
 author: windows-driver-content
 description: The WRITE_REGISTER_UCHAR routine writes a byte to the specified address.
 old-location: kernel\write_register_uchar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2d97d31f-d8c6-45d6-9aee-69397a523bbd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: HBA_GetPersistentBindingV2 function
 author: windows-driver-content
 description: The HBA_GetPersistentBindingV2 routine retrieves persistent bindings, including extended bindings, for logical units that the HBA enumerates on the indicated port.
 old-location: storage\hba_getpersistentbindingv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 549edba4-8622-4117-b013-bcaf1787e8b4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

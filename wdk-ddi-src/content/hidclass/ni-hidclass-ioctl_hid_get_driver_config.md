@@ -4,7 +4,7 @@ title: IOCTL_HID_GET_DRIVER_CONFIG
 author: windows-driver-content
 description: The IOCTL_HID_GET_DRIVER_CONFIG request retrieves the driver configuration.
 old-location: hid\ioctl_hid_get_driver_config.htm
-old-project: hid
+tech.root: hid
 ms.assetid: F648EF1E-2673-499D-81BF-03B7B2148FA2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

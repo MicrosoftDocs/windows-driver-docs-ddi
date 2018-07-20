@@ -4,7 +4,7 @@ title: "_IO_PRIORITY_HINT"
 author: windows-driver-content
 description: The IO_PRIORITY_HINT enumeration type specifies the priority hint for an IRP.
 old-location: kernel\io_priority_hint.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 38d19398-b34f-4934-b643-df119ebd9711
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

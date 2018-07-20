@@ -4,10 +4,10 @@ title: RIL_GetDevCaps function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getdevcaps.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: eb239b03-7e46-4091-adff-86ed95a06704
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_GetDevCaps, RIL_GetDevCaps method [Network Drivers Starting with Windows Vista], netvista.ril_getdevcaps, rilapi/RIL_GetDevCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

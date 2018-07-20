@@ -4,7 +4,7 @@ title: FltDeleteStreamContext function
 author: windows-driver-content
 description: FltDeleteStreamContext removes a context that a given minifilter driver instance has set for a given stream and marks the context for deletion.
 old-location: ifsk\fltdeletestreamcontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 49f7d633-3e8b-4c9c-b14a-7ae8f997ad2f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

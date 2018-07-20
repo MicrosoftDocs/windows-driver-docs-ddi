@@ -4,7 +4,7 @@ title: MmBuildMdlForNonPagedPool function
 author: windows-driver-content
 description: The MmBuildMdlForNonPagedPool routine receives an MDL that specifies a nonpaged virtual memory buffer, and updates it to describe the underlying physical pages.
 old-location: kernel\mmbuildmdlfornonpagedpool.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f83a9a57-be44-4aa0-bb2e-740f48d82e06
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

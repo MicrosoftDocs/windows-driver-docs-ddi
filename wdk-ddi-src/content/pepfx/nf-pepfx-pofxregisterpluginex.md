@@ -4,7 +4,7 @@ title: PoFxRegisterPluginEx function
 author: windows-driver-content
 description: The PoFxRegisterPluginEx routine registers a platform extension plug-in (PEP) with the Windows power management framework (PoFx).
 old-location: kernel\pofxregisterpluginex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 68753690-A6DC-46BE-9981-F395B98C3245
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

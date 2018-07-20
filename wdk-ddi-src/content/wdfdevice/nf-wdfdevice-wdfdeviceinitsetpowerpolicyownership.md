@@ -4,7 +4,7 @@ title: WdfDeviceInitSetPowerPolicyOwnership function
 author: windows-driver-content
 description: The WdfDeviceInitSetPowerPolicyOwnership method establishes whether the calling driver is, or is not, the power policy owner for a specified device.
 old-location: wdf\wdfdeviceinitsetpowerpolicyownership.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 4db198f5-9472-476d-bb0c-4858a3f98672
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

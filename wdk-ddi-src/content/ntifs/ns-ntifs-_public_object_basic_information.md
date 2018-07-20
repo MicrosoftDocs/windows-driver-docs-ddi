@@ -4,7 +4,7 @@ title: "_PUBLIC_OBJECT_BASIC_INFORMATION"
 author: windows-driver-content
 description: The PUBLIC_OBJECT_BASIC_INFORMATION structure holds a subset of the full information that is available for an object.
 old-location: ifsk\public_object_basic_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2190f88e-6905-4e58-9523-2b6d4864c776
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

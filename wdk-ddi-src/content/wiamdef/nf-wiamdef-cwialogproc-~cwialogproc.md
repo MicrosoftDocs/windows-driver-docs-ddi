@@ -4,10 +4,10 @@ title: CWiaLogProc::~CWiaLogProc
 author: windows-driver-content
 description: The ~CWiaLogProc destructor is called when the function or method being logged is exited.
 old-location: image\cwialogproc__cwialogproc.htm
-old-project: image
+tech.root: image
 ms.assetid: 5DD3EC13-5DDD-4640-A841-00576F74429A
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: CWiaLogProc interface [Imaging Devices],~CWiaLogProc method, CWiaLogProc.~CWiaLogProc, CWiaLogProc::~CWiaLogProc, image.cwialogproc__cwialogproc, wiamdef/CWiaLogProc::~CWiaLogProc, ~CWiaLogProc, ~CWiaLogProc method [Imaging Devices], ~CWiaLogProc method [Imaging Devices],CWiaLogProc interface
 ms.prod: windows-hardware
 ms.technology: windows-devices

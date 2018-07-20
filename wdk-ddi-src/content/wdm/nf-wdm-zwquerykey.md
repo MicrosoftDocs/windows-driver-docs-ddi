@@ -4,7 +4,7 @@ title: ZwQueryKey function
 author: windows-driver-content
 description: The ZwQueryKey routine provides information about the class of a registry key, and the number and sizes of its subkeys.
 old-location: kernel\zwquerykey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3b2d3a8b-a21f-4067-a1f0-9aa66c1973f5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

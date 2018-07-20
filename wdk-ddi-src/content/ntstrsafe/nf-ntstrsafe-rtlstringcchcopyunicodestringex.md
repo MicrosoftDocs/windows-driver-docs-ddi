@@ -4,7 +4,7 @@ title: RtlStringCchCopyUnicodeStringEx function
 author: windows-driver-content
 description: The RtlStringCchCopyUnicodeStringEx function copies the contents of a UNICODE_STRING structure to a specified destination.
 old-location: kernel\rtlstringcchcopyunicodestringex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1118503c-868b-423c-b459-7db32bf5b82b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

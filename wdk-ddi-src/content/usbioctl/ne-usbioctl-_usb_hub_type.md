@@ -4,10 +4,10 @@ title: "_USB_HUB_TYPE"
 author: windows-driver-content
 description: The USB_HUB_TYPE enumeration defines constants that indicate the type of USB hub. The hub type is retrieved by the IOCTL_USB_GET_HUB_INFORMATION_EX I/O control request.
 old-location: buses\usb_hub_type.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: F7516B20-B30F-47BE-BBF3-AB5758D5CF73
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: USB_HUB_TYPE, USB_HUB_TYPE enumeration [Buses], Usb20Hub, Usb30Hub, UsbRootHub, _USB_HUB_TYPE, buses.usb_hub_type, usbioctl/USB_HUB_TYPE, usbioctl/Usb20Hub, usbioctl/Usb30Hub, usbioctl/UsbRootHub
 ms.prod: windows-hardware
 ms.technology: windows-devices

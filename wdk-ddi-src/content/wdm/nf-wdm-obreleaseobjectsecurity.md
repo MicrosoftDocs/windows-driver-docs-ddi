@@ -4,7 +4,7 @@ title: ObReleaseObjectSecurity function
 author: windows-driver-content
 description: The ObReleaseObjectSecurity routine is the reciprocal to ObGetObjectSecurity.
 old-location: kernel\obreleaseobjectsecurity.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d4f9d02a-2541-445a-95f1-e08ebb0c8a39
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: EVT_WDF_DEVICE_PREPARE_HARDWARE
 author: windows-driver-content
 description: A driver's EvtDevicePrepareHardware event callback function performs any operations that are needed to make a device accessible to the driver.
 old-location: wdf\evtdevicepreparehardware.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a3d4a983-8a75-44be-bd72-8673d89f9f87
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

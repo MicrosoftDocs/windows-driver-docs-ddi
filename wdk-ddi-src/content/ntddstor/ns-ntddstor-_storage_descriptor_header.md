@@ -4,7 +4,7 @@ title: "_STORAGE_DESCRIPTOR_HEADER"
 author: windows-driver-content
 description: The STORAGE_DESCRIPTOR_HEADER structure is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the properties of a storage device or adapter.
 old-location: storage\storage_descriptor_header.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 57d019b0-7914-42f6-a888-16042aa97444
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

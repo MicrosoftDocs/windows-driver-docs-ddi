@@ -4,7 +4,7 @@ title: NtSetInformationTransaction function
 author: windows-driver-content
 description: The ZwSetInformationTransaction routine sets information for a specified transaction.
 old-location: kernel\zwsetinformationtransaction.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 47e729d8-241e-47f0-a595-d95c5ac516a4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

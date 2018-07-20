@@ -4,7 +4,7 @@ title: RtlSSIZETSub function
 author: windows-driver-content
 description: Subtracts one value of type SSIZE_T from another.
 old-location: kernel\rtlssizetsub.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6EFDD7BF-B347-4E02-905E-01F0F155DB6F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

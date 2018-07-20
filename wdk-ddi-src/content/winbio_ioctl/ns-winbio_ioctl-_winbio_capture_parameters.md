@@ -4,7 +4,7 @@ title: "_WINBIO_CAPTURE_PARAMETERS"
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL uses the WINBIO_CAPTURE_PARAMETERS structure as input.
 old-location: biometric\winbio_capture_parameters.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 60f35000-c62d-4d1b-8592-862c2d74b7a2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

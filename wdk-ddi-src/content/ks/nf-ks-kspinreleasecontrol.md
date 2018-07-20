@@ -4,7 +4,7 @@ title: KsPinReleaseControl function
 author: windows-driver-content
 description: The KsPinReleaseControl function releases the control mutex for the AVStream pin specified by Pin.
 old-location: stream\kspinreleasecontrol.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ead50a69-fe33-4e6c-84f9-98491d188140
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

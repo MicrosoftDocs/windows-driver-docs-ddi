@@ -4,7 +4,7 @@ title: RtlDrainNonVolatileFlush function
 author: windows-driver-content
 description: The routine RtlDrainNonVolatileFlush waits for the flushes initiated by RtlFlushNonVolatileMemory to finish.
 old-location: ifsk\rtldrainnonvolatileflush.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: EA1C2DF3-591C-407A-ABBF-DE615466A498
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

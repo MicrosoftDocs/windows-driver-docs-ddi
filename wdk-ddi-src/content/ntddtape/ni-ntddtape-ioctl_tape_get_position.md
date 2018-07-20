@@ -4,7 +4,7 @@ title: IOCTL_TAPE_GET_POSITION
 author: windows-driver-content
 description: Returns the current absolute, logical, or pseudological partition and offset position on the tape.
 old-location: storage\ioctl_tape_get_position.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 358c3089-7238-4604-add8-575b611b3bc9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

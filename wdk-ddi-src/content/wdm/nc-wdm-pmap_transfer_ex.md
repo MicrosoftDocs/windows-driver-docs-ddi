@@ -4,7 +4,7 @@ title: PMAP_TRANSFER_EX
 author: windows-driver-content
 description: The MapTransferEx routine sets up map registers to map the physical addresses in a scatter/gather list to the logical addresses that are required to do a DMA transfer.
 old-location: kernel\maptransferex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9F6A20F0-94B1-4DA2-9FEA-F44D6AFDD16D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

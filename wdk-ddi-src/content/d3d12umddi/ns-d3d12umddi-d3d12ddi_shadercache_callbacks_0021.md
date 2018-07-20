@@ -4,10 +4,10 @@ title: D3D12DDI_SHADERCACHE_CALLBACKS_0021
 author: windows-driver-content
 description: Specifies shader cache callback functions.
 old-location: display\d3d12ddi_shadercache_callbacks_0021.htm
-old-project: display
+tech.root: display
 ms.assetid: EBA976B0-3B44-4482-B1B0-31A84150C056
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDI_SHADERCACHE_CALLBACKS_0021, D3D12DDI_SHADERCACHE_CALLBACKS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_SHADERCACHE_CALLBACKS_0021, display.d3d12ddi_shadercache_callbacks_0021
 ms.prod: windows-hardware
 ms.technology: windows-devices

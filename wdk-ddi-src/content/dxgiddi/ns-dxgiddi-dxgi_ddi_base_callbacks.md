@@ -4,7 +4,7 @@ title: DXGI_DDI_BASE_CALLBACKS
 author: windows-driver-content
 description: The DXGI_DDI_BASE_CALLBACKS structure contains pointers to Microsoft Direct3D 10 runtime callback functions that the user-mode display driver can use.
 old-location: display\dxgi_ddi_base_callbacks.htm
-old-project: display
+tech.root: display
 ms.assetid: dd1690e2-7eef-4086-a3e1-9ca456b79a6f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

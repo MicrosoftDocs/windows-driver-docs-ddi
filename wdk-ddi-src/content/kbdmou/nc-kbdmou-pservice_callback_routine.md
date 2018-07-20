@@ -4,7 +4,7 @@ title: PSERVICE_CALLBACK_ROUTINE
 author: windows-driver-content
 description: A function driver calls the class service callback in its ISR dispatch completion routine. The class service callback transfers input data from the input data buffer of a device to the class data queue.
 old-location: hid\kbdclass_class_service_callback_routine.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 78ae2a98-bebd-43ee-b016-2f619c3135ca
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

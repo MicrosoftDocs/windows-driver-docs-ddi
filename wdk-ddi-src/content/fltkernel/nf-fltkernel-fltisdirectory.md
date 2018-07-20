@@ -4,7 +4,7 @@ title: FltIsDirectory function
 author: windows-driver-content
 description: A minifilter driver calls the FltIsDirectory routine to determine whether a given file object represents a directory.
 old-location: ifsk\fltisdirectory.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a9343e09-0b7b-4ed8-9b30-63ee0b38d13d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

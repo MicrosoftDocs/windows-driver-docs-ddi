@@ -4,7 +4,7 @@ title: "_CMP_NOTIFY_INFO"
 author: windows-driver-content
 description: This structure is used by the PCMP_NOTIFY_ROUTINE callback.
 old-location: ieee\cmp_notify_info.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 7451B01F-D925-4882-9E6B-EEA79F54C55B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

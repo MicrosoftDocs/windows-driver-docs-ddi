@@ -4,7 +4,7 @@ title: "_CIP_NOTIFY_INFO"
 author: windows-driver-content
 description: The CIP_NOTIFY_INFO structure contains information about the frame.
 old-location: ieee\cip_notify_info.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 60b0d44b-0178-43ce-a1ad-7f5825bed3ba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

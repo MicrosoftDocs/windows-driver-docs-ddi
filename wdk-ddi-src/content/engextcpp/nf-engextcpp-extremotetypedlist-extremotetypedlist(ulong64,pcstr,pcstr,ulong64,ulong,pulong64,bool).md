@@ -3,12 +3,12 @@ UID: NF:engextcpp.ExtRemoteTypedList.ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULON
 title: ExtRemoteTypedList::ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)
 author: windows-driver-content
 description: The ExtRemoteTypedList constructors create a new instance that wraps a typed singly-linked or doubly-linked list.
-old-location: debugger\extremotetypedlist_extremotetypedlist_extremotedata.htm
-old-project: debugger
-ms.assetid: 1d3ff060-39ef-4475-b161-a29c20a0e2c2
+old-location: debugger\extremotetypedlist_extremotetypedlist_ulong64.htm
+tech.root: debugger
+ms.assetid: 32bf47a2-4c64-468a-a8e3-f3777a0f324d
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
-ms.keywords: ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging],ExtRemoteTypedList constructor, ExtRemoteTypedList constructor [Windows Debugging], ExtRemoteTypedList constructor [Windows Debugging],ExtRemoteTypedList class, ExtRemoteTypedList.ExtRemoteTypedList, ExtRemoteTypedList.ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool), ExtRemoteTypedList::ExtRemoteTypedList, ExtRemoteTypedList::ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool), debugger.extremotetypedlist_extremotetypedlist_extremotedata
+ms.date: 5/3/2018
+ms.keywords: ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging],ExtRemoteTypedList constructor, ExtRemoteTypedList constructor [Windows Debugging], ExtRemoteTypedList constructor [Windows Debugging],ExtRemoteTypedList class, ExtRemoteTypedList.ExtRemoteTypedList, ExtRemoteTypedList.ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool), ExtRemoteTypedList::ExtRemoteTypedList, ExtRemoteTypedList::ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool), debugger.extremotetypedlist_extremotetypedlist_ulong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -57,7 +57,7 @@ The <b>ExtRemoteTypedList</b> constructors create a new instance that wraps a ty
 
 
 
-### -param Head [in, ref]
+### -param Head [in]
 
 The location, in the target's memory, of the head of the list.  The head is not considered to be an item in the list.  The type of the head of the list is SINGLE_LIST_ENTRY or LIST_ENTRY.
 
@@ -85,10 +85,10 @@ The type ID of the type relative to the module specified by <i>TypeModBase</i>. 
 ### -param CacheCookie [in, out, optional]
 
 The cache cookie to use for caching the type information.  If <i>CacheCookie</i> is <b>NULL</b>, the debugger engine will search for the type information each time.
-	  
 
-For more information about <i>CacheCookie</i>, see the following methods:
-	   <ul>
+
+	  For more information about <i>CacheCookie</i>, see the following methods:
+	  <ul>
 <li>
 
 <a href="https://msdn.microsoft.com/e75c17d2-fdf7-4dba-9892-74c764956924">ExtRemoteTyped::Set(bool)</a>
@@ -147,7 +147,7 @@ Specifies whether the list is singly-linked or doubly-linked.  If <i>Double</i> 
 
 
 
-<a href="https://msdn.microsoft.com/32bf47a2-4c64-468a-a8e3-f3777a0f324d">ExtRemoteTypedList::ExtRemoteTypedList(ULONG64)</a>
+<a href="https://msdn.microsoft.com/1d3ff060-39ef-4475-b161-a29c20a0e2c2">ExtRemoteTypedList::ExtRemoteTypedList(ExtRemoteData)</a>
  
 
  

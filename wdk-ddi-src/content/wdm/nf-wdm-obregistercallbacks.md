@@ -4,7 +4,7 @@ title: ObRegisterCallbacks function
 author: windows-driver-content
 description: The ObRegisterCallbacks routine registers a list of callback routines for thread, process, and desktop handle operations.
 old-location: kernel\obregistercallbacks.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 93593979-fe5f-48de-9c98-92acd43ec750
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IoCreateStreamFileObjectLite function
 author: windows-driver-content
 description: The IoCreateStreamFileObjectLite routine creates a new stream file object, but does not cause an IRP_MJ_CLEANUP request to be sent to the file system driver stack.
 old-location: ifsk\iocreatestreamfileobjectlite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 79c6438c-ba8c-4fc5-8c3f-5865a51869b7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

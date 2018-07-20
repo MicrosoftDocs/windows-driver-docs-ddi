@@ -4,10 +4,10 @@ title: D3D12DDI_SWIZZLE_PATTERN_DESC_0022
 author: windows-driver-content
 description: Describes a swizzle pattern.
 old-location: display\d3d12ddi_swizzle_pattern_desc_0022.htm
-old-project: display
+tech.root: display
 ms.assetid: A52C8293-C037-4062-9A63-AD69237F7B3D
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D12DDI_SWIZZLE_PATTERN_DESC_0022, D3D12DDI_SWIZZLE_PATTERN_DESC_0022 structure [Display Devices], d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_DESC_0022, display.d3d12ddi_swizzle_pattern_desc_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices

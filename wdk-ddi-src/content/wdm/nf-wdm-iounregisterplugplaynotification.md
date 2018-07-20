@@ -4,7 +4,7 @@ title: IoUnregisterPlugPlayNotification function
 author: windows-driver-content
 description: This routine is obsolete in Windows 7 and later versions of Windows. For more information, see the following Remarks section.The IoUnregisterPlugPlayNotification routine removes the registration of a driver's callback routine for a PnP event.
 old-location: kernel\iounregisterplugplaynotification.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 55eca513-030c-47f8-9ce9-ab36183cbaf2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IKsPin::KsPeekAllocator
 author: windows-driver-content
 description: The KsPeekAllocator method returns a pointer to an IMemAllocator interface for a pin's assigned allocator.
 old-location: stream\ikspin_kspeekallocator.htm
-old-project: stream
+tech.root: stream
 ms.assetid: fd833d0b-2f81-4002-8280-38e17e528af6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

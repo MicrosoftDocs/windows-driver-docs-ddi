@@ -4,10 +4,10 @@ title: IDebugSymbols5::SetScopeFrameByIndexEx
 author: windows-driver-content
 description: Sets the current frame by using an index.
 old-location: debugger\idebugsymbols5_setscopeframebyindexex.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: E0638C55-4160-48A5-9378-6AA9AAC8DC36
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugSymbols5 interface [Windows Debugging],SetScopeFrameByIndexEx method, IDebugSymbols5.SetScopeFrameByIndexEx, IDebugSymbols5::SetScopeFrameByIndexEx, SetScopeFrameByIndexEx, SetScopeFrameByIndexEx method [Windows Debugging], SetScopeFrameByIndexEx method [Windows Debugging],IDebugSymbols5 interface, dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, debugger.idebugsymbols5_setscopeframebyindexex
 ms.prod: windows-hardware
 ms.technology: windows-devices

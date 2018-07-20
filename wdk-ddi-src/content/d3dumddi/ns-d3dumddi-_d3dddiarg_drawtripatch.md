@@ -4,10 +4,10 @@ title: "_D3DDDIARG_DRAWTRIPATCH"
 author: windows-driver-content
 description: The D3DDDIARG_DRAWTRIPATCH structure describes a triangular patch to draw.
 old-location: display\d3dddiarg_drawtripatch.htm
-old-project: display
+tech.root: display
 ms.assetid: 296ed752-ddb6-41db-957f-606acc53b3b5
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DDDIARG_DRAWTRIPATCH, D3DDDIARG_DRAWTRIPATCH structure [Display Devices], UMDisplayDriver_param_Structs_e4f18b26-f2ae-46e2-af49-6ae55f79b2be.xml, _D3DDDIARG_DRAWTRIPATCH, d3dumddi/D3DDDIARG_DRAWTRIPATCH, display.d3dddiarg_drawtripatch
 ms.prod: windows-hardware
 ms.technology: windows-devices

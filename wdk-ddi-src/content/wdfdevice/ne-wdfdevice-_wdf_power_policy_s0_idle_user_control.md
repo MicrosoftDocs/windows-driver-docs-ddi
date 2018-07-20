@@ -4,7 +4,7 @@ title: "_WDF_POWER_POLICY_S0_IDLE_USER_CONTROL"
 author: windows-driver-content
 description: The WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration identifies whether a user can control a device's behavior when the device is idle and the system is in its working (S0) state.
 old-location: wdf\wdf_power_policy_s0_idle_user_control.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ee51c436-2d1c-49d0-ab76-337317eeeeda
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

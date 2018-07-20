@@ -4,7 +4,7 @@ title: "_DsmSetLoadBalancePolicy_OUT"
 author: windows-driver-content
 description: The DsmSetLoadBalancePolicy_OUT structure reports the output parameter of the DsmSetLoadBalancePolicy method.
 old-location: storage\dsmsetloadbalancepolicy_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d3479656-310f-4e2d-a671-296bc3e2f1ab
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

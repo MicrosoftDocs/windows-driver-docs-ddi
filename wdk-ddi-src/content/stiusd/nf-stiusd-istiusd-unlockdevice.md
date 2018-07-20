@@ -4,10 +4,10 @@ title: IStiUSD::UnLockDevice
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::UnLockDevice method unlocks a device that was locked by a previous call to IStiUSD::LockDevice.
 old-location: image\istiusd_unlockdevice.htm
-old-project: image
+tech.root: image
 ms.assetid: ae19ae38-3bca-42c8-8713-68bb161104b8
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: IStiUSD interface [Imaging Devices],UnLockDevice method, IStiUSD.UnLockDevice, IStiUSD::UnLockDevice, UnLockDevice, UnLockDevice method [Imaging Devices], UnLockDevice method [Imaging Devices],IStiUSD interface, image.istiusd_unlockdevice, stifnc_8c11e0a0-68ec-4556-ae40-6bed6b5b4831.xml, stiusd/IStiUSD::UnLockDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

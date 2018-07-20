@@ -4,7 +4,7 @@ title: IWDFIoRequest3::SetUserModeDriverInitiatedIo
 author: windows-driver-content
 description: The SetUserModeDriverInitiatedIo method indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver.
 old-location: wdf\iwdfiorequest3_setusermodedriverinitiatedio.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: F494ED4C-DA2F-4630-B0CA-8B3BE7D26A80
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

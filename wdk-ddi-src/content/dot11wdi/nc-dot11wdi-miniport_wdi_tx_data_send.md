@@ -4,10 +4,10 @@ title: MINIPORT_WDI_TX_DATA_SEND
 author: windows-driver-content
 description: The MiniportWdiTxDataSend handler function specifies an RA-TID or port queue to transmit from. It is issued in the context of the TX thread from the operating system, resume indication, or a work item.
 old-location: netvista\miniportwditxdatasend.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: A9EB1E8C-BD10-450F-9F4B-CD19C8AF13EA
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_TX_DATA_SEND, MINIPORT_WDI_TX_DATA_SEND callback, MiniportWdiTxDataSend, MiniportWdiTxDataSend callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxDataSend, netvista.miniportwditxdatasend
 ms.prod: windows-hardware
 ms.technology: windows-devices

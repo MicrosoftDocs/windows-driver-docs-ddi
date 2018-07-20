@@ -4,7 +4,7 @@ title: IWDFUsbInterface::GetNumEndPoints
 author: windows-driver-content
 description: The GetNumEndPoints method retrieves the number of endpoints (pipes) on a USB interface.
 old-location: wdf\iwdfusbinterface_getnumendpoints.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 60ec8b38-8ab2-45d8-92ab-5943fd9bba79
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

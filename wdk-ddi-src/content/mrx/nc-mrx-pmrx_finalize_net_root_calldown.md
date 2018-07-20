@@ -4,7 +4,7 @@ title: PMRX_FINALIZE_NET_ROOT_CALLDOWN
 author: windows-driver-content
 description: The MRxFinalizeNetRoot routine is called by RDBSS to request that a network mini-redirector finalize a NET_ROOT structure.
 old-location: ifsk\mrxfinalizenetroot.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 59f5b6e0-9edc-45c9-9d22-1555edb8f7c6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

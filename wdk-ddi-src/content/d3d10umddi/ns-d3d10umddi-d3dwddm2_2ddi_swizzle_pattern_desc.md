@@ -4,10 +4,10 @@ title: D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC
 author: windows-driver-content
 description: Describes a swizzle pattern.
 old-location: display\d3dwddm2_2ddi_swizzle_pattern_desc.htm
-old-project: display
+tech.root: display
 ms.assetid: AD3D5847-862F-41AA-90C0-0F8A1D0A617B
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC, D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC structure [Display Devices], d3d10umddi/D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC, display.d3dwddm2_2ddi_swizzle_pattern_desc
 ms.prod: windows-hardware
 ms.technology: windows-devices

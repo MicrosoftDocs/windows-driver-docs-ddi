@@ -4,7 +4,7 @@ title: "_WINBIO_BIR_DATA"
 author: windows-driver-content
 description: The WINBIO_BIR_DATA structure contains the location and size of a block in a BIR. The offset is measured from the beginning of the WINBIO_BIR structure.
 old-location: biometric\winbio_bir_data.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: c9ce383e-277d-4fed-839b-8539554f654c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

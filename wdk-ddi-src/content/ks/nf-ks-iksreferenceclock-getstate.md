@@ -4,7 +4,7 @@ title: IKsReferenceClock::GetState
 author: windows-driver-content
 description: The IKsReferenceClock::GetState method queries the associated reference clock for its current streaming state.
 old-location: stream\iksreferenceclock_getstate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5a77a8bc-b477-41b3-bc4e-07c6c14291a1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

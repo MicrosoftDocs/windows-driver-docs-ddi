@@ -4,7 +4,7 @@ title: "_BRB"
 author: windows-driver-content
 description: Profile drivers use Bluetooth request blocks (BRBs), to send requests to the Bluetooth driver stack. The BRB structure defines the format for all supported commands that can be sent to a Bluetooth device.
 old-location: bltooth\brb.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: b9fc6eb9-6793-442a-a736-18929df14f20
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

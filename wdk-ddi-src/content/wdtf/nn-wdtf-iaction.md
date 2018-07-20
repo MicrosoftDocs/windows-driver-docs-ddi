@@ -4,7 +4,7 @@ title: IAction
 author: windows-driver-content
 description: The IAction interfaces are plug-ins that can control an instance of the IWDTFTarget2 interface.
 old-location: dtf\iaction.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 9bc709cb-1adb-4b70-b8cb-9168ccb7b259
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

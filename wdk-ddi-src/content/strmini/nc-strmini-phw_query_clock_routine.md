@@ -4,7 +4,7 @@ title: PHW_QUERY_CLOCK_ROUTINE
 author: windows-driver-content
 description: Each stream may have a clock associated to it. The class driver queries the clock by calling the stream minidriver-supplied StrMiniClock function, provided in each stream's HW_STREAM_OBJECT.
 old-location: stream\strminiclock.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ea230363-e2e8-48fb-982b-025615753e83
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

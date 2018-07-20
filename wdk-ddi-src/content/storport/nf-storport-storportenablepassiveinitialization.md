@@ -4,7 +4,7 @@ title: StorPortEnablePassiveInitialization function
 author: windows-driver-content
 description: The StorPortEnablePassiveInitialization routine enables the miniport's HwStorPassiveInitializeRoutine callback routine to execute at PASSIVE_LEVEL during miniport initialization.
 old-location: storage\storportenablepassiveinitialization.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 881253d2-b44d-4c41-ad72-b0143dc50803
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

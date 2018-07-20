@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_NFCC_CAPABILITIES"
 author: windows-driver-content
 description: SECURE_ELEMENT_NFCC_CAPABILITIES contains NFC controller capabilities.
 old-location: nfpdrivers\_secure_element_nfcc_capabilities.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: D1F9588B-02D9-49B0-B45F-AF5C140D74E4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

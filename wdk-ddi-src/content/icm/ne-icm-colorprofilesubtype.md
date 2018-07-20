@@ -4,7 +4,7 @@ title: COLORPROFILESUBTYPE
 author: windows-driver-content
 description: The COLORPROFILESUBTYPE enumeration is used to specify the subtype of color profile.
 old-location: print\colorprofilesubtype.htm
-old-project: print
+tech.root: print
 ms.assetid: 7ec0dd2d-7be5-4c85-8096-64a45aee01a5
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

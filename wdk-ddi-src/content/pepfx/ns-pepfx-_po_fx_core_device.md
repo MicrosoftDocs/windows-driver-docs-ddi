@@ -4,7 +4,7 @@ title: "_PO_FX_CORE_DEVICE"
 author: windows-driver-content
 description: The PO_FX_CORE_DEVICE structure contains information about the power-state attributes of the components in a core system resource, and provides a software interface for power-managing these components.
 old-location: kernel\po_fx_core_device.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 46C16795-412B-48E7-A7E8-E474CEC51849
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

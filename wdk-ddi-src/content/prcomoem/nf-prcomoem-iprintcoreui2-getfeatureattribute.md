@@ -4,7 +4,7 @@ title: IPrintCoreUI2::GetFeatureAttribute
 author: windows-driver-content
 description: The IPrintCoreUI2::GetFeatureAttribute method retrieves the feature attribute list or the value of a specific feature attribute.
 old-location: print\iprintcoreui2_getfeatureattribute.htm
-old-project: print
+tech.root: print
 ms.assetid: 6f3d16a9-bac7-44da-9d16-0f737d12d952
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,10 +4,10 @@ title: PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE
 author: windows-driver-content
 description: The pfnCalcPrivateShaderCacheSessionSize callback function returns the size of a private shader cache session.
 old-location: display\pfnd3dwddm2_2ddi_calcprivate_shadercache_session_size.htm
-old-project: display
+tech.root: display
 ms.assetid: 86FD1B35-878A-4D68-83CB-7F322CD9006D
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE, PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE callback, d3d10umddi/pfnCalcPrivateShaderCacheSessionSize, display.pfnd3dwddm2_2ddi_calcprivate_shadercache_session_size, pfnCalcPrivateShaderCacheSessionSize, pfnCalcPrivateShaderCacheSessionSize callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

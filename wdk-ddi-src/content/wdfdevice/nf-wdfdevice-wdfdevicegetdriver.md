@@ -4,7 +4,7 @@ title: WdfDeviceGetDriver function
 author: windows-driver-content
 description: The WdfDeviceGetDriver method returns a handle to the framework driver object that is associated with a specified framework device object.
 old-location: wdf\wdfdevicegetdriver.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 774cce7b-37bf-495b-8087-915b164745ba
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

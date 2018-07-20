@@ -4,7 +4,7 @@ title: "_KSDEVICE_THERMAL_DISPATCH"
 author: windows-driver-content
 description: The KSDEVICE_THERMAL_DISPATCH structure is used by the miniport driver in the API call to register thermal notification callbacks. This structure contains the callback function pointers for active and passive cooling interfaces.
 old-location: stream\ksdevice_thermal_dispatch.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6E4ADD86-EFC4-4369-83A1-1D2824235310
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

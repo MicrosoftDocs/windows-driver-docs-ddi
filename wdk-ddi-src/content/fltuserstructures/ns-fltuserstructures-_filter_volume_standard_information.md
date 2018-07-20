@@ -4,7 +4,7 @@ title: "_FILTER_VOLUME_STANDARD_INFORMATION"
 author: windows-driver-content
 description: The caller-allocated FILTER_VOLUME_STANDARD_INFORMATION structure contains information for a volume.
 old-location: ifsk\filter_volume_standard_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 51f2f837-7d67-4a9d-a365-d9d1b24977e5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

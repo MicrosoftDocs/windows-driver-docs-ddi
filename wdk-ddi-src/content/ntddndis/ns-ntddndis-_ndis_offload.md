@@ -4,10 +4,10 @@ title: "_NDIS_OFFLOAD"
 author: windows-driver-content
 description: The NDIS_OFFLOAD structure specifies several computational tasks that can be offloaded to the network adapter.
 old-location: netvista\ndis_offload.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 9d1447f1-aae8-4c27-a27b-e521c0c8ca97
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PNDIS_OFFLOAD, IPSEC_OFFLOAD_V2_AND_TCP_CHECKSUM_COEXISTENCE, IPSEC_OFFLOAD_V2_AND_UDP_CHECKSUM_COEXISTENCE, NDIS_OFFLOAD, NDIS_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD, PNDIS_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD, netvista.ndis_offload, ntddndis/NDIS_OFFLOAD, ntddndis/PNDIS_OFFLOAD, tcpip_offload_ref_e5f796e9-714c-43f9-98e4-1d0de0dcc8ee.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

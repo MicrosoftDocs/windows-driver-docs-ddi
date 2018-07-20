@@ -4,7 +4,7 @@ title: IOCTL_CDROM_RESUME_AUDIO
 author: windows-driver-content
 description: Resumes a suspended audio operation. Obsolete, beginning with Windows Vista.
 old-location: storage\ioctl_cdrom_resume_audio.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 50bf3cf3-5225-45c9-9f14-bfcd84574a83
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

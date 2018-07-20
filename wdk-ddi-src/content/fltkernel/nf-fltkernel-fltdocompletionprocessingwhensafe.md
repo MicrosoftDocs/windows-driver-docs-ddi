@@ -4,7 +4,7 @@ title: FltDoCompletionProcessingWhenSafe function
 author: windows-driver-content
 description: If it is safe to do so, the FltDoCompletionProcessingWhenSafe function executes a minifilter driver postoperation callback routine.
 old-location: ifsk\fltdocompletionprocessingwhensafe.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8143c741-8f6e-442d-a52a-c226b2e4aa57
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

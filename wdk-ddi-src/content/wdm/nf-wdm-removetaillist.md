@@ -4,7 +4,7 @@ title: RemoveTailList function
 author: windows-driver-content
 description: The RemoveTailList routine removes an entry from the end of a doubly linked list of LIST_ENTRY structures.
 old-location: kernel\removetaillist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 67942bf7-28f6-4b2d-a880-9439afaf0bb2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

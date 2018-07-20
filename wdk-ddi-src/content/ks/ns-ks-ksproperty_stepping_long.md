@@ -4,7 +4,7 @@ title: KSPROPERTY_STEPPING_LONG
 author: windows-driver-content
 description: The KSPROPERTY_STEPPING_LONG structure defines the valid range of values for a 32-bit property.
 old-location: stream\ksproperty_stepping_long.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bf0c16f5-ecfa-42bc-bd60-805d5b28ddc3
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

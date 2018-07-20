@@ -4,7 +4,7 @@ title: IoFreeWorkItem function
 author: windows-driver-content
 description: The IoFreeWorkItem routine frees a work item that was allocated by IoAllocateWorkItem.
 old-location: kernel\iofreeworkitem.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e0b0a4a3-6003-4b48-a3cf-570e5405fa5b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

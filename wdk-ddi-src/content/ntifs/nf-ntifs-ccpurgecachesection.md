@@ -4,7 +4,7 @@ title: CcPurgeCacheSection function
 author: windows-driver-content
 description: The CcPurgeCacheSection routine purges all or a portion of a cached file from the system cache.
 old-location: ifsk\ccpurgecachesection.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7f9cff3b-0780-4fc4-8b1a-b0af0506712a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

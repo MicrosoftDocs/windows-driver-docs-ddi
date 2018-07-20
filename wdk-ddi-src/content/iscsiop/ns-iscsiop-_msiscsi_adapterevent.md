@@ -4,7 +4,7 @@ title: "_MSiSCSI_AdapterEvent"
 author: windows-driver-content
 description: The MSiSCSI_AdapterEvent structure contains information that is reported whenever an adapter event occurs.
 old-location: storage\msiscsi_adapterevent.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 03820d4d-d013-40fb-a686-1b228f178f50
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

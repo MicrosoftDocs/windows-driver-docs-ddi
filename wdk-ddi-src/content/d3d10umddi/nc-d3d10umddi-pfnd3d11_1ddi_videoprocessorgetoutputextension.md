@@ -4,10 +4,10 @@ title: PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION
 author: windows-driver-content
 description: Returns private state data from a video processor to an application.
 old-location: display\videoprocessorgetoutputextension.htm
-old-project: display
+tech.root: display
 ms.assetid: 16f314f7-a54b-4c79-9cd6-1472ed454bbe
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORGETOUTPUTEXTENSION callback, d3d10umddi/pfnVideoProcessorGetOutputExtension, display.videoprocessorgetoutputextension, pfnVideoProcessorGetOutputExtension, pfnVideoProcessorGetOutputExtension callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

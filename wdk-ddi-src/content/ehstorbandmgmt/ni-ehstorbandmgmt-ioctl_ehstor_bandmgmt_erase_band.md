@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_BANDMGMT_ERASE_BAND
 author: windows-driver-content
 description: The IOCTL_EHSTOR_BANDMGMT_ERASE_BAND request will cryptographically erase and reset the authentication key of a band. The remaining configuration of the band is left unmodified.
 old-location: storage\ioctl_ehstor_bandmgmt_erase_band.htm
-old-project: storage
+tech.root: storage
 ms.assetid: E7DE8E55-B753-42AF-B25F-F806EE37DCF1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_CDROM_PERFORMANCE_TOLERANCE_TYPE"
 author: windows-driver-content
 description: The CDROM_PERFORMANCE_TOLERANCE_TYPE enumeration defines the allowable tolerances for performance data. It is a member of the CDROM_PERFORMANCE_REQUEST structure, which is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE I/O control request.
 old-location: storage\cdrom_performance_tolerance_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2369582F-D042-474D-9191-F9E7BDD3725E
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

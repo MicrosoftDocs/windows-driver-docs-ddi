@@ -4,7 +4,7 @@ title: IXpsDocumentConsumer::SendXpsUnknown
 author: windows-driver-content
 description: The SendXpsUnknown method sends an XPS document part that cannot be identified to the filter pipeline.
 old-location: print\ixpsdocumentconsumer_sendxpsunknown.htm
-old-project: print
+tech.root: print
 ms.assetid: 5e2880c6-0f5a-4098-a97e-809ad75ddfd0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_BDA_DVBT2_L1_SIGNALLING_DATA"
 author: windows-driver-content
 description: "."
 old-location: stream\bda_dvbt2_l1_signalling_data.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 34BD68C3-446A-4074-8F5C-E670BE09083A
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: "_DXVADDI_VIDEOPROCESSORCAPS"
 author: windows-driver-content
 description: The DXVADDI_VIDEOPROCESSORCAPS structure describes the video processing capabilities of a specific deinterlace mode.
 old-location: display\dxvaddi_videoprocessorcaps.htm
-old-project: display
+tech.root: display
 ms.assetid: bea6d458-943e-466f-adca-466f26dc3599
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXVA2_Structs_dc28e351-d197-4440-a3fd-dc3a49e35230.xml, DXVADDI_VIDEOPROCESSORCAPS, DXVADDI_VIDEOPROCESSORCAPS structure [Display Devices], _DXVADDI_VIDEOPROCESSORCAPS, d3dumddi/DXVADDI_VIDEOPROCESSORCAPS, display.dxvaddi_videoprocessorcaps
 ms.prod: windows-hardware
 ms.technology: windows-devices

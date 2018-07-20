@@ -4,7 +4,7 @@ title: WdfObjectCreate function
 author: windows-driver-content
 description: The WdfObjectCreate method creates a general framework object.
 old-location: wdf\wdfobjectcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: fd56c529-c7ad-4fc4-8fcc-950a1e8e21e5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

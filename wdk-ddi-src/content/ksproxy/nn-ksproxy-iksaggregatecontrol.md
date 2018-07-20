@@ -4,7 +4,7 @@ title: IKsAggregateControl
 author: windows-driver-content
 description: The IKsAggregateControl interface provides methods that add and remove COM servers as aggregate providers on KS objects that support the interface.
 old-location: stream\iksaggregatecontrol.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ed239516-bbaf-4e16-a3b8-4f9f34cab4ef
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

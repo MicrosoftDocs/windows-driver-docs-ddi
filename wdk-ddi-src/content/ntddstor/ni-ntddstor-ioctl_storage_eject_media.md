@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_EJECT_MEDIA
 author: windows-driver-content
 description: Causes the device to eject the media if the device supports ejection capabilities.
 old-location: storage\ioctl_storage_eject_media.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 094edf6d-276b-4aae-9e60-52e181268e7d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

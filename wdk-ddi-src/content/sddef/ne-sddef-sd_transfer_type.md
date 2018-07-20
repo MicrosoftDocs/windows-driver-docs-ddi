@@ -4,7 +4,7 @@ title: SD_TRANSFER_TYPE
 author: windows-driver-content
 description: The SD_TRANSFER_TYPE enumeration specifies the type of a Secure Digital (SD) data transfer.
 old-location: sd\sd_transfer_type.htm
-old-project: SD
+tech.root: SD
 ms.assetid: 5ae1c898-d06e-42ff-bddb-42d6748dac0f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

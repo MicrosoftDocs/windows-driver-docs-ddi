@@ -4,7 +4,7 @@ title: "_FILE_PROVIDER_EXTERNAL_INFO_V0"
 author: windows-driver-content
 description: This structure may be altered or unavailable. Instead, use FILE_PROVIDER_EXTERNAL_INFO_V1.
 old-location: ifsk\file_provider_external_info_v0.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: E2368589-9F75-4743-9D38-323221B20EF8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

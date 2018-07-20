@@ -4,10 +4,10 @@ title: MINIPORT_WDI_RX_RESTART
 author: windows-driver-content
 description: The MiniportWdiRxRestart handler function configures the RxEngine to restart indicating data traffic. This is issued following a MiniportWdiRxStop.
 old-location: netvista\miniportwdirxrestart.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 465716C7-A157-4B06-BAE2-F18A08126040
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: MINIPORT_WDI_RX_RESTART, MINIPORT_WDI_RX_RESTART callback, MiniportWdiRxRestart, MiniportWdiRxRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxRestart, netvista.miniportwdirxrestart
 ms.prod: windows-hardware
 ms.technology: windows-devices

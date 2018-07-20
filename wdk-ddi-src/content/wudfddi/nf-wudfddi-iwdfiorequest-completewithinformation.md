@@ -4,7 +4,7 @@ title: IWDFIoRequest::CompleteWithInformation
 author: windows-driver-content
 description: The CompleteWithInformation method completes a request with the supplied information.
 old-location: wdf\iwdfiorequest_completewithinformation.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 43089473-3255-4016-8d51-f5ad4261bd8d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

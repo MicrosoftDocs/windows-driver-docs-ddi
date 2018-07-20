@@ -4,7 +4,7 @@ title: FltAttachVolume function
 author: windows-driver-content
 description: FltAttachVolume creates a new minifilter driver instance and attaches it to the given volume.
 old-location: ifsk\fltattachvolume.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: da85c8d6-a74c-4a87-88b3-fb6dc01dd0f9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

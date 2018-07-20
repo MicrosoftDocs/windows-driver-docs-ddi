@@ -4,7 +4,7 @@ title: FltReleaseContextsEx function
 author: windows-driver-content
 description: FltReleaseContextsEx releases each context in a given FLT_RELATED_CONTEXTS_EX structure.
 old-location: ifsk\fltreleasecontextsex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: AC0811C9-8746-40F4-801E-6A1567ABDE0B
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

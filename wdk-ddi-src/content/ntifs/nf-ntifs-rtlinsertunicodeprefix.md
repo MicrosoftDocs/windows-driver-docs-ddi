@@ -4,7 +4,7 @@ title: RtlInsertUnicodePrefix function
 author: windows-driver-content
 description: The RtlInsertUnicodePrefix routine inserts a new element into a Unicode prefix table.
 old-location: ifsk\rtlinsertunicodeprefix.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d8a2fa19-8f44-4088-b515-69c9f2119714
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

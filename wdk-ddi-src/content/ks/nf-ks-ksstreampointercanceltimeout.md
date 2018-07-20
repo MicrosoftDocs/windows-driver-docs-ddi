@@ -4,7 +4,7 @@ title: KsStreamPointerCancelTimeout function
 author: windows-driver-content
 description: The KsStreamPointerCancelTimeout function cancels a previously scheduled time-out callback on the specified stream pointer.
 old-location: stream\ksstreampointercanceltimeout.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9e1dd010-0074-45fb-b3cb-f8ea7ad15e02
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

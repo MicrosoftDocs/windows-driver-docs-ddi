@@ -4,10 +4,10 @@ title: "_D3DKMT_SET_COLORSPACE_TRANSFORM"
 author: windows-driver-content
 description: TBD.
 old-location: display\d3dkmt-set-colorspace-transform.htm
-old-project: display
+tech.root: display
 ms.assetid: 253c689d-ce30-4065-920a-030e3e9f3b8e
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_SET_COLORSPACE_TRANSFORM, D3DKMT_SET_COLORSPACE_TRANSFORM structure [Display Devices], _D3DKMT_SET_COLORSPACE_TRANSFORM, d3dkmthk/D3DKMT_SET_COLORSPACE_TRANSFORM, display.d3dkmt-set-colorspace-transform
 ms.prod: windows-hardware
 ms.technology: windows-devices

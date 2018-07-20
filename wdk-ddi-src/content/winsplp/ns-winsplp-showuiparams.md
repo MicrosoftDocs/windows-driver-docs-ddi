@@ -4,7 +4,7 @@ title: SHOWUIPARAMS
 author: windows-driver-content
 description: The SplPromptUIInUsersSession function uses the SHOWUIPARAMS structure to hold information about the appearance and behavior of a message box.
 old-location: print\showuiparams.htm
-old-project: print
+tech.root: print
 ms.assetid: 63ee7f5c-ca95-4c2d-be17-56a769188f8c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

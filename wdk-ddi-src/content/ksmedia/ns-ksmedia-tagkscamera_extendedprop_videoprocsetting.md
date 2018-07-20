@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING
 author: windows-driver-content
 description: The KSCAMERA_EXTENDEDPROP_VIDEOPROCSETTING is a property payload structure for video processing settings related to white balance, exposure mode, and focus mode.
 old-location: stream\kscamera_extendedprop_videoprocsetting.htm
-old-project: stream
+tech.root: stream
 ms.assetid: D4239E72-C57A-45BC-881C-08FF6263874E
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

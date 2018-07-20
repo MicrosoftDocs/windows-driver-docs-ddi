@@ -4,7 +4,7 @@ title: KsCopyObjectBagItems function
 author: windows-driver-content
 description: The KsCopyObjectBagItems function copies all items from one object bag into another.
 old-location: stream\kscopyobjectbagitems.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5b3ee4f1-5c5a-413f-b927-96293cc87e98
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_WDFMEMORY_OFFSET"
 author: windows-driver-content
 description: The WDFMEMORY_OFFSET structure identifies a subsection of a memory object's buffer.
 old-location: wdf\wdfmemory_offset.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ca891a21-e7ab-4230-bfc4-adfdb413838b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

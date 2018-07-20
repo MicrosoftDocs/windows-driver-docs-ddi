@@ -4,7 +4,7 @@ title: IOCTL_AACS_READ_SERIAL_NUMBER
 author: windows-driver-content
 description: Reads the Advanced Access Content System (AACS)-specific prerecorded media serial number.
 old-location: storage\ioctl_aacs_read_serial_number.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 258224d7-adc1-4002-8c90-4487134dbfd7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

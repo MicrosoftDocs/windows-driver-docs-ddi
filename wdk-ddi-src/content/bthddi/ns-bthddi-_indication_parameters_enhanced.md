@@ -4,7 +4,7 @@ title: "_INDICATION_PARAMETERS_ENHANCED"
 author: windows-driver-content
 description: The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's enhanced L2CAP Callback Function.
 old-location: bltooth\indication_parameters_enhanced.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: D0FBA555-B61F-4D6F-B93F-C77D395F2BCD
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

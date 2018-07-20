@@ -4,7 +4,7 @@ title: HidD_SetNumInputBuffers function
 author: windows-driver-content
 description: The HidD_SetNumInputBuffers routine sets the maximum number of input reports that the HID class driver ring buffer can hold for a specified top-level collection.
 old-location: hid\hidd_setnuminputbuffers.htm
-old-project: hid
+tech.root: hid
 ms.assetid: da2d2b10-c02a-4786-9658-957271e9ba58
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

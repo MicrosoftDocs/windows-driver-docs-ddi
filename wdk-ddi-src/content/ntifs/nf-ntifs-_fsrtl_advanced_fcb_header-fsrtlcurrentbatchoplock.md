@@ -4,7 +4,7 @@ title: FsRtlCurrentBatchOplock function
 author: windows-driver-content
 description: A file system or filter driver calls FsRtlCurrentBatchOplock to determine whether there are any batch or filter opportunistic locks (oplocks) on a file.
 old-location: ifsk\fsrtlcurrentbatchoplock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: cfa02246-12ac-4229-bcdb-4792eb5cb0e7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

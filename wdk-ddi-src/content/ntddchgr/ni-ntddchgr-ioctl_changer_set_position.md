@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_SET_POSITION
 author: windows-driver-content
 description: Sets the changer's robotic transport mechanism to the specified element address, typically to optimize moving or exchanging media by positioning the transport beforehand.
 old-location: storage\ioctl_changer_set_position.htm
-old-project: storage
+tech.root: storage
 ms.assetid: cd4f5872-d2cb-42ee-b78c-6b7d48d41e34
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_ISCSI_Persistent_Login"
 author: windows-driver-content
 description: The ISCSI_Persistent_Login structure defines a persistent logon that the operating system initiates automatically when the computer boots up.
 old-location: storage\iscsi_persistent_login.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c43ee3dd-552a-41ab-9b4f-01611e44f453
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

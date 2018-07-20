@@ -4,7 +4,7 @@ title: "_GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_SAVE_RESTORE_BANK_HARDWARE_CONTEXT_PARAMETERS structure describes a bank of general-purpose I/O (GPIO) pins whose hardware state is to be saved or restored.
 old-location: gpio\gpio_save_restore_bank_hardware_context_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 7A93C53C-8E60-4C57-BDEC-6868AB5E400D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

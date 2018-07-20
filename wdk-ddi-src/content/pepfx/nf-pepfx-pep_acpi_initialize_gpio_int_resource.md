@@ -4,7 +4,7 @@ title: PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function
 author: windows-driver-content
 description: The PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_GPIO_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_gpio_int_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: EF8E3D1D-9C87-4083-A022-FD888D370B20
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

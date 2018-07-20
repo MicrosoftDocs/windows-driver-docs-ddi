@@ -4,7 +4,7 @@ title: IoRaiseInformationalHardError function
 author: windows-driver-content
 description: The IoRaiseInformationalHardError routine sends a dialog box to the user, warning about a device I/O error that indicates why a user I/O request failed.
 old-location: kernel\ioraiseinformationalharderror.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 14e9a28c-65cc-4e90-8220-85f1981c8cd7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

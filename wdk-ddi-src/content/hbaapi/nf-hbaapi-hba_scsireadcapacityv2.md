@@ -4,7 +4,7 @@ title: HBA_ScsiReadCapacityV2 function
 author: windows-driver-content
 description: The HBA_ScsiReadCapacityV2 routine sends a SCSI read capacity command to the indicated remote port.
 old-location: storage\hba_scsireadcapacityv2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8347e1ef-1285-43a9-bea7-a9a59ec0dfd0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

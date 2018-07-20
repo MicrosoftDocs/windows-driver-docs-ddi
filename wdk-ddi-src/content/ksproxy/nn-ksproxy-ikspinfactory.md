@@ -4,7 +4,7 @@ title: IKsPinFactory
 author: windows-driver-content
 description: The IKsPinFactory interface provides a method that retrieves the identifier of a pin factory.
 old-location: stream\ikspinfactory.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b86f4048-c175-4062-969c-c9c443d6d394
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

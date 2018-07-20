@@ -4,7 +4,7 @@ title: "_CM_RESOURCE_LIST"
 author: windows-driver-content
 description: The CM_RESOURCE_LIST structure specifies all of the system hardware resources assigned to a device.
 old-location: kernel\cm_resource_list.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 01f31255-a4f7-4a16-9238-a7391bb850d1
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: KsCreateClock function
 author: windows-driver-content
 description: The KsCreateClock function creates a handle to a clock instance.
 old-location: stream\kscreateclock.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a125161d-c086-45a4-9b66-4c13d9ed5f11
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

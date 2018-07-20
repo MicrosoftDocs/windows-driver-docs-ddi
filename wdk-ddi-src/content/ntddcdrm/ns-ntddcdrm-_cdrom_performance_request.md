@@ -4,7 +4,7 @@ title: "_CDROM_PERFORMANCE_REQUEST"
 author: windows-driver-content
 description: The CDROM_PERFORMANCE_REQUEST structure is used as an input parameter to the IOCTL_CDROM_GET_PERFORMANCE I/O control request and describes the performance data requested.
 old-location: storage\cdrom_performance_request.htm
-old-project: storage
+tech.root: storage
 ms.assetid: E43D2F2C-B5A1-4724-AEBC-F4B6A85EA846
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

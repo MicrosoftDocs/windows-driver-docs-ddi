@@ -4,7 +4,7 @@ title: IoStartTimer function
 author: windows-driver-content
 description: The IoStartTimer routine enables the timer associated with a given device object so the driver-supplied IoTimer routine is called once per second.
 old-location: kernel\iostarttimer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 2e13d7da-7ef3-4c2e-b028-f7d37548c208
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

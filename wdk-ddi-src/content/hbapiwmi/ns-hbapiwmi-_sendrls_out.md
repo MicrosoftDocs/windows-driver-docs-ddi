@@ -4,7 +4,7 @@ title: "_SendRLS_OUT"
 author: windows-driver-content
 description: The SendRLS_OUT structure is used to report the output parameter data of the SendRLS WMI method to the WMI client.
 old-location: storage\sendrls_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6eccc5e8-7bf6-40bd-abb9-94b6fe4418a0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

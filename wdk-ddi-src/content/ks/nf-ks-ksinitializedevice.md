@@ -4,7 +4,7 @@ title: KsInitializeDevice function
 author: windows-driver-content
 description: The KsInitializeDevice function is called by AVStream to initialize the AVStream device class from within KsCreateDevice.
 old-location: stream\ksinitializedevice.htm
-old-project: stream
+tech.root: stream
 ms.assetid: f33122d0-7661-454a-87f7-7b5795793376
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

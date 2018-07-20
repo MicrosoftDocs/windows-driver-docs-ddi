@@ -4,7 +4,7 @@ title: "_MOUNTMGR_TARGET_NAME"
 author: windows-driver-content
 description: The MOUNTMGR_TARGET_NAME structure contains the nonpersistent target device name for a device and is used by mount manager clients with the IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE request to tell the mount manager to keep the symbolic link for a device active even after the device has gone offline.
 old-location: storage\mountmgr_target_name.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7a9cdc0d-0275-4ef9-a570-8788f77099af
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: EVT_WDF_FILE_CLOSE
 author: windows-driver-content
 description: A driver's EvtFileClose callback function handles operations that must be performed when all of an application's accesses to a device have been closed.
 old-location: wdf\evtfileclose.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 8ddcb9cb-d184-4ec8-a321-599394a8512e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

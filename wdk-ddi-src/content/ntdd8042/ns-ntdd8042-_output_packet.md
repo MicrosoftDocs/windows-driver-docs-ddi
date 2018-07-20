@@ -4,7 +4,7 @@ title: "_OUTPUT_PACKET"
 author: windows-driver-content
 description: OUTPUT_PACKET contains information about the data that is being written to a keyboard or mouse device by I8042prt.
 old-location: hid\output_packet.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 1d8d723f-aae5-499e-94cf-c7ccdb24c45f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

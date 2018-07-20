@@ -4,7 +4,7 @@ title: IWDFDevice3::MapIoSpace
 author: windows-driver-content
 description: The MapIoSpace method maps the given physical address range to system address space and returns a pseudo base address.
 old-location: wdf\iwdfdevice3_mapiospace.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 243C7299-7C74-408A-8FB9-32FB3315251F
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

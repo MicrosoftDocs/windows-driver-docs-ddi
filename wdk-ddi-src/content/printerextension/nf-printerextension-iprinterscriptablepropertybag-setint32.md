@@ -4,7 +4,7 @@ title: IPrinterScriptablePropertyBag::SetInt32
 author: windows-driver-content
 description: Writes an integer property.
 old-location: print\iprinterscriptablepropertybag_setint32.htm
-old-project: print
+tech.root: print
 ms.assetid: 40A057F7-AC9B-4F16-8FE2-490CEECAB523
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_PLATFORM_STATES"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_PLATFORM_STATES structure specifies the number of platform idle states the hardware platform supports.
 old-location: kernel\pep_ppm_query_platform_states.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 488EC668-15B9-4B6F-B8AA-3142DB87D19B
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

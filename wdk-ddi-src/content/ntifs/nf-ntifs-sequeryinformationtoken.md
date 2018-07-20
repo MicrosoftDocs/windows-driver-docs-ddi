@@ -4,7 +4,7 @@ title: SeQueryInformationToken function
 author: windows-driver-content
 description: The SeQueryInformationToken routine retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.
 old-location: ifsk\sequeryinformationtoken.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 97e28b53-8b4c-4f76-b6bb-21dad2233463
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

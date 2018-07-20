@@ -4,7 +4,7 @@ title: PI8042_QUEUE_PACKET
 author: windows-driver-content
 description: The PI8042_QUEUE_PACKET-typed callback routine queues an input data packet for processing by the ISR DPC of a keyboard or mouse device. I8042prt provides this callback.
 old-location: hid\pi8042_queue_packet.htm
-old-project: hid
+tech.root: hid
 ms.assetid: f5d42701-b418-4bda-b936-3e0a1f57ac9d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

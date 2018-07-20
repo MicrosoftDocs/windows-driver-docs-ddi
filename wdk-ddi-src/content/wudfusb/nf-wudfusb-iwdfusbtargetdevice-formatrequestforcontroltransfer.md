@@ -4,7 +4,7 @@ title: IWDFUsbTargetDevice::FormatRequestForControlTransfer
 author: windows-driver-content
 description: The FormatRequestForControlTransfer method formats an I/O request object for a USB control transfer.
 old-location: wdf\iwdfusbtargetdevice_formatrequestforcontroltransfer.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7f75fbaa-06e8-4c4d-b1ee-c89a55889295
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

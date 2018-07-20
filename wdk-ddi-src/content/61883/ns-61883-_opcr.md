@@ -4,7 +4,7 @@ title: "_OPCR"
 author: windows-driver-content
 description: The OPCR structure contains initialization values for an output plug.
 old-location: ieee\opcr.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: fbd6fa74-eb39-4240-947e-1edec1365a83
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

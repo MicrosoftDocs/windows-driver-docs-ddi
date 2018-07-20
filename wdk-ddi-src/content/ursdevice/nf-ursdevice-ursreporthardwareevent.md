@@ -4,10 +4,10 @@ title: UrsReportHardwareEvent function
 author: windows-driver-content
 description: Notifies the USB dual-role class extension about a new hardware event.
 old-location: buses\ursreporthardwareevent.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 2BC80D99-5265-4D0C-A447-5CC2112F53F8
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], buses.ursreporthardwareevent, ursdevice/UrsReportHardwareEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

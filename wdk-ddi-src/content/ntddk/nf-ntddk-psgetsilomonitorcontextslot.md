@@ -4,7 +4,7 @@ title: PsGetSiloMonitorContextSlot function
 author: windows-driver-content
 description: This routine returns the silo context slot that was allocated by the monitor during the registration.
 old-location: kernel\psgetsilomonitorcontextslot.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0871EA8C-4F59-451E-89FB-8A0D44219456
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IOCTL_AACS_READ_BINDING_NONCE
 author: windows-driver-content
 description: Reads the Advanced Access Content System (AACS) binding nonce starting at the specified byte offset on the disc, as part of the protocol for reading a protected data area.
 old-location: storage\ioctl_aacs_read_binding_nonce.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d90ce010-a2c6-43e8-8bf8-750af5b784ba
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

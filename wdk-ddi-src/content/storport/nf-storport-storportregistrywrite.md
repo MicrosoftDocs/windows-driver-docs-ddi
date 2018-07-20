@@ -4,7 +4,7 @@ title: StorPortRegistryWrite function
 author: windows-driver-content
 description: The StorPortRegistryWrite routine is called by the miniport driver to convert the registry data contained in a specified buffer from ASCII to Unicode and to then write the data to the miniport driver's per-HBA storage area.
 old-location: storage\storportregistrywrite.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9f149e86-7855-4a10-8e0c-8b1aff261946
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

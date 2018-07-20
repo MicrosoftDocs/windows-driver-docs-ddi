@@ -4,10 +4,10 @@ title: "_WWAN_PIN_INFO"
 author: windows-driver-content
 description: The WWAN_PIN_INFO structure represents PIN type and PIN-entry state of Personal Identification Number (PIN) information required by the MB device.
 old-location: netvista\wwan_pin_info.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 0711645f-791b-4643-95c3-604ecce2a5ed
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*PWWAN_PIN_INFO, PWWAN_PIN_INFO, PWWAN_PIN_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_INFO, WWAN_PIN_INFO structure [Network Drivers Starting with Windows Vista], WwanRef_aae7d248-25b1-465b-9314-66a16aca4993.xml, _WWAN_PIN_INFO, netvista.wwan_pin_info, wwan/PWWAN_PIN_INFO, wwan/WWAN_PIN_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: FltWriteFileEx function
 author: windows-driver-content
 description: FltWriteFileEx is used to write data to an open file, stream, or device. This function extends FltWriteFile to allow the optional use of an MDL for write data instead of a mapped buffer address.
 old-location: ifsk\fltwritefileex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 18B2B486-5525-4132-96E8-EEA74342E0EA
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: InterlockedCompareExchange function
 author: windows-driver-content
 description: The InterlockedCompareExchange routine performs an atomic operation that compares the input value pointed to by Destination with the value of Comparand.
 old-location: kernel\interlockedcompareexchange.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 925a5481-d626-4824-8cbe-4fc2a0a6ad92
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

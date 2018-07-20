@@ -4,7 +4,7 @@ title: RtlFindLeastSignificantBit function
 author: windows-driver-content
 description: The RtlFindLeastSignificantBit routine returns the zero-based position of the least significant nonzero bit in its parameter.
 old-location: kernel\rtlfindleastsignificantbit.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fb260c9b-dece-49ef-9701-d5198b8a08fb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

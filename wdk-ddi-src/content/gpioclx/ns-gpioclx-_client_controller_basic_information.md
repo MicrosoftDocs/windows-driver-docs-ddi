@@ -4,7 +4,7 @@ title: "_CLIENT_CONTROLLER_BASIC_INFORMATION"
 author: windows-driver-content
 description: The CLIENT_CONTROLLER_BASIC_INFORMATION structure contains general-purpose I/O (GPIO) controller hardware attributes and configuration information.
 old-location: gpio\client_controller_basic_information.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: CE92249C-99B5-411E-B0D7-C1FF4824949E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

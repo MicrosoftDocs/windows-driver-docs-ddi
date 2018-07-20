@@ -4,7 +4,7 @@ title: KeStackAttachProcess function
 author: windows-driver-content
 description: The KeStackAttachProcess routine attaches the current thread to the address space of the target process.
 old-location: ifsk\kestackattachprocess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 52ac1410-8f8f-405a-9c81-a534c3cfbf51
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

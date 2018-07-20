@@ -4,7 +4,7 @@ title: PFNKSSTREAMPOINTER
 author: windows-driver-content
 description: AVStream calls a minidriver's AVStrMiniCancelCallback routine when the IRP that is associated with a cloned stream pointer is canceled. This routine is optional.
 old-location: stream\avstrminicancelcallback.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4c95ccb6-c796-4bb2-b344-aa8eea28e131
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

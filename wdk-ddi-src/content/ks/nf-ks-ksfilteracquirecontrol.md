@@ -4,7 +4,7 @@ title: KsFilterAcquireControl function
 author: windows-driver-content
 description: The KsFilterAcquireControl function acquires the filter control mutex for the AVStream filter specified by Filter.
 old-location: stream\ksfilteracquirecontrol.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 93dfe9fe-e1af-45db-ab28-fd166f511fcc
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

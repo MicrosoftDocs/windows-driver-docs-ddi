@@ -4,7 +4,7 @@ title: PFNBTH_FREE_BRB
 author: windows-driver-content
 description: The BthFreeBrb function frees a Bluetooth request block (BRB) that was allocated previously with BthAllocateBrb.
 old-location: bltooth\bthfreebrb.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: fc24cdaf-0695-4e10-82be-a7f7a916f550
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

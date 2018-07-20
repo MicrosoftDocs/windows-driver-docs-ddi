@@ -4,7 +4,7 @@ title: "_DEVICE_RESET_INTERFACE_STANDARD"
 author: windows-driver-content
 description: The DEVICE_RESET_INTERFACE_STANDARD structure enables function drivers to reset and recover malfunctioning devices. This structure describes the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 old-location: kernel\device_reset_interface_standard.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DD8A7E50-664B-49B8-905B-A5BE02A48DCE
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

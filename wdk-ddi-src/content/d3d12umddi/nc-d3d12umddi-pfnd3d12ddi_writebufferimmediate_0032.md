@@ -4,10 +4,10 @@ title: PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032
 author: windows-driver-content
 description: Used to create a write buffer.
 old-location: display\pfnd3d12ddi_writebufferimmediate_0032.htm
-old-project: display
+tech.root: display
 ms.assetid: 73486EA4-F1D8-4649-81C8-1698E1854DED
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032, PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032 callback, PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032 callback function [Display Devices], d3d12umddi/PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032, display.pfnd3d12ddi_writebufferimmediate_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: PSCSIWMI_FUNCTION_CONTROL
 author: windows-driver-content
 description: A miniport driver's HwScsiWmiFunctionControl routine is called to enable or disable notification of events.
 old-location: storage\hwscsiwmifunctioncontrol.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a975e201-9015-4315-830e-4cd7cc5a3bc5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

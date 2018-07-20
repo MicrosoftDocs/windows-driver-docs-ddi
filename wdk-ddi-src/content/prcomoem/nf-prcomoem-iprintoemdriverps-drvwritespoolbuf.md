@@ -4,7 +4,7 @@ title: IPrintOemDriverPS::DrvWriteSpoolBuf
 author: windows-driver-content
 description: The IPrintOemDriverPS::DrvWriteSpoolBuf method is provided by the Pscript5 driver so that rendering plug-ins can send printer data to the spooler.
 old-location: print\iprintoemdriverps_drvwritespoolbuf.htm
-old-project: print
+tech.root: print
 ms.assetid: 91eb36b3-ea05-4a5e-8bba-47c262a4fa4a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

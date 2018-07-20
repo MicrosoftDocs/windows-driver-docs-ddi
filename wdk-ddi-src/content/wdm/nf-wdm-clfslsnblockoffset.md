@@ -4,7 +4,7 @@ title: ClfsLsnBlockOffset function
 author: windows-driver-content
 description: The ClfsLsnBlockOffset routine returns the sector-aligned block offset contained in a specified LSN.
 old-location: kernel\clfslsnblockoffset.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8b2cf728-8859-4b7d-99f0-2ee7604ab480
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

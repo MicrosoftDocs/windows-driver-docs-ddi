@@ -4,7 +4,7 @@ title: SeAuditingFileOrGlobalEvents function
 author: windows-driver-content
 description: The SeAuditingFileOrGlobalEvents routine determines whether file or global events are currently being audited.
 old-location: ifsk\seauditingfileorglobalevents.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4797126f-c27d-4951-88e7-37c5a475e77d
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IWDFIoTarget
 author: windows-driver-content
 description: The IWDFIoTarget interface exposes the I/O target object that typically represents a lower driver in the stack.
 old-location: wdf\iwdfiotarget.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: bebe79c8-28d1-4976-b314-b73e6e9b7b9c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

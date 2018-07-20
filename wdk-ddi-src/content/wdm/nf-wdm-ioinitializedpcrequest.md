@@ -4,7 +4,7 @@ title: IoInitializeDpcRequest function
 author: windows-driver-content
 description: The IoInitializeDpcRequest routine registers a driver-supplied DpcForIsr routine.
 old-location: kernel\ioinitializedpcrequest.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d4685c23-7461-4539-9f7c-80f9760bf706
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

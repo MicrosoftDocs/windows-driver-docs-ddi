@@ -4,10 +4,10 @@ title: UsbBuildInterruptOrBulkTransferRequest macro
 author: windows-driver-content
 description: The UsbBuildInterruptOrBulkTransferRequest macro formats an URB to send or receive data on a bulk pipe, or to receive data from an interrupt pipe.
 old-location: buses\usbbuildinterruptorbulktransferrequest.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 2500fa22-b3f9-419d-9e37-5060b83403fb
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UsbBuildInterruptOrBulkTransferRequest, UsbBuildInterruptOrBulkTransferRequest routine [Buses], buses.usbbuildinterruptorbulktransferrequest, usbdlib/UsbBuildInterruptOrBulkTransferRequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

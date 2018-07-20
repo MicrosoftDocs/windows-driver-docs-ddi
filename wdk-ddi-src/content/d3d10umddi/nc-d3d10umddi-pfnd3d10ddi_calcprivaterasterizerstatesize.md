@@ -4,10 +4,10 @@ title: PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE
 author: windows-driver-content
 description: The CalcPrivateRasterizerStateSize function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a rasterizer state.
 old-location: display\calcprivaterasterizerstatesize.htm
-old-project: display
+tech.root: display
 ms.assetid: 8b10b2b8-21b0-451c-9a85-353222d9c288
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CalcPrivateRasterizerStateSize, CalcPrivateRasterizerStateSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE, PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE callback, UserModeDisplayDriverDx10_Functions_b5ff2557-347f-4cf5-962b-f41b097de388.xml, d3d10umddi/CalcPrivateRasterizerStateSize, display.calcprivaterasterizerstatesize
 ms.prod: windows-hardware
 ms.technology: windows-devices

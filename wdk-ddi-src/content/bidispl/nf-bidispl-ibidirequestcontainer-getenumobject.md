@@ -4,7 +4,7 @@ title: IBidiRequestContainer::GetEnumObject
 author: windows-driver-content
 description: The GetEnumObject method enumerates the bidi requests in a list.
 old-location: print\ibidirequestcontainer_ibidirequestcontainer__getenumobject.htm
-old-project: print
+tech.root: print
 ms.assetid: 1aa7b934-c56b-4bfb-800e-950e1dbd5ba3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

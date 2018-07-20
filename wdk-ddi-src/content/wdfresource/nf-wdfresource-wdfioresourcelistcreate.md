@@ -4,7 +4,7 @@ title: WdfIoResourceListCreate function
 author: windows-driver-content
 description: The WdfIoResourceListCreate method creates an empty logical configuration, which can be populated and added to a resource requirements list.
 old-location: wdf\wdfioresourcelistcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: aaf3d22d-da54-4478-9bf8-aad4b943788a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

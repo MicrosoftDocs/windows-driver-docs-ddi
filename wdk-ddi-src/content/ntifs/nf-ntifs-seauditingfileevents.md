@@ -4,7 +4,7 @@ title: SeAuditingFileEvents function
 author: windows-driver-content
 description: The SeAuditingFileEvents routine determines whether file open events are currently being audited.
 old-location: ifsk\seauditingfileevents.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f9e9a53f-9f4a-4f44-befa-f11d1fb3372a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

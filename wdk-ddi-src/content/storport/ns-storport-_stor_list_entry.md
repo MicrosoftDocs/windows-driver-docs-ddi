@@ -4,7 +4,7 @@ title: "_STOR_LIST_ENTRY"
 author: windows-driver-content
 description: A STOR_LIST_ENTRY structure describes an entry in a doubly linked list or serves as the header for such a list.
 old-location: storage\stor_list_entry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 41E713D9-9499-40EB-8B21-DDB73362BAE3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

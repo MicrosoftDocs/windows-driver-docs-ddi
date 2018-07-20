@@ -4,7 +4,7 @@ title: "_WINBIO_CALIBRATION_INFO"
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_CALIBRATE IOCTL returns the WINBIO_CALIBRATION_INFO structure as output.
 old-location: biometric\winbio_calibration_info.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 12ea0460-30c1-4ce0-9a3b-c59a71493fe7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

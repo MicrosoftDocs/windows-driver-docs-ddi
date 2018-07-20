@@ -4,7 +4,7 @@ title: SpoolerCopyFileEvent function
 author: windows-driver-content
 description: A Point and Print DLL's SpoolerCopyFileEvent function receives notifications of events associated with copying print queue-associated files to a print client, when the client connects to a print server.
 old-location: print\spoolercopyfileevent.htm
-old-project: print
+tech.root: print
 ms.assetid: 39e9b596-7726-439c-8ad9-a987fdfd3860
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_DEVICE_CAPABILITIES"
 author: windows-driver-content
 description: A DEVICE_CAPABILITIES structure describes PnP and power capabilities of a device. This structure is returned in response to an IRP_MN_QUERY_CAPABILITIES IRP.
 old-location: kernel\device_capabilities.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1edae050-8e72-42e7-9dc9-8f449699969c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

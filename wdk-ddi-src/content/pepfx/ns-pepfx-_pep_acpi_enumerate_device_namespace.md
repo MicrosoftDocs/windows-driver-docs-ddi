@@ -4,7 +4,7 @@ title: "_PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
 author: windows-driver-content
 description: The PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure contains an enumeration of the objects in the namespace of the device.
 old-location: kernel\pep_acpi_enumerate_device_namespace.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 61315EFB-DEA7-4CF2-97D3-EACD223AFB50
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

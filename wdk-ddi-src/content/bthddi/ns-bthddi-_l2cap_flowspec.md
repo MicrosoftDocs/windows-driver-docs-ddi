@@ -4,7 +4,7 @@ title: "_L2CAP_FLOWSPEC"
 author: windows-driver-content
 description: This structure reserved for future use.
 old-location: bltooth\l2cap_flowspec.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 1b8a3181-45eb-4c35-9ccc-d6fe1f7ca92c
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

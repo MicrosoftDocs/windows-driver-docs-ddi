@@ -4,7 +4,7 @@ title: FltSupportsFileContextsEx function
 author: windows-driver-content
 description: The FltSupportsFileContextsEx routine determines whether the file system or the filter manager support file contexts for a given file.
 old-location: ifsk\fltsupportsfilecontextsex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 42401474-ea2d-441f-ad70-bd95544933ac
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

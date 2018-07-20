@@ -4,7 +4,7 @@ title: "_GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure describes the general-purpose I/O (GPIO) interrupt pin to reconfigure.
 old-location: gpio\gpio_reconfigure_interrupts_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 98C9CFA6-76B3-4AF7-8280-BF84CC31CF70
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

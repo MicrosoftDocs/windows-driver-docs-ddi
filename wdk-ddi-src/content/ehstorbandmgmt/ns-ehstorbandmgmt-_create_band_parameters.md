@@ -4,7 +4,7 @@ title: "_CREATE_BAND_PARAMETERS"
 author: windows-driver-content
 description: The parameters to create a band on a storage device for an IOCTL_EHSTOR_BANDMGMT_CREATE_BAND request are specified in a CREATE_BAND_PARAMETERS structure.
 old-location: storage\create_band_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: DFDD92F8-95B7-40F7-950C-A105F035B2E9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

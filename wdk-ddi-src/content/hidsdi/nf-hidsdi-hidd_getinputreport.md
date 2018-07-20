@@ -4,7 +4,7 @@ title: HidD_GetInputReport function
 author: windows-driver-content
 description: The HidD_GetInputReport routine returns an input reports from a top-level collection.
 old-location: hid\hidd_getinputreport.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 42e0a96b-2b0b-4d22-8c91-14457d02e9c7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

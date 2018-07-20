@@ -4,7 +4,7 @@ title: "_OEMUIOBJ"
 author: windows-driver-content
 description: The OEMUIOBJ structure is used as an input argument to several of the methods exported by user interface plug-ins.
 old-location: print\oemuiobj.htm
-old-project: print
+tech.root: print
 ms.assetid: ba9252ec-3aef-4e8c-a335-bde33686beae
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

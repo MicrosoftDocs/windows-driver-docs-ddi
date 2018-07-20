@@ -4,7 +4,7 @@ title: IOCTL_SERIAL_SET_QUEUE_SIZE
 author: windows-driver-content
 description: The IOCTL_SERIAL_SET_QUEUE_SIZE request sets the size of the internal receive buffer. If the requested size is greater than the current receive buffer size, a new receive buffer is created. Otherwise, the receive buffer is not changed.
 old-location: serports\ioctl_serial_set_queue_size.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 532dfe17-c901-4fc5-90d4-d300aa0e5720
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

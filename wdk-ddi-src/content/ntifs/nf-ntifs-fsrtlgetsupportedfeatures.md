@@ -4,7 +4,7 @@ title: FsRtlGetSupportedFeatures function
 author: windows-driver-content
 description: The FsRtlGetSupportedFeatures routine returns the supported features of a volume attached to the specified device object.
 old-location: ifsk\fsrtlgetsupportedfeatures.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 24852B9A-5156-41BB-87F9-81B147A85AC2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_BRB_ACL_GET_MODE"
 author: windows-driver-content
 description: The _BRB_ACL_GET_MODE structure describes the ACL mode for the specified remote device.
 old-location: bltooth\_brb_acl_get_mode.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 2fe473c8-dcf9-4457-b1b1-c55b3eaa68e6
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

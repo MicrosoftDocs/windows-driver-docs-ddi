@@ -4,7 +4,7 @@ title: TmPrePrepareEnlistment function
 author: windows-driver-content
 description: The TmPrePrepareEnlistment routine initiates the pre-prepare operation for a specified enlistment's transaction.
 old-location: kernel\tmpreprepareenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 54c0fed2-a553-4321-bf61-0f71d18ab7c5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

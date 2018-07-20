@@ -4,7 +4,7 @@ title: IWDTFPNPAction2::RescanParentDevice
 author: windows-driver-content
 description: Rescans and re-enumerates the target device's parent device.
 old-location: dtf\iwdtfpnpaction2_rescanparentdevice.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 5b25cffa-df53-49d5-be26-1901eddfdad2
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

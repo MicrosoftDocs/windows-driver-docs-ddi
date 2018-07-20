@@ -4,7 +4,7 @@ title: EVT_VHF_CLEANUP
 author: windows-driver-content
 description: The HID source driver implements this event callback to free resources that might the driver allocated to the virtual HID device.
 old-location: hid\evtvhfcleanup.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 1D477E7B-E4EA-46E7-872C-3BEBFBD31702
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

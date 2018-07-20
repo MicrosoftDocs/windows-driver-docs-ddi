@@ -4,7 +4,7 @@ title: IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS
 author: windows-driver-content
 description: The IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS request obtains the size of the input report queue for a top-level collection.
 old-location: hid\ioctl_get_num_device_input_buffers.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 3a0a8fa3-2d23-412c-ad54-d8ba5809cbe4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_EXT_SET_PARAMETERS_V0"
 author: windows-driver-content
 description: The EXT_SET_PARAMETERS structure contains an extended set of parameters for the ExSetTimer routine.
 old-location: kernel\ext_set_parameters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8872AA79-1D54-4952-A45E-A2DB97730CA7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

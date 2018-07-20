@@ -4,10 +4,10 @@ title: D3D11_1DDI_ARCHITECTURE_INFO_DATA
 author: windows-driver-content
 description: Describes information about display adapter architecture.
 old-location: display\d3d11_1ddi_architecture_info_data.htm
-old-project: display
+tech.root: display
 ms.assetid: 262d511d-2846-415d-b1b8-2687f12f9f78
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_ARCHITECTURE_INFO_DATA, D3D11_1DDI_ARCHITECTURE_INFO_DATA structure [Display Devices], d3d10umddi/D3D11_1DDI_ARCHITECTURE_INFO_DATA, display.d3d11_1ddi_architecture_info_data
 ms.prod: windows-hardware
 ms.technology: windows-devices

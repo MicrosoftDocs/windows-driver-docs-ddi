@@ -4,7 +4,7 @@ title: "_PO_FX_PERF_STATE"
 author: windows-driver-content
 description: The PO_FX_PERF_STATE structure represents a performance state for a single component within a device.
 old-location: kernel\po_fx_perf_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 06A41593-A052-43A7-B3A7-02185B557FA3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

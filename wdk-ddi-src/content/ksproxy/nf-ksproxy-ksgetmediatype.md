@@ -4,7 +4,7 @@ title: KsGetMediaType function
 author: windows-driver-content
 description: The KsGetMediaType function retrieves information about a media type on a pin factory identifier.
 old-location: stream\ksgetmediatype.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4b7aac38-ab29-4cac-a7f0-896423b17400
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

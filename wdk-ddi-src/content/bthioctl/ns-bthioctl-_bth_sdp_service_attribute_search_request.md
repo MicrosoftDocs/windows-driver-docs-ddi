@@ -4,7 +4,7 @@ title: "_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST"
 author: windows-driver-content
 description: The BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure contains information pertinent to a combined SDP service and attribute search. This structure is passed as the input buffer to the IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH IOCTL.
 old-location: bltooth\bth_sdp_service_attribute_search_request.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 28255569-57ce-44b7-9d53-9e8797b914c5
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

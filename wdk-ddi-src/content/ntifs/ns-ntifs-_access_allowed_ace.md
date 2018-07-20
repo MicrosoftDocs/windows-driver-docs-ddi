@@ -4,7 +4,7 @@ title: "_ACCESS_ALLOWED_ACE"
 author: windows-driver-content
 description: The ACCESS_ALLOWED_ACE structure defines an access-control entry (ACE) for the discretionary access-control list (DACL) that controls access to an object.
 old-location: ifsk\access_allowed_ace.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 20373863-0850-4ccf-b94a-7d252ad15d20
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

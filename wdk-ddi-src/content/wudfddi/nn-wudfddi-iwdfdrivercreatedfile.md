@@ -4,7 +4,7 @@ title: IWDFDriverCreatedFile
 author: windows-driver-content
 description: The IWDFDriverCreatedFile interface exposes a UMDF driver-created-file object for the driver to use.
 old-location: wdf\iwdfdrivercreatedfile.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ea74a539-d0a0-41ea-9fe1-8d7880a4187d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

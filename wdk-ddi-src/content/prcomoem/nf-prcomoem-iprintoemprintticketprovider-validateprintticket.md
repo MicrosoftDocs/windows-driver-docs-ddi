@@ -4,7 +4,7 @@ title: IPrintOemPrintTicketProvider::ValidatePrintTicket
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::ValidatePrintTicket method validates a print ticket.
 old-location: print\iprintoemprintticketprovider_validateprintticket.htm
-old-project: print
+tech.root: print
 ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

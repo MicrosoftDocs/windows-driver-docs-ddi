@@ -4,7 +4,7 @@ title: PFNKSALLOCATOR
 author: windows-driver-content
 description: Minidrivers can optionally supply a callback function of type PFNKSALLOCATOR as a parameter in calls to KsEnableEventWithAllocator, KsPropertyHandlerWithAllocator, and KsMethodHandlerWithAllocator.
 old-location: stream\kstrallocator.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4af5ac92-824c-42bf-8fb7-5418ae5d793c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

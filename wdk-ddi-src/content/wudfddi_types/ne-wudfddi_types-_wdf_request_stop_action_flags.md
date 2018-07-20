@@ -4,7 +4,7 @@ title: "_WDF_REQUEST_STOP_ACTION_FLAGS"
 author: windows-driver-content
 description: The WDF_REQUEST_STOP_ACTION_FLAGS enumeration contains values that identify the state of a stop action request in a call to the driver's IQueueCallbackIoStop::OnIoStop method.
 old-location: wdf\wdf_request_stop_action_flags_umdf.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b9e3ea22-be24-4f36-abde-339495b9ed1c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: FsRtlCopyRead function
 author: windows-driver-content
 description: The FsRtlCopyRead routine copies data from a cached file to a user buffer.
 old-location: ifsk\fsrtlcopyread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fb36b3e9-c17b-4c15-b1ad-b93f71f43cd5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

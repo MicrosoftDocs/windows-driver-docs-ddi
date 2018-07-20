@@ -4,7 +4,7 @@ title: ExIsResourceAcquiredExclusiveLite function
 author: windows-driver-content
 description: The ExIsResourceAcquiredExclusiveLite routine returns whether the current thread has exclusive access to a given resource.
 old-location: kernel\exisresourceacquiredexclusivelite.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 81c07809-1c66-4b68-b2d9-05992c778ae6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

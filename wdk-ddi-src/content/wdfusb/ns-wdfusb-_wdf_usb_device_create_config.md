@@ -4,7 +4,7 @@ title: "_WDF_USB_DEVICE_CREATE_CONFIG"
 author: windows-driver-content
 description: The WDF_USB_DEVICE_CREATE_CONFIG structure contains information that the framework uses to configure a framework USB device object.
 old-location: wdf\wdf_usb_device_create_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 717DFAE8-5F10-4443-AACA-07009060C23D
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

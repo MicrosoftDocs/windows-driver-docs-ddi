@@ -4,10 +4,10 @@ title: DXGKDDI_MONITORSOURCEMODESET_RELEASEMODEINFO
 author: windows-driver-content
 description: The pfnReleaseModeInfo function releases a D3DKMDT_MONITOR_SOURCE_MODE structure that the VidPN manager previously provided to the display miniport driver.
 old-location: display\dxgk_monitorsourcemodeset_interface_pfnreleasemodeinfo.htm
-old-project: display
+tech.root: display
 ms.assetid: 2c82ec09-e858-4efc-a1c0-a3792e0b5ddf
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_RELEASEMODEINFO, DXGKDDI_MONITORSOURCEMODESET_RELEASEMODEINFO callback, VidPnFunctions_215a7f94-e7f6-46a9-9f12-ba7d306c6c18.xml, d3dkmddi/pfnReleaseModeInfo, display.dxgk_monitorsourcemodeset_interface_pfnreleasemodeinfo, pfnReleaseModeInfo, pfnReleaseModeInfo callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

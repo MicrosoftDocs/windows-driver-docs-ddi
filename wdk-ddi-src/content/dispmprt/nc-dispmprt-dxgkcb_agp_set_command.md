@@ -4,10 +4,10 @@ title: DXGKCB_AGP_SET_COMMAND
 author: windows-driver-content
 description: The AgpSetCommand function sets the AGP rate and specifies whether side band addressing and fast write transactions are enabled.
 old-location: display\agpsetcommand.htm
-old-project: display
+tech.root: display
 ms.assetid: 4440bc0f-01cb-4108-bfe8-9d5127777f00
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: AgpSetCommand, AgpSetCommand callback function [Display Devices], DXGKCB_AGP_SET_COMMAND, DXGKCB_AGP_SET_COMMAND callback, DpFunctions_7b0574a7-3c70-41e5-b7e7-908a86c2bccd.xml, display.agpsetcommand, dispmprt/AgpSetCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices

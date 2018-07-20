@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_ENDPOINT_LIST"
 author: windows-driver-content
 description: The output parameter for IOCTL_NFCSE_ENUM_ENDPOINTS.
 old-location: nfpdrivers\_secure_element_endpoint_list.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 0F69EE38-C124-47A6-B3CA-31F089657894
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

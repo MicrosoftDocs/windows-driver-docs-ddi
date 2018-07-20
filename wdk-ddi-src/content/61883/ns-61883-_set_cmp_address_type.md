@@ -4,7 +4,7 @@ title: "_SET_CMP_ADDRESS_TYPE"
 author: windows-driver-content
 description: The SET_CMP_ADDRESS_TYPE structure is used in conjunction with the Av61883_SetUnitInfo request to set the parameters that the IEC-61883 protocol driver should use when capturing and transmitting isochronous packets.
 old-location: ieee\set_cmp_address_type.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: b08588a2-d786-44c1-a265-0f7fef9ecd6a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: ZwCommitTransaction function
 author: windows-driver-content
 description: The ZwCommitTransaction routine initiates a commit operation for a specified transaction.
 old-location: kernel\zwcommittransaction.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 145646f3-ff90-41d6-bf76-947cdf93b489
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

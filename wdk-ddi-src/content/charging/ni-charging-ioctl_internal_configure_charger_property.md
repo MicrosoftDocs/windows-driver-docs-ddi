@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
 author: windows-driver-content
 description: The IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code is sent from a configurable charger to a device that handles configurable chargers. It configures charger properties.
 old-location: battery\ioctl_internal_configure_charger_property.htm
-old-project: battery
+tech.root: battery
 ms.assetid: B4D10667-29D6-45BF-87CA-D2F59DF78797
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

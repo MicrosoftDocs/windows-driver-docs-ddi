@@ -4,7 +4,7 @@ title: "_ISCSI_LUNList"
 author: windows-driver-content
 description: The ISCSI_LUNList structure defines a mapping between the LUN number that is used by the operating system and the LUN number that is configured in the iSCSI target.
 old-location: storage\iscsi_lunlist.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1c477f38-c24f-45df-ab02-62ee47c0957b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

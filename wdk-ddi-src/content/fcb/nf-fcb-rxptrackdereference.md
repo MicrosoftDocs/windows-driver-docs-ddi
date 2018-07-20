@@ -4,7 +4,7 @@ title: RxpTrackDereference function
 author: windows-driver-content
 description: RxpTrackDereference is used in checked builds to track requests to dereference SRV_CALL, NET_ROOT, V_NET_ROOT, FOBX, FCB, and SRV_OPEN structures in checked builds. A log of these dereference requests can be accessed by the logging system and WMI.
 old-location: ifsk\rxptrackdereference.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: eaff92d2-d866-4096-8528-0672255ced60
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

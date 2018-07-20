@@ -4,7 +4,7 @@ title: IoIsFileOriginRemote function
 author: windows-driver-content
 description: The IoIsFileOriginRemote routine determines whether a given file object is for a remote create request.
 old-location: ifsk\ioisfileoriginremote.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 46655cbe-0483-4897-bd12-ce108af326c6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

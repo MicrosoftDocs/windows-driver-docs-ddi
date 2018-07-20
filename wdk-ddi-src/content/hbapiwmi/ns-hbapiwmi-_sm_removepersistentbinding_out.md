@@ -4,7 +4,7 @@ title: "_SM_RemovePersistentBinding_OUT"
 author: windows-driver-content
 description: The SM_REmovePersistentBinding_OUT structure is used to receive output parameters from the SM_RemovePersistentBinding method.
 old-location: storage\sm_removepersistentbinding_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 48d236c4-709d-4a4f-a730-df5f79787fe7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

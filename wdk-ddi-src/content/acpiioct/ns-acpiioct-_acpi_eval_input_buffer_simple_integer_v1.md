@@ -4,7 +4,7 @@ title: "_ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1"
 author: windows-driver-content
 description: The ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER structure is used as input to an IOCTL_ACPI_EVAL_METHOD request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD request. The structure supplies the name of a control method and an input argument of type ULONG.
 old-location: acpi\acpi_eval_input_buffer_simple_integer.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 524e3533-e43c-44eb-b677-dbd023ab5abc
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_KEY_CACHED_INFORMATION"
 author: windows-driver-content
 description: The KEY_CACHED_INFORMATION structure holds the cached information available for a registry key or subkey.
 old-location: kernel\key_cached_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5ee72ae9-0548-480f-84de-4c09ae4be507
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

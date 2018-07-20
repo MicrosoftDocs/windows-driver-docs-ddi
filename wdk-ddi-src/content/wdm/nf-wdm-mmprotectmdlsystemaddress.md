@@ -4,7 +4,7 @@ title: MmProtectMdlSystemAddress function
 author: windows-driver-content
 description: The MmProtectMdlSystemAddress routine sets the protection type for a memory address range.
 old-location: kernel\mmprotectmdlsystemaddress.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e0ccc6e8-9351-4440-808b-e0b8eef48bc2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

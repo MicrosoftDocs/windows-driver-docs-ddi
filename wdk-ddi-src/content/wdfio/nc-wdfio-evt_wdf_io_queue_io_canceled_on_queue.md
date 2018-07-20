@@ -4,7 +4,7 @@ title: EVT_WDF_IO_QUEUE_IO_CANCELED_ON_QUEUE
 author: windows-driver-content
 description: A driver's EvtIoCanceledOnQueue event callback function informs the driver that it must complete an I/O request that the framework has removed from an I/O queue.
 old-location: wdf\evtiocanceledonqueue.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 1b938ee8-a5f3-4a1e-9beb-231d88aa5848
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

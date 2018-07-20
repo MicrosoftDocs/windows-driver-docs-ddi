@@ -4,7 +4,7 @@ title: "_SM_AddTarget_OUT"
 author: windows-driver-content
 description: The SM_AddTarget_OUT structure is used to receive output parameters from the SM_AddTarget WMI method.
 old-location: storage\sm_addtarget_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ed4e58cb-6b32-454b-9538-f9f8aa68df4c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

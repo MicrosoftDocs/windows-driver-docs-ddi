@@ -4,7 +4,7 @@ title: "_SM_GetPersistentBinding_IN"
 author: windows-driver-content
 description: The SM_GetPersistentBinding_IN structure is used to provide input parameters to the SM_GetPersistentBinding method.
 old-location: storage\sm_getpersistentbinding_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6c716394-1e82-40d2-befc-50a0ea88f750
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

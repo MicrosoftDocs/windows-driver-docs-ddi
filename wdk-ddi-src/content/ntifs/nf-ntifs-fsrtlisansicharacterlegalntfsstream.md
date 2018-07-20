@@ -4,7 +4,7 @@ title: FsRtlIsAnsiCharacterLegalNtfsStream macro
 author: windows-driver-content
 description: The FsRtlIsAnsiCharacterLegalNtfsStream macro determines whether an ANSI character is legal for NTFS stream names.
 old-location: ifsk\fsrtlisansicharacterlegalntfsstream.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2bcfa3b3-8a83-460b-9b44-1188fceb3849
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_IRB_REQ_ISOCH_TALK"
 author: windows-driver-content
 description: This structure contains the field necessary to carry out a IsochTalk request.
 old-location: ieee\irb_req_isoch_talk.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: B42852F3-BF64-44F8-8D9C-361D623CE35A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

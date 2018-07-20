@@ -4,7 +4,7 @@ title: IWDFIoTargetStateManagement::Start
 author: windows-driver-content
 description: The Start method starts sending queued requests to a local I/O target.
 old-location: wdf\iwdfiotargetstatemanagement_start.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e242b62a-7a4f-491b-b1a7-3388cf9c5a40
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

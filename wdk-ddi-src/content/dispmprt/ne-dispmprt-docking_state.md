@@ -4,10 +4,10 @@ title: DOCKING_STATE
 author: windows-driver-content
 description: The DOCKING_STATE enumeration is used to describe the state of a portable computer that can be attached to a docking station.
 old-location: display\docking_state.htm
-old-project: display
+tech.root: display
 ms.assetid: 4e051d49-57ae-43c8-a894-a6c2c277dce9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DOCKING_STATE, DOCKING_STATE enumeration [Display Devices], DmEnums_1a20e5b4-8df9-4298-8661-d7697d99e139.xml, DockStateDocked, DockStateUnDocked, DockStateUnknown, DockStateUnsupported, display.docking_state, dispmprt/DOCKING_STATE, dispmprt/DockStateDocked, dispmprt/DockStateUnDocked, dispmprt/DockStateUnknown, dispmprt/DockStateUnsupported
 ms.prod: windows-hardware
 ms.technology: windows-devices

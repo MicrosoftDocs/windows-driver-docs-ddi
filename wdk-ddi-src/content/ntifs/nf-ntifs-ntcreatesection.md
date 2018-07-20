@@ -4,7 +4,7 @@ title: NtCreateSection function
 author: windows-driver-content
 description: The ZwCreateSection routine creates a section object.
 old-location: kernel\zwcreatesection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 805d7eff-19be-47a1-acc9-1b97e5493031
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

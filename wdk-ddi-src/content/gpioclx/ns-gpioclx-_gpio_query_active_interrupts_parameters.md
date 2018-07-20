@@ -4,7 +4,7 @@ title: "_GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_QUERY_ACTIVE_INTERRUPTS_PARAMETERS structure describes a set of general-purpose I/O (GPIO) interrupt pins to query for their enabled and active states.
 old-location: gpio\gpio_query_active_interrupts_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: A3111B9C-319F-4560-B5A9-5CA6523AD935
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

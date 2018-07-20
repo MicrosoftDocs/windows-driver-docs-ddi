@@ -4,7 +4,7 @@ title: MESSAGEBOX_PARAMS
 author: windows-driver-content
 description: The MESSAGEBOX_PARAMS structure is used by the SplPromptUIInUsersSession function to hold information about the appearance and behavior of a message box.
 old-location: print\messagebox_params.htm
-old-project: print
+tech.root: print
 ms.assetid: 28a94e25-9beb-46a1-9e9d-9fe4823372be
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

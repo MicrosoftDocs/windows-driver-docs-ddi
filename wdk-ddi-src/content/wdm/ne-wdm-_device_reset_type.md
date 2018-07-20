@@ -4,7 +4,7 @@ title: "_DEVICE_RESET_TYPE"
 author: windows-driver-content
 description: The DEVICE_RESET_TYPE enumeration specifies the type of device reset that is being requested by a call to the DeviceReset routine of the GUID_DEVICE_RESET_INTERFACE_STANDARD interface.
 old-location: kernel\device_reset_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 598044D9-8B99-453C-96FE-9B04C980BB3A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

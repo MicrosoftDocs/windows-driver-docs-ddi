@@ -4,7 +4,7 @@ title: IXpsDocumentProvider::GetXpsPart
 author: windows-driver-content
 description: The GetXpsPart method retrieves several objects that make up an XPS document.
 old-location: print\ixpsdocumentprovider_getxpspart.htm
-old-project: print
+tech.root: print
 ms.assetid: 7e36cf90-a84a-447c-bec3-2b5175fffd7c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

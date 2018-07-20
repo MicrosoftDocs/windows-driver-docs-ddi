@@ -4,7 +4,7 @@ title: "_KBUGCHECK_SECONDARY_DUMP_DATA"
 author: windows-driver-content
 description: The KBUGCHECK_SECONDARY_DUMP_DATA structure describes a section of driver-supplied data to be written by BugCheckSecondaryDumpDataCallback to the crash dump file.
 old-location: kernel\kbugcheck_secondary_dump_data.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dacb98cd-46bc-49d0-8ebd-29bb2dd5b713
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

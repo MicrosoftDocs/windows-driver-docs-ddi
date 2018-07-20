@@ -4,7 +4,7 @@ title: CcPinMappedData function
 author: windows-driver-content
 description: The CcPinMappedData routine pins the specified byte range of a cached file.
 old-location: ifsk\ccpinmappeddata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: aa0903db-fced-4af9-bfc9-2769ed4962a1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

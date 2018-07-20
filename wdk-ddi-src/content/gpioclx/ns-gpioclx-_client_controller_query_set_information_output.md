@@ -4,7 +4,7 @@ title: "_CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT"
 author: windows-driver-content
 description: The CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT structure contains a set of general-purpose I/O (GPIO) controller attributes that were requested by the GPIO framework extension (GpioClx).
 old-location: gpio\client_controller_query_set_information_output.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: D145BAD6-EFE2-4B04-AF6E-F00486C78E8A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

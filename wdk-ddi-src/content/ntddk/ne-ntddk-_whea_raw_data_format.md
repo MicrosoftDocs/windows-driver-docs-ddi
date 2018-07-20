@@ -4,7 +4,7 @@ title: "_WHEA_RAW_DATA_FORMAT"
 author: windows-driver-content
 description: The WHEA_RAW_DATA_FORMAT enumeration defines the possible formats that raw hardware error data can be encoded in a hardware error packet.
 old-location: whea\whea_raw_data_format.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 809f2d72-e769-48c1-9ecf-6fa9020f6cdb
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

@@ -4,10 +4,10 @@ title: IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME
 author: windows-driver-content
 description: The IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME I/O control request retrieves the driver registry key name that is associated with the device that is connected to the indicated port.
 old-location: buses\ioctl_usb_get_node_connection_driverkey_name.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: e9826b4d-e8ac-495e-8125-7835b62011dc
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME, IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME control, IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME control code [Buses], buses.ioctl_usb_get_node_connection_driverkey_name, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME, usbirp_cdc9e1be-96fd-41d4-a0d3-1303b0b4fb1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

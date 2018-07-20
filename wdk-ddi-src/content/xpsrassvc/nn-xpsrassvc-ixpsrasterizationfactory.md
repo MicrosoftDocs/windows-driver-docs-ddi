@@ -4,7 +4,7 @@ title: IXpsRasterizationFactory
 author: windows-driver-content
 description: The IXpsRasterizationFactory interface represents an object factory for creating XPS rasterizer objects.
 old-location: print\ixpsrasterizationfactory_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 559bdc65-282e-42b2-998a-276202376c1e
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

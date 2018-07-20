@@ -4,7 +4,7 @@ title: StorPortEtwEvent2 function
 author: windows-driver-content
 description: The StorPortEtwEvent2 publishes an Event Tracing for Windows (ETW) event to a storage trace channel. The miniport can log two general purpose ETW parameters. The ETW parameters are expressed as two name-value pairs.
 old-location: storage\storportetwevent2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: A390D684-C675-4140-8E8E-8330FB3192E4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IXpsRasterizationFactory::CreateRasterizer
 author: windows-driver-content
 description: The CreateRasterize method creates an XPS rasterizer object.
 old-location: print\ixpsrasterizationfactory_createrasterizer.htm
-old-project: print
+tech.root: print
 ms.assetid: 07d4f1ed-5dbe-47c1-96e8-dfe21e0c1d0d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

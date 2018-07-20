@@ -4,7 +4,7 @@ title: "_SECTION_OBJECT_POINTERS"
 author: windows-driver-content
 description: The SECTION_OBJECT_POINTERS structure, allocated by a file system or a redirector driver, is used by the memory manager and cache manager to store file-mapping and cache-related information for a file stream.
 old-location: kernel\section_object_pointers.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ce867f4f-f091-4a85-96b8-7da6b528a6cc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: PEPCALLBACKPOWERONCRASHDUMPDEVICE
 author: windows-driver-content
 description: The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device.
 old-location: kernel\powerondumpdevicecallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 83E5D362-BC3C-4480-9904-6ABBB26DAFF2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

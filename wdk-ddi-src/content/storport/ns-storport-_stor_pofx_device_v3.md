@@ -4,7 +4,7 @@ title: "_STOR_POFX_DEVICE_V3"
 author: windows-driver-content
 description: The STOR_POFX_DEVICE_V3 structure describes the power attributes of a storage device to the power management framework (PoFx).
 old-location: storage\stor_pofx_device_v3.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 49B03A5F-9F96-4F0B-AC52-ADBDC8ED03B2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

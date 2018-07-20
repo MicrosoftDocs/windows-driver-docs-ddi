@@ -4,10 +4,10 @@ title: "_WIA_PROPERTY_CONTEXT"
 author: windows-driver-content
 description: The WIA_PROPERTY_CONTEXT structure stores property identifiers and their context.
 old-location: image\wia_property_context.htm
-old-project: image
+tech.root: image
 ms.assetid: afe92cb5-519a-46a3-a66d-c01b6a2c780b
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: "*PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT structure pointer [Imaging Devices], WIA_PROPERTY_CONTEXT, WIA_PROPERTY_CONTEXT structure [Imaging Devices], _WIA_PROPERTY_CONTEXT, image.wia_property_context, wiamindr_lh/PWIA_PROPERTY_CONTEXT, wiamindr_lh/WIA_PROPERTY_CONTEXT, wiastrct_044e9a49-3276-42f5-a903-d21969cf6168.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

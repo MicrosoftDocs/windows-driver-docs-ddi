@@ -4,7 +4,7 @@ title: KsFreeObjectBag function
 author: windows-driver-content
 description: The KsFreeObjectBag function empties and frees an object bag.
 old-location: stream\ksfreeobjectbag.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d0bc4e8b-b173-4568-8c0f-7b87fd84e2cf
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

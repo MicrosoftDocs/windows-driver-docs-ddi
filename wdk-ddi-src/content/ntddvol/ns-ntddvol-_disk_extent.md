@@ -4,7 +4,7 @@ title: "_DISK_EXTENT"
 author: windows-driver-content
 description: The DISK_EXTENT structure contains information defining the location and length of a volume extent on a disk.
 old-location: storage\disk_extent.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 74ffdfba-1b80-479d-9637-43222a438fa9
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

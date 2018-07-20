@@ -4,7 +4,7 @@ title: MmIsDriverVerifyingByAddress function
 author: windows-driver-content
 description: The MmIsDriverVerifyingByAddress routine checks whether the kernel-mode driver that is identified by the specified image address is being verified or calls a driver that is being verified by Driver Verifier.
 old-location: kernel\mmisdriververifyingbyaddress.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ccc20b5b-0f16-422d-8900-03b57f08b1bc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

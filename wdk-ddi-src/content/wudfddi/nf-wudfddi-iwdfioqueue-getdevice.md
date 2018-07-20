@@ -4,7 +4,7 @@ title: IWDFIoQueue::GetDevice
 author: windows-driver-content
 description: The GetDevice method retrieves the interface to the device that owns the I/O queue.
 old-location: wdf\iwdfioqueue_getdevice.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: e1c1a67e-a18d-4eef-88ce-cd7edd371f54
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

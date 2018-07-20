@@ -4,7 +4,7 @@ title: RtlEqualPrefixSid function
 author: windows-driver-content
 description: The RtlEqualPrefixSid routine determines whether two security-identifier (SID) prefixes are equal. An SID prefix is the entire SID except for the last subauthority value.
 old-location: ifsk\rtlequalprefixsid.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 6db96d3b-721f-40d5-8f8d-54cdd33f85c8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

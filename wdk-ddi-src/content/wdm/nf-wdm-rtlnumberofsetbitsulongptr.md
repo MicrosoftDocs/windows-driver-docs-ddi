@@ -4,7 +4,7 @@ title: RtlNumberOfSetBitsUlongPtr function
 author: windows-driver-content
 description: The RtlNumberOfSetBitsUlongPtr routine returns the number of bits in the specified ULONG_PTR integer value that are set to one.
 old-location: kernel\rtlnumberofsetbitsulongptr.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: CD619018-7E6D-4B45-93C3-AD89FDFEB1E9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

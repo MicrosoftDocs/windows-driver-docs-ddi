@@ -4,7 +4,7 @@ title: FltPrePrepareComplete function
 author: windows-driver-content
 description: The FltPrePrepareComplete routine acknowledges a TRANSACTION_NOTIFY_PREPREPARE notification.
 old-location: ifsk\fltprepreparecomplete.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f4049af3-3a6f-40fc-a2a7-fd081b27170e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IWDTFTarget2::GetRelations
 author: windows-driver-content
 description: Returns a collection of related targets.
 old-location: dtf\iwdtftarget2_getrelations.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 15622472-808b-4d9e-ac59-ca5c9efbff7c
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,10 +4,10 @@ title: IOCTL_USB_GET_HUB_CAPABILITIES
 author: windows-driver-content
 description: The IOCTL_USB_GET_HUB_CAPABILITIES I/O control request retrieves the capabilities of a USB hub.
 old-location: buses\ioctl_usb_get_hub_capabilities.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 2275b197-6298-470f-bb96-91088d763160
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_USB_GET_HUB_CAPABILITIES, IOCTL_USB_GET_HUB_CAPABILITIES control, IOCTL_USB_GET_HUB_CAPABILITIES control code [Buses], buses.ioctl_usb_get_hub_capabilities, usbioctl/IOCTL_USB_GET_HUB_CAPABILITIES, usbirp_0db4e801-763f-4d2f-aedf-2e3798fb191c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

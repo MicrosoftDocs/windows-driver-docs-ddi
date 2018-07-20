@@ -4,7 +4,7 @@ title: IPrintOemUI::DocumentPropertySheets
 author: windows-driver-content
 description: The IPrintOemUI::DocumentPropertySheets method allows a user interface plug-in to append a new page to a printer device's document property sheet.
 old-location: print\iprintoemui_documentpropertysheets.htm
-old-project: print
+tech.root: print
 ms.assetid: a8c7eb0d-792f-4a6c-af47-bb4558feb790
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

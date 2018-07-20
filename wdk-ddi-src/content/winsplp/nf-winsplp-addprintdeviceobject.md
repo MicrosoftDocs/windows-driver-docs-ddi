@@ -4,7 +4,7 @@ title: AddPrintDeviceObject function
 author: windows-driver-content
 description: The AddPrintDeviceObject print provider function creates a device object for a print provider queue.
 old-location: print\addprintdeviceobject.htm
-old-project: print
+tech.root: print
 ms.assetid: C01071FD-7D1D-4D6F-AFDD-355FFDA699EA
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

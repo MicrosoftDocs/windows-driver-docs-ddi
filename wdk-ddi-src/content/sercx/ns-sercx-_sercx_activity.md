@@ -4,7 +4,7 @@ title: "_SERCX_ACTIVITY"
 author: windows-driver-content
 description: The SERCX_ACTIVITY structure contains a summary of work items that are ready for the serial controller driver to process.
 old-location: serports\sercx_activity.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 743AA179-3FD1-4528-9A78-5ECC53642D55
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

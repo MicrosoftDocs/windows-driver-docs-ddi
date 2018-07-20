@@ -4,7 +4,7 @@ title: KeTryToAcquireSpinLockAtDpcLevel function
 author: windows-driver-content
 description: The KeTryToAcquireSpinLockAtDpcLevel routine attempts to acquire a spin lock at DISPATCH_LEVEL.
 old-location: kernel\ketrytoacquirespinlockatdpclevel.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b7791969-027e-4df7-b720-1eb612597c56
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

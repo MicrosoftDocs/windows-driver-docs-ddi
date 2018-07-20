@@ -4,7 +4,7 @@ title: "_MPIO_DRIVE_INFO"
 author: windows-driver-content
 description: The MPIO_DRIVE_INFO structure represents a multi-path disk in the system.
 old-location: storage\mpio_drive_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 38d79fae-9701-4e92-bf73-4732e02c17ab
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

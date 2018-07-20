@@ -4,7 +4,7 @@ title: "_MSFC_AdapterEvent"
 author: windows-driver-content
 description: The MSFC_AdapterEvent structure is used by HBA miniport drivers that support the T11 committee's Fibre Channel HBA API specification to report adapter events to WMI clients that have registered to be notified of these events.
 old-location: storage\msfc_adapterevent.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 235300a1-3941-4f9c-8327-4ce174493f3e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

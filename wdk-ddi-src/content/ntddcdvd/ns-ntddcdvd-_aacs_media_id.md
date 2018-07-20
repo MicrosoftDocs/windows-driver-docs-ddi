@@ -4,7 +4,7 @@ title: "_AACS_MEDIA_ID"
 author: windows-driver-content
 description: The AACS_MEDIA_ID structure contains an Advanced Access Content System (AACS) media identifier and corresponding message authentication code (MAC).
 old-location: storage\aacs_media_id.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 56be82fc-c438-4cd1-8fcc-1184699f03e6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

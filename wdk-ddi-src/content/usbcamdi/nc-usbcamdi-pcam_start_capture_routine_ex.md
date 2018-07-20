@@ -4,7 +4,7 @@ title: PCAM_START_CAPTURE_ROUTINE_EX
 author: windows-driver-content
 description: A camera minidriver's CamStartCaptureEx callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
 old-location: stream\camstartcaptureex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ab2222ed-3166-4984-b76c-5499879f91d5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

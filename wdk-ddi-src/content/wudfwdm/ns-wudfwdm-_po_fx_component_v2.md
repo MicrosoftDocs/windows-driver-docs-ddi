@@ -4,7 +4,7 @@ title: "_PO_FX_COMPONENT_V2"
 author: windows-driver-content
 description: The PO_FX_COMPONENT structure describes the power state attributes of a component in a device.
 old-location: kernel\po_fx_component.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4ACCA041-C638-4124-AFC1-3F34671C9EF8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

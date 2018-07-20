@@ -4,7 +4,7 @@ title: "_SendRPS_OUT"
 author: windows-driver-content
 description: The SendRPS_OUT structure is used to report the output parameter data of the SendRPS WMI method to the WMI client.
 old-location: storage\sendrps_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5d243704-7424-4738-b122-6b9467eb5916
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

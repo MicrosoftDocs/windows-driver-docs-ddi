@@ -4,7 +4,7 @@ title: SerCxGetWaitMask function
 author: windows-driver-content
 description: The SerCxGetWaitMask method returns the event wait mask for the wait operation that is currently pending.
 old-location: serports\sercxgetwaitmask.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 57A8E522-D787-4663-B2E3-46E8430388B7
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

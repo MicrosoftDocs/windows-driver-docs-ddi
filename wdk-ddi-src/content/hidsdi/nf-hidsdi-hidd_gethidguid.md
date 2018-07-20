@@ -4,7 +4,7 @@ title: HidD_GetHidGuid function
 author: windows-driver-content
 description: The HidD_GetHidGuid routine returns the device interfaceGUID for HIDClass devices.
 old-location: hid\hidd_gethidguid.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 552b607e-65c7-4595-9adb-b9c2f4301afd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

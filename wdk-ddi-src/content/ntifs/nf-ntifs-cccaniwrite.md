@@ -4,7 +4,7 @@ title: CcCanIWrite function
 author: windows-driver-content
 description: The CcCanIWrite routine determines whether the caller can write to a cached file.
 old-location: ifsk\cccaniwrite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 04b1521f-906f-493d-9ca6-6d97c6a80bdb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

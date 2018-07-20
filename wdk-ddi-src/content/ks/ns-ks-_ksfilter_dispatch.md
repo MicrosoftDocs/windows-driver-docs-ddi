@@ -4,7 +4,7 @@ title: "_KSFILTER_DISPATCH"
 author: windows-driver-content
 description: The KSFILTER_DISPATCH structure describes the client callbacks that are made to notify the client of certain events on a given filter type.
 old-location: stream\ksfilter_dispatch.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 3b84c06f-774e-45e1-9a64-711749bb3a88
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_BDA_DISEQC_RESPONSE"
 author: windows-driver-content
 description: "."
 old-location: stream\bda_diseqc_response.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 724FD17B-D12B-423D-AA0E-93D9D31DC93E
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

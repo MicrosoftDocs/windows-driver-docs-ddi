@@ -4,7 +4,7 @@ title: IWDFDevice3::GetHardwareRegisterMappedAddress
 author: windows-driver-content
 description: A driver calls GetHardwareRegisterMappedAddress to get the user-mode mapped address of the memory resource it earlier mapped using MapIoSpace.
 old-location: wdf\iwdfdevice3_gethardwareregistermappedaddress.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 94852404-301F-4C09-81D2-CEDEECFCD6BD
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

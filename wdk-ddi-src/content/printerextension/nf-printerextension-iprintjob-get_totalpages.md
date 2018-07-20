@@ -4,7 +4,7 @@ title: IPrintJob::get_TotalPages
 author: windows-driver-content
 description: Gets the total number of pages that the document contains.
 old-location: print\iprintjob_totalpages.htm
-old-project: print
+tech.root: print
 ms.assetid: 1035337F-2EDD-4538-AF39-3828B6DE424B
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

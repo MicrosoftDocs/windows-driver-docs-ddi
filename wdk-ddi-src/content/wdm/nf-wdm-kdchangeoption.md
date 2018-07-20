@@ -4,7 +4,7 @@ title: KdChangeOption function
 author: windows-driver-content
 description: The KdChangeOption routine accesses and changes state in the kernel that is related to kernel debugging.
 old-location: devtest\kdchangeoption.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 6f93b62b-6dc2-417b-9e1c-44be628c489c
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

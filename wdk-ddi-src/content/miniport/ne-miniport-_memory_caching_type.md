@@ -4,7 +4,7 @@ title: "_MEMORY_CACHING_TYPE"
 author: windows-driver-content
 description: The MEMORY_CACHING_TYPE enumeration type specifies the permitted caching behavior when allocating or mapping memory.
 old-location: kernel\memory_caching_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 14cde545-e9bb-4b96-ba10-a63595e8a107
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

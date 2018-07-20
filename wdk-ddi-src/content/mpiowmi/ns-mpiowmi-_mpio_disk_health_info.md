@@ -4,7 +4,7 @@ title: "_MPIO_DISK_HEALTH_INFO"
 author: windows-driver-content
 description: The MPIO_DISK_HEALTH_INFO structure is used to query the available health information for every multi-path disk in the system.
 old-location: storage\mpio_disk_health_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 20813e29-907f-42b0-9229-a9ef78f46e1d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

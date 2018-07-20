@@ -4,7 +4,7 @@ title: PoFxSetDeviceIdleTimeout function
 author: windows-driver-content
 description: The PoFxSetDeviceIdleTimeout routine specifies the minimum time interval from when the last component of the device enters the idle condition to when the power management framework (PoFx) calls the driver's DevicePowerNotRequiredCallback routine.
 old-location: kernel\pofxsetdeviceidletimeout.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8378D5F1-92AC-4C59-BA66-68246C011199
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

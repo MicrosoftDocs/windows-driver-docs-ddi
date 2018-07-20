@@ -4,7 +4,7 @@ title: PsReferenceSiloContext function
 author: windows-driver-content
 description: This routine increments the reference count on the object.
 old-location: kernel\psreferencesilocontext.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 04867D53-DB36-482A-93BF-C91D13998B3F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

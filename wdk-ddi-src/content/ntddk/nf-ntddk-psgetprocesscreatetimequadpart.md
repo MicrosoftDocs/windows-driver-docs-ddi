@@ -4,7 +4,7 @@ title: PsGetProcessCreateTimeQuadPart function
 author: windows-driver-content
 description: The PsGetProcessCreateTimeQuadPart routine returns a LONGLONG value that represents the time at which the process was created.
 old-location: kernel\psgetprocesscreatetimequadpart.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d202b6d9-9964-4c95-acd3-f641e8f9d879
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

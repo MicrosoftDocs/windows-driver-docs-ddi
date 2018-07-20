@@ -4,7 +4,7 @@ title: "_MS_SMHBA_SAS_PHY"
 author: windows-driver-content
 description: The MS_SMHBA_SAS_PHY structure is used to report the SAS physical port information.
 old-location: storage\ms_smhba_sas_phy.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9bbf2f63-4479-47ee-a014-78b13deccb4c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

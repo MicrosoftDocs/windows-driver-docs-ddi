@@ -4,10 +4,10 @@ title: CWiaLogProc::CWiaLogProc
 author: windows-driver-content
 description: The CWiaLogProc constructor is called when the function or method being logged is entered.
 old-location: image\cwialogproc_cwialogproc.htm
-old-project: image
+tech.root: image
 ms.assetid: FB963A5D-ACB2-4720-95D1-0CA1661A99C9
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: CWiaLogProc, CWiaLogProc interface [Imaging Devices],CWiaLogProc method, CWiaLogProc method [Imaging Devices], CWiaLogProc method [Imaging Devices],CWiaLogProc interface, CWiaLogProc.CWiaLogProc, CWiaLogProc::CWiaLogProc, image.cwialogproc_cwialogproc, wiamdef/CWiaLogProc::CWiaLogProc
 ms.prod: windows-hardware
 ms.technology: windows-devices

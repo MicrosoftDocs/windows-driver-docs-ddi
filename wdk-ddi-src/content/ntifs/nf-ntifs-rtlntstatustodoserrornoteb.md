@@ -4,7 +4,7 @@ title: RtlNtStatusToDosErrorNoTeb function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtlntstatustodoserrornoteb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: be22fb7f-408a-44ee-ae83-0f1dadcec87f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

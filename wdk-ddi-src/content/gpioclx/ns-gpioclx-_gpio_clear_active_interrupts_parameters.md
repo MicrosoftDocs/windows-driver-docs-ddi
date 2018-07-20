@@ -4,7 +4,7 @@ title: "_GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS"
 author: windows-driver-content
 description: The GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure describes a set of general-purpose I/O (GPIO) interrupt pins to clear.
 old-location: gpio\gpio_clear_active_interrupts_parameters.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 71DC78B0-F987-4FFB-B3D0-E7AD88EECDA3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

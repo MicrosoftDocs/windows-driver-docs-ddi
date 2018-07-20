@@ -4,7 +4,7 @@ title: WcsGetDefaultColorProfileSize function
 author: windows-driver-content
 description: The WcsGetDefaultColorProfileSize function returns the size, in bytes, of the default color profile name for a device, including the NULL terminator.
 old-location: print\wcsgetdefaultcolorprofilesize.htm
-old-project: print
+tech.root: print
 ms.assetid: d04306e2-3479-4ba4-ac4d-bf3715487fcf
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

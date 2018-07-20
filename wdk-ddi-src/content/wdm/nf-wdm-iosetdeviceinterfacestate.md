@@ -4,7 +4,7 @@ title: IoSetDeviceInterfaceState function
 author: windows-driver-content
 description: The IoSetDeviceInterfaceState routine enables or disables an instance of a previously registered device interface class.
 old-location: kernel\iosetdeviceinterfacestate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 071b5f2a-7129-4de5-9577-f2aa22f23765
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

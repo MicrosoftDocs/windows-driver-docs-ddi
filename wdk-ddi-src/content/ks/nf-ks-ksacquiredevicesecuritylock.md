@@ -4,7 +4,7 @@ title: KsAcquireDeviceSecurityLock function
 author: windows-driver-content
 description: The KsAcquireDeviceSecurityLock function acquires the security lock associated with a device object.
 old-location: stream\ksacquiredevicesecuritylock.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a5a003c1-fa35-461d-8a47-a1a7bc2375b4
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

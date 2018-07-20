@@ -4,7 +4,7 @@ title: IoReadPartitionTable function
 author: windows-driver-content
 description: The IoReadPartitionTable routine is obsolete and is provided only to support existing drivers.
 old-location: storage\ioreadpartitiontable.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f87c74c3-fcb1-4358-ade6-6c0afc0020e2
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

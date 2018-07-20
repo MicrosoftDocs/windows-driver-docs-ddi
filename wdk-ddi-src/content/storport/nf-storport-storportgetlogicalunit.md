@@ -4,7 +4,7 @@ title: StorPortGetLogicalUnit function
 author: windows-driver-content
 description: The StorPortGetLogicalUnit routine returns a pointer to the miniport driver's per-logical-unit storage area.
 old-location: storage\storportgetlogicalunit.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c8972d8b-9eba-4276-af63-1096a76b104f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

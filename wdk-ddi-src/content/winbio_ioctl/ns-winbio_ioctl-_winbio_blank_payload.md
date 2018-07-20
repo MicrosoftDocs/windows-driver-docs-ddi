@@ -4,7 +4,7 @@ title: "_WINBIO_BLANK_PAYLOAD"
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_RESET and IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTLs return the WINBIO_BLANK_PAYLOAD structure as output.
 old-location: biometric\winbio_blank_payload.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 0bc28853-1c00-42d3-a269-198093d64dd7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

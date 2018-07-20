@@ -4,7 +4,7 @@ title: FltStartFiltering function
 author: windows-driver-content
 description: FltStartFiltering starts filtering for a registered minifilter driver.
 old-location: ifsk\fltstartfiltering.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fc24e764-d584-4927-942f-3b8b4b83af79
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

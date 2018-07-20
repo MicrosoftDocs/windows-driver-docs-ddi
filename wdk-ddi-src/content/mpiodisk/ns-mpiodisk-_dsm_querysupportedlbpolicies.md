@@ -4,7 +4,7 @@ title: "_DSM_QuerySupportedLBPolicies"
 author: windows-driver-content
 description: The DSM_QuerySupportedLBPolicies structure is used to query the list of load balance policies that are supported on the LUN.
 old-location: storage\dsm_querysupportedlbpolicies.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c9c04601-783a-454d-a80e-be8aa5df519a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

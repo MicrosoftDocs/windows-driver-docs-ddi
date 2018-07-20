@@ -4,7 +4,7 @@ title: WCS_PROFILE_MANAGEMENT_SCOPE
 author: windows-driver-content
 description: The WCS_PROFILE_MANAGEMENT_SCOPE enumeration is used to specify the scope of a profile management operation, such as associating a profile with a device.
 old-location: print\wcs_profile_management_scope.htm
-old-project: print
+tech.root: print
 ms.assetid: 85909f39-7923-4e2a-ad37-66b071775b5f
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

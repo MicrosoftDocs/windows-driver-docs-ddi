@@ -4,7 +4,7 @@ title: "_MP_STORAGE_DIAGNOSTIC_TARGET_TYPE"
 author: windows-driver-content
 description: The MP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration specifies the target type of a storage diagnostic.
 old-location: storage\mp_storage_diagnostic_target_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1A48FC0F-7ED2-4F9F-8B61-A498B0D13FE8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: CcSetFileSizes function
 author: windows-driver-content
 description: The CcSetFileSizes routine updates the cache maps and section object for a cached file whose size has changed.
 old-location: ifsk\ccsetfilesizes.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1fc92167-ceab-4f8e-bd80-a8f1821846ed
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

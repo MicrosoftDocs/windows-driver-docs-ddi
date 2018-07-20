@@ -4,7 +4,7 @@ title: "_CHANNEL_CONFIG_PARAMETERS_ENHANCED"
 author: windows-driver-content
 description: The CHANNEL_CONFIG_PARAMETERS_ENHANCED structure describes configuration parameters for inbound and outbound directions of an L2CAP channel.
 old-location: bltooth\channel_config_parameters_enhanced.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 4C28FD6E-A1DD-4887-95B0-6028ECA18204
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

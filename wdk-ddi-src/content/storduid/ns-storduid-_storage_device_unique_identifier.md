@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_UNIQUE_IDENTIFIER"
 author: windows-driver-content
 description: The STORAGE_DEVICE_UNIQUE_IDENTIFIER structure defines a device unique identifier (DUID).
 old-location: storage\storage_device_unique_identifier.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 02de3382-031a-4d42-b349-786248da9c5c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

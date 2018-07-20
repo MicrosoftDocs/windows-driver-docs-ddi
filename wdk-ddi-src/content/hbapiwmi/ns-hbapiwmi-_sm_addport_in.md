@@ -4,7 +4,7 @@ title: "_SM_AddPort_IN"
 author: windows-driver-content
 description: The SM_AddPort_IN structure is used to provide input parameters to the SM_AddPort WMI method.
 old-location: storage\sm_addport_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 29b05fa7-0393-47df-a77e-63745c0cd1e1
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

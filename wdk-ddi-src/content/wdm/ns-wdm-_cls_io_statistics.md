@@ -4,7 +4,7 @@ title: "_CLS_IO_STATISTICS"
 author: windows-driver-content
 description: The CLFS_IO_STATISTICS structure holds I/O statistics data for a Common Log File System (CLFS) log.
 old-location: kernel\clfs_io_statistics.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 054d1673-0c1a-4ceb-821a-d61bf28392cf
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

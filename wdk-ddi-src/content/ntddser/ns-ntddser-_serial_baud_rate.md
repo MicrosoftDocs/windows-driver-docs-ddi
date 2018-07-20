@@ -4,7 +4,7 @@ title: "_SERIAL_BAUD_RATE"
 author: windows-driver-content
 description: The SERIAL_BAUD_RATE structure specifies the baud rate at which a serial port is currently configured to transmit and receive data.
 old-location: serports\serial_baud_rate.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 1534B7AC-8968-4AE2-A871-D8F4D4E45CA1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

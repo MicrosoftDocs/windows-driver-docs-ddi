@@ -4,7 +4,7 @@ title: IPrinterPropertyBag::GetInt32
 author: windows-driver-content
 description: Reads an integer property.
 old-location: print\iprinterpropertybag_getint32.htm
-old-project: print
+tech.root: print
 ms.assetid: AFB73FA6-0979-4CED-8AB9-9D0FDD6C37E8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

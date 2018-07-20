@@ -4,7 +4,7 @@ title: SCSIWMIGUIDREGINFO
 author: windows-driver-content
 description: The SCSIWMIGUIDREGINFO structure contains information about a given data or event block supported by a SCSI miniport driver.
 old-location: storage\scsiwmiguidreginfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 7116445e-751b-478a-8e58-8f5c90d06b9b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

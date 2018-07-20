@@ -4,7 +4,7 @@ title: IOCTL_HID_GET_FEATURE
 author: windows-driver-content
 description: The IOCTL_HID_GET_FEATURE request returns a feature report associated with a top-level collection.
 old-location: hid\ioctl_hid_get_feature2.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 86ae1bd2-8c19-47e4-a551-f039d2eb8f47
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

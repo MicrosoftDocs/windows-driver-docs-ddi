@@ -4,7 +4,7 @@ title: "_GetFC4Statistics_IN"
 author: windows-driver-content
 description: The GetFC4Statistics_IN structure is used to pass input parameter data to the GetFC4Statistics WMI method.
 old-location: storage\getfc4statistics_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 10e3c823-97e3-47e9-8545-94cd186e5b59
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

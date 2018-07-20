@@ -4,7 +4,7 @@ title: KdBreakPointWithStatus macro
 author: windows-driver-content
 description: The KdBreakPointWithStatus macro breaks into the kernel debugger and sends the value of Status to the debugger.
 old-location: devtest\kdbreakpointwithstatus.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 0b7f2f55-f7b8-415b-b683-3b6b96f84eb3
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

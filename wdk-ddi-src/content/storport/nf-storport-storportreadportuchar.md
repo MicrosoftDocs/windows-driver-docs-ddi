@@ -4,7 +4,7 @@ title: StorPortReadPortUchar macro
 author: windows-driver-content
 description: The StorPortReadPortUchar routine reads a value from a specified port address
 old-location: storage\storportreadportuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6898ca45-e4a2-41ad-a47e-6dfbcc60b00a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

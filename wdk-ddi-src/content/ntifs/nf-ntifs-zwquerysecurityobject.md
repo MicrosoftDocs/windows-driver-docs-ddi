@@ -4,7 +4,7 @@ title: ZwQuerySecurityObject function
 author: windows-driver-content
 description: The ZwQuerySecurityObject routine retrieves a copy of an object's security descriptor.
 old-location: kernel\zwquerysecurityobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: bc3c494d-890c-4699-a272-62cbcc234cdd
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

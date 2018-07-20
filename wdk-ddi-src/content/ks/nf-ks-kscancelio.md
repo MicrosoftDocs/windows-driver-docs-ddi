@@ -4,7 +4,7 @@ title: KsCancelIo function
 author: windows-driver-content
 description: The KsCancelIo function cancels all IRPs on the specified cancel list. If an IRP on the list does not have a cancel routine, only the cancel bit is set in the IRP. The function can be called at IRQ level DISPATCH_LEVEL or lower.
 old-location: stream\kscancelio.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 082a63d5-5ba5-4cd3-aea3-0184317e1e96
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

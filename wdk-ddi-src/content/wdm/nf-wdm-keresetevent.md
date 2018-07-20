@@ -4,7 +4,7 @@ title: KeResetEvent function
 author: windows-driver-content
 description: The KeResetEvent routine resets a specified event object to a not-signaled state and returns the previous state of that event object.
 old-location: kernel\keresetevent.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 90be986b-e63e-4ae3-a0f3-87f6f58583dc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

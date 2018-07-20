@@ -4,7 +4,7 @@ title: "_FILE_ZERO_DATA_INFORMATION_EX"
 author: windows-driver-content
 description: Contains a range of a file to set to zeros.
 old-location: ifsk\file_zero_data_information_ex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 429C644C-C784-4C0E-96C3-EC82698F6624
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_WMILIB_CONTEXT"
 author: windows-driver-content
 description: The WMILIB_CONTEXT structure provides registration information for a driver's data blocks and event blocks and defines entry points for the driver's WMI library callback routines.
 old-location: kernel\wmilib_context.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c9319f35-9745-47c4-a98d-4321e0d39f86
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

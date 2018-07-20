@@ -4,7 +4,7 @@ title: "_REG_QUERY_VALUE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_QUERY_VALUE_KEY_INFORMATION structure contains information about a registry key's value entry that is being queried.
 old-location: kernel\reg_query_value_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 235942ee-374e-4071-a761-793a96beab36
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

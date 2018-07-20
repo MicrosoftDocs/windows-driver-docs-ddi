@@ -4,7 +4,7 @@ title: AtaPortWritePortUchar function
 author: windows-driver-content
 description: The AtaPortWritePortUchar routine transfers an unsigned byte to the HBA.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ataportwriteportuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2585da94-babe-479f-8957-adaa9190451e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

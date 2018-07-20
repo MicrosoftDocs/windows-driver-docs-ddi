@@ -4,7 +4,7 @@ title: "__PUBLIC_OBJECT_TYPE_INFORMATION"
 author: windows-driver-content
 description: The PUBLIC_OBJECT_TYPE_INFORMATION structure holds the type name of the object.
 old-location: ifsk\public_object_type_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7b80c3df-befe-4648-ab61-78cfb8d4b7ef
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

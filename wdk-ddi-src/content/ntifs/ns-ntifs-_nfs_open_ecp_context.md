@@ -4,7 +4,7 @@ title: "_NFS_OPEN_ECP_CONTEXT"
 author: windows-driver-content
 description: The NFS_OPEN_ECP_CONTEXT structure is used by the Network File System (NFS) server to open files in response to client requests.
 old-location: ifsk\nfs_open_ecp_context.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f3600dca-d246-41b5-99b4-4054e677b03b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

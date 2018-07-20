@@ -4,7 +4,7 @@ title: "_PS_CREATE_NOTIFY_INFO"
 author: windows-driver-content
 description: The PS_CREATE_NOTIFY_INFO structure provides information about a newly created process.
 old-location: kernel\ps_create_notify_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 66fade6b-b1c1-477c-bd44-2809d02271f2
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

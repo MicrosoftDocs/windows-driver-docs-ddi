@@ -4,7 +4,7 @@ title: "_SendTargets_IN"
 author: windows-driver-content
 description: The SendTargets_IN structure holds the input data for the SendTargets method.
 old-location: storage\sendtargets_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: fa6af43c-4fbd-43b5-9c3d-61254dfe894f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

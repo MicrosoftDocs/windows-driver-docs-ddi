@@ -4,7 +4,7 @@ title: ClfsAlignReservedLog function
 author: windows-driver-content
 description: The ClfsAlignReservedLog routine calculates the size of the space that must be reserved for a specified set of records. The size calculation includes the space required for headers and the space required for sector alignment.
 old-location: kernel\clfsalignreservedlog.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b79f58bb-af94-4143-9e30-6f50d85cbb3d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

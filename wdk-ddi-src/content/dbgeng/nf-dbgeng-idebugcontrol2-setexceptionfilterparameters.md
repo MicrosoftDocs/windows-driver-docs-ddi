@@ -4,10 +4,10 @@ title: IDebugControl2::SetExceptionFilterParameters
 author: windows-driver-content
 description: The SetExceptionFilterParameters method changes the break status and handling status for some exception filters.
 old-location: debugger\setexceptionfilterparameters.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: b749f96d-d04a-48f2-9012-b7c853e0de14
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugControl interface [Windows Debugging],SetExceptionFilterParameters method, IDebugControl2 interface [Windows Debugging],SetExceptionFilterParameters method, IDebugControl2.SetExceptionFilterParameters, IDebugControl2::SetExceptionFilterParameters, IDebugControl3 interface [Windows Debugging],SetExceptionFilterParameters method, IDebugControl3::SetExceptionFilterParameters, IDebugControl::SetExceptionFilterParameters, IDebugControl_4e60bce4-e40d-46b6-83ad-55559b97fbad.xml, SetExceptionFilterParameters, SetExceptionFilterParameters method [Windows Debugging], SetExceptionFilterParameters method [Windows Debugging],IDebugControl interface, SetExceptionFilterParameters method [Windows Debugging],IDebugControl2 interface, SetExceptionFilterParameters method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetExceptionFilterParameters, dbgeng/IDebugControl3::SetExceptionFilterParameters, dbgeng/IDebugControl::SetExceptionFilterParameters, debugger.setexceptionfilterparameters
 ms.prod: windows-hardware
 ms.technology: windows-devices

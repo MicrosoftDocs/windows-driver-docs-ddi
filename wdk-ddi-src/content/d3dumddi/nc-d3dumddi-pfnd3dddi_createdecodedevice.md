@@ -4,10 +4,10 @@ title: PFND3DDDI_CREATEDECODEDEVICE
 author: windows-driver-content
 description: The CreateDecodeDevice function creates a Microsoft DirectX Video Acceleration (DirectX VA) decode device that is used to decode video.
 old-location: display\createdecodedevice.htm
-old-project: display
+tech.root: display
 ms.assetid: 4d9a062a-2fdf-4e55-a335-c03c5d5665ff
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: CreateDecodeDevice, CreateDecodeDevice callback function [Display Devices], PFND3DDDI_CREATEDECODEDEVICE, PFND3DDDI_CREATEDECODEDEVICE callback, UserModeDisplayDriver_Functions_a6618d5f-ea60-467f-bc0b-e1fe3ee268fe.xml, d3dumddi/CreateDecodeDevice, display.createdecodedevice
 ms.prod: windows-hardware
 ms.technology: windows-devices

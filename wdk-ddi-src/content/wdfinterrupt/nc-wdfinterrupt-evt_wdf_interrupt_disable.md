@@ -4,7 +4,7 @@ title: EVT_WDF_INTERRUPT_DISABLE
 author: windows-driver-content
 description: A driver's EvtInterruptDisable event callback function disables a specified hardware interrupt.
 old-location: wdf\evtinterruptdisable.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a9d5e3cd-2e95-4ad6-9380-64fe4df9e27f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

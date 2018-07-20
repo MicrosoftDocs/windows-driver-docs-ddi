@@ -4,7 +4,7 @@ title: IoGetDriverObjectExtension function
 author: windows-driver-content
 description: The IoGetDriverObjectExtension routine retrieves a previously allocated per-driver context area.
 old-location: kernel\iogetdriverobjectextension.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ce983953-53fc-4a32-8072-8a9f74d11ae3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

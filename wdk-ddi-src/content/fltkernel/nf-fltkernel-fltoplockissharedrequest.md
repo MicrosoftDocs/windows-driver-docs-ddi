@@ -4,7 +4,7 @@ title: FltOplockIsSharedRequest function
 author: windows-driver-content
 description: The FltOplockIsSharedRequest routine determines if a request for an opportunistic lock (oplock) wants a shared oplock.
 old-location: ifsk\fltoplockissharedrequest.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5387e22a-88df-413f-a6d1-2e208381df67
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

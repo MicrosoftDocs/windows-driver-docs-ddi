@@ -4,7 +4,7 @@ title: IKsPin
 author: windows-driver-content
 description: The IKsPin interface provides methods that control and retrieve information about a pin.
 old-location: stream\ikspin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4717300c-bc98-4e1f-83c3-cbd368b45140
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

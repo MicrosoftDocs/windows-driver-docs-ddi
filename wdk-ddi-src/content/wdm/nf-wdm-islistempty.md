@@ -4,7 +4,7 @@ title: IsListEmpty function
 author: windows-driver-content
 description: The IsListEmpty routine indicates whether a doubly linked list of LIST_ENTRY structures is empty.
 old-location: kernel\islistempty.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6e494112-a808-4914-8194-e68a2799c38e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

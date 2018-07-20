@@ -4,7 +4,7 @@ title: "_LogoutFromTarget_IN"
 author: windows-driver-content
 description: The LogoutFromTarget_IN structure holds the input data for the LogoutFromTarget method, which is used to log out from an iSCSI target.
 old-location: storage\logoutfromtarget_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a52d5995-1fb7-4b73-9d3f-c945e7219a49
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

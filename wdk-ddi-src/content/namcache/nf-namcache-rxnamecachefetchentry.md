@@ -4,7 +4,7 @@ title: RxNameCacheFetchEntry function
 author: windows-driver-content
 description: RxNameCacheFetchEntry looks for a match with a specified name string for a NAME_CACHE entry.
 old-location: ifsk\rxnamecachefetchentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1f4c50a8-2eee-46c6-8ca0-f5858d227922
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

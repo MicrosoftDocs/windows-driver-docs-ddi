@@ -4,7 +4,7 @@ title: KSEVENT_TIME_INTERVAL
 author: windows-driver-content
 description: The KSEVENT_TIME_INTERVAL structure is used in various events within the KSEVENTSETID_Clock event set.
 old-location: stream\ksevent_time_interval.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 61699da0-2c34-44cb-8e1a-b266acfc7878
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

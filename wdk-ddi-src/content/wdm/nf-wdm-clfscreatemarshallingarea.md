@@ -4,7 +4,7 @@ title: ClfsCreateMarshallingArea function
 author: windows-driver-content
 description: The ClfsCreateMarshallingArea routine creates a marshalling area for a CLFS stream and returns a pointer to an opaque context that represents the new marshalling area.
 old-location: kernel\clfscreatemarshallingarea.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c841d8fb-fa42-4ce5-aedb-c7c13bcc2ba7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

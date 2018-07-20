@@ -4,10 +4,10 @@ title: IWiaDrvItem::AddItemToFolder
 author: windows-driver-content
 description: The AddItemToFolder method adds an IWiaDrvItem item to a folder in a driver item tree.
 old-location: image\iwiadrvitem_additemtofolder.htm
-old-project: image
+tech.root: image
 ms.assetid: 3f1cd0bf-13ce-49bc-a48e-dc3d89f3c7d7
 ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.date: 5/3/2018
 ms.keywords: AddItemToFolder, AddItemToFolder method [Imaging Devices], AddItemToFolder method [Imaging Devices],IWiaDrvItem interface, DrvItem_7979b3e5-dfd3-41bb-ae55-266cbb74866c.xml, IWiaDrvItem interface [Imaging Devices],AddItemToFolder method, IWiaDrvItem.AddItemToFolder, IWiaDrvItem::AddItemToFolder, image.iwiadrvitem_additemtofolder, wiamindr_lh/IWiaDrvItem::AddItemToFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices

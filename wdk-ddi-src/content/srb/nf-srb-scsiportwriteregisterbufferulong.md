@@ -4,7 +4,7 @@ title: ScsiPortWriteRegisterBufferUlong function
 author: windows-driver-content
 description: The ScsiPortWriteRegisterBufferUlong routine transfers a given number of ULONG values from a buffer to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteregisterbufferulong.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d77b188e-45b2-47c3-bee5-557886925d3f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

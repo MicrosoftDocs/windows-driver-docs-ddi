@@ -4,7 +4,7 @@ title: ClfsDeleteMarshallingArea function
 author: windows-driver-content
 description: The ClfsDeleteMarshallingArea routine deletes a marshalling area.
 old-location: kernel\clfsdeletemarshallingarea.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8aa7aec3-85d7-40a2-a63d-bee8c5ce1ff9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

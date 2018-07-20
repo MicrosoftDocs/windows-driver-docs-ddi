@@ -4,7 +4,7 @@ title: IPPARAMS
 author: windows-driver-content
 description: The IPPARAMS structure is used as an input parameter to a rendering plug-in's IPrintOemUni::ImageProcessing method.
 old-location: print\ipparams.htm
-old-project: print
+tech.root: print
 ms.assetid: 14ed4180-9ac1-46dd-af76-8d79a2a1fd2d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

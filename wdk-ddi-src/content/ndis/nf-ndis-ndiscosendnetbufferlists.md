@@ -4,10 +4,10 @@ title: NdisCoSendNetBufferLists function
 author: windows-driver-content
 description: The NdisCoSendNetBufferLists function sends network data that is contained in a specified list of NET_BUFFER_LIST structures.
 old-location: netvista\ndiscosendnetbufferlists.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 8284fdd4-26de-4622-b164-f33aee1d8742
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisCoSendNetBufferLists, NdisCoSendNetBufferLists function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_6d1dfac7-b538-402c-ae8b-04f74bd188e9.xml, ndis/NdisCoSendNetBufferLists, netvista.ndiscosendnetbufferlists
 ms.prod: windows-hardware
 ms.technology: windows-devices

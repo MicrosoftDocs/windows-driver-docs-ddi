@@ -4,7 +4,7 @@ title: PMRX_DEALLOCATE_FOR_FOBX
 author: windows-driver-content
 description: The MRxDeallocateForFobx routine is called by RDBSS to request that the network mini-redirector deallocate an FOBX structure. This call is in response to a request to close a file system object.
 old-location: ifsk\mrxdeallocateforfobx.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3b33df22-7757-4270-8cb0-59e8f5d5a80a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

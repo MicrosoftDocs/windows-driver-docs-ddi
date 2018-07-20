@@ -4,7 +4,7 @@ title: "_WIM_PROVIDER_OVERLAY_ENTRY"
 author: windows-driver-content
 description: Contains the a Windows Image Format (WIM) file configuration information for a data source entry. It is used to identify specific WIM file names and indices that supply data to externally backed files on a volume.
 old-location: ifsk\wim_provider_overlay_entry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8D1C9C8B-0545-42D7-860F-E2263457E61F
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

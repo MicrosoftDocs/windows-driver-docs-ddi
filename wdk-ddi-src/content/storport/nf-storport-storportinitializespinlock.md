@@ -4,7 +4,7 @@ title: StorPortInitializeSpinlock function
 author: windows-driver-content
 description: The StorPortInitializeSpinLock routine initializes a variable of type STOR_KSPIN_LOCK.
 old-location: storage\storportinitializespinlock.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 150B1ED3-572A-4986-BED6-628ED6C54CCF
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

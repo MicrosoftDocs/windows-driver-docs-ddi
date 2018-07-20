@@ -4,7 +4,7 @@ title: IKsAllocatorEx
 author: windows-driver-content
 description: The IKsAllocatorEx interface is for proxy use and not recommended for application use. IKsAllocatorEx inherits all the methods of the IKsAllocator interface and extends IKsAllocator to provide methods that further control and query an allocator.
 old-location: stream\iksallocatorex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 42abaf2b-8ee9-450e-aef3-fa29d1b558e5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

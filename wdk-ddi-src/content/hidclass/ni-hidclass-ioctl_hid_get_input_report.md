@@ -4,7 +4,7 @@ title: IOCTL_HID_GET_INPUT_REPORT
 author: windows-driver-content
 description: The IOCTL_HID_GET_INPUT_REPORT request obtains an input report from a top-level collection.
 old-location: hid\ioctl_hid_get_input_report2.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 968a3498-efd4-4097-a7ac-17e47809a7c9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

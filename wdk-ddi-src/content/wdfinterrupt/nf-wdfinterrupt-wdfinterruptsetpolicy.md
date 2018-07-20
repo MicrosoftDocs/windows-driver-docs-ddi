@@ -4,7 +4,7 @@ title: WdfInterruptSetPolicy function
 author: windows-driver-content
 description: The WdfInterruptSetPolicy method specifies the interrupt priority, processor affinity, and affinity policy for a specified interrupt.
 old-location: wdf\wdfinterruptsetpolicy.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f61bef13-d9b5-4e6a-8657-995a1fcbf7b1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

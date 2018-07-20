@@ -4,7 +4,7 @@ title: IOCTL_SYSENV_ENUM_VARIABLES
 author: windows-driver-content
 description: Returns information about system environment variables using SysEnv device.
 old-location: kernel\ioctl_ioctl_sysenv_enum_variables.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 605CA19C-048A-4FBA-8568-7B1867C99210
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

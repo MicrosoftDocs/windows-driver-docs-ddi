@@ -4,7 +4,7 @@ title: FltRollbackEnlistment function
 author: windows-driver-content
 description: The FltRollbackEnlistment routine rolls back or aborts a transaction on behalf of a minifilter driver.
 old-location: ifsk\fltrollbackenlistment.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a63ebd95-801b-4de2-963e-392e6d90eb9f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

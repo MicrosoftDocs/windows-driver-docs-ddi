@@ -4,7 +4,7 @@ title: RtlFillMemory macro
 author: windows-driver-content
 description: The RtlFillMemory routine fills a block of memory with the specified fill value.
 old-location: kernel\rtlfillmemory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9a73331a-cc73-4a47-948b-a821600ca6a6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

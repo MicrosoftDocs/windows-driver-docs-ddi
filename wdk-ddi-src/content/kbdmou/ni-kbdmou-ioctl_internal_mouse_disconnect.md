@@ -4,7 +4,7 @@ title: IOCTL_INTERNAL_MOUSE_DISCONNECT
 author: windows-driver-content
 description: The IOCTL_INTERNAL_MOUSE_DISCONNECT request is completed by Moufiltr with an error status of STATUS_NOT_IMPLEMENTED.
 old-location: hid\ioctl_internal_mouse_disconnect.htm
-old-project: hid
+tech.root: hid
 ms.assetid: e62c61e7-ef64-4939-ad24-686d137b6319
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

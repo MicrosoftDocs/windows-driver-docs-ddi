@@ -4,10 +4,10 @@ title: FwpsQueryConnectionRedirectState0 function
 author: windows-driver-content
 description: The FwpsQueryConnectionRedirectState0 function returns the connection redirect state.Note  FwpsQueryConnectionRedirectState0 is a specific version of FwpsQueryConnectionRedirectState.
 old-location: netvista\fwpsqueryconnectionredirectstate0.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 6db0a5ac-edab-4e84-b378-30ed0c23cd4b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: FwpsQueryConnectionRedirectState0, FwpsQueryConnectionRedirectState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionRedirectState0, netvista.fwpsqueryconnectionredirectstate0
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: KSPROPERTY_BOUNDS_LONGLONG
 author: windows-driver-content
 description: The KSPROPERTY_BOUNDS_LONGLONG structure defines the bounds for a 64-bit property.
 old-location: stream\ksproperty_bounds_longlong.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 25e3e430-abce-4d14-a336-4cb32a4fe5df
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

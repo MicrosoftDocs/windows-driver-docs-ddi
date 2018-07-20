@@ -4,7 +4,7 @@ title: "_ACL"
 author: windows-driver-content
 description: The ACL structure is the header of an access-control list (ACL). A complete ACL consists of an ACL structure followed by an ordered list of zero or more access-control entries (ACE).
 old-location: ifsk\acl.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: dac27df2-fabd-4402-8daf-9317888dd30b
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

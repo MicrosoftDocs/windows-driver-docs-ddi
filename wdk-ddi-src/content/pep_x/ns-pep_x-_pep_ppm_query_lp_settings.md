@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_LP_SETTINGS"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_LP_SETTINGS structure contains a kernel handle to the registry key that contains the power optimization settings that the platform extension plug-in (PEP) has defined for each power scenario.
 old-location: kernel\pep_ppm_query_lp_settings.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 69A8792B-954E-49AF-A306-25B94183E58A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

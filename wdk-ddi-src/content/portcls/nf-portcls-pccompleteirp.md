@@ -4,10 +4,10 @@ title: PcCompleteIrp function
 author: windows-driver-content
 description: The PcCompleteIrp function completes an IRP that was previously marked as pending.
 old-location: audio\pccompleteirp.htm
-old-project: audio
+tech.root: audio
 ms.assetid: fa0b36bf-0628-4136-9ca7-1d20823969ff
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: PcCompleteIrp, PcCompleteIrp function [Audio Devices], audio.pccompleteirp, audpc-routines_f61145f8-9e55-4b2a-a3aa-37f7be4f4df3.xml, portcls/PcCompleteIrp
 ms.prod: windows-hardware
 ms.technology: windows-devices

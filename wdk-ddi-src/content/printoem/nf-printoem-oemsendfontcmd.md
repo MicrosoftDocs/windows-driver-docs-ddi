@@ -4,7 +4,7 @@ title: OEMSendFontCmd function
 author: windows-driver-content
 description: OEMSendFontCmd function
 old-location: print\oemsendfontcmd.htm
-old-project: print
+tech.root: print
 ms.assetid: 4dcc2ec0-6a75-4fc0-800c-c1ce12e3fd6a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

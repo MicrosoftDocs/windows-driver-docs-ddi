@@ -4,7 +4,7 @@ title: PrinterMessageBoxW function
 author: windows-driver-content
 description: "."
 old-location: print\printermessageboxw.htm
-old-project: print
+tech.root: print
 ms.assetid: F5E7FB7C-A38F-4DBA-9C98-9554FA80CC07
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

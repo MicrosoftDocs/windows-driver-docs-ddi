@@ -4,7 +4,7 @@ title: "_INQUIRYDATA"
 author: windows-driver-content
 description: The INQUIRYDATA structure is used in conjunction with the TapeMiniExtensionInit and TapeMiniVerifyInquiry routines to report SCSI inquiry data associated with a tape device.
 old-location: storage\inquirydata.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2389fb1e-b16a-4d0a-b347-8b8a0f1cf061
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

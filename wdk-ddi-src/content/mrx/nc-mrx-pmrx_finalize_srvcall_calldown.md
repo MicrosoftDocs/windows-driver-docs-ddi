@@ -4,7 +4,7 @@ title: PMRX_FINALIZE_SRVCALL_CALLDOWN
 author: windows-driver-content
 description: The MRxFinalizeSrvCall routine is called by RDBSS to request that a network mini-redirector finalize an SRV_CALL structure.
 old-location: ifsk\mrxfinalizesrvcall.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f870334a-cf39-47a2-868a-f6fd7c3aee1c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

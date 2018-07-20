@@ -4,7 +4,7 @@ title: BUS_INTERFACE_MEDIUMS
 author: windows-driver-content
 description: "."
 old-location: stream\bus_interface_mediums.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0A2D1D8F-8C82-4335-9FBF-4515A8DC20C1
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

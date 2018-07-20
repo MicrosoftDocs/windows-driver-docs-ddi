@@ -4,7 +4,7 @@ title: OEMUpdateExternalFonts function
 author: windows-driver-content
 description: OEMUpdateExternalFonts function
 old-location: print\oemupdateexternalfonts.htm
-old-project: print
+tech.root: print
 ms.assetid: 04b0a34f-0aec-4f42-8a2e-a29168a699e3
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

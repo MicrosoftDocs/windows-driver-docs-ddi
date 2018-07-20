@@ -4,7 +4,7 @@ title: PwmParsePinPath function
 author: windows-driver-content
 description: Parses a pin path under the Pulse Width Modulation (PWM) controller namespace to validate its format and extract the pin number.
 old-location: kernel\pwmparsepinpath.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 854A2B6F-A841-4AE4-9E54-68EF048C9504
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

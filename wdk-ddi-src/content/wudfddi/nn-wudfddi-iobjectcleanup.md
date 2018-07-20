@@ -4,7 +4,7 @@ title: IObjectCleanup
 author: windows-driver-content
 description: Any driver that stores a reference-counted COM interface to a WDF object must support the IObjectCleanup interface to prevent interface leakage. Note that drivers, in general, are not required to hold references to WDF objects.
 old-location: wdf\iobjectcleanup.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5e465c90-3290-4c89-bf47-521280c0fe5c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

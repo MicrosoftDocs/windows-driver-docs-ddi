@@ -4,7 +4,7 @@ title: ScsiPortIoMapTransfer function
 author: windows-driver-content
 description: The ScsiPortIoMapTransfer routine sets up the system DMA controller for a miniport driver to transfer data through a subordinate HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportiomaptransfer.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 627a2d4c-22c8-48ea-b409-dc246c85a316
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

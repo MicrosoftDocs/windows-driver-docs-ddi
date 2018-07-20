@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR"
 author: windows-driver-content
 description: The STORAGE_DEVICE_ATTRIBUTES_DESCRIPTOR structure is used to retrieve the attributes information for a device.
 old-location: storage\storage_device_attributes_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: DA8434EF-6163-4D07-A81D-D1AC2D55BFB4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: FsRtlSetEcpListIntoIrp function
 author: windows-driver-content
 description: The FsRtlSetEcpListIntoIrp routine attaches an extra create parameter (ECP) context structure list to an IRP_MJ_CREATE operation.
 old-location: ifsk\fsrtlsetecplistintoirp.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 370da53a-3c20-4e45-8732-8f08aa2d96ae
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

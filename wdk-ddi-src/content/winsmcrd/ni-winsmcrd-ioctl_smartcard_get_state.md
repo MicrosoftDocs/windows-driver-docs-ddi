@@ -4,7 +4,7 @@ title: IOCTL_SMARTCARD_GET_STATE
 author: windows-driver-content
 description: The IOCTL_SMARTCARD_GET_STATE control code gets the current status of the smart card.
 old-location: nfpdrivers\ioctl_smartcard_get_state.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 18666E48-9505-448E-ABA1-536D365FC49D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

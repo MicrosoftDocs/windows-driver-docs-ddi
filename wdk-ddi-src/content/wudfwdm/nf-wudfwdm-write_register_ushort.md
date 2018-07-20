@@ -4,7 +4,7 @@ title: WRITE_REGISTER_USHORT function
 author: windows-driver-content
 description: The WRITE_REGISTER_USHORT routine writes a USHORT value to the specified address.
 old-location: kernel\write_register_ushort.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ebcbec0c-c5ee-4af1-be3c-36c730f82f4e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

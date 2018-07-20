@@ -4,7 +4,7 @@ title: StorPortInitializeWorker function
 author: windows-driver-content
 description: Creates a new Storport work item that runs in a system worker thread.
 old-location: storage\storportinitializeworker.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4472A092-B2F4-4220-9685-6BE4FF0A83DB
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

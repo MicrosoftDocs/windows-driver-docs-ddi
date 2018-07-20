@@ -4,7 +4,7 @@ title: FsRtlInitializeExtraCreateParameterList function
 author: windows-driver-content
 description: The FsRtlInitializeExtraCreateParameterList routine initializes an extra create parameter (ECP) context structure list.
 old-location: ifsk\fsrtlinitializeextracreateparameterlist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 79e56363-1098-42bb-8e6a-c4b4c76e7e7c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

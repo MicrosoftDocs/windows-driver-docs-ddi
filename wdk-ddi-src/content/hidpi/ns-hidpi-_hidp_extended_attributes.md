@@ -4,7 +4,7 @@ title: "_HIDP_EXTENDED_ATTRIBUTES"
 author: windows-driver-content
 description: The HIDP_EXTENDED_ATTRIBUTES structure contains information about the global items specified for a HID control that the HID parser did not recognize.
 old-location: hid\hidp_extended_attributes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 03be8b22-2108-4a13-be1e-642373095ab5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

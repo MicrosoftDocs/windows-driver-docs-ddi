@@ -4,7 +4,7 @@ title: "_WHEA_PERSISTENCE_INFO"
 author: windows-driver-content
 description: The WHEA_PERSISTENCE_INFO union describes data that is used by the error record persistence interface for storing an error record.
 old-location: whea\whea_persistence_info.htm
-old-project: whea
+tech.root: whea
 ms.assetid: ab429d1b-0b4d-4897-b5f0-73113d16758e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

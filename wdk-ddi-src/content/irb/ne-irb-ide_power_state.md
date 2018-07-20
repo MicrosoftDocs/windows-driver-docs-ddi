@@ -4,7 +4,7 @@ title: IDE_POWER_STATE
 author: windows-driver-content
 description: The IDE_POWER_STATE enumeration type indicates that power state of the device.
 old-location: storage\ide_power_state.htm
-old-project: storage
+tech.root: storage
 ms.assetid: b54655ac-b7ac-4026-9d9d-75dd139ac059
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

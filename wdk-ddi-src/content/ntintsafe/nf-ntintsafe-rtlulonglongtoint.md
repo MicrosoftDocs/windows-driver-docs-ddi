@@ -4,7 +4,7 @@ title: RtlULongLongToInt function
 author: windows-driver-content
 description: Converts a value of type ULONGLONG to a value of type INT.
 old-location: kernel\rtlulonglongtoint.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C52CB40D-0B3D-4ED9-99FD-464D23481AD3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: KeInitializeThreadedDpc function
 author: windows-driver-content
 description: The KeInitializeThreadedDpc routine initializes a threaded DPC object, and registers a CustomThreadedDpc routine for that object.
 old-location: kernel\keinitializethreadeddpc.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ee9124db-9d92-42e1-84fa-6d3eefeaeac5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

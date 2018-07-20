@@ -4,7 +4,7 @@ title: HidD_GetSerialNumberString function
 author: windows-driver-content
 description: The HidD_GetSerialNumberString routine returns the embedded string of a top-level collection that identifies the serial number of the collection's physical device.
 old-location: hid\hidd_getserialnumberstring.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 807f1432-1b2f-45fc-899c-b2920ea79f7a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

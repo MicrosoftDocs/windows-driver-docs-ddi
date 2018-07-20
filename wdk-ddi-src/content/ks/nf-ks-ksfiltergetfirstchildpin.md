@@ -4,7 +4,7 @@ title: KsFilterGetFirstChildPin function
 author: windows-driver-content
 description: The KsFilterGetFirstChildPin function returns the first instantiated pin of type PinID on the filter specified by Filter.
 old-location: stream\ksfiltergetfirstchildpin.htm
-old-project: stream
+tech.root: stream
 ms.assetid: b026908a-51d4-45a8-9c0e-1c163563bfbf
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

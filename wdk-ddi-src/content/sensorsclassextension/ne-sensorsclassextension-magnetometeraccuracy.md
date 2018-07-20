@@ -4,10 +4,10 @@ title: MagnetometerAccuracy
 author: windows-driver-content
 description: Specifies the accuracy of the magnetometer.
 old-location: sensors\magnetometeraccuracy.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: DC495EFB-3522-4220-87F8-3DB501831D6E
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enumeration [Sensor Devices], Unknown, Unreliable, sensors.magnetometeraccuracy, sensorsclassextension/Approximate, sensorsclassextension/High, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/Unknown, sensorsclassextension/Unreliable
 ms.prod: windows-hardware
 ms.technology: windows-devices

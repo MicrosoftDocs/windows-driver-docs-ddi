@@ -4,7 +4,7 @@ title: IKsPinEx
 author: windows-driver-content
 description: The IKsPinEx interface inherits all the methods of the IKsPin interface and extends IKsPin to provide a method that notifies the filter graph of an error to give the filter graph an opportunity to halt.
 old-location: stream\ikspinex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9e6fd96d-c78e-44f3-ae4c-3688da48a494
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

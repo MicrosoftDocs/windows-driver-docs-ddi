@@ -4,10 +4,10 @@ title: EVT_UDECX_USB_DEVICE_ENDPOINT_ADD
 author: windows-driver-content
 description: The USB device emulation class extension (UdeCx) invokes this callback function to request the client driver to create a dynamic endpoint on the virtual USB device.
 old-location: buses\evt_udecx_usb_device_endpoint_add.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 82E17C75-BE81-4263-AC04-D3C93505917D
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINT_ADD, EVT_UDECX_USB_DEVICE_ENDPOINT_ADD callback, EvtUsbDeviceEndpointAdd, EvtUsbDeviceEndpointAdd callback function [Buses], buses.evt_udecx_usb_device_endpoint_add, udecxusbdevice/EvtUsbDeviceEndpointAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices

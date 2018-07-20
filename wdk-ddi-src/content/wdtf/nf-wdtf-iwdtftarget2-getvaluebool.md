@@ -4,7 +4,7 @@ title: IWDTFTarget2::GetValueBool
 author: windows-driver-content
 description: Returns a boolean value from the target that is associated with a specified attribute.
 old-location: dtf\iwdtftarget2_getvaluebool.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 53be5e16-7c04-41c3-a808-828982eda440
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

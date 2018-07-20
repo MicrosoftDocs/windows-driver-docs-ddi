@@ -4,7 +4,7 @@ title: MmIsDriverSuspectForVerifier function
 author: windows-driver-content
 description: The MmIsDriverSuspectForVerifier routine indicates whether the driver represented by the specified driver object is in the list of drivers that are selected to be verified by Driver Verifier.
 old-location: kernel\mmisdriversuspectforverifier.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 049BDC6E-2FB2-421F-9229-320F2ED98663
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

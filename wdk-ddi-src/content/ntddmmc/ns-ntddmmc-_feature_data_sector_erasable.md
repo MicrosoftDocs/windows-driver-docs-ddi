@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_SECTOR_ERASABLE"
 author: windows-driver-content
 description: The FEATURE_DATA_SECTOR_ERASABLE structure contains information for the Sector Erasable feature.
 old-location: storage\feature_data_sector_erasable.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6f714e13-a844-4afa-9002-52a5318a7659
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

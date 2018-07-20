@@ -4,7 +4,7 @@ title: "_NFCCX_DRIVER_GLOBALS"
 author: windows-driver-content
 description: "."
 old-location: nfpdrivers\nfccx_driver_globals.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 3B84B227-7155-4FA2-A224-1317D103F5C3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: ExGetFirmwareEnvironmentVariable function
 author: windows-driver-content
 description: The ExGetFirmwareEnvironmentVariable routine gets the value of the specified system firmware environment variable.
 old-location: kernel\exgetfirmwareenvironmentvariable.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5AD76955-A44C-4231-9394-0B6595CFB33D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

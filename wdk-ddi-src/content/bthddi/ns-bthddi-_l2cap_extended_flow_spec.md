@@ -4,7 +4,7 @@ title: "_L2CAP_EXTENDED_FLOW_SPEC"
 author: windows-driver-content
 description: The L2CAP_EXTENDED_FLOW_SPEC is reserved for future use.
 old-location: bltooth\l2cap_extended_flow_spec.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: B190484F-1A87-4C52-A1FF-4D4EB593A963
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

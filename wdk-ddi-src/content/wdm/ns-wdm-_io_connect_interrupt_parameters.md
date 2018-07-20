@@ -4,7 +4,7 @@ title: "_IO_CONNECT_INTERRUPT_PARAMETERS"
 author: windows-driver-content
 description: The IO_CONNECT_INTERRUPT_PARAMETERS structure contains the parameters that a driver supplies to the IoConnectInterruptEx routine to register an interrupt service routine (ISR).
 old-location: kernel\io_connect_interrupt_parameters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 450c2e2b-56fa-4896-ba81-0f84f7e3051d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

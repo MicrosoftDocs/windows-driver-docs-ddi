@@ -4,7 +4,7 @@ title: "_OPTITEM"
 author: windows-driver-content
 description: The OPTITEM structure is used by CPSUI applications (including printer interface DLLs) for describing one property sheet option on a property sheet page, if the page is described by a COMPROPSHEETUI structure.
 old-location: print\optitem.htm
-old-project: print
+tech.root: print
 ms.assetid: 983f9774-d498-473a-bdfb-ec55cc4298cf
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

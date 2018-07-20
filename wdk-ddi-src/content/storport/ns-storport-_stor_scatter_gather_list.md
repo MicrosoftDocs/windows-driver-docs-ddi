@@ -4,7 +4,7 @@ title: "_STOR_SCATTER_GATHER_LIST"
 author: windows-driver-content
 description: The STOR_SCATTER_GATHER_LIST structure is used in conjunction with the StorPortGetScatterGatherList routine to retrieve the scatter/gather list for a SCSI request block (SRB).
 old-location: storage\stor_scatter_gather_list.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9fbb8dea-67d3-4bb9-afc2-d623bea2ca8d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

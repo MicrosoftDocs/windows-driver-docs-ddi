@@ -4,7 +4,7 @@ title: "_PEP_PPM_PERF_CHECK_COMPLETE"
 author: windows-driver-content
 description: The PEP_PPM_PERF_CHECK_COMPLETE structure is used to inform the PEP of details regarding the completion of a periodic performance check evaluation.
 old-location: kernel\pep_ppm_perf_check_complete.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A107F641-AE30-4F99-9AB6-EC84F52A2B52
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

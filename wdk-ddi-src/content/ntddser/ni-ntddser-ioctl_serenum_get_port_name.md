@@ -4,7 +4,7 @@ title: IOCTL_SERENUM_GET_PORT_NAME
 author: windows-driver-content
 description: The IOCTL_SERENUM_GET_PORT_NAME request returns the value of the PortName (or Identifier) entry value for the RS-232 port -- see Registry Settings for a Plug and Play Serial Device.
 old-location: serports\ioctl_serenum_get_port_name.htm
-old-project: serports
+tech.root: serports
 ms.assetid: c61bc594-91be-418f-9e40-ebe99e31304f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

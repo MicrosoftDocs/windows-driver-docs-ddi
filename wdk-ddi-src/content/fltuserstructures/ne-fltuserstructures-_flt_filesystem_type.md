@@ -4,7 +4,7 @@ title: "_FLT_FILESYSTEM_TYPE"
 author: windows-driver-content
 description: The FLT_FILESYSTEM_TYPE enumeration identifies the type of file system being used on a volume.
 old-location: ifsk\flt_filesystem_type.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b4bdfa93-3db5-4dfa-b539-112927cbedb0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

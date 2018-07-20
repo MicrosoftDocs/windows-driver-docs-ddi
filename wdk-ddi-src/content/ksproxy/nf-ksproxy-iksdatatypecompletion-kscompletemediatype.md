@@ -4,7 +4,7 @@ title: IKsDataTypeCompletion::KsCompleteMediaType
 author: windows-driver-content
 description: The KsCompleteMediaType method completes a partially-specified media type that was first presented to the IAMStreamConfig::SetFormat method.
 old-location: stream\iksdatatypecompletion_kscompletemediatype.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0a6157cf-09ae-4640-9c54-3e9b91fd93a9
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: "_PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"
 author: windows-driver-content
 description: The PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure contains a list of raw resources that are needed to control power to the device.
 old-location: kernel\pep_acpi_query_device_control_resources.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7DBDC5A7-1BF4-41B6-A72E-1B53CAC06823
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

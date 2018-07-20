@@ -4,7 +4,7 @@ title: IKsReferenceClock::GetResolution
 author: windows-driver-content
 description: The IKsReferenceClock::GetResolution method queries the associated reference clock for its resolution.
 old-location: stream\iksreferenceclock_getresolution.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 7fb70431-db09-470b-b795-826aba3a8b77
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

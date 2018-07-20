@@ -4,7 +4,7 @@ title: IOCTL_BTH_GET_RADIO_INFO
 author: windows-driver-content
 description: The IOCTL_BTH_GET_RADIO_INFO request obtains information about the specified remote radio.
 old-location: bltooth\ioctl_bth_get_radio_info.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 45803e80-6090-4b64-8c92-6b5efebd1cfc
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

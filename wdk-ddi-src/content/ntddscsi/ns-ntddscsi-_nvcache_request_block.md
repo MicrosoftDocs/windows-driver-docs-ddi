@@ -4,7 +4,7 @@ title: "_NVCACHE_REQUEST_BLOCK"
 author: windows-driver-content
 description: The NVCACHE_REQUEST_BLOCK structure is used in conjunction with the IOCTL_SCSI_MINIPORT request to manage hybrid-hard disk drive (H-HDD) devices (for example, Microsoft ReadyDrive technology).
 old-location: storage\nvcache_request_block.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 25ca2d81-72a5-47ae-bdfd-0ec63e1ca39a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

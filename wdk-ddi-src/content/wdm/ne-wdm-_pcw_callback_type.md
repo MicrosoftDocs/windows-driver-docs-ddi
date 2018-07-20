@@ -4,7 +4,7 @@ title: "_PCW_CALLBACK_TYPE"
 author: windows-driver-content
 description: The PCW_CALLBACK_TYPE enumeration defines the notification type to send to the registered provider of the counter set. A provider passes a pointer to this enumeration as a parameter to the PcwCallback function.
 old-location: devtest\pcw_callback_type.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 92f7a980-509a-44af-b480-fa8c212f4ac6
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

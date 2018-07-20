@@ -4,7 +4,7 @@ title: IPrintSchemaNUpOption
 author: windows-driver-content
 description: Exposes a Print Schema NUp Option element.
 old-location: print\iprintschemanupoption_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 1EC5C0D4-5170-4251-80C0-24CB0D6EF782
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

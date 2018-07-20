@@ -4,7 +4,7 @@ title: KSP_NODE
 author: windows-driver-content
 description: Kernel streaming clients use the KSP_NODE structure to specify the property and node type within a KSPROPERTY_TOPOLOGY_NAME property request.
 old-location: stream\ksp_node.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2d5f1b31-d8fe-40a3-ac23-cc442f3adbe5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

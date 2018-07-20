@@ -4,7 +4,7 @@ title: "_IO_INTERRUPT_MESSAGE_INFO"
 author: windows-driver-content
 description: The IO_INTERRUPT_MESSAGE_INFO structure describes the driver's message-signaled interrupts.
 old-location: kernel\io_interrupt_message_info.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d740d55e-6549-494d-9b2a-39d5c2e670d3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

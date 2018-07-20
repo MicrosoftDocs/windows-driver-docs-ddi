@@ -4,10 +4,10 @@ title: PFND3DDDI_UNLOCK
 author: windows-driver-content
 description: The Unlock function unlocks a resource or a surface within the resource that was previously locked by the Lock function.
 old-location: display\unlock.htm
-old-project: display
+tech.root: display
 ms.assetid: 23cc9c64-99d4-4602-a1b0-234fe7fcc3da
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_UNLOCK, PFND3DDDI_UNLOCK callback, Unlock, Unlock callback function [Display Devices], UserModeDisplayDriver_Functions_20b0d6f7-4bda-4d0f-9c3a-27d4011d2591.xml, d3dumddi/Unlock, display.unlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: FltCloseCommunicationPort function
 author: windows-driver-content
 description: FltCloseCommunicationPort closes a minifilter driver's communication server port.
 old-location: ifsk\fltclosecommunicationport.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e3ab0d74-2c97-43da-8bee-82caa3d91c98
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

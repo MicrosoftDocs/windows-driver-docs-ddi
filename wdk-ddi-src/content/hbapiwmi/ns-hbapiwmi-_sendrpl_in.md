@@ -4,7 +4,7 @@ title: "_SendRPL_IN"
 author: windows-driver-content
 description: The SendRPL_IN structure is used to deliver input parameter data to the SendRPL WMI method.
 old-location: storage\sendrpl_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0c084258-2bd6-47a8-a060-d4ba2734ebed
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

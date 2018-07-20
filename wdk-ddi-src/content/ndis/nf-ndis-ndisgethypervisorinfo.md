@@ -4,10 +4,10 @@ title: NdisGetHypervisorInfo function
 author: windows-driver-content
 description: Important  Starting with Windows 10 Version 1703, NdisGetHypervisorInfo is deprecated and should not be used.
 old-location: netvista\ndisgethypervisorinfo.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 5469c6aa-90df-4379-b670-23aaa6919055
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista], ndis/NdisGetHypervisorInfo, netvista.ndisgethypervisorinfo, virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

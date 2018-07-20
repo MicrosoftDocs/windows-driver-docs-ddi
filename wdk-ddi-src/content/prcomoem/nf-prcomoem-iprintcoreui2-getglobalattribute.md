@@ -4,7 +4,7 @@ title: IPrintCoreUI2::GetGlobalAttribute
 author: windows-driver-content
 description: The IPrintCoreUI2::GetGlobalAttribute method retrieves the global attribute list or the value of a specific global attribute.
 old-location: print\iprintcoreui2_getglobalattribute.htm
-old-project: print
+tech.root: print
 ms.assetid: fa5555df-4ada-40f3-9878-e6ba3dac2345
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

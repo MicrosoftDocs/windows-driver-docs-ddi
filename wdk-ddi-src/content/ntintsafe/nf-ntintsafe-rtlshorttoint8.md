@@ -4,7 +4,7 @@ title: RtlShortToInt8 function
 author: windows-driver-content
 description: Converts a value of type SHORT to a value of type INT8.
 old-location: kernel\rtlshorttoint8.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 644559BB-9842-4261-9A9C-720185E6E9F4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

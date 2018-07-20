@@ -4,7 +4,7 @@ title: WdfDmaTransactionInitialize function
 author: windows-driver-content
 description: The WdfDmaTransactionInitialize method initializes a specified DMA transaction.
 old-location: wdf\wdfdmatransactioninitialize.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: cb17b31a-a069-4d41-a613-81a9815ac9a3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: UdecxUsbEndpointCreate function
 author: windows-driver-content
 description: Creates a UDE endpoint object.
 old-location: buses\udecxusbendpointcreate.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: F97642A2-FE77-41D0-A194-8DE6F9B17BB0
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UdecxUsbEndpointCreate, UdecxUsbEndpointCreate function [Buses], buses.udecxusbendpointcreate, udecxusbendpoint/UdecxUsbEndpointCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices

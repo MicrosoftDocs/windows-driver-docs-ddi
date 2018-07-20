@@ -4,7 +4,7 @@ title: FltInitExtraCreateParameterLookasideList function
 author: windows-driver-content
 description: The FltInitExtraCreateParameterLookasideList routine initializes a paged or non-paged pool lookaside list used for the allocation of one or more extra create parameter context structures (ECPs) of fixed size.
 old-location: ifsk\fltinitextracreateparameterlookasidelist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bec492df-86ac-4e1b-8623-5656aa20c4c5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

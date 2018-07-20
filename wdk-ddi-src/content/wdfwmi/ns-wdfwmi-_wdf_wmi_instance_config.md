@@ -4,7 +4,7 @@ title: "_WDF_WMI_INSTANCE_CONFIG"
 author: windows-driver-content
 description: The WDF_WMI_INSTANCE_CONFIG structure contains configuration information for an instance of a WMI data provider.
 old-location: wdf\wdf_wmi_instance_config.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b2b2fd0c-c331-4132-b037-05c816626563
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

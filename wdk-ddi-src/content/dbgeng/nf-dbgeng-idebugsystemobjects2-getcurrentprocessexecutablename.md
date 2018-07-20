@@ -4,10 +4,10 @@ title: IDebugSystemObjects2::GetCurrentProcessExecutableName
 author: windows-driver-content
 description: The GetCurrentProcessExecutableName method returns the name of executable file loaded in the current process.
 old-location: debugger\getcurrentprocessexecutablename.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: ea968316-a53d-4ab1-966a-5c699ffb8f2a
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetCurrentProcessExecutableName, GetCurrentProcessExecutableName method [Windows Debugging], GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects interface, GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentProcessExecutableName method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects2.GetCurrentProcessExecutableName, IDebugSystemObjects2::GetCurrentProcessExecutableName, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects3::GetCurrentProcessExecutableName, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessExecutableName method, IDebugSystemObjects4::GetCurrentProcessExecutableName, IDebugSystemObjects::GetCurrentProcessExecutableName, IDebugSystemObjects_2659a668-4ecb-44de-b287-b4adc830f8c4.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects3::GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableName, dbgeng/IDebugSystemObjects::GetCurrentProcessExecutableName, debugger.getcurrentprocessexecutablename
 ms.prod: windows-hardware
 ms.technology: windows-devices

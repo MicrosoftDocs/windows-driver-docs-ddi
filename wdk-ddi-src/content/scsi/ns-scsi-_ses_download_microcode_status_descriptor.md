@@ -4,7 +4,7 @@ title: "_SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR"
 author: windows-driver-content
 description: The SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure specifies the status and additional status of a download microcode.
 old-location: storage\ses_download_microcode_status_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: af686e7a-9426-4151-8ac4-d95ae1689b4c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_WHEA_PCIEXPRESS_ERROR_SECTION"
 author: windows-driver-content
 description: The WHEA_PCIEXPRESS_ERROR_SECTION structure describes PCI Express (PCIe) error data.
 old-location: whea\whea_pciexpress_error_section.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 1d96a799-6e52-49e0-b440-a8643111176f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

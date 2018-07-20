@@ -4,10 +4,10 @@ title: RIL_RadioStateGetPasswordRetryCount function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_radiostategetpasswordretrycount.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 59394a14-e3f0-450a-a96c-df0f6ee51768
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_RadioStateGetPasswordRetryCount, RIL_RadioStateGetPasswordRetryCount method [Network Drivers Starting with Windows Vista], netvista.ril_radiostategetpasswordretrycount, rilapi/RIL_RadioStateGetPasswordRetryCount
 ms.prod: windows-hardware
 ms.technology: windows-devices

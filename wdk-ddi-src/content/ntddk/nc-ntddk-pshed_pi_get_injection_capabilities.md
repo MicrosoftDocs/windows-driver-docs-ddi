@@ -4,7 +4,7 @@ title: PSHED_PI_GET_INJECTION_CAPABILITIES
 author: windows-driver-content
 description: A PSHED plug-in's GetInjectionCapabilities callback function returns an error injection capabilities union that describes the types of hardware errors that can be injected into the hardware platform.
 old-location: whea\getinjectioncapabilities.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 8cb19677-11b8-4594-b4dd-ebd00fae07d4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

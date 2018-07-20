@@ -4,7 +4,7 @@ title: "_IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a IsochAllocateResources request.
 old-location: ieee\irb_req_isoch_allocate_resources_wxp.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 8DE03C05-48A4-4699-8513-F2B596EED37F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

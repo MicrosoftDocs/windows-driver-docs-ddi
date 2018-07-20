@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0003"
 author: windows-driver-content
 description: The EXpsJobConsumption enumeration describes job consumption updates.
 old-location: print\expsjobconsumption.htm
-old-project: print
+tech.root: print
 ms.assetid: 9fab1cba-fe67-4654-ae33-3de41f0427f7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

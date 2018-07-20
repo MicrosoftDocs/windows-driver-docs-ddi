@@ -4,7 +4,7 @@ title: "_SET_PARTITION_INFORMATION_EX"
 author: windows-driver-content
 description: SET_PARTITION_INFORMATION_EX is used with the IOCTL IOCTL_DISK_SET_PARTITION_INFO_EX to set information for a specific partition.
 old-location: storage\set_partition_information_ex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a30c10d4-5e85-4a59-b262-054a6fdc2fb8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IPrinterExtensionContext::get_PrintSchemaTicket
 author: windows-driver-content
 description: Gets the print ticket that is appropriate for the queue and the activation.
 old-location: print\iprinterextensioncontext_printschematicket.htm
-old-project: print
+tech.root: print
 ms.assetid: B217DE53-23B9-46BA-8B35-DA869EB9DBDA
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

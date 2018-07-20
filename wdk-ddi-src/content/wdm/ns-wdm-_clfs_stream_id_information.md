@@ -4,7 +4,7 @@ title: "_CLFS_STREAM_ID_INFORMATION"
 author: windows-driver-content
 description: The CLFS_STREAM_ID_INFORMATION structure holds a value that identifies a stream in a Common Log File System (CLFS) log.
 old-location: kernel\clfs_stream_id_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dc8ea8b0-6aa0-4372-973a-42c545c27e18
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

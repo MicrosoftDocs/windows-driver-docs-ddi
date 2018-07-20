@@ -4,10 +4,10 @@ title: PFND3D10DDI_STATE_OM_RENDERTARGETS_CB
 author: windows-driver-content
 description: The pfnStateOmRenderTargetsCb function causes the Microsoft Direct3D 10 runtime to refresh the output merger's bound render targets.
 old-location: display\pfnstateomrendertargetscb.htm
-old-project: display
+tech.root: display
 ms.assetid: d17cd31d-44a1-4f7d-82be-1201c0d5769f
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3D10DDI_STATE_OM_RENDERTARGETS_CB, PFND3D10DDI_STATE_OM_RENDERTARGETS_CB callback, d3d10state_functions_d1d161af-c985-4d8d-b734-7acda03b13ce.xml, d3d10umddi/pfnStateOmRenderTargetsCb, display.pfnstateomrendertargetscb, pfnStateOmRenderTargetsCb, pfnStateOmRenderTargetsCb callback function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices

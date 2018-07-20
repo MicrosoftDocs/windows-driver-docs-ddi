@@ -4,10 +4,10 @@ title: "_USBD_VERSION_INFORMATION"
 author: windows-driver-content
 description: The USBD_VERSION_INFORMATION structure is used by the GetUSBDIVersion function to report its output data.
 old-location: buses\usbd_version_information.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 37dc1e94-18cb-48d5-81a2-74d03cef4d5d
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSBD_VERSION_INFORMATION, PUSBD_VERSION_INFORMATION, PUSBD_VERSION_INFORMATION structure pointer [Buses], USBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION structure [Buses], _USBD_VERSION_INFORMATION, buses.usbd_version_information, usb/PUSBD_VERSION_INFORMATION, usb/USBD_VERSION_INFORMATION, usbstrct_2871bd56-3ee1-48ab-8353-d19b74470ff1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices

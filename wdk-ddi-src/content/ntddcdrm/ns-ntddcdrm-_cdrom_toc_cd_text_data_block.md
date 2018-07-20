@@ -4,7 +4,7 @@ title: "_CDROM_TOC_CD_TEXT_DATA_BLOCK"
 author: windows-driver-content
 description: This structure contains CD text descriptor data used in conjunction with the data in the CDROM_TOC_CD_TEXT_DATA structure.
 old-location: storage\cdrom_toc_cd_text_data_block.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 119386fe-1eff-4dac-b9d5-54baefcf6e12
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

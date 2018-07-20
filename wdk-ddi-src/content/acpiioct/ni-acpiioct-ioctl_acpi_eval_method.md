@@ -4,7 +4,7 @@ title: IOCTL_ACPI_EVAL_METHOD
 author: windows-driver-content
 description: A driver for a device can use the IOCTL_ACPI_EVAL_METHOD device control request to synchronously evaluate an ACPI control method that is supported by the device.
 old-location: acpi\ioctl_acpi_eval_method.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: 3f7f904c-1d5e-4647-a566-1ec447a4cd13
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

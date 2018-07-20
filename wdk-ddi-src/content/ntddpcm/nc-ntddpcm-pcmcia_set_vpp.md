@@ -4,7 +4,7 @@ title: PCMCIA_SET_VPP
 author: windows-driver-content
 description: The PCMCIA_SET_VPP interface routine sets the power level of the Vpp PCMCIA pin (secondary power source).
 old-location: pcmcia\pcmcia_set_vpp.htm
-old-project: PCMCIA
+tech.root: PCMCIA
 ms.assetid: 63c34784-6ea5-49e5-8ee7-79b70e5137f7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

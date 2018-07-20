@@ -4,7 +4,7 @@ title: "_D3COLD_LAST_TRANSITION_STATUS"
 author: windows-driver-content
 description: The D3COLD_LAST_TRANSITION_STATUS enumeration indicates whether the most recent transition to the D3hot device power state was followed by a transition to the D3cold device power state.
 old-location: kernel\d3cold_last_transition_status.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 21E89D92-9902-4785-B022-8D17268FE75F
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

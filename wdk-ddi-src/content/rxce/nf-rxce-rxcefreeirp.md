@@ -4,7 +4,7 @@ title: RxCeFreeIrp function
 author: windows-driver-content
 description: RxCeFreeIrp frees an IRP.
 old-location: ifsk\rxcefreeirp.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 71e3283c-2dbc-4579-a374-e51e123b852f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

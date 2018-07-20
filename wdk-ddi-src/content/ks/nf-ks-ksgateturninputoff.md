@@ -4,7 +4,7 @@ title: KsGateTurnInputOff function
 author: windows-driver-content
 description: The KsGateTurnInputOff function turns off an existing input to Gate.
 old-location: stream\ksgateturninputoff.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cbcbb49a-8c45-4843-8c21-6c4d8c7bc6c6
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

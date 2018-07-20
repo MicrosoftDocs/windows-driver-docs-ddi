@@ -4,10 +4,10 @@ title: "_USBDEVICE_HUB_INFO"
 author: windows-driver-content
 description: Contains parameters for a request to get information about the specified hub. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_HUB_INFO callback function.
 old-location: buses\_usbdevice_hub_info.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: F403179A-B339-432D-AAF9-E7D9965F8B00
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO structure pointer [Buses], USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO structure [Buses], _USBDEVICE_HUB_INFO, buses._usbdevice_hub_info, ucxusbdevice/P_USBDEVICE_HUB_INFO, ucxusbdevice/_USBDEVICE_HUB_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices

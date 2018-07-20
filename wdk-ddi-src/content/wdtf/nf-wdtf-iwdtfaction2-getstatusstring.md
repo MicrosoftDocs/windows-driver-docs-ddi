@@ -4,7 +4,7 @@ title: IWDTFAction2::GetStatusString
 author: windows-driver-content
 description: Returns the status for the last operation as a string.
 old-location: dtf\iwdtfaction2_getstatusstring.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 21f7a3ea-5db9-4666-865c-c6b1ca9ba20f
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

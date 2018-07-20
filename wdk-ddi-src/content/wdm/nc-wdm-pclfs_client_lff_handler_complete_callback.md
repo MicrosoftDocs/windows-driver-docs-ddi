@@ -4,7 +4,7 @@ title: PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK
 author: windows-driver-content
 description: The ClfsLogGrowthCompleteCallback function implements the actions that the client will take when space is freed in a log that had previously been full.
 old-location: kernel\clfsloggrowthcompletecallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f8ebeaa9-e487-461b-8d95-50094bcc2bf5
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

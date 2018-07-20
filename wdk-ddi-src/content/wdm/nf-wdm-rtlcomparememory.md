@@ -4,7 +4,7 @@ title: RtlCompareMemory function
 author: windows-driver-content
 description: The RtlCompareMemory routine compares two blocks of memory and returns the number of bytes that match.
 old-location: kernel\rtlcomparememory.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1801fc27-53bf-4ac5-be41-072dfd8b0696
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

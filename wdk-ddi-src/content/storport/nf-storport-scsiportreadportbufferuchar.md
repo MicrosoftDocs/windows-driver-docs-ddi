@@ -4,7 +4,7 @@ title: ScsiPortReadPortBufferUchar macro
 author: windows-driver-content
 description: The ScsiPortReadPortBufferUchar routine transfers a given number of unsigned byte values from the HBA to a buffer.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportreadportbufferuchar.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9444670d-5b9f-4d77-b867-ac5608c24e02
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_INVOC"
 author: windows-driver-content
 description: The INVOC structure is used for describing printer command strings in Unidrv font metrics files (.ufm files) and glyph translation table files (.gtt files).
 old-location: print\invoc.htm
-old-project: print
+tech.root: print
 ms.assetid: 5eeaa7f7-dc99-4cf7-846c-801954cc9040
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

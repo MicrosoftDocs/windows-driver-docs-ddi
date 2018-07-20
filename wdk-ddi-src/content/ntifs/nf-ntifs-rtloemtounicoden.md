@@ -4,7 +4,7 @@ title: RtlOemToUnicodeN function
 author: windows-driver-content
 description: The RtlOemToUnicodeN routine translates the specified source string into a Unicode string, using the current system OEM code page.
 old-location: ifsk\rtloemtounicoden.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: fe00b980-4bb5-4ad7-84c0-99d47d2f7c51
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

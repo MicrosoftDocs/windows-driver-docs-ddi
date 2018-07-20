@@ -4,7 +4,7 @@ title: IPrinterPropertyBag
 author: windows-driver-content
 description: Provides strongly-typed get and set methods.
 old-location: print\iprinterpropertybag_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: 421397FF-4956-4052-B63D-32F8E79A22D0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

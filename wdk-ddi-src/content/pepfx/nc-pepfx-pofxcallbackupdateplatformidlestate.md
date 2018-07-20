@@ -4,7 +4,7 @@ title: POFXCALLBACKUPDATEPLATFORMIDLESTATE
 author: windows-driver-content
 description: The UpdatePlatformIdleState routine is called by the platform extension plug-in (PEP) to update the properties of the specified platform idle state.
 old-location: kernel\updateplatformidlestate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A5E3C5DE-DD76-41CF-8A86-37F25A069E1C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

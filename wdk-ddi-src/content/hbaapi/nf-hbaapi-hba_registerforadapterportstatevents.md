@@ -4,7 +4,7 @@ title: HBA_RegisterForAdapterPortStatEvents function
 author: windows-driver-content
 description: The HBA_RegisterForAdapterPortStatEvents routine registers the indicated user callback routine to call when a port statistics event occurs.
 old-location: storage\hba_registerforadapterportstatevents.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 82598ba4-6e01-44eb-9359-4b85e8f7980c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

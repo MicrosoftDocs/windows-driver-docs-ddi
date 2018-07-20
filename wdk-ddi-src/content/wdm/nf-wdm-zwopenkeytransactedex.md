@@ -4,7 +4,7 @@ title: ZwOpenKeyTransactedEx function
 author: windows-driver-content
 description: The ZwOpenKeyTransactedEx routine opens an existing registry key and associates the key with a transaction.
 old-location: kernel\zwopenkeytransactedex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8e3db1b4-6ee1-40a1-9818-434152fdffd7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

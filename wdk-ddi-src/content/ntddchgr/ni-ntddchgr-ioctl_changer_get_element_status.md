@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_GET_ELEMENT_STATUS
 author: windows-driver-content
 description: Returns the status of all elements or the status of a specified number of elements of a particular type. For a description of the possible element types, see CHANGER_ELEMENT.
 old-location: storage\ioctl_changer_get_element_status.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5611bd28-16ed-4af1-a01c-07ef590bad65
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

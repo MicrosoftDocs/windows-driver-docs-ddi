@@ -4,7 +4,7 @@ title: KSPROPERTY_STREAMALLOCATOR
 author: windows-driver-content
 description: "."
 old-location: stream\ksproperty_streamallocator.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4731864F-01B3-42CB-A1D4-C82FDD1DCBBE
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

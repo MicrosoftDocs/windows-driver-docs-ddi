@@ -4,10 +4,10 @@ title: IRegistryKey::QueryValueKey
 author: windows-driver-content
 description: The QueryValueKey method retrieves information about a registry key's value entries, including their names, types, data sizes, and values.
 old-location: audio\iregistrykey_queryvaluekey.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 6339a8bf-ab32-48bc-aae6-2cce2a6a648d
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IRegistryKey interface [Audio Devices],QueryValueKey method, IRegistryKey.QueryValueKey, IRegistryKey::QueryValueKey, QueryValueKey, QueryValueKey method [Audio Devices], QueryValueKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_queryvaluekey, audmp-routines_2b41aa08-8b71-45af-bcfa-c33723c82c13.xml, portcls/IRegistryKey::QueryValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices

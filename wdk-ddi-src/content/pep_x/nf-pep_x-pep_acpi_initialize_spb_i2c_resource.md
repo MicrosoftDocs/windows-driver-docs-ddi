@@ -4,7 +4,7 @@ title: PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function
 author: windows-driver-content
 description: The PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function initializes a platform extension plug-in's (PEP) PEP_ACPI_SPB_I2C_RESOURCE structure.
 old-location: kernel\pep_acpi_initialize_spb_i2c_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 5F1606D8-1E6F-494F-AE70-07A1EC1FEA47
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

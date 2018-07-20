@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO I/O request returns information about a USB device and the hub it is attached to.
 old-location: buses\ioctl_internal_usb_get_device_config_info.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 518de598-6281-4838-b453-9f699524cbf4
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control code [Buses], buses.ioctl_internal_usb_get_device_config_info, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: "_PEP_REGISTER_CRASHDUMP_DEVICE"
 author: windows-driver-content
 description: The PEP_REGISTER_CRASHDUMP_DEVICE structure provides a callback routine to turn on a crash-dump device.
 old-location: kernel\pep_register_crashdump_device.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 207EEFBF-289F-4973-9183-7D87C0BAE09A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

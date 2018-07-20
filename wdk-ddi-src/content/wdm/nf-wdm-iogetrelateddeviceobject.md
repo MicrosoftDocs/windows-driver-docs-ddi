@@ -4,7 +4,7 @@ title: IoGetRelatedDeviceObject function
 author: windows-driver-content
 description: Given a file object, the IoGetRelatedDeviceObject routine returns a pointer to the corresponding device object.
 old-location: kernel\iogetrelateddeviceobject.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 70427fad-6a3d-40bb-9523-787c14fa1e39
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

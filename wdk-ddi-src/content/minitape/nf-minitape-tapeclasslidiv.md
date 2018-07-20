@@ -4,7 +4,7 @@ title: TapeClassLiDiv function
 author: windows-driver-content
 description: The TapeClassLiDiv routine performs a division of the two indicated integers.
 old-location: storage\tapeclasslidiv.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 13c449c6-6e2b-434e-8948-62c8af237173
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

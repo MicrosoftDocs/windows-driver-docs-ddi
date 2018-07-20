@@ -4,7 +4,7 @@ title: EVT_WDF_IO_TARGET_REMOVE_COMPLETE
 author: windows-driver-content
 description: A driver's EvtIoTargetRemoveComplete event callback function performs operations when the removal of a specified remote I/O target is complete.
 old-location: wdf\evtiotargetremovecomplete.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 204f101d-770c-4363-9371-0ee76dfa0b2c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

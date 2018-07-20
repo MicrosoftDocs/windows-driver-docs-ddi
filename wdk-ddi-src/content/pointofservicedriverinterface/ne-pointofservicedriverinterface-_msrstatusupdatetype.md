@@ -4,7 +4,7 @@ title: "_MsrStatusUpdateType"
 author: windows-driver-content
 description: This enumeration defines the constants that indicate the magnetic stripe reader (MSR) status.
 old-location: pos\msrstatusupdatetype.htm
-old-project: pos
+tech.root: pos
 ms.assetid: f7e055ac-df7c-4993-b7aa-f455c4548d5e
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

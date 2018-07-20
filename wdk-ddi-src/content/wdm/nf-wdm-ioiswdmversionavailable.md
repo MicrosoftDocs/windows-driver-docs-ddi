@@ -4,7 +4,7 @@ title: IoIsWdmVersionAvailable function
 author: windows-driver-content
 description: The IoIsWdmVersionAvailable routine checks whether a given WDM version is supported by the operating system.
 old-location: kernel\ioiswdmversionavailable.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 80b72de0-02a6-4891-b74a-c41cb14fa629
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

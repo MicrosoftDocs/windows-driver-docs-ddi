@@ -4,7 +4,7 @@ title: KeReleaseInStackQueuedSpinLockFromDpcLevel function
 author: windows-driver-content
 description: The KeReleaseInStackQueuedSpinLockFromDpcLevel routine releases a queued spin lock acquired by KeAcquireInStackQueuedSpinLockAtDpcLevel.
 old-location: kernel\kereleaseinstackqueuedspinlockfromdpclevel.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c3f07b86-f5ca-4c21-bc4b-b23598da7664
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

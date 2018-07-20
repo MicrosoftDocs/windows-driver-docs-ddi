@@ -4,7 +4,7 @@ title: StorPortLogError function
 author: windows-driver-content
 description: The StorPortLogError routine notifies the port driver that an error occurred.
 old-location: storage\storportlogerror.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f653e6bf-e99b-4aa2-aa54-d7482d326720
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

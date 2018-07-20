@@ -4,10 +4,10 @@ title: "_DXGKMDT_OPM_STANDARD_INFORMATION"
 author: windows-driver-content
 description: The DXGKMDT_OPM_STANDARD_INFORMATION structure contains information that is retrieved in a call to the DxgkDdiOPMGetInformation or DxgkDdiOPMGetCOPPCompatibleInformation function. The type of information is described in the ulInformation member.
 old-location: display\dxgkmdt_opm_standard_information.htm
-old-project: display
+tech.root: display
 ms.assetid: 5862e6eb-acf8-4034-ad8f-d59f87c49596
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_STANDARD_INFORMATION structure [Display Devices], DmStructs_95069fc9-f530-4764-900b-0fa6dee51656.xml, _DXGKMDT_OPM_STANDARD_INFORMATION, d3dkmdt/DXGKMDT_OPM_STANDARD_INFORMATION, display.dxgkmdt_opm_standard_information
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START
 author: windows-driver-content
 description: The EvtSerCx2CustomReceiveTransactionStart event callback function is called by version 2 of the serial framework extension (SerCx2) to start a custom-receive transaction.
 old-location: serports\evtsercx2customreceivetransactionstart.htm
-old-project: serports
+tech.root: serports
 ms.assetid: F90250CC-EDBF-4DB7-B889-4BF6325FB0CD
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

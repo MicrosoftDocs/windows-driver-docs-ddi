@@ -4,7 +4,7 @@ title: FltCloseClientPort function
 author: windows-driver-content
 description: FltCloseClientPort closes a communication client port.
 old-location: ifsk\fltcloseclientport.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 7a23b8f6-688f-4aa4-9bf3-f8bda0458566
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: PsGetPermanentSiloContext function
 author: windows-driver-content
 description: This routine retrieves an object that was inserted in the Silo without incrementing the reference count.
 old-location: kernel\psgetpermanentsilocontext.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: C1AEFC8F-6488-4582-9835-DAD07D4ACB17
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

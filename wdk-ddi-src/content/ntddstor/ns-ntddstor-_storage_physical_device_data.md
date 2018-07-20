@@ -4,7 +4,7 @@ title: "_STORAGE_PHYSICAL_DEVICE_DATA"
 author: windows-driver-content
 description: Specifies the physical device data of a storage device.
 old-location: storage\storage_physical_device_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9D8E67D1-EB7C-4EED-8BDD-43D5E012B99C
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_FEATURE_DATA_TIMEOUT"
 author: windows-driver-content
 description: The FEATURE_DATA_TIMEOUT structure holds information about the Time-Out feature.
 old-location: storage\feature_data_timeout.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0699dcc3-ab43-436e-b7d3-09898e4d823c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

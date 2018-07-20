@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_VIDEO_PALETTE
 author: windows-driver-content
 description: The KS_DATARANGE_VIDEO_PALETTE structure describes a stream and its color capabilities.
 old-location: stream\ks_datarange_video_palette.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 45488748-fc7e-47a6-8427-479c63d74a27
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

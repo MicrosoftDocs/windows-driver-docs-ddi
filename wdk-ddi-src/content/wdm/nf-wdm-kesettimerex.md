@@ -4,7 +4,7 @@ title: KeSetTimerEx function
 author: windows-driver-content
 description: The KeSetTimerEx routine sets the absolute or relative interval at which a timer object is to be set to a signaled state, optionally supplies a CustomTimerDpc routine to be executed when that interval expires, and optionally supplies a recurring interval for the timer.
 old-location: kernel\kesettimerex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9a2a092d-f9b5-42a2-9be4-bc934a9304fb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

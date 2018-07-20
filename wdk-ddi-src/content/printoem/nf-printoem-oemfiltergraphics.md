@@ -4,7 +4,7 @@ title: OEMFilterGraphics function
 author: windows-driver-content
 description: OEMFilterGraphics function
 old-location: print\oemfiltergraphics.htm
-old-project: print
+tech.root: print
 ms.assetid: 1b81de5a-440a-4209-992e-7f79c047245c
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

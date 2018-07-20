@@ -4,7 +4,7 @@ title: "_TAPE_GET_POSITION"
 author: windows-driver-content
 description: The TAPE_GET_POSITION structure is used in conjunction with the IOCTL_TAPE_GET_POSITION request to retrieve the current absolute, logical, or pseudological partition and offset position on the tape.
 old-location: storage\tape_get_position.htm
-old-project: storage
+tech.root: storage
 ms.assetid: dd7a194a-6ce4-4889-b574-7c4f232f45f0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

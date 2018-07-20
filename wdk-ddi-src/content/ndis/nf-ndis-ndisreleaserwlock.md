@@ -4,10 +4,10 @@ title: NdisReleaseRWLock function
 author: windows-driver-content
 description: The NdisReleaseRWLock function releases a read/write lock that the caller uses to gain access to resources that are shared between driver threads.
 old-location: netvista\ndisreleaserwlock.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: e0859f3f-0acc-45b7-99b2-ef420cd06565
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisReleaseRWLock, NdisReleaseRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisReleaseRWLock, ndis_processor_group_ref_bbc47204-3cf6-4154-bafc-23c14cff452b.xml, netvista.ndisreleaserwlock
 ms.prod: windows-hardware
 ms.technology: windows-devices

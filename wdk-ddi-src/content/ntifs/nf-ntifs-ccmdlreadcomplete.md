@@ -4,7 +4,7 @@ title: CcMdlReadComplete function
 author: windows-driver-content
 description: The CcMdlReadComplete routine frees the memory descriptor lists (MDL) created by CcMdlRead for a cached file.
 old-location: ifsk\ccmdlreadcomplete.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c1525604-3aee-464d-a7f5-a6a4739a2aa4
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_OPTCOMBO"
 author: windows-driver-content
 description: "."
 old-location: print\optcombo.htm
-old-project: print
+tech.root: print
 ms.assetid: B1F5A79A-8F64-4B7B-ADB4-BDD8EC17F22E
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_SUB_Q_HEADER"
 author: windows-driver-content
 description: The SUB_Q_HEADER structure contains audio status information and the length of the Q subchannel data being returned. This structure is used in conjunction with SUB_Q_CHANNEL_DATA.
 old-location: storage\sub_q_header.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3ee3657d-acdd-4d3f-9cff-eb4a494429b4
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IKsControl::KsProperty
 author: windows-driver-content
 description: The KsProperty method sets a property or retrieves property information, along with any other defined support operations available on a property set.
 old-location: stream\ikscontrol_ksproperty.htm
-old-project: stream
+tech.root: stream
 ms.assetid: cc43f704-e1f8-4d62-8cdf-11575ec0b473
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

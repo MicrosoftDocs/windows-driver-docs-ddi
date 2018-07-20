@@ -4,7 +4,7 @@ title: RxPostRecurrentTimerRequest function
 author: windows-driver-content
 description: RxPostRecurrentTimerRequest initializes a recurrent timer request. The passed in pointer to a worker thread routine is called at regular intervals when the recurrent timer fires based on the input parameters to this routine.
 old-location: ifsk\rxpostrecurrenttimerrequest.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: a44fb478-4f78-415e-b557-bf383199578c
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

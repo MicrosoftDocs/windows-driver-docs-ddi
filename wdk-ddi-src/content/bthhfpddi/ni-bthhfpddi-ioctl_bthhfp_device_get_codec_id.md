@@ -4,10 +4,10 @@ title: IOCTL_BTHHFP_DEVICE_GET_CODEC_ID
 author: windows-driver-content
 description: An audio driver can send an IOCTL_BTHHFP_DEVICE_GET_CODEC_ID control code to query the Bluetooth driver stack about the codec ID used by the HFP service. This helps the audio driver determine the sampling rate for the data.
 old-location: audio\ioctl_bthhfp_device_get_codec_id.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 38B67F0E-46A4-4AB5-B122-F5DE282FE52D
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_CODEC_ID, IOCTL_BTHHFP_DEVICE_GET_CODEC_ID control, IOCTL_BTHHFP_DEVICE_GET_CODEC_ID control code [Audio Devices], audio.ioctl_bthhfp_device_get_codec_id, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CODEC_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices

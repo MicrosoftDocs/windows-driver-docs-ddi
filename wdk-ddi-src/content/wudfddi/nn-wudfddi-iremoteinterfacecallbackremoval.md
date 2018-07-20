@@ -4,7 +4,7 @@ title: IRemoteInterfaceCallbackRemoval
 author: windows-driver-content
 description: The IRemoteInterfaceCallbackRemoval provides a callback function that the framework calls to notify the driver about the removal of a device interface.
 old-location: wdf\iremoteinterfacecallbackremoval.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: f4cbad57-922f-4265-b436-847feeca853c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

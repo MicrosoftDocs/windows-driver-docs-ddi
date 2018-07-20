@@ -4,7 +4,7 @@ title: "_RemovePersistentEntry_OUT"
 author: windows-driver-content
 description: The RemovePersistentEntry_OUT structure is used to report the output parameter data of the RemovePersistentEntry WMI method to the WMI client.
 old-location: storage\removepersistententry_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2fa578f7-5892-4ec1-a01f-49c828bd6913
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

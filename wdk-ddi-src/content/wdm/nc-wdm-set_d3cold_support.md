@@ -4,7 +4,7 @@ title: SET_D3COLD_SUPPORT
 author: windows-driver-content
 description: The SetD3ColdSupport routine enables or disables transitions to the D3cold device power state.
 old-location: kernel\setd3coldsupport.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 423C621D-0AE3-468A-94A0-AA3922B410F0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

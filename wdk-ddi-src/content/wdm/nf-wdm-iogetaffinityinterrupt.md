@@ -4,7 +4,7 @@ title: IoGetAffinityInterrupt function
 author: windows-driver-content
 description: For more information, see the WdmlibIoGetAffinityInterrupt function.#define IoGetAffinityInterrupt WdmlibIoGetAffinityInterrupt
 old-location: kernel\iogetaffinityinterrupt.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: aec1ace6-9945-4e7a-b0f6-81591670ecfe
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

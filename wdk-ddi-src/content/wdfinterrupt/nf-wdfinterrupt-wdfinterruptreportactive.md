@@ -4,7 +4,7 @@ title: WdfInterruptReportActive function
 author: windows-driver-content
 description: The WdfInterruptReportActive informs the system that the interrupt is active and the driver is ready to process interrupt requests on the associated lines.
 old-location: wdf\wdfinterruptreportactive.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 9A7B4181-0592-4C40-BC5A-99AFFA57846C
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

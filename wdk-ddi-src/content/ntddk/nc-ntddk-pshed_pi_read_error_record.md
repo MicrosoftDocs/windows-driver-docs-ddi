@@ -4,7 +4,7 @@ title: PSHED_PI_READ_ERROR_RECORD
 author: windows-driver-content
 description: A PSHED plug-in's ReadErrorRecord callback function reads an error record from the system's persistent data storage.
 old-location: whea\readerrorrecord.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 2fcbdfe3-bcce-4e5b-a16b-501612975e82
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

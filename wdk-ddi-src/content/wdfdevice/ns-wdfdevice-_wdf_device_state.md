@@ -4,7 +4,7 @@ title: "_WDF_DEVICE_STATE"
 author: windows-driver-content
 description: The WDF_DEVICE_STATE structure specifies a device's Plug and Play state.
 old-location: wdf\wdf_device_state.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5d0a2303-df2b-45fe-9c88-df4bb19a2a9f
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

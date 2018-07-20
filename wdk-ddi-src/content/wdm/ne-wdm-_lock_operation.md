@@ -4,7 +4,7 @@ title: "_LOCK_OPERATION"
 author: windows-driver-content
 description: The LOCK_OPERATION enumeration specifies the type of access that is appropriate for a type of I/O operation.
 old-location: ifsk\lock_operation.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 25b2dd6a-2e20-4221-bef4-0001bbaae1d5
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

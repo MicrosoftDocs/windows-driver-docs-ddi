@@ -4,10 +4,10 @@ title: "_DXGK_MULTIPLANE_OVERLAY_PLANE2"
 author: windows-driver-content
 description: DXGK_MULTIPLANE_OVERLAY_PLANE2 is used with the DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay2 function to specify an overlay plane to display.
 old-location: display\dxgk_multiplane_overlay_plane2.htm
-old-project: display
+tech.root: display
 ms.assetid: 31A1EAFB-FA48-432D-963E-EA907B43F08A
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE2, DXGK_MULTIPLANE_OVERLAY_PLANE2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE2, display.dxgk_multiplane_overlay_plane2
 ms.prod: windows-hardware
 ms.technology: windows-devices

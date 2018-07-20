@@ -4,7 +4,7 @@ title: KSPROPERTY_VIDEODECODER_STATUS_S
 author: windows-driver-content
 description: The KSPROPERTY_VIDEODECODER_STATUS_S structure describes the present status of a video decoding device, such as number of lines in the incoming analog signal and whether the signal is locked in.
 old-location: stream\ksproperty_videodecoder_status_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 12b92834-dcab-4723-91e5-9b7ab0bdd719
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

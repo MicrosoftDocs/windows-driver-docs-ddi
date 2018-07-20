@@ -4,7 +4,7 @@ title: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS
 author: windows-driver-content
 description: This IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request is sent to retrieve the list of bands for a storage device under band management. Banding information is returned in a table of band entries that includes band location and security properties.
 old-location: storage\ioctl_ehstor_bandmgmt_enumerate_bands.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 80F7546C-3683-460B-A0D9-AD41386E6195
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IWDFUsbInterface
 author: windows-driver-content
 description: The IWDFUsbInterface interface exposes a USB interface that a USB device exposes.
 old-location: wdf\iwdfusbinterface.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 90770016-1267-437e-af70-99741231dc29
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

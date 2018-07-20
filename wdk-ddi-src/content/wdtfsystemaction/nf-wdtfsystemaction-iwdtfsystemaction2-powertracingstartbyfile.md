@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::PowerTracingStartByFile
 author: windows-driver-content
 description: Starts a trace session for power state transitions and saves the trace message file (.etl) using the specified path. This method is available starting with Windows 8.
 old-location: dtf\iwdtfsystemaction2_powertracingstartbyfile.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: c37095d2-fbf5-49fa-a6c8-b4776bf530af
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

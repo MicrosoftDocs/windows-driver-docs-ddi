@@ -4,7 +4,7 @@ title: RxNameCacheFreeEntry function
 author: windows-driver-content
 description: RxNameCacheFreeEntry releases the storage for a NAME_CACHE entry and decrements the count of the NAME_CACHE cache entries associated with a NAME_CACHE_CONTROL structure.
 old-location: ifsk\rxnamecachefreeentry.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c1adef80-b8f2-49bb-9254-b89c8d1af220
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

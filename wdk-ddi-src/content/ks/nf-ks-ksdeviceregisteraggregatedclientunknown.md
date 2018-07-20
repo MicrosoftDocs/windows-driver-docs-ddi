@@ -4,7 +4,7 @@ title: KsDeviceRegisterAggregatedClientUnknown function
 author: windows-driver-content
 description: This inline function is a wrapper for KsRegisterAggregatedClientUnknown.
 old-location: stream\ksdeviceregisteraggregatedclientunknown.htm
-old-project: stream
+tech.root: stream
 ms.assetid: d4d3f653-cfdc-4567-97bc-def26484ed9f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

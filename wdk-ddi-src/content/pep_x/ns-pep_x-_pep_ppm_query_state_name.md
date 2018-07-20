@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_STATE_NAME"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_STATE_NAME structure contains information about a specific coordinated or platform idle state.
 old-location: kernel\pep_ppm_query_state_name.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: CE0C4DAA-0B14-4CC3-B75A-66329A5830E7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IWDTFSystemDepot2::get_ThisSystem
 author: windows-driver-content
 description: Gets an IWDTFTarget2 value that represents the local computer.
 old-location: dtf\iwdtfsystemdepot2_thissystem.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 8bf680a9-3779-447c-99b0-813ec454658e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

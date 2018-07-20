@@ -4,7 +4,7 @@ title: IOCTL_SCSI_MINIPORT
 author: windows-driver-content
 description: Sends a special control function to an HBA-specific miniport driver.
 old-location: storage\ioctl_scsi_miniport.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5a9facc7-c83e-4dd4-9fb4-e3385c1b94ea
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

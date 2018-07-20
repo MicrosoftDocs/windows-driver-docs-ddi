@@ -4,7 +4,7 @@ title: IoGetDeviceInterfacePropertyData function
 author: windows-driver-content
 description: The IoGetDeviceInterfacePropertyData routine retrieves the current value of a device interface property.
 old-location: kernel\iogetdeviceinterfacepropertydata.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 01113C73-2C79-40F2-9B13-B864148D2C9A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

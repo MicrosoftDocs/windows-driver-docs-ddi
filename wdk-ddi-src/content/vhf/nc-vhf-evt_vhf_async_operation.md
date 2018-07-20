@@ -4,7 +4,7 @@ title: EVT_VHF_ASYNC_OPERATION
 author: windows-driver-content
 description: The HID source driver implements this event callback if it wants to support one of the four asynchronous operation to get and set HID reports.
 old-location: hid\evtvhfasyncoperation.htm
-old-project: hid
+tech.root: hid
 ms.assetid: C42174FE-202F-405D-840B-8613762F43AC
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: RtlVolumeDeviceToDosName function
 author: windows-driver-content
 description: The RtlVolumeDeviceToDosName routine is obsolete for Windows XP and later versions of Windows. Use IoVolumeDeviceToDosName instead.RtlVolumeDeviceToDosName returns the MS-DOS path for a specified device object that represents a file system volume.
 old-location: kernel\rtlvolumedevicetodosname.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e25db70f-04bf-4fb1-8ff5-2beb4c825797
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

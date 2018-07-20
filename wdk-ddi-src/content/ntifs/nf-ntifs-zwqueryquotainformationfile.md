@@ -4,7 +4,7 @@ title: ZwQueryQuotaInformationFile function
 author: windows-driver-content
 description: The ZwQueryQuotaInformationFile routine retrieves quota entries associated with the volume specified by the FileHandle parameter.
 old-location: kernel\zwqueryquotainformationfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 572477c7-8588-415e-b66f-adab977ab373
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

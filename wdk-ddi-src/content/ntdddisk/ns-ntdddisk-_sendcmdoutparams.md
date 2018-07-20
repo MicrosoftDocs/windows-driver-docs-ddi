@@ -4,7 +4,7 @@ title: "_SENDCMDOUTPARAMS"
 author: windows-driver-content
 description: The SENDCMDOUTPARAMS structure is used in conjunction with the SMART_SEND_DRIVE_COMMAND request to retrieve data returned by a Self-Monitoring Analysis and Reporting Technology (SMART) command.
 old-location: storage\sendcmdoutparams.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e9fb6d5c-258c-46eb-ba3a-3f10008fdf68
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

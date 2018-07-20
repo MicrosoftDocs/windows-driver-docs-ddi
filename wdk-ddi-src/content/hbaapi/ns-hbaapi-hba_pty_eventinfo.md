@@ -4,7 +4,7 @@ title: HBA_Pty_EventInfo
 author: windows-driver-content
 description: The HBA_Link_EventInfo structure contains information about a WMI proprietary event associated with the fibre channel HBA API.
 old-location: storage\hba_pty_eventinfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 4291e6cd-9497-4106-82bf-c054108a0946
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

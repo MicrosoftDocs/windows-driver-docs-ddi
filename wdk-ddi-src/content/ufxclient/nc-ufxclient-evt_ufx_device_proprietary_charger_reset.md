@@ -4,10 +4,10 @@ title: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET
 author: windows-driver-content
 description: The client driver's implementation to resets proprietary charger.
 old-location: buses\evt_ufx_device_proprietary_charger_reset.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 103E60D4-4640-430D-A4AE-E03D8B6E7031
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback, EvtUfxDeviceProprietaryChargerReset, EvtUfxDeviceProprietaryChargerReset callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback function pointer [Buses], buses.evt_ufx_device_proprietary_charger_reset, ufxclient/EvtUfxDeviceProprietaryChargerReset
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: IOCTL_GNSS_POP_BREADCRUMBS
 author: windows-driver-content
 description: The IOCTL_GNSS_POP_BREADCRUMBS control code is used to request a list of breadcrumbs contained in GNSS_BREADCRUMB_LIST.
 old-location: gnss\ioctl_gnss_pop_breadcrumbs_.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: D5F7ACDC-25A0-49A4-95D4-C48B3E94CF69
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

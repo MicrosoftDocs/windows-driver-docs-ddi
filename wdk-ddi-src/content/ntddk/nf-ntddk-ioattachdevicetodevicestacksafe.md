@@ -4,7 +4,7 @@ title: IoAttachDeviceToDeviceStackSafe function
 author: windows-driver-content
 description: The IoAttachDeviceToDeviceStackSafe routine attaches the caller's device object to the topmost device object in a driver stack.
 old-location: ifsk\ioattachdevicetodevicestacksafe.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bc403fc7-7862-4c4c-8a82-bd5c740b270e
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

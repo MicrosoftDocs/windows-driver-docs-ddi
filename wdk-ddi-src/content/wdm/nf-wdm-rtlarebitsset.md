@@ -4,7 +4,7 @@ title: RtlAreBitsSet function
 author: windows-driver-content
 description: The RtlAreBitsSet routine determines whether a given range of bits within a bitmap variable is set.
 old-location: kernel\rtlarebitsset.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 7343f619-cf89-4768-b488-fe95f1da749d
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

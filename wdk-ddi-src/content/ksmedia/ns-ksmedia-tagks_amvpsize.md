@@ -4,7 +4,7 @@ title: tagKS_AMVPSIZE
 author: windows-driver-content
 description: The KS_AMVPSIZE structure is used to describe the dimension of a video port (width by height).
 old-location: stream\ks_amvpsize.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 31430419-8f83-4f46-b398-841895f415d5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

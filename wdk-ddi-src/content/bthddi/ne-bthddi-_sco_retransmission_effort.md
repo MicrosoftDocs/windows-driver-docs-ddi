@@ -4,7 +4,7 @@ title: "_SCO_RETRANSMISSION_EFFORT"
 author: windows-driver-content
 description: The SCO_RETRANSMISSION_EFFORT enumeration type is used to determine the retransmission policies of a SCO channel.
 old-location: bltooth\sco_retransmission_effort.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: bf466384-bf13-42cc-a02d-ef880cac4c02
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW
 author: windows-driver-content
 description: The Field of View Control property describes the current Field of View (FOV) of the camera along with the pitch angle of the camera position.
 old-location: stream\kscamera_extendedprop_fieldofview.htm
-old-project: stream
+tech.root: stream
 ms.assetid: CC3FFC63-8404-4EA6-9738-F0A3C52585B8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

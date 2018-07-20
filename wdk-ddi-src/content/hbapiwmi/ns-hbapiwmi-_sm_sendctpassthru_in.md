@@ -4,7 +4,7 @@ title: "_SM_SendCTPassThru_IN"
 author: windows-driver-content
 description: The SM_SendCTPassThru_IN structure is used to provide input parameters to the SM_SendCTPassThru method.
 old-location: storage\sm_sendctpassthru_in.htm
-old-project: storage
+tech.root: storage
 ms.assetid: a6dfb1a2-bfc2-4117-8a4e-f52979818289
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

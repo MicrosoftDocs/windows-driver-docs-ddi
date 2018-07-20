@@ -4,7 +4,7 @@ title: IoFastQueryNetworkAttributes function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\iofastquerynetworkattributes.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 69a3e9c2-8bd5-4f42-9de9-58f1eea8b9a2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

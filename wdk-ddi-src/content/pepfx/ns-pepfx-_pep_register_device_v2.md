@@ -4,7 +4,7 @@ title: "_PEP_REGISTER_DEVICE_V2"
 author: windows-driver-content
 description: The PEP_REGISTER_DEVICE_V2 structure describes a device whose driver stack has just registered with the Windows power management framework (PoFx).
 old-location: kernel\pep_register_device_v2.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A1363B34-CC5C-482E-8E8D-62D7263545E3
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

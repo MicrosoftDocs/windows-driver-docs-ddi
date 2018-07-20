@@ -4,7 +4,7 @@ title: RouterFreeBidiResponseContainer function
 author: windows-driver-content
 description: RouterFreeBidiResponseContainer frees a BIDI_RESPONSE_CONTAINER structure previously allocated by RouterAllocBidiResponseContainer.
 old-location: print\routerfreebidiresponsecontainer.htm
-old-project: print
+tech.root: print
 ms.assetid: 3998eed5-398e-4835-b917-54f5ae814ddf
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

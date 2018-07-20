@@ -4,7 +4,7 @@ title: PoFxSetComponentWake function
 author: windows-driver-content
 description: The PoFxSetComponentWake routine indicates whether the driver arms the specified component to wake whenever the component enters the idle condition.
 old-location: kernel\pofxsetcomponentwake.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: BE2E35B0-1C34-4740-ABED-4E96F8908174
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: KSQUALITY
 author: windows-driver-content
 description: The KSQUALITY structure is used to report QM problems in both kernel and user mode to their respective quality managers.
 old-location: stream\ksquality.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 36caaea9-2354-4ed8-9649-5eb102def8d5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

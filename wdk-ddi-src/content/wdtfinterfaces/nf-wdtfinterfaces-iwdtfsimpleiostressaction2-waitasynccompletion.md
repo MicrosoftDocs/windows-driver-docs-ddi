@@ -4,7 +4,7 @@ title: IWDTFSimpleIOStressAction2::WaitAsyncCompletion
 author: windows-driver-content
 description: Waits for the completion of any of the asynchronous events.
 old-location: dtf\iwdtfsimpleiostressaction2_waitasynccompletion.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 7aaf56cf-ba31-495b-9f54-35e9238f188a
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

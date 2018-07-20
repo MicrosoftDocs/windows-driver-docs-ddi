@@ -4,10 +4,10 @@ title: RIL_GetIMSStatus function
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\ril_getimsstatus.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 78b2621e-e969-48ba-b742-ca6e52518874
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: RIL_GetIMSStatus, RIL_GetIMSStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getimsstatus, rilapi/RIL_GetIMSStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

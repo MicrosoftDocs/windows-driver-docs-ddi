@@ -4,7 +4,7 @@ title: WdfDeviceResumeIdle macro
 author: windows-driver-content
 description: The WdfDeviceResumeIdle method informs the framework that the specified device is not in use and can be placed in a device low-power state if it remains idle.
 old-location: wdf\wdfdeviceresumeidle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d63848e8-0e6a-4ad7-a147-8804869b9c9b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

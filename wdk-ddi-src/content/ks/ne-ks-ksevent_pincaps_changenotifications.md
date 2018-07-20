@@ -4,7 +4,7 @@ title: KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 author: windows-driver-content
 description: "."
 old-location: stream\ksevent_pincaps_changenotifications.htm
-old-project: stream
+tech.root: stream
 ms.assetid: FC46144A-8343-4C1F-8061-4C9DCAB22370
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

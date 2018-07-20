@@ -4,7 +4,7 @@ title: KeQueryPerformanceCounter function
 author: windows-driver-content
 description: The KeQueryPerformanceCounter routine retrieves the current value and frequency of the performance counter.Use KeQueryPerformanceCounter to acquire high resolution (&lt;1us) time stamps for time interval measurements.
 old-location: kernel\kequeryperformancecounter.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ee1dbd20-5502-4448-b39a-4629ddc73d01
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

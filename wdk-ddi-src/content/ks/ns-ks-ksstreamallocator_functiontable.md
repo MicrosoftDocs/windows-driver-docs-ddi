@@ -4,7 +4,7 @@ title: KSSTREAMALLOCATOR_FUNCTIONTABLE
 author: windows-driver-content
 description: Clients can request the function table of a given allocator by sending a KSSTREAMALLOCATOR_FUNCTIONTABLE structure in a KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE property request.
 old-location: stream\ksstreamallocator_functiontable.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0bc02fa8-41ca-4430-9dff-e98e39b4eeef
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

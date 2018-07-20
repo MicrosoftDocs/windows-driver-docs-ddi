@@ -4,7 +4,7 @@ title: KS_LogicalMemoryType
 author: windows-driver-content
 description: "."
 old-location: stream\ks_logicalmemorytype.htm
-old-project: stream
+tech.root: stream
 ms.assetid: B02E5131-6407-4481-BABD-9F5BDA979D85
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

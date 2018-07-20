@@ -4,7 +4,7 @@ title: "_MSiSCSI_BootInformation"
 author: windows-driver-content
 description: The MSiSCSI_BootInformation structure is used with the MSiSCSI_BootInformation WMI Class to expose information about the node that contains the target boot device.
 old-location: storage\msiscsi_bootinformation.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 971bbd30-5bde-4cf6-9b94-7c21c29590d5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

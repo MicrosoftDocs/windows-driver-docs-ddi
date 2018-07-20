@@ -4,10 +4,10 @@ title: ExtRemoteTyped::OutTypeName
 author: windows-driver-content
 description: The OutTypeName method prints the type name of the typed data represented by this object.
 old-location: debugger\extremotetyped_outtypename.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: fda88a3d-4cdf-4be1-87a7-29e312453686
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: EngExtCpp_Ref_1dd0e308-16ca-4b91-8ad6-7c2d4c7d8da8.xml, ExtRemoteTyped interface [Windows Debugging],OutTypeName method, ExtRemoteTyped.OutTypeName, ExtRemoteTyped::OutTypeName, OutTypeName, OutTypeName method [Windows Debugging], OutTypeName method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outtypename
 ms.prod: windows-hardware
 ms.technology: windows-devices

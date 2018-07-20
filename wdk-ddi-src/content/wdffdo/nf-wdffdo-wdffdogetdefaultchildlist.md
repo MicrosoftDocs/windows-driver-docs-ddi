@@ -4,7 +4,7 @@ title: WdfFdoGetDefaultChildList function
 author: windows-driver-content
 description: The WdfFdoGetDefaultChildList method returns a handle to a specified device's default child list.
 old-location: wdf\wdffdogetdefaultchildlist.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b90c82ad-0531-4564-b30d-48e980282e85
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

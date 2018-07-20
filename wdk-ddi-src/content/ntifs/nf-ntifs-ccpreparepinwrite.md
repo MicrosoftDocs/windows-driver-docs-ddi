@@ -4,7 +4,7 @@ title: CcPreparePinWrite function
 author: windows-driver-content
 description: The CcPreparePinWrite routine pins the specified byte range of a cached file for write access.
 old-location: ifsk\ccpreparepinwrite.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1645c7e9-5ae7-41d1-92db-1f069f79ac81
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

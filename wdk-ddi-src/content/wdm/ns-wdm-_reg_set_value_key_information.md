@@ -4,7 +4,7 @@ title: "_REG_SET_VALUE_KEY_INFORMATION"
 author: windows-driver-content
 description: The REG_SET_VALUE_INFORMATION structure describes a new setting for a registry key's value entry.
 old-location: kernel\reg_set_value_key_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: a74d9740-8342-454e-8cbf-cf248e67d857
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

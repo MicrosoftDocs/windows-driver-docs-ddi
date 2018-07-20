@@ -4,7 +4,7 @@ title: "_WDF_DMA_PROFILE"
 author: windows-driver-content
 description: The WDF_DMA_PROFILE enumeration identifies the types of bus-master or system-mode DMA operations that devices can support.
 old-location: wdf\wdf_dma_profile.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a2672bca-5c2e-423d-9ba0-fad610170e88
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: IPrintOemPrintTicketProvider::BindPrinter
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::BindPrinter method enables the core driver to associate a set of private namespace uniform resource identifiers (URIs) with a device.
 old-location: print\iprintoemprintticketprovider_bindprinter.htm
-old-project: print
+tech.root: print
 ms.assetid: 6b31b340-de94-4e6c-a48a-7c1b874eb7cd
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

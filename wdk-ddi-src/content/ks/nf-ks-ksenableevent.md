@@ -4,7 +4,7 @@ title: KsEnableEvent function
 author: windows-driver-content
 description: The KsEnableEvent function enables events requested through IOCTL_KS_ENABLE_EVENT. It responds to all event identifiers defined by the sets. This function can only be called at PASSIVE_LEVEL.
 old-location: stream\ksenableevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 2338e583-4491-492e-b7e6-fa4e23485c22
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

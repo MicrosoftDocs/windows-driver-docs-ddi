@@ -4,7 +4,7 @@ title: IPrintSchemaPageImageableSize::get_ImageableSizeWidthInMicrons
 author: windows-driver-content
 description: Gets the horizontal dimension of the application media size relative to the page orientation.
 old-location: print\iprintschemapageimageablesize_imageablesizewidthinmicrons.htm
-old-project: print
+tech.root: print
 ms.assetid: 46556C6E-B231-400D-8F0A-86FC1CD5D4B6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

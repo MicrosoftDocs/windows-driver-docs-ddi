@@ -4,7 +4,7 @@ title: "_SCARD_READER_CAPABILITIES"
 author: windows-driver-content
 description: The SCARD_READER_CAPABILITIES structure holds state information about the smart card reader.
 old-location: smartcrd\scard_reader_capabilities.htm
-old-project: smartcrd
+tech.root: smartcrd
 ms.assetid: f55b74d0-d545-419a-87fb-c320f789aaf4
 ms.author: windowsdriverdev
 ms.date: 2/22/2018

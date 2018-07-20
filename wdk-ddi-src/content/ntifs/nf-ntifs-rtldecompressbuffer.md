@@ -4,7 +4,7 @@ title: RtlDecompressBuffer function
 author: windows-driver-content
 description: The RtlDecompressBuffer function decompresses an entire compressed buffer.
 old-location: ifsk\rtldecompressbuffer.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 4f82d094-e6be-4367-9146-1fa3f200ffa0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

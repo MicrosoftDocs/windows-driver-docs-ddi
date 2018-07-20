@@ -4,10 +4,10 @@ title: NDIS_WDI_PEER_CREATE_IND
 author: windows-driver-content
 description: The NdisWdiPeerCreateIndication callback function specifies a peer ID to associate with a peer MAC address.
 old-location: netvista\ndiswdipeercreateindication.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 58B60160-FE04-4EDE-900F-244D0F76E50D
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDIS_WDI_PEER_CREATE_IND, NDIS_WDI_PEER_CREATE_IND callback, NdisWdiPeerCreateIndication, NdisWdiPeerCreateIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiPeerCreateIndication, netvista.ndiswdipeercreateindication
 ms.prod: windows-hardware
 ms.technology: windows-devices

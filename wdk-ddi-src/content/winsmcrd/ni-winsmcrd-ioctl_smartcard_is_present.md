@@ -4,7 +4,7 @@ title: IOCTL_SMARTCARD_IS_PRESENT
 author: windows-driver-content
 description: The IOCTL_SMARTCARD_IS_PRESENT control code detects whether a smart card is currently detected.
 old-location: nfpdrivers\ioctl_smartcard_is_present.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 8EF97A77-7A6A-4FDF-82AA-05481AEA7C28
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: KsPinAddEvent function
 author: windows-driver-content
 description: The KsPinAddEvent function adds a specified event to Pin's event list.
 old-location: stream\kspinaddevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1bb34062-f092-41a4-8d59-6937be7b5639
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

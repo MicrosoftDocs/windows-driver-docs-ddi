@@ -4,7 +4,7 @@ title: DrvDevicePropertySheets function
 author: windows-driver-content
 description: A printer interface DLL's DrvDevicePropertySheets function is responsible for creating property sheet pages that describe a printer's properties.
 old-location: print\drvdevicepropertysheets.htm
-old-project: print
+tech.root: print
 ms.assetid: 46f39e36-8915-4ccf-97ef-45dbacdfbe0a
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

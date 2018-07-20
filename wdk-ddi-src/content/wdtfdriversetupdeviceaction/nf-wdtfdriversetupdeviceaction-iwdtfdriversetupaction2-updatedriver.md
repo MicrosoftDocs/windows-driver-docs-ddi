@@ -4,7 +4,7 @@ title: IWDTFDriverSetupAction2::UpdateDriver
 author: windows-driver-content
 description: Updates the target device with a driver from the driver package.
 old-location: dtf\iwdtfdriversetupaction2_updatedriver.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 4eb49aae-a7de-4038-9d57-003bb30d7ea8
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: "_IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO"
 author: windows-driver-content
 description: Note  This structure is for internal use only and should not be called from your code. .
 old-location: storage\identify_device_data_log_page_zoned_device_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2F0B6C1F-54CC-47CF-B0D0-A53FAB80AF91
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

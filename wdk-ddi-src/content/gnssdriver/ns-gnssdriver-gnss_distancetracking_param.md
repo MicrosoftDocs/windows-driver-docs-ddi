@@ -4,7 +4,7 @@ title: GNSS_DISTANCETRACKING_PARAM
 author: windows-driver-content
 description: This structure defines the parameters for a distance-based tracking fix session.
 old-location: gnss\gnss_distancetracking_param.htm
-old-project: gnss
+tech.root: gnss
 ms.assetid: B37B3C59-225C-40BC-BCA4-9ABF2500AFC0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: IOCTL_TAPE_PREPARE
 author: windows-driver-content
 description: Loads or unloads the tape, resets tape tension, locks or unlocks the ejection mechanism, or formats the tape.
 old-location: storage\ioctl_tape_prepare.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 0e016f3a-4f3a-4256-bb7b-10a5f955b930
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IWDFDriver
 author: windows-driver-content
 description: The IWDFDriver interface exposes the framework driver object that represents the driver image that is loaded in the host process.
 old-location: wdf\iwdfdriver.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ada475ae-e697-475c-b461-8e3a36ae9ab1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

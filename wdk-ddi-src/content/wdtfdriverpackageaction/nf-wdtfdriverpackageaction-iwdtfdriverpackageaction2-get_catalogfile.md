@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::get_CatalogFile
 author: windows-driver-content
 description: Gets the catalog file name.
 old-location: dtf\iwdtfdriverpackageaction2_catalogfile.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 57cfb693-7134-4e3c-a5b4-3d15456b4daa
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

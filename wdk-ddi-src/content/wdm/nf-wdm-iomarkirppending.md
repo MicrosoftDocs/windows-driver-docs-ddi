@@ -4,7 +4,7 @@ title: IoMarkIrpPending function
 author: windows-driver-content
 description: The IoMarkIrpPending routine marks the specified IRP, indicating that a driver's dispatch routine subsequently returned STATUS_PENDING because further processing is required by other driver routines.
 old-location: kernel\iomarkirppending.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 424d5ebd-c871-40d8-b5b7-3a4a04fe60fa
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

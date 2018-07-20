@@ -4,7 +4,7 @@ title: PsInsertSiloContext function
 author: windows-driver-content
 description: This routine inserts an object in an empty slot in a Silo.
 old-location: kernel\psinsertsilocontext.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 31C7A629-3B5E-44BA-AE03-3331E3200FC6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IOCTL_HID_GET_DEVICE_DESCRIPTOR
 author: windows-driver-content
 description: The IOCTL_HID_GET_DEVICE_DESCRIPTOR request obtains a HIDClass device's HID descriptor.
 old-location: hid\ioctl_hid_get_device_descriptor.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 89eac71d-c3f9-48b2-9174-26e4ccbe1d6e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_PEP_WORK_COMPLETE_PERF_STATE"
 author: windows-driver-content
 description: The PEP_WORK_COMPLETE_PERF_STATE structure describes the completion status of a previously requested update to the performance values assigned to a list of performance state (P-state) sets.
 old-location: kernel\pep_work_complete_perf_state.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: B28BE626-5DF1-4B55-8D1A-04B1FF2245EA
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0001"
 author: windows-driver-content
 description: The ExpsCompressionOptions enumeration describes compression options for an XPS part.
 old-location: print\expscompressionoptions.htm
-old-project: print
+tech.root: print
 ms.assetid: 7df53803-4e01-4d00-b7a4-2f2d1dde5ad8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

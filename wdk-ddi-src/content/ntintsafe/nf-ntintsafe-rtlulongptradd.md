@@ -4,7 +4,7 @@ title: RtlULongPtrAdd function
 author: windows-driver-content
 description: Adds two values of type ULONG_PTR.
 old-location: kernel\rtlulongptradd.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 26A9A0B6-07A3-4D42-A5A1-C4CDD541A3FA
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: InterlockedExchangePointer function
 author: windows-driver-content
 description: The InterlockedExchangePointer routine performs an atomic operation that sets a pointer to a new value.
 old-location: kernel\interlockedexchangepointer.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8c39a62d-0c05-4d26-b104-90c436e821cb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

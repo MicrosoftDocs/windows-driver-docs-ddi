@@ -4,10 +4,10 @@ title: IDebugControl5::GetContextStackTraceEx
 author: windows-driver-content
 description: The GetContextStackTraceEx method returns the frames at the top of the call stack, starting with an arbitrary register context and returning the reconstructed register context for each stack frame.
 old-location: debugger\idebugcontrol5_getcontextstacktraceex.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 26B191ED-A38B-412D-93C3-E9A55216F91E
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: GetContextStackTraceEx, GetContextStackTraceEx method [Windows Debugging], GetContextStackTraceEx method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetContextStackTraceEx method, IDebugControl5.GetContextStackTraceEx, IDebugControl5::GetContextStackTraceEx, dbgeng/IDebugControl5::GetContextStackTraceEx, debugger.idebugcontrol5_getcontextstacktraceex
 ms.prod: windows-hardware
 ms.technology: windows-devices

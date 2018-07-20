@@ -4,7 +4,7 @@ title: WDF_FILEOBJECT_CONFIG_INIT function
 author: windows-driver-content
 description: The WDF_FILEOBJECT_CONFIG_INIT function initializes a driver's WDF_FILEOBJECT_CONFIG structure.
 old-location: wdf\wdf_fileobject_config_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 87ad817a-4a62-4061-949c-fe45bdfb44d5
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

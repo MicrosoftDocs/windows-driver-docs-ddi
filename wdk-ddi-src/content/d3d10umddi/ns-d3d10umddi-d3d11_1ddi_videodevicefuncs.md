@@ -4,10 +4,10 @@ title: D3D11_1DDI_VIDEODEVICEFUNCS
 author: windows-driver-content
 description: Specifies the video function table for the Microsoft Direct3D driver device object.
 old-location: display\d3d11_1ddi_videodevicefuncs.htm
-old-project: display
+tech.root: display
 ms.assetid: c843fe5c-19bc-479c-8d8d-a3a6146dfb1c
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3D11_1DDI_VIDEODEVICEFUNCS, D3D11_1DDI_VIDEODEVICEFUNCS structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEODEVICEFUNCS, display.d3d11_1ddi_videodevicefuncs
 ms.prod: windows-hardware
 ms.technology: windows-devices

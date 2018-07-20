@@ -4,7 +4,7 @@ title: PFNKSPINIRP
 author: windows-driver-content
 description: An AVStream minidriver's routine is called when an activity on the pin is performed and it receives these IRPs:IRP_MJ_CREATEIRP_MJ_CLOSE
 old-location: stream\avstrminipincreate.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 85e91b13-96c8-4422-b9b7-90f6cecbb2a5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

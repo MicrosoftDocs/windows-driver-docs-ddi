@@ -4,7 +4,7 @@ title: "_SRBEX_DATA_SCSI_CDB_VAR"
 author: windows-driver-content
 description: The SRBEX_DATA_SCSI_CDB_VAR structure contains the extended SRB data for a variable length SCSI command data block (CDB).
 old-location: storage\srbex_data_scsi_cdb_var.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 8D3BD2E0-02EA-4745-AA1C-86D829E6BA81
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,10 +4,10 @@ title: NdisClModifyCallQoS function
 author: windows-driver-content
 description: NdisClModifyCallQoS requests a change in the quality of service on a connection.
 old-location: netvista\ndisclmodifycallqos.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: c31449a6-e275-480c-83ea-8575fda73cd9
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisClModifyCallQoS, NdisClModifyCallQoS function [Network Drivers Starting with Windows Vista], condis_client_ref_55b0158f-e91e-4be8-818b-ade726db0f61.xml, ndis/NdisClModifyCallQoS, netvista.ndisclmodifycallqos
 ms.prod: windows-hardware
 ms.technology: windows-devices

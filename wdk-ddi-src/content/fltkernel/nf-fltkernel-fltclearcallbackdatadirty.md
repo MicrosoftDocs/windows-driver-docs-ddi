@@ -4,7 +4,7 @@ title: FltClearCallbackDataDirty function
 author: windows-driver-content
 description: The FltClearCallbackDataDirty routine clears the callback dirty flag in a callback data structure.
 old-location: ifsk\fltclearcallbackdatadirty.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: c53ec6e5-83f8-4262-b832-1a206e6652e6
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IWDTFTargets2::GetInterfaces
 author: windows-driver-content
 description: Returns a collection of actions that support the interface - one IWDTFAction2 for each item that has one.
 old-location: dtf\iwdtftargets2_getinterfaces.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 8e9735b2-23d3-4fe6-8184-31e7707b6400
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

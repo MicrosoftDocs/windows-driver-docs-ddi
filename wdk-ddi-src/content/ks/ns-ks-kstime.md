@@ -4,7 +4,7 @@ title: KSTIME
 author: windows-driver-content
 description: The KSTIME structure specifies a time stamp that can be used to indicate stream position.
 old-location: stream\kstime.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e026a539-7aa5-4205-970d-cf452e4471da
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

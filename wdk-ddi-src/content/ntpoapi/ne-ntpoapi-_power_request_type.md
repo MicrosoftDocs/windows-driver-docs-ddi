@@ -4,7 +4,7 @@ title: "_POWER_REQUEST_TYPE"
 author: windows-driver-content
 description: The POWER_REQUEST_TYPE enumeration indicates the power request type.
 old-location: kernel\power_request_type.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 266cdf1a-6122-4f46-8e93-8f76fceb0180
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

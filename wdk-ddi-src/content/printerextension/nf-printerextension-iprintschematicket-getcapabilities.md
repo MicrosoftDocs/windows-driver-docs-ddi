@@ -4,7 +4,7 @@ title: IPrintSchemaTicket::GetCapabilities
 author: windows-driver-content
 description: Gets an IPrintSchemaCapabilities object that represents the printer capabilities based on the current settings of this IPrintSchemaTicket object.
 old-location: print\iprintschematicket_getcapabilities.htm
-old-project: print
+tech.root: print
 ms.assetid: 5556BD5E-6489-4CCF-8C62-DDA53AD9F368
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

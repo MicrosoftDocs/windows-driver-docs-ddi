@@ -4,7 +4,7 @@ title: "_PEP_ACPI_SPB_I2C_RESOURCE"
 author: windows-driver-content
 description: The PEP_ACPI_SPB_I2C_RESOURCE structure describes an ACPI I2C serial bus resource.
 old-location: kernel\pep_acpi_spb_i2c_resource.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 4CCD3D00-CDE4-425A-BB4B-A2088D6A1603
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

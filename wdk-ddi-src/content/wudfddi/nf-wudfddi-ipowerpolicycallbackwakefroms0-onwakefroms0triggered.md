@@ -4,7 +4,7 @@ title: IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered
 author: windows-driver-content
 description: A driver's OnWakeFromS0Triggered event callback function informs the driver that its device, which had previously entered a low-power device state while the system power state remained at S0, might have triggered a wake signal.
 old-location: wdf\ipowerpolicycallbackwakefroms0_onwakefroms0triggered.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ebcd31f9-79cd-4c43-8cac-231ff97f269e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

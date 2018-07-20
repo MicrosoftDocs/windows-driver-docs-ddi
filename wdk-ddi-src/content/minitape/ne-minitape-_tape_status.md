@@ -4,7 +4,7 @@ title: "_TAPE_STATUS"
 author: windows-driver-content
 description: The TAPE_STATUS enumeration provides a list of the status codes that the tape class driver uses to report the status of a tape device.
 old-location: storage\tape_status.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 45e85ad1-5b75-410e-b9dd-061051bbaa74
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

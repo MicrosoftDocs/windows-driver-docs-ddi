@@ -4,7 +4,7 @@ title: WmiCompleteRequest function
 author: windows-driver-content
 description: The WmiCompleteRequest routine indicates that a driver has finished processing a WMI request in a DpWmiXxx routine.
 old-location: kernel\wmicompleterequest.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c6377dcc-a83b-4766-b882-25d228a26efe
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: ChangerClassSendSrbSynchronous function
 author: windows-driver-content
 description: The ChangerClassSendSrbSynchronous routine synchronously sends an SRB to a specified device.
 old-location: storage\changerclasssendsrbsynchronous.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6765d7d5-528f-42c5-98c3-0484608a020b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

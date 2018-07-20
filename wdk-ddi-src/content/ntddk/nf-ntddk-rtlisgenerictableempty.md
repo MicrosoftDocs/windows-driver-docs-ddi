@@ -4,7 +4,7 @@ title: RtlIsGenericTableEmpty function
 author: windows-driver-content
 description: The RtlIsGenericTableEmpty routine determines if a generic table is empty.
 old-location: ifsk\rtlisgenerictableempty.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9d032bd1-3ee7-4044-951f-c6730a28f3a1
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: IOCTL_DISK_PERFORMANCE_OFF
 author: windows-driver-content
 description: Disables the counters that were enabled by previous calls to IOCTL_DISK_PERFORMANCE. This request is available in Windows XP and later operating systems. Caller must be running at IRQL = PASSIVE_LEVEL.
 old-location: storage\ioctl_disk_performance_off.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9a56ac86-2d39-4367-8e64-b6f6bc0da0ea
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

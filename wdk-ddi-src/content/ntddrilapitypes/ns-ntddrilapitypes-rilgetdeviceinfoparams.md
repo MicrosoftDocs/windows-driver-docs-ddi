@@ -4,10 +4,10 @@ title: RILGETDEVICEINFOPARAMS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilgetdeviceinfoparams.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4cb3be01-7e74-4c98-9c4b-2e1c78d96001
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdeviceinfoparams, ntddrilapitypes/RILGETDEVICEINFOPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,7 +4,7 @@ title: ChangerClassFreePool function
 author: windows-driver-content
 description: The ChangerClassFreePool routine frees pool memory previously allocated using ChangerClassAllocatePool.
 old-location: storage\changerclassfreepool.htm
-old-project: storage
+tech.root: storage
 ms.assetid: c20c39f9-ceee-47f0-849a-f8686fb05e6a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

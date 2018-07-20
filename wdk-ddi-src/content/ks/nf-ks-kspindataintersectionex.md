@@ -4,7 +4,7 @@ title: KsPinDataIntersectionEx function
 author: windows-driver-content
 description: The KsPinDataIntersectionEx function handles the KSPROPERTY_PIN_DATAINTERSECTION through a callback function.
 old-location: stream\kspindataintersectionex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 4d471d91-7b2c-441d-a640-4f66ef7f1b2f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IoBuildPartialMdl function
 author: windows-driver-content
 description: The IoBuildPartialMdl routine builds a new memory descriptor list (MDL) that represents part of a buffer that is described by an existing MDL.
 old-location: kernel\iobuildpartialmdl.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 26d88928-798f-46ee-9805-3b7da2056e2e
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IWDTFDriverSetupSystemAction2::SnapTriageLogs
 author: windows-driver-content
 description: Copies the driver setup triage logs.
 old-location: dtf\iwdtfdriversetupsystemaction2_snaptriagelogs.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 52f1e529-e1fe-4a08-a0cf-dc08e18d11b5
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

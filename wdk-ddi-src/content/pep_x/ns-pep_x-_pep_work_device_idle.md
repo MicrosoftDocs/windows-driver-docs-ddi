@@ -4,7 +4,7 @@ title: "_PEP_WORK_DEVICE_IDLE"
 author: windows-driver-content
 description: The PEP_WORK_DEVICE_IDLE structure indicates whether to ignore the idle time-out for the specified device.
 old-location: kernel\pep_work_device_idle.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 054D45D8-EDAA-41F2-9884-4301F08B67CB
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

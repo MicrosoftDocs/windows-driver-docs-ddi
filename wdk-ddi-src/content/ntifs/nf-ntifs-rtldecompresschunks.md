@@ -4,7 +4,7 @@ title: RtlDecompressChunks function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\rtldecompresschunks.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 1bc13892-a7fb-43f9-8e65-70c11baca9ce
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: "_NFC_CX_CE_MODE_CONFIG"
 author: windows-driver-content
 description: This enumeration specifies CE listening mode flags.
 old-location: nfpdrivers\nfc_cx_ce_mode_config.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 2C7071A4-B978-408C-9C98-67BC63F2BBCA
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

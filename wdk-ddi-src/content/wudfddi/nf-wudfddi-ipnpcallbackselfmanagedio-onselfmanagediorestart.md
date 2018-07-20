@@ -4,7 +4,7 @@ title: IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart
 author: windows-driver-content
 description: The OnSelfManagedIoRestart method restarts a device's self-managed I/O operations.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediorestart.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: dccc4be0-0724-44b6-8476-276b46acee6a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

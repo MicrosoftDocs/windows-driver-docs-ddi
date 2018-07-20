@@ -4,7 +4,7 @@ title: RtlLongLongToLongPtr function
 author: windows-driver-content
 description: Converts a value of type LONGLONG to a value of type LONG_PTR.
 old-location: kernel\rtllonglongtolongptr.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1E7B693A-B363-4AE0-B9E3-45CC01FE9724
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WheaGetErrPacketFromErrRecord function
 author: windows-driver-content
 description: The WheaGetErrPacketFromErrRecord function returns a pointer to the hardware error packet that is contained within a WHEA error record. The hardware error packet is formatted as a WHEA_ERROR_PACKET structure.
 old-location: whea\wheageterrpacketfromerrrecord.htm
-old-project: whea
+tech.root: whea
 ms.assetid: 8b4a835f-b1ec-4308-8e0d-a13c0f421dc8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

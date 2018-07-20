@@ -4,7 +4,7 @@ title: HBA_SendRPS function
 author: windows-driver-content
 description: The HBA_SendRPS routine sends a read port status block (RPS) request to the indicated agent port or domain controller.
 old-location: storage\hba_sendrps.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 6a79896a-0591-40dd-8e2d-6e3796556564
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

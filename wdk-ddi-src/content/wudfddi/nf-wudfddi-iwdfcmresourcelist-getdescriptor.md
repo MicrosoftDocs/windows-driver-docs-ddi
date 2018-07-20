@@ -4,7 +4,7 @@ title: IWDFCmResourceList::GetDescriptor
 author: windows-driver-content
 description: The GetDescriptor method returns a pointer to a resource descriptor that is contained in this interface's resource list.
 old-location: wdf\iwdfcmresourcelist_getdescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5E870D10-A03B-4CD8-A2DD-54A6AB527DB2
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

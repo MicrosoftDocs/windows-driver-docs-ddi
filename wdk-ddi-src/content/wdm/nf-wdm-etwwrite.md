@@ -4,7 +4,7 @@ title: EtwWrite function
 author: windows-driver-content
 description: The EtwWrite function is a tracing function for publishing events in your kernel-mode driver code.
 old-location: devtest\etwwrite.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: b9d4f6da-694d-4737-9cbe-3666e693c0a2
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

@@ -4,7 +4,7 @@ title: RxFinishFcbInitialization function
 author: windows-driver-content
 description: RxFinishFcbInitialization is used to finish initializing an FCB after the successful completion of a create operation by the network mini-redirector.
 old-location: ifsk\rxfinishfcbinitialization.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 290d0b06-ccf7-4792-b7bb-556092845e55
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

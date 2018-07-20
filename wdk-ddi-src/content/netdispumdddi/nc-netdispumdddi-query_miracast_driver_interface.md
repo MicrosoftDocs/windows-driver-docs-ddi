@@ -4,10 +4,10 @@ title: QUERY_MIRACAST_DRIVER_INTERFACE
 author: windows-driver-content
 description: Called by the operating system to query the Miracast user-mode driver interface, MIRACAST_DRIVER_INTERFACE.
 old-location: display\querymiracastdriverinterface.htm
-old-project: display
+tech.root: display
 ms.assetid: a8833f8c-7e3f-422c-922e-e75476358ee9
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: QUERY_MIRACAST_DRIVER_INTERFACE, QUERY_MIRACAST_DRIVER_INTERFACE callback, QueryMiracastDriverInterface, QueryMiracastDriverInterface callback function [Display Devices], display.query_miracast_driver_interface, display.querymiracastdriverinterface, netdispumdddi/QueryMiracastDriverInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices

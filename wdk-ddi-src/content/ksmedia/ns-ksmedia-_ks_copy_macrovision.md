@@ -4,7 +4,7 @@ title: "_KS_COPY_MACROVISION"
 author: windows-driver-content
 description: The KS_COPY_MACROVISION structure specifies the Macrovision level of the data stream.
 old-location: stream\ks_copy_macrovision.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 86c6ee78-ae4e-4b96-be83-a5960f36a363
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

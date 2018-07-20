@@ -4,7 +4,7 @@ title: SeSetSecurityDescriptorInfo function
 author: windows-driver-content
 description: The SeSetSecurityDescriptorInfo routine sets an object's security descriptor.
 old-location: ifsk\sesetsecuritydescriptorinfo.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: d6f02142-1cd8-4f09-b106-d963bf080495
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

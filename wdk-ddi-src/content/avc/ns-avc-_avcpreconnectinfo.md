@@ -4,7 +4,7 @@ title: "_AVCPRECONNECTINFO"
 author: windows-driver-content
 description: The AVCPRECONNECTINFO structure is used to initialize a subunit driver and establish pin connections.
 old-location: stream\avcpreconnectinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 828ce6cf-f47a-4487-8c45-887f2ace8202
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IoCreateFile function
 author: windows-driver-content
 description: The IoCreateFile routine either causes a new file or directory to be created, or it opens an existing file, device, directory, or volume, giving the caller a handle for the file object.
 old-location: kernel\iocreatefile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 928f16d4-19cb-4d80-96a6-d25357bfdc30
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

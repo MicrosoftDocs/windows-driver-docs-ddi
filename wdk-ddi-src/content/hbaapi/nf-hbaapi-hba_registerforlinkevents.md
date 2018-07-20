@@ -4,7 +4,7 @@ title: HBA_RegisterForLinkEvents function
 author: windows-driver-content
 description: The HBA_RegisterForLinkEvents routine registers with a specified adapter for asynchronous fabric link-level events.
 old-location: storage\hba_registerforlinkevents.htm
-old-project: storage
+tech.root: storage
 ms.assetid: f0e6834c-b827-4342-83f1-5980f8edce24
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

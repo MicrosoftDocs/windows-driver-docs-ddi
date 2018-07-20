@@ -4,7 +4,7 @@ title: "_GetFC3MgmtInfo_OUT"
 author: windows-driver-content
 description: The GetFC3MgmtInfo_OUT structure is used to report the output parameter data of the GetFC3MgmtInfo WMI method to the WMI client.
 old-location: storage\getfc3mgmtinfo_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 5cce25e7-582b-49b3-9f10-be59471e377f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

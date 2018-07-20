@@ -4,7 +4,7 @@ title: ObQueryNameString function
 author: windows-driver-content
 description: The ObQueryNameString routine supplies the name, if there is one, of a given object to which the caller has a pointer.
 old-location: ifsk\obquerynamestring.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3c540410-6478-4da1-8ef5-b6d21d322b32
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

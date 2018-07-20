@@ -4,7 +4,7 @@ title: PsGetJobSilo function
 author: windows-driver-content
 description: This routine returns the first job in the hierarchy that is a Silo. The returned pointer is valid as long as the supplied Job object remains referenced.
 old-location: kernel\psgetjobsilo.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1032282B-7CA3-4162-8FC2-1A4A683E9DEF
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

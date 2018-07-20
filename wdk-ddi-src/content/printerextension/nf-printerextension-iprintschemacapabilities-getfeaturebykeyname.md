@@ -4,7 +4,7 @@ title: IPrintSchemaCapabilities::GetFeatureByKeyName
 author: windows-driver-content
 description: Gets a feature from the PrintCapabilities based on a given key name.
 old-location: print\iprintschemacapabilities_getfeaturebykeyname.htm
-old-project: print
+tech.root: print
 ms.assetid: 053BFE59-FDC6-42F3-BE14-CE63D5637D62
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

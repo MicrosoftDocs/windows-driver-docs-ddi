@@ -4,10 +4,10 @@ title: UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG function
 author: windows-driver-content
 description: Initializes a UCM_PD_REQUEST_DATA_OBJECT structure by interpreting Request Data Object values and sets each field correctly.
 old-location: buses\ucm_pd_request_data_object_init_ulong.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 825AA3FC-1D2E-4D71-8F21-C89A249B3F1A
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG, UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG function [Buses], buses.ucm_pd_request_data_object_init_ulong, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT_INIT_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices

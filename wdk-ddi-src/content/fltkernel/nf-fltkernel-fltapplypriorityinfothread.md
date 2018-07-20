@@ -4,7 +4,7 @@ title: FltApplyPriorityInfoThread function
 author: windows-driver-content
 description: The FltApplyPriorityInfoThread routine is used by a minifilter driver to apply priority information to a thread.
 old-location: ifsk\fltapplypriorityinfothread.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 62fd46a8-ee34-4c61-8e87-7fbe1a4622be
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

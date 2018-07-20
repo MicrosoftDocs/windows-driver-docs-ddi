@@ -4,7 +4,7 @@ title: "_CMP_DISCONNECT"
 author: windows-driver-content
 description: This structure is used to break a connection.
 old-location: ieee\cmp_disconnect.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 7EAE617D-EFF9-4F77-9B9C-5985B864B310
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

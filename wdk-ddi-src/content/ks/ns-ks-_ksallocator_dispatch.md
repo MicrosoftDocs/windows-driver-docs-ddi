@@ -4,7 +4,7 @@ title: "_KSALLOCATOR_DISPATCH"
 author: windows-driver-content
 description: The KSALLOCATOR_DISPATCH structure contains the callbacks required for a pin to implement its own kernel-level allocator.
 old-location: stream\ksallocator_dispatch.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 6e6e6dde-3b41-44a7-b51d-1b1f06db0853
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

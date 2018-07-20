@@ -4,7 +4,7 @@ title: PCAM_ALLOCATE_BW_ROUTINE
 author: windows-driver-content
 description: A camera minidriver's CamAllocateBandwidth callback function selects the appropriate alternate setting within the USB video streaming interface and prepares the device to stream.
 old-location: stream\camallocatebandwidth.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0dd01bf7-04a8-4d20-982a-1ec81076583f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

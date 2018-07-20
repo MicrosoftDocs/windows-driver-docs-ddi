@@ -4,7 +4,7 @@ title: "_GROUP_AFFINITY"
 author: windows-driver-content
 description: The GROUP_AFFINITY structure specifies a group number and the processor affinity within that group.
 old-location: kernel\group_affinity.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8a6fd914-94f9-4ccf-9b0a-cc102fd90965
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

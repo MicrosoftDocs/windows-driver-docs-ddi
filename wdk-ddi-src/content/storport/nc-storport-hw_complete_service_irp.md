@@ -4,7 +4,7 @@ title: HW_COMPLETE_SERVICE_IRP
 author: windows-driver-content
 description: The HwStorCompleteServiceIrp routine is called when the virtual adapter is being removed. When this happens, the Storport virtual miniport can complete any reverse-callback IRPs received in HwStorCompleteServiceIrp.
 old-location: storage\hwstorcompleteserviceirp.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1a6a6073-27ec-43c0-b5ec-37ef4177fa54
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: IOCTL_BTHX_QUERY_CAPABILITIES
 author: windows-driver-content
 description: IOCTL_BTHX_QUERY_CAPABILITIES is used to query the capabilities of the transport driver.
 old-location: bltooth\ioctl_bthx_query_capabilities.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 199C93EC-AB91-47F1-914A-F44BFF1796A6
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

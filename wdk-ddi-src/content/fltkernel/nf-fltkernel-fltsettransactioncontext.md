@@ -4,7 +4,7 @@ title: FltSetTransactionContext function
 author: windows-driver-content
 description: The FltSetTransactionContext routine sets a context on a transaction.
 old-location: ifsk\fltsettransactioncontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bb68ee38-1726-4493-9c3b-71a1352dd9f2
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

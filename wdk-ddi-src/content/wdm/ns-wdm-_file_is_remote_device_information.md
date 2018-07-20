@@ -4,7 +4,7 @@ title: "_FILE_IS_REMOTE_DEVICE_INFORMATION"
 author: windows-driver-content
 description: The FILE_IS_REMOTE_DEVICE_INFORMATION structure is used as an argument to the ZwQueryInformationFile routine.
 old-location: kernel\file_is_remote_device_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E1A82D24-A981-414A-83D8-E71F97E0301A
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

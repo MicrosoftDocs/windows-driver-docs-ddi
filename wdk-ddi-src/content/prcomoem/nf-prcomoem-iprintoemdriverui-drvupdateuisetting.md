@@ -4,7 +4,7 @@ title: IPrintOemDriverUI::DrvUpdateUISetting
 author: windows-driver-content
 description: The IPrintOemDriverUI::DrvUpdateUISetting method is provided by the Unidrv and Pscript5 minidrivers so that user interface plug-ins can notify the driver of a modified user interface option.
 old-location: print\iprintoemdriverui_drvupdateuisetting.htm
-old-project: print
+tech.root: print
 ms.assetid: f5dec76e-16ad-4df0-b3c9-f0cbfb9b8c41
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

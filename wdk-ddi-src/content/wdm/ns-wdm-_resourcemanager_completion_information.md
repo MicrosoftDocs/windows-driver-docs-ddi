@@ -4,7 +4,7 @@ title: "_RESOURCEMANAGER_COMPLETION_INFORMATION"
 author: windows-driver-content
 description: The RESOURCEMANAGER_COMPLETION_INFORMATION structure is not used.
 old-location: kernel\resourcemanager_completion_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: c3b866c2-5908-418e-8744-9f8f22cdc88a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

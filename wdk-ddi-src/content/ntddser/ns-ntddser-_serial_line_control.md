@@ -4,7 +4,7 @@ title: "_SERIAL_LINE_CONTROL"
 author: windows-driver-content
 description: The SERIAL_LINE_CONTROL structure describes the control settings for the serial line.
 old-location: serports\serial_line_control.htm
-old-project: serports
+tech.root: serports
 ms.assetid: 2D11187E-B21B-4211-BAC0-248B93BAB6D5
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

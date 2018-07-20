@@ -4,10 +4,10 @@ title: NdisFGetOptionalSwitchHandlers function
 author: windows-driver-content
 description: Hyper-V extensible switch extensions call the NdisFGetOptionalSwitchHandlers function to obtain a list of pointers to the Hyper-V extensible switch handler functions.
 old-location: netvista\ndisfgetoptionalswitchhandlers.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: bf034ecd-5c1b-4117-a7b0-bcca3971386b
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisFGetOptionalSwitchHandlers, NdisFGetOptionalSwitchHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisFGetOptionalSwitchHandlers, netvista.ndisfgetoptionalswitchhandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices

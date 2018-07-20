@@ -4,7 +4,7 @@ title: ZwQueryInformationFile function
 author: windows-driver-content
 description: The ZwQueryInformationFile routine returns various kinds of information about a file object.
 old-location: kernel\zwqueryinformationfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 007df07e-685b-4224-b9d6-55e87cf0bd5c
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

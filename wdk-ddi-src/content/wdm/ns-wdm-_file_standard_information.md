@@ -4,7 +4,7 @@ title: "_FILE_STANDARD_INFORMATION"
 author: windows-driver-content
 description: The FILE_STANDARD_INFORMATION structure is used as an argument to routines that query or set file information.
 old-location: kernel\file_standard_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9ff7efec-4844-4abf-89c2-472afc959697
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

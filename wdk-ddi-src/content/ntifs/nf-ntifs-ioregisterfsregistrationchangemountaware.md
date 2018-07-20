@@ -4,7 +4,7 @@ title: IoRegisterFsRegistrationChangeMountAware function
 author: windows-driver-content
 description: The IoRegisterFsRegistrationChangeMountAware routine registers a file system filter driver's notification routine. This notification routine is called whenever a file system registers or unregisters itself as an active file system.
 old-location: ifsk\ioregisterfsregistrationchangemountaware.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f8f91c50-b434-438a-ad3c-d5d3c3982f4a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

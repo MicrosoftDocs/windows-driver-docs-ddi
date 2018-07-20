@@ -4,7 +4,7 @@ title: NtWriteFile function
 author: windows-driver-content
 description: The ZwWriteFile routine writes data to an open file.
 old-location: kernel\zwwritefile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: b64ca88f-f67d-4c92-aa0c-46dbe4970834
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

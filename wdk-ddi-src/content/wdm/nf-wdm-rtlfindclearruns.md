@@ -4,7 +4,7 @@ title: RtlFindClearRuns function
 author: windows-driver-content
 description: The RtlFindClearRuns routine finds the specified number of runs of clear bits within a given bitmap.
 old-location: kernel\rtlfindclearruns.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ad44c7ba-1d8e-4ba4-8d1b-83ff8b2e3d06
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

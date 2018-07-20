@@ -4,7 +4,7 @@ title: HBA_LibraryAttributes
 author: windows-driver-content
 description: The HBA_LibraryAttributes structure holds the library attributes.
 old-location: storage\hba_libraryattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 9dc03c5d-5e14-4399-b282-f0385a85a16c
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

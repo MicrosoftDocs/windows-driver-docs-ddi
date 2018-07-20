@@ -4,10 +4,10 @@ title: NdisResetEvent function
 author: windows-driver-content
 description: The NdisResetEvent function clears the Signaled state of a given event.
 old-location: netvista\ndisresetevent.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: fba29b92-5735-4050-b690-3c25e4f57cd1
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisResetEvent, NdisResetEvent function [Network Drivers Starting with Windows Vista], ndis/NdisResetEvent, ndis_event_ref_2970c5ca-b236-41e4-b156-c283f4f637f9.xml, netvista.ndisresetevent
 ms.prod: windows-hardware
 ms.technology: windows-devices

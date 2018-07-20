@@ -4,7 +4,7 @@ title: "_AddRADIUSServer_OUT"
 author: windows-driver-content
 description: The AddRADIUSServer_OUT structure holds the output data for the AddRADIUSServer method.
 old-location: storage\addradiusserver_out.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 512e66f6-d91f-4351-ba55-02ae3e84102e
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_DUPLICATE
 author: windows-driver-content
 description: A driver's EvtChildListIdentificationDescriptionDuplicate event callback function duplicates a child identification description.
 old-location: wdf\evtchildlistidentificationdescriptionduplicate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5c2ec27c-2d88-4e0c-8f11-4f58d720df46
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

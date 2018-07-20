@@ -4,10 +4,10 @@ title: "_USB_PORT_CONNECTOR_PROPERTIES"
 author: windows-driver-content
 description: The USB_PORT_CONNECTOR_PROPERTIES structure is used with the IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES I/O control request to retrieve information about a port on a particular SuperSpeed hub.
 old-location: buses\usb_port_connector_properties.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 93818067-A7EC-4796-B80F-75ADD6315ADF
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: "*PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses], USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], _USB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, usbioctl/USB_PORT_CONNECTOR_PROPERTIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices

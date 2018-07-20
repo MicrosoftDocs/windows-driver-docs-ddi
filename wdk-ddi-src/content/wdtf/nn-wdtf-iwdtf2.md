@@ -4,7 +4,7 @@ title: IWDTF2
 author: windows-driver-content
 description: Defines properties for the WDTF collection.
 old-location: dtf\iwdtf2.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: c6ac7f2b-e68e-47ed-89b7-d7704110c606
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

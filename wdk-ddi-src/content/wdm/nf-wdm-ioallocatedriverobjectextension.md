@@ -4,7 +4,7 @@ title: IoAllocateDriverObjectExtension function
 author: windows-driver-content
 description: The IoAllocateDriverObjectExtension routine allocates a per-driver context area, called a driver object extension, and assigns a unique identifier to it.
 old-location: kernel\ioallocatedriverobjectextension.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: e4e4e721-5b5c-48e8-99cb-d04c6b0eb807
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

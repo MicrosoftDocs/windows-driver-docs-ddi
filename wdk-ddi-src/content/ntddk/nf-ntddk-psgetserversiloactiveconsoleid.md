@@ -4,7 +4,7 @@ title: PsGetServerSiloActiveConsoleId function
 author: windows-driver-content
 description: Gets the active console for the current server silo context for the supplied thread.
 old-location: kernel\psgetserversiloactiveconsoleid.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 66b3c35d-681c-464a-86fa-972825bf3e97
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

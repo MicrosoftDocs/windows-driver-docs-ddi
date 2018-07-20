@@ -4,7 +4,7 @@ title: KSOBJECT_CREATE_ITEM
 author: windows-driver-content
 description: The KSOBJECT_CREATE_ITEM structure is used to look up the string passed to a create request.
 old-location: stream\ksobject_create_item.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 9c047a7c-cdfc-47e1-beae-f8f326c187ee
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

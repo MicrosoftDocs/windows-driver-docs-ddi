@@ -4,7 +4,7 @@ title: "_CPSUICBPARAM"
 author: windows-driver-content
 description: The CPSUICBPARAM structure is used as the input parameter to _CPSUICALLBACK-typed callback functions.
 old-location: print\cpsuicbparam.htm
-old-project: print
+tech.root: print
 ms.assetid: b5545efa-6cb4-41d0-9338-be9a269fa193
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

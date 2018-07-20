@@ -4,7 +4,7 @@ title: IoCancelFileOpen function
 author: windows-driver-content
 description: The IoCancelFileOpen routine can be used by a file system filter driver to close a file that has been opened by a file system driver in the filter driver's device stack.
 old-location: ifsk\iocancelfileopen.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 249a77b4-c0da-4445-a669-1c4e2ced5b57
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

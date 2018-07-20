@@ -4,7 +4,7 @@ title: UFS_ATTRIBUTES_DESCRIPTOR
 author: windows-driver-content
 description: UFS_ATTRIBUTES_DESCRIPTOR describes the different types of attributes used by Universal Flash Storage (UFS) descriptors.
 old-location: storage\ufs_attributes_descriptor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 695D8FE9-FADB-488F-A5F7-7715EAD48DD6
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

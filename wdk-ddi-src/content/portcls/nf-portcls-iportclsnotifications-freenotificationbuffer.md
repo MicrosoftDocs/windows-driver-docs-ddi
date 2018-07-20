@@ -4,10 +4,10 @@ title: IPortClsNotifications::FreeNotificationBuffer
 author: windows-driver-content
 description: Frees a previously allocated IPortClsNotifications buffer. The buffer is used in sending notifications, to allow for communications between audio modules and UWP apps.
 old-location: audio\iportclsnotifications_freenotification.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 93EC2651-3C52-4810-9F7A-A81BC7DA20AF
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: FreeNotificationBuffer, FreeNotificationBuffer method [Audio Devices], FreeNotificationBuffer method [Audio Devices],IPortClsNotifications interface, IPortClsNotifications interface [Audio Devices],FreeNotificationBuffer method, IPortClsNotifications.FreeNotificationBuffer, IPortClsNotifications::FreeNotificationBuffer, audio.iportclsnotifications_freenotification, portcls/IPortClsNotifications::FreeNotificationBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices

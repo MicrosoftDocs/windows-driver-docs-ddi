@@ -4,7 +4,7 @@ title: "_DISK_COPY_DATA_PARAMETERS"
 author: windows-driver-content
 description: DISK_COPY_DATA_PARAMETERS is used with IOCTL_DISK_COPY_DATA to copy data from one area of the disk to another.
 old-location: storage\disk_copy_data_parameters.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 17d75b0e-2521-441f-99ea-75d2ea1d52b3
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

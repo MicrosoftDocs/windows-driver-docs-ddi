@@ -4,7 +4,7 @@ title: "_MPIO_PATH_HEALTH_INFO"
 author: windows-driver-content
 description: The MPIO_PATH_HEALTH_INFO structure is used to query the available health information for every path that is exposed to the system.
 old-location: storage\mpio_path_health_info.htm
-old-project: storage
+tech.root: storage
 ms.assetid: efb49852-3c0a-4dab-9d50-c103ba4a136b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: RtlCreateSystemVolumeInformationFolder function
 author: windows-driver-content
 description: The RtlCreateSystemVolumeInformationFolder routine verifies the existence of the &#0034;System Volume Information&#0034; folder on a file system volume. If the folder is not present, then the folder is created.
 old-location: ifsk\rtlcreatesystemvolumeinformationfolder.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: bcbbddc7-6675-4555-bd05-588762148554
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

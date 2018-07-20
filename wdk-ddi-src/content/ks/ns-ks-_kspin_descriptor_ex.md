@@ -4,7 +4,7 @@ title: "_KSPIN_DESCRIPTOR_EX"
 author: windows-driver-content
 description: The KSPIN_DESCRIPTOR_EX structure describes the characteristics of a pin type on a given filter type.
 old-location: stream\kspin_descriptor_ex.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 05c82973-86f9-44f9-8df2-1fc84c8be975
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,7 +4,7 @@ title: IOCTL_DISK_IS_WRITABLE
 author: windows-driver-content
 description: Determines whether a disk is writable.
 old-location: storage\ioctl_disk_is_writable.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 073dd5d4-d6b9-42c8-adb2-1d6c53f2a352
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

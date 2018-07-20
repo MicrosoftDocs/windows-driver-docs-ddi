@@ -4,7 +4,7 @@ title: HalExamineMBR function
 author: windows-driver-content
 description: The HalExamineMBR routine reads the master boot record (MBR) of a disk and returns data from the MBR if the MBR is of the type specified by the caller.
 old-location: kernel\halexaminembr.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 6db72f2c-af24-4807-b90b-65dc2b309dc7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

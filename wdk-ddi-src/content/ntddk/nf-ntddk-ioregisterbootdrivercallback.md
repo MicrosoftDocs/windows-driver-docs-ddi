@@ -4,7 +4,7 @@ title: IoRegisterBootDriverCallback function
 author: windows-driver-content
 description: The IoRegisterBootDriverCallback routine registers a BOOT_DRIVER_CALLBACK_FUNCTION routine to be called during the initialization of a boot-start driver and its dependent DLLs.
 old-location: kernel\ioregisterbootdrivercallback.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 28BA4B54-F493-4D79-89DF-D890EBCF1E9C
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

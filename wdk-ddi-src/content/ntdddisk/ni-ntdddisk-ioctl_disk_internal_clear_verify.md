@@ -4,7 +4,7 @@ title: IOCTL_DISK_INTERNAL_CLEAR_VERIFY
 author: windows-driver-content
 description: Allows a driver to clear the verify bit on a disk device object, if the mode of the caller is kernel mode.
 old-location: storage\ioctl_disk_internal_clear_verify.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 72d3b112-a5d2-4b2d-8102-bd3dfba31500
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

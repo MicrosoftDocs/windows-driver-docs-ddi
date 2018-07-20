@@ -4,7 +4,7 @@ title: HalAllocateHardwareCounters function
 author: windows-driver-content
 description: The HalAllocateHardwareCounters routine allocates a set of hardware performance counters.
 old-location: kernel\halallocatehardwarecounters.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8a689889-b445-4fda-ae11-090d0d5870b8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

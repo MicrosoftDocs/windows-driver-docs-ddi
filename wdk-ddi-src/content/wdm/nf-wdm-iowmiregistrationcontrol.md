@@ -4,7 +4,7 @@ title: IoWMIRegistrationControl function
 author: windows-driver-content
 description: The IoWMIRegistrationControl routine registers or unregisters the caller as a WMI data provider for a specified device object.
 old-location: kernel\iowmiregistrationcontrol.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fe135118-1992-43c7-8492-81f9febd79b9
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

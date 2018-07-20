@@ -4,7 +4,7 @@ title: KeInitializeDeviceQueue function
 author: windows-driver-content
 description: The KeInitializeDeviceQueue routine initializes a device queue object to a not-busy state.
 old-location: kernel\keinitializedevicequeue.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 0df0fcba-9ae8-4c69-957a-5685ea40c378
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

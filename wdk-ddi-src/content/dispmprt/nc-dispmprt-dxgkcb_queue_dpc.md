@@ -4,10 +4,10 @@ title: DXGKCB_QUEUE_DPC
 author: windows-driver-content
 description: The DxgkCbQueueDpc function queues a deferred procedure call (DPC) for execution at IRQL DISPATCH_LEVEL.
 old-location: display\dxgkcbqueuedpc.htm
-old-project: display
+tech.root: display
 ms.assetid: c8c26675-8b87-4818-ad51-4e0a341965d0
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: DXGKCB_QUEUE_DPC, DXGKCB_QUEUE_DPC callback, DpFunctions_0d1685f8-bd6f-45cc-a958-54330281a44f.xml, DxgkCbQueueDpc, DxgkCbQueueDpc callback function [Display Devices], display.dxgkcbqueuedpc, dispmprt/DxgkCbQueueDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices

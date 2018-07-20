@@ -4,7 +4,7 @@ title: ZwNotifyChangeKey function
 author: windows-driver-content
 description: The ZwNotifyChangeKey routine allows a driver to request notification when a registry key changes.
 old-location: kernel\zwnotifychangekey.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 660c04b0-499b-40e7-94c2-5cb457e93f00
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

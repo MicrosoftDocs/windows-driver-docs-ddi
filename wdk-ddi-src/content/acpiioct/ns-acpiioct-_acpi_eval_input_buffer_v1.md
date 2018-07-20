@@ -4,7 +4,7 @@ title: "_ACPI_EVAL_INPUT_BUFFER_V1"
 author: windows-driver-content
 description: The ACPI_EVAL_INPUT_BUFFER structure is used as input to an IOCTL_ACPI_EVAL_METHOD request and to an IOCTL_ACPI_ASYNC_EVAL_METHOD request. The structure supplies the name of a control method that does not take an input argument.
 old-location: acpi\acpi_eval_input_buffer.htm
-old-project: acpi
+tech.root: acpi
 ms.assetid: a911fab9-516f-4ac5-ae33-1b6e218f9349
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_MPEG2_VIDEO
 author: windows-driver-content
 description: The KS_DATARANGE_MPEG2_VIDEO structure describes the range of MPEG-2 video formats available for a stream.
 old-location: stream\ks_datarange_mpeg2_video.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ed29c80a-7a42-46e3-8a18-d66dfddb9659
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

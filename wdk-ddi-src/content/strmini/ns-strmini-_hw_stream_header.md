@@ -4,7 +4,7 @@ title: "_HW_STREAM_HEADER"
 author: windows-driver-content
 description: The HW_STREAM_HEADER structure describes the kernel streaming semantics supported by the minidriver as a whole, as part of a HW_STREAM_DESCRIPTOR structure.
 old-location: stream\hw_stream_header.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1931c640-666b-4db5-8d05-eab43ae96665
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

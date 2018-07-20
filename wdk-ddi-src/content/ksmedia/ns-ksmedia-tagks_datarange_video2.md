@@ -4,7 +4,7 @@ title: tagKS_DATARANGE_VIDEO2
 author: windows-driver-content
 description: The KS_DATARANGE_VIDEO2 structure describes a video stream including bob or weave settings.
 old-location: stream\ks_datarange_video2.htm
-old-project: stream
+tech.root: stream
 ms.assetid: bddb19cb-7705-470b-ad22-14fd72f3db11
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

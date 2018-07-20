@@ -4,7 +4,7 @@ title: RtlInt8Mult function
 author: windows-driver-content
 description: Multiplies one value of type INT8 by another.
 old-location: kernel\rtlint8mult.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: A2551FD2-55E7-4931-887B-1CB9901F23D6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

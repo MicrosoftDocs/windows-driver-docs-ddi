@@ -4,7 +4,7 @@ title: "_WHEA_XPF_CMC_DESCRIPTOR"
 author: windows-driver-content
 description: The WHEA_XPF_CMC_DESCRIPTOR structure describes a corrected machine check (CMC) error source for an x86 or x64 processor.
 old-location: whea\whea_xpf_cmc_descriptor.htm
-old-project: whea
+tech.root: whea
 ms.assetid: d5eb2e20-9a11-4dae-9aa7-6e3799f0027f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

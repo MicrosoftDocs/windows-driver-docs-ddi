@@ -4,7 +4,7 @@ title: WdfDeviceInitSetRequestAttributes function
 author: windows-driver-content
 description: The WdfDeviceInitSetRequestAttributes method sets object attributes that will be used for all of the framework request objects that the framework delivers to the driver from the device's I/O queues.
 old-location: wdf\wdfdeviceinitsetrequestattributes.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: ac705ff9-8019-47f9-8842-05f9152af29c
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

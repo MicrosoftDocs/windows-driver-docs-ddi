@@ -4,7 +4,7 @@ title: "_GET_UNIT_INFO"
 author: windows-driver-content
 description: This structure is used to get unit information.
 old-location: ieee\get_unit_info.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 2FE13A53-5B88-40B8-B129-8DD141F1B160
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

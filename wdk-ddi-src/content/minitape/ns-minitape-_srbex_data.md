@@ -4,7 +4,7 @@ title: "_SRBEX_DATA"
 author: windows-driver-content
 description: The SRBEX_DATA structure is the generalized format for containing extended SRB data.
 old-location: storage\srbex_data.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 15FB9877-6339-484B-83D5-6AD44EEE1D6E
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

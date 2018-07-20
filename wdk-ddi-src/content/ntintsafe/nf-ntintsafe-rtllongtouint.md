@@ -4,7 +4,7 @@ title: RtlLongToUInt function
 author: windows-driver-content
 description: Converts a value of type LONG to a value of type UINT.
 old-location: kernel\rtllongtouint.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 8347581C-91CB-4C53-91C5-9560CC88A4B8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

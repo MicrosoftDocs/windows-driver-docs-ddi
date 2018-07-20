@@ -4,7 +4,7 @@ title: KSM_NODE
 author: windows-driver-content
 description: Just as KSP_NODE is used for properties on a node, the KSM_NODE structure is used for methods on a node.
 old-location: stream\ksm_node.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 0e3f5abb-bf66-40e9-b318-9f6215f3d56c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

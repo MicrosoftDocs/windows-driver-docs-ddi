@@ -4,7 +4,7 @@ title: "_DRIVER_UPGRADE_INFO_2"
 author: windows-driver-content
 description: The DRIVER_UPGRADE_INFO_2 structure is used as an input to a printer interface DLL's DrvUpgradePrinter function.
 old-location: print\driver_upgrade_info_2.htm
-old-project: print
+tech.root: print
 ms.assetid: 691554c5-5c99-40f0-b0d6-3556e004dd30
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: KeInsertHeadQueue function
 author: windows-driver-content
 description: The KeInsertHeadQueue routine inserts an entry at the head of the given queue if it cannot immediately use the entry to satisfy a thread wait.
 old-location: ifsk\keinsertheadqueue.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 82e0bf14-b751-4919-b8d0-26fc7c5598a8
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

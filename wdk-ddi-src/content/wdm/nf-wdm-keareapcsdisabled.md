@@ -4,7 +4,7 @@ title: KeAreApcsDisabled function
 author: windows-driver-content
 description: The KeAreApcsDisabled routine returns whether the calling thread is within a critical region or a guarded region, which disables normal kernel APC delivery.
 old-location: kernel\keareapcsdisabled.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 58962146-a16d-4827-9cef-73b3a438be35
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

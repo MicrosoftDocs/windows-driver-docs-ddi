@@ -4,7 +4,7 @@ title: WdfCommonBufferCreateWithConfig function
 author: windows-driver-content
 description: The WdfCommonBufferCreateWithConfig method creates a memory buffer that both the driver and a direct memory access (DMA) device can access simultaneously, and the method also specifies buffer configuration information.
 old-location: wdf\wdfcommonbuffercreatewithconfig.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 3ed8b7df-9c7d-44de-a49d-10221acf71e3
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

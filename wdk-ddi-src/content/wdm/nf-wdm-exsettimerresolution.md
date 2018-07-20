@@ -4,7 +4,7 @@ title: ExSetTimerResolution function
 author: windows-driver-content
 description: The ExSetTimerResolution routine modifies the frequency at which the system clock interrupts. Use this routine with extreme caution (see the following Remarks section).
 old-location: kernel\exsettimerresolution.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 968d57fa-7a8e-42cf-b73b-d669ecbbaf48
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: "_RTL_SPLAY_LINKS"
 author: windows-driver-content
 description: The RTL_SPLAY_LINKS structure is an opaque structure and is used by the system to represent a splay link tree node.
 old-location: ifsk\rtl_splay_links.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: b035b101-2667-4962-ae49-781ddd30e0be
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

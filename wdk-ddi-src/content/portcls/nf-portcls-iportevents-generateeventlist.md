@@ -4,10 +4,10 @@ title: IPortEvents::GenerateEventList
 author: windows-driver-content
 description: The GenerateEventList method notifies clients through the port driver's list of event entries that a particular event has occurred.
 old-location: audio\iportevents_generateeventlist.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 99c9d60d-5f19-4b31-a8f3-aff69bc3a2a6
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: GenerateEventList, GenerateEventList method [Audio Devices], GenerateEventList method [Audio Devices],IPortEvents interface, IPortEvents interface [Audio Devices],GenerateEventList method, IPortEvents.GenerateEventList, IPortEvents::GenerateEventList, audio.iportevents_generateeventlist, audmp-routines_cc4243f5-90e9-471f-b8f0-aaf0945bddf5.xml, portcls/IPortEvents::GenerateEventList
 ms.prod: windows-hardware
 ms.technology: windows-devices

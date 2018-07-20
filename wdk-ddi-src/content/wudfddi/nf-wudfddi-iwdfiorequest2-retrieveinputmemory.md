@@ -4,7 +4,7 @@ title: IWDFIoRequest2::RetrieveInputMemory
 author: windows-driver-content
 description: The RetrieveInputMemory method retrieves the IWDFMemory interface of a framework memory object that represents an I/O request's input buffer.
 old-location: wdf\iwdfiorequest2_retrieveinputmemory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 32596330-6cd9-4f82-9140-7f9a26cf7932
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

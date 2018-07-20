@@ -4,7 +4,7 @@ title: ExInitializeNPagedLookasideList function
 author: windows-driver-content
 description: The ExInitializeNPagedLookasideList routine initializes a lookaside list for nonpaged entries of the specified size.
 old-location: kernel\exinitializenpagedlookasidelist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: d783feff-d187-4a2f-8d3d-b5221b03459a
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

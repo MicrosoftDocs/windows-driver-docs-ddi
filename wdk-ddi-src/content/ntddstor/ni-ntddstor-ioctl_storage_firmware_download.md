@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_FIRMWARE_DOWNLOAD
 author: windows-driver-content
 description: A driver can use IOCTL_STORAGE_FIRMWARE_DOWNLOAD to download a firmware image to a storage device, but does not activate it.
 old-location: storage\ioctl_storage_firmware_download.htm
-old-project: storage
+tech.root: storage
 ms.assetid: D5572EE3-C277-494C-B288-A6E8F8A26A3E
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

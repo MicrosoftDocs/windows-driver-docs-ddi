@@ -4,7 +4,7 @@ title: InitializeSListHead function
 author: windows-driver-content
 description: The InitializeSListHead routine (or ExInitializeSListHead) initializes an SLIST_HEADER structure that represents the head of a sequenced singly linked list.
 old-location: kernel\exinitializeslisthead.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 258addec-7231-494c-aa70-5966e9a57132
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

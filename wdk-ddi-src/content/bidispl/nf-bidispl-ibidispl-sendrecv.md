@@ -4,7 +4,7 @@ title: IBidiSpl::SendRecv
 author: windows-driver-content
 description: The SendRecv method sends a bidi request to the printer.
 old-location: print\ibidispl_ibidispl__sendrecv.htm
-old-project: print
+tech.root: print
 ms.assetid: 0c91abd0-5e49-4e23-a50f-9d1dacf9d868
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

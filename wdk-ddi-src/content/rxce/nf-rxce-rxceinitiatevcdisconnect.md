@@ -4,7 +4,7 @@ title: RxCeInitiateVCDisconnect function
 author: windows-driver-content
 description: RxCeInitiateVCDisconnect initiates a disconnect on the virtual circuit.
 old-location: ifsk\rxceinitiatevcdisconnect.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 978ddc02-9ff0-4798-879c-e4bc99081dcb
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

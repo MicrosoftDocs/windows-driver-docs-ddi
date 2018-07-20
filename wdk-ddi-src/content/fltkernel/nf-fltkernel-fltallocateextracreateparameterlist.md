@@ -4,7 +4,7 @@ title: FltAllocateExtraCreateParameterList function
 author: windows-driver-content
 description: The FltAllocateExtraCreateParameterList routine allocates paged pool memory for an extra create parameter (ECP) list structure and generates a pointer to that structure.
 old-location: ifsk\fltallocateextracreateparameterlist.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0130e35f-a6a8-4fa9-9922-1d1d0f43cb2a
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

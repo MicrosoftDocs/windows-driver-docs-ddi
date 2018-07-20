@@ -4,7 +4,7 @@ title: "_SECURE_ELEMENT_TYPE"
 author: windows-driver-content
 description: Indicates the type of a secure element.
 old-location: nfpdrivers\_secure_element_type.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 118B63D1-713A-4F8C-B97A-53BB6D0B819E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

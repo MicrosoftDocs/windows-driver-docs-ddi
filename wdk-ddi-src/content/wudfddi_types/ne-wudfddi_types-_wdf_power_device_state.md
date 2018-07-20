@@ -4,7 +4,7 @@ title: "_WDF_POWER_DEVICE_STATE"
 author: windows-driver-content
 description: The WDF_POWER_DEVICE_STATE enumeration contains values that identify the power state that a device might support.
 old-location: wdf\wdf_power_device_state_umdf.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: de92bf06-b8fa-4c16-9216-95d68ca75111
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

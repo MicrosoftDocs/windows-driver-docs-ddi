@@ -4,7 +4,7 @@ title: "_STORAGE_QUERY_TYPE"
 author: windows-driver-content
 description: The STORAGE_QUERY_TYPE enumeration is used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the properties of a storage device or adapter.
 old-location: storage\storage_query_type.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3f346a09-071e-4512-bf77-994d277cef4d
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

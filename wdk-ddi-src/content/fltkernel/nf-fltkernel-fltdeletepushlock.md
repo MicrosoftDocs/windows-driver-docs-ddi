@@ -4,7 +4,7 @@ title: FltDeletePushLock function
 author: windows-driver-content
 description: The FltDeletePushLock routine deletes a given push lock.
 old-location: ifsk\fltdeletepushlock.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 93b4914c-53a1-4594-ac8d-4be1b0c9e4d7
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

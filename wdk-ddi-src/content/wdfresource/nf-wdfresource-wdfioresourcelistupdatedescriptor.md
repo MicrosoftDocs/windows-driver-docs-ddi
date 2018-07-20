@@ -4,7 +4,7 @@ title: WdfIoResourceListUpdateDescriptor function
 author: windows-driver-content
 description: The WdfIoResourceListUpdateDescriptor method updates a resource descriptor in a resource requirements list's logical configuration.
 old-location: wdf\wdfioresourcelistupdatedescriptor.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: a571c054-380d-4d56-9094-d55868222b33
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

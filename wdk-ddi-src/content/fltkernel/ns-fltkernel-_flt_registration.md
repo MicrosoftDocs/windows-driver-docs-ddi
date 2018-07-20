@@ -4,7 +4,7 @@ title: "_FLT_REGISTRATION"
 author: windows-driver-content
 description: The FLT_REGISTRATION structure is passed as a parameter to FltRegisterFilter.
 old-location: ifsk\flt_registration.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 3313af42-0e0a-4ad0-b0bb-0afb795e24fd
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

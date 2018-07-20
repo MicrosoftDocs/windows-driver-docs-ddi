@@ -4,7 +4,7 @@ title: IOCTL_SCSI_RESCAN_BUS
 author: windows-driver-content
 description: Rescans the LUNs on the bus(es).
 old-location: storage\ioctl_scsi_rescan_bus.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d2b1ec10-3d59-469f-a92e-e28a6c2aef92
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

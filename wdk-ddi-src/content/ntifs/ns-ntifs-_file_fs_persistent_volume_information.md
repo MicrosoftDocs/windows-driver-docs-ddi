@@ -4,7 +4,7 @@ title: "_FILE_FS_PERSISTENT_VOLUME_INFORMATION"
 author: windows-driver-content
 description: The FILE_FS_PERSISTENT_VOLUME_INFORMATION structure is used to control persistent settings for a file system volume. Persistent settings persist on a file system volume between reboots of the computer.
 old-location: ifsk\file_fs_persistent_volume_information.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: f1c7785e-e135-4060-8cf7-5c985b37ff83
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

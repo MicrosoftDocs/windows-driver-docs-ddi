@@ -4,7 +4,7 @@ title: "_CMP_CREATE_PLUG"
 author: windows-driver-content
 description: This structure is used to create a plug.
 old-location: ieee\cmp_create_plug.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 4FE3FE9E-9F00-431D-99F0-002B1368CE34
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

@@ -4,7 +4,7 @@ title: "_WHEA_MEMORY_ERROR_SECTION"
 author: windows-driver-content
 description: The WHEA_MEMORY_ERROR_SECTION structure describes platform memory error data.
 old-location: whea\whea_memory_error_section.htm
-old-project: whea
+tech.root: whea
 ms.assetid: eede44f8-0e14-4256-9893-cbdb5ef4ef9b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

@@ -4,7 +4,7 @@ title: IoIsValidNameGraftingBuffer function
 author: windows-driver-content
 description: Reserved for system use.
 old-location: ifsk\ioisvalidnamegraftingbuffer.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 9680724b-15fb-4d46-9fd1-175fa1b71c73
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

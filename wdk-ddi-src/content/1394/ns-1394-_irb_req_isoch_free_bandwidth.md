@@ -4,7 +4,7 @@ title: "_IRB_REQ_ISOCH_FREE_BANDWIDTH"
 author: windows-driver-content
 description: This structure contains the fields necessary in order for the Bus driver to carry out an IsochFreeBandwidth request.
 old-location: ieee\irb_req_isoch_free_bandwidth.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 1401F3B5-4F3F-47C1-88F9-96AFCCF2AA7E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

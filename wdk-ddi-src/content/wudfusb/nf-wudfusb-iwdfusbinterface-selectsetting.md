@@ -4,7 +4,7 @@ title: IWDFUsbInterface::SelectSetting
 author: windows-driver-content
 description: The SelectSetting method selects the specified alternate setting on a USB interface.
 old-location: wdf\iwdfusbinterface_selectsetting.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c47b025b-1be9-4fdc-965a-a9a82a394177
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

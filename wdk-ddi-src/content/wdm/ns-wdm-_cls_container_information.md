@@ -4,7 +4,7 @@ title: "_CLS_CONTAINER_INFORMATION"
 author: windows-driver-content
 description: The CLFS_CONTAINER_INFORMATION structure holds descriptive information for an individual container in a Common Log File System (CLFS) log.
 old-location: kernel\clfs_container_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9e083aba-1039-4ad3-9650-0e6e38ceb0c0
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

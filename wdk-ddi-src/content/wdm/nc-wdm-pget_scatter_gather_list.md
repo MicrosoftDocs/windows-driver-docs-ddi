@@ -4,7 +4,7 @@ title: PGET_SCATTER_GATHER_LIST
 author: windows-driver-content
 description: The GetScatterGatherList routine prepares the system for a DMA scatter/gather operation on behalf of the target device object, through either the system DMA controller or a bus-master adapter.
 old-location: kernel\getscattergatherlist.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 44c597ed-a41e-4170-b75b-dcd61aa70350
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IPrinterQueueViewEvent::OnChanged
 author: windows-driver-content
 description: Provides an IPrintJobCollection object that provides a snapshot of a range of print jobs in the queue.
 old-location: print\iprinterqueueviewevent_onchanged.htm
-old-project: print
+tech.root: print
 ms.assetid: D964A0C4-041A-47BD-87AB-4AF523939DF0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

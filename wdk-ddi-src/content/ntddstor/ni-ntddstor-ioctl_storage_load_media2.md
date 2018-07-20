@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_LOAD_MEDIA2
 author: windows-driver-content
 description: Causes media to be loaded in a device that the caller has opened with FILE_READ_ATTRIBUTES.
 old-location: storage\ioctl_storage_load_media2.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ba458d46-9b5f-4ee3-80fa-59277e97fb4a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

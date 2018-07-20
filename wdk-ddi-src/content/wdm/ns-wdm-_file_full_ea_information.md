@@ -4,7 +4,7 @@ title: "_FILE_FULL_EA_INFORMATION"
 author: windows-driver-content
 description: The FILE_FULL_EA_INFORMATION structure provides extended attribute (EA) information. This structure is used primarily by network drivers.
 old-location: kernel\file_full_ea_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 1b9bbb6a-2dfb-4f3f-8083-62b51a62dec6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

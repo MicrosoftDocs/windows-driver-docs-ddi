@@ -4,10 +4,10 @@ title: UsbBuildGetStatusRequest macro
 author: windows-driver-content
 description: The UsbBuildGetStatusRequest macro formats an URB to obtain status from a device, interface, endpoint, or other device-defined target on a USB device.
 old-location: buses\usbbuildgetstatusrequest.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: 7a5fcb4f-fc9a-4ebb-93ef-b83461557b22
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UsbBuildGetStatusRequest, UsbBuildGetStatusRequest routine [Buses], buses.usbbuildgetstatusrequest, usbdlib/UsbBuildGetStatusRequest, usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

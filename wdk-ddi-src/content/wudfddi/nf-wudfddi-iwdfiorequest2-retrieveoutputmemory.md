@@ -4,7 +4,7 @@ title: IWDFIoRequest2::RetrieveOutputMemory
 author: windows-driver-content
 description: The RetrieveOutputMemory method retrieves the IWDFMemory interface of a framework memory object that represents an I/O request's output buffer.
 old-location: wdf\iwdfiorequest2_retrieveoutputmemory.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: d17e7435-adc3-4248-a6c9-c7e267504291
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: NDK_FN_GET_REMOTE_TOKEN_FROM_MW
 author: windows-driver-content
 description: The NdkGetRemoteTokenFromMw (NDK_FN_GET_REMOTE_TOKEN_FROM_MW) function gets a memory token from a remote NDK memory window (MW).
 old-location: netvista\ndk_fn_get_remote_token_from_mw.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 893B53DA-B858-4E21-9DD9-D244702ACF46
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NDK_FN_GET_REMOTE_TOKEN_FROM_MW, NDK_FN_GET_REMOTE_TOKEN_FROM_MW callback, NdkGetRemoteTokenFromMw, NdkGetRemoteTokenFromMw callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetRemoteTokenFromMw, netvista.ndk_fn_get_remote_token_from_mw
 ms.prod: windows-hardware
 ms.technology: windows-devices

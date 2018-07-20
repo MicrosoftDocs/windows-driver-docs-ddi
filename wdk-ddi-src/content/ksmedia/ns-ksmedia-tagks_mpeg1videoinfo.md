@@ -4,7 +4,7 @@ title: tagKS_MPEG1VIDEOINFO
 author: windows-driver-content
 description: The KS_MPEG1VIDEOINFO structure describes an MPEG-1 video stream.
 old-location: stream\ks_mpeg1videoinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 301b954a-4e50-4a04-a575-17d7d54fa691
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

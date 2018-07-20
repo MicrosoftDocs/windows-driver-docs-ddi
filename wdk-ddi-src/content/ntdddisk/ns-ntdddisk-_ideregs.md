@@ -4,7 +4,7 @@ title: "_IDEREGS"
 author: windows-driver-content
 description: The IDEREGS structure is used to report the contents of the IDE controller registers.
 old-location: storage\ideregs.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 20897336-e032-4aa7-be5f-47704c6d1d12
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

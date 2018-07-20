@@ -4,7 +4,7 @@ title: CcRemapBcb function
 author: windows-driver-content
 description: The CcRemapBcb routine maps a buffer control block (BCB) an additional time to preserve it through several calls that perform additional maps and unpins.
 old-location: ifsk\ccremapbcb.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e8855baf-ce75-4a4c-bbbe-d1a7e5a65907
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

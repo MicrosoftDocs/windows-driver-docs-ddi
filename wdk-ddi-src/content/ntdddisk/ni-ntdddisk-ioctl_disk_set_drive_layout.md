@@ -4,7 +4,7 @@ title: IOCTL_DISK_SET_DRIVE_LAYOUT
 author: windows-driver-content
 description: Repartitions a disk as specified. (Floppy drivers need not handle this request.).
 old-location: storage\ioctl_disk_set_drive_layout.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d6b0682a-bce2-40d3-a69b-cf676c21d253
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

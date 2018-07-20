@@ -4,7 +4,7 @@ title: "_MSFC_FibrePortHBAAttributes"
 author: windows-driver-content
 description: A WMI provider uses the MSFC_FibrePortHBAAttributes WMI class to expose attribute information associated with a fibre channel port.
 old-location: storage\msfc_fibreporthbaattributes.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e8a31f48-bad2-49d1-81be-d345d87a0fd5
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: "_IRB_REQ_ASYNC_LOCK"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 stack to carry out an asychronous lock request.
 old-location: ieee\irb_req_async_lock.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 735C613E-BEAA-4E95-AF9D-A94A4BD940DE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

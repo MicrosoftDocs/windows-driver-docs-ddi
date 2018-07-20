@@ -4,7 +4,7 @@ title: KeDetachProcess function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\kedetachprocess.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 25cb0b53-f5b2-460a-bcab-56196f568d12
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

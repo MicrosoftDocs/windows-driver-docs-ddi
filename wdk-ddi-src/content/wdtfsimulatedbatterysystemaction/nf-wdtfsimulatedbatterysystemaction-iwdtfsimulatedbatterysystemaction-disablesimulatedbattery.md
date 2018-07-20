@@ -4,7 +4,7 @@ title: IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
 author: windows-driver-content
 description: Disables the simulated battery.
 old-location: dtf\iwdtfsimulatedbatterysystemaction_disablesimulatedbattery.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 52ddeb83-8ac3-4e9d-84d8-dddfcc404b6e
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

@@ -4,7 +4,7 @@ title: RtlIntToChar function
 author: windows-driver-content
 description: Converts a value of type INT to a value of type CHAR.
 old-location: kernel\rtlinttochar.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 407237E2-2CDB-40D5-867C-1EA8E1D80065
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

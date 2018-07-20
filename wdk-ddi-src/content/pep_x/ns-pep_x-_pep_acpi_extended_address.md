@@ -4,7 +4,7 @@ title: "_PEP_ACPI_EXTENDED_ADDRESS"
 author: windows-driver-content
 description: The PEP_ACPI_EXTENDED_ADDRESS structure is used to report resource usage in the address space such as memory and IO.
 old-location: kernel\pep_acpi_extended_address.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: E784765E-E346-4D57-B334-D0A0A823DAA8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

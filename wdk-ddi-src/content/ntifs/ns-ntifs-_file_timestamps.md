@@ -4,7 +4,7 @@ title: "_FILE_TIMESTAMPS"
 author: windows-driver-content
 description: The FILE_TIMESTAMPS structure specifies the last recorded instance of specific actions on a file.
 old-location: ifsk\file_timestamps.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0F016D21-34CD-43DD-BE39-C6DF6D63A3AC
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

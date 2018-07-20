@@ -4,7 +4,7 @@ title: EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY
 author: windows-driver-content
 description: A driver's EvtChildListIdentificationDescriptionCopy event callback function copies a child identification description from one specified location to another.
 old-location: wdf\evtchildlistidentificationdescriptioncopy.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: c44d6a2f-c7ef-486d-973e-aada068ddc06
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

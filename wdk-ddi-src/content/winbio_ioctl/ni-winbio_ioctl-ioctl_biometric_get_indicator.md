@@ -4,7 +4,7 @@ title: IOCTL_BIOMETRIC_GET_INDICATOR
 author: windows-driver-content
 description: The IOCTL_BIOMETRIC_GET_INDICATOR IOCTL directs the driver to retrieve the status of the indicator light. This IOCTL is optional.
 old-location: biometric\ioctl_biometric_get_indicator.htm
-old-project: biometric
+tech.root: biometric
 ms.assetid: 2fc5edbd-e042-41d0-84a2-9b6796b6e234
 ms.author: windowsdriverdev
 ms.date: 2/20/2018

@@ -4,7 +4,7 @@ title: "_TOKEN_SOURCE"
 author: windows-driver-content
 description: TOKEN_SOURCE identifies the source of an access token.
 old-location: ifsk\token_source.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0820f6f2-bec2-4d38-9a95-cfff6151ef02
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

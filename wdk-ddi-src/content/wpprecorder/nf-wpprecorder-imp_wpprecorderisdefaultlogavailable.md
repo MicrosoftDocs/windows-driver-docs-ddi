@@ -4,7 +4,7 @@ title: imp_WppRecorderIsDefaultLogAvailable function
 author: windows-driver-content
 description: The WppRecorderIsDefaultLogAvailable method determines whether the default log is available.
 old-location: devtest\wpprecorderisdefaultlogavailable.htm
-old-project: devtest
+tech.root: devtest
 ms.assetid: 5685540F-B4C4-4ED9-B783-85A898EC5A62
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

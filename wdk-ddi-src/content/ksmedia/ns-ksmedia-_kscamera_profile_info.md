@@ -4,7 +4,7 @@ title: "_KSCAMERA_PROFILE_INFO"
 author: windows-driver-content
 description: The KSCAMERA_PROFILE_INFO structure is used to uniquely identify a given profile.
 old-location: stream\kscamera_profile_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 566052ED-2FD8-46A9-8C4E-9FED660D93BF
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

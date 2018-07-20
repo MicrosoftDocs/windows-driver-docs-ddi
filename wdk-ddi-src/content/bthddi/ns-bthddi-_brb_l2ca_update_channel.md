@@ -4,7 +4,7 @@ title: "_BRB_L2CA_UPDATE_CHANNEL"
 author: windows-driver-content
 description: The _BRB_L2CA_UPDATE_CHANNEL structure describes an update to the link characteristics of an open L2CAP channel to a remote device or to ascertain when certain channel attributes have changed.
 old-location: bltooth\_brb_l2ca_update_channel.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 0186dc75-6d37-4adb-8337-6daa634bd936
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

@@ -4,7 +4,7 @@ title: FltGetTopInstance function
 author: windows-driver-content
 description: The FltGetTopInstance routine returns an opaque instance pointer for the minifilter driver instance that is attached at the top of the instance stack for a given volume.
 old-location: ifsk\fltgettopinstance.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 5c805b9d-0b9a-4fbb-8b96-3ac11a6e4898
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

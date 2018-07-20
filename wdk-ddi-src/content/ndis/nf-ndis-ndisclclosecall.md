@@ -4,10 +4,10 @@ title: NdisClCloseCall function
 author: windows-driver-content
 description: NdisClCloseCall requests that a call on the specified VC be torn down.
 old-location: netvista\ndisclclosecall.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 4d1a7451-8c0f-4df8-85c5-14aaaa9afd94
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisClCloseCall, NdisClCloseCall function [Network Drivers Starting with Windows Vista], condis_client_ref_6d047338-0482-4d26-8dfa-4c07502fb8a2.xml, ndis/NdisClCloseCall, netvista.ndisclclosecall
 ms.prod: windows-hardware
 ms.technology: windows-devices

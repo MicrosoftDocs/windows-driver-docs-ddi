@@ -4,7 +4,7 @@ title: FltCancellableWaitForMultipleObjects function
 author: windows-driver-content
 description: The FltCancellableWaitForMultipleObjects executes a cancelable wait operation (a wait that can be terminated) on one or more dispatcher objects.
 old-location: ifsk\fltcancellablewaitformultipleobjects.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0afe431d-55dd-4aaa-bcbc-467ac3a7b604
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

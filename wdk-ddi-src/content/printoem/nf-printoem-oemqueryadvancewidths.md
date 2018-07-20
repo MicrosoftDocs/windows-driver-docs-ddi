@@ -4,7 +4,7 @@ title: OEMQueryAdvanceWidths function
 author: windows-driver-content
 description: The OEMQueryAdvanceWidths function returns character advance widths for a specified set of glyphs.
 old-location: print\oemqueryadvancewidths.htm
-old-project: print
+tech.root: print
 ms.assetid: 058ced7e-50bc-4847-b082-57608ac5ddd2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

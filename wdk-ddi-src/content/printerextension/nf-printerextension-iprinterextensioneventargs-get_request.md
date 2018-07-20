@@ -4,7 +4,7 @@ title: IPrinterExtensionEventArgs::get_Request
 author: windows-driver-content
 description: Gets the IPrinterExtensionRequest object for the current event.
 old-location: print\iprinterextensioneventargs_request.htm
-old-project: print
+tech.root: print
 ms.assetid: 2F11C510-B649-4DC6-B0BC-89C4159E464C
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

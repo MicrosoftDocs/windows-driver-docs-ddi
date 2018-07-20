@@ -4,7 +4,7 @@ title: FltDeleteInstanceContext function
 author: windows-driver-content
 description: FltDeleteInstanceContext removes a context from a given instance and marks the context for deletion.
 old-location: ifsk\fltdeleteinstancecontext.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 910b62d7-2ef3-4eb2-97c3-9b920fdb0558
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

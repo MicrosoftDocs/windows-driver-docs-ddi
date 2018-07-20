@@ -4,7 +4,7 @@ title: IKsDataTypeHandler::KsQueryExtendedSize
 author: windows-driver-content
 description: The KsQueryExtendedSize method retrieves extended header information required for input and output (I/O) operations.
 old-location: stream\iksdatatypehandler_ksqueryextendedsize.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 14d03e6f-d02c-4b39-8f21-b339c65fb036
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

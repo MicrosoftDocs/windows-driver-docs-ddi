@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceWdmGetConfigurationHandle function
 author: windows-driver-content
 description: The WdfUsbTargetDeviceWdmGetConfigurationHandle method returns the USBD_CONFIGURATION_HANDLE-typed handle that is associated with the current configuration of a specified USB device.
 old-location: wdf\wdfusbtargetdevicewdmgetconfigurationhandle.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 7f501e5c-13dd-418d-9b9f-f984aed45cc0
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

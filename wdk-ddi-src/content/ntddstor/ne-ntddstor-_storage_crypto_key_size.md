@@ -4,7 +4,7 @@ title: "_STORAGE_CRYPTO_KEY_SIZE"
 author: windows-driver-content
 description: The STORAGE_CRYPTO_KEY_SIZE enum returns the Size of the key in bits.
 old-location: storage\storage_crypto_key_size.htm
-old-project: storage
+tech.root: storage
 ms.assetid: C3E5CEC6-34A2-48DF-B963-677C69A97E0B
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

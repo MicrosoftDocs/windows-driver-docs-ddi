@@ -4,7 +4,7 @@ title: "_CHANNEL_CONFIG_RESULTS"
 author: windows-driver-content
 description: The CHANNEL_CONFIG_RESULTS structure contains configuration parameters and the buffer size of any extra options for the inbound and outbound directions of a L2CAP channel.
 old-location: bltooth\channel_config_results.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: cda3bfc6-7bdb-4b5a-8845-9a2ca1cc8014
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

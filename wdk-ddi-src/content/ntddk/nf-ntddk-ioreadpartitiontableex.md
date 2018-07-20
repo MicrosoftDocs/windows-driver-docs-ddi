@@ -4,7 +4,7 @@ title: IoReadPartitionTableEx function
 author: windows-driver-content
 description: The IoReadPartitionTableEx routine reads a list of partitions on a disk having a specified sector size and creates an entry in the partition list for each recognized partition.
 old-location: storage\ioreadpartitiontableex.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 1aa8665a-1674-4fca-b5c6-d8d25166ca29
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

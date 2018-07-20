@@ -4,7 +4,7 @@ title: KsPinGetConnectedPinFileObject function
 author: windows-driver-content
 description: The KsPinGetConnectedPinFileObject function returns the file object for the pin to which Pin is connected. Works only for source pins.
 old-location: stream\kspingetconnectedpinfileobject.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1025c89f-8d63-4aeb-be7c-16b555cfa58a
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

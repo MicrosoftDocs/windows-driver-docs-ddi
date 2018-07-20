@@ -4,7 +4,7 @@ title: IOCTL_MOUNTMGR_CHANGE_NOTIFY
 author: windows-driver-content
 description: Clients send this IOCTL to the mount manager to be informed whenever there is a change in the mount manager's persistent symbolic link name database.
 old-location: storage\ioctl_mountmgr_change_notify.htm
-old-project: storage
+tech.root: storage
 ms.assetid: ad6ab15b-6789-4ee8-ba99-9eaa6eec070a
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

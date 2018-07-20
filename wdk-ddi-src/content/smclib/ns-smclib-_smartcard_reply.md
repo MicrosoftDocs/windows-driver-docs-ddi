@@ -4,7 +4,7 @@ title: "_SMARTCARD_REPLY"
 author: windows-driver-content
 description: Describes the reply buffer received from the smart card.
 old-location: smartcrd\smartcard_reply.htm
-old-project: smartcrd
+tech.root: smartcrd
 ms.assetid: DB41648B-8812-4358-BECE-8029016E5631
 ms.author: windowsdriverdev
 ms.date: 2/22/2018

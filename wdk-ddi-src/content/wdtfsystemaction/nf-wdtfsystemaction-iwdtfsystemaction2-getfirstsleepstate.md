@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::GetFirstSleepState
 author: windows-driver-content
 description: Returns the first supported sleep state.
 old-location: dtf\iwdtfsystemaction2_getfirstsleepstate.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: EE298195-5EAA-40E4-84F5-9B169F55DBF1
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

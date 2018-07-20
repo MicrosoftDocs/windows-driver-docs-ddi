@@ -4,7 +4,7 @@ title: FsRtlSetupAdvancedHeader function
 author: windows-driver-content
 description: The FsRtlSetupAdvancedHeader macro is used by file systems to initialize an FSRTL_ADVANCED_FCB_HEADER structure for use with filter contexts.
 old-location: ifsk\fsrtlsetupadvancedheader.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 8bcf7bbf-6c41-4683-9a62-d408b120c7b9
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

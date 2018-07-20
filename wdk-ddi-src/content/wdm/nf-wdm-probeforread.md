@@ -4,7 +4,7 @@ title: ProbeForRead function
 author: windows-driver-content
 description: The ProbeForRead routine checks that a user-mode buffer actually resides in the user portion of the address space, and is correctly aligned.
 old-location: kernel\probeforread.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 86b09f5c-6527-447e-b383-b97d45a57ce7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WdfSpinLockCreate function
 author: windows-driver-content
 description: The WdfSpinLockCreate method creates a framework spin-lock object.
 old-location: wdf\wdfspinlockcreate.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2854fa05-61a9-4515-9dc1-463f160ae89a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

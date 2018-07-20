@@ -4,7 +4,7 @@ title: SpbControllerSetIoOtherCallback function
 author: windows-driver-content
 description: The SpbControllerSetIoOtherCallback method registers an SPB controller driver's EvtSpbControllerIoOther callback function.
 old-location: spb\spbcontrollersetioothercallback.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 605E2353-8C82-4005-BB72-4CB44146A253
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

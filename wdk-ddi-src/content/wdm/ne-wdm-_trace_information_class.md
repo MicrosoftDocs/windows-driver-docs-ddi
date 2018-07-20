@@ -4,7 +4,7 @@ title: "_TRACE_INFORMATION_CLASS"
 author: windows-driver-content
 description: The TRACE_INFORMATION_CLASS enumeration type is used to indicate types of information associated with a WMI event tracing session.
 old-location: kernel\trace_information_class.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 38fa1687-5ad6-4536-8930-8505e5960207
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

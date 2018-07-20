@@ -4,7 +4,7 @@ title: "_IRB_REQ_BUS_RESET_NOTIFICATION"
 author: windows-driver-content
 description: This structure contains the fields necessary for the 1394 bus driver to carry out a bus reset notification request.
 old-location: ieee\irb_req_bus_reset_notification.htm
-old-project: IEEE
+tech.root: IEEE
 ms.assetid: 3EF9BB26-81B2-4ED7-A934-AF3E73B650A0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

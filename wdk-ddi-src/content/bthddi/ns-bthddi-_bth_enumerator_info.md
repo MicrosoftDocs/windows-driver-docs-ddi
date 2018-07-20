@@ -4,7 +4,7 @@ title: "_BTH_ENUMERATOR_INFO"
 author: windows-driver-content
 description: The BTH_ENUMERATOR_INFO structure contains information about an underlying device and the service that caused the Plug and Play (PnP) manager to load the profile driver.
 old-location: bltooth\bth_enumerator_info.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: e526d664-35cf-4738-9501-08298e90be1e
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

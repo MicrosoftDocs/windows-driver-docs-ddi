@@ -4,7 +4,7 @@ title: IXpsRasterizationFactory1
 author: windows-driver-content
 description: In Windows 8, the improvement of XPSRas to handle high precision colors has led to the development of a new interface, IXPSRasterizationFactory1.
 old-location: print\xpsrasterizationfactory1.htm
-old-project: print
+tech.root: print
 ms.assetid: 65EFEC4F-60DC-41DF-81F2-5A5C4EEE4BF8
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: "_PEP_COORDINATED_DEPENDENCY_OPTION"
 author: windows-driver-content
 description: The PEP_COORIDNATED_DEPENDENCY_OPTION structure describes a coordinated idle stateâ€™s dependency to the OS.
 old-location: kernel\pep_coordinated_dependency_option.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: DE95A3E9-3542-49EE-AA62-3430A6B2D7C7
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

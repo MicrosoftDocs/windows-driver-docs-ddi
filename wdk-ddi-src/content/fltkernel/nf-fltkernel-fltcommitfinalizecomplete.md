@@ -4,7 +4,7 @@ title: FltCommitFinalizeComplete function
 author: windows-driver-content
 description: The FltCommitFinalizeComplete routine acknowledges a TRANSACTION_NOTIFY_COMMIT_FINALIZE notification.
 old-location: ifsk\fltcommitfinalizecomplete.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: e1bfef9f-87c8-49e0-bbc4-6bc5ea103758
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

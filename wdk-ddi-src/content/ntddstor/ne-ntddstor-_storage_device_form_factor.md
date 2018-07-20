@@ -4,7 +4,7 @@ title: "_STORAGE_DEVICE_FORM_FACTOR"
 author: windows-driver-content
 description: Indicates the form factor of a storage device.
 old-location: storage\storage_device_form_factor.htm
-old-project: storage
+tech.root: storage
 ms.assetid: EE59767B-2504-4E5F-A442-60EEBEE70B59
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

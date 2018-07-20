@@ -4,7 +4,7 @@ title: PIPE_STATE
 author: windows-driver-content
 description: "."
 old-location: stream\pipe_state.htm
-old-project: stream
+tech.root: stream
 ms.assetid: A3053A39-5DB6-4DB8-89ED-63ABDB1CD16F
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

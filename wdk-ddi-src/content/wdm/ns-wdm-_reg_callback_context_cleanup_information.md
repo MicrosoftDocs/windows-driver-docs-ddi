@@ -4,7 +4,7 @@ title: "_REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION"
 author: windows-driver-content
 description: The REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure contains information that a driver's RegistryCallback routine can use to free resources that the driver previously allocated for the context that is associated with a registry object.
 old-location: kernel\reg_callback_context_cleanup_information.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 3ce6286a-6805-491d-85fc-b2c7b0a9a1fb
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

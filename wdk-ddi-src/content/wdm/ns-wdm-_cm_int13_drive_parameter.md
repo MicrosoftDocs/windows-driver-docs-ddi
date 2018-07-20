@@ -4,7 +4,7 @@ title: "_CM_INT13_DRIVE_PARAMETER"
 author: windows-driver-content
 description: The CM_INT13_DRIVE_PARAMETER structure defines a device-type-specific data record that is stored in the \\Registry\Machine\Hardware\Description tree for a disk controller if the system can collect this information during the boot process.
 old-location: kernel\cm_int13_drive_parameter.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: eee1070f-c821-42bd-a0c9-d429fac6305b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

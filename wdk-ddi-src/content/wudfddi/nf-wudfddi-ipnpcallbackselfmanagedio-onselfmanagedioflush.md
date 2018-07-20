@@ -4,7 +4,7 @@ title: IPnpCallbackSelfManagedIo::OnSelfManagedIoFlush
 author: windows-driver-content
 description: The OnSelfManagedIoFlush method flushes the device for a device's self-managed I/O operations.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagedioflush.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: dee0e30b-ad03-43e4-8a0c-07d3782d7857
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: RILRADIOSTATEGROUPS
 author: windows-driver-content
 description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
 old-location: netvista\rilradiostategroups.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 901fe9e5-4b3c-4f31-9bf0-a4a5bd66bd19
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: "*LPRILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS, RILRADIOSTATEGROUPS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroups, ntddrilapitypes/RILRADIOSTATEGROUPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices

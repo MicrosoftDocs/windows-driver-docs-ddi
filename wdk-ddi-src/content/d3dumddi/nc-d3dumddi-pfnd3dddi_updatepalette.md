@@ -4,10 +4,10 @@ title: PFND3DDDI_UPDATEPALETTE
 author: windows-driver-content
 description: The UpdatePalette function updates a texture palette.
 old-location: display\updatepalette.htm
-old-project: display
+tech.root: display
 ms.assetid: 7c22e0c9-cc24-4398-88b7-c91855cbc731
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: PFND3DDDI_UPDATEPALETTE, PFND3DDDI_UPDATEPALETTE callback, UpdatePalette, UpdatePalette callback function [Display Devices], UserModeDisplayDriver_Functions_d3b21e65-68dc-44d9-b5b3-96f37588965e.xml, d3dumddi/UpdatePalette, display.updatepalette
 ms.prod: windows-hardware
 ms.technology: windows-devices

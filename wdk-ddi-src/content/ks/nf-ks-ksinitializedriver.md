@@ -4,7 +4,7 @@ title: KsInitializeDriver function
 author: windows-driver-content
 description: The KsInitializeDriver function initializes the driver object of an AVStream minidriver.
 old-location: stream\ksinitializedriver.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 5a77e59f-ce64-4ff2-ac95-c9062cef20d2
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

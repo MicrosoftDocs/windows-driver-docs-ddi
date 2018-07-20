@@ -4,7 +4,7 @@ title: HidD_GetIndexedString function
 author: windows-driver-content
 description: The HidD_GetIndexedString routine returns a specified embedded string from a top-level collection.
 old-location: hid\hidd_getindexedstring.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 4d500597-8ac7-41ea-aa2a-6e8d559e0282
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

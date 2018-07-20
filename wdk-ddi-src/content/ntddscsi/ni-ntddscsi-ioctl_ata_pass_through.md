@@ -4,7 +4,7 @@ title: IOCTL_ATA_PASS_THROUGH
 author: windows-driver-content
 description: Allows an application to send almost any ATA command to a target device, with the following restrictions:\_If a class driver for the target type of device exists, the application must send the request to the class driver.
 old-location: storage\ioctl_ata_pass_through.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 350d9777-18d7-412a-ab60-1e17070a12af
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

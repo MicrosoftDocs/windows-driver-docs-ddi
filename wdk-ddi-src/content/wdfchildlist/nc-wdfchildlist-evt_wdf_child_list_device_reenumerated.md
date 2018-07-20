@@ -4,7 +4,7 @@ title: EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED
 author: windows-driver-content
 description: A driver's EvtChildListDeviceReenumerated event callback function enables the driver to approve or cancel a reenumeration of a specified device.
 old-location: wdf\evtchildlistdevicereenumerated.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 404436c3-6ddb-4212-ad51-23a956d7df52
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

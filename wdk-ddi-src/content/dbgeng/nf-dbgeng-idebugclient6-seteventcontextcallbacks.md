@@ -4,10 +4,10 @@ title: IDebugClient6::SetEventContextCallbacks
 author: windows-driver-content
 description: Registers an event callbacks object with this client.
 old-location: debugger\idebugclient6_seteventcontextcallbacks.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 246573DB-5FEB-4068-8DB8-950F5EDFD1A9
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugClient6 interface [Windows Debugging],SetEventContextCallbacks method, IDebugClient6.SetEventContextCallbacks, IDebugClient6::SetEventContextCallbacks, SetEventContextCallbacks, SetEventContextCallbacks method [Windows Debugging], SetEventContextCallbacks method [Windows Debugging],IDebugClient6 interface, dbgeng/IDebugClient6::SetEventContextCallbacks, debugger.idebugclient6_seteventcontextcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices

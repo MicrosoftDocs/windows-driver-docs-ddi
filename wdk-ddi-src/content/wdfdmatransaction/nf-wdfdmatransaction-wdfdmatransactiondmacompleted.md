@@ -4,7 +4,7 @@ title: WdfDmaTransactionDmaCompleted function
 author: windows-driver-content
 description: The WdfDmaTransactionDmaCompleted method notifies the framework that a device's DMA transfer operation is completed.
 old-location: wdf\wdfdmatransactiondmacompleted.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 83c1c4cb-b28b-4980-92fb-a1a49d95406e
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,7 +4,7 @@ title: BATTERY_REPORTING_SCALE
 author: windows-driver-content
 description: Battery miniclass drivers fill in this structure in response to certain BatteryMiniQueryInformation requests.
 old-location: battery\battery_reporting_scale.htm
-old-project: battery
+tech.root: battery
 ms.assetid: aea1d82d-39b8-4535-a5c3-fb987be1e43c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

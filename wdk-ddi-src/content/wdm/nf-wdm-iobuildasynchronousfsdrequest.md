@@ -4,7 +4,7 @@ title: IoBuildAsynchronousFsdRequest function
 author: windows-driver-content
 description: The IoBuildAsynchronousFsdRequest routine allocates and sets up an IRP to be sent to lower-level drivers.
 old-location: kernel\iobuildasynchronousfsdrequest.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: cb633146-c3ab-4a09-bbcd-5964ecbf6e44
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: WdfFdoInitSetEventCallbacks function
 author: windows-driver-content
 description: The WdfFdoInitSetEventCallbacks method registers a framework-based function driver's event callback functions, for a specified device.
 old-location: wdf\wdffdoinitseteventcallbacks.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 0a47ea47-590c-4395-b38e-d1f1fb1929e1
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

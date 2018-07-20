@@ -4,10 +4,10 @@ title: "_D3DKMT_RENDER"
 author: windows-driver-content
 description: The D3DKMT_RENDER structure describes the current command buffer to be rendered.
 old-location: display\d3dkmt_render.htm
-old-project: display
+tech.root: display
 ms.assetid: 8e45c4cb-3635-403b-8a91-71af6605c3be
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: D3DKMT_RENDER, D3DKMT_RENDER structure [Display Devices], OpenGL_Structs_9da3b8d2-479c-4d6d-ba5c-70aa171121e3.xml, _D3DKMT_RENDER, d3dkmthk/D3DKMT_RENDER, display.d3dkmt_render
 ms.prod: windows-hardware
 ms.technology: windows-devices

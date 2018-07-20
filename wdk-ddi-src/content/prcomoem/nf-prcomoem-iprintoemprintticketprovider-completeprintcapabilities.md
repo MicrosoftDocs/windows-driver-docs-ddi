@@ -4,7 +4,7 @@ title: IPrintOemPrintTicketProvider::CompletePrintCapabilities
 author: windows-driver-content
 description: The IPrintOemPrintTicketProvider::CompletePrintCapabilities method fills in the remaining entries of the specified print capabilities document.
 old-location: print\iprintoemprintticketprovider_completeprintcapabilities.htm
-old-project: print
+tech.root: print
 ms.assetid: 067eca3b-f487-405a-9799-bd62376f9e24
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

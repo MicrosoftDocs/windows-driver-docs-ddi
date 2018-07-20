@@ -4,7 +4,7 @@ title: "_LBA_FILTER_TABLE_ENTRY"
 author: windows-driver-content
 description: The LBA_FILTER_TABLE_ENTRY structure contains an individual LBA range for the LBA_FILTER_TABLE sent in an IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE request.
 old-location: storage\lba_filter_table_entry.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 092B54D7-FFEA-48BB-993E-14443BD0C7AA
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

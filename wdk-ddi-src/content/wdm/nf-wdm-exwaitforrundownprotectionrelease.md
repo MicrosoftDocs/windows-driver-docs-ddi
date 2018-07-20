@@ -4,7 +4,7 @@ title: ExWaitForRundownProtectionRelease function
 author: windows-driver-content
 description: The ExWaitForRundownProtectionRelease routine waits until all drivers that have already been granted run-down protection complete their accesses of the shared object.
 old-location: kernel\exwaitforrundownprotectionrelease.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 96786C19-29C4-4030-9429-0B3CB7F3DF11
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

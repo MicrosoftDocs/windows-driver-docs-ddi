@@ -4,7 +4,7 @@ title: KSPPROPERTY_ALLOCATOR_MDLCACHING
 author: windows-driver-content
 description: This enumeration is used internally by the operating system.
 old-location: stream\kspproperty_allocator_mdlcaching.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 91BB915F-E964-41D9-8D2A-3D5EF6F5B398
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

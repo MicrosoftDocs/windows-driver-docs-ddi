@@ -4,7 +4,7 @@ title: KeRestoreExtendedProcessorState function
 author: windows-driver-content
 description: The KeRestoreExtendedProcessorState routine restores extended processor state information that was previously saved.
 old-location: kernel\kerestoreextendedprocessorstate.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: ea5e654a-9cb5-4d4d-9660-339410a6a20f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

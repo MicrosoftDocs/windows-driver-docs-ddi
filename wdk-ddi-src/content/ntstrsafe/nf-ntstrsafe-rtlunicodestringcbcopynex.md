@@ -4,7 +4,7 @@ title: RtlUnicodeStringCbCopyNEx function
 author: windows-driver-content
 description: The RtlUnicodeStringCbCopyNEx function copies a string from one UNICODE_STRING structure to another while limiting the size of the copied string.
 old-location: kernel\rtlunicodestringcbcopynex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 08b2e13c-bbd6-4344-83cb-3bb911c5da70
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

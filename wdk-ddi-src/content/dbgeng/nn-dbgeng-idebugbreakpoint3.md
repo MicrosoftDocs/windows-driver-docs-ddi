@@ -4,10 +4,10 @@ title: IDebugBreakpoint3
 author: windows-driver-content
 description: "."
 old-location: debugger\idebugbreakpoint3.htm
-old-project: debugger
+tech.root: debugger
 ms.assetid: 42A31C23-9C02-48F6-83CC-CA017F76DE18
 ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.date: 5/3/2018
 ms.keywords: IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging],described, dbgeng/IDebugBreakpoint3, debugger.idebugbreakpoint3
 ms.prod: windows-hardware
 ms.technology: windows-devices

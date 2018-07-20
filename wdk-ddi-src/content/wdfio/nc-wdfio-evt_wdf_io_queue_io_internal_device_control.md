@@ -4,7 +4,7 @@ title: EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL
 author: windows-driver-content
 description: A driver's EvtIoInternalDeviceControl event callback function processes an I/O request that contains an internal device I/O control code (IOCTL).
 old-location: wdf\evtiointernaldevicecontrol.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 268d2323-57a3-4674-90e6-d7142804175b
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

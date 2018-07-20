@@ -4,7 +4,7 @@ title: tagKS_VIDEOINFO
 author: windows-driver-content
 description: The KS_VIDEOINFO structure describes the bitmap and color information for a video stream.
 old-location: stream\ks_videoinfo.htm
-old-project: stream
+tech.root: stream
 ms.assetid: e588a844-0b20-418c-9c65-e85f3a992d5c
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

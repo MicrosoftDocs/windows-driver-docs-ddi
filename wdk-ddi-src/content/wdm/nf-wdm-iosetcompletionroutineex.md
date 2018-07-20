@@ -4,7 +4,7 @@ title: IoSetCompletionRoutineEx function
 author: windows-driver-content
 description: The IoSetCompletionRoutineEx routine registers an IoCompletion routine, which is called when the next-lower-level driver has completed the requested operation for the given IRP.
 old-location: kernel\iosetcompletionroutineex.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: fe84e542-c8b2-4631-9ffb-dde471311871
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

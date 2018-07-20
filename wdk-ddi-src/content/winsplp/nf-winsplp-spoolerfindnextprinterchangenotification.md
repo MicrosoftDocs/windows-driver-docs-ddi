@@ -4,7 +4,7 @@ title: SpoolerFindNextPrinterChangeNotification function
 author: windows-driver-content
 description: "."
 old-location: print\spoolerfindnextprinterchangenotification.htm
-old-project: print
+tech.root: print
 ms.assetid: FE69BD53-F463-480A-820B-4259D6F48BD0
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

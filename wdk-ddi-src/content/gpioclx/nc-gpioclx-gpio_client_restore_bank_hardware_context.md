@@ -4,7 +4,7 @@ title: GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT
 author: windows-driver-content
 description: The CLIENT_RestoreBankHardwareContext event callback function restores the hardware context of a bank of general-purpose I/O (GPIO) pins.
 old-location: gpio\client_restorebankhardwarecontext.htm
-old-project: GPIO
+tech.root: GPIO
 ms.assetid: 7F73BC89-1BAF-413D-A901-56B4A0F3235A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

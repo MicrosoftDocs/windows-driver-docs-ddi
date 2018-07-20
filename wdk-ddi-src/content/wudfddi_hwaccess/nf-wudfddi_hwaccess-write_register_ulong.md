@@ -4,7 +4,7 @@ title: WRITE_REGISTER_ULONG function
 author: windows-driver-content
 description: The WRITE_REGISTER_ULONG routine writes a ULONG value to the specified address.
 old-location: wdf\write_register_ulong.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: E5C5DAEA-9F4E-4202-90BE-A8D41EE03BDA
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

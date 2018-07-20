@@ -4,7 +4,7 @@ title: "_ISCSI_RedirectSessionInfo"
 author: windows-driver-content
 description: This ISCSI_RedirectSessionInfo structure contains information about an iSCSI session and its portal information resulted from iSCSI target redirection.
 old-location: storage\iscsi_redirectsessioninfo.htm
-old-project: storage
+tech.root: storage
 ms.assetid: e3980ac7-b539-4a8f-9869-14d418ebe1e7
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

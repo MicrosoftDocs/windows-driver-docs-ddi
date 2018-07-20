@@ -4,10 +4,10 @@ title: ISensorClassExtension::PostEvent
 author: windows-driver-content
 description: The ISensorClassExtension::PostEvent method raises one or more driver events in the sensor class extension.
 old-location: sensors\isensorclassextension_postevent.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: 201a4558-8755-4a28-9982-c02ce5b5d8e7
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: ISensorClassExtension interface [Sensor Devices],PostEvent method, ISensorClassExtension.PostEvent, ISensorClassExtension::PostEvent, PostEvent, PostEvent method [Sensor Devices], PostEvent method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_postevent, sensorsclassextension/ISensorClassExtension::PostEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices

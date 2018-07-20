@@ -4,7 +4,7 @@ title: RtlEqualString function
 author: windows-driver-content
 description: The RtlEqualString routine compares two counted strings to determine whether they are equal.
 old-location: kernel\rtlequalstring.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: f8244276-0cf6-4315-9f4a-85890194dad8
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

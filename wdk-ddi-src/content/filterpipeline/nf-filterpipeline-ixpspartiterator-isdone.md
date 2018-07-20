@@ -4,7 +4,7 @@ title: IXpsPartIterator::IsDone
 author: windows-driver-content
 description: The IsDone method determines whether the iterator has finished the iteration.
 old-location: print\ixpspartiterator_isdone.htm
-old-project: print
+tech.root: print
 ms.assetid: 80877e8e-378f-4849-a8ce-b0651fdc2755
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

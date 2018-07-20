@@ -4,7 +4,7 @@ title: NfcCxNciReadNotification function
 author: windows-driver-content
 description: Called by the client driver when a read packet is available.
 old-location: nfpdrivers\_nfccxncireadnotification.htm
-old-project: nfpdrivers
+tech.root: nfpdrivers
 ms.assetid: 0D2FB16D-ABBC-428F-95D4-4B17E262D115
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

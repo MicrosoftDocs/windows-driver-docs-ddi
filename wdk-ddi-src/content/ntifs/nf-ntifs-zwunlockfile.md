@@ -4,7 +4,7 @@ title: ZwUnlockFile function
 author: windows-driver-content
 description: The ZwUnlockFile routine unlocks a byte-range lock in a file.
 old-location: kernel\zwunlockfile.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: dca3023b-99d5-471a-a5a2-8453c367ce9b
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

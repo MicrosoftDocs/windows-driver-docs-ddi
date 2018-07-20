@@ -4,10 +4,10 @@ title: "_HPMI_QUERY_CAPABILITIES_RESPONSE"
 author: windows-driver-content
 description: HPMI_QUERY_CAPABILITIES_RESPONSE is a structure used to return information about software defined batteries (SDB).
 old-location: powermeter\hpmi_query_capabilities_response.htm
-old-project: powermeter
+tech.root: powermeter
 ms.assetid: 2D7B6278-6D7A-41C4-B21A-D531CD8DCD91
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 5/8/2018
 ms.keywords: "*PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE structure [Power Metering and Budgeting Devices], PHPMI_QUERY_CAPABILITIES_RESPONSE, PHPMI_QUERY_CAPABILITIES_RESPONSE structure pointer [Power Metering and Budgeting Devices], _HPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/HPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/PHPMI_QUERY_CAPABILITIES_RESPONSE, powermeter.hpmi_query_capabilities_response"
 ms.prod: windows-hardware
 ms.technology: windows-devices

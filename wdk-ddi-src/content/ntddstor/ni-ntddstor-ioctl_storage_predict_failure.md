@@ -4,7 +4,7 @@ title: IOCTL_STORAGE_PREDICT_FAILURE
 author: windows-driver-content
 description: Polls for a prediction of device failure.
 old-location: storage\ioctl_storage_predict_failure.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 56e178d9-e6bb-43d4-b062-da4e699c4efc
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

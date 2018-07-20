@@ -4,7 +4,7 @@ title: KsDiscardEvent function
 author: windows-driver-content
 description: The KsDiscardEvent function discards the memory used by an event entry after the objects have been dereferenced.
 old-location: stream\ksdiscardevent.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 14aaf96a-4d1f-4e4a-9fed-e493090157b8
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

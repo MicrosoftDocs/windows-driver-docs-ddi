@@ -4,7 +4,7 @@ title: "_PEP_PPM_PARK_MASK"
 author: windows-driver-content
 description: The PEP_PROCESSOR_PARK_MASK structure contains the current core parking mask.
 old-location: kernel\pep_ppm_park_mask.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 528576FD-BDB2-4772-9151-A1C855BA953E
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

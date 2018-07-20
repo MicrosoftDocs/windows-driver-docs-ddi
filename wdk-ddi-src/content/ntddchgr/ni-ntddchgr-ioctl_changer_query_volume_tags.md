@@ -4,7 +4,7 @@ title: IOCTL_CHANGER_QUERY_VOLUME_TAGS
 author: windows-driver-content
 description: Returns volume tag information for the specified elements.
 old-location: storage\ioctl_changer_query_volume_tags.htm
-old-project: storage
+tech.root: storage
 ms.assetid: d2edc681-2a12-4281-81f5-147cf6c5e68f
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

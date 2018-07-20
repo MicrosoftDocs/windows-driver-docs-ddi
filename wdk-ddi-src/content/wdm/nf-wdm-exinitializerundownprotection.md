@@ -4,7 +4,7 @@ title: ExInitializeRundownProtection function
 author: windows-driver-content
 description: The ExInitializeRundownProtection routine initializes run-down protection on a shared object.
 old-location: kernel\exinitializerundownprotection.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 59B9C222-1A03-4C04-9F29-D9EA47E5E298
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

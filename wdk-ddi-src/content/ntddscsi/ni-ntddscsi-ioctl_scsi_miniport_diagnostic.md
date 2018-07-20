@@ -4,7 +4,7 @@ title: IOCTL_SCSI_MINIPORT_DIAGNOSTIC
 author: windows-driver-content
 description: The IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code is use to perform a diagnostic request to the Miniport.
 old-location: storage\ioctl_scsi_miniport_diagnostic.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 79E89E4A-3B06-40FA-BFA6-598331C0A330
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

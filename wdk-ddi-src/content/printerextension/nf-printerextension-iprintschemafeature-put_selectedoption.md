@@ -4,7 +4,7 @@ title: IPrintSchemaFeature::put_SelectedOption
 author: windows-driver-content
 description: Changes the selected option of the Print Schema Feature element to the specified IPrintSchemaOption element.
 old-location: print\iprintschemafeature_put_selectedoption.htm
-old-project: print
+tech.root: print
 ms.assetid: DEFA0559-9946-4F4D-B5DC-A0E5E872114A
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

@@ -4,7 +4,7 @@ title: IPrintCoreHelperPS::CreateInstanceOfMSXMLObject
 author: windows-driver-content
 description: The IPrintCoreHelperPS::CreateInstanceOfMSXMLObject method creates an instance of an MSXML object.
 old-location: print\iprintcorehelperps_createinstanceofmsxmlobject.htm
-old-project: print
+tech.root: print
 ms.assetid: 017f6e00-694b-4ada-86be-cf2be047fa88
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

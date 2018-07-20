@@ -4,7 +4,7 @@ title: "_PosBarcodeScanDataTypeData"
 author: windows-driver-content
 description: This structure describes a buffer of barcode symbologies supported by the driver.
 old-location: pos\posbarcodescandatatypedata.htm
-old-project: pos
+tech.root: pos
 ms.assetid: 1b6fcad3-a6a0-4180-8e36-ae4e597b4eb0
 ms.author: windowsdriverdev
 ms.date: 2/23/2018

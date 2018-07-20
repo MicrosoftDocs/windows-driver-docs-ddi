@@ -4,7 +4,7 @@ title: NtCommitEnlistment function
 author: windows-driver-content
 description: The ZwCommitEnlistment routine initiates the commit operation for a specified enlistment's transaction.
 old-location: kernel\zwcommitenlistment.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9c7f3e24-1d7c-450e-bbef-df0479911bc6
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

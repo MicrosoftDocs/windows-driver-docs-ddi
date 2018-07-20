@@ -4,10 +4,10 @@ title: NmrDeregisterProvider function
 author: windows-driver-content
 description: The NmrDeregisterProvider function deregisters a provider module from the NMR.
 old-location: netvista\nmrderegisterprovider.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 889f872a-f4fe-4d7a-b9b6-7fb7335831a5
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NmrDeregisterProvider, NmrDeregisterProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrDeregisterProvider, netvista.nmrderegisterprovider, nmrref_581ad526-b42f-4ff3-993c-58558cd281c8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

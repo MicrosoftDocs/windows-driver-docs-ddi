@@ -4,7 +4,7 @@ title: OEMGetInfo function
 author: windows-driver-content
 description: OEMGetInfo function
 old-location: print\oemgetinfo.htm
-old-project: print
+tech.root: print
 ms.assetid: 69df63ac-2468-49d3-87ac-1930b718dddf
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

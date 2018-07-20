@@ -4,7 +4,7 @@ title: "_KSFILTER_DESCRIPTOR"
 author: windows-driver-content
 description: The KSFILTER_DESCRIPTOR structure describes the characteristics of a filter created by a given filter factory.
 old-location: stream\ksfilter_descriptor.htm
-old-project: stream
+tech.root: stream
 ms.assetid: c9e3c1ea-a8c9-45db-a31c-7f8e95cf6b2b
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

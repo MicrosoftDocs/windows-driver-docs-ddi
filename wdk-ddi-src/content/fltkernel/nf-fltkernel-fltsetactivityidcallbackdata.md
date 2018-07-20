@@ -4,7 +4,7 @@ title: FltSetActivityIdCallbackData function
 author: windows-driver-content
 description: The FltSetActivityIdCallbackData routine sets the a activity ID for an IRP in a minifilter's callback data.
 old-location: ifsk\fltsetactivityidcallbackdata.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: D7CA9DAB-E350-42D5-A008-5CC12D5313D3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

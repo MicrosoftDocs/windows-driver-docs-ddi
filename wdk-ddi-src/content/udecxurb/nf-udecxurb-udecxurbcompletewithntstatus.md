@@ -4,10 +4,10 @@ title: UdecxUrbCompleteWithNtStatus function
 author: windows-driver-content
 description: Completes the URB request with an NTSTATUS code.
 old-location: buses\udecxurbcompletewithntstatus.htm
-old-project: usbref
+tech.root: usbref
 ms.assetid: E1EAA11F-B32F-4551-9788-49BC8A13BB19
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/7/2018
 ms.keywords: UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus function [Buses], buses.udecxurbcompletewithntstatus, udecxurb/UdecxUrbCompleteWithNtStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices

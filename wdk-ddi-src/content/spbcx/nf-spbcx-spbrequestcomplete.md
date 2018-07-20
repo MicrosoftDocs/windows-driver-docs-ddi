@@ -4,7 +4,7 @@ title: SpbRequestComplete function
 author: windows-driver-content
 description: The SpbRequestComplete method completes an I/O request and supplies a completion status.
 old-location: spb\spbrequestcomplete.htm
-old-project: SPB
+tech.root: SPB
 ms.assetid: 356BC81E-8FE9-4BC7-83E5-20A64D149A0D
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

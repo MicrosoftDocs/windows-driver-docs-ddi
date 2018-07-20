@@ -4,7 +4,7 @@ title: IWDFDriver::RetrieveVersionString
 author: windows-driver-content
 description: The RetrieveVersionString method retrieves the version of the framework.
 old-location: wdf\iwdfdriver_retrieveversionstring.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 2fa320df-bafd-42f4-a0a1-14151c39d68a
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

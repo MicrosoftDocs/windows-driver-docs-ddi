@@ -4,7 +4,7 @@ title: "_MSiSCSI_QMIPSECStats"
 author: windows-driver-content
 description: The MSiSCSI_QMIPSECStats structure can be used by an iSCSI initiator to report IPsec statistics for an HBA.
 old-location: storage\msiscsi_qmipsecstats.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 265ed956-1065-44be-ac8e-94bab2e4e8b8
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

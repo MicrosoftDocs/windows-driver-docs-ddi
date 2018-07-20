@@ -4,7 +4,7 @@ title: KSPROPERTY_CAMERACONTROL_S
 author: windows-driver-content
 description: The KSPROPERTY_CAMERACONTROL_S structure describes filter-based properties in the PROPSETID_VIDCAP_CAMERACONTROL property set.
 old-location: stream\ksproperty_cameracontrol_s.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 203c6452-26d4-4dbf-89d4-c7e6d47e7c16
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

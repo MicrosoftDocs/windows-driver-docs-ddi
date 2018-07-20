@@ -4,7 +4,7 @@ title: IWDTFSimpleIOEx2::PerformIO
 author: windows-driver-content
 description: Performs a small amount of simple I/O to the device.
 old-location: dtf\iwdtfsimpleioex2_performio.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 795dcbed-e0ce-444d-a6a8-95d0bc658f5b
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

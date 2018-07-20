@@ -4,7 +4,7 @@ title: "_BAND_TABLE"
 author: windows-driver-content
 description: The BAND_TABLE structure contains the table of bands returned from an IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS request.
 old-location: storage\band_table.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 2714E346-6BDD-49EF-9820-6B82F8F29380
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

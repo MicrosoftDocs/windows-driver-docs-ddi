@@ -4,10 +4,10 @@ title: IKeywordDetectorOemAdapter::GetCapabilities
 author: windows-driver-content
 description: The GetCapabilities method returns the keywords and languages supported by the object.
 old-location: audio\ikeyworddetectoroemadapter_getcapabilities.htm
-old-project: audio
+tech.root: audio
 ms.assetid: 5885E2BB-78DA-46F5-8330-DE8785C61946
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/8/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Audio Devices], GetCapabilities method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],GetCapabilities method, IKeywordDetectorOemAdapter.GetCapabilities, IKeywordDetectorOemAdapter::GetCapabilities, audio.ikeyworddetectoroemadapter_getcapabilities, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices

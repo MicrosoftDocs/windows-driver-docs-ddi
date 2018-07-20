@@ -4,7 +4,7 @@ title: HidD_GetPreparsedData function
 author: windows-driver-content
 description: The HidD_GetPreparsedData routine returns a top-level collection's preparsed data.
 old-location: hid\hidd_getpreparseddata.htm
-old-project: hid
+tech.root: hid
 ms.assetid: e5c550f0-a466-4d0b-ac6f-bcdce600245f
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

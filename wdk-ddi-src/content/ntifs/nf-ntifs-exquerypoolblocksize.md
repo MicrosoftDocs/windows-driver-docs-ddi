@@ -4,7 +4,7 @@ title: ExQueryPoolBlockSize function
 author: windows-driver-content
 description: Obsolete.
 old-location: ifsk\exquerypoolblocksize.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 0be3f5da-3fe6-45a2-b44a-b1634d74ede3
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

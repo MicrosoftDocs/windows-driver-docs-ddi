@@ -4,7 +4,7 @@ title: IXpsPartIterator::Next
 author: windows-driver-content
 description: The Next method advances the iterator to the next part.
 old-location: print\ixpspartiterator_next.htm
-old-project: print
+tech.root: print
 ms.assetid: ac54ac59-4144-4449-a732-b9da16338ddf
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

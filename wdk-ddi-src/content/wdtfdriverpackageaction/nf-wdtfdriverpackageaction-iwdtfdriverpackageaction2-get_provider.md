@@ -4,7 +4,7 @@ title: IWDTFDriverPackageAction2::get_Provider
 author: windows-driver-content
 description: Gets the driver package provider.
 old-location: dtf\iwdtfdriverpackageaction2_provider.htm
-old-project: dtf
+tech.root: dtf
 ms.assetid: 1d97bd4b-4e8c-4e36-97cc-c704b85e77ae
 ms.author: windowsdriverdev
 ms.date: 4/4/2018

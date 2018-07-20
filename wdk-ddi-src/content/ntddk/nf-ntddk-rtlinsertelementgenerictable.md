@@ -4,7 +4,7 @@ title: RtlInsertElementGenericTable function
 author: windows-driver-content
 description: The RtlInsertElementGenericTable routine adds a new element to a generic table.
 old-location: ifsk\rtlinsertelementgenerictable.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: 2554a212-edc0-4641-98bb-2db36ff0266f
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

@@ -4,7 +4,7 @@ title: CcCopyWriteEx function
 author: windows-driver-content
 description: The CcCopyWriteEx routine copies data from a user buffer to a cached file. The I/O byte count for the operation is charged to the issuing thread.
 old-location: ifsk\cccopywriteex.htm
-old-project: ifsk
+tech.root: ifsk
 ms.assetid: A8945F1C-56CF-494F-9E50-11C7A713E5F0
 ms.author: windowsdriverdev
 ms.date: 4/16/2018

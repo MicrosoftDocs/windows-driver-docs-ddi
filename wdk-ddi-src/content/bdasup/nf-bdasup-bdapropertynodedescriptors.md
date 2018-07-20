@@ -4,7 +4,7 @@ title: BdaPropertyNodeDescriptors function
 author: windows-driver-content
 description: The BdaPropertyNodeDescriptors function retrieves a list of nodes in a template topology.
 old-location: stream\bdapropertynodedescriptors.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 46e38460-9284-4305-997d-bf72b308f301
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

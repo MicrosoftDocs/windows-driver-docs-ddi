@@ -4,7 +4,7 @@ title: KsPinRegisterHandshakeCallback function
 author: windows-driver-content
 description: The KsPinRegisterHandshakeCallback function registers a minidriver-provided callback routine for a given pin.
 old-location: stream\kspinregisterhandshakecallback.htm
-old-project: stream
+tech.root: stream
 ms.assetid: a5b9f731-e029-40c2-9fbb-d7a3b63615df
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

@@ -4,10 +4,10 @@ title: ISensorClassExtension::ProcessIoControl
 author: windows-driver-content
 description: The ISensorClassExtension::ProcessControl method sends Windows Portable Devices (WPD) I/O control requests to the sensor class extension for processing.
 old-location: sensors\isensorclassextension_processiocontrol.htm
-old-project: sensors
+tech.root: sensors
 ms.assetid: bd886086-4e23-47c0-ae58-9234399e5a79
 ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.date: 5/3/2018
 ms.keywords: ISensorClassExtension interface [Sensor Devices],ProcessIoControl method, ISensorClassExtension.ProcessIoControl, ISensorClassExtension::ProcessIoControl, ProcessIoControl, ProcessIoControl method [Sensor Devices], ProcessIoControl method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_processiocontrol, sensorsclassextension/ISensorClassExtension::ProcessIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices

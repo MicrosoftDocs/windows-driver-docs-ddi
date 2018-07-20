@@ -4,7 +4,7 @@ title: IFixedPage::GetPagePart
 author: windows-driver-content
 description: The GetPagePart method gets the images, thumbnails, fonts, and so on in a page by using the URI.
 old-location: print\ifixedpage_getpagepart.htm
-old-project: print
+tech.root: print
 ms.assetid: 6ec8d282-eedb-419e-84cb-8f4776ea7650
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

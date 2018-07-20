@@ -4,7 +4,7 @@ title: MmGetMdlByteCount macro
 author: windows-driver-content
 description: The MmGetMdlByteCount macro returns the length, in bytes, of the buffer described by the specified MDL.
 old-location: kernel\mmgetmdlbytecount.htm
-old-project: Benchmark
+tech.root: Benchmark
 ms.assetid: a0493418-2ce2-4917-bf9f-e4dc726a3847
 ms.author: windowsdriverdev
 ms.date: 2/15/2018

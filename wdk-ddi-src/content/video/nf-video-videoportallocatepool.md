@@ -4,10 +4,10 @@ title: VideoPortAllocatePool function
 author: windows-driver-content
 description: The VideoPortAllocatePool function allocates a block of pool memory, inserting a caller-supplied tag at the beginning of the memory.
 old-location: display\videoportallocatepool.htm
-old-project: display
+tech.root: display
 ms.assetid: c981e56f-e582-4c06-8d32-b070d58065d2
 ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.date: 5/10/2018
 ms.keywords: VideoPortAllocatePool, VideoPortAllocatePool function [Display Devices], VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml, display.videoportallocatepool, video/VideoPortAllocatePool
 ms.prod: windows-hardware
 ms.technology: windows-devices

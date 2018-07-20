@@ -4,7 +4,7 @@ title: IKsDataTypeHandler
 author: windows-driver-content
 description: The IKsDataTypeHandler interface provides methods that perform optional preprocessing and postprocessing of media samples.
 old-location: stream\iksdatatypehandler.htm
-old-project: stream
+tech.root: stream
 ms.assetid: ef08d375-1ac6-489f-9fd4-f791ce82c553
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

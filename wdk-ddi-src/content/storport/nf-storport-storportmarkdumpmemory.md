@@ -4,7 +4,7 @@ title: StorPortMarkDumpMemory function
 author: windows-driver-content
 description: A miniport should mark memory used for the dump file or the hibernation file.
 old-location: storage\storportmarkdumpmemory.htm
-old-project: storage
+tech.root: storage
 ms.assetid: DE17FF55-A573-41FE-8979-1DB32AD5B7C0
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

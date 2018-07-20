@@ -4,7 +4,7 @@ title: IPrintOemUni::TTDownloadMethod
 author: windows-driver-content
 description: The IPrintOemUni::TTDownloadMethod method enables a rendering plug-in to indicate the format that Unidrv should use for a specified TrueType soft font.
 old-location: print\iprintoemuni_ttdownloadmethod.htm
-old-project: print
+tech.root: print
 ms.assetid: bf8c2baf-eaca-4d0e-a6d6-dba67b2f85db
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

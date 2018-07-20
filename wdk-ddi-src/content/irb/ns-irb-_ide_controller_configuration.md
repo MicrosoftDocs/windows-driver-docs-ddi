@@ -4,7 +4,7 @@ title: "_IDE_CONTROLLER_CONFIGURATION"
 author: windows-driver-content
 description: The IDE_CONTROLLER_CONFIGURATION structure is used to pass controller configuration information between the port driver and the miniport driver.Note  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future.
 old-location: storage\ide_controller_configuration.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 89b7f66e-3a3a-4723-a409-3b3030c1a45b
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

@@ -4,7 +4,7 @@ title: StorPortStateChangeDetected function
 author: windows-driver-content
 description: Notifies the Storport port driver of a state change for a logical unit number (LUN), host bus adapter (HBA) port, or target device.
 old-location: storage\storportstatechangedetected.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 3E5E9C4E-5B82-4656-BDF2-23A9A8D40ADF
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

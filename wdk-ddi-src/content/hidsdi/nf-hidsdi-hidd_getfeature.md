@@ -4,7 +4,7 @@ title: HidD_GetFeature function
 author: windows-driver-content
 description: The HidD_GetFeature routine returns a feature report from a specified top-level collection.
 old-location: hid\hidd_getfeature.htm
-old-project: hid
+tech.root: hid
 ms.assetid: e6a01367-981a-4b44-97a8-4cb37f9753fc
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

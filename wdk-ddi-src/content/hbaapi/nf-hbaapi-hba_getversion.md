@@ -4,7 +4,7 @@ title: HBA_GetVersion function
 author: windows-driver-content
 description: The HBA_GetVersion routine returns the version of the fibre channel HBA API specification with which the HBA API library is compatible.
 old-location: storage\hba_getversion.htm
-old-project: storage
+tech.root: storage
 ms.assetid: 05fbdc9b-be15-4d1b-96d5-4ea48fb6c543
 ms.author: windowsdriverdev
 ms.date: 3/29/2018

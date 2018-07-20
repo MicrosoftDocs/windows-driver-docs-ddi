@@ -4,7 +4,7 @@ title: RtlLongToInt function
 author: windows-driver-content
 description: Converts a value of type LONG to a value of type INT.
 old-location: kernel\rtllongtoint.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 9C35B77E-FFEC-42A0-9D2C-9E52E210C941
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

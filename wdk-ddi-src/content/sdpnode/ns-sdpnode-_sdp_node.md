@@ -4,7 +4,7 @@ title: "_SDP_NODE"
 author: windows-driver-content
 description: The SDP_NODE structure holds information about an element in a tree-based representation of an SDP record.
 old-location: bltooth\sdp_node.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: 11d603e9-6db1-44a2-b4e3-d85ffe0d5c25
 ms.author: windowsdriverdev
 ms.date: 4/27/2018

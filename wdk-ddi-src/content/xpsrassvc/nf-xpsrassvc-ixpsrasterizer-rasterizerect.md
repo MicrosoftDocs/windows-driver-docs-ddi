@@ -4,7 +4,7 @@ title: IXpsRasterizer::RasterizeRect
 author: windows-driver-content
 description: The RasterizeRect method rasterizes an axis-aligned, rectangular region of an XPS fixed page.
 old-location: print\ixpsrasterizer_rasterizerect.htm
-old-project: print
+tech.root: print
 ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

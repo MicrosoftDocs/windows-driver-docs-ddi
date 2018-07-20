@@ -4,7 +4,7 @@ title: "_PEP_PPM_QUERY_CAPABILITIES"
 author: windows-driver-content
 description: The PEP_PPM_QUERY_CAPABILITIES structure contains information about the processor power management (PPM) capabilities of the platform extension plug-in (PEP).
 old-location: kernel\pep_ppm_query_capabilities.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: D33FA62B-9DC8-4AC4-85FC-726C39FB76F4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: IXpsDocument
 author: windows-driver-content
 description: The IXpsDocument interface represents the root of an XPS document.
 old-location: print\ixpsdocument.htm
-old-project: print
+tech.root: print
 ms.assetid: 1d4a9ad3-6ac1-44c3-9ddd-0dc5f996d70d
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

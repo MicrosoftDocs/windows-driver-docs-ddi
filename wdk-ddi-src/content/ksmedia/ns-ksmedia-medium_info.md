@@ -4,7 +4,7 @@ title: MEDIUM_INFO
 author: windows-driver-content
 description: The MEDIUM_INFO structure describes the media loaded into an external device.
 old-location: stream\medium_info.htm
-old-project: stream
+tech.root: stream
 ms.assetid: 1dd7415d-bfbc-4dea-bac9-bc5b8531a47f
 ms.author: windowsdriverdev
 ms.date: 4/23/2018

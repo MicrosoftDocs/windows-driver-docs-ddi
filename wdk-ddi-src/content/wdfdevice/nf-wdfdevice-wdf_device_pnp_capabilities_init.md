@@ -4,7 +4,7 @@ title: WDF_DEVICE_PNP_CAPABILITIES_INIT function
 author: windows-driver-content
 description: The WDF_DEVICE_PNP_CAPABILITIES_INIT function initializes a WDF_DEVICE_PNP_CAPABILITIES structure.
 old-location: wdf\wdf_device_pnp_capabilities_init.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 5ae60715-ba51-4814-ae34-34967cdbab78
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

@@ -4,10 +4,10 @@ title: NdisMDeregisterScatterGatherDma function
 author: windows-driver-content
 description: Bus-master miniport drivers call NdisMDeregisterScatterGatherDma to release DMA resources that were allocated with the NdisMRegisterScatterGatherDma function.
 old-location: netvista\ndismderegisterscattergatherdma.htm
-old-project: netvista
+tech.root: netvista
 ms.assetid: 44792a1f-c6d5-4491-a06d-e00e41e40059
 ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.date: 5/2/2018
 ms.keywords: NdisMDeregisterScatterGatherDma, NdisMDeregisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterScatterGatherDma, ndis_sgdma_ref_93a42580-1486-4ec8-90e6-ca6219c54884.xml, netvista.ndismderegisterscattergatherdma
 ms.prod: windows-hardware
 ms.technology: windows-devices

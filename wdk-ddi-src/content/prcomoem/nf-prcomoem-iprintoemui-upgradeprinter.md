@@ -4,7 +4,7 @@ title: IPrintOemUI::UpgradePrinter
 author: windows-driver-content
 description: The IPrintOemUI::UpgradePrinter method allows a user interface plug-in to upgrade device option values that are stored in the registry.
 old-location: print\iprintoemui_upgradeprinter.htm
-old-project: print
+tech.root: print
 ms.assetid: 405f0000-c239-4f2c-83ad-5d35441a5df2
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

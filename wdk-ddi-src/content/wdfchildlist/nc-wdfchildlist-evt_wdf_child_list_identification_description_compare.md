@@ -4,7 +4,7 @@ title: EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COMPARE
 author: windows-driver-content
 description: A driver's EvtChildListIdentificationDescriptionCompare event callback function compares one child identification description with another.
 old-location: wdf\evtchildlistidentificationdescriptioncompare.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: b807f9f8-588f-4303-be97-a9fd4cff2bbd
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

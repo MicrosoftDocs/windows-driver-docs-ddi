@@ -4,7 +4,7 @@ title: IoSetMasterIrpStatus function
 author: windows-driver-content
 description: The IoSetMasterIrpStatus routine conditionally replaces the Status value in an IRP with the specified NTSTATUS value.
 old-location: kernel\iosetmasterirpstatus.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 68C7C46B-AFDB-449D-99B5-1F9A5A9AFFA4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

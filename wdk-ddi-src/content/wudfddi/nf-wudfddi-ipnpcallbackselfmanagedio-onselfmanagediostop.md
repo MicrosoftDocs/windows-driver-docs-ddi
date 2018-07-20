@@ -4,7 +4,7 @@ title: IPnpCallbackSelfManagedIo::OnSelfManagedIoStop
 author: windows-driver-content
 description: The OnSelfManagedIoStop method is not used in the current version of the UMDF.
 old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediostop.htm
-old-project: wdf
+tech.root: wdf
 ms.assetid: 490c95f5-ea93-4521-8fa5-4ca1f83ff19d
 ms.author: windowsdriverdev
 ms.date: 2/26/2018

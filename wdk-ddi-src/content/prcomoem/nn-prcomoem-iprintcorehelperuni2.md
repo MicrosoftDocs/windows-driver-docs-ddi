@@ -4,7 +4,7 @@ title: IPrintCoreHelperUni2
 author: windows-driver-content
 description: The IPrintCoreHelperUni2 interface derives from the IPrintCoreHelperUni interface and adds a method.
 old-location: print\iprintcorehelperuni2_interface.htm
-old-project: print
+tech.root: print
 ms.assetid: F7EC4309-1274-4DA1-B006-A716627010F6
 ms.author: windowsdriverdev
 ms.date: 4/20/2018

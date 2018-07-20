@@ -4,7 +4,7 @@ title: HidD_GetAttributes function
 author: windows-driver-content
 description: The HidD_GetAttributes routine returns the attributes of a specified top-level collection.
 old-location: hid\hidd_getattributes.htm
-old-project: hid
+tech.root: hid
 ms.assetid: 3b7814a7-828a-40eb-8494-0753d89a95f4
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

@@ -4,7 +4,7 @@ title: ClfsReadPreviousRestartArea function
 author: windows-driver-content
 description: The ClfsReadPreviousRestartArea routine reads the previous restart record relative to the current record in a read context.
 old-location: kernel\clfsreadpreviousrestartarea.htm
-old-project: kernel
+tech.root: kernel
 ms.assetid: 832da270-e1e1-41bf-a9cf-0b363c0d2d74
 ms.author: windowsdriverdev
 ms.date: 4/30/2018

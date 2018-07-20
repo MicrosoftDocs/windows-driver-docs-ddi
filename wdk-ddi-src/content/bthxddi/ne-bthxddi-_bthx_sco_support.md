@@ -4,7 +4,7 @@ title: "_BTHX_SCO_SUPPORT"
 author: windows-driver-content
 description: The BTHX_SCO_SUPPORT enumeration lists the different types of SCO supported by the transport driver.
 old-location: bltooth\bthx_sco_support.htm
-old-project: bltooth
+tech.root: bltooth
 ms.assetid: A9B303C7-868D-47EB-8279-9F655F58630C
 ms.author: windowsdriverdev
 ms.date: 4/27/2018
