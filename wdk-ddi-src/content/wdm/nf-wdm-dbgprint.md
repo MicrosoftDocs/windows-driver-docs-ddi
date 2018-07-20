@@ -68,14 +68,8 @@ Specifies a pointer to the format string to print. The <i>Format</i> string supp
 
 ### -param param
 
-TBD
-
-
-
-
-#### - arguments
-
 Specifies arguments for the format string, as in <b>printf</b>.
+
 
 
 ## -returns

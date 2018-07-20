@@ -455,6 +455,7 @@ A temporary file should be created.
 ### -param ShareAccess [in]
 
 Specifies the type of share access to the file that the caller requires, as zero or one, or a combination of the following flags. If the IO_IGNORE_SHARE_ACCESS_CHECK flag is specified in the <i>Flags</i> parameter, the I/O manager ignores this parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for this parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. For the greatest chance of avoiding sharing violation errors, specify all of the following share access flags. 
+Additionally, note that when IO_IGNORE_SHARE_ACCESS_CHECK is specified, the file system does not track the current open's desired access or shared access. Because of this, subsequent open calls on the same file may succeed. 
 
 <table>
 <tr>
@@ -789,7 +790,7 @@ IO_IGNORE_SHARE_ACCESS_CHECK
 </td>
 <td>
 Indicates that the I/O manager should not perform share-access checks on the file object after it is created. However, the file system might still perform these checks. 
-
+Note that when IO_IGNORE_SHARE_ACCESS_CHECK is specified, the file system does not track the current open's desired access or shared access. Because of this, subsequent open calls on the same file may succeed. 
 </td>
 </tr>
 <tr>
@@ -949,7 +950,7 @@ The <i>ShareAccess</i> parameter determines whether separate threads can access 
 
 For a shared file to be successfully opened, the requested <i>DesiredAccess</i> to the file must be compatible with both the <i>DesiredAccess</i> and <i>ShareAccess</i> specifications of all preceding open requests that have not yet been released with <a href="https://msdn.microsoft.com/library/windows/hardware/ff541863">FltClose</a>. That is, the <i>DesiredAccess</i> parameter that is specified to <b>FltCreateFileEx2</b> for a given file must not conflict with the accesses that other openers of the file have disallowed. 
 
-<div class="alert"><b>Note</b>    If IO_IGNORE_SHARE_ACCESS_CHECK is specified in the <i>Flags</i> parameter, the I/O manager ignores the <i>ShareAccess</i> parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for the <i>ShareAccess</i>parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. </div>
+<div class="alert"><b>Note</b>    If IO_IGNORE_SHARE_ACCESS_CHECK is specified in the <i>Flags</i> parameter, the I/O manager ignores the <i>ShareAccess</i> parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for the <i>ShareAccess</i>parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag. Additionally, note that when IO_IGNORE_SHARE_ACCESS_CHECK is specified, the file system does not track the current open's desired access or shared access. Because of this, subsequent open calls on the same file may succeed.  </div>
 <div> </div>
 The <i>CreateDisposition</i> value FILE_SUPERSEDE requires that the caller have DELETE access to an existing file object. If so, a successful call to <b>FltCreateFileEx2</b> with FILE_SUPERSEDE on an existing file effectively deletes that file and then recreates it. This implies that if the file has already been opened by another thread, it opened the file by specifying a <i>ShareAccess</i>parameter with the FILE_SHARE_DELETE flag set. Note that this type of disposition is consistent with the POSIX style of overwriting files. 
 

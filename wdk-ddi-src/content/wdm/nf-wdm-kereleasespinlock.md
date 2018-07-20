@@ -59,28 +59,15 @@ The <b>KeReleaseSpinLock</b> routine releases a spin lock and restores the origi
 
 
 
-### -param a
-
-TBD
-
-
-### -param b
-
-TBD
-
-
-
-
-
-
-#### - NewIrql [in]
+### -param a [in]
 
 Specifies the IRQL value saved from the preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551917">KeAcquireSpinLock</a>.
 
 
-#### - SpinLock [in, out]
+### -param b [in, out]
 
 Pointer to a spin lock for which the caller provides the storage.
+
 
 
 ## -remarks

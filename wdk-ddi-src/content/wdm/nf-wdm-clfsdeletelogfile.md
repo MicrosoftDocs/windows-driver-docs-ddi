@@ -69,8 +69,8 @@ If the stream to be deleted is one of the streams of a multiplexed log, the name
 
 
 ### -param pvReserved
+Reserved.
 
-TBD
 
 
 ### -param fLogOptionFlag [in]

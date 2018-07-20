@@ -58,16 +58,11 @@ The <b>ExUnregisterCallback</b> routine removes a callback routine previously re
 
 
 
-### -param CallbackRegistration
-
-TBD
-
-
-
-
-#### - CbRegistration [in, out]
+### -param CallbackRegistration [in, out]
 
 Specifies the callback routine to unregister. This must be the value returned by <b>ExRegisterCallback</b> when the callback was registered. 
+
+
 
 
 ## -returns

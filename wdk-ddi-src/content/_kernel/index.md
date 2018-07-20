@@ -95,35 +95,37 @@ Used for obtaining and reporting hardware configuration information about a driv
 
 The following routines are reserved for system use. Do not use them in your driver.
 
-HalAcquireDisplayOwnership
-HalAllocateAdapterChannel. Use AllocateAdapterChannel instead.
-HalAllocateCrashDumpRegisters
-HalAllocateMapRegisters
-HalGetScatterGatherList. Use GetScatterGatherList instead.
-HalMakeBeep
-HalPutDmaAdapter. Use PutDmaAdapter instead.
-HalPutScatterGatherList. Use PutScatterGatherList instead.
+- HalAcquireDisplayOwnership
+- HalAllocateAdapterChannel. Use AllocateAdapterChannel instead.
+- HalAllocateCrashDumpRegisters
+- HalAllocateMapRegisters
+- HalGetScatterGatherList. Use GetScatterGatherList instead.
+- HalMakeBeep
+- HalPutDmaAdapter. Use PutDmaAdapter instead.
+- HalPutScatterGatherList. Use PutScatterGatherList instead.
 
 The following obsolete routines are exported only to support existing drivers:
 
-HalAllocateCommonBuffer See AllocateCommonBuffer instead.
-HalAssignSlotResources Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.
-HalFreeCommonBuffer See FreeCommonBuffer instead.
-HalGetAdapter See IoGetDmaAdapter instead.
-HalGetBusData Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device. 
-HalGetBusDataByOffset Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device.
-HalGetDmaAlignmentRequirement See GetDmaAlignment instead.
-HalGetInterruptVector Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.
-HalReadDmaCounter See ReadDmaCounter instead.
-HalSetBusData Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to SetBusData, which can be used to write to the configuration space of a given device. 
-HalSetBusDataByOffset Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to SetBusData, which can be used to write to the configuration space of a given device. 
-HalTranslateBusAddress The PnP manager passes lists of raw and translated resources in its IIRP_MN_START_DEVICE request for each device. Consequently, in most cases there is no need to translate bus addresses. However, if translation is required, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. The query request returns a function pointer to TranslateBusAddress, which can be used to translates addresses on the parent bus to logical addresses.
+|Obsolete routine|Replacement |
+|---|---|
+|HalAllocateCommonBuffer |See [AllocateCommonBuffer](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_common_buffer) instead.|
+|HalAssignSlotResources| Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.|
+|HalFreeCommonBuffer |See [FreeCommonBuffer](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_common_buffer) instead.|
+|HalGetAdapter |See [IoGetDmaAdapter](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter) instead.|
+|HalGetBusData| Instead, use [IRP_MN_QUERY_INTERFACE](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mn-query-interface) to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device. |
+|HalGetBusDataByOffset |Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device.|
+|HalGetDmaAlignmentRequirement| See GetDmaAlignment instead.|
+|HalGetInterruptVector| Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.|
+|HalReadDmaCounter| See ReadDmaCounter instead.|
+|HalSetBusData| Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to SetBusData, which can be used to write to the configuration space of a given device. |
+|HalSetBusDataByOffset| Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to SetBusData, which can be used to write to the configuration space of a given device.| 
+|HalTranslateBusAddress| The PnP manager passes lists of raw and translated resources in its IIRP_MN_START_DEVICE request for each device. Consequently, in most cases there is no need to translate bus addresses. However, if translation is required, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. The query request returns a function pointer to TranslateBusAddress, which can be used to translates addresses on the parent bus to logical addresses.|
  
 These obsolete routines are included in the Ntddk.h header file.
 
 The following routine is not supported and should not be used:
 
-HalReturnToFirmware 
+- HalReturnToFirmware 
 
 Windows performs resource balancing of PCI bus resources to open an address region for a plugged device. The rebalance operation causes the bus data for some driver's device to move dynamically (between IRP_MN_STOP_DEVICE and IRP_MN_START_DEVICE calls). Therefore, a driver must not access the bus data directly. Instead the driver must pass it down to the lower bus driver because it knows the location of the device. 
 
@@ -318,8 +320,8 @@ This section describes the routines that are implemented by the power management
 |PoFxStartDevicePowerManagement| The PoFxStartDevicePowerManagement routine completes the registration of a device with the power management framework (PoFx) and starts device power management.
 |PoFxUnregisterDevice| The PoFxUnregisterDevice routine removes the registration of a device from the power management framework (PoFx).
  
-Device Power Management Callbacks
-This section describes the callback routines that are required by the power management framework (PoFx) to enable device power management. The driver that is the power policy owner for the device implements these callback routines. PoFx calls these routines to query and configure the power states of the components in the device.
+### Device Power Management Callbacks
+Device power management callbacks are the callback routines that are required by the power management framework (PoFx) to enable device power management. The driver that is the power policy owner for the device implements these callback routines. PoFx calls these routines to query and configure the power states of the components in the device.
 
 |Callback|Description|
 |---|---|
@@ -334,10 +336,13 @@ This section describes the callback routines that are required by the power mana
 ### Platform extension plug-in (PEP) reference
 Platform extension plug-ins (PEPs) provide interfaces for platform power management including device power management (DPM), processor power management (PPM), and, starting with Windows 10, ACPI runtime methods. 
 
-The types of notifications described in this section are sent to platform extension plug-ins (PEPs):
+The types of notifications sent to platform extension plug-ins (PEPs) include:
 [ACPI notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/acpi-notifications)
+
 [Device power management (DPM) notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/dpm-notifications)
+
 [Processor power management (PPM) notifications](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ppm-notifications)
+
 [PPM power control codes](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ppm-power-control-codes)
 
 |Initialization Function|Description|
@@ -355,7 +360,7 @@ The types of notifications described in this section are sent to platform extens
  
 
 PEP callback routines
-The callback routines described in this section are implemented by platform extension plug-ins, and are called by the Windows power management framework (PoFx).
+The callback routines are implemented by platform extension plug-ins, and are called by the Windows power management framework (PoFx).
 
 |Callback function|Description|
 |---|---|
@@ -367,7 +372,7 @@ The callback routines described in this section are implemented by platform exte
 |PowerOnDumpDeviceCallback| The PowerOnDumpDeviceCallback callback routine turns on the crash-dump device.
  
 ### Power management framework (PoFx) routines
-This section contains miscellaneous PoFx routines and structures that will most likely end up in the power-management section of the Kernel-Mode Driver Architecture doc set.
+Some miscellaneous PoFx routines and structures will most likely end up in the power-management section of the Kernel-Mode Driver Architecture doc set.
 
 |Initialization Function|Description|
 |---|---|
@@ -393,17 +398,17 @@ This section contains miscellaneous PoFx routines and structures that will most 
  
 
 ## Configuration Manager Routines
-This section describes the configuration manager routines. These routines use the CmXxx naming convention and are listed in alphabetical order.
+The configuration manager routines use the CmXxx naming convention.
 
-CmCallbackGetKeyObjectID
-CmCallbackGetKeyObjectIDEx
-CmCallbackReleaseKeyObjectIDEx
-CmGetBoundTransaction
-CmGetCallbackVersion
-CmRegisterCallback
-CmRegisterCallbackEx
-CmSetCallbackObjectContext
-CmUnRegisterCallback
+- CmCallbackGetKeyObjectID
+- CmCallbackGetKeyObjectIDEx
+- CmCallbackReleaseKeyObjectIDEx
+- CmGetBoundTransaction
+- CmGetCallbackVersion
+- CmRegisterCallback
+- CmRegisterCallbackEx
+- CmSetCallbackObjectContext
+- CmUnRegisterCallback
 
 ## Kernel Transaction Manager (KTM) Routines
 This section describes the routines, structures, and enumerations that the Kernel Transaction Manager (KTM) provides.
@@ -411,86 +416,86 @@ This section describes the routines, structures, and enumerations that the Kerne
 ### Transaction Manager Object Routines
 This section includes the following topics:
 
-TmRecoverTransactionManager
-ZwCreateTransactionManager
-ZwOpenTransactionManager
-ZwQueryInformationTransactionManager
-ZwRecoverTransactionManager
-ZwRollforwardTransactionManager
+- TmRecoverTransactionManager
+- ZwCreateTransactionManager
+- ZwOpenTransactionManager
+- ZwQueryInformationTransactionManager
+- ZwRecoverTransactionManager
+- ZwRollforwardTransactionManager
 
 ### Transaction Object Routines
 This section includes the following topics:
 
-TmCommitTransaction
-TmGetTransactionId
-TmIsTransactionActive
-TmRollbackTransaction
-ZwCommitTransaction
-ZwCreateTransaction
-ZwEnumerateTransactionObject
-ZwOpenTransaction
-ZwQueryInformationTransaction
-ZwRollbackTransaction
-ZwSetInformationTransaction
+- TmCommitTransaction
+- TmGetTransactionId
+- TmIsTransactionActive
+- TmRollbackTransaction
+- ZwCommitTransaction
+- ZwCreateTransaction
+- ZwEnumerateTransactionObject
+- ZwOpenTransaction
+- ZwQueryInformationTransaction
+- ZwRollbackTransaction
+- ZwSetInformationTransaction
 
 ###  Enlistment Object Routines
 This section includes the following topics:
 
-TmCommitComplete
-TmCommitEnlistment
-TmCreateEnlistment
-TmDereferenceEnlistmentKey
-TmPrepareComplete
-TmPrePrepareComplete
-TmPrepareEnlistment
-TmPrePrepareEnlistment
-TmReadOnlyEnlistment
-TmRecoverEnlistment
-TmReferenceEnlistmentKey
-TmRequestOutcomeEnlistment
-TmRollbackComplete
-TmRollbackEnlistment
-TmSinglePhaseReject
-ZwCommitComplete
-ZwCommitEnlistment
-ZwCreateEnlistment
-ZwOpenEnlistment
-ZwPrepareComplete
-ZwPrePrepareComplete
-ZwPrepareEnlistment
-ZwPrePrepareEnlistment
-ZwQueryInformationEnlistment
-ZwReadOnlyEnlistment
-ZwRecoverEnlistment
-ZwRollbackComplete
-ZwRollbackEnlistment
-ZwSetInformationEnlistment
-ZwSinglePhaseReject
+- TmCommitComplete
+- TmCommitEnlistment
+- TmCreateEnlistment
+- TmDereferenceEnlistmentKey
+- TmPrepareComplete
+- TmPrePrepareComplete
+- TmPrepareEnlistment
+- TmPrePrepareEnlistment
+- TmReadOnlyEnlistment
+- TmRecoverEnlistment
+- TmReferenceEnlistmentKey
+- TmRequestOutcomeEnlistment
+- TmRollbackComplete
+- TmRollbackEnlistment
+- TmSinglePhaseReject
+- ZwCommitComplete
+- ZwCommitEnlistment
+- ZwCreateEnlistment
+- ZwOpenEnlistment
+- ZwPrepareComplete
+- ZwPrePrepareComplete
+- ZwPrepareEnlistment
+- ZwPrePrepareEnlistment
+- ZwQueryInformationEnlistment
+- ZwReadOnlyEnlistment
+- ZwRecoverEnlistment
+- ZwRollbackComplete
+- ZwRollbackEnlistment
+- ZwSetInformationEnlistment
+- ZwSinglePhaseReject
 
 ### Resource Manager Object Routines
 This section includes the following topics:
 
-ResourceManagerNotification
-TmEnableCallbacks
-TmRecoverResourceManager
-ZwCreateResourceManager
-ZwGetNotificationResourceManager
-ZwOpenResourceManager
-ZwQueryInformationResourceManager
-ZwRecoverResourceManager
-ZwSetInformationResourceManager
+- ResourceManagerNotification
+- TmEnableCallbacks
+- TmRecoverResourceManager
+- ZwCreateResourceManager
+- ZwGetNotificationResourceManager
+- ZwOpenResourceManager
+- ZwQueryInformationResourceManager
+- ZwRecoverResourceManager
+- ZwSetInformationResourceManager
 
 ## Security Reference Monitor Routines
 Generally, higher-level drivers, particularly network drivers, call these routines.
 
 References for the SeXxx routines are in alphabetical order.
 
-SeAccessCheck
-SeAssignSecurity
-SeAssignSecurityEx
-SeDeassignSecurity
-SeFreePrivileges
-SeSinglePrivilegeCheck
+- SeAccessCheck
+- SeAssignSecurity
+- SeAssignSecurityEx
+- SeDeassignSecurity
+- SeFreePrivileges
+- - SeSinglePrivilegeCheck
 SeValidSecurityDescriptor
 
 
@@ -503,30 +508,32 @@ For an overview of the functionality of these routines, see Summary of Kernel-Mo
 
 The following routines are reserved for system use:
 
-KeAcquireSpinLockRaiseToSynch
-KeBreakinBreakpoint
-KeEnterKernelDebugger
-KeFlushWriteBuffer
-KeGetBugMessageText
-KeRaiseIrqlToSynchLevel
-KeRemoveByKeyDeviceQueueIfBusy
-KeSetTimeUpdateNotifyRoutine
+- KeAcquireSpinLockRaiseToSynch
+- KeBreakinBreakpoint
+- KeEnterKernelDebugger
+- KeFlushWriteBuffer
+- KeGetBugMessageText
+- KeRaiseIrqlToSynchLevel
+- KeRemoveByKeyDeviceQueueIfBusy
+- KeSetTimeUpdateNotifyRoutine
 
 ## Executive Library Support Routines
 This section describes the executive library support routines. These routines use the ExXxx naming convention and are listed in alphabetical order.
 
 The following executive support routines are reserved for system use. Do not use them in your driver.
 
-ExAcquireSpinLock. Use KeAcquireSpinLock instead.
-ExAcquireSpinLockAtDpcLevel. Use KeAcquireSpinLockAtDpcLevel instead.
-ExfInterlockedDecrementLong. Use InterlockedDecrement instead.
-ExfInterlockedExchangeUlong. Use InterlockedExchange instead.
-ExfInterlockedIncrementLong. Use InterlockedIncrement instead.
-ExfInterlockedPopEntryList. Use ExInterlockedPopEntryList instead.
-ExfInterlockedPushEntryList. Use ExInterlockedPushEntryList instead.
-ExReleaseSpinLock. Use KeReleaseSpinLock instead.
-ExReleaseSpinLockFromDpcLevel. Use KeReleaseSpinLockFromDpcLevel instead.
-ExVerifySuite.
+|Routine|Replacement|
+|---|---|
+|ExAcquireSpinLock| Use KeAcquireSpinLock instead.|
+|ExAcquireSpinLockAtDpcLevel| Use KeAcquireSpinLockAtDpcLevel instead.|
+|ExfInterlockedDecrementLong| Use InterlockedDecrement instead.|
+|ExfInterlockedExchangeUlong| Use InterlockedExchange instead.|
+|ExfInterlockedIncrementLong| Use InterlockedIncrement instead.|
+|ExfInterlockedPopEntryList| Use ExInterlockedPopEntryList instead.|
+|ExfInterlockedPushEntryList| Use ExInterlockedPushEntryList instead.|
+|ExReleaseSpinLock| Use KeReleaseSpinLock instead.|
+|ExReleaseSpinLockFromDpcLevel| Use KeReleaseSpinLockFromDpcLevel instead.|
+|ExVerifySuite||
 
 
 ## CLFS Library Routines
@@ -682,51 +689,51 @@ This section describes kernel-mode support routines that drivers can call:
 This section describes the silo DDIs. These DDIs offer the ability for kernel components to learn about the server silos that are created and destroyed on a machine.  Components register to receive notifications for these events and optionally store state that is associated with each silo.
 
 
-Context management
+### Context management
 These DDIs provide the ability to assign and retrieve context structures on silo objects. This allows drivers to attach per-silo information for each silo.
 
-PsAllocSiloContextSlot 
-PsFreeSiloContextSlot 
-PsCreateSiloContext 
-PsInsertSiloContext 
-PsReplaceSiloContext 
-PsInsertPermanentSiloContext 
-PsGetPermanentSiloContext 
-PsMakeSiloContextPermanent 
-PsGetSiloContext 
-PsRemoveSiloContext 
-PsReferenceSiloContext 
-PsDereferenceSiloContext 
-SILO_CONTEXT_CLEANUP_CALLBACK 
+- PsAllocSiloContextSlot 
+- PsFreeSiloContextSlot 
+- PsCreateSiloContext 
+- PsInsertSiloContext 
+- PsReplaceSiloContext 
+- PsInsertPermanentSiloContext 
+- PsGetPermanentSiloContext 
+- PsMakeSiloContextPermanent 
+- PsGetSiloContext 
+- PsRemoveSiloContext 
+- PsReferenceSiloContext 
+- PsDereferenceSiloContext 
+- SILO_CONTEXT_CLEANUP_CALLBACK 
 
 
-Threading
+### Threading
 These DDIs provide the ability to set and retrieve the silo for the current thread.
 
-PsAttachSiloToCurrentThread 
-PsDetachSiloFromCurrentThread 
-PsGetCurrentSilo 
-PsGetCurrentServerSilo 
+- PsAttachSiloToCurrentThread 
+- PsDetachSiloFromCurrentThread 
+- PsGetCurrentSilo 
+- PsGetCurrentServerSilo 
 
-Monitoring
+### Monitoring
 These DDIs provide the ability for a driver to receive notifications about silo creation and termination events.
 
-PsRegisterSiloMonitor 
-PsUnregisterSiloMonitor 
-PsStartSiloMonitor 
-PsGetSiloMonitorContextSlot 
-SILO_MONITOR_CREATE_CALLBACK 
-SILO_MONITOR_TERMINATE_CALLBACK 
+- PsRegisterSiloMonitor 
+- PsUnregisterSiloMonitor 
+- PsStartSiloMonitor 
+- PsGetSiloMonitorContextSlot 
+- SILO_MONITOR_CREATE_CALLBACK 
+- SILO_MONITOR_TERMINATE_CALLBACK 
 
-Helpers
+### Helpers
 These DDIs are helpful for working with silo objects.
 
-PsGetJobSilo 
-PsGetJobServerSilo 
-PsGetEffectiveServerSilo 
-PsIsHostSilo 
-PsGetHostSilo 
-PsTerminateServerSilo 
+- PsGetJobSilo 
+- PsGetJobServerSilo 
+- PsGetEffectiveServerSilo 
+- PsIsHostSilo 
+- PsGetHostSilo 
+- PsTerminateServerSilo 
 
 
 ## Synchronization
@@ -903,29 +910,29 @@ For an overview of the functionality of these routines and macros, see Memory Al
 
 The following routines are reserved for system use. Do not use them in your driver.
 
-MmAddPhysicalMemory
-MmAddPhysicalMemoryEx
-MmAddVerifierThunks
-MmCreateMirror
-MmGetMdlBaseVa
-MmGetPhysicalMemoryRanges
-MmGetProcedureAddress
-MmGetVirtualForPhysical
-MmIsVerifierEnabled
-MmIsIoSpaceActive
-MmMapUserAddressesToPage
-MmMapVideoDisplay
-MmMapViewInSessionSpace
-MmMapViewInSystemSpace
-MmMarkPhysicalMemoryAsBad
-MmMarkPhysicalMemoryAsGood
-MmProbeAndLockProcessPages
-MmRemovePhysicalMemory
-MmRemovePhysicalMemoryEx
-MmRotatePhysicalView
-MmUnmapVideoDisplay
-MmUnmapViewInSessionSpace
-MmUnmapViewInSystemSpace
+- MmAddPhysicalMemory
+- MmAddPhysicalMemoryEx
+- MmAddVerifierThunks
+- MmCreateMirror
+- MmGetMdlBaseVa
+- MmGetPhysicalMemoryRanges
+- MmGetProcedureAddress
+- MmGetVirtualForPhysical
+- MmIsVerifierEnabled
+- MmIsIoSpaceActive
+- MmMapUserAddressesToPage
+- MmMapVideoDisplay
+- MmMapViewInSessionSpace
+- MmMapViewInSystemSpace
+- MmMarkPhysicalMemoryAsBad
+- MmMarkPhysicalMemoryAsGood
+- MmProbeAndLockProcessPages
+- MmRemovePhysicalMemory
+- MmRemovePhysicalMemoryEx
+- MmRotatePhysicalView
+- MmUnmapVideoDisplay
+- MmUnmapViewInSessionSpace
+- MmUnmapViewInSystemSpace
 
 For more information about memory allocation and buffer management, see Memory Management for Windows Drivers.
 
@@ -1193,17 +1200,15 @@ For more information about the relationship between NtXxx and ZwXxx routines, se
 
 The following routines are reserved for system use. Do not use them in your driver.
 
-ZwCancelTimer. Use KeCancelTimer instead.
+|Routine|Replacement|
+|ZwCancelTimer| Use KeCancelTimer instead.|
+|ZwCreateTimer| Use KeInitializeTimer or KeInitializeTimerEx instead.|
+|ZwOpenTimer.||
+|ZwSetTimer| Use KeSetTimer instead.|
+|NtRenameTransactionManager| Obsolete.|
 
-ZwCreateTimer. Use KeInitializeTimer or KeInitializeTimerEx instead.
-
-ZwOpenTimer.
-
-ZwSetTimer. Use KeSetTimer instead.
-
-NtRenameTransactionManager is obsolete.
-
-Note  NtRenameTransactionManager and TmRenameTransactionManager are two versions of the same routine. Kernel-mode drivers should not call NtRenameTransactionManager. They should instead call TmRenameTransactionManager. 
+> [!NOTE]
+> NtRenameTransactionManager and TmRenameTransactionManager are two versions of the same routine. Kernel-mode drivers should not call NtRenameTransactionManager. They should instead call TmRenameTransactionManager. 
  
 |Function|Description|
 |---|---|
@@ -1286,15 +1291,15 @@ The Auxiliary Kernel-Mode Library enables drivers to access some system capabili
 The AuxKlibInitialize routine initializes the Auxiliary Kernel-Mode Library. Drivers that use this library must call AuxKlibInitialize before calling any of the library's other routines.
 
 
-AuxKlibEnumerateSystemFirmwareTables
-AuxKlibGetBugCheckData
-AuxKlibGetImageExportDirectory
-AuxKlibGetSystemFirmwareTable
-AuxKlibInitialize
-AuxKlibQueryModuleInformation
-AUX_MODULE_BASIC_INFO
-AUX_MODULE_EXTENDED_INFO
-KBUGCHECK_DATA
+- AuxKlibEnumerateSystemFirmwareTables
+- AuxKlibGetBugCheckData
+- AuxKlibGetImageExportDirectory
+- AuxKlibGetSystemFirmwareTable
+- AuxKlibInitialize
+- AuxKlibQueryModuleInformation
+- AUX_MODULE_BASIC_INFO
+- AUX_MODULE_EXTENDED_INFO
+- KBUGCHECK_DATA
 
  
 ## Processor Group Compatibility Library
@@ -1302,32 +1307,32 @@ Support is available for kernel-mode drivers that use processor groups. The Proc
 
 The ProcGrp library is designed to meet the compatibility requirements of drivers that call the following KeXxx routines but must also run on versions of Windows that do not implement these routines:
 
-KeGetCurrentProcessorNumberEx
-KeGetProcessorIndexFromNumber
-KeGetProcessorNumberFromIndex
-KeQueryActiveGroupCount
-KeQueryActiveProcessorCountEx
-KeQueryGroupAffinity
-KeQueryMaximumProcessorCount
-KeQueryMaximumProcessorCountEx
-KeQueryMaximumGroupCount
-KeSetSystemAffinityThreadEx
-KeSetSystemGroupAffinityThread
-KeRevertToUserAffinityThreadEx
-KeRevertToUserGroupAffinityThread
-KeSetTargetProcessorDpcEx
+- KeGetCurrentProcessorNumberEx
+- KeGetProcessorIndexFromNumber
+- KeGetProcessorNumberFromIndex
+- KeQueryActiveGroupCount
+- KeQueryActiveProcessorCountEx
+- KeQueryGroupAffinity
+- KeQueryMaximumProcessorCount
+- KeQueryMaximumProcessorCountEx
+- KeQueryMaximumGroupCount
+- KeSetSystemAffinityThreadEx
+- KeSetSystemGroupAffinityThread
+- KeRevertToUserAffinityThreadEx
+- KeRevertToUserGroupAffinityThread
+- KeSetTargetProcessorDpcEx
 
 The ProcGrp library implements wrapper functions for the KeXxx routines in the preceding list. If the library runs on Windows 7 or Windows Server 2008 R2, the wrapper functions simply call the corresponding KeXxx routines. The wrapper functions have the same names as these KeXxx routines, and their behavior is identical to that of the KeXxx routines that they replace.
 
 Earlier versions of Windows do not support processor groups and do not implement the KeXxx routines in the preceding list. If the ProcGrp library is linked to a driver that runs on one of these earlier versions of Windows, the library initialization function, WdmlibProcgrpInitialize, detects that the operating system does not support processor groups. To deal with this case, each wrapper function contains a simplified implementation of the corresponding KeXxx routine. This implementation supports only one processor group, group number 0. For example, the wrapper function for the KeQueryMaximumGroupCount routine always returns a count of one. For another example, the wrapper function for the KeGetCurrentProcessorNumberEx routine emulates this routine by calling the KeGetCurrentProcessorNumber routine. KeGetCurrentProcessorNumber is similar to KeGetCurrentProcessorNumberEx, but lacks support for processor groups, which, in this case, has the same effect as supporting just one processor group.
 
-For more information about the support for processor groups in Windows 7, see the Supporting Systems That Have More Than 64 Processors white paper on the WHDC website.
+For more information about the support for processor groups in Windows 7, see the [Supporting Systems That Have More Than 64 Processors white paper](http://download.microsoft.com/download/a/d/f/adf1347d-08dc-41a4-9084-623b1194d4b2/MoreThan64proc.docx) on the WHDC website.
 
 The ProcGrp library is contained in the Windows 7 version of the WDK. The library functions are declared in the Procgrp.h header file and are implemented in the Procgrp.lib library file. 
 
 In addition to the KeXxx wrapper functions, the ProcGrp library implements the following function to initialize the library:
 
-WdmlibProcgrpInitialize
+- WdmlibProcgrpInitialize
 
 
 
@@ -1478,7 +1483,7 @@ Keep notify routines short and simple.
 
 
 ## Run-Time Library (RTL) Routines
-For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see Safe String Functions. Other string manipulation functions include the following:
+For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see [Safe String Functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/_kernel/#safe-string-functions-for-unicode-and-ansi-characters), below. Other string manipulation functions include the following:
 
 |Function|Description|
 |---|---|
@@ -1505,17 +1510,20 @@ For information about functions that copy, concatenate, and format strings in a 
 
 The following routines are reserved for system use. Do not use them in your driver.
 
-RtlAssert. Use ASSERT instead. 
-RtlGetCallersAddress. Use the intrinsic _ReturnAddress instead. 
-RtlInterlockedAndBits. Use InterlockedAnd instead.
-RtlInterlockedAndBitsDiscardReturn. Use InterlockedAnd instead.
-RtlInterlockedClearBits. Use InterlockedAnd instead.
-RtlInterlockedClearBitsDiscardReturn. Use InterlockedAnd instead.
-RtlInterlockedSetBits. Use InterlockedOr instead.
-RtlInterlockedSetBitsDiscardReturn. Use InterlockedOr instead.
-RtlInterlockedSetClearBits
-RtlInterlockedXorBits. Use InterlockedXor instead.
-RtlWalkFrameChain
+|Routine|Replacement|
+|---|---|
+|RtlAssert| Use ASSERT instead. |
+|RtlGetCallersAddress| Use the intrinsic _ReturnAddress instead. |
+|RtlInterlockedAndBits| Use InterlockedAnd instead.|
+|RtlInterlockedAndBitsDiscardReturn| Use InterlockedAnd instead.|
+|RtlInterlockedClearBits| Use InterlockedAnd instead.|
+|RtlInterlockedClearBitsDiscardReturn| Use InterlockedAnd instead.|
+|RtlInterlockedSetBits| Use InterlockedOr instead.|
+|RtlInterlockedSetBitsDiscardReturn| Use InterlockedOr instead.|
+|RtlInterlockedSetClearBits||
+|RtlInterlockedXorBits| Use InterlockedXor instead|
+|RtlWalkFrameChain||
+
 
 ### Safe String Functions for Unicode and ANSI Characters
 Use the functions in this section to manipulate Unicode and ANSI strings in kernel-mode drivers.
@@ -1526,7 +1534,8 @@ A W-suffixed version that supports two-byte Unicode characters.
 
 An A-suffixed version that supports one-byte ANSI characters.
 
-If you use the safe string functions instead of the string manipulation functions that are provided by C-language run-time libraries, you protect your code from buffer overrun errors that can make code untrustworthy. For more information, see Using Safe String Functions.
+If you use the safe string functions instead of the string manipulation functions that are provided by C-language run-time libraries, you protect your code from buffer overrun errors that can make code untrustworthy. For more information, see [Using Safe String Functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-safe-string-functions).
+
 |Function|Description|
 |---|---|
 |RtlStringCbCatW| The RtlStringCbCatW and RtlStringCbCatA functions concatenate two byte-counted strings.
@@ -1561,7 +1570,7 @@ If you use the safe string functions instead of the string manipulation function
 ### Safe String Functions for UNICODE_STRING Structures
 Use the functions in this section to manipulate strings within UNICODE_STRING structures in kernel-mode drivers.
 
-If you use the safe string functions instead of the string manipulation functions that C-language run-time libraries provide, you protect your code from buffer overrun errors that can make code untrustworthy. For more information about safe string functions, see Using Safe String Functions.
+If you use the safe string functions instead of the string manipulation functions that C-language run-time libraries provide, you protect your code from buffer overrun errors that can make code untrustworthy. For more information about safe string functions, see [Using Safe String Functions](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-safe-string-functions).
 
 |Function|Description|
 |---|---|
@@ -1671,15 +1680,6 @@ The Intsafe.h header file in the Windows SDK defines a similar set of safe integ
 |KeInitializeCallbackRecord |Initializes a bug-check callback record before a device driver calls KeRegisterBugCheckCallback. 
 |KeRegisterBugCheckCallback |Registers the device driver's bug-check callback routine, which is called if a system bug check occurs. Such a driver-supplied routine saves driver-determined state information, such as the contents of device registers, that would not otherwise be written into the system crash-dump file. 
 |KeDeregisterBugCheckCallback |Removes a device driver's callback routine from the set of registered bug-check callback routines. 
-
-
-
-
-
-
-
-
-
 
 
 

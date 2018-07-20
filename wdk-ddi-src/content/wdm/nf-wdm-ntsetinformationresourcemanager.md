@@ -61,22 +61,22 @@ The <b>ZwSetInformationResourceManager</b> routine is not used.
 
 ### -param ResourceManagerHandle
 
-TBD
+Not used.
 
 
 ### -param ResourceManagerInformationClass
 
-TBD
+Not used.
 
 
 ### -param ResourceManagerInformation
 
-TBD
+Not used.
 
 
 ### -param ResourceManagerInformationLength
 
-TBD
+Not used.
 
 
 

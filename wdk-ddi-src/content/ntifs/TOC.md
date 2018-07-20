@@ -762,6 +762,7 @@
 ### [_IO_STOP_ON_SYMLINK_FILTER_ECP_v0 structure](../ntifs/ns-ntifs-_io_stop_on_symlink_filter_ecp_v0.md)
 ### [_MEMORY_BASIC_INFORMATION structure](../ntifs/ns-ntifs-_memory_basic_information.md)
 ### [_NETWORK_APP_INSTANCE_ECP_CONTEXT structure](../ntifs/ns-ntifs-_network_app_instance_ecp_context.md)
+### [_NETWORK_APP_INSTANCE_EA structure](../ntifs/ns-ntifs-_network_app_instance_ea.md)
 ### [_NETWORK_OPEN_ECP_CONTEXT structure](../ntifs/ns-ntifs-_network_open_ecp_context.md)
 ### [_NETWORK_OPEN_ECP_CONTEXT_V0 structure](../ntifs/ns-ntifs-_network_open_ecp_context_v0.md)
 ### [_NFS_OPEN_ECP_CONTEXT structure](../ntifs/ns-ntifs-_nfs_open_ecp_context.md)

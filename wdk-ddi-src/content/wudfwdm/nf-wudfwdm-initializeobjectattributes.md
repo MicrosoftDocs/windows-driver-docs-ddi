@@ -65,7 +65,7 @@ Specifies the OBJECT_ATTRIBUTES structure to initialize.
 
 ### -param n
 
-A pointer to a Unicode string that contains name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the RootDirectory parameter.TBD
+A pointer to a Unicode string that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the RootDirectory parameter.
 
 
 ### -param a

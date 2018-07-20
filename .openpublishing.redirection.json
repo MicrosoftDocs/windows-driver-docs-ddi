@@ -1,0 +1,239 @@
+{
+  "redirections": [
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelallocate.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_allocate",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcleanup.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_cleanup",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_create_gpadl_from_buffer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrommdl.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_create_gpadl_from_mdl",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchanneldeletegpadl.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_delete_gpadl",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchanneldisable.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_disable",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelenable.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_enable",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelgetinterfaceinstance.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_get_interface_instance",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelgetpointer.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_get_pointer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetclientcontextsize.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_client_context_size",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetflags.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_flags",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetfriendlyname.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_friendly_name",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetmaximumexternaldata.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_maximum_external_data",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetmaximumpacketsize.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_maximum_packet_size",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_process_packet_callbacks",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetstatechangecallbacks.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_init_set_state_change_callbacks",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelmapgpadl.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_map_gpadl",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpacketcomplete.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_complete",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpacketdefertopassive.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_defer_to_passive",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpacketfail.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_fail",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpacketgetexternaldata.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_packet_get_external_data",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelpause.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_pause",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelrestorefrombuffer.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_restore_from_buffer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_begin",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_continue",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsaveend.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_save_end",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsendsynchronousrequest.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_send_synchronous_request",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsetincomingprocessingatpassive.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_incoming_processing_at_passive",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsetpointer.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_pointer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsettransactionquota.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_set_transaction_quota",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsizeofpacket.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_sizeof_packet",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelstart.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_start",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelunmapgpadl.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_unmap_gpadl",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbclientchannelinitsetringbufferpagecount.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_client_channel_init_set_ring_buffer_page_count",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbclientchannelinitsettargetpnp.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_client_channel_init_set_target_pnp",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbconvertvmbushandletokernelhandle.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_convert_vmbus_handle_to_kernel_handle",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketallocate.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_allocate",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketfree.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_free",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketgetchannel.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_get_channel",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketgetpointer.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_get_pointer",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketinitialize.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_initialize",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketrestore.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_restore",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalmdl.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send_with_external_mdl",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_send_with_external_pfns",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsetcompletionroutine.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_set_completion_routine",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsetpointer.md",
+      "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-fn_vmb_packet_set_pointer",
+      "redirect_document_id": true
+    }
+  ]
+}

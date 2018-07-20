@@ -181,11 +181,8 @@ Identifies a <b>UCHAR</b> value that is a protocol identifier as one of the foll
 <li>NDIS_PROTOCOL_ID_DEFAULT</li><ul><li>A default protocol driver identifier.</li></ul>
 <li>NDIS_PROTOCOL_ID_TCP_IP</li><ul><li>The TCP/IP protocol.</li></ul>
 <li>NDIS_PROTOCOL_ID_IPX</li><ul><li>The IPX protocol.</li></ul>
+<li>NDIS_PROTOCOL_ID_NBF</li><ul><li>The NetBEUI protocol.</li></ul>
 </ul>
-
-#### NDIS_PROTOCOL_ID_NBF
-
-The NetBEUI protocol.
 
 
 ### -field NetBufferListHashValue
@@ -286,6 +283,7 @@ Identifies a <b>ULONG</b> value that is the number of data bytes that were recei
 
 ### -field NrtNameResolutionId
 
+Reserved.
 
 ### -field SwitchForwardingReserved
 
@@ -314,7 +312,7 @@ Identifies a pointer to a driver-allocated <a href="https://msdn.microsoft.com/l
 
 ### -field RscTcpTimestampDelta
 
-Identifies a pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh451655">NDIS_RSC_NBL_INFO</a> union containing RSC timestamp information. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451655">NDIS_RSC_NBL_INFO</a> documentation.
+Identifies a **ULONG** value containing RSC timestamp information. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451655">NDIS_RSC_NBL_INFO</a> documentation.
 
 
 ### -field TcpSendOffloadsSupplementalNetBufferListInfo

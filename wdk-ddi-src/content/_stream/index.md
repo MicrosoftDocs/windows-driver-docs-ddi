@@ -754,9 +754,9 @@ For the programming guide, see [Streaming media devices](https://docs.microsoft.
 | [IOCTL_LAMP_SET_INTENSITY_COLOR IOCTL](..\lamp\ni-lamp-ioctl_lamp_set_intensity_color.md) | The IOCTL_LAMP_SET_INTENSITY_COLOR control code sets the lamp to the specified light intensity. |
 | [IOCTL_LAMP_SET_INTENSITY_WHITE IOCTL](..\lamp\ni-lamp-ioctl_lamp_set_intensity_white.md) | The IOCTL_LAMP_SET_INTENSITY_WHITE control code sets the lamp to the specified light intensity. |
 | [IOCTL_LAMP_SET_MODE IOCTL](..\lamp\ni-lamp-ioctl_lamp_set_mode.md) | The IOCTL_LAMP_SET_MODE control code sets the mode in which the lamp operates. |
-| [IOCTL_SWENUM_GET_BUS_ID IOCTL](..\swenum\ni-swenum-ioctl_swenum_get_bus_id.md) | TBD |
-| [IOCTL_SWENUM_INSTALL_INTERFACE IOCTL](..\swenum\ni-swenum-ioctl_swenum_install_interface.md) | TBD |
-| [IOCTL_SWENUM_REMOVE_INTERFACE IOCTL](..\swenum\ni-swenum-ioctl_swenum_remove_interface.md) | TBD |
+| [IOCTL_SWENUM_GET_BUS_ID IOCTL](..\swenum\ni-swenum-ioctl_swenum_get_bus_id.md) | The IOCTL_SWENUM_GET_BUS_ID control code returns the bus ID for the demand-load bus enumerator object. |
+| [IOCTL_SWENUM_INSTALL_INTERFACE IOCTL](..\swenum\ni-swenum-ioctl_swenum_install_interface.md) | The IOCTL_SWENUM_INSTALL_INTERFACE control code installs the interface for the demand-load bus enumerator object. |
+| [IOCTL_SWENUM_REMOVE_INTERFACE IOCTL](..\swenum\ni-swenum-ioctl_swenum_remove_interface.md) | The IOCTL_SWENUM_REMOVE_INTERFACE control code removes the interface for the demand-load bus enumerator object. |
 
 ## Interfaces
 

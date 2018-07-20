@@ -58,18 +58,10 @@ The <b>RtlAnsiStringToUnicodeSize</b> routine returns the number of bytes requir
 
 
 
-### -param STRING
+### -param STRING [in]
 
-TBD
+Pointer to a buffer containing the ANSI string.
 
-
-
-
-
-
-#### - AnsiString [in]
-
-Pointer to a buffer containing the ANSI string. 
 
 
 ## -remarks
