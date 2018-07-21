@@ -71,9 +71,7 @@ This method does not return a value.
 
 ## -remarks
 
-Client drivers must call this method from within their [*EVT_NET_ADAPTER_SET_CAPABILITIES*](nc-netadapter-evt_net_adapter_set_capabilities.md) callback function.
-
->[!IMPORTANT]
+> [!IMPORTANT]
 > Client drivers must call this method *before* calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
 ## -see-also
@@ -85,7 +83,5 @@ Client drivers must call this method from within their [*EVT_NET_ADAPTER_SET_CAP
 [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md)
 
 [*EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM*](nc-netadapter-evt_net_adapter_offload_set_checksum.md)
-
-[*EVT_NET_ADAPTER_SET_CAPABILITIES*](nc-netadapter-evt_net_adapter_set_capabilities.md)
 
 [**NetAdapterStart**](nf-netadapter-netadapterstart.md)

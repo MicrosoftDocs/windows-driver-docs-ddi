@@ -54,15 +54,15 @@ The size of this structure, in bytes.
  
 ### -field IPv4
 
-A flag specifying whether the hardware can calculate and validate IPv4 checksum.
+A flag specifying whether the NIC can calculate and validate IPv4 checksum.
  
 ### -field Tcp
 
-A flag specifying whether the hardware can calculate and validate TCP checksum.
+A flag specifying whether the NIC can calculate and validate TCP checksum.
  
 ### -field Udp
  
-A flag specifying whether the hardware can calculate and validate UDP checksum.
+A flag specifying whether the NIC can calculate and validate UDP checksum.
 
 ## -remarks
 

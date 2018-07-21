@@ -2,7 +2,7 @@
 UID: NC:netadapter.EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
 title: EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM
 author: windows-driver-content
-description: The EvtNetAdapterOffloadSetChecksum callback function is implemented by the client driver to set changes in checksum offload capabilities when notified by the TCP/IP stack or an overlying protocol driver.
+description: The EvtNetAdapterOffloadSetChecksum callback function is implemented by the client driver to set changes in checksum offload capabilities.
 ms.assetid: 054d73bb-6832-41f6-b654-89d29bbc1892
 ms.author: windowsdriverdev
 ms.date: 07/19/2018
@@ -47,7 +47,7 @@ targetos: Windows
 >
 > NetAdapterCx is preview only in Windows 10, version 1809.
 
-The *EvtNetAdapterOffloadSetChecksum* callback function is implemented by the client driver to set changes in active checksum offload capabilities when notified by the TCP/IP stack or an overlying protocol driver.
+The *EvtNetAdapterOffloadSetChecksum* callback function is implemented by the client driver to set changes in active checksum offload capabilities.
 
 ## -prototype
 
@@ -75,7 +75,7 @@ A handle to a NETADAPTER object the client driver previously created with a call
 
 ### -param ActiveCapabilities
 
-A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure that describes the hardware's updated active checksum offload capabilities.
+A pointer to a [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure that describes the hardware's updated active checksum offload capabilities.
 
 ## -returns
 
@@ -83,7 +83,7 @@ This callback function does not return a value.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md) from within your [*EVT_NET_ADAPTER_SET_CAPABILITIES*](nc-netadapter-evt_net_adapter_set_capabilities.md) callback.
+Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md).
 
 ### Example
 
@@ -115,5 +115,3 @@ MyEvtAdapterOffloadSetChecksum(
 [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md)
 
 [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md)
-
-[*EVT_NET_ADAPTER_SET_CAPABILITIES*](nc-netadapter-evt_net_adapter_set_capabilities.md)

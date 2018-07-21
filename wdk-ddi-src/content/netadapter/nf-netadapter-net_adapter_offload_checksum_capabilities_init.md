@@ -15,7 +15,7 @@ req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver: 1.27
 req.umdf-ver:
-req.lib:
+req.lib: netadaptercxstub.lib
 req.dll:
 req.irql: 
 req.ddi-compliance:
@@ -75,7 +75,7 @@ This method does not return a value.
 
 ## -remarks
 
-Client drivers typically call this method from within their [*EVT_NET_ADAPTER_SET_CAPABILITIES*](nc-netadapter-evt_net_adapter_set_capabilities.md) callback function when configuring hardware checksum offload capabilities. The [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure initialized by this method is passed as a parameter to the [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md) method.
+The [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure initialized by this method is passed as a parameter to the [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md) method.
 
 ## -see-also
 
