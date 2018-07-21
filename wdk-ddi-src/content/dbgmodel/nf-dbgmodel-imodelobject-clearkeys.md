@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 7922533c-4454-4300-943d-5a7c3cd68f22
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IModelObject::ClearKeys, ClearKeys, IModelObject.ClearKeys, IModelObject::ClearKeys, IModelObject.ClearKeys
 req.header: dbgmodel.h
@@ -44,13 +44,29 @@ targetos: Windows
 
 ## -description
 
-TBD
+The ClearKeys method removes all keys and their associated values and metadata from the instance of the object specified by this. This method has no effect on parent models attached to the particular object instance. 
 
 ## -parameters
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+
+**Code Sample**
+
+```
+ComPtr<IModelObject> spObject; /* get an object */
+
+if (SUCCEEDED(spObject->ClearKeys()))
+{
+    // The *instance* spObject has no keys.  Parent models may still have keys.
+    // EnumerateKeyValues / EnumerateKeys / etc... may still return those parent keys.
+}
+```
+
 ## -see-also
+
+[IModelObject interface](nn-dbgmodel-imodelobject.md)

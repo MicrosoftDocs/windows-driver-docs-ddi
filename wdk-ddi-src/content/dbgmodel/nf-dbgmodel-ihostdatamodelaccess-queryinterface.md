@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: a0f894dc-1518-4994-af6d-746f75f1b6d9
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:  07/20/2018
 ms.topic: method
 ms.keywords: IHostDataModelAccess::QueryInterface, QueryInterface, IHostDataModelAccess.QueryInterface, IHostDataModelAccess::QueryInterface, IHostDataModelAccess.QueryInterface
 req.header: dbgmodel.h
@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-TBD
+Standard COM method.
 
 ## -parameters
 
@@ -58,3 +58,5 @@ This method returns HRESULT.
 ## -remarks
 
 ## -see-also
+
+[IDataHostModelAccess interface](nn-dbgmodel-ihostdatamodelaccess.md)

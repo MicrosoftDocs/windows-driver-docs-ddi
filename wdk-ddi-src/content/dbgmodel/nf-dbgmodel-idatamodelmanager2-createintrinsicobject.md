@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: ea2b69bc-9bd1-437f-b8c7-2b976a3739aa
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:  07/20/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::CreateIntrinsicObject, CreateIntrinsicObject, IDataModelManager2.CreateIntrinsicObject, IDataModelManager2::CreateIntrinsicObject, IDataModelManager2.CreateIntrinsicObject
 req.header: dbgmodel.h

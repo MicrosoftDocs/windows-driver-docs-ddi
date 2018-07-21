@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 79331ae3-8757-4197-a482-70bb52716b60
 ms.author: windowsdriverdev
-ms.date: 
+ms.date:  07/20/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::Close, Close, IDataModelManager2.Close, IDataModelManager2::Close, IDataModelManager2.Close
 req.header: dbgmodel.h
@@ -44,13 +44,28 @@ targetos: Windows
 
 ## -description
 
-TBD
+The Close method is called on the data model manager by an application (e.g.: debugger) hosting the data model in order to start the shutdown process of the data model manager. A host of the data model which does not the Close method prior to releasing its final reference on the data model manager may cause undefined behavior including, but not limited to, significant leaks of the management infrastructure for the data model. 
 
 ## -parameters
 
 
 ## -returns
 This method returns HRESULT.
+
 ## -remarks
 
+**Sample Code**
+
+```
+ComPtr<IDataModelManager2> spManager2; /* get the data model manager */
+
+if (SUCCEEDED(spManager->Close()))
+{
+    // We can now shut down the debug host which is hosting the data model.
+}
+
+```
+
 ## -see-also
+
+[IDataModelManager2 interface](nn-dbgmodel-idatamodelmanager2.md)

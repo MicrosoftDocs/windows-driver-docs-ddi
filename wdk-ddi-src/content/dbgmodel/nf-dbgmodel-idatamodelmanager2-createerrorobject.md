@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: 78cbba35-8827-4e76-bcb3-97aeb0378d33
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IDataModelManager2::CreateErrorObject, CreateErrorObject, IDataModelManager2.CreateErrorObject, IDataModelManager2::CreateErrorObject, IDataModelManager2.CreateErrorObject
 req.header: dbgmodel.h

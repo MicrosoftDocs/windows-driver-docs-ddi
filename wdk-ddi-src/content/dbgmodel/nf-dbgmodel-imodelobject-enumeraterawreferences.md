@@ -5,7 +5,7 @@ author: windows-driver-content
 description: TBD
 ms.assetid: fe0e5bc3-e852-4755-81b5-e169365b3064
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 07/20/2018
 ms.topic: method
 ms.keywords: IModelObject::EnumerateRawReferences, EnumerateRawReferences, IModelObject.EnumerateRawReferences, IModelObject::EnumerateRawReferences, IModelObject.EnumerateRawReferences
 req.header: dbgmodel.h
@@ -44,19 +44,32 @@ targetos: Windows
 
 ## -description
 
-TBD
+The EnumerateRawReferences method enumerates references to all native children (e.g.: fields, base classes, etc...) of the given object. 
 
 ## -parameters
 
 ### -param kind
+Indicates the kind of native symbol to fetch (e.g.: a base class or a data member).
 
 ### -param searchFlags
+An optional set of flags specifying the behavior of the search for the native construct.
 
 ### -param enumerator
+An enumerator which will enumerate a reference (an object that is a ObjectTargetObjectReference style object) to every native child of the kind specified by the kind argument as an IRawEnumerator interface. 
 
 
 ## -returns
-This method returns HRESULT.
+This method returns HRESULT that indicates success or failure.
+
 ## -remarks
 
+
+**Code Sample**
+
+```
+
+```
+
 ## -see-also
+
+[IModelObject interface](nn-dbgmodel-imodelobject.md)
