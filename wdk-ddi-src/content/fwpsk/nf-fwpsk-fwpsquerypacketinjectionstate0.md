@@ -106,7 +106,7 @@ Because injected packet data can be reclassified against the callout that inject
 
 A callout can track other callout-specific information by specifying the optional 
     <i>injectionContext</i> handle in one of the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a> at the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> at the
     time of packet data injection. If the 
     <b>FwpsQueryPacketInjectionState0</b> function returns <b>FWPS_PACKET_INJECTED_BY_SELF</b> or
     <b>FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF</b>, the supplied 

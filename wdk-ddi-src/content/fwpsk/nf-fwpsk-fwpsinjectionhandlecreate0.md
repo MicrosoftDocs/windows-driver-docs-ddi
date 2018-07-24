@@ -53,7 +53,7 @@ req.typenames:
 
 The 
   <b>FwpsInjectionHandleCreate0</b> function creates a handle that can be used by 
-  <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection functions</a> to inject
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> to inject
   packet or stream data into the TCP/IP network stack and by the 
   <a href="https://msdn.microsoft.com/library/windows/hardware/ff551202">FwpsQueryPacketInjectionState0</a> function to query the packet injection state.
 <div class="alert"><b>Note</b>  <b>FwpsInjectionHandleCreate0</b> is a specific version of <b>FwpsInjectionHandleCreate</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
@@ -208,7 +208,7 @@ A callout driver calls the
     <b>FwpsInjectionHandleCreate0</b> function to create a handle that can be used for injecting packet or
     stream data into the TCP/IP network stack and to query the packet injection state. A callout driver
     passes the created handle to the 
-    <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">packet injection
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection
     functions</a> and 
     <a href="https://msdn.microsoft.com/785d99a5-a8c9-4763-bdd4-e26f604f6be7">
     FwpsQueryPacketInjectionState0</a>.
@@ -240,7 +240,7 @@ When injections are being made to the network layer and both IPv4 and IPv6 addre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff545018">Packet Injection Functions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">Packet Injection Functions</a>
  
 
  
